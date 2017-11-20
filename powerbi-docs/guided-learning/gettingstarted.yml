@@ -1,0 +1,51 @@
+documentType: Tutorial
+title: "시작"
+metadata:
+  title: "시작 | Microsoft Power BI"
+  description: "Power BI가 무엇이며, 구성 요소가 함께 작동하게 하는 방법과, 데이터에 대한 통찰력을 확보하는 방법에 대해 살펴봅니다."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: gettingdata
+  nextTutorialTitle: "데이터 가져오기"
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "Power BI가 무엇이며, 구성 요소가 함께 작동하게 하는 방법과, 데이터에 대한 통찰력을 확보하는 방법에 대해 살펴봅니다.\n"
+  ms.openlocfilehash: 398c10dfbcd935276b98f3d50df172d6b0d2af48
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 11/15/2017
+- title: "Power BI 소개"
+  durationInMinutes: 5
+  content: >
+    [!INCLUDE [](includes/0-0-what-is-power-bi.md)]
+- title: "Power BI 사용"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/1c01r_pAZdk?rel=0]
+
+
+    [!INCLUDE [](includes/0-1-intro-using-power-bi.md)]
+- title: "Power BI의 구성 요소"
+  durationInMinutes: 6
+  content: >
+    [!INCLUDE [](includes/0-0b-building-blocks-power-bi.md)]
+- title: "Power BI 서비스 둘러보기"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/5srP3h3RJf8?rel=0]
+
+
+    [!INCLUDE [](includes/0-3-dashboards-cloud-services.md)]
+- title: "검토 및 다음 단계"
+  durationInMinutes: 5
+  content: >
+    [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
+- content: "Power BI에 대한 단계별 학습 과정의 **시작** 단원을 마쳤습니다.\0"

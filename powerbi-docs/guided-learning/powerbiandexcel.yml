@@ -1,0 +1,60 @@
+documentType: Tutorial
+title: "Power BI 및 Excel"
+metadata:
+  title: "Power BI 및 Excel | Microsoft Power BI"
+  description: "Excel 및 Power BI를 함께 사용하여 강력하고 연결된 보고서와 시각적 개체를 만듭니다."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: publishingandsharing
+  nextTutorialTitle: "게시 및 공유"
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "Excel 및 Power BI를 함께 사용하여 강력하고 연결된 보고서와 시각적 개체를 만듭니다.\n"
+  ms.openlocfilehash: 2d734b12d3ff197addff0a0cf39b1f399d70e3a6
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 11/15/2017
+- title: "Power BI에서 Excel 데이터 사용 소개"
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/TWVqSlkjVPw?rel=0]
+
+
+    [!INCLUDE [](includes/5-1-intro-excel-data.md)]
+- title: "Power BI에 Excel 데이터 업로드"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/8-z6QoaNL3A?rel=0]
+
+
+    [!INCLUDE [](includes/5-2-upload-excel.md)]
+- title: "Power BI로 파워 뷰 및 파워 피벗 가져오기"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/nVkpj0tB4Yk?rel=0]
+
+
+    [!INCLUDE [](includes/5-3-import-powerpivot-powerview.md)]
+- title: "Power BI에 비즈니스용 OneDrive 연결"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/WK7OZF-hVZA?rel=0]
+
+
+    [!INCLUDE [](includes/5-4-connect-onedrive-for-business.md)]
+- title: "Power BI의 Excel - 요약"
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/HNhK9XMuyO4?rel=0]
+
+
+    [!INCLUDE [](includes/5-8-excel-data-summary.md)]
+- content: "Microsoft Power BI에 대한 단계별 학습 과정의 **Power BI 및 Excel** 단원을 마쳤습니다.\0"

@@ -1,0 +1,1483 @@
+---
+title: "Power BI Desktop에 대한 이전 월별 업데이트"
+description: "Power BI Desktop의 이전 릴리스에서 기능 업데이트"
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: identified
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: get-started-article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 11/08/2017
+ms.author: davidi
+ms.openlocfilehash: 0d25b8415926b1049c84359fdee0f6a339064b58
+ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/15/2017
+---
+# <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
+
+이 문서는 **Power BI Desktop**에 대한 이전 업데이트를 설명합니다. 가장 최근 달의 릴리스의 경우 [**Power BI Desktop** 최신 업데이트](desktop-latest-update.md)를 확인합니다.
+
+다음 섹션은 이전 달들의 **Power BI Desktop**에 대한 업데이트를 설명합니다.
+
+항상 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. 월별 버전은 **Power BI Desktop** 설치 방법에 관계없이 같습니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+
+
+## <a name="october-2017-update-2514885543"></a>2017년 10월 업데이트(2.51.4885.543)
+
+10월에는 **Power BI Desktop**에 매우 유용한 업데이트가 있었습니다. 
+
+각 업데이트 옆의 링크는 다음을 의미합니다.
+
+-   기능을 설명하는 경우 **[비디오]**에서 발췌된 내용이 새 브라우저 탭에서 재생됩니다.
+-   일부 기능에는 세부 사항을 제공하는 **[문서]**가 있습니다.
+-   대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
+-   마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+
+처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+
+이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
+
+### <a name="reporting"></a>보고:
+
+-   책갈피(미리 보기) [[비디오]](https://youtu.be/jksjtR8GnBE?t=1m47s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#bookmarking) [[문서]](desktop-bookmarks.md)
+-   선택 영역 창 및 시각적 개체 표시 컨트롤 [[비디오]](https://youtu.be/jksjtR8GnBE?t=7m26s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[문서]](desktop-bookmarks.md#visibility---using-the-selection-pane) 
+-   셰이프 및 이미지에 대한 책갈피 링크 [[비디오]](https://youtu.be/jksjtR8GnBE?t=8m54s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#links) [[문서]](desktop-bookmarks.md#bookmarks-for-shapes-and-images)
+-   스포트라이트 [[비디오]](https://youtu.be/jksjtR8GnBE?t=5m39s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#spotlight) [[문서]](desktop-bookmarks.md#using-spotlight)
+-   분산형 및 거품형 표식 [[비디오]](https://youtu.be/jksjtR8GnBE?t=17m20s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#markers) [[문서]](desktop-accessibility.md)
+-   분산형 시각적 개체에 표시된 데이터 요소의 수 증가 [[비디오]](https://youtu.be/jksjtR8GnBE?t=19m51s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#dataVolume) 
+
+### <a name="analytics"></a>분석:
+
+-   SSAS 라이브 연결의 빠른 측정 [[비디오]](https://youtu.be/jksjtR8GnBE?t=22m35s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#liveConnectQuickMeasures) [[문서]](desktop-quick-measures.md)
+-   새 고객 빠른 측정의 매출액 [[비디오]](https://youtu.be/jksjtR8GnBE?t=23m16s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#newCustomers) [[문서]](desktop-quick-measures.md)
+-   다차원 AS(Analysis Services) 모델의 셀 수준 서식 지정 [[비디오]](https://youtu.be/jksjtR8GnBE?t=25m28s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#cellLevelFormatting)
+
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   Vertica 커넥터(베타) [[비디오]](https://youtu.be/jksjtR8GnBE?t=25m55s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#vertica) [[문서]](desktop-data-sources.md#data-sources)
+-   SAP BW 커넥터 - 추가 멤버 속성에 대한 지원 [[비디오]](https://youtu.be/jksjtR8GnBE?t=26m39s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#sapBW)
+
+### <a name="other"></a>기타:
+
+-   Windows 스토어에서 **Power BI Desktop** 가져오기[[비디오]](https://youtu.be/jksjtR8GnBE?t=27m12s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#windowsStore) [[문서]](desktop-get-the-desktop.md#install-as-an-app-from-the-windows-store)
+-   도움말 콘텐츠에 대한 향상된 액세스 [[비디오]](https://youtu.be/jksjtR8GnBE?t=28m42s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#help)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jksjtR8GnBE" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+## <a name="september-2017-update-2504859502"></a>2017년 9월 업데이트(2.50.4859.502)
+
+9월에 업데이트되는 **Power BI Desktop**의 새 기능은 다음과 같습니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   다른 보고서 페이지로 드릴스루 [[비디오]](https://youtu.be/moTQJlnClJw?t=19s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#drillthrough) [[문서]](desktop-drillthrough.md)
+-   리본 차트 [[비디오]](https://youtu.be/moTQJlnClJw?t=8m57s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[문서]](desktop-ribbon-charts.md)
+-   증가 설명/축소 설명에 대한 정보 [[비디오]](https://youtu.be/moTQJlnClJw?t=13m37s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#insights) [[문서]](desktop-insights.md)
+-   테마 미리 보기 업데이트 - 차트 스타일 제어 [[비디오]](https://youtu.be/moTQJlnClJw?t=19m25s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#theming) [[문서]](desktop-report-themes.md)
+-   내게 필요한 옵션 기능 향상 [[비디오]](https://youtu.be/moTQJlnClJw?t=27m25s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibility) [[문서]](desktop-accessibility.md)
+    -   액세스 가능한 데이터 참조 [[비디오]](https://youtu.be/moTQJlnClJw?t=29m40s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibleData) [[문서]](desktop-accessibility.md)
+    -   키보드 바로 가기 도우미 대화 상자 [[비디오]](https://youtu.be/moTQJlnClJw?t=28m50s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#shortcuts) [[문서]](desktop-accessibility.md)
+-   고밀도 분산형 차트 샘플링 [[비디오]](https://youtu.be/moTQJlnClJw?t=30m22s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#highDensityScatter) [[문서]](desktop-high-density-scatter-charts.md)
+-   눈금선 스타일 컨트롤 [[비디오]](https://youtu.be/moTQJlnClJw?t=33m53s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#gridlines) [[문서]](desktop-gridlines-snap-to-grid.md)
+-   새 사용자 지정 시각적 개체[[비디오]](https://youtu.be/moTQJlnClJw?t=36m4s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#communityVisuals)
+    -   Tallan 작성 일정 [[비디오]](https://youtu.be/moTQJlnClJw?t=36m26s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#calendarByTallan)
+    -   Aquarium 지원 [[비디오]](https://youtu.be/moTQJlnClJw?t=38m11s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#enlightenAquarium)
+    -   Visio 시각적 개체(미리 보기) [[비디오]](https://youtu.be/moTQJlnClJw?t=40m15s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#visio)
+    -   거품형 차트 영향 [[비디오]](https://youtu.be/moTQJlnClJw?t=42m25s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#impactBubbleChart)
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   Azure Consumption Insights 커넥터 [[비디오]](https://youtu.be/moTQJlnClJw?t=44m57s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#azureConsumptionInsights) [[문서]](desktop-connect-azure-consumption-insights.md)
+-   재무 커넥터에 대한 Dynamics 365 기능 향상 [[비디오]](https://youtu.be/moTQJlnClJw?t=45m39s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#dynamics365ForFinancials)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/moTQJlnClJw" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+## <a name="august-2017-update-2494831222"></a>2017년 8월 업데이트(2.49.4831.222)
+
+8월에 업데이트되는 **Power BI Desktop**의 새 기능은 다음과 같습니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   행렬의 행에서 값 표시[[비디오]](https://youtu.be/ND8U0yXroaQ?t=39s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#valuesOnRows)
+-   테이블 및 행렬의 글꼴 색에서 색 눈금[[비디오]](https://youtu.be/ND8U0yXroaQ?t=2m8s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#fontColorScales)
+-   행렬의 수준에 따른 사용자 지정 부분합 설정[[비디오]](https://youtu.be/ND8U0yXroaQ?t=4m29s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customSubtotal)
+-   선 스타일 및 범례 옵션[[비디오]](https://youtu.be/ND8U0yXroaQ?t=6m54s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#lineStyles)
+-   분산형 차트 성능 개선[[비디오]](https://youtu.be/ND8U0yXroaQ?t=13m59s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#scatterChartPerformance)
+-   새 사용자 지정 시각적 개체[[비디오]](https://youtu.be/ND8U0yXroaQ?t=14m32s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customVisuals)
+    -   MAQ Software에 의한 점 그림[[비디오]](https://youtu.be/ND8U0yXroaQ?t=14m45s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#dotPlot)
+    -   Power KPI[[비디오]](https://youtu.be/ND8U0yXroaQ?t=19m11s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#powerKPI)
+    -   깔때기형 그림[[비디오]](https://youtu.be/ND8U0yXroaQ?t=21m55s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#funnelPlot)
+    -   Beyondsoft Calendar[[비디오]](https://youtu.be/ND8U0yXroaQ?t=23m23s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#beyondsoftCalendar)
+
+
+### <a name="analytics--modeling"></a>분석 및 모델링:
+
+-   What if 매개 변수[[비디오]](https://youtu.be/ND8U0yXroaQ?t=24m51s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#whatIf)
+-   새로운 분산형 차트 분석 기능[[비디오]](https://youtu.be/ND8U0yXroaQ?t=32m21s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#scatterChartAnalytics)
+    -   대칭 음영[[비디오]](https://youtu.be/ND8U0yXroaQ?t=32m40s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#symmetryShading)
+    -   비율 줄[[비디오]](https://youtu.be/ND8U0yXroaQ?t=35m3s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#ratioLine)
+-   새 빠른 측정: 가중 평균[[비디오]](https://youtu.be/ND8U0yXroaQ?t=36m54s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#weightedAverage)
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   Power BI 서비스에 대한 라이브 연결은 일반적으로 사용할 수 있음[[비디오]](https://youtu.be/ND8U0yXroaQ?t=41m15s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#liveConnect)
+-   Google BigQuery 커넥터(베타)[[비디오]](https://youtu.be/ND8U0yXroaQ?t=44m15s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#GoogleBigQuery)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ND8U0yXroaQ" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+## <a name="july-2017-update-2484792321"></a>2017년 7월 업데이트(2.48.4792.321)
+
+**Power BI Desktop** 7월 업데이트의 새 기능은 다음과 같습니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   이제 일반적으로 사용할 수 있는 새 테이블 및 행렬 시각적 개체 [[비디오]](https://youtu.be/4X96ow7FnSY?t=1m27s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#tableAndMatrix)
+-   시각적 개체의 필드 이름 바꾸기 [[비디오]](https://youtu.be/4X96ow7FnSY?t=6m3s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#rename)
+-   사용자 지정 시각적 개체 저장소 통합 [[비디오]](https://youtu.be/4X96ow7FnSY?t=8m7s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisualsStore)
+-   상대 날짜 필터 [[비디오]](https://youtu.be/4X96ow7FnSY?t=10m46s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#relativeDateFilter)
+-   시각적 개체(미리 보기)에 대한 반응형 레이아웃 [[비디오]](https://youtu.be/4X96ow7FnSY?t=12m14s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)
+-   새 폭포 차트 옵션 - 분해 [[비디오]](https://youtu.be/4X96ow7FnSY?t=14m29s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#waterfall)
+-   사용자 지정 시각적 개체 업데이트 [[비디오]](https://youtu.be/4X96ow7FnSY?t=17m34s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisuals)
+    -   Drilldown Choropleth [[비디오]](https://youtu.be/4X96ow7FnSY?t=18m11s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
+    -   Drilldown Cartogram [[비디오]](https://youtu.be/4X96ow7FnSY?t=19m14s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
+    -   Drilldown Player [[비디오]](https://youtu.be/4X96ow7FnSY?t=20m17s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
+    -   인증된 사용자 지정 시각적 개체 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
+
+
+### <a name="analytics--modeling"></a>분석 및 모델링:
+
+-   커뮤니티에서 빠른 측정 [[비디오]](https://youtu.be/4X96ow7FnSY?t=22m6s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#quickMeasures)
+    -   별 등급 [[비디오]](https://youtu.be/4X96ow7FnSY?t=22m53s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#starRating)
+    -   연결된 값 목록 [[비디오]](https://youtu.be/4X96ow7FnSY?t=24m43s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#concatenate)
+-   이제 일반적으로 사용할 수 있는 DirectQuery에 대한 양방향 교차 필터링 [[비디오]](https://youtu.be/4X96ow7FnSY?t=26m54s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#bidirectional)
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   일반적으로 사용할 수 있는 눈송이 커넥터 [[비디오]](https://youtu.be/4X96ow7FnSY?t=27m24s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#snowflake)
+
+
+### <a name="query-editing"></a>쿼리 편집:
+
+-   향상된 *예제의 열 추가* 기능 [[비디오]](https://youtu.be/4X96ow7FnSY?t=27m54s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#addColumnFromExamples)
+
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4X96ow7FnSY" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+## <a name="june-2017-update-2474766542"></a>2017년 6월 업데이트(2.47.4766.542)
+
+**Power BI Desktop** 2017년 6월 업데이트의 새 기능은 다음과 같습니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   새 테이블 및 행렬 시각적 개체에 대한 데이터 막대(미리 보기)[[비디오]](https://youtu.be/YlNVE5dgcSI?t=1m17s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#dataBars)
+-   선, 영역 및 콤보 시각적 개체에서 표식(미리 보기)[[비디오]](https://youtu.be/YlNVE5dgcSI?t=4m4s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#markers)
+-   시각적 글꼴 패밀리 설정[[비디오]](https://youtu.be/YlNVE5dgcSI?t=6m59s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#fonts)
+-   수평 이미지 슬라이서[[비디오]](https://youtu.be/YlNVE5dgcSI?t=8m42s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#imageSlicer)
+-   콤보 차트 서식 업데이트[[비디오]](https://youtu.be/YlNVE5dgcSI?t=9m58s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#comboChart)
+-   Bing 지도 개선[[비디오]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[문서]](power-bi-map-tips-and-tricks.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
+-   고밀도 줄 샘플링[[비디오]](https://youtu.be/YlNVE5dgcSI?t=16m53s) [[문서]](desktop-high-density-sampling.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#highDensityLine)
+-   액세스할 수 있는 보고서[[비디오]](https://youtu.be/YlNVE5dgcSI?t=19m23s) [[문서]](desktop-accessibility.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#accessibility)
+
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   사용자 지정 데이터 커넥터 지원[[비디오]](https://youtu.be/YlNVE5dgcSI?t=25m53s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#customConnectors)
+-   **Power BI 서비스** 온-프레미스 및 푸시 스트리밍 데이터 집합에 라이브 연결 [[비디오]](https://youtu.be/YlNVE5dgcSI?t=26m42s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#liveConnect)
+-   Impala 커넥터는 이제 일반적으로 사용 가능[[비디오]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)
+-   Amazon Redshift 커넥터는 이제 일반적으로 사용 가능[[비디오]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#redshift)
+-   SAP BW 커넥터 - DirectQuery 지원[[비디오]](https://youtu.be/YlNVE5dgcSI?t=27m45s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#sapBW)
+-   IBM Netezza 커넥터(베타)[[비디오]](https://youtu.be/YlNVE5dgcSI?t=28m15s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#netezza)
+
+
+### <a name="query-editing"></a>쿼리 편집:
+
+-   *예제의 열 추가* 향상된 기능[[비디오]](https://youtu.be/YlNVE5dgcSI?t=28m38s) [[문서]](desktop-add-column-from-example.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#addColumn)
+
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YlNVE5dgcSI" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+
+
+
+## <a name="may-2017-update-2464732461"></a>2017년 5월 업데이트(2.46.4732.461)
+
+**Power BI Desktop** 2017년 5월 업데이트의 새 기능은 다음과 같습니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   상대 날짜 슬라이서(미리 보기) [[비디오]](https://youtu.be/CKISVNHcHVA?t=8m5s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#relativeDateSlicer)
+-   새 테이블 시각적 개체(미리 보기) [[비디오]](https://youtu.be/CKISVNHcHVA?t=20s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#table)
+-   콤보 차트 데이터 레이블 향상된 기능 [[비디오]](https://youtu.be/CKISVNHcHVA?t=5m49s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#comboChart)
+-   테이블 및 매트릭 시각적 개체의 더 많은 URL 지원 [[비디오]](https://youtu.be/CKISVNHcHVA?t=3m8s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#urlTables)
+-   텍스트 상자의 mailto 링크 [[비디오]](https://youtu.be/CKISVNHcHVA?t=11m34s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#mailtoTextbox)
+
+### <a name="analytics"></a>분석:
+
+-   Analysis Services 테이블 형식 모델 및 Power BI 서비스 데이터 집합에 대한 라이브 연결의 보고서 수준 측정값 [[비디오]](https://youtu.be/CKISVNHcHVA?t=12m48s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#reportLevelMeasures)
+-   두 개의 새 빠른 측정값(미리 보기) [[비디오]](https://youtu.be/CKISVNHcHVA?t=15m39s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#quickMeasures)
+-   개수별 Bin [[비디오]](https://youtu.be/CKISVNHcHVA?t=18m22s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#binByCount)
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   파일 결합 - 예로 *첫 번째 파일*을 참조하는 기능 [[비디오]](https://youtu.be/CKISVNHcHVA?t=21m30s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#combineFiles)
+-   새 데이터 커넥터:
+    -  Customer Insights에 대한 Dynamics365 [[비디오]](https://youtu.be/CKISVNHcHVA?t=21m2s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#customerInsights)
+
+### <a name="query-editing"></a>쿼리 편집:
+
+-   두 가지 새 변환:
+    -   구분 기호 앞/뒤/사이의 텍스트 추출 [[비디오]](https://youtu.be/CKISVNHcHVA?t=22m52s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#extractText)
+    -   선택한 열만 피벗 해제 [[비디오]](https://youtu.be/CKISVNHcHVA?t=24m42s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#unpivot)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CKISVNHcHVA" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+
+
+## <a name="april-2017-update-2454704442"></a>2017년 4월 업데이트(2.45.4704.442)
+
+2017년 4월에 업데이트되는 Power BI Desktop의 새 기능은 다음과 같습니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   축 제목 이름 바꾸기 [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=25s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#renameAxisTitles)
+-   새로운 매트릭스 시각적 개체 기능 향상: 열 정렬, 열 크기 조정 및 자동 줄 바꿈(미리 보기) [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[문서]](desktop-matrix-visual.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
+
+### <a name="analytics"></a>분석:
+
+-   빠른 측정 [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=3m43s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#quickMeasures) [[심층 분석 블로그]](https://powerbi.microsoft.com/blog/quick-measures-preview/) [[문서]](desktop-quick-measures.md)
+-   다음으로 값 표시 [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=3m43s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#quickMeasures)
+-   스페인어로 질문 및 답변(미리 보기) [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=10m31s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#QandA)
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   Power BI 서비스에서 데이터 집합에 연결(미리 보기) [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=12m39s) [[문서]](desktop-report-lifecycle-datasets.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#powerBIservice)
+-   새롭거나 향상된 데이터 커넥터:
+    -  Redshift 커넥터: 베타 지원, Power BI 서비스에 게시 [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=14m44s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#redshift)
+    -   SAP HANA 및 BW: 향상된 매개 변수 입력 환경 [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=15m17s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#SAP)
+
+### <a name="query-editing"></a>쿼리 편집:
+
+-   예제의 열 추가 [[비디오]](https://youtu.be/-ykbVW9wQfw) [[문서]](desktop-add-column-from-example.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#addColumnByExample) [[다른 블로그]](https://powerbi.microsoft.com/blog/a-sneak-preview-of-the-new-add-column-from-examples-data-transformation/)
+-   열을 행으로 분할(구분 기호/문자 수로) [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=16m39s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#splitColumnIntoRows)
+-   그룹화: 기본 모드 [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=17m51s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#basicGroupBy)
+-   열로 이동 [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=18m20s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#goToColumn)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AWMaIaI8G2Y" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+## <a name="march-2017-update-2444675422"></a>2017년 3월 업데이트(2.44.4675.422)
+
+2017년 3월에 업데이트되는 Power BI Desktop의 새 기능은 다음과 같습니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   새 행렬 시각화 개체(미리 보기)[[동영상]](https://youtu.be/CaRTON3lJqw?t=18s)[[문서]](desktop-matrix-visual.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
+-   숫자 범위 슬라이서(미리 보기)[[동영상]](https://youtu.be/CaRTON3lJqw?t=8m20s)[[문서]](desktop-slicer-numeric-range.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#rangeSlicer)
+-   원형 및 도넛형 시각적 개체의 데이터 레이블 - 합계의 백분율[[동영상]](https://youtu.be/CaRTON3lJqw?t=10m52s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#dataLabels)
+-   여러 시리즈를 사용하여 상호 강조 표시[[동영상]](https://youtu.be/CaRTON3lJqw?t=11m57s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#crossHighlight)
+-   텍스트 상자 - 글꼴 색을 선택할 수 있는 기능[[동영상]](https://youtu.be/CaRTON3lJqw?t=13m17s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#textbox)
+-   테마 설정 보고서(미리 보기)[[동영상]](https://youtu.be/CaRTON3lJqw?t=15m8s)[[문서]](desktop-report-themes.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#theme)
+
+### <a name="analytics"></a>분석:
+
+-   클러스터링 - 이제 일반적으로 사용 가능[[동영상]](https://youtu.be/CaRTON3lJqw?t=19m21s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#clustering)
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   새롭거나 향상된 데이터 커넥터 [[비디오]](https://youtu.be/CaRTON3lJqw?t=21m14s):
+    -   Azure Analysis Services 데이터베이스(베타)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#azureAnalysisServices)
+    -   Azure Data Lake Store - 이제 일반적으로 사용 가능[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#azureDataLakeStore)
+    -   DB2 커넥터 - 패키지 컬렉션을 지정하는 옵션[[동영상]](https://youtu.be/CaRTON3lJqw?t=22m)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#db2)
+    -   이진 파일 결합 - 사용할 샘플 파일 지정[[동영상]](https://youtu.be/CaRTON3lJqw?t=22m41s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#combineBinaries)
+
+### <a name="query-editing-improvements"></a>쿼리 편집 개선
+
+-   구분 기호별로 열 분할 - 구분 기호 문자 자동 검색[[동영상]](https://youtu.be/CaRTON3lJqw?t=23m56s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#splitColumn)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CaRTON3lJqw" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+
+## <a name="february-2017-update-2434647541"></a>2017년 2월 업데이트(2.43.4647.541)
+
+다음은 2월의 Power BI Desktop 업데이트입니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   행렬 행 머리글의 자동 줄 바꿈 [[비디오]](https://youtu.be/mn75-LOPxMA?t=21s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#wordWrap)
+-   X 및 Y 축 글꼴 크기 조정 [[비디오]](https://youtu.be/mn75-LOPxMA?t=2m3s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#fontSize)
+-   카티전 차트 최소 범주 너비 [[비디오]](https://youtu.be/mn75-LOPxMA?t=4m) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#categoryWidth)
+-   꺾은선형 차트 선 두께 및 조인 유형 컨트롤 [[비디오]](https://youtu.be/mn75-LOPxMA?t=5m55s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#lineThickness)
+
+### <a name="analytics"></a>분석:
+
+-   두 가지 새로운 빠른 계산: 행 합계의 백분율, 열 합계의 백분율 [[비디오]](https://youtu.be/mn75-LOPxMA?t=7m46s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#quickCalcs)
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   새롭거나 향상된 데이터 커넥터 [[비디오]](https://youtu.be/mn75-LOPxMA?t=9m23s):
+    -   ODBC 및 OLE DB 커넥터 - *관련 테이블 선택* 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#relatedTables)
+    -   향상된 폴더 커넥터 - 미리 보기 대화 상자의 이진 파일 결합 지원 [[비디오]](https://youtu.be/mn75-LOPxMA?t=10m1s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#folder)
+    -   텍스트 및 CSV 커넥터 통합 [[비디오]](https://youtu.be/mn75-LOPxMA?t=11m9s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#textConnector)
+    -   **새로운 기능** - PowerApps Common Data Service 커넥터 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#cds)
+
+
+### <a name="query-editing-improvements"></a>쿼리 편집 개선
+
+-   *열 머리글 형식* 메뉴의 새로운 *로캘 사용* 옵션으로 열의 데이터 형식 및 로캘의 빠른 변경 [[비디오]](https://youtu.be/mn75-LOPxMA?t=11m42s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#columnType)
+-   새로운 *뒤에 단계 삽입* 옵션을 사용하여 기존 쿼리에 쉽게 단계 삽입 [[비디오]](https://youtu.be/mn75-LOPxMA?t=12m36s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#stepsPane)
+
+### <a name="other-improvements"></a>기타 개선 기능
+
+-   솔루션 템플릿 및 파트너 쇼케이스 빠른 액세스 [[비디오]](https://youtu.be/mn75-LOPxMA?t=13m33s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#resources)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mn75-LOPxMA" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+## <a name="january-2017-update-2424611482"></a>2017년 1월 업데이트(2.42.4611.482)
+
+다음은 1월의 Power BI Desktop 업데이트입니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   테이블 및 행렬 조건부 서식 개선 - 빈 서식 [[비디오]](https://youtu.be/C1-f0T8vZ7M?t=37s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#conditionalFormatting)
+-   문자열 및 날짜/시간 열에 대한 새로운 집계 [[비디오]](https://youtu.be/C1-f0T8vZ7M?t=2m50s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#aggregations)
+-   테이블 헤더 자동 줄 바꿈 [[비디오]](https://youtu.be/C1-f0T8vZ7M?t=6m38s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#wordWrap)
+-   휴대폰 보고서의 GA(일반 가용성) [[비디오]](https://youtu.be/C1-f0T8vZ7M?t=7m53s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#phoneReports)
+
+
+### <a name="data-connectors"></a>데이터 커넥터:
+
+-   새롭거나 향상된 데이터 커넥터 [[비디오]](https://youtu.be/C1-f0T8vZ7M?t=8m47s):
+    -   Visual Studio Team Services 커넥터(베타) [[비디오]](https://youtu.be/C1-f0T8vZ7M?t=8m47s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#visualStudioTeamServices)
+    -   향상된 SQL Server 커넥터 - SQL 장애 조치 옵션 지원 [[비디오]](https://youtu.be/C1-f0T8vZ7M?t=9m28s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#SQLFailover)
+
+### <a name="query-editing-improvements"></a>쿼리 편집 개선
+
+-   새 변환 - 중첩된 목록에서 값 추출 [[비디오]](https://youtu.be/C1-f0T8vZ7M?t=10m19s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#extractValues)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C1-f0T8vZ7M" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+
+## <a name="november-2016-update-2414581301"></a>2016년 11월 업데이트(2.41.4581.301)
+
+
+Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
+
+
+### <a name="report-view"></a>보고서 보기:
+
+-   계층적 축 [[비디오]](https://youtu.be/kERJ_WOLuLk?t=36s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#hierarchicalAxis)
+-   축 레이블 및 제목 색 컨트롤 [[비디오]](https://youtu.be/kERJ_WOLuLk?t=1m56s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#axisColor)
+-   행렬 조건부 서식 [[비디오]](https://youtu.be/kERJ_WOLuLk?t=2m56s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#matrixConditionalFormatting)
+-   테이블 및 행렬 열 서식 [[비디오]](https://youtu.be/kERJ_WOLuLk?t=4m21s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#columnFormatting)
+-   드롭다운 슬라이서 [[비디오]](https://youtu.be/kERJ_WOLuLk?t=5m54s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#dropdownSlicer)
+-   스크롤하는 모바일 보고서 [[비디오]](https://youtu.be/kERJ_WOLuLk?t=7m7s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#mobileReports)
+
+
+### <a name="analytics"></a>분석
+
+-   클러스터링(미리 보기) [[비디오]](https://youtu.be/kERJ_WOLuLk?t=8m52s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#clustering)
+-   예측(현재는 **Power BI 서비스**) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
+-   그룹(이제 리본에서) [[비디오]](https://youtu.be/kERJ_WOLuLk?t=13m29s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#groups)
+
+
+
+### <a name="data-connectors"></a>데이터 커넥터:
+
+-   새 데이터 커넥터 [[비디오]](https://youtu.be/kERJ_WOLuLk?t=14m10s):
+    -   Spark DirectQuery [[비디오]](https://youtu.be/kERJ_WOLuLk?t=14m12s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#spark)
+    -   OData 커넥터 개선 [[비디오]](https://youtu.be/kERJ_WOLuLk?t=15m44s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#oData)
+    -   향상된 *이진 파일 결합* 경험 [[비디오]](https://youtu.be/kERJ_WOLuLk?t=15m44s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#combineBinaries)
+    -   Azure Analysis Services [[비디오]](https://youtu.be/kERJ_WOLuLk?t=17m3s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#azureAnalysisServices)
+
+### <a name="query-editing-improvements"></a>쿼리 편집 개선
+
+-   향상된 *함수 작성* 경험 [[비디오]](https://youtu.be/kERJ_WOLuLk?t=18m3s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#functionAuthoring)
+-   *백분율* 데이터 형식 지원 [[비디오]](https://youtu.be/kERJ_WOLuLk?t=18m36s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#percentage)
+-   **탐색기**에 추가된 **최대화** 및 **복원** 단추 및 **쿼리 종속성** [[비디오]](https://youtu.be/kERJ_WOLuLk?t=19m16s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#maximize)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kERJ_WOLuLk" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+## <a name="october-2016-update-2404554361"></a>2016년 10월 업데이트(2.40.4554.361)
+
+10월에 업데이트되는 Power BI Desktop의 새 기능은 다음과 같습니다.
+
+
+### <a name="report-view"></a>보고서 보기:
+
+-   날짜 축 범위 서식 지정 개선 [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=26s)
+-   날짜 슬라이서 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#dateSlicer) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=2m9s)
+-   그리드에 대한 눈금선 및 눈금에 맞춤 보고서(미리 보기) [[문서]](desktop-analytics-pane.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#snapToGrid) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=4m3s)
+-   데이터 레이블 개선 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#dateLabels) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=5m30s)
+-   지도 서식 지정 옵션 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#mapFormatting) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=7m22s)
+-   날짜 축 범위 서식 지정 개선 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#dateAxisRange)
+
+
+### <a name="analytics"></a>분석
+
+-   그룹화 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#grouping) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=9m42s)
+-   범주화 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#binning) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=12m17s)
+-   상위 N개 필터 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#topN) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=13m55s)
+-   데이터 요소 포함/제외 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#includeExclude) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=15m36s)
+-   R 지원 사용자 지정 시각적 개체[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#rCustomVisuals)
+
+
+### <a name="data-connectors"></a>데이터 커넥터:
+
+-   새 데이터 커넥터 [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=17m30s):
+    -   재무(베타)용 Microsoft Dynamics 365 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#dynamics365Financials)
+    -   OLE DB [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#oledb)
+    -   Mixpanel [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#mixpanel)
+
+### <a name="query-editing-improvements"></a>쿼리 편집 개선
+
+-   **함수 호출** 대화 상자에서 테이블 매개 변수에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#invokeFunction) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=18m12s)
+
+### <a name="other-improvements"></a>기타 개선 기능
+
+-   **정보** 대화 상자에서 진단 정보 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#diagnostics) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=19m16s)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UXEYSvgvMaQ" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+## <a name="september-2016-update-2394526362"></a>2016년 9월 업데이트(2.39.4526.362)
+
+9월에 업데이트되는 Power BI Desktop의 새 기능은 다음과 같습니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   Power BI용 ArcGIS Maps(미리 보기) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[비디오]](https://youtu.be/pcUr6E8g_KI?t=2m8s)
+-   모바일 보고서 레이아웃(미리 보기) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[비디오]](https://youtu.be/pcUr6E8g_KI?t=3m59s)
+-   업데이트 드릴 동작 [[문서]](desktop-inline-hierarchy-labels.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[비디오]](https://youtu.be/pcUr6E8g_KI?t=5m6s)
+
+
+### <a name="analytics"></a>분석
+
+-   예측(미리 보기) [[문서]](desktop-analytics-pane.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[비디오]](https://youtu.be/pcUr6E8g_KI?t=6m6s)
+-   사용자 고유의 R IDE 사용 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[비디오]](https://youtu.be/pcUr6E8g_KI?t=6m56s)
+
+
+### <a name="data-connectors"></a>데이터 커넥터:
+
+-   새 데이터 커넥터:
+    -   Snowflake 커넥터 DirectQuery 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+    -   ProjectPlace 커넥터[[문서]](desktop-connect-impala.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+-   기존 커넥터에 대한 향상된 기능:
+    -   Oracle 커넥터-향상된 탐색기 미리 보기 성능 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+    -   OData 커넥터- *관련 테이블 선택* 옵션에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+    -   SAP Business Warehouse 및 SAP HANA 커넥터- 매개 변수 입력 인터페이스 향상 [[문서]](desktop-sap-bw-connector.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+    -   웹 커넥터 - 대화 상자 내에서 HTTP 요청 헤더를 지정하기 위한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[비디오]](https://youtu.be/pcUr6E8g_KI?t=8m5s)
+
+
+### <a name="query-editor-improvements"></a>쿼리 편집기 개선:
+
+-   쿼리 종속성 보기 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[비디오]](https://youtu.be/pcUr6E8g_KI?t=8m37s)
+-   오류 경험 표시 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+-   스칼라 값에 대한 쿼리 편집기 리본 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+-   추가 함수 호출 열 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+-   확장 및 집계 열 - *더 많이 로드하기* 값에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+-   새 변환-테이블 열 목록으로 변환할 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+-   키보드 사용 - 드롭 다운 메뉴에서 스마트 입력 에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+
+
+### <a name="other-improvements"></a>기타 개선 기능
+
+-   **Power BI Community**에 대한 제품 내 링크 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[비디오]](https://youtu.be/0VvG7Eqoke8?t=16m9s)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pcUr6E8g_KI" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+
+## <a name="august-2016-update-2374464321"></a>2016년 8월 업데이트(2.37.4464.321)
+
+8월에는 Power BI Desktop의 새 기능이 모두 도입됩니다.
+
+-   기능을 설명하는 경우 **[비디오]**에서 발췌된 내용이 새 브라우저 탭에서 재생됩니다.
+-   일부 기능에는 세부 사항을 제공하는 **[문서]**가 있습니다.
+-   대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
+-   마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+
+처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+
+다음은 이번 달의 Power BI Desktop 업데이트입니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   꺾은선형 차트에서 드릴다운(또는 백업) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[비디오]](https://youtu.be/0VvG7Eqoke8?t=3m1s)
+-   날짜 축에 대한 연속 축 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[비디오]](https://youtu.be/0VvG7Eqoke8?t=3m48s)
+-   인라인 계층의 일반적인 가용성 [[문서]](desktop-inline-hierarchy-labels.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[비디오]](https://youtu.be/0VvG7Eqoke8?t=4m6s)
+-   미리 정의된 행렬 스타일(Excel의 테이블 서식 지정과 유사) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[비디오]](https://youtu.be/0VvG7Eqoke8?t=4m59s)
+-   차트 및 도구 설명에서 필드 순서 바꾸기 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[비디오]](https://youtu.be/0VvG7Eqoke8?t=6m23s)
+-   KPI 시각 효과의 색 서식 지정 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[비디오]](https://youtu.be/0VvG7Eqoke8?t=7m9s)
+
+### <a name="analytics-new"></a>분석(새로운 기능!)
+
+-   완전히 새로워진 **분석** 창 [[문서]](desktop-analytics-pane.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[비디오]](https://youtu.be/0VvG7Eqoke8?t=8m22s)
+-   동적 참조 줄 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[비디오]](https://youtu.be/0VvG7Eqoke8?t=9m40s)
+
+
+### <a name="data-connectors"></a>데이터 커넥터:
+
+-   새 데이터 커넥터:
+    -   Snowflake 커넥터(미리 보기) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/)
+-   기존 커넥터에 대한 향상된 기능:
+    -   Impala 커넥터 - DirectQuery 지원 [[문서]](desktop-connect-impala.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/)
+    -   웹 커넥터 - 웹 페이지 미리 보기 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[비디오]](https://youtu.be/0VvG7Eqoke8?t=12m28s)
+    -   SAP Business Warehouse 커넥터의 일반적인 가용성 [[문서]](desktop-sap-bw-connector.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/)
+
+
+### <a name="query-editor-improvements"></a>쿼리 편집기 개선:
+
+-   새 쿼리로 병합/추가 옵션 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[비디오]](https://youtu.be/0VvG7Eqoke8?t=14m24s)
+
+### <a name="other-improvements"></a>기타 개선 기능
+
+-   데스크톱 파일 자동 복구 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[비디오]](https://youtu.be/0VvG7Eqoke8?t=16m9s)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0VvG7Eqoke8" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+## <a name="july-2016-update-2374464321"></a>2016년 7월 업데이트(2.37.4464.321)
+
+항상 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다.
+
+7월에는 여러 새로운 기능과 많은 사람들의 기대를 받은 데이터 커넥터가 Power BI Desktop에 추가되었습니다. 다음은 7월에 향상된 Power BI Desktop의 새 기능입니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   미리 정의된 테이블 스타일 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[비디오]](https://youtu.be/g8ccfjffWmw?t=1m25s)
+-   도형 맵 업데이트 - 사용자 지정 맵 사용 [[문서]](desktop-shape-map.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[비디오]](https://youtu.be/g8ccfjffWmw?t=2m21s)
+
+### <a name="data-connectors"></a>데이터 커넥터:
+
+-   새 데이터 커넥터:
+    -   Amazon Redshift [[문서]](desktop-connect-redshift.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
+    -   Impala [[문서]](desktop-connect-impala.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
+-   기존 커넥터에 대한 향상된 기능:
+    -   웹 커넥터 - 연결 제한 시간을 지정하도록 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
+    -   CSV 및 텍스트 - 고정 너비 구분 기호로 분리된 파일에 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
+    -   SAP Business Warehouse 커넥터에 대한 향상된 기능 및 변경 내용 [[문서]](desktop-sap-bw-connector.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
+
+
+### <a name="query-editor-improvements"></a>쿼리 편집기 개선:
+
+-   쿼리 편집기에서 **R** 스크립트 사용 [[문서]](desktop-r-in-query-editor.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
+-   쿼리 매개 변수 향상된 기능:
+    -   매개 변수에 허용된 값 으로 쿼리 출력 나열 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
+-   기존 사용자 정의 함수 덮어쓰기 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각 기능에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g8ccfjffWmw" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+## <a name="june-2016-update-2364434362"></a>2016년 6월 업데이트(2.36.4434.362)
+
+항상 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다.
+
+6월에는 Power BI Desktop에 대한 흥미로운 여러 업데이트를 제공했습니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   새로운 시각적 개체 - 도형 맵 [[비디오]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[문서]](desktop-shape-map.md)
+-   검색 가능한 슬라이서 [[비디오]](https://youtu.be/sZsL2l6oS4A?t=6m25s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+-   구성 가능한 꺾은선형 차트 레이블 [[비디오]](https://youtu.be/sZsL2l6oS4A?t=7m21s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+-   새 로그인 진입점 [[비디오]](https://youtu.be/sZsL2l6oS4A?t=2m30s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+
+### <a name="data-access"></a>데이터 액세스:
+
+-   행 수준 보안 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/) [[문서]](desktop-rls.md)
+
+### <a name="data-connectors"></a>데이터 커넥터:
+
+-   새 데이터 커넥터: [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+    -   Azure 엔터프라이즈
+-   향상된 SAP BW 및 HANA 커넥터: [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+    -   변수/매개 변수 값의 다중 선택 허용
+    -   SAP BW에서 계층 구조 지원
+-   향상된 OData 커넥터 - 개방 형식 열 가져오기 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+-   향상된 Access DB 커넥터 - **탐색기** 대화 상자에서 **관련 테이블 선택** 단추 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+
+### <a name="data-connectors"></a>데이터 커넥터:
+
+-   템플릿 - **로드** 또는 **편집**에 대한 옵션 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+-   쿼리 매개 변수 향상: [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+    -   매개 변수 지정을 항상 허용하는 옵션
+    -   컨텍스트에 새 매개 변수 직접 만들기
+-   영어로 단계 이름을 생성하는 옵션 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+-   쿼리 단계에 대한 설명 [[비디오]](https://youtu.be/sZsL2l6oS4A?t=8m14s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+-   새 데이터 변환: [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+    -   DateTime 열에서 요일 및 월 이름 추출
+    -   날짜 및 시간을 DateTime 열에 병합
+    -   Hour/Minute/Second 중에서 Time.Start/End 추출
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sZsL2l6oS4A" frameborder="0" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+
+## <a name="may-2016-update-2354399381"></a>2016년 5월 업데이트(2.35.4399.381)
+
+항상 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다.
+
+Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   사용자 지정 가능한 도구 설명 [[비디오]](https://youtu.be/KnDs4amt9-c?t=172) [[문서]](desktop-custom-tooltips.md)
+-   테이블에서 조건부 서식 지정 [[비디오]](https://youtu.be/KnDs4amt9-c?t=313) [[문서]](desktop-conditional-table-formatting.md)
+-   Pyramid 서버에 게시 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   차트에 더 많은 데이터 스크롤링 [[비디오]](https://youtu.be/KnDs4amt9-c?t=426) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   시각적 개체에 대한 키보드 넛지 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+
+### <a name="analytics"></a>분석
+
+-   빠른 계산 - 총합계의 % [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   새 데이터 커넥터: [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+    -   Informix
+    -   comScore Digital Analytix
+    -   Troux
+    -   Planview Enterprise
+-   향상된 DB2 커넥터 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   미리 보기 대화 상자에 편집 가능한 설정을 표시하는 Text/CSV 커넥터 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   디스플레이 스키마 정보를 사용하여 향상된 관계형 데이터베이스 커넥터
+-   데이터 원본 설정 향상 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   고급 **행 필터** 대화 모드 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   **쿼리 편집기** 내에서 함수 호출에 대한 인라인 입력 제어 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   쿼리 매개 변수: [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+    -   쿼리를 매개 변수(또는 그 반대로) 변환하는 기능
+    -   **웹** 커넥터에서 URL 매개 변수화 및 여러 부분으로 구성된 URL에 대한 지원
+    -   **조건부 열** 대화 상자에서 매개 변수화에 대한 지원
+-   Power BI 템플릿을 **다른 이름으로 저장**하는 기능 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   끌어서 놓기를 사용하여 쿼리 단계 다시 정렬에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   **조건부 열** 대화 입력 날짜 필드에서 날짜 선택 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   **쿼리** 창에서 새 쿼리를 만드는 새 상황에 맞는 메뉴 항목 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KnDs4amt9-c" frameborder="0" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+## <a name="april-2016-update-2344372322"></a>2016년 4월 업데이트(2.34.4372.322)
+
+항상 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다.
+
+4월에는 훌륭한 Power BI 고객을 대상으로 Power BI Desktop에 대한 뛰어난 업데이트 컬렉션을 선보였습니다. 다음은 이번 달에 향상된 Power BI Desktop의 새 기능입니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   테이블, 행렬 및 다중 행 카드에 대한 추가 스타일
+-   단일 시각적 개체에서 추세선
+-   새 드릴 작업 – **레코드 참조**
+-   드릴/필터 중 맵 자동 확대/축소
+-   확장된 보기를 위한 인라인 계층 구조 레이블(미리 보기 - [문서 참조](desktop-inline-hierarchy-labels.md))
+
+### <a name="data-modeling"></a>데이터 모델링:
+
+-   시각적 개체를 새고 고치는 동안 모델링 작업은 더 이상 차단되지 않습니다.
+-   기본 제공된 날짜 계층 구조 필드가 있는 시간 인텔리전스(미리 보기)
+-   데이터 모델 동의어
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   쿼리 매개 변수
+-   Power BI 템플릿 파일
+-   데이터 가져오기 대화 상자에서 새 *온라인 서비스* 범주
+-   새 커넥터:
+    -   SharePoint 폴더
+    -   Webtrends
+    -   SparkPost
+    -   tyGraph
+-   조건부 열
+-   DirectQuery – DirectQuery 및 데이터 원본 대화 상자에 가져오기 모드 지정
+-   쿼리 편집기 미리 보기 열 머리글에서 열 형식 표시기
+-   끌어서 놓기 제스처를 사용하여 쿼리 및 쿼리 그룹 순서 바꾸기
+-   리본 메뉴에 쿼리 관리 메뉴
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-april-update-feature-summary/)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7IFZTYJR3Gk" frameborder="0" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+## <a name="march-2016-update-2334337281"></a>2016년 3월 업데이트(2.33.4337.281)
+
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다.
+
+3월에는 또 다른 Power BI Desktop 추가 기능을 포함하여 모든 종류의 갱신 및 새로 고침 기능을 제공합니다. 다음은 이번 달에 향상된 Power BI Desktop의 새 기능입니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   Power BI 서비스에서 그룹 공간에 보고서 게시
+-   KPI 추세를 포함한 보고서는 SSAS MD에서 *요약 안 함* 모델 설정을 유지합니다.
+-   데이터 요소 경고는 이제 영향을 주지 않습니다.
+
+
+### <a name="data-modeling"></a>데이터 모델링:
+
+-   DirectQuery 모드를 사용하는 경우 데이터 형식의 열을 변경할 수 있습니다
+-   DirectQuery에서 관계(가져오고 만든 경우)에 참조 무결성을 가정하는 기능
+-   Oracle 및 Teradata용 DirectQuery는 이제 Power BI Desktop의 일부입니다(장기 미리 보기 기능)
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   새 SAP BW 커넥터(미리 보기 기능)
+-   사용자 인터페이스(UI)에서 명령 제한 시간에 지원
+-   컴퓨터 수준에서 개인 정보 수준을 프롬프트를 사용하지 않도록 설정하도록 사용할 수 있는 설정(레지스트리 키 포함)
+-   쿼리 그룹 관리 기능 향상:
+    -   모두 확장/축소
+    -   쿼리 그룹 확장 상태 보관
+-   새 변환:
+    -   열 필터 메뉴를 사용하여 공백 제거
+    -   연도로 기간 값 변환
+    -   복제본 보관
+-   쿼리 편집기 미리 보기에서 공백 및 줄 바꿈에 지원
+-   **로캘로 형식 변경** 대화 상자에서 샘플 입력 값에 대한 힌트 포함
+-   **탐색기** 창에 대한 기능 향상:
+    -   ODBC 원본에 대한 탐색 계층 구조에 스키마 정보 추가
+    -   **탐색기**에서 미리 보기를 사용하지 않도록 설정하는 기능
+    -   기술 이름 지원
+-   로드: 충돌하는 열 이름을 명확히 구분하는 자동 단계(대/소문자 구분 비교)
+-   이제 **쿼리** 창에서 직접 쿼리의 이름을 바꿀 수 있습니다.
+
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-march-update-feature-summary/)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eAayYDF9QzY" frameborder="0" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+
+
+## <a name="february-2016-update-2324307362"></a>2016년 2월 업데이트(2.32.4307.362)
+
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다.
+
+이번 달은 더 많은 업데이트가 있습니다! 2월은 29일까지 있으며(윤년), 이는 Power BI Desktop의 월별 업데이트에 29가지의 개선 사항이 추가되었다는 의미입니다. 다음은 이번 달에 향상된 Power BI Desktop의 새 기능입니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   시각적 개체 이면의 데이터( 데이터를 CSV로 내보내기포함)를 참조하세요.
+-   맵 개선 사항 - 위도/경도만 사용하여 맵 작성
+-   KPI 소비 릴리스 지원(SSAS MD에 대한 탐색 계층 지원 및 KPI 추세 포함)
+-   SSAS 탐색 모드: **필드** 창의 **디스플레이** 폴더에 대한 지원
+-   리본 레이아웃 개선: **보고서 도구**를 위한 상황별 리본 탭
+-   새로운 KPI 시각적 개체
+-   저장할 때 표시되는 동일한 페이지에 보고서 열기
+-   필드 창의 테이블 컨텍스트 메뉴의 **쿼리 편집** 옵션(**보고서** & **데이터** 뷰)
+-   리본 메뉴의 **페이지 복제**
+
+
+### <a name="data-modeling"></a>데이터 모델링:
+
+-   계층을 정의하는 기능
+-   성능 향상: 테이블 및 열 이름 바꾸기 최적화
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   Oracle 및 Teradata 데이터베이스용 **DirectQuery** 지원
+-   **DirectQuery** - 계산 열 만들기 지원
+-   Analysis Services 라이브 보고서 게시 지원
+-   JSON 파일 커넥터
+-   SQL Sentry 커넥터
+-   가변 CSV 파일 지원
+-   Exchange 커넥터 - OAuth 지원
+-   SharePoint 목록 커넥터 - URL 유효성 검사
+-   데이터베이스 커넥터 - 쿼리 미리 보기(성능 최적화)의 탐색 열을 사용하지 않도록 설정하는 기능
+-   웹 커넥터 - 자격 증명의 세분화된 범위 지정
+-   **데이터 입력** 대화 상자 UX 향상
+-   SAP HANA – Windows 인증(Power BI Desktop에만 해당)에서 Single sign-on 지원
+-   SAP HANA – **필드** 레이블 지원
+-   **열 선택** 작성기에서 사전순으로 열 정렬
+-   열의 이름 변경/제거/재정렬의 성능 개선
+-   **쿼리 편집기**의 미리 보기 가상화
+-   **쿼리 편집기**에서 로드되지 않은 쿼리에 대한 시각적 표시기
+-   원 클릭 백분율 변환
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-update-lots-of-new-authoring-features-and-a-new-power-bi-desktop-update/)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J5gZ65Wexh4" frameborder="0" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+## <a name="january-2016-update-2314280361"></a>2016년 1월 업데이트(2.31.4280.361)
+
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다.
+
+올해에는 Power BI Desktop에 또다른 개선 및 향상된 기능 컬렉션이 추가되었습니다. 다음은 이번 달에 향상된 Power BI Desktop의 새 기능입니다.
+
+### <a name="report-view"></a>보고서 보기:
+
+-   시각적 개체에 테두리 추가
+-   시각적 개체에 이미지 배경 추가
+
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   DirectQuery: 이제 DirectQuery 모드를 사용하면 측정값을 만들 수 있습니다.
+-   이제 개별 테이블에 대한 데이터를 리본에서 단지 **모두 새로 고칠** 수 있기 보다는 필드 목록( **보고서** 보기 및 **데이터** 보기에서)에서 새로 고칠 수 있습니다.
+-   SQL Server Analysis Services 다차원 모델 탐색 모드에 대한 GA(일반 공급)(더 이상 미리 보기 기능을 사용할 수 없음)
+-   계층 지원 향상
+-   SAP HANA 커넥터에 대한 GA(일반 공급)(더 이상 미리 보기 기능을 사용할 수 없음)
+-   한 번의 추가 작업 내에서 여러 테이블을 추가하는 기능
+-   백그라운드로 다운로드하기 위해 데이터 미리 보기를 사용하지 않도록 설정하는 옵션(성능 최적화)
+
+### <a name="other-improvements"></a>기타 개선 기능:
+
+-   Internet Explorer 9(IE9) 브라우저 지원
+-   보고서 렌더링, 상호 강조 표시 및 기타 기능의 성능 향상
+-   Power BI Desktop에서 R 통합 개선
+
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2016/01/28/power-bi-updates-this-week-new-report-authoring-capabilities.aspx)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ek8dwi33-24" frameborder="0" allowfullscreen></iframe>
+
+
+## <a name="december-2015-update-2304246181"></a>2015년 12월 업데이트(2.30.4246.181)
+
+12월은 나누는 달입니다. Power BI 팀은 이번 달의 Power BI Desktop 업데이트에 더 많은 업데이트와 기능을 추가하여 많은 분들과 나누고자 합니다. 다음은 이번 달에 향상된 Power BI Desktop의 새 기능입니다.
+
+### <a name="report-authoring"></a>보고서 작성:
+
+-   창 및 리본 형식 지정:
+    - 범주 서비스당 데이터 레이블 형식 지정
+    - 시각적 개체에 표시된 소수 자릿수 변경
+    - 시각적 개체의 텍스트 크기 변경
+    - 시각적 개체를 정확하게 배치하는 기능: 맞춤, 분포, 크기, 위치
+    - **서식 복사**를 통해 여러 시각적 개체의 스타일 설정
+    - 최적화된 **홈** 리본 레이아웃
+
+
+-   시각화 기능 향상:
+    - **테이블** 시각적 개체의 정렬 상태에 대한 시각 신호
+    - 새로운 시각적 개체: **누적 영역형** 차트
+    - **영역** 차트 및 **꺾은선형** 차트에 대한 스마트 도구 설명
+    - **카티전** 시각적 개체에 대한 참조 선/영역을 만드는 기능
+    - **원형** 차트 및 **분산형** 차트에 대한 데이터 레이블 개선
+
+
+-   [Power BI Desktop의 R 시각적 개체 통합(미리 보기 기능)](desktop-r-visuals.md)
+
+
+-   서로 관계가 없는 두 테이블과 관련된 시각적 개체를 만들 때 권장되는 테이블-테이블 관계
+
+
+### <a name="data-modeling"></a>데이터 모델링:
+
+-   관계 보기
+    - 확대/축소 슬라이더
+    - 화면에 맞춰 확대/축소
+    - 레이아웃 다시 설정
+    - CTRL+(마우스 선택 범위)에서 확대/축소
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   [SSAS 다차원 지원 - 계층 지원](desktop-ssas-multidimensional.md)
+-   Stripe 커넥터
+-   Smartsheet 커넥터
+-   **데이터 입력**: 데이터를 붙여넣거나 입력하여 테이블 생성
+-   DirectQuery 개선: 모든 유형의 T-SQL 및 SAP HANA를 지원하여 결과적으로 성능 개선
+-   ODBC 커넥터: 사용자/시스템 DSN 선택 지원
+-   CSV 커넥터: 원본 대화 상자에서 열 구분 기호를 지정하는 기능
+
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/iW5VH8iIyfE" frameborder="0" allowfullscreen></iframe>
+
+
+
+## <a name="november-2015-update-2294217221"></a>2015년 11월 업데이트(2.29.4217.221)
+
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다.
+
+나중에 Power BI Desktop에 대한 새로운 기능 및 개선된 기능을 포함한 다른 컬렉션이 발표됩니다. 개선된 기능은 새 데이터 커넥터에서 새로운 모델링 기능에 이릅니다. 다음은 26가지 새로운 기능과 향상된 기능입니다.
+
+### <a name="report-authoring"></a>보고서 작성:
+
+-   분산형 차트용 재생 축
+-   수평 슬라이서
+-   슬라이서 선택 동작(단일 및 다중 선택)
+-   Z 순서 제어
+-   슬라이드용 배경색
+-   시각적 개체 간의 상호 작용 – 하위 보기(타일 기준)
+-   페이지 복제
+-   테이블, 행렬 및 카드에서 KPI 및 이미지 지원
+-   영역형 차트 및 꺾은선형 차트에서 더 나은 도구 설명
+-   카드 및 테이블/행렬에서 텍스트 크기 변경 기능
+-   필드 및 서식 창에서 향상된 도구 설명 및 레이블
+-   데이터가 없는 범주를 볼 수 있는 기능
+-   시각적 개체에 대한 기본 정렬 동작 개선
+-   축 눈금 표시 단위 제어 기능
+-   기본 모델링 작업 적용에 시각적 새로 고침 최적화  
+
+### <a name="data-modeling"></a>데이터 모델링:
+
+-   기본 자동 날짜 기능
+
+### <a name="data-connectivity"></a>데이터 연결:
+
+-   [SSAS 다차원 지원](desktop-ssas-multidimensional.md)
+-   [SAP Hana](desktop-sap-hana.md)
+-   [R 스크립트](desktop-r-scripts.md)
+-   SQL Server, Azure SQL 데이터베이스 및 Azure SQL 데이터 웨어하우스용 DirectQuery
+-   Azure 데이터 레이크
+-   Marketo
+
+### <a name="data-transformations"></a>데이터 변환:
+
+-   함수 호출 환경 향상
+-   서버 및 데이터베이스 수준에서 자격 증명 설정 옵션
+-   텍스트 열에 접두사/접미사 추가
+
+### <a name="other-improvements"></a>기타 개선 기능:
+
+-   새 문서 웹 사이트가 콘텐츠 지역화도 포함
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/11/20/announcing-the-power-bi-desktop-november-update.aspx)을 살펴보세요.
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/ErHvpkyQjSg" frameborder="0" allowfullscreen></iframe>
+
+
+
+## <a name="october-2015-update-2284190122"></a>2015년 10월 업데이트(2.28.4190.122)
+
+10월에는 Power BI Desktop에 여러 업데이트를 제공합니다.
+
+### <a name="report-authoring"></a>보고서 작성:
+-   사용자 지정 시각화
+-   리본 메뉴에서 시각적 개체 삽입
+-   기본 정렬 개선
+-   깔때기형 차트에 도구 설명 및 데이터 레이블
+-   슬라이서 개선:
+    - 항목 정렬 기능
+    - 글꼴 크기 변경 기능
+-   계기용 추가 서식 옵션
+-   데이터 요소 레이블 레이아웃 개선
+-   KPI 사용량 과금(미리 보기 기능)
+
+### <a name="data-modeling"></a>데이터 모델링:
+
+-   데이터 보기의 DAX 수식용 지원 반 선택
+
+### <a name="data-connectivity"></a>데이터 연결:
+-   Azure 문서 DB 커넥터
+-   Mailchimp 커넥터
+-   SQL Server 및 Azure SQL 데이터베이스용 DirectQuery(미리 보기 기능)
+
+
+### <a name="data-transformations"></a>데이터 변환:
+-   “오래된/최신 날짜”로 필터링
+-   “최근 N 분/시간/초 내”로 필터링
+-   Power BI Desktop과 Excel 간에 쿼리 복사/붙여넣기
+-   분할 열에서 특수 문자 지원
+-   쿼리 병합 대화 상자에서 미리 보기 새로 고침
+-   쿼리 편집기 미리 보기용 고정 폭 글꼴
+
+### <a name="other-improvements"></a>기타 개선 기능:
+-   보고서 및 데이터 뷰에서 단일 테이블 및 모든 테이블 새로 고침
+-   미리 보기 기능 사용 옵션
+-   제품 내 등급 환경
+
+이러한 모든 업데이트의 비디오를 볼 수 있습니다.
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/Jbocn1ZNkxM" frameborder="0" allowfullscreen></iframe>
+
+
+자세한 내용은 각 업데이트에 대해 자세히 설명한 [블로그 알림을 확인](http://blogs.msdn.com/b/powerbi/archive/2015/10/20/custom-visualizations-support-and-22-other-features-in-the-power-bi-desktop-october-update.aspx)하세요.
+
+
+
+## <a name="september-2015-update-2274163351"></a>2015년 9월 업데이트(2.27.4163.351)
+
+44가지 기능 중 다음 대규모 컬렉션이 이 업데이트에 추가되었습니다.
+
+### <a name="report-authoring"></a>보고서 작성
+
+- 보고서 수준 필터
+- 막대형 및 분산형 차트의 드릴 업/다운
+- 새 페이지 크기 및 페이지 보기 옵션
+- 보고서 캔버스에 셰이프 삽입 지원
+- 필드 창 개선
+    - 이름별로 필드를 쉽게 찾을 수 있도록 검색 상자
+    - 필드 창에 여러 테이블이 있을 때 탐색을 향상시키기 위한 "테이블 확장/축소"
+    - 카디널리티를 잘 지원하는 필드, 1항목이 있는 버켓에 대해 끌어서 교체
+    - 추가 데이터 레이블 서식 옵션
+    - 차트 카티전 축 개선:
+        - X축 레이블 방향(가로/대각선)
+        - Y축 값에 대한 로그 및 선형 눈금 지원
+        - 텍스트 상자에 하이퍼링크 텍스트를 표시합니다.
+        - 기존 시각화에 대한 개선: 테이블, 행렬, 슬라이서, 분산형 차트, 단일 카드, 콤보 차트 및 계기
+        - 도구 설명에 색 채도 값 표시 지원
+        - 이미지 크기를 조정하여 추가 서식 옵션을 적용하는 기능
+
+
+### <a name="data-modeling"></a>데이터 모델링
+
+- 계산된 테이블입니다.
+- 관계 보기:
+    - 다이어그램의 두 테이블 사이에 끌어서 놓기를 통해 관계를 만듭니다.
+    - 관계 보기에서 관계를 선택하고 Delete 키를 눌러 삭제합니다.
+    - 테이블 및 열 이름 바꾸기/삭제
+- 데이터 보기:
+    - 테이블 내용을 클립보드에 복사합니다.
+- 필드 요약:
+    - 필드 창에서 중간값, 표준 편차 및 분산과 같은 추가 작업 지원
+    - 기본 요약: 사용자는 이제 해당 모델에서 지정된 모든 필드에 대한 기본 요약 작업을 사용자 지정할 수 있습니다.
+
+### <a name="data-connectivity"></a>데이터 연결
+
+- 온-프레미스 스파크 분포 지원
+- 영어가 아닌 사이트에서 SharePoint 목록 지원
+- Exchange 커넥터 - 향상된 지원으로 이제 여러 사서함에 연결 허용
+- Excel 통합 문서 커넥터 – .XLS 파일을 가져올 때 자동 열 유형 검색
+- 데이터베이스 소스에 연결할 때 "관련 테이블 선택" 옵션
+- 향상된 Active Directory Connector 자격 증명으로, 대체 Windows 자격 증명 허용
+- 데이터 원본(예: 데이터베이스)에서 함수를 로드할 때 개선된 함수 호출 경험
+- 이제 지난 달에 공개된 "Excel 통합 문서 내용 가져오기" 기능은 또한 Analysis Services 테이블 형식 모델에 외부 연결을 지원합니다.
+- 데이터 원본 설정 대화 상자의 "모두 삭제" 항목에 대한 새로운 옵션
+- "새로 고침 작업 도중 관계 가져오기 사용"에 대한 옵션
+
+### <a name="data-transformations-and-query-editor-improvements"></a>데이터 변환 및 쿼리 편집기 개선
+
+- 클립보드에 복사(셀/열/테이블에 사용 가능)
+- 가장 빠른/가장 늦은 날짜(동적 필터) 별로 날짜 열 필터링
+- 열에서 최소/최대 날짜/시간 값 추출
+- 교체 값 - 특수 문자 지정을 위한 프로비전
+- 주문형 유형 검색을 트리거하는 "열 형식 검색" 옵션
+- 한번의 클릭으로 모든 쿼리 편집기 미리 보기를 새로 고치는 "모든 미리 보기 새로 고침"
+- 성능 개선:
+    - 열 대화 상자 선택: 넓은 테이블을 다루기 위해 빨라진 사용자 경험
+    - 자동 필터 및 확장/집계 팝업: 값/필드가 많은 경우 빨라짐
+
+다음 비디오에서는 이러한 기능을 자세히 설명합니다.
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/Jm44dLXdarQ" frameborder="0" allowfullscreen></iframe>
+
+이 업데이트에 대한 자세한 내용은 각 업데이트에 대해 자세히 설명한 [블로그 알림을 확인](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx)하세요.
+
+## <a name="august-2015-update-2264128403"></a>2015년 8월 업데이트(2.26.4128.403)
+
+
+이 업데이트에는 다음과 같은 기능이 추가되었습니다.
+
+**전반적인 개선:**
+
+-   Excel Power BI 아티팩트(데이터 모델, 쿼리, 파워 뷰)를 새 Power BI Desktop 파일로 가져오기
+
+-   HDInsight Spark 커넥터
+
+-   Azure SQL 데이터 웨어하우스 커넥터
+
+-   SSAS에서 데이터를 가져올 때 사용자 지정 MDX/DAQ 쿼리에 대한 지원
+
+-   라이브 Analysis Services 연결: **쿼리 편집** 대화 상자에서 데이터베이스를 변경하는 기능
+
+**탐색기 대화 상자 개선:**
+
+-   크기 조정 가능한 탐색기 대화 상자
+
+-   탐색기에서 항목을 다중 선택하는 기능(Ctrl+클릭, Shift+클릭 등)
+
+**쿼리 편집기 개선:**
+
+-   쿼리 그룹 만들기/삭제 개선(다중 선택 등)
+
+-   쿼리를 분할(즉, 공통 기본 단계를 새 쿼리로 리팩터링)하는 기능
+
+-   쿼리 탐색기 창에서 쿼리 유형을 반영하는 쿼리 아이콘
+
+**데이터 모델링 개선:**
+
+-   데이터 보기에서 열 크기 조정
+
+-   측정값을 한 테이블에서 다른 테이블로 이동
+
+
+이 업데이트에 대한 자세한 내용은 다음 동영상을 참조하세요.
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/2v7LUD7MJaw" frameborder="0" allowfullscreen></iframe>
+
+## <a name="july-2015-update-2254095554"></a>2015년 7월 업데이트(2.25.4095.554)
+
+이 업데이트에는 다음과 같은 기능이 추가되었습니다.
+
+-   **새 데이터 커넥터**: appFigures, Quickbooks Online, Zendesk, Github, Twilio 및 SweetIQ
+
+-   **새 변환**: 텍스트 열에서 첫 번째 문자/마지막 문자/문자 범위를 추출하는 기능, 쿼리 병합 대화 상자에서 조인 유형을 지정하는 옵션, 구분 기호로 열 분할 대화 상자에서 인용 스타일을 사용자 지정하는 기능
+
+-   **보고서 작성 개선**: 새 시각화(영역 차트, 폭포 차트, 도넛형 차트 및 행렬), 새 시각적 서식 지정 및 사용자 지정 옵션(레이블, 제목, 배경, 범례, 색 등), 보고서에 텍스트 상자 및 그림 삽입, 보고서 및 보고서 테이블에 대한 하이퍼링크 지원, 실행 취소/다시 실행 작업
+
+-   Analysis Services 테이블 형식 모델에 대한 **직접 보고서 탐색**
+
+-   **데이터 모델링:** 새 데이터 보기 및 관계 보기
+
+-   Power BI Desktop에서 직접 PowerBI.com에 보고서 게시
+
+-   시작 페이지 및 "파일 -\> 열기" 메뉴에서 최근에 사용한 파일을 열 수 있도록 지원
+
+-   Exchange 커넥터에서 Exchange UPN 자격 증명에 대한 지원
+
+이러한 모든 새 기능 외에 **Power BI Desktop을 42개 언어로 제공**할 예정입니다. [Microsoft 공식 다운로드 페이지](https://www.microsoft.com/download/details.aspx?id=45331)에서 전체 언어 목록을 확인하고 원하는 언어 버전을 설치하세요.
+
+자세한 내용은 다음 동영상을 참조하세요.
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/JCaCcdMnsyM" frameborder="0" allowfullscreen></iframe>
+
+## <a name="may-2015-update-2234036161"></a>2015년 5월 업데이트(2.23.4036.161)
+
+이 업데이트에는 다음과 같은 기능이 추가되었습니다.
+
+**모델링 기능**
+
+-   계산 열
+
+-   데이터 분류
+
+-   다른 열 기준 정렬
+
+-   개선된 DAX 수식 편집기: 함수 도움말 및 프로토타입
+
+**데이터 및 쿼리 가져오기**
+
+-   새 **ODBC 테이블** 커넥터(베타)
+
+-   개선된 **Excel 통합 문서** 커넥터: 열 형식 유추가 향상되고 데이터 미리 보기 로드가 빨라짐
+
+-   새 텍스트 열 필터 - **제외할 시작 문자** 및 **제외할 끝 문자**
+
+-   향상된 개인 정보 수준 대화 상자
+
+자세한 내용은 다음 동영상을 참조하세요.
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/LS0zMfup1pQ" frameborder="0" allowfullscreen></iframe>
+
+
+## <a name="april-2015-update-2224009122"></a>2015년 4월 업데이트(2.22.4009.122)
+
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다.
+
+이 업데이트에는 다음과 같은 기능이 추가되었습니다.
+
+**모델링 기능**
+
+-   DAX 측정값에 대한 초기 지원
+
+-   새로운 DAX 함수
+
+-   보고서 뷰의 데이터 형식 및 서식 옵션
+
+-   보고서 뷰의 필드 이름 바꾸기 및 삭제
+
+**데이터 및 쿼리 가져오기**
+
+-   OData V4 지원
+
+-   사용자 지정 ADFS 인증 서비스에 대한 지원
+
+-   Facebook API 변경으로 인해 업데이트된 Facebook 커넥터
+
+-   통합 옵션 대화 상자
+
+-   네이티브 데이터베이스 쿼리 프롬프트를 사용하지 않도록 설정하는 옵션
+
+-   **고정 10진수** 형식에 대한 지원
+
+-   대체 Windows 자격 증명
+
+-   빈 행 제거
+
+-   **그룹화 기준** 및 **집계 열**에 사용할 수 있는 중앙값 연산
+
+-   **DateTimeZone** 값을 **현지 시간**으로 변환
+
+**성능 개선**
+
+-   중간 크기의 데이터 집합 및 큰 데이터 집합의 로드 속도가 약 20% 빨라짐
+
+-   기존 PBIX 파일을 여는 데 걸리는 시간이 약 50% 개선됨
+
+자세한 내용은 다음 동영상을 참조할 수 있습니다. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FuL8agVKrcg" frameborder="0" allowfullscreen></iframe>
+
+## <a name="march-2015-update-2213975261"></a>2015년 3월 업데이트(2.21.3975.261)
+
+이 업데이트에는 다음과 같은 기능이 추가되었습니다.
+
+-   **Google 분석** 커넥터
+
+-   **쿼리 뷰에서의 데이터 필터링**을 위한 추가 연산자
+
+-   **자동 모델 관계 검색**
+
+-   향상된 **관계 추가** 대화 상자
+
+-   **보고서 페이지 다시 정렬**(끌어서 놓기)
+
+-   필터/변환이 없는 데이터베이스 테이블을 채우는 **성능** **개선** 이 약 40-50% 이루어짐
+
+-   다양한 버그 수정
+
+자세한 내용은 다음 동영상을 참조할 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xJTcGro08TI" frameborder="0" allowfullscreen></iframe>
+
+## <a name="february-2015-update-2203945102"></a>2015년 2월 업데이트(2.20.3945.102)
+
+이 업데이트에서는 다음과 같은 기능이 추가되거나 개선되었습니다.
+
+- 성능 개선
+- Dynamics CRM Online 커넥터
+    > [!NOTE]
+    > 현재 이 대화 상자에서는 crm.microsoft.com 도메인 내의 URL만 허용됩니다. 비프로덕션 테넌트는 포함되지 않습니다. 3월 업데이트에서 이 문제를 해결할 예정입니다. 임시 해결 방법은 "OData 데이터 피드에서"를 사용하여 이 피드에 연결하는 것입니다.
+- 탐색기 대화 상자 개선
+    -   다차원 원본(Analysis Services 및 SAP BusinessObjects)에 대한 미리 보기 환경 개선
+    -   선택한 항목 표시 옵션
+    -   탐색기 트리에서 검색 기능 개선
+-   새 변환
+    -   날짜/시간 열에 대한 기간 및 빼기 연산
+    -   집계 열: 새 열의 접두사를 사용하지 않도록 설정하는 옵션
+-   필드 목록 개선
+    -   테이블 확장/축소
+    -   필드 숨기기/숨기기 취소
+    -   최적화된 레이아웃(간격, 여백 및 글꼴)
+-   보고서 페이지 탐색 - 키보드 사용 지원
+-   다양한 버그 수정
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>
+
+**2015년 1월 업데이트(2.19.3923.101)**
+
+이번 달에는 다양한 개선 작업과 버그 수정을 단행했습니다. 새 버전을 사용해 보고 문제를 발견할 경우 계속 사용자 의견을 보내주세요!

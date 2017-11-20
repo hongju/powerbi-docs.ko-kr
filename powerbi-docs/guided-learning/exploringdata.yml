@@ -1,0 +1,95 @@
+documentType: Tutorial
+title: "데이터 탐색"
+metadata:
+  title: "데이터 탐색 | Microsoft Power BI"
+  description: "Power BI에서 데이터를 찾고 데이터에 연결하고 데이터와 상호 작용하는 방법을 살펴봅니다."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: powerbiandexcel
+  nextTutorialTitle: "Power BI 및 Excel"
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "Power BI에서 데이터를 찾고 데이터에 연결하고 데이터와 상호 작용하는 방법을 살펴봅니다.\n"
+  ms.openlocfilehash: 04fc3f0a47ab4194031b6e2bb65eacc0ac89d5f5
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 11/15/2017
+- title: "Power BI 서비스 소개"
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/B2vd4MQrz4M?rel=0]
+
+
+    [!INCLUDE [](includes/4-0-intro-power-bi-service.md)]
+- title: "Power BI의 신속한 정보 활용"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/et_MLSL2sA8?rel=0]
+
+
+    [!INCLUDE [](includes/4-1a-quick-insights.md)]
+- title: "대시보드 만들기 및 구성"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/lJKgWnvl6bQ?rel=0]
+
+
+    [!INCLUDE [](includes/4-2-create-configure-dashboards.md)]
+- title: "자연어를 사용하여 데이터에 대해 질문하기"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/qMf7OLJfCz8?rel=0]
+
+
+    [!INCLUDE [](includes/4-3-asking-questions-natural-language.md)]
+- title: "사용자 지정 질문 및 답변 제안 만들기"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/E1mIAyEXuF4?rel=0]
+
+
+    [!INCLUDE [](includes/4-3a-suggested-questions.md)]
+- title: "조직과 대시보드 공유"
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/0tUwn8DHo3s?rel=0]
+
+
+    [!INCLUDE [](includes/4-4-share-dashboards.md)]
+- title: "시각적 개체 및 타일 전체 화면 표시"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/LoApjhwTse0?rel=0]
+
+
+    [!INCLUDE [](includes/4-4b-display-visuals-tiles-fullscreen.md)]
+- title: "타일 세부 정보 편집 및 위젯 추가"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/XhqVbHqd5jQ?rel=0]
+
+
+    [!INCLUDE [](includes/4-4d-change-tile-details.md)]
+- title: "대시보드 공간 확보"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/c31gZkyvC54?rel=0]
+
+
+    [!INCLUDE [](includes/4-4e-get-more-dashboard-space.md)]
+- title: "Personal Gateway 설치 및 구성"
+  durationInMinutes: 11
+  content: >
+    > [!Video https://www.youtube.com/embed/xjcO5tNvjGs?rel=0]
+
+
+    [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
+- content: "Power BI에 대한 단계별 학습 과정의 **데이터 탐색** 단원을 마쳤습니다.\0"

@@ -1,0 +1,65 @@
+documentType: Tutorial
+title: "DAX 소개"
+metadata:
+  title: "DAX 소개 | Microsoft Power BI"
+  description: "정해진 전문가로부터 DAX를 만들고 작업하는 방법을 살펴봅니다."
+  audience: Business User
+  level: Beginner
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "정해진 전문가로부터 DAX를 만들고 작업하는 방법을 살펴봅니다.\n"
+  ms.openlocfilehash: 5723e4a56974ab25eb43f3130755f6bccb71214c
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 11/15/2017
+- title: "DAX 소개"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/lRhOJP3bZCo?rel=0]
+
+
+    [!INCLUDE [](includes/7-1-intro-to-dax.md)]
+- title: "DAX 계산 형식"
+  durationInMinutes: 22
+  content: >
+    > [!Video https://www.youtube.com/embed/BVlijY68wp8?rel=0]
+
+
+    [!INCLUDE [](includes/7-2-dax-calculation-types.md)]
+- title: "DAX 함수"
+  durationInMinutes: 17
+  content: >
+    > [!Video https://www.youtube.com/embed/siTnzquk1SU?rel=0]
+
+
+    [!INCLUDE [](includes/7-3-dax-functions.md)]
+- title: "DAX 식에서 변수 사용"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/kd4tgKxhRTU?rel=0]
+
+
+    [!INCLUDE [](includes/7-4-dax-expressions.md)]
+- title: "테이블 관계 및 DAX"
+  durationInMinutes: 13
+  content: >
+    > [!Video https://www.youtube.com/embed/yec1f5A08mc?rel=0]
+
+
+    [!INCLUDE [](includes/7-5-table-relationships-and-dax.md)]
+- title: "DAX 테이블 및 필터링"
+  durationInMinutes: 32
+  content: >
+    > [!Video https://www.youtube.com/embed/6eAoDI4VDFs?rel=0]
+
+
+    [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
+- content: "Microsoft Power BI에 대한 단계별 학습 과정의 **DAX 소개** 단원을 마쳤습니다.\0"

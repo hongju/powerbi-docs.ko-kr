@@ -1,0 +1,16 @@
+- name: 시작
+  href: 'gettingstarted.yml#step-0'
+- name: 데이터 가져오기
+  href: 'gettingdata.yml#step-0'
+- name: 모델링
+  href: 'modeling.yml#step-0'
+- name: 시각화
+  href: 'visualizations.yml#step-0'
+- name: 데이터 탐색
+  href: 'exploringdata.yml#step-0'
+- name: Power BI 및 Excel
+  href: 'powerbiandexcel.yml#step-0'
+- name: 게시 및 공유
+  href: 'publishingandsharing.yml#step-0'
+- name: DAX 소개
+  href: 'introductiontodax.yml#step-0'
