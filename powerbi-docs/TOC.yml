@@ -12,10 +12,6 @@
           href: service-free-vs-pro.md
         - name: Power BI용 데이터 원본
           href: service-get-data.md
-        - name: Power BI 동영상
-          href: videos.md
-        - name: Power BI 웹 세미나
-          href: webinars.md
         - name: 새로운 Power BI 탐색 환경
           href: service-the-new-power-bi-experience.md
         - name: 도움을 받을 수 있는 10가지 팁
@@ -526,7 +522,7 @@
           href: service-gateway-deployment-guidance.md
         - name: 온-프레미스 데이터 게이트웨이
           href: service-gateway-onprem.md
-        - name: 온-프레미스 데이터 게이트웨이 - 심층 분석
+        - name: 온-프레미스 데이터 게이트웨이 심층 분석
           href: service-gateway-onprem-indepth.md
         - name: 온-프레미스 데이터 게이트웨이 FAQ
           href: service-gateway-onprem-faq.md
@@ -534,7 +530,7 @@
           href: service-gateway-personal-mode.md
         - name: 온-프레미스 데이터 게이트웨이 문제 해결
           href: service-gateway-onprem-tshoot.md
-        - name: Power BI 게이트웨이 - 개인
+        - name: Power BI Gateway – Personal
           href: personal-gateway.md
         - name: 프록시 설정 구성
           href: service-gateway-proxy.md
@@ -572,6 +568,8 @@
           href: service-admin-portal.md
         - name: Power BI 감사
           href: service-admin-auditing.md
+        - name: Azure AD B2B 사용
+          href: service-admin-azure-ad-b2b.md
         - name: 로그인한 사용자 찾기
           href: service-admin-access-usage.md
         - name: Power BI를 사용하는 행 수준 보안
@@ -594,7 +592,7 @@
           href: service-admin-forgot-your-password.md
         - name: Power BI에 대한 추가 진단 정보 캡처
           href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
-        - name: Power BI에 대한 대체 메일 주소
+        - name: Power BI에 대한 대체 이메일 주소
           href: service-admin-alternate-email-address-for-power-bi.md
         - name: Power BI 및 Azure에서 동일한 계정 로그인을 사용하는 방법
           href: service-admin-how-to-use-the-same-account-as-azure.md
@@ -604,7 +602,7 @@
           href: desktop-troubleshooting-analyze-in-excel.md
         - name: 온-프레미스 데이터 게이트웨이 문제 해결
           href: service-gateway-onprem-tshoot.md
-        - name: Power BI Gateway - Personal 문제 해결
+        - name: Power BI Gateway – Personal 문제 해결
           href: service-admin-troubleshooting-power-bi-personal-gateway.md
         - name: 새로 고침을 지원하지 않는 데이터 소스 문제 해결
           href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
@@ -676,7 +674,7 @@
           href: desktop-connect-azure-consumption-insights.md
         - name: Power BI Desktop에서 SAP HANA 사용
           href: desktop-sap-hana.md
-        - name: Power BI Desktop의 Analysis Services 표 형식 데이터
+        - name: Power BI Desktop의 Analysis Services 테이블 형식 데이터
           href: desktop-analysis-services-tabular-data.md
         - name: Power BI Desktop에서 DirectQuery 사용
           href: desktop-use-directquery.md
@@ -794,7 +792,7 @@
           href: desktop-inline-hierarchy-labels.md
         - name: 숫자 범위 슬라이서 사용
           href: desktop-slicer-numeric-range.md
-        - name: 상대 데이터 슬라이서 사용
+        - name: 상대 날짜 슬라이서 사용
           href: desktop-slicer-filter-date-range.md
         - name: Cortana에 대한 사용자 지정 Power BI 답변 카드 만들기
           href: service-cortana-answer-cards.md
@@ -824,11 +822,11 @@
           href: desktop-tutorial-create-calculated-columns.md
         - name: '자습서: Power BI Desktop을 사용한 Facebook 분석'
           href: desktop-tutorial-facebook-analytics.md
-        - name: Power BI Desktop 웃는 얼굴 보내기 개인정보취급방침
+        - name: Power BI Desktop 웃는 얼굴 보내기 개인정보처리방침
           href: desktop-send-smile-privacy-statement.md
     - name: 문제 해결
       items:
-        - name: Power BI Desktop 및 파워 쿼리에서 Access 데이터베이스 및 .XLS 스프레드시트 가져오기 문제 해결
+        - name: Power BI Desktop 및 파워 쿼리에서 Access 데이터베이스 및 Excel 스프레드시트 가져오기 문제 해결
           href: desktop-access-database-errors.md
         - name: Power BI Desktop을 시작할 때 발생하는 문제 해결
           href: desktop-error-launching-desktop.md
@@ -842,7 +840,7 @@
           href: mobile-apps-find-content-mobile-devices.md
         - name: Power BI용 모바일 앱의 새로운 기능
           href: mobile-whats-new-in-the-mobile-apps.md
-    - name: 모든 Mobile Apps
+    - name: 모든 모바일 앱
       items:
         - name: iOS용 Power BI 앱
           href: mobile-ios-ipad-iphone-apps.md
@@ -950,7 +948,7 @@
           href: developer/get-azuread-access-token.md
         - name: Power BI 사용 권한
           href: developer/power-bi-permissions.md
-        - name: RLS(행 수준 보안)
+        - name: 행 수준 보안(RLS)
           href: developer/embedded-row-level-security.md
         - name: Q&A 포함
           href: developer/qanda.md
@@ -1104,6 +1102,8 @@
           href: report-server/quickstart-embed.md
     - name: 참조
       items:
+        - name: REST API
+          href: report-server/rest-api.md
         - name: WMI
           href: 'https://go.microsoft.com/fwlink/?linkid=848719'
         - name: SOAP API
@@ -1114,5 +1114,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
 - name: 리소스
   items:
+    - name: Power BI 동영상
+      href: videos.md
+    - name: Power BI 웹 세미나
+      href: webinars.md
     - name: 백서
       href: whitepapers.md
