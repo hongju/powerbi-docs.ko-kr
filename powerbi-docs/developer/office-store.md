@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/20/2017
 ms.author: asaxton
-ms.openlocfilehash: ab2d4518fbc16c857f6c2e4c3257f3b82e02e1c0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="publish-custom-visuals-to-the-office-store"></a>사용자 지정 시각적 개체를 Office 스토어에 게시
 다른 사람이 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 Office 스토어에 게시하는 방법을 알아봅니다.
@@ -133,7 +133,6 @@ Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [Office 개발자
 
 ## <a name="next-steps"></a>다음 단계
 [개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[Office 스토어에서 사용자 지정 시각적 개체 다운로드 및 사용](../service-custom-visuals-office-store.md)  
 [Power BI의 시각화](../power-bi-report-visualizations.md)  
 [Power BI의 사용자 지정 시각화](../power-bi-custom-visuals.md)  
 [*인증된* 사용자 지정 시각적 개체 가져오기](../power-bi-custom-visuals-certified.md)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: 39de6173c88beb1b56092677887b71e603888143
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5b02f55a14592020e73005e44f8692cdb01693c7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>What if 매개 변수를 사용하여 Power BI Desktop에서 변수 시각화
 **Power BI Desktop** 2017년 8월 릴리스에서부터 보고서에**What if** 변수를 만들고, 슬라이서인 변수와 상호 작용함으로써 보고서에서 다른 키 값을 시각화하고 수치화할 수 있습니다.
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/15/2017
 
 **What if** 매개 변수는 **Power BI Desktop**의 **모델링** 탭에 있습니다. 이렇게 하면 매개 변수를 구성할 수 있는 대화 상자가 나타납니다.
 
-### <a name="creating-a-what-if-parameter"></a>What if 매개 변수 만들기
+## <a name="creating-a-what-if-parameter"></a>What if 매개 변수 만들기
 **What if** 매개 변수를 만들려면 **Power BI Desktop**의 **모델링** 탭에서 **What if** 단추를 선택합니다. 다음 이미지에서는 *할인율*이라는 매개 변수를 만들고 *10진수*로 해당 데이터 형식을 설정했습니다. *최소* 값이 0이고 *최대* 값은 0.50(50%)입니다. 또한 *증가*를 0.05 또는 5%로 설정했습니다. 보고서에서 상호 작용할 때 매개 변수를 조정하는 정도입니다.
 
 ![](media/desktop-what-if/what-if_02.png)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: c3e8c4d110bccf1ed8a992b22bd1014a770d5bb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c48e7042f16ac43619a7a0a6708a54f0575d795f
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="using-r-in-query-editor"></a>쿼리 편집기에서 R 사용
 Power BI Desktop **쿼리 편집기**에서 통계학자, 데이터 과학자 및 데이터 분석에 의해 널리 사용되는 프로그래밍 언어인 **R**을 사용할 수 있습니다. R을 **쿼리 편집기**에 통합하면 R을 사용하여 데이터 정리를 수행하고 누락된 데이터, 예측, 클러스터링을 완성하는 작업을 포함하여 데이터 집합에서 고급 데이터 셰이핑 및 분석을 수행할 수 있습니다. **R**은 강력한 언어이며 **쿼리 편집기**에서 사용하여 데이터 모델을 준비하고 보고서를 만들 수 있습니다.
@@ -56,7 +56,7 @@ Power BI Desktop의 **쿼리 편집기**에서 **R**을 사용하려면 로컬 �
        output$completedValues <- completedData$"SMI missing values"
    
    > [!NOTE]
-> 이전의 스크립트 코드가 제대로 작동하려면 R 환경에 설치된 *mice* 라이브러리가 있어야 합니다. 마우스를 설치하려면 R 설치에서 다음을 실행 합니다. |      > install.packages('mice')
+   > 이전의 스크립트 코드가 제대로 작동하려면 R 환경에 설치된 *mice* 라이브러리가 있어야 합니다. 마우스를 설치하려면 R 설치에서 다음을 실행 합니다. |      > install.packages('mice')
    > 
    > 
    
@@ -72,7 +72,6 @@ Power BI Desktop의 **쿼리 편집기**에서 **R**을 사용하려면 로컬 �
    
    이렇게 하면 *completedValues*라는 **필드**에서도 새 열을 확인할 수 있습니다. 행 15, 18에서와 같은 몇 가지 누락된 데이터 요소가 있습니다. 다음 섹션에서는 R이 이를 처리하는 방법을 살펴봅니다.
    
-   참고
 
 **쿼리 편집기**는 R 스크립트 다섯 줄을 사용하여 예측 모델을 포함한 누락된 값을 입력했습니다.
 

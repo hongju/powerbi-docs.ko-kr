@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 40c2c713615f6e9e5378d36b6b228dc864bcb57c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 20a697cbc4698e237f3ac09b031ea0c4cb734a52
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="review-custom-visuals-for-security-and-privacy"></a>보안 및 개인 정보에 대한 사용자 지정 시각적 개체 검토
 사용자 지정 시각적 개체를 사용하기 전에 보안 및 개인 정보에 대한 사용자 지정 시각적 개체를 검토하여 조직의 표준에 적합한지 확인해야 합니다.
@@ -102,9 +102,6 @@ pbiviz 파일을 추출한 후에 코드를 평가할 수 있습니다. 다음�
 ## <a name="next-steps"></a>다음 단계
 [Power BI의 시각화](power-bi-report-visualizations.md)  
 [Power BI의 사용자 지정 시각화](power-bi-custom-visuals.md)  
-[Office 스토어에서 사용자 지정 시각적 개체 다운로드 및 사용](service-custom-visuals-office-store.md)  
-[보고서에 사용자 지정 시각화 추가(Power BI Desktop)](power-bi-custom-visuals-use.md)  
-[보고서에 사용자 지정 시각화 추가(Power BI Service)](power-bi-report-add-custom-visual.md)  
 [사용자 지정 시각적 개체를 Office 스토어에 게시](developer/office-store.md)  
 [사용자 지정 시각적 개체 개발자 도구 시작하기](service-custom-visuals-getting-started-with-developer-tools.md)  
 [사용자 지정 시각적 개체를 인증하는 방법](power-bi-custom-visuals-certified.md)    

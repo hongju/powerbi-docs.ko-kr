@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 6fb6250f8cd82c7057abe3f9cf9792dc733ea4b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 77ae086d4b9c86f0d5ec4c0515ad96919160059d
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이에 대한 프록시 설정 구성
 작업 환경은 인터넷에 액세스하도록 프록시를 통과해야 합니다. 온-프레미스 데이터 게이트웨이가 서비스에 연결되지 못하도록 할 수 있습니다.
@@ -48,40 +48,6 @@ superuser.com의 다음 게시물은 네트워크에 프록시가 있는지 확�
 두 번째는 Power BI 서비스와 상호 작용하고 요청을 처리하는 실제 Windows 서비스입니다.
 
     C:\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config
-
-### <a name="power-bi-gateway---personal"></a>Power BI 게이트웨이 - 개인
-> [!NOTE]
-> **온-프레미스 데이터 게이트웨이(개인 모드)**라고 하는 Power BI에 대한 개인 게이트웨이의 새 버전이 있습니다. 이 문서의 이 섹션은 2017년 7월 31일 이후 사용 및 작동이 중지되는 **Power BI Gateway - Personal**이라 불리는 개인 게이트웨이의 이전 버전에 대해 설명합니다. 새 버전의 설치 방법을 비롯한 개인 게이트웨이의 새 버전에 대한 자세한 내용은 [**온-프레미스 데이터 게이트웨이(개인 모드)** 문서](service-gateway-personal-mode.md)를 참조하세요.
-> 
-> 
-
-두 가지 방법 중 하나로 개인 게이트웨이를 설치할 수 있습니다. Windows 서비스(관리) 또는 사용자 모드 응용 프로그램으로. 설치 중 결정됩니다. 이로 인해 구성 파일은 게이트웨이가 설치된 방법에 따라 두 위치 중 하나에 있을 수 있습니다. 두 위치를 확인합니다.
-
-**구성**
-
-첫 번째는 실제로 게이트웨이를 구성하는 구성 화면에 대한 것입니다. 게이트웨이를 구성하는 데 문제가 있는 경우 확인할 수 있는 파일입니다.
-
-*Windows 서비스*의 경우 다음이 됩니다.
-
-    C:\Program Files\Power BI Personal Gateway\1.0\Configurator\GWConfig.exe.config
-    C:\Program Files\Power BI Personal Gateway\1.0\Configurator\PowerBIGatewayAgentCmdLine.exe.config
-
-*사용자 모드 응용 프로그램*의 경우 다음이 됩니다.
-
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Configurator\GWConfig.exe.config
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Configurator\PowerBIGatewayAgentCmdLine.exe.config
-
-**Windows 서비스**
-
-두 번째는 Power BI 서비스와 상호 작용하고 요청을 처리하는 실제 Windows 서비스입니다.
-
-*Windows 서비스*의 경우 다음이 됩니다.
-
-    C:\Program Files\Power BI Personal Gateway\1.0\Gateway\diawp.exe.config
-
-*사용자 모드 응용 프로그램*의 경우 다음이 됩니다.
-
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Gateway\diawp.exe.config
 
 ## <a name="configuring-proxy-settings"></a>프록시 설정 구성
 기본 프록시 구성은 다음입니다.
