@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
 ms.author: asaxton
-ms.openlocfilehash: dafd1d7891410818cc2c23031bf1a5f8c750438e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b09c497f04a59819f42e1841dd79912d19303041
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Power BI에 개별 등록
 Power BI에 등록하고 개인 보고서를 시작하는 방법과 시각화 요구 사항에 대해 알아봅니다.
@@ -57,7 +57,7 @@ Power BI는 등록할 직장 또는 학교 전자 메일 주소가 필요합니�
 > 
 > 
 
-## <a name="which-one-do-i-need"></a>필요한 사항
+## <a name="which-one-do-you-need"></a>어떤 것이 필요합니까?
 각 라이선스 형식에 포함된 항목을 검토하여 무엇이 필요한지 확인할 수 있습니다. 무료 사용자는 공유 및 공동 작업 기능을 제외한 서비스의 기능 대부분을 사용할 수 있습니다. Power BI Pro 사용자는 서비스의 모든 기능을 사용할 수 있으나 무료는 아닙니다. 콘텐츠를 공유할 필요가 없는 경우라면 무료를 사용하는 것이 한 방법입니다. [Power BI 가격 책정 페이지](https://powerbi.microsoft.com//pricing/)에서 자세한 내용을 확인할 수 있습니다.
 
 이 문서의 나머지 부분에서는 각 옵션에 등록하는 방법을 살펴봅니다.
@@ -93,7 +93,7 @@ Power BI에 등록하려면 다음을 수행할 수 있습니다.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup7.png)
 
-### <a name="what-if-im-already-part-of-an-existing-organization"></a>이미 기존 조직에 참여 중인 경우
+### <a name="what-if-youre-already-part-of-an-existing-organization"></a>이미 기존 조직에 참여 중인 경우
 계정이 기존 조직의 일부이면 해당 계정으로 로그인하라는 메시지가 나타납니다. **계속**을 선택하여 Office 365 로그인으로 로그인합니다.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup5.png)

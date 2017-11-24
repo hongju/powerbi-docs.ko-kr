@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/27/2017
 ms.author: mihart
-ms.openlocfilehash: 338f45ec7aa4564dfd17678b5c5296a08c078334
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 소매점 분석 샘플: 둘러보기
-## <a name="about-the-retail-analysis-sample"></a>소매점 분석 샘플 정보
+
 이 업계 샘플 대시보드 및 기본 보고서는 여러 상점과 구역에서 판매된 항목의 소매점 판매 데이터를 분석합니다. 메트릭은 새 상점 분석뿐 아니라 판매, 단위, 총 수익 및 차이 영역에서 작년과 금년의 실적을 비교합니다. 이 샘플은 익명화된 obviEnce([www.obvience.com](http://www.obvience.com))의 실제 데이터입니다.
 
 [이 샘플에 대한 데이터 집합(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529778)할 수도 있습니다.
@@ -134,7 +134,7 @@ ms.lasthandoff: 11/13/2017
 
 이제 재생하는 데 안전한 환경입니다. 언제든지 변경 내용을 저장하지 않도록 선택할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 데이터 가져오기로 이동할 수 있습니다.
 
-## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
+## <a name="connect-to-your-data"></a>데이터에 연결
 이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 소매 데이터를 파악하는 방법을 확인하는 데 도움이 되었기를 바랍니다. 이제 사용자 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 소스에 연결할 수 있습니다. [Power BI 시작하기](service-get-started.md)에 대해 자세히 알아보세요.
 
 ## <a name="next-steps"></a>다음 단계

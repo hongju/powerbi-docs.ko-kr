@@ -17,16 +17,16 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: c7053cbf6dd4cc44424d447eefc060d119a98aa4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8d592a620f7a18cad3d70a09e6cd7a960683f860
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터(클라우드에 없는 데이터)와 Power BI, Microsoft Flow, Logic Apps, PowerApps 서비스 간에 빠르고 안전한 데이터 전송을 제공하는 브리지 역할을 합니다.
 
-다양한 서비스에 단일 게이트웨이를 동시에 사용할 수 있습니다. Power BI와 PowerApps를 사용하는 경우 둘 다에 대해 단일 게이트웨이가 사용됩니다. 이는 로그인에 사용한 계정에 종속되어 있습니다.
+다양한 서비스에 단일 게이트웨이를 동시에 사용할 수 있습니다. Power BI와 PowerApps를 사용하는 경우 둘 다에 대해 단일 게이트웨이를 사용할 수 있습니다. 이는 로그인에 사용한 계정에 종속되어 있습니다.
 
 > [!NOTE]
 > 온-프레미스 데이터 게이트웨이는 모든 모드에서 데이터 압축 및 전송 암호화를 구현합니다.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bb48c764214ba5fbcf1ac825caca798bcf129ba7
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ed75e0eea452f73017259ec9c86c5a8371853fa3
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="troubleshooting-tile-errors"></a>타일 오류 문제 해결
 다음은 설명이 있는 타일에 발생할 수 있는 일반적인 오류입니다.

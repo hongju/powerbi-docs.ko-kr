@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bf1ac9f953dc00422e65f84d25f74bfa54c05628
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 시작
 **Power BI Desktop 시작 가이드**를 시작합니다. 아래의 간단한 안내를 통해 Power BI Desktop의 작동 방법을 파악하고, 이 도구로 수행할 수 있는 작업을 확인하고, 비즈니스 인텔리전스 활동을 강화하는 강력한 데이터 모델을 유용한 보고서와 함께 신속하게 작성할 수 있습니다. 
@@ -182,8 +182,8 @@ Power BI Desktop의 쿼리 편집기에서는 리본에서 사용 가능한 작�
 
 * *첫 행을 머리글로 사용* – 상위 3개의 행을 제거했으므로 현재 첫 행이 원하는 머리글입니다.
 
->[!NOTE]
->이 시점에서 **쿼리 편집기**에서 적용된 단계의 *시퀀스*가 중요하며 데이터의 셰이핑 방식에 영향을 줄 수 있음에 주목하는 것이 좋습니다. 또한 한 단계가 다른 후속 단계에 미칠 수 있는 영향을 고려하는 것이 중요합니다. **적용된 단계**에서 한 단계를 제거하면 쿼리의 단계 시퀀스 영향 때문에 후속 단계가 의도한 대로 동작하지 않을 수 있습니다.
+    >[!NOTE]
+    >이 시점에서 **쿼리 편집기**에서 적용된 단계의 *시퀀스*가 중요하며 데이터의 셰이핑 방식에 영향을 줄 수 있음에 주목하는 것이 좋습니다. 또한 한 단계가 다른 후속 단계에 미칠 수 있는 영향을 고려하는 것이 중요합니다. **적용된 단계**에서 한 단계를 제거하면 쿼리의 단계 시퀀스 영향 때문에 후속 단계가 의도한 대로 동작하지 않을 수 있습니다.
 
 * *열 및 테이블 자체의 이름 바꾸기* – 일반적으로 열 이름을 바꾸는 몇 가지 방법이 있습니다. 원하는 방법을 선택할 수 있습니다.
 

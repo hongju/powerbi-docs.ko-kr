@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: b425e7ea2cffeff31cc8cf49330ca3835d92165c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f82bcc9d9add1683f593da6457fde2a4bbce2e02
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Power BI Desktop에서 예제의 열 추가
 **Power BI Desktop**의 2017년 4월 릴리스부터 **쿼리 편집기**를 사용하고 새 열에 대한 샘플 값을 하나 이상 제공하여 데이터의 새 열을 모델에 추가할 수 있습니다. 현재 선택 항목에서, 또는 지정된 테이블의 모든(또는 선택한) 열을 토대로 제공한 입력에서 새 열 예제를 만들 수 있습니다.
@@ -83,26 +83,29 @@ ms.lasthandoff: 11/15/2017
 
 * **참조**
   
-  * 특정 열에 대한 참조(자르기, 정리(2017년 6월 기준) 및 형 변환 포함)
+  * 특정 열에 대한 참조(자르기, 정리 및 대소문자 변환 포함)
+
 * **텍스트 변환**
   
   * 결합(리터럴 문자열 및 전체 열 값 조합 지원)
   * 바꾸기
   * 길이
-  * 추출
-    
+  * 추출   
     * 첫 번째 문자
     * 마지막 문자
     * 범위
     * 구분 기호 앞 텍스트
     * 구분 기호 뒤 텍스트
     * 구분 기호 사이 텍스트
-  * **Power BI Desktop** 2017년 6월 릴리스부터는 다음 **텍스트 변환**이 지원됩니다.
-    
     * 길이
 
+* **Power BI Desktop** 2017년 11월 릴리스부터는 다음 **텍스트 변환**이 지원됩니다.
+    
+  * 문자 제거
+  * 문자 유지
+
 > [!NOTE]
-> 모든 *텍스트* 변환에서는 열 값으로 자르거나, 정리(2017년 6월 기준)하거나, 형 변환을 적용해야 하는 잠재성을 고려합니다.
+> 모든 *Text* 변환에서는 열 값으로 자르거나 정리하거나 대소문자 변환을 적용해야 하는 잠재성을 고려합니다.
 > 
 > 
 
@@ -118,8 +121,6 @@ ms.lasthandoff: 11/15/2017
   * 월간 주
   * 연간 주
   * 연도
-* **Power BI Desktop** 2017년 6월 릴리스부터는 추가 **날짜 변환**이 지원됩니다.
-  
   * 보존 기간
   * 연초
   * 연말
@@ -133,13 +134,13 @@ ms.lasthandoff: 11/15/2017
   * 월간 일자
   * 하루 시작
   * 하루 끝
+
+
 * **시간 변환**
   
   * 시간
   * 분
-  * 초
-* **날짜/시간/표준 시간대 변환** - 2017년 7월 **Power BI Desktop** 릴리스부터는 다음 변환이 지원됩니다.
-  
+  * 초  
   * 현지 시간으로
 
 > [!NOTE]
@@ -147,7 +148,8 @@ ms.lasthandoff: 11/15/2017
 > 
 > 
 
-* **숫자 변환** - 2017년 7월 **Power BI Desktop** 릴리스부터는 다음 변환이 지원됩니다.
+* **숫자 변환** 
+
   * 절대값
   * 아크코사인
   * 아크사인
@@ -175,3 +177,10 @@ ms.lasthandoff: 11/15/2017
   * 합계
   * 탄젠트
 
+* **Power BI Desktop** 2017년 11월 릴리스부터는 다음 **숫자 변환**이 지원됩니다.
+
+  * 버킷팅/범위
+
+* **일반**
+  
+  * 조건부 열

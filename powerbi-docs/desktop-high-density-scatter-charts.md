@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 16c39e646c487789de62d0c030150475c8bb8292
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 12a9462a0594c6a52c7319073120cf323910d3e4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 분산형 차트의 고밀도 샘플링
 **Power BI Desktop**의 2017년 9월 릴리스 및 **Power BI 서비스**에 대한 업데이트로 시작하는 새 샘플링 알고리즘은 분산형 차트가 고밀도 데이터를 나타내는 방법을 향상시키는데 사용 가능합니다.
@@ -73,7 +73,7 @@ ms.lasthandoff: 11/15/2017
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
-## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>분산형 차트에 **고밀도 샘플링**을 사용하는 방법
+## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>분산형 차트에 고밀도 샘플링을 사용하는 방법
 **고밀도 샘플링**을 사용하려면 분산형 차트를 선택하고 **서식** 창으로 이동하고 **일반** 카드를 확장합니다. 해당 카드 맨 아래 근처에서 **고밀도 샘플링**이라는 설정/해제 슬라이더를 사용할 수 있습니다. 이 기능을 사용하려면 **켜기**로 밉니다.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)

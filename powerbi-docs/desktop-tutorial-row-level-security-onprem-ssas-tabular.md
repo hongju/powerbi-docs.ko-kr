@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
-ms.openlocfilehash: efbf5998bfc419dbcf5d7f685da128f26fcd70dd
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: faaa96ad889b650d1902aa5916c0d9b35c7b49a5
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>자습서: Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
 이 자습서는 **Analysis Services 테이블 형식 모델** 내에서 **행 수준 보안**을 구현하는 데 필요한 단계를 설명하고 Power BI 보고서에서 사용하는 방법을 보여 줍니다. 이 자습서의 단계는 샘플 데이터 집합에서 완료하여 필요한 단계를 따르고 알아볼 수 있도록 설계되었습니다.

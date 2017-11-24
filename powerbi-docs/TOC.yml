@@ -196,8 +196,6 @@
           href: service-connect-to-tygraph.md
         - name: UserVoice
           href: service-connect-to-uservoice.md
-        - name: Visual Studio Team Services
-          href: service-connect-to-visual-studio.md
         - name: VMob
           href: service-connect-to-vmob.md
         - name: Webtrends
@@ -402,10 +400,6 @@
           href: power-bi-visualization-export-data.md
         - name: Power BI 보고서에서 시각화 유형 변경
           href: power-bi-report-change-visualization-type.md
-        - name: Power BI 보고서에 사용자 지정 시각화 추가
-          href: power-bi-report-add-custom-visual.md
-        - name: Office 스토어에서 사용자 지정 시각적 개체 다운로드 및 사용
-          href: service-custom-visuals-office-store.md
         - name: 색 서식 지정 및 축 속성 시작
           href: service-getting-started-with-color-formatting-and-axis-properties.md
         - name: Power BI의 색 서식을 위한 팁과 힌트
@@ -532,6 +526,8 @@
           href: service-gateway-onprem-tshoot.md
         - name: Power BI Gateway – Personal
           href: personal-gateway.md
+        - name: SSO(Single Sign-On)에 Kerberos 사용
+          href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: 프록시 설정 구성
           href: service-gateway-proxy.md
         - name: 엔터프라이즈 데이터 원본 관리 - Analysis Services
@@ -756,8 +752,6 @@
           href: desktop-insights.md
         - name: Power BI의 책갈피
           href: desktop-bookmarks.md
-        - name: 보고서에 사용자 지정 시각적 개체 추가(데스크톱)
-          href: power-bi-custom-visuals-use.md
         - name: 보고서 테마 사용
           href: desktop-report-themes.md
         - name: 빠른 측정 사용
@@ -962,8 +956,6 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: 보안 및 개인 정보에 대한 사용자 지정 시각적 개체 검토
           href: service-custom-visuals-review-for-security-and-privacy.md
-        - name: 사용자 지정 시각적 개체를 Office 스토어에 게시
-          href: developer/office-store.md
         - name: 사용자 지정 시각적 개체 인증 받기
           href: power-bi-custom-visuals-certified.md
     - name: 대시보드에 데이터 푸시

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: b222addc2e72308e94a3d8836c8e9039c7208bae
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22c5b8f64ef24f6ef6ff918058a56dc36fefddfa
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 셰이핑 및 결합
 **Power BI Desktop**을 사용하면 다양한 형식의 데이터 소스에 연결한 다음 요구 사항에 맞게 데이터를 셰이핑할 수 있습니다. 데이터 셰이핑은 열 또는 테이블 이름 바꾸기, 텍스트를 숫자로 변경, 행 제거, 첫 행을 머리글로 설정 등의 데이터 변환을 의미합니다. 데이터 *결합* 은 둘 이상의 데이터 원본에 연결하고, 필요에 따라 셰이핑한 다음 하나의 유용한 쿼리로 통합하는 것을 의미합니다.
@@ -160,11 +160,11 @@ Power BI Desktop의 **쿼리 편집기** 에서는 오른쪽 클릭 메뉴와 �
 
 ![](media/desktop-shape-and-combine-data/shapecombine_usefirstrowasheaders.png)
 
-    >[!NOTE]
-    >This is a good time to point out that the *sequence* of applied steps in Query Editor is important, and can affect how the data is shaped. It’s also important to consider how one step may impact another subsequent step; if you remove a step from the Applied Steps, subsequent steps may not behave as originally intended, because of the impact of the query’s sequence of steps.
+>[!NOTE]
+>이 시점에서 쿼리 편집기에서 적용된 단계의 *시퀀스*가 중요하며 데이터의 셰이핑 방식에 영향을 줄 수 있음에 주목하는 것이 좋습니다. 또한 한 단계가 다른 후속 단계에 미칠 수 있는 영향을 고려하는 것이 중요합니다. 적용된 단계에서 한 단계를 제거하면 쿼리의 단계 시퀀스 영향 때문에 후속 단계가 의도한 대로 동작하지 않을 수 있습니다.
 
-    >[!NOTE]
-    >When you resize the Query Editor window to make the width smaller, some ribbon items are condensed to make the best use of visible space. When you increase the width of the Query Editor window, the ribbon items expand to make the most use of the increased ribbon area.
+>[!NOTE]
+>너비를 줄이기 위해 쿼리 편집기 창의 크기를 조정할 때 보이는 공간을 최대한 활용하기 위해 일부 리본 항목이 압축됩니다. 쿼리 편집기 창의 너비를 늘리면 늘어난 리본 영역을 최대한 활용하기 위해 리본 항목이 확장됩니다.
 
 * 열과 테이블 자체의 이름 바꾸기 – 일반적으로 열의 이름을 바꾸는 몇 가지 방법이 있습니다. 먼저 열을 선택한 다음 리본의 **변환** 탭에서 **이름 바꾸기**를 선택하거나 마우스 오른쪽 단추를 클릭하고 나타나는 메뉴에서 **이름 바꾸기...** 를 선택합니다. 다음 그림에는 두 옵션을 가리키는 화살표가 있습니다. 하나만 선택해야 합니다.
 

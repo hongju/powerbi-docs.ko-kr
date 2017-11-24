@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: cea38a880ac67208e3b153d9259fd563a3bb8d50
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ecbbcd29a2273810d2e5be5700164008b52c06bd
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop을 사용한 쿼리 개요
 **Power BI Desktop**을 사용하면 데이터 세계에 연결하여 강력하고 근본적인 보고서를 만들고, 다른 사용자와 작업을 공유할 수 있습니다. 이러한 사용자는 해당 작업을 기반으로 하여 비즈니스 인텔리전스 작업을 확장할 수 있습니다.

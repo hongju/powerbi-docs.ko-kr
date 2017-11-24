@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/31/2017
 ms.author: mihart
-ms.openlocfilehash: d810383c87dae59e3993cef638497e64fd398dc7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI 서비스의 대시보드
-## <a name="what-is-a-dashboard"></a>대시보드란?
+
 Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전달하기 위해 시각화를 사용하는 단일 페이지입니다. 한 페이지로 제한되기 때문에 해당 스토리의 가장 중요한 요소만 포함할 경우 잘 디자인된 대시보드라 할 수 있습니다.
 
 ![](media/service-dashboards/power-bi-dashboard2.png)
@@ -64,7 +64,7 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 | 시각화를 만들 수 있음 |"타일 추가"를 사용하여 위젯을 대시보드에 추가하는 것으로 제한됨 |다양한 시각적 개체 유형을 만들고 사용자 지정 시각적 개체를 추가하며 편집 권한으로 시각적 개체를 편집하는 등의 작업이 가능 |
 | 사용자 지정 |이동 및 배열, 크기 조정, 링크 추가, 이름 바꾸기, 삭제 및 전체 화면 표시 등 시각화(타일)로 작업을 수행할 수 있음. 하지만 데이터와 시각화 자체는 읽기 전용입니다. |읽기용 보기에서 게시, 포함, 필터, 내보내기, .pbix로 다운로드, 관련 콘텐츠 보기, QR 코드 생성, Excel에서 분석 등을 수행할 수 있습니다.  편집용 보기에서 지금까지 언급한 모든 항목을 수행할 수 있습니다. |
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>대시보드 ***작성자*** 및 대시보드 ***소비자***
+## <a name="dashboard-creators-and-dashboard-consumers"></a>대시보드 작성자 및 대시보드 소비자
 사용자 역할에 따라 자신의 용도에 따라 또는 동료와 공유하기 위해 대시보드를 만들려는 사람이 있을 수 있습니다. 대시보드를 만들고 공유하는 방법에 대해 알아보고 싶습니다. 또는 다른 사람에게서 대시보드를 받은 사람도 있을 수 있습니다. 대시보드를 이해하고 상호 작용하는 방법에 대해 알아보고 싶습니다.
 
 다음은 시작하는 데 도움이 되는 몇 가지 항목을 역할별로 정리한 것입니다.

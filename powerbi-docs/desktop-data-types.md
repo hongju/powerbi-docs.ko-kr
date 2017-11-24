@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 71822f5d3e40eae4f43df5ab7129796e2a9d87b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da685cf95adb9d9f5bd4891f9447cbfe76759182
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop의 데이터 형식
 이 문서에서는 Power BI Desktop 및 DAX(Data Analysis Expressions)에서 지원하는 데이터 형식을 설명합니다. 
@@ -30,6 +30,7 @@ ms.lasthandoff: 11/15/2017
 
 일부 DAX 함수에는 특정 데이터 형식 요구 사항이 있기 때문에 이 작업이 중요합니다. 많은 경우 DAX는 암시적으로 데이터 형식을 변환하나 그렇지 않은 경우도 일부 존재합니다.  예를 들어, DAX 함수에서 날짜 데이터 형식이 필요한데 열의 데이터 형식은 텍스트인 경우 DAX 함수가 제대로 작동하지 않습니다.  따라서 열에 정확한 데이터 형식을 확보하는 것이 중요하면서 유용합니다. 암시적 변환은 이 문서의 뒷부분에서 설명합니다.
 
+## <a name="determine-and-specify-a-columns-data-type"></a>열의 데이터 형식 확인 및 지정
 Power BI Desktop에서는 쿼리 편집기, 데이터 보기 또는 보고서 보기의 열 데이터 형식을 결정 및 지정할 수 있습니다.
 
 **쿼리 편집기의 데이터 형식**

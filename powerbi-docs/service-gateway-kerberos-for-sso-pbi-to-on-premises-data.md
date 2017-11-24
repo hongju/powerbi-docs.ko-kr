@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: c69c3baff3c0ce00b06c5a6af43be8488133d42e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c676fafe2274139efdc7b4a5be5174b86ade5b50
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용
 온-프레미스 데이터 게이트웨이를 Kerberos로 구성하여 Power BI 보고서 및 대시보드를 온-프레미스 데이터에서 업데이트할 수 있도록 하는 원활한 Single Sign-On 연결을 가져올 수 있습니다. 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 원본에 연결하는 데 사용하는 DirectQuery를 사용하는 SSO(Single Sign-On)를 용이하게 합니다.
@@ -60,6 +60,15 @@ SSO로 실행하는 쿼리는 다음 다이어그램에 나와 있는 것처럼 
    > 서비스 SID와 관련하여, AAD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우 게이트웨이 서비스는 런타임 시 로컬 AD 조회를 수행하지 않아도 되며 게이트웨이 서비스에 대해 로컬 서비스 SID(도메인 계정 요구 대신)를 사용할 수 있습니다.  이 문서에서 설명하는 Kerberos 제한된 위임 구성 단계는 동일합니다(도메인 계정 대신 서비스 SID에 따라 간단히 적용됨).
    > 
    > 
+
+
+> [!NOTE]
+> SAP HANA에 SSO를 사용하려면 SAP에 다음 두 가지 HANA 관련 구성 수정 사항을 적용해야 합니다.
+>    1. 2017년 10월말 SAP에서 릴리스된 SAP HANA Patch 122.13을 사용하여 SAP HANA 서버를 업그레이드합니다. 
+>    2. 게이트웨이 머신에 SAP의 최신 HANA ODBC 드라이버를 설치합니다.  최소 버전은 HANA ODBC 2017년 8월 릴리스된 2.00.020.00 버전입니다.
+> 
+
+
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>부족한 Kerberos 구성의 오류
 기본 데이터베이스 서버 및 게이트웨이가 **Kerberos 제한된 위임**에 대해 제대로 구성되지 않은 경우 다음 오류 메시지를 받을 수 있습니다.

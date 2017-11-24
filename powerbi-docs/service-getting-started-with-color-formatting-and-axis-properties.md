@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: a40f1fba503ca9bc76f77381fe977d6944b595a1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 04b9a745d3969ab42c2a02c9b3cc28a65cd4d69c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>색 서식 지정 및 축 속성 시작
 **Power BI**에서는 데이터 계열, 데이터 요소 및 시각화의 배경 색까지도 변경할 수 있습니다. x축과 y축의 표시 방법을 변경할 수도 있으며 대시보드 및 보고서가 나타나는 방식을 완전히 제어할 수 있습니다.
@@ -97,6 +97,7 @@ X축 또는 Y축을 수정하는 것이 유용할 때가 있습니다. 색 작�
 > 
 > 
 
+## <a name="next-step"></a>다음 단계
 자세한 내용은 다음 아티클을 참조하세요.  
 
 * [Power BI의 색 서식을 위한 팁과 힌트](service-tips-and-tricks-for-color-formatting.md)  

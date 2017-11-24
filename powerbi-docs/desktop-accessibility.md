@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 7f5b5114951265e2dd76dbbd8a33045d44e21989
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9bff028c0db75e4c0e4f3b2fe97b4ed19c0d1518
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서의 내게 필요한 옵션
 **Power BI Desktop**에는 장애가 있는 사람이 **Power BI Desktop** 보고서를 보다 쉽게 사용하고 상호 작용할 수 있도록 하는 기능이 있습니다. 이러한 기능에는 키보드 또는 화면 판독기를 사용하여 보고서를 이용하고 탭 키로 페이지에 있는 다양한 개체에 포커스를 이동하며 시각적 개체에 표식을 세밀하게 사용하는 기능이 있습니다.
@@ -76,7 +76,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 다음 목록에는 접근성 기능에 대한 알려진 문제 및 제한 사항이 설명되어 있습니다.
 
-* JAWS는 포함된 보고서를 포함하여 **Power BI 서비스**에서 볼 수 있는 보고서에서만 지원됩니다. **Power BI Desktop** 팀은 **Power BI Desktop**에서 볼 수 있는 보고서에서도 지원되도록 하기 위해 노력하고 있습니다.
+* JAWS는 포함된 보고서를 포함하여 **Power BI 서비스**에서 볼 수 있는 보고서에서 지원됩니다. JAWS는 **Power BI Desktop**에서도 지원되지만, 화면 판독을 제대로 읽도록 하기 위해 **Power BI Desktop** 파일을 열기 전에 화면 판독기를 열어야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI Desktop에서 보고서 테마 사용(미리 보기)](desktop-report-themes.md)
