@@ -20,8 +20,7 @@
     }
   ],
   "notification_subscribers": [],
-  "branches_to_filter": [
-    "live-sxs",
+  "branches_to_filter": [    
     "live",
     "master-sxs"
   ],
