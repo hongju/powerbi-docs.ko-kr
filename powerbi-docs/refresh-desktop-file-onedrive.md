@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 053e12ec2afbf2647569922d0b469ec1a985612b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c94d21c725846dfbe0e2fe86692166d9fe855a47
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 저장된 데이터 집합 새로 고침
 OneDrive 또는 SharePoint Online에서 Power BI 서비스로 파일을 가져오면 **Power BI Desktop**에서 수행하는 작업이 Power BI 서비스와 동기화를 유지할 수 있습니다.

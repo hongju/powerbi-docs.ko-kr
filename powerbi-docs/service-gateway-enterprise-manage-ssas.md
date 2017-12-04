@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: e03538061190290b251319a6919b918edc6c38fc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 58cfc6feb510dc9dc335b473b40ee4a7f341ee10
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---analysis-services"></a>데이터 원본 관리 - Analysis Services
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 수 있는 데이터 원본을 추가해야 합니다. 이 문서에서는 게이트웨이 및 데이터 소스로 작업하는 방법을 살펴봅니다. 예정된 새로 고침 또는 라이브 연결을 위해 Analysis Services 데이터 원본을 사용할 수 있습니다.
@@ -192,7 +192,7 @@ AD 조회를 수행하도록 게이트웨이를 구성하는 방법:
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard"></a>와일드카드(*) 사용
+### <a name="using-wildcard-"></a>와일드카드(*) 사용
 **대체 (원본 이름)** 문자열에서 와일드 카드를 사용할 수 있습니다. 다른 문자열 부분이 아닌 자체 문자열에 사용할 수 있습니다. 이렇게 하면 모든 사용자를 선택하여 단일 값을 데이터 원본에 전달할 수 있습니다. 로컬 환경에서 동일한 사용자를 사용하는 조직에서 모든 사용자를 원하는 경우에 유용합니다.
 
 ### <a name="test-a-mapping-rule"></a>매핑 규칙 테스트
@@ -254,7 +254,7 @@ AD 조회를 수행하도록 게이트웨이를 구성하는 방법:
 
 ## <a name="next-steps"></a>다음 단계
 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
-[온-프레미스 데이터 게이트웨이 - 심층 분석](service-gateway-onprem-indepth.md)  
+[온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)  
 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

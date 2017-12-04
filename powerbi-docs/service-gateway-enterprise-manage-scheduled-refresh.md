@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: davidi
-ms.openlocfilehash: c41035db173c937caedab92b65eeb66dbcfafdb9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 844f887a32dcd9f0749c769ee92d92fe6c81316c
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>데이터 원본 관리 - 가져오기/예약된 새로 고침
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 수 있는 데이터 원본을 추가해야 합니다. 이 문서에서는 DirectQuery 또는 라이브 연결과 다르게 예약된 새로 고침에 사용되는 게이트웨이 및 데이터 원본으로 작업하는 방법을 살펴봅니다.
@@ -123,7 +123,7 @@ Power BI 서비스에서 게이트웨이를 다운로드할 수 있습니다. **
 
 ## <a name="next-steps"></a>다음 단계
 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
-[온-프레미스 데이터 게이트웨이 - 심층 분석](service-gateway-onprem-indepth.md)  
+[온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)  
 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

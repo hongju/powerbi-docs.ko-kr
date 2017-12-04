@@ -1,5 +1,5 @@
 ## <a name="how-the-gateway-works"></a>게이트웨이 작동 방법
-![on-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
+![On-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
 
 먼저 사용자가 온-프레미스 데이터 원본에 연결된 요소를 조작하는 경우 어떻게 되는지 살펴보겠습니다. 
 

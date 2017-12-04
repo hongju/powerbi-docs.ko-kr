@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 11/27/2017
 ms.author: maikelson
-ms.openlocfilehash: a9f825afa7fedcec43626ba9b2f26e20a6408b6d
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -29,9 +29,11 @@ ms.lasthandoff: 11/22/2017
 
 ## <a name="featured-webinars"></a>주요 웹 세미나
 
-인기 있는 웹 세미나 시작
+인기 있는 주문형 웹 세미나 시작
 
 - [Power BI 시작하기](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
+
+- [Better Together: Excel 사용자가 Power BI로부터 얻을 수 있는 5가지 장점](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 - [시각적으로 멋진 Power BI 보고서를 만드는 방법](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
@@ -45,8 +47,6 @@ ms.lasthandoff: 11/22/2017
 등록하여 Power BI 전문가 의견을 듣고 라이브 QA 세션에 참가하기
 
 >[Power BI 커뮤니티의 예정된 웹 세미나 참석](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [Better Together: Excel 사용자가 Power BI로부터 얻을 수 있는 5가지 장점 - 11/27/17](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 - [제조업체: 디지털 변신은 진행 중 - 분석을 활용하여 리더십을 유지하고 수익성 극대화 -12/05/17](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 

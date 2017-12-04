@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: 644078dc61a69cf27cb93b29409546d61e1706f2
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 95fccd70b536a26baf93bf4735750e5599e3021f
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---sql-server"></a>데이터 원본 관리 - SQL Server
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 데이터 원본을 추가할 수 있습니다. 이 문서에서는 게이트웨이 및 데이터 소스로 작업하는 방법을 살펴봅니다. 예약된 새로 고침 또는 DirectQuery에 대해 SQL Server 데이터 원본을 사용할 수 있습니다.
@@ -127,7 +127,7 @@ DirectQuery와 예약된 새로 고침에 대한 경우입니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
-* [온-프레미스 데이터 게이트웨이 - 심층 분석](service-gateway-onprem-indepth.md)  
+* [온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)  
 * [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)
 * [Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) 
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

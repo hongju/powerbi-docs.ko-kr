@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/14/2017
 ms.author: davidi
-ms.openlocfilehash: fd5c155df233024b8b8989c2a02ee786904d7749
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 4162ebf02ad401242d724cb90b0f68920db435f6
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>온-프레미스 데이터 게이트웨이(개인 모드)
-온-프레미스 데이터 원본을 사용할 수 있으며, 게이트웨이를 사용하여 Power BI 보고서 및 대시보드를 만들 수 있습니다. **게이트웨이**는 사용자가 **Power BI 서비스**와 같은 온라인 서비스의 데이터를 사용할 수 있게 사설 온-프레미스 네트워크에 저장된 데이터에 대한 액세스를 용이하게 하는 소프트웨어입니다. **온-프레미스 데이터 게이트웨이(개인 모드)**는 최근에 릴리스된 Power BI Gateway에 대한 업데이트로, 개별 사용자가 자신의 컴퓨터에 게이트웨이를 설치하고 온-프레미스 데이터에 대한 액세스를 얻을 수 있도록 합니다.
+온-프레미스 데이터 원본을 사용할 수 있으며, 게이트웨이를 사용하여 Power BI 보고서 및 대시보드를 만들 수 있습니다. **게이트웨이**는 사용자가 **Power BI 서비스**와 같은 온라인 서비스의 데이터를 사용할 수 있게 사설 온-프레미스 네트워크에 저장된 데이터에 대한 액세스를 용이하게 하는 소프트웨어입니다. **온-프레미스 데이터 게이트웨이(개인 모드)**는 최근에 릴리스된 Power BI 게이트웨이에 대한 업데이트로, 개별 사용자가 자신의 컴퓨터에 게이트웨이를 설치하고 온-프레미스 데이터에 대한 액세스를 얻을 수 있도록 합니다.
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_00.png)
 

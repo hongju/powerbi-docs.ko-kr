@@ -16,11 +16,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: f3ebba5d1f8e47094865b51edd60f1f036098af4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c8e97f43089f5fd803b8c15ddf60927da7353797
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="configuring-scheduled-refresh"></a>예약된 새로 고침 구성
 

@@ -1,5 +1,5 @@
 ## <a name="firewall-or-proxy"></a>방화벽 또는 프록시
-게이트웨이에 대한 프록시 정보 제공에 대한 내용은 [Power BI Gateway에 대한 프록시 설정 구성](../service-gateway-proxy.md)을 참조하세요.
+게이트웨이에 대한 프록시 정보 제공에 대한 내용은 [Power BI 게이트웨이에 대한 프록시 설정 구성](../service-gateway-proxy.md)을 참조하세요.
 
 PowerShell 프롬프트에서 [Test-NetConnection](https://technet.microsoft.com/library/dn372891.aspx) 명령을 실행하여 방화벽 또는 프록시에서 연결을 차단하고 있는지 테스트할 수 있습니다. Azure Service Bus에 대한 연결을 테스트합니다. 네트워크 연결만을 테스트하며 클라우드 서버 서비스 또는 게이트웨이와 전혀 관계가 없습니다. 컴퓨터가 실제로 인터넷에 연결될 수 있는지 확인하는 데 도움이 됩니다.
 

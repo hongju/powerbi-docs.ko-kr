@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9ec0e5582de9c93a64b1ff02ef6d7f406b941284
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 11f233321f9be1db5afccad02edbe33900a555ca
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Power BI 게이트웨이의 개인 정보 보호 설정 해제 - 개인
 > [!NOTE]

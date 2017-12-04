@@ -20,7 +20,7 @@ Power BI의 경우 수행해야 하는 첫 번째 선택은 게이트웨이의 �
 * 여러 온-프레미스 데이터 게이트웨이를 서로 다른 컴퓨터에 설치하고 모두 동일한 Power BI Gateway 관리 인터페이스에서 관리할 수 있습니다(개인 제외, 다음 글머리 기호 참조).
 * 각 Power BI 사용자에 대해 실행하는 개인 모드 게이트웨이는 하나만 사용할 수 있습니다. 다른 컴퓨터에도 동일한 사용자에 대한 다른 개인 모드 게이트웨이를 설치하는 경우 가장 최근 설치가 기존의 이전 설치를 대신합니다.
 
-![on-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
+![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
 
 다음은 게이트웨이를 설치하기 전에 고려해야 할 몇 가지 사항입니다.
 
@@ -29,11 +29,11 @@ Power BI의 경우 수행해야 하는 첫 번째 선택은 게이트웨이의 �
 
 게이트웨이가 설치되면 회사 또는 학교 계정으로 로그인해야 합니다.
 
-![on-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
+![On-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
 
 로그인한 후 새 게이트웨이를 구성하거나 기존 게이트웨이를 마이그레이션, 복원 또는 인수하는 옵션을 가집니다.
 
-![on-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
+![On-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
 
 ## <a name="configure-a-new-gateway"></a>새 게이트웨이 구성
 1. 게이트웨이에 대한 **이름** 을 입력합니다.
@@ -45,7 +45,7 @@ Power BI의 경우 수행해야 하는 첫 번째 선택은 게이트웨이의 �
 > 
 > 
 
-![on-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
+![On-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
 
 ### <a name="migrate-restore-or-take-over-an-existing-gateway"></a>기존 게이트웨이 마이그레이션, 복원 또는 인수
 복구하려는 게이트웨이를 선택하고 게이트웨이를 만드는 데 사용된 복구 키를 제공해야 합니다.

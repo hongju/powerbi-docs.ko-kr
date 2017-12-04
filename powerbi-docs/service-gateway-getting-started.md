@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/25/2017
 ms.author: davidi
-ms.openlocfilehash: 617dcbf1d149966369aa0d1566094f6ce820a40a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a93f24dc621dc5b044473fd16cc635fdef987a62
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Power BI 게이트웨이 시작하기
 **Power BI 게이트웨이 시작하기** 가이드입니다. 이 간략한 연습을 통해 게이트웨이의 역할 및 작동 방식과, 자체 게이트웨이 설치, 구성 및 실행 방법에 대해 학습합니다.  
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/15/2017
 다행스럽게도 Power BI는 그러한 각각의 시나리오에 부합하는 두 가지 게이트웨이를 제공합니다. Power BI에서 제공하는 이러한 두 게이트웨이는 다음과 같습니다.
 
 * **온-프레미스 데이터 게이트웨이(개인 모드)** – 한 사용자가 원본에 연결하며 다른 사용자와 공유할 수 없습니다. Power BI에만 사용할 수 있습니다.
-* **온-프레미스 데이터 게이트웨이** – 여러 사용자가 여러 온-프레미스 데이터 원본에 연결할 수 있으며 단일 게이트웨이 설치로 Power BI, **PowerApps**, Flow 및 Azure Logic 에서 모두 사용할 수 있습니다. 
+* **온-프레미스 데이터 게이트웨이** – 여러 사용자가 여러 온-프레미스 데이터 원본에 연결할 수 있으며 단일 게이트웨이 설치로 Power BI, PowerApps, Flow 및 Azure Logic 앱에서 모두 사용할 수 있습니다.
 
 두 게이트웨이 모두 유사한 기능을 수행합니다. 즉 개인 온-프레미스 네트워크에 상주하는 데이터에 액세스하여 데이터를 Power BI 같은 클라우드 기반 서비스에서 사용할 수 있게 합니다. 개인 게이트웨이는 한 사람이 Power BI를 통해서만 사용할 수 있으며 **온-프레미스 데이터 게이트웨이**는 많은 사용자와 많은 서비스에서 사용할 수 있습니다.
 
@@ -162,7 +162,7 @@ Power BI 서비스 캔버스 안에 게이트웨이를 관리할 수 있는 페�
 [온-프레미스 데이터 게이트웨이 사용](service-gateway-onprem.md)  
 [온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)  
 [온-프레미스 데이터 게이트웨이(개인 모드)](service-gateway-personal-mode.md)
-
 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
+
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

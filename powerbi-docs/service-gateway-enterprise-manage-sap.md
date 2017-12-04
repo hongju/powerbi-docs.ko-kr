@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 04c6ecbc1a7802720430c1ee29ec0410abfa54b0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d65bdf17997809cd4bcaa2718da42ba41398bcf4
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="manage-your-sap-hana-data-source"></a>SAP HANA 데이터 원본 관리
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 수 있는 데이터 원본을 추가해야 합니다. 이 문서에서는 게이트웨이 및 데이터 소스로 작업하는 방법을 살펴봅니다. 예약된 새로 고침 또는 DirectQuery에 대해 SAP HANA 데이터 원본을 사용할 수 있습니다.
@@ -120,7 +120,7 @@ DirectQuery와 예약된 새로 고침에 대한 경우입니다.
 
 ## <a name="next-steps"></a>다음 단계
 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
-[온-프레미스 데이터 게이트웨이 - 심층 분석](service-gateway-onprem-indepth.md)  
+[온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)  
 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

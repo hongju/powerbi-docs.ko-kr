@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bcb859fe6364f28a59607f28f675f89e1a562f8e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7774153ff73fb67a434ac79016507a2e94cf40f1
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal 문제 해결
 다음은 Power BI Gateway - Personal을 사용할 때 발생할 수 있는 몇 가지 일반적인 문제를 설명합니다.
@@ -86,7 +86,10 @@ ms.lasthandoff: 11/15/2017
 단일 행의 크기가 4MB를 초과할 경우 이 오류가 발생합니다. 데이터 원본에서 해당 행이 무엇인지 확인하고 해당 행을 필터링하거나 해당 행의 크기를 줄여야 합니다.
 
 ## <a name="data-sources"></a>데이터 소스
-**누락된 데이터 공급자** – 개인 게이트웨이는 64비트 전용입니다. 64비트 버전의 데이터 공급자를 개인 게이트웨이가 설치한 컴퓨터에 설치해야 합니다. 예를 들어 데이터 집합의 데이터 원본이 Microsoft Access인 경우 개인 게이트웨이를 설치한 컴퓨터에 64비트 ACE 공급자를 설치해야 합니다.  **참고:** 32비트 Excel을 사용하는 경우 동일한 컴퓨터에 64비트 ACE 공급자를 설치할 수 없습니다.
+**누락된 데이터 공급자** – 개인 게이트웨이는 64비트 전용입니다. 64비트 버전의 데이터 공급자를 개인 게이트웨이가 설치한 컴퓨터에 설치해야 합니다. 예를 들어 데이터 집합의 데이터 원본이 Microsoft Access인 경우 개인 게이트웨이를 설치한 컴퓨터에 64비트 ACE 공급자를 설치해야 합니다.  
+
+>[!NOTE]
+>32비트 Excel을 사용하는 경우 동일한 컴퓨터에 64비트 ACE 공급자를 설치할 수 없습니다.
 
 **액세스 데이터베이스에 대한 Windows 인증이 지원되지 않음** - 현재 Power BI는 액세스 데이터베이스에 대한 익명 인증만 지원합니다. Access 데이터베이스에 대해 Windows 인증을 사용하도록 설정하기 위해 준비하는 중입니다.
 

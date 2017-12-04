@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/05/2017
 ms.author: mihart
-ms.openlocfilehash: 901193f396e38a7bce640db36a13dc0e7b998de6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f189ab5b195a945b6a21ea868cf29257e30c0d20
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 시각화를 위한 팁과 힌트
 Power BI는 Bing 지도와 통합되어 기본 지도 좌표를 제공(지오코딩이라는 프로세스)하므로 지도를 쉽게 만들 수 있습니다. 이와 함께 알고리즘을 사용하여 올바른 위치를 식별하지만, 경우에 따라 추측하기도 합니다. Power BI가 자체적으로 지도 시각화를 만들 수 없는 경우 Bing 지도의 도움말을 등록합니다.  
@@ -76,7 +76,7 @@ Power BI에서 사용하는 데이터 집합에 위도 및 경도 필드가 있�
 
 ![위도 및 경도](media/power-bi-map-tips-and-tricks/pbi_latitude.png) 
 
-## <a name="use-geo-hierarchies-so-you-can-drilldown-to-different-levels-of-location"></a>서로 다른 "수준"의 위치로 드릴다운할 수 있도록 지역 계층 구조를 사용합니다.
+## <a name="use-geo-hierarchies-so-you-can-drill-down-to-different-levels-of-location"></a>서로 다른 "수준"의 위치로 드릴다운할 수 있도록 지역 계층 구조를 사용합니다.
 데이터 집합에 이미 서로 다른 수준의 위치 데이터가 있는 경우 사용자와 동료가 Power BI를 사용하여 *지역 계층*을 만들 수 있습니다. 이를 수행하려면 둘 이상의 필드를 **위치** 버킷으로 끕니다. 이러한 방식을 함께 사용하면 필드는 지역 계층이 됩니다. 아래 예제에서는 국가/지역, 주 및 시에 지역 필드를 추가했습니다. Power BI에서 사용자와 동료는 이 지역 계층 구조를 사용하여 드릴업 및 드릴다운할 수 있습니다.
 
   ![위치 필드](media/power-bi-map-tips-and-tricks/power-bi-hierarchy.png)

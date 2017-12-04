@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
 ms.author: asaxton
-ms.openlocfilehash: 1f59bd4e0178b1fe1b67f57b085de69da1b06951
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI Embedded 콘텐츠에서 행 수준 보안 사용
 RLS(행 수준 보안)를 사용하여 보고서 또는 데이터 집합 내에서 데이터에 대한 사용자 액세스를 제한하면서 다른 여러 사용자가 다른 데이터를 모두 확인하는 동안 동일한 보고서를 사용할 수 있습니다. RLS는 Power BI의 보고서를 포함하는 경우에 장점이 있습니다.

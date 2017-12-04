@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: addf4983bb3733f899d884515d21aae8da3eaf89
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3ed7e6dfafe439671d0890154e6b02e1ce81c812
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>로컬 드라이브에 있는 Power BI Desktop 파일로부터 만들어진 데이터 집합 새로 고침
 ## <a name="whats-supported"></a>무엇이 지원되나요?

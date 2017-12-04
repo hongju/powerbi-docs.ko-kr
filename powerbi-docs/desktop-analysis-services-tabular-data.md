@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: b2aa30cf5ef55e362a37ad8e5e27b92c9127c595
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f02ac91f28f2814a98945af2295909be6df00579
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop의 Analysis Services 테이블 형식 데이터 사용
 Power BI Desktop에서는 라이브 연결을 통한 탐색이나, 항목 선택 후 Power BI Desktop에 가져오기 등, 두 가지 방법으로 SQL Server Analysis Services 테이블 형식 모델에 연결하고 데이터를 가져올 수 있습니다.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: b1cb5bda9b80cb08ece111959884b840ff8d42cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5c2274852c041b07a0ab4a09ed00c2dfa5d64cef
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI 게이트웨이 - 개인
 > [!NOTE]
@@ -186,9 +186,8 @@ Windows에 로그인되어 있는 경우:
 도메인 대신 IP 주소 목록을 허용해야 하는 경우 Microsoft Azure 데이터 센터 IP 범위 목록을 다운로드하고 사용할 수 있습니다. [다운로드](https://www.microsoft.com/download/details.aspx?id=41653)
 
 ## <a name="next-steps"></a>다음 단계
-[온-프레미스 데이터 게이트웨이(개인 모드) - 개인 게이트웨이의 새 버전](service-gateway-personal-mode.md)
-
-[Power BI Gateway에 대한 프록시 설정 구성](service-gateway-proxy.md)  
+[온-프레미스 데이터 게이트웨이(개인 모드) - 새 버전의 개인 게이트웨이](service-gateway-personal-mode.md)
+[Power BI 게이트웨이에 대한 프록시 설정 구성](service-gateway-proxy.md)  
 [Power BI 프리미엄](service-premium.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

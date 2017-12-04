@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: bbe163f310eb839a3e815d34c72c981257f5b627
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 820bd1fabbb2770b938160420ac0e5bf97ece703
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---oracle"></a>데이터 원본 관리 - Oracle
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 수 있는 데이터 원본을 추가해야 합니다. 이 문서에서는 게이트웨이 및 데이터 소스로 작업하는 방법을 살펴봅니다. 예약된 새로 고침 또는 DirectQuery에 대해 Oracle 데이터 원본을 사용할 수 있습니다.
@@ -180,7 +180,7 @@ Oracle 클라이언트가 설치되지 않거나 제대로 구성되지 않은 �
 
 ## <a name="next-steps"></a>다음 단계
 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
-[온-프레미스 데이터 게이트웨이 - 심층 분석](service-gateway-onprem-indepth.md)  
+[온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)  
 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 [Power BI 프리미엄](service-premium.md)
 

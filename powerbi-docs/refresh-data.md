@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: ab8b9810029691c13e668710b651843e685006e4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI에서 데이터 새로 고침
 항상 최신 데이터를 가져오는 것은 올바른 결정을 내리는 데 중요한 경우가 많습니다. 일부 데이터에 연결하여 업로드하기 위해 Power BI에서 이미 데이터 가져오기를 사용했으며, 일부 보고서와 대시보드를 만들었습니다. 이제, 데이터가 최신이고 가장 좋은 상태임을 확인해야 합니다.

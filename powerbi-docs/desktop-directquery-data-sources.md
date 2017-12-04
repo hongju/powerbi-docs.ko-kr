@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/26/2017
 ms.author: davidi
-ms.openlocfilehash: 5de07cb5f834d7f40ddd5391e83afa85edd7233c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9817011491f65f84201c4d26ee04aa5cd8704ab1
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI의 DirectQuery에서 지원하는 데이터 원본
 **Power BI Desktop** 및 **Power BI 서비스**에는 데이터에 연결하고 액세스할 수 있는 많은 데이터 원본이 포함되어 있습니다. 이 문서에서는 **DirectQuery**라는 연결 방법을 지원하는 Power BI의 데이터 원본에 대해 설명합니다. DirectQuery에 대한 자세한 내용은 [**Power BI의 DirectQuery**](desktop-directquery-about.md)를 참조하세요.

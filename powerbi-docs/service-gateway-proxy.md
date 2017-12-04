@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 77ae086d4b9c86f0d5ec4c0515ad96919160059d
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 1598a2580c24623abc1bbb5fb5a3590ab0f2a6f6
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이에 대한 프록시 설정 구성
 작업 환경은 인터넷에 액세스하도록 프록시를 통과해야 합니다. 온-프레미스 데이터 게이트웨이가 서비스에 연결되지 못하도록 할 수 있습니다.
@@ -74,14 +74,14 @@ superuser.com의 다음 게시물은 네트워크에 프록시가 있는지 확�
     이 서비스에 대한 기본 계정은 *NT SERVICE\PBIEgwService*입니다. 이것을 Active Directory 도메인에 속하는 도메인 사용자 계정으로 변경합니다. 또는 관리 서비스 계정을 사용하여 암호를 변경할 필요가 없도록 합니다.
    
     Windows 서비스의 속성 내에 있는 **로그온** 탭에서 계정을 변경합니다.
-2. **On-premises Data Gateway service**(온-프레미스 데이터 게이트웨이 서비스)를 다시 시작합니다.
+2. **온-프레미스 데이터 게이트웨이 서비스**를 다시 시작합니다.
    
     관리자 명령 프롬프트에서, 다음 명령을 실행합니다.
    
         net stop PBIEgwService
    
         net start PBIEgwService
-3. **On-premises Data Gateway configurator**(온-프레미스 데이터 게이트웨이 구성기)를 시작합니다. Windows 시작 단추를 선택하고 *온-프레미스 데이터 게이트웨이*를 검색합니다.
+3. **온-프레미스 데이터 게이트웨이 서비스 구성기**를 시작합니다. Windows 시작 단추를 선택하고 *온-프레미스 데이터 게이트웨이*를 검색합니다.
 4. Power BI에 로그인합니다.
 5. 복구 키를 사용하여 게이트웨이를 복원합니다.
    

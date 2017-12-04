@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a2e533cccca9ec8748ab1a9c37ce5ff1577b357c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2a499418572582388552e6a258051b2abddfc1bd
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI의 DirectQuery 사용
 **Power BI Desktop** 또는 **Power BI 서비스**를 사용하는 경우 모든 종류의 다양한 데이터 원본에 연결할 수 있으며 이러한 데이터를 여러 가지 방법으로 연결할 수 있습니다. 데이터를 가져오는 가장 일반적인 방법인 Power BI로 데이터를 *가져오거나* **DirectQuery**라고 하는 원래의 원본 리포지토리에 있는 데이터에 직접 연결할 수 있습니다. 이 문서에서는 **DirectQuery**와 그 기능에 대해 설명하며, 다음 항목을 포함하고 있습니다.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 62405898f06a75fdad9da1f635f01bebdb445d2e
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 문제 해결
 이 문서에서는 **온-프레미스 데이터 게이트웨이**를 사용할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
@@ -169,7 +169,6 @@ Windows 2000 이전 호환성 액세스 권한이 있는 도메인에는 TGGAU �
 1. 서버 및 데이터베이스 이름은 Power BI Desktop에 입력한 이름과 게이트웨이에 대해 구성된 데이터 원본 간에 일치하지 않습니다. 이러한 이름은 동일한 값이 되어야 합니다. 대소문자를 구분하지 않습니다.
 2. 계정이 게이트웨이 구성 내 데이터 원본의 **사용자** 탭에 나와 있지 않습니다. 해당 목록에 추가할 게이트웨이의 관리자에게 가져와야 합니다.
 3. Power BI Desktop 파일에 여러 데이터 원본이 있고 모든 데이터 원본이 게이트웨이로 구성되어 있지 않습니다. 각 데이터 원본을 예약된 새로 고침 내에 표시하려면 게이트웨이에 대한 게이트웨이를 사용하여 정의해야 합니다.
-
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>오류: 게이트웨이 클라이언트의 받은 비압축 데이터가 한도를 초과했습니다.
 정확한 제한량은 각 테이블당 10GB의 비압축 데이터입니다. 이 문제가 발생하는 경우 몇 가지 좋은 옵션으로 최적화하여 문제가 발생하지 않도록 할 수 있습니다. 특히 정규화된 키를 사용하거나 사용하지 않는 열을 제거하는 대신 매우 반복되는 긴 문자열 값의 사용을 줄이는 것이 도움이 됩니다.
@@ -370,9 +369,9 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 새로 고침 시나리오 문제를 해결하는 방법에 대한 자세한 내용은 [새로 고침 시나리오 문제 해결](refresh-troubleshooting-refresh-scenarios.md) 문서를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI Gateway에 대한 프록시 설정 구성](service-gateway-proxy.md)  
+[Power BI 게이트웨이에 대한 프록시 설정 구성](service-gateway-proxy.md)  
 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
-[온-프레미스 데이터 게이트웨이 - 심층 분석](service-gateway-onprem-indepth.md)  
+[온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)  
 [데이터 원본 관리 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [데이터 원본 관리 - SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [데이터 원본 관리 - SQL Server](service-gateway-enterprise-manage-sql.md)  

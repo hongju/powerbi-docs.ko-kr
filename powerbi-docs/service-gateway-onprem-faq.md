@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 063fd92829c6b642fc33e578026d109d891b8fd5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: bf814b03c4e973afce7115ae111da520af498347
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="on-premises-data-gateway-faq"></a>온-프레미스 데이터 게이트웨이 FAQ
 <!-- Shared FAQ shared Include -->
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/15/2017
 **답변:** 아니요. 지금은 지원되지 않습니다.
 
 **질문:** 게이트웨이를 사용하여 다차원(OLAP) 인스턴스에 연결할 수 있나요?  
-**답변:** 예! 온 프레미스 데이터 게이트웨이는 Analysis Services 테이블 형식 및 다차원 모델에 대한 라이브 연결을 지원합니다.
+**답변:** 예! 온-프레미스 데이터 게이트웨이는 Analysis Services 테이블 형식 및 다차원 모델에 대한 라이브 연결을 지원합니다.
 
 **질문:** Windows 인증을 사용하는 내 온-프레미스 서버의 다른 도메인에 있는 컴퓨터에서 게이트웨이를 설치하면 어떻게 되나요?  
 **답변:** 보장은 없습니다. 모두 두 도메인 간의 트러스트 관계에 따라 달라집니다. 서로 다른 두 도메인이 트러스트된 도메인 모델에 있는 경우 게이트웨이에서 Analysis Services 서버에 연결하고 유효 사용자 이름을 확인할 수 있습니다. 그렇지 않은 경우 로그인 오류가 발생할 수 있습니다.

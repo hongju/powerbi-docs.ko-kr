@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: 8d592a620f7a18cad3d70a09e6cd7a960683f860
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: e905fa099537f49a9a8e69a9d3121f955b74864f
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터(클라우드에 없는 데이터)와 Power BI, Microsoft Flow, Logic Apps, PowerApps 서비스 간에 빠르고 안전한 데이터 전송을 제공하는 브리지 역할을 합니다.
@@ -101,7 +101,7 @@ ms.lasthandoff: 11/17/2017
 [데이터 원본 관리 - SQL Server](service-gateway-enterprise-manage-sql.md)  
 [데이터 원본 관리 - Oracle](service-gateway-onprem-manage-oracle.md)  
 [데이터 원본 관리 - 가져오기/예약된 새로 고침](service-gateway-enterprise-manage-scheduled-refresh.md)  
-[온-프레미스 데이터 게이트웨이 - 심층 분석](service-gateway-onprem-indepth.md)  
+[온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)  
 [온-프레미스 데이터 게이트웨이(개인 모드) - 새 버전의 개인 게이트웨이](service-gateway-personal-mode.md)
 [온-프레미스 데이터 게이트웨이에 대한 프록시 설정 구성](service-gateway-proxy.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
