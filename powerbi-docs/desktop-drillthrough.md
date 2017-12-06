@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: c4482b8a8b7510b54b317ef9731057a52501d47c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e4655326b731c118265003ba1f530c5c62ac8bfa
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop에서 드릴스루 사용
 **Power BI Desktop**의 **드릴스루**를 사용하여 공급 업체, 고객 또는 제조업체와 같이 특정 엔터티에 초점을 맞춘 보고서의 페이지를 만들 수 있습니다. 사용자가 해당 보고서 페이지를 사용하여 다른 보고서 페이지에서 데이터 요소를 마우스 오른쪽 단추로 클릭하고 해당 페이지에는 드릴스루하여 해당 컨텍스트로 필터링된 세부 정보를 가져올 수 있습니다.

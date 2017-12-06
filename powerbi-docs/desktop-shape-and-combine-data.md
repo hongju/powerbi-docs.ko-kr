@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 22c5b8f64ef24f6ef6ff918058a56dc36fefddfa
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: bb4f910f0ac6240ed2dab987a7076b3f996b86fe
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 셰이핑 및 결합
 **Power BI Desktop**을 사용하면 다양한 형식의 데이터 소스에 연결한 다음 요구 사항에 맞게 데이터를 셰이핑할 수 있습니다. 데이터 셰이핑은 열 또는 테이블 이름 바꾸기, 텍스트를 숫자로 변경, 행 제거, 첫 행을 머리글로 설정 등의 데이터 변환을 의미합니다. 데이터 *결합* 은 둘 이상의 데이터 원본에 연결하고, 필요에 따라 셰이핑한 다음 하나의 유용한 쿼리로 통합하는 것을 의미합니다.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7e959054300dafcab5f38bfce121fe0ac91dca06
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 9ea93980a095ca4e626b6f8071d044448af59635
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>자습서: Power BI Desktop에서 계산 열 만들기
 분석 중인 데이터에 원하는 결과를 얻는 데 필요한 특정 필드가 없는 경우도 있습니다. 이때 계산된 열이 사용됩니다. 계산된 열은 DAX(Data Analysis Expressions) 수식을 사용하여 열의 값을 정의합니다. 이러한 값은 모델에 있는 다른 몇 개 열의 텍스트 값을 결합하든, 다른 값에서 숫자 값을 계산하든 간에 거의 모든 값이 될 수 있습니다. 예를 들어 데이터에 City 및 State 열이 필드 목록의 필드로 포함되어 있지만 Miami, FL와 같이 하나의 Location 필드에 두 필드를 단일 값으로 포함하려 한다고 가정합니다. 계산된 열은 바로 이런 용도로 사용됩니다.

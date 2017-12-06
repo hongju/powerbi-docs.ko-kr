@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: b4e0e67158237acc70bad5bd3c9528f457cd94b5
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 2d780c04a207f67b4f0f7c06672f993df3818275
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-security"></a>Power BI 보안
 Power BI 보안에 대한 자세한 설명을 확인하려면 [Power BI 보안 백서를 다운로드](http://go.microsoft.com/fwlink/?LinkId=829185)하세요.

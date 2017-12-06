@@ -15,18 +15,17 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
-* 또는 이 브라우저 창의 오른쪽 아래 모서리에 있는 ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) **문의처** 아이콘을 클릭하세요.
 
 ## <a name="what-is-microsoft-power-bi"></a>Microsoft Power BI란?
 [Power BI](https://powerbi.microsoft.com/)는 모든 사용자가 데이터에 대한 폭넓은 이해를 바탕으로 더욱 신속하고 보다 효율적으로 데이터를 시각화하고 분석할 수 있는 클라우드 기반의 비즈니스 분석 서비스입니다. 또한 사용하기 쉬운 대시보드, 대화형 보고서, 데이터를 흥미롭게 표현하는 매력적인 시각화를 통해 광범위한 데이터에 사용자를 연결합니다.
@@ -156,5 +155,4 @@ Office 365용 Power BI 환경은 지원이 중지되었습니다.
 ## <a name="next-steps"></a>다음 단계
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
-* 또는 이 브라우저 창의 오른쪽 아래 모서리에 있는 ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) **문의처** 아이콘을 클릭하세요.
 

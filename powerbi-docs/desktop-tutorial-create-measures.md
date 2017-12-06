@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 653895d9cfa64c9029ce9441278adcc94d76a0a8
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: f51d7d07bd36784978e43c516424b6f08fc4e211
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>자습서: Power BI Desktop에서 고유한 측정값 만들기
 Power BI Desktop에서 가장 강력한 데이터 분석 솔루션 중 일부는 측정값을 사용하여 만들 수 있습니다. 측정값은 보고서를 조작할 때 데이터에서 계산을 수행하여 도움을 줍니다. 이 자습서에서는 Power BI Desktop에서 몇 가지 고유한 기본 측정값을 이해하고 만드는 과정을 안내합니다.

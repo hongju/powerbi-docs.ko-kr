@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 12/04/2017
 ms.author: asaxton
-ms.openlocfilehash: bec336dbc4b028f23acb9ba34f920a10b7869c23
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 03c19f34b9fab240a67cd8ed4d4b7ca3f66bb966
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI Report Server에 대한 타임라인 지원
 Power BI Report Server는 매해 몇 번씩 릴리스됩니다. 보안 및 중요 업데이트는 다음 릴리스가 GA(일반 공급) 상태가 될 때까지 사용할 수 있습니다. 다음 릴리스 이후에도 이전의 릴리스는 12개월이라는 릴리스 수명의 나머지 기간 동안 계속 보안 업데이트됩니다.
@@ -31,7 +31,7 @@ Power BI Report Server는 매해 몇 번씩 릴리스됩니다. 보안 및 중�
 * 보안 및 중요 업데이트 서비스 단계 - 현재 최신 버전의 Power BI Report Server을 실행하는 경우 보안 및 중요 업데이트가 모두 표시됩니다.
 * 보안 업데이트(전용) 서비스 단계 - 새로운 버전이 릴리스된 이후 이전 버전에 대한 지원은 12개월이라는 릴리스 수명의 나머지 기간 동안 보안 업데이트를 감소시킵니다(그림 1에서 표시됨).
 
-    ![지원 기간을 보여 주는 그래프](media/support-timeline/reportserver-support-lifecycle.png)
+    ![지원 기간을 보여 주는 그래프](media/support-timeline/report-server-support-timeline.png)
 
 ## <a name="version-history"></a>버전 기록
 | **버전** | **가용성 날짜** | **지원 종료 날짜** |

@@ -1,7 +1,6 @@
 ## <a name="list-of-available-data-source-types"></a>사용 가능한 데이터 원본 유형 목록
 | **데이터 원본** | **라이브/DirectQuery** | **사용자 구성 수동 또는 예약 새로 고침** |
 | --- | --- | --- | --- |
-| Amazon Redshift |예 |예 |
 | Analysis Services 테이블 형식 |예 |예 |
 | Analysis Services 다차원 |예 |예 |
 | 파일 |아니요 |예 |

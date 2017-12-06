@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: c674c08fe48eb73bbeb2f9aa2632ffc7646f0835
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5b3bb70bcf44f119b591506d3026187c88a350f5
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Power BI Desktop에서 R 스크립트 실행
 **Power BI Desktop**에서 직접 R 스크립트를 실행하고 결과 데이터 집합을 Power BI Desktop 데이터 모델로 가져올 수 있습니다.

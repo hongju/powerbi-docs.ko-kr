@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 3642a252467d504b61eb81f82d0b96f64a24f22b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4e60e63791b1e839eb12c05dd089c5b24c0d63a6
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>자습서: Power BI Desktop을 사용한 Facebook 분석
 이 자습서에서는 **Facebook**에서 데이터를 가져오고 시각화하는 방법을 배웁니다. 자습서를 수행하는 과정에서 특정 Facebook 페이지(Power BI 페이지)에 연결하고, 데이터 변환 단계를 적용하며, 몇 가지 시각화를 만드는 방법을 배웁니다.

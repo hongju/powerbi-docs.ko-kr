@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ca1761c0708681e6b413ba679980bacb3931e01d
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: fbb1b22b930a00fa9e090b3ebc5ab9fd1ffc88c0
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>온-프레미스 데이터 게이트웨이 심층 분석
 조직의 사용자는 온-프레미스 데이터(이미 액세스 권한이 있는)에 액세스할 수 있지만 그러한 사용자가 온-프레미스 데이터 원본에 연결할 수 있기 전에 온-프레미스 데이터 게이트웨이를 설치하고 구성해야 합니다. 게이트웨이를 사용하면 클라우드의 사용자로부터 온-프레미스 데이터 원본으로, 다시 클라우드로 빠르고 안전하게 백그라운드에서 통신할 수 있습니다.

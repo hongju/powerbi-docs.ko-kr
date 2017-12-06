@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 232b75b5abdbeebcd1f9bab3455edb4ce0ae3b30
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7dc805f8e791a839bc6b69eb07a71496b64844a2
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서에서 눈금선 및 눈금에 맞춤 사용
 **Power BI Desktop** 보고서 캔버스는 보고서 페이지에서 시각적 개체를 깔끔하게 정렬할 수 있는 눈금선을 제공하고 눈금에 맞춤 기능도 제공하여 보고서의 시각적 개체를 깨끗하게 정리하고 맞추고 균등하게 배치할 수 있도록 합니다.

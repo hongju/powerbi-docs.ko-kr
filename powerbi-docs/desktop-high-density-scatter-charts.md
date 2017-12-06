@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 12a9462a0594c6a52c7319073120cf323910d3e4
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 21a02c4d8dabd445afaadb43529489b3253d3599
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 분산형 차트의 고밀도 샘플링
 **Power BI Desktop**의 2017년 9월 릴리스 및 **Power BI 서비스**에 대한 업데이트로 시작하는 새 샘플링 알고리즘은 분산형 차트가 고밀도 데이터를 나타내는 방법을 향상시키는데 사용 가능합니다.

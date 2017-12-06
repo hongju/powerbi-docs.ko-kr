@@ -1,10 +1,6 @@
 ## <a name="define-roles-and-rules-within-power-bi-desktop"></a>Power BI Desktop 내에서 역할 및 규칙 정의
 Power BI Desktop 내에서 역할 및 규칙을 정의할 수 있습니다. Power BI에 게시할 때 역할 정의도 게시됩니다.
 
-동적 보안을 활용하려는 경우 미리 보기 스위치를 사용하여 DirectQuery에 대해 양방향 교차 필터링을 활성화해야 합니다. 이렇게 하면 교차 필터링할 수 있고 양방향으로 보안 필터를 적용할 수 있습니다.
-
-![](./media/rls-desktop-define-roles/powerbi-desktop-preview-bi-directional-directquery.png)
-
 보안 역할을 정의하기 위해 다음을 수행할 수 있습니다.
 
 1. Power BI Desktop 보고서에 데이터를 가져 오거나 DirectQuery 연결을 구성합니다.

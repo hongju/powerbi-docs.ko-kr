@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 02a9b5ad664b569e96858e68a0776fd8721aa78d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 6e11e6f0d604da4780fd0c81632c0b7217f3d2d7
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Power BI Desktop에 데이터 직접 연결
 Power BI Desktop에서는 데이터를 직접 입력하고 보고서 및 시각화에 해당 데이터를 사용할 수 있습니다. 예를 들어 통합 문서 또는 웹 페이지의 일부를 복사한 후 Power BI Desktop에 붙여넣을 수 있습니다.

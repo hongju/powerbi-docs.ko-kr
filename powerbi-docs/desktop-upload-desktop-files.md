@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: deb3e76fff2f8b5d1a275df70f485b02d94523b7
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ccf3f2a544276f3a641be3734fb2c48387706e69
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="publish-from-power-bi-desktop"></a>Power BI Desktop에서 게시
 **Power BI Desktop** 파일을 **Power BI 서비스**에 게시하면 모델의 데이터 및 **보고서** 보기에서 만든 보고서가 Power BI 작업 영역에 게시됩니다. 작업 영역 탐색기에서 동일한 이름의 새 데이터 집합과 모든 보고서를 볼 수 있습니다.
