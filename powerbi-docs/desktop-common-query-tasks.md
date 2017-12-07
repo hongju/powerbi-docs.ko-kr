@@ -69,7 +69,7 @@ Power BI Desktop의 데이터에 연결하려면 리본의 **홈** 탭에서 **�
 Power BI Desktop에서 데이터에 연결하는 단계별 데모를 보려면 [Power BI Desktop에서 데이터에 연결](https://powerbi.uservoice.com/knowledgebase/articles/471635)을 참조하세요.
 
 ## <a name="shape-and-combine-data"></a>데이터 모양 지정 및 결합
-쉽게 데이터 모양을 지정하고 쿼리 편집기와 결합할 수 있습니다. 이 섹션에는 데이터 모양을 지정할 수 있는 방법의 몇 가지 예가 포함되어 있습니다. 데이터를 셰이핑하고 결합하는 방법의 전체 데모를 보려면 ****[Power BI Desktop을 사용하여 데이터 셰이핑 및 결합](https://powerbi.uservoice.com/knowledgebase/articles/471644)을 참조하세요.
+쉽게 데이터 모양을 지정하고 쿼리 편집기와 결합할 수 있습니다. 이 섹션에는 데이터 모양을 지정할 수 있는 방법의 몇 가지 예가 포함되어 있습니다. 데이터를 셰이핑하고 결합하는 방법의 전체 데모를 보려면 [Power BI Desktop을 사용하여 데이터 셰이핑 및 결합](https://powerbi.uservoice.com/knowledgebase/articles/471644)을 참조하세요.
 
 이전 섹션에서는 두 개의 데이터 집합, 즉 Excel 통합 문서와 웹 리소스를 연결했습니다. 쿼리 편집기에 로드된 후 웹 페이지의 쿼리 뷰가 (쿼리 편집기 창 왼쪽의 **쿼리** 창에 나열된 사용 가능한 쿼리에서) 선택된 상태로 다음과 같이 표시됩니다.
 
