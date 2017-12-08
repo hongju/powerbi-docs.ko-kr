@@ -252,8 +252,6 @@
           href: service-insight-types.md
         - name: Power BI 신속한 정보 활용을 위해 데이터 최적화
           href: service-insights-optimize.md
-        - name: 전체 화면 모드(TV 모드)에서 대시보드 타일 표시
-          href: service-tile-fullscreen-mode.md
         - name: Power BI의 추천 대시보드
           href: service-dashboard-featured.md
         - name: 대시보드의 휴대폰 보기 만들기
