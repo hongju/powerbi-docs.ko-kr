@@ -784,8 +784,8 @@
           href: desktop-inline-hierarchy-labels.md
         - name: 숫자 범위 슬라이서 사용
           href: desktop-slicer-numeric-range.md
-        - name: 상대 날짜 슬라이서 사용
-          href: desktop-slicer-filter-date-range.md
+        - name: 크기를 조정할 수 있는 반응형 슬라이서 만들기
+          href: power-bi-slicer-filter-responsive.md
         - name: Cortana에 대한 사용자 지정 Power BI 답변 카드 만들기
           href: service-cortana-answer-cards.md
         - name: 행 수준 보안
