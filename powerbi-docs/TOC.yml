@@ -92,6 +92,8 @@
           href: service-admin-premium-purchase.md
         - name: Power BI 프리미엄 관리
           href: service-admin-premium-manage.md
+        - name: 대형 데이터 집합 지원
+          href: service-premium-large-datasets.md
         - name: Power BI 프리미엄 FAQ
           href: service-premium-faq.md
         - name: Power BI 프리미엄 릴리스 정보
