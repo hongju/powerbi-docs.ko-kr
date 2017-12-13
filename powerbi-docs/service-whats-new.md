@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 7f01ed805358b5b74a32ae26fb757f592c617088
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -167,7 +167,7 @@ ms.lasthandoff: 11/27/2017
 
 **2016년 4월 28일**
 
-* [대시보드 타일에서 신속한 정보 활용](service-insights.md#run-quick-insights-on-a-dashboard-tile): 포커스 모드에서 타일을 볼 때, 신속한 정보 활용을 클릭하여 타일과 관련 데이터의 상관 관계, 이상값, 추세, 계절성, 추세의 변환점, 주요 요인을 몇 초 내에 자동으로 검색하세요.
+* [대시보드 타일에서 신속한 정보 활용](service-insights.md): 포커스 모드에서 타일을 볼 때, 신속한 정보 활용을 클릭하여 타일과 관련 데이터의 상관 관계, 이상값, 추세, 계절성, 추세의 변환점, 주요 요인을 몇 초 내에 자동으로 검색하세요.
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)하세요.
 
