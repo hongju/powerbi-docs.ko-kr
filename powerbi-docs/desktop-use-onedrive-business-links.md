@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: dcb262d110025f2c36c4029227b353132c4dafb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2c249cac17e8fe6da35634c78837e3ca16e70a5c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
 많은 사용자가 Excel 통합 문서를 Power BI Desktop에 사용하기 좋은 비즈니스용 OneDrive 드라이브에 저장합니다. **Power BI Desktop**을 통해 **비즈니스용 OneDrive**에 저장된 **Excel** 파일에 대한 온라인 링크를 사용하여 보고서 및 시각적 개체를 만들 수 있습니다. **비즈니스용 OneDrive** 그룹 계정 또는 개별 **비즈니스용 OneDrive** 계정을 사용할 수 있습니다.
@@ -37,7 +37,7 @@ ms.lasthandoff: 11/15/2017
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. **Excel**에서 **파일 > 정보**를 선택하고 **통합 문서 보호** 단추 위의 링크를 선택합니다. **클립보드에 링크 복사**를 선택합니다.
+2. **Excel**에서 **파일 > 정보**를 선택하고 **통합 문서 보호** 단추 위의 링크를 선택합니다. **클립보드에 링크 복사**를 선택합니다(버전에 따라 **클립보드에 경로 복사**로 표시될 수도 있음).
    
    ![](media/desktop-use-onedrive-business-links/odb-links_03.png)
 

@@ -1,5 +1,5 @@
 ---
-title: "Power BI Pro 콘텐츠란?"
+title: "Power BI 프리미엄이란?"
 description: "Power BI 프리미엄은 조직 또는 팀의 전용 용량으로, 사용자별 라이선스를 구입하지 않고도 더욱 신뢰할 수 있는 성능과 대용량 데이터 볼륨을 제공합니다."
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/10/2017
+ms.date: 12/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 816f1151b6f49ace8151f1c26aee18a8c746ff08
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7c1536693490252029d51ddc619eaa7266095403
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI 프리미엄이란?
 Power BI 프리미엄은 더욱 신뢰할 수 있는 성능과 더 큰 데이터 볼륨을 제공하여 조직 또는 팀에 대한 Power BI 서비스 실행에 전용 리소스를 제공합니다. 또한 프리미엄을 통해 뷰어를 위한 사용자별 라이선스를 구입할 필요 없이 광범위하게 콘텐츠를 배포할 수 있습니다.
@@ -69,9 +69,13 @@ Power BI 프리미엄은 서로 다른 v-코어 용량으로 노드 구성에서
 
 * P 노드는 포함된 배포 또는 서비스 배포에 사용할 수 있습니다.
 * EM 노드는 포함된 배포에만 사용할 수 있습니다.
+* EM1 및 EM2 
+* 이 표의 링크는 Office 365 전역 관리자인 사용자에 대해서만 정상적으로 작동하고, 그 외의 사용자는 404 오류를 수신합니다. 
 
 | 용량 노드 | 총 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 코어 | 프런트 엔드 코어 | DirectQuery/라이브 연결 제한 | 사용량이 가장 많은 시간에 최대 페이지 렌더링 | 가용성 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [EM1(매월)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1개 가상 코어 |0.5개 코어, 2.5GB RAM |0.5개 코어 |초당 3.75 |150-300 |사용 가능함 |
+| [EM2(매월)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2v-코어 |1개 코어, 5GB RAM |1개 코어 |초당 7.5 |301-600 |사용 가능함 |
 | [EM3(매월)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4v-코어 |2개 코어, 10GB RAM |2개 코어 | |601-1,200 |사용 가능함 |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8v-코어 |4개 코어, 25GB RAM |4개 코어 |초당 30 |1,201-2,400 |사용 가능함([매월](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)도 사용 가능함) |
 | [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16v-코어 |8개 코어, 50GB RAM |8개 코어 |초당 60 |2,401-4,800 |사용 가능함 |

@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "데이터 탐색"
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Power BI에서 데이터를 찾고 데이터에 연결하고 데이터와 상호 작용하는 방법을 살펴봅니다.\n"
-  ms.openlocfilehash: 04fc3f0a47ab4194031b6e2bb65eacc0ac89d5f5
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 67e0b44ff76a8e32de0e6f460afe1fb45954dbb7
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "**데이터 탐색** 자습서를 시작합니다. 여기서는 Power BI에서 데이터를 찾고 데이터에 연결하고 데이터와 상호 작용하는 방법을 살펴봅니다.\n"
 - title: "Power BI 서비스 소개"
   durationInMinutes: 2
   content: >
@@ -92,4 +93,4 @@ items:
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "Power BI에 대한 단계별 학습 과정의 **데이터 탐색** 단원을 마쳤습니다.\0"
+- content: "이 단계별 학습 과정의 **데이터 탐색** 섹션은 모든 종류의 데이터 형식을 다룰 수 있도록 준비하는 과정입니다. 다음 자습서에서는 일반적인 데이터 원본인 Excel을 사용하는 방법을 배웁니다.\0"

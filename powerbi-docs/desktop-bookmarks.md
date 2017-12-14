@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a5542e7a4c0b1d5014a6fce0042c07fec7398ab4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드(미리 보기)
 Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비롯한 보고서 페이지의 현재 구성된 보기를 캡처하고 저장된 해당 책갈피를 선택하여 나중에 해당 상태로 돌아갈 수 있습니다. 
@@ -153,6 +153,7 @@ Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비�
 * 책갈피를 만든 후 보고서 페이지에서 시각적 개체를 추가하는 경우 시각적 개체는 기본 상태로 표시됩니다. 즉, 이전에 책갈피를 만든 페이지에 슬라이서를 도입하는 경우 슬라이서가 해당 기본 상태로 작동합니다.
 * 책갈피를 만든 후에 시각적 개체를 이동하면 책갈피에 반영됩니다. 
 * 서비스에서 책갈피를 사용하기 위해 **Power BI 서비스**에 게시할 경우 보고서에 하나 이상의 책갈피가 *있어야* 합니다. 이 작업은 게시한 각 보고서의 필수 조건입니다.
+* 책갈피는 현재 미리 보기 기능이며, 아직 [**Power BI Desktop for Report Server**](report-server/quickstart-create-powerbi-report.md)에서 사용할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 책갈피와 유사하거나 상호 작용하는 기능에 대한 자세한 내용은 다음 문서를 살펴보겠습니다.

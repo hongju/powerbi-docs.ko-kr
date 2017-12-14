@@ -1,6 +1,6 @@
 ---
-title: "사용자 지정 시각적 개체를 Office 스토어에 게시"
-description: "다른 사람이 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 Office 스토어에 게시하는 방법을 알아봅니다."
+title: "AppSource에 사용자 지정 시각적 개체 게시"
+description: "다른 사람이 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 AppSource에 게시하는 방법을 알아봅니다."
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>사용자 지정 시각적 개체를 Office 스토어에 게시
-다른 사람이 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 Office 스토어에 게시하는 방법을 알아봅니다.
+# <a name="publish-custom-visuals-to-appsource"></a>AppSource에 사용자 지정 시각적 개체 게시
+다른 사람이 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 AppSource에 게시하는 방법을 알아봅니다. office
 
-사용자 지정 시각적 개체를 만든 후에 다른 사람이 검색하고 사용할 수 있도록 Office 스토어에 게시할 수 있습니다. 이렇게 하려면 몇 가지 준비가 필요합니다. 사용자 지정 시각적 개체를 만드는 방법에 대한 자세한 내용은 [개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기](../service-custom-visuals-getting-started-with-developer-tools.md)를 참조하세요.
+사용자 지정 시각적 개체를 만든 후에는 다른 사람이 검색하고 사용할 수 있도록 AppSource에 게시할 수 있습니다. 이렇게 하려면 몇 가지 준비가 필요합니다. 사용자 지정 시각적 개체를 만드는 방법에 대한 자세한 내용은 [개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기](../service-custom-visuals-getting-started-with-developer-tools.md)를 참조하세요.
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-Office 스토어란? 간단히 말해 Office 365 소프트웨어용 앱(추가 기능)을 찾는 곳입니다. [Office 스토어](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)는 전보다 효율적이고, 멋지고, 통찰력 있게 작업할 수 있도록 도와주는 솔루션을 수백만 명의 Office 365 사용자와 연결해 줍니다.
+AppSource란? 간단히 말해서, Microsoft 제품 및 서비스에 대한 SaaS 앱과 추가 기능을 찾을 수 있는 곳입니다. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)는 전보다 효율적이고, 멋지고, 통찰력 있게 작업할 수 있도록 도와주는 솔루션을 수백만 명의 Office 365, Dynamics 365, Cortana Intelligence 등의 사용자와 연결해 줍니다.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>사용자 지정 시각적 개체를 제출하기 위한 준비
 사용자 지정 시각적 개체를 코딩하고 테스트하고 pbiviz 파일로 패키지를 생성한 후 제출을 위해 다음 사항도 준비해야 합니다.
@@ -57,14 +57,14 @@ Office 스토어란? 간단히 말해 Office 365 소프트웨어용 앱(추가 �
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>Office 스토어에 제출
-Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [Office 개발자 센터](https://sellerdashboard.microsoft.com/Application/Summary)로 이동하여 Office 스토어에 시각적 개체를 제출합니다.
+## <a name="submitting-to-appsource"></a>AppSource에 제출
+Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [개발자 센터](https://sellerdashboard.microsoft.com/Application/Summary)로 이동하여 AppSource에 시각적 개체를 제출합니다.
 
 > [!NOTE]
 > [Office 개발자 센터](https://dev.office.com/)에 로그인할 수 있는 유효한 Office 개발자 계정이 있어야 합니다. Office 개발자 계정은 Microsoft 계정(Live ID 즉, hotmail.com 또는 outlook.com)이어야 합니다.
 > 
 > [!IMPORTANT]
-> Office 스토어에 제출하기 전에 .pbiviz 파일과 .pbix 파일이 포함된 전자 메일을 Power BI 팀에 보내야 합니다. Power BI 팀이 해당 파일을 공개 공유 서버에 업로드할 수 있도록 하기 위해서 필요합니다. 그렇지 않으면 Office 스토어가 파일을 검색할 수 없습니다. 새로운 시각적 개체 제출, 기존 시각적 개체에 대한 업데이트 및 Office 스토어에서 거부된 제출에 대한 수정 사항 각각에 대해 파일을 보내야 합니다.
+> AppSource에 제출하기 전에 .pbiviz 파일과 .pbix 파일이 포함된 전자 메일을 Power BI 팀에 보내야 합니다. 그러면 Power BI 팀이 해당 파일을 공개 공유 서버에 업로드할 수 있습니다. 그렇지 않으면 스토어에서 파일을 검색할 수 없습니다. 새로운 시각적 개체 제출, 기존 시각적 개체의 업데이트 및 거부된 제출에 대한 수정 사항 각각에 대해 파일을 보내야 합니다.
 > 
 > 
 

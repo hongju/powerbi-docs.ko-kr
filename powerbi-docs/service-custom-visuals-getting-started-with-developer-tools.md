@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: e84c5045906cb91f028f0c33b5af8164871d8882
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: bdba3cb9a7dc64dbf71a48a7ae2223e74c302b70
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
 사용자 지정 시각적 개체를 사용하면 사용자 요구 사항과 앱 디자인에 맞출 수 있습니다. 개발자 도구로 Power BI용 사용자 지정 시각적 개체를 만드는 방법을 알아보세요.
@@ -347,8 +347,8 @@ pbiviz update 1.2.0
 ## <a name="debugging"></a>디버깅
 사용자 지정 시각적 개체의 디버깅에 대한 팁은 [디버깅 가이드](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md)를 을 참조하세요.
 
-## <a name="submit-your-visual-to-the-office-store"></a>시각적 개체를 Office 스토어에 제출
-Office 스토어에 포함되도록 할 수 있습니다. 이 과정에 대한 자세한 내용은 [사용자 지정 시각적 개체를 Office 스토어에 게시](developer/office-store.md)를 참조하세요.
+## <a name="submit-your-visual-to-appsource"></a>AppSource에 시각적 개체 제출
+다른 사람들이 사용할 시각적 개체를 나열하고 AppSource에 제출할 수 있습니다. 이 과정에 대한 자세한 내용은 [사용자 지정 시각적 개체를 AppSource에 게시](developer/office-store.md)를 참조하세요.
 
 ## <a name="troubleshooting"></a>문제 해결
 **Pbiviz 명령어가 없습니다(또는 유사한 오류)**

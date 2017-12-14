@@ -15,15 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/28/2017
 ms.author: asaxton
-ms.openlocfilehash: a17bd787a37b7e26ac0b01ab5fc595b835e50b58
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>조직 내에서 감사 사용
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Power BI를 통한 감사 기능을 사용하여 수행된 작업을 모니터링하고 조사하는 방법에 대해 알아보세요. 보안 및 규정 준수 센터를 사용하거나 PowerShell을 사용할 수 있습니다.
@@ -34,45 +35,43 @@ Power BI 테넌트의 어떤 항목에 누가 무슨 활동을 수행하는지�
 
 > [!NOTE]
 > Power BI 감사 기능은 미리 보기 상태이며 모든 데이터 영역에서 사용할 수 있습니다.
-> 
-> 
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Power BI 관리 포털에서 감사 기능을 사용하도록 설정
+
 보고서를 활용하려면 조직에 감사를 사용하도록 설정해야 합니다. 이 작업은 관리 포털의 테넌트 설정 내에서 수행할 수 있습니다.
 
 1. 오른쪽 위에 있는 **기어 아이콘**을 선택합니다.
+
 2. **관리 포털**을 선택합니다.
    
    ![](media/service-admin-auditing/powerbi-admin.png)
+
 3. **테넌트 설정**을 선택합니다.
    
    ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
+
 4. **내부 활동 감사 및 규정 준수를 위해 감사 로그 만들기**를 켭니다.
+
 5. **적용**을 선택합니다.
 
 Power BI에서 사용자가 수행하는 다양한 활동에 대한 로깅이 시작됩니다. 로그가 O365 보안 및 규정 준수 센터에 표시되기까지 최대 48시간이 소요됩니다. 어떤 활동이 기록되는지에 대한 자세한 내용은 [Power BI에서 감사되는 활동 목록](#list-of-activities-audited-by-power-bi)을 참조하세요.
 
-## <a name="licensing-requirements"></a>라이선싱 요구 사항
-감사는 Power BI Pro 기능이며 감사 이벤트는 Power BI Pro 사용자만 사용할 수 있습니다.  Power BI(무료) 라이선스가 있는 사용자는 **무료 사용자**로 표시됩니다.
-
-Power BI Pro 라이선스를 획득하여 조직의 사용자에게 할당하는 방법에 대한 자세한 내용은 [Power BI Pro 구매](service-admin-purchasing-power-bi-pro.md)를 참조하세요.
-
-무료 사용자의 등록을 제한하는 방법에 대한 자세한 내용은 [ Azure Active Directory에서 개인 사용자 등록 사용 또는 사용 안 함](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)을 참조하세요.
-
 > [!NOTE]
 > 테넌트 내에서 Power BI에 대한 감사를 사용하려면, 테넌트 내에 하나 이상의 Exchange 사서함 라이선스가 필요합니다.
-> 
-> 
 
 ## <a name="accessing-your-audit-logs"></a>감사 로그에 액세스
+
 Power BI 로그를 감사하려면 O365 보안 및 규정 준수 센터를 방문해야 합니다.
 
 1. 오른쪽 위에 있는 **기어 아이콘**을 선택합니다.
+
 2. **관리 포털**을 선택합니다.
    
    ![](media/service-admin-auditing/powerbi-admin.png)
+
 3. **감사 로그**를 선택합니다.
-4. **O365 관리 센터로 이동**을 선택합니다.
+4. 
+5. **O365 관리 센터로 이동**을 선택합니다.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
@@ -80,43 +79,43 @@ Power BI 로그를 감사하려면 O365 보안 및 규정 준수 센터를 방�
 
 > [!NOTE]
 > 관리자가 아닌 계정에 감사 로그에 대한 액세스를 제공하려면 Exchange Online 관리 센터 내에서 사용 권한을 할당해야 합니다. 예를 들어, 조직 관리와 같은 기존 역할 그룹에 사용자를 할당하거나 감사 로그 역할을 가진 새 역할 그룹을 만들 수 있습니다. 자세한 내용은 [Exchange Online에서의 사용 권한](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx)을 참조하세요.
-> 
-> 
 
 ## <a name="search-only-power-bi-activities"></a>Power BI 활동만 검색
+
 다음을 수행하면 결과를 Power BI 활동으로만 제한할 수 있습니다.
 
 1. **Audit log search**(감사 로그 검색) 페이지의 **검색** 아래에서 **활동**에 해당하는 드롭다운을 선택합니다.
+
 2. **PowerBI activities(PowerBI 활동)** 선택합니다.
    
    ![](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+
 3. 선택 상자 밖의 아무 곳이나 선택하여 상자를 닫습니다.
 
 이제 검색이 Power BI 활동으로만 필터링됩니다.
 
 ## <a name="search-the-audit-logs-by-date"></a>날짜별 감사 로그 검색
+
 “시작 날짜”와 “종료 날짜” 필드를 사용하면 날짜 범위로 로그를 검색할 수 있습니다. 기본적으로 최근 7일이 선택됩니다. 날짜와 시간은 UTC(협정 세계시) 형식으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 90일입니다. 선택한 날짜 범위가 90일을 초과하면 오류가 표시됩니다.
 
 > [!NOTE]
 > 최대 날짜 범위인 90일을 사용하는 경우 시작 날짜에 현재 시간을 선택합니다. 그렇지 않으면 시작 날짜가 종료 날짜보다 빠르다는 오류가 표시됩니다. 90일이 지나기 전에 감사를 사용하도록 설정하는 경우, 최대 날짜 범위가 감사를 켠 날짜 이전에 시작되도록 설정할 수 없습니다.
-> 
-> 
 
 ![](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>사용자별 감사 로그 검색
+
 특정 사용자가 수행한 활동에 대한 감사 로그 항목을 검색할 수 있습니다. 이를 수행하려면 “사용자” 필드에 사용자 이름을 하나 이상 입력합니다.  이것은 Power BI에 로그인할 때 사용한 사용자 이름을 말합니다. 전자 메일 주소와 유사합니다.
 조직의 모든 사용자(및 서비스 계정)에 대한 항목을 반환하려면 이 상자를 비워둡니다.
 
 ![](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="viewing-search-results"></a>검색 결과 보기
+
 검색 단추를 누르면 검색 결과가 로드되고 잠시 후에 결과 아래에 검색 결과가 표시됩니다. 검색이 완료되면 검색된 결과의 개수가 표시됩니다. 
 
 > [!NOTE]
 > 최대 1000개의 이벤트가 표시됩니다. 검색 조건을 충족하는 이벤트가 1000개를 넘으면, 최신 이벤트 1000개가 표시됩니다.
-> 
-> 
 
 결과에는 검색을 통해 반환된 각 이벤트에 대한 다음과 같은 정보가 포함됩니다.
 
@@ -131,31 +130,14 @@ Power BI 로그를 감사하려면 O365 보안 및 규정 준수 센터를 방�
 
 > [!NOTE]
 > 결과를 정렬하려면 결과에서 열 머리글을 선택합니다. 결과는 오름차순이나 내림차순으로 정렬할 수 있습니다. 날짜를 오름차순이나 내림차순으로 정렬하려면 날짜 머리글을 클릭합니다.
-> 
-> 
 
 ## <a name="view-the-details-for-an-event"></a>이벤트에 대한 세부 정보 보기
+
 검색 결과 목록에서 이벤트 레코드를 선택하면 이벤트에 대한 세부 정보를 볼 수 있습니다. 이벤트 레코드의 세부 속성을 포함하는 세부 정보 페이지가 표시됩니다. 표시되는 속성은 이벤트가 발생하는 Office 365 서비스에 따라 다릅니다. 추가 세부 정보를 표시하려면 **추가 정보**를 선택합니다.
 
 다음 표는 표시될 수 있는 항목에 대한 자세한 내용을 제공합니다.
 
-| **매개 변수** | **설명** |
-| --- | --- |
-| Id |감사 레코드의 고유 식별자입니다. |
-| RecordType |레코드로 표시되는 작업의 유형입니다. 감사 로그 레코드의 유형에 대한 세부 정보는 AuditLogRecordType 테이블을 참조하세요. |
-| CreationTime |사용자가 활동을 수행한 날짜와 시간이며 UTC(협정 세계시) 형식입니다. |
-| Operation |사용자 또는 관리자 활동의 이름입니다. |
-| OrganizationId |이벤트가 발생한 조직의 Office 365 서비스에 대한 GUID입니다. |
-| UserType |작업을 수행한 사용자의 유형입니다. 사용자 유형에 대한 세부 정보는 User Type 테이블을 참조하세요. |
-| UserKey |활동을 수행한 사용자의 Passport 고유 ID입니다. |
-| ResultStatus |작업(Operation 속성에 지정된)의 성공 여부를 나타냅니다. 가능한 값은 Succeeded, PartiallySucceded, 또는 Failed입니다. |
-| ObjectId |비즈니스 활동용 SharePoint와 OneDrive에 대해 사용자가 액세스한 파일 또는 폴더의 전체 경로 이름입니다. |
-| UserId |레코드가 기록된 작업(Operation 속성에 지정된)을 수행한 사용자의 UPN(사용자 계정 이름)이며, 예를 들면 my_name@my_domain_name입니다. 시스템 계정(예: SHAREPOINT\system or NT AUTHORITY\SYSTEM)에 의해 수행된 활동에 대한 레코드도 포함됩니다. |
-| ClientIp |활동이 기록될 때 사용된 장치의 IP 주소입니다. IP 주소는 IPv4 또는 IPv6 주소 형식으로 표시됩니다. |
-
-다음 표는 표시될 수 있는 이벤트에 대한 자세한 내용을 제공합니다.
-
-| **이벤트** | **설명** | **추가 세부 정보** |
+| **매개 변수 또는 이벤트** | **설명** | **추가 세부 정보** |
 | --- | --- | --- |
 | 다운로드한 Power BI 보고서 |이 활동은 보고서가 다운로드될 때마다 기록됩니다. |보고서 이름, 데이터 집합 이름 |
 | 보고서 만들기 |이 활동은 새 보고서를 만들 때마다 기록됩니다. |보고서 이름, 데이터 집합 이름 |
@@ -176,12 +158,11 @@ Power BI 로그를 감사하려면 O365 보안 및 규정 준수 센터를 방�
 | SetScheduledRefresh |이 활동은 데이터 집합에 새 새로 고침이 예약될 때마다 기록됩니다. |데이터 집합 이름, 새로 고침 빈도(분) |
 
 ## <a name="using-powershell-to-search"></a>PowerShell을 사용하여 검색
+
 사용자 로그인에 따른 감사 로그에 액세스하기 위해 PowerShell을 사용할 수 있습니다. 이 작업은 Exchange Online에 액세스하여 수행됩니다. 여기에 Power BI 감사 로그 항목을 가져오는 명령의 예가 나와 있습니다.
 
 > [!NOTE]
 > New-PSSession 명령을 사용하기 위해 계정에는 할당된 Exchange Online 라이선스가 있어야 하며 테넌트에 대한 감사 로그에 액세스할 수 있어야 합니다.
-> 
-> 
 
 ```
 Set-ExecutionPolicy RemoteSigned
@@ -201,19 +182,23 @@ Search-UnifiedAuditLog 명령의 매개 변수 및 사용에 대한 자세한 �
 PowerShell을 사용하여 감사 로그를 검색하고 항목을 기반으로 Power BI Pro 라이선스를 할당하는 예제를 보려면 [Power BI 감사 로그 및 PowerShell을 사용하여 Power BI Pro 라이선스 할당](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/)을 참조하세요.
 
 ## <a name="export-the-power-bi-audit-log"></a>Power BI 감사 로그 내보내기
+
 Power BI 감사 로그를 csv 파일로 내보낼 수 있습니다.Power BI 감사 로그를 csv 파일로 내보낼 수 있습니다.
 
 1. **결과 내보내기**를 선택합니다.
+
 2. **Save loaded results**(로드된 결과 저장) 또는 **Download all results**(모든 결과 다운로드)를 선택합니다.
    
    ![](media/service-admin-auditing/export-auditing-results.png)
 
 ## <a name="record-and-user-types"></a>레코드 및 사용자 레코드
+
 감사 로그 항목에는 항목에 대한 세부 정보의 일부로 RecordType과 UserType이 생깁니다. 모든 Power BI 항목에는 20개의 RecordType이 생깁니다.
 
 전체 목록은 [Office 365 감사 로그의 세부 속성](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)을 참조하세요.
 
 ## <a name="list-of-activities-audited-by-power-bi"></a>Power BI에서 감사되는 활동 목록
+
 | 활동 | 설명 | 추가 세부 정보 |
 | --- | --- | --- |
 | CreateDashboard |이 활동은 새 대시보드가 만들어질 때마다 기록됩니다. |- 대시보드 이름입니다. |
@@ -237,6 +222,7 @@ Power BI 감사 로그를 csv 파일로 내보낼 수 있습니다.Power BI 감�
 | OptInForProTrial |이 이벤트는 사용자가 서비스 내에서 Power BI Pro를 선택할 때 기록됩니다. |- 메일 주소 |
 
 ## <a name="next-steps"></a>다음 단계
+
 [Power BI 관리 포털](service-admin-portal.md)  
 [Power BI 프리미엄이란?](service-premium.md)  
 [Power BI Pro 구매](service-admin-purchasing-power-bi-pro.md)  
@@ -246,4 +232,3 @@ Power BI 감사 로그를 csv 파일로 내보낼 수 있습니다.Power BI 감�
 [Office 365 감사 로그의 세부 속성](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-

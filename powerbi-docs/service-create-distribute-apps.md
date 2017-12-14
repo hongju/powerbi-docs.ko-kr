@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 58af226f6c3d93fffc805e23fcf1bda0d055058d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 생성 및 게시
 
@@ -32,7 +32,7 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
 
 현재 미리 보기 중인 Power BI 앱을 사용하면 대시보드 및 보고서의 컬렉션을 만들고 이러한 앱을 전체 조직 또는 특정 사람 또는 그룹에 게시할 수 있습니다. 보고서 작성자 또는 관리자인 경우 앱을 사용하면 대시보드 컬렉션에 대한 권한을 더 손쉽게 관리할 수 있습니다.
 
-비즈니스 사용자는 몇 가지 방법으로 앱을 가져옵니다. Power BI 관리자가 권한을 부여한 경우 동료의 Power BI 계정에 해당 앱을 자동으로 설치할 수 있습니다. 그렇지 않은 경우 Microsoft AppSource에서 해당 앱을 설치하거나 직접 링크를 보낼 수 있습니다. 한 곳에 모두 있으므로, 손쉽게 콘텐츠를 찾고 되돌아갈 수 있습니다. 업데이트를 자동으로 가져오므로, 데이터 새로 고침 빈도를 조절할 수 있습니다. [비즈니스 사용자의 앱 환경](service-install-use-apps.md)에 대해 자세히 알아보기
+비즈니스 사용자는 Microsoft AppSource에서 이러한 앱을 설치하거나 직접 링크를 보낼 수 있습니다. 한 곳에 모두 있으므로, 손쉽게 콘텐츠를 찾고 되돌아갈 수 있습니다. 업데이트를 자동으로 가져오므로, 데이터 새로 고침 빈도를 조절할 수 있습니다. [비즈니스 사용자의 앱 환경](service-install-use-apps.md)에 대해 자세히 알아보기
 
 ### <a name="apps-and-organizational-content-packs"></a>앱 및 조직 콘텐츠 팩
 앱은 조직 콘텐츠 팩이 진화된 것입니다. 조직 콘텐츠 팩이 이미 있는 경우 앱과 함께 계속 작동합니다.
@@ -119,7 +119,7 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
    
      ![앱 콘텐츠](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. 마지막으로, **액세스**에서 조직의 모든 사람, 또는 특정 사람이나 이메일 수신 목록 등으로, 앱 액세스 권한이 있는 사용자를 결정합니다. 권한이 있는 경우 받는 사람에 대해 앱 자동 설치를 선택할 수 있습니다.
+4. 마지막으로, **액세스**에서 앱에 액세스할 수 있는 사람을 조직의 모든 사람 또는 특정 사람이나 Active Directory 보안 그룹 중에서 결정합니다. 
    
      ![앱 액세스](media/service-create-distribute-apps/power-bi-apps-access.png)
 
@@ -127,7 +127,7 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
    
      ![앱 완료](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-앱을 게시한 비즈니스 사용자는 몇 가지 다른 방법으로 찾을 수 있습니다. 첫째, 자동으로 설치할 수 있으면 Power BI 계정의 앱 아래에 표시됩니다.  앱에 대한 직접 링크를 보내거나, Microsoft AppSource에서 검색할 수 있습니다(액세스할 수 있는 모든 앱 확인 가능). 그런 다음 앱으로 이동할 때마다 목록에서 이 앱을 보게 됩니다.
+앱을 게시한 비즈니스 사용자는 두 가지 방법으로 앱을 찾을 수 있습니다. 앱에 대한 직접 링크를 보내거나, Microsoft AppSource에서 검색할 수 있습니다(액세스할 수 있는 모든 앱 확인 가능). 그런 다음 앱으로 이동할 때마다 목록에서 이 앱을 보게 됩니다.
 
 [비즈니스 사용자의 앱 환경](service-install-use-apps.md)에 대해 자세히 알아보기
 

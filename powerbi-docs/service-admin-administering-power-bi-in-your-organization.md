@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/28/2017
 ms.author: asaxton
-ms.openlocfilehash: 3ee74e9a7f2f174b37e582089e0d9a1d6c433831
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 180e80ee327342b26849aa63a3910337737ac9ad
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="administering-power-bi-in-your-organization"></a>조직에서 Power BI 관리
 Microsoft Power BI를 사용하면 사용자가 데이터를 시각화, 검색 공유 및 직관적인 새로운 방법으로 공동 작업할 수 있습니다. 더 자세히 알아보려면 [Power BI 시작하기](service-get-started.md)를 참조하세요.
@@ -60,6 +60,7 @@ Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관�
 * [추가로 준비할 사항이 있습니까?](#are-there-any-additional-things-i-should-be-prepared-for)
 * [이는 무료입니까? 이 라이선스에 대해 수수료를 지불합니까?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [내 Power BI 테넌트는 어디에 있습니까?](#where-is-my-power-bi-tenant-located)
+* [Power BI Service Level Agreement(서비스 수준 약정)란?](#what-is-the-power-bi-sla)
 
 **Power BI의 보안**
 
@@ -255,6 +256,9 @@ Office 365 관리 센터에서 표준 프로세스를 통해 테넌트에서 사
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>내 Power BI 테넌트는 어디에 있습니까?
 데이터 영역이라고도 알려진 Power BI 테넌트의 위치를 찾는 방법은 [내 Power BI 테넌트는 어디에 있습니까?](service-admin-where-is-my-tenant-located.md)를 참조하세요.
+
+### <a name="what-is-the-power-bi-sla"></a>Power BI Service Level Agreement(서비스 수준 약정)란?
+Power BI Service Level Agreement(서비스 수준 약정)에 대한 자세한 내용은 Microsoft 라이선스 웹 사이트의 **라이선스** 단원에서 [라이선스 사용 조건 및 설명서](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 문서를 참조하세요.
 
 ## <a name="security-in-power-bi"></a>Power BI의 보안
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI는 국가, 지역 및 업계별 규정 준수 요구 사항을 충족합니까?

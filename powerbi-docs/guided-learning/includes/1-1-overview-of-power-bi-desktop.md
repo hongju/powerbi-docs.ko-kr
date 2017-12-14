@@ -7,7 +7,7 @@ Power BI에 대한 이 **단계별 학습** 과정의 두 번째 단원인 **데
 ## <a name="an-overview-of-power-bi-desktop"></a>Power BI Desktop 개요
 Power BI Desktop은 데이터에 연결하여 데이터를 정리 및 시각화하는 도구입니다. Power BI Desktop을 사용하면 데이터에 연결한 다음 다양한 방식으로 데이터를 모델링하고 시각화할 수 있습니다. 비즈니스 인텔리전스 프로젝트를 수행하는 대부분의 사용자는 대부분의 시간 동안 Power BI Desktop을 사용합니다.
 
-Power BI Desktop은 [웹](http://go.microsoft.com/fwlink/?LinkID=521662) 또는 Power BI 서비스에서 다운로드할 수 있습니다. Power BI 오른쪽 위에 있는 아래쪽 화살표 단추를 선택한 다음 Power BI Desktop을 선택하기만 하면 됩니다.
+[웹에서](http://go.microsoft.com/fwlink/?LinkID=521662) Power BI Desktop을 다운로드할 수 있고, [**Windows Store**](http://aka.ms/pbidesktopstore)에서 **Power BI Desktop**을 앱으로 설치할 수도 있고 Power BI 서비스에서 다운로드할 수도 있습니다. 서비스에서 **Power BI Desktop**을 받으려면 Power BI 오른쪽 위에 있는 아래쪽 화살표 단추를 선택한 다음 Power BI Desktop을 선택하기만 하면 됩니다.
 
 ![](media/1-1-overview-of-power-bi-desktop/1-1_1.png)
 

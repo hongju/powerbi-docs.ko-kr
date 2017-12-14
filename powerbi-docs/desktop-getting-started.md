@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: c0689b969c1956d0344afb2bc8aef7bda32c159e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 시작
 **Power BI Desktop 시작 가이드**를 시작합니다. 아래의 간단한 안내를 통해 Power BI Desktop의 작동 방법을 파악하고, 이 도구로 수행할 수 있는 작업을 확인하고, 비즈니스 인텔리전스 활동을 강화하는 강력한 데이터 모델을 유용한 보고서와 함께 신속하게 작성할 수 있습니다. 
@@ -43,6 +43,10 @@ Power BI Desktop을 사용하면 다른 사용자와 쉽게 공유할 수 있는
 
 더 철저하게 이해하려면 각 섹션을 읽고 단계를 수행한 다음 **Power BI** 서비스에 게시하고 다른 사용자와 공유할 수 있는 고유한 Power BI Desktop 파일을 만들면 됩니다.
 
+>[!NOTE]
+>데이터 및 보고를 온-프레미스에 유지해야 하는 고객을 위한 [**Power BI Report Server**](report-server/get-started.md)라고 하는 별도의 특수 **Power BI** 버전도 있습니다. 이 특수 버전을 사용하는 경우 Power BI Report Server 버전에서만 작동하는 **Power BI Desktop for Power BI Report Server**라고 하는 별도의 특수 **Power BI Desktop** 버전이 있습니다. 이 문서에서는 표준 **Power BI Desktop**에 대해 설명합니다.
+
+
 ## <a name="how-power-bi-desktop-works"></a>Power BI Desktop의 작동 방식
 Power BI Desktop을 사용하여 *데이터에 연결* (일반적으로 여러 데이터 소스)하고, *데이터를 셰이핑* 하고(통찰력 있고 강력한 데이터 모델을 만드는 쿼리 사용), 해당 모델을 사용하여 *보고서를 만듭니다* (다른 사용자가 활용하고 기초 자료로 사용하고 공유할 수 있음).
 
@@ -51,6 +55,8 @@ Power BI Desktop을 사용하여 *데이터에 연결* (일반적으로 여러 �
 Power BI Desktop은 비즈니스 인텔리전스 리포지토리 및 보고서의 분산되고 단절된 까다로운 디자인 및 작성 프로세스를 중앙 집중화, 단순화 및 간소화합니다.
 
 이제 본격적으로 Power BI Designer를 설명하겠습니다.
+
+
 
 ## <a name="install-and-run-power-bi-desktop"></a>Power BI Desktop 설치 및 실행
 **기어** 아이콘을 선택한 다음 **Power BI Desktop** 을 선택하여 **Power BI**서비스에서 Power BI Desktop을 다운로드할 수 있습니다.

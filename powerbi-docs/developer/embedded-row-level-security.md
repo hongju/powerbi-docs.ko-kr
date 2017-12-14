@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI Embedded 콘텐츠에서 행 수준 보안 사용
 RLS(행 수준 보안)를 사용하여 보고서 또는 데이터 집합 내에서 데이터에 대한 사용자 액세스를 제한하면서 다른 여러 사용자가 다른 데이터를 모두 확인하는 동안 동일한 보고서를 사용할 수 있습니다. RLS는 Power BI의 보고서를 포함하는 경우에 장점이 있습니다.
@@ -145,7 +145,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 * Power BI 서비스는 편집 권한이 있는 사용자 또는 멤버에게 RLS 설정을 적용하지 않는 반면 포함된 토큰을 사용하여 ID를 제공할 경우 데이터에 적용합니다.
 * GenerateToken을 호출할 경우 ID 정보를 전달하는 작업은 보고서 읽기/쓰기에만 지원됩니다. 나중에 다른 리소스에 대한 지원도 추가됩니다.
 * 온-프레미스 서버에 대해 Analysis Services 라이브 연결이 지원됩니다.
-* Azure Analysis Services 라이브 연결이 지원되지 않습니다.
+* Azure Analysis Services 라이브 연결은 역할별 필터링을 지원하지만 사용자 이름에 따른 동적 필터링은 지원하지 않습니다.
 * 기본 데이터 집합에서 RLS가 필요하지 않은 경우 GenerateToken 요청은 유효 ID를 포함하지 **않아야** 합니다.
 * 기본 데이터 집합이 클라우드 모델(캐시된 모델 또는 DirectQuery)이면 유효 ID는 하나 이상의 역할을 포함해야 합니다. 그렇지 않은 경우 역할 할당도 발생하지 않습니다.
 * ID 목록에서 하나의 ID만 제공할 수 있습니다. 나중에 포함되는 대시보드의 다중 ID 토큰을 사용하도록 설정하기 위해 목록을 사용합니다.
