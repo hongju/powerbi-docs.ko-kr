@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 생성 및 게시
 
@@ -120,8 +120,6 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
      ![앱 콘텐츠](media/service-create-distribute-apps/power-bi-apps-content.png)
 
 4. 마지막으로, **액세스**에서 앱에 액세스할 수 있는 사람을 조직의 모든 사람 또는 특정 사람이나 Active Directory 보안 그룹 중에서 결정합니다. 
-   
-     ![앱 액세스](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. **마침**을 선택하면 게시할 준비가 되었음을 확인하는 메시지가 나타납니다. 성공 대화 상자에서는 이 앱에 대한 직접 링크인 URL을 복사하여 이를 공유한 사람에게 보낼 수 있습니다.
    
