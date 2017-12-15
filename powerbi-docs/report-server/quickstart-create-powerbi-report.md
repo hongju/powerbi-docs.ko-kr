@@ -24,7 +24,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/06/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>빠른 시작: Power BI Report Server용 Power BI 보고서 만들기
-Power BI 서비스(https://powerbi.com)에서 클라우드에 Power BI 보고서를 저장할 수 있는 것과 마찬가지로 Power BI Report Server 웹 포털에서 Power BI 보고서 온-프레미스를 저장하고 관리할 수 있습니다. Power BI Desktop에서 보고서를 만들고 편집하고 웹 포털에 게시합니다. 그런 다음 조직의 보고서 판독기는 모바일 장치의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
+Power BI 서비스 (https://powerbi.com) 에서 클라우드에 Power BI 보고서를 저장할 수 있는 것과 마찬가지로 Power BI Report Server 웹 포털에서 Power BI 보고서 온-프레미스를 저장하고 관리할 수 있습니다. Power BI Desktop에서 보고서를 만들고 편집하고 웹 포털에 게시합니다. 그런 다음 조직의 보고서 판독기는 모바일 장치의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
 
 ![웹 포털의 Power BI 보고서](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 

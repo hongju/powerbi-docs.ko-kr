@@ -28,7 +28,7 @@ iOS용 Microsoft Power BI 앱은 iPad, iPhone, Apple Watch, iPod Touch에 모바
 
 ![iPhone 및 iPad](media/mobile-ios-ipad-iphone-apps/pbi_ipad_iphonedevices.png)
 
-Power BI(https://powerbi.com)로 이동하여 Power BI 서비스에 등록합니다.
+Power BI (https://powerbi.com) 로 이동하여 Power BI 서비스에 등록합니다.
 
 [Power BI 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)을 참조하세요.
 

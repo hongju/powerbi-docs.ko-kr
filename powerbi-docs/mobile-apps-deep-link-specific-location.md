@@ -41,7 +41,7 @@ URI 링크는 대시보드, 타일 및 보고서를 직접 가리킬 수 있습�
 
     mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
 
-36자의 대시보드 개체 ID를 찾으려면 Power BI 서비스(https://powerbi.com)의 특정 대시보드로 이동합니다. 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
+36자의 대시보드 개체 ID를 찾으려면 Power BI 서비스 (https://powerbi.com) 의 특정 대시보드로 이동합니다. 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
 
 https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
 
@@ -56,7 +56,7 @@ mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60
 
     mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
 
-36자의 대시보드 개체 ID를 찾으려면 Power BI 서비스(https://powerbi.com)의 특정 대시보드로 이동하여 포커스 모드에서 타일을 엽니다. 예를 들어 다음 URL에서 강조 표시된 섹션을 참조하세요.
+36자의 대시보드 개체 ID를 찾으려면 Power BI 서비스 (https://powerbi.com) 의 특정 대시보드로 이동하여 포커스 모드에서 타일을 엽니다. 예를 들어 다음 URL에서 강조 표시된 섹션을 참조하세요.
 
 https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus
 
@@ -73,7 +73,7 @@ https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7*
 
     mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
 
-36자의 보고서 개체 ID를 찾으려면 Power BI 서비스(https://powerbi.com)의 특정 보고서로 이동합니다. 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
+36자의 보고서 개체 ID를 찾으려면 Power BI 서비스 (https://powerbi.com) 의 특정 보고서로 이동합니다. 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
 
 https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
 
@@ -82,7 +82,7 @@ https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
 
     mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
 
-보고서 페이지는 "ReportSection"(뒤에 숫자가 따라옴)이라고 합니다. 다시 말해 Power BI 서비스(https://powerbi.com)의 보고서를 열고 특정 보고서 페이지로 이동합니다. 
+보고서 페이지는 "ReportSection"(뒤에 숫자가 따라옴)이라고 합니다. 다시 말해 Power BI 서비스 (https://powerbi.com) 의 보고서를 열고 특정 보고서 페이지로 이동합니다. 
 
 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
 
