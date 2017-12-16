@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: "시각화"
 metadata:
   title: "시각화 | Microsoft Power BI"
@@ -7,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: exploringdata
-  nextTutorialTitle: "데이터 탐색"
+  nextTutorialTitle: Exploring data
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-  ms.openlocfilehash: 9104611f4ab91a2d212715820a0f5119f8f1503b
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: e1492e55e47ea0871f4a07a0cc599570f36cae40
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
 items:
 - durationInMinutes: 1
-  content: "시각화는 데이터에 생명을 불어 넣으며 가장 강력하고 놀라운 시각적 표현을 통해 통찰력을 밝힙니다.  **Power BI** 단계별 학습 과정의 이번 단원에서는 시각화 사용 방법을 보여줍니다.\n"
+  content: >
+    Visualizations bring your data to life, and reveal insights that only compelling and amazing visual representations can. This section of **Power BI** Guided Learning shows you how to get started using them.
 - title: "Power BI의 시각적 개체 소개"
   durationInMinutes: 2
   content: >
@@ -156,4 +156,4 @@ items:
 
 
     [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
-- content: "수고 많으셨습니다. **단계별 학습 과정**의 **시각화** 섹션을 모두 마치셨으며, 다음 자습서 **데이터 탐색**을 진행할 준비가 완료되었습니다.\0"
+- content: "Nice work. You've completed the **Visualizations** section of **Guided Learning**, and you're ready for the next tutorial - **Exploring data**.\0"

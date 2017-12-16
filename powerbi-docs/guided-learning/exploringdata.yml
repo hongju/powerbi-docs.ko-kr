@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: "데이터 탐색"
 metadata:
   title: "데이터 탐색 | Microsoft Power BI"
@@ -7,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: powerbiandexcel
-  nextTutorialTitle: "Power BI 및 Excel"
+  nextTutorialTitle: Power BI and Excel
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-  ms.openlocfilehash: 67e0b44ff76a8e32de0e6f460afe1fb45954dbb7
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: aa974a0f3448efde8a4410fabcf0e4f78a5050fd
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
 items:
 - durationInMinutes: 1
-  content: "**데이터 탐색** 자습서를 시작합니다. 여기서는 Power BI에서 데이터를 찾고 데이터에 연결하고 데이터와 상호 작용하는 방법을 살펴봅니다.\n"
+  content: >
+    Welcome to the **exploring data** tutorial. Here you'll learn how to find, connect to, and interact with data in Power BI.
 - title: "Power BI 서비스 소개"
   durationInMinutes: 2
   content: >
@@ -93,4 +93,4 @@ items:
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "이 단계별 학습 과정의 **데이터 탐색** 섹션은 모든 종류의 데이터 형식을 다룰 수 있도록 준비하는 과정입니다. 다음 자습서에서는 일반적인 데이터 원본인 Excel을 사용하는 방법을 배웁니다.\0"
+- content: "This **exploring data** section of Guided Learning has prepared you to work with all sorts of different data types. In the next tutorial, you learn how to use a common data source - Excel.\0"
