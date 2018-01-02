@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/17/2017
-ms.author: jaimeta
-ms.openlocfilehash: e56976943e58aba8c9ef36c576a16ab5eba4c796
-ms.sourcegitcommit: 7d4ad2ba92a932d7cc6637348e0774be6623559e
+ms.date: 12/11/2017
+ms.author: tankas
+ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -32,6 +32,10 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 ## <a name="october-2017"></a>2017년 10월
 
 - **Power BI Report Server**
+    - *버전 1.1.6551.5155(빌드 14.0.600.438), 릴리스 날짜: 2017년 12월 11일*
+        - 버그 픽스
+            - 특정 Power BI Desktop 보고서를 새로 고친 후 데이터가 저장되지 않습니다.
+
     - *버전 1.1.6530.30789(빌드 14.0.600.437), 릴리스 날짜: 2017년 11월 17일*
         - 버그 픽스
             - 기본 인증 시나리오에 대한 수정 

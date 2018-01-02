@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: 576ddfbbf52a2738dd32597479ffd03d554a5256
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 957e7c05907f1fc75eddeb271c664f898203e591
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 조달 분석 샘플: 둘러보기
 이 산업 샘플 대시보드 및 기본 보고서는 범주 및 위치별로 공급업체에 대한 제조 회사의 지출을 분석할 수 있게 해 줍니다. 이 샘플에서는 다음 영역을 탐색합니다.
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/13/2017
 
 함께 진행해볼까요? [Power BI 서비스](https://powerbi.com)에서 **데이터 가져오기 > 샘플 > 조달 분석 샘플 > 연결**로 이동하여 샘플의 고유 사본을 가져옵니다.
 
-[이 샘플에 대한 데이터 집합(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529784)할 수도 있습니다.
+[!Note] [이 샘플에 대한 데이터 집합(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529784)할 수도 있습니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 **파워 피벗 > 관리**를 선택합니다.
 
 ## <a name="spending-trends"></a>지출 추세
 먼저 범주 및 위치별 지출 추세를 살펴보겠습니다.  

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/17/2017
 ms.author: asaxton
-ms.openlocfilehash: 17e8c8dd467b7dc349a373ec986dd3e2715c2f73
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6dd0191a480274e7a9b03b182113edd4c734c2ef
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
 조직에 대한 Power BI 프리미엄 용량을 구입하는 방법을 알아봅니다.
@@ -65,11 +65,11 @@ Power BI Premium SKU를 구입하려면 테넌트 내에서 ***전역 또는 대
 
 | 바로 구입 링크 |
 | --- |
-| [EM3(매월) SKU](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |
-| [P1 SKU](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |
-| [P1(매월) SKU](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) |
-| [P2 SKU](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |
-| [P3 SKU](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |
+| [EM3(매월) SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |
+| [P1 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |
+| [P1(매월) SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) |
+| [P2 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |
+| [P3 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |
 
 구입을 완료하면 서비스 구입 화면에 항목을 구입했고 활성 상태인 것으로 표시됩니다.
 
@@ -78,7 +78,7 @@ Power BI Premium SKU를 구입하려면 테넌트 내에서 ***전역 또는 대
 이제 Power BI 관리 센터 내에서 이 용량을 관리할 수 있습니다. 자세한 내용은 [Power BI 프리미엄 관리](service-admin-premium-manage.md)를 참조하세요.
 
 ## <a name="purchase-more-capacities"></a>추가 용량 구입
-Power BI 관리 포털의 **프리미엄 설정**에 있고 관리자인 경우 **추가 구입** 단추가 표시됩니다. 이 단추를 통해 Office 365 포털으로 이동합니다. Office 365 관리 센터에 있는 경우 다음을 수행할 수 있습니다.
+Power BI 관리 포털의 **프리미엄 설정**에 있고 관리자인 경우 **추가 구입** 단추가 표시됩니다. 이 단추를 통해 Office 365 포털로 이동합니다. Office 365 관리 센터에 있는 경우 다음을 수행할 수 있습니다.
 
 1. **청구** > **서비스 구입**을 선택합니다.
 2. **기타 계획** 아래에서 추가로 구입할 Power BI 프리미엄 항목을 찾습니다.

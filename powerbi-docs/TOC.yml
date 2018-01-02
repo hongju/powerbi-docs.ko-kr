@@ -380,6 +380,8 @@
           href: service-export-to-pbix.md
         - name: URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
           href: service-url-filters.md
+        - name: Power BI에서 빠르고 신뢰할 수 있는 보고서 빌드를 위한 모범 사례
+          href: power-bi-reports-performance.md
     - name: 시각화
       items:
         - name: Power BI의 시각화
@@ -746,6 +748,8 @@
       items:
         - name: Power BI Desktop의 보고서 뷰
           href: desktop-report-view.md
+        - name: Power BI Desktop의 Q&A
+          href: desktop-qna-in-reports.md
         - name: Power BI Desktop의 분석 창
           href: desktop-analytics-pane.md
         - name: Power BI Desktop에서 정보 사용

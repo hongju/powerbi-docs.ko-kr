@@ -16,21 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/17/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 54c6ba317dbe4fa71c9001f190d724c3afd74313
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 554084b26beff469276709b9e7c7f2c9fa84e65c
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="recent-content-in-power-bi-service"></a>Power BI 서비스의 **최근** 콘텐츠
-![](media/service-recent/power-bi-recent-screen.png)
+
 
 ## <a name="what-is-recent-content"></a>최근 콘텐츠란
-최근 콘텐츠는 사용자가 방문한 최근 20개 항목입니다.  대시보드, 보고서, 앱 및 통합 문서가 포함됩니다.
+최근 콘텐츠란 사용자가 방문한 마지막 항목입니다(최대 20개).  여기에는 대시보드, 보고서, 앱 및 모든 작업 영역의 통합 문서가 포함됩니다.
 
-![](media/service-recent/power-bi-recent.png)
+![](media/service-recent/power-bi-recent-screen.png)
 
 Amanda가 **최근** 콘텐츠 목록을 채우는 방법을 보여주는 비디오를 시청한 다음 비디오 아래의 단계별 지침을 수행하여 직접 사용해보세요.
 

@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 12/12/2017
 ms.author: davidi
-ms.openlocfilehash: a4a348d88bc9613c2d18766ff1ea398538088c9b
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 1eff7cbb6fd54993440d309cb14622295daa3d19
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>최신 Power BI Desktop 업데이트의 새로운 기능
 
-## <a name="november-2017-update-2524921202"></a>2017년 11월 업데이트(2.52.4921.202)
+## <a name="december-2017-update-2534954481-"></a>2017년 12월 업데이트(2.53.4954.481)
 
 이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. 월별 버전은 **Power BI Desktop** 설치 방법에 관계없이 같습니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
-이 달에는 **Power BI Desktop**의 전체 업데이트가 있습니다. 
+12월에 모든 비즈니스 인텔리전스에 관심이 있는 어린이(및 성인)가 즐길 수 있는 많은 기능들이 가득한 다양한 **Power BI Desktop** 업데이트가 진행됩니다. 또한 모두를 위해 석탄을 쓰지 않을 것을 약속드립니다.
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 
@@ -44,40 +44,39 @@ ms.lasthandoff: 11/17/2017
 
 ### <a name="reporting"></a>보고
 
--   테이블 및 행렬 시각적 개체에 대한 규칙 기반 조건부 서식 규칙 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
--   테이블 및 매트릭 시각적 개체에 대한 셀 정렬 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=4m16s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
--   선택 창을 통한 시각적 개체 순서 제어 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=6m21s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane) 
--   보고서에서 개체 잠금 개체 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=9m2s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock) 
--   Power BI용 ArcGIS 맵에 Esri Plus 구독 사용 가능[[비디오]](https://youtu.be/sI3yRjdnJ7w?t=10m31s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
--   느린 데이터 원본에 대한 보고서 옵션 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=16m11s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
--   필터링 성능 개선[[비디오]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
--   사용자 지정 시각적 개체 최신 릴리스 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+-   보고서 만들기에 대한 Q&A [[비디오]](https://youtu.be/ZPU8B-1BxjI?t=8s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) 
+-   책갈피에 대한 교차 강조 표시 [[비디오]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting) 
+-   유연성을 더한 책갈피 [[비디오]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility) 
+-   필드 속성 창 및 필드 설명 [[비디오]](https://youtu.be/ZPU8B-1BxjI?t=13m19s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane) 
+-   x 및 y축 그룹화의 분산형 시각화 [[비디오]](https://youtu.be/ZPU8B-1BxjI?t=15m12s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
+-   위도 및 경도를 기반으로 한 지도의 고밀도 샘플링 [[비디오]](https://youtu.be/ZPU8B-1BxjI?t=17m3s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
+-   반응형 슬라이서 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
+-   사용자 지정 시각적 개체 최신 릴리스 [[비디오]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>분석
 
--   마중 행 카드에 대한 다차원 AS 모델의 셀 수준 서식 지정 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=27m25s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
+-   다른 시각적 개체 드릴 필터 [[비디오]](https://youtu.be/ZPU8B-1BxjI?t=28m53s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 
 
 ### <a name="data-connectivity"></a>데이터 연결
 
--   Impala 커넥터 - Windows 인증 지원 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
-
-
-### <a name="other"></a>기타
-
--   쿼리 편집 - 예제의 열 추가 개선 사항 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
+-   Adobe Analytics 커넥터 [[비디오]](https://youtu.be/ZPU8B-1BxjI?t=30m35s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#AdobeAnalytics) 
+-   HDInsight 대화형 쿼리 커넥터 [[비디오]](https://youtu.be/ZPU8B-1BxjI?t=31m13s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#HDInsightInteractiveQuery) 
+-   Data.World 커넥터 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#Data.World) 
+-   SAP BW 커넥터 개선 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#SAPBW) 
+-   IBM Netezza 커넥터 - 이제 일반적으로 사용 가능 [[비디오]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#IBMNetezza) 
 
 
 
 > [!NOTE]
 > [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
 
-이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
 > [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.

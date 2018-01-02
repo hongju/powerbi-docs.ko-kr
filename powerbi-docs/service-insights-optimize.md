@@ -1,5 +1,5 @@
 ---
-title: "Power BI 신속한 정보 활용을 위해 데이터 최적화"
+title: "Power BI 신속한 정보 활용을 위한 데이터 최적화"
 description: "Power BI 신속한 정보 활용을 위해 데이터를 최적화합니다. Power BI가 데이터를 파악하지 못하는 경우 다음과 같은 작업을 수행할 수 있습니다."
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/02/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 61901d0055c22540ec2f10bedbbb8cf641d606e9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 263d85a9db996bd7979c29b9c8919fc63f97b1d0
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Power BI 신속한 정보 활용을 위해 데이터 최적화
 신속한 정보 활용 결과를 개선하려는 경우  데이터 집합 소유자이면, 다음을 시도해 보세요.

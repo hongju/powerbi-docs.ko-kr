@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/07/2017
 ms.author: asaxton
-ms.openlocfilehash: b16bae6cc8932a488920949815833def5980c1f3
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 147ec28e64cf271843fcffdd14abe005345170e0
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -30,10 +30,7 @@ Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합�
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
-> 이 기능은 현재 Power BI 모바일에는 제공되지 않습니다. 
-> 
-> 
-
+> 이 기능은 현재 Power BI 모바일 앱에는 제공되지 않습니다. 모바일 장치에서는 브라우저에서 Azure AD B2B를 사용하여 공유되는 Power BI 콘텐츠를 볼 수 있습니다. 
 
 ## <a name="invite-guest-users"></a>게스트 사용자 초대 
 
@@ -99,6 +96,12 @@ Power BI Premium 용량에 앱 작업 영역을 할당하면 게스트 사용자
 게스트 사용자에게 이미 테넌트 안에 할당된 Power BI Pro 라이선스가 있습니다.
 
 ![게스트 사용자의 자체 라이선스 사용](media/service-admin-azure-ad-b2b/license-approach3.png)
+
+## <a name="limitations"></a>제한 사항
+
+* 외부 B2B 게스트는 콘텐츠 소비로만 제한됩니다. 외부 B2B 게스트는 앱, 대시보드, 보고서를 보고, 데이터를 내보내며 대시보드 및 보고서에 대한 전자 메일 구독을 만들 수 있습니다. 작업 영역에 액세스하거나 자신의 콘텐츠를 게시할 수는 없습니다.
+* 이 기능은 현재 Power BI 모바일 앱에는 제공되지 않습니다. 모바일 장치에서는 브라우저에서 Azure AD B2B를 사용하여 공유되는 Power BI 콘텐츠를 볼 수 있습니다.
+* Power BI에서 게스트 사용자 사용은 소버린 클라우드(정부) 내에서 지원되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

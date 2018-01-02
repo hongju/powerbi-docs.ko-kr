@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: ef064c636880db5d1b6c6106fe742972a7ed3a3c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0bb540a4c27729999bbb1780a7d5a203d67d3a7c
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI용 인적 자원 샘플: 둘러보기
 HR 부서는 업종이나 규모가 다른 경우에도 여러 회사에서 동일한 보고 모델을 갖습니다. 이 샘플에서는 신입, 근무 중인 직원, 퇴사한 직원을 살펴보고 채용 전략에서의 추세를 파악해 보겠습니다. 주요 목표는 다음을 이해하는 것입니다.
@@ -36,7 +36,7 @@ HR 부서는 업종이나 규모가 다른 경우에도 여러 회사에서 동�
 
 함께 진행해볼까요? [Power BI 서비스](https://powerbi.com)에서 **데이터 가져오기 > 샘플 > 인적 자원 샘플 > 연결**로 이동하여 샘플의 고유 사본을 가져옵니다.
 
-[이 샘플에 대한 데이터 집합(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529780)할 수도 있습니다.
+[이 샘플에 대한 데이터 집합(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529780)할 수도 있습니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 **파워 피벗 > 관리**를 선택합니다.
 
 ## <a name="new-hires"></a>신입
 먼저 신규 채용자를 살펴보겠습니다.
@@ -91,12 +91,12 @@ HR 부서는 업종이나 규모가 다른 경우에도 여러 회사에서 동�
    오른쪽 아래에서 사유별 퇴사 꺾은선형 차트를 살펴봅니다. 이 차트가 필터링되어 자발적 퇴사를 표시합니다.  
    ![](media/sample-human-resources/pbi_hr_sample_sepsover50.png)
    
-   50 + 연령대의 추세를 확인합니다. 올해 하반기에는 자발적으로 퇴시한 50세 이상 직원이 더 많습니다. 이 부분에 대해서는 추가적인 데이터 조사가 필요합니다.
+   50 + 연령대의 추세를 확인합니다. 올해 하반기에는 자발적으로 퇴사한 50세 이상 직원이 더 많습니다. 이 부분에 대해서는 추가적인 데이터 조사가 필요합니다.
 6. **성별 근무 중인 직원 수** 원형 차트에 대해서도 동일한 단계를 따라 근무 중인 직원 대신 퇴사로 변경할 수 있습니다. 다른 상세 정보를 파악하기 위해 성별별 자발적 퇴사 데이터를 살펴봅니다.
 7. 맨 위 탐색 모음에서 **Power BI** 를 클릭하여 대시보드로 돌아갑니다. 보고서에 대한 변경 사항을 저장하거나 저장하지 않을 수 있습니다.
 
 ## <a name="bad-hires"></a>잘못된 채용
-마지막으로 살펴볼 영역은 잘못된 채용입니다. 잘모된 채용은 60일 이상 근무하지 않은 직원으로 정의합니다. 급속히 채용이 이루어지고 있습니다. 적절한 후보를 채용하고 있을까요?
+마지막으로 살펴볼 영역은 잘못된 채용입니다. 잘못된 채용은 60일 이상 근무하지 않은 직원으로 정의합니다. 급속히 채용이 이루어지고 있습니다. 적절한 후보를 채용하고 있을까요?
 
 1. **Bad Hires as % of Actives by Age Group** (연령대별 근무 중인 직원 중 잘못된 채용 %) 대시보드 타일을 선택합니다. 그러면 보고서의 3페이지, “잘못된 채용”이 열립니다.
    

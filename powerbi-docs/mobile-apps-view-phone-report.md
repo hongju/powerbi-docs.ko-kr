@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/06/2017
 ms.author: maggies
-ms.openlocfilehash: 54a1b81cc4281db7a622668ba205c1c57d5e396d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>전화에 대해 최적화된 Power BI 보고서 보기
 Power BI Desktop에서 Power BI 보고서를 만들 때 [Power BI 휴대폰 앱에 대해 최적화된 보고서](desktop-create-phone-report.md) 버전을 만들 수 있습니다.
@@ -30,7 +30,7 @@ Power BI Desktop에서 Power BI 보고서를 만들 때 [Power BI 휴대폰 앱�
 
 ![세로 모드 보고서](media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
 
-전화에 최적화 보고서 없다면 보고서는 열리지만 최적화되지 않은 가로 보기 화면으로 열립니다. 휴대폰에 최적화된 보고서에서도 휴대폰를 옆으로 돌리면 보고서는 최적화 되지 않은 보기에서 원본 보고서 레이아웃으로 열립니다. 일부 페이지만 최적화된 경우, 사용자는 세로 보기 메시지를 보게 될 것이며 이는 보고서가 가로 보기로 사용 가능하다는 것을 의미합니다.
+전화에 최적화 보고서 없다면 보고서는 열리지만 최적화되지 않은 가로 보기 화면으로 열립니다. 휴대폰에 최적화된 보고서에서도 휴대폰을 옆으로 돌리면 보고서는 최적화 되지 않은 보기에서 원본 보고서 레이아웃으로 열립니다. 일부 페이지만 최적화된 경우, 사용자는 세로 보기 메시지를 보게 될 것이며 이는 보고서가 가로 보기로 사용 가능하다는 것을 의미합니다.
 
 ![최적화되지 않은 보고서 페이지](media/mobile-apps-view-phone-report/06-power-bi-phone-report-page-not-optimized.png)
 
@@ -39,15 +39,15 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 * [Iphone 상의 보고서](mobile-reports-in-the-mobile-apps.md). 
 * [안드로이드 폰 상의 보고서](mobile-reports-in-the-mobile-apps.md).
 
-## <a name="filter-the-report-page-on-an-iphone"></a>iPhone에서 보고서 페이지 필터링
-휴대폰에 최적화된 보고서에 정의된 필터가 있는 경우 iPhone에서 보고서를 볼 때 해당 필터를 사용할 수 있습니다. 
+## <a name="filter-the-report-page-on-a-phone"></a>휴대폰에서 보고서 페이지 필터링
+휴대폰에 최적화된 보고서에 정의된 필터가 있는 경우 휴대폰에서 보고서를 볼 때 해당 필터를 사용할 수 있습니다. 
 
 1. 필터 아이콘을 탭합니다. ![휴대폰 필터 아이콘](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) 휴대폰 필터 아이콘을 탭합니다. 
 2. 기본 또는 고급 필터링을 사용하여 원하는 결과를 확인합니다.
    
     ![휴대폰 BI 휴대폰 보고서 고급 필터](media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
-## <a name="cross-highlight-visuals"></a>시각적 개체을 강조 표시합니다.
+## <a name="cross-highlight-visuals"></a>시각적 개체를 강조 표시합니다.
 휴대폰 보고서의 시각적 개체를 강조 표시하면 Power BI 서비스에서나 보고서를 휴대폰으로 가로 보기하는 것과 동일하게 작동합니다. 한 시각적 개체에서 데이터를 선택하면 그 페이지의 다른 시각적 개체에 있는 관련 데이터도 강조 표시됩니다.
 
 [Power BI에서 필터링 및 강조 표시](power-bi-reports-filters-and-highlighting.md)에 대해 자세히 알아보세요.

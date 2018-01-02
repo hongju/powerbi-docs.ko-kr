@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 12/07/2017
 ms.author: maikelson
-ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -41,14 +41,11 @@ ms.lasthandoff: 11/27/2017
 
 - [Power BI Report Server의 새롭고 흥미로운 기능 - 2017년 11월](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
 
-
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
 등록하여 Power BI 전문가 의견을 듣고 라이브 QA 세션에 참가하기
 
 >[Power BI 커뮤니티의 예정된 웹 세미나 참석](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [제조업체: 디지털 변신은 진행 중 - 분석을 활용하여 리더십을 유지하고 수익성 극대화 -12/05/17](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
 - [의료업체의 수익성 향상 - 12/12/17](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
@@ -60,6 +57,8 @@ ms.lasthandoff: 11/27/2017
 
 - [조직을 더 안전하게 하는 성공적인 데이터 거번넌스 전략 구현 방법](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 
+- [좋은 보고서를 더 훌륭하게!](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
+
 - [파트너에게 요청: Power BI에 대한 사용자 지정 시각적 개체 개발](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
 - [Microsoft Power BI 기능](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
@@ -67,6 +66,8 @@ ms.lasthandoff: 11/27/2017
 - [영업 및 서비스를 위한 응용 인텔리전스](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
 - [Power BI 보안 심층 분석](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
+
+- [제조업체: 디지털 변신은 진행 중 - 분석을 활용하여 리더십을 유지하고 수익성 극대화](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
 ## <a name="see-also"></a>참고 항목
 

@@ -1,6 +1,6 @@
 ---
-title: "전체 화면 모드로 대시보드, 대시보드 타일 및 보고서 페이지 표시하기"
-description: "*TV 모드*라고도 하는 전체 화면 모드에서 대시보드, 대시보드 타일 및 보고서 페이지를 표시합니다."
+title: "전체 화면 모드에서 대시보드, 대시보드 타일, 보고서 페이지 및 보고서 시각화를 표시합니다."
+description: "*TV 모드*라고도 하는 전체 화면 모드에서 대시보드, 대시보드 타일, 보고서 시각화 및 보고서 페이지를 표시합니다."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 87fbe780991969f5fe3e9a31af58e54015d13678
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: a8d1a49a341b98778a6ad08c823397f420b2475e
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="full-screen-mode-in-power-bi"></a>Power BI에서 전체 화면 모드
-## <a name="what-is-full-screen-mode"></a>전체 화면 모드 정의
+## <a name="what-is-full-screen-mode"></a>전체 화면 모드란?
 ![대시보드 전체 화면 모드 전과 후](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
 메뉴 및 탐색 바 없이 콘텐츠(대시보드, 보고서 페이지,타일 및 시각적 개체)를 표시합니다.  항상 한 눈에 콘텐츠 전체를 볼 수 있습니다. 이를 TV 모드라고도 합니다. 전체 화면 모드에서 사용할 수 있는 기능은 콘텐츠에 따라 다릅니다.  
@@ -58,7 +58,7 @@ Amanda가 대시보드를 전체 화면 모드로 열어서 탐색한 다음 일
     ![보고서에 대한 메뉴](media/service-fullscreen-mode/power-bi-report-menu.png)    
    
     ![뒤로 아이콘](media/service-fullscreen-mode/power-bi-back-icon.png)    
-    **뒤로** 단추를 사용하여 브라우저에서 이전 페이지로 이동합니다. 이전 페이지가 Power BI 페이지였던 경우 그것 또한 화면 모드로 표시됩니다.  전체 화면 모드는 종료할 때까지 지속됩니다.
+    **뒤로** 단추를 사용하여 브라우저에서 이전 페이지로 이동합니다. 이전 페이지가 Power BI 페이지였다면 그것 또한 전체 화면 모드로 표시됩니다.  전체 화면 모드는 종료할 때까지 지속됩니다.
    
     ![인쇄 아이콘](media/service-fullscreen-mode/power-bi-print-icon.png)    
     전체 화면 모드에서 대시보드 또는 보고서 페이지를 인쇄하려면 이 단추를 사용합니다. 
@@ -89,7 +89,7 @@ Amanda가 대시보드를 전체 화면 모드로 열어서 탐색한 다음 일
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI의 대시보드](service-dashboards.md)  
-[대시보드 및 대시보드 타일에 대한 포커스 모드](service-focus-mode.md)    
+[포커스 모드](service-focus-mode.md)    
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

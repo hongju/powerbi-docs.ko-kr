@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. Power BI는 [대시보드를 공동 작업하고 배포하는 여러 방법](service-how-to-collaborate-distribute-dashboards-reports.md)을 제공하며, 공유는 그 중 하나입니다.
@@ -61,7 +61,7 @@ Amanda가 회사 내부 및 외부의 동료와 대시보드를 공유하는 과
    
    ![공유한 항목 목록 페이지](media/service-share-dashboards/power-bi-shared-with-me-list-page.png)
    
-   조직 외부의 받는 사람이 링크를 클릭하면 대시보드가 표지되지만 일반적인 Power BI 포털에는 표시되지 않습니다. 세부 내용은 아래의 [조직 외부 사용자와 대시보드 공유](service-share-dashboards.md#share-a-dashboard-with-people-outside-your-organization)를 참조하세요.
+   조직 외부의 받는 사람이 링크를 클릭하면 대시보드가 표시되지만 일반적인 Power BI 포털에는 표시되지 않습니다. 세부 내용은 아래의 [조직 외부 사용자와 대시보드 공유](service-share-dashboards.md#share-a-dashboard-with-people-outside-your-organization)를 참조하세요.
 
 ## <a name="who-has-access-to-a-dashboard-you-shared"></a>공유한 대시보드에 누가 액세스할 수 있나요?
 경우에 따라 대시보드를 공유한 사용자를 확인하고 해당 사용자가 공유한 사람을 확인해야 합니다.
@@ -91,6 +91,8 @@ Amanda가 회사 내부 및 외부의 동료와 대시보드를 공유하는 과
    * **읽기**는 해당 개인이 다른 사람과 공유하지 않도록 합니다.
    * **액세스 권한 제거**는 해당 사용자가 대시보드를 전혀 보지 못하도록 합니다.
 
+4. **액세스 권한 제거** 대화 상자에서 보고서 및 데이터 집합과 같은 관련 콘텐츠에 대한 액세스를 제거할지 여부를 결정합니다. 경고 아이콘 ![Power BI 경고 아이콘](media/service-share-dashboards/power-bi-warning-icon.png)을 사용하여 항목을 제거하는 경우 제대로 표시되지 않으므로 관련 콘텐츠를 제거하는 것이 좋습니다.
+
 ## <a name="share-a-dashboard-with-people-outside-your-organization"></a>조직 외부 사용자와 대시보드 공유
 조직 외부 사용자와 공유하는 경우 해당 사용자는 공유 대시보드에 대한 링크가 포함된 메일을 수신하고 Power BI에 로그인하여 대시보드를 확인해야 합니다. Power BI Pro 라이선스가 없는 경우 링크를 클릭한 후 등록할 수 있습니다.
 
@@ -115,6 +117,33 @@ Power BI 모바일 앱에서 조직 외부의 사람들에게 링크를 보낼 �
 * 사용자와 동일한 메일 도메인을 가진 동료 및 도메인은 다르지만 동일한 테넌트 내에 등록된 동료는 다른 사용자요 대시보드를 다시 공유할 수 있습니다. 예를 들어 contoso.com 및 contoso2.com 도메인이 동일한 테넌트에 등록되어 있다고 가정합니다. 이메일 주소가 konrads@contoso.com인 경우, 사용자가 공유 권한을 부여하기만 하면 ravali@contoso.com 및 gustav@contoso2.com 모두 공유할 수 있습니다.
 * 동료가 특정 대시보드에 이미 액세스할 수 있고 사용자가 해당 대시보드에 있는 경우 URL을 복사하여 대시보드에 대한 직접 링크를 보낼 수 있습니다. 예를 들어: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * 마찬가지로 동료가 특정 대시보드에 대한 액세스 권한을 가진 경우 [기본 보고서에 대한 직접 링크를 전송](service-share-reports.md)할 수 있습니다. 
+
+## <a name="troubleshoot-sharing"></a>공유 문제 해결
+
+### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>내 대시보드 받는 사람은 타일 또는 “사용 권한 필요” 메시지에 잠금 아이콘이 표시됩니다.
+
+사용자가 함께 공유하는 사람이 보고서를 보려고 할 때 대시보드의 잠긴 타일 또는 “사용 권한 필요” 메시지가 표시되는 경우 기본 데이터 집합에 대한 사용 권한을 부여해야 합니다. 방법은 다음과 같습니다.
+
+1. 콘텐츠 목록에 있는 **데이터 집합** 탭으로 이동합니다.
+
+1. 데이터 집합 옆에 있는 줄임표(**...**) > **사용 권한 관리**를 선택합니다.
+
+    ![권한 관리](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
+
+3. **사용자 추가**를 선택합니다.
+
+    ![사용자 추가 선택](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
+
+1. 개인에 대한 전체 메일 주소, 메일 그룹 또는 보안 그룹을 입력합니다. 동적 메일 그룹과 공유할 수 없습니다.
+
+    ![전자 메일 주소 추가](media/service-share-dashboards/power-bi-add-user-dataset.png)
+
+5. **추가**를 선택합니다.
+
+### <a name="i-cant-share-a-dashboard"></a>대시보드를 공유할 수 없습니다.
+
+대시보드를 공유하려면 기본 콘텐츠(모든 관련 보고서 및 데이터 집합)를 다시 공유할 수 있는 권한이 있어야 합니다. 공유할 수 없다는 메시지가 표시되면 보고서 작성자에게 해당 보고서 및 데이터 집합에 대한 다시 공유 권한을 요청합니다.
+
 
 ## <a name="next-steps"></a>다음 단계
 * 의견이 있으신가요? 제안 사항이 있으시면 [Power BI 커뮤니티 사이트](https://community.powerbi.com/)를 방문하세요.

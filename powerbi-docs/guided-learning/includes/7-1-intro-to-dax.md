@@ -5,7 +5,7 @@
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX 및 단계별 학습 비디오 시리즈
 이 **단계별 학습** 섹션의 목표는 유명한 DAX 전문가인 [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)가 설명한(그리고 경험으로 학습한) DAX에 대해 인지하는 방법, 작동 방법 및 가장 유용한 기능과 같은 DAX 기본 사항 및 기본 항목을 알려주는 것입니다.
 
-![](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
+![Alberto Ferrari의 초상화](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
 **DAX**에 대한 이 **단계별 학습** 섹션의 비디오는 DAX 수식 언어의 작동 원리의 관점에서 DAX 기본 사항을 설명합니다. DAX 수식을 처음부터 만들 경우에 유용하지만 **쿼리 편집기**에서 쿼리를 만드는 것처럼 Power BI에서 DAX 수식을 생성하는 방법을 이해하는 데에도 매우 유용합니다.
 
