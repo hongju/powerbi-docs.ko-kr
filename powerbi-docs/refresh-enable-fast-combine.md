@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a622c3f0402e0f8216f64a93cf687eaa63fd8067
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Power BI 게이트웨이의 개인 정보 보호 설정 해제 - 개인
 > [!NOTE]
@@ -59,7 +59,8 @@ ms.lasthandoff: 12/06/2017
     컴퓨터의 관리자가 아닌 경우 위치는 다음일 것입니다.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
-2.구성 파일에 true 값을 가진 **&lt;EnableFastCombine&gt;** 요소를 추가합니다. 이 요소를 추가하면 **빠른 결합**을 사용합니다.
+    
+2. 구성 파일에 true 값을 가진 **&lt;EnableFastCombine&gt;** 요소를 추가합니다. 이 요소를 추가하면 **빠른 결합**을 사용합니다.
    
    <pre><code>&lt;EnableFastCombine&gt;true&lt;/EnableFastCombine&gt;</code></pre>
    
@@ -77,7 +78,8 @@ ms.lasthandoff: 12/06/2017
     컴퓨터의 관리자가 아닌 경우 위치는 다음일 것입니다.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
-2.구성 파일에서 **&lt;EnableFastCombine&gt;** 요소를 제거합니다. 이 요소를 제거하면 **빠른 결합**을 해제합니다.
+
+2. 구성 파일에서 **&lt;EnableFastCombine&gt;** 요소를 제거합니다. 이 요소를 제거하면 **빠른 결합**을 해제합니다.
 3. 게이트웨이 구성 화면을 종료하고 다시 시작합니다.
 4. **빠른 결합**을 더이상 사용할 수 없다고 알려주는 상태가 표시됩니다.
 

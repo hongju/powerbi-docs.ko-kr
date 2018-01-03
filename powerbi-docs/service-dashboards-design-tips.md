@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 757415a2b0ddd8fa7f1d9799e31e4266bfc8076f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 83b813ccdc9ed0ef232f5eede715ad3a795253d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>멋진 Power BI 대시보드를 디자인하기 위한 팁
 이제 대시보드를 만들고 일부 타일을 추가했으므로 모양과 기능을 개선하는 방법을 살펴보겠습니다. 일반적으로 여기에는 가장 중요한 정보를 돋보이게 하고 깔끔하며 군더더기 없이 만드는 것이 포함됩니다.
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/13/2017
 
 하지만 컨텍스트를 제공해야 합니다.  
 
-[번호로만 타일 만들기](power-bi-visualization-big-number.md)에 대해 알아보세요.
+[번호로만 타일 만들기](power-bi-visualization-card.md)에 대해 알아보세요.
 
 ### <a name="put-the-most-important-information-in-the-upper-corner"></a>가장 중요한 정보를 상단 모서리에 놓기
 대부분의 사람들이 위쪽에서 아래쪽으로 읽는 경향이 있으므로 가장 높은 수준의 세부 정보를 맨 위에 배치하고 대상 그룹이 읽어가는 방향(왼쪽-오른쪽, 오른쪽-왼쪽)으로 보다 자세한 정보를 표시합니다.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: a5a82694cb48a23e572c49a350439335276cabf9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8425b631bb64911081861dc4a21de04b698f0f67
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report"></a>기존 보고서에서 새 보고서 만들기
 이미 데이터 집합에 연결하는 보고서가 있고 다시 사용하거나 수정하려고 하는 몇 가지 시각적 개체가 있을 수 있습니다.  새 보고서에 대한 기준으로 해당 보고서를 단순히 복사할 수 없습니까?  수행할 작업:
@@ -46,4 +46,3 @@ ms.lasthandoff: 11/13/2017
 [새 시각화 만들기](power-bi-report-add-visualizations-ii.md)
 
 필요하지 않은 [시각화 삭제](service-delete.md)
-
