@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 20760bec773c6f1d2a3cbbfaefd0651b97cbe601
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>대시보드에 이미지, 텍스트, 비디오 등 추가
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/13/2017
 대시보드에 회사 로고나 기타 다른 이미지를 추가하려는 경우를 가정해 보겠습니다. 온라인으로 이미지 파일을 저장하고 연결해야 합니다. 특별한 자격 증명 시 이미지 파일에 액세스할 필요가 있는지 확인합니다. 예를 들어, OneDrive 및 SharePoint는 인증을 사용해야 하므로 여기에 저장된 이미지를 대시보드에 이러한 방식으로 추가할 수 없습니다.  
 
 1. **이미지** > **다음**을 선택합니다.
-2. **타일 세부 정보** 창에 이미지 정보를 추가합니다.
+2. **이미지 타일 추가** 창에 이미지 정보를 추가합니다.
    
     ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -56,16 +56,16 @@ ms.lasthandoff: 11/13/2017
 ## <a name="add-a-text-box-or-dashboard-heading"></a>텍스트 상자 또는 대시보드 제목 추가
 1. **텍스트 상자 > 다음**을 선택합니다.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-text-box-new.png)
-   
    > **참고**: 대시보드 제목을 추가하려면, 텍스트 상자에 제목을 입력하고 글꼴을 늘립니다.
-   > 
    > 
 2. 텍스트 상자의 서식을 지정합니다.
    
    * 텍스트 상자 위에 제목을 표시하려면 **제목 및 부제목 표시** 를 선택하고 제목 또는 부제목을 입력합니다.
    * 텍스트 상자에 콘텐츠를 입력하고 형식을 지정합니다.  
-   * 필요에 따라 제목에 대한 사용자 지정 링크를 설정합니다.  하지만 이 예제에서는 텍스트 상자 내에 하이퍼링크를 추가했으므로 **사용자 지정 링크 설정** 을 선택하지 않은 상태로 둡니다.
+   * 필요에 따라 제목에 대한 사용자 지정 링크를 설정합니다. 외부 사이트나 대시보드 또는 작업 영역의 보고서를 사용자 지정 링크로 사용할 수 있습니다. 하지만 이 예제에서는 텍스트 상자 내에 하이퍼링크를 추가했으므로 **사용자 지정 링크 설정** 을 선택하지 않은 상태로 둡니다.
+
+     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+   
 3. **적용**을 선택합니다.  대시보드에서 필요에 따라 텍스트 상자 크기를 조정하고 이동합니다.
    
    ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
@@ -74,7 +74,7 @@ ms.lasthandoff: 11/13/2017
 대시보드에 YouTube 또는 Vimeo 동영상 타일을 추가하면 동영상이 대시보드에서 바로 재생됩니다.
 
 1. **동영상 > 다음**을 선택합니다.
-2. **타일 세부 정보** 창에 동영상 정보를 추가합니다.
+2. **비디오 타일 추가** 창에 동영상 정보를 추가합니다.
    
     ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -100,7 +100,7 @@ ms.lasthandoff: 11/13/2017
    
    * 타일 위에 제목을 표시하려면 *타일 및 부제목 표시* 를 선택하고 제목 및/또는 부제목을 입력합니다.
    * embed 태그를 입력합니다. 이 예제에서는 Twitter 피드를 복사하고 붙여넣습니다.
-   * **적용**을 선택합니다.  대시보드에서 필요에 따라 웹 콘텐츠 타일 크기를 조정하고 이동합니다.
+3. **적용**을 선택합니다.  대시보드에서 필요에 따라 웹 콘텐츠 타일 크기를 조정하고 이동합니다.
      
       ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 

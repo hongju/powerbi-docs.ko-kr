@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6c096cfb76a1d8697cef3d157efcda41e57a1510
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b18157f28dcaf2e9b130bdc3bd5547312e45a4f9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Cortana가 Power BI 보고서(및 해당 기본 데이터 집합)에 액세스하도록 설정
 지금까지 [Cortana 및 Power BI 소개](service-cortana-intro.md)에 대해 읽으셨습니다(그러지 않은 경우 먼저 읽은 후 다시 돌아오세요). 이제 직접 사용해 볼 수 있습니다.  Cortana에서 자연어로 질문하고 Power BI ***보고서***에 저장된 데이터에서 답변을 찾으려면 몇 가지 요구 사항을 충족해야 합니다. 특히 다음을 수행해야 합니다.
@@ -47,11 +47,10 @@ Power BI 서비스(Power BI Desktop 아님)에 로그인하고 Power BI 서비�
 2. 이 보고서와 연결된 데이터 집합은 **Contoso Sales**입니다.
    
     ![Contoso Sales 데이터 집합](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. Power BI 서비스의 오른쪽 위에서 톱니바퀴 아이콘을 선택한 다음 **설정**을 선택합니다.
+3. 데이터 집합 이름 오른쪽에 있는 **생략 부호(...) > 설정**을 선택합니다.  
    
-    ![설정 선택](media/service-cortana-enable/power-bi-cortana-settings.png)
-4. **데이터 집합** 탭을 선택하고 왼쪽에 있는 목록에서 Cortana에 사용하도록 설정할 데이터 집합을 선택합니다.
-5. **Q&A 및 Cortana** > **Cortana가 이 데이터 집합에 액세스할 수 있도록 허용** > **적용**을 선택합니다.
+    ![설정 선택](media/service-cortana-enable/power-bi-settings-cortana.png)
+4. **Q&A 및 Cortana** > **Cortana가 이 데이터 집합에 액세스할 수 있도록 허용** > **적용**을 선택합니다.
    
    ![Cortana 액세스 데이터 집합](media/service-cortana-enable/power-bi-cortana-enable-new.png)
    
@@ -67,16 +66,19 @@ Power BI 서비스(Power BI Desktop 아님)에 로그인하고 Power BI 서비�
 ## <a name="add-your-power-bi-credentials-to-windows"></a>Windows에 Power BI 자격 증명 추가
 Windows 10 버전 1511 이상을 실행 중이어야 합니다.
 
-1. 실행 중인 Windows 10 버전을 확인합니다. **설정** > **시스템** > **정보**를 엽니다.
-   
+1. 실행 중인 Windows 10 버전을 확인합니다. **설정**을 엽니다.
+    ![Windows 설정을 엽니다](media/service-cortana-enable/power-bi-cortana-windows.png)
+
+    그런 다음 **시스템 > 정보**를 선택합니다. 화면 아래쪽에 **Windows 사양 > 버전**이 표시됩니다.
+
    * Windows 10 버전이 1511(Windows 10 2015년 11월 업데이트)에서 1607까지에 해당하는 경우 회사 또는 학교 계정과 Microsoft 계정을 추가합니다(아래의 2단계 및 3단계 수행).
    * Windows 10 버전이 1607(Windows 10 2016년 7월 업데이트) 이상에 해당하는 경우 회사 또는 학교 계정을 추가합니다(아래의 2단계만 수행).
-2. Cortana에 대한 회사 또는 학교 계정을 추가합니다.
+1. Cortana에 대한 회사 또는 학교 계정을 추가합니다.
    
    * **설정** > **계정**을 엽니다.
      
        ![설정 - 계정](media/service-cortana-enable/power-bi-windows-accounts.png)
-   * 아래쪽으로 스크롤하여 **회사 또는 학교 계정 추가**를 선택합니다.
+   * 아래쪽으로 스크롤하여 **회사 또는 학교 계정 추가**를 선택합니다. 또는 **계정** 페이지에서 **회사 또는 학교 액세스 >연결**을 선택합니다.
      
      ![회사 계정 추가](media/service-cortana-enable/power-bi-add-work-account2.png)
 

@@ -1,6 +1,6 @@
 ---
-title: "Power BI에서 지원되는 신속한 정보 활용 유형"
-description: "Power BI를 사용한 신속한 정보 활용"
+title: "Power BI에서 지원되는 정보의 유형"
+description: "Power BI를 사용한 신속한 정보 활용 및 정보 보기."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>Power BI에서 지원되는 신속한 정보 활용 유형
-## <a name="how-does-quick-insights-work"></a>신속한 정보 활용은 어떻게 작동하나요?
+# <a name="types-of-insights-supported-by-power-bi"></a>Power BI에서 지원되는 정보의 유형
+## <a name="how-does-insights-work"></a>정보는 어떻게 작동하나요?
 Power BI는 흥미로운 정보를 검색하기 위해 복잡한 알고리즘을 적용하는 동시에 데이터 집합의 여러 하위 집합을 신속하게 검색합니다. Power BI는 할당된 시간 내에 가능한 한 많은 데이터 집합을 검색합니다.
 
-데이터 집합 또는 타일에 대해 신속한 정보 활용을 실행할 수 있습니다(관련 정보).   
+데이터 집합 또는 대시보드 타일에 대한 검색을 실행할 수 있습니다.   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>어떤 유형의 신속한 정보 활용을 찾을 수 있나요?
+## <a name="what-types-of-insights-can-we-find"></a>어떤 유형의 정보를 찾을 수 있나요?
 다음은 사용되는 알고리즘 중 일부입니다.
 
 ## <a name="category-outliers-topbottom"></a>범주 이상값(상한/하한)
@@ -78,9 +78,9 @@ Power BI는 흥미로운 정보를 검색하기 위해 복잡한 알고리즘을
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 신속한 정보 활용](service-insights.md)
+[Power BI 정보](service-insights.md)
 
-데이터 집합의 소유자인 경우 [신속한 정보 활용을 위해 최적화](service-insights-optimize.md)
+데이터 집합의 소유자인 경우 [정보를 위해 최적화](service-insights-optimize.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

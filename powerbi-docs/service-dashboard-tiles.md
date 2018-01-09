@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: d1960ea42bee8b00cc6dd095e94ebf6f6303bce8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
 대시보드 및 대시보드 타일은 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. Power BI 모바일에서는 대시보드 타일을 만들거나 고정할 수 없지만 [보고 공유](mobile-tiles-in-the-mobile-apps.md)할 수는 있습니다. 또한 Power BI 모바일에서는 [iPhone 앱으로 대시보드에 그림을 추가](mobile-iphone-app-get-started.md)할 수 있습니다.
@@ -100,9 +100,7 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
 * 원래 시각화를 사용하여 타일을 변경한 경우 타일이 변경되지 않습니다.  예를 들어 보고서에서 꺾은선형 차트를 고정한 다음 꺾은선형 차트를 막대형 차트로 변경하면 대시보드 타일에 꺾은선형 차트가 계속 표시됩니다. 데이터는 새로 고쳐지지만 시각화 유형은 새로 고쳐지지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[보고서에서 큰 숫자 타일 만들기](power-bi-visualization-big-number-report.md)
-
-[질문 및 답변에서 큰 숫자 타일 만들기](power-bi-visualization-big-number.md)
+[대시보드에 대한 카드(큰 숫자 타일) 만들기](power-bi-visualization-card.md)
 
 [Power BI의 대시보드](service-dashboards.md)  
 

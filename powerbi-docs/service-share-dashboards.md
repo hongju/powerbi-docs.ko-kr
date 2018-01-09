@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. Power BI는 [대시보드를 공동 작업하고 배포하는 여러 방법](service-how-to-collaborate-distribute-dashboards-reports.md)을 제공하며, 공유는 그 중 하나입니다.
@@ -61,7 +61,7 @@ Amanda가 회사 내부 및 외부의 동료와 대시보드를 공유하는 과
    
    ![공유한 항목 목록 페이지](media/service-share-dashboards/power-bi-shared-with-me-list-page.png)
    
-   조직 외부의 받는 사람이 링크를 클릭하면 대시보드가 표시되지만 일반적인 Power BI 포털에는 표시되지 않습니다. 세부 내용은 아래의 [조직 외부 사용자와 대시보드 공유](service-share-dashboards.md#share-a-dashboard-with-people-outside-your-organization)를 참조하세요.
+   조직 외부의 받는 사람이 링크를 클릭하면 대시보드가 표지되지만 일반적인 Power BI 포털에는 표시되지 않습니다. 세부 내용은 아래의 [조직 외부 사용자와 대시보드 공유](service-share-dashboards.md#share-a-dashboard-with-people-outside-your-organization)를 참조하세요.
 
 ## <a name="who-has-access-to-a-dashboard-you-shared"></a>공유한 대시보드에 누가 액세스할 수 있나요?
 경우에 따라 대시보드를 공유한 사용자를 확인하고 해당 사용자가 공유한 사람을 확인해야 합니다.
@@ -122,7 +122,11 @@ Power BI 모바일 앱에서 조직 외부의 사람들에게 링크를 보낼 �
 
 ### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>내 대시보드 받는 사람은 타일 또는 “사용 권한 필요” 메시지에 잠금 아이콘이 표시됩니다.
 
-사용자가 함께 공유하는 사람이 보고서를 보려고 할 때 대시보드의 잠긴 타일 또는 “사용 권한 필요” 메시지가 표시되는 경우 기본 데이터 집합에 대한 사용 권한을 부여해야 합니다. 방법은 다음과 같습니다.
+사용자가 함께 공유하는 사람이 보고서를 보려고 할 때 대시보드의 잠긴 타일 또는 “사용 권한 필요” 메시지가 표시될 수 있습니다.
+
+![Power BI 잠긴 타일](media/service-share-dashboards/power-bi-locked_tile_small.png)
+
+이 경우 기본 데이터 집합에 대한 권한을 부여해야 합니다. 방법은 다음과 같습니다.
 
 1. 콘텐츠 목록에 있는 **데이터 집합** 탭으로 이동합니다.
 

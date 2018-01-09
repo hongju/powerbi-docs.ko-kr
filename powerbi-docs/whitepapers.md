@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/14/2017
 ms.author: asaxton
-ms.openlocfilehash: e6821e20dbbb9b69ec4afa9ef48e1fb78bb8b3f5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI용 백서
 
@@ -41,5 +41,5 @@ ms.lasthandoff: 11/15/2017
 | [보안](service-admin-power-bi-security.md) |Power BI 내 보안에 대한 자세한 설명을 제공합니다. |
 | [테이블 형식 BI 의미 체계 모델 보안](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |이 문서에서는 테이블 형식 BI 의미 체계 및 Power BI의 보안 모델을 소개합니다. 네트워크 보안 컨텍스트에서 작동하는 모델에 연결하기 위해 역할을 만들고, 동적 보안을 구현하고, 가장 설정을 구성하고, 역할을 관리하고, 메서드를 선택하는 방법을 알아봅니다. |
 | [Power BI 보고서 서버에 대한 용량 계획 지침](report-server/capacity-planning.md) |이 문서는 보고서 서버에 대한 다양한 워크로드의 다양한 부하 테스트 실행 결과를 공유하여 Power BI 보고서 서버의 용량 계획에 대한 지침을 제공하려고 합니다. |
-
+|[Power BI Premium 계획 및 배포](https://aka.ms/Premium-Capacity-Planning-Deployment) | Power BI Premium 계획, 배포, 운용 모범 사례 및 지침에 대한 기술 백서입니다. 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

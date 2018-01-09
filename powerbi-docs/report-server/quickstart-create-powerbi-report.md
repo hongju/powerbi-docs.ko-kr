@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: fa844004911f41a179542dcfff702f371cc951f8
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: c8b07e8c2370f7a1694b18a87b2704a7f164f79f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>빠른 시작: Power BI Report Server용 Power BI 보고서 만들기
 Power BI 서비스 (https://powerbi.com) 에서 클라우드에 Power BI 보고서를 저장할 수 있는 것과 마찬가지로 Power BI Report Server 웹 포털에서 Power BI 보고서 온-프레미스를 저장하고 관리할 수 있습니다. Power BI Desktop에서 보고서를 만들고 편집하고 웹 포털에 게시합니다. 그런 다음 조직의 보고서 판독기는 모바일 장치의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
@@ -100,7 +100,7 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
     ![웹 포털에서 보고서 보기](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
-Power BI Report Server 및 Power BI 서비스 (http://powerbi.com) 의 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
+Power BI Report Server 및 Power BI 서비스(http://powerbi.com)의 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
 
 ### <a name="in-a-browser"></a>브라우저에서
 Power BI Report Server 보고서는 다음을 비롯한 모든 시각화를 지원합니다.
@@ -112,6 +112,7 @@ Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
 * R 시각적 개체
 * ArcGIS 맵
 * 현재 위치
+* Power BI Desktop 미리 보기 기능
 
 ### <a name="in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서
 Power BI Report Server 보고서는 [Power BI 모바일 앱](../mobile-apps-for-mobile-devices.md)에서 다음을 비롯한 모든 기본 기능을 지원합니다.

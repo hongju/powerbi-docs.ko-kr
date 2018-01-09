@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 99fceab5904deaa510edd213c349dcfb2e38ac28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 온-프레미스 보고서 서버 보고서 및 KPI 보기
 적용 대상:
@@ -63,7 +63,14 @@ Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Serv
 3. **서버에 연결**을 탭합니다.
    
     ![서버에 연결](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
-4. 서버 주소, 사용자 이름, 암호를 입력합니다. 서버 주소에 대해 다음 형식을 사용합니다.
+
+     모바일 앱은 어떤 식으로든 서버에 액세스해야 합니다. 그 방법은 몇 가지가 있습니다.
+
+    - 동일한 네트워크에 연결/VPN 사용이 가장 쉬운 방법입니다.
+    - 조직 외부에서 웹 응용 프로그램 프록시를 사용하여 연결할 수도 있습니다. 자세한 내용은 [OAuth를 사용하여 Reporting Services에 연결](mobile-oauth-ssrs.md)을 참조하세요. 
+    - 방화벽에서 연결 (포트)를 엽니다.
+
+1. 서버 주소, 사용자 이름, 암호를 입력합니다. 서버 주소에 대해 다음 형식을 사용합니다.
    
      `http://<servername>/reports`
    
@@ -71,10 +78,7 @@ Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Serv
    
      `https://<servername>/reports`
    
-   > [!NOTE]
-   > 연결 문자열 앞에 **http** 또는 **https**를 포함합니다.
-   > 
-   > 
+   연결 문자열 앞에 **http** 또는 **https**를 포함합니다.
    
     ![서버에 연결 대화 상자](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (선택 사항) 원하는 경우 **고급 옵션**에서 서버 이름을 지정할 수 있습니다.
@@ -100,7 +104,7 @@ Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting 
 
 * **즐겨찾기**를 누릅니다.
   
-   ![왼쪽 탐색 창의 즐겨찾기](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server.png)
+   ![왼쪽 탐색 창의 즐겨찾기](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    웹 포털의 즐겨 찾는 KPI 및 보고서는 Power BI 서비스의 Power BI 대시보드와 함께 이 페이지에 모두 표시됩니다.
   

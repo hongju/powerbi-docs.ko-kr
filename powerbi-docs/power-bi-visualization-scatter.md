@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: c1801db4135d6d97a940e593de37ca2886194b53
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI의 분산형 차트 및 거품형 차트(자습서)
 분산형 차트에는 항상 가로 축을 따라 하나의 숫자 데이터 집합을 표시하고 세로 축을 따라 다른 숫자 값 집합을 표시하는 두 개의 값 축이 있습니다. 차트에서 x 및 y 숫자 값의 교차점에 점이 표시되고 이러한 값이 단일 데이터 요소로 결합됩니다. 데이터에 따라 가로 축에 균등 또는 불균등하게 이러한 데이터 요소를 배포할 수 있습니다.
@@ -47,25 +47,30 @@ ms.lasthandoff: 11/13/2017
 * 사분면에 사용하려는 경우.
 
 ## <a name="create-a-scatter-chart"></a>분산형 차트 만들기
+이 비디오를 통해 Will이 분산형 차트를 만드는 방법을 본 후 아래 단계에 따라 직접 분산형 차트를 만드세요.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. [편집용 보기](service-interact-with-a-report-in-editing-view.md)에서 소매점 분석 샘플을 열고 [새 보고서 페이지를 추가](power-bi-report-add-page.md)합니다.
-2. 필드 창에서 **판매액** > **평방 미터당 매출** 및 **판매액** > **총 매출 분산 %**를 선택합니다.
-3. 필드 창에서 **구역 > 구역**을 선택합니다.
+
+이 지침은 소매 분석 샘플을 사용합니다. 이를 수행하려면 Power BI 서비스(app.powerbi.com) 또는 Power BI Desktop에 대한 [샘플을 다운로드](sample-datasets.md)합니다.   
+
+1. [빈 보고서 페이지](power-bi-report-add-page.md)에서 시작하고 **Sales** \> **Sales Per Sq Ft** 및 **Sales** > **Total Sales Variance %** 필드를 선택합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
+ 
+2. 필드 창에서 **구역 > 구역**을 선택합니다.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_pre_convert.png)
+    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 4. 분산형 차트로 변환합니다. 시각화 창에서 분산형 차트 아이콘을 선택합니다.
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
 5. **세부 정보** 에서 **범례** 로 **구역**를 끌어다 놓습니다.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_new.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
 이제 Y축에 총 매출 분산 %를 그리고 X축에 평방 미터당 매출을 그리는 분산형 차트가 있습니다.  데이터 요소 색은 구역을 나타냅니다.  이제 3차원을 추가해보겠습니다.
 
 ## <a name="create-a-bubble-chart"></a>거품형 차트 만들기
 1. 필드 창에서 **판매량** > **올해 판매액** > **값**을 **크기** 영역으로 끌어다 놓습니다. 
    
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_size.png)
+   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 2. 거품을 마우스로 가리킵니다.  거품 크기는 **This Year Sales**의 값을 반영합니다.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)

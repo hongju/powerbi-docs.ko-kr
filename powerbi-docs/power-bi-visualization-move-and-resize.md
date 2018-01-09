@@ -1,6 +1,6 @@
 ---
 title: "시각화 이동, 크기 조정 및 팝아웃"
-description: "Power BI 보고서에서 시각화 이동 및 크기 조정"
+description: "Power BI 서비스 및 Power BI Desktop에서 보고서의 시각화 이동 및 크기 조정"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6d2f6c013399c7777b1e866c75b3023e4e20a2b7
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c5226c791a97c87c4c4759052149d8744f94d0ac
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="move-and-resize-a-visualization-in-a-report"></a>보고서에서 시각화 이동 및 크기 조정
+# <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 및 Power BI Desktop에서 보고서의 시각화 이동 및 크기 조정
+보고서 작성자 및 소유자만 시각화 이동 및 크기 조정이 가능합니다. Power BI 서비스(app.powerbi.com)에서 이는 [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 연다는 의미입니다.
+
 ## <a name="open-the-report"></a>보고서 열기
-Power BI에서 [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 열고 보고서에 시각화가 없는 경우 [시각화를 만듭니다](power-bi-report-add-visualizations-i.md).
+Power BI에서 하나 이상의 시각화가 있는 보고서를 열거나 [새 시각화 만들기](power-bi-report-add-visualizations-i.md)를 수행합니다. 
 
 ## <a name="move-the-visualization"></a>시각화 이동
-* 시각화의 영역을 선택(마우스 왼쪽 단추로 클릭)하고 새 위치로 끕니다. 
+* 시각화의 영역을 선택(마우스 왼쪽 단추로 클릭)하고 새 위치로 끕니다.
 
 ## <a name="resize-the-visualization"></a>시각화 크기 조정
 * 시각화를 선택하여 테두리를 표시하고 어두운 프레임 핸들을 클릭하고 끌어 크기를 조정합니다.  
@@ -39,13 +41,10 @@ Power BI에서 [편집용 보기](service-reading-view-and-editing-view.md)에�
   ![](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
 ## <a name="next-steps"></a>다음 단계
-[대시보드에서 시각화 크기 고정](service-dashboard-edit-tile.md)
+[대시보드에서 시각화 크기 고정](service-dashboard-edit-tile.md)  
 
-[전체 화면 모드(포커스 내)에서 대시보드 타일 표시](service-focus-mode.md)
-
-[Power BI 보고서의 시각화](power-bi-report-visualizations.md)
+[Power BI 보고서의 시각화](power-bi-report-visualizations.md)  
 
 [Power BI - 기본 개념](service-basic-concepts.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-

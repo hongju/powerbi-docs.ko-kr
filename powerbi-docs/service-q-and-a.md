@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 3f78d19a5a28f096279a4fe25881ae26ffbae3cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 44a825e548ae55fa0ce13ba6eed57b860be6fe8f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="qa-in-power-bi"></a>Power BI의 질문 및 답변
 경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. 예를 들어 “지난 해 총 매출은 얼마인가요?”와 같이 질문합니다.  질문 및 답변을 사용하면 직관적인 자연어 기능을 사용하여 데이터를 탐색하고 차트 및 그래프 형식으로 답변을 받을 수 있습니다. 질문 및 답변은 검색 엔진과 다릅니다. 질문 및 답변은 Power BI에서 데이터에 대한 결과만 제공합니다.
 
 > [!NOTE]
-> Q&A는 [iPads, iPhones, iPod Touch 장치에서 iOS용 Microsoft Power BI 앱](mobile-apps-ios-qna.md)에서도 사용할 수 있습니다.
+> 질문 및 답변은 [iPad, iPhone, iPod Touch 장치의 iOS용 Microsoft Power BI 앱](mobile-apps-ios-qna.md) 및 [Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA)에서도 사용할 수 있습니다.
 > 
 > 
 
@@ -51,11 +51,6 @@ ms.lasthandoff: 11/15/2017
 [자습서: 소매 판매 샘플에 Power BI Q&A 사용](power-bi-visualization-introduction-to-q-and-a.md): 실제 업계 자습서에 Q&A를 사용합니다.
 
 [Q&A에서 데이터가 잘 작동하도록 설정](service-prepare-data-for-q-and-a.md): 데이터 집합 및 데이터 모델을 작성하시나요?  이 항목을 통해 해답을 얻으실 수 있습니다.
-
-## <a name="next-steps"></a>다음 단계
-[Power BI - 기본 개념](service-basic-concepts.md)
-
-[Power BI 시작](service-get-started.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

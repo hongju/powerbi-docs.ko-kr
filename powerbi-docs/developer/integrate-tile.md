@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 8527ffb7d9e16bcf55216bc6e0bcd60feec12e16
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>앱에 타일 통합(사용자 소유 데이터)
 조직에 대한 콘텐츠를 포함할 때 Power BI JavaScript API와 함께 REST API 호출을 사용하여 타일을 웹앱에 통합하거나 포함하는 방법에 대해 알아봅니다.
@@ -236,9 +236,11 @@ https://app.powerbi.com/embed?dashboardId={dashboard_id}&tileId={tile_id}&groupI
 ```
 
 ## <a name="next-steps"></a>다음 단계
-검토하기 위한 샘플 응용 프로그램은 GitHub에서 사용할 수 있습니다. 자세한 내용은 [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app)을 참조하세요.
+PowerBI-JavaScript Wiki의 [타일 포함](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Tile-Embed)
 
-JavaScript API에 사용할 수 있는 자세한 정보는 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 참조하세요.
+[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript).
+
+GitHub의 [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) 샘플.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

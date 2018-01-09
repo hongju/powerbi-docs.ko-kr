@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/07/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 398658f34a185514906fd5d649ae4117daf94071
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e2f1ca5abf05c92e76497d7b50600e6ef12e03fc
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 요소 삭제
 이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 통합 문서, 데이터 집합, 앱, 시각화 및 작업 영역을 삭제하는 방법을 안내합니다.
@@ -35,8 +35,8 @@ ms.lasthandoff: 11/13/2017
 
 ### <a name="to-delete-a-dashboard"></a>대시보드를 삭제하려면
 1. 작업 영역에서 **대시보드** 탭을 선택합니다.
-2. 삭제할 대시보드를 찾은 후 삭제 아이콘 ![](media/service-delete/power-bi-delete-icon.png)을 선택합니다. 
-   
+2. 삭제할 대시보드를 찾은 후 삭제 아이콘 ![](media/service-delete/power-bi-delete-icon.png)을 선택합니다.
+
     ![](media/service-delete/power-bi-delete-dash.gif)
 
 ## <a name="delete-a-report"></a>보고서 삭제
@@ -45,16 +45,16 @@ ms.lasthandoff: 11/13/2017
 ### <a name="to-delete-a-report"></a>보고서를 삭제하려면
 1. 내 작업 영역에서 **보고서** 탭을 선택합니다.
 2. 삭제할 보고서를 찾은 후 삭제 아이콘 ![](media/service-delete/power-bi-delete-icon.png)을 선택합니다.   
-   
+
     ![](media/service-delete/power-bi-delete-reportnew.png)
 3. 삭제를 확인합니다.
-   
+
    ![](media/service-delete/power-bi-delete-report.png)
-   
+
    > [!NOTE]
    > 보고서가 [콘텐츠 팩](service-organizational-content-pack-introduction.md)의 일부인 경우 이 방법으로 삭제할 수 없습니다.  [조직 콘텐츠 팩에 대한 연결 제거](service-organizational-content-pack-disconnect.md)를 참조하세요.
-   > 
-   > 
+   >
+   >
 
 ## <a name="delete-a-workbook"></a>통합 문서 삭제
 통합 문서를 제거할 수 있습니다. 그러나 통합 문서를 제거하면 이 통합 문서의 데이터가 포함된 모든 보고서와 대시보드 타일이 제거됩니다.
@@ -64,46 +64,46 @@ ms.lasthandoff: 11/13/2017
 ### <a name="to-delete-a-workbook"></a>통합 문서를 삭제하려면
 1. 내 작업 영역에서 **통합 문서** 탭을 선택합니다.
 2. 삭제할 통합 문서를 찾은 후 삭제 아이콘 ![](media/service-delete/power-bi-delete-report2.png)을 선택합니다.
-   
+
     ![](media/service-delete/power-bi-delete-workbooknew.png)
 3. 삭제를 확인합니다.
-   
+
    ![](media/service-delete/power-bi-delete-confirm.png)
 
 ## <a name="delete-a-dataset"></a>데이터 집합 삭제
-데이터 집합을 삭제할 수 있습니다. 그러나 데이터 집합을 삭제하면 이 데이터 집합의 데이터가 포함된 모든 보고서와 대시보드 타일도 삭제됩니다.
+데이터 집합을 삭제할 수 있습니다. 그러나 데이터 집합을 삭제하면 해당 데이터 집합의 데이터가 포함된 모든 보고서와 대시보드 타일도 삭제됩니다.
 
 데이터 집합이 하나 이상의 [조직 콘텐츠 팩](service-organizational-content-pack-disconnect.md)에 속해 있는 경우 삭제하는 유일한 방법은 사용 중인 콘텐츠 팩에서 제거하는 것입니다. 따라서 처리될 때까지 기다린 후 다시 삭제를 시도해 보세요.
 
 ### <a name="to-delete-a-dataset"></a>데이터 집합에서 삭제하려면
 1. 작업 영역에서 **데이터 집합** 탭을 선택합니다.
 2. 삭제할 보고서를 찾은 후 줄임표(...)를 선택합니다.  
-   
+
     ![](media/service-delete/power-bi-delete-datasetnew.png)
 3. 드롭다운 목록에서 **삭제**를 선택합니다.
-   
+
    ![](media/service-delete/power-bi-delete-datasetnew2.png)
 4. 삭제를 확인합니다.
-   
+
    ![](media/service-delete/power-bi-delete-dataset-confirm.png)
 
 ## <a name="delete-an-app-workspace"></a>앱 작업 영역 삭제
 > [!WARNING]
-> 앱 작업 영역을 만들 때 Office 365 그룹을 만듭니다. 앱 작업 영역을 삭제할 때 해당 Office 365 그룹을 삭제합니다. 즉, 그룹은 SharePoint 및 Microsoft 팀과 같은 다른 O365 제품에서도 삭제됩니다. 
-> 
-> 
+> 앱 작업 영역을 만들 때 Office 365 그룹을 만듭니다. 앱 작업 영역을 삭제할 때 해당 Office 365 그룹을 삭제합니다. 즉, 그룹은 SharePoint 및 Microsoft 팀과 같은 다른 O365 제품에서도 삭제됩니다.
+>
+>
 
 앱 작업 영역 작성자는 삭제할 수 있습니다. 삭제하면 모든 그룹 구성원에 대해 연결된 앱도 삭제되며 해당 앱을 조직 전체에 게시한 경우 AppSource에서 제거됩니다. 앱 작업 영역을 삭제하는 것은 앱 작업 영역에서 나가는 것과는 다릅니다.
 
 ### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>앱 작업 영역을 삭제하려면(관리자인 경우)
 1. 탐색 창에서 **작업 영역**을 선택합니다.
-   
+
     ![](media/service-delete/power-bi-delete-workspace.png)
 2. 삭제할 보고서 오른쪽의 줄임표(...)를 선택한 후 **작업 영역 편집**을 선택합니다.
-   
+
    ![](media/service-delete/power-bi-edit-workspace.png)
 3. **작업 영역 편집** 창에서 **작업 영역 삭제** > **삭제**를 선택합니다.
-   
+
     ![](media/service-delete/power-bi-delete-workspace2.png)
 
 ### <a name="to-remove-an-app-workspace-from-your-list"></a>목록에서 한 앱 작업 영역을 제거하려면
@@ -111,18 +111,18 @@ ms.lasthandoff: 11/13/2017
 
 > [!IMPORTANT]
 > Power BI에서 해당 앱 작업 영역의 유일한 관리자는 나갈 수 없습니다.
-> 
-> 
+>
+>
 
 1. 제거하려는 앱 작업 영역에서 시작합니다.
 2. 오른쪽 위의 모서리에서 줄임표(...)를 선택하고 **작업 영역 나가기** > **나가기**를 선택합니다.
-   
+
       ![](media/service-delete/power-bi-leave-workspace.png)
-   
+
    > [!NOTE]
    > 드롭다운에 표시되는 옵션은 해당 앱 작업 영역의 관리자 또는 구성원인지에 따라 다릅니다.
-   > 
-   > 
+   >
+   >
 
 ## <a name="delete-or-remove-an-app"></a>앱 삭제 또는 제거
 앱은 앱 목록 페이지에서 쉽게 제거할 수 있습니다. 하지만 앱 관리자만 앱을 영구 삭제할 수 있습니다.
@@ -132,10 +132,10 @@ ms.lasthandoff: 11/13/2017
 
 1. 왼쪽 탐색 창에서 **앱**을 선택하여 앱 목록 페이지를 엽니다.
 2. 삭제할 앱에 마우스를 올려 놓은 후 삭제 아이콘 ![](media/service-delete/power-bi-delete-report2.png)을 선택합니다.
-   
+
    ![](media/service-delete/power-bi-delete-app.png)
-   
-   실수로 앱을 제거할 경우 복구할 수 있는 몇 가지 옵션이 있습니다.  앱 작성자에게 다시 보내달라고 요청하거나, 앱 링크가 포함된 메일 원본을 찾거나 알림 센터를 확인하여 해당 앱에 대한 알림이 목록에 남아 있는지 살펴보거나 조직의 AppSource를 확인할 수 있습니다.
+
+   실수로 앱을 제거할 경우 복구할 수 있는 몇 가지 옵션이 있습니다.  앱 작성자에게 다시 보내달라고 요청하거나, 앱 링크가 포함된 메일 원본을 찾거나 [알림 센터](service-notification-center.md)를 확인하여 해당 앱에 대한 알림이 목록에 남아 있는지 살펴보거나 조직의 [AppSource](service-install-use-apps.md)를 확인할 수 있습니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 이 문서는 Power BI 서비스의 주요 구성 요소를 삭제하는 방법을 소개했습니다. 그러나 Power BI에서 삭제할 수 있는 몇 가지가 더 있습니다.  
@@ -146,5 +146,4 @@ ms.lasthandoff: 11/13/2017
 * [대시보드 타일 삭제](service-dashboard-edit-tile.md)
 * [보고서 시각화 삭제](service-delete.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/) 
-
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

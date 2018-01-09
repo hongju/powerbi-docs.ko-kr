@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/28/2017
+ms.date: 12/12/2017
 ms.author: asaxton
-ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>조직 내에서 감사 사용
 
@@ -35,6 +35,16 @@ Power BI 테넌트의 어떤 항목에 누가 무슨 활동을 수행하는지�
 
 > [!NOTE]
 > Power BI 감사 기능은 미리 보기 상태이며 모든 데이터 영역에서 사용할 수 있습니다.
+
+## <a name="requirements"></a>요구 사항
+감사 로그에 액세스하려면 이러한 요구 사항을 충족해야 합니다.
+
+- Office 365 Security & Compliance Center의 감사 섹션에 액세스하려면 (Office 365 Enterprise E3 및 E5 구독에 포함된) Exchange Online 라이선스가 있어야 합니다.
+- 전역 관리자이거나 감사 로그에 대한 액세스를 제공하는 Exchange 관리자 역할을 맡고 있어야 합니다. 
+
+  Exchange 관리자 역할은 Exchange 관리 센터를 통해 제어됩니다. 자세한 내용은 [Exchange Online에서의 사용 권한](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx)을 참조하세요.
+
+- 감사 로그에 대한 액세스 권한이 있지만 전역 관리자 또는 Power BI 서비스 관리자가 아닌 경우 Power BI 관리 포털에 대한 액세스 권한이 없습니다. 이 경우 Office 365 Security & Compliance Center에 대한 직접 링크를 사용해야 합니다.
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Power BI 관리 포털에서 감사 기능을 사용하도록 설정
 
@@ -70,8 +80,8 @@ Power BI 로그를 감사하려면 O365 보안 및 규정 준수 센터를 방�
    ![](media/service-admin-auditing/powerbi-admin.png)
 
 3. **감사 로그**를 선택합니다.
-4. 
-5. **O365 관리 센터로 이동**을 선택합니다.
+ 
+4. **O365 관리 센터로 이동**을 선택합니다.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 

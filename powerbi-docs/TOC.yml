@@ -454,10 +454,8 @@
           href: power-bi-visualization-treemaps.md
         - name: '자습서: Power BI의 폭포 차트'
           href: power-bi-visualization-waterfall-charts.md
-        - name: 질문을 하여 Power BI 대시보드에 대한 큰 숫자 타일을 만듭니다
-          href: power-bi-visualization-big-number.md
-        - name: Power BI 보고서에서 큰 숫자 타일 만들기
-          href: power-bi-visualization-big-number-report.md
+        - name: '자습서: Power BI의 카드(큰 숫자 타일)'
+          href: power-bi-visualization-card.md
         - name: Power BI에서 R 스크립트를 사용하여 고급 분석 및 시각화 만들기
           href: service-r-visuals.md
     - name: 파일의 데이터
@@ -938,6 +936,8 @@
           href: developer/integrate-report.md
         - name: 응용 프로그램에 콘텐츠 통합(앱 소유 데이터)
           href: developer/embed-sample-for-customers.md
+        - name: 앱에 사용자 지정 레이아웃 포함
+          href: developer/embedded-custom-layout.md
         - name: Azure Active Directory 테넌트 만들기
           href: developer/create-an-azure-active-directory-tenant.md
         - name: 응용 프로그램 등록

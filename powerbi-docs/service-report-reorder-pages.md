@@ -1,6 +1,6 @@
 ---
 title: "Power BI에서 보고서의 페이지 순서 바꾸기"
-description: "Power BI에서 보고서의 페이지 순서 바꾸기"
+description: "Power BI 서비스 및 Power BI Desktop에서 보고서의 페이지 순서 바꾸기"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 4407daeabf61a0347754015aad9ec1378b122fa8
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 918047b08fe5b30bcdda7b0097c53381a476b98b
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="reorder-pages-in-a-report-in-power-bi"></a>Power BI에서 보고서의 페이지 순서 바꾸기
 Power BI에서 보고서는 하나 이상의 페이지로 구성됩니다.  각 페이지에는 아래쪽에 탭이 있습니다.  보고서의 순서를 변경하려면 탭을 선택하고 새 위치로 끌어다 놓습니다.

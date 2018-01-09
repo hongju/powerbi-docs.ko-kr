@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 83f143427ce74f593ea6e8d99f8a6b127ee4488d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cf0eeaa16e7dc3576cb774cb7bb7dfef9c4486d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Power BI Pro 구매
 Power BI Pro는 사용자가 보고서를 게시하고, 대시보드를 공유하고, 작업 영역에서 동료와 공동 작업하며, 다음과 같은 기타 관련된 작업을 수행하기 위한 것입니다.
@@ -118,6 +118,11 @@ Office 365 관리 센터를 통해 조직에서 Power BI Pro를 구입할 수 �
 서비스를 사용하는 경우 **기어** 아이콘으로 이동하고 **개인 저장소 관리**를 선택하여 Pro 계정이 있는지 확인할 수 있습니다.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro3.png)
+
+## <a name="grace-period"></a>유예 기간
+Power BI Pro 라이선스가 만료된 후 30일의 유예 기간이 있습니다. 
+
+Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한 내용은 [비즈니스용 Office 365 구독이 종료되면 내 데이터 및 액세스 권한은 어떻게 되나요?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI에 대한 셀프 서비스 등록](service-self-service-signup-for-power-bi.md)  

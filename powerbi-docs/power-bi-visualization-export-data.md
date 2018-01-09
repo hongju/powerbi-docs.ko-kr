@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/19/2017
 ms.author: mihart
-ms.openlocfilehash: fb40b2576176b772c841cea3347909aaf34af375
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="export-data-from-visualizations"></a>시각화에서 데이터 내보내기
 시각화를 만드는 데 사용되는 데이터를 보려는 경우 [Power BI에서 해당 데이터를 표시](service-reports-show-data.md)하거나 해당 데이터를 .xlsx 또는 .csv 파일로 Excel에 내보낼 수 있습니다.   
@@ -84,7 +84,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 
    ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
-* **Power BI Desktop**에서 .csv로 내보낼 수 있는 최대 행 수는 30,000개입니다.
+* **Power BI Desktop** 및 **Power BI 서비스**에서 .csv로 내보낼 수 있는 최대 행 수는 30,000개입니다.
 * **Power BI 서비스**에서 .xlsx로 내보낼 수 있는 행의 최대 수는 무료 사용자 30,000개, Pro 사용자 150,000개입니다.
 * DirectQuery를 사용하는 경우 내보낼 수 있는 데이터의 최대 크기는 16MB입니다. 그러면 행의 최대 수보다 적은 데이터를 내보내게 될 수 있습니다. 특히 열이 많은 경우 압축하기 어려운 데이터 및 파일 크기를 증가시키고 행 수를 감소시키는 기타 요인을 내보냅니다.
 * Power BI에서는 기본 집계를 사용하는 시각적 개체에서만 내보내기를 지원합니다. 모델 또는 보고서 측정값을 사용하는 시각적 개체에는 내보내기를 사용할 수 없습니다.

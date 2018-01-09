@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 37161fab1e19e6ce00eb0f02c96b6e5cbdd60f18
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 13da4602306b1218baee81909d37897524f6dfc9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
-Power BI에서는 차트의 범주 이름 또는 각 범주의 숫자 값을 기준으로 차트를 알파벳순으로 정렬할 수 있습니다. 예를 들어 이 차트는 매장 이름을 기준으로 정렬되었습니다.
+Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 값을 기준으로 대부분의 시각화를 알파벳순으로 정렬할 수 있습니다. 예를 들어 이 차트는 매장 이름을 기준으로 정렬되었습니다.
 
 ![](media/power-bi-report-change-sort/pbi_chartsortcategory.png)
 
-하지만 1평방 피트당 가장 높은 매출에서 가장 낮은 매출의 순서로 정렬하는 것이 쉽습니다.
+정렬 기준을 범주(매장 이름)에서 값(평방 피트당 매출)으로 대신 변경하는 것은 쉽습니다.
 
 1. 줄임표(...)를 선택하고 **정렬 기준 평방 미터당 매출**을 선택합니다.
 2. 필요할 경우 정렬 아이콘 ![](media/power-bi-report-change-sort/sorticon.png)을 선택하여 **내림차순**으로 변경합니다.

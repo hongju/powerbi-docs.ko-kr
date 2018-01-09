@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 14d4954cd747e7c578c693212401f57806001228
-ms.sourcegitcommit: 6e8fbbbcbe3e1a38207b29a9ca66ea94fb2a51fb
+ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI 대시보드, 보고서 및 타일 포함
 
@@ -140,9 +140,9 @@ ISV에서 일반적인 **고객에 대한 콘텐츠를 포함**하는 경우 다
 
 | 용량 노드 | 총 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 코어 | 프런트 엔드 코어 | DirectQuery/라이브 연결 제한 | 사용량이 가장 많은 시간에 최대 페이지 렌더링 |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1v-코어 |0.5개 코어, 3GB RAM |0.5개 코어 | |1-300 |
-| A2 |2v-코어 |1개 코어, 5GB RAM |1개 코어 | |301-600 |
-| A3 |4v-코어 |2개 코어, 10GB RAM |2개 코어 | |601-1,200 |
+| A1 |1v-코어 |0.5개 코어, 3GB RAM |0.5개 코어 | 초당 5 |1-300 |
+| A2 |2v-코어 |1개 코어, 5GB RAM |1개 코어 | 초당 10 |301-600 |
+| A3 |4v-코어 |2개 코어, 10GB RAM |2개 코어 | 초당 15 |601-1,200 |
 | A4 |8v-코어 |4개 코어, 25GB RAM |4개 코어 |초당 30 |1,201-2,400 |
 | A5 |16v-코어 |8개 코어, 50GB RAM |8개 코어 |초당 60 |2,401-4,800 |
 | A6 |32v-코어 |16개 코어, 100GB RAM |16개 코어 |초당 120 |4,801-9600 |

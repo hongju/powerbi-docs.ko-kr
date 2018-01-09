@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 231bf7febb19583414d976cc612d06c2caa1e246
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="funnel-charts-tutorial"></a>깔대기형 차트(자습서)
 깔때기형 차트는 순차적으로 연결된 단계가 있는 선형 프로세스를 시각화하는 데 도움이 됩니다. 예를 들어 잠재 고객 \> 적격 잠재 고객 \> 가망 고객 \> 계약 \> 완료 단계를 통해 고객을 추적하는 영업 깔때기가 있습니다.  깔때기의 모양은 추적 중인 프로세스의 상태를 한눈에 보여줍니다.
@@ -59,15 +59,15 @@ ms.lasthandoff: 11/13/2017
 
 이제 영업 단계 각각에 있는 기회의 수를 보여 주는 고유한 깔때기형 차트를 만듭니다.
 
-이러한 지침에서는 영업 기회 분석 샘플을 사용합니다. 이를 수행하려면 [샘플을 다운로드](sample-datasets.md)하고 Power BI에 로그인하고 **데이터 가져오기 \> 샘플 \> 기회 분석 샘플 \> 연결**을 선택합니다.
+이러한 지침에서는 영업 기회 분석 샘플을 사용합니다. 이를 수행하려면 Power BI 서비스(app.powerbi.com) 또는 Power BI Desktop에 대한 [샘플을 다운로드](sample-datasets.md)합니다.   
 
-1. [편집용 보기](service-interact-with-a-report-in-editing-view.md)의 [빈 보고서 페이지](power-bi-report-add-page.md)에서 시작하고 **SalesStage** \> **영업 단계** 필드를 선택합니다.  
+1. [빈 보고서 페이지](power-bi-report-add-page.md)에서 시작하고 **SalesStage** \> **영업 단계** 필드를 선택합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
    
     ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [차트를 깔때기로 변환](power-bi-report-change-visualization-type.md)합니다. **Sales Stage** 가 **그룹** 에 있습니다. 
 3. **필드** 창에서 **팩트** \> **기회 수**를 선택합니다.
    
-    ![](media/power-bi-visualization-funnel-charts/funnelfinal_new.png)
+    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. 막대를 마우스로 가리키면 다양한 정보가 표시됩니다.
    
    * 단계의 이름
@@ -90,14 +90,13 @@ ms.lasthandoff: 11/13/2017
 2. 시각적 개체를 상호 간에 강조 표시하고 필터링하는 방법에 대한 기본 설정을 설정하려면 [Power BI에서 시각적 상호 작용](service-reports-visual-interactions.md)을 참조하세요.
 
 ## <a name="create-a-funnel-chart-in-qa"></a>질문 및 대답에서 깔때기형 차트 만들기
-"기회 추적" 데이터 집합에서 하나 이상의 시각화가 고정된 대시보드를 강조 표시합니다.  질문 및 답변에서 질문을 입력하면 Power BI가 선택된 대시보드(타일이 고정된)와 관련된 모든 데이터 집합에서 답변을 검색합니다. 자세한 내용은 [Power BI - 기본 개념](service-basic-concepts.md)을 참조하세요.
+기회 분석 샘플 대시보드나 기회 분석 샘플 데이터 집합에서 고정된 하나 이상의 시각화가 있는 다른 대시보드를 엽니다.  질문 및 답변에서 질문을 입력하면 Power BI가 선택된 대시보드(타일이 고정된)와 관련된 모든 데이터 집합에서 답변을 검색합니다. 자세한 내용은 [Power BI - 기본 개념](service-basic-concepts.md)을 참조하세요.
 
-1. 기회 추적 데이터 집합에서 하나 이상의 타일이 고정된 대시보드를 강조 표시합니다.
-2. 질문 및 답변의 질문 상자에 질문을 입력합니다.
+1. 기회 분석 샘플 대시보드에서 질문 및 답변의 질문 상자에 질문을 입력하세요.
    
    ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
    
-   Power BI에서 여러분이 선호하는 시각화 유형을 알 수 있도록 "깔때기형"으로 추가해야 합니다.
+2. Power BI에서 여러분이 선호하는 시각화 유형을 알 수 있도록 "깔때기형"으로 추가해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)

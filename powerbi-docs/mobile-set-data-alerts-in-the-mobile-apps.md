@@ -1,6 +1,6 @@
 ---
 title: "Power BI Mobile Apps에서 데이터 경고 설정"
-description: "Power BI 서비스와 Power BI 모바일 앱에서 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 경고를 설정하는 것에 대해 알아봅니다."
+description: "대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 Power BI Mobile Apps에서 데이터 경고를 설정하는 방법을 알아봅니다."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 822285a38e08f173ff8cae69c8e7e8ad94957692
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI Mobile Apps에서 데이터 경고 설정
 적용 대상:
@@ -30,7 +30,9 @@ ms.lasthandoff: 11/13/2017
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 장치 |
 
-Power BI 서비스와 Power BI Mobile Apps에서 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 경고를 설정할 수 있습니다. 경고는 카드 및 계기 같이 단일 숫자가 특징인 타일에 대해 작동하며 스트리밍 데이터에는 작동하지 않습니다. 모바일 장치에서 데이터 경고를 설정하고 Power BI 서비스에서 볼 수 있으며, 그 반대로도 가능합니다. 대시보드나 타일의 스냅숏을 공유했더라도 설정한 데이터 경고만 볼 수 있습니다.
+Power BI Mobile Apps 및 Power BI 서비스의 대시보드에서 경고를 설정할 수 있습니다. 타일의 데이터가 설정해 놓은 한도를 넘어 변경되면 알려주는 경고입니다. 경고는 카드 및 계기 같이 단일 숫자가 특징인 타일에 대해 작동하며 스트리밍 데이터에는 작동하지 않습니다. 모바일 장치에서 데이터 경고를 설정하고 Power BI 서비스에서 볼 수 있으며, 그 반대로도 가능합니다. 대시보드나 타일의 스냅숏을 공유했더라도 설정한 데이터 경고만 볼 수 있습니다.
+
+Power BI Pro 라이선스가 있거나 무료 Power BI 라이선스가 있고 공유 대시보드가 프리미엄 용량일 경우 타일에 경고를 설정할 수 있습니다. 
 
 > [!WARNING]
 > 데이터 기반 경고 알림은 데이터에 관한 정보를 제공합니다. 장치를 분실한 경우 Power BI 서비스에 가서 모든 데이터 기반 경고 규칙을 해제하는 것이 좋습니다. 

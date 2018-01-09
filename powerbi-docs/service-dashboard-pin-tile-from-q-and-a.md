@@ -1,5 +1,5 @@
 ---
-title: "질문 및 답변에서 Power BI 대시보드에 타일 고정"
+title: "질문 및 답변에서 대시보드에 타일 고정"
 description: "질문 및 답변 상자에서 Power BI 대시보드에 타일을 고정하는 방법에 대한 설명서입니다."
 services: powerbi
 documentationcenter: 
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f37c0f9e433f1ac8c6bb8f7f3fa4b513fb4b4652
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>질문 및 답변에서 대시보드에 타일 고정
 ## <a name="how-to-pin-a-tile-from-qa"></a>질문 및 답변에서 타일을 고정하는 방법
 질문 및 답변은 Power BI의 임시 보고 도구입니다. 특정 통찰력을 찾아야 하나요? 데이터에 대한 질문을 하고 시각화 형태로 답변을 받습니다.
 
-> **참고**: 과정을 따르려면 [소매점 분석 샘플](sample-retail-analysis.md)을 여세요.
+질문 및 답변은 대시보드 및 보고서에서 사용할 수 있습니다. 이 문서에서는 대시보드에서 질문 및 답변을 엽니다. 대시보드는 Power BI Desktop이 아닌 Power BI 서비스에서만 사용할 수 있습니다. 이를 수행하려면 [소매점 분석 샘플 대시보드](sample-retail-analysis.md)를 여세요.
 > 
 > 
 
@@ -40,7 +40,9 @@ ms.lasthandoff: 11/13/2017
    질문 상자에 제안이 표시됩니다.
 4. 대시보드에 차트를 타일로 추가하려면 캔버스의 오른쪽 위에 있는 고정 ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png)을 선택합니다.
 5. 기존 대시보드 또는 새 대시보드에 타일을 고정합니다. 
-   
+
+   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+
    * 기존 대시보드: 드롭다운에서 대시보드의 이름을 선택합니다. 현재 작업 영역에 있는 대시보드만 선택할 수 있습니다.
    * 새 대시보드: 새 대시보드의 이름을 입력합니다. 그러면 현재 작업 영역에 추가됩니다.
 6. **고정**을 선택합니다.

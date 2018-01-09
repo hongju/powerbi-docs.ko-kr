@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/06/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfbd7d124784b15b432921554c8ac5bbe321846c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 서비스의 데이터 경고
-대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 경고를 설정합니다. 경고는 보고서 시각적 개체에서 고정된 타일과 계기, KPI 및 카드에서만 설정할 수 있습니다. 경고는 보고서로부터 대시보드로 고정된 스트리밍 데이터 집합에서 만들어진 시각적 개체에 설정할 수 있으나, **타일 추가** > **사용자 지정 스트리밍 데이터**를 사용하여 대시보드에 직접 만든 스트리밍 타일에는 설정할 수 없습니다. 대시보드를 공유하더라도 자신이 설정한 경고만 볼 수 있습니다. 데이터 경고는 플랫폼 전반에서 완전히 동기화되며 [Power BI 모바일 앱](mobile-set-data-alerts-in-the-mobile-apps.md) 및 Power BI 서비스에서 데이터 경고를 설정하고 봅니다. Power BI Desktop에서 사용할 수 없습니다. 경고는 [Microsoft Flow로 자동화 및 통합될 수도 있습니다.](https://flow.microsoft.com) - [직접 사용해 보세요](service-flow-integration.md).
+대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 경고를 설정합니다. 
+
+경고는 보고서 시각적 개체에서 고정된 타일과 계기, KPI 및 카드에서만 설정할 수 있습니다. 경고는 보고서로부터 대시보드로 고정된 스트리밍 데이터 집합에서 만들어진 시각적 개체에 설정할 수 있으나, **타일 추가** > **사용자 지정 스트리밍 데이터**를 사용하여 대시보드에 직접 만든 스트리밍 타일에는 설정할 수 없습니다. 
+
+대시보드를 공유하더라도 자신이 설정한 경고만 볼 수 있습니다. 데이터 경고는 플랫폼 전반에서 완전히 동기화되며 [Power BI 모바일 앱](mobile-set-data-alerts-in-the-mobile-apps.md) 및 Power BI 서비스에서 데이터 경고를 설정하고 봅니다. Power BI Desktop에서 사용할 수 없습니다. 경고는 [Microsoft Flow로 자동화 및 통합될 수도 있습니다.](https://flow.microsoft.com) - [직접 사용해 보세요](service-flow-integration.md).
 
 ![](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -46,13 +50,12 @@ Amanda가 대시보드의 타일에 일부 경고를 추가하는 과정을 시�
    ![](media/service-set-data-alerts/powerbi-card.png)
 2. 종 모양 아이콘 ![](media/service-set-data-alerts/power-bi-bell-icon.png)을 선택하여 **총 매장**에 대한 하나 이상의 경고를 추가합니다.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert.png)
-3. 시작하려면, 슬라이더가 **켜기**로 설정되어 있는지 확인하고, 경고 제목을 입력합니다. 제목은 경고를 쉽게 인식하는 데 도움이 됩니다.
+1. 시작하려면 **+경고 규칙 추가**를 선택하고, 슬라이더가 **켜기**로 설정되어 있는지 확인하고, 경고 제목을 입력합니다. 제목은 경고를 쉽게 인식하는 데 도움이 됩니다.
    
    ![](media/service-set-data-alerts/powerbi-alert-title.png)
 4. 아래로 스크롤하여 경고 세부 정보를 입력합니다.  이 예제에서는 총 매장의 수가 100을 넘으면 하루에 한 번 알려주는 경고를 만듭니다. 경고는 알림 센터에 표시됩니다. Power BI에서 전자 메일도 전송됩니다.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert-details.png)
+   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. **저장**을 선택합니다.
 
 ## <a name="receiving-alerts"></a>경고 수신
@@ -76,7 +79,7 @@ Amanda가 대시보드의 타일에 일부 경고를 추가하는 과정을 시�
    > 
 
 ## <a name="managing-alerts"></a>경고 관리
-경고를 관리하는 방식은 세 가지입니다. 대시보드 타일 자체에서, Power BI 설정 메뉴에서, 그리고 [ iPhone의 Power BI 모바일 앱](mobile-set-data-alerts-in-the-mobile-apps.md) 또는 [Windows 10용 Power BI 모바일 앱](mobile-set-data-alerts-in-the-mobile-apps.md)에서 관리할 수 있습니다.
+경고를 관리하는 방식은 여러 가지입니다. 대시보드 타일 자체에서, Power BI 설정 메뉴에서, 그리고 [ iPhone의 Power BI 모바일 앱](mobile-set-data-alerts-in-the-mobile-apps.md) 또는 [Windows 10용 Power BI 모바일 앱](mobile-set-data-alerts-in-the-mobile-apps.md)에서 관리할 수 있습니다.
 
 ### <a name="from-the-tile-itself"></a>타일 자체에서
 1. 타일에 대한 경고를 변경하거나 제거하려면, 종 모양 아이콘 ![](media/service-set-data-alerts/power-bi-bell-icon.png)을 선택하여 **경고 관리** 창을 다시 엽니다. 해당 타일에 설정해 놓은 모든 경고가 표시됩니다.

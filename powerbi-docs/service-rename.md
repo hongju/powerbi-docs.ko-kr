@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: d39fd80b834afc37fb1db43a083f9037a3b83ef1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 항목의 이름 바꾸기
 이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 보고서 페이지, 통합 문서, 데이터 집합, 앱 및 작업 영역의 이름을 변경하는 방법을 안내합니다.
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/13/2017
 | **공유한 항목**의 콘텐츠 |아니요 |아니요 |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>대시보드, 보고서 또는 통합 문서 이름 바꾸기
-1. 작업 영역에서 시작하고 **대시보드**, **보고서** 또는 **통합 문서** 탭을 선택합니다. 이름을 변경할 항목 위에 마우스를 가져가고 기어 아이콘 ![](media/service-rename/powerbi-cog-icon.png)을 선택합니다.
+1. 작업 영역에서 시작하고 **대시보드**, **보고서** 또는 **통합 문서** 탭을 선택합니다. 이름을 변경할 항목 위에 마우스를 가져가고 기어 아이콘 ![](media/service-rename/powerbi-cog-icon.png)을 선택합니다. 기어 아이콘이 없을 경우 이름을 변경할 권한이 없는 것입니다.
    
    ![](media/service-rename/power-bi-workspace-dashboards.png)
 2. 설정 페이지에서 새 이름을 입력하고 **저장**을 선택합니다.
@@ -67,7 +67,7 @@ ms.lasthandoff: 11/13/2017
 관리자 권한이 있는 모든 사용자는 앱 작업 영역 이름을 변경할 수 있습니다.
 
 1. 이름을 변경할 작업 영역에서 시작합니다.
-2. 오른쪽 위의 모서리에서 줄임표(...)를 선택하고 **작업 영역 편집**을 선택합니다.  
+2. 오른쪽 위의 모서리에서 줄임표(...)를 선택하고 **작업 영역 편집**을 선택합니다. 이 옵션이 보이지 않을 경우 이 작업 영역에 대한 이름 변경 권한이 없는 것입니다. 
    
     ![](media/service-rename/power-bi-edit-workspace.png)
 3. 새 작업 영역 이름을 입력하고 **저장**을 선택합니다.

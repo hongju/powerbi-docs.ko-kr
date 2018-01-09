@@ -15,32 +15,33 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 2f428095eb57c5358770f1d6d8572316d2b84c37
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3401fac7b0e7e6b5b5404a5a837822772e1d70f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="doughnut-charts-in-power-bi-tutorial"></a>Power BI의 도넛형 차트(자습서)
 도넛형 차트는 전체에 대한 부분의 관계를 표시한다는 점에서 원형 차트와 비슷합니다. 가운데가 비어 있고 레이블 또는 아이콘이 들어갈 공간이 있다는 점만 다릅니다.
 
 ## <a name="create-a-doughnut-chart"></a>도넛형 차트 만들기
-이를 수행하려면 Power BI에 로그인하여 **데이터 가져오기**\>**샘플**\>**소매 분석 샘플**\>**연결**을 선택합니다. 
+이러한 지침에서는 소매 분석 샘플을 사용하여 올해의 판매액을 범주별로 표시하는 도넛형 차트를 만듭니다. 이를 수행하려면 Power BI 서비스(app.powerbi.com) 또는 Power BI Desktop에 대한 [샘플을 다운로드](sample-datasets.md)합니다.
 
-1. 대시보드에서 **총 매장** 타일을 선택하여 "소매 분석 샘플" 보고서를 엽니다.
-2. **보고서 편집** 을 선택하여 편집 보기에서 보고서를 엽니다.
-3. [새 보고서 페이지를 추가합니다](power-bi-report-add-page.md).
-4. 올해의 판매액을 범주별로 표시하는 도넛형 차트를 만듭니다.
+1. [빈 보고서 페이지](power-bi-report-add-page.md)에서 시작하고 **SalesStage** \> **영업 단계** 필드를 선택합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
+
+2. 필드 창에서 **Sales** \> **Last Year Sales**를 선택합니다.  
    
-   * **필드** 창에서 **Sales**\>**Last Year Sales**를 선택합니다.
-   * 도넛형 차트로 변환합니다. **값** 영역에 Last Year Sales가 없을 경우 끌어다 놓습니다.
+3. 시각화 창에서 도넛형 차트 아이콘 ![도넛형 차트 아이콘]()을 선택하여 가로 막대형 차트를 도넛형 차트로 변환합니다. **Values** 영역에 **Last Year Sales**가 없을 경우 끌어다 놓습니다.
      
-       ![](media/power-bi-visualization-doughnut-charts/convertdonut.png)
-   * **항목**\>**범주**를 선택하여 **범례** 영역에 추가합니다. 
+   ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
+
+4. **항목**\>**범주**를 선택하여 **범례** 영역에 추가합니다. 
      
-       ![](media/power-bi-visualization-doughnut-charts/doughnuttutorial.png)
+    ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
+
+5. 필요에 따라 [차트 텍스트의 크기와 색을 조정](power-bi-visualization-customize-title-background-and-legend.md)합니다. 
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 * 도넛형 차트 값을 더한 총합은 100%를 넘지 않아야 합니다.

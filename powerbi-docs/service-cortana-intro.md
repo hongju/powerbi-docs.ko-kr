@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/13/2017
 ms.author: mihart
-ms.openlocfilehash: 458c6663697f8c968915c54dba1c80be422c0f80
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Power BI에 대한 Cortana를 사용하여 Power BI 데이터를 신속하게 찾기 및 보기
 Windows 10 장치에서 Cortana를 사용하여 중요한 비즈니스 관련 질문에 대한 답변을 즉시 확인하세요. Power BI와 통합하면 Cortana는 Power BI 대시보드 및 보고서에서 직접 주요 정보를 검색할 수 있습니다. Windows 10 2015년 11월 이상 버전, Cortana, Power BI 및 하나 이상의 데이터 집합에 대한 액세스만 있으면 됩니다.
@@ -85,13 +85,19 @@ Cortana에서 질문하는 경우 Power BI는 Cortana용으로 특별히 디자�
      ![](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 2. Cortana가 준비되면 Cortana 검색 표시줄에 질문을 입력하거나 말합니다. Cortana에서 사용 가능한 결과를 표시합니다. 질문과 일치하는 Power BI 대시보드가 있으면 **가장 일치하는 항목** 또는 **Power BI** 아래에 표시됩니다.
    
-     ![Cortana 검색으로 Power BI 대시보드 찾기](media/service-cortana-intro/power-bi-cortana-searching2.png "Cortana에서 Power BI 대시보드 찾기")
+     ![Cortana 검색으로 Power BI 대시보드 찾기](media/service-cortana-intro/power-bi-cortana-search-hr.png "Cortana에서 Power BI 대시보드 찾기")
    
    > [!NOTE]
    > 현재 영어만 지원됩니다.
    > 
    > 
-3. 대시보드 이름을 선택하여 Power BI에서 대시보드를 엽니다. 
+3. 대시보드를 선택하여 Cortana에서 엽니다.
+
+    ![Power BI 대시보드 선택](media/service-cortana-intro/power-bi-cortana-dashboard.png "Power BI 대시보드 선택")
+
+    [대시보드의 *전화 보기*를 편집](service-create-dashboard-mobile-phone-view.md)하여 레이아웃을 변경할 수 있습니다. 
+
+1. Cortana에는 Power BI 서비스 또는 Power BI Mobile에서 대시보드를 여는 옵션도 있습니다. **웹에서 열기**를 선택하여 Power BI 서비스에서 대시보드를 엽니다. 
    
    ![Cortana에서 대시보드 열기](media/service-cortana-intro/power-bi-dashboard-opens.png "Cortana에서 대시보드 열기")   
 4. 이제 Cortana를 사용하여 보고서를 검색해 보겠습니다. [Cortana 대답 카드가 포함된 페이지가 있는 보고서](service-cortana-answer-cards.md)에 대해 알아야 합니다. 이 예제에서는 “Cortana-New-Stores”라는 보고서에 “cortana stores”라는 Cortana 대답 카드 페이지가 있습니다.  
