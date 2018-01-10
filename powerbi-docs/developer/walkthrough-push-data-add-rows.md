@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: d9fa2984eecfac026cf01a47d73ec6c5950e02d3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02c0ac505f542d9c4a346ae7aee72533789d5599
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5단계: Power BI 테이블에 행 추가
 이 문서는 [데이터 집합에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
-데이터 집합에 데이터 푸시의 **4단계**인 [Power BI 테이블에 행을 추가할 데이터 집합 가져오기](walkthrough-push-data-get-datasets.md)에서는 [데이터 집합 가져오기](https://msdn.microsoft.com/library/mt203567.aspx) 작업 및 Newtonsoft.Json을 사용하여 데이터 집합 ID를 가져왔습니다. 이 단계에서는 [행 추가](https://msdn.microsoft.com/library/mt203561.aspx) 작업에 데이터 집합 ID를 사용하여 **Power BI** 데이터 집합에 행을 추가합니다. Power BI REST API를 사용하는 방법에 대한 예제는 [APIARY의 Power BI REST API](http://docs.powerbi.apiary.io/)를 참조합니다.
+데이터 집합에 데이터 푸시의 **4단계**인 [Power BI 테이블에 행을 추가할 데이터 집합 가져오기](walkthrough-push-data-get-datasets.md)에서는 [데이터 집합 가져오기](https://msdn.microsoft.com/library/mt203567.aspx) 작업 및 Newtonsoft.Json을 사용하여 데이터 집합 ID를 가져왔습니다. 이 단계에서는 [행 추가](https://msdn.microsoft.com/library/mt203561.aspx) 작업에 데이터 집합 ID를 사용하여 **Power BI** 데이터 집합에 행을 추가합니다. 
 
 [행 추가](https://msdn.microsoft.com/library/mt203561.aspx) 작업을 호출하면 데이터 집합에 행이 추가됩니다.
 
@@ -319,6 +319,5 @@ Program.cs에 이 코드를 추가합니다.
 [Power BI 대시보드에 데이터 푸시](walkthrough-push-data.md)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
 [Power BI REST API 참조](https://msdn.microsoft.com/library/mt147898.aspx)  
-[APIARY의 Power BI REST API](http://docs.powerbi.apiary.io/)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

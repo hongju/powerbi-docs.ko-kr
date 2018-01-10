@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -589,10 +589,6 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 * [콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx)을 사용하여 QuickBooks Online 계정 데이터에 대한 이해력을 즉각적으로 넓히세요. 연결 및 시작 방법에 대한 자세한 내용은 Power BI용 QuickBooks Online 콘텐츠 팩 [설명서](service-connect-to-quickbooks-online.md)를 참조하세요.
 
-**2015년 5월 19일**
-
-* 이 업데이트를 통해 이제 [콘텐츠 팩을 통해 Twilio](service-connect-to-twilio.md)에 연결할 수 있습니다.
-* Power BI API에 새로 추가된 기능이 있습니다! 이제 [모든 테이블을 나열](http://docs.powerbi.apiary.io/#reference/datasets/tables-collection/list-all-tables)하고 [기존 테이블 스키마를 업데이트](http://docs.powerbi.apiary.io/#reference/datasets/table/update-an-existing-tables-schema)할 수 있습니다.
 
 **2015년 5월 13일**
 

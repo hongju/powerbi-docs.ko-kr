@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8425b631bb64911081861dc4a21de04b698f0f67
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 8c108d1564a6de89d2a53134e0bbca3617ebfc92
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report"></a>기존 보고서에서 새 보고서 만들기
 이미 데이터 집합에 연결하는 보고서가 있고 다시 사용하거나 수정하려고 하는 몇 가지 시각적 개체가 있을 수 있습니다.  새 보고서에 대한 기준으로 해당 보고서를 단순히 복사할 수 없습니까?  수행할 작업:
 
-1. [보고서를 엽니다](service-report-open-in-reading-view.md).
+1. [보고서를 엽니다](service-report-open.md).
 2. **파일** 메뉴에서 **다른 이름으로 저장**을 선택합니다.
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)

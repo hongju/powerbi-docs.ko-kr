@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d409633129c6c203e897d76c0acf043bf09ea29d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: bd358b8e986313ba665326de0ff2722e0113554d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>Power BI 보고서에 필터 추가(편집용 보기)
 > [!TIP]
@@ -30,13 +30,13 @@ ms.lasthandoff: 11/13/2017
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>편집용 보기 및 읽기용 보기에서 보고서 필터 간의 차이는 무엇입니까
-보고서는 [읽기용 보기](service-interact-with-a-report-in-reading-view.md)와 [편집용 보기](service-interact-with-a-report-in-editing-view.md)의 두 가지 방식으로 조작할 수 있습니다.  또한 사용할 수 있는 필터링 기능은 현재 모드에 따라 달라집니다.
+보고서는 [읽기용 보기](service-reading-view-and-editing-view.md)와 [편집용 보기](service-interact-with-a-report-in-editing-view.md)의 두 가지 방식으로 조작할 수 있습니다.  또한 사용할 수 있는 필터링 기능은 현재 모드에 따라 달라집니다.
 
 * 편집용 보기에서는 보고서, 페이지 및 시각적 개체 필터를 추가할 수 있습니다. 보고서를 저장하면 필터가 함께 저장됩니다. 읽기용 보기에서 보고서를 보는 사람들은 사용자가 추가한 필터로 조작할 수 있지만 변경 사항을 저장할 수 없습니다.
 * 읽기용 보기에서는 모든 보고서, 페이지 및 보고서에 이미 있는 시각적 필터를 사용하여 조작할 수 있지만 필터 변경 사항을 저장할 수는 없습니다.
 
 > [!NOTE]
-> 이 문서는 보고서 **편집용 보기**에서 필터를 만드는 방법에 대해 설명합니다.  읽기용 보기에서 필터에 대한 자세한 내용은 [보고서 읽기용 보기에서 필터로 조작](service-interact-with-a-report-in-reading-view.md)을 참조하세요.
+> 이 문서는 보고서 **편집용 보기**에서 필터를 만드는 방법에 대해 설명합니다.  읽기용 보기에서 필터에 대한 자세한 내용은 [보고서 읽기용 보기에서 필터로 조작](service-reading-view-and-editing-view.md)을 참조하세요.
 > 
 > 
 
@@ -146,7 +146,7 @@ Power BI 서비스 및 Power BI Desktop의 드릴스루를 사용하여 공급 �
 
   [필터 및 보고서에서 강조 표시](power-bi-reports-filters-and-highlighting.md)
 
-[필터로 조작 및 보고서 읽기용 보기에서 강조 표시](service-interact-with-a-report-in-reading-view.md)
+[필터로 조작 및 보고서 읽기용 보기에서 강조 표시](service-reading-view-and-editing-view.md)
 
 [보고서 시각적 개체가 서로 교차 필터링 및 교차 강조 표시되는 방식 변경](service-reports-visual-interactions.md)
 

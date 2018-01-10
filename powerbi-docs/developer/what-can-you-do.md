@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: asaxton
-ms.openlocfilehash: a10cd93a06d14e3e66fd9cce480dc0ec99e67aeb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c5dfbbf5150dbf8ddb4388ac64f6c313eedd578e
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>개발자는 Power BI로 무엇을 할 수 있나요?
 Power BI는 개발자를 위한 다양한 옵션을 제공합니다. 여기에는 사용자 지정 시각적 개체에서 스트리밍 데이터 집합에 이르는 다양한 옵션이 포함됩니다.
@@ -51,7 +51,6 @@ Power BI API를 사용하여 데이터를 데이터 집합에 푸시할 수 있�
 [사용자 지정 시각적 개체를 Office 스토어에 게시](office-store.md)  
 [Power BI Visuals Git 리포지토리](https://github.com/Microsoft/PowerBI-visuals)  
 [JavaScript 포함 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Apiary의 Power BI API](http://docs.powerbi.apiary.io/#)  
 [Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: ffaf4439f48b23dcff8e965b5bea1aeaf19afcc0
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI Embedded 콘텐츠에서 행 수준 보안 사용
 행 수준 보안(RLS)를 사용하여 대시보드, 타일, 보고서 및 데이터 집합 내 데이터에 대한 사용자 액세스를 제한할 수 있습니다. 여러 사용자가 다른 데이터를 보면서 동일한 아티팩트를 작업할 수 있습니다. RLS 포함이 지원됩니다.
@@ -91,7 +91,7 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 집합 및 보고서를
 * **역할(필수)** – 행 수준 보안 규칙을 적용할 때 선택하는 역할을 포함하는 문자열입니다. 둘 이상의 역할을 전달하는 경우 문자열 배열로 전달되어야 합니다.
 * **데이터 집합(필수)** - 포함하는 아티팩트에 적용할 수 있는 데이터 집합입니다. 
 
-**PowerBIClient.Reports**에서 **GenerateTokenInGroup** 메서드를 사용하여 포함된 토큰을 만들 수 있습니다. 현재 보고서만 지원됩니다.
+**PowerBIClient.Reports**에서 **GenerateTokenInGroup** 메서드를 사용하여 포함된 토큰을 만들 수 있습니다. 
 
 예를 들어 [PowerBIEmbedded_AppOwnsData](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) 샘플을 변경할 수 있습니다. *Home\HomeController.cs 줄 76 및 77*은 다음에서 업데이트할 수 없습니다.
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 4dd18fba5b5e3da0f8973a77166551086cc3f3cf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>조직의 앱에 보고서 통합
 조직에 대한 콘텐츠를 포함할 때 Power BI JavaScript API와 함께 REST API 호출을 사용하여 보고서를 웹앱에 통합하거나 포함하는 방법에 대해 알아봅니다.
@@ -54,7 +54,7 @@ REST API 호출을 실행하려면 Azure AD를 사용해 응용 프로그램을 
 **Power BI** 보고서를 가져오려면, **Power BI** 보고서 목록을 가져오는 [보고서 가져오기](https://msdn.microsoft.com/library/mt634543.aspx) 작업을 사용합니다. 보고서 목록에서 보고서 id를 가져올 수 있습니다.
 
 ### <a name="get-reports-using-an-access-token"></a>액세스 토큰을 사용하여 보고서 가져오기
-[2단계](#step-2-get-an-access-token-from-azure-ad)에서 검색한 **액세스 토큰**을 사용하면 [보고서 가져오기](https://msdn.microsoft.com/library/mt634543.aspx) 작업을 호출할 수 있습니다. [보고서 가져오기](https://msdn.microsoft.com/library/mt634543.aspx) 작업은 보고서 목록을 반환합니다. 보고서 목록에서 단일 보고서를 가져올 수 있습니다. 다음은 보고서를 가져오는 전체 C# 메서드입니다. Power BI REST API를 사용하는 방법에 대한 예제는 [APIARY의 Power BI REST API](http://docs.powerbi.apiary.io/)를 참조합니다.
+[2단계](#step-2-get-an-access-token-from-azure-ad)에서 검색한 **액세스 토큰**을 사용하면 [보고서 가져오기](https://msdn.microsoft.com/library/mt634543.aspx) 작업을 호출할 수 있습니다. [보고서 가져오기](https://msdn.microsoft.com/library/mt634543.aspx) 작업은 보고서 목록을 반환합니다. 보고서 목록에서 단일 보고서를 가져올 수 있습니다. 다음은 보고서를 가져오는 전체 C# 메서드입니다. 
 
 REST API를 호출하려면 *권한 부여* 헤더를 *Bearer {access token}* 형식으로 포함해야 합니다.
 

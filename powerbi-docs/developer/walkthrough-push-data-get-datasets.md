@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: f0ca594b6f87ab2e186909f10a8ba4b7e1bce062
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a9dd782931904ada208b68ccbceeb7e1c0d95ec6
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4단계: Power BI 테이블에 행을 추가할 데이터 집합 가져오기
 이 문서는 [데이터 집합에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
-데이터 집합에 데이터 푸시의 **3단계** [Power BI에서 데이터 집합 만들기](walkthrough-push-data-create-dataset.md)에서는 [데이터 집합 만들기](https://msdn.microsoft.com/library/mt203562.aspx) 작업을 호출하여 Power BI에서 데이터 집합을 만들었습니다. 이 단계에서는 [데이터 집합 가져오기](https://msdn.microsoft.com/library/mt203567.aspx) 작업과 Newtonsoft.Json을 사용하여 데이터 집합 ID를 가져옵니다. 4단계의 데이터 집합 ID를 사용하여 데이터 집합에 행을 추가합니다. Power BI REST API를 사용하는 방법에 대한 예제는 [APIARY의 Power BI REST API](http://docs.powerbi.apiary.io/)를 참조합니다.
+데이터 집합에 데이터 푸시의 **3단계** [Power BI에서 데이터 집합 만들기](walkthrough-push-data-create-dataset.md)에서는 [데이터 집합 만들기](https://msdn.microsoft.com/library/mt203562.aspx) 작업을 호출하여 Power BI에서 데이터 집합을 만들었습니다. 이 단계에서는 [데이터 집합 가져오기](https://msdn.microsoft.com/library/mt203567.aspx) 작업과 Newtonsoft.Json을 사용하여 데이터 집합 ID를 가져옵니다. 4단계의 데이터 집합 ID를 사용하여 데이터 집합에 행을 추가합니다. 
 
 데이터를 Power BI 데이터 집합으로 푸시하려면 데이터 집합의 테이블을 참조해야 합니다. 데이터 집합의 테이블을 참조하려면 먼저 **데이터 집합 ID**를 가져와야 합니다. **데이터 집합 ID**는 [데이터 집합 가져오기](https://msdn.microsoft.com/library/mt203567.aspx) 작업을 사용하여 가져옵니다. **데이터 집합 가져오기** 작업은 Power BI에 있는 모든 데이터 집합의 목록이 포함된 JSON 문자열을 반환합니다. JSON 문자열을 역직렬화하는 데 권장되는 방법은 [Newtonsoft.Json](http://www.newtonsoft.com/json)을 사용하는 것입니다.
 
@@ -278,7 +278,6 @@ Program.cs에 이 코드를 추가합니다.
 [Power BI로 데이터 푸시](walkthrough-push-data.md)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
 [Power BI REST API 참조](https://msdn.microsoft.com/library/mt147898.aspx)  
-[APIARY의 Power BI REST API](http://docs.powerbi.apiary.io/)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

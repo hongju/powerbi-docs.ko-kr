@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 2e616369333d3bb2747ec20eb2072b69d5b9f9d5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 934b4d3f2da44a161cd76d14c9f042aaf697f26d
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>빠른 시작: Power BI Report Server 설치
 Power BI Report Server 자체를 신속하게 설치할 수 있습니다. 몇 분 이내에 다운로드, 설치 및 구성하도록 실행합니다.

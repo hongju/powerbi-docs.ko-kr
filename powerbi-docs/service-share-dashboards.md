@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 01/08/2018
 ms.author: maggies
-ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: d0fbe2ca891096cf8b1ae2145260c3341c451658
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. Power BI는 [대시보드를 공동 작업하고 배포하는 여러 방법](service-how-to-collaborate-distribute-dashboards-reports.md)을 제공하며, 공유는 그 중 하나입니다.
@@ -110,7 +110,7 @@ Power BI 모바일 앱에서 조직 외부의 사람들에게 링크를 보낼 �
 다음은 대시보드 공유에 관해 주의해야 할 점입니다.
 
 * 일반적으로 사용자 및 동료는 대시보드에서 동일한 데이터를 볼 수 있습니다. 따라서 사용자가 타인보다 더 많은 데이터를 볼 수 있는 권한을 가진 경우, 그들도 사용자의 대시보드의 모든 데이터를 볼 수 있게 됩니다. 그러나 [RLS(행 수준 보안)](service-admin-rls.md)가 대시보드 바탕이 되는 데이터 집합에 적용된 경우 각 사용자의 자격 증명은 해당 사용자가 액세스할 수 있는 데이터가 무엇인지 결정하는 데 사용됩니다.
-* 대시보드를 공유하는 모든 사용자는 대시보드를 보고 [읽기용 보기](service-report-open-in-reading-view.md)에서 보고서를 조작할 수 있습니다. 보고서를 만들거나 기존 보고서에 변경 내용을 저장할 수는 없습니다.
+* 대시보드를 공유하는 모든 사용자는 대시보드를 보고 [읽기용 보기](service-reading-view-and-editing-view.md)에서 보고서를 조작할 수 있습니다. 보고서를 만들거나 기존 보고서에 변경 내용을 저장할 수는 없습니다.
 * 데이터 집합을 다운로드하거나 볼 수는 없습니다.
 * 모든 사용자는 수동으로 [대시보드에서 데이터를 새로 고칠](refresh-data.md) 수 있습니다.
 * Office 365를 메일에 사용하는 경우 메일 그룹과 연결된 메일 주소를 입력하여 메일 그룹의 멤버와 공유할 수 있습니다.

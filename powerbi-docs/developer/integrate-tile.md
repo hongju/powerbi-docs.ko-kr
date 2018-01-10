@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>앱에 타일 통합(사용자 소유 데이터)
 조직에 대한 콘텐츠를 포함할 때 Power BI JavaScript API와 함께 REST API 호출을 사용하여 타일을 웹앱에 통합하거나 포함하는 방법에 대해 알아봅니다.
@@ -56,7 +56,7 @@ REST API 호출을 실행하려면 Azure AD를 사용해 응용 프로그램을 
 대시보드 ID가 먼저 검색되어야 타일을 가져올 수 있습니다. 대시보드를 검색하는 방법에 대한 자세한 내용은 [앱에 대시보드 통합(사용자 소유 데이터)](integrate-dashboard.md)을 참조하세요.
 
 ### <a name="get-tiles-using-an-access-token"></a>액세스 토큰을 사용하여 타일 가져오기
-[2단계](#step-2-get-an-access-token-from-azure-ad)에서 검색한 **액세스 토큰**을 사용하면 [타일 가져오기](https://msdn.microsoft.com/library/mt465741.aspx) 작업을 호출할 수 있습니다. [타일 가져오기](https://msdn.microsoft.com/library/mt465741.aspx) 작업은 타일 목록을 반환합니다. 타일의 목록에서 단일 타일을 가져올 수 있습니다. 다음은 타일을 가져오는 전체 C# 메서드입니다. Power BI REST API를 사용하는 방법에 대한 예제는 [APIARY의 Power BI REST API](http://docs.powerbi.apiary.io/)를 참조합니다.
+[2단계](#step-2-get-an-access-token-from-azure-ad)에서 검색한 **액세스 토큰**을 사용하면 [타일 가져오기](https://msdn.microsoft.com/library/mt465741.aspx) 작업을 호출할 수 있습니다. [타일 가져오기](https://msdn.microsoft.com/library/mt465741.aspx) 작업은 타일 목록을 반환합니다. 타일의 목록에서 단일 타일을 가져올 수 있습니다. 다음은 타일을 가져오는 전체 C# 메서드입니다. 
 
 REST API를 호출하려면 *권한 부여* 헤더를 *Bearer {access token}* 형식으로 포함해야 합니다.
 

@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/04/2017
-ms.author: asaxton
-ms.openlocfilehash: 03c19f34b9fab240a67cd8ed4d4b7ca3f66bb966
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.author: maghan
+ms.openlocfilehash: af1776e2f14f678569ae55d8bc05c7197475497f
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI Report Server에 대한 타임라인 지원
 Power BI Report Server는 매해 몇 번씩 릴리스됩니다. 보안 및 중요 업데이트는 다음 릴리스가 GA(일반 공급) 상태가 될 때까지 사용할 수 있습니다. 다음 릴리스 이후에도 이전의 릴리스는 12개월이라는 릴리스 수명의 나머지 기간 동안 계속 보안 업데이트됩니다.

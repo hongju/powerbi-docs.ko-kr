@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 68e1fdfe5fd86b247d05c5d93d9e6b724a8b07ba
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>나와 공유한 Power BI 대시보드 표시
 ## <a name="shared-with-me"></a>공유한 항목
@@ -34,7 +34,7 @@ Amanda가 **공유한 항목** 콘텐츠 목록을 설명하고 목록을 탐색
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
-소유자가 사용자에게 부여한 권한에 따라, 대시보드 및 기본 보고서와 상호 작용할 수 있는 많은 옵션을 갖게 됩니다. 이러한 옵션에는 대시보드 사본 만들기, [읽기 보기에서](service-interact-with-a-report-in-reading-view.md) 보고서 열기, 다른 동료와 다시 공유 등이 있습니다.
+소유자가 사용자에게 부여한 권한에 따라, 대시보드 및 기본 보고서와 상호 작용할 수 있는 많은 옵션을 갖게 됩니다. 이러한 옵션에는 대시보드 사본 만들기, [읽기 보기에서](service-reading-view-and-editing-view.md) 보고서 열기, 다른 동료와 다시 공유 등이 있습니다.
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>**공유한 항목** 화면에서 사용 가능한 작업
 * 별 아이콘을 선택하여 [대시보드를 즐겨찾기에 추가](service-dashboard-favorite.md)합니다.

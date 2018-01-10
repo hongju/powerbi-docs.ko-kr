@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 01/05/2017
 ms.author: asaxton
-ms.openlocfilehash: e62b08614a38502fb79f48f369013d32fd538659
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: aba135a0a790025f732379ecb07157f1150d999c
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI 데이터 집합에 데이터 푸시
 Power BI API를 사용하여 데이터를 Power BI 데이터 집합에 푸시할 수 있습니다. 예를 들어 기존 비즈니스 워크플로를 확장하여 키 데이터를 데이터 집합에 푸시하고자 한다고 가정합니다. 여기서는 Product 테이블을 포함하는 Sales Marketing 데이터 집합을 데이터 집합에 푸시하려고 합니다.
@@ -38,7 +38,7 @@ Power BI API를 사용하여 데이터를 Power BI 데이터 집합에 푸시할
 다음 섹션에서는 데이터를 푸시하는 Power BI API 작업에 대한 일반적인 내용을 설명합니다.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>데이터를 푸시하는 Power BI API 작업
-Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱이 데이터 집합에 행을 추가하면 대시보드의 타일이 업데이트된 데이터와 함께 자동으로 업데이트됩니다. 데이터를 푸시하려면 [데이터 집합 만들기](https://msdn.microsoft.com/library/mt203562.aspx) 작업과 함께 [행 추가](https://msdn.microsoft.com/library/mt203561.aspx) 작업을 사용합니다. 데이터 집합을 찾으려면 [데이터 집합 가져오기](https://msdn.microsoft.com/library/mt203567.aspx) 작업을 사용합니다. 이러한 작업에서는 그룹 ID를 전달하여 그룹으로 작업할 수 있습니다. 그룹 ID 목록을 가져오려면 [그룹 가져오기](https://msdn.microsoft.com/library/mt243842.aspx) 작업을 사용합니다. Power BI REST API를 사용하는 방법에 대한 예제는 [APIARY의 Power BI REST API](http://docs.powerbi.apiary.io/)를 참조합니다.
+Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱이 데이터 집합에 행을 추가하면 대시보드의 타일이 업데이트된 데이터와 함께 자동으로 업데이트됩니다. 데이터를 푸시하려면 [데이터 집합 만들기](https://msdn.microsoft.com/library/mt203562.aspx) 작업과 함께 [행 추가](https://msdn.microsoft.com/library/mt203561.aspx) 작업을 사용합니다. 데이터 집합을 찾으려면 [데이터 집합 가져오기](https://msdn.microsoft.com/library/mt203567.aspx) 작업을 사용합니다. 이러한 작업에서는 그룹 ID를 전달하여 그룹으로 작업할 수 있습니다. 그룹 ID 목록을 가져오려면 [그룹 가져오기](https://msdn.microsoft.com/library/mt243842.aspx) 작업을 사용합니다.
 
 데이터 집합에 데이터를 푸시하는 작업은 다음과 같습니다.
 
@@ -126,6 +126,5 @@ Power BI 테이블 스키마에는 다음과 같은 데이터 형식을 사용�
 [그룹 가져오기](https://msdn.microsoft.com/library/mt243842.aspx)  
 [JSON 개요](http://json.org/)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
-[APIARY의 Power BI REST API](http://docs.powerbi.apiary.io/)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

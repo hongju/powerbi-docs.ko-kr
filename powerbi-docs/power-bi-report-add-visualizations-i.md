@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: c8baa19eef8210a375e77acee379389ccd5dbade
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 82519877ac9a9603d87f20fc3f1155af34421078
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>1부, Power BI 보고서에 시각화 추가(자습서)
 이 문서는 보고서에서 시각화를 만드는 방법에 대해 간단히 소개합니다.  고급 내용을 보려면 [2부를 참조](power-bi-report-add-visualizations-ii.md)하세요. Amanda가 보여주는 보고서 캔버스에서 시각적 개체를 만들고, 편집하고, 서식을 지정하는 몇 가지 다양한 방법을 확인해 보세요. 그런 다음 직접 [영업 마케팅 샘플](sample-datasets.md)을 사용하여 자신만의 보고서를 만들어 보세요.
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/13/2017
    
    [자습서: 2부, Power BI 보고서에 시각화 추가](power-bi-report-add-visualizations-ii.md)를 계속 읽습니다.
    
-   보고서에서 [시각화로 조작](service-interact-with-a-report-in-reading-view.md)합니다.
+   보고서에서 [시각화로 조작](service-reading-view-and-editing-view.md)합니다.
    
    [시각화로 더 많은 작업을 할 수 있습니다](power-bi-report-visualizations.md).
    

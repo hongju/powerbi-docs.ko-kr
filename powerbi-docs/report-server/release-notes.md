@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: ffd0d1ce38a989121225a666ca4aa924df130216
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: aa0f8870396980edfdb85739e0459c365d1e2163
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="power-bi-report-server-release-notes"></a>Power BI Report Server 릴리스 정보
 이 항목에서는 Power BI Report Server의 제한 사항 및 문제를 설명합니다.

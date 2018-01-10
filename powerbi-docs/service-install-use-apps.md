@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다. 조직의 사용자는 주요 비즈니스 정보를 사용하여 앱을 만들고 배포할 수 있습니다. 이미 사용 중일 수 있는 Google 웹로그 분석 및 Microsoft Dynamics CRM과 같은 [외부 서비스](service-connect-to-services.md)에서도 Power BI 앱을 제공합니다. 
@@ -63,7 +63,7 @@ Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모
 3. **지금 가져오기**를 선택하여 앱 페이지에 추가합니다. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>앱에서 대시보드 및 보고서와 상호 작용
-이제 앱에서 대시보드 및 보고서의 데이터를 탐색할 수 있습니다. 필터링, 강조 표시, 정렬 및 드릴다운과 같은 모든 표준 Power BI 상호 작용에 액세스할 수 있습니다. [Power BI에서 보고서와 상호 작용](service-interact-with-a-report-in-reading-view.md)을 읽어 보세요. 
+이제 앱에서 대시보드 및 보고서의 데이터를 탐색할 수 있습니다. 필터링, 강조 표시, 정렬 및 드릴다운과 같은 모든 표준 Power BI 상호 작용에 액세스할 수 있습니다. [Power BI에서 보고서와 상호 작용](service-reading-view-and-editing-view.md)을 읽어 보세요. 
 
 변경 내용을 저장할 수는 없지만 언제든지 보고서의 테이블 또는 다른 시각적 개체에서 [데이터를 Excel로 내보낼](power-bi-visualization-export-data.md) 수는 있습니다.
 

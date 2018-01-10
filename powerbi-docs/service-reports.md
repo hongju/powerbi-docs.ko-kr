@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d974fbac281fc8f1d74553d1342f7056fa8d7b03
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Power BI의 보고서
 ## <a name="what-is-a-power-bi-report"></a>Power BI 보고서란?
@@ -71,7 +71,7 @@ Power BI를 처음 접하는 경우 [Power BI 기본 개념](service-basic-conce
 
 ### <a name="if-you-will-be-receiving-and-consuming-reports"></a>보고서를 받아 사용하는 경우
 * [Power BI 서비스 둘러보기](service-basic-concepts.md)에서 시작하면 보고서와 보고서 도구 위치를 파악할 수 있습니다.
-* [읽기용 보기](service-dashboard-tiles.md)에서 [보고서를 여는 방법](service-report-open-in-reading-view.md)과 모든 사용 가능한 상호 작용에 대해 살펴봅니다. 
+* [읽기용 보기](service-reading-view-and-editing-view.md)에서 [보고서를 여는 방법](service-report-open.md)과 모든 사용 가능한 상호 작용에 대해 살펴봅니다. 
 * [샘플](sample-tutorial-connect-to-the-samples.md) 중 하나를 둘러보면 보고서에 금방 익숙해 집니다.  
 * 보고서가 더 이상 필요하지 않는 경우 [제거할 수 있습니다](service-delete.md).
 * 보고서가 어떤 데이터 집합을 사용 중이며 어떤 대시보드가 보고서에서 고정된 타일이 있는지 확인하려면 [관련된 콘텐츠를 봅니다](service-related-content.md).
