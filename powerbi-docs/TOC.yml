@@ -350,14 +350,10 @@
           href: service-analyze-in-excel.md
         - name: 보고서에서 시각적 개체가 조작되는 방식 변경
           href: service-reports-visual-interactions.md
-        - name: 읽기용 보기에서 Power BI 보고서 열기
-          href: service-report-open-in-reading-view.md
-        - name: Power BI에서 읽기용 보기에서 편집용 보기로 전환
+        - name: 읽기용 보기 또는 편집용 보기로 Power BI 보고서 열기
           href: service-reading-view-and-editing-view.md
         - name: Power BI의 편집용 보기에서 보고서와 상호 작용
           href: service-interact-with-a-report-in-editing-view.md
-        - name: Power BI의 읽기용 보기에서 보고서와 상호 작용
-          href: service-interact-with-a-report-in-reading-view.md
         - name: Power BI 서비스에서 보고서를 만들기 위한 팁과 힌트
           href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: 분석 창
