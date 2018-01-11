@@ -1006,8 +1006,6 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: 리소스
       items:
-        - name: Apiary
-          href: 'https://go.microsoft.com/fwlink/?linkid=848278'
         - name: JavaScript embed 데모
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: 샘플
@@ -1052,6 +1050,8 @@
           href: report-server/data-sources.md
         - name: '데이터 원본 연결 '
           href: report-server/connect-data-sources.md
+        - name: 'OData 피드로 공유 데이터 집합에 액세스 '
+          href: report-server/access-dataset-odata.md
         - name: 예약된 새로 고침 구성
           href: report-server/configure-scheduled-refresh.md
         - name: 보고서에 메모 추가
