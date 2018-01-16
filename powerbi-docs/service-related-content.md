@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI 서비스에서 관련 콘텐츠 보기
 **관련 콘텐츠** 창은 Power BI 서비스 콘텐츠(대시보드, 보고서 및 데이터 집합)가 서로 어떻게 연결되어 있는지를 보여 줍니다.  그리고 이 창에서 새로 고침, 이름 바꾸기, 정보 생성 등과 같은 일반적인 작업을 수행할 수 있도록 기능이 향상되었습니다. 관련 보고서 또는 대시보드를 선택하면 Power BI 작업 영역에서 열립니다.   
@@ -74,7 +74,7 @@ ms.lasthandoff: 11/15/2017
 <br>
 **방법 2**
 
-[읽기용 보기](service-interact-with-a-report-in-reading-view.md)에서 보고서를 열고 맨 위 메뉴 모음에서 ![](media/service-related-content/power-bi-view-related-new.png)를 선택합니다.
+[읽기용 보기](service-reading-view-and-editing-view.md)에서 보고서를 열고 맨 위 메뉴 모음에서    ![](media/service-related-content/power-bi-view-related-new.png)를 선택합니다.
 
 **관련 콘텐츠** 창이 열립니다. 보고서에서 고정된 타일이 하나 이상 있는 관련 데이터 집합 및 모든 대시보드가 표시됩니다. 이 보고서의 경우 2개의 서로 다른 대시보드에 고정된 시각화가 있습니다.
 
@@ -97,7 +97,7 @@ ms.lasthandoff: 11/15/2017
 
 ## <a name="limitations-and-troubleshooting"></a>제한 사항 및 문제 해결
 * 브라우저에 충분한 공간이 없는 경우 **관련 항목 보기** 옵션이 표시되지 않지만 관련 항목 보기 아이콘 ![](media/service-related-content/power-bi-view-related-icon-new.png)은 계속 표시됩니다. **관련 콘텐츠** 창을 여는 아이콘을 선택합니다.
-* 보고서에 대한 관련 콘텐츠를 열려면 [읽기용 보기](service-interact-with-a-report-in-reading-view.md)여야 합니다.
+* 보고서에 대한 관련 콘텐츠를 열려면 [읽기용 보기](service-reading-view-and-editing-view.md)여야 합니다.
 * 관련 콘텐츠는 Power BI Desktop에서 사용할 수 없습니다.
 * 스트리밍 데이터 집합에는 관련 콘텐츠 기능이 작동하지 않습니다.
 

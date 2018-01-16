@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>보고서 필터 창 둘러보기
 이 문서에서는 보고서 필터 창을 자세히 살펴봅니다. Power BI 보고서에 대한 편집용 보기 및 읽기용 보기에서 창이 표시됩니다.
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/15/2017
 Power BI에서 데이터를 필터링하는 다양한 방법이 있으며, [필터 및 강조 표시 정보](power-bi-reports-filters-and-highlighting.md)를 먼저 읽어보는 것이 좋습니다.
 
 ## <a name="working-with-filters"></a>필터 작업
-[편집용 보기](service-interact-with-a-report-in-editing-view.md) 또는 [읽기용 보기](service-interact-with-a-report-in-reading-view.md)에서 보고서를 열 수 있습니다. 편집용 보기에서 보고서 소유자는 [보고서에 필터를 추가](power-bi-report-add-filter.md)할 수 있으며 이러한 필터는 보고서와 함께 저장됩니다. 편집용 보기에서 보고서를 보는 사람은 필터와 상호 작용할 수 있지만 보고서에 필터 변경 사항을 저장할 수 없습니다.
+[편집용 보기 또는 읽기용 보기](service-reading-view-and-editing-view.md)에서 보고서를 열 수 있습니다. 편집용 보기에서 보고서 소유자는 [보고서에 필터를 추가](power-bi-report-add-filter.md)할 수 있으며 이러한 필터는 보고서와 함께 저장됩니다. 읽기용 보기에서 보고서를 보는 사람은 필터와 상호 작용할 수 있지만 보고서에 필터 변경 사항을 저장할 수 없습니다.
 
 ## <a name="filters-in-reading-view"></a>읽기용 보기의 필터
 보고서가 읽기용 보기에서 열린 경우 필터 창은 보고서 캔버스의 오른쪽에 표시됩니다. 창이 표시되지 않는 경우 오른쪽 위 모서리의 화살표를 선택하여 확장합니다.
@@ -122,7 +122,7 @@ Power BI에서 데이터를 필터링하는 다양한 방법이 있으며, [필�
 
 ## <a name="next-steps"></a>다음 단계
 [필터 및 보고서에서 강조 표시](power-bi-reports-filters-and-highlighting.md)  
-[필터로 조작 및 보고서 읽기용 보기에서 강조 표시](service-interact-with-a-report-in-reading-view.md)  
+[필터로 조작 및 보고서 읽기용 보기에서 강조 표시](service-reading-view-and-editing-view.md)  
 [보고서 편집용 보기에서 필터 만들기](power-bi-report-add-filter.md)  
 [보고서 시각적 개체가 서로 교차 필터링 및 교차 강조 표시되는 방식 변경](service-reports-visual-interactions.md)
 

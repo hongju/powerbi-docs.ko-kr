@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: f31d37b6fe9c0e4695719b9bbaa13a2c8deabc75
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 01/05/2018
+ms.author: maghan
+ms.openlocfilehash: c3a9cbd22f2304d19ae876962d0bf798fbd41183
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>Power BI Report Server에서 OData 피드로 공유 데이터 집합에 액세스
 OData 피드로 Power BI Desktop에서 공유 데이터 집합에 액세스할 수 있습니다.
@@ -38,7 +38,7 @@ OData 피드로 Power BI Desktop에서 공유 데이터 집합에 액세스할 �
 
 개방형 형식 열을 설정하고 필요에 맞게 파워 쿼리에서 그에 따라 열 형식을 지정할 수 있도록 **고급 옵션**을 사용해야 합니다.
 
-[Power BI Desktop에서 OData 필드에 연결](../desktop-connect-odata.md)에 대해 자세히 알아보세요.
+[Power BI Desktop에서 OData 피드에 연결](../desktop-connect-odata.md)에 대해 자세히 알아보세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

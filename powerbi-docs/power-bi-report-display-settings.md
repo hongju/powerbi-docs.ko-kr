@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 보고서의 페이지 표시 설정
 보고서 레이아웃 픽셀을 완벽하게 유지하는 것이 어렵다는 것을 알고 있습니다. 화면에 표시된 보고서의 가로 세로 비율과 크기는 보는 사람마다 다르기 때문에 어려울 때도 있습니다 
@@ -45,7 +45,7 @@ Power BI 서비스에서 보고서를 열고 상단 왼쪽 메뉴 모음에서 *
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-페이지 보기 설정은 [읽기용 보기](service-interact-with-a-report-in-reading-view.md)와 [편집용 보기](service-interact-with-a-report-in-editing-view.md)에서 모두 사용할 수 있습니다. 편집용 보기에서 보고서 소유자는 개별 보고서 페이지에 페이지 보기 설정을 할당할 수 있으며 해당 설정은 보고서와 함께 저장됩니다. 동료가 이 보고서를 읽기용 보기로 열면 소유자의 설정에 따라보고서 페이지가 표시됩니다.  읽기용 보기에서 동료는 페이지 보기 설정의 *일부*를 변경할 수 있지만 보고서를 종료하면 변경 내용이 저장되지 않습니다.
+페이지 보기 설정은 [읽기용 보기와 편집용 보기](service-reading-view-and-editing-view.md)에서 모두 사용할 수 있습니다. 편집용 보기에서 보고서 소유자는 개별 보고서 페이지에 페이지 보기 설정을 할당할 수 있으며 해당 설정은 보고서와 함께 저장됩니다. 동료가 이 보고서를 읽기용 보기로 열면 소유자의 설정에 따라보고서 페이지가 표시됩니다.  읽기용 보기에서 동료는 페이지 보기 설정의 *일부*를 변경할 수 있지만 보고서를 종료하면 변경 내용이 저장되지 않습니다.
 
 ##    <a name="page-view-settings"></a>페이지 보기 설정
 *페이지 보기* 설정의 첫 번째 집합은 보고서 페이지를 브라우저 창과 상대적으로 제어합니다.  다음 중에서 선택합니다.

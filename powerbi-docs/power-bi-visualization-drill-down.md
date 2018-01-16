@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/18/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 83c63ee2bed5ae7674223cf2fc3f9241308926e9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Power BI에서 시각화 드릴다운
 ## <a name="drill-down-requires-a-hierarchy"></a>드릴다운 시 계층 구조 필요
@@ -54,7 +54,7 @@ Power BI 시각화에 계층 구조가 포함되어 있는 것이 확실한가�
 ## <a name="method-1-for-drill-down"></a>1개의 방법을 드릴다운
 이 메서드는 자체 시각화의 위쪽 코너에 표시되는 드릴 아이콘을 사용합니다.
 
-1. Power BI에서 [읽기용 보기](service-report-open-in-reading-view.md) 또는 [편집용 보기](service-reading-view-and-editing-view.md)로 보고서를 엽니다. 드릴을 위해서는 계층 구조를 갖는 시각화가 필요합니다. 
+1. Power BI에서 [읽기용 보기 또는 편집용 보기](service-reading-view-and-editing-view.md)로 보고서를 엽니다. 드릴을 위해서는 계층 구조를 갖는 시각화가 필요합니다. 
    
    계층 구조는 아래 애니메이션에 표시됩니다.  시각화는 지역, 도시, 우편번호 및 도시 이름으로 구성된 계층 구조로 이루어집니다. 예를 들면 각 지역에 하나 이상의 도시가 있고 각 도시에 하나 이상의 우편 번호가 있습니다. 기본적으로 지역은 목록에서 첫 번째로 표시되기 때문에 시각화는 지역 데이터만 표시합니다.
    
@@ -75,7 +75,7 @@ Power BI 시각화에 계층 구조가 포함되어 있는 것이 확실한가�
 ## <a name="method-2-for-drill-down"></a>2개의 방법을 드릴다운
 이 메서드는 상위 Power BI 메뉴 모음에서 **탐색**을 사용합니다.
 
-1. Power BI에서 [읽기용 보기](service-report-open-in-reading-view.md) 또는 [편집용 보기](service-reading-view-and-editing-view.md)로 보고서를 엽니다. 드릴을 위해서는 계층 구조를 갖는 시각화가 필요합니다. 
+1. Power BI에서 [읽기용 보기 또는 편집용 보기](service-reading-view-and-editing-view.md)로 보고서를 엽니다. 드릴을 위해서는 계층 구조를 갖는 시각화가 필요합니다. 
    
    계층 구조는 아래 이미지로 표시됩니다.  시각화는 지역, 도시, 우편번호 및 도시 이름으로 구성된 계층 구조로 이루어집니다. 예를 들면 각 지역에 하나 이상의 도시가 있고 각 도시에 하나 이상의 우편 번호가 있습니다. 기본적으로 지역은 목록에서 첫 번째로 표시되기 때문에 시각화는 지역 데이터만 표시합니다.
    

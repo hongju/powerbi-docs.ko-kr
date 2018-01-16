@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/4/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 Power BI 서비스에서 보고서를 열면 보고서의 페이지마다 고유한 URL을 보유합니다. 보고서 페이지를 필터링하려면 보고서 캔버스에서 필터 창을 사용할 수 있습니다.  또는 URL에 쿼리 문자열 매개 변수를 추가하여 보고서를 필터링할 수 있습니다. 동료에게 보여 주고 싶은 보고서가 있고 이를 위해 미리 필터링하려고 할 수 있습니다. 이 작업을 수행하는 한 가지 방법은 보고서에 대한 기본 URL로 시작하고 필터 매개 변수를 URL에 추가한 후 전체 URL을 전자 메일로 보내는 것입니다.
@@ -41,7 +41,7 @@ URL?filter=***Table***/***Field*** eq '***value***'
 * **Table** 및 **Field** 이름은 대소문자를 구분하고 **value**는 구분하지 않습니다.
 * 보고서 보기에서 숨겨진 필드는 계속 필터링할 수 있습니다.
 * **Value**는 작은따옴표로 묶어야 합니다.
-* 필드 형식은 문자열이어야 합니다.
+* 필드 유형은 숫자 또는 문자열이어야 합니다.
 * 테이블 및 필드 이름에는 공백을 포함할 수 없습니다.
 
 여전히 혼동되는 경우 계속 읽어 보고 자세히 분석합니다.  
@@ -108,7 +108,7 @@ https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/R
 쿼리 문자열 매개 변수를 사용할 때 알아야 할 몇 가지 사항이 있습니다.
 
 * 쿼리 문자열 필터링은 [웹에 게시](service-publish-to-web.md) 또는 Power BI Embedded에는 작동하지 않습니다.   
-* 필드 형식은 문자열이어야 합니다.
+* 필드 유형은 숫자 또는 문자열이어야 합니다.
 * 테이블 및 필드 이름에는 공백을 포함할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계

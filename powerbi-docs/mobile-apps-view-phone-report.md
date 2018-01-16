@@ -15,22 +15,29 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>전화에 대해 최적화된 Power BI 보고서 보기
+
+적용 대상:
+
+| ![iPhone](media/mobile-apps-view-phone-report/ios-logo-40-px.png) | ![Android 휴대폰](media/mobile-apps-view-phone-report/android-logo-40-px.png) |
+|:--- |:--- |
+| iPhone |Android 휴대폰 |
+
 Power BI Desktop에서 Power BI 보고서를 만들 때 [Power BI 휴대폰 앱에 대해 최적화된 보고서](desktop-create-phone-report.md) 버전을 만들 수 있습니다.
 
 그런 다음 휴대폰으로 Power BI 보고서를 열면 Power BI는 보고서가 휴대폰용으로 최적화되었는지 감지하고 최적화된 보고서를 세로 보기에서 자동으로 엽니다.
 
 ![세로 모드 보고서](media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
 
-전화에 최적화 보고서 없다면 보고서는 열리지만 최적화되지 않은 가로 보기 화면으로 열립니다. 휴대폰에 최적화된 보고서에서도 휴대폰을 옆으로 돌리면 보고서는 최적화 되지 않은 보기에서 원본 보고서 레이아웃으로 열립니다. 일부 페이지만 최적화된 경우, 사용자는 세로 보기 메시지를 보게 될 것이며 이는 보고서가 가로 보기로 사용 가능하다는 것을 의미합니다.
+전화에 최적화 보고서 없다면 보고서는 열리지만 최적화되지 않은 가로 보기 화면으로 열립니다. 휴대폰에 최적화된 보고서에서도 휴대폰를 옆으로 돌리면 보고서는 최적화 되지 않은 보기에서 원본 보고서 레이아웃으로 열립니다. 일부 페이지만 최적화된 경우, 사용자는 세로 보기 메시지를 보게 될 것이며 이는 보고서가 가로 보기로 사용 가능하다는 것을 의미합니다.
 
 ![최적화되지 않은 보고서 페이지](media/mobile-apps-view-phone-report/06-power-bi-phone-report-page-not-optimized.png)
 
@@ -47,7 +54,7 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
    
     ![휴대폰 BI 휴대폰 보고서 고급 필터](media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
-## <a name="cross-highlight-visuals"></a>시각적 개체를 강조 표시합니다.
+## <a name="cross-highlight-visuals"></a>시각적 개체을 강조 표시합니다.
 휴대폰 보고서의 시각적 개체를 강조 표시하면 Power BI 서비스에서나 보고서를 휴대폰으로 가로 보기하는 것과 동일하게 작동합니다. 한 시각적 개체에서 데이터를 선택하면 그 페이지의 다른 시각적 개체에 있는 관련 데이터도 강조 표시됩니다.
 
 [Power BI에서 필터링 및 강조 표시](power-bi-reports-filters-and-highlighting.md)에 대해 자세히 알아보세요.

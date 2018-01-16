@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: fb498f2b3320b96958467a9db851f119dba20ce7
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Power BI를 사용하여 데이터 정보를 자동으로 생성
 새 데이터 집합이 있고 어디서 시작해야 할지가 확실하지 않은 경우  빠르게 대시보드를 만들어야 하는 경우  놓쳤을 수 있는 정보를 찾으려는 경우
@@ -71,7 +71,7 @@ Amanda가 데이터 집합에 대한 신속한 정보 활용을 실행하고, �
     ![](media/service-insights/power-bi-insight-focus.png)
 3. 포커스 모드에서는 다음 작업을 수행할 수 있습니다.
    
-   * 시각화를 [필터링](service-interact-with-a-report-in-reading-view.md)합니다.  필터를 표시하려면 오른쪽 위에 있는 화살표를 선택하여 필터 창을 확대합니다.
+   * 시각화를 필터링합니다.  필터를 표시하려면 오른쪽 위에 있는 화살표를 선택하여 필터 창을 확대합니다.
      
         ![](media/service-insights/power-bi-insights-filter-new.png)
    * ![](media/service-insights/power-bi-pin-icon.png) 아이콘 또는 **시각적 요소 고정**을 선택하여 대시보드에 정보 활용 카드를 고정합니다.

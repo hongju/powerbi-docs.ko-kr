@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4a8ea2acfcfe41192b82addfe52dbe67a0df8088
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.date: 01/04/2018
+ms.author: maghan
+ms.openlocfilehash: 1eaa549bf42c17cd2bd857efd4d50b991e862ea0
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 서비스 콘텐츠 팩 프로그램의 개요
 콘텐츠 팩은 사용자가 원본에서 즉시 정보를 얻을 수 있도록 해주는 기본 제공 콘텐츠 집합입니다. 일반적으로 콘텐츠 팩은 역할, 도메인, 워크플로에 대한 정보를 제공하는 특정 비즈니스 시나리오에 초점을 둡니다.
@@ -49,6 +49,7 @@ PowerBI 서비스 및 AppSource에 게시될 콘텐츠 팩을 빌드하고 제�
 * 비즈니스 사용자가 사용할 SaaS 응용 프로그램이 있습니다.
 * SaaS 응용 프로그램에 Power BI에서 시각화될 수 있는 사용자 데이터가 있습니다.
 * SaaS 응용 프로그램에 공용 인터넷을 통해 액세스할 수 있는 API가 있습니다. 이상적으로 API는 REST 기반 API 또는 OData 피드입니다. Power BI 콘텐츠 팩은 기본 인증, OAuth 2.0 및 API 키와 같은 여러 인증 유형을 지원합니다. 
+* SaaS 응용 프로그램은 콘텐츠 팩을 게시할 수 있도록 승인되었습니다. 요청을 pbiservicesapps@microsoft.com에 제출합니다. 관련성 및 예상 사용에 대한 각 제출물을 검토합니다. 
 * 서명된 파트너 계약입니다. [제출 단계](template-content-pack-testing.md#submission)에서 해당 작업을 수행합니다.
 
 기술 요구 사항에 대한 자세한 내용은 [제작](template-content-pack-authoring.md) 섹션을 검토하세요.

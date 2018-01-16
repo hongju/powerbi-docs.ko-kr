@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: b96ea3b0de070bee292b1d59a5abd9b0739a656a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -30,24 +30,50 @@ ms.lasthandoff: 11/13/2017
 * [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](service-whats-new.md)  
 
-## <a name="september-2017"></a>2017년 9월
-### <a name="filters-for-phone-reports-in-iphones"></a>iPhone에서 휴대폰 보고서에 대한 필터
+## <a name="december-2017"></a>2017년 12월
+### <a name="improved-permission-management"></a>향상된 사용 권한 관리
+
+데이터 집합, 대시보드 및 보고서에 대한 사용자 권한을 보다 정밀하게 관리할 수 있도록 몇 가지 기능이 변경되었습니다.
+
+### <a name="auto-installed-apps"></a>자동 설치된 앱
+
+일부 앱은 Power BI에 설치할 필요가 없습니다. 조직의 Power BI 응용 프로그램 작성자는 대시보드 및 보고서 컬렉션을 포함하는 *앱*을 만들 수 있습니다. 그런 다음 앱을 게시하여 Power BI 서비스 및 Power BI 모바일 앱에 자동으로 설치하도록 설정할 수 있습니다. 앱이 설치되도록 설정되면 **앱** 메뉴에 앱이 자동으로 표시됩니다.
+
+![Power BI 모바일 앱의 앱](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
+
+## <a name="november-2017"></a>2017년 11월
+### <a name="iphone-x-optimization"></a>iPhone X 최적화
+
+iPhone X용 앱 레이아웃을 최적화하여 모든 장치의 스타일에 맞게 데이터를 탐색할 수 있습니다.
+
+## <a name="october-2017"></a>2017년 10월
+### <a name="filters-for-phone-reports-in-android"></a>Android에서 휴대폰 보고서에 대한 필터
+
+Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서를 만들고 보고서에 필터가 있는 경우 이제 Android에서 휴대폰 보고서에 이러한 필터를 적용할 수 있습니다. Android의 Power BI 보고서에 대한 필터에서 자세히 알아봅니다.
+
+### <a name="show-data-in-reports"></a>보고서에 데이터 표시
+
+이제 보고서의 시각적 개체를 테이블 보기로 전환하여 데이터 뒤의 숫자를 볼 수 있습니다. 이 기능에 액세스하려면 보고서의 시각적 개체 메뉴의 "데이터 표시" 또는 확장된 시각적 개체의 작업 메뉴에 있는 새 아이콘을 탭합니다.
+
+## <a name="previous-months"></a>이전 달
+
+### <a name="september-2017"></a>2017년 9월
+#### <a name="filters-for-phone-reports-in-iphones"></a>iPhone에서 휴대폰 보고서에 대한 필터
 Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서를 만들고 보고서에 필터가 있는 경우 이제 iPhone에서 휴대폰 보고서에 이러한 필터를 적용할 수 있습니다. [iPhone의 Power BI 보고서에 대한 필터](https://powerbi.microsoft.com/blog/filters-coming-for-phone-reports-on-ios/)에서 자세히 알아봅니다.
 
-## <a name="august-2017"></a>2017년 8월
-### <a name="ios-proxy-settings-support"></a>iOS 프록시 설정 지원
+### <a name="august-2017"></a>2017년 8월
+#### <a name="ios-proxy-settings-support"></a>iOS 프록시 설정 지원
 이제 Power BI iOS 모바일 앱에서 프록시 설정을 지정할 수 있습니다. 즉, Power BI는 이제 모바일 장치에서 VPN 연결을 통해 더 많은 사용자와 조직이 이동 중에 Power BI의 능력을 안전하게 활용할 수 있도록 합니다.
 
-## <a name="july-2017"></a>2017년 7월
+### <a name="july-2017"></a>2017년 7월
 [2017년 7월 모바일 앱 기능 요약](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)을 읽어보세요.
 
-### <a name="ios-devices"></a>iOS 장치
+#### <a name="ios-devices"></a>iOS 장치
 **iOS에서 새로운 질문 및 답변 환경(미리 보기)** 이제 단순히 질문에 대한 답변을 받는 대신, 자연어를 사용하여 지정된 범위의 신속한 정보 활용이 가능합니다. 원하는 정보가 확실하지 않더라도 질문 및 답변은 사용자 데이터와 관련된 유용한 정보를 사전에 노출합니다. Microsoft Research 팀과 공동 작업으로 개발된 모바일 기반 새로운 질문 및 답변 환경은 제품 내에서 강력한 기술을 선보입니다. [iOS 모바일 앱의 데이터에 대해 질문하기(자습서)](mobile-apps-ios-qna.md)를 시도해 보세요.
 
 ### <a name="responsive-visuals"></a>반응형 시각적 개체
 **휴대폰 보고서 및 대시보드를 위한 반응형 시각적 개체**대시보드 또는 보고서에서 시각적 개체를 *반응형*으로 설정하여 화면 크기와 상관없이 최대 데이터 양 및 정보를 표시하도록 동적으로 변경할 수 있습니다. [반응형 시각적 개체에 대한 블로그](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)를 읽어 보세요.
 
-## <a name="previous-months"></a>이전 달
 ### <a name="june-2107"></a>2017년 6월
 #### <a name="all-devices"></a>모든 장치
 **앱 즐겨찾기 만들기** 대시보드를 즐겨찾기로 만들 수 있습니다. 최근에는 [Power BI에서 앱을 추가했으며](service-install-use-apps.md) 이제 앱 즐겨찾기 만들기도 수행할 수 있습니다. 

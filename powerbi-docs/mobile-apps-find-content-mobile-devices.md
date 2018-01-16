@@ -1,6 +1,6 @@
 ---
 title: "Power BI 모바일 앱에서 대시보드, 보고서, 앱 찾기"
-description: "Power BI 모바일 앱에서 출처에 따라 대시보드 및 보고서를 찾을 수 있는 위치에 대해 알아봅니다."
+description: "Power BI 모바일 앱의 출처에 따라 대시보드, 보고서, 앱을 찾을 수 있는 위치에 대해 알아봅니다."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드, 보고서, 앱 찾기
 적용 대상:
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/13/2017
 ## <a name="3-apps"></a>3 앱
 앱은 더 빠르고 쉬운 데이터 기반 결정을 위한 핵심 메트릭을 제공하기 위해 조직에서 목적에 맞게 작성한 대시보드 및 보고서 컬렉션입니다. 앱은 Power BI 서비스([https://powerbi.com](https://powerbi.com))에서 쉽게 찾아 설치할 수 있습니다. 설치한 후에는 모든 장치에서 볼 수 있습니다. 
 
-![새 Power BI 탐색](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![새 Power BI 탐색](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 사용자는 앱을 통해 작성자가 수행한 모든 업데이트를 자동으로 받게 되며, 작성자가 데이터의 새로 고침 주기도 제어합니다. 작성자의 변경 사항을 최신 상태로 유지하는 것에 대해서는 염려하지 않아도 됩니다.
 

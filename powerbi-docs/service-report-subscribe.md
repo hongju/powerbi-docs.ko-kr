@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Power BI 보고서 또는 대시보드 구독
 가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서 스냅숏을 전자 메일로 받은 편지함에 보냅니다. Power BI에 전자 메일 수신 빈도(예: 하루에 한 번에서 일주일에 한 번)를 알려줍니다. 전자 메일 및 스냅숏은 Power BI 설정에 지정된 언어를 사용합니다. 언어가 정의되지 않으면 Power BI는 현재 브라우저 언어를 사용합니다.
@@ -65,7 +65,7 @@ Sirui가 보고서의 전자 메일 구독을 설정하는 것을 보세요. 그
    ![](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>보고서 페이지 구독
-1. [읽기용 보기](service-report-open-in-reading-view.md)에서 보고서를 엽니다.
+1. [읽기용 보기](service-reading-view-and-editing-view.md)에서 보고서를 엽니다.
 2. 맨 위 메뉴 모음에서 **구독**을 선택합니다.
    
    ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
@@ -109,6 +109,7 @@ Pro 라이선스가 만료되고, 소유자가 대시보드 또는 보고서를 
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 * 현재 콘텐츠 팩 또는 Power BI 앱에서 제공되는 대시보드 또는 보고서에는 구독을 사용할 수 없습니다. 하지만 해결 방법이 있습니다. 보고서/대시보드를 복사하고 구독을 해당 버전에 추가합니다.
+* 보고서 페이지 구독은 보고서 페이지의 이름과 연결됩니다. 보고서 페이지를 구독하고 이름을 바꾸면 구독을 다시 만들어야 합니다.
 * 라이브 연결 데이터 집합에 대한 전자 메일 구독의 경우 데이터가 변경될 때만 전자 메일을 받습니다. 따라서 새로 고침이 발생했지만 데이터가 변경되지 않았으면 Power BI에서 전자 메일을 보내지 않습니다.
 * 전자 메일 구독은 대부분의 [사용자 지정 시각적 개체](power-bi-custom-visuals.md)를 지원하지 않습니다.  한 가지 예외는 [인증](power-bi-custom-visuals-certified.md)된 사용자 지정 시각적 개체입니다.  
 * 전자 메일 구독은 보고서의 기본 필터 및 슬라이서 상태와 함께 보내집니다. 구독하기 전에 수행된 기본값에 대한 변경 사항은 전자 메일에 표시되지 않습니다.    
