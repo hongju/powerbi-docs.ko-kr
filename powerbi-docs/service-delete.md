@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: e2f1ca5abf05c92e76497d7b50600e6ef12e03fc
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 2994e61407bd858792e73019472cd6752abb401d
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 요소 삭제
 이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 통합 문서, 데이터 집합, 앱, 시각화 및 작업 영역을 삭제하는 방법을 안내합니다.
@@ -141,7 +141,7 @@ ms.lasthandoff: 12/21/2017
 이 문서는 Power BI 서비스의 주요 구성 요소를 삭제하는 방법을 소개했습니다. 그러나 Power BI에서 삭제할 수 있는 몇 가지가 더 있습니다.  
 
 * [주요 대시보드 제거](service-dashboard-featured.md#change-the-featured-dashboard)
-* [대시보드 제거(즐겨찾기 해제)](service-dashboard-favorite.md#unfavorite-a-dashboard)
+* [대시보드 제거(즐겨찾기 해제)](service-dashboard-favorite.md)
 * [보고서 페이지 삭제](service-delete.md)
 * [대시보드 타일 삭제](service-dashboard-edit-tile.md)
 * [보고서 시각화 삭제](service-delete.md)
