@@ -71,7 +71,7 @@ Power BI Desktop을 설치한 다음 Power BI Report Server에 최적화된 Powe
 Power BI Report Server 내에서 Power BI 보고서를 편집하거나 웹 포털에서 새 Power BI 보고서를 만들면 올바른 버전의 Power BI Destop이 열립니다.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
-Power BI Report Server 및 Power BI 서비스(http://powerbi.com)의 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
+Power BI Report Server 및 Power BI 서비스 (http://powerbi.com) 의 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
 
 ### <a name="in-a-browser"></a>브라우저에서
 Power BI Report Server 보고서는 다음을 비롯한 모든 시각화를 지원합니다.

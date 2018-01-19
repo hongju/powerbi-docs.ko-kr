@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: 데이터에 대해 질문하기
       items:
-        - name: Power BI의 질문 및 답변
-          href: service-q-and-a.md
-        - name: Power BI 사용 방법 질문 및 답변
-          href: service-how-to-q-and-a.md
-        - name: '자습서: Power BI 질문 및 답변 시작'
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Power BI Gateway - Enterprise 데이터에 대한 질문 및 답변 사용(미리 보기)
-          href: service-q-and-a-direct-query.md
-        - name: Power BI의 질문 및 답변에서 데이터가 잘 작동하도록 설정
-          href: service-prepare-data-for-q-and-a.md
-        - name: Power BI용 Cortana 소개
-          href: service-cortana-intro.md
-        - name: Power BI에 대해 Cortana 사용
-          href: service-cortana-enable.md
-        - name: Power BI 질문 및 답변에 대한 추천 질문 만들기
-          href: service-q-and-a-create-featured-questions.md
-        - name: Power BI Q&A에서 질문하기 위한 팁과 요령
-          href: service-q-and-a-tips.md
-        - name: Cortana 문제 해결
-          href: service-cortana-troubleshoot.md
+        - name: 개요
+          items:
+            - name: Power BI의 질문 및 답변
+              href: power-bi-q-and-a.md
+            - name: Power BI용 Cortana 소개
+              href: service-cortana-intro.md
+        - name: 빠른 시작
+          items:
+            - name: Power BI 질문 및 답변 시작
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: 자습서
+          items:
+            - name: 질문 및 답변을 사용하여 시각화를 만들고 보고서 작성
+              href: power-bi-tutorial-q-and-a.md
+        - name: 방법
+          items:
+            - name: Power BI Gateway - Enterprise 데이터에 대한 질문 및 답변 사용(미리 보기)
+              href: service-q-and-a-direct-query.md
+            - name: Power BI의 질문 및 답변에서 데이터가 잘 작동하도록 설정
+              href: service-prepare-data-for-q-and-a.md
+            - name: Power BI에 대해 Cortana 사용
+              href: service-cortana-enable.md
+            - name: Power BI 질문 및 답변에 대한 추천 질문 만들기
+              href: service-q-and-a-create-featured-questions.md
+        - name: 리소스
+          items:
+            - name: Power BI Q&A에서 질문하기 위한 팁과 요령
+              href: service-q-and-a-tips.md
+            - name: Cortana 문제 해결
+              href: service-cortana-troubleshoot.md
     - name: 작업 공유
       items:
         - name: 대시보드 및 보고서를 공동 작업 및 공유하는 방법
