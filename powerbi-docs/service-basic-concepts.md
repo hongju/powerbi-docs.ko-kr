@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: bebd31bbdbd2a571d565c6939199eedd7ecdb049
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: be245be7c8f83cb363e93a5d2bc452418f436e37
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 서비스에 대한 기본 개념
 
@@ -238,7 +238,8 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 시작](service-get-started.md)  
-[Power BI 비디오](videos.md)  
+[탐색: Power BI 서비스 살펴보기](service-the-new-power-bi-experience.md)
+[Power BI 동영상](videos.md)  
 [보고서 편집기 - 둘러보기](service-the-report-editor-take-a-tour.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

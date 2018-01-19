@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -32,6 +32,13 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 ## <a name="october-2017"></a>2017년 10월
 
 - **Power BI Report Server**
+    - *버전 1.1.6582.41691(빌드 14.0.600.442), 릴리스 날짜: 2018년 1월 10일*
+        - 보안 업데이트
+        - 버그 픽스
+            - 400을 반환하는 Model.GetParameters 수정
+            - 공유 데이터 집합을 기존의 페이지를 매긴 보고서(RDL)로 설정하는 문제 수정
+            - 다른 매개 변수 값을 사용한 보고서를 PDF로 내보낼 때 ExecutionNotFoundException 수정
+
     - *버전 1.1.6551.5155(빌드 14.0.600.438), 릴리스 날짜: 2017년 12월 11일*
         - 버그 픽스
             - 특정 Power BI Desktop 보고서를 새로 고친 후 데이터가 저장되지 않습니다.
@@ -61,6 +68,9 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
             - 내게 필요한 옵션 기능 향
 
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
+    - *버전: 2.51.4885.2501(2017년 10월), 릴리스 날짜: 2018년 1월 10일*
+        - 보안 업데이트
+
     - *버전: 2.51.4885.1423(2017년 10월), 릴리스 날짜: 2017년 11월 17일*
         - 버그 픽스
             - x86 OS에서 32비트 Power BI Desktop이 실행되지 않는 문제 해결
@@ -74,6 +84,9 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 ## <a name="june-2017"></a>2017년 6월
 
 - **Power BI Report Server**
+    - *빌드 14.0.600.309, 릴리스 날짜: 2018년 1월 10일*
+        - 보안 업데이트
+
     - *빌드 14.0.600.305, 릴리스 날짜: 2017년 9월 19일*  
         - 버그 픽스
             - 최신 [Bing Maps 웹 컨트롤](https://msdn.microsoft.com/library/mt712542.aspx)로 업데이트
@@ -87,6 +100,10 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
     - *빌드 14.0.600.271, 릴리스 날짜: 2017년 6월 12일*
         - Power BI Report Server 초기 릴리스
+
+- **Power BI Desktop(Power BI Report Server에 최적화됨)**
+    - *버전: 2.47.4766.4901(2017년 6월), 릴리스 날짜: 2018년 1월 10일*
+        - 보안 업데이트
 
 ## <a name="next-steps"></a>다음 단계
 

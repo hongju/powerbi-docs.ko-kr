@@ -1,6 +1,6 @@
 ---
-title: "Power BI 모바일 앱에서 대시보드 보기"
-description: "Power BI 서비스에서 대시보드를 생성하거나 연결합니다. 그러면 Power BI 모바일 앱에 표시됩니다."
+title: "Power BI 모바일 앱에서 대시보드 및 보고서 보기"
+description: "Power BI 서비스에서 대시보드 및 보고서를 생성하거나 연결합니다. 그러면 Power BI 모바일 앱에 표시됩니다."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,15 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/18/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 07a514f5d5c5046f8046bb231aef941f201a829b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="view-your-dashboards-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 보기
+# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
 적용 대상:
 
 | ![iPhone](media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 휴대폰](media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 태블릿](media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10 장치](media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
@@ -35,10 +35,10 @@ ms.lasthandoff: 11/13/2017
 ## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Power BI 서비스에서 대시보드 만들기(https://powerbi.com)
 **모바일 앱에서 대시보드를 만들지 않습니다.** 
 
-모바일 장치에서 대시보드를 보려면 웹 브라우저에서 대시보드를 만들거나 연결해야 합니다. 
+모바일 장치에서 대시보드 및 보고서를 보려면 웹 브라우저에서 대시보드를 만들거나 연결해야 합니다. 
 
 1. Power BI 서비스([https://www.powerbi.com](https://www.powerbi.com))에 이동하고 [계정에 등록](service-self-service-signup-for-power-bi.md)합니다.
-2. [고유한 Power BI 대시보드를 만들](service-dashboard-create.md)거나 기존의 [다양한 서비스에 대한 콘텐츠 팩](service-connect-to-services.md)에 연결합니다.
+2. [자신의 Power BI 대시보드 및 보고서를 만들거나](service-get-started.md) [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) 및 [Adobe Analyics](service-connect-to-adobe-analytics.md)와 같은 다양한 서비스에 대해 기존 [Power BI 앱](service-connect-to-services.md)에 연결합니다.
 
 Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 

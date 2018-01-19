@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI의 분산형 차트 및 거품형 차트(자습서)
 분산형 차트에는 항상 가로 축을 따라 하나의 숫자 데이터 집합을 표시하고 세로 축을 따라 다른 숫자 값 집합을 표시하는 두 개의 값 축이 있습니다. 차트에서 x 및 y 숫자 값의 교차점에 점이 표시되고 이러한 값이 단일 데이터 요소로 결합됩니다. 데이터에 따라 가로 축에 균등 또는 불균등하게 이러한 데이터 요소를 배포할 수 있습니다.
@@ -75,6 +75,14 @@ ms.lasthandoff: 01/03/2018
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. 필요에 따라 [시각화 색, 레이블, 제목, 배경 등의 서식을 지정](service-getting-started-with-color-formatting-and-axis-properties.md)합니다.
+
+## <a name="accessibility"></a>내게 필요한 옵션
+
+장애가 있는 사람들을 위해 *표식 모양*을 사용하여 분산형 차트 또는 버블 차트를 보다 쉽게 액세스하도록 할 수 있습니다. 
+
+표식 모양을 선택하려면 **시각화** 창에서 **형식** 섹션을 선택하고 **셰이프** 섹션을 확장한 다음 표식 모양을 선택합니다.
+
+![표식 모양](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**분산형 차트에 하나의 데이터 요소만 있음**

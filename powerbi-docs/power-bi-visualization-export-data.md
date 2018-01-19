@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="export-data-from-visualizations"></a>시각화에서 데이터 내보내기
 시각화를 만드는 데 사용되는 데이터를 보려는 경우 [Power BI에서 해당 데이터를 표시](service-reports-show-data.md)하거나 해당 데이터를 .xlsx 또는 .csv 파일로 Excel에 내보낼 수 있습니다.   
@@ -46,7 +46,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 
 ## <a name="from-a-visualization-in-a-report"></a>보고서의 시각화에서
 과정을 따르려면 [편집용 보기](service-reading-view-and-editing-view.md)에서 [조달 분석 샘플 보고서](sample-procurement.md)를 엽니다. [빈 보고서 페이지를 새로 추가합니다](power-bi-report-add-page.md). 그런 다음 집계와 시각화 수준 필터를 추가하려면 다음 단계를 따릅니다.
 
-1. 새 막대형 차트를 만듭니다.  필드 창에서 **위치 > 도시** 및 **송장 > 할인율**을 선택합니다.   
+1. 새 막대형 차트를 만듭니다.  필드 창에서 **위치 > 도시** 및 **송장 > 할인율**을 선택합니다.  **할인율**을 가치 웰로 옮겨야 할 수도 있습니다. 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. **할인율**에 대한 집계를 **개수**에서 **평균**으로 변경합니다. 값 웰에서 **할인율**(**할인율 개수**라고 할 수도 있음) 오른쪽에 있는 화살표를 선택하고 **평균**을 선택합니다.

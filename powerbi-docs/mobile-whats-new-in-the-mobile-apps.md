@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -31,6 +31,11 @@ ms.lasthandoff: 01/05/2018
 * [Power BI 서비스의 새로운 기능](service-whats-new.md)  
 
 ## <a name="december-2017"></a>2017년 12월
+
+### <a name="improved-security-management"></a>향상된 보안 관리 
+
+조직의 데이터를 보다 효과적으로 보호할 수 있도록 Android 장치에서 CA(조건부 액세스) 및 Microsoft Intune MDM(모바일 장치 관리)에 대한 지원이 추가되었습니다. iOS에는 이미 사용 가능합니다.
+
 ### <a name="improved-permission-management"></a>향상된 사용 권한 관리
 
 데이터 집합, 대시보드 및 보고서에 대한 사용자 권한을 보다 정밀하게 관리할 수 있도록 몇 가지 기능이 변경되었습니다.

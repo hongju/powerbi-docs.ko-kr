@@ -1,7 +1,7 @@
 ## <a name="requirements"></a>요구 사항
 **최소 요구 사항:**
 
-* .NET 4.5 Framework
+* .NET 4.6 Framework
 * 64비트 버전의 Windows 7/Windows Server 2008 R2(또는 그 이상)
 
 **권장:**

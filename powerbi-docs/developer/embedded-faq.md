@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 01/15/2018
 ms.author: asaxton
-ms.openlocfilehash: 5f884c9c45627ee3c129daca77e38d17f1223909
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: aa4401a6c913d38e471f83b88fec351308d25870
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -56,6 +56,10 @@ Microsoft는 기업 고객에게는 엔터프라이즈급 셀프 서비스 클�
 
 ISV(일반적으로 대규모)가 P SKU를 사용하여 조직 내에서 사전 패키지 Power BI 서비스의 추가 이점을 누리는 동시에 응용 프로그램에 포함하려는 경우가 있을 수 있습니다. 물론 LOB(기간 업무) 응용 프로그램을 빌드하고 분석 도구를 포함하는 데에만 관심이 있고 사전 패키지 Power BI 서비스에는 관심이 없는 기업은 A SKU를 사용해도 됩니다.
 
+### <a name="how-many-embed-tokens-can-i-create"></a>얼마나 많은 포함 토큰을 만들 수 있습니까?
+
+PRO 라이선스가 있는 포함 토큰은 개발 및 개발 테스트용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 환경에 포함하려면 [용량을 구입해야](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) 합니다. 용량을 구입할 때 생성할 수 있는 포함 토큰 수에는 제한이 없습니다.
+
 ### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>언제부터 Azure에서 Power BI Embedded를 사용할 수 있나요?
 
 현재 Power BI Embedded를 사용할 수 있습니다.
@@ -87,6 +91,12 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 |청구 |시간별 |매월 |매월 |
 |약정  |약정 없음 |매년  |매월/매년 |
 |차별화 |탁월한 탄력성 - Azure Portal에서 또는 API를 통해 리소스를 강화/규모 축소, 일시 중지/다시 시작 가능  |SharePoint Online 및 Microsoft Teams에 콘텐츠를 포함하는 데 사용 가능 |응용 프로그램에 포함 및 Power BI 서비스 사용을 동일한 용량에 결합 |
+
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure에서 PBIE 용량을 만드는 필수 구성 요소는 무엇입니까?
+
+- 조직 디렉토리에 로그인해야 합니다(MSA 계정은 지원되지 않음).
+- Power BI 테넌트가 있어야 합니다. 즉, 디렉토리에 있는 한 명 이상의 사용자가 Power BI에 가입해야 합니다. 
+- 조직 디렉토리에 Azure 구독이 있어야 합니다.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>용량 소비를 모니터링하려면 어떻게 하나요?
 
@@ -130,7 +140,7 @@ Power BI Embedded는 시간당 요금으로 계산됩니다.
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>청구서에 Power BI Embedded 사용량이 어떻게 표시되나요?
 
-Power BI Embedded는 배포된 노드 유형을 기반으로 예측 가능한 시간당 요금이 청구됩니다.
+Power BI Embedded는 배포된 노드 유형을 기반으로 예측 가능한 시간당 요금이 청구됩니다. 리소스가 활성화되어 있는 한 사용하지 않는 경우에도 비용이 청구됩니다. 비용 청구를 중지하려면 리소스를 일시 중지해야 합니다. Azure 또는 ARM API를 통해 일시 중지할 수 있습니다.
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>이미 Power BI Premium을 구입했는데 Azure에서 Power BI Embedded의 일부 이점을 사용하고 싶으면 어떻게 하나요?
 

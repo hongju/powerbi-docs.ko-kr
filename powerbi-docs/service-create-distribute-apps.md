@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 생성 및 게시
 
@@ -53,12 +53,7 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
 
 동료를 이러한 작업 영역에 구성원 또는 관리자로 추가할 수 있습니다. 모든 앱 작업 영역 구성원 및 관리자는 Power BI Pro 라이선스가 필요합니다. 작업 영역에서 사용자는 대시보드, 보고서는 물론, 더 광범위한 대상 그룹이나 조직 전체에 게시할 계획이 있는 기타 문서에 대해 공동 작업할 수 있습니다. 
 
-콘텐츠가 준비되면 앱을 게시합니다. 더 광범위한 대상 그룹에게 직접 링크를 보내거나, **AppSource에서 더 많은 앱 다운로드 및 탐색**으로 이동하여 앱 탭에서 앱을 찾을 수 있습니다. 이러한 사람들은 해당 앱의 콘텐츠를 수정할 수 없지만, Power BI 서비스에서, 또는 모바일 앱 중 하나와 상호 작용할 수 있습니다(데이터 필터링, 강조 표시 및 정렬 등). 
-
-### <a name="how-are-app-workspaces-different-from-group-workspaces"></a>앱 작업 영역이 그룹 작업 영역과 다른점
-모든 기존 그룹 작업 영역은 앱 작업 영역의 역할을 할 수 있으며 이러한 작업 영역 중에서 앱을 게시할 수 있습니다. 앱 작업 영역과 그룹 작업 영역이 다른 한 가지 방법이 있습니다. 즉, 앱 작업 영역을 특정 앱을 만들고 하우징하는 장소로 만드는 것입니다. 앱 작업 영역의 앱과 콘텐츠 사이에는 일대일 관계가 있습니다. 게시할 때 앱 작업 영역의 모든 것이 앱에 있게 됩니다. 
-
-이제 앱과 앱 작업 영역에 대해 이해했으므로, 앱 만들기 및 게시를 시작해 보겠습니다. 
+콘텐츠가 준비되면 게시할 대시보드 및 보고서를 선택한 다음 앱을 게시합니다. 더 광범위한 대상 그룹에게 직접 링크를 보내거나, **AppSource에서 더 많은 앱 다운로드 및 탐색**으로 이동하여 앱 탭에서 앱을 찾을 수 있습니다. 이러한 사람들은 해당 앱의 콘텐츠를 수정할 수 없지만, Power BI 서비스에서, 또는 모바일 앱 중 하나와 상호 작용할 수 있습니다(데이터 필터링, 강조 표시 및 정렬 등). 
 
 ## <a name="create-an-app-workspace"></a>앱 작업 영역 만들기
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]

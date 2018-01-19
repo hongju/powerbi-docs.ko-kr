@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/19/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: e614273c21dd5c222816700f0d42888e661ba1e0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI 대시보드, 보고서 및 타일 포함
 
@@ -138,6 +138,9 @@ ISV에서 일반적인 **고객에 대한 콘텐츠를 포함**하는 경우 다
 * 개발에 별도 테넌트를 사용하는 경우 대시보드 및 보고서와 함께 앱 작업 영역을 프로덕션 환경에서 사용할 수 있는지 확인해야 합니다. Azure AD에서 프로덕션 테넌트에 대한 응용 프로그램을 만들고 1단계에서 표시된 대로 적절한 앱 사용 권한을 할당해야 합니다.
 * 필요에 맞는 용량을 구입합니다. 아래 표를 사용하여 필요한 Power BI Embedded 용량 SKU를 이해할 수 있습니다. 자세한 내용은 [포함된 분석 용량 계획 백서](https://aka.ms/pbiewhitepaper)를 참조하세요. 구입할 준비가 되면 [Microsoft Azure Portal](https://portal.azure.com) 내에서 수행할 수 있습니다. Power BI Embedded 용량을 만드는 방법에 대한 자세한 내용은 [Azure Portal에서 Power BI Embedded 용량 만들기](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)를 참조하세요.
 
+> [!IMPORTANT]
+> 포함 토큰은 개발 테스트 전용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 포함 시나리오를 위해 [용량을 구입해야](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) 합니다. 용량을 구입할 때 토큰 생성은 제한 없이 포함시킬 수 있습니다.
+
 | 용량 노드 | 총 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 코어 | 프런트 엔드 코어 | DirectQuery/라이브 연결 제한 | 사용량이 가장 많은 시간에 최대 페이지 렌더링 |
 | --- | --- | --- | --- | --- | --- |
 | A1 |1v-코어 |0.5개 코어, 3GB RAM |0.5개 코어 | 초당 5 |1-300 |
@@ -152,6 +155,8 @@ ISV에서 일반적인 **고객에 대한 콘텐츠를 포함**하는 경우 다
     ![용량에 앱 작업 영역 할당](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * 프로덕션에 업데이트된 응용 프로그램을 배포하고 Power BI 대시보드 및 보고서를 포함하기 시작합니다.
+
+
 
 ## <a name="admin-settings"></a>관리 설정
 
