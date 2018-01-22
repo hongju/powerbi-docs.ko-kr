@@ -524,6 +524,8 @@
           href: service-gateway-onprem.md
         - name: 온-프레미스 데이터 게이트웨이 심층 분석
           href: service-gateway-onprem-indepth.md
+        - name: 온-프레미스 데이터 게이트웨이를 위한 고가용성 클러스터
+          href: service-gateway-high-availability-clusters.md
         - name: 온-프레미스 데이터 게이트웨이 FAQ
           href: service-gateway-onprem-faq.md
         - name: 온-프레미스 데이터 게이트웨이(개인 모드)
@@ -766,6 +768,10 @@
           href: desktop-quick-measures.md
         - name: What if 매개 변수 사용
           href: desktop-what-if.md
+        - name: 드릴스루 사용
+          href: desktop-drillthrough.md
+        - name: 상대 날짜 슬라이서 및 필터 사용
+          href: desktop-slicer-filter-date-range.md
         - name: Power BI 보고서의 접근성
           href: desktop-accessibility.md
         - name: 그룹화 및 범주화 사용
