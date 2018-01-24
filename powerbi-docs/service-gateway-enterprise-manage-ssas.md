@@ -192,7 +192,7 @@ AD 조회를 수행하도록 게이트웨이를 구성하는 방법:
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard-"></a>와일드카드(*) 사용
+### <a name="using-wildcard-"></a>와일드카드(\*) 사용
 **대체 (원본 이름)** 문자열에서 와일드 카드를 사용할 수 있습니다. 다른 문자열 부분이 아닌 자체 문자열에 사용할 수 있습니다. 이렇게 하면 모든 사용자를 선택하여 단일 값을 데이터 원본에 전달할 수 있습니다. 로컬 환경에서 동일한 사용자를 사용하는 조직에서 모든 사용자를 원하는 경우에 유용합니다.
 
 ### <a name="test-a-mapping-rule"></a>매핑 규칙 테스트
