@@ -34,7 +34,7 @@ ms.lasthandoff: 12/06/2017
 * Power BI Desktop을 사용하여 [멋진 보고서를 만드는 방법](https://www.youtube.com/watch?v=ByIUx-HmQbw)을 알아보세요.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>
-*Power BI Desktop에서 [쿼리 편집기를 사용하여 데이터를 가져오고 다시 셰이핑하며 변환](https://www.youtube.com/watch?v=ByIUx-HmQbw)하는 방법을 이해하세요.
+* Power BI Desktop에서 [쿼리 편집기를 사용하여 데이터를 가져오고 다시 셰이핑하며 변환](https://www.youtube.com/watch?v=ByIUx-HmQbw)하는 방법을 이해하세요.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe>
 
