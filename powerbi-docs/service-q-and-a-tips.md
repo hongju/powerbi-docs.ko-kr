@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/24/2017
+ms.date: 01/18/2018
 ms.author: jastru
-ms.openlocfilehash: 4b861927bad961837f40f34636f0570106aaabc6
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5d9b65448fced78bf3eb4ed02c84e1561d2d209a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A에서 질문하기 위한 팁
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A에서 인식하는 단어 및 용어
@@ -101,7 +101,7 @@ Power BI의 가장 강력한 기능 중 하나는 다른 데이터 집합에서 
 Q&A가 결과를 표시한 후에도 계속 대화를 진행하세요. 시각화 및 Q&A의 대화형 기능을 사용하여 더 많은 정보를 얻을 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI의 Q&A](service-q-and-a.md)로 돌아가기  
+[Power BI의 Q&A](power-bi-q-and-a.md)로 돌아가기  
 
 [Power BI - 기본 개념](service-basic-concepts.md)  
 

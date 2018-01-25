@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/27/2017
 ms.author: mihart
-ms.openlocfilehash: 6d043f21635308def7b119c072a7f99c118e901d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d92edce9ae1332c4a0c73be5db93201c9b87dc86
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="the-power-bi-samples-a-tutorial"></a>Power BI 샘플, 자습서
 <!-- Shared newnav Include -->
@@ -91,7 +91,7 @@ ms.lasthandoff: 11/15/2017
     ![](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > 타일이 [Power BI 질문 및 답변](service-q-and-a.md)을 사용하여 생성된 경우 질문 및 답변 페이지가 대신 열립니다.
+   > 타일이 [Power BI 질문 및 답변](power-bi-q-and-a.md)을 사용하여 생성된 경우 질문 및 답변 페이지가 대신 열립니다.
    > 
    > 
 4. **데이터 집합** 탭으로 돌아가면 데이터 집합을 살펴볼 수 있는 몇 가지 옵션이 있습니다.  Power BI Desktop 또는 Excel에서처럼 데이터 집합을 열고 모든 행과 열을 볼 수는 없습니다.  동료와 콘텐츠 팩을 공유 하는 사람은 일반적으로 동료에게 데이터에 대한 직접 액세스 권한을 제공하고자 하는 것이 아니라 유용한 정보를 공유하고자 합니다. 그렇다고 데이터 집합을 탐색할 수 없다는 의미는 아닙니다.  

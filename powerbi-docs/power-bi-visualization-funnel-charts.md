@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 01/29/2018
 ms.author: mihart
-ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 5447b23f7d7dd50bf0d9f9e0cfcc84ea9ad0cc8a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="funnel-charts-tutorial"></a>깔대기형 차트(자습서)
 깔때기형 차트는 순차적으로 연결된 단계가 있는 선형 프로세스를 시각화하는 데 도움이 됩니다. 예를 들어 잠재 고객 \> 적격 잠재 고객 \> 가망 고객 \> 계약 \> 완료 단계를 통해 고객을 추적하는 영업 깔때기가 있습니다.  깔때기의 모양은 추적 중인 프로세스의 상태를 한눈에 보여줍니다.
@@ -54,7 +54,7 @@ ms.lasthandoff: 01/03/2018
 ## <a name="create-a-basic-funnel-chart"></a>기본 깔때기형 차트 만들기
 이 비디오를 통해 판매 및 샘플 마케팅을 사용하여 깔때기형 차트를 만듭니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/maTzOJSRB3g" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 이제 영업 단계 각각에 있는 기회의 수를 보여 주는 고유한 깔때기형 차트를 만듭니다.

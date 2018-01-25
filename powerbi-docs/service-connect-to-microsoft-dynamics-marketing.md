@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 5ef00013299be73b809a84bfbc977a3666d7e49c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2800dc496d32c099024db0960c87912afb3b79d7
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Power BI로 Microsoft Dynamics Marketing에 연결
 Power BI용 Microsoft Dynamics 마케팅 콘텐츠 팩을 사용하면 Dynamics 마케팅의 데이터에 쉽게 액세스하고 분석할 수 있습니다. 콘텐츠 팩은 프로그램, 캠페인, 마케팅 연락처 및 회사, 잠재 고객, 잠재 고객 상호 작용 및 잠재 고객 점수 매기기, 메일 마케팅 메시지 및 웹 사이트, 동작 관찰, 예산, 금융 거래, 성과 KPI 등과 같은 필요한 모든 엔터티 및 측정값이 포함된 OData 피드 기반의 설명 모델을 사용합니다. 
@@ -53,7 +53,7 @@ Power BI용 [Dynamics 마케팅 콘텐츠 팩](https://app.powerbi.com/getdata/s
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](service-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.

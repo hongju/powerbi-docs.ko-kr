@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 서비스 보고서의 읽기용 보기 및 편집용 보기
 Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작용할 수 있는 읽기용 보기 및 편집용 보기라는 두 가지 모드가 있습니다. 읽기용 보기는 모든 사용자가 사용할 수 있으며 특히 데이터 *소비자*를 위해 설계되었지만 편집용 보기는 보고서 *작성자*와 소유자만 사용할 수 있습니다. 
@@ -56,7 +56,7 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 | [보고서 **보기** 옵션](power-bi-report-display-settings.md) | 예, 몇 가지 예외가 있습니다. | 예, 눈금선, 맞추기, 잠금 등 모두 가능합니다. |
 | [새로 고침 일정 만들기](refresh-data.md) | 아니요  | 예 |
 | [보고서 구독](service-report-subscribe.md) | 예 | 아니요 |
-| [질문 및 답변 - 보고서에서 질문하기](service-q-and-a.md) | 아니요  | 예 |
+| [질문 및 답변 - 보고서에서 질문하기](power-bi-q-and-a.md) | 아니요  | 예 |
 | [사용 메트릭 보기](service-usage-metrics.md) | 예, 보고서 캔버스에서 볼 수 있습니다. | 예, 보고서 목록(콘텐츠 보기)에서 볼 수 있습니다. |
 | [관련 항목 보기](service-related-content.md) | 예, 보고서 캔버스에서 볼 수 있습니다. | 예, 보고서 목록(콘텐츠 보기)에서 볼 수 있습니다. |
 | [보고서 저장](service-report-save.md) | 예, 하지만 **다른 이름으로 저장**을 사용한 경우만 가능합니다. | 예 |

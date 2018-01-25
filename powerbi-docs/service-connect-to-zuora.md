@@ -17,40 +17,40 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 22d490a58fd522b805d9709a1e697d1d2e89df6c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 408f41e1a50b895166308fcba129d86f5c05d0e7
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Power BI로 Zuora에 연결
-Power BI용 Zuora를 사용하면 중요한 수익, 청구 및 구독 데이터를 시각화할 수 있습니다. 기본 대시보드 및 보고서를 사용하여 사용량 추세를 분석하거나, 대금 청구 및 지불을 추적하거나, 되풀이되는 수익을 모니터링하거나, 고유한 대시보드 및 보고 요구 사항을 충족하도록 사용자 지정합니다. 
+Power BI용 Zuora를 사용하면 중요한 수익, 청구 및 구독 데이터를 시각화할 수 있습니다. 기본 대시보드 및 보고서를 사용하여 사용량 추세를 분석하거나, 대금 청구 및 지불을 추적하거나, 되풀이되는 수익을 모니터링하거나, 고유한 대시보드 및 보고 요구 사항을 충족하도록 사용자 지정합니다.
 
 Power BI용 [Zuora](https://app.powerbi.com/getdata/services/Zuora)에 연결합니다.
 
 ## <a name="how-to-connect"></a>연결 방법
 1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.
-   
+
    ![](media/service-connect-to-zuora/getdata.png)
 2. **서비스** 상자에서 **가져오기**를 선택합니다.
-   
+
    ![](media/service-connect-to-zuora/services.png)
 3. **Zuora** \>  **가져오기**를 선택합니다.
-   
+
    ![](media/service-connect-to-zuora/zuora.png)
-4. Zuora URL을 지정합니다. 일반적으로는 "https://www.zuora.com" 입니다. 아래 [해당 매개 변수 찾기](#FindingParams)에서 세부 정보를 참조하세요.
-   
+4. Zuora URL을 지정합니다. 일반적으로는 "https://www.zuora.com"입니다. 아래 [해당 매개 변수 찾기](#FindingParams)에서 세부 정보를 참조하세요.
+
    ![](media/service-connect-to-zuora/params.png)
 5. **인증 방법**에 대해 **기본** 을 선택하고, 사용자 이름 및 암호(대/소문자 구분)를 제공한 다음 **로그인**을 선택합니다.
-   
+
     ![](media/service-connect-to-zuora/creds.png)
 6. 승인되면 가져오기 프로세스가 자동으로 시작됩니다. 완료되면 새 대시보드, 보고서 및 모델이 탐색 창에 나타납니다. 대시보드를 선택하여 가져온 데이터를 표시합니다.
-   
+
      ![](media/service-connect-to-zuora/dashboard.png)
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](service-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
@@ -111,4 +111,3 @@ Zuora 콘텐츠 팩은 Zuora 계정의 다양한 기능을 가져옵니다. 특�
 [Power BI에서 시작](service-get-started.md)
 
 [Power BI에서 데이터 가져오기](service-get-data.md)
-

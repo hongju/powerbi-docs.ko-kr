@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 0f4cd7166334338e4b19586c189fd363c5b7c934
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b508019eaebe6851909594a8a6174ad5f8c969a1
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Power BI로 Ziosk Survey Analytics에 연결
 Power BI용 Ziosk Survey Analytics 콘텐츠 팩은 Ziosk 태블릿이 있는 레스토랑에 일, 위치, 직원별 구분을 포함하여 Ziosk 설문 조사 데이터에서 제공하는 정보에 최상의 액세스를 제공합니다.
@@ -49,7 +49,7 @@ Power BI용 [Ziosk Survey Analytics 콘텐츠 팩](https://app.powerbi.com/getda
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](service-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.

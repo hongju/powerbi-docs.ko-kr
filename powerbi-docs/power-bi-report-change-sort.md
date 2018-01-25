@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 13da4602306b1218baee81909d37897524f6dfc9
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: aeb22c23b0ef22afd44592c1ceb90537878042d9
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 값을 기준으로 대부분의 시각화를 알파벳순으로 정렬할 수 있습니다. 예를 들어 이 차트는 매장 이름을 기준으로 정렬되었습니다.
@@ -32,11 +32,12 @@ Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 
 
 1. 줄임표(...)를 선택하고 **정렬 기준 평방 미터당 매출**을 선택합니다.
 2. 필요할 경우 정렬 아이콘 ![](media/power-bi-report-change-sort/sorticon.png)을 선택하여 **내림차순**으로 변경합니다.
-   
+
    ![](media/power-bi-report-change-sort/sortby.gif)
-   
+
    **참고**: 일부 시각화는 정렬되지 않습니다.  예를 들어 트리맵, 맵, 등치 지역도, 분산형, Guage, 카드, Multi Row Card, 폭포 시각화는 정렬할 수 없습니다.
 
+<a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>다른 조건을 사용하여 정렬
 경우에 따라 다른 필드 또는 기타 조건을 사용하여 시각적 개체를 정렬할 수 있습니다.  예를 들어 사전순이 아닌 월별로 정렬하려고 하거나 개별 숫자가 아닌 전체 숫자(예를 들어 0, 1, 20, 9가 아닌 0, 1, 9, 20 전체)별로 정렬하려고 할 수 있습니다.  
 
@@ -52,4 +53,3 @@ Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 
 [Power BI - 기본 개념](service-basic-concepts.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-

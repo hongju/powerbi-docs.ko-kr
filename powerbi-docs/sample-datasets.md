@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 2b5568020d3d99788d4fe2288fbc468d82d4e2bf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5087e69190372fe7303fb46254885f7a7a456f70
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI와 함께 사용 가능한 샘플 데이터는 무엇입니까?
 Power BI를 처음 접하고, 사용해 보고 싶지만 데이터가 없는 경우가 있습니다.  또는 데이터 집합이 있지만 Power BI의 작동 원리를 아직 잘 모르기 때문에 데이터 집합이 조금이라도 손상될까봐 걱정하는 분들이 있습니다.

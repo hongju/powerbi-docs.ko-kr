@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 12346c0a9a580b2c3dd36c61a00d27097e1b3937
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cef43b20a6c7fe91ef35567caa511d125c536bf5
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Power BI로 Planview Enterprise에 연결
 Power BI용 Planview Enterprise 콘텐츠 팩을 사용하여 리소스를 시각화하고 관리 데이터를 완전히 새로운 방식으로 작동시킬 수 있습니다. Planview Enterprise 로그인 자격 증명을 사용하여 대화형으로 포트폴리오 투자 비용을 확인하고 예산 초과 및 미달인지 이해하며 프로젝트가 기업 전략 우선에 얼마나 잘 맞는지 알 수 있습니다. 또한 기본 대시보드 및 보고서를 확장하여 가장 중요한 통찰력을 얻을 수 있습니다.
@@ -50,7 +50,7 @@ Power BI용 Planview Enterprise 콘텐츠 팩을 사용하여 리소스를 시�
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](service-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
@@ -60,7 +60,7 @@ Power BI로 Planview Enterprise 데이터를 가져오려면 역할에 사용할
 
 이 절차에서는 Power BI 계정을 사용하여 Microsoft Power BI 홈 페이지에 이미 로그인했다고 가정합니다. Power BI 계정이 없는 경우 Power BI 홈 페이지에서 새로운 무료 Power BI 계정을 만들고 데이터 가져오기를 클릭합니다.
 
-## <a name="next-steps"></a>다음 단계
+## <a name="next-steps"></a>다음 단계:
 
 [Power BI 시작](service-get-started.md)
 

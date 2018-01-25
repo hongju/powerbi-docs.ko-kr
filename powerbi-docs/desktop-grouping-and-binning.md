@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: b94ede61185e2029e259fd851eaa022737346210
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 6d398a7594cfde65d878cbd317a2669b945da9e6
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Power BI Desktop에서 그룹화 및 범주화 사용
 **Power BI Desktop**에서 시각적 개체를 만들면 기본 데이터에서 발견되는 값을 기반으로 청크(또는 **그룹**)으로 데이터를 집계합니다. 대개는 좋지만 이러한 청크를 표시하는 방법을 구체화하고자 하는 때가 있을 수 있습니다. 예를 들어 하나의 큰 범주(하나의 *그룹*)에 세 가지 범주의 제품을 배치할 수 있습니다. 또는 균등하게 분할된 923,983달러 대신 1,000,000달러의 bin 크기로 배치된 판매액을 볼 수 있습니다.
@@ -69,7 +69,7 @@ bin 크기를 적용하려면 **필드**를 마우스 오른쪽 단추로 클릭
 
 ![](media/desktop-grouping-and-binning/grouping-binning_7.png)
 
-**범주화** 작업을 보려면 이 [비디오](https://youtu.be/UXEYSvgvMaQ?t=12m17s)를 보세요.
+**범주화** 작업을 보려면 이 [비디오](https://www.youtube.com/watch?v=BRvdZSfO0DY)를 보세요.
 
 **그룹화** 및 **범주화**를 사용하여 보고서에 시각적 개체에서 데이터를 원하는 방식으로 바로 표시되도록 하면 됩니다.
 

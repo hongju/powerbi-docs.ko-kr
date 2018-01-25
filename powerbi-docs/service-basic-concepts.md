@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: be245be7c8f83cb363e93a5d2bc452418f436e37
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 405be2083b26659f1f26ec04e72319ca5981bdf0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 서비스에 대한 기본 개념
 
@@ -120,7 +120,7 @@ Power BI 보고서는 한 장 이상의 시각화 페이지입니다(꺾은 선�
 * [Power BI 모바일 앱의 보고서](mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>대시보드
-*대시보드*는 **Power BI 서비스에서** 사용자가 직접 만드는 요소이거나 **Power BI 서비스에서** 동료가 만들어 사용자와 공유하는 요소입니다. 또한 0개 이상의 타일 및 위젯이 포함된 단일 캔버스입니다. 보고서 또는 [질문 및 답변](service-q-and-a.md)에서 고정된 각 타일에는 데이터 집합에서 만들고 대시보드에 고정된 단일 [시각화](power-bi-report-visualizations.md)가 표시됩니다. 전체 보고서 페이지는 단일 타일로 대시보드에 고정할 수도 있습니다. 대시보드에 타일을 추가할 수 있는 여러 가지 방법이 있지만 이 개요 항목에서 다루기엔 너무 많습니다. 자세히 알아보려면 [Power BI의 대시보드 타일](service-dashboard-tiles.md)을 참조하세요. 
+*대시보드*는 **Power BI 서비스에서** 사용자가 직접 만드는 요소이거나 **Power BI 서비스에서** 동료가 만들어 사용자와 공유하는 요소입니다. 또한 0개 이상의 타일 및 위젯이 포함된 단일 캔버스입니다. 보고서 또는 [질문 및 답변](power-bi-q-and-a.md)에서 고정된 각 타일에는 데이터 집합에서 만들고 대시보드에 고정된 단일 [시각화](power-bi-report-visualizations.md)가 표시됩니다. 전체 보고서 페이지는 단일 타일로 대시보드에 고정할 수도 있습니다. 대시보드에 타일을 추가할 수 있는 여러 가지 방법이 있지만 이 개요 항목에서 다루기엔 너무 많습니다. 자세히 알아보려면 [Power BI의 대시보드 타일](service-dashboard-tiles.md)을 참조하세요. 
 
 대시보드를 만드는 이유는 무엇인가요?  다음은 몇 가지 이유입니다.
 
@@ -207,7 +207,7 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
 
 ![질문 및 답변 질문하기 상자](media/service-basic-concepts/power-bi-qna.png)
 
-질문 입력을 시작하는 즉시 질문 및 답변 페이지로 이동합니다. 입력할 때 질문 및 답변을 사용하면 적절하게 질문을 하고 고쳐 말하기, 자동 채우기, 제안 등으로 최상의 답변을 찾을 수 있습니다. 원하는 시각화(답변)가 있으면 대시보드에 고정합니다. 자세한 내용은 [Power BI의 질문 및 답변](service-q-and-a.md)을 참조하세요.
+질문 입력을 시작하는 즉시 질문 및 답변 페이지로 이동합니다. 입력할 때 질문 및 답변을 사용하면 적절하게 질문을 하고 고쳐 말하기, 자동 채우기, 제안 등으로 최상의 답변을 찾을 수 있습니다. 원하는 시각화(답변)가 있으면 대시보드에 고정합니다. 자세한 내용은 [Power BI의 질문 및 답변](power-bi-q-and-a.md)을 참조하세요.
 
 ### <a name="4-icon-buttons"></a>4. **아이콘 단추** 
 오른쪽 위에 있는 아이콘은 설정, 알림, 다운로드, 도움말 보기 및 Power BI 팀에 피드백 제공에 필요한 리소스입니다. 이중 화살표를 선택하여 **전체 화면** 모드에서 대시보드를 엽니다.  
@@ -217,7 +217,7 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
 ### <a name="5-dashboard-title-navigation-path-aka-breadcrumbs"></a>5. **대시보드 제목**(탐색 경로(즉, 이동 경로))
 활성 상태인 작업 영역과 대시보드를 파악하는 것이 항상 쉬운 일은 아니므로 Power BI에서는 자동으로 탐색 경로를 생성합니다.  이 예에서는 작업 영역(내 작업 영역) 및 대시보드 제목(소매점 분석 샘플)이 보입니다.  보고서를 열면 탐색 경로의 끝에 보고서의 이름이 추가될 것입니다.  경로의 각 섹션은 활성 하이퍼링크입니다.  
 
-대시보드 제목 다음에 나오는 "C" 아이콘을 주목하세요. 이 대시보드에는 "기밀"이라는 [데이터 분류 태그](/service-data-classification.md)가 있습니다. 이 태그는 데이터의 민감도 및 보안 수준을 식별합니다. 관리자가 데이터 분류를 켜면 모든 대시보드에 기본 태그가 설정될 것입니다. 대시보드 소유자는 대시보드의 적절한 보안 수준에 맞게 태그를 변경해야 합니다.
+대시보드 제목 다음에 나오는 "C" 아이콘을 주목하세요. 이 대시보드에는 "기밀"이라는 [데이터 분류 태그](service-data-classification.md)가 있습니다. 이 태그는 데이터의 민감도 및 보안 수준을 식별합니다. 관리자가 데이터 분류를 켜면 모든 대시보드에 기본 태그가 설정될 것입니다. 대시보드 소유자는 대시보드의 적절한 보안 수준에 맞게 태그를 변경해야 합니다.
 
 ![](media/service-basic-concepts/power-bi-title.png)
 

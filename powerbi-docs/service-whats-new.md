@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -470,7 +470,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 10월 6일**
 
-* Power BI 질문 및 답변으로 간단하고 직관적인 질문을 사용하여 데이터를 탐색하고 대화형 차트와 그래프의 형태로 답변을 받을 수 있습니다. 이 릴리스에서 데이터에 대해 아무 것도 모르는 경우 Power BI 질문 및 답변을 시작할 수 있도록 하는 기능을 추가했습니다. 시작하려면 [대시보드로 이동하고 질문 및 답변 질문 상자의 주변에 있는 "요청하는 방법" 링크를 클릭합니다](service-how-to-q-and-a.md). Power BI는 데이터를 기준으로 다양한 제안을 제공합니다.
+* Power BI 질문 및 답변으로 간단하고 직관적인 질문을 사용하여 데이터를 탐색하고 대화형 차트와 그래프의 형태로 답변을 받을 수 있습니다. 이 릴리스에서 데이터에 대해 아무 것도 모르는 경우 Power BI 질문 및 답변을 시작할 수 있도록 하는 기능을 추가했습니다. 시작하려면 [대시보드로 이동하고 질문 및 답변 질문 상자의 주변에 있는 "요청하는 방법" 링크를 클릭합니다](power-bi-tutorial-q-and-a.md). Power BI는 데이터를 기준으로 다양한 제안을 제공합니다.
 * 2주 전에 Power BI Desktop의 보고서 모양을 삽입하는 작업을 지원하도록 도입했습니다. 이번 주에는 Power BI 웹앱에서 보고서를 제작 및/또는 편집 하는 경우 보고서 캔버스에 모양을 추가할 수 있습니다.
 * 대시보드를 공유하는 경우 전자 메일 알림을 해제하는 옵션을 추가했습니다. Power BI 공유 대화 상자에서 "받는 사람에게 전자 메일 알림 보내기" 확인란의 선택을 취소하면 됩니다. URL가 표시되면 이 URL을 복사하고 동료들과 공유하여 대시보드에 대한 액세스를 제공합니다.
 * Microsoft Dynamics NAV는 소기업 중간 규모 조직을 위한 비즈니스 관리 솔루션입니다. 재무 및 비즈니스 프로세스를 통해 제어함으로써 고객에게 비즈니스를 위한 완전 한 솔루션을 제공합니다. Power BI 콘텐츠 팩은 Dynamics NAV 사용자에 대해 판매 및 수익, 기회 파이프라인, 수익성과 같은 기본적인 보고서를 제공합니다. 이러한 메트릭은 완벽하게 사용자 지정될 수 있는 대시보드에서 구성되며 이를 사용하여 쉽게 연결하고 즉시 데이터를 탐색하기 시작할 수 있습니다.

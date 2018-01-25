@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: dd64f4fb4651e393e770dda9323c10356424c780
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 66d1544797008b4ed4c0ce2c7acd041aa60b967b
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Power BI로 Acumatica에 연결
 Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하게 파악할 수 있습니다. Power BI는 기회, 계정 및 고객을 포함하여 데이터를 검색한 다음 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다.
@@ -57,7 +57,7 @@ Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하�
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](service-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
@@ -72,7 +72,7 @@ Acumatica OData 끝점의 형식은 다음과 같고, HTTPS를 사용해야 합�
 
     https://[sitedomain]/odata/[companyname]
 
-Acumatica에 로그인한 경우 브라우저의 주소 표시줄에서 응용 프로그램 사이트 도메인을 찾을 수 있습니다. 아래 예제에서는 사이트 도메인이 "https://pbi.acumatica.com" 이므로 제공할 OData 끝점은 "https://pbi.acumatica.com/odata" 입니다.
+Acumatica에 로그인한 경우 브라우저의 주소 표시줄에서 응용 프로그램 사이트 도메인을 찾을 수 있습니다. 아래 예제에서는 사이트 도메인이 "https://pbi.acumatica.com"이므로 제공할 OData 끝점은 "https://pbi.acumatica.com/odata"입니다.
 
  ![](media/service-connect-to-acumatica/url.png)
 
