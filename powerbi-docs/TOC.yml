@@ -298,7 +298,7 @@
               href: service-cortana-troubleshoot.md
     - name: 작업 공유
       items:
-        - name: 대시보드 및 보고서를 공동 작업 및 공유하는 방법
+        - name: 대시보드 및 보고서를 공동 작업 및 공유하려면 어떻게 해야 하나요?
           href: service-how-to-collaborate-distribute-dashboards-reports.md
         - name: 대시보드 및 보고서로 앱 설치 및 사용
           href: service-install-use-apps.md
@@ -308,9 +308,9 @@
           href: service-organizational-content-pack-introduction.md
         - name: 조직 콘텐츠 팩 만들기 및 게시(자습서)
           href: service-organizational-content-pack-create-and-publish.md
-        - name: 동료 및 기타 사용자와 대시보드 공유
+        - name: 대시보드 및 보고서 공유
           href: service-share-dashboards.md
-        - name: 동료와 보고서 공유
+        - name: 필터링된 보고서 공유
           href: service-share-reports.md
         - name: Power BI에서 웹에 게시
           href: service-publish-to-web.md
