@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/23/2018
 ms.author: davidi
-ms.openlocfilehash: 78bac79fc440f0a4efe19947ca7a6e9c53866b0a
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 2832849d887795c2af0750f01e929045f75c12fe
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -45,11 +45,24 @@ ms.lasthandoff: 12/06/2017
 * Azure SQL 및 Power BI용 Blob Storage 둘 다에서 모든 데이터 암호화
 * [콘텐츠 팩](service-connect-to-services.md)을 사용하여 서비스에 연결
 
+## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>정부 서비스와 공용 Azure 클라우드 서비스 간의 연결 
+
+Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트는 클라우드 관련 인스턴스에 대한 방화벽 규칙을 열 수 있지만, 클라우드 간 네트워킹은 이와 다르며 서비스 간 통신을 위한 특정 방화벽 규칙을 열어야 합니다. Power BI 고객이고 액세스해야 하는 공용 클라우드에 기존 SQL 인스턴스를 갖고 있는 경우 다음 데이터 센터에 대해 SQL에서 Azure Government 클라우드 IP 공간에 대한 특정 방화벽 규칙을 열어야 합니다.
+
+* USGov 아이오와
+* USGov 버지니아
+* USGov 텍사스
+* USGov 애리조나
+
+공용 클라우드에서 IP 공간을 사용할 수 있지만, 정부 클라우드의 경우 위에 나열된 데이터 센터의 IP 범위를 요청하는 Azure 지원 티켓을 개설해야 합니다. 
+
+
 ## <a name="limitations-of-power-bi-us-government"></a>Power BI 미국 정부 기관의 제한 사항
 **Power BI 서비스** 상용 버전에서 사용할 수 있는 기능 중 일부는 미국 정부 기관 고객용 **Power BI 서비스**에서 사용할 수 *없습니다*. 미국 정부 기관 고객이 이러한 기능을 사용할 수 있도록 Power BI 팀에서 적극적으로 노력하고 있으며, 이러한 기능을 사용할 수 있게 되면 이 문서를 업데이트할 것입니다.
 
 * **Power BI 미국 정부**는 **Pro** 라이선스로만 제공됩니다. 관리자 포털(또는 사용자)에서 실행되는 Power BI (무료) 라이선스에 대한 참조는 상용 Power BI 서비스 클라우드에서 실행됩니다.
 * **감사** - Office 365 보안 및 규정 준수 포털을 통해 감사를 사용할 수 없습니다.
+* **Cortana의 Power BI 콘텐츠** - Power BI 결과는 Cortana 검색 결과에 표시되지 않습니다. Cortana 검색 결과에는 Power BI 콘텐츠(대시보드, 보고서, 앱)에 대한 결과와 특정 키워드에 대한 Cortana 최적화 보고서 페이지를 보여주는 결과가 포함됩니다.
 
 계정에 **Power BI** 무료 라이선스가 할당된 경우 해당 계정은 **Power BI** 서비스의 상용 버전에서 실행되며 **Power BI 미국 정부** 제품에 속하지 않습니다. 이러한 무료 계정에서 다음 상황이 발생할 수 있습니다.
 

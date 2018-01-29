@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 453a2a9dd4ea5e41d404d3e81cebbff7c35f1b6c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>라이브 연결로 질문 및 답변 사용
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>온-프레미스 데이터 게이트웨이란 무엇인가요?  라이브 연결이란?
@@ -39,7 +39,7 @@ Power BI 질문 및 답변은 데이터 원본에서 텍스트 및 스키마 값
 자세한 내용은 다음을 참조하세요.
 
 * [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)란 무엇인가요?
-* [Power BI 질문 및 답변 소개](service-q-and-a.md)
+* [Power BI 질문 및 답변 소개](power-bi-q-and-a.md)
 
 ## <a name="enable-qa"></a>질문 및 답변 사용
 데이터 게이트웨이를 등록한 후에 Power BI에서 데이터에 연결합니다.  온-프레미스 데이터를 사용하여 대시보드를 만들거나 온-프레미스 데이터를 사용하는 .pbix 파일을 업로드합니다.  또한 사용자와 공유된 대시보드, 보고서 및 데이터 집합에 온-프레미스 데이터가 이미 있을 수 있습니다.
@@ -55,22 +55,20 @@ Power BI 질문 및 답변은 데이터 원본에서 텍스트 및 스키마 값
     ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>데이터 캐시의 의미와 개인 정보 보호 방법은 무엇인가요?
-온-프레미스 데이터에 대한 질문 및 답변을 사용하면 데이터의 하위 집합이 서비스에 캐시됩니다. 이렇게 하려면 질문 및 답변을 적절한 성능으로 사용하여야 합니다. 캐싱에서 24자보다 긴 값을 제외합니다. **이 데이터 집합에 대한 질문 및 답변 켜기** 선택을 취소하여 질문 및 답변을 사용하지 않거나 데이터 집합을 삭제하면 몇 시간 이내에 캐시가 삭제됩니다.
+온-프레미스 데이터에 대한 질문 및 답변을 사용하면 데이터의 하위 집합이 서비스에 캐시됩니다. 이렇게 하려면 질문 및 답변을 적절한 성능으로 사용하여야 합니다. Power BI는 24자보다 긴 값을 캐싱에서 제외합니다. **이 데이터 집합에 대한 질문 및 답변 켜기** 선택을 취소하여 질문 및 답변을 사용하지 않거나 데이터 집합을 삭제하면 몇 시간 이내에 캐시가 삭제됩니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 이 기능은 미리 보기 단계 중에 일부가 제한됩니다.
 
-* 처음부터 이 기능은 SQL Server 2016 Analysis Services 테이블 형식 데이터 원본에만 사용할 수 있습니다. 기능은 표 형식 데이터에 맞게 최적화됩니다. 일부 기능은 다차원 데이터 원본에 사용할 수 있지만 전체 질문 및 답변 환경은 아직 다차원에 지원되지 않습니다. 온-프레미스 데이터 게이트웨이에서 지원하는 추가 데이터 원본은 공개 미리 보기 동안 출시될 예정입니다.
+* 처음부터 이 기능은 SQL Server 2016 Analysis Services 테이블 형식 데이터 원본에만 사용할 수 있습니다. 기능은 표 형식 데이터에 맞게 최적화됩니다. 일부 기능은 다차원 데이터 원본에 사용할 수 있지만 전체 질문 및 답변 환경은 아직 다차원에 지원되지 않습니다. 온-프레미스 데이터 게이트웨이에서 지원하는 추가 데이터 원본은 시간이 지나면 출시될 예정입니다.
 * SQL Server Analysis Services에 정의된 행 수준 보안에 대한 완벽한 지원은 처음부터 공개 미리 보기에서 지원되지 않습니다. 질문 및 답변에서 질문하는 동안 입력하는 질문의 "자동 완성"은 사용자가 액세스할 수 없는 문자열 값을 나타낼 수 있습니다. 그러나 모델에 정의된 RLS는 보고서 및 차트 시각적 개체를 고려하므로 기본 숫자 데이터가 노출되지 않습니다. 이 동작을 제어하는 옵션은 향후 업데이트에서 출시될 예정입니다.
 * 라이브 연결은 온-프레미스 데이터 게이트웨이를 통해서만 지원됩니다. 결과적으로, 개인 게이트웨이와 함께 사용할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
 [데이터 원본 관리 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Power BI 신속한 정보 활용](service-insights.md)  
-[Power BI 신속한 정보 활용을 위해 데이터 최적화](service-insights-optimize.md)  
 [Power BI - 기본 개념](service-basic-concepts.md)  
-[Power BI의 대시보드](service-dashboards.md)  
+[Power BI 질문 및 답변 개요](power-bi-q-and-a.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

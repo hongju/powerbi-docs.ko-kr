@@ -1,5 +1,5 @@
 ---
-title: "Power BI의 방사형 계기 차트(자습서)"
+title: "자습서 - Power BI의 방사형 계기 차트"
 description: "자습서: Power BI의 방사형 계기 차트"
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Power BI의 방사형 계기 차트(자습서)
 방사형 계기 차트는 원호 형태로 목표/KPI에 대한 진행률을 측정하는 단일 값을 표시합니다.  목표 또는 목표값은 선(바늘)으로 표시됩니다. 목표에 대한 진행률은 음영으로 표시됩니다.  진행률은 나타내는 값은 호의 내부에 굵게 표시됩니다. 모든 가능한 값은 최소(맨 왼쪽 값)에서 최대 (맨 오른쪽 값)까지 호를 따라 균등하게 분배됩니다.
@@ -39,17 +39,25 @@ ms.lasthandoff: 11/15/2017
 * 단일 측정값의 상태를 표시합니다.
 * 빠르게 훑어보고 이해할 수 있는 정보를 표시합니다.
 
+### <a name="prerequisites"></a>필수 조건
+ - Power BI 서비스 또는 Power BI Desktop
+ - 재무 샘플 Excel 통합 문서: [샘플을 직접 다운로드합니다](http://go.microsoft.com/fwlink/?LinkID=521962).
+
 ## <a name="create-a-basic-radial-gauge"></a>기본 방사형 계기 만들기
-이 지침은 재무 샘플을 사용합니다. 이를 수행하려면 컴퓨터로 [샘플을 다운로드](http://go.microsoft.com/fwlink/?LinkID=521962)하고, Power BI에 로그인한 다음 **데이터 가져오기 \> 파일 \> 로컬 파일 > 열기**를 선택합니다. 
+이러한 지침에서는 Power BI 서비스를 사용합니다. 지침을 따르려면 Power BI에 로그인하고 Excel 재무 샘플 파일을 엽니다.  
 
 또는 Will이 단일 메트릭 시각적 개체: 계기, 카드 및 KPI를 만드는 방법을 보여 주는 과정을 시청합니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>1단계: 재무 샘플 Excel 파일을 엽니다.
-1. [재무 샘플 Excel 파일을 다운로드](sample-financial-download.md)하세요.
-2. **데이터 가져오기 \>파일**을 선택하고 파일을 저장한 위치를 찾아 Power BI에서 파일을 엽니다. **가져오기**를 선택합니다. 재무 샘플은 데이터 집합으로 작업 영역 탐색 창에 추가됩니다.
-3. **재무 샘플** 을 선택하여 탐색 모드에서 엽니다.
+### <a name="step-1-open-the-financial-sample-excel-file"></a>1단계: 재무 샘플 Excel 파일 열기
+1. 아직 다운로드하지 않았으면 [재무 샘플 Excel 파일을 다운로드](sample-financial-download.md)합니다. 파일을 어디에 저장했는지 기억해야 합니다.
+
+2. **데이터 가져오기 \> 파일**을 선택하고 파일을 저장한 위치를 찾아 ***Power BI 서비스***에서 파일을 엽니다. **가져오기**를 선택합니다. 재무 샘플은 데이터 집합으로 작업 영역 탐색 창에 추가됩니다.
+
+3. **데이터 집합** 콘텐츠 목록에서 **재무 샘플**을 선택하여 탐색 모드에서 엽니다.
+
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>2단계: 총 매출을 추적하는 계기 만들기
 1. **필드** 창에서 **총 판매량**을 선택합니다.

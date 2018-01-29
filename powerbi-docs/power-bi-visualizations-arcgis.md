@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 797b22ed6f07e64d7e4970f8f0dfe5e93a7c0ec4
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI에서 ArcGIS 지도와 상호 작용
 이 토픽은 Power BI 서비스, 데스크톱 또는 모바일에서 ArcGIS 지도를 *사용하는* 사람의 관점에서 작성됩니다. 작성자가 ArcGIS 지도를 사용자와 공유하면 여러 가지 방법으로 해당 지도와 상호 작용할 수 있습니다.  ArcGIS 지도를 작성하는 방법에 대한 자세한 내용은 [Esri에서 제공하는 ArcGIS 지도](power-bi-visualization-arcgis.md)를 참조하세요.
@@ -31,7 +31,6 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 
 > [!TIP]
 > GIS는 Geographic Information Science(지리적 정보 과학)의 약자입니다.
-> 
 > 
 
 사용하는 예제는 [Esri에서 제공하는 ArcGIS 지도](power-bi-visualization-arcgis.md)에서 만든 ArcGIS 지도와 동일합니다. 도시별 작년 판매액을 보고, 거리 기본 지도, 크기를 나타내는 버블 기호, 평균 가구 소득에 대한 참조 계층을 사용합니다. 지도에는 3개의 핀과 한 번의 운행 시간 반경(자주색)이 있습니다.
@@ -99,7 +98,7 @@ Power BI용 ArcGIS Maps는 다음과 같은 서비스 및 응용 프로그램에
 <td>예</td>
 </tr>
 <tr>
-<td>Power BI 서비스(PowerBI.com)</td>
+<td>Power BI 서비스(app.powerbi.com)</td>
 <td>예</td>
 </tr>
 <tr>

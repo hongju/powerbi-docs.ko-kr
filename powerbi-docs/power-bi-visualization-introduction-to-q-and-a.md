@@ -1,6 +1,6 @@
 ---
-title: "Power BI 질문 및 답변 시작(자습서)"
-description: "자습서: 소매 분석 샘플에 대한 Power BI 서비스 질문 및 답변 시작"
+title: "빠른 시작 - Power BI 질문 및 답변 시작"
+description: "빠른 시작: 소매 분석 샘플을 사용하여 Power BI 서비스 질문 및 답변 시작"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 01/16/2018
 ms.author: mihart
-ms.openlocfilehash: 2038fb5bd4a21235c3026c8506ae30b8c3e287e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63c6479ed5f0bb9e882900fc5a653f08ad6a823
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
-# <a name="get-started-with-power-bi-qa-tutorial"></a>Power BI 질문 및 답변 시작(자습서)
-## <a name="tutorial-use-power-bi-qa-with-the-retail-analysis-sample"></a>자습서: 소매 분석 샘플에 대해 Power BI 질문 및 답변 사용하기
-경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다.  이 자습서에서는 시각화를 만드는 2가지 방법, 즉 보고서에서 작성하고 질문 및 답변에서 질문하는 방법을 살펴봅니다.  
+# <a name="get-started-with-power-bi-qa-quickstart"></a>Power BI 질문 및 답변 시작(빠른 시작)
+## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>소매 분석 샘플에 Power BI 질문 및 답변 사용
+경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다.  이 빠른 시작에서는 동일한 시각화를 만드는 2가지 방법, 즉 첫 번째로 보고서에서 작성하고 두 번째로 질문 및 답변에서 질문하는 방법을 살펴봅니다. Power BI 서비스를 사용할 예정이지만, 프로세스는 Power BI Desktop을 사용할 때와 거의 동일합니다.
+
+단계를 따르려면 편집할 수 있는 보고서를 사용해야 하므로 Power BI에 제공되는 샘플 중 하나를 사용하겠습니다.
 
 ## <a name="method-1-using-the-report-editor"></a>방법 1: 보고서 편집기 사용하기
 1. Power BI 작업 영역에서 **데이터 가져오기** \> **샘플** \> **소매 분석 샘플** > **연결**을 선택하세요.
@@ -61,13 +63,9 @@ ms.lasthandoff: 11/13/2017
 4. 대시보드로 차트를 고정하려면 고정 아이콘 ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png)을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
-[질문 및 답변에 올릴 수 있는 질문의 유형](service-q-and-a.md)
-
-[Power BI의 질문 및 답변](service-q-and-a.md)
+[Power BI의 질문 및 답변](power-bi-q-and-a.md)
 
 [Power BI의 질문 및 답변에서 데이터가 잘 작동하도록 설정](service-prepare-data-for-q-and-a.md)
-
-[질문 및 답변을 위한 통합 문서 준비](service-prepare-data-for-q-and-a.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

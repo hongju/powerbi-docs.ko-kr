@@ -15,24 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI의 영업 및 마케팅 샘플: 둘러보기
+
+## <a name="overview-of-the-sales-and-marketing-sample"></a>영업 및 마케팅 샘플 개요
 **영업 및 마케팅 샘플** 에는 VanArsdel Ltd.라는 가상의 제조 회사에 대한 대시보드 및 보고서가 들어 있습니다. 이 대시보드는 VanArsdel CMO(Chief Marketing Officer)가 업계와, 회사의 시장 점유율, 제품 규모, 판매 및 인지에 대해 파악하기 위해 만들었습니다.
 
 VanArsdel에는 많은 경쟁사가 있으나 업계 선두업체입니다. CMO는 시장 점유율을 높이고 성장 기회를 모색하고자 합니다. 하지만 어떤 이유로 VanArsdel의 시장 점유율이 떨어지기 시작했고 6월에 큰폭으로 하락했습니다.
 
 이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여 주는 시리즈의 일부입니다. 이 샘플은 익명화된 obviEnce(www.obvience.com)의 실제 데이터입니다.
 
-[!Note] [이 샘플에 대한 데이터 집합(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529785)할 수도 있습니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 **파워 피벗 > 관리**를 선택합니다.
-
 ![](media/sample-sales-and-marketing/sales1.png)
+
+## <a name="prerequisites"></a>필수 조건
+
+ 이 샘플을 사용하려면 먼저 샘플을 콘텐츠 팩, .pbix 파일 또는 Excel 통합 문서로 다운로드해야 합니다.
+
+### <a name="get-the-content-pack-for-this-sample"></a>이 샘플의 콘텐츠 팩 가져오기
+
+1. Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.
+2. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. 데이터 가져오기 페이지가 표시되면 **샘플** 아이콘을 선택합니다.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. **영업 및 마케팅 샘플**을 선택한 다음 **연결**을 선택합니다.  
+  
+   ![영업 및 마케팅 샘플](media/sample-sales-and-marketing/sales9.png)
+   
+5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 집합을 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 
+   
+   ![별표](media/sample-sales-and-marketing/sales10.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>이 샘플의 .pbix 파일 가져오기
+
+또는 Power BI Desktop에 사용하도록 설계된 .pbix 파일로 샘플을 다운로드할 수 있습니다. 
+
+ * [영업 및 마케팅 샘플](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
+[이 샘플에 대한 데이터 집합(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529785)할 수도 있습니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 **파워 피벗 > 관리**를 선택합니다.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>대시보드가 시사하는 점은 무엇입니까?
 대시보드를 둘러보고 CMO가 고정하도록 선택한 타일을 살펴보겠습니다. 시장 점유율, 판매 및 인지에 대한 정보를 확인합니다. 또한 지역, 시간, 경쟁에 따라 분석한 데이터를 살펴봅니다.
@@ -48,21 +78,21 @@ VanArsdel에는 많은 경쟁사가 있으나 업계 선두업체입니다. CMO�
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>어떤 부문이 매출에 기여합니까? 업계 추세에 부합합니까?
 1. “부문별 전체 총 단위”를 선택하면 Q&A가 열립니다.
 2. 기존 쿼리 끝에 **for VanArsdel**을 입력합니다. Q&A가 이 질문을 해석하고 업데이트된 차트를 답과 함께 표시합니다. 제품 규모는 편의 및 중재에서 기인합니다.
-   
+
    ![](media/sample-sales-and-marketing/sales2.png)
 3. **중재** 및 **편의** 카테고리의 점유율은 매우 높으며 회사에 경쟁력이 있는 부문입니다.
 4. 맨 위 탐색 모음에서 대시보드 이름을 선택하여 대시보드로 다시 이동합니다(breadcrumbs).
 
 #### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>카테고리의 총 단위 시장 점유율이 어떻게 나타납니까?(지역 대비)
-1. “제조사, 지역별 총 단위 YTD” 타일을 확인합니다. 카테고리별 총 단위 시장 점유율이 어떤지 궁금합니다. 
-   
+1. “제조사, 지역별 총 단위 YTD” 타일을 확인합니다. 카테고리별 총 단위 시장 점유율이 어떤지 궁금합니다.
+
    ![](media/sample-sales-and-marketing/sales3.png)
 2. 대시보드 위의 질문 상자에 **제조사별 총 단위 및 2014년의 범주를 트리맵으로 보기 위한** 질문을 입력합니다. 질문을 입력하면 시각화가 어떻게 업데이트되는지 확인합니다.
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. 결과를 비교하려면 차트를 대시보드에 고정합니다. 매우 흥미롭게도 2014년 VanArsdel은 **도시** 범주에 부합하는 제품만 판매했습니다.
 4. 대시보드로 되돌아갑니다.
 
-대시보드는 보고서의 진입점이기도 합니다.  타일이 기본 보고서를 통해 만들어진 경우 해당 타일을 클릭하면 보고서가 열립니다. 
+대시보드는 보고서의 진입점이기도 합니다.  타일이 기본 보고서를 통해 만들어진 경우 해당 타일을 클릭하면 보고서가 열립니다.
 
 이 대시보드에서 R12M(12개월 롤링) 선은 시장 점유율이 시간 경과에 따라 증가하지 않았으며 심지어 다소 감소했음을 보여줍니다. 또한 6월에 시장 점유율이 대폭 하락한 이유는 무엇입니까? 추가적인 조사를 위해 이 시각화 요소를 클릭하면 기본 보고서가 열립니다.
 
@@ -72,7 +102,7 @@ VanArsdel에는 많은 경쟁사가 있으나 업계 선두업체입니다. CMO�
 
 1. 맨 아래의 “월별 총 단위 및 isVanArsdel” 세로 막대형 차트를 살펴보겠습니다. 검은색 열은 VanArsdel(자사) 제품, 녹색은 경쟁사 제품을 나타냅니다. 2014년 6월 VanArsdel에 발생한 하락이 경쟁사에는 없었습니다.
 2. 오른쪽 가운데의 “부문별 총 범주 규모" 가로 막대형 차트를 필터링하면 VanArsdel의 상위 2개 부문이 표시됩니다. 이 필터를 만든 방법을 살펴봅니다.  
-   
+
    a.  오른쪽 필터 창을 확장합니다.  
    b.  클릭하여 시각화를 선택합니다.  
    c.  시각적 수준 필터에서 **편의** 및 **중재**만 포함하도록 **부문**을 필터링합니다.  
@@ -112,4 +142,3 @@ VanArsdel, 부문, 월, 지역별로 시각화를 필터링하면 VanArsdel의 �
 
 ## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
 이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 영업 및 마케팅 데이터에 대한 정보를 파악하는 데 도움이 되었기를 바랍니다. 이제 사용자 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 소스에 연결할 수 있습니다. [Power BI 시작하기](service-get-started.md)에 대해 자세히 알아보세요.  
-

@@ -1,5 +1,5 @@
 ---
-title: "Power BI 서비스에서 데스크톱에 보고서 내보내기(미리 보기)"
+title: "Power BI 서비스에서 Desktop으로 보고서를 내보내는 방법(미리 보기)"
 description: "Power BI 서비스에서 Power BI Desktop 파일로 보고서 다운로드"
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 30975e9192633043aed7e4196820ef34044b8fcb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Power BI 서비스에서 데스크톱에 보고서 내보내기(미리 보기)
-Power BI Desktop에서 보고서를 저장하고 **게시**를 선택하여 Power BI 서비스에 보고서를 내보낼(또는 다운로드할) 수 있습니다. 반대 방향으로도 내보내기할 수 있을 뿐 아니라 Power BI 서비스에서 바탕화면으로 보고서를 다운로드할 수 있습니다. 어느 방향으로든 내보내는 파일에 대한 파일 확장명은 .pbix입니다.
+Power BI Desktop에서 보고서를 저장하고 **게시**를 선택하여 Power BI 서비스에 보고서를 내보낼(또는 다운로드할) 수 있습니다. 반대 방향으로도 내보내기할 수 있을 뿐 아니라 Power BI 서비스에서 바탕화면으로 보고서를 다운로드할 수 있습니다. 어느 방향으로든 내보내는 파일의 파일 확장명은 *.pbix*입니다.
 
 이 문서의 뒷부분에서 유의해야 할 몇 가지 제한 사항과 고려 사항을 설명합니다.
 
@@ -45,14 +45,15 @@ Power BI Desktop에서 보고서를 저장하고 **게시**를 선택하여 Powe
     ![](media/service-export-to-pbix/power-bi-save-pbix.png)
    
     이제 Power BI 서비스(app.powerbi.com) 또는 Power BI Desktop에서 .pbix 파일을 여는 옵션이 제공됩니다.     
-4. Desktop에서 보고서를 즉시 열려면 **열기**를 선택합니다.  아직 없는 경우 [Power BI Desktop을 설치](desktop-get-the-desktop.md)합니다.
+4. Desktop에서 보고서를 즉시 열려면 **열기**를 선택합니다. 파일을 특정 위치에 저장하려면 **저장 > 다른 이름으로 저장**을 선택합니다. 아직 없는 경우 [Power BI Desktop을 설치](desktop-get-the-desktop.md)합니다.
    
     Desktop에서 보고서를 여는 경우 경고 메시지를 통해 Power BI 서비스 보고서에 사용할 수 있는 일부 기능을 Desktop에서는 사용하지 못할 수 있다는 것을 알 수 있습니다.
    
     ![](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
-5. Power BI 서비스에서 보고서를 열려면 **저장**을 선택한 다음 **데이터 가져오기**를 사용하여 .pbix 파일을 저장한 위치로 이동합니다.
+
+5. Power BI Desktop의 보고서 편집기는 Power BI 서비스의 보고서 편집기와 매우 유사합니다.  
    
-    ![](media/service-export-to-pbix/power-bi-get-data.png)
+    ![](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 Power BI 서비스에서 *.pbix* 파일의 다운로드(내보내기)와 관련된 몇 가지 중요한 고려 사항 및 제한 사항이 있습니다.

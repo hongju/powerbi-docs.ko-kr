@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: ec5d5de3d29ccbe857f6fd40320353c357e6539e
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 6b2002348ae7e8ef2bb2e112eb8be967d0c68545
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>보고서를 Power BI에서 PowerPoint(미리 보기)로 내보내기
 이제 Power BI를 사용하여 보고서를 **Microsoft PowerPoint**에 게시하고 Power BI 보고서에 따라 슬라이드 모음을 쉽게 만들 수 있습니다. **PowerPoint로 내보내는** 경우 다음이 발생합니다.
 
 * Power BI 보고서의 각 페이지는 PowerPoint에서 개별 슬라이드를 생성합니다.
-* Power BI 보고서의 각 시각적 개체는 PowerPoint에서 고해상도 이미지로 내보내집니다.
+* Power BI 보고서의 각 페이지는 PowerPoint에서 단일 고해상도 이미지로 내보내집니다.
 * Power BI 보고서의 텍스트 상자는 PowerPoint에서 편집 가능한 텍스트 상자를 생성합니다.
 * Power BI 보고서에 연결되는 링크가 PowerPoint에서 만들어집니다.
 
@@ -65,7 +65,11 @@ Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소�
 2. 내보낸 보고서가 기반으로 하는 *마지막 데이터 새로 고침* 및 Power BI 보고서를 PowerPoint 파일로 내보낸 시간과 날짜인 *다운로드한* 시간 및 날짜를 비롯하여 보고서에 대한 유용한 정보를 포함합니다.
 3. 각 보고서 페이지는 왼쪽 탐색 창에서 표시된 것과 같이 별도 슬라이드입니다.
 
-개별 슬라이드로 들어가면 각 시각적 개체가 독립적인 이미지라는 것을 알 수 있습니다(앞에서 언급함). 이런 방식으로 해당 이미지를 복사하고 다른 슬라이드나 원하는 다른 위치에 붙여 넣을 수 있습니다.
+개별 슬라이드로 들어가면 각 보고서 페이지가 독립적인 이미지라는 것을 알 수 있습니다.
+
+>[!NOTE]
+> 각 보고서 페이지에 대한 시각적 개체를 갖는 것은 새로운 동작입니다. 각 시각적 개체에 대한 독립적 이미지를 제공하는 이전 동작은 더 이상 구현되지 않습니다. 
+ 
 
 ![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_6.png)
 
@@ -85,6 +89,7 @@ Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소�
 * PowerPoint의 페이지는 Power BI 보고서의 원래 페이지 크기에 관계 없이 항상 표준 9:16 크기로 만들어집니다.
 * Power BI 테넌트 도메인 외부의 사용자가 소유한 보고서(예: 조직 외부 사람이 소유한 보고서 및 사용자와 공유한 보고서)는 PowerPoint에 게시할 수 없습니다.
 * 조직 외부의 사람, 즉 Power BI 테넌트에 없는 사용자와 대시보드를 공유하면 해당 사용자는 공유 대시보드에 연결된 보고서를 PowerPoint로 내보낼 수 없습니다. 예를 들어 aaron@contoso.com인 경우 david@cohowinery.com과 공유 할 수 있지만, david@cohowinery.com은 연결된 보고서를 PowerPoint로 내보낼 수 없습니다.
+* 위에서 언급했듯이, 각 보고서 페이지는 PowerPoint 파일에서 단일 이미지 형식으로 내보내집니다. 
 
 ## <a name="next-steps"></a>다음 단계
 [Excel에서 분석](service-analyze-in-excel.md)

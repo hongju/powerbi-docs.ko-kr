@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/23/2018
 ms.author: maggies
-ms.openlocfilehash: 3515a57f88db1c8a7b12706680c0aade8b2cdbfa
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -50,7 +50,7 @@ Power BI 보고서는 가져온 위치에 따라 모바일 앱의 다른 위치�
   ![가로 모드의 휴대폰 보고서](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>휴대폰에 최적화된 보고서 보기
-Power BI 보고서 작성자는 휴대폰에서 특별히 최적화된 보고서 레이아웃을 만들 수 있습니다. 보고서의 목록에서 최적화된 보고서에는 특수 아이콘이 있습니다. ![휴대폰 보고서 아이콘](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Power BI 보고서 작성자는 휴대폰에서 특별히 최적화된 보고서 레이아웃을 만들 수 있습니다. 휴대폰에 최적화된 보고서 페이지를 통해 기능이 추가되었습니다. 예를 들어 포커스 모드에서 시각적 개체를 드릴다운하여 정렬하고, [보고서 작성자가 보고서 페이지에 추가한 필터](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)에 액세스할 수 있습니다. 보고서 목록에서 최적화된 보고서에는 ![휴대폰 보고서 아이콘](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)이 붙어 있습니다.
 
 ![휴대폰 보고서 열기](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -58,7 +58,7 @@ Power BI 보고서 작성자는 휴대폰에서 특별히 최적화된 보고서
 
 ![세로 보기의 보고서](media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
 
-보고서에는 다양한 페이지가 있을 수 있으며 휴대폰에 최적화되지 않을 수 있습니다. 그런 경우 보고서를 넘길 때 각 페이지에 맞게 세로에서 가로로 보기가 전환됩니다.
+ 보고서에는 다양한 페이지가 있을 수 있으며 휴대폰에 최적화되지 않을 수 있습니다. 그런 경우 보고서를 넘길 때 각 페이지에 맞게 세로에서 가로로 보기가 전환됩니다.
 
 [전화 보기에 최적화된 보고서](mobile-apps-view-phone-report.md)에 대해 자세히 알아보세요.
 

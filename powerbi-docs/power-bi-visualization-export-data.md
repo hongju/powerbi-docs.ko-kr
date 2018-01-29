@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 8567326cb685a03fd1af618aad5310234677ab6d
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-data-from-visualizations"></a>시각화에서 데이터 내보내기
 시각화를 만드는 데 사용되는 데이터를 보려는 경우 [Power BI에서 해당 데이터를 표시](service-reports-show-data.md)하거나 해당 데이터를 .xlsx 또는 .csv 파일로 Excel에 내보낼 수 있습니다.   
@@ -74,8 +74,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 
    
    >[!WARNING]
    >기본 데이터 내보내기를 사용하면 사용자가 모든 세부 데이터 즉, 데이터의 모든 열을 확인할 수 있습니다. Power BI 서비스 관리자는 조직에 대해 이 기능을 해제할 수 있습니다. 데이터 집합 소유자인 경우 데스크톱 또는 Power BI 서비스에서 필드 목록에 표시되지 않도록 전용 열을 “숨김”으로 설정할 수 있습니다.
-   > 
-   > 
+   
    
    **기본 데이터**: 시각화에 집계가 있고 모든 기본 세부 정보를 확인하려는 경우 이 옵션을 선택합니다. 기본적으로, 내부 데이터를 선택하여 집계를 삭제합니다. **내보내기**를 선택하면 데이터는 .xlsx 파일로 내보내지고 브라우저는 파일을 저장할 것인지 묻는 메시지를 표시합니다. 저장한 후 Excel에서 파일을 엽니다.
    
@@ -85,7 +84,9 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 * **Power BI Desktop** 및 **Power BI 서비스**에서 .csv로 내보낼 수 있는 최대 행 수는 30,000개입니다.
-* **Power BI 서비스**에서 .xlsx로 내보낼 수 있는 행의 최대 수는 무료 사용자 30,000개, Pro 사용자 150,000개입니다.
+* .xlsx로 내보낼 수 있는 최대 행 수는 150,000개입니다.
+* 데이터 원본이 Analysis Services 라이브 연결이고 버전이 2016 미만이고 모델의 테이블에 고유 키가 없는 경우 *내부 데이터*를 사용한 내보내기가 작동하지 않습니다.  
+* 내보내는 시각화에 대해 *데이터가 없는 항목 표시* 옵션이 설정된 경우 *내부 데이터*를 사용한 내보내기가 작동하지 않습니다.
 * DirectQuery를 사용하는 경우 내보낼 수 있는 데이터의 최대 크기는 16MB입니다. 그러면 행의 최대 수보다 적은 데이터를 내보내게 될 수 있습니다. 특히 열이 많은 경우 압축하기 어려운 데이터 및 파일 크기를 증가시키고 행 수를 감소시키는 기타 요인을 내보냅니다.
 * Power BI에서는 기본 집계를 사용하는 시각적 개체에서만 내보내기를 지원합니다. 모델 또는 보고서 측정값을 사용하는 시각적 개체에는 내보내기를 사용할 수 없습니다.
 * 사용자 지정 시각적 개체 및 R 시각적 개체는 현재 지원되지 않습니다.

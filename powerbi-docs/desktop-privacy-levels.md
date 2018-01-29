@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 733e24f44c63b8887c3c8b00999f7cea22581a86
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 743f9dc0a96c2816693695f4ca2878aba09873df
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 개인 정보 수준
 **Power BI Desktop**에서, 개인 정보 수준은 특정 데이터 원본이 다른 데이터 원본과 격리되는 정도를 정의하는 격리 수준을 지정합니다. 제한적인 격리 수준은 데이터 원본 간에 교환 되는 정보를 차단하지만 기능이 감소되고 성능이 영향을 받을 수 있습니다.
@@ -69,6 +69,10 @@ ms.lasthandoff: 11/15/2017
 
 > **보안 정보:****개인 정보 수준** 대화 상자에서 **개인 정보 수준을 무시하고 잠재적으로 성능 향상** 을 선택하여 **개인 정보 수준**을 사용하도록 설정하면 권한 없는 사용자에게도 중요한 데이터 또는 기밀 데이터가 노출될 수 있습니다. 데이터 원본에 중요한 데이터 또는 기밀 데이터가 포함되지 않았다고 확신하지 않는 한 **개인 정보 수준**을 사용하지 마세요.
 > 
+> 
+
+> [!CAUTION]
+> **개인 정보 수준을 무시하고 잠재적으로 성능 향상**은 Power BI 서비스에서 작동하지 않습니다. 따라서 이 설정이 활성화된 Power BI Desktop 보고서는 Power BI 서비스에 게시되면 서비스에 사용될 때 이 동작을 반영하지 *않습니다*.
 > 
 
 **개인 정보 수준 구성**

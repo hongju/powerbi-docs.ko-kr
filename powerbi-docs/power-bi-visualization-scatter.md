@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI의 분산형 차트 및 거품형 차트(자습서)
 분산형 차트에는 항상 가로 축을 따라 하나의 숫자 데이터 집합을 표시하고 세로 축을 따라 다른 숫자 값 집합을 표시하는 두 개의 값 축이 있습니다. 차트에서 x 및 y 숫자 값의 교차점에 점이 표시되고 이러한 값이 단일 데이터 요소로 결합됩니다. 데이터에 따라 가로 축에 균등 또는 불균등하게 이러한 데이터 요소를 배포할 수 있습니다.
@@ -30,6 +30,8 @@ ms.lasthandoff: 01/17/2018
 거품형 차트는 데이터 요소를 거품으로 바꾸며 거품 *크기*로 데이터의 추가 차원을 나타냅니다.
 
 ![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+데이터 요소의 수를 설정할 수 있습니다.  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>분산형 차트 또는 거품형 차트를 사용해야 하는 경우
 ### <a name="scatter-charts-are-a-great-choice"></a>다음과 같은 경우 분산형 차트를 사용하는 것이 좋습니다.
@@ -39,7 +41,7 @@ ms.lasthandoff: 01/17/2018
 * 가로 축을 로그 눈금으로 전환하려는 경우.
 * 쌍을 이루거나 그룹화된 값 집합을 포함하는 워크시트 데이터를 표시하려는 경우. 분산형 차트에서는 그룹화된 값에 대한 자세한 정보를 표시하기 위해 축의 개별 눈금을 조정할 수 있습니다.
 * 선형 또는 비선형 추세, 클러스터, 이상값 등을 표시하여 큰 데이터 집합의 패턴을 표시하려는 경우.
-* 시간에 관계없이 다수의 데이터 요소를 비교하려는 경우. 분산형 차트에 포함되는 데이터가 많을수록 비교가 더 정확해집니다.
+* 시간에 관계 없이 많은 수의 데이터 요소를 비교하려는 경우.  분산형 차트에 더 많은 데이터를 포함할수록 더 정확한 비교가 가능합니다.
 
 ### <a name="bubble-charts-are-a-great-choice"></a>다음과 같은 경우 거품형 차트를 사용하는 것이 좋습니다.
 * 데이터에 각각 값 집합을 포함하는 세 가지 데이터 계열이 있는 경우.
@@ -76,13 +78,20 @@ ms.lasthandoff: 01/17/2018
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. 필요에 따라 [시각화 색, 레이블, 제목, 배경 등의 서식을 지정](service-getting-started-with-color-formatting-and-axis-properties.md)합니다.
 
-## <a name="accessibility"></a>내게 필요한 옵션
+   표식 모양을 다이아몬드, 삼각형 또는 사각형으로 변경할 수 있습니다.
 
-장애가 있는 사람들을 위해 *표식 모양*을 사용하여 분산형 차트 또는 버블 차트를 보다 쉽게 액세스하도록 할 수 있습니다. 
+   ![사각형 표식](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-표식 모양을 선택하려면 **시각화** 창에서 **형식** 섹션을 선택하고 **셰이프** 섹션을 확장한 다음 표식 모양을 선택합니다.
+4. 필요에 따라 거품형 차트에 표시할 데이터 요소의 수를 설정하려면 **시각화** 창의 **형식** 섹션에서 **일반** 카드를 확장하고 **데이터 볼륨**을 조정합니다. 기본값은 3500입니다. 
+ 
+    ![데이터 볼륨](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-![표식 모양](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+   > [!NOTE]
+   > 데이터 요소가 많을수록 로드 시간이 길어질 수 있으므로 제한 값이 높은 보고서를 게시하기로 선택하는 경우 웹 및 모바일에서 보고서를 테스트하고 성능이 사용자의 예상과 일치하도록 해야 합니다.
+
+5.   필요에 따라 표식 모양을 선택하려면 **셰이프** 카드를 확장한 다음 표식 모양을 선택합니다.
+
+      ![표식 모양](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**분산형 차트에 하나의 데이터 요소만 있음**

@@ -16,18 +16,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 5ab075ede78ad5c08858878d6652e9b102a87fca
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 553e3c417f79d6d1c5a45737ad370d74f72177ca
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 시각화를 위한 팁과 힌트
-Power BI는 Bing 지도와 통합되어 기본 지도 좌표를 제공(지오코딩이라는 프로세스)하므로 지도를 쉽게 만들 수 있습니다. 이와 함께 알고리즘을 사용하여 올바른 위치를 식별하지만, 경우에 따라 추측하기도 합니다. Power BI가 자체적으로 지도 시각화를 만들 수 없는 경우 Bing 지도의 도움말을 등록합니다.  
+Power BI는 Bing 지도와 통합되어 기본 지도 좌표를 제공(지오코딩이라는 프로세스)하므로 지도를 쉽게 만들 수 있습니다. 이와 함께 알고리즘을 사용하여 올바른 위치를 식별하지만, 경우에 따라 추측하기도 합니다. Power BI가 자체적으로 지도 시각화를 만들 수 없는 경우 Bing 지도의 도움말을 등록합니다. 
 
-올바른 지오코딩의 가능성을 높이기 위해 다음과 같은 팁을 사용합니다. 팁의 첫 번째 집합은 데이터 집합 자체에 액세스할 수 있는 경우 사용할 수 있습니다. 팁의 두 번째 집합은 데이터 집합에 액세스할 수 없는 경우 Power BI에서 수행할 수 있는 것들입니다.
+사용자 또는 사용자의 관리자는 지오코딩에 URL Bing을 사용할 수 있도록 방화벽을 업데이트해야 할 수 있습니다.  이러한 URL은 다음과 같습니다.
+* https://dev.virtualearth.net/REST/V1/Locations
+* https://platform.bing.com/geo/spatial/v1/public/Geodata
+* https://www.bing.com/api/maps/mapcontrol
+
+올바른 지오코딩의 가능성을 높이기 위해 다음과 같은 팁을 사용합니다. 팁의 첫 번째 집합은 데이터 집합 자체에 액세스할 수 있는 경우 사용할 수 있습니다. 팁의 두 번째 집합은 데이터 집합에 액세스할 수 없는 경우 Power BI에서 수행할 수 있는 것들입니다. 마지막 집합은 URL 목록입니다.
 
 ## <a name="what-is-sent-to-bing-maps"></a>Bing 지도로 무엇이 전송됩니까?
 Power BI 서비스 및 Power BI Desktop은 지도 시각화를 만드는 데 필요한 지역 데이터를 Bing에 전송합니다. 여기에는 **위치**, **위도** 및 **경도** 버킷의 데이터와 **보고서 수준**, **페이지 수준** 또는 **시각적 수준** 필터 버킷 중 하나의 지역 필드가 포함될 수 있습니다. 전달되는 내용은 지도 형식에 따라 달라집니다. 자세히 알아보려면 [Bing 지도 개인 정보](https://go.microsoft.com/fwlink/?LinkID=248686)를 참조하세요.

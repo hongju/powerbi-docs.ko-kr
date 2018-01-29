@@ -15,17 +15,52 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 1/17/2018
 ms.author: asaxton
-ms.openlocfilehash: f6ffc56f524da84e865d17981faddef58534c785
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: b9917b515971d16cb54a09deff1202c382eb7ef0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
 
 이 문서에서는 Power BI 콘텐츠를 포함할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
+
+## <a name="tools-for-troubleshooting"></a>문제 해결을 위한 도구
+
+### <a name="fiddler-trace"></a>Fiddler 추적
+
+[Fiddler](http://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다.  클라이언트 컴퓨터에서 Power BI API를 사용하여 앞뒤로 볼 수 있습니다. 오류 및 다른 관련 정보를 표시할 수 있습니다.
+
+![Fiddler 추적](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
+
+### <a name="f12-in-browser-for-front-end-debugging"></a>프런트 엔드 디버깅을 위한 브라우저의 F12 키
+
+F12 키는 브라우저 내에서 개발자 창을 실행합니다. 이 창을 통해 네트워크 트래픽 및 기타 정보를 살펴볼 수 있습니다.
+
+![F12 키 브라우저 디버깅](media/embedded-troubleshoot/browser-f12.png)
+
+### <a name="extracting-error-details-from-power-bi-response"></a>Power BI 리소스에서 오류 세부 정보 추출
+
+이 코드 조각은 HTTP 예외에서 오류 세부 정보를 추출하는 방법을 보여줍니다.
+
+```
+public static string GetExceptionText(this HttpOperationException exc)
+{
+    var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
+    exc.Request.Content, exc.Response.StatusCode, (int)exc.Response.StatusCode, exc.Response.Content);
+    if (exc.Response.Headers.ContainsKey("RequestId"))
+    {
+        var requestId = exc.Response.Headers["RequestId"].FirstOrDefault();
+        errorText += string.Format("\r\nRequestId: {0}", requestId);
+    }
+
+    return errorText;
+}
+```
+요청 id(및 문제 해결에 대한 오류 세부 정보)를 기록해 두는 것이 좋습니다.
+Microsoft 지원에 문의할 때 요청 id를 제공해 주세요.
 
 ## <a name="app-registration"></a>앱 등록
 
@@ -105,19 +140,6 @@ GenerateToken 호출 전에 응용 프로그램의 백 엔드가 인증 토큰�
 
 Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 응용 프로그램 또는 포함 api 문제를 배제해도 되는 수준인지 확인합니다.
 
-## <a name="tools-for-troubleshooting"></a>문제 해결을 위한 도구
-
-### <a name="fiddler-trace"></a>Fiddler 추적
-
-[Fiddler](http://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다.  클라이언트 컴퓨터에서 Power BI API를 사용하여 앞뒤로 볼 수 있습니다. 오류 및 다른 관련 정보를 표시할 수 있습니다.
-
-![Fiddler 추적](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
-
-### <a name="f12-in-browser-for-front-end-debugging"></a>프런트 엔드 디버깅을 위한 브라우저의 F12 키
-
-F12 키는 브라우저 내에서 개발자 창을 실행합니다. 이 창을 통해 네트워크 트래픽 및 기타 정보를 살펴볼 수 있습니다.
-
-![F12 키 브라우저 디버깅](media/embedded-troubleshoot/browser-f12.png)
 
 자주 묻는 질문과 대답은 [Power BI Embedded FAQ](embedded-faq.md)를 참조하세요.
 
