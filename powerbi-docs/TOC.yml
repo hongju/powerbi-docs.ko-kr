@@ -922,8 +922,6 @@
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
         - name: Surface Hub에서 프리젠테이션 모드로 Power BI 보기
           href: mobile-windows-10-app-presentation-mode.md
-        - name: Windows 10용 Power BI 모바일 앱에서 타일 공유
-          href: mobile-share-tile-windows-10-phone-app.md
 - name: Power BI 개발자
   items:
     - name: 개요
