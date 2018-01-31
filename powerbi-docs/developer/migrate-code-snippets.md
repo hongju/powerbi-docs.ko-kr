@@ -3,7 +3,7 @@ title: "Power BI Embedded에서 콘텐츠 마이그레이션을 위한 코드 �
 description: "다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 39be2f2fad9b111bf99c7df2905a90833a2751a3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: c868c039e8edfe218c2a578402690a40ed1f3030
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-embedded"></a>Power BI Embedded에서 콘텐츠 마이그레이션을 위한 코드 조각
 다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다. 특정 보고서 유형에 대한 관련 흐름은 [Power BI Embedded 작업 영역 컬렉션 콘텐츠를 Power BI로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md#content-migration)을 참조하세요.

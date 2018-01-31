@@ -3,7 +3,7 @@ title: "Power BI용 백서"
 description: "백서를 통해 Power BI 항목을 보다 자세히 탐색할 수 있습니다."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/05/2018
-ms.author: asaxton
-ms.openlocfilehash: 893f9a9b539b2facd62f74f8ecaebe42a4e7fcaa
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI용 백서
 

@@ -3,7 +3,7 @@ title: "iFrame을 사용하여 보고서 포함"
 description: "Power BI Report Server 자체를 신속하게 설치할 수 있습니다. 몇 분 이내에 다운로드, 설치 및 구성하도록 실행합니다."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/09/2017
 ms.author: maghan
-ms.openlocfilehash: 0019b0a8d3fa628a1b3932a4c19eba0bf0d66ee3
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 56835bfb25c8c930099fadf710137f69fa89fc2e
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>빠른 시작: iFrame 및 URL 매개 변수를 사용하여 Power BI 보고서 포함
 

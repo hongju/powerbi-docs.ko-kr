@@ -3,7 +3,7 @@ title: "Power BI 프리미엄 구매 방법"
 description: "Power BI 프리미엄을 관리하고 전체 조직에 대한 콘텐츠에 대한 액세스를 활성화할 수 있는 방법을 알아봅니다."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/17/2017
-ms.author: asaxton
-ms.openlocfilehash: 6dd0191a480274e7a9b03b182113edd4c734c2ef
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.author: maghan
+ms.openlocfilehash: c24d1d973870fc0d50dc95cc1a8822487cd51091
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
 조직에 대한 Power BI 프리미엄 용량을 구입하는 방법을 알아봅니다.
@@ -78,7 +78,7 @@ Power BI Premium SKU를 구입하려면 테넌트 내에서 ***전역 또는 대
 이제 Power BI 관리 센터 내에서 이 용량을 관리할 수 있습니다. 자세한 내용은 [Power BI 프리미엄 관리](service-admin-premium-manage.md)를 참조하세요.
 
 ## <a name="purchase-more-capacities"></a>추가 용량 구입
-Power BI 관리 포털의 **프리미엄 설정**에 있고 관리자인 경우 **추가 구입** 단추가 표시됩니다. 이 단추를 통해 Office 365 포털로 이동합니다. Office 365 관리 센터에 있는 경우 다음을 수행할 수 있습니다.
+Power BI 관리 포털의 **프리미엄 설정**에 있고 관리자인 경우 **추가 구입** 단추가 표시됩니다. 이 단추를 통해 Office 365 포털으로 이동합니다. Office 365 관리 센터에 있는 경우 다음을 수행할 수 있습니다.
 
 1. **청구** > **서비스 구입**을 선택합니다.
 2. **기타 계획** 아래에서 추가로 구입할 Power BI 프리미엄 항목을 찾습니다.

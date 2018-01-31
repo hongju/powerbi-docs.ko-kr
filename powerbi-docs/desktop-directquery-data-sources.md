@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 9817011491f65f84201c4d26ee04aa5cd8704ab1
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 6e93a6d216603ee247979c586481115ba3f67d77
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI의 DirectQuery에서 지원하는 데이터 원본
 **Power BI Desktop** 및 **Power BI 서비스**에는 데이터에 연결하고 액세스할 수 있는 많은 데이터 원본이 포함되어 있습니다. 이 문서에서는 **DirectQuery**라는 연결 방법을 지원하는 Power BI의 데이터 원본에 대해 설명합니다. DirectQuery에 대한 자세한 내용은 [**Power BI의 DirectQuery**](desktop-directquery-about.md)를 참조하세요.
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/23/2017
 ## <a name="on-premises-gateway-requirements"></a>온-프레미스 게이트웨이 요구 사항
 다음 표에서는 보고서를 **Power BI 서비스**에 게시한 후 지정된 데이터 원본에 연결하는 데 **온-프레미스 데이터 게이트웨이**가 필요한지를 명시합니다.
 
-| 소스 | 게이트웨이 필요 여부 |
+| 원본 | 게이트웨이 필요 여부 |
 | --- | --- |
 | SQL Server |예 |
 | Azure SQL Database |아니요 |

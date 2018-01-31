@@ -3,7 +3,7 @@ title: "데이터 소스에 연결"
 description: "Power BI Report Server 내에서 연결할 수 있는 데이터 소스에 대해 알아봅니다."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 389eea63ca03c982f89bc8d44611ec5b01f3a1ce
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 35312fcf4301a7655893c1824b93b7718d6ae97f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="connecting-to-data-sources"></a>데이터 소스에 연결
 Power BI Report Server 내에서 연결할 수 있는 데이터 소스에 대해 알아봅니다.

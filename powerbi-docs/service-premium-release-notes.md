@@ -3,7 +3,7 @@ title: "Power BI 프리미엄 릴리스 정보"
 description: "조직 또는 팀을 위한 전용 용량인 Power BI 프리미엄에 대한 릴리스 정보를 읽어보세요."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/11/2017
-ms.author: asaxton
-ms.openlocfilehash: 7d16d9676b2c97c330c4126927dd810e8ac6768a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: f729f20315d907cc2416723ba10b8c296e313899
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-premium-release-notes"></a>Power BI 프리미엄 릴리스 정보
 조직 또는 팀에 보다 신뢰할 수 있는 성능, 대용량 데이터 볼륨 및 뷰어를 위해 사용자별 라이선스 없이도 콘텐츠를 배포하는 기능을 제공하는 전용 용량인 Power BI Premium에 대한 릴리스 정보입니다.

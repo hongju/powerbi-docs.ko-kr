@@ -3,7 +3,7 @@ title: "추가 진단 정보 캡처"
 description: "추가 진단 정보 캡처"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 7910270ecafd383600ff19e6c6c2bfc1ad6e6d4a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: cfd653c97371cadc069d6c8f67bf01c0ee74f2cf
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="capturing-additional-diagnostic-information"></a>추가 진단 정보 캡처
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Power BI에 대한 추가 진단 정보 캡처

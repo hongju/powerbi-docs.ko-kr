@@ -3,7 +3,7 @@ title: "Power BI Embedded의 질문 및 답변"
 description: "Power BI Embedded는 질문 및 답변을 응용 프로그램에 통합하고 사용자가 자연어를 사용하여 질문할 수 있는 방법을 제공합니다."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/20/2017
-ms.author: asaxton
-ms.openlocfilehash: 856377112ccd7cb045ff80d3294ff9b8181122ee
-ms.sourcegitcommit: 97ca2ed578f4f0e11f2d014872fe1b80dfd8a28e
+ms.author: maghan
+ms.openlocfilehash: 93b4f21cd5a7a804874ab111bca61eea112cb11a
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded의 질문 및 답변
 Power BI Embedded는 질문 및 답변을 응용 프로그램에 통합하고 사용자가 자연어를 사용하여 질문하고 차트나 그래프와 같은 시각적 개체 형식으로 즉각적인 답변을 받을 수 있는 방법을 제공합니다.

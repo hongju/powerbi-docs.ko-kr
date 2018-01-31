@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 449f6a9363a40895a2b53c7a778ee02129facb7f
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI로 Project "Madeira"에 연결
 Power BI와 Project "Madeira" 콘텐츠 팩을 통해 Project "Madeira" 데이터에 유용한 정보를 쉽게 가져올 수 있습니다. Power BI는 영업 및 재무 데이터를 모두 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 작성합니다.
@@ -63,7 +63,8 @@ Power BI용 [Project "Madeira" Analytics 콘텐츠 팩](https://app.powerbi.com/
 
 ## <a name="system-requirements"></a>시스템 요구 사항
 Project “Madeira” 데이터를 Power BI에 가져오려면 데이터를 검색할 원본 영업 및 재무 데이터 테이블에 대한 권한이 필요합니다. 콘텐츠 팩에 필요한 모든 테이블(대/소문자 구분)에는 다음이 포함됩니다.  
-
+ 
+    ´´´ 
     - ItemSalesAndProfit  
     - ItemSalesByCustomer  
     - powerbifinance  
@@ -71,6 +72,7 @@ Project “Madeira” 데이터를 Power BI에 가져오려면 데이터를 검�
     - SalesOpportunities  
     - SalesOrdersBySalesPerson  
     - TopCustomerOverview  
+    ´´´ 
 
 <a name="FindingParams"></a>
 

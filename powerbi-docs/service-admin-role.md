@@ -3,7 +3,7 @@ title: "Power BI 관리자 역할 이해"
 description: "Power BI 서비스 내에서 가져온 데이터 집합 및 DirectQuery에 대한 행 수준 보안을 구성하는 방법입니다."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: be5b63ad969ed7c1a341489973832a9f10a8dd46
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 6c0d6a0e0965f2fa4fedce4c2b32ee34a7b1b009
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="understanding-the-power-bi-admin-role"></a>Power BI 관리자 역할 이해
 조직 내에서 Power BI 관리자 역할을 사용하는 방법을 알아봅니다.

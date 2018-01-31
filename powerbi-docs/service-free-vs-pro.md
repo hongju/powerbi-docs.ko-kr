@@ -3,7 +3,7 @@ title: "Power BI Pro와 무료 버전 비교"
 description: "Power BI 내 모든 사용자는 무료 사용자이거나 Pro 사용자입니다. 이러한 두 유형의 사용자가 어떻게 다른지 알아두면 유익합니다."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/02/2017
-ms.author: asaxton
-ms.openlocfilehash: 62e394f23da6e485a443d79ac7ab40ab4aed9df9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 7d4609d682af729ef60553263c3407aa99b17b5a
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI Pro와 무료 버전 비교
 Power BI 내 모든 사용자는 무료 사용자이거나 Pro 사용자입니다. 이러한 두 유형의 사용자가 어떻게 다른지 알아두면 유익합니다.

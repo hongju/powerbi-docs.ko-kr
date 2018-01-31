@@ -3,7 +3,7 @@ title: "Power BI에서 웹에 게시"
 description: "Power BI 웹에 게시를 사용하면 장치에서 메일이나 소셜 미디어를 통해 블로그 게시물, 웹 사이트 등에 대화형 Power BI 시각화를 온라인으로 쉽게 포함할 수 있습니다."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/27/2017
-ms.author: asaxton
-ms.openlocfilehash: ced24e81271c414101ddd7027a034814e9a7d609
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.author: maghan
+ms.openlocfilehash: 890c748c7e7502394fd2e6e024521e99082a1c77
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 

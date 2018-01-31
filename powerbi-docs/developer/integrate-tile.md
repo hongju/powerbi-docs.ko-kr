@@ -3,7 +3,7 @@ title: "조직의 앱에 Power BI 타일 통합"
 description: "타일을 앱에 통합하는 연습, 샘플 코드"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
-ms.author: asaxton
-ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: fd33908f907ffac6cbff765e01e4a4321d399ca8
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>앱에 타일 통합(사용자 소유 데이터)
 조직에 대한 콘텐츠를 포함할 때 Power BI JavaScript API와 함께 REST API 호출을 사용하여 타일을 웹앱에 통합하거나 포함하는 방법에 대해 알아봅니다.

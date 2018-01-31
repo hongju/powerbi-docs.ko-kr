@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 23be6fdb45572e6f47220bba666637757b7f4862
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ff29fa49cc3ad1a57ae0d09596b6e0d086b4d349
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Power BI Desktop에서 행렬 시각적 개체 사용
 **매트릭스** 시각적 개체(때로는 *테이블*이라고도 함)를 사용하여 **Power BI Desktop** 보고서에서 행렬 시각적 개체를 만들고 기타 시각적 개체를 사용하여 행렬 내에서 상호 강조 표시 요소를 만들 수 있습니다. 또한 행, 열 및 개별 셀과 상호 강조 표시를 선택할 수 있습니다. 마지막으로 레이아웃 공간을 효율적으로 사용할 수 있도록 행렬 시각적 개체는 단계별 레이아웃을 지원합니다.
