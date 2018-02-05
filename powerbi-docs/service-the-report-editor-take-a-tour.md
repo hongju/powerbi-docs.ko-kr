@@ -1,5 +1,5 @@
 ---
-title: "보고서 편집기... 둘러보기"
+title: "빠른 시작 - 보고서 편집기...둘러보기"
 description: "보고서 편집기... 둘러보기입니다."
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>보고서 편집기... 둘러보기
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 및 Power BI Desktop의 보고서 편집
 Power BI 서비스의 보고서 편집기와 Power BI Desktop의 보고서 편집기는 매우 유사합니다. 비디오에서는 Power BI Desktop의 보고서 편집기를 보여주고 이 문서에서는 Power BI 서비스의 보고서 편집기를 보여줍니다. 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>보고서 ‘작성자’와 보고서 ‘소비자’ 간의 차이
+보고서를 작성하고 편집하는 기능은 보고서 소유자(‘작성자’)로 제한됩니다. 사용자와 공유되는 보고서를 ‘소비’하는 경우, Power BI 서비스 [읽기용 보기](service-reading-view-and-editing-view.md)에서만 보고서를 열고 조작할 수 있지만, 보고서 작성자에게 제공되는 강력하고 다양한 기능은 사용할 수 없습니다.  
+
+보고서 읽기용 보기에 대해 자세히 알아보려면 [Power BI 서비스의 읽기용 보기 및 편집용 보기](service-reading-view-and-editing-view.md)를 참조하세요. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Power BI 서비스에서 *보고서 편집기*는 [편집용 보기](service-reading-view-and-editing-view.md)로만 제공됩니다. 편집용 보기에서 보고서를 열려면 보고서 소유자여야 합니다.
+Power BI 서비스에서 *보고서 편집기*는 [편집용 보기](service-reading-view-and-editing-view.md)로만 제공됩니다. 편집용 보기에서 보고서를 열려면 보고서 소유자 또는 작성자여야 합니다.
 
 Power BI 보고서 편집기는 다음 3개 섹션으로 구성됩니다.   
 
@@ -87,7 +93,9 @@ Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조 줄을 
 
 - - -
 ## <a name="the-filters-pane"></a>필터 창
-페이지, 보고서, 드릴스루 및 시각적 개체 수준 필터를 보고 설정하고 수정합니다.
+필터 창을 사용하여 페이지, 보고서, 드릴스루 및 시각적 수준에서 보고서에 대한 지속 필터를 보고 설정하고 수정할 수 있습니다. 예, 시각적 개체의 요소를 선택하거나 슬라이서 같은 도구를 사용하여 보고서 페이지 및 시각적 개체에서 임시 필터링을 수행할 수 있습니다. 그러나 필터 창을 사용하면 필터의 상태가 보고서에 저장됩니다. 
+
+필터 창에는 다른 강력한 기능 하나가 있습니다. 즉, ***보고서에서 비주얼 중 하나에서 사용되는 알렉스가 아닌 필드*** 를 사용하여 필터링하는 기능입니다. 설명해 보겠습니다. 보고서 페이지를 만들 때 Power BI는 시각화에 사용하는 모든 필드를 필터 창의 시각적 수준 필터 영역에 자동으로 추가합니다.  그러나 현재 시각화에 사용되지 않는 필드를 사용하여 시각적 개체, 페이지, 드릴스루 또는 보고서 필터를 설정하려면 필터 버킷 중 하나로 끌어오면 됩니다.   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -125,11 +133,7 @@ Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조 줄을 
 ## <a name="next-steps"></a>다음 단계:
 [보고서 만들기](service-report-create-new.md)
 
-[보고서 편집](service-interact-with-a-report-in-editing-view.md)
-
-[Power BI의 보고서](service-reports.md)에 대해 자세히 알아보기
-
-[Power BI 시작](service-get-started.md)
+[Power BI 서비스](service-reports.md), [Power BI Desktop](desktop-report-view.md) 및 [Power BI Mobile](mobile-apps-view-phone-report.md)의 보고서에 대해 자세히 알아보세요.
 
 [Power BI - 기본 개념](service-basic-concepts.md)
 

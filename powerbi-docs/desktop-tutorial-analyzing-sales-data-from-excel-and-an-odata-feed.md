@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 03c5afae78e1688cadfdef9c0a96ca9f24247e12
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>자습서: Excel 및 OData 피드의 판매 데이터 분석
 **Power BI Desktop**을 사용하면 모든 종류의 다양한 데이터 원본에 연결한 다음 흥미롭고 눈에 띄는 데이터 분석과 시각화를 쉽게 수행할 수 있는 방식으로 이러한 데이터 원본을 결합 및 셰이핑할 수 있습니다. 이 자습서에서는 두 데이터 소스의 데이터를 결합하는 방법을 배웁니다. 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/15/2017
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-이 자습서의 단계를 따르려면 Products 통합 문서가 필요합니다(다운로드할 수 있음**).**[ Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[를](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[ 다운로드하려면](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[ 여기를 클릭하세요.](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[.](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
+이 자습서의 단계를 따르려면 Products 통합 문서가 필요합니다(다운로드할 수 있음**).**[ Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[를](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[ 다운로드하려면](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[ 여기를 클릭하세요](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[.](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
 
 **다른 이름으로 저장** 대화 상자에서 파일 이름을 **Products.xlsx**로 지정합니다.
 
@@ -140,7 +140,7 @@ Power BI Desktop을 사용하면 가져오는 열에 따라 계산을 만들어 
 
 ### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>5단계: LineTotal 필드의 데이터 형식 설정
 1. **LineTotal** 열을 마우스 오른쪽 단추로 클릭합니다.
-2. **형식 변경** 을 선택하고 **10진수를 선택합니다.
+2. **형식 변경**을 선택하고 **10진수**를 선택합니다.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
@@ -201,7 +201,7 @@ Power BI Desktop을 사용하면 다양한 시각화를 만들어 데이터를 �
 
 이 작업에서는 이전에 로드한 데이터를 기반으로 하여 보고서를 만듭니다. 필드 창을 사용하여 시각화를 만들 열을 선택합니다.
 
-### <a name="step-1-create-charts-showing-units-in-stock-by-product-and-total-sales-by-year"></a>1단계: 제품별 재고 단위 및 연도별 총 판매액을 보여 주는 차트 만들기
+### <a name="step-1-create-charts-showing-units-in-stock-by-product-and-total-sales-by-year"></a>1단계: 제품별 재고 단위 및 연도별 총 판매액을 보여주는 차트 만들기
 필드 창(필드 창은 화면 오른쪽에 있음)에서 **UnitsInStock** 을 캔버스의 빈 공간으로 끕니다. 테이블 시각화가 만들어집니다. 이제 ProductName을 축 상자(시각화 창의 아래쪽에 있음)로 끕니다. 그런 다음 시각화의 오른쪽 상단 모서리에 있는 스키틀을 사용하여 **정렬 기준 \> UnitsInStock**을 선택합니다.
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
@@ -229,6 +229,5 @@ Power BI Desktop을 사용하면 상호 강조 표시하고 서로를 필터링�
 * [Power BI Desktop 동영상 시청](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Power BI 포럼 방문](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI 블로그 참고](http://go.microsoft.com/fwlink/?LinkID=519327)
-
 
 
