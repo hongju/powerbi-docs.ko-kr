@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 90449f79da8aed3d992b9ac8bf83ac2ac4c0f83c
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: f9824b29515481742c339bc76e766e5e62cf1716
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
@@ -93,6 +93,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [Stack Shuffle 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [와플 차트 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [World Flags 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) | |
+| [Force-Directed Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764)(Force-Directed 그래프) |[비디오](https://youtu.be/YsTa7uyJ4sg) |
 | [TBATS 예측](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) | |
 | [원본과 깔때기]() | || [Gantt](https://store.office.com/gantt-WA104380765.aspx) |[비디오](https://youtu.be/qJ7s_KrGiUU) |
 | [Akvelon의 계층 구조 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) | |
@@ -115,6 +116,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [스크롤러](https://store.office.com/scroller-WA104381018.aspx) |[비디오](https://youtu.be/uhRFQF2cGSY) |
 | [SQLBI로 스마트 필터](https://store.office.com/smart-filter-by-okviz-WA104380859.aspx) |[비디오](https://youtu.be/gcJsDDRQq28) |
 | [OKViz로 스파크라인](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910?src=office&tab=Overview) |[비디오](https://youtu.be/0m3Vnvso9tY) |
+| [Stream graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772?tab=Overview)(스트림 그래프) |  |
 | [Sunburst](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767?src=office&tab=Overview) | |
 | [테이블 Heatmap](https://store.office.com/table-heatmap-WA104380818.aspx) | |
 | [속도계](https://store.office.com/tachometer-WA104380937.aspx?) |[비디오](https://www.youtube.com/watch?v=C3OXdETbS9o) |

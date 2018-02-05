@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 424e96c5315bd41fc79999555097602f629a1285
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>시각화 제목, 범례 및 배경 사용자 지정(자습서)
 이 자습서에서는 시각화를 사용자 지정하는 몇 가지 방법을 알아봅니다.   시각화를 사용자 지정하는 많은 옵션이 있으며 모두에 대해 자세히 알아보기 위한 가장 좋은 방법은 서식 지정 창(페인트 롤러 아이콘 선택)을 탐색하는 것입니다.  시작하기 위해 이 문서는 시각화 제목, 범례 및 배경을 사용자 지정하는 방법을 보여 줍니다.  
@@ -33,9 +33,12 @@ Amanda가 보고서에서 시각화를 사용자 지정하는 비디오를 시�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
+### <a name="prerequisites"></a>필수 조건
+- Power BI 서비스 또는 Power BI Desktop
+- 소매점 분석 샘플
 
 ## <a name="customize-visualization-titles-in-reports"></a>보고서의 시각화 제목 사용자 지정
-과정을 따르려면 app.powerbi에 로그인하고 [편집용 보기](service-interact-with-a-report-in-editing-view.md)에서 [소매점 분석 샘플](sample-datasets.md) 보고서를 엽니다.
+과정을 따르려면 Power BI 서비스(app.powerbi.com)에 로그인하고 [편집용 보기](service-interact-with-a-report-in-editing-view.md)에서 [소매점 분석 샘플](sample-datasets.md) 보고서를 엽니다.
 
 > [!NOTE]
 > 시각화를 대시보드에 고정하면 대시보드 타일이 됩니다.  타일 자체도 [새 제목 및 부제, 하이퍼링크로 사용자 지정하고 크기를 조정](service-dashboard-edit-tile.md)할 수 있습니다.
@@ -120,7 +123,6 @@ Amanda가 보고서에서 시각화를 사용자 지정하는 비디오를 시�
 | 폭포 |예 |예 |예 |
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 보고서의 시각화](power-bi-report-visualizations.md)에 대해 자세히 알아보기  
 [X축 및 Y축 사용자 지정](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [색 및 축 속성 사용자 지정](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI - 기본 개념](service-basic-concepts.md)  

@@ -1,11 +1,11 @@
 ---
-title: "Power BI 대시보드 및 보고서를 공동 작업 및 공유하려면 어떻게 해야 하나요?"
+title: "Power BI에서 공동 작업하고 공유하려면 어떻게 해야 하나요?"
 description: "Power BI에서는 다양한 방법으로 대시보드, 보고서 및 타일을 공동 작업하고 공유할 수 있습니다. 각 방법마다 장점을 갖고 있습니다."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 qualityfocus: monitoring
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/18
 ms.author: maggies
-ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Power BI 대시보드 및 보고서를 공동 작업 및 공유하려면 어떻게 해야 하나요?
-대시보드와 보고서를 만듭니다. 아마 동료와 공동 작업도 수행할 것입니다. 그런 다음 다른 사람이 액세스할 수 있도록 하려고 합니다. 가장 좋은 배포 방법은 무엇일까요?
+대시보드 및 보고서를 만들었습니다. 아마 동료와 공동 작업도 수행할 것입니다. 그런 다음 다른 사람이 액세스할 수 있도록 하려고 합니다. 가장 좋은 배포 방법은 무엇일까요?
 
 이 문서에서는 Power BI에서의 공동 작업 및 공유 옵션을 비교합니다. 
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/06/2017
 * 누구든 확인하고 상호 작용할 수 있게 웹에 게시
 * 인쇄 
 
-선택하는 옵션에 상관 없이 대시보드를 공유하려면 [Power BI Pro](service-free-vs-pro.md) 라이선스가 필요하거나 콘텐츠가 [프리미엄 용량](service-premium.md)에 있어야 합니다. 선택한 옵션에 따라 대시보드를 보는 동료에 대해 라이선스 요구 사항이 달라집니다. 다음 섹션에 자세한 내용이 나와 있습니다. 제안? Power BI 팀은 언제나 사용자의 피드백을 중요하게 생각합니다. 따라서 [Power BI 커뮤니티 사이트](https://community.powerbi.com/)로 이동합니다.
+선택하는 옵션에 상관 없이 대시보드를 공유하려면 [Power BI Pro](service-free-vs-pro.md) 라이선스가 필요하거나 콘텐츠가 [프리미엄 용량](service-premium.md)에 있어야 합니다. 선택한 옵션에 따라 대시보드를 보는 동료에 대해 라이선스 요구 사항이 달라집니다. 다음 섹션에 자세한 내용이 나와 있습니다. 
 
 ![Power BI 서비스의 앱](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 12/06/2017
 
 ![앱 게시 아이콘](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-앱은 Power BI 서비스([https://powerbi.com](https://powerbi.com))에서 쉽게 찾아 설치할 수 있습니다. 앱에 대한 직접 링크를 비즈니스 사용자에게 보내거나, 해당 사용자가 AppSource에서 해당 앱을 검색할 수 있습니다. [앱 게시](service-create-distribute-apps.md#publish-your-app)에 대해 자세히 알아봅니다. 
+앱은 Power BI 서비스([https://powerbi.com](https://powerbi.com))에서 쉽게 찾아 설치할 수 있습니다. 앱에 대한 직접 링크를 비즈니스 사용자에게 보내거나, 해당 사용자가 AppSource에서 해당 앱을 검색할 수 있습니다. Power BI 관리자가 권한을 부여한 경우 동료의 Power BI 계정에 해당 앱을 자동으로 설치할 수 있습니다. [앱 게시](service-create-distribute-apps.md#publish-your-app)에 대해 자세히 알아봅니다. 
 
 앱을 설치한 후에 브라우저 또는 모바일 장치에서 볼 수 있습니다.
 
@@ -69,9 +69,7 @@ ms.lasthandoff: 12/06/2017
 
 조직 외부 사용자와도 공유할 수 있습니다. 외부 사용자는 대시보드를 보고 상호 작용할 수는 있지만 공유는 할 수 없습니다. 
 
-Power BI 서비스에서 [대시보드 공유](service-share-dashboards.md)에 대해 자세히 알아보세요.
-
-[보고서에 대한 직접 링크를 공유하고](service-share-reports.md) 대시보드를 무시할 수 있습니다. 링크에 필터를 추가하여 받는 사람이 보고서의 필터링된 보기를 보게 할 수 있습니다.
+Power BI 서비스에서 [대시보드 및 보고서 공유](service-share-dashboards.md)에 대해 자세히 알아보세요. 링크에 필터를 추가하고 [보고서의 필터링된 보기를 공유](service-share-reports.md)할 수도 있습니다.
 
 ## <a name="annotate-and-share-from-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 주석 달기 및 공유
 iOS 및 Android 장치용 Power BI 모바일 앱에서 타일, 보고서 또는 시각적 개체에 주석을 달 수 있으며 전자 메일을 통해 다른 사람과 공유할 수 있습니다. 

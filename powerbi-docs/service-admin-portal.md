@@ -3,7 +3,7 @@ title: "Power BI 관리 포털"
 description: "관리 포털을 통해 조직에서 Power BI의 테넌트 관리를 사용할 수 있습니다. 사용 메트릭, Office 365 관리 센터 액세스 및 설정 등과 같은 항목을 포함하고 있습니다."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
-ms.author: asaxton
-ms.openlocfilehash: d831363d6afa88aa94d78776f59f81ba8ba96299
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.date: 01/02/2018
+ms.author: maghan
+ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -209,6 +209,16 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 ### <a name="user-arcgis-maps-for-power-bi-preview"></a>Power BI용 ArcGIS Maps(미리 보기) 사용
 
 조직의 사용자는 Esri에서 제공하는 Power BI용 ArcGIS Maps(미리 보기) 시각화를 사용할 수 있습니다. [자세히 알아보기](power-bi-visualization-arcgis.md)
+
+
+## <a name="custom-visuals-settings"></a>사용자 지정 시각적 개체 설정
+### <a name="enable-custom-visuals-for-the-entire-organization"></a>전체 조직에 대해 사용자 지정 시각적 개체 사용
+조직의 사용자는 사용자 지정 시각적 개체를 조작하고 공유할 수 있습니다. [자세히 알아보기](power-bi-custom-visuals.md)
+
+![사용자 지정 시각적 개체 설정](media/service-admin-portal/powerbi-admin-custom-visuals.png)
+
+> [!NOTE]
+> 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
 
 ## <a name="r-visuals-settings"></a>R 시각적 개체 설정
 

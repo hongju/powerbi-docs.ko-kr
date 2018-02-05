@@ -3,7 +3,7 @@ title: "Power BI Report Server에 대한 브라우저 지원"
 description: "Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 1da8c38a3238ab3de222aa0661c43526d00aceb1
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 273a336280a371f694fb08a43d75e24535942e9a
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI Report Server에 대한 브라우저 지원
 Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다.
@@ -45,7 +45,7 @@ Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 
 * Mozilla Firefox(+)
 
 **Apple iOS**  
-*iOS 9 버전의 iPhone 및 iPad*
+‘iOS 10 버전의 iPhone 및 iPad’
 
 * Apple Safari(+)
 

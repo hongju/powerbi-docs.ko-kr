@@ -3,7 +3,7 @@ title: "Power BI Embedded 작업 영역 컬렉션 콘텐츠를 Power BI으로 �
 description: "Power BI Embedded에서 Power BI 서비스로 마이그레이션하고 앱에서 포함을 위해 고급 기능을 활용하는 방법을 알아봅니다."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 430f1d1a49e510bac66c448b2dceaad1f2537073
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 08/24/2018
+ms.author: maghan
+ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Power BI Embedded 작업 영역 컬렉션 콘텐츠를 Power BI으로 마이그레이션하는 방법
 Power BI Embedded에서 Power BI 서비스로 마이그레이션하고 앱에서 포함을 위해 고급 기능을 활용하는 방법을 알아봅니다.
@@ -174,14 +174,11 @@ Power BI Embedded Azure 서비스에서 마이그레이션한 콘텐츠 뿐 아�
 프로덕션으로 전환할 준비가 되면 다음 사항을 수행해야 합니다.
 
 * 개발에 별도 테넌트를 사용하는 경우 대시보드 및 보고서와 함께 앱 작업 영역을 프로덕션 환경에서 사용할 수 있는지 확인해야 합니다. 또한 Azure AD에 프로덕션 테넌트에 대한 응용 프로그램을 만들고 1단계에서 표시된 대로 적절한 앱 사용 권한을 할당했는지 확인해야 합니다.
-* 필요에 맞는 용량을 구입합니다. 필요한 것을 이해하기 위해 [포함된 분석 용량 계획 백서](https://aka.ms/pbiewhitepaper)를 사용할 수 있습니다. 구입할 준비가 되면 [Office 365 관리 센터](https://portal.office.com/adminportal/home#/catalog) 내에서 수행할 수 있습니다.
-  
-  > [AZURE.INFORMATION] Power BI 프리미엄을 구입하는 방법에 대한 정보는 [Power BI 프리미엄 구매 방법](../service-admin-premium-purchase.md)을 참조하세요.
-  > 
-  > 
+* 필요에 맞는 용량을 구입합니다. 필요한 용량 및 유형을 더 잘 이해하려면 [임베디드 분석 용량 계획 백서](https://aka.ms/pbiewhitepaper)를 참조하세요. Azure에서 [용량을 구입](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)할 수 있습니다.
 * 앱 작업 영역을 편집하고 고급에서 프리미엄 용량에 할당합니다.
-  
+ 
     ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    
 * 프로덕션에 업데이트된 응용 프로그램을 배포하고 Power BI 서비스에서 보고서 포함을 시작합니다.
 
 ## <a name="after-migration"></a>마이그레이션 후

@@ -1,6 +1,6 @@
 ---
-title: "Power BI 보고서 및 대시보드의 테이블 시각화(자습서)"
-description: "Power BI 보고서와 대시보드에서 열 너비 크기를 조정하는 방법을 비롯하여 테이블 시각화를 사용하여 작업하는 방법에 대한 팁입니다."
+title: "자습서 - Power BI 보고서 및 대시보드의 테이블 시각화(자습서)"
+description: "Power BI 보고서와 대시보드에서 열 너비 크기를 조정하는 방법을 비롯하여 테이블 시각화를 사용하여 작업하는 방법에 대한 자습서입니다."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e4a2e162ca193af756e7182fb118bc7e72d38d28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4785df6bbc14bf0da4500a9cffdcd47381e412f4
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Power BI 보고서 및 대시보드(자습서)에서 테이블 작업
 테이블은 논리적으로 연속된 행과 열에서 관련된 데이터를 포함하는 표입니다. 머리글과 합계에 대한 행이 포함될 수도 있습니다. 테이블은 단일 범주에 대한 많은 값을 볼 수 있는 정량적 비교와 잘 작동합니다. 예를 들어 이 테이블은 **범주**합에 대한 5개의 서로 다른 측정값을 표시합니다.
@@ -40,11 +40,16 @@ ms.lasthandoff: 11/13/2017
 > 테이블에 너무 많은 값이 있으면 행렬로 전환 및/또는 드릴다운을 사용하는 것이 좋습니다.
 > 
 > 
+## <a name="prerequisites"></a>필수 조건
+ - Power BI 서비스 또는 Power BI Desktop
+ - 소매점 분석 샘플
+
 
 ## <a name="create-a-table"></a>테이블 만들기
-이를 수행하려면 Power BI에 로그인하고 **데이터 가져오기 > 샘플 > 소매 분석 샘플**을 선택합니다. 항목 범주별으로 판매 값을 표시하려면 위에 나온 테이블을 만듭니다.
+항목 범주별으로 판매 값을 표시하려면 위에 나온 테이블을 만듭니다. 이를 수행하려면 Power BI 서비스에 로그인하여 **데이터 가져오기 \> 샘플 \> 소매 분석 샘플 > 연결**을 선택한 다음, **[대시보드로 이동]을 선택합니다. 시각화를 만들려면 데이터 집합 및 보고서에 대한 편집 권한이 필요합니다. 다행히 Power BI 샘플은 모두 편집 가능합니다. 보고서가 사용자와 공유되는 경우, 보고서에 시각화를 만들 수 없습니다.
 
-1. **내 작업 영역**에서 데이터 집합 탭을 선택하고 아래로 스크롤 하여 방금 추가한 소매 분석 샘플 데이터 집합으로 이동합니다.  **보고서 만들기** 아이콘을 선택합니다.
+1. 왼쪽 탐색 창에서 **작업 영역 >내 작업 영역**을 선택합니다.    
+2. [데이터 집합] 탭을 선택하고 아래로 스크롤 하여 방금 추가한 소매 분석 샘플 데이터 집합으로 이동합니다.  **보고서 만들기** 아이콘을 선택합니다.
    
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. 보고서 편집기에서 **항목** > **범주**를 선택합니다.  Power BI는 자동으로 모든 범주를 나열하는 테이블을 만듭니다.

@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>2부, Power BI 보고서에 시각화 추가(보고서)
 [1부](power-bi-report-add-visualizations-ii.md)에서 필드 이름 옆의 확인란을 선택하여 기본 시각화를 만들었습니다.  2부에서는 끌어 놓기를 사용하는 방법과 **필드** 및 **시각화** 창을 완벽히 사용하여 시각화를 만들고 수정하는 방법에 대해 배웁니다.
+
+### <a name="prerequisites"></a>필수 조건
+- [1부](power-bi-report-add-visualizations-ii.md)
+- Power BI 서비스 - Power BI 서비스 또는 Power BI Desktop을 사용하여 보고서에 시각화를 추가할 수 있습니다. 이 자습서에서는 Power BI 서비스를 사용합니다. 
+- 소매점 분석 샘플
 
 ## <a name="create-a-new-visualization"></a>새 시각화 만들기
 이 자습서에서는 소매점 분석 데이터 집합을 자세히 살펴보고 몇 가지 주요 시각화를 만듭니다.
@@ -64,7 +69,6 @@ ms.lasthandoff: 11/13/2017
 ## <a name="next-steps"></a>다음 단계
 * 필드 창에 대한 자세한 내용을 보려면 [보고서 편집기... 둘러보기](service-the-report-editor-take-a-tour.md)를 참조하세요.   
 * 시각화를 필터링하고 강조 표시하는 방법을 배우려면 [Power BI 보고서의 필터 및 강조 표시](power-bi-reports-filters-and-highlighting.md)를 참조하세요.  
-* 집계를 사용 및 변경하는 방법을 배우려면 [보고서의 집계](service-aggregates.md)를 참조하세요.  
 * [Power BI 보고서의 시각화](power-bi-report-visualizations.md)에 대해 자세히 알아보세요.  
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

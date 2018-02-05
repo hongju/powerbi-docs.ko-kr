@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -63,7 +63,7 @@ Power BI 보고서 작성자는 휴대폰에서 특별히 최적화된 보고서
 [전화 보기에 최적화된 보고서](mobile-apps-view-phone-report.md)에 대해 자세히 알아보세요.
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>슬라이서를 사용하여 보고서 페이지 필터링
-Power BI 서비스에서 보고서[(https://powerbi.com)](https://powerbi.com)를 디자인할 때, 휴대폰에서는 필터 창을 볼 수 없지만 [보고서 페이지에서 슬라이서를 볼 수](power-bi-visualization-slicers.md) 있습니다. 사용자와 동료가 휴대폰에서 페이지를 필터링하기 위해 슬라이서를 사용할 수 있도록 슬라이서를 보고서에 추가합니다.
+Power BI Desktop 또는 Power BI 서비스에서 보고서를 디자인할 때 [보고서 페이지에 슬라이서를 추가](power-bi-visualization-slicers.md)해 보세요. 사용자와 동료가 슬라이서를 사용하여 브라우저와 모바일 앱에서 페이지를 필터링할 수 있습니다. 휴대폰에서 보고서를 볼 때 휴대폰의 세로 모드에 최적화된 페이지와 가로 모드에서 슬라이서를 보고 조작할 수 있습니다.
 
 * 보고서 페이지에서 슬라이서의 값을 선택하면 페이지에서 다른 시각적 개체를 필터링합니다.
   

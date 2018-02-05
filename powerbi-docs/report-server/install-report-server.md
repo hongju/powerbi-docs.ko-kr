@@ -3,7 +3,7 @@ title: "Power BI Report Server 설치"
 description: "Power BI Report Server를 설치하는 방법을 알아봅니다. "
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 01/29/2018
 ms.author: maghan
-ms.openlocfilehash: 93a91ae70a43281f9a30292adb8bcdffb3033223
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server 설치
 
@@ -29,7 +29,9 @@ Power BI Report Server를 설치하는 방법을 알아봅니다.
 
  **다운로드** ![다운로드](media/install-report-server/download.png "다운로드")
 
-Power BI Report Server를 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동합니다. Power BI Report Server에 최적화된 Power BI Desktop을 다운로드하려면 [Microsoft 다운로드 센터](https://go.microsoft.com/fwlink/?linkid=837581)로 이동합니다.
+Power BI Report Server를 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동합니다. 
+
+Microsoft 다운로드 센터로 이동하여 [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076)(Power BI Report Server에 최적화됨 - 2017년 10월)을 다운로드하세요.
 
 ![팁](media/install-report-server/fyi-tip.png "팁") 현재 릴리스 정보는 [Power BI Report Server - 릴리스 정보](release-notes.md)를 참조하세요.
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: b9bdde9e258af733dd182f3ea3bd814520a31e8c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>iPad에서 Power BI 모바일 앱 시작
 iPad의 iOS용 Microsoft Power BI는 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 
@@ -41,12 +41,12 @@ Power BI Desktop에서 Power BI 보고서를 만들고 게시합니다.
 Apple 앱 스토어에서 [iPad 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062)합니다.
 
 > [!NOTE]
-> iPad가 iOS 9.0 이상을 실행하고 있어야 합니다. 
+> iPad가 iOS 10 이상을 실행하고 있어야 합니다. 
 > 
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI 서비스에 등록
-아직 등록하지 않은 경우 Power BI (https://powerbi.com) 로 이동하여 서비스에 등록합니다. 무료입니다.
+아직 등록하지 않은 경우 Power BI(https://powerbi.com)로 이동하여 서비스에 등록합니다. 무료입니다.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 앱 시작
 1. iPad에서 Power BI 앱을 엽니다.

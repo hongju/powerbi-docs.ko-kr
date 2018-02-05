@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: fc697437ff9f5fb6b8dd49f6513c728d1b8ddfeb
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Power BI 보고서 또는 대시보드 구독
 가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서 스냅숏을 전자 메일로 받은 편지함에 보냅니다. Power BI에 전자 메일 수신 빈도(예: 하루에 한 번에서 일주일에 한 번)를 알려줍니다. 전자 메일 및 스냅숏은 Power BI 설정에 지정된 언어를 사용합니다. 언어가 정의되지 않으면 Power BI는 현재 브라우저 언어를 사용합니다.
@@ -119,6 +119,7 @@ Pro 라이선스가 만료되고, 소유자가 대시보드 또는 보고서를 
 * 전자 메일 크기 제한으로 인해 매우 큰 이미지가 있는 대시보드 또는 보고서의 구독은 실패할 수 있습니다.    
 * Power BI는 2개월 이상 방문하지 않은 대시보드 및 보고서와 연결된 데이터 집합의 경우 자동으로 새로 고침을 일시 중지합니다.  그러나 대시보드 또는 보고서에 구독을 추가하면 방문하지 않았더라도 일시 중지되지 않습니다.    
 * 구독 전자 메일을 받지 못하면 UPN(사용자 계정 이름)이 전자 메일을 받을 수 있는지 확인합니다. [Power BI 팀이 이 요구 사항을 완화하기 위해 노력하고 있으므로](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163) 조정된 상태로 유지해 주세요. 
+* 전송된 보고서 및 대시보드는 Power BI 언어 설정을 사용합니다. 기본 언어는 영어입니다. 언어 기본 설정을 보거나 설정하려면 톱니바퀴 아이콘 ![](media/service-report-subscribe/power-bi-settings-icon.png) **> 설정 > 일반 > 언어**를 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)    

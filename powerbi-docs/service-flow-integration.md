@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: efab2e6be1d376a0da70c13bb66144ba34afa58c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: edae145e8eef6dfe7a2c4cea3a7f467f6f7961a9
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 및 Power BI
 
@@ -35,7 +35,9 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Power BI 데이터 경고로 트리거하는 흐름 만들기
-이 자습서에서는 흐름을 만드는 두 가지 방법, 즉 템플릿을 이용하는 방법과 처음부터 새로 만드는 방법을 보여줍니다. 과정을 따르려면 [Power BI에서 데이터 경고를 만들고](service-set-data-alerts.md) [Microsoft Flow에 등록합니다](https://flow.microsoft.com/en-us/#home-signup)(무료).
+
+### <a name="prerequisites"></a>필수 조건
+이 자습서에서는 흐름을 만드는 두 가지 방법, 즉 템플릿을 이용하는 방법과 처음부터 새로 만드는 방법을 보여줍니다. 과정을 따르려면 [Power BI에서 데이터 경고를 만들고](service-set-data-alerts.md), Slack 체험 계정을 만든 다음, [Microsoft Flow에 등록합니다](https://flow.microsoft.com/en-us/#home-signup)(무료).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Power BI를 사용하여 템플릿을 기반으로 하는 흐름 만들기
 이 작업에서는 Power BI 데이터 경고(알림)에 의해 트리거되는 간단한 흐름을 만드는 템플릿을 사용합니다.
@@ -47,39 +49,40 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
 3. **템플릿에서 만들기**를 선택합니다.
    
     ![](media/service-flow-integration/power-bi-template.png)
-4. Search 상자를 사용하여 Power BI 템플릿을 찾고 **Power BI 데이터 경고가 트리거될 때 Slack 채널에 메시지 게시**를 선택합니다.
+4. [검색] 상자를 사용하여 Power BI 템플릿을 찾고 **Power BI 데이터 경고가 트리거될 때 모든 대상 그룹에 전자 메일 보내기 > 계속**을 선택합니다.
    
-    ![](media/service-flow-integration/power-bi-template2.png)
-5. **이 템플릿 사용**을 선택합니다.
-   
-   ![](media/service-flow-integration/power-bi-use-template.png)
-6. 메시지가 표시되면 **로그인**을 선택하여 Slack과 Power BI에 연결한 다음 지시를 따르십시오. 녹색 확인 표시는 로그인되어 있음을 알려줍니다.  사용자 연결을 확인한 후 **계속**을 선택합니다.
-   
-   ![](media/service-flow-integration/power-bi-flow-signin.png)
+    ![](media/service-flow-integration/power-bi-flow-alert.png)
+
 
 ### <a name="build-the-flow"></a>흐름 작성
-이 템플릿에는 트리거 1개(아일랜드의 새 올림픽 메달에 대한 Power BI 데이터 경고)와 작업 1개(Slack에 메시지 게시)가 있습니다. 필드를 선택하면 Flow는 포함시킬 수 있는 동적 콘텐츠를 표시합니다.  이 예에서 타일 값 및 타일 URL이 메시지 본문에 포함되어 있습니다.
+이 템플릿에는 트리거 1개(아일랜드의 새 올림픽 메달에 대한 Power BI 데이터 경고)와 작업 1개(메일 보내기)가 있습니다. 필드를 선택하면 Flow는 포함시킬 수 있는 동적 콘텐츠를 표시합니다.  이 예에서 타일 값 및 타일 URL이 메시지 본문에 포함되어 있습니다.
 
-![](media/service-flow-integration/power-bi-flow-template.png)
+![](media/service-flow-integration/power-bi-template1.png)
 
 1. 트리거 드롭다운 목록에서 Power BI 데이터 경고를 선택합니다. **아일랜드의 새 메달**을 선택합니다. 경고를 만드는 방법을 알아보려면 [Power BI에서 데이터 경고](service-set-data-alerts.md)를 참조하세요.
    
    ![](media/service-flow-integration/power-bi-trigger-flow.png)
-2. Slack에 게시하려면 채널 이름 및 메시지 텍스트를 입력합니다(흐름에서 만드는 기본 메시지를 선택할 수도 있음). 메시지 텍스트 필드에 포함된 동적 콘텐츠를 확인합니다.
+2. 유효한 메일 주소를 하나 이상 입력하고 **편집**(아래에 표시) 또는 **Add dynamic content**(동적 콘텐츠 추가)를 선택합니다. 
    
-   > [!NOTE]
-   > 채널 이름의 시작 부분에 “@”를 포함합니다.  예를 들어, Slack 채널의 이름이 "channelA"인 경우 흐름에 “@channelA”를 입력합니다.
-   > 
-   > 
-   
-   ![](media/service-flow-integration/power-bi-flow-slacker.png)
-3. 완료되면 **흐름 만들기** 또는 **흐름 저장**을 선택합니다.  흐름이 생성되고 평가가 이루어집니다.  Flow에서 오류를 발견하면 알려줍니다.
-4. 오류가 발견되면 **흐름 편집**을 선택하여 오류를 해결하고 그렇지 않으면 **완료**를 선택하여 새 흐름을 실행합니다.
+   ![](media/service-flow-integration/power-bi-flow-email.png)
+
+3. Flow에서 유지하거나 수정할 수 있는 제목 및 메시지를 작성합니다. Power BI에서 경고를 만들 때 설정한 모든 값을 사용할 수 있습니다. 커서를 놓고 강조 표시된 회색 영역에서 선택하면 됩니다. 
+
+   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+
+1.  예를 들어 Power BI에서 **다른 메달을 땀**이라는 경고 제목을 만든 경우 **경고 제목**을 선택하여 메일 제목 필드에 텍스트를 추가할 수 있습니다.
+
+    ![](media/service-flow-integration/power-bi-flow-message.png)
+
+    그리고 기본 메일 본문을 사용하거나 직접 만들 수 있습니다. 위 예에는 메시지에 대한 몇 가지 수정 사항이 포함되어 있습니다.
+
+1. 완료되면 **흐름 만들기** 또는 **흐름 저장**을 선택합니다.  흐름이 생성되고 평가가 이루어집니다.  Flow에서 오류를 발견하면 알려줍니다.
+2. 오류가 발견되면 **흐름 편집**을 선택하여 오류를 해결하고 그렇지 않으면 **완료**를 선택하여 새 흐름을 실행합니다.
    
    ![](media/service-flow-integration/power-bi-flow-running.png)
-5. Slack 계정을 열어 메시지를 봅니다.  
+5. 데이터 경고가 트리거되면 명시한 주소로 메일이 전송됩니다.  
    
-   ![](media/service-flow-integration/power-bi-slack-message.png)
+   ![](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Power BI를 사용하는 흐름(빈 값)을 새로 만들기
 이 작업에서는 Power BI 데이터 경고(알림)에 의해 트리거되는 간단한 흐름을 처음부터 새로 만듭니다.
@@ -88,12 +91,12 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
 2. **내 흐름** > **빈 페이지에서 만들기**를 선택합니다.
    
    ![](media/service-flow-integration/power-bi-my-flows.png)
-3. 검색 상자를 사용하여 Power BI 트리거를 찾고 **Power BI 데이터 기반 경고로 흐름 트리거**를 선택합니다.
+3. [검색] 상자를 사용하여 Power BI 트리거를 찾고 **Power BI - 데이터 기반 경고가 트리거된 경우**를 선택합니다.
 
 ### <a name="build-your-flow"></a>흐름 작성
 1. 드롭다운 목록에서 경고의 이름을 선택합니다.  경고를 만드는 방법을 알아보려면 [Power BI에서 데이터 경고](service-set-data-alerts.md)를 참조하세요.
    
-    ![](media/service-flow-integration/power-bi-totalstores.png)
+    ![](media/service-flow-integration/power-bi-totalstores2.png)
 2. **새 단계** > **작업 추가**를 선택합니다.
    
    ![](media/service-flow-integration/power-bi-new-step.png)

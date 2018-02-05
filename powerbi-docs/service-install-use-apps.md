@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: a833961bd2f9ad3af77c6d90a95c0e5b1c307d1a
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다. 조직의 사용자는 주요 비즈니스 정보를 사용하여 앱을 만들고 배포할 수 있습니다. 이미 사용 중일 수 있는 Google 웹로그 분석 및 Microsoft Dynamics CRM과 같은 [외부 서비스](service-connect-to-services.md)에서도 Power BI 앱을 제공합니다. 
@@ -34,7 +34,7 @@ Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모
 앱을 작성할 계획인가요? 자세한 내용은 [Power BI에서 앱 만들기 및 게시](service-create-distribute-apps.md)를 참조하세요.
 
 ## <a name="get-a-new-app"></a>새 앱 가져오기
-앱은 두 가지 방법으로 가져올 수 있습니다. 앱 작성자는 앱에 대한 직접 링크를 보내거나 AppSource에서 검색할 수 있습니다(액세스할 수 있는 모든 앱을 볼 수 있음). 모바일 장치의 Power BI에서는 AppSource가 아닌 직접 링크를 통해서만 설치할 수 있습니다. 
+몇 가지 방법으로 앱을 가져올 수 있습니다. 앱 작성자는 Power BI 계정에서 자동으로 앱을 설치하거나, 앱에 대한 직접 링크를 보내거나, AppSource에서 검색할 수 있습니다(액세스할 수 있는 모든 앱을 볼 수 있음). 모바일 장치의 Power BI에서는 AppSource가 아닌 직접 링크를 통해서만 설치할 수 있습니다. 앱 작성자가 앱을 자동 설치할 경우 앱 목록이 표시됩니다.
 
 ### <a name="install-an-app-from-a-direct-link"></a>직접 링크에서 앱 설치 
 새 앱을 설치하는 가장 쉬운 방법은 앱 작성자로부터 직접 링크를 받는 것입니다. Power BI가 설치 링크를 만들면 작성자는 이를 사용자에게 보낼 수 있습니다.
