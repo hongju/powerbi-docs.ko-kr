@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: gettingdata
-  nextTutorialTitle: Getting data
+  nextTutorialTitle: "데이터 가져오기"
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +15,13 @@ metadata:
   ms.date: 12/05/2017
   ms.author: davidi
   ms.openlocfilehash: 0a7456720b041b9dda176a5182f945a0b1fa63b5
-  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 12/12/2017
+  ms.lasthandoff: 02/06/2018
 items:
 - durationInMinutes: 1
-  content: >
-    In this initial section of **Guided Learning**, you learn what Power BI is, how its building blocks work together, and how you can use them to gain insights to your data.
+  content: "이 **단계별 학습**의 첫 단원에서는 Power BI가 무엇이며, 구성 요소가 함께 작동하게 하는 방법과, 데이터에 대한 통찰력을 확보하는 방법에 대해 살펴봅니다.\n"
 - title: "Power BI 소개"
   durationInMinutes: 5
   content: >
@@ -49,4 +48,4 @@ items:
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
-- content: "You've completed the **Getting started** section of Microsoft Power BI Guided learning. Way to go! Now you can move on to the next part of Guided Learning, which is **Getting data**. Select the **Getting data** button below to keep going.\0"
+- content: "Power BI에 대한 단계별 학습 과정의 **시작** 단원을 마쳤습니다. 수고하셨습니다! 이제 단계별 학습의 다음 단계인 **데이터 가져오기**로 넘어갈 수 있습니다. 아래에서 **데이터 가져오기** 단추를 선택하여 계속 진행하세요.\0"

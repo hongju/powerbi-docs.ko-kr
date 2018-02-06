@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: introductiontodax
-  nextTutorialTitle: Introduction to DAX
+  nextTutorialTitle: "DAX 소개"
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +15,13 @@ metadata:
   ms.date: 12/06/2017
   ms.author: davidi
   ms.openlocfilehash: cc8560f56cba1f8bb0dc3d7faedf44433318288b
-  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 12/12/2017
+  ms.lasthandoff: 02/06/2018
 items:
 - durationInMinutes: 1
-  content: >
-    Data is most powerful when shared with others - learn how to publish, export, share, and distribute your Power BI data insights.
+  content: "데이터는 다른 사용자와 공유할 때 가장 강력합니다. Power BI 데이터 통찰력을 게시, 내보내기, 공유 및 배포하는 방법을 살펴봅니다.\n"
 - title: "콘텐츠 팩, 보안 및 그룹 소개"
   durationInMinutes: 2
   content: >
@@ -104,4 +103,4 @@ items:
   durationInMinutes: 4
   content: >
     [!INCLUDE [](includes/6-5-guided-learning-completion.md)]
-- content: "You've completed the **Publishing and sharing** section of Power BI Guided Learning. If you want an introduction to DAX, the language used to create Power BI queries, head to the next tutorial.\0"
+- content: "Power BI에 대한 단계별 학습 과정의 **게시 및 공유** 단원을 마쳤습니다. Power BI 쿼리 작성에 사용되는 언어인 DAX를 도입하려면 다음 자습서를 진행하세요.\0"
