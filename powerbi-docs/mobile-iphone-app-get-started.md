@@ -46,7 +46,7 @@ Apple 앱 스토어에서 iPhone이나 iPod Touch로 [iOS 앱 다운로드](http
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI 서비스에 등록
-아직 등록하지 않은 경우 Power BI(https://powerbi.com)로 이동하여 서비스에 등록합니다. 무료입니다.
+아직 등록하지 않은 경우 Power BI (https://powerbi.com) 로 이동하여 서비스에 등록합니다. 무료입니다.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 앱 시작
 1. iPhone에서 Power BI 앱을 엽니다.
