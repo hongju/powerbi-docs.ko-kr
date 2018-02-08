@@ -130,9 +130,9 @@ Power BI 내에서 하나의 앱 작업 영역을 만들려면 Pro 라이센스�
 2. PaaS 작업 영역에서 PBIX API 다운로드를 호출합니다.
 3. PBIX를 저장합니다.
 4. SaaS 작업 영역에 PBIX 가져오기를 호출합니다.
-5. POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections를 호출하여 연결 문자열 업데이트
-6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources를 호출하여 GW ID 및 데이터 원본 ID 가져오기
-7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}를 호출하여 사용자의 자격 증명 업데이트
+5. POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections 를 호출하여 연결 문자열 업데이트
+6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources 를 호출하여 GW ID 및 데이터 원본 ID 가져오기
+7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} 를 호출하여 사용자의 자격 증명 업데이트
 
 #### <a name="old-dataset--reports"></a>이전 데이터 집합 및 보고서
 2016년 10월 이전에 만든 데이터 집합/보고서입니다. PBIX 다운로드는 2016년 10월 이전에 업로드된 PBIX를 지원하지 않습니다
