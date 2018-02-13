@@ -128,8 +128,6 @@
           href: service-connect-to-azure-consumption-insights.md
         - name: Azure Search
           href: service-connect-to-azure-search.md
-        - name: Azure Security Center
-          href: service-connect-to-azure-security-center.md
         - name: Bing
           href: service-connect-to-bing.md
         - name: 회로 ID
@@ -980,8 +978,6 @@
       items:
         - name: 개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
           href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: 보안 및 개인 정보에 대한 사용자 지정 시각적 개체 검토
-          href: service-custom-visuals-review-for-security-and-privacy.md
         - name: 사용자 지정 시각적 개체 인증 받기
           href: power-bi-custom-visuals-certified.md
     - name: 대시보드에 데이터 푸시
