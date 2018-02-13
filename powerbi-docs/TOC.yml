@@ -852,51 +852,51 @@
       items:
         - name: 모바일 장치용 Power BI 앱
           href: mobile-apps-for-mobile-devices.md
-        - name: 모바일 장치에서 대시보드 및 보고서 찾기
+        - name: '모바일 장치에서 대시보드, 보고서 및 앱 찾기'
           href: mobile-apps-find-content-mobile-devices.md
-        - name: Power BI용 모바일 앱의 새로운 기능
+        - name: 모바일 앱의 새로운 기능
           href: mobile-whats-new-in-the-mobile-apps.md
     - name: 모든 모바일 앱
       items:
         - name: iOS용 Power BI 앱
           href: mobile-ios-ipad-iphone-apps.md
-        - name: Power BI 모바일 앱에서 온-프레미스 보고서 및 KPI 보기
+        - name: 모바일 앱에서 온-프레미스 보고서 및 KPI 보기
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-        - name: 모바일 Power BI의 대시보드
+        - name: 모바일 앱의 대시보드
           href: mobile-apps-view-dashboard.md
-        - name: Power BI 모바일 앱의 보고서
+        - name: 모바일 앱의 보고서
           href: mobile-reports-in-the-mobile-apps.md
         - name: 모바일 앱의 타일과 상호 작용
           href: mobile-tiles-in-the-mobile-apps.md
         - name: Power BI 모바일 앱에서 대시보드 공유
           href: mobile-share-dashboard-from-the-mobile-apps.md
-        - name: Power BI 모바일 앱의 즐겨찾기 항목
+        - name: 모바일 앱의 즐겨찾기
           href: mobile-apps-favorites.md
         - name: 모바일 앱으로 실제 Power BI 데이터 가져오기
           href: mobile-apps-data-in-real-world-context.md
-        - name: 휴대폰에서 Power BI QR 코드 스캔
+        - name: 휴대폰에서 QR 코드 스캔
           href: mobile-apps-qr-code.md
-        - name: Power BI 모바일 앱에서 알림 가져오기
+        - name: 모바일 앱에서 알림 가져오기
           href: mobile-apps-notification-center.md
-        - name: '모바일 앱에서 타일, 보고서 또는 시각적 개체에 주석 달기 및 공유'
+        - name: 모바일 앱에서 주석 달기 및 공유
           href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-        - name: Power BI Mobile Apps에서 데이터 경고 설정
+        - name: 모바일 앱에서 데이터 경고 설정
           href: mobile-set-data-alerts-in-the-mobile-apps.md
-        - name: Power BI 모바일 앱에서 위치별 보고서 필터링
+        - name: 모바일 앱에서 위치별 보고서 필터링
           href: mobile-apps-geographic-filtering.md
         - name: iOS 모바일 앱의 데이터에 대해 질문하기(자습서)
           href: mobile-apps-ios-qna.md
         - name: 특정 위치로 이동하는 딥 링크 만들기
           href: mobile-apps-deep-link-specific-location.md
-        - name: Power BI 모바일 앱에서 오프라인 데이터 보기
+        - name: 모바일 앱에서 오프라인 데이터 보기
           href: mobile-apps-offline-data.md
-        - name: 전화에 대해 최적화된 Power BI 보고서 보기 및 상호 작용하기
+        - name: 휴대폰에 최적화된 보고서 보기 및 상호 작용
           href: mobile-apps-view-phone-report.md
         - name: Intune으로 모바일 앱 구성
           href: service-admin-mobile-intune.md
         - name: OAuth를 사용하여 Reporting Services에 연결
           href: mobile-oauth-ssrs.md
-        - name: Power BI 모바일 앱에서 지원되는 언어
+        - name: 모바일 앱에서 지원되는 언어
           href: mobile-apps-supported-languages.md
     - name: iPad 앱(iOS용 Power BI)
       items:
@@ -908,7 +908,7 @@
           href: mobile-iphone-app-get-started.md
         - name: Power BI Apple Watch 앱
           href: mobile-apple-watch.md
-        - name: iPhone에서 Power BI 앱의 바코드 스캔
+        - name: iPhone에서 모바일 앱의 바코드 스캔
           href: mobile-apps-scan-barcode-iphone.md
     - name: Android 휴대폰용 Power BI 앱
       items:
@@ -924,7 +924,7 @@
       items:
         - name: Windows 10용 Power BI 모바일 앱 시작
           href: mobile-windows-10-phone-app-get-started.md
-        - name: Windows 10용 Power BI 모바일 앱에서 Reporting Services 모바일 보고서 및 KPI 보기
+        - name: Windows 10용 모바일 앱에서 Reporting Services 모바일 보고서 및 KPI 보기
           href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
         - name: 시작 화면에 Power BI 타일 또는 대시보드 고정
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
