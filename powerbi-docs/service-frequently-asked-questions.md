@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 53d367d0dc76b338659283215855f4b55a2679fd
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
@@ -141,7 +141,7 @@ Power BI Pro 라이선스를 직접 구입하거나 [www.powerbi.com](http://www
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>내 Power BI Pro 라이선스가 만료될 경우 어떻게 됩니까?
 Power BI Pro 라이선스가 만료된 후 30일의 유예 기간이 있습니다.
 
-Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한 내용은 [비즈니스용 Office 365 구독이 종료되면 내 데이터 및 액세스 권한은 어떻게 되나요?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)를 참조하세요.
+Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한 내용은 [비즈니스용 Office 365 구독이 종료되면 내 데이터 및 액세스 권한은 어떻게 되나요?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)를 참조하세요.
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI는 국가, 지역 및 업계별 규정 준수 요구 사항을 충족합니까?
 [Microsoft 보안 센터](http://go.microsoft.com/fwlink/?LinkId=785324)에서 Power BI 준수에 대해 자세히 알아보세요.

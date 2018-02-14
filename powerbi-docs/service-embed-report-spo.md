@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
-ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78be1a631a167a3b32ecb7d884a3428dc6a362b0
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -98,12 +98,6 @@ Power BI 서비스 내에서 보고서에 액세스 권한을 부여하는 방�
 
 2. 보고서에 액세스해야 하는 사용자와 대시보드를 공유합니다. 자세한 내용은 [동료 및 다른 사용자와 대시보드 공유](service-share-dashboards.md)를 참조하세요.
 
-## <a name="allowing-free-users-access-to-reports"></a>체험 사용자에게 보고서에 대한 액세스 허용
-
-체험 사용자는 SharePoint Online의 Power BI 웹 부분에 포함된 보고서를 볼 수 있습니다. 위의 [보고서에 대한 액세스 부여](#granting-access-to-reports)에 설명된 대로 Pro 사용자를 수행한 동일한 방식으로 체험 사용자에 대한 액세스를 제공합니다. 보고서가 있는 작업 영역은 Power BI Premium 용량으로 지원되어야 합니다. 
-
-예를 들어, 보고서가 있는 경우 앱 작업 영역에서 Power BI Premium 용량에 앱 작업 영역을 할당해야 합니다. 또한 해당 앱 작업 영역의 멤버 목록에 체험 사용자를 추가해야 합니다.
-
 ## <a name="web-part-settings"></a>웹 파트 설정
 
 다음은 SharePoint Online용 Power BI 웹 파트에 필요한 조정할 수 있는 설정에 대한 설명입니다.
@@ -160,5 +154,5 @@ Power BI 웹 파트 내에서 보고서가 로드되지 않고 다음과 같은 
 [동료 및 다른 사용자와 대시보드 공유](service-share-dashboards.md)  
 [Power BI 프리미엄이란?](service-premium.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/) 
 

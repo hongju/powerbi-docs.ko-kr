@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Power BI 게이트웨이의 개인 정보 보호 설정 해제 - 개인
 > [!NOTE]
@@ -45,7 +45,7 @@ ms.lasthandoff: 12/22/2017
 > 
 
 ## <a name="what-is-fast-combine"></a>빠른 결합의 정의
-개인 정보 수준 및 빠른 결합에 대해 알아보려면 [개인 정보 수준](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 볼 수 있습니다. 기본적으로 개인 정보 수준은 위에서 언급한 오류가 발생할 수 있는 비공개로 설정됩니다. 이는 개인 설정이 다른 원본에서 데이터 원본을 분리하기 때문입니다. 어떤 부분이 문제가 될지에 대한 예를 다른 데이터 원본에서 입력을 가져오는 매개 변수가 있는 쿼리에서 찾을 수 있습니다.
+개인 정보 수준 및 빠른 결합에 대해 알아보려면 [개인 정보 수준](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 볼 수 있습니다. 기본적으로 개인 정보 수준은 위에서 언급한 오류가 발생할 수 있는 비공개로 설정됩니다. 이는 개인 설정이 다른 원본에서 데이터 원본을 분리하기 때문입니다. 어떤 부분이 문제가 될지에 대한 예를 다른 데이터 원본에서 입력을 가져오는 매개 변수가 있는 쿼리에서 찾을 수 있습니다.
 
 빠른 결합을 사용하면 개인 설정을 무시하고 실행되도록 허용합니다.
 
@@ -85,7 +85,7 @@ ms.lasthandoff: 12/22/2017
 
 ## <a name="next-steps"></a>다음 단계
 [온-프레미스 데이터 게이트웨이(개인 모드) - 개인 게이트웨이의 새 버전](service-gateway-personal-mode.md)
-[개인 정보 수준](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
+[개인 정보 수준](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
 [Power BI Desktop의 일반적인 쿼리 작업](desktop-common-query-tasks.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

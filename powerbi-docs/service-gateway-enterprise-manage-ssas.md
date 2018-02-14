@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>데이터 원본 관리 - Analysis Services
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 수 있는 데이터 원본을 추가해야 합니다. 이 문서에서는 게이트웨이 및 데이터 소스로 작업하는 방법을 살펴봅니다. 예정된 새로 고침 또는 라이브 연결을 위해 Analysis Services 데이터 원본을 사용할 수 있습니다.
@@ -89,17 +89,6 @@ Power BI 서비스에서 게이트웨이를 다운로드할 수 있습니다. **
 데이터 원본에 대한 개인 정보 보호 수준을 구성할 수 있습니다. 데이터가 조합되는 방식을 제어합니다. 예정된 새로 고침에만 사용됩니다. 라이브 연결에는 적용되지 않습니다. [자세히 알아보기](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Power BI 사이트의 Analysis Services에 대한 '데이터 가져오기' 환경
-Analysis Services에 대한 고유한 옵션은 Power BI 서비스 내에서 데이터 가져오기를 직접 사용하는 것입니다. Power BI Desktop의 필요 없이 게이트웨이 내에서 구성된 라이브 Analysis Services 데이터 원본에 연결할 수 있습니다. 계정은 목록에 표시하기 위해 게이트웨이 아래 데이터 원본에 대한 **사용자** 탭에 나열되어야 합니다. 데이터 원본에 연결하기 위해 다음을 수행할 수 있습니다.
-
-1. Power BI 서비스 내에서 **데이터 가져오기**를 선택합니다.
-2. **데이터베이스**를 선택합니다.
-3. **SQL Server Analysis Services** > **연결**을 선택합니다.
-4. 목록에서 데이터 원본을 선택합니다. 액세스할 수 있는 모든 Analysis Services 데이터 원본이 여기에 나열됩니다.
-5. 연결하려는 모델을 선택합니다. 그런 다음 **연결**을 선택합니다.
-
-서버의 이름으로 표시된 데이터 집합을 볼 수 있습니다. 그런 다음 해당 데이터 집합을 선택하고 보고서를 만들도록 시작할 수 있습니다. 라이브 데이터에 대해 작동합니다.
 
 ## <a name="usernames-with-analysis-services"></a>Analysis Services를 사용하는 사용자 이름
 사용자가 Analysis Services에 연결된 보고서를 조작할 때마다 유효 사용자 이름은 게이트웨이에 전달된 다음 온-프레미스 Analysis Services 서버에 전달됩니다. Power BI에 로그인하는 전자 메일 주소는 유효한 사용자로 Analysis Services에 통과됩니다. 연결 속성 [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth)에 전달됩니다. 이 전자 메일 주소는 로컬 Active Directory 도메인 내에서 정의된 UPN과 일치해야 합니다. UPN은 Active Directory 계정의 속성입니다. 그런 다음 해당 Windows 계정은 Analysis Services 역할에 있어야 합니다. 일치하는 항목이 없는 경우 Active Directory에서 로그인이 성공적으로 수행되지 않습니다. [자세히 알아보기](https://msdn.microsoft.com/library/ms677605.aspx)

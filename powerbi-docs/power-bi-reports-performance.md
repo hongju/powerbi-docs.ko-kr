@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
-ms.openlocfilehash: 251503064cca2c0365df74ed0c21b296fb30a7a8
-ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+ms.openlocfilehash: 99267fa0ffa1910f9dab920f939082aadb55d6aa
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 성능 모범 사례 
 이 문서에서는 Power BI에서 빠르고 신뢰할 수 있는 보고서를 빌드하기 위한 지침을 제공합니다.  
@@ -142,7 +142,7 @@ SQL 프로파일러를 통해 가장 긴 CPU 시간을 차지하는, 그래서 �
 
 [Azure 속도 테스트](http://azurespeedtest.azurewebsites.net/)와 같은 도구는 클라이언트와 Azure 지역 간의 네트워크 대기 시간을 표시합니다. 일반적으로 네트워크 대기 시간의 영향을 최소화하려면 데이터 원본, 게이트웨이 및 Power BI 클러스터를 최대한 가깝게 유지해야 합니다. 네트워크 대기 시간이 문제가 되는 경우 게이트웨이 및 데이터 원본을 가상 머신에 배치하여 사용자 Power BI 클러스터에 더 가깝게 설치할 수도 있습니다. 
 
-네트워크 대기 시간을 더욱 개선하려면 클라이언트와 Azure 데이터 센터 간에 더 빠르고 더 안정적인 네트워크 연결을 만들 수 있는 [Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/) 사용을 고려합니다. 
+네트워크 대기 시간을 더욱 개선하려면 클라이언트와 Azure 데이터 센터 간에 더 빠르고 더 안정적인 네트워크 연결을 만들 수 있는 [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) 사용을 고려합니다. 
 
 ## <a name="next-steps"></a>다음 단계
 - [Power BI 엔터프라이즈 배포 계획](https://aka.ms/pbienterprisedeploy) - Power BI의 대규모 배포에 대한 전반적인 지침 사용 

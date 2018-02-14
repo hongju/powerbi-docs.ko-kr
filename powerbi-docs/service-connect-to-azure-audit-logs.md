@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 02/06/2018
 ms.author: yshoukry
-ms.openlocfilehash: 9a00183a81e549f873fab53807072b1beeaec7c2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: e71b8d16407dccd559037cfe0aecd8079f62175e
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI로 Azure Audit Logs에 연결
 Azure Audit Logs 콘텐츠 팩을 사용하면 감사 로그에 저장된 정보를 분석 및 시각화할 수 있습니다. Power BI는 데이터를 검색하고, 기본 대시보드를 구성한 다음 해당 데이터를 기준으로 보고서를 만듭니다.
@@ -59,7 +59,7 @@ Azure Audit Logs 콘텐츠 팩을 사용하면 감사 로그에 저장된 정보
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="system-requirements"></a>시스템 요구 사항
-Azure 감사 로그 콘텐츠 팩을 사용하려면 Azure Portal에서 감사 로그에 액세스해야 합니다. 자세한 내용은 [여기](https://azure.microsoft.com/en-us/documentation/articles/insights-debugging-with-events/)에 있습니다.
+Azure 감사 로그 콘텐츠 팩을 사용하려면 Azure Portal에서 감사 로그에 액세스해야 합니다. 자세한 내용은 [여기](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/)에 있습니다.
 
 <a name="FindingParams"></a>
 
