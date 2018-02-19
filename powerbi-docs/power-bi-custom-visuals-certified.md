@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: mihart
-ms.openlocfilehash: f9824b29515481742c339bc76e766e5e62cf1716
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 34733c469b584fe94a55c0521e889cd39fca6ed8
+ms.sourcegitcommit: 8d1aa392600f2a8dd81859687fed0d0080de4b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/13/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
@@ -50,8 +50,7 @@ A *인증된 사용자 지정 시각적 개체*는 일련의 코드 요구 사�
    * 제목: 시각적 인증 요청    
    * 시각적 소스 코드를 호스팅하는 GitHub 리포지토리에 연결    
    * 요구 사항 준수(위 참조)    
-   * 코드 및 보안 검토 전달    
-2. Microsoft의 사용자 지정 시각적 개체 팀은 사용자 지정 시각적 개체를 인증하고 인증된 목록(아래)에 추가하거나 수정해야 하는 문제에 대한 보고서와 함께 거부하는 경우 사용자에게 알립니다. 개발자는 Microsoft와의 통신을 열어 두고 필요한 경우 인증된 시각적 개체를 업데이트하는 것을 담당합니다.
+   * 코드 및 보안 검토 전달    2. Microsoft의 사용자 지정 시각적 개체 팀은 사용자 지정 시각적 개체를 인증하고 인증된 목록(아래)에 추가하거나 수정해야 하는 문제에 대한 보고서와 함께 거부하는 경우 사용자에게 알립니다. 개발자는 Microsoft와의 통신을 열어 두고 필요한 경우 인증된 시각적 개체를 업데이트하는 것을 담당합니다.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI 인증된 사용자 지정 시각적 개체 제거
 Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 제거할 수 있습니다.  
@@ -60,76 +59,84 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | AppSource에 연결 | 비디오에 연결 |
 | --- | --- |
 | [연결 규칙](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380815) | |
-| [별표 그림](https://appsource.microsoft.com/product/power-bi-visuals/WA104380759?src=office&tab=Overview) | |
-| [BciCalendar(Beyondsoft 달력)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096?src=office&tab=Overview)  | |
-| [MAQ 소프트웨어로 보타이 차트](https://appsource.microsoft.com/product/power-bi-visuals/WA104380838?src=office&tab=Overview) |[비디오](https://youtu.be/So5xKMSpVJI) |
-| [상자 수염](https://appsource.microsoft.com/product/power-bi-visuals/WA104380831?src=office&tab=Overview) | |
-| [MAQ 소프트웨어의 브릭 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) | |
-| [Akvelon의 버블 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340?src=office) | |
-| [글머리 기호 차트](https://store.office.com/app.aspx?assetid=WA104380755) |[비디오1](https://youtu.be/AOlsFYkfkcw)   [비디오2](https://youtu.be/AQvd2FhRyCI) |
-| [OKViz에 의한 글머리 기호 차트](https://store.office.com/bullet-chart-by-okviz-WA104380953.aspx) |[비디오](https://youtu.be/mtvUNl9bMjA) |
-| [Tallan로 달력](https://appsource.microsoft.com/product/power-bi-visuals/WA104381146?src=office&tab=Overview) | |
-| [OKViz의 원통형](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380952) | |
-| [치클릿 슬라이서](https://store.office.com/chiclet-slicer-WA104380756.aspx) |[비디오](https://youtu.be/iYOkJ1APueY) |
-| [화음 차트](https://appsource.microsoft.com/product/power-bi-visuals/WA104380761?src=office&tab=Overview) |[비디오](https://youtu.be/AQvd2FhRyCI) |
-| [MAQ 소프트웨어로 순환 계기](https://appsource.microsoft.com/product/power-bi-visuals/WA104380837?tab=Overview) | |
-| [원통형 계기](https://appsource.microsoft.com/product/power-bi-visuals/WA104380874) | |
-| [전화 계기](https://appsource.microsoft.com/product/power-bi-visuals/WA104381184) |[비디오](https://youtu.be/AOlsFYkfkcw) |
-| [MAQ 소프트웨어로 도넛 차트(링 차트)](https://appsource.microsoft.com/product/power-bi-visuals/WA104380824?tab=Overview) |[비디오](https://youtu.be/pDToHDFHnq8) |
-| [MAQ 소프트웨어의 점 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381101) | |
-| [OKViz로 점 그림](https://appsource.microsoft.com/product/power-bi-visuals/WA104381101?src=office&tab=Overview) |[비디오](https://youtu.be/4lskRgcpFJY) |
-| [Microsoft의 점 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760?src=office) | |
-| [ZoomCharts로 도넛 차트 드릴다운](https://appsource.microsoft.com/product/power-bi-visuals/WA104380858) | |
-| [드릴다운 Cartogram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381045?src=office) | |
-| [드릴다운 Choropleth](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381044?src=office) | |
-| [ZoomCharts의 드릴다운 세로 막대형 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881?src=office) | |
-| [ZoomCharts의 시간 기준 데이터에 대한 드릴다운 세로 막대형 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) | |
-| [ZoomCharts의 드릴다운 도넛 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) | |
-| [이중 KPI](https://store.office.com/dual-kpi-WA104380774.aspx) |[비디오](https://youtu.be/821o0-eVBXo?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x) |
-| [향상된 분산형](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | |
-| [Aquarium 지원](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112?src=office&tab=Overview) | |
-| [거품형 스택 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380868) | |
-| [슬라이서 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960?tab=Overview) | |
+| [별표 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
+| [Beyondsoft 달력](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
+| [MAQ Software의 보타이 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [비디오](https://youtu.be/So5xKMSpVJI) |
+| [상자 수염 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380831) | |
+| [MAQ Software의 브릭 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) | [비디오](https://youtu.be/hA3DOsvn2xY) |
+| [Akvelon의 버블 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340) | |
+| [글머리 기호 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380755) | [비디오](https://youtu.be/AOlsFYkfkcw) |
+| [OKViz에 의한 글머리 기호 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380953) | [비디오](https://youtu.be/mtvUNl9bMjA) |
+| [Tallan로 달력](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381146) | |
+| [OKViz의 원통형](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380952) | [비디오](https://youtu.be/nT_18gyRxPo) |
+| [OKViz에 의한 상태 포함 카드](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380967) | |
+| [치클릿 슬라이서](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380756) | |
+| [현](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) | [비디오](https://youtu.be/AQvd2FhRyCI) |
+| [MAQ Software의 원형 계기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) | [비디오](https://youtu.be/9NHXALkBXuY) |
+| [클러스터 맵](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) | |
+| [클러스터링](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380861) | |
+| [이상값이 있는 클러스터링](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380889) | |
+| [상관 관계 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380814) | |
+| [MAQ Software의 원통형 계기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) | [비디오](https://youtu.be/DgdoWi7Gcxo) |
+| [의사 결정 트리 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380817) | |
+| [다이얼 계기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) | |
+| [점 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) | |
+| [OKViz로 점 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) | [비디오](https://youtu.be/By16pX9KT40) |
+| [드릴다운 Cartogram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381045) | |
+| [드릴다운 Choropleth](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381044) | |
+| [드릴다운 세로 막대형 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380857) | [비디오](https://youtu.be/lBy2gQQ5YsQ) |
+| [시간 기반 데이터에 대한 드릴다운 세로 막대형 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) | [비디오](https://youtu.be/T_mRou18vx0) |
+| [드릴다운 도넛 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) | [비디오](https://youtu.be/AUVFrSHmPeo) |
+| [이중 KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380774) | |
+| [향상된 분산형](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | [비디오](https://youtu.be/xCfM0cjM4do) |
+| [Aquarium 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381112) | |
+| [슬라이서 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960) | |
 | [Stack Shuffle 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
-| [와플 차트 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
-| [World Flags 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) | |
-| [Force-Directed Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764)(Force-Directed 그래프) |[비디오](https://youtu.be/YsTa7uyJ4sg) |
-| [TBATS 예측](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) | |
-| [원본과 깔때기]() | || [Gantt](https://store.office.com/gantt-WA104380765.aspx) |[비디오](https://youtu.be/qJ7s_KrGiUU) |
-| [Akvelon의 계층 구조 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) | |
-| [히스토그램](https://store.office.com/histogram-chart-WA104380776.aspx) | |
-| [수평 깔때기](https://appsource.microsoft.com/product/power-bi-visuals/WA104380846) |[비디오](https://youtu.be/SudZei68PPo) |
-| [이미지 타임라인](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381254) | |
-| [인포그래픽 디자이너](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898?src=office) | |
-| [KPI 지표](https://store.office.com/kpi-indicator-WA104380832.aspx) | |
-| [MAQ 소프트웨어의 KPI 티커](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | |
-| [LineDot 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766?src=office) | |
-| [MAQ 소프트웨어로 선형 계기](https://appsource.microsoft.com/product/power-bi-visuals/WA104380821?src=office&tab=Overview) |[비디오](https://youtu.be/AOlsFYkfkcw) |
-| [Mekko 차트](https://appsource.microsoft.com/product/power-bi-visuals/WA104380785?src=office&tab=Overview)  | [비디오](https://youtu.be/90FLCKpgicA)|
-| [재생 축(동적 슬라이서)](https://store.office.com/play-axis-dynamic-slicer-WA104380981.aspx) | |
-| [Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083) |[비디오](https://youtu.be/IvfIP3E6-1Q) |
-| [펄스 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) | |
-| [방사형 차트](https://store.office.com/radar-chart-WA104380771.aspx) | |
-| [MAQ 소프트웨어로 링 차트(도넛 차트)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824?src=office&tab=Overview) | [비디오](https://youtu.be/pDToHDFHnq8)|
-| [MAQ 소프트웨어의 회전 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007?src=office) |  |
-| [Sankey 차트](https://store.office.com/app.aspx?assetid=WA104380777.aspx) |[비디오](https://youtu.be/WWP9wVUHGaA) |
-| [스크롤러](https://store.office.com/scroller-WA104381018.aspx) |[비디오](https://youtu.be/uhRFQF2cGSY) |
-| [SQLBI로 스마트 필터](https://store.office.com/smart-filter-by-okviz-WA104380859.aspx) |[비디오](https://youtu.be/gcJsDDRQq28) |
-| [OKViz로 스파크라인](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910?src=office&tab=Overview) |[비디오](https://youtu.be/0m3Vnvso9tY) |
-| [Stream graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772?tab=Overview)(스트림 그래프) |  |
-| [Sunburst](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767?src=office&tab=Overview) | |
-| [테이블 Heatmap](https://store.office.com/table-heatmap-WA104380818.aspx) | |
-| [속도계](https://store.office.com/tachometer-WA104380937.aspx?) |[비디오](https://www.youtube.com/watch?v=C3OXdETbS9o) |
-| [텍스트 래퍼](https://appsource.microsoft.com/product/power-bi-visuals/WA104380826) | |
-| [온도계](https://appsource.microsoft.com/product/power-bi-visuals/WA104380847?src=office&tab=Overview) | [비디오](https://youtu.be/SPX9mgrAdBc)|
-| [시간 시계열 분해](https://appsource.microsoft.com/product/power-bi-visuals/WA104380897) | |
-| [타임라인 슬라이서](https://store.office.com/timeline-slicer-WA104380786.aspx) |[비디오](https://youtu.be/ozMtZ4_NZ10) |
-| [토네이도 차트](https://store.office.com/tornado-chart-WA104380768.aspx) |[비디오](https://youtu.be/AQvd2FhRyCI) |
-| [Klaus Birringer의 Ultimate Variance 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140?src=office) | |
-| [Ultimate Waterfall 무료](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) | |
-| [VitaraCharts - MicroChart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381165) | |
-| [Waffle 차트](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049?src=office&tab=Overview) |[비디오](https://youtu.be/1vRqYUsm3Vk) |
-| [워드 클라우드](https://store.office.com/word-cloud-WA104380752.aspx?) |[비디오](https://www.youtube.com/watch?v=AblTenl9fqo) |
+| [Enlighten 와플 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
+| [Force-Directed Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764)(Force-Directed 그래프) | [비디오](https://youtu.be/YsTa7uyJ4sg) |
+| [TBATS 예측](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326) | |
+| [ARIMA를 사용한 예측](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
+| [MAQ Software의 원본이 포함된 깔때기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [비디오](https://youtu.be/R_EcimsLI8U) |
+| [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [비디오](https://youtu.be/qJ7s_KrGiUU) |
+| [지구본 데이터 막대](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
+| [Akvelon의 계층 구조 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [비디오](https://youtu.be/0ZGzJaq_KT4) |
+| [히스토그램 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
+| [MAQ Software의 가로 깔때기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380846) | [비디오](https://youtu.be/SudZei68PPo) |
+| [CloudScope의 이미지](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381297) | |
+| [이미지 격자](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
+| [인포그래픽 디자이너](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
+| [KPI 지표](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
+| [MAQ 소프트웨어의 KPI 티커](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [비디오](https://youtu.be/cudG4gsZ2V8) |
+| [MAQ Software의 선형 계기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [비디오](https://youtu.be/7_jFaM30dkc) |
+| [LineDot 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) | |
+| [Mekko 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) | [비디오](https://youtu.be/90FLCKpgicA) |
+| [재생 축(동적 슬라이서)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
+| [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [비디오](https://youtu.be/IvfIP3E6-1Q) |
+| [Power KPI 행렬](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [비디오](https://youtu.be/1enze8pcGzY) |
+| [방사형 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
+| [MAQ Software의 링 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [비디오](https://youtu.be/pDToHDFHnq8) |
+| [MAQ Software의 회전 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [비디오](https://youtu.be/d5xBCMmb3hU) |
+| [Sankey 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380777) | [비디오](https://youtu.be/WWP9wVUHGaA) |
+| [스크롤러](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
+| [OKViz에 의한 스마트 필터](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [비디오](https://youtu.be/gcJsDDRQq28) |
+| [OKViz로 스파크라인](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [비디오](https://youtu.be/0m3Vnvso9tY) |
+| [스플라인 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380860) | |
+| [스트림 그래프](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) | |
+| [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
+| [테이블 Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
+| [속도계](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [비디오](https://youtu.be/C3OXdETbS9o) |
+| [MAQ Software의 텍스트 래퍼](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
+| [온도계](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
+| [시계열 분해 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |
+| [시계열 예측 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380816) | |
+| [타임라인 슬라이서](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [비디오](https://youtu.be/ozMtZ4_NZ10) |
+| [토네이도 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [비디오](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
+| [MAQ Software의 거래 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [비디오](https://youtu.be/xhTR6y6J9Ko) |
+| [최종 차이](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) | [비디오](https://youtu.be/pDYF8iZxERs) |
+| [최고의 폭포 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) | [비디오](https://youtu.be/0BZsVCQdEkc) |
+| [CloudScope의 사용자 목록](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381426) | |
+| [와플 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381049) | [비디오](https://youtu.be/1vRqYUsm3Vk) |
+| [워드 클라우드](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [비디오](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>다음 단계
 [사용자 지정 시각적 개체 개발자 도구 시작하기(미리 보기)](service-custom-visuals-getting-started-with-developer-tools.md)      
