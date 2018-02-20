@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드, 보고서, 앱 찾기
 적용 대상:
@@ -41,7 +41,11 @@ ms.lasthandoff: 01/05/2018
 5. [작업 영역](mobile-apps-find-content-mobile-devices.md#5-workspaces)
 
 ## <a name="1-favorites"></a>1 즐겨찾기
-즐겨찾기로 표시하여 가장 자주 확인한 대시보드와 앱을 모읍니다. 자세한 내용은 [Power BI 모바일 앱의 즐겨찾기](mobile-apps-favorites.md)를 읽어보세요.
+즐겨찾기로 표시하여 가장 자주 확인한 대시보드, 보고서 및 앱을 모읍니다. 
+
+![Power BI 모바일 앱의 즐겨찾기](media/mobile-apps-find-content-mobile-devices/power-bi-android-favorites-reports.png)
+
+자세한 내용은 [Power BI 모바일 앱의 즐겨찾기](mobile-apps-favorites.md)를 읽어보세요.
 
 ## <a name="2-report-servers"></a>2개의 보고서 서버
 하나 이상의 온-프레미스 Power BI Report Server 또는 SQL Server Reporting Services 서버에 연결되었을 수 있습니다. 이렇게 하면 여기에서 KPI, Power BI 보고서 및 서버에서 페이지가 매겨진 보고서가 표시됩니다. 서버에서 즐겨찾기를 만든 경우 즐겨찾기 목록에 표시됩니다. [Power BI 모바일 앱에서 온-프레미스 KPI 및 보고서를 보는](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) 방법에 대해 자세히 알아봅니다.
@@ -65,9 +69,9 @@ Power BI 모바일 앱에서 이미 설치한 모든 앱을 볼 수 있습니다
 Power BI 서비스에서 Microsoft AppSource로 이동하여 다른 앱을 검색할 수 있지만 Power BI 모바일 앱에서 검색할 수 없습니다. 
 
 ## <a name="4-shared-with-me"></a>4 나와 공유
-여기서는 동료들이 나와 공유한 대시보드를 찾을 수 있습니다. 대시보드 소유자로 필터링하거나 검색하여 원하는 항목을 찾을 수 있습니다. 자주 방문하는 공유 콘텐츠의 경우 말줄임표(...)를 탭하여 **공유한 항목** 보기에서 바로 즐겨찾기에 추가할 수 있습니다.
+여기서는 동료들이 나와 공유한 대시보드와 보고서를 찾을 수 있습니다. 소유자로 필터링하거나 검색하여 원하는 항목을 찾을 수 있습니다. 자주 방문하는 공유 콘텐츠의 경우 말줄임표(**...**)를 탭하여 **공유한 항목**에서 바로 즐겨찾기에 추가할 수 있습니다.
 
-![새 Power BI 탐색](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-shared-with-me-fave.png)
+![Power BI 공유한 항목](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5 작업 영역
 *앱 작업 영역*이라고도 하며, 대시보드 및 보고서의 컬렉션을 만들기 위해 동료들과 공동 작업할 수 있는 Power BI 서비스 준비 환경입니다([https://powerbi.com](https://powerbi.com)). 그런 다음 컬렉션을 *앱*으로 배포합니다. 

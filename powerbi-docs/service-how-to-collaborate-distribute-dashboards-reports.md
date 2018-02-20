@@ -1,6 +1,6 @@
 ---
 title: "Power BI에서 공동 작업하고 공유하려면 어떻게 해야 하나요?"
-description: "Power BI에서는 다양한 방법으로 대시보드, 보고서 및 타일을 공동 작업하고 공유할 수 있습니다. 각 방법마다 장점을 갖고 있습니다."
+description: "Power BI에서는 다양한 방법으로 대시보드, 보고서, 타일 및 앱을 공동 작업하고 공유할 수 있습니다. 방법마다 장점을 갖고 있습니다."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/18
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 31d862fd2086c0e1bdc98f3e6d84fcc1d2c094de
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/11/2018
 ---
-# <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Power BI 대시보드 및 보고서를 공동 작업 및 공유하려면 어떻게 해야 하나요?
+# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI에서 공동 작업하고 공유하려면 어떻게 해야 하나요?
+
 대시보드 및 보고서를 만들었습니다. 아마 동료와 공동 작업도 수행할 것입니다. 그런 다음 다른 사람이 액세스할 수 있도록 하려고 합니다. 가장 좋은 배포 방법은 무엇일까요?
 
 이 문서에서는 Power BI에서의 공동 작업 및 공유 옵션을 비교합니다. 
@@ -34,7 +35,7 @@ ms.lasthandoff: 01/25/2018
 * 누구든 확인하고 상호 작용할 수 있게 웹에 게시
 * 인쇄 
 
-선택하는 옵션에 상관 없이 대시보드를 공유하려면 [Power BI Pro](service-free-vs-pro.md) 라이선스가 필요하거나 콘텐츠가 [프리미엄 용량](service-premium.md)에 있어야 합니다. 선택한 옵션에 따라 대시보드를 보는 동료에 대해 라이선스 요구 사항이 달라집니다. 다음 섹션에 자세한 내용이 나와 있습니다. 
+선택하는 옵션에 상관없이 대시보드를 공유하려면 [Power BI Pro](service-free-vs-pro.md) 라이선스가 필요하거나 콘텐츠가 [프리미엄 용량](service-premium.md)에 있어야 합니다. 선택한 옵션에 따라 대시보드를 보는 동료에 대해 라이선스 요구 사항이 달라집니다. 다음 섹션에 자세한 내용이 나와 있습니다. 
 
 ![Power BI 서비스의 앱](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 

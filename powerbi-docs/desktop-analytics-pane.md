@@ -15,26 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: add95532f645c143aea0f58200f9e3b1467320d0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02498ff745a2e06a49ed6064a4f7eefebff305f8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop의 분석 창 사용
-**Power BI Desktop**의 **분석** 창에서 시각적 개체에 동적 참조 줄을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다. 2016년 8월 릴리스(버전 2.37.4464.321 이상)부터 **분석** 창은 아래와 같이 Power BI Desktop의 **시각화** 영역에서 찾을 수 있습니다.
+**Power BI Desktop**의 **분석** 창에서 시각적 개체에 동적 참조 줄을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다. **분석** 창은 Power BI Desktop의 **시각화** 영역에 있습니다.
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > **분석** 창은 Power BI Desktop 캔버스에서 시각적 개체를 선택하는 경우에만 나타납니다.
-> 
-> 
 
-## <a name="enable-forecasting-preview"></a>예측(미리 보기)을 사용하도록 설정
-또한 2016년 9월 릴리스의 **Power BI Desktop**(2.39.4526.362 버전 이상)을 사용하여 **분석** 창에서 예측을 수행할 수 있습니다. 왼쪽 창에서.**파일 > 옵션 및 설정 > 옵션**으로 가서 **미리 보기 기능**을 선택하여 미리 보기 기능을 사용하도록 설정합니다. 아래 그림에 나와 있는 것처럼 **예측** 옆에 있는 확인란을 선택하여 기능을 사용하도록 설정합니다. 변경 내용이 적용되려면 **Power BI Desktop**을 다시 시작해야 합니다.
+## <a name="search-within-the-analytics-pane"></a>분석 창 내에서 검색
+**Power BI Desktop**의 2018년 2월 릴리스(버전 2.55.5010.201 이상)부터 **시각화** 창의 하위 섹션인 **분석** 창 내에서 검색할 수 있습니다. 아래 이미지에 표시된 것처럼 **분석** 창을 선택하면 검색 상자가 나타납니다.
 
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 
@@ -49,7 +47,7 @@ ms.lasthandoff: 11/15/2017
 * 중간 선
 * 백분위수 선
 
-다음 섹션에서는 시각화에 **분석** 창 및 동적 참조 선을 사용하는 방법을 보여 줍니다.
+다음 섹션에서는 시각화에 **분석** 창 및 동적 참조 선을 사용하는 방법을 보여줍니다.
 
 시각적 개체에 사용 가능한 동적 참조 선을 보려면 단계를 수행하세요.
 

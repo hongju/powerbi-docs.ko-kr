@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 생성 및 게시
 
@@ -64,6 +64,8 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
 
 * Microsoft Dynamics CRM, Salesforce 또는 Google Analytics 등의 [서비스에 연결](service-connect-to-services.md)
 * Excel, CSV 또는 Power BI Desktop(PBIX) 파일 등의 [파일에서 데이터 가져오기](service-get-data-from-files.md)
+
+앱 작업 영역에서 콘텐츠를 볼 때 소유자는 앱 작업 영역의 이름으로 표시됩니다.
 
 ## <a name="add-an-image-to-your-app-optional"></a>앱에 이미지 추가(선택 사항)
 기본적으로 Power BI는 해당 앱에 앱의 이니셜이 포함된 작은 컬러 원을 만듭니다. 하지만 이미지로 사용자 지정할 수도 있습니다. 이미지를 추가하려면 Exchange Online 라이선스가 필요합니다.

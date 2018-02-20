@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 2832849d887795c2af0750f01e929045f75c12fe
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 2d82817b5dc29cf9764b5b3645c0409f1bfd80a8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -63,6 +63,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 * **Power BI 미국 정부**는 **Pro** 라이선스로만 제공됩니다. 관리자 포털(또는 사용자)에서 실행되는 Power BI (무료) 라이선스에 대한 참조는 상용 Power BI 서비스 클라우드에서 실행됩니다.
 * **감사** - Office 365 보안 및 규정 준수 포털을 통해 감사를 사용할 수 없습니다.
 * **Cortana의 Power BI 콘텐츠** - Power BI 결과는 Cortana 검색 결과에 표시되지 않습니다. Cortana 검색 결과에는 Power BI 콘텐츠(대시보드, 보고서, 앱)에 대한 결과와 특정 키워드에 대한 Cortana 최적화 보고서 페이지를 보여주는 결과가 포함됩니다.
+* **외부 사용자 공유** - 공유는 Power BI 테넌트 내에서만 허용되며, Power BI 테넌트 외부의 사용자와 공유할 수 없습니다.
 
 계정에 **Power BI** 무료 라이선스가 할당된 경우 해당 계정은 **Power BI** 서비스의 상용 버전에서 실행되며 **Power BI 미국 정부** 제품에 속하지 않습니다. 이러한 무료 계정에서 다음 상황이 발생할 수 있습니다.
 
@@ -90,7 +91,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 
 **질문:** 미국 정부 기관용 **Power BI** 연결을 위한 URL은 상용 **Power BI** URL과 다릅니까?
 
-**대답:** 예, URL이 다릅니다. 다음 표에서는 각각의 URL을 보여 줍니다.
+**대답:** 예, URL이 다릅니다. 다음 표에서는 각각의 URL을 보여줍니다.
 
 | 상용 버전 URL | 미국 정부 기관 버전 URL |
 | --- | --- |

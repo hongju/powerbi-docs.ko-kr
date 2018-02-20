@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 742dcb64e5cec152ee105cbcdfe023788d209a04
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 262245dab44ae904b51d6cb1449082171631dc09
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="analyze-in-excel"></a>Excel에서 분석
 Excel을 사용하여 Power BI에 있는 데이터 집합을 살펴보고 조작하려는 경우가 있습니다. **Excel에서 분석**을 사용하면, 이것이 가능하고, Power BI에 존재하는 데이터 집합을 기반으로 Excel의 피벗 테이블, 차트, 슬라이서 기능에 액세스할 수 있습니다.
@@ -32,6 +32,7 @@ Excel을 사용하여 Power BI에 있는 데이터 집합을 살펴보고 조작
 * **Excel에서 분석**은 Microsoft Excel 2010 SP1 이상에 지원됩니다.
 * Excel 피벗 테이블은 숫자 필드의 집계를 끌어서 놓도록 지원하지 않습니다. Power BI에서 데이터 집합은 *미리 정의된 측정값이어야 합니다*.
 * 일부 조직에서는 Excel에 필수 **Excel에서 분석** 업데이트 설치를 막는 그룹 정책 규칙이 있을 수 있습니다. 업데이트를 설치할 수 없는 경우 관리자에게 확인합니다.
+* **Excel에서 분석**하려면 Pro 라이선스가 필요합니다. 무료 라이선스와 Pro 라이선스 간 기능 차이에 대한 자세한 내용은 [Power BI Pro와 무료 버전 비교](service-free-vs-pro.md)를 참조하세요. 
 
 ## <a name="how-does-it-work"></a>어떻게 작동합니까?
 **Power BI**의 데이터 집합이나 보고서와 연결된 줄임표 메뉴(...)에서 **Excel에서 분석**을 선택하면, Power BI에서 .ODC 파일을 만들고 브라우저에서 컴퓨터로 다운로드합니다.

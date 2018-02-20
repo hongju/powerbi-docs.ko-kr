@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: cee6cd859507105b7fc0c7e7075478d3a876f7bb
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 6d63236254906619f7244db9f57af162a19a70d6
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Power BI Desktop에서 숫자 범위 슬라이서 사용
 **숫자 범위 슬라이서**를 사용하여 데이터 모델의 모든 숫자 열에 모든 종류의 필터를 적용할 수 있습니다. **사이** 숫자, 숫자**보다 작거나 같음** 또는 숫자**보다 크거나 같음**을 필터링하도록 선택할 수 있습니다. 간단하게 들릴 수도 있지만 데이터를 필터링하는 매우 강력한 방법입니다.
@@ -56,6 +56,11 @@ ms.lasthandoff: 01/25/2018
 마지막으로 **보다 크거나 같음**을 선택한 경우 오른쪽(높은 값) 슬라이더 막대 핸들이 사라지고 다음 이미지에 표시된 대로 낮은 값을 조정할 수 있습니다. 이제 750.56보다 크거나 같은 *UnitPrice* 값이 있는 항목만이 보고서 페이지의 시각적 개체에 표시됩니다.
 
 ![](media/desktop-slicer-numeric-range/slicer-numeric-range_7.png)
+
+## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer-preview"></a>숫자 범위 슬라이서를 사용하여 정수로 맞춤(미리 보기)
+
+**Power BI Desktop**의 2018년 2월 릴리스부터 숫자 범위 슬라이서가 정수로 맞춰집니다. 슬라이서를 깔끔하게 정수로 맞출 수 있습니다. 정수로 맞추는 기능은 10진수 필터에 적용되지 않습니다.
+
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 현재 다음과 같은 제한 사항 및 고려 사항은 **숫자 범위 슬라이서**에 적용됩니다.

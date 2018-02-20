@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -29,6 +29,24 @@ ms.lasthandoff: 01/17/2018
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](service-whats-new.md)  
+
+## <a name="january-2018"></a>2018년 1월
+
+### <a name="report-favorites"></a>보고서 즐겨찾기
+
+**즐겨찾기** 페이지에 나타나도록 보고서를 즐겨찾기로 태그를 지정하세요. 자세한 내용은 [Power BI 모바일 앱의 즐겨찾기](mobile-apps-favorites.md)를 읽어보세요.
+
+### <a name="view-shared-reports"></a>공유 보고서 보기
+
+이제 다른 사람이 사용자와 보고서를 공유하면 대시보드와 함께 **공유한 항목** 페이지에 표시됩니다.
+
+### <a name="improved-hyperlink-support"></a>하이퍼링크 지원 개선
+
+이제 사용자 지정 시각적 개체의 링크를 탭하여 모바일 브라우저에서 열 수 있습니다.
+
+### <a name="intune-integration-android"></a>Intune 통합(Android)
+
+Intune 모바일 장치 관리를 사용하여 조건부 액세스를 지원합니다.
 
 ## <a name="december-2017"></a>2017년 12월
 
@@ -319,7 +337,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 이제 Reporting Services KPI 또는 모바일 보고서에서 다른 모바일 보고서 또는 모든 사용자 지정 URL로 드릴스루할 수 있습니다.
 
 #### <a name="notification-center"></a>알림 센터
-Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데이터나 대시보드 또는 사용자가 속한 그룹에 대한 변경 내용을 보여 줍니다.
+Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데이터나 대시보드 또는 사용자가 속한 그룹에 대한 변경 내용을 보여줍니다.
 
 ### <a name="may-2016"></a>2016년 5월
 #### <a name="ios-devices-and-android-phones"></a>iOS 장치 및 Android 휴대폰

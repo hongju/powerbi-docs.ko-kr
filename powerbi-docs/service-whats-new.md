@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/01/2017
-ms.author: sirsu
-ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.date: 02/07/2018
+ms.author: nikhilga
+ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -35,6 +35,23 @@ ms.lasthandoff: 01/19/2018
 * [Microsoft Power BI(YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+## <a name="january-2018"></a>2018년 1월
+*   Power BI 보고서 공유 및 즐겨찾기에 추가
+*   Azure SQL Database 및 Data Warehouse에 대해 OAuth2 및 DirectQuery SSO(Single Sign-on) 지원
+*   지역 내 감사: 감사 로그가 이제 테넌트와 동일한 Office 365 지역에 저장됩니다.
+*   SharePoint Online [Power BI 보고서 웹 파트](https://go.microsoft.com/fwlink/p/?LinkId=825698) 출시
+*   테넌트의 모든 사용자에 대해 사용자 지정 시각적 개체 보기를 해제하는 관리자 컨트롤
+*   AAS(Azure Analysis Services)에 대해 예약된 새로 고침 지원
+
+## <a name="previous-months-2017"></a>이전 달(2017년)
+## <a name="october-and-november-2017"></a>2017년 10월 및 11월
+*   [Power BI 앱](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)을 사용하여 콘텐츠를 선택적으로 게시
+*   [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/)를 사용하여 외부 사용자 배포
+* AI 기반 앱 권장 사항
+* 대시보드 타일 위 UI 업데이트
+* 앱에 대한 메일 구독 지원 
+* [웹 게시](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings)에 대한 세밀한 관리자 컨트롤
+
 ## <a name="september-2017"></a>2017년 9월
 * 프리미엄으로 무료 사용자와 대시보드를 공유합니다.
 * V 코어 풀링을 사용하여 비즈니스 요구에 맞게 용량을 할당합니다.
@@ -42,7 +59,6 @@ ms.lasthandoff: 01/19/2018
 * REST API로 데이터를 쉽게 푸시하는 [PubNub 블록](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards)
 * [사용 메트릭](service-usage-metrics.md)에 대한 로드 성능이 향상되었습니다.
 
-## <a name="previous-months-2017"></a>이전 달(2017년)
 ### <a name="august-2017"></a>2017년 8월
 * [사용자별 사용 메트릭](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)으로 대상을 파악합니다.
 * 온라인 서비스에 대해 [Power BI 서비스](service-connect-to-services.md) 앱을 시작합니다.

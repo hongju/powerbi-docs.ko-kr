@@ -1,5 +1,5 @@
 ---
-title: "Power BI에서 빠른 측정을 사용하여 일반적이고 강력한 계산 수행(미리 보기)"
+title: "Power BI에서 빠른 측정을 사용하여 일반적이고 강력한 계산 수행"
 description: "빠른 측정은 일반적인 계산을 신속하게 수행하는 미리 만들어진 DAX 수식을 제공합니다."
 services: powerbi
 documentationcenter: 
@@ -15,23 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: d0fc21c19a574f096c46c26331df3114e8c46c31
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ce971f980bf1796bfef8439b1ea260190fb678df
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
-# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations-preview"></a>빠른 측정을 사용하여 일반적이고 강력한 계산 수행(미리 보기)
-**Power BI Desktop**의 2017년 4월 릴리스부터 **빠른 측정**을 사용하여 일반적이고 강력한 계산을 빠르고 쉽게 수행할 수 있습니다. **빠른 측정**은 사용자가 대화 상자에 입력한 내용에 따라 내부적으로(DAX를 작성할 필요가 없음) DAX 명령 집합을 실행한 후 사용할 결과를 보고서에 표시합니다. 무엇보다도 빠른 측정으로 실행되는 DAX를 확인하고 사용자 고유의 DAX 지식을 바로 사용하거나 확장할 수 있습니다.
+# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>빠른 측정을 사용하여 일반적이고 강력한 계산 수행
+**빠른 측정**을 사용하여 일반적이고 강력한 계산을 빠르고 쉽게 수행할 수 있습니다. **빠른 측정**은 사용자가 대화 상자에 입력한 내용에 따라 내부적으로(DAX를 작성할 필요가 없음) DAX 명령 집합을 실행한 후 사용할 결과를 보고서에 표시합니다. 무엇보다도 빠른 측정으로 실행되는 DAX를 확인하고 사용자 고유의 DAX 지식을 바로 사용하거나 확장할 수 있습니다.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
 **필드** 영역에서 필드를 마우스 오른쪽 단추로 클릭하여 **빠른 측정**을 만든 후 나타나는 메뉴에서 **빠른 측정**을 선택합니다. 기존 시각적 개체의 **값** 창에서도 값을 마우스 오른쪽 단추로 클릭할 수 있습니다(예: *가로 막대형 차트* 시각적 개체의 *값* 필드). 사용 가능한 수많은 계산 범주와 사용자 요구에 맞게 각 계산을 수정할 방법이 있습니다.
 
-### <a name="enable-the-quick-measures-preview"></a>빠른 측정 미리 보기 사용
-**Power BI Desktop**의 **2017년 4월** 릴리스부터 새 **빠른 측정** 기능을 사용해 볼 수 있습니다. 이 미리 보기 기능을 사용하려면 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 다음 **빠른 측정** 옆에 있는 확인란을 선택합니다. 선택한 후에는 Power BI Desktop을 다시 시작해야 합니다.
+### <a name="quick-measures-now-generally-available"></a>빠른 측정이 이제 출시됨
+
+**Power BI Desktop**의 2018년 2월 릴리스부터 빠른 측정이 출시됩니다(미리 보기 아님). **Power BI Desktop**의 이전 릴리스를 사용하는 경우 **Power BI Desktop**의 **2017년 4월** 릴리스부터 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 다음, **빠른 측정** 옆의 확인란을 선택하여 **빠른 측정** 기능을 사용해 볼 수 있습니다.
 
 ![](media/desktop-quick-measures/quick-measures_02b.png)
 
@@ -56,22 +57,22 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 
 5개의 고유한 빠른 측정 계산 형식 그룹이 있으며 각각 계산 컬렉션을 포함합니다. 이러한 그룹 및 계산은 다음과 같습니다.
 
-* **범주 내에 집계**
+* **범주별 집계**
   * 범주 내 평균
   * 범주 내 분산
   * 범주 내 최대값
   * 범주 내 최소값
   * 범주에 따른 가중 평균
-* **필터 및 기준선**
-  * 필터링된 측정값
+* **필터**
+  * 필터링된 값
   * 기준선과의 차이
-  * 기준선과의 백분율 차이
-  * 새 범주의 총합
+  * 필터링된 값과의 백분율 차이
+  * 새 범주의 판매량
 * **시간 인텔리전스**
   * 연초 대비 합계
   * 분기초 대비 합계
   * 월초 대비 합계
-  * 전년 대비 변화
+  * 전년도 대비 변화
   * 전분기 대비 변화
   * 전월 대비 변화
   * 이동 평균
@@ -85,6 +86,7 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
   * 곱하기
   * 나누기
   * 백분율 차이
+  * 상관 계수
 * **텍스트**
   * 별 등급
   * 연결된 값 목록
@@ -94,7 +96,7 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 ## <a name="example-of-quick-measures"></a>빠른 측정의 예
 이러한 실제 **빠른 측정**의 예를 살펴 보겠습니다.
 
-다음 **매트릭스** 시각적 개체는 다양한 전자 제품의 판매량에 대한 테이블을 보여 줍니다. 각 범주에 대한 합계가 포함된 기본 테이블입니다.
+다음 **매트릭스** 시각적 개체는 다양한 전자 제품의 판매량에 대한 테이블을 보여줍니다. 각 범주에 대한 합계가 포함된 기본 테이블입니다.
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
@@ -136,7 +138,7 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 측정값이 마음에 들면 동일한 오른쪽 클릭 메뉴를 사용하여 원하는 대로 이름을 바꿀 수 있습니다.
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
-**빠른 측정**의 이 미리 보기 릴리스에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
+유념해야 할 몇 가지 제한 사항과 고려 사항이 있습니다.
 
 * **빠른 측정**은 모델을 수정할 수 있는 경우에만 사용 가능하며 DirectQuery 또는 라이브 연결로 작업하는 경우는 대부분 해당되지 않습니다(이전에 설명한 대로 SSAS 라이브 연결은 지원됨).
 * **필드** 영역에 추가된 측정값을 보고서의 시각적 개체와 함께 사용할 수 있습니다.
@@ -152,8 +154,6 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 
 ### <a name="additional-information-and-examples"></a>추가 정보 및 예제
 각 **빠른 측정** 계산에 대한 예제와 지침을 제공할 예정이므로 관련 문서에 대한 업데이트를 조만간 다시 확인하세요.
-
-**미리 보기** 기능이므로 특히 여러분의 피드백 및 아이디어를 기다립니다.
 
 아직 제공하지 않은 **빠른 측정**에 대한 아이디어가 있으신가요? 좋습니다! [이 페이지](https://go.microsoft.com/fwlink/?linkid=842906)를 확인하고 **Power BI Desktop**에 표시되었으면 하는 **빠른 측정**에 대한 아이디어(및 DAX 수식)를 제출해 주세요. 향후 릴리스에서 **빠른 측정** 제공 목록에 추가되도록 노력하겠습니다.
 

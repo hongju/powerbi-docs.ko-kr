@@ -16,18 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/03/2018
 ms.author: mihart
-ms.openlocfilehash: fc697437ff9f5fb6b8dd49f6513c728d1b8ddfeb
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: c5776ca5e038a8cab84ab4f225f67f6144afc722
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Power BI 보고서 또는 대시보드 구독
-가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서 스냅숏을 전자 메일로 받은 편지함에 보냅니다. Power BI에 전자 메일 수신 빈도(예: 하루에 한 번에서 일주일에 한 번)를 알려줍니다. 전자 메일 및 스냅숏은 Power BI 설정에 지정된 언어를 사용합니다. 언어가 정의되지 않으면 Power BI는 현재 브라우저 언어를 사용합니다.
+가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서 스냅숏을 전자 메일로 받은 편지함에 보냅니다. Power BI에 전자 메일 수신 빈도(예: 하루에 한 번에서 일주일에 한 번)를 알려줍니다. 
 
-언어 기본 설정을 보거나 설정하려면 톱니바퀴 아이콘 ![](media/service-report-subscribe/power-bi-settings-icon.png) **> 설정 > 일반 > 언어**를 선택합니다.
+메일 및 스냅숏은 Power BI 설정에 설정된 언어를 사용합니다([Power BI에 지원되는 언어 및 국가/지역](supported-languages-countries-regions.md) 참조). 언어가 정의되지 않은 경우 Power BI는 현재 브라우저의 로캘 설정에 따른 언어를 사용합니다. 언어 기본 설정을 보거나 설정하려면 톱니바퀴 아이콘 ![](media/service-report-subscribe/power-bi-settings-icon.png) **> 설정 > 일반 > 언어**를 선택합니다. 
 
 ![](media/service-report-subscribe/power-bi-language.png)
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI로 Project "Madeira"에 연결
 Power BI와 Project "Madeira" 콘텐츠 팩을 통해 Project "Madeira" 데이터에 유용한 정보를 쉽게 가져올 수 있습니다. Power BI는 영업 및 재무 데이터를 모두 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 작성합니다.
@@ -47,7 +47,7 @@ Power BI용 [Project "Madeira" Analytics 콘텐츠 팩](https://app.powerbi.com/
     >[!NOTE]
     >Project "Madeira"의 superuser이어야 합니다.
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. 연결되면 대시보드, 보고서 및 데이터 집합은 자동으로 로드됩니다. 완료되면 타일은 계정의 데이터로 업데이트됩니다.  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ Project “Madeira” 데이터를 Power BI에 가져오려면 데이터를 검�
 ## <a name="troubleshooting"></a>문제 해결
 Power BI 대시보드는 위에 나열된 게시된 웹 서비스를 사용하고 현재 재무 솔루션에서 데이터를 가져오는 경우 데모 회사 또는 고유한 회사의 데이터를 표시합니다. 그러나 문제가 발생할 경우 이 섹션에서는 가장 일반적인 문제에 대한 문제 해결을 제공합니다.
 
-**"매개 변수 유효성 검사를 하지 못했습니다. 모든 매개 변수가 유효한지 확인하세요."** Project "Madeira" URL을 입력한 후에 이 오류가 표시되는 경우 다음 요구 사항이 충족되었는지 확인합니다.  
+**"매개 변수 유효성 검사를 하지 못했습니다. 모든 매개 변수가 유효한지 확인하세요."**
 
-    - URL은 정확하게 이 패턴을 따릅니다. https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-    - 괄호의 회사 이름 다음의 모든 텍스트를 삭제합니다.  
-    - URL의 끝에 슬래시가 없는지 확인합니다.  
-    - URL은 https로 시작하는 URL에서 표시한 대로 보안 연결을 사용해야 합니다.  
+프로젝트 “Madeira” URL을 입력한 후에 이 오류가 표시되는 경우 다음 요구 사항이 충족되었는지 확인합니다.  
+
+   - URL은 정확하게 이 패턴을 따릅니다. https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
+   - 괄호의 회사 이름 다음의 모든 텍스트를 삭제합니다.  
+   - URL의 끝에 슬래시가 없는지 확인합니다.  
+   - URL은 https로 시작하는 URL에서 표시한 대로 보안 연결을 사용해야 합니다.  
 
 **"로그인하지 못했습니다."** Project "Madeira" 자격 증명을 사용하여 대시보드에 로그인할 때 "로그인하지 못했습니다."라는 오류를 받게 되면 다음 문제 중 하나가 원인일 수 있습니다.  
 

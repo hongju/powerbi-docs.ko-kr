@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/02/2018
+ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -40,7 +40,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 ![](media/service-admin-portal/powerbi-admin-settings.png)
 
-포털 내에 5개의 탭이 있습니다. 이들을 아래에서 설명합니다.
+포털 내에 6개의 탭이 있습니다. 이들을 아래에서 설명합니다.
 
 * [사용 메트릭](#usage-metrics)
 * [사용자](#users)
@@ -48,6 +48,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 * [테넌트 설정](#tenant-settings)
 * [프리미엄 설정](#premium-settings)
 * [embed 태그](#embed-codes)
+* [조직의 시각적 개체](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -269,6 +270,46 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 관리자는 테넌트에 대해 생성된 embed 태그를 볼 수 있습니다. 보고서를 살펴보고 embed 태그를 삭제하여 보고서를 해지하는 작업을 수행해야 합니다.
 
+## <a name="organization-visuals"></a>조직의 시각적 개체
+
+조직의 시각적 개체 탭을 사용하면 조직 내에서 사용자 지정 시각적 개체를 배포하고 관리할 수 있습니다. 그러므로 조직의 소유 사용자 지정 시각적 개체를 쉽게 배포할 수 있습니다. 보고서 작성자의 경우 해당 시각적 개체를 쉽게 검색하고 Power BI Desktop에서 보고서로 바로 가져올 수 있습니다.
+ 
+이 페이지에서는 현재 조직의 리포지토리에 배포된 모든 사용자 지정 시각적 개체를 보여줍니다.
+ 
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+### <a name="add-a-new-custom-visual"></a>새 사용자 지정 시각적 개체 추가
+
+목록에 새 사용자 지정 시각적 개체를 추가하려면 **사용자 지정 시각적 개체 추가**를 선택합니다.
+
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+
+> [!WARNING]
+> 사용자 지정 시각적 개체에는 보안 또는 개인 정보 관련 위험이 있는 코드가 포함될 수 있습니다. 조직의 리포지토리로 배포하기 전에 사용자 지정 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인해야 합니다.
+> 
+
+필드를 입력하세요.
+ 
+* .pbiviz 파일 선택(필수): 업로드할 사용자 지정 시각적 개체 파일을 선택합니다. 버전이 있는 API 사용자 지정 시각적 개체만 지원됩니다(여기 참조).
+사용자 지정 시각적 개체를 업로드하기 전에 보안 및 개인 정보에 대해 사용자 지정 시각적 개체를 검토하여 조직의 표준에 적합한지 확인해야 합니다. 사용자 지정 시각적 개체 보안에 대해 자세히 알아보세요.
+ 
+* Name your custom visuals(사용자 지정 시각적 개체 이름 지정)(필수): Power BI Desktop 사용자가 쉽게 이해할 수 있도록 시각적 개체에 간단한 제목을 지정합니다.
+ 
+* 아이콘(필수): Power BI Desktop UI에 표시되는 아이콘 파일입니다.
+ 
+* 설명: 사용자에게 더 많은 컨텍스트와 교육을 제공하기 위한 시각적 개체에 대한 간단한 설명입니다.
+ 
+“적용”을 선택하여 업로드 요청을 시작합니다. 성공하면 목록에 새 항목이 표시됩니다. 실패하면 해당 오류 메시지가 표시됩니다.
+ 
+### <a name="delete-a-custom-visual-from-the-list"></a>목록에서 사용자 지정 시각적 개체 삭제
+
+휴지통 아이콘을 선택하여 리포지토리에서 시각적 개체를 영구적으로 삭제합니다.
+중요: 삭제는 되돌릴 수 없습니다. 삭제되면 시각적 개체는 기존 보고서에서 렌더링을 즉시 중지합니다. 동일한 시각적 개체를 다시 업로드하는 경우에도 삭제한 이전 시각적 개체를 대체하지 않습니다. 사용자는 새 시각적 개체를 다시 가져와서 보고서의 인스턴스를 바꿔야 합니다.
+ 
+### <a name="how-to-update-a-visual"></a>시각적 개체를 업데이트하는 방법
+
+리포지토리의 시각적 개체를 업데이트하려면 새 버전의 시각적 개체(예: 버그 수정, 새 기능 등)가 있기 때문에 목록의 새로운 시작으로 새 파일(시각적 개체 ID가 변경되지 않았는지 확인)을 업로드하고 제목 및 설명에 올바른 정보(예: “My Visual v2.0”)를 제공했는지 확인합니다. 다음에 사용자가 Power BI Desktop에서 조직의 리포지토리에 들어갈 때 새 버전을 가져올 수 있으며, 보고서에 있는 현재 버전을 바꾸라는 메시지가 표시됩니다.
+ 
 ## <a name="next-steps"></a>다음 단계
 
 [Power BI 관리자 역할 이해](service-admin-role.md)  
