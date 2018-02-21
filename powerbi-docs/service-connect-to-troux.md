@@ -3,7 +3,7 @@ title: "Power BI로 Troux에 연결"
 description: "Power BI용 Troux"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: c2d8e22758e3d28a3851b99140876ff1646a6be0
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: cc5bccad484f6fcc4f7a59e1789fd1a12526874c
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-troux-for-power-bi"></a>Power BI용 Troux에 연결
 Troux 콘텐츠 팩을 사용하여 엔터프라이즈 아키텍처 리포지토리를 직접 Power BI에서 완전히 새로운 방식으로 시각화할 수 있습니다. 이 콘텐츠 팩은 비즈니스 기능에 대한 일련의 통찰력, 이러한 기능을 제공하는 응용 프로그램, 그리고 Power BI를 사용하여 완벽하게 사용자 지정할 수 있는 이러한 응용 프로그램을 지원하는 기술을 제공합니다.

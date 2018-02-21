@@ -3,7 +3,7 @@ title: "Power BI로 Microsoft Dynamics에 연결"
 description: "Power BI용 Microsoft Dynamics CRM"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 738270b5bf588568e0cf4c11013c7a7f66d94b84
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: sarinas
+ms.openlocfilehash: bd9d3e57955c643f42844275128890ecb850d438
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Power BI로 Microsoft Dynamics CRM에 연결
 Power BI용 Microsoft Dynamics CRM Online을 사용하면 데이터에 쉽게 액세스하고 분석할 수 있습니다. Power BI는 OData 피드를 사용하여 계정, 활동, 기회, 제품, 잠재 고객, 사용자 등과 같은 필요한 모든 엔터티 및 조치가 포함된 설명 모델을 만듭니다. 앱을 설치한 후 Power BI 서비스([https://powerbi.com](https://powerbi.com)) 및 Power BI 모바일 앱에서 대시보드 및 보고서를 볼 수 있습니다. 

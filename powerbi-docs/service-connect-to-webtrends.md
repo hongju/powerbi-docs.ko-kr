@@ -3,7 +3,7 @@ title: "Power BI로 Webtrends에 연결"
 description: "Power BI용 Webtrends"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 23bfef9442aa334dd7b141fd470ab9176a17f91e
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 6ac4a361c5c265b06e1f869d9858afe9101f6e69
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Power BI로 Webtrends에 연결
 Power BI용 Webtrends 콘텐츠 팩에는 트래픽 소스별 총 페이지 보기 및 방문 횟수와 같은 다양한 기본 메트릭이 포함되어 있습니다. Webtrends 계정에 연결하여 Power BI에서 Webtrends 데이터를 시각화합니다. 제공된 대시보드 및 보고서를 사용하거나, 가장 관심 있는 정보를 강조 표시하도록 사용자 지정할 수 있습니다.  하루에 한 번 자동으로 데이터가 새로 고쳐집니다.

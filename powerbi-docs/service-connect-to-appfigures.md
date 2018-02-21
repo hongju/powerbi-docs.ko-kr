@@ -3,7 +3,7 @@ title: "Power BI로 appFigures에 연결"
 description: "Power BI용 appFigures"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 950c69282e74b42fca4034aaabb9487bad370219
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 13e56552ef987b9ee66c721c6e4bf7f16543b63a
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Power BI로 appFigures에 연결
 Power BI 및 appFigures 콘텐츠 팩을 사용하면 앱에 대한 중요한 통계를 쉽게 추적할 수 있습니다. Power BI는 앱 판매, 다운로드 및 광고 통계를 포함하여 데이터를 검색한 다음 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다.

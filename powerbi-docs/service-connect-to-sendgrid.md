@@ -3,7 +3,7 @@ title: "Power BI로 SendGrid에 연결"
 description: "Power BI용 SendGrid"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: d077bedcc1faa10af79cf3eba258b1dac969ae10
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: bbfd194cb4b65d91eedf417cc83959016bfff7e9
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-sendgrid-with-power-bi"></a>Power BI로 SendGrid에 연결
 SendGrid용 Power BI 콘텐츠 팩을 사용하면 SendGrid 계정을 파악하고 통계를 추출할 수 있습니다. SendGrid 콘텐츠 팩을 통해 대시보드에 SendGrid 통계를 시각화할 수 있습니다.

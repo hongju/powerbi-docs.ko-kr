@@ -3,7 +3,7 @@ title: "Power BI로 Microsoft Dynamics Marketing에 연결"
 description: "Power BI용 Microsoft Dynamics 마케팅"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 2800dc496d32c099024db0960c87912afb3b79d7
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 3b05064265e951e64d1f34d801555e837fc4d8fb
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Power BI로 Microsoft Dynamics Marketing에 연결
 Power BI용 Microsoft Dynamics 마케팅 콘텐츠 팩을 사용하면 Dynamics 마케팅의 데이터에 쉽게 액세스하고 분석할 수 있습니다. 콘텐츠 팩은 프로그램, 캠페인, 마케팅 연락처 및 회사, 잠재 고객, 잠재 고객 상호 작용 및 잠재 고객 점수 매기기, 메일 마케팅 메시지 및 웹 사이트, 동작 관찰, 예산, 금융 거래, 성과 KPI 등과 같은 필요한 모든 엔터티 및 측정값이 포함된 OData 피드 기반의 설명 모델을 사용합니다. 

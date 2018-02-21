@@ -3,7 +3,7 @@ title: "Power BI로 Bing에 연결"
 description: "Power BI용 Bing"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 305b718f16db7543b928df6902e406d23188b217
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: sarinas
+ms.openlocfilehash: 57dabe4131da49770ddea73c44c60c79f5c75fd1
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-bing-with-power-bi"></a>Power BI로 Bing에 연결
 Bing 콘텐츠 팩을 사용하면 사용자가 선택한 용어의 인터넷 검색 작업에 대한 분석을 볼 수 있습니다.

@@ -3,7 +3,7 @@ title: "Power BI로 Azure Mobile Engagement에 연결"
 description: "Power BI용 Azure Mobile Engagement"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: ff7ff30874d4038547a0db94ae8c285081acc8eb
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: cc61f750a3bcafc004e1f8ac34ebfe40c7471fb3
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Power BI로 Azure Mobile Engagement에 연결
 Power BI Azure Mobile Engagement 콘텐츠 팩을 사용하면 앱 데이터를 신속하게 파악할 수 있습니다.

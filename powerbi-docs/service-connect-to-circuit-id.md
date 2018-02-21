@@ -3,7 +3,7 @@ title: "Power BI로 회로 ID에 연결"
 description: "Power BI용 회로 ID"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 295d8dbd24c9ae6bce84cb76f6a5e23e7474b893
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: b108bfaff61842b8ec6a7139e55558b16b7c56ac
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Power BI로 회로 ID에 연결
 Power BI를 사용하면 회로 ID에서 통신 데이터를 쉽게 분석할 수 있습니다. Power BI는 데이터를 검색한 다음 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다. 연결을 만든 후 데이터를 탐색하고 요구에 맞게 대시보드를 사용자 지정할 수 있습니다. 매일 자동으로 데이터가 새로 고쳐집니다.

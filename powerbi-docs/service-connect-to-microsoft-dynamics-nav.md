@@ -3,7 +3,7 @@ title: "Power BI로 Microsoft Dynamics NAV에 연결"
 description: "Power BI용 Microsoft Dynamics NAV"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 7d5db73a05a74de934fa8ac630f673fe4f5bb3af
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: sarinas
+ms.openlocfilehash: 884ef223234d8827e58a37befe2e5d18a45e480e
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Power BI로 Microsoft Dynamics NAV에 연결
 Power BI를 사용하면 Microsoft Dynamics NAV에 대한 정보를 쉽게 파악할 수 있습니다. Power BI는 영업 및 재무를 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 사용하여 앱을 구축합니다. Power BI는 데이터가 검색되는 원본 테이블(이 경우에 영업 및 재무 데이터)에 대한 사용 권한이 필요합니다. 요구 사항에 대한 자세한 내용은 아래에 나와 있습니다. 앱을 설치한 후 Power BI 서비스([https://powerbi.com](https://powerbi.com)) 및 Power BI 모바일 앱에서 대시보드 및 보고서를 볼 수 있습니다. 

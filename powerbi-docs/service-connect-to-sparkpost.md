@@ -3,7 +3,7 @@ title: "Power BI로 SparkPost에 연결"
 description: "Power BI용 SparkPost"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 0547f288649ef9d2c494d979c39bb9661b8b35f4
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 11cfb3b02c37ab839726c7fe87079afafb35f3b1
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Power BI로 SparkPost에 연결
 SparkPost용 Power BI 콘텐츠 팩을 사용하면 SparkPost 계정에서 하나의 통찰력 대시보드에 중요한 데이터 집합을 추출할 수 있습니다. SparkPost 콘텐츠 팩을 사용하여 도메인, 캠페인 및 ISP에 의한 참여를 포함하는 전체 전자 메일 통계를 시각화할 수 있습니다.

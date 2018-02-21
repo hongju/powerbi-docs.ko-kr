@@ -3,7 +3,7 @@ title: "Power BI로 IntelliBoard에 연결"
 description: "Power BI용 IntelliBoard"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: e74b26c9d34b19607a0b38197c466f4eb3a06e2a
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 8ae350c1e2538d1d4018f886d76a8f80df15501e
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>Power BI로 IntelliBoard에 연결
 IntelliBoard는 Reporting Service를 통해 Moodle 학습 관리 시스템에 단순화된 액세스를 제공합니다. Power BI용 IntelliBoard 콘텐츠 팩은 과정에 대한 메트릭, 등록된 사용자, 전반적인 성능 및 LMS 작업을 포함하여 추가 분석을 제공합니다.

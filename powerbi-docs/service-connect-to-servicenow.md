@@ -3,7 +3,7 @@ title: "Power BI로 ServiceNow에 연결"
 description: "Power BI용 ServiceNow"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 662b5e094a38aafad9a87593b9c5b797e2db7870
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: acb564c72bcec4ba36e24f87dc52de004e03c189
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>인시던트 보고를 위해 Power BI로 ServiceNow에 연결
 ServiceNow에서는 비즈니스, 운영 및 IT 관리를 비롯하여 비즈니스를 개선하기 위한 여러 제품과 솔루션을 제공합니다. 이 콘텐츠 팩에는 개시된 인시던트, 최근에 해결된 인시던트, 최근에 닫은 인시던트에 대한 다양한 정보 및 보고서가 포함되어 있습니다.  
