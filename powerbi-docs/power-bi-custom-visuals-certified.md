@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 34733c469b584fe94a55c0521e889cd39fca6ed8
-ms.sourcegitcommit: 8d1aa392600f2a8dd81859687fed0d0080de4b6e
+ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
+ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 02/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
@@ -63,6 +63,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [Beyondsoft 달력](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [MAQ Software의 보타이 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [비디오](https://youtu.be/So5xKMSpVJI) |
 | [상자 수염 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380831) | |
+| [Box and Whisker chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381351)(MAQ Software의 상자 수염 차트) | [비디오](https://youtu.be/JoHaFLfhXdo) |
 | [MAQ Software의 브릭 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) | [비디오](https://youtu.be/hA3DOsvn2xY) |
 | [Akvelon의 버블 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340) | |
 | [글머리 기호 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380755) | [비디오](https://youtu.be/AOlsFYkfkcw) |
@@ -98,13 +99,16 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [ARIMA를 사용한 예측](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
 | [MAQ Software의 원본이 포함된 깔때기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [비디오](https://youtu.be/R_EcimsLI8U) |
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [비디오](https://youtu.be/qJ7s_KrGiUU) |
+| [MAQ Software의 원본이 Gantt 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [비디오](https://youtu.be/vJLV9JRCpI8) |
 | [지구본 데이터 막대](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
 | [Akvelon의 계층 구조 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [비디오](https://youtu.be/0ZGzJaq_KT4) |
 | [히스토그램 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
+| [Histogram with points by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032)(MAQ Software의 포인트가 있는 히스토그램) | [비디오](https://youtu.be/-ILF--wExrw) |
 | [MAQ Software의 가로 깔때기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380846) | [비디오](https://youtu.be/SudZei68PPo) |
 | [CloudScope의 이미지](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381297) | |
 | [이미지 격자](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
 | [인포그래픽 디자이너](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
+| [KPI Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432)(Akvelon의 KPI 차트) | |
 | [KPI 지표](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [MAQ 소프트웨어의 KPI 티커](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [비디오](https://youtu.be/cudG4gsZ2V8) |
 | [MAQ Software의 선형 계기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [비디오](https://youtu.be/7_jFaM30dkc) |

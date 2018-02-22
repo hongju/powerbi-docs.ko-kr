@@ -3,7 +3,7 @@ title: "SQL Database 감사 콘텐츠 팩"
 description: "Power BI용 SQL Database 감사 콘텐츠 팩"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: yshoukry
-ms.openlocfilehash: a2faefa9ebd62ef50e530dcad91482918f94d6d2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 70b8eea066b7d3b37b1508c83082cbc82e0949aa
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Power BI용 SQL Database 감사 콘텐츠 팩
 Azure용 Power BI 콘텐츠 팩 [SQL Database 감사](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/)를 사용하면 데이터베이스 작업을 이해하고 비즈니스 문제나 의심스러운 보안 위반을 나타낼 수 있는 불일치 및 비정상을 파악할 수 있습니다. 
@@ -59,7 +59,7 @@ Power BI용 [SQL Database 감사 콘텐츠 팩](https://app.powerbi.com/getdata/
    - 관심 있는 감사 로그의 종료 날짜를 입력합니다. 상한 시간 제한 없이 감사 로그를 로드하려면 “\*”을 입력합니다.
    
    ![](media/service-connect-to-azure-sql-database-auditing/dbauditing_param.png)
-5. 인증 방법에 대해 **키**를 선택하고 **계정 키**\> **로그인**을 입력합니다.
+5. 인증 방법에 대해 **키**를 선택하고 **계정 키** \> **로그인**을 입력합니다.
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqlauditing3.png)
 6. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 집합이 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
