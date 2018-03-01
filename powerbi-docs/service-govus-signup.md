@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/27/2017
 ms.author: davidi
-ms.openlocfilehash: 8ff1d5be4e360aa5afb8b6bd704f3426957466ef
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Get started
+ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI 서비스에 미국 정부 기관 등록
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -45,12 +46,14 @@ Power BI 미국 정부에 로그인한 후에 영업 또는 지원 담당자가 
 
 > [!NOTE]
 > 포털 관리자가 이러한 단계를 수행해야 합니다.
-> 
-> 
+>
 
-1. [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government)으로 이동합니다. 
-    >[!NOTE]
-    >Office 정부 클라우드에 등록하지 않으려는 경우 영업 담당자에게 문의하세요.
+1. [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government)으로 이동합니다.
+
+>[!NOTE]
+>Office 정부 클라우드에 등록하지 않으려는 경우 영업 담당자에게 문의하세요.
+>
+
 2. Office 평가판을 Office G3을 선택하고 양식을 작성합니다.
 3. Office 클라우드 고객의 경우 "기존 Office 정부 클라우드 고객"에 대한 다음 단계를 계속 진행합니다.
 
@@ -129,7 +132,7 @@ Power BI **무료** 라이선스에서 **Power BI 미국 정부**로 마이그�
 Power BI 무료 라이선스를 실행하는 테넌트의 사용자를 확인하기 위해 관리자는 무료 라이선스 사용자가 **Power BI Standard**로 표시되는 라이선스 보고서를 실행할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-Power BI에서는 모든 종류의 작업을 수행할 수 있습니다. 서비스에 등록하는 방법을 보여주는 문서를 포함하여 자세한 정보 및 학습에 대해서는 다음 리소스를 확인해 보세요.
+Power BI에서는 모든 종류의 작업을 수행할 수 있습니다. 서비스에 등록하는 방법을 보여 주는 문서를 포함하여 자세한 정보 및 학습에 대해서는 다음 리소스를 확인해 보세요.
 
 * [미국 정부 기관용 Power BI 개요](service-govus-overview.md)
 * [Power BI 단계별 학습](guided-learning/gettingstarted.yml#step-1)

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 2d82817b5dc29cf9764b5b3645c0409f1bfd80a8
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Get started
+ms.openlocfilehash: b3682deb1897647a7de6f32dc87a4d7ed8bc2c9f
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -91,7 +92,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 
 **질문:** 미국 정부 기관용 **Power BI** 연결을 위한 URL은 상용 **Power BI** URL과 다릅니까?
 
-**대답:** 예, URL이 다릅니다. 다음 표에서는 각각의 URL을 보여줍니다.
+**대답:** 예, URL이 다릅니다. 다음 표에서는 각각의 URL을 보여 줍니다.
 
 | 상용 버전 URL | 미국 정부 기관 버전 URL |
 | --- | --- |
