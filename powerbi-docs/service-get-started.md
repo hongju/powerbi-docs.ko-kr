@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: ee7375c28b3c13b53eba52f0bf76754529c9b4f5
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Get started
+ms.openlocfilehash: aacc31c3ebb31bf6f8077a2bf802e8127048a431
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>Power BI 서비스(app.powerbi.com) 시작
 이 자습서는 ***Power BI 서비스***를 시작할 때 도움이 됩니다. Power BI 서비스를 다른 Power BI 제품에 적용하는 방법을 이해하려면 [Power BI란?](guided-learning/gettingstarted.yml#step-1)을 참조하여 시작하는 것이 좋습니다.
