@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/07/2018
 ms.author: nikhilga
-ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Get started
+ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -633,7 +634,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 * **GitHub** 대시보드에는 커뮤니티 구축, 향상된 계산 및 향상된 레이아웃에 집중된 새로운 시각 효과가 있습니다.
 * **SendGrid** 대시보드에는 보다 잘 이해할 수 있는 새로운 시각 효과 및 레이아웃이 있습니다.
-* 이제 쿼리의 끝에 'as treemap'라는 문구를 사용하여 **treemaps in Q&A** 를 사용할 수 있습니다.
+* 이제 쿼리의 끝에 'as treemap'이라는 문구를 사용하여 **treemaps in Q&A**를 사용할 수 있습니다.
 * 이제 질문 및 답변 및 보고서로부터 **트리맵을 고정**할 수 있습니다. 
 * 많은 버그 수정!
 

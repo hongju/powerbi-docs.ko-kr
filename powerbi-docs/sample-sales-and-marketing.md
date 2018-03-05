@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: badd7a9c41199bf1486e83d29b37bb385f32b8ea
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI의 영업 및 마케팅 샘플: 둘러보기
 
@@ -36,7 +37,7 @@ VanArsdel에는 많은 경쟁사가 있으나 업계 선두업체입니다. CMO�
 
 ## <a name="prerequisites"></a>필수 조건
 
- 이 샘플을 사용하려면 먼저 샘플을 콘텐츠 팩, .pbix 파일 또는 Excel 통합 문서로 다운로드해야 합니다.
+ 이 샘플을 사용하려면 먼저 샘플을 [콘텐츠 팩](https://docs.microsoft.com/en-us/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample), [.pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix) 또는 [Excel 통합 문서](http://go.microsoft.com/fwlink/?LinkId=529785)로 다운로드해야 합니다.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>이 샘플의 콘텐츠 팩 가져오기
 

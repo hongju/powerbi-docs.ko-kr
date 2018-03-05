@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 8ee889246c7ceae82195faa62232a987a541b076
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 73ac4f0ca7e89c01543befee5e952a66db2d3843
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 기회 분석 샘플: 둘러보기
 
@@ -44,7 +45,7 @@ ms.lasthandoff: 01/24/2018
 
 ## <a name="prerequisites"></a>필수 조건
 
- 이 샘플을 사용하려면 먼저 샘플을 콘텐츠 팩, .pbix 파일 또는 Excel 통합 문서로 다운로드해야 합니다.
+ 이 샘플을 사용하려면 먼저 샘플을 [콘텐츠 팩](https://docs.microsoft.com/en-us/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample), [.pbix 파일](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity Analysis Sample PBIX.pbix) 또는 [Excel 통합 문서](http://go.microsoft.com/fwlink/?LinkId=529782)로 다운로드해야 합니다.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>이 샘플의 콘텐츠 팩 가져오기
 

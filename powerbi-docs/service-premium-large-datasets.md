@@ -15,17 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
-ms.author: v-mamcge
-ms.openlocfilehash: 82ac4382fe80d83b60705f135b50738718f28876
-ms.sourcegitcommit: 7eb15c813a0d14322cb1316bb7aab23cbc13aae6
+ms.date: 02/27/2018
+ms.author: jocaplan
+LocalizationGroup: Premium
+ms.openlocfilehash: def06965692644c0328dae7a1d0ade8d13cc0d6c
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>대형 데이터 집합을 위한 Power BI 프리미엄 지원
 
-Power BI 프리미엄은 최대 10GB 크기의 Power BI Desktop(.pbix) 파일 업로드를 지원합니다. 큰 데이터 집합을 사용하려면 프리미엄 용량에 할당된 작업 영역에 게시합니다.
+Power BI 프리미엄은 최대 10GB 크기의 Power BI Desktop(.pbix) 파일 업로드를 지원합니다. 업로드한 후에는 데이터 집합 크기를 최대 12GB까지 새로 고칠 수 있습니다. 큰 데이터 집합을 사용하려면 프리미엄 용량에 할당된 작업 영역에 게시합니다.
  
 ## <a name="best-practices"></a>모범 사례
 

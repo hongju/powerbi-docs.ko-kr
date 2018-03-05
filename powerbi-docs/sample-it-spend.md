@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 40bb1c80b1dcc9625bdb3f47ec98b51a7be114fd
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 904f35ad2ec1cda07393877174ebec5781972b10
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 IT 지출 분석 샘플: 둘러보기
 
@@ -30,11 +31,11 @@ IT 지출 분석 [콘텐츠 팩](service-organizational-content-pack-introductio
 
 ![](media/sample-it-spend/it1.png)
 
-이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여 주는 시리즈의 일부입니다. 이 샘플은 익명화된 obviEnce(<http://obvience.com/>)의 실제 데이터입니다.
+이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여 주는 시리즈의 일부입니다. 샘플은 익명화된 obviEnce(<http://obvience.com/>)의 실제 데이터입니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
- 이 샘플을 사용하려면 먼저 샘플을 콘텐츠 팩, .pbix 파일 또는 Excel 통합 문서로 다운로드해야 합니다.
+ 이 샘플을 사용하려면 먼저 샘플을 [콘텐츠 팩](https://docs.microsoft.com/en-us/power-bi/sample-it-spend#get-the-content-pack-for-this-sample), [.pbix 파일](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT Spend Analysis Sample PBIX.pbix) 또는 [Excel 통합 문서](http://go.microsoft.com/fwlink/?LinkId=529783)로 다운로드해야 합니다.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>이 샘플의 콘텐츠 팩 가져오기
 

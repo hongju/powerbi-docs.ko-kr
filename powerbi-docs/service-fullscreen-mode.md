@@ -1,6 +1,6 @@
 ---
 title: "전체 화면 모드에서 대시보드, 대시보드 타일, 보고서 페이지 및 보고서 시각화를 표시합니다."
-description: "*TV 모드*라고도 하는 전체 화면 모드에서 대시보드, 대시보드 타일, 보고서 시각화 및 보고서 페이지를 표시합니다."
+description: "‘TV 모드’라고도 하는 전체 화면 모드에서 대시보드, 대시보드 타일, 보고서 시각화 및 보고서 페이지를 표시합니다."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: a8d1a49a341b98778a6ad08c823397f420b2475e
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+LocalizationGroup: Common tasks
+ms.openlocfilehash: bef91085c23ec1aeaea18f6624ea37cb12a374a1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="full-screen-mode-in-power-bi"></a>Power BI에서 전체 화면 모드
 ## <a name="what-is-full-screen-mode"></a>전체 화면 모드란?
