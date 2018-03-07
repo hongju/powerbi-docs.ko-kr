@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a97f0414ee69b593c606bd12751c41ecc8b0abb6
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Administration
+ms.openlocfilehash: c83ae371153443f48fa6996e4024119ca3d94d04
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Office 365용 Power BI는 사용되지 않음
 Office 365용 Power BI, 이전 버전의 Power BI는 현재 버전의 [Power BI](https://powerbi.microsoft.com)로 전환되었습니다. **Office 365용 Power BI**를 한 번 사용한 사용자는 Power BI의 현재 버전을 사용할 수 있습니다. [Power BI에 대해 자세히 알아볼 수 있습니다](service-get-started.md).

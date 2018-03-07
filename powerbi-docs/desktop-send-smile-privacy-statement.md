@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ac0dc4919eb8eee2bb4ae4b7d2e3a466dba26bd9
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop 웃는 얼굴 보내기 개인정보취급방침
 Microsoft에서는 사용자가 원하는 성능, 기능 및 편리를 가져다주는 제품을 제공하는 동시에 개인 정보를 보호하기 위해 노력하고 있습니다. 본 개인정보취급방침은 Microsoft Power BI Desktop 피드백 웃는 얼굴 보내기의 다양한 데이터 수집 및 사용을 설명합니다. 다른 온라인 또는 오프라인 Microsoft 사이트, 제품 또는 서비스에 적용되지 않습니다.

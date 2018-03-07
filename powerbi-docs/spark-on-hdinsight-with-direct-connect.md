@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: c2b0f2fab2b9ccd2540ad45d6156ce9547513deb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Data from databases
+ms.openlocfilehash: 0eade5942b65985cf704709ea88870a2352b07c0
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>DirectQuery를 포함하는 HDInsight의 Spark
 DirectQuery를 포함하는 Azure HDInsight의 Spark를 통해 Spark 클러스터에 이미 있는 데이터와 메트릭을 기반으로 하는 동적 보고서를 만들 수 있습니다. DirectQuery를 사용할 경우 보고서 뷰에서 데이터를 탐색할 때 쿼리가 Azure HDInsight Spark 클러스터로 다시 전송됩니다. 이 환경은 연결하는 엔터티를 잘 알고 있는 사용자에게 제안됩니다.

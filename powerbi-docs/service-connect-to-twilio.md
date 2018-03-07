@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: fe0270b577e9bbcec1caf969a9ccdca7e5377290
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 04f1c71aa70d171b6a786ab8bdc32dc9686b14c3
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Power BI로 Twilio에 연결
 Power BI용 Microsoft Twilio 콘텐츠 팩은 Power BI로 데이터를 끌어올 수 있도록 하며 데이터에 대한 통찰력을 보여 주는 기본 [Twilio 대시보드](https://powerbi.microsoft.com/integrations/twilio) 및 보고서를 만듭니다. Power BI가 만든 데이터 집합에 대해 사용자 지정 보고서 및 대시보드를 만들 수도 있습니다. 하루에 한 번 데이터가 새로 고쳐지므로 항상 최신 데이터가 표시됩니다.

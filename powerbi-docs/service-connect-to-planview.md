@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: cd7026fe72bff40fd28aadf4ed3d2f9ee2b5d2fe
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 2376b639ad6a6ca843f997e52cedcce4c9832a7a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Power BI로 Planview Enterprise에 연결
 Power BI용 Planview Enterprise 콘텐츠 팩을 사용하여 리소스를 시각화하고 관리 데이터를 완전히 새로운 방식으로 작동시킬 수 있습니다. Planview Enterprise 로그인 자격 증명을 사용하여 대화형으로 포트폴리오 투자 비용을 확인하고 예산 초과 및 미달인지 이해하며 프로젝트가 기업 전략 우선에 얼마나 잘 맞는지 알 수 있습니다. 또한 기본 대시보드 및 보고서를 확장하여 가장 중요한 통찰력을 얻을 수 있습니다.

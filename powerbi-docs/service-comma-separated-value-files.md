@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5e6d981978fbf7690b797e5f07c1266e4a7c6b99
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data from files
+ms.openlocfilehash: 2d736a4fbc3367d4ccddfa422f637323c8dbf404
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>쉼표로 구분된 값(.csv) 파일에서 데이터 가져오기
 ![](media/service-comma-separated-value-files/csv_icon.png)

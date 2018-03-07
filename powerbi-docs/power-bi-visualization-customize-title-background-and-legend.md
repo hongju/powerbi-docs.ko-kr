@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Visualizations
+ms.openlocfilehash: e81f4e9ede3591accc94576291179b4fd40215e5
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>시각화 제목, 범례 및 배경 사용자 지정(자습서)
 이 자습서에서는 시각화를 사용자 지정하는 몇 가지 방법을 알아봅니다.   시각화를 사용자 지정하는 많은 옵션이 있으며 모두에 대해 자세히 알아보기 위한 가장 좋은 방법은 서식 지정 창(페인트 롤러 아이콘 선택)을 탐색하는 것입니다.  시작하기 위해 이 문서는 시각화 제목, 범례 및 배경을 사용자 지정하는 방법을 보여 줍니다.  

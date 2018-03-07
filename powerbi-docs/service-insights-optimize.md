@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/02/2017
 ms.author: mihart
-ms.openlocfilehash: 263d85a9db996bd7979c29b9c8919fc63f97b1d0
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 2936ac75684e4efe1870c556b27fcbdbc77d17ec
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Power BI 신속한 정보 활용을 위해 데이터 최적화
 신속한 정보 활용 결과를 개선하려는 경우  데이터 집합 소유자이면, 다음을 시도해 보세요.

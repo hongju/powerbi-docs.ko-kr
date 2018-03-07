@@ -14,11 +14,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 3c137c55f5f8326ff1281d4be00fabac2f14347b
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 44501e5447248164f6f04d4463213939975e18ae
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>자습서: 질문 및 답변을 사용하여 시각화를 만들고 보고서를 작성하는 방법
 [질문 및 답변 개요](power-bi-q-and-a.md)에서는 Power BI 질문 및 답변을 소개하고 *소비자*(대시보드 및 보고서를 소비자와 공유)와 *작성자*(기본 보고서 및 데이터 집합 소유)를 구분했습니다. 이 자습서의 첫 번째 부분은 주로 Power BI 서비스를 사용하여 대시보드를 소비하는 사람들을 위해 설계되었습니다. 두 번째 부분은 Power BI 서비스 또는 Power BI Desktop을 사용하여 보고서를 만드는 사람들을 위해 설계되었습니다. [질문 및 답변과 Power BI Mobile](mobile-apps-ios-qna.md) 및 [질문 및 답변과 Power BI Embedded](developer/qanda.md)는 별도의 문서에서 다룹니다.

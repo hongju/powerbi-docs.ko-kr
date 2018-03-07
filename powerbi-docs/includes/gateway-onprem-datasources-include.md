@@ -7,6 +7,7 @@
 | 폴더 |아니요 |예 |
 | IBM DB2 |아니요 |예 |
 | IBM Informix 데이터베이스 |아니요 |예 |
+| IBM Netezza |예 |예 |
 | Impala |예 |예 |
 | MySQL |아니요 |예 |
 | OData |아니요 |예 |

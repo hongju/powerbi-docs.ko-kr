@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ce971f980bf1796bfef8439b1ea260190fb678df
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Create reports
+ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>빠른 측정을 사용하여 일반적이고 강력한 계산 수행
 **빠른 측정**을 사용하여 일반적이고 강력한 계산을 빠르고 쉽게 수행할 수 있습니다. **빠른 측정**은 사용자가 대화 상자에 입력한 내용에 따라 내부적으로(DAX를 작성할 필요가 없음) DAX 명령 집합을 실행한 후 사용할 결과를 보고서에 표시합니다. 무엇보다도 빠른 측정으로 실행되는 DAX를 확인하고 사용자 고유의 DAX 지식을 바로 사용하거나 확장할 수 있습니다.
@@ -96,7 +97,7 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 ## <a name="example-of-quick-measures"></a>빠른 측정의 예
 이러한 실제 **빠른 측정**의 예를 살펴 보겠습니다.
 
-다음 **매트릭스** 시각적 개체는 다양한 전자 제품의 판매량에 대한 테이블을 보여줍니다. 각 범주에 대한 합계가 포함된 기본 테이블입니다.
+다음 **매트릭스** 시각적 개체는 다양한 전자 제품의 판매량에 대한 테이블을 보여 줍니다. 각 범주에 대한 합계가 포함된 기본 테이블입니다.
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 

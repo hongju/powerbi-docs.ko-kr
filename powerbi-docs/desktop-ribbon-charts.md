@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8a558019eaf01af066fe5669bcbd82bd4e0c5229
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 3dab818c863f00c97635d00ba07e75eb3c8e5b37
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Power BI에서 리본 차트 사용
 **Power BI**에서 **리본 차트**를 사용하여 데이터를 시각화하고, 가장 높은 순위(가장 큰 값)를 가진 데이터의 범주를 신속하게 결정할 수 있습니다. 리본 차트는 기간 동안 가장 높은 순위(값)가 항상 위쪽에 표시되어 순위 변경 내용을 효율적으로 보여줍니다. 2017년 9월 릴리스 및 **Power BI 서비스**에 대한 후속 업데이트부터 리본 차트는 **Power BI Desktop**에서 사용할 수 있습니다.

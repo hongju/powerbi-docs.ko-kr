@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 0f81b0fa87af5af281b40224bac3b5815461cb9e
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: dc39f23c192c8bbe1126551c20205bafd8be3a07
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>필터 및 Power BI 보고서에서 강조 표시 정보
 ***필터***는 사용자가 집중하려는 데이터를 제외한 나머지를 모두 제거합니다.  ***강조*** 는 데이터를 제거하지 않고 볼 수 있는 데이터의 하위 집합을 강조 표시하므로 필터링이 아닙니다. 강조되지 않은 데이터는 볼 수 있지만 흐리게 표시됩니다.

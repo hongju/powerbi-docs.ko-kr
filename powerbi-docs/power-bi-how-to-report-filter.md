@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 14aa2a2813484c3af814332736906c2aae0e0230
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 83aed39c8a652ed5b38c18b67f1cdccfc7884240
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>보고서 필터 창 둘러보기
 이 문서에서는 보고서 필터 창을 자세히 살펴봅니다. [Power BI 서비스 편집용 보기 및 읽기용 보기](service-reading-view-and-editing-view.md)와 [Power BI Desktop 보고서 뷰](desktop-report-view.md)의 창을 확인합니다.

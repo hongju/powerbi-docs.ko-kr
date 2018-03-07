@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: maggies
-ms.openlocfilehash: fff70dc8e0fa1eaafd68d5995881b2c416d4e29d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Share your work
+ms.openlocfilehash: 3e3e8c315baa96d1af1eeaf40c7b60648d0b797e
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>동료와 필터링된 Power BI 보고서 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. 또한 Power BI는 [보고서를 공동 작업하고 배포하는 여러 방법](service-how-to-collaborate-distribute-dashboards-reports.md)을 제공합니다.
@@ -32,7 +33,7 @@ ms.lasthandoff: 01/24/2018
 Power BI 서비스의 대부분의 위치(즐겨찾기, 최근 항목, 공유한 항목(소유자가 허용한 경우), 내 작업 영역 또는 기타 작업 영역)에서 사용자와 동일한 메일 도메인을 사용하는 동료와 보고서를 공유할 수 있습니다. 보고서를 공유할 경우 공유하는 다른 사용자가 대시보드를 보고 조작할 수 있지만 편집은 불가능합니다. [RLS(행 수준 보안)](service-admin-rls.md)를 적용하지 않는 한 다른 사용자는 사용자가 보고서에서 확인할 수 있는 동일한 데이터를 봅니다. 
 
 ## <a name="filter-and-share-a-report"></a>보고서 필터링 및 공유
-필터링된 버전의 보고서를 공유하려면 어떻게 해야 할까요? 아마도 특정 도시, 판매 직원 또는 연도의 데이터만 보여주는 보고서일 수도 있습니다. 사용자 지정 URL을 만들어서 이 작업을 수행합니다.
+필터링된 버전의 보고서를 공유하려면 어떻게 해야 할까요? 아마도 특정 도시, 판매 직원 또는 연도의 데이터만 보여 주는 보고서일 수도 있습니다. 사용자 지정 URL을 만들어서 이 작업을 수행합니다.
 
 1. [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 열고, 필터를 적용하고, 보고서를 저장합니다.
    

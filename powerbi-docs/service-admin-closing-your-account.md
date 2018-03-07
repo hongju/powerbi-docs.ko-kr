@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: 2e3e7257e60cfcd92bd5091f67fb1acccb865fdf
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: 11287df09e14793b7c6652b7959d5c0a0499b3fb
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="closing-your-power-bi-account"></a>Power BI 계정 닫기
 Power BI를 더 이상 사용하지 않으려면 Power BI 계정을 닫도록 요청할 수 있습니다.  계정을 닫은 후에는 더 이상 Power BI에 로그인할 수 없습니다.  또한 Power BI에서 업로드하거나 만든 모든 고객 데이터는 Power BI 서비스 계약의 데이터 보존 정책에 따라 삭제됩니다.

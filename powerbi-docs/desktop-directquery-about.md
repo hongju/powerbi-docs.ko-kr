@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ceccf00879d3ac17f907f5dce296bb03bb0227d2
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 572f64cc0e6ba97c62c9a088c60cf3887bacc6ae
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI의 DirectQuery 사용
 **Power BI Desktop** 또는 **Power BI 서비스**를 사용하는 경우 모든 종류의 다양한 데이터 원본에 연결할 수 있으며 이러한 데이터를 여러 가지 방법으로 연결할 수 있습니다. 데이터를 가져오는 가장 일반적인 방법인 Power BI로 데이터를 *가져오거나* **DirectQuery**라고 하는 원래의 원본 리포지토리에 있는 데이터에 직접 연결할 수 있습니다. 이 문서에서는 **DirectQuery**와 그 기능에 대해 설명하며, 다음 항목을 포함하고 있습니다.
@@ -230,7 +231,7 @@ DirectQuery에서 사용할 수 있는 원본 중 다음 2개만 이 서비스�
 **DirectQuery**를 사용하는 경우 이 섹션에서는 성공을 보장하는 방법에 대한 높은 수준의 지침을 제공합니다. 이 섹션의 지침은 이 문서에서 설명한 'DirectQuery 사용의 의미'에서 파생된 것입니다.
 
 ### <a name="backend-data-source-performance"></a>백 엔드 데이터 원본 성능
-적절한 시간에 간단한 시각적 개체를 새로 고칠 수 있는지 확인하는 것이 좋습니다. 적절한 대화형 환경을 구현하기 위해 이 시간은 5초 이내여야 합니다. 물론 시각적 개체가 30초보다 오래 걸리면 보고서를 게시한 후에 추가 문제가 발생할 가능성이 큽니다. 이 경우 작동할 수 없는 솔루션을 만들게 됩니다.
+적절한 시간에 간단한 시각적 개체를 새로 고칠 수 있는지 확인하는 것이 좋습니다. 적절한 대화형 환경을 구현하기 위해 이 시간은 5초 이내여야 합니다. 물론 시각적 개체가 30초보다 오래 걸리면 보고서를 게시한 후에 추가 문제가 발생할 가능성이 높습니다. 이 경우 작동할 수 없는 솔루션을 만들게 됩니다.
 
 쿼리가 느린 경우 첫 번째 조사 지점은 기본 원본으로 보내는 쿼리와 쿼리 성능이 관찰되는 이유를 검사하는 것입니다. 이 항목에서는 잠재적인 기본 원본의 전체 집합에 대한 다양한 데이터베이스 최적화 모범 사례를 적용하지는 않지만, 대부분의 상황에 적용되는 다음 표준 데이터베이스 사례는 적용됩니다.
 

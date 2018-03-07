@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Create reports
+ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Power BI Desktop에서 행렬 시각적 개체 사용
 **매트릭스** 시각적 개체(때로는 *테이블*이라고도 함)를 사용하여 **Power BI Desktop** 보고서에서 행렬 시각적 개체를 만들고 기타 시각적 개체를 사용하여 행렬 내에서 상호 강조 표시 요소를 만들 수 있습니다. 또한 행, 열 및 개별 셀과 상호 강조 표시를 선택할 수 있습니다. 마지막으로 레이아웃 공간을 효율적으로 사용할 수 있도록 행렬 시각적 개체는 단계별 레이아웃을 지원합니다.
@@ -117,7 +118,7 @@ ms.lasthandoff: 02/09/2018
 
 ![](media/desktop-matrix-visual/matrix-visual_13.png)
 
-**단계별 레이아웃** 설정을 쉽게 수정할 수 있습니다. **행렬** 시각적 개체를 선택하면 **시각화** 창의 **형식** 섹션(페인트 롤러 아이콘)에서 **행 헤더** 섹션이 펼쳐집니다. 여기에는 **단계별 레이아웃** 설정/해제(켜기 또는 끄기) 및 **단계별 레이아웃 들여쓰기**(들여쓰기 크기를 픽셀 단위로 지정)라는 두 가지 옵션이 있습니다.
+**단계별 레이아웃** 설정을 쉽게 수정할 수 있습니다. **행렬** 시각적 개체를 선택하면 **시각화** 창의 **형식** 섹션(페인트 롤러 아이콘)에서 **행 헤더** 섹션이 펼쳐집니다. 여기에는 **단계별 레이아웃** 설정/해제(켜기 또는 끄기) 및 **단계별 레이아웃 들여쓰기** (들여쓰기 크기를 픽셀 단위로 지정)라는 두 가지 옵션이 있습니다.
 
 ![](media/desktop-matrix-visual/matrix-visual_15.png)
 
@@ -137,7 +138,7 @@ ms.lasthandoff: 02/09/2018
 ## <a name="cross-highlighting-with-matrix-visuals"></a>행렬 시각적 개체를 사용한 상호 강조 표시
 **행렬** 시각적 개체를 사용하면 교차 강조 표시를 위한 기준으로 행렬의 모든 요소를 선택할 수 있습니다. **행렬**에서 열을 선택하면 보고서 페이지에 있는 다른 시각적 개체처럼 해당 열이 강조 표시됩니다. 이는 다른 시각적 개체와 선택한 데이터 요소 항목의 일반적인 기능이었으며, 이제 **행렬** 시각적 개체도 참여할 수 있습니다.
 
-또한 Ctrl+클릭은 상호 강조 표시에서도 작동합니다. 예를 들어, 다음 이미지의 경우 **행렬** 시각적 개체에서 하위 범주 컬렉션을 선택했습니다. 시각적 개체에서 선택하지 않은 항목이 회색으로 표시되고, **행렬** 시각적 개체에서 선택한 항목이 페이지의 다른 시각적 개체에 반영되는 방법을 살펴보세요.
+또한 CTRL+클릭은 상호 강조 표시에서도 작동합니다. 예를 들어, 다음 이미지의 경우 **행렬** 시각적 개체에서 하위 범주 컬렉션을 선택했습니다. 시각적 개체에서 선택하지 않은 항목이 회색으로 표시되고, **행렬** 시각적 개체에서 선택한 항목이 페이지의 다른 시각적 개체에 반영되는 방법을 살펴보세요.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
 

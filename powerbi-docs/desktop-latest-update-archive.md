@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 71a86c29c1ac690233016d91c4a66111978d47ba
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Get started
+ms.openlocfilehash: b0d7dc85b9795b432b461d48894404417850b9bc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -84,7 +85,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 ## <a name="december-2017-update-2534954481-"></a>2017년 12월 업데이트(2.53.4954.481)
 
-12월에 모든 비즈니스 인텔리전스에 관심이 있는 어린이(및 성인)가 즐길 수 있는 많은 기능이 가득한 다양한 **Power BI Desktop** 업데이트가 있었습니다.
+12월에 모든 비즈니스 인텔리전스에 관심이 있는 어린이(및 성인)가 즐길 수 있는 많은 기능들이 가득한 다양한 **Power BI Desktop** 업데이트가 있었습니다.
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 

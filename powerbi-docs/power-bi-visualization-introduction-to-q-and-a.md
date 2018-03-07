@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
-ms.openlocfilehash: d63c6479ed5f0bb9e882900fc5a653f08ad6a823
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="get-started-with-power-bi-qa-quickstart"></a>Power BI 질문 및 답변 시작(빠른 시작)
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>소매 분석 샘플에 Power BI 질문 및 답변 사용

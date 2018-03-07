@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/30/2017
 ms.author: mihart
-ms.openlocfilehash: b6ce0c396f4a189489b97fe5cd86ab5cd8dbcc35
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 619f694e6e3ed167a14262994c1c978d5b4ea2e0
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="slicers-in-power-bi-service-tutorial"></a>Power BI 서비스의 슬라이서(자습서)
 영업 담당 부사장은 사업부 전체 또는 지역관리자 개별에 대한 수많은 지표를 자세히 보려고 할 수도 있습니다. 이때 관리자별로 별도의 보고서 페이지를 만들거나 슬라이서를 사용할 수 있습니다. 슬라이서는 페이지에서 다른 시각화에 표시된 데이터 집합의 부분을 좁힙니다.  슬라이서는 필터링의 다른 방법입니다.

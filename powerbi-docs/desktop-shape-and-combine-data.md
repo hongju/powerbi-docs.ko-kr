@@ -1,7 +1,28 @@
--- 제목: Power BI Desktop에서 데이터 셰이핑 및 결합 설명: Power BI Desktop에서 데이터 셰이핑 및 결합 서비스: powerbi documentationcenter: '' 저자: davidiseminger 관리자: kfile 백업: '' 편집자: '' 태그: '' qualityfocus: no qualitydate: ''
-
-ms.service: powerbi ms.devlang: NA ms.topic: article ms.tgt_pltfrm: NA ms.workload: powerbi ms.date: 01/30/2018 ms.author: davidi
-
+---
+title: "Power BI Desktop에서 데이터 셰이핑 및 결합"
+description: "Power BI Desktop에서 데이터 셰이핑 및 결합"
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 01/30/2018
+ms.author: davidi
+LocalizationGroup: Transform and shape data
+ms.openlocfilehash: c8f2419ae2898a59907763392eb86b4877b4fd75
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 셰이핑 및 결합
 **Power BI Desktop**을 사용하면 다양한 형식의 데이터 소스에 연결한 다음 요구 사항에 맞게 데이터를 셰이핑할 수 있습니다. 데이터 셰이핑은 열 또는 테이블 이름 바꾸기, 텍스트를 숫자로 변경, 행 제거, 첫 행을 머리글로 설정 등의 데이터 변환을 의미합니다. 데이터 *결합* 은 둘 이상의 데이터 원본에 연결하고, 필요에 따라 셰이핑한 다음 하나의 유용한 쿼리로 통합하는 것을 의미합니다.
@@ -88,7 +109,7 @@ Power BI Desktop의 **쿼리 편집기** 에서는 오른쪽 클릭 메뉴와 �
 > [!NOTE]
 > 오류가 있는 행을 모두 제거하는 **오류 제거**를 수행할 수도 있습니다(리본 또는 오른쪽 클릭 메뉴 사용). 이 경우 데이터에서 "*(동률)*"이 포함된 모든 주가 제거되었으며, 이 작업을 원했던 것이 아닙니다. 모든 주를 좋아하고 테이블에 유지하려고 합니다.
 
-약간 복잡하긴 하지만 쿼리 편집기가 얼마나 강력하고 유연할 수 있는지를 보여주는 좋은 예입니다.
+약간 복잡하긴 하지만 쿼리 편집기가 얼마나 강력하고 유연할 수 있는지를 보여 주는 좋은 예입니다.
 
 마지막으로, 해당 테이블의 이름을 설명이 포함된 다른 이름으로 변경하려고 합니다. 보고서를 만드는 경우 특히 여러 데이터 소스에 연결할 때 설명이 포함된 테이블 이름을 사용하면 유용하며, 모두 **보고서** 보기의 **필드** 창에 나열됩니다.
 

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: 574e54aa423c9cdc9b9146fde1a16686303e73f6
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: 400fa6aa16f77da60a912bcd6c45665f880d8afd
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>거버넌스 및 배포 방법
 지난 수십 년간 회사들은 시장 기회에서 이익을 얻기 위해 데이터 자산을 전략적으로 이용할 필요성을 점점 더 많이 인식하게 되었습니다. 많은 조직은 이제 경쟁력 분석을 수행하거나 작업 패턴을 파악하여 경쟁에서 앞서 나가기 위한 방법으로 데이터 전략을 수립하여 이익을 얻을 수 있다는 것을 이해할 수 있습니다.  
