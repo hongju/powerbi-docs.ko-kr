@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: ccd3a42a6cbcc716683b6da536ca2ecdacc11aaf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Power BI에 개별 등록
 Power BI에 등록하고 개인 보고서를 시작하는 방법과 시각화 요구 사항에 대해 알아봅니다.
@@ -40,23 +40,24 @@ Office 365를 사용하는 기존 조직의 일부인 경우 여전히 무료 �
 
 > [!NOTE]
 > 조직에 있는 경우 개별 등록은 사용할 수 없습니다. 해제되었음을 나타내는 오류 메시지가 나타나는 경우 자세한 내용은 [개별 등록이 해제되었습니다.](#individual-sign-up-has-been-turned-off)를 참조하세요.
-> 
-> 
+>
 
-## <a name="what-you-need-to-sign-up"></a>등록이 필요한 작업
-Power BI에 등록하려면 업무용 메일 주소가 필요합니다. 개인 이메일 주소는 Power BI 서비스와 작동하지 않습니다.
+## <a name="what-you-need-to-sign-up"></a>등록에 필요한 항목
 
-<a name="what-email-address-can-be-used-with-power-bi"/>
+Power BI에 등록하려면 업무용 메일 주소가 필요합니다. Power BI에 등록할 때는 개인 이메일 주소를 사용할 수 없습니다.
 
 ### <a name="what-email-address-can-be-used-with-power-bi"></a>Power BI로 어떤 전자 메일 주소를 사용할 수 있습니까?
-Power BI는 등록할 직장 또는 학교 전자 메일 주소가 필요합니다. Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. Outlook.com, hotmail.com, gmail.com 등이 포함됩니다.
+Power BI는 등록할 직장 또는 학교 전자 메일 주소가 필요합니다. 소비자 메일 서비스나 통신 공급 업체가 제공하는 이메일 주소를 사용하면 Power BI에 등록할 수 없습니다. Outlook.com, hotmail.com, gmail.com 등이 포함됩니다.
 
 개인 전자 메일 주소를 등록하려는 경우 회사 또는 학교 전자 메일 주소를 사용하도록 지시하는 메시지가 표시됩니다.
 
 > [!NOTE]
-> 이 시점에서 Power BI는 .gov 또는.mil 주소에 대한 셀프 서비스 등록을 지원하지 않습니다. Office 365 관리자에게 문의하세요.
-> 
-> 
+> .gov 또는 .mil 주소로 Power BI에 등록할 수 있습니다. 자세한 내용은 [Power BI 서비스에 미국 정부 기관 등록](https://docs.microsoft.com/en-us/power-bi/service-govus-signup)을 참조하세요.
+>
+
+> [!NOTE]
+> 등록한 후에는 Power BI 테넌트의 콘텐츠를 보도록 [게스트 사용자를 초대](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)할 수 있으며, 이 때는 개인 계정을 포함한 이메일 주소를 사용할 수 있습니다.
+>
 
 ## <a name="which-one-do-you-need"></a>어떤 것이 필요합니까?
 각 라이선스 형식에 포함된 항목을 검토하여 무엇이 필요한지 확인할 수 있습니다. 무료 사용자는 공유 및 공동 작업 기능을 제외한 서비스의 기능 대부분을 사용할 수 있습니다. Power BI Pro 사용자는 서비스의 모든 기능을 사용할 수 있으나 무료는 아닙니다. 콘텐츠를 공유할 필요가 없는 경우라면 무료를 사용하는 것이 한 방법입니다. [Power BI 가격 책정 페이지](https://powerbi.microsoft.com//pricing/)에서 자세한 내용을 확인할 수 있습니다.
@@ -141,7 +142,7 @@ Power BI에 등록하려면 다음을 수행할 수 있습니다.
 
 | **증상/오류 메시지** | **원인 및 해결 방법** |
 | --- | --- |
-| **개인 전자 메일 주소(예: nancy@gmail.com)** 등록하는 동안 다음과 같은 메시지가 나타납니다. <br /><br /> *개인 메일 주소를 입력했습니다. 귀사의 데이터를 안전하게 저장할 수 있도록 회사 메일 주소를 입력하세요.* <br /><br /> 또는 <br /><br /> *개인 메일 주소인 것 같습니다. 회사의 다른 사람과 연결할 수 있도록 회사 주소를 입력하세요. 걱정하지 마세요. 사용자의 주소를 공유하지 않습니다.* |Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. <br /><br /> 등록을 완료하려면 회사 또는 학교에서 할당한 전자 메일 주소를 사용하여 다시 시도하세요. <br /><br /> 여전히 등록할 수 없고 보다 고급 설치 프로세스를 완료하려면 [새 Office 365 무료 평가판 구독을 등록하고 해당 전자 메일 주소를 사용하여 등록](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)하면 됩니다. |
+| **개인 전자 메일 주소(예: nancy@gmail.com)** 등록하는 동안 다음과 같은 메시지가 나타납니다. <br /><br /> *개인 메일 주소를 입력했습니다. 귀사의 데이터를 안전하게 저장할 수 있도록 회사 메일 주소를 입력하세요.* <br /><br /> 또는 <br /><br /> *개인 메일 주소인 것 같습니다. 회사의 다른 사람과 연결할 수 있도록 회사 주소를 입력하세요. 걱정하지 마세요. 사용자의 주소를 공유하지 않습니다.* |Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. <br /><br /> 등록을 완료하려면 회사 또는 학교에서 할당한 전자 메일 주소를 사용하여 다시 시도하세요. <br /><br /> 여전히 등록할 수 없고 보다 고급 설치 프로세스를 완료하려면 [새 Office 365 무료 평가판 구독을 등록하고 해당 전자 메일 주소를 사용하여 등록](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)하면 됩니다. <br /><br /> 사용자 계정을 [Azure B2B 게스트](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)로 초대합니다. |
 | **셀프 서비스 등록 사용 안함** 등록하는 동안 다음과 같은 메시지가 나타납니다. <br /><br /> *등록하면 완료할 수 없습니다. IT 부서에서 Microsoft Power BI에 대한 등록을 해제했습니다. 연락하여 등록을 완료합니다.* <br /><br /> 또는 <br /><br /> *개인 메일 주소인 것 같습니다. 회사의 다른 사람과 연결할 수 있도록 회사 주소를 입력하세요. 걱정하지 마세요. 사용자의 주소를 공유하지 않습니다.* |조직의 IT 관리자가 Power BI에 대한 셀프 서비스 등록을 비활성화했습니다. <br /><br /> 등록을 완료하려면 IT 관리자에게 연락하여 아래 페이지의 지침에 따라 기존 사용자의 Power BI 등록을 허용하고 신규 사용자의 기존 테넌트 참가를 허용하도록 하세요. <br/><br/> 파트너를 통해 Office 365에 등록한 경우에도 이 문제가 발생할 수 있습니다. [자세히 알아보기](service-admin-syndication-partner.md) <br /><br /> [조직의 Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
 | **메일 주소는 Office 365 ID가 아님** 등록하는 동안 다음과 같은 메시지가 나타납니다. <br /><br /> *contoso.com에서 사용자를 찾을 수 없습니다.  회사 또는 학교에서 다른 ID를 사용하나요? <br /><br /> 로그인을 시도했으나 작동하지 않는 경우 IT 부서에 문의합니다.* |조직에서 전자 메일 주소와 다른 ID를 사용하여 Office 365 및 기타 Microsoft 서비스에 로그인합니다.  예를 들어 전자 메일 주소는 Nancy.Smith@contoso.com이지만 ID는 nancys@contoso.com입니다. <br /><br /> 등록을 완료하려면 조직에서 Office 365 또는 기타 Microsoft 서비스 로그인을 위해 할당한 ID를 사용합니다.  이 내용에 대해 잘 모르는 경우 IT 관리자에게 문의합니다. <br /><br /> 여전히 등록할 수 없고 보다 고급 설치 프로세스를 완료하려면 [새 Office 365 무료 평가판 구독을 등록하고 해당 전자 메일 주소를 사용하여 등록](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)하면 됩니다. |
 
