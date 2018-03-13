@@ -6,6 +6,7 @@
       "build_output_subfolder": "powerbi-docs",
       "locale": "ko-KR",
       "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -20,7 +21,7 @@
     }
   ],
   "notification_subscribers": [],
-  "branches_to_filter": [    
+  "branches_to_filter": [
     "live",
     "master-sxs"
   ],
@@ -42,7 +43,8 @@
     {
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master"
+      "branch": "master",
+      "branch_mapping": {}
     },
     {
       "path_to_root": "_repo.en-us",
@@ -54,17 +56,17 @@
       }
     }
   ],
-  "need_generate_pdf_url_template": true,
-"branch_target_mapping": {
-     "live-sxs": [
-           "Publish",
-           "Pdf" 
+  "branch_target_mapping": {
+    "live-sxs": [
+      "Publish",
+      "Pdf"
     ],
     "live": [
-           "Publish",
-           "Pdf"
+      "Publish",
+      "Pdf"
     ]
-},
+  },
+  "need_generate_pdf_url_template": true,
   "Targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
