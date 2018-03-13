@@ -664,11 +664,13 @@
           href: desktop-ssas-multidimensional.md
         - name: Power BI Desktop에서 CSV 파일에 연결
           href: desktop-connect-csv.md
-        - name: Power BI Desktop에서 Impala 데이터베이스에 연결(미리 보기)
+        - name: Power BI Desktop에서 Adobe Analytics에 연결(미리 보기)
+          href: desktop-connect-csv.md
+        - name: Power BI Desktop에서 Impala 데이터베이스에 연결
           href: desktop-connect-impala.md
         - name: Power BI Desktop에서 OData 피드에 연결
           href: desktop-connect-odata.md
-        - name: Power BI Desktop에서 Amazon Redshift 데이터베이스에 연결(미리 보기)
+        - name: Power BI Desktop에서 Amazon Redshift 데이터베이스에 연결
           href: desktop-connect-redshift.md
         - name: Power BI Desktop에서 웹 페이지에 연결
           href: desktop-connect-to-web.md
@@ -768,6 +770,8 @@
           href: desktop-slicers.md
         - name: Power BI의 책갈피
           href: desktop-bookmarks.md
+        - name: 보고서 도구 설명 만들기(미리 보기)
+          href: desktop-tooltips.md
         - name: 보고서 테마 사용
           href: desktop-report-themes.md
         - name: 빠른 측정 사용
