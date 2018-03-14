@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 779ef2c532d0b580f4a3d19c50815193d03c2f07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82f8575c019790820aa46c75e095f8ef64bb6fde
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>즐겨 찾는 대시보드, 보고서 및 Power BI 서비스의 앱
 콘텐츠를 *즐겨찾기* 로 만들면 모든 작업 영역에서 액세스할 수 있습니다.  즐겨찾기는 일반적으로 가장 자주 방문하는 콘텐츠입니다.
@@ -42,31 +42,31 @@ Amanda가 작업 영역에 즐겨찾기를 추가하는 비디오를 시청한 �
 
 
 1. 자주 사용하는 대시보드 또는 보고서를 엽니다. 공유한 콘텐츠도 *즐겨찾기*가 될 수 있습니다.
-2. Power BI 서비스의 오른쪽 위 모서리에서 **즐겨찾기**나 별 ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) 아이콘을 선택합니다.
+2. Power BI 서비스의 오른쪽 위 모서리에서 **즐겨찾기**나 별모양 ![별모양 아이콘](media/service-dashboard-favorite/power-bi-favorite-icon.png) 아이콘을 선택합니다.
    
-   ![](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
+   ![즐겨찾기 아이콘으로 바뀝니다](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
    
    또한 작업 영역 **대시보드** 또는 **보고서** 컨텐츠 보기 탭에서 대시보드 또는 보고서를 즐겨찾기에 추가할 수 있습니다.
    
-   ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
+   ![노란색 별이 포함된 대시보드 탭](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>앱을 *즐겨찾기*로 추가
 
 1. 왼쪽 탐색 창에서 **앱**을 선택합니다.
 
-  ![](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+   ![대시보드](media/service-dashboard-favorite/power-bi-favorite-apps.png)
 
-2. 앱을 마우스로 가리키면 세부 정보가 표시됩니다.  별 ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) 아이콘을 선택하여 즐겨찾기로 설정합니다.
+2. 앱을 마우스로 가리키면 세부 정보가 표시됩니다.  별모양 선택 ![별모양 아이콘](media/service-dashboard-favorite/power-bi-favorite-icon.png)  즐겨찾기로 설정할 아이콘
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-app.png)
+   ![앱 마우스로 가리키기](media/service-dashboard-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>*즐겨찾기* 작업
 1. 즐겨찾기에 액세스하려면 아무 작업 영역에서나 **즐겨찾기** 오른쪽의 플라이아웃 화살표를 선택합니다.  여기에서 즐겨찾기를 선택하여 열 수 있습니다. 즐겨찾기 5개만 나열됩니다(사전순). 5개 이상이면 **모두 보기**를 선택하여 즐겨찾기 화면을 엽니다(아래 #2 참조). 
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
-2. 즐겨찾기에 추가된 **모든** 콘텐츠를 보려면 왼쪽 탐색 창에서 **즐겨찾기**를 선택하거나 즐겨찾기 아이콘 ![](media/service-dashboard-favorite/power-bi-favorites-icon.png)을 선택합니다.  
+   ![즐겨찾기 플라이아웃](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
+2. 즐겨찾기에 추가된 **모든** 콘텐츠를 보려면 왼쪽 탐색 창에서 **즐겨찾기**를 선택하거나 즐겨찾기 ![별모양 아이콘](media/service-dashboard-favorite/power-bi-favorites-icon.png) 아이콘을 선택합니다.  
    
-    ![](media/service-dashboard-favorite/power-bi-favorites-screen.png)
+    ![즐겨찾기 창](media/service-dashboard-favorite/power-bi-favorites-screen.png)
    
    여기에서 열기, 소유자 식별, 심지어 동료와 공유 등의 작업을 수행할 수 있습니다.
 
@@ -75,7 +75,7 @@ Amanda가 작업 영역에 즐겨찾기를 추가하는 비디오를 시청한 �
 
 1. 왼쪽 탐색 창에서 **즐겨찾기**를 선택하여 **즐겨찾기** 화면을 엽니다.
    
-   ![](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
+   ![즐겨찾기 화면](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
 2. 즐겨찾기에서 제거할 콘텐츠 옆의 노란색 별표를 선택합니다.
 
 > **참고**: 대시보드, 보고서 또는 앱 자체를 즐겨찾기에서 제거할 수도 있습니다. 노란색 아이콘을 열고 선택 취소만 하면 됩니다.   

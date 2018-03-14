@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: b9e72c57ccd165ed02424e303c5ec54f179868e0
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: b85fe5cf70c915a3355c80a61f01a32216450f03
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>시각화를 생성하는 데 사용 된 데이터 표시
 ## <a name="show-data"></a>데이터 표시
@@ -38,16 +39,16 @@ Power BI 시각화는 데이터 집합에서 데이터를 사용하여 구성됩
 1. Power BI 서비스에서 [읽기용 보기 또는 편집용 보기](service-reading-view-and-editing-view.md)로 보고서를 열고 시각적 개체를 선택합니다.  Power BI Desktop에서 보고서 뷰를 엽니다.
 2. 시각적 개체 뒤의 데이터를 표시하려면 **탐색** > **데이터 표시**를 선택합니다.
    
-   ![](media/service-reports-show-data/power-bi-show-data.png)
+   ![데이터 표시 선택](media/service-reports-show-data/power-bi-show-data.png)
 3. 기본적으로 데이터는 시각적 개체 아래에 표시됩니다.
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data.png)
+   ![시각적 개체 및 데이터 세로 표시](media/service-reports-show-data/power-bi-explore-show-data.png)
 4. 방향을 변경하려면 시각화의 오른쪽 맨 위 모서리에서 세로 레이아웃 ![](media/service-reports-show-data/power-bi-vertical-icon-new.png)을 선택합니다.
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data2.png)
+   ![시각적 개체 및 데이터 가로 표시](media/service-reports-show-data/power-bi-explore-show-data2.png)
 5. 데이터를 .csv 파일로 내보내려면 줄임표를 선택하고 **데이터 내보내기**를 선택합니다.
    
-    ![](media/service-reports-show-data/power-bi-export-data-new.png)
+    ![데이터 내보내기 선택](media/service-reports-show-data/power-bi-export-data-new.png)
    
     데이터를 Excel로 내보내기에 대한 자세한 내용은 [Power BI 시각화에서 데이터 내보내기](power-bi-visualization-export-data.md)를 참조하세요.
 6. 데이터를 숨기려면 **탐색** > **데이터 표시**를 선택 취소합니다.

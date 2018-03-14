@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 1/17/2018
+ms.date: 2/26/2018
 ms.author: maghan
-ms.openlocfilehash: 2936fa40700895d9953bb227cc30e68d64ae9205
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78e3361578b82a9ebf69feae1f7a8ac54966bbc9
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
 
@@ -82,6 +82,7 @@ Azure Portal 포털 또는 Power BI 앱 등록 페이지 내에서 표시되는 
 
 추가 조사를 위해 fiddler 캡처가 필요할 수 있습니다. 403 오류는 다음과 같은 여러 가지 이유로 발생할 수 있습니다.
 
+* 사용자가 공유 용량에 생성될 수 있는 포함 토큰의 양을 초과했습니다. 포함 토큰을 생성하기 위해 Azure 용량을 구입하고 해당 용량에 작업 영역을 할당해야 합니다. [Azure Portal에서 Power BI Embedded 용량 만들기](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)를 참조하세요.
 * Azure AD 인증 토큰이 만료되었습니다.
 * 인증된 사용자가 그룹(앱 작업 영역)의 구성원이 아닙니다.
 * 인증된 사용자가 그룹(앱 작업 영역)의 관리자가 아닙니다.

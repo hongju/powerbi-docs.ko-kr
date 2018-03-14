@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 02/15/2018
 ms.author: maggies
-ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -29,6 +29,12 @@ ms.lasthandoff: 02/11/2018
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](service-whats-new.md)  
+
+## <a name="february-2018"></a>2018년 2월
+
+### <a name="share-reports"></a>보고서 공유
+
+이제 모바일 앱에서 직접 보고서를 공유할 수 있습니다. [모바일 앱에서 대시보드 및 보고서 공유](mobile-share-dashboard-from-the-mobile-apps.md)에 대해 자세히 알아보세요.
 
 ## <a name="january-2018"></a>2018년 1월
 
@@ -337,7 +343,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 이제 Reporting Services KPI 또는 모바일 보고서에서 다른 모바일 보고서 또는 모든 사용자 지정 URL로 드릴스루할 수 있습니다.
 
 #### <a name="notification-center"></a>알림 센터
-Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데이터나 대시보드 또는 사용자가 속한 그룹에 대한 변경 내용을 보여줍니다.
+Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데이터나 대시보드 또는 사용자가 속한 그룹에 대한 변경 내용을 보여 줍니다.
 
 ### <a name="may-2016"></a>2016년 5월
 #### <a name="ios-devices-and-android-phones"></a>iOS 장치 및 Android 휴대폰

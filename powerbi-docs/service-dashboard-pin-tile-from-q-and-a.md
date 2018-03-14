@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a3df29b478675eeeec876863299c0a33073fb381
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Dashboards
+ms.openlocfilehash: bd9f49c338afc413107ee811bf9ee33c3e9737a4
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>질문 및 답변에서 대시보드에 타일 고정
 ## <a name="how-to-pin-a-tile-from-qa"></a>질문 및 답변에서 타일을 고정하는 방법
@@ -34,16 +35,16 @@ ms.lasthandoff: 01/19/2018
 
 1. 보고서에서 고정된 타일이 하나 이상 있는 [대시보드](service-dashboards.md)를 엽니다. 질문하면 Power BI는 해당 대시보드에 고정된 타일이 있는 데이터 집합에서 답변을 찾습니다.  자세한 내용은 [데이터 가져오기](service-get-data.md)를 참조하세요.
 2. 대시보드 맨 위에 있는 질문 상자에 데이터에 대해 알고 싶은 내용을 입력하기 시작합니다.  
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
+   ![질문 및 답변 질문하기 상자](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. 예를 들어 "last year sales by month and territory(지난 해 월별 및 지역별 판매액)"...을 입력합니다.  
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
+   ![질문 입력](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    질문 상자에 제안이 표시됩니다.
 4. 대시보드에 차트를 타일로 추가하려면 캔버스의 오른쪽 위에 있는 고정 ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png)을 선택합니다. 대시보드를 사용자와 공유하면 시각화를 고정할 수 없습니다.
 
 5. 기존 대시보드 또는 새 대시보드에 타일을 고정합니다.
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+   ![대시보드에 고정 대화 상자](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
 
    * 기존 대시보드: 드롭다운에서 대시보드의 이름을 선택합니다. 현재 작업 영역에 있는 대시보드만 선택할 수 있습니다.
    * 새 대시보드: 새 대시보드의 이름을 입력합니다. 그러면 현재 작업 영역에 추가됩니다.
@@ -52,15 +53,15 @@ ms.lasthandoff: 01/19/2018
 
    오른쪽 위에 나타나는 성공 메시지를 통해 시각화가 타일로 대시보드에 추가되었음을 알 수 있습니다.  
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
+   ![대시보드에 고정됨](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
 7. **대시보드로 이동**을 선택하여 새 타일을 볼 수 있습니다. 여기에서 대시보드의 [타일 이름을 바꾸고, 크기를 조정하고, 하이퍼링크를 추가하고, 타일의 위치를 변경하는 등](service-dashboard-edit-tile.md)의 작업을 할 수 있습니다.
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
+   ![타일이 있는 대시보드](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 * 질문 입력을 시작하면 질문 및 답변에서 현재 대시보드와 연결된 모든 데이터 집합에서 최적의 답변을 검색하기 시작합니다.  "현재 대시보드"는 위쪽 탐색 모음에 나열된 대시보드입니다. 예를 들어, 이 질문은 **mihart** 응용 프로그램 작업 영역에 속하는 **소매점 분석 샘플** 대시보드에서 묻습니다.
 
-  ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![이동 경로](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **질문 및 답변에서 사용할 데이터 집합은 어떻게 아나요**?  질문 및 답변에서는 해당 대시보드에 고정된 시각화가 하나 이상 있는 모든 데이터 집합에 액세스할 수 있습니다.
 
 * **질문 상자가 보이지 않나요**? Power BI 관리자에게 문의하세요. 관리자는 질문 및 답변을 사용하지 않도록 설정할 수 있습니다.

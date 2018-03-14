@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
-ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
+ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
@@ -50,7 +50,9 @@ A *인증된 사용자 지정 시각적 개체*는 일련의 코드 요구 사�
    * 제목: 시각적 인증 요청    
    * 시각적 소스 코드를 호스팅하는 GitHub 리포지토리에 연결    
    * 요구 사항 준수(위 참조)    
-   * 코드 및 보안 검토 전달    2. Microsoft의 사용자 지정 시각적 개체 팀은 사용자 지정 시각적 개체를 인증하고 인증된 목록(아래)에 추가하거나 수정해야 하는 문제에 대한 보고서와 함께 거부하는 경우 사용자에게 알립니다. 개발자는 Microsoft와의 통신을 열어 두고 필요한 경우 인증된 시각적 개체를 업데이트하는 것을 담당합니다.
+   * 코드 및 보안 검토 전달    
+
+2. Microsoft의 사용자 지정 시각적 개체 팀은 사용자 지정 시각적 개체를 인증하고 인증된 목록(아래)에 추가하거나 수정해야 하는 문제에 대한 보고서와 함께 거부하는 경우 사용자에게 알립니다. 개발자는 Microsoft와의 통신을 열어 두고 필요한 경우 인증된 시각적 개체를 업데이트하는 것을 담당합니다.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI 인증된 사용자 지정 시각적 개체 제거
 Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 제거할 수 있습니다.  
@@ -117,6 +119,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [재생 축(동적 슬라이서)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [비디오](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI 행렬](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [비디오](https://youtu.be/1enze8pcGzY) |
+| [MAQ Software에 의한 사분면 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [비디오](https://youtu.be/ppBnyhqWNC0) |
 | [방사형 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [MAQ Software의 링 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [비디오](https://youtu.be/pDToHDFHnq8) |
 | [MAQ Software의 회전 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [비디오](https://youtu.be/d5xBCMmb3hU) |
@@ -129,6 +132,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [테이블 Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
 | [속도계](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [비디오](https://youtu.be/C3OXdETbS9o) |
+| [텍스트 필터](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [MAQ Software의 텍스트 래퍼](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [온도계](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
 | [시계열 분해 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |

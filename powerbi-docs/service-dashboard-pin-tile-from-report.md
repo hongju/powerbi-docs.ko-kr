@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 8fbc2ecafb34339a68b4ca5ecd0fa063082644a2
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>보고서에서 Power BI 대시보드에 타일 고정
 ## <a name="pinning-tiles-from-a-report"></a>보고서에서 타일 고정
@@ -45,7 +46,7 @@ Amanda가 Power BI 보고서에서 시각적 개체 및 이미지를 고정하�
 
 1. 고정하려는 타일을 마우스로 가리키고 고정 ![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png) 아이콘을 선택합니다. Power BI에서 **대시보드에 고정** 화면이 열립니다.
    
-     ![](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
+     ![대시보드에 고정 창](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. 기존 대시보드에 고정할지 또는 새 대시보드에 고정할지를 결정합니다.
    
    * 기존 대시보드: 드롭다운에서 대시보드의 이름을 선택합니다. 사용자와 공유된 대시보드는 드롭다운에 나타나지 않습니다.
@@ -55,7 +56,7 @@ Amanda가 Power BI 보고서에서 시각적 개체 및 이미지를 고정하�
    
    오른쪽 위에 나타나는 성공 메시지를 통해 시각화가 타일로 대시보드에 추가되었음을 알 수 있습니다.
    
-   ![](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![성공 메시지](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. 탐색 창에서 새 타일이 포함된 대시보드를 선택합니다. 타일을 선택하여 보고서로 다시 이동합니다. 또는 [타일 표시 및 동작을 편집](service-dashboard-edit-tile.md)합니다.
 
 ## <a name="pin-an-entire-report-page"></a>전체 보고서 페이지 고정

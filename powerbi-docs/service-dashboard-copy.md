@@ -16,16 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 6527006095e6d716687477e7408a980ee765fb5a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Power BI 서비스에서 대시보드 복사본 만들기
-![](media/service-dashboard-copy/power-bi-dashboard.png)
+![대시보드](media/service-dashboard-copy/power-bi-dashboard.png)
 
  대시보드의 사본을 만드는 데는 여러 가지 이유가 있습니다. 원본을 변경하고 원본에 대해 그 성능을 테스트하거나, 동료, 지역 또는 팀에 배포할 약간씩 다른 버전을 만들고자 할 수 있습니다. 동료들이 대시보드 디자인이 마음에 들어서 자신의 상사에게 보고할 때 해당 디자인을 사용하고자 할 수도 있습니다. 또 다른 이유는 데이터 구조과 형식이 동일한 새 데이터베이스에서 이미 만든 대시보드를 재사용하려하는 경우가 있습니다. 이런 상황은 자주 발생하나 Power BI Desktop에서는 어느 정도의 작업이 필요합니다. 
 
@@ -36,13 +37,13 @@ ms.lasthandoff: 01/23/2018
 1. 대시보드를 엽니다.
 2. 오른쪽 위의 모서리에서 줄임표(...)를 선택하고 **대시보드 복제**를 선택합니다.
    
-   ![](media/service-dashboard-copy/power-bi-dulicate.png)
+   ![줄임표 메뉴](media/service-dashboard-copy/power-bi-dulicate.png)
 3. 대시보드에 이름을 지정하고 **중복**을 선택합니다. 
    
-   ![](media/service-dashboard-copy/power-bi-name.png)
+   ![대시보드 복제 대화 상자](media/service-dashboard-copy/power-bi-name.png)
 4. 새 대시보드는 원본과 같은 작업 영역에 저장됩니다. 
    
-   ![](media/service-dashboard-copy/power-bi-copied.png)
+   ![대시보드 탭](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    새 대시보드를 열고 필요한 대로 편집합니다. 다음과 같은 몇 가지 작업을 수행합니다.    
     a. [타일을 이동하고, 이름을 바꾸고, 크기를 조정하거나 삭제합니다](service-dashboard-edit-tile.md).  

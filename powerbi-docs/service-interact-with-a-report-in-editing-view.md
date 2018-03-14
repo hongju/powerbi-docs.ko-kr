@@ -19,10 +19,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI 서비스의 편집 보기에서 보고서와 상호 작용
 소유자 권한이 있는 경우 Power BI 서비스 및 Power BI Desktop에서 보고서를 편집할 수 있습니다. 데스크톱과 달리 Power BI 서비스에는 보고서와 상호 작용할 수 있는 두 가지 모드, 즉 보고서 *소비자*를 위한 [읽기용 보기](service-reading-view-and-editing-view.md) 및 보고서 소유자와 작성자를 위한 편집용 보기가 있습니다. 이 문서는 Power BI 서비스의 편집용 보기에 대해 다룹니다. 

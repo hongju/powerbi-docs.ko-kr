@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/23/2018
 ms.author: maghan
-ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Administration
+ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -192,6 +193,19 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 ### <a name="create-template-organizational-content-packs"></a>템플릿 조직 콘텐츠 팩 만들기
 
 조직의 사용자는 Power BI Desktop에서 하나의 데이터 원본을 기반으로 하는 데이터 집합을 사용하는 템플릿 콘텐츠 팩을 만들 수 있습니다.
+
+### <a name="push-apps-to-end-users"></a>최종 사용자에게 앱 푸시
+
+테넌트 관리자를 사용하면 **테넌트 설정**에서 앱을 푸시할 수 있습니다.
+
+   ![앱 푸시 설정](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
+
+**설정됨**으로 설정을 전환한 다음, 이 기능을 가져올 대상(전체 조직 또는 특정 보안 그룹)을 지정할 수 있습니다.
+
+> [!NOTE]
+> 테넌트 설정을 변경하면 적용하는 데 다소 시간이 걸릴 수 있습니다.
+
+여기로 이동하여 [앱 푸시](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users)에 대해 자세히 알아봅니다.
 
 ## <a name="integration-settings"></a>통합 설정
 

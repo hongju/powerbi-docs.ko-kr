@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: eb6c5c5c6ff010e8ed117c643e9763acfa73cfee
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 33e003c4e45cf851dbdf2bc602807a57d1ba49af
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>보고서에서 Power BI 대시보드 만들기
 지금까지 [Power BI의 대시보드](service-dashboards.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 보고서에서, 처음부터, 데이터 집합에서 대시보드를 만들거나 기존 대시보드를 복제하는 등 다양한 방법으로 대시보드를 만들 수 있습니다.  
@@ -36,9 +36,9 @@ ms.lasthandoff: 01/29/2018
 >
 > 
 
-![](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![대시보드](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
-## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>동영상: 보고서에서 시각적 개체 및 이미지를 고정하여 대시보드를 만듭니다.
+## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>비디오: 보고서에서 시각적 개체 및 이미지를 고정하여 대시보드를 만듭니다.
 Amanda가 보고서에서 시각화를 핀 고정하여 새 대시보드를 만드는 과정을 시청합니다. 그런 다음, 동영상 아래 단계에 따라 조달 분석 샘플을 직접 사용해 보세요.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
@@ -54,62 +54,62 @@ Power BI 샘플 데이터 집합 중 하나를 가져오고 이를 사용하여 
 3. **내 작업 영역**을 선택합니다.
 4. 왼쪽 탐색 창에서 **데이터 가져오기**를 선택합니다.
 
-    ![](media/service-dashboard-create/power-bi-get-data3.png)
+    ![왼쪽 탐색 창](media/service-dashboard-create/power-bi-get-data3.png)
 5. **파일**을 선택합니다.
 
-   ![](media/service-dashboard-create/power-bi-select-files.png)
+   ![파일 가져오기](media/service-dashboard-create/power-bi-select-files.png)
 6. 조달 분석 샘플 Excel 파일을 저장한 위치로 이동합니다. 이를 선택하고 **연결**을 선택합니다.
 
-   ![](media/service-dashboard-create/power-bi-connectnew.png)
+   ![파일에 연결](media/service-dashboard-create/power-bi-connectnew.png)
 7. 이 연습에서는 **가져오기**를 선택합니다.
 
-    ![](media/service-dashboard-create/power-bi-import.png)
+    ![비즈니스용 OneDrive 창](media/service-dashboard-create/power-bi-import.png)
 8. 성공 메시지가 나타나면 **x**를 선택하여 닫습니다.
 
-   ![](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![성공 메시지](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 ### <a name="open-the-report-and-pin-some-tiles-to-a-dashboard"></a>보고서를 열고 타일을 대시보드에 핀 고정합니다.
 1. 같은 작업 영역에서 **보고서** 탭을 선택합니다. 새로 가져온 보고서에는 노란색 별표가 함께 표시됩니다. 열려는 보고서 이름을 선택합니다.
 
-    ![](media/service-dashboard-create/power-bi-reports.png)
+    ![보고서 탭](media/service-dashboard-create/power-bi-reports.png)
 2. 보고서는 [읽기용 보기](service-reading-view-and-editing-view.md)로 열립니다. 맨 아래에는 할인 분석과 지출 개요 등의 두 탭이 있습니다. 각 탭은 보고서의 페이지를 나타냅니다.
     **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
 
-    ![](media/service-dashboard-create/power-bi-reading-view.png)
+    ![읽기용 보기의 보고서](media/service-dashboard-create/power-bi-reading-view.png)
 3. 시각화 위로 마우스를 가져 가면 사용할 수 있는 옵션이 표시됩니다. 시각화를 대시보드에 추가하려면 핀 고정 ![](media/service-dashboard-create/power-bi-pin-icon.png) 아이콘을 선택합니다.
 
-    ![](media/service-dashboard-create/power-bi-hover.png)
+    ![타일 마우스로 가리키기](media/service-dashboard-create/power-bi-hover.png)
 4. 새 대시보드를 만들고 있으므로 **새 대시보드**에 대한 옵션을 선택하고 이름을 지정합니다.
 
-   ![](media/service-dashboard-create/power-bi-pin-tile.png)
+   ![대시보드에 고정 대화 상자](media/service-dashboard-create/power-bi-pin-tile.png)
 5. **핀 고정**을 선택하면, Power BI에서 현재 작업 영역에 새 대시보드를 만듭니다. **대시보드에 고정됨** 메시지가 나타나면 **대시보드로 이동**을 선택합니다. 보고서를 저장할지 묻는 메시지가 표시되면 **저장**을 선택합니다.
 
-     ![](media/service-dashboard-create/power-bi-pin-success.png)
+     ![성공 메시지](media/service-dashboard-create/power-bi-pin-success.png)
 6. Power BI에 새 대시보드가 열리고, 방금 고정한 시각화인 타일이 한 개 있습니다.
 
-   ![](media/service-dashboard-create/power-bi-pinned.png)
+   ![하나의 타일이 포함된 대시보드](media/service-dashboard-create/power-bi-pinned.png)
 7. 보고서로 돌아가려면 타일을 선택합니다. 새 대시보드에 몇 개 타일을 고정합니다. 이번에는 **대시보드에 고정** 창이 표시될 때 **기존 대시보드**를 선택합니다.  
 
-   ![](media/service-dashboard-create/power-bi-existing-dashboard.png)
+   ![대시보드에 고정 대화 상자](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>전체 보고서 페이지를 대시보드에 고정
 시각적 개체를 한 번에 하나씩 고정하는 대신, [전체 보고서 페이지를 ‘라이브 타일’로 고정할 수 있습니다](service-dashboard-pin-live-tile-from-report.md). 이를 수행해 보겠습니다.
 
 1. 보고서 편집기에서 **지출 개요** 탭을 선택하여 보고서의 두 번째 페이지를 엽니다.
 
-   ![](media/service-dashboard-create/power-bi-page-tab.png)
+   ![보고서 탭](media/service-dashboard-create/power-bi-page-tab.png)
 
 2. 대시보드에 있는 이러한 시각적 개체를 모두 원합니다.  메뉴 모음의 오른쪽 위 모서리에서 **라이브 고정 페이지**를 선택합니다. 대시보드에서 페이지를 새로 고칠 때마다 라이브 페이지 타일이 업데이트됩니다.
 
-   ![](media/service-dashboard-create/power-bi-pin-live.png)
+   ![보고서 편집기의 오른쪽 위](media/service-dashboard-create/power-bi-pin-live.png)
 
 3. **대시보드에 고정** 창이 표시될 때 **기존 대시보드**를 선택합니다.
 
-   ![](media/service-dashboard-create/power-bi-pin-live2.png)
+   ![대시보드에 고정 대화 상자](media/service-dashboard-create/power-bi-pin-live2.png)
 
 4. [성공] 메시지가 나타나면 **대시보드로 이동**을 선택합니다. 보고서에서 고정한 타일이 표시됩니다. 아래 예에서는 보고서의 1페이지에서 타일을 2개 고정하고 보고서의 2페이지에 있는 라이브 타일을 하나 고정했습니다.
 
-   ![](media/service-dashboard-create/power-bi-dashboard.png)
+   ![대시보드](media/service-dashboard-create/power-bi-dashboard.png)
 
 축하합니다. 첫 번째 대시보드를 만들었습니다! 이제 대시보드가 있으며 훨씬 많은 작업을 수행할 수 있습니다.  아래 제시된 **다음 단계** 중 하나를 시도하거나 재생하고 직접 탐색해 보세요.   
 

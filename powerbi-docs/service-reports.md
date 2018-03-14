@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Power BI의 보고서
 ## <a name="what-is-a-power-bi-report"></a>Power BI 보고서란?
 Power BI ***보고서***는 데이터 집합의 다양한 결과 및 통찰력을 나타내는 시각화가 포함된 다각적인 데이터 뷰입니다.  보고서는 단일 시각화나 여러 페이지의 시각화를 포함할 수 있습니다. 작업 역할에 따라 보고서를 *만들거나* , *사용* 또는 소비하는 사람이 될 수 있습니다.
 
-![](media/service-reports/reportview.png)
+![보고서 페이지](media/service-reports/reportview.png)
 
 이 보고서는 3페이지(또는 탭)로 구성되며 지금 보고 있는 것은 매장 판매 개요 페이지입니다. 이 페이지에는 6가지 시각화와 페이지 제목이 있습니다. 시각화는 대시보드에 *고정*되며 고정된 시각화를 선택할 경우 자신이 고정되어 있는 보고서를 엽니다.
 

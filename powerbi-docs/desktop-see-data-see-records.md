@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Learn more
+ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 참조 및 레코드 참조 사용
 **Power BI Desktop**에서는 시각적 개체의 세부 정보로 드릴링하고 선택한 시각적 개체에 대한 데이터 또는 개별 데이터 요소의 텍스트 표현을 볼 수 있습니다. 이러한 기능을 때로는 *클릭 광고*, *드릴스루* 또는 드릴스루 세부 정보라고 합니다.
@@ -69,6 +70,9 @@ ms.lasthandoff: 01/25/2018
 **레코드 참조**가 선택되었으면 **Power BI Desktop**에서는 해당 개별 데이터 요소에 초점을 맞추고 아래 이미지와 같이 캔버스 영역을 해당 요소의 데이터를 표시하는 데 사용합니다.
 
 ![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+
+> [!NOTE]
+> 보고서에 대한 **레코드 확인** 보기에서 보는(또는 사용자가 수정하는) 데이터의 변경 내용을 저장할 수 없습니다.
 
 보고서로 돌아가려면 캔버스의 왼쪽 위 모서리에 있는 **보고서로 돌아가기** 단추를 선택합니다.
 

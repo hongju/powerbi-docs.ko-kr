@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: afa3753d04cfb74c2673d222a0b1e6b07a1f5118
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="power-bi-notifications"></a>Power BI 알림
 알림 센터는 Power BI 환경에 관련된 정보의 순차적 피드입니다. 이를 열고 사용자와 공유된 새 대시보드, 그룹 공간에 대한 변경 사항, Power BI 이벤트 및 회의에 대한 정보, 설정한 경고 등에 대한 메시지를 확인합니다. [Power BI 서비스에서 경고를 설정](service-set-data-alerts.md)할 수 있으며 Power BI 모바일 앱에서도 설정할 수 있습니다.
@@ -34,13 +35,13 @@ Amanda가 수신한 알림을 검토하고 관리하고 응답하는 과정을 �
 
 1. Power BI에 로그인하면 오프라인 상태인 동안 전송된 모든 새 알림이 피드에 추가됩니다. 새로운 알림이 있는 경우 Power BI는 새 항목의 수와 함께 노란색 거품을 표시합니다.
    
-   ![](media/service-notification-center/power-bi-new-notification.png)
+   ![새 알림 아이콘](media/service-notification-center/power-bi-new-notification.png)
 2. Power BI 메뉴 모음에서 알림 아이콘을 선택합니다.
    
-   ![](media/service-notification-center/power-bi-notifications-icon.png)
+   ![알림 아이콘이 선택된 상위 메뉴 모음](media/service-notification-center/power-bi-notifications-icon.png)
 3. 알림은 가장 최근 메시지부터 읽지 않은 메시지를 강조하여 표시됩니다. 알림은 곧 삭제하거나 최대 제한인 100개에 도달하지 않는 한 90일 동안 유지됩니다.
    
-   ![](media/service-notification-center/power-bi-notifications.png)
+   ![알림 센터](media/service-notification-center/power-bi-notifications.png)
 4. 알림을 해제하려면 X 아이콘을 선택합니다.
 
 ### <a name="next-steps"></a>다음 단계

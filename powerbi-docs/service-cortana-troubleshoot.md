@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 352efd894eb58823c9f506089ee28b7d11b30687
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 80fb45e8f0d181779c699c081006b6610248dc50
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI용 Cortana 문제 해결
 이 문서는 시리즈의 일부입니다. 아직 읽지 않은 경우 다음 세 개의 문서를 읽는 것이 좋습니다.
@@ -95,7 +96,7 @@ Cortana를 Power BI와 통합하는 데 여전히 문제가 있는 경우 제대
    결과를 얻었으므로 이제 Cortana**가** Power BI에서 사용하도록 설정된 것을 알 수 있습니다. 문제를 Windows 쪽 또는 Cortana 언어 설정의 문제 항목 또는 Cortana에 대해 활성화된 100개 이상의 데이터 집합을 갖는 것으로 좁힙니다.
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>대시보드에서 대답을 검색하는 데 문제가 있습니까?
-사용자와 공유된 대시보드를 찾고 있나요?  Power BI > **공유한 항목**을 열고 대시보드의 이름을 찾습니다.  그런 다음 해당 이름을 *Utterances** 필드에 입력합니다.
+사용자와 공유된 대시보드를 찾고 있나요?  Power BI > **공유한 항목**을 열고 대시보드의 이름을 찾습니다.  그런 다음, 해당 이름을 **Utterances** 필드에 입력합니다.
 
 ![Power BI에서 공유한 항목 열기](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

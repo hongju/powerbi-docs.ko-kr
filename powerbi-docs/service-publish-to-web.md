@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
-ms.openlocfilehash: 890c748c7e7502394fd2e6e024521e99082a1c77
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Share your work
+ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -135,7 +136,7 @@ Power BI **웹에 게시**를 사용하면 장치에서 메일이나 소셜 미�
 **웹에 게시**는 Power BI 서비스에서 대부분의 데이터 소스와 보고서에 대해 지원되지만, 다음은 웹에 게시에서 지원되지 않거나 사용할 수 없습니다.
 
 1. 행 수준 보안을 사용하는 보고서
-2. 온-프레미스에서 호스팅되는 Analysis Services 표 형식을 사용하는 보고서
+2. 온-프레미스에 호스트된 Analysis Services 테이블 형식, Analysis Service 다차원, Azure Analysis Services 및 Power BI 서비스를 비롯한 모든 라이브 연결 데이터 원본을 사용하는 보고서
 3. 사용자에게 직접적으로 또는 조직 콘텐츠 팩을 통해 공유되는 보고서
 4. 편집 멤버가 아닌 그룹의 보고서
 5. "R" 시각적 개체는 현재 웹에 게시 보고서에서 지원되지 않습니다.

@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>포커스 모드에서 대시보드 타일 또는 보고서 시각적 개체 표시
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -36,39 +36,41 @@ ms.lasthandoff: 02/24/2018
 > 포커스 모드는 [전체 화면 모드](service-fullscreen-mode.md)와 다릅니다.
 > 
 ## <a name="focus-mode-for-dashboard-tiles"></a>대시보드 타일에 대한 포커스 모드
-1. 타일 시각화를 마우스로 가리키고, 줄임표(...)를 선택하고, **포커스 모드로 열기** ![](media/service-focus-mode/power-bi-dashboard-focus-mode.png)를 선택합니다.  
+1. 타일 시각화를 마우스로 가리키고, 줄임표(...)를 선택하고, **포커스 모드로 열기**를 선택합니다. 
+
+    ![타일의 줄임표 메뉴](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
    
 2. 타일이 열리고 전체 보고서 캔버스를 채웁니다. 
 
-   ![](media/service-focus-mode/power-bi-tile-focus.png)
+   ![타일은 보고서 캔버스를 채웁니다.](media/service-focus-mode/power-bi-tile-focus.png)
 
 3. 필터 창을 확장하여 이 시각적 개체에 적용된 모든 필터를 확인합니다.
    
-   ![](media/service-focus-mode/power-bi-focus-filters.png)
+   ![필터 창에서 포커스 모드](media/service-focus-mode/power-bi-focus-filters.png)
 
 4. 필터를 수정하여 추가로 탐색하고 흥미로운 점을 발견하는 경우 시각적 요소를 대시보드에 고정합니다.
 
 5. 포커스 모드에서 나와 시각적 개체의 왼쪽 위 모퉁이에서 **<포커스 모드 종료**를 선택하여 대시보드로 돌아갑니다.
    
-    ![](media/service-focus-mode/power-bi-tile-exit-focus.png)    
+    ![포커스 모드 나가기](media/service-focus-mode/power-bi-tile-exit-focus.png)    
 
 
 ## <a name="focus-mode-for-report-visualizations"></a>보고서 시각화에 대한 포커스 모드
 
-1. 보고서 시각화를 마우스로 가리키고 **포커스 모드** 아이콘 ![](media/service-focus-mode/pbi_popout.jpg)을 선택합니다.  
+1. 보고서 시각화를 마우스로 가리키고 **포커스 모드** 아이콘 ![포커스 모드 아이콘](media/service-focus-mode/pbi_popout.jpg)을 선택합니다.  
    
-   ![](media/service-focus-mode/power-bi-hover-focus.png)
+   ![포커스 아이콘이 타일을 표시합니다.](media/service-focus-mode/power-bi-hover-focus.png)
 2. 시각화가 열리고 전체 캔버스를 채웁니다. 
 
    
-   ![](media/service-focus-mode/power-bi-display-focus-newer2.png)
+   ![포커스 모드의 시각적 개체](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. 필터 창을 확장하여 이 시각적 개체에 적용된 모든 필터를 확인합니다.
    
-   ![](media/service-focus-mode/power-bi-display-focus-filters.png)
+   ![필터 화면에서 포커스 모드](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. 필터를 수정하여 추가로 탐색하고 흥미로운 점을 발견하는 경우 시각적 요소를 대시보드에 고정합니다.   
 5. 포커스 모드에서 나와 시각적 개체의 왼쪽 위 모퉁이에서 **보고서로 돌아가기**를 선택하여 보고서로 돌아갑니다. 
    
-    ![](media/service-focus-mode/power-bi-exit-focus-report.png)  
+    ![포커스 모드 나가기](media/service-focus-mode/power-bi-exit-focus-report.png)  
 
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>포커스 모드에서 전체 화면 모드로 이동
 포커스 모드에서 타일 또는 시각적 개체를 [전체 화면(TV 모드)에서 볼](service-fullscreen-mode.md) 수 있습니다. 전체 화면 모드는 메뉴 및 탐색 단추 없이 표시됩니다.

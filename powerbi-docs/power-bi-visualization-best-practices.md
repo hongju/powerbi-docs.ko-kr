@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>보고서 및 시각적 효과에 대한 디자인 모범 사례
 <!-- Shared newnav Include -->
@@ -215,7 +216,7 @@ Power BI 서비스 위쪽의 메뉴 모음에서 **텍스트 상자**를 선택�
 
 작품이 아닌 기능적인 보고서를 만드는 것입니다. 보고서 요소를 두드러져 보이게 하고 가독성을 높이는 색을 선택합니다.  
 
-웹 페이지에 대한 색과 시각화 사용에 대한 연구에 따르면 색 대비가 높을수록 이해 속도가 높아진다고 합니다(The effect of text and background colour on visual search of Web pages(웹 페이지 검색 시 시각적 개체의 텍스트 및 배경색 효과) 및 Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics(웹 페이지 시각적 복잡성 및 미적 특성에 대한 사용자의 인식 결정)).
+웹 페이지에 대한 색과 시각화 사용에 대한 연구에 따르면 색 대비가 높을수록 이해 속도가 높아진다고 합니다(웹 페이지 검색 시 시각적 개체의 텍스트 및 배경색 효과 및 **웹 페이지 시각적 복잡성 및 미적 특성에 대한 사용자의 인식 결정**).
 
 몇 가지 색 모범 사례가 아래쪽에 있는 예제 보고서(그림 20 및 21)에 적용되어 있습니다. 가장 주목할만한 부분은 배경색을 검정으로 변경한 것입니다.  노란색은 너무 밝아서 눈에 무리가 갑니다.  또한 “Count of athlete name by year and class”(연도 및 클래스별 선수 이름 수) 차트의 경우 막대의 노란색 부분이 노란색 배경 때문에 사라져 보입니다.  검정(또는 흰색) 배경을 사용하면 대비가 최대가 되고 시각적 개체로 주의를 끌 수 있습니다.
 

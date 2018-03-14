@@ -16,18 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 Power BI 서비스에서 보고서를 열면 보고서의 페이지마다 고유한 URL을 보유합니다. 보고서 페이지를 필터링하려면 보고서 캔버스에서 필터 창을 사용할 수 있습니다.  또는 URL에 쿼리 문자열 매개 변수를 추가하여 보고서를 필터링할 수 있습니다. 동료에게 보여 주고 싶은 보고서가 있고 이를 위해 미리 필터링하려고 할 수 있습니다. 이 작업을 수행하는 한 가지 방법은 보고서에 대한 기본 URL로 시작하고 필터 매개 변수를 URL에 추가한 후 전체 URL을 전자 메일로 보내는 것입니다.
 
-![](media/service-url-filters/power-bi-report2.png)
+![서비스의 Power BI 보고서](media/service-url-filters/power-bi-report2.png)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WQFtN8nvM4A?list=PLv2BtOtLblH3YE_Ycas5B1GtcoFfJXavO&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ Power BI 서비스에서 보고서를 열면 보고서의 페이지마다 고유
 
 URL?filter=***Table***/***Field*** eq '***value***'
 
-![](media/service-url-filters/power-bi-filter-urls7b.png)
+![필터가 포함된 URL](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * **Table** 및 **Field** 이름은 대소문자를 구분하고 **value**는 구분하지 않습니다.
 * 보고서 보기에서 숨겨진 필드는 계속 필터링할 수 있습니다.
@@ -49,7 +50,7 @@ URL?filter=***Table***/***Field*** eq '***value***'
 ## <a name="filter-on-a-field"></a>필드 필터링
 보고서에 대한 URL이 다음과 같다고 가정합니다.
 
-![](media/service-url-filters/power-bi-filter-urls6.png)
+![시작 URL](media/service-url-filters/power-bi-filter-urls6.png)
 
 North Carolina에 매장이 있다는 것을 맵 시각화(위)에서 확인할 수 있습니다.
 
@@ -61,7 +62,7 @@ North Carolina에 매장이 있다는 것을 맵 시각화(위)에서 확인할 
 
 ?filter=Store/Territory eq 'NC'
 
-![](media/service-url-filters/power-bi-filter-urls7.png)
+![필터가 포함된 URL](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
 >*NC*는 **Store** 테이블의 **Territory** 필드에 저장된 값입니다.

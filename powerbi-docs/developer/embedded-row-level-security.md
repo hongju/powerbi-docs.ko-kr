@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 0d7127d43e2764e1dcd15f7052b3367c8629d2f6
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI Embedded 콘텐츠에서 행 수준 보안 사용
 행 수준 보안(RLS)를 사용하여 대시보드, 타일, 보고서 및 데이터 집합 내 데이터에 대한 사용자 액세스를 제한할 수 있습니다. 여러 사용자가 다른 데이터를 보면서 동일한 아티팩트를 작업할 수 있습니다. RLS 포함이 지원됩니다.
@@ -140,6 +140,47 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 역할은 embed 토큰에서 ID로 제공될 수 있습니다. 역할이 제공되지 않는 경우 관련 역할을 해결하려면 제공된 사용자 이름을 사용합니다.
 
+**CustomData 기능 사용**
+
+CustomData 기능을 사용하면 CustomData 연결 문자열 속성을 사용하는 일반 텍스트(문자열)를 전달하여 값을 AS에서 사용할 수 있습니다(CUSTOMDATA() 함수를 통해).
+데이터 소비를 사용자 지정하는 대체 방법으로 이 기능을 사용할 수 있습니다.
+역할 DAX 쿼리 내에서 사용할 수 있고 측정값 DAX 쿼리에서 역할 없이 사용할 수 있습니다.
+CustomData 기능은 대시보드, 보고서 및 타일과 같은 아티팩트에서 토큰 생성 기능의 일부입니다. 대시보드에는 여러 CustomData ID가 있을 수 있습니다(타일/모델 당 하나씩).
+
+> [!NOTE]
+> CustomData 기능은 Azure Analysis Services에 상주하는 모델에 대해서만 작동하고 라이브 모드에서만 작동합니다. 사용자 및 역할과 달리 .pbix 파일 내에 사용자 지정 데이터 기능을 설정할 수 없습니다. 사용자 지정 데이터 기능을 사용하여 토큰을 생성하는 경우 사용자 이름이 있어야 합니다.
+>
+>
+
+**CustomData SDK 추가**
+
+CustomData 문자열 속성은 토큰 생성 시나리오에서 효과적인 ID에 추가되었습니다.
+        
+        [JsonProperty(PropertyName = "customData")]
+        public string CustomData { get; set; }
+
+해당 ID는 다음과 같은 호출을 사용하는 사용자 지정 데이터로 만들 수 있습니다.
+
+        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+
+**CustomData SDK 사용**
+
+REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추가할 수 있습니다. 예:
+
+```
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "username": "EffectiveIdentity",
+            "roles": [ "Role1", "Role2" ],
+            "customData": "MyCustomData",
+            "datasets": [ "fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc" ]
+        }
+    ]
+}
+```
+
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 * Power BI 서비스 내에서 역할에 사용자를 할당하면 포함된 토큰을 사용하는 경우 RLS에 영향을 주지 않습니다.
 * Power BI 서비스는 편집 권한이 있는 사용자 또는 멤버에게 RLS 설정을 적용하지 않는 반면 포함된 토큰을 사용하여 ID를 제공할 경우 데이터에 적용합니다.
@@ -150,4 +191,3 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 * ID 목록은 대시보드 포함을 위한 여러 ID 토큰을 구현합니다. 다른 모든 아티팩트는 목록에 단일 ID가 포함됩니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

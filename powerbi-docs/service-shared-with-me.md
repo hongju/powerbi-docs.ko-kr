@@ -16,17 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 6c29f0915009fced89c80e05f40b91c467e505ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>나와 공유한 Power BI 대시보드 표시
 ## <a name="shared-with-me"></a>공유한 항목
-![](media/service-shared-with-me/power-bi-share-dash.png)
+![공유 아이콘](media/service-shared-with-me/power-bi-share-dash.png)
 
 동료가 나와 대시보드를 공유하고 있는 경우 해당 제목이 **공유한 항목** 목록에 추가됩니다. 대시보드는 **공유한 항목**에서만 사용 가능하며 작업 영역 또는 **앱**에서는 사용할 수 없습니다.
 
@@ -38,8 +39,8 @@ Amanda가 **공유한 항목** 콘텐츠 목록을 설명하고 목록을 탐색
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>**공유한 항목** 화면에서 사용 가능한 작업
 * 별 아이콘을 선택하여 [대시보드를 즐겨찾기에 추가](service-dashboard-favorite.md)합니다.
-* [대시보드 제거](service-delete.md)  ![](media/service-shared-with-me/power-bi-delete-icon.png)
-* 일부 대시보드는 다시 공유할 수 있습니다. ![](media/service-shared-with-me/power-bi-share-icon-new.png)
+* [대시보드 제거](service-delete.md) ![휴지통 아이콘](media/service-shared-with-me/power-bi-delete-icon.png)
+* 일부 대시보드는 다시 공유할 수 있습니다.  ![공유 아이콘](media/service-shared-with-me/power-bi-share-icon-new.png)
 * 또한, 대시보드 목록이 길어지면 [검색 필드를 사용하여 정렬한 후 필요한 항목을 찾습니다](service-navigation-search-filter-sort.md).
   
   > [!NOTE]
@@ -51,7 +52,7 @@ Amanda가 **공유한 항목** 콘텐츠 목록을 설명하고 목록을 탐색
 ## <a name="filter-shared-dashboards-by-owner"></a>소유자별로 공유 대시보드 필터링
 **공유한 항목** 화면의 콘텐츠는 콘텐츠 소유자별로 더 필터링할 수 있습니다. 예를 들어, **Amanda**를 선택하면 Amanda가 나와 공유한 대시보드만 보입니다.
 
-![](media/service-shared-with-me/power-bi-owner.png)
+![소유자에 의해 필터링된 대시보드](media/service-shared-with-me/power-bi-owner.png)
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI - 기본 개념](service-basic-concepts.md)  

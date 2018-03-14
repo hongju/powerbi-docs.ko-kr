@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Power BI를 사용하여 데이터 정보를 자동으로 생성
 새 데이터 집합이 있고 어디서 시작해야 할지가 확실하지 않은 경우  빠르게 대시보드를 만들어야 하는 경우  놓쳤을 수 있는 정보를 찾으려는 경우
@@ -45,43 +46,42 @@ Amanda가 데이터 집합에 대한 신속한 정보 활용을 실행하고, �
 
 1. **데이터 집합** 탭에서 줄임표(...)를 선택하고 **유용한 정보 얻기**를 선택합니다.
    
-    ![](media/service-insights/power-bi-ellipses.png)
+    ![데이터 집합 탭](media/service-insights/power-bi-ellipses.png)
    
-    ![](media/service-insights/power-bi-tab.png)
+    ![줄임표 메뉴](media/service-insights/power-bi-tab.png)
 2. Power BI는 [다양한 알고리즘](service-insight-types.md)을 사용하여 데이터 집합의 추세를 검색합니다.
    
-    ![](media/service-insights/pbi_autoinsightssearching.png)
+    ![정보를 검색하는 중 대화 상자](media/service-insights/pbi_autoinsightssearching.png)
 3. 몇 초 이내에 정보가 준비됩니다.  **View Insights(정보 보기)**를 선택하여 시각화를 표시합니다.
    
-    ![](media/service-insights/pbi_autoinsightsuccess.png)
+    ![성공 메시지](media/service-insights/pbi_autoinsightsuccess.png)
    
    > **참고**: 데이터가 통계적으로 중요하지 않기 때문에 일부 데이터 집합은 정보를 생성할 수 없습니다.  자세한 내용은 [정보 활용에 대한 데이터 최적화](service-insights-optimize.md)를 참조하세요.
    > 
    > 
 1. 최대 32개의 개별 정보 카드가 있는 특수 **신속한 정보 활용** 캔버스에 시각화가 표시됩니다. 각 카드에는 차트 또는 그래프와 간략한 설명이 있습니다.
    
-    ![](media/service-insights/power-bi-insights.png)
+    ![신속한 정보 활용 캔버스](media/service-insights/power-bi-insights.png)
 
 ## <a name="interact-with-the-insight-cards"></a>정보 활용 카드와 상호 작용
-  ![](media/service-insights/pbi_hover.png)
+  ![고정 아이콘](media/service-insights/pbi_hover.png)
 
 1. 시각화를 대시보드에 추가하려면 카드를 마우스로 가리키고 고정 아이콘을 선택합니다.
 2. 카드를 마우스로 가리키고 줄임표(...)를 선택한 다음 **View Insights(정보 보기)**를 선택합니다. 이렇게 하면 정보 전체 화면이 열립니다.
    
-    ![](media/service-insights/power-bi-insight-focus.png)
+    ![정보 전체 화면](media/service-insights/power-bi-insight-focus.png)
 3. 포커스 모드에서는 다음 작업을 수행할 수 있습니다.
    
    * 시각화를 필터링합니다.  필터를 표시하려면 오른쪽 위에 있는 화살표를 선택하여 필터 창을 확대합니다.
+        ![정보 확장된 필터 메뉴](media/service-insights/power-bi-insights-filter-new.png)
+   * 고정 ![고정 아이콘](media/service-insights/power-bi-pin-icon.png) 아이콘 또는 **시각적 요소 고정**을 선택하여 대시보드에 정보 활용 카드를 고정합니다.
+   * 카드 자체에서 정보 활용을 실행합니다. 이것을 **지정된 범위의 정보 활용**이라고 합니다. 오른쪽 위 모서리에서 전구 모양 아이콘 ![정보 활용 아이콘](media/service-insights/power-bi-bulb-icon.png) 또는 **정보 활용**을 선택합니다.
      
-        ![](media/service-insights/power-bi-insights-filter-new.png)
-   * ![](media/service-insights/power-bi-pin-icon.png) 아이콘 또는 **시각적 요소 고정**을 선택하여 대시보드에 정보 활용 카드를 고정합니다.
-   * 카드 자체에서 정보 활용을 실행합니다. 이것을 **지정된 범위의 정보 활용**이라고 합니다. 오른쪽 위 모서리에서 전구 모양 아이콘 ![](media/service-insights/power-bi-bulb-icon.png) 또는 **정보 활용**을 선택합니다.
-     
-       ![](media/service-insights/pbi-autoinsights-tile.png)
+       ![정보 활용을 보여주는 메뉴 모음 아이콘](media/service-insights/pbi-autoinsights-tile.png)
      
      정보 활용이 왼쪽에 표시되고 해당 단일 정보 활용의 데이터에만 기초한 새 카드는 오른쪽에 표시됩니다.
      
-       ![](media/service-insights/power-bi-insights-on-insights-new.png)
+       ![정보의 정보](media/service-insights/power-bi-insights-on-insights-new.png)
 4. 원래의 정보 활용 캔버스로 돌아가려면 왼쪽 위 모서리에서 **포커스 모드 종료**를 선택합니다.
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>대시보드 타일에서 정보 활용 실행
@@ -90,7 +90,7 @@ Amanda가 데이터 집합에 대한 신속한 정보 활용을 실행하고, �
 1. 대시보드를 엽니다.
 2. 타일을 마우스로 가리킵니다. 줄임표(...)를 선택하고 **View insights(정보 보기)**를 선택합니다. 타일이 오른쪽에 표시되는 정보 활용 카드와 함께 [포커스 모드](service-focus-mode.md)로 열립니다.    
    
-    ![](media/service-insights/pbi-insights-tile.png)    
+    ![포커스 모드](media/service-insights/pbi-insights-tile.png)    
 4. 인사이트 하나로 호기심이 자극되나요? 자세히 알아보려면 해당 인사이트 카드를 선택합니다. 선택한 인사이트는 왼쪽에 나타나고 해당 단일 인사이트의 데이터에만 기초한 새 인사이트 카드는 오른쪽에 표시됩니다.    
 6. 데이터를 계속 꼼꼼히 살펴보고, 흥미로운 정보가 있으면, 오른쪽 위 모서리에서 **시각적 개체 고정**을 선택하여 대시보드에 고정하세요.
 

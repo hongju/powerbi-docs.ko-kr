@@ -14,13 +14,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/22/2018
 ms.author: maggies
-ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Share your work
+ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 생성 및 게시
 
@@ -53,7 +54,7 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
 
 동료를 이러한 작업 영역에 구성원 또는 관리자로 추가할 수 있습니다. 모든 앱 작업 영역 구성원 및 관리자는 Power BI Pro 라이선스가 필요합니다. 작업 영역에서 사용자는 대시보드, 보고서는 물론, 더 광범위한 대상 그룹이나 조직 전체에 게시할 계획이 있는 기타 문서에 대해 공동 작업할 수 있습니다. 
 
-콘텐츠가 준비되면 게시할 대시보드 및 보고서를 선택한 다음 앱을 게시합니다. 더 광범위한 대상 그룹에 직접 링크를 보내거나, **AppSource에서 더 많은 앱 다운로드 및 탐색**으로 이동하여 앱 탭에서 앱을 찾을 수 있습니다. 이러한 사람들은 해당 앱의 콘텐츠를 수정할 수 없지만, Power BI 서비스에서, 또는 모바일 앱 중 하나와 상호 작용할 수 있습니다(데이터 필터링, 강조 표시 및 정렬 등). 
+콘텐츠가 준비되면 게시할 대시보드 및 보고서를 선택한 다음 앱을 게시합니다. 더 광범위한 대상 그룹에게 직접 링크를 보내거나, **AppSource에서 더 많은 앱 다운로드 및 탐색**으로 이동하여 앱 탭에서 앱을 찾을 수 있습니다. 이러한 사람들은 해당 앱의 콘텐츠를 수정할 수 없지만, Power BI 서비스에서, 또는 모바일 앱 중 하나와 상호 작용할 수 있습니다(데이터 필터링, 강조 표시 및 정렬 등). 
 
 ## <a name="create-an-app-workspace"></a>앱 작업 영역 만들기
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
@@ -94,7 +95,7 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
      ![사용자 지정된 이미지](media/service-create-distribute-apps/power-bi-apps-image.png)
 
 ## <a name="publish-your-app"></a>앱 게시
-앱 작업 영역에서 대시보드 및 보고서가 준비되면 앱 형태로 게시합니다. 작업 영역의 모든 보고서와 대시보드를 게시할 필요는 없습니다. 준비된 것만 게시할 수 있습니다. 
+앱 작업 영역에서 대시보드 및 보고서가 준비되면 앱 형태로 게시합니다. 작업 영역의 모든 보고서와 대시보드를 게시할 필요는 없습니다. 준비된 것만 게시할 수 있습니다.
 
 1. 작업 영역 목록 뷰에서 앱에 포함할 대시보드와 보고서를 결정합니다.
 
@@ -104,23 +105,23 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
 
      ![관련 대시보드에 대한 경고](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-1. 오른쪽 위에서 **앱 게시** 단추를 선택하여 해당 작업 영역의 모든 콘텐츠를 공유하는 프로세스를 시작합니다.
+2. 오른쪽 위에서 **앱 게시** 단추를 선택하여 해당 작업 영역의 모든 콘텐츠를 공유하는 프로세스를 시작합니다.
    
      ![앱 게시](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. 사람들이 해당 앱을 찾는 데 도움이 되도록 **세부 정보**에서 설명을 입력합니다. 배경색을 지정하여 개인 설정할 수 있습니다.
+3. 사람들이 해당 앱을 찾는 데 도움이 되도록 **세부 정보**에서 설명을 입력합니다. 배경색을 지정하여 개인 설정할 수 있습니다.
    
      ![앱 세부 정보](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. **콘텐츠**에서 앱의 일부로 게시하려는 콘텐츠(해당 작업 영역에서 선택한 모든 항목)가 보입니다. 또한, 사람들이 앱으로 이동하여 처음 보게 되는 대시보드 또는 보고서로 앱 시작 페이지를 설정할 수도 있습니다. **없음**을 선택할 수 있습니다. 그러면 앱의 모든 콘텐츠 목록을 표시합니다. 
+4. **콘텐츠**에서 앱의 일부로 게시하려는 콘텐츠(해당 작업 영역에서 선택한 모든 항목)가 보입니다. 또한, 사람들이 앱으로 이동하여 처음 보게 되는 대시보드 또는 보고서로 앱 시작 페이지를 설정할 수도 있습니다. **없음**을 선택할 수 있습니다. 그러면 앱의 모든 콘텐츠 목록을 표시합니다. 
    
      ![앱 콘텐츠](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. **액세스**에서 앱에 액세스할 수 있는 사람을 조직의 모든 사람, 특정 사람, Active Directory 보안 그룹 중에서 결정합니다. 권한이 있는 경우 받는 사람에 대해 앱 자동 설치를 선택할 수 있습니다.
+5. **액세스**에서 앱에 액세스할 수 있는 사람을 조직의 모든 사람, 특정 사람, Active Directory 보안 그룹 중에서 결정합니다. 권한이 있는 경우 받는 사람에 대해 앱 자동 설치를 선택할 수 있습니다. [Power BI 관리 포털](#how-to-enable-pushing-apps)에서 이 설정을 사용하도록 설정할 수 있습니다. [앱을 푸시](#how-to-enable-pushing-apps)하기 위한 추가 고려사항을 알아볼 수 있습니다.
 
     ![앱 액세스](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-5. **마침**을 선택하면 게시할 준비가 되었음을 확인하는 메시지가 나타납니다. 성공 대화 상자에서는 이 앱에 대한 직접 링크인 URL을 복사하여 이를 공유한 사람에게 보낼 수 있습니다.
+6. **마침**을 선택하면 게시할 준비가 되었음을 확인하는 메시지가 나타납니다. 성공 대화 상자에서는 이 앱에 대한 직접 링크인 URL을 복사하여 이를 공유한 사람에게 보낼 수 있습니다.
    
      ![앱 완료](media/service-create-distribute-apps/power-bi-apps-success.png)
 
@@ -138,7 +139,7 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
    
      앱 작업 영역은 스테이징 영역이므로, 앱을 다시 게시할 때까지 변경 사항은 반영되지 않습니다. 이를 통해 게시된 앱에 영향을 미치지 않고 변경 사항을 적용할 수 있습니다.  
  
-1. 콘텐츠의 앱 작업 영역 목록으로 돌아가서 **앱 업데이트**를 선택합니다.
+3. 콘텐츠의 앱 작업 영역 목록으로 돌아가서 **앱 업데이트**를 선택합니다.
    
      ![앱 업데이트 단추](media/service-create-distribute-apps/power-bi-app-update-button.png)
 
@@ -147,6 +148,32 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
      ![앱 업데이트 단추](media/service-create-distribute-apps/power-bi-app-update-complete.png)
 
 해당 앱을 게시한 사람들은 자동으로 업데이트된 버전의 앱을 보게 됩니다. 
+
+# <a name="automatically-install-apps-for-end-users"></a>최종 사용자에 대해 자동으로 앱 설치
+자동으로 최종 사용자에게 앱을 설치하여 올바른 앱을 올바른 사용자 또는 그룹에게 쉽게 배포할 수 있습니다.
+
+앱은 최종 사용자가 해당 작업을 수행하기 위해 필요한 데이터를 제공합니다. Microsoft AppSource 에서 찾거나 설치 링크를 따르지 않고 앱 콘텐츠에서 이러한 앱을 자동으로 설치할 수 있습니다. 이렇게 하면 사용자에게 표준 Power BI 콘텐츠를 쉽게 제공할 수 있습니다.
+
+## <a name="how-to-install-an-app-automatically-for-end-users"></a>최종 사용자에게 앱을 자동으로 설치하는 방법
+관리자가 기능을 사용할 수 있다면 앱 게시자는 **앱을 자동으로 설치**하기 위해 새 옵션을 사용할 수 있습니다. 상자를 ***선택***하고 응용 프로그램 게시자가 **마침**(또는 기존 앱의 경우 **앱 업데이트**)을 선택하는 경우 앱은 **액세스** 탭에 있는 앱의 **권한** 섹션에서 정의된 모든 사용자 또는 그룹에 푸시됩니다.
+
+![앱 푸시 설정](media/service-create-distribute-apps/power-bi-apps-access.png)
+
+## <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>사용자가 푸시된 앱을 가져오는 방법
+앱을 푸시한 후에 자동으로 앱 목록을 표시합니다. 조직의 사용자 또는 작업 역할에 바로 액세스해야 하도록 앱을 조정할 수 있습니다.
+
+![앱 푸시 설정](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+
+### <a name="considerations-for-automatically-installing-apps"></a>앱을 자동으로 설치하기 위한 고려 사항
+앱을 최종 사용자에게 푸시할 때 유의할 사항은 다음과 같습니다.
+
+* 사용자에게 앱을 자동으로 설치하는 데 시간이 걸릴 수 있습니다. 대부분의 앱은 사용자에게 즉시 설치되지만 앱을 푸시하는 데 시간이 걸릴 수 있습니다.  앱에 있는 항목의 수 및 액세스 권한이 부여된 사용자의 수에 따라 다릅니다. 사용자가 필요로 하기 전에 업무 외 시간 동안 충분히 앱을 푸시하는 것이 좋습니다. 앱의 가용성에 대한 광범위 통신을 보내기 전에 여러 사용자에게 확인합니다.
+
+* 브라우저를 새로 고칩니다. 앱 목록에서 푸시된 앱을 표시하기 전에 사용자를 새로 고치거나 해당 브라우저를 닫았다가 다시 열어야 합니다.
+
+* 사용자가 앱 목록에서 앱을 즉시 확인하지 않는 경우 해당 브라우저를 새로 고치거나 닫았다가 다시 열어야 합니다.
+
+* 사용자에게 과도한 부하가 걸리지 않도록 하세요. 사용자가 미리 설치된 앱이 유용함을 인식할 수 있도록 너무 많은 앱을 푸시하지 않도록 합니다. 타이밍을 조정하기 위해 최종 사용자에게 앱을 푸시할 수 있는 사용자를 제어하는 것이 좋습니다. 최종 사용자에게 푸시된 조직의 앱을 가져오기 위해 연락 지점을 설정할 수 있습니다.
 
 ## <a name="unpublish-an-app"></a>앱 게시 취소
 앱 작업 영역의 모든 멤버는 앱 게시를 취소할 수 있습니다.
@@ -167,7 +194,7 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>앱이 조직 콘텐츠 팩과 다른점
 앱은 콘텐츠 팩이 단순하게 진화한 것으로, 몇 가지 주요 다른점이 있습니다. 
 
-* 비즈니스 사용자가 콘텐츠 팩을 설치한 후에는 그룹화된 ID를 잃게 됩니다. 그저 다른 대시보드 및 보고서가 혼재된 대시보드 및 보고서 목록일 뿐입니다. 한편으로, 앱은 설치 후에도 그룹화와 ID를 유지합니다. 이를 통해 비즈니스 사용자는 시간이 지나도 계속 해당 앱으로 이동할 수 있습니다.  
+* 비즈니스 사용자가 콘텐츠 팩을 설치한 후에는 그룹화된 ID를 잃게 됩니다. 그저 다른 대시보드 및 보고서가 혼재된 대시보드 및 보고서 목록일 뿐입니다. 한편으로, 앱은 설치 후에도 그룹화와 ID를 유지합니다. 이를 통해 비즈니스 사용자는 시간이 지나도 계속 해당 앱으로 이동할 수 있습니다.
 * 어떠한 작업 영역에서도 여러 콘텐츠 팩을 만들 수 있지만 앱은 해당 작업 영역과 일대일 관계를 맺습니다. 따라서 앱이 훨씬 더 파악하기 쉽고 장기적으로 유지할 수 있습니다. 이 영역을 개선하는 방법에 대한 자세한 내용은 Power BI 블로그의 로드맵 섹션을 참조하세요. 
 * 시간이 지나면 조직 콘텐츠 팩의 사용을 중단할 계획이므로, 지금부터 앱을 만드는 것이 좋습니다.  
 
@@ -179,5 +206,5 @@ Power BI에서 *앱*을 만들어 관련된 대시보드 및 보고서를 한 �
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 앱 설치 및 사용](service-install-use-apps.md)
 * [외부 서비스용 Power BI 앱](service-connect-to-services.md)
+* [Power BI 관리 포털](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-

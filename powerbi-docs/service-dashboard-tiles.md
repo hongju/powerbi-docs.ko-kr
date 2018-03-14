@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
 대시보드 및 대시보드 타일은 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. Power BI 모바일에서는 대시보드 타일을 만들거나 고정할 수 없지만 [보고 공유](mobile-tiles-in-the-mobile-apps.md)할 수는 있습니다. 또한 Power BI 모바일에서는 [iPhone 앱으로 대시보드에 그림을 추가](mobile-iphone-app-get-started.md)할 수 있습니다.
 
 ## <a name="dashboard-tiles"></a>대시보드 타일
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Power BI 대시보드](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 타일은 대시보드에 고정된 데이터에 대한 스냅숏입니다. 타일은 보고서, 데이터 집합, 대시보드, 질문 및 답변 상자, Excel 및 SSRS(SQL Server Reporting Services) 등에서 만들 수 있습니다.  이 스크린샷은 대시보드에 고정된 여러 타일을 보여 줍니다.
 
@@ -53,34 +54,34 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
 
 [타일 추가](service-dashboard-add-widget.md)를 사용하여 대시보드에서 이미지, 텍스트 상자, 동영상, 스트리밍 데이터 및 웹 콘텐츠에 대한 독립 실행형 타일을 직접 만들 수 있습니다.
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![타일 추가 아이콘](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>대시보드에서 타일 조작
 ### <a name="move-and-resize-a-tile"></a>타일 이동 및 크기 조정
-타일을 선택하고 [대시보드 내에서 이동](service-dashboard-edit-tile.md)합니다. 핸들 ![](media/service-dashboard-tiles/resize-handle.jpg)을 가리켜서 선택하여 타일 크기를 조정합니다.
+타일을 선택하고 [대시보드 내에서 이동](service-dashboard-edit-tile.md)합니다. 핸들 ![핸들](media/service-dashboard-tiles/resize-handle.jpg)을 가리키고 선택하여 타일 크기를 조정합니다.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>타일을 가리켜서 모양 및 동작을 변경합니다.
 1. 타일을 가리켜서 줄임표을 표시합니다.
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![타일 줄임표](media/service-dashboard-tiles/ellipses_new.png)
 2. 줄임표를 선택하여 타일 동작 메뉴를 엽니다.
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![줄임표 아이콘](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     여기에서 다음과 같은 작업을 할 수 있습니다.
    
-   * [이 타일을 만드는 데 사용된 보고서 열기](service-reports.md) ![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [이 타일을 만드는 데 사용된 보고서 열기](service-reports.md) ![보고서 아이콘](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [이 타일을 만드는 데 사용된 워크시트 열기](service-reports.md) ![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [이 타일을 만드는 데 사용된 워크시트 열기](service-reports.md) ![워크시트 아이콘](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [포커스 모드로 보기](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [타일에 사용된 데이터 내보내기](power-bi-visualization-export-data.md) ![](media/service-dashboard-tiles/export-icon.png)
-     * [제목 및 부제목 편집, 하이퍼링크 추가 및 마지막 새로 고침 시간 표시](service-dashboard-edit-tile.md) ![](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [정보 실행](service-insights.md)![](media/service-dashboard-tiles/power-bi-insights.png)
+     * [포커스 모드로 보기](service-focus-mode.md) ![포커스 아이콘](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [타일에 사용된 데이터 내보내기](power-bi-visualization-export-data.md) ![데이터 내보내기 아이콘](media/service-dashboard-tiles/export-icon.png)
+     * [제목 및 부제목 편집, 하이퍼링크 추가 및 마지막 새로 고침 시간 표시](service-dashboard-edit-tile.md) ![편집 아이콘](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [정보 실행](service-insights.md) ![정보 아이콘](media/service-dashboard-tiles/power-bi-insights.png)
      * [타일을 다른 대시보드에 고정](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [타일 제거](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+       ![고정 아이콘](media/service-dashboard-tiles/pin-icon.jpg)
+     * [타일 제거](service-dashboard-edit-tile.md)
+     ![삭제 아이콘](media/service-dashboard-tiles/trash-icon.png)
 3. 동작 메뉴를 닫으려면 캔버스의 빈 영역을 선택합니다.
 
 ### <a name="select-click-a-tile"></a>타일 선택(클릭)

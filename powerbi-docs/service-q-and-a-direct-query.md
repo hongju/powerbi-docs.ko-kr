@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>라이브 연결로 질문 및 답변 사용
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>온-프레미스 데이터 게이트웨이란 무엇인가요?  라이브 연결이란?
@@ -44,15 +45,15 @@ Power BI 질문 및 답변은 데이터 원본에서 텍스트 및 스키마 값
 ## <a name="enable-qa"></a>질문 및 답변 사용
 데이터 게이트웨이를 등록한 후에 Power BI에서 데이터에 연결합니다.  온-프레미스 데이터를 사용하여 대시보드를 만들거나 온-프레미스 데이터를 사용하는 .pbix 파일을 업로드합니다.  또한 사용자와 공유된 대시보드, 보고서 및 데이터 집합에 온-프레미스 데이터가 이미 있을 수 있습니다.
 
-1. Power BI의 오른쪽 위에서 톱니바퀴 아이콘 ![](media/service-q-and-a-direct-query/power-bi-cog.png)을 선택한 다음 **설정**을 선택합니다.
+1. Power BI의 오른쪽 위에서 톱니바퀴 아이콘 ![기어 아이콘](media/service-q-and-a-direct-query/power-bi-cog.png)을 선택하고 **설정**을 선택합니다.
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![설정 메뉴](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. **데이터 집합**을 선택하고 질문 및 답변에 사용할 데이터 집합을 선택합니다.
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![설정 메뉴의 데이터 집합 화면](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. **질문 및 답변 및 Cortana**를 확장하고 **이 데이터 집합에 대한 질문 및 답변 설정** 확인란을 선택하고 **적용**을 선택합니다.
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![확장된 질문 및 답변 영역](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>데이터 캐시의 의미와 개인 정보 보호 방법은 무엇인가요?
 온-프레미스 데이터에 대한 질문 및 답변을 사용하면 데이터의 하위 집합이 서비스에 캐시됩니다. 이렇게 하려면 질문 및 답변을 적절한 성능으로 사용하여야 합니다. Power BI는 24자보다 긴 값을 캐싱에서 제외합니다. **이 데이터 집합에 대한 질문 및 답변 켜기** 선택을 취소하여 질문 및 답변을 사용하지 않거나 데이터 집합을 삭제하면 몇 시간 이내에 캐시가 삭제됩니다.

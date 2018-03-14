@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 62796d9eb376ab4c92cc5596176ac501a69c0e62
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Power BI 서비스에서 인쇄
 Power BI 서비스에서 전체 대시보드, 대시보드 타일, 보고서 페이지 또는 보고서 시각적 개체를 인쇄합니다. 보고서는 한 번에 한 페이지만 인쇄할 수 있습니다. 전체 보고서를 한 번에 인쇄할 수는 없습니다.
@@ -41,25 +41,24 @@ Amanda가 대시보드 및 보고서에서 인쇄하는 모습을 시청합니�
 1. 인쇄하려는 대시보드를 엽니다.
 2. 오른쪽 위의 모서리에서 줄임표(...)를 선택하고 **대시보드 인쇄**를 선택합니다.
    
-    ![](media/service-print/pbi_print_dash_ellipses.png)
+    ![대시보드 인쇄 옵션](media/service-print/pbi_print_dash_ellipses.png)
 3. 브라우저의 인쇄 창이 열립니다. 설정 및 인쇄 대상을 선택하고 **인쇄**를 선택합니다.
    
    > [!NOTE]
    > 표시된 인쇄 대화 상자는 사용 중인 브라우저에 따라 달라집니다.
    > 
-   > 
    
-    ![](media/service-print/pbi_print_dash_new2.png)
+    ![인쇄 대화 상자](media/service-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>대시보드 타일 인쇄
-1. 줄임표를 선택하고 포커스 아이콘 ![](media/service-print/power-bi-focus-icon.png)을 선택하여 [포커스 모드에서 타일을 엽니다](service-focus-mode.md).
+1. 줄임표를 선택하고 포커스 아이콘 ![포커스 아이콘](media/service-print/power-bi-focus-icon.png)을 선택하여 [포커스 모드에서 타일을 엽니다](service-focus-mode.md).
    
-    ![](media/service-print/menu-options.png)
-2. 이제 맨 위 탐색 모음에서 전체 화면 아이콘![](media/service-print/power-bi-full-screen-icon.png)을 선택하여 [전체 화면 모드](service-fullscreen-mode.md)에서 타일을 봅니다.
+    ![줄임표 메뉴](media/service-print/menu-options.png)
+2. 이제 맨 위 탐색 모음에서 전체 화면 아이콘 ![전체 화면 아이콘](media/service-print/power-bi-full-screen-icon.png)을 선택하여 [전체 화면 모드](service-fullscreen-mode.md)에서 타일을 봅니다.
 3. 타일을 마우스로 가리켜서 옵션 메뉴 표시
    
-    ![](media/service-print/menu-options-new.png)
-4. 인쇄 아이콘 ![](media/service-print/print-icon.png)을 선택합니다.     
+    ![전체 화면 옵션 메뉴](media/service-print/menu-options-new.png)
+4. 인쇄 아이콘 ![인쇄 아이콘](media/service-print/print-icon.png)을 선택합니다.     
    
    > [!NOTE]
    > 표시된 인쇄 대화 상자는 사용 중인 브라우저에 따라 달라집니다.
@@ -72,7 +71,7 @@ Amanda가 대시보드 및 보고서에서 인쇄하는 모습을 시청합니�
 1. 읽기용 보기 또는 편집용 보기에서 보고서를 엽니다.
 2. **파일** > **인쇄**를 선택하여 현재 보고서 페이지를 인쇄합니다.
    
-    ![](media/service-print/power-bi-print.png)
+    ![Power BI 파일 메뉴](media/service-print/power-bi-print.png)
 3. 브라우저의 인쇄 창이 열립니다.
    
    > [!NOTE]
@@ -81,7 +80,7 @@ Amanda가 대시보드 및 보고서에서 인쇄하는 모습을 시청합니�
    > 
 
 ## <a name="print-a-report-visual"></a>보고서 시각적 개체 인쇄
-1. 타일 위로 마우스를 가져가고 오른쪽 위 모서리에서 포커스 아이콘 ![](media/service-print/power-bi-focus-icon.png)을 선택하여 [시각적 개체를 포커스 모드에서 엽니다](service-focus-mode.md). 
+1. 타일 위로 마우스를 가져가고 오른쪽 위 모서리에서 포커스 아이콘 ![포커스 아이콘](media/service-print/power-bi-focus-icon.png)을 선택하여 [시각적 개체를 포커스 모드에서 엽니다](service-focus-mode.md).
 2. 위의 *보고서 페이지 인쇄*의 2-3단계를 진행합니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결

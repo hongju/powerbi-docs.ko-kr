@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 서비스 보고서의 읽기용 보기 및 편집용 보기
 Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작용할 수 있는 읽기용 보기 및 편집용 보기라는 두 가지 모드가 있습니다. 읽기용 보기는 모든 사용자가 사용할 수 있으며 특히 데이터 *소비자*를 위해 설계되었지만 편집용 보기는 보고서 *작성자*와 소유자만 사용할 수 있습니다. 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![보고서 작성자 및 보고서 소비자의 아트워크](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>보고서 읽기용 보기
 
@@ -83,17 +84,17 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 
 1. 기본적으로 보고서는 보통 읽기용 보기에서 열립니다. **보고서 편집** 옵션이 보일 경우 읽기용 보기로 보고 있다는 의미입니다. **보고서 편집**이 회색으로 표시될 경우 편집용 보기에서 보고서를 열 권한이 없는 것입니다.
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![회색으로 표시된 보고서 편집](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. **보고서 편집**이 회색으로 표시되지 않을 경우 편집용 보기에서 보고서를 열도록 선택하세요. 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![보고서 편집 옵션](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    보고서가 편집용 보기 상태가 되며 읽기용 보기에서 마지막으로 사용한 것과 동일한 [표시 설정](power-bi-report-display-settings.md)을 사용합니다.
 
 2. **읽기용 보기**로 돌아가려면 위쪽 탐색 모음에서 읽기용 보기를 선택합니다.
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![읽기용 보기 옵션](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

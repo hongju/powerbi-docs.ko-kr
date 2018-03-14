@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 67b9dd605f5de2de1e824948143011797ad1f937
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Get started
+ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁
 Power BI를 사용하면서 "즉각적인" 도움이 필요한 경우 Power BI 질문에 대한 답변을 받지 못해 실망하거나 어려움을 겪은 적이 있나요? 
@@ -56,7 +57,7 @@ Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.
 
 다음과 같은 추가 온라인 옵션을 찾아볼 수 있습니다.
 
-* **edX.org**는 무료 과정인 [Power BI로 데이터 분석 및 시각화](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)를 제공합니다. 
+* **edX.org**는 무료 과정인 [Power BI로 데이터 분석 및 시각화](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)를 제공합니다.
 * **Lynda.com**은 [Power BI Pro 필수 교육](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)과 같은 과정을 제공합니다.
 * "**Dashboard in a Day**"교육 세션에 직접 참여해보세요.
 
@@ -67,15 +68,14 @@ Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.
 [Power BI 사용자 그룹](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups)에 가입하여 그룹에 질문에 대한 도움을 요청합니다. 또는 자신만의 사용자 그룹을 시작하고 해당 지역 시간대에서 원하는 데이터에 대한 요구에 대해 서로 도움을 주고 있는 사람들의 커뮤니티를 만듭니다.
 
 ## <a name="9-check-the-service-status"></a>9 서비스 상태 확인
-서비스에 문제가 있는 경우 서비스 자체에 문제가 있을 수 있습니다. 이에 대한 보고서가 있는지 [지원 페이지를 확인합니다](https://powerbi.microsoft.com/support/). 
+서비스에 문제가 있는 경우 서비스 자체에 문제가 있을 수 있습니다. 이에 대한 보고서가 있는지 [지원 페이지를 확인합니다](https://powerbi.microsoft.com/support/).
 
 ## <a name="10-just-try-it"></a>10 그냥 해보기
-다른 모든 방법이 실패한 경우 마지막 팁으로 시스템을 관찰하는 방법이 있습니다. 사람들이 종종 Power BI에는 어떤 기능이 있는지 문의하는 경우가 있습니다. 이러한 유형의 질문은 Power BI 서비스 또는 Power BI Desktop으로 이동하고 사용자 인터페이스에서 옵션을 살펴본 다음 이를 사용해봄으로써 답변하기도 합니다. 
+다른 모든 방법이 실패한 경우 마지막 팁으로 시스템을 관찰하는 방법이 있습니다. 사람들이 종종 Power BI에는 어떤 기능이 있는지 문의하는 경우가 있습니다. 이러한 유형의 질문은 Power BI 서비스 또는 Power BI Desktop으로 이동하고 사용자 인터페이스에서 옵션을 살펴본 다음 이를 사용해봄으로써 답변하기도 합니다.
 
 예를 들어, 대시보드를 보안 그룹과 공유할 수 있는지 궁금한 경우가 있습니다. 이러한 질문에 대해 답변하려면 공유 대화 상자로 이동하여 보안 그룹을 추가해봅니다. 어느 쪽이든 테스트해본 다음 답변할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 시작](service-get-started.md) 
+* [Power BI 시작](service-get-started.md)
 * [Power BI 커뮤니티](http://community.powerbi.com/)에 질문하기
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
-

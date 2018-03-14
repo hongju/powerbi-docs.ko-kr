@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: f0a50c0aba1a05c55236192a730c3187cb37c055
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 서비스 콘텐츠 팩 프로그램의 개요
 콘텐츠 팩은 사용자가 원본에서 즉시 정보를 얻을 수 있도록 해주는 기본 제공 콘텐츠 집합입니다. 일반적으로 콘텐츠 팩은 역할, 도메인, 워크플로에 대한 정보를 제공하는 특정 비즈니스 시나리오에 초점을 둡니다.
@@ -64,9 +64,9 @@ PowerBI 서비스 및 AppSource에 게시될 콘텐츠 팩을 빌드하고 제�
 * 별도의 고유한 시나리오에 대해 두 개 이상의 콘텐츠 팩을 제공하는 방법 고려  
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
-**소유하지 않은 타사 SaaS 응용 프로그램에 대한 Power BI 서비스 콘텐츠 팩을 빌드할 수 있습니까?**
+**타사는 소유하지 않은 SaaS 응용 프로그램에 대해 Power BI 서비스 콘텐츠 팩을 빌드할 수 있나요?**
 
-아니요, 현재 서비스에서 콘텐츠 팩을 게시하기 전에 SaaS 응용 프로그램의 소유자와 파트너 계약을 서명해야 합니다.
+서비스에서 콘텐츠 팩을 게시하기 전에 SaaS 응용 프로그램의 소유자와 파트너 계약을 서명해야 합니다. 타사인 경우 SaaS 응용 프로그램 소유자와 파트너 계약에 용이하게 서명해야 합니다.
 
 **내 서비스에 대한 공용 개발자 API가 없습니다. 데이터 저장소에서 데이터를 직접 가져오는 Power BI 서비스 콘텐츠 팩을 빌드할 수 있습니까?**
 
@@ -76,9 +76,13 @@ PowerBI 서비스 및 AppSource에 게시될 콘텐츠 팩을 빌드하고 제�
 
 Power BI 서비스 콘텐츠 팩은 모든 REST API 또는 OData 피드를 지원합니다. Power BI는 기본 인증, OAuth2.0 및 웹 API 키를 비롯 한 여러 인증 유형과 함께 작업할 수 있습니다. 기술 요구 사항에 대한 자세한 내용은 [제작](template-content-pack-authoring.md#dashboard) 문서를 참조하세요.
 
+**Power BI에 게시된 콘텐츠 팩이 있습니다. 업데이트하려면 어떻게 하나요?**
+
+게시된 콘텐츠 팩은 한 달에 한 번 업데이트할 수 있습니다. 현재 달의 마지막 날 전에 [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)에 제출된 업데이트 요청은 다음 월의 첫 번째 주에 게시됩니다.
+
 **서비스 콘텐츠 팩에 대한 더 많은 질문이 있습니다. 어떻게 연락할 수 있습니까?**
 
-pbiservicesapps@microsoft.com으로 메일을 보내 자유롭게 질문하세요.
+[pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)으로 이메일을 보내 자유롭게 질문하세요.
 
 ## <a name="support"></a>지원
 개발 중에 지원을 받으려면 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)를 사용하세요. 적극적으로 모니터링 및 관리됩니다. 고객 인시던트에서 해당 팀에 연락하는 방법을 신속하게 찾을 수 있습니다.

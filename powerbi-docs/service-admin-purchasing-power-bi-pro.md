@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: maghan
-ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: c4fa2e0e2927f8050648884e1833adf618a7d4f5
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Power BI Pro 구매
 Power BI Pro는 사용자가 보고서를 게시하고, 대시보드를 공유하고, 작업 영역에서 동료와 공동 작업하며, 다음과 같은 기타 관련된 작업을 수행하기 위한 것입니다.
@@ -63,7 +64,7 @@ Power BI Pro에 대한 최신 가격 정보와 포함된 기능이 나열된 테
 > Power BI 프리미엄 및 2017년 6월 1일에 무료 제공된 Power BI에 대한 변경 내용을 사용하면 Extended Pro 평가판을 이용할 수 있습니다. 자세한 내용은 [Extended Pro 평가판 활성화](service-extended-pro-trial.md)를 참조하세요.
 
 ### <a name="what-this-looks-like-within-the-service"></a>서비스 내에서 모양
-서비스를 사용하는 경우 **기어* 아이콘으로 이동하고 **개인 저장소 관리**를 선택하여 Pro 평가판 계정이 있는지 확인할 수 있습니다.
+서비스를 사용하는 경우 **기어** 아이콘으로 이동하고 **개인 저장소 관리**를 선택하여 Pro 평가판 계정이 있는지 확인할 수 있습니다.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial3.png)
 

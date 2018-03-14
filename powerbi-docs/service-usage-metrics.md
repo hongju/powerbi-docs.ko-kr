@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/21/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 36a79b6ec984ee663868c5f20efaa8cd5b596d2a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>대시보드 및 보고서의 사용 메트릭
 대시보드 및 보고서를 만드는 경우 사용량 메트릭은 해당 영향을 이해하도록 돕습니다. 대시보드 사용량 메트릭 또는 보고서 사용 메트릭을 실행하면 해당 대시보드 및 보고서가 조직 내에서 어떻게 사용되고 있는지, 무엇이 누구에 의해 어떠한 목적으로 사용되고 있는지를 파악할 수 있습니다.  
@@ -32,7 +33,7 @@ ms.lasthandoff: 01/23/2018
 
 이러한 사용 메트릭 보고서는 읽기 전용입니다. 하지만 “다른 이름으로 저장”을 사용하면 사용 메트릭 보고서를 개인 설정할 수 있습니다. 그러면 새 데이터 집합이 만들어지고 읽기 전용 보고서에서 편집할 수 있는 모든 기능을 갖춘 Power BI 보고서로 변환됩니다. 개인 설정된 보고서는 선택한 대시보드 또는 보고서에 대한 메트릭을 포함할 뿐만 아니라, 기본 필터를 제거하면 선택한 작업 영역의 모든 대시보드 또는 모든 보고서에 대한 사용 메트릭에 액세스할 수 있습니다.
 
-![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
+![사용 메트릭 보고서](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ## <a name="why-are-usage-metrics-important-to-me"></a>사용 메트릭이 중요한 이유는 무엇입니까?
 콘텐츠가 사용되는 방식을 알고 있으면 영향을 보여 주고 활동의 우선 순위를 정하는 데 도움이 됩니다. 사용 메트릭은 보고서 중 하나가 조직의 거대한 세그먼트에 의해 매일 사용되는 것을 보여 주고 사용자가 만든 대시보드를 전혀 보고 있지 않는 것을 보여 줄 수 있습니다. 이러한 유형의 피드백은 작업 활동 안내에 유용합니다.
@@ -48,7 +49,7 @@ ms.lasthandoff: 01/23/2018
 ## <a name="about-the-usage-metrics-report"></a>사용 메트릭 보고서 정보
 
 
-**사용 메트릭** 또는 ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) 아이콘을 선택하면 Power BI에서는 최근 90일 동안 해당 콘텐츠에 대한 사용 메트릭을 사용하여 미리 작성된 보고서를 생성합니다.  보고서는 이미 익숙한 Power BI 보고서와 매우 비슷해 보이지만 대화형이 아닌 정보 제공을 위해 설계되었습니다. 최종 사용자가 액세스를 수신하는 방법(웹 또는 모바일 앱 등을 통해 액세스했는지 여부)에 따라 조각화할 수 있게 됩니다. 대시보드 및 보고서를 확대하면 사용 메트릭 보고서도 확대되며 매일 새 데이터로 업데이트됩니다.  
+**사용 메트릭** 또는 ![사용 메트릭 아이콘](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) 아이콘을 선택하면 Power BI에서는 최근 90일 동안 해당 콘텐츠에 대한 사용 메트릭을 사용하여 미리 작성된 보고서를 생성합니다.  보고서는 이미 익숙한 Power BI 보고서와 매우 비슷해 보이지만 대화형이 아닌 정보 제공을 위해 설계되었습니다. 최종 사용자가 액세스를 수신하는 방법(웹 또는 모바일 앱 등을 통해 액세스했는지 여부)에 따라 조각화할 수 있게 됩니다. 대시보드 및 보고서를 확대하면 사용 메트릭 보고서도 확대되며 매일 새 데이터로 업데이트됩니다.  
 
 사용 메트릭 보고서는 **최근**, **작업 영역**, **즐겨찾기** 또는 기타 내용 목록에 나타나지 않습니다. 앱에 추가할 수 없습니다. 사용 메트릭 보고서에서 타일을 대시보드에 고정하는 경우 해당 대시보드를 앱 또는 콘텐츠 팩에 추가할 수 없습니다.
 
@@ -56,14 +57,14 @@ ms.lasthandoff: 01/23/2018
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>대시보드 또는 보고서에 대한 사용 메트릭 보고서 열기
 1. 대시보드 또는 보고서를 포함하는 작업 영역에서 시작합니다.
-2. 작업 영역 콘텐츠 목록 또는 대시보드나 보고서 자체에서 **사용 메트릭**![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)에 대한 아이콘을 선택합니다.
+2. 작업 영역 콘텐츠 목록 또는 대시보드나 보고서 자체에서 **사용 메트릭** ![사용 메트릭 아이콘](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)에 대한 아이콘을 선택합니다.
    
-    ![](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
+    ![대시보드 탭](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
    
-    ![](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
+    ![사용 메트릭 선택](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
 3. 처음에 이를 수행하면 Power BI에서 사용 메트릭 보고서를 만들고 준비되면 사용자에게 알려줍니다.
    
-    ![](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
+    ![메트릭이 준비되었습니다.](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
 4. 결과를 열려면 **사용 메트릭 보기**를 선택합니다.
    
     사용 메트릭은 Power BI 대시보드 및 보고서를 배포 및 유지 관리하는 데 강력한 협력 기능이 될 것입니다. 보고서 중 가장 유용한 페이지와 단계적으로 중지해야 하는 페이지를 알고 싶으세요? **보고서 페이지**별로 조각화하여 살펴보세요. 대시보드에 대한 모바일 레이아웃을 작성해야 하는지 궁금하세요? **플랫폼**별로 조각화하여 모바일 앱 및 웹 브라우저를 통해 콘텐츠에 액세스하는 사용자 수를 알아보세요.
@@ -94,14 +95,14 @@ ms.lasthandoff: 01/23/2018
 | 순위: 총 공유 |예 |아니요 |지난 90일 동안 조직에 있는 모든 대시보드 총 공유의 경우 이 대시보드 또는 보고서 순위를 집계합니다. |
 
 ### <a name="dashboard-usage-metrics-report"></a>대시보드 사용 메트릭 보고서
-![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
+![대시보드 사용 메트릭 보고서](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ### <a name="report-usage-metrics-report"></a>보고서 사용 메트릭 보고서
-![](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
+![보고서 사용 메트릭 보고서](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
 ## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>완전한 기능을 갖춘 Power BI 보고서로 사용 메트릭 보고서 저장(개인 설정)
 
-![](media/service-usage-metrics/power-bi-save-as.png)
+![다른 이름으로 저장](media/service-usage-metrics/power-bi-save-as.png)
 
 **다른 이름으로 저장**을 사용하여 사용 메트릭 보고서를 사용자 지정하고 공유할 수 있는 완전한 기능을 갖춘 Power BI 보고서로 변환합니다. 개인 설정된 복사본을 만들면 기본 데이터 집합에 대한 모든 액세스 권한을 얻게 되어 사용 메트릭 보고서를 사용자 특정 요구에 맞게 사용자 지정할 수 있습니다. Power BI Desktop을 사용하여 [Power BI 서비스 기능에 라이브 연결](https://powerbi.microsoft.com/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop)을 통한 사용자 지정 사용 메트릭 보고서를 작성할 수도 있습니다.
 
@@ -116,16 +117,16 @@ Power BI에서 완전한 기능을 갖춘 보고서를 만드는 경우 지난 9
 
 1. 미리 작성된 사용 메트릭 보고서에서 **파일 > 다른 이름으로 저장**을 선택합니다. Power BI에서는 사용 메트릭 보고서를 완전한 기능을 갖춘 Power BI 보고서로 변환합니다. *개인 설정된* 사용 메트릭 보고서라고도 합니다. 개인 설정된 사용 현황 보고서 및 데이터 집합은 **mihart*라고 하는 현재 작업 영역에 저장됩니다.
    
-    ![](media/service-usage-metrics/power-bi-save-as.png)
+    ![다른 이름으로 저장](media/service-usage-metrics/power-bi-save-as.png)
 2. 편집용 보기에서 보고서를 열고 [다른 Power BI 보고서와 마찬가지로 상호 작용](service-interact-with-a-report-in-editing-view.md)합니다. 예를 들어 새 페이지를 추가하고, 새 시각화를 빌드하고, 필터를 추가하고, 글꼴 및 색 등 서식을 지정합니다.
    
-    ![](media/service-usage-metrics/power-vi-editing-view.png)
+    ![편집용 보기에서 보고서 열기](media/service-usage-metrics/power-vi-editing-view.png)
 3. 또는 새 데이터 집합을 시작하고 보고서를 처음부터 작성합니다.
    
-    ![](media/service-usage-metrics/power-bi-new-dataset.png)
+    ![데이터 집합 탭](media/service-usage-metrics/power-bi-new-dataset.png)
 4. 새 보고서는 현재 작업 영역(mihart)에 저장되고 **최근** 콘텐츠 목록에도 추가됩니다.
    
-    ![](media/service-usage-metrics/power-bi-new-report.png)
+    ![보고서 탭](media/service-usage-metrics/power-bi-new-report.png)
 
 ### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>필터를 제거하여 작업 영역의 ***모든*** 사용 현황 메트릭 데이터를 봅니다.
 작업 영역의 모든 대시보드 또는 모든 보고서에 대한 메트릭을 보려면 필터를 제거해야 합니다. 기본적으로 개인 설정된 보고서는 해당 보고서를 만드는 데 사용된 대시보드 또는 보고서에 대한 메트릭만 표시하도록 필터링되어 있습니다.
@@ -134,10 +135,10 @@ Power BI에서 완전한 기능을 갖춘 보고서를 만드는 경우 지난 9
 
 1. 개인 설정된 보고서를 편집용 보기로 엽니다.
    
-    ![](media/service-usage-metrics/power-bi-editing-view.png)
+    ![보고서 편집 선택](media/service-usage-metrics/power-bi-editing-view.png)
 2. 필터 창에서 **보고서 수준 필터** 버킷으로 이동하여 “x”를 선택하여 필터를 제거합니다.
    
-    ![](media/service-usage-metrics/power-bi-report-level-filter2.png)
+    ![필터 변경](media/service-usage-metrics/power-bi-report-level-filter2.png)
    
     이제 개인 설정된 보고서에 전체 작업 영역에 대한 메트릭이 표시됩니다.
 
@@ -146,13 +147,13 @@ Power BI에서 완전한 기능을 갖춘 보고서를 만드는 경우 지난 9
 
 1. Power BI 서비스의 오른쪽 맨 위 모퉁이에 있는 기어 아이콘을 선택하고 **관리자 포털**을 선택하여 관리자 포털을 엽니다.
    
-    ![](media/service-usage-metrics/power-bi-admin-portal-new.png)
+    ![기어 아이콘 선택](media/service-usage-metrics/power-bi-admin-portal-new.png)
 2. 관리 포털에서 **테넌트 설정** 및 **콘텐츠 작성자의 사용 메트릭**을 선택합니다.
    
-    ![](media/service-usage-metrics/power-bi-usage-settings.png)
+    ![관리 포털](media/service-usage-metrics/power-bi-usage-settings.png)
 3. 사용 메트릭을 설정(또는 설정 해제)하고 **적용**을 선택합니다.
    
-    ![](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+    ![설정된 사용 메트릭](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
 전체 조직에 대한 사용 메트릭을 비활성화하면 관리자는 **기존 사용 메트릭 콘텐츠 모두 삭제** 옵션을 사용하여 사용 메트릭 보고서 및 데이터 집합을 통해 빌드한 기존 보고서 및 대시보드 타일을 모두 삭제할 수 있습니다. 이 옵션은 이미 사용 메트릭을 사용 중일 수도 있는 조직의 모든 사용자에게서 사용 메트릭 데이터에 대한 모든 액세스를 제거합니다. 기존 사용 메트릭 콘텐츠 삭제는 되돌릴 수 없으므로 조심해야 합니다.
 

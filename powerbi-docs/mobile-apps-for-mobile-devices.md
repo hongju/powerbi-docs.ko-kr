@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6803c8aa2898c9ab27b515c04d7db813e7d44ea4
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 7285e15b6f63cc53b9221a46e0a524313c413cda
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="take-power-bi-anywhere-in-mobile-apps-for-your-mobile-device"></a>모바일 장치용 모바일 앱 어디서나 Power BI 사용하기
 Power BI 서비스([https://powerbi.com](https://powerbi.com))에서 Power BI 대시보드 및 보고서를 보고, [Power BI Report Server](report-server/get-started.md)에서 온-프레미스 Power BI 보고서를 봅니다. 이제 Power BI 모바일 앱에서 온-프레미스 및 클라우드 데이터에 연결할 수 있습니다. iOS(iPad, iPhone, iPod Touch 또는 Apple Watch), Android 휴대폰 또는 태블릿, Windows 10 장치 등의 모바일 장치에서 Power BI 대시보드 및 보고서를 보고 상호 작용해 보세요.
@@ -51,4 +51,5 @@ Microsoft Intune을 사용하면 액세스 핀이 필요하고, 응용 프로그
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 무료 및 Pro 라이선스](service-free-vs-pro.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+
 

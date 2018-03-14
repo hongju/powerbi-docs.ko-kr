@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/01/2018
 ms.author: maikelson
-ms.openlocfilehash: a16ed05732f5031f0a6f33522d52bb501e241c4f
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -39,6 +39,10 @@ ms.lasthandoff: 02/09/2018
 <br>작성자: Miranda Li
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
 
+**20분 안에 Power BI 대시보드에 대해 자세히 알아보기**
+<br>작성자: Miguel Martinez
+<br>[등록 및 지금 보기](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
 **Better Together: Excel 사용자가 Power BI로부터 얻을 수 있는 5가지 장점**
 <br>작성자: Carlos Otero 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
@@ -49,36 +53,14 @@ ms.lasthandoff: 02/09/2018
 
 등록하여 Power BI 전문가 의견을 듣고 라이브 QA 세션에 참가하기
 
-**Office 365 재무 전문가 웹 세미나 시리즈 - 에피소드 2: 정기 보고서 자동화 및 셀프 서비스 분석 사용**
-<br>발표자: Mark Traverso, Miguel Martinez
-<br>2월 15일, 오후 12시 태평양 표준시, 오후 3시 동부 표준시
+**Power BI 채택 프레임워크 웹 세미나 시리즈: 1부 - 채택: 데이터 기반 문화권 채택**
+<br>작성자: Manu Kanwarpal
+<br>*3월 8일, 오전 9시 태평양 표준시, 오후 12시 동부 표준시*
 
-Office 365를 사용하여 일상적인 업무를 더욱 효율적으로 수행할 수 있는 팁, 요령 및 모범 사례를 알아봅니다.
+조직의 기반을 데이터 기반 문화권으로 바꾸고 Microsoft의 Power BI에 대한 채택 프레임워크를 제공하는 웹 세미나 시리즈에 등록합니다. 셀프 서비스 BI(비즈니스 인텔리전스)를 도입하기는 쉽지 않으며 도구를 가져오는 것은 과정의 첫 단계일 뿐입니다. 성공적으로 도입하려면 사람, 프로세스 및 기술을 변경해야 합니다.
+이 웹 세미나는 조직에서 Power BI의 가능성을 활용하는 5파트 시리즈의 첫 번째 단계입니다.
 
-[2월 15일에 시청하도록 등록](https://aka.ms/Office365FinanceProsPBI)
-
-**Microsoft와 함께 BI 솔루션 판매**
-<br>발표자: Tamer Farag
-<br>2월 15일, 오전 8시 태평양 표준시, 오전 11시 동부 표준시
-
-이 웹 세미나에 참가하여 Microsoft와 파트너 관계를 맺고 비즈니스 인텔리전스 시장 기회를 잡는 방법을 알아보세요. 사업을 구축하고 성장시키는 데 도움이 되는 최신 교육 리소스, 마케팅 자료, 인센티브 및 제안에 대한 개요를 살펴보세요. 또한 Microsoft 고객 및 판매자에게 귀사의 솔루션 및 제안이 가장 중요함을 보여 주기 위해 PowerBI.com과 AppSource.com에서 선보이는 방법을 알아보세요.
-
-[2월 15일에 시청하도록 등록](https://infopedia.eventbuilder.com/event?eventid=l9d4s7)
-
-**20분 안에 Power BI 대시보드에 대해 자세히 알아보기**
-<br>작성자: Miguel Martinez
-<br>*2월 21일, 오전 10:00 태평양 표준시, 오후 1:00 동부 표준시*
-
-생각하기 위해 Power BI 대시보드를 열어보았나요?  내게 중요한 데이터를 찾기 위해 살펴보려면 어떻게 할까요? '고장'날지도 모른다는 걱정 때문에 필터 및 슬라이서의 사용을 제한하나요?  걱정마세요. Power BI 대시보드에 대해 자세히 알아보려면 참여하세요. 원하실 때에 사용하려는 데이터를 드릴다운하기 위해 다른 관리자가 사용하는 일반적인 기능을 설명합니다.
-
-[2월 21일에 시청하도록 등록](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
-
-**새 Power BI 및 data.world 커넥터를 사용하여 공용 또는 개인 데이터 집합 시각화**
-<br>2월 22일, 오전 10시 태평양 표준시, 오후 1시 동부 표준시
-
-data.world와 협력하여 Microsoft는 data.world 데이터 집합을 Power BI Desktop으로 가져올 수 있는 새 데이터 커넥터를 출시했습니다. 참가하여 이 새로운 커넥터를 활용하고 data.world 커뮤니티를 통해 데이터 스토리에서 다른 사용자와 공유하고 공동 작업하는 방법을 알아보세요.
-
-[2월 22일에 시청하도록 등록](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+[3월 8일에 시청하도록 등록](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
 
 >[Power BI 커뮤니티의 예정된 웹 세미나 참석](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -110,9 +92,17 @@ data.world와 협력하여 Microsoft는 data.world 데이터 집합을 Power BI 
 <br>작성자: Blue Margin의 Jon Thompson 및 Elgin Fastener Group의 Jim Pastor
 <br>[등록 및 지금 보기](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
+**새 Power BI 및 data.world 커넥터를 사용하여 공용 또는 개인 데이터 집합 시각화**
+<br>작성자: Patrick McGarry 및 Miguel Martinez
+<br>[등록 및 지금 보기](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
 ### <a name="advanced-topics"></a>고급 항목 ###
 
-**조직을 더 안전하게 하는 성공적인 데이터 거버넌스 전략 구현 방법**
+**Office 365 재무 전문가 웹 세미나 시리즈 - 에피소드 2: 정기 보고서 자동화 및 셀프 서비스 분석 사용**
+<br>발표자: Mark Traverso, Miguel Martinez
+<br>[등록 및 지금 보기](https://aka.ms/Office365FinanceProsPBI)
+
+**조직을 더 안전하게 하는 성공적인 데이터 거번넌스 전략 구현 방법**
 <br>작성자: Ajay Anandan
 <br>[등록 및 지금 보기](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 

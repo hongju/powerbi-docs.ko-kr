@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: a7c4db0044772c28a3cb7a62649de3001945246c
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Reports
+ms.openlocfilehash: 7e2ef4a1ec49335a49e7f934a7606b2fe64f755c
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>Power BI 보고서의 시각화 조작
 보고서에 대한 편집 권한이 있는 경우 **시각적 상호 작용**을 사용하여 보고서 페이지의 시각화들이 서로 영향을 주는 방식을 변경할 수 있습니다. 
@@ -44,24 +45,24 @@ ms.lasthandoff: 01/11/2018
 2. **시각적 상호 작용** 옵션을 표시합니다.
     - Power BI 서비스에서 보고서 메뉴 모음에서 드롭다운을 선택합니다.
 
-       ![](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
+       ![시각적 개체 상호 작용 드롭다운](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
 
     - 바탕 화면에서 **서식 > 상호 작용** 을 선택합니다.
 
-        ![](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
+        ![형식 및 상호 작용 선택](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
 
 3. 시각화 상호 작용 컨트롤을 켜려면 **상호 작용 편집**을 선택합니다. Power BI는 보고서 페이지의 다른 모든 시각화에 교차 필터 및 교차 강조 표시 아이콘을 추가합니다.
    
-    ![](media/service-reports-visual-interactions/power-bi-icons-on.png)
+    ![시각적 상호 작용이 설정된 보고서](media/service-reports-visual-interactions/power-bi-icons-on.png)
 3. 선택한 시각화가 서로 간에 어떤 영향을 미쳐야 하는지 확인합니다.  그리고 필요에 따라 보고서 페이지의 다른 모든 시각화에 대해 이 작업을 반복합니다.
    
-   * 시각화를 교차 필터링해야 하는 경우 **필터** 아이콘 ![](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png)을 선택합니다.
-   * 시각화를 교차 강조 표시해야 하는 경우 **강조 표시** 아이콘 ![](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png)을 선택합니다.
-   * 영향을 미치지 않아야 할 경우 **영향을 주지 않음** 아이콘 ![](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png)을 선택합니다.
+   * 시각화를 교차 필터링해야 하는 경우 **필터** 아이콘 ![필터 아이콘](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png)을 선택합니다.
+   * 시각화를 교차 강조 표시해야 하는 경우 **강조 표시** 아이콘 ![강조 표시 아이콘](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png)을 선택합니다.
+   * 영향을 미치지 않아야 할 경우 **영향을 주지 않음** 아이콘 ![영향을 주지 않음 아이콘](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png)을 선택합니다.
 
 4. 드릴링 컨트롤을 켜려면 **기타 시각적 개체 드릴 필터링**을 선택합니다.  이제 시각화에서 드릴다운(및 드릴업)하면 보고서 페이지의 다른 시각화가 현재 드릴링 선택을 반영하도록 변경됩니다. 
 
-   ![](media/service-reports-visual-interactions/drill2.gif)
+   ![컨트롤을 드릴링하도록 설정하는 비디오](media/service-reports-visual-interactions/drill2.gif)
 
 ### <a name="next-steps"></a>다음 단계
 [보고서 필터를 사용하는 방법](power-bi-how-to-report-filter.md)
