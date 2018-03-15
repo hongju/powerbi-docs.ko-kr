@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8ff3470f45ec84798c9fe7302b31a8fe364f18c9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8a2b330ee134bf8aeb94315b90e71824ec1eb8ef
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI와 함께 사용 가능한 샘플 데이터는 무엇입니까?
 Power BI를 처음 접하고, 사용해 보고 싶지만 데이터가 없는 경우가 있습니다.  또는 데이터 집합이 있지만 Power BI의 작동 원리를 아직 잘 모르기 때문에 데이터 집합이 조금이라도 손상될까봐 걱정하는 분들이 있습니다.
@@ -106,16 +106,16 @@ ObviEnce는 Microsoft Business Intelligence에 주력하는 ISV이자 IP(Intelle
 ### <a name="get-and-open-a-sample-content-pack-in-power-bi-service"></a>Power BI 서비스에서 샘플 콘텐츠 팩을 가져와 열기
 1. Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.
 2. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. 데이터 가져오기 페이지가 표시되면 **샘플** 아이콘을 선택합니다.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. 샘플 중 하나를 선택하여 해당 샘플에 대한 설명을 엽니다. 그런 다음 **연결**을 선택합니다.  
-   
+
    ![](media/sample-datasets/power-bi-connect.png)
 5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 집합을 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 샘플을 사용하여 Power BI 실행을 테스트해 보세요.  
-   
+
    ![](media/sample-datasets/power-bi-asterisk.png)
 
 데이터가 있으니 원하는 대로 할 수 있습니다.  샘플 콘텐츠 팩을 사용하여 자습서를 따라 하거나 Power BI 서비스를 열고 둘러보세요.
@@ -124,7 +124,7 @@ ObviEnce는 Microsoft Business Intelligence에 주력하는 ISV이자 IP(Intelle
 각 샘플 콘텐츠 팩은 Excel 통합 문서로도 제공됩니다. Excel 통합 문서는 Power BI 서비스와 함께 사용할 수 있게 설계되었습니다.  
 
 1. 아래 링크에서 파일을 개별적으로 다운로드하거나 [모든 샘플 파일의 zip 파일을 다운로드](http://go.microsoft.com/fwlink/?LinkId=535020)합니다. 고급 사용자는 Excel 통합 문서를 다운로드하여 데이터 모델을 탐색하거나 편집할 수 있습니다.
-   
+
    * [소매점 분석 샘플](http://go.microsoft.com/fwlink/?LinkId=529778)
    * [공급업체 품질 분석 샘플](http://go.microsoft.com/fwlink/?LinkId=529779)
    * [인적 자원 샘플](http://go.microsoft.com/fwlink/?LinkId=529780)
@@ -134,35 +134,35 @@ ObviEnce는 Microsoft Business Intelligence에 주력하는 ISV이자 IP(Intelle
    * [조달 분석 샘플](http://go.microsoft.com/fwlink/?LinkId=529784)
    * [영업 및 마케팅 샘플](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. 다운로드한 파일을 저장합니다. 파일을 저장하는 위치에 따라 차이가 발생합니다.
-   
+
    * ![](media/sample-datasets/power-bi-local-file2.png) **로컬** - 파일을 사용자 컴퓨터의 로컬 드라이브 또는 조직의 다른 위치에 저장하는 경우 Power BI에서 파일을 Power BI로 가져올 수 있습니다. 파일은 사실 로컬 드라이브에 그대로 남아 있으므로, 전체 파일을 실제로 Power BI로 가져온 것은 아닙니다. 실제로는, 새 데이터 집합이 Power BI에서 만들어지고 데이터, 그리고 일부 경우에는 데이터 모델이 데이터 집합으로 로드됩니다. 파일에 보고서가 있을 경우 Power BI의 보고서에 나타납니다.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 비즈니스** – 비즈니스용 OneDrive가 있을 경우 Power BI에 로그인할 때 비즈니스용 OneDrive와 동일한 계정을 사용하여 로그인하면 Excel, Power BI 또는 .CSV 파일의 작업을 가장 효과적으로 Power BI의 데이터 집합, 보고서 및 대시보드와 동기화 상태로 유지할 수 있습니다. Power BI와 OneDrive가 모두 클라우드에 있으므로 Power BI는 매시간 OneDrive의 파일에 연결합니다. 변경 내용이 발견되면 데이터 집합, 보고서 및 대시보드가 Power BI에서 자동으로 업데이트됩니다.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 개인** – 본인의 OneDrive 계정으로 파일을 저장할 경우 비즈니스용 OneDrive에 제공하는 것과 동일한 많은 혜택을 누릴 수 있습니다. 가장 큰 차이점은 파일에 처음 연결할 때(‘데이터 가져오기’ > ‘파일’ > ‘OneDrive - 개인’ 사용) Microsoft 계정으로 OneDrive에 로그인해야 한다는 점이 가장 큰 차이점이며, 일반적으로 Power BI에 로그인하기 위해 사용하는 것과는 다릅니다. Microsoft 계정으로 OneDrive에 로그인할 경우 로그인 유지 옵션을 선택해야 합니다. 이러한 방식으로 Power BI는 매시간 파일에 연결할 수 있으며 Power BI의 데이터 집합은 동기화를 유지하게 됩니다.
    * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint 팀 사이트** – Power BI 파일을 SharePoint 팀 사이트에 저장하는 것은 비즈니스용 OneDrive에 저장하는 것과 거의 마찬가지입니다. 가장 큰 차이점은 Power BI에서 파일에 연결하는 방법입니다. URL을 지정하거나 루트 폴더에 연결할 수 있습니다.
 3. Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.
-   
+
    > [!TIP]
    > 이때 새 대시보드를 만들고, 가져오려는 파일의 이름으로 지정하는 것이 좋습니다.  그러지 않으면 Excel 데이터 집합을 가져올 때 Power BI에서 샘플의 이름을 딴 새 대시보드를 만들지 않고 현재 열어본 적이 있는 대시보드에 타일을 추가합니다. 해당 타일을 선택하면 데이터 집합의 보고서로 이동합니다. 이 새 대시보드는 나중에 언제든 만들 수 있으므로 큰 문제가 되지는 않지만 새 대시보드로 시작하면 한두 단계를 건너뛸 수 있다는 장점이 있습니다.
-   > 
-   > 
+   >
+   >
 4. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 5. 데이터 가져오기 페이지가 표시되면 **파일 > 가져오기**를 선택합니다.
-   
+
      ![](media/sample-datasets/power-bi-files.png)
 6. 샘플을 다운로드하고 저장한 위치로 이동합니다.
-   
+
    ![](media/sample-datasets/power-bi-files3.png)
 7. 비즈니스용 OneDrive에 저장된 **조달 분석 샘플.xlsx** 파일을 선택하고 **연결**을 선택합니다.
-   
+
    ![](media/sample-datasets/power-bi-connect2.png)
 8. Power BI로 통합 문서를 가져올지, 데이터를 가져올지 선택하고 온라인 Excel과 똑같은지 확인합니다.
-   
+
     ![](media/sample-datasets/power-bi-import.png)
 9. **가져오기**를 선택하면 Power BI에서 샘플 통합 문서를 가져와 **조달 분석 샘플**이라는 새 데이터 집합으로 추가합니다.  통합 문서에 파워 뷰 시트, 테이블 또는 범위나 데이터 모델이 있을 경우 Power BI에서 같은 이름의 보고서도 만듭니다. 열려 있는 대시보드가 아직 없을 경우 Power BI에서 새 대시보드를 만듭니다. (**데이터 가져오기**를 클릭할 때 대시보드가 열려 있으면 해당 대시보드에 새 빈 타일이 표시됩니다.  해당 타일을 클릭하면 방금 추가한 데이터 집합에 대한 보고서로 이동합니다). 새 콘텐츠에는 샘플의 이름을 딴 이름이 지정되며, 노란색 별표가 표시됩니다.
 10. **데이터 집합이 준비되었습니다!** 화면이 나타나면 **데이터 집합 보기** 또는 **빠른 정보 활용 탐색**을 선택하거나 간단히 Power BI 왼쪽 탐색 모음을 사용하여 연결된 보고서 또는 대시보드를 엽니다.  
-    
+
      ![](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(선택 사항) 내부 Excel 자체에서 Excel 샘플 살펴보기
@@ -170,18 +170,18 @@ Excel 통합 문서의 데이터가 Power BI 데이터 집합 및 보고서로 �
 
 * Excel에서 처음으로 샘플 통합 문서를 열면 두 가지 경고가 표시될 수 있습니다. 첫 번째는 통합 문서가 제한된 보기 상태라는 메시지입니다. **편집 사용**을 선택합니다. 두 번째는 통합 문서에 외부 데이터 연결이 있다는 메시지입니다. **콘텐츠 사용**을 선택합니다.
 * 각 통합 문서에는 여러 개의 시트가 있습니다. 이러한 Excel 샘플은 모두 시각화 요소가 있는 파워 뷰 시트를 하나 이상 포함하고 있기 때문에 Power BI로 Excel 파일을 가져오면 데이터 집합 **및** 보고서가 생성됩니다.
-  
+
    [파워 뷰 추가 기능을 사용하도록 설정](https://support.office.com/article/Create-a-Power-View-sheet-in-Excel-2013-B23D768D-7586-47FE-97BD-89B80967A405#__toc328591957)해야 할 수 있습니다.
 * 그렇다면 실제 데이터는 어디에 있을까요? 파워 피벗 데이터 모델에 있습니다. 데이터를 보려면 **PowerPivot** 탭에서 **데이터 모델 관리**를 선택합니다.
-  
-    PowerPivot 탭이 표시되지 않는 경우 [파워 피벗 추가 기능을 사용하도록 설정](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8)합니다. 
+
+    PowerPivot 탭이 표시되지 않는 경우 [파워 피벗 추가 기능을 사용하도록 설정](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8)합니다.
 * 정보 탭에서는 샘플을 만든 obviEnce 회사에 대한 정보를 제공합니다.
 
 ## <a name="the-power-bi-samples-as-pbix-files"></a>.pbix 파일 형식의 Power BI 샘플
 각 샘플 콘텐츠 팩은 Power BI .pbix 파일로도 제공됩니다. .pbix 파일은 Power BI Desktop과 함께 사용할 수 있게 설계되었습니다.  
 
 1. 아래에 있는 링크를 사용하여 파일을 개별적으로 다운로드하세요.
-   
+
    * [소매점 분석 샘플](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail Analysis Sample PBIX.pbix)
    * [공급업체 품질 분석 샘플](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    * [인적 자원 샘플](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
@@ -192,7 +192,7 @@ Excel 통합 문서의 데이터가 Power BI 데이터 집합 및 보고서로 �
    * [영업 및 마케팅 샘플](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix)
 2. 다운로드한 파일을 저장합니다.
 3. Power BI Desktop에서 **파일 > 열기**를 선택하고 .pbix 샘플을 저장한 위치로 이동합니다.
-   
+
    ![](media/sample-datasets/power-bi-desktop-open.png)
 4. Desktop에서 열 .pbix 파일을 선택합니다.
 
@@ -204,4 +204,3 @@ Excel 통합 문서의 데이터가 Power BI 데이터 집합 및 보고서로 �
 [Power BI용 데이터 원본](service-get-data.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-

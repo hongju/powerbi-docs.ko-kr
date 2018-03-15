@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 26308afc86ce83a24a40b078770db35213f600e0
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8a98780e0854b997e00a88f1ab3a5002e8c2fb10
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>탐색: Power BI 서비스에서 콘텐츠 검색, 찾기 및 정렬
 Power BI 서비스에서 콘텐츠를 탐색하는 방법은 여러 가지가 있습니다. 콘텐츠는 작업 영역 내에서 대시보드, 보고서, 통합 문서, 데이터 집합과 같은 유형별로 정리됩니다.  그리고 즐겨찾기, 최근, 공유한 항목, 주요와 같은 용도별로도 정리됩니다. 이처럼 다양한 콘텐츠 경로를 통해 Power BI 서비스에서 필요한 항목을 빠르게 찾을 수 있습니다.  

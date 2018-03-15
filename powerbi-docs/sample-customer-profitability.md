@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI용 고객 수익성 샘플: 둘러보기
 
@@ -40,21 +40,22 @@ ms.lasthandoff: 03/01/2018
 
 1. Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.
 2. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. 데이터 가져오기 페이지가 표시되면 **샘플** 아이콘을 선택합니다.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. **고객 수익성 샘플**을 선택한 다음 **연결**을 선택합니다.  
-   
+
    ![데이터 가져오기](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 집합을 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 샘플을 사용하여 Power BI 실행을 테스트해 보세요.  
-   
+
    ![별표](media/sample-customer-profitability/supplier-sample-asterisk.png)
-  
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>이 샘플의 .pbix 파일 가져오기
 
-또는 Power BI Desktop에 사용하도록 설계된 .pbix 파일로 샘플을 다운로드할 수 있습니다. [고객 수익성 샘플](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> 수익성 샘플 PBIX.pbix)
+또는 Power BI Desktop에 사용하도록 설계된 .pbix 파일로 샘플을 다운로드할 수 있습니다.
+[고객 수익성 샘플](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
@@ -87,13 +88,13 @@ ms.lasthandoff: 03/01/2018
 
 ![](media/sample-customer-profitability/power-bi-manager2.png)
 
-- Carlos를 제외한 모든 경영진이 이미 매출 목표를 초과했습니다. 그러나 Carlos의 실제 매출이 가장 높습니다. 
+- Carlos를 제외한 모든 경영진이 이미 매출 목표를 초과했습니다. 그러나 Carlos의 실제 매출이 가장 높습니다.
 - 3월 이후 Annelie의 GM%가 가장 낮지만 꾸준한 증가가 보입니다.
-- 반면 Valery의 GM%가 현저히 떨어진 것을 확인했습니다. 
-- Andrew는 불안한 한 해를 보냈습니다. 
+- 반면 Valery의 GM%가 현저히 떨어진 것을 확인했습니다.
+- Andrew는 불안한 한 해를 보냈습니다.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>대시보드의 기본 데이터 살펴보기
-이 대시보드에는 보고서와 Excel 통합 문서에 연결된 타일이 있습니다. 
+이 대시보드에는 보고서와 Excel 통합 문서에 연결된 타일이 있습니다.
 
 ### <a name="open-the-excel-online-data-source"></a>Excel Online 데이터 원본 열기
 이 대시보드의 두 타일, “목표 및 실제”와 “전년동기대비 수익 성장”이 Excel 통합 문서에서 고정되었습니다. 그러므로 이 타일 중 하나를 선택하면 Power BI에서 데이터 원본(이 경우 Excel Online)을 엽니다.
@@ -112,14 +113,14 @@ ms.lasthandoff: 03/01/2018
 
 4. 계속 살펴보면서 흥미로운 항목을 찾으면 오른쪽 위 모서리에서 **고정** ![](media/sample-customer-profitability/power-bi-excel-pin.png)을 선택하여 [대시보드에 고정합니다](service-dashboard-pin-tile-from-excel.md).
 
-5. 대시보드로 돌아가려면 브라우저의 뒤로 화살표를 사용합니다. 
+5. 대시보드로 돌아가려면 브라우저의 뒤로 화살표를 사용합니다.
 
 ### <a name="open-the-underlying-power-bi-report"></a>기본 Power BI 보고서 열기
-고객 수익성 샘플 대시보드의 대부분의 타일이 기본 고객 수익성 샘플 보고서에서 고정되어 있습니다. 
+고객 수익성 샘플 대시보드의 대부분의 타일이 기본 고객 수익성 샘플 보고서에서 고정되어 있습니다.
 
-1. 이러한 타일 중 하나를 선택하여 읽기용 보기에서 보고서를 엽니다. 
+1. 이러한 타일 중 하나를 선택하여 읽기용 보기에서 보고서를 엽니다.
 
-2. 보고서는 3페이지로 구성되어 있습니다. 보고서 아래의 각 탭은 페이지를 나타냅니다. 
+2. 보고서는 3페이지로 구성되어 있습니다. 보고서 아래의 각 탭은 페이지를 나타냅니다.
 
     ![](media/sample-customer-profitability/power-bi-report-tabs.png)
 
@@ -155,10 +156,10 @@ ms.lasthandoff: 03/01/2018
 
 거품형 차트에서 CFO는 수익에 가장 큰 영향을 미치는 가장 큰 거품을 찾습니다. 영역형 차트에서 이름을 클릭하여 관리자로 페이지를 필터링하면 업계 세그먼트별로 각 관리자가 미치는 영향을 쉽게 볼 수 있습니다.
 
-* Andrew의 영향 영역은 여러 다른 업계 세그먼트에 다양한 GM%(대부분 긍정적인 쪽) 및 Var%로 걸쳐져 있습니다. 
-* Annelie의 차트는 그녀가 연방 세그먼트에 중점을 둔 소수의 업계 세그먼트 및 Gladius 제품에 중점을 둔 업계 세그먼트에만 중점을 둔다는 사실을 제외하고는 유사합니다. 
-* Carlos는 서비스 세그먼트에 명확한 중점을 두고 좋은 수익을 거둡니다. 그는 하이테크 세그먼트에 대한 분산도 %를 대폭 향상시켰으며, 그에게는 새로운 세그먼트인 업계도 예산에 비해 잘 수행했습니다. 
-* Tina는 소수의 세그먼트만 취급하여 가장 높은 GM%을 나타내지만, 가장 작은 크기의 그녀의 거품은 회사의 결론에 그녀가 미치는 영향이 가장 작음을 나타냅니다. 
+* Andrew의 영향 영역은 여러 다른 업계 세그먼트에 다양한 GM%(대부분 긍정적인 쪽) 및 Var%로 걸쳐져 있습니다.
+* Annelie의 차트는 그녀가 연방 세그먼트에 중점을 둔 소수의 업계 세그먼트 및 Gladius 제품에 중점을 둔 업계 세그먼트에만 중점을 둔다는 사실을 제외하고는 유사합니다.
+* Carlos는 서비스 세그먼트에 명확한 중점을 두고 좋은 수익을 거둡니다. 그는 하이테크 세그먼트에 대한 분산도 %를 대폭 향상시켰으며, 그에게는 새로운 세그먼트인 업계도 예산에 비해 잘 수행했습니다.
+* Tina는 소수의 세그먼트만 취급하여 가장 높은 GM%을 나타내지만, 가장 작은 크기의 그녀의 거품은 회사의 결론에 그녀가 미치는 영향이 가장 작음을 나타냅니다.
 * 단 하나의 제품만 담당하는 Valery는 불과 5개의 업계 세그먼트에서만 일합니다. 그녀가 업계에 미치는 영향은 계절에 의존하지만 언제나 회사의 결론에 중대한 영향을 미침을 나타내는 큰 거품을 생성합니다. 업계가 그녀의 부정적인 성능을 설명해 줍니까?
 
 ### <a name="executive-scorecard"></a>경영진 성과 기록표
@@ -174,9 +175,9 @@ ms.lasthandoff: 03/01/2018
     ![](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. **Valery에 대한 업계별 총 수익**을 입력합니다. 질문을 입력하면 시각화가 어떻게 업데이트되는지 확인합니다.
-   
+
     ![](media/sample-customer-profitability/power-bi-qna.png)
-   
+
    배포는 Valery에게 있어 가장 큰 수익 영역입니다.
 
 ### <a name="dig-deeper-by-adding-filters"></a>필터를 추가하여 더 자세히 보기
@@ -184,15 +185,15 @@ ms.lasthandoff: 03/01/2018
 
 1. “업계 수익 분석” 보고서 페이지를 엽니다.
 2. 보고서 페이지에서 시각화를 선택하지 않고 오른쪽 필터 창을 확장합니다(이미 확장되어 있지 않은 경우). 필터 창은 페이지 수준 필터만 표시합니다.  
-   
+
    ![](media/sample-customer-profitability/power-bi-filters.png)
 3. **업계**에 대한 필터를 찾아 화살표를 선택하여 목록을 확대합니다. 유통 업계에 대한 페이지 필터를 추가해 보겠습니다. 먼저 **모두 선택** 확인란을 지워 모든 선택을 취소합니다. 그런 다음, **유통**만 선택합니다.  
-   
+
    ![](media/sample-customer-profitability/customer7.png)
 4. “월별 및 임원 이름별 총수익” 영역형 차트는 Valery와 Tina만이 이 업계의 고객을 보유하고 있으며, Valery는 6월에서 9월까지만 이 업계에서 일했음을 보여줍니다.   
-5. "월별 및 임원별 총수익" 영역별 차트 범례에서 **Tina**를 선택한 후 **Valery**를 선택합니다. “제품별 총 수익”에서 Tina가 차지하는 부분은 Valery에 비해 매우 작음을 알 수 있습니다. 
+5. "월별 및 임원별 총수익" 영역별 차트 범례에서 **Tina**를 선택한 후 **Valery**를 선택합니다. “제품별 총 수익”에서 Tina가 차지하는 부분은 Valery에 비해 매우 작음을 알 수 있습니다.
 6. 실제 수익을 보려면 질문 및 답변을 사용하여 **경영진의 시나리오별 배포에 대한 총 수익**을 문의합니다.  
-   
+
      ![](media/sample-customer-profitability/power-bi-qna2.png)
 
     다른 업계에 대해서도 비슷하게 탐색할 수 있으며, 시각적 개체에 고객을 추가하여 Valery의 활동의 원인을 이해할 수도 있습니다.
@@ -205,4 +206,3 @@ ms.lasthandoff: 03/01/2018
 이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 고객 데이터를 파악하는 방법을 확인하는 데 도움이 되었기를 바랍니다. 이제 고유한 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 소스에 연결할 수 있습니다. [Power BI 시작하기](service-get-started.md)에 대해 자세히 알아보세요.
 
 [Power BI의 샘플로 돌아가기](sample-datasets.md)  
-
