@@ -862,6 +862,8 @@
       items:
         - name: iOS용 Power BI 앱
           href: mobile-ios-ipad-iphone-apps.md
+        - name: 혼합 현실을 위한 Power BI
+          href: mobile-mixed-reality-app.md
         - name: 모바일 앱에서 온-프레미스 보고서 및 KPI 보기
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
         - name: 모바일 앱의 대시보드
