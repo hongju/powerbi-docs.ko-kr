@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 06ed973b3b16f5ac8ed8bef484d48af994a4e5f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI 게이트웨이 - 개인
 > [!NOTE]
@@ -178,7 +178,7 @@ Windows에 로그인되어 있는 경우:
 | *.analysis.windows.net |443 |HTTPS |
 | *.login.windows.net |443 |HTTPS |
 | *.servicebus.windows.net |5671-5672 |AMQP(고급 메시지 큐 프로토콜) |
-| *.servicebus.windows.net |443, 9350-9354 |TCP를 통한 서비스 버스 릴레이의 수신기(액세스 제어 토큰 획득에는 443 필요) |
+| *.servicebus.windows.net |443, 9350-9354 |TCP를 통한 Service Bus Relay의 수신기(Access Control 토큰 획득을 위해 443 필요) |
 | *.frontend.clouddatahub.net |443 |HTTPS |
 | *.core.windows.net |443 |HTTPS |
 | login.microsoftonline.com |443 |HTTPS |

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: bd96466a8a8c19a495540b93a512cb62746a6837
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 407f4d8c2faf26b9837b24318c24c118786e21ae
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-tablets"></a>Android 태블릿에서 Power BI 모바일 앱 시작
 Android 태블릿용 Power BI 모바일 앱은 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 
@@ -36,7 +36,7 @@ Power BI Desktop에서 Power BI 보고서를 만들고 게시합니다.
 온-프레미스 또는 클라우드에 있는지와 상관없이 Android 태블릿용 Power BI 앱에서 대시보드 및 보고서를 조작합니다. [Power BI 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)을 알아보세요.
 
 ## <a name="first-things-first"></a>먼저 수행할 중요한 작업
-* **앱 다운로드** Google Play에서 [Android용 Power BI 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkID=544867)합니다.
+* **앱 다운로드**  Google Play에서 [Android용 Power BI 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkID=544867)합니다.
   
   > [!NOTE]
   > Power BI는 다양한 Android 태블릿에서 실행할 수 있습니다. 태블릿에서 Android 5.0 이상의 운영 체제를 실행해야 합니다. 태블릿을 확인하려면 **설정** > **장치 정보** > **Android 버전**으로 이동합니다. 
@@ -142,3 +142,4 @@ Power BI의 대시보드 및 보고서와 Power BI Report Server 또는 Reportin
 * Android 앱 스토어에서 [Android 앱 다운로드](http://go.microsoft.com/fwlink/?LinkID=544867)
 * [Power BI 시작](service-get-started.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+

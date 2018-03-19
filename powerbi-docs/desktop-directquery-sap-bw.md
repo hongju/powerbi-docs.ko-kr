@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4e8c4def5defc32ef7ba6414c3d76ac778564b66
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3697928986c5e579407e227911c5beab71c6a08d
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 및 SAP BW(Business Warehouse)
 **DirectQuery**를 사용하여 **SAP BW(Business Warehouse)** 데이터 원본에 직접 연결할 수 있습니다. SAP BW의 OLAP/다차원 특성을 고려할 때 관계형 원본(예: SQL Server)과 SAP BW에 대한 DirectQuery 간에는 많은 차이점이 있습니다. 이러한 차이점은 다음과 같이 요약됩니다.
@@ -32,6 +32,9 @@ ms.lasthandoff: 02/24/2018
 * OLAP 원본의 고유한 특성을 고려할 때 DirectQuery에 적용되는 일반적인 제한 사항 외에도 추가로 적용되는 모델링 및 시각화 둘 다에 대한 제한 사항이 있습니다. 이러한 제한 사항은 이 문서의 뒷부분에서 설명합니다.
 
 또한 Power BI에서 지원되지 않는 SAP BW 기능이 많이 있다는 것과 SAP BW에 대한 공용 인터페이스의 특성으로 인해 Power BI를 통해 나타나는 결과가 SAP 도구를 사용할 때 나타나는 결과와 일치하지 않는 중요한 경우가 있다는 것을 *이해해야 합니다*. 이러한 제한 사항은 이 문서의 뒷부분에서 설명합니다. 이러한 제한 사항과 동작의 차이점을 신중하게 검토하여 SAP 공용 인터페이스에서 반환된 Power BI를 통해 얻은 결과가 올바르게 해석되도록 합니다.  
+
+> [!NOTE]
+> SAP BW를 통해 DirectQuery를 사용하는 기능은 Power BI Desktop 2018년 3월 업데이트까지 미리 보기 상태였습니다. 미리 보기 중에 접수된 피드백과 개선 사항 제안으로 인해 해당 미리 보기 버전을 사용하여 만든 보고서에 영향을 주는 변경 내용이 생겼습니다. 이제 SAP BW를 통한 DirectQuery GA(일반 공급)가 출시되었으므로, SAP BW를 통한 DirectQuery GA 이전 버전으로 작성된 기존의 모든 (미리 보기 기반) 보고서를 *삭제*해야 합니다. SAP BW를 통한 DirectQuery GA 이전 버전으로 만든 보고서에서 기본 SAP BW 큐브를 변경한 후 메타데이터를 새로 고치려고 하면 Refresh 호출 시 GA 이전 버전의 보고서에 오류가 발생합니다. SAP BW를 통한 DirectQuery GA 버전을 사용하여 빈 보고서에서 해당 보고서를 다시 만드세요. 
 
 ## <a name="additional-modelling-restrictions"></a>추가 모델링 제한 사항
 Power BI에서 DirectQuery를 사용하여 SAP BW에 연결할 때 기본적인 추가 모델링 제한 사항은 다음과 같습니다.

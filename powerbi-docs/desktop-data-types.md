@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d15aeaf90e748b9ba14a0160042d2db4f36d3150
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop의 데이터 형식
 이 문서에서는 Power BI Desktop 및 DAX(Data Analysis Expressions)에서 지원하는 데이터 형식을 설명합니다. 
 
 데이터를 로드할 때 Power BI Desktop은 원본 열의 데이터 형식을 더 효율적인 저장, 계산 및 데이터 시각화를 지원할 수 있는 데이터 형식으로 변환하려 합니다. 예를 들어 Excel에서 가져오는 값 열에 소수 자릿수 값이 없는 경우, Power BI Desktop은 데이터의 전체 열을 정수 저장에 더 적합한 한정수 데이터 형식으로 변환합니다.
 
-일부 DAX 함수에는 특정 데이터 형식 요구 사항이 있기 때문에 이 작업이 중요합니다. 많은 경우 DAX는 암시적으로 데이터 형식을 변환하나 그렇지 않은 경우도 일부 존재합니다.  예를 들어, DAX 함수에서 날짜 데이터 형식이 필요한데 열의 데이터 형식은 텍스트인 경우 DAX 함수가 제대로 작동하지 않습니다.  따라서 열에 정확한 데이터 형식을 확보하는 것이 중요하면서 유용합니다. 암시적 변환은 이 문서의 뒷부분에서 설명합니다.
+일부 DAX 함수에는 특정 데이터 형식 요구 사항이 있기 때문에 이 개념은 중요합니다. 많은 경우 DAX는 암시적으로 데이터 형식을 변환하나 그렇지 않은 경우도 일부 존재합니다.  예를 들어, DAX 함수에서 날짜 데이터 형식이 필요한데 열의 데이터 형식은 텍스트인 경우 DAX 함수가 제대로 작동하지 않습니다.  따라서 열에 정확한 데이터 형식을 확보하는 것이 중요하면서 유용합니다. 암시적 변환은 이 문서의 뒷부분에서 설명합니다.
 
 ## <a name="determine-and-specify-a-columns-data-type"></a>열의 데이터 형식 확인 및 지정
 Power BI Desktop에서는 쿼리 편집기, 데이터 보기 또는 보고서 보기의 열 데이터 형식을 결정 및 지정할 수 있습니다.
@@ -109,7 +109,7 @@ DAX는 집계, 시간 인텔리전스 계산 등과 같이 다양한 함수에�
 
 **빼기(-)**
 
-다음 표에서 행 머리글은 피감수(왼쪽), 열 머리글은 감수(오른쪽)를 나타냅니다.
+다음 테이블에서 행 머리글은 피감수(왼쪽), 열 머리글은 감수(오른쪽)를 나타냅니다.
 
 | 연산자(-) | 정수 | 통화 | 실수 | 날짜/시간 |
 | --- | --- | --- | --- | --- |
@@ -155,7 +155,7 @@ DAX는 집계, 시간 인텔리전스 계산 등과 같이 다양한 함수에�
 
 =IF(FALSE()\>"true","Expression is true", "Expression is false"), returns "Expression is true"
 
-=IF("12"\>12,"Expression is true", "Expression is false"), returns "Expression is true".
+=IF("12"\>12,"Expression is true", "Expression is false"), returns "Expression is true"
 
 =IF("12"=12,"Expression is true", "Expression is false"), returns "Expression is false"
 
@@ -169,7 +169,7 @@ DAX는 집계, 시간 인텔리전스 계산 등과 같이 다양한 함수에�
 | 날짜/시간 |실수 |실수 |실수 |날짜/시간 |
 
 ### <a name="handling-blanks-empty-strings-and-zero-values"></a>공백, 빈 문자열 및 0 값 처리
-DAX에서 null, 빈 값, 공백 셀 또는 누락된 값은 모두 동일한 새 값 형식인 BLANK로 나타냅니다. BLANK 함수를 사용하여 공백을 만들거나 ISBLANK 함수로 공백을 테스트할 수도 있습니다.
+DAX에서 null, 빈 값, 공백 셀 또는 누락된 값은 모두 동일한 새 값 형식인 BLANK로 나타납니다. BLANK 함수를 사용하여 공백을 만들거나 ISBLANK 함수로 공백을 테스트할 수도 있습니다.
 
 더하기 또는 연결 등의 연산에서 공백이 처리되는 방식은 개별 함수에 따라 다릅니다. 다음 표에서는 DAX와 Microsoft Excel 식 사이에서 공백 처리 방식의 차이점을 요약합니다.
 

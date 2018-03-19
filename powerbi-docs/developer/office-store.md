@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
-ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
+ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource에 사용자 지정 시각적 개체 게시
 다른 사람이 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 AppSource에 게시하는 방법을 알아봅니다. office
@@ -38,7 +38,7 @@ AppSource란? 간단히 말해서, Microsoft 제품 및 서비스에 대한 SaaS
 | 항목 | 필수 | 설명 |
 | --- | --- | --- |
 | Pbiviz 패키지에 필요한 모든 메타데이터 포함 |예 |시각적 개체 이름<br>표시 이름<br>GUID<br>버전<br>설명<br>작성자 이름 및 전자 메일 |
-| 샘플 .pbix 보고서 파일 |예 |시각적 개체를 소개하는 경우 사용자가 시각적 개체에 익숙해질 수 있도록 도움을 줘야 합니다. 시각적 개체가 사용자에게 도움이 되는 가치를 강조하고 사용 사례, 서식 지정 옵션 등을 제공해야 합니다. 팁과 요령, 피해야 할 것 등을 포함하는 *"힌트"* 페이지를 마지막에 추가할 수도 있습니다. |
+| 샘플 .pbix 보고서 파일 |예 |시각적 개체를 소개하는 경우 사용자가 시각적 개체에 익숙해질 수 있도록 도움을 줘야 합니다. 시각적 개체가 사용자에게 도움이 되는 가치를 강조하고 사용 사례, 서식 지정 옵션 등을 제공해야 합니다. 팁과 요령, 피해야 할 것 등을 포함하는 *"힌트"* 페이지를 마지막에 추가할 수도 있습니다.<br>샘플 .pbix 보고서 파일은 모든 외부 연결 없이 오프라인으로 작업해야 합니다. |
 | 아이콘 |예 |스토어 맨 앞에 표시되는 사용자 지정 시각적 개체 로고를 포함해야 합니다. 가능한 형식은 png, .jpg, .jpeg 또는 .gif입니다. 정확히 300px(너비) x 300px(높이)이어야 합니다. 파일 크기는 512KB를 초과할 수 없습니다. |
 | 스크린샷 |예 |스크린샷을 하나 이상 제공해야 합니다. 가능한 형식은 png, .jpg, .jpeg 또는 .gif입니다. 정확히 1366px(너비) x 768px(높이)여야 합니다. 파일 크기는 1024kb를 초과할 수 없습니다. *활용도를 높이려면, 각 스크린샷에 표시되는 주요 기능의 가치 제안을 분명히 전달하기 위한 텍스트 거품을 추가합니다.* |
 | 다운로드 링크 지원 |예 |시각화 개체에 문제가 있는 고객을 지원하기 위한 URL을 제공합니다. URL 형식에 https:// 또는 http://를 포함해야 합니다. |

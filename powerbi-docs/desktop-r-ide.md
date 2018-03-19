@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ab73dde22fdb0603a900ac67b6e76e8f5aaf3872
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3903a4d7351ab00da24750736840c6ba35cffa2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Power BI로 외부 R IDE 사용
 **Power BI Desktop**을 통해 외부 R IDE(통합 개발 환경)를 사용하여 R 스크립트를 작성하고 구체화한 다음, Power BI에서 해당 스크립트를 사용할 수 있습니다.
@@ -81,7 +81,7 @@ ms.lasthandoff: 02/24/2018
    > **Power BI Desktop**은 스크립트를 실행했을 때 **Power BI Desktop**에서 데이터를 가져오도록 하는 스크립트의 첫 세 줄을 추가합니다.
    > 
    > 
-7. **Power BI Desktop**의 **R 스크립트 편집기 창**에서 만든 스크립트는 R IDE의 네 번째 줄부터 표시됩니다. 이 때 R IDE에서 R 스크립트를 작성할 수 있습니다. R IDE에서 R 스크립트 작성을 완료하면, **Power BI Desktop**이 자동으로 생성한 스크립트의 첫 세 줄을 제외하고 이를 복사하여 **Power BI Desktop**의 **R 스크립트 편집기** 창에 다시 붙여 넣어야 합니다. 스크립트의 첫 세 줄은 **Power BI Desktop**에 다시 복사하지 마십시오. 해당 줄은 **Power BI Desktop**에서 R IDE로 데이터를 가져오는 데에만 사용됩니다.
+7. **Power BI Desktop**의 **R 스크립트 편집기 창**에서 만든 스크립트는 R IDE의 네 번째 줄부터 표시됩니다. 이때 R IDE에서 R 스크립트를 작성할 수 있습니다. R IDE에서 R 스크립트 작성을 완료하면, **Power BI Desktop**이 자동으로 생성한 스크립트의 첫 세 줄을 제외하고 이를 복사하여 **Power BI Desktop**의 **R 스크립트 편집기** 창에 다시 붙여 넣어야 합니다. 스크립트의 첫 세 줄은 **Power BI Desktop**에 다시 복사하지 마십시오. 해당 줄은 **Power BI Desktop**에서 R IDE로 데이터를 가져오는 데에만 사용됩니다.
 
 ### <a name="known-limitations"></a>알려진 제한 사항
 Power BI Desktop에서 직접 R IDE를 시작하는 데에는 다음과 같은 몇 가지 제한 사항이 있습니다.

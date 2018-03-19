@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b4e6420177d2b268838b3052e29f230025cfb8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 서비스의 R 패키지
 강력한 [R 프로그래밍 언어](https://www.r-project.org/)를 사용하여 Power BI 서비스에서 시각적 개체를 만들 수 있습니다. 많은 R 패키지가 Power BI 서비스에서 지원되며(및 더 많은 패키지가 항상 지원되고 있음) 일부 패키지는 지원되지 않습니다.
@@ -41,7 +41,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
   
   * R 시각적 개체의 경우 사용자 지정 R 패키지를 포함한 모든 패키지를 설치할 수 있습니다.
   * 사용자 지정 R 시각적 개체의 경우 CRAN 패키지에만 패키지의 자동 설치를 지원합니다.
-* 현재 서비스에서는 보안 및 개인 정보 보호를 위해 World-Wide Web(예: RgoogleMaps)에 클라이언트 서버 쿼리를 제공하는 R 패키지를 지원하지 않습니다. 이러한 시도에 대한 네트워킹이 차단됩니다. 지원되거나 지원되지 않는 R 패키지 목록은 다음 섹션을 참조하세요.
+* 보안 및 개인 정보 보호를 위해 World-Wide Web(예: RgoogleMaps)에서 클라이언트 서버 쿼리를 제공하는 R 패키지는 지원되지 않습니다. 이러한 시도에 대한 네트워킹이 차단됩니다. 지원되거나 지원되지 않는 R 패키지 목록은 다음 섹션을 참조하세요.
 * 새 R 패키지를 포함하는 승인 프로세스에는 종속성 트리가 있습니다. 따라서 서비스에 설치되어야 하는 일부 종속성을 지원할 수 없습니다.
 
 ## <a name="r-packages-that-are-supported-in-power-bi"></a>Power BI에서 지원되는 R 패키지
@@ -116,7 +116,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 | cubature |1.1-2 |https://cran.r-project.org/web/packages/cubature/index.html |
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
-| Data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
+| data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
 | date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
@@ -202,7 +202,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1-25 |https://cran.r-project.org/web/packages/HH/index.html |
 | HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
-| Highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
+| highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
 | Hmisc |3.17-3 |https://cran.r-project.org/web/packages/Hmisc/index.html |
 | HSAUR |1.3-7 |https://cran.r-project.org/web/packages/HSAUR/index.html |
 | ifultools |2.0-1 |https://cran.r-project.org/web/packages/ifultools/index.html |
@@ -296,7 +296,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 | pcaPP |1.9-60 |https://cran.r-project.org/web/packages/pcaPP/index.html |
 | pdc |1.0.3 |https://cran.r-project.org/web/packages/pdc/index.html |
 | PerformanceAnalytics |1.4.3541 |https://cran.r-project.org/web/packages/PerformanceAnalytics/index.html |
-| Plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
+| plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
 | plotmo |3.1.4 |https://cran.r-project.org/web/packages/plotmo/index.html |
 | plotrix |3.6-1 |https://cran.r-project.org/web/packages/plotrix/index.html |
 | pls |2.5-0 |https://cran.r-project.org/web/packages/pls/index.html |
@@ -325,7 +325,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 | Rcpp |0.12.3 |https://cran.r-project.org/web/packages/Rcpp/index.html |
 | RcppArmadillo |0.6.600.4.0 |https://cran.r-project.org/web/packages/RcppArmadillo/index.html |
 | RcppEigen |0.3.2.8.1 |https://cran.r-project.org/web/packages/RcppEigen/index.html |
-| redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
+| Redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
 | registry |0.3 |https://cran.r-project.org/web/packages/registry/index.html |
 | relimp |1.0-5 |https://cran.r-project.org/web/packages/relimp/index.html |
 | reshape |0.8.5 |https://cran.r-project.org/web/packages/reshape/index.html |

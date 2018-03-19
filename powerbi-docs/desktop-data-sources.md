@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 85ac8564efca953d338bef9aab8b59699d992c19
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ff28f5d43b065ae798e2e9f275c8e8b59e9ee1ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 소스
 Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 있습니다. 이 페이지의 맨 아래에는 사용 가능한 데이터 소스의 전체 목록이 있습니다.
@@ -78,13 +78,14 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Oracle 데이터베이스
 * IBM DB2 데이터베이스
 * IBM Informix 데이터베이스(베타)
-* IBM Netezza(베타)
+* IBM Netezza
 * MySQL 데이터베이스
 * PostgreSQL 데이터베이스
 * Sybase 데이터베이스
 * Teradata 데이터베이스
 * SAP HANA 데이터베이스
-* SAP Business Warehouse 서버
+* SAP Business Warehouse 응용 프로그램 서버
+* SAP Business Warehouse 메시지 서버(베타)
 * Amazon Redshift
 * Impala
 * Google BigQuery(베타)
@@ -103,13 +104,14 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 * Azure SQL Database
 * Azure SQL Data Warehouse
-* Azure Analysis Services 데이터베이스(베타)
+* Azure Analysis Services 데이터베이스
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB(베타)
 * Azure Data Lake Store
 * Azure HDInsight(HDFS)
 * Azure HDInsight Spark(베타)
+* HDInsight 대화형 쿼리(베타)
 
 다음 그림은 **Azure** 에 대한 **데이터 가져오기**창을 보여 줍니다.
 
@@ -121,6 +123,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * SharePoint Online 목록
 * Microsoft Exchange Online
 * Dynamics 365(온라인)
+* Dynamics NAV(베타)
 * Dynamics 365 Financial(베타)
 * Common Data Service(베타)
 * Microsoft Azure Consumption Insights(베타)
@@ -128,23 +131,24 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Salesforce 개체
 * Salesforce 보고서
 * Google 분석
+* Adobe Analytics
 * appFigures(베타)
 * comScore Digital Analytix(베타)
 * Dynamics 365 for Customer Insights(베타)
+* Data.World - 데이터 집합 가져오기(베타)
 * Facebook
 * GitHub(베타)
-* Kusto(베타)
 * MailChimp(베타)
+* Marketo(베타)
 * Mixpanel(베타)
-* Planview Enterprise(베타)
-* Projectplace(베타)
+* Planview Enterprise One - PRM(베타)
+* Planview Projectplace(베타)
 * QuickBooks Online(베타)
 * Smartsheet
 * SparkPost(베타)
-* SQL Sentry(베타)
 * Stripe(베타)
 * SweetIQ(베타)
-* Troux(베타)
+* Planview Enterprise One - CMT(베타)
 * Twilio(베타)
 * tyGraph(베타)
 * Webtrends(베타)
@@ -157,6 +161,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 **기타** 범주는 다음과 같은 데이터 연결을 제공합니다.
 
 * Vertica(베타)
+* Kusto(베타)
 * 웹
 * SharePoint 목록
 * OData 피드
@@ -203,4 +208,3 @@ Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. �
 * [Power BI Desktop의 데이터 형식](desktop-data-types.md)
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
 * [Power BI Desktop의 일반적인 쿼리 작업](desktop-common-query-tasks.md)    
-

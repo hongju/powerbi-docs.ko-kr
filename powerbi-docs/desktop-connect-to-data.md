@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b61285c54d337ce85ab470180f8cfa2a66f0820e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 94e52d2d56cd7ba0ec04db47bc93dd18fc880f39
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터에 연결
 Power BI Desktop을 사용하면 계속 확장되는 데이터에 쉽게 연결할 수 있습니다. Power BI Desktop이 없는 경우 여기서 [다운로드](http://go.microsoft.com/fwlink/?LinkID=521662)하여 설치할 수 있습니다.
@@ -80,7 +80,7 @@ Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. �
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
 * [Power BI Desktop의 일반적인 쿼리 작업](desktop-common-query-tasks.md)   
 
-사용자 의견을 제공하려는 경우 Power BI Desktop의 **사용자 의견 보내기** 메뉴 항목을 사용하세요. 항상 사용자 의견에 귀를 기울이고 있습니다.
+사용자 의견을 제공하려는 경우 Power BI Desktop에서 **아이디어 제출** 메뉴 항목을 사용하거나 [커뮤니티 피드백](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback)을 방문하세요. 항상 사용자 의견에 귀를 기울이고 있습니다.
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

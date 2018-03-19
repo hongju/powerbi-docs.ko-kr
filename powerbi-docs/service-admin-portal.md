@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/23/2018
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -141,6 +141,10 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 ### <a name="share-content-to-external-users"></a>외부 사용자에게 콘텐츠 공유
 
 조직의 사용자는 조직 외부의 사용자와 대시보드를 공유할 수 있습니다.
+
+![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+
+외부 사용자와 공유할 때 표시되는 메시지는 다음과 같습니다.
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 

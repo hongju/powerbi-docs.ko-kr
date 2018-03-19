@@ -2,7 +2,7 @@
 사용자는 회사 또는 학교 계정으로 로그인합니다. 조직 계정입니다. Office 365 제품에 등록하고 실제 회사 전자 메일을 제공하지 않은 경우 nancy@contoso.onmicrosoft.com처럼 보일 수 있습니다. 클라우드 서비스 내의 계정은 AAD(Azure Active Directory)의 테넌트 내에 저장됩니다. 대부분의 경우에서 AAD 계정의 UPN은 전자 메일 주소와 일치합니다.
 
 ## <a name="windows-service-account"></a>Windows 서비스 계정
-온-프레미스 데이터 게이트웨이는 Windows 서비스 로그온 자격 증명에 대해 *NT SERVICE\PBIEgwService* 를 사용하도록 구성됩니다. 기본적으로 여기에는 서비스로 로그온 권한이 포함됩니다. 게이트웨이를 설치하는 컴퓨터의 컨텍스트입니다.
+온-프레미스 데이터 게이트웨이는 Windows 서비스 로그온 자격 증명에 대해 *NT SERVICE\PBIEgwService*를 사용하도록 구성됩니다. 기본적으로 여기에는 서비스로 로그온 권한이 포함됩니다. 게이트웨이를 설치하는 컴퓨터의 컨텍스트입니다.
 
 > [!NOTE]
 > 개인 모드를 선택한 경우 Windows 서비스 계정을 개별적으로 구성합니다.
@@ -14,7 +14,7 @@
 인증으로 인해 프록시 서버에 문제가 발생하는 경우, Windows 서비스 계정을 도메인 사용자나 관리 서비스 계정으로 변경하는 것이 좋습니다. [프록시 구성](../service-gateway-proxy.md#changing-the-gateway-service-account-to-a-domain-user)에서 계정을 변경하는 방법에 대해 알아볼 수 있습니다.
 
 ## <a name="ports"></a>포트
-게이트웨이는 Azure 서비스 버스에 대한 아웃바운드 연결을 만듭니다. 이 게이트웨이는 아웃바운드 포트 TCP 443(기본값), 5671, 5672, 9350 ~ 9354에서 통신합니다.  게이트웨이에는 인바운드 포트가 필요하지 않습니다. [자세히 알아보기](https://azure.microsoft.com/documentation/articles/service-bus-fundamentals-hybrid-solutions/)
+게이트웨이는 Azure Service Bus에 대한 아웃바운드 연결을 만듭니다. 이 게이트웨이는 아웃바운드 포트 TCP 443(기본값), 5671, 5672, 9350 ~ 9354에서 통신합니다.  게이트웨이에는 인바운드 포트가 필요하지 않습니다. [자세히 알아보기](https://azure.microsoft.com/documentation/articles/service-bus-fundamentals-hybrid-solutions/)
 
 방화벽에, 데이터 영역에 대한, IP 주소 허용 목록을 작성하는 것이 좋습니다. [Microsoft Azure 데이터 센터 IP 목록](https://www.microsoft.com/download/details.aspx?id=41653)을 다운로드할 수 있습니다. 이 목록은 매주 업데이트됩니다. 게이트웨이는 정규화된 도메인 이름(FQDN)과 함께 IP 주소를 사용하여 Azure Service Bus와 통신합니다. 게이트웨이가 HTTPS를 사용하여 통신하도록 강제 적용하는 경우 엄격하게 FQDN만을 사용하며 IP 주소를 사용하여 통신이 발생하지 않습니다.
 
@@ -32,7 +32,7 @@
 | *.analysis.windows.net |443 |HTTPS |
 | *.login.windows.net |443 |HTTPS |
 | *.servicebus.windows.net |5671-5672 |AMQP(고급 메시지 큐 프로토콜) |
-| *.servicebus.windows.net |443, 9350-9354 |TCP를 통한 서비스 버스 릴레이의 수신기(액세스 제어 토큰 획득에는 443 필요) |
+| *.servicebus.windows.net |443, 9350-9354 |TCP를 통한 Service Bus Relay의 수신기(Access Control 토큰 획득을 위해 443 필요) |
 | *.frontend.clouddatahub.net |443 |HTTPS |
 | *.core.windows.net |443 |HTTPS |
 | login.microsoftonline.com |443 |HTTPS |

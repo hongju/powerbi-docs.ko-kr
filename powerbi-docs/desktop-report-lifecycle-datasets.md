@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop에서 Power BI 서비스의 데이터 집합에 연결
 Power BI 서비스에서 공유 데이터 집합에 대한 라이브 연결을 설정하고 동일한 데이터 집합에서 다양한 보고서를 만들 수 있습니다. 즉, Power BI Desktop에서 완벽한 데이터 모델을 만들고 이를 Power BI 서비스에 게시하면 사용자가 동일한 공통 데이터 모델에서 여러 개의 다른 보고서(별도의 .pbix 파일)를 작성할 수 있습니다. 이 기능을 **Power BI 서비스 라이브 연결**이라고 합니다.
@@ -101,7 +101,7 @@ Power BI에 로그인하지 않은 경우 로그인하라는 메시지가 표시
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_10.png)
 
-이제 모든 사용자는 동일한 데이터 집합에서 사용자 지정 보고서를 만들고 공유할 수 있습니다. 지식이 풍부한 한 명(Anna처럼)이 올바른 형식의 데이터 집합을 만들고, 많은 팀 구성원은 해당 공유 데이터 집합을 사용하여 각자 고유한 보고서를 만들 수 있게 하는 훌륭한 방법입니다.
+이제 모든 사용자는 동일한 데이터 집합에서 모든 사용자 지정 보고서를 만들고 공유할 수 있습니다. 지식이 풍부한 한 명(Anna처럼)이 올바른 형식의 데이터 집합을 만들고, 많은 팀 구성원은 해당 공유 데이터 집합을 사용하여 각자 고유한 보고서를 만들 수 있게 하는 훌륭한 방법입니다.
 
 > [!NOTE]
 > **Power BI 서비스**에 대한 라이브 연결을 사용하여 데이터 집합을 기반으로 보고서를 만들 때는 사용 중인 데이터 집합이 포함된 동일한 Power BI 서비스 작업 영역에만 해당 보고서를 게시할 수 있습니다.
@@ -116,8 +116,8 @@ Power BI에 로그인하지 않은 경우 로그인하라는 메시지가 표시
 * 라이브 연결이므로 왼쪽 탐색 및 모델링은 사용할 수 없으며 이는 **SQL Server Analysis Services**에 연결할 때의 동작과 유사합니다.
 * 라이브 연결이므로 **SQL Server Analysis Services**에 연결될 때처럼 RLS(행 및 역할 수준 보안), OneDrive for Business 및 기타 이러한 연결 동작이 적용됩니다.
 * **Power BI 서비스**에서 연결할 데이터 집합을 선택하면 검색 상자는 확장된 작업 영역에만 적용됩니다.
-* 원래 공유된 .pbix 파일을 수정하는 경우 **Power BI 서비스**에서 공유된 데이터 집합 및 보고서를 덮어씁니다.
-* 원래 공유된 보고서는 바꿀 수 없습니다. 그렇게 하려고 하면 파일의 이름을 바꾸고 게시할지 묻는 경고 메시지가 표시됩니다.
+* 소유자가 원래 공유된 .pbix 파일을 수정하는 경우 **Power BI 서비스**에서 공유된 데이터 집합 및 보고서를 덮어씁니다.
+* 작업 영역의 구성원은 원래 공유된 보고서를 바꿀 수 없습니다. 그렇게 하려고 하면 파일의 이름을 바꾸고 게시할지 묻는 경고 메시지가 표시됩니다.
 * **Power BI 서비스**에서 공유 데이터 집합을 삭제하면 다른 **Power BI Desktop**(.pbix 파일)은 더 이상 제대로 작동하지 않거나 시각적 요소를 표시하지 않습니다.
 * 콘텐츠 팩의 경우 **Power BI 서비스**에 대해 .pbix 보고서 및 데이터 집합을 공유하기 위해 팩을 사용하기 전에 먼저 복사본을 만들어야 합니다.
 * 내 조직에서 복사된 콘텐츠 팩의 경우 서비스에서 생성된 보고서 및/또는 라이브 연결을 사용하여 콘텐츠 팩을 복사하는 과정에서 생성된 보고서를 바꿀 수 없습니다. 그렇게 하려고 하면 파일의 이름을 바꾸고 게시할지 묻는 경고 메시지가 표시됩니다. 이 경우에 게시된 활성 연결 보고서만 바꿀 수 있습니다.

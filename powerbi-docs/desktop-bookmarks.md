@@ -1,5 +1,5 @@
 ---
-title: "Power BI의 책갈피 사용(미리 보기)"
+title: "Power BI의 책갈피 사용"
 description: "Power BI Desktop에서 책갈피를 사용하여 보고서에서 보기 및 설정을 저장하고 스토리 모양의 프리젠테이션을 작성할 수 있습니다."
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a56983f48d80cf39b89958db4327e3632ee733e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드(미리 보기)
+# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비롯한 보고서 페이지의 현재 구성된 보기를 캡처하고 저장된 해당 책갈피를 선택하여 나중에 해당 상태로 돌아갈 수 있습니다. 
 
 책갈피의 컬렉션을 만들고, 원하는 순서로 정렬하고, 이후에 프레젠테이션에서 각 책갈피를 자세히 알아보아서 일련의 정보 및 시각적 개체와 보고서에서 원하는 스토리를 강조 표시할 수도 있습니다. 
@@ -33,12 +33,14 @@ Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비�
 
 책갈피에는 다양한 용도가 있습니다. 책갈피를 사용하여 보고서를 만드는 고유한 과정을 추적하고(책갈피는 쉽게 추가, 삭제, 이름 바꾸기 가능) 책갈피를 만들어서 순서대로 책갈피를 알아보는 PowerPoint 같은 프레젠테이션을 빌드할 수 있습니다. 이렇게 보고서에서 스토리를 만들 수 있습니다. 책갈피를 가장 잘 사용할 수 있는 방법에 따라 다른 용도로 사용될 수 있습니다.
 
-### <a name="enable-the-bookmarks-preview"></a>책갈피 미리 보기 사용
-**Power BI Desktop**의 **2017년 10월** 릴리스 및 **Power BI 서비스**의 책갈피 사용 가능 보고서에서부터는 새로운 **책갈피** 기능을 사용할 수 있습니다. 이 미리 보기 기능을 사용하려면 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 다음 **책갈피** 옆에 있는 확인란을 선택합니다. 선택한 후에는 Power BI Desktop을 다시 시작해야 합니다.
+### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>책갈피 미리 보기(2018년 3월 이전 버전) 사용
+Power BI Desktop 2018년 3월 버전부터 책갈피가 일반적으로 제공됩니다. 
+
+항상 가장 최근 릴리스로 업그레이드하는 것이 좋습니다. 그러나 Power BI Desktop의 버전이 이 릴리스보다 이전 버전인 경우 **Power BI Desktop**의 **2017년 10월** 릴리스 및 **Power BI 서비스**의 책갈피 사용 가능 보고서에서부터는 **책갈피** 기능을 사용할 수 있습니다. 미리 보기 기능을 사용하려면 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 다음, **책갈피** 옆에 있는 확인란을 선택합니다. 
 
 ![옵션 창에서 책갈피 사용](media/desktop-bookmarks/bookmarks_02.png)
 
-선택한 후에는 **Power BI Desktop**을 다시 시작해야 합니다.
+책갈피의 미리 보기 버전을 사용하도록 선택한 후 **Power BI Desktop**을 다시 시작해야 합니다.
 
 ## <a name="using-bookmarks"></a>책갈피 사용
 책갈피를 사용하려면 **보기** 리본을 선택한 다음 **책갈피 창**의 확인란을 선택합니다. 
@@ -147,14 +149,13 @@ Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비�
 검은색 화살표가 아닌 회색 책갈피 제목 표시줄을 사용하여 책갈피를 탐색해야 합니다(검은색 화살표는 책갈피가 아닌 보고서 페이지를 탐색함).
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
-**책갈피**의 이 미리 보기 릴리스에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
+**책갈피**의 이 릴리스에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
 
 * 필터의 *원본*인 경우 책갈피에서 사용자 지정 시각적 개체가 작동하지 않습니다. 사용자 지정 시각적 개체를 사용하여 페이지에서 요소를 필터링하고(예: 치클릿 슬라이서) 책갈피를 사용하여 해당 페이지로 돌아가려는 경우 해당 페이지를 필터링할 수 있지만 사용자 지정 시각적 개체는 페이지를 필터링하는 방법을 표시하도록 업데이트되지 않습니다. 
 * 상태 보고서 창에 대한 교차 강조 표시 상태는 책갈피를 만들 때 저장되지 *않습니다*. 
 * 책갈피를 만든 후 보고서 페이지에서 시각적 개체를 추가하는 경우 시각적 개체는 기본 상태로 표시됩니다. 즉, 이전에 책갈피를 만든 페이지에 슬라이서를 도입하는 경우 슬라이서가 해당 기본 상태로 작동합니다.
 * 책갈피를 만든 후에 시각적 개체를 이동하면 책갈피에 반영됩니다. 
 * 서비스에서 책갈피를 사용하기 위해 **Power BI 서비스**에 게시할 경우 보고서에 하나 이상의 책갈피가 *있어야* 합니다. 이 작업은 게시한 각 보고서의 필수 조건입니다.
-* 책갈피는 현재 미리 보기 기능이며, 아직 [**Power BI Desktop for Report Server**](report-server/quickstart-create-powerbi-report.md)에서 사용할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 책갈피와 유사하거나 상호 작용하는 기능에 대한 자세한 내용은 다음 문서를 살펴보겠습니다.

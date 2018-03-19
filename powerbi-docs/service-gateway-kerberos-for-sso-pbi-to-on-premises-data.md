@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ea2e521350b6036b8d2e9b852eb47c546dd818f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용
 온-프레미스 데이터 게이트웨이를 Kerberos로 구성하여 Power BI 보고서 및 대시보드를 온-프레미스 데이터에서 업데이트할 수 있도록 하는 원활한 Single Sign-On 연결을 가져올 수 있습니다. 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 원본에 연결하는 데 사용하는 DirectQuery를 사용하는 SSO(Single Sign-On)를 용이하게 합니다.
@@ -64,9 +64,13 @@ SSO로 실행하는 쿼리는 다음 다이어그램에 나와 있는 것처럼 
 
 
 > [!NOTE]
-> SAP HANA에 SSO를 사용하려면 SAP에 다음과 같은 HANA 관련 구성이 적용해야 합니다.
->    1. SAP HANA 서버가 2.00.022* 이상의 버전이 실행 중인지 확인합니다. 
->    2. 게이트웨이 머신에 SAP의 최신 HANA ODBC 드라이버를 설치합니다.  최소 버전은 HANA ODBC 2017년 8월 릴리스된 2.00.020.00 버전입니다.
+> SAP HANA에 SSO를 사용하려면 SAP에 다음과 같은 SAP HANA 관련 구성이 적용되어야 합니다.
+> 1. SAP HANA 서버가 SAP HANA 서버 플랫폼 수준에 필요한 최소 버전을 실행 중인지 확인합니다.
+> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386)
+> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324)
+> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+>
+> 2. 게이트웨이 머신에 SAP의 최신 HANA ODBC 드라이버를 설치합니다.  최소 버전은 HANA ODBC 2017년 8월 릴리스된 2.00.020.00 버전입니다.
 >
 > SAP에서 패치 및 업그레이드에 대한 다음 링크가 유용할 수 있습니다. SAP 지원 계정을 사용하여 다음 리소스에 로그인해야 SAP가 이러한 링크를 변경하거나 업데이트할 수 있습니다.
 > 

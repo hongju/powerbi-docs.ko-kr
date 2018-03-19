@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 09bd3064c7a694355255cb3cca29ade02986d42e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 55394392de78bcd1a2c38ecf92dd3218c8660132
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -31,7 +31,14 @@ Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합�
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
+> 게스트 사용자를 초대하기 전에 Power BI 관리 포털 테넌트 설정에서 [내보내기 및 공유 설정](service-admin-portal.md#export-and-sharing-settings) 기능을 **활성화**해야 합니다.
+
+> [!NOTE]
 > 이 기능은 현재 Power BI 모바일 앱에는 제공되지 않습니다. 모바일 장치에서는 브라우저에서 Azure AD B2B를 사용하여 공유되는 Power BI 콘텐츠를 볼 수 있습니다. 
+
+## <a name="who-can-you-invite"></a>누구를 초대할 수 있나요?
+
+gmail.com, outlook.com 또는 hotmail.com과 같은 개인 계정을 포함한 이메일 주소를 사용하는 게스트 사용자를 초대할 수 있습니다. Azure B2B에서는 이를 "소셜 ID"라고 합니다. 자세한 내용은 [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)를 참조하세요.
 
 ## <a name="invite-guest-users"></a>게스트 사용자 초대 
 
@@ -63,8 +70,9 @@ Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합�
 
 ### <a name="ad-hoc-invites"></a>임시 초대
 
-언제든 초대하려면 게시할 때 앱의 액세스 목록에 외부 사용자를 추가합니다.
+언제든지 초대를 수행하려면 외부 사용자를 대시보드에 추가하거나 공유 UI를 통해 보고하거나 액세스 페이지를 통해 앱을 보고합니다.
 
+다음은 앱을 사용할 외부 사용자를 초대할 때 수행할 작업의 예입니다.
 ![앱 액세스 목록에 추가된 외부 사용자](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 게스트 사용자는 앱이 자신과 공유됨을 알리는 이메일을 받게 됩니다.
@@ -98,8 +106,9 @@ Power BI Premium 용량에 앱 작업 영역을 할당하면 게스트 사용자
 
 ![게스트 사용자의 자체 라이선스 사용](media/service-admin-azure-ad-b2b/license-approach3.png)
 
-## <a name="limitations"></a>제한 사항
+## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
+* gmail.com, outlook.com 또는 hotmail.com과 같은 개인 이메일 계정을 사용하는 게스트 사용자를 초대하는 경우, 이 [포함된 비디오](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience)를 따라 사용자 가입 방법의 예를 볼 수 있습니다.
 * 외부 B2B 게스트는 콘텐츠 소비로만 제한됩니다. 외부 B2B 게스트는 앱, 대시보드, 보고서를 보고, 데이터를 내보내며 대시보드 및 보고서에 대한 전자 메일 구독을 만들 수 있습니다. 작업 영역에 액세스하거나 자신의 콘텐츠를 게시할 수는 없습니다.
 * 이 기능은 현재 Power BI 모바일 앱에는 제공되지 않습니다. 모바일 장치에서는 브라우저에서 Azure AD B2B를 사용하여 공유되는 Power BI 콘텐츠를 볼 수 있습니다.
 * Power BI에서 게스트 사용자 사용은 소버린 클라우드(정부) 내에서 지원되지 않습니다.

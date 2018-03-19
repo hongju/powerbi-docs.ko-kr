@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/08/2018
 ms.author: maghan
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c97f60e39d68060c8eb3396bac4eb7725dab9c86
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: adc78cceb8a6b6edd06896e53a1a64cf0d28b2b8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-an-alternate-email-address"></a>대체 메일 주소 사용
 기본적으로 Power BI 등록에 사용한 메일 주소를 Power BI 활동에 대한 업데이트를 보내는 데 사용합니다.  예를 들어, 누군가 공유 초대를 보내면 이 주소로 전달됩니다.
@@ -45,6 +45,19 @@ ms.lasthandoff: 02/24/2018
 > 이 설정의 변경은 서비스 업데이트, 뉴스레터 및 기타 프로모션 정보를 보내는 데 사용하는 메일 주소에는 영향이 없습니다.  해당 항목은 항상 원래 Power BI 등록에 사용한 메일 주소로 전달됩니다.
 > 
 > 
+
+## <a name="updating-through-azure-active-directory"></a>Azure Active Directory를 통해 업데이트
+Power BI용 AAD(Active Azure Directory) 임베드 토큰을 캡처할 때 세 가지 형식의 이메일을 사용할 수 있습니다. 세 가지 형식은 다음과 같습니다.
+
+* 사용자의 AAD 계정에 연결된 주 이메일 주소
+* UPN(UserPrincipalName) 이메일 주소
+* "기타" 이메일 주소 배열 특성
+
+Power BI는 다음과 같은 조건에 따라 사용할 이메일을 선택합니다.
+1.  AAD 테넌트의 사용자 개체에 메일 특성이 있는 경우, Power BI는 이메일 주소에 해당 메일 특성을 사용합니다.
+2.  UPN 이메일이 **\*.onmicrosoft.com** 도메인 이메일 주소("@" 기호 다음의 정보)가 *아닌* 경우, Power BI는 이메일 주소에 해당 메일 특성을 사용합니다.
+3.  AAD 사용자 개체에 "기타" 이메일 배열 특성이 있는 경우, 이 목록에 있는 첫 번째 이메일(이 특성에 이메일 목록이 있을 수 있기 때문에)이 사용됩니다.
+4. 위의 조건 중 해당 사항이 없을 경우 UPN 주소가 사용됩니다.
 
 ## <a name="updating-with-powershell"></a>PowerShell을 사용한 업데이트
 또는 Azure Active Directory용 PowerShell을 통해 대체 전자 메일 주소를 업데이트할 수 있습니다. [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) 명령을 사용하여 수행할 수 있습니다.

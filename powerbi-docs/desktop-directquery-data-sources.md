@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3630d876f3e32cbe981d7fb5bcc38d9da1a257f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI의 DirectQuery에서 지원하는 데이터 원본
 **Power BI Desktop** 및 **Power BI 서비스**에는 데이터에 연결하고 액세스할 수 있는 많은 데이터 원본이 포함되어 있습니다. 이 문서에서는 **DirectQuery**라는 연결 방법을 지원하는 Power BI의 데이터 원본에 대해 설명합니다. DirectQuery에 대한 자세한 내용은 [**Power BI의 DirectQuery**](desktop-directquery-about.md)를 참조하세요.
@@ -37,7 +37,8 @@ ms.lasthandoff: 02/24/2018
 * IBM Netezza(베타)
 * Impala(버전 2.x)
 * Oracle 데이터베이스(버전 12 이상)
-* SAP Business Warehouse(베타)
+* SAP Business Warehouse 응용 프로그램 서버
+* SAP Business Warehouse 메시지 서버(베타)
 * SAP HANA
 * Snowflake
 * Spark(베타)(버전 0.9 이상)
@@ -52,7 +53,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="on-premises-gateway-requirements"></a>온-프레미스 게이트웨이 요구 사항
 다음 표에서는 보고서를 **Power BI 서비스**에 게시한 후 지정된 데이터 원본에 연결하는 데 **온-프레미스 데이터 게이트웨이**가 필요한지를 명시합니다.
 
-| 원본 | 게이트웨이 필요 여부 |
+| 소스 | 게이트웨이 필요 여부 |
 | --- | --- |
 | SQL Server |예 |
 | Azure SQL Database |아니요 |
@@ -62,11 +63,14 @@ ms.lasthandoff: 02/24/2018
 | Teradata 데이터베이스 |예 |
 | Amazon Redshift |아니요 |
 | Impala(버전 2.x) |예 |
-| Snowflake(미리 보기) |**Power BI 서비스**에서는 아직 지원되지 않음 |
+| Snowflake |예 |
 | Spark(베타), 버전 0.9 이상 |**Power BI 서비스**에서는 아직 지원되지 않음 |
-| Azure HDInsight Spark(베타) |**Power BI 서비스**에서는 아직 지원되지 않음 |
-| IBM Netezza(베타) |**Power BI 서비스**에서는 아직 지원되지 않음 |
-| SAP Business Warehouse(베타) |**Power BI 서비스**에서는 아직 지원되지 않음 |
+| Azure HDInsight Spark(베타) |아니요 |
+| IBM Netezza |예 |
+| SAP Business Warehouse 응용 프로그램 서버 |예 |
+| SAP Business Warehouse 메시지 서버 |**Power BI 서비스**에서는 아직 지원되지 않음 |
+| Google BigQuery |아니요 |
+
 
 ## <a name="next-steps"></a>다음 단계
 DirectQuery에 대한 자세한 내용은 다음 리소스를 참조하세요.

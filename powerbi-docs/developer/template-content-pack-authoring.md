@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
 ms.author: maghan
-ms.openlocfilehash: 9b8de53534c94ad995e2d953cfc6994b93915bd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: bfed948be385439d33b335b08da68b103cd7c1b8
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI에서 템플릿 콘텐츠 팩 작성
 템플릿 콘텐츠 팩 작성 시에는 Power BI Desktop 및 PowerBI.com을 사용합니다. 콘텐츠 팩에는 네 가지 구성 요소가 있습니다.
@@ -136,7 +136,7 @@ Power BI Desktop에서 [매개 변수](https://powerbi.microsoft.com/blog/deep-d
 | 지원됨 | *지원되지 않음* |
 | --- | --- |
 | PBI Desktop에 기본 제공되는 데이터 집합 |*다른 콘텐츠 팩 또는 Excel 파일 등의 입력의 데이터 집합* |
-| 클라우드 예약된 데이터 새로 고침에 대해 지원되는 데이터 원본 |*직접 쿼리 또는 온-프레미스 연결은 지원되지 않음* |
+| 클라우드 예약된 데이터 새로 고침에 대해 지원되는 데이터 원본 |*직접 쿼리 또는 온-프레미스 연결이 지원되지 않음* |
 | 해당 위치에서 일관된 스키마 또는 오류를 반환하는 쿼리 |*동적 또는 사용자 지정 스키마* |
 | 데이터 집합당 한 개의 데이터 원본 |*여러 데이터 원본으로 감지되는 매시업 또는 URL 등의 여러 데이터 원본* |
 | 텍스트 형식의 매개 변수 |*기타 매개 변수 형식(예: 날짜) 또는 "허용되는 값 목록"* |

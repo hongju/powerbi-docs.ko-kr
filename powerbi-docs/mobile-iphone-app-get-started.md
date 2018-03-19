@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: e824c1e582b8ed3cf0953b59b790e90271a6d38c
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>iPhone 또는 iPod Touch에서 Power BI 모바일 앱 시작
 iPhone 또는 iPod Touch의 iOS 앱용 Microsoft Power BI는 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기 적절한 데이터를 최신 상태로 유지합니다.  
@@ -46,7 +46,7 @@ Apple 앱 스토어에서 iPhone이나 iPod Touch로 [iOS 앱 다운로드](http
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI 서비스에 등록
-아직 등록하지 않은 경우 Power BI (https://powerbi.com) 로 이동하여 서비스에 등록합니다. 무료입니다.
+아직 등록하지 않은 경우 Power BI(https://powerbi.com)로 이동하여 서비스에 등록합니다. 무료입니다.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 앱 시작
 1. iPhone에서 Power BI 앱을 엽니다.
@@ -140,4 +140,5 @@ Power BI의 대시보드 및 보고서 또는 Power BI Report Server 또는 Repo
 ### <a name="see-also"></a>참고 항목
 * [Power BI 시작](service-get-started.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+
 

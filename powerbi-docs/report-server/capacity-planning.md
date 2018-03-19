@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: e36e0720ce55fb3c231a25791ded81d113c74929
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 36d12e520cd53abc0159e698f3f469f62f884c95
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server에 대한 용량 계획 지침
 Power BI Report Server는 셀프 서비스 BI 및 엔터프라이즈 보고 솔루션으로써 고객이 방화벽을 넘어 온-프레미스에 배포할 수 있습니다. 이 기능은 SQL Server Reporting Services의 온-프레미스 서버 플랫폼과 Power BI Desktop의 대화형 보고 기능을 결합했습니다. 기업 내에서 분석 및 보고 사용량이 지나치게 증가하면 엔터프라이즈 사용자의 기본 사항에 맞게 조정하는 데 필요한 하드웨어 인프라 및 소프트웨어 라이선스를 위한 예산 편성이 어려울 수 있습니다. 이 문서는 보고서 서버에 대한 다양한 워크로드의 다양한 부하 테스트 실행 결과를 공유하여 Power BI 보고서 서버의 용량 계획에 대한 지침을 제공하려고 합니다. 조직의 보고서, 쿼리 및 사용 패턴이 광범위하게 다른 반면 사용되는 실제 테스트 및 실행되는 방법에 대한 자세한 설명 등 이 문서에 표시되는 결과는 Power BI Report Server를 배포하는 초기 단계 계획 프로세스에 있는 모든 사용자에게 참조 사항으로 제공됩니다.
@@ -42,7 +42,7 @@ Power BI Report Server에 대해 두 가지 유형의 워크로드를 실행했�
 각 실행에서 가장 많이 사용되는 리소스는 CPU였습니다. 이로 인해 Power BI Report Server에 대한 코어 수를 늘리면 메모리 또는 하드 디스크 공간의 크기를 늘리는 경우보다 시스템의 안정성이 향상됩니다. 
 
 ## <a name="test-methodology"></a>테스트 방법론
-사용된 테스트 토폴로지는 특정 벤더의 물리적 하드웨어가 아니라 Microsoft Azure Virtual Machines에 기반했습니다. 모든 컴퓨터는 미국 지역에서 호스팅되었습니다. 온-프레미스 및 공용 클라우드에서 모두에서 하드웨어 가상화의 일반적인 추세를 반영합니다. 
+사용된 테스트 토폴로지는 특정 벤더의 물리적 하드웨어가 아니라 Microsoft Azure Virtual Machines에 기반했습니다. 모든 컴퓨터는 미국 지역에서 호스팅되었습니다. 온-프레미스 및 공용 클라우드 모두에서 하드웨어 가상화의 일반적인 추세를 반영합니다. 
 
 ### <a name="power-bi-report-server-topology"></a>Power BI Report Server 토폴로지
 Power BI Report Server 배포는 다음과 같은 가상 컴퓨터의로 구성되었습니다.
@@ -148,4 +148,5 @@ Power BI Report Server의 Microsoft Azure 배포에 대해 Reporting Services Lo
 5. 환경의 배포를 마치면 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution에 나열된 지시를 따라 테스트를 실행합니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+
 

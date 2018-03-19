@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8b7fb21e533fecbfe93481741ae53b0073f6a776
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 937cbf39d08bd830c16e9b2634f3d5a747689f54
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop을 사용한 쿼리 개요
 **Power BI Desktop**을 사용하면 데이터 세계에 연결하여 강력하고 근본적인 보고서를 만들고, 다른 사용자와 작업을 공유할 수 있습니다. 이러한 사용자는 해당 작업을 기반으로 하여 비즈니스 인텔리전스 작업을 확장할 수 있습니다.
@@ -102,7 +102,7 @@ Power BI Desktop은 하나 이상의 데이터 소스, 모양 및 필요에 맞�
 ![](media/desktop-query-overview/queryoverview_theleftpane.png)
 
 ## <a name="the-center-data-pane"></a>가운데(데이터) 창
-가운데 창 또는 데이터 창에 선택한 쿼리의 날짜가 표시됩니다. 여기서 쿼리 보기의 작업이 대부분 수행됩니다.
+가운데 창 또는 데이터 창에 선택한 쿼리의 데이터가 표시됩니다. 여기서 쿼리 보기의 작업이 대부분 수행됩니다.
 
 다음 그림에는 이전에 설정한 웹 데이터 연결이 표시되고, **Overall score** 열이 선택되며, 해당 머리글을 마우스 오른쪽 단추로 클릭하여 사용 가능한 메뉴 항목을 표시합니다. 이러한 오른쪽 클릭 메뉴 항목은 대부분 리본 탭의 단추와 동일합니다.  
 

@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: a6c134cd39b835ad0007b5ad8d6b6804b4d243d0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 11b1d2c1c5205fd1346e9350b0a814b7d76d4135
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -147,6 +147,8 @@ Power BI 웹 파트 내에서 보고서가 로드되지 않고 다음과 같은 
 * Power BI는 SharePoint Online에서 지원하는 것과 동일한 지역화된 언어를 지원하지 않습니다. 결과적으로 포함된 보고서 내에 적절한 지역화가 표시되지 않을 수 있습니다.
 
 * Internet Explorer 10을 사용하는 경우 문제가 발생할 수 있습니다. [Power BI](service-browser-support.md) 및 [Office 365](https://products.office.com/office-system-requirements#Browsers-section)에 대한 브라우저 지원을 보면 됩니다.
+
+* [national clouds](https://powerbi.microsoft.com/en-us/clouds/)에서는 Power BI 웹 파트를 사용할 수 없습니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

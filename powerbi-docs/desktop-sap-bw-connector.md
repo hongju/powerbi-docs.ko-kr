@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0863b41ecc0f7053ae0d958d25c756c8597880ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop에서 SAP BW Connector 사용
 Power BI Desktop을 통해 **SAP BW(BusinessWarehouse)** 데이터에 액세스할 수 있습니다.
@@ -33,12 +33,16 @@ Power BI Desktop을 통해 **SAP BW(BusinessWarehouse)** 데이터에 액세스�
 1. 로컬 컴퓨터에 **SAP NetWeaver** 라이브러리를 설치합니다. SAP 관리자 또는 직접 [SAP 소프트웨어 다운로드 센터](https://support.sap.com/swdc)에서  **SAP Netweaver**  라이브러리를 가져올 수 있습니다. **SAP 소프트웨어 다운로드 센터**에서 구조를 자주 변경했기 때문에 해당 사이트를 탐색하기 위한 보다 구체적인 지침을 사용할 수 없습니다. **SAP NetWeaver** 라이브러리는 일반적으로 SAP 클라이언트 도구 설치에도 포함됩니다.
    
    SAP Note #1025361을 검색하면 최신 버전에 대한 다운로드 위치를 가져올 수 있습니다. **SAP NetWeaver** 라이브러리(32비트 또는 64비트)의 아키텍처가 **Power BI Desktop** 설치와 일치하는지 확인한 후, SAP Note에 따라 **SAP NetWeaver RFC SDK**에 포함된 모든 파일을 설치합니다.
-2. **데이터 가져오기** 대화 상자에는 **데이터베이스** 범주에 **SAP Business Warehouse 서버**에 대한 항목이 포함되어 있습니다.
+2. **데이터 가져오기** 대화 상자에는 **데이터베이스** 범주에 **SAP Business Warehouse 응용 프로그램 서버** 및 **SAP Business Warehouse Message 서버**에 대한 항목이 포함되어 있습니다.
    
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>SAP BW Connector 기능
-Power BI Desktop에서 **SAP BW Connector** 미리 보기를 통해 사용자가 해당 **SAP Business Warehouse 서버** 큐브에서 데이터를 가져올 수 있습니다. **SAP BW Connector**에서 DirectQuery를 사용할 수도 있습니다. 연결을 설정하려면 *서버*, *시스템 번호* 및 클라이언트 ID를 지정해야 합니다.
+Power BI Desktop의 **SAP BW 커넥터**를 사용하면 **SAP Business Warehouse 서버** 큐브에서 데이터를 가져오거나 **SAP BW 커넥터**와 함께 DirectQuery를 사용할 수 있습니다. 
+
+**SAP BW 커넥터** 및 DirectQuery를 함께 사용하는 방법에 대해 자세히 알아보려면 [DirectQuery 및 SAP BW(Business Warehouse)](desktop-directquery-sap-bw.md) 아티클을 살펴보세요.
+
+연결할 때는 *서버*, *시스템 번호* 및 *클라이언트 ID*를 지정하여 연결을 설정해야 합니다.
 
 ![](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -54,9 +58,9 @@ MDX 문이 지정되지 않은 경우 **탐색기** 창으로 나타나고 이�
 
 또한 **탐색기** 창에서는 다음 작업을 수행할 수 있는 몇 가지 **표시 옵션**이 제공됩니다.
 
-* **선택한 항목만과 *모든 항목* 표시(기본 뷰):** 이 옵션은 선택된 항목의 마지막 집합을 확인하는 데 유용합니다. 이 보기에 대한 다른 방법은 *미리 보기* 영역에서 열 이름을 선택하는 것입니다.
+* ***선택한 항목만*과 *모든 항목* 표시(기본 뷰):** 이 옵션은 선택된 항목의 마지막 집합을 확인하는 데 유용합니다. 이 보기에 대한 다른 방법은 *미리 보기* 영역에서 *열 이름*을 선택하는 것입니다.
 * **데이터 미리 보기(기본 동작) 사용:** 또한 이 대화 상자에서 데이터 미리 보기를 표시할지 여부를 제어할 수 있습니다. 미리 보기에 대한 데이터를 더 이상 요청하지 않으므로 데이터 미리 보기를 사용하지 않도록 설정하면 서버 호출의 양을 줄일 수 있습니다.
-* **기술 이름:** SAP BW는 큐브 내의 개체에 대한 기술 이름의 개념을 지원합니다. 기술 이름을 사용하면 큐브 소유자가 큐브에 해당 개체에 대한 물리적 이름 대신 큐브 개체에 대한 *사용자 식별* 이름을 노출할 수 있습니다.
+* **기술 이름:** SAP BW는 큐브 내의 개체에 대한 *기술 이름*의 개념을 지원합니다. 기술 이름을 사용하면 큐브 소유자가 큐브에 해당 개체에 대한 물리적 이름 대신 큐브 개체에 대한 *사용자 식별* 이름을 노출할 수 있습니다.
 
 ![](media/desktop-sap-bw-connector/sap_bw_6.png)
 
@@ -105,3 +109,9 @@ MDX 문이 지정되지 않은 경우 **탐색기** 창으로 나타나고 이�
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
+## <a name="next-steps"></a>다음 단계
+SAP HANA 및 DirectQuery에 대한 자세한 내용은 다음 리소스를 참조하세요.
+
+* [DirectQuery 및 SAP HANA](desktop-directquery-sap-hana.md)
+* [Power BI의 DirectQuery](desktop-directquery-about.md)
+* [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)

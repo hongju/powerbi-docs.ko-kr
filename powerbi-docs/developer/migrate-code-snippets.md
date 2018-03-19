@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c868c039e8edfe218c2a578402690a40ed1f3030
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-embedded"></a>Power BI Embedded에서 콘텐츠 마이그레이션을 위한 코드 조각
-다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다. 특정 보고서 유형에 대한 관련 흐름은 [Power BI Embedded 작업 영역 컬렉션 콘텐츠를 Power BI로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md#content-migration)을 참조하세요.
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션에서 콘텐츠 마이그레이션을 위한 코드 조각
+다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다. 특정 보고서 형식에 대한 관련 흐름은 [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md#content-migration)을 참조하세요.
 
 **마이그레이션 도구**는 Power BI Embedded(PaaS)에서 Power BI 서비스(SaaS)로 콘텐츠 복사를 지원하기 위해 사용할 수 있습니다. 특히 콘텐츠가 많은 경우입니다. 자세한 내용은 [Power BI Embedded 마이그레이션 도구](migrate-tool.md)를 참조하세요.
 
