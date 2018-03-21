@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 81036ce9a265f4541b23954584d7a9dd9b99a080
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 337fafe395a5d80d0b82ac069579048a69cd6c4f
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Report Server 업그레이드
 Power BI Report Server를 업그레이드하는 방법을 알아봅니다.
@@ -29,8 +29,6 @@ Power BI Report Server를 업그레이드하는 방법을 알아봅니다.
  **다운로드** ![다운로드](media/upgrade/download.png "다운로드")
 
 Power BI Report Server 및 Report Server에 최적화된 Power BI Desktop을 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동합니다.
-
-![팁](media/upgrade/fyi-tip.png "팁") 현재 릴리스 정보는 [Power BI Report Server - 릴리스 정보](release-notes.md)를 참조하세요.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 보고서 서버를 업그레이드하기 전에 다음 단계에 따라 보고서 서버를 백업하는 것이 좋습니다.
