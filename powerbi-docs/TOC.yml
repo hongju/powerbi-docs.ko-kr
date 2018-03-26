@@ -556,6 +556,10 @@
           href: service-admin-service-free-in-your-organization.md
         - name: Power BI Pro 구매
           href: service-admin-purchasing-power-bi-pro.md
+        - name: Power BI Pro 할당
+          href: service-admin-assigning-power-bi-pro-licenses.md
+        - name: 조직의 Power BI Pro
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: Power BI 거버넌스 및 배포 방법
           href: service-admin-governance.md
         - name: Power BI 보안

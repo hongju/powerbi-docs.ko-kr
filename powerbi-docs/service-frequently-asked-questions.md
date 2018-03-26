@@ -1,13 +1,13 @@
 ---
-title: "Power BI의 질문과 대답"
-description: "Power BI 서비스, Power BI Desktop 및 Power BI 모바일 앱에 대한 질문과 대답 목록을 검색하세요."
+title: Power BI의 질문과 대답
+description: Power BI 서비스, Power BI Desktop 및 Power BI 모바일 앱에 대한 질문과 대답 목록을 검색하세요.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/04/2016
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: af02b57fefaf9764e7a1eac8172d6dc0111dfccd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7f1c42d46568723706bcdd349790c963f204a33c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
@@ -72,7 +72,7 @@ Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하�
 예, 비영리 기관용 가격 책정은 Microsoft로부터 직접 구입하는 경우 사용할 수 있습니다. [Microsoft 제품 기부](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) 사이트를 통해 자세한 정보를 알아보고 등록할 수 있습니다. 정부 및 교육 기관용 가격 책정은 MOSP/Direct, EA 및 Open 라이선싱 프로그램을 통해 제공됩니다. 정부 기관용 가격 책정도 배포에서 사용할 수 있습니다. Power BI는 미국 GCC(Government Community Cloud)에 아직 사용할 수 없습니다.
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI는 온-프레미스에서 사용할 수 있나요?
-Power BI 서비스 [https://powerbi.com](https://powerbi.com)는 사설 내부 클라우드 서비스로 사용할 수 없습니다. 하지만, 온-프레미스에서 보고 작업할 수 있는 세 가지 다른 옵션이 제공됩니다. 
+Power BI 서비스([https://powerbi.com](https://powerbi.com))는 사설 내부 클라우드 서비스로 사용할 수 없습니다. 하지만, 온-프레미스에서 보고 작업할 수 있는 세 가지 다른 옵션이 제공됩니다. 
 
 ### <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
 Power BI 및 Power BI Desktop을 사용하여 자신의 온-프레미스 데이터 소스에 안전하게 연결할 수 있습니다. [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)를 사용하면 온-프레미스 SQL Server Analysis Services 서버 및 기타 데이터 원본에 라이브로 연결할 수 있습니다. 또한 중앙 집중화된 게이트웨이로 예약된 새로 고침을 설정할 수도 있습니다. 게이트웨이를 사용할 수 없는 경우 [Power BI Gateway - Personal](personal-gateway.md)를 사용하여 온-프레미스 데이터 원본에서 데이터를 새로 고칠 수 있습니다.

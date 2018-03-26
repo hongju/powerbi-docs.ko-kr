@@ -1,28 +1,29 @@
 ---
-title: "Power BI 서비스의 새로운 기능"
-description: "Power BI 서비스의 새로운 기능"
+title: Power BI 서비스의 새로운 기능
+description: Power BI 서비스의 새로운 기능
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: sirsu
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/22/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/23/2018
+---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -36,7 +37,17 @@ ms.lasthandoff: 02/27/2018
 * [Microsoft Power BI(YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="january-2018"></a>2018년 1월
+## <a name="march-2018"></a>2018년 3월
+* Power BI 서비스의 [영구 필터](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)
+* 사용자의 개인 메일 계정을 사용하여 사용자와 콘텐츠 공유 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) 확장
+
+## <a name="previous-months-2018"></a>이전 달(2018년)
+### <a name="february-2018"></a>2018년 2월
+* 최종 사용자에 대해 자동으로 [Power BI 앱](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) 설치
+* Power BI Premium의 P4 및 P5 용량
+* [조직의 사용자 지정 시각적 개체](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization) 미리 보기
+
+### <a name="january-2018"></a>2018년 1월
 *   Power BI 보고서 공유 및 즐겨찾기에 추가
 *   Azure SQL Database 및 Data Warehouse에 대해 OAuth2 및 DirectQuery SSO(Single Sign-on) 지원
 *   지역 내 감사: 감사 로그가 이제 테넌트와 동일한 Office 365 지역에 저장됩니다.
