@@ -1,15 +1,15 @@
 ---
-title: "Power BI 보고서 서버에 대한 변경 로그"
-description: "Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에 대한 버그 픽스와 새 항목을 나열합니다."
+title: Power BI 보고서 서버에 대한 변경 로그
+description: Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에 대한 버그 픽스와 새 항목을 나열합니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: jtarquino
 manager: jonhp
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,17 +17,35 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
 Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에 대한 버그 픽스와 새 항목을 나열합니다.
 
-새로운 기능에 대한 자세한 내용은 [Power BI 보고서 서버의 새로운 기능](whats-new.md)을 참조하세요.
+새로운 기능에 대한 자세한 내용은 [Power BI 보고서 서버의 새로운 기능](whats-new.md)을 참조하세요. 
+
+## <a name="march-2018"></a>2018년 3월
+- **Power BI Report Server**
+    - *버전 1.2.6648.38132(빌드 15.0.2.378), 릴리스 날짜: 2018년 3월 19일*
+        - 보안 업데이트
+        - 내게 필요한 옵션 기능 향상
+        - 버그 수정
+            - 페이지를 매긴 보고서(RDL)의 경우 해당 속성을 편집한 후에 되돌릴 링크된 보고서에서 매개 변수 표시 여부에 대한 수정
+            - 슬라이딩 만료 쿠키를 무시하는 사용자 지정 양식 인증이 포함된 웹 포털에 대한 수정
+            - 행 콘텐츠가 비어 있는 경우 행 높이가 동일하지 않게 되는 Word로 내보내기에 대한 수정
+            - 페이지를 매긴 보고서(RDL)의 경우 데이터 원본의 자격 증명을 변경할 때 삭제된 식 기반 연결 문자열에 대한 수정
+            - 텍스트 값으로 KPI를 사용하는 기능에 대한 수정
+            - 페이지를 매긴 보고서(RDL)의 경우 새 데이터 집합을 기존 페이지를 매긴 보고서(RDL)에 할당하는 기능에 대한 수정
+            - 기타 안정성 및 유용성 수정
+
+- **Power BI Desktop(Power BI Report Server에 최적화됨)**
+    - 버전: 2.56.5023.1043(2018년 3월), 릴리스 날짜: 2018년 3월 19일
+        - Power BI Report Server로 연결에 필요한 변경 내용 포함(2018년 3월)
 
 ## <a name="october-2017"></a>2017년 10월
 

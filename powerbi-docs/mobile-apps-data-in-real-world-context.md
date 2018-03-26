@@ -1,33 +1,33 @@
 ---
-title: "Power BI 모바일 앱으로 실제 환경 데이터 가져오기"
-description: "Power BI 모바일 앱에서는 검색할 필요 없이 관련된 BI 정보에 실제 세계를 연결할 수 있습니다."
+title: Power BI 모바일 앱으로 실제 환경 데이터 가져오기
+description: Power BI 모바일 앱에서는 검색할 필요 없이 관련된 BI 정보에 실제 세계를 연결할 수 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 670d83e41476bf3d38a0f98908e20e7d35f9e22d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f4ad86ddf6604e2e8bd9d562249b3f2865a3ec7d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Power BI 모바일 앱으로 실제 환경에서 데이터 가져오기
 Power BI 모바일 앱에서는 여러 가지 방법으로 관련된 BI 정보에 실제 세계를 연결할 수 있습니다. 
 
 ## <a name="qr-codes-for-tiles"></a>타일에 대한 QR 코드
-대시보드에 타일에 대한 QR 코드를 만들고 원하는 곳에 QR 코드를 저장합니다. 동로가 iPhone 또는 Android 휴대폰을 사용하여 코드를 스캔하는 경우 iPhone의 해당 QR 코드와 관련된 타일을 보고 확대된 현실에서 타일을 봅니다.
+보고서 또는 대시보드의 타일에 대한 QR 코드를 만들고 원하는 곳에 QR 코드를 배치합니다. 동료가 iPhone, Android 휴대폰 또는 혼합 현실용 Power BI 앱을 사용하여 코드를 스캔하는 경우 해당 QR 코드와 연결된 타일을 확인합니다. iPhone에서 확대된 현실의 타일이 표시됩니다.
 
 ![QR 코드](media/mobile-apps-data-in-real-world-context/power-bi-ios-qr-ar-scanner-small.png)
 
@@ -35,6 +35,7 @@ Power BI 모바일 앱에서는 여러 가지 방법으로 관련된 BI 정보�
 
 * [Power BI에서 타일에 대한 QR 코드 만들기](service-create-qr-code-for-tile.md)
 * [모바일 장치에서 Power BI QR 코드 스캔](mobile-apps-qr-code.md)
+* [혼합 현실용 Power BI 앱을 사용하여 QR 코드 스캔](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)
 
 ## <a name="qr-codes-for-reports"></a>보고서에 대한 QR 코드
 보고서에 대한 QR 코드 만들기  동료가 자신의 iPhones을 사용하여 코드를 검색할 때(Android 휴대폰은 출시 예정) QR 코드와 관련된 보고서가 보입니다. 

@@ -1,39 +1,39 @@
 ---
-title: "Power BI 서비스의 보고서 읽기용 보기 및 편집용 보기"
-description: "Power BI 서비스 보고서의 읽기용 보기 및 편집용 보기 간 차이점에 대한 대략적 개요"
+title: Power BI 서비스의 보고서 읽기용 보기 및 편집용 보기
+description: Power BI 서비스 보고서의 읽기용 보기 및 편집용 보기 간 차이점에 대한 대략적 개요
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 서비스 보고서의 읽기용 보기 및 편집용 보기
-Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작용할 수 있는 읽기용 보기 및 편집용 보기라는 두 가지 모드가 있습니다. 읽기용 보기는 모든 사용자가 사용할 수 있으며 특히 데이터 *소비자*를 위해 설계되었지만 편집용 보기는 보고서 *작성자*와 소유자만 사용할 수 있습니다. 
+Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작용할 수 있는 읽기용 보기 및 편집용 보기라는 두 가지 모드가 있습니다. 읽기용 보기는 모든 사용자가 사용할 수 있으며 특히 데이터 *소비자*를 위해 설계되었지만 편집용 보기는 보고서 *작성자*와 소유자만 사용할 수 있습니다.
 
 ![보고서 작성자 및 보고서 소비자의 아트워크](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>보고서 읽기용 보기
 
- 읽기용 보기는 보고서를 탐색하고 상호 작용할 수 있는 방법으로, 재미있고 안전하게 데이터를 사용하면서 파악할 수 있습니다. 읽기용 보기는 *소비자*를 위해 설계되었습니다. 이들은 앱에서 보고서를 열거나 [공유한](service-share-dashboards.md) 사람들을 말합니다. 읽기용 보기는 특정 보고서의 모든 소비자가 동일한 필터가 적용된 동일한 보고서, 동일한 시각화를 보도록 합니다.  소비자는 보고서와 상호 작용할 수 있지만 변경 내용을 저장할 수는 없습니다.
+ 읽기용 보기는 보고서를 탐색하고 상호 작용할 수 있는 방법으로, 재미있고 안전하게 데이터를 사용하면서 파악할 수 있습니다. 읽기용 보기는 *소비자*를 위해 설계되었습니다. 이들은 앱에서 보고서를 열거나 [공유한](service-share-dashboards.md) 사람들을 말합니다. 읽기용 보기는 특정 보고서의 모든 소비자가 동일한 필터가 적용된 동일한 보고서 및 선택적으로 동일한 시각화를 보도록 합니다.  소비자는 보고서와 상호 작용할 수 있고, 기존 필터를 변경할 수 있습니다(이러한 변경 내용은 보고서와 함께 저장됨). 하지만 새 필터를 추가할 수 없습니다.
 
->**참고**: 상황에 따라 행 수준 보안 및 데이터 권한으로 인해 보고서 소비자가 다른 데이터를 볼 수 있습니다. 
+>**참고**: 상황에 따라 행 수준 보안 및 데이터 권한으로 인해 보고서 소비자가 다른 데이터를 볼 수 있습니다.
 
 ## <a name="report-editing-view"></a>보고서 편집용 보기
 
@@ -42,7 +42,7 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 편집용 보기는 보고서 *작성자*를 위한 것입니다. 이 보기에서 작성자는 데이터 집합을 가져와서 데이터 집합에 연결하고, 데이터를 탐색하고, 보고서 및 대시보드를 작성합니다. 편집용 보기에서 *작성자*는 필드를 추가 및 제거하고 시각화 유형을 변경하며 새 시각화를 만들고 보고서에서 시각화 및 페이지를 추가 및 삭제하는 등 데이터에 대한 작업을 훨씬 자세히 수행할 수 있습니다. 그런 다음 동료들과 만든 보고서를 공유할 수 있습니다.
 
 ## <a name="reading-view-versus-editing-view"></a>읽기용 보기 및 편집용 보기 비교
-이 차트에서는 Power BI 서비스의 모든 보고서 기능을 나열하지 않습니다! 여기에는 읽기용 보기와 편집용 보기 **모두**에서 사용할 수 없는 보고서 작업만 나열됩니다. 
+이 차트에서는 Power BI 서비스의 모든 보고서 기능을 나열하지 않습니다! 여기에는 읽기용 보기와 편집용 보기 **모두**에서 사용할 수 없는 보고서 작업만 나열됩니다.
 
 
 |작업  | 읽기용 보기  | 편집용 보기 |
@@ -52,7 +52,7 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 | [보고서 만들기 또는 편집](service-report-create-new.md) | 아니요  | 예 |
 | [보고서 공유](service-share-reports.md)| 예 | 예, 다른 사용자에게 *소유자* 권한을 부여하는 등 권한을 관리할 수도 있습니다. |
 | [필터 창에서 영구적인(영구) 시각적 개체 수준, 드릴스루, 페이지 수준 및 보고서 수준 필터 만들기](power-bi-report-add-filter.md) | 아니요  | 예 |
-| [보고서 필터 창 사용](power-bi-how-to-report-filter.md) | 예, 기존 필터를 사용할 수 있지만 변경 사항은 보고서에 저장되지 않습니다. | 예 |
+| [보고서 필터 창 사용](power-bi-how-to-report-filter.md) | 예, 기존 필터를 사용할 수 있고 보고서를 함께 변경 내용을 저장할 수 있지만 새 필터를 추가할 수 없습니다. | 예 |
 | [보고서 분석 창 사용](service-analytics-pane.md) | 아니요 | 예 |
 | [보고서 **보기** 옵션](power-bi-report-display-settings.md) | 예, 몇 가지 예외가 있습니다. | 예, 눈금선, 맞추기, 잠금 등 모두 가능합니다. |
 | [새로 고침 일정 만들기](refresh-data.md) | 아니요  | 예 |
@@ -86,14 +86,14 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 
    ![회색으로 표시된 보고서 편집](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
-2. **보고서 편집**이 회색으로 표시되지 않을 경우 편집용 보기에서 보고서를 열도록 선택하세요. 
-   
+2. **보고서 편집**이 회색으로 표시되지 않을 경우 편집용 보기에서 보고서를 열도록 선택하세요.
+
    ![보고서 편집 옵션](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
-   
+
    보고서가 편집용 보기 상태가 되며 읽기용 보기에서 마지막으로 사용한 것과 동일한 [표시 설정](power-bi-report-display-settings.md)을 사용합니다.
 
 2. **읽기용 보기**로 돌아가려면 위쪽 탐색 모음에서 읽기용 보기를 선택합니다.
-   
+
     ![읽기용 보기 옵션](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
@@ -101,5 +101,4 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 ### <a name="next-steps"></a>다음 단계
 읽기용 보기에서 보고서와 상호 작용하는 방법은 여러 가지가 있으며 데이터 분리 및 결합하여 통찰력을 얻고 질문에 대한 답변을 얻을 수 있습니다.  다음 항목인 [읽기용 보기에서 보고서와 상호 작용](service-interact-with-a-report-in-editing-view.md)에서 이에 대해 보다 자세히 설명합니다.    
 [Power BI의 보고서](service-reports.md)로 돌아가기    
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/) 
-
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

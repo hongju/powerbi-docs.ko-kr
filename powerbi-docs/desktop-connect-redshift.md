@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop에서 Amazon Redshift 데이터베이스에 연결"
-description: "Power BI Desktop에서 Amazon Redshift 데이터베이스에 쉽게 연결하고 사용"
+title: Power BI Desktop에서 Amazon Redshift 데이터베이스에 연결
+description: Power BI Desktop에서 Amazon Redshift 데이터베이스에 쉽게 연결하고 사용
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: de0e6b61197bfe25048a2722d5aab42f1c15e999
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9597d056067fb1af291f46a088b94a39da57eab9
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Power BI Desktop에서 Amazon Redshift에 연결
 **Power BI Desktop**에서 **Amazon Redshift** 데이터베이스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다.
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
-**Amazon Redshift** 창이 나타나면 **Amazon Redshift** 서버 및 데이터베이스 이름을 상자에 입력하거나 붙여 넣습니다. *Server* 필드의 일부로, 사용자는*ServerURL:Port* 형식으로 포트를 지정할 수 있습니다.
+**Amazon Redshift** 창이 나타나면 **Amazon Redshift** 서버 및 데이터베이스 이름을 상자에 입력하거나 붙여 넣습니다. *Server* 필드의 일부로, 사용자는 *ServerURL:Port* 형식으로 포트를 지정할 수 있습니다.
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
@@ -46,7 +46,7 @@ ms.lasthandoff: 02/24/2018
 
 **탐색기** 창에서 선택하면 데이터를 **로드** 또는 **편집**할 수 있습니다.
 
-* 데이터를 **로드**하기로 선택한 경우 *가져오기* 또는 *DirectQuery* 모드 데이터를 사용하여 데이터를 로드하라는 메시지가 표시됩니다. 자세한 정보는 [DirectQuery를 설명하는 문서](desktop-use-directquery.md)를 확인합니다.
+* 데이터를 **로드**하기로 선택한 경우 *가져오기* 또는 *DirectQuery* 모드를 사용하여 데이터를 로드하라는 메시지가 표시됩니다. 자세한 정보는 [DirectQuery를 설명하는 문서](desktop-use-directquery.md)를 확인합니다.
 * 데이터 **편집**을 선택하면 **쿼리 편집기**가 나타나고 여기서 데이터에 대한 모든 종류의 변환 및 필터를 적용할 수 있습니다. 이 중 대부분은 기본 **Amazon Redshift**(지원하는 경우) 데이터베이스 자체에 적용됩니다.
 
 ## <a name="next-steps"></a>다음 단계

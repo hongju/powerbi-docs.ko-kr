@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop에 대한 이전 월별 업데이트"
-description: "Power BI Desktop의 이전 릴리스에서 기능 업데이트"
+title: Power BI Desktop에 대한 이전 월별 업데이트
+description: Power BI Desktop의 이전 릴리스에서 기능 업데이트
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 03/14/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4997c29941608c12a89598b6e9cb1b1ad3aa2fe8
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 786e9adf9698b0d878043c684dc3b65a49bc760a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -879,7 +879,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 
 
-## <a name="august-2016-update-2374464321"></a>2016년 8월 업데이트(2.37.4464.321)
+## <a name="august-2016-update-2384491282"></a>2016년 8월 업데이트(2.38.4491.282)
 
 8월에는 Power BI Desktop의 새 기능이 모두 도입됩니다.
 
@@ -1173,7 +1173,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
     -   연도로 기간 값 변환
     -   복제본 보관
 -   쿼리 편집기 미리 보기에서 공백 및 줄 바꿈에 지원
--   **로캘로 형식 변경** 대화 상자에서 *샘플 입력 값*에 대한 힌트 포함
+-   **로캘로 형식 변경** 대화 상자에서 샘플 입력 값에 대한 힌트 포함
 -   **탐색기** 창에 대한 기능 향상:
     -   ODBC 원본에 대한 탐색 계층 구조에 스키마 정보 추가
     -   **탐색기**에서 미리 보기를 사용하지 않도록 설정하는 기능
@@ -1203,7 +1203,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 ### <a name="report-view"></a>보고서 보기:
 
--   시각적 개체 이면의 데이터( *데이터를 CSV로 내보내기*포함)를 참조하세요.
+-   시각적 개체 이면의 데이터( 데이터를 CSV로 내보내기포함)를 참조하세요.
 -   맵 개선 사항 - 위도/경도만 사용하여 맵 작성
 -   KPI 소비 릴리스 지원(SSAS MD에 대한 탐색 계층 지원 및 KPI 추세 포함)
 -   SSAS 탐색 모드: **필드** 창의 **디스플레이** 폴더에 대한 지원
@@ -1378,7 +1378,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 -   [SAP Hana](desktop-sap-hana.md)
 -   [R 스크립트](desktop-r-scripts.md)
 -   SQL Server, Azure SQL 데이터베이스 및 Azure SQL 데이터 웨어하우스용 DirectQuery
--   Azure Data Lake
+-   Azure 데이터 레이크
 -   Marketo
 
 ### <a name="data-transformations"></a>데이터 변환:
@@ -1422,7 +1422,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 ### <a name="data-connectivity"></a>데이터 연결:
 -   Azure 문서 DB 커넥터
 -   Mailchimp 커넥터
--   SQL Server 및 Azure SQL Database용 DirectQuery(미리 보기 기능)
+-   SQL Server 및 Azure SQL 데이터베이스용 DirectQuery(미리 보기 기능)
 
 
 ### <a name="data-transformations"></a>데이터 변환:
@@ -1458,7 +1458,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 - 새 페이지 크기 및 페이지 보기 옵션
 - 보고서 캔버스에 셰이프 삽입 지원
 - 필드 창 개선
-    - 이름별로 필드를 쉽게 찾을 수 있도록 Search 상자
+    - 이름별로 필드를 쉽게 찾을 수 있도록 검색 상자
     - 필드 창에 여러 테이블이 있을 때 탐색을 향상시키기 위한 "모두 확장/축소"
     - 카디널리티를 잘 지원하는 필드, 1항목이 있는 버켓에 대해 끌어서 교체
     - 추가 데이터 레이블 서식 옵션
@@ -1526,7 +1526,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 -   HDInsight Spark 커넥터
 
--   Azure SQL Data Warehouse 커넥터
+-   Azure SQL 데이터 웨어하우스 커넥터
 
 -   SSAS에서 데이터를 가져올 때 사용자 지정 MDX/DAQ 쿼리에 대한 지원
 
@@ -1693,7 +1693,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 - 탐색기 대화 상자 개선
     -   다차원 원본(Analysis Services 및 SAP BusinessObjects)에 대한 미리 보기 환경 개선
     -   선택한 항목 표시 옵션
-    -   탐색기 트리에서 Search 기능 개선
+    -   탐색기 트리에서 검색 기능 개선
 -   새 변환
     -   날짜/시간 열에 대한 기간 및 빼기 연산
     -   집계 열: 새 열의 접두사를 사용하지 않도록 설정하는 옵션

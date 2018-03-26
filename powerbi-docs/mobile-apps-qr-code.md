@@ -1,27 +1,27 @@
 ---
-title: "모바일 장치에서 Power BI QR 코드 스캔"
-description: "Power BI의 QR 코드는 실제 세계의 모든 항목을 iPhone 및 Android 장치용 Power BI 모바일 앱에서 관련된 BI 정보에 연결할 수 있습니다."
+title: 모바일 장치에서 Power BI QR 코드 스캔
+description: Power BI의 QR 코드는 실제 세계의 모든 항목을 iPhone 및 Android 장치용 Power BI 모바일 앱에서 관련된 BI 정보에 연결할 수 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 80c8de8626f2d891a7875933ee72a43dd5d7f09e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2716452f285d8df0aa0d3b89c2b9b36aa87cc5cc
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>모바일 장치에서 Power BI QR 코드 스캔
 적용 대상:
@@ -36,10 +36,10 @@ Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보�
 
 Power BI 앱에서 스캐너 또는 휴대폰에 설치된 다른 스캐너를 사용하여 QR 코드를 스캔하면 휴대폰에서 바로 관련 타일 또는 보고서에 즉시 액세스할 수 있습니다. 
 
+동료가 대시보드 또는 보고서를 공유하지 않는 경우 모바일 앱에서 직접 액세스를 요청할 수 있습니다. 
+
 > [!NOTE]
-> 동료가 대시보드 또는 보고서를 공유하지 않는 경우 모바일 앱에서 직접 액세스를 요청할 수 있습니다.
-> 
-> 
+> [혼합 현실용 Power BI 앱을 사용하여 보고서 QR 코드를 스캔](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)할 수도 있습니다.
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Power BI 스캐너를 사용하여 iPhone에서 Power BI QR 코드 스캔
 1. Power BI 모바일 앱에서 왼쪽 위의 전역 탐색 메뉴 ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png)를 엽니다. 
@@ -80,5 +80,6 @@ Power BI 앱에서 스캐너 또는 휴대폰에 설치된 다른 스캐너를 �
 * 모바일 앱으로 [실제 Power BI 데이터에 연결](mobile-apps-data-in-real-world-context.md)
 * [Power BI 서비스에서 타일에 대한 QR 코드 만들기](service-create-qr-code-for-tile.md)
 * [Power BI 서비스에서 보고서에 대한 QR 코드 만들기](service-create-qr-code-for-report.md)
+* [혼합 현실용 Power BI 앱을 사용하여 QR 코드를 스캔](mobile-mixed-reality-app.md)할 수도 있습니다.
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

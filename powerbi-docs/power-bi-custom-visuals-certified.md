@@ -1,16 +1,16 @@
 ---
-title: "인증된 Power BI 사용자 지정 시각화"
-description: "인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스. 이미 인증된 사용자 지정 시각적 개체 목록."
+title: 인증된 Power BI 사용자 지정 시각화
+description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스. 이미 인증된 사용자 지정 시각적 개체 목록.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d768756c8c7ede792c547f03779396f11e6e4f85
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
@@ -60,7 +60,6 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>인증된 사용자 지정 시각적 개체의 목록
 | AppSource에 연결 | 비디오에 연결 |
 | --- | --- |
-| [연결 규칙](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380815) | |
 | [별표 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft 달력](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [MAQ Software의 보타이 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [비디오](https://youtu.be/So5xKMSpVJI) |
@@ -77,11 +76,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [현](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) | [비디오](https://youtu.be/AQvd2FhRyCI) |
 | [MAQ Software의 원형 계기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) | [비디오](https://youtu.be/9NHXALkBXuY) |
 | [클러스터 맵](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) | |
-| [클러스터링](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380861) | |
-| [이상값이 있는 클러스터링](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380889) | |
-| [상관 관계 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380814) | |
 | [MAQ Software의 원통형 계기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) | [비디오](https://youtu.be/DgdoWi7Gcxo) |
-| [의사 결정 트리 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380817) | |
 | [다이얼 계기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) | |
 | [점 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) | |
 | [OKViz로 점 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) | [비디오](https://youtu.be/By16pX9KT40) |
@@ -97,8 +92,6 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [Stack Shuffle 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten 와플 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [Force-Directed Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764)(Force-Directed 그래프) | [비디오](https://youtu.be/YsTa7uyJ4sg) |
-| [TBATS 예측](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326) | |
-| [ARIMA를 사용한 예측](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
 | [MAQ Software의 원본이 포함된 깔때기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [비디오](https://youtu.be/R_EcimsLI8U) |
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [비디오](https://youtu.be/qJ7s_KrGiUU) |
 | [MAQ Software의 원본이 Gantt 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [비디오](https://youtu.be/vJLV9JRCpI8) |
@@ -119,6 +112,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [재생 축(동적 슬라이서)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [비디오](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI 행렬](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [비디오](https://youtu.be/1enze8pcGzY) |
+| [펄스 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) | [비디오](https://youtu.be/DQWdcQtjDVw) |
 | [MAQ Software에 의한 사분면 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [비디오](https://youtu.be/ppBnyhqWNC0) |
 | [방사형 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [MAQ Software의 링 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [비디오](https://youtu.be/pDToHDFHnq8) |
@@ -127,7 +121,6 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [스크롤러](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
 | [OKViz에 의한 스마트 필터](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [비디오](https://youtu.be/gcJsDDRQq28) |
 | [OKViz로 스파크라인](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [비디오](https://youtu.be/0m3Vnvso9tY) |
-| [스플라인 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380860) | |
 | [스트림 그래프](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) | |
 | [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [테이블 Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
@@ -135,8 +128,6 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [텍스트 필터](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [MAQ Software의 텍스트 래퍼](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [온도계](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
-| [시계열 분해 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |
-| [시계열 예측 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380816) | |
 | [타임라인 슬라이서](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [비디오](https://youtu.be/ozMtZ4_NZ10) |
 | [토네이도 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [비디오](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [MAQ Software의 거래 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [비디오](https://youtu.be/xhTR6y6J9Ko) |

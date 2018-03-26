@@ -1,27 +1,27 @@
 ---
-title: "Power BI용 백서"
-description: "백서를 통해 Power BI 항목을 보다 자세히 탐색할 수 있습니다."
+title: Power BI용 백서
+description: 백서를 통해 Power BI 항목을 보다 자세히 탐색할 수 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/16/2018
 ms.author: maghan
-ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
+ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI용 백서
 
@@ -42,5 +42,6 @@ ms.lasthandoff: 01/30/2018
 | [테이블 형식 BI 의미 체계 모델 보안](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |이 문서에서는 테이블 형식 BI 의미 체계 및 Power BI의 보안 모델을 소개합니다. 네트워크 보안 컨텍스트에서 작동하는 모델에 연결하기 위해 역할을 만들고, 동적 보안을 구현하고, 가장 설정을 구성하고, 역할을 관리하고, 메서드를 선택하는 방법을 알아봅니다. |
 | [Power BI 보고서 서버에 대한 용량 계획 지침](report-server/capacity-planning.md) |이 문서는 보고서 서버에 대한 다양한 워크로드의 다양한 부하 테스트 실행 결과를 공유하여 Power BI 보고서 서버의 용량 계획에 대한 지침을 제공하려고 합니다. |
 | [Power BI Premium 계획 및 배포](https://aka.ms/Premium-Capacity-Planning-Deployment)| 이 문서는 잘 정의된 워크로드를 위한 프리미엄 용량을 계획하고 배포하기 위한 지침과 모범 사례를 제공합니다.|
+| [Power BI 및 SAP BW](https://aka.ms/powerbiandsapbw)| 이 아티클에서는 SAP 고객이 Power BI를 기존 SAP BW(비즈니스 웨어하우스) 시스템에 연결하여 활용하는 방법에 대해 설명합니다.|
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

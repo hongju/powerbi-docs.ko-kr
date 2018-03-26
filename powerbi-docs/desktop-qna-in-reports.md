@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop의 Q&A 사용"
-description: "이제 Q&A를 통해 Power BI Desktop에서 자연어 쿼리를 사용할 수 있습니다."
+title: Power BI Desktop의 Q&A 사용
+description: 이제 Q&A를 통해 Power BI Desktop에서 자연어 쿼리를 사용할 수 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>자연어 쿼리에 대한 Power BI Desktop의 Q&A 사용
 일반적인 구 및 자연어를 사용하여 데이터에 대해 질문하는 것은 강력한 기능입니다. 훨씬 더 강력한 것은 데이터가 응답할 때입니다. 즉, **Power BI Desktop**의 Q&A를 통해 수행할 수 있는 것입니다.
@@ -93,7 +93,7 @@ Power BI는 적극적으로 기본적으로 숫자 열을 집계하기 때문에
 
 전체 모델의 셰이프를 변경해야 함을 제안하지는 않을 것입니다. 단, 단순히 너무 어려워서 Q&A에서 잘 처리하지 못하는 특정 구조가 있습니다. 모델의 구조에 대한 몇 가지 기본 표준화를 수행하면 Q&A 결과의 정확도와 함께 Power BI 보고서의 유용성도 크게 향상됩니다.
 
-사용자가 따라야 하는 일반적인 규칙은 사용자가 말하는 각 고유한 “항목”이 정확히 하나의 모델 개체(테이블 또는 열)로 나타나야 한다는 점입니다. 따라서 사용자가 고객에 대해 말한다면 하나의 *고객* 개체가 있어야 합니다. 또한 사용자가 매출에 대해 말한다면 하나의 *매출* 개체가 있어야 합니다. 단순한 이야기이지 않나요? 사용자가 시작하는 데이터의 모양에 따라 다를 수 있습니다. 필요한 경우 **쿼리 편집기**에서 사용할 수 있는 다양한 데이터 셰이핑 기능이 있는 반면, 간단히 Power BI 모델에서 계산을 사용하면 더 쉬운 변환이 많이 발생할 수 있습니다.
+사용자가 따라야 하는 일반적인 규칙은 사용자가 말하는 각 고유한 “항목”이 정확히 하나의 모델 개체(테이블 또는 열)로 나타나야 한다는 점입니다. 따라서 사용자가 고객에 대해 말한다면 하나의 *고객* 개체가 있어야 합니다. 또한 사용자가 판매에 대해 말한다면 하나의 *판매* 개체가 있어야 합니다. 단순한 이야기이지 않나요? 사용자가 시작하는 데이터의 모양에 따라 다를 수 있습니다. 필요한 경우 **쿼리 편집기**에서 사용할 수 있는 다양한 데이터 셰이핑 기능이 있는 반면, 간단히 Power BI 모델에서 계산을 사용하면 더 쉬운 변환이 많이 발생할 수 있습니다.
 
 다음 섹션에서는 사용자가 수행해야 할 수도 있는 몇 가지 일반적인 변환이 포함되어 있습니다.
 

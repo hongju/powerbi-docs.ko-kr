@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop에서 웹 페이지에 연결"
-description: "Power BI Desktop에서 웹 페이지 데이터에 쉽게 연결하고 사용"
+title: Power BI Desktop에서 웹 페이지에 연결
+description: Power BI Desktop에서 웹 페이지 데이터에 쉽게 연결하고 사용
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0ee3ff3b3ca33ea4760f9f08b4e05cbd65e2ab34
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 23984d8e64445d869062e942eb6155ff58b0d0ae
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Power BI Desktop에서 웹 페이지에 연결
 웹 페이지에 연결하고 해당 데이터를 Power BI Desktop으로 가져와 시각적 개체 및 데이터 모델에서 사용할 수 있습니다.
@@ -47,7 +47,7 @@ URL을 입력했으면(또는 붙여넣기) **확인**을 선택합니다. Power
 
 웹 페이지에 연결하고 데이터를 Power BI Desktop으로 가져오는 데 필요한 작업을 마쳤습니다.
 
-여기에서 해당 필드를 보고서 캔버스로 끌어서 원하는 모든 시각화를 만들 수 있습니다. 또한 다른 데이터처럼 웹 페이지의 데이터로도 이러한 작업을 수행할 수 있습니다. 모양을 지정하고 이들과 모델의 다른 데이터 원본 간의 관계를 만들며, Power BI 보고서처럼 만들고자 하는 다른 작업을 수행할 수 있습니다.
+여기에서 해당 필드를 보고서 캔버스로 끌어서 원하는 모든 시각화를 만들 수 있습니다. 또한 다른 데이터처럼 웹 페이지의 데이터를 사용하여 이러한 작업을 수행할 수 있습니다. 모양을 지정하고 이들과 모델의 다른 데이터 원본 간의 관계를 만들며, Power BI 보고서처럼 만들고자 하는 다른 작업을 수행할 수 있습니다.
 
 자세한 웹 페이지 연결 과정 및 동작에 대해 알아보려면 [Power BI Desktop 시작 가이드](desktop-getting-started.md)를 살펴보세요.
 

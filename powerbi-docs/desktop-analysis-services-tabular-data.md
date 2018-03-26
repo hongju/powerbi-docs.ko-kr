@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop의 Analysis Services 테이블 형식 데이터 사용"
-description: "Power BI Desktop의 Analysis Services 표 형식 데이터"
+title: Power BI Desktop의 Analysis Services 테이블 형식 데이터 사용
+description: Power BI Desktop의 Analysis Services 표 형식 데이터
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 02ce801db4eb6f5040c1d0e31ee0746a475c0bbb
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: ac5786c51fdf3f927605fdf20123a8ea93e74f8a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop의 Analysis Services 테이블 형식 데이터 사용
-Power BI Desktop에서는 라이브 연결을 통한 탐색이나, 항목 선택 후 Power BI Desktop에 가져오기 등, 두 가지 방법으로 SQL Server Analysis Services 테이블 형식 모델에 연결하고 데이터를 가져올 수 있습니다. 
+Power BI Desktop에서는 라이브 연결을 통한 탐색이나, 항목 선택 후 Power BI Desktop에 가져오기 등, 두 가지 방법으로 SQL Server Analysis Services 테이블 형식 모델에 연결하고 데이터를 가져올 수 있습니다.
 
 측정값에 대해 좀 더 자세히 살펴보겠습니다.
 
@@ -54,7 +54,7 @@ Power BI Desktop에 동적 보고서를 만들 경우 Power BI 사이트에 게�
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
 * 탐색기에서 항목을 선택하고 데이터를 가져온 경우 테이블 형식 모델 또는 큐브 뷰를 선택합니다. 특정 테이블 또는 열만 로드하도록 선택할 수도 있습니다. 로드하기 전에 데이터를 구체화하려면 편집을 클릭하여 쿼리 편집기를 엽니다. 준비가 되면 로드를 클릭하여 Power BI Desktop에 데이터를 가져옵니다.
 
-![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
+  ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 **질문:** 온-프레미스 데이터 게이트웨이가 필요한가요?
@@ -73,7 +73,7 @@ Power BI Desktop에 동적 보고서를 만들 경우 Power BI 사이트에 게�
 
 **질문:** 라이브 연결을 만든 경우 Power BI Desktop에서 모델 또는 쿼리를 편집할 수 있나요?
 
-**답변:** Power BI Desktop에서 보고서 수준 측정값을 만들 수 있지만 다른 모든 쿼리 및 모델링 기능은 라이브 데이터 탐색 시 사용할 수 없습니다.
+**답변:** Power BI Desktop에서 보고서 수준 측정값을 만들 수 있지만 다른 모든 쿼리 및 모델링 기능은 라이브 데이터를 탐색할 때 사용할 수 없습니다.
 
 **질문:** 만든 라이브 연결은 안전한가요?
 

@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop의 Analysis Services 다차원 데이터"
-description: "Power BI Desktop의 Analysis Services 다차원 데이터"
+title: Power BI Desktop의 Analysis Services 다차원 데이터
+description: Power BI Desktop의 Analysis Services 다차원 데이터
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6009f938d2dc8961dc63cb0ac6b08459f41f3ea3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 18f80073bf690cd6fc64f94d25f8aad8bf5044e1
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop에서 SSAS 다차원 모델에 연결
 Power BI Desktop을 통해 일반적으로 **SSAS MD**라고 하는 **SSAS 다차원 모델**에 액세스할 수 있습니다.
@@ -37,7 +37,7 @@ Power BI Desktop을 통해 일반적으로 **SSAS MD**라고 하는 **SSAS 다�
 다음 섹션에서는 Power BI 및 SSAS MD 연결의 특징과 기능을 설명합니다.
 
 ### <a name="tabular-metadata-of-multidimensional-models"></a>다차원 모델의 테이블 형식 메타데이터
-다음 테이블은 다차원 개체와 Power BI Desktop에 반환되는 테이블 형식 메타데이터 간의 관계를 보여줍니다. Power BI는 테이블 형식 메타 데이터에 대한 모델을 쿼리하고 반환된 메타데이터에 따라 테이블, 행렬, 차트 또는 슬라이서와 같은 시각화를 만들 때 Analysis Services에 대한 적절한 DAX 쿼리를 실행합니다.
+다음 테이블은 다차원 개체와 Power BI Desktop에 반환되는 테이블 형식 메타데이터 간의 관계를 보여줍니다. Power BI는 테이블 형식 메타데이터에 대한 모델을 쿼리하고, 반환된 메타데이터에 따라 테이블, 행렬, 차트 또는 슬라이서와 같은 시각화를 만들 때 Analysis Services에 대한 적절한 DAX 쿼리를 실행합니다.
 
 | BISM-Multidimentional 개체 | 테이블 형식 메타데이터 |
 | --- | --- |
@@ -55,10 +55,10 @@ Power BI Desktop을 통해 일반적으로 **SSAS MD**라고 하는 **SSAS 다�
 ### <a name="measures-measure-groups-and-kpis"></a>측정값, 측정값 그룹 및 KPI
 다차원 큐브의 측정값 그룹은 **필드** 창의 측정값 그룹에 옆에 ∑ 기호가 있는 테이블처럼 Power BI에 노출됩니다. 연결된 측정값 그룹이 없는 계산 측정값은 테이블 형식 메타데이터의 *측정값* 이라고 하는 특수 테이블 아래에 그룹화됩니다.
 
-다차원 모델에서 복잡한 모델을 간소화할 수 있는 표시 폴더내에 위치할 큐브에서 측정값 집합 또는 KPI 집합을 정의할 수 있습니다. Power BI는 테이블 형식 메타데이터의 표시 폴더를 인식하고 표시 폴더 내 측정값 및 KPI를 보여줍니다. 다차원 데이터베이스의 KPI는 값, 목표, 상태 그래픽 및 추세 그래픽을 지원합니다.
+다차원 모델에서 복잡한 모델을 간소화할 수 있는 표시 폴더내에 위치할 큐브에서 측정값 집합 또는 KPI 집합을 정의할 수 있습니다. Power BI는 테이블 형식 메타데이터의 표시 폴더를 인식하고 표시 폴더 내 측정값 및 KPI를 보여줍니다. 다차원 데이터베이스의 KPI는 *값*, *목표*, *상태 그래픽* 및 *추세 그래픽*을 지원합니다.
 
 ### <a name="dimension-attribute-type"></a>차원 특성 형식
-다차원 모델은 또한 차원 특성과 특정 차원 특성 형식에 연결하는 것도 지원합니다. 예를 들어, **도시** , 시/도, 국가및 우편 번호 차원 특성이 적절한 지리 형식을 가지고 있고 이들과 연결된 *지리* 차원은 테이블 형식 메타데이터에 노출됩니다. Power BI는 메타 데이터를 인식하여 맵을 시각화할 수 있도록 해줍니다. Power BI의 *필드* 창 요소 옆에 있는 **맵** 아이콘으로 이러한 연결을 알아볼 수 있습니다.
+다차원 모델은 또한 차원 특성과 특정 차원 특성 형식에 연결하는 것도 지원합니다. 예를 들어, *도시*, *시/도*, *국가* 및 *우편 번호* 차원 특성이 적절한 지리 형식을 가지고 있고 이들과 연결된 **지리** 차원은 테이블 형식 메타데이터에 노출됩니다. Power BI는 메타 데이터를 인식하여 맵을 시각화할 수 있도록 해줍니다. Power BI의 *필드* 창 요소 옆에 있는 **맵** 아이콘으로 이러한 연결을 알아볼 수 있습니다.
 
 또한 Power BI는 이미지의 URL(Uniform Resource Locator)을 포함하는 필드를 제공하면 이미지를 렌더링할 수도 있습니다. SQL Server 데이터 도구(또는 이후에 Power BI)에서 이들 필드를 *ImageURL* 형식으로 지정할 수 있고, 그 형식 정보는 테이블 형식 메타데이터의 Power BI에 제공됩니다. 그런 다음 Power BI는 URL에서 이러한 이미지를 검색하고 시각적 개체에 표시할 수 있습니다.
 
@@ -71,7 +71,7 @@ Power BI Desktop을 통해 일반적으로 **SSAS MD**라고 하는 **SSAS 다�
 * 특성 계층 구조이며 *모두* 형제가 아닌 계산 멤버
 * 사용자 계층 구조의 계산 멤버
 
-다차원 모델은 *특성 계층의 계산 멤버* 를 열의 값으로 노출합니다. 이러한 형식의 계산 멤버를 노출하는 데 몇 가지 추가 옵션 및 제약 조건이 있습니다.
+다차원 모델은 *특성 계층의 계산 멤버*를 열의 값으로 노출합니다. 이러한 형식의 계산 멤버를 노출하는 데 몇 가지 추가 옵션 및 제약 조건이 있습니다.
 
 * 선택 사양인 UnknownMember를 가질 수 있는 차원 속성
 * 계산 멤버를 포함하는 특성이 차원의 유일한 특성이 아닐 경우 해당 특성은 차원의 키 특성이 될 수 없습니다.

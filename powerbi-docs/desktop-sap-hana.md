@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop에서 SAP HANA 사용"
-description: "Power BI Desktop에서 SAP HANA 사용"
+title: Power BI Desktop에서 SAP HANA 사용
+description: Power BI Desktop에서 SAP HANA 사용
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1c8f3bfc64c6ab895d62749d4d4bc0d2d70d0a9b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Power BI Desktop에서 SAP HANA 사용
 Power BI Desktop을 통해 이제 **SAP HANA** 데이터베이스에 액세스할 수 있습니다. **SAP HANA**를 사용하려면 Power BI Desktop **SAP HANA** 데이터 연결이 제대로 작동하기 위해 로컬 클라이언트 컴퓨터에 SAP HANA ODBC 드라이버를 설치해야 합니다. [SAP 소프트웨어 다운로드 센터](https://support.sap.com/swdc)에서 SAP HANA ODBC 드라이버를 다운로드할 수 있습니다. 여기서 Windows용 SAP HANA CLIENT를 검색해 보세요. **SAP 소프트웨어 다운로드 센터**에서 구조를 자주 변경했기 때문에 해당 사이트를 탐색하기 위한 보다 구체적인 지침을 사용할 수 없습니다.
@@ -40,10 +40,10 @@ SAP HANA 데이터베이스에 연결할 때 *서버: 포트* 형식으로 서�
 ### <a name="supported-features-for-sap-hana"></a>SAP HANA에 대해 지원되는 기능
 이 릴리스에는 다음 목록에 표시된 것처럼 여러 가지 **SAP HANA**용 기능이 있습니다.
 
-* **SAP HANA** 용 Power BI 커넥터에서는 SAP ODBC 드라이버를 사용하여 가장 적합한 사용 환경을 제공합니다.
+* **SAP HANA** 용 Power BI 커넥터에서는 SAP ODBC 드라이버를 사용하여 가장 적합한 사용자 환경을 제공합니다.
 * **SAP HANA** 는 DirectQuery 및 가져오기 옵션을 모두 지원합니다.
 * Power BI는 HANA 정보 모델(예: 분석 및 계산 뷰)을 지원하고 탐색이 최적화되어 있습니다.
-* **SAP HANA** 를 사용하면 직접 SQL 기능을 사용하여 행 및 열 테이블을 연결할 수도 있습니다.
+* **SAP HANA**를 사용하면 직접 SQL 기능을 사용하여 행 및 열 테이블을 연결할 수도 있습니다.
 * HANA 모델에 대해 최적화된 탐색 포함
 * Power BI는 **SAP HANA** 변수 및 입력 매개 변수를 지원합니다.
 

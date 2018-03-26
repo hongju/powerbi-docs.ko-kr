@@ -1,27 +1,27 @@
 ---
-title: "Power BI용 모바일 앱의 새로운 기능"
-description: "Power BI용 모바일 앱의 새로운 기능"
+title: Power BI용 모바일 앱의 새로운 기능
+description: Power BI용 모바일 앱의 새로운 기능
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -30,11 +30,21 @@ ms.lasthandoff: 02/27/2018
 * [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](service-whats-new.md)  
 
+## <a name="march-2018"></a>2018년 3월
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>혼합 현실용 Power BI 앱(미리 보기)
+
+사용자가 위치한 데이터를 가져오는 최신 변경 사항에서 혼합 현실용 Power BI 앱을 만들었습니다. 가상 환경을 사용하는 동안 대시보드 및 보고서를 확인하거나 사용자 환경 컨텍스트의 특정 위치에 배치하고 봅니다. 새로운 [혼합 현실용 Power BI 앱](mobile-mixed-reality-app.md)에 대해 자세히 읽어보세요.
+
 ## <a name="february-2018"></a>2018년 2월
 
 ### <a name="share-reports"></a>보고서 공유
 
 이제 모바일 앱에서 직접 보고서를 공유할 수 있습니다. [모바일 앱에서 대시보드 및 보고서 공유](mobile-share-dashboard-from-the-mobile-apps.md)에 대해 자세히 알아보세요.
+
+### <a name="improved-tooltips"></a>도구 설명 향상
+
+보고서 시각적 개체를 누른 상태로 잠시 기다려서 도구 설명에 액세스하는 경우 시각적 개체를 손가락으로 끌어와서 각 데이터 요소에 대한 세부 정보를 탐색할 수 있습니다.
 
 ## <a name="january-2018"></a>2018년 1월
 

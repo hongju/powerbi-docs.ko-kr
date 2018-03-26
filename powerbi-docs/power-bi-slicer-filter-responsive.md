@@ -1,15 +1,15 @@
 ---
-title: "Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기"
-description: "보고서에 맞게 크기를 조정할 수 있는 반응형 슬라이서를 만드는 방법을 알아봅니다."
+title: Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기
+description: 보고서에 맞게 크기를 조정할 수 있는 반응형 슬라이서를 만드는 방법을 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: feba171d6a81f7e9760df2d9fabecce2cc544dc2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2ab907dd15e43892147967902fbb94d09ef4125b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기(미리 보기)
 
@@ -78,7 +78,7 @@ Power BI Desktop에서는 보고서의 각 페이지에 대한 휴대폰 레이�
 
 ## <a name="make-a-time-or-range-slicer-responsive"></a>타일 또는 범위 슬라이서를 반응형으로 만들기
 
-동일한 단계에 따라 타일 또는 범위 슬라이서를 반응형으로 만들 수 있습니다. **반응형**을 **켜기**로 설정한 후 다음과 같은 몇 가지를 확인할 수 있습니다.
+동일한 단계에 따라 시간 또는 범위 슬라이서를 반응형으로 만들 수 있습니다. **반응형**을 **켜기**로 설정한 후 다음과 같은 몇 가지를 확인할 수 있습니다.
 
 - 시각적 개체는 캔버스에서 허용되는 크기에 따라 입력란의 순서를 최적화합니다. 
 - 데이터 요소 표시는 캔버스에서 허용된 크기에 따라 슬라이서를 최대한 사용 가능하도록 최적화됩니다. 

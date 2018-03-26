@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop에서 도형 맵 사용(미리 보기)"
-description: "Power BI Desktop에서 도형 맵을 사용하여 지역에 대한 상대 비교 만들기"
+title: Power BI Desktop에서 도형 맵 사용(미리 보기)
+description: Power BI Desktop에서 도형 맵을 사용하여 지역에 대한 상대 비교 만들기
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 335e9800be3d2a2cd30cc84835ab7b0173922c46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵(미리 보기)
 Power BI Desktop에서는 서로 다른 지역에 다양한 색을 적용하여 맵에서 지역의 상대적인 비교를 보여 주는 **도형 맵** 시각적 개체를 만듭니다. **맵** 시각화와 달리, **도형 맵**에서는 맵에서 데이터 요소에 대한 정확한 지리상의 위치를 보여줄 수 없으며 대신, 색을 다양하게 지정하여 맵에서 지역의 상대적인 비교를 보여 주는 것을 주요 목적으로 합니다.
@@ -73,6 +73,23 @@ Power BI Desktop에 비어 있는 **도형 맵** 시각적 개체 디자인 캔�
 **TopoJSON** 맵 파일을 사용하려면 ShapeMap 시각적 개체를 보고서에 추가하고 일부 데이터를 *위치* 및 *값* 버킷에 추가합니다. 그런 다음 선택한 **서식** 섹션이 있는 **시각화** 창에서(그림판 아이콘, 다음 그림에 (1)로 표시) **셰이프** 섹션을 확장하고 **+ 맵 추가**를 선택합니다.
 
 ![](media/desktop-shape-map/shape-map_6.png)
+
+## <a name="sample-custom-map"></a>샘플 사용자 지정 맵
+*미국 연방 검사국*은 소송 및 담당 건수 데이터에 대한 연간 회계 보고서를 릴리스합니다.  해당되는 모든 보고서를 아래 링크에서 확인할 수 있습니다.
+
+https://www.justice.gov/usao/resources/annual-statistical-reports
+
+상태가 여러 구역으로 나눌 수 있으므로 사용자 지정 도형 맵을 사용해야 합니다.  그런 다음, 미국 사법 구역의 **TopoJSON** 맵을 **Power BI Desktop**으로 가져와서 연간 회계 구역 검사 데이터를 시각화할 수 있습니다.  아래 이미지에서는 이 맵의 예제를 표시합니다.
+
+![](media/desktop-shape-map/shape-map_7a.png)
+
+개별 상태 맵을 사용하여 흥미로운 작업을 수행할 수 있고 포함된 구역에 따라 세부 정보를 표시할 수 있습니다. 
+
+![](media/desktop-shape-map/shape-map_7b.png)
+
+이 데이터 집합 및 시각화를 실험하려는 경우 다음 링크를 사용하여 이 보고서를 생성하는 데 사용된 원본 PBIX 파일을 다운로드할 수 있습니다.
+
+* [도형 맵 데모 .PBIX 파일 사용자 지정](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>맵 데이터 가져오기
 데이터를 모델로 신속하게 가져와 **도형 맵**을 테스트하기 위해서는 이 문서의 끝에 있는 테이블 중 하나를 복사한 후 **홈** 리본에서 **데이터 입력**을 선택하면 됩니다.

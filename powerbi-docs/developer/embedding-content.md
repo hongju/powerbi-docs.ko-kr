@@ -1,27 +1,27 @@
 ---
-title: "Power BI 대시보드, 보고서 및 타일을 포함하는 방법"
-description: "응용 프로그램 내에서 Power BI 콘텐츠를 포함하는 데 필요한 단계에 대해 알아봅니다."
+title: Power BI 대시보드, 보고서 및 타일을 포함하는 방법
+description: 응용 프로그램 내에서 Power BI 콘텐츠를 포함하는 데 필요한 단계에 대해 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/11/2018
+ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI 대시보드, 보고서 및 타일 포함
 
@@ -88,6 +88,10 @@ REST API를 호출하려면 Azure AD에 응용 프로그램을 등록해야 합�
 고객에 대한 대시보드 및 보고서를 포함하는 경우 해당 대시보드 및 보고서는 앱 작업 영역 내에 있어야 합니다. 위에서 언급한 *마스터* 계정은 앱 작업 영역의 관리자여야 합니다.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
+
+> [!NOTE]
+> 관리자가 아닌 사용자는 최대 250개의 앱 작업 영역을 만들 수 있습니다. 더 많은 앱 작업 영역을 만들려면 테넌트 관리자 계정을 사용해야 합니다.
+>
 
 ### <a name="create-and-upload-your-reports"></a>보고서 만들기 및 업로드
 

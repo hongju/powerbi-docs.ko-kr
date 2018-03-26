@@ -1,28 +1,28 @@
 ---
-title: "필터 및 Power BI 보고서에서 강조 표시 정보"
-description: "필터 및 Power BI 보고서에서 강조 표시 정보"
+title: 필터 및 Power BI 보고서에서 강조 표시 정보
+description: 필터 및 Power BI 보고서에서 강조 표시 정보
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc39f23c192c8bbe1126551c20205bafd8be3a07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ffbab0c1e203ce3fd8779b4eebca90debbb531e5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>필터 및 Power BI 보고서에서 강조 표시 정보
 ***필터***는 사용자가 집중하려는 데이터를 제외한 나머지를 모두 제거합니다.  ***강조*** 는 데이터를 제거하지 않고 볼 수 있는 데이터의 하위 집합을 강조 표시하므로 필터링이 아닙니다. 강조되지 않은 데이터는 볼 수 있지만 흐리게 표시됩니다.
@@ -41,9 +41,11 @@ ms.lasthandoff: 02/24/2018
 > 
 
 ## <a name="introduction-to-filters-and-highlighting-in-reports-using-the-filters-pane"></a>필터 창을 사용하여 보고서에서 필터 및 강조 표시에 대한 소개
+ 이 아티클에서는 Power BI 서비스의 필터링 및 강조 표시를 소개합니다.  하지만 환경은 Power BI Desktop과 거의 동일합니다.  
+
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-reading-view.png)
 
-필터 및 강조 표시는 **필터** 창을 사용하거나 보고서 자체에서 직접 선택하여(애드혹, 페이지의 맨 아래 참조) 적용될 수 있습니다. 필터 창은 보고서에서 사용되는 테이블 및 필드와 있는 경우 적용된 필터를 보여 줍니다. 필터는 **페이지 수준 필터**, **보고서 수준 필터** 및 **시각적 수준 필터**로 나뉩니다.  보고서 캔버스에서 시각화를 선택한 경우 시각적 수준 필터만 표시됩니다.
+필터 및 강조 표시는 **필터** 창을 사용하거나 보고서 자체에서 직접 선택하여(애드혹, 페이지의 맨 아래 참조) 적용될 수 있습니다. 필터 창은 보고서에서 사용되는 테이블 및 필드와 있는 경우 적용된 필터를 보여 줍니다. 필터는 **페이지 수준 필터**, **보고서 수준**, **드릴스루** 및 **시각적 개체 수준**으로 나뉩니다.  보고서 캔버스에서 시각화를 선택한 경우 시각적 수준 필터만 표시됩니다.
 
 > [!TIP]
 > 팁: 필터 옆에 **모두**라는 단어가 있는 경우 이는 전체 필드가 필터로 포함되고 있는 것을 의미합니다.  예를 들어 아래 스크린샷의 **Chain(All)**은 이 보고서 페이지가 모든 상점 체인에 대한 데이터를 포함한다는 것을 알려줍니다.  반면 **FiscalYear는 2013 또는 2014입니다**의 보고서 수준 필터는 보고서가 2013 및 2014년의 회계 연도에 대한 데이터만을 포함한다는 것을 알려줍니다.
@@ -53,8 +55,8 @@ ms.lasthandoff: 02/24/2018
 ## <a name="filters-in-reading-view-versus-editing-view"></a>읽기용 보기 및 편집용 보기의 필터
 보고서는 [읽기용 보기와 편집용 보기](service-reading-view-and-editing-view.md)의 두 가지 방식으로 조작할 수 있습니다.  또한 사용할 수 있는 필터링 기능은 현재 모드에 따라 달라집니다.
 
-* 편집용 보기에서는 보고서, 페이지 및 시각적 개체 필터를 추가할 수 있습니다. 보고서를 저장하면 필터가 함께 저장됩니다. 읽기용 보기에서 보고서를 보는 사람들은 사용자가 추가한 필터로 조작할 수 있지만 변경 사항을 저장할 수 없습니다.
-* 읽기용 보기에서는 보고서에 이미 있는 페이지와 시각적 개체 필터를 사용하여 조작할 수 있지만 필터 변경 사항을 저장할 수는 없습니다.
+* 편집용 보기에서는 보고서, 페이지, 드릴스루 및 시각적 개체 필터를 추가할 수 있습니다. 보고서를 저장하는 경우 모바일 앱에서 여는 경우에도 필터를 보고서와 함께 저장합니다. 읽기용 보기에서 보고서를 보는 사람들은 사용자가 추가한 필터로 상호 작용할 수 있지만 새 필터를 추가할 수 없습니다.
+* 읽기용 보기에서 이미 보고서에 존재하는 필터로 상호 작용하고 선택을 저장할 수 있습니다.  하지만 새 필터를 추가할 수 없습니다.
 
 ### <a name="the-filters-pane-in-reading-view"></a>읽기용 보기에서 필터 창
 읽기용 보기에서만 보고서에 대한 액세스가 있는 경우 필터 창은 다음과 유사하게 표시됩니다.
@@ -67,7 +69,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-읽기용 보기에서 기존 필터를 수정하여 데이터를 탐색합니다. [읽기용 보기에서 필터로 조작](service-reading-view-and-editing-view.md) 문서에서 방법 알아보기
+읽기용 보기에서 기존 필터를 수정하여 데이터를 탐색합니다. 모바일 앱에서 보고서를 여는 경우에도 변경 내용을 보고서와 함께 저장합니다. [Power BI 서비스의 보고서 읽기용 보기 및 편집용 보기](service-reading-view-and-editing-view.md) 아티클에서 방법을 알아보세요.
 
 ### <a name="the-filters-pane-in-editing-view"></a>편집용 보기에서 필터 창
 보고서에 대한 소유자 권한이 있는 경우 편집용 보기에서 열면 **필터**는 사용할 수 있는 여러 개의 편집 창 중 하나인 것을 확인할 수 있습니다.
@@ -78,10 +80,14 @@ ms.lasthandoff: 02/24/2018
 
 하지만 편집용 보기에서 필터 및 강조 표시를 사용하여 수행할 수 있는 작업이 훨씬 더 많습니다. 주요 차이점은 새 필터를 추가할 수 있는 것입니다. [보고서에 필터 추가](power-bi-report-add-filter.md) 문서에서 이를 수행하는 방법 및 더 자세히 알아보기
 
-## <a name="ad-hoc-filterting-and-highlighting"></a>애드혹 필터링 및 강조 표시
-보고서 캔버스의 필드를 선택하여 페이지의 나머지 부분을 필터링 및 강조 표시합니다. 동일한 시각적 개체의 빈 공간을 선택하여 제거합니다. 이러한 종류의 필터링 및 강조 표시는 보고서와 함께 저장되지 않지만 데이터 영향을 신속하게 탐색하는 흥미로운 방법입니다. 이러한 종류의 교차 필터링 및 교차 강조 표시의 작동 방법을 미세 조정하려면 [시각적 조작](service-reports-visual-interactions.md)을 참조하세요.
+## <a name="ad-hoc-filtering-and-highlighting"></a>임시 필터링 및 강조 표시
+보고서 캔버스의 필드를 선택하여 페이지의 나머지 부분을 필터링 및 강조 표시합니다. 동일한 시각적 개체의 빈 공간을 선택하여 제거합니다. 이러한 종류의 필터링 및 강조 표시는 데이터 영향을 신속하게 탐색하는 흥미로운 방법입니다. 이러한 종류의 교차 필터링 및 교차 강조 표시의 작동 방법을 미세 조정하려면 [시각적 상호 작용](service-reports-visual-interactions.md)을 참조하세요.
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
+
+보고서를 종료하면 변경 내용이 저장됩니다. 필터링의 실행을 취소하려면 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다.
+
+![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ## <a name="next-steps"></a>다음 단계
 [필터로 조작 및 강조 표시(읽기용 보기)](service-reading-view-and-editing-view.md)

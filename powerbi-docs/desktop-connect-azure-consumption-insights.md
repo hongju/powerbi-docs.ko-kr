@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop(베타)에서 Azure Consumption Insights 데이터에 연결"
-description: "Power BI Desktop을 사용하여 쉽게 Azure에 연결 및 소비 및 사용량에 대한 정보 얻기"
+title: Power BI Desktop(베타)에서 Azure Consumption Insights 데이터에 연결
+description: Power BI Desktop을 사용하여 쉽게 Azure에 연결 및 소비 및 사용량에 대한 정보 얻기
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop(베타)의 Azure Consumption Insights에 연결
 **Azure Consumption Insights** 커넥터에서 **Power BI Desktop**을 사용하여 Azure에 연결하고 조직의 Azure 서비스 사용에 대한 심층 분석 데이터 및 정보를 가져옵니다. 또한 측정값, 사용자 지정 열, 시각적 개체를 만들어 조직의 Azure 사용에 대해 보고하고 공유할 수 있습니다. **Azure Consumption Insights** 커넥터의 이 릴리스는 베타 상태이며 변경될 수 있습니다.
@@ -61,7 +61,7 @@ ms.lasthandoff: 02/24/2018
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> *요약 및 *PriceSheet* 테이블은 등록 수준 API 키에 사용할 수 있습니다. 또한 이러한 테이블의 데이터에는 기본적으로 *사용량* 및 *PriceSheet*의 현재 달의 데이터가 있습니다. *요약* 및 *MarketPlace* 테이블은 현재 월에 제한되지 않습니다.
+> *요약* 및 *가격표* 테이블은 등록 수준 API 키에 사용할 수 있습니다. 또한 이러한 테이블의 데이터에는 기본적으로 *사용량* 및 *PriceSheet*의 현재 달의 데이터가 있습니다. *요약* 및 *MarketPlace* 테이블은 현재 월에 제한되지 않습니다.
 > 
 > 
 
@@ -90,10 +90,10 @@ Azure에는 비어 있는 쿼리를 사용하여 검색할 수 있는 샘플 사
 
 보고서를 사용하고 쿼리를 만드는 경우 다음을 사용합니다.
 
-* 현재 날짜부터 시작하여 개월 수를 정의하려면 *noOfMonths*를 사용합니다.
+* 현재 날짜부터 시작하여 개월 수를 정의하려면 *numberOfMonth*를 사용합니다.
   * 1~36 사이의 값을 사용하여 현재 날짜에서 가져오려는 개월 수를 나타냅니다. 임계값을 방지하기 위해 Power BI에서 쿼리에 허용되는 가져오기 제약 및 데이터 볼륨을 조건으로 12개월 이하의 데이터를 가져오는 것이 좋습니다.
 * 기록 시간 창에서 일정 기간을 정의하려면 *startBillingDataWindow* 및 *endBillingDataWindow*를 사용합니다.
-* *startBillingDataWindow* 또는 *endBillingDataWindow*와 함께 *noOfMonths*를 사용하지 *않습니다*.
+* *startBillingDataWindow* 또는 *endBillingDataWindow*와 함께 *numberOfMonth*를 사용하지 *않습니다*.
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Azure 엔터프라이즈 커넥터에서 마이그레이션
 일부 고객이 *Azure 엔터프라이즈 커넥터(베타)*를 사용하여 만든 시각적 개체는 결국 중단될 예정이며 **Azure Consumption Insights** 커넥터로 바뀝니다. **Azure Consumption Insights** 커넥터에는 다음을 포함하여 기능 및 향상된 기능이 있습니다.
@@ -149,7 +149,7 @@ Azure에는 비어 있는 쿼리를 사용하여 검색할 수 있는 샘플 사
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>포털, 커넥터 및 API 간에 이름 및 사용 세부 정보 매핑
 Azure Portal의 열 및 세부 정보 이름은 API 및 커넥터와 유사하지만 항상 동일하지는 않습니다. 명확히 하기 위해 다음 표에서는 Azure Portal에 표시되는 API, 커넥터 및 열 간에 매핑을 제공합니다. 또한 열이 사용되지 않았는지 여부를 표시합니다. 자세한 내용과 이러한 용어의 정의는 [Azure 청구 데이터 사전](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail)을 살펴보세요.
 
-| ACI 커넥터/ContentPack ColumnName | ACI API 열 이름 | EA 열 이름 | 사용되지 않음/이전 버전과 호환성 표시 |
+| ACI 커넥터/ContentPack ColumnName | ACI API 열 이름 | EA 열 이름 | 사용되지 않음/이전 버전과의 호환성 표시 |
 | --- | --- | --- | --- |
 | AccountName |accountName |계정 이름 |아니요 |
 | AccountId |accountId | |예 |

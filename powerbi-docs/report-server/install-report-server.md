@@ -1,27 +1,27 @@
 ---
-title: "Power BI Report Server 설치"
-description: "Power BI Report Server를 설치하는 방법을 알아봅니다. "
+title: Power BI Report Server 설치
+description: Power BI Report Server를 설치하는 방법을 알아봅니다.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 8b8bb3867ec1630dc5163148e4aa20e10c0504b7
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server 설치
 
@@ -29,11 +29,9 @@ Power BI Report Server를 설치하는 방법을 알아봅니다.
 
  **다운로드** ![다운로드](media/install-report-server/download.png "다운로드")
 
-Power BI Report Server를 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동합니다. 
+Power BI Report Server를 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동하고 **평가판 다운로드**를 선택합니다. 
 
-Microsoft 다운로드 센터로 이동하여 [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076)(Power BI Report Server에 최적화됨 - 2017년 10월)을 다운로드하세요.
-
-![팁](media/install-report-server/fyi-tip.png "팁") 현재 릴리스 정보는 [Power BI Report Server - 릴리스 정보](release-notes.md)를 참조하세요.
+## <a name="video-install-power-bi-report-server"></a>비디오: Power BI Report Server 설치
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -41,6 +39,7 @@ Microsoft 다운로드 센터로 이동하여 [Microsoft Power BI Desktop](https
 Power BI Report Server를 설치하기 전에 [Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항](system-requirements.md)을 검토하는 것이 좋습니다.
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI Report Server 제품 키
+
 #### <a name="power-bi-premium"></a>Power BI 프리미엄
 Power BI 프리미엄을 구입한 경우 Power BI 관리자 포털의 **프리미엄 설정** 탭 내에서 Power BI Report Server 제품 키에 대한 액세스를 갖습니다. 전역 관리자 또는 Power BI 서비스 관리자 역할에 할당된 사용자만 사용 가능합니다.
 
@@ -56,10 +55,7 @@ SQL Server Enterprise SA 규약이 있는 경우 [볼륨 라이선스 서비스 
 ## <a name="install-your-report-server"></a>보고서 서버 설치
 Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단계를 거쳐 파일을 설치할 수 있습니다.
 
-> [!NOTE]
-> 설치 시에 SQL Server 데이터베이스 엔진 서버를 사용할 필요가 없습니다. 설치 후에 Reporting Services를 구성하려면 해당 항목이 필요합니다.
-> 
-> 
+설치 시에 SQL Server 데이터베이스 엔진 서버를 사용할 필요가 없습니다. 설치 후에 Reporting Services를 구성하려면 해당 항목이 필요합니다.
 
 1. PowerBIReportServer.exe의 위치를 확인하고 설치 관리자를 시작합니다.
 2. **Power BI Report Server 설치**를 선택합니다.
@@ -84,15 +80,14 @@ Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단�
    
     ![설치 경로 지정](media/install-report-server/pbireportserver-install-file-path.png)
    
-   > [!NOTE]
-   > 기본 경로는 C:\Program Files\Microsoft Power BI Report Server입니다.
-   > 
-   > 
-7. 성공적으로 설치한 후에 **Report Server 구성**을 선택하여 Reporting Services 구성 관리자를 시작합니다.
+    기본 경로는 C:\Program Files\Microsoft Power BI Report Server입니다.
+
+1. 성공적으로 설치한 후에 **Report Server 구성**을 선택하여 Reporting Services 구성 관리자를 시작합니다.
    
     ![Report Server 구성](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuration-your-report-server"></a>Report Server 구성
+## <a name="configuring-your-report-server"></a>Report Server 구성
+
 설치 시에 **Report Server 구성**을 선택하면 Reporting Services 구성 관리자에 표시됩니다. 자세한 내용은 [Reporting Services 구성 관리자](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)를 참조하세요.
 
 [Report Server 데이터베이스를 만들어서](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) Reporting Services의 초기 구성을 완료해야 합니다. SQL Server 데이터베이스 서버는 이 단계를 완료해야 합니다.

@@ -1,40 +1,34 @@
 ---
-title: "빠른 시작: Power BI Report Server 설치"
-description: "Power BI Report Server 자체를 신속하게 설치할 수 있습니다. 몇 분 이내에 다운로드, 설치 및 구성하도록 실행합니다."
+title: '빠른 시작: Power BI Report Server 설치'
+description: Power BI Report Server 자체를 신속하게 설치할 수 있습니다. 몇 분 이내에 다운로드, 설치 및 구성하도록 실행합니다.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 625864384f73260ec0f62b74ff9a95e966289da0
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>빠른 시작: Power BI Report Server 설치
 Power BI Report Server 자체를 신속하게 설치할 수 있습니다. 몇 분 이내에 다운로드, 설치 및 구성하도록 실행합니다.
 
 새 서버에서 실행하려면 여기에서 Report Server를 설치하는 방법을 간략히 알아봅니다. Report Server를 설치하는 방법에 대한 자세한 정보는 [Power BI Report Server 설치](install-report-server.md)를 참조하세요.
 
- **다운로드** ![다운로드](media/quickstart-install-report-server/download.png "다운로드")
-
-Power BI Report Server를 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동합니다. 
-
-Microsoft 다운로드 센터로 이동하여 [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076)(Power BI Report Server에 최적화됨 - 2017년 10월)을 다운로드하세요.
-
-![팁](media/quickstart-install-report-server/fyi-tip.png "팁") 현재 릴리스 정보는 [Power BI Report Server - 릴리스 정보](release-notes.md)를 참조하세요.
+## <a name="video-install-power-bi-report-server"></a>비디오: Power BI Report Server 설치
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -42,7 +36,10 @@ Microsoft 다운로드 센터로 이동하여 [Microsoft Power BI Desktop](https
 Power BI Report Server를 설치하기 전에 [Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항](system-requirements.md)을 검토하는 것이 좋습니다.
 
 ## <a name="step-1-download"></a>1단계: 다운로드
-Power BI Report Server에 대한 설치 파일을 로컬로 다운로드합니다. Power BI Report Server를 다운로드하려면 [Microsoft 다운로드 센터](https://go.microsoft.com/fwlink/?linkid=839351)로 이동합니다.
+
+Power BI Report Server 및 Report Server에 최적화된 Power BI Desktop을 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동하고 **평가판 다운로드**를 선택합니다.
+
+Power BI Report Server에 설치 파일을 로컬로 다운로드하려면 지시를 따릅니다. 
 
 ![Power BI Report Server 다운로드](media/quickstart-install-report-server/download-pbireportserver.png)
 
