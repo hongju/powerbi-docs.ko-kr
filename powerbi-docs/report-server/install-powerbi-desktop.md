@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 9951137ac10752a39f0e4ad555a36e2935faf327
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: c22e909130767abd1dc6f0aa00d76e1fb6b99ee7
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 Power BI Report Server에 최적화된 Power BI Desktop을 설치하는 방법에 대해 자세히 알아봅니다.
@@ -56,7 +56,7 @@ Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유�
 ## <a name="verify-you-are-using-the-correct-version"></a>올바른 버전을 사용하는지 확인
 Power BI Desktop 내의 시작 화면 또는 제목 표시줄을 보면 올바른 Power BI Desktop을 사용하고 있는지 확인할 수 있습니다. 제목 표시줄은 릴리스 월과 릴리스 연도를 표시합니다.
 
-![Power BI Report Server에 최적화된 Power BI Desktop의 제목 표시줄](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+![Power BI Report Server에 최적화된 Power BI Desktop의 제목 표시줄](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
 
 Power BI 서비스용 Power BI Desktop 버전은 제목 표시줄에 월 및 연도가 없습니다.
 
