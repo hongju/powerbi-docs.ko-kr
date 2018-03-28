@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop에서 보고서 테마 사용(미리 보기)"
-description: "사용자 지정 색상표를 사용하고 Power BI Desktop에서 전체 보고서에 적용하는 방법을 알아봅니다"
+title: Power BI Desktop에서 보고서 테마 사용(미리 보기)
+description: 사용자 지정 색상표를 사용하고 Power BI Desktop에서 전체 보고서에 적용하는 방법을 알아봅니다
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8893e9f048f10f2c9c4d5bf787382b7cf65f54a9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop에서 보고서 테마 사용(미리 보기)
 **보고서 테마**를 사용하여 전체 보고서에 색상, 계절 색 지정, 또는 보고서에 적용할 수 있는 기타 색 테마와 같이 색 테마를 적용할 수 있습니다. **보고서 테마**를 적용하는 경우 보고서의 모든 시각적 개체에서는 선택한 테마 색을 사용합니다(몇 가지 예외 적용, 이 문서의 뒷부분에서 설명).
@@ -163,7 +163,7 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
         }
     }
 
-**visualName** 및 **cardName** 섹션의 경우 특정 시각적 개체 및 cardName를 나열할 수 있습니다. 또는 특정 시각적 개체에 대한 속성을 포함하는 모든 시각적 개체 또는 모든 카드에 적용하도록 설정하려는 경우 별표("*")를 사용할 수 있습니다. 보고서에서는 전체 보고서의 모든 시각적 개체에서 사용되어야 하는 글꼴 크기 또는 특정 글꼴 제품군과 같은 설정을 전역적으로 적용하려는 경우 별표("*")를 사용할 수 있습니다.
+**visualName** 및 **cardName** 섹션의 경우 특정 시각적 개체 및 cardName를 나열할 수 있습니다. 또는 특정 시각적 개체에 대한 속성을 포함하는 모든 시각적 개체 또는 모든 카드에 적용하도록 설정하려는 경우 별표("\*")를 사용할 수 있습니다. 보고서에서는 전체 보고서의 모든 시각적 개체에서 사용되어야 하는 글꼴 크기 또는 특정 글꼴 제품군과 같은 설정을 전역적으로 적용하려는 경우 별표("\*")를 사용할 수 있습니다.
 
 > [!NOTE]
 > 영향을 주려는 서식 지정 요소를 지정해야 합니다. JSON 파일에 포함되지 않은 모든 서식 요소는 기본값 및 설정으로 되돌아갑니다.
