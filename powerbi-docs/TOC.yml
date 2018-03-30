@@ -668,8 +668,8 @@
           href: desktop-ssas-multidimensional.md
         - name: Power BI Desktop에서 CSV 파일에 연결
           href: desktop-connect-csv.md
-        - name: Power BI Desktop에서 Adobe Analytics에 연결(미리 보기)
-          href: desktop-connect-csv.md
+        - name: Power BI Desktop에서 Adobe Analytics에 연결
+          href: desktop-connect-adobe-analytics.md
         - name: Power BI Desktop에서 Impala 데이터베이스에 연결
           href: desktop-connect-impala.md
         - name: Power BI Desktop에서 OData 피드에 연결
@@ -960,6 +960,8 @@
           href: developer/integrate-report.md
         - name: 응용 프로그램에 콘텐츠 통합(앱 소유 데이터)
           href: developer/embed-sample-for-customers.md
+        - name: 소버린 클라우드용 고객의 응용 프로그램에 Power BI 콘텐츠 포함
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: 앱에 사용자 지정 레이아웃 포함
           href: developer/embedded-custom-layout.md
         - name: Azure Active Directory 테넌트 만들기
