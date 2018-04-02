@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop에서 SAP BW Connector 사용"
-description: "Power BI Desktop에서 SAP BW Connector 사용"
+title: Power BI Desktop에서 SAP BW Connector 사용
+description: Power BI Desktop에서 SAP BW Connector 사용
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop에서 SAP BW Connector 사용
 Power BI Desktop을 통해 **SAP BW(BusinessWarehouse)** 데이터에 액세스할 수 있습니다.
@@ -30,7 +30,7 @@ Power BI Desktop을 통해 **SAP BW(BusinessWarehouse)** 데이터에 액세스�
 ## <a name="installation-of-sap-bw-connector"></a>SAP BW Connector 설치
 **SAP BW Connector**를 사용하려면 다음 설치 단계를 진행합니다.
 
-1. 로컬 컴퓨터에 **SAP NetWeaver** 라이브러리를 설치합니다. SAP 관리자 또는 직접 [SAP 소프트웨어 다운로드 센터](https://support.sap.com/swdc)에서  **SAP Netweaver**  라이브러리를 가져올 수 있습니다. **SAP 소프트웨어 다운로드 센터**에서 구조를 자주 변경했기 때문에 해당 사이트를 탐색하기 위한 보다 구체적인 지침을 사용할 수 없습니다. **SAP NetWeaver** 라이브러리는 일반적으로 SAP 클라이언트 도구 설치에도 포함됩니다.
+1. 로컬 컴퓨터에 **SAP NetWeaver** 라이브러리를 설치합니다. SAP 관리자 또는 직접 [SAP 소프트웨어 다운로드 센터](https://support.sap.com/swdc)에서 **SAP Netweaver** 라이브러리를 가져올 수 있습니다. **SAP 소프트웨어 다운로드 센터**에서 구조를 자주 변경했기 때문에 해당 사이트를 탐색하기 위한 보다 구체적인 지침을 사용할 수 없습니다. **SAP NetWeaver** 라이브러리는 일반적으로 SAP 클라이언트 도구 설치에도 포함됩니다.
    
    SAP Note #1025361을 검색하면 최신 버전에 대한 다운로드 위치를 가져올 수 있습니다. **SAP NetWeaver** 라이브러리(32비트 또는 64비트)의 아키텍처가 **Power BI Desktop** 설치와 일치하는지 확인한 후, SAP Note에 따라 **SAP NetWeaver RFC SDK**에 포함된 모든 파일을 설치합니다.
 2. **데이터 가져오기** 대화 상자에는 **데이터베이스** 범주에 **SAP Business Warehouse 응용 프로그램 서버** 및 **SAP Business Warehouse Message 서버**에 대한 항목이 포함되어 있습니다.
@@ -38,7 +38,7 @@ Power BI Desktop을 통해 **SAP BW(BusinessWarehouse)** 데이터에 액세스�
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>SAP BW Connector 기능
-Power BI Desktop의 **SAP BW 커넥터**를 사용하면 **SAP Business Warehouse 서버** 큐브에서 데이터를 가져오거나 **SAP BW 커넥터**와 함께 DirectQuery를 사용할 수 있습니다. 
+Power BI Desktop의 **SAP BW 커넥터**를 사용하면 **SAP Business Warehouse 서버** 큐브에서 데이터를 가져오거나 DirectQuery를 사용할 수 있습니다. 
 
 **SAP BW 커넥터** 및 DirectQuery를 함께 사용하는 방법에 대해 자세히 알아보려면 [DirectQuery 및 SAP BW(Business Warehouse)](desktop-directquery-sap-bw.md) 아티클을 살펴보세요.
 
@@ -50,7 +50,7 @@ Power BI Desktop의 **SAP BW 커넥터**를 사용하면 **SAP Business Warehous
 
 ![](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
-MDX 문이 지정되지 않은 경우 **탐색기** 창으로 나타나고 이는 차원 및 측정값을 포함하여 서버에서 사용할 수 있는 큐브 목록, 사용할 수 있는 큐브에서 항목을 드릴 다운하고 선택할 옵션을 표시합니다. Power BI는 [BW Open Analysis Interface OLAP BAPI](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm)에 의해 노출되는 쿼리와 큐브를 노출합니다.
+MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목록을 표시하는 **탐색기** 창과 차원 및 측정값을 포함하여 사용 가능한 큐브에서 항목을 드릴 다운하고 선택할 수 있는 옵션을 표시합니다. Power BI는 [BW Open Analysis Interface OLAP BAPI](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm)에 의해 노출되는 쿼리와 큐브를 노출합니다.
 
 서버에서 두 개 이상의 항목을 선택하면 선택에 따라 출력 테이블의 미리 보기가 만들어집니다.
 
@@ -58,9 +58,9 @@ MDX 문이 지정되지 않은 경우 **탐색기** 창으로 나타나고 이�
 
 또한 **탐색기** 창에서는 다음 작업을 수행할 수 있는 몇 가지 **표시 옵션**이 제공됩니다.
 
-* ***선택한 항목만*과 *모든 항목* 표시(기본 뷰):** 이 옵션은 선택된 항목의 마지막 집합을 확인하는 데 유용합니다. 이 보기에 대한 다른 방법은 *미리 보기* 영역에서 *열 이름*을 선택하는 것입니다.
+* **선택한 항목만과 *모든 항목* 표시(기본 뷰):** 이 옵션은 선택된 항목의 마지막 집합을 확인하는 데 유용합니다. 이 보기에 대한 다른 방법은 *미리 보기* 영역에서 열 이름을 선택하는 것입니다.
 * **데이터 미리 보기(기본 동작) 사용:** 또한 이 대화 상자에서 데이터 미리 보기를 표시할지 여부를 제어할 수 있습니다. 미리 보기에 대한 데이터를 더 이상 요청하지 않으므로 데이터 미리 보기를 사용하지 않도록 설정하면 서버 호출의 양을 줄일 수 있습니다.
-* **기술 이름:** SAP BW는 큐브 내의 개체에 대한 *기술 이름*의 개념을 지원합니다. 기술 이름을 사용하면 큐브 소유자가 큐브에 해당 개체에 대한 물리적 이름 대신 큐브 개체에 대한 *사용자 식별* 이름을 노출할 수 있습니다.
+* **기술 이름:** SAP BW는 큐브 내의 개체에 대한 기술 이름의 개념을 지원합니다. 기술 이름을 사용하면 큐브 소유자가 큐브에 해당 개체에 대한 물리적 이름 대신 큐브 개체에 대한 *사용자 식별* 이름을 노출할 수 있습니다.
 
 ![](media/desktop-sap-bw-connector/sap_bw_6.png)
 

@@ -1,15 +1,15 @@
 ---
-title: "Project Online: Power BI Desktop을 통해서 데이터에 연결"
-description: "Project Online: Power BI Desktop을 통해서 데이터에 연결"
+title: 'Project Online: Power BI Desktop을 통해서 데이터에 연결'
+description: 'Project Online: Power BI Desktop을 통해서 데이터에 연결'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f5fa21845167d2d9d419f163429fd1f025c1749
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0577c6e3ce89e51c767273b634f6d3d88875eead
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: Power BI Desktop을 통해서 데이터에 연결
 Power BI Desktop을 통해 Project Online의 데이터에 연결할 수 있습니다.
@@ -38,10 +38,12 @@ Power BI Desktop을 통해 Project Online의 데이터에 연결할 수 있습�
    
    사용자의 프로젝트 웹앱 사이트에 대한 주소가 https://\<tenantname\>.sharepoint.com/sites/pwa와 유사한 경우, OData 피드에 대해 입력할 주소는 https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata입니다.
    
-   이 예에서는 https://contoso.sharepoint.com/sites/pwa/default.aspx를 사용합니다.
+   이 예에서는 https://contoso.sharepoint.com/sites/pwa/default.aspx을(를) 사용합니다.
 5. Power BI Desktop에서 Office 365 계정을 사용하여 인증하라는 메시지가 나타납니다. 조직 계정을 선택하고 자격 증명을 입력합니다.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
+
+OData 피드에 연결하는 데 사용하는 계정에는 프로젝트 웹앱 사이트에 대한 포트폴리오 뷰어 이상의 액세스 권한이 있어야 합니다. 
 
 여기에서는 연결하고자 하는 테이블을 선택하고 쿼리를 작성할 수 있습니다.  시작하는 방법이 궁금하십니까?  다음 블로그 게시물에서는 사용자의 Project Online 데이터에서 번다운 차트를 작성하는 방법을 보여줍니다.  이 블로그 게시물은 Project Online에 연결하는 데 Power Query를 사용하는 것을 참조하지만, Power BI Desktop도 사용 가능합니다.
 

@@ -1,15 +1,15 @@
 ---
-title: "Power BI에 대한 데이터 게이트웨이 배포 지침"
-description: "Power BI에 대한 게이트웨이를 배포하기 위한 모범 사례 및 고려 사항에 대해 알아봅니다."
+title: Power BI에 대한 데이터 게이트웨이 배포 지침
+description: Power BI에 대한 게이트웨이를 배포하기 위한 모범 사례 및 고려 사항에 대해 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9438b9563d17cff8ce334e48bc34a4f3fa6acf1c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI에 대한 데이터 게이트웨이 배포 지침
 이 문서는 네트워크 환경에서 데이터 게이트웨이를 배포하기 위한 고려 사항 및 지침을 제공합니다. **게이트웨이**는 사설 온-프레미스 네트워크에 상주하는 데이터가 차후 Power BI 등의 클라우드 서비스에서 사용될 수 있게 데이터 액세스를 용이하게 하는 소프트웨어입니다. 이 문서는 배포를 안내하고 **온-프레미스 데이터 게이트웨이** 설정에 대한 지침을 제공합니다.

@@ -1,15 +1,15 @@
 ---
-title: "Power BI의 SAP HANA용 DirectQuery"
-description: "SAP HANA에 DirectQuery를 사용하는 경우 고려 사항"
+title: Power BI의 SAP HANA용 DirectQuery
+description: SAP HANA에 DirectQuery를 사용하는 경우 고려 사항
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b1b56ee467dfdf6dc8c63557a9a9f4ab86e965e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery 및 SAP HANA
 **DirectQuery**를 사용하여 **SAP HANA** 데이터 원본에 직접 연결할 수 있습니다. SAP HANA에 연결할 때에는 두 가지 옵션이 있습니다.
@@ -43,7 +43,7 @@ SAP HANA를 관계형 원본으로 처리하는 옵션은 SAP HANA를 통해 Dir
 
 ## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>SAP HANA를 다차원 원본으로 처리(기본값)
 
-SAP HANA에 대한 모든 새 연결은 기본적으로 SAP HANA를 다차원 원본으로 처리하는 이 연결 방법을 사용합니다. SAP HANA에 대한 연결을 관계형 원본으로 처리하려면 **파일 > 옵션 및 설정**을 선택한 다음, **직접 쿼리 > SAP HANA를 관계형 원본으로 처리** 아래의 상자를 선택해야 합니다. 이 기능이 **미리 보기**로 제공되는 동안 다차원 방법을 사용하여 생성된 보고서를 Power BI 서비스에 게시할 수 ‘없으며’, 그렇게 하면 Power BI 서비스에서 보고서를 열 때 오류가 발생합니다.  
+SAP HANA에 대한 모든 새 연결은 기본적으로 SAP HANA를 다차원 원본으로 처리하는 이 연결 방법을 사용합니다. SAP HANA에 대한 연결을 관계형 원본으로 처리하려면 **파일 > 옵션 및 설정 > 옵션**을 선택한 다음, **직접 쿼리 > SAP HANA를 관계형 원본으로 처리** 아래의 상자를 선택해야 합니다. 이 기능이 **미리 보기**로 제공되는 동안 다차원 방법을 사용하여 생성된 보고서를 Power BI 서비스에 게시할 수 ‘없으며’, 그렇게 하면 Power BI 서비스에서 보고서를 열 때 오류가 발생합니다.  
 
 다차원 원본으로 SAP HANA에 연결하는 경우 다음이 적용됩니다.
 
@@ -63,11 +63,11 @@ SAP HANA를 다차원 원본으로 처리하면 *관계형* 원본으로 처리�
 
 * SAP HANA에서 다른 특성을 레이블로 사용하도록 특성을 정의할 수 있습니다. 예를 들어 **Product**(1,2,3 등의 값 사용)는 **ProductName**(자전거, 셔츠, 장갑 등의 값 사용)을 레이블로 사용할 수 있습니다. 이 경우, 값이 자전거, 셔츠, 장갑 등의 레이블인 단일 필드 **Product**가 필드 목록에 표시됩니다. 그러나 키 값 1,2,3으로 정렬되고 고유성이 확인됩니다. 숨겨진 열 **Product.Key**도 생성되어 필요한 경우 기본 키 값에 액세스할 수 있습니다. 
 
-기본 SAP HANA 보기에 정의된 모든 변수는 연결 시 표시되며, 필요한 값을 입력할 수 있습니다. 이러한 값은 나중에 리본에서 **쿼리 편집**을 선택한 다음, 표시되는 드롭다운 메뉴에서 **변수 편집**을 선택하여 변경할 수 있습니다. 
+기본 SAP HANA 보기에 정의된 모든 변수는 연결 시 표시되며, 필요한 값을 입력할 수 있습니다. 이러한 값은 나중에 리본에서 **쿼리 편집**을 선택한 다음, 표시되는 드롭다운 메뉴에서 **매개 변수 관리**를 선택하여 변경할 수 있습니다. 
 
 SAP HANA로부터 항상 올바른 집계 데이터를 얻을 수 있도록 확인해야 하므로, DirectQuery를 사용할 때 허용되는 모델링 작업은 일반적인 경우보다 더 제한적입니다. 그러나 측정값 정의, 필드 이름 바꾸기 및 숨기기, 표시 형식 정의 등 많은 추가 및 변경이 가능합니다. 이러한 모든 변경 내용은 새로 고칠 때 보존되며, SAP HANA 보기에 대해 충돌되는 변경 내용은 적용되지 않습니다. 
 
-### <a name="additional-modelling-restrictions"></a>추가 모델링 제한 사항
+### <a name="additional-modeling-restrictions"></a>추가 모델링 제한 사항
 
 DirectQuery를 사용하여 SAP HANA에 연결할 때(다차원 원본으로 처리) 기본적인 추가 모델링 제한 사항은 다음과 같습니다. 
 
@@ -138,7 +138,7 @@ Power BI가 SQL 인터페이스를 사용하여 SAP HANA에 액세스하고 SQL�
 * **기타 계층 구조 메타데이터** - 계층 구조의 기본 구조는 Power BI에 표시되지만 비정형 계층 구조의 동작 제어처럼 일부 계층 구조 메타데이터에는 영향을 미치지 않습니다.
 이는 SQL 인터페이스로 인한 제한 사항 때문입니다.
 * **SSL을 사용하여 연결** - SSL을 사용하도록 구성된 SAP HANA 인스턴스에 연결할 수 없습니다.
-특성 보기에 대한 지원. Power BI는 분석 및 계산 보기에 연결할 수 있지만 특성 보기에는 바로 연결할 수 없습니다.
+* **특성 보기에 대한 지원** - Power BI는 분석 및 계산 보기에 연결할 수 있지만 특성 보기에는 바로 연결할 수 없습니다.
 * **카탈로그 개체 지원** - Power BI는 카탈로그 개체에 연결할 수 없습니다.
 * **게시 후 변수 변경** - 보고서를 게시한 후 Power BI 서비스에서 바로 SAP HANA 변수에 대한 값을 변경할 수 없습니다. 
  

@@ -1,15 +1,15 @@
 ---
-title: "개인 정보 설정 사용 안함"
-description: "개인 게이트웨이 내에서 빠른 결합을 사용하여 새로 고침에 개인 정보 설정을 사용하지 않는 방법입니다."
+title: 개인 정보 설정 사용 안함
+description: 개인 게이트웨이 내에서 빠른 결합을 사용하여 새로 고침에 개인 정보 설정을 사용하지 않는 방법입니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 54d5f5ec2db890de0fbcef5ef0633548b90a6079
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b8ec52f3c8bcb4051bd0ac9064786ddbfd15d9fe
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Power BI 게이트웨이의 개인 정보 보호 설정 해제 - 개인
 > [!NOTE]

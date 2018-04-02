@@ -1,15 +1,15 @@
 ---
-title: "Power BI의 DirectQuery 및 SAP BW(Business Warehouse)"
-description: "SAP BW(Business Warehouse)에서 DirectQuery를 사용할 경우의 고려 사항"
+title: Power BI의 DirectQuery 및 SAP BW(Business Warehouse)
+description: SAP BW(Business Warehouse)에서 DirectQuery를 사용할 경우의 고려 사항
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,17 +18,17 @@ ms.workload: powerbi
 ms.date: 03/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3697928986c5e579407e227911c5beab71c6a08d
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 792895f5bff61f52c82823040c974b162493edb2
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 및 SAP BW(Business Warehouse)
 **DirectQuery**를 사용하여 **SAP BW(Business Warehouse)** 데이터 원본에 직접 연결할 수 있습니다. SAP BW의 OLAP/다차원 특성을 고려할 때 관계형 원본(예: SQL Server)과 SAP BW에 대한 DirectQuery 간에는 많은 차이점이 있습니다. 이러한 차이점은 다음과 같이 요약됩니다.
 
 * 관계형 원본에 대한 **DirectQuery**에는 **데이터 가져오기** 또는 **쿼리 편집기** 대화 상자에 정의된 것과 같이 필드 목록에서 사용할 수 있는 데이터를 논리적으로 정의하는 일단의 쿼리가 있습니다. 이는 SAP BW와 같은 OLAP 원본에 연결하는 경우가 *아닙니다*. 대신 **데이터 가져오기**를 사용하여 SAP 서버에 연결할 때 Infocube 또는 BEx 쿼리만 선택됩니다. 그런 다음 선택한 Infocube/BEx 쿼리의 모든 주요 수치와 차원을 필드 목록에서 사용할 수 있습니다.   
-* 마찬가지로 SAP BW에 연결하는 경우 **쿼리 편집기**가 없습니다. 따라서 데이터 원본 설정(예: 서버 이름)은 **쿼리 편집 > 데이터 원본 설정**을 선택하여 변경할 수 있으며, 변수 설정은 **쿼리 편집 > 변수 편집**을 선택하여 변경할 수 있습니다.
+* 마찬가지로 SAP BW에 연결하는 경우 **쿼리 편집기**가 없습니다. 따라서 데이터 원본 설정(예: 서버 이름)은 **쿼리 편집 > 데이터 원본 설정**을 선택하여 변경할 수 있으며, 매개 변수 설정은 **쿼리 편집 > 매개 변수 관리**를 선택하여 변경할 수 있습니다.
 * OLAP 원본의 고유한 특성을 고려할 때 DirectQuery에 적용되는 일반적인 제한 사항 외에도 추가로 적용되는 모델링 및 시각화 둘 다에 대한 제한 사항이 있습니다. 이러한 제한 사항은 이 문서의 뒷부분에서 설명합니다.
 
 또한 Power BI에서 지원되지 않는 SAP BW 기능이 많이 있다는 것과 SAP BW에 대한 공용 인터페이스의 특성으로 인해 Power BI를 통해 나타나는 결과가 SAP 도구를 사용할 때 나타나는 결과와 일치하지 않는 중요한 경우가 있다는 것을 *이해해야 합니다*. 이러한 제한 사항은 이 문서의 뒷부분에서 설명합니다. 이러한 제한 사항과 동작의 차이점을 신중하게 검토하여 SAP 공용 인터페이스에서 반환된 Power BI를 통해 얻은 결과가 올바르게 해석되도록 합니다.  
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/08/2018
 > [!NOTE]
 > SAP BW를 통해 DirectQuery를 사용하는 기능은 Power BI Desktop 2018년 3월 업데이트까지 미리 보기 상태였습니다. 미리 보기 중에 접수된 피드백과 개선 사항 제안으로 인해 해당 미리 보기 버전을 사용하여 만든 보고서에 영향을 주는 변경 내용이 생겼습니다. 이제 SAP BW를 통한 DirectQuery GA(일반 공급)가 출시되었으므로, SAP BW를 통한 DirectQuery GA 이전 버전으로 작성된 기존의 모든 (미리 보기 기반) 보고서를 *삭제*해야 합니다. SAP BW를 통한 DirectQuery GA 이전 버전으로 만든 보고서에서 기본 SAP BW 큐브를 변경한 후 메타데이터를 새로 고치려고 하면 Refresh 호출 시 GA 이전 버전의 보고서에 오류가 발생합니다. SAP BW를 통한 DirectQuery GA 버전을 사용하여 빈 보고서에서 해당 보고서를 다시 만드세요. 
 
-## <a name="additional-modelling-restrictions"></a>추가 모델링 제한 사항
+## <a name="additional-modeling-restrictions"></a>추가 모델링 제한 사항
 Power BI에서 DirectQuery를 사용하여 SAP BW에 연결할 때 기본적인 추가 모델링 제한 사항은 다음과 같습니다.
 
 * **계산 열 지원 안 함:** 계산 열을 만드는 기능을 사용할 수 없습니다. 즉 계산 열을 만드는 그룹화 및 클러스터링을 사용할 수 없습니다.
@@ -62,7 +62,7 @@ Power BI에서 DirectQuery를 사용하여 SAP BW에 연결할 때 기본적인 
 | 집계 |경우에 따라, 특히 여러 통화를 처리하는 경우 SAP 공용 인터페이스에서 반환하는 집계 숫자는 SAP 도구에서 표시하는 것과 일치하지 않습니다. <br/> <br/> **따라서 Power BI 시각적 개체에 표시되는 숫자는 SAP 도구의 해당 시각적 개체에 대한 숫자와 반드시 일치하지는 않습니다.** <br/> <br/> 예를 들어 BEx 분석기에서 서로 다른 통화에 대한 합계가 "*"로 표시되지만, 이러한 집계 숫자에 대해 의미가 없다는 정보가 없이 SAP 공용 인터페이스에서 이 합계를 반환합니다. 따라서 Power BI에서 이러한 숫자(집계, 예: $, EUR 및 AUD)를 표시하게 됩니다. |
 | 통화 서식 |Power BI에서는 모든 통화 서식(예: $2,300 또는 4,000AUD)이 반영되지 않습니다. |
 | 측정 단위 |Power BI에서는 측정 단위(예: 230KG)가 반영되지 않습니다. |
-| 키 및 텍스트(짧은, 보통, 긴) |CostCenter와 같은 SAP BW 특성의 경우 필드 목록에는 단일 열 비용 센터가 표시됩니다.  해당 열을 사용하면 기본 텍스트가 표시됩니다.  숨겨진 필드를 표시하면 고유 이름 열을 표시할 수도 있으며, 이는 SP BW에서 할당한 고유 이름을 반환하며 고유성에 대한 기준이 됩니다.<br/> <br/>  키 및 기타 텍스트 필드는 사용할 수 없습니다. |
+| 키 및 텍스트(짧은, 보통, 긴) |CostCenter와 같은 SAP BW 특성의 경우 필드 목록에는 단일 열 비용 센터가 표시됩니다.  해당 열을 사용하면 기본 텍스트가 표시됩니다.  숨겨진 필드를 표시하면 고유 이름 열을 표시할 수도 있으며, 이는 SAP BW에서 할당한 고유 이름을 반환하며 고유성에 대한 기준이 됩니다.<br/> <br/>  키 및 기타 텍스트 필드는 사용할 수 없습니다. |
 | 특성의 다중 계층 구조 |**SAP**에서 특성에는 여러 계층이 있을 수 있습니다. 쿼리에 이러한 특성이 포함되면 사용자는 BEx 분석기와 같은 도구에서 사용할 계층을 선택할 수 있습니다. <br/> <br/> **Power BI**의 필드 목록에서는 다양한 계층을 동일한 차원의 다른 계층으로 볼 수 있습니다.  그러나 동일한 차원에서 서로 다른 두 계층의 여러 수준을 선택하면 SAP에서 빈 데이터가 반환됩니다. |
 | 비정형 계층 구조 처리 |![](media/desktop-directquery-sap-bw/directquery-sap-bw_01.png) |
 | 크기 조정 인수/역 부호 |SAP에서 주요 수치에는 모든 표시의 크기가 해당 인수로 조정되는 서식 옵션으로 정의된 크기 조정 인수(예: 1000)가 있을 수 있습니다. <br/> <br/> 마찬가지로 부호를 반대로 바꾸는 속성 집합이 있을 수 있습니다. Power BI에서 시각적으로 또는 계산의 일부로 이러한 주요 수치를 사용하면 크기가 조정되지 않은 숫자가 사용되며 부호가 반대로 바뀌지 않습니다. 기본 크기 조정 인수는 사용할 수 없습니다. Power BI 시각적 개체에서는 축(K, M, B)에 표시되는 크기 조정 단위를 시각적 서식의 일부로 제어할 수 있습니다. |

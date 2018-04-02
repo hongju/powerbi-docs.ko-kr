@@ -1,28 +1,28 @@
 ---
-title: "DirectQuery를 사용한 Azure SQL Data Warehouse"
-description: "DirectQuery를 사용한 Azure SQL Data Warehouse"
+title: DirectQuery를 사용한 Azure SQL Data Warehouse
+description: DirectQuery를 사용한 Azure SQL Data Warehouse
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 6d7cb2161702b844866af66896dbadb35ad801ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 87b49833b5c0d1d634d440e947659a12ac87b66c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery를 사용한 Azure SQL Data Warehouse
 DirectQuery을 사용한 Azure SQL Data Warehouse를 통해 Azure SQL Data Warehouse에 이미 있는 데이터와 메트릭을 기반으로 하는 동적 보고서를 만들 수 있습니다. DirectQuery을 사용할 경우 데이터를 탐색할 때 쿼리가 Azure SQL Data Warehouse로 다시 전송됩니다. 이것이 SQL Data Warehouse의 규모와 결합하여 테라바이트의 데이터를 상대로 몇 분 안에 동적 보고서를 만들 수 있습니다. 또한 **Power BI에서 열기** 버튼이 있어 사용자가 수동으로 정보를 지정하지 않고도 직접 Power BI를 SQL Data Warehouse에 연결할 수 있습니다.
@@ -84,9 +84,13 @@ SQL Data Warehouse는 Power BI 데이터 가져오기 페이지에도 나열됩�
 
 ![](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
+> [!NOTE]
+> Power BI 테넌트가 Azure SQL Data Warehouse와 동일한 영역에 있는 경우 송신 요금이 청구되지 않습니다. [이 지침](https://docs.microsoft.com/en-us/power-bi/service-admin-where-is-my-tenant-located)을 사용하여 Power BI 테넌트의 위치를 찾을 수 있습니다.
+>
+
 ## <a name="next-steps"></a>다음 단계
 [Power BI 시작](service-get-started.md)  
 [Power BI에 대한 데이터 가져오기](service-get-data.md)  
 [Azure SQL Data Warehouse](https://azure.microsoft.com/en-us/documentation/services/sql-data-warehouse/)  
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

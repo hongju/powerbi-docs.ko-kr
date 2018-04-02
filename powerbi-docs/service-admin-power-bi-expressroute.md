@@ -1,15 +1,15 @@
 ---
-title: "Power BI 및 ExpressRoute"
-description: "Power BI 및 ExpressRoute"
+title: Power BI 및 ExpressRoute
+description: Power BI 및 ExpressRoute
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 30bc1c58d02634748acfc2dce4fbfbec51fa6cba
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: faf438e9f76a7a929f7369dc91ef4edb4fbef42d
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI 및 ExpressRoute
 **Power BI** 및 **ExpressRoute**를 사용하여 조직에서 Power BI에 (또는 ISP의 공동 배치 기능을 사용하여) 네트워크 연결을 만들 수 있으며 이는 인터넷을 우회하여 중요한 Power BI 데이터 및 연결의 보안을 강화합니다.

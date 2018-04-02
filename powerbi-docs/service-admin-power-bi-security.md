@@ -1,15 +1,15 @@
 ---
-title: "Power BI 보안"
-description: "Power BI 보안입니다. Power BI가 Azure Active Directory 및 기타 Azure 서비스와 연결되는 방식입니다. 또한 이 항목에는 심층적인 내용을 제공하는 백서에 대한 링크가 포함되어 있습니다."
+title: Power BI 보안
+description: Power BI 보안입니다. Power BI가 Azure Active Directory 및 기타 Azure 서비스와 연결되는 방식입니다. 또한 이 항목에는 심층적인 내용을 제공하는 백서에 대한 링크가 포함되어 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: erikri
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 50bb742958f5cc9152231f14d176033b328a8976
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7db593cdac44bb3549023127a5250776cd6d57b7
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-security"></a>Power BI 보안
 Power BI 보안에 대한 자세한 설명을 확인하려면 [Power BI 보안 백서를 다운로드](http://go.microsoft.com/fwlink/?LinkId=829185)하세요.

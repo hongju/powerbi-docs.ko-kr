@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: d768756c8c7ede792c547f03779396f11e6e4f85
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 49849853d40bca9e2a2c4cb8084018f20ecaeabf
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
@@ -86,6 +86,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [시간 기반 데이터에 대한 드릴다운 세로 막대형 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) | [비디오](https://youtu.be/T_mRou18vx0) |
 | [드릴다운 도넛 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) | [비디오](https://youtu.be/AUVFrSHmPeo) |
 | [이중 KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380774) | |
+| [MAQ 소프트웨어의 동적 도구 설명](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380983) | [비디오](https://youtu.be/Z-tl97BpEr0) |
 | [향상된 분산형](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | [비디오](https://youtu.be/xCfM0cjM4do) |
 | [Aquarium 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381112) | |
 | [슬라이서 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960) | |
