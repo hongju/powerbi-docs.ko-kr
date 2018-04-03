@@ -1,15 +1,15 @@
 ---
-title: "대체 메일 주소 사용"
-description: "대체 메일 주소 사용"
+title: 대체 메일 주소 사용
+description: 대체 메일 주소 사용
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -55,7 +55,7 @@ Power BI용 AAD(Active Azure Directory) 임베드 토큰을 캡처할 때 세 �
 
 Power BI는 다음과 같은 조건에 따라 사용할 이메일을 선택합니다.
 1.  AAD 테넌트의 사용자 개체에 메일 특성이 있는 경우, Power BI는 이메일 주소에 해당 메일 특성을 사용합니다.
-2.  UPN 이메일이 **\*.onmicrosoft.com** 도메인 이메일 주소("@" 기호 다음의 정보)가 *아닌* 경우, Power BI는 이메일 주소에 해당 메일 특성을 사용합니다.
+2.  UPN 이메일이 **\*.onmicrosoft.com** 도메인 이메일 주소("\@" 기호 다음의 정보)가 *아닌* 경우, Power BI는 이메일 주소에 해당 메일 특성을 사용합니다.
 3.  AAD 사용자 개체에 "기타" 이메일 배열 특성이 있는 경우, 이 목록에 있는 첫 번째 이메일(이 특성에 이메일 목록이 있을 수 있기 때문에)이 사용됩니다.
 4. 위의 조건 중 해당 사항이 없을 경우 UPN 주소가 사용됩니다.
 
