@@ -1,15 +1,15 @@
 ---
-title: "Power BI 서비스에서 읽기용 보기 또는 편집용 보기로 보고서 열기"
-description: "읽기용 보기 또는 편집용 보기로 Power BI 보고서 열기"
+title: Power BI 서비스에서 읽기용 보기 또는 편집용 보기로 보고서 열기
+description: 읽기용 보기 또는 편집용 보기로 Power BI 보고서 열기
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
