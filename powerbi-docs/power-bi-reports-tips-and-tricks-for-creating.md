@@ -1,15 +1,15 @@
 ---
-title: "멋진 보고서를 만드는 팁"
-description: "Power BI 서비스에서 보고서를 만들기 위한 팁과 힌트"
+title: 멋진 보고서를 만드는 팁
+description: Power BI 서비스에서 보고서를 만들기 위한 팁과 힌트
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ad78f3c776fcb5aa44332e23fdf5a14531b2bdf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d19cc60ea23f87e14e78db9e896a4b17c19aeb66
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>멋진 보고서를 만드는 팁
 Power BI 서비스와 Power BI Desktop에서 보고서를 만들고 작업하는 것이 매우 유사하기 때문에 이들 링크 대부분이 적용됩니다.
@@ -45,7 +45,7 @@ Microsoft의 수석 프로그램 관리자이며 Power BI 대시보드 전문가
 * [블로그를 읽어보세요](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
 * [웹 세미나를 시청하세요](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
 
-## <a name="next-steps"></a>다음 단계
+## <a name="next-steps"></a>다음 단계 
 [Power BI - 기본 개념](service-basic-concepts.md)
 
 [Power BI의 보고서](service-reports.md)

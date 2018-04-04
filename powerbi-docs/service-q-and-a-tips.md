@@ -1,15 +1,15 @@
 ---
-title: "Power BI Q&A에서 질문하기 위한 팁과 요령"
-description: "Power BI Q&A에서 질문하기 위한 팁과 요령"
+title: Power BI Q&A에서 질문하기 위한 팁과 요령
+description: Power BI Q&A에서 질문하기 위한 팁과 요령
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bdf1f161e0a95bda5b37d9c43a3bdcc6bde1066a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A에서 질문하기 위한 팁
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A에서 인식하는 단어 및 용어
@@ -94,9 +94,6 @@ Q&A는 질문 내용이 답변에 정확하게 반영되도록 합니다. 이 �
 * 커서를 다시 질문 상자로 이동할 때 기본 데이터 집합의 대체 용어를 자동으로 추천합니다.
 * 기본 데이터 집합의 데이터를 기반으로 하여 질문을 다시 작성합니다. 이렇게 하면 Q&A가 사용된 단어를 기본 데이터 집합의 동의어로 바꾸기 때문에 Q&A에서 질문을 이해하는 데 도움이 됩니다.
 * 이해할 수 없는 경우 단어를 흐리게 표시합니다.
-
-## <a name="combine-results-from-more-than-one-dataset"></a>둘 이상의 데이터 집합에서 나온 결과 결합
-Power BI의 가장 강력한 기능 중 하나는 다른 데이터 집합에서 데이터를 결합하는 기능입니다.  따라서 질문을 단일 데이터 집합으로 제한하지 마세요. 하나 이상의 데이터 집합에서 데이터를 검색하는 방법도 질문하세요. 예를 들어 내 대시보드에 소매점 분석 샘플의 타일 및 상태 인구 데이터 집합이 있으면 상태 인구별 매장 수를 내림차순 가로 막대형 차트로 표시 하도록 요청할 수 있습니다.
 
 ## <a name="dont-stop-now"></a>추가 기능
 Q&A가 결과를 표시한 후에도 계속 대화를 진행하세요. 시각화 및 Q&A의 대화형 기능을 사용하여 더 많은 정보를 얻을 수 있습니다.

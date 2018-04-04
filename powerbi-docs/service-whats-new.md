@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kfile
-backup: sirsu
+backup: ''
 editor: ''
 tags: ''
 qualityfocus: no
@@ -15,22 +15,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: c4f05645f98e67fcf81c61d91bfdccb9612ed46b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
 
-* [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
-* [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)  
-* [Power BI 팀 블로그](https://powerbi.microsoft.com/blog/)
+- [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
+- [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)  
+- [Power BI 팀 블로그](https://powerbi.microsoft.com/blog/)
+- Dynamics 365의 [비즈니스 응용 프로그램 2018년 봄 릴리스 정보](https://aka.ms/bagspring2018releasenotes_internal): Microsoft 플랫폼에서 응용 프로그램 및 확장을 빌드하기 위한 새 기능과 함께, 비즈니스 응용 프로그램의 최신 업데이트입니다. 
 
 “새로운 기능” 및 기능에 대한 자세한 내용은 YouTube 채널에서도 확인할 수 있습니다.
 

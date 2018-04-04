@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/21/2018
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 데이터 원본
 Power BI 보고서는 다른 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다. DirectQuery 또는 SQL Server Analysis Services에 대한 라이브 연결을 사용하여 데이터를 가져오거나 데이터를 직접 쿼리할 수 있습니다.
@@ -84,7 +84,7 @@ Power BI 보고서는 다른 데이터 원본에 연결할 수 있습니다. 데
 | 웹 |예 |예 |아니요 |
 | XML |예 |예 |아니요 |
 | appFigures(베타) |예 |아니요 |아니요 |
-| Azure Analysis Services 데이터베이스(베타) |예 |아니요 |아니요 |
+| Azure Analysis Services 데이터베이스 |예 |아니요 |예 |
 | Azure Cosmos DB(베타) |예 |아니요 |아니요 |
 | Azure HDInsight Spark(베타) |예 |아니요 |아니요 |
 | Common Data Service(베타) |예 |아니요 |아니요 |

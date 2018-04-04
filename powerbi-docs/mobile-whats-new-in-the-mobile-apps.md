@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -35,6 +35,18 @@ ms.lasthandoff: 03/15/2018
 ### <a name="power-bi-for-mixed-reality-app-preview"></a>혼합 현실용 Power BI 앱(미리 보기)
 
 사용자가 위치한 데이터를 가져오는 최신 변경 사항에서 혼합 현실용 Power BI 앱을 만들었습니다. 가상 환경을 사용하는 동안 대시보드 및 보고서를 확인하거나 사용자 환경 컨텍스트의 특정 위치에 배치하고 봅니다. 새로운 [혼합 현실용 Power BI 앱](mobile-mixed-reality-app.md)에 대해 자세히 읽어보세요.
+
+### <a name="share-reports-and-dashboards-externally"></a>외부에서 보고서 및 대시보드 공유
+
+앱에서 바로 조직 외부의 사용자와 대시보드 및 보고서를 공유합니다. 외부 공유는 조직 및 소셜 계정 모두에 대해 사용할 수 있습니다. 
+
+### <a name="persistent-filters"></a>영구 필터
+
+웹의 Power BI에서 필터 및 슬라이서를 설정하면 필터 선택 사항이 모바일 앱에도 적용되어 중단했던 위치를 선택할 수 있습니다.
+
+### <a name="refresh-reports-on-the-ipad"></a>iPad의 보고서 새로 고침
+
+Power BI 보고서에는 이제 iPad 앱의 새로 고침 단추가 있습니다.
 
 ## <a name="february-2018"></a>2018년 2월
 

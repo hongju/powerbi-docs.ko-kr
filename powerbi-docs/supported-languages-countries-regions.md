@@ -1,28 +1,28 @@
 ---
-title: "Power BI에 지원되는 언어 및 국가/지역"
-description: "Power BI 서비스, Power BI Desktop 및 Power BI 설명서에서 지원하는 언어 및 국가/지역 목록을 참조하세요."
+title: Power BI에 지원되는 언어 및 국가/지역
+description: Power BI 서비스, Power BI Desktop 및 Power BI 설명서에서 지원하는 언어 및 국가/지역 목록을 참조하세요.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 03/20/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c007202bc6526872ea3469ccc5e46b71a8e6dcb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0ca6a21e67e7ab1d2a0c0daa8da07052041db139
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI에 지원되는 언어 및 국가/지역
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/24/2018
 Power BI를 사용할 수 있는 국가 및 지역 목록은 [국제 지원 가용성 목록](https://products.office.com/business/international-availability)을 참조하세요. 
 
 ## <a name="languages-for-the-power-bi-service"></a>Power BI 서비스에 대한 언어
-브라우저의 Power BI는 다음과 같이 42개 언어로 제공됩니다.
+브라우저의 Power BI 서비스는 다음 44개 언어로 제공됩니다.
 
 * 아랍어
 * 바스크어-바스크어

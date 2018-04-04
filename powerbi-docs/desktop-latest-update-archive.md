@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/14/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 786e9adf9698b0d878043c684dc3b65a49bc760a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 7128c36d8d6c592d8f49797adf5be4927b240e3c
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -298,7 +298,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 ### <a name="other"></a>기타:
 
--   Windows 스토어에서 **Power BI Desktop** 가져오기[[비디오]](https://youtu.be/jksjtR8GnBE?t=27m12s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#windowsStore) [[문서]](desktop-get-the-desktop.md#install-as-an-app-from-the-windows-store)
+-   Windows 스토어에서 **Power BI Desktop** 가져오기[[비디오]](https://youtu.be/jksjtR8GnBE?t=27m12s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#windowsStore) [[문서]](desktop-get-the-desktop.md#install-as-an-app-from-the-microsoft-store)
 -   도움말 콘텐츠에 대한 향상된 액세스 [[비디오]](https://youtu.be/jksjtR8GnBE?t=28m42s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#help)
 
 
