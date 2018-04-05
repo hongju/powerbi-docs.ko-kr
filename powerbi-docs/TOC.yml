@@ -728,7 +728,7 @@
           href: desktop-common-query-tasks.md
         - name: Power BI Desktop에서 도형 맵 사용(미리 보기)
           href: desktop-shape-map.md
-        - name: 이진 조합
+        - name: 파일 결합(이진)
           href: desktop-combine-binaries.md
     - name: 데이터 모델링
       items:
