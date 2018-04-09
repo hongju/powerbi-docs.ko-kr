@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 49849853d40bca9e2a2c4cb8084018f20ecaeabf
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 7e75eacac61779a1ecd714d009a61fe4306e2885
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
@@ -124,6 +124,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [OKViz로 스파크라인](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [비디오](https://youtu.be/0m3Vnvso9tY) |
 | [스트림 그래프](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) | |
 | [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
+| [OKViz의 시놉틱 패널](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380873) | |
 | [테이블 Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
 | [속도계](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [비디오](https://youtu.be/C3OXdETbS9o) |
 | [텍스트 필터](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |

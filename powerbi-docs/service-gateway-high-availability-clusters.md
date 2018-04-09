@@ -1,15 +1,15 @@
 ---
-title: "온-프레미스 데이터 게이트웨이를 위한 고가용성 클러스터"
-description: "온-프레미스 데이터 게이트웨이 클러스터를 만들어서 기업 고객에게 고가용성을 제공할 수 있습니다."
+title: 온-프레미스 데이터 게이트웨이를 위한 고가용성 클러스터
+description: 온-프레미스 데이터 게이트웨이 클러스터를 만들어서 기업 고객에게 고가용성을 제공할 수 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9ad1d4288184368dbb294bfafa69fe005780b322
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이를 위한 고가용성 클러스터
 조직에서 Power BI 보고서 및 대시보드에 사용되는 온-프레미스 데이터 리소스에 액세스할 수 있도록 **온-프레미스 데이터 게이트웨이**의 **고가용성 클러스터** 설치 프로그램을 만들 수 있습니다. 이러한 클러스터를 사용하면 게이트웨이 관리자는 게이트웨이를 여러 그룹으로 나누어 온-프레미스 데이터 리소스에 대한 액세스에서 단일 실패 지점을 방지할 수 있습니다. 이 문서에서는 온-프레미스 데이터 게이트웨이의 고가용성 클러스터를 만드는 단계를 설명하고, 설정 방법에 대한 모범 사례를 공유합니다. 고가용성 게이트웨이 클러스터를 만들려면 온-프레미스 데이터 게이트웨이에 대한 2017년 11월 이상 업데이트가 필요합니다.

@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop에서 비즈니스용 OneDrive 링크 사용"
-description: "Power BI Desktop에서 비즈니스용 OneDrive 링크 사용"
+title: Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
+description: Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d203668f3fbb3f9a50af50280d68d2fadf15f64
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad83703b77907488f47f9b5f419e8e4d5145ae97
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
 많은 사용자가 Excel 통합 문서를 Power BI Desktop에 사용하기 좋은 비즈니스용 OneDrive 드라이브에 저장합니다. **Power BI Desktop**을 통해 **비즈니스용 OneDrive**에 저장된 **Excel** 파일에 대한 온라인 링크를 사용하여 보고서 및 시각적 개체를 만들 수 있습니다. **비즈니스용 OneDrive** 그룹 계정 또는 개별 **비즈니스용 OneDrive** 계정을 사용할 수 있습니다.
@@ -59,7 +59,7 @@ Power BI Desktop에서 방금 클립보드에 복사한 링크를 사용할 수 
 테이블, 시트 및 Excel 통합 문서에 있는 범위 목록을 선택할 수 있는 **탐색기** 창이 나타납니다. 여기에서 다른 Excel 파일처럼 비즈니스용 OneDrive 파일을 사용하고 다른 데이터 원본에서 수행한 것처럼 보고서를 만들어 데이터 집합에서 사용할 수 있습니다.
 
 > [!NOTE]
-> Power BI 서비스에서 **OneDrive for Business** 파일을 데이터 원본으로 사용하려면 해당 파일에 대해 **서비스 새로 고침**을 사용하여 새로 고침 설정 구성 시 **OAuth2**를 **인증 방법**으로 선택하세요. 그렇지 않으면 연결하거나 새로 고칠 때 오류가 발생할 수 있습니다. (예: *데이터 원본 자격 증명을 업데이트하지 못했습니다.*) 인증 방법으로 **OAuth2** 메서드를 선택하여 해당 자격 증명 오류를 해결합니다.
+> Power BI 서비스에서 **비즈니스용 OneDrive** 파일을 데이터 원본으로 사용하려면 해당 파일에 대해 **서비스 새로 고침**을 사용하여 새로 고침 설정 구성 시 **OAuth2**를 **인증 방법**으로 선택하세요. 그러지 않으면 연결하거나 새로 고칠 때 오류가 발생할 수 있습니다(예: ‘데이터 원본 자격 증명을 업데이트하지 못했습니다.’). 인증 방법으로 **OAuth2** 메서드를 선택하여 해당 자격 증명 오류를 해결합니다.
 > 
 > 
 

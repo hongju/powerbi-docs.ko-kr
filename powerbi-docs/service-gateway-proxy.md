@@ -1,15 +1,15 @@
 ---
-title: "온-프레미스 데이터 게이트웨이에 대한 프록시 설정 구성"
-description: "온-프레미스 데이터 게이트웨이에 대한 프록시 설정의 구성과 관련된 정보."
+title: 온-프레미스 데이터 게이트웨이에 대한 프록시 설정 구성
+description: 온-프레미스 데이터 게이트웨이에 대한 프록시 설정의 구성과 관련된 정보.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 27b8d36ed870501170efdb81c40edb6cb4727499
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f6bfc47e7b74d9b17479a2ac7fc3dbc3f3e76816
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이에 대한 프록시 설정 구성
 작업 환경은 인터넷에 액세스하도록 프록시를 통과해야 합니다. 온-프레미스 데이터 게이트웨이가 서비스에 연결되지 못하도록 할 수 있습니다.
@@ -82,7 +82,7 @@ superuser.com의 다음 게시물은 네트워크에 프록시가 있는지 확�
         net stop PBIEgwService
    
         net start PBIEgwService
-3. **온-프레미스 데이터 게이트웨이 서비스 구성기**를 시작합니다. Windows 시작 단추를 선택하고 *온-프레미스 데이터 게이트웨이*를 검색합니다.
+3. **온-프레미스 데이터 게이트웨이 서비스 구성기**를 시작합니다. Windows 시작 단추를 선택하고 ‘온-프레미스 데이터 게이트웨이’를 검색합니다.
 4. Power BI에 로그인합니다.
 5. 복구 키를 사용하여 게이트웨이를 복원합니다.
    

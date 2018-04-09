@@ -1,15 +1,15 @@
 ---
-title: "자습서: Power BI Desktop에서 Excel 및 OData 피드의 판매 데이터 분석"
-description: "자습서: Excel 및 OData 피드의 판매 데이터 분석"
+title: '자습서: Power BI Desktop에서 Excel 및 OData 피드의 판매 데이터 분석'
+description: '자습서: Excel 및 OData 피드의 판매 데이터 분석'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>자습서: Excel 및 OData 피드의 판매 데이터 분석
 **Power BI Desktop**을 사용하면 모든 종류의 다양한 데이터 원본에 연결한 다음 흥미롭고 눈에 띄는 데이터 분석과 시각화를 쉽게 수행할 수 있는 방식으로 이러한 데이터 원본을 결합 및 셰이핑할 수 있습니다. 이 자습서에서는 두 데이터 소스의 데이터를 결합하는 방법을 배웁니다. 
@@ -133,7 +133,7 @@ Power BI Desktop을 사용하면 가져오는 열에 따라 계산을 만들어 
 1. **열 추가** 리본 탭에서 **사용자 지정** **열 추가**를 클릭합니다.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. **사용자 지정 열 추가** 대화 상자의 **사용자 지정 열 수식** 텍스트 상자에 **[Order\_Details.UnitPrice] \* [Order\_Details.Quantity]**를 입력합니다.
+2. **사용자 지정 열 추가** 대화 상자의 **사용자 지정 열 수식** 텍스트 상자에 **[Order\_Details.UnitPrice]** \* **[Order\_Details.Quantity]**를 입력합니다.
 3. **새 열 이름** 텍스트 상자에 **LineTotal**을 입력합니다.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
@@ -202,7 +202,7 @@ Power BI Desktop을 사용하면 다양한 시각화를 만들어 데이터를 �
 
 이 작업에서는 이전에 로드한 데이터를 기반으로 하여 보고서를 만듭니다. 필드 창을 사용하여 시각화를 만들 열을 선택합니다.
 
-### <a name="step-1-create-charts-showing-units-in-stock-by-product-and-total-sales-by-year"></a>1단계: 제품별 재고 단위 및 연도별 총 판매액을 보여 주는 차트 만들기
+### <a name="step-1-create-charts-showing-units-in-stock-by-product-and-total-sales-by-year"></a>1단계: 제품별 재고 단위 및 연도별 총 판매액을 보여주는 차트 만들기
 필드 창(필드 창은 화면 오른쪽에 있음)에서 **UnitsInStock** 을 캔버스의 빈 공간으로 끕니다. 테이블 시각화가 만들어집니다. 이제 ProductName을 축 상자(시각화 창의 아래쪽에 있음)로 끕니다. 그런 다음 시각화의 오른쪽 상단 모서리에 있는 스키틀을 사용하여 **정렬 기준 \> UnitsInStock**을 선택합니다.
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
@@ -223,7 +223,7 @@ Power BI Desktop을 사용하면 상호 강조 표시하고 서로를 필터링�
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
 ## <a name="complete-sales-analysis-report"></a>판매 분석 보고서 완료
-이러한 모든 단계를 수행하고 나면 Products.xlsx 파일 및 Northwind OData 피드의 데이터를 결합하는 영업 보고서가 작성됩니다. 보고서는 여러 국가의 판매 정보를 분석하는 데 도움이 되는 시각 효과를 보여 줍니다. [여기](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Sales_Data.pbix)서 이 자습서에 대해 완료된 Power BI Desktop 파일을 다운로드할 수 있습니다.
+이러한 모든 단계를 수행하고 나면 Products.xlsx 파일 및 Northwind OData 피드의 데이터를 결합하는 영업 보고서가 작성됩니다. 보고서는 여러 국가의 판매 정보를 분석하는 데 도움이 되는 시각 효과를 보여줍니다. [여기](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Sales_Data.pbix)서 이 자습서에 대해 완료된 Power BI Desktop 파일을 다운로드할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [다른 Power BI Desktop 자습서 참고](http://go.microsoft.com/fwlink/?LinkID=521937)

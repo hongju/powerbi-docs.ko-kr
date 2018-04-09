@@ -1,15 +1,15 @@
 ---
-title: "온-프레미스 데이터 게이트웨이 FAQ"
-description: "온-프레미스 데이터 게이트웨이 FAQ입니다. 질문과 대답을 해당 게이트웨이에 대해 하나의 스폿으로 수집합니다."
+title: 온-프레미스 데이터 게이트웨이 FAQ
+description: 온-프레미스 데이터 게이트웨이 FAQ입니다. 질문과 대답을 해당 게이트웨이에 대해 하나의 스폿으로 수집합니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: d06a83584bb1b270eb10f6c7098358e718f3492f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 93771e4f6e7969ac0b26aaa87a240c2261150776
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-faq"></a>온-프레미스 데이터 게이트웨이 FAQ
 <!-- Shared FAQ shared Include -->

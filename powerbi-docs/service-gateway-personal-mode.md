@@ -1,15 +1,15 @@
 ---
-title: "온-프레미스 데이터 게이트웨이(개인 모드)"
-description: "개인이 온-프레미스 데이터 연결에 사용할 수 있는 Power BI용 데이터 게이트웨이"
+title: 온-프레미스 데이터 게이트웨이(개인 모드)
+description: 개인이 온-프레미스 데이터 연결에 사용할 수 있는 Power BI용 데이터 게이트웨이
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 777e5f27954890fe842096c0f2633f6803ebf319
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>온-프레미스 데이터 게이트웨이(개인 모드)
-온-프레미스 데이터 원본을 사용할 수 있으며, 게이트웨이를 사용하여 Power BI 보고서 및 대시보드를 만들 수 있습니다. **게이트웨이**는 사용자가 **Power BI 서비스**와 같은 온라인 서비스의 데이터를 사용할 수 있게 사설 온-프레미스 네트워크에 저장된 데이터에 대한 액세스를 용이하게 하는 소프트웨어입니다. **온-프레미스 데이터 게이트웨이(개인 모드)**는 최근에 릴리스된 Power BI 게이트웨이에 대한 업데이트로, 개별 사용자가 자신의 컴퓨터에 게이트웨이를 설치하고 온-프레미스 데이터에 대한 액세스를 얻을 수 있도록 합니다.
+온-프레미스 데이터 원본을 사용할 수 있으며, 게이트웨이를 사용하여 Power BI 보고서 및 대시보드를 만들 수 있습니다. **게이트웨이**는 사용자가 **Power BI 서비스**와 같은 온라인 서비스의 데이터를 사용할 수 있게 사설 온-프레미스 네트워크에 저장된 데이터에 대한 액세스를 용이하게 하는 소프트웨어입니다. **온-프레미스 데이터 게이트웨이(개인 모드)**는 최근에 릴리스된 Power BI Gateway에 대한 업데이트로, 개별 사용자가 자신의 컴퓨터에 게이트웨이를 설치하고 온-프레미스 데이터에 대한 액세스를 얻을 수 있도록 합니다.
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_00.png)
 
@@ -89,7 +89,7 @@ ms.lasthandoff: 02/24/2018
 1. 파일 탐색기를 사용하여 다음 파일을 엽니다.
    
    ```
-   %localappdata%\Microsoft\on-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+   %localappdata%\Microsoft\On-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
    ```
 2. 파일의 맨 아래에 다음 텍스트를 추가합니다.
    

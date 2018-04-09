@@ -992,6 +992,8 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: 사용자 지정 시각적 개체 인증 받기
           href: power-bi-custom-visuals-certified.md
+        - name: AppSource에 사용자 지정 시각적 개체 게시
+          href: developer/office-store.md
     - name: 대시보드에 데이터 푸시
       items:
         - name: 대시보드에 데이터 푸시

@@ -1,15 +1,15 @@
 ---
-title: "Power BI의 책갈피 사용"
-description: "Power BI Desktop에서 책갈피를 사용하여 보고서에서 보기 및 설정을 저장하고 스토리 모양의 프리젠테이션을 작성할 수 있습니다."
+title: Power BI의 책갈피 사용
+description: Power BI Desktop에서 책갈피를 사용하여 보고서에서 보기 및 설정을 저장하고 스토리 모양의 프리젠테이션을 작성할 수 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비롯한 보고서 페이지의 현재 구성된 보기를 캡처하고 저장된 해당 책갈피를 선택하여 나중에 해당 상태로 돌아갈 수 있습니다. 
@@ -34,7 +34,7 @@ Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비�
 책갈피에는 다양한 용도가 있습니다. 책갈피를 사용하여 보고서를 만드는 고유한 과정을 추적하고(책갈피는 쉽게 추가, 삭제, 이름 바꾸기 가능) 책갈피를 만들어서 순서대로 책갈피를 알아보는 PowerPoint 같은 프레젠테이션을 빌드할 수 있습니다. 이렇게 보고서에서 스토리를 만들 수 있습니다. 책갈피를 가장 잘 사용할 수 있는 방법에 따라 다른 용도로 사용될 수 있습니다.
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>책갈피 미리 보기(2018년 3월 이전 버전) 사용
-Power BI Desktop 2018년 3월 버전부터 책갈피가 일반적으로 제공됩니다. 
+Power BI Desktop 2018년 3월 버전부터 책갈피가 일반 공급됩니다. 
 
 항상 가장 최근 릴리스로 업그레이드하는 것이 좋습니다. 그러나 Power BI Desktop의 버전이 이 릴리스보다 이전 버전인 경우 **Power BI Desktop**의 **2017년 10월** 릴리스 및 **Power BI 서비스**의 책갈피 사용 가능 보고서에서부터는 **책갈피** 기능을 사용할 수 있습니다. 미리 보기 기능을 사용하려면 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 다음, **책갈피** 옆에 있는 확인란을 선택합니다. 
 
@@ -63,7 +63,7 @@ Power BI Desktop 2018년 3월 버전부터 책갈피가 일반적으로 제공�
 
 ![책갈피 추가](media/desktop-bookmarks/bookmarks_04.png)
 
-**Power BI Desktop**는 책갈피를 만들고 일반 이름을 제공합니다. 책갈피의 이름 옆에 있는 줄임표를 선택한 다음 나타나는 메뉴에서 작업을 선택하여 쉽게 책갈피의 *이름을 바꾸*거나, *삭제*하거나 *업데이트*할 수 있습니다.
+**Power BI Desktop**은 책갈피를 만들고 일반 이름을 제공합니다. 책갈피 이름 옆에 있는 줄임표를 선택한 다음, 나타나는 메뉴에서 작업을 선택하여 쉽게 책갈피의 ‘이름을 바꾸’거나 책갈피를 ‘삭제’ 또는 ‘업데이트’할 수 있습니다.
 
 ![줄임표를 사용하여 책갈피의 하위 메뉴를 선택합니다.](media/desktop-bookmarks/bookmarks_05.png)
 
@@ -72,7 +72,7 @@ Power BI Desktop 2018년 3월 버전부터 책갈피가 일반적으로 제공�
 ## <a name="arranging-bookmarks"></a>책갈피 정렬
 책갈피를 만드는 경우 만드는 순서는 대상 그룹에 표시하는 것과 반드시 동일한 순서는 아닐 수 있습니다. 걱정하지 마세요. 책갈피의 순서를 쉽게 재정렬할 수 있습니다.
 
-**책갈피** 창에서 해당 순서를 변경하려면 다음 이미지에 나와 있는 대로 단순히 책갈피를 끌어서 놓기만 하면 됩니다. 책갈피 사이의 노란색 표시줄은 끌어온 책갈피를 배치할 위치를 지정합니다.
+**책갈피** 창에서 해당 순서를 변경하려면 다음 이미지에 나와 있는 대로 책갈피를 끌어서 놓기만 하면 됩니다. 책갈피 사이의 노란색 표시줄은 끌어온 책갈피를 배치할 위치를 지정합니다.
 
 ![끌어서 놓기로 책갈피 순서 변경](media/desktop-bookmarks/bookmarks_06.png)
 
@@ -89,7 +89,7 @@ Power BI Desktop 2018년 3월 버전부터 책갈피가 일반적으로 제공�
 
 ![책갈피 제목 표시줄 기능 책갈피](media/desktop-bookmarks/bookmarks_07.png)
 
-**보기** 모드인 경우 (해당 창에 있는 X를 클릭하여) **책갈피** 창을 닫고 프레젠테이션을 위해 추가 공간을 제공할 수 있습니다. 또한 상호 작용하는 경우와 마찬가지로 **보기** 모드인 모든 시각적 개체는 대화형이고 교차 강조 표시에 사용할 수 있습니다. 
+**보기** 모드인 경우 (해당 창에 있는 X를 클릭하여) **책갈피** 창을 닫고 프레젠테이션을 위해 추가 공간을 제공할 수 있습니다. 또한 시각적 개체를 조작하는 경우와 마찬가지로 **보기** 모드인 모든 시각적 개체는 대화형이고 교차 강조 표시에 사용할 수 있습니다. 
 
 ## <a name="visibility---using-the-selection-pane"></a>표시 유형 - 선택 창 사용
 책갈피의 릴리스에서 새 **선택 영역** 창도 도입되었습니다. **선택** 창은 현재 페이지에서 모든 개체의 목록을 제공하고 해당 창을 통해 개체를 선택하고 지정된 개체의 표시 여부를 지정할 수 있습니다. 

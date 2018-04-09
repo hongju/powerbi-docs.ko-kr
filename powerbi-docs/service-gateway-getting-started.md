@@ -1,15 +1,15 @@
 ---
-title: "Power BI 게이트웨이 시작하기"
-description: "Power BI의 데이터 게이트웨이에 대한 기본 사항을 알아봅니다."
+title: Power BI 게이트웨이 시작하기
+description: Power BI의 데이터 게이트웨이에 대한 기본 사항을 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: e56af5ae1c59afc7d7aef01450bb1c778eb70b14
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bf01bb7764db09d6afe24e520f2d185c191ef56c
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Power BI 게이트웨이 시작하기
 **Power BI 게이트웨이 시작하기** 가이드입니다. 이 간략한 연습을 통해 게이트웨이의 역할 및 작동 방식과, 자체 게이트웨이 설치, 구성 및 실행 방법에 대해 학습합니다.  

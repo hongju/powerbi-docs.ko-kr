@@ -1,15 +1,15 @@
 ---
-title: "독일 정부 고객을 위한 Power BI 관련 질문과 대답"
-description: "독일 정부 고객을 위한 Power BI 독일 정부 서비스 관련 자주 묻는 질문에 대답"
+title: 독일 정부 고객을 위한 Power BI 관련 질문과 대답
+description: 독일 정부 고객을 위한 Power BI 독일 정부 서비스 관련 자주 묻는 질문에 대답
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 1e6b43efc887550e98bc6195c24af77c61594989
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 911e75cb0d9f81c2696575942a13531e5799218e
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>독일 클라우드 고객을 위한 Power BI 관련 질문과 대답
 **Power BI 서비스**에는 EU/EFTA(유럽 연합/유럽 자유 무역 계약) 고객을 위해 제공되는 버전이 있는데, 주로 MCD(Microsoft Cloud Deutschland)라고 부릅니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 EU/EFTA 고객과 관련된 것이며 **Power BI 서비스** 상용 버전 또는 정부 고객에게 제공되는 Power BI 서비스와는 별개입니다.
@@ -43,7 +43,7 @@ ms.lasthandoff: 02/24/2018
 4. **독일 클라우드용 Power BI 서비스에 무료 서비스가 있습니까?**
    
    아니요. 독일 클라우드용 Power BI 서비스에는 무료 라이선스 버전이 제공되지 않습니다. 그러나 Power BI 무료 솔루션으로 비즈니스 요구 사항이 충족된다면 [공용 클라우드의 무료 Power BI 솔루션](https://powerbi.microsoft.com/get-started/)에 등록하는 것이 좋습니다.
-5. **독일 클라우드용 Power BI 서비스에 Power BI Desktop, Power BI 모바일, 온-프레미스 데이터 게이트웨이 및 게시자를 사용할 수 있습니까?**
+5. **독일 클라우드용 Power BI 서비스에 Power BI Desktop, Power BI Mobile, 온-프레미스 데이터 게이트웨이 및 Publisher for Excel을 사용할 수 있나요?**
    
    예. Power BI 클라이언트 제품은 독일 클라우드용 Power BI 서비스와 원활하게 작동하도록 업데이트되었습니다. 독일 클라우드용 Power BI 서비스에서 동일한 클라이언트 제품의 사용을 시작하려면 독일 클라우드용 Power BI 서비스 계정으로 로그인하세요. 다음 위치에서 클라이언트 제품의 최신 버전을 다운로드할 수 있습니다.
    
@@ -76,7 +76,7 @@ ms.lasthandoff: 02/24/2018
 | 커뮤니티 |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |
 
 ### <a name="next-steps"></a>다음 단계
-Power BI에서는 모든 종류의 작업을 수행할 수 있습니다. 서비스에 등록하는 방법을 보여 주는 문서를 포함하여 자세한 정보 및 학습에 대해서는 다음 리소스를 확인해 보세요.
+Power BI에서는 모든 종류의 작업을 수행할 수 있습니다. 서비스에 등록하는 방법을 보여주는 문서를 포함하여 자세한 정보 및 학습에 대해서는 다음 리소스를 확인해 보세요.
 
 * [Power BI 단계별 학습](guided-learning/gettingstarted.yml#step-1)
 * [Power BI 서비스 시작](service-get-started.md)

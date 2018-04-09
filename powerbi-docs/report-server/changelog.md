@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 1345cfee8eb92b9b4e3cf883f19edddee859a1c3
+ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/29/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -31,6 +31,12 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
 ## <a name="march-2018"></a>2018년 3월
 - **Power BI Report Server**
+    - *버전 1.2.6660.39920(빌드 15.0.2.389), 릴리스 날짜: 2018년 3월 28일*
+        - 버그 수정
+            - Power BI 보고서(PBIX)의 경우 Power BI 시각적 개체에서 작동하지 않는 데이터 내보내기에 대한 수정
+            - Power BI 보고서(PBIX)의 경우 작동하지 않는 URL 필터에 대한 수정
+            - 페이지를 매긴 보고서(RDL)의 경우 Power BI Report Server 3월 릴리스로 업그레이드한 후 IE11에서 올바르게 표시되지 않는 이미지에 대한 수정
+
     - *버전 1.2.6648.38132(빌드 15.0.2.378), 릴리스 날짜: 2018년 3월 19일*
         - 보안 업데이트
         - 내게 필요한 옵션 기능 향상

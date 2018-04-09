@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop의 일반적인 쿼리 작업"
-description: "Power BI Desktop의 일반적인 쿼리 작업"
+title: Power BI Desktop의 일반적인 쿼리 작업
+description: Power BI Desktop의 일반적인 쿼리 작업
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4d0a8b9a1f855c373b43c5c78ec41b6bc34d1d18
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37c5e55d426d308fe8ea7de5c6604a9c66f81896
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop의 일반적인 쿼리 작업
-Power BI Desktop의 **쿼리 편집기** 창에서 작업하는 경우 일반적으로 사용되는 소수의 작업이 있습니다. 이 문서에서는 이러한 일반적인 작업을 보여 주고, 추가 정보 링크를 제공합니다. 
+Power BI Desktop의 **쿼리 편집기** 창에서 작업하는 경우 일반적으로 사용되는 소수의 작업이 있습니다. 이 문서에서는 이러한 일반적인 작업을 보여주고, 추가 정보 링크를 제공합니다. 
 
 여기에 표시되는 일반적인 쿼리 작업은 다음과 같습니다.
 
@@ -45,7 +45,7 @@ Power BI Desktop의 **쿼리 편집기** 창에서 작업하는 경우 일반적
 두 데이터 소스에 연결하는 데 필요한 단계에서 일반적인 쿼리 작업이 시작됩니다.
 
 ## <a name="connect-to-data"></a>데이터에 연결
-Power BI Desktop의 데이터에 연결하려면 리본의 **홈** 탭에서 **데이터 가져오기** 단추를 선택합니다. Power BI Desktop에서 가장 일반적인 데이터 소스가 포함된 메뉴를 표시합니다. Power BI Desktop에서 연결할 수 있는 데이터 소스의 전체 목록을 보려면 메뉴 맨 아래에 있는 **자세히...** 단추를 선택합니다. 자세한 내용은 [Power BI Desktop의 데이터 소스](https://powerbi.uservoice.com/knowledgebase/articles/471643)를 참조하세요.
+Power BI Desktop의 데이터에 연결하려면 리본의 **홈** 탭에서 **데이터 가져오기** 단추를 선택합니다. Power BI Desktop에서 가장 일반적인 데이터 소스가 포함된 메뉴를 표시합니다. Power BI Desktop에서 연결할 수 있는 데이터 소스의 전체 목록을 보려면 메뉴 맨 아래에 있는 **자세히...** 단추를 선택합니다. 자세한 내용은 [Power BI Desktop의 데이터 소스](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources)를 참조하세요.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -67,22 +67,22 @@ Power BI Desktop의 데이터에 연결하려면 리본의 **홈** 탭에서 **�
 
 다른 데이터 연결도 비슷합니다. 데이터 연결에 인증이 필요한 경우 Power BI Desktop이 적절한 자격 증명을 묻는 메시지를 표시합니다.
 
-Power BI Desktop에서 데이터에 연결하는 단계별 데모를 보려면 [Power BI Desktop에서 데이터에 연결](https://powerbi.uservoice.com/knowledgebase/articles/471635)을 참조하세요.
+Power BI Desktop에서 데이터에 연결하는 단계별 데모를 보려면 [Power BI Desktop에서 데이터에 연결](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data)을 참조하세요.
 
 ## <a name="shape-and-combine-data"></a>데이터 모양 지정 및 결합
-쉽게 데이터 모양을 지정하고 쿼리 편집기와 결합할 수 있습니다. 이 섹션에는 데이터 모양을 지정할 수 있는 방법의 몇 가지 예가 포함되어 있습니다. 데이터를 셰이핑하고 결합하는 방법의 전체 데모를 보려면 **[Shape and Combine Data with Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644)**(Power BI Desktop을 사용하여 데이터 셰이핑 및 결합)을 참조하세요.
+쉽게 데이터 모양을 지정하고 쿼리 편집기와 결합할 수 있습니다. 이 섹션에는 데이터 모양을 지정할 수 있는 방법의 몇 가지 예가 포함되어 있습니다. 데이터를 셰이핑하고 결합하는 방법의 전체 데모를 보려면 **[Shape and Combine Data with Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**(Power BI Desktop을 사용하여 데이터 셰이핑 및 결합)을 참조하세요.
 
-이전 섹션에서는 두 개의 데이터 집합, 즉 Excel 통합 문서와 웹 리소스를 연결했습니다. 쿼리 편집기에 로드된 후 웹 페이지의 쿼리 뷰가 (쿼리 편집기 창 왼쪽의 **쿼리** 창에 나열된 사용 가능한 쿼리에서) 선택된 상태로 다음과 같이 표시됩니다.
+이전 섹션에서는 두 개의 데이터 집합, 즉 Excel 통합 문서와 웹 리소스를 연결했습니다. 쿼리 편집기에 로드된 후 선택된 웹 페이지의 쿼리를 사용하여 다음과 같이 표시됩니다([쿼리 편집기] 창 왼쪽의 **쿼리** 창에 나열된 사용 가능한 쿼리에서 가져옴).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
 데이터 모양을 지정하는 경우 요구 사항에 맞는 형태와 형식으로 데이터 소스를 변환합니다. 이 경우 *헤더*라는 첫 번째 열이 필요하지 않으므로 제거하겠습니다.
 
-**쿼리 편집기**에서 리본 메뉴와 상황에 맞는 오른쪽 클릭 메뉴를 통해 많은 명령을 사용할 수 있습니다. 예를 들어 *헤더* 열을 마우스 오른쪽 단추로 클릭할 때 나타나는 메뉴를 사용하여 열을 제거할 수 있습니다. 열을 선택한 다음 리본 메뉴에서 **열 제거** 단추를 선택할 수도 있습니다.
+**쿼리 편집기**에서 리본 메뉴와 상황에 맞는 오른쪽 클릭 메뉴를 통해 많은 명령을 사용할 수 있습니다. 예를 들어 *Header* 열을 마우스 오른쪽 단추로 클릭할 때 나타나는 메뉴를 사용하여 열을 제거할 수 있습니다. 열을 선택한 다음, 리본에서 **열 제거** 단추를 선택할 수도 있습니다.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
 
-여러 가지 다른 방법으로 이 쿼리의 데이터를 구체화할 수 있습니다. 맨 위나 맨 아래에서 행을 원하는 개수만큼 제거하고 열 추가, 열 분할, 값 바꾸기 및 기타 셰이핑 작업을 수행하여 쿼리 집기가 원하는 데이터를 가져오도록 할 수 있습니다.
+여러 가지 다른 방법으로 이 쿼리의 데이터의 모양을 지정할 수 있습니다. 맨 위나 맨 아래에서 행을 원하는 개수만큼 제거하고 열 추가, 열 분할, 값 바꾸기 및 기타 모양 지정 작업을 수행하여 쿼리 편집기가 원하는 데이터를 가져오도록 할 수 있습니다.
 
 ## <a name="group-rows"></a>행 그룹화
 쿼리 편집기에서 여러 행의 값을 단일 값으로 그룹화할 수 있습니다. 이 기능은 제공된 제품 수, 총 판매액 또는 학생 수를 요약하는 경우에 유용할 수 있습니다.
@@ -95,14 +95,16 @@ Power BI Desktop에서 데이터에 연결하는 단계별 데모를 보려면 [
 
 **그룹화 방법...** 창이 나타납니다. 쿼리 편집기는 행을 그룹화할 때 **그룹화 방법** 결과를 배치할 새 열을 만듭니다. 다음과 같은 방법으로 **그룹화 방법** 작업을 조정할 수 있습니다.
 
-1. *그룹화 방법* – 그룹화할 열입니다. 쿼리 편집기가 선택된 열을 선택하지만 이 창의 열을 테이블의 임의 열로 변경할 수 있습니다.
+1. ‘그룹화’ – 그룹화할 열입니다. 쿼리 편집기가 선택된 열을 선택하지만 이 창의 열을 테이블의 임의 열로 변경할 수 있습니다.
 2. *새 열 이름* – 쿼리 편집기가 그룹화되는 열에 적용하는 작업에 따라 새 열의 이름을 제안하지만 새 열의 이름을 원하는 대로 지정할 수 있습니다.
 3. *작업* – 여기서 쿼리 편집기가 적용하는 작업을 지정합니다.
-4. *+/- 기호* – 여러 열에 대해 집계 작업(**그룹화 방법** 동작)을 수행하고, 모두 **그룹화 방법** 창 내에서 하나의 작업으로 여러 집계를 수행할 수 있습니다. 쿼리 편집기가 여러 열에서 작동하는 새 열(이 창에서 선택한 항목 기반)을 만듭니다. **+** 단추를 선택하여 **그룹화 방법** 작업에 열 또는 집계를 더 추가합니다. 아이콘을 선택하여 열 또는 집계를 제거할 수 있으므로 시도해 보고 어떻게 표시되는지 확인합니다. 
+4. ‘그룹화 추가’ 및 ‘집계 추가’ - **고급** 옵션을 선택한 후 이 옵션이 표시됩니다. 여러 열에 대해 그룹화 작업(**그룹화** 작업)을 수행하고, 모두 **그룹화** 창 내에서 하나의 작업으로 여러 집계를 수행할 수 있습니다. 쿼리 편집기가 여러 열에서 작동하는 새 열(이 창에서 선택한 항목 기반)을 만듭니다. 
+
+**그룹화 추가** 또는 **집계 추가** 단추를 선택하여 **그룹화 기준** 작업에 다른 그룹화 또는 집계를 추가합니다. **...** 아이콘을 선택하고 **삭제**를 선택하여 그룹화 또는 집계를 제거할 수 있으므로 시도해 보고 어떻게 표시되는지 확인합니다.
    
    ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-**확인**을 선택하면 쿼리가 **그룹화 방법** 작업을 수행하고 결과를 반환합니다. Ohio, Texas, Illinois, California에 각각 교육 기관이 1000개 이상 있습니다.
+**확인**을 선택하면 쿼리가 **그룹화 방법** 작업을 수행하고 결과를 반환합니다. 이제 Ohio, Texas, Illinois, California에 각각 교육 기관이 1000개 이상 있습니다.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
@@ -126,7 +128,7 @@ Power BI Desktop을 사용하면 열을 피벗하고, 열의 각 고유 값에 �
 ## <a name="create-custom-columns"></a>사용자 지정 열 만들기
 쿼리 편집기에서 테이블의 여러 열에 대해 작동하는 사용자 지정 수식을 만든 다음 이러한 수식의 결과를 새(사용자 지정) 열에 배치할 수 있습니다. 쿼리 편집기를 사용하면 사용자 지정 열을 쉽게 만들 수 있습니다.
 
-쿼리 편집기에서 리본 메뉴의 **열 추가** 탭에 있는 **사용자 지정 열 추가** 를 선택합니다.
+쿼리 편집기에서 리본의 **열 추가** 탭에 있는 **사용자 지정 열**을 선택합니다.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
@@ -147,7 +149,7 @@ Power BI Desktop을 사용하면 열을 피벗하고, 열의 각 고유 값에 �
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-여기서는 **USA\_StudentEnrollment** 쿼리와 연결된 쿼리 단계가 표시된 **고급 편집기**를 살펴보겠습니다. 이러한 단계는 **M**이라고도 하는 파워 쿼리 수식 언어로 생성됩니다. 자세한 내용은 [파워 쿼리 수식에 대한 자세한 정보](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US)를 참조하세요. 언어 사양 자체를 보려면 [Microsoft Excel용 파워 쿼리 수식 언어 사양](http://go.microsoft.com/fwlink/?linkid=320633)을 다운로드합니다.
+여기서는 **USA\_StudentEnrollment** 쿼리와 연결된 쿼리 단계가 표시된 **고급 편집기**를 살펴보겠습니다. 이러한 단계는 **M**이라고도 하는 파워 쿼리 수식 언어로 생성됩니다. 자세한 내용은 [파워 쿼리 수식에 대한 자세한 정보](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US)를 참조하세요. 언어 사양 자체를 보려면 [Microsoft Excel용 파워 쿼리 수식 언어 사양](http://go.microsoft.com/fwlink/?linkid=320633)을 참조하세요.
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

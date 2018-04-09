@@ -1,15 +1,15 @@
 ---
-title: "Power BI 프리미엄 FAQ"
-description: "Power BI 프리미엄 제품에 대한 질문과 대답 목록을 찾아보세요."
+title: Power BI 프리미엄 FAQ
+description: Power BI 프리미엄 제품에 대한 질문과 대답 목록을 찾아보세요.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 09/20/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: 315b39942befdbbd3dd36ca86d1cb3ff7288403d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c5d96b0aa9ce02abf3e88d83718d70a3b8033897
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="power-bi-premium-faq"></a>Power BI 프리미엄 FAQ
 Power BI 프리미엄 제품에 대한 질문과 대답 목록을 찾아보세요.
@@ -120,7 +120,7 @@ Extended Pro 평가판 제품에 대한 자세한 내용은 [Extended Pro 평가
 
 ## <a name="power-bi-free"></a>Power BI 무료
 **무료 서비스에 어떤 기능이 추가되었습니까?**  
-2017년 6월 1일부터 무료 서비스는 공유, 엔터프라이즈 배포 및 공동 작업 외에 Power BI Pro와 동일한 기능이 적용됩니다. 여기에는 동일한 10GB 작업 영역 한도, 데이터 집합에 대한 최대 8일의 예약된 일별 새로 고침 및 시간당 최대 1M의 스트리밍 데이터 속도가 포함됩니다. 온-프레미스 데이터 게이트웨이를 통해 사용할 수 있는 기능을 비롯하여 모든 데이터 원본에 대한 액세스도 포함시키고 있습니다.
+2017년 6월 1일부터 무료 서비스는 공유, 엔터프라이즈 배포 및 공동 작업 외에 Power BI Pro와 동일한 기능이 적용됩니다. 여기에는 동일한 10GB 작업 영역 한도, 데이터 집합에 대한 최대 8일의 예약된 일별 새로 고침 및 시간당 최대 1M의 스트리밍 데이터 속도가 포함됩니다. 온-프레미스 데이터 게이트웨이를 통해 사용할 수 있는 기능을 비롯하여 모든 데이터 원본에 대한 액세스도 포함하고 있습니다.
 
 **Power BI Pro 기능은 무료 서비스와 함께 사용할 수 없습니까?**  
 피어-투-피어 대시보드 공유, 앱 작업 영역(이전에 그룹 작업 영역이라고 함), Excel 및 Power BI 앱에서 분석(프리미엄 용량 백업 아님)은 Power BI Pro로 제한된 기능입니다.

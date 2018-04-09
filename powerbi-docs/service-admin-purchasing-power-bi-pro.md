@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b0b49e5c628f5e01bb2368d9bc471acc5342f97
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 685091cff071676da050d1a042a487fdadc77407
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Power BI Pro 구매
 
@@ -70,6 +70,10 @@ Office IT 관리자인 경우 Power BI Pro를 구매하려면 다음과 같은 �
 ## <a name="pricing"></a>가격
 
 최신 가격 책정 정보는 [Power BI 가격 책정](https://powerbi.microsoft.com/en-us/pricing/)을 참조하세요.
+
+> [!NOTE]
+> Pro 라이선스가 할당된 사용자는 구독이 종료된 후 30일 동안 모든 권한을 보유합니다. 이 문제가 발생하면 관리 포털에서 구독이 “만료됨”으로 표시됩니다.
+>
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI에 대한 셀프 서비스 등록](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)

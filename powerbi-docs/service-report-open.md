@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Power BI 서비스에서 보고서 열기(app.powerbi.com)
 보고서는 Power BI 서비스, Power BI Desktop, Power BI 모바일 및 Power BI Embedded에서도 사용할 수 있습니다. 이 문서는 ***Power BI 서비스***의 보고서를 여는 데 적용됩니다.
@@ -78,7 +78,7 @@ Power BI 서비스에는 보고서를 보고 상호 작용할 수 있는 [읽기
 
 ##  <a name="still-more-ways-to-open-a-report"></a>보고서를 열 수 있는 기타 방법
 Power BI 서비스를 보다 편리하게 탐색할 수 있기 때문에 자신에게 가장 적합한 워크플로를 찾을 수 있습니다. 보고서에 액세스하는 몇 가지 다른 방법:
-- 왼쪽 탐색 창에서 **즐겨찾기**, **최근**, **앱* 및 **공유한 항목** 사용 
+- 왼쪽 탐색 창에서 **즐겨찾기**, **최근**, **앱** 및 **공유한 항목** 사용 
 - [관련 항목 보기](service-related-content.md) 사용
 - 누군가가 [사용자와 공유](service-share-reports.md)하거나 [경고를 설정](service-set-data-alerts.md)할 때 전자 메일을 통해    
 - [알림 센터](service-notification-center.md)를 통해    

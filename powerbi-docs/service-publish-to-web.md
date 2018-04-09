@@ -1,28 +1,28 @@
 ---
-title: "Power BI에서 웹에 게시"
-description: "Power BI 웹에 게시를 사용하면 장치에서 메일이나 소셜 미디어를 통해 블로그 게시물, 웹 사이트 등에 대화형 Power BI 시각화를 온라인으로 쉽게 포함할 수 있습니다."
+title: Power BI에서 웹에 게시
+description: Power BI 웹에 게시를 사용하면 장치에서 메일이나 소셜 미디어를 통해 블로그 게시물, 웹 사이트 등에 대화형 Power BI 시각화를 온라인으로 쉽게 포함할 수 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -133,13 +133,16 @@ Power BI **웹에 게시**를 사용하면 장치에서 메일이나 소셜 미�
 
 ## <a name="limitations"></a>제한 사항
 
-**웹에 게시**는 Power BI 서비스에서 대부분의 데이터 소스와 보고서에 대해 지원되지만, 다음은 웹에 게시에서 지원되지 않거나 사용할 수 없습니다.
+**웹에 게시**는 Power BI 서비스에서 대부분의 데이터 원본과 보고서에 대해 지원되지만, 다음은 웹에 게시에서 **현재 지원되지 않거나 사용할 수 없습니다**.
 
 1. 행 수준 보안을 사용하는 보고서
-2. 온-프레미스에 호스트된 Analysis Services 테이블 형식, Analysis Service 다차원, Azure Analysis Services 및 Power BI 서비스를 비롯한 모든 라이브 연결 데이터 원본을 사용하는 보고서
+2. 온-프레미스에 호스트된 Analysis Services 테이블 형식, Analysis Service 다차원 및 Azure Analysis Services를 비롯한 모든 라이브 연결 데이터 원본을 사용하는 보고서
 3. 사용자에게 직접적으로 또는 조직 콘텐츠 팩을 통해 공유되는 보고서
 4. 편집 멤버가 아닌 그룹의 보고서
 5. "R" 시각적 개체는 현재 웹에 게시 보고서에서 지원되지 않습니다.
+6. 웹에 게시된 보고서의 시각적 개체에서 데이터 내보내기
+7. ArcGIS Maps for Power BI 시각적 개체
+8. [보안 기밀 또는 소유 정보](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>테넌트 설정
 
@@ -177,7 +180,7 @@ Power BI 관리자는 웹에 게시 기능을 사용하거나 사용하지 않�
 
 ## <a name="how-it-works-technical-details"></a>작동 방법(기술 세부 사항)
 
-**웹에 게시**를 사용하여 embed 코드를 만들면 보고서가 인터넷 사용자에 표시됩니다. 공개적으로 사용할 수 있으므로 뷰어는 나중에 소셜 미디어를 통해 보고서를 쉽게 공유할 수 있습니다. 사용자가 직접 공용 URL을 열어 보고서를 보거나 웹 페이지 또는 블로그에 포함된 보고서를 보면 Power BI는 보고서 정의 및 보고서를 보는 데 필요한 쿼리 결과를 캐시합니다. 이 방법을 사용하면 수천 명의 사용자가 성능에 영향을 주지 않고 동시에 보고서를 볼 수 있습니다.  
+**웹에 게시**를 사용하여 embed 코드를 만들면 보고서가 인터넷 사용자에 표시됩니다. 공개적으로 사용할 수 있으므로 뷰어는 나중에 소셜 미디어를 통해 보고서를 쉽게 공유할 수 있습니다. 사용자가 직접 공용 URL을 열어 보고서를 보거나 웹 페이지 또는 블로그에 포함된 보고서를 보면 Power BI는 보고서 정의 및 보고서를 보는 데 필요한 쿼리 결과를 캐시합니다. 이 방법을 사용하면 수천 명의 사용자가 성능에 영향을 주지 않고 동시에 보고서를 볼 수 있습니다.
 
 캐시는 수명이 길기 때문에 보고서 정의를 업데이트하거나(예: 보기 모드를 변경하는 경우) 보고서 데이터를 새로 고치는 경우 보고서 버전에 변경 사항이 적용되어 사용자에게 보이기까지 약 1시간이 걸릴 수 있습니다. 따라서 작업을 미리 준비하고 설정에 만족하는 경우에만 **웹에 게시** embed 코드를 만드는 것이 좋습니다.
 

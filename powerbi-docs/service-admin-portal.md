@@ -1,28 +1,28 @@
 ---
-title: "Power BI 관리 포털"
-description: "관리 포털을 통해 조직에서 Power BI의 테넌트 관리를 사용할 수 있습니다. 사용 메트릭, Office 365 관리 센터 액세스 및 설정 등과 같은 항목을 포함하고 있습니다."
+title: Power BI 관리 포털
+description: 관리 포털을 통해 조직에서 Power BI의 테넌트 관리를 사용할 수 있습니다. 사용 메트릭, Office 365 관리 센터 액세스 및 설정 등과 같은 항목을 포함하고 있습니다.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
-ms.author: maghan
+ms.date: 04/02/2018
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -83,7 +83,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
   
     ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-두 번째 섹션은 동일한 유형의 정보를 보여 주지만 그룹을 기반으로 합니다. 이 뷰를 통해 조직에서 가장 활발한 그룹 및 해당 그룹이 사용 중인 정보의 종류를 확인할 수 있습니다.
+두 번째 섹션은 동일한 유형의 정보를 보여주지만 그룹을 기반으로 합니다. 이 뷰를 통해 조직에서 가장 활발한 그룹 및 해당 그룹이 사용 중인 정보의 종류를 확인할 수 있습니다.
 
 이 정보를 사용하여 조직의 사용자가 Power BI를 사용하는 방법을 실제로 파악할 수 있으며 조직에서 매우 활발한 사용자 및 그룹을 인식할 수 있습니다.
 
@@ -326,8 +326,8 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
  
 ### <a name="how-to-update-a-visual"></a>시각적 개체를 업데이트하는 방법
 
-리포지토리의 시각적 개체를 업데이트하려면 새 버전의 시각적 개체(예: 버그 수정, 새 기능 등)가 있기 때문에 목록의 새로운 시작으로 새 파일(시각적 개체 ID가 변경되지 않았는지 확인)을 업로드하고 제목 및 설명에 올바른 정보(예: “My Visual v2.0”)를 제공했는지 확인합니다. 다음에 사용자가 Power BI Desktop에서 조직의 리포지토리에 들어갈 때 새 버전을 가져올 수 있으며, 보고서에 있는 현재 버전을 바꾸라는 메시지가 표시됩니다.
- 
+시각적 개체의 새 버전(예: 버그 수정, 새 기능 등)이 있어서 리포지토리에서 시각적 개체를 업데이트하려면 **업데이트** 아이콘을 선택하고 새 파일을 업로드합니다. 시각적 개체 ID가 변경되지 않았는지 확인합니다. 새 파일은 조직 전체의 모든 보고서에 대해 이전 파일을 대체합니다. 그러나 시각적 개체의 새 버전이 시각적 개체의 이전 버전에 대한 사용이나 데이터 구조를 중단하는 경우에는 이전 버전을 바꾸지 마세요. 대신에 시각적 개체의 새 버전에 대한 새 목록을 만들어야 합니다. 예를 들어 새 버전 번호(버전 X.X)를 새 나열된 시각적 개체의 제목에 추가합니다. 이렇게 하면 업데이트된 버전 번호를 가진 동일한 시각적 개체가 되므로 기존 보고서가 해당 기능을 중단하지 않습니다. 다시 한번 시각적 개체 ID가 변경되지 않았는지 확인합니다. 그러면 다음에 사용자가 Power BI Desktop에서 조직의 리포지토리에 들어갈 때 새 버전을 가져올 수 있으며, 보고서에 있는 현재 버전을 바꾸라는 메시지가 표시됩니다.
+
 ## <a name="next-steps"></a>다음 단계
 
 [Power BI 관리자 역할 이해](service-admin-role.md)  

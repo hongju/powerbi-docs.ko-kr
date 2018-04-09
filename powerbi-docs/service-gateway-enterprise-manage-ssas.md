@@ -1,15 +1,15 @@
 ---
-title: "데이터 원본 관리 - Analysis Services"
-description: "해당 게이트웨이에 속한 온-프레미스 데이터 게이트웨이 및 데이터 원본을 관리하는 방법입니다. 다차원 및 테이블 형식 모드의 Analysis Services에 대한 것입니다."
+title: 데이터 원본 관리 - Analysis Services
+description: 해당 게이트웨이에 속한 온-프레미스 데이터 게이트웨이 및 데이터 원본을 관리하는 방법입니다. 다차원 및 테이블 형식 모드의 Analysis Services에 대한 것입니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ce9a6d962098b3f40c351d0319c4b7908f4e4f7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 59fc3db101de246aaf4ab08c7916b25497b74fd2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>데이터 원본 관리 - Analysis Services
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 수 있는 데이터 원본을 추가해야 합니다. 이 문서에서는 게이트웨이 및 데이터 소스로 작업하는 방법을 살펴봅니다. 예정된 새로 고침 또는 라이브 연결을 위해 Analysis Services 데이터 원본을 사용할 수 있습니다.
@@ -144,7 +144,7 @@ UPN 매핑 화면을 가져오려면 다음을 수행합니다.
 - 온-프레미스 SSAS 서버에 대한 Power BI AAD 사용자의 각 쿼리에 대해 UPN 문자열(예: firstName.lastName@contoso.com)이 전달됩니다.
 
 > [!NOTE]
-> 사용자 이름 문자열을 온-프레미스 데이터 게이트웨이로 보내기 *전에도* Power BI 데이터 원본 구성에 정의된 수동 UPN 사용자 매핑이 계속 적용됩니다.
+> 사용자 이름 문자열을 온-프레미스 데이터 게이트웨이로 보내기 ‘전에도’ Power BI 데이터 원본 구성에 정의된 수동 UPN 사용자 매핑이 계속 적용됩니다.
 > 
 > 
 
@@ -159,7 +159,7 @@ UPN 매핑 화면을 가져오려면 다음을 수행합니다.
 AD 조회를 수행하도록 게이트웨이를 구성하는 방법:
 
 1. 최신 게이트웨이를 다운로드하여 설치합니다.
-2. 게이트웨이에서 로컬 서비스 계정 대신 도메인 계정으로 실행하려면 **온-프레미스 데이터 게이트웨이 서비스**를 변경해야 합니다. 그렇지 않으면 런타임에 AD 조회가 제대로 작동하지 않습니다. 변경 내용을 적용하려면 게이트웨이 서비스를 다시 시작해야 합니다.  컴퓨터의 게이트웨이 앱으로 이동합니다("온-프레미스 데이터 게이트웨이" 검색). 이렇게 하려면 **서비스 설정 > 서비스 계정 변경**으로 이동합니다. 새 게이트웨이를 대신 만들려는 경우가 아니라면 동일한 시스템에서 복구 키를 복원해야 하므로 이 게이트웨이에 대한 복구 키가 있는지 확인합니다. . 
+2. 게이트웨이에서 로컬 서비스 계정 대신 도메인 계정으로 실행하려면 **온-프레미스 데이터 게이트웨이 서비스**를 변경해야 합니다. 그러지 않으면 런타임에 AD 조회가 제대로 작동하지 않습니다. 변경 내용을 적용하려면 게이트웨이 서비스를 다시 시작해야 합니다.  컴퓨터의 게이트웨이 앱으로 이동합니다(“온-프레미스 데이터 게이트웨이” 검색). 이렇게 하려면 **서비스 설정 > 서비스 계정 변경**으로 이동합니다. 새 게이트웨이를 대신 만들려는 경우가 아니라면 동일한 시스템에서 복구 키를 복원해야 하므로 이 게이트웨이에 대한 복구 키가 있는지 확인합니다. . 
 3. 쓰기 권한이 있는지 확인하려면 게이트웨이의 설치 폴더인 *C:\Program Files\On-premises data gateway*로 이동하고 다음 파일을 편집합니다.
    
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 

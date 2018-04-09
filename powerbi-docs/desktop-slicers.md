@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop의 슬라이서 사용"
-description: "Power BI Desktop의 슬라이서를 사용하여 보고서를 필터링, 강조 표시 및 사용자 지정할 수 있습니다."
+title: Power BI Desktop의 슬라이서 사용
+description: Power BI Desktop의 슬라이서를 사용하여 보고서를 필터링, 강조 표시 및 사용자 지정할 수 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 52a6c83ba68aa966ec3f20afefc4022a92e78d3e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fabbd56f94ae519f1ea88a7473683f93131b08c3
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="using-slicers-power-bi-desktop"></a>Power BI Desktop의 슬라이서 사용
 

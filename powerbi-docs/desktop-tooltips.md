@@ -1,15 +1,15 @@
 ---
-title: "Power BI에서 보고서 도구 설명 페이지 사용"
-description: "Power BI Desktop의 도구 설명 페이지를 사용하면 보고서에서 시각적 개체를 가리키면 표시되는 도구 설명을 시각적으로 풍부하게 만들 수 있습니다."
+title: Power BI에서 보고서 도구 설명 페이지 사용
+description: Power BI Desktop의 도구 설명 페이지를 사용하면 보고서에서 시각적 개체를 가리키면 표시되는 도구 설명을 시각적으로 풍부하게 만들 수 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2905dbc51e684ec39ac36a76c7024db0fe15cc18
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Power BI Desktop(미리 보기)의 보고서 페이지에 기반을 둔 도구 설명 만들기
 **Power BI Desktop**에서 만든 보고서 페이지에 기반을 둔 시각적 개체를 가리키면 나타나는 **보고서 도구 설명**을 시각적으로 풍부하게 만들 수 있습니다. 도구 설명으로 사용되는 보고서 페이지를 만들면 사용자 지정 도구 설명에 시각적 개체, 이미지 및 기타 보고서 페이지에서 만든 항목 컬렉션을 포함할 수 있습니다. 
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/08/2018
 보고서 도구 설명을 사용하여 모든 종류의 흥미로운 작업을 수행할 수 있습니다. 도구 설명을 만드는 방법과 이를 구성하기 위해 해야 할 일을 살펴보겠습니다.
 
 ### <a name="enable-the-tooltips-preview"></a>도구 설명 미리 보기 활성화 
-보고서 도구 설명 기능은 현재 미리 보기 상태이므로, 활성화해야 보고서 도구 설명을 만들 수 있습니다. 보고서 도구 설명 미리 보기 기능을 활성화하려면 Power BI Desktop에서 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 다음, **책갈피** 옆에 있는 확인란을 선택합니다. 
+보고서 도구 설명 기능은 현재 미리 보기 상태이므로, 활성화해야 보고서 도구 설명을 만들 수 있습니다. 보고서 도구 설명 미리 보기 기능을 활성화하려면 Power BI Desktop에서 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 다음, **보고서 페이지 도구 설명** 옆에 있는 확인란을 선택합니다. 
 
 ![보고서 도구 설명의 미리 보기 기능 활성화](media/desktop-tooltips/desktop-tooltips_01.png)
 
