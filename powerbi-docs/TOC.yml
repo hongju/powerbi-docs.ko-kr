@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Power BI Desktop의 슬라이서
           href: desktop-slicers.md
+        - name: Power BI에서 단추 사용
+          href: desktop-buttons.md
         - name: Power BI의 책갈피
           href: desktop-bookmarks.md
         - name: 보고서 도구 설명 만들기(미리 보기)
