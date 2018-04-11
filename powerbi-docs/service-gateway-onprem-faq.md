@@ -3,7 +3,7 @@ title: 온-프레미스 데이터 게이트웨이 FAQ
 description: 온-프레미스 데이터 게이트웨이 FAQ입니다. 질문과 대답을 해당 게이트웨이에 대해 하나의 스폿으로 수집합니다.
 services: powerbi
 documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 93771e4f6e7969ac0b26aaa87a240c2261150776
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 152a5ffe0c209be7251bd4dd4e94cf1769c10d79
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="on-premises-data-gateway-faq"></a>온-프레미스 데이터 게이트웨이 FAQ
 <!-- Shared FAQ shared Include -->

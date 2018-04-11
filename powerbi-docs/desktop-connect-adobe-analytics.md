@@ -1,40 +1,33 @@
 ---
-title: "Power BI Desktop(미리 보기)에서 Adobe Analytics에 연결"
-description: "Adobe Analytics Power BI Desktop에서 쉽게 연결하여 사용"
+title: Power BI Desktop에서 Adobe Analytics에 연결
+description: Adobe Analytics Power BI Desktop에서 쉽게 연결하여 사용
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/09/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: efd6d066e2f98f86248730917c2f4aa0c8a39983
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 4488cd373fae22c4494ac697602536496ffc9b00
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="connect-to-adobe-analytics-in-power-bi-desktop-preview"></a>Power BI Desktop(미리 보기)에서 Adobe Analytics에 연결
+# <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Power BI Desktop에서 Adobe Analytics에 연결 
 **Power BI Desktop**에서 **Adobe Analytics**에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다. 
 
 ![Adobe Analytics에서 데이터 가져오기](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
-
-## <a name="enable-the-adobe-analytics-connector-preview"></a>Adobe Analytics 커넥터 미리 보기 사용 
-**Adobe Analytics** 커넥터는 현재 미리 보기 상태이므로, **데이터 가져오기** 창에서 커넥터를 사용할 수 있도록 미리 보기 기능을 활성화해야 합니다. 커넥터 미리 보기를 사용하려면 Power BI Desktop에서 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 다음, **책갈피** 옆에 있는 확인란을 선택합니다. 
-
-![옵션에서 Adobe Analytics 커넥터의 미리 보기 사용](media/desktop-connect-adobe-analytics/connect-adobe-analytics_02.png)
-
-Adobe Analytics 커넥터 미리 보기를 사용하도록 선택한 후 **Power BI Desktop**을 다시 시작해야 합니다.
 
 ## <a name="connect-to-adobe-analytics-data"></a>Adobe Analytics 데이터에 연결
 **Adobe Analytics** 데이터에 연결하려면 Power BI Desktop의 **홈** 리본 메뉴에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **온라인 서비스**를 선택하면 **Adobe Analytics 커넥터**가 표시됩니다.

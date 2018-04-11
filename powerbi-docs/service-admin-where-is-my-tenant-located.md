@@ -1,28 +1,28 @@
 ---
-title: "내 Power BI 테넌트는 어디에 있습니까?"
-description: "Power BI 테넌트의 위치와 해당 위치를 선택하는 방법에 대해 알아보세요. 이는 사용하는 서비스와의 상호 작용에 영향을 줄 수 있기 때문에 알아두는 것이 중요합니다."
+title: 내 Power BI 테넌트는 어디에 있습니까?
+description: Power BI 테넌트의 위치와 해당 위치를 선택하는 방법에 대해 알아보세요. 이는 사용하는 서비스와의 상호 작용에 영향을 줄 수 있기 때문에 알아두는 것이 중요합니다.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: fa24689739cc3f38d3b0a5c70bdf6d865cf8f304
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 22b5319cf95beb3ea4a4a498c7174a701e56fb95
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>내 Power BI 테넌트는 어디에 있습니까?
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0fOxaHJPvdM?showinfo=0" frameborder="0" allowfullscreen></iframe>
