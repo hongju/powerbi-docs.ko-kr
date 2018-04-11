@@ -1,28 +1,28 @@
 ---
-title: "거버넌스 및 배포 방법"
-description: "Power PI 환경 내에서 거버넌스의 개념, 옵션 및 제안에 대해 알아보는 백서입니다."
+title: 거버넌스 및 배포 방법
+description: Power PI 환경 내에서 거버넌스의 개념, 옵션 및 제안에 대해 알아보는 백서입니다.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 400fa6aa16f77da60a912bcd6c45665f880d8afd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8f2f48143e9f1c5a304f8d864ea39b8118d331f8
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>거버넌스 및 배포 방법
 지난 수십 년간 회사들은 시장 기회에서 이익을 얻기 위해 데이터 자산을 전략적으로 이용할 필요성을 점점 더 많이 인식하게 되었습니다. 많은 조직은 이제 경쟁력 분석을 수행하거나 작업 패턴을 파악하여 경쟁에서 앞서 나가기 위한 방법으로 데이터 전략을 수립하여 이익을 얻을 수 있다는 것을 이해할 수 있습니다.  

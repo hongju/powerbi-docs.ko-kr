@@ -3,7 +3,7 @@ title: Power BI Pro 구매
 description: Power BI Pro는 사용자가 보고서를 게시하고, 대시보드를 공유하고, 작업 영역에서 동료와 공동 작업을 수행하며, 기타 관련된 작업을 수행하기 위한 것입니다.
 services: powerbi
 documentationcenter: ''
-author: markingmyname
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 685091cff071676da050d1a042a487fdadc77407
-ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
+ms.openlocfilehash: c843125b875a2fe63dd24ab9b6346cda85456835
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Power BI Pro 구매
 

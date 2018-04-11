@@ -1,28 +1,28 @@
 ---
-title: "데이터 저장소 관리"
-description: "보고서 및 데이터 집합을 계속 게시할 수 있도록 개인 또는 앱 작업 영역, 데이터 저장소를 관리하는 방법에 대해 알아봅니다."
+title: 데이터 저장소 관리
+description: 보고서 및 데이터 집합을 계속 게시할 수 있도록 개인 또는 앱 작업 영역, 데이터 저장소를 관리하는 방법에 대해 알아봅니다.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a98fe0d35ad7066d83e17986ce2e3b43341b033a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 314f667c8b432b0d73b7e1b2650ba46d502b33a2
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="manage-your-data-storage"></a>데이터 저장소 관리
 보고서 및 데이터 집합을 계속 게시할 수 있도록 개인 또는 앱 작업 영역, 데이터 저장소를 관리하는 방법에 대해 알아봅니다.

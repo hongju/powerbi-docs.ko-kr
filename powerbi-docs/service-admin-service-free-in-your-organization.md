@@ -1,28 +1,28 @@
 ---
-title: "조직의 Power BI(무료)"
-description: "이 문서에서는 조직의 관점에서 Power BI(무료)에 대한 옵션을 살펴봅니다. 테넌트의 관리자인 경우 무료 등록을 관리하는 방법을 보여줍니다."
+title: 조직의 Power BI(무료)
+description: 이 문서에서는 조직의 관점에서 Power BI(무료)에 대한 옵션을 살펴봅니다. 테넌트의 관리자인 경우 무료 등록을 관리하는 방법을 보여줍니다.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ec266cd2631797a1bbbef686824f78b0f1e3e14a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5da8b4cbb86766e6b411af902fce4bf18f480612
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>조직의 Power BI(무료)
 조직 내에서 Power BI(무료) 제품을 사용할 수 있는 방법을 살펴봅니다. 조직이란 테넌트가 있으며 해당 테넌트 내에서 사용자 및 서비스를 관리할 수 있음을 의미합니다. 관리자는 라이선스 할당을 제어할 수 있거나 사용자가 개별로 등록하도록 허용할 수 있습니다. Power BI(무료) 라이선스 및 개별 로그인을 제어하는 방법을 살펴보겠습니다.

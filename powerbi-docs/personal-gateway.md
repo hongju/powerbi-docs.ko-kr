@@ -1,28 +1,28 @@
 ---
-title: "Power BI 게이트웨이 - 개인"
-description: "Power BI 게이트웨이 - 개인"
+title: Power BI 게이트웨이 - 개인
+description: Power BI 게이트웨이 - 개인
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 8d047e814eaa7c84ee7e1be20d1f4722c6cb1e56
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI 게이트웨이 - 개인
 > [!NOTE]
@@ -178,7 +178,7 @@ Windows에 로그인되어 있는 경우:
 | *.analysis.windows.net |443 |HTTPS |
 | *.login.windows.net |443 |HTTPS |
 | *.servicebus.windows.net |5671-5672 |AMQP(고급 메시지 큐 프로토콜) |
-| *.servicebus.windows.net |443, 9350-9354 |TCP를 통한 Service Bus Relay의 수신기(Access Control 토큰 획득을 위해 443 필요) |
+| *.servicebus.windows.net |443, 9350-9354 |TCP를 통한 서비스 버스 릴레이의 수신기(액세스 제어 토큰 획득에는 443 필요) |
 | *.frontend.clouddatahub.net |443 |HTTPS |
 | *.core.windows.net |443 |HTTPS |
 | login.microsoftonline.com |443 |HTTPS |

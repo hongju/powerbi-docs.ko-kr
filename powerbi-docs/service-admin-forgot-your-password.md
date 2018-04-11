@@ -1,28 +1,28 @@
 ---
-title: "Power BI 암호를 잊은 경우"
-description: "Power BI 암호를 잊은 경우"
+title: Power BI 암호를 잊은 경우
+description: Power BI 암호를 잊은 경우
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bc65df8704804133e2fe47d16ae79e4a4fba7bfc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1a35aa822fe4b223fc217d568e136dbf1a6ea9df
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="forgot-your-password-for-power-bi"></a>Power BI 암호를 잊은 경우
 암호를 잊어버린 경우 다음 링크를 사용하여 암호 재설정을 요청할 수 있습니다.

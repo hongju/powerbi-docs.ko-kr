@@ -3,7 +3,7 @@ title: 온-프레미스 데이터 게이트웨이 문제 해결
 description: 이 문서는 온-프레미스 데이터 게이트웨이에 있는 문제를 해결하는 방법을 제공합니다. 알려진 문제에 대한 가능한 해결 방법과 이를 지원하는 도구도 제공합니다.
 services: powerbi
 documentationcenter: ''
-author: markingmyname
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 03/23/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: 094a43925c184c6cbce8b023ba4aae655f379dd9
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 문제 해결
 이 문서에서는 **온-프레미스 데이터 게이트웨이**를 사용할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
