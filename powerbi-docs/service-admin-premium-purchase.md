@@ -1,28 +1,28 @@
 ---
-title: "Power BI 프리미엄 구매 방법"
-description: "Power BI 프리미엄을 관리하고 전체 조직에 대한 콘텐츠에 대한 액세스를 활성화할 수 있는 방법을 알아봅니다."
+title: Power BI 프리미엄 구매 방법
+description: Power BI 프리미엄을 관리하고 전체 조직에 대한 콘텐츠에 대한 액세스를 활성화할 수 있는 방법을 알아봅니다.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/17/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: d80954599b866ff2f1d03d34a7e8e021d1be215b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e5bf5f4995c628640de2400f1097e89969eded7d
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
 조직에 대한 Power BI 프리미엄 용량을 구입하는 방법을 알아봅니다.
@@ -50,7 +50,7 @@ Power BI 프리미엄에 대한 자세한 내용은 [Power BI 프리미엄이란
 
 프리미엄 용량을 구입하려면 다음을 수행해야 합니다.
 
-1. Power BI 서비스 내에서 **Office 365 앱 선택** > **관리자**를 선택합니다. 또는 Office 365 관리 센터를 찾아볼 수 있습니다. https://portal.office.com으로 이동하고 **관리**를 선택하여 도달할 수 있습니다.
+1. Power BI 서비스 내에서 **Office 365 앱 선택** > **관리자**를 선택합니다. 또는 Office 365 관리 센터를 찾아볼 수 있습니다. https://portal.office.com으로 이동하여 **관리자**를 선택하면 도달할 수 있습니다.
    
     ![](media/service-admin-premium-purchase/o365-app-picker.png)
 2. **청구** > **서비스 구입**을 선택합니다.
