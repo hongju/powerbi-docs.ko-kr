@@ -1,15 +1,15 @@
 ---
-title: "Power BI로 SparkPost에 연결"
-description: "Power BI용 SparkPost"
+title: Power BI로 SparkPost에 연결
+description: Power BI용 SparkPost
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

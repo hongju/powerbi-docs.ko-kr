@@ -1,15 +1,15 @@
 ---
-title: "Power BI 앱 작업 영역에 대해 OneDrive에서 파일에 연결"
-description: "Power BI 앱 작업 영역에 대한 OneDrive에서 Excel, CSV, Power BI Desktop 파일을 저장하고 연결하는 방법에 대해 알아봅니다."
+title: Power BI 앱 작업 영역에 대해 OneDrive에서 파일에 연결
+description: Power BI 앱 작업 영역에 대한 OneDrive에서 Excel, CSV, Power BI Desktop 파일을 저장하고 연결하는 방법에 대해 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

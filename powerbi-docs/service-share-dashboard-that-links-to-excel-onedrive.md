@@ -1,15 +1,15 @@
 ---
-title: "OneDrive에서 Excel 파일에 연결된 대시보드 공유 - Power BI"
-description: "비즈니스용 OneDrive의 Excel 통합 문서에 연결된 대시보드를 공유하는 방법과 해당 통합 문서에 고정된 타일에 대해 알아보세요."
+title: OneDrive에서 Excel 파일에 연결된 대시보드 공유 - Power BI
+description: 비즈니스용 OneDrive의 Excel 통합 문서에 연결된 대시보드를 공유하는 방법과 해당 통합 문서에 고정된 타일에 대해 알아보세요.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

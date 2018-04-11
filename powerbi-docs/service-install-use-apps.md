@@ -1,12 +1,12 @@
 ---
-title: "Power BI에서 대시보드 및 보고서로 앱 설치 및 사용"
-description: "Power BI에서 앱을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다."
+title: Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
+description: Power BI에서 앱을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 10/02/2017
 ms.service: powerbi

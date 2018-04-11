@@ -1,15 +1,15 @@
 ---
-title: "Power BI로 Google 분석에 연결"
-description: "Power BI용 Google 웹로그 분석"
+title: Power BI로 Google 분석에 연결
+description: Power BI용 Google 웹로그 분석
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

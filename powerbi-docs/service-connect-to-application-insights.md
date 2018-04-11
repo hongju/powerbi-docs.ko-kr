@@ -1,15 +1,15 @@
 ---
-title: "Application Insights에 연결 Power BI에 연결"
-description: "Power BI용 Application Insights"
+title: Application Insights에 연결 Power BI에 연결
+description: Power BI용 Application Insights
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

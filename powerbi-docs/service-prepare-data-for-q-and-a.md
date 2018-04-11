@@ -1,15 +1,15 @@
 ---
-title: "Power BI의 질문 및 답변에서 Excel 데이터가 잘 작동하게 만드는 방법"
-description: "Power BI의 질문 및 답변에서 데이터가 잘 작동하게 만드는 방법"
+title: Power BI의 질문 및 답변에서 Excel 데이터가 잘 작동하게 만드는 방법
+description: Power BI의 질문 및 답변에서 데이터가 잘 작동하게 만드는 방법
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

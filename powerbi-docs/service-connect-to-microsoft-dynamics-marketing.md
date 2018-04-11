@@ -1,15 +1,15 @@
 ---
-title: "Power BI로 Microsoft Dynamics Marketing에 연결"
-description: "Power BI용 Microsoft Dynamics 마케팅"
+title: Power BI로 Microsoft Dynamics Marketing에 연결
+description: Power BI용 Microsoft Dynamics 마케팅
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

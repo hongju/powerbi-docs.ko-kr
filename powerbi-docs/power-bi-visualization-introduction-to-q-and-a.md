@@ -1,15 +1,15 @@
 ---
-title: "빠른 시작 - Power BI 질문 및 답변 시작"
-description: "빠른 시작: 소매 분석 샘플을 사용하여 Power BI 서비스 질문 및 답변 시작"
+title: 빠른 시작 - Power BI 질문 및 답변 시작
+description: '빠른 시작: 소매 분석 샘플을 사용하여 Power BI 서비스 질문 및 답변 시작'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

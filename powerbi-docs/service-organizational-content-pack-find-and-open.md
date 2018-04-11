@@ -1,15 +1,15 @@
 ---
-title: "조직 콘텐츠 팩 찾기 및 연결 - Power BI"
-description: "Power BI에서 조직 콘텐츠 팩 찾기 및 열기"
+title: 조직 콘텐츠 팩 찾기 및 연결 - Power BI
+description: Power BI에서 조직 콘텐츠 팩 찾기 및 열기
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "조직 콘텐츠 팩 만들기 및 게시 - Power BI"
-description: "이 자습서에서는 조직 콘텐츠 팩을 만들고, 특정 그룹에 대한 액세스를 제한하고, Power BI에서 조직의 콘텐츠 팩 라이브러리에 게시합니다."
+title: 조직 콘텐츠 팩 만들기 및 게시 - Power BI
+description: 이 자습서에서는 조직 콘텐츠 팩을 만들고, 특정 그룹에 대한 액세스를 제한하고, Power BI에서 조직의 콘텐츠 팩 라이브러리에 게시합니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

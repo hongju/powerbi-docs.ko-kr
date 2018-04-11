@@ -1,15 +1,15 @@
 ---
-title: "Power BI로 Adobe Analytics에 연결"
-description: "대시보드 및 보고서에서 계정 데이터를 표시하는 앱에 대해 Power BI에서 Adobe Analytics로 연결합니다."
+title: Power BI로 Adobe Analytics에 연결
+description: 대시보드 및 보고서에서 계정 데이터를 표시하는 앱에 대해 Power BI에서 Adobe Analytics로 연결합니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Power BI의 조직 콘텐츠 팩 소개"
-description: "대시보드, 보고서, Excel 통합 문서 및 데이터 집합을 조직 콘텐츠 팩에 패키징하고 동료와 공유하는 방법에 대해 알아보세요."
+title: Power BI의 조직 콘텐츠 팩 소개
+description: 대시보드, 보고서, Excel 통합 문서 및 데이터 집합을 조직 콘텐츠 팩에 패키징하고 동료와 공유하는 방법에 대해 알아보세요.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Power BI로 Microsoft Azure Consumption Insights에 연결"
-description: "Power BI용 Microsoft Azure Consumption Insights"
+title: Power BI로 Microsoft Azure Consumption Insights에 연결
+description: Power BI용 Microsoft Azure Consumption Insights
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

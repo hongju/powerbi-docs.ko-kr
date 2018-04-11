@@ -1,15 +1,15 @@
 ---
-title: "Power BI로 Windows 개발자 센터에 연결"
-description: "Power BI용 Windows 개발자 센터"
+title: Power BI로 Windows 개발자 센터에 연결
+description: Power BI용 Windows 개발자 센터
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

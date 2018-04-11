@@ -1,13 +1,13 @@
 ---
-title: "Power BI 보고서 필터링 및 동료와 공유"
-description: "조직에서 필터링된 Power BI 보고서를 동료와 공유하는 방법에 대해 알아봅니다."
+title: Power BI 보고서 필터링 및 동료와 공유
+description: 조직에서 필터링된 Power BI 보고서를 동료와 공유하는 방법에 대해 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: complete
 qualitydate: 06/22/2016

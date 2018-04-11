@@ -1,15 +1,15 @@
 ---
-title: "Power BI 및 Office 365에서 앱 작업 영역 관리"
-description: "Power BI의 앱 작업 영역은 Office 365 그룹을 기반으로 하는 공동 작업 환경을 제공합니다. Power BI 및 Office 365에서 앱 작업 영역을 관리합니다."
+title: Power BI 및 Office 365에서 앱 작업 영역 관리
+description: Power BI의 앱 작업 영역은 Office 365 그룹을 기반으로 하는 공동 작업 환경을 제공합니다. Power BI 및 Office 365에서 앱 작업 영역을 관리합니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

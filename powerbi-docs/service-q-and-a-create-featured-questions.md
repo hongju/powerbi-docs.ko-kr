@@ -1,16 +1,16 @@
 ---
-title: "Power BI 질문 및 답변에 대한 추천 질문을 만드는 방법"
-description: "Power BI 질문 및 답변에 대한 추천 질문을 만드는 방법에 대한 설명서입니다."
+title: Power BI 질문 및 답변에 대한 추천 질문을 만드는 방법
+description: Power BI 질문 및 답변에 대한 추천 질문을 만드는 방법에 대한 설명서입니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: E1mIAyEXuF4
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

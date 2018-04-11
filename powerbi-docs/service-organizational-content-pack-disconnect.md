@@ -1,15 +1,15 @@
 ---
-title: "조직 콘텐츠 팩에서 연결 끊기 - Power BI"
-description: "Power BI에서 해당 데이터 집합을 삭제하여 연결을 조직 콘텐츠 팩으로 제거에 대해 알아보세요."
+title: 조직 콘텐츠 팩에서 연결 끊기 - Power BI
+description: Power BI에서 해당 데이터 집합을 삭제하여 연결을 조직 콘텐츠 팩으로 제거에 대해 알아보세요.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

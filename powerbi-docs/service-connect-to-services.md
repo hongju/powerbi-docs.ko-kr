@@ -1,15 +1,15 @@
 ---
-title: "Power BI로 사용하는 서비스에 연결"
-description: "Salesforce, Microsoft Dynamics CRM, Google 웹로그 분석과 같은 비즈니스를 실행하는 데 사용하는 다양한 서비스에 연결합니다."
+title: Power BI로 사용하는 서비스에 연결
+description: Salesforce, Microsoft Dynamics CRM, Google 웹로그 분석과 같은 비즈니스를 실행하는 데 사용하는 다양한 서비스에 연결합니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

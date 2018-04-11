@@ -1,12 +1,12 @@
 ---
-title: "자습서 - 대시보드 또는 보고서에서 질문 및 답변 사용"
-description: "Power BI 질문 및 답변을 사용하여 대시보드 및 보고서에서 시각화를 만드는 방법에 대한 자습서입니다."
+title: 자습서 - 대시보드 또는 보고서에서 질문 및 답변 사용
+description: Power BI 질문 및 답변을 사용하여 대시보드 및 보고서에서 시각화를 만드는 방법에 대한 자습서입니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

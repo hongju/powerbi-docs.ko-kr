@@ -1,11 +1,11 @@
 ---
-title: "Cortana를 사용하여 Power BI 보고서 및 대시보드를 신속하게 찾기 및 보기"
-description: "Power BI와 함께 Cortana를 사용하여 데이터에서 답변을 가져올 수 있습니다. 현재 보고서 및 대시보드는 작동합니다."
+title: Cortana를 사용하여 Power BI 보고서 및 대시보드를 신속하게 찾기 및 보기
+description: Power BI와 함께 Cortana를 사용하여 데이터에서 답변을 가져올 수 있습니다. 현재 보고서 및 대시보드는 작동합니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

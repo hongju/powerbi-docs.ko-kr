@@ -1,15 +1,15 @@
 ---
-title: "Power BI 서비스 및 Desktop의 질문 및 답변 개요"
-description: "Power BI 질문 및 답변 자연어 쿼리에 대한 설명서 개요 항목입니다."
+title: Power BI 서비스 및 Desktop의 질문 및 답변 개요
+description: Power BI 질문 및 답변 자연어 쿼리에 대한 설명서 개요 항목입니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

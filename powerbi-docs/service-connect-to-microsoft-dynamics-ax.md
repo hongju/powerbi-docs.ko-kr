@@ -1,15 +1,15 @@
 ---
-title: "Power BI로 Microsoft Dynamics AX 콘텐츠 팩에 연결"
-description: "Power BI용 Microsoft Dynamics AX 콘텐츠 팩"
+title: Power BI로 Microsoft Dynamics AX 콘텐츠 팩에 연결
+description: Power BI용 Microsoft Dynamics AX 콘텐츠 팩
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

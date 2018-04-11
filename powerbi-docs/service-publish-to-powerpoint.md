@@ -1,15 +1,15 @@
 ---
-title: "보고서를 Power BI에서 PowerPoint(미리 보기)로 내보내기"
-description: "Power BI 보고서를 PowerPoint로 내보내는 방법을 알아봅니다."
+title: 보고서를 Power BI에서 PowerPoint(미리 보기)로 내보내기
+description: Power BI 보고서를 PowerPoint로 내보내는 방법을 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

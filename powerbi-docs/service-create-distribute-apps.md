@@ -1,14 +1,14 @@
 ---
-title: "Power BI에서 대시보드 및 보고서로 앱 생성 및 게시"
-description: "조직에 대한 주요 메트릭을 제공하도록 제작된 대시보드 및 보고서의 컬렉션인 앱을 만들어 게시하는 방법을 살펴봅니다."
+title: Power BI에서 대시보드 및 보고서로 앱 생성 및 게시
+description: 조직에 대한 주요 메트릭을 제공하도록 제작된 대시보드 및 보고서의 컬렉션인 앱을 만들어 게시하는 방법을 살펴봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Power BI 앱 작업 영역에서 공동 작업"
-description: "앱 작업 영역의 Power BI Desktop 파일과 비즈니스용 OneDrive의 파일, Exchange의 대화, 달력 및 작업의 공유와 같은 Office 365 서비스의 공동 작업에 대해 알아보세요."
+title: Power BI 앱 작업 영역에서 공동 작업
+description: 앱 작업 영역의 Power BI Desktop 파일과 비즈니스용 OneDrive의 파일, Exchange의 대화, 달력 및 작업의 공유와 같은 Office 365 서비스의 공동 작업에 대해 알아보세요.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

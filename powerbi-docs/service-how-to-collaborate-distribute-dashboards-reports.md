@@ -1,13 +1,13 @@
 ---
-title: "Power BI에서 공동 작업하고 공유하려면 어떻게 해야 하나요?"
-description: "Power BI에서는 다양한 방법으로 대시보드, 보고서, 타일 및 앱을 공동 작업하고 공유할 수 있습니다. 각 방법마다 장점을 갖고 있습니다."
+title: Power BI에서 공동 작업하고 공유하려면 어떻게 해야 하나요?
+description: Power BI에서는 다양한 방법으로 대시보드, 보고서, 타일 및 앱을 공동 작업하고 공유할 수 있습니다. 각 방법마다 장점을 갖고 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 02/28/2017
 ms.service: powerbi
