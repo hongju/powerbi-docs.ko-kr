@@ -1,28 +1,28 @@
 ---
-title: "조직에서 Power BI 관리"
-description: "조직에서 Power BI 관리"
+title: 조직에서 Power BI 관리
+description: 조직에서 Power BI 관리
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b42be834822b4363c58bc4454c38f7973336c7dc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>조직에서 Power BI 관리
 Microsoft Power BI를 사용하면 사용자가 데이터를 시각화, 검색 공유 및 직관적인 새로운 방법으로 공동 작업할 수 있습니다. 더 자세히 알아보려면 [Power BI 시작하기](service-get-started.md)를 참조하세요.

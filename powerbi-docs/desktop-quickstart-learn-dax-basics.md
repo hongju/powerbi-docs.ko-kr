@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop의 DAX 기본 사항"
-description: "Power BI Desktop의 DAX 기본 사항"
+title: Power BI Desktop의 DAX 기본 사항
+description: Power BI Desktop의 DAX 기본 사항
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 1b6a08ffbc7d1edfe0a86b6eb0a84702dec22da0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 474cca86151925ee4991d477a6127536180808a8
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop의 DAX 기본 사항
 이 문서는 Power BI Desktop을 처음 사용하는 사용자를 위한 것입니다. 여기서는 DAX(Data Analysis Expressions)를 사용하여 여러 가지 기본 계산 및 데이터 분석 문제를 해결하는 방법에 대해 신속하고 간략하게 소개합니다. 또한 일부 기본 개념, 완료할 수 있는 일련의 작업 및 지금까지 학습한 내용을 테스트할 수 있는 몇 가지 퀴즈를 검토합니다. 이 문서를 완료하면 DAX의 가장 중요한 기본 개념을 제대로 이해하고 있어야 합니다.
@@ -40,7 +40,7 @@ Microsoft Excel에서 수식을 만드는 방법을 이미 잘 알고 있을 수
 
 **예제 통합 문서**
 
-DAX를 학습하는 가장 좋은 방법은 몇 가지 기본 수식을 만들어 실제 데이터에 사용하고 그 결과를 직접 확인하는 것입니다. 이 문서의 예제 및 작업에서는 Contoso Sales Sample for Power BI Desktop Preview 파일을 사용합니다. 이는 자습서: Power BI Desktop에서 고유한 측정값 만들기 문서에 사용된 것과 동일한 샘플 파일입니다. [여기](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)서 다운로드할 수 있습니다.
+DAX를 학습하는 가장 좋은 방법은 몇 가지 기본 수식을 만들어 실제 데이터에 사용하고 그 결과를 직접 확인하는 것입니다. 이 문서의 예제 및 작업에서는 Contoso Sales Sample for Power BI Desktop Preview 파일을 사용합니다. 이는 [자습서: Power BI Desktop에서 고유한 측정값 만들기](desktop-tutorial-create-measures.md) 아티클에 사용된 것과 동일한 샘플 파일입니다. 다운로드할 [샘플 파일](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)은 다음과 같습니다.
 
 ## <a name="lets-begin"></a>시작하기
 여기서는 세 가지 기본 개념인 구문, 함수 및 컨텍스트를 중심으로 DAX에 대한 이해를 진행합니다. 물론 DAX에는 다른 중요한 개념도 있지만 이러한 세 가지 개념을 이해하면 DAX 기술을 구축할 최상의 토대가 제공됩니다.
@@ -72,7 +72,7 @@ DAX 수식을 이해하려는 경우 매일 생각하고 말하는 언어로 각
 
 보고서에 추가되면 이 측정값은 포함된 각각의 다른 필드(예: 미국의 휴대폰)에 대한 판매 금액을 합계하여 값을 계산하고 반환합니다.
 
-'이 측정값은 보고서에 SalesAmount 필드를 추가하는 것과 같은 동작을 수행하는 것이 아닐까?'라고 생각할 수 있습니다. 네, 그렇습니다. 그러나 SalesAmount 필드 값의 합계를 구하는 측정값을 직접 만드는 적절한 이유가 있습니다. 바로 다른 수식에서 인수로 사용할 수 있기 때문입니다. 지금은 약간 혼란스러울 수 있지만 이러한 사실을 알고 있으면 DAX 수식에 대한 이해가 증가함에 따라 수식 및 모델을 보다 효율적으로 만들 수 있습니다. 실제로 나중에 다른 수식에서 인수로 표시되는 Total Sales 측정값을 확인할 수 있습니다.
+'이 측정값은 보고서에 SalesAmount 필드를 추가하는 것과 같은 동작을 수행하는 것이 아닐까?'라고 생각할 수 있습니다. 네, 그렇습니다. 그러나 SalesAmount 필드 값의 합계를 구하는 측정값을 직접 만드는 적절한 이유가 있습니다. 바로 다른 수식에서 인수로 사용할 수 있기 때문입니다. 지금은 약간 혼란스러울 수 있지만 이러한 사실을 알고 있으면 DAX 수식에 대한 이해가 증가함에 따라 수식 및 모델을 보다 효율적으로 만들 수 있습니다. 실제로 나중에 다른 수식에서 인수로 표시되는 총 판매액 측정값을 확인할 수 있습니다.
 
 이 수식에 대해 몇 가지 더 살펴보겠습니다. 특히 [합계](https://msdn.microsoft.com/library/ee634387.aspx) 함수를 사용했습니다. 함수는 복잡한 계산 및 숫자, 날짜, 시간, 텍스트 등을 사용한 조작을 더 쉽게 수행할 수 있도록 미리 작성된 수식입니다. 함수에 대해서는 나중에 자세히 살펴보겠습니다.
 
@@ -83,7 +83,7 @@ DAX 수식을 이해하려는 경우 매일 생각하고 말하는 언어로 각
 > 
 > 
 
-수식은 올바른 구문을 사용해야 합니다. 대부분의 경우 구문이 올바르지 않으면 구문 오류가 반환됩니다. 구문은 올바르지만 반환된 값이 예상과 다른 경우도 있습니다. Power BI Desktop의 DAX 편집기에서는 올바른 요소를 선택하여 구문상 올바른 수식을 만드는 데 사용되는 추천 기능을 제공합니다.
+수식은 올바른 구문을 사용해야 합니다. 대부분의 경우 구문이 올바르지 않으면 구문 오류가 반환됩니다. 구문은 올바르지만 반환된 값이 예상과 다른 경우도 있습니다. Power BI Desktop의 DAX 편집기에는 올바른 요소를 선택하여 구문상 올바른 수식을 만드는 데 사용되는 추천 기능이 포함됩니다.
 
 간단한 수식을 만들어 보겠습니다. 이 작업을 통해 수식 구문 및 수식 입력줄에서 추천 기능이 어떻게 도움이 되는지를 더 잘 이해할 수 있습니다.
 
@@ -104,14 +104,13 @@ DAX 수식을 이해하려는 경우 매일 생각하고 말하는 언어로 각
    
 5.  **계산** 함수에 대한 괄호 **()** 사이에 **판매액[SalesAmount]**을 입력합니다. CALCULATE 함수에 대한 첫 번째 식 인수입니다.
     
-6.  쉼표(**,**)를 입력하여 첫 번째 필터를 지정하고 **PREVIOUSQUARTER**를 입력한 다음 여는 괄호를 입력합니다.
+6.  쉼표(**,**)를 입력하여 첫 번째 필터를 지정한 다음, **PREVIOUSQUARTER**를 입력하고, 여는 괄호를 입력합니다.
     
     PREVIOUSQUARTER 시간 인텔리전스 함수를 사용하여 이전 분기별로 SUM 결과를 필터링합니다.
     
 7.  PREVIOUSQUARTER 함수에 대한 괄호 **()** 사이에 **달력[DateKey]**을 입력합니다.
     
     PREVIOUSQUARTER 함수에는 인접한 날짜 범위를 포함하는 열인 인수 하나가 있습니다.
-    >
     
 8.  PREVIOUSQUARTER 함수와 계산 함수에 전달한 인수가 모두 두 개의 닫는 괄호 **))**로 닫혀 있는지 확인합니다.
     
@@ -125,7 +124,7 @@ DAX 수식을 이해하려는 경우 매일 생각하고 말하는 언어로 각
 
 ![](media/desktop-quickstart-learn-dax-basics/qsdax_3_chart.png)
 
-방금 DAX 수식의 몇 가지 중요한 측면이 소개되었습니다. 첫 번째 이 수식에는 두 개의 함수가 포함되었습니다. [PREVIOUSQUARTER](https://msdn.microsoft.com/library/ee634385.aspx) 시간 인텔리전스 함수는 [계산](https://msdn.microsoft.com/library/ee634825.aspx) 필터 함수에 전달되는 인수로 중첩됩니다. DAX 수식에는 중첩 함수가 최대 64개까지 포함될 수 있습니다. 그러나 수식에 이렇게 많은 중첩 함수가 포함될 가능성은 없습니다. 실제로 이러한 함수는 만들고 디버그하기가 매우 어려우며 빠르게 이러한 작업을 수행할 수도 없습니다.
+방금 DAX 수식의 몇 가지 중요한 측면이 소개되었습니다. 첫 번째 이 수식에는 두 개의 함수가 포함되었습니다. [PREVIOUSQUARTER](https://msdn.microsoft.com/library/ee634385.aspx) 시간 인텔리전스 함수는 [CALCULATE](https://msdn.microsoft.com/library/ee634825.aspx) 필터 함수에 전달되는 인수로 중첩됩니다. DAX 수식에는 중첩 함수가 최대 64개까지 포함될 수 있습니다. 그러나 수식에 이렇게 많은 중첩 함수가 포함될 가능성은 없습니다. 실제로 이러한 함수는 만들고 디버그하기가 매우 어려우며 빠르게 이러한 작업을 수행할 수도 없습니다.
 
 이 수식에서는 필터도 사용했습니다. 필터는 계산될 범위를 좁힙니다. 이 경우 실제로 다른 함수의 결과인 필터 한 개를 인수로 선택했습니다. 필터에 대해서는 나중에 자세히 살펴보겠습니다.
 
@@ -144,7 +143,7 @@ DAX 수식을 이해하려는 경우 매일 생각하고 말하는 언어로 각
 ### <a name="functions"></a>함수
 함수는 특정 순서 또는 구조에서 인수라는 특정 값을 사용하여 계산을 수행하는 미리 정의된 수식입니다. 인수는 다른 함수, 다른 수식, 식, 열 참조, 숫자, 텍스트, TRUE/FALSE 같은 논리 값 또는 상수일 수 있습니다.
 
-DAX에는 [날짜 및 시간](https://msdn.microsoft.com/library/ee634786.aspx), [시간 인텔리전스](https://msdn.microsoft.com/library/ee634763.aspx)[,](https://msdn.microsoft.com/library/ee634552.aspx)[정보](https://msdn.microsoft.com/library/ee634552.aspx), [논리](https://msdn.microsoft.com/library/ee634365.aspx)[,](https://msdn.microsoft.com/library/ee634365.aspx)[수학](https://msdn.microsoft.com/library/ee634241.aspx), [통계](https://msdn.microsoft.com/library/ee634822.aspx), [텍스트](https://msdn.microsoft.com/library/ee634938.aspx), [상위/하위](https://msdn.microsoft.com/library/mt150102.aspx) 및 [기타](https://msdn.microsoft.com/library/mt150101.aspx) 함수와 같은 범주의 함수가 포함되어 있습니다. Excel 수식의 함수에 익숙한 경우 DAX의 많은 함수가 유사하게 보이지만 DAX 함수는 다음과 같은 측면에서 고유합니다.
+DAX에는 [날짜 및 시간](https://msdn.microsoft.com/library/ee634786.aspx), [시간 인텔리전스](https://msdn.microsoft.com/library/ee634763.aspx), [정보](https://msdn.microsoft.com/library/ee634552.aspx), [논리](https://msdn.microsoft.com/library/ee634365.aspx), [수학](https://msdn.microsoft.com/library/ee634241.aspx), [통계](https://msdn.microsoft.com/library/ee634822.aspx), [텍스트](https://msdn.microsoft.com/library/ee634938.aspx), [상위/하위](https://msdn.microsoft.com/library/mt150102.aspx) 및 [기타](https://msdn.microsoft.com/library/mt150101.aspx) 함수와 같은 범주의 함수가 포함되어 있습니다. Excel 수식의 함수에 익숙한 경우 DAX의 많은 함수가 유사하게 보이지만 DAX 함수는 다음과 같은 측면에서 고유합니다.
 
 * DAX 함수는 항상 전체 열 또는 테이블을 참조합니다. 테이블 또는 열에서 특정 값만 사용하려는 경우 수식에 필터를 추가할 수 있습니다.
 * 행 단위로 계산을 사용자 지정해야 하는 경우 DAX는 현재 행 값이나 관련 값을 일종의 인수로 사용할 수 있는 함수를 제공하여 컨텍스트에 따라 다른 계산을 수행합니다. 컨텍스트에 대해서는 나중에 자세히 살펴보겠습니다.

@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop의 데이터 분류"
-description: "Power BI Desktop의 데이터 분류"
+title: Power BI Desktop의 데이터 분류
+description: Power BI Desktop의 데이터 분류
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 00b70b6e56d11d0d7dda959f1983cc4631f53ff9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cc66655e49860160b43afa5d1acb688c37468212
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop의 데이터 분류
 **Power BI Desktop**에서는 열의 데이터 범주를 지정하여 시각화에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다.
@@ -40,7 +40,7 @@ Power BI Desktop이 GeoCode 열의 코드를 국가나 미국 주의 약자로 �
 **데이터 범주를 지정하려면**
 
 1. 보고서 뷰 또는 데이터 뷰의 **필드** 목록에서 다른 분류를 통해 정렬할 필드를 선택합니다.
-2. 리본 메뉴의 **데이터 도구 모델링** 탭에서 **데이터 범주:** 드롭다운 목록을 클릭합니다.  그러면 열에 선택 가능한 데이터 범주의 목록이 표시됩니다.  열의 현재 데이터 형식에 적용되지 않는 일부 선택은 비활성화되어 있습니다.  예를 들어, 열이 이진 데이터 형식이라면 Power BI Desktop에서는 지리 데이터 범주를 선택할 수 없습니다. 
+2. 리본 메뉴의 **모델링** 탭에서 **데이터 범주:** 드롭다운 목록을 클릭합니다.  그러면 열에 선택 가능한 데이터 범주의 목록이 표시됩니다.  열의 현재 데이터 형식에 적용되지 않는 일부 선택은 비활성화되어 있습니다.  예를 들어, 열이 이진 데이터 형식이라면 Power BI Desktop에서는 지리 데이터 범주를 선택할 수 없습니다. 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

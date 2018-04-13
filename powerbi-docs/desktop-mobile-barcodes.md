@@ -1,14 +1,14 @@
 ---
-title: "모바일 앱용 Power BI Desktop에서 바코드 필드 태그"
-description: "Power BI Desktop에서 모델의 바코드 필드에 태그를 지정하면 iPhone의 Power BI 앱에서 바코드에 대한 데이터를 자동으로 필터링할 수 있습니다."
+title: 모바일 앱용 Power BI Desktop에서 바코드 필드 태그
+description: Power BI Desktop에서 모델의 바코드 필드에 태그를 지정하면 iPhone의 Power BI 앱에서 바코드에 대한 데이터를 자동으로 필터링할 수 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: acac005938eb5f97a4a745dd9be72540438ed6ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 45cca153bbc65c5bad6c0f2ba8d41fbec4682ca5
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>모바일 앱용 Power BI Desktop에서 바코드 태그
 Power BI Desktop에서는 열의 [데이터 범주](desktop-data-categorization.md)를 지정하여 보고서의 시각적 개체에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다. 또한 열의 범주를 **바코드**로 지정할 수도 있습니다. 사용자 또는 사용자의 동료가 iPhone의 [Power BI 앱이 있는 제품에서 바코드를 스캔](mobile-apps-scan-barcode-iphone.md)하면 해당 바코드를 포함하는 모든 보고서가 표시됩니다. 모바일 앱에서 보고서를 열면 Power BI가 보고서를 바코드와 관련된 데이터로 자동으로 필터링합니다.

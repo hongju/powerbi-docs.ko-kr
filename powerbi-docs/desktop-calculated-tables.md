@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop의 계산된 테이블 사용"
-description: "Power BI Desktop의 계산된 테이블"
+title: Power BI Desktop의 계산된 테이블 사용
+description: Power BI Desktop의 계산된 테이블
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8bf8d2629d6a0bd88a85fa468547586e93502721
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 41017e1570a518e26305b6195531bcff889dbd9c
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop의 계산된 테이블 사용
 계산된 테이블을 사용하면 새 테이블을 모델에 추가할 수 있습니다. 그러나 값을 쿼리하고 데이터 소스에서 새 테이블의 열로 로드하는 대신 테이블 값을 정의하는 DAX(Data Analysis Expressions) 수식을 만듭니다. Power BI Desktop에서 보고서 뷰나 데이터 뷰의 새 테이블 기능을 사용하여 계산된 열이 생성됩니다.
@@ -36,7 +36,7 @@ ms.lasthandoff: 02/24/2018
 계산된 테이블은 Power BI Desktop에서와 같이 관계형 데이터 작업에 사용되는 수식 언어인 DAX([Data Analysis Expressions](https://msdn.microsoft.com/library/gg413422.aspx))를 사용하여 결과를 계산합니다. DAX에는 200개가 넘는 함수, 연산자 및 구문 라이브러리가 포함되어 데이터 분석 결과를 계산하는 수식을 만들 때 엄청난 유연성을 제공합니다.
 
 ## <a name="lets-look-at-an-example"></a>예를 살펴보겠습니다.
-콘토소의 프로젝트 관리자인 제프에게는 북서부 직원이 담긴 테이블과, 남서부 직원이 담긴 다른 테이블이 있습니다. 제프는 두 테이블을 단일 테이블에 배치하려 합니다.
+Contoso의 프로젝트 관리자인 Jeff에게는 북서부 직원이 담긴 테이블과 남서부 직원이 담긴 다른 테이블이 있습니다. 제프는 두 테이블을 단일 테이블에 배치하려 합니다.
 
 **NorthwestEmployees**
 
@@ -71,7 +71,15 @@ ms.lasthandoff: 02/24/2018
 
 많은 분석 문제를 해결하기 위해 DAX가 있는 계산된 테이블을 사용할 수 있습니다. 여기서는 계산된 테이블에 대한 간략한 소개만 제공했습니다. 계산된 테이블 작업을 시작할 때는 다음과 같은 여러 공통 DAX 테이블 함수가 유용할 수 있습니다.
 
-&lt;TABLE&gt; DISTINCT VALUES CROSSJOIN UNION NATURALINNERJOIN NATURALLEFTOUTERJOIN INTERSECT CALENDAR CALENDARAUTO
+* DISTINCT
+* VALUES
+* CROSSJOIN
+* UNION
+* NATURALINNERJOIN
+* NATURALLEFTOUTERJOIN
+* INTERSECT
+* CALENDAR
+* CALENDARAUTO
 
 이 함수 및 기타 테이블 반환 DAX 함수는 [DAX 함수 참조](https://msdn.microsoft.com/ee634396.aspx)에서확인하세요.
 

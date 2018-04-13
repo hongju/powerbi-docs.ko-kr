@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop의 계산 열 사용"
-description: "Power BI Desktop의 계산 열"
+title: Power BI Desktop의 계산 열 사용
+description: Power BI Desktop의 계산 열
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a47e707969b592ec27c79558699638ce14f8640
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop의 계산 열 사용
 계산된 열을 사용하면 이미 모델에 있는 표에 새 데이터를 추가할 수 있습니다. 그러나 값을 쿼리하고 데이터 소스에서 새 열로 로드하는 대신 열 값을 정의하는 DAX(Data Analysis Expressions) 수식을 만듭니다. Power BI Desktop에서 보고서 뷰의 새 열 기능을 사용하여 계산된 열이 생성됩니다.
@@ -54,7 +54,7 @@ Jeff는 Geography 표를 마우스 오른쪽 단추로 클릭한 다음 새 열�
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-배송 수와 함께 보고서 캔버스에 추가할 수 있습니다. Jeff는 최소한의 노력으로 빠르게 City, State 필드를 얻었습니다. 거의 모든 종류의 시각화에 추가할 수 있습니다. Jeff는 지도 시각화를 만들 때 시각화를 볼 수 있으며, Power BI Desktop도 새 열에서 City, State 값을 읽는 방법을 알고 있습니다.
+배송 수와 함께 보고서 캔버스에 추가할 수 있습니다. 이제 Jeff는 최소한의 노력으로 신속하게 거의 모든 종류의 시각화에 추가할 수 있는 City, State 필드를 만들었습니다. Jeff는 맵 시각화를 만들 때 해당 항목을 볼 수 있으며, Power BI Desktop도 새 열에서 City, State 값을 읽는 방법을 알고 있습니다.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
