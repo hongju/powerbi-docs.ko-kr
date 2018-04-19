@@ -39,7 +39,7 @@ Power BI용 [Zuora](https://app.powerbi.com/getdata/services/Zuora)에 연결합
 3. **Zuora** \>  **가져오기**를 선택합니다.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Zuora URL을 지정합니다. 일반적으로는 "https://www.zuora.com"입니다. 아래 [해당 매개 변수 찾기](#FindingParams)에서 세부 정보를 참조하세요.
+4. Zuora URL을 지정합니다. 일반적으로는 "https://www.zuora.com" 입니다. 아래 [해당 매개 변수 찾기](#FindingParams)에서 세부 정보를 참조하세요.
 
    ![](media/service-connect-to-zuora/params.png)
 5. **인증 방법**에 대해 **기본** 을 선택하고, 사용자 이름 및 암호(대/소문자 구분)를 제공한 다음 **로그인**을 선택합니다.
