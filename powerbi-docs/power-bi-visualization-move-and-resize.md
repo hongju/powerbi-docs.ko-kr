@@ -1,28 +1,28 @@
 ---
-title: "시각화 이동, 크기 조정 및 팝아웃"
-description: "Power BI 서비스 및 Power BI Desktop에서 보고서의 시각화 이동 및 크기 조정"
+title: 시각화 이동, 크기 조정 및 팝아웃
+description: Power BI 서비스 및 Power BI Desktop에서 보고서의 시각화 이동 및 크기 조정
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a46df6e225a5546f58e4f111d9cd3920a128614c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 66df86d0db9767f29a1fdca637b95bb66cd9252d
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 및 Power BI Desktop에서 보고서의 시각화 이동 및 크기 조정
 보고서 작성자 및 소유자만 시각화 이동 및 크기 조정이 가능합니다. Power BI 서비스(app.powerbi.com)에서 이는 [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 연다는 의미입니다.
@@ -43,9 +43,5 @@ Power BI에서 하나 이상의 시각화가 있는 보고서를 열거나 [새 
 
 ## <a name="next-steps"></a>다음 단계
 [대시보드에서 시각화 크기 고정](service-dashboard-edit-tile.md)  
-
-[Power BI 보고서의 시각화](power-bi-report-visualizations.md)  
-
-[Power BI - 기본 개념](service-basic-concepts.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

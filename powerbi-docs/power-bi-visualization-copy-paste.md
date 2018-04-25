@@ -1,28 +1,28 @@
 ---
-title: "Power BI에서 시각적 요소 복사 및 붙여넣기"
-description: "Power BI에서 시각적 요소 복사 및 붙여넣기"
+title: Power BI에서 시각적 요소 복사 및 붙여넣기
+description: Power BI에서 시각적 요소 복사 및 붙여넣기
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8074845fc2f48ba8b06134cfefcbf8f15ace5350
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8e00bb4ca2e39462624a489dd96bbd2b266aa6c3
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스와 Power BI Desktop에서 시각화 복사 및 붙여넣기
 시각화를 복사하고 붙여 넣으려면 보고서에 대한 편집 권한이 필요합니다. Power BI 서비스에서 이는 [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 연다는 의미입니다.
@@ -34,8 +34,6 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 시각화](power-bi-report-visualizations.md)에 대해 자세히 알아보기
-
-[Power BI - 기본 개념](service-basic-concepts.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

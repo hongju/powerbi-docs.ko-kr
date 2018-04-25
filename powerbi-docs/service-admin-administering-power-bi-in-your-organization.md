@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>조직에서 Power BI 관리
 Microsoft Power BI를 사용하면 사용자가 데이터를 시각화, 검색 공유 및 직관적인 새로운 방법으로 공동 작업할 수 있습니다. 더 자세히 알아보려면 [Power BI 시작하기](service-get-started.md)를 참조하세요.
@@ -185,8 +185,6 @@ Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관�
 조직에 기존 Office 365 환경이 이미 있고 조직의 모든 사용자가 Office 365 계정을 가지고 있는 경우 ID 관리는 변하지 않습니다.
 
 조직에 기존 Office 365 환경이 있지만 조직의 일부 사용자가 Office 365 계정을 가지고 있지 않은 경우 테넌트에서 사용자를 생성하고 사용자의 회사 또는 학교 전자 메일 주소를 기반으로 라이선스를 할당합니다. 즉, 특정 시간에 관리하는 사용자 수는 조직의 사용자가 서비스에 등록함에 따라 증가합니다.
-
-온-프레미스로 디렉터리를 관리하고 AD FS(Active Directory Federation Services)를 사용하는 경우 Microsoft는 테넌트에 사용자를 추가하지 않으며 테넌트에 가입을 시도하는 사용자는 조직의 관리자에게 문의하라는 메시지를 받게 됩니다.
 
 조직에 전자 메일 도메인에 연결된 Office 365 환경이 없는 경우 ID를 관리하는 방법이 변경되지 않습니다. 사용자는 새 클라우드 전용 사용자 디렉터리에 추가되며, 이때 테넌트 관리자로 인수하여 사용자를 관리하도록 선택하는 옵션이 있습니다.
 

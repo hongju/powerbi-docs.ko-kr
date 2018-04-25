@@ -1,29 +1,29 @@
 ---
-title: "KPI 시각적 개체(자습서)"
-description: "Power BI 서비스 및 Power BI Desktop에서 KPI 만들기"
+title: KPI 시각적 개체(자습서)
+description: Power BI 서비스 및 Power BI Desktop에서 KPI 만들기
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6EpqaO0
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1a937b77135d6ad7843a6e0be779c235a1073f46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="kpi-visuals-tutorial"></a>KPI 시각적 개체(자습서)
 KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률의 정도를 알리는 시각적 신호입니다. KPI에 대한 자세한 내용은 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)를 참조하세요.
@@ -76,11 +76,8 @@ KPI는 모바일 장치에서 항상 사용할 수 있으므로 사용자는 비
 * KPI가 위이 것과 같아 보이지 않는다면 월별로 정렬할 필요가 있을 수도 있습니다. KPI에는 정렬 옵션이 없으므로, 시각적 개체를 KPI로 변환하기 *전에* 월별로 정렬해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI의 보고서](service-reports.md)
 
 [Power BI 보고서의 시각화](power-bi-report-visualizations.md)
-
-[Power BI - 기본 개념](service-basic-concepts.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

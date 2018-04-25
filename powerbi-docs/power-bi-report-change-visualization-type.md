@@ -1,28 +1,28 @@
 ---
-title: "보고서에서 시각화 유형 변경"
-description: "Power BI 서비스와 Power BI Desktop에서 보고서 시각화 유형 변경"
+title: 보고서에서 시각화 유형 변경
+description: Power BI 서비스와 Power BI Desktop에서 보고서 시각화 유형 변경
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6a5759be3df141e2a93fe8c969a45cdc0b004be
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4ed26bbec81093654314f058f8bcbfac927cf70f
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Power BI 보고서에서 시각화 유형 변경
 Power BI 서비스와 Power BI Desktop에서 다양한 유형의 시각화를 사용해 보고 어느 시각화가 사용자의 데이터에 가장 적합한지 확인하세요. 

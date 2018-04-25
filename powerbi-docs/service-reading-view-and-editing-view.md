@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 서비스 보고서의 읽기용 보기 및 편집용 보기
 Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작용할 수 있는 읽기용 보기 및 편집용 보기라는 두 가지 모드가 있습니다. 읽기용 보기는 모든 사용자가 사용할 수 있으며 특히 데이터 *소비자*를 위해 설계되었지만 편집용 보기는 보고서 *작성자*와 소유자만 사용할 수 있습니다.
@@ -48,7 +48,6 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 |작업  | 읽기용 보기  | 편집용 보기 |
 |-------------------------|-------|-------|
 |**보고서, 전체**  |
-||||
 | [보고서 만들기 또는 편집](service-report-create-new.md) | 아니요  | 예 |
 | [보고서 공유](service-share-reports.md)| 예 | 예, 다른 사용자에게 *소유자* 권한을 부여하는 등 권한을 관리할 수도 있습니다. |
 | [필터 창에서 영구적인(영구) 시각적 개체 수준, 드릴스루, 페이지 수준 및 보고서 수준 필터 만들기](power-bi-report-add-filter.md) | 아니요  | 예 |
@@ -63,12 +62,10 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 | [보고서 저장](service-report-save.md) | 예, 하지만 **다른 이름으로 저장**을 사용한 경우만 가능합니다. | 예 |
 | [보고서 삭제](service-delete.md) | 아니요  | 예 |
 |**보고서 페이지** |
-||||
 | [보고서 페이지 추가 또는 이름 바꾸기](power-bi-report-add-page.md)  | 아니요  | 예  |
 | [보고서 페이지 복제](power-bi-report-copy-paste-page.md) | 아니요  | 예 |
 | [보고서 페이지 삭제](service-delete.md) | 아니요 | 예 |
 |**보고서 시각화 작업**|
-||||
 | [보고서에 시각화 추가](power-bi-report-add-visualizations-i.md) | 아니요  | 예 |
 | [보고서에 텍스트 상자 및 셰이프 추가](power-bi-reports-add-text-and-shapes.md) | 아니요  | 예 |
 | [보고서 서식 창 사용](service-the-report-editor-take-a-tour.md) | 아니요 | 예 |

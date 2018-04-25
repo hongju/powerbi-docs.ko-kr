@@ -3,7 +3,7 @@ title: Power BI Gateway - Personal 문제 해결
 description: Power BI Gateway - Personal 문제 해결
 services: powerbi
 documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,19 +16,19 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1063f8a34041e4c27b481085608d69c3eb32558a
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: d321d70fe201af500feb35ef4e5ea1df6cc558f0
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal 문제 해결
 다음은 Power BI Gateway - Personal을 사용할 때 발생할 수 있는 몇 가지 일반적인 문제를 설명합니다.
 
 > [!NOTE]
-> 개인용 게이트웨이의 현재 버전은 **온-프레미스 데이터 게이트웨이(개인용)**입니다. 이 버전을 사용하도록 설치를 업데이트하세요.
+> 개인용 게이트웨이의 현재 버전은 **온-프레미스 데이터 게이트웨이(개인용)** 입니다. 이 버전을 사용하도록 설치를 업데이트하세요.
 > 
 > 
 
@@ -141,7 +141,7 @@ Power BI는 현재 ACE OLEDB 공급자를 사용하여 데이터 소스에 대�
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/setup-log.png)
 
-또는 **임시 폴더**(%temp%)로 가서 **Power\_BI\_**로 시작하는 파일을 찾아볼 수 있습니다.
+또는 **임시 폴더**(%temp%)로 가서 **Power\_BI\_** 로 시작하는 파일을 찾아볼 수 있습니다.
 
 > [!NOTE]
 > %temp%로 가면 임시 하위 폴더로 갈 수 있습니다.  **Power\_BI\_** 파일은 임시 디렉터리의 루트에 있습니다.  하나 또는 두 수준 상위로 이동해야 합니다.

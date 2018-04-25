@@ -1,16 +1,16 @@
 ---
-title: "Excel에서 Power BI 대시보드에 타일을 고정하는 방법"
-description: "비즈니스용 OneDrive의 Excel에서 Power BI 대시보드에 타일 고정 범위, 차트, 표 고정"
+title: Excel에서 Power BI 대시보드에 타일을 고정하는 방법
+description: 비즈니스용 OneDrive의 Excel에서 Power BI 대시보드에 타일 고정 범위, 차트, 표 고정
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: l8JoB7w0zJA
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 76bfe440291687d7f34b859eccad6099a498c819
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel에서 Power BI 대시보드에 타일 고정
 Excel 통합 문서에서 타일을 고정하려면 해당 통합 문서를 Power BI 서비스(app.powerbi.com)에 연결합니다. 통합 문서를 기본적으로 연결하면 해당 통합 문서의 연결된 읽기 전용 버전을 Power BI 서비스로 가져오고 범위를 대시 보드에 고정할 수 있습니다. 전체 워크시트를 대시보드에 고정할 수도 있습니다.  
@@ -41,20 +41,19 @@ Will이 Excel 통합 문서에서 데이터를 가져오고 통합 문서에 연
 Power BI에서는 통합 문서를 편집할 수 없습니다. 그러나 일부 내용을 변경해야 할 경우 작업 영역의 **통합 문서** 탭에서 연필을 선택한 다음 Excel Online에서 통합 문서를 편집하거나 컴퓨터의 Excel에서 열어볼 수 있습니다. 적용한 모든 변경 내용이 OneDrive의 통합 문서에 저장됩니다.
 
 1. 비즈니스용 OneDrive에 통합 문서를 업로드합니다.
+
 2. Power BI에서 **데이터 가져오기 > 파일 > OneDrive - Business**를 선택하고 Excel 파일을 저장한 위치로 이동하여 [해당 통합 문서에 연결](service-excel-workbook-files.md)합니다. 파일을 선택하고 **연결 > 연결**을 선택합니다.
 
-   ![비즈니스용 OneDrive 대화 상자](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+    ![비즈니스용 OneDrive 대화 상자](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
 3. Power BI에서는 통합 문서가 작업 영역의 **통합 문서** 탭에 추가됩니다.  ![통합 문서 아이콘](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) 아이콘은 Excel 통합 문서를 나타내고 노란색 별표는 새 문서를 나타냅니다.
-   
     
-   ![통합 문서 탭](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+    ![통합 문서 탭](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. 통합 문서 이름을 선택하여 Power BI에서 통합 문서를 엽니다.
 
     Power BI에서 통합 문서를 변경한 내용은 저장되지 않으며 비즈니스용 OneDrive에 있는 원래의 통합 문서에 영향을 주지 않습니다. Power BI에서 값을 정렬, 필터링 또는 변경하는 경우 해당 변경 내용을 저장하거나 고정할 수 없습니다. 저장할 변경을 수행해야 하는 경우 오른쪽 위 모서리에서 **편집**을 선택하여 Excel Online 또는 Excel에서 편집용으로 엽니다. 이 방법으로 변경한 내용은 대시보드의 타일을 업데이트하는 데 몇 분 정도 걸릴 수 있습니다.
    
-   
-   ![Power BI의 Excel 온라인](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+    ![Power BI의 Excel 온라인](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>대시보드에 셀의 범위 고정
 새 [대시보드 타일](service-dashboard-tiles.md)을 추가하는 한 가지 방법은 Power BI의 Excel 통합 문서 내에서 추가하는 것입니다. 비즈니스용 OneDrive 또는 다른 그룹 공유 문서 라이브러리에 저장된 Excel 통합 문서에서 범위를 고정할 수 있습니다. 범위에는 데이터, 차트, 테이블, 피벗 테이블, 피벗 차트 및 기타 Excel 부분이 포함될 수 있습니다.
