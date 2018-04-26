@@ -1,29 +1,29 @@
 ---
-title: "빠른 시작 - 보고서 편집기...둘러보기"
-description: "보고서 편집기... 둘러보기입니다."
+title: 빠른 시작 - 보고서 편집기...둘러보기
+description: 보고서 편집기... 둘러보기입니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>보고서 편집기... 둘러보기
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 및 Power BI Desktop의 보고서 편집
@@ -56,7 +56,6 @@ Power BI 보고서 편집기는 다음 3개 섹션으로 구성됩니다.
 |  |  |
 | --- | --- |
 | ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>시각화 창의 맨 위에서는 사용 중인 시각적 개체의 형식을 식별합니다. 묶은 세로 막대형 차트를 예로 들 수 있습니다.<br><br></li> <li>시각화 창의 맨 아래에는(아래로 스크롤해야 함) 시각적 개체에서 사용되는 필드가 표시됩니다. 이 차트는 회계 월, 지역 관리자 및 총 판매액 분산을 사용 중입니다. <br><br></li><li>필터 창(아래로 스크롤해야 함)에는 적용된 필터가 표시됩니다. <br><br></li><li>필드 창에는 사용할 수 있는 테이블이 나열되고 테이블의 이름을 확장하면 해당 테이블을 구성하는 필드가 나타납니다. 노란색 글꼴은 해당 테이블에서 최소 하나의 필드가 시각화에 사용되고 있음을 나타냅니다.<br><br></li><li>![페인트 롤러 아이콘](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) 서식 지정 창을 표시하려면 선택한 시각화에서 페인트 롤러 아이콘을 선택합니다.<br><br></li><li>![돋보기 아이콘](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) 분석 창을 표시하려면 돋보기 아이콘을 선택합니다.</ul> |
-|  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>시각화 창(위에서 아래 방향)
 ![시각화 창의 위쪽](media/service-the-report-editor-take-a-tour/selectviz.png)

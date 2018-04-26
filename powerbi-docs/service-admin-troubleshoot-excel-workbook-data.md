@@ -1,28 +1,28 @@
 ---
-title: "오류: Excel 통합 문서에서 데이터를 찾을 수 없습니다."
-description: "오류: Excel 통합 문서에서 데이터를 찾을 수 없습니다."
+title: '오류: Excel 통합 문서에서 데이터를 찾을 수 없습니다.'
+description: '오류: Excel 통합 문서에서 데이터를 찾을 수 없습니다.'
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: a58af88d23c04c0afd2fa71cab7824b657451b33
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 42db20a316ee11b11d6b39f69f315853750c6ca7
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>오류: Excel 통합 문서에서 데이터를 찾을 수 없습니다.
 

@@ -1,29 +1,29 @@
 ---
-title: "Power BI의 등치 지역도(코로플레스)(자습서)"
-description: "설명서 - Power BI에서 등치 지역도(코로플레스)를 만드는 방법에 대한 자습서입니다."
+title: Power BI의 등치 지역도(코로플레스)(자습서)
+description: 설명서 - Power BI에서 등치 지역도(코로플레스)를 만드는 방법에 대한 자습서입니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/19/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0d4e1cd766cf5f1b35b5d0a6ca0946820efe9f3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a6cddcf361072bdd265a94de9efd5dbc7ecf05c8
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Power BI의 등치 지역도(코로플레스)(자습서)
 등치 지역도는 음영 또는 색조 또는 패턴을 사용하여 특정 값이 특정 지리 또는 지역을 기준으로 어떻게 다른지 표시합니다.  밝게(낮은 빈도/낮음)부터 어둡게(높은 빈도/높음)까지 다양한 음영으로 이러한 상대적 차이를 신속하게 표시합니다.    
