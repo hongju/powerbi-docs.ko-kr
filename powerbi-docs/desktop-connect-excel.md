@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop에서 Excel에 연결"
-description: "Power BI Desktop에서 Excel 통합 문서 데이터에 쉽게 연결하고 사용"
+title: Power BI Desktop에서 Excel에 연결
+description: Power BI Desktop에서 Excel 통합 문서 데이터에 쉽게 연결하고 사용
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cb5021187a5263739c576795108edeb726fb2e62
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8ec83da19dbd9bdd69f9253b5bc4827e2f1348e3
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Power BI Desktop에서 Excel에 연결
 Power BI Desktop에서 Excel 통합 문서에 연결하는 것은 간단하며 이 문서에서는 이에 대한 단계를 안내합니다.

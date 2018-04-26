@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop에서 예제의 열 추가"
-description: "예제로 기존 열을 사용하여 Power BI Desktop에서 신속하게 새 열 만들기"
+title: Power BI Desktop에서 예제의 열 추가
+description: 예제로 기존 열을 사용하여 Power BI Desktop에서 신속하게 새 열 만들기
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1fcdd2d8b1eff61e3e53ca919e082afb4ec8e835
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Power BI Desktop에서 예제의 열 추가
 **Power BI Desktop**의 2017년 4월 릴리스부터 **쿼리 편집기**를 사용하고 새 열에 대한 샘플 값을 하나 이상 제공하여 데이터의 새 열을 모델에 추가할 수 있습니다. 현재 선택 항목에서, 또는 지정된 테이블의 모든(또는 선택한) 열을 토대로 제공한 입력에서 새 열 예제를 만들 수 있습니다.
@@ -68,7 +68,7 @@ ms.lasthandoff: 02/24/2018
 
 새 열에 예제를 입력하면 Power BI에서는 검색된 변환을 기반으로 작성 중인 열이 어떻게 나타나는지 미리 볼 수 있습니다. 예를 들어 첫 번째 행에 *Alabama*를 입력하면 이는 테이블의 첫 번째 열에 *Alabama* 값에 해당합니다. *Enter* 키를 누르는 즉시 Power BI가 이 값을 기반으로 열을 채웁니다.
 
-하지만 *Massachusetts[E]*가 포함된 행으로 이동하여 마지막 *[E]* 부분을 삭제했습니다(불필요하므로). Power BI는 이러한 변화를 감지하고 예제를 사용하여 변환을 생성합니다. 맨 위 중간 창에서 변환에 대한 설명을 확인하세요.
+하지만 *Massachusetts[E]* 가 포함된 행으로 이동하여 마지막 *[E]* 부분을 삭제했습니다(불필요하므로). Power BI는 이러한 변화를 감지하고 예제를 사용하여 변환을 생성합니다. 맨 위 중간 창에서 변환에 대한 설명을 확인하세요.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 

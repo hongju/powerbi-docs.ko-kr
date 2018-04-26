@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 37aff7aadaf6b514ca3b7329db26bc0228022bdd
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 4996b7485cb9514b9378982d2149ef5380e8fdc9
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Power BI Desktop에서 파일(이진) 병합
 **Power BI Desktop**에 데이터를 가져오기 위한 한 가지 강력한 접근 방식은 동일한 스키마의 여러 파일을 단일 논리 테이블로 결합하는 것입니다. 이 문서에서 설명한 대로 **Power BI Desktop**의 2016년 11월 릴리스(와 이후 버전)는 편리하며, 일반적인 접근 방식이 보다 편리해지고 확장되었습니다.

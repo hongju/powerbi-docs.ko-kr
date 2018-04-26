@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop의 양방향 교차 필터링"
-description: "Power BI Desktop에서 DirectQuery를 사용하여 교차 필터링 사용"
+title: Power BI Desktop의 양방향 교차 필터링
+description: Power BI Desktop에서 DirectQuery를 사용하여 교차 필터링 사용
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 448bc397d23a289defc95515ad42de1ce0741ba5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4844fd751a4d5107b702c27f4ca5aac647d39816
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery를 사용하여 양방향 교차 필터링 사용
 

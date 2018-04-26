@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1f1eeda618c54def9e756f727161d5bc7d541218
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop(베타)의 Azure Consumption Insights에 연결
 **Azure Consumption Insights** 커넥터에서 **Power BI Desktop**을 사용하여 Azure에 연결하고 조직의 Azure 서비스 사용에 대한 심층 분석 데이터 및 정보를 가져옵니다. 또한 측정값, 사용자 지정 열, 시각적 개체를 만들어 조직의 Azure 사용에 대해 보고하고 공유할 수 있습니다. **Azure Consumption Insights** 커넥터의 이 릴리스는 베타 상태이며 변경될 수 있습니다.
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/15/2018
 ## <a name="connect-to-azure-consumption-insights"></a>Azure Consumption Insights에 연결
 **Azure Consumption Insights** 커넥터를 사용하여 성공적으로 연결하려면 Azure Portal 내에서 엔터프라이즈 기능에 액세스해야 합니다.
 
-**Azure Consumption Insights** 커넥터를 사용하여 연결하려면 **Power BI Desktop**의 **홈** 리본에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **온라인 서비스**를 선택하면 **Microsoft Azure Consumption Insights(베타)**가 표시됩니다. **연결**을 선택합니다.
+**Azure Consumption Insights** 커넥터를 사용하여 연결하려면 **Power BI Desktop**의 **홈** 리본에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **온라인 서비스**를 선택하면 **Microsoft Azure Consumption Insights(베타)** 가 표시됩니다. **연결**을 선택합니다.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
@@ -96,7 +96,7 @@ Azure에는 비어 있는 쿼리를 사용하여 검색할 수 있는 샘플 사
 * *startBillingDataWindow* 또는 *endBillingDataWindow*와 함께 *numberOfMonth*를 사용하지 *않습니다*.
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Azure 엔터프라이즈 커넥터에서 마이그레이션
-일부 고객이 *Azure 엔터프라이즈 커넥터(베타)*를 사용하여 만든 시각적 개체는 결국 중단될 예정이며 **Azure Consumption Insights** 커넥터로 바뀝니다. **Azure Consumption Insights** 커넥터에는 다음을 포함하여 기능 및 향상된 기능이 있습니다.
+일부 고객이 *Azure 엔터프라이즈 커넥터(베타)* 를 사용하여 만든 시각적 개체는 결국 중단될 예정이며 **Azure Consumption Insights** 커넥터로 바뀝니다. **Azure Consumption Insights** 커넥터에는 다음을 포함하여 기능 및 향상된 기능이 있습니다.
 
 * *균형 요약* 및 *Marketplace 구매*에 사용할 수 있는 추가 데이터 원본
 * *startBillingDataWindow* 및 *endBillingDataWindow*와 같은 새 고급 매개 변수
@@ -161,9 +161,9 @@ Azure Portal의 열 및 세부 정보 이름은 API 및 커넥터와 유사하�
 | ConsumedServiceId |consumedServiceId | |예 |
 | 비용 |cost |ExtendedCost |아니요 |
 | 비용 센터 |costCenter |비용 센터 |아니요 |
-| 날짜 |date |날짜 |아니요 |
+| 날짜 |날짜 |날짜 |아니요 |
 | 일 | |일 |아니요 |
-| DepartmentName |departmentName |Department Name |아니요 |
+| DepartmentName |departmentName |부서 이름 |아니요 |
 | DepartmentID |departmentId | |예 |
 | Instance ID | | |예 |
 | InstanceId |instanceId |Instance ID |아니요 |

@@ -1,27 +1,27 @@
 ---
-title: "관리자가 Power BI Desktop 로그인 양식을 관리하는 방법"
-description: "Power BI Desktop을 열 때 초기 로그인 양식을 관리하는 방법을 알아봅니다."
+title: 관리자가 Power BI Desktop 로그인 양식을 관리하는 방법
+description: Power BI Desktop을 열 때 초기 로그인 양식을 관리하는 방법을 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
-ms.openlocfilehash: 519f8b56b5086292addf577d969a707a6d6efcc8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 65bf0a39351b394232211af50692072f7cec7e89
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="how-administrators-can-manage-the-power-bi-desktop-sign-in-form"></a>관리자가 Power BI Desktop 로그인 양식을 관리하는 방법
 Power BI Desktop이 처음 시작되면 로그인 양식이 표시됩니다. 계속하려면 정보를 입력하거나 Power BI에 로그인하십시오. 관리자는 레지스트리 키를 사용하여 이 양식을 관리 할 수 있습니다. 
