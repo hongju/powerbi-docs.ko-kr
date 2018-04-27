@@ -174,7 +174,7 @@
           href: service-connect-to-quickbooks-online.md
         - name: SendGrid
           href: service-connect-to-sendgrid.md
-        - name: ServiceNow Incidents
+        - name: ServiceNow 인시던트
           href: service-connect-to-servicenow.md
         - name: Smartsheet
           href: service-connect-to-smartsheet.md
@@ -200,7 +200,7 @@
           href: service-connect-to-vmob.md
         - name: Webtrends
           href: service-connect-to-webtrends.md
-        - name: Windows Dev Center
+        - name: Windows 개발자 센터
           href: service-connect-to-windows-dev-center.md
         - name: Xero
           href: service-connect-to-xero.md
@@ -846,10 +846,12 @@
           href: desktop-send-smile-privacy-statement.md
     - name: 문제 해결
       items:
-        - name: Power BI Desktop 및 파워 쿼리에서 Access 데이터베이스 및 Excel 스프레드시트 가져오기 문제 해결
-          href: desktop-access-database-errors.md
+        - name: Power BI Desktop에 로그인하는 중 발생하는 문제 해결
+          href: desktop-troubleshooting-sign-in.md
         - name: Power BI Desktop을 시작할 때 발생하는 문제 해결
           href: desktop-error-launching-desktop.md
+        - name: Power BI Desktop 및 파워 쿼리에서 Access 데이터베이스 및 Excel 스프레드시트 가져오기 문제 해결
+          href: desktop-access-database-errors.md
 - name: Power BI Mobile Apps
   items:
     - name: 시작
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: KPI 작업
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: 지원되는 데이터 원본
+        - name: Power BI 보고서(.pbix) 데이터 원본
           href: report-server/data-sources.md
-        - name: '데이터 원본 연결 '
+        - name: 페이지를 매긴 보고서(.rdl) 데이터 원본
           href: report-server/connect-data-sources.md
         - name: 'OData 피드로 공유 데이터 집합에 액세스 '
           href: report-server/access-dataset-odata.md
