@@ -1,15 +1,15 @@
 ---
-title: "Power BI Report Server에서 예약된 새로 고침 문제 해결"
-description: "이 문서에서는 Power BI Report Server에서 예약된 새로 고침의 문제 해결에 사용할 수 있는 리소스를 설명합니다."
+title: Power BI Report Server에서 예약된 새로 고침 문제 해결
+description: 이 문서에서는 Power BI Report Server에서 예약된 새로 고침의 문제 해결에 사용할 수 있는 리소스를 설명합니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 466505ae2c4050629e8bbcc4ff90cde520d31375
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: cf084492a7b5d1ecc10ff933eeaef4cdbdc14022
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server에서 예약된 새로 고침 문제 해결
 이 문서에서는 Power BI Report Server에서 예약된 새로 고침의 문제 해결에 사용할 수 있는 리소스를 설명합니다.
@@ -60,7 +60,6 @@ Windows 자격 증명으로 데이터 원본에 연결할 때 성공적으로 �
 
 | 설정 | 설명 |
 | --- | --- |
-| EnablePowerBIReportEmbeddedModels |보고서 내에서 가져온 데이터를 사용하는 기능을 활성화 또는 비활성화합니다. 유효한 값은 True 또는 False입니다. |
 | MaxFileSizeMb |업로드된 보고서에 대한 최대 파일 크기입니다. 기본값은 1000MB(1GB)입니다. 최대값은 2000MB(2GB)입니다. |
 | ModelCleanupCycleMinutes |메모리에서 제거하기 위해 모델이 확인되는 빈도를 정의합니다. 기본값은 15분입니다. |
 | ModelExpirationMinutes |마지막으로 사용된 시간에 따라 모델 만료 및 모델이 제거될 때까지 남은 시간을 정의합니다. 기본값은 60분입니다. |
