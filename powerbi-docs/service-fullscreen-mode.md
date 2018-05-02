@@ -1,35 +1,39 @@
 ---
-title: "전체 화면 모드에서 대시보드, 대시보드 타일, 보고서 페이지 및 보고서 시각화를 표시합니다."
-description: "‘TV 모드’라고도 하는 전체 화면 모드에서 대시보드, 대시보드 타일, 보고서 시각화 및 보고서 페이지를 표시합니다."
+title: 전체 화면 모드에서 대시보드, 타일, 보고서 페이지 및 시각화 표시
+description: ‘TV 모드’라고도 하는 전체 화면 모드에서 대시보드, 대시보드 타일, 보고서 시각화 및 보고서 페이지를 표시합니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 23241edc3b7fec6b4cf10c422fc7744268ed2cdc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="full-screen-mode-in-power-bi"></a>Power BI에서 전체 화면 모드
+# <a name="full-screen-mode-in-power-bi-service"></a>Power BI 서비스의 전체 화면 모드
 ## <a name="what-is-full-screen-mode"></a>전체 화면 모드란?
 ![대시보드 전체 화면 모드 전과 후](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-메뉴 및 탐색 바 없이 콘텐츠(대시보드, 보고서 페이지,타일 및 시각적 개체)를 표시합니다.  항상 한 눈에 콘텐츠 전체를 볼 수 있습니다. 이를 TV 모드라고도 합니다. 전체 화면 모드에서 사용할 수 있는 기능은 콘텐츠에 따라 다릅니다.  
+메뉴 및 탐색 모음 없이 Power BI 콘텐츠(대시보드, 보고서 페이지, 타일 및 시각적 개체)를 표시합니다.  항상 한눈에 콘텐츠 전체를 볼 수 있습니다. 이를 TV 모드라고도 합니다. 전체 화면 모드에서 사용할 수 있는 기능은 콘텐츠에 따라 다릅니다. 
+
+Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 화면을 사용할 수 있습니다](mobile-windows-10-app-presentation-mode.md). Power BI Desktop에는 보고서 또는 시각화에 대한 전체 화면 모드가 없지만, [관계 보기](desktop-report-view.md)를 위한 페이지에 맞추기 및 [보고서 시각적 개체를 위한 포커스 모드](service-focus-mode.md)가 있습니다.
+
+ 
 
 다음과 같은 경우에 전체 화면 모드를 사용합니다.
 
@@ -42,7 +46,7 @@ ms.lasthandoff: 03/09/2018
 > 
 > 
 
-Amanda가 대시보드를 전체 화면 모드로 열어서 탐색한 다음 일부 URL 매개 변수를 적용하여 기본 디스플레이를 제어하는 과정을 시청합니다. 그런 다음 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
+Amanda가 대시보드를 전체 화면 모드로 열어서 탐색한 다음, 일부 URL 매개 변수를 적용하여 기본 디스플레이를 제어하는 과정을 시청합니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
@@ -84,7 +88,7 @@ Amanda가 대시보드를 전체 화면 모드로 열어서 탐색한 다음 일
 1. 전체 화면 모드에서 대시보드 타일 및 보고서 시각적 개체를 표시하려면 [포커스 모드](service-focus-mode.md)에 이미 들어 있는 타일이나 시각적 개체로 시작해야 합니다. 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
-2. 그런 다음 그 타일이나 시각적 개체에 대한 ![전체 화면 아이콘](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  전체 화면 아이콘을 선택합니다. 타일 또는 시각적 개체는 메뉴 또는 탐색바 없이 전체 화면에 표시됩니다.
+2. 그런 다음, 그 타일이나 시각적 개체에 대한 ![전체 화면 아이콘](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  전체 화면 아이콘을 선택합니다. 타일 또는 시각적 개체는 메뉴 또는 탐색바 없이 전체 화면에 표시됩니다.
    
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI 보고서 복사
-description: 다른 보고서에서 새 Power BI 보고서를 만듭니다.
+title: Power BI 서비스에서 보고서 복사
+description: Power BI 서비스의 다른 보고서에서 새 Power BI 보고서를 만듭니다.
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a4f4e394aa4534093858ebfe7738dd7fdb0affd2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-report-from-an-existing-report"></a>기존 보고서에서 새 보고서 만들기
+# <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>기존 보고서에서 새 보고서 만들기(보고서 복사)
 이미 데이터 집합에 연결하는 보고서가 있고 다시 사용하거나 수정하려고 하는 몇 가지 시각적 개체가 있을 수 있습니다.  새 보고서에 대한 기준으로 해당 보고서를 단순히 복사할 수 없습니까?  수행할 작업:
 
 1. [보고서를 엽니다](service-report-open.md).
@@ -47,3 +47,5 @@ ms.lasthandoff: 03/28/2018
 [새 시각화 만들기](power-bi-report-add-visualizations-ii.md)
 
 필요하지 않은 [시각화 삭제](service-delete.md)
+
+[Power BI Desktop을 사용하여 보고서 만들기](desktop-report-view.md)

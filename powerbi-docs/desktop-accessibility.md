@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop 보고서의 내게 필요한 옵션"
-description: "액세스 가능한 Power BI Desktop 보고서를 만들기 위한 기능 및 제안"
+title: Power BI Desktop 보고서의 내게 필요한 옵션
+description: 액세스 가능한 Power BI Desktop 보고서를 만들기 위한 기능 및 제안
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c0e11a46e6e228da2f2ca8ac3f7be63ae20c1d92
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9cf89867185487ab6ddec68bc6abf557b2fc929f
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서의 내게 필요한 옵션
 **Power BI Desktop**에는 장애가 있는 사람이 **Power BI Desktop** 보고서를 보다 쉽게 사용하고 상호 작용할 수 있도록 하는 기능이 있습니다. 이러한 기능에는 키보드 또는 화면 판독기를 사용하여 보고서를 이용하고 탭 키로 페이지에 있는 다양한 개체에 포커스를 이동하며 시각적 개체에 표식을 세밀하게 사용하는 기능이 있습니다.
@@ -41,7 +41,7 @@ ms.lasthandoff: 02/24/2018
 
 내게 필요한 옵션 기능 향상을 통해 다음 기술과 함께 키보드 또는 화면 판독기로 **Power BI Desktop** 보고서를 사용할 수 있습니다.
 
-**Ctrl+F6** 키를 사용하여 보고서 페이지 탭 또는 지정된 보고서 페이지의 개체 간에 **포커스를 전환**할 수 있습니다.
+**Ctrl+F6**을 사용하여 보고서 페이지 탭 또는 지정된 보고서 페이지의 개체 간에 포커스를 전환할 수 있습니다.
 
 * 포커스가 *보고서 페이지 탭*에 있는 경우 *탭* 또는 *화살표* 키를 사용하여 한 보고서 페이지에서 다음 페이지로 포커스를 이동합니다. 보고서 페이지의 제목과 현재 선택 여부는 화면 판독기로 읽습니다. 현재 포커스가 있는 보고서 페이지를 로드하려면 *Enter* 또는 *Space* 키를 사용합니다.
 * 포커스가 로드된 *보고서 페이지*에 있는 경우 *탭* 키를 사용하여 페이지의 각 개체(모든 텍스트 상자, 이미지, 셰이프 및 차트)로 포커스를 이동합니다. 화면 판독기는 개체 유형과 작성자가 제공한 개체 설명을 읽습니다. 
@@ -67,7 +67,7 @@ ms.lasthandoff: 02/24/2018
   * 각 선에 다양한 *표식 모양*을 사용하면 보고서 사용자가 선(또는 영역)을 보다 쉽게 구분할 수 있습니다.
 * 이전 글머리 기호에 따라 정보를 전달하기 위해 색에 의존하지 마세요. 줄에서 셰이프(이전 글머리 기호에 설명된 대로 마커)를 사용하면 유용합니다.
 * 테마 갤러리에서 고대비 및 색맹인 *테마*를 선택하고 [**테마 설정** 미리 보기 기능](desktop-report-themes.md)을 사용하여 가져옵니다.
-* 보고서의 모든 개체에 대해 *대체 텍스트*를 제공합니다. 이렇게 하면 보고서 사용자는 시각적 개체, 이미지, 셰이프 또는 텍스트 상자를 볼 수 없더라도 시각적 개체와 통신하는 내용을 잘 파악할 수 있습니다. 개체(예: 시각적 개체, 셰이프 등)를 선택하고 **시각화** 창에서 **서식** 섹션을 선택하며 **일반**을 확장한 후 아래로 스크롤하고 **대체 텍스트** 텍스트 상자를 입력하여 **Power BI Desktop** 보고서의 모든 개체에 대해 *대체 텍스트*를 제공할 수 있습니다.
+* 보고서의 모든 개체에 대해 *대체 텍스트*를 제공합니다. 이렇게 하면 보고서 사용자는 시각적 개체, 이미지, 셰이프 또는 텍스트 상자를 볼 수 없더라도 시각적 개체와 통신하는 내용을 잘 파악할 수 있습니다. 개체(예: 시각적 개체, 셰이프 등)를 선택하고 **시각화** 창에서 **서식** 섹션을 선택하며 **일반**을 확장한 후 아래로 스크롤하고 **대체 텍스트** 텍스트 상자를 입력하여 **Power BI Desktop** 보고서의 모든 개체에 대해 ‘대체 텍스트’를 제공할 수 있습니다.
   
   ![보고서에 있는 모든 개체에 대한 대체 텍스트는 시각화 > 서식 > 일반 > 대체 텍스트 상자에서 추가할 수 있습니다.](media/desktop-accessibility/accessibility_02.png)
 * 보고서에서 텍스트와 배경 색 간에 충분한 대비가 되는지 확인합니다.
@@ -77,7 +77,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 다음 목록에는 접근성 기능에 대한 알려진 문제 및 제한 사항이 설명되어 있습니다.
 
-* JAWS는 포함된 보고서를 포함하여 **Power BI 서비스**에서 볼 수 있는 보고서에서 지원됩니다. JAWS는 **Power BI Desktop**에서도 지원되지만, 화면 판독을 제대로 읽도록 하기 위해 **Power BI Desktop** 파일을 열기 전에 화면 판독기를 열어야 합니다.
+* JAWS는 포함된 보고서를 포함하여 **Power BI 서비스**에서 볼 수 있는 보고서에서 지원됩니다. JAWS는 **Power BI Desktop**에서도 지원되지만, 화면 읽기가 제대로 작동하려면 **Power BI Desktop** 파일을 열기 전에 화면 읽기 프로그램을 열어야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI Desktop에서 보고서 테마 사용(미리 보기)](desktop-report-themes.md)

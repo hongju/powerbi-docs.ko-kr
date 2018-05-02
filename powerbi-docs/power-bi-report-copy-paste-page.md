@@ -1,32 +1,32 @@
 ---
-title: "Power BI에서 보고서 페이지 복제"
-description: "Power BI에서 보고서 페이지 복사 및 붙여넣기"
+title: Power BI에서 보고서 페이지 복제
+description: Power BI에서 보고서 페이지 복사 및 붙여넣기
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: UOKbxTXZrWw
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39d33965c45efe9ca063e658b42c00dcaea8ef26
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 08ac9c2be324109e12287de445038941ec0c7d00
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Power BI에서 보고서 페이지 복제
-보고서 페이지를 복제하려면 보고서에 대한 편집 권한이 필요합니다. Power BI 서비스에서 이는 [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 연다는 의미입니다. 
+Power BI 서비스 또는 Power BI Desktop에서 보고서 페이지를 복제하려면 보고서에 대한 편집 권한이 필요합니다. Power BI 서비스에서 이는 [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 연다는 의미입니다. 
 
 
 1. Power BI에서 하나 이상의 페이지가 있는 보고서를 엽니다. 
@@ -41,10 +41,9 @@ ms.lasthandoff: 02/24/2018
    <iframe width="560" height="315" src="https://www.youtube.com/embed/UOKbxTXZrWw?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="next-steps"></a>다음 단계
-[Power BI 보고서의 시각화](power-bi-report-visualizations.md)
-[보고서에 새 페이지 추가](power-bi-report-add-page.md)에 대해 자세히 알아보기 
-
-[Power BI - 기본 개념](service-basic-concepts.md) 
+[Power BI 보고서의 시각화](power-bi-report-visualizations.md)에 대한 자세한 정보    
+[보고서에 새 페이지 추가](power-bi-report-add-page.md)    
+[Power BI - 기본 개념](service-basic-concepts.md)    
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

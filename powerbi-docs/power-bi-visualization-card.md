@@ -1,28 +1,28 @@
 ---
-title: "카드 시각화(즉, 큰 숫자 타일)"
-description: "Power BI에서 카드 시각화 만들기"
+title: 카드 시각화(즉, 큰 숫자 타일)
+description: Power BI에서 카드 시각화 만들기
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3e30e0f742d97817583ecdfd72df65a8658ec977
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="card-visualizations"></a>카드 시각화
 Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율, 총 영업 기회와 같이 한 가지 가장 중요한 숫자만 추적하려는 경우가 있습니다. 이 시각화 유형을 *카드*라고 합니다. 거의 모든 네이티브 Power BI 시각화와 마찬가지로 카드도 보고서 편집기 또는 질문과 대답을 사용하여 만들 수 있습니다.
@@ -91,6 +91,25 @@ Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율
 - 질문 상자가 전혀 표시되지 않으면 시스템 또는 테넌트 관리자에게 문의합니다.    
 - Desktop을 사용하는 경우 보고서에서 빈 공간을 두 번 클릭했을 때 질문 및 답변이 열리지 않으면 활성화가 필요할 수 있습니다.  **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능 > 질문 및 답변**을 선택하고 Desktop을 다시 시작합니다.
 
+## <a name="format-a-card"></a>카드 서식 지정
+레이블, 텍스트, 색상 등을 변경하는 다양한 옵션이 있습니다. 옵션을 알아보는 가장 좋은 방법은 카드를 만든 다음, 서식 창을 살펴보는 것입니다. 다음은 사용 가능한 서식 옵션 중 몇 가지입니다. 
+
+1. 먼저 페인트 브러시 아이콘을 선택하여 [서식] 창을 엽니다. 
+
+    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+2. **데이터 레이블**을 확장하고 색, 크기 및 글꼴 패밀리를 변경합니다. 수천 개의 매장이 있는 경우 **표시 단위**를 사용하여 천 단위까지 매장 수를 표시하고 소수 자릿수도 제어할 수 있습니다. 예를 들어 125,832.00 대신 125.8K로 표시합니다.
+
+3.  **범주 레이블**을 확장하고 색과 크기를 변경합니다.
+
+    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+
+4. **배경**을 확장하고 슬라이더를 켜기로 이동합니다.  이제 배경색과 투명도를 변경할 수 있습니다.
+
+    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+
+5. 카드가 원하는 대로 정확하게 표시될 때까지 서식 옵션을 계속 살펴봅니다. 
+
+    ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI의 대시보드 타일](service-dashboard-tiles.md)

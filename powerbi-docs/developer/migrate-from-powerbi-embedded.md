@@ -1,15 +1,15 @@
 ---
-title: "Power BI 작업 영역 컬렉션 작업 영역 컬렉션 콘텐츠를 Power BI으로 마이그레이션하는 방법"
-description: "Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션하고 앱에서 포함하기 위한 고급 기능을 활용하는 방법을 알아봅니다."
+title: Power BI 작업 영역 컬렉션 작업 영역 컬렉션 콘텐츠를 Power BI으로 마이그레이션하는 방법
+description: Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션하고 앱에서 포함하기 위한 고급 기능을 활용하는 방법을 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션하고 앱에서 포함하기 위한 고급 기능을 활용하는 방법을 알아봅니다.
@@ -58,8 +58,7 @@ Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션�
 
 > [!NOTE]
 > 이러한 계정은 앱 작업 영역을 사용하기 위해 Power BI Pro 라이선스를 보유해야 합니다.
-> 
-> 
+>
 
 1. 테넌트 관리 사용자.
    
@@ -71,10 +70,13 @@ Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션�
    
     응용 프로그램 백 엔드는 이 계정에 대한 자격 증명을 저장한 후 Power BI REST API에 사용할 Azure AD 토큰을 획득하기 위해 사용합니다. 이 계정은 응용 프로그램에 대한 임베드 토큰을 생성하는 데 사용됩니다. 또한 이 계정은 포함용으로 만든 앱 작업 영역의 관리자여야 합니다.
    
-   > [!NOTE]
-   > 조직에서 포함의 목적으로 사용할 일반 사용자 계정입니다.
-   > 
-   > 
+> [!NOTE]
+> 조직에서 포함의 목적으로 사용할 일반 사용자 계정입니다.
+>
+
+> [!NOTE]
+> 앱 전용 토큰 인증이 응용 프로그램의 요구 사항인 경우 [여기](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement)를 클릭하여 문의하세요.
+>
 
 ## <a name="app-registration-and-permissions"></a>앱 등록 및 사용 권한
 Azure AD 내에서 응용 프로그램을 등록하고 일부 사용 권한을 부여해야 합니다.
@@ -126,13 +128,13 @@ Power BI 내에서 하나의 앱 작업 영역을 만들려면 Pro 라이센스�
 #### <a name="directquery-dataset--report"></a>DirectQuery 데이터 집합 및 보고서
 **흐름**
 
-1. https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources 가져오기를 호출하고 수신한 연결 문자열을 저장합니다.
+1. GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources를 호출하고 수신된 연결 문자열을 저장합니다.
 2. PaaS 작업 영역에서 PBIX API 다운로드를 호출합니다.
 3. PBIX를 저장합니다.
 4. SaaS 작업 영역에 PBIX 가져오기를 호출합니다.
-5. POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections를 호출하여 연결 문자열 업데이트
-6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources 를 호출하여 GW ID 및 데이터 원본 ID 가져오기
-7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}를 호출하여 사용자의 자격 증명 업데이트
+5. POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections를 호출하여 연결 문자열을 업데이트합니다.
+6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources를 호출하여 GW ID 및 데이터 원본 ID를 가져옵니다.
+7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}를 호출하여 사용자의 자격 증명을 업데이트합니다.
 
 #### <a name="old-dataset--reports"></a>이전 데이터 집합 및 보고서
 2016년 10월 이전에 만든 데이터 집합/보고서입니다. PBIX 다운로드는 2016년 10월 이전에 업로드된 PBIX를 지원하지 않습니다

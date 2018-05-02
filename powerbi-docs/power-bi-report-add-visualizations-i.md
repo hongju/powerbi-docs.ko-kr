@@ -1,32 +1,32 @@
 ---
-title: "1부, Power BI 보고서에 시각화 추가(자습서)"
-description: "자습서: 1부, Power BI 보고서에 시각화 추가"
+title: 1부, Power BI 보고서에 시각화 추가(자습서)
+description: '자습서: 1부, Power BI 보고서에 시각화 추가'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: IkJda4O7oGs
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b81061c25b453fc35e1490c3ded2d9c9770d4599
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b6fdc11b19e130272cf715f4cff58721f46dd6e8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>1부, Power BI 보고서에 시각화 추가(자습서)
-이 문서는 보고서에서 시각화를 만드는 방법에 대해 간단히 소개합니다.  고급 내용을 보려면 [2부를 참조](power-bi-report-add-visualizations-ii.md)하세요. Amanda가 보여주는 보고서 캔버스에서 시각적 개체를 만들고, 편집하고, 서식을 지정하는 몇 가지 다양한 방법을 확인해 보세요. 그런 다음 직접 [영업 마케팅 샘플](sample-datasets.md)을 사용하여 자신만의 보고서를 만들어 보세요.
+이 문서에서는 Power BI 서비스 또는 Power BI Desktop을 사용하여 보고서에 시각화를 만드는 방법을 간단히 소개합니다.  고급 내용을 보려면 [2부를 참조](power-bi-report-add-visualizations-ii.md)하세요. Amanda가 보여주는 보고서 캔버스에서 시각적 개체를 만들고, 편집하고, 서식을 지정하는 몇 가지 다양한 방법을 확인해 보세요. 그런 다음 직접 [영업 마케팅 샘플](sample-datasets.md)을 사용하여 자신만의 보고서를 만들어 보세요.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 

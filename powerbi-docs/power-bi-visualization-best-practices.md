@@ -1,28 +1,28 @@
 ---
-title: "보고서 및 시각적 효과에 대한 디자인 모범 사례(백서)"
-description: "백서: Power BI 보고서 디자인에 대한 모범 사례"
+title: 보고서 및 시각적 효과에 대한 디자인 모범 사례(백서)
+description: '백서: Power BI 보고서 디자인에 대한 모범 사례'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 868d05891d1b2cb24dfae60b7f3bee405ff7d08f
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>보고서 및 시각적 효과에 대한 디자인 모범 사례
 <!-- Shared newnav Include -->
@@ -143,7 +143,7 @@ Power BI 온라인과 Power BI Desktop에서는 모든 시각적 개체의 서�
 **그림 6: 페이지 높이 늘리기**
 
 #### <a name="reduce-clutter"></a>혼잡함 줄이기
-혼잡한 보고서 페이지는 한 눈에 이해하기가 어렵기 때문에 이에 압도되어 독자들이 읽으려는 시도조차 하지 않을 수 있습니다.  필요하지 않은 보고서 요소는 모두 제거합니다. 이해도나 탐색에 도움이 되지 않는 개체를 멋으로 추가하지 않습니다. 보고서 페이지는 정보를 최대한 명확하고 신속하고 응집력 있게 전달해야 합니다.
+혼잡한 보고서 페이지는 한눈에 이해하기가 어렵기 때문에 이에 압도되어 독자들이 읽으려는 시도조차 하지 않을 수 있습니다.  필요하지 않은 보고서 요소는 모두 제거합니다. 이해도나 탐색에 도움이 되지 않는 개체를 멋으로 추가하지 않습니다. 보고서 페이지는 정보를 최대한 명확하고 신속하고 응집력 있게 전달해야 합니다.
 
 Edward Tufte는 *The Visual Display of Quantitative Information* 라는 그의 저서에서 이것을 “data to ink ratio(데이터 잉크 비율)”로 언급했습니다.  기본적으로 필수적이지 않은 것은 모두 제거하라는 의미입니다.
 
@@ -155,8 +155,8 @@ Edward Tufte는 *The Visual Display of Quantitative Information* 라는 그의 �
 
 **그림 7: 보기 힘든 예제 보고서가 정돈되었습니다.**
 
-### <a name="tell-a-story-at-a-glance"></a>스토리 한 눈에 알려주기
-사전 지식이 없는 사람이 아무런 설명 없이 보고서를 신속하게 이해할 수 있는지를 전반적으로 평가해야 합니다. 페이지가 무엇을 말하는지 각 차트/테이블이 무엇을 전달하지를 독자들이 한 눈에 볼 수 있어야 합니다.   
+### <a name="tell-a-story-at-a-glance"></a>스토리 한눈에 알려주기
+사전 지식이 없는 사람이 아무런 설명 없이 보고서를 신속하게 이해할 수 있는지를 전반적으로 평가해야 합니다. 페이지가 무엇을 말하는지 각 차트/테이블이 무엇을 전달하지를 독자들이 한눈에 볼 수 있어야 합니다.   
 
 독자들이 보고서를 볼 때 처음 봤으면 하는 요소로 그들의 시선을 끌어야 합니다. 그런 다음 왼쪽에서 오른쪽으로 위에서 아래로 시선이 이어지게 됩니다.  텍스트 상자 레이블, 셰이프, 테두리, 크기 및 색상과 같은 시각 신호를 추가하면 이러한 행동을 바꿀 수 있습니다.  
 
@@ -453,7 +453,7 @@ TDI 블로거이자 TechTarget 업계 분석가인 Wayne Eckerson의 비유가 �
 **그림 33: 텍스트 상자에 사용된 글꼴 서식 지정**
 
 #### <a name="sorting"></a>정렬
-보다 빠른 통찰력을 제공할 수 있는 정말 간단한 방법은 시각적 개체에 정렬을 설정하는 것입니다. 예를 들어 막대형 차트에 있는 값을 기준으로 가로 막대형 차트를 내림차순이나 오름차순으로 정렬하면 공간을 더 사용하지 않고도 의미 있는 증분 정보를 신속하게 표시할 수 있습니다.
+보다 빠른 인사이트를 제공할 수 있는 정말 간단한 방법은 시각적 개체에 정렬을 설정하는 것입니다. 예를 들어 막대형 차트에 있는 값을 기준으로 가로 막대형 차트를 내림차순이나 오름차순으로 정렬하면 공간을 더 사용하지 않고도 의미 있는 증분 정보를 신속하게 표시할 수 있습니다.
 
 차트를 정렬하려면 차트 오른쪽 위에 있는 줄임표(…)를 선택하여 **정렬**을 선택하고 원하는 정렬 기준과 방향을 선택합니다. 자세한 내용은 [시각적 개체 정렬 방식 변경](power-bi-report-change-sort.md)을 참조하세요.
 
@@ -655,7 +655,7 @@ Power BI에는 기본적으로 시각적 개체가 많이 제공됩니다.  이�
 
 가로 막대형 차트 및 세로 막대형 차트에 대한 자세한 내용:
 
-* [가로 막대형 차트 101](http://blog.newscred.com/article/data-visualization-101-bar-charts/3c53044d4add7c31e79a3f80128771f4?page=thankyou)(영문)
+* [가로 막대형 차트 101](http://blog.newscred.com/article/data-visualization-101-bar-charts)(영문)
 * [데이터 시각화 카탈로그: 가로 막대형 차트](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)(영문)
 * [데이터 시각화 카탈로그: Multiset 가로 막대형 차트](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)(영문)
 
@@ -720,7 +720,7 @@ Power BI에서는 세로 막대형 차트와 가로 막대형 차트를 콤보 �
 
 마찬가지로 세로 막대형 차트와 꺽은선형 차트에 2가지 다른 측정이 사용된 경우 이중 축을 만들지 않는다면 콤보차트는 의미가 없습니다.  예를 들어 달러 및 백분율을 축으로 만듭니다. 독자들이 차트를 이해할 수 있도록 두 축을 모두 포함해야 하고 축 레이블도 추가하는 것이 좋습니다.
 
-이렇게 하려면 서식 창을 열어서 **Y축**을 확장하고 **보조 표시**를 설정합니다(이미 설정되지 않은 경우). 이 설정을 찾기 어려운 경우에는 **Y축(세로 막대)**을 확장하고 **보조 표시**가 보일 때까지 아래쪽으로 스크롤합니다. 또한 Y축(세로 막대) **제목**을 설정하고 Y축(꺽은선형) **제목**을 설정합니다.
+이렇게 하려면 서식 창을 열어서 **Y축**을 확장하고 **보조 표시**를 설정합니다(이미 설정되지 않은 경우). 이 설정을 찾기 어려운 경우에는 **Y축(세로 막대)** 을 확장하고 **보조 표시**가 보일 때까지 아래쪽으로 스크롤합니다. 또한 Y축(세로 막대) **제목**을 설정하고 Y축(꺽은선형) **제목**을 설정합니다.
 
 ![](media/power-bi-visualization-best-practices/power-bi-show-secondary-new.png)
 
@@ -750,7 +750,7 @@ Power BI에서는 세로 막대형 차트와 가로 막대형 차트를 콤보 �
 
 **그림 62: 거품형 차트로 표현된 남미 GDP 및 인구**
 
-재생 축을 추가하면 Hans Rosling처럼 시간에 따른 스토리를 전달할 수 있습니다(https://www.youtube.com/watch?v=PbaDBJWCeD4). 재생 축을 추가하려면 Datetime 필드를 **재생 축** 안으로 충분히 끌어옵니다.
+재생 축을 추가하면 Hans Rosling처럼 시간에 따른 스토리를 전달할 수 있습니다(https://www.youtube.com/watch?v=PbaDBJWCeD4)). 재생 축을 추가하려면 Datetime 필드를 **재생 축** 안으로 충분히 끌어옵니다.
 
 #### <a name="best-practices"></a>모범 사례
 * 분산형 및 거품형 차트는 스토리를 전달하기에 매우 좋습니다. 하지만 데이터를 탐색하는 경우에는 그다지 유용하지 않습니다.  이런 점은 Stephen Few가 아래 단락에 언급한 내용입니다.*이러한 접근 방식의 강점은 스토리 전달에 사용되는 경우에 발휘됩니다. Rosling이 이야기를 하는 동안 차트에서는 계속 거품이 움직이고, 값이 변화하고, 보여주고 싶은 부분을 가리키면서 정보가 살아있는 것을 볼 수 있습니다. 하지만 애니메이션 거품형 차트 자체는 데이터를 탐색하고 그에 대한 이해를 제공하는 데는 훨씬 덜 효과적입니다. 아마도 Rosling은 새로운 스토리를 찾아내기 위해서가 아니라 이미 알려진 스토리를 말하기 위해 이런 방법을 사용한 것 같습니다. 거품이 계속해서 움직이면 한 번에 두 개 이상의 거품에 주의를 기울일 수 없기 때문에 무슨 이야기를 하는지 알아내기 위해 애니메이션을 계속 다시 실행해야 합니다. 거품이 움직인 전체 경로를 볼 수 있도록 선택한 거품에 자취를 추가할 수 있지만 여러 개의 거품에 자취가 사용되면 차트는 곧 너무 혼잡해질 것입니다. 꼭 말하고 싶은 내용은 이런 방식은 탐색 및 분석용 정보를 표시하기에는 좋은 방법이 아니라는 점입니다.*

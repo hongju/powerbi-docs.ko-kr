@@ -1,29 +1,29 @@
 ---
-title: "Bing Maps와의 통합을 포함한 지도 시각화 팁과 요령"
-description: "Power BI Map 시각화, 시각적 개체, 위치, 경도 및 위도, Bing Maps로 작동하는 방법 등에 대한 팁과 요령. "
+title: 지도(Bing 지도 통합 포함)의 팁과 힌트
+description: 'Power BI Map 시각화, 시각적 개체, 위치, 경도 및 위도, Bing Maps로 작동하는 방법 등에 대한 팁과 요령. '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: ajTPGNpthcg
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a78481376d679025fe3ac8929dff8756eb61257
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 031d977adbeb0697bcdd1bb6b19ebf21ec16e516
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 시각화를 위한 팁과 힌트
 Power BI는 Bing 지도와 통합되어 기본 지도 좌표를 제공(지오코딩이라는 프로세스)하므로 지도를 쉽게 만들 수 있습니다. 이와 함께 알고리즘을 사용하여 올바른 위치를 식별하지만, 경우에 따라 추측하기도 합니다. Power BI가 자체적으로 지도 시각화를 만들 수 없는 경우 Bing 지도의 도움말을 등록합니다. 
@@ -83,7 +83,7 @@ Power BI에서 사용하는 데이터 집합에 위도 및 경도 필드가 있�
 ![위도 및 경도](media/power-bi-map-tips-and-tricks/pbi_latitude.png) 
 
 ## <a name="use-geo-hierarchies-so-you-can-drill-down-to-different-levels-of-location"></a>서로 다른 "수준"의 위치로 드릴다운할 수 있도록 지역 계층 구조를 사용합니다.
-데이터 집합에 이미 서로 다른 수준의 위치 데이터가 있는 경우 사용자와 동료가 Power BI를 사용하여 *지역 계층*을 만들 수 있습니다. 이를 수행하려면 둘 이상의 필드를 **위치** 버킷으로 끕니다. 이러한 방식을 함께 사용하면 필드는 지역 계층이 됩니다. 아래 예제에서는 국가/지역, 주 및 시에 지역 필드를 추가했습니다. Power BI에서 사용자와 동료는 이 지역 계층 구조를 사용하여 드릴업 및 드릴다운할 수 있습니다.
+데이터 집합에 이미 서로 다른 수준의 위치 데이터가 있는 경우 사용자와 동료가 Power BI를 사용하여 ‘지역 계층’을 만들 수 있습니다. 이를 수행하려면 둘 이상의 필드를 **위치** 버킷으로 끕니다. 이러한 방식을 함께 사용하면 필드는 지역 계층이 됩니다. 아래 예제에서는 국가/지역, 주 및 시에 지역 필드를 추가했습니다. Power BI에서 사용자와 동료는 이 지역 계층 구조를 사용하여 드릴업 및 드릴다운할 수 있습니다.
 
   ![위치 필드](media/power-bi-map-tips-and-tricks/power-bi-hierarchy.png)
 

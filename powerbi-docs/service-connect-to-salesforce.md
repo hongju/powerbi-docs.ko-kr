@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 04/13/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8089c796441fd4200b146da6330dd5c208bf8b30
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62624d35f1fb477c4daf2ffcef92bb18fb8a6a8e
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI로 Salesforce에 연결
 Power BI를 사용하면 Salesforce.com 계정에 쉽게 연결할 수 있습니다. 이 연결을 만들면 데이터가 검색되고, 해당 데이터를 기반으로 하여 대시보드 및 관련 보고서가 자동으로 제공됩니다.
@@ -72,11 +72,13 @@ Power BI용 [Salesforce 콘텐츠 팩](https://app.powerbi.com/getdata/services/
 * [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
-## <a name="system-requirements"></a>시스템 요구 사항
-* API에 액세스할 수 있는 프로덕션 Salesforce 계정을 사용하여 연결되어 있어야 합니다.
-* 로그인하는 동안 Power BI 앱에 권한이 부여되어야 합니다.
-* 계정에 데이터를 끌어오고 새로 고치는 데 사용할 수 있는 충분한 API 호출이 있어야 합니다.
-* 새로 고치려면 유효한 인증 토큰이 필요합니다. Salesforce에서는 응용 프로그램당 5개 인증 토큰으로 제한되므로 5개 이하의 Salesforce 데이터 집합을 가져와야 합니다.
+## <a name="system-requirements-and-considerations"></a>시스템 요구 사항 및 고려 사항
+- API에 액세스할 수 있는 프로덕션 Salesforce 계정을 사용하여 연결되어 있어야 합니다.
+- 로그인하는 동안 Power BI 앱에 권한이 부여되어야 합니다.
+- 계정에 데이터를 끌어오고 새로 고치는 데 사용할 수 있는 충분한 API 호출이 있어야 합니다.
+- 새로 고치려면 유효한 인증 토큰이 필요합니다. Salesforce에서는 응용 프로그램당 5개 인증 토큰으로 제한되므로 5개 이하의 Salesforce 데이터 집합을 가져와야 합니다.
+- Salesforce 보고서 API에는 최대 2,000개의 데이터 행을 지원하는 제한 사항이 있습니다.
+
 
 ## <a name="troubleshooting"></a>문제 해결
 오류가 발생하는 경우 위의 요구 사항을 검토하세요. 또한 사용자 지정 또는 샌드박스 도메인에 로그인하는 기능은 현재 지원되지 않습니다.

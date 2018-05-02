@@ -1,36 +1,36 @@
 ---
-title: "자습서 - 데이터 집합에서 새 보고서 만들기 "
-description: "데이터 집합에서 새 Power BI 보고서를 만듭니다."
+title: '자습서 - 데이터 집합에서 새 보고서 만들기 '
+description: 데이터 집합에서 새 Power BI 보고서를 만듭니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e6c4a614f19a6ba7b9e24c199b7f291e7f57f098
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>데이터 집합을 가져와 새 Power BI 보고서 만들기
-지금까지 [Power BI의 보고서](service-reports.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 아주 다양한 방법으로 보고서를 만들 수 있으며 이 문서에서는 Excel 데이터 집합에서 매우 기본적인 보고서를 만드는 것으로 시작하겠습니다. 보고서를 만들기 위한 기본 사항을 이해하고 나면 맨 아래의 **다음 단계**가 더 높은 수준의 보고서 항목으로 안내합니다.  
+# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>데이터 집합을 가져와 Power BI 서비스에서 새 보고서 만들기
+지금까지 [Power BI의 보고서](service-reports.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 아주 다양한 방법으로 보고서를 만들 수 있으며 이 문서에서는 Power BI 서비스를 사용하여 Excel 데이터 집합에서 매우 기본적인 보고서를 만드는 것으로 시작하겠습니다. 보고서를 만들기 위한 기본 사항을 이해하고 나면 맨 아래의 **다음 단계**가 더 높은 수준의 보고서 항목으로 안내합니다.  
 
 > **팁**: 기존 보고서를 복사하여 보고서를 만들려면 [보고서 복사](power-bi-report-copy.md)를 참조하세요.
 > 
 ### <a name="prerequisites"></a>필수 조건
-- Power BI Desktop을 사용하여 보고서를 만들기 위한 Power BI 서비스는 [Desktop 보고서 보기](desktop-report-view.md)를 참조하세요.   
+- Power BI Desktop을 사용하여 보고서를 만들기 위한 Power BI 서비스는 [Desktop 보고서 보기](desktop-report-view.md)를 참조하세요.  
 - 소매점 분석 샘플 데이터 집합
 
 ## <a name="import-the-dataset"></a>데이터 집합 가져오기

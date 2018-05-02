@@ -1,36 +1,36 @@
 ---
-title: "미리 보기 기능용 옵트인"
-description: "미리 보기에 있는 Power BI 기능을 설정/해제하는 방법"
+title: 미리 보기 기능용 옵트인
+description: 미리 보기에 있는 Power BI 기능을 설정/해제하는 방법
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 45f10ab7fef7669adbbc836e67a4daaed267905e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 54aa25b0d5252af24bdbefef3f1d5798df2f6168
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="opt-in-for-power-bi-preview-features"></a>Power BI 미리 보기 기능용 옵트인
+# <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI 서비스 미리 보기 기능 옵트인
 ## <a name="what-are-preview-features"></a>*미리 보기 기능* 이란?
-Power BI를 개선하면서 *미리 보기 기능* 으로 몇 가지 새로운 기능을 출시할 예정입니다. 이제 미리 보기 기능을 설정하거나 해제할 수 있으므로 이를 시험해 볼 수 있습니다.
+Power BI 서비스를 개선하면서 ‘미리 보기 기능’으로 몇 가지 새로운 기능을 출시할 예정입니다. 이제 미리 보기 기능을 설정하거나 해제할 수 있으므로 이를 시험해 볼 수 있습니다.
 
 > [!TIP]
-> 질문이나 의견이 있으십니까? [Power BI 커뮤니티 포럼 방문](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)
+> 미리 보기 기능은 Power BI Desktop에도 사용할 수 있습니다. 자세한 내용은 [Power BI Desktop 커뮤니티 포럼](https://community.powerbi.com/t5/Desktop/bd-p/power-bi-designer)을 참조하세요.
 > 
 > 
 

@@ -12,16 +12,16 @@ qualityfocus: no
 qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: get-started-article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/09/2018
 ms.author: maggies
-ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -29,6 +29,17 @@ ms.lasthandoff: 03/28/2018
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](service-whats-new.md)  
+
+## <a name="april-2018"></a>2018년 4월
+
+### <a name="mobile-drill-down-and-drill-up"></a>모바일 드릴다운 및 드릴업
+
+이제 드릴다운 및 드릴업을 사용하여 보고서 모바일 장치에서 시각적 개체를 자세히 살펴볼 수 있습니다. 이 새로운 기능에 액세스하려면 보고서 시각적 개체에서 도구 설명 메뉴를 길게 눌러서 연 다음, 드릴 단추를 탭하여 데이터를 자세히 살펴봅니다.
+
+### <a name="persistent-filters"></a>영구 필터
+
+보고서 필터와 슬라이서가 최근에 업데이트되어 웹용 Power BI에서 Power BI 모바일 앱으로 자동으로 저장됩니다. 이제 모바일 앱에서 설정한 필터와 슬라이서가 웹용 Power BI에 자동으로 저장됩니다.
+
 
 ## <a name="march-2018"></a>2018년 3월
 
@@ -381,13 +392,13 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 * 보고서 슬라이서에서 둘 이상의 옵션을 선택합니다.
 
 #### <a name="android-mobile-app"></a>Android 모바일 앱
-* **SQL Server 2016 [Reporting Services 모바일 보고서](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)**가 이제 Android 장치에 제공됩니다.
+* **SQL Server 2016 [Reporting Services 모바일 보고서](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)** 가 이제 Android 장치에 제공됩니다.
 * **보고서 갤러리** 보고서 갤러리에서 직접 보고서를 엽니다.
 * **NTLM 인증**은 SQL Server 2016 Reporting Services에서 모바일 보고서를 지원합니다.
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Windows 10 장치용 Power BI 앱
 * **프레젠테이션 모드** Power BI 대시보드 및 보고서를 Power BI 앱의 프레젠테이션 모드로 표시합니다.
-* **SQL Server 2016 [Reporting Services 모바일 보고서](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)**가 이제 Windows 10 장치에 제공됩니다.
+* **SQL Server 2016 [Reporting Services 모바일 보고서](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)** 가 이제 Windows 10 장치에 제공됩니다.
 * 대시보드 타일 위에 마우스를 가져가면 **데이터 도구 설명**이 표시됩니다.
 
 ### <a name="march-2016"></a>2016년 3월
@@ -418,7 +429,7 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 
 **Bing 및 R 타일** 포커스 모드에서 Bing 및 R 타일을 엽니다.
 
-**시작 화면의 더 많은 라이브 타일** [시작 화면에서 KPI 및 행 카드를 라이브 타일로 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)하므로 중요한 메트릭을 모두 한 눈에 볼 수 있습니다.
+**시작 화면의 더 많은 라이브 타일** [시작 화면에서 KPI 및 행 카드를 라이브 타일로 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)하므로 중요한 메트릭을 모두 한눈에 볼 수 있습니다.
 
 **두 손가락을 오므리거나 펴서 확대/축소** 태블릿에서 축소/확대를 사용하여 대시보드를 더 자세히 검사합니다.
 

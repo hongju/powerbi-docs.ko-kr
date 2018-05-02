@@ -1,28 +1,28 @@
 ---
-title: "Excel에서 분석"
-description: "Excel에서 Power BI 데이터 집합을 분석하는 방법 알아보기"
+title: Excel에서 분석
+description: Excel에서 Power BI 데이터 집합을 분석하는 방법 알아보기
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 385a89d6b50507833c1e43327c405f02b2468ac2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5cd319266e91a6bc4736a123375b797331dba568
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="analyze-in-excel"></a>Excel에서 분석
 Excel을 사용하여 Power BI에 있는 데이터 집합을 살펴보고 조작하려는 경우가 있습니다. **Excel에서 분석**을 사용하면, 이것이 가능하고, Power BI에 존재하는 데이터 집합을 기반으로 Excel의 피벗 테이블, 차트, 슬라이서 기능에 액세스할 수 있습니다.
@@ -105,3 +105,5 @@ Power BI 데이터 집합이 연결된 통합 문서를 다른 통합 문서처�
 
 데이터 집합을 새로 고쳐야 하고, Excel Online에서 외부 연결에 대한 새로 고침이 지원되지 않기 때문에, 컴퓨터의 데스크톱 버전 Excel에서 통합 문서를 여는 것이 좋습니다.
 
+## <a name="troubleshooting"></a>문제 해결
+Excel에서 분석을 사용할 때 예기치 않은 결과를 얻거나 기능이 예상대로 작동하지 않는 경우가 있을 수 있습니다. [이 페이지에서는 Excel에서 분석 기능을 사용할 때 발생하는 일반적인 문제를 해결하는 방법을 안내합니다.](desktop-troubleshooting-analyze-in-excel.md)

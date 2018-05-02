@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop에서 상대 날짜 슬라이서 또는 필터 사용"
-description: "Power BI Desktop에서 슬라이서 또는 필터를 사용하여 상대 날짜 범위를 제한하는 방법을 알아봅니다."
+title: Power BI Desktop에서 상대 날짜 슬라이서 또는 필터 사용
+description: Power BI Desktop에서 슬라이서 또는 필터를 사용하여 상대 날짜 범위를 제한하는 방법을 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,19 +18,19 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0432998e44cdb1bf95a41225b73d805ec2a2379f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 668c26cb2c2f6cda669280b2541fb5ccf8a44f27
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Power BI Desktop에서 상대 날짜 슬라이서 및 필터 사용
-**상대 날짜 슬라이서** 또는 **상대 날짜 필터**를 사용하면 데이터 모델의 모든 날짜 열에 시간 기반 필터를 적용할 수 있습니다. 예를 들어 **상대 날짜 슬라이서**를 사용하여 지난 30일(또는 월, 달력 월 등) 내에 발생한 판매 데이터만 표시할 수 있습니다. 그리고 데이터를 새로 고치면 상대 기간에 적절한 상대 날짜 제약 조건이 자동으로 적용됩니다.
+**상대 날짜 슬라이서** 또는 **상대 날짜 필터**를 사용하면 데이터 모델의 모든 날짜 열에 시간 기반 필터를 적용할 수 있습니다. 예를 들어 **상대 날짜 슬라이서**를 사용하여 지난 30일(또는 월, 달력 월 등) 이내에 발생한 판매 데이터만 표시할 수 있습니다. 그리고 데이터를 새로 고치면 상대 기간에 적절한 상대 날짜 제약 조건이 자동으로 적용됩니다.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_01.png)
 
 ## <a name="using-the-relative-date-range-slicer"></a>상대 날짜 범위 슬라이서 사용
-다른 슬라이서와 마찬가지로 상대 날짜 슬라이서를 사용할 수 있습니다. 간단히 보고서에 대한 **슬라이서** 시각적 개체를 만든 다음 **필드** 값에 대란 숫자 값을 선택하기만 하면 됩니다. 다음 이미지에서는 *OrderDate* 필드가 선택되어 있습니다.
+다른 슬라이서와 마찬가지로 상대 날짜 슬라이서를 사용할 수 있습니다. 간단히 보고서에 대한 **슬라이서** 시각적 개체를 만든 다음, **필드** 값에 대해 날짜 값을 선택하면 됩니다. 다음 이미지에서는 *OrderDate* 필드가 선택되어 있습니다.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_02.png)
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 02/24/2018
 
 상대 날짜 슬라이서의 경우 *상대*를 선택합니다.
 
-그런 다음 설정을 선택할 수 있습니다. *상대 날짜 슬라이서*의 첫 번째 드롭다운에 대해 다음 선택 항목 중에서 선택할 수 있습니다.
+그런 다음, 설정을 선택할 수 있습니다. ‘상대 날짜 슬라이서’의 첫 번째 드롭다운에 대해 다음 선택 항목이 제공됩니다.
 
 * 마지막
 * 다음
@@ -50,9 +50,9 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_04.png)
 
-*상대 날짜 슬라이서*의 다음(가운데) 설정을 사용하면 숫자를 입력하여 상대 날짜 범위를 정의할 수 있습니다.
+‘상대 날짜 슬라이서’의 다음(가운데) 설정을 사용하면 숫자를 입력하여 상대 날짜 범위를 정의할 수 있습니다.
 
-세 번째 설정을 사용하면 날짜 측정을 선택할 수 있으며 다음 선택 항목 중에서 선택할 수 있습니다.
+세 번째 설정을 사용하여 날짜 측정을 선택할 수 있습니다. 다음 선택 항목이 제공됩니다.
 
 * 일
 * 주
@@ -66,9 +66,9 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_05.png)
 
-목록에서 *월*을 선택하고 가운데 설정에 2를 입력합니다. 다음과 같은 상황이 발생합니다. 오늘이 7월 20일이면 슬라이서로 제한된 시각적 개체에 포함된 데이터는 5월 20일부터 7월 20일(오늘 날짜)까지 지난 2개월 동안의 데이터를 보여 줍니다.
+목록에서 ‘월’을 선택하고 가운데 설정에서 입력 2를 선택하면 다음과 같은 상황이 발생합니다. 오늘이 7월 20일이면 슬라이서로 제한된 시각적 개체에 포함된 데이터는 5월 20일부터 7월 20일(오늘 날짜)까지 지난 2개월 동안의 데이터를 보여줍니다.
 
-이에 비해 *월(달력)*을 선택한 경우 제한된 시각적 개체에서는 5월 1일부터 6월 30일(마지막 두 개의 완전한 달력 월)까지의 데이터를 보여 줍니다.
+이에 비해 *월(달력)* 을 선택한 경우 제한된 시각적 개체에서는 5월 1일부터 6월 30일(마지막 두 개의 완전한 달력 월)까지의 데이터를 보여 줍니다.
 
 ## <a name="using-the-relative-date-range-filter"></a>상대 날짜 범위 필터 사용
 보고서 페이지 또는 전체 보고서에 대한 상대 날짜 범위 필터를 만들 수도 있습니다. 이렇게 하려면 다음 이미지와 같이 간단히 날짜 필드를 **필드** 창의 **페이지 수준 필터** 또는 **보고서 수준 필터** 영역으로 끌기만 하면 됩니다.

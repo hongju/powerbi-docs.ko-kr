@@ -1,29 +1,29 @@
 ---
-title: "자습서 - Power BI 보고서 및 대시보드의 테이블 시각화(자습서)"
-description: "Power BI 보고서와 대시보드에서 열 너비 크기를 조정하는 방법을 비롯하여 테이블 시각화를 사용하여 작업하는 방법에 대한 자습서입니다."
+title: Power BI 보고서 및 대시보드의 테이블 시각화(자습서)
+description: Power BI 보고서와 대시보드에서 열 너비 크기를 조정하는 방법을 비롯하여 테이블 시각화를 사용하여 작업하는 방법에 대한 자습서입니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fd5085912ec74312fa4a4b25060cbd4afba94
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Power BI 보고서 및 대시보드(자습서)에서 테이블 작업
 테이블은 논리적으로 연속된 행과 열에서 관련된 데이터를 포함하는 표입니다. 머리글과 합계에 대한 행이 포함될 수도 있습니다. 테이블은 단일 범주에 대한 많은 값을 볼 수 있는 정량적 비교와 잘 작동합니다. 예를 들어 이 테이블은 **범주**합에 대한 5개의 서로 다른 측정값을 표시합니다.
@@ -69,15 +69,21 @@ ms.lasthandoff: 02/24/2018
 
 * 테이블 그리드의 서식을 지정해 보세요. 여기에서는 파란색 세로 그리드를 추가하고, 행에 공간을 추가하고, 윤곽선과 텍스트 크기를 약간 늘렸습니다.
   
-    ![](media/power-bi-visualization-tables/power-bi-table-grid2-new.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
   
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * 열 머리글의 경우 배경색을 변경하고, 윤곽선을 추가하고, 글꼴 크기를 늘렸습니다. 
   
-    ![](media/power-bi-visualization-tables/power-bi-table-column.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+
   
     ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-* 몇 가지 추가 서식 지정 후 최종 테이블은 다음과 같습니다. 서식 지정 옵션은 너무 많기 때문에 서식 지정 옵션을 배우는 가장 좋은 방법은 먼저 일반 테이블을 만든 후 서식 창 ![](media/power-bi-visualization-tables/power-bi-format.png)을 열고 살펴보는 것입니다. 
+
+* 개별 열 및 열 머리글에 서식을 적용할 수도 있습니다. 먼저 **필드 서식**을 확장하고 드롭다운에서 서식을 지정할 열을 선택합니다. 열 값에 따라 필드 서식을 사용하여 표시 단위, 글꼴 색, 소수 자릿수, 배경, 맞춤 등의 항목을 설정할 수 있습니다. 설정을 조정한 후 해당 설정을 머리글 및 합계 행에 적용할지 결정합니다.
+
+    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+
+* 몇 가지 추가 서식 지정 후 최종 테이블은 다음과 같습니다. 서식 옵션은 너무 많기 때문에 서식 옵션을 배우는 가장 좋은 방법은 기본 서식으로 시작하여 [서식] 창 ![](media/power-bi-visualization-tables/power-bi-format.png)을 열고 살펴보는 것입니다. 
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 
@@ -89,7 +95,7 @@ ms.lasthandoff: 02/24/2018
 1. Power BI 서비스 또는 Desktop의 **시각화** 창에서 서식을 지정하려는 **값** 웰의 값 옆에 있는 아래쪽 화살표를 선택합니다(또는 필드를 마우스 오른쪽 단추로 클릭). 필드에 대한 조건부 서식은 **필드**의 **값** 영역에서만 관리할 수 있습니다.
    
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
-2. **배경 색 눈금**을 선택합니다. 대화 상자가 나타나면 색은 물론 *최소* 및 *최대* 값을 구성할 수 있습니다. **분기** 상자를 선택하면 선택적인 *가운데* 값도 구성할 수 있습니다.
+2. **배경 색 눈금**을 선택합니다. 대화 상자가 나타나면 색은 물론 ‘최소’ 및 ‘최대’ 값을 구성할 수 있습니다. **분기** 상자를 선택하면 선택적인 *가운데* 값도 구성할 수 있습니다.
    
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
    

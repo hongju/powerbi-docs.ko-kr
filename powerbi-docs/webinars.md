@@ -1,70 +1,77 @@
 ---
-title: "Power BI 웹 세미나"
-description: "Power BI 웹 세미나"
+title: Power BI 웨비나
+description: Power BI 웨비나
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/20/2018
 ms.author: maikelson
-ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 598266306657337e8190075b2a5e42de2b7d2144
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/23/2018
 ---
-# <a name="power-bi-webinars"></a>Power BI 웹 세미나
+# <a name="power-bi-webinars"></a>Power BI 웨비나
 
-예정된 라이브 웹 세미나에 등록하거나 녹화된 주문형 세션을 감상해 보세요.
+예정된 라이브 웨비나에 등록하거나 녹화된 주문형 세션을 감상해 보세요.
 
-## <a name="featured-webinars"></a>주요 웹 세미나
+## <a name="upcoming-webinars"></a>예정된 웨비나
 
-인기 있는 주문형 웹 세미나 시작
+등록하여 Power BI 전문가 의견을 듣고 라이브 QA 세션에 참가하기
+
+**[Power BI 채택 프레임워크 웨비나 시리즈](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+<br>작성자: Manu Kanwarpal 및 Paul Henwood
+<br>2018년 3월, 4월 및 5월 오전 9시 태평양 표준시, 오후 12시 동부 표준시
+
+조직에서 Power BI의 효과적인 출시를 계획하고 효과적인 SaaS(Software as a Service) 관리의 미묘한 차이를 살펴보세요. 이는 조직에서 Power BI의 가능성을 활용하는 5파트 시리즈입니다.
+
+[5월 1일 시청 등록: 파트 5 - 출시: 성공적인 Power BI 출시](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
+<br>[지금 등록 및 시청 - 파트 4 - 보안: Power BI로 데이터 보안 유지](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[지금 등록 및 시청 - 파트 3 - 서비스 관리: Power BI 서비스 관리 인사이트](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[지금 등록 및 시청 - 파트 2 - 거버넌스: Power BI 사용 관리](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[지금 등록 및 시청 - 파트 1 - 채택: 데이터 기반 문화권 채택](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+
+>[Power BI 커뮤니티의 예정된 웨비나 참석](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
+
+## <a name="featured-webinars"></a>주요 웨비나
+
+인기 있는 주문형 웨비나 시작
 
 **Power BI 시작하기**
 <br>작성자: Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**흥미진진한 기능 – 시각화 디자인을 위한 7가지 팁**
-<br>작성자: Miranda Li
-<br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
+**Power BI 소유자의 Power BI 힌트, 팁 및 도구**
+<br>작성자: Mike Carlo 및 Seth Bauer
+<br>[지금 보기](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **20분 안에 Power BI 대시보드에 대해 자세히 알아보기**
 <br>작성자: Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
 
+**흥미진진한 기능 – 개선된 시각화 디자인을 위한 팁**
+<br>작성자: Miranda Li
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
+
 **Better Together: Excel 사용자가 Power BI로부터 얻을 수 있는 5가지 장점**
 <br>작성자: Carlos Otero 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
->[커뮤니티 전문가들이 제공하는 Power BI 주문형 웹 세미나 라이브러리 탐색하기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+>[커뮤니티 전문가들이 제공하는 Power BI 주문형 웨비나 라이브러리 탐색하기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-## <a name="upcoming-webinars"></a>예정된 웹 세미나
-
-등록하여 Power BI 전문가 의견을 듣고 라이브 QA 세션에 참가하기
-
-**Power BI 채택 프레임워크 웹 세미나 시리즈: 1부 - 채택: 데이터 기반 문화권 채택**
-<br>작성자: Manu Kanwarpal
-<br>*3월 8일, 오전 9시 태평양 표준시, 오후 12시 동부 표준시*
-
-조직의 기반을 데이터 기반 문화권으로 바꾸고 Microsoft의 Power BI에 대한 채택 프레임워크를 제공하는 웹 세미나 시리즈에 등록합니다. 셀프 서비스 BI(비즈니스 인텔리전스)를 도입하기는 쉽지 않으며 도구를 가져오는 것은 과정의 첫 단계일 뿐입니다. 성공적으로 도입하려면 사람, 프로세스 및 기술을 변경해야 합니다.
-이 웹 세미나는 조직에서 Power BI의 가능성을 활용하는 5파트 시리즈의 첫 번째 단계입니다.
-
-[3월 8일에 시청하도록 등록](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
-
->[Power BI 커뮤니티의 예정된 웹 세미나 참석](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
-
-## <a name="on-demand-webinars"></a>주문형 웹 세미나
+## <a name="on-demand-webinars"></a>주문형 웨비나
 
 언제든 녹화된 세션 보기
 
@@ -96,27 +103,50 @@ ms.lasthandoff: 03/02/2018
 <br>작성자: Patrick McGarry 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
-### <a name="advanced-topics"></a>고급 항목 ###
+### <a name="community"></a>커뮤니티 ###
 
-**Office 365 재무 전문가 웹 세미나 시리즈 - 에피소드 2: 정기 보고서 자동화 및 셀프 서비스 분석 사용**
-<br>발표자: Mark Traverso, Miguel Martinez
-<br>[등록 및 지금 보기](https://aka.ms/Office365FinanceProsPBI)
+**데이터 및 Power BI로 스토리텔링**
+<br>작성자: Tristan Malherbe
+<br>[지금 보기](https://www.youtube.com/watch?v=egk0suekwHo)
 
-**조직을 더 안전하게 하는 성공적인 데이터 거번넌스 전략 구현 방법**
-<br>작성자: Ajay Anandan
-<br>[등록 및 지금 보기](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+**Power BI에 대한 실제 DAX**
+<br>작성자: Phil Seamark
+<br>[지금 보기](https://www.youtube.com/watch?v=1fGfqzS37qs)
+
+**Power BI 포함으로 개발 - 2018년 4월 업데이트**
+<br>작성자: Ted Pattison
+<br>[지금 보기](https://www.youtube.com/watch?v=swnGlrRy588)
 
 **Power BI 보안 심층 분석**
 <br>작성자: Kasper de Jonge
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**Power BI 프리미엄을 사용하여 최신 BI 도입 가속화**
-<br>작성자: Sirui Sun 및 Miguel Martinez
-<br>[등록 및 지금 보기](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
-
 **파트너에게 요청: Power BI에 대한 사용자 지정 시각적 개체 개발**
 <br>작성자: Ted Pattison
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
+
+### <a name="advanced-topics"></a>고급 항목 ###
+
+**Excel 및 Power BI를 사용한 고급 분석**
+<br>작성자: Nagasaikiran Kambhampati 및 Miguel Martinez
+<br>[시청 등록](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
+<br>[고급 분석 시작 키트를 다운로드하여 따라 하기](https://aka.ms/pbiaawebinar)
+
+**Office 365 재무 전문가 웨비나 시리즈 - 에피소드 2: 정기 보고서 자동화 및 셀프 서비스 분석 사용**
+<br>발표자: Mark Traverso, Miguel Martinez
+<br>[등록 및 지금 보기](https://aka.ms/Office365FinanceProsPBI)
+
+**전체 스택 Power BI 제다이 되기 – 스타워즈 데이터를 통해 Power BI의 고급 기능 연습**
+<br>작성자: Gil Raviv
+<br>[지금 보기](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
+
+**조직을 더 안전하게 하는 성공적인 데이터 거번넌스 전략 구현 방법**
+<br>작성자: Ajay Anandan
+<br>[등록 및 지금 보기](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+
+**Power BI 프리미엄을 사용하여 최신 BI 도입 가속화**
+<br>작성자: Sirui Sun 및 Miguel Martinez
+<br>[등록 및 지금 보기](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
 
 **Power BI Report Server의 새롭고 흥미로운 기능**
 <br>작성자: Riccardo Muti, Chris Finlan 및 Chinmay Joshi

@@ -1,35 +1,35 @@
 ---
-title: "자습서 - Power BI용 고객 수익성 샘플: 둘러보기"
-description: "Power BI용 고객 수익성 샘플: 둘러보기"
+title: '자습서 - Power BI용 고객 수익성 샘플: 둘러보기'
+description: 'Power BI용 고객 수익성 샘플: 둘러보기'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: amandacofsky
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 8c6d01cf1a89ea8e61506cc28344c77fe0276e47
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI용 고객 수익성 샘플: 둘러보기
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>고객 수익성 샘플 개요
-“고객 수익성 샘플” 콘텐츠 팩은 마케팅 자료를 제조하는 회사에 대한 대시보드, 보고서 및 데이터 집합을 포함합니다. 이 대시보드는 5개 비즈니스 단위 관리자(즉, 임원), 제품, 고객 및 총수익(GM)에 대한 주요 메트릭을 확인하기 위해 CFO에 의해 만들어졌습니다. 수익성에 영향을 주는 팩트를 한 눈에 볼 수 있습니다.
+“고객 수익성 샘플” 콘텐츠 팩은 마케팅 자료를 제조하는 회사에 대한 대시보드, 보고서 및 데이터 집합을 포함합니다. 이 대시보드는 5개 비즈니스 단위 관리자(즉, 임원), 제품, 고객 및 총수익(GM)에 대한 주요 메트릭을 확인하기 위해 CFO에 의해 만들어졌습니다. 수익성에 영향을 주는 팩트를 한눈에 볼 수 있습니다.
 
-![](media/sample-customer-profitability/power-bi-dash.png)
+![Power BI 대시보드](media/sample-customer-profitability/power-bi-dash.png)
 
 이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여 주는 시리즈의 일부입니다. 이 샘플은 익명화된 obviEnce([www.obvience.com](http://www.obvience.com/))의 실제 데이터입니다. 데이터는 콘텐츠 팩/앱, Excel 통합 문서 또는 .pbix Power BI Desktop 파일 등 여러 형식으로 사용할 수 있습니다. [샘플 데이터 집합](sample-datasets.md)을 참조하세요.
 
@@ -41,10 +41,10 @@ ms.lasthandoff: 03/15/2018
 1. Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.
 2. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![데이터 가져오기](media/sample-datasets/power-bi-get-data.png)
 3. 데이터 가져오기 페이지가 표시되면 **샘플** 아이콘을 선택합니다.
 
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+   ![샘플 아이콘](media/sample-datasets/power-bi-samples-icon.png)
 4. **고객 수익성 샘플**을 선택한 다음 **연결**을 선택합니다.  
 
    ![데이터 가져오기](media/sample-customer-profitability/get-supplier-sample.png)
@@ -73,7 +73,7 @@ ms.lasthandoff: 03/15/2018
 
 2. 대시보드의 왼쪽에 있는 타일을 검토합니다.
 
-    ![](media/sample-customer-profitability/power-bi-manager.png)
+    ![관리자에 대한 타일](media/sample-customer-profitability/power-bi-manager.png)
 
 - 우리 회사의 총수익은 42.5%입니다.
 - 80명의 고객이 있습니다.
@@ -86,7 +86,7 @@ ms.lasthandoff: 03/15/2018
 ### <a name="manager-specific-dashboard-tiles"></a>관리자 전용 대시보드 타일
 대시보드의 오른쪽에 있는 타일에서는 팀 성과 기록표를 제공합니다. CFO는 관리자들을 추적해야 하며, 이 타일들은 GM%를 사용하여 높은 수준의 개요를 제공합니다. GM% 추세를 어떤 관리자에게도 예상하지 않는 경우, 더 조사할 수 있습니다.
 
-![](media/sample-customer-profitability/power-bi-manager2.png)
+![관리자의 GM%](media/sample-customer-profitability/power-bi-manager2.png)
 
 - Carlos를 제외한 모든 경영진이 이미 매출 목표를 초과했습니다. 그러나 Carlos의 실제 매출이 가장 높습니다.
 - 3월 이후 Annelie의 GM%가 가장 낮지만 꾸준한 증가가 보입니다.
@@ -99,7 +99,7 @@ ms.lasthandoff: 03/15/2018
 ### <a name="open-the-excel-online-data-source"></a>Excel Online 데이터 원본 열기
 이 대시보드의 두 타일, “목표 및 실제”와 “전년동기대비 수익 성장”이 Excel 통합 문서에서 고정되었습니다. 그러므로 이 타일 중 하나를 선택하면 Power BI에서 데이터 원본(이 경우 Excel Online)을 엽니다.
 
-![](media/sample-customer-profitability/power-bi-excel-online.png)
+![Excel Online](media/sample-customer-profitability/power-bi-excel-online.png)
 
 1. Excel에서 고정된 타일 중 하나를 선택합니다. Excel Online이 Power BI 서비스 내에서 열립니다.
 2. 통합 문서에 데이터가 있는 탭이 3개 있습니다. “수익”을 엽니다.
@@ -107,11 +107,11 @@ ms.lasthandoff: 03/15/2018
     a. “경영진” 슬라이더에서 **Carlos Grilo**를 선택합니다.   
     b. 첫 번째 피벗 테이블을 보면, Carlos의 상위 제품인 Primus에 대한 수익이 작년보다 152% 감소했습니다. 그리고 전년동기대비 차트에 따르면, 대부분의 달에 예산을 초과하지 않았습니다.  
 
-    ![](media/sample-customer-profitability/power-bi-pivotchart.png)
+    ![PivotTable](media/sample-customer-profitability/power-bi-pivotchart.png)
 
-    ![](media/sample-customer-profitability/power-bi-carlos.png)
+    ![Carlos에 대한 결과](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. 계속 살펴보면서 흥미로운 항목을 찾으면 오른쪽 위 모서리에서 **고정** ![](media/sample-customer-profitability/power-bi-excel-pin.png)을 선택하여 [대시보드에 고정합니다](service-dashboard-pin-tile-from-excel.md).
+4. 계속 살펴보면서 흥미로운 항목을 찾으면 오른쪽 위에서 **고정** ![고정 아이콘](media/sample-customer-profitability/power-bi-excel-pin.png)을 선택하여 [대시보드에 고정](service-dashboard-pin-tile-from-excel.md)합니다.
 
 5. 대시보드로 돌아가려면 브라우저의 뒤로 화살표를 사용합니다.
 
@@ -122,23 +122,23 @@ ms.lasthandoff: 03/15/2018
 
 2. 보고서는 3페이지로 구성되어 있습니다. 보고서 아래의 각 탭은 페이지를 나타냅니다.
 
-    ![](media/sample-customer-profitability/power-bi-report-tabs.png)
+    ![아래쪽에 있는 3개의 탭](media/sample-customer-profitability/power-bi-report-tabs.png)
 
     * “팀 성과 기록표”는 관리자 5명의 성과와 그들의 “비즈니스 기록”에 중점을 둡니다.
     * “업계 수익 분석”은 업계 전체에서 돌아가는 상황과 비교하여 수익성을 분석하는 방법을 제공합니다.
     * “경영진 성과 기록표”는 각 관리자가 Cortana에서 볼 수 있는 형식으로 제공합니다.
 
 ### <a name="team-scorecard-page"></a>팀 성과 기록표
-![](media/sample-customer-profitability/customer2.png)
+![팀 성과 기록표 보고서 페이지](media/sample-customer-profitability/customer2.png)
 
-팀 멤버 중 두 명에 주목하여 어떤 통찰력을 얻을 수 있는지 보겠습니다. 왼쪽 슬라이서에서 Andrew의 이름을 선택하여 Andrew에 대한 데이터만 표시하도록 보고서 페이지를 필터링합니다.
+팀 멤버 중 두 명에 주목하여 어떤 인사이트를 얻을 수 있는지 보겠습니다. 왼쪽 슬라이서에서 Andrew의 이름을 선택하여 Andrew에 대한 데이터만 표시하도록 보고서 페이지를 필터링합니다.
 
 * KPI를 신속하게 보려면, Andrew의 **수익 상태**를 봅니다 - 녹색입니다. 성과가 좋습니다.
 * “월별 예산에 대한 수익 변동 %” 영역 차트는 2월의 부진을 제외하고는 Andrew가 전체적으로 꽤 잘 하고 있음을 보여줍니다. 그의 주요 영역은 동부이며, 그는 49고객과 5(7) 제품을 취급합니다. 그의 GM%는 최상도 최하도 아닙니다.
 * “월별 예산에 대한 RevenueTY 및 수익 변동 %”는 꾸준한 수익 내용을 보여줍니다. 그러나 지역 트리맵 **중앙**의 사각형을 클릭하여 필터링하면 Andrew가 3월에 인디애나에서만 수익이 있다는 것을 알게 됩니다. 의미가 있거나 더 살펴봐야 하는 내용인가요?
 
 이제 Valery를 봅시다. 슬라이서에서 Valery의 이름을 선택하여 그녀에 대한 데이터만 표시하도록 보고서 페이지를 필터링합니다.  
-![](media/sample-customer-profitability/customer3.png)
+![Vaery Ushalov에 대한 조각 경영진](media/sample-customer-profitability/customer3.png)
 
 * **RevenueTY 상태**에 대한 빨간색 KPI를 볼 수 있습니다. 분명히 더 조사해 봐야 합니다.
 * 그녀의 수익 분산 역시 걱정스러운 그림으로 채워져 있습니다. 그녀는 자신의 수익을 충족시키지 못하고 있습니다.
@@ -150,7 +150,7 @@ ms.lasthandoff: 03/15/2018
 
 ### <a name="industry-margin-analysis"></a>업계 수익 분석
 이 보고서 페이지는 데이터의 다른 조각을 제공합니다. 전체 업계의 총수익을 세그먼트 단위로 나누어 보여줍니다. CFO 는 이 페이지를 사용하여 회사 및 비즈니스 단위 메트릭을 업계 메트릭과 비교해서 추세와 수익성을 설명합니다. 왜 “월별 및 임원 이름별 총수익” 영역형 차트가 팀 전용인 이 페이지에 있는지 궁금할 것입니다. 여기에 있으면 비즈니스 단위 관리자로 페이지를 필터링할 수 있습니다.  
-![](media/sample-customer-profitability/customer6.png)
+![업계 수익 분석 보고서 페이지](media/sample-customer-profitability/customer6.png)
 
 업계별로 수익성이 어떻게 달라지는가? 제품 및 고객을 어떻게 업계 별로 나누는가? 왼쪽 위에서 하나 이상의 업계를 선택합니다. (CPG 업계에서 시작) 필터를 지우려면 지우개 아이콘을 선택합니다.
 
@@ -172,11 +172,11 @@ ms.lasthandoff: 03/15/2018
 
 2.  맨 위 메뉴 모음에서 **질문하기**를 선택하여 질문 및 답변 상자를 엽니다.
 
-    ![](media/sample-customer-profitability/power-bi-ask-question.png)
+    ![데이터에 대해 질문하기](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. **Valery에 대한 업계별 총 수익**을 입력합니다. 질문을 입력하면 시각화가 어떻게 업데이트되는지 확인합니다.
 
-    ![](media/sample-customer-profitability/power-bi-qna.png)
+    ![질문 상자에 질문 입력](media/sample-customer-profitability/power-bi-qna.png)
 
    배포는 Valery에게 있어 가장 큰 수익 영역입니다.
 
@@ -186,15 +186,15 @@ ms.lasthandoff: 03/15/2018
 1. “업계 수익 분석” 보고서 페이지를 엽니다.
 2. 보고서 페이지에서 시각화를 선택하지 않고 오른쪽 필터 창을 확장합니다(이미 확장되어 있지 않은 경우). 필터 창은 페이지 수준 필터만 표시합니다.  
 
-   ![](media/sample-customer-profitability/power-bi-filters.png)
+   ![페이지 수준 필터](media/sample-customer-profitability/power-bi-filters.png)
 3. **업계**에 대한 필터를 찾아 화살표를 선택하여 목록을 확대합니다. 유통 업계에 대한 페이지 필터를 추가해 보겠습니다. 먼저 **모두 선택** 확인란을 지워 모든 선택을 취소합니다. 그런 다음, **유통**만 선택합니다.  
 
-   ![](media/sample-customer-profitability/customer7.png)
+   ![배포를 위한 필터](media/sample-customer-profitability/customer7.png)
 4. “월별 및 임원 이름별 총수익” 영역형 차트는 Valery와 Tina만이 이 업계의 고객을 보유하고 있으며, Valery는 6월에서 9월까지만 이 업계에서 일했음을 보여줍니다.   
 5. "월별 및 임원별 총수익" 영역별 차트 범례에서 **Tina**를 선택한 후 **Valery**를 선택합니다. “제품별 총 수익”에서 Tina가 차지하는 부분은 Valery에 비해 매우 작음을 알 수 있습니다.
 6. 실제 수익을 보려면 질문 및 답변을 사용하여 **경영진의 시나리오별 배포에 대한 총 수익**을 문의합니다.  
 
-     ![](media/sample-customer-profitability/power-bi-qna2.png)
+     ![가로 막대형 차트를 보려면 질문 상자에 질문 입력](media/sample-customer-profitability/power-bi-qna2.png)
 
     다른 업계에 대해서도 비슷하게 탐색할 수 있으며, 시각적 개체에 고객을 추가하여 Valery의 활동의 원인을 이해할 수도 있습니다.
 

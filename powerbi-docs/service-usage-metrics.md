@@ -1,29 +1,29 @@
 ---
-title: "대시보드 및 보고서의 사용 메트릭"
-description: "Power BI 대시보드 및 보고서의 사용 메트릭을 보고, 저장하고, 사용하는 방법을 알아봅니다. 콘텐츠 작성자에 대한 사용 메트릭을 통한 사용자의 영향을 측정 및 확대합니다."
+title: 대시보드 및 보고서의 사용 메트릭
+description: Power BI 대시보드 및 보고서의 사용 메트릭을 보고, 저장하고, 사용하는 방법을 알아봅니다. 콘텐츠 작성자에 대한 사용 메트릭을 통한 사용자의 영향을 측정 및 확대합니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>대시보드 및 보고서의 사용 메트릭
 대시보드 및 보고서를 만드는 경우 사용량 메트릭은 해당 영향을 이해하도록 돕습니다. 대시보드 사용량 메트릭 또는 보고서 사용 메트릭을 실행하면 해당 대시보드 및 보고서가 조직 내에서 어떻게 사용되고 있는지, 무엇이 누구에 의해 어떠한 목적으로 사용되고 있는지를 파악할 수 있습니다.  
@@ -53,7 +53,7 @@ ms.lasthandoff: 03/09/2018
 
 사용 메트릭 보고서는 **최근**, **작업 영역**, **즐겨찾기** 또는 기타 내용 목록에 나타나지 않습니다. 앱에 추가할 수 없습니다. 사용 메트릭 보고서에서 타일을 대시보드에 고정하는 경우 해당 대시보드를 앱 또는 콘텐츠 팩에 추가할 수 없습니다.
 
-보고서 데이터를 자세히 살펴보거나 데이터 집합에 대한 자신만의 보고서를 작성하려면 **다른 이름으로 저장**을 사용합니다([완전한 기능의 Power BI 보고서로 사용 메트릭 저장](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report) 참조).
+보고서 데이터를 자세히 살펴보거나 데이터 집합에 대한 자신만의 보고서를 작성하려면 **다른 이름으로 저장**을 사용합니다([완전한 기능의 Power BI 보고서로 사용 메트릭 저장](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)) 참조).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>대시보드 또는 보고서에 대한 사용 메트릭 보고서 열기
 1. 대시보드 또는 보고서를 포함하는 작업 영역에서 시작합니다.

@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: d644f13f6c9b8ada62a0862fdcf92518512828f7
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop에서 SAP BW Connector 사용
-Power BI Desktop을 통해 **SAP BW(BusinessWarehouse)** 데이터에 액세스할 수 있습니다.
+Power BI Desktop을 통해 **SAP BW(Business Warehouse)** 데이터에 액세스할 수 있습니다.
+
+SAP 고객이 Power BI를 기존 SAP BW(Business Warehouse) 시스템에 연결하여 활용하는 방법에 대한 자세한 내용은 [Power BI 및 SAP BW 백서](https://aka.ms/powerbiandsapbw)를 참조하세요.
 
 ## <a name="installation-of-sap-bw-connector"></a>SAP BW Connector 설치
 **SAP BW Connector**를 사용하려면 다음 설치 단계를 진행합니다.
@@ -115,3 +117,4 @@ SAP HANA 및 DirectQuery에 대한 자세한 내용은 다음 리소스를 참�
 * [DirectQuery 및 SAP HANA](desktop-directquery-sap-hana.md)
 * [Power BI의 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
+* [Power BI 및 SAP BW 백서](https://aka.ms/powerbiandsapbw)

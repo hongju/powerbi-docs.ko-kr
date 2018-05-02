@@ -1,31 +1,31 @@
 ---
-title: "Power BI 보고서 및 대시보드 구독"
-description: "자신과 다른 사람이 Power BI 보고서 및 대시보드의 스냅숏을 구독하는 방법에 대해 알아보세요."
+title: Power BI 서비스에서 보고서 및 대시보드 구독
+description: 자신과 다른 사람이 Power BI 보고서 및 대시보드의 스냅숏을 구독하는 방법에 대해 알아보세요.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: saQx7G0pxhc
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 11e9a2ba499c6db2c75434d13c62bc53704a7cb3
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: af93d9d49b25fe2bc8fefcc2128dea74effc65ec
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Power BI 보고서 또는 대시보드 구독
+# <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>Power BI 서비스(app.powerbi.com)에서 보고서 또는 대시보드 구독
 가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서 스냅숏을 전자 메일로 받은 편지함에 보냅니다. Power BI에 전자 메일 수신 빈도(예: 하루에 한 번에서 일주일에 한 번)를 알려줍니다. 
 
 메일 및 스냅숏은 Power BI 설정에 설정된 언어를 사용합니다([Power BI에 지원되는 언어 및 국가/지역](supported-languages-countries-regions.md) 참조). 언어가 정의되지 않은 경우 Power BI는 현재 브라우저의 로캘 설정에 따른 언어를 사용합니다. 언어 기본 설정을 보거나 설정하려면 톱니바퀴 아이콘 ![기어 아이콘](media/service-report-subscribe/power-bi-settings-icon.png) **> 설정 > 일반 > 언어**를 선택합니다. 

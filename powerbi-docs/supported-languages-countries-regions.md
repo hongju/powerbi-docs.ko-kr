@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0ca6a21e67e7ab1d2a0c0daa8da07052041db139
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI에 지원되는 언어 및 국가/지역
 
@@ -111,7 +111,7 @@ Power BI는 컴퓨터의 언어 기본 설정에 따라 언어를 검색합니�
 2. **설정**을 클릭합니다.
 3. **고급 설정 표시**를 클릭합니다.
 4. 언어에서 **언어 및 입력 설정** 단추를 클릭합니다.
-5. **추가**를 클릭하고 언어를 선택한 다음 **확인**을 클릭합니다.
+5. **추가**를 클릭하고 언어를 선택한 다음, **확인**을 클릭합니다.
    
    ![Chrome 언어 목록](media/supported-languages-countries-regions/pbi_langs_enus.png)
    
@@ -153,9 +153,9 @@ Power BI Desktop을 다운로드하든 Windows 스토어에서 설치하든 특�
 
 1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**으로 이동합니다.
 2. **현재 파일**에서 **국가별 설정**을 선택합니다.
-3. **로캘** 상자에서 다른 로캘을 선택합니다. 
+3. **가져오기용 로캘** 상자에서 다른 로캘을 선택합니다. 
    
-   ![Power BI Desktop 옵션 대화 상자](media/supported-languages-countries-regions/pbi_supptdlangs_locale.png)
+   ![Power BI Desktop 옵션 대화 상자](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
 4. **확인**을 선택합니다.
 
 ### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Power BI Desktop에서 모델 언어 선택

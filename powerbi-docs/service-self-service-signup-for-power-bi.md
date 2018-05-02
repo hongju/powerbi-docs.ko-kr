@@ -1,13 +1,13 @@
 ---
-title: "Power BI에 개별 등록"
-description: "Power BI에 등록하고 개인 보고서를 시작하는 방법과 시각화 요구 사항에 대해 알아봅니다."
+title: Power BI에 개별 등록
+description: Power BI에 등록하고 개인 보고서를 시작하는 방법과 시각화 요구 사항에 대해 알아봅니다.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/02/2017
 ms.service: powerbi
@@ -16,13 +16,13 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/02/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 7f40fdfd3e9784ab05fe0f44612cea6d48d739fe
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Power BI에 개별 등록
 Power BI에 등록하고 개인 보고서를 시작하는 방법과 시각화 요구 사항에 대해 알아봅니다.
@@ -68,7 +68,7 @@ Power BI는 등록할 직장 또는 학교 전자 메일 주소가 필요합니�
 Power BI(무료) 계정에 등록하면 Power BI에 가장 빠르게 등록할 수 있습니다. 이 계정에 대한 비용은 없으며 서비스에서 다양한 기능을 사용할 수 있습니다.
 
 > [!NOTE]
-> 사용자에 대해 이미 알고 있다는 메시지가 나타나면 https://app.powerbi.com으로 이동하여 로그인해 보세요.
+> 이미 등록된 사용자라는 메시지가 표시되면 https://app.powerbi.com으로 이동하여 로그인해 보세요.
 > 
 > 
 
@@ -78,7 +78,7 @@ Power BI에 등록하려면 다음을 수행할 수 있습니다.
 2. **무료 시작** 또는 **무료로 등록**을 선택합니다.
    
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup1.png)
-3. 시작 페이지에서 Power BI 아래에 있는 **무료 시도 >**를 선택합니다.
+3. 시작 페이지에서 Power BI 아래에 있는 **무료 시도 >** 를 선택합니다.
    
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup2.png)
 4. 등록할 전자 메일 주소를 입력한 다음 **등록**을 선택합니다. 사용자 전자 메일 주소를 등록에 사용할 수 있어야 합니다. 사용할 수 있는 이메일 주소에 대한 자세한 내용은 [Power BI로 어떤 이메일 주소를 사용할 수 있습니까?](#what-email-address-can-be-used-with-power-bi)를 참조하세요.
