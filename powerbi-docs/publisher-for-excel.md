@@ -1,28 +1,28 @@
 ---
-title: "Excel용 Power BI 게시자"
-description: "Excel용 Power BI 게시자를 사용하는 방법 알아보기"
+title: Excel용 Power BI 게시자
+description: Excel용 Power BI 게시자를 사용하는 방법 알아보기
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: efd01bc6afec23d614a9f57b1150681983227350
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cb6457cbef3f1db2647faf28a487eb3f0861c458
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="power-bi-publisher-for-excel"></a>Excel용 Power BI 게시자
 Microsoft의 **Power BI publisher for Excel**을 사용하면 피벗 테이블, 차트 및 범위와 같은 Excel의 가장 중요한 정보를 스냅숏으로 나타낸 후 Power BI의 대시보드에 고정할 수 있습니다.
