@@ -1,6 +1,6 @@
 ---
 title: Power BI 모바일 앱에서 보고서 탐색
-description: '휴대폰 또는 태블릿의 Power BI 모바일 앱에서 보고서를 보고 상호 작용하는 방법에 대해 알아봅니다. Power BI 서비스 또는 Power BI Desktop에서 보고서를 만든 다음 모바일 앱에서 보고서와 상호 작용합니다. '
+description: 휴대폰 또는 태블릿의 Power BI 모바일 앱에서 보고서를 보고 상호 작용하는 방법에 대해 알아봅니다. Power BI 서비스 또는 Power BI Desktop에서 보고서를 만든 다음 모바일 앱에서 보고서와 상호 작용합니다.
 services: powerbi
 documentationcenter: ''
 author: maggiesMSFT
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a7bd77ec65fd3897c6e9af9acd2a20a229565415
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -50,7 +50,7 @@ Power BI 보고서는 가져온 위치에 따라 모바일 앱의 다른 위치�
   ![가로 모드의 휴대폰 보고서](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>휴대폰에 최적화된 보고서 보기
-Power BI 보고서 작성자는 휴대폰에서 특별히 최적화된 보고서 레이아웃을 만들 수 있습니다. 휴대폰에 최적화된 보고서 페이지를 통해 기능이 추가되었습니다. 예를 들어 포커스 모드에서 시각적 개체를 드릴다운하여 정렬하고, [보고서 작성자가 보고서 페이지에 추가한 필터](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)에 액세스할 수 있습니다. 보고서는 웹의 보고서에서 필터링되는 값으로 필터링되어 휴대폰에서 열리고, 페이지에 활성 필터가 있다는 메시지가 표시됩니다. 휴대폰에서 필터를 변경할 수 있습니다.
+Power BI 보고서 작성자는 휴대폰에서 특별히 최적화된 보고서 레이아웃을 만들 수 있습니다. 휴대폰에 최적화된 보고서 페이지를 통해 기능이 추가되었습니다. 예를 들어 시각적 개체를 드릴다운하여 정렬하고, [보고서 작성자가 보고서 페이지에 추가한 필터](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)에 액세스할 수 있습니다. 보고서는 웹의 보고서에서 필터링되는 값으로 필터링되어 휴대폰에서 열리고, 페이지에 활성 필터가 있다는 메시지가 표시됩니다. 휴대폰에서 필터를 변경할 수 있습니다.
 
 보고서의 목록에서 최적화된 보고서에는 특수 아이콘이 있습니다. ![휴대폰 보고서 아이콘](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
@@ -64,7 +64,7 @@ Power BI 보고서 작성자는 휴대폰에서 특별히 최적화된 보고서
 
 [전화 보기에 최적화된 보고서](mobile-apps-view-phone-report.md)에 대해 자세히 알아보세요.
 
-## <a name="use-slicers-to-filter-a-report-page"></a>슬라이서를 사용하여 보고서 페이지 필터링
+## <a name="use-slicers-to-filter-a-report"></a>슬라이서를 사용하여 보고서 필터링
 Power BI Desktop 또는 Power BI 서비스에서 보고서를 디자인할 때 [보고서 페이지에 슬라이서를 추가](power-bi-visualization-slicers.md)해 보세요. 사용자와 동료가 슬라이서를 사용하여 브라우저와 모바일 앱에서 페이지를 필터링할 수 있습니다. 휴대폰에서 보고서를 볼 때 휴대폰의 세로 모드에 최적화된 페이지와 가로 모드에서 슬라이서를 보고 조작할 수 있습니다. 브라우저에서 슬라이서 또는 필터의 값을 선택하면 모바일 앱에서 페이지를 볼 때도 값이 선택됩니다. 페이지에 활성 필터가 있다는 메시지가 표시됩니다.  
 
 * 보고서 페이지에서 슬라이서의 값을 선택하면 페이지에서 다른 시각적 개체를 필터링합니다.
@@ -73,7 +73,7 @@ Power BI Desktop 또는 Power BI 서비스에서 보고서를 디자인할 때 [
   
   이 그림에서 슬라이서는 세로 막대형 차트를 필터링하여 7월 값만 표시합니다.
 
-## <a name="cross-filter-and-highlight-a-power-bi-report-page"></a>Power BI 보고서 페이지 교차 필터링 및 강조
+## <a name="cross-filter-and-highlight-a-report"></a>보고서 교차 필터링 및 강조 표시
 시각적 개체에서 값을 선택하면 다른 시각적 개체를 필터링하지 않습니다. 다른 시각적 개체의 관련된 값을 강조 표시합니다.
 
 * 시각적 개체의 값을 탭합니다.
@@ -88,8 +88,8 @@ Power BI Desktop 또는 Power BI 서비스에서 보고서를 디자인할 때 [
    ![시각적 개체 정렬](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * 정렬 순서를 반대로 바꾸려면 줄임표(**...**)를 다시 탭한 다음 동일한 필드 이름을 다시 탭합니다.
 
-## <a name="drill-down-and-up-in-a-visual-on-an-ipad-or-a-tablet"></a>iPad 또는 태블릿에서 시각적 개체에 드릴다운 및 드릴업
-보고서 작성자가 시각적 개체에 이 기능을 추가하면 iPad 또는 태블릿에서 시각적 개체에 드릴다운하여 시각적 개체의 한 부분을 구성하는 값을 볼 수 있습니다. Power BI Desktop 또는 Power BI 서비스에서 [시각적 개체에 드릴다운을 추가](power-bi-visualization-drill-down.md)할 수 있습니다. 
+## <a name="drill-down-on-an-ipad-or-a-tablet"></a>iPad 또는 태블릿에서 드릴다운
+보고서 작성자가 시각적 개체에 드릴다운 기능을 추가하면 iPad 또는 태블릿에서 시각적 개체에 드릴다운하여 시각적 개체의 한 부분을 구성하는 값을 볼 수 있습니다. Power BI Desktop 또는 Power BI 서비스에서 [시각적 개체에 드릴다운을 추가](power-bi-visualization-drill-down.md)할 수 있습니다. 
 
 > [!NOTE]
 > 현재 iPad 또는 태블릿의 맵에서는 드릴다운이 작동하지 않습니다.

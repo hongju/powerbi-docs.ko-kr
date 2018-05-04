@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop을 시작할 때 발생하는 문제 해결"
-description: "Power BI Desktop을 시작할 때 발생하는 문제 해결"
+title: Power BI Desktop을 시작할 때 발생하는 문제 해결
+description: Power BI Desktop을 시작할 때 발생하는 문제 해결
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 43263afb63fa0350a240cae602f4a2acf8ef8edd
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 2014524b3209a67bd0f0aaa3d1ddf00042227c4d
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Power BI Desktop이 시작되지 않는 문제 해결
 **Power BI Desktop**에서 이전 버전의 **Power BI 온-프레미스 데이터 게이트웨이**를 설치하고 실행하는 사용자는 Power BI 온-프레미스 게이트웨이가 로컬 컴퓨터의 명명된 파이프에 배치되는 관리 정책 제한으로 인해 Power BI Desktop을 시작할 수 없게 됩니다. 
@@ -39,10 +39,12 @@ Power BI 온-프레미스 데이터 게이트웨이가 더 이상 필요하지 �
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>해결 방법 3: 관리자 권한으로 Power BI Desktop 실행
 또는 관리자 권한으로 Power BI Desktop을 시작할 수도 있습니다. 이 경우에도 Power BI Desktop이 성공적으로 시작될 수 있습니다. 이 아티클의 앞부분에 설명된 대로 최신 버전의 Power BI 온-프레미스 데이터 게이트웨이를 설치하는 것이 좋습니다.
 
+Power BI Desktop은 멀티 프로세스 아키텍처로 설계되어 있으며 이러한 여러 프로세스는 Windows 명명된 파이프를 사용하여 통신한다는 것에 유의해야 합니다. 해당 명명된 파이프를 방해하는 다른 프로세스가 있을 수 있습니다. 바이러스 백신 소프트웨어 또는 방화벽이 파이프를 차단하거나 트래픽을 특정 포트로 리디렉션하는 상황을 포함하여 이러한 방해에 대한 가장 일반적인 이유는 보안입니다. 관리자 권한으로 Power BI Desktop을 시작하면 해당 문제가 해결될 수 있습니다. 관리자 권한으로 시작할 수 없는 경우에는 관리자에게 문의하여 명명된 파이프의 적절한 통신을 방해하는 적용 중인 보안 규칙을 확인하고 Power BI Desktop 및 해당하는 각 하위 프로세스를 허용 목록에 추가하도록 요청합니다.
+
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Power BI Desktop을 시작할 경우 기타 문제에 대한 도움말
 **Power BI Desktop**에서 발생하는 문제를 최대한 처리하려고 노력하고 있습니다. 당사는 많은 고객에 영향을 줄 수 있는 문제를 정기적으로 살펴보고 문서에 포함시키고 있습니다.
 
-**Power BI Desktop** 시작 관련 문제가 온-프레미스 데이터 게이트웨이와 관련되지 않는 경우 또는 이전 솔루션이 작동하지 않는 경우 [Power BI 지원팀](https://support.powerbi.com)(https://support.powerbi.com)에 인시던트를 제출하여 문제를 식별하고 해결할 수 있습니다.
+**Power BI Desktop** 시작 관련 문제가 온-프레미스 데이터 게이트웨이와 관련되지 않는 경우 또는 이전 솔루션이 작동하지 않는 경우 [Power BI 지원팀](https://support.powerbi.com)(https://support.powerbi.com))에 인시던트를 제출하여 문제를 식별하고 해결할 수 있습니다.
 
 나중에 **Power BI Desktop**에서 다른 문제가 (없거나 극히 적기를 바랍니다만) 발생할 경우 추적을 설정하고 로그 파일을 수집하여 문제를 분리하고 식별하는 것이 좋습니다. 추적을 설정하려면 **파일 > 옵션 및 설정 > 옵션**을 선택한 후 **진단**을 선택하고 *진단 옵션* 아래에서 **추적 사용** 확인란을 선택합니다. 이 옵션을 설정하려면 **Power BI Desktop**을 실행 중이어야 합니다. 그러면 **Power BI Desktop** 시작과 관련된 이후 문제에서 유용합니다.
 

@@ -1,27 +1,27 @@
 ---
-title: "Power BI Embedded에 대한 질문과 대답"
-description: "Power BI Embedded에 대한 질문과 대답 목록을 찾아보세요."
+title: Power BI Embedded에 대한 질문과 대답
+description: Power BI Embedded에 대한 질문과 대답 목록을 찾아보세요.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/07/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -60,10 +60,6 @@ ISV(일반적으로 대규모)가 P SKU를 사용하여 조직 내에서 사전 
 
 PRO 라이선스가 있는 포함 토큰은 개발 및 개발 테스트용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 환경에 포함하려면 [용량을 구입해야](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) 합니다. 용량을 구입할 때 생성할 수 있는 포함 토큰 수에는 제한이 없습니다.
 
-### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>언제부터 Azure에서 Power BI Embedded를 사용할 수 있나요?
-
-현재 Power BI Embedded를 사용할 수 있습니다.
-
 ## <a name="technical"></a>기술
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure의 A SKU와 Office 365의 EM SKU는 어떤 차이가 있나요?
@@ -74,7 +70,7 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 
 다음은 기능상 차이점의 일부 목록입니다.
 
-|특정  |Power BI Embedded<br>(A SKU) |Power BI Premium 용량<br>(EM SKU)  |
+|특정  |Power BI Embedded<br>(A SKU) |Power BI Premium 용량<br>(EM SKU)  | 
 |---------|---------|---------|
 |Power BI 앱 작업 영역의 포함된 아티팩트     |Azure 용량 |Office 365 용량 |
 |보고서를 사용하려면 Power BI 라이선스 필요 |아니요  |예 |
@@ -138,14 +134,6 @@ PowerBI.com을 사용하여 Power BI Embedded 용량에 작업 영역을 할당/
 
 Power BI Embedded는 Azure를 통해 제공됩니다.
 
-### <a name="how-power-bi-embedded-be-metered"></a>Power BI Embedded는 요금제가 어떻게 되나요?
-
-Power BI Embedded는 시간당 요금으로 계산됩니다.
-
-### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>청구서에 Power BI Embedded 사용량이 어떻게 표시되나요?
-
-Power BI Embedded는 배포된 노드 유형을 기반으로 예측 가능한 시간당 요금이 청구됩니다. 리소스가 활성화되어 있는 한 사용하지 않는 경우에도 비용이 청구됩니다. 비용 청구를 중지하려면 리소스를 일시 중지해야 합니다. Azure 또는 ARM API를 통해 일시 중지할 수 있습니다.
-
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>이미 Power BI Premium을 구입했는데 Azure에서 Power BI Embedded의 일부 이점을 사용하고 싶으면 어떻게 하나요?
 
 고객은 계약 기간이 종료될 때까지는 기존에 구매한 Power BI Premium 요금을 계속 지불해야 하며, 기간이 종료되면 해당 시점의 상황을 보고 Power BI Premium을 전환하면 됩니다.
@@ -153,6 +141,14 @@ Power BI Embedded는 배포된 노드 유형을 기반으로 예측 가능한 �
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>Power BI Embedded에 액세스하려면 Power BI Premium을 구매해야 하나요?
 
 아니요, Power BI Embedded는 고객에게 솔루션을 배포해야 하는 Azure 기반 용량을 포함하고 있습니다.
+
+### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Power BI Embedded의 구매 약정은 어떻게 되나요? 
+
+고객은 시간 단위로 사용량을 변경할 수 있습니다. Power BI Embedded 서비스는 월별 또는 연간 약정이 없습니다.
+
+### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>청구서에 Power BI Embedded 사용량이 어떻게 표시되나요?
+
+Power BI Embedded는 배포된 노드 유형을 기반으로 예측 가능한 시간당 요금이 청구됩니다. 리소스가 활성화되어 있는 한 사용하지 않는 경우에도 비용이 청구됩니다. 비용 청구를 중지하려면 리소스를 일시 중지해야 합니다.
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Power BI Embedded에 Power BI Pro 라이선스가 필요한 사람은 누구이고 그 이유는 무엇인가요?
 
@@ -168,16 +164,21 @@ Power BI Embedded는 Power BI 포털을 사용하여 포함된 콘텐츠를 관�
 
 Power BI Embedded는 Azure의 일부이기 때문에 [Azure에 등록할 때 받은 $200 크레딧](https://azure.microsoft.com/free/)으로 서비스를 사용할 수 있습니다.
 
-### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Power BI Embedded의 구매 약정은 어떻게 되나요? 
+### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Power BI 마스터 계정이 생성할 수 있는 포함 토큰 수에 제한이 있나요? 
 
-고객은 시간 단위로 사용량을 변경할 수 있습니다. Power BI Embedded 서비스는 월별 또는 연간 약정이 없습니다.
+예. 이러한 포함 토큰은 개발 테스트용으로만 사용되므로 제한됩니다. 프로덕션 포함 시나리오의 경우 [용량을 구매해야](#technical) 합니다. 용량을 구입할 때 토큰 생성은 제한 없이 포함시킬 수 있습니다. [사용 가능한 기능 가져오기](https://msdn.microsoft.com/en-us/library/mt846473.aspx)로 이동하여 사용된 무료 포함 토큰 수를 확인합니다.
 
-### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Power BI Embedded는 어디서 제공하나요? 미국 정부? 독일? 중국? 언제부터 제공되나요?
+### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>소버린 클라우드(미국 정부, 독일, 중국)에 Power BI Embedded를 사용할 수 있나요?
 
-Power BI Embedded는 Azure 상업용 클라우드 및 미국 정부 클라우드에서 제공됩니다.  향후 독일과 중국의 소버린 클라우드 가용성이 추가될 예정입니다.
+Power BI Embedded는 일부 [소버린 클라우드](embed-sample-for-customers-sovereign-clouds.md)에 사용할 수 있습니다. 아직 중국 클라우드에는 사용할 수 **없습니다**.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>교육 기관 및 비영리 단체도 Power BI Embedded를 사용할 수 있나요?
 
 교육 기관 및 비영리 단체는 Azure를 구매할 수 있습니다. Azure에는 이러한 고객을 위한 특별 가격이 없습니다.
 
+자세한 내용은 [포함된 응용 프로그램 문제 해결](embedded-troubleshoot.md)을 참조하세요.
+
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+
+
+

@@ -1,39 +1,32 @@
 ---
-title: "OOS(Office Online Server)를 사용하여 Excel 통합 문서를 호스트하도록 보고서 서버 구성"
-description: "웹 포털에서 Power BI 보고서를 보는 것 외에도 비즈니스 사용자는 이제 Power BI Report Server에서 Excel 통합 문서와 동일한 작업을 수행할 수 있습니다."
+title: OOS(Office Online Server)를 사용하여 Excel 통합 문서 호스트 - Power BI Report Server
+description: 웹 포털에서 Power BI 보고서를 보는 것 외에도 Power BI Report Server에서는 OOS(Office Online Server)를 사용하여 Excel 통합 문서를 호스트할 수 있습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>OOS(Office Online Server)를 사용하여 Excel 통합 문서를 호스트하도록 보고서 서버 구성
-웹 포털에서 Power BI 보고서를 보는 것 외에도 비즈니스 사용자는 이제 게시를 위한 단일 위치를 알려주는 Power BI Report Server의 Excel 통합 문서로 동일한 작업을 수행하고, 셀프 서비스 Microsoft BI 콘텐츠를 볼 수 있습니다.
+웹 포털에서 Power BI 보고서를 보는 것 외에도 Power BI Report Server에서는 OOS([Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview))를 사용하여 Excel 통합 문서를 호스트할 수 있습니다. 보고서 서버가 셀프 서비스 Microsoft BI 콘텐츠를 게시하고 볼 수 있는 단일 위치가 됩니다.
 
-> [!NOTE]
-> 이는 2017 8월 미리 보기 릴리스에 포함된 미리 보기 기능입니다. 자세한 내용은 [Power BI Report Server의 새로운 기능](whats-new.md)을 참조하세요.
-> 
-> 
-
-![보고서 서버 웹 포털에서 보여지는 Excel 보고서.](media/excel-oos/excel-in-pbirs.png)
-
-이는 OOS([Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx))를 사용하여 수행됩니다.
+![보고서 서버 웹 포털에서 보이는 Excel 보고서](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>Office Online Server를 실행하기 위한 서버 준비
 Office Online 서버를 실행하게 되는 서버에서 이러한 절차를 수행합니다. 이 서버는 Windows Server 2012 R2 또는 Windows Server 2016이어야 합니다. Windows Server 2016은 Office Online Server 2017년 4월 이상이 필요합니다.

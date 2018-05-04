@@ -1,28 +1,28 @@
 ---
-title: "Oracle 데이터베이스에 연결"
-description: "Oracle을 Power BI Desktop에 연결하는 데 필요한 단계 및 다운로드"
+title: Oracle 데이터베이스에 연결
+description: Oracle을 Power BI Desktop에 연결하는 데 필요한 단계 및 다운로드
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 4/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: e898fb3f7024b4041616770d6fe1d8e8469878dd
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle 데이터베이스에 연결
 **Power BI Desktop**을 사용하여 Oracle 데이터베이스에 연결하기 위해 Power BI Desktop을 실행하는 컴퓨터에 올바른 Oracle 클라이언트 소프트웨어를 설치해야 합니다. 사용하는 Oracle 클라이언트 소프트웨어는 설치한 Power BI Desktop의 버전(**32비트** 버전 또는 **64비트** 버전)에 따라 달라집니다.
@@ -49,7 +49,7 @@ ms.lasthandoff: 03/12/2018
 1. 데이터 가져오기 창에서 **데이터베이스 > Oracle 데이터베이스**를 선택합니다.
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. 나타나는 **Oracle 데이터베이스** 대화 상자에서 서버 이름을 제공하고 **연결**을 선택합니다. SID가 필요한 경우 형식 *ServerName/SID*를 사용하여 지정할 수 있습니다.
+2. 나타나는 **Oracle 데이터베이스** 대화 상자에서 서버 이름을 제공하고 **연결**을 선택합니다. SID가 필요한 경우 *ServerName/SID* 형식으로 지정할 수 있습니다. 여기서 SID는 데이터베이스의 고유 이름입니다. *ServerName/SID* 형식이 작동하지 않으면 *ServerName/ServiceName*을 사용해 보세요. 여기서 ServiceName은 연결할 때 사용되는 별칭입니다.
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 3. 네이티브 데이터베이스 쿼리를 사용하여 데이터를 가져오려는 경우 **Oracle 데이터베이스** 대화 상자의 **고급 옵션** 섹션을 확장하여 사용할 수 있는 **SQL 문** 상자에서 쿼리를 넣을 수 있습니다.

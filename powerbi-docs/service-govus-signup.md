@@ -1,28 +1,28 @@
 ---
-title: "미국 정부 기관 고객용 Power BI 등록"
-description: "미국의 경우 정부 기관 고객을 대상으로 하는 Power BI 미국 정부 기관 서비스에 미국 정부 기관을 등록하는 방법에 대해 알아봅니다."
+title: 미국 정부 기관 고객용 Power BI 등록
+description: 미국의 경우 정부 기관 고객을 대상으로 하는 Power BI 미국 정부 기관 서비스에 미국 정부 기관을 등록하는 방법에 대해 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/27/2017
+ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI 서비스에 미국 정부 기관 등록
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -73,7 +73,7 @@ Power BI 미국 정부에 로그인한 후에 영업 또는 지원 담당자가 
 6. 사용자를 계정에 할당합니다.
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. [https://app.powerbigov.us](https://app.powerbigov.us)에서 미국 정부 기관 고객용 **Power BI 서비스**에 로그인합니다.
+7. [https://app.powerbigov.us](https://app.powerbigov.us)에서 미국 정부 기관 고객용 **Power BI 서비스**에 로그인
 
 ## <a name="additional-signup-information"></a>추가 등록 정보
 다음은 다양한 라이선스 마이그레이션 사례에서 **Power BI 미국 정부 기관**에 등록하는 것에 대한 자세한 내용입니다.
@@ -82,7 +82,7 @@ Power BI 미국 정부에 로그인한 후에 영업 또는 지원 담당자가 
 * Billing > Purchase Service > Power BI Pro Gov를 클릭하여 적용하고 평가판이 아닌 구매를 선택합니다.
 * 필수 항목을 입력하고 라이선스를 얻습니다.
 * Power BI Pro 평가판을 제거하거나 이전 라이선스를 제거하고 사용자에게 새로 할당합니다.
-* [https://app.powerbigov.us](https://app.powerbigov.us)에 로그인 
+* [https://app.powerbigov.us](https://app.powerbigov.us)에 로그인
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>대리점 Power BI 평가판에서 Pro 고객으로 온보딩
 **Billing > Subscriptions**으로 이동하고 **Power BI Pro for Government** 구독을 선택합니다. 다음이 표시됩니다.
@@ -97,12 +97,7 @@ Power BI 미국 정부에 로그인한 후에 영업 또는 지원 담당자가 
 ### <a name="whitelisting-instructions"></a>허용 목록 작성 지침
 *허용 목록 작성*은 Power BI 엔지니어링 팀에서 고객을 상용 클라우드 환경에서 안전한 정부 클라우드 환경으로 이동시키는 데 사용하는 프로세스입니다. 이렇게 하면 미국 정부 클라우드에서 사용할 수 있는 기능이 예상대로 작동하게 됩니다. 미국 정부 **Power BI** 서비스를 처음으로 구입하는 모든 기존(또는 새) 미국 정부 고객은 다음 허용 목록 프로세스를 시작*해야* 합니다. 프로세스는 미국 정부 **Power BI** 서비스를 설치하거나 마이그레이션하기 전에 수행되어야 합니다. 
 
-미국 정부 클라우드에 테넌트를 *허용 목록에 추가*하려면 다음 링크에서 요청을 수행하는 지원 티켓을 입력합니다. 관리자만 요청을 수행할 수 있습니다.
-
-* [온라인 지원 요청 *허용 목록에 추가*](https://powerbi.microsoft.com/clouds/)
-* *허용 목록에 추가*할 도메인과 프로세스 중에 함께 작업할 Microsoft 담당자의 전자 메일을 포함해야 합니다.
-
-*허용 목록에 추가*하는 프로세스는 약 3주 정도 소요되며 이 기간 중에 Power BI 엔지니어링 팀에서 테넌트가 미국 정부 클라우드에서 올바르게 작동하도록 적합한 변경을 수행하게 됩니다.
+미국 정부 클라우드에 대한 ‘허용 목록에 테넌트를 추가’하려면 Microsoft 계정 팀에 문의하여 허용 목록 추가를 요청합니다. 관리자만 이 요청을 수행할 수 있습니다. *허용 목록에 추가*하는 프로세스는 약 3주 정도 소요되며 이 기간 중에 Power BI 엔지니어링 팀에서 테넌트가 미국 정부 클라우드에서 올바르게 작동하도록 적합한 변경을 수행하게 됩니다.
 
 Power BI **무료** 라이선스에서 **Power BI 미국 정부**로 마이그레이션하는 고객(및 이 문서의 앞 부분에서 설명한 대로 정의에 따라 관련 **Pro** 라이선스 기능으로 마이그레이션)은 Power BI의 엔지니어링 팀에서 해당 테넌트를 *허용 목록에 추가*할 때까지 이 문서의 다음 섹션에서 설명한 문제가 발생하게 됩니다.
 
