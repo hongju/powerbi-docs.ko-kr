@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/20/2018
+ms.date: 04/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 598266306657337e8190075b2a5e42de2b7d2144
-ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
+ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI 웨비나
 
@@ -42,6 +42,14 @@ ms.lasthandoff: 04/23/2018
 <br>[지금 등록 및 시청 - 파트 3 - 서비스 관리: Power BI 서비스 관리 인사이트](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
 <br>[지금 등록 및 시청 - 파트 2 - 거버넌스: Power BI 사용 관리](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
 <br>[지금 등록 및 시청 - 파트 1 - 채택: 데이터 기반 문화권 채택](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+
+**20분 이내에 Power BI Embedded에 대해 자세히 알아보기**
+<br>작성자: Megan Asarrane 및 Colin Murphy
+<br>2018년 5월 23일, 오전 10시 태평양 표준시, 오후 1시 동부 표준시
+
+이 웨비나는 Power BI Embedded를 소개하기 위해 제공됩니다. 이 웨비나를 마친 사용자는 Power BI Embedded의 개념, 제품을 시작하기 위한 다음 단계 및 도움말/리소스가 있는 위치를 이해할 수 있습니다.
+
+[5월 23일에 시청하도록 등록](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
 
 >[Power BI 커뮤니티의 예정된 웨비나 참석](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -132,8 +140,9 @@ ms.lasthandoff: 04/23/2018
 <br>[시청 등록](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[고급 분석 시작 키트를 다운로드하여 따라 하기](https://aka.ms/pbiaawebinar)
 
-**Office 365 재무 전문가 웨비나 시리즈 - 에피소드 2: 정기 보고서 자동화 및 셀프 서비스 분석 사용**
-<br>발표자: Mark Traverso, Miguel Martinez
+**Office 365 재무 전문가 웨비나 시리즈**
+<br>작성자: Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky 및 Miguel Martinez
+<br>Office 365를 사용하여 일상적인 업무를 더욱 효율적으로 수행할 수 있는 팁, 요령 및 모범 사례를 알아봅니다.
 <br>[등록 및 지금 보기](https://aka.ms/Office365FinanceProsPBI)
 
 **전체 스택 Power BI 제다이 되기 – 스타워즈 데이터를 통해 Power BI의 고급 기능 연습**
