@@ -1,28 +1,28 @@
 ---
-title: "미국 정부 기관 고객용 Power BI - 개요"
-description: "미국 정부 기관 고객을 대상으로 하는 Power BI 미국 정부 기관 서비스의 기능 및 제한 사항에 대해 알아봅니다."
+title: 미국 정부 기관 고객용 Power BI - 개요
+description: 미국 정부 기관 고객을 대상으로 하는 Power BI 미국 정부 기관 서비스의 기능 및 제한 사항에 대해 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b3682deb1897647a7de6f32dc87a4d7ed8bc2c9f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fc917b3a6754c0e9badc11b0d331ae1328bf089c
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -61,6 +61,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 ## <a name="limitations-of-power-bi-us-government"></a>Power BI 미국 정부 기관의 제한 사항
 **Power BI 서비스** 상용 버전에서 사용할 수 있는 기능 중 일부는 미국 정부 기관 고객용 **Power BI 서비스**에서 사용할 수 *없습니다*. 미국 정부 기관 고객이 이러한 기능을 사용할 수 있도록 Power BI 팀에서 적극적으로 노력하고 있으며, 이러한 기능을 사용할 수 있게 되면 이 문서를 업데이트할 것입니다.
 
+* **SharePoint Online에 포함** - Power BI 웹 파트를 사용하여 SharePoint Online에 콘텐츠를 포함할 수 없습니다.
 * **Power BI 미국 정부**는 **Pro** 라이선스로만 제공됩니다. 관리자 포털(또는 사용자)에서 실행되는 Power BI (무료) 라이선스에 대한 참조는 상용 Power BI 서비스 클라우드에서 실행됩니다.
 * **감사** - Office 365 보안 및 규정 준수 포털을 통해 감사를 사용할 수 없습니다.
 * **Cortana의 Power BI 콘텐츠** - Power BI 결과는 Cortana 검색 결과에 표시되지 않습니다. Cortana 검색 결과에는 Power BI 콘텐츠(대시보드, 보고서, 앱)에 대한 결과와 특정 키워드에 대한 Cortana 최적화 보고서 페이지를 보여주는 결과가 포함됩니다.

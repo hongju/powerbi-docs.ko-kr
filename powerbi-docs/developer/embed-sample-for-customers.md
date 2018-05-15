@@ -1,15 +1,15 @@
 ---
-title: "고객의 응용 프로그램에 Power BI 콘텐츠 포함"
-description: "고객의 Power BI API를 사용하여 웹앱에 대시보드, 타일 또는 보고서를 통합하거나 포함하는 방법을 알아봅니다."
+title: 고객의 응용 프로그램에 Power BI 콘텐츠 포함
+description: 고객의 Power BI API를 사용하여 웹앱에 대시보드, 타일 또는 보고서를 통합하거나 포함하는 방법을 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>응용 프로그램에 Power BI 대시보드, 타일 또는 보고서 포함
 고객에 대한 콘텐츠를 포함하는 경우 Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 대시보드, 타일 또는 보고서를 웹앱에 통합하거나 포함하는 방법에 대해 알아봅니다. 일반적으로 ISV 시나리오입니다.
@@ -126,7 +126,7 @@ Report report = reports.Value.FirstOrDefault();
 JavaScript API에서 사용할 수 있는 embed 토큰이 생성되어야 합니다. embed 토큰은 포함한 항목에 한정됩니다. 즉, Power BI 콘텐츠의 구성 요소를 포함하는 경우 이에 대한 새 embed 토큰을 만들어야 합니다. 어떤 **accessLevel**을 사용할지를 포함한 자세한 내용은 사용 하려면 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)를 참조하세요.
 
 > [!IMPORTANT]
-> 포함 토큰은 개발 테스트 전용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 포함 시나리오를 위해 [용량을 구입해야](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) 합니다. 용량을 구입할 때 토큰 생성은 제한 없이 포함시킬 수 있습니다.
+> 포함 토큰은 개발 테스트 전용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 포함 시나리오를 위해 [용량을 구입해야](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) 합니다. 용량을 구입할 때 토큰 생성은 제한 없이 포함시킬 수 있습니다. [사용 가능한 기능 가져오기](https://msdn.microsoft.com/en-us/library/mt846473.aspx)로 이동하여 사용된 무료 포함 토큰 수를 확인합니다.
 
 이 샘플은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)의 **Controllers\HomeController.cs** 내에서 찾을 수 있습니다.
 

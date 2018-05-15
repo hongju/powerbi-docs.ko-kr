@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 4/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b5da2bf43f2d38e0828571e2b9d404feb615ac69
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop에서 드릴스루 사용
 **Power BI Desktop**의 **드릴스루**를 사용하여 보고서에서 공급업체, 고객 또는 제조업체와 같은 특정 엔터티에 초점을 맞춘 페이지를 만들 수 있습니다. 사용자가 이 보고서 페이지를 사용하여 다른 보고서 페이지의 데이터 요소를 마우스 오른쪽 단추로 클릭하고 해당 보고서 페이지로 드릴스루하여 해당 컨텍스트로 필터링된 세부 정보를 확인할 수 있습니다.
@@ -45,8 +45,8 @@ ms.lasthandoff: 04/16/2018
 ## <a name="use-your-own-image-for-a-back-button"></a>뒤로 단추에 고유한 이미지 사용    
  뒤로 단추가 이미지이므로 해당 시각적 개체의 이미지를 원하는 이미지로 바꿀 수 있고, 이 이미지가 뒤로 단추로 작동하므로 보고서 소비자가 원래 페이지로 돌아올 수 있습니다.
 
-1. 뒤로 단추에 고유한 이미지를 사용하려면 드릴스루 페이지에서 이미지 시각적 개체를 배치합니다.
-2. 시각적 개체를 선택하고 **뒤로 단추** 슬라이더를 켜기로 설정합니다. 이제 이미지가 뒤로 단추로 작동합니다.
+1. **홈** 탭에서 **이미지**를 클릭한 다음, 이미지를 찾아 드릴스루 페이지에 배치합니다.
+2. 드릴스루 페이지에서 새 이미지를 선택하고, 이미지 서식 섹션에서 **링크** 슬라이더를 켜기로 설정하고, **유형**을 **뒤로**로 설정합니다. 이제 이미지가 뒤로 단추로 작동합니다.
 
     ![](media/desktop-drillthrough/drillthrough_05.png)
 

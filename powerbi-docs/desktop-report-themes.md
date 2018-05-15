@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 8f4f8c257404eaca97f419603bac386da5bf7446
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop에서 보고서 테마 사용(미리 보기)
 **보고서 테마**를 사용하여 전체 보고서에 회사 색, 계절 색 지정 등의 색 테마를 적용하거나 적용하려는 모든 기타 색 테마를 적용할 수 있습니다. **보고서 테마**를 적용하는 경우 보고서의 모든 시각적 개체에서는 선택한 테마 색을 사용합니다(몇 가지 예외 적용, 이 문서의 뒷부분에서 설명).

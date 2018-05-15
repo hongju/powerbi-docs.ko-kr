@@ -1,6 +1,6 @@
 ---
 title: Power BI Report Server에서 Power BI 보고서 데이터 원본
-description: Power BI 보고서는 다른 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다.
+description: Power BI 보고서(.pbix)는 여러 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다.
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,23 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/02/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 데이터 원본
-Power BI 보고서는 다른 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다. DirectQuery 또는 SQL Server Analysis Services에 대한 라이브 연결을 사용하여 데이터를 가져오거나 데이터를 직접 쿼리할 수 있습니다.
+# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Power BI Report Server의 Power BI 보고서(.pbix) 데이터 원본
+Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다. DirectQuery 또는 SQL Server Analysis Services에 대한 라이브 연결을 사용하여 데이터를 가져오거나 데이터를 직접 쿼리할 수 있습니다.
 
-이러한 데이터 원본은 Power BI Report Server 내에서 사용되는 Power BI 보고서에 적용됩니다. 페이지가 매겨진 보고서로 지원되는 데이터 원본에 대한 자세한 내용은 [Reporting Services에서 지원되는 데이터 원본](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)을 참조하세요.
+이러한 데이터 원본은 Power BI Report Server 내에서 사용되는 Power BI 보고서에 적용됩니다. 페이지가 매겨진 보고서(.rdl)로 지원되는 데이터 원본에 대한 자세한 내용은 [Reporting Services에서 지원되는 데이터 원본](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)을 참조하세요.
 
 > [!IMPORTANT]
-> Power BI Desktop 보고서의 모든 데이터 원본은 예약된 새로 고침을 구성하도록 지원되어야 합니다.
-> 
-> 
+> Power BI Desktop 보고서의 모든 데이터 원본은 예약된 새로 고침 구성을 지원해야 합니다.
+>  
 
 ## <a name="list-of-supported-data-sources"></a>지원되는 데이터 원본 목
 
@@ -216,7 +215,7 @@ Power BI Report Server는 DirectQuery를 위한 OAuth 기반 인증을 지원하
 
 
 ## <a name="next-steps"></a>다음 단계
-이제 데이터 원본을 선택했으므로 해당 데이터 원본의 데이터를 사용하는 [보고서를 만듭니다](quickstart-create-powerbi-report.md).
+데이터 원본에 연결했으므로 데이터 원본의 데이터를 사용하여 [Power BI 보고서를 만듭니다](quickstart-create-powerbi-report.md).
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

@@ -1,5 +1,5 @@
 ---
-title: '자습서 - Power BI용 고객 수익성 샘플: 둘러보기'
+title: 'Power BI용 고객 수익성 샘플: 둘러보기'
 description: 'Power BI용 고객 수익성 샘플: 둘러보기'
 services: powerbi
 documentationcenter: ''
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8c6d01cf1a89ea8e61506cc28344c77fe0276e47
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 63cb0e8c3072c7e748e1829a46c01340b9ceea61
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI용 고객 수익성 샘플: 둘러보기
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>고객 수익성 샘플 개요
-“고객 수익성 샘플” 콘텐츠 팩은 마케팅 자료를 제조하는 회사에 대한 대시보드, 보고서 및 데이터 집합을 포함합니다. 이 대시보드는 5개 비즈니스 단위 관리자(즉, 임원), 제품, 고객 및 총수익(GM)에 대한 주요 메트릭을 확인하기 위해 CFO에 의해 만들어졌습니다. 수익성에 영향을 주는 팩트를 한눈에 볼 수 있습니다.
+“고객 수익성 샘플” 콘텐츠 팩은 마케팅 자료를 제조하는 회사에 대한 대시보드, 보고서 및 데이터 집합을 포함합니다. 이 대시보드는 5개 비즈니스 단위 관리자(즉, 임원), 제품, 고객 및 총수익(GM)에 대한 주요 메트릭을 확인하기 위해 CFO에 의해 만들어졌습니다. 수익성에 영향을 주는 팩트를 한 눈에 볼 수 있습니다.
 
 ![Power BI 대시보드](media/sample-customer-profitability/power-bi-dash.png)
 
@@ -131,7 +131,7 @@ ms.lasthandoff: 04/18/2018
 ### <a name="team-scorecard-page"></a>팀 성과 기록표
 ![팀 성과 기록표 보고서 페이지](media/sample-customer-profitability/customer2.png)
 
-팀 멤버 중 두 명에 주목하여 어떤 인사이트를 얻을 수 있는지 보겠습니다. 왼쪽 슬라이서에서 Andrew의 이름을 선택하여 Andrew에 대한 데이터만 표시하도록 보고서 페이지를 필터링합니다.
+팀 멤버 중 두 명에 주목하여 어떤 통찰력을 얻을 수 있는지 보겠습니다. 왼쪽 슬라이서에서 Andrew의 이름을 선택하여 Andrew에 대한 데이터만 표시하도록 보고서 페이지를 필터링합니다.
 
 * KPI를 신속하게 보려면, Andrew의 **수익 상태**를 봅니다 - 녹색입니다. 성과가 좋습니다.
 * “월별 예산에 대한 수익 변동 %” 영역 차트는 2월의 부진을 제외하고는 Andrew가 전체적으로 꽤 잘 하고 있음을 보여줍니다. 그의 주요 영역은 동부이며, 그는 49고객과 5(7) 제품을 취급합니다. 그의 GM%는 최상도 최하도 아닙니다.

@@ -1,27 +1,27 @@
 ---
-title: "포함된 응용 프로그램 문제 해결"
-description: "이 문서에서는 Power BI 콘텐츠를 포함할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다."
+title: 포함된 응용 프로그램 문제 해결
+description: 이 문서에서는 Power BI 콘텐츠를 포함할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 2/26/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 78e3361578b82a9ebf69feae1f7a8ac54966bbc9
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 13bdbbfec2e76b526b92d65f6f9f5cd1372f2094
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
 
@@ -141,7 +141,8 @@ GenerateToken 호출 전에 응용 프로그램의 백 엔드가 인증 토큰�
 
 Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 응용 프로그램 또는 포함 api 문제를 배제해도 되는 수준인지 확인합니다.
 
-
-자주 묻는 질문과 대답은 [Power BI Embedded FAQ](embedded-faq.md)를 참조하세요.
+자세한 내용은 [Power BI Embedded FAQ](embedded-faq.md)를 참조하세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+
+

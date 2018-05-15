@@ -1,13 +1,13 @@
 ---
-title: "Power BI Desktop의 열 기준 정렬"
-description: "Power BI Desktop의 열 기준 정렬"
+title: Power BI Desktop의 열 기준 정렬
+description: Power BI Desktop의 열 기준 정렬
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 05/01/2017
 ms.service: powerbi
@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: cb23034c207bd272f716e8074bb3702ea30e893a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: acd621a1763e29fc66a017294cc4d63008900a4f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Power BI Desktop의 열 기준 정렬
 **Power BI Desktop**과 **Power BI 서비스**에서는 다양한 데이터 필드로 정렬하여 시각적 개체의 모양을 변경할 수 있습니다. 시각적 개체의 정렬 방법을 변경하면 다루려는 정보를 강조 표시하고 다루려는 추세(또는 강조점)에 시각적 효과를 줄 수 있습니다.
