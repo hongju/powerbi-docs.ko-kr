@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d87f56e8e16c9d60a6ba74a25772b604c6a7fa3d
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: 6dac17f4addca4e3212eb9dadcfb46f2adac1eca
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Power BI Desktop에서 날짜 테이블 설정 및 사용
 
@@ -71,7 +71,7 @@ ms.lasthandoff: 04/06/2018
    
     ![](media/desktop-date-tables/date-tables_04.png) 
 
-2. **모델링** 탭에서 **데이터 형식:**을 선택한 다음, 드롭다운 화살표를 클릭하여 사용 가능한 데이터 형식을 표시합니다.
+2. **모델링** 탭에서 **데이터 형식:** 을 선택한 다음, 드롭다운 화살표를 클릭하여 사용 가능한 데이터 형식을 표시합니다.
 
     ![](media/desktop-date-tables/date-tables_05.png)
 

@@ -1,16 +1,16 @@
 ---
-title: "자습서 - 대시보드 타일 편집"
-description: "이 자습서에서는 타일을 만들고 대시보드에 고정하는 방법부터 대시보드 타일을 편집하고, 크기를 조정하고, 이동하고, 이름을 바꾸고, 고정하고, 삭제하고, 하이퍼링크를 추가하는 방법을 살펴보겠습니다."
+title: 대시보드 타일 편집
+description: 이 자습서에서는 타일을 만들고 대시보드에 고정하는 방법부터 대시보드 타일을 편집하고, 크기를 조정하고, 이동하고, 이름을 바꾸고, 고정하고, 삭제하고, 하이퍼링크를 추가하는 방법을 살펴보겠습니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: lJKgWnvl6bQ
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 98856d551e0f124d7ea3e038623e2340ceeb18b8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: ca83151f2dbf0f69926ad1920c3323a0070e5e06
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>대시보드 타일 편집 또는 제거
 

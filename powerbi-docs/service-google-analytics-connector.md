@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fdd48073d80176eff1576633c2e9f15bdd430a60
-ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
+ms.openlocfilehash: 9ed35befba78a99f4923eda3adb83414a3f197dc
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop용 Google Analytics 커넥터
 > [!NOTE]
@@ -46,7 +46,7 @@ ms.lasthandoff: 03/28/2018
 
 자격 증명을 입력하면 Power BI의 오프라인 액세스를 원하는지 묻는 메시지가 표시됩니다. 다음은 **Power BI Desktop**을 사용하여 Google 웹로그 분석 데이터에 액세스하는 방법입니다.  
 
-동의하면 **Power BI Desktop**에서 현재 로그인되어 있다고 보여줍니다.  
+동의하면 **Power BI Desktop**에서 현재 로그인되어 있다고 보여 줍니다.  
 ![](media/service-google-analytics-connector/tps_googleanalytics_5.png)
 
 **연결**을 선택하면 Google 웹로그 분석 데이터가 **Power BI Desktop**에 연결되고 데이터를 로드합니다.  

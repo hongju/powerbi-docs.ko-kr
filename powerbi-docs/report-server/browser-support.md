@@ -1,15 +1,15 @@
 ---
-title: "Power BI Report Server에 대한 브라우저 지원"
-description: "Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다."
+title: Power BI Report Server에 대한 브라우저 지원
+description: Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 273a336280a371f694fb08a43d75e24535942e9a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a0ac612ec132d5aefc8353b4ef92212913e3db5a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI Report Server에 대한 브라우저 지원
 Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다.
@@ -54,7 +54,7 @@ Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 
 
 * Google Chrome(+)
   
-  **(+)**최신 공개 릴리스 버전
+  **(+)** 최신 공개 릴리스 버전
 
 ## <a name="browser-requirements-for-the-report-viewer-web-control-2015"></a>Report Viewer 웹 컨트롤(2015)에 대한 브라우저 요구 사항
 다음은 Report Viewer 웹 컨트롤에 지원되는 브라우저의 현재 목록입니다. Report Viewer는 웹 포털에서 보고서 보기를 지원합니다.
@@ -72,7 +72,7 @@ Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 
 
 * Apple Safari(+)
   
-  **(+)**최신 공개 릴리스 버전
+  **(+)** 최신 공개 릴리스 버전
 
 ### <a name="authentication-requirements"></a>인증 요구 사항
 브라우저는 클라이언트 요청이 성공하기 위해 Report Server에서 처리되어야 하는 특정 인증 체계를 지원합니다. 다음 표에서는 Windows 운영 체제에서 실행 중인 각 브라우저에서 지원하는 기본 인증 유형을 식별합니다.
@@ -85,7 +85,7 @@ Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 
 | **Mozilla Firefox**(+) |NTLM, 기본 |NTLM |예. 기본 인증 설정은 Firefox를 사용합니다. |
 | **Apple Safari**(+) |NTLM, 기본 |기본 |예. 기본 인증 설정은 Safari를 사용합니다. |
 
- **(+)**최신 공개 릴리스 버전
+ **(+)** 최신 공개 릴리스 버전
 
 ### <a name="script-requirements-for-viewing-reports"></a>보고서를 보기 위한 스크립트 요구 사항
 보고서 뷰어를 사용하려면 브라우저를 구성하여 스크립트를 실행합니다.
@@ -116,11 +116,11 @@ Report Viewer 웹 서버 컨트롤은 ASP.NET 웹 응용 프로그램에서 보�
 * Google Chrome(+)
 * Mozilla Firefox(+)
   
-  **(+)**최신 공개 릴리스 버전
+  **(+)** 최신 공개 릴리스 버전
 
 ## <a name="next-steps"></a>다음 단계
 [관리자 안내서](admin-handbook-overview.md)  
-[빠른 시작: Power BI Report Server 설치](quickstart-install-report-server.md)  
+[Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
 

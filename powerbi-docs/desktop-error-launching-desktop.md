@@ -44,7 +44,7 @@ Power BI Desktop은 멀티 프로세스 아키텍처로 설계되어 있으며 �
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Power BI Desktop을 시작할 경우 기타 문제에 대한 도움말
 **Power BI Desktop**에서 발생하는 문제를 최대한 처리하려고 노력하고 있습니다. 당사는 많은 고객에 영향을 줄 수 있는 문제를 정기적으로 살펴보고 문서에 포함시키고 있습니다.
 
-**Power BI Desktop** 시작 관련 문제가 온-프레미스 데이터 게이트웨이와 관련되지 않는 경우 또는 이전 솔루션이 작동하지 않는 경우 [Power BI 지원팀](https://support.powerbi.com)(https://support.powerbi.com))에 인시던트를 제출하여 문제를 식별하고 해결할 수 있습니다.
+**Power BI Desktop** 시작 관련 문제가 온-프레미스 데이터 게이트웨이와 관련되지 않는 경우 또는 이전 솔루션이 작동하지 않는 경우 [Power BI 지원팀](https://support.powerbi.com)(https://support.powerbi.com) 에 인시던트를 제출하여 문제를 식별하고 해결할 수 있습니다.
 
 나중에 **Power BI Desktop**에서 다른 문제가 (없거나 극히 적기를 바랍니다만) 발생할 경우 추적을 설정하고 로그 파일을 수집하여 문제를 분리하고 식별하는 것이 좋습니다. 추적을 설정하려면 **파일 > 옵션 및 설정 > 옵션**을 선택한 후 **진단**을 선택하고 *진단 옵션* 아래에서 **추적 사용** 확인란을 선택합니다. 이 옵션을 설정하려면 **Power BI Desktop**을 실행 중이어야 합니다. 그러면 **Power BI Desktop** 시작과 관련된 이후 문제에서 유용합니다.
 

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 7db593cdac44bb3549023127a5250776cd6d57b7
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: e7163cadb25a171241ec09f5968faf33f1f425a7
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="power-bi-security"></a>Power BI 보안
 Power BI 보안에 대한 자세한 설명을 확인하려면 [Power BI 보안 백서를 다운로드](http://go.microsoft.com/fwlink/?LinkId=829185)하세요.
@@ -34,7 +34,7 @@ Power BI 서비스는 Microsoft 클라우드 컴퓨팅 인프라 및 플랫폼�
 ## <a name="power-bi-architecture"></a>Power BI 아키텍처
 각각의 Power BI 배포는 웹 프론트엔드(**WFE**) 클러스터와 **백엔드** 클러스터 등, 두 클러스터로 구성됩니다.
 
-**WFE** 클러스터는 Power BI에 대한 최초 연결과 인증 프로세스를 관리하며, AAD를 사용하여 클라이언트를 인증하고 이후 Power BI 서비스에 대한 클라이언트 연결을 위해 토큰을 제공합니다. 또한 Power BI는 인증 프로세스와 고정 콘텐츠와 파일 다운로드를 위해 **ATM(Azure Traffic Manager)** 을 사용하여, 연결을 시도하는 클라이언트의 DNS 기록에 따라 결정한 가장 가까운 데이터 센터로 사용자 트래픽을 전달합니다. Power BI는 **Azure CDN(Content Delivery Network)**을 사용하여 지리적 로케일에 따라 필요한 고정 콘텐츠와 파일을 효율적으로 배포합니다.
+**WFE** 클러스터는 Power BI에 대한 최초 연결과 인증 프로세스를 관리하며, AAD를 사용하여 클라이언트를 인증하고 이후 Power BI 서비스에 대한 클라이언트 연결을 위해 토큰을 제공합니다. 또한 Power BI는 인증 프로세스와 고정 콘텐츠와 파일 다운로드를 위해 **ATM(Azure Traffic Manager)** 을 사용하여, 연결을 시도하는 클라이언트의 DNS 기록에 따라 결정한 가장 가까운 데이터 센터로 사용자 트래픽을 전달합니다. Power BI는 **Azure CDN(Content Delivery Network)** 을 사용하여 지리적 로케일에 따라 필요한 고정 콘텐츠와 파일을 효율적으로 배포합니다.
 
 ![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 

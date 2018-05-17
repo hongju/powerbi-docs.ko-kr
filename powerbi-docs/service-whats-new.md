@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/23/2018
+ms.date: 05/09/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7b8d3b4202ff08b5b97765fe20abe37c41518a31
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 4887204151d50e685ea98a2cf0252370ca4919bb
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
-**Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 “새로운 기능”은 다음을 참조하세요.
+**Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
 
 - [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
 - [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)  
@@ -38,11 +38,15 @@ ms.lasthandoff: 03/30/2018
 * [Microsoft Power BI(YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="march-2018"></a>2018년 3월
+## <a name="april-2018"></a>2018년 4월
+* [Power BI GDPR 백서](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* Power BI 서비스 [감사 로그](https://docs.microsoft.com/power-bi/service-admin-auditing)는 Office 365 테넌트에 대해 기본적으로 설정됩니다.
+
+## <a name="previous-months-2018"></a>이전 달(2018년)
+### <a name="march-2018"></a>2018년 3월
 * Power BI 서비스의 [영구 필터](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)
 * 사용자의 개인 메일 계정을 사용하여 사용자와 콘텐츠 공유 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) 확장
 
-## <a name="previous-months-2018"></a>이전 달(2018년)
 ### <a name="february-2018"></a>2018년 2월
 * 최종 사용자에 대해 자동으로 [Power BI 앱](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) 설치
 * Power BI Premium의 P4 및 P5 용량

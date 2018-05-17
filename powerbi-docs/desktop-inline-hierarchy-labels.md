@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 974194cb04701e2dc21814a0945227ad9c4b770c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 67e0008383147763654d8e3a053384d28f4a57f7
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Power BI Desktop에서 인라인 계층 구조 레이블 사용
 **Power BI Desktop**은 계층적 드릴링을 개선하기 위한 두 기능 중 첫 번째 기능인 **인라인 계층 구조 레이블**의 사용을 지원합니다. 현재 개발 중인 두 번째 기능은 중첩된 계층 구조 레이블을 사용하는 기능입니다(자주 업데이트되니 기다려 주세요).   
@@ -30,35 +30,41 @@ ms.lasthandoff: 05/04/2018
 ## <a name="how-inline-hierarchy-labels-work"></a>인라인 계층 구조 레이블의 작동 방식
 인라인 계층 레이블에서는 **모두 확장** 기능을 사용하여 시각적 개체를 확장하면서 계층 구조 레이블을 볼 수 있습니다. 이러한 계층 구조 레이블을 표시할 때 한 가지 이점은 계층 데이터를 확장하면서 이러한 다양한 계층 구조 레이블을 기준으로 **정렬**하도록 선택할 수도 있다는 점입니다.
 
-### <a name="using-the-built-in-expand-all-feature-without-sorting-by-hierarchy-labels"></a>기본 제공된 모두 확장 기능 사용(계층 구조 레이블로 정렬하지 않음)
-실제로 인라인 계층 구조 레이블을 보기 전에 기본 **모두 확장** 기능 동작이 어떻게 작동하는지 살펴 보겠습니다. 이렇게 하면 인라인 계층 구조가 얼마나 유용한지 이해하고 인정할 수 있습니다.
+### <a name="using-the-built-in-expand-feature-without-sorting-by-hierarchy-labels"></a>기본 제공된 확장 기능 사용(계층 구조 레이블로 정렬하지 않음)
+실제로 인라인 계층 구조 레이블을 보기 전에 기본 **다음 수준으로 확장** 기능 동작을 살펴 보겠습니다. 이렇게 하면 인라인 계층 구조가 얼마나 유용한지 이해하고 인정할 수 있습니다.
 
-다음 이미지는 연간 판매량에 대한 가로 막대형 차트 시각적 개체를 보여 줍니다. 마우스 오른쪽 단추를 클릭하여 **모두 확장**을 선택할 수 있습니다.
+다음 이미지는 연간 판매량에 대한 가로 막대형 차트 시각적 개체를 보여 줍니다. 막대를 마우스 오른쪽 단추로 클릭하면 **다음 수준으로 확장**을 선택할 수 있습니다.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_4.png)
+![상황에 맞는 메뉴 확장](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-menu.png)
 
-**모두 확장**을 선택하면 다음 이미지처럼 시각적 개체가 날짜 계층 구조를 연도에서 분기로 확장합니다.
+> [!NOTE]
+> 막대를 마우스 오른쪽 단추로 클릭하는 대신 시각화 왼쪽 상단에 있는 *확장* 단추를 선택할 수 있습니다.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_5.png)
+  ![확장 단추](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
+
+
+**다음 수준으로 확장**을 선택하면 다음 이미지처럼 시각적 개체가 날짜 계층 구조를 *연도*에서 *분기*로 확장합니다.
+
+![연도 및 분기로 확장된 시각적 개체](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter.png)
 
 *연도* 및 *분기* 레이블이 인라인으로 함께 표시된 것에 유의하세요. 이 레이블 지정 체계는 계층 구조 최하위까지 **모두 확장**함에 따라 계속됩니다.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_6.png)
+![연도, 분기 및 월로 확장된 시각적 개체](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter-month.png)
 
 *날짜/시간* 데이터 형식이 있는 필드와 연결된 기본 제공 *날짜* 계층 구조가 어떻게 작동하는지 살펴 보았습니다. 다음 섹션에서는 새로운 인라인 계층 구조 레이블 기능이 어떻게 다른지 알아보겠습니다.
 
 ### <a name="using-inline-hierarchy-labels"></a>인라인 계층 구조 레이블 사용
-이제 비공식 계층 구조의 데이터를 사용하는 다양한 차트를 살펴보겠습니다. 다음 시각적 개체에는 축으로 Color를 사용하는 **판매액**에 대한 가로 막대형 차트가 있습니다. 이 데이터에서 Color및 Class는 비공식 계층 구조를 형성합니다.  여기에서 모두 확장을 다시 선택하여 계층 구조를 드릴다운할 수 있습니다.
+이제 비공식 계층 구조의 데이터를 사용하는 다양한 차트를 살펴보겠습니다. 다음 시각적 개체에는 *ProductName*을 축으로 사용하고 **수량**이 있는 가로 막대형 차트가 있습니다. 이 데이터에서 *ProductName* 및 *ShipCountry*는 비공식 계층 구조를 형성합니다. 여기에서 *다음 수준으로 확장*을 다시 선택하여 계층 구조를 드릴다운할 수 있습니다.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_7.png)
+![비공식 계층 구조의 차트](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-**모두 확장**을 선택하면 계층 구조 레이블의 인라인 표시와 함께 다음 수준을 보여 줍니다. 기본적으로, 인라인 계층 구조는 측정값(이 경우 **SalesAmount**)을 기준으로 정렬됩니다. 인라인 계층 레이블이 사용하도록 설정된 경우 오른쪽 위에 있는 줄임표(**...**)를 선택한 후 다음 이미지에 나와 있는 것처럼 **정렬 기준 > Color Class**를 선택하여 계층 구조를 기준으로 이 데이터를 정렬하도록 선택할 수도 있습니다.
+**다음 수준으로 확장**을 선택하면 계층 구조 레이블의 인라인 표시와 함께 다음 수준을 보여줍니다. 기본적으로, 인라인 계층 구조는 측정값(이 경우 **수량**)을 기준으로 정렬됩니다. 인라인 계층 레이블이 사용하도록 설정된 경우 오른쪽 위에 있는 줄임표(**...**)를 선택한 후 다음 이미지에 나와 있는 것처럼 **ProductName ShipCountry로 정렬**을 선택하여 계층 구조를 기준으로 이 데이터를 정렬하도록 선택할 수도 있습니다.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_8.png)
+![기본적으로 정렬된 비공식 계층 구조가 있는 차트](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 
-**Color Class**가 선택되면 다음 이미지처럼 비공식 계층 구조 선택에 따라 데이터가 정렬됩니다.
+**ShipCountry**가 선택되면 다음 이미지처럼 비공식 계층 구조 선택에 따라 데이터가 정렬됩니다.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_9.png)
+![비공식 계층 구조로 정렬된 비공식 계층 구조가 있는 차트](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sorted.png)
 
 > [!NOTE]
 > 인라인 계층 구조 레이블 기능에서는 기본 제공 시간 계층을 값으로 정렬하도록 허용하지 않으며 계층 구조 순서로만 정렬됩니다.

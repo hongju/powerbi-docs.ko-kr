@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 89dae54ed1faaa868ca022360480540de9dbe295
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: bad0a8cb7f0f6eab7414d06ee5545e9499ccdc95
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI의 DirectQuery 사용
 **Power BI Desktop** 또는 **Power BI 서비스**를 사용하는 경우 모든 종류의 다양한 데이터 원본에 연결할 수 있으며 이러한 데이터를 여러 가지 방법으로 연결할 수 있습니다. 데이터를 가져오는 가장 일반적인 방법인 Power BI로 데이터를 *가져오거나* **DirectQuery**라고 하는 원래의 원본 리포지토리에 있는 데이터에 직접 연결할 수 있습니다. 이 문서에서는 **DirectQuery**와 그 기능에 대해 설명하며, 다음 항목을 포함하고 있습니다.
@@ -79,7 +79,7 @@ Power BI는 다음과 같이 매우 다양한 데이터 원본에 연결됩니�
 * 시각적 개체 또는 전체 보고서 페이지는 대시보드 타일로 고정할 수 있습니다. 대시보드를 빨리 열 수 있도록 하기 위해 일정(예: 매시간)에 따라 자동으로 타일을 새로 고칩니다. 이 새로 고침의 빈도를 제어하여 데이터를 변경하는 빈도와 최신 데이터를 표시하는 중요도를 반영할 수 있습니다. 따라서 대시보드를 열면 타일에서 마지막 새로 고침 시점의 데이터를 반영하며, 반드시 기본 원본에 대한 최신 변경 내용이 반영되는 것은 아닙니다. 최신 상태가 되도록 대시보드를 열 때 항상 새로 고칠 수 있습니다.    
 
 ### <a name="live-connections"></a>라이브 연결
-**SSAS(SQL Server Analysis Services)**에 연결하는 경우 선택한 데이터 모델에서 데이터를 가져오거나 이 모델에 라이브 연결하는 옵션이 있습니다. **가져오기**를 선택하면 해당 외부 SSAS 원본에 대한 쿼리를 정의하고 데이터를 정상적으로 가져옵니다. **라이브 연결**을 선택하면 정의되는 쿼리가 없으며 필드 목록에서 전체 외부 모델을 표시합니다. **DirectQuery**를 선택하면 시각적 개체를 작성할 때 외부 SSAS 원본으로 쿼리를 보냅니다. 그러나 DirectQuery와 달리 새 *모델*을 만드는 것은 전혀 의미가 없습니다. 즉 새 계산 열, 계층 구조, 관계 등을 정의할 수 없습니다. 대신에 외부 SSAS 모델에 직접 연결만 하면 됩니다.
+**SSAS(SQL Server Analysis Services)** 에 연결하는 경우 선택한 데이터 모델에서 데이터를 가져오거나 이 모델에 라이브 연결하는 옵션이 있습니다. **가져오기**를 선택하면 해당 외부 SSAS 원본에 대한 쿼리를 정의하고 데이터를 정상적으로 가져옵니다. **라이브 연결**을 선택하면 정의되는 쿼리가 없으며 필드 목록에서 전체 외부 모델을 표시합니다. **DirectQuery**를 선택하면 시각적 개체를 작성할 때 외부 SSAS 원본으로 쿼리를 보냅니다. 그러나 DirectQuery와 달리 새 *모델*을 만드는 것은 전혀 의미가 없습니다. 즉 새 계산 열, 계층 구조, 관계 등을 정의할 수 없습니다. 대신에 외부 SSAS 모델에 직접 연결만 하면 됩니다.
 
 데이터를 가져오기 위한 옵션이 없다는 점을 제외하고는 이전 단락에서 설명한 상황이 다음 원본에 연결하는 경우에도 적용됩니다.
 

@@ -1,15 +1,15 @@
 ---
-title: "Report Server 설치 마이그레이션"
-description: "Power BI Report Server의 인스턴스로 기존 SQL Server Reporting Services 인스턴스를 마이그레이션하는 방법에 대해 알아봅니다."
+title: Report Server 설치 마이그레이션
+description: Power BI Report Server의 인스턴스로 기존 SQL Server Reporting Services 인스턴스를 마이그레이션하는 방법에 대해 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 67fe876bb9de92cc7f4c0c140f7c016f01216cdd
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 9983956ccb33cc9c45fd1ac316fb74d07eb3acf5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="migrate-a-report-server-installation"></a>Report Server 설치 마이그레이션
 Power BI Report Server의 인스턴스로 기존 SSRS(SQL Server Reporting Services) 인스턴스를 마이그레이션하는 방법에 대해 알아봅니다.
@@ -107,7 +107,7 @@ Power BI Reprot Server에서 마이그레이션하는 작업은 SSRS(기본 모�
 
 ## <a name="next-steps"></a>다음 단계
 [관리자 안내서](admin-handbook-overview.md)  
-[빠른 시작: Power BI Report Server 설치](quickstart-install-report-server.md)  
+[Power BI Report Server 설치](install-report-server.md)  
 [rs.exe 유틸리티 및 웹 서비스를 사용하는 스크립트](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

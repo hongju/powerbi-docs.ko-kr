@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>소버린 클라우드용 응용 프로그램에 Power BI 대시보드, 타일 또는 보고서 포함
 고객에 대한 콘텐츠를 포함하는 경우 Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 대시보드, 타일 또는 보고서를 웹앱에 통합하거나 포함하는 방법에 대해 알아봅니다. 일반적으로 ISV 시나리오입니다.
@@ -38,7 +38,7 @@ Power BI는 소버린(개인용) 클라우드도 지원합니다. 각 소버린 
 
 ![포함된 대시보드](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-이 연습을 시작하려면 **Power BI 계정**이 필요합니다. 계정이 설정되어 있지 않으면 정부 유형에 따라 [미국 정부 Power BI 계정](../service-govus-signup.md) 또는 [독일 클라우드용 Power BI 계정에 등록](https://powerbi.microsoft.com/en-us/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)할 수 있습니다.
+이 연습을 시작하려면 **Power BI 계정**이 필요합니다. 계정이 설정되어 있지 않으면 정부 유형에 따라 [미국 정부 Power BI 계정](../service-govus-signup.md) 또는 [독일 클라우드용 Power BI 계정에 등록](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)할 수 있습니다.
 
 > [!NOTE]
 > 대신 조직의 대시보드를 포함하려고 하십니까? [조직의 앱에 대시보드 통합](integrate-dashboard.md)을 참조하세요.
@@ -407,7 +407,7 @@ JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드
 
 * 검토하기 위한 샘플 응용 프로그램은 GitHub에서 사용할 수 있습니다. 위의 예제는 이 샘플을 기반으로 하고 있습니다. 자세한 내용은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)을 참조하세요.
 * JavaScript API에 대한 자세한 내용은 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 참조하세요.
-* 독일 클라우드용 Power BI에 대한 자세한 내용은 [독일 클라우드용 Power BI FAQ](https://docs.microsoft.com/en-us/power-bi/service-govde-faq)를 참조하세요.
+* 독일 클라우드용 Power BI에 대한 자세한 내용은 [독일 클라우드용 Power BI FAQ](https://docs.microsoft.com/power-bi/service-govde-faq)를 참조하세요.
 * [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md)
 
 제한 사항 및 고려 사항

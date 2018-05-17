@@ -1,15 +1,15 @@
 ---
-title: "Power BI 보고서를 사용하도록 Kerberos 구성"
-description: "분산된 환경의 경우 Power BI 보고서 내에서 사용된 데이터 소스에 Kerberos 인증을 위해 Report Server를 구성하는 방법을 알아봅니다."
+title: Power BI 보고서를 사용하도록 Kerberos 구성
+description: 분산된 환경의 경우 Power BI 보고서 내에서 사용된 데이터 소스에 Kerberos 인증을 위해 Report Server를 구성하는 방법을 알아봅니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 70d4992ad4680d2a412a6bdded895f4248f5dab1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 8a99f4d07b17ae1a8d260c1655dfbb948f76c317
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI 보고서를 사용하도록 Kerberos 구성
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -223,7 +223,7 @@ Active Directory 사용자 및 컴퓨터 내에서 Report Server 서비스 계�
 
 ## <a name="next-steps"></a>다음 단계
 [관리자 안내서](admin-handbook-overview.md)  
-[빠른 시작: Power BI Report Server 설치](quickstart-install-report-server.md)  
+[Power BI Report Server 설치](install-report-server.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

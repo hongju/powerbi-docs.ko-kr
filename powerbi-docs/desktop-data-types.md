@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop의 데이터 형식"
-description: "Power BI Desktop의 데이터 형식"
+title: Power BI Desktop의 데이터 형식
+description: Power BI Desktop의 데이터 형식
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: d651e03e1483daae3411aa84d2fd8a08927dbbdf
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop의 데이터 형식
 이 문서에서는 Power BI Desktop 및 DAX(Data Analysis Expressions)에서 지원하는 데이터 형식을 설명합니다. 
@@ -86,7 +86,7 @@ DAX는 집계, 시간 인텔리전스 계산 등과 같이 다양한 함수에�
 * 문자열로 날짜를 입력할 수 있으며, DAX는 이 문자열을 구문 분석하여 이를 Windows 날짜 및 시간 형식 중 하나로 캐스팅하려 합니다.
 * TRUE + 1을 추가하고 2의 결과를 받을 수 있습니다. TRUE는 암시적으로 숫자 1로 변환되므로 1+1 연산이 수행됩니다.
 * 두 열에 값을 추가했으며 한 값은 텍스트(“12”), 다른 값이 숫자(12)인 경우 DAX는 암시적으로 문자열을 숫자로 변환하며 더하기를 통해 숫자 결과를 반환합니다. "22" + 22 식은 44를 반환합니다.
-* 두 숫자를 연결하려 할 경우 Excel은 이를 문자열로 표현하여 연결합니다. 12 &34;식은 "1234"를 반환합니다.
+* 두 숫자를 연결하려 할 경우 Excel은 이를 문자열로 표현하여 연결합니다. 12 & 34 식은 "1234"를 반환합니다.
 
 ### <a name="table-of-implicit-data-conversions"></a>암시적 데이터 변환 표
 수행되는 변환 유형은 요청된 연산을 수행하기 전에 필요한 값을 캐스팅하는 연산자에 따라 결정됩니다. 이 표에서는 연산자를 나열하며 교차하는 행의 데이터 형식과 연결될 때 열에서 각 데이터 형식에 대해 수행되는 변환을 표시합니다.

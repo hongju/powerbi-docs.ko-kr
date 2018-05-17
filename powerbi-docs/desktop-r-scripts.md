@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop에서 R 스크립트 실행"
-description: "Power BI Desktop에서 R 스크립트 실행"
+title: Power BI Desktop에서 R 스크립트 실행
+description: Power BI Desktop에서 R 스크립트 실행
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34e756a661ec580e2c0eea8fc53378566eccf305
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78102beae41c1ef1f6a1d1b82e945fc3eff04a0f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Power BI Desktop에서 R 스크립트 실행
 **Power BI Desktop**에서 직접 R 스크립트를 실행하고 결과 데이터 집합을 Power BI Desktop 데이터 모델로 가져올 수 있습니다.
@@ -48,7 +48,7 @@ Power BI Desktop에서 R 스크립트를 준비하고 실행하는 경우 몇 �
 * R 스크립트 내에서 작업 디렉터리를 설정할 때 작업 디렉터리에 대해 상대 경로가 아닌 전체 경로를 정의 *해야* 합니다.
 
 ### <a name="run-your-r-script-and-import-data"></a>R 스크립트 실행 및 데이터 가져오기
-1. Power BI Desktop에서 R 스크립트 데이터 커넥터는 **데이터 가져오기**에 위치합니다. R 스크립트를 실행하려면 다음 이미지에서 보여주듯이 **데이터 가져오기 &gt; 더 보기...**를 선택한 다음, **다른 &gt; R 스크립트**를 선택합니다.
+1. Power BI Desktop에서 R 스크립트 데이터 커넥터는 **데이터 가져오기**에 위치합니다. R 스크립트를 실행하려면 다음 이미지에서 보여주듯이 **데이터 가져오기 &gt; 더 보기...** 를 선택한 다음, **다른 &gt; R 스크립트**를 선택합니다.
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
 2. R이 로컬 컴퓨터에 설치되면 최신 설치된 버전은 R 엔진으로 선택됩니다. 단순히 스크립트 창에 스크립트를 복사하고 **확인**을 선택합니다.

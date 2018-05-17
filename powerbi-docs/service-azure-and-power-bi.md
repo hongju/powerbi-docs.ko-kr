@@ -1,28 +1,28 @@
 ---
-title: "Azure 및 Power BI"
-description: "Azure 및 Power BI"
+title: Azure 및 Power BI
+description: Azure 및 Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f07abb6b878ba96c1e5a84168ded6e466c8fb18e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9e4685174c5489b898777383925d601dd44fea39
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="azure-and-power-bi"></a>Azure 및 Power BI
 **Azure** 서비스 및 **Power BI**를 사용하면 비즈니스를 실시간으로 파악하는 분석 및 보고서로 데이터 처리 활동을 전환할 수 있습니다. 데이터 처리가 클라우드 기반인지 아니면 온-프레미스인지 여부, 간단한지 복잡한지 여부, 단일 원본에서 얻었는지 아니면 대규모로 확장되었는지 여부, 웨어하우스인지 아니면 실시간인지에 따라 Azure 및 Power BI는 기본 제공 연결 및 통합 비즈니스 인텔리전스 활동에 활기를 불어넣습니다.

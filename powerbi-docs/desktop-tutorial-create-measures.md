@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f3a58d8acc7d8eb24954e9db0c0db91eacad2f9a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 99b02d0225dec670b3f4600e2436e9094a97b91f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>자습서: Power BI Desktop에서 고유한 측정값 만들기
 측정값을 사용하여 Power BI Desktop에서 가장 강력한 데이터 분석 솔루션 중 일부를 만들 수 있습니다. 측정값은 보고서를 조작할 때 데이터에서 계산을 수행하여 도움을 줍니다. 이 자습서에서는 Power BI Desktop에서 고유한 기본 측정값을 이해하고 만드는 과정을 안내합니다.
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/30/2018
 
 ![SalesAmount 평균 차트](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
 
-원하는 결과에 따라 집계 유형을 변경할 수 있지만 모든 집계 유형이 모든 숫자 데이터 형식에 적용되는 것은 아닙니다. 예를 들어 SalesAmount 필드의 경우 합계 및 평균이 적합합니다. 최솟값 및 최댓값도 적용할 수 있습니다. 그러나 해당 값은 숫자이지만 실제로는 통화이기 때문에 개수는 SalesAmount 필드에 적합하지 않습니다.
+원하는 결과에 따라 집계 유형을 변경할 수 있지만 모든 집계 유형이 모든 숫자 데이터 형식에 적용되는 것은 아닙니다. 예를 들어 SalesAmount 필드의 경우 합계 및 평균이 적합합니다. 최소값 및 최대값도 적용할 수 있습니다. 그러나 해당 값은 숫자이지만 실제로는 통화이기 때문에 개수는 SalesAmount 필드에 적합하지 않습니다.
 
 측정값에서 계산된 값은 보고서 조작에 대한 응답으로 변경됩니다. 예를 들어 **Geography** 테이블에서 차트로 **RegionCountryName** 필드를 끌면 각 국가에 대한 평균 판매액이 표시됩니다.
 
@@ -106,7 +106,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
 5.  다른 두 열을 빼려면:
     1. 첫 번째 식의 닫는 괄호 뒤에 공백, 빼기 연산자(**-**) 및 공백을 차례로 입력합니다. 
     2. 다른 SUM 함수를 입력하고 **Sales[DiscountAmount]** 열을 인수로 선택할 수 있을 때까지 “DiscountAmount” 입력을 시작합니다. 닫는 괄호를 추가합니다. 
-    3. 공백, 또 다른 빼기 연산자, 공백, 인수로 **Sales[ReturnAmount]**를 사용하는 또 다른 SUM 함수 및 닫는 괄호를 차례로 입력합니다.
+    3. 공백, 또 다른 빼기 연산자, 공백, 인수로 **Sales[ReturnAmount]** 를 사용하는 또 다른 SUM 함수 및 닫는 괄호를 차례로 입력합니다.
     
     ![수식 완료](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png)
     
@@ -167,7 +167,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
 
 1.  Sales 테이블에 **Net Sales per Unit**이라는 새 측정값을 만듭니다.
     
-2.  수식 입력줄에서 **Net Sales**를 입력하기 시작합니다. 제안 목록에 추가할 수 있는 항목이 표시됩니다. **[Net Sales]**를 선택합니다.
+2.  수식 입력줄에서 **Net Sales**를 입력하기 시작합니다. 제안 목록에 추가할 수 있는 항목이 표시됩니다. **[Net Sales]** 를 선택합니다.
     
     ![Net Sales를 사용하는 수식](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     
@@ -175,7 +175,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
     
     ![대괄호는 측정값만 표시함](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
     
-3.  공백, 나누기 연산자(**/**), 다른 공백, SUM 함수를 차례로 입력한 다음, **Quantity**를 입력합니다. 이름에 Quantity가 포함된 모든 열이 제안 목록에 표시됩니다. **Sales[SalesQuantity]**를 선택하고, 닫는 괄호를 입력하고, Enter 키를 누르거나 확인 표시를 선택하여 수식의 유효성을 검사합니다. 수식이 다음과 같이 표시됩니다.
+3.  공백, 나누기 연산자(**/**), 다른 공백, SUM 함수를 차례로 입력한 다음, **Quantity**를 입력합니다. 이름에 Quantity가 포함된 모든 열이 제안 목록에 표시됩니다. **Sales[SalesQuantity]** 를 선택하고, 닫는 괄호를 입력하고, Enter 키를 누르거나 확인 표시를 선택하여 수식의 유효성을 검사합니다. 수식이 다음과 같이 표시됩니다.
     
     `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
     

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>빠른 측정을 사용하여 일반적이고 강력한 계산 수행
 **빠른 측정**을 사용하여 일반적이고 강력한 계산을 빠르고 쉽게 수행할 수 있습니다. **빠른 측정**은 사용자가 대화 상자에 입력한 내용에 따라 내부적으로(DAX를 작성할 필요가 없음) DAX 명령 집합을 실행한 후 사용할 결과를 보고서에 표시합니다. 무엇보다도 빠른 측정으로 실행되는 DAX를 확인하고 사용자 고유의 DAX 지식을 바로 사용하거나 확장할 수 있습니다.
@@ -43,8 +43,6 @@ ms.lasthandoff: 03/30/2018
 **빠른 측정**을 만들려면 **Power BI Desktop**의 **필드** 영역에서 필드를 마우스 오른쪽 단추로 클릭하고 나타나는 메뉴에서 **빠른 측정**을 선택합니다.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
-
-**빠른 측정**을 사용할 수 있으려면 현재 로드된 데이터 집합에서 모델링을 사용할 수 있어야 합니다. 따라서 **필드** 목록을 마우스 오른쪽 단추로 클릭하면 SSAS 라이브 연결을 제외한 라이브 연결(예: Power BI 서비스 데이터 집합에 대한 연결)에 **빠른 측정** 메뉴 항목이 표시되지 않습니다. 
 
 SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일부 **빠른 측정**을 사용할 수 있습니다. **Power BI Desktop**은 연결된 버전의 SSAS에 지원되는 **빠른 측정**의 컬렉션만을 표시합니다. 따라서 SSAS 라이브 데이터 원본에 연결되어 있는 경우 목록에 특정 **빠른 측정**이 표시되지 않습니다. 연결된 SSAS 버전이 **빠른 측정**을 구현하는 데 사용되는 DAX 측정값을 지원하지 않기 때문입니다.
 
@@ -97,7 +95,7 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 ## <a name="example-of-quick-measures"></a>빠른 측정의 예
 이러한 실제 **빠른 측정**의 예를 살펴 보겠습니다.
 
-다음 **매트릭스** 시각적 개체는 다양한 전자 제품의 판매량에 대한 테이블을 보여줍니다. 각 범주에 대한 합계가 포함된 기본 테이블입니다.
+다음 **매트릭스** 시각적 개체는 다양한 전자 제품의 판매량에 대한 테이블을 보여 줍니다. 각 범주에 대한 합계가 포함된 기본 테이블입니다.
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
@@ -107,7 +105,7 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 
 **확인**을 선택하면 목록 다음 이미지와 같이 몇 가지 흥미로운 일이 발생합니다.
 
-1. 이제 **매트릭스** 시각적 개체에는 계산을 보여주는 새로운 열이 포함됩니다(이 경우 *SalesAmount 내 평균 SalesAmount*).
+1. 이제 **매트릭스** 시각적 개체에는 계산을 보여 주는 새로운 열이 포함됩니다(이 경우 *SalesAmount 내 평균 SalesAmount*).
 2. 새로운 **측정**이 생성되고 **필드** 영역에 제공되며 강조 표시됩니다(Power BI에서는 노란색 상자로 둘러쌈). 따라서 원래 생성된 시각적 개체뿐만 아니라 보고서의 다른 시각적 개체에도 제공됩니다.
 3. **빠른 측정**에 생성된 DAX 수식은 수식 입력줄에 표시됩니다.
 
@@ -128,7 +126,7 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 
 ![](media/desktop-quick-measures/quick-measures_10.png)
 
-측정값 이면의 수식을 보여주므로 그 자체로 도움이 됩니다. 하지만 더 중요한 것은 아마도 **빠른 측정**을 사용하여 기본 DAX 수식이 생성되는 방식을 알 수 있다는 것일 것입니다.
+측정값 이면의 수식을 보여 주므로 그 자체로 도움이 됩니다. 하지만 더 중요한 것은 아마도 **빠른 측정**을 사용하여 기본 DAX 수식이 생성되는 방식을 알 수 있다는 것일 것입니다.
 
 연도별 계산을 수행해야 하지만 DAX 수식을 구조화하는 방법을 확실히 모른다고(또는 무엇부터 시작할지 모르는 경우) 상상해 보세요. 책상에서 고민하는 대신 **전년 대비 변화** 계산을 사용하여 **빠른 측정**을 만들고 무슨 일이 일어나는지 볼 수 있습니다. 마찬가지로 **빠른 측정**을 만들어 시각적 개체에 어떻게 나타나고 DAX 수식이 어떻게 작동하는지 확인한 다음, DAX에 직접 변경 사항을 적용하거나 계산이 사용자 요구 또는 기대치를 충족할 때까지 다른 측정을 만듭니다.
 
@@ -141,9 +139,10 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 유념해야 할 몇 가지 제한 사항과 고려 사항이 있습니다.
 
-* **빠른 측정**은 모델을 수정할 수 있는 경우에만 사용 가능하며 DirectQuery 또는 라이브 연결로 작업하는 경우는 대부분 해당되지 않습니다(이전에 설명한 대로 SSAS 라이브 연결은 지원됨).
+* **빠른 측정**은 모델을 수정할 수 있는 경우에만 사용할 수 있으며, 일부 라이브 연결을 사용하는 경우에는 그렇지 않습니다(이전에 설명한 대로 SSAS 테이블 형식 라이브 연결은 지원됨).
 * **필드** 영역에 추가된 측정값을 보고서의 시각적 개체와 함께 사용할 수 있습니다.
 * **필드** 영역에서 생성된 측정값을 선택한 후 **수식 입력줄**에서 해당 수식을 확인하는 방법으로 **빠른 측정**과 연결된 DAX를 항상 볼 수 있습니다.
+* DirectQuery 모드에서 작업할 때는 시간 인텔리전스 빠른 측정를 빠르게 만들 수 없습니다. 이러한 빠른 측정에 사용되는 DAX 함수는 데이터 원본으로 보내지는 T-SQL 문으로 변환될 때 성능에 영향을 미칩니다.
 
 > [!WARNING]
 > 빠른 측정은 현재 인수 구분 기호에 대해 쉼표로 *오직* DAX 문만 생성합니다. **Power BI Desktop** 버전이 소수 구분 기호로 쉼표를 사용하는 언어로 현지화된 경우 빠른 측정이 올바르게 작동되지 않습니다.
@@ -151,7 +150,7 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 > 
 
 ### <a name="time-intelligence-and-quick-measures"></a>시간 인텔리전스 및 빠른 측정
-**Power BI Desktop**에 대한 2017년 10월 업데이트부터는 시간 인텔리전스 **빠른 측정**에서 고유한 사용자 지정 날짜 테이블을 사용할 수 있습니다. 데이터 모델에 사용자 지정 날짜 테이블이 있는 경우 시간 인텔리전스 빠른 측정에 해당 테이블의 기본 날짜 열을 사용할 수 있습니다. [이 문서](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)에 설명된 대로 모델이 빌드된 경우 해당 테이블의 해당 주 날짜 열을 날짜 테이블로 표시했는지 확인*해야* 합니다.
+**Power BI Desktop**에 대한 2017년 10월 업데이트부터는 시간 인텔리전스 **빠른 측정**에서 고유한 사용자 지정 날짜 테이블을 사용할 수 있습니다. 외부 테이블 형식 모델을 사용하는 경우 모델 작성 시 해당 테이블의 기본 날짜 열이 [이 문서](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)에서 설명한 대로 날짜 테이블로 표시되었는지 확인합니다. 자신의 날짜 테이블을 가져오는 경우 [이 문서](https://docs.microsoft.com/power-bi/desktop-date-tables)에서 설명한 대로 날짜 테이블로 표시해야 합니다.
 
 ### <a name="additional-information-and-examples"></a>추가 정보 및 예제
 각 **빠른 측정** 계산에 대한 예제와 지침을 제공할 예정이므로 관련 문서에 대한 업데이트를 조만간 다시 확인하세요.

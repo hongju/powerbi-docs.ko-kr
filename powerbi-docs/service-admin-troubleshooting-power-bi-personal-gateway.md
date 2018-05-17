@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d321d70fe201af500feb35ef4e5ea1df6cc558f0
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2f5ca353d26b83a8c8cce5356724b351cb9d1621
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal 문제 해결
 다음은 Power BI Gateway - Personal을 사용할 때 발생할 수 있는 몇 가지 일반적인 문제를 설명합니다.
@@ -76,11 +76,11 @@ ms.lasthandoff: 04/16/2018
 
 **오류: [데이터를 결합할 수 없습니다.] &lt;쿼리 부분&gt;/&lt;…&gt;/&lt;…&gt;이 함께 사용할 수 없는 개인 정보 수준의 데이터 원본에 액세스합니다. 이 데이터 조합을 다시 작성합니다.**
 
-**솔루션**: 이 오류는 현재 사용 중인 데이터 소스의 유형 및 개인 정보 수준 제한으로 인해 발생합니다. [자세히 알아보기](refresh-enable-fast-combine.md)
+**솔루션**: 이 오류는 현재 사용 중인 데이터 소스의 유형 및 개인 정보 수준 제한으로 인해 발생합니다.
 
 **오류: 데이터 원본 오류: "\[테이블\]" 값을 테이블 형식으로 변환할 수 없습니다.**
 
-**솔루션**: 이 오류는 현재 사용 중인 데이터 소스의 유형 및 개인 정보 수준 제한으로 인해 발생합니다. [자세히 알아보기](refresh-enable-fast-combine.md)
+**솔루션**: 이 오류는 현재 사용 중인 데이터 소스의 유형 및 개인 정보 수준 제한으로 인해 발생합니다.
 
 **오류: 이 행에 필요한 공간이 부족합니다.**
 

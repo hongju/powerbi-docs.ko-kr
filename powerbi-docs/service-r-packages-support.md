@@ -1,28 +1,28 @@
 ---
-title: "Power BI에서 R 스크립트 사용 및 만들기에 지원되는 R 패키지에 대해 알아보기"
-description: "Power BI에서 지원되고 지원되지 않는 R 패키지"
+title: Power BI에서 R 스크립트 사용 및 만들기에 지원되는 R 패키지에 대해 알아보기
+description: Power BI에서 지원되고 지원되지 않는 R 패키지
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: c4ff69bff3c65fa64f90184668d34fac5a82815f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 서비스의 R 패키지
 강력한 [R 프로그래밍 언어](https://www.r-project.org/)를 사용하여 Power BI 서비스에서 시각적 개체를 만들 수 있습니다. 많은 R 패키지가 Power BI 서비스에서 지원되며(및 더 많은 패키지가 항상 지원되고 있음) 일부 패키지는 지원되지 않습니다.
@@ -117,7 +117,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
 | data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
-| date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
+| 날짜 |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
 | deepnet |0.2 |https://cran.r-project.org/web/packages/deepnet/index.html |
@@ -364,7 +364,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 | snowFT |1.4-0 |https://cran.r-project.org/web/packages/snowFT/index.html |
 | sp |1.2-2 |https://cran.r-project.org/web/packages/sp/index.html |
 | spacetime |1.1-5 |https://cran.r-project.org/web/packages/spacetime/index.html |
-| spam |1.3-0 |https://cran.r-project.org/web/packages/spam/index.html |
+| 스팸 |1.3-0 |https://cran.r-project.org/web/packages/spam/index.html |
 | SparseM |1.7 |https://cran.r-project.org/web/packages/SparseM/index.html |
 | spatial |7.3-11 |https://cran.r-project.org/web/packages/spatial/index.html |
 | spBayes |0.3-9 |https://cran.r-project.org/web/packages/spBayes/index.html |

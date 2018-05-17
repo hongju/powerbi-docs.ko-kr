@@ -1,6 +1,6 @@
 ---
-title: 빠른 시작 - Power BI 질문 및 답변 시작
-description: '빠른 시작: 소매 분석 샘플을 사용하여 Power BI 서비스 질문 및 답변 시작'
+title: Power BI 질문 및 답변 시작
+description: Power BI 서비스에서 소매점 분석 샘플을 사용하여 질문 및 답변을 시작합니다.
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aa9b90521d2bf8df88676756135442a22277a4e8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="get-started-with-power-bi-qa-quickstart"></a>Power BI 질문 및 답변 시작(빠른 시작)
+# <a name="get-started-with-power-bi-qa"></a>Power BI 질문 및 답변 시작
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>소매 분석 샘플에 Power BI 질문 및 답변 사용
 경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다.  이 빠른 시작에서는 동일한 시각화를 만드는 2가지 방법, 즉 첫 번째로 보고서에서 작성하고 두 번째로 질문 및 답변에서 질문하는 방법을 살펴봅니다. Power BI 서비스를 사용할 예정이지만, 프로세스는 Power BI Desktop을 사용할 때와 거의 동일합니다.
 

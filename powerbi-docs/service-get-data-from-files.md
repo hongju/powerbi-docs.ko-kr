@@ -1,13 +1,13 @@
 ---
-title: "파일에서 데이터 가져오기"
-description: "Excel, Power BI Desktop 및 CSV 파일에서 Power BI로 데이터를 가져오는 방법 알아보기"
+title: 파일에서 데이터 가져오기
+description: Excel, Power BI Desktop 및 CSV 파일에서 Power BI로 데이터를 가져오는 방법 알아보기
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/01/2016
 ms.service: powerbi
@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3091de0ce4fb08867bcd3eddfae9d7dcee6b8af3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 629eb65b4090023c24df3098ba1b629349edf128
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="get-data-from-files"></a>파일에서 데이터 가져오기
 ![](media/service-get-data-from-files/file_icons.png)

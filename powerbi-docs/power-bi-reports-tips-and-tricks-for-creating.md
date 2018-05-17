@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d9500f2c3d385e96b9133a3b634fe06f9769936e
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: f1b92cf370dfdfdbeadd71ee954030aa8a79d338
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop 및 Power BI 서비스에서 보고서를 만들기 위한 팁과 힌트
 데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop, Power BI 서비스 ‘및’ 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다.
@@ -166,7 +166,7 @@ Power BI Desktop에서 종종 여러 열의 데이터를 하나의 새 열로 �
 ### <a name="using-dax-for-the-first-time"></a>처음으로 DAX 사용
 DAX는 Power BI Desktop의 계산 수식 언어입니다.  DAX는 BI 분석에 최적화되어 있습니다.  쿼리 언어 같은 SQL만 사용한 경우 익숙한 내용과 약간 다릅니다. DAX를 학습하기 위한 문헌과 온라인에는 매우 좋은 리소스가 있습니다.
 
-[빠른 시작: Power BI Desktop의 DAX 기본 사항 학습](desktop-quickstart-learn-dax-basics.md)
+[Power BI Desktop의 DAX 기본 사항 학습](desktop-quickstart-learn-dax-basics.md)
 
 [DAX(Data Analysis Expressions) 참조](https://msdn.microsoft.com/library/gg413422.aspx)
 
@@ -183,7 +183,7 @@ DAX는 Power BI Desktop의 계산 수식 언어입니다.  DAX는 BI 분석에 �
 ![](media/power-bi-reports-tips-and-tricks-for-creating/power-bi-reports.png)
 
 * [블로그를 읽어보세요](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
-* [웨비나를 시청하세요](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
+* [웹 세미나를 시청하세요](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
 
 ### <a name="consider-your-audience"></a>대상 그룹을 고려
 의사 결정에 도움이 될 주요 메트릭은 무엇인가요? 보고서가 어떻게 사용될까요? 어떤 학습 내용 또는 문화적 가정이 디자인 선택에 영향을 줄 수 있을까요? 성공을 위해 대상 그룹은 어떤 정보를 필요로 할까요?
@@ -224,8 +224,8 @@ DAX는 Power BI Desktop의 계산 수식 언어입니다.  DAX는 BI 분석에 �
 * *Storytelling with Data*. Cole Nussbaumer Knafic
 * *Data points*. Nathan Yau
 * *The truthful Art*. Alberto Cairo
-* *Now You See It*. Stephen Few  
-* *Envisioning Information*. Edward Tufte  
+* *Now You See It* by Stephen Few  
+* *Envisioning Information* by Edward Tufte  
 * *Advanced Presentations Design*. Andrew Abela   
 
 ## <a name="next-steps"></a>다음 단계

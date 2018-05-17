@@ -1,14 +1,14 @@
 ---
-title: "X축 및 Y축 속성 사용자 지정(자습서)"
-description: "자습서: X축 및 Y축 속성 사용자 지정"
+title: X축 및 Y축 속성 사용자 지정
+description: X축 및 Y축 속성 사용자 지정
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
+backup: ''
 featuredvideoid: 9DeAKM4SNJM
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 05/16/2017
 ms.service: powerbi
@@ -19,13 +19,13 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d4156429b728718fa89131a46ebd0f5dd5aabf67
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: be31751c8ca6efb4e7b2dbcbd0215a1c7d002df5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="customize-x-axis-and-y-axis-properties-tutorial"></a>X축 및 Y축 속성 사용자 지정(자습서)
+# <a name="customize-x-axis-and-y-axis-properties"></a>X축 및 Y축 속성 사용자 지정
 이 자습서에서는 시각적 개체의 X축 및 Y축을 사용자 지정하는 다양한 방법을 배웁니다. 모든 시각적 개체에 축이 있거나 모든 시각적 개체를 사용자 지정할 수 있는 것은 아닙니다. 예를 들어 원형 차트에는 축이 없습니다. 그리고 사용자 지정 옵션은 시각적 개체마다 다르며, 이 자습서에서 다 다루기에는 너무 많습니다. 따라서 가장 많이 사용되는 축을 몇 개만 살펴보고, Power BI 보고서 캔버스에서 시각적 서식 탭을 사용하는 방법을 익히도록 하겠습니다.  
 
 > [!NOTE]
@@ -88,21 +88,21 @@ Power BI 서비스에 로그인하고 [편집용 보기](service-interact-with-a
 먼저 상점 수가 판매액에 미치는 영향을 보여주는 콤보 차트를 만들어 보겠습니다.  이는 [콤보 차트 자습서](power-bi-visualization-combo-chart.md)에서 만든 것과 동일한 차트입니다. 그런 다음 이중 Y축에 서식을 지정합니다.
 
 ### <a name="create-a-chart-with-two-y-axes"></a>Y축 두 개로 차트 만들기
-1. **시간 > FiscalMonth** 기준 **영업 > 작년의 총 수익률(%)**을 추적하는 새로운 꺾은선형 차트를 만듭니다.
+1. **시간 > FiscalMonth** 기준 **영업 > 작년의 총 수익률(%)** 을 추적하는 새로운 꺾은선형 차트를 만듭니다.
 2. 줄임표(...)를 선택하고 **월별로 정렬**을 선택하여 시각적 개체를 월별로 정렬합니다.
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
 >[NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
 1. 1월에는 GM%가 35%였고, 4월에 45% 고점에 도달했으며, 7월에 감소하고, 8월에 다시 고점에 도달했습니다. 작년과 금년의 매출 패턴이 유사할까요?
-2. **This Year Sales > Value** 및 **Last Year Sales**를 꺾은선형 차트에 추가합니다. **작년 GM%**의 눈금(0M% 눈금선과 함께 있는 파란색 선)은 **매출액** 눈금보다 훨씬 더 작기 때문에 비교하기가 어렵습니다. 또한 Y축 레이블 백분율도 그렇습니다.      
+2. **This Year Sales > Value** 및 **Last Year Sales**를 꺾은선형 차트에 추가합니다. **작년 GM%** 의 눈금(0M% 눈금선과 함께 있는 파란색 선)은 **매출액** 눈금보다 훨씬 더 작기 때문에 비교하기가 어렵습니다. 또한 Y축 레이블 백분율도 그렇습니다.      
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
 5. 보다 쉽게 읽고 해석 가능한 시각적 개체를 만들려면 꺾은선형 차트를 꺾은선형 및 누적 세로 막대형 차트로 변환합니다.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
 
-6. **작년 총수익%**을 **세로 막대 값**에서 **꺾은선형 값**으로 끌어다 놓습니다. 이제 위에서 만든 누적 세로 막대형 차트 ***및*** 꺾은선형 차트가 표시됩니다.  (필요한 경우 위에서 배운 내용을 사용하여 축 글꼴 색 및 크기를 지정합니다.)
+6. **작년 총수익%** 을 **세로 막대 값**에서 **꺾은선형 값**으로 끌어다 놓습니다. 이제 위에서 만든 누적 세로 막대형 차트 ***및*** 꺾은선형 차트가 표시됩니다.  (필요한 경우 위에서 배운 내용을 사용하여 축 글꼴 색 및 크기를 지정합니다.)
    
 
    Power BI가 두 개의 축을 만들기 때문에 데이터 집합의 크기를 다르게 조정할 수 있습니다. 왼쪽은 달러를 측정하고, 오른쪽은 백분율을 측정합니다.
@@ -124,7 +124,7 @@ Power BI 서비스에 로그인하고 [편집용 보기](service-interact-with-a
 ### <a name="add-titles-to-both-axes"></a>두 축에 제목 추가
 이렇게 복잡한 시각화에서는 축 제목을 추가하는 것이 좋습니다.  제목은 동료들이 시각화의 내용을 이해하는 데 도움이 됩니다.
 
-1. **제목**을 **Y축 (열)**과 **Y축 (선)**에 대해 **켜기**를 설정합니다.
+1. **제목**을 **Y축 (열)** 과 **Y축 (선)** 에 대해 **켜기**를 설정합니다.
 2. **스타일** 을 **제목만 표시**로 설정합니다.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)

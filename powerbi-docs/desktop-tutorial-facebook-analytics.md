@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6113ab53e36dd035772c0bd9812f9870a6404eac
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: fe4764de01a490d8d6948a8ab6aa6f09c5a85dbc
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>자습서: Power BI Desktop을 사용한 Facebook 분석
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 04/04/2018
 
 이 자습서에서는 [Microsoft Power BI Facebook 페이지](https://www.facebook.com/microsoftbi)(*https://www.facebook.com/microsoftbi*)의 데이터를 사용합니다. 개인 Facebook 계정을 제외하고 이 페이지에 연결하여 데이터를 가져오는 데는 특별한 자격 증명이 필요하지 않습니다.
 
-1. Power BI Desktop을 열고 **시작** 대화 상자에서 **데이터 가져오기**를 선택하거나, **홈** 리본 탭에서 **데이터 가져오기**를 선택한 다음, **자세히...**를 선택합니다.
+1. Power BI Desktop을 열고 **시작** 대화 상자에서 **데이터 가져오기**를 선택하거나, **홈** 리본 탭에서 **데이터 가져오기**를 선택한 다음, **자세히...** 를 선택합니다.
    
 2. **데이터 가져오기** 대화 상자의 **온라인 서비스** 그룹에서 **Facebook**을 선택한 다음, **연결**을 선택합니다.
    
@@ -154,7 +154,7 @@ ms.lasthandoff: 04/04/2018
    
    ![댓글 수를 기준으로 정렬](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
-5. 가장 많은 댓글이 **공백** 메시지와 연결되어 있었습니다(이러한 게시물은 스토리, 링크, 비디오 또는 기타 텍스트가 아닌 콘텐츠였을 수 있음). 공백 행을 필터링하려면 [시각화] 창의 맨 아래에 있는 **필터**에서 **메시지(모두)**를 선택하고, **모두 선택**을 선택한 다음, **공백**을 선택하여 선택 취소합니다. 필터 항목이 **메시지가 (공백)이 아님**으로 변경되고 공백 행이 차트 시각화에 표시되지 않습니다. 
+5. 가장 많은 댓글이 **공백** 메시지와 연결되어 있었습니다(이러한 게시물은 스토리, 링크, 비디오 또는 기타 텍스트가 아닌 콘텐츠였을 수 있음). 공백 행을 필터링하려면 [시각화] 창의 맨 아래에 있는 **필터**에서 **메시지(모두)** 를 선택하고, **모두 선택**을 선택한 다음, **공백**을 선택하여 선택 취소합니다. 필터 항목이 **메시지가 (공백)이 아님**으로 변경되고 공백 행이 차트 시각화에 표시되지 않습니다. 
    
    ![공백 필터링](media/desktop-tutorial-facebook-analytics/barchart3.png)
    
@@ -227,7 +227,7 @@ ms.lasthandoff: 04/04/2018
 1. 차트를 선택한 채 **서식** 아이콘을 선택하고 드롭다운 화살표를 선택하여 **제목**을 확장합니다.
 2. **제목 텍스트**를 **Comments per post**로 변경합니다. 
 3. **글꼴색** 옆의 드롭다운 화살표를 선택하고 녹색을 선택하여 시각화의 녹색 막대와 일치시킵니다.
-4. **텍스트 크기**를 **10**으로 늘리고 **글꼴 패밀리**를 **Segoe (Bold)**로 변경합니다.
+4. **텍스트 크기**를 **10**으로 늘리고 **글꼴 패밀리**를 **Segoe (Bold)** 로 변경합니다.
 
 ![차트 제목 서식 지정](media/desktop-tutorial-facebook-analytics/formatting1.png)
 

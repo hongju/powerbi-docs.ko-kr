@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 381cfeaf8e117cfdc952e361cd0e6cb633b65f47
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -271,7 +271,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 #### <a name="android-devices"></a>Android 장치
 **미리 보기: Intune 모바일 응용 프로그램 관리** Microsoft Intune 모바일 응용 프로그램 관리자(MAM)에 대한 Power BI 지원은 이제 Android 장치에서 Power BI Pro 사용자를 위한 미리 보기에 있습니다. 
 
-**즐겨찾기** Android 장치에서 즐겨 찾는 대시보드 태그를 지정하고 한 곳에 수집된 [즐겨 찾는 Power BI 대시보드와 Reporting Services 모바일 보고서 및 KPI](mobile-android-tablet-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports)를 모두 보세요. 
+**즐겨찾기** Android 장치에서 즐겨 찾는 대시보드 태그를 지정하고 한 곳에 수집된 [즐겨 찾는 Power BI 대시보드와 Reporting Services 모바일 보고서 및 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports)를 모두 보세요. 
 
 #### <a name="ios-devices"></a>iOS 장치
 **링크** 타일 및 시각화의 URL은 이제 클릭 가능하며 브라우저에서 열립니다.

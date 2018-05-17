@@ -15,19 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 2fd3b599e89646f7bcebbe8b65212765fe76874b
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>자연어 쿼리에 대한 Power BI Desktop의 Q&A 사용
 일반적인 구 및 자연어를 사용하여 데이터에 대해 질문하는 것은 강력한 기능입니다. 훨씬 더 강력한 것은 데이터가 응답할 때입니다. 즉, **Power BI Desktop**의 Q&A를 통해 수행할 수 있는 것입니다.
 
 Q&A가 대응이 가능한 수많은 질문을 성공적으로 해석하도록 하려면 Q&A에서 모델에 대한 가정을 만들어야 합니다. 사용자 모델의 구조가 이러한 가정을 하나 이상 만족하지 못하는 경우 모델을 조정해야 합니다. Q&A에 대한 이러한 조정은 질문과 대답의 사용 여부와 상관 없이 Power BI에서 모든 모델에 대해 동일한 최상의 최적화입니다. 
+
+> [!NOTE]
+> 질문 및 답변은 **가져온** 데이터가 포함된 모델로 작업할 때만 사용할 수 있습니다. SSAS 및 DirectQuery 모델에 대한 라이브 연결은 지원되지 않습니다.
+>
+>
 
 다음 섹션에서는 Power BI의 Q&A가 잘 작동하도록 모델을 조정하는 방법에 대해 설명합니다.
 

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/19/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: decd8a072ba644c9d67a7a0005b752423d32984a
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: bc47a62a7d8854356e482aed9bd86ed51a5d02b9
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI에서 데이터 새로 고침
 항상 최신 데이터를 가져오는 것은 올바른 결정을 내리는 데 중요한 경우가 많습니다. 일부 데이터에 연결하여 업로드하기 위해 Power BI에서 이미 데이터 가져오기를 사용했으며, 일부 보고서와 대시보드를 만들었습니다. 이제, 데이터가 최신이고 가장 좋은 상태임을 확인해야 합니다.
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/22/2018
 
 *데이터 집합* 은 콘텐츠 팩, 파일에 연결하여 데이터를 업로드하기 위해 데이터 가져오기를 사용하거나 라이브 데이터 원본에 연결할 때 Power BI에 자동으로 생성됩니다. Power BI 데스크톱 및 Excel 2016에서, 데이터 가져오기를 사용할 때와 마찬가지로 Power BI 서비스에 파일을 바로 게시할 수도 있습니다.
 
-각 경우에서 데이터 집합이 만들어지고 Power BI 서비스의 내 작업 영역 또는 그룹, 컨테이너에 표시됩니다. 데이터 집합의**줄임표(...)**를 선택하면 보고서의 데이터를 탐색하고, 설정을 편집하고, 새로 고침을 설정할 수 있습니다.
+각 경우에서 데이터 집합이 만들어지고 Power BI 서비스의 내 작업 영역 또는 그룹, 컨테이너에 표시됩니다. 데이터 집합의**줄임표(...)** 를 선택하면 보고서의 데이터를 탐색하고, 설정을 편집하고, 새로 고침을 설정할 수 있습니다.
 
 ![](media/refresh-data/dataset-menu.png)
 
@@ -72,7 +72,7 @@ Power BI 서비스와 OneDrive, 또는 SharePoint Online 간의 Power BI Desktop
 원래 데이터 원본의 데이터로 Power BI 서비스 내의 데이터 집합을 새로 고치는 경우 참조합니다. 예약된 새로 고침 또는 지금 새로 고침 중 하나를 사용하여 수행합니다. 이렇게 하려면 온-프레미스 데이터 원본에 대한 게이트웨이가 필요합니다.
 
 ### <a name="tile-refresh"></a>타일 새로 고침
-데이터가 변경되면 타일 새로 고침은 대시보드에서 타일 시각적 개체에 대한 캐시를 업데이트합니다. 15분마다 발생합니다. 대시보드의 오른쪽 위에서 **줄임표(...)**를 선택하고 **대시보드 타일 새로 고침**을 선택하여 타일 새로 고침을 강제로 적용할 수도 있습니다.
+데이터가 변경되면 타일 새로 고침은 대시보드에서 타일 시각적 개체에 대한 캐시를 업데이트합니다. 15분마다 발생합니다. 대시보드의 오른쪽 위에서 **줄임표(...)** 를 선택하고 **대시보드 타일 새로 고침**을 선택하여 타일 새로 고침을 강제로 적용할 수도 있습니다.
 
 ![](media/refresh-data/dashboard-tile-refresh.png)
 

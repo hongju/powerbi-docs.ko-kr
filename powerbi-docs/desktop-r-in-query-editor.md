@@ -1,28 +1,28 @@
 ---
-title: "Power BI 쿼리 편집기에서 R 사용"
-description: "고급 분석을 위해 Power BI Desktop 쿼리 편집기에서 R 사용"
+title: Power BI 쿼리 편집기에서 R 사용
+description: 고급 분석을 위해 Power BI Desktop 쿼리 편집기에서 R 사용
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ab6d935eb955dea5e2362a1cc52cf30657f4f8df
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 6f5121de914938c78d4eef8a180cabad5e50236d
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="using-r-in-query-editor"></a>쿼리 편집기에서 R 사용
 Power BI Desktop **쿼리 편집기**에서 통계학자, 데이터 과학자 및 데이터 분석에 의해 널리 사용되는 프로그래밍 언어인 **R**을 사용할 수 있습니다. R을 **쿼리 편집기**에 통합하면 R을 사용하여 데이터 정리를 수행하고 누락된 데이터, 예측, 클러스터링을 완성하는 작업을 포함하여 데이터 집합에서 고급 데이터 셰이핑 및 분석을 수행할 수 있습니다. **R**은 강력한 언어이며 **쿼리 편집기**에서 사용하여 데이터 모델을 준비하고 보고서를 만들 수 있습니다.
@@ -100,7 +100,7 @@ Power BI Desktop의 **쿼리 편집기**에서 **R**을 사용하려면 로컬 �
   
   ![](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
   
-  **데이터 원본 설정** 대화 상자에서는 데이터 원본을 선택한 다음, **사용 권한 편집...**을 선택하고 **개인 정보 수준**이 *공용*으로 설정되었는지 확인합니다.
+  **데이터 원본 설정** 대화 상자에서는 데이터 원본을 선택한 다음, **사용 권한 편집...** 을 선택하고 **개인 정보 수준**이 *공용*으로 설정되었는지 확인합니다.
   
   ![](media/desktop-r-in-query-editor/r-in-query-editor_10.png)    
 * R 시각적 개체 또는 데이터 집합의 예정된 새로 고침을 사용하도록 설정하려면 **예약된 새로 고침**을 확성화해야 하고 통합 문서 및 R 설치를 저장하는 컴퓨터에 **개인 게이트웨이**를 설치해야 합니다. 둘 다에 대한 자세한 내용은 이 문서의 이전 섹션을 참조하며 여기서 각각에 대한 자세한 내용을 알아보는 링크를 제공합니다.
