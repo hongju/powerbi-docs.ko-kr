@@ -1,27 +1,19 @@
 ---
-title: "Power BI 보고서 예약된 새로 고침을 구성하는 방법"
-description: "Power BI 보고서에서 데이터를 새로 고치려면 예약된 새로 고침 계획을 만들어야 합니다."
-services: powerbi
-documentationcenter: 
+title: Power BI 보고서 예약된 새로 고침을 구성하는 방법
+description: Power BI 보고서에서 데이터를 새로 고치려면 예약된 새로 고침 계획을 만들어야 합니다.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 2f053c67a4546d8555657a3a3ffa61823e8031ec
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: d8283f1abf05ab788336413bd18582ea71d4e43f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Power BI 보고서 예약된 새로 고침을 구성하는 방법
 Power BI 보고서에서 데이터를 새로 고치려면 예약된 새로 고침 계획을 만들어야 합니다. 이 작업은 Power BI 보고서의 *관리* 영역 내에서 수행됩니다.

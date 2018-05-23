@@ -1,28 +1,20 @@
 ---
 title: Office 365용 Power BI는 사용되지 않음
 description: Office 365용 Power BI는 사용되지 않으며 오늘날의 Power BI를 사용 및 관리하는 방법을 알아봅니다.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: amandacofsky
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: amandacofsky
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 34e739ef47207b2f3fe3f9d5536c7941164bae98
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 024bdce00ba6ec7b9c1027163776a71e77aaf91d
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Office 365용 Power BI는 사용되지 않음
 Office 365용 Power BI, 이전 버전의 Power BI는 현재 버전의 [Power BI](https://powerbi.microsoft.com)로 전환되었습니다. **Office 365용 Power BI**를 한 번 사용한 사용자는 Power BI의 현재 버전을 사용할 수 있습니다. [Power BI에 대해 자세히 알아볼 수 있습니다](service-get-started.md).

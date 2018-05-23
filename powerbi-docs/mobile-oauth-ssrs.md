@@ -1,27 +1,19 @@
 ---
-title: "OAuth를 사용하여 Reporting Services에 연결"
-description: "Reporting Services 2016 이상에 연결하기 위해 Power BI 모바일 앱에서 OAuth 인증을 지원하도록 환경을 구성하는 방법을 알아봅니다."
-services: powerbi
-documentationcenter: 
+title: OAuth를 사용하여 Reporting Services에 연결
+description: Reporting Services 2016 이상에 연결하기 위해 Power BI 모바일 앱에서 OAuth 인증을 지원하도록 환경을 구성하는 방법을 알아봅니다.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: f32fd9585c28fc9a837bea80b57d23f9725a6b49
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="using-oauth-to-connect-to-reporting-services"></a>OAuth를 사용하여 Reporting Services에 연결
 Reporting Services 2016 이상에 연결하기 위해 Power BI 모바일 앱에서 OAuth 인증을 지원하도록 환경을 구성하는 방법을 알아봅니다.
@@ -80,7 +72,7 @@ AD FS 관리 화면 내에서 Power BI 모바일 앱에 대한 정보가 포함�
 
 다음 단계를 통해 응용 프로그램 그룹을 만들 수 있습니다.
 
-1. AD FS 관리 앱 내에서 **응용 프로그램 그룹**을 마우스 오른쪽 단추로 클릭하고 **응용 프로그램 그룹 추가...**를 선택합니다.
+1. AD FS 관리 앱 내에서 **응용 프로그램 그룹**을 마우스 오른쪽 단추로 클릭하고 **응용 프로그램 그룹 추가...** 를 선택합니다.
    
    ![](media/mobile-oauth-ssrs/adfs-add-application-group.png)
 2. 응용 프로그램 그룹 추가 마법사 내에서 응용 프로그램 그룹의 **이름**을 제공하고 **Web API에 액세스하는 네이티브 응용 프로그램**을 선택합니다.
@@ -144,10 +136,10 @@ Active Directory 내의 WAP 서버 컴퓨터 계정에서 제한된 위임을 �
    ![](media/mobile-oauth-ssrs/wap-contrained-delegation1.png)
    
    그러면 이 WAP 서버 컴퓨터 계정에 대한 제한된 위임을 설정하게 됩니다. 그런 다음 이 컴퓨터가 위임할 수 있는 서비스를 지정해야 합니다.
-6. 서비스 상자 아래에서 **추가...**를 선택합니다.
+6. 서비스 상자 아래에서 **추가...** 를 선택합니다.
    
    ![](media/mobile-oauth-ssrs/wap-contrained-delegation2.png)
-7. **사용자 또는 컴퓨터...**를 선택합니다.
+7. **사용자 또는 컴퓨터...** 를 선택합니다.
 8. Reporting Services에 사용하는 서비스 계정을 입력합니다. Reporting Services 구성 내에서 SPN을 추가할 계정입니다.
 9. Reporting Services에 대한 SPN을 선택한 다음 **확인**을 선택합니다.
    

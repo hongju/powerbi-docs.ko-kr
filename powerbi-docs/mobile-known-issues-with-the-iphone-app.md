@@ -1,36 +1,28 @@
 ---
-title: "오류: "
-communication: 
-failures": 
-in: 
-ios: 
-mobile: 
-apps: 
-'-': 
-power: 
-bi": 
-description: "이 문서는 다음 메시지가 표시되는 경우 도움이 될 수 있습니다. '통신 오류가 발생했습니다. Wi-Fi 연결의 프록시 설정과 관련된 오류일 수 있습니다.'"
-services: powerbi
-documentationcenter: 
+title: '오류: '
+communication: ''
+failures": ''
+in: ''
+ios: ''
+mobile: ''
+apps: ''
+'-': ''
+power: ''
+bi": ''
+description: 이 문서는 다음 메시지가 표시되는 경우 도움이 될 수 있습니다. '통신 오류가 발생했습니다. Wi-Fi 연결의 프록시 설정과 관련된 오류일 수 있습니다.'
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 03/07/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 52b6876165c6760bf76715b8eb051299eb07fe0c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2d50f96dc3e29025223143ca2d2c7522b9e8b559
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="error-communication-failures-in-ios-mobile-apps---power-bi"></a>오류: iOS 모바일 앱의 "통신 오류" - Power BI
 | ![iPhone](media/mobile-known-issues-with-the-iphone-app/iphone-logo-50-px.png) | ![iPad](media/mobile-known-issues-with-the-iphone-app/ipad-logo-50-px.png) |

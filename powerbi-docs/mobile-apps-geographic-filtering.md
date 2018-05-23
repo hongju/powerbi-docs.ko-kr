@@ -1,26 +1,18 @@
 ---
-title: "Power BI 모바일 앱의 지리적 위치별 보고서 필터링"
-description: "보고서 소유자가 지리적 태그를 설정하는 경우 Microsoft Power BI 모바일 앱에서 지리적 위치에 따라 보고서를 필터링하는 방법을 알아봅니다."
-services: powerbi
-documentationcenter: 
+title: Power BI 모바일 앱의 지리적 위치별 보고서 필터링
+description: 보고서 소유자가 지리적 태그를 설정하는 경우 Microsoft Power BI 모바일 앱에서 지리적 위치에 따라 보고서를 필터링하는 방법을 알아봅니다.
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 90d6e6f80be49e8d1c2a9605558a57834e24e285
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 31fcc0a8904aa28e32b7192c4d2b56a6f3913a94
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 지리적 위치별 보고서 필터링
 적용 대상:

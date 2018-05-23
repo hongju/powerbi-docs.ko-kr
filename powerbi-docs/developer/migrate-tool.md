@@ -1,27 +1,19 @@
 ---
-title: "Power BI Embedded 마이그레이션 도구"
-description: "이 마이그레이션 도구는 Power BI Embedded Azure 서비스(PaaS)에서 Power BI 서비스(SaaS)로 보고서를 복사하는 데 사용할 수 있습니다."
-services: powerbi
-documentationcenter: 
+title: Power BI Embedded 마이그레이션 도구
+description: 이 마이그레이션 도구는 Power BI Embedded Azure 서비스(PaaS)에서 Power BI 서비스(SaaS)로 보고서를 복사하는 데 사용할 수 있습니다.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/21/2017
 ms.author: maghan
-ms.openlocfilehash: e1892d17b61347379965c192287d2f814640a02d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e404830de9981ba7a2de9af713d20b632cb292f5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 마이그레이션 도구
 이 마이그레이션 도구는 Power BI Embedded Azure 서비스(PaaS)에서 Power BI 서비스(SaaS)로 보고서를 복사하는 데 사용할 수 있습니다.
@@ -165,7 +157,7 @@ ms.lasthandoff: 01/30/2018
 
 ![](media/migrate-tool/migrate-tool-create-groups.png)
 
-앱 작업 영역을 만들기 위해서는 **선택한 그룹 만들기** 또는 **Create All Missing Groups(누락된 모든 그룹 만들기)**를 선택하면 됩니다.
+앱 작업 영역을 만들기 위해서는 **선택한 그룹 만들기** 또는 **Create All Missing Groups(누락된 모든 그룹 만들기)** 를 선택하면 됩니다.
 
 이러한 옵션 중 하나를 선택하면 로그인하라는 메시지가 표시됩니다. *앱 작업 영역을 만들 Power BI 서비스에 대한 자격 증명을 사용합니다.*
 

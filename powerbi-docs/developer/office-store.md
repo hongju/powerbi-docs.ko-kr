@@ -1,27 +1,19 @@
 ---
 title: AppSource에 사용자 지정 시각적 개체 게시
 description: 다른 사람이 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 AppSource에 게시하는 방법을 알아봅니다.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 9730f92a7f50e2e0d0ad824f8a5f74f6a09ded97
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 6ecb9426ba1344fdf55789a22daec6b9fb6c6e89
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource에 사용자 지정 시각적 개체 게시
 다른 사람이 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 AppSource에 게시하는 방법을 알아봅니다. office
@@ -79,7 +71,7 @@ Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [개발자 센터
    
     ![](media/office-store/powerbi-custom-visual-add-an-app.png)
 2. **Power BI 사용자 지정 시각적 개체**와 **다음**을 차례로 선택합니다.
-3. **앱 패키지** 아래 **+**를 선택하고 파일 열기 대화 상자에서 Power BI 팀으로부터 받은 앱 패키지 XML 파일을 선택합니다.
+3. **앱 패키지** 아래 **+** 를 선택하고 파일 열기 대화 상자에서 Power BI 팀으로부터 받은 앱 패키지 XML 파일을 선택합니다.
    
     ![](media/office-store/powerbi-custom-visual-apppackage.png)
 4. 유효한 Power BI 앱 패키지인 승인을 수신합니다.
@@ -94,7 +86,7 @@ Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [개발자 센터
    * *테스팅 메모:* 선택 사항, Microsoft의 테스터에 대한 지침을 제공하려는 경우 입력합니다.
    * *앱에서 암호화를 호출, 지원, 포함 또는 사용합니다.* 를 선택되지 않은 상태로 둡니다.
    * *이 추가 기능을 iPad용 Office 추가 기능 카탈로그에서 제공:* 을 선택되지 않은 상태로 둡니다.
-6. **앱 로고** 아래 **+**를 선택하여 시각적 개체의 로고를 업로드합니다. 그런 다음 파일 열기 대화 상자에서 아이콘 파일을 선택합니다. 파일은 .png, .jpg, .jpeg 또는 .gif 형식이어야 합니다. 정확히 300px(너비) x 300px(높이)이어야 하고 크기는 512KB를 초과할 수 없습니다.
+6. **앱 로고** 아래 **+** 를 선택하여 시각적 개체의 로고를 업로드합니다. 그런 다음 파일 열기 대화 상자에서 아이콘 파일을 선택합니다. 파일은 .png, .jpg, .jpeg 또는 .gif 형식이어야 합니다. 정확히 300px(너비) x 300px(높이)이어야 하고 크기는 512KB를 초과할 수 없습니다.
    
     ![](media/office-store/powerbi-custom-visual-app-logo.png)
 7. **지원 문서** 세부 사항을 입력합니다.
@@ -119,7 +111,7 @@ Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [개발자 센터
 13. 언어 추가가 완료되면 **다음**을 선택하여 **액세스 차단** 페이지로 이동합니다.
 14. 특정 국가나 지역의 고객이 여러분의 앱을 사용하거나 구매하지 못하도록 하려면 해당 확인란을 선택하고 목록에서 선택합니다.
 15. **다음**을 선택하여 **가격 책정** 페이지로 이동합니다.
-16. 현재는 *무료* 시각적 개체만 지원되며 시각적 개체 내 추가 구매(앱에서 바로 구매)는 허용되지 않습니다. **이 앱은 무료입니다.**를 선택합니다. 
+16. 현재는 *무료* 시각적 개체만 지원되며 시각적 개체 내 추가 구매(앱에서 바로 구매)는 허용되지 않습니다. **이 앱은 무료입니다.** 를 선택합니다. 
     
     > [!NOTE]
     > 무료가 아닌 다른 옵션을 선택하거나 제출된 시각적 개체에 앱에서 바로 구매한 콘텐츠가 있는 경우 제출이 거부됩니다.

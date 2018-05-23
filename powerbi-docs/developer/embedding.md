@@ -1,27 +1,19 @@
 ---
-title: "Power BI에 포함"
-description: "Power BI는 대시보드 및 보고서를 응용 프로그램에 포함하기 위한 API를 제공합니다."
-services: powerbi
-documentationcenter: 
+title: Power BI에 포함
+description: Power BI는 대시보드 및 보고서를 응용 프로그램에 포함하기 위한 API를 제공합니다.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/30/17
-ms.author: mihart
-ms.openlocfilehash: 4d112ae4c25f080a3eb90de596c056366da3fe1d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.component: powerbi-developer
+ms.topic: conceptual
+ms.date: 11/30/2017
+ms.author: maghan
+ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="embedding-with-power-bi"></a>Power BI에 포함
 Power BI는 대시보드 및 보고서를 응용 프로그램에 포함하기 위한 API를 제공합니다. 또한 콘텐츠를 포함할 경우 일관된 기능은 물론, 대시보드, 게이트웨이 및 앱 작업 영역과 같은 최신 Power BI 기능에 액세스 권한을 제공합니다.

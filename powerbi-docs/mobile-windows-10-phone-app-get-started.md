@@ -1,27 +1,19 @@
 ---
-title: "Windows 10용 Power BI 모바일 앱 시작"
-description: "Windows 10용 Power BI 모바일 앱은 태블릿이나 휴대폰에서 비즈니스 정보에 대한 터치 기반의 최신 모바일 액세스를 제공합니다."
-services: powerbi
-documentationcenter: 
+title: Windows 10용 Power BI 모바일 앱 시작
+description: Windows 10용 Power BI 모바일 앱은 태블릿이나 휴대폰에서 비즈니스 정보에 대한 터치 기반의 최신 모바일 액세스를 제공합니다.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: 6cd1c8aec1bf31a8cae43074531014cbeef71bd5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
 Windows 10용 Power BI 모바일 앱은 태블릿이나 폰에 Power BI를 통해 비즈니스 정보에 대한 터치 기반의 최신 모바일 액세스를 제공합니다. 어디서든 [Windows 시작 화면](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)에서 회사 대시보드를 보고 조작할 수 있습니다.

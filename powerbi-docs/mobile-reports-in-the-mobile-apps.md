@@ -1,27 +1,19 @@
 ---
 title: Power BI 모바일 앱에서 보고서 탐색
 description: 휴대폰 또는 태블릿의 Power BI 모바일 앱에서 보고서를 보고 상호 작용하는 방법에 대해 알아봅니다. Power BI 서비스 또는 Power BI Desktop에서 보고서를 만든 다음 모바일 앱에서 보고서와 상호 작용합니다.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: a7bd77ec65fd3897c6e9af9acd2a20a229565415
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:

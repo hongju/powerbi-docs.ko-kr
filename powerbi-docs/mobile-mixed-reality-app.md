@@ -1,27 +1,19 @@
 ---
 title: 혼합 현실용 Power BI 앱(미리 보기)
 description: 가상 환경 또는 사용자 환경 컨텍스트에서 사용하는 동안 혼합 현실용 Power BI 앱에서 대시보드 및 보고서를 봅니다.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: ''
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 4226973fa48470faf46db68509b05eb02d88c113
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 299f8c0997c980da6011f9052fbb9c0ac86b4ae0
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>혼합 현실용 Power BI 앱(미리 보기)
 가상 환경을 사용하는 동안 혼합 현실용 Power BI 앱에서 대시보드 및 보고서를 확인하거나 사용자 환경 컨텍스트의 특정 위치에 배치합니다. 

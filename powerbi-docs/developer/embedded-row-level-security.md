@@ -1,27 +1,19 @@
 ---
-title: "Power BI Embedded 콘텐츠에서 행 수준 보안 사용"
-description: "응용 프로그램 내에서 Power BI 콘텐츠를 포함하는 데 필요한 단계에 대해 알아봅니다."
-services: powerbi
-documentationcenter: 
+title: Power BI Embedded 콘텐츠에서 행 수준 보안 사용
+description: 응용 프로그램 내에서 Power BI 콘텐츠를 포함하는 데 필요한 단계에 대해 알아봅니다.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 0d7127d43e2764e1dcd15f7052b3367c8629d2f6
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 218f4cd0aaaa5ffc8cab3a06b06af9544b02143d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI Embedded 콘텐츠에서 행 수준 보안 사용
 행 수준 보안(RLS)를 사용하여 대시보드, 타일, 보고서 및 데이터 집합 내 데이터에 대한 사용자 액세스를 제한할 수 있습니다. 여러 사용자가 다른 데이터를 보면서 동일한 아티팩트를 작업할 수 있습니다. RLS 포함이 지원됩니다.
@@ -54,7 +46,7 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 집합 및 보고서를
 
 * **총 판매액**과 같은 모든 측정값 **영업** 팩트 테이블에 저장됩니다.
 * 관련 추가 차원 테이블에는 **항목**, **시간**, **저장소** 및 **구역**이라는 네 가지 항목이 있습니다.
-* 관계선의 화살표는 필터가 테이블 간에 이동할 수 있는 방식을 나타냅니다. 예를 들어, 필터가 **시간[날짜]**에 배치되면 현재 스키마에서는 **영업** 테이블에 있는 값만을 필터링합니다. 관계선에 있는 모든 화살표가 다른 방향이 아닌 판매 테이블을 가리키기 때문에 다른 테이블은 이 필터의 영향을 받지 않습니다.
+* 관계선의 화살표는 필터가 테이블 간에 이동할 수 있는 방식을 나타냅니다. 예를 들어, 필터가 **시간[날짜]** 에 배치되면 현재 스키마에서는 **영업** 테이블에 있는 값만을 필터링합니다. 관계선에 있는 모든 화살표가 다른 방향이 아닌 판매 테이블을 가리키기 때문에 다른 테이블은 이 필터의 영향을 받지 않습니다.
 * **구역** 테이블은 각 지역에 있는 관리자를 나타냅니다.
   
     ![구역 테이블 내의 행](media/embedded-row-level-security/powerbi-embedded-district-table.png)

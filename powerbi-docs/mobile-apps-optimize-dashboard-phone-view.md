@@ -1,27 +1,19 @@
 ---
-title: "휴대폰에 적합하도록 Power BI 대시보드 최적화"
-description: "특히 휴대폰에서 보기 편하도록 대시보드의 사용자 지정된 보기를 쉽게 만들 수 있습니다. 지금 해보세요."
-services: powerbi
-documentationcenter: 
+title: 휴대폰에 적합하도록 Power BI 대시보드 최적화
+description: 특히 휴대폰에서 보기 편하도록 대시보드의 사용자 지정된 보기를 쉽게 만들 수 있습니다. 지금 해보세요.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: e31e64aff0801cacaf02b7ea33e6ed3885dd349c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 45c426c3750d25cc262d0b1ddafc63307500fa00
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="optimize-power-bi-dashboard-for-phones"></a>휴대폰에 적합하도록 Power BI 대시보드 최적화
 ### <a name="anytime-is-the-right-time-to-create-a-great-dashboard"></a>언제든지 유용한 대시보드를 만들 수 있습니다.

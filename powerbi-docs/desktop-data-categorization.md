@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop의 데이터 분류
 description: Power BI Desktop의 데이터 분류
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f5eb26eee9bedbdd804dfba1912a1aa328310816
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 9fa7310b3d0a20a588b2cc26fc0df177f3d0ab70
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop의 데이터 분류
 **Power BI Desktop**에서는 열의 데이터 범주를 지정하여 시각화에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다.

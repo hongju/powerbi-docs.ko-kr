@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop에서 Power BI 서비스의 데이터 집합에 연결
 description: 여러 Power BI Desktop 보고서에 대해 일반적인 데이터 집합 사용 및 보고 주기 관리
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 04d622bd6cc2c4d0cc00b02bbd538e721bebf133
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop에서 Power BI 서비스의 데이터 집합에 연결
 Power BI 서비스에서 공유 데이터 집합에 대한 라이브 연결을 설정하고 동일한 데이터 집합에서 다양한 보고서를 만들 수 있습니다. 즉, Power BI Desktop에서 완벽한 데이터 모델을 만들고 이를 Power BI 서비스에 게시하면 사용자가 동일한 공통 데이터 모델에서 여러 개의 다른 보고서(별도의 .pbix 파일)를 작성할 수 있습니다. 이 기능을 **Power BI 서비스 라이브 연결**이라고 합니다.

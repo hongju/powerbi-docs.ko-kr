@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop에서 Adobe Analytics에 연결
 description: Adobe Analytics Power BI Desktop에서 쉽게 연결하여 사용
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4488cd373fae22c4494ac697602536496ffc9b00
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: f54aa5a67739a3ad6f9ea0a42f8a2b872e51d52d
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Power BI Desktop에서 Adobe Analytics에 연결 
 **Power BI Desktop**에서 **Adobe Analytics**에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다. 

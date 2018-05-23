@@ -1,28 +1,20 @@
 ---
 title: Power BI의 DirectQuery에서 지원하는 데이터 원본
 description: DirectQuery를 사용할 수 있는 데이터 원본 목록을 가져옵니다.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcd8e4705fe5ee3a3a567c0e7a44a5a4d1a73e76
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: e36f8596141ab5d7ad82ffecb808b7d684334923
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI의 DirectQuery에서 지원하는 데이터 원본
 **Power BI Desktop** 및 **Power BI 서비스**에는 데이터에 연결하고 액세스할 수 있는 많은 데이터 원본이 포함되어 있습니다. 이 문서에서는 **DirectQuery**라는 연결 방법을 지원하는 Power BI의 데이터 원본에 대해 설명합니다. DirectQuery에 대한 자세한 내용은 [**Power BI의 DirectQuery**](desktop-directquery-about.md)를 참조하세요.
@@ -46,7 +38,7 @@ ms.lasthandoff: 03/22/2018
 * Teradata 데이터베이스
 * Vertica(베타)
 
-뒤에 **(베타)** 또는 **(미리 보기)**가 있는 데이터 원본은 이름이 변경될 수 있으며 프로덕션 용도로 지원되지 않습니다. 또한 **Power BI 서비스**에 보고서를 게시한 후에도 게시된 보고서를 열거나 데이터 집합을 탐색할 때 오류가 발생할 수 있으므로 지원되지 않을 수 있습니다.
+뒤에 **(베타)** 또는 **(미리 보기)** 가 있는 데이터 원본은 이름이 변경될 수 있으며 프로덕션 용도로 지원되지 않습니다. 또한 **Power BI 서비스**에 보고서를 게시한 후에도 게시된 보고서를 열거나 데이터 집합을 탐색할 때 오류가 발생할 수 있으므로 지원되지 않을 수 있습니다.
 
 **(베타)** 및 **(미리 보기)** 데이터 원본 간의 유일한 차이점은 **(미리 보기)** 원본은 사용 가능해질 때까지 미리 보기 기능으로만 사용할 수 있어야 합니다. **(미리 보기)** 데이터 커넥터를 사용하도록 설정하려면 **Power BI Desktop**에서 **파일 > 옵션 및 설정 > 옵션**으로 이동한 다음, **미리 보기 기능**을 선택합니다.
 

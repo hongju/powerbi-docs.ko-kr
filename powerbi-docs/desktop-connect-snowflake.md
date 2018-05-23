@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop에서 Snowflake Computing 웨어하우스에 연결
 description: Power BI Desktop에서 Snowflake 컴퓨팅 웨어하우스에 쉽게 연결하고 사용합니다.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bd49252101df0009b2a25b5cdf3b77f79d86510e
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 7d89ea7453a74470a73786bb8001c35db9252158
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Power BI Desktop에서 Snowflake에 연결
 Power BI Desktop에서 **Snowflake** 컴퓨팅 웨어하우스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다. 

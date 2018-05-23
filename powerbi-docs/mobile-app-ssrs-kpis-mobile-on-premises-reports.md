@@ -1,27 +1,19 @@
 ---
-title: "Power BI 모바일 앱에서 온-프레미스 보고서 및 KPI 보기"
-description: "SQL Server Reporting Services 및 Power BI Report Server에서 Power BI 모바일 앱은 온-프레미스 비즈니스 정보에 대한 터치 기반 라이브 모바일 액세스를 제공합니다."
-services: powerbi
-documentationcenter: 
+title: Power BI 모바일 앱에서 온-프레미스 보고서 및 KPI 보기
+description: SQL Server Reporting Services 및 Power BI Report Server에서 Power BI 모바일 앱은 온-프레미스 비즈니스 정보에 대한 터치 기반 라이브 모바일 액세스를 제공합니다.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: 4277a8353fa6d9538ff050f0c08b9644d4a218c6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 온-프레미스 보고서 서버 보고서 및 KPI 보기
 적용 대상:

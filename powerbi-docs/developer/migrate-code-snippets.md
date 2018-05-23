@@ -1,27 +1,19 @@
 ---
-title: "Power BI Embedded에서 콘텐츠 마이그레이션을 위한 코드 조각"
-description: "다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다."
-services: powerbi
-documentationcenter: 
+title: Power BI Embedded에서 콘텐츠 마이그레이션을 위한 코드 조각
+description: 다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 8fbefc7f1b6a9841dcb9c3d34d850c7e8e392881
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션에서 콘텐츠 마이그레이션을 위한 코드 조각
 다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다. 특정 보고서 형식에 대한 관련 흐름은 [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md#content-migration)을 참조하세요.
@@ -149,7 +141,7 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
     }
 
     var basicCreds = new BasicCreds() { user = <sqldb_username>, pwd = <sqldb_password> };
-    var body = new SetCredsRequestBody() { credentialType = "Basic", basicCreds = basicCreds };
+    var body = new SetCredsRequestBody() { credentialType = "Basic", basicCredentials = basicCreds };
 
     var url = string.Format("https://api.powerbi.com/v1.0/myorg/gateways/{0}/datasources/{1}", <gateway_id>, <datasource_id>);
     var request = new HttpRequestMessage(new HttpMethod("PATCH"), url);

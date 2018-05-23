@@ -1,27 +1,19 @@
 ---
-title: "Power BI Mobile Apps에서 데이터 경고 설정"
-description: "대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 Power BI Mobile Apps에서 데이터 경고를 설정하는 방법을 알아봅니다."
-services: powerbi
-documentationcenter: 
+title: Power BI Mobile Apps에서 데이터 경고 설정
+description: 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 Power BI Mobile Apps에서 데이터 경고를 설정하는 방법을 알아봅니다.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: aa4aac1b0628fb0670a4265095ba2abcae3c1dcf
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI Mobile Apps에서 데이터 경고 설정
 적용 대상:

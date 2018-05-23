@@ -1,27 +1,19 @@
 ---
 title: 포함된 Power BI 콘텐츠에 앱 등록
 description: Power BI 콘텐츠 포함에 사용하기 위해 Azure Active Directory 내에서 응용 프로그램을 등록하는 방법에 대해 알아봅니다.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 6dad138407c80a1caab8b3aca4668504bdf2c382
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: 8c40ccac8eff2775b09cf9761fba52e6f8a6cd45
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>포함된 Power BI 콘텐츠에 Azure AD 앱 등록
 Power BI 콘텐츠 포함에 사용하기 위해 Azure AD(Azure Active Directory) 내에서 응용 프로그램을 등록하는 방법에 대해 알아봅니다.

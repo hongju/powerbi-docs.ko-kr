@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop에서 DirectQuery 사용
 description: Power BI Desktop에서 DirectQuery(라이브 연결이라고도 함) 사용
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bc6407b83a11fe3d609eedb7324cf93c62eab951
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 7ff30c5852b1ec444c2842f614fe5c9ec198918e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery 사용
 **Power BI Desktop**을 사용하여 데이터 원본에 연결할 때 항상 데이터의 복사본을 **Power BI Desktop**으로 가져올 수 있습니다. 일부 데이터 원본의 경우 다른 방법을 사용할 수 있습니다. **DirectQuery**를 사용하여 데이터 원본에 직접 연결합니다.

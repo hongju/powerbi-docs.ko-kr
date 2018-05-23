@@ -1,27 +1,19 @@
 ---
-title: "조직의 앱에 대시보드 통합"
-description: "Power BI API를 사용하여 웹앱에 대시보드를 통합하고 포함하는 방법을 알아봅니다."
-services: powerbi
-documentationcenter: 
+title: 조직의 앱에 대시보드 통합
+description: Power BI API를 사용하여 웹앱에 대시보드를 통합하고 포함하는 방법을 알아봅니다.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: e85b745798fd33ffbb5061f4c156054d2218bfb1
-ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
+ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>조직의 앱에 대시보드 통합
 조직에 대한 콘텐츠를 포함할 때 Power BI JavaScript API와 함께 REST API 호출을 사용하여 대시보드를 웹앱에 통합하거나 포함하는 방법에 대해 알아봅니다.

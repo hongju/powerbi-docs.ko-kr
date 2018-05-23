@@ -1,27 +1,19 @@
 ---
-title: "Surface Hub, Windows 10에서 프레젠테이션 모드 보기 - Power BI I"
-description: "Surface Hub에서 Power BI 보고서를 표시하고 Windows 10 장치에서 전체 화면 모드로 Power BI 대시보드, 보고서 및 타일을 표시하는 방법을 알아보세요."
-services: powerbi
-documentationcenter: 
+title: Surface Hub, Windows 10에서 프레젠테이션 모드 보기 - Power BI I
+description: Surface Hub에서 Power BI 보고서를 표시하고 Windows 10 장치에서 전체 화면 모드로 Power BI 대시보드, 보고서 및 타일을 표시하는 방법을 알아보세요.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: cd4fa5d694b76a93ccb017ec17473e8f2775ed85
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 13bfd1d587d59c1c87f03605dbe62f60fa90f5c6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Surface Hub, Windows 10에서 프레젠테이션 모드로 보고서 보기 - Power BI
 Surface Hub에서 보고서를 프레젠테이션 모드로 표시하고 Windows 10 장치에서 대시보드, 보고서 및 타일을 전체 화면 모드로 표시할 수 있습니다. 

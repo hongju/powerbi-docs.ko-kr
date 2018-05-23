@@ -1,27 +1,19 @@
 ---
-title: "Power BI에서 사용할 Azure Active Directory 테넌트 만들기"
-description: "Power BI REST API를 사용하여 사용자 지정 응용 프로그램에 사용할 새 Azure AD(Azure Active Directory) 테넌트를 만드는 방법을 알아봅니다."
-services: powerbi
-documentationcenter: 
+title: Power BI에서 사용할 Azure Active Directory 테넌트 만들기
+description: Power BI REST API를 사용하여 사용자 지정 응용 프로그램에 사용할 새 Azure AD(Azure Active Directory) 테넌트를 만드는 방법을 알아봅니다.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: b860bd57baa05bc718a51555ecb1118c306f5216
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: fd981b2f0c6e012444501a8a651092e11c3edf75
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI에서 사용할 Azure Active Directory 테넌트 만들기
 Power BI REST API를 사용하여 사용자 지정 응용 프로그램에 사용할 새 Azure AD(Azure Active Directory) 테넌트를 만드는 방법을 알아봅니다.
@@ -40,7 +32,7 @@ Power BI를 사용자 지정 응용 프로그램에 통합하기 위해서는 Az
 새 Azure AD 테넌트를 만들려면 다음을 수행합니다.
 
 1. [Azure Portal](https://portal.azure.com)로 이동하여 Azure 구독이 있는 계정으로 로그인합니다.
-2. **더하기 아이콘(+)**을 선택하고 *Azure Active Directory*를 검색합니다.
+2. **더하기 아이콘(+)** 을 선택하고 *Azure Active Directory*를 검색합니다.
    
     ![](media/create-an-azure-active-directory-tenant/new-directory.png)
 3. 검색 결과에서 **Azure Active Directory**를 선택합니다.

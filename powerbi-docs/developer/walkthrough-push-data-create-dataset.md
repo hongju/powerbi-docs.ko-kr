@@ -1,34 +1,26 @@
 ---
-title: "데이터 집합 만들기"
-description: "연습 - 데이터 집합에 데이터 푸시 - Power BI에서 데이터 집합 만들기"
-services: powerbi
-documentationcenter: 
+title: 데이터 집합 만들기
+description: 연습 - 데이터 집합에 데이터 푸시 - Power BI에서 데이터 집합 만들기
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 31677a3d92ece6944825eccad190863f67c3a145
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3단계: Power BI에서 데이터 집합 만들기
 이 문서는 [데이터 집합에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
 데이터 집합에 데이터 푸시의 **2단계**인 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 **Azure AD**에 인증한 토큰을 가져왔습니다. 이 단계에서는 이 토큰을 사용하여 [데이터 집합 만들기](https://msdn.microsoft.com/library/mt203562.aspx) 작업을 호출합니다.
 
-REST 리소스를 호출하려면 리소스를 찾는 URL을 사용하여 데이터 집합을 설명하는 JSON(JavaScript Object Notation) 문자열을 Power BI 서비스 리소스에 보냅니다. REST 리소스는 작업할 Power BI 서비스 부분을 식별합니다. 데이터 집합에 데이터를 푸시하려면 대상 리소스는 **데이터 집합**입니다. 데이터 집합을 식별하는 URL은 https://api.PowerBI.com/v1.0/myorg/datasets입니다. 그룹 내에서 데이터를 푸시하는 경우 URL은 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets입니다.
+REST 리소스를 호출하려면 리소스를 찾는 URL을 사용하여 데이터 집합을 설명하는 JSON(JavaScript Object Notation) 문자열을 Power BI 서비스 리소스에 보냅니다. REST 리소스는 작업할 Power BI 서비스 부분을 식별합니다. 데이터 집합에 데이터를 푸시하려면 대상 리소스는 **데이터 집합**입니다. 데이터 집합을 식별하는 URL은 https://api.PowerBI.com/v1.0/myorg/datasets입니다. 그룹 내의 데이터를 푸시하는 경우 URL은 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets입니다.
 
 Power BI REST 작업을 인증하려면 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 가져온 토큰을 요청 헤더에 추가합니다.
 
@@ -44,7 +36,7 @@ Power BI에서 데이터 집합을 만드는 방법은 다음과 같습니다.
 > 
 > 
 
-1. [2단계 - 인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 만든 콘솔 응용 프로그램 프로젝트에서 **using System.Net;** 및 **using System.IO;**를 Program.cs에 추가합니다.
+1. [2단계 - 인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 만든 콘솔 응용 프로그램 프로젝트에서 **using System.Net;** 및 **using System.IO;** 를 Program.cs에 추가합니다.
 2. Program.cs에서 아래 코드를 추가합니다.
 3. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. **만든 데이터 집합** 이 콘솔 창에 표시됩니다. Power BI에 로그인하여 새 데이터 집합을 볼 수도 있습니다.
 

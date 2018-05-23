@@ -1,28 +1,20 @@
 ---
 title: Office 365 전용 고객 - 알려진 문제
 description: Office 365 전용 고객 지원 - 알려진 문제 이 항목에서는 Office 365 전용 고객과 관련된 문제를 설명합니다. 여기에는 베니티 도메인을 사용하는 iPhone 앱뿐만 아니라 그룹 기능에 대한 제한 사항도 포함되어 있습니다.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4ba9aaf309e7cc749ee9293b0bb906a26b81e59c
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: cedb3e1572fbf20a32abe4f28b38030539502124
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Office 365 전용 고객 - 알려진 문제
 이제 Power BI에서 Office 365 전용 고객을 지원합니다.  O365 전용 고객인 경우 테넌트의 계정으로 로그인하여 Power BI를 사용할 수 있습니다. 현재 두 가지 알려진 문제가 있습니다.

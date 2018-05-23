@@ -1,27 +1,19 @@
 ---
 title: Power BI 대시보드, 보고서 및 타일을 포함하는 방법
 description: 응용 프로그램 내에서 Power BI 콘텐츠를 포함하는 데 필요한 단계에 대해 알아봅니다.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: 2caf5adc442a5794a23e3ed5af478f5467068b14
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 6824436af46caaa78d5ae23d1e1047f27bd30bba
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI 대시보드, 보고서 및 타일 포함
 
