@@ -1,28 +1,20 @@
 ---
 title: 멋진 Power BI 대시보드를 디자인하기 위한 팁
 description: 멋진 Power BI 대시보드를 디자인하기 위한 팁
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9d71d417a2d7beb7f968bf18fc6de90794663ec8
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>멋진 Power BI 대시보드를 디자인하기 위한 팁
 이제 대시보드를 만들고 일부 타일을 추가했으므로 모양과 기능을 개선하는 방법을 살펴보겠습니다. 일반적으로 여기에는 가장 중요한 정보를 돋보이게 하고 깔끔하며 군더더기 없이 만드는 것이 포함됩니다.
@@ -34,7 +26,7 @@ ms.lasthandoff: 04/16/2018
 >
 >
 
-## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>[대시보드 변경 웨비나](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)를 시청합니다.
+## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>[대시보드 변경 웹 세미나](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)를 시청합니다.
 Microsoft의 수석 프로그램 관리자이며 Power BI 대시보드 전문가인 Marc Reguera가 [대시보드 변경을 실시](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)하는 것을 참조하세요.
 
 ## <a name="consider-your-audience"></a>대상 그룹을 고려
@@ -45,7 +37,7 @@ Microsoft의 수석 프로그램 관리자이며 Power BI 대시보드 전문가
 대시보드가 어디에 표시될 예정인가요? 큰 모니터에 표시될 예정이라면 대시보드에 더 많은 콘텐츠를 넣을 수 있습니다. 독자는 자신의 태블릿으로 대시보드를 확인하므로 타일 수가 적을수록 읽기 편합니다.
 
 ## <a name="tell-a-story-and-keep-it-to-one-screen"></a>스토리를 말하고 한 화면으로 유지
-대시보드는 중요한 정보를 한눈에 볼 수 있도록 하는 것이므로 모든 타일을 한 화면에 포함하는 것이 가장 좋습니다. 대시보드에서 스크롤 막대 사용을 피할 수 있나요?
+대시보드는 중요한 정보를 한 눈에 볼 수 있도록 하는 것이므로 모든 타일을 한 화면에 포함하는 것이 가장 좋습니다. 대시보드에서 스크롤 막대 사용을 피할 수 있나요?
 
 대시보드가 너무 복잡한가요?  필수 정보를 쉽게 읽고 해석할 수 있도록 군더더기 제거
 
@@ -80,11 +72,11 @@ Microsoft의 수석 프로그램 관리자이며 Power BI 대시보드 전문가
 ## <a name="learning-more-about-best-practice-dashboard-design"></a>모범 사례 대시보드 디자인에 대해 자세히 알아보기
 뛰어난 대시보드 디자인 기법을 마스터하려면 시각적 인식 및 상황에 따라 조치 가능한 정보를 명확히 전달하는 방법에 대한 기본적인 게슈탈트(Gestalt) 이론을 학습하는 것이 좋습니다. 다행히 이에 대한 광범위한 리소스가 이미 제공되고 있으며 블로그에도 올라와 있습니다. 다음은 몇 가지 유용한 설명서입니다.
 
-* *Information Dashboard Design*. Stephen Few  
-* *Show Me the Numbers*. Stephen Few  
-* *Now You See It*. Stephen Few  
-* *Envisioning Information*. Edward Tufte  
-* *Advanced Presentations by Design*. Andrew Abela   
+* *Information Dashboard Design* by Stephen Few  
+* *Show Me the Numbers* by Stephen Few  
+* *Now You See It* by Stephen Few  
+* *Envisioning Information* by Edward Tufte  
+* *Advanced Presentations* by Design by Andrew Abela   
 
 ## <a name="next-steps"></a>다음 단계
 [보고서에서 대시보드 만들기](service-dashboard-create.md)  

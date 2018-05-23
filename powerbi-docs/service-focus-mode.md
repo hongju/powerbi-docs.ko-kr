@@ -1,29 +1,21 @@
 ---
 title: 포커스 모드 - 자세한 내용을 보려면 단일 시각화에서 확대합니다.
 description: Power BI 대시보드 타일 또는 팝아웃이라고 하는 포커스 모드의 보고서 시각화를 표시하는 방법에 대한 설명서입니다.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3073fb3515dd90e676d38a1f89aca4c66445cd1f
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 367a6b9b5de4d052dac3ca3b80be5f4037467646
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>포커스 모드에서 대시보드 타일 또는 보고서 시각적 개체 표시
 

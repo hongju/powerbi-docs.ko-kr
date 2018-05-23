@@ -1,28 +1,20 @@
 ---
 title: 대형 데이터 집합을 위한 Power BI 프리미엄 지원
 description: Power BI 프리미엄은 이제 최대 10GB의 데이터 집합을 지원합니다.
-services: powerbi
-documentationcenter: ''
 author: jocaplan
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 02/27/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: 1c617624d93dfa6c4193c77d36b6f6cec2992a03
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: fa05fd6808ebe78d5d17e2ad3d93fbcf22f7d3c9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>대형 데이터 집합을 위한 Power BI 프리미엄 지원
 

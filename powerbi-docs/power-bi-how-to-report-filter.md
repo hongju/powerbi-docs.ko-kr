@@ -1,28 +1,20 @@
 ---
 title: Power BI 필터 창 개요
 description: Power BI 서비스 및 Power BI 대시보드의 보고서 필터 창에 대한 개요
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>보고서 필터 창 둘러보기
 이 문서에서는 보고서 필터 창을 자세히 살펴봅니다. [Power BI 서비스 편집용 보기 및 읽기용 보기](service-reading-view-and-editing-view.md)와 [Power BI Desktop 보고서 뷰](desktop-report-view.md)의 창을 확인합니다.
@@ -41,7 +33,7 @@ Power BI 서비스에서 보고서는 필터 창에서 수행한 모든 변경 �
 
 ![](media/power-bi-how-to-report-filter/power-bi-filter-list.png)
 
-일부 필터는 필터 옆에 **All**이라는 단어가 있으며 이는 모든 값이 필터에 포함되고 있는 것을 의미합니다.  예를 들어 아래 스크린샷의 **Chain(All)**은 이 보고서 페이지가 모든 상점 체인에 대한 데이터를 포함한다는 것을 알려줍니다.  반면 **FiscalYear는 2013 또는 2014입니다**의 보고서 수준 필터는 보고서가 2013 및 2014년의 회계 연도에 대한 데이터만을 포함한다는 것을 알려줍니다.
+일부 필터는 필터 옆에 **All**이라는 단어가 있으며 이는 모든 값이 필터에 포함되고 있는 것을 의미합니다.  예를 들어 아래 스크린샷의 **Chain(All)** 은 이 보고서 페이지가 모든 상점 체인에 대한 데이터를 포함한다는 것을 알려줍니다.  반면 **FiscalYear는 2013 또는 2014입니다**의 보고서 수준 필터는 보고서가 2013 및 2014년의 회계 연도에 대한 데이터만을 포함한다는 것을 알려줍니다.
 
 이 보고서를 보는 모든 사용자가 이 필터와 상호 작용할 수 있습니다.
 
@@ -82,7 +74,7 @@ Power BI 서비스에서 보고서는 필터 창에서 수행한 모든 변경 �
  고급 또는 기본 필터링 모드에서 지우개 아이콘 ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg)을 선택하여 필터를 지웁니다. 
 
 ## <a name="add-a-filter"></a>필터 추가
-* 데스크톱 및 Power BI 서비스 편집용 보기의 필드 창에서 필드를 선택하고 적절한 필터 웰로 끌어 놓아 시각적 개체, 페이지, 드릴스루 또는 보고서에 필터를 추가합니다. 여기에서 **여기에 필드를 끌어 놓으세요.**라는 메시지가 표시됩니다. 필드가 필터로 추가되면 기본 필터링 및 고급 필터링 제어를 사용하여 미세 조정합니다(아래 설명 참조).
+* 데스크톱 및 Power BI 서비스 편집용 보기의 필드 창에서 필드를 선택하고 적절한 필터 웰로 끌어 놓아 시각적 개체, 페이지, 드릴스루 또는 보고서에 필터를 추가합니다. 여기에서 **여기에 필드를 끌어 놓으세요.** 라는 메시지가 표시됩니다. 필드가 필터로 추가되면 기본 필터링 및 고급 필터링 제어를 사용하여 미세 조정합니다(아래 설명 참조).
 
 - **시각적 개체 수준 필터 영역으로 새 필드 끌어서 놓기는 해당 필드를 시각적 개체에 추가하지 않지만** 이 새 필드와 함께 시각적 개체를 필터링할 수 있습니다. 아래 예제에서 **Chain**이 새 필터로 시각적 개체에 추가됩니다. 단순히 **Chain**을 필터로 추가하는 것은 기본 또는 고급 필터링 제어를 사용할 때까지 시각적 개체를 변경하지 않습니다.
 

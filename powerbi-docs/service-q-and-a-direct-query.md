@@ -1,28 +1,20 @@
 ---
 title: 라이브 연결로 질문 및 답변 사용
 description: Analysis Services 데이터 및 온-프레미스 데이터 게이트웨이에 대한 라이브 연결로 Power BI 질문 및 답변 자연어 쿼리 사용에 대한 설명서입니다.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: mihart
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: mihart
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c6fa26d85d362af0d66276509f4e52ba718d338a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>라이브 연결로 질문 및 답변 사용
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>온-프레미스 데이터 게이트웨이란 무엇인가요?  라이브 연결이란?

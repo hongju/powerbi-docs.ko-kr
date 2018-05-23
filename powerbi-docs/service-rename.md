@@ -1,28 +1,20 @@
 ---
-title: "대시보드, 보고서, 작업 영역, 보고서 페이지, 데이터 집합 이름 바꾸기"
-description: "Power BI 서비스에서 거의 모든 항목의 이름을 바꿉니다."
-services: powerbi
-documentationcenter: 
+title: 대시보드, 보고서, 작업 영역, 보고서 페이지, 데이터 집합 이름 바꾸기
+description: Power BI 서비스에서 거의 모든 항목의 이름을 바꿉니다.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: cdea6474901dad27a4155b80fb605502102201a5
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 항목의 이름 바꾸기
 이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 보고서 페이지, 통합 문서, 데이터 집합, 앱 및 작업 영역의 이름을 변경하는 방법을 안내합니다.

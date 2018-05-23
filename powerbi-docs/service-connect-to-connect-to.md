@@ -1,28 +1,20 @@
 ---
 title: Power BI로 comScore Digital Analytix에 연결
 description: Power BI용 comScore Digital Analytix
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c7e476cb9e5a210ce2d37691c44ed05dd9f3c256
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bc9a8637416bdea50e955c1aea73bbcfeed51bb6
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Power BI로 comScore Digital Analytix에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 comScore Digital Analytix 데이터를 보고 탐색합니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다.
@@ -71,7 +63,7 @@ comScore DAx 사용자 계정과 comScore DAx API에 대한 액세스는 연결�
 
 연결하는 데이터 센터는 comScore에서 이동하는 URL에 의해 결정됩니다.
 
-https://dax.comscore.com을 사용하는 경우 "미국"을 입력하고 https://dax.comscore.eu를 사용하는 경우 "EU"를 입력합니다.
+https://dax.comscore.com을 사용하는 경우 "US"를 입력하고, https://dax.comscore.eu를 사용하는 경우 "EU"를 입력합니다.
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 

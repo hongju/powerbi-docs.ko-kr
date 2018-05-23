@@ -1,28 +1,20 @@
 ---
-title: "Power BI 서비스의 분석 창"
-description: "Power BI 서비스에서 시각적 개체에 대한 동적 참조 줄 만들기"
-services: powerbi
-documentationcenter: 
+title: Power BI 서비스의 분석 창
+description: Power BI 서비스에서 시각적 개체에 대한 동적 참조 줄 만들기
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/21/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ebf3021f6afdd23730e6b971077913a886961d3b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="analytics-pane-in-power-bi-service"></a>Power BI 서비스의 분석 창
 **Power BI 서비스**의 **분석** 창에서 시각적 개체에 동적 참조 줄을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다.

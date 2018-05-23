@@ -1,28 +1,20 @@
 ---
 title: 새 Office 365 평가판으로 Power BI에 등록
 description: 새 Office 365 평가판으로 Power BI에 등록
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5db7d92b7d62d1518682d831dd425e8b4b6efe86
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: dd43c063d56f75fd1ba45b6c596f54fd002adad6
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>새 Office 365 평가판으로 Power BI에 등록
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -45,7 +37,7 @@ ms.lasthandoff: 04/08/2018
 4. 이제 끝났습니다!  완료되면 Power BI로 리디렉션됩니다.
 
 ## <a name="important-considerations"></a>중요 고려 사항
-이 등록 방법을 통해 새 조직 테넌트를 만들면 해당 테넌트의 관리자가 됩니다.  Power BI에서의 공유는 단일 테넌트 안에서만 허용되므로 이 테넌트 밖의 사용자와는 공유할 수 없습니다.  예를 들어, 2단계에서 yourcompany.onmicrosoft.com 테넌트를 만들었다면 yourcompany.com의 사용자와는 공유할 수 없습니다.  [이 도움말 항목](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG)에서 설명한 대로 새 사용자를 테넌트에 추가한 다음 해당 사용자와 공유할 수 있습니다.
+이 등록 방법을 통해 새 조직 테넌트를 만들면 해당 테넌트의 관리자가 됩니다. [이 도움말 항목](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG)에서 설명한 대로 새 사용자를 테넌트에 추가한 다음 해당 사용자와 공유할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [조직에서 Power BI 관리](service-admin-administering-power-bi-in-your-organization.md)  

@@ -1,29 +1,21 @@
 ---
-title: "대시보드에 이미지, 텍스트, 비디오, 스트리밍 데이터 추가"
-description: "타일 추가 위젯을 사용하여 이미지, 비디오, 텍스트 상자, 웹 코드 및 스트리밍 데이터 타일을 대시보드에 추가하는 방법에 대한 설명입니다."
-services: powerbi
-documentationcenter: 
+title: 대시보드에 이미지, 텍스트, 비디오, 스트리밍 데이터 추가
+description: 타일 추가 위젯을 사용하여 이미지, 비디오, 텍스트 상자, 웹 코드 및 스트리밍 데이터 타일을 대시보드에 추가하는 방법에 대한 설명입니다.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
-qualityfocus: identified
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cb1db61a3e0017adf56314862a5bb71fe1288dc6
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 064de8e84edd50f3216c814ddd235452d573d0a0
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>대시보드에 이미지, 텍스트, 비디오 등 추가
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>

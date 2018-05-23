@@ -1,28 +1,20 @@
 ---
-title: "Power BI 대시보드란?"
-description: "대시보드는 Power BI 서비스의 핵심 기능입니다."
-services: powerbi
-documentationcenter: 
+title: Power BI 대시보드란?
+description: 대시보드는 Power BI 서비스의 핵심 기능입니다.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 04/05/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 223df3a898c925d2a8ffc6d004a26c1a67807fc2
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 02a88f04d3c23746da702db043c1992267baf054
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI 서비스의 대시보드
 

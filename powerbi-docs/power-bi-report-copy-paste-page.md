@@ -1,29 +1,21 @@
 ---
 title: Power BI에서 보고서 페이지 복제
 description: Power BI에서 보고서 페이지 복사 및 붙여넣기
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: UOKbxTXZrWw
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 08ac9c2be324109e12287de445038941ec0c7d00
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: c75fd53b7aaa941e8e94518950e9f3ebaaa40c35
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Power BI에서 보고서 페이지 복제
 Power BI 서비스 또는 Power BI Desktop에서 보고서 페이지를 복제하려면 보고서에 대한 편집 권한이 필요합니다. Power BI 서비스에서 이는 [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 연다는 의미입니다. 

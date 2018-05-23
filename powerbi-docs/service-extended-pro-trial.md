@@ -1,28 +1,20 @@
 ---
-title: "Extended Pro 평가판 활성화"
-description: "2017년 6월 1일부터 모든 자격이 있는 사용자는 Power BI 서비스에 대한 Extended Pro 평가판에 참여할 수 있게 됩니다."
-services: powerbi
-documentationcenter: 
+title: Extended Pro 평가판 활성화
+description: 2017년 6월 1일부터 모든 자격이 있는 사용자는 Power BI 서비스에 대한 Extended Pro 평가판에 참여할 수 있게 됩니다.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 07/18/2017
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: e12bf422749ea5d67d764de9154eb541dcb42dd5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c38b94b278bf0e2fe308e3249b27acf8ed7e7837
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="extended-pro-trial-activation"></a>Extended Pro 평가판 활성화
 2017년 6월 1일부터 모든 자격이 있는 사용자는 Power BI 서비스에 대한 Extended Pro 평가판에 참여할 수 있게 됩니다.

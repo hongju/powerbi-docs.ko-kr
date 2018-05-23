@@ -1,28 +1,20 @@
 ---
-title: "Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁"
-description: "Power BI의 작동 방식에 대한 질문이 있는 경우 도움을 받을 수 있는 10가지 방법이 있습니다."
-services: powerbi
-documentationcenter: 
+title: Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁
+description: Power BI의 작동 방식에 대한 질문이 있는 경우 도움을 받을 수 있는 10가지 방법이 있습니다.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁
 Power BI를 사용하면서 "즉각적인" 도움이 필요한 경우 Power BI 질문에 대한 답변을 받지 못해 실망하거나 어려움을 겪은 적이 있나요? 
@@ -52,7 +44,7 @@ Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.
 ## <a name="6-attend-training"></a>6 참여 교육
 이용할 수 있는 교육 옵션은 직접 실습 교육에서 짧은 비디오까지 거의 무한대로 제공됩니다.
 
-* Power BI 사이트의 [단계별 학습](guided-learning/gettingstarted.yml#step-1).
+* Power BI 사이트의 [단계별 학습](guided-learning/gettingstarted.yml?tutorial-step=1).
 * Power BI 사이트에서 [무료 Power BI 웹 세미나](webinars.md), 라이브 및 주문형.
 
 다음과 같은 추가 온라인 옵션을 찾아볼 수 있습니다.

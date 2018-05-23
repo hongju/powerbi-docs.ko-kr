@@ -1,28 +1,20 @@
 ---
 title: 필터 및 Power BI 보고서에서 강조 표시 정보
 description: 필터 및 Power BI 보고서에서 강조 표시 정보
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ffbab0c1e203ce3fd8779b4eebca90debbb531e5
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 855ed26172fa0f157787ba4cfdc3e7e6ab4ff4ba
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>필터 및 Power BI 보고서에서 강조 표시 정보
 ***필터***는 사용자가 집중하려는 데이터를 제외한 나머지를 모두 제거합니다.  ***강조*** 는 데이터를 제거하지 않고 볼 수 있는 데이터의 하위 집합을 강조 표시하므로 필터링이 아닙니다. 강조되지 않은 데이터는 볼 수 있지만 흐리게 표시됩니다.
@@ -48,7 +40,7 @@ ms.lasthandoff: 03/15/2018
 필터 및 강조 표시는 **필터** 창을 사용하거나 보고서 자체에서 직접 선택하여(애드혹, 페이지의 맨 아래 참조) 적용될 수 있습니다. 필터 창은 보고서에서 사용되는 테이블 및 필드와 있는 경우 적용된 필터를 보여 줍니다. 필터는 **페이지 수준 필터**, **보고서 수준**, **드릴스루** 및 **시각적 개체 수준**으로 나뉩니다.  보고서 캔버스에서 시각화를 선택한 경우 시각적 수준 필터만 표시됩니다.
 
 > [!TIP]
-> 팁: 필터 옆에 **모두**라는 단어가 있는 경우 이는 전체 필드가 필터로 포함되고 있는 것을 의미합니다.  예를 들어 아래 스크린샷의 **Chain(All)**은 이 보고서 페이지가 모든 상점 체인에 대한 데이터를 포함한다는 것을 알려줍니다.  반면 **FiscalYear는 2013 또는 2014입니다**의 보고서 수준 필터는 보고서가 2013 및 2014년의 회계 연도에 대한 데이터만을 포함한다는 것을 알려줍니다.
+> 팁: 필터 옆에 **모두**라는 단어가 있는 경우 이는 전체 필드가 필터로 포함되고 있는 것을 의미합니다.  예를 들어 아래 스크린샷의 **Chain(All)** 은 이 보고서 페이지가 모든 상점 체인에 대한 데이터를 포함한다는 것을 알려줍니다.  반면 **FiscalYear는 2013 또는 2014입니다**의 보고서 수준 필터는 보고서가 2013 및 2014년의 회계 연도에 대한 데이터만을 포함한다는 것을 알려줍니다.
 > 
 > 
 

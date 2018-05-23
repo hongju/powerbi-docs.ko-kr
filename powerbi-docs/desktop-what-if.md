@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop에서 변수 시각화를 위해 What if 매개 변수 사용
 description: 고유한 What if 변수를 만들어서 Power BI 보고서에서 변수 구상 및 시각화
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6b1289c1764514ce975c24bf6a93c5a66d2cc95a
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: daedbb480f09dbd8fc71044d78a532a1ea96b1ac
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>What if 매개 변수를 사용하여 Power BI Desktop에서 변수 시각화
 **Power BI Desktop** 2017년 8월 릴리스에서부터 보고서에**What if** 변수를 만들고, 슬라이서인 변수와 상호 작용함으로써 보고서에서 다른 키 값을 시각화하고 수치화할 수 있습니다.

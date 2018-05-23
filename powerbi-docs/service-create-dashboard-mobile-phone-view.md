@@ -1,28 +1,20 @@
 ---
-title: "휴대폰용 Power BI 대시보드 보기 만들기"
-description: "특히 휴대폰에서 보기 편하도록 Power BI 서비스에서 대시보드의 사용자 지정된 보기를 만드는 방법에 대해 알아보세요."
-services: powerbi
-documentationcenter: 
+title: 휴대폰용 Power BI 대시보드 보기 만들기
+description: 특히 휴대폰에서 보기 편하도록 Power BI 서비스에서 대시보드의 사용자 지정된 보기를 만드는 방법에 대해 알아보세요.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: babc9f97ed8c45c2cb9ac994d881941d03629676
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4d237a308e059ce712872860031f122de9d6795c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>휴대폰용으로 최적화된 Power BI 대시보드 보기 만들기
 휴대폰의 Power BI 모바일 앱에서 대시보드를 볼 때 대시보드 타일이 모두 동일한 크기로 하나씩 배치된 것을 확인할 수 있습니다. Power BI 서비스에서 특히 휴대폰에 대해 소유하고 있는 모든 대시보드의 사용자 지정된 보기를 만들 수 있습니다.

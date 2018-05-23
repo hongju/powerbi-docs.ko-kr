@@ -1,28 +1,20 @@
 ---
 title: Power BI로 Microsoft Azure Consumption Insights에 연결
 description: Power BI용 Microsoft Azure Consumption Insights
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 709921a98f6e06572063cf78a83e42bd6b439262
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 31f1d4161801b45307e92ad3f654d30843897dc8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-azure-consumption-insights-with-power-bi"></a>Power BI로 Microsoft Azure Consumption Insights에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 Microsoft Azure 소비 데이터를 탐색하고 모니터링합니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다.

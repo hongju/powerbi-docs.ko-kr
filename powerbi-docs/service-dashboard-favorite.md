@@ -1,29 +1,21 @@
 ---
-title: "Power BI 서비스의 즐겨찾기(대시보드, 보고서, 앱)"
-description: "Power BI 서비스에서 대시보드, 보고서, 앱을 즐겨찾기에 추가하는 방법에 대한 설명서"
-services: powerbi
-documentationcenter: 
+title: Power BI 서비스의 즐겨찾기(대시보드, 보고서, 앱)
+description: Power BI 서비스에서 대시보드, 보고서, 앱을 즐겨찾기에 추가하는 방법에 대한 설명서
 author: mihart
 manager: kfile
-backup: 
-editor: 
+ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-tags: 
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 82f8575c019790820aa46c75e095f8ef64bb6fde
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 920e61ed173e979a92958e56f9e0276f26288b3f
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>즐겨 찾는 대시보드, 보고서 및 Power BI 서비스의 앱
 콘텐츠를 *즐겨찾기* 로 만들면 모든 작업 영역에서 액세스할 수 있습니다.  즐겨찾기는 일반적으로 가장 자주 방문하는 콘텐츠입니다.

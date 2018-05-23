@@ -1,28 +1,20 @@
 ---
 title: Power BI 프리미엄 FAQ
 description: Power BI 프리미엄 제품에 대한 질문과 대답 목록을 찾아보세요.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 102937b5e899d997cebb5fde44e74f2a71dcfda8
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 25340ac8349e112b2424496274441feedebe7052
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-premium-faq"></a>Power BI 프리미엄 FAQ
 Power BI 프리미엄 제품에 대한 질문과 대답 목록을 찾아보세요.

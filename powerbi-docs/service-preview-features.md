@@ -1,29 +1,21 @@
 ---
 title: 미리 보기 기능용 옵트인
 description: 미리 보기에 있는 Power BI 기능을 설정/해제하는 방법
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 54aa25b0d5252af24bdbefef3f1d5798df2f6168
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: df676392c484239724cf631c208a4d586ca65e24
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI 서비스 미리 보기 기능 옵트인
 ## <a name="what-are-preview-features"></a>*미리 보기 기능* 이란?

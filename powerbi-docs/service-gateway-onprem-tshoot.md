@@ -1,28 +1,20 @@
 ---
 title: 온-프레미스 데이터 게이트웨이 문제 해결
 description: 이 문서는 온-프레미스 데이터 게이트웨이에 있는 문제를 해결하는 방법을 제공합니다. 알려진 문제에 대한 가능한 해결 방법과 이를 지원하는 도구도 제공합니다.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 094a43925c184c6cbce8b023ba4aae655f379dd9
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: a12ad01ad5e387b9ffe855ce15e8164656bfbf33
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 문제 해결
 이 문서에서는 **온-프레미스 데이터 게이트웨이**를 사용할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
@@ -207,7 +199,7 @@ Azure Active Directory UPN이 로컬 Active Directory UPN과 일치하지 않는
 
 다음을 수행하여 자신이 속한 데이터 센터 지역을 찾을 수 있습니다.
 
-1. Power BI 서비스의 오른쪽 위에서 **?**를 선택합니다.
+1. Power BI 서비스의 오른쪽 위에서 **?** 를 선택합니다.
 2. **Power BI 정보**를 선택합니다.
 3. 데이터 영역이 **데이터 저장 위치**에 나열됩니다.
    

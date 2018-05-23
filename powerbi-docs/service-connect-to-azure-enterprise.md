@@ -1,28 +1,20 @@
 ---
 title: Power BI로 Microsoft Azure 엔터프라이즈에 연결
 description: Power BI용 Microsoft Azure 엔터프라이즈
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 60bcad86af5fcaa09d6b2fb16b581ec7c37264ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7425e194bd6bda51442a128d146fb4061a77af81
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>Power BI로 Microsoft Azure 엔터프라이즈에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 Microsoft Azure 엔터프라이즈 데이터를 탐색하고 모니터링합니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다.

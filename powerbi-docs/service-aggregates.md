@@ -1,28 +1,20 @@
 ---
-title: "시각화의 집계(합계, 평균, 최대값 등)"
-description: "Power BI에서 차트의 집계 변경(합계, 평균, 최대값 등)"
-services: powerbi
-documentationcenter: 
+title: 시각화의 집계(합계, 평균, 최대값 등)
+description: Power BI에서 차트의 집계 변경(합계, 평균, 최대값 등)
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: modifying
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/04/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c391ab631d94e98df68835f680a48e24afd293fb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI 시각화의 집계
 ## <a name="what-is-an-aggregate"></a>집계란?
@@ -118,7 +110,7 @@ Power BI 서비스에서의 집계 작업은 혼동될 수 있습니다. Power B
 1. 이 예에서는 **제품** 필드를 값 웰로 끌어 왔습니다. 값 웰은 일반적으로 숫자 필드에 사용됩니다. Power BI는 텍스트 필드임을 인식하고 집계를 **요약 안 함**으로 설정하고 단일 열 테이블로 제공합니다.
    
    ![](media/service-aggregates/power-bi-aggregate-value.png)
-2. 집계를 기본값인 **요약 안 함** 에서 **개수(고유)**로 변경하는 경우 Power BI는 다른 제품의 수를 계산합니다. 이 경우 4가 있습니다.
+2. 집계를 기본값인 **요약 안 함** 에서 **개수(고유)** 로 변경하는 경우 Power BI는 다른 제품의 수를 계산합니다. 이 경우 4가 있습니다.
    
    ![](media/service-aggregates/power-bi-aggregates-count.png)
 3. 그리고 집계를 **개수**로 변경하면 Power BI는 총 수를 계산합니다. 이 경우에는 **제품**에 7개 항목이 있습니다. 

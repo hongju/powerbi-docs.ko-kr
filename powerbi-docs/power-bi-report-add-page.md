@@ -1,28 +1,20 @@
 ---
-title: "페이지 추가 또는 보고서의 페이지 복제"
-description: "Power BI 서비스 및 Power BI Desktop에서 Power BI 보고서에 페이지 추가"
-services: powerbi
-documentationcenter: 
+title: 페이지 추가 또는 보고서의 페이지 복제
+description: Power BI 서비스 및 Power BI Desktop에서 Power BI 보고서에 페이지 추가
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da162a5377b9ba2979e38910b97924396fc921b9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 48980bf4ded44f9c383b38606747d14b5a5725c8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 및 Power BI Desktop에서 Power BI 보고서에 페이지 추가
 이제 비좁은 보고서 페이지는 없습니다. 빈 페이지를 새로 추가하세요. 

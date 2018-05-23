@@ -1,28 +1,20 @@
 ---
-title: "조달 분석 샘플: 둘러보기"
-description: "Power BI의 조달 분석 샘플: 둘러보기"
-services: powerbi
-documentationcenter: 
+title: '조달 분석 샘플: 둘러보기'
+description: 'Power BI의 조달 분석 샘플: 둘러보기'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 3bca6f79b3a1b92243948fb64660e8946aedca7c
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: a238e491da93b144edd076360e85c312e3a8765c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 조달 분석 샘플: 둘러보기
 
@@ -107,7 +99,7 @@ ms.lasthandoff: 02/28/2018
 ## <a name="evaluate-different-cities"></a>다른 도시 평가
 강조 표시를 사용하여 다른 도시를 평가할 수 있습니다.
 
-1. **전체 송장, 월별 할인 %**대시보드 타일을 선택합니다. 보고서의 "할인 분석" 페이지가 열립니다.
+1. **전체 송장, 월별 할인 %** 대시보드 타일을 선택합니다. 보고서의 "할인 분석" 페이지가 열립니다.
 2. **Total Invoice by City** (도시별 전체 송장) 트리맵에서 여러 도시를 선택하여 비교 결과를 확인합니다. 거의 모든 마이애미 송장의 출처는 계층 1 공급업체입니다.
 
    ![](media/sample-procurement/pbi_procsample_miamitreemap2.png)

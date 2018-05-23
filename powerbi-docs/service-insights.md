@@ -1,29 +1,21 @@
 ---
-title: "Power BI를 사용하여 데이터 정보를 자동으로 생성"
-description: "데이터 집합 및 대시보드 타일에 대한 정보를 얻는 방법에 대해 알아봅니다."
-services: powerbi
-documentationcenter: 
+title: Power BI를 사용하여 데이터 정보를 자동으로 생성
+description: 데이터 집합 및 대시보드 타일에 대한 정보를 얻는 방법에 대해 알아봅니다.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 19b7bf6105a2d178d51d8068f0226160b8a28467
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Power BI를 사용하여 데이터 정보를 자동으로 생성
 새 데이터 집합이 있고 어디서 시작해야 할지가 확실하지 않은 경우  빠르게 대시보드를 만들어야 하는 경우  놓쳤을 수 있는 정보를 찾으려는 경우
@@ -52,7 +44,7 @@ Amanda가 데이터 집합에 대한 신속한 정보 활용을 실행하고, �
 2. Power BI는 [다양한 알고리즘](service-insight-types.md)을 사용하여 데이터 집합의 추세를 검색합니다.
    
     ![정보를 검색하는 중 대화 상자](media/service-insights/pbi_autoinsightssearching.png)
-3. 몇 초 이내에 정보가 준비됩니다.  **View Insights(정보 보기)**를 선택하여 시각화를 표시합니다.
+3. 몇 초 이내에 정보가 준비됩니다.  **View Insights(정보 보기)** 를 선택하여 시각화를 표시합니다.
    
     ![성공 메시지](media/service-insights/pbi_autoinsightsuccess.png)
    
@@ -67,7 +59,7 @@ Amanda가 데이터 집합에 대한 신속한 정보 활용을 실행하고, �
   ![고정 아이콘](media/service-insights/pbi_hover.png)
 
 1. 시각화를 대시보드에 추가하려면 카드를 마우스로 가리키고 고정 아이콘을 선택합니다.
-2. 카드를 마우스로 가리키고 줄임표(...)를 선택한 다음 **View Insights(정보 보기)**를 선택합니다. 이렇게 하면 정보 전체 화면이 열립니다.
+2. 카드를 마우스로 가리키고 줄임표(...)를 선택한 다음 **View Insights(정보 보기)** 를 선택합니다. 이렇게 하면 정보 전체 화면이 열립니다.
    
     ![정보 전체 화면](media/service-insights/power-bi-insight-focus.png)
 3. 포커스 모드에서는 다음 작업을 수행할 수 있습니다.
@@ -88,7 +80,7 @@ Amanda가 데이터 집합에 대한 신속한 정보 활용을 실행하고, �
 데이터 집합 전체를 대상으로 인사이트를 검색하기 보다는, 단일 대시보드 타일을 만드는 데 사용된 데이터로 검색 범위를 좁히세요. 이것 또한 **지정된 범위의 정보 활용**이라고 합니다.
 
 1. 대시보드를 엽니다.
-2. 타일을 마우스로 가리킵니다. 줄임표(...)를 선택하고 **View insights(정보 보기)**를 선택합니다. 타일이 오른쪽에 표시되는 정보 활용 카드와 함께 [포커스 모드](service-focus-mode.md)로 열립니다.    
+2. 타일을 마우스로 가리킵니다. 줄임표(...)를 선택하고 **View insights(정보 보기)** 를 선택합니다. 타일이 오른쪽에 표시되는 정보 활용 카드와 함께 [포커스 모드](service-focus-mode.md)로 열립니다.    
    
     ![포커스 모드](media/service-insights/pbi-insights-tile.png)    
 4. 인사이트 하나로 호기심이 자극되나요? 자세히 알아보려면 해당 인사이트 카드를 선택합니다. 선택한 인사이트는 왼쪽에 나타나고 해당 단일 인사이트의 데이터에만 기초한 새 인사이트 카드는 오른쪽에 표시됩니다.    

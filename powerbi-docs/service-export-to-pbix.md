@@ -1,28 +1,20 @@
 ---
-title: "Power BI 서비스에서 Desktop으로 보고서를 내보내는 방법(미리 보기)"
-description: "Power BI 서비스에서 Power BI Desktop 파일로 보고서 다운로드"
-services: powerbi
-documentationcenter: 
+title: Power BI 서비스에서 Desktop으로 보고서를 내보내는 방법(미리 보기)
+description: Power BI 서비스에서 Power BI Desktop 파일로 보고서 다운로드
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Power BI 서비스에서 데스크톱에 보고서 내보내기(미리 보기)
 Power BI Desktop에서 보고서를 저장하고 **게시**를 선택하여 Power BI 서비스에 보고서를 내보낼(또는 다운로드할) 수 있습니다. 반대 방향으로도 내보내기할 수 있을 뿐 아니라 Power BI 서비스에서 바탕화면으로 보고서를 다운로드할 수 있습니다. 어느 방향으로든 내보내는 파일의 파일 확장명은 *.pbix*입니다.
@@ -38,7 +30,7 @@ Power BI Desktop에서 보고서를 저장하고 **게시**를 선택하여 Powe
 2. 메뉴 모음에서 **파일 > 보고서 다운로드**를 선택합니다.
    
    > [!NOTE]
-   > 보고서 다운로드를 가능하게 하려면 2016년 11월 23일 이후(그리고 그 이후 업데이트된) 버전의 [Power BI Desktop을 사용하여](guided-learning/publishingandsharing.yml#step-2) 보고서를 만들었어야 합니다. 그렇지 않으면 Power BI 서비스의 *보고서 다운로드* 메뉴 옵션이 회색으로 표시됩니다.
+   > 보고서 다운로드를 가능하게 하려면 2016년 11월 23일 이후(그리고 그 이후 업데이트된) 버전의 [Power BI Desktop을 사용하여](guided-learning/publishingandsharing.yml?tutorial-step=2) 보고서를 만들었어야 합니다. 그렇지 않으면 Power BI 서비스의 *보고서 다운로드* 메뉴 옵션이 회색으로 표시됩니다.
    > 
    > 
 3. .pbix 파일을 만드는 동안 상태 배너가 진행 상태를 표시합니다. 파일이 준비되면 .pbix 파일을 열거나 저장할지 묻는 메시지가 나타납니다. 파일의 이름은 보고서의 제목과 일치합니다.

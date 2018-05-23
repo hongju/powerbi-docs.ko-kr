@@ -1,28 +1,20 @@
 ---
-title: "Power BI 타사 앱 시작"
-description: "Power BI 타사 앱 시작"
-services: powerbi
-documentationcenter: 
+title: Power BI 타사 앱 시작
+description: Power BI 타사 앱 시작
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d1204c15e7f9cc0dae7685eae959ef2018b634a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7ac6cee3331333b40119d6f5ab014b2e39d2ef23
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-third-party-apps"></a>타사 앱 시작
 Power BI를 통해 Microsoft 이외의 회사 또는 개인이 빌드한 앱을 사용할 수 있습니다. 예를 들어 사용자 지정 작성된 웹 응용 프로그램에 Power BI 타일을 통합하는 타사 앱을 사용할 수 있습니다. 타사 앱을 사용할 경우 Power BI 계정 및 리소스에 대한 특정 사용 권한을 해당 응용 프로그램에 부여해야 합니다. 알고 있고 신뢰할 수 있는 응용 프로그램에만 사용 권한을 부여해야 합니다. 언제든지 응용 프로그램에 대한 사용 권한을 해지할 수 있습니다. [타사 앱 사용 권한 해지](#revoke)를 참조하세요.

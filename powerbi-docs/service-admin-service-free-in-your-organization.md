@@ -1,28 +1,20 @@
 ---
 title: 조직의 Power BI(무료)
 description: 이 문서에서는 조직의 관점에서 Power BI(무료)에 대한 옵션을 살펴봅니다. 테넌트의 관리자인 경우 무료 등록을 관리하는 방법을 보여줍니다.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5da8b4cbb86766e6b411af902fce4bf18f480612
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2ba97b76b13c9adf3c9f20d5d42c5ec9c363edda
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>조직의 Power BI(무료)
 조직 내에서 Power BI(무료) 제품을 사용할 수 있는 방법을 살펴봅니다. 조직이란 테넌트가 있으며 해당 테넌트 내에서 사용자 및 서비스를 관리할 수 있음을 의미합니다. 관리자는 라이선스 할당을 제어할 수 있거나 사용자가 개별로 등록하도록 허용할 수 있습니다. Power BI(무료) 라이선스 및 개별 로그인을 제어하는 방법을 살펴보겠습니다.
@@ -48,7 +40,7 @@ Power BI(무료) 라이선스 차단을 사용할 수 있게 되면 사용자에
 ## <a name="getting-free-licenses-via-add-subscription-within-office-365"></a>Office 365 내에서 구독 추가를 통해 무료 라이선스 가져오기
 1. [Office 365 관리 센터](https://portal.office.com/admin/default.aspx)로 이동합니다.
 2. 왼쪽 탐색 창에서 **청구** > **구독**을 선택
-3. 오른쪽에서 **구독 추가 +**를 선택합니다.
+3. 오른쪽에서 **구독 추가 +** 를 선택합니다.
 4. 다른 계획에서 Power BI(무료)에 대한 **줄임표(...)** 를 마우스로 가리키고 **지금 구매**를 선택합니다.
    
     ![](media/service-admin-service-free-in-your-organization/buy-powerbi-free.png)

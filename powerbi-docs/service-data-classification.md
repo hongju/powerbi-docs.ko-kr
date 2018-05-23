@@ -1,28 +1,20 @@
 ---
-title: "대시보드 데이터 분류"
-description: "관리자가 분류를 설정하는 방법 및 대시보드 관리자가 분류를 변경하는 방법을 비롯한 대시보드 데이터 분류에 대해 알아봅니다."
-services: powerbi
-documentationcenter: 
+title: 대시보드 데이터 분류
+description: 관리자가 분류를 설정하는 방법 및 대시보드 관리자가 분류를 변경하는 방법을 비롯한 대시보드 데이터 분류에 대해 알아봅니다.
 author: amandacofsky
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 03/15/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: aed13e5bc7a21caa87e4c5b25fd61d55dcfc6129
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f08e4199af06a4a7fd74cb525e918a67a27165a8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="dashboard-data-classification"></a>대시보드 데이터 분류
 다양한 대시보드가 있기 때문에, 연결하는 데이터 원본에 따라, 데이터의 민감도에 따라 사용자 및 데이터를 공유하는 동료가 서로 다른 수준의 주의를 기울이도록 해야 할 필요성을 느낄 수 있습니다. 회사 외부의 사람과 절대로 공유하거나 인쇄하지 말아야 하는 대시보드가 있는가 하면, 자유롭게 공유할 수 있는 대시보드도 있습니다. 대시보드 데이터 분류를 사용하면, 대시보드를 보는 사람들이 사용해야 할 보안 수준에 대한 인식을 높일 수 있습니다. 콘텐츠를 보는 모든 사람이 데이터 민감도에 대해 동일한 수준의 이해를 갖도록 사내 IT 부서에서 정의한 분류를 사용하여 대시보드에 태그를 지정할 수 있습니다.
@@ -54,7 +46,7 @@ ms.lasthandoff: 02/24/2018
 
 분류 유형을 변경하려면, 다음을 수행합니다.
 
-1. 대시보드 이름 옆의 **줄임표(...)**를 선택하고 **설정**을 선택하여 대시보드 설정으로 이동합니다.
+1. 대시보드 이름 옆의 **줄임표(...)** 를 선택하고 **설정**을 선택하여 대시보드 설정으로 이동합니다.
    
     ![](media/service-data-classification/dashboard_settings.png)
 2. 대시보드 설정에서, 대시보드에 대한 현재 분류를 보고 드롭다운을 사용하여 분류 유형을 변경할 수 있습니다.

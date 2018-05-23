@@ -1,28 +1,20 @@
 ---
 title: Power BI 프리미엄 구매 방법
 description: Power BI 프리미엄을 관리하고 전체 조직에 대한 콘텐츠에 대한 액세스를 활성화할 수 있는 방법을 알아봅니다.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 10/17/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: e5bf5f4995c628640de2400f1097e89969eded7d
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2789f2e3e8198ddc0363fb07488f5fe8f39441a6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
 조직에 대한 Power BI 프리미엄 용량을 구입하는 방법을 알아봅니다.
@@ -55,7 +47,7 @@ Power BI 프리미엄에 대한 자세한 내용은 [Power BI 프리미엄이란
     ![](media/service-admin-premium-purchase/o365-app-picker.png)
 2. **청구** > **서비스 구입**을 선택합니다.
 3. **기타 계획** 아래에서 Power BI 프리미엄 제품을 찾습니다. P1~P3, EM3 및 P1(매월)로 나열됩니다.
-4. **줄임표(...)**를 마우스로 가리키고 **지금 구입**을 선택합니다.
+4. **줄임표(...)** 를 마우스로 가리키고 **지금 구입**을 선택합니다.
    
     ![](media/service-admin-premium-purchase/premium-purchase.png)
 5. 단계에 따라 구입을 완료합니다.
@@ -83,7 +75,7 @@ Power BI 관리 포털의 **프리미엄 설정**에 있고 관리자인 경우 
 
 1. **청구** > **서비스 구입**을 선택합니다.
 2. **기타 계획** 아래에서 추가로 구입할 Power BI 프리미엄 항목을 찾습니다.
-3. **줄임표(...)**를 마우스로 가리키고 **라이선스 수량 변경**을 선택합니다.
+3. **줄임표(...)** 를 마우스로 가리키고 **라이선스 수량 변경**을 선택합니다.
    
     ![](media/service-admin-premium-purchase/premium-purchase-more.png)
 4. 이 항목에 대해 포함할 인스턴스 수를 변경합니다. 그런 다음 완료했으면 **제출**을 선택합니다.
