@@ -1,28 +1,20 @@
 ---
 title: Power BI에서 공동 작업하고 공유하려면 어떻게 해야 하나요?
 description: Power BI에서는 다양한 방법으로 대시보드, 보고서, 타일 및 앱을 공동 작업하고 공유할 수 있습니다. 각 방법마다 장점을 갖고 있습니다.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: lukaszp
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 02/28/2017
+ms.reviewer: lukaszp
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: adcba818f60a66ecc4be5827e1ce7688618d0c72
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI에서 공동 작업하고 공유하려면 어떻게 해야 하나요?
 

@@ -1,28 +1,20 @@
 ---
 title: Power BI로 Acumatica에 연결
 description: Power BI용 Acumatica
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: af1a34d280aaa1a795a7a2490c97874e0c4d1838
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ea5ce2e1e635149c91fbcf38d84e3093af7915c9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Power BI로 Acumatica에 연결
 Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하게 파악할 수 있습니다. Power BI는 기회, 계정 및 고객을 포함하여 데이터를 검색한 다음 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다.
@@ -73,7 +65,7 @@ Acumatica OData 끝점의 형식은 다음과 같고, HTTPS를 사용해야 합�
 
     https://[sitedomain]/odata/[companyname]
 
-Acumatica에 로그인한 경우 브라우저의 주소 표시줄에서 응용 프로그램 사이트 도메인을 찾을 수 있습니다. 아래 예제에서는 사이트 도메인이 "https://pbi.acumatica.com" 이므로 제공할 OData 끝점은 "https://pbi.acumatica.com/odata" 입니다.
+Acumatica에 로그인한 경우 브라우저의 주소 표시줄에서 응용 프로그램 사이트 도메인을 찾을 수 있습니다. 아래 예제에서 사이트 도메인은 "https://pbi.acumatica.com"이므로 제공할 OData 끝점은 "https://pbi.acumatica.com/odata"가 됩니다.
 
  ![](media/service-connect-to-acumatica/url.png)
 

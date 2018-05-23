@@ -1,29 +1,21 @@
 ---
 title: SharePoint Online에 보고서 웹 파트 포함
 description: SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 SharePoint Online 페이지에서 대화형 Power BI 보고서를 쉽게 포함시킬 수 있습니다.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 11/19/2017
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 11b1d2c1c5205fd1346e9350b0a814b7d76d4135
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 757f59b59ea13478a943650f23ef98d9cc5b3e08
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -68,7 +60,7 @@ SharePoint Online에 보고서를 포함하려면, 먼저 보고서의 URL을 �
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
-2. **+**를 선택하고 **Power BI** 웹 파트를 선택합니다.
+2. **+** 를 선택하고 **Power BI** 웹 파트를 선택합니다.
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
@@ -143,6 +135,8 @@ Power BI 웹 파트 내에서 보고서가 로드되지 않고 다음과 같은 
   1. SharePoint에서 로그아웃했다가 다시 로그인합니다. 다시 로그인하기 전에 모든 브라우저 창을 닫아야 합니다.
 
   2. 사용자 계정에 MFA(Multi-Factor Authentication)이 필요한 경우 다단계 인증 장치(휴대폰 앱, 스마트 카드 등)를 사용하여 SharePoint에 로그인합니다.
+  
+  3. Azure B2B 게스트 사용자 계정은 지원되지 않습니다. 파트가 로드 중임을 나타내는 Power BI 로고가 사용자에게 표시되지만 보고서는 표시되지 않습니다.
 
 * Power BI는 SharePoint Online에서 지원하는 것과 동일한 지역화된 언어를 지원하지 않습니다. 결과적으로 포함된 보고서 내에 적절한 지역화가 표시되지 않을 수 있습니다.
 

@@ -1,28 +1,20 @@
 ---
 title: Power BI로 Adobe Analytics에 연결
 description: 대시보드 및 보고서에서 계정 데이터를 표시하는 앱에 대해 Power BI에서 Adobe Analytics로 연결합니다.
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 452f970efda4c49e197ed578f5c5b05917aa43e7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Power BI로 Adobe Analytics에 연결
 Power BI를 통해 Adobe Analytics에 연결하는 경우 먼저 Adobe Analytics Marketing 클라우드 계정에 연결합니다. 사이트 트래픽 및 사용자 차원에 대한 통찰력을 제공하는 Power BI 대시보드 및 Power BI 보고서 집합을 사용하는 앱이 가져옵니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다. 대시보드 및 보고서를 조작할 수 있지만 변경 내용을 저장할 수 없습니다.
@@ -98,7 +90,7 @@ Adobe [문서](https://marketing.adobe.com/resources/help/en_US/reference/new_re
 ## <a name="troubleshooting"></a>문제 해결
 권한이 없음을 나타내는 자격 증명을 입력한 후에 오류가 표시되는 경우 Adobe Analytics API에 액세스할 수 있는 관리자를 확인합니다. 또한 제공되는 Adobe ID가 마케팅 클라우드 조직(Adobe Analytics 회사와 관련됨)에 연결되었는지를 확인합니다.
 
-오류가 발생하기 전에 자격 증명 화면을 성공적으로 통과한 경우 보고서를 완료하는 데 오랜 시간이 걸릴 수 있습니다. 일반적인 오류는 *"Adobe Analytics 보고서에서 데이터를 가져오지 못했습니다. 콘텐츠에 &quot;참조, 페이지&quot;가 포함되며, 대략적인 기간은 xx초입니다."* 형식입니다. "포함된 내용" 섹션을 검토하고 Adobe 인스턴스 크기와 비교하세요. 그러나 오늘 이 제한 시간을 해결할 방법이 없습니다. 그러나 보다 큰 인스턴스를 효과적으로 지원하기 위한 업데이트를 고려하고 있습니다. https://ideas.powerbi.com에서 Power BI 팀에 피드백을 제공해 주세요.
+오류가 발생하기 전에 자격 증명 화면을 성공적으로 통과한 경우 보고서를 완료하는 데 오랜 시간이 걸릴 수 있습니다. 일반적인 오류는 *"Adobe Analytics 보고서에서 데이터를 가져오지 못했습니다. 콘텐츠에 &quot;참조, 페이지&quot;가 포함되며, 대략적인 기간은 xx초입니다."* 형식입니다. "포함된 내용" 섹션을 검토하고 Adobe 인스턴스 크기와 비교하세요. 그러나 오늘 이 제한 시간을 해결할 방법이 없습니다. 그러나 보다 큰 인스턴스를 효과적으로 지원하기 위한 업데이트를 고려하고 있습니다. https://ideas.powerbi.com에서 Power BI 팀에 피드백을 제공하세요.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 앱이란?](service-install-use-apps.md)

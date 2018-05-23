@@ -1,34 +1,31 @@
 ---
 title: Power BI 서비스 및 Desktop의 질문 및 답변 개요
 description: Power BI 질문 및 답변 자연어 쿼리에 대한 설명서 개요 항목입니다.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 및 Power BI Desktop의 질문 및 답변
 ## <a name="what-is-qa"></a>질문 및 답변이란 무엇인가요?
 경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. 예를 들어 “지난 해 총 매출은 얼마인가요?”와 같이 질문합니다.  질문 및 답변을 사용하면 직관적인 자연어 기능을 사용하여 데이터를 탐색하고 차트 및 그래프 형식으로 답변을 받을 수 있습니다. 질문 및 답변은 검색 엔진과 다릅니다. 질문 및 답변은 Power BI에서 데이터에 대한 결과만 제공합니다.
 
 이 문서는 모든 질문 및 답변에 대한 출발점입니다. 아래에서 링크를 선택하여 Power BI 서비스(대시보드 및 보고서), Power BI Desktop(보고서), Power BI Embedded 및 Power BI Mobile에서 질문 및 답변이 작동하는 원리를 알아보세요.  
+
+> [!NOTE]
+> **Power BI 질문 및 답변**은 영어로 요청된 자연어 쿼리에 응답하는 기능만 지원합니다. 또한 스페인어로 된 질문에 대해 미리 보기 기능을 사용해 볼 수도 있습니다. **Power BI Desktop**에서 **파일**, **옵션 및 설정**, **옵션**으로 이동하여 **미리 보기 기능** 탭을 찾습니다. **질문 및 답변의 스페인어 지원** 확인란을 선택합니다.  
+>
+>
 
 ![](media/power-bi-q-and-a/pbi_qa_boxsalessqft.png)
 

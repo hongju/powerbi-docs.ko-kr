@@ -1,28 +1,20 @@
 ---
 title: Power BI로 Windows 개발자 센터에 연결
 description: Power BI용 Windows 개발자 센터
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 246c1dc22d120ac01fe5276bbd0a2dd95b0dbc1f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Power BI로 Windows 개발자 센터에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 Windows 개발자 센터 앱을 탐색하고 모니터링합니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다.
@@ -73,7 +65,7 @@ Power BI용 [Windows 개발자 센터 콘텐츠 팩](https://app.powerbi.com/get
 ## <a name="finding-parameters"></a>매개 변수 찾기
 앱 관리의 앱 ID 페이지로 이동하여 앱에 대한 응용 프로그램 ID를 찾을 수 있습니다.
 
-응용 프로그램 ID는 Windows 10 스토어에 대한 URL의 끝인 https://www.microsoft.com/store/apps/ **{applicationId}**에 있습니다.
+응용 프로그램 ID는 Windows 10 스토어에 대한 URL의 끝인 https://www.microsoft.com/store/apps/ **{applicationId}** 에 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI에서 시작](service-get-started.md)

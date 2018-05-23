@@ -1,28 +1,20 @@
 ---
 title: Power BI로 Lithium에 연결
 description: Power BI용 Lithium
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 501395503ef3c4b3bde8e6d7f0ae732af5a4cc6a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1d41ce3ff0c73675793e872170914b96a1d73d14
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Power BI로 Lithium에 연결
 Lithium에서는 사람들이 질문에 대한 답을 얻고 경험을 공유할 수 있도록 지원하여 세계 최고 브랜드와 고객 간에 신뢰할 수 있는 관계를 형성해 줍니다. Lithium 콘텐츠 팩을 Power BI에 연결하면 온라인 커뮤니티에 대한 주요 메트릭을 측정하여 판매를 촉진하고, 서비스 비용을 절감하며, 고객 충성도를 높일 수 있습니다. 
@@ -42,7 +34,7 @@ Power BI용 [Lithium 콘텐츠 팩](https://app.powerbi.com/getdata/services/lit
 3. **Lithium** \> **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-lithium/lithiumconnect.png)
-4. Lithium 커뮤니티의 URL을 입력합니다. *https://community.yoursite.com* 형태가 됩니다.
+4. Lithium 커뮤니티의 URL을 입력합니다. 이는 *https://community.yoursite.com*의 형식입니다.
    
    ![](media/service-connect-to-lithium/params.png)
 5. 메시지가 표시되면 Lithium 자격 증명을 입력합니다. **oAuth 2** 를 인증 메커니즘으로 선택하고 **로그인** 을 클릭하여 Lithium 인증 흐름을 따릅니다.

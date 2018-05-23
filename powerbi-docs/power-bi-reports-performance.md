@@ -1,28 +1,20 @@
 ---
-title: "Power BI 성능 모범 사례"
-description: "이 문서에서는 Power BI에서 빠르고 신뢰할 수 있는 보고서를 빌드하기 위한 지침을 제공합니다."
-services: powerbi
-documentationcenter: 
+title: Power BI 성능 모범 사례
+description: 이 문서에서는 Power BI에서 빠르고 신뢰할 수 있는 보고서를 빌드하기 위한 지침을 제공합니다.
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 성능 모범 사례 
 이 문서에서는 Power BI에서 빠르고 신뢰할 수 있는 보고서를 빌드하기 위한 지침을 제공합니다.  
@@ -96,8 +88,14 @@ DirectQuery 및 라이브 연결의 경우 이 쿼리 캐시는 데이터 원본
 ## <a name="understand-custom-visual-performance"></a>사용자 지정 시각적 개체 성능의 이해 
 높은 성능을 보장하기 위해 각 사용자 지정 시각적 개체의 역량에 대해 알아보아야 합니다. 제대로 최적화되지 않은 사용자 지정 시각적 개체는 전체 보고서의 성능에 부정적인 영향을 미칠 수 있습니다. 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>SQL 프로파일러 및 Power BI Desktop을 사용한 쿼리 성능 심층 분석 
-어떤 시각적 개체가 가장 많은 시간 및 리소스를 차지하는지에 관해 더 자세히 알아보려면 SQL 프로파일러를 Power BI Desktop에 연결하여 쿼리 성능의 전체 보기를 얻을 수 있습니다. 지침은 다음과 같습니다. 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>SQL 프로파일러 및 Power BI Desktop을 사용한 쿼리 성능 심층 분석
+
+어떤 시각적 개체가 가장 많은 시간 및 리소스를 차지하는지에 관해 더 자세히 알아보려면 SQL 프로파일러를 Power BI Desktop에 연결하여 쿼리 성능의 전체 보기를 얻을 수 있습니다.
+
+> [!NOTE]
+> Power BI Desktop은 진단 포트 연결을 지원합니다. 진단 포트를 사용하면 진단을 위해 다른 도구를 연결하여 추적을 수행할 수 있습니다. *모델을 변경하는 것은 지원되지 않습니다! 모델을 변경하면 손상 및 데이터 손실로 이어질 수 있습니다.*
+
+지침은 다음과 같습니다.
   
 1. **SQL Server Profiler 설치 및 Power BI Desktop 실행** 
 
@@ -139,7 +137,7 @@ SQL 프로파일러를 통해 가장 긴 CPU 시간을 차지하는, 그래서 �
 - **별도 가져오기 vs. DirectQuery** – 수평 확장의 경우 가져오기를 담당하는 게이트웨이와 DirectQuery를 담당하는 게이트웨이의 분리를 고려합니다. 
  
 ## <a name="network-latency"></a>네트워크 대기 시간 
-네트워크 대기 시간은 Power BI 서비스 연결에 대한 요청 및 전달할 응답에 필요한 시간이 늘어나면 보고서 성능에 영향을 줄 수 있습니다. Power BI의 테넌트는 특정 지역에 할당됩니다. powerbi.com으로 이동하고 오른쪽 위에 있는 **?**를 선택한 다음 **Power BI 정보**를 선택하면 테넌트의 “홈” 영역을 볼 수 있습니다. 테넌트의 사용자가 Power BI 서비스에 액세스하는 경우 해당 요청은 항상 이 영역에 라우팅됩니다. 요청이 Power BI 서비스에 도달하면, 다음으로 서비스는 추가 요청(예: 기본 데이터 원본 또는 게이트웨이)을 보낼 수 있습니다. 이 또한 네트워크 대기 시간의 영향을 받습니다. 
+네트워크 대기 시간은 Power BI 서비스 연결에 대한 요청 및 전달할 응답에 필요한 시간이 늘어나면 보고서 성능에 영향을 줄 수 있습니다. Power BI의 테넌트는 특정 지역에 할당됩니다. powerbi.com으로 이동하고 오른쪽 위에 있는 **?** 를 선택한 다음 **Power BI 정보**를 선택하면 테넌트의 “홈” 영역을 볼 수 있습니다. 테넌트의 사용자가 Power BI 서비스에 액세스하는 경우 해당 요청은 항상 이 영역에 라우팅됩니다. 요청이 Power BI 서비스에 도달하면, 다음으로 서비스는 추가 요청(예: 기본 데이터 원본 또는 게이트웨이)을 보낼 수 있습니다. 이 또한 네트워크 대기 시간의 영향을 받습니다. 
 
 [Azure 속도 테스트](http://azurespeedtest.azurewebsites.net/)와 같은 도구는 클라이언트와 Azure 지역 간의 네트워크 대기 시간을 표시합니다. 일반적으로 네트워크 대기 시간의 영향을 최소화하려면 데이터 원본, 게이트웨이 및 Power BI 클러스터를 최대한 가깝게 유지해야 합니다. 네트워크 대기 시간이 문제가 되는 경우 게이트웨이 및 데이터 원본을 가상 머신에 배치하여 사용자 Power BI 클러스터에 더 가깝게 설치할 수도 있습니다. 
 

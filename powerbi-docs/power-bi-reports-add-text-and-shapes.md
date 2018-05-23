@@ -1,34 +1,26 @@
 ---
 title: Power BI 보고서의 텍스트 상자 및 셰이프
 description: Microsoft Power BI 서비스를 사용하여 보고서에서 텍스트 상자 및 셰이프를 추가하고 만드는 방법에 대한 설명서입니다.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
+ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5e71159e2c7d0cb7439a14bf5d8e082192c4ab7a
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI 보고서의 고정 콘텐츠
 Power BI 서비스 및 Power BI Desktop을 사용하여 보고서에 텍스트 상자 및 셰이프를 추가할 수 있습니다. 두 경우 모두 보고서에 대한 편집 권한이 있어야 합니다. Power BI 서비스에서 보고서가 사용자와 공유된 경우에는 사용자에게 편집 권한이 없습니다. 
 
-Will이 Power BI Desktop을 사용하여 [보고서에 정적 이미지를 추가](guided-learning/visualizations.yml#step-11)하는 과정을 시청한 다음, 아래 단계에 따라 대신 Power BI 서비스를 직접 사용해 보세요.
+Will이 Power BI Desktop을 사용하여 [보고서에 정적 이미지를 추가](guided-learning/visualizations.yml?tutorial-step=11)하는 과정을 시청한 다음, 아래 단계에 따라 대신 Power BI 서비스를 직접 사용해 보세요.
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 

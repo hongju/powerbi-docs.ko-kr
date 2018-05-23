@@ -1,28 +1,20 @@
 ---
 title: Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 description: Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합하므로 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안전하게 배포할 수 있습니다.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 16820050ad879b128482af5754bc53973449f982
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -62,7 +54,7 @@ gmail.com, outlook.com 또는 hotmail.com과 같은 개인 계정을 포함한 �
 
 4. **초대**를 선택합니다.
 
-여러 명의 게스트 사용자를 초대하려면 PowerShell을 사용합니다. 자세한 내용은 [Azure Active Directory B2B 공동 작업 코드 및 PowerShell 샘플](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-code-samples)을 참조하세요.
+여러 명의 게스트 사용자를 초대하려면 PowerShell을 사용합니다. 자세한 내용은 [Azure Active Directory B2B 공동 작업 코드 및 PowerShell 샘플](https://docs.microsoft.com/azure/active-directory/b2b/code-samples)을 참조하세요.
 
 게스트 사용자는 받은 이메일 초대에서 **시작**을 선택해야 합니다. 그러면 게스트 사용자가 테넌트에 추가됩니다.
 
@@ -111,7 +103,7 @@ Power BI Premium 용량에 앱 작업 영역을 할당하면 게스트 사용자
 * gmail.com, outlook.com 또는 hotmail.com과 같은 개인 이메일 계정을 사용하는 게스트 사용자를 초대하는 경우, 이 [포함된 비디오](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience)를 따라 사용자 가입 방법의 예를 볼 수 있습니다.
 * 외부 B2B 게스트는 콘텐츠 소비로만 제한됩니다. 외부 B2B 게스트는 앱, 대시보드, 보고서를 보고, 데이터를 내보내며 대시보드 및 보고서에 대한 전자 메일 구독을 만들 수 있습니다. 작업 영역에 액세스하거나 자신의 콘텐츠를 게시할 수는 없습니다.
 * 이 기능은 현재 Power BI 모바일 앱에는 제공되지 않습니다. 모바일 장치에서는 브라우저에서 Azure AD B2B를 사용하여 공유되는 Power BI 콘텐츠를 볼 수 있습니다.
-* Power BI에서 게스트 사용자 사용은 소버린 클라우드(정부) 내에서 지원되지 않습니다.
+* 이 기능은 현재 Power BI SharePoint Online 보고서 웹 파트에 제공되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -1,28 +1,20 @@
 ---
 title: Power BI로 Marketo에 연결
 description: Power BI용 Marketo
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI로 Marketo에 연결
 Power BI용 Marketo 콘텐츠 팩을 사용하면 잠재 고객 및 해당 활동과 관련된 데이터로 Marketo 계정을 파악할 수 있습니다. 이 연결을 만들면 데이터가 검색되고, 해당 데이터를 기반으로 하여 대시보드 및 관련 보고서가 자동으로 제공됩니다.
@@ -43,8 +35,8 @@ Power BI용 [Marketo 콘텐츠 팩](https://app.powerbi.com/getdata/services/mar
    
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
-   Marketo REST 끝점에 대한 자세한 내용은 다음을 참조하세요. [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/).
-5. **기본** 인증 방법을 사용하여 클라이언트 ID를 **사용자 이름** 으로 입력하고 클라이언트 암호를 **암호**로 입력합니다. 클라이언트 ID와 클라이언트 암호는 Marketo 또는 Marketo 관리자가 제공합니다([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
+   Marketo REST 끝점에 대해 자세히 읽어보세요. [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/).
+5. **기본** 인증 방법을 사용하여 클라이언트 ID를 **사용자 이름** 으로 입력하고 클라이언트 암호를 **암호**로 입력합니다. 클라이언트 ID 및 클라이언트 암호는 Marketo 또는 marketo 관리자([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/))에서 사용할 수 있습니다. 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    

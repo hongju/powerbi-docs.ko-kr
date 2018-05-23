@@ -1,28 +1,20 @@
 ---
 title: Power BI로 사용하는 서비스에 연결
 description: Salesforce, Microsoft Dynamics CRM, Google 웹로그 분석과 같은 비즈니스를 실행하는 데 사용하는 다양한 서비스에 연결합니다.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c1df66100206198f3de32bea9859261d51d3774d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5b8a438ed354f246c5ac1d5ac0d0488db19633dd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI로 사용하는 서비스에 연결
 Salesforce, Microsoft Dynamics, Google 웹로그 분석과 같은 비즈니스를 실행하는 데 사용하는 다양한 서비스에 연결할 수 있습니다. Power BI는 서비스에 연결할 자격 증명을 사용하여 시작한 다음 자동으로 데이터를 표시하고 비즈니스에 대한 시각적 정보를 제공하는 대시보드를 포함한 Power BI 앱 및 Power BI 보고서 집합을 만듭니다. 

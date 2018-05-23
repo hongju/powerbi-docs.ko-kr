@@ -1,28 +1,20 @@
 ---
 title: Power BI로 Insightly에 연결
 description: Power BI용 Insightly
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a49260a90647178e0737e728804b00c004b21376
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Power BI로 Insightly에 연결
 Insightly 콘텐츠 팩과 함께 Power BI의 Insightly CRM 데이터를 시각화하고 공유합니다. Insightly API 키를 사용해서 Power BI에 연결하여 CRM 데이터에서 보고서 및 대시보드를 보고 빌드합니다. Power BI를 사용하여 새로운 방식으로 데이터를 분석하고, 강력한 그래프와 차트를 만들고, 지도에 연락처, 잠재 고객 및 조직을 표시할 수 있습니다.

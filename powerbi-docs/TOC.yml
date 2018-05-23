@@ -140,8 +140,6 @@
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Azure Search
                   href: service-connect-to-azure-search.md
-                - name: Azure Security Center
-                  href: service-connect-to-azure-security-center.md
                 - name: 회로 ID
                   href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
@@ -416,8 +414,6 @@
                   href: refresh-csv-file-onedrive.md
                 - name: 새로 고침 시나리오 문제 해결
                   href: refresh-troubleshooting-refresh-scenarios.md
-                - name: 개인 정보 설정 사용 안함
-                  href: refresh-enable-fast-combine.md
             - name: 문제 해결
               items:
                 - name: Power BI 암호를 잊은 경우
@@ -470,6 +466,18 @@
       items:
         - name: 여러 데이터 원본 셰이프 및 결합
           href: desktop-shape-and-combine-data.md
+        - name: Power BI Desktop을 사용하여 웹 페이지에서 데이터 가져오기 및 분석
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: ' Excel 및 OData 피드의 판매 데이터 분석'
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Power BI Desktop에서 고유한 측정값 만들기
+          href: desktop-tutorial-create-measures.md
+        - name: Power BI Desktop에서 계산 열 만들기
+          href: desktop-tutorial-create-calculated-columns.md
+        - name: Power BI Desktop을 사용한 Facebook 분석
+          href: desktop-tutorial-facebook-analytics.md
+        - name: Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: 샘플
       items:
         - name: Power BI용 재무 샘플 통합 문서 다운로드
@@ -526,18 +534,6 @@
           href: desktop-connect-to-data.md
         - name: Power BI Desktop에서 게시
           href: desktop-upload-desktop-files.md
-        - name: Power BI Desktop을 사용하여 웹 페이지에서 데이터 가져오기 및 분석
-          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Excel 및 OData 피드의 판매 데이터 분석'
-          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Power BI Desktop에서 고유한 측정값 만들기
-          href: desktop-tutorial-create-measures.md
-        - name: Power BI Desktop에서 계산 열 만들기
-          href: desktop-tutorial-create-calculated-columns.md
-        - name: Power BI Desktop을 사용한 Facebook 분석
-          href: desktop-tutorial-facebook-analytics.md
-        - name: Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
-          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Power BI의 사용자 지정 시각화
           href: power-bi-custom-visuals.md
         - name: Power BI의 조직을 위한 사용자 지정 시각적 개체
@@ -898,8 +894,6 @@
           href: developer/qanda.md
     - name: 방법
       items:
-        - name: 개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
-          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: 콘텐츠를 포함하는 방법
           href: developer/embedding-content.md
         - name: 대시보드에 데이터 푸시
@@ -914,6 +908,18 @@
           href: developer/integrate-report.md
         - name: 응용 프로그램에 콘텐츠 통합(앱 소유 데이터)
           href: developer/embed-sample-for-customers.md
+        - name: 소버린 클라우드용 응용 프로그램에 콘텐츠 통합(앱 소유 데이터)
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
+        - name: 사용자 지정 시각적 개체 만들기
+          items:
+            - name: 개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: 보안 및 개인 정보에 대한 사용자 지정 시각적 개체 검토
+              href: service-custom-visuals-review-for-security-and-privacy.md
+            - name: 사용자 지정 시각적 개체 인증 받기
+              href: power-bi-custom-visuals-certified.md
+            - name: AppSource에 사용자 지정 시각적 개체 게시
+              href: developer/office-store.md
         - name: 포함
           items:
             - name: Power BI에 포함
@@ -932,12 +938,6 @@
               href: developer/migrate-code-snippets.md
             - name: 포함된 응용 프로그램 문제 해결
               href: developer/embedded-troubleshoot.md
-        - name: 사용자 지정 시각적 개체 만들기
-          items:
-            - name: 보안 및 개인 정보에 대한 사용자 지정 시각적 개체 검토
-              href: service-custom-visuals-review-for-security-and-privacy.md
-            - name: 사용자 지정 시각적 개체 인증 받기
-              href: power-bi-custom-visuals-certified.md
         - name: 대시보드에 데이터 푸시
           items:
             - name: Azure AD에 앱 등록
@@ -976,7 +976,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: 리소스
       items:
-        - name: JavaScript embed 데모
+        - name: JavaScript Playground 샘플
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: 샘플
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
@@ -1126,10 +1126,12 @@
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: 프록시 설정 구성
           href: service-gateway-proxy.md
-        - name: 온-프레미스 데이터 게이트웨이 심층 분석
-          href: service-gateway-onprem-indepth.md
         - name: 온-프레미스 데이터 게이트웨이를 위한 고가용성 클러스터
           href: service-gateway-high-availability-clusters.md
+        - name: 온-프레미스 데이터 게이트웨이
+          href: service-gateway-onprem.md
+        - name: 온-프레미스 데이터 게이트웨이 심층 분석
+          href: service-gateway-onprem-indepth.md
         - name: 온-프레미스 데이터 게이트웨이(개인 모드)
           href: service-gateway-personal-mode.md
         - name: 온-프레미스 데이터 게이트웨이 문제 해결
@@ -1188,6 +1190,8 @@
           href: service-admin-health.md
         - name: Power BI 계정 닫기
           href: service-admin-closing-your-account.md
+        - name: 조직의 Power BI Pro
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: 조직의 Power BI(무료)
           href: service-admin-service-free-in-your-organization.md
         - name: Power BI 및 ExpressRoute

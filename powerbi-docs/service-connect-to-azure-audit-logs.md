@@ -1,28 +1,20 @@
 ---
 title: Power BI로 Azure Audit Logs에 연결
 description: Power BI용 Azure Audit Logs
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bb88ca524df5dd8c683c38a1a54a9bd626dad840
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 22020595b4f972f112f10e16fe7ae7d7fd4abed7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI로 Azure Audit Logs에 연결
 Azure Audit Logs 콘텐츠 팩을 사용하면 감사 로그에 저장된 정보를 분석 및 시각화할 수 있습니다. Power BI는 데이터를 검색하고, 기본 대시보드를 구성한 다음 해당 데이터를 기준으로 보고서를 만듭니다.
@@ -68,7 +60,7 @@ Azure 감사 로그 콘텐츠 팩을 사용하려면 Azure Portal에서 감사 �
 두 가지 간단한 방법으로 구독 ID를 찾을 수 있습니다.
 
 1. https://portal.azure.com -&gt; 찾아보기 -&gt; 구독 -&gt; 구독 ID에서
-2. https://manage.windowsazure.com -&gt; 설정  -&gt; 구독 ID에서
+2. https://manage.windowsazure.com -&gt; 설정-&gt; 구독 ID에서
 
 구독 ID는 숫자와 문자의 긴 집합으로, 위 \#4단계의 예와 유사합니다. 
 

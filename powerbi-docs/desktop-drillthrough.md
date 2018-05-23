@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop에서 드릴스루 사용
 description: Power BI Desktop의 새 보고서 페이지에서 데이터를 드릴다운하는 방법을 알아봅니다.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c78643d285099f7b7856704ac7ee350ff9f93a
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 8c9a0d075c6d55baa1f518874fa668a3f0db8cb3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop에서 드릴스루 사용
 **Power BI Desktop**의 **드릴스루**를 사용하여 보고서에서 공급업체, 고객 또는 제조업체와 같은 특정 엔터티에 초점을 맞춘 페이지를 만들 수 있습니다. 사용자가 이 보고서 페이지를 사용하여 다른 보고서 페이지의 데이터 요소를 마우스 오른쪽 단추로 클릭하고 해당 보고서 페이지로 드릴스루하여 해당 컨텍스트로 필터링된 세부 정보를 확인할 수 있습니다.
@@ -71,6 +63,14 @@ ms.lasthandoff: 05/09/2018
 ![기울임꼴로 표시된 임시 필터](media/desktop-drillthrough/drillthrough_07.png)
 
 이 작업은 도구 설명 페이지에서 수행할 수 있지만, 도구 설명이 제대로 작동하지 않는 것처럼 이상한 경험일 수 있으므로 도구 설명으로 이렇게 하는 것은 권장되지 않습니다.
+
+## <a name="add-a-measure-to-drillthrough"></a>드릴스루에 측정값 추가
+
+모든 필터를 드릴스루 창에 전달하는 것 외에도 측정값(또는 요약된 숫자 열)를 드릴스루 영역에 추가할 수 있습니다. 간단히 드릴스루 필드를 드릴스루 카드로 끌어서 적용합니다. 
+
+![드릴스루에 측정값 추가](media/desktop-drillthrough/drillthrough_08.png)
+
+측정값(또는 요약된 숫자 열)을 추가할 때 필드가 시각적 개체의 *값* 영역에서 사용될 때 페이지로 드릴할 수 있습니다.
 
 보고서에서 **드릴스루**를 사용하기 위한 단계는 여기까지입니다. 드릴스루 필터에 선택한 엔터티 정보에 대한 확장된 보기를 가져오는 것이 좋습니다.
 

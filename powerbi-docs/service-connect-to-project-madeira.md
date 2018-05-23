@@ -1,28 +1,20 @@
 ---
 title: Power BI로 Project Madeira에 연결
 description: Power BI용 Project Madeira
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI로 Project "Madeira"에 연결
 Power BI와 Project "Madeira" 콘텐츠 팩을 통해 Project "Madeira" 데이터에 유용한 정보를 쉽게 가져올 수 있습니다. Power BI는 영업 및 재무 데이터를 모두 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 작성합니다.
@@ -38,9 +30,9 @@ Power BI용 [Project "Madeira" Analytics 콘텐츠 팩](https://app.powerbi.com/
     ![](media/service-connect-to-project-madeira/getdata.png)
 2. **서비스** 상자에서 **가져오기**를 선택합니다.  
     ![](media/service-connect-to-project-madeira/services.png)
-3. **Project "Madeira"**를 선택한 다음 **가져오기**를 선택합니다.  
+3. **Project "Madeira"** 를 선택한 다음 **가져오기**를 선택합니다.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. 대화 상자가 나타나면 Project "Madeira" URL을 입력합니다. URL은 Project “Madeira” 회사 이름을 포함한 https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') 패턴을 정확하게 따라야 합니다. 끝에 슬래시가 없고 연결이 https이어야 합니다. [아래](#FindingParams)에서 URL 찾기에 대한 세부 정보를 참조하세요.  
+4. 대화 상자가 나타나면 Project "Madeira" URL을 입력합니다. URL은 Project "Madeira" 회사 이름을 포함한 https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') 패턴을 정확하게 따라야 합니다. 끝에 슬래시가 없고 연결이 https이어야 합니다. [아래](#FindingParams)에서 URL 찾기에 대한 세부 정보를 참조하세요.  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. 대화 상자가 나타나면 인증 방법으로 기본을 선택하고 Project “Madeira” 전자 메일 주소를 사용자 이름으로 입력한 다음 프로젝트 “Madeira” 계정에 대한 암호로 웹 서비스 선택키를 입력합니다. 브라우저에서 Project “Madeira”에 이미 로그인한 경우 자격 증명을 묻는 메시지가 표시되지 않을 수도 있습니다. [아래](#FindingParams)에서 이 선택키를 생성하는 데 대한 자세한 내용을 봅니다.  
