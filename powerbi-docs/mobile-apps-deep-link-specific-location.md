@@ -1,27 +1,19 @@
 ---
-title: "Power BI 모바일 앱의 특정 위치에 대한 링크 만들기"
-description: "Power BI 모바일 앱에서 URI(Uniform Resource Identifier)를 사용하여 특정 대시보드, 타일 또는 보고서에 대한 딥 링크를 만드는 방법에 대해 알아봅니다."
-services: powerbi
-documentationcenter: 
+title: Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
+description: Power BI 모바일 앱에서 URI(Uniform Resource Identifier)를 사용하여 특정 대시보드, 타일 또는 보고서에 대한 딥 링크를 만드는 방법에 대해 알아봅니다.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: f0174dfd845508b859f703827cec6e1a9290fe78
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
 모든 모바일 플랫폼에서 Power BI 모바일 앱(예: iOS, Android 장치 및 Windows 10) 내에 특정 위치(*딥 링크*)에 연결하려면 URI(Uniform Resource Identifier)를 만들고 사용할 수 있습니다.
@@ -41,13 +33,13 @@ URI 링크는 대시보드, 타일 및 보고서를 직접 가리킬 수 있습�
 
     mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
 
-36자의 대시보드 개체 ID를 찾으려면 Power BI 서비스 (https://powerbi.com) 의 특정 대시보드로 이동합니다. 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
+36자의 대시보드 개체 ID를 찾으려면 Power BI 서비스 (https://powerbi.com)의 특정 대시보드로 이동합니다. 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
 
 https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
 
 대시보드가 내 작업 영역 아닌 그룹에 있다면 대시보드 ID 앞이나 뒤에 `&GroupObjectId=<36-character-group-id>`을(를) 추가합니다. 예를 들어 
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60**&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
 
 두 가지 사이에 앰퍼샌드(&)를 참조하세요.
 
@@ -56,11 +48,11 @@ mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60
 
     mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
 
-36자의 대시보드 개체 ID를 찾으려면 Power BI 서비스 (https://powerbi.com) 의 특정 대시보드로 이동하여 포커스 모드에서 타일을 엽니다. 예를 들어 다음 URL에서 강조 표시된 섹션을 참조하세요.
+36자의 대시보드 및 타일 개체 ID를 찾으려면 Power BI 서비스 (https://powerbi.com)의 특정 대시보드로 이동하여 포커스 모드에서 타일을 엽니다. 예를 들어 다음 URL에서 강조 표시된 섹션을 참조하세요.
 
 https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus
 
-이 타일에 대한 URI은 다음과 같습니다.
+이 타일에 대한 URI는 다음과 같습니다.
 
     mspbi://app/OpenTile?DashboardObjectId=3784f99f-b460-4d5e-b86c-b6d8f7ec54b7&TileObjectId=565f9740-5131-4648-87f2-f79c4cf9c5f5
 
@@ -73,7 +65,7 @@ https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7*
 
     mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
 
-36자의 보고서 개체 ID를 찾으려면 Power BI 서비스 (https://powerbi.com) 의 특정 보고서로 이동합니다. 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
+36자의 보고서 개체 ID를 찾으려면 Power BI 서비스(https://powerbi.com)의 특정 보고서로 이동합니다. 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
 
 https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
 
@@ -82,7 +74,7 @@ https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
 
     mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
 
-보고서 페이지는 "ReportSection"(뒤에 숫자가 따라옴)이라고 합니다. 다시 말해 Power BI 서비스 (https://powerbi.com) 의 보고서를 열고 특정 보고서 페이지로 이동합니다. 
+보고서 페이지는 "ReportSection"(뒤에 숫자가 따라옴)이라고 합니다. 다시 말해 Power BI 서비스(https://powerbi.com)의 보고서를 열고 특정 보고서 페이지로 이동합니다. 
 
 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
 

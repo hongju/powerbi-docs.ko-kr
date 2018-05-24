@@ -1,27 +1,19 @@
 ---
-title: "Power BI 서비스 콘텐츠 팩 프로그램의 개요"
-description: "콘텐츠 팩 인증 프로그램"
-services: powerbi
-documentationcenter: 
+title: Power BI 서비스 콘텐츠 팩 프로그램의 개요
+description: 콘텐츠 팩 인증 프로그램
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 서비스 콘텐츠 팩 프로그램의 개요
 콘텐츠 팩은 사용자가 원본에서 즉시 정보를 얻을 수 있도록 해주는 기본 제공 콘텐츠 집합입니다. 일반적으로 콘텐츠 팩은 역할, 도메인, 워크플로에 대한 정보를 제공하는 특정 비즈니스 시나리오에 초점을 둡니다.
@@ -85,7 +77,7 @@ Power BI 서비스 콘텐츠 팩은 모든 REST API 또는 OData 피드를 지�
 [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)으로 이메일을 보내 자유롭게 질문하세요.
 
 ## <a name="support"></a>지원
-개발 중에 지원을 받으려면 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)를 사용하세요. 적극적으로 모니터링 및 관리됩니다. 고객 인시던트에서 해당 팀에 연락하는 방법을 신속하게 찾을 수 있습니다.
+개발 중 지원은 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)를 참조하세요. 적극적으로 모니터링 및 관리됩니다. 고객 인시던트에서 해당 팀에 연락하는 방법을 신속하게 찾을 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 [작성](template-content-pack-authoring.md)

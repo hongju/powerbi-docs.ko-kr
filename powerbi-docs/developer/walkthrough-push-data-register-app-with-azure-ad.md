@@ -1,27 +1,19 @@
 ---
-title: "Azure AD에 앱 등록"
-description: "연습 - 데이터 집합에 데이터 푸시 - Azure AD에 앱 등록"
-services: powerbi
-documentationcenter: 
+title: Azure AD에 앱 등록
+description: 연습 - 데이터 집합에 데이터 푸시 - Azure AD에 앱 등록
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 48ab2a51a479269b8846288b64089964a0544681
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>1단계: Azure AD에 앱 등록
 이 문서는 [데이터 집합에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
@@ -36,10 +28,10 @@ Azure AD에 앱을 등록하는 단계는 다음과 같습니다.
 
 ## <a name="register-an-app-in-azure-ad"></a>Azure AD에 앱 등록
 1. dev.powerbi.com/apps로 이동합니다.
-2. **Sign in with your existing account(기존 계정으로 로그인)**을 클릭하고 Power BI 계정에 로그인합니다.
+2. **Sign in with your existing account(기존 계정으로 로그인)** 을 클릭하고 Power BI 계정에 로그인합니다.
 3. **앱 이름**을 "Sample push data app"과 같이 입력합니다.
 4. **앱 유형**에서 **네이티브 앱**을 선택합니다.
-5. **https://login.live.com/oauth20_desktop.srf**와 같은 **리디렉션 URL**를 입력합니다. **네이티브 클라이언트 앱**의 경우 리디렉션 URI는 인증할 특정 응용 프로그램에 대한 더 자세한 정보를 **Azure AD** 에 제공합니다. 클라이언트 앱에 대한 표준 URI는 https://login.live.com/oauth20_desktop.srf입니다.
+5. **https://login.live.com/oauth20_desktop.srf** 같은 **URL 리디렉션**을 입력합니다. **네이티브 클라이언트 앱**의 경우 리디렉션 URI는 인증할 특정 응용 프로그램에 대한 더 자세한 정보를 **Azure AD** 에 제공합니다. 클라이언트 앱의 표준 URI는 https://login.live.com/oauth20_desktop.srf입니다.
 6. **액세스할 API 선택**에서 **모든 데이터 집합 읽기 및 쓰기**를 선택합니다. 모든 Power BI 앱 사용 권한은 [Power BI 사용 권한](power-bi-permissions.md)을 참조하세요.
 7. **앱 등록**을 클릭하고 생성된 **클라이언트 ID** 를 저장합니다. **클라이언트 ID** 는 Azure AD의 앱을 식별합니다.
 

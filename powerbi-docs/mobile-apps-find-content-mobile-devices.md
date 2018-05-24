@@ -1,27 +1,19 @@
 ---
-title: "Power BI 모바일 앱에서 대시보드, 보고서, 앱 찾기"
-description: "Power BI 모바일 앱의 출처에 따라 대시보드, 보고서, 앱을 찾을 수 있는 위치에 대해 알아봅니다."
-services: powerbi
-documentationcenter: 
+title: Power BI 모바일 앱에서 대시보드, 보고서, 앱 찾기
+description: Power BI 모바일 앱의 출처에 따라 대시보드, 보고서, 앱을 찾을 수 있는 위치에 대해 알아봅니다.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: 26a45efaba84961351008bf7b3497c6214cfd702
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드, 보고서, 앱 찾기
 적용 대상:

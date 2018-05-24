@@ -1,27 +1,19 @@
 ---
 title: Power BI용 백서
 description: 백서를 통해 Power BI 항목을 보다 자세히 탐색할 수 있습니다.
-services: powerbi
-documentationcenter: ''
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/11/2018
-ms.author: maghan
-ms.openlocfilehash: 049ffb993e749e9cb251130438e351d8adbe3bdf
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
+ms.author: maggies
+ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI용 백서
 
@@ -37,11 +29,12 @@ ms.lasthandoff: 04/16/2018
 | [보안](service-admin-power-bi-security.md) |Power BI 내 보안에 대한 자세한 설명을 제공합니다. |
 | [Power BI 및 GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Power BI는 GDPR 준수를 위한 과정에 중요한 부분일 수 있습니다. 이 문서의 목적은 GDPR에 대한 몇 가지 기본적인 이해를 제공하고 GDPR을 Power BI와 연결하는 것입니다. 이 문서에 설명된 특정 상황에서는 GDPR 준수가 필수이지만 GDPR 준수는 단순히 “확인란” 연습이 아닙니다. 전반적인 데이터 보호 및 개인 정보 보호 기능을 향상하는 방법이기도 합니다.|
 | [Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포](https://aka.ms/powerbi-b2b-whitepaper)|이 문서에서는 AAD B2B(Azure Active Directory Business-to-business)의 통합을 사용하여 콘텐츠를 조직 외부 사용자에게 배포하는 방법을 간략히 설명합니다.|
-| [보고서 및 시각적 개체에 대한 디자인 모범 사례](power-bi-visualization-best-practices.md) |Power BI 보고서 디자인에 대한 모범 사례를 제공합니다. |
 | [Power BI를 사용한 고급 분석](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |예측 분석, 사용자 지정 시각화, R 통합 및 데이터 분석 식을 비롯한 Power BI의 고급 분석 기능을 설명합니다. |
+| [보고서 및 시각적 개체에 대한 디자인 모범 사례](power-bi-visualization-best-practices.md) |Power BI 보고서 디자인에 대한 모범 사례를 제공합니다. |
 | [양방향 필터링](desktop-bidirectional-filtering.md) |Power BI Desktop에서 양방향 교차 필터링에 대해 설명합니다(이 백서에서는 SQL Server Analysis Services 2016에 대해서도 다루며 둘 다 동작은 동일합니다). |
 | [SQL Server 2016 Analysis Services의 DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |SQL Server 2016에서 DirectQuery는 획기적으로 향상된 속도 및 성능을 제공하도록 다시 설계되었지만 이해하고 구현하기가 더 복잡해졌습니다. |
-| [테이블 형식 BI 의미 체계 모델 보안](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |이 문서에서는 테이블 형식 BI 의미 체계 및 Power BI의 보안 모델을 소개합니다. 네트워크 보안 컨텍스트에서 작동하는 모델에 연결하기 위해 역할을 만들고, 동적 보안을 구현하고, 가장 설정을 구성하고, 역할을 관리하고, 메서드를 선택하는 방법을 알아봅니다. |
 | [Power BI 및 SAP BW](https://aka.ms/powerbiandsapbw)| 이 아티클에서는 SAP 고객이 Power BI를 기존 SAP BW(비즈니스 웨어하우스) 시스템에 연결하여 활용하는 방법에 대해 설명합니다.|
+| [Power BI 거버넌스 및 배포 방법](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) | Power BI 에코시스템 내에서 거버넌스의 개념, 옵션 및 제안을 제공합니다. |
+| [테이블 형식 BI 의미 체계 모델 보안](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |이 문서에서는 테이블 형식 BI 의미 체계 및 Power BI의 보안 모델을 소개합니다. 네트워크 보안 컨텍스트에서 작동하는 모델에 연결하기 위해 역할을 만들고, 동적 보안을 구현하고, 가장 설정을 구성하고, 역할을 관리하고, 메서드를 선택하는 방법을 알아봅니다. |
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

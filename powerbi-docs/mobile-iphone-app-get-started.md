@@ -1,30 +1,22 @@
 ---
-title: "iPhone에서 Power BI 모바일 앱 시작"
-description: "온-프레미스 및 클라우드에서 비즈니스 정보에 대한 모바일 액세스 권한을 사용하여 iPhone에서 iOS 앱용 Microsoft Power BI가 Power BI를 휴대하는 방법에 대해 알아봅니다."
-services: powerbi
-documentationcenter: 
+title: iPhone에서 Power BI 모바일 앱 시작
+description: 온-프레미스 및 클라우드에서 비즈니스 정보에 대한 모바일 액세스 권한을 사용하여 iPhone에서 iOS 앱용 Microsoft Power BI가 Power BI를 휴대하는 방법에 대해 알아봅니다.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 05/04/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>iPhone 또는 iPod Touch에서 Power BI 모바일 앱 시작
-iPhone 또는 iPod Touch의 iOS 앱용 Microsoft Power BI는 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기 적절한 데이터를 최신 상태로 유지합니다.  
+iPhone 또는 iPod Touch의 iOS 앱용 Microsoft Power BI는 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기적절한 데이터를 최신 상태로 유지합니다.  
 
 ![Power BI iPhone 모바일 앱 대시보드](media/mobile-iphone-app-get-started/power-bi-mobile-get-started-dash.png)
 
@@ -46,7 +38,7 @@ Apple 앱 스토어에서 iPhone이나 iPod Touch로 [iOS 앱 다운로드](http
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI 서비스에 등록
-아직 등록하지 않은 경우 Power BI(https://powerbi.com)로 이동하여 서비스에 등록합니다. 무료입니다.
+아직인 경우 Power BI(https://powerbi.com)로 이동하여 서비스에 등록합니다. 무료입니다.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 앱 시작
 1. iPhone에서 Power BI 앱을 엽니다.

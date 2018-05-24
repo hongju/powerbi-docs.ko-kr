@@ -1,38 +1,21 @@
 ---
-title: "오류: "
-need: 
-to: 
-update: 
-android: 
-system: 
-webview": 
-'-': 
-power: 
-bi": 
-description: "Android 모바일 앱에 로그인할 때 Android System Webview를 업데이트해야 한다는 메시지가 표시될 수 있습니다."
-services: powerbi
-documentationcenter: 
+title: “Android System Webview를 업데이트해야 합니다.” 수정 - Power BI
+description: Android 모바일 앱에 로그인할 때 Android System Webview를 업데이트해야 한다는 메시지가 표시될 수 있습니다.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 1a478d8465f05fcc4218d049101c239ed5559fc9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 1b2e440f1c25468f4e947256720ef236a927b23c
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/22/2018
 ---
-# <a name="error-need-to-update-android-system-webview---power-bi"></a>오류: "Android System Webview를 업데이트해야 합니다." - Power BI
+# <a name="fixing-need-to-update-android-system-webview"></a>“Android System Webview를 업데이트해야 합니다.” 수정
 Microsoft Power BI용 Android 모바일 앱에 로그인할 때 Android System Webview를 업데이트해야 한다는 메시지가 표시될 수 있습니다. 
 
 Google Play Store로 이동하여 Android System Webview를 업데이트한 후에 다시 돌아와서 Power BI 모바일 앱을 다시 열려고 시도한다고 가정해 보겠습니다. 

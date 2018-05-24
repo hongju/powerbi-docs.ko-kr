@@ -1,27 +1,19 @@
 ---
-title: "개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기"
-description: "사용자 지정 시각적 개체를 사용하면 사용자 요구 사항과 앱 디자인에 맞출 수 있습니다. 개발자 도구로 Power BI용 사용자 지정 시각적 개체를 만드는 방법을 알아보세요."
-services: powerbi
-documentationcenter: 
+title: 개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
+description: 사용자 지정 시각적 개체를 사용하면 사용자 요구 사항과 앱 디자인에 맞출 수 있습니다. 개발자 도구로 Power BI용 사용자 지정 시각적 개체를 만드는 방법을 알아보세요.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
 사용자 지정 시각적 개체를 사용하면 사용자 요구 사항과 앱 디자인에 맞출 수 있습니다. 개발자 도구로 Power BI용 사용자 지정 시각적 개체를 만드는 방법을 알아보세요.
@@ -87,7 +79,7 @@ ms.lasthandoff: 03/09/2018
     --install-cert  Install localhost certificate
     </code></pre>
 
-<a name"ssl-setup"></a>
+<a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>서버 인증서 설치
 시각적 개체에 대한 실시간 미리 보기를 사용하려면 신뢰할 수 있는 https 서버가 필요합니다. 시작하기 전에 웹 브라우저에서 로드할 수 있도록 시각적 개체 자산을 허용하는 SSL 인증서를 설치해야 합니다. 
@@ -97,19 +89,34 @@ ms.lasthandoff: 03/09/2018
 > 
 > 
 
-인증서를 추가하려면 다음 명령을 실행합니다.
+인증서를 ‘만들려면’ 다음 명령을 실행합니다.
+
+    pbiviz --create-cert
+
+> [!NOTE]
+> 인증서의 위치 경로와 새로 생성된 암호를 알려주는 메시지가 표시됩니다.
+> 
+> 
+
+
+인증서를 ‘설치’하려면 다음 명령을 실행합니다.
 
     pbiviz --install-cert
+    
+> [!NOTE]
+> 새로 생성된 암호를 사용하여 PFX 인증서를 설치하라고 알려주는 메시지가 표시됩니다.
+> 
+> 
 
 **Windows OS**
 
-1. **인증서 설치...**를 선택합니다.
+1. **인증서 설치...** 를 선택합니다.
    
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows.png)
 2. **현재 사용자**, **다음**을 차례로 선택합니다.
    
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
-3. **모든 인증서를 다음 저장소에 저장**, **찾아보기...**를 차례로 선택합니다.
+3. **모든 인증서를 다음 저장소에 저장**, **찾아보기...** 를 차례로 선택합니다.
 4. **신뢰할 수 있는 루트 인증 기관**, **확인**을 차례로 선택합니다. **다음**을 선택합니다.
    
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)

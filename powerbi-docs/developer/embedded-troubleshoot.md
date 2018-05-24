@@ -1,27 +1,19 @@
 ---
 title: 포함된 응용 프로그램 문제 해결
 description: 이 문서에서는 Power BI 콘텐츠를 포함할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 13bdbbfec2e76b526b92d65f6f9f5cd1372f2094
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 2108d8fc290a5af568a3e06ae5986e82413b680b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
 
@@ -144,5 +136,3 @@ Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 응용 프
 자세한 내용은 [Power BI Embedded FAQ](embedded-faq.md)를 참조하세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-
-

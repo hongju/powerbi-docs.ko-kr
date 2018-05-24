@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop 시작
 description: Power BI Desktop 시작
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 99f2679f30c8eebf40389883b41601d4fc3da939
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 시작
 **Power BI Desktop 시작 가이드**를 시작합니다. 아래의 간단한 안내를 통해 Power BI Desktop의 작동 방법을 파악하고, 이 도구로 수행할 수 있는 작업을 확인하고, 비즈니스 인텔리전스 활동을 강화하는 강력한 데이터 모델을 유용한 보고서와 함께 신속하게 작성할 수 있습니다. 
@@ -336,6 +328,10 @@ Power BI에 로그인하면 방금 서비스의 **대시보드**, **보고서**�
 
 Power BI Desktop 및 Power BI 서비스를 사용하여 모든 종류의 매력적인 데이터 관련 매시업 및 시각화를 수행할 수 있습니다. 자세한 내용은 다음 섹션을 참조하세요.
 
+## <a name="diagnostics"></a>진단
+
+Power BI Desktop은 진단 포트 연결을 지원합니다. 진단 포트를 사용하면 진단을 위해 다른 도구를 연결하여 추적을 수행할 수 있습니다. *모델을 변경하는 것은 지원되지 않습니다! 모델을 변경하면 손상 및 데이터 손실로 이어질 수 있습니다.*
+
 ## <a name="next-steps"></a>다음 단계
 Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. 해당 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
@@ -344,4 +340,3 @@ Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. �
 * [Power BI Desktop에서 데이터에 연결](desktop-connect-to-data.md)
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
 * [Power BI Desktop의 일반적인 쿼리 작업](desktop-common-query-tasks.md)   
-

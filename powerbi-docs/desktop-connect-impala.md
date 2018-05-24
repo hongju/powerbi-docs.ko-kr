@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop에서 Impala 데이터베이스에 연결
 description: Power BI Desktop에서 Impala 데이터베이스에 쉽게 연결하고 사용
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bef087b485573ba9a629887bfb05d875c88c8b4c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 9b00120a0c4c22ba8f031663ab19d94d2c482d3b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Power BI Desktop에서 Impala 데이터베이스에 연결
 Power BI Desktop에서 **Impala** 데이터베이스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다.
@@ -36,7 +28,7 @@ Power BI Desktop에서 **Impala** 데이터베이스에 연결하고 Power BI De
 
 ![](media/desktop-connect-impala/connect_impala_3a.png)
 
-메시지가 표시되면 사용자 이름 및 암호를 입력하거나 익명으로 연결합니다. 둘 다 지원됩니다.
+메시지가 표시되면 자격 증명을 입력하거나 익명으로 연결합니다. Impala 커넥터는 익명, 기본(사용자 이름 + 암호) 및 Windows 인증을 지원합니다.
 
 ![](media/desktop-connect-impala/connect_impala_4.png)
 
@@ -52,7 +44,7 @@ Power BI Desktop에서 **Impala** 데이터베이스에 연결하고 Power BI De
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 **Impala** 커넥터에서 유의해야 하는 몇 가지 제한 및 고려 사항이 있습니다.
 
-* 향후 계획에는 **Power BI Gateway**를 사용하는 새로 고침 지원이 포함됩니다.
+* Impala 커넥터는 세 가지 지원되는 인증 메커니즘 중 하나를 사용하여 온-프레미스 데이터 게이트웨이에서 지원됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 Power BI Desktop을 사용하여 연결할 수 있는 모든 종류의 데이터가 있습니다. 데이터 원본에 대한 자세한 내용은 다음 리소스를 확인하세요.
