@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>빠른 시작 - Power BI 서비스 살펴보기
 
@@ -125,6 +125,19 @@ Power BI 서비스 탐색 경험을 안내하는 Amanda를 봅니다.  그런 �
 ![내용 정렬](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 자세한 내용은 [Power BI 탐색: 검색, 정렬, 필터링](service-navigation-search-filter-sort.md)을 참조하세요.
+
+## <a name="clean-up-resources"></a>리소스 정리
+이 빠른 시작을 완료한 후 원하는 경우 소매점 분석 샘플 대시보드, 보고서 및 데이터 집합을 삭제할 수 있습니다.
+
+1. Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.    
+2. 왼쪽 탐색 창에서 **작업 영역 > 내 작업 영역**을 선택합니다.  
+    즐겨찾기를 나타내는 노란색 별모양이 보이나요?    
+3. **대시보드** 탭에서 소매점 분석 대시보드 옆에 있는 휴지통 **삭제** 아이콘을 선택합니다.    
+
+    ![대시보드 삭제](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. **보고서** 탭을 선택하고 소매점 분석 보고서에 대해 동일한 작업을 수행합니다.
+1. **데이터 집합** 탭을 선택하고 소매점 분석 데이터 집합에 대해 동일한 작업을 수행합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

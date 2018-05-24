@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 071f7ea0c324ec8fe0160766f65cf929f811362a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aeaea6d14cf8f4fd62fbbf5098e68429fe40b96a
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 Power BI 서비스에서 보고서를 열면 보고서의 페이지마다 고유한 URL을 보유합니다. 보고서 페이지를 필터링하려면 보고서 캔버스에서 필터 창을 사용할 수 있습니다.  또는 URL에 쿼리 문자열 매개 변수를 추가하여 보고서를 필터링할 수 있습니다. 동료에게 보여 주고 싶은 보고서가 있고 이를 위해 미리 필터링하려고 할 수 있습니다. 이 작업을 수행하는 한 가지 방법은 보고서에 대한 기본 URL로 시작하고 필터 매개 변수를 URL에 추가한 후 전체 URL을 전자 메일로 보내는 것입니다.
@@ -97,9 +97,10 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 다른 결과를 보고 싶을 때 도움이 되는 경우가 있을 수 있습니다. 대시보드에서는 필터링되고 보고서에서는 필터링되지 않도록 하는 경우가 그렇습니다.
 
-## <a name="limitations-and-troubleshooting"></a>제한 사항 및 문제 해결
+## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 쿼리 문자열 매개 변수를 사용할 때 알아야 할 몇 가지 사항이 있습니다.
 
+* Power BI Report Server에서는 보고서 URL에 보고서 매개 변수를 포함시켜 [보고서 매개 변수를 전달](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)할 수 있습니다. 이러한 URL 매개 변수는 보고서 처리 엔진에 직접 전달되기 때문에 접두사가 붙지 않습니다. 
 * 쿼리 문자열 필터링은 [웹에 게시](service-publish-to-web.md) 또는 Power BI Embedded에는 작동하지 않습니다.   
 * 필드 유형은 숫자 또는 문자열이어야 합니다.
 * 테이블 및 필드 이름에는 공백을 포함할 수 없습니다.
