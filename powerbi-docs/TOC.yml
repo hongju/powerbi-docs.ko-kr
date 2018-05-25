@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: 보고서 또는 대시보드 구독
                   href: service-report-subscribe.md
+                - name: 보고서를 열 수 있는 여러 가지 방법
+                  href: service-report-open.md
                 - name: Power BI 내에서 콘텐츠 이름 바꾸기
                   href: service-rename.md
                 - name: 전체 화면 모드(TV 모드)에서 대시보드 및 보고서 표시
