@@ -1022,7 +1022,7 @@
           href: report-server/system-requirements.md
         - name: 브라우저 지원
           href: report-server/browser-support.md
-        - name: 관리자용 보고서 서버
+        - name: 관리자 개요
           href: report-server/admin-handbook-overview.md
         - name: 보고서 서버 기본 사항
           items:
@@ -1080,6 +1080,8 @@
               href: report-server/migrate-report-server.md
             - name: Power BI 보고서를 사용하도록 Kerberos 구성
               href: report-server/configure-kerberos-powerbi-reports.md
+            - name: 원격으로 모바일 앱 액세스 구성
+              href: report-server/configure-powerbi-mobile-apps-remote.md
             - name: Excel 통합 문서 호스트
               href: report-server/excel-oos.md
     - name: 참조
