@@ -1,20 +1,28 @@
 ---
 title: Power BI Report Server에 최적화된 Power BI Desktop 설치
 description: Power BI Report Server에 최적화된 Power BI Desktop을 설치하는 방법에 대한 자세한 내용
+services: powerbi
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 2061bb5afde8c19693eb565b298fabedebae89ac
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: b67cfbcb495fef45ec3f44ceab77b794a9110617
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2018
-ms.locfileid: "34310409"
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813694"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 Power BI Report Server에 최적화된 Power BI Desktop을 설치하는 방법에 대해 자세히 알아봅니다.
@@ -104,7 +112,6 @@ Power BI Desktop을 설치했으므로 Power BI 보고서를 작성하기 시작
 
 [Power BI Report Server용 Power BI 보고서 만들기](quickstart-create-powerbi-report.md)  
 [Power BI Desktop 시작](../desktop-getting-started.md)  
-단계별 학습: [Power BI Desktop 시작](../guided-learning/gettingdata.yml?tutorial-step=2)
 [사용자 안내서 개요, Power BI Report Server](user-handbook-overview.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -1,29 +1,20 @@
 ---
 title: '자습서: VM에서 Power BI Report Server 탐색'
 description: 이 자습서에서는 Power BI Report Server가 이미 설치된 가상 머신을 만들고 웹 포털을 탐색합니다.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.component: powerbi-report-server
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-report-server
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: a77dceac19368fc7997f79513b0b5f946a914dfc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813947"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34445006"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>자습서: VM에서 Power BI Report Server 웹 포털 탐색
 이 자습서에서는 샘플 Power BI 및 페이지를 매긴 보고서와 KPI를 표시, 편집 및 관리해 볼 수 있도록 Power BI Report Server가 이미 설치된 Azure 가상 머신을 만듭니다.
@@ -58,6 +49,8 @@ ms.locfileid: "33813947"
 5. 사용자 이름 및 암호를 만듭니다.
 
 6. **리소스 그룹**의 경우 **새로 만들기**를 유지하고 이름을 **reportserverresourcegroup**으로 지정합니다.
+
+    이 자습서를 두 번 이상 진행하는 경우 두 번째에는 리소스 그룹에 다른 이름을 지정해야 합니다. 하나의 구독에 동일한 리소스 그룹 이름을 두 번 사용할 수 없습니다. 
 
 7. 다른 기본값을 유지한 다음, **확인**을 선택합니다.
 
@@ -166,6 +159,8 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 
     ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
 
+     VM에 설치된 Power BI Desktop의 버전을 사용합니다. 도메인 간 이동하여 보고서를 업로드할 수 없습니다.
+
 3. [필드] 창에서 Customers 테이블을 확장하고 직업 필드를 보고서 수준 필터로 끌어옵니다.
 
     ![필드를 필터 창으로 끌어오기](media/tutorial-explore-report-server-web-portal/power-bi-report-server-desktop-filter.png)
@@ -252,7 +247,9 @@ Power BI Report Server의 Excel Online에서 Excel 통합 문서를 보고 조�
 
 ## <a name="next-steps"></a>다음 단계
 
-이 자습서에서는 Power BI Report Server를 사용하여 VM을 만들었습니다. 웹 포털의 일부 기능을 사용해 보았고 각 편집기에서 Power BI 보고서와 페이지를 매긴 보고서를 열었습니다. Power BI Report Server에 대한 보고서를 만드는 방법을 자세히 알아보려면 계속 진행합니다.
+이 자습서에서는 Power BI Report Server를 사용하여 VM을 만들었습니다. 웹 포털의 일부 기능을 사용해 보았고 각 편집기에서 Power BI 보고서와 페이지를 매긴 보고서를 열었습니다. 이 VM에는 SQL Server Analysis Services 데이터 원본이 설치되어 있으므로 동일한 데이터 원본을 사용하여 사용자 고유의 Power BI 및 페이지가 매겨진 보고서를 만들어 볼 수 있습니다. 
+
+Power BI Report Server에 대한 보고서를 만드는 방법을 자세히 알아보려면 계속 진행합니다.
 
 > [!div class="nextstepaction"]
 > [Power BI Report Server용 Power BI 보고서 만들기](./quickstart-create-powerbi-report.md)

@@ -1,29 +1,21 @@
 ---
 title: '자습서: Power BI Desktop을 사용하여 웹 페이지에서 데이터 가져오기 및 분석'
 description: '자습서: Power BI Desktop을 사용하여 웹 페이지에서 데이터 가져오기 및 분석'
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/02/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 14c6cc0d221e5ed0a2fe6ead88deb9e8fb867290
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 20bcc45fa95bcff6eb8a761dae58c67a875f55cd
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33945966"
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34455999"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>자습서: Power BI Desktop을 사용하여 웹 페이지 데이터 분석
 
