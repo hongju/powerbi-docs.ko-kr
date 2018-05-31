@@ -1,29 +1,21 @@
 ---
 title: 기본 영역형 차트
 description: 기본 영역형 차트입니다.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 62d518b923d541ee937f485da946ae08b20fa386
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 23262d16993043bff90b50ccd55dc7903c5fc23b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33811808"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34291745"
 ---
 # <a name="basic-area-chart"></a>기본 영역형 차트
 기본 영역형 차트(즉, 계층화된 영역형 차트)는 꺾은선형 차트를 기반으로 합니다. 축과 선 사이의 영역이 볼륨을 나타내는 색으로 채워집니다. 

@@ -1,29 +1,21 @@
 ---
 title: Power BI에 지원되는 언어 및 국가/지역
 description: Power BI 서비스, Power BI Desktop 및 Power BI 설명서에서 지원하는 언어 및 국가/지역 목록을 참조하세요.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: 14890d93261c12e16756c8f65d9273d954f673dd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2018
-ms.locfileid: "33871481"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34256705"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI에 지원되는 언어 및 국가/지역
 

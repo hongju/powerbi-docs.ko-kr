@@ -1,29 +1,20 @@
 ---
 title: Android 장치에서 Power BI 모바일 앱 시작
 description: 온-프레미스 및 클라우드에서 비즈니스 정보에 대한 모바일 액세스 권한을 사용하여 Microsoft Power BI용 Android 모바일 앱이 Power BI를 휴대하는 방법에 대해 알아봅니다.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 05/18/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: conceptual
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: 16d3755af688a3bfb99964957f284fde3c658328
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33946035"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297449"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 장치에서 Power BI 모바일 앱 시작
 Microsoft Power BI용 Android 앱은 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 

@@ -1,28 +1,20 @@
 ---
 title: Power BI 모바일 앱에서 대시보드 및 보고서 보기
 description: Power BI 서비스에서 대시보드 및 보고서를 생성하거나 연결합니다. 그러면 Power BI 모바일 앱에 표시됩니다.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: 2f273dc76419b0513204f9c20def0c9d6f337ffe
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33945828"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295876"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
 적용 대상:
@@ -48,7 +40,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="view-dashboards-on-your-iphone"></a>iPhone에서 대시보드 보기
 1. iPhone에서 Power BI 앱을 열고 로그인합니다.
    
-   Apple App Store에서 iPhone 앱을 다운로드할 필요가 있나요? [iPhone 앱 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062)
+   Apple 앱 스토어에서 iPhone 앱을 다운로드할 필요가 있나요? [iPhone 앱 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062)
 2. 대시보드를 열려면 누릅니다.  
    
     ![대시보드 탭](media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -88,7 +80,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="view-dashboards-on-your-ipad"></a>iPad에서 대시보드 보기
 1. Power BI 앱을 엽니다.
    
-   먼저 Apple App Store에서 [iPad 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062)해야 합니까?
+   먼저 Apple 앱 스토어에서 [iPad 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062)해야 합니까?
 2. 앱의 위쪽에 있는 **대시보드**를 누릅니다.  
    
    ![대시보드 홈](media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)

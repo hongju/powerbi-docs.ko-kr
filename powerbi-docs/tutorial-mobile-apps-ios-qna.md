@@ -1,29 +1,20 @@
 ---
 title: '자습서: iOS 앱에서 질문 및 답변 가상 분석가에게 질문하기 - Power BI'
 description: 이 자습서에서는 iOS 장치에 설치된 Power BI 모바일 앱에서 질문 및 답변 가상 분석가를 사용하여 사용자의 고유한 언어로 이 샘플 데이터에 대해 질문합니다.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
-ms.devlang: NA
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 270a6ef9f9c9559ae5dd303249fd372c5f4d2b79
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 5c8afc963c67493c30821048736d914d3aec278e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33945920"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297863"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>자습서: iOS 앱에서 질문 및 답변 가상 분석가에게 데이터에 대한 질문하기 - Power BI
 
