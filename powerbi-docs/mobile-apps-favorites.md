@@ -1,27 +1,28 @@
 ---
-title: "Power BI 모바일 앱의 즐겨찾기"
-description: "모바일 앱에서 즐겨 찾는 Power BI 대시보드, 보고서, 앱, Power BI Report Server, Reporting Services 보고서 및 KPI를 만들고 보는 방법에 대해 알아보세요."
+title: Power BI 모바일 앱의 즐겨찾기
+description: 모바일 앱에서 즐겨 찾는 Power BI 대시보드, 보고서, 앱, Power BI Report Server, Reporting Services 보고서 및 KPI를 만들고 보는 방법에 대해 알아보세요.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: d3b53618f43652fffcb53502fd9d55ef91f2aff3
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 4edffdbf918e4ccf7e31821d359df54dfc275f46
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812153"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 즐겨찾기 만들기 및 보기
 적용 대상:
@@ -80,7 +81,7 @@ Power BI Report Server 또한 Reporting Services 웹 포털에서 KPI와 보고�
     ![Android 즐겨찾기 별](media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>즐겨 찾는 Power BI Report Server 및 Reporting Services 보고서 및 KPI 만들기
-Power BI 모바일 앱에서 즐겨 찾는 Power BI Report Server 및 Reporting Services 보고서 및 KPI를 볼 수 있지만 모바일 앱에서 즐겨찾기로 만들 수 없습니다. [웹 포털에서 즐겨찾기로 태그](report-server/getting-around.md#tag-your-favorite-reports-and-kpis)합니다. 
+Power BI 모바일 앱에서 즐겨 찾는 Power BI Report Server 및 Reporting Services 보고서 및 KPI를 볼 수 있지만 모바일 앱에서 즐겨찾기로 만들 수 없습니다. [웹 포털에서 즐겨찾기로 태그](report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites)합니다. 
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 서비스의 즐겨 찾는 대시보드](service-dashboard-favorite.md) 

@@ -1,108 +1,107 @@
 ---
-title: "iFrame을 사용하여 보고서 포함"
-description: "Power BI Report Server 자체를 신속하게 설치할 수 있습니다. 몇 분 이내에 다운로드, 설치 및 구성하도록 실행합니다."
-services: powerbi
-documentationcenter: 
+title: iFrame을 사용하여 보고서 포함
+description: SharePoint Server에서 iFrame으로 Power BI Report Server 보고서 포함
 author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/09/2017
 ms.author: maghan
-ms.openlocfilehash: 56835bfb25c8c930099fadf710137f69fa89fc2e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 05/04/2018
+ms.topic: quickstart
+ms.service: powerbi
+ms.component: powerbi-report-server
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293700"
 ---
-# <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>빠른 시작: iFrame 및 URL 매개 변수를 사용하여 Power BI 보고서 포함
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>빠른 시작: SharePoint Server에서 iFrame을 사용하여 Power BI Report Server 보고서 포함
 
-응용 프로그램에서 iFrame을 사용하여 모든 보고서를 포함할 수 있습니다. 
+이 빠른 시작에서는 SharePoint 페이지에서 iFrame을 사용하여 Power BI Report Server 보고서를 포함하는 방법을 알아봅니다. SharePoint Online에서 작업하는 경우 Power BI Report Server에 공개적으로 액세스할 수 있어야 합니다. SharePoint Online에서는 Power BI 서비스에서 작동하는 Power BI 웹 파트가 Power BI Report Server에서 작동하지 않습니다. 
 
-## <a name="url-parameter"></a>URL 매개 변수
+![iFrame 샘플](media/quickstart-embed/quickstart_embed_01.png)
+## <a name="prerequisites"></a>필수 조건
+* [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)를 설치하고 구성해야 합니다.
+* Power BI Report Server에 최적화된 [Power BI Desktop](install-powerbi-desktop.md)을 설치해야 합니다.
+* [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install) 환경을 설치하고 구성해야 합니다.
 
-보고서에 대한 모든 URL에 `?rs:Embed=true`의 쿼리 문자열 매개 변수를 추가할 수 있습니다.
+## <a name="creating-the-power-bi-report-server-report-url"></a>Power BI Report Server 보고서 URL 만들기
 
-예:
+1. GitHub에서 샘플 다운로드 - [블로그 데모](https://github.com/Microsoft/powerbi-desktop-samples).
 
-```
-http://myserver/reports/powerbi/Sales?rs:embed=true
-```
+    ![샘플 PBIX 파일 다운로드](media/quickstart-embed/quickstart_embed_14.png)
 
-Power BI Report Server 내의 모든 보고서 유형에서 작동합니다.
+2. **Power BI Report Server에 최적화된 Power BI Desktop**에서 GitHub의 샘플 PBIX 파일을 엽니다.
 
-## <a name="iframe"></a>iFrame
+    ![PBI RS 데스크톱 도구](media/quickstart-embed/quickstart_embed_02.png)
 
-URL이 있으면 보고서를 호스팅하기 위해 웹 페이지 내에서 iFrame을 만들 수 있습니다.
+3. 보고서를 **Power BI Report Server**에 저장합니다. 
 
-예:
+    ![PBI RS 저장](media/quickstart-embed/quickstart_embed_03.png)
 
-```
-<iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
-```
+4. **웹 포털**에서 보고서를 봅니다.
 
-## <a name="url-filter"></a>URL 필터
+    ![웹 포털](media/quickstart-embed/quickstart_embed_04.png)
 
-Power BI 보고서에서 반환된 데이터를 필터링하기 위해 URL에 쿼리 문자열 매개 변수를 추가할 수 있습니다.
+### <a name="capturing-the-url-parameter"></a>URL 매개 변수 캡처
 
-구문은 간단합니다. 보고서 URL로 시작하고 물음표를 추가한 다음 이 필터 구문을 추가하면 됩니다.
+URL이 있으면 보고서를 호스트하기 위해 SharePoint 페이지 내에서 iFrame을 만들 수 있습니다. Power BI Report Server 보고서 URL의 경우 `?rs:embed=true`의 querystring 매개 변수를 추가하여 보고서를 iFrame에 포함할 수 있습니다. 
 
-URL?filter=***Table***/***Field*** eq '***value***'
+   예:
+    ``` 
+    http://myserver/reports/powerbi/Sales?rs:embed=true
+    ```
+## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>SharePoint iFrame에 Power BI Report Server 보고서 포함
 
-다음 고려 사항을 염두에 두십시오.
+1. SharePoint **사이트 콘텐츠** 페이지로 이동합니다.
 
-- **Table** 및 **Field** 이름은 대소문자를 구분하고 **value**는 구분하지 않습니다.
-- 보고서 보기에서 숨겨진 필드가 있는 보고서를 필터링할 수 있습니다.
-- **Value**는 작은따옴표로 묶어야 합니다.
-- 필드 형식은 문자열이어야 합니다.
-- 테이블 및 필드 이름에는 공백을 포함할 수 없습니다.
+    ![사이트 콘텐츠 페이지](media/quickstart-embed/quickstart_embed_05.png)
 
-###  <a name="example-filter-on-a-field"></a>예제: 필드 필터링
+2. 보고서를 추가할 페이지를 선택합니다.
 
-이 예제는 [소매점 분석 샘플](../sample-datasets.md)을 사용합니다. 보고서 폴더에서 이 보고서에의 URL이 이름이 "power-bi"인 폴더에 있다고 가정하겠습니다.
+    ![사이트 콘텐츠 페이지 앱](media/quickstart-embed/quickstart_embed_06.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample
-```
+3. 오른쪽 위에서 기어를 선택하고 **페이지 편집**을 선택합니다.
 
-소매점 분석 샘플의 지도 시각화에는 노스캐롤라이나 및 기타 주에 위치한 매장을 보여 줍니다.
+    ![페이지 편집 옵션](media/quickstart-embed/quickstart_embed_07.png)
 
-![소매점 분석 샘플 맵 시각화](media/quickstart-embed/report-server-retail-analysis-sample-map.png)
+4. **웹 파트 추가**를 선택합니다.
 
-*NC*는 **Store** 테이블의 **Territory** 필드에 저장된 값입니다. NC(노스캐롤라이나)의 매장에 대한 데이터만 표시하도록 보고서를 필터링하려면 다음을 URL에 추가합니다.
+    ![웹 파트 추가](media/quickstart-embed/quickstart_embed_08.png)
 
-?filter=Store/Territory eq 'NC'
+5. **범주** 아래에서 **미디어 및 콘텐츠**를 선택하고, **파트** 아래에서 **콘텐츠 편집기**를 선택한 다음, **추가**를 선택합니다.
 
-이제 보고서는 노스캐롤라이나에 대해 필터링되며 보고서 페이지에 있는 모든 시각화는 노스캐롤라이나에 대한 데이터만 표시합니다.
+    ![콘텐츠 편집기 웹 파트 선택](media/quickstart-embed/quickstart_embed_09.png) ![추가 선택](media/quickstart-embed/quickstart_embed_091.png)
 
-![소매점 분석 샘플 필터링 시각화](media/quickstart-embed/report-server-retail-analysis-sample-filtered-map.png)
+6. **새 콘텐츠를 추가하려면 여기를 클릭**을 선택합니다.
 
-### <a name="create-a-dax-formula-to-filter-on-multiple-values"></a>여러 값에 대해 필터링하는 DAX 수식만들기
+    ![새 콘텐츠 추가](media/quickstart-embed/quickstart_embed_10.png)
 
-여러 값을 필터링하는 한 가지 방법은 Power BI Desktop에서 두 필드를 하나의 값으로 연결하는 계산된 열을 만드는 것입니다. 그런 다음 해당 값을 필터링할 수 있습니다.
+7. 리본에서 **텍스트 서식 지정** 탭을 선택한 다음, **원본 편집**을 선택합니다.
 
-예를 들어 소매점 분석 샘플에는 Territory 및 Chain 등의 두 필드가 있습니다. Power BI Desktop에서 TerritoryChain이라는 [계산된 열](../desktop-tutorial-create-calculated-columns.md)(필드)을 만들 수 있습니다. **필드** 이름에는 공백을 포함할 수 없다는 점에 유의하세요. 다음은 해당 열에 대한 DAX 수식입니다
+     ![원본 편집](media/quickstart-embed/quickstart_embed_11.png)
 
-TerritoryChain = [Territory] & "-" & [Chain]
+8. [원본 편집] 창에서 iFrame 코드를 붙여넣고 [확인]을 선택합니다.
 
-보고서를 Power BI Report Server에 게시한 후 URL 쿼리 문자열을 사용하여 NC에 있는 Lindseys 매장으로만 표시 데이터를 필터링합니다.
+    ![iFrame 코드](media/quickstart-embed/quickstart_embed_12.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample?filter=Store/TerritoryChain eq 'NC-Lindseys'
+     예:
+     ```
+     <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
+     ```
 
-```
+9. 리본에서 **페이지** 탭을 선택하고 **편집 중지**를 선택합니다.
+
+    ![편집 중지](media/quickstart-embed/quickstart_embed_13.png)
+
+10. 이제 페이지에 보고서가 표시됩니다.
+
+    ![iFrame 샘플](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>다음 단계
 
 [빠른 시작: Power BI Report Server용 Power BI 보고서 만들기](quickstart-create-powerbi-report.md)  
 [빠른 시작: Power BI Report Server에 페이지가 매겨진 보고서 만들기](quickstart-create-paginated-report.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/) 

@@ -1,29 +1,22 @@
 ---
-title: "빠른 시작: Power BI Report Server에 페이지가 매겨진 보고서 만들기"
-description: "몇 가지 간단한 단계를 거쳐 Power BI Report Server에 페이지가 매겨진 보고서를 만드는 방법을 알아봅니다."
-services: powerbi
-documentationcenter: 
+title: Power BI Report Server에 페이지를 매긴 보고서 만들기
+description: 몇 가지 간단한 단계를 거쳐 Power BI Report Server에 페이지가 매겨진 보고서를 만드는 방법을 알아봅니다.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294919"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>빠른 시작: Power BI Report Server에 페이지가 매겨진 보고서 만들기
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server에 페이지를 매긴 보고서 만들기
 이름에서 알 수 있듯이 여러 페이지에서 페이지가 매겨진 보고서를 실행할 수 있습니다. 고정된 형식으로 만들어졌으며 정확한 사용자 지정을 제공합니다. 페이지가 매겨진 보고서는 .rdl 파일입니다.
 
 SSRS(SQL Server Reporting Services) 웹 포털의 경우와 마찬가지로 Power BI Report Server 웹 포털에서 페이지가 매겨진 보고서를 저장하고 관리할 수 있습니다. SSDT(SQL Server Data Tools)의 보고서 작성기 또는 보고서 디자이너에서 만들고 편집한 다음 웹 포털에 게시합니다. 그런 다음 조직의 보고서 판독기는 해당 모바일 장치의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.

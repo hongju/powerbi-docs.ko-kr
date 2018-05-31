@@ -1,15 +1,15 @@
 ---
-title: "Power BI의 도넛형 차트(자습서)"
-description: "자습서: Power BI의 도넛형 차트"
+title: Power BI의 도넛형 차트
+description: Power BI의 도넛형 차트
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dca772fd2a1b8f40fa61f1abc41145e8ff6e5a8a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a8f0b07cd21314549df27ef3206743cad058f98f
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812728"
 ---
-# <a name="doughnut-charts-in-power-bi-tutorial"></a>Power BI의 도넛형 차트(자습서)
+# <a name="doughnut-charts-in-power-bi"></a>Power BI의 도넛형 차트
 도넛형 차트는 전체에 대한 부분의 관계를 표시한다는 점에서 원형 차트와 비슷합니다. 가운데가 비어 있고 레이블 또는 아이콘이 들어갈 공간이 있다는 점만 다릅니다.
 
 ## <a name="create-a-doughnut-chart"></a>도넛형 차트 만들기
