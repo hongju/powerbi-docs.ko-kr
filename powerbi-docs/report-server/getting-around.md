@@ -1,20 +1,28 @@
 ---
 title: Power BI Report Server 웹 포털에서 콘텐츠 관리
 description: Power BI Report Server 웹 포털에서 콘텐츠를 관리하는 방법을 알아보세요.
+services: powerbi
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: f739104bc9b67e51792e6e76da08b9e6dbb7cef3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 022d884e98876a78ab1cfd53cc93cd648cb68efe
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293240"
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33892511"
 ---
 # <a name="manage-content-in-the-web-portal"></a>웹 포털에서 콘텐츠 관리 
 Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지가 매겨진 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치입니다.

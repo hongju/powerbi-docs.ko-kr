@@ -1,30 +1,22 @@
 ---
 title: Power BI의 등치 지역도(단계구분도)
 description: Power BI에서 등치 지역도(단계구분도)를 만드는 방법에 대한 설명서
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e982fa5cc75249ab2475e02150a92294cb87980a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 5933404b9429ca773ed119addd81d86ad1a28597
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812314"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293056"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI의 등치 지역도(단계구분도)
 등치 지역도는 음영 또는 색조 또는 패턴을 사용하여 특정 값이 특정 지리 또는 지역을 기준으로 어떻게 다른지 표시합니다.  밝게(낮은 빈도/낮음)부터 어둡게(높은 빈도/높음)까지 다양한 음영으로 이러한 상대적 차이를 신속하게 표시합니다.    

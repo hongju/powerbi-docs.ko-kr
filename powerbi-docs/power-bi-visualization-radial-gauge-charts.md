@@ -1,30 +1,22 @@
 ---
 title: Power BI의 방사형 계기 차트
 description: Power BI의 방사형 계기 차트
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: xmja6Epqa
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4a972e3ae702fc1746bebecbc5de00f47031f76a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 7417b324a74dcc4aecd599c73fed0298de3e6a89
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813050"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34292527"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI의 방사형 계기 차트
 방사형 계기 차트는 원호 형태로 목표/KPI에 대한 진행률을 측정하는 단일 값을 표시합니다.  목표 또는 목표값은 선(바늘)으로 표시됩니다. 목표에 대한 진행률은 음영으로 표시됩니다.  진행률은 나타내는 값은 호의 내부에 굵게 표시됩니다. 모든 가능한 값은 최소(맨 왼쪽 값)에서 최대 (맨 오른쪽 값)까지 호를 따라 균등하게 분배됩니다.

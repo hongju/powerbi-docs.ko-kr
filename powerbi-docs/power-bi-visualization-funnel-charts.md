@@ -1,30 +1,22 @@
 ---
 title: 깔대기형 차트
 description: Power BI의 깔때기형 차트
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cdac4e594eab4887fc6e72d8870090be4ddd86a7
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: bae4effe719fa74dfa5deb3545e81bfc2aac655f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812751"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34292090"
 ---
 # <a name="funnel-charts"></a>깔대기형 차트
 깔때기형 차트는 순차적으로 연결된 단계가 있는 선형 프로세스를 시각화하는 데 도움이 됩니다. 예를 들어 잠재 고객 \> 적격 잠재 고객 \> 가망 고객 \> 계약 \> 완료 단계를 통해 고객을 추적하는 영업 깔때기가 있습니다.  깔때기의 모양은 추적 중인 프로세스의 상태를 한눈에 보여줍니다.

@@ -1,29 +1,21 @@
 ---
 title: '자습서: Power BI Desktop에서 Excel 및 OData 피드의 데이터 결합'
 description: '자습서: Excel 및 OData 피드의 데이터 결합'
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/02/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: 00c4915df0e18504ec6f5d26540d9289c2f5ddb2
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: c6cd75efd44259c2812f98a37875cf716d4843ad
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33945989"
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456206"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>자습서: Excel 및 OData 피드의 판매 데이터 결합
 

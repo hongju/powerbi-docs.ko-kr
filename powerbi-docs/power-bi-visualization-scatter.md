@@ -1,30 +1,22 @@
 ---
 title: Power BI의 분산형 차트
 description: Power BI의 분산형 차트
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: PVcfPoVE3Ys
-qualityfocus: identified
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3befe1e32aa86113433a4f891ddd46a253c8062
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: b9c67b1c493d885b0a1b1a21e27c652afaaa513e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813119"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296989"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI의 분산형 차트 및 거품형 차트
 분산형 차트에는 항상 가로 축을 따라 하나의 숫자 데이터 집합을 표시하고 세로 축을 따라 다른 숫자 값 집합을 표시하는 두 개의 값 축이 있습니다. 차트에서 x 및 y 숫자 값의 교차점에 점이 표시되고 이러한 값이 단일 데이터 요소로 결합됩니다. 데이터에 따라 가로 축에 균등 또는 불균등하게 이러한 데이터 요소를 배포할 수 있습니다.
