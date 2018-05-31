@@ -1,27 +1,20 @@
 ---
 title: Power BI 보고서 서버에 대한 변경 로그
 description: Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에 대한 버그 픽스와 새 항목을 나열합니다.
-services: powerbi
-documentationcenter: ''
 author: jtarquino
-manager: jonhp
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+manager: kfile
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
-ms.author: tankas
-ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.author: jtarquino
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295683"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -31,6 +24,24 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
 ## <a name="march-2018"></a>2018년 3월
 - **Power BI Report Server**
+    - 버전 1.2.6690.34729(빌드 15.0.2.402), 릴리스 날짜: 2018년 4월 27일
+        - 버그 수정
+            - SQL Server Reporting Services 2017 카탈로그의 마이그레이션 사용
+            - Power BI 보고서(PBIX)의 경우
+                - 서버가 사용자 지정 인증을 사용하도록 구성된 경우 보고서를 새로 고칠 수 있습니다.
+                - 보고서의 속성을 수정해도 데이터 원본 자격 증명이 초기화되지 않습니다.
+            - 페이지를 매긴 보고서(RDL)의 경우
+                - RDL Expresssions에서 `Lookup()` 또는 파생 함수(예: `LookupSet()` 및 `MultiLookup()`)를 사용해도 더 이상 `#Error`가 생성되지 않습니다.
+                - 연결된 보고서가 인쇄 시 대상 보고서의 페이지 크기를 유지합니다.
+                - 연계 매개 변수를 사용하는 연결된 보고서에 대한 구독을 만들 수 있습니다.
+                - IE11을 사용하는 경우 다중값 매개 변수 기본값을 수정할 수 있습니다.
+                - 데이터 기반 구독 전송 옵션은 편집할 수 있습니다.
+                - 구독을 실행하는 동안 구독을 보고 편집할 수 있습니다.
+                - 데이터 원본 자격 증명을 설정해도 식 기반 연결 문자열이 제거되지 않습니다.
+            - KPI의 경우
+                - 데이터가 업데이트될 때 추세선이 새로 고침됩니다.
+            - 일반 안정성 향상
+
     - *버전 1.2.6660.39920(빌드 15.0.2.389), 릴리스 날짜: 2018년 3월 28일*
         - 버그 수정
             - Power BI 보고서(PBIX)의 경우 Power BI 시각적 개체에서 작동하지 않는 데이터 내보내기에 대한 수정
@@ -46,7 +57,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
             - 행 콘텐츠가 비어 있는 경우 행 높이가 동일하지 않게 되는 Word로 내보내기에 대한 수정
             - 페이지를 매긴 보고서(RDL)의 경우 데이터 원본의 자격 증명을 변경할 때 삭제된 식 기반 연결 문자열에 대한 수정
             - 텍스트 값으로 KPI를 사용하는 기능에 대한 수정
-            - 페이지를 매긴 보고서(RDL)의 경우 새 데이터 집합을 기존 페이지를 매긴 보고서(RDL)에 할당하는 기능에 대한 수정
+            - 페이지를 매긴 보고서(RDL)의 경우 새 데이터 집합을 기존 페이지를 매긴 보고서(RDL)에 할당하는 기능 수정
             - 기타 안정성 및 유용성 수정
 
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
@@ -120,7 +131,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
     - *빌드 14.0.600.301, 릴리스 날짜: 2017년 7월 11일*
         - 버그 픽스
-            - {{UserId}} 태그가 Power BI 보고서에서 보고서를 실행한 사용자 대신 저장된 자격 증명으로 확인됩니다.
+            - Power BI 보고서에서 보고서를 실행한 사용자 대신 `{{UserId}}` 태그가 저장된 자격 증명으로 확인됩니다.
             - Power BI Server 보고서에서 일부 이미지가 렌더링되지 않습니다.
             - Power BI 보고서 서버에서 Power BI 보고서의 이름을 변경할 수 없습니다.
             - Power BI 모바일 응용 프로그램에서 사용자 지정 시각적 개체를 로드할 수 없습니다(로컬 캐시 정리를 위해 모바일 앱을 다시 설치해야 함).
@@ -136,7 +147,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
 [사용자 안내서](user-handbook-overview.md)  
 [관리자 안내서](admin-handbook-overview.md)  
-[빠른 시작: Power BI Report Server 설치](quickstart-install-report-server.md)  
+[Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
 

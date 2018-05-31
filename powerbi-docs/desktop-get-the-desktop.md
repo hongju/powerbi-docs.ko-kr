@@ -1,28 +1,21 @@
 ---
 title: Power BI Desktop 다운로드
 description: Power BI Desktop 다운로드 및 설치
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 08/15/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/24/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: eee341314b309eda119dd282eafd18188f8fdfd0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34286638"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 **Power BI Desktop**을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. **Power BI Desktop**에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다.  **Power BI Desktop**은 무료로 다운로드할 수 있습니다.
@@ -82,7 +75,7 @@ Microsoft Store에서 **Power BI Desktop**을 설치할 때 다음과 같은 몇
 > 동일한 컴퓨터에 다운로드한(MSI) 버전 및 **Power BI Desktop**의 **Microsoft Store** 버전을 설치하는 것은(경우에 따라 *side-by-side* 설치라고 함) 지원되지 않습니다. **Microsoft Store**에서 **Power BI Desktop**을 다운로드하기 전에 수동으로 제거해야 합니다.
 > 
 > [!NOTE]
-> **Power BI Desktop**의 Power BI Report Server 버전은 이 문서에서 설명한 버전과 다르게 별도로 설치합니다. Report Server 버전의 **Power BI Desktop**에 대한 내용은 [빠른 시작: Power BI Report Server용 Power BI 보고서 만들기](report-server/quickstart-create-powerbi-report.md) 문서를 참조하세요.
+> **Power BI Desktop**의 Power BI Report Server 버전은 이 문서에서 설명한 버전과 다르게 별도로 설치합니다. **Power BI Desktop**의 보고서 서버 버전에 대한 자세한 내용은 [Power BI Report Server용 Power BI 보고서 만들기](report-server/quickstart-create-powerbi-report.md)를 참조하세요.
 > 
 > 
 

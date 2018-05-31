@@ -898,32 +898,14 @@
       items:
         - name: Power BI API로 무엇을 할 수 있나요?
           href: developer/overview-of-power-bi-rest-api.md
-        - name: FAQ
-          href: developer/embedded-faq.md
         - name: Power BI 사용 권한
           href: developer/power-bi-permissions.md
         - name: 행 수준 보안(RLS)
           href: developer/embedded-row-level-security.md
-        - name: Q&A 포함
-          href: developer/qanda.md
+        - name: FAQ
+          href: developer/embedded-faq.md
     - name: 방법
       items:
-        - name: 콘텐츠를 포함하는 방법
-          href: developer/embedding-content.md
-        - name: 대시보드에 데이터 푸시
-          href: developer/walkthrough-push-data.md
-        - name: Power BI Embedded 마이그레이션 방법
-          href: developer/migrate-from-powerbi-embedded.md
-        - name: 앱에 대시보드 통합(사용자 소유 데이터)
-          href: developer/integrate-dashboard.md
-        - name: 앱에 Power BI 타일 통합(사용자 소유 데이터)
-          href: developer/integrate-tile.md
-        - name: 앱에 Power BI 보고서 통합(사용자 소유 데이터)
-          href: developer/integrate-report.md
-        - name: 응용 프로그램에 콘텐츠 통합(앱 소유 데이터)
-          href: developer/embed-sample-for-customers.md
-        - name: 소버린 클라우드용 응용 프로그램에 콘텐츠 통합(앱 소유 데이터)
-          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: 사용자 지정 시각적 개체 만들기
           items:
             - name: 개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
@@ -938,6 +920,18 @@
           items:
             - name: Power BI에 포함
               href: developer/embedding.md
+            - name: 콘텐츠를 포함하는 방법
+              href: developer/embedding-content.md
+            - name: 앱에 대시보드 통합(사용자 소유 데이터)
+              href: developer/integrate-dashboard.md
+            - name: 앱에 Power BI 타일 통합(사용자 소유 데이터)
+              href: developer/integrate-tile.md
+            - name: 앱에 Power BI 보고서 통합(사용자 소유 데이터)
+              href: developer/integrate-report.md
+            - name: 응용 프로그램에 콘텐츠 통합(앱 소유 데이터)
+              href: developer/embed-sample-for-customers.md
+            - name: 소버린 클라우드용 응용 프로그램에 콘텐츠 통합(앱 소유 데이터)
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: 앱에 사용자 지정 레이아웃 포함
               href: developer/embedded-custom-layout.md
             - name: Azure Active Directory 테넌트 만들기
@@ -946,14 +940,20 @@
               href: developer/register-app.md
             - name: Power BI 서비스에 인증
               href: developer/get-azuread-access-token.md
+            - name: Q&A 포함
+              href: developer/qanda.md
+            - name: Power BI Embedded 마이그레이션 방법
+              href: developer/migrate-from-powerbi-embedded.md
             - name: Power BI Embedded 마이그레이션 도구
               href: developer/migrate-tool.md
             - name: 마이그레이션 코드 조각
               href: developer/migrate-code-snippets.md
             - name: 포함된 응용 프로그램 문제 해결
               href: developer/embedded-troubleshoot.md
-        - name: 대시보드에 데이터 푸시
+        - name: 데이터 푸시
           items:
+            - name: 대시보드에 데이터 푸시
+              href: developer/walkthrough-push-data.md
             - name: Azure AD에 앱 등록
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: 인증 액세스 토큰 가져오기
@@ -990,6 +990,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: 리소스
       items:
+        - name: 포함하기 위한 온보딩 환경 도구
+          href: 'https://aka.ms/embedsetup'
         - name: JavaScript Playground 샘플
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: 샘플

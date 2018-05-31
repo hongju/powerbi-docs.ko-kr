@@ -1,16 +1,16 @@
 ---
-title: "Power BI의 분산형 차트(자습서)"
-description: "자습서: Power BI의 분산형 차트"
+title: Power BI의 분산형 차트
+description: Power BI의 분산형 차트
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: PVcfPoVE3Ys
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5467456321b171116cf984ec276c3694b4030b
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: a3befe1e32aa86113433a4f891ddd46a253c8062
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813119"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI의 분산형 차트 및 거품형 차트(자습서)
+# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI의 분산형 차트 및 거품형 차트
 분산형 차트에는 항상 가로 축을 따라 하나의 숫자 데이터 집합을 표시하고 세로 축을 따라 다른 숫자 값 집합을 표시하는 두 개의 값 축이 있습니다. 차트에서 x 및 y 숫자 값의 교차점에 점이 표시되고 이러한 값이 단일 데이터 요소로 결합됩니다. 데이터에 따라 가로 축에 균등 또는 불균등하게 이러한 데이터 요소를 배포할 수 있습니다.
 
 거품형 차트는 데이터 요소를 거품으로 바꾸며 거품 *크기*로 데이터의 추가 차원을 나타냅니다.
@@ -72,7 +73,7 @@ ms.lasthandoff: 03/02/2018
 
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
 
-4. **세부 정보** 에서 **범례** 로 **구역**를 끌어다 놓습니다. 그러면 Y축에 **총 매출 분산 %**을 그리고 X축에 **평방 미터당 매출**을 그리는 분산형 차트를 표시합니다. 데이터 요소 색은 구역을 나타냅니다.
+4. **세부 정보** 에서 **범례** 로 **구역**를 끌어다 놓습니다. 그러면 Y축에 **총 매출 분산 %** 을 그리고 X축에 **평방 미터당 매출**을 그리는 분산형 차트를 표시합니다. 데이터 요소 색은 구역을 나타냅니다.
 
     ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 

@@ -1,16 +1,16 @@
 ---
-title: "Power BI의 폭포 차트(자습서)"
-description: "자습서: Power BI의 폭포 차트"
+title: Power BI의 폭포 차트
+description: Power BI의 폭포 차트
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: maTzOJSRB3g
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0755f888e6828aab467f3988ce0052e029bc51e3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 101680bd353237af61a885155acd2fcd66a35404
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812613"
 ---
-# <a name="waterfall-charts-in-power-bi-tutorial"></a>Power BI의 폭포 차트(자습서)
+# <a name="waterfall-charts-in-power-bi"></a>Power BI의 폭포 차트
 폭포 차트는 값을 더하거나 뺄 때의 누계를 보여줍니다. 초기 값(예: 순수입)이 일련의 양수 및 음수 변경에 어떻게 영향을 받는지 이해하는 데 유용합니다.
 
 세로형 막대는 색으로 구분되어 증가 및 감소를 빠르게 구분할 수 있습니다. 중간 값 열이 부동 세로형 막대인 반면, 초기 및 최종 값 세로형 막대는 종종 [가로축에서 시작합니다](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "가로축에서 시작합니다"). 이러한 "보기"로 인해, 폭포 차트는 교량 차트라고도 합니다.

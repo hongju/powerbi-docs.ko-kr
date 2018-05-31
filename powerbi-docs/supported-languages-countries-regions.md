@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33871481"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI에 지원되는 언어 및 국가/지역
 
@@ -165,6 +166,11 @@ Power BI Desktop 응용 프로그램의 언어를 설정할 수 있을 뿐만 �
 - 문자열 비교 및 정렬 방법. 예를 들어 터키어는 데이터베이스의 데이터 정렬에 따라 문자 i가 두 가지로 표기되기 때문에 문자열을 정렬할 경우 다른 순서로 정렬될 수 있습니다. 
 - Power BI Desktop이 날짜 필드에서 숨겨진 날짜 테이블을 만들 때 사용하는 언어. 필드 이름의 예로는 월/Monat/Mois 등이 있습니다.
 
+> [!NOTE]
+> Power BI의 모델은 현재 대/소문자(또는 가나)를 구분하지 않는 로캘을 사용하므로 “ABC” 및 “abc”는 동일한 것으로 처리됩니다. “ABC”가 먼저 데이터베이스에 로드되면 “Abc”와 같이 대/소문자로만 구분되는 다른 문자열이 별도의 값으로 로드되지 않습니다.
+> 
+>
+
 모델 언어를 설정하는 방법은 다음과 같습니다.
 
 1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**으로 이동합니다.
@@ -173,6 +179,10 @@ Power BI Desktop 응용 프로그램의 언어를 설정할 수 있을 뿐만 �
 
     ![Power BI Desktop에서 모델 언어 설정](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> 생성된 후에는 Power BI 모델의 언어를 변경할 수 없습니다.
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>도움말 문서에 대한 언어
 도움말은 다음과 같은 10가지 언어로 지역화됩니다. 

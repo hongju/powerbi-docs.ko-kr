@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: f2d457c04f9db2bdd57f363ccb0c09e2496aefd6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
+ms.locfileid: "34163325"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -58,7 +59,7 @@ ISV(일반적으로 대규모)가 P SKU를 사용하여 조직 내에서 사전 
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>얼마나 많은 포함 토큰을 만들 수 있습니까?
 
-PRO 라이선스가 있는 포함 토큰은 개발 및 개발 테스트용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 환경에 포함하려면 [용량을 구입해야](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) 합니다. 용량을 구입할 때 생성할 수 있는 포함 토큰 수에는 제한이 없습니다.
+PRO 라이선스가 있는 포함 토큰은 개발 및 개발 테스트용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 환경에 포함하려면 [용량을 구입해야](#technical) 합니다. 용량을 구입할 때 생성할 수 있는 포함 토큰 수에는 제한이 없습니다. [사용 가능한 기능 가져오기](https://msdn.microsoft.com/library/mt846473.aspx)로 이동하여 현재 포함된 사용 현황을 백분율로 표시하는 사용 값을 확인합니다.
 
 ## <a name="technical"></a>기술
 
@@ -164,10 +165,6 @@ Power BI Embedded는 Power BI 포털을 사용하여 포함된 콘텐츠를 관�
 
 Power BI Embedded는 Azure의 일부이기 때문에 [Azure에 등록할 때 받은 $200 크레딧](https://azure.microsoft.com/free/)으로 서비스를 사용할 수 있습니다.
 
-### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Power BI 마스터 계정이 생성할 수 있는 포함 토큰 수에 제한이 있나요? 
-
-예. 이러한 포함 토큰은 개발 테스트용으로만 사용되므로 제한됩니다. 프로덕션 포함 시나리오의 경우 [용량을 구매해야](#technical) 합니다. 용량을 구입할 때 토큰 생성은 제한 없이 포함시킬 수 있습니다. [사용 가능한 기능 가져오기](https://msdn.microsoft.com/en-us/library/mt846473.aspx)로 이동하여 사용된 무료 포함 토큰 수를 확인합니다.
-
 ### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>소버린 클라우드(미국 정부, 독일, 중국)에 Power BI Embedded를 사용할 수 있나요?
 
 Power BI Embedded는 일부 [소버린 클라우드](embed-sample-for-customers-sovereign-clouds.md)에 사용할 수 있습니다. 아직 중국 클라우드에는 사용할 수 **없습니다**.
@@ -176,9 +173,47 @@ Power BI Embedded는 일부 [소버린 클라우드](embed-sample-for-customers-
 
 교육 기관 및 비영리 단체는 Azure를 구매할 수 있습니다. Azure에는 이러한 고객을 위한 특별 가격이 없습니다.
 
+## <a name="power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션
+
+### <a name="what-is-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션이란?
+
+**Power BI 작업 영역 컬렉션**( **Power BI Embedded** 버전 1)은 **Power BI 작업 영역 컬렉션** Azure 리소스를 기반으로 하는 솔루션입니다. 이 솔루션을 사용하면 응용 프로그램을 Power BI에 대해 인증하는 데 **Power BI 작업 영역 컬렉션** 솔루션의 Power BI 콘텐츠, 전용 API 및 작업 영역 컬렉션 키를 사용하는 고객의 **Power BI Embedded** 응용 프로그램을 만들 수 있습니다.
+
+### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션할 수 있나요?
+
+1. 마이그레이션 도구를 사용하여 **Power BI 작업 영역 컬렉션** 콘텐츠를 Power BI - https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration에 복제할 수 있습니다.
+
+2. Power BI 콘텐츠를 사용하는 **Power BI Embedded** 응용 프로그램 POC를 시작합니다.
+
+3. 프로덕션 준비가 되면 **Power BI Embedded** 전용 용량을 구매하고 해당 용량에 Power BI 콘텐츠(작업 영역)를 할당합니다.
+
+>[!Note]
+**Power BI Embedded** 솔루션과 병렬로 빌드하는 동안 **Power BI 작업 영역 컬렉션**을 계속 사용할 수 있습니다. 준비가 되면 고객을 새 **Power BI Embedded** 솔루션으로 이동하고 **Power BI 작업 영역 컬렉션** 솔루션을 사용 중지할 수 있습니다.
+
+자세한 내용은 [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)을 참조하세요.
+
+### <a name="is-power-bi-workspace-collection-on-a-path-to-be-deprecated"></a>Power BI 작업 영역 컬렉션이 사용되지 않을 경로에 있나요?
+
+예. **Power BI 작업 영역 컬렉션** 솔루션을 이미 사용하고 있는 고객은 사용 중단될 때까지 계속 사용할 수 있습니다. 고객은 **Power BI 작업 영역 컬렉션** 솔루션을 사용하는 **Power BI Embedded** 응용 프로그램 및 새 작업 영역 컬렉션을 만들 수도 있습니다.
+
+그러나 이는 새 기능이 **Power BI 작업 영역 컬렉션** 솔루션에 추가되지 않음을 의미하며 해당 고객은 새 **Power BI Embedded** 솔루션으로 마이그레이션을 계획하는 것이 좋습니다.
+### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Power BI 작업 영역 컬렉션 지원은 언제 중단될까요?
+
+**Power BI 작업 영역 컬렉션** 솔루션을 이미 사용하고 있는 고객은 2018년 6월 말까지 또는 지원 계약이 종료될 때까지 계속 사용할 수 있습니다.
+
+### <a name="in-what-regions-can-pbi-workspace-collection-be-created"></a>PBI 작업 영역 컬렉션은 어떤 지역에서 만들 수 있나요?
+
+사용 가능한 지역은 오스트레일리아 남동부, 브라질 남부, 캐나다 중부, 미국 동부 2, 일본 동부, 미국 중북부, 북유럽, 미국 중남부, 동남 아시아, 영국 남부, 유럽 서부, 인도 서부 및 미국 서부입니다.
+
+### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>PBI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션해야 하는 이유는 무엇인가요?
+
+**Power BI 작업 영역 컬렉션**에서 수행할 수 없는 **Power BI Embedded** 솔루션에 도입된 새로운 기능이 있습니다.
+
+일부 기능은 다음과 같습니다.
+* **Power BI 작업 영역 컬렉션**에서 두 개의 데이터 원본이 지원되는 것과 달리 모든 PBI 데이터 원본이 지원됩니다. 
+* 질문 및 답변, 새로 고침, 책갈피, 대시보드 및 타일 포함, 사용자 지정 메뉴 등의 새로운 기능은 **Power BI Embedded** 솔루션에서만 지원됩니다.
+* 용량 청구 모델입니다.
+
 자세한 내용은 [포함된 응용 프로그램 문제 해결](embedded-troubleshoot.md)을 참조하세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-
-
-

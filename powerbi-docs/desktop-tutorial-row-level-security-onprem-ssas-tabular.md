@@ -1,30 +1,24 @@
 ---
-title: '자습서: Power BI의 Analysis Services 테이블 형식 모델을 사용한 동적 행 수준 보안'
-description: '자습서: Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안'
-services: powerbi
-documentationcenter: ''
+title: Power BI의 Analysis Services 테이블 형식 모델을 사용한 동적 행 수준 보안
+description: Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
 author: selvarms
 manager: amitaro
-backup: davidi
+ms.reviewer: davidi
 editor: davidi
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456137"
 ---
-# <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>자습서: Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
+# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
 이 자습서는 **Analysis Services 테이블 형식 모델** 내에서 **행 수준 보안**을 구현하는 데 필요한 단계를 설명하고 Power BI 보고서에서 사용하는 방법을 보여 줍니다. 이 자습서의 단계는 샘플 데이터 집합에서 완료하여 필요한 단계를 따르고 알아볼 수 있도록 설계되었습니다.
 
 이 자습서에서 다음 단계는 Analysis Services 테이블 형식 모델로 동적 행 수준 보안을 구현하기 위해 수행해야 하는 작업을 이해할 수 있도록 자세히 설명되어 있습니다.
@@ -38,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 * 보고서를 기반으로 새 대시보드 만들기 및 마지막으로
 * 동료와 대시보드 공유
 
-이 자습서의 단계를 수행하려면 **[리포지토리](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**에서 다운로드할 수 있는 **AdventureworksDW2012** 데이터베이스가 필요합니다.
+이 자습서의 단계를 수행하려면 **[리포지토리](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)** 에서 다운로드할 수 있는 **AdventureworksDW2012** 데이터베이스가 필요합니다.
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>작업 1: 사용자 보안 테이블 만들기 및 데이터 관계 정의
 **SSAS(SQL Server Analysis Services) 테이블 형식** 모델을 사용하여 행 수준 동적 보안을 정의하는 방법을 설명하는 게시된 문서가 많이 있습니다. 예제에서는 [행 필터를 사용하여 동적 보안 구현](https://msdn.microsoft.com/library/hh479759.aspx) 문서를 따릅니다. 다음 단계는 이 자습서에서 첫 번째 작업을 안내합니다.
@@ -46,7 +40,7 @@ ms.lasthandoff: 03/22/2018
 1. 샘플의 경우 **AdventureworksDW2012** 관계형 데이터베이스를 사용하고 있습니다. 해당 데이터베이스에서 다음 그림에 나와 있는 것처럼 **DimUserSecurity** 테이블을 만듭니다. 이 샘플의 경우 테이블을 만들기 위해 SSMS(SQL Server Management Studio)를 사용하고 있습니다.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable.png)
-2. 테이블이 만들어지고 저장되면 다음 그림에 나와 있는 것처럼 **DimUserSecurity** 테이블의 **SalesTerritoryID** 열과 **DimSalesTerritory** 테이블의 **SalesTerritoryKey** 열 사이에 관계를 만들어야 합니다. **DimUserSecurity** 테이블을 마우스 오른쪽 단추로 클릭하고 **디자인**을 선택하여 **SSMS**에서 이 작업을 수행할 수 있습니다. 그런 다음 메뉴에서 **테이블 디자이너 -> 관계...**를 선택합니다.
+2. 테이블이 만들어지고 저장되면 다음 그림에 나와 있는 것처럼 **DimUserSecurity** 테이블의 **SalesTerritoryID** 열과 **DimSalesTerritory** 테이블의 **SalesTerritoryKey** 열 사이에 관계를 만들어야 합니다. **DimUserSecurity** 테이블을 마우스 오른쪽 단추로 클릭하고 **디자인**을 선택하여 **SSMS**에서 이 작업을 수행할 수 있습니다. 그런 다음 메뉴에서 **테이블 디자이너 -> 관계...** 를 선택합니다.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
 3. 테이블을 저장한 다음 다시 **DimUserSecurity** 테이블을 마우스 오른쪽 단추로 클릭한 다음 **상위 200개 행 편집**을 선택하여 몇 개의 사용자 정보 행을 테이블에 추가합니다. 해당 사용자를 추가한 후 **DimUserSecurity** 테이블의 행은 다음 그림에서 수행하는 것처럼 보입니다.
@@ -62,7 +56,7 @@ ms.lasthandoff: 03/22/2018
 5. 위의 이미지는 사용자가 담당하는 판매 지역과 같은 정보를 보여 줍니다. **2단계**에서 만든 관계 때문에 해당 데이터가 표시됩니다. 또한 사용자 **Jon Doe는 오스트레일리아 판매 지역의 일부입니다**. 이후 단계 및 작업에서 John Doe를 다시 방문할 예정입니다.
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>작업 2: 팩트 및 차원 테이블을 사용하여 테이블 형식 모델 만들기
-1. 관계형 데이터 웨어하우스가 준비되면 이제 테이블 형식 모델을 정의할 시간입니다. **SSDT(SQL Server 데이터 도구)**를 사용하여 모델을 만들 수 있습니다. 테이블 형식 모델을 정의하는 방법에 대한 자세한 정보를 가져오려면 [새 테이블 형식 모델 프로젝트 만들기](https://msdn.microsoft.com/library/hh231689.aspx)를 참조하세요.
+1. 관계형 데이터 웨어하우스가 준비되면 이제 테이블 형식 모델을 정의할 시간입니다. **SSDT(SQL Server 데이터 도구)** 를 사용하여 모델을 만들 수 있습니다. 테이블 형식 모델을 정의하는 방법에 대한 자세한 정보를 가져오려면 [새 테이블 형식 모델 프로젝트 만들기](https://msdn.microsoft.com/library/hh231689.aspx)를 참조하세요.
 2. 아래와 같이 필요한 모든 테이블을 모델로 가져옵니다.
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
@@ -76,7 +70,7 @@ ms.lasthandoff: 03/22/2018
 6. 이 단계에서 **LOOKUPVALUE** 함수를 사용하여 Windows 사용자 이름이 **USERNAME** 함수로 반환된 사용자 이름과 동일한 열에 대한 값을 반환합니다. 쿼리는 **LOOKUPVALUE**로 반환된 값이 동일한 또는 관련 테이블의 값과 일치하는 것으로 제한될 수 있습니다. **DAX 필터** 열에서 다음 수식을 입력합니다.
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
-    이 수식에서 **LOOKUPVALUE** 함수는 **DimUserSecurity [SalesTerritoryID]** 열에 대한 모든 값을 반환합니다. 여기에서 **DimUserSecurity [UserName]**은 현재 로그온된 Windows 사용자 이름과 같고 **DimUserSecurity [SalesTerritoryID]**는 **DimSalesTerritory [SalesTerritoryKey]**와 같습니다.
+    이 수식에서 **LOOKUPVALUE** 함수는 **DimUserSecurity [SalesTerritoryID]** 열에 대한 모든 값을 반환합니다. 여기에서 **DimUserSecurity [UserName]** 은 현재 로그온된 Windows 사용자 이름과 같고 **DimUserSecurity [SalesTerritoryID]** 는 **DimSalesTerritory [SalesTerritoryKey]** 와 같습니다.
    
    **LOOKUPVALUE**에서 반환된 Sales SalesTerritoryKey의 집합은 **DimSalesTerritory**에 표시된 행을 제한하는 데 사용됩니다. 행에 대한 **SalesTerritoryKey**가 **LOOKUPVALUE** 함수에서 반환된 ID의 집합에 있는 행만 표시됩니다.
 8. **DimUserSecurity** 테이블의 경우 **DAX 필터** 열에서 다음 수식을 입력합니다.
@@ -88,7 +82,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>작업 3: 온-프레미스 데이터 게이트웨이 내에서 데이터 원본 추가
 1. 테이블 형식 모델이 배포되고 사용 준비가 되면 Power BI 포털에서 온-프레미스 Analysis Services 테이블 형식 서버에 데이터 원본 연결을 추가해야 합니다.
-2. 온-프레미스 분석 서비스에 대한 **Power BI 서비스** 액세스를 허용하려면 사용자 환경에 **[온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)**를 설치하고 구성해야 합니다.
+2. 온-프레미스 분석 서비스에 대한 **Power BI 서비스** 액세스를 허용하려면 사용자 환경에 **[온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)** 를 설치하고 구성해야 합니다.
 3. 게이트웨이가 올바르게 구성되었으면 **Analysis Services** 테이블 형식 인스턴스에 대한 데이터 원본 연결을 만들어야 합니다. 이 문서는 [Power BI 포털 내에서 데이터 원본을 추가](service-gateway-enterprise-manage-ssas.md)하는 데 도움이 됩니다.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
@@ -132,7 +126,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="task-6-understanding-what-happens-behind-the-scenes"></a>작업 6: 내부적으로 수행되는 작업 이해
 1. 이 작업은 온-프레미스 SSAS 테이블 형식 인스턴스에서 SQL Server 프로파일러 추적을 캡처해야 하므로 SQL 프로파일러와 익숙하다고 가정합니다.
-2. 세션은 사용자(이 경우 Jon Doe)가 Power BI 서비스의 대시보드에 액세스하는 즉시 초기화됩니다. **salesterritoryusers** 역할이 **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**의 유효 사용자 이름으로 즉시 적용되는 것을 볼 수 있습니다.
+2. 세션은 사용자(이 경우 Jon Doe)가 Power BI 서비스의 대시보드에 액세스하는 즉시 초기화됩니다. **salesterritoryusers** 역할이 **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>** 의 유효 사용자 이름으로 즉시 적용되는 것을 볼 수 있습니다.
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
 3. 유효 사용자 이름 요청에 따라 Analysis Services는 로컬 Active Directory를 쿼리 한 후 요청을 실제 moonneo\jondoe 자격 증명으로 변환합니다. **Analysis Services**가 Active Directory에서 실제 자격 증명을 가져오면 액세스에 따라 사용자는 데이터에 대한 권한을 가지고 **Analysis Services**는 권한이 있는 데이터만을 반환합니다.

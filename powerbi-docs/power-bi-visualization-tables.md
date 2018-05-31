@@ -1,31 +1,24 @@
 ---
-title: Power BI 보고서 및 대시보드의 테이블 시각화(자습서)
+title: Power BI 보고서 및 대시보드의 테이블 시각화
 description: Power BI 보고서와 대시보드에서 열 너비 크기를 조정하는 방법을 비롯하여 테이블 시각화를 사용하여 작업하는 방법에 대한 자습서입니다.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293263"
 ---
-# <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Power BI 보고서 및 대시보드(자습서)에서 테이블 작업
+# <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드에서 테이블 작업
 테이블은 논리적으로 연속된 행과 열에서 관련된 데이터를 포함하는 표입니다. 머리글과 합계에 대한 행이 포함될 수도 있습니다. 테이블은 단일 범주에 대한 많은 값을 볼 수 있는 정량적 비교와 잘 작동합니다. 예를 들어 이 테이블은 **범주**합에 대한 5개의 서로 다른 측정값을 표시합니다.
 
 ![](media/power-bi-visualization-tables/table.png)

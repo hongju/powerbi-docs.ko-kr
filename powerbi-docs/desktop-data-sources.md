@@ -15,25 +15,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4bfdbaaa305f80195fd08155ecca744444495aeb
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1558f78f8f496814ac7745afe9b86f327ef7772b
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/09/2018
+ms.locfileid: "33923457"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 소스
 Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 있습니다. 이 페이지의 맨 아래에는 사용 가능한 데이터 소스의 전체 목록이 있습니다.
 
 데이터에 연결하려면 **홈** 리본 메뉴에서 **데이터 가져오기** 를 선택합니다. 아래쪽 화살표 또는 단추의 **데이터 가져오기** 텍스트를 선택하면 다음 이미지의 **가장 일반적** 데이터 형식 메뉴가 표시됩니다.
 
-![](media/desktop-data-sources/data-sources_1.png)
+![Power BI Desktop에서 데이터 가져오기](media/desktop-data-sources/data-sources_01.png)
 
 **자세히…** 선택 **가장 일반적** 메뉴에서 자세히...를 선택하면**데이터 가져오기** 창이 표시됩니다. **데이터 가져오기** **아이콘 단추**를 직접 선택하여 **데이터 가져오기** 창을 표시할 수도 있습니다(**가장 일반적** 메뉴 무시).
 
-![](media/desktop-data-sources/data-sources_2.png)
+![데이터 단추 가져오기](media/desktop-data-sources/data-sources_02.png)
 
 > [!NOTE]
 > Power BI 팀은 **Power BI Desktop** 및 **Power BI 서비스**에 사용할 수 있는 데이터 원본을 지속적으로 확장합니다. 따라서 *베타* 또는 *미리 보기*로 표시된 작업 진행 데이터 원본의 초기 버전을 자주 볼 수 있습니다. *베타* 또는 *미리 보기*로 표시된 모든 데이터 원본은 제한된 지원 및 기능을 가지며 프로덕션 환경에서는 사용할 수 없습니다.
@@ -46,6 +47,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * 모두
 * 파일
 * 데이터베이스
+* Power BI
 * Azure
 * 온라인 서비스
 * 기타
@@ -63,12 +65,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 다음 그림은 **파일** 에 대한 **데이터 가져오기**창을 보여 줍니다.
 
-![](media/desktop-data-sources/data-sources_3.png)
-
-> [!NOTE]
-> Power BI Desktop의 이전 버전에서 **CSV** 및 **텍스트**는 별도의 데이터 연결 형식입니다. 이러한 데이터 커넥터는 **CSV/텍스트**에 결합되어 있습니다.
-> 
-> 
+![데이터 가져오기 > 파일](media/desktop-data-sources/data-sources_03.png)
 
 **데이터베이스** 범주는 다음과 같은 데이터 연결을 제공합니다.
 
@@ -88,8 +85,9 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * SAP Business Warehouse 메시지 서버(베타)
 * Amazon Redshift
 * Impala
-* Google BigQuery(베타)
+* Google BigQuery
 * Snowflake
+* Exasol
 
 > [!NOTE]
 > 일부 데이터베이스 커넥터는 **파일 > 옵션 및 설정 > 옵션**을 선택한 다음 **미리 보기 기능**을 선택하고 커넥터를 사용하도록 설정하여 사용해야 합니다. 위에서 언급한 커넥터 중 일부를 표시하지 않고 사용하지 않으려는 경우 **미리 보기 기능** 설정을 확인합니다. *베타* 또는 *미리 보기*로 표시된 모든 데이터 원본은 제한된 지원 및 기능을 가지며 프로덕션 환경에서는 사용할 수 없습니다.
@@ -98,7 +96,16 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 다음 그림은 **데이터베이스** 에 대한 **데이터 가져오기**창을 보여 줍니다.
 
-![](media/desktop-data-sources/data-sources_4.png)
+![데이터 가져오기 > 데이터베이스](media/desktop-data-sources/data-sources_04.png)
+
+**Power BI** 범주는 다음과 같은 데이터 연결을 제공합니다.
+
+* Power BI 데이터 집합
+* Power BI Datapool(베타)
+
+다음 이미지는 **Power BI**에 대한 **데이터 가져오기** 창을 보여줍니다.
+
+![데이터 가져오기 > Power BI](media/desktop-data-sources/data-sources_05.png)
 
 **Azure** 범주는 다음과 같은 데이터 연결을 제공합니다.
 
@@ -112,19 +119,20 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Azure HDInsight(HDFS)
 * Azure HDInsight Spark(베타)
 * HDInsight 대화형 쿼리(베타)
+* Azure KustoDB(베타)
 
 다음 그림은 **Azure** 에 대한 **데이터 가져오기**창을 보여 줍니다.
 
-![](media/desktop-data-sources/data-sources_5.png)
+![데이터 가져오기 > Azure](media/desktop-data-sources/data-sources_06.png)
 
 **온라인 서비스** 범주는 다음과 같은 데이터 연결을 제공합니다.
 
-* Power BI 서비스
 * SharePoint Online 목록
 * Microsoft Exchange Online
 * Dynamics 365(온라인)
 * Dynamics NAV(베타)
-* Dynamics 365 Financial(베타)
+* Dynamics 365 Business Central
+* 앱용 Common Data Service(베타)
 * Common Data Service(베타)
 * Microsoft Azure Consumption Insights(베타)
 * Visual Studio Team Services(베타)
@@ -153,15 +161,15 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * tyGraph(베타)
 * Webtrends(베타)
 * Zendesk(베타)
+* TeamDesk(베타)
 
 다음 그림은 **온라인 서비스**에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
-![](media/desktop-data-sources/data-sources_6b.png)
+![데이터 가져오기 > 온라인 서비스](media/desktop-data-sources/data-sources_07.png)
 
 **기타** 범주는 다음과 같은 데이터 연결을 제공합니다.
 
 * Vertica(베타)
-* Kusto(베타)
 * 웹
 * SharePoint 목록
 * OData 피드
@@ -176,7 +184,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 다음 그림은 **기타** 에 대한 **데이터 가져오기**창을 보여 줍니다.
 
-![](media/desktop-data-sources/data-sources_7a.png)
+![데이터 가져오기 > 기타](media/desktop-data-sources/data-sources_08.png)
 
 > [!NOTE]
 > 지금은 Azure Active Directory를 사용하여 보호되는 사용자 지정 데이터 소스에 연결할 수 없습니다.
@@ -186,15 +194,15 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 ## <a name="connecting-to-a-data-source"></a>데이터 소스에 연결
 데이터 소스에 연결하려면 **데이터 가져오기** 창에서 데이터 소스를 선택한 다음 **연결**을 선택합니다. 다음 그림에서는 **기타** 데이터 연결 범주에서 **웹** 이 선택됩니다.
 
-![](media/desktop-data-sources/data-sources_7b.png)
+![웹에 연결](media/desktop-data-sources/data-sources_08a.png)
 
 데이터 연결 형식과 관련된 연결 창이 표시됩니다. 자격 증명이 필요한 경우 제공하라는 메시지가 표시됩니다. 다음 그림은 웹 데이터 소스에 연결하기 위해 입력되는 URL을 보여 줍니다.
 
-![](media/desktop-data-sources/datasources_fromwebbox.png)
+![입력 웹 URL](media/desktop-data-sources/datasources_fromwebbox.png)
 
 URL 또는 리소스 연결 정보를 입력한 경우 **확인**을 선택합니다. Power BI Desktop이 데이터 소스에 연결하고 **탐색기**에 사용 가능한 데이터 소스를 제공합니다.
 
-![](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![탐색기 화면](media/desktop-data-sources/datasources_fromnavigatordialog.png)
 
 **탐색기** 창의 맨 아래에 있는 **로드** 단추를 선택하여 데이터를 로드하거나 **편집** 단추를 선택하여 데이터를 로드하기 전에 쿼리를 편집할 수 있습니다.
 

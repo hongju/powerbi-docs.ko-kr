@@ -1,15 +1,15 @@
 ---
-title: "2부, Power BI 보고서에 시각화 추가(보고서)"
-description: "자습서: 2부, Power BI 보고서에 시각화 추가"
+title: 2부, Power BI 보고서에 시각화 추가
+description: 2부, Power BI 보고서에 시각화 추가
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 567bece0089a01170e218af9606331e44cb7834f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 39f11f2740918e5ec3fc62c86c72bac4544d5ff6
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33814315"
 ---
-# <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>2부, Power BI 보고서에 시각화 추가(보고서)
+# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>2부, Power BI 보고서에 시각화 추가
 [1부](power-bi-report-add-visualizations-ii.md)에서 필드 이름 옆의 확인란을 선택하여 기본 시각화를 만들었습니다.  2부에서는 끌어 놓기를 사용하는 방법과 **필드** 및 **시각화** 창을 완벽히 사용하여 시각화를 만들고 수정하는 방법에 대해 배웁니다.
 
 ### <a name="prerequisites"></a>필수 조건

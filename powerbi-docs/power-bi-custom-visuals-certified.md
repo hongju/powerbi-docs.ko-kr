@@ -1,28 +1,21 @@
 ---
 title: 인증된 Power BI 사용자 지정 시각화
 description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스. 이미 인증된 사용자 지정 시각적 개체 목록.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: ceb101d02fcacecacb8410052b2d9eaba01d46fd
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297012"
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
@@ -105,11 +98,13 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [이미지 격자](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
 | [인포그래픽 디자이너](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [KPI Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432)(Akvelon의 KPI 차트) | |
+| [KPI Column by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996)(MAQ 소프트웨어의 KPI 열) | [비디오](https://youtu.be/rU0xoOlIq1U) |
 | [KPI 지표](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [MAQ 소프트웨어의 KPI 티커](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [비디오](https://youtu.be/cudG4gsZ2V8) |
 | [MAQ Software의 선형 계기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [비디오](https://youtu.be/7_jFaM30dkc) |
 | [LineDot 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) | |
 | [Mekko 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) | [비디오](https://youtu.be/90FLCKpgicA) |
+| [Overview by CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381477)(CloudScope의 개요) | |
 | [재생 축(동적 슬라이서)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [비디오](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI 행렬](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [비디오](https://youtu.be/1enze8pcGzY) |

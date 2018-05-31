@@ -1,5 +1,5 @@
 ---
-title: '빠른 시작: Power BI Report Server용 Power BI 보고서 만들기'
+title: Power BI Report Server용 Power BI 보고서 만들기
 description: 몇 가지 간단한 단계를 거쳐 Power BI Report Server용 Power BI 보고서를 만드는 방법을 알아봅니다.
 services: powerbi
 documentationcenter: ''
@@ -17,13 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 3/22/2018
 ms.author: maggies
-ms.openlocfilehash: 7c0f7ad804a61aeade6f120f2a2d2bd048219ee2
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 4d860c9d18d1053b6c6cff55be2735eea6e86703
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33814292"
 ---
-# <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>빠른 시작: Power BI Report Server용 Power BI 보고서 만들기
+# <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server용 Power BI 보고서 만들기
 Power BI 서비스(https://powerbi.com))에서 클라우드에 Power BI 보고서를 저장할 수 있는 것과 마찬가지로 Power BI Report Server 웹 포털에서 Power BI 보고서 온-프레미스를 저장하고 관리할 수 있습니다. Power BI Desktop에서 보고서를 만들고 편집하고 웹 포털에 게시합니다. 그런 다음 조직의 보고서 판독기는 모바일 장치의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
 
 ![웹 포털의 Power BI 보고서](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
@@ -131,11 +132,9 @@ Power BI Report Server 보고서는 Power BI 모바일 앱에서 다음과 같�
 
 ## <a name="next-steps"></a>다음 단계
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Power BI Desktop에는 보고서를 만들기 위한 유용한 리소스가 많이 있습니다. 이러한 링크로 시작하는 것이 좋습니다.
+Power BI Desktop에는 보고서를 만들기 위한 유용한 리소스가 많이 있습니다. 이 링크로 시작하는 것이 좋습니다.
 
 * [Power BI Desktop 시작](../desktop-getting-started.md)
-* 단계별 학습: [Power BI Desktop 시작](../guided-learning/gettingdata.yml#step-2)
-
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
 * [Power BI Report Server에 최적화된 Power BI Desktop 설치](install-powerbi-desktop.md)  

@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813372"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>보고서 및 시각적 효과에 대한 디자인 모범 사례
 <!-- Shared newnav Include -->
@@ -143,7 +144,7 @@ Power BI 온라인과 Power BI Desktop에서는 모든 시각적 개체의 서�
 **그림 6: 페이지 높이 늘리기**
 
 #### <a name="reduce-clutter"></a>혼잡함 줄이기
-혼잡한 보고서 페이지는 한눈에 이해하기가 어렵기 때문에 이에 압도되어 독자들이 읽으려는 시도조차 하지 않을 수 있습니다.  필요하지 않은 보고서 요소는 모두 제거합니다. 이해도나 탐색에 도움이 되지 않는 개체를 멋으로 추가하지 않습니다. 보고서 페이지는 정보를 최대한 명확하고 신속하고 응집력 있게 전달해야 합니다.
+혼잡한 보고서 페이지는 한 눈에 이해하기가 어렵기 때문에 이에 압도되어 독자들이 읽으려는 시도조차 하지 않을 수 있습니다.  필요하지 않은 보고서 요소는 모두 제거합니다. 이해도나 탐색에 도움이 되지 않는 개체를 멋으로 추가하지 않습니다. 보고서 페이지는 정보를 최대한 명확하고 신속하고 응집력 있게 전달해야 합니다.
 
 Edward Tufte는 *The Visual Display of Quantitative Information* 라는 그의 저서에서 이것을 “data to ink ratio(데이터 잉크 비율)”로 언급했습니다.  기본적으로 필수적이지 않은 것은 모두 제거하라는 의미입니다.
 
@@ -155,8 +156,8 @@ Edward Tufte는 *The Visual Display of Quantitative Information* 라는 그의 �
 
 **그림 7: 보기 힘든 예제 보고서가 정돈되었습니다.**
 
-### <a name="tell-a-story-at-a-glance"></a>스토리 한눈에 알려주기
-사전 지식이 없는 사람이 아무런 설명 없이 보고서를 신속하게 이해할 수 있는지를 전반적으로 평가해야 합니다. 페이지가 무엇을 말하는지 각 차트/테이블이 무엇을 전달하지를 독자들이 한눈에 볼 수 있어야 합니다.   
+### <a name="tell-a-story-at-a-glance"></a>스토리 한 눈에 알려주기
+사전 지식이 없는 사람이 아무런 설명 없이 보고서를 신속하게 이해할 수 있는지를 전반적으로 평가해야 합니다. 페이지가 무엇을 말하는지 각 차트/테이블이 무엇을 전달하지를 독자들이 한 눈에 볼 수 있어야 합니다.   
 
 독자들이 보고서를 볼 때 처음 봤으면 하는 요소로 그들의 시선을 끌어야 합니다. 그런 다음 왼쪽에서 오른쪽으로 위에서 아래로 시선이 이어지게 됩니다.  텍스트 상자 레이블, 셰이프, 테두리, 크기 및 색상과 같은 시각 신호를 추가하면 이러한 행동을 바꿀 수 있습니다.  
 
@@ -453,7 +454,7 @@ TDI 블로거이자 TechTarget 업계 분석가인 Wayne Eckerson의 비유가 �
 **그림 33: 텍스트 상자에 사용된 글꼴 서식 지정**
 
 #### <a name="sorting"></a>정렬
-보다 빠른 인사이트를 제공할 수 있는 정말 간단한 방법은 시각적 개체에 정렬을 설정하는 것입니다. 예를 들어 막대형 차트에 있는 값을 기준으로 가로 막대형 차트를 내림차순이나 오름차순으로 정렬하면 공간을 더 사용하지 않고도 의미 있는 증분 정보를 신속하게 표시할 수 있습니다.
+보다 빠른 통찰력을 제공할 수 있는 정말 간단한 방법은 시각적 개체에 정렬을 설정하는 것입니다. 예를 들어 막대형 차트에 있는 값을 기준으로 가로 막대형 차트를 내림차순이나 오름차순으로 정렬하면 공간을 더 사용하지 않고도 의미 있는 증분 정보를 신속하게 표시할 수 있습니다.
 
 차트를 정렬하려면 차트 오른쪽 위에 있는 줄임표(…)를 선택하여 **정렬**을 선택하고 원하는 정렬 기준과 방향을 선택합니다. 자세한 내용은 [시각적 개체 정렬 방식 변경](power-bi-report-change-sort.md)을 참조하세요.
 
@@ -734,7 +735,7 @@ Power BI에서는 세로 막대형 차트와 가로 막대형 차트를 콤보 �
 
 자세한 내용은 다음을 참조하세요.
 
-* [자습서: Power BI의 콤보 차트](power-bi-visualization-combo-chart.md)
+* [Power BI의 콤보 차트](power-bi-visualization-combo-chart.md)
 * [시각적 개체에 이중 규모 축 사용 시 위험한 점](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf)(영문)
 
 ### <a name="scatter-chart"></a>분산형 차트
@@ -810,8 +811,8 @@ KPI는 값, 상태, 목표, 목표와의 차이 및 추세를 같은 크기의 �
 
 자세한 내용은 다음을 참조하세요.
 
-* [자습서: Power BI의 방사형 계기 차트](power-bi-visualization-radial-gauge-charts.md)
-* [자습서: Power BI의 KPI](power-bi-visualization-kpi.md)
+* [Power BI의 방사형 계기 차트](power-bi-visualization-radial-gauge-charts.md)
+* [Power BI의 KPI](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>결론
 이제 이러한 모범 사례를 테스트할 차례입니다.  자신만의 모범 사례를 공유해 주세요. 권장 사항에 그냥 동의하지 마세요. 아니면 “규칙을 깰만한” 좋은 이유를 찾으셨나요?  그런 얘기도 알려 주시면 감사하겠습니다.  

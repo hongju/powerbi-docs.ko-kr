@@ -1,13 +1,13 @@
 ---
-title: "Power BI 모바일 앱에서 대시보드 및 보고서 보기"
-description: "Power BI 서비스에서 대시보드 및 보고서를 생성하거나 연결합니다. 그러면 Power BI 모바일 앱에 표시됩니다."
+title: Power BI 모바일 앱에서 대시보드 및 보고서 보기
+description: Power BI 서비스에서 대시보드 및 보고서를 생성하거나 연결합니다. 그러면 Power BI 모바일 앱에 표시됩니다.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 07/08/2016
 ms.service: powerbi
@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2f273dc76419b0513204f9c20def0c9d6f337ffe
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945828"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
 적용 대상:
@@ -37,7 +38,7 @@ ms.lasthandoff: 01/17/2018
 
 모바일 장치에서 대시보드 및 보고서를 보려면 웹 브라우저에서 대시보드를 만들거나 연결해야 합니다. 
 
-1. Power BI 서비스([https://www.powerbi.com](https://www.powerbi.com))에 이동하고 [계정에 등록](service-self-service-signup-for-power-bi.md)합니다.
+1. Power BI 서비스([https://www.powerbi.com](https://www.powerbi.com))로 이동하여 [계정을 등록](service-self-service-signup-for-power-bi.md)합니다.
 2. [자신의 Power BI 대시보드 및 보고서를 만들거나](service-get-started.md) [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) 및 [Adobe Analyics](service-connect-to-adobe-analytics.md)와 같은 다양한 서비스에 대해 기존 [Power BI 앱](service-connect-to-services.md)에 연결합니다.
 
 Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
@@ -47,7 +48,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="view-dashboards-on-your-iphone"></a>iPhone에서 대시보드 보기
 1. iPhone에서 Power BI 앱을 열고 로그인합니다.
    
-   Apple 앱 스토어에서 iPhone 앱을 다운로드할 필요가 있나요? [iPhone 앱 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062)
+   Apple App Store에서 iPhone 앱을 다운로드할 필요가 있나요? [iPhone 앱 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062)
 2. 대시보드를 열려면 누릅니다.  
    
     ![대시보드 탭](media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -87,7 +88,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="view-dashboards-on-your-ipad"></a>iPad에서 대시보드 보기
 1. Power BI 앱을 엽니다.
    
-   먼저 Apple 앱 스토어에서 [iPad 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062)해야 합니까?
+   먼저 Apple App Store에서 [iPad 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062)해야 합니까?
 2. 앱의 위쪽에 있는 **대시보드**를 누릅니다.  
    
    ![대시보드 홈](media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -115,31 +116,21 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
    
    ![대시보드 홈](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     노란색 별 ![즐겨찾기 별](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 은 즐겨찾기 대시보드임을 나타냅니다. 
+    노란색 별 ![즐겨찾기 별](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 은 즐겨찾기 대시보드임을 나타냅니다. 
 
-     -     대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](service-data-classification.md)를 참조하세요.
-
+    대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](service-data-classification.md)를 참조하세요.
 
     Android 휴대폰에서는 Power BI 대시보드가 약간 다르게 보입니다. 모든 타일이 동일한 너비로 나타나며, 위에서 아래로 하나씩 정렬됩니다.
 
     ![대시보드 세로 모드 보기](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     또는 휴대폰을 옆으로 설정하여 휴대폰에서 가로 모드로 봅니다.
-
-    > [AZURE.TIP] 대시보드 소유자인 경우 [Power BI 서비스에서 세로 모드로 휴대폰에 맞게 대시보드 보기를 만들](service-create-dashboard-mobile-phone-view.md) 수 있습니다. 
+    대시보드 소유자인 경우 [Power BI 서비스에서 세로 모드로 휴대폰에 맞게 대시보드 보기를 만들](service-create-dashboard-mobile-phone-view.md) 수 있습니다. 
 
 1. 대시보드에서는 이름 옆에 있는 세로 생략 부호(...)를 눌러 동료를 초대하거나 대시보드에 대한 정보를 새로 고치거나 가져올 수 있습니다.
    
    ![줄임표 메뉴](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. [대시보드에서 모든 타일](mobile-tiles-in-the-mobile-apps.md)을 보려면 위아래로 살짝 밉니다. 
 3. 대시보드 홈 페이지로 돌아가려면 대시보드 이름을 탭하여 이동 경로를 연 다음 **내 작업 영역**을 탭합니다.   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>Android 휴대폰에서 가로 모드로 대시보드 보기
-또한 바로 전화를 돌려서 대시보드를 가로 모드로 볼 수 있습니다. 대시보드 레이아웃이 일련의 타일에서 전체 대시보드 보기로 변경됩니다. 대시보드의 모든 타일이 Power BI 서비스에서 볼 때처럼 배치됩니다.
-
-![대시보드 가로 모드](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-“손가락 모으기” 제스처로 대시보드의 다른 영역을 확대/축소하고 이동하여 탐색할 수 있습니다. 그리고 여전히 [타일을 탭](mobile-tiles-in-the-mobile-apps.md)하여 타일을 포커스 모드로 열고 데이터를 조작할 수 있습니다.
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Android 태블릿에서 대시보드 보기
 1. Android 태블릿에서 Power BI 앱을 열고 로그인합니다.

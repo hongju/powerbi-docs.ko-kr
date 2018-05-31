@@ -1,47 +1,36 @@
 ---
-title: Power BI 웨비나
-description: Power BI 웨비나
-services: powerbi
-documentationcenter: ''
+title: Power BI 웹 세미나
+description: Power BI 웹 세미나
 author: maikelson
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/26/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/09/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299289"
 ---
-# <a name="power-bi-webinars"></a>Power BI 웨비나
+# <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
-예정된 라이브 웨비나에 등록하거나 녹화된 주문형 세션을 감상해 보세요.
+예정된 라이브 웹 세미나에 등록하거나 녹화된 주문형 세션을 감상해 보세요.
 
-## <a name="upcoming-webinars"></a>예정된 웨비나
+## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
 등록하여 Power BI 전문가 의견을 듣고 라이브 QA 세션에 참가하기
 
-**[Power BI 채택 프레임워크 웨비나 시리즈](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
-<br>작성자: Manu Kanwarpal 및 Paul Henwood
-<br>2018년 3월, 4월 및 5월 오전 9시 태평양 표준시, 오후 12시 동부 표준시
+**Power BI 및 Visio를 사용하여 적합한 인사이트 얻기**
+<br>작성자: Shakun Grover
+<br>2018년 5월 22일, 오전 10시 태평양 표준시, 오후 1시 동부 표준시
 
-조직에서 Power BI의 효과적인 출시를 계획하고 효과적인 SaaS(Software as a Service) 관리의 미묘한 차이를 살펴보세요. 이는 조직에서 Power BI의 가능성을 활용하는 5파트 시리즈입니다.
+이 웨비나에 참여해서 Power BI 대시보드와 Microsoft Visio 다이어그램을 결합하여 강력한 시각적 인사이트를 만드는 방법을 알아보세요. Visio 및 Power BI는 시각적으로 뛰어나고 기본적으로 상호 보완적입니다. Visio를 사용하면 상호 연결된 워크플로 및 실제 레이아웃과 같은 설명적인 다이어그램을 만들 수 있습니다. Power BI를 통해 차트 및 맵을 사용하는 직관적인 대시보드를 빌드하여 핵심 성과 지표를 측정하고 목표를 추적할 수 있습니다.
 
-[5월 1일 시청 등록: 파트 5 - 출시: 성공적인 Power BI 출시](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
-<br>[지금 등록 및 시청 - 파트 4 - 보안: Power BI로 데이터 보안 유지](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[지금 등록 및 시청 - 파트 3 - 서비스 관리: Power BI 서비스 관리 인사이트](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[지금 등록 및 시청 - 파트 2 - 거버넌스: Power BI 사용 관리](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
-<br>[지금 등록 및 시청 - 파트 1 - 채택: 데이터 기반 문화권 채택](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+[5월 22일에 시청하도록 등록](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **20분 이내에 Power BI Embedded에 대해 자세히 알아보기**
 <br>작성자: Megan Asarrane 및 Colin Murphy
@@ -51,11 +40,11 @@ ms.lasthandoff: 04/27/2018
 
 [5월 23일에 시청하도록 등록](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
 
->[Power BI 커뮤니티의 예정된 웨비나 참석](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
+>[Power BI 커뮤니티의 예정된 웹 세미나 참석](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
-## <a name="featured-webinars"></a>주요 웨비나
+## <a name="featured-webinars"></a>주요 웹 세미나
 
-인기 있는 주문형 웨비나 시작
+인기 있는 주문형 웹 세미나 시작
 
 **Power BI 시작하기**
 <br>작성자: Miguel Martinez
@@ -77,9 +66,9 @@ ms.lasthandoff: 04/27/2018
 <br>작성자: Carlos Otero 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
->[커뮤니티 전문가들이 제공하는 Power BI 주문형 웨비나 라이브러리 탐색하기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+>[커뮤니티 전문가들이 제공하는 Power BI 주문형 웹 세미나 라이브러리 탐색하기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-## <a name="on-demand-webinars"></a>주문형 웨비나
+## <a name="on-demand-webinars"></a>주문형 웹 세미나
 
 언제든 녹화된 세션 보기
 
@@ -88,6 +77,10 @@ ms.lasthandoff: 04/27/2018
 **시각적으로 멋진 Power BI 보고서를 만드는 방법**
 <br>작성자: Charles Sterling
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**스프레드시트 이외**
+<br>작성자: Gohul Shanmugalingam
+<br>[등록 및 지금 보기](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
 
 **좋은 보고서를 더 훌륭하게!**
 <br>작성자: Reid Havens
@@ -139,6 +132,14 @@ ms.lasthandoff: 04/27/2018
 <br>작성자: Nagasaikiran Kambhampati 및 Miguel Martinez
 <br>[시청 등록](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[고급 분석 시작 키트를 다운로드하여 따라 하기](https://aka.ms/pbiaawebinar)
+
+**[Power BI 채택 프레임워크 웨비나 시리즈](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+<br>작성자: Manu Kanwarpal 및 Paul Henwood
+<br>[지금 등록 및 시청 - 파트 1 - 채택: 데이터 기반 문화권 채택](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[지금 등록 및 시청 - 파트 2 - 거버넌스: Power BI 사용 관리](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[지금 등록 및 시청 - 파트 3 - 서비스 관리: Power BI 서비스 관리 인사이트](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[지금 등록 및 시청 - 파트 4 - 보안: Power BI로 데이터 보안 유지](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[지금 등록 및 시청 - 파트 5 - 출시: 성공적인 Power BI 출시](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Office 365 재무 전문가 웨비나 시리즈**
 <br>작성자: Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky 및 Miguel Martinez
