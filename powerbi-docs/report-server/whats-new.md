@@ -15,25 +15,31 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 04/19/2018
 ms.author: maggies
-ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 21769ee9c88dd2310da2a86be8dbadd1f17522ff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813257"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 Power BI Report Server의 새로운 기능에 대해 알아봅니다. 주요 기능 영역을 설명하고 새 항목이 출시될 때 업데이트됩니다.
 
 Power BI Report Server 및 Report Server에 최적화된 Power BI Desktop을 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동합니다.
 
-관련된 "새로운 기능"은 다음을 참조하세요.
+이러한 원본을 확인하여 Power BI Report Server에서 새로운 기능을 최신 상태로 유지합니다.
+
+* [Microsoft Power BI 블로그](https://powerbi.microsoft.com/blog/)
+* [SQL Server Reporting Services 팀 블로그](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [큐브에서 Guy YouTube 채널](https://aka.ms/guyinacube)
+
+관련 Power BI “새로운 기능” 정보는 다음을 참조하세요.
 
 * [Power BI 서비스의 새로운 기능](../service-whats-new.md)
 * [Power BI Desktop의 새로운 기능](../desktop-latest-update.md)
 * [Power BI용 모바일 앱의 새로운 기능](../mobile-whats-new-in-the-mobile-apps.md)
-* [Power BI 팀 블로그](https://powerbi.microsoft.com/blog/)
 
 ## <a name="march-2018-release"></a>2018년 3월 릴리스
 
@@ -110,7 +116,7 @@ reader에게 보고서에 대한 액세스 권한을 부여하려고 하지만 �
 - [다른 시각적 개체의 필터 드릴](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 - [여러 행 카드에 대한 다차원 AS 모델의 셀 수준 서식 지정](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
  
-### <a name="performance"></a>성능
+### <a name="performance"></a>연결
 
 - [필터링 성능 개선](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
 - [DirectQuery 성능 개선](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
@@ -208,7 +214,7 @@ Power BI Report Server는 이제 새 Power BI 테이블 및 행렬 시각적 개
 ## <a name="next-steps"></a>다음 단계
 [사용자 안내서](user-handbook-overview.md)  
 [관리자 안내서](admin-handbook-overview.md)  
-[빠른 시작: Power BI Report Server 설치](quickstart-install-report-server.md)  
+[Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
 

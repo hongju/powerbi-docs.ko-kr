@@ -15,31 +15,32 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 526659cfe0631eb9cb43ff6b47729a8a6227ec68
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 97eed4093954312ff70a7c55078c9726e5e861f9
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/04/2018
+ms.locfileid: "33081072"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>자습서: Power BI Desktop에서 계산 열 만들기
 
-분석 중인 데이터에 원하는 결과를 얻는 데 필요한 특정 필드가 없는 경우도 있습니다. 이때 ‘계산 열’이 사용됩니다. 계산 열은 DAX(Data Analysis Expressions) 수식을 사용하여 다른 몇 개 열의 텍스트 값을 결합하는 것부터 다른 값에서 숫자 값을 계산하는 것까지 모든 열의 값을 정의합니다. 예를 들어 데이터에 **City** 및 **State** 필드가 포함되어 있지만 “Miami, FL”과 같이 하나의 **Location** 필드에 두 필드를 모두 포함하려 한다고 가정합니다. 계산된 열은 바로 이런 용도로 사용됩니다.
+분석 중인 데이터에 원하는 결과를 얻는 데 필요한 특정 필드가 없는 경우도 있습니다. 이때 ‘계산 열’이 사용됩니다. 계산 열은 DAX(Data Analysis Expressions) 수식을 사용하여 다른 몇 개 열에서 텍스트 값을 결합하는 것부터 다른 값에서 숫자 값을 계산하는 것까지 열의 값을 정의합니다. 예를 들어 데이터에 **City** 및 **State** 필드가 포함되어 있지만 “Miami, FL”과 같이 하나의 **Location** 필드에 두 필드를 모두 포함하려 한다고 가정합니다. 계산된 열은 바로 이런 용도로 사용됩니다.
 
 계산 열은 둘 다 DAX 수식을 기반으로 한다는 점에서 [측정값](desktop-tutorial-create-measures.md)과 비슷하지만 사용하는 방법이 서로 다릅니다. 시각화의 **값** 영역에서 측정값을 사용하여 다른 필드를 기준으로 결과를 계산하기도 합니다. 계산 열을 시각화의 행, 축, 범례 및 그룹 영역에서 새 **필드**로 사용합니다.
 
 이 자습서에서는 Power BI Desktop에서 일부 계산 열을 만들고 보고서 시각화에서 사용하는 과정을 안내합니다. 
 
 ### <a name="prerequisites"></a>필수 조건
-- 이 자습서는 Power BI Desktop을 사용하여 고급 모델을 만드는 방법을 이미 알고 있는 Power BI 사용자를 위한 것입니다. **데이터 가져오기** 및 **파워 쿼리 편집기**를 사용하여 데이터 가져오기, 여러 가지 관련 테이블 사용, 보고서 캔버스에 필드 추가하는 방법을 이미 알고 있어야 합니다. Power BI Desktop을 처음 사용하는 경우 [Power BI Desktop 시작](desktop-getting-started.md)을 확인해야 합니다.
+- 이 자습서는 Power BI Desktop을 사용하여 고급 모델을 만드는 방법을 이미 알고 있는 Power BI 사용자를 위한 것입니다. **데이터 가져오기** 및 **파워 쿼리 편집기**를 사용하여 데이터를 가져오고, 여러 가지 관련 테이블을 사용하고, 보고서 캔버스에 필드를 추가하는 방법을 이미 알고 있어야 합니다. Power BI Desktop을 처음 사용하는 경우 [Power BI Desktop 시작](desktop-getting-started.md)을 확인해야 합니다.
   
 - 이 자습서에서는 [Power BI Desktop에서 사용자 고유의 측정값 만들기](desktop-tutorial-create-measures.md) 자습서에 사용되는 동일한 샘플인 [Power BI Desktop용 Contoso 판매 샘플](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)을 사용합니다. 가상 회사인 Contoso, Inc.의 이 판매 데이터는 데이터베이스에서 가져온 것이므로 데이터 원본에 연결하거나 파워 쿼리 편집기에서 볼 수 없습니다. 사용자 컴퓨터에 파일을 다운로드하여 추출한 다음, Power BI Desktop에서 엽니다.
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>관련 테이블의 값을 사용하여 계산 열 만들기
 
-판매 보고서에서 “휴대폰 – 액세서리”, “휴대폰 – 스마트폰 및 PDA” 등과 같이 제품 범주와 제품 하위 범주를 하나의 값으로 표시하려 합니다. 해당 데이터를 제공하는 **필드** 목록에는 필드가 없지만 **ProductCategory** 필드와 **ProductSubcategory** 필드는 각각 고유한 테이블에 있습니다. 이러한 두 열의 값을 결합하는 계산 열을 만들 수 있습니다. DAX 수식은 테이블 간의 기존 관계를 포함하여 이미 보유한 모델을 최대한 활용할 수 있습니다. 
+판매 보고서에서 “휴대폰 – 액세서리”, “휴대폰 – 스마트폰 및 PDA” 등과 같이 제품 범주와 제품 하위 범주를 하나의 값으로 표시하려 합니다. 해당 데이터를 제공하는 **필드** 목록에는 필드가 없지만 고유한 각 테이블에 **ProductCategory** 필드와 **ProductSubcategory** 필드가 있습니다. 이러한 두 열의 값을 결합하는 계산 열을 만들 수 있습니다. DAX 수식은 서로 다른 테이블 간의 기존 관계를 포함하여 이미 보유한 모델을 최대한 활용할 수 있습니다. 
 
  ![필드 목록의 열](media/desktop-tutorial-create-calculated-columns/create1.png)
 
@@ -47,11 +48,11 @@ ms.lasthandoff: 04/16/2018
     
     ![새 열](media/desktop-tutorial-create-calculated-columns/create2.png)
     
-    수식 입력줄이 보고서 캔버스 위쪽에 표시되어 여기서 열 이름을 바꾸고 DAX 수식을 입력할 수 있습니다.
+    수식 입력줄이 보고서 캔버스 위쪽에 표시됩니다. 여기서 열 이름을 지정하고 DAX 수식을 입력할 수 있습니다.
     
     ![수식 입력줄](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-2.  기본적으로 새 계산 열의 이름은 열로 지정됩니다. 이름을 바꾸지 않으면 추가적인 새 열의 이름이 열 2, 열 3 등으로 지정됩니다. 열을 더 쉽게 식별할 수 있게 하려면 **열** 이름은 수식 입력줄에서 이미 강조 표시되어 있으므로 **ProductFullCategory**를 입력하여 이름을 바꾼 다음, 등호(**=**)를 입력합니다.
+2.  기본적으로 새 계산 열의 이름은 열로 지정됩니다. 이름을 바꾸지 않으면 추가하는 새 열의 이름이 열 2, 열 3 등으로 지정됩니다. 열을 더 쉽게 확인할 수 있게 하려면 **열** 이름은 수식 입력줄에서 이미 강조 표시되어 있으므로 **ProductFullCategory**를 입력하여 이름을 바꾼 다음, 등호(**=**)를 입력합니다.
     
 3.  새 열의 값을 ProductCategory 이름으로 시작하려고 합니다. 이 열은 다르지만 관련된 테이블에 있으므로 [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 함수를 사용하여 가져올 수 있습니다.
     
@@ -125,7 +126,7 @@ Contoso Sales Sample에는 활성 및 비활성 매장에 대한 판매 데이�
     
     ![FALSE 값 추가](media/desktop-tutorial-create-calculated-columns/if4.png)
     
-6.  값을 *Inactive*로 설정하려 하므로 **“Inactive”**를 입력한 다음, **Enter** 키를 누르거나 수식 입력줄에서 확인 표시를 선택하여 수식을 완료합니다. 수식이 유효성 검사되고 새 이름이 필드 목록의 **Stores** 테이블에 표시됩니다.
+6.  값을 *Inactive*로 설정하려 하므로 **“Inactive”** 를 입력한 다음, **Enter** 키를 누르거나 수식 입력줄에서 확인 표시를 선택하여 수식을 완료합니다. 수식이 유효성 검사되고 새 이름이 필드 목록의 **Stores** 테이블에 표시됩니다.
     
     ![Active StoreName 열](media/desktop-tutorial-create-calculated-columns/if5.png)
     
