@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cf5383f034b47708aa6b75ca5ead3e79b8e270
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721458"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI의 사용자 지정 시각적 개체
 Power BI 보고서를 만들거나 편집 할 때 사용할 수 있는 다양한 유형의 시각적 개체가 있습니다. 이러한 시각적 개체는 **시각화** 창에 표시됩니다. Power BI Desktop을 다운로드하거나 Power BI 서비스(app.powerbi.com)를 열면 이 시각적 개체 집합이 "사전 패키지 형태"로 제공됩니다.
@@ -53,10 +54,10 @@ AppSource란? 간단히 말해서, Microsoft 소프트웨어에 대한 앱, 추�
 
 ### <a name="certified-visuals"></a>인증 시각적 개체
 
-Power BI 인증 시각적 개체는 품질에 대해 추가로 엄격한 테스트를 거친 마켓플레이스 시각적 개체이며, [메일 구독](https://docs.microsoft.com/en-us/power-bi/service-report-subscribe), [PowerPoint로 내보내기](https://docs.microsoft.com/en-us/power-bi/service-publish-to-powerpoint) 등과 같은 추가적인 시나리오에서도 지원됩니다.
-인증된 사용자 지정 시각적 개체 목록을 보거나 사용자 고유의 개체를 제출하려면 [인증된 사용자 지정 시각적 개체](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-certified)를 참조하세요.
+Power BI 인증 시각적 개체는 품질에 대해 추가로 엄격한 테스트를 거친 마켓플레이스 시각적 개체이며, [메일 구독](https://docs.microsoft.com/power-bi/service-report-subscribe), [PowerPoint로 내보내기](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint) 등과 같은 추가적인 시나리오에서도 지원됩니다.
+인증된 사용자 지정 시각적 개체 목록을 보거나 사용자 고유의 개체를 제출하려면 [인증된 사용자 지정 시각적 개체](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified)를 참조하세요.
 
-웹 개발자로서 고유한 시각화를 만들고 AppSource에 추가하는 데 관심이 있나요? [개발자 도구 시작하기](https://docs.microsoft.com/en-us/power-bi/service-custom-visuals-getting-started-with-developer-tools)를 참조하고 [AppSource에 사용자 지정 시각적 개체를 게시](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)하는 방법을 알아봅니다.
+웹 개발자로서 고유한 시각화를 만들고 AppSource에 추가하는 데 관심이 있나요? [개발자 도구 시작하기](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools)를 참조하고 [AppSource에 사용자 지정 시각적 개체를 게시](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)하는 방법을 알아봅니다.
 
 ### <a name="import-a-custom-visuals-from-a-file"></a>파일에서 사용자 지정 시각적 개체 가져오기
 

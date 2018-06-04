@@ -12,10 +12,11 @@ ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: aae902d2fdc4198c362cf5c2a09a74d04704e519
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34241822"
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>Power BI 보고서의 시각화 조작
 보고서에 대한 편집 권한이 있는 경우 **시각적 상호 작용**을 사용하여 보고서 페이지의 시각화들이 서로 영향을 주는 방식을 변경할 수 있습니다. 
