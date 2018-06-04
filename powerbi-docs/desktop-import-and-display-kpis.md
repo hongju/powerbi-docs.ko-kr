@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: c077f64554101b97469dffc40b41ed3b1e8211cd
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291308"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>Power BI에서 KPI 가져오기 및 표시
 **Power BI Desktop**을 사용하면 테이블, 행렬 및 카드에서 KPI를 가져오고 표시할 수 있습니다.

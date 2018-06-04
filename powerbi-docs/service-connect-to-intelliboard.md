@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c397ec0f302ec558e0277c92a871a94dd7f28e87
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34241510"
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>Power BI로 IntelliBoard에 연결
 IntelliBoard는 Reporting Service를 통해 Moodle 학습 관리 시스템에 단순화된 액세스를 제공합니다. Power BI용 IntelliBoard 콘텐츠 팩은 과정에 대한 메트릭, 등록된 사용자, 전반적인 성능 및 LMS 작업을 포함하여 추가 분석을 제공합니다.

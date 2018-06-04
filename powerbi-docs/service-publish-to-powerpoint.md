@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1d4b825cd7301af020f01de215e00968d21f972c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250011"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>보고서를 Power BI에서 PowerPoint(미리 보기)로 내보내기
 이제 Power BI를 사용하여 보고서를 **Microsoft PowerPoint**에 게시하고 Power BI 보고서에 따라 슬라이드 모음을 쉽게 만들 수 있습니다. **PowerPoint로 내보내는** 경우 다음이 발생합니다.

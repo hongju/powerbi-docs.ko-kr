@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
 ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289467"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI 데이터 집합에 데이터 푸시
 Power BI API를 사용하여 데이터를 Power BI 데이터 집합에 푸시할 수 있습니다. 예를 들어 기존 비즈니스 워크플로를 확장하여 키 데이터를 데이터 집합에 푸시하고자 한다고 가정합니다. 여기서는 Product 테이블을 포함하는 Sales Marketing 데이터 집합을 데이터 집합에 푸시하려고 합니다.
