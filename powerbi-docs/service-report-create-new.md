@@ -11,10 +11,11 @@ ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 377ea4acc1a6fb41101571ac3ed0be2f3e50889b
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34246160"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>데이터 집합을 가져와 Power BI 서비스에서 새 보고서 만들기
 지금까지 [Power BI의 보고서](service-reports.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 아주 다양한 방법으로 보고서를 만들 수 있으며 이 문서에서는 Power BI 서비스를 사용하여 Excel 데이터 집합에서 매우 기본적인 보고서를 만드는 것으로 시작하겠습니다. 보고서를 만들기 위한 기본 사항을 이해하고 나면 맨 아래의 **다음 단계**가 더 높은 수준의 보고서 항목으로 안내합니다.  

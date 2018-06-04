@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34309926"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 시작
 **Power BI Desktop 시작 가이드**를 시작합니다. 아래의 간단한 안내를 통해 Power BI Desktop의 작동 방법을 파악하고, 이 도구로 수행할 수 있는 작업을 확인하고, 비즈니스 인텔리전스 활동을 강화하는 강력한 데이터 모델을 유용한 보고서와 함께 신속하게 작성할 수 있습니다. 

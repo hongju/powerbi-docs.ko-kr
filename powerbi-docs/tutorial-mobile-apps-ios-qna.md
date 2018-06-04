@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: tutorial
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 5c8afc963c67493c30821048736d914d3aec278e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8cb9e78898228aa7dad82db76d1d7da1a7151702
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297863"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561428"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>자습서: iOS 앱에서 질문 및 답변 가상 분석가에게 데이터에 대한 질문하기 - Power BI
 
@@ -72,7 +72,7 @@ iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
 
 4. **기회 분석 샘플**을 선택합니다.
  
-    ![영업 기회 분석 샘플](media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
+    ![기회 분석 샘플](media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
  
 8. **연결**을 선택합니다.  
   
@@ -132,5 +132,5 @@ iOS 장치에서 샘플을 볼 준비가 되었습니다.
 
 iOS용 Power BI 모바일 앱에서 질문 및 답변 가상 지원을 사용해 보았습니다. Power BI 서비스에서 질문 및 답변에 대해 자세히 알아보세요.
 > [!div class="nextstepaction"]
-> [Power BI 서비스에서 Q&A](/.power-bi-q-and-a.md)
+> [Power BI 서비스에서 Q&A](power-bi-q-and-a.md)
 

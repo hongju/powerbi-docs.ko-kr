@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2018
+ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 3c48fa1e2c66ee22c8289debb5a09698b399bcfb
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: f6e4be87b86d7a73abf364d1b526c1f6d549934c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471735"
 ---
 # <a name="the-power-bi-samples"></a>Power BI 샘플
 
@@ -97,7 +98,7 @@ ms.lasthandoff: 05/17/2018
 
 이들 간 차이점은 Power BI Desktop을 사용하는 경우 데이터가 보고서에서 최상의 통찰력을 지원하도록 쿼리와 데이터 모델링 작업을 수행할 수 있다는 것입니다. 로컬 드라이브든, 클라우드든 관계없이 어디든지 Power BI Desktop 파일을 저장할 수 있습니다.
 
-1. Power BI Desktop에서 [소매점 분석 샘플 .pbix 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 엽니다. 
+1. Power BI Desktop에서 [소매점 분석 샘플 .pbix 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix)을 엽니다. 
 
     ![](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 

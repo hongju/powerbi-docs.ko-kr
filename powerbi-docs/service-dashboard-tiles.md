@@ -11,10 +11,11 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249071"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
 대시보드 및 대시보드 타일은 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. Power BI 모바일에서는 대시보드 타일을 만들거나 고정할 수 없지만 [보고 공유](mobile-tiles-in-the-mobile-apps.md)할 수는 있습니다. 또한 Power BI 모바일에서는 [iPhone 앱으로 대시보드에 그림을 추가](mobile-iphone-app-get-started.md)할 수 있습니다.

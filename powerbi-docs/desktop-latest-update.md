@@ -1,29 +1,21 @@
 ---
 title: 최신 Power BI Desktop 업데이트의 새로운 기능
 description: 최신 Power BI Desktop 업데이트의 새로운 기능
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 05/31/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: faf1b8d4d0db1dff407611b28ed910bfb0717f30
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 5a677164f068ba4ad4796b2db42b7b052233d3da
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2018
-ms.locfileid: "33923339"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285695"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>최신 Power BI Desktop 업데이트의 새로운 기능
 

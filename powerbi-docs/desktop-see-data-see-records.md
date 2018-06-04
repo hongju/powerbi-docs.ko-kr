@@ -11,10 +11,11 @@ ms.date: 02/22/2018
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 219687e7e5a98cecdaaa5d17291fc0841a4b165f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285741"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 참조 및 레코드 참조 사용
 **Power BI Desktop**에서는 시각화의 세부 정보로 드릴하고 선택한 시각적 개체에 대한 기본 데이터 또는 개별 데이터 레코드의 텍스트 표현을 볼 수 있습니다. 이러한 기능을 때로는 ‘클릭 광고’, ‘드릴스루’ 또는 ‘드릴스루 세부 정보’라고 합니다.

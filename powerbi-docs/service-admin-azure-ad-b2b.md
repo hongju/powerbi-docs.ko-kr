@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6e1665b6e9c9ff0a756d9ccdaf9e6feb4ed9eb39
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722227"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -30,7 +31,7 @@ Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합�
 
 ## <a name="who-can-you-invite"></a>누구를 초대할 수 있나요?
 
-gmail.com, outlook.com 또는 hotmail.com과 같은 개인 계정을 포함한 이메일 주소를 사용하는 게스트 사용자를 초대할 수 있습니다. Azure B2B에서는 이를 "소셜 ID"라고 합니다. 자세한 내용은 [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)를 참조하세요.
+gmail.com, outlook.com 또는 hotmail.com과 같은 개인 계정을 포함한 이메일 주소를 사용하는 게스트 사용자를 초대할 수 있습니다. Azure B2B에서는 이를 "소셜 ID"라고 합니다. 자세한 내용은 [Azure B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)를 참조하세요.
 
 ## <a name="invite-guest-users"></a>게스트 사용자 초대 
 
@@ -100,7 +101,7 @@ Power BI Premium 용량에 앱 작업 영역을 할당하면 게스트 사용자
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-* gmail.com, outlook.com 또는 hotmail.com과 같은 개인 이메일 계정을 사용하는 게스트 사용자를 초대하는 경우, 이 [포함된 비디오](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience)를 따라 사용자 가입 방법의 예를 볼 수 있습니다.
+* gmail.com, outlook.com 또는 hotmail.com과 같은 개인 이메일 계정을 사용하는 게스트 사용자를 초대하는 경우, 이 [포함된 비디오](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-redemption-experience)를 따라 사용자 가입 방법의 예를 볼 수 있습니다.
 * 외부 B2B 게스트는 콘텐츠 소비로만 제한됩니다. 외부 B2B 게스트는 앱, 대시보드, 보고서를 보고, 데이터를 내보내며 대시보드 및 보고서에 대한 전자 메일 구독을 만들 수 있습니다. 작업 영역에 액세스하거나 자신의 콘텐츠를 게시할 수는 없습니다.
 * 이 기능은 현재 Power BI 모바일 앱에는 제공되지 않습니다. 모바일 장치에서는 브라우저에서 Azure AD B2B를 사용하여 공유되는 Power BI 콘텐츠를 볼 수 있습니다.
 * 이 기능은 현재 Power BI SharePoint Online 보고서 웹 파트에 제공되지 않습니다.

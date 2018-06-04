@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: e77c77acb7808923097eb3e2146bef816eda51ee
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721757"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Power BI Report Server에 대한 REST API를 사용하여 개발
 Power BI Report Server는 REST(Representational State Transfer) API를 지원합니다. REST API는 HTTP 작업(메서드)의 집합을 지원하는 서비스 끝점이며, 보고서 서버 내에서 리소스에 대한 액세스 만들기, 검색, 업데이트 또는 삭제를 제공합니다.
 
 REST API는 Power BI Report Server 카탈로그의 개체에 대한 프로그래밍 방식 액세스를 제공합니다. 개체의 예로는 폴더, 보고서, KPI, 데이터 원본, 데이터 집합, 새로 고침 계획, 구독 등이 있습니다. REST API를 사용하여, 예를 들어, 폴더 계층을 탐색하고, 폴더의 내용을 검색하거나 보고서 정의를 다운로드할 수 있습니다. 개체를 만들고, 업데이트하고 삭제할 수도 있습니다. 개체를 사용하는 예로는 보고서 업로드, 새로 고침 계획 실행, 폴더 삭제 등이 있습니다.
+
+[!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>REST API 요청/응답의 구성 요소
 REST API 요청/응답 쌍은 5개의 구성 요소로 구분될 수 있습니다.

@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 4b05fcc005f821c4fee24071f28651b5df57709c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249347"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>인시던트 보고를 위해 Power BI로 ServiceNow에 연결
 ServiceNow에서는 비즈니스, 운영 및 IT 관리를 비롯하여 비즈니스를 개선하기 위한 여러 제품과 솔루션을 제공합니다. 이 콘텐츠 팩에는 개시된 인시던트, 최근에 해결된 인시던트, 최근에 닫은 인시던트에 대한 다양한 정보 및 보고서가 포함되어 있습니다.  

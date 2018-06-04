@@ -11,10 +11,11 @@ ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310179"
 ---
 # <a name="hyperlinks-in-tables"></a>테이블에서 하이퍼링크
 이 항목에서는 하이퍼링크를 만들어 Power BI Desktop을 사용하는 방법을 배웁니다. 만든 후에는 보고서 테이블 및 행렬에 하이퍼링크를 추가하려면 Desktop 또는 Power BI 서비스를 사용합니다. 

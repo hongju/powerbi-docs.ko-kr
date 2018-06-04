@@ -11,10 +11,11 @@ ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 44dff39d043bb7a71c01b5103cfdf65e7d5e33cb
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34287604"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Power BI Desktop에서 SAP HANA 사용
 Power BI Desktop을 통해 이제 **SAP HANA** 데이터베이스에 액세스할 수 있습니다. **SAP HANA**를 사용하려면 Power BI Desktop **SAP HANA** 데이터 연결이 제대로 작동하기 위해 로컬 클라이언트 컴퓨터에 SAP HANA ODBC 드라이버를 설치해야 합니다. [SAP 소프트웨어 다운로드 센터](https://support.sap.com/swdc)에서 SAP HANA ODBC 드라이버를 다운로드할 수 있습니다. 여기서 Windows용 SAP HANA CLIENT를 검색해 보세요. **SAP 소프트웨어 다운로드 센터**에서 구조를 자주 변경했기 때문에 해당 사이트를 탐색하기 위한 보다 구체적인 지침을 사용할 수 없습니다.

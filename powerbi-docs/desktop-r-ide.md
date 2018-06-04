@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c51d89979ccf6791e69a7cdd457004b065b9d537
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34288869"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Power BI로 외부 R IDE 사용
 **Power BI Desktop**을 통해 외부 R IDE(통합 개발 환경)를 사용하여 R 스크립트를 작성하고 구체화한 다음, Power BI에서 해당 스크립트를 사용할 수 있습니다.

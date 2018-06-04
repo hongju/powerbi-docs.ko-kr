@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: aa2bfed2858f93d91ff806b934f16c06555668d6
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244833"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Excel 2016에서 Power BI로 게시
 Excel 2016에서는 Excel 통합 문서를 [Power BI](https://powerbi.microsoft.com) 사이트에 바로 게시하여 통합 문서의 데이터에 기반하여 대화형 작업이 많은 보고서와 대시보드를 만들 수 있습니다. 그러면 조직에서 다른 사용자와 정보를 공유할 수 있습니다.

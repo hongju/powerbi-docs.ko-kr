@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 8b9fcf1c6121c4aeecfdf948b77493f1f2a7f825
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293631"
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI 보관 작업 영역
 Power BI를 사용하면 누구나 몇 분 안에 서비스에 가입하고 사용을 시작할 수 있습니다.  나중에 조직의 IT 부서가 조직 내 사용자를 위해 Power BI 관리 인계를 선택할 수 있습니다.  이러한 인계가 발생하면 조직 내 사용자 및 권한의 중앙 관리를 통해 혜택을 누릴 수 있고, 조직 내 타 서비스에 사용하는 것과 동일한 사용자 이름과 암호를 사용함으로써 능률적인 가입 절차를 활용할 수 있습니다. 

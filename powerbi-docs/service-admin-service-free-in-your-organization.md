@@ -11,10 +11,11 @@ ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 2ba97b76b13c9adf3c9f20d5d42c5ec9c363edda
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293677"
 ---
 # <a name="power-bi-free-in-your-organization"></a>조직의 Power BI(무료)
 조직 내에서 Power BI(무료) 제품을 사용할 수 있는 방법을 살펴봅니다. 조직이란 테넌트가 있으며 해당 테넌트 내에서 사용자 및 서비스를 관리할 수 있음을 의미합니다. 관리자는 라이선스 할당을 제어할 수 있거나 사용자가 개별로 등록하도록 허용할 수 있습니다. Power BI(무료) 라이선스 및 개별 로그인을 제어하는 방법을 살펴보겠습니다.

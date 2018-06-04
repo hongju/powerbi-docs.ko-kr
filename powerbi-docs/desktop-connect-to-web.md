@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b9a157b9a7302ed7e02f0b3e8f17a905b9b65d93
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34287236"
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Power BI Desktop에서 웹 페이지에 연결
 웹 페이지에 연결하고 해당 데이터를 Power BI Desktop으로 가져와 시각적 개체 및 데이터 모델에서 사용할 수 있습니다.

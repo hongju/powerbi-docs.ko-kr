@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: cedb3e1572fbf20a32abe4f28b38030539502124
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34238148"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Office 365 전용 고객 - 알려진 문제
 이제 Power BI에서 Office 365 전용 고객을 지원합니다.  O365 전용 고객인 경우 테넌트의 계정으로 로그인하여 Power BI를 사용할 수 있습니다. 현재 두 가지 알려진 문제가 있습니다.

@@ -11,10 +11,11 @@ ms.date: 05/09/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
 ms.openlocfilehash: 0589ef3ad4f55a9684f0a7b31ed6421936c3e5c2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299174"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능

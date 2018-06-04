@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d9e70e0b69f0ce68826f566e6e5cdb0f4d8e113e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242935"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Power BI로 Alpine Metrics Sales Predictions에 연결
 Alpine Metrics에서는 최신 Predictive Sales Process Optimization을 클라우드에서, 그리고 영업 조직 규모에 따라 주문형으로 제공합니다. Power BI용 Alpine Metrics Sales Predictions 콘텐츠 팩에는 잠재적 및 예측된 판매 및 위험과 같은 메트릭을 포함하여 비즈니스의 미래에 대해 깊이 이해할 수 있도록 합니다. 

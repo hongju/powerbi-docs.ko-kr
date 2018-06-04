@@ -11,10 +11,11 @@ ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247050"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>멋진 Power BI 대시보드를 디자인하기 위한 팁
 이제 대시보드를 만들고 일부 타일을 추가했으므로 모양과 기능을 개선하는 방법을 살펴보겠습니다. 일반적으로 여기에는 가장 중요한 정보를 돋보이게 하고 깔끔하며 군더더기 없이 만드는 것이 포함됩니다.

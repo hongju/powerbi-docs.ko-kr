@@ -11,10 +11,11 @@ ms.date: 02/13/2018
 ms.author: mblythe
 LocalizationGroup: Get started
 ms.openlocfilehash: b472ba4ddd194fae668961b0601b6ab749c598e7
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251348"
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI Pro와 무료 버전 비교
 Power BI 내 모든 사용자는 무료 사용자이거나 Pro 사용자입니다. 이러한 두 유형의 사용자가 어떻게 다른지 알아두면 유익합니다.

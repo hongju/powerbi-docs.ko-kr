@@ -12,10 +12,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9aa0169f76515dd2f05a3e9debb8bc3d10cbdd07
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250149"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI 서비스에서 관련 콘텐츠 보기
 **관련 콘텐츠** 창은 Power BI 서비스 콘텐츠(대시보드, 보고서 및 데이터 집합)가 서로 어떻게 연결되어 있는지를 보여 줍니다.  그리고 이 창에서 새로 고침, 이름 바꾸기, 정보 생성 등과 같은 일반적인 작업을 수행할 수 있도록 기능이 향상되었습니다. 관련 보고서 또는 대시보드를 선택하면 Power BI 작업 영역에서 열립니다.   

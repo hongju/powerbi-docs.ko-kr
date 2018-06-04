@@ -1,21 +1,30 @@
 ---
 title: Power BI 서비스에서 보고서 및 대시보드 구독
 description: 자신과 다른 사람이 Power BI 보고서 및 대시보드의 스냅숏을 구독하는 방법에 대해 알아보세요.
+services: powerbi
+documentationcenter: ''
 author: mihart
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: saQx7G0pxhc
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-service
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: fc4a84e3489b4b7adc24a58ed19c8e9eedb94293
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: af93d9d49b25fe2bc8fefcc2128dea74effc65ec
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34723026"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>Power BI 서비스(app.powerbi.com)에서 보고서 또는 대시보드 구독
 가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서 스냅숏을 전자 메일로 받은 편지함에 보냅니다. Power BI에 전자 메일 수신 빈도(예: 하루에 한 번에서 일주일에 한 번)를 알려줍니다. 

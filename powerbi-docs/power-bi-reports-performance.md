@@ -11,10 +11,11 @@ ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
 ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310547"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 성능 모범 사례 
 이 문서에서는 Power BI에서 빠르고 신뢰할 수 있는 보고서를 빌드하기 위한 지침을 제공합니다.  

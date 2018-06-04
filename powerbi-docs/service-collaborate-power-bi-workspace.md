@@ -11,10 +11,11 @@ ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245457"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI 앱 작업 영역에서 공동 작업
 Power BI 앱 작업 영역은 동료들과 대시보드, 보고서 및 데이터 집합을 공동 작업하여 *앱*을 만들기에 적합합니다. 이는 공동 작업을 위해 만들어진 작업 영역입니다. 동료들과 대시보드 및 보고서에 대한 공동 작업을 마친 후에는 앱으로 패키징하여 배포합니다. [Power BI에서 앱 및 앱 작업 영역 만들기](service-create-distribute-apps.md)에 대해 자세히 알아보세요. 

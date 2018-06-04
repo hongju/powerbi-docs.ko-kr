@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 15edc53e88ba46d3edd41b2a28d76deaabd28659
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290594"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Power BI Desktop의 참조 무결성 설정 가정
 **DirectQuery**를 사용하여 데이터 원본에 연결할 때 **참조 무결성 가정** 선택 항목을 사용하여 데이터 원본에 대해 더 효율적인 쿼리를 실행할 수 있습니다. 이 기능에는 기본 데이터의 몇 가지 요구 사항이 있으며 **DirectQuery**를 사용하는 경우에만 사용 가능합니다.

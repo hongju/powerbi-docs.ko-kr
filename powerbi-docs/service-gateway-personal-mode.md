@@ -11,10 +11,11 @@ ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298208"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>온-프레미스 데이터 게이트웨이(개인 모드)
 온-프레미스 데이터 원본을 사용할 수 있으며, 게이트웨이를 사용하여 Power BI 보고서 및 대시보드를 만들 수 있습니다. **게이트웨이**는 사용자가 **Power BI 서비스**와 같은 온라인 서비스의 데이터를 사용할 수 있게 사설 온-프레미스 네트워크에 저장된 데이터에 대한 액세스를 용이하게 하는 소프트웨어입니다. **온-프레미스 데이터 게이트웨이(개인 모드)** 는 최근에 릴리스된 Power BI Gateway에 대한 업데이트로, 개별 사용자가 자신의 컴퓨터에 게이트웨이를 설치하고 온-프레미스 데이터에 대한 액세스를 얻을 수 있도록 합니다.

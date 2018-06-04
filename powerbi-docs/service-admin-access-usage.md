@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f482cf9e3f0cf344a2808ca778839a50d851ac7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722204"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>로그인한 Power BI 사용자 찾기
 현재 테넌트 관리자이며 Power BI에 로그인했던 사람이 누구인지 알고자 하는 경우 Azure Active Directory 액세스 및 사용 보고서를 사용하여 표시 여부를 얻을 수 있습니다.
@@ -60,7 +61,7 @@ Azure AD Portal을 사용하여 로그인 활동을 볼 수 있습니다.
 PowerShell을 사용하여 로그인 데이터를 내보낼 수 있습니다. [샘플](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)은 Azure AD 설명서 내에서 사용할 수 있습니다.
 
 > [!NOTE]
-> PowerShell 샘플이 작동하려면 [Azure AD 보고 API 액세스를 위한 필수 구성 요소](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites)를 따라야 합니다.
+> PowerShell 샘플이 작동하려면 [Azure AD 보고 API 액세스를 위한 필수 구성 요소](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-prerequisites)를 따라야 합니다.
 > 
 > 
 

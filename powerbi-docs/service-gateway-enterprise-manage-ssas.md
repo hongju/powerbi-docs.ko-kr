@@ -11,10 +11,11 @@ ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34297150"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>데이터 원본 관리 - Analysis Services
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 수 있는 데이터 원본을 추가해야 합니다. 이 문서에서는 게이트웨이 및 데이터 소스로 작업하는 방법을 살펴봅니다. 예정된 새로 고침 또는 라이브 연결을 위해 Analysis Services 데이터 원본을 사용할 수 있습니다.

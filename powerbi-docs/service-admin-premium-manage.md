@@ -11,10 +11,11 @@ ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: d1535dcdd818c3c49c71df9b1b08f115f6091cfc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295839"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium 및 Power BI Embedded 내에서 용량 관리
 콘텐츠에 대한 전용 리소스를 제공하는 Power BI Premium 및 Power BI Embedded 용량을 관리하는 방법을 알아봅니다.

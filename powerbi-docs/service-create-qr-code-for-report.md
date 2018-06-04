@@ -11,10 +11,11 @@ ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: d99081a3d77ebfa7115d7546c59adc42eab308ca
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34237948"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Power BI에서 모바일 앱에 사용할 보고서의 QR 코드 만들기
 Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보에 연결할 수 있습니다. 탐색하거나 검색할 필요가 없습니다.

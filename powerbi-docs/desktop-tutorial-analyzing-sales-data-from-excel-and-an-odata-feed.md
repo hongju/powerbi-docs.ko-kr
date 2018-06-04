@@ -11,10 +11,10 @@ ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
 ms.openlocfilehash: c6cd75efd44259c2812f98a37875cf716d4843ad
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34456206"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>자습서: Excel 및 OData 피드의 판매 데이터 결합

@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
 ms.openlocfilehash: ded3ad829a0c9a2d4892a5a06250f60a93662c61
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294781"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>iPad에서 Power BI 모바일 앱 시작
 iPad의 iOS용 Microsoft Power BI는 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 

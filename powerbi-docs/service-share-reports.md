@@ -12,10 +12,11 @@ ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: bc5fe4c1e1fedc700fcbadd182f01e9e50348e3e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34257232"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>동료와 필터링된 Power BI 보고서 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. 또한 Power BI는 [보고서를 공동 작업하고 배포하는 여러 방법](service-how-to-collaborate-distribute-dashboards-reports.md)을 제공합니다.

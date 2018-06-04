@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 52bd4b5dc27ff127eadea49cb3e761d6cda4788d
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249163"
 ---
 # <a name="connect-to-project-online-with-power-bi"></a>Power BI로 Project Online에 연결
 Microsoft Project Online은 프로젝트 포트폴리오 관리(PPM) 및 일상 업무에 대한 유연한 온라인 솔루션입니다. Project Online을 사용하면 조직이 프로젝트 포트폴리오 투자를 시작하고 우선 순위를 지정할 수 있으며 의도한 비즈니스 가치를 제공할 수 있습니다. Power BI용 Project Online 콘텐츠 팩을 사용하면 포트폴리오 상태 및 프로젝트 규정 준수와 같은 기본 메트릭을 사용하여 프로젝트 데이터를 탐색할 수 있습니다.

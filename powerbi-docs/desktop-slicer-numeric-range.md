@@ -11,10 +11,11 @@ ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 1e380a6821db7207d14e719fa5e070af38196b97
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286937"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Power BI Desktop에서 숫자 범위 슬라이서 사용
 **숫자 범위 슬라이서**를 사용하여 데이터 모델의 모든 숫자 열에 모든 종류의 필터를 적용할 수 있습니다. **사이** 숫자, 숫자**보다 작거나 같음** 또는 숫자**보다 크거나 같음**을 필터링하도록 선택할 수 있습니다. 간단하게 들릴 수도 있지만 데이터를 필터링하는 매우 강력한 방법입니다.

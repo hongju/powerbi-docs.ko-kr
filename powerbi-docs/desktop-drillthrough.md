@@ -11,10 +11,11 @@ ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8c9a0d075c6d55baa1f518874fa668a3f0db8cb3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291285"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop에서 드릴스루 사용
 **Power BI Desktop**의 **드릴스루**를 사용하여 보고서에서 공급업체, 고객 또는 제조업체와 같은 특정 엔터티에 초점을 맞춘 페이지를 만들 수 있습니다. 사용자가 이 보고서 페이지를 사용하여 다른 보고서 페이지의 데이터 요소를 마우스 오른쪽 단추로 클릭하고 해당 보고서 페이지로 드릴스루하여 해당 컨텍스트로 필터링된 세부 정보를 확인할 수 있습니다.

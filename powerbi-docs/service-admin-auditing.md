@@ -11,10 +11,11 @@ ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 04dc755eb7d575aa8438b4a5000ad40549c6220f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34297081"
 ---
 # <a name="using-auditing-within-your-organization"></a>조직 내에서 감사 사용
 

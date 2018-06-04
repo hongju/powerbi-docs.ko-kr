@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 9506ab48e48fe04e07de8dcb08ad5234d31045cf
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242958"
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>Power BI로 ClickDimensions에 연결
 Power BI용 ClickDimensions 콘텐츠 팩은 Power BI에서 ClickDimensions 마케팅 데이터를 활용하여 판매 및 마케팅 노력이 성공할 수 있도록 관리팀에 추가적인 정보를 제공합니다. Power BI 대시보드 및 보고서에서 전자 메일 상호 작용, 웹 방문 및 형식 전송을 시각화하고 분석합니다.

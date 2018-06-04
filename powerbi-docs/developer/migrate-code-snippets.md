@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: 8fbefc7f1b6a9841dcb9c3d34d850c7e8e392881
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ea323419e38aab7360bb817a56ae4c7c662998ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689852"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션에서 콘텐츠 마이그레이션을 위한 코드 조각
 다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다. 특정 보고서 형식에 대한 관련 흐름은 [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md#content-migration)을 참조하세요.

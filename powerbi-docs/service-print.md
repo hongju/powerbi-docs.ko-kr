@@ -12,10 +12,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: d5859c0b59717a4af432c5fb7b526fa62ff03f59
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242981"
 ---
 # <a name="printing-from-power-bi-service"></a>Power BI 서비스에서 인쇄
 Power BI 서비스에서 전체 대시보드, 대시보드 타일, 보고서 페이지 또는 보고서 시각적 개체를 인쇄합니다. 보고서는 한 번에 한 페이지만 인쇄할 수 있습니다. 전체 보고서를 한 번에 인쇄할 수는 없습니다.

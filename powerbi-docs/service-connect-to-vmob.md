@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: b1f2970ad73783acf3736856463915161056b801
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34237879"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Power BI로 VMob에 연결
 Power BI 및 VMob 콘텐츠 팩에서 VMob 데이터 추적 및 탐색이 쉽습니다. Power BI는 전체 시간 및 지난 30일에 대한 사용자 통계, 지난 30일에 대한 정품 KPI 및 지난 30일 동안의 캠페인 성능 데이터를 검색할 수 있습니다.

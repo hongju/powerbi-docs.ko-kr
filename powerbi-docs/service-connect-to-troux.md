@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: dbf3831264a354ec96a38751dfa7a3719c5c9f2a
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247944"
 ---
 # <a name="connect-to-troux-for-power-bi"></a>Power BI용 Troux에 연결
 Troux 콘텐츠 팩을 사용하여 엔터프라이즈 아키텍처 리포지토리를 직접 Power BI에서 완전히 새로운 방식으로 시각화할 수 있습니다. 이 콘텐츠 팩은 비즈니스 기능에 대한 일련의 통찰력, 이러한 기능을 제공하는 응용 프로그램, 그리고 Power BI를 사용하여 완벽하게 사용자 지정할 수 있는 이러한 응용 프로그램을 지원하는 기술을 제공합니다.

@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 375a251e7515ad33396cc4cf5ebb0ee715ab0330
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34254036"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Power BI 및 Azure에서 동일한 계정 사용
 Power BI와 Azure 모두의 사용자인 경우 암호를 두 번 입력할 필요 없이 두 서비스에 같은 로그인을 사용하고자 할 수 있습니다.

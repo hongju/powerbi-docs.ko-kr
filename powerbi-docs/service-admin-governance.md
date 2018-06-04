@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 955f4347630a781174d399d6a1363683745a4b3e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293493"
 ---
 # <a name="governance-and-deployment-approaches"></a>거버넌스 및 배포 방법
 지난 수십 년간 회사들은 시장 기회에서 이익을 얻기 위해 데이터 자산을 전략적으로 이용할 필요성을 점점 더 많이 인식하게 되었습니다. 많은 조직은 이제 경쟁력 분석을 수행하거나 작업 패턴을 파악하여 경쟁에서 앞서 나가기 위한 방법으로 데이터 전략을 수립하여 이익을 얻을 수 있다는 것을 이해할 수 있습니다.  

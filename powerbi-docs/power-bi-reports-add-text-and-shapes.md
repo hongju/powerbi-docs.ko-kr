@@ -12,10 +12,11 @@ ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310294"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI 보고서의 고정 콘텐츠
 Power BI 서비스 및 Power BI Desktop을 사용하여 보고서에 텍스트 상자 및 셰이프를 추가할 수 있습니다. 두 경우 모두 보고서에 대한 편집 권한이 있어야 합니다. Power BI 서비스에서 보고서가 사용자와 공유된 경우에는 사용자에게 편집 권한이 없습니다. 

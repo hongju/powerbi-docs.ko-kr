@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 ms.openlocfilehash: 593b83f5ffb868cda3548315ce3f4840fadf0ec2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292642"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 지원되는 언어
 Power Bi 모바일 앱은 현재 다음과 같은 언어를 지원합니다.

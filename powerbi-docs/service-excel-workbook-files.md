@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 2005069d6497fcbaeeda0fe9275f2c88b0e1999d
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34252166"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel 통합 문서 파일에서 데이터 가져오기
 ![](media/service-excel-workbook-files/excel_icon.png)

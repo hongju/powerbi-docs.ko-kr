@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7d6ad3cea224de097d5ebc81d33dbffa52b33378
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 5b4a35d9cdfa820956201e7fee20251b3c5ac0b7
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584303"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -209,7 +210,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 조직의 사용자는 Cortana를 사용하여 데이터에 대한 질문을 할 수 있습니다.
 
 > [!NOTE]
-> 이 설정은 전체 조직에 적용되고 특정 그룹에 제한될 수 없습니다.
+> 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>온-프레미스 데이터 집합을 통해 Excel에서 분석 사용
 조직의 사용자는 Excel을 사용하여 온-프레미스 Power BI 데이터 집합을 보고 상호 작용할 수 있습니다. [자세히 알아보기](service-analyze-in-excel.md)
@@ -238,7 +239,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 조직의 사용자는 R 스크립트를 사용하여 만든 시각적 개체와 상호 작용하고 공유할 수 있습니다. [자세히 알아보기](service-r-visuals.md)
 
 > [!NOTE]
-> 이 설정은 전체 조직에 적용되고 특정 그룹에 제한될 수 없습니다.
+> 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
 
 ## <a name="audit-settings"></a>감사 설정
 
@@ -249,7 +250,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 이 설정은 감사 로그 항목이 기록될 수 있도록 활성화되어야 합니다.
 
 > [!NOTE]
-> 이 설정은 전체 조직에 적용되고 특정 그룹에 제한될 수 없습니다.
+> 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
 
 ## <a name="dashboard-settings"></a>대시보드 설정
 
@@ -258,7 +259,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 조직의 사용자는 대시보드 보안 수준을 나타내는 분류로 대시보드를 태그할 수 있습니다. [자세히 알아보기](service-data-classification.md)
 
 > [!NOTE]
-> 이 설정은 전체 조직에 적용되고 특정 그룹에 제한될 수 없습니다.
+> 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
 
 ## <a name="developer-settings"></a>개발자 설정
 

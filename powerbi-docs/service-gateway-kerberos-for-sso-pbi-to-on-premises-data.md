@@ -11,10 +11,11 @@ ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: fc7885755da62c7b777bb0af7627626b1ce60aa0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299082"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용
 온-프레미스 데이터 게이트웨이를 Kerberos로 구성하여 Power BI 보고서 및 대시보드를 온-프레미스 데이터에서 업데이트할 수 있도록 하는 원활한 Single Sign-On 연결을 가져올 수 있습니다. 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 원본에 연결하는 데 사용하는 DirectQuery를 사용하는 SSO(Single Sign-On)를 용이하게 합니다.

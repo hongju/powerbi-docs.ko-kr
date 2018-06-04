@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34253622"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI에서 데이터 새로 고침
 항상 최신 데이터를 가져오는 것은 올바른 결정을 내리는 데 중요한 경우가 많습니다. 일부 데이터에 연결하여 업로드하기 위해 Power BI에서 이미 데이터 가져오기를 사용했으며, 일부 보고서와 대시보드를 만들었습니다. 이제, 데이터가 최신이고 가장 좋은 상태임을 확인해야 합니다.

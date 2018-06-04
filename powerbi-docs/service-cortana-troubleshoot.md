@@ -12,10 +12,11 @@ ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 280b76bd7a950f9f66834b4707c1144485008a3c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250592"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI용 Cortana 문제 해결
 이 문서는 시리즈의 일부입니다. 아직 읽지 않은 경우 다음 세 개의 문서를 읽는 것이 좋습니다.

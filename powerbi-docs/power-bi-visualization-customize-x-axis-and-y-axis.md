@@ -12,10 +12,11 @@ ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 372f00e7bd62068688bdcc22c1e983c3fe629f8a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295706"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X축 및 Y축 속성 사용자 지정
 이 자습서에서는 시각적 개체의 X축 및 Y축을 사용자 지정하는 다양한 방법을 배웁니다. 모든 시각적 개체에 축이 있거나 모든 시각적 개체를 사용자 지정할 수 있는 것은 아닙니다. 예를 들어 원형 차트에는 축이 없습니다. 그리고 사용자 지정 옵션은 시각적 개체마다 다르며, 이 자습서에서 다 다루기에는 너무 많습니다. 따라서 가장 많이 사용되는 축을 몇 개만 살펴보고, Power BI 보고서 캔버스에서 시각적 서식 탭을 사용하는 방법을 익히도록 하겠습니다.  

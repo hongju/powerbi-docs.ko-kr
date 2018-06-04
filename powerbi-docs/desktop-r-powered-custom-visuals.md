@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: d7170ce02294c3eadbfa38f0a25a2ab58777720b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289329"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Power BI에서 R 지원 사용자 지정 시각적 개체 사용
 **Power BI Desktop** 및 **Power BI 서비스**에서는 R 지원 사용자 지정 시각적 개체를 R에 대한 지식 없이 R 스크립팅하지 않고 사용할 수 있습니다. 그러면 직접 R을 학습하거나 프로그래밍하지 않고도 R 시각적 개체 및 R 스크립트의 분석 및 시각적 기능을 활용할 수 있습니다.

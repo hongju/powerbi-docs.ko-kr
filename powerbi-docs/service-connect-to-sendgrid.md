@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: a08d9d10725a5c135ef6732b8397a57833463f4c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247829"
 ---
 # <a name="connect-to-sendgrid-with-power-bi"></a>Power BI로 SendGrid에 연결
 SendGrid용 Power BI 콘텐츠 팩을 사용하면 SendGrid 계정을 파악하고 통계를 추출할 수 있습니다. SendGrid 콘텐츠 팩을 통해 대시보드에 SendGrid 통계를 시각화할 수 있습니다.

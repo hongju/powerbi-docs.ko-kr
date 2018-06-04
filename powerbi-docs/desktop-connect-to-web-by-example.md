@@ -11,10 +11,10 @@ ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34290985"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>예제를 제공하여 웹 페이지에서 데이터 가져오기(미리 보기)

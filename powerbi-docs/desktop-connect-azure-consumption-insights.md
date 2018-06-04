@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34288202"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop(베타)의 Azure Consumption Insights에 연결
 **Azure Consumption Insights** 커넥터에서 **Power BI Desktop**을 사용하여 Azure에 연결하고 조직의 Azure 서비스 사용에 대한 심층 분석 데이터 및 정보를 가져옵니다. 또한 측정값, 사용자 지정 열, 시각적 개체를 만들어 조직의 Azure 사용에 대해 보고하고 공유할 수 있습니다. **Azure Consumption Insights** 커넥터의 이 릴리스는 베타 상태이며 변경될 수 있습니다.

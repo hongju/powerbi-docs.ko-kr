@@ -11,10 +11,11 @@ ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 5978443f05e039c34ff023f235624968b5eb8a3e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250172"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>새로 고침에 실패한 경우 Xero 콘텐츠 팩 자격 증명을 새로 고치는 방법
 Xero Power BI 콘텐츠 팩을 사용하는 경우 최근의 Power BI 서비스 인시던트로 인해 콘텐츠 팩을 매일 새로 고치면서 일부 문제가 발생했을 수 있습니다.

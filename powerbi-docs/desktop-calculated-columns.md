@@ -11,10 +11,10 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 3c1df2f08732a45b98e2de84684735171b004602
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34290364"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop의 계산 열 사용
@@ -51,7 +51,7 @@ Jeff는 Geography 표를 마우스 오른쪽 단추로 클릭한 다음 새 열�
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 여기서는 계산된 열에 대한 간략한 소개만 제공했습니다. 샘플 파일을 다운로드하고 더 많은 열을 만드는 방법에 대한 단계별 학습을 받을 수 있는 [자습서: Power BI Desktop에서 계산 열 만들기](desktop-tutorial-create-calculated-columns.md) 자습서를 참조해야 합니다. 
 
 DAX에 대한 자세한 내용은 [Power BI Desktop의 DAX 기본 사항](desktop-quickstart-learn-dax-basics.md)을 참조하세요.

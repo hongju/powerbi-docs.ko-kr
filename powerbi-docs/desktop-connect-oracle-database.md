@@ -11,10 +11,11 @@ ms.date: 4/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: a56097c02c9f3af63151d0a38e14fdc580e4ee9e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291008"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle 데이터베이스에 연결
 **Power BI Desktop**을 사용하여 Oracle 데이터베이스에 연결하기 위해 Power BI Desktop을 실행하는 컴퓨터에 올바른 Oracle 클라이언트 소프트웨어를 설치해야 합니다. 사용하는 Oracle 클라이언트 소프트웨어는 설치한 Power BI Desktop의 버전(**32비트** 버전 또는 **64비트** 버전)에 따라 달라집니다.

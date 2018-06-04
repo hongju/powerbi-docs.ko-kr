@@ -11,10 +11,11 @@ ms.date: 03/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 126a805f49e98f34cb9cfdcbb7ce7e886f67ce76
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291998"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Power BI 보고서에서 시각화 유형 변경
 Power BI 서비스와 Power BI Desktop에서 다양한 유형의 시각화를 사용해 보고 어느 시각화가 사용자의 데이터에 가장 적합한지 확인하세요. 

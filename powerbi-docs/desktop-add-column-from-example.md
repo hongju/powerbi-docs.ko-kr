@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 84347678033f3042dc5fd15d311d8e04e855a336
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285902"
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Power BI Desktop에서 예제의 열 추가
 **Power BI Desktop**의 2017년 4월 릴리스부터 **쿼리 편집기**를 사용하고 새 열에 대한 샘플 값을 하나 이상 제공하여 데이터의 새 열을 모델에 추가할 수 있습니다. 현재 선택 항목에서 새 열 예제를 만들거나 지정된 테이블의 모든(또는 선택한) 열을 기반으로 하여 입력을 제공할 수 있습니다.

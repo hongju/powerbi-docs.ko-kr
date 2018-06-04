@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6592405de2d76c14334c8c31e4af84cd5a090ed9
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247553"
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>Power BI로 SweetIQ에 연결
 Power BI 콘텐츠 팩은 SweetIQ 계정에서 데이터를 가져오고 데이터를 쉽게 탐색할 수 있는 기본 콘텐츠 집합을 생성합니다. SweetIQ 콘텐츠 팩을 사용하여 위치, 목록, 평점 및 리뷰에 대한 데이터를 분석합니다. 데이터가 매일 새로 고쳐지도록 설정되어 모니터링하는 데이터를 최신 상태를 유지합니다.

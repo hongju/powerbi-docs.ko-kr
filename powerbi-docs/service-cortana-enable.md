@@ -10,10 +10,11 @@ ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 40dd75becc890c48e8d1b2a7dc10381896ceed71
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34252350"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Cortana가 Power BI 보고서(및 해당 기본 데이터 집합)에 액세스하도록 설정
 지금까지 [Cortana 및 Power BI 소개](service-cortana-intro.md)에 대해 읽으셨습니다(그러지 않은 경우 먼저 읽은 후 다시 돌아오세요). 이제 직접 사용해 볼 수 있습니다.  Cortana에서 자연어로 질문하고 Power BI ***보고서***에 저장된 데이터에서 답변을 찾으려면 몇 가지 요구 사항을 충족해야 합니다. 특히 다음을 수행해야 합니다.

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 40be9e37204870cd304ef144ade8adf0bf692335
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 770e200b0aa6916ac6d2de144902a04e9660e552
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482018"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI용 인적 자원 샘플: 둘러보기
 
@@ -31,7 +32,7 @@ HR 부서는 업종이나 규모가 다른 경우에도 여러 회사에서 동�
 
 ## <a name="prerequisites"></a>필수 조건
 
- 이 샘플을 사용하려면 먼저 샘플을 [콘텐츠 팩](https://docs.microsoft.com/en-us/power-bi/sample-human-resources#get-the-content-pack-for-this-sample), [pbix 파일](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix) 또는 [Excel 통합 문서](http://go.microsoft.com/fwlink/?LinkId=529780)로 다운로드해야 합니다.
+ 이 샘플을 사용하려면 먼저 샘플을 [콘텐츠 팩](https://docs.microsoft.com/power-bi/sample-human-resources#get-the-content-pack-for-this-sample), [pbix 파일](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix) 또는 [Excel 통합 문서](http://go.microsoft.com/fwlink/?LinkId=529780)로 다운로드해야 합니다.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>이 샘플의 콘텐츠 팩 가져오기
 

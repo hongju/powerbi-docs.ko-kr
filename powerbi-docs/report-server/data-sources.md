@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
 ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310455"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 데이터 원본
 Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다. DirectQuery 또는 SQL Server Analysis Services에 대한 라이브 연결을 사용하여 데이터를 가져오거나 데이터를 직접 쿼리할 수 있습니다.

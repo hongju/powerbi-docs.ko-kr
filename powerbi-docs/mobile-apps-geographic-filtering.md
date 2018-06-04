@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 ms.openlocfilehash: 31fcc0a8904aa28e32b7192c4d2b56a6f3913a94
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291653"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 지리적 위치별 보고서 필터링
 적용 대상:

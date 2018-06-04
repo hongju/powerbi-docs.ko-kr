@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 17d6b2cf2e70843cd2abf3ceb7b6cef76f6acb47
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289720"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Power BI Desktop에서 그룹화 및 범주화 사용
 **Power BI Desktop**에서는 시각적 개체를 만들 때 기본 데이터에서 발견되는 값을 기반으로 청크(또는 그룹)로 데이터를 집계합니다. 대개는 좋지만 이러한 청크를 표시하는 방법을 구체화하고자 하는 때가 있을 수 있습니다. 예를 들어 하나의 큰 범주(하나의 *그룹*)에 세 가지 범주의 제품을 배치할 수 있습니다. 또는 균등하게 분할된 923,983달러 대신 1,000,000달러의 bin 크기로 배치된 판매액을 볼 수 있습니다.

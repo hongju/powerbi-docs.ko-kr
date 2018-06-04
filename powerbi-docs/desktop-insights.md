@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286086"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Power BI Desktop에서 정보 사용(미리 보기)
 **Power BI Desktop**을 통헤 차트에서 증가 및 감소를 설명하고 데이터에 대한 빠르고 자동화된 통찰력 있는 분석을 가져옵니다. 단순히 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 축소 설명**(또는 이전 표시줄이 낮은 경우 증가)를 선택하고 정보를 사용하기 쉬운 창에 제공합니다.

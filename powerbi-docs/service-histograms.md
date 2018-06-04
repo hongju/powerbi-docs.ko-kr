@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 43ecdccbbe44721d4205ebc05d9d8406eed7e68b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298047"
 ---
 # <a name="histograms"></a>히스토그램
 Power BI에서 히스토그램을 작성하는 방법은 여러 가지가 있습니다. 가장 간단한 작업부터 시작합니다.

@@ -11,10 +11,11 @@ ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298323"
 ---
 # <a name="power-bi-premium-release-notes"></a>Power BI 프리미엄 릴리스 정보
 조직 또는 팀에 보다 신뢰할 수 있는 성능, 대용량 데이터 볼륨 및 뷰어를 위해 사용자별 라이선스 없이도 콘텐츠를 배포하는 기능을 제공하는 전용 용량인 Power BI Premium에 대한 릴리스 정보입니다.

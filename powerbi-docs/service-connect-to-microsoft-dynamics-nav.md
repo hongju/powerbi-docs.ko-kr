@@ -7,14 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2ffa82cbc45a735bfb857a1f69c7e79e925ed753
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 498a66c5e675fc8a394f3c3a0dc2ef7ff7fa99c2
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722431"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Power BI로 Microsoft Dynamics NAV에 연결
 Power BI를 사용하면 Microsoft Dynamics NAV에 대한 정보를 쉽게 파악할 수 있습니다. Power BI는 영업 및 재무를 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 사용하여 앱을 구축합니다. Power BI는 데이터가 검색되는 원본 테이블(이 경우에 영업 및 재무 데이터)에 대한 사용 권한이 필요합니다. 요구 사항에 대한 자세한 내용은 아래에 나와 있습니다. 앱을 설치한 후 Power BI 서비스([https://powerbi.com](https://powerbi.com)) 및 Power BI 모바일 앱에서 대시보드 및 보고서를 볼 수 있습니다. 

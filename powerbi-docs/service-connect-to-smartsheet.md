@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: b30e9934c6a1779538aeb5fe82db59e018fdb880
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249462"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>Power BI로 Smartsheet에 연결
 Smartsheet는 간편하게 공동으로 작업하고 파일을 공유할 수 있는 플랫폼을 제공합니다. Power BI용 Smartsheet 콘텐츠 팩은 Smartsheet 계정의 개요를 보여 주는 대시보드, 보고서 및 데이터 집합을 제공합니다. [Power BI Desktop](desktop-connect-to-data.md)을 사용하여 계정의 개별 시트에 직접 연결할 수도 있습니다. 

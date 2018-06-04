@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5e12e32d947779f4ebc5bc2d238125c7359c08fe
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242298"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Power BI로 Mandrill에 연결
 Power BI 콘텐츠 팩은 Mandrill 계정에서 데이터를 끌어오고 데이터를 탐색할 수 있게 해주는 대시보드, 일련의 보고서 및 데이터 집합을 생성합니다. Mandrill의 분석을 사용하여 뉴스레터 또는 마케팅 캠페인을 신속하게 파악할 수 있습니다. 데이터가 매일 새로 고쳐지도록 설정되어 모니터링하는 데이터를 최신 상태를 유지합니다.

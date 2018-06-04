@@ -11,10 +11,11 @@ ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247806"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>기존 보고서에서 새 보고서 만들기(보고서 복사)
 이미 데이터 집합에 연결하는 보고서가 있고 다시 사용하거나 수정하려고 하는 몇 가지 시각적 개체가 있을 수 있습니다.  새 보고서에 대한 기준으로 해당 보고서를 단순히 복사할 수 없습니까?  수행할 작업:

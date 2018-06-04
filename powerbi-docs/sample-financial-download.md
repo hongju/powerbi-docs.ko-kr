@@ -11,10 +11,11 @@ ms.date: 05/21/2018
 ms.author: amac
 LocalizationGroup: Samples
 ms.openlocfilehash: 8a586561ea91fc8a66d70099938818372456df98
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34456062"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>Power BI용 재무 샘플 통합 문서 다운로드
 Power BI 서비스를 사용해 볼 데이터가 필요한가요? 샘플 재무 데이터의 간단한 Excel 통합 문서를 다운로드할 수 있습니다.  다운로드하는 방법은 다음과 같습니다.

@@ -11,10 +11,11 @@ ms.date: 03/02/2017
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: eed9b668cccf3bc8252d70f1dee94675063a8844
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247760"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Power BI 신속한 정보 활용을 위해 데이터 최적화
 신속한 정보 활용 결과를 개선하려는 경우  데이터 집합 소유자이면, 다음을 시도해 보세요.

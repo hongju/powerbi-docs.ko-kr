@@ -11,10 +11,11 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310064"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁
 Power BI를 사용하면서 "즉각적인" 도움이 필요한 경우 Power BI 질문에 대한 답변을 받지 못해 실망하거나 어려움을 겪은 적이 있나요? 

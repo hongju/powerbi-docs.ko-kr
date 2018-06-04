@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 50a5d3d97e90879dcb542c441f129f468a95c6c7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285557"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터에 연결
 Power BI Desktop을 사용하면 계속 확장되는 데이터에 쉽게 연결할 수 있습니다. Power BI Desktop이 없는 경우 여기서 [다운로드](http://go.microsoft.com/fwlink/?LinkID=521662)하여 설치할 수 있습니다.

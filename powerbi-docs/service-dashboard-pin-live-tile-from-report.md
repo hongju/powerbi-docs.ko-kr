@@ -12,10 +12,11 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 7703709361a6233b6d04d6fb2131ba41f109ca36
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249873"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>전체 보고서 페이지를 라이브 타일로 Power BI 대시보드에 고정
 새 [대시보드 타일](service-dashboard-tiles.md)을 추가하는 다른 방법은 전체 보고서 페이지를 고정하는 것입니다. 이는 한 번에 두 개 이상의 시각화를 고정하는 간단한 방법입니다.  또한 전체 페이지를 고정하면 타일이 *라이브* 상태가 되며, 대시보드에서 바로 상호 작용할 수 있습니다. 필터를 추가하거나 차트에 사용된 필드를 변경하는 등 보고서 편집기에서 시각화 요소들에 수행하는 모든 변경 내용은 대시보드 타일에도 반영됩니다.  

@@ -11,10 +11,11 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c0e7bddd23987377bfd8cf05bdfd1ab997e621ed
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247645"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI 조직 콘텐츠 팩에 대한 연결 제거
 동료가 콘텐츠 팩을 생성했습니다. 귀하가 AppSource에서 이 콘텐츠 팩을 검색하고 Power BI 작업 영역에 추가했습니다. 이제 더 이상 필요하지 않습니다.  제거하려면 어떻게 해야 하나요?

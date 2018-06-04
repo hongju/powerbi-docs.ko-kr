@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245365"
 ---
 # <a name="manage-your-data-storage"></a>데이터 저장소 관리
 보고서 및 데이터 집합을 계속 게시할 수 있도록 개인 또는 앱 작업 영역, 데이터 저장소를 관리하는 방법에 대해 알아봅니다.

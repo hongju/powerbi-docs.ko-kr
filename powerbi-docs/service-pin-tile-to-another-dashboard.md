@@ -11,10 +11,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ed882a339e1ee7d53302dc33a7cedb1a95709b8b
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249117"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>하나의 대시보드에서 다른 대시보드에 타일 고정
 다른 대시보드에서 타일을 복사하는 것은 새 [대시보드 타일](service-dashboard-tiles.md)을 추가하는 방법 중 하나입니다. 질문 및 답변이나 보고서에서 이 각 타일을 클릭하면 만들어진 곳으로 링크가 연결됩니다. 

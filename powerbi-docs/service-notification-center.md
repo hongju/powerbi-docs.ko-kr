@@ -12,10 +12,11 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ca8b7ded6427f912933618ebdeaeeecea41b8681
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249942"
 ---
 # <a name="power-bi-notifications"></a>Power BI 알림
 알림 센터는 Power BI 환경에 관련된 정보의 순차적 피드입니다. 이를 열고 사용자와 공유된 새 대시보드, 그룹 공간에 대한 변경 사항, Power BI 이벤트 및 회의에 대한 정보, 설정한 경고 등에 대한 메시지를 확인합니다. [Power BI 서비스에서 경고를 설정](service-set-data-alerts.md)할 수 있으며 Power BI 모바일 앱에서도 설정할 수 있습니다.

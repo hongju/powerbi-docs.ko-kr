@@ -11,10 +11,11 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: e1161e5e461b3b32e549c69cfa7987c8f799e0fd
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245342"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Power BI 앱 작업 영역에 대해 OneDrive에 저장된 파일에 연결
 [Power BI에서 앱 작업 영역을 만들었으므로](service-create-distribute-apps.md) Power BI 앱 작업 영역에 대한 비즈니스용 OneDrive에 Excel, CSV, Power BI Desktop 파일을 저장할 수 있습니다. 비즈니스용 OneDrive에 저장한 파일은 계속 업데이트할 수 있고 이러한 파일을 기반으로 하는 Power BI 보고서와 대시보드에 업데이트 내용이 자동으로 반영됩니다. 

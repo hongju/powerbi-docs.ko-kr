@@ -12,10 +12,11 @@ ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310110"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>자습서: Power BI를 사용하여 GitHub 샘플에 연결
 이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI에서 대시보드와 보고서를 자동으로 만듭니다. Power BI 콘텐츠 공용 리포지토리(*repo*라고도 함)에 연결하여 다음 질문과 관련된 정보를 참조합니다. 얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여한 사람은 누구인가요? 어떤 요일이 가장 많이 기여하는가요? 그리고 다른 질문에도 답변합니다. 

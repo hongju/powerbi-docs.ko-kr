@@ -12,10 +12,11 @@ ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 2fc84d82e67b1c1e4a4b37655a13bd5415abf816
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292596"
 ---
 # <a name="kpi-visuals"></a>KPI 시각적 개체
 KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률의 정도를 알리는 시각적 신호입니다. KPI에 대한 자세한 내용은 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)를 참조하세요.

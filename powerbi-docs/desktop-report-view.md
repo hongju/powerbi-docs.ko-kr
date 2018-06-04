@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 5026de163aa870c042fe4c3a13b6ff3fbf8849f0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290801"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop의 보고서 뷰
 Power BI로 작업한 적이 있다면 데이터에 동적 관점과 통찰력을 제공하는 보고서를 얼마나 쉽게 만들 수 있는지 알고 있을 것입니다. Power BI Desktop에는 Power BI의 고급 기능도 있습니다. Power BI Desktop을 사용하여 고급 쿼리를 만들고, 여러 소스의 데이터를 매시업하고, 테이블 간에 관계를 만드는 등 많은 작업을 할 수 있습니다.

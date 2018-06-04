@@ -11,10 +11,11 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251670"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 서비스 보고서의 읽기용 보기 및 편집용 보기
 Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작용할 수 있는 읽기용 보기 및 편집용 보기라는 두 가지 모드가 있습니다. 읽기용 보기는 모든 사용자가 사용할 수 있으며 특히 데이터 *소비자*를 위해 설계되었지만 편집용 보기는 보고서 *작성자*와 소유자만 사용할 수 있습니다.

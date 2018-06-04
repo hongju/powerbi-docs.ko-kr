@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 58886dc1ae5490113d4d0ba9af00d16aefecbe71
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34287029"
 ---
 # <a name="relationship-view-in-power-bi-desktop"></a>Power BI Desktop의 관계 보기
 **관계 보기**는 모델의 모든 테이블, 열 및 관계를 표시합니다. 이는 모델이 여러 테이블 간의 복잡한 관계를 가지고 있는 경우 특히 유용합니다.

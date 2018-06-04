@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 223cd6442f8856a2e7a7cabe234e6539cd119d4a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291446"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop의 계산된 테이블 사용
 계산된 테이블을 사용하면 새 테이블을 모델에 추가할 수 있습니다. 그러나 값을 쿼리하고 데이터 소스에서 새 테이블의 열로 로드하는 대신 테이블 값을 정의하는 DAX(Data Analysis Expressions) 수식을 만듭니다. Power BI Desktop에서 보고서 뷰나 데이터 뷰의 새 테이블 기능을 사용하여 계산된 열이 생성됩니다.

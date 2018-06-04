@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: b7a49a04ed344d6977dba5ac739c0f0d41aca5b9
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34239133"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 있는 Excel 통합 문서로부터 만들어진 데이터 집합 새로 고침
 로컬 컴퓨터나 비즈니스 또는 SharePoint Online용 OneDrive와 같은 클라우드 저장소에 저장된 Excel 통합 문서를 가져올 수 있습니다. Excel 파일에 대한 클라우드 저장소 사용의 이점을 살펴보겠습니다. Excel 파일을 Power BI로 가져오는 방법에 대한 자세한 내용은 [Excel 통합 문서 파일에서 데이터 가져오기](service-excel-workbook-files.md)를 참조하세요.

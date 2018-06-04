@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: davidi
 ms.openlocfilehash: 7f1ec08fdd280d8c4c3e96367083e7bdb2d31e1b
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34230212"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop에서 보고서를 만들기 위한 팁과 힌트
 데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop *및* 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다. 

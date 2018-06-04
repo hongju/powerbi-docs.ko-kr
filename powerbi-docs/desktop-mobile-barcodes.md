@@ -10,10 +10,11 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: ae6c7ba3603136aeea3daa412595b9f42ed13d6a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286914"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>모바일 앱용 Power BI Desktop에서 바코드 태그
 Power BI Desktop에서는 열의 [데이터 범주](desktop-data-categorization.md)를 지정하여 보고서의 시각적 개체에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다. 또한 열의 범주를 **바코드**로 지정할 수도 있습니다. 사용자 또는 사용자의 동료가 iPhone의 [Power BI 앱이 있는 제품에서 바코드를 스캔](mobile-apps-scan-barcode-iphone.md)하면 해당 바코드를 포함하는 모든 보고서가 표시됩니다. 모바일 앱에서 보고서를 열면 Power BI가 보고서를 바코드와 관련된 데이터로 자동으로 필터링합니다.

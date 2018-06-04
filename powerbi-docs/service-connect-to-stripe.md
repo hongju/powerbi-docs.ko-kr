@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 533a8ae7f0030c70ed5212c890215a2b43d8e870
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34246600"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>Power BI로 Stripe에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 Stripe 데이터를 시각화하고 탐색합니다. Power BI Stripe 콘텐츠 팩은 고객, 요금, 이벤트 및 송장에 대한 데이터를 끌어옵니다. 이 데이터에는 가장 최근 이벤트 10,000개와 지난 30일 동안의 요금 5,000개가 포함됩니다. 콘텐츠는 사용자가 제어하는 일정에 따라 매일 한 번 자동으로 새로 고쳐집니다. 

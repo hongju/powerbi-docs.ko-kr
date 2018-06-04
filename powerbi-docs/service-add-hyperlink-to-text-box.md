@@ -12,10 +12,11 @@ ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e8a03cdd666f84b788d3bd90b8ebf2a84fc12a9b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294068"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>보고서에서 텍스트 상자에 하이퍼링크 추가
 텍스트 상자를 보고서에 추가하고, 보고서의 대시보드에 고정하고, 대시보드에 직접 추가할 수 있습니다. 텍스트 상자의 위치에 상관없이 하이퍼링크를 추가할 수 있습니다.  

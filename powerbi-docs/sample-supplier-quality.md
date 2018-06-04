@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: eb21eede666653e53af4ab012a712091b49be7d2
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 6de9c4cb792e08c609af977fac3ea3d09f737acf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722066"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI용 공급업체 품질 분석 샘플: 둘러보기
 
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/24/2018
 
 ## <a name="prerequisites"></a>필수 조건
 
- 이 샘플을 사용하려면 먼저 샘플을 [콘텐츠 팩](https://docs.microsoft.com/en-us/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample), [.pbix 파일](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) 또는 [Excel 통합 문서](http://go.microsoft.com/fwlink/?LinkId=529779)로 다운로드해야 합니다.
+ 이 샘플을 사용하려면 먼저 샘플을 [콘텐츠 팩](https://docs.microsoft.com/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample), [.pbix 파일](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) 또는 [Excel 통합 문서](http://go.microsoft.com/fwlink/?LinkId=529779)로 다운로드해야 합니다.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>이 샘플의 콘텐츠 팩 가져오기
 

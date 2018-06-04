@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 11073e7df57d4717e27fa73c6a5e1e315a9a8dcc
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34241139"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Power BI로 tyGraph에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 tyGraph 데이터를 보고 탐색합니다. tyGraph 계정에 연결하고 대시보드, 보고서 및 데이터 집합을 로드하여 시작합니다. 기본 콘텐츠에 활성 참여 측정(MAE 점수) 및 주요 참가자와 같은 정보가 포함됩니다. 가장 중요한 정보를 강조 표시하려면 추가로 사용자 지정합니다.  설정한 일정에 따라 데이터가 자동으로 새로 고쳐집니다.

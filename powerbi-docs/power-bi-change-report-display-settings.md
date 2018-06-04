@@ -11,10 +11,11 @@ ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244564"
 ---
 # <a name="change-the-size-of-a-report-page"></a>보고서 페이지의 크기 변경
 [이전 문서 및 비디오](power-bi-report-display-settings.md)에서는 Power BI 보고서에서 페이지 표시를 제어하는 두 가지 방법으로 **보기** 및 **페이지 크기**에 대해 알아보았습니다. 페이지 보기 및 페이지 크기는 Power BI 서비스와 Power BI Desktop 모두에서 사용할 수 있고 모양과 기능이 거의 동일하지만, 이 자습서에서는 Power BI 서비스를 사용하겠습니다.

@@ -11,10 +11,11 @@ ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a6e683318c00a800f69334f90ce3a71d74489030
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290525"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>모든 크기의 Power BI 시각적 개체 최적화
 기본적으로 새 보고서를 만들 때 시각적 개체는 ‘반응형’이므로, 화면 크기와 관계없이 최대 데이터양과 인사이트를 표시하도록 동적으로 변경됩니다. 이전 보고서의 경우에도 동적으로 크기를 조정하도록 시각적 개체를 설정할 수 있습니다.

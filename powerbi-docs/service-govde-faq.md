@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 909d524416b04654dc6f511a71b675381ec74e3a
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310271"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>독일 클라우드 고객을 위한 Power BI 관련 질문과 대답
 **Power BI 서비스**에는 EU/EFTA(유럽 연합/유럽 자유 무역 계약) 고객을 위해 제공되는 버전이 있는데, 주로 MCD(Microsoft Cloud Deutschland)라고 부릅니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 EU/EFTA 고객과 관련된 것이며 **Power BI 서비스** 상용 버전 또는 정부 고객에게 제공되는 Power BI 서비스와는 별개입니다.

@@ -1,29 +1,21 @@
 ---
 title: 인증된 Power BI 사용자 지정 시각화
 description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스. 이미 인증된 사용자 지정 시각적 개체 목록.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 1a1484b14cf20ea428bdc31aa1513f43a85f3739
-ms.sourcegitcommit: c6e1cd09570efc355f4d45a2f87be562e23f3fc3
+ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
-ms.locfileid: "32345536"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34297012"
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?

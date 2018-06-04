@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d3074602af73d937e64a9155d3d197b91b1b1ae8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34246912"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Power BI로 Xero에 연결
 Xero는 중소기업을 위해 특별히 설계된 사용이 용이한 온라인 계정 소프트웨어입니다. 이 Power BI 콘텐츠 팩으로 Xero 재무를 기반으로 하여 매력적인 시각화 개체를 만들어 보세요. 기본 대시보드에는 현금 보유 현황, 수익과 지출 비교, 손익 추세, 대금 결제 기간, 투자 수익률 등 다양한 중소기업 메트릭이 포함됩니다.

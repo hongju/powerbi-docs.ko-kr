@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 02/20/2018
 ms.author: maghan
 ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290640"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 서비스 콘텐츠 팩 프로그램의 개요
 콘텐츠 팩은 사용자가 원본에서 즉시 정보를 얻을 수 있도록 해주는 기본 제공 콘텐츠 집합입니다. 일반적으로 콘텐츠 팩은 역할, 도메인, 워크플로에 대한 정보를 제공하는 특정 비즈니스 시나리오에 초점을 둡니다.

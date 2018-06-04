@@ -11,10 +11,11 @@ ms.date: 12/18/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 27b2eb90a07d3112b771fd3ee23cc86353a46991
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242252"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery를 사용한 Azure SQL Database
 Azure SQL Database에 직접 연결하고 라이브 데이터를 사용하는 보고서를 작성하는 방법에 대해 알아보세요. Power BI가 아닌 소스에서 데이터를 유지할 수 있습니다.

@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 264dc3ee1daafd077a6e9a56f62eb86c6a3f528a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291377"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop의 데이터 보기
 **데이터 뷰**는 Power BI Desktop 모델의 데이터를 검사, 탐색 및 이해하는 데 도움이 됩니다. **쿼리 편집기**에서 테이블, 열 및 데이터를 보는 것과는 차이가 있습니다. 데이터 뷰에서는 모델에 데이터를 로드한 *후의* 데이터를 보게 됩니다.

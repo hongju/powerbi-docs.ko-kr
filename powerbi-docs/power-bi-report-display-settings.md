@@ -12,10 +12,11 @@ ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242134"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 보고서의 페이지 표시 설정
 보고서 레이아웃 픽셀을 완벽하게 유지하는 것이 어렵다는 것을 알고 있습니다. 화면에 표시된 보고서의 가로 세로 비율과 크기는 보는 사람마다 다르기 때문에 어려울 때도 있습니다 
