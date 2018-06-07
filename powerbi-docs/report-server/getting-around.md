@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: f739104bc9b67e51792e6e76da08b9e6dbb7cef3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293240"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721711"
 ---
 # <a name="manage-content-in-the-web-portal"></a>웹 포털에서 콘텐츠 관리 
 Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지가 매겨진 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치입니다.
@@ -67,9 +67,7 @@ Power BI Report Server에서는 웹 포털에 저장한 항목을 세부적으�
 [웹 포털에서 구독 작업](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)에 대한 자세한 내용을 알아봅니다.
 
 ## <a name="next-steps"></a>다음 단계
-[사용자 안내서](user-handbook-overview.md)  
-[페이지를 매긴 보고서](quickstart-create-paginated-report.md)  
-[Power BI 보고서](quickstart-create-powerbi-report.md)
+[Power BI Report Server란?](get-started.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

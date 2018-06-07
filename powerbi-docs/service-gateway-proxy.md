@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ab5afb36458d7e1b5271a356bb1532ba77de6408
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722661"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이에 대한 프록시 설정 구성
 작업 환경은 인터넷에 액세스하도록 프록시를 통과해야 합니다. 온-프레미스 데이터 게이트웨이가 서비스에 연결되지 못하도록 할 수 있습니다.
@@ -50,6 +51,19 @@ superuser.com의 다음 게시물은 네트워크에 프록시가 있는지 확�
     </system.net>
 
 기본 구성은 Windows 인증과 함께 작동합니다. 프록시가 다른 형식의 인증을 사용하는 경우 설정을 변경해야 합니다. 확실하지 않은 경우 네트워크 관리자에게 문의해야 합니다.
+
+기본 자격 증명을 사용하는 것 외에도 <proxy> 요소를 추가하여 프록시 서버 설정을 자세히 정의할 수 있습니다. 예를 들어 온-프레미스 데이터 게이트웨이가 bypassonlocal 매개 변수를 false로 설정하여 로컬 리소스에 대해서도 프록시를 사용하도록 지정할 수 있습니다. 그러면 프록시 로그 파일의 온-프레미스 데이터 게이트웨이에서 발생한 모든 https 요청을 추적하려는 경우 상황의 문제를 해결하는 데 도움이 됩니다. 다음 샘플 구성은 모든 IP 주소가 192.168.1.10인 특정 프록시를 통해 요청이 이동하도록 지정합니다.
+
+    <system.net>
+        <defaultProxy useDefaultCredentials="true">
+            <proxy  
+                autoDetect="false"  
+                proxyaddress="http://192.168.1.10:3128"  
+                bypassonlocal="false"  
+                usesystemdefault="true"
+            />  
+        </defaultProxy>
+    </system.net>
 
 .NET 구성 파일에 대한 프록시 요소의 구성에 대해 자세히 알아보려면 [defaultProxy 요소(네트워크 설정)](https://msdn.microsoft.com/library/kd3cf2ex.aspx)를 참조하세요.
 

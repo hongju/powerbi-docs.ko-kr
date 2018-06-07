@@ -8,14 +8,15 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 19b7bf6105a2d178d51d8068f0226160b8a28467
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 8be938b1a75f754b7c23a57a5a0ccfdb4e60032b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561888"
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Power BI를 사용하여 데이터 정보를 자동으로 생성
 새 데이터 집합이 있고 어디서 시작해야 할지가 확실하지 않은 경우  빠르게 대시보드를 만들어야 하는 경우  놓쳤을 수 있는 정보를 찾으려는 경우
@@ -23,7 +24,6 @@ ms.lasthandoff: 05/17/2018
 신속한 정보 활용을 실행하여 데이터를 기준으로 흥미로운 대화형 시각화를 생성합니다. 신속한 정보 활용은 데이터 집합 전체에 대해 실행하거나(신속한 정보 활용) 특정 대시보드 타일에 대해 실행할 수 있습니다(지정된 범위의 신속한 정보 활용). 정보 활용에 대해서도 정보 활용을 실행할 수 있습니다.
 
 > **참고**: 정보 활용은 DirectQuery에서 작동되지 않고 Power BI에 업로드된 데이터에서만 작동합니다.
-> 
 > 
 
 정보 활용 기능은 Microsoft Research와의 연계를 통해 개발되는 [고급 분석 알고리즘 집합](service-insight-types.md)의 성장을 기반으로 구축됩니다. 당사는 더 많은 사람들이 새롭고 직관적인 방식으로 각자 데이터의 정보를 활용할 수 있도록 하기 위해 노력할 것입니다.

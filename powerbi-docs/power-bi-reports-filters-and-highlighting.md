@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 855ed26172fa0f157787ba4cfdc3e7e6ab4ff4ba
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7239351a7a9486aeeab53e4ab7fc5c3c3e877ff6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561451"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>필터 및 Power BI 보고서에서 강조 표시 정보
 ***필터***는 사용자가 집중하려는 데이터를 제외한 나머지를 모두 제거합니다.  ***강조*** 는 데이터를 제거하지 않고 볼 수 있는 데이터의 하위 집합을 강조 표시하므로 필터링이 아닙니다. 강조되지 않은 데이터는 볼 수 있지만 흐리게 표시됩니다.
@@ -77,7 +78,7 @@ ms.lasthandoff: 05/17/2018
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
-보고서를 종료하면 변경 내용이 저장됩니다. 필터링의 실행을 취소하려면 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다.
+보고서를 종료하면 변경 내용이 저장됩니다. 필터링 실행을 취소하고 보고서 작성자가 설정한 기본 필터링, 분할, 드릴 및 정렬로 돌아가려면 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다.
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 

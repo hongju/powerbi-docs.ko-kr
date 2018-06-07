@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: c4429c33f52954852f430e582064c813b11555b7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a9173ba6b4689a6cc71eba679f9bcc0c54de048c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481788"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI 보고서를 사용하도록 Kerberos 구성
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -214,7 +215,7 @@ Active Directory 사용자 및 컴퓨터 내에서 Report Server 서비스 계�
 대부분의 경우 이 구성이 Kerberos를 사용하여 작동하는 반면 사용자 환경에 따라 다른 구성이 있을 수 있습니다. 보고서가 로드되지 않은 경우 도메인 관리자에게 알려서 추가로 조사하거나 지원을 문의합니다.
 
 ## <a name="next-steps"></a>다음 단계
-[관리자 안내서](admin-handbook-overview.md)  
+[관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

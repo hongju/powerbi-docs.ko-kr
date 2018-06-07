@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: e54ddf59221b472bbac4e8665e036529ba475d9c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 82b42f97a92a52203b80d31abef4aeee456d6d4e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482041"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Report Server 업그레이드
 Power BI Report Server를 업그레이드하는 방법을 알아봅니다.
@@ -66,7 +67,7 @@ Power BI Report Server를 간단히 업그레이드할 수 있습니다. 몇 가
 보고서 서버를 업그레이드한 후, 모든 Power BI 보고서 작성자가 서버와 일치하는 Power BI Report Server용으로 최적화된 Power BI Desktop 버전으로 업그레이드되었는지 확인하려고 합니다.
 
 ## <a name="next-steps"></a>다음 단계
-[관리자 안내서](admin-handbook-overview.md)  
+[관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server에 최적화된 Power BI Desktop 설치](install-powerbi-desktop.md)  
 [Reporting Services 설치 확인](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [Report Server 서비스 계정 구성](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  

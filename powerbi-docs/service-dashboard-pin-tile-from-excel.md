@@ -8,14 +8,15 @@ featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d6bb6bbed1d5423acbcf53ac50717debdfea4eaa
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584073"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel에서 Power BI 대시보드에 타일 고정
 Excel 통합 문서에서 타일을 고정하려면 해당 통합 문서를 Power BI 서비스(app.powerbi.com)에 연결합니다. 통합 문서를 기본적으로 연결하면 해당 통합 문서의 연결된 읽기 전용 버전을 Power BI 서비스로 가져오고 범위를 대시 보드에 고정할 수 있습니다. 전체 워크시트를 대시보드에 고정할 수도 있습니다.  
@@ -65,7 +66,7 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 그러나 일부 
     ![대시보드에 고정 대화 상자](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. **대시보드로 이동**을 선택합니다. 여기에서 고정된 시각화의 [이름을 바꾸거나 크기를 조정하거나 연결하고 이동](service-dashboard-edit-tile.md)할 수 있습니다. 기본적으로 고정된 타일을 선택하면 Power BI에서 통합 문서가 열립니다.
 
-## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>대시보드에 전체 표 또는 피벗 차트 고정
+## <a name="pin-an-entire-table-or-pivottable-to-a-dashboard"></a>대시보드에 전체 표 또는 피벗 테이블 고정
 셀의 범위를 선택하는 대신 위의 단계를 수행하여 전체 테이블 또는 피벗 테이블을 선택합니다.
 
 테이블을 고정하려면 테이블의 전체 범위를 선택하고 헤더를 포함해야 합니다.  피벗 테이블을 고정하려면 필터(사용된 경우)를 포함하여 피벗 테이블의 보이는 모든 부분을 포함해야 합니다.

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 891e9d35be271f6479a832b234a69132736f09a5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721573"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>새로 고침 시나리오 문제 해결
 다음에서 Power BI 서비스에서 데이터를 새로 고침할 때 직면할 수 있는 다양한 시나리오에 대한 정보를 찾을 수 있습니다.
@@ -56,6 +57,14 @@ Microsoft는 데이터 로드 프로세스에서 토큰을 새로 고치고 계�
 
 ## <a name="scheduled-refresh-timeout"></a>예약된 새로 고침 제한 시간
 2시간 뒤에 가져온 데이터 집합 제한 시간에 예정된 새로 고침입니다. 이 제한 시간은 **프리미엄** 작업 영역에서 데이터 집합에 대해 5시간으로 증가됩니다. 이 제한이 발생하는 경우 데이터 집합의 크기 또는 복잡성을 줄이거나 데이터 집합을 더 작은 조각으로 나누는 것이 좋습니다.
+
+## <a name="access-to-the-resource-is-forbidden"></a>리소스에 대한 액세스가 금지되었습니다.  
+이 오류는 캐시된 자격 증명이 만료되는 경우에 발생할 수 있습니다. Power BI에 로그인하고 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true으로 이동하여 인터넷 브라우저 캐시를 지웁니다. 이렇게 하면 자격 증명의 업데이트를 적용합니다. 
+    
+    
+## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>암호 변경 또는 만료된 자격 증명으로 인한 데이터 새로 고침 오류 
+데이터 새로 고침은 캐시된 자격 증명이 만료되어 실패할 수도 있습니다. Power BI에 로그인하고 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true으로 이동하여 인터넷 브라우저 캐시를 지웁니다. 이렇게 하면 자격 증명의 업데이트를 적용합니다.
+
 
 ## <a name="next-steps"></a>다음 단계
 [데이터 새로 고침](refresh-data.md)  

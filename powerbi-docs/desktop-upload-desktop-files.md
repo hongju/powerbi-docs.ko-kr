@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 05/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e588387245bbf57a614bb099a92a87a156654a3c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d513c68dba27bb6e37a158eaad4059b24bc8db6a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481995"
 ---
 # <a name="publish-from-power-bi-desktop"></a>Power BI Desktop에서 게시
 **Power BI Desktop** 파일을 **Power BI 서비스**에 게시하면 모델의 데이터 및 **보고서** 보기에서 만든 보고서가 Power BI 작업 영역에 게시됩니다. 작업 영역 탐색기에서 동일한 이름의 새 데이터 집합과 모든 보고서를 볼 수 있습니다.
@@ -22,22 +23,28 @@ ms.lasthandoff: 05/17/2018
 **Power BI Desktop**에서 게시하는 것은 Power BI의 **데이터 가져오기**를 사용하여 연결하고 **Power BI Desktop** 파일을 업로드하는 것과 동일한 효과를 가집니다.
 
 > [!NOTE]
-> Power BI에서 수행한 변경 내용(예: 보고서의 시각화 추가, 삭제 또는 변경)은 원래 **Power BI Desktop** 파일에 저장되지 않습니다.
+> Power BI의 보고서에서 수행한 변경 내용(예: 보고서의 시각화 추가, 삭제 또는 변경)은 원래 **Power BI Desktop** 파일에 다시 저장되지 않습니다.
 > 
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Power BI Desktop 데이터 집합 및 보고서를 게시하려면
 1. Power BI Desktop에서 \> **파일** \> **게시** \> **Power BI에 게시** 또는 리본 메뉴에서 **게시**를 클릭합니다.  
-   ![](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
-2. Power BI에 로그인합니다.
 
-완료되면 Power BI 사이트에서 보고서를 열기 위한 링크를 얻게 됩니다.  
-    ![](media/desktop-upload-desktop-files/pbid_publish_success.png)
+   ![게시 단추](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+
+2. Power BI에 로그인합니다.
+3. 대상을 선택합니다.
+
+   ![게시 대상 선택](media/desktop-upload-desktop-files/pbid_publish_select_destination.png)
+
+작업이 완료되면 보고서에 대한 링크를 수신합니다. 링크를 클릭하여 Power BI 사이트에서 보고서를 엽니다.
+
+![게시 성공 대화 상자](media/desktop-upload-desktop-files/pbid_publish_success.png)
 
 ## <a name="re-publish-or-replace-a-dataset-published-from-power-bi-desktop"></a>Power BI Desktop에서 게시된 데이터 집합의 다시 게시 또는 대체
 **Power BI Desktop** 파일을 게시할 때는 **Power BI Desktop**에서 만든 데이터 집합 및 모든 보고서가 Power BI 사이트에 업로드됩니다. **Power BI Desktop** 파일을 다시 게시할 때는 Power BI 사이트의 데이터 집합이 **Power BI Desktop** 파일에서 업데이트된 데이터 집합으로 대체됩니다.
 
-매우 단순하지만, 몇 가지 알아둘 사항이 있습니다.
+매우 단순하지만 몇 가지 알아둘 사항이 있습니다.
 
 * 이미 Power BI에 **Power BI Desktop** 파일과 동일한 이름의 데이터 집합이 둘 이상 있으면 게시에 실패할 수 있습니다. Power BI에 동일한 이름의 데이터 집합이 하나뿐인지 확인하십시오. 파일의 이름을 변경하고 파일과 동일한 이름의 새 데이터 집합을 게시, 생성할 수도 있습니다.
 * 열 또는 측정값의 이름을 변경하거나 삭제하는 경우, Power BI에서 해당 필드에 갖고 있던 모든 시각화가 손상될 수 있습니다. 

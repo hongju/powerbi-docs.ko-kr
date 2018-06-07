@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297357"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721504"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI의 슬라이서
 보고서를 읽는 사람이 전체 판매액 메트릭을 보고 개별 구역 관리자 및 다른 시간 프레임에 대한 성과를 강조 표시할 수 있도록 하려 합니다. 별도의 보고서 또는 비교 차트를 만들거나 슬라이서를 사용할 수 있습니다. 슬라이서는 보고서의 다른 시각화에 표시되는 데이터 집합의 부분을 좁히는 대체 필터링 방법입니다. 
@@ -43,6 +43,13 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
 ## <a name="create-slicers"></a>슬라이서 만들기
 
 새 슬라이서를 만들려면 슬라이서 아이콘을 선택한 다음, 필터링할 데이터 필드를 선택하거나(또는 **시각화** 창에 있는 **필드** 상자로 끌어 놓거나), 먼저 데이터 필드를 선택하거나 끌어 놓아 시각화를 만든 다음, 슬라이서 아이콘을 선택하여 시각화를 슬라이서를 전환합니다. 데이터 형식에 따라 다양한 효과 및 옵션이 포함된 서로 다른 형식의 슬라이서가 생성됩니다. 
+
+보고서를 처음으로 변경한 경우 **기본값으로 다시 설정**의 단추가 켜집니다. 원래 보고서 설정을 변경했다는 미리 알림입니다. 보고서에서 벗어날 경우 해당 변경 내용은 저장됩니다(유지). 보고서로 돌아가면 보고서를 다시 조각화할 필요가 없습니다.  그러나 보고서를 작성자의 기본 설정으로 다시 설정하려는 경우 위의 메뉴 모음에서 **기본값으로 다시 설정** 단추를 선택합니다.
+
+![기본 단추로 되돌리기](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+
+> [!NOTE]
+> **기본값으로 다시 설정** 단추가 비활성 상태로 유지되면 보고서 작성자가 해당 보고서에 대해 기능을 비활성화하거나 보고서에 사용자 지정 시각적 개체가 포함되었음을 의미합니다. 단순히 단추를 마우스로 가리키면 설명의 도구 설명을 읽을 수 있습니다. 
 
 **구역 관리자별로 데이터를 필터링하는 새 슬라이서를 만들려면**
 

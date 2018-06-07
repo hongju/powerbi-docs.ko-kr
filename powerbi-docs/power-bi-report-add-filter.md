@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561704"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Power BI 서비스 보고서에 필터 추가(편집용 보기)
 > [!TIP]
@@ -28,7 +29,7 @@ ms.lasthandoff: 05/17/2018
 보고서는 [읽기용 보기](service-reading-view-and-editing-view.md)와 [편집용 보기](service-interact-with-a-report-in-editing-view.md)의 두 가지 방식으로 조작할 수 있습니다.  또한 사용할 수 있는 필터링 기능은 현재 모드에 따라 달라집니다.
 
 * 편집용 보기에서는 보고서, 페이지 및 시각적 개체 필터를 추가할 수 있습니다. 보고서를 저장하면 필터가 함께 저장됩니다. 읽기용 보기에서 보고서를 보는 사람들은 추가된 필터로 상호 작용할 수 있습니다.
-* 읽기용 보기에서는 보고서에 이미 있는 보고서, 드릴스루, 페이지 및 시각적 필터를 사용하여 상호 작용할 수 있지만 새로운 필터를 추가할 수 없습니다. 모바일 앱에서 보고서를 확인하는 경우에도 필터 창의 변경 내용을 보고서와 함께 저장합니다.  
+* 읽기용 보기에서는 보고서에 이미 있는 보고서, 드릴스루, 페이지 및 시각적 필터를 사용하여 상호 작용할 수 있지만 새로운 필터를 추가할 수 없습니다. 하지만 모바일 앱에서 보고서를 확인하는 경우 및 보고서를 나갔다가 나중에 돌아오는 경우에도 필터 창의 변경 내용을 보고서와 함께 저장합니다.  
 
 > [!NOTE]
 > 이 문서는 보고서 **편집용 보기**에서 필터를 만드는 방법에 대해 설명합니다.  읽기용 보기에서 필터에 대한 자세한 내용은 [보고서 읽기용 보기에서 필터로 상호 작용](service-reading-view-and-editing-view.md)을 참조하세요.
@@ -44,7 +45,11 @@ ms.lasthandoff: 05/17/2018
 - **드릴스루 필터**는 보고서의 단일 엔터티에 적용됩니다.    
 - **보고서 필터**는 보고서의 모든 페이지에 적용됩니다.    
 
-    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+    ![읽기용 보기의 필터 창](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+
+필터가 *유지*되기 때문에 보고서에서 다른 곳으로 이동할 때 Power BI에는 필터, 슬라이서 및 기타 데이터 보기 변경 내용이 그대로 유지됩니다. 따라서 보고서로 돌아 올 때 떠난 위치를 다시 선택할 수 있습니다. 필터 변경 사항을 유지하지 않으려면 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다.
+
+![영구 필터 단추](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>특정 시각화에 필터 추가(시각적 필터)
 다음 2가지 방법으로 수행할 수 있습니다. 
@@ -135,12 +140,13 @@ Power BI 서비스 및 Power BI Desktop의 드릴스루를 사용하여 공급 �
 1. 뒤로 화살표를 선택하여 이전 보고서 페이지로 돌아갑니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>시각적 수준 필터 및 페이지 수준 필터에서 서로 다른 결과를 반환할 수 있는 이유
-시각적 수준 필터를 추가하는 경우 Power BI에서 집계된 결과를 필터링합니다.  기본 집계는 Sum이지만 [집계 형식을 변경](service-aggregates.md)할 수 있습니다.  
 
-페이지 수준 필터를 추가하는 경우 Power BI에서 집계하지 않고 필터링합니다.  이는 한 페이지에 각각 다른 집계 형식을 활용할 수 있는 많은 시각적 개체가 포함될 수 있기 때문입니다.  따라서 각 데이터 행에 필터가 적용됩니다.
+- 시각적 수준 필터 및 페이지 수준 필터에서 서로 다른 결과를 반환할 수 있는 경우가 있습니다.  예를 들어 시각적 수준 필터를 추가하는 경우 Power BI에서 집계된 결과를 필터링합니다.  기본 집계는 Sum이지만 [집계 형식을 변경](service-aggregates.md)할 수 있습니다.  
 
-필드 창이 표시되지 않으면 보고서 [편집용 보기](service-interact-with-a-report-in-editing-view.md)에 있는지 확인하십시오.
+    그러면 페이지 수준 필터를 추가하는 경우 Power BI에서 집계하지 않고 필터링합니다.  이는 한 페이지에 각각 다른 집계 형식을 활용할 수 있는 많은 시각적 개체가 포함될 수 있기 때문입니다.  따라서 각 데이터 행에 필터가 적용됩니다.
+
+- 필드 창이 표시되지 않으면 보고서 [편집용 보기](service-interact-with-a-report-in-editing-view.md)에 있는지 확인하십시오.    
+- 필터를 많이 변경하고 보고서 작성자 기본 설정으로 되돌리려는 경우 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
  [보고서 필터를 사용하는 방법](power-bi-how-to-report-filter.md)

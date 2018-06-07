@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 5bd38c7973a4820b98e6591a12a8950987759b93
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482179"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -21,6 +22,12 @@ ms.lasthandoff: 05/17/2018
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](service-whats-new.md)  
+
+## <a name="may-2018"></a>2018년 5월
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 구성
+
+이제 IT 관리자는 MDM 도구를 사용하여 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한을 구성할 수 있습니다. 자세한 내용은 [원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한 구성](report-server/configure-powerbi-mobile-apps-remote.md)을 참조하세요.
 
 ## <a name="april-2018"></a>2018년 4월
 

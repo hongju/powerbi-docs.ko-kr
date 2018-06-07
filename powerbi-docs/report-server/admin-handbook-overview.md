@@ -1,32 +1,32 @@
 ---
 title: 관리 개요, Power BI Report Server
-description: 이 문서는 Power BI, 모바일, 페이지가 매겨진 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리 개요입니다.
+description: 이 아티클은 Power BI, 모바일 및 페이지가 매겨진 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리 개요입니다.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 228402dd2137f0cf2f3d480ff1acee10d2f28c51
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296391"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721918"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>관리 개요, Power BI Report Server
-이 문서는 Power BI, 모바일, 페이지가 매겨진 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리 개요입니다. 이 문서에서는 Power BI Report Server를 계획, 배포 및 관리하는 개념을 소개하고 추가 정보 링크를 제공합니다.
+이 아티클은 Power BI, 모바일 및 페이지가 매겨진 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리 개요입니다. 이 문서에서는 Power BI Report Server를 계획, 배포 및 관리하는 개념을 소개하고 추가 정보 링크를 제공합니다.
 
 ![](media/admin-handbook-overview/admin-handbook.png)
 
 
 
 ## <a name="installing-and-migration"></a>설치 및 마이그레이션
-사용하기 시작하려면 Power BI Report Server를 설치해야 합니다. 이 작업을 처리할 수 있는 정보가 있습니다.
+사용하기 시작하려면 Power BI Report Server를 설치해야 합니다. 이 작업을 처리하는 방법을 설명하는 아티클이 있습니다.
 
-Power BI Report Server를 설치, 업그레이드 또는 마이그레이션하기 시작하기 전에 Report Server에 대한 [시스템 요구 사항](system-requirements.md)을 잠시 살펴봅니다.
+Power BI Report Server를 설치, 업그레이드 또는 마이그레이션하도록 시작하기 전에 보고서 서버에 대한 [시스템 요구 사항](system-requirements.md)을 살펴봅니다.
 
 ### <a name="installing"></a>설치
 새 Power BI Report Server를 배포하는 경우 다음 문서를 사용하면 도움이 될 수 있습니다. 
@@ -34,7 +34,7 @@ Power BI Report Server를 설치, 업그레이드 또는 마이그레이션하�
 [Power BI Report Server 설치](install-report-server.md)
 
 ### <a name="migration"></a>마이그레이션
-SQL Server Reporting Services를 업그레이드할 수 없습니다. Power BI Report Server를 만들려는 기존 SQL Server Reporting Services 인스턴스가 있는 경우 마이그레이션해야 합니다. 마이그레이션을 수행하려는 다른 원인도 있습니다. 자세한 내용은 마이그레이션 문서를 검토합니다.
+SQL Server Reporting Services를 현재 위치 업그레이드할 수 없습니다. Power BI Report Server를 만들려는 기존 SQL Server Reporting Services 인스턴스가 있는 경우 마이그레이션해야 합니다. 다른 이유로 마이그레이션을 수행할 수도 있습니다. 자세한 내용은 마이그레이션 문서를 검토합니다.
 
 [Report Server 설치 마이그레이션](migrate-report-server.md)
 

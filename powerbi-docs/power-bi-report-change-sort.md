@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b70a9ef7774d1ba49bc5bf825a5c1cde47197f2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561796"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 값을 기준으로 대부분의 시각화를 알파벳순으로 정렬할 수 있습니다. 예를 들어 이 차트는 매장 이름을 기준으로 정렬되었습니다.
@@ -29,6 +30,13 @@ Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 
    ![](media/power-bi-report-change-sort/sortby.gif)
 
    **참고**: 일부 시각화는 정렬되지 않습니다.  예를 들어 트리맵, 맵, 등치 지역도, 분산형, Guage, 카드, Multi Row Card, 폭포 시각화는 정렬할 수 없습니다.
+
+## <a name="saving-changes-you-make-to-sort-order"></a>정렬 순서에 적용한 변경 내용 저장
+Power BI 보고서에서는 필터, 슬라이서, 정렬 및 기타 데이터 보기 변경 사항을 유지합니다. 따라서 보고서에서 다른 곳으로 이동하고 나중에 돌아오면 변경 내용이 저장됩니다.  보고서 작성자 설정에 대한 변경 내용을 다시 되돌리려면 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다. 
+
+![영구 정렬](media/power-bi-report-change-sort/power-bi-reset-to-default.png)
+
+그러나 **기본값으로 다시 설정** 단추가 회색으로 표시되면 보고서 작성자가 변경 내용을 저장하는 기능을 비활성화했다는 의미입니다.
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>다른 조건을 사용하여 정렬

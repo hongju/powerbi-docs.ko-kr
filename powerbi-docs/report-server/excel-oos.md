@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 8a002105fcb9f5dc07197aac5722a57c7bba14b6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481903"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>OOS(Office Online Server)를 사용하여 Excel 통합 문서를 호스트하도록 보고서 서버 구성
 웹 포털에서 Power BI 보고서를 보는 것 외에도 Power BI Report Server에서는 OOS([Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview))를 사용하여 Excel 통합 문서를 호스트할 수 있습니다. 보고서 서버가 셀프 서비스 Microsoft BI 콘텐츠를 게시하고 볼 수 있는 단일 위치가 됩니다.
@@ -167,7 +168,7 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 * 통합 문서로 읽기 전용 기능만 사용할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[관리자 안내서](admin-handbook-overview.md)  
+[관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)

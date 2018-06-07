@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721182"
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop에서 보고서 테마 사용(미리 보기)
 **보고서 테마**를 사용하여 전체 보고서에 회사 색, 계절 색 지정 등의 색 테마를 적용하거나 적용하려는 모든 기타 색 테마를 적용할 수 있습니다. **보고서 테마**를 적용하는 경우 보고서의 모든 시각적 개체에서는 선택한 테마 색을 사용합니다(몇 가지 예외 적용, 이 문서의 뒷부분에서 설명).
@@ -54,7 +55,7 @@ JSON 파일에는 다음과 같은 필수 줄이 있습니다.
 
 * **name** - 필수 필드인 유일한 테마 이름입니다.
 * **dataColors** - Power BI Desktop 시각적 개체에서 데이터에 사용하는 16진수 색 코드의 목록입니다. 목록에는 색이 원하는 수 만큼 포함될 수 있습니다.
-* **background**, **foreground** 및 **tableAccent** - 이러한 값은 **테이블** 및 **행렬** 시각적 개체에서 사용되어야 하는 색입니다. 적용되는 특정 테이블 또는 행렬 스타일에 따라 이러한 색을 사용하는 방법이 달라집니다. **테이블** 및 **행렬** 시각적 개체에는 기본적으로 이러한 스타일이 적용됩니다.
+* **background**, **foreground** 및 **tableAccent** - 이러한 값은 다양한 유형의 시각적 개체에 적용되어야 하는 색입니다. **foreground**은 텍스트 상자 텍스트, KPI 목표 텍스트, 다중 행 카드 텍스트, 카드 값 텍스트, 계기 콜아웃 텍스트, 수직 슬라이서 요소 텍스트 및 **테이블** 및 **행렬** 합계 및 값 텍스트에 적용됩니다. **background**는 단추 채우기 및 콤보 차트 레이블 배경에 적용됩니다. 적용되는 특정 시각적 개체 스타일에 따라 이러한 색을 사용하는 방법이 달라집니다. **테이블** 및 **행렬** 시각적 개체에는 기본적으로 이러한 스타일이 적용됩니다.
 
 스타일을 **테이블** 또는 **매트릭스** 시각적 개체에 적용하는 경우 **시각화** 창에서 시각적 개체를 선택하고 **형식** 섹션을 선택한 다음 **행렬 스타일**을 확장하고 **스타일** 드롭다운 목록에서 스타일을 선택합니다.
 

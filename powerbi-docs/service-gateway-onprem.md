@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21ceec0ea522bd45a937096bcd778f2695c1edc3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722819"
 ---
 # <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
 
@@ -93,6 +94,11 @@ ms.lasthandoff: 05/17/2018
 
 현재 테넌트 관리자가 다른 사용자가 설치 및 구성한 모든 게이트웨이를 관리할 수 있는 단일 장소가 없습니다.  테넌트 관리자인 경우 설치한 모든 게이트웨이에 자신을 관리자로 추가하도록 조직의 사용자에게 요청하는 것이 좋습니다. 이렇게 하면 게이트웨이 설정 페이지 또는 [PowerShell 명령](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)을 통해 조직의 모든 게이트웨이를 관리할 수 있습니다. 
 
+## <a name="enabling-outbound-azure-connections"></a>아웃바운드 Azure 연결 사용 
+온-프레미스 데이터 게이트웨이는 클라우드 연결에 대해 Azure Service Bus를 사용하고 해당하는 연결된 Azure 지역에 대한 아웃바운드 연결을 설정합니다. 기본적으로 여기가 Power BI 테넌트의 위치입니다. 내 [Power BI 테넌트](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)는 어디에 있습니까?를 참조하세요.
+방화벽이 아웃바운드 연결을 차단하는 경우 온-프레미스 데이터 게이트웨이에서 해당하는 연결된 Azure 지역으로 아웃바운드 연결을 허용하도록 방화벽을 구성해야 합니다. 각 Azure 데이터 센터의 IP 주소 범위에 대한 세부 정보는 [Microsoft Azure 데이터 센터 IP 범위](https://www.microsoft.com/en-us/download/details.aspx?id=41653)를 참조하세요.
+> [!NOTE]
+> IP 주소 범위는 시간이 지나도 변경될 수 있습니다. 따라서 정기적으로 최신 정보를 다운로드해야 합니다. 
 
 ## <a name="troubleshooting"></a>문제 해결
 게이트웨이를 설치하고 구성하는 데 문제가 있는 경우 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)을 참조하세요. 방화벽에 문제가 있다고 생각되는 경우 문제 해결 문서의 [방화벽 또는 프록시](service-gateway-onprem-tshoot.md#firewall-or-proxy) 섹션을 참조하세요.

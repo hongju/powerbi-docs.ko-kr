@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 23eea014ca4554a2df676cf1fe0be54c2b69d15a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b340ba2f2798c518d1705c03f7ec526a43bc019d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721780"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI Report Server에 대한 브라우저 지원
 Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다.
@@ -111,7 +112,7 @@ Report Viewer 웹 서버 컨트롤은 ASP.NET 웹 응용 프로그램에서 보�
   **(+)** 최신 공개 릴리스 버전
 
 ## <a name="next-steps"></a>다음 단계
-[관리자 안내서](admin-handbook-overview.md)  
+[관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)

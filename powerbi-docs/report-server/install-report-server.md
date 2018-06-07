@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: a0fc47776cd0eaceb4a03a99bc27b88b04da398d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 830c867c6f495c30bd28640db9adab964bc5e2bd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721734"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server 설치
 
@@ -130,7 +131,7 @@ URL 예약은 접두사, 호스트 이름, 포트 및 가상 디렉터리로 구
 * 보고서를 보고 관리하기 위해 보고서 컴퓨터에 액세스할 수 있도록 웹 포털을 구성하려면 [Report Server 액세스를 위한 방화벽 구성](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) 및 [원격 관리를 위한 Report Server 구성](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
-[관리자 안내서](admin-handbook-overview.md)  
+[관리자 개요](admin-handbook-overview.md)  
 [보고서 서버 제품 키를 확인하는 방법](find-product-key.md)  
 [Power BI Report Server에 최적화된 Power BI Desktop 설치](install-powerbi-desktop.md)  
 [Reporting Services 설치 확인](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  

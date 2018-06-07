@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: e13a4810baf4898eb9aba7b09978991c9bc3d0a6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0bfad6dba38cce4bd170bb3f3bd7f9a7877b6174
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34480937"
 ---
 # <a name="migrate-a-report-server-installation"></a>Report Server 설치 마이그레이션
 Power BI Report Server의 인스턴스로 기존 SSRS(SQL Server Reporting Services) 인스턴스를 마이그레이션하는 방법에 대해 알아봅니다.
@@ -98,7 +99,7 @@ Power BI Reprot Server에서 마이그레이션하는 작업은 SSRS(기본 모�
 * 이전 Power BI Report Server 설치에 필요한 정리를 수행합니다.
 
 ## <a name="next-steps"></a>다음 단계
-[관리자 안내서](admin-handbook-overview.md)  
+[관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 [rs.exe 유틸리티 및 웹 서비스를 사용하는 스크립트](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 

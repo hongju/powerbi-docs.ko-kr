@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721389"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>보고서 필터 창 둘러보기
 이 문서에서는 보고서 필터 창을 자세히 살펴봅니다. [Power BI 서비스 편집용 보기 및 읽기용 보기](service-reading-view-and-editing-view.md)와 [Power BI Desktop 보고서 뷰](desktop-report-view.md)의 창을 확인합니다.
@@ -22,7 +23,7 @@ ms.lasthandoff: 05/17/2018
 Power BI에서 데이터를 필터링하는 다양한 방법이 있으며, [필터 및 강조 표시 정보](power-bi-reports-filters-and-highlighting.md)를 먼저 읽어보는 것이 좋습니다.
 
 ## <a name="working-with-the-report-filters-pane"></a>보고서 필터 창 작업
-Power BI Desktop에서는 보고서가 보고서 보기에서 열립니다. Power BI 서비스에서는 보고서가 [편집용 보기 또는 읽기용 보기](service-reading-view-and-editing-view.md)에서 열릴 수 있습니다. 편집용 보기 및 데스크톱 보고서 보기에서 보고서 소유자는 [보고서에 필터를 추가](power-bi-report-add-filter.md)할 수 있으며 해당 필터는 보고서와 함께 저장됩니다. 편집용 보기에서 보고서를 보는 사람은 필터로 상호 작용할 수 있지만 보고서에 새 필터를 추가할 수 없습니다.
+Power BI Desktop에서는 보고서가 보고서 보기에서 열립니다. Power BI 서비스에서는 보고서가 [편집용 보기 또는 읽기용 보기](service-reading-view-and-editing-view.md)에서 열릴 수 있습니다. 편집용 보기 및 데스크톱 보고서 보기에서 보고서 소유자는 [보고서에 필터를 추가](power-bi-report-add-filter.md)할 수 있으며 해당 필터는 보고서와 함께 저장됩니다. 읽기용 보기에서 보고서를 보는 사용자는 필터와 상호 작용하고 해당 변경 내용을 저장할 수 있지만 보고서에 새 필터를 추가할 수 없습니다.
 
 Power BI 서비스에서 보고서는 필터 창에서 수행한 모든 변경 내용을 유지하고 해당 변경 내용이 보고서의 모바일 버전에 적용됩니다. 필터 창을 작성자 기본값으로 다시 설정하려면 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다.     
 

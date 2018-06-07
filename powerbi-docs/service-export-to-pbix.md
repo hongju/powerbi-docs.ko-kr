@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722546"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Power BI 서비스에서 데스크톱에 보고서 내보내기(미리 보기)
 Power BI Desktop에서 보고서를 저장하고 **게시**를 선택하여 Power BI 서비스에 보고서를 내보낼(또는 다운로드할) 수 있습니다. 반대 방향으로도 내보내기할 수 있을 뿐 아니라 Power BI 서비스에서 바탕화면으로 보고서를 다운로드할 수 있습니다. 어느 방향으로든 내보내는 파일의 파일 확장명은 *.pbix*입니다.
@@ -57,6 +58,7 @@ Power BI 서비스에서 *.pbix* 파일의 다운로드(내보내기)와 관련�
 * 이 기능은 콘텐츠 팩을 포함하여 **Power BI 서비스**에서 만든 보고서는 실행하지 않습니다.
 * 다운로드한 파일을 열 때는 항상 최신 버전의 **Power BI Desktop**을 사용해야 합니다. 다운로드한 *.pbix* 파일은 이전 버전의 **Power BI Desktop**에서는 열리지 않을 수 있습니다.
 * 관리자가 데이터를 내보내는 기능을 해제하는 경우 이 기능은 **Power BI 서비스**에 표시되지 않습니다.
+* 증분 새로 고침을 사용하는 데이터 집합을 *.pbix* 파일에 다운로드할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 이 기능에 대한 1분 비디오 **큐브에서 Guy**를 참조하세요.

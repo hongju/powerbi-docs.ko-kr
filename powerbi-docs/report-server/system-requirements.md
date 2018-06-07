@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 2963dbe2a5d1109e4396568624e16bf49d98da10
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481738"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항
 여기서는 Power BI Report Server를 설치하고 실행하기 위한 최소 하드웨어 및 소프트웨어 요구 사항이 표시됩니다.
@@ -66,8 +67,8 @@ Power BI Report Server는 Report Server를 작동하는 데 필요한 핵심 설
 | 2016 이상 |표준 SKU 이상 |
 
 ## <a name="next-steps"></a>다음 단계
-[사용자 안내서](user-handbook-overview.md)  
-[관리자 안내서](admin-handbook-overview.md)  
+[Power BI Report Server란?](get-started.md)  
+[관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)

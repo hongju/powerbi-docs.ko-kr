@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4ede737287c830d70283e3a73b627c59c38d1564
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4371846e77412c67d7441a993dca80493ef92e34
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689875"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>조직 콘텐츠 팩 관리, 업데이트 및 삭제
 > [!NOTE]
@@ -71,7 +72,7 @@ ms.lasthandoff: 05/17/2018
 콘텐츠 팩 작성자로 [데이터 집합의 새로 고침을 예약](refresh-data.md)할 수 있습니다.  콘텐츠 팩을 만들고 업로드하는 경우 새로 고침 일정이 데이터 집합으로 업로드됩니다. 새로 고침 일정을 변경하는 경우 콘텐츠 팩을 다시 게시해야 합니다.(위 참조)
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>AppSource에서 조직 콘텐츠 팩 삭제
-콘텐츠 팩을 만든 경우 AppSource에서 그것을 삭제할 수 있습니다. 
+콘텐츠 팩을 만든 경우 AppSource에서 그것을 삭제할 수 있습니다. 앱 작업 영역에서 조직 콘텐츠 팩을 만든 다음, 해당 작업 영역을 삭제하도록 결정하는 경우 콘텐츠 팩을 먼저 삭제해야 합니다. 콘텐츠 팩을 먼저 삭제하지 않고 작업 영역을 삭제하면 해당 콘텐츠 팩에 대한 모든 액세스 권한을 손실합니다. 도움말은 Microsoft 지원에 문의해야 합니다. 
 
 > [!TIP]
 > 다른 사람이 만든 [콘텐츠 팩에 대한 연결을 삭제](service-organizational-content-pack-disconnect.md)할 수 있습니다. AppSource에서 콘텐츠 팩을 삭제하지 않습니다.

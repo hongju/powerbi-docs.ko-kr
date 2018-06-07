@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293263"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584234"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드에서 테이블 작업
 테이블은 논리적으로 연속된 행과 열에서 관련된 데이터를 포함하는 표입니다. 머리글과 합계에 대한 행이 포함될 수도 있습니다. 테이블은 단일 범주에 대한 많은 값을 볼 수 있는 정량적 비교와 잘 작동합니다. 예를 들어 이 테이블은 **범주**합에 대한 5개의 서로 다른 측정값을 표시합니다.
@@ -119,6 +119,9 @@ ms.locfileid: "34293263"
 경우에 따라 Power BI는 보고서와 대시보드에 열 머리글을 자릅니다. 전체 열 이름을 표시하려면 머리글의 오른쪽으로 공간을 마우스로 가리켜 이중 화살표를 표시하고 선택하고 끕니다.
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
+
+## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+* 열 서식 지정을 적용할 때 자동, 왼쪽, 가운데, 오른쪽 중에 하나의 열당 맞춤 옵션을 선택할 수 있습니다. 일반적으로 열은 모두 텍스트 또는 숫자만을 포함하고 섞지 않습니다. 하지만 열에 숫자와 텍스트가 모두 포함되어 있는 경우 **자동**은 텍스트의 경우 왼쪽에 정렬하고, 번호의 경우 오른쪽에 정렬합니다. 이 동작은 왼쪽에서 오른쪽으로 읽는 언어를 지원합니다.   
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

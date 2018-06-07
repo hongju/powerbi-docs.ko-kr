@@ -7,14 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f5eeb877488539254478ad4bc25d64d663b797f1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722454"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI로 Salesforce에 연결
 Power BI를 사용하면 Salesforce.com 계정에 쉽게 연결할 수 있습니다. 이 연결을 만들면 데이터가 검색되고, 해당 데이터를 기반으로 하여 대시보드 및 관련 보고서가 자동으로 제공됩니다.
@@ -74,6 +75,11 @@ Power BI용 [Salesforce 콘텐츠 팩](https://app.powerbi.com/getdata/services/
 
 ## <a name="troubleshooting"></a>문제 해결
 오류가 발생하는 경우 위의 요구 사항을 검토하세요. 또한 사용자 지정 또는 샌드박스 도메인에 로그인하는 기능은 현재 지원되지 않습니다.
+
+### <a name="unable-to-connect-to-the-remote-server-message"></a>"원격 서버에 연결할 수 없습니다." 메시지
+
+Salesforce 계정에 연결하려고 시도할 때 "원격 서버에 연결할 수 없습니다." 메시지가 표시되면 Outsystems 포럼에서 이 솔루션을 참조하세요. [Salesforce 커넥터 로그인 오류 메시지: 원격 서버에 연결할 수 없습니다.](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
+
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 시작](service-get-started.md)

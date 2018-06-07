@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 391edc8a2187f9a4af43b93f0713d40e41f6e943
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295425"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481963"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 Power BI Report Server의 새로운 기능에 대해 알아봅니다. 주요 기능 영역을 설명하고 새 항목이 출시될 때 업데이트됩니다.
@@ -32,6 +32,12 @@ Power BI Report Server 및 Report Server에 최적화된 Power BI Desktop을 다
 * [Power BI 서비스의 새로운 기능](../service-whats-new.md)
 * [Power BI Desktop의 새로운 기능](../desktop-latest-update.md)
 * [Power BI용 모바일 앱의 새로운 기능](../mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2018"></a>2018년 5월
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 구성
+
+IT 관리자인 경우 이제 조직의 MDM 도구를 사용하여 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한을 원격으로 구성할 수 있습니다. 자세한 내용은 [원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한 구성](configure-powerbi-mobile-apps-remote.md)을 참조하세요.
 
 ## <a name="march-2018-release"></a>2018년 3월 릴리스
 
@@ -204,7 +210,7 @@ Power BI Report Server는 이제 새 Power BI 테이블 및 행렬 시각적 개
 * 주석을 사용하여 보고서에서 공동 작업 향상
 
 ## <a name="next-steps"></a>다음 단계
-[사용자 안내서](user-handbook-overview.md)  
+[Power BI Report Server란?](get-started.md) 
 [관리자 안내서](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  

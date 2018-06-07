@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 05/07/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 697757b34b6b71d60991298396dfb0d95e081911
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: b91c7b4bc96ea5b3f1e4a8db844ef6d9987c9b38
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34240699"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584188"
 ---
 # <a name="what-is-power-bi"></a>Power BI란?
 **Power BI**는 관련 없는 데이터 소스를 시각적으로 몰입도가 뛰어나고 일관된 대화형 정보로 변환하는 소프트웨어 서비스, 앱 및 커넥터의 컬렉션입니다. 데이터가 간단한 Excel 스프레드시트이든 클라우드 기반 온-프레미스 하이브리드 데이터 웨어하우스 컬렉션이든 **Power BI**를 통해 손쉽게 데이터 소스를 연결하고, 중요한 내용을 시각화(또는 검색)하고, 이 내용을 원하는 모든 사람과 공유할 수 있습니다.
@@ -56,4 +56,4 @@ Power BI Report Server에서 제공하는 즉시 사용할 도구와 서비스�
 Power BI Report Server는 방화벽 뒤에 배포한 다음, 웹 브라우저, 모바일 장치 또는 메일로 보는지에 관계없이 다양한 방법으로 적합한 사용자에게 보고서를 배달하는 솔루션입니다. 그리고 Power BI Report Server는 클라우드의 Power BI와 호환되므로 준비가 되면 클라우드로 이동할 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
-[로그인 및 서비스에 연결](/power-bi/service-tutorial-connect-to-github.md)
+[로그인하고, 일부 데이터를 가져오고, Power BI 서비스 사용 방법을 알아봅니다.](service-the-new-power-bi-experience.md)

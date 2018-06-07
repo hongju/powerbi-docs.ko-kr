@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561750"
 ---
 # <a name="embedding-with-power-bi"></a>Power BI에 포함
 Power BI는 대시보드 및 보고서를 응용 프로그램에 포함하기 위한 API를 제공합니다. 또한 콘텐츠를 포함할 경우 일관된 기능은 물론, 대시보드, 게이트웨이 및 앱 작업 영역과 같은 최신 Power BI 기능에 액세스 권한을 제공합니다.
@@ -32,11 +33,13 @@ Power BI 라이선스가 없는 고객 및 사용자의 경우 조직 또는 고
 
 조직에 대한 콘텐츠를 포함하는 경우 다음 항목을 참조하세요.
 
+* [보고서를 앱에 통합](integrate-report.md)
 * [대시보드를 응용 프로그램에 통합](integrate-dashboard.md)
 * [타일을 앱에 통합](integrate-tile.md)
-* [보고서를 앱에 통합](integrate-report.md)
 
 편집, 저장 등과 같은 셀프 서비스 기능은 Power BI 사용자에 대해 포함하는 경우 [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 통해 사용할 수 있습니다.
+
+[조직에 대한 콘텐츠를 포함할 온보딩 환경 도구](https://aka.ms/embedsetup/UserOwnsData)를 진행하여 조직에 대한 보고서를 통합하는 방법을 설명하는 샘플 응용 프로그램을 신속하게 시작하고 다운로드할 수 있습니다.
 
 ## <a name="embedding-for-your-customers"></a>고객에 대한 콘텐츠 포함
 고객에 대한 콘텐츠를 포함하면 Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함하는 기능을 제공합니다. 고객은 Power BI에 대해 알 필요가 없습니다. 포함된 응용 프로그램을 만들려면 Power BI Pro 계정이 하나 이상 필요합니다. Power BI Pro 계정은 응용 프로그램에 대한 마스터 계정처럼 작동합니다. 이것을 프록시 계정으로 간주합니다. 또한 Power BI Pro 계정을 사용하면 응용 프로그램이 소유한/관리하는 Power BI 서비스 내에서 대시보드 및 보고서에 대한 액세스를 제공하는 embed 토큰을 생성할 수 있습니다. 
@@ -50,11 +53,12 @@ Power BI 라이선스가 없는 고객 및 사용자의 경우 조직 또는 고
 > [!IMPORTANT]
 > 포함 작업이 Power BI 서비스에 종속되는 반면 고객의 Power BI에 대해 종속되지는 않습니다. 응용 프로그램에 임베드된 콘텐츠를 보기 위해 Power BI에 가입할 필요는 없습니다.
 > 
-> 
 
 프로덕션으로 이동할 준비가 되면 앱 작업 영역은 용량에 할당되어야 합니다. Microsoft Azure 내에서 Power BI Embedded는 응용 프로그램에서 사용할 용량을 제공합니다.
 
 포함하는 방법에 대한 자세한 내용은 [Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embedding-content.md)을 참조하세요.
+
+[고객에 대한 콘텐츠를 포함할 온보딩 환경 도구](https://aka.ms/embedsetup/AppOwnsData)를 진행하여 응용 프로그램에 보고서를 통합하는 방법을 설명하는 샘플 응용 프로그램을 신속하게 시작하고 다운로드할 수 있습니다.
 
 Azure 안에서 Power BI 작업 영역 컬렉션 서비스를 사용한 경우 콘텐츠 마이그레이션 방법은 [Power BI 작업 영역 컬렉션 Azure 서비스에서 콘텐츠 마이그레이션](migrate-from-powerbi-embedded.md)을 참조하세요.
 

@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9288c44194a7eabebfa9888b1bca0023a54950e8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293585"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584280"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI의 콤보 차트
 Power BI 콤보 차트는 꺾은선형 차트와 세로 막대형 차트를 결합한 단일 시각화 요소입니다. 2개 차트를 하나로 결합하면 데이터를 더 빠르게 비교할 수 있습니다.
@@ -105,6 +105,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 
 * [대시보드 타일로 콤보 차트를 추가합니다](service-dashboard-tiles.md).
 * [보고서를 저장합니다](service-report-save.md).
+* [장애가 있는 사용자가 보고서에 액세스할 수 있도록 만들기](desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>교차 강조 표시 및 교차 필터링
 

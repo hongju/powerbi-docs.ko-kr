@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 05/19/2018
 ms.author: maggies
-ms.openlocfilehash: 9bfcf7ab0b752cdbacefe7075e5975f7b0eb8bf9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a7012bf96ee0f8ac7e73d1db21e9a36f0fea88cb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481052"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI Report Server에 대한 타임라인 지원
 Power BI Report Server는 매해 몇 번씩 릴리스됩니다. 보안 및 중요 업데이트는 다음 릴리스가 GA(일반 공급) 상태가 될 때까지 사용할 수 있습니다. 다음 릴리스 이후에도 이전의 릴리스는 12개월이라는 릴리스 수명의 나머지 기간 동안 계속 보안 업데이트됩니다.
@@ -36,8 +37,8 @@ Power BI Report Server 및 Report Server에 최적화된 Power BI Desktop을 다
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI Report Server의 새로운 기능](whats-new.md)  
-[사용자 안내서](user-handbook-overview.md)  
-[관리자 안내서](admin-handbook-overview.md)  
+[Power BI Report Server란?](get-started.md)
+[관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

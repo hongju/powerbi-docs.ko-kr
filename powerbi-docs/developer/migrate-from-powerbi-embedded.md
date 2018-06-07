@@ -6,13 +6,14 @@ manager: kfile
 ms.reviewer: ''
 ms.Embedded: powerbi
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: bfee68658816d46e23a3b66f9b04b2069704a2b8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689786"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션하고 앱에서 포함하기 위한 고급 기능을 활용하는 방법을 알아봅니다.
@@ -26,9 +27,14 @@ Power BI Embedded를 사용하면, 콘텐츠 포함 시 단일 API 영역, 일�
 > [!IMPORTANT]
 > 마이그레이션은 Power BI Embedded에 종속되어 실행되지만, **임베드 토큰** 사용 시 응용 프로그램 사용자의 Power BI에 대한 종속은 없습니다. 응용 프로그램에 임베드된 콘텐츠를 보기 위해 Power BI에 가입할 필요는 없습니다. Power BI Embedded 이외 사용자에게 이 포함 방법을 사용할 수 있습니다.
 > 
-> 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
+
+새 Power BI Embedded에 마이그레이션을 시작하기 전에 [온보딩 환경 도구](https://aka.ms/embedsetup)를 사용하여 새 Power BI Embedded 환경을 설정할 수 있는 연습을 신속하게 설명할 수 있습니다.
+
+사용자에게 적합한 솔루션을 선택합니다.
+* **고객에 대한 콘텐츠 포함** - [앱 소유 데이터](https://aka.ms/embedsetup/AppOwnsData) 솔루션에 관심이 있는 경우입니다. [고객에 대한 콘텐츠를 포함](embedding.md#embedding-for-your-customers)하면 Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함하는 기능을 제공합니다. 
+* **조직에 대한 콘텐츠 포함** - [사용자 소유 데이터](https://aka.ms/embedsetup/UserOwnsData) 솔루션에 관심이 있는 경우입니다. [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다.
 
 ## <a name="prepare-for-the-migration"></a>마이그레이션 준비
 Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션할 준비를 하기 위해 해야 할 일이 몇 가지 있습니다. Power BI Pro 라이선스가 있는 사용자와 함께, 사용 가능한 테넌트가 필요합니다.
@@ -63,10 +69,6 @@ Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션�
    
 > [!NOTE]
 > 조직에서 포함의 목적으로 사용할 일반 사용자 계정입니다.
->
-
-> [!NOTE]
-> 앱 전용 토큰 인증이 응용 프로그램의 요구 사항인 경우 [여기](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement)를 클릭하여 문의하세요.
 >
 
 ## <a name="app-registration-and-permissions"></a>앱 등록 및 사용 권한

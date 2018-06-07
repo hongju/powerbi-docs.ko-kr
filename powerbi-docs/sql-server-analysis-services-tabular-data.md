@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 51f813d4d92ac94b43c0f2b7cd0fcad1f0673b5e
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722957"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI의 SQL Server Analysis Services 라이브 데이터
 Power BI에서는 두 가지 방법으로 라이브 SQL Server Analysis Services 서버에 연결할 수 있습니다. **데이터 가져오기**에서 SQL Server Analysis Services 서버에 연결하거나 이미 Analysis Services 서버에 연결된 [Power BI Desktop 파일](service-desktop-files.md) 또는 [Excel 통합 문서](service-excel-workbook-files.md)에 연결할 수 있습니다. Power BI Desktop 파일의 백업 복사본을 로컬에서 유지 관리하는 다양한 도구 집합 및 기능 때문에 Power BI Desktop을 사용하는 것이 좋습니다.
@@ -44,9 +45,12 @@ Power BI에서는 두 가지 방법으로 라이브 SQL Server Analysis Services
 ## <a name="dashboard-tiles"></a>대시보드 타일
 보고서의 시각 효과를 대시보드에 고정하면 고정된 타일이 10분마다 자동으로 새로 고쳐집니다. 온-프레미스 Analysis Services 서버의 데이터가 업데이트되면 타일이 10분 후에 자동 업데이트됩니다.
 
+## <a name="common-issues"></a>일반적인 문제
+
+* 모델 스키마를 로드할 수 없습니다. 오류 - SSAS에 연결하는 사용자에게 SSAS 데이터베이스, 큐브 및 모델에 대한 액세스 권한이 없으면 이 오류가 발생합니다.
+
 ## <a name="next-steps"></a>다음 단계
 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
 [Analysis Services 데이터 원본 관리](service-gateway-enterprise-manage-ssas.md)  
 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-

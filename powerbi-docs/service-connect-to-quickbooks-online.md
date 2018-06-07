@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ab914cd883d9a297150dd9a33dce9c6ce76308bf
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7caf471674c20607826550fc14f8ebc8e772b61a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584257"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Power BI로 QuickBooks Online에 연결
 Power BI용 QuickBooks Online 데이터에 연결하면 비즈니스 현금 흐름, 수익성, 고객 등에 대한 통찰력을 제공하는 Power BI 대시보드 및 Power BI 보고서가 즉시 표시됩니다. 제공된 대시보드 및 보고서를 그대로 사용하거나, 가장 관심 있는 정보를 강조 표시하도록 사용자 지정합니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다.
@@ -22,7 +23,7 @@ Power BI용 QuickBooks Online 데이터에 연결하면 비즈니스 현금 흐�
 Power BI용 [QuickBooks Online 콘텐츠 팩](https://dxt.powerbi.com/getdata/services/quickbooks-online)에 연결합니다.
 
 >[!NOTE]
->QuickBooks Online 데이터를 Power BI로 가져오려면 QuickBooks Online 계정의 관리자여야 하며 관리자 계정 자격 증명으로 로그인해야 합니다.
+>QuickBooks Online 데이터를 Power BI로 가져오려면 QuickBooks Online 계정의 관리자여야 하며 관리자 계정 자격 증명으로 로그인해야 합니다. QuickBooks Desktop 소프트웨어에서 이 커넥터를 사용할 수 없습니다. 
 
 ## <a name="how-to-connect"></a>연결 방법
 1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.

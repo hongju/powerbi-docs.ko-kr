@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23262d16993043bff90b50ccd55dc7903c5fc23b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 09322a1ead6ae4c3a00dc42e2b4a642dcc2d6181
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34291745"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584142"
 ---
 # <a name="basic-area-chart"></a>기본 영역형 차트
 기본 영역형 차트(즉, 계층화된 영역형 차트)는 꺾은선형 차트를 기반으로 합니다. 축과 선 사이의 영역이 볼륨을 나타내는 색으로 채워집니다. 
@@ -62,7 +62,9 @@ ms.locfileid: "34291745"
 
 차트에서 한 특정 영역을 강조 표시하려면 영역 또는 영역의 위쪽 테두리를 선택합니다.  다른 시각화 유형과는 달리, 동일한 페이지에 다른 시각화가 있는 경우 기본 영역형 차트를 강조 표시해도 보고서 페이지의 다른 시각화를 교차 필터링하지 않습니다. 그러나 영역형 차트는 보고서 페이지에서 기타 시각화 요소에 의해 트리거되는 교차 필터링의 대상입니다. 자세한 내용은 [보고서의 시각적 상호 작용](service-reports-visual-interactions.md)을 참조하세요.
 
-## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+
+## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결   
+* [장애가 있는 사용자가 보고서에 액세스할 수 있도록 만들기](desktop-accessibility.md)
 * 기본 영역형 차트는 계층화된 영역의 폐색으로 인해 값을 비교하는 데는 효과적이지 않습니다. Power BI는 투명도를 사용하여 영역의 겹침을 나타냅니다. 그러나 이것은 두세 개의 서로 다른 영역에서만 잘 작동합니다. 4개 이상의 측정값에 대한 추세를 비교해야 하는 경우 꺾은선형 차트를 사용해보세요. 4개 이상의 측정값에 대한 볼륨을 비교해야 하는 경우 트리맵을 사용해보세요.
 
 ## <a name="next-steps"></a>다음 단계

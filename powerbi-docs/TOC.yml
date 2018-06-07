@@ -234,6 +234,8 @@
                   href: service-dashboard-featured.md
                 - name: Power BI 통합 알림 센터
                   href: service-notification-center.md
+                - name: 대시보드 테마
+                  href: service-dashboard-themes.md
             - name: 보고서
               items:
                 - name: Power BI 보고서에서 차트 정렬 방식 변경
@@ -572,6 +574,8 @@
               href: desktop-import-excel-workbooks.md
             - name: 제네릭 인터페이스를 사용하여 데이터에 연결
               href: desktop-connect-using-generic-interfaces.md
+            - name: Adobe Analytics에 연결
+              href: desktop-connect-adobe-analytics.md
             - name: Oracle 데이터베이스에 연결
               href: desktop-connect-oracle-database.md
             - name: Power BI Desktop에서 R 스크립트 실행
@@ -616,8 +620,6 @@
               href: desktop-directquery-sap-hana.md
             - name: Power BI Desktop의 참조 무결성 설정 가정
               href: desktop-assume-referential-integrity.md
-            - name: Oracle 및 Teradata 데이터베이스용 DirectQuery
-              href: desktop-directquery-for-oracle-teradata.md
             - name: Power BI Desktop(미리 보기)에서 SAP BW Connector 사용
               href: desktop-sap-bw-connector.md
             - name: Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
@@ -788,6 +790,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Power BI 보고서의 접근성
           href: desktop-accessibility.md
+        - name: Power BI Desktop 로그인 양식 관리
+          href: desktop-admin-sign-in-form.md
 - name: Power BI 모바일 앱
   items:
     - name: 개요

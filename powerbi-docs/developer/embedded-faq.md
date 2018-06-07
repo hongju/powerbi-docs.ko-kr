@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289743"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721021"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -102,6 +102,9 @@ Power BI Embedded는 앞으로도 계속해서 마스터 사용자 인증(지정
 응용 프로그램 사용자의 인증 및 권한 부여는 ISV를 통해 구현되고, ISV는 자체 응용 프로그램에 맞는 자체 인증을 구현할 수 있습니다.
 
 이미 Azure AD 테넌트가 있는 경우 기존 디렉터리를 사용해도 되고, 포함된 응용 프로그램 콘텐츠 보안을 위해 Azure AD 테넌트를 새로 만들어도 됩니다.
+
+AAD 토큰을 가져오려면 Azure Active Directory 인증 라이브러리 중 하나를 사용할 수 있습니다. 여러 플랫폼에서 사용할 수 있는 클라이언트 라이브러리가 있습니다.
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded는 다른 Azure 서비스와 어떤 차이가 있나요?
 
@@ -205,6 +208,31 @@ Power BI Embedded는 일부 [소버린 클라우드](embed-sample-for-customers-
 * **Power BI 작업 영역 컬렉션**에서 두 개의 데이터 원본이 지원되는 것과 달리 모든 PBI 데이터 원본이 지원됩니다. 
 * 질문 및 답변, 새로 고침, 책갈피, 대시보드 및 타일 포함, 사용자 지정 메뉴 등의 새로운 기능은 **Power BI Embedded** 솔루션에서만 지원됩니다.
 * 용량 청구 모델입니다.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>포함하기 위한 온보딩 환경 도구
+
+### <a name="what-is-the-onboarding-experience-tool"></a>온보딩 환경 도구란?
+
+[온보딩 환경 도구](https://aka.ms/embedsetup)를 사용하면 샘플 응용 프로그램을 신속하게 시작하고 다운로드하여 Power BI에서 포함을 시작할 수 있습니다.
+
+### <a name="which-solution-should-i-choose"></a>어떤 솔루션은 선택해야 하나요?
+
+* [고객에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-customers) Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함하는 기능을 제공합니다. [고객에 대한 콘텐츠 포함](https://aka.ms/embedsetup/AppOwnsData) 솔루션을 실행합니다.
+* [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다. [조직에 대한 콘텐츠 포함](https://aka.ms/embedsetup/UserOwnsData) 솔루션을 실행합니다.
+
+### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>샘플 앱을 다운로드했다면 어떤 솔루션을 선택해야 하나요?
+
+**고객에 대한 콘텐츠 포함** 환경을 사용하는 경우 *PowerBI-Developer-Samples.zip* 파일을 저장하고 압축을 풉니다. 그런 다음, *PowerBI-Developer-Samples-master\App Owns Data* 폴더를 열고 *PowerBIEmbedded_AppOwnsData.sln* 파일을 실행합니다.
+
+**조직에 대한 콘텐츠 포함** 환경을 사용하는 경우 *PowerBI-Developer-Samples.zip* 파일을 저장하고 압축을 풉니다. 그런 다음, *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 폴더를 열고, *pbi-saas-embed-report.sln* 파일을 실행합니다.
+
+### <a name="how-can-i-edit-my-registered-application"></a>등록된 응용 프로그램을 편집할 수 있는 방법
+
+[여기](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)에서 AAD 등록 응용 프로그램을 편집하는 방법을 알아볼 수 있습니다.
+
+### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>내 Power BI 사용자 프로필 또는 데이터를 편집할 수 있는 방법
+
+[여기](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)에서 Power BI 데이터를 편집하는 방법을 알아볼 수 있습니다.
 
 자세한 내용은 [포함된 응용 프로그램 문제 해결](embedded-troubleshoot.md)을 참조하세요.
 

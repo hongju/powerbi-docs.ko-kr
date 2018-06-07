@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 2108d8fc290a5af568a3e06ae5986e82413b680b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34720814"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
 
@@ -74,7 +75,7 @@ Azure Portal 포털 또는 Power BI 앱 등록 페이지 내에서 표시되는 
 
 추가 조사를 위해 fiddler 캡처가 필요할 수 있습니다. 403 오류는 다음과 같은 여러 가지 이유로 발생할 수 있습니다.
 
-* 사용자가 공유 용량에 생성될 수 있는 포함 토큰의 양을 초과했습니다. 포함 토큰을 생성하기 위해 Azure 용량을 구입하고 해당 용량에 작업 영역을 할당해야 합니다. [Azure Portal에서 Power BI Embedded 용량 만들기](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)를 참조하세요.
+* 사용자가 공유 용량에 생성될 수 있는 포함 토큰의 양을 초과했습니다. 포함 토큰을 생성하기 위해 Azure 용량을 구입하고 해당 용량에 작업 영역을 할당해야 합니다. [Azure Portal에서 Power BI Embedded 용량 만들기](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)를 참조하세요.
 * Azure AD 인증 토큰이 만료되었습니다.
 * 인증된 사용자가 그룹(앱 작업 영역)의 구성원이 아닙니다.
 * 인증된 사용자가 그룹(앱 작업 영역)의 관리자가 아닙니다.
@@ -132,6 +133,53 @@ GenerateToken 호출 전에 응용 프로그램의 백 엔드가 인증 토큰�
 **보고서 또는 대시보드 속도가 느림**
 
 Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 응용 프로그램 또는 포함 api 문제를 배제해도 되는 수준인지 확인합니다.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>포함하기 위한 온보딩 환경 도구
+
+[온보딩 환경 도구](https://aka.ms/embedsetup)를 진행하여 신속하게 샘플 응용 프로그램을 다운로드할 수 있습니다. 다음 샘플과 응용 프로그램을 비교할 수 있습니다.
+
+### <a name="prerequisites"></a>필수 조건
+
+온보딩 환경 도구를 사용하기 전에 적절한 필수 조건이 모두 있는지 확인합니다. **Power BI Pro** 계정과 **Microsoft Azure** 구독이 필요합니다.
+
+* 아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/en-us/pricing/)합니다.
+* Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)을 만듭니다.
+* 고유한 [Azure Active Directory 테넌트 ](create-an-azure-active-directory-tenant.md) 설정을 사용해야 합니다.
+* [Visual Studio](https://www.visualstudio.com/)를 설치해야 합니다(버전 2013 이상).
+
+### <a name="common-issues"></a>일반적인 문제
+
+온보딩 환경 도구를 사용하여 테스 하는 경우 발생할 수 있는 몇 가지 일반적인 문제는 다음과 같습니다.
+
+#### <a name="using-the-embed-for-your-customers-sample-application"></a>고객에 대한 콘텐츠 포함 사용 샘플 응용 프로그램
+
+**고객에 대한 콘텐츠 포함** 환경을 사용하는 경우 *PowerBI-Developer-Samples.zip* 파일을 저장하고 압축을 풉니다. 그런 다음, *PowerBI-Developer-Samples-master\App Owns Data* 폴더를 열고 *PowerBIEmbedded_AppOwnsData.sln* 파일을 실행합니다.
+
+**권한 부여**를 선택하는 경우(권한 부여 단계) 다음과 같은 오류가 발생합니다.
+
+    AADSTS70001: Application with identifier <client ID> was not found in the directory <directory ID>
+
+솔루션은 팝업을 닫는 것입니다. 몇 초 정도 기다린 후에 다시 시도하세요. 이 작업을 여러 번 반복해야 합니다. 시간 간격은 외부 API에 사용할 수 있는 경우 응용 프로그램 등록 프로세스를 완료하는 데 문제를 일으킵니다.
+
+샘플 앱을 실행하는 경우 다음과 같은 오류 메시지가 표시됩니다.
+
+    Password is empty. Please fill password of Power BI username in web.config.
+
+샘플 응용 프로그램에 삽입되지 않은 유일한 값이 사용자 암호이기 때문에 이 오류가 발생합니다. 솔루션에서 Web.config 파일을 열고 사용자의 암호로 pbiPassword 필드를 채웁니다.
+
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>조직에 대한 콘텐츠 포함 사용 샘플 응용 프로그램
+
+**조직에 대한 콘텐츠 포함** 환경을 사용하는 경우 *PowerBI-Developer-Samples.zip* 파일을 저장하고 압축을 풉니다. 그런 다음, *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 폴더를 열고, *pbi-saas-embed-report.sln* 파일을 실행합니다.
+
+**조직에 대한 콘텐츠 포함** 샘플 앱을 실행하는 경우 다음과 같은 오류가 발생합니다.
+
+    AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
+
+웹 서버 응용 프로그램에 대해 지정된 리디렉션 URL이 샘플의 URL과 다르기 때문입니다. 샘플 응용 프로그램을 등록하려면 리디렉션 URL로 *http://localhost:13526/* 을 사용합니다.
+
+등록된 응용 프로그램을 편집하려는 경우 응용 프로그램이 웹 API에 대한 액세스 권한을 제공할 수 있도록 [AAD 등록 응용 프로그램](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)을 편집하는 방법을 알아봅니다.
+
+Power BI 사용자 프로필 또는 데이터를 편집하려는 경우 [Power BI 데이터](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)를 편집하는 방법을 알아봅니다.
 
 자세한 내용은 [Power BI Embedded FAQ](embedded-faq.md)를 참조하세요.
 

@@ -8,15 +8,15 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b9c67b1c493d885b0a1b1a21e27c652afaaa513e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296989"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584119"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI의 분산형 차트 및 거품형 차트
 분산형 차트에는 항상 가로 축을 따라 하나의 숫자 데이터 집합을 표시하고 세로 축을 따라 다른 숫자 값 집합을 표시하는 두 개의 값 축이 있습니다. 차트에서 x 및 y 숫자 값의 교차점에 점이 표시되고 이러한 값이 단일 데이터 요소로 결합됩니다. 데이터에 따라 가로 축에 균등 또는 불균등하게 이러한 데이터 요소를 배포할 수 있습니다.
@@ -81,7 +81,7 @@ ms.locfileid: "34296989"
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. 거품형 차트에 표시할 데이터 요소의 수를 설정하려면 **시각화** 창의 **형식** 섹션에서 **일반** 카드를 확장하고 **데이터 볼륨**을 조정합니다. 최대 데이터 볼륨 수를 10,000개로 설정할 수 있습니다(기본값 3500).
+3. 거품형 차트에 표시할 데이터 요소의 수를 설정하려면 **시각화** 창의 **형식** 섹션에서 **일반** 카드를 확장하고 **데이터 볼륨**을 조정합니다. 최대 데이터 볼륨 수를 10,000개로 설정할 수 있습니다. 숫자가 클수록 성능을 위해 먼저 테스트하는 것이 좋습니다. 
 
     ![데이터 볼륨](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 

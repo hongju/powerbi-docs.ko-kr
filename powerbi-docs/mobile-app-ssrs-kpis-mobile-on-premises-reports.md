@@ -7,24 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/18/2017
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 4277a8353fa6d9538ff050f0c08b9644d4a218c6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482248"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 온-프레미스 보고서 서버 보고서 및 KPI 보기
+
+Power BI Report Server 및 SQL Server 2016 Reporting Services(SSRS)에서 Power BI 모바일 앱은 중요한 온-프레미스 비즈니스 정보에 대한 터치 기반의 라이브 모바일 액세스를 제공합니다.
+
 적용 대상:
 
 | ![iPhone](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Android 휴대폰](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Android 태블릿](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |
 
-Power BI Report Server 및 SQL Server 2016 Reporting Services(SSRS)에서 Power BI 모바일 앱은 중요한 온-프레미스 비즈니스 정보에 대한 터치 기반의 라이브 모바일 액세스를 제공합니다. 
 
- ![모바일 앱의 Report Server 홈](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
+![모바일 앱의 Report Server 홈](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
 
 ## <a name="first-things-first"></a>먼저 수행할 중요한 작업
 **모바일 앱은 Power BI 콘텐츠를 만드는 위치가 아닌 보는 위치에 있습니다.**
@@ -43,7 +46,7 @@ Reporting Services 웹 포털에 대한 액세스가 없더라도, Reporting Ser
    
    ![Reporting Services 샘플](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
-## <a name="connect-to-an-on-premises-server"></a>온-프레미스 서버에 연결
+## <a name="connect-to-an-on-premises-report-server"></a>온-프레미스 보고서 서버에 연결
 Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI를 볼 수 있습니다. 
 
 1. 모바일 장치에서 Power BI 앱을 엽니다.
@@ -77,6 +80,24 @@ Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Serv
 6. 이제 이 예에서 "power bi report server"라고 하는 서버가 왼쪽 탐색 모음에 표시됩니다.
    
    ![왼쪽 탐색 창에 표시되는 보고서 서버](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
+
+## <a name="connect-to-an-on-premises-report-server-in-ios"></a>iOS에서 온-프레미스 보고서 서버에 연결
+
+iOS 모바일 앱에서 Power BI를 보는 경우 IT 관리자는 앱 구성 정책을 정의할 수 있습니다. 그렇다면 보고서 서버에 연결된 환경이 간소화되고 보고서 서버에 연결할 때만큼 많은 정보를 제공할 필요가 없습니다. 
+
+1. 보고서 서버를 사용하여 해당 모바일 앱을 구성한다는 메시지가 표시됩니다. **로그인**을 누릅니다.
+
+    ![보고서 서버에 로그인](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-sign-in.png)
+
+2.  **서버에 연결** 페이지에서 보고서 서버 세부 정보가 이미 입력되었습니다. **연결**을 누릅니다.
+
+    ![보고서 서버 세부 정보 입력](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-remote-configure-connect-server.png)
+
+3. 인증하기 위해 암호를 입력한 다음, **로그인**을 누릅니다. 
+
+    ![보고서 서버 세부 정보 입력](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
+
+이제 보고서 서버에 저장된 KPI 및 Power BI 보고서를 확인하고 상호 작용할 수 있습니다.
 
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>Power BI 앱에서 Power BI 보고서 및 KPI 보기
 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting Services 웹 포털에서와 동일한 폴더에 표시됩니다. 

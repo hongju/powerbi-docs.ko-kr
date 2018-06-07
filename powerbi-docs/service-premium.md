@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: aa16cdb9391a406b2e093f551b86dda51ee1dcfa
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 980aa830e38e49613b54ad473ef23eb7eac78ed2
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722796"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI 프리미엄이란?
 Power BI 프리미엄은 더욱 신뢰할 수 있는 성능과 더 큰 데이터 볼륨을 제공하여 조직 또는 팀에 대한 Power BI 서비스 실행에 전용 리소스를 제공합니다. 또한 프리미엄을 통해 뷰어를 위한 사용자별 라이선스를 구입할 필요 없이 광범위하게 콘텐츠를 배포할 수 있습니다.
@@ -39,7 +40,7 @@ Power BI 내에는 두 가지 유형의 용량이 있습니다. 공유 용량 �
 | 포함된 API 및 컨트롤 |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함")<sup>2</sup> |
 | **Power BI 보고서 온-프레미스 게시** |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함") |
 
-<sup>1</sup> 앱에서 무료 사용자 사용에는 웹 및 모바일에서 콘텐츠 보기, 질문 및 답변 사용, 신속한 정보 활용, Cortana, CSV, Excel 및 PowerPoint로 내보내기가 포함됩니다. 공유 데이터 집합에서 보고서 만들기, Excel에서 분석처럼 나열되지 않은 다른 작업에는 Pro 라이선스가 필요합니다. [Power BI Pro와 무료 버전](service-free-vs-pro.md) 기능에 대해 자세히 알아보세요.*  
+<sup>1</sup> 앱에서 무료 사용자 사용에는 웹 및 모바일에서 콘텐츠 보기, 질문 및 답변 사용, 신속한 정보 활용, Cortana, CSV, Excel 및 PowerPoint로 내보내기가 포함됩니다. 공유 데이터 집합에서 보고서 만들기, Excel에서 분석처럼 나열되지 않은 다른 작업에는 Pro 라이선스가 필요합니다. [Power BI Pro와 무료 버전](service-free-vs-pro.md) 기능에 대해 자세히 알아보세요.  
 *<sup>2</sup> Power BI 프리미엄에 제공되는 향후 개선 사항은 GA를 게시합니다.*
 
 ### <a name="premium-capacity"></a>프리미엄 용량
@@ -58,7 +59,7 @@ Power BI 프리미엄 용량의 사용을 시작하려면 작업 영역을 용�
 <a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>프리미엄 용량 노드
-Power BI 프리미엄은 서로 다른 v-코어 용량으로 노드 구성에서 사용할 수 있습니다. 특정 SKU 제품 및 비용에 대한 자세한 내용은 [Power BI 가격 책정](https://powerbi.microsoft.com/pricing/)을 참조하세요. 또한 [비용 계산기](https://powerbi.microsoft.com/calculator/)를 사용할 수 있습니다. 포함된 분석 용량 계획에 관한 정보는 [Power BI 엔터프라이즈 배포 계획 백서](https://aka.ms/pbienterprisedeploy)를 참조하세요.
+Power BI 프리미엄은 서로 다른 v-코어 용량으로 노드 구성에서 사용할 수 있습니다. 특정 SKU 제안 및 비용에 대한 자세한 내용은 [Power BI 가격 책정](https://powerbi.microsoft.com/pricing/)을 참조하세요. 또한 [비용 계산기](https://powerbi.microsoft.com/calculator/)를 사용할 수 있습니다. 포함된 분석 용량 계획에 관한 정보는 [Power BI 엔터프라이즈 배포 계획 백서](https://aka.ms/pbienterprisedeploy)를 참조하세요.
 
 * P 노드는 포함된 배포 또는 서비스 배포에 사용할 수 있습니다.
 * EM 노드는 포함된 배포에만 사용할 수 있습니다.

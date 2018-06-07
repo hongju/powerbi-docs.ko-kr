@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34294919"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721826"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server에 페이지를 매긴 보고서 만들기
 이름에서 알 수 있듯이 여러 페이지에서 페이지가 매겨진 보고서를 실행할 수 있습니다. 고정된 형식으로 만들어졌으며 정확한 사용자 지정을 제공합니다. 페이지가 매겨진 보고서는 .rdl 파일입니다.
@@ -94,7 +94,7 @@ SSRS 서버에 보고서를 만들기 위해 보고서 작성기를 이미 설�
 SQL Server Data Tools의 보고서 작성기 및 보고서 디자이너에서 보고서를 디자인하기 위한 많은 유용한 리소스가 있습니다. 보고서 작성기 자습서를 시작하는 것이 좋습니다.
 
 * [보고서 작성기 자습서](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
-* [Power BI Report Server 사용자 안내서](user-handbook-overview.md)  
+* [Power BI Report Server란?](get-started.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 
