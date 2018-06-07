@@ -8,14 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a3192910faf41bee925eb4938098bccb6434bb2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4d67499c571d736da3a8cebed5826c708911cc4d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584165"
 ---
 # <a name="export-data-from-visualizations"></a>시각화에서 데이터 내보내기
 시각화를 만드는 데 사용되는 데이터를 보려는 경우 [Power BI에서 해당 데이터를 표시](service-reports-show-data.md)하거나 해당 데이터를 .xlsx 또는 .csv 파일로 Excel에 내보낼 수 있습니다.   
@@ -31,7 +32,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 
 2. **데이터 내보내기** 아이콘을 선택합니다.
    
     ![](media/power-bi-visualization-export-data/pbi_export_dash.png)
-3. 데이터가 .csv 파일로 내보내집니다. 시각적 개체를 필터링하는 경우 다운로드한 데이터도 필터링됩니다.
+3. 데이터가 .csv 파일로 내보내집니다. 시각적 개체를 필터링하는 경우 다운로드한 데이터도 필터링됩니다.    
 4. 브라우저가 파일을 저장할 것인지 묻습니다.  저장한 후 Excel에서 .csv 파일을 엽니다.
    
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
@@ -84,6 +85,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 
 * Power BI에서는 기본 집계를 사용하는 시각적 개체에서만 내보내기를 지원합니다. 모델 또는 보고서 측정값을 사용하는 시각적 개체에는 내보내기를 사용할 수 없습니다.
 * 사용자 지정 시각적 개체 및 R 시각적 개체는 현재 지원되지 않습니다.
 * 공유된 대시보드를 사용하는 조직 외부의 사용자는 데이터 내보내기를 사용할 수 없습니다. 
+* Power BI에서 필드를 두 번 클릭하고 새 이름을 입력하여 필드(열)의 이름을 바꿀 수 있습니다.  새 이름은 *별칭*으로 참조됩니다. Power BI 보고서가 중복 필드 이름으로 끝나지만 Excel이 중복을 허용하지 않을 수 있습니다.  따라서 데이터를 Excel로 내보낼 때 필드 별칭은 원래 필드(열) 이름으로 되돌립니다.  
 * .csv 파일에 유니코드 문자가 있는 경우 Excel의 텍스트가 제대로 표시되지 않을 수 있습니다. 하지만 메모장에서 열면 제대로 작동합니다. 유니코드 문자의 예로 통화 기호 및 외국어 단어가 있습니다. 이에 대한 해결 방법은 csv를 직접 여는 대신 Excel에 csv를 가져오는 것입니다. 수행할 작업:
   
   1. Excel 열기
