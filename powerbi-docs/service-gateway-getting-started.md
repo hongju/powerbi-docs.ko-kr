@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d569b68da7d13518f2d641817dfe1a68862698ac
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1da7591a490ae5bc6d132136691db05af7cffd81
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297886"
+ms.locfileid: "34754912"
 ---
 # <a name="what-are-power-bi-gateways"></a>Power BI 게이트웨이란?
 
 Power BI 게이트웨이는 온-프레미스 네트워크 내에 설치하는 소프트웨어로서, 이 게이트웨이를 통해 해당 네트워크의 데이터에 액세스할 수 있습니다. 연결 요청을 수신 대기하고 사용자의 요청이 특정 기준에 부합할 때만 액세스를 부여하는 게이트키퍼와 유사합니다. 이를 통해 조직에서는 데이터베이스와 기타 데이터 원본을 온-프레미스 네트워크에 유지하면서도 Power BI 보고서 및 대시보드에서 해당 온-프레미스 데이터를 안전하게 사용할 수 있습니다.
 
-다음 다이어그램은 세 개의 온-프레미스 컴퓨터에 대한 클라우드의 요청을 처리하는 게이트웨이가 포함된 기본 보기를 보여줍니다. 이 보기는 문서의 뒷부분에서 확장됩니다.
+단일 데이터 원본이나 여러 데이터 원본에 게이트웨이를 사용할 수 있습니다. 다음 다이어그램은 세 개의 온-프레미스 컴퓨터에 대한 클라우드의 요청을 처리하는 게이트웨이가 포함된 기본 보기를 보여줍니다. 이 보기는 문서의 뒷부분에서 확장됩니다.
 
 ![게이트웨이 개요](media/service-gateway-getting-started/gateway-overview.png)
 

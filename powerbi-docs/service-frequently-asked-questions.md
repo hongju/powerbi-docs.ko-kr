@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/06/2018
+sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e72e3bcca4254b957580775196d4919e88452773
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e8af4695ba54fee91820552802cf18d8a758e8b0
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253096"
+ms.locfileid: "34755050"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
 
 ## <a name="what-is-microsoft-power-bi"></a>Microsoft Power BI란?
-[Power BI](https://powerbi.microsoft.com/)는 모든 사용자가 데이터에 대한 폭넓은 이해를 바탕으로 더욱 신속하고 보다 효율적으로 데이터를 시각화하고 분석할 수 있는 클라우드 기반의 비즈니스 분석 서비스입니다. 또한 사용하기 쉬운 대시보드, 대화형 보고서, 데이터를 흥미롭게 표현하는 매력적인 시각화를 통해 광범위한 데이터에 사용자를 연결합니다.
+Power BI는 모든 사용자가 데이터에 대한 폭넓은 이해를 바탕으로 더욱 신속하고 보다 효율적으로 데이터를 시각화하고 분석할 수 있는 클라우드 기반의 비즈니스 분석 서비스입니다. 또한 사용하기 쉬운 대시보드, 대화형 보고서, 데이터를 흥미롭게 표현하는 매력적인 시각화를 통해 광범위한 데이터에 사용자를 연결합니다. [Power BI란?](power-bi-overview.md)에 대해 자세히 알아봅니다.
 
 ## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>Power BI와 Power BI Pro의 차이점은 무엇인가요?
 Power BI는 완전히 새로운 방식으로 데이터를 살펴볼 수 있는 각종 기능을 제공합니다. Power BI Pro는 Power BI의 뛰어난 모든 기능을 동일하게 제공할 뿐만 아니라, 추가 저장 용량, 일 단위보다 더 자주 새로 고침 예약, 완전한 대화형 기능의 라이브 데이터 소스, 그룹 등의 다양한 기능을 추가로 제공합니다. [Power BI Pro와 무료 Power BI의 차이점](https://powerbi.microsoft.com/pricing)에 대해 자세히 알아보세요.
@@ -33,36 +33,20 @@ Power BI Desktop은 무료입니다. Power BI Pro의 경우 60일 무료 평가�
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI 프리미엄에 대한 질문이 있다면?
 Power BI 프리미엄 관련된 질문은 [Power BI 프리미엄 FAQ](service-premium-faq.md)를 참조하세요.
 
-## <a name="are-users-who-signed-up-after-may-3-2017-eligible-for-the-extended-pro-trial"></a>2017년 5월 3일 이후에 등록한 사용자는 Extended Pro 평가판을 사용할 자격이 있습니까?
-2017년 5월 3일 이후에 Power BI(무료)에 등록한 사용자는 Extended Pro 평가판을 사용할 자격이 없습니다. 그러나 표준 60일 Pro 평가판을 사용할 자격은 있습니다.
-
-## <a name="how-do-i-find-out-who-in-my-organization-is-eligible-for-the-extended-pro-trial"></a>조직에서 Extended Pro 평가판을 사용할 자격이 있는 사람을 어떻게 찾을 수 있습니까?
-이를 알아내는 직접적인 방법은 없지만, Power BI에 대한 Azure Active Directory 통합 응용 프로그램 보고서를 보면 조직 내 활성 사용자가 누구인지 확인할 수 있습니다. 적격성 기간이거나 무료 라이선스를 받은 활성 사용자는 팝업 알림을 받게 됩니다. 자세한 내용은 [로그인한 Power BI 사용자 찾기](service-admin-access-usage.md)를 참조하세요.
-
-> [!NOTE]
-> Azure AD 보고서에는 사용자가 Power BI 내에서 무료인지 여부가 표시되지 않습니다. Power BI에 로그인한 사용자가 누구이며 언제 로그인하였는지만 보고됩니다. 사용자가 이 보고서 목록에 있다고 해서 반드시 Extended Pro 평가판을 사용할 자격이 있는 것은 아닙니다.
-> 
-> 
+## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>내 조직에서 Power BI 계정을 가진 사용자를 찾으려면 어떻게 하나요?
+Power BI에 대한 Azure Active Directory 통합 응용 프로그램 보고서를 보면 조직 내의 활성 사용자를 확인할 수 있습니다. Azure AD 보고서에는 사용자가 Power BI 내에서 무료인지 여부가 표시되지 않습니다. Power BI에 로그인한 사용자가 누구이며 언제 로그인하였는지만 보고됩니다. 자세한 내용은 [로그인한 Power BI 사용자 찾기](service-admin-access-usage.md)를 참조하세요.
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
-[Power BI Desktop](https://powerbi.microsoft.com/designer)은 사용자의 컴퓨터에 바로 설치할 수 있는 무료 데스크톱 응용 프로그램입니다. Power BI Desktop은 대화형 작업이 많은 시각화에 고급 데이터 탐색, 셰이핑, 모델링 및 보고서 작성 기능을 제공함으로써 Power BI 서비스와 통합되어 작동합니다. 작업을 파일에 저장하고 데이터 및 보고서를 Power BI 사이트에 바로 게시하여 다른 사용자와 공유할 수 있습니다.
+Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료 데스크톱 응용 프로그램입니다. Power BI Desktop은 대화형 작업이 많은 시각화에 고급 데이터 탐색, 셰이핑, 모델링 및 보고서 작성 기능을 제공함으로써 Power BI 서비스와 통합되어 작동합니다. 작업을 파일에 저장하고 데이터 및 보고서를 Power BI 사이트에 바로 게시하여 다른 사용자와 공유할 수 있습니다. [Power BI Desktop이란?](desktop-what-is-desktop.md)에 대해 자세히 알아봅니다.
 
 ## <a name="what-do-i-need-to-use-power-bi"></a>Power BI를 사용하려면 무엇이 필요한가요?
-웹 브라우저와 회사 메일 주소만 있으면 됩니다.
-
->[!NOTE]
->.gov 및 .mil로 끝나는 회사 메일 주소는 현재 지원되지 않습니다.
+웹 브라우저와 회사 메일 주소만 있으면 됩니다. .gov 및 .mil 이메일 주소를 등록할 수 있습니다. 자세한 내용은 [Power BI 서비스에 미국 정부 기관 등록](service-govus-signup.md)을 참조하세요. 
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>회사 메일을 사용하여 등록해야 하는 이유는 무엇인가요?
 Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. [Power BI 셀프 서비스 등록 프로세스](service-self-service-signup-for-power-bi.md)에 대해 자세히 알아보세요.
 
-## <a name="which-work-email-addresses-are-supported"></a>어떤 회사 전자 메일 주소를 지원하나요?
-**.edu** 및 **.org**로 끝나는 회사 메일 주소가 지원됩니다.
-
-**.gov** 및 **.mil**로 끝나는 메일 주소는 현재 지원되지 않습니다.
-
 ## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>정부, 교육 및 비영리 기관용 가격 책정을 Power BI에 적용할 수 있나요?
-예, 비영리 기관용 가격 책정은 Microsoft로부터 직접 구입하는 경우 사용할 수 있습니다. [Microsoft 제품 기부](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) 사이트를 통해 자세한 정보를 알아보고 등록할 수 있습니다. 정부 및 교육 기관용 가격 책정은 MOSP/Direct, EA 및 Open 라이선싱 프로그램을 통해 제공됩니다. 정부 기관용 가격 책정도 배포에서 사용할 수 있습니다. Power BI는 미국 GCC(Government Community Cloud)에 아직 사용할 수 없습니다.
+예, 비영리 기관용 가격 책정은 Microsoft로부터 직접 구입하는 경우 사용할 수 있습니다. [Microsoft 제품 기부](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) 사이트를 통해 자세한 정보를 알아보고 등록할 수 있습니다. 정부 및 교육 기관용 가격 책정은 MOSP/Direct, EA 및 Open 라이선싱 프로그램을 통해 제공됩니다. 정부 기관용 가격 책정도 배포에서 사용할 수 있습니다. 
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI는 온-프레미스에서 사용할 수 있나요?
 Power BI 서비스([https://powerbi.com](https://powerbi.com))는 사설 내부 클라우드 서비스로 사용할 수 없습니다. 하지만, 온-프레미스에서 보고 작업할 수 있는 세 가지 다른 옵션이 제공됩니다. 

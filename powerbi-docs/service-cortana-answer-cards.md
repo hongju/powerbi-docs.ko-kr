@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294689"
+ms.locfileid: "34755326"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI 서비스 또는 Power BI Desktop을 사용하여 Cortana에 대한 사용자 지정 답변 페이지 만들기
 Power BI의 전체 기능을 사용하여 Cortana 질문에 답변하도록 특별히 설계된 *Cortana 답변 페이지*(*Cortana 대답 카드*라고도 함)라는 특수한 보고서 페이지를 만듭니다.
@@ -46,6 +46,12 @@ Power BI에 대한 Cortana의 설정 및 사용을 안내하는 4가지 문서�
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)
 3. 특정 질문(또는 일련의 질문)에 대한 응답으로 Cortana에 표시하려는 시각적 개체 또는 시각적 개체 집합을 만듭니다.
+
+> [!NOTE]
+> 현재 Cortana 답변 페이지는 고정 이미지가 포함된 이미지를 지원하지 않습니다. 데이터의 URL에 따라 동적으로 끌어온 테이블 또는 행렬 시각적 개체에 이미지를 포함할 수 있습니다. 
+> 
+> 
+
 4. 모든 시각적 개체가 페이지 테두리 내에 맞는지 확인합니다. 필요에 따라 디스플레이 설정, 데이터 레이블, 색 및 배경을 수정합니다.  
    
     ![](media/service-cortana-answer-cards/pbi_cortana_modify-new.png)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5b4a35d9cdfa820956201e7fee20251b3c5ac0b7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584303"
+ms.locfileid: "34755142"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -92,7 +92,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 ## <a name="audit-logs"></a>감사 로그
 
-관리 포털의 세 번째 탭은 **감사 로그**입니다. 로그는 Office 365 보안 및 규정 준수 센터 내에 위치합니다. 이 섹션에서는 Office 365 내에서 해당 영역에 빠르게 액세스할 수 있습니다. 
+관리 포털의 세 번째 탭은 **감사 로그**입니다. 로그는 Office 365 보안 및 규정 준수 센터 내에 위치합니다. 이 섹션에서는 Office 365 내에서 해당 영역에 빠르게 액세스할 수 있습니다.
 
 감사 로그에 대한 자세한 내용은 [조직에서 Power BI 감사](service-admin-auditing.md)를 참조하세요.
 
@@ -227,8 +227,6 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>전체 조직에 대해 사용자 지정 시각적 개체 사용
 조직의 사용자는 사용자 지정 시각적 개체를 조작하고 공유할 수 있습니다. [자세히 알아보기](power-bi-custom-visuals.md)
 
-![사용자 지정 시각적 개체 설정](media/service-admin-portal/powerbi-admin-custom-visuals.png)
-
 > [!NOTE]
 > 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
 
@@ -247,7 +245,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 조직의 사용자는 감사를 사용하여 조직의 다른 사용자가 Power BI에서 수행한 작업을 모니터링할 수 있습니다. [자세히 알아보기](service-admin-auditing.md)
 
-이 설정은 감사 로그 항목이 기록될 수 있도록 활성화되어야 합니다.
+이 설정은 감사 로그 항목이 기록될 수 있도록 활성화되어야 합니다. 감사를 설정하고 나서 감사 데이터를 확인할 때까지 최대 48시간이 지연될 수 있습니다. 데이터가 즉시 표시되지 않으면 나중에 감사 로그를 확인합니다. 감사 로그를 볼 수 있는 권한을 부여받고 나서 로그에 액세스할 때까지 유사하게 지연될 수 있습니다.
 
 > [!NOTE]
 > 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.

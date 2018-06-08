@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726d084201c59182655fbaf5ef35a0e999bc07fc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c92e91a08026ab3e4fce4513aa8e0892fa0c3db3
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799490"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop의 Analysis Services 테이블 형식 데이터 사용
 Power BI Desktop에서는 라이브 연결을 통한 탐색이나, 항목 선택 후 Power BI Desktop에 가져오기 등, 두 가지 방법으로 SQL Server Analysis Services 테이블 형식 모델에 연결하고 데이터를 가져올 수 있습니다.
@@ -84,4 +85,10 @@ Power BI Desktop에 동적 보고서를 만들 경우 Power BI 사이트에 게�
 2. 새 서버 이름을 입력합니다.
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_chname_dialog.png)
+   
+   
+## <a name="troubleshooting"></a>문제 해결 
+다음 목록에서는 SSAS(SQL Server Analysis Services) 또는 Azure Analysis Services에 연결하는 경우에 발생하는 알려진 모든 문제를 설명합니다. 
+
+* **오류: 모델 스키마를 로드할 수 없습니다.** - Analysis Services에 연결 중인 사용자가 데이터베이스/모델에 액세스할 수 없는 경우에 일반적으로 이 오류가 발생합니다.
 

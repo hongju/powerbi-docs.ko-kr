@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 82015b3e0c497f58b0505804adc852ebfb7a0202
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 387780371a82ab4f2c834683ab522258d130e18e
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584326"
+ms.locfileid: "34755257"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>대시보드 및 보고서의 사용 메트릭
 대시보드 및 보고서를 만드는 경우 사용량 메트릭은 해당 영향을 이해하도록 돕습니다. 대시보드 사용량 메트릭 또는 보고서 사용 메트릭을 실행하면 해당 대시보드 및 보고서가 조직 내에서 어떻게 사용되고 있는지, 무엇이 누구에 의해 어떠한 목적으로 사용되고 있는지를 파악할 수 있습니다.  
 
-사용 메트릭은 SharePoint Online에 포함된 보고서의 사용을 추적합니다. 또한 "사용자 소유 자격 증명" 및 "앱 소유 자격 증명" 흐름 모두를 통해 대시보드 및 보고서를 모두 추적합니다. 사용 메트릭은 [웹에 게시](service-publish-to-web.md)를 통해 포함된 보고서의 사용을 추적하지 않습니다.
+  > **참고**: 사용량 메트릭은 SharePoint Online에 포함된 보고서의 사용량을 추적합니다. 그러나 사용량 메트릭은 "사용자 소유 자격 증명" 또는 "앱 소유 자격 증명" 흐름을 통해 대시보드 및 보고서를 포함하는지 추적하지 않습니다. 또한 [웹에 게시](service-publish-to-web.md)를 통해 포함된 보고서의 사용량도 추적하지 않습니다.
 
 이러한 사용 메트릭 보고서는 읽기 전용입니다. 하지만 “다른 이름으로 저장”을 사용하면 사용 메트릭 보고서를 개인 설정할 수 있습니다. 그러면 새 데이터 집합이 만들어지고 읽기 전용 보고서에서 편집할 수 있는 모든 기능을 갖춘 Power BI 보고서로 변환됩니다. 개인 설정된 보고서는 선택한 대시보드 또는 보고서에 대한 메트릭을 포함할 뿐만 아니라, 기본 필터를 제거하면 선택한 작업 영역의 모든 대시보드 또는 모든 보고서에 대한 사용 메트릭에 액세스할 수 있습니다.
 

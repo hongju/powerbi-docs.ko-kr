@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297679"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799421"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -81,25 +81,30 @@ Power BI Desktop 또는 Power BI 서비스에서 보고서를 디자인할 때 [
    ![시각적 개체 정렬](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * 정렬 순서를 반대로 바꾸려면 줄임표(**...**)를 다시 탭한 다음 동일한 필드 이름을 다시 탭합니다.
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>iPad 또는 태블릿에서 드릴다운
-보고서 작성자가 시각적 개체에 드릴다운 기능을 추가하면 iPad 또는 태블릿에서 시각적 개체에 드릴다운하여 시각적 개체의 한 부분을 구성하는 값을 볼 수 있습니다. Power BI Desktop 또는 Power BI 서비스에서 [시각적 개체에 드릴다운을 추가](power-bi-visualization-drill-down.md)할 수 있습니다. 
+## <a name="drill-down-and-up-in-a-visual"></a>시각적 개체에서 드릴다운 및 드릴업
+보고서 작성자가 시각적 개체에 드릴다운 기능을 추가하면 시각적 개체에 드릴다운하여 그 일부를 구성하는 값을 볼 수 있습니다. Power BI Desktop 또는 Power BI 서비스에서 [시각적 개체에 드릴다운을 추가](power-bi-visualization-drill-down.md)할 수 있습니다. 
 
-> [!NOTE]
-> 현재 iPad 또는 태블릿의 맵에서는 드릴다운이 작동하지 않습니다.
-> 
-> 
+* 해당 도구 설명을 표시하려면 시각적 개체의 데이터 요소를 누릅니다. 드릴다운한 경우 도구 설명의 맨 아래에서 화살표를 누를 수 있습니다. 
+  
+  ![시각적 개체에서 드릴 다운](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* 시각적 개체를 탭합니다. 위쪽 모서리에 위쪽 및 아래쪽 화살표가 있는 경우 ![쪽 및 아래쪽 화살표가](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png)있는 경우 드릴다운할 수 있습니다. 하나의 값을 드릴다운하려면 오른쪽 상단 모퉁이의 화살표를 탭한 다음, 시각적 개체 &#151;의 값을 탭합니다. 이 경우 진한 파랑색의 FD-04 거품입니다.
+* 다시 드릴업하려면 도구 설명의 위쪽 화살표를 누릅니다.
   
-  ![시각적 개체에서 드릴 다운](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* 다시 드릴업하려면 왼쪽 위에 있는 위쪽 화살표를 탭합니다.
-  
-  ![드릴업](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![드릴업](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>내 작업 영역으로 돌아가기
-* 보고서 이름 옆의 화살표를 탭한 다음 **내 작업 영역**을 탭합니다.
-  
-  ![위로 돌아가기](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* 시각적 개체의 모든 데이터 요소에서 드릴다운할 수도 있습니다. 포커스 모드에서 열고, 탐색 아이콘을 누른 다음, 다음 모든 수준을 표시하도록 선택하거나 현재 및 다음 수준을 표시하도록 확장합니다.
+
+   ![Power BI 모두 드릴다운](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>페이지 간의 드릴스루
+
+*드릴스루*에서 시각적 개체의 특정 부분을 누를 때 Power BI는 보고서의 다른 페이지로 이동하고 누른 값으로 필터링합니다. 보고서 작성자는 하나 이상의 드릴스루 옵션을 정의할 수 있으며 각각 다른 페이지로 이동합니다. 이 경우에는 드릴스루하려는 항목을 선택할 수 있습니다. 다음 예제에서 계기의 값을 누를 때 **비즈니스 영역에서 사용** 또는 **비즈니스 영역에서 계획**에 대한 드릴스루 중에 하나를 선택할 수 있습니다.
+
+![Power BI 모바일 드릴스루 보고서](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+드릴스루할 때 뒤로 단추를 누르면 다시 이전 보고서 페이지로 이동합니다.
+
+[Power BI Desktop에서 드릴스루를 추가](desktop-drillthrough.md)하는 방법에 대해 알아봅니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [휴대폰에 최적화된 Power BI 보고서 보기 및 상호 작용](mobile-apps-view-phone-report.md)

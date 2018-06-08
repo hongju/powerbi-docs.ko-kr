@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34723003"
+ms.locfileid: "34755073"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 문제 해결
 이 문서에서는 **온-프레미스 데이터 게이트웨이**를 사용할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
@@ -149,6 +149,9 @@ Windows 2000 이전 호환성 액세스 권한이 있는 도메인에는 TGGAU �
 **Power BI 서비스의 Analysis Services에 대한 ‘데이터 가져오기’ 환경에서 데이터 게이트웨이 데이터 원본을 볼 수 없음**
 
 계정이 게이트웨이 구성 내에서 데이터 원본의 **사용자** 탭에 나열되는지 확인합니다. 게이트웨이에 대한 액세스가 없는 경우 게이트웨이의 관리자에게 문의하고 확인하도록 요청합니다. **사용자** 목록의 계정에만 Analysis Services 목록에 나열된 데이터 원본이 표시됩니다.
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>오류: 이 데이터 집합의 데이터 원본에 대해 설치되거나 구성된 게이트웨이가 없습니다.
+[데이터 원본 추가](service-gateway-manage.md#add-a-data-source)에 설명된 대로 하나 이상의 데이터 원본을 게이트웨이에 추가했는지 확인합니다. 게이트웨이가 **게이트웨이 관리** 아래의 관리 포털에 표시되지 않는 경우 브라우저 캐시를 지우거나 서비스에서 로그아웃한 다음, 다시 로그인하세요.
 
 ## <a name="datasets"></a>데이터 집합
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>오류: 이 행에 필요한 공간이 부족합니다.
