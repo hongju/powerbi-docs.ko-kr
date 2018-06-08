@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482179"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799628"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -25,9 +25,26 @@ ms.locfileid: "34482179"
 
 ## <a name="may-2018"></a>2018년 5월
 
-### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 구성
+### <a name="mobile-drill-through-all-mobile-apps"></a>모바일 드릴스루: 모든 모바일 앱
+
+보고서 작성자가 해당 동작을 정의한 경우, 모바일 앱에서 선택한 데이터 요소에서 다른 보고서 페이지로 드릴스루할 수 있습니다. 
+
+### <a name="back-button-all-mobile-apps"></a>뒤로 단추: 모든 모바일 앱
+
+이제 살짝 밀기, 작업 모음에서 보고서 페이지 선택 또는 드릴스루 사용을 통해 보고서를 탐색할 때 뒤로 단추를 사용하여 보고 있었던 이전 페이지로 돌아갈 수 있습니다. 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>대시보드 테마: 모든 모바일 앱
+
+보고서 작성자가 Power BI 서비스에서 대시보드 테마를 사용자 지정하면 대시보드의 모양과 느낌이 모바일 앱에서도 변경됩니다. 그러나 배경 이미지는 표시되지 않습니다.
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: 원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한 구성
 
 이제 IT 관리자는 MDM 도구를 사용하여 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한을 구성할 수 있습니다. 자세한 내용은 [원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한 구성](report-server/configure-powerbi-mobile-apps-remote.md)을 참조하세요.
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>혼합 현실용 Power BI 앱(미리 보기)
+
+혼합 현실을 위한 Power BI 앱이 지금 Microsoft Store에서 제공됩니다. 가상 환경을 사용하는 동안 대시보드 및 보고서를 확인하거나 사용자 환경 컨텍스트의 특정 위치에 배치하고 봅니다. 새 [Introducing Power BI on Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss)(Hololens의 Power BI 소개) 동영상 또는 새 [혼합 현실을 위한 Power BI 앱](mobile-mixed-reality-app.md)에 대한 문서를 참조하세요.
+
 
 ## <a name="april-2018"></a>2018년 4월
 
@@ -472,7 +489,7 @@ Power BI 팀은 여러 주요 추가 기능과 업데이트를 포함하여 2015
 * [iPhone 및 iPad 앱에서 SQL Server 모바일 보고서 및 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) 보기 설명서
 
 #### <a name="power-bi-app-for-windows-10-phones"></a>Windows 10 Phone용 Power BI 앱
-새 Windows 10 Phone용 Power BI 앱이 터치 및 모바일 생산성에 대해 최적화되어 있습니다. 대시보드 및 보고서를 탐색하고, 데이터를 보도록 동료를 초대하고, 메일을 통해 정보를 공유하여 팀의 참여도를 높이세요. 또한 [Power BI 대시보드를 Windows Phone 시작 화면에 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)할 수도 있습니다.
+새 Windows 10 Phone용 Power BI 앱이 터치 및 모바일 생산성에 대해 최적화되어 있습니다. 대시보드 및 보고서를 탐색하고, 데이터를 보도록 동료를 초대하고,  메일을 통해 정보를 공유하여 팀의 참여도를 높이세요. 또한 [Power BI 대시보드를 Windows Phone 시작 화면에 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)할 수도 있습니다.
 
 * [Windows 10 Phone용 Power BI 앱 블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx)을 참고하세요.
 * [Windows 10 Phone용 Power BI 앱 시작합니다](mobile-windows-10-phone-app-get-started.md).

@@ -10,21 +10,25 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722592"
+ms.locfileid: "34755165"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Power BI 게이트웨이 관리
 
-[Power BI 데이터 게이트웨이를 설치](service-gateway-install.md)한 후 Power BI 서비스의 **게이트웨이 관리** 영역, 로컬 컴퓨터의 게이트웨이 앱 및 PowerShell 스크립트를 사용하여 관리할 수 있습니다. 이 문서에서는 Power BI 서비스에 대해 중점적으로 설명합니다. 게이트웨이를 방금 설치한 경우 다음으로 [데이터 원본을 추가](#add-a-data-source)하고 사용자가 데이터 원본에 액세스할 수 있도록 [사용자를 추가](#add-users-to-a-data-source)하는 것이 좋습니다.
+[Power BI 데이터 게이트웨이를 설치](service-gateway-install.md)한 후 필요에 따라 관리합니다. 이 항목에서는 데이터 원본 및 사용자 추가 및 제거, 게이트웨이 다시 시작, 게이트웨이 마이그레이션, 복원, 인수 및 제거 방법에 대해 알아봅니다. 
+
+로컬 컴퓨터의 게이트웨이 앱에서 PowerShell 스크립트를 사용하여 Power BI 서비스의 **게이트웨이 관리** 영역을 통해 게이트웨이를 관리할 수 있습니다. 이 문서에서는 Power BI 서비스에 대해 중점적으로 설명합니다. 
+
+게이트웨이를 방금 설치한 경우 다음으로 [데이터 원본을 추가](#add-a-data-source)하고 사용자가 데이터 원본에 액세스할 수 있도록 [사용자를 추가](#add-users-to-a-data-source)하는 것이 좋습니다.
 
 
 ## <a name="manage-data-sources"></a>데이터 원본 관리
 
-Power BI는 다양한 온-프레미스 데이터 원본을 지원하고 각 데이터 원본에는 고유한 요구 사항이 있습니다. 이 예제에서는 SQL Server를 데이터 원본으로 추가하는 방법을 보여주지만 단계는 다른 데이터 원본의 경우와 비슷합니다.
+Power BI는 다양한 온-프레미스 데이터 원본을 지원하고 각 데이터 원본에는 고유한 요구 사항이 있습니다. 단일 데이터 원본이나 여러 데이터 원본에 게이트웨이를 사용할 수 있습니다. 이 예제에서는 SQL Server를 데이터 원본으로 추가하는 방법을 보여주지만 단계는 다른 데이터 원본의 경우와 비슷합니다.
 
 
 ### <a name="add-a-data-source"></a>데이터 소스 추가
@@ -113,6 +117,14 @@ Power BI는 다양한 온-프레미스 데이터 원본을 지원하고 각 데�
 
 모든 새 **예약된 새로 고침** 요청 및 DirectQuery 작업은 지정된 게이트웨이 클러스터의 기본 인스턴스에 자동으로 라우팅됩니다. 기본 게이트웨이 인스턴스가 오프라인이면 요청이 클러스터의 다른 게이트웨이 인스턴스로 라우팅됩니다.
 
+
+## <a name="share-a-gateway"></a>게이트웨이 공유
+
+게이트웨이를 그 자체로는 ‘공유’할 수 없지만, 게이트웨이에 관리자를 추가할 수 있으며, 게이트웨이의 데이터 원본에 사용자를 추가할 수 있습니다. 
+
+게이트웨이를 설치한 후에는 기본적으로 해당 게이트웨이의 관리자가 됩니다. 이전에 설명한 것처럼, 다른 사용자를 관리자로 추가할 수 있습니다. 이러한 관리자는 데이터 원본을 추가하고, 구성하고, 게이트웨이를 제거할 수 있습니다.
+
+각 게이트웨이 아래에 작성한 데이터 원본에 사용자를 할당할 수도 있습니다. 그러면 사용자는 이러한 데이터 원본을 사용하여 Power BI 보고서를 새로 고칠 수 있습니다. 그러나 데이터 원본 또는 게이트웨이 설정은 변경할 수 없습니다.
 
 ## <a name="migrate-restore-or-take-over-a-gateway"></a>게이트웨이 마이그레이션, 복원 또는 인수
 
