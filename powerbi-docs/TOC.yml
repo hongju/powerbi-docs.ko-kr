@@ -40,7 +40,7 @@
               href: service-cortana-intro.md
             - name: Power BI의 대시보드 타일
               href: service-dashboard-tiles.md
-            - name: 공유
+            - name: 공유한 항목
               href: service-shared-with-me.md
             - name: Power BI에서 데이터 새로 고침
               href: refresh-data.md
@@ -48,9 +48,9 @@
               href: service-frequently-asked-questions.md
             - name: 미국 정부용 Power BI
               href: service-govus-overview.md
-            - name: Power BI 무료 대 Pro
+            - name: Power BI Pro와 무료 버전 비교
               href: service-free-vs-pro.md
-            - name: 지원을 받기 위한 10가지 팁
+            - name: 도움을 받을 수 있는 10가지 팁
               href: service-tips-for-finding-help.md
             - name: 필터 및 Power BI 보고서에서 강조 표시 정보
               href: power-bi-reports-filters-and-highlighting.md
@@ -102,7 +102,7 @@
                   href: service-delete.md
                 - name: 미국 정부 기관 등록
                   href: service-govus-signup.md
-                - name: Power BI 서비스에서 데이터 경고
+                - name: Power BI 서비스의 데이터 경고
                   href: service-set-data-alerts.md
                 - name: Power BI Q&A에서 질문하기 위한 팁과 요령
                   href: service-q-and-a-tips.md
@@ -176,7 +176,7 @@
                   href: service-connect-to-planview.md
                 - name: Prevedere
                   href: service-connect-to-prevedere.md
-                - name: Project Online
+                - name: 프로젝트 온라인
                   href: service-connect-to-project-online.md
                 - name: Project Madeira
                   href: service-connect-to-project-madeira.md
@@ -188,7 +188,7 @@
                   href: service-connect-to-salesforce.md
                 - name: SendGrid
                   href: service-connect-to-sendgrid.md
-                - name: ServiceNow Incidents
+                - name: ServiceNow 인시던트
                   href: service-connect-to-servicenow.md
                 - name: Smartsheet
                   href: service-connect-to-smartsheet.md
@@ -214,7 +214,7 @@
                   href: service-connect-to-vmob.md
                 - name: Webtrends
                   href: service-connect-to-webtrends.md
-                - name: Windows Dev Center
+                - name: Windows 개발자 센터
                   href: service-connect-to-windows-dev-center.md
                 - name: Xero
                   href: service-connect-to-xero.md
@@ -226,7 +226,7 @@
                   href: service-connect-to-zuora.md
             - name: 대시보드
               items:
-                - name: Power BI의 주요 대시보드
+                - name: Power BI의 추천 대시보드
                   href: service-dashboard-featured.md
                 - name: Power BI 통합 알림 센터
                   href: service-notification-center.md
@@ -366,9 +366,9 @@
                   href: service-report-reorder-pages.md
                 - name: Power BI에서 보고서 페이지 복제
                   href: power-bi-report-copy-paste-page.md
-                - name: Power BI 서비스에서 데스크톱으로 보고서 내보내기(미리보기)
+                - name: Power BI 서비스에서 데스크톱에 보고서 내보내기(미리 보기)
                   href: service-export-to-pbix.md
-                - name: URL에서 쿼리 문자열 매개 변수를 사용한 보고서 필터링
+                - name: URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
                   href: service-url-filters.md
                 - name: Power BI에서 빠르고 신뢰할 수 있는 보고서 빌드를 위한 모범 사례
                   href: power-bi-reports-performance.md
@@ -384,7 +384,7 @@
                   href: service-desktop-files.md
                 - name: 쉼표로 구분된 값(.csv) 파일에서 데이터 가져오기
                   href: service-comma-separated-value-files.md
-                - name: Power BI(Preview)의 실시간 스트리밍
+                - name: Power BI에서 실시간 스트리밍(미리 보기)
                   href: service-real-time-streaming.md
                 - name: Excel 2016에서 Power BI로 게시
                   href: service-publish-from-excel.md
@@ -582,11 +582,11 @@
               href: desktop-r-scripts.md
             - name: 쿼리 편집기에서 R 사용
               href: desktop-r-in-query-editor.md
-            - name: Power BI에서 외부 R IDE 사용
+            - name: Power BI로 외부 R IDE 사용
               href: desktop-r-ide.md
             - name: 지원되는 R 패키지
               href: service-r-packages-support.md
-            - name: Power BI Desktop에 직접 데이터 입력
+            - name: Power BI Desktop에 데이터 직접 연결
               href: desktop-enter-data-directly-into-desktop.md
             - name: Power BI Desktop에서 Excel에 연결
               href: desktop-connect-excel.md
@@ -618,11 +618,11 @@
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery 및 SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: Power BI Desktop에서 참조 무결성 설정 가정
+            - name: Power BI Desktop의 참조 무결성 설정 가정
               href: desktop-assume-referential-integrity.md
             - name: Power BI Desktop(미리 보기)에서 SAP BW Connector 사용
               href: desktop-sap-bw-connector.md
-            - name: Power BI Desktop에서 비즈니스 링크용 OneDrive 사용
+            - name: Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
               href: desktop-use-onedrive-business-links.md
             - name: '타사 서비스: Power BI Desktop에 대한 Facebook 커넥터'
               href: service-facebook-connector.md
@@ -640,9 +640,9 @@
           items:
             - name: Power BI Desktop의 데이터 분류
               href: desktop-data-categorization.md
-            - name: Power BI 모바일 앱용 Power BI Desktop에서 바코드 필드 태그 지정
+            - name: Power BI 모바일 앱용 Power BI Desktop에 있는 바코드 필드 태그
               href: desktop-mobile-barcodes.md
-            - name: Power BI 모바일 앱용 Power BI Desktop에서 지리 필터링 설정
+            - name: Power BI 모바일 앱용 Power BI Desktop에 있는 지리 필터링 설정
               href: desktop-mobile-geofiltering.md
             - name: Power BI Desktop의 계산 열
               href: desktop-calculated-columns.md
@@ -706,11 +706,11 @@
               href: desktop-rls.md
             - name: Power BI Desktop에서 도구 설명 사용자 지정
               href: desktop-custom-tooltips.md
-            - name: Power BI Desktop에서 조건부 테이블 서식
+            - name: Power BI Desktop에서 조건부 테이블 서식 지정
               href: desktop-conditional-table-formatting.md
             - name: Power BI Desktop의 열 기준 정렬
               href: desktop-sort-by-column.md
-            - name: Power BI 휴대폰 앱에 최적화된 보고서 만들기
+            - name: Power BI 전화 앱에 대해 최적화된 보고서 만들기
               href: desktop-create-phone-report.md
             - name: 데이터 보기 및 레코드 보기 사용
               href: desktop-see-data-see-records.md
@@ -718,7 +718,7 @@
           items:
             - name: 시각화 모범 사례
               href: power-bi-visualization-best-practices.md
-            - name: 시각적 개체를 만드는 데 사용되는 데이터 참조
+            - name: 시각적 개체를 만드는 데 사용된 데이터 보기
               href: service-reports-show-data.md
             - name: Power BI 보고서에서 시각화 유형 변경
               href: power-bi-report-change-visualization-type.md
@@ -828,9 +828,9 @@
               href: mobile-tiles-in-the-mobile-apps.md
             - name: 모바일 앱의 즐겨찾기
               href: mobile-apps-favorites.md
-            - name: Power BI 모바일 앱에서 데이터 경고 설정
+            - name: Power BI Mobile Apps에서 데이터 경고 설정
               href: mobile-set-data-alerts-in-the-mobile-apps.md
-            - name: Power BI 모바일 앱에서 알림 받기
+            - name: Power BI 모바일 앱에서 알림 가져오기
               href: mobile-apps-notification-center.md
             - name: 특정 위치로 이동하는 딥 링크 만들기
               href: mobile-apps-deep-link-specific-location.md
@@ -868,7 +868,7 @@
               href: mobile-apple-watch.md
             - name: iPhone에서 앱의 바코드 스캔
               href: mobile-apps-scan-barcode-iphone.md
-            - name: iOS 앱용 Power BI
+            - name: iOS용 Power BI 앱
               href: mobile-ios-ipad-iphone-apps.md
         - name: iOS 및 Android
           items:
@@ -892,7 +892,7 @@
   items:
     - name: 개요
       items:
-        - name: Power BI로 개발자는 무엇을 할 수 있나요?
+        - name: 개발자는 Power BI로 무엇을 할 수 있나요?
           href: developer/what-can-you-do.md
     - name: 자습서
       items:
@@ -1082,7 +1082,7 @@
               href: report-server/upgrade.md
             - name: 보고서 서버 마이그레이션
               href: report-server/migrate-report-server.md
-            - name: Kerberos를 구성하여 Power BI 보고서 사용
+            - name: Power BI 보고서를 사용하도록 Kerberos 구성
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: 원격으로 모바일 앱 액세스 구성
               href: report-server/configure-powerbi-mobile-apps-remote.md
@@ -1136,6 +1136,8 @@
           href: service-gateway-onprem-manage-oracle.md
         - name: 엔터프라이즈 데이터 원본 관리 - 가져오기/예약된 새로 고침
           href: service-gateway-enterprise-manage-scheduled-refresh.md
+        - name: 온-프레미스 및 클라우드 데이터 원본 병합
+          href: service-gateway-mashup-on-premises-cloud.md
         - name: SSO(Single Sign-On)에 Kerberos 사용
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: 프록시 설정 구성
@@ -1166,7 +1168,7 @@
           href: service-admin-assigning-power-bi-pro-licenses-azure.md
     - name: 개념
       items:
-        - name: Power BI 프리미엄
+        - name: Power BI Premium
           items:
             - name: Power BI 프리미엄이란?
               href: service-premium.md
@@ -1212,7 +1214,7 @@
           href: service-admin-power-bi-expressroute.md
         - name: Azure AD B2B 사용
           href: service-admin-azure-ad-b2b.md
-        - name: Power BI를 사용한 행 수준 보안
+        - name: Power BI를 사용하는 행 수준 보안
           href: service-admin-rls.md
         - name: Power BI 보관 작업 영역
           href: service-admin-power-bi-archived-workspace.md
@@ -1226,5 +1228,5 @@
           href: service-admin-governance.md
         - name: Power BI 보안
           href: service-admin-power-bi-security.md
-        - name: Office 365용 Power BI는 Power BI로 전환됨
+        - name: Power BI로 전환되는 Office 365용 Power BI
           href: service-admin-o365portal-retired.md
