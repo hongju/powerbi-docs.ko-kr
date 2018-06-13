@@ -4,8 +4,6 @@
 ## <a name="common-issues"></a>일반적인 문제
 여기에는 인터넷 액세스를 제한하는 환경에서 많은 고객에게 도움이 되었던 몇 가지 일반적인 문제와 해결책이 나와 있습니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-t7RO6mHATI?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ### <a name="authentication-to-proxy-server"></a>프록시 서버에 대한 인증
 프록시는 도메인 사용자 계정으로부터 인증이 필요할 수 있습니다. 기본적으로 게이트웨이는 Windows 서비스 로그온 사용자용 서비스 SID를 사용합니다. 도메인 사용자에 대한 로그온 사용자를 변경하면 이 작업이 수월해집니다. 자세한 내용은 [게이트웨이 서비스 계정을 도메인 사용자로 변경](../service-gateway-proxy.md#changing-the-gateway-service-account-to-a-domain-user)을 참조하세요.
 

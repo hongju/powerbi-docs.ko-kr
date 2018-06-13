@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 39f40c4b8aaf53e81f15c1ad29d1d8425f017468
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294289"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250318"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Office 365 파트너 구독에 Power BI를 추가할 수 없음
 Office 365는 회사에서 Office 365를 자사의 솔루션에 통합하여 재판매함으로써 최종 고객에게 구매, 청구 및 지원을 위한 단일 접점을 제공할 수 있도록 합니다.
@@ -59,10 +59,6 @@ Power BI Pro 또는 Power BI 프리미엄에 대한 구독을 구매하려면 �
 
 * 파트너가 Power BI를 포트폴리오에 추가하는 데 동의하여 고객이 파트너에게서 구매할 수 있도록 합니다.
 * 파트너는 Microsoft로부터 직접 또는 Power BI를 제공하는 다른 파트너로부터 Power BI를 구매할 수 있는 모델로 전환할 수 있습니다.
-
-다음 비디오는 Office 365 신디케이션 및 Power BI 구입에 대해 살펴봅니다.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C357phT94A8" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="next-steps"></a>다음 단계
 [Windows PowerShell을 사용하여 Azure AD 관리](https://technet.microsoft.com/library/jj151815.aspx)  

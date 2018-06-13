@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 06/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1ea92be426312a738e03d78454a4c83a82b233c5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722523"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813805"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI 서비스에서 대시보드 테마 사용
 **대시보드 테마**를 사용하여 전체 대시보드에 회사 색, 계절 색 지정 또는 적용하려는 기타 색 테마 등의 색 테마를 적용할 수 있습니다. **대시보드 테마**를 적용하는 경우 대시보드의 모든 시각적 개체에서는 선택한 테마를 사용합니다(몇 가지 예외 적용, 이 아티클의 뒷부분에서 설명).
 
 ![테마와 예제 대시보드](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-대시보드에서 보고서 시각적 개체의 색을 변경해도 보고서에서 시각적 개체에 영향을 주지 않습니다. 또한 이미 [보고서 테마가 적용](/desktop-report-themes.md)된 보고서의 타일을 고정할 때 현재 테마를 유지하거나 대시보드 테마를 사용하도록 선택합니다.
+대시보드에서 보고서 시각적 개체의 색을 변경해도 보고서에서 시각적 개체에 영향을 주지 않습니다. 또한 이미 [보고서 테마가 적용](desktop-report-themes.md)된 보고서의 타일을 고정할 때 현재 테마를 유지하거나 대시보드 테마를 사용하도록 선택합니다.
 
 
 ## <a name="prerequisites"></a>필수 조건

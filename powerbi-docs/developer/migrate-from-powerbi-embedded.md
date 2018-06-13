@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689786"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813506"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션하고 앱에서 포함하기 위한 고급 기능을 활용하는 방법을 알아봅니다.
@@ -159,7 +159,7 @@ Power BI 작업 영역 컬렉션에서 마이그레이션한 콘텐츠 뿐 아�
 
 ## <a name="rebuild-your-application"></a>응용 프로그램 다시 빌드
 1. powerbi.com 내에서 보고서 위치와 Power BI REST API를 사용하려면 응용 프로그램을 수정해야 합니다.
-2. 응용 프로그램에 대한 *마스터* 계정을 사용하여 AuthN/AuthZ 인증을 다시 빌드하세요. 이 사용자가 다른 사용자를 대신하여 작업할 수 있도록 [임베드 토큰](https://msdn.microsoft.com/library/mt784614.aspx) 사용을 활용할 수 있습니다.
+2. 응용 프로그램에 대한 *마스터* 계정을 사용하여 AuthN/AuthZ 인증을 다시 빌드하세요. 이 사용자가 다른 사용자를 대신하여 작업할 수 있도록 [임베드 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken) 사용을 활용할 수 있습니다.
 3. 응용 프로그램에 powerbi.com에서 보고서를 포함 합니다.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>사용자를 Power BI 사용자로 매핑

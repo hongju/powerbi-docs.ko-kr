@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: e5866b249d95cd3b05c7d769fe0cdbab984a978d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289927"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813092"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>데이터 집합에 데이터 푸시 전체 코드 목록
 이 문서는 [데이터 집합에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
@@ -228,7 +228,7 @@ ms.locfileid: "34289927"
 [Power BI에서 데이터 집합 만들기](walkthrough-push-data-create-dataset.md)  
 [Power BI 테이블에 행을 추가할 데이터 집합 가져오기](walkthrough-push-data-get-datasets.md)  
 [Power BI 테이블에 행 추가](walkthrough-push-data-add-rows.md)  
-[Power BI REST API 참조](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
 
 

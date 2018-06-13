@@ -10,17 +10,15 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 03f1c9948b3c178f39d369fddece36a5fcd05e4f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8e31d3128e38453212a8a0ecef2a139fa2d0f356
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297472"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250548"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune으로 모바일 앱 구성
 Microsoft Intune을 사용하여 조직에서는 장치 및 응용 프로그램을 관리할 수 있습니다. iOS 및 Android용 Power BI 모바일 응용 프로그램은 Intune에 통합되어 사용자 장치에서 응용 프로그램을 관리하고 보안을 제어할 수 있도록 합니다. 구성 정책을 통해 액세스 핀 요구, 응용 프로그램에서 데이터가 처리되는 방식 제어, 앱이 사용되고 있지 않을 때 응용 프로그램 데이터를 암호화하는 것과 같은 항목을 제어할 수 있습니다.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9HF-qsdQvHw?list=PLv2BtOtLblH1nPVPU2etFzTNmpz49dwXm" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="general-mobile-device-management-configuration"></a>일반 모바일 장치 관리 구성
 이 문서는 Microsoft Intune에 대한 전체 구성 가이드로 제공되지는 않았습니다. Intune과의 통합을 막 시작한 경우 확실히 설정해두어야 하는 몇 가지 사항이 있습니다. [자세히 알아보기](https://technet.microsoft.com/library/jj676587.aspx)
