@@ -900,8 +900,18 @@
           href: developer/embed-sample-for-customers.md
     - name: 개념
       items:
-        - name: Power BI API로 무엇을 할 수 있나요?
-          href: developer/overview-of-power-bi-rest-api.md
+        - name: Power BI REST API 사용
+          items:
+            - name: Power BI API로 무엇을 할 수 있나요?
+              href: developer/overview-of-power-bi-rest-api.md
+            - name: Power BI REST API 제한 사항
+              href: developer/api-rest-api-limitations.md
+            - name: 데이터 집합 속성
+              href: developer/api-dataset-properties.md
+            - name: 데이터 모델 버전 관리
+              href: developer/api-data-model-versioning.md
+        - name: 개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
+          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Power BI 사용 권한
           href: developer/power-bi-permissions.md
         - name: 행 수준 보안(RLS)
@@ -968,6 +978,8 @@
               href: developer/walkthrough-push-data-add-rows.md
             - name: 전체 코드 목록
               href: developer/walkthrough-push-data-complete-code.md
+            - name: 실시간 데이터에 대한 자동 보존 정책
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
         - name: 콘텐츠 팩 인증
           items:
             - name: 콘텐츠 팩 인증 프로그램
