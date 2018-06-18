@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34720814"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813161"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
 
@@ -108,7 +108,7 @@ GenerateToken 호출 전에 응용 프로그램의 백 엔드가 인증 토큰�
 
 어디에 속하는지 확인하려면 다음 방법을 수행합니다.
 
-* [get dataset](https://msdn.microsoft.com/library/mt784653.aspx)을 실행합니다. IsEffectiveIdentityRequired 속성이 true인지 확인합니다.
+* [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets)을 실행합니다. IsEffectiveIdentityRequired 속성이 true인지 확인합니다.
 * Username은 모든 EffectiveIdentity의 필수 항목입니다.
 * IsEffectiveIdentityRolesRequired가 true이면 역할이 필요합니다.
 * DatasetId는 모든 EffectiveIdentity의 필수 항목입니다.
@@ -136,7 +136,7 @@ Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 응용 프
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>포함하기 위한 온보딩 환경 도구
 
-[온보딩 환경 도구](https://aka.ms/embedsetup)를 진행하여 신속하게 샘플 응용 프로그램을 다운로드할 수 있습니다. 다음 샘플과 응용 프로그램을 비교할 수 있습니다.
+[온보딩 환경 도구](https://aka.ms/embedsetup)를 통해 신속하게 샘플 응용 프로그램을 다운로드할 수 있습니다. 다음 샘플과 응용 프로그램을 비교할 수 있습니다.
 
 ### <a name="prerequisites"></a>필수 조건
 

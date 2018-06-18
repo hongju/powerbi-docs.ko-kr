@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34799582"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813345"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop에서 SSAS 다차원 모델에 연결
 Power BI Desktop을 통해 일반적으로 **SSAS MD**라고 하는 **SSAS 다차원 모델**에 액세스할 수 있습니다.
@@ -75,11 +75,12 @@ Power BI Desktop을 통해 일반적으로 **SSAS MD**라고 하는 **SSAS 다�
 ### <a name="security"></a>보안
 다차원 모델은 역할을 통해 차원 및 셀 수준 보안을 지원합니다. Power BI를 사용하여 큐브에 연결하는 경우 적절한 사용 권한에 대해 인증되고 평가됩니다. 사용자가 차원 보안 을 적용하면, 해당 차원 멤버는 Power BI에서 사용자가 볼 수 없습니다. 그러나 사용자가 *셀 보안* 사용 권한을 정의하여 특정 셀을 제한하는 경우, 해당 사용자는 Power BI를 사용하여 큐브에 연결할 수 없습니다.
 
-## <a name="limitations-of-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop에서 SSAS 다차원 모델의 제한 사항
+## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 **SSAS MD**를 사용하는 데에는 특정 제한 사항이 있습니다.
 
 * 서버는 Power BI Desktop SSAS MD 커넥터가 제대로 작동하기 위해 SQL Server 2012 SP1 CU4 또는 이후 버전의 Analysis Services를 실행해야 합니다.
 * *작업* 및 *명명된 집합* 은 Power BI에 노출되지 않지만, *작업* 또는 *명명된 집합* 을 포함하고 시각적 개체 및 보고서를 만드는 큐브에는 계속 연결할 수 있습니다.
+* Power BI가 SSAS 모델의 메타데이터를 표시하지만 모델에서 데이터를 가져올 수 없는 문제가 발생할 수 있습니다. 이러한 현상은 32비트 버전의 MSOLAP 공급자가 시스템에 설치된 경우 발생하지만, 64비트 버전의 경우 문제가 없습니다. 64비트 버전을 설치하면 문제가 해결될 수 있습니다.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop에서 지원되는 SSAS MD의 기능
 다음은 Power BI Desktop에서 지원되는 SSAS MD 기능입니다.

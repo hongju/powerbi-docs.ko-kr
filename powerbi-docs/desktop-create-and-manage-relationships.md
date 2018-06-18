@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813667"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop에서 관계 만들기 및 관리
 여러 테이블을 가져올 때 이러한 모든 테이블의 데이터를 사용하여 분석을 수행하려는 경우가 있습니다. 결과를 정확하게 계산하고 보고서에 올바른 정보를 표시하려면 테이블 간의 관계가 필요합니다. Power BI Desktop에서는 이러한 관계를 쉽게 만들 수 있습니다. 실제로 아무 작업도 수행할 필요가 없는 경우가 대부분입니다. 자동 검색 기능이 자동으로 작업을 수행할 수 있습니다. 그러나 경우에 따라 직접 관계를 만들어야 하거나 관계를 일부 변경해야 할 수 있습니다. 어떤 경우든지 Power BI Desktop에서의 관계 및 관계를 만들고 편집하는 방법을 이해하는 것이 중요합니다. 
@@ -35,6 +36,16 @@ ms.lasthandoff: 05/17/2018
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
 기본적으로 Power BI Desktop이 새 관계에 대한 카디널리티(방향), 교차 필터 방향 및 활성 속성을 자동으로 구성하지만 필요한 경우 변경할 수 있습니다. 자세한 내용은 이 아티클의 뒷부분에 있는 추가 옵션 이해 섹션을 참조하세요.
+
+관계에 대해 선택된 테이블에 고유한 값이 없는 경우, *열 중 하나가 고유한 값을 가져야 합니다*라는 오류가 표시됩니다. 관계에 있는 테이블 중 적어도 하나에는 모든 관계형 데이터베이스 기술에 대한 공통 요구 사항인 고유한 키 값 목록이 있어야 *합니다*. 
+
+해당 오류가 발생하면 이를 해결할 수 있는 몇 가지 방법이 있습니다.
+
+* "중복 행 제거"를 사용하여 고유한 값을 가진 열을 만듭니다. 이 방법의 단점은 중복 행이 제거될 때 정보도 손실된다는 것이며, 이 때문에 키(행)가 복제되기도 합니다.
+* 별개의 키 값 목록으로 만들어진 중간 테이블을 모델에 추가하면 관계의 원래 두 열 모두에 연결됩니다.
+
+자세한 내용은 이에 대해 자세히 설명된 [블로그 게시물](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/)을 참조하세요.
+
 
 ## <a name="edit-a-relationship"></a>관계 편집
 1. **홈** 탭에서 **관계 관리**를 클릭합니다.

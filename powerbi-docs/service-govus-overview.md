@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e676ef85d982a59b7058bce9e6467e8482b7aa62
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7f712086ff667a5d4b1f21fb441c94bfae96693f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722694"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813644"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -92,6 +92,11 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 | 상용 버전 URL | 미국 정부 기관 버전 URL |
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+
+**질문:** 내 계정이 하나 이상의 소버린 클라우드에서 프로비전됩니다. **Power BI Desktop**을 사용할 때 어떤 클라우드에 연결할 것인지 선택하려면 어떻게 해야 합니까?
+
+**답변:** **Power BI Desktop**의 2018년 7월 릴리스부터 **Power BI Desktop**에 로그인할 때 사용할 클라우드를 선택할 수 있습니다.
+
 
 ## <a name="next-steps"></a>다음 단계
 Power BI에서는 모든 종류의 작업을 수행할 수 있습니다. 서비스에 등록하는 방법을 보여 주는 문서를 포함하여 자세한 정보 및 학습에 대해서는 다음 리소스를 확인해 보세요.

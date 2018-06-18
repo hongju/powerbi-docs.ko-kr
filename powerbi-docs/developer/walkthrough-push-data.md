@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289467"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813115"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI 데이터 집합에 데이터 푸시
 Power BI API를 사용하여 데이터를 Power BI 데이터 집합에 푸시할 수 있습니다. 예를 들어 기존 비즈니스 워크플로를 확장하여 키 데이터를 데이터 집합에 푸시하고자 한다고 가정합니다. 여기서는 Product 테이블을 포함하는 Sales Marketing 데이터 집합을 데이터 집합에 푸시하려고 합니다.
@@ -31,14 +31,14 @@ Power BI API를 사용하여 데이터를 Power BI 데이터 집합에 푸시할
 다음 섹션에서는 데이터를 푸시하는 Power BI API 작업에 대한 일반적인 내용을 설명합니다.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>데이터를 푸시하는 Power BI API 작업
-Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱이 데이터 집합에 행을 추가하면 대시보드의 타일이 업데이트된 데이터와 함께 자동으로 업데이트됩니다. 데이터를 푸시하려면 [데이터 집합 만들기](https://msdn.microsoft.com/library/mt203562.aspx) 작업과 함께 [행 추가](https://msdn.microsoft.com/library/mt203561.aspx) 작업을 사용합니다. 데이터 집합을 찾으려면 [데이터 집합 가져오기](https://msdn.microsoft.com/library/mt203567.aspx) 작업을 사용합니다. 이러한 작업에서는 그룹 ID를 전달하여 그룹으로 작업할 수 있습니다. 그룹 ID 목록을 가져오려면 [그룹 가져오기](https://msdn.microsoft.com/library/mt243842.aspx) 작업을 사용합니다.
+Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱이 데이터 집합에 행을 추가하면 대시보드의 타일이 업데이트된 데이터와 함께 자동으로 업데이트됩니다. 데이터를 푸시하려면 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업과 함께 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 사용합니다. 데이터 집합을 찾으려면 [데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업을 사용합니다. 이러한 작업에서는 그룹 ID를 전달하여 그룹으로 작업할 수 있습니다. 그룹 ID 목록을 가져오려면 [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) 작업을 사용합니다.
 
 데이터 집합에 데이터를 푸시하는 작업은 다음과 같습니다.
 
-* [데이터 집합 만들기](https://msdn.microsoft.com/library/mt203562.aspx)
-* [데이터 집합 가져오기](https://msdn.microsoft.com/library/mt203567.aspx)
-* [행 추가](https://msdn.microsoft.com/library/mt203561.aspx)
-* [그룹 가져오기](https://msdn.microsoft.com/library/mt243842.aspx)
+* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
+* [행 게시](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
 Power BI에서 데이터 집합을 만들려면 Power BI 서비스에 JSON(JavaScript Object Notation) 문자열을 전달합니다. JSON에 대한 자세한 내용은 [JSON 소개](http://json.org/)를 참조하세요.
 
@@ -113,10 +113,6 @@ Power BI 테이블 스키마에는 다음과 같은 데이터 형식을 사용�
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI에 등록](create-an-azure-active-directory-tenant.md)  
-[데이터 집합 만들기](https://msdn.microsoft.com/library/mt203562.aspx)  
-[데이터 집합 가져오기](https://msdn.microsoft.com/library/mt203567.aspx)  
-[행 추가](https://msdn.microsoft.com/library/mt203561.aspx)  
-[그룹 가져오기](https://msdn.microsoft.com/library/mt243842.aspx)  
 [JSON 개요](http://json.org/)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

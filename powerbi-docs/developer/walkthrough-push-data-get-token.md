@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289375"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812632"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2단계: 인증 액세스 토큰 가져오기
 이 문서는 [데이터 집합에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
@@ -104,7 +104,7 @@ Program {...}에 이 코드를 추가합니다.
        #endregion
 ```
 
-인증 토큰을 가져온 후에는 원하는 Power BI 작업을 호출할 수 있습니다. 다음 단계에서는 [데이터 집합 만들기](https://msdn.microsoft.com/library/mt203562.aspx) 작업을 호출하여 대시보드에 데이터를 푸시할 데이터 집합을 만드는 방법을 보여 줍니다.
+인증 토큰을 가져온 후에는 원하는 Power BI 작업을 호출할 수 있습니다. 다음 단계에서는 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업을 호출하여 대시보드에 데이터를 푸시할 데이터 집합을 만드는 방법을 보여 줍니다.
 
 다음 단계에서는 [Power BI에서 데이터 집합을 만드는](walkthrough-push-data-create-dataset.md) 방법을 보여 줍니다.
 
@@ -181,6 +181,6 @@ Program {...}에 이 코드를 추가합니다.
 [.NET NuGet 패키지용 Azure AD 인증 라이브러리](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
 [Power BI 데이터 집합에 데이터 푸시](walkthrough-push-data.md)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 참조](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

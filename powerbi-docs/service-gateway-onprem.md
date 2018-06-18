@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 06/05/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722819"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812816"
 ---
 # <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
 
@@ -47,7 +47,9 @@ ms.locfileid: "34722819"
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 다운로드 및 설치
-게이트웨이를 다운로드하려면 다운로드 메뉴에서 **데이터 게이트웨이** 를 선택합니다. [온-프레미스 데이터 게이트웨이](http://go.microsoft.com/fwlink/?LinkID=820925)를 다운로드합니다.
+게이트웨이를 다운로드하려면 다운로드 메뉴에서 **데이터 게이트웨이** 를 선택합니다. [온-프레미스 데이터 게이트웨이](http://go.microsoft.com/fwlink/?LinkID=820925)를 다운로드합니다. 
+
+온-프레미스 데이터 게이트웨이를 업데이트는 이 섹션에서 설명된 대로 게이트웨이를 재설치함으로써 수행됩니다. 다시 설치하여 게이트웨이를 업데이트할 때 기존 게이트웨이 설정이 유지됩니다.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -56,9 +58,8 @@ ms.locfileid: "34722819"
 
 ## <a name="install-the-gateway-in-personal-mode"></a>개인 모드에서 게이트웨이 설치
 > [!NOTE]
-> 개인은 Power BI로만 작업합니다.
-> 
-> 
+> Personal 버전의 게이트웨이만 Power BI와 작동합니다.
+
 
 개인 게이트웨이가 설치된 후에는 **Power BI Gateway - Personal 구성 마법사**를 시작해야 합니다.
 

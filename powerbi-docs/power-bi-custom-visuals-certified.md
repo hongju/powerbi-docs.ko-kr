@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297012"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813598"
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
@@ -90,6 +90,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [비디오](https://youtu.be/qJ7s_KrGiUU) |
 | [MAQ Software의 원본이 Gantt 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [비디오](https://youtu.be/vJLV9JRCpI8) |
 | [지구본 데이터 막대](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
+| [MAQ 소프트웨어의 그리드](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380825) | [비디오](https://youtu.be/VOPoDJgZfOY) |
 | [Akvelon의 계층 구조 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [비디오](https://youtu.be/0ZGzJaq_KT4) |
 | [히스토그램 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
 | [Histogram with points by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032)(MAQ Software의 포인트가 있는 히스토그램) | [비디오](https://youtu.be/-ILF--wExrw) |

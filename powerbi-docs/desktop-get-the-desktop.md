@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: eee341314b309eda119dd282eafd18188f8fdfd0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52ef1f6526b83a54ba26fdffaf8150049c55880d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286638"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813322"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 **Power BI Desktop**을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. **Power BI Desktop**에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다.  **Power BI Desktop**은 무료로 다운로드할 수 있습니다.
@@ -98,6 +98,14 @@ Microsoft Store에서 **Power BI Desktop**을 설치할 때 다음과 같은 몇
 * **디스플레이:** 최소 1440x900, 1600x900(16:9) 권장. 1024x768 또는 1280x800처럼 낮은 해상도는 권장되지 않습니다. 시작 화면 닫기 같은 특정 컨트롤이 해상도 밖에 표시되기 때문입니다.
 * **Windows 디스플레이 설정:** 디스플레이 설정이 텍스트, 앱 및 기타 항목의 크기를 100% 이상으로 변경하도록 설정되어 있으면 **Power BI Desktop**을 계속 사용하기 위해 닫히거나 응답해야 하는 특정 대화 상자가 표시되지 않을 수 있습니다. 이 문제가 발생하면 Windows에서 **설정> 시스템> 디스플레이**로 이동하여 **디스플레이 설정**을 확인하고 슬라이더를 사용하여 디스플레이 설정을 100%로 되돌립니다.
 * **CPU:** 1GHz 또는 더 빠른 x86 또는 x64비트 프로세스 권장.
+
+## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
+
+**Power BI Desktop**의 구형 버전을 사용할 때 일부 사용자에게는 다음과 유사한 오류가 발생합니다. 
+
+    "We weren't able to restore the saved database to the model" 
+
+Power BI Desktop의 현재 버전으로 업데이트하면 대개 이 문제가 해결됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 **Power BI Desktop**을 설치하면 다음 콘텐츠는 빠르게 시작하고 실행하는 데 도움을 줄 수 있습니다.

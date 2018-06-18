@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 218f4cd0aaaa5ffc8cab3a06b06af9544b02143d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301737"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI Embedded 콘텐츠에서 행 수준 보안 사용
 행 수준 보안(RLS)를 사용하여 대시보드, 타일, 보고서 및 데이터 집합 내 데이터에 대한 사용자 액세스를 제한할 수 있습니다. 여러 사용자가 다른 데이터를 보면서 동일한 아티팩트를 작업할 수 있습니다. RLS 포함이 지원됩니다.
@@ -75,9 +76,9 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 집합 및 보고서를
 ## <a name="applying-user-and-role-to-an-embed-token"></a>포함된 토큰에 사용자 및 역할 적용
 이제 Power BI Desktop 역할을 구성했으므로 역할을 활용하기 위해 응용 프로그램에 필요한 몇 가지 작업이 있습니다.
 
-사용자가 응용 프로그램에 의해 인증되고 권한을 부여 받고 포함된 토큰을 사용하여 특정 Power BI Embedded 보고서에 대한 사용자 액세스 권한을 부여합니다. Power BI Embedded에는 사용자에 대한 특정 정보가 없습니다. RLS가 작동하려면 ID 양식에서 포함된 토큰의 일부로 몇 가지 추가 컨텍스트를 통과해야 합니다. [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API 방식으로 이 작업을 수행합니다.
+사용자가 응용 프로그램에 의해 인증되고 권한을 부여 받고 포함된 토큰을 사용하여 특정 Power BI Embedded 보고서에 대한 사용자 액세스 권한을 부여합니다. Power BI Embedded에는 사용자에 대한 특정 정보가 없습니다. RLS가 작동하려면 ID 양식에서 포함된 토큰의 일부로 몇 가지 추가 컨텍스트를 통과해야 합니다. [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API 방식으로 이 작업을 수행합니다.
 
-[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API는 관련 데이터 집합이 표시된 ID 목록을 수락합니다. RLS를 실행하려면 ID의 일부로 다음을 전달해야 합니다.
+API는 관련 데이터 집합이 표시된 ID 목록을 수락합니다. RLS를 실행하려면 ID의 일부로 다음을 전달해야 합니다.
 
 * **사용자 이름(필수)** – RLS 규칙을 적용할 때 사용자를 식별하는 데 사용할 수 있는 문자열입니다. 단일 사용자만 나열할 수 있습니다.
 * **역할(필수)** – 행 수준 보안 규칙을 적용할 때 선택하는 역할을 포함하는 문자열입니다. 둘 이상의 역할을 전달하는 경우 문자열 배열로 전달되어야 합니다.
@@ -177,7 +178,7 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 * Power BI 서비스 내에서 역할에 사용자를 할당하면 포함된 토큰을 사용하는 경우 RLS에 영향을 주지 않습니다.
 * Power BI 서비스는 편집 권한이 있는 사용자 또는 멤버에게 RLS 설정을 적용하지 않는 반면 포함된 토큰을 사용하여 ID를 제공할 경우 데이터에 적용합니다.
 * 온-프레미스 서버에 대해 Analysis Services 라이브 연결이 지원됩니다.
-* Azure Analysis Services 라이브 연결은 역할별 필터링을 지원하지만 사용자 이름에 따른 동적 필터링은 지원하지 않습니다.
+* Azure Analysis Services 라이브 연결은 역할별 필터링을 지원하지만 사용자 이름에 따른 동적 필터링은 지원하지 않습니다. CustomData를 사용하여 동적 필터링을 수행할 수 있습니다.
 * 기본 데이터 집합에서 RLS가 필요하지 않은 경우 GenerateToken 요청은 유효 ID를 포함하지 **않아야** 합니다.
 * 기본 데이터 집합이 클라우드 모델(캐시된 모델 또는 DirectQuery)이면 유효 ID는 하나 이상의 역할을 포함해야 합니다. 그러지 않으면 역할 할당이 이루어지지 않습니다.
 * ID 목록은 대시보드 포함을 위한 여러 ID 토큰을 구현합니다. 다른 모든 아티팩트는 목록에 단일 ID가 포함됩니다.

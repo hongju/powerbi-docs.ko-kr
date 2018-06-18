@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/12/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 6824436af46caaa78d5ae23d1e1047f27bd30bba
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813046"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI 대시보드, 보고서 및 타일 포함
 
@@ -34,10 +35,17 @@ Microsoft는 사용자의 콘텐츠 액세스, 공유 및 배포 방법에 대�
 
 * [Azure Active Directory 테넌트 설치 확인](embedding-content.md#azureadtenant)
 * [Power BI Pro 계정 만들기](embedding-content.md#proaccount)
-* [Azure Active Directory 응용 프로그램 및 사용 권한 등록](embedding-content.md#appreg)
+
+[온보딩 환경 도구](https://aka.ms/embedsetup)를 통해 신속하게 샘플 응용 프로그램을 다운로드하여 시작할 수 있습니다.
+
+사용자에게 적합한 솔루션을 선택합니다.
+* [고객에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-customers) Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함하는 기능을 제공합니다. [고객에 대한 콘텐츠 포함](https://aka.ms/embedsetup/AppOwnsData) 솔루션을 실행합니다.
+* [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다. [조직에 대한 콘텐츠 포함](https://aka.ms/embedsetup/UserOwnsData) 솔루션을 실행합니다.
+
+그러나 환경을 수동으로 설정하도록 선택하면 아래를 계속할 수 있습니다. 
 
 > [!NOTE]
-> Power BI 용량은 응용 프로그램을 개발하는 데 필요하지 않습니다. 응용 프로그램의 개발자는 Power BI Pro 라이선스가 필요합니다.
+> 전용 용량은 응용 프로그램을 개발하는 데 필요하지 않습니다. 응용 프로그램의 개발자는 Power BI Pro 라이선스가 필요합니다.
 
 ### <a name="azureadtenant"></a>Azure Active Directory 테넌트
 
@@ -59,21 +67,21 @@ Power BI에서 항목을 포함하기 위해 Azure AD(Azure Active Directory) �
 
 #### <a name="an-organizationtenant-admin-user"></a>조직/테넌트 관리 사용자
 
-조직/테넌트 전역 관리 사용자는 고객에 대한 콘텐츠를 포함하는 경우 응용 프로그램에서 사용하는 계정으로 사용하지 않는 것이 좋습니다. 테넌트 내에서 해당 응용 프로그램 계정이 가지는 액세스 권한을 최소화하기 위한 것입니다. 이 관리 사용자는 포함 목적으로 만든 모든 앱 작업 영역의 관리자여야 합니다.
+조직/테넌트 전역 관리 사용자는 고객에 대한 콘텐츠를 포함하는 경우 응용 프로그램에서 사용하는 계정으로 사용하지 않는 것이 좋습니다. 테넌트 내에서 해당 응용 프로그램 계정이 가지는 액세스 권한을 최소화하기 위한 것입니다. 관리 사용자는 포함용으로 만든 모든 앱 작업 영역의 관리자여야 합니다.
 
-#### <a name="accounts-for-analysts-that-will-create-content"></a>콘텐츠를 만드는 분석가용 계정
+#### <a name="accounts-for-analysts-that-create-content"></a>콘텐츠를 만드는 분석가용 계정
 
-Power BI에 대한 콘텐츠를 만드는 여러 사용자가 있을 수 있습니다. Power BI에 콘텐츠를 만들고 배포하는 각 분석가에 대해 Power BI Pro 계정이 필요합니다.
+Power BI에 대한 콘텐츠를 만드는 여러 사용자가 있을 수 있습니다. Power BI에 콘텐츠를 만들고 배포하는 각 분석가에게 Power BI Pro 계정이 필요합니다.
 
 #### <a name="an-application-master-user-account-for-embedding-for-your-customers"></a>고객에 대한 콘텐츠를 포함하는 응용 프로그램 *마스터* 사용자 계정
 
-마스터 계정은 고객에 대한 콘텐츠를 포함하는 경우 응용 프로그램에서 사용하는 계정입니다. 이 시나리오는 ISV 응용 프로그램에 일반적입니다. 마스터 계정은 조직 내에서 필요한 유일한 필수 계정입니다. 분석가 및 관리자 계정으로 사용할 수도 있지만, 권장하지는 않습니다. 응용 프로그램 백 엔드는 이 계정에 대한 자격 증명을 저장하고 Power BI API에 사용할 Azure AD 인증 토큰을 획득하기 위해 사용합니다. 이 계정은 고객에 대해 사용할 응용 프로그램에 대한 embed 토큰을 생성하는 데 사용됩니다.
+마스터 계정은 고객에 대한 콘텐츠를 포함하는 경우 응용 프로그램에서 사용하는 계정입니다. 이 시나리오는 ISV 응용 프로그램에 일반적입니다. 마스터 계정은 조직 내에서 필요한 유일한 필수 계정입니다. 분석가 및 관리자 계정으로 사용할 수도 있지만, 권장하지는 않습니다. 응용 프로그램 백 엔드는 이 계정에 대한 자격 증명을 저장하고 Power BI API에 사용할 Azure AD 인증 토큰을 획득하기 위해 사용합니다. 이 계정은 고객에 대해 사용할 응용 프로그램에 대한 포함 토큰을 생성합니다.
 
 마스터 계정은 응용 프로그램에서 사용하는 Power BI Pro 라이선스가 있는 일반 사용자이며 포함에 사용되는 앱 작업 영역의 관리자여야 합니다.
 
 ### <a name="appreg"></a> 앱 등록 및 사용 권한
 
-REST API를 호출하려면 Azure AD에 응용 프로그램을 등록해야 합니다. 자세한 내용은 [포함된 Power BI 콘텐츠에 Azure AD 앱 등록](register-app.md)을 참조하세요.
+REST API 호출을 실행하려면 Azure AD를 사용해 응용 프로그램을 등록해야 합니다. 자세한 내용은 [Power BI 콘텐츠를 포함하려면 Azure AD 앱 등록](register-app.md)을 참조하세요.
 
 ### <a name="create-app-workspaces"></a>앱 작업 영역 만들기
 
@@ -105,7 +113,7 @@ ISV에서 일반적인 **고객에 대한 콘텐츠를 포함**하는 경우 다
 
 * [대시보드, 타일 또는 보고서를 응용 프로그램에 통합](embed-sample-for-customers.md)
 
-고객에 대한 콘텐츠를 포함하는 경우 embed 토큰이 필요합니다. 자세한 내용은 [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx)을 참조하세요.
+고객에 대한 콘텐츠를 포함하는 경우 embed 토큰이 필요합니다. 자세한 내용은 [토큰 포함](https://docs.microsoft.com/rest/api/power-bi/embedtoken)을 참조하세요.
 
 ## <a name="step-3-promote-your-solution-to-production"></a>3단계: 프로덕션에 솔루션 승격
 
@@ -115,7 +123,7 @@ ISV에서 일반적인 **고객에 대한 콘텐츠를 포함**하는 경우 다
 
 조직에 대한 콘텐츠를 포함하는 경우 사용자에게 응용 프로그램을 가져오는 방법을 알리기만 하면 됩니다. 
 
-해당 작업 영역이 용량으로 지원되는 경우 무료 사용자는 앱 작업 영역(그룹)에서 포함된 콘텐츠를 사용할 수 있습니다. 무료 사용자를 앱 작업 영역(그룹)의 멤버로 나열합니다. 그렇지 않으면 401 권한 없음 오류가 표시됩니다. 다음 표에서는 Office 365 내에서 사용할 수 있는 Power BI Premium SKU를 나열합니다.
+전용 용량이 해당 작업 영역을 지원하는 경우 무료 사용자는 앱 작업 영역(그룹)에서 포함된 콘텐츠를 사용할 수 있습니다. 무료 사용자를 앱 작업 영역(그룹)의 멤버로 나열합니다. 그렇지 않으면 401 권한 없음 오류가 표시됩니다. 다음 표에서는 Office 365 내에서 사용할 수 있는 Power BI Premium SKU를 나열합니다.
 
 | 용량 노드 | 총 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 코어 | 프런트 엔드 코어 | DirectQuery/라이브 연결 제한 | 사용량이 가장 많은 시간에 최대 페이지 렌더링 |
 | --- | --- | --- | --- | --- | --- |
@@ -125,7 +133,11 @@ ISV에서 일반적인 **고객에 대한 콘텐츠를 포함**하는 경우 다
 | P3 |32v-코어 |16개 코어, 100GB RAM |16개 코어 |초당 120 |4,801-9600 |
 
 > [!NOTE]
-> Power BI 프리미엄을 구입하려면 테넌트 내에서 전역 또는 대금 청구 관리자여야 합니다. Power BI 프리미엄을 구입하는 방법에 대한 정보는 [Power BI 프리미엄 구매 방법](../service-admin-premium-purchase.md)을 참조하세요.
+> Power BI Premium을 구입하려면 테넌트 내에서 전역 또는 대금 청구 관리자여야 합니다. Power BI Premium을 구입하는 방법에 대한 정보는 [Power BI 프리미엄 구매 방법](../service-admin-premium-purchase.md)을 참조하세요.
+
+>[!Note]
+>[조직에 맞게 포함된 분석 환경을 설정합니다.](#step-1-setup-your-embedded-analytics-development-environment)
+>
 
 ### <a name="embedding-for-your-customers"></a>고객에 대한 콘텐츠 포함
 
@@ -135,7 +147,7 @@ ISV에서 일반적인 **고객에 대한 콘텐츠를 포함**하는 경우 다
 * 필요에 맞는 용량을 구입합니다. 아래 표를 사용하여 필요한 Power BI Embedded 용량 SKU를 이해할 수 있습니다. 자세한 내용은 [포함된 분석 용량 계획 백서](https://aka.ms/pbiewhitepaper)를 참조하세요. 구입할 준비가 되면 [Microsoft Azure Portal](https://portal.azure.com) 내에서 수행할 수 있습니다. Power BI Embedded 용량을 만드는 방법에 대한 자세한 내용은 [Azure Portal에서 Power BI Embedded 용량 만들기](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)를 참조하세요.
 
 > [!IMPORTANT]
-> 포함 토큰은 개발 테스트 전용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 포함 시나리오를 위해 [용량을 구입해야](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) 합니다. 용량을 구입할 때 토큰 생성은 제한 없이 포함시킬 수 있습니다. [사용 가능한 기능 가져오기](https://msdn.microsoft.com/en-us/library/mt846473.aspx)로 이동하여 사용된 무료 포함 토큰 수를 확인합니다.
+> 포함 토큰은 개발자 테스트 전용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 포함 시나리오를 위해 [용량을 구입해야](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) 합니다. 전용 용량을 구입할 때 토큰 생성은 제한 없이 포함시킬 수 있습니다. [사용 가능한 기능](https://docs.microsoft.com/rest/api/power-bi/availablefeatures)으로 이동하여 사용된 무료 포함 토큰 수를 확인합니다.
 
 | 용량 노드 | 총 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 코어 | 프런트 엔드 코어 | DirectQuery/라이브 연결 제한 | 사용량이 가장 많은 시간에 최대 페이지 렌더링 |
 | --- | --- | --- | --- | --- | --- |
@@ -146,13 +158,15 @@ ISV에서 일반적인 **고객에 대한 콘텐츠를 포함**하는 경우 다
 | A5 |16v-코어 |8개 코어, 50GB RAM |8개 코어 |초당 60 |2,401-4,800 |
 | A6 |32v-코어 |16개 코어, 100GB RAM |16개 코어 |초당 120 |4,801-9600 |
 
-* 앱 작업 영역을 편집하고 고급에서 용량에 할당합니다.
+* 앱 작업 영역을 편집하고 고급에서 전용 용량에 할당합니다.
 
     ![용량에 앱 작업 영역 할당](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * 프로덕션에 업데이트된 응용 프로그램을 배포하고 Power BI 대시보드 및 보고서를 포함하기 시작합니다.
 
-
+>[!Note]
+>[고객에 맞게 포함된 분석 환경을 설정합니다.](#step-1-setup-your-embedded-analytics-development-environment) 
+>
 
 ## <a name="admin-settings"></a>관리 설정
 
@@ -171,4 +185,3 @@ ISV에서 일반적인 **고객에 대한 콘텐츠를 포함**하는 경우 다
 [Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-

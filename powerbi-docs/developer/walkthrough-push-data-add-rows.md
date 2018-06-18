@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287535"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812540"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5단계: Power BI 테이블에 행 추가
 이 문서는 [데이터 집합에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
-데이터 집합에 데이터 푸시의 **4단계**인 [Power BI 테이블에 행을 추가할 데이터 집합 가져오기](walkthrough-push-data-get-datasets.md)에서는 [데이터 집합 가져오기](https://msdn.microsoft.com/library/mt203567.aspx) 작업 및 Newtonsoft.Json을 사용하여 데이터 집합 ID를 가져왔습니다. 이 단계에서는 [행 추가](https://msdn.microsoft.com/library/mt203561.aspx) 작업에 데이터 집합 ID를 사용하여 **Power BI** 데이터 집합에 행을 추가합니다. 
+데이터 집합에 데이터 푸시의 **4단계**인 [Power BI 테이블에 행을 추가할 데이터 집합 가져오기](walkthrough-push-data-get-datasets.md)에서는 [데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업 및 Newtonsoft.Json을 사용하여 데이터 집합 ID를 가져왔습니다. 이 단계에서는 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업에 데이터 집합 ID를 사용하여 **Power BI** 데이터 집합에 행을 추가합니다. 
 
-[행 추가](https://msdn.microsoft.com/library/mt203561.aspx) 작업을 호출하면 데이터 집합에 행이 추가됩니다.
+[PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 호출하면 데이터 집합에 행이 추가됩니다.
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -308,9 +308,8 @@ Program.cs에 이 코드를 추가합니다.
     }
 
 ## <a name="next-steps"></a>다음 단계
-[행 추가](https://msdn.microsoft.com/library/mt203561.aspx)  
 [Power BI 대시보드에 데이터 푸시](walkthrough-push-data.md)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 참조](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

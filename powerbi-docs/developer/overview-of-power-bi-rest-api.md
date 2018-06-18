@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/20/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 47dd0ab87b78e344de176ebe22a1e5dc9753b9b0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8a688f46a46dbb1015629c7785d96b62d4f8df26
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813244"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>개발자는 Power BI API로 무엇을 할 수 있나요?
 Power BI는 대화형 대시보드를 표시하며 다양한 데이터 원본에서 실시간으로 만들어지고 업데이트됩니다. REST 호출을 지원하는 모든 프로그래밍 언어를 사용하여 실시간으로 Power BI 대시보드와 통합되는 앱을 만들 수 있습니다. Power BI 타일 및 보고서를 앱에 통합할 수도 있습니다.
@@ -26,7 +27,6 @@ Power BI는 대화형 대시보드를 표시하며 다양한 데이터 원본에
 | --- | --- |
 | Power BI 사용자 및 비Power BI 사용자를 위한 대시보드, 보고서 및 타일 포함(앱 소유 데이터) |[Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embedding-content.md) |
 | 기존 비즈니스 워크플로를 확장하여 키 데이터를 Power BI 대시보드에 푸시 |[대시보드에 데이터 푸시](walkthrough-push-data.md) |
-| Power BI Desktop 파일 가져오기 |[PBIX 파일 가져오기](https://msdn.microsoft.com/library/mt243837.aspx) |
 | Power BI에 인증. |[Power BI에 인증](get-azuread-access-token.md) |
 | 사용자 지정 시각적 개체 만들기 |[개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기](../service-custom-visuals-getting-started-with-developer-tools.md) |
 
@@ -51,12 +51,17 @@ Power BI 개발자 샘플에는 대시보드, 보고서 및 타일 포함에 대
 ## <a name="developer-tools"></a>개발자 도구
 다음은 Power BI 항목 개발에 도움이 되도록 사용할 수 있는 도구입니다.
 
-* [JavaScript 포함 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo)
+[온보딩 환경 도구](https://aka.ms/embedsetup)를 통해 Power BI 콘텐츠를 포함하는 방법에 대한 샘플 응용 프로그램을 신속하게 다운로드하여 시작할 수 있습니다.
+
+사용자에게 적합한 솔루션을 선택합니다.
+* [고객에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-customers) Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함하는 기능을 제공합니다. [고객에 대한 콘텐츠 포함](https://aka.ms/embedsetup/AppOwnsData) 솔루션을 실행합니다.
+* [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다. [조직에 대한 콘텐츠 포함](https://aka.ms/embedsetup/UserOwnsData) 솔루션을 실행합니다.
+
+JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](https://microsoft.github.io/PowerBI-JavaScript/demo)를 사용할 수 있습니다. 이 방법으로 다양한 유형의 Power BI Embedded 샘플을 빠르게 재생할 수 있습니다. [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 페이지를 방문하여 JavaScript API에 대한 추가 정보를 얻을 수도 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [데이터 집합에 데이터 푸시](walkthrough-push-data.md)  
 [사용자 지정 시각적 개체 개발자 도구 시작하기](../service-custom-visuals-getting-started-with-developer-tools.md) 
-[Power BI REST API 참조](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-

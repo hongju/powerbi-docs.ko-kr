@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
-ms.openlocfilehash: 86dd69cede6975021aff4b0ce3dada112db980ad
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d1fd42f059f8050662adc80018748d11c1e73e2b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287788"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813759"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded의 질문 및 답변
 Power BI Embedded는 질문 및 답변을 응용 프로그램에 통합하고 사용자가 자연어를 사용하여 질문하고 차트나 그래프와 같은 시각적 개체 형식으로 즉각적인 답변을 받을 수 있는 방법을 제공합니다.
@@ -93,7 +93,7 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>embed 토큰
-질문 및 답변 부분을 시작하려면 데이터 집합에서 embed 토큰 끄기를 만듭니다. 자세한 내용은 [질문 및 답변에 대한 토큰 생성](https://msdn.microsoft.com/library/mt784614.aspx#qanda)을 참조하세요.
+질문 및 답변 부분을 시작하려면 데이터 집합에서 embed 토큰 끄기를 만듭니다. 자세한 내용은 [토큰 생성](https://docs.microsoft.com/rest/api/power-bi/embedtoken)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 질문 및 답변 포함을 시도해 보려면 [JavaScript embed 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)을 참조하세요.

@@ -9,23 +9,23 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290318"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812425"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3단계: Power BI에서 데이터 집합 만들기
 이 문서는 [데이터 집합에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
-데이터 집합에 데이터 푸시의 **2단계**인 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 **Azure AD**에 인증한 토큰을 가져왔습니다. 이 단계에서는 이 토큰을 사용하여 [데이터 집합 만들기](https://msdn.microsoft.com/library/mt203562.aspx) 작업을 호출합니다.
+데이터 집합에 데이터 푸시의 **2단계**인 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 **Azure AD**에 인증한 토큰을 가져왔습니다. 이 단계에서는 이 토큰을 사용하여 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업을 호출합니다.
 
 REST 리소스를 호출하려면 리소스를 찾는 URL을 사용하여 데이터 집합을 설명하는 JSON(JavaScript Object Notation) 문자열을 Power BI 서비스 리소스에 보냅니다. REST 리소스는 작업할 Power BI 서비스 부분을 식별합니다. 데이터 집합에 데이터를 푸시하려면 대상 리소스는 **데이터 집합**입니다. 데이터 집합을 식별하는 URL은 https://api.PowerBI.com/v1.0/myorg/datasets입니다. 그룹 내의 데이터를 푸시하는 경우 URL은 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets입니다.
 
 Power BI REST 작업을 인증하려면 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 가져온 토큰을 요청 헤더에 추가합니다.
 
-[데이터 집합 만들기](https://msdn.microsoft.com/library/mt203562.aspx) 작업을 호출하면 새 데이터 집합이 만들어집니다. 
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업을 호출하면 새 데이터 집합이 만들어집니다. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -228,10 +228,11 @@ Program.cs에 이 코드를 추가합니다.
 ## <a name="next-steps"></a>다음 단계
 [Power BI 테이블에 행을 추가할 데이터 집합 가져오기](walkthrough-push-data-get-datasets.md)  
 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)  
-[데이터 집합 만들기](https://msdn.microsoft.com/library/mt203562.aspx)  
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
+[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
 [Power BI 대시보드에 데이터 푸시](walkthrough-push-data.md)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 참조](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

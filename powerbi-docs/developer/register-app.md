@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 8c40ccac8eff2775b09cf9761fba52e6f8a6cd45
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813280"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>포함된 Power BI 콘텐츠에 Azure AD 앱 등록
 Power BI 콘텐츠 포함에 사용하기 위해 Azure AD(Azure Active Directory) 내에서 응용 프로그램을 등록하는 방법에 대해 알아봅니다.
@@ -37,21 +38,22 @@ Power BI 앱 등록 도구를 사용하여 응용 프로그램을 등록하는 �
 3. **앱 이름**을 제공합니다.
 4. 앱 형식 선택은 사용하는 응용 프로그램의 유형에 따라 달라집니다.
    
+   * 클라이언트 장치에서 실행되는 앱에 대해 **네이티브 앱**을 사용합니다. 실제 응용 프로그램이 무엇인지에 관계 없이 사용자에 대한 콘텐츠를 포함하는 경우에도 **네이티브 앱**을 선택합니다. 웹 응용 프로그램에 대해서도 마찬가지입니다.
    * 웹앱 또는 웹 API에 대해 **서버 쪽 웹앱**을 사용합니다.
-   * 클라이언트 장치에서 실행되는 앱에 대해 **네이티브 앱**을 사용합니다. ***실제 응용 프로그램이 무엇인지에 관계 없이 사용자에 대한 콘텐츠를 포함하는 경우에도 **네이티브 앱**을 선택합니다. 웹 응용 프로그램에 대해서도 마찬가지입니다.***
-5. **리디렉션 URL** 및 **홈 페이지 URL**에 대한 값을 입력합니다. 모든 유효한 URL이 작동합니다.
+
+5. **리디렉션 URL** 및 **홈 페이지 URL**에 대한 값을 입력합니다. **리디렉션 URL**은 모든 유효한 URL과 함께 작동합니다.
    
     응용 프로그램 형식으로 **서버 쪽 웹앱**을 선택한 경우에만 **홈 페이지 URL**을 사용할 수 있습니다.
    
-    *고객에 대한 콘텐츠를 포함*하는 경우 및 *integrate-dashboard-web-app* 샘플의 경우 리디렉션 URL은 `http://localhost:13526/redirect`입니다. 보고서 및 타일 샘플의 경우 리디렉션 URL은 `http://localhost:13526/`입니다.
-6. 이 응용 프로그램이 액세스할 API를 선택합니다. Power BI 액세스 권한에 대한 자세한 내용은 [Power BI 사용 권한](power-bi-permissions.md)을 참조하세요.
+    *고객에 대한 콘텐츠 포함* 및 *integrate-dashboard-web-app* 샘플의 경우 리디렉션 URL은 `http://localhost:13526/redirect`입니다. 보고서 및 타일 샘플의 경우 리디렉션 URL은 `http://localhost:13526/`입니다.
+6. 액세스 권한이 있는 응용 프로그램에 대한 API를 선택합니다. Power BI 액세스 권한에 대한 자세한 내용은 [Power BI 사용 권한](power-bi-permissions.md)을 참조하세요.
    
     ![](media/register-app/app-registration-apis.png)
 7. **앱 등록**을 선택합니다.
    
-    그러면 **클라이언트 ID**가 제공됩니다. **서버 쪽 웹앱**을 선택한 경우 **클라이언트 비밀**도 받게 됩니다. **클라이언트 ID**는 나중에 필요한 경우 Azure Portal에서 검색할 수 있습니다. **클라이언트 비밀**이 손실되었으면 Azure Portal에서 새로 만들어야 합니다.
+    그런 다음, **클라이언트 ID**가 제공되고 **서버 측 웹앱**을 선택하면 **클라이언트 암호**가 수신됩니다. **클라이언트 ID**는 나중에 필요한 경우 Azure Portal에서 검색할 수 있습니다. **클라이언트 암호**를 분실한 경우 Azure Portal에서 새로 만들어야 합니다.
 
-8. **권한 부여**를 선택하려면 Azure로 이동해야 합니다.
+8. Azure로 이동하여 **사용 권한 부여**를 선택해야 합니다.
 > [!Note]
     > 이 Azure로 이동을 완료하려면 Azure 테넌트의 전역 관리자여야
 >
@@ -68,7 +70,6 @@ Power BI 앱 등록 도구를 사용하여 응용 프로그램을 등록하는 �
 
 > [!IMPORTANT]
 > 고객에 대한 콘텐츠를 포함하는 경우 Azure Portal 내에서 추가 권한을 구성해야 합니다. 자세한 내용은 [응용 프로그램에 권한 적용](#apply-permissions-to-your-application)을 참조하세요.
-> 
 > 
 
 ## <a name="register-with-the-azure-portal"></a>Azure Portal에 등록
@@ -88,7 +89,7 @@ Power BI 앱 등록 도구를 사용하여 응용 프로그램을 등록하는 �
 Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 자세한 내용은 [Azure Active Directory와 응용 프로그램 통합](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)을 참조하세요.
 
 ## <a name="how-to-get-the-client-id"></a>클라이언트 ID를 가져오는 방법
-응용 프로그램을 등록하면 **클라이언트 ID**가 수신됩니다.  **클라이언트 ID**는 응용 프로그램에서 사용자에게 권한을 요청하고 있음을 사용자가 알 수 있도록 하는 데 사용됩니다.
+응용 프로그램을 등록하면 **클라이언트 ID**가 수신됩니다.  **클라이언트 ID**는 응용 프로그램이 사용자를 식별하도록 사용자에게 권한을 요청합니다.
 
 클라이언트 ID를 가져오는 방법은 다음과 같습니다.
 
@@ -104,9 +105,8 @@ Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 �
 > [!IMPORTANT]
 > 이 섹션은 **조직에 대한 콘텐츠를 포함하는** 응용 프로그램에만 적용됩니다.
 > 
-> 
 
-응용 프로그램 등록 페이지에 제공된 것 외에도 응용 프로그램에 추가 권한을 사용하도록 설정해야 합니다. Azure AD 포털을 통해, 또는 프로그래밍 방식으로 수행할 수 있습니다.
+앱 등록 페이지가 제공한 것 외에도 응용 프로그램에 추가 권한을 사용하도록 설정해야 합니다. Azure AD 포털을 통해, 또는 프로그래밍 방식으로 수행할 수 있습니다.
 
 포함에 사용된 *마스터* 계정 또는 전역 관리자 계정 중 하나를 사용하여 로그인할 수 있습니다.
 
@@ -117,10 +117,8 @@ Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 �
 2. **API 액세스**에서 **필요한 권한**을 선택합니다.
    
     ![](media/register-app/powerbi-embedded-azuread-app-required-permissions.png)
-3. **Windows Azure Active Directory**를 선택한 다음 **로그인한 사용자 권한으로 디렉터리에 액세스**가 선택되어 있는지 확인합니다. **저장**을 선택합니다.
-   
-    ![](media/register-app/powerbi-embedded-azuread-app-permissions01.png)
-4. **필요한 권한**에서 **Power BI 서비스(Power BI)** 를 선택합니다.
+
+3. **필요한 권한**에서 **Power BI 서비스(Power BI)** 를 선택합니다.
    
     ![](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
    
@@ -128,10 +126,10 @@ Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 �
    > Azure AD 포털에서 직접 앱을 만든 경우 **Power BI 서비스(Power BI)** 는 표시되지 않을 수도 있습니다. 그렇지 않은 경우 **+ 추가**, **1 선택 및 API**를 차례로 선택합니다. API 목록에서 **Power BI 서비스**를 선택하고 **선택**을 선택합니다.  **Power BI 서비스(Power BI)** 를 **+추가** 내에서 사용할 수 없는 경우 적어도 한 명의 사용자를 Power BI에 등록합니다.
    > 
    > 
-5. **위임된 권한**에서 모든 권한을 선택합니다. 선택 항목을 저장하려면 하나씩 선택해야 합니다. 완료되면 **저장**을 선택합니다.
+4. **위임된 권한**에서 모든 권한을 선택합니다. 선택 항목을 저장하려면 하나씩 선택해야 합니다. 완료되면 **저장**을 선택합니다.
    
     ![](media/register-app/powerbi-embedded-azuread-app-permissions04.png)
-6. **필요한 권한**에서 **사용 권한 부여**를 선택합니다.
+5. **필요한 권한**에서 **사용 권한 부여**를 선택합니다.
    
     Azure AD에서 동의하도록 요구하는 메시지가 표시되지 않게 하려면*마스터 계정*에 **권한 부여** 작업이 필요합니다. 이 작업을 수행하는 계정이 전역 관리자인 경우, 조직 내 모든 사용자에게 이 응용 프로그램에 대한 권한을 부여합니다. 이 작업을 수행하는 계정이 *마스터 계정*이고 전역 관리자가 아닌 경우, 이 응용 프로그램의 *마스터 계정*에만 권한을 부여합니다.
    
@@ -140,9 +138,9 @@ Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 �
 ### <a name="applying-permissions-programmatically"></a>프로그래밍 방식으로 권한 적용
 1. 테넌트 내에서 기존 서비스 주체(사용자)를 가져와야 합니다. 이 작업을 수행하는 방법에 대한 자세한 내용은 [Get servicePrincipal](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/serviceprincipal_get)을 참조하세요.
    
-    {id} 없이 *Get servicePrincipal* api를 호출하면 테넌트 내의 모든 서비스 주체를 가져오게 됩니다.
+    {id} 없이 *Get servicePrincipal* API를 호출하면 테넌트 내의 모든 서비스 주체를 가져옵니다.
 2. **appId** 속성으로 앱 클라이언트 ID가 있는 서비스 주체를 확인합니다.
-3. 앱에 대해 누락된 경우 새 서비스 계획을 만듭니다.
+3. 앱에서 누락된 경우 새 서비스 계획을 만듭니다.
    
     ```
     Post https://graph.microsoft.com/beta/servicePrincipals
@@ -154,7 +152,16 @@ Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 �
     "displayName" : "{App_DisplayName}"
     }
     ```
-4. PowerBI API에 앱 권한 부여
+4. Power BI API에 앱 권한 부여
+   
+   기존 테넌트를 사용하고 있고 모든 테넌트 사용자를 대신하여 권한을 부여하는 데 관심이 없는 경우 **contentType**의 값을 **Principal**로 바꾸면 특정 사용자에게 권한을 부여할 수 있습니다.
+
+   **consentType**의 값은 **AllPrincipals** 또는 **Principal** 중 하나를 제공할 수 있습니다.
+
+   * **AllPrincipals**는 테넌트 관리자가 테넌트의 모든 사용자를 대신하여 권한을 부여하는 데만 사용할 수 있습니다.
+   * **Principal**은 특정 사용자를 대신하여 권한을 부여하는 데 사용됩니다. 이 경우 요청 본문에 추가 속성을 추가해야 합니다(*principalId = {User_ObjectId}*).
+    
+    비대화형 로그인을 수행할 때 불가능한 Azure AD의 동의 요청을 피하기 위해 마스터 계정에 *사용 권한 부여*가 필요합니다.
    
     ```
     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
@@ -169,15 +176,17 @@ Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 �
     "startTime":"2017-03-29T14:35:32.4933413+03:00"
     }
     ```
-5. AAD에 앱 권한 부여
+
+5.  AAD(Azure Active Directory)에 앱 사용 권한 부여
    
-    **consentType**에 대한 값은 요청을 수행하는 사용자에 따라 다릅니다. **AllPrincipals** 또는 **Principal** 중 하나를 제공할 수 있습니다. **AllPrincipals**는 관리자만 모든 사용자에게 권한을 부여하는 데 사용할 수 있습니다. **Principal**은 특정 사용자에게 권한을 부여하는 데 사용됩니다. 
-   
-    Azure AD에서 동의하도록 요구하는 메시지가 표시되지 않게 하려면*마스터 계정*에 권한 부여 작업이 필요합니다. 
-   
-    기존 테넌트를 사용하고 있고 모든 테넌트 사용자를 대신하여 권한을 부여하는 데 관심이 없는 경우 **contentType**의 값을 **Principal**로 바꾸면 특정 사용자에게 권한을 부여할 수 있습니다.
-   
-    ```
+    **consentType**의 값은 **AllPrincipals** 또는 **Principal** 중 하나를 제공할 수 있습니다.
+
+    * **AllPrincipals**는 테넌트 관리자가 테넌트의 모든 사용자를 대신하여 권한을 부여하는 데만 사용할 수 있습니다.
+    * **Principal**은 특정 사용자를 대신하여 권한을 부여하는 데 사용됩니다. 이 경우 요청 본문에 추가 속성을 추가해야 합니다(*principalId = {User_ObjectId}*).
+    
+    비대화형 로그인을 수행할 때 불가능한 Azure AD의 동의 요청을 피하기 위해 마스터 계정에 *사용 권한 부여*가 필요합니다.
+
+ ```
     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
     Authorization: Bearer ey..qw
     Content-Type: application/json
@@ -189,11 +198,9 @@ Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 �
     "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
     "startTime":"2017-03-29T14:35:32.4933413+03:00"
     }
-    ```
+ ```
 
 ## <a name="next-steps"></a>다음 단계
 이제 Azure AD에서 응용 프로그램을 등록했으므로 응용 프로그램 내에서 사용자를 인증해야 합니다. 자세한 내용은 [사용자 인증 및 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기](get-azuread-access-token.md)를 살펴보세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-
-

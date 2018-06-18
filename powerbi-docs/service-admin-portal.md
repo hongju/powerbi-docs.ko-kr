@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755142"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301829"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -218,10 +218,13 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 > [!NOTE]
 > **데이터 내보내기**를 사용하지 않도록 설정하면 사용자는 **Excel에서 분석** 기능을 사용할 수 없습니다.
 
-### <a name="user-arcgis-maps-for-power-bi-preview"></a>Power BI용 ArcGIS Maps(미리 보기) 사용
+### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI 사용
 
-조직의 사용자는 Esri에서 제공하는 Power BI용 ArcGIS Maps(미리 보기) 시각화를 사용할 수 있습니다. [자세히 알아보기](power-bi-visualization-arcgis.md)
+조직의 사용자는 Esri에서 제공하는 ArcGIS Maps for Power BI 시각화를 사용할 수 있습니다. [자세히 알아보기](power-bi-visualization-arcgis.md)
 
+### <a name="use-global-search-for-power-bi-preview"></a>Power BI(미리 보기)용 전역 검색 사용
+
+조직의 사용자는 Azure Search에 의존하는 외부 검색 기능을 사용할 수 있습니다. 예를 들어 사용자는 Cortana를 사용하여 Power BI 대시보드 및 보고서에서 주요 정보를 직접 검색할 수 있습니다. [자세히 알아보기](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>사용자 지정 시각적 개체 설정
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>전체 조직에 대해 사용자 지정 시각적 개체 사용

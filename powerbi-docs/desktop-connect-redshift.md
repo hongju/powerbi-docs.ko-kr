@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3a27a3c39f1ddcee6a882184f511874313d77c9a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b1085c3715d9b4b75925cec1b94ec49b0f5792f7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291192"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813138"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Power BI Desktop에서 Amazon Redshift에 연결
 **Power BI Desktop**에서 **Amazon Redshift** 데이터베이스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다.
@@ -29,7 +29,7 @@ ms.locfileid: "34291192"
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
-메시지가 표시되면 사용자 이름 및 암호를 입력합니다.
+메시지가 표시되면 사용자 이름 및 암호를 입력합니다. 오류를 피하려면 SSL 인증서와 정확하게 일치하는 서버 이름을 사용해야 합니다. 
 
 ![](media/desktop-connect-redshift/connect_redshift_5.png)
 

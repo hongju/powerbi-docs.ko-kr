@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 20bcc45fa95bcff6eb8a761dae58c67a875f55cd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32de597b594fe8b148a2b0471352e4784d596cec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34455999"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813184"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>자습서: Power BI Desktop을 사용하여 웹 페이지 데이터 분석
 
@@ -31,6 +31,8 @@ ms.locfileid: "34455999"
 http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 축구 선수권 대회 Wikipedia 페이지에 있는 Results 테이블에서 UEFA 우승팀 데이터를 가져올 수 있습니다. 
 
 ![Wikipedia Results 테이블](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+
+웹 연결은 기본 인증을 통해서만 설정됩니다. 인증이 필요한 웹 사이트는 웹 커넥터와 제대로 작동하지 않을 수 있습니다.
 
 데이터를 가져오려면:
 

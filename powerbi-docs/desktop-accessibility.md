@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd0565420382fc22af67b1363b41f6d8ed6e92ab
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6147f41ea99ad4a0416f6aa9c01288102f792771
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290755"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812931"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서의 내게 필요한 옵션
 **Power BI Desktop**에는 장애가 있는 사람이 **Power BI Desktop** 보고서를 보다 쉽게 사용하고 상호 작용할 수 있도록 하는 기능이 있습니다. 이러한 기능에는 키보드 또는 화면 판독기를 사용하여 보고서를 이용하고 탭 키로 페이지에 있는 다양한 개체에 포커스를 이동하며 시각적 개체에 표식을 세밀하게 사용하는 기능이 있습니다.
@@ -66,6 +66,23 @@ ms.locfileid: "34290755"
 * 보고서에서 텍스트와 배경 색 간에 충분한 대비가 되는지 확인합니다.
 * 쉽게 읽을 수 있는 텍스트 크기와 글꼴을 사용합니다. 작은 텍스트 크기 또는 읽기 어려울 수 있는 글꼴은 필요한 옵션에 도움이 되지 않습니다.
 * 모든 시각적 개체에는 제목, 축 레이블 및 데이터 레이블이 포함됩니다.
+
+## <a name="high-contrast-support-for-reports"></a>보고서에 고대비 지원
+
+Windows에서 고대비 모드를 사용하면 선택한 설정 및 팔레트가 **Power BI Desktop**의 보고서에도 적용됩니다. 
+
+![고대비 Windows 설정](media/desktop-accessibility/accessibility_05.png)
+
+**Power BI Desktop**은 Windows에서 어떤 고대비 테마가 사용되고 있는지 자동으로 감지하여 해당 설정을 보고서에 적용합니다. 이러한 고대비 색상은 Power BI 서비스 또는 다른 곳에 게시될 때 보고서를 따릅니다.
+
+![고대비 Windows 설정](media/desktop-accessibility/accessibility_05b.png)
+
+또한 Power BI 서비스는 Windows용으로 선택된 고대비 설정을 검색하려고 하지만, 얼마나 효과적이고 정확한지는 Power BI 서비스에 사용되는 브라우저에 따라 다릅니다. Power BI 서비스에서 테마를 수동으로 설정하려면 **보기 > 고대비 색상**을 선택한 다음, 보고서에 적용할 테마를 선택할 수 있습니다.
+
+![Power BI 서비스에서 고대비 설정](media/desktop-accessibility/accessibility_06.png)
+
+**Power BI Desktop**에서 **시각화** 및 **필드** 필드와 같은 일부 영역에는 고대비 Windows 색 구성표 선택이 반영되지 않습니다.
+
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 다음 목록에는 접근성 기능에 대한 알려진 문제 및 제한 사항이 설명되어 있습니다.
