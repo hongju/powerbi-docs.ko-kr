@@ -39,7 +39,7 @@ Apple 앱 스토어에서 [iPad 앱을 다운로드](http://go.microsoft.com/fwl
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI 서비스에 등록
-아직인 경우 Power BI(https://powerbi.com)로 이동하여 서비스에 등록합니다. 무료입니다.
+아직인 경우 Power BI (https://powerbi.com) 로 이동하여 서비스에 등록합니다. 무료입니다.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 앱 시작
 1. iPad에서 Power BI 앱을 엽니다.
