@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289904"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery 사용
 **Power BI Desktop**을 사용하여 데이터 원본에 연결할 때 항상 데이터의 복사본을 **Power BI Desktop**으로 가져올 수 있습니다. 일부 데이터 원본의 경우 다른 방법을 사용할 수 있습니다. **DirectQuery**를 사용하여 데이터 원본에 직접 연결합니다.

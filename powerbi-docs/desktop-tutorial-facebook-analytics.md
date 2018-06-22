@@ -15,6 +15,7 @@ ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456042"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>자습서: Power BI Desktop을 사용한 Facebook 분석
 

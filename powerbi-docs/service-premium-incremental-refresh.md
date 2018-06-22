@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34298185"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium의 증분 새로 고침
 

@@ -14,6 +14,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296267"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Power BI 보고서 예약된 새로 고침을 구성하는 방법
 Power BI 보고서에서 데이터를 새로 고치려면 예약된 새로 고침 계획을 만들어야 합니다. 이 작업은 Power BI 보고서의 *관리* 영역 내에서 수행됩니다.

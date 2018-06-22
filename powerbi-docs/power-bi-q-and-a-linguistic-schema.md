@@ -7,14 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/20/2018
+ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b7fb59e7fca6a3211b542b2a942565d6865e560c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
+ms.locfileid: "34471896"
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>언어 모델링 및 언어 스키마 
 일반적인 구 및 자연어를 사용하여 데이터에 대해 질문하는 것은 강력한 기능입니다. 데이터에서 응답할 때, 즉, Power BI의 질문 및 답변을 통해 수행할 때 훨씬 더 강력합니다. Power BI 질문 및 답변에 질문할 때 정확히 답변하는 것이 최선의 방법입니다. 
@@ -53,10 +54,7 @@ Visual Studio Code를 사용하여 언어 스키마 YAML 파일을 편집하는 
 
     ![How do you want to open this file(이 파일은 어떻게 여시겠습니까?)](media/power-bi-q-and-a-linguistic-schema/power-bi-visual-code.png)
 
-4. Visual Studio Code에서 Red Hat 확장을 통해 YAML 지원을 설치합니다.
-
-   
-
+4. Visual Studio Code에서 Red Hat 확장을 통해 YAML 지원을 설치합니다.    
     a. **확장** 탭(왼쪽의 마지막 탭) 또는 CTRL+SHIFT+X를 선택합니다.    
     ![확장 아이콘](media/power-bi-q-and-a-linguistic-schema/power-bi-extensions.png)    
     b. "yaml"을 검색하고 목록에서 **YAML Support by Red Hat**(Red Hat에서 YAML 지원 설치)을 선택합니다.    
