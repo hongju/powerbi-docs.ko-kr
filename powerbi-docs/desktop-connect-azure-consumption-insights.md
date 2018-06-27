@@ -11,10 +11,10 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34288202"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop(베타)의 Azure Consumption Insights에 연결
@@ -168,7 +168,7 @@ Azure Portal의 열 및 세부 정보 이름은 API 및 커넥터와 유사하�
 | 미터 하위 범주 |meterSubCategory |미터 하위 범주 |아니요 |
 | MeterId |meterId |미터 ID |아니요 |
 | 월 | |월 |아니요 |
-| 제품 |product |제품 |아니요 |
+| 제품 |제품 |제품 |아니요 |
 | ProductId |productId | |예 |
 | 리소스 그룹 |resourceGroup |리소스 그룹 |아니요 |
 | 리소스 위치 |resourceLocation |리소스 위치 |아니요 |
@@ -186,7 +186,7 @@ Azure Portal의 열 및 세부 정보 이름은 API 및 커넥터와 유사하�
 | 태그 |tags |태그 |아니요 |
 | TagsId | | |예 |
 | 측정 단위 |unitOfMeasure |측정 단위 |아니요 |
-| 연도 | |연도 |아니요 |
+| 년 | |년 |아니요 |
 | SubscriptionId |subscriptionId |SubscriptionId |예 |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |아니요 |
 

@@ -11,10 +11,10 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34298576"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>온-프레미스 데이터 게이트웨이 심층 분석
@@ -31,7 +31,7 @@ ms.locfileid: "34298576"
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="sign-in-account"></a>로그인 계정
-사용자는 회사 또는 학교 계정으로 로그인합니다. 조직 계정입니다. Office 365 제품에 등록하고 실제 회사 전자 메일을 제공하지 않은 경우 nancy@contoso.onmicrosoft.com처럼 보일 수 있습니다. 클라우드 서비스 내의 계정은 AAD(Azure Active Directory)의 테넌트 내에 저장됩니다. 대부분의 경우에서 AAD 계정의 UPN은 전자 메일 주소와 일치합니다.
+사용자는 회사 또는 학교 계정으로 로그인합니다. 조직 계정입니다. Office 365 제품에 로그인하였고 실제 직장 전자 메일을 입력하지 않은 경우 nancy@contoso.onmicrosoft.com처럼 보일 수 있습니다. 클라우드 서비스 내의 계정은 AAD(Azure Active Directory)의 테넌트 내에 저장됩니다. 대부분의 경우에서 AAD 계정의 UPN은 전자 메일 주소와 일치합니다.
 
 ## <a name="authentication-to-on-premises-data-sources"></a>온-프레미스 데이터 원본에 대한 인증
 Analysis Services를 제외하고 게이트웨이에서 온-프레미스 데이터 원본으로 연결하는 데 저장된 자격 증명이 사용됩니다. 게이트웨이는 개별 사용자에 관계없이 연결에 저장된 자격 증명을 사용합니다.

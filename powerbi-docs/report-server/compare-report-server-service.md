@@ -11,10 +11,10 @@ ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34296786"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
@@ -37,7 +37,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 콘텐츠 팩 | 아니요 | 예 | [조직 콘텐츠 팩: 소개](../service-organizational-content-pack-introduction.md) 
 | Salesforce와 같은 서비스에 연결 | 아니요 | 예 | Power BI 서비스와 함께 [사용하는 서비스에 연결](../service-connect-to-services.md)
 | 질문 및 답변 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop의 질문 및 답변](../power-bi-q-and-a.md) 
-| 신속한 인사이트 활용 | 아니요 | 예 | [Power BI를 사용하여 데이터 인사이트를 자동으로 생성](../service-insights.md) 
+| 신속한 정보 활용 | 아니요 | 예 | [Power BI를 사용하여 데이터 인사이트를 자동으로 생성](../service-insights.md) 
 | Excel에서 분석 | 아니요 | 예 | [Excel에서 분석](../service-analyze-in-excel.md) 
 | 페이지가 매겨진 보고서 | 예 | 아니요 | 페이지를 매긴 보고서는 Power BI 서비스에서 사용할 수 없지만, [페이지를 매긴 보고서 항목을 Power BI 대시보드에 고정](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)할 수 있습니다.
 | Power BI 모바일 앱 | 예 | 예 | [Power BI 모바일 앱 개요](../mobile-apps-for-mobile-devices.md) 

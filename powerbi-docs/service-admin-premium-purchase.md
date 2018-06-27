@@ -11,10 +11,10 @@ ms.date: 10/17/2017
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 2789f2e3e8198ddc0363fb07488f5fe8f39441a6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34297380"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
@@ -47,7 +47,8 @@ Power BI 프리미엄에 대한 자세한 내용은 [Power BI 프리미엄이란
    
     ![](media/service-admin-premium-purchase/o365-app-picker.png)
 2. **청구** > **서비스 구입**을 선택합니다.
-3. **기타 계획** 아래에서 Power BI 프리미엄 제품을 찾습니다. P1~P3, EM3 및 P1(매월)로 나열됩니다.
+3. 
+  **기타 계획** 아래에서 Power BI 프리미엄 제안을 찾습니다. P1~P3, EM3 및 P1(매월)로 나열됩니다.
 4. **줄임표(...)** 를 마우스로 가리키고 **지금 구입**을 선택합니다.
    
     ![](media/service-admin-premium-purchase/premium-purchase.png)

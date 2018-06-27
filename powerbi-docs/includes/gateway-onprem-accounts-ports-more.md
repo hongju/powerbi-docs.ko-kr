@@ -1,5 +1,5 @@
 ## <a name="sign-in-account"></a>로그인 계정
-사용자는 회사 또는 학교 계정으로 로그인합니다. 조직 계정입니다. Office 365 제품에 등록하고 실제 회사 전자 메일을 제공하지 않은 경우 nancy@contoso.onmicrosoft.com처럼 보일 수 있습니다. 클라우드 서비스 내의 계정은 AAD(Azure Active Directory)의 테넌트 내에 저장됩니다. 대부분의 경우에서 AAD 계정의 UPN은 전자 메일 주소와 일치합니다.
+사용자는 회사 또는 학교 계정으로 로그인합니다. 조직 계정입니다. Office 365 제품에 로그인하였고 실제 직장 전자 메일을 입력하지 않은 경우 nancy@contoso.onmicrosoft.com처럼 보일 수 있습니다. 클라우드 서비스 내의 계정은 AAD(Azure Active Directory)의 테넌트 내에 저장됩니다. 대부분의 경우에서 AAD 계정의 UPN은 전자 메일 주소와 일치합니다.
 
 ## <a name="windows-service-account"></a>Windows 서비스 계정
 온-프레미스 데이터 게이트웨이는 Windows 서비스 로그온 자격 증명에 대해 *NT SERVICE\PBIEgwService*를 사용하도록 구성됩니다. 기본적으로 여기에는 서비스로 로그온 권한이 포함됩니다. 게이트웨이를 설치하는 컴퓨터의 컨텍스트입니다.

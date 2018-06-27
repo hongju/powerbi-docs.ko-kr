@@ -3,10 +3,10 @@ title: Microsoft Power BI 학습 도우미
 description: 순차적인 과정 모음을 통해 학습 과정을 시작하고, Microsoft Power BI의 광범위하고 강력한 기능을 이해하세요.
 layout: LandingPage
 ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34310156"
 ---
 <div id="main" class="v2">
