@@ -11,10 +11,10 @@ ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34755073"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 문제 해결
@@ -88,7 +88,7 @@ ms.locfileid: "34755073"
 > 
 > 
 
-## <a name="data-sources"></a>데이터 소스
+## <a name="data-sources"></a>데이터 원본
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>오류: 연결할 수 없습니다. 세부 정보: "연결 자격 증명이 잘못되었습니다."
 **세부 정보 표시**에 데이터 소스에서 받은 오류 메시지가 표시됩니다. SQL Server의 경우 다음과 유사한 출력이 표시됩니다.
 

@@ -11,10 +11,10 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34310064"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁
@@ -50,8 +50,10 @@ Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.
 
 다음과 같은 추가 온라인 옵션을 찾아볼 수 있습니다.
 
-* **edX.org**는 무료 과정인 [Power BI로 데이터 분석 및 시각화](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)를 제공합니다.
-* **Lynda.com**은 [Power BI Pro 필수 교육](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)과 같은 과정을 제공합니다.
+* 
+  **edX.org**는 무료 과정인 [Power BI로 데이터 분석 및 시각화](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)를 제공합니다.
+* 
+  **Lynda.com**은 [Power BI Pro 필수 교육](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)과 같은 과정을 제공합니다.
 * "**Dashboard in a Day**"교육 세션에 직접 참여해보세요.
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7 Power BI 커뮤니티에서 질문 또는 검색

@@ -11,10 +11,10 @@ ms.date: 07/18/2017
 ms.author: maghan
 LocalizationGroup: Get started
 ms.openlocfilehash: c38b94b278bf0e2fe308e3249b27acf8ed7e7837
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34247990"
 ---
 # <a name="extended-pro-trial-activation"></a>Extended Pro 평가판 활성화
@@ -43,7 +43,7 @@ Power BI Pro는 변경되지 않습니다. 이러한 사용자는 영향을 받�
 * 사용자가 *60일 제품 내 Pro 평가판*을 이전에 사용하였거나 현재 사용 중이라면 Extended Pro 평가판에 대한 자격이 있습니다.
 
 > [!NOTE]
-> Power BI Pro 또는 Office 365 내 Power BI Pro 평가판 구독에서 할당된 라이선스가 있는 사용자는 이 제품에서 제외됩니다.
+> Power BI Pro 또는 Office 365 내 Power BI Pro 평가판 구독에서 할당된 라이선스가 있는 사용자는 이 제안에서 제외됩니다.
 > 
 > 
 
@@ -80,7 +80,8 @@ Power BI 서비스에 로그인할 때 자격이 있는 경우 팝업 알림을 
 
 ![Power BI Pro 평가판에서 남은 일 수](media/service-extended-pro-trial/powerbi-trial-days-left.png)
 
-[Extended Pro 평가판 제품 사용 약관](https://aka.ms/power-bi-trial) 내에서 조건을 검토할 수 있습니다. Extended Pro 평가판은 2018년 5월 31일까지 적합한 모든 사용자에 대해 실행됩니다.
+
+  [Extended Pro 평가판 제품 사용 약관](https://aka.ms/power-bi-trial) 내에서 조건을 검토할 수 있습니다. Extended Pro 평가판은 2018년 5월 31일까지 적합한 모든 사용자에 대해 실행됩니다.
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 **2017년 5월 3일 이후에 등록한 새로운 사용자는 어떻게 됩니까?**
@@ -103,7 +104,8 @@ Power BI 서비스에 로그인할 때 자격이 있는 경우 팝업 알림을 
 아니요. 관리자는 Extended Pro 평가판 또는 서비스 중인 Power BI Pro 60일 평가판을 활성화하지 못하도록 사용자를 제한하지 못합니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Extended Pro 평가판 제품 사용 약관](https://aka.ms/power-bi-trial)  
+
+  [Extended Pro 평가판 제품 사용 약관](https://aka.ms/power-bi-trial)  
 [개별 사용자에 대한 Power BI 서비스 규약](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI 프리미엄 알림](https://aka.ms/pbipremium-announcement)  
 [로그인한 Power BI 사용자 찾기](service-admin-access-usage.md)

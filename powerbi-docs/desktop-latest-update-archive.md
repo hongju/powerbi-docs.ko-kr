@@ -11,10 +11,10 @@ ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34813851"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
@@ -1584,7 +1584,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 -   쿼리 편집기 미리 보기용 고정 폭 글꼴
 
 ### <a name="other-improvements"></a>기타 개선 기능:
--   보고서 및 데이터 보기에서 단일 테이블 및 모든 테이블 새로 고침
+-   보고서 및 데이터 뷰에서 단일 테이블 및 모든 테이블 새로 고침
 -   미리 보기 기능 사용 옵션
 -   제품 내 등급 환경
 

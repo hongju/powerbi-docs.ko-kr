@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
 ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34813161"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
@@ -114,7 +114,7 @@ GenerateToken 호출 전에 응용 프로그램의 백 엔드가 인증 토큰�
 * DatasetId는 모든 EffectiveIdentity의 필수 항목입니다.
 * Analysis Services의 경우 마스터 사용자는 게이트웨이 관리자여야 합니다.
 
-## <a name="data-sources"></a>데이터 소스
+## <a name="data-sources"></a>데이터 원본
 
 **ISV가 동일한 데이터 원본에 대해 여러 자격 증명을 원함**
 
@@ -136,7 +136,7 @@ Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 응용 프
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>포함하기 위한 온보딩 환경 도구
 
-[온보딩 환경 도구](https://aka.ms/embedsetup)를 통해 신속하게 샘플 응용 프로그램을 다운로드할 수 있습니다. 다음 샘플과 응용 프로그램을 비교할 수 있습니다.
+[온보딩 환경 도구](https://aka.ms/embedsetup)를 진행하여 신속하게 샘플 응용 프로그램을 다운로드할 수 있습니다. 다음 샘플과 응용 프로그램을 비교할 수 있습니다.
 
 ### <a name="prerequisites"></a>필수 조건
 

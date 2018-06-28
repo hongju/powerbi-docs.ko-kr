@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: maggies
 ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34799628"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
@@ -489,7 +489,7 @@ Power BI 팀은 여러 주요 추가 기능과 업데이트를 포함하여 2015
 * [iPhone 및 iPad 앱에서 SQL Server 모바일 보고서 및 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) 보기 설명서
 
 #### <a name="power-bi-app-for-windows-10-phones"></a>Windows 10 Phone용 Power BI 앱
-새 Windows 10 Phone용 Power BI 앱이 터치 및 모바일 생산성에 대해 최적화되어 있습니다. 대시보드 및 보고서를 탐색하고, 데이터를 보도록 동료를 초대하고,  메일을 통해 정보를 공유하여 팀의 참여도를 높이세요. 또한 [Power BI 대시보드를 Windows Phone 시작 화면에 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)할 수도 있습니다.
+새 Windows 10 Phone용 Power BI 앱이 터치 및 모바일 생산성에 대해 최적화되어 있습니다. 대시보드 및 보고서를 탐색하고, 데이터를 보도록 동료를 초대하고, 메일을 통해 정보를 공유하여 팀의 참여도를 높이세요. 또한 [Power BI 대시보드를 Windows Phone 시작 화면에 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)할 수도 있습니다.
 
 * [Windows 10 Phone용 Power BI 앱 블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx)을 참고하세요.
 * [Windows 10 Phone용 Power BI 앱 시작합니다](mobile-windows-10-phone-app-get-started.md).
