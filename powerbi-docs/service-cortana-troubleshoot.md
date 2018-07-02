@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 280b76bd7a950f9f66834b4707c1144485008a3c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: adb5d744a8eb99fce056a07ddb97b6cd7a82a8b4
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250592"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964863"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI용 Cortana 문제 해결
 이 문서는 시리즈의 일부입니다. 아직 읽지 않은 경우 다음 세 개의 문서를 읽는 것이 좋습니다.
@@ -30,7 +30,7 @@ ms.locfileid: "34250592"
 Cortana를 Power BI와 통합하는 데 여전히 문제가 있는 경우 제대로 찾아 오셨습니다. 아래 단계를 수행하여 문제를 진단하고 해결합니다.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Cortana가 내 Power BI 보고서 또는 대시보드에서 답변을 찾지 않는 이유는 무엇입니까?
-1. Power BI 계정이 있습니까?  그렇지 않으면 [등록하세요. 무료입니다](service-self-service-signup-for-power-bi.md).
+1. Power BI 계정이 있습니까?  그렇지 않으면 [평가판에 등록하세요](https://powerbi.microsoft.com/get-started/).
 2. Cortana가 작동합니까?  작업 표시줄에 Cortana 아이콘이 나타납니까?
 
     ![](media/service-cortana-troubleshoot/power-bi-cortana-icon.png)

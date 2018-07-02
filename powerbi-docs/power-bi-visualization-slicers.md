@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 338b72ef39c5b9c9fe454c1063f26602e8ce2299
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721504"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964794"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI의 슬라이서
 보고서를 읽는 사람이 전체 판매액 메트릭을 보고 개별 구역 관리자 및 다른 시간 프레임에 대한 성과를 강조 표시할 수 있도록 하려 합니다. 별도의 보고서 또는 비교 차트를 만들거나 슬라이서를 사용할 수 있습니다. 슬라이서는 보고서의 다른 시각화에 표시되는 데이터 집합의 부분을 좁히는 대체 필터링 방법입니다. 
@@ -183,7 +183,7 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
 - **테두리:** 슬라이서 둘레에 1픽셀 테두리를 추가하고 색을 설정합니다. (이 슬라이서 테두리는 일반 윤곽 설정과 별개이며 영향을 받지 않습니다.) 
 
 ## <a name="next-steps"></a>다음 단계
-[사용해 보세요. 무료입니다!](https://powerbi.com/)
+[평가판 등록](https://powerbi.microsoft.com/get-started/)
 
 Power BI 개선 방법에 대한 아이디어가 있습니까? [아이디어 제출](https://ideas.powerbi.com/forums/265200-power-bi-ideas)
 

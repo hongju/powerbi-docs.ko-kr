@@ -10,12 +10,12 @@ ms.topic: conceptual
 sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e8af4695ba54fee91820552802cf18d8a758e8b0
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755050"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964817"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
@@ -24,8 +24,10 @@ ms.locfileid: "34755050"
 ## <a name="what-is-microsoft-power-bi"></a>Microsoft Power BI란?
 Power BI는 모든 사용자가 데이터에 대한 폭넓은 이해를 바탕으로 더욱 신속하고 보다 효율적으로 데이터를 시각화하고 분석할 수 있는 클라우드 기반의 비즈니스 분석 서비스입니다. 또한 사용하기 쉬운 대시보드, 대화형 보고서, 데이터를 흥미롭게 표현하는 매력적인 시각화를 통해 광범위한 데이터에 사용자를 연결합니다. [Power BI란?](power-bi-overview.md)에 대해 자세히 알아봅니다.
 
-## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>Power BI와 Power BI Pro의 차이점은 무엇인가요?
-Power BI는 완전히 새로운 방식으로 데이터를 살펴볼 수 있는 각종 기능을 제공합니다. Power BI Pro는 Power BI의 뛰어난 모든 기능을 동일하게 제공할 뿐만 아니라, 추가 저장 용량, 일 단위보다 더 자주 새로 고침 예약, 완전한 대화형 기능의 라이브 데이터 소스, 그룹 등의 다양한 기능을 추가로 제공합니다. [Power BI Pro와 무료 Power BI의 차이점](https://powerbi.microsoft.com/pricing)에 대해 자세히 알아보세요.
+## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro와 Power BI Premium의 차이점은 무엇인가요?
+Power BI Pro는 콘텐츠를 공유하고 다른 Pro 사용자와 공동으로 작업하는 기능을 포함하여 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 라이선스입니다. Pro 사용자만 앱 작업 영역에서 콘텐츠를 게시 및 사용하고, 대시보드를 공유하고, 대시보드 및 보고서를 구독할 수 있습니다. 
+
+Premium은 Power BI에서 보다 일관된 성능을 제공하고 더 많은 데이터를 지원할 수 있는 전용 용량을 제공합니다. 개별 사용자의 경우, Premium을 통해 콘텐츠를 보는 수신자에게 사용자별 라이선스를 요구하지 않고도 Pro 사용자별 컨텐츠를 광범위하게 배포할 수 있습니다.
 
 ## <a name="how-much-does-power-bi-cost"></a>Power BI의 비용은 얼마인가요?
 Power BI Desktop은 무료입니다. Power BI Pro의 경우 60일 무료 평가판을 사용할 수 있습니다. 가격 책정에 대한 내용은 [Power BI 가격 책정](https://powerbi.microsoft.com/pricing)을 참조하세요.
@@ -34,7 +36,7 @@ Power BI Desktop은 무료입니다. Power BI Pro의 경우 60일 무료 평가�
 Power BI 프리미엄 관련된 질문은 [Power BI 프리미엄 FAQ](service-premium-faq.md)를 참조하세요.
 
 ## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>내 조직에서 Power BI 계정을 가진 사용자를 찾으려면 어떻게 하나요?
-Power BI에 대한 Azure Active Directory 통합 응용 프로그램 보고서를 보면 조직 내의 활성 사용자를 확인할 수 있습니다. Azure AD 보고서에는 사용자가 Power BI 내에서 무료인지 여부가 표시되지 않습니다. Power BI에 로그인한 사용자가 누구이며 언제 로그인하였는지만 보고됩니다. 자세한 내용은 [로그인한 Power BI 사용자 찾기](service-admin-access-usage.md)를 참조하세요.
+Power BI에 대한 Azure Active Directory 통합 응용 프로그램 보고서를 보면 조직 내의 활성 사용자를 확인할 수 있습니다. Azure AD 보고서에는 각 사용자의 라이선스 유형이 나와 있지 않습니다. Power BI에 로그인한 사용자가 누구이며 언제 로그인하였는지만 보고됩니다. 자세한 내용은 [로그인한 Power BI 사용자 찾기](service-admin-access-usage.md)를 참조하세요.
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
 Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료 데스크톱 응용 프로그램입니다. Power BI Desktop은 대화형 작업이 많은 시각화에 고급 데이터 탐색, 셰이핑, 모델링 및 보고서 작성 기능을 제공함으로써 Power BI 서비스와 통합되어 작동합니다. 작업을 파일에 저장하고 데이터 및 보고서를 Power BI 사이트에 바로 게시하여 다른 사용자와 공유할 수 있습니다. [Power BI Desktop이란?](desktop-what-is-desktop.md)에 대해 자세히 알아봅니다.

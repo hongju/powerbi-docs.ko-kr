@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584119"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964771"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI의 분산형 차트 및 거품형 차트
 분산형 차트에는 항상 가로 축을 따라 하나의 숫자 데이터 집합을 표시하고 세로 축을 따라 다른 숫자 값 집합을 표시하는 두 개의 값 축이 있습니다. 차트에서 x 및 y 숫자 값의 교차점에 점이 표시되고 이러한 값이 단일 데이터 요소로 결합됩니다. 데이터에 따라 가로 축에 균등 또는 불균등하게 이러한 데이터 요소를 배포할 수 있습니다.
@@ -116,9 +116,9 @@ ms.locfileid: "34584119"
 새 필드를 만들려면 [Power BI Desktop 쿼리 편집기를 사용하여 인덱스 열을](desktop-add-custom-column.md) 데이터 집합에 추가합니다.  그런 다음 이 열을 시각화의 **세부 정보** 영역에 추가합니다.
 
 ## <a name="next-steps"></a>다음 단계
- [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[사용해 보세요. 무료입니다!](https://powerbi.com/)  
+[평가판 등록](https://powerbi.microsoft.com/get-started/)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

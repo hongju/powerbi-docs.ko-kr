@@ -10,21 +10,20 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: fc7885755da62c7b777bb0af7627626b1ce60aa0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299082"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964840"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용
 온-프레미스 데이터 게이트웨이를 Kerberos로 구성하여 Power BI 보고서 및 대시보드를 온-프레미스 데이터에서 업데이트할 수 있도록 하는 원활한 Single Sign-On 연결을 가져올 수 있습니다. 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 원본에 연결하는 데 사용하는 DirectQuery를 사용하는 SSO(Single Sign-On)를 용이하게 합니다.
 
-[Kerberos 제한된 위임](https://technet.microsoft.com/library/jj553400.aspx)을 기반으로 하는 다음 데이터 원본, SQL Server, SAP HANA 및 Teradata는 현재 지원됩니다.
+[Kerberos 제한된 위임](https://technet.microsoft.com/library/jj553400.aspx)을 기반으로 하는 다음 데이터 원본이 현재 지원됩니다.
 
 * SQL Server
 * SAP HANA
-* SAP BW
 * Teradata
 
 사용자가 Power BI 서비스에서 DirectQuery 보고서와 상호 작용하는 경우 각 교차 필터, 조각, 정렬 및 보고서 편집 작업은 기본 온-프레미스 데이터 원본에 대해 라이브를 실행하는 쿼리에서 발생할 수 있습니다.  Single Sign-On이 데이터 원본에 대해 구성된 경우 쿼리는 Power BI와 상호 작용하는 사용자의 ID에서 실행합니다(즉, 웹 환경 또는 Power BI 모바일 앱을 통해). 따라서 각 사용자는 구성된 Single Sign-On으로 기본 데이터 원본에서 사용 권한이 있는 데이터를 정확하게 보며, 서로 다른 사용자 간에는 공유 데이터 캐싱이 없습니다.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 70dcc7beb4525c84f1d52c511fa6a9f2ba666f94
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e9c97bd754155de52d75df5211212c6c283928b3
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34249186"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964748"
 ---
 # <a name="connect-to-projectplace-by-planview-with-power-bi"></a>Power BI로 Projectplace by Planview에 연결
 Projectplace by Planview 콘텐츠 팩을 사용하여 Power BI에서 공동 작업 프로젝트 데이터를 완전히 새로운 방식으로 시각화할 수 있습니다. Projectplace 로그인 자격 증명을 사용하여 키 프로젝트 통계를 확인하며 가장 활발하고 생산적인 팀 구성원들을 찾고 Projectplace 계정의 프로젝트에서 위험할 가능성이 있는 카드 및 활동을 식별합니다. 또한 기본 대시보드 및 보고서를 확장하여 가장 중요한 통찰력을 얻을 수 있습니다.
@@ -55,7 +55,7 @@ Projectplace by Planview 콘텐츠 팩을 사용하여 Power BI에서 공동 작
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="system-requirements"></a>시스템 요구 사항
-Projectplace 데이터를 Power BI로 가져오려면 Projectplace 사용자여야 합니다. 이 절차에서는 Power BI 계정을 사용하여 Microsoft Power BI 홈 페이지에 이미 로그인했다고 가정합니다. Power BI 계정이 없는 경우 Power BI 홈 페이지에서 새로운 무료 Power BI 계정을 만들고 데이터 가져오기를 클릭합니다.
+Projectplace 데이터를 Power BI로 가져오려면 Projectplace 사용자여야 합니다. 이 절차에서는 Power BI 계정을 사용하여 Microsoft Power BI 홈 페이지에 이미 로그인했다고 가정합니다. Power BI 계정이 없는 경우 [powerbi.com](https://powerbi.microsoft.com/get-started/)으로 이동하여  **Power BI - 클라우드 공동 작업 및 공유**에서 **무료 체험**을 선택합니다. 그런 다음, **데이터 가져오기**를 클릭합니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 시작](service-get-started.md)
