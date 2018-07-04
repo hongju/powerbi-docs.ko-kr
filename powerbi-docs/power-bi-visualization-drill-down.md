@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dbe98d69ce800ef57e6def59003dce56b7be56cd
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584211"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600923"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI에서 시각화 드릴 모드
 
@@ -179,11 +179,11 @@ Power BI를 사용하면 하나 또는 모든 하위 집합을 확장할 수 있
 
 축 데이터 필드가 **월**인 경우라도 **축**에서 **연도** 범주를 생성합니다. Power BI가 읽어 온 모든 값에 대한 전체 날짜/시간 구조를 제공하기 때문입니다. 계층 구조의 상단에서는 연도에 대한 데이터를 표시합니다.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
 
 드릴다운 모드에서 차트에서 막대를 클릭하여 계층 구조의 한 수준 아래로 이동합니다. 분기의 데이터에 세 개의 막대 차트가 사용할 수 있다고 표시됩니다. 그런 다음, 왼쪽 상단 아이콘에서 **계층 구조의 한 수준 아래로 모두 확장**을 선택합니다. 다시 이 작업을 수행하여 계층 구조의 가장 낮은 수준으로 이동하면 각 월에 대한 결과를 보여줍니다.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
 
 시각화 외에도 각 보고서에 대해 렌더링된 데이터에 반영되는 계층 구조를 볼 수 있습니다. 다음 표에서는 단일 월 또는 모든 월에서 드릴다운한 보고서에 있는 **데이터 표시** 결과를 보여줍니다. 
 
@@ -192,8 +192,8 @@ Power BI를 사용하면 하나 또는 모든 하위 집합을 확장할 수 있
 
 |확장 모드|년|분기|월|일|
 | ---|:---:|:---:|:---:|---|
-|단일|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
-|모두|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
+|단일|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
+|모두|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>계층적 범주 데이터
@@ -201,20 +201,20 @@ Power BI를 사용하면 하나 또는 모든 하위 집합을 확장할 수 있
 
 예를 들어 [소매 분석 샘플](sample-datasets.md)을 따릅니다. **권역**, **도시**, **우편 번호** 및 **이름**(그룹)별 **올해 총 단위**(값)을 확인하는 세로 막대형 누적 차트 시각화를 만듭니다.  
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
 
 드릴 다운 모드로 왼쪽 상단 아이콘에서 세 번 **계층 구조의 한 수준 아래로 모두 확장**을 선택합니다.
 권역, 도시 및 우편 번호에 대한 결과를 보여주는 계층 구조의 최하위 수준에 있어야 합니다.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
 
 시각화 외에도 각 보고서에 대해 렌더링된 데이터에 반영되는 계층 구조를 볼 수 있습니다. 다음 표에서는 단일 지역 또는 모든 지역에 대해 드릴다운한 보고서에서 **데이터 표시** 결과를 보여줍니다. 드릴다운하면 단일 보고서를 보다 구체적으로 만드는 방법 및 "모든 지역" 보고서에 추가 데이터를 포함하는 방법을 확인할 수 있습니다.
 
 
 | 확장 모드|지역|시|우편 번호|이름|
 | ---|:---:|:---:|:---:|---|
-|단일|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|모두|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|단일|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|모두|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
