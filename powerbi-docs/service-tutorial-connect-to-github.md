@@ -44,7 +44,7 @@ ms.locfileid: "34310110"
 
 
 ## <a name="how-to-connect"></a>연결 방법
-1. Power BI 서비스(http://powerbi.com)에 로그인합니다. 
+1. Power BI 서비스 (http://powerbi.com) 에 로그인합니다. 
 2. 왼쪽 탐색 창에서 **앱**, **앱 가져오기**를 차례로 선택합니다.
    
    ![Power BI 앱 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
