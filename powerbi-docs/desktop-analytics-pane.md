@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 817e01f83904a8481fa1d0915f671c6761247795
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 957408729812ab348cc171360416ee01b432d2e0
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287673"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136597"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop의 분석 창 사용
 **Power BI Desktop**의 **분석** 창에서 시각적 개체에 동적 참조 줄을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다. **분석** 창은 Power BI Desktop의 **시각화** 영역에 있습니다.
@@ -114,7 +114,7 @@ Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. �
 
 * [Power BI Desktop의 새로운 기능](desktop-latest-update.md)
 * [Power BI Desktop 다운로드](desktop-get-the-desktop.md)
-* [Power BI Desktop 시작](desktop-getting-started.md)
+* [Power BI Desktop이란?](desktop-what-is-desktop.md)
 * [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)
 * [Power BI Desktop의 데이터 형식](desktop-data-types.md)
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)

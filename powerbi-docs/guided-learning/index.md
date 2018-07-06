@@ -2,12 +2,12 @@
 title: Microsoft Power BI 학습 도우미
 description: 순차적인 과정 모음을 통해 학습 과정을 시작하고, Microsoft Power BI의 광범위하고 강력한 기능을 이해하세요.
 layout: LandingPage
-ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310156"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600679"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -272,7 +272,7 @@ ms.locfileid: "34310156"
                                 <span style="margin-left: 32px; align-self: center;">9m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">사용자 지정 Q&A 제안 만들기</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">사용자 지정 Q&amp;A 제안 만들기</a>
                                 <span style="margin-left: 32px; align-self: center;">4m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
