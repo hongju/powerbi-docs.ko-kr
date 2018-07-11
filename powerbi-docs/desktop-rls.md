@@ -11,11 +11,11 @@ ms.date: 05/03/2018
 ms.author: maghan
 LocalizationGroup: Create reports
 ms.openlocfilehash: 022668737f6bcce987b2923ba7a4416f4a08460a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287075"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38875991"
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>Power BI Desktop을 사용하는 행 수준 보안(RLS)
 Power BI Desktop을 사용하는 행 수준 보안(RLS)은 지정된 사용자의 데이터 액세스를 제한합니다. 행 수준에서 데이터 제한을 필터링합니다. 역할 내에서 필터를 정의할 수 있습니다.

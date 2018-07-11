@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244633"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38876885"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Power BI로 Google 분석에 연결
 Power BI를 통해 Google 분석에 연결하는 경우 먼저 Google 분석 계정에 연결합니다. 사이트 트래픽 및 사용자 차원에 대한 통찰력을 제공하는 Power BI 대시보드 및 Power BI 보고서 집합을 가져옵니다. 대시보드 및 보고서를 조작할 수 있지만 변경 내용을 저장할 수 없습니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다.
