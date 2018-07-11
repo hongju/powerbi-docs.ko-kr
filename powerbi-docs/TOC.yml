@@ -12,6 +12,8 @@
       items:
         - name: GitHub 샘플에 연결
           href: service-tutorial-connect-to-github.md
+        - name: Power BI 시작
+          href: service-get-started.md
     - name: 개념
       items:
         - name: Power BI 서비스의 새로운 기능
@@ -382,6 +384,8 @@
                   href: service-excel-workbook-files.md
                 - name: Power BI Desktop 파일에서 데이터 가져오기
                   href: service-desktop-files.md
+                - name: 데이터 집합에 대한 매개 변수 설정
+                  href: service-parameters.md
                 - name: 쉼표로 구분된 값(.csv) 파일에서 데이터 가져오기
                   href: service-comma-separated-value-files.md
                 - name: Power BI에서 실시간 스트리밍(미리 보기)
@@ -860,16 +864,12 @@
           items:
             - name: iOS 앱 시작
               href: mobile-iphone-app-get-started.md
-            - name: iPad 앱 시작
-              href: mobile-ipad-app-get-started.md
             - name: iOS 모바일 앱의 Q&A 가상 분석가
               href: mobile-apps-ios-qna.md
             - name: Power BI Apple Watch 앱
               href: mobile-apple-watch.md
             - name: iPhone에서 앱의 바코드 스캔
               href: mobile-apps-scan-barcode-iphone.md
-            - name: iOS용 Power BI 앱
-              href: mobile-ios-ipad-iphone-apps.md
         - name: iOS 및 Android
           items:
             - name: 모바일 앱에서 주석 달기 및 공유
@@ -940,8 +940,6 @@
               href: developer/integrate-tile.md
             - name: 앱에 Power BI 보고서 통합(사용자 소유 데이터)
               href: developer/integrate-report.md
-            - name: 응용 프로그램에 콘텐츠 통합(앱 소유 데이터)
-              href: developer/embed-sample-for-customers.md
             - name: 소버린 클라우드용 응용 프로그램에 콘텐츠 통합(앱 소유 데이터)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: 앱에 사용자 지정 레이아웃 포함
@@ -1234,6 +1232,13 @@
           href: service-admin-syndication-partner.md
         - name: Intune으로 모바일 앱 구성
           href: service-admin-mobile-intune.md
+    - name: 참조
+      items:
+        - name: 'PowerShell, REST API 및 .NET SDK'
+          href: service-admin-reference.md
+        - name: PowerShell용 Power BI cmdlet
+          href: 'https://docs.microsoft.com/en-us/powershell/power-bi/'
+          maintainContext: true
     - name: 리소스
       items:
         - name: Power BI 거버넌스 및 배포 방법
