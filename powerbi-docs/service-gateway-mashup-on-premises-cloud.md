@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3550a3fc0cfc51b61e1d7e51a50c2a36325f2388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 2547be7f7bdadb7f991db54230d4fd791941838d
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250658"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600070"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>온-프레미스 및 클라우드 데이터 원본 병합 또는 추가
 
@@ -38,17 +38,17 @@ ms.locfileid: "35250658"
 
 4. 이 게이트웨이 클러스터 아래에서 쿼리에 사용된 모든 [온-프레미스 데이터 원본](service-gateway-enterprise-manage-scheduled-refresh.md#add-a-data-source)을 추가합니다. 여기에 클라우드 데이터 원본을 추가할 필요가 없습니다.
 
-4. 온-프레미스 및 클라우드 데이터 원본을 결합한 쿼리로 Power BI Desktop 파일을 Power BI 서비스에 업로드합니다.
+5. 온-프레미스 및 클라우드 데이터 원본을 결합한 쿼리로 Power BI Desktop 파일을 Power BI 서비스에 업로드합니다.
 
-5. 새 데이터 집합의 **데이터 집합 설정** 페이지에서 다음을 수행합니다.
+6. 새 데이터 집합의 **데이터 집합 설정** 페이지에서 다음을 수행합니다.
 
-    - 온-프레미스 원본의 경우 이 데이터 원본과 연결된 게이트웨이를 선택합니다.
+   - 온-프레미스 원본의 경우 이 데이터 원본과 연결된 게이트웨이를 선택합니다.
 
-    - **데이터 원본 자격 증명**에서 필요에 따라 클라우드 데이터 원본 자격 증명을 편집합니다.
+   - **데이터 원본 자격 증명**에서 필요에 따라 클라우드 데이터 원본 자격 증명을 편집합니다.
 
-    ![데이터 집합 설정](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
+     ![데이터 집합 설정](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-6. 클라우드 자격 증명을 설정하면 이제 **지금 새로 고침** 옵션을 사용하여 데이터 집합을 새로 고치거나 정기적으로 새로 고치도록 예약할 수 있습니다.
+7. 클라우드 자격 증명을 설정하면 이제 **지금 새로 고침** 옵션을 사용하여 데이터 집합을 새로 고치거나 정기적으로 새로 고치도록 예약할 수 있습니다.
 
 
 ## <a name="next-steps"></a>다음 단계

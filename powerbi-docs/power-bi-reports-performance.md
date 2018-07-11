@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310547"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598882"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 성능 모범 사례 
 이 문서에서는 Power BI에서 빠르고 신뢰할 수 있는 보고서를 빌드하기 위한 지침을 제공합니다.  
@@ -115,7 +115,7 @@ DirectQuery 및 라이브 연결의 경우 이 쿼리 캐시는 데이터 원본
    [msmdsrv.exe] 
 
    msmdsrv.exe에서 사용하는 포트를 살펴보고 나중에 사용할 수 있도록 적어 둡니다. 이 경우 55786 포트를 사용할 수 있습니다. 
-3.  **Power BI Desktop에 SQL Server Profiler 연결** 
+3. **Power BI Desktop에 SQL Server Profiler 연결** 
 
    - **시작** 메뉴에서 SQL Server Profiler를 시작합니다. 
    - **파일** > **새 추적** 

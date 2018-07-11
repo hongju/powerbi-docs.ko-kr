@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813805"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944655"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI 서비스에서 대시보드 테마 사용
 **대시보드 테마**를 사용하여 전체 대시보드에 회사 색, 계절 색 지정 또는 적용하려는 기타 색 테마 등의 색 테마를 적용할 수 있습니다. **대시보드 테마**를 적용하는 경우 대시보드의 모든 시각적 개체에서는 선택한 테마를 사용합니다(몇 가지 예외 적용, 이 아티클의 뒷부분에서 설명).
@@ -89,7 +89,6 @@ JSON 파일로 사용자 지정 테마를 저장한 다음, 다른 대시보드 
 
     ![대상 테마 사용](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* 대시보드 테마는 외부 사용자가 모바일 장치에서 REST API를 사용하여 포함된 대시보드를 보는 경우 현재 지원되지 않습니다.    
 * 대시보드 테마는 고정된 라이브 보고서 페이지, iframe 타일, SSRS 타일, 통합 문서 타일 또는 이미지에 적용할 수 없습니다.
 * 모바일 장치에서 대시보드 테마를 볼 수는 있지만 대시보드 테마를 만드는 작업은 Power BI 서비스에서만 수행할 수 있습니다. 
 * 대시보드 사용자 지정 테마는 보고서의 고정된 타일에서만 작동합니다. 

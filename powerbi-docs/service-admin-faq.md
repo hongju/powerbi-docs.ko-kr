@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4c8601e15a415e680028b2259a4c2b8e56dbd3b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297242"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926599"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -41,14 +41,13 @@ ms.locfileid: "34297242"
 * [이미 등록된 사용자에 대한 Power BI를 삭제하려면 어떻게 합니까?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [새 사용자가 내 테넌트에 가입한 경우 어떻게 알 수 있습니까?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [추가로 준비할 사항이 있습니까?](#are-there-any-additional-things-i-should-be-prepared-for)
-* [이는 무료입니까? 이 라이선스에 대해 수수료를 지불합니까?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [내 Power BI 테넌트는 어디에 있습니까?](#where-is-my-power-bi-tenant-located)
 * [Power BI Service Level Agreement(서비스 수준 약정)란?](#what-is-the-power-bi-sla)
 
 **Power BI의 보안**
 
 * [Power BI는 국가, 지역 및 업계별 규정 준수 요구 사항을 충족합니까?](#does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements)
-* [Power BI에서 보안은 어떻게 작동합니까?](#how-does-security-work-in-power-bi?)
+* [Power BI에서 보안은 어떻게 작동합니까?](#how-does-security-work-in-power-bi)
 
 ## <a name="sign-up-for-power-bi"></a>Power BI에 등록
 ### <a name="how-do-users-sign-up-for-power-bi"></a>사용자가 Power BI에 등록하려면 어떻게 합니까?
@@ -232,9 +231,6 @@ Power BI는 사용 통계를 볼 수 있는 관리 포털, 사용자 및 그룹�
 
 Office 365 관리 센터에서 표준 프로세스를 통해 테넌트에서 사용자를 제거할 수 있습니다. 그러나 사용자가 조직에 활성 전자 메일 주소를 여전히 가지고 있는 경우 관리자가 모든 사용자를 가입하지 못하게 차단하지 않은 한 해당 사용자가 다시 가입할 수 있습니다.
 
-### <a name="is-this-free-will-i-be-charged-for-these-licenses"></a>이는 무료입니까? 이 라이선스에 대해 수수료를 지불합니까?
-**Power BI(무료)** 라이선스는 Power BI의 무료 버전에 대한 것입니다. 추가 기능에 관심이 있는 경우 [Power BI Pro 버전](service-premium.md)을 참조하세요.
-
 ### <a name="where-is-my-power-bi-tenant-located"></a>내 Power BI 테넌트는 어디에 있습니까?
 데이터 영역이라고도 알려진 Power BI 테넌트의 위치를 찾는 방법은 [내 Power BI 테넌트는 어디에 있습니까?](service-admin-where-is-my-tenant-located.md)를 참조하세요.
 
@@ -252,7 +248,6 @@ Power BI는 Azure Active Directory와 같은 Azure 서비스를 기초로 하는
 [Power BI 관리 포털](service-admin-portal.md)  
 [Power BI 관리자 역할 이해](service-admin-role.md)  
 [Power BI에 대한 셀프 서비스 등록](service-self-service-signup-for-power-bi.md)  
-[조직의 Power BI(무료)](service-admin-service-free-in-your-organization.md)  
 [Power BI Pro 구매](service-admin-purchasing-power-bi-pro.md)  
 [Power BI 프리미엄이란?](service-premium.md)  
 [Power BI 프리미엄 구매 방법](service-admin-premium-purchase.md)  

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239491"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599233"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>자습서: 질문 및 답변을 사용하여 시각화를 만들고 보고서를 작성하는 방법
 [질문 및 답변 개요](power-bi-q-and-a.md)에서는 Power BI 질문 및 답변을 소개하고 *소비자*(대시보드 및 보고서를 소비자와 공유)와 *작성자*(기본 보고서 및 데이터 집합 소유)를 구분했습니다. 이 자습서의 첫 번째 부분은 주로 Power BI 서비스를 사용하여 대시보드를 소비하는 사람들을 위해 설계되었습니다. 두 번째 부분은 Power BI 서비스 또는 Power BI Desktop을 사용하여 보고서를 만드는 사람들을 위해 설계되었습니다. [질문 및 답변과 Power BI Mobile](mobile-apps-ios-qna.md) 및 [질문 및 답변과 Power BI Embedded](developer/qanda.md)는 별도의 문서에서 다룹니다.
@@ -90,9 +90,9 @@ ms.locfileid: "34239491"
 
 6. 새 시각화와 상호 작용합니다. 시각화를 만드는 방법은 중요하지 않습니다. 동일한 대화형 작업, 서식 지정 및 기능을 모두 사용할 수 있습니다.
 
-  ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
+   ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
 
-  Power BI 서비스에서 시각화를 만들었으면 [대시보드에 고정](service-dashboard-pin-tile-from-q-and-a.md)할 수 있습니다.
+   Power BI 서비스에서 시각화를 만들었으면 [대시보드에 고정](service-dashboard-pin-tile-from-q-and-a.md)할 수 있습니다.
 
 ## <a name="tell-qa-which-visualization-to-use"></a>질문 및 답변에 사용할 시각화 알리기.
 질문 및 답변으로 데이터에 자체적으로 알릴 수 있도록 할 뿐만 아니라 답변을 표시하는 방법을 Power BI에 알려줄 수 있습니다. 질문 끝에 "<visualization type>으로"를 추가하기만 하면 됩니다.  예를 들어 "show inventory volume by plant as a map" 및 "show total inventory as a card"를 입력합니다.  직접 시도해 봅니다.

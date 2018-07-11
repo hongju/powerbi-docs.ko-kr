@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297150"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599184"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>데이터 원본 관리 - Analysis Services
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 수 있는 데이터 원본을 추가해야 합니다. 이 문서에서는 게이트웨이 및 데이터 소스로 작업하는 방법을 살펴봅니다. 예정된 새로 고침 또는 라이브 연결을 위해 Analysis Services 데이터 원본을 사용할 수 있습니다.
@@ -52,7 +52,7 @@ Power BI 서비스에서 게이트웨이를 다운로드할 수 있습니다. **
 
 1. 오른쪽 위 모퉁이에서 기어 아이콘 ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) > **게이트웨이 관리**를 선택합니다.
 2. 게이트웨이 > **제거**
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>데이터 소스 추가
@@ -119,15 +119,13 @@ UPN 매핑 화면을 가져오려면 다음을 수행합니다.
 2. Analysis Services 데이터 원본을 포함하는 게이트웨이를 확장합니다. 또는 Analysis Services 데이터 원본을 만들지 않은 경우 지금 만들 수 있습니다.
 3. 데이터 원본을 선택한 다음 **사용자** 탭을 선택합니다.
 4. **사용자 이름 매핑**을 선택합니다.
-   
+
     ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
 
 그러면 규칙을 추가하고 지정된 사용자에 대해 테스트하는 옵션이 표시됩니다.
 
 > [!NOTE]
 > 의도하지 않은 사용자를 실수로 변경할 수도 있습니다. 예를 들어 **대체(원본 값)** 가 @contoso.com이고 **(새 이름)으로**가 @contoso.local인 경우 @contoso.com을 포함하는 로그인을 사용하는 모든 사용자는 @contoso.local로 대체됩니다. 또한 **대체(원본 이름)** 가 dave@contoso.com이고 **(새 이름)으로**가 dave@contoso.local인 경우 v-dave@contoso.com의 로그인한 사용자는 v-dave@contoso.local로 전송됩니다.
-> 
-> 
 
 ### <a name="ad-lookup-mapping"></a>AD 조회 매핑
 온-프레미스 AD 속성 조회를 수행하여 AAD UPN을 Active Directory 사용자로 다시 매핑하려면 이 섹션의 단계를 수행합니다. 먼저 이 기능이 작동하는 방식을 검토해 보겠습니다.
@@ -147,17 +145,17 @@ UPN 매핑 화면을 가져오려면 다음을 수행합니다.
 2. **Power BI 서비스**에서 들어오는 UPN 문자열("firstName.lastName@contoso.com")을 기반으로 하여 AD 사용자의 특성(예: *전자 메일*)을 조회합니다.
 3. AD 조회가 실패하면 전달된 UPN을 SSAS에 대한 EffectiveUser로 사용하려고 시도합니다.
 4. AD 조회가 성공하면 해당 AD 사용자의 *UserPrincipalName*을 검색합니다. 
-5. *UserPrincipalName* 전자 메일(예: *Alias@corp.on-prem.contoso*)을 *EffectiveUser*로 SSAS에 전달합니다.
+5. *UserPrincipalName* 전자 메일(예: <em>Alias@corp.on-prem.contoso</em>)을 *EffectiveUser*로 SSAS에 전달합니다.
 
 AD 조회를 수행하도록 게이트웨이를 구성하는 방법:
 
 1. 최신 게이트웨이를 다운로드하여 설치합니다.
 2. 게이트웨이에서 로컬 서비스 계정 대신 도메인 계정으로 실행하려면 **온-프레미스 데이터 게이트웨이 서비스**를 변경해야 합니다. 그러지 않으면 런타임에 AD 조회가 제대로 작동하지 않습니다. 변경 내용을 적용하려면 게이트웨이 서비스를 다시 시작해야 합니다.  컴퓨터의 게이트웨이 앱으로 이동합니다(“온-프레미스 데이터 게이트웨이” 검색). 이렇게 하려면 **서비스 설정 > 서비스 계정 변경**으로 이동합니다. 새 게이트웨이를 대신 만들려는 경우가 아니라면 동일한 시스템에서 복구 키를 복원해야 하므로 이 게이트웨이에 대한 복구 키가 있는지 확인합니다. . 
 3. 쓰기 권한이 있는지 확인하려면 게이트웨이의 설치 폴더인 *C:\Program Files\On-premises data gateway*로 이동하고 다음 파일을 편집합니다.
-   
+
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. AD 사용자에 대한 *자신*의 Active Directory 특성 구성에 따라 다음 두 가지 구성 값을 편집합니다. 아래에 표시된 구성 값은 단지 예일 뿐이므로 Active Directory 구성에 따라 해당 구성 값을 지정해야 합니다. 
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
 5. **온-프레미스 데이터 게이트웨이** 서비스를 다시 시작하여 구성 변경 내용을 적용합니다.
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298967"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926516"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>자습서: SQL Server에서 온-프레미스 데이터에 연결
 
@@ -128,7 +128,7 @@ ms.locfileid: "34298967"
 
 ## <a name="add-sql-server-as-a-gateway-data-source"></a>SQL Server를 게이트웨이 데이터 원본으로 추가
 
-Power BI Desktop에서는 SQL Server에 직접 연결하지만 Power BI 서비스에는 브리지로 작동하는 게이트웨이가 필요합니다. 이제 SQL Server 인스턴스를 이전 문서에서 만든 게이트웨이의 데이터 원본으로 추가합니다([필수 구성 요소](#prereqisites) 아래에 나열됨). 
+Power BI Desktop에서는 SQL Server에 직접 연결하지만 Power BI 서비스에는 브리지로 작동하는 게이트웨이가 필요합니다. 이제 SQL Server 인스턴스를 이전 문서에서 만든 게이트웨이의 데이터 원본으로 추가합니다([필수 구성 요소](#prerequisites) 아래에 나열됨). 
 
 1. Power BI 서비스의 오른쪽 위 모서리에서 기어 아이콘 ![설정 기어 아이콘](media/service-gateway-sql-tutorial/icon-gear.png) > **게이트웨이 관리**를 선택합니다.
 
@@ -142,15 +142,17 @@ Power BI Desktop에서는 SQL Server에 직접 연결하지만 Power BI 서비�
 
     ![데이터 원본 설정 입력](media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    | 옵션 | 값 |
-    | ---    | ---   |
-    | **데이터 원본 이름**       | test-sql-source      |
-    | **데이터 원본 유형**       | SQL Server      |
-    | **서버**       |  SQL Server 인스턴스의 이름(Power BI Desktop에 지정한 내용과 동일해야 함)    |
-    | **데이터베이스**       | TestGatewayDocs      |
-    | **인증 방법**       | Windows      |
-    | **사용자 이름**        |  michael@contoso.com과 같은 계정으로, SQL Server에 연결하는 데 사용     |
-    | **암호**       |  SQL Server에 연결하는 데 사용하는 계정의 암호    |
+
+   |          옵션           |                                               값                                                |
+   |---------------------------|----------------------------------------------------------------------------------------------------|
+   |   **데이터 원본 이름**    |                                          test-sql-source                                           |
+   |   **데이터 원본 유형**    |                                             SQL Server                                             |
+   |        **서버**         | SQL Server 인스턴스의 이름(Power BI Desktop에 지정한 내용과 동일해야 함) |
+   |       **데이터베이스**        |                                          TestGatewayDocs                                           |
+   | **인증 방법** |                                              Windows                                               |
+   |       **사용자 이름**        |             michael@contoso.com과 같은 계정으로, SQL Server에 연결하는 데 사용             |
+   |       **암호**        |                   SQL Server에 연결하는 데 사용하는 계정의 암호                    |
+
 
 4. **추가**를 선택합니다. 프로세스가 성공하면 ‘연결 성공’이 표시됩니다.
 

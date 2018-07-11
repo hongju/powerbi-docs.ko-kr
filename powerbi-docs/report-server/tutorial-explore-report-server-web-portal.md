@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32bf2d3cedbeeb2430620855a2ac95bf349af9a2
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445006"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092049"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>자습서: VM에서 Power BI Report Server 웹 포털 탐색
 이 자습서에서는 샘플 Power BI 및 페이지를 매긴 보고서와 KPI를 표시, 편집 및 관리해 볼 수 있도록 Power BI Report Server가 이미 설치된 Azure 가상 머신을 만듭니다.
@@ -100,7 +100,7 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 |![숫자 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Power BI Report Server에 최적화된 Power BI Desktop 시작(2018년 3월)  |
 |![숫자 5](media/tutorial-explore-report-server-web-portal/number-5.png) | 브라우저에서 Power BI Report Server 웹 포털 열기   |
 
-**보고서 서버 웹 포털** 아이콘을 두 번 클릭합니다. 브라우저에서 http://localhost/reports/browse가 열립니다. 웹 포털에서 유형별로 그룹화된 다양한 파일이 표시됩니다. 
+**보고서 서버 웹 포털** 아이콘을 두 번 클릭합니다. 브라우저에서 `http://localhost/reports/browse`가 열립니다. 웹 포털에서 유형별로 그룹화된 다양한 파일이 표시됩니다. 
 
 ![Power BI Report Server 웹 포털](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
