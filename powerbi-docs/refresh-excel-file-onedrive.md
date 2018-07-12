@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: b7a49a04ed344d6977dba5ac739c0f0d41aca5b9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6be8c6b5837fc9e9a0b8456b7c545e7f942eabe5
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239133"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092210"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 있는 Excel 통합 문서로부터 만들어진 데이터 집합 새로 고침
 로컬 컴퓨터나 비즈니스 또는 SharePoint Online용 OneDrive와 같은 클라우드 저장소에 저장된 Excel 통합 문서를 가져올 수 있습니다. Excel 파일에 대한 클라우드 저장소 사용의 이점을 살펴보겠습니다. Excel 파일을 Power BI로 가져오는 방법에 대한 자세한 내용은 [Excel 통합 문서 파일에서 데이터 가져오기](service-excel-workbook-files.md)를 참조하세요.
@@ -45,7 +45,7 @@ Power BI에서 지금 새로 고침 및 새로 고침 예약은 다음 데이터
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive 또는 비즈니스용 OneDrive. 차이점은 무엇인가요?
 개인 OneDrive와 비즈니스용 OneDrive가 모두 있으면 비즈니스용 OneDrive의 Power BI에 가져오려는 파일을 유지하는 것이 좋습니다. 그 이유는 다음과 같습니다. 로그인하려면 두 개의 계정을 사용할 가능성이 있습니다.
 
-Power BI에서 로그인하는 데 사용한 동일한 계정이 비즈니스용 OneDrive에 로그인하는 데 사용하는 계정이기 때문에 Power BI에서 비즈니스용 OneDrive에 연결하는 작업은 일반적으로 원활합니다. 하지만 개인 OneDrive를 사용하여 다른 [Microsoft 계정](http://www.microsoft.com/account/default.aspx)으로 로그인할 가능성이 있습니다.
+Power BI에서 로그인하는 데 사용한 동일한 계정이 비즈니스용 OneDrive에 로그인하는 데 사용하는 계정이기 때문에 Power BI에서 비즈니스용 OneDrive에 연결하는 작업은 일반적으로 원활합니다. 하지만 개인 OneDrive를 사용하여 다른 [Microsoft 계정](https://account.microsoft.com)으로 로그인할 가능성이 있습니다.
 
 Microsoft 계정으로 로그인 하는 경우 로그인 상태 유지를 선택해야 합니다. Power BI는 Power BI Desktop의 파일에서 Power BI에서 데이터 집합을 사용하여 업데이트를 동기화할 수 있습니다.  
     ![](media/refresh-excel-file-onedrive/refresh_signin_keepmesignedin.png)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0d11c1bd865aade1ad54a361a0616f6426da1a67
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248414"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136965"
 ---
 # <a name="reports-in-power-bi"></a>Power BI의 보고서
 ## <a name="what-is-a-power-bi-report"></a>Power BI 보고서란?
@@ -76,7 +76,7 @@ Power BI를 처음 접하는 경우 [Power BI 기본 개념](service-basic-conce
 > 
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md) 
+[Power BI란?](power-bi-overview.md) 
 
 [Power BI - 기본 개념](service-basic-concepts.md)
 

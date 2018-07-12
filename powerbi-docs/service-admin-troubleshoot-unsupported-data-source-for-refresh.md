@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 9ea17fd80c928ee0193ca94aac88fa00f362a523
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 864e7a3d78386f6996d866f45558add3b51faa69
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240469"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145192"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>새로 고침을 지원하지 않는 데이터 소스 문제 해결
 예약 새로 고침에 대해 데이터 집합을 구성할 때 오류가 발생할 수 있습니다.
@@ -39,7 +39,7 @@ ms.locfileid: "34240469"
 
 ## <a name="next-steps"></a>다음 단계
 [데이터 새로 고침](refresh-data.md)  
-[Power BI 게이트웨이 - 개인](personal-gateway.md)  
+[Power BI 게이트웨이 - 개인](service-gateway-personal-mode.md)  
 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 [Power BI 게이트웨이 - 개인 문제 해결](service-admin-troubleshooting-power-bi-personal-gateway.md)  

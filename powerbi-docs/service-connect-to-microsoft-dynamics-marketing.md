@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94b019f04fb6fabcad3092524fd2724015a6d8e1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242193"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137025"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Power BI로 Microsoft Dynamics Marketing에 연결
 Power BI용 Microsoft Dynamics 마케팅 콘텐츠 팩을 사용하면 Dynamics 마케팅의 데이터에 쉽게 액세스하고 분석할 수 있습니다. 콘텐츠 팩은 프로그램, 캠페인, 마케팅 연락처 및 회사, 잠재 고객, 잠재 고객 상호 작용 및 잠재 고객 점수 매기기, 메일 마케팅 메시지 및 웹 사이트, 동작 관찰, 예산, 금융 거래, 성과 KPI 등과 같은 필요한 모든 엔터티 및 측정값이 포함된 OData 피드 기반의 설명 모델을 사용합니다. 
@@ -72,5 +72,5 @@ Dynamics CRM 계정에 연결할 때 "로그인 실패" 메시지가 표시되�
 ## <a name="next-steps"></a>다음 단계
 [Power BI에 대한 데이터 가져오기](service-get-data.md)
 
-[Power BI 시작](service-get-started.md)
+[Power BI란?](power-bi-overview.md)
 

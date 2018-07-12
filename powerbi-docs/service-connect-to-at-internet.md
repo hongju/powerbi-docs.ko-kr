@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 21554c5addac0adad84783dad83b4861544a3425
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1baccb5fd674d5e0037f112fc8cbee450b6bcb8a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242216"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136367"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Power BI로 AT Internet Bridge에 연결
 AT Internet을 사용하면 해당 통합 디지털 분석 플랫폼인 Analytics Suite를 통해 데이터에서 즉시 값을 추출할 수 있습니다. Power BI용 AT Internet Bridge 콘텐츠 팩에는 사이트에 대한 방문 횟수, 원본, 지역화 및 장치와 관련된 데이터가 포함됩니다.
@@ -59,7 +59,7 @@ Power BI용 [AT Internet Bridge 콘텐츠 팩](https://app.powerbi.com/getdata/s
     - 글로벌 방문  
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)
+[Power BI란?](power-bi-overview.md)
 
 [Power BI - 기본 개념](service-basic-concepts.md)
 

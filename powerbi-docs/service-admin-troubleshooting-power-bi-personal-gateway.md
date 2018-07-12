@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 58e6dc99198eb4f031dd28b5c80cc8babb03dbfb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247267"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145413"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal 문제 해결
 다음은 Power BI Gateway - Personal을 사용할 때 발생할 수 있는 몇 가지 일반적인 문제를 설명합니다.
@@ -146,7 +146,7 @@ Power BI는 현재 ACE OLEDB 공급자를 사용하여 데이터 소스에 대�
 ## <a name="next-steps"></a>다음 단계
 [Power BI Gateway에 대한 프록시 설정 구성](service-gateway-proxy.md)  
 [데이터 새로 고침](refresh-data.md)  
-[Power BI 게이트웨이 - 개인](personal-gateway.md)  
+[Power BI 게이트웨이 - 개인](service-gateway-personal-mode.md)  
 [타일 오류 문제 해결](refresh-troubleshooting-tile-errors.md)  
 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

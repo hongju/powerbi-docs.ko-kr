@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c397ec0f302ec558e0277c92a871a94dd7f28e87
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: db6361974fdbe7956979ac106e5cad5717f99d33
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241510"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135079"
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>Power BI로 IntelliBoard에 연결
 IntelliBoard는 Reporting Service를 통해 Moodle 학습 관리 시스템에 단순화된 액세스를 제공합니다. Power BI용 IntelliBoard 콘텐츠 팩은 과정에 대한 메트릭, 등록된 사용자, 전반적인 성능 및 LMS 작업을 포함하여 추가 분석을 제공합니다.
@@ -66,7 +66,7 @@ Power BI용 [IntelliBoard 콘텐츠 팩](https://app.powerbi.com/getdata/service
 위의 테이블에 대한 권한이 있는 IntelliBoard 계정은 이 콘텐츠 팩을 인스턴스화하기 위해 필요합니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)
+[Power BI란?](power-bi-overview.md)
 
 [Power BI - 기본 개념](service-basic-concepts.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 49f6e073d40ef00413ba38dd709780758cf1e448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c9f838261658a77fa8a4d019e610de72649bbbb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291031"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600777"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop의 DAX 기본 사항
 이 문서는 Power BI Desktop을 처음 사용하는 사용자를 위한 것입니다. 여기서는 DAX(Data Analysis Expressions)를 사용하여 여러 가지 기본 계산 및 데이터 분석 문제를 해결하는 방법에 대해 신속하고 간략하게 소개합니다. 또한 일부 기본 개념, 완료할 수 있는 일련의 작업 및 지금까지 학습한 내용을 테스트할 수 있는 몇 가지 퀴즈를 검토합니다. 이 문서를 완료하면 DAX의 가장 중요한 기본 개념을 제대로 이해하고 있어야 합니다.
@@ -83,33 +83,33 @@ DAX 수식을 이해하려는 경우 매일 생각하고 말하는 언어로 각
 ### <a name="task-create-a-measure-formula"></a>작업: 측정값 수식 만들기
 이 작업을 완료하려면 Contoso Sales Sample Power BI Desktop 파일을 열어야 합니다.
     
-1.  보고서 뷰의 필드 목록에서 **판매액** 테이블을 마우스 오른쪽 단추로 클릭한 다음 **새 측정값**을 클릭합니다.
+1. 보고서 뷰의 필드 목록에서 **판매액** 테이블을 마우스 오른쪽 단추로 클릭한 다음 **새 측정값**을 클릭합니다.
     
-2.  수식 입력줄에서 새 측정값 이름 **이전 분기 판매액**을 입력하여 **측정값**을 대체합니다.
+2. 수식 입력줄에서 새 측정값 이름 **이전 분기 판매액**을 입력하여 **측정값**을 대체합니다.
     
-3.  등호 다음에 **합계**를 입력한 다음 여는 괄호를 입력합니다.
+3. 등호 다음에 **합계**를 입력한 다음 여는 괄호를 입력합니다.
     
-    열 이름을 입력하여 바로 합계를 계산하는 대신 다른 함수를 입력하여 합계를 계산할 데이터를 *필터링* 하겠습니다.
+   열 이름을 입력하여 바로 합계를 계산하는 대신 다른 함수를 입력하여 합계를 계산할 데이터를 *필터링* 하겠습니다.
     
-4.  괄호 사이에 **계산**을 입력한 다음 여는 괄호를 입력합니다.
+4. 괄호 사이에 **계산**을 입력한 다음 여는 괄호를 입력합니다.
     
-    CALCULATE 함수를 사용하여 CALCULATE 함수에 전달되는 인수로 합계를 계산할 금액을 필터링합니다. 이런 함수를 중첩 함수라고 합니다. CALCULATE 함수에는 둘 이상의 인수가 있습니다. 첫 번째는 계산할 식이고 두 번째는 필터입니다.
+   CALCULATE 함수를 사용하여 CALCULATE 함수에 전달되는 인수로 합계를 계산할 금액을 필터링합니다. 이런 함수를 중첩 함수라고 합니다. CALCULATE 함수에는 둘 이상의 인수가 있습니다. 첫 번째는 계산할 식이고 두 번째는 필터입니다.
    
-5.  **계산** 함수에 대한 괄호 **()** 사이에 **판매액[SalesAmount]** 을 입력합니다. CALCULATE 함수에 대한 첫 번째 식 인수입니다.
+5. **계산** 함수에 대한 괄호 **()** 사이에 **판매액[SalesAmount]** 을 입력합니다. CALCULATE 함수에 대한 첫 번째 식 인수입니다.
     
-6.  쉼표(**,**)를 입력하여 첫 번째 필터를 지정한 다음, **PREVIOUSQUARTER**를 입력하고, 여는 괄호를 입력합니다.
+6. 쉼표(**,**)를 입력하여 첫 번째 필터를 지정한 다음, **PREVIOUSQUARTER**를 입력하고, 여는 괄호를 입력합니다.
     
-    PREVIOUSQUARTER 시간 인텔리전스 함수를 사용하여 이전 분기별로 SUM 결과를 필터링합니다.
+   PREVIOUSQUARTER 시간 인텔리전스 함수를 사용하여 이전 분기별로 SUM 결과를 필터링합니다.
     
-7.  PREVIOUSQUARTER 함수에 대한 괄호 **()** 사이에 **달력[DateKey]** 을 입력합니다.
+7. PREVIOUSQUARTER 함수에 대한 괄호 **()** 사이에 **달력[DateKey]** 을 입력합니다.
     
-    PREVIOUSQUARTER 함수에는 인접한 날짜 범위를 포함하는 열인 인수 하나가 있습니다.
+   PREVIOUSQUARTER 함수에는 인접한 날짜 범위를 포함하는 열인 인수 하나가 있습니다.
     
-8.  PREVIOUSQUARTER 함수와 계산 함수에 전달한 인수가 모두 두 개의 닫는 괄호 **))** 로 닫혀 있는지 확인합니다.
+8. PREVIOUSQUARTER 함수와 계산 함수에 전달한 인수가 모두 두 개의 닫는 괄호 **))** 로 닫혀 있는지 확인합니다.
     
    이제 수식이 다음과 같이 표시됩니다.
     
-    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+   **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
     
 9. 수식 입력줄에서 확인 표시 ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png)를 클릭하거나 Enter 키를 눌러 수식의 유효성을 검사하고 모델에 추가합니다.
 

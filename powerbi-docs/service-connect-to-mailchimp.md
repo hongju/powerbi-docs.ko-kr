@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6a62b97a4c7d75644bd3a824118414509ef8438f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f54841b77d79854334ddb6d93ccdc9b5926201ac
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241185"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136705"
 ---
 # <a name="connect-to-mailchimp-with-power-bi"></a>Power BI로 MailChimp에 연결
 Power BI 콘텐츠 팩은 MailChimp 계정에서 데이터를 끌어오고 데이터를 탐색할 수 있게 해주는 대시보드, 일련의 보고서 및 데이터 집합을 생성합니다. 분석을 가져와서 [MailChimp 대시보드](https://powerbi.microsoft.com/integrations/mailchimp)를 만들고 캠페인, 보고서 및 개별 구독자의 추세를 빠르게 확인할 수 있습니다. 데이터가 매일 새로 고쳐지도록 설정되어 모니터링하는 데이터를 최신 상태를 유지합니다.
@@ -51,7 +51,7 @@ Power BI용 [MailChimp 콘텐츠 팩](https://app.powerbi.com/getdata/services/m
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)
+[Power BI란?](power-bi-overview.md)
 
 [Power BI - 기본 개념](service-basic-concepts.md)
 

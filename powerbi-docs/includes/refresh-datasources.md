@@ -1,4 +1,5 @@
 ### <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
+
 | **데이터 원본** |
 | --- |
 | Analysis Services 테이블 형식 |

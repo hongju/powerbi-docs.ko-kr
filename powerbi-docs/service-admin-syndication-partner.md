@@ -10,19 +10,20 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250318"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926654"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Office 365 파트너 구독에 Power BI를 추가할 수 없음
 Office 365는 회사에서 Office 365를 자사의 솔루션에 통합하여 재판매함으로써 최종 고객에게 구매, 청구 및 지원을 위한 단일 접점을 제공할 수 있도록 합니다.
 
 Office 365 구독과 함께 Power BI를 구매하려면 파트너에게 문의하는 것이 좋습니다. 파트너가 Power BI를 제공하지 않을 경우 고려할 수 있는 다른 옵션이 제공됩니다.
 
-1. Microsoft로부터 직접 또는 다른 파트너를 통해 다른 채널의 서비스를 구매할 수 있습니다. 이 옵션은 파트너와의 관계에 따라 모든 고객이 사용할 수 있는 것은 아닙니다. 파트너와의 관계를 확인하려면 **Office 365 관리 포털** > **청구** > **구독**으로 이동하면 됩니다. **구독**이 표시되면 Microsoft로부터 서비스를 직접 구매하거나 Power BI를 판매하는 파트너에게 문의할 수 있습니다.
+1. Microsoft로부터 직접 또는 다른 파트너를 통해 다른 채널의 서비스를 구매할 수 있습니다. 이 옵션은 파트너와의 관계에 따라 모든 고객이 사용할 수 있는 것은 아닙니다. 파트너와의 관계를 확인하려면 **Office 365 관리 포털** > **청구** > **구독**으로 이동하면 됩니다. 
+  **구독**이 표시되면 Microsoft로부터 서비스를 직접 구매하거나 Power BI를 판매하는 파트너에게 문의할 수 있습니다.
    
     ![](media/service-admin-syndication-partner/billingsub.png)
 2. **구독** 이 **청구**아래에 표시되지 않으면 Microsoft로부터 직접 또는 다른 파트너를 통해 구매할 수 없습니다. 
@@ -33,7 +34,7 @@ Power BI를 직접 구매할 수 없는 경우 관심 있는 Power BI 구독 유
 
 [Power BI(무료)](#power-bi-free)
 
-[Power BI Pro 및 프리미엄](#power-bi-pro)
+[Power BI Pro 및 프리미엄](#power-bi-pro-and-premium)
 
 ## <a name="power-bi-free"></a>Power BI (무료)
 Power BI 무료 제공에 만족하는 경우 무료 서비스에 서명하면 됩니다. 기본적으로 애드혹 구독이라고도 하는 개별 등록이 사용하지 않도록 설정되어 있습니다. Power BI에 등록하려고 하면 IT 부서에서 Microsoft Power BI에 대한 등록을 해제했다는 것을 나타내는 메시지가 표시됩니다.

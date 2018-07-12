@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 18093772232d119a24e76437d3f62a145a0a7153
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 16c8aba0d33fe9464aa55bfd55564babe282876c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247691"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135746"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI로 Office365Mon에 연결
 Power BI와 Office365Mon 콘텐츠 팩을 사용하면 Office 365 작동 중단 및 상태 성능 데이터를 간편하게 분석할 수 있습니다. Power BI는 작동 중단 및 상태 프로브를 비롯한 데이터를 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 작성합니다.
@@ -57,7 +57,7 @@ Power BI용 [Office365Mon 콘텐츠 팩](https://app.powerbi.com/groups/me/getda
 Office365Mon 구독 자격 증명을 사용하여 로그인한 후에 **“로그인하지 못했습니다.”** 오류가 표시되면 사용 중인 계정에 사용자 계정에서 Office365Mon 데이터를 검색할 권한이 없는 것입니다. 관리자 계정인지 확인하고 다시 시도하세요.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)
+[Power BI란?](power-bi-overview.md)
 
 [Power BI에 대한 데이터 가져오기](service-get-data.md)
 

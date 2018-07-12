@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/25/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5492ed25dc5bd803661186694e7f9d3f4e19c30f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6ba62900206149f754f774f6bfd031aeb71f7437
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291561"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134849"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Power BI 모바일 앱에서 대시보드를 Windows 10 시작 화면에 고정
 Windows 10용 Power BI 모바일 앱에서 Power BI 대시보드를 Windows 시작 화면에 고정할 수 있습니다. 고정된 대시보드는 ‘라이브 타일’이 됩니다. 시작 화면에서 타일을 누르면 대시보드가 Windows 10용 Power BI 모바일 앱에서 열립니다.
@@ -34,6 +34,6 @@ Windows 10용 Power BI 모바일 앱에서 Power BI 대시보드를 Windows 시�
 ## <a name="next-steps"></a>다음 단계
 * Windows 스토어에서 [Windows 10용 Power BI 모바일 앱 다운로드](http://go.microsoft.com/fwlink/?LinkID=526478)  
 * [Windows 10용 Power BI 모바일 앱 시작](mobile-windows-10-phone-app-get-started.md)  
-* [Power BI 시작](service-get-started.md)
+* [Power BI란?](power-bi-overview.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

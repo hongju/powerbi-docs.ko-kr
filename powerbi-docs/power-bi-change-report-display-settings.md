@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e4ffc542a9564ba3893245ef637b3edd01c38640
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244564"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598758"
 ---
 # <a name="change-the-size-of-a-report-page"></a>보고서 페이지의 크기 변경
 [이전 문서 및 비디오](power-bi-report-display-settings.md)에서는 Power BI 보고서에서 페이지 표시를 제어하는 두 가지 방법으로 **보기** 및 **페이지 크기**에 대해 알아보았습니다. 페이지 보기 및 페이지 크기는 Power BI 서비스와 Power BI Desktop 모두에서 사용할 수 있고 모양과 기능이 거의 동일하지만, 이 자습서에서는 Power BI 서비스를 사용하겠습니다.
@@ -31,19 +31,19 @@ ms.locfileid: "34244564"
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. 캔버스에서 시각화를 선택하지 않았는지 확인합니다. **보기** 를 선택하고 표시 옵션을 검토합니다.
 
-    * 읽기용 보기에서 볼 수 있습니다.
+   * 읽기용 보기에서 볼 수 있습니다.
 
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-    * 편집용 보기에서 볼 수 있습니다.
+   * 편집용 보기에서 볼 수 있습니다.
 
-    ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
+     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
-1. **실제 크기** 설정을 사용하면 페이지 모양이 어떻게 되는지 확인해보겠습니다.
+3. **실제 크기** 설정을 사용하면 페이지 모양이 어떻게 되는지 확인해보겠습니다.
 
    ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
 
    그다지 좋지 않습니다. 대시보드에 스크롤 막대가 이제 두 개 있습니다.
-2. **너비에 맞추기**로 전환합니다.
+4. **너비에 맞추기**로 전환합니다.
 
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_width.png)
 

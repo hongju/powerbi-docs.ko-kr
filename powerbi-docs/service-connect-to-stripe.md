@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 533a8ae7f0030c70ed5212c890215a2b43d8e870
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 62f03283a978978314e91c86aaacbe6defe2e19e
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246600"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134527"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>Power BI로 Stripe에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 Stripe 데이터를 시각화하고 탐색합니다. Power BI Stripe 콘텐츠 팩은 고객, 요금, 이벤트 및 송장에 대한 데이터를 끌어옵니다. 이 데이터에는 가장 최근 이벤트 10,000개와 지난 30일 동안의 요금 5,000개가 포함됩니다. 콘텐츠는 사용자가 제어하는 일정에 따라 매일 한 번 자동으로 새로 고쳐집니다. 
@@ -47,7 +47,7 @@ Power BI 콘텐츠 팩을 사용하여 Power BI에서 Stripe 데이터를 시각
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)
+[Power BI란?](power-bi-overview.md)
 
 [Power BI에 대한 데이터 가져오기](service-get-data.md)
 

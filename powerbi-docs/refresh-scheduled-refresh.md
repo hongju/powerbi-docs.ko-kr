@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e6dbd431a1ea37195a6cbb6e3d9a39d79a4e9b0d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96c1709c1d85b8a960be9c96b6839b69b4f22eaa
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248138"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145459"
 ---
 # <a name="configuring-scheduled-refresh"></a>예약된 새로 고침 구성
 
@@ -26,7 +26,7 @@ ms.locfileid: "34248138"
 
 지금 새로 고침 및 새로 고침 예약을 사용하여 데이터 집합이 예약된 새로 고침을 지원하는 경우, 새로 고침을 성공시키기 위해 중요한 몇 가지 요구 사항 및 설정이 있습니다. **게이트웨이 연결**, **데이터 원본 자격 증명**, **새로 고침 예약**입니다. 각각에 대해 좀 더 자세히 살펴보겠습니다.
 
-[Power BI Gateway – Personal](personal-gateway.md) 및 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md) 모두에 사용할 수 있는 옵션을 설명합니다.
+[Power BI Gateway – Personal](service-gateway-personal-mode.md) 및 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md) 모두에 사용할 수 있는 옵션을 설명합니다.
 
 새로 고침 예약 화면을 가져오려면 다음을 수행할 수 있습니다.
 
@@ -123,7 +123,7 @@ ms.locfileid: "34248138"
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI에서 데이터 새로 고침](refresh-data.md)  
-[Power BI 게이트웨이 - 개인](personal-gateway.md)  
+[Power BI 게이트웨이 - 개인](service-gateway-personal-mode.md)  
 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 [Power BI 게이트웨이 - 개인 문제 해결](service-admin-troubleshooting-power-bi-personal-gateway.md)  

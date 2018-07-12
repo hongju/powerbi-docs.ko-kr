@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 11073e7df57d4717e27fa73c6a5e1e315a9a8dcc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241139"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599050"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Power BI로 tyGraph에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 tyGraph 데이터를 보고 탐색합니다. tyGraph 계정에 연결하고 대시보드, 보고서 및 데이터 집합을 로드하여 시작합니다. 기본 콘텐츠에 활성 참여 측정(MAE 점수) 및 주요 참가자와 같은 정보가 포함됩니다. 가장 중요한 정보를 강조 표시하려면 추가로 사용자 지정합니다.  설정한 일정에 따라 데이터가 자동으로 새로 고쳐집니다.
@@ -42,7 +42,7 @@ Power BI 콘텐츠 팩을 사용하여 Power BI에서 tyGraph 데이터를 보�
    
     **Yammer 확인된 관리자가 아닌 경우**
    
-    tyGraph 콘텐츠 팩을 사용하려면 Yammer 확인된 관리자가 만든 tyGraph 계정이 필요합니다. 이 계정을 만든 후에 같은 조직 내의 사용자에게 추가 키를 발급할 수 있습니다. 확인된 관리자가 tyGraph 계정을 아직 만들지 않은 경우 연락하여 만들도록 합니다. tyGraph 계정이 있는 경우 <mailto:support@unlimitedviz.com>으로 메일을 전송하여 키를 요청할 수 있습니다.
+    tyGraph 콘텐츠 팩을 사용하려면 Yammer 확인된 관리자가 만든 tyGraph 계정이 필요합니다. 이 계정을 만든 후에 같은 조직 내의 사용자에게 추가 키를 발급할 수 있습니다. 확인된 관리자가 tyGraph 계정을 아직 만들지 않은 경우 연락하여 만들도록 합니다. tyGraph 계정이 있는 경우 <support@unlimitedviz.com>으로 메일을 전송하여 키를 요청할 수 있습니다.
    
     ![](media/service-connect-to-tygraph/creds.png)
 6. 인증이 성공하면 가져오기 프로세스가 자동으로 시작됩니다. 완료되면 새 대시보드, 보고서 및 모델이 탐색 창에 나타납니다. 대시보드를 선택하여 가져온 데이터를 표시합니다.

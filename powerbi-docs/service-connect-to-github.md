@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cd129d898f7ac958a3441754e87366aa1a9dddca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4a7e8d0ad254f2b5130026d793629a0cf4cf3be
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34238250"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137287"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Power BI로 GitHub에 연결
 Power BI용 GitHub 콘텐츠 팩을 사용하면 참여, 문제, 끌어오기 요청 및 활성 사용자와 관련된 데이터가 포함된 GitHub 리포지토리(리포라고도 함)를 파악할 수 있습니다.
@@ -97,5 +97,5 @@ GitHub의 리포지토리 자체를 보면 소유자와 리포지토리를 확�
 3. Power BI로 돌아와서 GitHub에 연결을 시도합니다. GitHub 구성 대화 상자에서 동일한 리포지토리의 리포지토리 이름과 리포지토리 소유자를 사용합니다.  
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 시작](service-get-started.md)
+* [Power BI란?](power-bi-overview.md)
 * [데이터 가져오기](service-get-data.md)

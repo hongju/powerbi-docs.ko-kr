@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755073"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926597"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 문제 해결
 이 문서에서는 **온-프레미스 데이터 게이트웨이**를 사용할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
@@ -31,10 +31,10 @@ ms.locfileid: "34755073"
 게이트웨이는 Windows 서비스로 실행되어 사용자가 여러 가지 방법으로 시작하고 중지할 수 있습니다. 예를 들어, 게이트웨이가 실행되고 있는 컴퓨터에서 높은 권한으로 명령을 연 다음, 다음 명령 중 하나를 실행할 수 있습니다.
 
 * 서비스를 중지하려면 이 명령을 실행합니다.
-  
+
     '''   net stop PBIEgwService   '''
 * 서비스를 시작하려면 이 명령을 실행합니다.
-  
+
     '''   net start PBIEgwService   '''
 
 ### <a name="error-failed-to-create-gateway-please-try-again"></a>오류: 게이트웨이를 만들지 못했습니다. 다시 시도하세요.
@@ -70,7 +70,7 @@ ms.locfileid: "34755073"
 
 1. 게이트웨이를 제거합니다.
 2. 다음 폴더를 삭제합니다.
-   
+
         c:\Program Files\On-premises data gateway
 3. 게이트웨이를 다시 설치합니다.
 4. 필요에 따라 복구 키를 적용하여 기존 게이트웨이를 복원합니다.
@@ -129,11 +129,11 @@ Windows 2000 이전 호환성 액세스 권한이 있는 도메인에는 TGGAU �
 
 1. SQL Server Management Studio 내에서 Analysis Services 컴퓨터에 연결합니다. 고급 연결 속성 내에서 문제의 사용자에 대한 EffectiveUserName을 포함하고 여기에서 오류가 생성되는지 확인합니다.
 2. dsacls Active Directory 도구를 사용하여 특성이 나열되는지 여부를 확인할 수 있습니다. 일반적으로 도메인 컨트롤러에 있는 도구입니다. 계정에 해당하는 고유 도메인 이름을 알아야 하며 이 이름을 도구에 전달해야 합니다.
-   
+
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
-   
+
     다음과 유사한 결과를 얻고 싶어합니다.
-   
+
             Allow BUILTIN\Windows Authorization Access Group
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
@@ -184,15 +184,15 @@ Windows 2000 이전 호환성 액세스 권한이 있는 도메인에는 TGGAU �
 
 1. [게이트웨이 로그](#logs) 내에서 유효한 사용자 이름을 찾습니다.
 2. 값이 전달된 후에는 값이 정확한지 확인합니다. 자신의 사용자인 경우 명령 프롬프트에서 다음 명령을 사용하여 UPN이 어떤 모양인지 확인할 수 있습니다. UPN은 전자 메일 주소와 같습니다.
-   
+
         whoami /upn
 
 필요에 따라 Power BI가 Azure Active Directory에서 가져오는 것을 확인할 수 있습니다.
 
-1. [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net)으로 이동합니다.
+1. [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer)으로 이동합니다.
 2. 오른쪽 위에서 **로그인**을 선택합니다.
 3. 다음 쿼리를 실행합니다. 큰 JSON 응답이 표시됩니다.
-   
+
         https://graph.windows.net/me?api-version=1.5
 4. **userPrincipalName**을 찾습니다.
 
@@ -206,7 +206,7 @@ Azure Active Directory UPN이 로컬 Active Directory UPN과 일치하지 않는
 1. Power BI 서비스의 오른쪽 위에서 **?** 를 선택합니다.
 2. **Power BI 정보**를 선택합니다.
 3. 데이터 영역이 **데이터 저장 위치**에 나열됩니다.
-   
+
     ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 아무 곳도 표시되지 않는 경우 고급 컬렉션 메서드이고 수집된 데이터를 분석하는 데 도움이 필요할 수 있기는 하지만 [fiddler](#fiddler) 또는 netsh와 같은 도구를 사용하여 네트워크 추적 가져오기를 시도할 수 있습니다. 도움이 필요한 경우 [지원](https://support.microsoft.com)에 문의할 수 있습니다.
@@ -329,6 +329,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 <a name="activities"></a>
 
 ### <a name="activity-types"></a>활동 유형
+
 | 활동 유형 | 설명 |
 | --- | --- |
 | MGEQ |ADO.NET을 통해 실행되는 쿼리입니다. 여기에는 DirectQuery 데이터 원본이 포함됩니다. |
@@ -342,9 +343,9 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 2. [활동 유형](#activities)을 검색하여 쿼리를 찾습니다. 이러한 예로 MGEQ가 있습니다.
 3. 두 번째 GUID는 요청 ID이기 때문에 기록해 둡니다.
 4. 지속 시간이 포함된 FireActivityCompletedSuccessfullyEvent 항목을 찾을 때까지 MGEQ를 계속 검색합니다. 동일한 요청 ID를 가지고 있는 항목을 확인할 수 있습니다. 지속 시간의 단위는 밀리초입니다.
-   
+
         DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-   
+
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent은 세부 정보 표시 항목입니다. TraceVerbosity 수준 5에 있지 않으면 이 항목을 기록하지 않습니다.
    > 
@@ -423,12 +424,12 @@ FailedToImpersonateUserException은 다른 사용자를 대신해서 가장할 �
 예약된 새로 고침에 게이트웨이를 사용하는 경우 **새로 고침 기록**을 사용하면 지원을 요청해야 할 때 유용한 데이터를 제공할 뿐만 아니라 어떤 오류가 발생했는지 확인할 수 있습니다. 예약된 새로 고침을 비롯하여 요청에 따른 새로 고침도 볼 수 있습니다. **새로 고침 기록**을 가져오는 방법은 다음과 같습니다.
 
 1. Power BI 탐색 창의 **데이터 집합**에서 데이터 집합 &gt; 열기 메뉴 &gt; **새로 고침 예약**을 선택합니다.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. **다음 설정...** &gt; **새로 고침 예약**에서 **기록 새로 고침**을 선택합니다.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
-   
+
     ![](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 새로 고침 시나리오 문제를 해결하는 방법에 대한 자세한 내용은 [새로 고침 시나리오 문제 해결](refresh-troubleshooting-refresh-scenarios.md) 문서를 참조하세요.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/01/2018
+sktopms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964817"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145390"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
@@ -54,7 +54,7 @@ Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하�
 Power BI 서비스([https://powerbi.com](https://powerbi.com))는 사설 내부 클라우드 서비스로 사용할 수 없습니다. 하지만, 온-프레미스에서 보고 작업할 수 있는 세 가지 다른 옵션이 제공됩니다. 
 
 ### <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
-Power BI 및 Power BI Desktop을 사용하여 자신의 온-프레미스 데이터 소스에 안전하게 연결할 수 있습니다. [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)를 사용하면 온-프레미스 SQL Server Analysis Services 서버 및 기타 데이터 원본에 라이브로 연결할 수 있습니다. 또한 중앙 집중화된 게이트웨이로 예약된 새로 고침을 설정할 수도 있습니다. 게이트웨이를 사용할 수 없는 경우 [Power BI Gateway - Personal](personal-gateway.md)를 사용하여 온-프레미스 데이터 원본에서 데이터를 새로 고칠 수 있습니다.
+Power BI 및 Power BI Desktop을 사용하여 자신의 온-프레미스 데이터 소스에 안전하게 연결할 수 있습니다. [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)를 사용하면 온-프레미스 SQL Server Analysis Services 서버 및 기타 데이터 원본에 라이브로 연결할 수 있습니다. 또한 중앙 집중화된 게이트웨이로 예약된 새로 고침을 설정할 수도 있습니다. 게이트웨이를 사용할 수 없는 경우 [Power BI Gateway - Personal](service-gateway-personal-mode.md)를 사용하여 온-프레미스 데이터 원본에서 데이터를 새로 고칠 수 있습니다.
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
 Power BI Report Server는 사용자가 보고서를 만들고 게시하고 관리한 다음 웹 브라우저, 해당 모바일 장치 또는 Windows 제공 이메일과 같은 다른 방식으로 다른 사용자에게 전달하는 고유한 온-프레미스에 배포하는 솔루션입니다. [Power BI Report Server](report-server/get-started.md)에 대해 자세히 알아보세요.
@@ -138,6 +138,7 @@ Office 365용 Power BI 환경은 지원이 중지되었습니다.
 * 마지막 작업 또는 마지막 몇 가지 작업을 **취소**하려면 CTRL + Z 키를 누릅니다.
 
 ## <a name="next-steps"></a>다음 단계
+* [Power BI란?](power-bi-overview.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
 

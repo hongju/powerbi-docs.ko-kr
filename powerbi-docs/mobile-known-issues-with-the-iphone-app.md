@@ -9,14 +9,15 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 0bb0a221455311854ec52092d062defbc715cdfa
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c54cb47744d5afc2c97ddd15ac77a326a1f9858
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721412"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598237"
 ---
 # <a name="fixing-communication-failures-in-ios-mobile-apps---power-bi"></a>iOS 모바일 앱의 "통신 오류" 해결 - Power BI
+
 | ![iPhone](media/mobile-known-issues-with-the-iphone-app/iphone-logo-50-px.png) | ![iPad](media/mobile-known-issues-with-the-iphone-app/ipad-logo-50-px.png) |
 |:--- |:--- |
 | iPhone |iPad |

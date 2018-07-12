@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296304"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600382"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
 사용자 지정 시각적 개체를 사용하면 사용자 요구 사항과 앱 디자인에 맞출 수 있습니다. 개발자 도구로 Power BI용 사용자 지정 시각적 개체를 만드는 방법을 알아보세요.
@@ -32,14 +32,14 @@ ms.locfileid: "34296304"
 
 1. [NodeJS](https://nodejs.org)를 다운로드하고 설치합니다. 버전 4.0 이상이 필요하지만 5.0 이상을 권장합니다.
 2. 명령줄 도구를 설치합니다. 명령 프롬프트에서 다음 명령을 실행합니다.
-   
+
         npm install -g powerbi-visuals-tools
 3. 매개 변수 없이 다음 명령을 실행하여 도구가 설치되었는지 확인할 수 있습니다.
-   
+
         pbiviz
-   
+
     도움말 출력이 표시됩니다.
-   
+
     <pre><code>
          +syyso+/
     oms/+osyhdhyso/
@@ -59,22 +59,22 @@ ms.locfileid: "34296304"
                /dmmh /mmmm/ /osyhhy/
                  //   dmmd
                        ++
-   
+
        PowerBI Custom Visual Tool
-   
+
     Usage: pbiviz [options] [command]
-   
+
     Commands:
-   
+
     new [name]        Create a new visual
     info              Display info about the current visual
     start             Start the current visual
     package           Package the current visual into a pbiviz file
     update [version]  Updates the api definitions and schemas in the current visual. Changes the version if specified
     help [cmd]        display help for [cmd]
-   
+
     Options:
-   
+
     -h, --help      output usage information
     -V, --version   output the version number
     --install-cert  Install localhost certificate
@@ -103,7 +103,7 @@ ms.locfileid: "34296304"
 인증서를 ‘설치’하려면 다음 명령을 실행합니다.
 
     pbiviz --install-cert
-    
+
 > [!NOTE]
 > 새로 생성된 암호를 사용하여 PFX 인증서를 설치하라고 알려주는 메시지가 표시됩니다.
 > 
@@ -112,20 +112,20 @@ ms.locfileid: "34296304"
 **Windows OS**
 
 1. **인증서 설치...** 를 선택합니다.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows.png)
 2. **현재 사용자**, **다음**을 차례로 선택합니다.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. **모든 인증서를 다음 저장소에 저장**, **찾아보기...** 를 차례로 선택합니다.
 4. **신뢰할 수 있는 루트 인증 기관**, **확인**을 차례로 선택합니다. **다음**을 선택합니다.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
 5. **마침**을 선택합니다.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows4.png)
 6. 보안 경고 대화 상자에서 **예**를 선택합니다.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows5.png)
 7. 열려 있는 브라우저를 모두 닫습니다.
 
@@ -137,13 +137,13 @@ ms.locfileid: "34296304"
 **OSX**
 
 1. 왼쪽 위의 자물쇠가 잠겨 있으면 이 자물쇠를 선택하여 잠금을 해제합니다. localhost를 검색하고 해당 인증서를 두 번 클릭합니다.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. **항상 신뢰**를 선택하고 창을 닫습니다.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx2.png)
 3. 사용자 이름과 암호를 입력 합니다. **설정 업데이트**를 선택합니다.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx3.png)
 4. 열려 있는 브라우저를 모두 닫습니다.
 
@@ -157,15 +157,15 @@ ms.locfileid: "34296304"
 
 1. [app.powerbi.com](https://app.powerbi.com)을 찾아 로그인합니다.
 2. **기어 아이콘**, **설정**을 차례로 선택합니다.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings.png)
 3. **개발자**, **테스트를 위해 개발자 시각적 개체 사용하도록 설정**을 차례로 선택합니다.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings-enable-developer-live-preview.png)
 4. **시각화** 창에서 **개발자 시각적 개체**를 선택합니다.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
-   
+
    > [!NOTE]
    > 이렇게 하려면 개발 컴퓨터의 시각적 개체 폴더에서 `pbiviz start`를 실행했어야 합니다. 시각적 개체 만들기에 대한 자세한 내용은 이 문서의 [새 시각적 개체 만들기](#create-a-new-visual)를 참조하세요.
    > 
@@ -196,11 +196,11 @@ pbiviz new My Visual name
 1. 프롬프트를 엽니다.
 2. 시각적 개체 폴더가 있는 디렉터리로 이동합니다. 이 폴더에는 `pbiviz.json` 파일이 있습니다.
 3. 다음 명령을 실행합니다.
-   
+
     ```
     pbiviz start
     ```
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-start-visual.png)
 
 잘못된 위치에 있으면 다음과 비슷한 오류 메시지가 표시됩니다.
@@ -249,7 +249,7 @@ pbiviz new My Visual name
 1. 프롬프트를 엽니다.
 2. 시각적 개체 폴더가 있는 디렉터리로 이동합니다. 이 폴더에는 `pbiviz.json` 파일이 있습니다.
 3. 다음 명령을 실행합니다.
-   
+
     ```
     pbiviz package
     ```
@@ -294,6 +294,7 @@ pbiviz update 1.2.0
 시각적 개체 프로젝트는 `pbiviz new` 명령을 실행할 때 만들어지는 폴더입니다. 
 
 ### <a name="file-structure"></a>파일 구조
+
 | 항목 | 설명 |
 | --- | --- |
 | assets/ |아이콘, 스크린샷 등 시각적 개체 자산을 저장 하기 위해 사용됩니다. |

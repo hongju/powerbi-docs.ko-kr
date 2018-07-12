@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fb05b6fd2378c8fe2b6dec35250df31d227b7760
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297725"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135447"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
 모든 모바일 플랫폼에서 Power BI 모바일 앱(예: iOS, Android 장치 및 Windows 10) 내에 특정 위치(*딥 링크*)에 연결하려면 URI(Uniform Resource Identifier)를 만들고 사용할 수 있습니다.
@@ -103,5 +103,5 @@ https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**&co
 * [모바일 장치용 Power BI 앱](mobile-apps-for-mobile-devices.md)
 * Twitter에서 @MSPowerBI 팔로우
 * [Power BI 커뮤니티](http://community.powerbi.com/)에서 대화에 참여
-* [Power BI 시작](service-get-started.md)
+* [Power BI란?](power-bi-overview.md)
 

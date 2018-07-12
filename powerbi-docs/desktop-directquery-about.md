@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 472be555bb4c46da41eb762c1eeae14ef991e742
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ed9ab95aace7ab1ff0774732241bdd4a7fffcb15
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290870"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600992"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI의 DirectQuery 사용
 **Power BI Desktop** 또는 **Power BI 서비스**를 사용하는 경우 모든 종류의 다양한 데이터 원본에 연결할 수 있으며 이러한 데이터를 여러 가지 방법으로 연결할 수 있습니다. 데이터를 가져오는 가장 일반적인 방법인 Power BI로 데이터를 *가져오거나* **DirectQuery**라고 하는 원래의 원본 리포지토리에 있는 데이터에 직접 연결할 수 있습니다. 이 문서에서는 **DirectQuery**와 그 기능에 대해 설명하며, 다음 항목을 포함하고 있습니다.
@@ -152,7 +152,7 @@ Excel 파일에서 유지되는 일부 로컬 데이터와 회사 SQL Server 데
     
     이는 매우 많은 수의 품목이 있는 경우 이러한 측정값으로 인해 성능이 크게 저하될 수 있기 때문입니다.
 * **계산 테이블 지원 안 함:** DAX 식을 사용하여 계산 테이블을 정의하는 기능은 DirectQuery 모드에서 지원되지 않습니다.
-* **단일 방향으로 관계 필터링 제한:** DirectQuery를 사용하는 경우 관계에 대한 교차 필터링 방향을 "양방향"으로 설정할 수 없습니다. 예를 들어 아래의 세 개 테이블을 사용하면 각 고객[성별]을 보여 주는 시각적 개체와 각 개체에서 구매한 제품[범주]의 수를 작성할 수 없습니다. 이러한 양방향 필터링의 사용에 대해서는 [이 자세한 백서](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional cross-filtering in Analysis Services 2016 and Power BI.docx)에서 설명하고 있습니다. 이 백서에서는 SQL Server Analysis Services의 컨텍스트에서 예제를 제공하지만 기본적인 사항은 Power BI에도 동일하게 적용됩니다.
+* **단일 방향으로 관계 필터링 제한:** DirectQuery를 사용하는 경우 관계에 대한 교차 필터링 방향을 "양방향"으로 설정할 수 없습니다. 예를 들어 아래의 세 개 테이블을 사용하면 각 고객[성별]을 보여 주는 시각적 개체와 각 개체에서 구매한 제품[범주]의 수를 작성할 수 없습니다. 이러한 양방향 필터링의 사용에 대해서는 [이 자세한 백서](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)에서 설명하고 있습니다. 이 백서에서는 SQL Server Analysis Services의 컨텍스트에서 예제를 제공하지만 기본적인 사항은 Power BI에도 동일하게 적용됩니다.
   
   ![](media/desktop-directquery-about/directquery-about_01.png)
   

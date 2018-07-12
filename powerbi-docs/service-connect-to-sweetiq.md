@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6592405de2d76c14334c8c31e4af84cd5a090ed9
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1a9b9c8c7cde59cf7cd05b383070183b219159da
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247553"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136275"
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>Power BI로 SweetIQ에 연결
 Power BI 콘텐츠 팩은 SweetIQ 계정에서 데이터를 가져오고 데이터를 쉽게 탐색할 수 있는 기본 콘텐츠 집합을 생성합니다. SweetIQ 콘텐츠 팩을 사용하여 위치, 목록, 평점 및 리뷰에 대한 데이터를 분석합니다. 데이터가 매일 새로 고쳐지도록 설정되어 모니터링하는 데이터를 최신 상태를 유지합니다.
@@ -54,7 +54,7 @@ Power BI용 [SweetIQ 콘텐츠 팩](https://app.powerbi.com/groups/me/getdata/se
 특정 클라이언트에 대한 데이터에 액세스하려면 API 키에 대해 관리자에게 문의합니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)
+[Power BI란?](power-bi-overview.md)
 
 [Power BI에 대한 데이터 가져오기](service-get-data.md)
 

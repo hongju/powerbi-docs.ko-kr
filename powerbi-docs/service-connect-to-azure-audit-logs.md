@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 22020595b4f972f112f10e16fe7ae7d7fd4abed7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 903f2a345ba4d87cb217ececa459a3cca14d72fa
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241730"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134642"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI로 Azure Audit Logs에 연결
 Azure Audit Logs 콘텐츠 팩을 사용하면 감사 로그에 저장된 정보를 분석 및 시각화할 수 있습니다. Power BI는 데이터를 검색하고, 기본 대시보드를 구성한 다음 해당 데이터를 기준으로 보고서를 만듭니다.
@@ -69,6 +69,6 @@ Azure 감사 로그 콘텐츠 팩을 사용하려면 Azure Portal에서 감사 �
 잘못된 자격 증명으로 인해 자격 증명 오류나 새로 고침 시도 시 오류가 발생하는 경우, Azure 감사 로그 콘텐츠 팩의 모든 인스턴스를 삭제하고 다시 연결해보세요.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)  
+[Power BI란?](power-bi-overview.md)  
 [Power BI - 기본 개념](service-basic-concepts.md)  
 

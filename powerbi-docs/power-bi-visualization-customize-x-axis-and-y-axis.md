@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 372f00e7bd62068688bdcc22c1e983c3fe629f8a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d28c6f4a0237253847cd474a3c3558399ba6fa64
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295706"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600522"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X축 및 Y축 속성 사용자 지정
 이 자습서에서는 시각적 개체의 X축 및 Y축을 사용자 지정하는 다양한 방법을 배웁니다. 모든 시각적 개체에 축이 있거나 모든 시각적 개체를 사용자 지정할 수 있는 것은 아닙니다. 예를 들어 원형 차트에는 축이 없습니다. 그리고 사용자 지정 옵션은 시각적 개체마다 다르며, 이 자습서에서 다 다루기에는 너무 많습니다. 따라서 가장 많이 사용되는 축을 몇 개만 살펴보고, Power BI 보고서 캔버스에서 시각적 서식 탭을 사용하는 방법을 익히도록 하겠습니다.  
@@ -86,9 +86,9 @@ Power BI 서비스에 로그인하고 [편집용 보기](service-interact-with-a
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
->[NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
-1. 1월에는 GM%가 35%였고, 4월에 45% 고점에 도달했으며, 7월에 감소하고, 8월에 다시 고점에 도달했습니다. 작년과 금년의 매출 패턴이 유사할까요?
-2. **This Year Sales > Value** 및 **Last Year Sales**를 꺾은선형 차트에 추가합니다. **작년 GM%** 의 눈금(0M% 눈금선과 함께 있는 파란색 선)은 **매출액** 눈금보다 훨씬 더 작기 때문에 비교하기가 어렵습니다. 또한 Y축 레이블 백분율도 그렇습니다.      
+> [NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
+> 1. 1월에는 GM%가 35%였고, 4월에 45% 고점에 도달했으며, 7월에 감소하고, 8월에 다시 고점에 도달했습니다. 작년과 금년의 매출 패턴이 유사할까요?
+> 2. **This Year Sales > Value** 및 **Last Year Sales**를 꺾은선형 차트에 추가합니다. **작년 GM%** 의 눈금(0M% 눈금선과 함께 있는 파란색 선)은 **매출액** 눈금보다 훨씬 더 작기 때문에 비교하기가 어렵습니다. 또한 Y축 레이블 백분율도 그렇습니다.      
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
 5. 보다 쉽게 읽고 해석 가능한 시각적 개체를 만들려면 꺾은선형 차트를 꺾은선형 및 누적 세로 막대형 차트로 변환합니다.

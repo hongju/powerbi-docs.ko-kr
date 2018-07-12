@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: maggies
-ms.openlocfilehash: a7012bf96ee0f8ac7e73d1db21e9a36f0fea88cb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b09fd5846689299f426fc779061efaa30f8f6909
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34481052"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599161"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI Report Server에 대한 타임라인 지원
 Power BI Report Server는 매해 몇 번씩 릴리스됩니다. 보안 및 중요 업데이트는 다음 릴리스가 GA(일반 공급) 상태가 될 때까지 사용할 수 있습니다. 다음 릴리스 이후에도 이전의 릴리스는 12개월이라는 릴리스 수명의 나머지 기간 동안 계속 보안 업데이트됩니다.
@@ -27,6 +27,7 @@ Power BI Report Server는 매해 몇 번씩 릴리스됩니다. 보안 및 중�
     ![지원 기간을 보여 주는 그래프](media/support-timeline/report-server-support-timeline-mar-2018.png)
 
 ## <a name="version-history"></a>버전 기록
+
 | **버전** | **가용성 날짜** | **지원 종료 날짜** |
 | --- | --- | --- |
 | 2017년 6월 |2017년 6월 12일 |2018년 6월 12일 |

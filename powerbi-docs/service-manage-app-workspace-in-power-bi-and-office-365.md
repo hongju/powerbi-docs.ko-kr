@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241950"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965208"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI 및 Office 365에서 앱 작업 영역 관리
 [Power BI 또는 Office 365에서 앱 작업 영역](service-install-use-apps.md)의 작성자나 관리자는 Power BI의 작업 영역에 대한 몇 가지 측면을 관리합니다. Office 365에서 관리하는 기타 측면. 
@@ -33,7 +33,7 @@ ms.locfileid: "34241950"
 * 그룹 전자 메일 주소를 참조하세요.
 * 그룹 삭제.
 
-앱 작업 공간의 관리자 또는 구성원이 되려면 [Power BI Pro](service-free-vs-pro.md) 라이선스가 필요합니다. 앱 작업 영역이 Power BI 프리미엄 용량에 있는 경우를 제외하고 앱 사용자는 Power BI Pro 라이선스가 필요합니다. 그런 다음 비즈니스 사용자는 대신 Power BI 무료 라이선스를 사용하여 앱에 액세스할 수 있습니다. 자세한 내용은 [Power BI 프리미엄이란?](service-premium.md)을 참조하세요.
+앱 작업 공간의 관리자 또는 구성원이 되려면 [Power BI Pro](service-free-vs-pro.md) 라이선스가 필요합니다. 앱 작업 영역이 Power BI 프리미엄 용량에 있는 경우를 제외하고 앱 사용자는 Power BI Pro 라이선스가 필요합니다. 자세한 내용은 [Power BI 프리미엄이란?](service-premium.md)을 참조하세요.
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Power BI에서 앱 작업 영역 편집
 1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 줄임표(**…**)를 선택한 다음 > **작업 영역 편집**을 선택합니다. 

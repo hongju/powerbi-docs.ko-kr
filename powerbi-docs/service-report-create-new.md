@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 377ea4acc1a6fb41101571ac3ed0be2f3e50889b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246160"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599531"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>데이터 집합을 가져와 Power BI 서비스에서 새 보고서 만들기
 지금까지 [Power BI의 보고서](service-reports.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 아주 다양한 방법으로 보고서를 만들 수 있으며 이 문서에서는 Power BI 서비스를 사용하여 Excel 데이터 집합에서 매우 기본적인 보고서를 만드는 것으로 시작하겠습니다. 보고서를 만들기 위한 기본 사항을 이해하고 나면 맨 아래의 **다음 단계**가 더 높은 수준의 보고서 항목으로 안내합니다.  
 
 > **팁**: 기존 보고서를 복사하여 보고서를 만들려면 [보고서 복사](power-bi-report-copy.md)를 참조하세요.
 > 
-### <a name="prerequisites"></a>필수 조건
-- Power BI Desktop을 사용하여 보고서를 만들기 위한 Power BI 서비스는 [Desktop 보고서 보기](desktop-report-view.md)를 참조하세요.  
-- 소매점 분석 샘플 데이터 집합
+> ### <a name="prerequisites"></a>필수 조건
+> - Power BI Desktop을 사용하여 보고서를 만들기 위한 Power BI 서비스는 [Desktop 보고서 보기](desktop-report-view.md)를 참조하세요.  
+> - 소매점 분석 샘플 데이터 집합
 
 ## <a name="import-the-dataset"></a>데이터 집합 가져오기
 이 방법에서는 데이터 집합과 빈 보고서 캔버스를 사용하여 보고서 만들기를 시작합니다. 과정을 따라 하려면 [소매점 분석 샘플 정보 Excel 데이터 집합](http://go.microsoft.com/fwlink/?LinkId=529778)을 다운로드하여 비즈니스용 OneDrive(기본) 또는 로컬에 저장합니다.

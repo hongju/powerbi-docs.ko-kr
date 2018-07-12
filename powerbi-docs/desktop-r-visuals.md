@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 641a4f457782711902ee7e2414cb9afffb391afc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32b21e23a6cc4a5e6d9ae4915ddc56f9f9957d14
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286339"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599648"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R을 사용하여 Power BI 시각적 개체 만들기
 **Power BI Desktop**에서 **R**을 사용하면 데이터를 시각화할 수 있습니다.
@@ -81,9 +81,9 @@ R 설치를 지정하면 R 시각적 개체 만들기를 시작할 준비가 되
    * **R 스크립트 편집기** 제목 표시줄에서 **실행**을 선택할 때
    * 데이터 새로 고침, 필터링 또는 강조 표시로 인해 데이터가 변경될 때마다
 
-    다음 이미지는 상관 관계 그림 코드의 예를 보여주고, 다양한 자동차의 특성 간 상관 관계를 그림으로 표시합니다.
+     다음 이미지는 상관 관계 그림 코드의 예를 보여주고, 다양한 자동차의 특성 간 상관 관계를 그림으로 표시합니다.
 
-    ![](media/desktop-r-visuals/r-visuals-6.png)
+     ![](media/desktop-r-visuals/r-visuals-6.png)
 
 5. 시각화 요소를 더 크게 보려면 **R 스크립트 편집기**를 최소화하면 됩니다. 물론 **Power BI Desktop**의 다른 시각적 개체와 마찬가지로 도넛형 시각적 개체(위 예제의 이미지 오른쪽에 있는 원형 시각적 개체)에서 스포츠카만 선택하여 상관 관계 그림을 교차 필터링할 수 있습니다.
 

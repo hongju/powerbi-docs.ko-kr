@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: aa7fcc720861d1459183aaf7a82a2af8912eb5b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253622"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599751"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI에서 데이터 새로 고침
 항상 최신 데이터를 가져오는 것은 올바른 결정을 내리는 데 중요한 경우가 많습니다. 일부 데이터에 연결하여 업로드하기 위해 Power BI에서 이미 데이터 가져오기를 사용했으며, 일부 보고서와 대시보드를 만들었습니다. 이제, 데이터가 최신이고 가장 좋은 상태임을 확인해야 합니다.
@@ -101,6 +101,7 @@ Power BI에서는 데이터 가져오기를 사용하여 로컬 드라이브, On
 OneDrive 또는 SharePoint Online의 파일을 보관하고 Power BI의 파일에 연결하면 상당한 수준의 유연성을 제공합니다. 그러나 그러한 유연성으로 인해, 가장 이해하기 어려운 원인 중 하나가 됩니다. OneDrive 또는 SharePoint Online에 저장된 파일에 대한 예약된 새로 고침은 패키지 새로 고침과 다릅니다. [새로 고침의 유형](#types-of-refresh) 섹션에서 자세히 알아볼 수 있습니다.
 
 ### <a name="power-bi-desktop-file"></a>Power BI Desktop 파일
+
 | **데이터 원본** | **자동 새로 고침** | **사용자 구성 수동 또는 예약 새로 고침** | **필수 게이트웨이** |
 | --- | --- | --- | --- |
 | 데이터 가져오기(리본에 있음)는 모든 나열된 온라인 데이터 원본에 연결하여 데이터를 쿼리하는 데 사용됩니다. |아니요 |예 |아니요(아래 참조) |
@@ -117,6 +118,7 @@ OneDrive 또는 SharePoint Online의 파일을 보관하고 Power BI의 파일�
 자세한 내용은 [OneDrive에 있는 Power BI Desktop 파일로부터 만들어진 데이터 집합 새로 고침](refresh-desktop-file-onedrive.md)을 참조하세요.
 
 ### <a name="excel-workbook"></a>Excel 통합 문서
+
 | **데이터 원본** | **자동 새로 고침** | **사용자 구성 수동 또는 예약 새로 고침** | **필수 게이트웨이** |
 | --- | --- | --- | --- |
 | Excel 데이터 모델에 로드되지 않은 워크시트의 데이터 테이블입니다. |예, 매시간 *(OneDrive/SharePoint Online만 해당)* |수동으로만 *(OneDrive/SharePoint Online만 해당)* |아니요 |
@@ -131,6 +133,7 @@ OneDrive 또는 SharePoint Online의 파일을 보관하고 Power BI의 파일�
 자세한 내용은 [OneDrive에서 Excel 통합 문서로부터 만들어진 데이터 집합 새로 고침](refresh-excel-file-onedrive.md)을 참조하세요.
 
 ### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에서 쉼표로 구분된 값(.csv) 파일
+
 | **데이터 원본** | **자동 새로 고침** | **사용자 구성 수동 또는 예약 새로 고침** | **필수 게이트웨이** |
 | --- | --- | --- | --- |
 | 간단하게 쉼표로 구분된 값 |예, 시간별 |수동만 |아니요 |
@@ -145,6 +148,7 @@ Adobe Analytics, SalesForce, Dynamics CRM Online와 같은 **온라인 서비스
 **조직 콘텐츠 팩**: 조직의 사용자에 의해 만들어 공유했습니다. 콘텐츠 팩 소비자는 새로 고침 일정을 설정하거나 수동으로 새로 고칠 수 없습니다. 콘텐츠 팩 작성자만 콘텐츠 팩의 데이터 집합에 대해 새로 고침을 설정할 수 있습니다. 새로 고침 설정은 데이터 집합으로 상속됩니다.
 
 ### <a name="content-packs-from-online-services"></a>온라인 서비스의 콘텐츠 팩
+
 | **데이터 원본** | **자동 새로 고침** | **사용자 구성 수동 또는 예약 새로 고침** | **필수 게이트웨이** |
 | --- | --- | --- | --- |
 | 데이터 가져오기 &gt; 서비스의 온라인 서비스 |예 |예 |아니요 |
@@ -237,7 +241,7 @@ OneDrive 또는 SharePoint Online에 있는 파일에 연결하면 보고서와 
 > 
 > 
 
-자세한 내용은 [Power BI의 Excel 데이터](service-excel-workbook-files.md), [Power BI Gateway - Personal](personal-gateway.md), [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md), [로컬 드라이브에 있는 Excel 통합 문서로부터 만들어진 데이터 집합 새로 고침](refresh-excel-file-local-drive.md)을 참조하세요.
+자세한 내용은 [Power BI의 Excel 데이터](service-excel-workbook-files.md), [Power BI Gateway - Personal](service-gateway-personal-mode.md), [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md), [로컬 드라이브에 있는 Excel 통합 문서로부터 만들어진 데이터 집합 새로 고침](refresh-excel-file-local-drive.md)을 참조하세요.
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>OData 피드의 데이터가 포함된 Power BI 데스크톱 파일
 이 경우, Power BI 데스크톱에서 데이터 가져오기를 사용하여 OData 피드에 연결하여 인구 데이터를 가져옵니다.  Power BI 데스크톱에서 몇 개의 보고서를 만든 다음, WACensus라고 파일 이름을 정하고 회사의 공유 폴더에 저장합니다. 그런 다음 Power BI 서비스에 파일을 게시합니다.
@@ -270,7 +274,7 @@ Power BI에서 Salesforce와 같은 온라인 서비스 공급자에서 데이�
 ## <a name="next-steps"></a>다음 단계
 [새로 고침 문제 해결을 위한 도구](service-gateway-onprem-tshoot.md)  
 [새로 고침 시나리오 문제 해결](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI 게이트웨이 - 개인](personal-gateway.md)  
+[Power BI 게이트웨이 - 개인](service-gateway-personal-mode.md)  
 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

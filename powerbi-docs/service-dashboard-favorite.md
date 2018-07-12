@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 920e61ed173e979a92958e56f9e0276f26288b3f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7fe40fa3ea4a80198c3b06d2594c7ad0837ee923
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250678"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136183"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>즐겨 찾는 대시보드, 보고서 및 Power BI 서비스의 앱
 콘텐츠를 *즐겨찾기* 로 만들면 모든 작업 영역에서 액세스할 수 있습니다.  즐겨찾기는 일반적으로 가장 자주 방문하는 콘텐츠입니다.
@@ -76,7 +76,7 @@ Amanda가 작업 영역에 즐겨찾기를 추가하는 비디오를 시청한 �
 > 
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)
+[Power BI란?](power-bi-overview.md)
 
 [Power BI - 기본 개념](service-basic-concepts.md)
 

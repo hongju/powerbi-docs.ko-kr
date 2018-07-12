@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1a39b347a68cb5557ffff7758efbfba86884b5ce
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297104"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599004"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>시각화 제목, 범례 및 배경 사용자 지정
 이 자습서에서는 시각화를 사용자 지정하는 몇 가지 방법을 알아봅니다.   시각화를 사용자 지정하는 많은 옵션이 있으며 모두에 대해 자세히 알아보기 위한 가장 좋은 방법은 서식 지정 창(페인트 롤러 아이콘 선택)을 탐색하는 것입니다.  시작하기 위해 이 문서는 시각화 제목, 범례 및 배경을 사용자 지정하는 방법을 보여 줍니다.  
@@ -41,26 +41,26 @@ Amanda가 보고서에서 시각화를 사용자 지정하는 비디오를 시�
 
 1. 보고서의 "New Stores" 페이지로 이동하고 "Open Store Count by Open Month..." 세로 막대형 차트를 선택합니다.
 2. 시각화 창에서 페인트 롤러 아이콘을 선택하여 서식 지정 옵션을 표시합니다.  **제목**을 선택하여 해당 섹션을 확장합니다.  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
 3. 켜기(또는 끄기) 슬라이더를 선택하여  **제목** 을 켜고 끕니다. 이 경우에는 **켜기**로 설정합니다.  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
 4. 텍스트 필드에서 **열린 월별 저장소 수** 를 입력하여 **제목 텍스트** 를 변경합니다.  
 5. **글꼴 색** 을 주황색으로 변경하고 **배경색** 을 노란색으로 변경합니다.
-   
+
    * 드롭다운을 선택하고 **테마 색**, **최근에 사용한 색**또는 **사용자 지정 색**에서 색을 선택합니다.
    * 색 창을 닫으려면 드롭다운을 선택합니다.  
      ![](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
-   
+
    색 창에서 **기본값으로 되돌리기** 를 선택하면 언제든 기본 색으로 되돌릴 수 있습니다.
 6. 텍스트 크기를 12로 늘립니다.
 7. 차트 제목에 대한 마지막으로 사용자 지정 작업은 시각화의 가운데에 정렬하는 것입니다. 제목 위치는 왼쪽 맞춤으로 기본 설정됩니다.  
    ![](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
-   
+
     이 시점에서 자습서의 열 차트 **제목**은 다음과 같아야 합니다.  
     ![](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
-   
+
     지금까지 수행한 모든 제목 사용자 지정 작업을 되돌리려면 **제목**사용자 지정 창 맨 아래에 있는 **기본값으로 되돌리기** 를 선택합니다.  
     ![](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
 
@@ -69,29 +69,30 @@ Amanda가 보고서에서 시각화를 사용자 지정하는 비디오를 시�
 
 1. 켜기(또는 끄기) 슬라이더를 선택하여 배경을 켜고 끕니다. 이 경우에는 **켜기**로 설정합니다.
 2. 배경색을 74% 회색으로 변경합니다.
-   
+
    * 드롭다운을 선택하고 **테마 색**, **최근에 사용한 색** 또는 **사용자 지정 색**에서 회색을 선택합니다.
    * 투명도를 74%로 변경합니다.   
      ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
-   
+
    지금까지 수행한 모든 제목 배경 사용자 지정 작업을 되돌리려면 **배경**사용자 지정 창의 맨 아래에서 **기본값으로 되돌리기** 를 선택합니다.
 
 ## <a name="customize-visualization-legends"></a>시각화 범례 사용자 지정
 1. **개요** 보고서 페이지를 열고 "회계 월 및 구역 관리자별 총 판매액 분산" 차트를 선택합니다.
 2. 시각화 탭에서 페인트 브러시 아이콘을 선택하여 서식 창을 엽니다.  
 3. **범례** 옵션을 확장합니다.
-   
+
       ![](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
 4. 켜기(또는 끄기) 슬라이더를 선택하여 범례를 켜고 끕니다. 이 경우에는 **켜기**로 설정합니다.
 5. 범례를 시각화의 왼쪽으로 이동합니다.    
 6. **제목** 을 **켜기** 로 전환하고 **범례 이름** 필드에 **관리자**를 입력하여 범례 제목을 추가합니다.
    ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
-   
+
    지금까지 수행한 모든 범례 사용자 지정 작업을 되돌리려면 **범례**사용자 지정 창 맨 아래에 있는 **기본값으로 되돌리기** 를 선택합니다.
 
 <a name="list"></a>
 
 ## <a name="visualization-types-that-can-be-customized"></a>사용자 지정할 수 있는 시각화 유형
+
 | 시각화 | 제목 | 배경 | 범례 |
 |:--- |:--- |:--- |:--- |
 | 영역 |예 |예 |예 |

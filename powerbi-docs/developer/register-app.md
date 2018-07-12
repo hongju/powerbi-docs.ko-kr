@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813280"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599490"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>포함된 Power BI 콘텐츠에 Azure AD 앱 등록
 Power BI 콘텐츠 포함에 사용하기 위해 Azure AD(Azure Active Directory) 내에서 응용 프로그램을 등록하는 방법에 대해 알아봅니다.
@@ -54,9 +54,8 @@ Power BI 앱 등록 도구를 사용하여 응용 프로그램을 등록하는 �
     그런 다음, **클라이언트 ID**가 제공되고 **서버 측 웹앱**을 선택하면 **클라이언트 암호**가 수신됩니다. **클라이언트 ID**는 나중에 필요한 경우 Azure Portal에서 검색할 수 있습니다. **클라이언트 암호**를 분실한 경우 Azure Portal에서 새로 만들어야 합니다.
 
 8. Azure로 이동하여 **사용 권한 부여**를 선택해야 합니다.
-> [!Note]
-    > 이 Azure로 이동을 완료하려면 Azure 테넌트의 전역 관리자여야
->
+   > [!Note]
+   > 이 Azure로 이동을 완료하려면 Azure 테넌트의 전역 관리자여야
 
 * 합니다.
 * **앱 등록**을 검색하고 선택합니다.
@@ -83,8 +82,8 @@ Power BI 앱 등록 도구를 사용하여 응용 프로그램을 등록하는 �
     ![](media/register-app/azuread-new-app-registration.png)
 5. 메시지에 따라 새 응용 프로그램을 만듭니다.
    
-   * 웹 응용 프로그램의 경우 사용자가 로그인할 수 있는 앱의 기준 URL인 로그온 URL을 제공합니다(예: http://localhost:13526).
-   * 네이티브 응용 프로그램의 경우 Azure AD가 토큰 응답을 반환하기 위해 사용하는 리디렉션 URI를 제공합니다. 응용 프로그램에 대한 값을 입력합니다(예: http://myapplication/redirect).
+   * 웹 응용 프로그램의 경우 사용자가 로그인할 수 있는 앱의 기준 URL인 로그온 URL을 제공합니다(예: `http://localhost:13526`).
+   * 네이티브 응용 프로그램의 경우 Azure AD가 토큰 응답을 반환하기 위해 사용하는 리디렉션 URI를 제공합니다. 응용 프로그램에 대한 값을 입력합니다(예: `http://myapplication/redirect`).
 
 Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 자세한 내용은 [Azure Active Directory와 응용 프로그램 통합](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)을 참조하세요.
 
@@ -161,44 +160,44 @@ Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 �
    * **AllPrincipals**는 테넌트 관리자가 테넌트의 모든 사용자를 대신하여 권한을 부여하는 데만 사용할 수 있습니다.
    * **Principal**은 특정 사용자를 대신하여 권한을 부여하는 데 사용됩니다. 이 경우 요청 본문에 추가 속성을 추가해야 합니다(*principalId = {User_ObjectId}*).
     
-    비대화형 로그인을 수행할 때 불가능한 Azure AD의 동의 요청을 피하기 위해 마스터 계정에 *사용 권한 부여*가 필요합니다.
+     비대화형 로그인을 수행할 때 불가능한 Azure AD의 동의 요청을 피하기 위해 마스터 계정에 *사용 권한 부여*가 필요합니다.
    
-    ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
-    "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
-    ```
+     ```
+     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+     Authorization: Bearer ey..qw
+     Content-Type: application/json
+     { 
+     "clientId":"{Service_Plan_ID}",
+     "consentType":"AllPrincipals",
+     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
+     "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+     "startTime":"2017-03-29T14:35:32.4933413+03:00"
+     }
+     ```
 
-5.  AAD(Azure Active Directory)에 앱 사용 권한 부여
+5. AAD(Azure Active Directory)에 앱 사용 권한 부여
    
-    **consentType**의 값은 **AllPrincipals** 또는 **Principal** 중 하나를 제공할 수 있습니다.
+   **consentType**의 값은 **AllPrincipals** 또는 **Principal** 중 하나를 제공할 수 있습니다.
 
-    * **AllPrincipals**는 테넌트 관리자가 테넌트의 모든 사용자를 대신하여 권한을 부여하는 데만 사용할 수 있습니다.
-    * **Principal**은 특정 사용자를 대신하여 권한을 부여하는 데 사용됩니다. 이 경우 요청 본문에 추가 속성을 추가해야 합니다(*principalId = {User_ObjectId}*).
+   * **AllPrincipals**는 테넌트 관리자가 테넌트의 모든 사용자를 대신하여 권한을 부여하는 데만 사용할 수 있습니다.
+   * **Principal**은 특정 사용자를 대신하여 권한을 부여하는 데 사용됩니다. 이 경우 요청 본문에 추가 속성을 추가해야 합니다(*principalId = {User_ObjectId}*).
     
-    비대화형 로그인을 수행할 때 불가능한 Azure AD의 동의 요청을 피하기 위해 마스터 계정에 *사용 권한 부여*가 필요합니다.
+   비대화형 로그인을 수행할 때 불가능한 Azure AD의 동의 요청을 피하기 위해 마스터 계정에 *사용 권한 부여*가 필요합니다.
 
- ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
-    "scope":"User.Read Directory.AccessAsUser.All",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
- ```
+   ```
+   Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+   Authorization: Bearer ey..qw
+   Content-Type: application/json
+   { 
+   "clientId":"{Service_Plan_ID}",
+   "consentType":"AllPrincipals",
+   "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
+   "scope":"User.Read Directory.AccessAsUser.All",
+   "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+   "startTime":"2017-03-29T14:35:32.4933413+03:00"
+   }
+   ```
 
 ## <a name="next-steps"></a>다음 단계
 이제 Azure AD에서 응용 프로그램을 등록했으므로 응용 프로그램 내에서 사용자를 인증해야 합니다. 자세한 내용은 [사용자 인증 및 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기](get-azuread-access-token.md)를 살펴보세요.

@@ -1,20 +1,20 @@
 ---
 title: Power BI용 템플릿 콘텐츠 팩 테스트
 description: 템플릿 콘텐츠 팩 테스트
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
-ms.author: maghan
-ms.openlocfilehash: 3658a569a0bd15822cd50fefb73e706d771b6c80
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.author: maggies
+ms.openlocfilehash: 8b1f29a0b7eab4420997de5b9879c25addff04f1
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288593"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290786"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Power BI용 템플릿 콘텐츠 팩 테스트
 게시를 위해 제출하기 전에 여러 가지 방법으로 콘텐츠 팩을 테스트할 수 있습니다.  

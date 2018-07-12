@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c25a402138c209eb6a4a36bf39865c30c1c0e5b9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721389"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598945"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>보고서 필터 창 둘러보기
 이 문서에서는 보고서 필터 창을 자세히 살펴봅니다. [Power BI 서비스 편집용 보기 및 읽기용 보기](service-reading-view-and-editing-view.md)와 [Power BI Desktop 보고서 뷰](desktop-report-view.md)의 창을 확인합니다.
@@ -77,7 +77,7 @@ Power BI 서비스에서 보고서는 필터 창에서 수행한 모든 변경 �
 ## <a name="add-a-filter"></a>필터 추가
 * 데스크톱 및 Power BI 서비스 편집용 보기의 필드 창에서 필드를 선택하고 적절한 필터 웰로 끌어 놓아 시각적 개체, 페이지, 드릴스루 또는 보고서에 필터를 추가합니다. 여기에서 **여기에 필드를 끌어 놓으세요.** 라는 메시지가 표시됩니다. 필드가 필터로 추가되면 기본 필터링 및 고급 필터링 제어를 사용하여 미세 조정합니다(아래 설명 참조).
 
-- **시각적 개체 수준 필터 영역으로 새 필드 끌어서 놓기는 해당 필드를 시각적 개체에 추가하지 않지만** 이 새 필드와 함께 시각적 개체를 필터링할 수 있습니다. 아래 예제에서 **Chain**이 새 필터로 시각적 개체에 추가됩니다. 단순히 **Chain**을 필터로 추가하는 것은 기본 또는 고급 필터링 제어를 사용할 때까지 시각적 개체를 변경하지 않습니다.
+* **시각적 개체 수준 필터 영역으로 새 필드 끌어서 놓기는 해당 필드를 시각적 개체에 추가하지 않지만** 이 새 필드와 함께 시각적 개체를 필터링할 수 있습니다. 아래 예제에서 **Chain**이 새 필터로 시각적 개체에 추가됩니다. 단순히 **Chain**을 필터로 추가하는 것은 기본 또는 고급 필터링 제어를 사용할 때까지 시각적 개체를 변경하지 않습니다.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

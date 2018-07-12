@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813115"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598552"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI 데이터 집합에 데이터 푸시
 Power BI API를 사용하여 데이터를 Power BI 데이터 집합에 푸시할 수 있습니다. 예를 들어 기존 비즈니스 워크플로를 확장하여 키 데이터를 데이터 집합에 푸시하고자 한다고 가정합니다. 여기서는 Product 테이블을 포함하는 Sales Marketing 데이터 집합을 데이터 집합에 푸시하려고 합니다.
@@ -98,6 +98,7 @@ Power BI에서 데이터 집합을 만들려면 Power BI 서비스에 JSON(JavaS
 Power BI 테이블 스키마에는 다음과 같은 데이터 형식을 사용할 수 있습니다.
 
 ## <a name="power-bi-table-data-types"></a>Power BI 테이블 데이터 형식
+
 | **데이터 형식** | **제한 사항** |
 | --- | --- |
 | Int64 |Int64.MaxValue 및 Int64.MinValue는 허용되지 않습니다. |

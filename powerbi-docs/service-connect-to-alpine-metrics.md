@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d9e70e0b69f0ce68826f566e6e5cdb0f4d8e113e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7456a030dd5047642c4de9c7a289fed96fe390f1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242935"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135976"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Power BI로 Alpine Metrics Sales Predictions에 연결
 Alpine Metrics에서는 최신 Predictive Sales Process Optimization을 클라우드에서, 그리고 영업 조직 규모에 따라 주문형으로 제공합니다. Power BI용 Alpine Metrics Sales Predictions 콘텐츠 팩에는 잠재적 및 예측된 판매 및 위험과 같은 메트릭을 포함하여 비즈니스의 미래에 대해 깊이 이해할 수 있도록 합니다. 
@@ -66,7 +66,7 @@ Power BI용 [Alpine Metrics Sales Predictions 콘텐츠 팩](https://app.powerbi
 위의 테이블에 대한 권한이 있는 Alpine Metrics 계정은 이 콘텐츠 팩을 인스턴스화하기 위해 필요합니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)
+[Power BI란?](power-bi-overview.md)
 
 [Power BI - 기본 개념](service-basic-concepts.md)
 

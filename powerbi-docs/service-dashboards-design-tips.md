@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247050"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944977"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>멋진 Power BI 대시보드를 디자인하기 위한 팁
 이제 대시보드를 만들고 일부 타일을 추가했으므로 모양과 기능을 개선하는 방법을 살펴보겠습니다. 일반적으로 여기에는 가장 중요한 정보를 돋보이게 하고 깔끔하며 군더더기 없이 만드는 것이 포함됩니다.
@@ -59,7 +59,7 @@ Microsoft의 수석 프로그램 관리자이며 Power BI 대시보드 전문가
 ## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>데이터에 적합한 시각화 사용 및 읽기 쉽게 서식 지정
 다양성을 위해 여러 시각화를 사용하는 것을 피하세요.  시각화는 그림을 그리는 것이며 "읽고" 해석하기 쉬워야 합니다.  일부 데이터 및 시각화에서는 간단한 그래픽 시각화로도 충분합니다. 보다 복잡한 시각화를 호출할 수 있는 기타 데이터도 있지만 타일 및 레이블, 기타 사용자 지정 항목의 활용이 독자에게 도움이 되도록 해야 합니다.  
 
-* [적절한 데이터 시각화를 선택합니다](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). 3차원 차트처럼 현실을 왜곡하는 차트를 사용할 때는 주의하세요. 인간의 뇌는 원형 모양을 해석하기 어렵다는 점을 유념하세요. 원형 차트, 도넛형 차트, 계기 및 기타 원형 차트 종류는 모양은 좋지만 데이터 시각화 모범 사례는 아닙니다.
+* [적절한 데이터 시각화를 선택합니다](https://www.youtube.com/watch?v=-tdkUYrzrio). 3차원 차트처럼 현실을 왜곡하는 차트를 사용할 때는 주의하세요. 인간의 뇌는 원형 모양을 해석하기 어렵다는 점을 유념하세요. 원형 차트, 도넛형 차트, 계기 및 기타 원형 차트 종류는 모양은 좋지만 데이터 시각화 모범 사례는 아닙니다.
 * 차트 내에 있는 축의 차트 눈금, 차트 차원 순서 및 차원 값에 사용된 색이 일관되도록 하세요.
 * 정량 데이터를 적절하게 인코딩하세요. 숫자를 표시할 때는 서너 개의 숫자를 초과하지 마세요. 소수점 왼쪽 및 수백 또는 수백만 자릿수를 한두 숫자로 표시하세요(예: 3,400,000가 아닌 3.4백만).
 * 정밀도와 시간 수준을 섞어쓰지 마세요. 시간 프레임을 잘 이해하고 있어야 합니다.  해당 연도의 특정 월에서 필터링된 차트 옆에 지난 달에 대한 하나의 차트를 포함하지 마세요.

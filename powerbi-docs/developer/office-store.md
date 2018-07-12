@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301783"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092118"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource에 사용자 지정 시각적 개체 게시
-다른 사람이 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 AppSource에 게시하는 방법을 알아봅니다. office
+다른 사람이 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 AppSource에 게시하는 방법을 알아봅니다.
 
 사용자 지정 시각적 개체를 만든 후에는 다른 사람이 검색하고 사용할 수 있도록 AppSource에 게시할 수 있습니다. 이렇게 하려면 몇 가지 준비가 필요합니다. 사용자 지정 시각적 개체를 만드는 방법에 대한 자세한 내용은 [개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기](../service-custom-visuals-getting-started-with-developer-tools.md)를 참조하세요.
 
@@ -36,7 +36,7 @@ AppSource란? 간단히 말해서, Microsoft 제품 및 서비스에 대한 SaaS
 | 스크린샷 |예 |스크린샷을 하나 이상 제공해야 합니다. 가능한 형식은 png, .jpg, .jpeg 또는 .gif입니다. 정확히 1366px(너비) x 768px(높이)여야 합니다. 파일 크기는 1024kb를 초과할 수 없습니다. *활용도를 높이려면, 각 스크린샷에 표시되는 주요 기능의 가치 제안을 분명히 전달하기 위한 텍스트 거품을 추가합니다.* |
 | 다운로드 링크 지원 |예 |시각화 개체에 문제가 있는 고객을 지원하기 위한 URL을 제공합니다. URL 형식에 https:// 또는 http://를 포함해야 합니다. |
 | 개인정보처리방침 링크 |예 |시각화 개체를 사용하는 고객에 대해 개인 정보 취급 방침에 대한 링크를 제공합니다. 링크 형식에 https:// 또는 http://를 포함해야 합니다. |
-| 최종 사용자 사용권 계약(EULA) |예 |EULA 파일을 업로드해야 합니다. 자체적인 EULA를 사용하거나 Office 스토어 내에 있는 Power BI 사용자 지정 시각적 개체에 대한 기본 EULA를 사용할 수 있습니다. 기본 EULA를 사용하려면 판매자 대시보드의 “최종 사용자 사용권 계약” 파일 업로드 대화 상자에 다음 URL을 붙여넣습니다. [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf). |
+| 최종 사용자 사용권 계약(EULA) |예 |EULA 파일을 업로드해야 합니다. 자체적인 EULA를 사용하거나 Office 스토어 내에 있는 Power BI 사용자 지정 시각적 개체에 대한 기본 EULA를 사용할 수 있습니다. 기본 EULA를 사용하려면 판매자 대시보드의 “최종 사용자 사용권 계약” 파일 업로드 대화 상자에 다음 URL을 붙여넣습니다. [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
 | 비디오 링크 |아니요 |사용자 지정 시각적 개체에 대한 사용자의 관심을 높이려면 시각적 개체에 대한 비디오 링크를 제공하는 것이 좋습니다. URL 형식에 https:// 또는 http://를 포함해야 합니다. |
 | GitHub 리포지토리 |아니요 |다른 개발자가 피드백을 제공하고 코드에 대한 개선을 제안할 수 있도록 시각적 개체의 소스와 함께 샘플 데이터가 있는 [GitHub](https://www.github.com) 리포지토리의 유효한 공개 링크를 제공하는 것이 좋습니다. |
 
@@ -97,7 +97,7 @@ Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [개발자 센터
    * 비디오 링크
    * 최종 사용자 사용권 계약(EULA)
      
-       EULA 파일을 업로드해야 합니다. 자체적인 EULA를 사용하거나 Office 스토어 내에 있는 Power BI 사용자 지정 시각적 개체에 대한 기본 EULA를 사용할 수 있습니다. 기본 EULA를 사용하려면 판매자 대시보드의 “최종 사용자 사용권 계약” 파일 업로드 대화 상자에 다음 URL을 붙여넣습니다. [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf).
+       EULA 파일을 업로드해야 합니다. 자체적인 EULA를 사용하거나 Office 스토어 내에 있는 Power BI 사용자 지정 시각적 개체에 대한 기본 EULA를 사용할 수 있습니다. 기본 EULA를 사용하려면 판매자 대시보드의 “최종 사용자 사용권 계약” 파일 업로드 대화 상자에 다음 URL을 붙여넣습니다. [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
 8. **다음**을 선택하여 **세부 정보** 페이지로 이동합니다.
 9. **언어**를 선택하고 목록에서 언어를 선택합니다.
    

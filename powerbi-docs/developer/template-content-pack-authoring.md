@@ -1,19 +1,20 @@
 ---
 title: Power BI에서 템플릿 콘텐츠 팩 작성
 description: 템플릿 콘텐츠 팩 작성
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
-ms.author: maghan
-ms.openlocfilehash: f3f3343122857cbf06c0004d2a3e5e5247f07e48
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.author: maggies
+ms.openlocfilehash: 02c4725617960474cff7a9a1452861d1ab5d5b8d
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290878"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI에서 템플릿 콘텐츠 팩 작성
 템플릿 콘텐츠 팩 작성 시에는 Power BI Desktop 및 PowerBI.com을 사용합니다. 콘텐츠 팩에는 네 가지 구성 요소가 있습니다.
@@ -21,7 +22,8 @@ ms.lasthandoff: 05/17/2018
 * 쿼리를 사용하면 데이터를 [연결](../desktop-connect-to-data.md) 및 [변환](../desktop-query-overview.md)할 수 있으며 [매개 변수](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)도 정의할 수 있습니다.  
 * 데이터 모델로 [관계](../desktop-create-and-manage-relationships.md), [측정값](../desktop-measures.md) 및 Q&A 개선을 만들 수 있습니다.  
 * 보고서 [페이지](../desktop-report-view.md)는 데이터에 대한 정보를 제공하는 시각적 개체 및 필터가 포함됩니다.  
-* [대시보드](../service-dashboards.md) 및 [타일](../service-dashboard-create.md)은 포함된 Insights에 대한 개요를 제공합니다.  
+* 
+  [대시보드](../service-dashboards.md) 및 [타일](../service-dashboard-create.md)은 포함된 Insights에 대한 개요를 제공합니다.  
 
 기존 Power BI 기능으로 각 구성 요소에 익숙할 수 있습니다. 콘텐츠 팩을 빌드할 때는 각 측면에 대해 추가 고려 사항이 있습니다. 자세한 내용은 아래 각 섹션을 참조하세요.
 

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 354ba336407f200d2c311f6bf0de91967cf3f5d1
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721711"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598142"
 ---
 # <a name="manage-content-in-the-web-portal"></a>웹 포털에서 콘텐츠 관리 
 Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지가 매겨진 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치입니다.
@@ -38,9 +38,9 @@ Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지가 매겨진
     [지원되는 웹 브라우저 및 버전](browser-support.md) 목록을 참조하세요.
 2. 주소 표시줄에 웹 포털 URL을 입력합니다.
    
-    기본적으로 URL은 *http://[ComputerName]/reports*입니다.
+    기본적으로 URL은 <em>http://[ComputerName]/reports</em>입니다.
    
-    특정 포트를 사용하도록 Report Server를 구성할 수 있습니다. 예: *http://[ComputerName]:80/reports* 또는 *http://[ComputerName]:8080/reports*
+    특정 포트를 사용하도록 Report Server를 구성할 수 있습니다. 예: <em>http://[ComputerName]:80/reports</em> 또는 <em>http://[ComputerName]:8080/reports</em>
    
     웹 포털에서 항목을 이러한 범주로 그룹화했음을 확인할 수 있습니다.
    

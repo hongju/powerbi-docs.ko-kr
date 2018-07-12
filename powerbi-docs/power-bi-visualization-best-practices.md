@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e9b37ba2b44a23fa0f198bce7a649c67335ac0ed
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297265"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945138"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>보고서 및 시각적 효과에 대한 디자인 모범 사례
 <!-- Shared newnav Include -->
@@ -787,8 +787,6 @@ Power BI에서는 세로 막대형 차트와 가로 막대형 차트를 콤보 �
 원형 차트가 유용할 수 있는 경우 즉, 전체와 부분을 비교하는 경우에 대한 설명이 있습니다. 드물지만 이 차트가 100% 기준 누적 가로 막대형 차트보다 매우 유용한 경우도 있습니다.
 
 [Darkhorse Analytics 사이트](http://www.darkhorseanalytics.com/blog/salvaging-the-pie)에서 원형 차트에 관한 재미있는 다른 문서(및 애니메이션)를 찾을 수 있습니다.
-
-아니면 [Why Tufte is flat-out wrong about pie charts](http://speakingppt.com/2013/03/18/why-tufte-is-flat-out-wrong-about-pie-charts/)에서 이와 대립되는 견해를 볼 수 있습니다.
 
 #### <a name="radial-gauges--kpis"></a>방사형 계기 및 KPI
 ![](media/power-bi-visualization-best-practices/power-bi-gauge.png)

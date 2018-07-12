@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 336ae9cd9ac2940b244df88aaf5a8fff7bd3a55e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2d2d983da6de5ec88574092289ed2958c7a98923
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241845"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600415"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Power BI로 Azure Mobile Engagement에 연결
 Power BI Azure Mobile Engagement 콘텐츠 팩을 사용하면 앱 데이터를 신속하게 파악할 수 있습니다.
@@ -42,7 +42,7 @@ Power BI용 [Azure Mobile Engagement 콘텐츠 팩](https://app.powerbi.com/grou
    
     ![](media/service-connect-to-azure-mobile/dashboard.png)
 
- **다음 단계**
+## <a name="what-now"></a>다음 단계
 
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.

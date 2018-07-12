@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 02a88f04d3c23746da702db043c1992267baf054
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d0e1fdc79ae4bcd5946d82f2cbf7b929a47372cb
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248680"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136804"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI 서비스의 대시보드
 
@@ -84,7 +84,7 @@ Power BI Pro는 대시보드를 공유하고 공유한 대시보드를 보는 �
 > 
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)  
+[Power BI란?](power-bi-overview.md)  
 [Power BI - 기본 개념](service-basic-concepts.md)  
 [Power BI 프리미엄이란?](service-premium.md)  
 

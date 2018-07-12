@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248345"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598981"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>대시보드 타일 편집 또는 제거
 
@@ -35,12 +35,12 @@ ms.locfileid: "34248345"
 * [타일을 다른 대시보드에 고정](#different)
 * [타일 삭제](#delete)
   
- > [!TIP]
- > 타일 자체에 표시된 시각화를 변경하려면 해당 타일을 삭제하고 새 [대시보드 타일](service-dashboard-tiles.md)을 추가합니다.
- > 
+  > [!TIP]
+  > 타일 자체에 표시된 시각화를 변경하려면 해당 타일을 삭제하고 새 [대시보드 타일](service-dashboard-tiles.md)을 추가합니다.
 
- ### <a name="prerequisites"></a>필수 조건
- 1. 이 자습서를 따라 하려면 Power BI 서비스(Power BI Desktop 아님)를 열고 [IT 지출 분석 샘플을 다운로드](sample-it-spend.md)합니다. "성공" 메시지가 나타나면 **대시보드로 이동**을 선택합니다.
+  
+## <a name="prerequisites"></a>필수 조건
+이 자습서를 따라 하려면 Power BI 서비스(Power BI Desktop 아님)를 열고 [IT 지출 분석 샘플을 다운로드](sample-it-spend.md)합니다. "성공" 메시지가 나타나면 **대시보드로 이동**을 선택합니다.
 
 - - -
 <a name="create"></a>

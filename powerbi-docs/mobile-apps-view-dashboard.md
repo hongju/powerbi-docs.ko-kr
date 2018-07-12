@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: db201098d6bd7207164b2ff08acb363563211f72
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295876"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137264"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
 적용 대상:
@@ -195,6 +195,6 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="next-steps"></a>다음 단계
 * Google Play에서 [Android 앱 다운로드](http://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI용 Android 앱 시작](mobile-android-app-get-started.md)  
-* [Power BI 시작](service-get-started.md)
+* [Power BI란?](power-bi-overview.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

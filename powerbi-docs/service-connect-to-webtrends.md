@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 89eda507e0b908fe746cb13c0c6477baed07ba3c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2250e3739904e6cc1e36c03df45cc765d3d9b591
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243027"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135240"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Power BI로 Webtrends에 연결
 Power BI용 Webtrends 콘텐츠 팩에는 트래픽 소스별 총 페이지 보기 및 방문 횟수와 같은 다양한 기본 메트릭이 포함되어 있습니다. Webtrends 계정에 연결하여 Power BI에서 Webtrends 데이터를 시각화합니다. 제공된 대시보드 및 보고서를 사용하거나, 가장 관심 있는 정보를 강조 표시하도록 사용자 지정할 수 있습니다.  하루에 한 번 자동으로 데이터가 새로 고쳐집니다.
@@ -101,7 +101,7 @@ Webtrends 프로필 ID를 선택한 후에 URL에서 사용자 Webtrends 프로�
 2. 사용자는 ["포함된 내용"](#Included) 섹션에 나열된 보고서에 대한 액세스 권한이 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)
+[Power BI란?](power-bi-overview.md)
 
 [Power BI - 기본 개념](service-basic-concepts.md)
 
