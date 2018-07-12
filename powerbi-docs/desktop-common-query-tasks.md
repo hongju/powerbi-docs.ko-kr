@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137494"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877334"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop의 일반적인 쿼리 작업
 Power BI Desktop의 **쿼리 편집기** 창에서 작업하는 경우 일반적으로 사용되는 소수의 작업이 있습니다. 이 문서에서는 이러한 일반적인 작업을 보여 주고, 추가 정보 링크를 제공합니다. 
@@ -38,7 +38,7 @@ Power BI Desktop의 **쿼리 편집기** 창에서 작업하는 경우 일반적
 두 데이터 소스에 연결하는 데 필요한 단계에서 일반적인 쿼리 작업이 시작됩니다.
 
 ## <a name="connect-to-data"></a>데이터에 연결
-Power BI Desktop의 데이터에 연결하려면 리본의 **홈** 탭에서 **데이터 가져오기** 단추를 선택합니다. Power BI Desktop에서 가장 일반적인 데이터 소스가 포함된 메뉴를 표시합니다. Power BI Desktop에서 연결할 수 있는 데이터 소스의 전체 목록을 보려면 메뉴 맨 아래에 있는 **자세히...** 단추를 선택합니다. 자세한 내용은 [Power BI Desktop의 데이터 소스](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources)를 참조하세요.
+Power BI Desktop의 데이터에 연결하려면 리본의 **홈** 탭에서 **데이터 가져오기** 단추를 선택합니다. Power BI Desktop에서 가장 일반적인 데이터 소스가 포함된 메뉴를 표시합니다. Power BI Desktop에서 연결할 수 있는 데이터 소스의 전체 목록을 보려면 메뉴 맨 아래에 있는 **자세히...** 단추를 선택합니다. 자세한 내용은 [Power BI Desktop의 데이터 소스](https://docs.microsoft.com/power-bi/desktop-data-sources)를 참조하세요.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -60,10 +60,10 @@ Power BI Desktop의 데이터에 연결하려면 리본의 **홈** 탭에서 **�
 
 다른 데이터 연결도 비슷합니다. 데이터 연결에 인증이 필요한 경우 Power BI Desktop이 적절한 자격 증명을 묻는 메시지를 표시합니다.
 
-Power BI Desktop에서 데이터에 연결하는 단계별 데모를 보려면 [Power BI Desktop에서 데이터에 연결](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data)을 참조하세요.
+Power BI Desktop에서 데이터에 연결하는 단계별 데모를 보려면 [Power BI Desktop에서 데이터에 연결](https://docs.microsoft.com/power-bi/desktop-connect-to-data)을 참조하세요.
 
 ## <a name="shape-and-combine-data"></a>데이터 모양 지정 및 결합
-쉽게 데이터 모양을 지정하고 쿼리 편집기와 결합할 수 있습니다. 이 섹션에는 데이터 모양을 지정할 수 있는 방법의 몇 가지 예가 포함되어 있습니다. 데이터를 셰이핑하고 결합하는 방법의 전체 데모를 보려면 **[Shape and Combine Data with Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**(Power BI Desktop을 사용하여 데이터 셰이핑 및 결합)을 참조하세요.
+쉽게 데이터 모양을 지정하고 쿼리 편집기와 결합할 수 있습니다. 이 섹션에는 데이터 모양을 지정할 수 있는 방법의 몇 가지 예가 포함되어 있습니다. 데이터를 셰이핑하고 결합하는 방법의 전체 데모를 보려면 **[Shape and Combine Data with Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**(Power BI Desktop을 사용하여 데이터 셰이핑 및 결합)을 참조하세요.
 
 이전 섹션에서는 두 개의 데이터 집합, 즉 Excel 통합 문서와 웹 리소스를 연결했습니다. 쿼리 편집기에 로드된 후 선택된 웹 페이지의 쿼리를 사용하여 다음과 같이 표시됩니다([쿼리 편집기] 창 왼쪽의 **쿼리** 창에 나열된 사용 가능한 쿼리에서 가져옴).
 
