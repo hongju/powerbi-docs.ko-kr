@@ -22,7 +22,7 @@
 
 ![](media/4-6-install-configure-personal-gateway/4-6_3b.png)
 
-Power BI 서비스 계정에 로그인한 다음 게이트웨이 서비스가 사용자의 계정 하에 실행되기 때문에 컴퓨터의 Windows 계정에 로그인하라는 메시지가 표시됩니다.
+Power BI 서비스 계정에 로그인한 다음, 게이트웨이 서비스가 사용자의 계정 하에 실행되기 때문에 머신의 Windows 계정에 로그인하라는 메시지가 표시됩니다.
 
 ![](media/4-6-install-configure-personal-gateway/4-6_3c.png)
 

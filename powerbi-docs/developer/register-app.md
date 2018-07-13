@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599490"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925004"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>포함된 Power BI 콘텐츠에 Azure AD 앱 등록
 Power BI 콘텐츠 포함에 사용하기 위해 Azure AD(Azure Active Directory) 내에서 응용 프로그램을 등록하는 방법에 대해 알아봅니다.
@@ -23,7 +23,6 @@ Azure AD에 응용 프로그램을 등록하면 응용 프로그램에서 Power 
 
 > [!IMPORTANT]
 > Power BI 앱을 등록하려면 먼저 [Azure Active Directory 테넌트 및 조직 사용자](create-an-azure-active-directory-tenant.md)가 있어야 합니다. 테넌트의 사용자를 Power BI에 아직 등록하지 않은 경우 앱 등록이 성공적으로 완료되지 않습니다.
-> 
 > 
 
 두 가지 방법으로 응용 프로그램을 등록합니다. 즉, [Power BI 앱 등록 도구](https://dev.powerbi.com/apps/)를 사용하거나 Azure Portal 내에서 직접 수행하면 됩니다. Power BI 앱 등록 도구는 입력해야 할 필드가 단 몇 개만 있으므로 가장 쉬운 옵션입니다. 앱을 변경하려는 경우 Azure Portal을 사용합니다.
@@ -45,7 +44,7 @@ Power BI 앱 등록 도구를 사용하여 응용 프로그램을 등록하는 �
    
     응용 프로그램 형식으로 **서버 쪽 웹앱**을 선택한 경우에만 **홈 페이지 URL**을 사용할 수 있습니다.
    
-    *고객에 대한 콘텐츠 포함* 및 *integrate-dashboard-web-app* 샘플의 경우 리디렉션 URL은 `http://localhost:13526/redirect`입니다. 보고서 및 타일 샘플의 경우 리디렉션 URL은 `http://localhost:13526/`입니다.
+    *고객에 대한 콘텐츠 포함* 및 *integrate-dashboard-web-app* 샘플의 경우 **리디렉션 URL**은 `http://localhost:13526/Redirect`입니다. 보고서 및 타일 샘플의 경우 **리디렉션 URL**은 `http://localhost:13526/`입니다.
 6. 액세스 권한이 있는 응용 프로그램에 대한 API를 선택합니다. Power BI 액세스 권한에 대한 자세한 내용은 [Power BI 사용 권한](power-bi-permissions.md)을 참조하세요.
    
     ![](media/register-app/app-registration-apis.png)
@@ -83,7 +82,7 @@ Power BI 앱 등록 도구를 사용하여 응용 프로그램을 등록하는 �
 5. 메시지에 따라 새 응용 프로그램을 만듭니다.
    
    * 웹 응용 프로그램의 경우 사용자가 로그인할 수 있는 앱의 기준 URL인 로그온 URL을 제공합니다(예: `http://localhost:13526`).
-   * 네이티브 응용 프로그램의 경우 Azure AD가 토큰 응답을 반환하기 위해 사용하는 리디렉션 URI를 제공합니다. 응용 프로그램에 대한 값을 입력합니다(예: `http://myapplication/redirect`).
+   * 네이티브 응용 프로그램의 경우 Azure AD가 토큰 응답을 반환하기 위해 사용하는 **리디렉션 URI**를 제공합니다. 응용 프로그램에 대한 값을 입력합니다(예: `http://myapplication/Redirect`).
 
 Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 자세한 내용은 [Azure Active Directory와 응용 프로그램 통합](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)을 참조하세요.
 
