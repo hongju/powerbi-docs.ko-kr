@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245608"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599787"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI로 Project "Madeira"에 연결
 Power BI와 Project "Madeira" 콘텐츠 팩을 통해 Project "Madeira" 데이터에 유용한 정보를 쉽게 가져올 수 있습니다. Power BI는 영업 및 재무 데이터를 모두 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 작성합니다.
@@ -33,7 +33,7 @@ Power BI용 [Project "Madeira" Analytics 콘텐츠 팩](https://app.powerbi.com/
     ![](media/service-connect-to-project-madeira/services.png)
 3. **Project "Madeira"** 를 선택한 다음 **가져오기**를 선택합니다.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. 대화 상자가 나타나면 Project "Madeira" URL을 입력합니다. URL은 Project "Madeira" 회사 이름을 포함한 https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') 패턴을 정확하게 따라야 합니다. 끝에 슬래시가 없고 연결이 https이어야 합니다. [아래](#FindingParams)에서 URL 찾기에 대한 세부 정보를 참조하세요.  
+4. 대화 상자가 나타나면 Project "Madeira" URL을 입력합니다. URL은 Project "Madeira" 회사 이름을 포함한 <https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US>') 패턴을 정확하게 따라야 합니다. 끝에 슬래시가 없고 연결이 https이어야 합니다. [아래](#FindingParams)에서 URL 찾기에 대한 세부 정보를 참조하세요.  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. 대화 상자가 나타나면 인증 방법으로 기본을 선택하고 Project “Madeira” 전자 메일 주소를 사용자 이름으로 입력한 다음 프로젝트 “Madeira” 계정에 대한 암호로 웹 서비스 선택키를 입력합니다. 브라우저에서 Project “Madeira”에 이미 로그인한 경우 자격 증명을 묻는 메시지가 표시되지 않을 수도 있습니다. [아래](#FindingParams)에서 이 선택키를 생성하는 데 대한 자세한 내용을 봅니다.  
@@ -93,10 +93,10 @@ Power BI 대시보드는 위에 나열된 게시된 웹 서비스를 사용하�
 
 프로젝트 “Madeira” URL을 입력한 후에 이 오류가 표시되는 경우 다음 요구 사항이 충족되었는지 확인합니다.  
 
-   - URL은 정확하게 이 패턴을 따릅니다. https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-   - 괄호의 회사 이름 다음의 모든 텍스트를 삭제합니다.  
-   - URL의 끝에 슬래시가 없는지 확인합니다.  
-   - URL은 https로 시작하는 URL에서 표시한 대로 보안 연결을 사용해야 합니다.  
+- URL은 정확하게 이 패턴을 따릅니다. https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')  
+- 괄호의 회사 이름 다음의 모든 텍스트를 삭제합니다.  
+- URL의 끝에 슬래시가 없는지 확인합니다.  
+- URL은 https로 시작하는 URL에서 표시한 대로 보안 연결을 사용해야 합니다.  
 
 **"로그인하지 못했습니다."** Project "Madeira" 자격 증명을 사용하여 대시보드에 로그인할 때 "로그인하지 못했습니다."라는 오류를 받게 되면 다음 문제 중 하나가 원인일 수 있습니다.  
 
@@ -104,16 +104,16 @@ Power BI 대시보드는 위에 나열된 게시된 웹 서비스를 사용하�
    - 연결하려고 하는 Project "Madeira" 인스턴스에는 유효한 SSL 인증서가 없습니다. 이 경우 보다 자세한 오류 메시지가 표시됩니다.("신뢰할 수 있는 SSL 관계를 설정할 수 없음")  자체 서명 인증서는 지원되지 않습니다.  
 
 **"Oops"** 인증 대화 상자를 전달한 후에 "Oops" 오류 대화 상자가 표시되는 경우 콘텐츠 팩에 대한 데이터에 연결하는 문제가 가장 자주 발생합니다. URL이 앞서 지정된 패턴을 따르는지를 확인합니다.  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')
 
 가장 흔한 실수는 특정 웹 서비스에 대한 전체 URL을 지정한 경우입니다.  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')/powerbifinance
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')/powerbifinance
 
 또는 회사 이름을 지정하는 것을 잊었을 수도 있습니다.   
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/
+    https://<em>mycronusus</em>.projectmadeira.com:7048/NAV/OData/
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)
+[Power BI란?](power-bi-overview.md)
 
 [Power BI - 기본 개념](service-basic-concepts.md)
 

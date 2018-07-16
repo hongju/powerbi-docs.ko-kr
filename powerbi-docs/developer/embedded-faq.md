@@ -3,18 +3,18 @@ title: Power BI Embedded에 대한 질문과 대답
 description: Power BI Embedded에 대한 질문과 대답 목록을 찾아보세요.
 author: markingmyname
 manager: kfile
+ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
-ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 06/22/2018
+ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812747"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599953"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -57,7 +57,7 @@ PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power B
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure의 A SKU와 Office 365의 EM SKU는 어떤 차이가 있나요?
 
-PowerBI.com은 Software as a Service에 소셜 공동 작업, 전자 메일 구독 등의 여러 기능을 포함하는 엔터프라이즈 솔루션입니다.
+PowerBI.com은 Software as a Service 제안에 소셜 공동 작업, 이메일 구독 등의 여러 기능을 포함한 엔터프라이즈 솔루션입니다.
 
 Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 만드는 개발자를 위한 API 집합입니다. Embedded 분석 시나리오의 경우 PowerBI.com을 사용하여 ISV 및 개발자의 포함된 분석 솔루션 콘텐츠 및 테넌트 수준 설정 관리를 도와주어야 합니다.
 
@@ -76,7 +76,7 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 |  |A SKU(Power BI Embedded)  |EM SKU(Power BI Premium)  |P SKU(Power BI Premium)  |
 |---------|---------|---------|---------|
 |구입     |Azure Portal |Office |Office |
-|사용 사례 |* 자체 응용 프로그램에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* PowerBI.com 외부의 Power BI FREE 사용자와 콘텐츠를 공유하고 다른 SaaS 응용 프로그램(SharePoint, Teams)에 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* PowerBI.com 외부의 Power BI FREE 사용자와 콘텐츠를 공유하고 다른 SaaS 응용 프로그램(SharePoint, Teams)에 포함<br>* PowerBI.com을 통해 Power BI FREE 사용자와 콘텐츠 공유  |
+|사용 사례 |* 자체 응용 프로그램에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* PowerBI.com 외부의 Power BI FREE 사용자와 콘텐츠를 공유하고 다른 SaaS 응용 프로그램(SharePoint, [Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/))에 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* PowerBI.com 외부의 Power BI FREE 사용자와 콘텐츠를 공유하고 다른 SaaS 응용 프로그램(SharePoint, Teams)에 포함<br>* PowerBI.com을 통해 Power BI FREE 사용자와 콘텐츠 공유  |
 |청구 |시간별 |매월 |매월 |
 |약정  |약정 없음 |매년  |매월/매년 |
 |차별화 |탁월한 탄력성 - Azure Portal에서 또는 API를 통해 리소스를 강화/규모 축소, 일시 중지/다시 시작 가능  |SharePoint Online 및 Microsoft Teams에 콘텐츠를 포함하는 데 사용 가능 |응용 프로그램에 포함 및 Power BI 서비스 사용을 동일한 용량에 결합 |
@@ -95,6 +95,58 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 
 아직은 자동 조정 기능이 없지만, 언제든지 조정할 수 있도록 모든 API가 제공됩니다.
 
+### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>용량을 만들기/크기 조정/다시 시작하면 용량을 일시 중단된 상태로 전환하는 이유는 무엇인가요?
+
+용량의 프로비전(확장/다시 시작/만들기)에 실패할 수 있습니다. 프로비전 호출의 호출자는 세부 정보 가져오기 API [용량-세부 정보 가져오기](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails)를 사용하여 용량의 ProvisioningState를 확인해야 합니다.
+
+### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>특정 지역에서만 PBIE를 만들 수 있는 이유는 무엇인가요?
+
+PBI 테넌트 지역에서만 PBIE 용량을 만들 수 있습니다.
+
+### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>내 PBI 테넌트 지역을 어떻게 찾을 수 있나요?
+
+PBI 포털을 사용하여 PBI 테넌트 지역을 이해할 수 있습니다.
+
+https://app.powerbi.com/ > ? > Power BI 정보
+
+![Power BI 정보](media/embedded-faq/about-01.png)
+![테넌트 지역](media/embedded-faq/tenant-location-01.png)
+
+### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>CSP(통신 순차적 프로세스) 채널에서 지원되는 기능은 무엇인가요?
+
+* 구독 형식 CSP를 사용하여 테넌트에 대한 PBIE를 만들 수 있습니다.
+* 파트너 계정은 고객 테넌트에 로그인하고 고객 테넌트에 대한 PBIE를 구매하여 고객 테넌트 사용자를 Power BI 용량 관리자로 지정합니다.
+
+### <a name="why-do-i-get-an-unsupported-account-message"></a>지원되지 않는 계정 메시지를 받은 이유는 무엇인가요?
+
+Power BI에서는 조직 계정에 등록해야 합니다. MSA(Microsoft 계정)를 사용하여 Power BI에 등록하는 작업은 지원되지 않습니다.
+
+### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Azure 용량을 만들고 관리하는 데 API를 사용할 수 있나요?
+
+예, PBIE 리소스를 만들고 관리하는 데 사용할 수 있는 PowerShell cmdlet 및 ARM API가 있습니다.
+
+* REST API - https://docs.microsoft.com/rest/api/power-bi-embedded/
+* PowerShell cmdlet - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
+
+### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 솔루션에 포함된 PBI Embedded 전용 용량 역할이란?
+
+[솔루션을 프로덕션으로 승격](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)하기 위해 Power BI 콘텐츠(응용 프로그램에서 사용 중인 앱 작업 영역)를 전용 용량에 할당해야 합니다.
+
+### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>PBI Embedded를 사용 가능한 Azure 지역은 어디인가요?
+
+[PAM](https://ecosystemmanager.azurewebsites.net/home)(EcoManager) - 제품 가용성 관리자를 참조하세요.
+
+사용 가능한 지역(Power BI와 동일한 16개 지역)
+* 미국(6) - 미국 동부, 미국 동부 2, 미국 중북부, 미국 중남부, 미국 서부, 미국 서부 2
+* 유럽(2) - 유럽 북부, 유럽 서부
+* 아시아 태평양(2) - 동남 아시아, 동아시아
+* 브라질(1) - 브라질 남부
+* 일본(1) - 일본 동부
+* 오스트레일리아(1) - 오스트레일리아 남동부
+* 인도(1) - 인도 서부
+* 캐나다(1) - 캐나다 중부
+* 영국(1) - 영국 남부
+
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Power BI Embedded의 인증 모델은 무엇인가요?
 
 Power BI Embedded는 앞으로도 계속해서 마스터 사용자 인증(지정된 Power BI Pro 라이선스 사용자)에 Azure AD를 사용하여 Power BI 내에서 응용 프로그램을 인증할 것입니다.
@@ -104,6 +156,17 @@ Power BI Embedded는 앞으로도 계속해서 마스터 사용자 인증(지정
 이미 Azure AD 테넌트가 있는 경우 기존 디렉터리를 사용해도 되고, 포함된 응용 프로그램 콘텐츠 보안을 위해 Azure AD 테넌트를 새로 만들어도 됩니다.
 
 AAD 토큰을 가져오려면 Azure Active Directory 인증 라이브러리(https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries) 중 하나를 사용할 수 있습니다. 여러 플랫폼에서 사용할 수 있는 클라이언트 라이브러리가 있습니다.
+
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>내 응용 프로그램은 사용자 인증에 이미 AAD를 사용합니다. "사용자 소유 데이터" 시나리오에서 Power BI에 인증할 때 이 ID를 사용하려면 어떻게 하나요? 
+
+흐름 대신 표준 OAuth입니다(https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api). 응용 프로그램은 필수 범위에서 PowerBI 서비스에 대한 사용 권한이 필요하도록 구성되어야 합니다. 또한 앱에 사용자 토큰을 만들면 사용자 액세스 토큰을 사용하여 ADAL API AcquireTokenAsync에 간단히 호출하고 PowerBI 리소스 URL을 리소스 ID로 지정합니다. 수행할 수 있는 방법을 보여주는 코드 조각은 아래를 참조하세요.
+
+```csharp
+var context = new AD.AuthenticationContext(authorityUrl);
+var userAssertion = new AD.UserAssertion(userAccessToken);
+var clientAssertion = new AD.ClientAssertionCertificate(MyAppId, MyAppCertificate)
+var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAssertion, userAssertion);
+```
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded는 다른 Azure 서비스와 어떤 차이가 있나요?
 
@@ -181,8 +244,8 @@ Power BI Embedded는 일부 [소버린 클라우드](embed-sample-for-customers-
 
 3. 프로덕션 준비가 되면 **Power BI Embedded** 전용 용량을 구매하고 해당 용량에 Power BI 콘텐츠(작업 영역)를 할당합니다.
 
->[!Note]
-**Power BI Embedded** 솔루션과 병렬로 빌드하는 동안 **Power BI 작업 영역 컬렉션**을 계속 사용할 수 있습니다. 준비가 되면 고객을 새 **Power BI Embedded** 솔루션으로 이동하고 **Power BI 작업 영역 컬렉션** 솔루션을 사용 중지할 수 있습니다.
+> [!Note]
+> **Power BI Embedded** 솔루션과 병렬로 빌드하는 동안 **Power BI 작업 영역 컬렉션**을 계속 사용할 수 있습니다. 준비가 되면 고객을 새 **Power BI Embedded** 솔루션으로 이동하고 **Power BI 작업 영역 컬렉션** 솔루션을 사용 중지할 수 있습니다.
 
 자세한 내용은 [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)을 참조하세요.
 

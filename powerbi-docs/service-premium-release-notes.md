@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52c6293bacb2cae1d74a7a0459c61fe3c3bc201f
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34298323"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944356"
 ---
 # <a name="power-bi-premium-release-notes"></a>Power BI 프리미엄 릴리스 정보
 조직 또는 팀에 보다 신뢰할 수 있는 성능, 대용량 데이터 볼륨 및 뷰어를 위해 사용자별 라이선스 없이도 콘텐츠를 배포하는 기능을 제공하는 전용 용량인 Power BI Premium에 대한 릴리스 정보입니다.
 
-* 이제 Power BI 체험 라이선스를 갖고 있는 사용자는 Power BI 서비스의 프리미엄 작업 영역에서 공유된 대시보드를 볼 수 있습니다.
+* 이제 할당된 라이선스에 상관 없이 모든 사용자는 Power BI 서비스의 프리미엄 작업 영역에서 공유된 대시보드를 볼 수 있습니다.
 * 이제 용량 관리자는 자동으로 용량 할당 권한을 얻습니다.
 * 이제 동적 RLS(행 수준 보안)은 임베디드 사용 사례에 사용할 수 있습니다. 자세한 내용은 [임베디드 분석에서 RLS(행 수준 보안)](developer/embedded-row-level-security.md)을 참조하세요.
 * powerbi.com을 사용하여 다른 AAD 테넌트의 사용자에게 Power BI 앱을 배포하는 것은 아직 지원되지 않습니다. 이 기능은 현재 작업 중입니다.

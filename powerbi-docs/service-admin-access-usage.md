@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722204"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926539"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>로그인한 Power BI 사용자 찾기
 현재 테넌트 관리자이며 Power BI에 로그인했던 사람이 누구인지 알고자 하는 경우 Azure Active Directory 액세스 및 사용 보고서를 사용하여 표시 여부를 얻을 수 있습니다.
@@ -25,9 +25,7 @@ ms.locfileid: "34722204"
 [새](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins) 및 [클래식](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) Azure AD(Azure Active Directory) 포털 내에서 활동 보고서에 액세스할 수 있습니다. 위의 비디오에서는 클래식 포털을 예로 사용했지만, 이 문서에서는 새 포털에 주목해 보겠습니다.
 
 > [!NOTE]
-> 이 활동 보고서는 Power BI(무료) 및 Pro 사용자를 모두 포함하지만 사용자가 소유한 라이선스를 통해 사용자를 식별하지는 않습니다.
-> 
-> 
+> 이 작업 보고서는 각 사용자에게 있는 라이선스의 형식을 식별하지 않습니다.
 
 ## <a name="requirements"></a>요구 사항
 로그인 활동 보고서를 보려면 다음이 필요합니다.
@@ -70,7 +68,7 @@ PowerShell을 사용하여 로그인 데이터를 내보낼 수 있습니다. [�
 
 ## <a name="next-steps"></a>다음 단계
 [Azure Active Directory 포털(새 포털)의 로그인 활동 보고서](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[사용자의 액세스 및 사용 보고서 보기(클래식 포털)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report)  
+[사용자의 액세스 및 사용 보고서 보기(클래식 포털)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
 [로그인 샘플 PowerShell 스크립트](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
 [Azure Active Directory 보고서 보존 정책](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
 [조직 내에서 감사 사용](service-admin-auditing.md)  

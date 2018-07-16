@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 07/03/2018
 ms.author: maghan
-ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813161"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926562"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
 
@@ -96,6 +96,44 @@ GenerateToken 호출 전에 응용 프로그램의 백 엔드가 인증 토큰�
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
 ```
 
+## <a name="authentication"></a>인증
+
+### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 또는 AADSTS50053으로 인증하지 못했습니다.
+
+**(AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 너무 많이 로그인을 시도했습니다.)**
+
+Power BI Embedded를 사용하고 Azure AD 직접 인증을 활용하는 경우 ***오류: unauthorized_client, error_description:AADSTS70002: 자격 증명의 유효성 검사 오류입니다.와 같은 로그인 메시지를 수신합니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 너무 많이 로그인을 시도했습니다.*** 2018년 6월 14일부터 직접 인증이 해제되었기 때문입니다.
+
+레거시 인증 사용을 차단하기 위해 [Azure AD 조건부 액세스](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) 지원을 사용하거나 [Azure AD Directory 통과 인증](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication)을 사용하는 것이 좋습니다.
+
+그러나 조직 또는 [서비스 주체](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)로 범위를 지정할 수 있는 [Azure AD 정책](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)을 사용하여 이 기능을 다시 설정하는 방법이 있습니다.
+
+**_앱 기준으로 및 해결 방법으로 필요한 경우에만 이 기능을 사용하는 것이 좋습니다._**
+
+이 정책을 만들려면 정책을 만들고 할당하는 **전역 관리자** 디렉터리에 위치해야 합니다. 정책을 만들고 이 응용 프로그램에 SP를 할당하기 위한 샘플 스크립트는 다음과 같습니다.
+
+1. [Azure AD 미리 보기 PowerShell 모듈](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)을 설치합니다.
+
+2. 다음 PowerShell 명령을 한 줄씩 실행합니다(결과적으로 변수 $sp에 두 개 이상의 응용 프로그램이 없는지 확인).
+
+```powershell
+Connect-AzureAD
+```
+
+```powershell
+$sp = Get-AzureADServicePrincipal -SearchString "Name_Of_Application"
+```
+
+```powershell
+$policy = New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":{`"AllowCloudPasswordValidation`":true}}") -DisplayName EnableDirectAuth -Type HomeRealmDiscoveryPolicy -IsOrganizationDefault $false
+```
+
+```powershell
+Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id 
+```
+
+정책을 할당한 후에 테스트하기 전에 전파하기 위해 약 15~20초 동안 잠시 기다려 주세요.
+
 **유효 ID 입력 시 토큰 생성 실패**
 
 다음과 같은 몇 가지 이유로 유효ID 입력 시 GenerateToken이 실패할 수 있습니다.
@@ -113,6 +151,30 @@ GenerateToken 호출 전에 응용 프로그램의 백 엔드가 인증 토큰�
 * IsEffectiveIdentityRolesRequired가 true이면 역할이 필요합니다.
 * DatasetId는 모든 EffectiveIdentity의 필수 항목입니다.
 * Analysis Services의 경우 마스터 사용자는 게이트웨이 관리자여야 합니다.
+
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: 권한 부여에는 관리자 권한이 필요합니다.
+
+**_증상:_**</br>
+관리자가 아닌 사용자가 처음으로 응용 프로그램에 로그인을 시도하고 동의를 부여할 때 다음과 같은 오류가 표시됩니다.
+* ConsentTest에는 관리자만이 부여할 수 있는 조직의 리소스에 액세스하는 사용 권한이 필요합니다. 사용하기 전에 이 앱에 대한 사용 권한을 부여하려면 관리자에게 문의하세요.
+* AADSTS90094: 권한 부여에는 관리자 권한이 필요합니다.
+
+    ![승인 테스트](media/embedded-troubleshoot/consent-test-01.png)
+
+관리 사용자는 성공적으로 로그인하고 동의를 부여할 수 있습니다.
+
+**_근본 원인:_**</br>
+사용자 동의는 테넌트에 대해 사용되지 않습니다.
+
+**_몇 가지 수정은 가능합니다._**
+
+*전체 테넌트(모든 사용자, 모든 응용 프로그램)에 대해 사용자 동의 사용*
+1. Azure Portal에서 "Azure Active Directory" = > "사용자 및 그룹" = > "사용자 설정"으로 이동합니다.
+2. "사용자가 앱이 사용자 대신 회사 데이터에 액세스하는 것에 동의할 수 있음" 설정을 활성화하고 변경 내용을 저장합니다.
+
+    ![승인 테스트 수정](media/embedded-troubleshoot/consent-test-02.png)
+
+*관리자에 의한 권한 부여* 전체 테넌트 또는 특정 사용자에 대해 관리자가 응용 프로그램에 권한을 부여합니다.
 
 ## <a name="data-sources"></a>데이터 원본
 
@@ -175,7 +237,7 @@ Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 응용 프
 
     AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
 
-웹 서버 응용 프로그램에 대해 지정된 리디렉션 URL이 샘플의 URL과 다르기 때문입니다. 샘플 응용 프로그램을 등록하려면 리디렉션 URL로 *http://localhost:13526/* 을 사용합니다.
+웹 서버 응용 프로그램에 대해 지정된 리디렉션 URL이 샘플의 URL과 다르기 때문입니다. 샘플 응용 프로그램을 등록하려면 리디렉션 URL로 `http://localhost:13526/`을 사용합니다.
 
 등록된 응용 프로그램을 편집하려는 경우 응용 프로그램이 웹 API에 대한 액세스 권한을 제공할 수 있도록 [AAD 등록 응용 프로그램](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)을 편집하는 방법을 알아봅니다.
 

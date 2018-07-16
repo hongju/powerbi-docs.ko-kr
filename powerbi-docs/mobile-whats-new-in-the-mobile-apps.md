@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/03/2018
 ms.author: maggies
-ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799628"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864402"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -22,6 +22,16 @@ ms.locfileid: "34799628"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](service-whats-new.md)  
+
+## <a name="june-2018"></a>2018년 6월
+
+### <a name="full-canvas-reports"></a>전체 캔버스 보고서
+
+이제 보고서가 로드된 후에 위쪽 및 아래쪽 작업 막대가 바로 사라지므로 보고서를 한 번에 좀 더 자세히 볼 수 있습니다.
+
+### <a name="increased-phone-report-canvas-size"></a>전화 보고서 캔버스 크기 증가
+
+전화 보고서 캔버스 크기가 증가하여 이전보다 시각적 개체를 위한 공간이 추가되었습니다.
 
 ## <a name="may-2018"></a>2018년 5월
 

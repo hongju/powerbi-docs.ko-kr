@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/13/2018
 ms.author: maikelson
-ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299289"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137592"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -22,25 +22,9 @@ ms.locfileid: "34299289"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-등록하여 Power BI 전문가 의견을 듣고 라이브 QA 세션에 참가하기
+아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
 
-**Power BI 및 Visio를 사용하여 적합한 인사이트 얻기**
-<br>작성자: Shakun Grover
-<br>2018년 5월 22일, 오전 10시 태평양 표준시, 오후 1시 동부 표준시
-
-이 웨비나에 참여해서 Power BI 대시보드와 Microsoft Visio 다이어그램을 결합하여 강력한 시각적 인사이트를 만드는 방법을 알아보세요. Visio 및 Power BI는 시각적으로 뛰어나고 기본적으로 상호 보완적입니다. Visio를 사용하면 상호 연결된 워크플로 및 실제 레이아웃과 같은 설명적인 다이어그램을 만들 수 있습니다. Power BI를 통해 차트 및 맵을 사용하는 직관적인 대시보드를 빌드하여 핵심 성과 지표를 측정하고 목표를 추적할 수 있습니다.
-
-[5월 22일에 시청하도록 등록](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
-
-**20분 이내에 Power BI Embedded에 대해 자세히 알아보기**
-<br>작성자: Megan Asarrane 및 Colin Murphy
-<br>2018년 5월 23일, 오전 10시 태평양 표준시, 오후 1시 동부 표준시
-
-이 웨비나는 Power BI Embedded를 소개하기 위해 제공됩니다. 이 웨비나를 마친 사용자는 Power BI Embedded의 개념, 제품을 시작하기 위한 다음 단계 및 도움말/리소스가 있는 위치를 이해할 수 있습니다.
-
-[5월 23일에 시청하도록 등록](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
-
->[Power BI 커뮤니티의 예정된 웹 세미나 참석](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
+>[Power BI 커뮤니티의 예정된 웹 세미나 참석](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>주요 웹 세미나
 
@@ -78,15 +62,27 @@ ms.locfileid: "34299289"
 <br>작성자: Charles Sterling
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
+**20분 이내에 Power BI Embedded에 대해 자세히 알아보기**
+<br>작성자: Megan Asarrane 및 Colin Murphy
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
+
 **스프레드시트 이외**
 <br>작성자: Gohul Shanmugalingam
 <br>[등록 및 지금 보기](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
+
+**Power BI 및 Visio를 사용하여 적합한 인사이트 얻기**
+<br>작성자: Shakun Grover
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **좋은 보고서를 더 훌륭하게!**
 <br>작성자: Reid Havens
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>파트너 ###
+
+**위치 인텔리전스를 사용하여 BI 강화**
+<br>작성: Esri의 Scott Ball 및 Microsoft의 Enrique Plaza
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
 **의료업체의 수익성 향상**
 <br>작성자: US Medical IT의 Stephen Cracknell 및 Stuart Macanliss
@@ -172,7 +168,7 @@ ms.locfileid: "34299289"
 
 - [Microsoft Data Insights Summit 2017 주문형 세션](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
-- [Power BI 시작](service-get-started.md)
+- [Power BI란?](power-bi-overview.md)
 
 - [@MSPowerBI Twitter](https://twitter.com/mspowerbi)에서 팔로우
 

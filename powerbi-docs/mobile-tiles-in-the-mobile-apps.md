@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297656"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598632"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
@@ -40,7 +40,7 @@ ms.locfileid: "34297656"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *예를 들어 이 꺾은선형 차트에서 선택한 값은 **금년 매출** 및 **작년 매출**의 **8월** 값입니다.*  
+   <em>예를 들어 이 꺾은선형 차트에서 선택한 값은 **8월**의 **금년 매출</em>* 및 **작년 매출** 값입니다.*  
    
    원형 차트에서는 원형 차트의 위에 조각의 값을 표시하려면 원형 차트의 조각을 누릅니다.  
    
@@ -107,7 +107,7 @@ ms.locfileid: "34297656"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   *이 막대형 차트에서 **Decor** 바에 대한 값은 차트의 위쪽에 표시됩니다.*
+   <em>이 막대형 차트에서 **Decor</em>* 바에 대한 값은 차트의 위쪽에 표시됩니다.*
    
    탐색 및 메뉴 모음 없이, **전체 화면** 아이콘 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)을 탭하여 타일을 전체 화면 모드로 엽니다.
    
@@ -126,6 +126,6 @@ ms.locfileid: "34297656"
 4. 뒤로 화살표 또는 뒤로 단추를 탭하여 타일을 닫고 대시보드로 돌아갑니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 시작](service-get-started.md)
+* [Power BI란?](power-bi-overview.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

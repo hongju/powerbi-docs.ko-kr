@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/06/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301852"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137471"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
@@ -31,11 +31,19 @@ ms.locfileid: "35301852"
 * [Microsoft Power BI(YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="april-2018"></a>2018년 4월
+## <a name="may-2018"></a>2018년 5월
+* Power BI 서비스의 [테마 대시보드](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes)
+* 프리미엄을 사용하여 [증분 새로 고침](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh)
+* [Power BI 앱](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)에 대한 액세스 워크플로 요청
+* 사용자가 [Power BI 앱](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)을 쉽게 찾을 수 있도록 데이터 업데이트
+* Power BI 서비스에서 [영구 필터](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) 설정 및 해제
+* Azure B2B는 보고서에 대한 워크플로 기능 향상을 도입합니다.
+
+## <a name="previous-months-2018"></a>이전 달(2018년)
+### <a name="april-2018"></a>2018년 4월
 * [Power BI GDPR 백서](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * Power BI 서비스 [감사 로그](https://docs.microsoft.com/power-bi/service-admin-auditing)는 Office 365 테넌트에 대해 기본적으로 설정됩니다.
 
-## <a name="previous-months-2018"></a>이전 달(2018년)
 ### <a name="march-2018"></a>2018년 3월
 * Power BI 서비스의 [영구 필터](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)
 * 사용자의 개인 메일 계정을 사용하여 사용자와 콘텐츠 공유 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) 확장
@@ -63,7 +71,7 @@ ms.locfileid: "35301852"
 * [웹 게시](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings)에 대한 세밀한 관리자 컨트롤
 
 ## <a name="september-2017"></a>2017년 9월
-* 프리미엄으로 무료 사용자와 대시보드를 공유합니다.
+* 프리미엄 용량에서는 Power BI Pro 라이선스가 없는 사용자에게 대시보드를 공유합니다.
 * V 코어 풀링을 사용하여 비즈니스 요구에 맞게 용량을 할당합니다.
 * 한 번의 클릭으로 용량을 즉시 확장하거나 축소합니다.
 * REST API로 데이터를 쉽게 푸시하는 [PubNub 블록](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards)
@@ -222,7 +230,7 @@ ms.locfileid: "35301852"
 
 ***Excel에서 분석***
 
-* 모든 사용자가 사용 가능한 [Excel에서 분석](service-analyze-in-excel.md): Excel에서 Power BI 데이터 모델에 액세스하는 기능은 모든 사용자(무료 및 Pro)에게 확장되었습니다.
+* 모든 사용자가 사용 가능한 [Excel에서 분석](service-analyze-in-excel.md): Excel에서 Power BI 데이터 모델에 액세스하는 기능은 할당된 라이선스에 상관 없이 모든 사용자에게 확장되었습니다.
 * 다중 사용자 계정 환경 개선: 둘 이상의 Power BI 사용자 계정이 있는 경우 더 쉽게 로그인합니다.
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)하세요.
@@ -567,9 +575,10 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 7월 24일**
 
-* Power BI의 "일반 공급"(GA) 릴리스가 공개되었음을 알려드립니다. Power BI 무료 버전을 사용하거나 [Power BI Pro](service-self-service-signup-for-power-bi.md)에 로그인할 수 있습니다. GA 릴리스의 일부로서, 몇 가지 멋진 새로운 기능을 제공하려 합니다.
+* Power BI의 "일반 공급"(GA) 릴리스가 공개되었음을 알려드립니다. [Power BI Pro](service-self-service-signup-for-power-bi.md)에 지금 등록합니다. GA 릴리스의 일부로서, 몇 가지 멋진 새로운 기능을 제공하려 합니다.
 * 새 시각화 요소 및 보고서 작성 환경: 새 보고 캔버스에는 시각화를 더 다양하게 선택하고 제목, 범례, 축, 색상, 배경 등의 서식 지정에 대해 더욱 세밀하게 제어할 수 있습니다.
-* [Power BI 그룹](service-create-distribute-apps.md): Office 365 그룹을 기반으로 하는 강력한 공동 작업 환경을 제공합니다.
+* 
+  [Power BI 그룹](service-create-distribute-apps.md): Office 365 그룹을 기반으로 하는 강력한 공동 작업 환경을 제공합니다.
 * [조직 콘텐츠 팩](service-organizational-content-pack-introduction.md): Power BI를 사용 하여 대시보드 및 보고서를 매우 간단하게 만들 수 있고, 사용자가 이 콘텐츠를 조직 콘텐츠 갤러리에 게시할 수 있게 되었습니다.
 * [전체 Excel 파일 가져오기](service-excel-workbook-files.md): Excel Online에서 하듯 비즈니스용 OneDrive에 저장된 Excel 통합 문서를 Power BI에 가져와 전체 통합 문서를 볼 수 있습니다.
 * [CSV 파일 가져오기](service-get-data-from-files.md): Excel 또는 Power BI 데스크톱 파일처럼 쉼표로 구분된 값 텍스트(CSV) 파일은 Power BI 대시보드 및 보고서용 데이터 집합이 될 수도 있습니다.
@@ -579,7 +588,8 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 **2015년 7월 14일**
 
 * Acumatica Cloud ERP는 강력하고 유연한 플랫폼에서 제공되는 재무, 배포, CRM 및 프로젝트 회계 등 완전 통합 비즈니스 관리 응용 프로그램 제품군을 제공합니다. Power BI [Acumatica 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)을 사용하면 신속하게 연결하고 기회 데이터에 대한 이해력을 즉각적으로 넓힐 수 있습니다. 이 콘텐츠에는 날짜별로 획득한 총 기회 수 등과 같은 세부 정보를 탐색하고 제공하기 위해 기본 제공된 대시보드, 일련의 보고서, 큐레이트 데이터 집합이 있습니다. 자세한 내용은 [여기](service-connect-to-acumatica.md)를 읽어보세요. 
-* [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx)는 이제 완전히 관리되는 Spark 서비스를 제공합니다. 이 기능을 통해 반복적인 기계 학습과 대화형 데이터 분석 등의 시나리오를 구성할 수 있게 되었습니다. Power BI를 통해 간단한 실시간 탐색을 제공하는 HDInsight의 Spark의 데이터에 직접 연결할 수 있습니다. 자세한 내용은 [도움말 설명서](spark-on-hdinsight-with-direct-connect.md)를 읽어보세요.
+* 
+  [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx)는 이제 완전히 관리되는 Spark 서비스를 제공합니다. 이 기능을 통해 반복적인 기계 학습과 대화형 데이터 분석 등의 시나리오를 구성할 수 있게 되었습니다. Power BI를 통해 간단한 실시간 탐색을 제공하는 HDInsight의 Spark의 데이터에 직접 연결할 수 있습니다. 자세한 내용은 [도움말 설명서](spark-on-hdinsight-with-direct-connect.md)를 읽어보세요.
 * [Office 365 탐색 및 응용 프로그램 시작 관리자 통합](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher) 이제 한 번의 클릭으로 Office 365 응용 프로그램 모두를 탐색할 수 있습니다.
 * 타일을 클릭할 때 사용자가 탐색하는 [사용자 지정 URL 지정](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url) 이제 특정 보고서, 다른 대시보드, SSRS 보고서 또는 외부 웹사이트 등 사용자가 이동하는 곳을 정확하게 제어할 수 있게 되었습니다. 
 * Power BI에서 사용하는 [저장소의 표시 유형 및 관리](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
@@ -597,7 +607,8 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 * Power BI Desktop 파일은 Power BI 서비스에 업로드할 때 [새로 고칠](http://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx) 수 있습니다(예약된 새로 고침 및 지금 새로 고침).
 * 12월 이후 시각적으로 가장 크게 변화된 Power BI 버전을 공개합니다. [데이터 가져오기](http://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx)에 대한 환경이 더욱 깔끔하고 단순해졌습니다.  데이터 가져오기를 클릭하면 범주를 선택할 수 있는 단일 화면이 표시됩니다. 이를 통해 문제가 되는 콘텐츠를 쉽게 찾을 수 있습니다.
-* [Azure SQL 데이터 웨어하우스](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx)는 유연한 배율과 대규모 병렬 처리를 제공합니다. 오늘 발표된 제한된 공용 미리 보기가 있는 Power BI를 통해 Azure SQL 데이터 웨어하우스에 저장된 데이터에 직접 연결하여 간편하게 동적으로 탐색할 수 있습니다. 데이터 웨어하우스에 연결한 후 쿼리는 실시간으로 생성되고 데이터를 탐색할 때 소스로 다시 전송됩니다. 이는 사용자 지정 데이터 모델을 만들어 업로드할 필요가 없으며 데이터를 대화형으로 탐색할 수 있습니다.
+* 
+  [Azure SQL 데이터 웨어하우스](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx)는 유연한 배율과 대규모 병렬 처리를 제공합니다. 오늘 발표된 제한된 공용 미리 보기가 있는 Power BI를 통해 Azure SQL 데이터 웨어하우스에 저장된 데이터에 직접 연결하여 간편하게 동적으로 탐색할 수 있습니다. 데이터 웨어하우스에 연결한 후 쿼리는 실시간으로 생성되고 데이터를 탐색할 때 소스로 다시 전송됩니다. 이는 사용자 지정 데이터 모델을 만들어 업로드할 필요가 없으며 데이터를 대화형으로 탐색할 수 있습니다.
 
 **2015년 6월 16일**
 
@@ -661,7 +672,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 * Onedrive를 사용한 새로 고침 안정성이 향상되었습니다.  OneDrive로부터 통합 문서가 새로 고쳐지지 않은 일부 경우가 해결되었습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시작](service-get-started.md)  
+[Power BI란?](power-bi-overview.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

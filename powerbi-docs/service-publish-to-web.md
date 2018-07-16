@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254858"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092348"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -135,7 +135,8 @@ Power BI **웹에 게시**를 사용하면 장치에서 메일이나 소셜 미�
 5. "R" 시각적 개체는 현재 웹에 게시 보고서에서 지원되지 않습니다.
 6. 웹에 게시된 보고서의 시각적 개체에서 데이터 내보내기
 7. ArcGIS Maps for Power BI 시각적 개체
-8. [보안 기밀 또는 소유 정보](#publish-to-web-from-power-bi)
+8. 보고서 수준 DAX 측정값을 포함하는 보고서
+9. [보안 기밀 또는 소유 정보](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>테넌트 설정
 

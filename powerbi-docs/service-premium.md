@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755096"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944563"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI 프리미엄이란?
 Power BI 프리미엄은 더욱 신뢰할 수 있는 성능과 더 큰 데이터 볼륨을 제공하여 조직 또는 팀에 대한 Power BI 서비스 실행에 전용 리소스를 제공합니다. 또한 프리미엄을 통해 뷰어를 위한 사용자별 라이선스를 구입할 필요 없이 광범위하게 콘텐츠를 배포할 수 있습니다.
@@ -36,11 +36,11 @@ Power BI 내에는 두 가지 유형의 용량이 있습니다. 공유 용량 �
 | **새로 고침 빈도** |8/일 |제한되지 않음 |
 | **전용 하드웨어로 격리** |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함") |
 | **엔터프라이즈 배포 대상** ***모든 사용자*** | | |
-| 앱 |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함")<sup>1</sup> |
+| 앱 및 공유 |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함")<sup>1</sup> |
 | 포함된 API 및 컨트롤 |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함")<sup>2</sup> |
 | **Power BI 보고서 온-프레미스 게시** |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함") |
 
-<sup>1</sup> 앱에서 무료 사용자 사용에는 웹 및 모바일에서 콘텐츠 보기, 질문 및 답변 사용, 신속한 정보 활용, Cortana, CSV, Excel 및 PowerPoint로 내보내기가 포함됩니다. 공유 데이터 집합에서 보고서 만들기, Excel에서 분석처럼 나열되지 않은 다른 작업에는 Pro 라이선스가 필요합니다. [Power BI Pro와 무료 버전](service-free-vs-pro.md) 기능에 대해 자세히 알아보세요.  
+*<sup>1</sup> 자세한 내용은 [Power BI Pro 및 Power BI Premium을 사용하는 사용자 기능](service-free-vs-pro.md) 기능을 참조하세요.*  
 *<sup>2</sup> Power BI 프리미엄에 제공되는 향후 개선 사항은 GA를 게시합니다.*
 
 ### <a name="premium-capacity"></a>프리미엄 용량
@@ -51,7 +51,7 @@ Power BI 프리미엄 용량의 사용을 시작하려면 작업 영역을 용�
 * 예약된 새로 고침: 사용자 우선 순위는 가져온 모델로 새로 고침을 예약할 때 하루 8x개로 제한되어 있었습니다. 이 제한은 프리미엄 작업 영역에서 데이터 집합에 대해 해제되었습니다. DirectQuery에 대한 예약된 캐시 새로 고침 설정에 적용되지 않습니다. 프리미엄 및 공유 용량 사이에는 동일하게 유지됩니다.
 * 전용 하드웨어로 격리 – 공유 용량의 특성으로 보고서 및 대시보드의 성능은 안전 조치에도 불구하고 용량에서 다른 작업의 리소스 요청에 의해 영향을 받을 수 있습니다. 반대로, 프리미엄은 관련되지 않은 작업에서 분리하여 작업에 대한 보다 일관된 신뢰할 수 있는 성능을 제공합니다.
 
-앱이 프리미엄 용량에 의해 뒷받침되는 경우(즉, 현재 프리미엄에 할당된 앱 작업 영역에서 게시되었음) 게시된 앱은 할당된 라이선스에 관계 없이 조직의 모든 사용자가 사용할 수 있습니다. 이는 Power BI 무료 사용자도 이러한 게시된 앱을 사용할 수 있음을 의미합니다.
+앱이 프리미엄 용량에 의해 뒷받침되는 경우(즉, 현재 프리미엄에 할당된 앱 작업 영역에서 게시되었음) 게시된 앱은 할당된 라이선스에 관계 없이 조직의 모든 사용자가 사용할 수 있습니다.
 
 ### <a name="shared-capacity"></a>공유 용량
 기본적으로 작업 영역은 공유 용량에 있게 됩니다. 이는 앱 작업 영역과 함께 개인적인 *내 작업 영역*을 포함합니다. 공유 용량은 다른 고객에 의해 공유되는 계산 리소스에서 작업을 실행하는 Power BI에 익숙한 환경입니다.
