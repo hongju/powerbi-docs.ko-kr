@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 5dd171ccd7d8859286abeac2f87771b454421448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: cade8b126742610814f47587c950458796cca474
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292849"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136482"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 오프라인 데이터 보기
 적용 대상:
@@ -55,7 +55,8 @@ Power BI는 오프라인으로 사용할 수 없는 대시보드, 보고서 및 
 * Power BI는 최대 250MB의 데이터를 오프라인으로 캐시할 수 있습니다.
 * Bing 맵 타일 및 일부 사용자 지정 타일 등 일부 타일 유형은 활성 서버 연결을 필요로 하므로 오프라인으로 사용할 수 없습니다.
 * Power BI에서 전체 Excel 통합 문서는 오프라인으로 사용할 수 없습니다.
-* 연결된 상태에서 해당 문서를 봤다면 오프라인으로도 Reporting Services 모바일 보고서 및 KPI를 볼 수 있습니다. 백그라운드에서 새로 고치지 않습니다. 열 때마다 새로 고칩니다. 
+* 연결된 상태에서 해당 문서를 봤다면 오프라인으로도 Reporting Services 모바일 보고서 및 KPI를 볼 수 있습니다. 백그라운드에서 새로 고치지 않습니다. 열 때마다 새로 고칩니다.
+* Power BI 모바일 앱에서 Power BI Report Server에 저장된 Power BI Desktop(.pbix) 파일을 볼 수 없습니다. 
 
 ## <a name="next-steps"></a>다음 단계
 사용자 의견은 나중에 구현할 사항을 결정하는 데 도움이 됩니다. 따라서 Power BI 모바일 앱에서 참조하고자 하는 다른 기능에 대해 꼭 투표해주세요. 
@@ -63,5 +64,5 @@ Power BI는 오프라인으로 사용할 수 없는 대시보드, 보고서 및 
 * [모바일 장치용 Power BI 앱](mobile-apps-for-mobile-devices.md)
 * Twitter에서 @MSPowerBI 팔로우
 * [Power BI 커뮤니티](http://community.powerbi.com/)에서 대화에 참여
-* [Power BI 시작](service-get-started.md)
+* [Power BI란?](power-bi-overview.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 36351491f7cb99a2e597ef4fd498ef7c38da386e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dd9b5b9f9db95b73a7001c34bcabcd2deacb8b4c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243894"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136566"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Power BI용 SQL Database 감사 콘텐츠 팩
 Azure용 Power BI 콘텐츠 팩 [SQL Database 감사](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/)를 사용하면 데이터베이스 작업을 이해하고 비즈니스 문제나 의심스러운 보안 위반을 나타낼 수 있는 불일치 및 비정상을 파악할 수 있습니다. 
@@ -68,5 +68,5 @@ Power BI용 [SQL Database 감사 콘텐츠 팩](https://app.powerbi.com/getdata/
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 데이터 가져오기](service-get-data.md)
-[Power BI 시작](service-get-started.md)
+[Power BI에 대한 데이터 가져오기](service-get-data.md)
+[Power BI 란?](power-bi-overview.md)

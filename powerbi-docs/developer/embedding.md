@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82a4c9c58567f5ace943363b7bed59fa744e85a5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561750"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944103"
 ---
 # <a name="embedding-with-power-bi"></a>Power BI에 포함
 Power BI는 대시보드 및 보고서를 응용 프로그램에 포함하기 위한 API를 제공합니다. 또한 콘텐츠를 포함할 경우 일관된 기능은 물론, 대시보드, 게이트웨이 및 앱 작업 영역과 같은 최신 Power BI 기능에 액세스 권한을 제공합니다.
@@ -29,7 +29,7 @@ Power BI 라이선스가 없는 고객 및 사용자의 경우 조직 또는 고
 ## <a name="embedding-for-your-organization"></a>조직에 대한 콘텐츠 포함
 조직에 대한 콘텐츠를 포함하면 Power BI 서비스를 확장할 수 있습니다. 이렇게 하면 응용 프로그램 사용자는 콘텐츠를 보려면 Power BI 서비스에 로그인해야 합니다. 조직 내 사용자가 로그인하면 해당 사용자는 본인 소유의 또는 Power BI 서비스에서 공유된 대시보드 및 보고서에만 액세스할 수 있습니다. 
 
-*조직에 대한 콘텐츠가 포함된 예로 내부 웹 응용 프로그램, SharePoint Online 웹 파트 및 Microsoft 팀 통합을 들 수 있습니다.*
+*조직에 대한 콘텐츠가 포함된 예로 내부 웹 응용 프로그램, SharePoint Online 웹 파트 및 [Microsoft 팀 통합을 들 수 있습니다(관리자 권한이 있어야 함).](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/).*
 
 조직에 대한 콘텐츠를 포함하는 경우 다음 항목을 참조하세요.
 

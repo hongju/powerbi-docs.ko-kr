@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d0cc0ce18a187280c48be0c84bf9adf680ea3ea4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
+ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813437"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37900057"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop에서 SAP BW Connector 사용
 Power BI Desktop을 통해 **SAP BW(Business Warehouse)** 데이터에 액세스할 수 있습니다.
 
 SAP 고객이 Power BI를 기존 SAP BW(Business Warehouse) 시스템에 연결하여 활용하는 방법에 대한 자세한 내용은 [Power BI 및 SAP BW 백서](https://aka.ms/powerbiandsapbw)를 참조하세요.
 
-**Power BI Desktop**의 2018년 6월 릴리스부터 성능 및 기능이 크게 향상된 구현으로 SAP BW 커넥터를 사용할 수 있습니다. 이 업데이트된 버전의 SAP BW 커넥터는 Microsoft에서 개발했으며 **구현 2.0**라고 합니다. 표준 **SAP BW 커넥터** 또는 **구현 2.0 SAP 커넥터** 중 하나를 선택할 수 있습니다. 다음 섹션에서는 각 버전의 설치를 차례로 설명합니다. Power BI Desktop에서 SAP BW에 연결할 때 하나 또는 다른 연결을 선택할 수 있습니다.
+**Power BI Desktop**의 2018년 6월 릴리스부터 성능 및 기능이 크게 향상된 구현으로 SAP BW 커넥터를 사용할 수 있습니다. 이 업데이트된 버전의 SAP BW 커넥터는 Microsoft에서 개발했으며 **구현 2.0**라고 합니다. 버전 1(v1)의 **SAP BW 커넥터** 또는 **구현 2.0 SAP 커넥터** 중 하나를 선택할 수 있습니다. 다음 섹션에서는 각 버전의 설치를 차례로 설명합니다. Power BI Desktop에서 SAP BW에 연결할 때 하나 또는 다른 연결을 선택할 수 있습니다.
 
 선택이 가능할 때마다 **구현 2.0 SAP 커넥터**를 사용하는 것이 좋습니다.
 
-## <a name="installation-of-the-standard-sap-bw-connector"></a>표준 SAP BW 커넥터 설치
-선택이 가능할 때마다 구현 2.0 SAP 커넥터를 사용하는 것이 좋습니다(다음 섹션의 지침 참조). 이 섹션에서는 표준 **SAP BW 커넥터** 설치에 대해 설명하며 다음 설치 단계를 수행하여 설치할 수 있습니다.
+## <a name="installation-of-version-1-of-the-sap-bw-connector"></a>버전 1의 SAP BW 커넥터 설치
+선택이 가능할 때마다 구현 2.0 SAP 커넥터를 사용하는 것이 좋습니다(다음 섹션의 지침 참조). 이 섹션에서는 버전1의 **SAP BW 커넥터** 설치에 대해 설명하며 다음 설치 단계를 수행하여 설치할 수 있습니다.
 
 1. 로컬 컴퓨터에 **SAP NetWeaver** 라이브러리를 설치합니다. SAP 관리자 또는 직접 [SAP 소프트웨어 다운로드 센터](https://support.sap.com/swdc)에서 **SAP Netweaver** 라이브러리를 가져올 수 있습니다. **SAP 소프트웨어 다운로드 센터**에서 구조를 자주 변경했기 때문에 해당 사이트를 탐색하기 위한 보다 구체적인 지침을 사용할 수 없습니다. **SAP NetWeaver** 라이브러리는 일반적으로 SAP 클라이언트 도구 설치에도 포함됩니다.
    
@@ -54,11 +54,11 @@ SAP 고객이 Power BI를 기존 SAP BW(Business Warehouse) 시스템에 연결�
 ![SAP 옵션 설치 단계](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
 > [!NOTE]
-> 표준 SAP BW 구현에는 Netweaver DLL이 필요합니다. 구현 2.0 SAP 커넥터를 사용하고 표준 버전을 사용하지 않는 경우 Netweaver DLL은 필요하지 않습니다.
+> 첫 번째 버전의 SAP BW 구현에는 Netweaver DLL이 필요합니다. 구현 2.0 SAP 커넥터를 사용하고 첫 번째 버전을 사용하지 않는 경우 Netweaver DLL은 필요하지 않습니다.
 
 
-## <a name="standard-sap-bw-connector-features"></a>표준 SAP BW 커넥터 기능
-Power BI Desktop의 표준 **SAP BW 커넥터**를 사용하면 **SAP Business Warehouse 서버** 큐브에서 데이터를 가져오거나 DirectQuery를 사용할 수 있습니다. 
+## <a name="version-1-sap-bw-connector-features"></a>버전 1 SAP BW 커넥터 기능
+Power BI Desktop의 버전 1 **SAP BW 커넥터**를 사용하면 **SAP Business Warehouse 서버** 큐브에서 데이터를 가져오거나 DirectQuery를 사용할 수 있습니다. 
 
 **SAP BW 커넥터** 및 DirectQuery를 함께 사용하는 방법에 대해 자세히 알아보려면 [DirectQuery 및 SAP BW(Business Warehouse)](desktop-directquery-sap-bw.md) 아티클을 살펴보세요.
 
@@ -101,7 +101,7 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
 
     ![SAP 연결 대화 상자](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. **확인**을 선택하면 **탐색기** 환경은 표준 SAP BW 커넥터의 이전 섹션에서 설명한 것과 동일합니다. 
+3. **확인**을 선택하면 **탐색기** 환경은 버전 1 SAP BW 커넥터의 이전 섹션에서 설명한 것과 동일합니다. 
 
 ### <a name="new-options-for-implementation-20"></a>구현 2.0의 새 옵션 
 
@@ -115,7 +115,7 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
 
     이 옵션의 기본값은 SapBusinessWarehouseExecutionMode.BasXmlGzip입니다.
 
-    대규모 데이터 집합의 대기 시간이 긴 경우 *SapBusinessWarehouseExecutionMode.BasXmlGzip*을 사용하면 성능이 향상될 수 있습니다.
+    대규모 데이터에서 대기 시간이 긴 경우 *SapBusinessWarehouseExecutionMode.BasXmlGzip*을 사용하면 성능이 향상될 수 있습니다.
 
 2. **BatchSize** - MDX 문을 실행할 때 한 번에 검색되는 최대 행 수를 지정합니다. 행 수가 적으면 대규모 데이터 집합을 검색하는 동안 서버에 대한 호출을 더 많이 변환합니다. 행 수가 많으면 성능이 향상될 수 있지만 SAP BW 서버의 메모리 문제가 발생할 수 있습니다. 기본값은 50000행입니다.
 
@@ -163,7 +163,7 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
 
     ![쿼리 코드 조각](media/desktop-sap-bw-connector/sap_bw_12.png)
 
-4. 구현 2.0 SAP BW 커넥터를 표준 SAP BW 커넥터와 호환되도록 모든 노력을 기울였습니다. 그러나 사용되는 다른 SAP BW MDX 실행 모드로 인해 약간의 차이가 있을 수 있습니다. 불일치를 해결하려면 실행 모드 간 전환을 시도하세요.
+4. 구현 2.0 SAP BW 커넥터를 버전 1 SAP BW 커넥터와 호환되도록 모든 노력을 기울였습니다. 그러나 사용되는 다른 SAP BW MDX 실행 모드로 인해 약간의 차이가 있을 수 있습니다. 불일치를 해결하려면 실행 모드 간 전환을 시도하세요.
 
 ## <a name="troubleshooting"></a>문제 해결
 이 섹션에서는 **SAP BW** 커넥터로 작업하는 경우 상황(및 솔루션)의 문제 해결을 제공합니다.

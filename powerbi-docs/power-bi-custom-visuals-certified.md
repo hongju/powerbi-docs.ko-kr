@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813598"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600359"
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
@@ -39,7 +39,7 @@ A *인증된 사용자 지정 시각적 개체*는 일련의 코드 요구 사�
 인증을 위해 사용자 지정 시각적 개체를 제출하려면:
 
 1. Power BI 사용자 지정 시각적 개체 지원에 전자 메일을 보냅니다(pbicvsupport@microsoft.com). 전자 메일에는 다음 정보를 포함합니다.    
-   
+
    * 제목: 시각적 인증 요청    
    * 시각적 소스 코드를 호스팅하는 GitHub 리포지토리에 연결    
    * 요구 사항 준수(위 참조)    
@@ -51,6 +51,7 @@ A *인증된 사용자 지정 시각적 개체*는 일련의 코드 요구 사�
 Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 제거할 수 있습니다.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>인증된 사용자 지정 시각적 개체의 목록
+
 | AppSource에 연결 | 비디오에 연결 |
 | --- | --- |
 | [별표 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
@@ -100,6 +101,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [인포그래픽 디자이너](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [KPI Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432)(Akvelon의 KPI 차트) | |
 | [KPI Column by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996)(MAQ 소프트웨어의 KPI 열) | [비디오](https://youtu.be/rU0xoOlIq1U) |
+| [MAQ 소프트웨어의 KPI 그리드](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380947) | [비디오](https://youtu.be/dM4PvZh71V0) |
 | [KPI 지표](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [MAQ 소프트웨어의 KPI 티커](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [비디오](https://youtu.be/cudG4gsZ2V8) |
 | [MAQ Software의 선형 계기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [비디오](https://youtu.be/7_jFaM30dkc) |
@@ -126,7 +128,9 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [텍스트 필터](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [MAQ Software의 텍스트 래퍼](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [MAQ Software의 Thermometer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) | [비디오](https://youtu.be/SPX9mgrAdBc) |
+| [시간 브러시 슬라이서](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380798) | |
 | [타임라인 슬라이서](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [비디오](https://youtu.be/ozMtZ4_NZ10) |
+| [CloudScope의 타임라인](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381427) | [비디오](https://youtu.be/szNi9YgXFJc) |
 | [토네이도 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [비디오](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [MAQ Software의 거래 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [비디오](https://youtu.be/xhTR6y6J9Ko) |
 | [최종 차이](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) | [비디오](https://youtu.be/pDYF8iZxERs) |

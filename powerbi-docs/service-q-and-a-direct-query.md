@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75636885da6357a756508558841c99435aa5f442
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245585"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092187"
 ---
 # <a name="enable-qa-for-live-connections"></a>라이브 연결로 질문 및 답변 사용
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>온-프레미스 데이터 게이트웨이란 무엇인가요?  라이브 연결이란?
@@ -56,6 +56,7 @@ Power BI 질문 및 답변은 데이터 원본에서 텍스트 및 스키마 값
 
 * 처음부터 이 기능은 SQL Server 2016 Analysis Services 테이블 형식 데이터 원본에만 사용할 수 있습니다. 기능은 표 형식 데이터에 맞게 최적화됩니다. 일부 기능은 다차원 데이터 원본에 사용할 수 있지만 전체 질문 및 답변 환경은 아직 다차원에 지원되지 않습니다. 온-프레미스 데이터 게이트웨이에서 지원하는 추가 데이터 원본은 시간이 지나면 출시될 예정입니다.
 * SQL Server Analysis Services에 정의된 행 수준 보안에 대한 완벽한 지원은 처음부터 공개 미리 보기에서 지원되지 않습니다. 질문 및 답변에서 질문하는 동안 입력하는 질문의 "자동 완성"은 사용자가 액세스할 수 없는 문자열 값을 나타낼 수 있습니다. 그러나 모델에 정의된 RLS는 보고서 및 차트 시각적 개체를 고려하므로 기본 숫자 데이터가 노출되지 않습니다. 이 동작을 제어하는 옵션은 향후 업데이트에서 출시될 예정입니다.
+* OLS(개체 수준 보안)가 지원되지 않습니다. 질문 및 답변은 개체 수준 보안을 고려하지 않고 테이블 또는 열 이름을 액세스 권한이 없는 사용자에게 노출할 수 있습니다. 데이터 값이 적절하게 보호되는지 확인하려면 RLS를 사용하도록 설정해야 합니다. 
 * 라이브 연결은 온-프레미스 데이터 게이트웨이를 통해서만 지원됩니다. 결과적으로, 개인 게이트웨이와 함께 사용할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d350593f3a5168d959711e1ca2bbbd8a86524187
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a69cccafa9651bbda44ea2154ebe68463c9da907
+ms.sourcegitcommit: 7e0335bd8c263b5f8ba4303b986ddc450d842297
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288064"
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "36330125"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비롯한 보고서 페이지의 현재 구성된 보기를 캡처하고 저장된 해당 책갈피를 선택하여 나중에 해당 상태로 돌아갈 수 있습니다. 
@@ -56,7 +56,7 @@ Power BI Desktop 2018년 3월 버전부터 책갈피가 일반 공급됩니다.
 
 ![책갈피 추가](media/desktop-bookmarks/bookmarks_04.png)
 
-**Power BI Desktop**은 책갈피를 만들고 일반 이름을 제공합니다. 책갈피 이름 옆에 있는 줄임표를 선택한 다음, 나타나는 메뉴에서 작업을 선택하여 쉽게 책갈피의 ‘이름을 바꾸’거나 책갈피를 ‘삭제’ 또는 ‘업데이트’할 수 있습니다.
+**Power BI Desktop**은 책갈피를 만들고 일반 이름을 제공합니다. 책갈피 이름 옆에 있는 줄임표를 선택한 다음, 나타나는 메뉴에서 작업을 선택하여 쉽게 책갈피의 *이름을 바꾸*거나 책갈피를 *삭제* 또는 *업데이트*할 수 있습니다.
 
 ![줄임표를 사용하여 책갈피의 하위 메뉴를 선택합니다.](media/desktop-bookmarks/bookmarks_05.png)
 
@@ -64,7 +64,7 @@ Power BI Desktop 2018년 3월 버전부터 책갈피가 일반 공급됩니다.
 
 각 책갈피가 ‘데이터’ 속성(예: 필터 및 슬라이서), ‘표시’ 속성(예: 추천 및 표시 유형) 및 책갈피를 추가할 때 표시된 페이지를 나타내는 페이지 변경 내용을 적용할지 여부도 선택할 수 있습니다. 이러한 기능은 책갈피를 사용하여 시각적 개체 유형 간에 전환하는 경우 유용합니다. 이 경우 데이터 속성을 끄려고 하므로 사용자가 시각적 개체 유형을 변경할 때 필터가 다시 설정되지 않습니다. 
 
-이렇게 변경하려면 이전 이미지에 표시된 대로 책갈피 이름 옆에 있는 줄임표를 선택하거나, ‘데이터’, ‘표시’ 및 기타 컨트롤 옆에 있는 확인 표시를 선택 취소합니다. 
+이렇게 변경하려면 이전 이미지에 표시된 대로 책갈피 이름 옆에 있는 줄임표를 선택하거나, *데이터*, *표시* 및 기타 컨트롤 옆에 있는 확인 표시를 선택 취소합니다. 
 
 ## <a name="arranging-bookmarks"></a>책갈피 정렬
 책갈피를 만드는 경우 만드는 순서는 대상 그룹에 표시하는 것과 반드시 동일한 순서는 아닐 수 있습니다. 걱정하지 마세요. 책갈피의 순서를 쉽게 재정렬할 수 있습니다.

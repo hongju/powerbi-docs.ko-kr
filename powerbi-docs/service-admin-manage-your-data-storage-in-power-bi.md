@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245365"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944747"
 ---
 # <a name="manage-your-data-storage"></a>데이터 저장소 관리
 보고서 및 데이터 집합을 계속 게시할 수 있도록 개인 또는 앱 작업 영역, 데이터 저장소를 관리하는 방법에 대해 알아봅니다.
 
 사용자 및 앱 작업 영역에는 자체 데이터 용량이 있습니다.
 
-* 무료 및 Pro 사용자의 최대 데이터 저장소는 10GB입니다.
-* Pro 사용자는 최대 10GB 데이터 저장소로 앱 작업 영역을 만들 수 있습니다.
+* 모든 사용자의 최대 데이터 저장소는 10GB입니다.
+* Power BI Pro 라이선스가 있는 사용자는 최대 10GB 데이터 저장소로 앱 작업 영역을 만들 수 있습니다.
 
 테넌트 수준에서 테넌트의 모든 Pro 사용자 및 앱 작업 영역에 대해 Pro 사용자 1인당 총 사용량은 10GB를 초과할 수 없습니다.
 

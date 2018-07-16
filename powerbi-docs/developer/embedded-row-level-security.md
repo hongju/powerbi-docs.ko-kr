@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: d41b0a84d512c5ef6cebf810a89fd74a838c672e
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301737"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864356"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI Embedded 콘텐츠에서 행 수준 보안 사용
 행 수준 보안(RLS)를 사용하여 대시보드, 타일, 보고서 및 데이터 집합 내 데이터에 대한 사용자 액세스를 제한할 수 있습니다. 여러 사용자가 다른 데이터를 보면서 동일한 아티팩트를 작업할 수 있습니다. RLS 포함이 지원됩니다.
@@ -65,11 +65,11 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 집합 및 보고서를
 3. **구역** 테이블에서 다음과 같은 DAX 식을 입력합니다. **[구역 관리자] = USERNAME()**
    
     ![RLS 규칙의 DAX 문](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. 규칙이 작동하는지 확인하려면 **모델링** 탭에서 **역할로 보기**를 선택하고 방금 만든 **관리자** 역할과 함께 **다른 사용자**를 선택합니다. **Andrew Ma**를 사용자로 입력합니다.
+4. 규칙이 작동하는지 확인하려면 **모델링** 탭에서 **역할로 보기**를 선택하고 방금 만든 **관리자** 역할과 함께 **다른 사용자**를 선택합니다. **AndrewMa**를 사용자로 입력합니다.
    
     ![역할 대화 상자로 보기](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
    
-    이제 보고서는 **Andrew Ma**로 로그인한 경우처럼 데이터를 표시합니다.
+    이제 보고서는 **AndrewMa**로 로그인한 경우처럼 데이터를 표시합니다.
 
 필터링을 적용하면 여기에서 수행한 방식으로 **구역**, **저장소** 및 **영엽** 테이블에서 모든 레코드를 필터링합니다. 그러나 **영엽**과 **시간** 간의 관계에 대한 필터 방향을 인해 **영엽**과 **항목** 및 **항목**과 **시간** 테이블이 필터링되지 않습니다. 양방향 교차 필터링에 대한 자세한 내용은 [SQL Server Analysis Services 2016 및 Power BI Desktop에서 양방향 교차 필터링](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) 백서를 다운로드합니다.
 

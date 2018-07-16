@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/13/2018
 ms.author: maggies
-ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32d73b4be55190b908353083b497581cb1b08c6e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482248"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599027"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 온-프레미스 보고서 서버 보고서 및 KPI 보기
 
@@ -103,6 +103,9 @@ iOS 모바일 앱에서 Power BI를 보는 경우 IT 관리자는 앱 구성 정
 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting Services 웹 포털에서와 동일한 폴더에 표시됩니다. 
 
 * Power BI 보고서 탭 ![Power BI 보고서 아이콘](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). 그러면 가로 모드로 열리고 Power BI 앱에서 상호 작용할 수 있습니다.
+
+    > [!NOTE]
+  > 드릴 다운 및 드릴업은 현재 Power BI Report Server의 Power BI 보고서에서 사용되지 않습니다.
   
     ![Power BI 보고서](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * Power BI Desktop에서 보고서 소유자는 Power BI 모바일 앱에 [보고서를 최적화](desktop-create-phone-report.md)할 수 있습니다. 휴대전화에서 최적화된 보고서에는 특수 아이콘 ![최적화된 Power BI 보고서 아이콘](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) 및 레이아웃이 있습니다.
@@ -129,6 +132,6 @@ Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting 
 3. **서버 제거**를 탭합니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 시작](service-get-started.md)  
+* [Power BI란?](power-bi-overview.md)  
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

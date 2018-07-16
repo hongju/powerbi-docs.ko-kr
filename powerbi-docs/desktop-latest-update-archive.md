@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813851"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37601640"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -255,7 +255,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 * 기능을 설명하는 경우 **[비디오]** 에서 발췌된 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 사항을 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
--   마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
 
 이번 달에는 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 아티클 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
@@ -1844,15 +1844,15 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
     -   다차원 원본(Analysis Services 및 SAP BusinessObjects)에 대한 미리 보기 환경 개선
     -   선택한 항목 표시 옵션
     -   탐색기 트리에서 검색 기능 개선
--   새 변환
-    -   날짜/시간 열에 대한 기간 및 빼기 연산
-    -   집계 열: 새 열의 접두사를 사용하지 않도록 설정하는 옵션
--   필드 목록 개선
-    -   테이블 확장/축소
-    -   필드 숨기기/숨기기 취소
-    -   최적화된 레이아웃(간격, 여백 및 글꼴)
--   보고서 페이지 탐색 - 키보드 사용 지원
--   다양한 버그 수정
+- 새 변환
+  -   날짜/시간 열에 대한 기간 및 빼기 연산
+  -   집계 열: 새 열의 접두사를 사용하지 않도록 설정하는 옵션
+- 필드 목록 개선
+  -   테이블 확장/축소
+  -   필드 숨기기/숨기기 취소
+  -   최적화된 레이아웃(간격, 여백 및 글꼴)
+- 보고서 페이지 탐색 - 키보드 사용 지원
+- 다양한 버그 수정
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>
 

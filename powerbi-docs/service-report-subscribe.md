@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9d166dec82aa56fec1512e3d859e60142afcccd6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0b1aa1f9cdabc3508906cc87a4d41f277cd0b0b6
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755280"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092693"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>Power BI 서비스(app.powerbi.com)에서 보고서 또는 대시보드 구독
 가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 사용자 및 동료가 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서는 스냅숏을 이메일로 받은 편지함에 보냅니다. Power BI에 전자 메일 수신 빈도(예: 하루에 한 번에서 일주일에 한 번)를 알려줍니다. 
@@ -81,10 +81,12 @@ ms.locfileid: "34755280"
 Pro 라이선스가 만료되거나, 소유자가 대시보드 또는 보고서를 삭제하거나, 구독을 만드는 데 사용된 사용자 계정이 삭제된 경우 구독이 종료됩니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+* 대시보드 이메일 구독의 경우 타일에 RLS(행 수준 보안)이 적용되면 해당 타일은 표시되지 않습니다.  보고서 이메일 구독의 경우 데이터 집합이 RLS를 사용하면 구독을 만들 수 없습니다.
 * 보고서 페이지 구독은 보고서 페이지의 이름과 연결됩니다. 보고서 페이지를 구독하고 이름을 바꾸면 구독을 다시 만들어야 합니다.
 * 라이브 연결 데이터 집합에 대한 전자 메일 구독의 경우 데이터가 변경될 때만 전자 메일을 받습니다. 따라서 새로 고침이 발생했지만 데이터가 변경되지 않았으면 Power BI에서 전자 메일을 보내지 않습니다.
 * 전자 메일 구독은 대부분의 [사용자 지정 시각적 개체](power-bi-custom-visuals.md)를 지원하지 않습니다.  한 가지 예외는 [인증](power-bi-custom-visuals-certified.md)된 사용자 지정 시각적 개체입니다.  
-* 타일에 RLS(행 수준 보안)이 적용되면 해당 타일은 표시되지 않습니다.
+* 대시보드 타일에 RLS(행 수준 보안)이 적용되면 해당 타일은 표시되지 않습니다.
+* RLS(행 수준 보안)이 적용되는 보고서에 대한 다른 사용자를 구독할 수 없습니다.
 * 전자 메일 구독은 보고서의 기본 필터 및 슬라이서 상태와 함께 보내집니다. 구독한 후에 수행된 기본값에 대한 변경 사항은 이메일에 표시되지 않습니다.    
 * 전자 메일 구독은 서비스 기능에 대한 Power BI Desktop 실시간 연결에서 만든 보고서 페이지에서 아직 지원되지 않습니다.    
 * 특히 대시보드 구독의 경우, 특정 유형의 타일은 아직 지원되지 않습니다.  여기에는 타일, 비디오 타일, 사용자 지정 웹 콘텐츠 타일의 스트리밍이 포함됩니다.     

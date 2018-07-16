@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 05/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5e69ed0010c5a2ff496b761f54b4cf2561f9b4ca
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297426"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944310"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 관리란?
 
@@ -73,12 +73,12 @@ Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하
 
 | **도구** | **일반 작업** |
 | --- | --- |
-| Power BI 관리 포털 |<ul><li>사용자가 Power BI에 액세스하지 못하도록 차단<br><li>프리미엄 용량 취득 및 사용<br><li>서비스 품질 보장<br><li>비즈니스 데이터 분류 관리<br><li>콘텐츠 게시 및 공유 정책 적용 지원<br><li>작업 영역 관리<br><li>사용자 지정 시각적 개체 게시<br><li>다른 응용 프로그램에 Power BI를 포함하는 데 사용되는 코드 확인<br><li>데이터 액세스 및 기타 문제 해결</ul>|
-| Office 365 관리 센터 |<ul><li>사용자 등록 관리<br><li>Pro 라이선스 구매 및 할당</ul>|
-| Office 365 보안 및 준수 센터 |<ul><li>이벤트 감사 검토 및 관리</ul>|
-| Azure Portal의 AAD(Azure Active Directory) |<ul><li>AAD를 통해 Power BI 리소스에 대한 조건부 액세스 구성<br><li>Power BI Embedded 용량 프로비전</ul>|
-| PowerShell cmdlet |<ul><li>스크립트를 통해 Power BI의 작업 영역 및 기타 측면 관리</ul>|
-| 관리 API |<ul><li>Power BI 관리 작업을 지원하기 위해 사용자 지정 관리 도구를 빌드합니다. 예를 들어 Power BI Desktop에서는 이러한 API를 사용하여 관리와 관련된 데이터 기반 보고서를 빌드할 수 있습니다.</ul>|
+| Power BI 관리 포털 |<ul><li>프리미엄 용량 취득 및 사용</li><li>서비스 품질 보장</li><li>비즈니스 데이터 분류 관리</li><li>콘텐츠 게시 및 공유 정책 적용 지원</li><li>작업 영역 관리<br><li>사용자 지정 시각적 개체 게시</li><li>다른 응용 프로그램에 Power BI를 포함하는 데 사용되는 코드 확인</li><li>데이터 액세스 및 기타 문제 해결</li></ul>|
+| Office 365 관리 센터 |<ul><li>사용자 등록 관리</li><li>Pro 라이선스 구매 및 할당</li><li>사용자가 Power BI에 액세스하지 못하도록 차단</li></ul>|
+| Office 365 보안 및 준수 센터 |<ul><li>이벤트 감사 검토 및 관리</li></ul>|
+| Azure Portal의 AAD(Azure Active Directory) |<ul><li>AAD를 통해 Power BI 리소스에 대한 조건부 액세스 구성</li><li>Power BI Embedded 용량 프로비전</li></ul>|
+| PowerShell cmdlet |<ul><li>스크립트를 통해 Power BI의 작업 영역 및 기타 측면 관리</li></ul>|
+| 관리 API 및 SDK |<ul><li>Power BI 관리 작업을 지원하기 위해 사용자 지정 관리 도구를 빌드합니다. 예를 들어 Power BI Desktop에서는 이러한 API를 사용하여 관리와 관련된 데이터 기반 보고서를 빌드할 수 있습니다.</li></ul>|
 
 ## <a name="next-steps"></a>다음 단계
 

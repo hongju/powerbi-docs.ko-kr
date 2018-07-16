@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813046"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945305"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI 대시보드, 보고서 및 타일 포함
 
@@ -35,6 +35,9 @@ Microsoft는 사용자의 콘텐츠 액세스, 공유 및 배포 방법에 대�
 
 * [Azure Active Directory 테넌트 설치 확인](embedding-content.md#azureadtenant)
 * [Power BI Pro 계정 만들기](embedding-content.md#proaccount)
+* [앱 등록 및 사용 권한](embedding-content.md#appreg)
+* [앱 작업 영역 만들기](embedding-content.md#appws)
+* [보고서 만들기 및 업로드](embedding-content.md#createreports)
 
 [온보딩 환경 도구](https://aka.ms/embedsetup)를 통해 신속하게 샘플 응용 프로그램을 다운로드하여 시작할 수 있습니다.
 
@@ -83,7 +86,7 @@ Power BI에 대한 콘텐츠를 만드는 여러 사용자가 있을 수 있습�
 
 REST API 호출을 실행하려면 Azure AD를 사용해 응용 프로그램을 등록해야 합니다. 자세한 내용은 [Power BI 콘텐츠를 포함하려면 Azure AD 앱 등록](register-app.md)을 참조하세요.
 
-### <a name="create-app-workspaces"></a>앱 작업 영역 만들기
+### <a name="appws"></a>앱 작업 영역 만들기
 
 고객에 대한 대시보드 및 보고서를 포함하는 경우 해당 대시보드 및 보고서는 앱 작업 영역 내에 있어야 합니다. 위에서 언급한 *마스터* 계정은 앱 작업 영역의 관리자여야 합니다.
 
@@ -93,13 +96,17 @@ REST API 호출을 실행하려면 Azure AD를 사용해 응용 프로그램을 
 > 관리자가 아닌 사용자는 최대 250개의 앱 작업 영역을 만들 수 있습니다. 더 많은 앱 작업 영역을 만들려면 테넌트 관리자 계정을 사용해야 합니다.
 >
 
-### <a name="create-and-upload-your-reports"></a>보고서 만들기 및 업로드
+### <a name="createreports"></a>보고서 만들기 및 업로드
 
 Power BI Desktop을 사용하여 보고서 및 데이터 집합을 만든 다음, 이러한 보고서를 앱 작업 영역으로 게시할 수 있습니다. 보고서를 게시하는 최종 사용자는 앱 작업 영역에 게시하기 위해 Power BI Pro 라이선스가 필요합니다.
 
 ## <a name="step-2-embed-your-content"></a>2단계: 콘텐츠 포함
 
-응용 프로그램 내에서 Power BI를 사용하여 인증해야 합니다. 고객에 대한 콘텐츠를 포함하는 경우 응용 프로그램 내에서 *마스터* 계정에 대한 자격 증명을 저장합니다. 자세한 내용은 [사용자를 인증하고 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기](get-azuread-access-token.md)를 참조하세요.
+응용 프로그램 내에서 Power BI를 사용하여 인증해야 합니다. 고객에 대한 콘텐츠를 포함하는 경우 응용 프로그램 내에서 *마스터* 계정에 대한 자격 증명을 저장합니다.
+
+> [!NOTE]
+> 고객에게 포함하는 동안 사용자를 인증하는 방법에 대한 자세한 내용은 [사용자를 인증하고 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기](get-azuread-access-token.md)를 참조하세요.
+>
 
 일단 인증하면 응용 프로그램 내에서 Power BI REST API 및 JavaScript API를 사용하여 응용 프로그램에 대시보드 및 보고서를 포함합니다. 
 
@@ -123,7 +130,7 @@ ISV에서 일반적인 **고객에 대한 콘텐츠를 포함**하는 경우 다
 
 조직에 대한 콘텐츠를 포함하는 경우 사용자에게 응용 프로그램을 가져오는 방법을 알리기만 하면 됩니다. 
 
-전용 용량이 해당 작업 영역을 지원하는 경우 무료 사용자는 앱 작업 영역(그룹)에서 포함된 콘텐츠를 사용할 수 있습니다. 무료 사용자를 앱 작업 영역(그룹)의 멤버로 나열합니다. 그렇지 않으면 401 권한 없음 오류가 표시됩니다. 다음 표에서는 Office 365 내에서 사용할 수 있는 Power BI Premium SKU를 나열합니다.
+할당된 라이선스에 상관 없이 모든 사용자는 전용 용량이 해당 작업 영역을 지원하는 경우 무료 사용자는 앱 작업 영역(그룹)에서 포함된 콘텐츠를 사용할 수 있습니다. 즉, Power BI Pro 라이선스가 없는 사용자를 앱 작업 영역에 명시적으로 추가해야 합니다. 그렇지 않으면 401 권한이 없음 오류가 나타납니다. 다음 표에서는 Office 365 내에서 사용할 수 있는 Power BI Premium SKU를 나열합니다.
 
 | 용량 노드 | 총 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 코어 | 프런트 엔드 코어 | DirectQuery/라이브 연결 제한 | 사용량이 가장 많은 시간에 최대 페이지 렌더링 |
 | --- | --- | --- | --- | --- | --- |
@@ -133,7 +140,7 @@ ISV에서 일반적인 **고객에 대한 콘텐츠를 포함**하는 경우 다
 | P3 |32v-코어 |16개 코어, 100GB RAM |16개 코어 |초당 120 |4,801-9600 |
 
 > [!NOTE]
-> Power BI Premium을 구입하려면 테넌트 내에서 전역 또는 대금 청구 관리자여야 합니다. Power BI Premium을 구입하는 방법에 대한 정보는 [Power BI 프리미엄 구매 방법](../service-admin-premium-purchase.md)을 참조하세요.
+> Power BI Premium을 구입하려면 테넌트 내에서 전역 또는 대금 청구 관리자여야 합니다. Power BI 프리미엄을 구입하는 방법에 대한 정보는 [Power BI 프리미엄 구매 방법](../service-admin-premium-purchase.md)을 참조하세요.
 
 >[!Note]
 >[조직에 맞게 포함된 분석 환경을 설정합니다.](#step-1-setup-your-embedded-analytics-development-environment)

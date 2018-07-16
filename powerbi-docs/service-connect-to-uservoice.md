@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250829"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092164"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Power BI로 UserVoice에 연결
 Power BI 및 UserVoice 콘텐츠 팩에서 UserVoice 데이터 추적 및 탐색이 쉽습니다. Power BI는 티켓, 제안 및 만족도를 포함하여 데이터를 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 작성합니다.
@@ -35,7 +35,7 @@ Power BI용 [UserVoice 콘텐츠 팩](https://app.powerbi.com/getdata/services/u
 3. **UserVoice**를 선택한 다음 **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. 메시지가 표시되면 UserVoice URL을 입력합니다. URL은 정확하게 다음 패턴에 따라 https://fabrikam.uservoice.com "fabrikam"을 제품 또는 서비스 이름으로 대체합니다.
+4. 메시지가 표시되면 UserVoice URL을 입력합니다. URL은 정확하게 다음 패턴에 따라 `https://fabrikam.uservoice.com` "fabrikam"을 제품 또는 서비스 이름으로 대체합니다.
    
    >[!NOTE]
    >끝에 슬래시가 없고 연결이 http**s**로 되어 있는지 확인합니다.
@@ -63,7 +63,7 @@ Power BI용 [UserVoice 콘텐츠 팩](https://app.powerbi.com/getdata/services/u
 
 UserVoice URL 입력 후에 이 오류가 표시되면 다음 요구 사항이 충족되었는지 확인합니다.
 
-* URL은 "https://fabrikam.uservoice.com" 패턴을 따라 "fabrikam"을 올바른 UserVoice URL 접두사로 바꿉니다.
+* URL은 `https://fabrikam.uservoice.com` 패턴을 따라 "fabrikam"을 올바른 UserVoice URL 접두사로 바꿉니다.
 * 모든 문자가 소문자인지 확인합니다.
 * URL이 'http**s**'인지 확인합니다.
 * URL의 끝에 슬래시가 없는지 확인합니다.
