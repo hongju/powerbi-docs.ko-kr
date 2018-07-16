@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: d9e2f76c63ee9ebff01080686277a3fbb5af46f3
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: a8833cb6b41ea76d50814975ada6239690a0c196
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900080"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877421"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>자습서: Power BI 보고서, 대시보드 또는 타일을 고객의 응용 프로그램에 포함
 **Azure의 Power BI Embedded**를 통해 **앱 소유 데이터**를 사용하여 응용 프로그램에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **앱 소유 데이터**는 해당 임베디드 분석 플랫폼으로 Power BI를 사용하는 응용 프로그램을 갖는 것입니다. 이는 일반적으로 **ISV 개발자** 시나리오입니다. **ISV 개발자**로서, 응용 프로그램 사용자가 Power BI 라이선스를 가질 필요가 없고, 내부적으로 Power BI임을 아는 경우에도 응용 프로그램에서 보고서, 대시보드 또는 타일을 표시하며 완벽하게 통합되고, 대화형인 Power BI 콘텐츠를 만들 수 있습니다. 이 자습서에서는 **앱 소유 데이터**를 사용하는 고객에 대해 **Azure의 Power BI Embedded**를 사용하는 경우 **Power BI** JavaScript API와 함께 **Power BI** .NET SDK를 사용하여 보고서를 응용 프로그램에 통합하는 방법을 보여 줍니다.
@@ -54,7 +54,7 @@ Azure Active Directory에 응용 프로그램을 등록하여 응용 프로그�
     ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![새 앱 등록](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-4. 메시지에 따라 새 응용 프로그램을 만듭니다. 앱 소유 데이터의 경우 응용 프로그램 유형으로 **네이티브**를 사용해야 합니다. **Azure AD**에서 토큰 응답을 반환하는 데 사용하는 **리디렉션 URI**도 제공해야 합니다. 응용 프로그램에 지정된 값을 입력합니다(예: `http://localhost:13526/redirect`).
+4. 메시지에 따라 새 응용 프로그램을 만듭니다. 앱 소유 데이터의 경우 응용 프로그램 유형으로 **네이티브**를 사용해야 합니다. **Azure AD**에서 토큰 응답을 반환하는 데 사용하는 **리디렉션 URI**도 제공해야 합니다. 응용 프로그램에 지정된 값을 입력합니다(예: `http://localhost:13526/Redirect`).
 
     ![앱 만들기](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 

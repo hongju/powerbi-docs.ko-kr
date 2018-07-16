@@ -11,11 +11,11 @@ ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944563"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925439"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI 프리미엄이란?
 Power BI 프리미엄은 더욱 신뢰할 수 있는 성능과 더 큰 데이터 볼륨을 제공하여 조직 또는 팀에 대한 Power BI 서비스 실행에 전용 리소스를 제공합니다. 또한 프리미엄을 통해 뷰어를 위한 사용자별 라이선스를 구입할 필요 없이 광범위하게 콘텐츠를 배포할 수 있습니다.
