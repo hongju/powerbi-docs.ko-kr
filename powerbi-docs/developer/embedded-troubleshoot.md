@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/09/2018
 ms.author: maghan
-ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926562"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877027"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
 
@@ -102,13 +102,11 @@ GenerateToken 호출 전에 응용 프로그램의 백 엔드가 인증 토큰�
 
 **(AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 너무 많이 로그인을 시도했습니다.)**
 
-Power BI Embedded를 사용하고 Azure AD 직접 인증을 활용하는 경우 ***오류: unauthorized_client, error_description:AADSTS70002: 자격 증명의 유효성 검사 오류입니다.와 같은 로그인 메시지를 수신합니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 너무 많이 로그인을 시도했습니다.*** 2018년 6월 14일부터 직접 인증이 해제되었기 때문입니다.
+Power BI Embedded를 사용하고 Azure AD 직접 인증을 활용하는 경우 ***오류: unauthorized_client, error_description:AADSTS70002: 자격 증명의 유효성 검사 오류입니다.와 같은 로그인 메시지를 수신합니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 너무 많이 로그인을 시도했습니다.*** 2018년 6월 14일부터 직접 인증이 기본적으로 해제되었기 때문입니다.
 
-레거시 인증 사용을 차단하기 위해 [Azure AD 조건부 액세스](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) 지원을 사용하거나 [Azure AD Directory 통과 인증](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication)을 사용하는 것이 좋습니다.
+조직 또는 [서비스 주체](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)로 범위를 지정할 수 있는 [Azure AD 정책](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)을 사용하여 이 기능을 다시 설정하는 방법이 있습니다.
 
-그러나 조직 또는 [서비스 주체](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)로 범위를 지정할 수 있는 [Azure AD 정책](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)을 사용하여 이 기능을 다시 설정하는 방법이 있습니다.
-
-**_앱 기준으로 및 해결 방법으로 필요한 경우에만 이 기능을 사용하는 것이 좋습니다._**
+앱별 기준으로만 이 기능을 설정하는 것이 좋습니다.
 
 이 정책을 만들려면 정책을 만들고 할당하는 **전역 관리자** 디렉터리에 위치해야 합니다. 정책을 만들고 이 응용 프로그램에 SP를 할당하기 위한 샘플 스크립트는 다음과 같습니다.
 

@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 08d5d5b8d44d1ebceab2bb41ddbb244afda64fb6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945046"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924795"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium 및 Power BI Embedded 내에서 용량 관리
 콘텐츠에 대한 전용 리소스를 제공하는 Power BI Premium 및 Power BI Embedded 용량을 관리하는 방법을 알아봅니다.
 
 ![Power BI 용량 설정 화면](media/service-admin-premium-manage/premium-capacity-management.png)
 
-용량은 Power BI Premium 및 Power BI Embedded 제품에서 전해집니다.
+용량은 Power BI Premium 및 Power BI Embedded 제품의 핵심입니다.
 
 ## <a name="what-is-capacity"></a>용량이란?
 용량은 사용자에 의한 독점적 사용을 위해 예약된 리소스의 집합입니다. 용량을 보유하면 라이선스를 구입할 필요 없이 조직 전체에서 사용자에게 대시보드, 보고서 및 데이터 집합을 게시할 수 있습니다. 또한 용량에서 호스팅되는 콘텐츠에 대해 신뢰할 수 있는 일관된 성능을 보장합니다.
@@ -32,6 +32,16 @@ ms.locfileid: "36945046"
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
 자세한 내용은 [Power BI 프리미엄이란?](service-premium.md)을 참조하세요.
+
+### <a name="capacity-admins"></a>용량 관리자
+> [!NOTE]
+> Power BI Embedded 용량의 경우 용량 관리자는 Microsoft Azure Portal 내에서 정의됩니다.
+
+용량에 용량 관리자로 할당된 경우 용량 및 해당 관리 기능에 대한 모든 컨트롤을 갖습니다. Power BI 관리 포털에서 더 많은 용량 관리자(Power BI Premium에만 해당)를 추가하거나 사용자에게 용량 할당 권한을 제공할 수 있습니다. 용량에 작업 영역을 대량으로 할당하고 용량에 대한 사용 메트릭을 볼 수 있습니다.
+
+각 용량에는 자체 관리자가 있습니다. 하나의 용량에 용량 관리자를 정의하는 것은 해당 조직 내에서 모든 용량에 대한 액세스를 부여하지 않습니다. 용량 관리자는 기본적으로 사용 메트릭, 감사 로그 또는 테넌트 설정과 같은 모든 Power BI 관리자 영역에 대한 액세스가 없습니다. 용량 관리자는 새 용량을 설정하거나 기존 용량의 SKU를 변경할 수 있는 권한도 없습니다. 전역 관리자 또는 Power BI 서비스 관리자만 해당 항목에 액세스할 수 있습니다.
+
+모든 Office 365 전역 관리자 및 Power BI 관리자는 자동으로 Power BI Premium 용량과 Power BI Embedded 용량의 용량 관리자입니다.
 
 ## <a name="purchase-capacity"></a>용량 구입
 전용 용량을 활용하려면 Office 365 관리 센터 내에서 Power BI Premium에 대한 구독을 구입하거나 Microsoft Azure Portal 내에서 Power BI Embedded 리소스를 만들어야 합니다. 자세한 내용은 다음을 참조하세요.
@@ -43,21 +53,9 @@ Power BI Premium SKU를 구입할 때 테넌트는 실행 중인 용량에서 �
 
 > [!NOTE]
 > 구독이 끝난 후 30일 동안 전체 액세스 권한을 갖지만 그 후에는 콘텐츠가 공유 용량으로 되돌아갑니다. 1GB를 초과하는 모델은 일반 공유 라이선스에서 지원되지 않습니다.
->
 
-## <a name="capacity-admins"></a>용량 관리자
-> [!NOTE]
-> Power BI Embedded 용량의 경우 용량 관리자는 Microsoft Azure Portal 내에서 정의됩니다.
->
->
 
-용량에 용량 관리자로 할당된 경우 용량 및 해당 관리 기능에 대한 모든 컨트롤을 갖습니다. Power BI 관리 포털에서 더 많은 용량 관리자(Power BI Premium에만 해당)를 추가하거나 사용자에게 용량 할당 권한을 제공할 수 있습니다. 용량에 작업 영역을 대량으로 할당하고 용량에 대한 사용 메트릭을 볼 수 있습니다.
-
-각 용량에는 자체 관리자가 있습니다. 하나의 용량에 용량 관리자를 정의하는 것은 해당 조직 내에서 모든 용량에 대한 액세스를 부여하지 않습니다. 용량 관리자는 기본적으로 사용 메트릭, 감사 로그 또는 테넌트 설정과 같은 모든 Power BI 관리자 영역에 대한 액세스가 없습니다. 용량 관리자는 새 용량을 설정하거나 기존 용량의 SKU를 변경할 수 있는 권한도 없습니다. 전역 관리자 또는 Power BI 서비스 관리자만 해당 항목에 액세스할 수 있습니다.
-
-모든 Office 365 전역 관리자 및 Power BI 관리자는 자동으로 Power BI Premium 용량과 Power BI Embedded 용량의 용량 관리자입니다.
-
-## <a name="managing-capacity"></a>용량 관리
+## <a name="manage-capacity"></a>용량 관리
 Office 365 내에서 노드 용량을 구입한 후 새 용량을 설정해야 합니다. 이 작업은 [Power BI 관리 포털](service-admin-portal.md)을 통해 수행합니다. 관리 포털 내에서 **용량 설정**이라는 섹션이 나타납니다. 여기에서 조직에 대한 Power BI 프리미엄 용량을 관리합니다.
 
 ![관리 포털 내에서 용량 설정](media/service-admin-premium-manage/admin-portal-premium.png)
@@ -96,8 +94,6 @@ Power BI 관리자 및 Office 365 전역 관리자와 마찬가지로 용량 관
 
 > [!NOTE]
 > Power BI Embedded 용량 설정은 Microsoft Azure Portal 내에서 관리됩니다.
->
->
 
 ### <a name="change-capacity-size-power-bi-premium"></a>용량 크기 변경(Power BI Premium)
 Power BI 관리자와 Office 365 전역 관리자는 **용량 크기 변경**을 선택하여 Power BI Premium 용량 크기를 변경합니다. Power BI 관리자 또는 Office 365 전역 관리자가 아닌 용량 관리자에게는 이 옵션이 제공되지 않습니다.
@@ -128,35 +124,6 @@ Power BI Premium 용량에 추가 **용량 관리자**를 할당할 수 있습�
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
-
-## <a name="usage-measurements-power-bi-premium"></a>사용량 측정(Power BI Premium)
-각 용량에 대해 CPU, 메모리 사용량, 메모리 쓰래싱 및 직접 쿼리에 대한 사용량 측정을 볼 수 있습니다. 사용자가 용량에 대해 나은 성능을 확인할 수 있도록 탭에서 이러한 메트릭을 유지하는 것이 좋습니다.
-
-![지난 7일간 사용량](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> Power BI Embedded 용량 사용량은 Azure Portal 내에서 모니터링됩니다.
-
-| 메트릭 | 설명 |
-| --- | --- |
-| CPU |CPU 사용률이 80%를 초과한 횟수입니다. |
-| 메모리 쓰래싱 |백 엔드 코어에 대한 메모리 압력을 나타냅니다. 특히 이는 여러 데이터 집합의 사용으로 인한 메모리 압력에 따라 데이터 집합이 메모리에서 제거된 횟수를 나타내는 메트릭입니다. |
-| 메모리 사용량 |GB(기가바이트)로 표시되는 평균 메모리 사용량입니다. |
-| DQ/s | 직접 쿼리 및 라이브 연결이 제한의 80%를 초과한 횟수입니다. <br> <br> * DirectQuery의 총 수를 제한하고 라이브 연결은 초당 쿼리합니다.<br><br>* 제한은 P1에 대해 30/s, P2에 대해 60/s 및 P3에 대해 120/s입니다.<br><br> * 직접 쿼리 및 라이브 연결 쿼리 수가 위의 제한에 추가됩니다. 예를 들어 초당 15개의 DirectQueries 및 15개의 라이브 연결이 있는 경우 스로틀에 도달합니다.<br/><br>* 이는 온-프레미스 및 클라우드 연결에 동일하게 적용됩니다. |
-
-메트릭은 지난 주 동안의 사용률을 반영합니다.  메트릭에 대한 자세한 보기를 보려면 요약 타일 중 하나를 클릭하면 됩니다.  그러면 프리미엄 용량의 각 메트릭에 대한 자세한 차트로 이동합니다.  이러한 차트는 지난 주에 대한 시간별로 요약되며, 프리미엄 용량에서 특정 성능 관련 이벤트가 발생한 경우를 격리하는 데 도움이 될 수 있습니다.  
-
-![자세한 CPU 사용 현황 차트](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![자세한 메모리 쓰래싱 사용 현황 차트](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![자세한 메모리 크기 사용 현황 차트](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![자세한 메모리 쓰래싱 사용 현황 차트](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-또한 메트릭 중 하나에 대한 기본 데이터를 csv 파일로 내보낼 수도 있습니다.  이 내보내기는 지난 주 매일 3분 간격으로 측정된 자세한 정보를 제공합니다.
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>용량에 작업 영역 할당
 용량에 작업 영역을 할당할 수 있는 몇 가지 방법이 있습니다.
@@ -193,6 +160,36 @@ Power BI 관리자 및 Office 365 전역 관리자와 함께 용량 관리자는
 5. **저장**을 선택합니다.
 
 저장한 후 작업 영역 및 모든 해당 콘텐츠는 최종 사용자에 대한 환경 중단 없이 프리미엄 용량으로 이동됩니다.
+
+
+## <a name="monitor-capacity-usage"></a>용량 사용량 모니터링
+각 용량에 대해 CPU, 메모리 사용량, 메모리 쓰래싱 및 직접 쿼리에 대한 사용량 측정을 볼 수 있습니다. 사용자가 용량에 대해 나은 성능을 확인할 수 있도록 탭에서 이러한 메트릭을 유지하는 것이 좋습니다.
+
+![지난 7일간 사용량](media/service-admin-premium-manage/premium-dashboard-tiles.png)
+
+> [!NOTE]
+> Power BI Embedded 용량 사용량은 Azure Portal 내에서 모니터링됩니다.
+
+| 메트릭 | 설명 |
+| --- | --- |
+| CPU |CPU 사용률이 80%를 초과한 횟수입니다. |
+| 메모리 쓰래싱 |백 엔드 코어에 대한 메모리 압력을 나타냅니다. 특히 이는 여러 데이터 집합의 사용으로 인한 메모리 압력에 따라 데이터 집합이 메모리에서 제거된 횟수를 나타내는 메트릭입니다. |
+| 메모리 사용량 |GB(기가바이트)로 표시되는 평균 메모리 사용량입니다. |
+| DQ/s | 직접 쿼리 및 라이브 연결이 제한의 80%를 초과한 횟수입니다. <br> <br> * DirectQuery의 총 수를 제한하고 라이브 연결은 초당 쿼리합니다.<br><br>* 제한은 P1에 대해 30/s, P2에 대해 60/s 및 P3에 대해 120/s입니다.<br><br> * 직접 쿼리 및 라이브 연결 쿼리 수가 위의 제한에 추가됩니다. 예를 들어 초당 15개의 DirectQueries 및 15개의 라이브 연결이 있는 경우 스로틀에 도달합니다.<br/><br>* 이는 온-프레미스 및 클라우드 연결에 동일하게 적용됩니다. |
+
+메트릭은 지난 주 동안의 사용률을 반영합니다.  메트릭에 대한 자세한 보기를 보려면 요약 타일 중 하나를 클릭하면 됩니다.  그러면 프리미엄 용량의 각 메트릭에 대한 자세한 차트로 이동합니다.  이러한 차트는 지난 주에 대한 시간별로 요약되며, 프리미엄 용량에서 특정 성능 관련 이벤트가 발생한 경우를 격리하는 데 도움이 될 수 있습니다.  
+
+![자세한 CPU 사용 현황 차트](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
+
+![자세한 메모리 쓰래싱 사용 현황 차트](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![자세한 메모리 크기 사용 현황 차트](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![자세한 메모리 쓰래싱 사용 현황 차트](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+또한 메트릭 중 하나에 대한 기본 데이터를 csv 파일로 내보낼 수도 있습니다.  이 내보내기는 지난 주 매일 3분 간격으로 측정된 자세한 정보를 제공합니다.
 
 ## <a name="what-premium-looks-like-for-users"></a>사용자에 대해 표시되는 프리미엄 모양
 대부분의 경우 사용자는 프리미엄 용량에 있다는 것을 알지 않아도 됩니다. 대시보드 및 보고서가 작동합니다. 시각적 힌트로 프리미엄 용량에 있는 작업 영역 옆에 다이아몬드 아이콘이 표시됩니다.
