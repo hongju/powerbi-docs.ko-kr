@@ -898,6 +898,8 @@
       items:
         - name: 고객용 콘텐츠 포함
           href: developer/embed-sample-for-customers.md
+        - name: 조직용 콘텐츠 포함
+          href: developer/embed-sample-for-your-organization.md
     - name: 개념
       items:
         - name: Power BI REST API 사용
@@ -934,12 +936,8 @@
               href: developer/embedding.md
             - name: 콘텐츠를 포함하는 방법
               href: developer/embedding-content.md
-            - name: 앱에 대시보드 통합(사용자 소유 데이터)
-              href: developer/integrate-dashboard.md
-            - name: 앱에 Power BI 타일 통합(사용자 소유 데이터)
-              href: developer/integrate-tile.md
-            - name: 앱에 Power BI 보고서 통합(사용자 소유 데이터)
-              href: developer/integrate-report.md
+            - name: 앱에서 포함하는 방법
+              href: developer/embed-from-apps.md
             - name: 소버린 클라우드용 응용 프로그램에 콘텐츠 통합(앱 소유 데이터)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: 앱에 사용자 지정 레이아웃 포함
