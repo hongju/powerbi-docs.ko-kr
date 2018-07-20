@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34553568"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032051"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -84,7 +84,7 @@ SharePoint Online에 보고서를 포함시키는 것이 사용자에게 보고�
 > [!IMPORTANT]
 > Power BI 서비스 내에서 보고서를 볼 수 있는 사람이 누구인지 확인하고 목록에 없는 사람에게 액세스 권한을 부여합니다.
 
-Power BI 서비스 내에서 보고서에 액세스 권한을 부여하는 방법에는 두 가지가 있습니다. SharePoint Online 팀 사이트를 만들기 위해 Office 365 그룹을 사용하는 경우 사용자를 Power BI 서비스 내 앱 작업 영역 그룹의 구성원으로 목록에 나열합니다. 그러면 사용자가 해당 그룹의 콘텐츠를 볼 수 있게 됩니다. 자세한 내용은 [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md)를 참조하십시오.
+Power BI 서비스 내에서 보고서에 액세스 권한을 부여하는 방법에는 두 가지가 있습니다. Office 365 그룹을 사용하여 SharePoint Online 팀 사이트를 빌드하는 경우 사용자를 **Power BI 서비스 내 앱 작업 영역** 및 **SharePoint 페이지**의 구성원으로 나열합니다. 그러면 사용자가 해당 그룹의 콘텐츠를 볼 수 있게 됩니다. 자세한 내용은 [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md)를 참조하십시오.
 
 또는 다음을 수행하여 사용자에게 보고서 액세스 권한을 부여할 수 있습니다.
 
@@ -129,7 +129,7 @@ Power BI 웹 파트 내에서 보고서가 로드되지 않고 다음과 같은 
 
 ## <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 
-* **오류: "An error occurred, please try logging out and back in and then revisiting this page.(오류가 발생했습니다. 로그아웃했다가 다시 로그인한 후 이 페이지를 다시 방문하세요.) 관련 ID: 정의되지 않음, http 응답 상태: 400, 서버 오류 코드 10001, 메시지: 누락된 새로 고침 토큰"**
+* 오류: "An error occurred, please try logging out and back in and then revisiting this page.(오류가 발생했습니다. 로그아웃했다가 다시 로그인한 후 이 페이지를 다시 방문하세요.) 관련 ID: 정의되지 않음, http 응답 상태: 400, 서버 오류 코드 10001, 메시지: 누락된 새로 고침 토큰"
   
   이 오류가 발생한 경우 다음 중 한 가지를 시도하세요.
   
@@ -154,5 +154,4 @@ Power BI 웹 파트 내에서 보고서가 로드되지 않고 다음과 같은 
 [동료 및 다른 사용자와 대시보드 공유](service-share-dashboards.md)  
 [Power BI 프리미엄이란?](service-premium.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/) 
-
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

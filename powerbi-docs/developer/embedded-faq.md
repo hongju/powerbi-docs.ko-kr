@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599953"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032074"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -76,7 +76,7 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 |  |A SKU(Power BI Embedded)  |EM SKU(Power BI Premium)  |P SKU(Power BI Premium)  |
 |---------|---------|---------|---------|
 |구입     |Azure Portal |Office |Office |
-|사용 사례 |* 자체 응용 프로그램에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* PowerBI.com 외부의 Power BI FREE 사용자와 콘텐츠를 공유하고 다른 SaaS 응용 프로그램(SharePoint, [Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/))에 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* PowerBI.com 외부의 Power BI FREE 사용자와 콘텐츠를 공유하고 다른 SaaS 응용 프로그램(SharePoint, Teams)에 포함<br>* PowerBI.com을 통해 Power BI FREE 사용자와 콘텐츠 공유  |
+|사용 사례 |* 자체 응용 프로그램에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* 기타 SaaS 응용 프로그램([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [팀](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* 기타 SaaS 응용 프로그램([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [팀](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))에 콘텐츠 포함<br>* [Power BI 서비스](https://powerbi.microsoft.com/en-us/)를 통해 Power BI 사용자와 콘텐츠 공유  |
 |청구 |시간별 |매월 |매월 |
 |약정  |약정 없음 |매년  |매월/매년 |
 |차별화 |탁월한 탄력성 - Azure Portal에서 또는 API를 통해 리소스를 강화/규모 축소, 일시 중지/다시 시작 가능  |SharePoint Online 및 Microsoft Teams에 콘텐츠를 포함하는 데 사용 가능 |응용 프로그램에 포함 및 Power BI 서비스 사용을 동일한 용량에 결합 |

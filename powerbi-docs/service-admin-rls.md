@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 01/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 89ffa4c644005b53c263bef4535628dd603f1f6d
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: cd68b265fafa2d16defb5bce43be6cdf5c403f03
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924658"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032097"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI를 사용하는 행 수준 보안(RLS)
-Power BI를 사용하는 행 수준 보안(RLS)은 지정된 사용자에 데이터 액세스를 제한하는 데 사용됩니다. 행 수준에서 데이터 제한을 필터링합니다. 역할 내에서 필터를 정의할 수 있습니다.
+Power BI를 사용하는 행 수준 보안(RLS)은 지정된 사용자에 데이터 액세스를 제한하는 데 사용됩니다. 필터는 행 수준에서 데이터 액세스를 제한하고 역할 내에서 필터를 정의할 수 있습니다. Power BI 서비스에서 작업 영역의 구성원은 작업 영역의 데이터 집합에 액세스할 수 있습니다. RLS는 이 데이터 액세스를 제한하지 않습니다. 
 
 Power BI Desktop으로 Power BI로 가져온 데이터 모델에 대한 RLS를 구성할 수 있습니다. SQL Server와 같은 DirectQuery를 사용하는 데이터 집합에서 RLS를 구성할 수도 있습니다. 이전에는 Power BI 외부의 온-프레미스 Analysis Services 모델 내에서 RLS를 구현할 수만 있었습니다. Analysis Services 라이브 연결의 경우 온-프레미스 모델에서 행 수준 보안을 구성합니다. 라이브 연결 데이터 집합에 보안 옵션이 표시되지 않습니다.
 
