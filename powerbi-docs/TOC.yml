@@ -1021,7 +1021,9 @@
             - name: Power BI API로 무엇을 할 수 있나요?
               href: developer/overview-of-power-bi-rest-api.md
         - name: 자습서
-          items: null
+          items:
+            - name: 데이터 집합에 데이터 푸시
+              href: developer/walkthrough-push-data.md
         - name: 개념
           items:
             - name: 실시간 데이터에 대한 자동 보존 정책
@@ -1036,8 +1038,6 @@
                   href: developer/api-data-model-versioning.md
         - name: 방법
           items:
-            - name: 데이터 집합에 데이터 푸시
-              href: developer/walkthrough-push-data.md
             - name: Azure AD에 앱 등록
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: 인증 액세스 토큰 가져오기
