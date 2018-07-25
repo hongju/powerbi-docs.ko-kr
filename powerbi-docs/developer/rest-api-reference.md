@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 638b46d681a9a9e7ef7754a4e28d0e94812ef8de
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96675f8e96eef84a10684487f652c872405bf037
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812356"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157151"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API 참조
 Power BI는 사용자 지정 대시보드 응용 프로그램을 구축하는 데 사용할 수 있는 클라우드 기반 서비스입니다. Power BI REST API는 Power BI에서 **데이터 집합** , **테이블**, **행**등의 **대시보드** 리소스에 프로그래밍 방식의 액세스 권한을 제공하는 REST 기반 API입니다.
@@ -31,4 +31,3 @@ Power BI REST API는 다음과 같은 작업을 제공합니다.
 Power BI REST API에 대한 자세한 내용은 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 참조하세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-
