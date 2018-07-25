@@ -530,6 +530,12 @@
       items:
         - name: 최신 Power BI Desktop 업데이트의 새로운 기능
           href: desktop-latest-update.md
+        - name: Power BI Desktop의 복합 모델(미리 보기)
+          href: desktop-composite-models.md
+        - name: Power BI Desktop의 다 대 다 관계(미리 보기)
+          href: desktop-many-to-many-relationships.md
+        - name: Power BI Desktop의 저장소 모드(미리 보기)
+          href: desktop-storage-mode.md
         - name: Power BI Desktop에서 양방향 교차 필터링(미리 보기)
           href: desktop-bidirectional-filtering.md
         - name: Power BI 및 DirectQuery
@@ -670,6 +676,8 @@
               href: desktop-import-and-display-kpis.md
         - name: 보고서 만들기
           items:
+            - name: 보고서에 대한 시각적 요소
+              href: desktop-visual-elements-for-reports.md
             - name: Power BI Desktop의 Q&A
               href: desktop-qna-in-reports.md
             - name: Power BI Desktop의 분석 창
@@ -1244,6 +1252,8 @@
               href: service-premium-large-datasets.md
             - name: 증분 새로 고침
               href: service-premium-incremental-refresh.md
+            - name: 다중 지역 지원(미리 보기)
+              href: service-admin-premium-multi-geo.md
             - name: Power BI 프리미엄 FAQ
               href: service-premium-faq.md
             - name: Power BI 프리미엄 릴리스 정보
