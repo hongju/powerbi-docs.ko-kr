@@ -577,8 +577,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 * Power BI의 "일반 공급"(GA) 릴리스가 공개되었음을 알려드립니다. [Power BI Pro](service-self-service-signup-for-power-bi.md)에 지금 등록합니다. GA 릴리스의 일부로서, 몇 가지 멋진 새로운 기능을 제공하려 합니다.
 * 새 시각화 요소 및 보고서 작성 환경: 새 보고 캔버스에는 시각화를 더 다양하게 선택하고 제목, 범례, 축, 색상, 배경 등의 서식 지정에 대해 더욱 세밀하게 제어할 수 있습니다.
-* 
-  [Power BI 그룹](service-create-distribute-apps.md): Office 365 그룹을 기반으로 하는 강력한 공동 작업 환경을 제공합니다.
+* [Power BI 그룹](service-create-distribute-apps.md): Office 365 그룹을 기반으로 하는 강력한 공동 작업 환경을 제공합니다.
 * [조직 콘텐츠 팩](service-organizational-content-pack-introduction.md): Power BI를 사용 하여 대시보드 및 보고서를 매우 간단하게 만들 수 있고, 사용자가 이 콘텐츠를 조직 콘텐츠 갤러리에 게시할 수 있게 되었습니다.
 * [전체 Excel 파일 가져오기](service-excel-workbook-files.md): Excel Online에서 하듯 비즈니스용 OneDrive에 저장된 Excel 통합 문서를 Power BI에 가져와 전체 통합 문서를 볼 수 있습니다.
 * [CSV 파일 가져오기](service-get-data-from-files.md): Excel 또는 Power BI 데스크톱 파일처럼 쉼표로 구분된 값 텍스트(CSV) 파일은 Power BI 대시보드 및 보고서용 데이터 집합이 될 수도 있습니다.
@@ -588,8 +587,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 **2015년 7월 14일**
 
 * Acumatica Cloud ERP는 강력하고 유연한 플랫폼에서 제공되는 재무, 배포, CRM 및 프로젝트 회계 등 완전 통합 비즈니스 관리 응용 프로그램 제품군을 제공합니다. Power BI [Acumatica 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)을 사용하면 신속하게 연결하고 기회 데이터에 대한 이해력을 즉각적으로 넓힐 수 있습니다. 이 콘텐츠에는 날짜별로 획득한 총 기회 수 등과 같은 세부 정보를 탐색하고 제공하기 위해 기본 제공된 대시보드, 일련의 보고서, 큐레이트 데이터 집합이 있습니다. 자세한 내용은 [여기](service-connect-to-acumatica.md)를 읽어보세요. 
-* 
-  [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx)는 이제 완전히 관리되는 Spark 서비스를 제공합니다. 이 기능을 통해 반복적인 기계 학습과 대화형 데이터 분석 등의 시나리오를 구성할 수 있게 되었습니다. Power BI를 통해 간단한 실시간 탐색을 제공하는 HDInsight의 Spark의 데이터에 직접 연결할 수 있습니다. 자세한 내용은 [도움말 설명서](spark-on-hdinsight-with-direct-connect.md)를 읽어보세요.
+* [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx)는 이제 완전히 관리되는 Spark 서비스를 제공합니다. 이 기능을 통해 반복적인 기계 학습과 대화형 데이터 분석 등의 시나리오를 구성할 수 있게 되었습니다. Power BI를 통해 간단한 실시간 탐색을 제공하는 HDInsight의 Spark의 데이터에 직접 연결할 수 있습니다. 자세한 내용은 [도움말 설명서](spark-on-hdinsight-with-direct-connect.md)를 읽어보세요.
 * [Office 365 탐색 및 응용 프로그램 시작 관리자 통합](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher) 이제 한 번의 클릭으로 Office 365 응용 프로그램 모두를 탐색할 수 있습니다.
 * 타일을 클릭할 때 사용자가 탐색하는 [사용자 지정 URL 지정](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url) 이제 특정 보고서, 다른 대시보드, SSRS 보고서 또는 외부 웹사이트 등 사용자가 이동하는 곳을 정확하게 제어할 수 있게 되었습니다. 
 * Power BI에서 사용하는 [저장소의 표시 유형 및 관리](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
@@ -607,8 +605,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 * Power BI Desktop 파일은 Power BI 서비스에 업로드할 때 [새로 고칠](http://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx) 수 있습니다(예약된 새로 고침 및 지금 새로 고침).
 * 12월 이후 시각적으로 가장 크게 변화된 Power BI 버전을 공개합니다. [데이터 가져오기](http://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx)에 대한 환경이 더욱 깔끔하고 단순해졌습니다.  데이터 가져오기를 클릭하면 범주를 선택할 수 있는 단일 화면이 표시됩니다. 이를 통해 문제가 되는 콘텐츠를 쉽게 찾을 수 있습니다.
-* 
-  [Azure SQL 데이터 웨어하우스](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx)는 유연한 배율과 대규모 병렬 처리를 제공합니다. 오늘 발표된 제한된 공용 미리 보기가 있는 Power BI를 통해 Azure SQL 데이터 웨어하우스에 저장된 데이터에 직접 연결하여 간편하게 동적으로 탐색할 수 있습니다. 데이터 웨어하우스에 연결한 후 쿼리는 실시간으로 생성되고 데이터를 탐색할 때 소스로 다시 전송됩니다. 이는 사용자 지정 데이터 모델을 만들어 업로드할 필요가 없으며 데이터를 대화형으로 탐색할 수 있습니다.
+* [Azure SQL 데이터 웨어하우스](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx)는 유연한 배율과 대규모 병렬 처리를 제공합니다. 오늘 발표된 제한된 공용 미리 보기가 있는 Power BI를 통해 Azure SQL 데이터 웨어하우스에 저장된 데이터에 직접 연결하여 간편하게 동적으로 탐색할 수 있습니다. 데이터 웨어하우스에 연결한 후 쿼리는 실시간으로 생성되고 데이터를 탐색할 때 소스로 다시 전송됩니다. 이는 사용자 지정 데이터 모델을 만들어 업로드할 필요가 없으며 데이터를 대화형으로 탐색할 수 있습니다.
 
 **2015년 6월 16일**
 
