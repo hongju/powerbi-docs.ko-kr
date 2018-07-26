@@ -89,7 +89,7 @@ DAX는 다음과 같은 **날짜** 함수를 포함합니다.
 
 이러한 함수는 *날짜* 값에서 정보를 추출하고 계산하는 데 유용하지만 날짜 테이블을 사용하는 시간 인텔리전스에 적용되지 않습니다.
 
-> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)의 비디오 콘텐츠 출처
+> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)의 비디오 콘텐츠 출처
 > 
 > 
 

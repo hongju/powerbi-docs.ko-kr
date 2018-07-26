@@ -15,7 +15,7 @@ DAX 함수를 사용하여 열의 값을 반환하거나 관계의 모든 행을
 
 관계형 함수를 사용하여 여러 테이블의 값을 포함하는 식을 작성할 수 있습니다. DAX는 관계의 체인 길이에 상관없이 이러한 함수를 사용하여 결과를 반환합니다.
 
-> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)의 비디오 콘텐츠 출처
+> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)의 비디오 콘텐츠 출처
 > 
 > 
 

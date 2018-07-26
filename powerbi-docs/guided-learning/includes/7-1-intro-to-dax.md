@@ -3,7 +3,7 @@
 **DAX**는 **데이터 분석 식**의 약자로 Power BI 전체에서 사용되는 수식 언어입니다(Power BI 숨은 기능에서도 사용함). 또한 DAX는 Powerpivot과 SSAS 테이블 형식과 같은 Microsoft의 다른 제품에도 있지만 단계별 학습의 이 컬렉션은 DAX를 사용하는 방법 및 Power BI에서 사용자가 사용할 수 있는 방법에 중점을 둡니다.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX 및 단계별 학습 비디오 시리즈
-이 **단계별 학습** 섹션의 목표는 유명한 DAX 전문가인 [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)가 설명한(그리고 경험으로 학습한) DAX에 대해 인지하는 방법, 작동 방법 및 가장 유용한 기능과 같은 DAX 기본 사항 및 기본 항목을 알려주는 것입니다.
+이 **단계별 학습** 섹션의 목표는 유명한 DAX 전문가인 [Alberto Ferrari](http://www.sqlbi.com/learning-dax)가 설명한(그리고 경험으로 학습한) DAX에 대해 인지하는 방법, 작동 방법 및 가장 유용한 기능과 같은 DAX 기본 사항 및 기본 항목을 알려주는 것입니다.
 
 ![Alberto Ferrari의 초상화](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 

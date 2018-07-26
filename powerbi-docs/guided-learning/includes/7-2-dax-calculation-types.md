@@ -57,7 +57,7 @@ DAX를 사용하여 만들 수 있는 두 가지 기본 계산이 있습니다.
 * 새 측정값 이름
 * 하나 이상의 함수 또는 식
 
-> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)의 비디오 콘텐츠 출처
+> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)의 비디오 콘텐츠 출처
 > 
 > 
 

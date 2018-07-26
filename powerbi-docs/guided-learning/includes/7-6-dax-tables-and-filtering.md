@@ -34,7 +34,7 @@ Power BI 보고서 작성기가 대답을 원하는 한 가지 일반적인 질�
 
 DAX 함수를 사용하여 전체 계산 테이블을 만들 수도 있습니다. DAX를 사용하여 만든 계산 테이블에는 **NAME** 및 **TABLE** 함수가 필요합니다. 계산 테이블은 관계를 설정하는 등 다른 테이블처럼 사용할 수 있습니다.
 
-> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)의 비디오 콘텐츠 출처
+> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)의 비디오 콘텐츠 출처
 > 
 > 
 

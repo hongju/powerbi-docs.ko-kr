@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a656866b1c9cdc0d1eb83b67c0edf79c182d1a71
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 596d399e7c304d40be5b7839c5c16060eb9e8155
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244436"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39255989"
 ---
 # <a name="azure-and-power-bi"></a>Azure 및 Power BI
 **Azure** 서비스 및 **Power BI**를 사용하면 비즈니스를 실시간으로 파악하는 분석 및 보고서로 데이터 처리 활동을 전환할 수 있습니다. 데이터 처리가 클라우드 기반인지 아니면 온-프레미스인지 여부, 간단한지 복잡한지 여부, 단일 원본에서 얻었는지 아니면 대규모로 확장되었는지 여부, 웨어하우스인지 아니면 실시간인지에 따라 Azure 및 Power BI는 기본 제공 연결 및 통합 비즈니스 인텔리전스 활동에 활기를 불어넣습니다.
@@ -52,7 +52,7 @@ Azure와 Power BI를 사용하여 필요한 만큼 확장할 수 있습니다. �
 ### <a name="connect-your-app-data-using-power-bi-apis"></a>Power BI API를 사용하여 앱 데이터 연결
 Power BI를 사용하여 기존 앱에 대해 파악할 수도 있습니다. Power BI API를 통해 응용 프로그램 개발자는 프로그래밍 방식으로 전체 데이터 집합을 Power BI로 보낼 수 있습니다. 연속 업데이트가 필요하세요? Power BI API를 통해 개발자는 실시간 데이터 업데이트를 보내어 빠르게 시작한 다음 확장 요구 사항을 늘릴 가치가 있는 경우 Azure Stream Analytics 사용을 늘릴 수 있습니다.
 
-[Power BI 개발자 포털](http://dev.powerbi.com)에는 Power BI API에 대한 많은 정보가 있습니다. [Power BI 개발자 블로그](http://blogs.msdn.com/powerbidev)에서 Power BI를 사용하여 프로그래밍 방식으로 수행할 수 있는 작업에 대해서도 알아볼 수 있습니다. 또한 [Power BI 개발 시작하기](https://msdn.microsoft.com/library/dn889824.aspx)에 대한 전용 페이지가 있습니다.
+[Power BI 개발자 포털](http://dev.powerbi.com)에는 Power BI API에 대한 많은 정보가 있습니다. 
 
 ### <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure 및 Power BI로 수행할 수 있는 작업은 무엇인가요?
 **Azure** 및 **Power BI**를 결합할 수 있는 모든 종류의 시나리오가 있습니다. 여기서 가능성 및 기회는 비즈니스만큼 고유합니다. **Azure 서비스**에 대한 자세한 내용은 **Azure를 사용한 데이터 분석 시나리오**를 설명하는 이 [개요 페이지](http://go.microsoft.com/fwlink/?LinkId=535031&clcid=0x409)에서 확인하고, 데이터 소스를 인텔리전스로 변환하는 방법을 알아봅니다.
