@@ -804,6 +804,8 @@
           href: desktop-data-types.md
         - name: Power BI Desktop 개인 정보 수준
           href: desktop-privacy-levels.md
+        - name: Power BI에서 커넥터 확장성
+          href: desktop-connector-extensibility.md
     - name: 리소스
       items:
         - name: Power BI Desktop 동영상
