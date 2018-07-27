@@ -10,10 +10,10 @@ ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
 ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 07/27/2018
 ms.locfileid: "34295770"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>빠른 시작: Power BI 모바일 앱에서 대시보드 및 보고서 살펴보기
