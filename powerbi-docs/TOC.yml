@@ -682,8 +682,10 @@
               href: desktop-qna-in-reports.md
             - name: Power BI Desktop의 분석 창
               href: desktop-analytics-pane.md
-            - name: Power BI Desktop에서 정보 사용
+            - name: 인사이트를 사용하여 증가와 감소 설명
               href: desktop-insights.md
+            - name: 인사이트를 사용하여 차트에서 배포가 다른 곳 찾기
+              href: desktop-insights-find-where-different.md
             - name: Power BI의 책갈피
               href: desktop-bookmarks.md
             - name: 보고서 테마 사용

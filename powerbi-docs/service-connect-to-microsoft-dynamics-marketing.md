@@ -35,7 +35,7 @@ Power BI용 [Dynamics 마케팅 콘텐츠 팩](https://app.powerbi.com/getdata/s
 3. **Microsoft Dynamics 마케팅** \> **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. 계정과 연결된 OData URL을 제공합니다.  "https://[instance\_name].marketing.dynamics.com/analytics" 형식입니다.
+4. 계정과 연결된 OData URL을 제공합니다.  "https:// [instance\_name].marketing.dynamics.com/analytics" 형식입니다.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. 메시지가 표시되면 자격 증명을 제공합니다(브라우저를 사용하여 이미 로그인한 경우 이 단계를 건너뛸 수 있음). 인증 방법에 대해 **oAuth2** 를 입력하고 **로그인**을 클릭합니다.
@@ -54,7 +54,7 @@ Power BI용 [Dynamics 마케팅 콘텐츠 팩](https://app.powerbi.com/getdata/s
 
 ## <a name="system-requirements"></a>시스템 요구 사항
 * Dynamics 마케팅 인스턴스에 대한 유효한 OData URL을 지정해야 합니다(콘텐츠 팩은 온-프레미스 CRM 버전에서 작동하지 않음).  
-* 관리자가 사이트 설정에서 OData 끝점을 사용하도록 설정해야 합니다. **조직 데이터 서비스** 섹션의 **홈 \> 설정 \> 사이트 설정**으로 이동하여 OData 끝점의 주소를 찾을 수 있습니다.  OData URL의 형식은 다음과 같습니다. https://[instance\_name].marketing.dynamics.com/analytics  
+* 관리자가 사이트 설정에서 OData 끝점을 사용하도록 설정해야 합니다. **조직 데이터 서비스** 섹션의 **홈 \> 설정 \> 사이트 설정**으로 이동하여 OData 끝점의 주소를 찾을 수 있습니다.  OData URL의 형식은 다음과 같습니다. https:// [instance\_name].marketing.dynamics.com/analytics  
 * Microsoft Dynamics 마케팅에 액세스하는 데 사용하는 사용자 계정/ID는 Power BI에 사용하기 위해 등록한 것과 같아야 합니다. Microsoft Dynamics 마케팅에 로그인할 때 Power BI에 사용하는 것과 동일한 ID로 자동 로그인됩니다. 다른 계정으로 Microsoft Dynamics 마케팅에 로그인하려는 경우 다른 계정을 사용하는 Power BI 사용자로 등록하세요. 예정된 릴리스에서 이 문제가 해결되기를 바랍니다.   
 
 ## <a name="troubleshooting"></a>문제 해결
