@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: 7149fd43d4214ed756eff61a523805ec9f50e1ae
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182728"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280780"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -185,7 +185,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 
 **새 메뉴: 앱** 앱은 더 빠르고 쉬운 데이터 기반 결정을 위한 핵심 메트릭을 제공하기 위해 조직에서 작성한 대시보드 및 보고서 컬렉션입니다.
 
-[Power BI 콘텐츠가 구성되는 방식](mobile-apps-find-content-mobile-devices.md)에 대해 자세히 알아봅니다.
+[Power BI 콘텐츠가 구성되는 방식](mobile-apps-quickstart-view-dashboard-report.md)에 대해 자세히 알아봅니다.
 
 #### <a name="ios-and-android-devices"></a>iOS 및 Android 장치
 **Power BI Report Server 미리 보기** 온-프레미스에서 Power BI 보고서를 만들고 게시합니다. 그런 다음 [iOS 또는 Android 모바일 장치에서 보고 상호 작용합니다](mobile-app-ssrs-kpis-mobile-on-premises-reports.md). 
@@ -241,7 +241,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 이제 최대 5개의 SQL Server Reporting Services(SSRS) 서버에 동시에 연결할 수 있습니다.
 
 #### <a name="android-tablets"></a>Android 태블릿
-이제 전 세계에서 Android 태블릿용 **Power BI 모바일 앱**을 사용할 수 있습니다. [Android 태블릿에서 Power BI](mobile-android-tablet-app-get-started.md)를 시작합니다.
+이제 전 세계에서 Android 태블릿용 **Power BI 모바일 앱**을 사용할 수 있습니다. [Android 태블릿에서 Power BI](mobile-android-app-get-started.md)를 시작합니다.
 
 #### <a name="ios-and-android-devices"></a>iOS 및 Android 장치
 **대시보드 타일의 새 메뉴** 대시보드의 타일에 있는 메뉴에서 직접 원본 보고서로 이동하거나 타일을 확장하거나 경고를 관리하세요. 
@@ -304,7 +304,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 #### <a name="android-tablets"></a>Android 태블릿
 **Android 태블릿용 Power BI 모바일 앱** 예. 미리 보기는 여기에 있습니다.
 
-* [Android 태블릿에서 Power BI](mobile-android-tablet-app-get-started.md) 경험해보기
+* [Android 태블릿에서 Power BI](mobile-android-app-get-started.md) 경험해보기
 * [Android 태블릿에서 Reporting Services 모바일 보고서 및 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) 탐색
 
 #### <a name="android-devices"></a>Android 장치
@@ -498,7 +498,7 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 
 **R 타일 및 웹 위젯** 모바일 장치의 대시보드에서 이러한 새 타일 유형을 볼 수 있습니다.
 
-**Bing 대시보드** 이제 Power BI 서비스에서 [Bing 검색 결과로 대시보드](service-connect-to-bing.md)를 만든 후 모바일 장치에서 볼 수 있습니다.
+**Bing 대시보드** 이제 Power BI 서비스에서 [Bing 검색 결과로 대시보드](service-connect-to-services.md)를 만든 후 모바일 장치에서 볼 수 있습니다.
 
 **대시보드에 타일로 고정되는 보고서 페이지** 이제 Power BI 서비스의 대시보드에 전체 보고서 페이지를 고정할 수 있어, iPhone 또는 Android 휴대폰의 Power BI 앱에서 보고서 페이지를 볼 수 있습니다.
 

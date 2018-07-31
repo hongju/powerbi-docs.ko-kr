@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/11/2017
 ms.author: maghan
-ms.openlocfilehash: 339390bba2e35101bdd42f7f51ab059473231575
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 51ad188479c11f5a0d16768eee8c533bdc71c59c
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290893"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359935"
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>사용자를 인증하고 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기
 Power BI 응용 프로그램 내에서 사용자를 인증하고 REST API와 함께 사용할 액세스 토큰을 검색할 수 있는 방법을 알아봅니다.
@@ -190,7 +190,6 @@ var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "B
 **Await** 사용에 대한 자세한 내용은 [await (C# 참조)](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/await)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
-이제 액세스 토큰을 가졌으므로, 콘텐츠를 포함하기 위해 Power BI REST API를 호출할 수 있습니다. 콘텐츠를 포함하는 방법에 대한 정보는 [Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embedding-content.md#step-2-embed-your-content)을 참조하세요.
+이제 액세스 토큰을 가졌으므로, 콘텐츠를 포함하기 위해 Power BI REST API를 호출할 수 있습니다. 콘텐츠를 포함하는 방법에 대한 정보는 [Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embed-sample-for-customers.md#embed-your-content-within-your-application)을 참조하세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-
