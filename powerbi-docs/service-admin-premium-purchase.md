@@ -47,8 +47,7 @@ Power BI 프리미엄에 대한 자세한 내용은 [Power BI 프리미엄이란
    
     ![](media/service-admin-premium-purchase/o365-app-picker.png)
 2. **청구** > **서비스 구입**을 선택합니다.
-3. 
-  **기타 계획** 아래에서 Power BI 프리미엄 제안을 찾습니다. P1~P3, EM3 및 P1(매월)로 나열됩니다.
+3. **기타 계획** 아래에서 Power BI 프리미엄 제안을 찾습니다. P1~P3, EM3 및 P1(매월)로 나열됩니다.
 4. **줄임표(...)** 를 마우스로 가리키고 **지금 구입**을 선택합니다.
    
     ![](media/service-admin-premium-purchase/premium-purchase.png)

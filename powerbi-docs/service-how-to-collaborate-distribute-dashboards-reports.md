@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249508"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280458"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI에서 공동 작업하고 공유하려면 어떻게 해야 하나요?
 
@@ -75,7 +75,7 @@ iOS 및 Android 장치용 Power BI 모바일 앱에서 타일, 보고서 또는 
 
 iOS 및 Android 모바일 앱에서 [타일, 보고서 및 시각적 개체 주석 달기 및 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)에 대해 자세히 알아보세요.
 
-또한 Windows 10 장치용 Power BI 앱에서 [타일의 스냅숏을 공유](mobile-share-tile-windows-10-phone-app.md)할 수 있습니다.
+또한 Windows 10 장치용 Power BI 앱에서 [타일의 스냅숏을 공유](mobile-windows-10-phone-app-get-started.md)할 수 있습니다.
 
 ## <a name="publish-to-the-web"></a>웹에 게시
 Power BI 보고서는 어떤 장치에서든 블로그 게시물, 웹 사이트, 소셜 미디어 및 기타 온라인 통신에 대화형 시각화를 포함하여 전체 인터넷에 게시할 수 있습니다. 보고서는 인터넷 상의 누구든지 볼 수 있으며, 자신이 게시한 것을 볼 수 있는 사람을 제어할 수는 없습니다. 보는 사람은 Power BI 라이선스가 필요하지 않습니다. 자신이 편집할 수 있는 보고서만 웹에 게시할 수 있습니다. 자신과 공유되지 않았거나 앱에 없는 보고서는 웹에 게시할 수 없습니다. [웹에 게시](service-publish-to-web.md)에 대한 자세한 내용을 알아보세요.

@@ -50,10 +50,8 @@ Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.
 
 다음과 같은 추가 온라인 옵션을 찾아볼 수 있습니다.
 
-* 
-  **edX.org**는 무료 과정인 [Power BI로 데이터 분석 및 시각화](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)를 제공합니다.
-* 
-  **Lynda.com**은 [Power BI Pro 필수 교육](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)과 같은 과정을 제공합니다.
+* **edX.org**는 무료 과정인 [Power BI로 데이터 분석 및 시각화](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)를 제공합니다.
+* **Lynda.com**은 [Power BI Pro 필수 교육](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)과 같은 과정을 제공합니다.
 * "**Dashboard in a Day**"교육 세션에 직접 참여해보세요.
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7 Power BI 커뮤니티에서 질문 또는 검색

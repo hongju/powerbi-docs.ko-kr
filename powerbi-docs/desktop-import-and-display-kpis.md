@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c077f64554101b97469dffc40b41ed3b1e8211cd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9729791aa513db6daa4ccfd65f5279f198ef08de
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291308"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327042"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>Power BI에서 KPI 가져오기 및 표시
 **Power BI Desktop**을 사용하면 테이블, 행렬 및 카드에서 KPI를 가져오고 표시할 수 있습니다.

@@ -9,20 +9,20 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 8b7c46ad1e9ea9c4c79a8f5a1b48c73ab3336306
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 02c4725617960474cff7a9a1452861d1ab5d5b8d
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157571"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290878"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI에서 템플릿 콘텐츠 팩 작성
 템플릿 콘텐츠 팩 작성 시에는 Power BI Desktop 및 PowerBI.com을 사용합니다. 콘텐츠 팩에는 네 가지 구성 요소가 있습니다.
 
-* 쿼리를 사용하면 데이터를 [연결](desktop-connect-to-data.md) 및 [변환](desktop-query-overview.md)할 수 있으며 [매개 변수](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)도 정의할 수 있습니다.  
-* 데이터 모델로 [관계](desktop-create-and-manage-relationships.md), [측정값](desktop-measures.md) 및 Q&A 개선을 만들 수 있습니다.  
-* 보고서 [페이지](desktop-report-view.md)는 데이터에 대한 정보를 제공하는 시각적 개체 및 필터가 포함됩니다.  
-* [대시보드](service-dashboards.md) 및 [타일](service-dashboard-create.md)은 포함된 Insights에 대한 개요를 제공합니다.  
+* 쿼리를 사용하면 데이터를 [연결](../desktop-connect-to-data.md) 및 [변환](../desktop-query-overview.md)할 수 있으며 [매개 변수](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)도 정의할 수 있습니다.  
+* 데이터 모델로 [관계](../desktop-create-and-manage-relationships.md), [측정값](../desktop-measures.md) 및 Q&A 개선을 만들 수 있습니다.  
+* 보고서 [페이지](../desktop-report-view.md)는 데이터에 대한 정보를 제공하는 시각적 개체 및 필터가 포함됩니다.  
+* [대시보드](../service-dashboards.md) 및 [타일](../service-dashboard-create.md)은 포함된 Insights에 대한 개요를 제공합니다.  
 
 기존 Power BI 기능으로 각 구성 요소에 익숙할 수 있습니다. 콘텐츠 팩을 빌드할 때는 각 측면에 대해 추가 고려 사항이 있습니다. 자세한 내용은 아래 각 섹션을 참조하세요.
 
@@ -40,8 +40,8 @@ API에 연결하려면 Power BI Desktop에서 바로 사용할 수 있는 데이
 
 > [!NOTE]
 > API가 OAuth 2.0 또는 웹 API 키와 같은 다른 인증 유형을 사용하는 경우 Power BI Desktop이 성공적으로 API에 연결하고 인증하도록 사용자 고유의 데이터 커넥터를 개발해야 합니다. 콘텐츠 팩에 대한 고유한 데이터 커넥터를 개발하는 방법에 대한 내용은 [여기](https://aka.ms/DataConnectors)에서 데이터 커넥터 설명서를 참조하세요. 
->
->
+> 
+> 
 
 ### <a name="consider-the-source"></a>소스 고려
 쿼리는 데이터 모델에 포함될 데이터를 정의합니다. 시스템의 크기에 따라 이러한 쿼리는 고객이 비즈니스 시나리오에 따라 관리하기 쉬운 크기를 처리하도록 해주는 필터도 포함합니다.
@@ -56,24 +56,22 @@ Power BI Desktop에서 [매개 변수](https://powerbi.microsoft.com/blog/deep-d
 
 > [!NOTE]
 > 템플릿 콘텐츠 팩에서는 현재 텍스트 매개 변수만 지원합니다. 개발 중에 다른 매개 변수 형식을 사용할 수 있지만 [테스트](template-content-pack-testing.md#templates) 부분 중에는 사용자가 제공한 모든 값이 리터럴입니다.
->
->
+> 
+> 
 
 ### <a name="additional-query-tips"></a>추가 쿼리 팁
-
-* 모든 열은 적절하게 형식화되어야 합니다.
+* 모든 열은 적절하게 형식화되어야 합니다.  
 * 열에는 정보를 전달하는 이름을 사용합니다(Q&A 참조).  
 * 공유 논리의 경우 함수 또는 쿼리를 사용하는 것이 좋습니다.  
 * 개인 정보 수준은 현재 서비스에서 지원되지 않습니다. 개인 정보 수준에 대한 프롬프트를 받으면 상대 경로를 사용하도록 쿼리를 다시 작성해야 할 수 있습니다.  
 
 ## <a name="data-model"></a>데이터 모델
-
 잘 정의된 데이터 모델을 통해 고객은 콘텐츠 팩과 쉽고 직관적으로 상호 작용할 수 있습니다. Power BI Desktop에서 데이터 모델을 생성합니다.
 
 > [!NOTE]
 > 대부분의 기본 모델링(형식 지정, 열 이름)은 [쿼리](#queries)에서 수행됩니다.
->
->
+> 
+> 
 
 ### <a name="qa"></a>Q&A
 모델링은 또한 Q&A에서 고객에게 얼마나 잘 결과를 제공할 수 있는지에도 영향을 줍니다. 자주 사용되는 열에 동의어를 추가하고 해당 열이 [쿼리](#queries)에서 적절하게 이름 지정되도록 해야 합니다.
@@ -92,8 +90,8 @@ Power BI Desktop에서 [매개 변수](https://powerbi.microsoft.com/blog/deep-d
 
 > [!NOTE]
 > 하나의 보고서만 콘텐츠 팩에 포함될 수 있으며 다양한 페이지를 활용하여 시나리오의 특정 섹션을 호출합니다.
->
->
+> 
+> 
 
 ### <a name="additional-report-tips"></a>추가 보고서 팁
 * 교차 필터링을 위해 페이지당 두 개 이상의 시각적 개체를 사용합니다.  
@@ -113,8 +111,8 @@ Power BI Desktop에서 [매개 변수](https://powerbi.microsoft.com/blog/deep-d
 
 > [!NOTE]
 > 템플릿 콘텐츠 팩에는 현재 콘텐츠 팩당 단일 보고서 및 데이터 집합이 필요합니다. 여러 보고서/데이터 집합의 콘텐츠를 콘텐츠 팩에 사용되는 대시보드에 고정하지 마세요.
->
->
+> 
+> 
 
 ### <a name="additional-dashboard-tips"></a>추가 대시보드 팁
 * 고정할 때는 동일한 테마를 유지하여 대시보드의 타일이 일관되게 합니다.  
@@ -139,3 +137,4 @@ Power BI Desktop에서 [매개 변수](https://powerbi.microsoft.com/blog/deep-d
 
 ## <a name="next-step"></a>다음 단계
 [콘텐츠 팩 테스트 및 제출](template-content-pack-testing.md)
+

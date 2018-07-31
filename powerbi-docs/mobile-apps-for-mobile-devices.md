@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/26/2018
 ms.author: maggies
 ms.custom: ''
-ms.openlocfilehash: 4a3b5aec179eb9436f1d8ed8a58bcf97906e1c1f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75f64de25799488d85b4f9938fa134d0d277f222
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294712"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280044"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI 모바일 앱이란?
 Power BI는 iOS, Android 및 Windows 10 모바일 장치용 모바일 앱 집합을 제공합니다. 모바일 앱에서 클라우드 및 온-프레미스 데이터에 연결하고 이를 조작합니다. 
@@ -42,6 +42,6 @@ Microsoft Intune을 사용하면 액세스 핀이 필요하고, 응용 프로그
 [Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱 구성](service-admin-mobile-intune.md)에 대해 자세히 알아보세요. 
 
 ## <a name="next-steps"></a>다음 단계
-[모바일 앱에서 대시보드 보기](mobile-apps-find-content-mobile-devices.md)
+[모바일 앱에서 대시보드 보기](mobile-apps-quickstart-view-dashboard-report.md)
 
 

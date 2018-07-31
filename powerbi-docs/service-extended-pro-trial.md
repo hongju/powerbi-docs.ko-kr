@@ -80,8 +80,7 @@ Power BI 서비스에 로그인할 때 자격이 있는 경우 팝업 알림을 
 
 ![Power BI Pro 평가판에서 남은 일 수](media/service-extended-pro-trial/powerbi-trial-days-left.png)
 
-
-  [Extended Pro 평가판 제품 사용 약관](https://aka.ms/power-bi-trial) 내에서 조건을 검토할 수 있습니다. Extended Pro 평가판은 2018년 5월 31일까지 적합한 모든 사용자에 대해 실행됩니다.
+[Extended Pro 평가판 제품 사용 약관](https://aka.ms/power-bi-trial) 내에서 조건을 검토할 수 있습니다. Extended Pro 평가판은 2018년 5월 31일까지 적합한 모든 사용자에 대해 실행됩니다.
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 **2017년 5월 3일 이후에 등록한 새로운 사용자는 어떻게 됩니까?**
@@ -104,8 +103,7 @@ Power BI 서비스에 로그인할 때 자격이 있는 경우 팝업 알림을 
 아니요. 관리자는 Extended Pro 평가판 또는 서비스 중인 Power BI Pro 60일 평가판을 활성화하지 못하도록 사용자를 제한하지 못합니다.
 
 ## <a name="next-steps"></a>다음 단계
-
-  [Extended Pro 평가판 제품 사용 약관](https://aka.ms/power-bi-trial)  
+[Extended Pro 평가판 제품 사용 약관](https://aka.ms/power-bi-trial)  
 [개별 사용자에 대한 Power BI 서비스 규약](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI 프리미엄 알림](https://aka.ms/pbipremium-announcement)  
 [로그인한 Power BI 사용자 찾기](service-admin-access-usage.md)

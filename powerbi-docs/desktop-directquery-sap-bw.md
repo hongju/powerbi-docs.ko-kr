@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/07/2018
+ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a8fde13b0beeb57fb5d25aa35002358f04ab6cad
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 3f6373db938f92f86c0f438162de4454f5f12e00
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34288570"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280090"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 및 SAP BW(Business Warehouse)
 **DirectQuery**를 사용하여 **SAP BW(Business Warehouse)** 데이터 원본에 직접 연결할 수 있습니다. SAP BW의 OLAP/다차원 특성을 고려할 때 관계형 원본(예: SQL Server)과 SAP BW에 대한 DirectQuery 간에는 많은 차이점이 있습니다. 이러한 차이점은 다음과 같이 요약됩니다.
@@ -33,8 +33,7 @@ ms.locfileid: "34288570"
 Power BI에서 DirectQuery를 사용하여 SAP BW에 연결할 때 기본적인 추가 모델링 제한 사항은 다음과 같습니다.
 
 * **계산 열 지원 안 함:** 계산 열을 만드는 기능을 사용할 수 없습니다. 즉 계산 열을 만드는 그룹화 및 클러스터링을 사용할 수 없습니다.
-* 
-  **측정값에 대한 추가 제한 사항:** SAP BW에서 제공하는 지원 수준을 반영하기 위해 측정값에서 사용할 수 있는 DAX 식에 추가로 적용되는 제한 사항이 있습니다.
+* **측정값에 대한 추가 제한 사항:** SAP BW에서 제공하는 지원 수준을 반영하기 위해 측정값에서 사용할 수 있는 DAX 식에 추가로 적용되는 제한 사항이 있습니다.
 * **관계 정의 지원 안 함:** 관계는 외부 SAP 원본에 내재되어 있으며 추가 관계를 모델에 정의할 수 없습니다.
 * **데이터 보기 없음:** **데이터 보기**는 일반적으로 테이블의 세부 수준 데이터를 표시합니다. SAP BW와 같은 OLAP 원본의 특성을 고려할 때 이 보기는 SAP BW를 통해 사용할 수 없습니다.
 * **열 및 측정값 세부 정보 고정:** 필드 목록에 표시되는 열 및 측정값의 목록은 기본 원본에 따라 고정되며 수정할 수 없습니다. 예를 들어 열을 삭제하거나 데이터 형식을 변경할 수 없지만 이름은 변경할 수 있습니다.
@@ -44,8 +43,7 @@ Power BI에서 DirectQuery를 사용하여 SAP BW에 연결할 때 기본적인 
 Power BI에서 DirectQuery를 사용하여 SAP BW에 연결할 때 기본적인 추가 시각화 제한 사항은 다음과 같습니다.
 
 * **열 집계 없음:** 시각적 개체에 대한 열 집계를 변경할 수 없으며, 항상 *요약 안 함*입니다.
-* 
-  **측정값 필터링 사용 안 함:** SAP BW에서 제공하는 지원을 반영하기 위해 측정값 필터링을 사용할 수 없습니다.
+* **측정값 필터링 사용 안 함:** SAP BW에서 제공하는 지원을 반영하기 위해 측정값 필터링을 사용할 수 없습니다.
 * **다중 선택 및 포함/제외:** 데이터 요소에서 둘 이상의 열 값을 나타내는 경우 시각적 개체에 대한 데이터 요소를 여러 개 선택하는 기능을 사용할 수 없습니다. 예를 들어 범례에 있는 범주와 함께 국가별 판매를 나타내는 가로 막대형 차트가 제공되면 (미국, 자전거) 및 (프랑스, 옷)에 대한 데이터 요소를 선택할 수 없습니다. 마찬가지로 (미국, 자전거)에 대한 데이터 요소를 선택하여 시각적 개체에서 제외할 수 없습니다. 두 제한 사항은 모두 SAP BW에서 제공하는 지원을 반영하기 위해 적용됩니다.
 
 ## <a name="support-for-sap-bw-features"></a>SAP BW 기능에 대한 지원

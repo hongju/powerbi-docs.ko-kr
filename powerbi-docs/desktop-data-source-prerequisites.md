@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: de694a7fb57b3466a9bd8282973d52584f664cb7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b26a7f192904e4541222f2d9b786ad586eac5598
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289996"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329549"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI 데이터 원본 필수 조건
 각 데이터 공급자의 경우 Power BI는 개체에 특정 공급자 버전을 지원합니다. Power BI에 사용 가능한 데이터 원본에 대한 자세한 내용은 [데이터 원본](desktop-data-sources.md)을 참조하세요. 다음 표는 이러한 요구 사항을 설명합니다.

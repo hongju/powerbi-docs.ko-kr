@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 1d9d4b13c6453f32a470b90980b03490d46ee424
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: f3ecb489b29524179f554cccbd9eab2fc427b9a4
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937135"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328445"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>로컬 드라이브에 있는 Power BI Desktop 파일로부터 만들어진 데이터 집합 새로 고침
 ## <a name="whats-supported"></a>무엇이 지원되나요?

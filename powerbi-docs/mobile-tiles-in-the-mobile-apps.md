@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598632"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280136"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
@@ -92,7 +92,7 @@ ms.locfileid: "37598632"
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
-    [타일의 스냅숏을 공유](mobile-share-tile-windows-10-phone-app.md)합니다.
+    [타일의 스냅숏을 공유](mobile-windows-10-phone-app-get-started.md)합니다.
    
     **보고서 열기** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)를 탭하여 [기본 보고서 봅니다](mobile-reports-in-the-mobile-apps.md).
    
@@ -120,7 +120,7 @@ ms.locfileid: "37598632"
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   스냅숏 공유 아이콘 ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png)을 탭하여 다른 사람과 [타일을 공유](mobile-share-tile-windows-10-phone-app.md)합니다.   
+   스냅숏 공유 아이콘 ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png)을 탭하여 다른 사람과 [타일을 공유](mobile-windows-10-phone-app-get-started.md)합니다.   
    
    보고서 열기 아이콘 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)을 탭하여 타일의 기반이 되는 [보고서를 봅니다](mobile-reports-in-the-mobile-apps.md). 
 4. 뒤로 화살표 또는 뒤로 단추를 탭하여 타일을 닫고 대시보드로 돌아갑니다.

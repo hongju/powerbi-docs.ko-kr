@@ -12,10 +12,10 @@ ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
+ms.lasthandoff: 06/27/2018
 ms.locfileid: "34584280"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI의 콤보 차트
@@ -41,7 +41,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
 
-<a name="create"></a> 고유한 콤보 차트를 만들려면 Power BI 서비스에 로그인하고 **데이터 가져오기 \> 샘플 \> 소매 분석 샘플 > 연결 > 대시보드로 이동**을 선택합니다.
+<a name="create"></a>고유한 콤보 차트를 만들려면 Power BI 서비스에 로그인하고 **데이터 가져오기 \> 샘플 \> 소매 분석 샘플 &gt; 연결 &gt; 대시보드로 이동**을 선택합니다.
 
 1. "소매 분석 샘플" 대시보드에서 **Total Stores** 타일을 선택하여 "소매 분석 샘플" 보고서를 엽니다.
 2. **보고서 편집** 을 선택하여 편집 보기에서 보고서를 엽니다.

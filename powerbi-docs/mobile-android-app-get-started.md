@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: ba6b8cb1ade1337a29e758a16db285dbea7c41db
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136528"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280182"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 장치에서 Power BI 모바일 앱 시작
 Microsoft Power BI용 Android 앱은 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 
@@ -86,7 +86,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
     기본적으로 모든 대시보드와 보고서를 검색하지만 둘 중 하나만 검색할 수도 있습니다.
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 콘텐츠 찾기
-대시보드 및 보고서는 Power BI 모바일 앱에서 출처에 따라 다른 위치에 저장됩니다. [모바일 앱에서 콘텐츠 찾기](mobile-apps-find-content-mobile-devices.md)에 대해 읽습니다. 또한 Power BI 모바일 앱에 있는 항목에 대해 항상 검색할 수 있습니다. 
+대시보드 및 보고서는 Power BI 모바일 앱에서 출처에 따라 다른 위치에 저장됩니다. [모바일 앱에서 콘텐츠 찾기](mobile-apps-quickstart-view-dashboard-report.md)에 대해 읽습니다. 또한 Power BI 모바일 앱에 있는 항목에 대해 항상 검색할 수 있습니다. 
 
 ![왼쪽 탐색 창](media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 

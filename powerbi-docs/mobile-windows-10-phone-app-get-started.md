@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 2ee490107b802957b262d0a133d8e8b0e2a42754
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d445264e22520efe81af94e1e4c4261d15eed04b
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135792"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280067"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
 Windows 10용 Power BI 모바일 앱은 태블릿이나 폰에 Power BI를 통해 비즈니스 정보에 대한 터치 기반의 최신 모바일 액세스를 제공합니다. 어디서든 [Windows 시작 화면](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)에서 회사 대시보드를 보고 조작할 수 있습니다.
@@ -87,7 +87,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
    ![관련 검색 결과](media/mobile-windows-10-phone-app-get-started/pbi_win10_search_m.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 콘텐츠 찾기
-대시보드 및 보고서는 Power BI 모바일 앱에서 출처에 따라 다른 위치에 저장됩니다. [모바일 앱에서 콘텐츠 찾기](mobile-apps-find-content-mobile-devices.md)에 대해 읽습니다. 또한 Power BI 모바일 앱에 있는 항목에 대해 항상 검색할 수 있습니다. 
+대시보드 및 보고서는 Power BI 모바일 앱에서 출처에 따라 다른 위치에 저장됩니다. [모바일 앱에서 콘텐츠 찾기](mobile-apps-quickstart-view-dashboard-report.md)에 대해 읽습니다. 또한 Power BI 모바일 앱에 있는 항목에 대해 항상 검색할 수 있습니다. 
 
 ![Power BI 왼쪽 탐색](media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
@@ -111,7 +111,7 @@ Power BI의 대시보드 및 보고서, 또는 Reporting Services 웹 포털의 
 * [앱](service-install-use-apps.md) 보기.
 * [대시보드](mobile-apps-view-dashboard.md) 보기.
 * 장치의 시작 화면의 라이브 타일에 [대시보드 및 Power BI 타일 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
-* [타일 공유](mobile-share-tile-windows-10-phone-app.md).
+* [타일 공유](mobile-windows-10-phone-app-get-started.md).
 * [대시보드](mobile-share-dashboard-from-the-mobile-apps.md) 공유.
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Reporting Services 모바일 보고서 및 KPI

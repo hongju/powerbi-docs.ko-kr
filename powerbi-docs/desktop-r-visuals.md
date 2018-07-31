@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 32b21e23a6cc4a5e6d9ae4915ddc56f9f9957d14
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 31f9dd5077c9cef7fa63301f2810a49c75841a01
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599648"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327065"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R을 사용하여 Power BI 시각적 개체 만들기
 **Power BI Desktop**에서 **R**을 사용하면 데이터를 시각화할 수 있습니다.

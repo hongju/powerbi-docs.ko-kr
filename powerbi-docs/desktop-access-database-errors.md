@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d1023f1563f69c37e2aebe47181a5276d27d3497
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 04e95ade5d7c7d0e2b9a6d9690873437e2ec1b6d
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285511"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329733"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Power BI Desktop에서 액세스 및 .XLS 파일 가져오기 문제 해결
 **Power BI Desktop**에서 **Access 데이터베이스** 및 초기 버전의 **Excel 통합 문서**(Excel 97-2003 형식의 .XLS 파일)는 모두 ‘Access 데이터베이스 엔진’을 사용합니다. 액세스 데이터베이스 엔진이 제대로 작동하는 것을 방해할 수 있는 세 가지 일반적인 상황이 있습니다.

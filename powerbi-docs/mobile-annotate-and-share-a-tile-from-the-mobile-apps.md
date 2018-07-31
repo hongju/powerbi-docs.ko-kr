@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bb628f0cc6f723a195f3b90e6d20f4018d9f2709
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295264"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279852"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일, 보고서 또는 시각적 개체에 주석 달기 및 공유
 적용 대상:
@@ -31,7 +31,7 @@ iOS 및 Android 장치용 Power BI 모바일 앱에서 타일, 보고서 또는 
 
 타일, 보고서 또는 시각적 개체의 스냅숏을 사용한 메일에는 Power BI 서비스에 있는 실제 개체에 대한 링크가 포함되어 있습니다([https://powerbi.com](https://powerbi.com)). 사용자에게 Power BI Pro 라이선스가 있거나 콘텐츠가 [프리미엄 용량](service-premium.md)에 있고 이미 해당 항목을 공유한 경우 수신자가 링크를 클릭하여 해당 타일, 보고서 또는 시각적 개체로 바로 이동할 수 있습니다. 
 
-[Windows 10 장치용 Power BI 모바일 앱에서 타일을 공유](mobile-share-tile-windows-10-phone-app.md)할 수는 있으나 주석을 추가할 수는 없습니다.
+[Windows 10 장치용 Power BI 모바일 앱에서 타일을 공유](mobile-windows-10-phone-app-get-started.md)할 수는 있으나 주석을 추가할 수는 없습니다.
 
 ## <a name="open-a-tile-for-annotating"></a>주석을 추가할 타일 열기
 1. 타일을 탭하여 포커스 모드로 엽니다.
