@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34232111"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210333"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Power BI Desktop(미리 보기)의 보고서 페이지에 기반을 둔 도구 설명 만들기
 **Power BI Desktop**에서 만든 보고서 페이지에 기반을 둔 시각적 개체를 가리키면 나타나는 **보고서 도구 설명**을 시각적으로 풍부하게 만들 수 있습니다. 도구 설명으로 사용되는 보고서 페이지를 만들면 사용자 지정 도구 설명에 시각적 개체, 이미지 및 기타 보고서 페이지에서 만든 항목 컬렉션을 포함할 수 있습니다. 
@@ -119,6 +119,7 @@ ms.locfileid: "34232111"
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 **도구 설명** 보고서의 이 미리 보기 버전에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
 
+* **Power BI Desktop**의 2018년 7월 릴리스부터 테이블 및 행렬 시각적 개체의 도구 설명이 지원됩니다. 
 * 모바일 앱 또는 포함된 환경(예: 웹에 게시)에서 보고서를 볼 때 보고서 도구 설명이 지원되지 않습니다. 
 * 사용자 지정 시각적 개체에는 보고서 도구 설명이 지원되지 않습니다. 
 * 클러스터는 현재 보고서 도구 설명에 표시할 수 있는 필드로 지원되지 않습니다. 

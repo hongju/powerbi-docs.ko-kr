@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
-ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
+ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "37864402"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182728"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -22,6 +22,19 @@ ms.locfileid: "37864402"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](service-whats-new.md)  
+
+## <a name="july-2018"></a>2018년 7월
+
+### <a name="ios-and-android-only"></a>iOS 및 Android만 해당
+
+**공유 필터**
+
+이제 공유 필터 및 슬라이서를 사용하여 보고서를 받을 수 있습니다.
+
+**배경 이미지 지원**
+
+모바일 장치에서 가로 모드로 보고서를 볼 때 웹용 Power BI에 표시되는 것과 동일한 배경 이미지를 볼 수 있습니다.
+
 
 ## <a name="june-2018"></a>2018년 6월
 

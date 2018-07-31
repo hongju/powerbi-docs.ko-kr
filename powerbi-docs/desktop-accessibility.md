@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032005"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210287"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서의 내게 필요한 옵션
 Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 상호 작용할 수 있도록 하는 기능이 있습니다. 이러한 기능에는 키보드 또는 화면 판독기를 사용하여 보고서를 이용하고 탭 키로 페이지에 있는 다양한 개체에 포커스를 이동하며 시각적 개체에 표식을 세밀하게 사용하는 기능이 있습니다.
@@ -47,8 +47,12 @@ Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 �
 
 > [!NOTE]
 > 데이터 표시 기능은 이 바로 가기 키를 통해서만 화면 판독기에 액세스할 수 있습니다. 시각적 개체 헤더에서 옵션을 통해 데이터 표시를 열면 화면 판독기에 액세스할 수 없습니다.
-> 
-> 
+
+**Power BI Desktop**의 2018년 7월 릴리스부터 슬라이서에 대한 접근성 기능이 기본 제공됩니다. 슬라이서를 선택하는 경우 슬라이서 값을 조정하려면 Ctrl+오른쪽 화살표(Ctrl 키 및 오른쪽 화살표 키)를 사용하여 슬라이서 내에서 다양한 컨트롤로 이동합니다. 예를 들어 처음에 Ctrl+오른쪽 화살표를 누르면 포커스가 지우개에 있고 스페이스바를 누르는 것은 슬라이서의 모든 값을 지우는 지우개 단추를 클릭하는 것과 같습니다. 
+
+Tab 키를 눌러 슬라이서에서 컨트롤로 이동할 수 있습니다. 지우개를 사용할 때 Tab 키를 누르면 드롭다운 단추로 이동합니다. 이후 Tab 키를 다시 누르면 첫 번째 슬라이서 값으로 이동합니다(범위와 같이 슬라이서에 대한 값이 여러 개 있는 경우). 
+
+![Power BI Desktop에서 Ctrl+(오른쪽 화살표 키)를 눌러 슬라이서에서 요소 또는 값을 조정하고 스페이스를 눌러 요소를 선택하고 해당 값을 조정](media/desktop-accessibility/accessibility_07.png)
 
 화면 판독기 및 키보드 탐색을 사용하여 사용자가 Power BI Desktop 보고서를 완벽하게 사용할 수 있도록 내게 필요한 옵션 추가를 생성했습니다.
 

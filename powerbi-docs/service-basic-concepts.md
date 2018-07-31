@@ -8,15 +8,15 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0536dc6fd637db07c0e26a4ed7f0da1071b646eb
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: a1719f8a6f9f4ad3989aa498c584b337cd9fdd00
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137425"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182751"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 서비스에 대한 기본 개념
 
@@ -48,9 +48,9 @@ Power BI 서비스 UI의 주요 기능은 다음과 같습니다.
 Power BI의 4가지 주요 구성 요소는 ***대시보드***, ***보고서***, ***통합 문서***, ***데이터 집합***입니다. 그리고 모두 ***작업 영역***에 정리됩니다. 4가지 구성 요소를 살펴보기 전에 작업 영역을 이해하는 것이 중요하므로 작업 영역부터 살펴보겠습니다. 
 
 ## <a name="workspaces"></a>작업 영역
-작업 영역은 Power BI의 대시보드, 보고서, 통합 문서 및 데이터 집합을 위한 컨테이너입니다. 작업 영역에는 **내 작업 영역*과 앱 작업 영역, 두 가지 유형이 있습니다. 그렇다면 *앱*이란 무엇일까요? Power BI *앱*은 조직에 대한 주요 메트릭을 제공하도록 제작된 대시보드 및 보고서의 컬렉션입니다. 앱은 대화형이지만 편집할 수 없습니다. 
+작업 영역은 Power BI의 대시보드, 보고서, 통합 문서 및 데이터 집합을 위한 컨테이너입니다. 작업 영역에는 ‘내 작업 영역’ 및 ‘앱 작업 영역’의 두 가지 유형이 있습니다. 그렇다면 *앱*이란 무엇일까요? Power BI *앱*은 조직에 대한 주요 메트릭을 제공하도록 제작된 대시보드 및 보고서의 컬렉션입니다. 앱은 대화형이지만 편집할 수 없습니다. 
 
-- *내 작업 영역*은 Power BI 고객이 콘텐츠를 작업하는 개인적인 작업 영역입니다. 내 작업 영역에는 본인만 액세스할 수 있습니다. 콘텐츠를 공유하는 방법은 몇 가지가 있는데, *앱*에 콘텐츠를 번들로 묶는 앱 작업 영역을 만들고 조직의 다른 사람이 사용할 수 있게 하거나 앱 작업 영역을 만들고 공유 및 공동 작업이 가능하도록 동료들에게 해당 작업 영역에 대한 액세스 권한을 부여할 수 있습니다.     
+- ‘내 작업 영역’은 Power BI 고객이 콘텐츠를 작업하는 개인적인 작업 영역입니다. 내 작업 영역에는 본인만 액세스할 수 있습니다. 내 작업 영역에서 대시보드 및 보고서를 공유할 수 있습니다. 대시보드 및 보고서에 대한 공동 작업을 하거나 앱을 만들려면 앱 작업 영역에서 작업해야 합니다.      
 -  *앱 작업 영역*은 동료들과 함께 콘텐츠를 공동 작업하고 공유하는 데 사용됩니다. 또한 조직을 위한 앱을 만들어 게시하고 관리하는 공간이기도 합니다. Power BI 앱을 구성할 콘텐츠를 위한 준비 영역이자 컨테이너라고 생각하면 됩니다. 앱 작업 영역에 동료를 추가하고 대시보드, 보고서, 통합 문서 및 데이터 집합에 대한 공동 작업을 수행할 수 있습니다. 모든 앱 작업 영역 구성원에게는 Power BI Pro 라이선스가 있어야 하지만 앱 소비자(앱에 액세스할 수 있는 동료)에게 Pro 라이선스가 반드시 필요한 것은 아닙니다.  
 
 자세히 알아보려면 [대시보드 및 보고서를 공동 작업하고 공유하려면 어떻게 해야 합니까](service-how-to-collaborate-distribute-dashboards-reports.md)로 시작하는 목차의 **작업 공유** 섹션을 참조하세요.

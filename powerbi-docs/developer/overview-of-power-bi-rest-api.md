@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 8a688f46a46dbb1015629c7785d96b62d4f8df26
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: a9d178ccfdb47152fd2c13d445b9190ced6115e1
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813244"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157592"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>개발자는 Power BI API로 무엇을 할 수 있나요?
 Power BI는 대화형 대시보드를 표시하며 다양한 데이터 원본에서 실시간으로 만들어지고 업데이트됩니다. REST 호출을 지원하는 모든 프로그래밍 언어를 사용하여 실시간으로 Power BI 대시보드와 통합되는 앱을 만들 수 있습니다. Power BI 타일 및 보고서를 앱에 통합할 수도 있습니다.
@@ -58,6 +58,11 @@ Power BI 개발자 샘플에는 대시보드, 보고서 및 타일 포함에 대
 * [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다. [조직에 대한 콘텐츠 포함](https://aka.ms/embedsetup/UserOwnsData) 솔루션을 실행합니다.
 
 JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](https://microsoft.github.io/PowerBI-JavaScript/demo)를 사용할 수 있습니다. 이 방법으로 다양한 유형의 Power BI Embedded 샘플을 빠르게 재생할 수 있습니다. [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 페이지를 방문하여 JavaScript API에 대한 추가 정보를 얻을 수도 있습니다.
+
+## <a name="push-data-into-power-bi"></a>Power BI로 데이터 푸시
+Power BI API를 사용하여 데이터를 데이터 집합에 푸시할 수 있습니다. 이렇게 하면 데이터 집합 내 테이블에 행을 추가할 수 있습니다. 그러면 새 데이터가 대시보드의 타일과 보고서 내 시각적 개체에 반영될 수 있습니다.
+
+![데이터 푸시 샘플](media/what-can-you-do/powerbi-push-data.png)
 
 ## <a name="next-steps"></a>다음 단계
 [데이터 집합에 데이터 푸시](walkthrough-push-data.md)  

@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 8f69eec2ce7273898698fb086f372daa2201eed8
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134688"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210264"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Power BI Desktop에서 정보 사용(미리 보기)
-**Power BI Desktop**을 통헤 차트에서 증가 및 감소를 설명하고 데이터에 대한 빠르고 자동화된 통찰력 있는 분석을 가져옵니다. 단순히 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 축소 설명**(또는 이전 표시줄이 낮은 경우 증가)를 선택하고 정보를 사용하기 쉬운 창에 제공합니다.
+**Power BI Desktop**을 통해 차트에서 증가 및 감소를 설명하고, 차트에서 배포 요소를 확인하고, 데이터에 대한 빠르고 자동화된 통찰력 있는 분석을 가져옵니다. 단순히 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 축소 설명**(또는 이전 표시줄이 낮은 경우 증가)를 선택하거나 **분석 > 이 배포가 다른 경우 찾기**를 선택하면 인사이트가 사용하기 쉬운 창에 제공됩니다.
 
 ![](media/desktop-insights/insights_01.png)
 

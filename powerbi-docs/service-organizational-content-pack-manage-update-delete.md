@@ -7,15 +7,15 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 07/19/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34852305"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182797"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>조직 콘텐츠 팩 관리, 업데이트 및 삭제
 > [!NOTE]
@@ -52,7 +52,7 @@ ms.locfileid: "34852305"
 4. **콘텐츠 팩 업데이트** 창에서 필요한 변경을 수행하고 **업데이트**를 선택합니다. **성공** 메시지가 나타납니다.
    
    * 콘텐츠 팩을 사용자 지정하지 않은 그룹 구성원인 경우 업데이트가 자동으로 적용됩니다.
-   * 콘텐츠 팩을 사용자 지정한 그룹 구성원은 새 버전이 있다는 알림을 받게 됩니다.  구성원은 AppSource로 가서 자신의 개인 설정된 버전을 손실하지 않고도 업데이트된 콘텐츠 팩을 얻을 수 있습니다.  이제 구성원에게는 개인 설정된 버전과 업데이트된 콘텐츠 팩의 두 가지 버전이 있습니다.  개인 설정된 버전에서 원래 콘텐츠 팩의 모든 타일이 사라집니다.  그러나 다른 보고서에서 고정한 타일은 계속 렌더링됩니다.    
+   * 콘텐츠 팩을 사용자 지정한 그룹 구성원은 새 버전이 있다는 알림을 받게 됩니다.  구성원은 AppSource로 가서 자신의 개인 설정된 버전을 손실하지 않고도 업데이트된 콘텐츠 팩을 얻을 수 있습니다.  이제 구성원에게는 개인 설정된 버전과 업데이트된 콘텐츠 팩의 두 가지 버전이 있습니다.  개인 설정된 버전에서 원래 콘텐츠 팩의 모든 타일이 사라집니다.  그러나 다른 보고서에서 고정한 타일은 계속 렌더링됩니다. 그러나 콘텐츠 팩 소유자가 콘텐츠 팩이 기반으로 하는 데이터 집합을 삭제하면 전체 보고서가 삭제됩니다.  
 
 ## <a name="update-the-audience-expand-or-restrict-access"></a>대상 그룹 업데이트: 액세스 확장 또는 제한
 콘텐츠 팩 작성자에 제공되는 다른 수정 항목으로는 콘텐츠 팩에 대한 액세스를 확장 및 제한하는 것입니다.  사용자는 콘텐츠 팩을 광범위한 대상 그룹에 게시했고 작은 그룹에 대한 액세스를 제한하도록 결정했을 것입니다.  
