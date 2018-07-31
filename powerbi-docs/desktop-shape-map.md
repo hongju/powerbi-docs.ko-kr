@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 88b8b4a50913cd45c5e4ff80a5d5e0ded2eb4cdb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4e8e620ca8737e37fb129212fd15e1b131954217
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600754"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329250"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵(미리 보기)
 Power BI Desktop에서는 서로 다른 지역에 다양한 색을 적용하여 맵에서 지역의 상대적인 비교를 보여 주는 **도형 맵** 시각적 개체를 만듭니다. **맵** 시각화와 달리, **도형 맵**에서는 맵에서 데이터 요소에 대한 정확한 지리상의 위치를 보여줄 수 없으며 대신, 색을 다양하게 지정하여 맵에서 지역의 상대적인 비교를 보여 주는 것을 주요 목적으로 합니다.

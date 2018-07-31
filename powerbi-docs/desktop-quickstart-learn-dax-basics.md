@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 1c9f838261658a77fa8a4d019e610de72649bbbb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: ca2f9e3393df2fd205474983ab9868aa9401ed9d
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600777"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329204"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop의 DAX 기본 사항
 이 문서는 Power BI Desktop을 처음 사용하는 사용자를 위한 것입니다. 여기서는 DAX(Data Analysis Expressions)를 사용하여 여러 가지 기본 계산 및 데이터 분석 문제를 해결하는 방법에 대해 신속하고 간략하게 소개합니다. 또한 일부 기본 개념, 완료할 수 있는 일련의 작업 및 지금까지 학습한 내용을 테스트할 수 있는 몇 가지 퀴즈를 검토합니다. 이 문서를 완료하면 DAX의 가장 중요한 기본 개념을 제대로 이해하고 있어야 합니다.
