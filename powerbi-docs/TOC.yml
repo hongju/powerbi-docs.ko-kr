@@ -918,14 +918,18 @@
       items:
         - name: 개요
           items:
-            - name: Power BI에 포함
+            - name: Power BI에 포함이란?
               href: developer/embedding.md
+            - name: Azure의 Power BI Embedded란?
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
         - name: 자습서
           items:
             - name: 고객용 콘텐츠 포함
               href: developer/embed-sample-for-customers.md
             - name: 조직용 콘텐츠 포함
               href: developer/embed-sample-for-your-organization.md
+            - name: 소버린 클라우드용 응용 프로그램에 콘텐츠 통합
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: 개념
           items:
             - name: 행 수준 보안(RLS)
@@ -936,12 +940,8 @@
               href: developer/power-bi-permissions.md
         - name: 방법
           items:
-            - name: 콘텐츠를 포함하는 방법
-              href: developer/embedding-content.md
             - name: 앱에서 포함하는 방법
               href: developer/embed-from-apps.md
-            - name: 소버린 클라우드용 응용 프로그램에 콘텐츠 통합(앱 소유 데이터)
-              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Azure Active Directory 테넌트 만들기
               href: developer/create-an-azure-active-directory-tenant.md
             - name: 응용 프로그램 등록
@@ -950,18 +950,36 @@
               href: developer/get-azuread-access-token.md
             - name: Q&A 포함
               href: developer/qanda.md
-            - name: Power BI Embedded 마이그레이션 방법
-              href: developer/migrate-from-powerbi-embedded.md
             - name: 포함된 응용 프로그램 문제 해결
               href: developer/embedded-troubleshoot.md
+            - name: Azure에서 용량 관리
+              items:
+                - name: Azure에서 용량 만들기
+                  href: developer/azure-pbie-create-capacity.md
+                - name: Azure에서 용량 확장
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: Azure에서 용량 일시 중지 및 시작
+                  href: developer/azure-pbie-pause-start.md
+            - name: 작업 영역 컬렉션에서 마이그레이션
+              items:
+                - name: Power BI 작업 영역 컬렉션에서 마이그레이션하는 방법
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: 마이그레이션 도구
+                  href: developer/migrate-tool.md
+                - name: 마이그레이션 코드 조각
+                  href: developer/migrate-code-snippets.md
         - name: 참조
           items:
+            - name: API
+              items:
+                - name: Azure Resource Management REST API
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: Power BI REST API
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
             - name: .NET SDK 다운로드
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: 앱에 사용자 지정 레이아웃 포함
               href: developer/embedded-custom-layout.md
-            - name: 마이그레이션 코드 조각
-              href: developer/migrate-code-snippets.md
         - name: 리소스
           items:
             - name: 개발자 센터
@@ -978,8 +996,6 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: 샘플
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: Power BI Embedded 마이그레이션 도구
-              href: developer/migrate-tool.md
             - name: Power BI 커뮤니티
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: 스택 오버플로
@@ -1064,8 +1080,6 @@
           items:
             - name: REST API
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Power BI REST API 참조
-              href: developer/rest-api-reference.md
             - name: 전체 코드 목록
               href: developer/walkthrough-push-data-complete-code.md
         - name: 리소스
