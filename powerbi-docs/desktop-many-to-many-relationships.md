@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1105de002f6461589d61c6f0077cceeedaada471
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211338"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388758"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop의 다 대 다 관계(미리 보기)
 
@@ -33,7 +33,7 @@ ms.locfileid: "39211338"
 
 * **복합 모델**은 [Power BI Desktop(미리 보기)의 복합 모델](desktop-composite-models.md) 문서에서 자세히 설명합니다.
 * **다 대 다 관계**는 이 문서에서 설명합니다.
-* **저장소 모드**는 자체 문서인 [Power BI Desktop(미리 보기)의 저장소 모드](desktop-storage-mode.md)에서 설명합니다.
+* **저장소 모드**는 자체 문서인 [Power BI Desktop의 저장소 모드(미리 보기)](desktop-storage-mode.md)에서 설명합니다.
 
 ## <a name="enabling-the-many-to-many-relationships-preview-feature"></a>다 대 다 관계 미리 보기 기능 사용
 
