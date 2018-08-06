@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 421ef9609872515ae462de574d67528835bb78ab
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b55f9854d129c4ff7a70117b8382fbdbaff80ce8
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722842"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280274"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>탐색: Power BI 서비스에서 콘텐츠 검색, 찾기 및 정렬
 Power BI 서비스에서 콘텐츠를 탐색하는 방법은 여러 가지가 있습니다. 콘텐츠는 작업 영역 내에서 대시보드, 보고서, 통합 문서, 데이터 집합과 같은 유형별로 정리됩니다.  그리고 즐겨찾기, 최근, 공유한 항목, 주요와 같은 용도별로도 정리됩니다. 이처럼 다양한 콘텐츠 경로를 통해 Power BI 서비스에서 필요한 항목을 빠르게 찾을 수 있습니다.  
@@ -32,7 +32,7 @@ Power BI 서비스는 대시보드, 보고서, 통합 문서 및 데이터 집�
 ________________________________________
 
 ## <a name="searching-and-sorting-in-workspaces"></a>작업 영역에서 검색 및 정렬
-작업 영역에는 대시보드, 보고서, 통합 문서, 데이터 집합이라는 4개의 콘텐츠 탭이 있습니다.  이러한 각 탭에는 검색 필드와 정렬 단추가 있습니다.  Power BI 서비스를 처음 시작할 때는 탭당 단 하나 또는 두 개의 항목만 있으므로 유용하지 않을 수 있습니다.  그러나 시간이 지남에 따라 콘텐츠 목록이 길어집니다.  검색 및 정렬 기능을 사용하면 필요한 것을 쉽게 찾을 수 있습니다.
+작업 영역에는 대시보드, 보고서, 통합 문서, 데이터 집합이라는 4개의 콘텐츠 탭이 있습니다.  이러한 각 탭에는 검색 필드와 정렬 단추가 있습니다.  Power BI 서비스를 처음 시작할 때는 탭당 단 하나 또는 두 개의 항목만 있으므로 유용하지 않을 수 있습니다.  그러나 시간이 지남에 따라 콘텐츠 목록이 길어질 수 있습니다.  검색 및 정렬 기능을 사용하면 필요한 것을 쉽게 찾을 수 있습니다.
 
 ![대시보드 탭](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
 

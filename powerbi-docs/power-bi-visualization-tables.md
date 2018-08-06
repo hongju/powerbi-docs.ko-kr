@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e992152656a208c765743292e06b4d0d3708730
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 769e2adb30fb1969d16898db4bf954d2bcbad8c4
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600260"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280412"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드에서 테이블 작업
 테이블은 논리적으로 연속된 행과 열에서 관련된 데이터를 포함하는 표입니다. 머리글과 합계에 대한 행이 포함될 수도 있습니다. 테이블은 단일 범주에 대한 많은 값을 볼 수 있는 정량적 비교와 잘 작동합니다. 예를 들어 이 테이블은 **범주**합에 대한 5개의 서로 다른 측정값을 표시합니다.
@@ -56,7 +56,7 @@ ms.locfileid: "37600260"
      ![](media/power-bi-visualization-tables/pbi_pintile.png)
 
 ## <a name="format-the-table"></a>테이블 서식 지정
-테이블의 서식을 지정하는 방법은 여러 가지가 있지만 여기에서는 몇 가지만 살펴보도록 하겠습니다. 다른 서식 옵션을 알아보는 좋은 방법은 서식 창(페인트 롤러 아이콘 ![](media/power-bi-visualization-tables/power-bi-format.png))을 열고 살펴보는 것입니다.
+테이블 서식을 지정하는 많은 방법이 있지만 여기에서는 몇 가지만 다루려고 합니다. 다른 서식 옵션을 알아보는 좋은 방법은 서식 창(페인트 롤러 아이콘 ![](media/power-bi-visualization-tables/power-bi-format.png))을 열고 살펴보는 것입니다.
 
 * 테이블 그리드의 서식을 지정해 보세요. 여기에서는 파란색 세로 그리드를 추가하고, 행에 공간을 추가하고, 윤곽선과 텍스트 크기를 약간 늘렸습니다.
 

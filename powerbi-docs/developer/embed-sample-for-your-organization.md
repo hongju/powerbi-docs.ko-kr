@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: cfc450216202f332f518955d28cb71df6aa0b800
-ms.sourcegitcommit: f2b106b5eb338a64f903e8ce6793bccb07f9440a
+ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39105272"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359734"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>자습서: Power BI 보고서, 대시보드 또는 타일을 조직의 응용 프로그램에 포함
 이 자습서에서는 조직의 응용 프로그램에 **Power BI**를 포함하는 경우 **Power BI JavaScript API**와 함께 **Power BI .NET SDK**를 사용하여 보고서를 응용 프로그램에 통합하는 방법을 보여 줍니다. **Power BI**를 통해 **사용자 소유 데이터**를 사용하여 응용 프로그램에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **사용자 소유 데이터**를 사용하면 응용 프로그램에서 Power BI 서비스를 확장할 수 있습니다.
@@ -413,11 +413,28 @@ function updateEmbedReport() {
 이제 응용 프로그램 개발을 완료했으므로 전용 용량을 포함한 앱 작업 영역으로 돌아갈 차례입니다.
 
 ### <a name="create-a-dedicated-capacity"></a>전용 용량 만들기
-전용 용량을 만들면 앱 작업 영역의 콘텐츠 전용 리소스의 혜택을 활용할 수 있습니다. 작업 영역이 전용 용량에 할당되지 않은 경우 공유 용량으로 간주됩니다. [Power BI Premium](../service-admin-premium-purchase.md)을 사용하여 전용 용량을 만들 수 있습니다.
+전용 용량을 만들면 앱 작업 영역의 콘텐츠 전용 리소스의 혜택을 활용할 수 있습니다. [Power BI Premium](../service-premium.md)을 사용하여 전용 용량을 만들 수 있습니다.
+
+다음 표에서는 [Office 365](../service-admin-premium-purchase.md) 내에서 사용할 수 있는 Power BI Premium SKU를 나열합니다.
+
+| 용량 노드 | 총 V 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 V 코어 | 프런트 엔드 V 코어 | DirectQuery/라이브 연결 제한 | 사용량이 가장 많은 시간에 최대 페이지 렌더링 |
+| --- | --- | --- | --- | --- | --- |
+| EM1 |1v-코어 |0.5v-코어, 10GB RAM |0.5개 V 코어 |초당 3.75 |150-300 |
+| EM2 |2v-코어 |1v-코어, 10GB RAM |1v-코어 |초당 7.5 |301-600 |
+| EM3 |4v-코어 |2개 V 코어, 10GB RAM |2v-코어 |초당 15 |601-1,200 |
+| P1 |8v-코어 |4개 V 코어, 25GB RAM |4v-코어 |초당 30 |1,201-2,400 |
+| P2 |16v-코어 |8개 V 코어, 50GB RAM |8v-코어 |초당 60 |2,401-4,800 |
+| P3 |32v-코어 |16개 V 코어, 100GB RAM |16v-코어 |초당 120 |4,801-9600 |
+| P4 |64v-코어 |32-코어, 200GB RAM |32v-코어 |초당 240 |9601-19200
+| P5 |128v-코어 |64v-코어, 400GB RAM |64v-코어 |초당 480 |19201-38400
+
+***_EM SKU_** 를 **통해** **_MS Office 앱_** 과 함께 포함하려는 경우 **무료 Power BI 라이선스**로 콘텐츠에 액세스할 수 있지만, **_Powerbi.com_** 또는 **_Power BI mobile_** 사용 시 무료 Power BI 라이선스로 콘텐츠에 액세스할 수 없습니다.*
+
+***_P SKU_** 를 **통해** **_Powerbi.com_** 또는 **_Power BI 모바일을 사용_** 하여 **_MS Office 앱_** 과 함께 포함하려는 경우 무료 Power BI 라이선스로 콘텐츠에 액세스할 수 있습니다.*
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>전용 용량에 앱 작업 영역 할당
 
-전용 용량이 만들어지면 해당 전용 용량에 앱 작업 영역을 할당할 수 있습니다. 이를 완료하려면 다음 단계를 수행합니다.
+전용 용량을 만들면 해당 전용 용량에 앱 작업 영역을 할당할 수 있습니다. 이를 완료하려면 다음 단계를 수행합니다.
 
 1. **Power BI 서비스** 내에서 작업 영역을 확장하고 콘텐츠를 포함하는 데 사용하는 작업 영역에 대한 줄임표를 선택합니다. 그런 다음, **작업 영역 편집**을 선택합니다.
 
@@ -431,13 +448,17 @@ function updateEmbedReport() {
 
     ![용량에 연결된 앱 작업 영역](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
+## <a name="admin-settings"></a>관리 설정
+
+전역 관리자 또는 Power BI 서비스 관리자는 테넌트에 REST API를 사용하도록 설정하거나 해제할 수 있습니다. Power BI 관리자는 전체 조직 또는 개별 보안 그룹에 대해 이 설정을 지정할 수 있습니다. 기본적으로 전체 조직에서 사용하도록 설정됩니다. 이 작업은 [Power BI 관리 포털](../service-admin-portal.md)을 통해 수행할 수 있습니다.
+
 ## <a name="next-steps"></a>다음 단계
-이 자습서에서는 **Power BI 조직 계정**을 사용하여 응용 프로그램에 Power BI 콘텐츠를 포함하는 방법을 배웠습니다. 이제 앱을 사용하여 Power BI 콘텐츠를 응용 프로그램에 포함할 수 있습니다.  타사 고객을 위해 Power BI 콘텐츠를 포함할 수도 있습니다.
+이 자습서에서는 **Power BI 조직 계정**을 사용하여 응용 프로그램에 Power BI 콘텐츠를 포함하는 방법을 배웠습니다. 이제 앱을 사용하여 Power BI 콘텐츠를 응용 프로그램에 포함할 수 있습니다.  고객을 위해 Power BI 콘텐츠를 포함할 수도 있습니다.
 
 > [!div class="nextstepaction"]
 > [앱에서 포함](embed-from-apps.md)
 
 > [!div class="nextstepaction"]
->[타사 고객을 위해 포함](embed-sample-for-customers.md)
+>[고객에 대한 콘텐츠 포함](embed-sample-for-customers.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

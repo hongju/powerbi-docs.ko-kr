@@ -1,0 +1,65 @@
+---
+title: Power BI Embedded 용량 크기 조정 | Microsoft Docs
+description: 이 아티클은 Microsoft Azure에서 Power BI Embedded 용량 조정 방법을 안내합니다.
+services: power-bi-embedded
+author: markingmyname
+ms.author: maghan
+manager: kfile
+editor: ''
+tags: ''
+ms.service: power-bi-embedded
+ms.topic: conceptual
+ms.date: 07/31/2018
+ms.openlocfilehash: 08ba4113eb4988919c249052e883e8887295a028
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39360372"
+---
+# <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal에서 Power BI Embedded 용량 크기 조정을 참조하세요.
+
+이 아티클은 Microsoft Azure에서 Power BI Embedded 용량 조정 방법을 안내합니다. 크기 조정을 통해 용량의 크기를 늘리거나 줄일 수 있습니다.
+
+여기에서는 사용자가 Power BI Embedded 용량을 만들었다고 가정합니다. 아직 만들지 않은 경우 [Azure Portal에서 Power BI Embedded 용량 만들기](azure-pbie-create-capacity.md)를 참조하여 시작하세요.
+
+> [!NOTE]
+> 크기 조정 작업은 약 1 분이 걸릴 수 있습니다. 이 시간 동안 용량은 사용할 수 없습니다. 포함된 콘텐츠를 로드하지 못할 수 있습니다.
+
+## <a name="scale-a-capacity"></a>용량 크기 조정
+
+1. [Azure Portal](https://portal.azure.com/)에 로그인합니다.
+
+2. **모든 서비스** > **Power BI Embedded**를 선택하여 용량을 확인합니다.
+
+    ![Azure Portal 내 모든 서비스](media/azure-pbie-scale-capacity/azure-portal-more-services.png)
+
+3. 크기를 조정할 용량을 선택합니다.
+
+    ![Azure Portal 내 Power BI Embedded 용량](media/azure-pbie-scale-capacity/azure-portal-capacity-list.png)
+
+4. 용량 내 **크기**에서 **가격 책정 계층**을 선택합니다.
+
+    ![크기의 가격 책정 계층](media/azure-pbie-scale-capacity/azure-portal-scale-pricing-tier.png)
+
+    현재 가격 책정 계층은 파란색으로 윤곽이 표시되어 있습니다.
+
+    ![파란색으로 윤곽이 표시된 현재 가격 책정 계층](media/azure-pbie-scale-capacity/azure-portal-current-tier.png)
+
+5. 크기를 확장 또는 축소하려면 이동할 새 계층을 선택합니다. 새 계층을 선택하면 선택 영역 주위에 파란색 점선 윤곽이 표시됩니다. 새 계층으로 크기를 조정하려면 **선택**을 선택합니다.
+
+    ![새 계층 선택](media/azure-pbie-scale-capacity/azure-portal-select-new-tier.png)
+
+    용량 크기 조정을 완료하는 데 1~2분 정도 걸릴 수 있습니다.
+
+6. 개요 탭을 확인하여 계층을 확인합니다. 현재 가격 책정 계층이 나열됩니다.
+
+    ![현재 계층 확인](media/azure-pbie-scale-capacity/azure-portal-confirm-tier.png)
+
+## <a name="next-steps"></a>다음 단계
+
+용량을 일시 중지 또는 시작하려면 [Azure Portal에서 Power BI Embedded 용량 일시 중지 및 시작](azure-pbie-pause-start.md)을 참조하세요.
+
+응용 프로그램 내에서 Power BI 콘텐츠를 포함하려면 [Power BI 대시보드, 보고서 및 타일 포함 방법](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/)을 참조하세요.
+
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

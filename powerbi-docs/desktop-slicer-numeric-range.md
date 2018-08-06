@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1e380a6821db7207d14e719fa5e070af38196b97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 135e6ff76a0972bdedbff3eaf7ab1222f82a94ab
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286937"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39331176"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Power BI Desktop에서 숫자 범위 슬라이서 사용
 **숫자 범위 슬라이서**를 사용하여 데이터 모델의 모든 숫자 열에 모든 종류의 필터를 적용할 수 있습니다. **사이** 숫자, 숫자**보다 작거나 같음** 또는 숫자**보다 크거나 같음**을 필터링하도록 선택할 수 있습니다. 간단하게 들릴 수도 있지만 데이터를 필터링하는 매우 강력한 방법입니다.
@@ -53,7 +53,7 @@ ms.locfileid: "34286937"
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>숫자 범위 슬라이서를 사용하여 정수로 맞춤
 
-10진수 범위가 아닌 경우 숫자 범위 슬라이서는 정수에 맞춰집니다. 슬라이서를 깔끔하게 정수로 맞출 수 있습니다. 
+숫자 범위 슬라이서는 기본 필드의 데이터 유형이 **정수**인 경우 정수로 맞춰집니다. 슬라이서를 깔끔하게 정수로 맞출 수 있습니다. **10진수** 유형 필드에서는 숫자의 분수를 입력하거나 선택할 수 있습니다. 텍스트 상자에 적용된 서식은 더 정밀한 숫자를 입력하거나 선택할 수 있더라도 필드에 설정된 서식과 매칭됩니다.
 
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
@@ -61,3 +61,4 @@ ms.locfileid: "34286937"
 
 * 현재 **숫자 범위 슬라이서**는 집계된 값이 아닌 데이터에 있는 모든 기본 행을 필터링합니다. 예를 들어 *판매량* 필드를 사용한 경우 시각적 개체의 각 데이터 요소에 대한 *판매량* 의 총합이 아닌 *판매량* 에 따른 각 트랜잭션을 기반으로 필터링됩니다.
 * 현재는 측정값으로 작동하지 않습니다.
+* 기본 열에 있는 값의 범위를 벗어난 경우에도 숫자 슬라이서의 텍스트 상자에 원하는 수를 입력할 수 있습니다. 데이터가 앞으로 변경될 수 있다는 것을 아는 경우 필터를 설정할 수 있습니다.

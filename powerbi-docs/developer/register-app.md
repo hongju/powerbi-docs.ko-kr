@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/31/2018
+ms.date: 07/31/2018
 ms.author: maghan
-ms.openlocfilehash: 4242e2a88ab930c5f647bbfa4aa97fea1dc313ad
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 06e7c27579f559928dab822a7e0323cfb4abc1a1
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157128"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388597"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>포함된 Power BI 콘텐츠에 Azure AD 앱 등록
 Power BI 콘텐츠 포함에 사용하기 위해 Azure AD(Azure Active Directory) 내에서 응용 프로그램을 등록하는 방법에 대해 알아봅니다.
@@ -36,7 +36,7 @@ Power BI 앱 등록 도구를 사용하여 응용 프로그램을 등록하는 �
 3. **앱 이름**을 제공합니다.
 4. 앱 형식 선택은 사용하는 응용 프로그램의 유형에 따라 달라집니다.
    
-   * 클라이언트 장치에서 실행되는 앱에 대해 **네이티브 앱**을 사용합니다. 실제 응용 프로그램이 무엇인지에 관계 없이 사용자에 대한 콘텐츠를 포함하는 경우에도 **네이티브 앱**을 선택합니다. 웹 응용 프로그램에 대해서도 마찬가지입니다.
+   * 클라이언트 장치에서 실행되는 앱에 대해 **네이티브 앱**을 사용합니다. 웹 응용 프로그램의 경우에도 응용 프로그램이 무엇인지에 관계 없이 사용자에 대한 콘텐츠를 포함하는 경우 **네이티브 앱**을 선택해야 합니다.
    * 웹앱 또는 웹 API에 대해 **서버 쪽 웹앱**을 사용합니다.
 
 5. **리디렉션 URL** 및 **홈 페이지 URL**에 대한 값을 입력합니다. **리디렉션 URL**은 모든 유효한 URL과 함께 작동합니다.
@@ -81,7 +81,7 @@ Power BI 앱 등록 도구를 사용하여 응용 프로그램을 등록하는 �
 5. 메시지에 따라 새 응용 프로그램을 만듭니다.
    
    * 웹 응용 프로그램의 경우 사용자가 로그인할 수 있는 앱의 기준 URL인 로그온 URL을 제공합니다(예: `http://localhost:13526`).
-   * 네이티브 응용 프로그램의 경우 Azure AD가 토큰 응답을 반환하기 위해 사용하는 **리디렉션 URI**를 제공합니다. 응용 프로그램에 대한 값을 입력합니다(예: `http://myapplication/Redirect`).
+   * 네이티브 응용 프로그램의 경우 Azure AD가 토큰 응답을 반환하기 위해 사용하는 **리디렉션 URI**를 제공합니다. 응용 프로그램에 특정된 값을 입력해야 합니다(예: `http://myapplication/Redirect`).
 
 Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 자세한 내용은 [Azure Active Directory와 응용 프로그램 통합](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)을 참조하세요.
 
@@ -93,7 +93,7 @@ Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 �
 1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
 2. 페이지의 오른쪽 위 모퉁이에서 사용자 계정을 선택하여 Azure AD 테넌트를 선택합니다.
 3. 왼쪽의 탐색 창에서 **추가 서비스**를 선택하고 **앱 등록**을 선택합니다.
-4. 클라이언트 ID를 검색할 응용 프로그램을 선택합니다.
+4. 사용해야 하는 클라이언트 ID를 검색할 응용 프로그램을 선택합니다.
 5. **응용 프로그램 ID**가 GUID로 나열됩니다. 이것은 응용 프로그램에 대한 클라이언트 ID입니다.
    
     ![앱 등록에서 응용 프로그램 ID로 나열된 클라이언트 ID](media/register-app/powerbi-embedded-app-registration-client-id.png)
@@ -128,7 +128,7 @@ Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 �
     ![](media/register-app/powerbi-embedded-azuread-app-permissions04.png)
 5. **필요한 권한**에서 **사용 권한 부여**를 선택합니다.
    
-    Azure AD에서 동의하도록 요구하는 메시지가 표시되지 않게 하려면*마스터 계정*에 **권한 부여** 작업이 필요합니다. 이 작업을 수행하는 계정이 전역 관리자인 경우, 조직 내 모든 사용자에게 이 응용 프로그램에 대한 권한을 부여합니다. 이 작업을 수행하는 계정이 *마스터 계정*이고 전역 관리자가 아닌 경우, 이 응용 프로그램의 *마스터 계정*에만 권한을 부여합니다.
+    Azure AD에서 동의하도록 요구하는 메시지가 표시되지 않게 하려면 **권한 부여** 작업이 *마스터 계정*에 필요합니다. 이 작업을 수행하는 계정이 전역 관리자인 경우, 조직 내 모든 사용자에게 이 응용 프로그램에 대한 권한을 부여합니다. 이 작업을 수행하는 계정이 *마스터 계정*이고 전역 관리자가 아닌 경우, 이 응용 프로그램의 *마스터 계정*에만 권한을 부여합니다.
    
     ![필요한 권한 대화 상자에서 권한 부여](media/register-app/powerbi-embedded-azuread-app-grant-permissions.png)
 
@@ -160,19 +160,25 @@ Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 �
     
      비대화형 로그인을 수행할 때 불가능한 Azure AD의 동의 요청을 피하기 위해 마스터 계정에 *사용 권한 부여*가 필요합니다.
    
-     ```
+     ```json
      Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
      Authorization: Bearer ey..qw
      Content-Type: application/json
      { 
      "clientId":"{Service_Plan_ID}",
      "consentType":"AllPrincipals",
-     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "resourceId":"c78a3685-1ce7-52cd-95f7-dc5aea8ec98e",
      "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
      "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
+    **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e*는 전역적이지 않지만 테넌트 종속입니다. 이 값은 AAD 테넌트에서 "Power BI 서비스" 응용 프로그램의 objectId입니다.
+
+    사용자는 Azure Portal에서 이 값을 신속하게 가져올 수 있습니다.
+    1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+    2. 검색 상자에서 "Power BI 서비스" 검색
+
 5. AAD(Azure Active Directory)에 앱 사용 권한 부여
    
    **consentType**의 값은 **AllPrincipals** 또는 **Principal** 중 하나를 제공할 수 있습니다.
@@ -182,7 +188,7 @@ Azure Active Directory에 응용 프로그램을 등록하는 방법에 대한 �
     
    비대화형 로그인을 수행할 때 불가능한 Azure AD의 동의 요청을 피하기 위해 마스터 계정에 *사용 권한 부여*가 필요합니다.
 
-   ```
+   ```json
    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
    Authorization: Bearer ey..qw
    Content-Type: application/json

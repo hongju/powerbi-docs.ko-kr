@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a1719f8a6f9f4ad3989aa498c584b337cd9fdd00
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d735ff366d422d03186c25a0b358e87d6790a260
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182751"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280619"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 서비스에 대한 기본 개념
 
@@ -87,7 +87,7 @@ Power BI의 4가지 주요 구성 요소는 ***대시보드***, ***보고서***,
 * [Power BI에 대한 샘플 데이터 집합](sample-datasets.md)
 
 ## <a name="reports"></a>보고서
-Power BI 보고서는 한 장 이상의 시각화 페이지입니다(꺾은 선형 차트, 원형 차트, 트리맵 등 차트와 그래프). 시각화는 ***시각적 개체***라고도 합니다. 보고서의 모든 시각화는 단일 데이터 집합에서 제공합니다. 보고서는 Power BI 내에서 처음부터 새로 만들거나, 동료가 공유한 대시보드를 사용하여 가져오거나, Excel, Power BI Desktop, 데이터베이스, SaaS 응용 프로그램 및 [앱](service-get-data.md)의 데이터 집합에 연결할 경우 만들 수 있습니다.  예를 들어 파워 뷰 시트가 포함된 Excel 통합 문서에 연결하면 Power BI에서 해당 시트를 기반으로 보고서를 만듭니다. 또한 SaaS 응용 프로그램에 연결하면 Power BI에서 미리 작성된 보고서를 가져옵니다.
+Power BI 보고서는 한 장 이상의 시각화 페이지입니다(꺾은선형 차트, 원형 차트, 트리맵 등 차트와 그래프). 시각화는 ***시각적 개체***라고도 합니다. 보고서의 모든 시각화는 단일 데이터 집합에서 제공합니다. 보고서는 Power BI 내에서 처음부터 새로 만들거나, 동료가 공유한 대시보드를 사용하여 가져오거나, Excel, Power BI Desktop, 데이터베이스, SaaS 응용 프로그램 및 [앱](service-get-data.md)의 데이터 집합에 연결할 경우 만들 수 있습니다.  예를 들어 파워 뷰 시트가 포함된 Excel 통합 문서에 연결하면 Power BI에서 해당 시트를 기반으로 보고서를 만듭니다. 또한 SaaS 응용 프로그램에 연결하면 Power BI에서 미리 작성된 보고서를 가져옵니다.
 
 보고서는 [읽기용 보기와 편집용 보기](service-reading-view-and-editing-view.md)의 두 가지 모드로 보고 상호 작용할 수 있습니다.  보고서, 공동 소유자 및 해당 권한 부여를 만든 사람만이 보고서에 대한 ***편집용 보기*** 의 탐색, 디자인, 구축, 공유 기능 모두에 대한 액세스 권한을 갖습니다. 그리고 보고서를 공유하는 사람들은 ***읽기용 보기***를 사용하여 보고서를 탐색하고 보고서와 상호 작용할 수 있습니다.   
 

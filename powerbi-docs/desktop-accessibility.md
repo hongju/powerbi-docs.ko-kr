@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210287"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256035"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서의 내게 필요한 옵션
 Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 상호 작용할 수 있도록 하는 기능이 있습니다. 이러한 기능에는 키보드 또는 화면 판독기를 사용하여 보고서를 이용하고 탭 키로 페이지에 있는 다양한 개체에 포커스를 이동하며 시각적 개체에 표식을 세밀하게 사용하는 기능이 있습니다.
@@ -40,6 +40,8 @@ Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 �
 * 포커스가 로드된 *보고서 페이지*에 있는 경우 *탭* 키를 사용하여 페이지의 각 개체(모든 텍스트 상자, 이미지, 셰이프 및 차트)로 포커스를 이동합니다. 화면 판독기는 개체의 유형, 개체의 제목(있는 경우) 및 해당 개체에 대한 설명(보고서 작성자가 제공한 경우)을 읽습니다. 
 
 시각적 개체 사이를 탐색할 때 추가적으로 상호 작용하려면 **Alt+Shift+F10**을 눌러 정렬, 차트 뒤의 데이터 내보내기 및 포커스 모드가 포함된 다양한 옵션을 포함하는 시각적 헤더로 포커스를 이동시킬 수 있습니다. 
+
+![Power BI Desktop에서 Alt+Shift+F10을 눌러 시각적 헤더로 포커스 이동](media/desktop-accessibility/accessibility_08.png)
 
 **Alt+Shift+F11**을 눌러 *데이터 참조* 창에 액세스할 수 있는 버전을 표시할 수 있습니다. 이렇게 하면 화면 판독기에서 일반적으로 사용하는 것과 동일한 바로 가기 키를 사용하여 HTML 테이블의 시각적 개체에 사용된 데이터를 탐색할 수 있습니다. 
 
