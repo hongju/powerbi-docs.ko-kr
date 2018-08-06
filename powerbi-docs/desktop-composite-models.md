@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2eb69896de8226fdf0033f980a8b4b5164c68c3d
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280159"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388850"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop의 복합 모델(미리 보기)
 
@@ -33,7 +33,7 @@ ms.locfileid: "39280159"
 
 * **복합 모델**은 이 문서에서 자세히 설명합니다.
 * **다 대 다 관계**는 관련 문서 [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)에서 설명합니다.
-* **저장소 모드**는 자체 문서인 [Power BI Desktop(미리 보기)의 저장소 모드](desktop-storage-mode.md)에서 설명합니다.
+* **저장소 모드**는 자체 문서인 [Power BI Desktop의 저장소 모드(미리 보기)](desktop-storage-mode.md)에서 설명합니다.
 
 ## <a name="enabling-the-composite-models-preview-feature"></a>복합 모델 미리 보기 기능 사용
 
