@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 452226f8d5b8e0ca05fc4d9e81355c7a4c10e923
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092647"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582641"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Power BI로 Acumatica에 연결
 Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하게 파악할 수 있습니다. Power BI는 기회, 계정 및 고객을 포함하여 데이터를 검색한 다음 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다.
@@ -37,7 +37,7 @@ Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하�
    ![](media/service-connect-to-acumatica/acumatica.png)
 4. Acumatica OData 끝점을 입력합니다. OData 끝점을 사용하면 외부 시스템이 Acumatica에서 데이터를 요청할 수 있습니다. Acumatica OData 끝점의 형식은 다음과 같고, HTTPS를 사용해야 합니다.
    
-     https://[sitedomain]/odata/[companyname]
+     `https://[sitedomain]/odata/[companyname]`
    
    회사 이름은 복수 기업 배포가 있는 경우에만 필요합니다. Acumatica 계정에서 이 매개 변수를 찾는 방법에 대한 자세한 내용은 아래에 포함되어 있습니다.
    
