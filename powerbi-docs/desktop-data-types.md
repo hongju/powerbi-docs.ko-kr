@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 14b5f3d4b571df8ae672ee9731ed97555c476abd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 7c970cd28a50dc15a7b721107b17ceade24c3bb2
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456035"
+ms.locfileid: "39475755"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop의 데이터 형식
 이 문서에서는 Power BI Desktop 및 DAX(Data Analysis Expressions)에서 지원하는 데이터 형식을 설명합니다. 
@@ -45,6 +45,11 @@ Power BI Desktop은 3가지 숫자 형식을 지원합니다.
 **고정 10진수** – 소수 구분 기호의 고정 위치가 있습니다. 소수 구분 기호는 항상 오른쪽 4자리이며 19개의 숫자가 허용됩니다.  나타낼 수는 가장 큰 값은 922,337,203,685,477.5807(양수 또는 음수)입니다.  고정 10진수 형식은 반올림에서 오류가 발생할 수 있는 경우에 유용합니다.  소수 부분의 값이 작은 많은 숫자를 작업할 때 간혹 누적되어 숫자 값에 약간 차이가 있게 됩니다.  소수 구분 기호 오른쪽 4자리를 벗어난 값은 잘리므로 고정 10진수 형식은 이런 종류의 오류를 방지하는 데 도움이 됩니다.   SQL Server에 익숙할 경우 이 데이터 형식은 SQL Server의 10진수(19,4) 또는 Power Pivot의 통화 데이터 형식에 해당합니다. 
 
 **정수** – 64비트(8바이트) 정수 값을 나타냅니다. 정수이기 때문에 소수점 오른쪽에 자리가 없습니다. -9,223,372,036,854,775,808(-2^63) ~ 9,223,372,036,854,775,807(2^63-1) 범위의 양수 또는 음수 19자리가 허용됩니다.  다양한 숫자 데이터 형식 중에서 나타낼 수 있는 숫자 값이 가장 큽니다.  고정 10진수 형식처럼 실수 형식도 반올림을 억제해야 하는 상황에서 유용할 수 있습니다. 
+
+> [!NOTE]
+>  Power BI Desktop 데이터 모델은 64비트 정수 값을 지원하지만 JavaScript 제한 때문에 시각적 개체가 안전하게 표현할 수 있는 가장 큰 수는 9,007,199,254,740,991(2^53-1)입니다. 데이터 모델에서 이를 초과하는 숫자로 작업하는 경우 시각적 개체에 추가하기 전에 계산을 통해 크기를 줄일 수 있습니다. 
+> 
+>
 
 ### <a name="datetime-types"></a>날짜/시간 형식
 Power BI Desktop은 쿼리 보기에서 5가지, 보고서 보기 및 모델에서 3가지 날짜/시간 데이터 형식을 지원합니다.   모델로 로드하는 동안 날짜/시간/표준 시간대와 기간이 모두 변환됩니다.

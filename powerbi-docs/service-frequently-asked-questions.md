@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/28/2018
+sktopms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 5f117bdeb4e37986884c6a1021db1f361bdcddd3
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145390"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582677"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
@@ -47,8 +47,8 @@ Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>회사 메일을 사용하여 등록해야 하는 이유는 무엇인가요?
 Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. [Power BI 셀프 서비스 등록 프로세스](service-self-service-signup-for-power-bi.md)에 대해 자세히 알아보세요.
 
-## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>정부, 교육 및 비영리 기관용 가격 책정을 Power BI에 적용할 수 있나요?
-예, 비영리 기관용 가격 책정은 Microsoft로부터 직접 구입하는 경우 사용할 수 있습니다. [Microsoft 제품 기부](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) 사이트를 통해 자세한 정보를 알아보고 등록할 수 있습니다. 정부 및 교육 기관용 가격 책정은 MOSP/Direct, EA 및 Open 라이선싱 프로그램을 통해 제공됩니다. 정부 기관용 가격 책정도 배포에서 사용할 수 있습니다. 
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>정부, 교육 및 비영리 기관용 가격 책정을 Power BI에 적용할 수 있나요?
+예, 비영리 기관용 가격 책정은 Microsoft로부터 직접 구입하는 경우 사용할 수 있습니다. [Microsoft 비영리](https://www.microsoft.com/en-us/nonprofits/power-bi) 사이트를 통해 자세한 정보를 알아보고 등록할 수 있습니다. 정부 및 교육 기관용 가격 책정은 MOSP/Direct, EA 및 Open 라이선싱 프로그램을 통해 제공됩니다. 정부 기관용 가격 책정도 배포에서 사용할 수 있습니다. 
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI는 온-프레미스에서 사용할 수 있나요?
 Power BI 서비스([https://powerbi.com](https://powerbi.com))는 사설 내부 클라우드 서비스로 사용할 수 없습니다. 하지만, 온-프레미스에서 보고 작업할 수 있는 세 가지 다른 옵션이 제공됩니다. 

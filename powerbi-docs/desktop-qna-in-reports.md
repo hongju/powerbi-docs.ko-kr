@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8fd04b6c7fe83e7047d2eaecf4fb4b0e564f0e9f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329641"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475732"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>자연어 쿼리에 대한 Power BI Desktop의 Q&A 사용
 일반적인 구 및 자연어를 사용하여 데이터에 대해 질문하는 것은 강력한 기능입니다. 훨씬 더 강력한 것은 데이터가 응답할 때입니다. 즉, **Power BI Desktop**의 Q&A를 통해 수행할 수 있는 것입니다.
@@ -24,6 +24,11 @@ Q&A가 대응이 가능한 수많은 질문을 성공적으로 해석하도록 �
 
 > [!NOTE]
 > 질문 및 답변은 **가져온** 데이터가 포함된 모델로 작업할 때만 사용할 수 있습니다. SSAS 및 DirectQuery 모델에 대한 라이브 연결은 지원되지 않습니다.
+>
+>
+
+> [!NOTE]
+> Windows 10 이전의 Windows 버전을 사용하는 경우 질문 및 답변에는 C 런타임 업데이트가 필요합니다. Windows Update에서 중요 업데이트를 설치해 보거나 Microsoft에서 필수 구성 요소(KB2999226)를 수동으로 설치할 수 있습니다. https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
 

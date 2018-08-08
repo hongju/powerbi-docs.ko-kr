@@ -1,4 +1,4 @@
-1. 먼저 작업 영역을 만듭니다. **작업 영역** > **앱 작업 영역 만들기**를 선택합니다.
+1. 먼저 작업 영역을 만듭니다. **작업 영역** > **앱 작업 영역 만들기**를 선택합니다. 
    
      ![앱 작업 영역 만들기](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    

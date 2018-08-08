@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 002c1c256a0d78601d112e4ee34326c0914f9ac1
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: d0449087715b1fac82276810397167d2a5de8f28
+ms.sourcegitcommit: 9c0f990ffb66256eb342af8528987bb108069af6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37599692"
+ms.lasthandoff: 08/03/2018
+ms.locfileid: "39501411"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>대시보드 및 보고서의 사용 메트릭
 대시보드 및 보고서를 만드는 경우 사용량 메트릭은 해당 영향을 이해하도록 돕습니다. 대시보드 사용량 메트릭 또는 보고서 사용 메트릭을 실행하면 해당 대시보드 및 보고서가 조직 내에서 어떻게 사용되고 있는지, 무엇이 누구에 의해 어떠한 목적으로 사용되고 있는지를 파악할 수 있습니다.  
@@ -149,6 +149,10 @@ Power BI에서 완전한 기능을 갖춘 보고서를 만드는 경우 지난 9
 사용자별 데이터는 기본적으로 사용 현황 메트릭에 사용되고 콘텐츠 생성자 계정 정보는 메트릭 보고서에 포함됩니다. 일부 또는 모든 사용자에게 이 정보를 포함하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정합니다. 그러면 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
 
 전체 조직에 대한 사용 메트릭을 비활성화하면 관리자는 **기존 사용 메트릭 콘텐츠 모두 삭제** 옵션을 사용하여 사용 메트릭 보고서 및 데이터 집합을 통해 빌드한 기존 보고서 및 대시보드 타일을 모두 삭제할 수 있습니다. 이 옵션은 이미 사용 메트릭을 사용 중일 수도 있는 조직의 모든 사용자에게서 사용 메트릭 데이터에 대한 모든 액세스를 제거합니다. 기존 사용 메트릭 콘텐츠 삭제는 되돌릴 수 없으므로 조심해야 합니다.
+
+## <a name="usage-metrics-in-national-clouds"></a>국가별 클라우드의 사용 메트릭
+
+Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. 이러한 클라우드는 서비스 전달, 데이터 주거성, 액세스 및 통제와 관련하여 로컬 규정에 부합하는 고유 모델과 결합된 Power BI 글로벌 버전으로서 동일한 수준의 보안, 개인 정보 보호, 규정 준수 및 투명성을 제공합니다. 지역 규정에 대한 이 고유한 모델로 인해 사용 메트릭을 국가별 클라우드에서 사용할 수 없습니다. 자세한 내용은 [국가별 클라우드](https://powerbi.microsoft.com/en-us/clouds/)를 참조하세요.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 Q: 대시보드 또는 보고서에서 사용 메트릭을 실행할 수 없습니다.    

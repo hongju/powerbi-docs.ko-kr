@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2018
+ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: a90dbf4341bd801c4ab7de05b68211be62a4d69d
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: cd9762a5f9a46ab7d726a326c1b231f30c8e6271
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37067104"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582503"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI와 함께 사용 가능한 샘플 데이터는 무엇입니까?
 Power BI를 처음 접하고, 사용해 보고 싶지만 데이터가 없는 경우가 있습니다.  또는 데이터 집합이 있지만 Power BI의 작동 원리를 아직 잘 모르기 때문에 데이터 집합이 조금이라도 손상될까봐 걱정하는 분들이 있습니다.
@@ -176,7 +176,8 @@ Excel 통합 문서의 데이터가 Power BI 데이터 집합 및 보고서로 �
 1. 아래에 있는 링크를 사용하여 파일을 개별적으로 다운로드하세요. 이러한 링크를 선택하면 파일을 다운로드 폴더에 자동으로 저장합니다. 
 
    * [소매점 분석 샘플 PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-   * [공급업체 품질 분석 샘플 PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix)
+   * [공급업체 품질 분석 샘플 PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
+   <!-- Previous link doesn't work -->
    * [인적 자원 샘플 PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
    * [고객 수익성 샘플 PBIX](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
    * [기회 추적 샘플 PBIX](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)

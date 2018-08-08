@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 970bd7d2ba511b5b68fdac8bfc025133a117d0ae
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "34295770"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39615916"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>빠른 시작: Power BI 모바일 앱에서 대시보드 및 보고서 살펴보기
 이 빠른 시작에서는 Android 휴대폰에서 Power BI 모바일 앱의 샘플 대시보드 및 보고서를 살펴봅니다. 다른 모바일 앱에서도 따라할 수 있습니다. 
 
 적용 대상:
 
-| ![iPhone](media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android ](media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Windows 10 장치](media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
+| ![iPhone](media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Windows 10 장치](media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
 

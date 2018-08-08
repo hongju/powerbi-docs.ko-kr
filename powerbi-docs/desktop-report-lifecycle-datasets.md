@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4c4fbb5ea019ca439ecf063c91a69348ef33bbc2
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721113"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624002"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop에서 Power BI 서비스의 데이터 집합에 연결
 Power BI 서비스에서 공유 데이터 집합에 대한 라이브 연결을 설정하고 동일한 데이터 집합에서 다양한 보고서를 만들 수 있습니다. 즉, Power BI Desktop에서 완벽한 데이터 모델을 만들고 이를 Power BI 서비스에 게시하면 사용자가 동일한 공통 데이터 모델에서 여러 개의 다른 보고서(별도의 .pbix 파일)를 작성할 수 있습니다. 이 기능을 **Power BI 서비스 라이브 연결**이라고 합니다.
@@ -37,7 +37,7 @@ Anna(비즈니스 분석가)는 여러분의 팀원이며 좋은 데이터 모�
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>라이브 연결을 사용하여 Power BI 서비스 데이터 집합에 연결
 Anna가 자신의 보고서를 만들면(그리고 이를 기반으로 데이터 집합을 만들면) 보고서를 **Power BI 서비스**에 게시하며 이 내용이 Power BI 서비스의 작업 영역에 표시됩니다. 이제 모든 사람이 Anna의 작업 영역을 보고 사용할 수 있습니다.
 
-작업 영역에 대해 자세히 알아보려면 [앱 작업 영역](service-create-distribute-apps.md#app-workspaces)을 참조하세요.
+작업 영역에 대해 자세히 알아보려면 [앱 작업 영역](service-create-workspaces.md)을 참조하세요.
 
 작업 영역의 다른 멤버는 이제 **Power BI 서비스 라이브 연결** 기능을 사용하여 Anna의 공유 데이터 모델에 라이브 연결을 설정하고 그녀의 원본 데이터 집합에서 자신의 고유한 보고서를 만들 수 있습니다.
 
