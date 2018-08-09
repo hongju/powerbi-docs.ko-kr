@@ -60,8 +60,8 @@ Azure 감사 로그 콘텐츠 팩을 사용하려면 Azure Portal에서 감사 �
 ## <a name="finding-parameters"></a>매개 변수 찾기
 두 가지 간단한 방법으로 구독 ID를 찾을 수 있습니다.
 
-1. https://portal.azure.com -&gt; 찾아보기 -&gt; 구독 -&gt; 구독 ID에서
-2. https://manage.windowsazure.com -&gt; 설정-&gt; 구독 ID에서
+1. https://portal.azure.com  -&gt; 찾아보기 -&gt; 구독 -&gt; 구독 ID에서
+2. https://manage.windowsazure.com  -&gt; 설정-&gt; 구독 ID에서
 
 구독 ID는 숫자와 문자의 긴 집합으로, 위 \#4단계의 예와 유사합니다. 
 
