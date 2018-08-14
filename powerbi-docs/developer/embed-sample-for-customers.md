@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 781e34eadfccb89954c0a8548589e1bf89830079
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359757"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39616054"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>자습서: Power BI 보고서, 대시보드 또는 타일을 고객의 응용 프로그램에 포함
-**Azure의 Power BI Embedded**를 통해 **앱 소유 데이터**를 사용하여 응용 프로그램에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **앱 소유 데이터**는 해당 임베디드 분석 플랫폼으로 Power BI를 사용하는 응용 프로그램을 갖는 것입니다. 이는 일반적으로 **ISV 개발자** 시나리오입니다. **ISV 개발자**로서, 응용 프로그램 사용자가 Power BI 라이선스를 가질 필요가 없고, 내부적으로 Power BI임을 아는 경우에도 응용 프로그램에서 보고서, 대시보드 또는 타일을 표시하며 완벽하게 통합되고, 대화형인 Power BI 콘텐츠를 만들 수 있습니다. 이 자습서에서는 **앱 소유 데이터**를 사용하는 고객에 대해 **Azure의 Power BI Embedded**를 사용하는 경우 **Power BI** JavaScript API와 함께 **Power BI** .NET SDK를 사용하여 보고서를 응용 프로그램에 통합하는 방법을 보여 줍니다.
+**Azure의 Power BI Embedded**를 통해 **앱 소유 데이터**를 사용하여 응용 프로그램에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **앱 소유 데이터**는 해당 임베디드 분석 플랫폼으로 Power BI를 사용하는 응용 프로그램을 갖는 것입니다. **앱 소유 데이터**를 사용하는 작업은 일반적으로 **ISV 개발자** 시나리오입니다. **ISV 개발자**로서 응용 프로그램 사용자가 Power BI 라이선스 없이 완벽하게 통합된 대화형 응용 프로그램에서 보고서, 대시보드 또는 타일을 표시하는 **Power BI** 콘텐츠를 만들 수 있습니다. 이 자습서에서는 **앱 소유 데이터**를 사용하는 고객에 대해 **Azure의 Power BI Embedded**를 사용하는 경우 **Power BI** JavaScript API와 함께 **Power BI** .NET SDK를 사용하여 보고서를 응용 프로그램에 통합하는 방법을 보여 줍니다.
 
 이 자습서에서는 다음 작업을 수행하는 방법을 알아봅니다.
 >[!div class="checklist"]
@@ -32,7 +32,7 @@ ms.locfileid: "39359757"
 * 고유한 [Azure Active Directory 테넌트 ](create-an-azure-active-directory-tenant.md) 설정을 사용해야 합니다.
 * [Visual Studio](https://www.visualstudio.com/)를 설치해야 합니다(버전 2013 이상).
 
-## <a name="setup-your-embedded-analytics-development-environment"></a>임베디드 분석 개발 환경 설정
+## <a name="set-up-your-embedded-analytics-development-environment"></a>임베디드 분석 개발 환경 설정
 
 응용 프로그램으로 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 포함을 허용하도록 설정되었는지 확인해야 합니다. 설치의 일부로 다음을 수행해야 합니다.
 
@@ -49,7 +49,7 @@ Azure Active Directory에 응용 프로그램을 등록하여 응용 프로그�
  
     ![Azure Portal 주](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-3. 왼쪽 탐색 창에서 **모든 서비스**를 선택하고 **앱 등록**, **새 응용 프로그램 등록**을 차례로 선택합니다.
+3. 왼쪽 탐색 창에서 **모든 서비스**를 선택하고, **앱 등록**을 선택한 다음, **새 응용 프로그램 등록**을 선택합니다.
    
     ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![새 앱 등록](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
@@ -98,7 +98,7 @@ Azure Active Directory에 응용 프로그램을 등록하여 응용 프로그�
    
     ![필요한 권한 대화 상자에서 권한 부여](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
-## <a name="setup-your-power-bi-environment"></a>Power BI 환경 설정
+## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
 
 ### <a name="create-an-app-workspace"></a>앱 작업 영역 만들기
 
@@ -269,7 +269,9 @@ var embedConfig = new EmbedConfig()
 이는 **EmbedConfig** 및 **TileEmbedConfig**에 대한 클래스가 생성되었음을 의미합니다. 이 항목에 대한 샘플은 **Models\EmbedConfig.cs** 파일 및 **Models\TileEmbedConfig.cs 파일** 내에서 사용 가능합니다.
 
 ### <a name="load-an-item-using-javascript"></a>JavaScript를 사용하여 항목 로드
-JavaScript를 사용하여 웹 페이지의 div 요소로 보고서를 로드합니다. 
+JavaScript를 사용하여 웹 페이지의 div 요소로 보고서를 로드합니다.
+
+JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](https://microsoft.github.io/PowerBI-JavaScript/demo)를 사용할 수 있습니다. 이 방법으로 다양한 유형의 Power BI Embedded 샘플을 빠르게 재생할 수 있습니다. [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 페이지를 방문하여 JavaScript API에 대한 추가 정보를 얻을 수도 있습니다.
 
 보고서에 대한 보기와 함께 **EmbedConfig** 모델 및 **TileEmbedConfig** 모델을 사용하는 샘플은 다음과 같습니다.
 
@@ -316,25 +318,23 @@ JavaScript를 사용하여 웹 페이지의 div 요소로 보고서를 로드합
 </script>
 ```
 
-JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](https://microsoft.github.io/PowerBI-JavaScript/demo)를 사용할 수 있습니다. 이 방법으로 다양한 유형의 Power BI Embedded 샘플을 빠르게 재생할 수 있습니다. [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 페이지를 방문하여 JavaScript API에 대한 추가 정보를 얻을 수도 있습니다.
-
 ## <a name="move-to-production"></a>프로덕션으로 이동
 
 이제 응용 프로그램 개발을 완료했으므로 전용 용량을 포함한 앱 작업 영역으로 돌아갈 차례입니다. 전용 용량은 프로덕션으로 이동해야 합니다.
 
 ### <a name="create-a-dedicated-capacity"></a>전용 용량 만들기
-전용 용량을 만들면 고객을 위해 전용 리소스의 혜택을 활용할 수 있습니다. [Microsoft Azure Portal](https://portal.azure.com) 내에서 전용 용량을 구입할 수 있습니다. Power BI Embedded 용량을 만드는 방법에 대한 자세한 내용은 [Azure Portal에서 Power BI Embedded 용량 만들기](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)를 참조하세요.
+전용 용량을 만들면 고객을 위해 전용 리소스의 혜택을 활용할 수 있습니다. [Microsoft Azure Portal](https://portal.azure.com) 내에서 전용 용량을 구입할 수 있습니다. Power BI Embedded 용량을 만드는 방법에 대한 자세한 내용은 [Azure Portal에서 Power BI Embedded 용량 만들기](azure-pbie-create-capacity.md)를 참조하세요.
 
 아래 표를 사용하여 필요에 맞는 최적의 Power BI Embedded 용량을 결정합니다.
 
 | 용량 노드 | 총 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 코어 | 프런트 엔드 코어 | DirectQuery/라이브 연결 제한 | 사용량이 가장 많은 시간에 최대 페이지 렌더링 |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1v-코어 |0.5개 코어, 3GB RAM |0.5개 코어 | 초당 5 |1-300 |
-| A2 |2v-코어 |1개 코어, 5GB RAM |1개 코어 | 초당 10 |301-600 |
-| A3 |4v-코어 |2개 코어, 10GB RAM |2개 코어 | 초당 15 |601-1,200 |
-| A4 |8v-코어 |4개 코어, 25GB RAM |4개 코어 |초당 30 |1,201-2,400 |
-| A5 |16v-코어 |8개 코어, 50GB RAM |8개 코어 |초당 60 |2,401-4,800 |
-| A6 |32v-코어 |16개 코어, 100GB RAM |16개 코어 |초당 120 |4,801-9600 |
+| A1 |1개 가상 코어 |0.5개 코어, 3GB RAM |0.5개 코어 | 초당 5 |1-300 |
+| A2 |2개 가상 코어 |1개 코어, 5GB RAM |1개 코어 | 초당 10 |301-600 |
+| A3 |4개 가상 코어 |2개 코어, 10GB RAM |2개 코어 | 초당 15 |601-1,200 |
+| A4 |8개 가상 코어 |4개 코어, 25GB RAM |4개 코어 |초당 30 |1,201-2,400 |
+| A5 |16개 가상 코어 |8개 코어, 50GB RAM |8개 코어 |초당 60 |2,401-4,800 |
+| A6 |32개 가상 코어 |16개 코어, 100GB RAM |16개 코어 |초당 120 |4,801-9600 |
 
 **_SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다._**
 

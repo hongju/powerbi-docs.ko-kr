@@ -3,29 +3,29 @@ title: 조직 콘텐츠 팩 찾기 및 연결 - Power BI
 description: Power BI에서 조직 콘텐츠 팩 찾기 및 열기
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 67072d690f09e922601c6b14ad1c150e2298040b
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280228"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624278"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>조직 콘텐츠 팩 찾기 및 연결
-> [!NOTE]
-> 새 *앱*에 대해 아직 못 들으셨나요? 앱은 Power BI에서 대규모 대상에게 콘텐츠를 배포하는 새로운 방법입니다. 곧 조직 콘텐츠 팩의 사용을 중단할 계획이므로, 앱을 사용하는 것이 좋습니다. [앱](service-install-use-apps.md)에서 자세히 알아보세요.
-> 
-> 
 
 사용자가 조직 콘텐츠 팩을 조직, 배포 또는 보안 그룹 또는 사용자가 속한 [Office 365 그룹](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)에 게시하는 경우 AppSource에 표시됩니다.  AppSource를 찾아보거나 검색하여 조직 콘텐츠 팩을 찾아 엽니다.
 
 콘텐츠 팩을 만드는 것은 대시보드를 공유하거나 그룹 내에서 공동 작업하는 것과 다릅니다. [대시보드 및 보고서를 공동 작업 및 공유하는 방법](service-how-to-collaborate-distribute-dashboards-reports.md)에 대해 알아보고 상황에 맞는 최상의 옵션을 결정하세요.
+
+> [!NOTE]
+> 새 작업 영역 환경 미리 보기에서 조직 콘텐츠 팩을 만들거나 설치할 수 없습니다. 아직 시작하지 않은 경우 이제 콘텐츠 팩을 앱으로 업그레이드하세요. [새 작업 영역 환경에 대해 자세히](service-create-the-new-workspaces.md) 알아봅니다.
+> 
 
 ## <a name="find-an-organizational-content-pack"></a>조직 콘텐츠 팩 찾기
 [Power BI Pro](https://powerbi.microsoft.com/pricing) 사용자는 모두 배포 또는 보안 그룹, 사용자가 속한 Office 365 그룹에 전체 조직과 공유된 콘텐츠 팩이 표시하는 AppSource로 갈 수 있습니다.  

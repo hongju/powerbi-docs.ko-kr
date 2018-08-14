@@ -3,24 +3,23 @@ title: '조직 콘텐츠 팩: 관리 및 업데이트'
 description: Power BI에서 조직 콘텐츠 팩을 관리, 업데이트 및 삭제하는 방법에 대해 알아봅니다.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182797"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624324"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>조직 콘텐츠 팩 관리, 업데이트 및 삭제
 > [!NOTE]
-> 새 *앱*에 대해 아직 못 들으셨나요? 앱은 Power BI에서 대규모 대상에게 콘텐츠를 배포하는 새로운 방법입니다. 곧 조직 콘텐츠 팩의 사용을 중단할 계획이므로, 앱을 사용하는 것이 좋습니다. [앱](service-install-use-apps.md)에서 자세히 알아보세요.
-> 
+> 조직 콘텐츠 팩을 만들 수 없거나 새 작업 영역 환경 미리 보기에 설치할 수 없습니다. 아직 시작하지 않은 경우 이제 콘텐츠 팩을 앱으로 업그레이드하세요. [새 작업 영역 환경에 대해 자세히](service-create-the-new-workspaces.md) 알아봅니다.
 > 
 
 대시보드, 보고서, Excel 통합 문서 및 데이터 집합을 [조직 콘텐츠 팩](service-organizational-content-pack-introduction.md)으로 패키징하고 동료와 공유할 수 있습니다. 동료는 이것을 그대로 사용하거나 자신만의 복사본을 만들 수 있습니다.

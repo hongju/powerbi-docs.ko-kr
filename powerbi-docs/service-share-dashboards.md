@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e176f82e106c531410b8e9233b983c6e321bddf4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299059"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624394"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. Power BI는 [대시보드 및 보고서를 공동 작업하고 배포하는 여러 가지 다른 방법](service-how-to-collaborate-distribute-dashboards-reports.md)도 제공합니다.
@@ -91,6 +91,8 @@ Amanda가 회사 내부 및 외부의 동료와 대시보드를 공유하는 과
 
 4. **액세스 권한 제거** 대화 상자에서 보고서 및 데이터 집합과 같은 관련 콘텐츠에 대한 액세스를 제거할지 여부를 결정합니다. 경고 아이콘 ![Power BI 경고 아이콘](media/service-share-dashboards/power-bi-warning-icon.png)을 사용하여 항목을 제거하는 경우 제대로 표시되지 않으므로 관련 콘텐츠를 제거하는 것이 좋습니다.
 
+    ![Power BI 공유 경고 대화 상자](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
+
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>조직 외부 사용자와 대시보드 또는 보고서 공유
 조직 외부 사용자와 공유하는 경우 해당 사용자는 공유 대시보드 또는 보고서에 대한 링크가 포함된 메일을 수신하고 Power BI에 로그인하여 대시보드 또는 보고서를 확인해야 합니다. Power BI Pro 라이선스가 없는 경우 링크를 클릭한 후 라이선스를 등록할 수 있습니다.
 
@@ -145,6 +147,8 @@ Power BI 모바일 앱에서 조직 외부의 사람들에게 링크를 보낼 �
 ### <a name="i-cant-share-a-dashboard-or-report"></a>대시보드 또는 보고서를 공유할 수 없음
 
 대시보드 또는 보고서를 공유하려면 기본 콘텐츠(모든 관련 보고서 및 데이터 집합)를 다시 공유할 수 있는 권한이 있어야 합니다. 공유할 수 없다는 메시지가 표시되면 보고서 작성자에게 해당 보고서 및 데이터 집합에 대한 다시 공유 권한을 요청합니다.
+
+!["공유할 수 없습니다." 메시지](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
 
 
 ## <a name="next-steps"></a>다음 단계

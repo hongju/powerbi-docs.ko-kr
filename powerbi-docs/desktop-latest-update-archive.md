@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dcf63989a7d016b5795337f43c9524b05d2d54cd
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 8c2ee97fb39fe115da78bad7bc5787a152dfd793
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210379"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658153"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -34,10 +34,66 @@ ms.locfileid: "39210379"
 
 다음 섹션은 이전 달들의 **Power BI Desktop**에 대한 업데이트를 설명합니다.
 
+## <a name="july-2018-update-26051693201"></a>2018년 7월 업데이트(2.60.5169.3201)
+
+7월의 대규모 업데이트는 시각적 개체를 시작하고 다채로운 인사이트를 표시하는 장기 요청 데이터 및 보고 기능을 포함하여 극찬을 받았습니다.
+
+7월의 **Power BI Desktop**에 추가된 업데이트는 다음과 같습니다.
+
+### <a name="modeling"></a>모델링
+
+* 복합 모델(미리 보기)  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=15s)  [[문서]](desktop-composite-models.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* 다 대 다 관계(미리 보기)(복합 모델과 연관됨)  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=4m53s)  [[문서]](desktop-many-to-many-relationships.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* 저장소 모드(미리 보기)(복합 모델과 연관됨)  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=15s)  [[문서]](desktop-storage-mode.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+
+
+### <a name="reporting"></a>보고
+
+* 향상된 유연성과 서식 지정이 포함된 새 시각적 머리글  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=8m26s)  [[문서]](desktop-visual-elements-for-reports.md#using-improved-visual-headers-in-power-bi-reports)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visualHeader) 
+* 배경 화면 서식 지정  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=14m19s)  [[문서]](desktop-visual-elements-for-reports.md#using-wallpaper-in-power-bi-reports)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#wallpaper) 
+* 테마 설정 업데이트 - 더 많은 시각적 및 페이지 제어(미리 보기)  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=19m14s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#theme) 
+* 테이블 및 행렬의 도구 설명  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=22m53s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tableTooltips) 
+* 시각적 개체에 대한 도구 설명 끄기  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=22m53s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tooltips) 
+* 슬라이서 접근성  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=27m29s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#slicerAccessibility) 
+* 서식 지정 창 개선  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=30m18s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#formattingPane) 
+* 선 및 콤보 차트의 단계별 선 지원  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=32m46s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#steppedLine)에 대한 단계별 라인 지원 
+* 개별 시리즈의 콤보 차트 데이터 레이블 끄기  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=34m19s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
+* 정렬 환경 개선  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=35m44s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
+
+### <a name="analytics"></a>분석
+
+* 분포 요소 인사이트  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=37m)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
+
+### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+
+* Power BI 인증 범주  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=41m13s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
+* 특정 조직별 시각적 개체 사용 안 함  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=42m32s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
+* 4개의 새 사용자 지정 시각적 개체  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=44m)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
+
+### <a name="data-connectivity"></a>데이터 연결
+
+* IBM DB2 DirectQuery 커넥터(미리 보기)  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=54m25s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#IBMDB2) 
+* Web By Example 커넥터 개선 사항  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=54m53s)  [[문서]](desktop-connect-to-web-by-example.md)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#WebByExample) 
+* SAP HANA - 변수 입력 환경의 변수 기본값  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=56m19s)  [[문서]](desktop-sap-hana.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#SAPHANA) 
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mtig3rmIUe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 ## <a name="june-2018-update-2595135101"></a>2018년 6월 업데이트(2.59.5135.101)
 
-이번 달의 업데이트가 진행 중이었으며 귀하의 보고서를 반영하고 인사이트를 제공할 기능 및 개선 사항이 있었습니다.
+6월의 업데이트는 귀하의 보고서를 반영하고 제공된 인사이트를 통한 기능 및 개선 사항을 포함하였습니다.
 
 **Power BI Desktop** 2017년 6월 업데이트의 새 기능은 다음과 같습니다.
 

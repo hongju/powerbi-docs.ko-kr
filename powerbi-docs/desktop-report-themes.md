@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop에서 보고서 테마 사용(미리 보기)
+title: Power BI Desktop에서 보고서 테마 사용
 description: 사용자 지정 색상표를 사용하고 Power BI Desktop에서 전체 보고서에 적용하는 방법을 알아봅니다
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721182"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657946"
 ---
-# <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop에서 보고서 테마 사용(미리 보기)
+# <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
 **보고서 테마**를 사용하여 전체 보고서에 회사 색, 계절 색 지정 등의 색 테마를 적용하거나 적용하려는 모든 기타 색 테마를 적용할 수 있습니다. **보고서 테마**를 적용하는 경우 보고서의 모든 시각적 개체에서는 선택한 테마 색을 사용합니다(몇 가지 예외 적용, 이 문서의 뒷부분에서 설명).
 
 ![](media/desktop-report-themes/report-themes_1.png)
@@ -26,10 +26,14 @@ ms.locfileid: "34721182"
 
 **Power BI Desktop**의 2017년 9월 릴리스부터는 JSON 파일을 사용하여 더 많은 보고서 테마 요소를 정의하고 **서식** 창에서 직접 조정할 수 있는 JSON 파일을 사용하여 거의 모든 요소를 사용자 지정(및 표준화)할 수 있습니다. 2017년 9월 릴리스(이상)의 목표는 보고서 모양과 느낌을 세부적인 수준으로 완전히 제어하도록 설정하는 것입니다.
 
-### <a name="enable-report-themes-in-preview"></a>미리 보기 상태인 보고서 테마 사용
-**Power BI Desktop**의 **2017년 3월** 릴리스부터 새 **보고서 테마** 기능을 사용해 볼 수 있습니다. 이 미리 보기 기능을 사용하려면 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 다음 **사용자 지정 보고서 테마** 옆에 있는 확인란을 선택합니다. 선택한 후에는 **Power BI Desktop**을 다시 시작해야 합니다.
+### <a name="enable-report-themes"></a>보고서 테마 사용하도록 설정
+**Power BI Desktop**의 2018년 8월 릴리스를 기준으로 보고서 테마는 일반 공급되며, 사용하도록 설정할 필요가 없습니다. 
+
+이전 버전의 **Power BI Desktop**을 사용하는 경우 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택하여 미리 보기 기능으로 사용하도록 설정한 다음, **사용자 지정 보고서 테마** 옆에 있는확인란을 선택할 수 있습니다. 선택한 후에는 **Power BI Desktop**을 다시 시작해야 합니다.
 
 ![](media/desktop-report-themes/report-themes_2.png)
+
+[Power BI Desktop 가져오기](desktop-get-the-desktop.md)의 링크에서 설치할 수 있는 **Power BI Desktop**의 최신 릴리스로 업그레이드하는 것이 좋습니다. 
 
 ## <a name="how-report-themes-work"></a>보고서 테마 작동 방법
 Power BI Desktop 보고서에 보고서 테마를 적용하려면 **홈** 리본에서 **테마 전환** 단추를 선택한 다음 드롭다운 목록에서 **테마 가져오기**를 선택합니다.
@@ -100,7 +104,7 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
 또한 많은 **사용자 지정 시각적 개체**가 보고서 테마에 적용되지 않습니다.
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>지금 바로 사용할 수 있는 보고서 테마 파일
-**보고서 테마**를 시작하시겠습니까? 좋습니다! 이 문서에서 사용한 보고서에 적용된 해당 보고서 테마의 이미지와 **Power BI Desktop** 보고서에 다운로드하고 가져올 수 있는 즉시 사용 가능한 보고서 테마 JSON 파일은 다음과 같습니다.
+**보고서 테마**를 시작하시겠습니까? 좋습니다! 이 아티클에서 사용한 보고서에 적용된 해당 보고서 테마의 이미지와 **Power BI Desktop** 보고서에 다운로드하고 가져올 수 있는 즉시 사용 가능한 몇몇 보고서 테마 JSON 파일은 다음과 같습니다.
 
 * [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)에 사용되는 [테마](https://go.microsoft.com/fwlink/?linkid=843924)는 [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924)이라는 **보고서 테마**의 첫 번째 릴리스를 발표합니다.
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032074"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415395"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -63,29 +63,32 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 
 다음은 기능상 차이점의 일부 목록입니다.
 
-|특정  |Power BI Embedded<br>(A SKU) |Power BI Premium 용량<br>(EM SKU)  | 
-|---------|---------|---------|
-|Power BI 앱 작업 영역의 포함된 아티팩트     |Azure 용량 |Office 365 용량 |
-|보고서를 사용하려면 Power BI 라이선스 필요 |아니요  |예 |
-|Embedded 응용 프로그램에서 Power BI 보고서 사용 |예  |예 |
-|SharePoint에서 Power BI 보고서 사용 |아니요 |예 |
-|Teams에서 Power BI 보고서 사용 |아니요 |예 |
+| 특정 | Power BI Embedded | Power BI Premium 용량 | Power BI Premium 용량 |
+|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
+|   | (A SKU) | (EM SKU) | (P SKU) |
+| Power BI 앱 작업 영역의 아티팩트 포함 | Azure 용량 | Office 365 용량 | Office 365 용량 |
+| Embedded 응용 프로그램에서 Power BI 보고서 사용 | 예 | 예 | 예 |
+| SharePoint에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
+| Dynamics에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
+| Teams에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
+| Powerbi.com 및 Power BI 모바일에서 무료 Power BI 라이선스를 사용하여 콘텐츠 액세스 | 아니요 | 아니요 | 예 |
+| MS Office 앱에 포함된 무료 Power BI 라이선스를 사용하여 콘텐츠에 액세스 | 아니요 | 예 | 예 |
 
 ### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>이제 Power BI는 A SKU, EM SKU, P SKU의 세 가지 SKU를 포함할 수 있습니다. 제 시나리오에는 어떤 용량을 구매해야 하나요?
 
 |  |A SKU(Power BI Embedded)  |EM SKU(Power BI Premium)  |P SKU(Power BI Premium)  |
 |---------|---------|---------|---------|
 |구입     |Azure Portal |Office |Office |
-|사용 사례 |* 자체 응용 프로그램에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* 기타 SaaS 응용 프로그램([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [팀](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* 기타 SaaS 응용 프로그램([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [팀](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))에 콘텐츠 포함<br>* [Power BI 서비스](https://powerbi.microsoft.com/en-us/)를 통해 Power BI 사용자와 콘텐츠 공유  |
+|사용 사례 |* 자체 응용 프로그램에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* MS Office 응용 프로그램([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [팀](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* MS Office 응용 프로그램([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [팀](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))에 콘텐츠 포함<br>* [Power BI 서비스](https://powerbi.microsoft.com/en-us/)를 통해 Power BI 사용자와 콘텐츠 공유  |
 |청구 |시간별 |매월 |매월 |
 |약정  |약정 없음 |매년  |매월/매년 |
 |차별화 |탁월한 탄력성 - Azure Portal에서 또는 API를 통해 리소스를 강화/규모 축소, 일시 중지/다시 시작 가능  |SharePoint Online 및 Microsoft Teams에 콘텐츠를 포함하는 데 사용 가능 |응용 프로그램에 포함 및 Power BI 서비스 사용을 동일한 용량에 결합 |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure에서 PBIE 용량을 만드는 필수 구성 요소는 무엇입니까?
 
-- 조직 디렉토리에 로그인해야 합니다(MSA 계정은 지원되지 않음).
-- Power BI 테넌트가 있어야 합니다. 즉, 디렉토리에 있는 한 명 이상의 사용자가 Power BI에 가입해야 합니다. 
-- 조직 디렉토리에 Azure 구독이 있어야 합니다.
+* 조직 디렉토리에 로그인해야 합니다(MSA 계정은 지원되지 않음).
+* Power BI 테넌트가 있어야 합니다. 즉, 디렉토리에 있는 한 명 이상의 사용자가 Power BI에 가입해야 합니다. 
+* 조직 디렉토리에 Azure 구독이 있어야 합니다.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>용량 소비를 모니터링하려면 어떻게 하나요?
 
@@ -213,6 +216,8 @@ Power BI Embedded는 배포된 노드 유형을 기반으로 예측 가능한 �
 Power BI 작업 영역에 보고서를 추가해야 하는 분석가, REST API를 사용해야 하는 개발자, Power BI 테넌트 및 용량을 관리해야 하는 테넌트 관리자는 Power BI Pro 라이선스가 필요합니다.
 
 Power BI Embedded는 Power BI 포털을 사용하여 포함된 콘텐츠를 관리하고 유효성을 검증할 수 있으므로, 올바른 리포지토리의 보고서에 액세스할 수 있도록 PowerBI.com 내에서 앱을 인증하려면 Power BI Pro 라이선스가 필요 합니다.
+
+그러나 고유한 응용 프로그램 내의 [포함된 보고서 만들기/편집](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View)에서 최종 사용자가 Power BI 사용자일 필요가 없으므로 Pro 라이선스도 필요하지 않습니다.
 
 ### <a name="can-i-get-started-for-free"></a>무료로 시작할 수 있나요?
 

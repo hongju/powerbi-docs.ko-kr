@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: be4651d1658c80c84105a65bc48e4072ed203794
-ms.sourcegitcommit: 7bdb76bd80973c5e5174747b7e304705754fe647
+ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39217631"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657900"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>시각적 개체를 사용하여 Power BI 보고서 개선
 
@@ -59,6 +59,9 @@ ms.locfileid: "39217631"
 ![투명도가 50% 이상인 경우 생성된 점선 테두리](media/desktop-visual-elements-for-reports/visual-elements-for-reports_04.png)
 
 점선 경계는 보고서를 편집할 때’만’ 표시되고 **Power BI 서비스**에서 보는 경우와 같이 게시된 보고서를 보는 사람에게 표시되지 ‘않습니다’.
+
+> [!NOTE]
+> 배경 화면에 진한 색 배경을 사용하고 텍스트 색을 흰색이나 옅은 색으로 설정하는 경우 **PDF로 내보내기** 기능에는 배경 화면이 포함되지 않으므로 흰색 글꼴을 포함한 내보내기는 내보낸 PDF 파일에 거의 표시되지 않습니다. **PDF로 내보내기**에 대한 자세한 내용은 [PDF로 내보내기](desktop-export-to-pdf.md)를 참조하세요.
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Power BI 보고서에서 향상된 시각적 머리글 사용

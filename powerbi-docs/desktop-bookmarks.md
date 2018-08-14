@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b8c4066f3128899d2c3c8121d7c5d41768f89dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327824"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657969"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비롯한 보고서 페이지의 현재 구성된 보기를 캡처하고 저장된 해당 책갈피를 선택하여 나중에 해당 상태로 돌아갈 수 있습니다. 
@@ -113,6 +113,33 @@ Power BI Desktop 2018년 3월 버전부터 책갈피가 일반 공급됩니다.
 개체가 연결된 책갈피를 사용하여 다양한 작업을 수행할 수 있습니다. 개체를 클릭하여 보고서 페이지에서 콘텐츠의 시각적 테이블을 만들거나 동일한 정보의 다양한 보기(시각적 개체 형식과 같은)를 제공할 수 있습니다.
 
 편집 모드인 경우 ctrl 키를 사용하고 링크를 따르면 됩니다. 편집 모드가 아닌 경우 링크를 클릭하여 링크를 따르기만 하면 합니다. 
+
+## <a name="bookmark-groups"></a>책갈피 그룹
+
+**Power BI Desktop**의 2018년 8월 릴리스부터는 책갈피 그룹을 만들고 사용할 수 있습니다. 책갈피 그룹은 그룹으로 표시하고 구성할 수 있는 사용자가 지정한 책갈피의 컬렉션입니다. 
+
+책갈피 그룹을 만들려면 CTRL 키를 누른 채로 그룹에 포함할 책갈피를 선택한 다음, 선택한 책갈피 옆에 있는 줄임표를 클릭하고, 나타나는 메뉴에서 **그룹**을 선택합니다.
+
+![책갈피 그룹 만들기](media/desktop-bookmarks/bookmarks_15.png)
+
+**Power BI Desktop**에서는 자동으로 그룹의 이름을 *그룹 1*로 지정합니다. 다행스럽게도 이름을 두 번 클릭하기만 하면 원하는 대로 이름을 바꿀 수 있습니다.
+
+![책갈피 그룹 이름 바꾸기](media/desktop-bookmarks/bookmarks_16.png)
+
+책갈피 그룹에서 책갈피 그룹의 이름을 클릭하면 책갈피 그룹을 확장하거나 축소하기만 하고 자체적으로 책갈피를 나타내지 않습니다. 
+
+책갈피의 **보기** 기능을 사용하는 경우 다음이 적용됩니다.
+
+* 책갈피에서 **보기**를 선택하면 선택한 책갈피가 그룹인 경우 *해당 그룹의* 책갈피만이 보기 세션에 표시됩니다. 
+
+* 선택한 책갈피가 그룹이 아니거나 최상위 수준(예: 책갈피 그룹의 이름)인 경우 모든 그룹의 책갈피를 비롯한 전체 보고서에 대한 모든 책갈피가 재생됩니다. 
+
+책갈피의 그룹을 해제하려면 그룹의 모든 책갈피를 선택하고, 줄임표를 클릭한 다음, 나타나는 메뉴에서 **그룹 해제**를 선택하기만 하면 됩니다. 
+
+![책갈피 그룹 해제](media/desktop-bookmarks/bookmarks_17.png)
+
+그룹에서 책갈피에 **그룹 해제**를 선택하면 모든 책갈피를 그룹에서 빼옵니다(그룹을 삭제하지만 책갈피 자체는 삭제하지 않음). 따라서 그룹에서 단일 책갈피를 제거하려면 해당 그룹에서 모든 멤버의 **그룹 해제**가 필요합니다. 그러면 그룹화를 삭제한 다음, CTRL을 사용하고 각 책갈피를 클릭하여 새 그룹에서 원하는 멤버를 선택하고, **그룹**을 다시 선택합니다. 
+
 
 ## <a name="using-spotlight"></a>스포트라이트 사용
 책갈피에서 릴리스된 또 다른 기능은 **스포트라이트**입니다. 예를 들어 **스포트라이트**에서는 **보기** 모드에서 책갈피를 표시할 때 특정 차트에 주의를 집중할 수 있습니다.
