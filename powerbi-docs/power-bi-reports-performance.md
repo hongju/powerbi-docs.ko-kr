@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: v-mamcge
+ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582574"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257112"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 성능 모범 사례 
 이 문서에서는 Power BI에서 빠르고 신뢰할 수 있는 보고서를 빌드하기 위한 지침을 제공합니다.  
@@ -46,10 +46,10 @@ DirectQuery를 위한 데이터 원본 최적화에 대한 자세한 지침은 [
  
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>DirectQuery 및 라이브 연결: 기본 데이터 원본 성능의 이해 
 
-DirectQuery 또는 라이브 연결 사례에서 사용자가 Power BI 보고서를 방문하면 Power BI에서는 실시간으로 기본 데이터 원본으로 쿼리를 전송합니다. 데이터 원본이 쿼리 데이터와 함께 반환되고 나면 보고서가 렌더링됩니다. 결과적으로, 이러한 경우의 보고서 성과는 기본 데이터 원본의 성능에 크게 달라집니다. 
- 
-이러한 경우 기본 데이터 원본의 성능을 이해하는 것이 중요합니다. 서로 다른 데이터 원본에는 쿼리 성능을 이해하기 위한 다양한 도구가 있습니다. 예를 들어 SQL Server 및 Azure SQL은 쿼리 및 해당 런타임 통계의 기록을 캡처하는 쿼리 저장소를 제공합니다. 
- 
+DirectQuery 또는 라이브 연결 사례에서 사용자가 Power BI 보고서를 방문하면 Power BI에서는 실시간으로 기본 데이터 원본으로 쿼리를 전송합니다. 데이터 원본이 쿼리 데이터와 함께 반환되고 나면 보고서가 렌더링됩니다. 결과적으로, 이러한 경우의 보고서 성과는 기본 데이터 원본의 성능에 크게 달라집니다.
+
+이러한 경우 기본 데이터 원본의 성능을 이해하는 것이 중요합니다. 서로 다른 데이터 원본에는 쿼리 성능을 이해하기 위한 다양한 도구가 있습니다. 예를 들어 SQL Server 및 Azure SQL은 쿼리 및 해당 런타임 통계의 기록을 캡처하는 쿼리 저장소를 제공합니다.
+
 경험의 법칙으로, DirectQuery 및 라이브 연결을 기반으로 한 Power BI 보고서를 배포할 때 Power BI Desktop에서 최종 사용자가 수행할 사항을 시험해 봅니다. 보고서가 Power BI Desktop에서 느리게 로드된다면 대부분 분명 최종 사용자용 서비스에서 느리게 로드됩니다. 
  
 ## <a name="directquery-best-practices"></a>DirectQuery 모범 사례 
