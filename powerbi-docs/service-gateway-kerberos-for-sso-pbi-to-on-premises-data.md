@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: bf5120b1c4d787dd13e21245b234207123221fc4
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964840"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257049"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용
 온-프레미스 데이터 게이트웨이를 Kerberos로 구성하여 Power BI 보고서 및 대시보드를 온-프레미스 데이터에서 업데이트할 수 있도록 하는 원활한 Single Sign-On 연결을 가져올 수 있습니다. 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 원본에 연결하는 데 사용하는 DirectQuery를 사용하는 SSO(Single Sign-On)를 용이하게 합니다.
@@ -51,9 +51,7 @@ SSO로 실행하는 쿼리는 다음 다이어그램에 나와 있는 것처럼 
    - 데이터베이스에 대한 사용자 가장 및 연결은 게이트웨이 서비스 계정이 도메인 계정일 때와, 데이터베이스에 대해 Kerberos 제한된 위임이 게이트웨이 서비스 계정으로부터의 Kerberos 티켓을 수락하도록 구성된 경우에만 성공합니다.  
    
    > [!NOTE]
-   > 서비스 SID와 관련하여, AAD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우 게이트웨이 서비스는 런타임 시 로컬 AD 조회를 수행하지 않아도 되며 게이트웨이 서비스에 대해 로컬 서비스 SID(도메인 계정 요구 대신)를 사용할 수 있습니다.  이 문서에서 설명하는 Kerberos 제한된 위임 구성 단계는 동일합니다(도메인 계정 대신 서비스 SID에 따라 간단히 적용됨).
-   > 
-   > 
+   > 서비스 SID와 관련하여, AAD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우 게이트웨이 서비스는 런타임 시 로컬 AD 조회를 수행하지 않아도 되며 게이트웨이 서비스에 대해 도메인 계정 요구 대신 로컬 서비스 SID를 사용할 수 있습니다. 이 아티클에서 간략히 설명한 Kerberos 제한된 위임 구성 단계는 해당 구성과 동일합니다(도메인 계정 대신 Active Directory의 게이트웨이 컴퓨터 개체에 간단히 적용됨).
 
 
 > [!NOTE]

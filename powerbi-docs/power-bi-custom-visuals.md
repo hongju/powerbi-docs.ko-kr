@@ -2,47 +2,46 @@
 title: Power BI의 사용자 지정 시각화
 description: Power BI의 사용자 지정 시각화
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/06/2018
-ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 872f0c556dd995c20d461d9f4969b7fa00f80571
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721458"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256979"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI의 사용자 지정 시각적 개체
+
 Power BI 보고서를 만들거나 편집 할 때 사용할 수 있는 다양한 유형의 시각적 개체가 있습니다. 이러한 시각적 개체는 **시각화** 창에 표시됩니다. Power BI Desktop을 다운로드하거나 Power BI 서비스(app.powerbi.com)를 열면 이 시각적 개체 집합이 "사전 패키지 형태"로 제공됩니다.
 
 ![](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 하지만 이 시각적 개체 집합에 국한되지 않으며, 타원을 선택하면 *사용자 지정 시각적 개체*라는 보고서 시각적 개체의 다른 원본이 열립니다.
 
-사용자 지정 시각적 개체는 개발자가 사용자 지정 시각적 개체 SDK를 사용하여 만들어, 비즈니스 사용자가 비즈니스에 가장 적합한 방식으로 데이터를 표시할 수 있도록 합니다. 그런 다음, 보고서 작성자는 사용자 지정 시각적 개체 파일을 보고서로 가져오고 다른 Power BI 시각적 개체로 사용할 수 있습니다. 사용자 지정 시각적 개체는 Power BI에서 가장 중요하며 필터링, 강조 표시, 편집, 공유될 수 있습니다.
+사용자 지정 시각적 개체는 개발자가 사용자 지정 시각적 개체 SDK를 사용하여 만들어, 비즈니스 사용자가 비즈니스에 가장 적합한 방식으로 데이터를 표시할 수 있도록 합니다. 그런 다음, 보고서 작성자는 사용자 지정 시각적 개체 파일을 보고서로 가져오고 다른 Power BI 시각적 개체로 사용할 수 있습니다. 사용자 지정 시각적 개체는 Power BI에서 가장 중요하며 필터링되고, 강조 표시되고, 편집되고, 공유될 수 있습니다.
 
-사용자 지정 시각적 개체는 다음 세 가지 배포 채널 형태로 있을 수 있습니다.
+사용자 지정 시각적 개체는 다음 세 가지 배포 채널 형식일 수 있습니다.
 * 사용자 지정 시각적 개체 파일
 * 조직의 시각적 개체
 * 마켓플레이스 시각적 개체
 
 ## <a name="custom-visual-files"></a>사용자 지정 시각적 개체 파일
 
-사용자 지정 시각적 개체는 제공되는 데이터 렌더링에 대한 코드가 포함된 패키지입니다. 누구나 사용자 지정 시각적 개체를 만들고 Power BI 보고서로 가져올 수 있는 단일 .pbiviz 파일로 패키지할 수 있습니다.
+사용자 지정 시각적 개체는 제공되는 데이터 렌더링에 대한 코드가 포함된 패키지입니다. 누구나 사용자 지정 시각적 개체를 만들고 Power BI 보고서로 가져올 수 있는 단일 `.pbiviz` 파일로 패키지할 수 있습니다.
 
 > [!WARNING]
 > 사용자 지정 시각적 개체에는 보안 또는 개인 정보 관련 위험이 있는 코드가 포함될 수 있습니다. 보고서로 가져오기 전에 사용자 지정 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인해야 합니다.
-> 
-> 
 
 ## <a name="organization-visuals"></a>조직의 시각적 개체
 
-Power BI 관리자는 사용자 지정 시각적 개체를 조직에 배포할 수 있습니다. 그러면 보고서 작성자는 관리자가 조직 내에서 사용할 수 있도록 승인한 사용자 지정 시각적 개체를 쉽게 검색하고 사용할 수 있습니다. 이로써 관리자는 조직에 배포할 특정 사용자 지정 시각적 개체를 선택할 수 있을 뿐만 아니라 이러한 시각적 개체를 쉽게 관리(업데이트 버전, 사용/사용 안 함 등)할 수 있습니다. 보고서 작성자의 경우, 해당 시각적 개체 업데이트를 원할하게 지원할 수 있을 뿐만 아니라 조직에 고유한 시각적 개체를 쉽게 찾을 수 있습니다.
+Power BI 관리자는 사용자 지정 시각적 개체를 조직에 배포할 수 있습니다. 그러면 보고서 작성자는 관리자가 조직 내에서 사용할 수 있도록 승인한 사용자 지정 시각적 개체를 쉽게 검색하고 사용할 수 있습니다. 그러면 관리자는 조직에 배포할 특정 사용자 지정 시각적 개체를 선택할 수 있을 뿐만 아니라 해당 시각적 개체를 쉽게 관리(업데이트 버전, 사용/사용 안 함 등)할 수 있습니다. 보고서 작성자의 경우, 해당 시각적 개체 업데이트를 원할하게 지원할 수 있을 뿐만 아니라 조직에 고유한 시각적 개체를 쉽게 찾을 수 있습니다.
 
 조직의 사용자 지정 시각적 개체에 대한 자세한 내용은 [조직의 시각적 개체](power-bi-custom-visuals-organization.md)를 참조하세요.
 
@@ -59,7 +58,7 @@ Power BI 인증 시각적 개체는 품질에 대해 추가로 엄격한 테스�
 
 웹 개발자로서 고유한 시각화를 만들고 AppSource에 추가하는 데 관심이 있나요? [개발자 도구 시작하기](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools)를 참조하고 [AppSource에 사용자 지정 시각적 개체를 게시](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)하는 방법을 알아봅니다.
 
-### <a name="import-a-custom-visuals-from-a-file"></a>파일에서 사용자 지정 시각적 개체 가져오기
+### <a name="import-a-custom-visual-from-a-file"></a>파일에서 사용자 지정 시각적 개체 가져오기
 
 1. 시각화 창 아래쪽에서 줄임표(...)를 선택합니다.
 
@@ -69,7 +68,7 @@ Power BI 인증 시각적 개체는 품질에 대해 추가로 엄격한 테스�
 
     ![](media/power-bi-custom-visuals/power-bi-custom-visual-import-from-file.png)
 
-3. [파일 열기] 메뉴에서 가져올 .pbiviz 파일을 선택한 다음, [열기]를 선택합니다. 사용자 지정 시각적 개체의 아이콘은 시각화 창 맨 아래에 추가되어 이제 보고서에서 사용할 수 있습니다.
+3. 파일 열기 메뉴에서 가져올 `.pbiviz` 파일을 선택한 다음, 열기를 선택합니다. 사용자 지정 시각적 개체의 아이콘은 시각화 창 맨 아래에 추가되어 이제 보고서에서 사용할 수 있습니다.
 
     ![](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
@@ -94,8 +93,9 @@ Power BI 인증 시각적 개체는 품질에 대해 추가로 엄격한 테스�
 5. **추가**를 선택하여 사용자 지정 시각적 개체를 가져옵니다. 사용자 지정 시각적 개체의 아이콘은 시각화 창 맨 아래에 추가되어 이제 보고서에서 사용할 수 있습니다.
 
     ![](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
- 
+
 ## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>Microsoft AppSource에서 사용자 지정 시각적 개체 다운로드 또는 가져오기
+
 사용자 지정 시각적 개체는 Power BI 내에서 그리고 AppSource 웹 사이트에서 다운로드하고 가져올 수 있습니다.
 
 ### <a name="import-custom-visuals-from-within-power-bi"></a>Power BI 내에서 사용자 지정 시각적 개체 가져오기
@@ -138,11 +138,11 @@ Power BI 인증 시각적 개체는 품질에 대해 추가로 엄격한 테스�
 
     ![](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
-3. AppSource는 각 사용자 지정 시각적 개체에 대한 타일을 표시합니다.  각 타일에는 사용자 지정 시각적 개체의 스냅숏이 있고 간단한 설명과 다운로드 링크를 제공합니다. 자세한 내용을 보려면 타일을 선택합니다. 
+3. AppSource는 각 사용자 지정 시각적 개체에 대한 타일을 표시합니다.  각 타일에는 사용자 지정 시각적 개체의 스냅숏이 있고 간단한 설명과 다운로드 링크를 제공합니다. 자세한 내용을 보려면 타일을 선택합니다.
 
     ![](media/power-bi-custom-visuals/powerbi-custom-select-visual.png)
 
-4. 세부 정보 페이지에서는 스크린샷, 비디오, 자세한 설명 등을 볼 수 있습니다. **지금 받기**를 선택하여 사용자 지정 시각적 개체를 다운로드한 다음 사용 약관에 동의합니다. 
+4. 세부 정보 페이지에서는 스크린샷, 비디오, 자세한 설명 등을 볼 수 있습니다. **지금 받기**를 선택하여 사용자 지정 시각적 개체를 다운로드한 다음, 사용 약관에 동의합니다.
 
     ![](media/power-bi-custom-visuals/power-bi-appsource-get.png)
 
@@ -156,9 +156,9 @@ Power BI 인증 시각적 개체는 품질에 대해 추가로 엄격한 테스�
 
     ![](media/power-bi-custom-visuals/powerbi-custom-try-sample.png)
 
-6. .Pbiviz 파일을 저장한 다음 Power BI를 엽니다.
+6. '.pbiviz' 파일을 저장한 다음, Power BI를 엽니다.
 
-7. .pbiviz 파일을 보고서로 내보내기(위의 [파일에서 사용자 지정 시각적 개체 가져오기](#import-a-custom-visuals-from-a-file) 섹션 참조)
+7. '.pbiviz' 파일을 보고서로 내보내기(위의 [파일에서 사용자 지정 시각적 개체 가져오기](#import-a-custom-visuals-from-a-file) 섹션 참조)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 

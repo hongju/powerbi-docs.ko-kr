@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: 33b88c728a5a79f2b1edf6e1728850723ce76fec
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926516"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257204"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>자습서: SQL Server에서 온-프레미스 데이터에 연결
 
@@ -107,7 +107,7 @@ ms.locfileid: "37926516"
 
     ![누적 세로 막대형 차트](media/service-gateway-sql-tutorial/column-chart.png)    
 
-6. 보고서 캔버스에서 세로 막대형 차트를 선택한 상태로 **필드** 창에서 **범주** 및 **판매** 필드를 선택합니다.  
+6. 보고서 캔버스에서 세로 막대형 차트를 선택한 상태로 **필드** 창에서 **제품** 및 **판매** 필드를 선택합니다.  
 
     ![필드 선택](media/service-gateway-sql-tutorial/select-fields.png)
 

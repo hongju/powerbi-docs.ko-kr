@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244252"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40256978"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Power BI로 Application Insights에 연결
 Power BI를 사용하여 [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) 원격 분석에서 강력한 사용자 지정 대시보드를 만듭니다. 새로운 방식으로 앱 원격 분석을 구상합니다. 여러 앱 또는 구성 요소 서비스에서 하나의 대시보드에 메트릭을 결합합니다. Application Insights용 Power BI 콘텐츠 팩의 첫 번째 버전은 활성 사용자, 페이지 보기, 세션, 브라우저와 OS 버전 및 맵에서 사용자의 지리적 분포와 같은 일반적인 사용 관련 메트릭에 대한 위젯을 포함합니다.
@@ -23,7 +23,7 @@ Power BI를 사용하여 [Application Insights](https://azure.microsoft.com/docu
 [Power BI용 Application Insights 콘텐츠 팩](https://app.powerbi.com/getdata/services/application-insights)에 연결합니다.
 
 >[!NOTE]
->연결하려면 Azure Preview 포털에서 응용 프로그램에 대한 Application Insights 개요 블레이드에 액세스하세요. 요구 사항에 대한 자세한 내용은 아래에 나와 있습니다.
+>이 통합 메서드는 이제 **사용되지 않습니다**. Power BI에 Application Insights를 연결하는 기본 설정 방법에 대해 자세히 알아보려면 [분석 쿼리 기능 내보내기](https://docs.microsoft.com/azure/application-insights/app-insights-export-power-bi#export-analytics-queries)를 사용합니다.
 
 ## <a name="how-to-connect"></a>연결 방법
 1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.

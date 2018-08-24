@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/02/2018
+ms.date: 08/15/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965507"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257086"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -100,36 +100,37 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 관리 포털의 세 번째 탭은 **테넌트 설정**입니다. 테넌트 설정을 통해 조직에 사용할 수 있도록 만들어진 기능을 더 잘 제어할 수 있습니다. 중요한 데이터에 대한 우려가 있는 경우 일부 기능은 사용자의 조직에 적합하지 않을 수 있거나 특정 그룹에만 지정된 기능을 사용 가능하도록 할 수 있습니다. 이러한 경우 테넌트를 끌 수 있습니다.
 
-예를 들어 사용자별 데이터는 기본적으로 사용 현황 메트릭에 사용되고 콘텐츠 생성자 계정 정보는 메트릭 보고서에 포함됩니다. 일부 또는 모든 사용자에게 이 정보를 포함하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정합니다. 그러면 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
-
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
 > 설정이 테넌트의 모든 사용자에게 적용되려면 최대 10분까지 걸릴 수 있습니다.
 
-설정은 사용자가 제공한 설정을 기반으로 하는 세 가지 상태가 있을 수 있습니다.
+설정에는 다음과 같은 세 가지 상태가 포함될 수 있습니다.
 
-### <a name="disabled-for-the-entire-organization"></a>전체 조직에 대해 사용하지 않도록 설정
+* **전체 조직에 대해 사용하지 않도록 설정**: 기능을 사용하지 않도록 설정할 수 있으며 그렇게 하면 사용자가 사용할 수 없게 됩니다.
 
-기능을 사용하지 않도록 설정할 수 있으며 그렇게 하면 사용자가 사용할 수 없게 됩니다.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+* **전체 조직에 대해 사용하도록 설정**: 전체 조직에 대해 기능을 사용하도록 설정할 수 있으며 모든 사용자가 해당 기능에 액세스할 수 있습니다.
 
-### <a name="enabled-for-the-entire-organization"></a>전체 조직에 대해 사용하도록 설정
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-전체 조직에 대해 기능을 사용하도록 설정할 수 있으며 모든 사용자가 해당 기능에 액세스할 수 있습니다.
+* **조직의 하위 집합에 대해 사용하도록 설정**: 또한 조직의 일부에 대해 기능을 사용하도록 설정할 수도 있습니다. 이는 몇 가지 방법으로 발생할 수 있습니다. 특정 사용자 그룹을 제외하고 전체 조직에 대해 사용하도록 설정할 수 있습니다.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-### <a name="enabled-for-a-subset-of-the-organization"></a>조직의 하위 집합에 대해 사용하도록 설정
+    또한 특정 사용자 그룹에만 기능을 사용하도록 설정하고 사용자 그룹에 대해 사용하지 않도록 설정할 수도 있습니다. 이 경우 특정 사용자가 허용되는 그룹에 있더라도 해당 기능에 액세스할 수 없게 됩니다.
 
-또한 조직의 일부에 대해 기능을 사용하도록 설정할 수도 있습니다. 이는 몇 가지 방법으로 발생할 수 있습니다. 특정 사용자 그룹을 제외하고 전체 조직에 대해 사용하도록 설정할 수 있습니다.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+다음 몇몇 섹션에서는 다양한 형식의 테넌트 설정 개요를 제공합니다.
 
-또한 특정 사용자 그룹에만 기능을 사용하도록 설정하고 사용자 그룹에 대해 사용하지 않도록 설정할 수도 있습니다. 이 경우 특정 사용자가 허용되는 그룹에 있더라도 해당 기능에 액세스할 수 없게 됩니다.
+## <a name="workspace-settings"></a>작업 영역 설정
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+### <a name="create-workspaces-preview"></a>작업 영역 만들기(미리 보기)
+조직의 사용자는 앱 작업 영역을 만들어 대시보드, 보고서 및 기타 콘텐츠에서 공동 작업할 수 있습니다.
+
+자세한 내용은 [새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
 
 ## <a name="export-and-sharing-settings"></a>내보내기 및 공유 설정
 
@@ -244,7 +245,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 > [!NOTE]
 > 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
 
-## <a name="audit-settings"></a>감사 설정
+## <a name="audit-and-usage-settings"></a>감사 및 사용 설정
 
 ### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>내부 활동 감사 및 규정 준수를 위해 감사 로그 만들기
 
@@ -254,6 +255,25 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 > [!NOTE]
 > 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
+
+### <a name="usage-metrics-for-content-creators"></a>콘텐츠 작성자용 사용 메트릭
+조직의 사용자가 자신이 만든 보고서 및 대시보드에 대한 사용 메트릭을 확인할 수 있습니다. [자세히 알아봅니다](service-usage-metrics.md).
+
+설정을 **사용**으로 전환한 다음, 사용 메트릭(전체 조직 또는 특정 보안 그룹)을 확인할 수 있는 사용자를 지정할 수 있습니다.
+
+> [!NOTE]
+> 테넌트 설정을 변경하면 적용하는 데 다소 시간이 걸릴 수 있습니다.
+
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>콘텐츠 작성자에 대한 사용 메트릭의 사용자별 데이터
+콘텐츠 사용자에 대한 사용 메트릭에는 콘텐츠에 액세스하는 사용자의 표시 이름 및 이메일 주소가 노출됩니다. [자세히 알아봅니다](service-usage-metrics.md).
+
+설정을 **사용**으로 전환한 다음, 사용 메트릭(전체 조직 또는 특정 보안 그룹)에서 표시 이름 및 이메일 주소를 확인할 수 있는 사용자를 지정할 수 있습니다.
+
+사용자별 데이터는 기본적으로 사용 메트릭에 사용되도록 설정되고, 콘텐츠 생성자 계정 정보는 메트릭 보고서에 포함됩니다. 일부 또는 모든 사용자에게 이 정보를 포함하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정합니다. 그러면 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
+
+> [!NOTE]
+> 테넌트 설정을 변경하면 적용하는 데 다소 시간이 걸릴 수 있습니다.
+
 
 ## <a name="dashboard-settings"></a>대시보드 설정
 
@@ -270,9 +290,9 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 조직 내 사용자는 Power BI 대시보드 및 보고서를 SaaS(Software as a Service) 응용 프로그램에 포함할 수 있습니다. 이 설정을 사용하지 않도록 설정하면 사용자는 REST API를 사용하여 Power BI 콘텐츠를 해당 응용 프로그램에 포함할 수 없게 됩니다.
 
-## <a name="premium-settings"></a>프리미엄 설정
+## <a name="capacity-settings"></a>용량 설정
 
-프리미엄 설정 탭을 사용하면 조직용으로 구매한 모든 Power BI 프리미엄 용량을 관리할 수 있습니다. 조직 내 모든 사용자가 프리미엄 설정 탭을 볼 수 있으나, **용량 관리** 또는 할당 권한이 있는 사용자로 할당된 경우에만 탭 내 콘텐츠를 볼 수 있습니다. 사용자 권한이 없으면 다음과 같은 메시지가 나타납니다.
+용량 설정 탭을 사용하면 조직에서 구매한 모든 Power BI Premium 용량을 관리할 수 있습니다. 조직 내 모든 사용자가 프리미엄 설정 탭을 볼 수 있으나, **용량 관리** 또는 할당 권한이 있는 사용자로 할당된 경우에만 탭 내 콘텐츠를 볼 수 있습니다. 사용자 권한이 없으면 다음과 같은 메시지가 나타납니다.
 
 ![](media/service-admin-portal/premium-settings-no-access.png "프리미엄 설정 액세스 권한 없음")
 

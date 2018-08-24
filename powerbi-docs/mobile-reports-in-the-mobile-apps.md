@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eee7c4989c4856ab86cb4883f8004198da00e4fd
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799421"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40257359"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -84,7 +84,7 @@ Power BI Desktop 또는 Power BI 서비스에서 보고서를 디자인할 때 [
 ## <a name="drill-down-and-up-in-a-visual"></a>시각적 개체에서 드릴다운 및 드릴업
 보고서 작성자가 시각적 개체에 드릴다운 기능을 추가하면 시각적 개체에 드릴다운하여 그 일부를 구성하는 값을 볼 수 있습니다. Power BI Desktop 또는 Power BI 서비스에서 [시각적 개체에 드릴다운을 추가](power-bi-visualization-drill-down.md)할 수 있습니다. 
 
-* 해당 도구 설명을 표시하려면 시각적 개체의 데이터 요소를 누릅니다. 드릴다운한 경우 도구 설명의 맨 아래에서 화살표를 누를 수 있습니다. 
+* 시각적 개체의 특정 막대 또는 지점을 누르면 해당 도구 설명이 표시됩니다. 드릴다운한 경우 도구 설명의 맨 아래에서 화살표를 누를 수 있습니다. 
   
   ![시각적 개체에서 드릴 다운](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 

@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/07/2018
+ms.date: 08/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 36343b4db0481ea61fbfac1c791aa84760ee2c77
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624761"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40257116"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Power BI에서 새 작업 영역 만들기(미리 보기)
 
@@ -113,7 +113,7 @@ Power BI는 새 작업 영역 환경을 미리 보기 상태로 소개합니다.
 
 - 낮은 권한을 가진 멤버 또는 다른 사용자 추가
 - 앱 게시 및 업데이트
-- 항목 공유 및 앱 공유
+- 항목 공유 또는 앱 공유
 - 다른 사용자가 항목을 다시 공유하도록 허용
 - 기여자가 수행할 수 있는 모든 작업 수행
 
@@ -129,7 +129,7 @@ Power BI는 새 작업 영역 환경을 미리 보기 상태로 소개합니다.
 
 ## <a name="distribute-an-app"></a>앱 배포
 
-콘텐츠가 준비되면 게시할 대시보드 및 보고서를 선택한 다음, *앱*으로 게시합니다. 동료는 몇 가지 다른 방법으로 앱을 설치할 수 있습니다. Power BI 관리자가 사용자에게 사용 권한을 부여한 경우 동료의 Power BI 계정에서 해당 앱을 자동으로 설치할 수 있습니다. 그렇지 않으면 Microsoft AppSource에서 해당 앱을 찾아 설치하거나 직접 링크를 보낼 수 있습니다. 업데이트를 자동으로 가져오므로, 데이터 새로 고침 빈도를 조절할 수 있습니다. 자세한 내용은 [Power BI에서 대시보드 및 보고서로 앱 생성 및 게시](service-create-distribute-apps.md)를 참조하세요.
+콘텐츠가 준비되면 게시할 대시보드 및 보고서를 선택한 다음, *앱*으로 게시합니다. 각 작업 영역에서 하나의 앱을 만들 수 있습니다. 동료는 몇 가지 다른 방법으로 앱을 설치할 수 있습니다. Power BI 관리자가 사용자에게 사용 권한을 부여한 경우 동료의 Power BI 계정에서 해당 앱을 자동으로 설치할 수 있습니다. 그렇지 않으면 Microsoft AppSource에서 해당 앱을 찾아 설치하거나 직접 링크를 보낼 수 있습니다. 업데이트를 자동으로 가져오므로, 데이터 새로 고침 빈도를 조절할 수 있습니다. 자세한 내용은 [Power BI에서 대시보드 및 보고서로 앱 생성 및 게시](service-create-distribute-apps.md)를 참조하세요.
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>이전 앱 작업 영역을 새 앱 작업 영역으로 변환
 
@@ -161,7 +161,7 @@ Power BI는 새 작업 영역 환경을 미리 보기 상태로 소개합니다.
 일부 기능은 새 앱 작업 영역의 현재 앱 작업 영역과 다르게 작동합니다. 이러한 차이점은 고객에게서 받은 피드백에 기반하여 의도적이고, 작업 영역을 사용한 공동 작업에서 더 유연한 접근 방식을 가능하게 합니다.
 
 - 멤버는 다시 공유할 수 있거나 없습니다. 기여자 역할에서 대체됩니다.
-- 읽기 전용 작업 영역은 곧 출시 예정인 뷰어 역할로 바뀝니다. 그러면 작업 영역에 있는 콘텐츠에 대한 읽기 전용 액세스를 허용합니다.
+- 읽기 전용 작업 영역: 사용자에게 작업 영역에 대한 읽기 전용 액세스 권한을 부여하는 대신 곧 출시 예정인 뷰어 역할에 사용자를 할당합니다. 그러면 작업 영역의 콘텐츠에 유사한 읽기 전용 액세스 권한을 허용합니다.
 
 ## <a name="known-issues"></a>알려진 문제
 

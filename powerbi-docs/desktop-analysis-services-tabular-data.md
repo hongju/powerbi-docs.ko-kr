@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f9c6d161149a4c862636a13ad88d3c43f2dbcd8a
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: cbec15b472e6cfad6134cc48970977132d61dd36
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329314"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257264"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop의 Analysis Services 테이블 형식 데이터 사용
 Power BI Desktop에서는 라이브 연결을 통한 탐색이나, 항목 선택 후 Power BI Desktop에 가져오기 등, 두 가지 방법으로 SQL Server Analysis Services 테이블 형식 모델에 연결하고 데이터를 가져올 수 있습니다.
@@ -24,7 +24,9 @@ Power BI Desktop에서는 라이브 연결을 통한 탐색이나, 항목 선택
 
 **라이브 연결을 사용한 탐색** – 라이브 연결을 사용할 때는 테이블, 열, 측정치와 마찬가지로, 테이블 형식 모델이나 큐브 뷰의 항목이 Power BI Desktop 필드 목록에 표시됩니다. Power BI Desktop의 고급 시각화 및 보고 도구를 사용하여 테이블 형식 모델을 상호 작용성 높은 새로운 방식으로 탐색할 수 있습니다.
 
-라이브 연결에서는 테이블 형식 모델의 데이터를 Power BI Desktop으로 가져오지 않습니다. 시각화와 상호 작용할 때마다 Power BI Desktop이 테이블 형식 모델을 쿼리하고 사용자에게 제시할 결과를 산출합니다. 사용자에게는 항상 최신 데이터가 표시됩니다. 테이블 형식 모델은 매우 안전합니다. Power BI Desktop에 표시되는 항목은 연결한 테이블 형식 모델에 대한 사용자의 권한에 따라 달라집니다.
+라이브 연결에서는 테이블 형식 모델의 데이터를 Power BI Desktop으로 가져오지 않습니다. 시각화와 상호 작용할 때마다 Power BI Desktop이 테이블 형식 모델을 쿼리하고 사용자에게 제시할 결과를 산출합니다. 항상 테이블 형식 모델에서 사용할 수 있는 마지막 처리 시간 또는 직접 쿼리 테이블의 최신 데이터가 표시됩니다. 
+
+테이블 형식 모델은 매우 안전합니다. Power BI Desktop에 표시되는 항목은 연결한 테이블 형식 모델에 대한 사용자의 권한에 따라 달라집니다.
 
 Power BI Desktop에 동적 보고서를 만들 경우 Power BI 사이트에 게시하여 공유할 수 있습니다. 테이블 형식 모델에 대한 라이브 연결이 있는 Power BI Desktop 파일을 Power BI 사이트에 게시할 때는 관리자가 온-프레미스 데이터 게이트웨이를 설치하여 구성해야 합니다. 자세한 내용은 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)를 참조하세요.
 

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600382"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256957"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
 사용자 지정 시각적 개체를 사용하면 사용자 요구 사항과 앱 디자인에 맞출 수 있습니다. 개발자 도구로 Power BI용 사용자 지정 시각적 개체를 만드는 방법을 알아보세요.
@@ -178,10 +178,10 @@ ms.locfileid: "37600382"
 다음 명령을 실행하여 새로운 시각적 개체 프로젝트를 만들 수 있습니다.
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-내 시각적 개체 이름을 시각적 개체에 부여할 이름으로 바꿀 수 있습니다. 나중에 이 이름은 생성된 `pbiviz.json` 파일의 `name`과 `displayName` 필드를 수정하여 변경할 수 있습니다.
+*MyVisualName*을 시각적 개체에 부여할 이름으로 바꿀 수 있습니다. 나중에 이 이름은 생성된 `pbiviz.json` 파일의 `name`과 `displayName` 필드를 수정하여 변경할 수 있습니다.
 
 이 명령은 실행된 바로 그 위치에 새 폴더를 만듭니다. 시각적 개체를 위한 기본 시작 템플릿을 생성 합니다. 명령이 완료되면 디렉터리를 열고 선호하는 편집기를 사용하여 새 시각적 개체에 대한 작업을 시작할 수 있습니다.
 

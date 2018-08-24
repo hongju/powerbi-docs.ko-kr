@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482133"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256840"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -22,6 +22,18 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
 새로운 기능에 대한 자세한 내용은 [Power BI 보고서 서버의 새로운 기능](whats-new.md)을 참조하세요. 
 
+## <a name="august-2018"></a>2018년 8월
+- **Power BI Report Server**
+    - *버전 1.3.6801.38816(빌드 15.0.2.540), 릴리스 날짜: 2018년 8월 15일*
+        - 기능
+            - SAP HANA SSO 직접 쿼리는 Power BI 보고서에 대해 지금 사용할 수 있는 Kerberos에서 지원됩니다.
+            - 릴리스 버전 1.13.0에서 사용자 지정 시각적 개체 API
+            - 사용자 지정 시각적 개체는 현재 버전(있는 경우)의 서버 API와 호환 가능한 이전 버전으로 대체합니다.
+
+- **Power BI Desktop(Power BI Report Server에 최적화됨)**
+    - *버전: 2.61.5192.64(2018년 8월), 릴리스 날짜: 2018년 8월 15일*
+        - Power BI Report Server에서 연결에 필요한 변경 내용 포함(2018년 8월)         
+        
 ## <a name="march-2018"></a>2018년 3월
 - **Power BI Report Server**
     - 버전 1.2.6690.34729(빌드 15.0.2.402), 릴리스 날짜: 2018년 4월 27일

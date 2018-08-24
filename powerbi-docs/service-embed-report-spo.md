@@ -2,21 +2,21 @@
 title: SharePoint Online에 보고서 웹 파트 포함
 description: SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 SharePoint Online 페이지에서 대화형 Power BI 보고서를 쉽게 포함시킬 수 있습니다.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.date: 08/16/2018
+ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032051"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256982"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -28,11 +28,12 @@ SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 
 
 **SharePoint Online에 포함** 보고서가 작동하도록 하면 몇 가지 요구 사항이 있습니다.
 
+* Power BI Pro 라이선스 또는 Power BI 라이선스를 포함한 [Power BI Premium 용량(EM 또는 P SKU)](service-premium.md#premium-capacity-nodes)이 필요합니다.
 * SharePoint Online용 Power BI 웹 파트는 [최신 페이지](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)가 필요합니다.
 
 ## <a name="embed-your-report"></a>보고서 포함
 
-SharePoint Online에 보고서를 포함하려면, 먼저 보고서의 URL을 가져온 다음에 SharePoint Online 내의 새로운 Power BI 웹 파트로 해당 URL을 사용합니다.
+SharePoint Online에 보고서를 포함하기 위해 먼저 보고서의 URL을 가져온 다음, SharePoint Online 내의 새로운 Power BI 웹 파트에서 해당 URL을 사용합니다.
 
 ### <a name="get-a-url-to-your-report"></a>URL를 보고서로 가져오기
 
@@ -49,7 +50,7 @@ SharePoint Online에 보고서를 포함하려면, 먼저 보고서의 URL을 �
     ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
    > [!NOTE]
-   > 또한 보고서를 볼 때 웹 브라우저의 주소 표시줄에 표시되는 URL을 사용할 수 있습니다. 해당 URL은 현재 보고 있는 보고서 페이지에 포함됩니다. 다른 페이지를 사용하려는 경우 URL에서 보고서 섹션을 제거해야 합니다.
+   > 또한 보고서를 볼 때 웹 브라우저의 주소 표시줄에 표시되는 URL을 사용할 수 있습니다. 해당 URL에는 현재 보고 있는 보고서 페이지가 포함됩니다. 다른 페이지를 사용하려는 경우 URL에서 보고서 섹션을 제거해야 합니다.
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>SharePoint Online 페이지에 Power BI 보고서 추가
 
@@ -69,7 +70,7 @@ SharePoint Online에 보고서를 포함하려면, 먼저 보고서의 URL을 �
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. 속성 창에 보고서 URL을 붙여 넣습니다. 이것이 위의 단계에서 복사한 URL입니다. 보고서가 자동으로 로드됩니다.
+4. 속성 창에 보고서 URL을 붙여 넣습니다. 이것이 위의 단계에서 복사한 URL입니다. 보고서를 자동으로 로드합니다.
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
@@ -110,7 +111,7 @@ Power BI 서비스 내에서 보고서에 액세스 권한을 부여하는 방�
 Power BI 환경에서 다단계 인증을 사용하여 로그인해야 하는 경우 ID를 확인하기 위해 보안 장치에 로그인하라는 메시지가 나타날 수 있습니다. 이는 다단계 인증을 사용하여 SharePoint Online에 로그인하지 않았지만 Power BI 환경에서 보안 장치에 의해 유효성이 검사된 계정이 필요한 경우 발생합니다.
 
 > [!NOTE]
-> 다단계 인증은 아직 Azure Active Directory 2.0으로 지원되지 않습니다. 사용자는 오류라는 내용의 메시지를 받게 됩니다. 사용자가 보안 장치를 사용하여 SharePoint Online에 다시 로그인하면 보고서를 볼 수 있습니다.
+> 다단계 인증은 아직 Azure Active Directory 2.0으로 지원되지 않습니다. 사용자는 *오류*라는 메시지를 수신합니다. 사용자가 해당 보안 장치를 사용하여 SharePoint Online에 다시 로그인하면 보고서를 볼 수 있습니다.
 
 ## <a name="reports-that-do-not-load"></a>로드되지 않는 보고서
 
@@ -135,7 +136,7 @@ Power BI 웹 파트 내에서 보고서가 로드되지 않고 다음과 같은 
   
   1. SharePoint에서 로그아웃했다가 다시 로그인합니다. 다시 로그인하기 전에 모든 브라우저 창을 닫아야 합니다.
 
-  2. 사용자 계정에 MFA(Multi-Factor Authentication)이 필요한 경우 다단계 인증 장치(휴대폰 앱, 스마트 카드 등)를 사용하여 SharePoint에 로그인합니다.
+  2. 사용자 계정에 MFA(다단계 인증)이 필요한 경우 다단계 인증 장치(휴대폰 앱, 스마트 카드 등)를 사용하여 SharePoint에 로그인했는지 확인합니다.
   
   3. Azure B2B 게스트 사용자 계정은 지원되지 않습니다. 파트가 로드 중임을 나타내는 Power BI 로고가 사용자에게 표시되지만 보고서는 표시되지 않습니다.
 
