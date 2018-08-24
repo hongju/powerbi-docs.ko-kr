@@ -2,41 +2,48 @@
 title: URL을 사용하여 Power BI 보고서 매개 변수 추가
 description: URL 쿼리 문자열 매개 변수를 사용하여 보고서를 필터링하며 두 개 이상의 필드를 필터링할 수도 있습니다.
 author: mihart
-manager: kfile
+manager: annebe
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 08/09/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 52ef5b568e63d759b38ee8210873783b6c205a2a
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 99df72454fce76c648cf2f354f3a8ec225284c09
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965530"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257150"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
-Power BI 서비스에서 보고서를 열면 보고서의 페이지마다 고유한 URL을 보유합니다. 보고서 페이지를 필터링하려면 보고서 캔버스에서 필터 창을 사용할 수 있습니다.  또는 URL에 쿼리 문자열 매개 변수를 추가하여 보고서를 필터링할 수 있습니다. 동료에게 보여 주고 싶은 보고서가 있고 이를 위해 미리 필터링하려고 할 수 있습니다. 이 작업을 수행하는 한 가지 방법은 보고서에 대한 기본 URL로 시작하고 필터 매개 변수를 URL에 추가한 후 전체 URL을 전자 메일로 보내는 것입니다.
+Power BI 서비스에서 보고서를 열면 보고서의 페이지마다 고유한 URL을 보유합니다. 보고서 페이지를 필터링하려면 보고서 캔버스에서 필터 창을 사용할 수 있습니다.  또는 URL에 쿼리 문자열 매개 변수를 추가하여 보고서를 사전 필터링할 수 있습니다. 동료에게 보여 주고 싶은 보고서가 있고 이를 위해 미리 필터링하려고 할 수 있습니다. 이 작업을 수행하는 한 가지 방법은 보고서에 대한 기본 URL로 시작하고, 필터 매개 변수를 URL에 추가한 다음, 새로운 전체 URL을 이메일로 보내는 것입니다.
 
 ![서비스의 Power BI 보고서](media/service-url-filters/power-bi-report2.png)
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/WQFtN8nvM4A?list=PLv2BtOtLblH3YE_Ycas5B1GtcoFfJXavO&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+## <a name="uses-for-query-string-parameters"></a>쿼리 문자열 매개 변수의 용도
+Power BI Desktop에서 작업하고 다른 Power BI 보고서에 대한 링크가 있는 보고서를 만들지만 다른 보고서의 일부 정보만 표시하려고 한다고 가정하겠습니다. 먼저, 쿼리 문자열 매개 변수를 사용하여 보고서를 필터링하고 URL을 저장합니다. 다음으로, 이러한 새 보고서 URL을 사용하여 데스크톱에서 테이블을 만듭니다.  그런 다음, 보고서를 게시하고 공유합니다.
+
+쿼리 문자열 매개 변수는 고급 Power BI 솔루션을 만드는 사용자에게 필요합니다.  DAX를 사용하면 현재 보고서에서 고객의 선택에 따라 동적으로 필터링된 보고서 URL을 생성하는 보고서를 만들 수 있습니다. 고객이 URL을 선택하는 경우 원하는 정보만이 표시됩니다. 
 
 ## <a name="query-string-parameter-syntax-for-filtering"></a>필터링을 위한 쿼리 문자열 매개 변수 구문
-구문은 매우 간단합니다. 보고서 URL로 시작하고 물음표를 추가한 다음 필터 구문을 추가하면 됩니다.
+매개 변수를 사용하면 해당 값에 공백이나 특수 문자가 포함될 경우에도 하나 이상의 값에 대해 보고서를 필터링할 수 있습니다. 기본 구문은 매우 간단합니다. 보고서 URL로 시작하고, 물음표를 추가한 다음, 필터 구문을 추가하면 됩니다.
 
 URL?filter=***Table***/***Field*** eq '***value***'
 
 ![필터가 포함된 URL](media/service-url-filters/power-bi-filter-urls7b.png)
 
-* **Table** 및 **Field** 이름은 대소문자를 구분하고 **value**는 구분하지 않습니다.
+* **테이블** 및 **필드** 이름은 대소문자를 구분하고, **값**은 구분하지 않습니다.
 * 보고서 보기에서 숨겨진 필드는 계속 필터링할 수 있습니다.
-* **Value**는 작은따옴표로 묶어야 합니다.
-* 필드 유형은 숫자 또는 문자열이어야 합니다.
-* 테이블 및 필드 이름에는 공백을 포함할 수 없습니다.
+
+### <a name="field-types"></a>필드 형식
+필드 형식은 숫자, 날짜/시간 또는 문자열일 수 있고 사용된 형식은 데이터 집합에서 설정된 형식과 일치해야 합니다.  예를 들어 날짜로 설정된 데이터 집합 열에서 날짜/시간 또는 숫자 값을 찾으려는 경우(예: Table/StringColumn eq 1) "string" 형식의 테이블 열을 지정하는 작업은 작동하지 않습니다.
+
+* **문자열**은 'manager name'과 같이 작은따옴표로 묶여야 합니다.
+* **숫자**에는 특별한 서식 지정이 필요하지 않습니다.
+* **날짜 및 시간**은 작은따옴표로 묶여야 하고, 앞에 단어 **DateTime**이 와야 합니다.
 
 여전히 혼동되는 경우 계속 읽어 보고 자세히 분석합니다.  
 
@@ -60,7 +67,6 @@ North Carolina에 매장이 있다는 것을 맵 시각화(위)에서 확인할 
 >[!NOTE]
 >*NC*는 **Store** 테이블의 **Territory** 필드에 저장된 값입니다.
 > 
-> 
 
 보고서는 North Carolina에 대해 필터링되며 보고서 페이지에 있는 모든 시각화는 North Carolina에 대한 데이터만 표시합니다.
 
@@ -73,7 +79,7 @@ North Carolina에 매장이 있다는 것을 맵 시각화(위)에서 확인할 
 ?filter=Store/Territory eq 'NC'
 ```
 
-추가 필드를 필터링하려면 `and` 및 다른 필드를 동일한 형식으로 추가합니다. 예를 들면 다음과 같습니다.
+추가 필드를 필터링하려면 **and** 및 다른 필드를 동일한 형식으로 추가합니다. 예를 들면 다음과 같습니다.
 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
@@ -81,8 +87,55 @@ North Carolina에 매장이 있다는 것을 맵 시각화(위)에서 확인할 
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/0sDGKxOaC8w?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
+## <a name="operators"></a>연산자
+Power BI는 **and** 외에도 많은 연산자를 지원합니다. 아래 표에서는 지원하는 콘텐츠 형식과 함께 해당 연산자를 나열합니다.
 
-### <a name="using-dax-to-filter-on-multiple-values"></a>DAX를 사용하여 여러 값을 필터링
+|연산자  | 정의 | 문자열  | 숫자 | 날짜 |  예제|
+|---------|---------|---------|---------|---------|---------|
+|**and**     | 및 |  예      | 예 |  예|  제품/가격 le 200 및 가격 gt 3.5 |
+|**eq**     | 같음 |  예      | 예   |  예       | 주소/도시 eq 'Redmond' |
+|**ne**     | 같지 않음 |   예      | 예  | 예        |  주소/도시 ne 'London' |
+|**ge**     |  크거나 같음       | 아니요 | 예 |예 |  제품/가격 ge 10
+|**gt**     | 보다 큼        |아니요 | 예 | 예  | 제품/가격 gt 20
+|**le**     |   작거나 같음      | 아니요 | 예 | 예  | 제품/가격 le 100
+|**lt**     |  보다 작음       | 아니요 | 예 | 예 |  제품/가격 lt 20
+|**in****     |  포함       | 아니요 | 아니요 |  예 | 학생/나이 in (27, 29)
+
+
+\** **in**을 사용하는 경우 **in**의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록 또는 컬렉션을 반환하는 단일 식일 수 있습니다.
+
+### <a name="numeric-data-types"></a>숫자 데이터 형식
+Power BI URL 필터에는 다음 형식의 숫자가 포함될 수 있습니다.
+
+|숫자 형식  |예제  |
+|---------|---------|
+|**integer**     |   5      |
+|**long**     |   5L 또는 5l      |
+|**double**     |   5.5나 55e-1이나 0.55e+1 또는 5D나 5d 또는 0.5e1D나 0.5e1d 또는 5.5D나 5.5d 또는 55e-1D나 55e-1d     |
+|**decimal**     |   5M이나 5m 또는 5.5M이나 5.5m      |
+|**float**     | 5F나 5f 또는 0.5e1F나 0.5e-1d        |
+
+### <a name="date-data-types"></a>Date 데이터 형식
+Power BI는 **Date** 및 **DateTimeOffset** 데이터 형식에 대해 OData V3 및 V4를 모두 지원합니다.  Dates는 EDM 서식을 사용하여 표시됩니다(2019-02-12T00:00:00). 즉, YYYY-MM-DD로 날짜를 지정하면 Power BI에서는 YYYY-MM-DDT00:00:00과 같이 해석합니다.
+
+이러한 차이점이 중요한 이유는 무엇인가요? 쿼리 문자열 매개 변수 **Table/Date gt 2018-08-03**을 만든다고 가정하겠습니다.  결과에는 2018년 8월 3일이 포함되나요, 아니면 2018년 8월 4일에 시작하나요? Power BI가 쿼리를 **Table/Date gt 2018-08-03T00:00:00**으로 변환하므로 해당 날짜가 **2018-08-03T00:00:00**보다 크다면 결과에는 0이 아닌 시간 부분이 있는 모든 날짜가 포함됩니다.
+
+## <a name="special-characters-in-url-filters"></a>URL 필터의 특수 문자
+특수 문자 및 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 *이스케이프 코드*(**_x**) 및 4자리 **유니코드**를 사용하여 해당 특수 문자의 접두사를 지정합니다. 유니코드가 4개 미만의 문자인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
+
+|식별자  |유니코드  | Power BI용 코딩  |
+|---------|---------|---------|
+|**테이블 이름**     | 공간: 0x20        |  Table_x0020_Name       |
+|**Column**@**Number**     |   @: 0x40     |  Column_x0040_Number       |
+|**[Column]**     |  [:0x005B ]:0x0050       |  _x0058_Column_x0050       |
+|**Column+Plus**     | +:0x2B        |  Column_x002B_Plus       |
+
+Table_x0020_Name/Column_x002B_Plus eq 3 ![테이블 시각적 개체 렌더링 특수 문자](media/service-url-filters/power-bi-special-characters1.png)
+
+
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![테이블 시각적 개체 렌더링 특수 문자](media/service-url-filters/power-bi-special-characters2.png)
+
+### <a name="use-dax-to-filter-on-multiple-values"></a>DAX를 사용하여 여러 값을 필터링
 여러 값을 필터링하는 한 가지 방법은 두 필드를 하나의 값으로 연결하는 계산된 열을 만드는 것입니다. 그런 다음 해당 값을 필터링할 수 있습니다.
 
 예를 들어 Territory 및 Chain이라는 두 필드가 있습니다. Power BI Desktop에서 TerritoryChain이라는 [새 계산된 열](desktop-tutorial-create-calculated-columns.md)(필드)을 만듭니다. **필드** 이름에는 공백을 포함할 수 없다는 점에 유의하세요. 다음은 해당 열에 대한 DAX 수식입니다
@@ -94,18 +147,22 @@ TerritoryChain = [Territory] & " - " & [Chain]
     https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>필터링된 보고서에서 타일 고정
-쿼리 문자열 매개 변수를 사용하여 보고서를 필터링했으면 보고서에서 대시보드로 시각화를 고정할 수 있습니다. 대시보드의 타일에는 필터링된 데이터가 표시되고 대시보드 타일을 클릭하면 타일 생성에 사용된 보고서가 열립니다.  하지만 URL을 사용하여 수행했던 필터링은 보고서와 함께 저장되지 않으며 대시보드 타일을 선택하면 보고서가 필터링되지 않은 상태로 열립니다.  따라서 대시보드 타일에 표시된 데이터는 보고서 시각화에 표시된 데이터와 일치하지 않습니다.
+쿼리 문자열 매개 변수를 사용하여 보고서를 필터링했으면 보고서에서 대시보드로 시각화를 고정할 수 있습니다.  대시보드의 타일에는 필터링된 데이터가 표시되고 대시보드 타일을 클릭하면 타일 생성에 사용된 보고서가 열립니다.  하지만 URL을 사용하여 수행했던 필터링은 보고서와 함께 저장되지 않으며 대시보드 타일을 선택하면 보고서가 필터링되지 않은 상태로 열립니다.  따라서 대시보드 타일에 표시된 데이터는 보고서 시각화에 표시된 데이터와 일치하지 않습니다.
 
-다른 결과를 보고 싶을 때 도움이 되는 경우가 있을 수 있습니다. 대시보드에서는 필터링되고 보고서에서는 필터링되지 않도록 하는 경우가 그렇습니다.
+다른 결과를 보고 싶을 때 도움이 되므로 대시보드에서는 필터링되고 보고서에서는 필터링되지 않도록 합니다.
+
+> [!NOTE]
+> 고정된 [라이브 보고서 페이지](service-dashboard-pin-live-tile-from-report.md) 타일은 아직 URL 필터를 지원하지 않습니다. 
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 쿼리 문자열 매개 변수를 사용할 때 알아야 할 몇 가지 사항이 있습니다.
 
-* Power BI Report Server에서는 보고서 URL에 보고서 매개 변수를 포함시켜 [보고서 매개 변수를 전달](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)할 수 있습니다. 이러한 URL 매개 변수는 보고서 처리 엔진에 직접 전달되기 때문에 접두사가 붙지 않습니다. 
+* *in* 연산자를 사용하는 경우 *in*의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록이어야 합니다.    
+* Power BI Report Server에서는 보고서 URL에 보고서 매개 변수를 포함시켜 [보고서 매개 변수를 전달](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)할 수 있습니다. 이러한 URL 매개 변수는 보고서 처리 엔진에 직접 전달되기 때문에 접두사가 붙지 않습니다.    
 * 쿼리 문자열 필터링은 [웹에 게시](service-publish-to-web.md) 또는 Power BI Embedded에는 작동하지 않습니다.   
-* 필드 유형은 숫자 또는 문자열이어야 합니다.
-* 테이블 및 필드 이름에는 공백을 포함할 수 없습니다.
-
+* Javascript 제한 때문에 Long 데이터 형식은 (2^53-1)입니다.
+* 고정된 *라이브 보고서 페이지* 타일은 아직 URL 필터를 지원하지 않습니다. 
+ 
 ## <a name="next-steps"></a>다음 단계
 [시각화를 대시보드에 고정](service-dashboard-pin-tile-from-report.md)  
 [평가판 등록](https://powerbi.microsoft.com/get-started/)
