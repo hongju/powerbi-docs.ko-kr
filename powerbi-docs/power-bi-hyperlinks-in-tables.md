@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
+ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310179"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42799048"
 ---
 # <a name="hyperlinks-in-tables"></a>테이블에서 하이퍼링크
 이 항목에서는 하이퍼링크를 만들어 Power BI Desktop을 사용하는 방법을 배웁니다. 만든 후에는 보고서 테이블 및 행렬에 하이퍼링크를 추가하려면 Desktop 또는 Power BI 서비스를 사용합니다. 
@@ -39,8 +39,10 @@ ms.locfileid: "34310179"
     ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. **웹 URL**을 선택합니다.
 4. 보고서 보기로 전환하고 웹 URL로 분류되는 필드를 사용하여 테이블이나 행렬을 만듭니다. 하이퍼링크는 밑줄과 함께 파란색으로 표시됩니다.
-   
     ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+> **참고**: URL은 **http:// , https://** 또는 **www**로 시작해야 합니다.
+> 
+>   
 5. 테이블에서 긴 URL을 표시하지 않으려는 경우 하이퍼링크 아이콘 ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png)으로 대신 표시할 수 있습니다. 행렬에서 아이콘을 표시할 수 없습니다.
    
    * 차트를 선택하여 활성화합니다.
