@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280136"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151955"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
@@ -28,10 +28,6 @@ ms.locfileid: "39280136"
 그런 다음 Power BI 모바일 앱에서 포커스 모드로 타일을 열고 상호 작용합니다. Bing 및 R에 기반한 타일을 포함하여 모든 종류의 시각적 개체로 타일을 열 수 있습니다.
 
 ## <a name="tiles-in-the-ios-apps"></a>iOS 앱의 타일
-> [!NOTE]
-> [iPhone 앱으로 그림 타일을 만들고](mobile-iphone-app-get-started.md) 대시보드에 저장할 수 있습니다.
-> 
-> 
 
 1. [iOS용 모바일 앱에서 대시보드](mobile-apps-view-dashboard.md)를 엽니다.
 2. 타일을 누릅니다. 타일 데이터를 쉽게 보고 탐색할 수 있는 포커스 모드로 열립니다. 포커스 모드에서는 다음 작업을 수행할 수 있습니다.
@@ -40,7 +36,7 @@ ms.locfileid: "39280136"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>예를 들어 이 꺾은선형 차트에서 선택한 값은 **8월**의 **금년 매출</em>* 및 **작년 매출** 값입니다.*  
+   *예를 들어 이 꺾은선형 차트에서 선택한 값은 **금년 매출** 및 **작년 매출**의 **8월** 값입니다.*  
    
    원형 차트에서는 원형 차트의 위에 조각의 값을 표시하려면 원형 차트의 조각을 누릅니다.  
    
@@ -107,7 +103,7 @@ ms.locfileid: "39280136"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>이 막대형 차트에서 **Decor</em>* 바에 대한 값은 차트의 위쪽에 표시됩니다.*
+   *이 막대형 차트에서 **Decor** 바에 대한 값은 차트의 위쪽에 표시됩니다.*
    
    탐색 및 메뉴 모음 없이, **전체 화면** 아이콘 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)을 탭하여 타일을 전체 화면 모드로 엽니다.
    
