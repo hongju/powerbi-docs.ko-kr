@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658015"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151909"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 문제 해결
 
@@ -279,7 +279,7 @@ Azure Active Directory UPN이 로컬 Active Directory UPN과 일치하지 않는
 | Mashup 연결 열기 실패 횟수/초 |초당 Mashup 연결 열기 작업을 실패한 횟수입니다. |
 | Mashup 쿼리 실행 횟수/초 |초당 Mashup 쿼리를 실행한 횟수(성공 또는 실패)입니다. |
 | Mashup 쿼리 실패 횟수/초 |초당 Mashup 쿼리 실행을 실패한 횟수입니다. |
-| OLEDB 쿼리의 다중 결과 집합 실패 횟수/초 |초당 OLEDB 쿼리 실행을 실패한 다중 결과 집합 횟수입니다. |
+| OLEDB 다중 결과 집합 쿼리 실패 횟수/초 |초당 OLEDB 쿼리 실행을 실패한 다중 결과 집합 횟수입니다. |
 | 실행된 쿼리의 OLEDB 다중 결과 집합 횟수/초 |초당 실행된 쿼리의 OLEDB 다중 결과 집합 횟수(성공 또는 실패)입니다. |
 | OLEDB 연결 열기 실행 횟수/초 |초당 OLEDB 연결 열기 작업을 실행한 횟수(성공 또는 실패)입니다. |
 | OLEDB 연결 열기 실패 횟수/초 |초당 OLEDB 연결 열기 작업을 실패한 횟수입니다. |

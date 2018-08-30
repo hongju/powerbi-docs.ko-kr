@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: f56e05e51090f37fdb0bcd295ec877ee73b5dac0
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40257930"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703009"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>OOS(Office Online Server)를 사용하여 Excel 통합 문서를 호스트하도록 보고서 서버 구성
 
@@ -37,7 +37,7 @@ Office Online 서버를 실행하게 되는 서버에서 이러한 절차를 수
     ```
 
     **Windows Server 2016:**
-   
+
     ```
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
@@ -57,9 +57,9 @@ Office Online 서버를 실행하게 되는 서버에서 이러한 절차를 수
 1. [VLSC(Volume Licensing Service Center)](http://go.microsoft.com/fwlink/p/?LinkId=256561)에서 Office Online Server를 다운로드합니다. 다운로드는 VLSC 포털에서 이러한 Office 제품 아래에 있습니다. 개발 목적으로 MSDN 구독자 다운로드에서 OOS를 다운로드할 수 있습니다.
 2. Setup.exe를 실행합니다.
 3. **Microsoft 소프트웨어 사용 조건 읽기** 페이지에서 **동의함**을 선택하고 **계속**을 선택합니다.
-4. **파일 위치 선택** 페이지에서 Office Online Server 파일을 설치할 폴더를 선택(예: *C:\Program Files\Microsoft Office Web Apps*)하고 **지금 설치**를 선택합니다. 지정한 폴더가 존재하지 않으면 Setup에서 해당 폴더를 만듭니다.
+4. **파일 위치 선택** 페이지에서 Office Online Server 파일을 설치할 폴더(C:\Program Files\Microsoft Office Web Apps*)를 선택하고 **지금 설치**를 선택합니다. 지정한 폴더가 존재하지 않으면 Setup에서 해당 폴더를 만듭니다.
 
-    **_시스템 드라이브에 Office Online Server를 설치하는 것이 좋습니다._**
+    시스템 드라이브에 Office Online Server를 설치하는 것이 좋습니다.
 
 5. Setup에서 Office Online Server 설치를 완료하면 **닫기**를 선택합니다.
 
@@ -180,7 +180,7 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
-* 통합 문서에서 읽기 전용 기능만 사용할 수 있습니다.
+* 통합 문서로 읽기 전용 기능만 사용할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -2,19 +2,19 @@
 title: Power BI Embedded에 대한 질문과 대답
 description: Power BI Embedded에 대한 질문과 대답 목록을 찾아보세요.
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/22/2018
-ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.date: 08/21/2018
+ms.openlocfilehash: 935932e92e5d95ae52957bf1360db8d2232286ad
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39415395"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42702963"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -25,7 +25,7 @@ ms.locfileid: "39415395"
 
 ### <a name="what-is-power-bi-embedded"></a>Power BI Embedded는 무엇입니까?
 
-Microsoft Power BI Embedded를 사용하면 응용 프로그램 개발자는 자체 데이터 시각화 및 컨트롤을 처음부터 새로 만들 필요 없이 완전한 대화형 보고서, 대시보드 및 타일을 포함할 수 있습니다.
+Microsoft PBIE(Power BI Embedded)를 사용하면 응용 프로그램 개발자는 자체 데이터 시각화 및 컨트롤을 처음부터 새로 만들 필요 없이 완전한 대화형 보고서를 포함할 수 있습니다.
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Power BI Embedded의 대상 그룹은 누구입니까?
 
@@ -70,7 +70,7 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 | Embedded 응용 프로그램에서 Power BI 보고서 사용 | 예 | 예 | 예 |
 | SharePoint에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
 | Dynamics에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
-| Teams에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
+| Teams(데스크톱 앱 전용)에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
 | Powerbi.com 및 Power BI 모바일에서 무료 Power BI 라이선스를 사용하여 콘텐츠 액세스 | 아니요 | 아니요 | 예 |
 | MS Office 앱에 포함된 무료 Power BI 라이선스를 사용하여 콘텐츠에 액세스 | 아니요 | 예 | 예 |
 
@@ -79,10 +79,10 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 |  |A SKU(Power BI Embedded)  |EM SKU(Power BI Premium)  |P SKU(Power BI Premium)  |
 |---------|---------|---------|---------|
 |구입     |Azure Portal |Office |Office |
-|사용 사례 |* 자체 응용 프로그램에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* MS Office 응용 프로그램([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [팀](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* MS Office 응용 프로그램([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [팀](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))에 콘텐츠 포함<br>* [Power BI 서비스](https://powerbi.microsoft.com/en-us/)를 통해 Power BI 사용자와 콘텐츠 공유  |
+|사용 사례 |* 자체 응용 프로그램에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* MS Office 응용 프로그램([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams(데스크톱 앱 전용)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* MS Office 응용 프로그램([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams(데스크톱 앱 전용)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))에 콘텐츠 포함<br>* [Power BI 서비스](https://powerbi.microsoft.com/en-us/)를 통해 Power BI 사용자와 콘텐츠 공유  |
 |청구 |시간별 |매월 |매월 |
 |약정  |약정 없음 |매년  |매월/매년 |
-|차별화 |탁월한 탄력성 - Azure Portal에서 또는 API를 통해 리소스를 강화/규모 축소, 일시 중지/다시 시작 가능  |SharePoint Online 및 Microsoft Teams에 콘텐츠를 포함하는 데 사용 가능 |응용 프로그램에 포함 및 Power BI 서비스 사용을 동일한 용량에 결합 |
+|차별화 |탁월한 탄력성 - Azure Portal에서 또는 API를 통해 리소스를 강화/규모 축소, 일시 중지/다시 시작 가능  |SharePoint Online 및 Microsoft Teams(데스크톱 앱 전용)에 콘텐츠를 포함하는 데 사용 가능 |응용 프로그램에 포함 및 Power BI 서비스 사용을 동일한 용량에 결합 |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure에서 PBIE 용량을 만드는 필수 구성 요소는 무엇입니까?
 
@@ -126,14 +126,14 @@ Power BI에서는 조직 계정에 등록해야 합니다. MSA(Microsoft 계정)
 
 ### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Azure 용량을 만들고 관리하는 데 API를 사용할 수 있나요?
 
-예, PBIE 리소스를 만들고 관리하는 데 사용할 수 있는 PowerShell cmdlet 및 ARM API가 있습니다.
+예, PBIE 리소스를 만들고 관리하는 데 사용할 수 있는 PowerShell cmdlet 및 ARM(Azure Resource Manager) API가 있습니다.
 
 * REST API - https://docs.microsoft.com/rest/api/power-bi-embedded/
 * PowerShell cmdlet - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 솔루션에 포함된 PBI Embedded 전용 용량 역할이란?
 
-[솔루션을 프로덕션으로 승격](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)하기 위해 Power BI 콘텐츠(응용 프로그램에서 사용 중인 앱 작업 영역)를 전용 용량에 할당해야 합니다.
+[솔루션을 프로덕션으로 수준 올리기](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)하기 위해 Power BI 콘텐츠(응용 프로그램에서 사용 중인 앱 작업 영역)를 전용 용량에 할당해야 합니다.
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>PBI Embedded를 사용 가능한 Azure 지역은 어디인가요?
 
@@ -162,7 +162,7 @@ AAD 토큰을 가져오려면 Azure Active Directory 인증 라이브러리(http
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>내 응용 프로그램은 사용자 인증에 이미 AAD를 사용합니다. "사용자 소유 데이터" 시나리오에서 Power BI에 인증할 때 이 ID를 사용하려면 어떻게 하나요? 
 
-흐름 대신 표준 OAuth입니다(https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api). 응용 프로그램은 필수 범위에서 PowerBI 서비스에 대한 사용 권한이 필요하도록 구성되어야 합니다. 또한 앱에 사용자 토큰을 만들면 사용자 액세스 토큰을 사용하여 ADAL API AcquireTokenAsync에 간단히 호출하고 PowerBI 리소스 URL을 리소스 ID로 지정합니다. 수행할 수 있는 방법을 보여주는 코드 조각은 아래를 참조하세요.
+흐름 대신 표준 OAuth입니다(https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api). 응용 프로그램은 필수 범위에서 Power BI 서비스에 대한 사용 권한이 필요하도록 구성되어야 합니다. 또한 앱에 사용자 토큰을 만들면 사용자 액세스 토큰을 사용하여 ADAL API AcquireTokenAsync에 간단히 호출하고 Power BI 리소스 URL을 리소스 ID로 지정합니다. 수행 방법을 보여주는 코드 조각은 아래를 참조하세요.
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);

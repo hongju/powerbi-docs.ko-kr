@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
-ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
+ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
+ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "40257116"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42914522"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Power BI에서 새 작업 영역 만들기(미리 보기)
 
@@ -29,12 +29,13 @@ Power BI는 새 작업 영역 환경을 미리 보기 상태로 소개합니다.
 - Office 365 그룹을 만들지 않고 Power BI에서 작업 영역을 만듭니다.
 - 작업 영역에서 더 유연한 사용 권한 관리에 대해 세분화된 작업 영역 역할을 사용합니다.
  
-새 작업 영역 중 하나를 만들면 연결된 기본 Office 365 그룹을 만들지 않습니다. 모든 작업 영역 관리는 Office 365가 아닌 Power BI에 위치합니다. Office 365 그룹을 통해 콘텐츠에 대한 사용자 액세스 권한을 계속 관리하기 위해 작업 영역에 Office 365 그룹을 추가할 수 있습니다. 그러나 추가로 보안 그룹, 배포 목록을 사용하고, Power BI 내에서 직접 개인을 추가하여 작업 영역 액세스 권한을 관리하는 유연한 방법을 제공할 수 있습니다.
+새 작업 영역 중 하나를 만들면 연결된 기본 Office 365 그룹을 만들지 않습니다. 모든 작업 영역 관리는 Office 365가 아닌 Power BI에 위치합니다. Office 365 그룹을 통해 콘텐츠에 대한 사용자 액세스 권한을 계속 관리하기 위해 작업 영역에 Office 365 그룹을 추가할 수 있습니다. 그러나 추가로 보안 그룹, 배포 목록을 사용하고, Power BI 내에서 직접 개인을 추가하여 작업 영역 액세스 권한을 관리하는 유연한 방법을 제공할 수 있습니다. 이제 Power BI에 작업 영역 관리가 제공되므로 Power BI 관리자는 조직에서 작업 영역을 만들 수 있는 사용자를 결정합니다. 자세한 내용은 [Power BI 관리 포털 문서, 작업 영역 섹션](service-admin-portal.md#workspace-settings)을 참조하세요. 
 
 새 작업 영역에 멤버, 기여자 또는 관리자로 사용자 그룹이나 개인을 추가합니다. 사용자 그룹의 모든 사용자는 정의된 역할을 가져옵니다. 개인이 여러 사용자 그룹에 위치한 경우 역할에서 제공하는 가장 높은 수준의 사용 권한을 얻을 수 있습니다.  다양한 역할에 대한 설명은 이 아티클의 뒷부분에서 [새 작업 영역의 역할](#roles-in-the-new-workspaces)을 참조하세요.
 
 작업 영역에 있는 추가된 모든 사용자에게는 Power BI Pro 라이선스가 필요합니다. 작업 영역에서 이러한 사용자는 물론, 더 광범위한 대상 그룹이나 조직 전체에 게시할 계획이 있는 대시보드, 보고서에 대해 공동 작업을 수행할 수 있습니다. 조직 내 다른 사용자에게 콘텐츠를 배포하려는 경우 해당 사용자에게 Power BI Pro 라이선스를 할당하거나 Power BI Premium 용량에 작업 영역을 배치할 수 있습니다.
-미리 보기 기능이므로 몇 가지 제한 사항에 주의해야 합니다. 데이터 <section link> 이 아티클의 뒷부분에서 현재 제한 사항의 설명입니다. 새 작업 영역을 사용하여 몇 가지 기능을 다시 설계하고 있습니다. 미리 보기와 함께 영구적으로 적용될 수 있는 변경 내용에 대한 설명은 이 아티클의 뒷부분 <섹션 링크>를 참조하세요.
+
+새 작업 영역을 사용하여 몇 가지 기능을 다시 설계하고 있습니다. 미리 보기와 함께 영구적으로 적용될 수 있는 변경 내용에 대한 설명은 이 아티클의 뒷부분에서 [다르게 작동하는 앱 작업 영역 기능](#app-workspace-features-that-work-differently) 을 참조하세요. 미리 보기 기능이므로 몇 가지 제한 사항에 주의해야 합니다. 현재 제한 사항의 설명에 대해서는 이 아티클의 뒷부분에서 [알려진 문제](#known-issues)를 참조하세요. 
 
 ## <a name="roll-out-new-app-workspaces"></a>새로운 앱 작업 영역 롤아웃
 
