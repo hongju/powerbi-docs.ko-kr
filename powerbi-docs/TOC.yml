@@ -965,6 +965,8 @@ items:
         items:
         - name: Azure에서 용량 만들기
           href: developer/azure-pbie-create-capacity.md
+        - name: Azure에서 Multi-Geo를 사용하여 용량 만들기
+          href: developer/embedded-multi-geo.md
         - name: Azure에서 용량 확장
           href: developer/azure-pbie-scale-capacity.md
         - name: Azure에서 용량 일시 중지 및 시작
@@ -1340,9 +1342,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI로 전환되는 Office 365용 Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: d3eb5219dfe13811015cd957384a13be8d52a31d
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: 2ea64e210867bb1f2ddf8f68a6a36c114ca7b5e1
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250707"
+ms.locfileid: "43300003"
