@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: e1df06c07f767936d861788c89205bce20cd5582
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616008"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695136"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
 모든 모바일 플랫폼에서 Power BI 모바일 앱(예: iOS, Android 장치 및 Windows 10) 내에 특정 위치(*딥 링크*)에 연결하려면 URI(Uniform Resource Identifier)를 만들고 사용할 수 있습니다.
@@ -68,7 +68,7 @@ mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60
 
 36자의 보고서 개체 ID를 찾으려면 Power BI 서비스 (https://powerbi.com) 의 특정 보고서로 이동합니다. 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
 
-https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
 
 ## <a name="open-to-a-specific-report-page"></a>특정 보고서 페이지에 열기
 이 URI는 Power BI 모바일 앱에서 특정 보고서 페이지를 엽니다.
@@ -79,7 +79,7 @@ https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
 
 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**ReportSection11**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
 
 ## <a name="open-in-full-screen-mode"></a>전체 화면 모드로 열기
 굵게 표시된 매개 변수를 추가하여 전체 화면 모드로 특정 보고서를 엽니다.
@@ -95,7 +95,7 @@ mspbi://app/OpenReport?ReportObjectId=500217de-50f0-4af1-b345-b81027224033&openF
 
 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다. 
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**&context=SlackDeepLink**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
 
 ## <a name="next-steps"></a>다음 단계
 사용자 의견은 나중에 구현할 사항을 결정하는 데 도움이 됩니다. 따라서 Power BI 모바일 앱에서 참조하고자 하는 다른 기능에 대해 꼭 투표해주세요. 
