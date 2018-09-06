@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137025"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695113"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Power BI로 Microsoft Dynamics Marketing에 연결
 Power BI용 Microsoft Dynamics 마케팅 콘텐츠 팩을 사용하면 Dynamics 마케팅의 데이터에 쉽게 액세스하고 분석할 수 있습니다. 콘텐츠 팩은 프로그램, 캠페인, 마케팅 연락처 및 회사, 잠재 고객, 잠재 고객 상호 작용 및 잠재 고객 점수 매기기, 메일 마케팅 메시지 및 웹 사이트, 동작 관찰, 예산, 금융 거래, 성과 KPI 등과 같은 필요한 모든 엔터티 및 측정값이 포함된 OData 피드 기반의 설명 모델을 사용합니다. 
@@ -35,7 +35,7 @@ Power BI용 [Dynamics 마케팅 콘텐츠 팩](https://app.powerbi.com/getdata/s
 3. **Microsoft Dynamics 마케팅** \> **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. 계정과 연결된 OData URL을 제공합니다.  "https:// [instance\_name].marketing.dynamics.com/analytics" 형식입니다.
+4. 계정과 연결된 OData URL을 제공합니다.  이 URL 형식은 다음과 같습니다. "`https://[instance\_name].marketing.dynamics.com/analytics.`"
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. 메시지가 표시되면 자격 증명을 제공합니다(브라우저를 사용하여 이미 로그인한 경우 이 단계를 건너뛸 수 있음). 인증 방법에 대해 **oAuth2** 를 입력하고 **로그인**을 클릭합니다.
@@ -54,13 +54,13 @@ Power BI용 [Dynamics 마케팅 콘텐츠 팩](https://app.powerbi.com/getdata/s
 
 ## <a name="system-requirements"></a>시스템 요구 사항
 * Dynamics 마케팅 인스턴스에 대한 유효한 OData URL을 지정해야 합니다(콘텐츠 팩은 온-프레미스 CRM 버전에서 작동하지 않음).  
-* 관리자가 사이트 설정에서 OData 끝점을 사용하도록 설정해야 합니다. **조직 데이터 서비스** 섹션의 **홈 \> 설정 \> 사이트 설정**으로 이동하여 OData 끝점의 주소를 찾을 수 있습니다.  OData URL의 형식은 다음과 같습니다. https://[instance\_name].marketing.dynamics.com/analytics  
+* 관리자가 사이트 설정에서 OData 엔드포인트를 사용하도록 설정해야 합니다. **조직 데이터 서비스** 섹션의 **홈 \> 설정 \> 사이트 설정**으로 이동하여 OData 엔드포인트의 주소를 찾을 수 있습니다.  OData URL의 형식은 다음과 같습니다. https://[instance\_name].marketing.dynamics.com/analytics  
 * Microsoft Dynamics 마케팅에 액세스하는 데 사용하는 사용자 계정/ID는 Power BI에 사용하기 위해 등록한 것과 같아야 합니다. Microsoft Dynamics 마케팅에 로그인할 때 Power BI에 사용하는 것과 동일한 ID로 자동 로그인됩니다. 다른 계정으로 Microsoft Dynamics 마케팅에 로그인하려는 경우 다른 계정을 사용하는 Power BI 사용자로 등록하세요. 예정된 릴리스에서 이 문제가 해결되기를 바랍니다.   
 
 ## <a name="troubleshooting"></a>문제 해결
 Dynamics CRM 계정에 연결할 때 "로그인 실패" 메시지가 표시되는 경우 CRM Online OData 피드에 액세스하는 데 사용하는 것과 동일한 계정으로 Power BI에 로그인 중인지 확인합니다. 브라우저에서도 피드에 로그인하여 테스트합니다.
 
-관리자에게 올바른 OData URL을 확인하고 OData 끝점이 사용하도록 설정되었는지 확인합니다.
+관리자에게 올바른 OData URL을 확인하고 OData 엔드포인트가 사용하도록 설정되었는지 확인합니다.
 
 사용 중인 Dynamics 마케팅의 버전을 확인하세요. 18.0 및 18.1 버전에서 추가로 수정되었지만, 여전히 문제가 발생하고 이전 버전을 사용하는 경우, 업그레이드를 고려하세요.
 
