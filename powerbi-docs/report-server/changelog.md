@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
-ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
+ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256840"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380316"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -24,6 +24,15 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
 ## <a name="august-2018"></a>2018년 8월
 - **Power BI Report Server**
+    - 버전 1.3.6816.37243(빌드 15.0.2.557), 릴리스 날짜: 2018년 8월 30일
+        - 버그 수정
+            - 바인딩 리디렉션이 업데이트되지 않은 이전 버전의 PBI 보고서 서버에서 서버가 업그레이드될 때 다음이 표시되는 문제가 수정되었습니다.      
+            *`
+            Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
+             `*
+             
+            - 데이터 레이블 투명도에 대한 버그가 이제 수정되었습니다.
+            
     - *버전 1.3.6801.38816(빌드 15.0.2.540), 릴리스 날짜: 2018년 8월 15일*
         - 기능
             - SAP HANA SSO 직접 쿼리는 Power BI 보고서에 대해 지금 사용할 수 있는 Kerberos에서 지원됩니다.

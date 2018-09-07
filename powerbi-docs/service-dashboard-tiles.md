@@ -2,20 +2,20 @@
 title: Power BI 서비스의 대시보드 타일
 description: Power BI의 대시보드 타일에 대한 모든 정보. SSRS(SQL Server Reporting Services)에서 만들어진 타일을 포함합니다.
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249071"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241594"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
 대시보드 및 대시보드 타일은 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. Power BI 모바일에서는 대시보드 타일을 만들거나 고정할 수 없지만 [보고 공유](mobile-tiles-in-the-mobile-apps.md)할 수는 있습니다. 또한 Power BI 모바일에서는 [iPhone 앱으로 대시보드에 그림을 추가](mobile-iphone-app-get-started.md)할 수 있습니다.
@@ -67,9 +67,9 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
    
    * [이 타일을 만드는 데 사용된 워크시트 열기](service-reports.md) ![워크시트 아이콘](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [포커스 모드로 보기](service-focus-mode.md) ![포커스 아이콘](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [포커스 모드로 보기](service-focus-mode.md) ![포커스 아이콘](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [타일에 사용된 데이터 내보내기](power-bi-visualization-export-data.md) ![데이터 내보내기 아이콘](media/service-dashboard-tiles/export-icon.png)
-     * [제목 및 부제목 편집, 하이퍼링크 추가 및 마지막 새로 고침 시간 표시](service-dashboard-edit-tile.md) ![편집 아이콘](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [제목 및 부제목 편집, 하이퍼링크 추가![편집 아이콘](media/service-dashboard-tiles/pencil-icon.jpg)](service-dashboard-edit-tile.md)
      * [정보 실행](service-insights.md) ![정보 아이콘](media/service-dashboard-tiles/power-bi-insights.png)
      * [타일을 다른 대시보드에 고정](service-pin-tile-to-another-dashboard.md)
        ![고정 아이콘](media/service-dashboard-tiles/pin-icon.jpg)

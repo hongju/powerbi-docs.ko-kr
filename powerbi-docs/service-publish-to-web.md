@@ -2,33 +2,33 @@
 title: Power BI에서 웹에 게시
 description: Power BI 웹에 게시를 사용하면 장치에서 메일이나 소셜 미디어를 통해 블로그 게시물, 웹 사이트 등에 대화형 Power BI 시각화를 온라인으로 쉽게 포함할 수 있습니다.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092348"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380339"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
 Power BI **웹에 게시**를 사용하면 장치에서 메일이나 소셜 미디어를 통해 블로그 게시물, 웹 사이트 등에 대화형 Power BI 시각화를 온라인으로 쉽게 포함할 수 있습니다.
 
-또한 게시된 시각적 개체를 편집, 업데이트, 새로 고침 또는 공유 해제할 수 있습니다.
+또한 게시된 시각적 개체를 편집하거나, 업데이트하거나, 새로 고치거나, 공유 해제할 수 있습니다.
 
 > [!WARNING]
 > **웹에 게시**를 사용하는 경우 누구나 인터넷에서 게시하는 보고서 또는 시각적 개체를 볼 수 있습니다. 이러한 보고서를 볼 때에는 인증이 사용되지 않습니다. 인터넷에서 누구나(인증되지 않은 대중) 볼 수 있어야 하는 보고서 및 데이터에만 웹에 게시를 사용하세요. 보고서에 집계된 세부 정보 수준 데이터를 포함합니다. 이 보고서를 게시하기 전에 데이터 및 시각화를 공개적으로 공유하는 권한이 있는지 확인합니다. 기밀 또는 소유 정보를 게시하지 마십시오. 확실하지 않은 경우 게시하기 전에 조직의 정책을 확인합니다.
 
 ## <a name="how-to-use-publish-to-web"></a>웹에 게시를 사용하는 방법
 
-**웹에 게시** 는 편집할 수 있는 개인 또는 그룹 작업 영역의 보고서에서 사용할 수 있습니다.  사용자와 공유되는 보고서 또는 데이터를 보호하기 위해 행 수준 보안을 사용하는 보고서로 웹에 게시를 사용할 수 없습니다. 웹에 게시가 지원되지 않는 경우의 전체 목록은 아래 **제한** 섹션을 참조하세요. 웹에 게시를 사용하기 전에 이 문서의 앞부분에 있는 **경고**를 읽어 보세요.
+**웹에 게시** 는 편집할 수 있는 개인 또는 그룹 작업 영역의 보고서에서 사용할 수 있습니다.  사용자와 공유되는 보고서 또는 데이터를 보호하기 위해 행 수준 보안을 사용하는 보고서로 웹에 게시를 사용할 수 없습니다. 웹에 게시가 지원되지 않는 경우의 전체 목록은 아래 **제한** 섹션을 참조하세요. 웹에 게시를 사용하기 전에 이 문서의 앞부분에 있는 **경고**를 확인해 보세요.
 
 다음의 *짧은 동영상*에서 이 기능의 작동 방식을 확인할 수 있습니다. 그런 다음 아래 단계에 따라 직접 시도해 보세요.
 
@@ -65,7 +65,7 @@ Power BI **웹에 게시**를 사용하면 장치에서 메일이나 소셜 미�
 
 | 보기 모드 | 포함되었을 때 구현되는 모양 |
 | --- | --- |
-| ![](media/service-publish-to-web/publish_to_web6b.png) |**페이지에 맞추기** 는 보고서의 페이지 높이 및 너비를 유지합니다. 16:9 또는 4:3과 같은 'Dynamic' 비율로 페이지를 설정하는 경우 콘텐츠는 제공한 iFrame 내에 맞게 확장됩니다. iFrame에 포함된 경우 **페이지에 맞추기**를 사용하면 **letterboxing**이 발생할 수 있으며 여기에서 콘텐츠가 iFrame 내에 맞게 확장된 후 iFrame의의 영역이 회색 배경으로 표시됩니다. letterboxing을 최소화하려면 iFrame 높이/너비를 적절하게 설정합니다. |
+| ![](media/service-publish-to-web/publish_to_web6b.png) |**페이지에 맞추기** 는 보고서의 페이지 높이 및 너비를 유지합니다. 16:9 또는 4:3과 같은 ‘Dynamic’ 비율로 페이지를 설정하는 경우 콘텐츠는 제공한 iFrame 내에 맞게 확장됩니다. iFrame에 포함된 경우 **페이지에 맞추기**를 사용하면 **letterboxing**이 발생할 수 있으며 여기에서 콘텐츠가 iFrame 내에 맞게 확장된 후 iFrame의의 영역이 회색 배경으로 표시됩니다. letterboxing을 최소화하려면 iFrame 높이/너비를 적절하게 설정합니다. |
 | ![](media/service-publish-to-web/publish_to_web6d.png) |**실제 크기** 는 보고서 페이지에 설정된 대로 보고서의 크기를 유지합니다. 따라서 iFrame에 스크롤 막대가 표시될 수 있습니다. 스크롤 막대를 피하도록 iFrame 높이 및 너비를 설정합니다. |
 | ![](media/service-publish-to-web/publish_to_web6c.png) |**너비에 맞추기** 는 iFrame에 대한 가로 영역 내에 콘텐츠를 맞춥니다. 테두리는 계속 표시되지만, 콘텐츠는 사용 가능한 가로 공간을 모두 사용하도록 확장됩니다. |
 
@@ -128,15 +128,16 @@ Power BI **웹에 게시**를 사용하면 장치에서 메일이나 소셜 미�
 
 **웹에 게시**는 Power BI 서비스에서 대부분의 데이터 원본과 보고서에 대해 지원되지만, 다음은 웹에 게시에서 **현재 지원되지 않거나 사용할 수 없습니다**.
 
-1. 행 수준 보안을 사용하는 보고서
-2. 온-프레미스에 호스트된 Analysis Services 테이블 형식, Analysis Service 다차원 및 Azure Analysis Services를 비롯한 모든 라이브 연결 데이터 원본을 사용하는 보고서
-3. 사용자에게 직접적으로 또는 조직 콘텐츠 팩을 통해 공유되는 보고서
-4. 편집 멤버가 아닌 그룹의 보고서
-5. "R" 시각적 개체는 현재 웹에 게시 보고서에서 지원되지 않습니다.
-6. 웹에 게시된 보고서의 시각적 개체에서 데이터 내보내기
-7. ArcGIS Maps for Power BI 시각적 개체
-8. 보고서 수준 DAX 측정값을 포함하는 보고서
-9. [보안 기밀 또는 소유 정보](#publish-to-web-from-power-bi)
+- 행 수준 보안을 사용하는 보고서
+- 온-프레미스에 호스트된 Analysis Services 테이블 형식, Analysis Service 다차원 및 Azure Analysis Services를 비롯한 모든 라이브 연결 데이터 원본을 사용하는 보고서
+- 사용자에게 직접적으로 또는 조직 콘텐츠 팩을 통해 공유되는 보고서
+- 편집 멤버가 아닌 그룹의 보고서
+- "R" 시각적 개체는 현재 웹에 게시 보고서에서 지원되지 않습니다.
+- 웹에 게시된 보고서의 시각적 개체에서 데이터 내보내기
+- ArcGIS Maps for Power BI 시각적 개체
+- 보고서 수준 DAX 측정값을 포함하는 보고서
+- SSO(Single Sign-On) 데이터 쿼리 모델
+- [보안 기밀 또는 소유 정보](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>테넌트 설정
 

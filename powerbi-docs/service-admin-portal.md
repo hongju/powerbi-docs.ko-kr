@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/15/2018
+ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
-ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
+ms.openlocfilehash: 592c3bf5fbd508d63236d16ca21164ee507df35b
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257086"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300118"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -23,7 +23,7 @@ ms.locfileid: "40257086"
 
 회사에 대한 Power BI의 테넌트 관리는 Power BI 관리 포털을 통해 수행됩니다. 관리 포털은 Office 365의 전역 관리자이거나 Power BI 서비스 관리자 역할에 할당된 모든 사용자가 액세스할 수 있습니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요.
 
-모든 사용자는 톱니 바퀴형 아이콘에서 **관리자 포털**을 볼 수 있습니다. 관리자가 아닌 경우 **프리미엄 설정** 섹션만 보이고, 관리 권한이 있는 용량만 확인할 수 있습니다.
+모든 사용자는 기어 아이콘에서 **관리 포털**을 볼 수 있습니다. 관리자가 아닌 경우 **프리미엄 설정** 섹션만 보이고, 관리 권한이 있는 용량만 확인할 수 있습니다.
 
 ## <a name="how-to-get-to-the-admin-portal"></a>관리 포털에 도달하는 방법
 
@@ -76,7 +76,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
   
     ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-두 번째 섹션은 동일한 유형의 정보를 보여 주지만 그룹을 기반으로 합니다. 이 뷰를 통해 조직에서 가장 활발한 그룹 및 해당 그룹이 사용 중인 정보의 종류를 확인할 수 있습니다.
+두 번째 섹션은 동일한 유형의 정보를 보여 주지만 그룹을 기반으로 합니다. 여기에서는 조직에서 가장 활발한 그룹 및 해당 그룹이 사용 중인 정보의 종류를 확인할 수 있습니다.
 
 이 정보를 사용하여 조직의 사용자가 Power BI를 사용하는 방법을 실제로 파악할 수 있으며 조직에서 매우 활발한 사용자 및 그룹을 인식할 수 있습니다.
 
@@ -150,13 +150,13 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 ![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
 
-사용자의 웹 게시 설정에 따라 UI에 여러 옵션이 표시됩니다.
+사용자의 웹 게시 설정에 따라 UI에 다른 옵션이 표시될 수 있습니다.
 
 |특정 |전체 조직에 대해 사용 |전체 조직에 대해 사용 안 함 |특정 보안 그룹   |
 |---------|---------|---------|---------|
 |보고서의 **파일** 메뉴 아래에 있는 **웹 게시**.|모든 사용자에 대해 사용|모든 사용자에게 표시 안 함|권한 있는 사용자 또는 그룹에만 표시.|
 |**설정** 아래의 **embed 태그 관리**|모든 사용자에 대해 사용|모든 사용자에 대해 사용|모든 사용자에 대해 사용<br><br>권한 있는 사용자 또는 그룹에만 * **삭제** 옵션 제공.<br>모든 사용자에 대해 * **코드 가져오기** 사용.|
-|관리자 포털 내의 **embed 태그**|상태는 다음 중 하나를 반영합니다.<br>* 활성<br>* 지원되지 않음<br>* 차단됨|상태가 **사용 안 함**으로 표시됨|상태는 다음 중 하나를 반영합니다.<br>* 활성<br>* 지원되지 않음<br>* 차단됨<br><br>테넌트 설정에 따라 사용자에게 권한이 없으면 상태가 **침해됨**으로 표시됩니다.|
+|관리자 포털 내의 **embed 태그**|상태는 다음 중 하나를 반영합니다.<br>* 활성<br>* 지원되지 않음<br>* 차단됨|상태에 **사용 안 함**이 표시됨|상태는 다음 중 하나를 반영합니다.<br>* 활성<br>* 지원되지 않음<br>* 차단됨<br><br>테넌트 설정에 따라 사용자에게 권한이 없으면 상태가 **침해됨**으로 표시됩니다.|
 |게시된 기존 보고서|모두 사용|모두 사용 안 함|보고서가 모든 사용자에 대해 계속 렌더링합니다.|
 
 ### <a name="export-data"></a>데이터 내보내기
@@ -210,12 +210,14 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 ## <a name="integration-settings"></a>통합 설정
 
 ### <a name="ask-questions-about-data-using-cortana"></a>Cortana를 사용하여 데이터에 대한 질문
+
 조직의 사용자는 Cortana를 사용하여 데이터에 대한 질문을 할 수 있습니다.
 
 > [!NOTE]
 > 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>온-프레미스 데이터 집합을 통해 Excel에서 분석 사용
+
 조직의 사용자는 Excel을 사용하여 온-프레미스 Power BI 데이터 집합을 보고 상호 작용할 수 있습니다. [자세히 알아보기](service-analyze-in-excel.md)
 
 > [!NOTE]
@@ -230,7 +232,9 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 조직의 사용자는 Azure Search에 의존하는 외부 검색 기능을 사용할 수 있습니다. 예를 들어 사용자는 Cortana를 사용하여 Power BI 대시보드 및 보고서에서 주요 정보를 직접 검색할 수 있습니다. [자세히 알아보기](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>사용자 지정 시각적 개체 설정
+
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>전체 조직에 대해 사용자 지정 시각적 개체 사용
+
 조직의 사용자는 사용자 지정 시각적 개체를 조작하고 공유할 수 있습니다. [자세히 알아보기](power-bi-custom-visuals.md)
 
 > [!NOTE]
@@ -292,11 +296,23 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 ## <a name="capacity-settings"></a>용량 설정
 
-용량 설정 탭을 사용하면 조직에서 구매한 모든 Power BI Premium 용량을 관리할 수 있습니다. 조직 내 모든 사용자가 프리미엄 설정 탭을 볼 수 있으나, **용량 관리** 또는 할당 권한이 있는 사용자로 할당된 경우에만 탭 내 콘텐츠를 볼 수 있습니다. 사용자 권한이 없으면 다음과 같은 메시지가 나타납니다.
+### <a name="premium-settings"></a>프리미엄 설정
 
-![](media/service-admin-portal/premium-settings-no-access.png "프리미엄 설정 액세스 권한 없음")
+프리미엄 설정 탭을 사용하면 조직용으로 구매한 모든 Power BI Premium(EM 또는 P SKU) 용량을 관리할 수 있습니다. 조직 내 모든 사용자가 프리미엄 설정 탭을 볼 수 있으나, **용량 관리** 또는 할당 권한이 있는 사용자로 할당된 경우에만 탭 내 콘텐츠를 볼 수 있습니다. 사용자에게 권한이 없으면 다음과 같은 메시지가 나타납니다.
 
-프리미엄 설정 관리에 관한 자세한 내용은 [Power BI 프리미엄 관리](service-admin-premium-manage.md)를 참조하세요.
+![Power BI Premium 관리 설정](media/service-admin-portal/premium-settings-no-access.png "프리미엄 설정에 대한 액세스 권한 없음")
+
+프리미엄 설정 관리에 관한 자세한 내용은 [Power BI Premium 관리](service-admin-premium-manage.md)를 참조하세요.
+
+### <a name="power-bi-embedded-settings"></a>Power BI Embedded 설정
+
+Power BI Embedded 설정 탭에서 고객을 위해 구입한 Power BI Embedded(A SKU) 용량을 확인할 수 있습니다. Azure에서만 A SKU를 구입할 수 있으므로 **Azure Portal**에서 Azure의 [포함된 용량을 관리](developer/azure-pbie-create-capacity.md)할 수 있습니다.
+
+![Power BI Embedded 관리 설정](media/service-admin-portal/manage-pbie-capacities-01.png)
+
+![Power BI Embedded 관리 설정 세부 정보](media/service-admin-portal/manage-pbie-capacities-02.png)
+
+Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Embedded란?](developer/azure-pbie-what-is-power-bi-embedded.md)을 참조하세요.
 
 ## <a name="embed-codes"></a>embed 태그
 
@@ -307,10 +323,10 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 ## <a name="organization-visuals"></a>조직의 시각적 개체
 
 조직의 시각적 개체 탭을 사용하면 조직 내에서 사용자 지정 시각적 개체를 배포하고 관리할 수 있습니다. 그러므로 조직의 소유 사용자 지정 시각적 개체를 쉽게 배포할 수 있습니다. 보고서 작성자의 경우 해당 시각적 개체를 쉽게 검색하고 Power BI Desktop에서 보고서로 바로 가져올 수 있습니다.
- 
+
 이 페이지에서는 현재 조직의 리포지토리에 배포된 모든 사용자 지정 시각적 개체를 보여줍니다.
- 
-![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+![조직 관리의 시각적 개체](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
 ### <a name="add-a-new-custom-visual"></a>새 사용자 지정 시각적 개체 추가
 
@@ -320,26 +336,38 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 > [!WARNING]
 > 사용자 지정 시각적 개체에는 보안 또는 개인 정보 관련 위험이 있는 코드가 포함될 수 있습니다. 조직의 리포지토리로 배포하기 전에 사용자 지정 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인해야 합니다.
-> 
 
 필드를 입력하세요.
- 
+
 * .pbiviz 파일 선택(필수): 업로드할 사용자 지정 시각적 개체 파일을 선택합니다. 버전이 있는 API 사용자 지정 시각적 개체만 지원됩니다(여기 참조).
+
 사용자 지정 시각적 개체를 업로드하기 전에 보안 및 개인 정보에 대해 사용자 지정 시각적 개체를 검토하여 조직의 표준에 적합한지 확인해야 합니다. 사용자 지정 시각적 개체 보안에 대해 자세히 알아보세요.
- 
+
 * Name your custom visuals(사용자 지정 시각적 개체 이름 지정)(필수): Power BI Desktop 사용자가 쉽게 이해할 수 있도록 시각적 개체에 간단한 제목을 지정합니다.
- 
+
 * 아이콘(필수): Power BI Desktop UI에 표시되는 아이콘 파일입니다.
- 
+
 * 설명: 사용자에게 더 많은 컨텍스트와 교육을 제공하기 위한 시각적 개체에 대한 간단한 설명입니다.
- 
+
 “적용”을 선택하여 업로드 요청을 시작합니다. 성공하면 목록에 새 항목이 표시됩니다. 실패하면 해당 오류 메시지가 표시됩니다.
- 
+
 ### <a name="delete-a-custom-visual-from-the-list"></a>목록에서 사용자 지정 시각적 개체 삭제
 
 휴지통 아이콘을 선택하여 리포지토리에서 시각적 개체를 영구적으로 삭제합니다.
 중요: 삭제는 되돌릴 수 없습니다. 삭제되면 시각적 개체는 기존 보고서에서 렌더링을 즉시 중지합니다. 동일한 시각적 개체를 다시 업로드하는 경우에도 삭제한 이전 시각적 개체를 대체하지 않습니다. 사용자는 새 시각적 개체를 다시 가져와서 보고서의 인스턴스를 바꿔야 합니다.
- 
+
+### <a name="disable-a-custom-visual-in-the-list"></a>목록에서 사용자 지정 시각적 개체 사용 안 함
+
+조직의 저장소에서 시각적 개체를 사용하지 않으려면 기어 아이콘을 선택합니다. **액세스** 섹션에서 사용자 지정 시각적 개체를 사용 안 함으로 설정합니다.
+
+시각적 개체를 사용하지 않도록 설정하면 시각적 개체가 기존 보고서에 렌더링되지 않고 아래와 같은 오류 메시지가 표시됩니다.
+
+이 사용자 지정 시각적 개체는 더 이상 사용할 수 없습니다. 자세한 내용은 관리자에게 문의하세요.
+
+그러나 책갈피로 지정된 시각적 개체는 여전히 작동합니다.
+
+업데이트 후 또는 관리자가 변경한 후 Power BI Desktop 사용자는 응용 프로그램을 다시 시작하거나 Power BI 서비스에서 브라우저를 새로 고쳐 업데이트를 확인해야 합니다.
+
 ### <a name="how-to-update-a-visual"></a>시각적 개체를 업데이트하는 방법
 
 시각적 개체의 새 버전(예: 버그 수정, 새 기능 등)이 있어서 리포지토리에서 시각적 개체를 업데이트하려면 **업데이트** 아이콘을 선택하고 새 파일을 업로드합니다. 시각적 개체 ID가 변경되지 않았는지 확인합니다. 새 파일은 조직 전체의 모든 보고서에 대해 이전 파일을 대체합니다. 그러나 시각적 개체의 새 버전이 시각적 개체의 이전 버전에 대한 사용이나 데이터 구조를 중단하는 경우에는 이전 버전을 바꾸지 마세요. 대신에 시각적 개체의 새 버전에 대한 새 목록을 만들어야 합니다. 예를 들어 새 버전 번호(버전 X.X)를 새 나열된 시각적 개체의 제목에 추가합니다. 이렇게 하면 업데이트된 버전 번호를 가진 동일한 시각적 개체가 되므로 기존 보고서가 해당 기능을 중단하지 않습니다. 다시 한번 시각적 개체 ID가 변경되지 않았는지 확인합니다. 그러면 다음에 사용자가 Power BI Desktop에서 조직의 리포지토리에 들어갈 때 새 버전을 가져올 수 있으며, 보고서에 있는 현재 버전을 바꾸라는 메시지가 표시됩니다.

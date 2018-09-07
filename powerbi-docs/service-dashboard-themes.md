@@ -2,20 +2,20 @@
 title: Power BI 서비스에서 대시보드 테마 사용
 description: 사용자 지정 색상표를 사용하고 Power BI 서비스에서 전체 대시보드에 적용하는 방법 알아보기
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 08/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 25bd28db7b31921d5f1a02ae72cee47207134f2a
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944655"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241479"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI 서비스에서 대시보드 테마 사용
 **대시보드 테마**를 사용하여 전체 대시보드에 회사 색, 계절 색 지정 또는 적용하려는 기타 색 테마 등의 색 테마를 적용할 수 있습니다. **대시보드 테마**를 적용하는 경우 대시보드의 모든 시각적 개체에서는 선택한 테마를 사용합니다(몇 가지 예외 적용, 이 아티클의 뒷부분에서 설명).
@@ -46,7 +46,7 @@ Power BI 대시보드의 기본 테마는 **밝게**입니다. 색을 사용자 
 
 ![드롭다운에서 사용자 지정 선택](media/service-dashboard-themes/power-bi-theme-custom.png)
 
-사용자 지정 옵션을 사용하여 고유한 대시보드 테마를 만듭니다. 배경 이미지를 추가하는 경우 이미지는 적어도 1920x1080 해상도를 사용하는 것이 좋습니다.  
+사용자 지정 옵션을 사용하여 고유한 대시보드 테마를 만듭니다. 배경 이미지를 추가하는 경우 이미지는 적어도 1920x1080 해상도를 사용하는 것이 좋습니다. 이미지를 배경으로 사용하려면 이미지를 공개 웹 사이트에 업로드하고 URL을 복사한 이후 **이미지 URL** 필드에 붙여넣으세요. 
 
 ### <a name="using-json-themes"></a>JSON 테마 사용
 사용자 지정 테마를 만드는 또 다른 방법은 대시보드에 사용하려는 모든 색에 대한 설정을 포함하는 JSON 파일을 업로드하는 것입니다. Power BI Desktop에서 보고서 작성자는 JSON 파일을 사용하여 [보고서의 테마를 만듭니다](desktop-report-themes.md). 대시보드에 대해 이러한 동일한 JSON 파일을 업로드할 수 있습니다. 또는 Power BI 커뮤니티의 [테마 갤러리 페이지](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery)에서 JSON 파일을 찾아 업로드할 수 있습니다. 

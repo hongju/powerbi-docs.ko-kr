@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 935932e92e5d95ae52957bf1360db8d2232286ad
-ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
+ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42702963"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241525"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -47,7 +47,7 @@ Power BI Embedded는 응용 프로그램을 빌드하고 시각적 개체를 포
 
 Microsoft는 기업 고객에게는 엔터프라이즈급 셀프 서비스 클라우드 BI 솔루션인 Power BI Premium을, ISV에게는 클라우드 기반의 포함된 분석 구성 요소인 Power BI Embedded를 추천합니다. 그러나 고객이 구매할 수 있는 제품에는 제한이 없습니다.
 
-ISV(일반적으로 대규모)가 P SKU를 사용하여 조직 내에서 사전 패키지 Power BI 서비스의 추가 이점을 누리는 동시에 응용 프로그램에 포함하려는 경우가 있을 수 있습니다. 물론 LOB(기간 업무) 응용 프로그램을 빌드하고 분석 도구를 포함하는 데에만 관심이 있고 사전 패키지 Power BI 서비스에는 관심이 없는 기업은 A SKU를 사용해도 됩니다.
+ISV(일반적으로 대규모)가 P SKU를 사용하여 조직 내에서 사전 패키지 Power BI 서비스의 추가 이점을 누리는 동시에 응용 프로그램에 포함하려는 경우가 있을 수 있습니다. 물론 사업 부문 응용 프로그램을 빌드하고 분석 기능을 포함하는 데에만 관심이 있고 사전 패키지 Power BI 서비스에는 관심이 없는 기업은 A SKU를 사용해도 됩니다.
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>얼마나 많은 포함 토큰을 만들 수 있습니까?
 
@@ -70,7 +70,7 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 | Embedded 응용 프로그램에서 Power BI 보고서 사용 | 예 | 예 | 예 |
 | SharePoint에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
 | Dynamics에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
-| Teams(데스크톱 앱 전용)에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
+| Teams에서 Power BI 보고서 사용(모바일 앱 제외) | 아니요 | 예 | 예 |
 | Powerbi.com 및 Power BI 모바일에서 무료 Power BI 라이선스를 사용하여 콘텐츠 액세스 | 아니요 | 아니요 | 예 |
 | MS Office 앱에 포함된 무료 Power BI 라이선스를 사용하여 콘텐츠에 액세스 | 아니요 | 예 | 예 |
 
@@ -78,13 +78,13 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 
 |  |A SKU(Power BI Embedded)  |EM SKU(Power BI Premium)  |P SKU(Power BI Premium)  |
 |---------|---------|---------|---------|
-|구입     |Azure Portal |Office |Office |
-|사용 사례 |* 자체 응용 프로그램에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* MS Office 응용 프로그램([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams(데스크톱 앱 전용)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))에 콘텐츠 포함 |* 자체 응용 프로그램에 콘텐츠 포함<br>* MS Office 응용 프로그램([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams(데스크톱 앱 전용)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))에 콘텐츠 포함<br>* [Power BI 서비스](https://powerbi.microsoft.com/en-us/)를 통해 Power BI 사용자와 콘텐츠 공유  |
+|구입  |Azure Portal |Office |Office |
+|사용 사례 | 자체 응용 프로그램에 콘텐츠 포함 | <li> 자체 응용 프로그램에 콘텐츠 포함 <br><br></br> <li> MS Office 응용 프로그램에 콘텐츠 포함: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams(모바일 앱 제외)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 자체 응용 프로그램에 콘텐츠 포함 <br><br></br> <li> MS Office 응용 프로그램에 콘텐츠 포함: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams(모바일 앱 제외)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> [Power BI 서비스](https://powerbi.microsoft.com/en-us/)를 통해 Power BI 사용자와 콘텐츠 공유  |
 |청구 |시간별 |매월 |매월 |
 |약정  |약정 없음 |매년  |매월/매년 |
-|차별화 |탁월한 탄력성 - Azure Portal에서 또는 API를 통해 리소스를 강화/규모 축소, 일시 중지/다시 시작 가능  |SharePoint Online 및 Microsoft Teams(데스크톱 앱 전용)에 콘텐츠를 포함하는 데 사용 가능 |응용 프로그램에 포함 및 Power BI 서비스 사용을 동일한 용량에 결합 |
+|차별화 |탁월한 탄력성 - Azure Portal에서 또는 API를 통해 리소스를 강화/규모 축소, 일시 중지/다시 시작 가능  |SharePoint Online 및 Microsoft Teams(모바일 앱 제외)에 콘텐츠를 포함하는 데 사용 가능 |응용 프로그램에 포함 및 Power BI 서비스 사용을 동일한 용량에 결합 |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure에서 PBIE 용량을 만드는 필수 구성 요소는 무엇입니까?
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure에서 PBIE 용량을 만드는 필수 구성 요소는 무엇입니까? 
 
 * 조직 디렉토리에 로그인해야 합니다(MSA 계정은 지원되지 않음).
 * Power BI 테넌트가 있어야 합니다. 즉, 디렉토리에 있는 한 명 이상의 사용자가 Power BI에 가입해야 합니다. 
@@ -133,7 +133,7 @@ Power BI에서는 조직 계정에 등록해야 합니다. MSA(Microsoft 계정)
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 솔루션에 포함된 PBI Embedded 전용 용량 역할이란?
 
-[솔루션을 프로덕션으로 수준 올리기](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)하기 위해 Power BI 콘텐츠(응용 프로그램에서 사용 중인 앱 작업 영역)를 전용 용량에 할당해야 합니다.
+[솔루션의 수준을 프로덕션으로 올리기](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) 위해서는 Power BI 콘텐츠(응용 프로그램에서 사용 중인 앱 작업 영역)를 Power BI Embedded(A SKU) 용량에 할당해야 합니다.
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>PBI Embedded를 사용 가능한 Azure 지역은 어디인가요?
 

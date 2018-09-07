@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924795"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250776"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium 및 Power BI Embedded 내에서 용량 관리
 콘텐츠에 대한 전용 리소스를 제공하는 Power BI Premium 및 Power BI Embedded 용량을 관리하는 방법을 알아봅니다.
@@ -163,33 +163,8 @@ Power BI 관리자 및 Office 365 전역 관리자와 함께 용량 관리자는
 
 
 ## <a name="monitor-capacity-usage"></a>용량 사용량 모니터링
-각 용량에 대해 CPU, 메모리 사용량, 메모리 쓰래싱 및 직접 쿼리에 대한 사용량 측정을 볼 수 있습니다. 사용자가 용량에 대해 나은 성능을 확인할 수 있도록 탭에서 이러한 메트릭을 유지하는 것이 좋습니다.
 
-![지난 7일간 사용량](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> Power BI Embedded 용량 사용량은 Azure Portal 내에서 모니터링됩니다.
-
-| 메트릭 | 설명 |
-| --- | --- |
-| CPU |CPU 사용률이 80%를 초과한 횟수입니다. |
-| 메모리 쓰래싱 |백 엔드 코어에 대한 메모리 압력을 나타냅니다. 특히 이는 여러 데이터 집합의 사용으로 인한 메모리 압력에 따라 데이터 집합이 메모리에서 제거된 횟수를 나타내는 메트릭입니다. |
-| 메모리 사용량 |GB(기가바이트)로 표시되는 평균 메모리 사용량입니다. |
-| DQ/s | 직접 쿼리 및 라이브 연결이 제한의 80%를 초과한 횟수입니다. <br> <br> * DirectQuery의 총 수를 제한하고 라이브 연결은 초당 쿼리합니다.<br><br>* 제한은 P1에 대해 30/s, P2에 대해 60/s 및 P3에 대해 120/s입니다.<br><br> * 직접 쿼리 및 라이브 연결 쿼리 수가 위의 제한에 추가됩니다. 예를 들어 초당 15개의 DirectQueries 및 15개의 라이브 연결이 있는 경우 스로틀에 도달합니다.<br/><br>* 이는 온-프레미스 및 클라우드 연결에 동일하게 적용됩니다. |
-
-메트릭은 지난 주 동안의 사용률을 반영합니다.  메트릭에 대한 자세한 보기를 보려면 요약 타일 중 하나를 클릭하면 됩니다.  그러면 프리미엄 용량의 각 메트릭에 대한 자세한 차트로 이동합니다.  이러한 차트는 지난 주에 대한 시간별로 요약되며, 프리미엄 용량에서 특정 성능 관련 이벤트가 발생한 경우를 격리하는 데 도움이 될 수 있습니다.  
-
-![자세한 CPU 사용 현황 차트](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![자세한 메모리 쓰래싱 사용 현황 차트](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![자세한 메모리 크기 사용 현황 차트](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![자세한 메모리 쓰래싱 사용 현황 차트](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-또한 메트릭 중 하나에 대한 기본 데이터를 csv 파일로 내보낼 수도 있습니다.  이 내보내기는 지난 주 매일 3분 간격으로 측정된 자세한 정보를 제공합니다.
+Power BI는 용량 사용량을 모니터링하기 위한 앱을 제공합니다. 자세한 내용은 [조직에서 Power BI Premium 용량 모니터링](service-admin-premium-monitor-capacity.md)을 참조하세요.
 
 ## <a name="what-premium-looks-like-for-users"></a>사용자에 대해 표시되는 프리미엄 모양
 대부분의 경우 사용자는 프리미엄 용량에 있다는 것을 알지 않아도 됩니다. 대시보드 및 보고서가 작동합니다. 시각적 힌트로 프리미엄 용량에 있는 작업 영역 옆에 다이아몬드 아이콘이 표시됩니다.
