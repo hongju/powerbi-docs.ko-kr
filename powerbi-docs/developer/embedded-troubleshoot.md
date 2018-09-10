@@ -2,19 +2,19 @@
 title: 포함된 응용 프로그램 문제 해결
 description: 이 문서에서는 Power BI 콘텐츠를 포함할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/09/2018
-ms.author: maghan
-ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.date: 08/31/2018
+ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877027"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241571"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
 
@@ -24,13 +24,13 @@ ms.locfileid: "38877027"
 
 ### <a name="fiddler-trace"></a>Fiddler 추적
 
-[Fiddler](http://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다.  클라이언트 컴퓨터에서 Power BI API를 사용하여 앞뒤로 볼 수 있습니다. 오류 및 다른 관련 정보를 표시할 수 있습니다.
+[Fiddler](http://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다.  클라이언트 머신에서 Power BI API를 사용하여 트래픽을 볼 수 있습니다. 이 도구에서 오류 및 다른 관련 정보를 표시할 수 있습니다.
 
 ![Fiddler 추적](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
 
 ### <a name="f12-in-browser-for-front-end-debugging"></a>프런트 엔드 디버깅을 위한 브라우저의 F12 키
 
-F12 키는 브라우저 내에서 개발자 창을 실행합니다. 이 창을 통해 네트워크 트래픽 및 기타 정보를 살펴볼 수 있습니다.
+F12 키를 사용하면 브라우저 내에서 개발자 창이 실행됩니다. 이 도구를 통해 네트워크 트래픽 및 기타 정보를 살펴볼 수 있습니다.
 
 ![F12 키 브라우저 디버깅](media/embedded-troubleshoot/browser-f12.png)
 
@@ -38,7 +38,7 @@ F12 키는 브라우저 내에서 개발자 창을 실행합니다. 이 창을 �
 
 이 코드 조각은 HTTP 예외에서 오류 세부 정보를 추출하는 방법을 보여줍니다.
 
-```
+```csharp
 public static string GetExceptionText(this HttpOperationException exc)
 {
     var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
@@ -52,16 +52,17 @@ public static string GetExceptionText(this HttpOperationException exc)
     return errorText;
 }
 ```
-요청 id(및 문제 해결에 대한 오류 세부 정보)를 기록해 두는 것이 좋습니다.
-Microsoft 지원에 문의할 때 요청 id를 제공해 주세요.
+
+요청 ID(및 문제 해결에 대한 오류 세부 정보)를 기록해 두는 것이 좋습니다.
+Microsoft 지원에 문의할 때 요청 ID를 제공해 주세요.
 
 ## <a name="app-registration"></a>앱 등록
 
 **앱 등록 실패**
 
-Azure Portal 포털 또는 Power BI 앱 등록 페이지 내에서 표시되는 오류 메시지는 권한 부족에 대해 언급할 것입니다. 응용 프로그램을 등록하려면 Azure AD 테넌트의 관리자이거나 관리자가 아닌 사용자도 응용 프로그램을 등록할 수 있도록 설정해야 합니다.
+Azure Portal 또는 Power BI 앱 등록 페이지 내에서 표시되는 오류 메시지는 권한 부족에 대해 언급할 것입니다. 응용 프로그램을 등록하려면 Azure AD 테넌트의 관리자이거나, 관리자가 아닌 사용자도 응용 프로그램을 등록할 수 있도록 설정해야 합니다.
 
-**새 앱을 등록하는 경우 Azure Portal에 Power BI 서비스가 표시되지 않습니다.**
+**새 앱을 등록하는 경우 Azure Portal에 Power BI 서비스가 표시되지 않음**
 
 적어도 사용자 한 명 이상이 Power BI에 등록되어야 합니다. API 목록에 **Power BI 서비스**가 표시되지 않으면 Power BI에 등록된 사용자가 한 명도 없는 것입니다.
 
@@ -167,18 +168,18 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 **_몇 가지 수정은 가능합니다._**
 
 *전체 테넌트(모든 사용자, 모든 응용 프로그램)에 대해 사용자 동의 사용*
-1. Azure Portal에서 "Azure Active Directory" = > "사용자 및 그룹" = > "사용자 설정"으로 이동합니다.
+1. Azure Portal에서 “Azure Active Directory” = > “사용자 및 그룹” = > “사용자 설정”으로 이동합니다.
 2. "사용자가 앱이 사용자 대신 회사 데이터에 액세스하는 것에 동의할 수 있음" 설정을 활성화하고 변경 내용을 저장합니다.
 
     ![승인 테스트 수정](media/embedded-troubleshoot/consent-test-02.png)
 
-*관리자에 의한 권한 부여* 전체 테넌트 또는 특정 사용자에 대해 관리자가 응용 프로그램에 권한을 부여합니다.
+‘관리자에 의한 권한 부여’ 전체 테넌트 또는 특정 사용자에 대해 관리자가 응용 프로그램에 대한 권한을 부여합니다.
 
 ## <a name="data-sources"></a>데이터 원본
 
 **ISV가 동일한 데이터 원본에 대해 여러 자격 증명을 원함**
 
-마스터 사용자 한 명마다 데이터 원본의 자격 증명 집합을 하나씩 사용할 수 있습니다. 여러 자격 증명을 사용해야 하는 경우 추가 마스터 사용자를 만들어야 합니다. 그런 다음 각 마스터 사용자 컨텍스트마다 서로 다른 자격 증명을 할당하고 해당 사용자의 Azure AD 토큰을 사용하여 자격 증명을 포함합니다.
+마스터 사용자 한 명마다 데이터 원본의 자격 증명 집합을 하나씩 사용할 수 있습니다. 여러 자격 증명을 사용해야 하는 경우 추가 마스터 사용자를 만들어야 합니다. 그런 다음, 각 마스터 사용자 컨텍스트마다 서로 다른 자격 증명을 할당하고 해당 사용자의 Azure AD 토큰을 사용하여 자격 증명을 포함합니다.
 
 ## <a name="content-rendering"></a>콘텐츠 렌더링
 
@@ -192,7 +193,41 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 **보고서 또는 대시보드 속도가 느림**
 
-Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 응용 프로그램 또는 포함 api 문제를 배제해도 되는 수준인지 확인합니다.
+Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 응용 프로그램 또는 포함 API 문제를 배제해도 되는 수준인지 확인합니다.
+
+## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>IError 개체로 포함된 응용 프로그램 문제 해결
+
+**JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)에서 ‘오류’ 이벤트에 의해 반환된 [**IError 개체**를 사용하여 응용 프로그램을 디버그하고 오류의 원인을 더 잘 알아보세요.
+
+IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는 적절한 일반 오류 테이블을 확인해야 합니다. **IError 속성**을 테이블의 속성과 비교하여 가능한 실패 원인을 찾아보세요.
+
+### <a name="typical-errors-when-embedding-for-power-bi-users"></a>Power BI 사용자에 대해 포함할 경우 발생하는 일반적인 오류
+
+| 메시지 | 자세한 메시지 | 오류 코드 | 가능한 이유 |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|
+| TokenExpired | 액세스 토큰이 만료되었습니다. 새 액세스 토큰으로 다시 제출하세요. | 403 | 만료된 토큰  |
+| PowerBIEntityNotFound | 보고서를 가져오지 못했습니다. | 404 | <li> 잘못된 보고서 ID <li> 보고서가 존재하지 않음  |
+| 잘못된 매개 변수 | powerbiToken 매개 변수가 지정되지 않았습니다. | 해당 없음 | <li> 액세스 토큰이 지정되지 않았음 <li> 보고서 ID가 제공되지 않았음 |
+| LoadReportFailed | 초기화하지 못했습니다. 클러스터를 확인할 수 없습니다. | 403 | * 잘못된 액세스 토큰 * 포함 유형이 토큰 유형과 일치하지 않음 |
+| PowerBINotAuthorizedException | 보고서를 가져오지 못했습니다. | 401 | <li> 잘못된 그룹 ID <li> 권한 없는 그룹 |
+| TokenExpired | 액세스 토큰이 만료되었습니다. 새 액세스 토큰으로 다시 제출하세요. <visual title>(이)라는 보고서 시각적 개체를 렌더링할 수 없습니다. | 해당 없음 | 쿼리 데이터 만료 토큰 |
+| OpenConnectionError | 시각적 개체를 표시할 수 없습니다. <visual title>(이)라는 보고서 시각적 개체를 렌더링할 수 없습니다. | 해당 없음 | 용량과 관련된 보고서가 세션에서 열려 있는 동안 용량이 일시 중지되었거나 삭제되었습니다. |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | 이 보고서와 연결된 모델 스키마를 로드할 수 없습니다. 서버에 연결되어 있는지 확인하고 다시 시도하세요. | 해당 없음 | <li> 용량이 일시 중지됨 <li> 용량이 삭제됨 |
+
+### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>포함 토큰을 사용하여 Power BI가 아닌 사용자에 대해 포함하는 경우 발생하는 일반적인 오류
+
+| 메시지 | 자세한 메시지 | 오류 코드 | 이유 |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------|
+| TokenExpired | 액세스 토큰이 만료되었습니다. 새 액세스 토큰으로 다시 제출하세요. | 403 | 만료된 토큰  |
+| LoadReportFailed | 보고서를 가져오지 못했습니다. | 404 | <li> 잘못된 보고서 ID <li> 보고서가 존재하지 않음  |
+| LoadReportFailed | 보고서를 가져오지 못했습니다. | 403 | 보고서 ID가 토큰과 일치하지 않음 |
+| LoadReportFailed | 보고서를 가져오지 못했습니다. | 500 | 보고서 제공 ID가 GUID가 아님 |
+| 잘못된 매개 변수 | powerbiToken 매개 변수가 지정되지 않았습니다. | 해당 없음 | <li> 액세스 토큰이 지정되지 않았음 <li> 보고서 ID가 제공되지 않았음 |
+| LoadReportFailed | 초기화하지 못했습니다. 클러스터를 확인할 수 없습니다. | 403 | 잘못된 토큰 유형, 잘못된 토큰 |
+| PowerBINotAuthorizedException | 보고서를 가져오지 못했습니다. | 401 | 잘못된/권한 없는 그룹 ID |
+| TokenExpired | 액세스 토큰이 만료되었습니다. 새 액세스 토큰으로 다시 제출하세요. <visual title>(이)라는 보고서 시각적 개체를 렌더링할 수 없습니다. | 해당 없음 | 쿼리 데이터 만료 토큰 |
+| OpenConnectionError | 시각적 개체를 표시할 수 없습니다. <visual title>(이)라는 보고서 시각적 개체를 렌더링할 수 없습니다. | 해당 없음 | 용량과 관련된 보고서가 세션에서 열려 있는 동안 용량이 일시 중지되었거나 삭제되었습니다. |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | 이 보고서와 연결된 모델 스키마를 로드할 수 없습니다. 서버에 연결되어 있는지 확인하고 다시 시도하세요. | 해당 없음 | <li> 용량이 일시 중지됨 <li> 용량이 삭제됨 |
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>포함하기 위한 온보딩 환경 도구
 
@@ -209,7 +244,7 @@ Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 응용 프
 
 ### <a name="common-issues"></a>일반적인 문제
 
-온보딩 환경 도구를 사용하여 테스 하는 경우 발생할 수 있는 몇 가지 일반적인 문제는 다음과 같습니다.
+온보딩 환경 도구를 사용하여 테스트하는 경우 발생할 수 있는 몇 가지 일반적인 문제는 다음과 같습니다.
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>고객에 대한 콘텐츠 포함 사용 샘플 응용 프로그램
 
@@ -244,3 +279,5 @@ Power BI 사용자 프로필 또는 데이터를 편집하려는 경우 [Power B
 자세한 내용은 [Power BI Embedded FAQ](embedded-faq.md)를 참조하세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+
+추가 지원이 필요한 경우 [지원 담당자에게 문의](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)하거나 [Azure Portal을 통해 지원 티켓](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)을 생성하고 오류 메시지를 알려주세요.
