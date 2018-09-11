@@ -2,21 +2,21 @@
 title: Power BI에서 ESRI로 ArcGIS 지도 만들기
 description: 'Power BI에서 ESRI로 ArcGIS 지도 만들기 '
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 85bf9630a8c272b513f27f38b24a5d8a77075444
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 127187367b2ae5680b50bc1e72de7214c522705e
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599623"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168069"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI 서비스 및 Power BI 데스크톱에서 Esri로 ArcGIS 지도 만들기
 이 자습서는 ArcGIS 지도를 만드는 사용자의 관점에서 작성되었습니다. 작성자가 동료와 ArcGIS 지도를 공유하면 해당 동료는 지도를 보고 상호 작용할 수 있지만 변경 내용을 저장할 수 없습니다. ArcGIS 지도 보기에 대해 자세히 알아보려면 [ArcGIS 지도와 상호 작용](power-bi-visualizations-arcgis.md)을 참조하세요.
