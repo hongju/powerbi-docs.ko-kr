@@ -2,20 +2,20 @@
 title: 빠르게 Excel 통합 문서에서 멋진 보고서 작성
 description: 빠르게 Excel 통합 문서에서 멋진 보고서 작성
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3244a185c7b7e9caa689ab7b90c184c9bf5b4662
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247175"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044420"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>빠르게 Excel 통합 문서에서 멋진 보고서 작성
 상사가 퇴근 전에 최근 판매 실적과 지난 캠페인에 대한 의견이 포함된 보고서를 제출하도록 요구합니다. 하지만 최신 데이터는 다양한 타사 시스템과 노트북의 파일에 있습니다. 이전에는 시각적 개체를 만들고 보고서 형식을 지정하는 데 몇 시간이 걸렸습니다. 걱정이 되기 시작합니다.
@@ -34,7 +34,7 @@ ms.locfileid: "34247175"
 ![표로 서식이 지정된 데이터](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-into-power-bi"></a>Power BI에 Excel 파일 업로드
-Power BI는 컴퓨터에 있는 Excel 파일을 포함하여 여러 데이터 원본에 연결합니다. 먼저 Power BI에 로그인합니다. 아직 등록하지 않은 경우 [무료로 등록할 수 있습니다](https://powerbi.com).
+Power BI는 컴퓨터에 있는 Excel 파일을 포함하여 여러 데이터 원본에 연결합니다. 먼저 Power BI 서비스에 로그인합니다. 아직 등록하지 않은 경우 [무료로 등록할 수 있습니다](https://powerbi.com).
 
 새 대시보드를 만들려고 합니다. **내 작업 영역**을 열고 **+ 만들기** 아이콘을 선택합니다.
 

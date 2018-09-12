@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257112"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343326"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 성능 모범 사례 
 이 문서에서는 Power BI에서 빠르고 신뢰할 수 있는 보고서를 빌드하기 위한 지침을 제공합니다.  
@@ -59,7 +59,7 @@ DirectQuery 또는 라이브 연결 사례에서 사용자가 Power BI 보고서
 - 계산된 열 및 측정값을 가능한 경우 원본에 푸시합니다. 원본에 가까울수록 수행 가능성이 더 높습니다. 
 - 최적화합니다! 쿼리에 대한 실행 계획을 이해하고 일반적으로 필터링된 열에 대한 인덱스를 추가하는 등의 작업을 수행합니다. 
 
-### <a name="modelling-guidance"></a>모델링 지침 
+### <a name="modeling-guidance"></a>모델링 지침 
 - Power BI Desktop에서 시작합니다. 
 - 쿼리 편집기에서 복잡한 쿼리를 사용하지 않습니다. 
 - 쿼리 편집기에서 상대 데이터 필터링을 사용하지 않습니다.  
@@ -110,7 +110,7 @@ DirectQuery 및 라이브 연결의 경우 이 쿼리 캐시는 데이터 원본
 
    다음 예와 같이 응용 프로그램 및 해당 열린 포트의 목록이 출력됩니다.  
 
-   TCP    [::1]:55786            [::1]:55830            ESTABLISHED 
+   `TCP    [::1]:55786            [::1]:55830            ESTABLISHED`
 
    [msmdsrv.exe] 
 

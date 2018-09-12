@@ -2,20 +2,20 @@
 title: Power BI의 시각화 유형
 description: Power BI의 시각화 유형
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bc1c54be2fdafeba4c706ca637ce50da7bf9d48c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4a98e62145c7928af9d33a5cd08c17e1867eef28
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246449"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168115"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
@@ -122,6 +122,14 @@ ms.locfileid: "34246449"
 
 ### <a name="pie-charts"></a>원형 차트
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+
+### <a name="ribbon-charts"></a>리본 차트
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+
+>[!TIP]
+>가장 높은 순위를 가진 데이터의 범주를 결정합니다.
+
+자세한 내용은 [Power BI에서 리본 차트 사용](desktop-ribbon-charts.md)을 참조하세요.
 
 ### <a name="scatter-and-bubble-charts"></a>분산형 및 거품형 차트
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)

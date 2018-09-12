@@ -2,20 +2,20 @@
 title: Power BI 서비스 및 Desktop의 질문 및 답변 개요
 description: Power BI 질문 및 답변 자연어 쿼리에 대한 설명서 개요 항목입니다.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1680a1aacf84eb5440703385dc831c32433456bb
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295471"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167954"
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 및 Power BI Desktop의 질문 및 답변
 ## <a name="what-is-qa"></a>질문 및 답변이란 무엇인가요?
@@ -48,9 +48,7 @@ Power BI 보고서의 *작성자*이거나 데이터 집합 편집 권한을 갖
 
 ## <a name="how-does-qa-know-how-to-answer-questions"></a>질문 및 답변에서 질문에 답변하는 방법을 어떻게 알 수 있나요?
 ### <a name="which-datasets-does-qa-use"></a>질문 및 답변에서 어떤 데이터 집합을 사용하나요?
-질문 및 답변에서 데이터 관련 질문에 답변하는 방법을 어떻게 알 수 있나요? 질문 및 답변에서는 기본 데이터 집합의 테이블, 열 및 계산된 필드 이름을 사용합니다. 따라서 사용자(또는 데이터 집합 소유자)가 어떤 것을 호출하는지가 중요합니다.
-
-예를 들어, "Product", "Month", "Units Sold", "Gross Sales" 및 "Profit"이라는 열이 있는 "Sales"라는 Excel 테이블이 있다고 가정합니다. 이러한 엔터티에 대해 질문을 할 수 있습니다.  "판매액 표시", "월별 총수익" , "판매된 단위별 제품 정렬" 등으로 질문할 수 있습니다.
+질문 및 답변에서 데이터 관련 질문에 답변하는 방법을 어떻게 알 수 있나요? 질문 및 답변에서는 기본 데이터 집합의 테이블, 열 및 계산된 필드 이름을 사용합니다. 따라서 데이터 집합 소유자가 어떤 것을 호출하는지가 중요합니다. 질문 및 답변 질문에 대한 답변을 얻는 데 문제가 있는 경우 데이터 집합 소유자에게 데이터 집합을 보다 친숙하게 만들 수 있는지 문의합니다.
 
 질문 및 답변에서는 데이터 집합이 구성되는 방식을 기반으로 질문에 대답할 수 있습니다. Salesforce에서는 데이터에 대해 어떻게 작동하나요? salesforce.com 계정에 연결하면 Power BI가 대시보드를 자동으로 생성합니다.  질문 및 답변으로 질문을 시작하기 전에 대시보드 시각화에 표시되는 데이터와 질문 및 답변 드롭다운에 표시되는 데이터를 확인합니다.
 
@@ -81,7 +79,5 @@ Google 분석의 웹 사이트 성능 데이터가 있는 경우 웹 페이지�
 [온-프레미스 데이터 집합에 질문 및 답변 사용](service-q-and-a-direct-query.md) 데이터 집합에 연결하려면 게이트웨이가 필요한 경우 Power BI 설정을 사용하여 질문 및 답변을 켜고 끕니다.
 
 [자습서: Power BI 서비스에서 소매점 판매 샘플에 질문 및 답변 사용](power-bi-visualization-introduction-to-q-and-a.md): 실제 업계 자습서에서 질문 및 답변을 사용합니다.
-
-[Q&A에서 데이터가 잘 작동하도록 설정](service-prepare-data-for-q-and-a.md): 데이터 집합 및 데이터 모델을 작성하시나요?  이 항목을 통해 해답을 얻으실 수 있습니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

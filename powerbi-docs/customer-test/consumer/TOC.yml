@@ -1,0 +1,197 @@
+items:
+- name: 소비자용 Power BI
+  href: power-bi-consumer-overview.md
+- name: 웹용 Power BI 서비스
+  items:
+  - name: 개요
+    items:
+    - name: Power BI란?
+      href: ../../service-basic-concepts.md
+  - name: 빠른 시작
+    items:
+    - name: Power BI에서 원하는 방법 찾기
+      href: ../../service-the-new-power-bi-experience.md
+  - name: 개념
+    items:
+    - name: Power BI 서비스의 새로운 기능
+      href: ../../service-whats-new.md
+    - name: 셀프 서비스 등록
+      href: ../../service-self-service-signup-for-power-bi.md
+    - name: 콘텐츠 검색 및 정렬
+      href: ../../service-navigation-search-filter-sort.md
+    - name: 관련 콘텐츠
+      href: ../../service-related-content.md
+    - name: 최근 콘텐츠
+      href: ../../service-recent.md
+    - name: Power BI 미리 보기 기능용 옵트인
+      href: ../../service-preview-features.md
+    - name: Power BI의 대시보드
+      href: ../../service-dashboards.md
+    - name: Power BI의 질문 및 답변
+      href: ../../power-bi-q-and-a.md
+    - name: Power BI의 보고서
+      href: ../../service-reports.md
+    - name: Power BI용 Cortana 소개
+      href: ../../service-cortana-intro.md
+    - name: Power BI의 대시보드 타일
+      href: ../../service-dashboard-tiles.md
+    - name: 공유한 항목
+      href: ../../service-shared-with-me.md
+    - name: Power BI에서 데이터 새로 고침
+      href: ../../refresh-data.md
+    - name: 질문과 대답
+      href: ../../service-frequently-asked-questions.md
+    - name: 미국 정부용 Power BI
+      href: ../../service-govus-overview.md
+    - name: Power BI Pro와 무료 버전 비교
+      href: ../../service-free-vs-pro.md
+    - name: 도움을 받을 수 있는 10가지 팁
+      href: ../../service-tips-for-finding-help.md
+    - name: 필터 및 Power BI 보고서에서 강조 표시 정보
+      href: ../../power-bi-reports-filters-and-highlighting.md
+  - name: 방법
+    items:
+    - name: 일반적인 작업
+      items:
+      - name: 즐겨 찾는 대시보드, 보고서 및 Power BI의 앱
+        href: ../../service-dashboard-favorite.md
+      - name: 포커스 모드에서 대시보드 타일 표시
+        href: ../../service-focus-mode.md
+      - name: 대시보드 인쇄, 대시보드 타일 인쇄, 보고서 페이지 인쇄
+        href: ../../service-print.md
+      - name: Power BI 내에서 콘텐츠 이름 바꾸기
+        href: ../../service-rename.md
+      - name: 전체 화면 모드(TV 모드)에서 대시보드 및 보고서 표시
+        href: ../../service-fullscreen-mode.md
+      - name: Power BI 내에서 콘텐츠 제거
+        href: ../../service-delete.md
+      - name: 미국 정부 기관 등록
+        href: ../../service-govus-signup.md
+      - name: Power BI 서비스의 데이터 경고
+        href: ../../service-set-data-alerts.md
+      - name: Power BI Q&A에서 질문하기 위한 팁과 요령
+        href: ../../service-q-and-a-tips.md
+      - name: 대시보드 및 보고서로 앱 설치 및 사용
+        href: ../../service-install-use-apps.md
+      - name: 조직 콘텐츠 팩 찾기 및 연결
+        href: ../../service-organizational-content-pack-find-and-open.md
+      - name: Power BI 질문 및 답변 시작
+        href: ../../power-bi-visualization-introduction-to-q-and-a.md
+    - name: 대시보드
+      items:
+      - name: Power BI의 추천 대시보드
+        href: ../../service-dashboard-featured.md
+      - name: Power BI 통합 알림 센터
+        href: ../../service-notification-center.md
+      - name: 대시보드 테마
+        href: ../../service-dashboard-themes.md
+    - name: 보고서
+      items:
+      - name: 보고서를 열 수 있는 여러 가지 방법
+        href: ../../service-report-open.md
+      - name: Power BI 보고서에서 차트 정렬 방식 변경
+        href: ../../power-bi-report-change-sort.md
+      - name: 시각화에서 데이터 내보내기
+        href: ../../power-bi-visualization-export-data.md
+      - name: 보고서 필터를 사용하는 방법
+        href: ../../power-bi-how-to-report-filter.md
+      - name: 보고서 또는 대시보드 구독
+        href: ../../service-report-subscribe.md
+- name: Power BI 모바일 앱
+  items:
+  - name: 개요
+    items:
+    - name: 모바일 앱이란?
+      href: ../../mobile-apps-for-mobile-devices.md
+  - name: 빠른 시작
+    items:
+    - name: 대시보드 및 보고서 탐색
+      href: ../../mobile-apps-quickstart-view-dashboard-report.md
+  - name: 자습서
+    items:
+    - name: iOS 모바일 앱에서 질문하기
+      href: ../../tutorial-mobile-apps-ios-qna.md
+  - name: 개념
+    items:
+    - name: 모바일 앱의 새로운 기능
+      href: ../../mobile-whats-new-in-the-mobile-apps.md
+    - name: 모바일 앱으로 실제 데이터 가져오기
+      href: ../../mobile-apps-data-in-real-world-context.md
+    - name: 모바일 앱에서 오프라인 데이터 보기
+      href: ../../mobile-apps-offline-data.md
+    - name: 혼합 현실용 Power BI 앱(미리 보기)
+      href: ../../mobile-mixed-reality-app.md
+  - name: 방법
+    items:
+    - name: 모든 모바일 앱
+      items:
+      - name: 모바일 앱에서 온-프레미스 보고서 보기
+        href: ../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: Power BI 모바일 앱에서 대시보드 공유
+        href: ../../mobile-share-dashboard-from-the-mobile-apps.md
+      - name: 모바일 앱의 타일과 상호 작용
+        href: ../../mobile-tiles-in-the-mobile-apps.md
+      - name: 모바일 앱의 즐겨찾기
+        href: ../../mobile-apps-favorites.md
+      - name: Power BI Mobile Apps에서 데이터 경고 설정
+        href: ../../mobile-set-data-alerts-in-the-mobile-apps.md
+      - name: Power BI 모바일 앱에서 알림 가져오기
+        href: ../../mobile-apps-notification-center.md
+      - name: 특정 위치로 이동하는 딥 링크 만들기
+        href: ../../mobile-apps-deep-link-specific-location.md
+      - name: Power BI 모바일 앱에서 위치별 보고서 필터링
+        href: ../../mobile-apps-geographic-filtering.md
+      - name: 휴대폰에서 Power BI QR 코드 스캔
+        href: ../../mobile-apps-qr-code.md
+      - name: 모바일 Power BI의 대시보드
+        href: ../../mobile-apps-view-dashboard.md
+      - name: 휴대폰에 최적화된 보고서 보기
+        href: ../../mobile-apps-view-phone-report.md
+      - name: 모바일 앱의 보고서
+        href: ../../mobile-reports-in-the-mobile-apps.md
+      - name: OAuth를 사용하여 Reporting Services에 연결
+        href: ../../mobile-oauth-ssrs.md
+      - name: Intune으로 모바일 앱 구성
+        href: ../../service-admin-mobile-intune.md
+    - name: Android 장치
+      items:
+      - name: Android 앱 시작
+        href: ../../mobile-android-app-get-started.md
+      - name: "'회사 SSL 인증서를 신뢰할 수 없습니다.' 수정"
+        href: ../../mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+      - name: "'Android System Webview를 업데이트해야 합니다.' 수정"
+        href: ../../mobile-android-error-update-android-system-webview.md
+    - name: iOS
+      items:
+      - name: iOS 앱 시작
+        href: ../../mobile-iphone-app-get-started.md
+      - name: iOS 모바일 앱의 Q&A 가상 분석가
+        href: ../../mobile-apps-ios-qna.md
+      - name: Power BI Apple Watch 앱
+        href: ../../mobile-apple-watch.md
+      - name: iPhone에서 앱의 바코드 스캔
+        href: ../../mobile-apps-scan-barcode-iphone.md
+    - name: iOS 및 Android
+      items:
+      - name: 모바일 앱에서 주석 달기 및 공유
+        href: ../../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+    - name: Windows 10 장치용 Power BI 앱
+      items:
+      - name: Windows 10용 모바일 앱 시작
+        href: ../../mobile-windows-10-phone-app-get-started.md
+      - name: 대시보드를 시작 화면에 고정
+        href: ../../mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+      - name: Windows 10용 앱에서 Reporting Services 모바일 보고서 및 KPI 보기
+        href: ../../mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+      - name: Surface Hub에서 Power BI 보기
+        href: ../../mobile-windows-10-app-presentation-mode.md
+  - name: 리소스
+    items:
+    - name: 모바일 앱에서 지원되는 언어
+      href: ../../mobile-apps-supported-languages.md
+ms.openlocfilehash: bf5934cb6de5ee7c1252fbd871c02589dd377d58
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343578"

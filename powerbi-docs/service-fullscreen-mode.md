@@ -1,22 +1,22 @@
 ---
 title: 전체 화면 모드에서 대시보드, 타일, 보고서 페이지 및 시각화 표시
-description: ‘TV 모드’라고도 하는 전체 화면 모드에서 대시보드, 대시보드 타일, 보고서 시각화 및 보고서 페이지를 표시합니다.
+description: '*TV 모드*라고도 하는 전체 화면 모드에서 대시보드, 대시보드 타일, 보고서 시각화 및 보고서 페이지를 표시합니다.'
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244114"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044328"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Power BI 서비스의 전체 화면 모드
 ## <a name="what-is-full-screen-mode"></a>전체 화면 모드란?
@@ -24,7 +24,7 @@ ms.locfileid: "34244114"
 
 메뉴 및 탐색 모음 없이 Power BI 콘텐츠(대시보드, 보고서 페이지, 타일 및 시각적 개체)를 표시합니다.  항상 한눈에 콘텐츠 전체를 볼 수 있습니다. 이를 TV 모드라고도 합니다. 전체 화면 모드에서 사용할 수 있는 기능은 콘텐츠에 따라 다릅니다. 
 
-Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 화면을 사용할 수 있습니다](mobile-windows-10-app-presentation-mode.md). Power BI Desktop에는 보고서 또는 시각화에 대한 전체 화면 모드가 없지만, [관계 보기](desktop-report-view.md)를 위한 페이지에 맞추기 및 [보고서 시각적 개체를 위한 포커스 모드](service-focus-mode.md)가 있습니다.
+Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 화면을 사용할 수 있습니다](mobile-windows-10-app-presentation-mode.md). Power BI Desktop에는 보고서 또는 시각화에 대한 전체 화면 모드가 없지만, [관계 보기 및 보고서 보기](desktop-report-view.md)를 위한 페이지에 맞추기 및 [보고서 시각적 개체를 위한 포커스 모드](service-focus-mode.md)가 있습니다.
 
  
 
@@ -44,7 +44,7 @@ Amanda가 대시보드를 전체 화면 모드로 열어서 탐색한 다음, �
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="dashboards-and-report-pages-in-full-screen-mode"></a>전체 화면 모드의 대시보드 및 보고서 페이지
-1. 대시보드 또는 보고서 위의 Power BI 메뉴 모음에서 **전체 화면** 아이콘![전체 화면 아이콘](media/service-fullscreen-mode/power-bi-full-screen-icon.png)을 선택합니다. 대시보드 캔버스 또는 보고서 페이지는 전체 화면을 채웁니다. 아래 예제는 대시보드입니다.
+1. 대시보드 또는 보고서 위의 Power BI 서비스 메뉴 모음에서 **전체 화면** 아이콘![전체 화면 아이콘](media/service-fullscreen-mode/power-bi-full-screen-icon.png)을 선택합니다. 대시보드 캔버스 또는 보고서 페이지는 전체 화면을 채웁니다. 아래 예제는 대시보드입니다.
    
       ![대시보드는 전체 화면을 표시합니다.](media/service-fullscreen-mode/power-bi-dash-full-screen.png)
 2. 전체 화면 모드에서 여러 메뉴 옵션을 사용할 수 있습니다.  메뉴를 표시하려면 마우스 또는 커서를 움직이기만 하면 됩니다. 

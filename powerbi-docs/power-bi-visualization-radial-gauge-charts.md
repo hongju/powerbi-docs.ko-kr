@@ -2,21 +2,21 @@
 title: Power BI의 방사형 계기 차트
 description: Power BI의 방사형 계기 차트
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7417b324a74dcc4aecd599c73fed0298de3e6a89
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8cb3dba371b555dc7d9a7bc6d1e27aac82a57fef
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292527"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168000"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI의 방사형 계기 차트
 방사형 계기 차트는 원호 형태로 목표/KPI에 대한 진행률을 측정하는 단일 값을 표시합니다.  목표 또는 목표값은 선(바늘)으로 표시됩니다. 목표에 대한 진행률은 음영으로 표시됩니다.  진행률은 나타내는 값은 호의 내부에 굵게 표시됩니다. 모든 가능한 값은 최소(맨 왼쪽 값)에서 최대 (맨 오른쪽 값)까지 호를 따라 균등하게 분배됩니다.
@@ -56,22 +56,22 @@ ms.locfileid: "34292527"
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>2단계: 총 매출을 추적하는 계기 만들기
 1. **필드** 창에서 **총 판매량**을 선택합니다.
    
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
-2. 집계를 **평균**으로 변경합니다.
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gross-sales.png)
+2. 집계를 **평균**으로 변경합니다. **값** 필드에서 드롭다운을 선택하고 **평균**을 선택합니다.
    
    ![](media/power-bi-visualization-radial-gauge-charts/changetoaverage_new.png)
 3. 계기 아이콘 ![](media/power-bi-visualization-radial-gauge-charts/gaugeicon_new.png)을 선택하여 세로 막대형 차트를 계기로 변환합니다.
    
-   기본적으로 Power BI는 현재 값(이 경우, 총 판매액의 평균)이 계기에 중간 지점으로 간주되는 계기 차트를 만듭니다. 평균 총 매출이 $182,76K이므로 시작 값(최소)은 0으로 설정하고 끝 값(최대)은 현재 값의 두 배로 설정됩니다.
+   기본적으로 Power BI는 현재 값(이 경우, 총 판매액의 평균)이 계기에 중간 지점으로 간주되는 계기 차트를 만듭니다. 평균 총 매출이 $184.21K이므로 시작 값(최소)은 0으로 설정하고 끝 값(최대)은 현재 값의 두 배로 설정됩니다.
    
-   ![](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-184.png)
 
 ### <a name="step-3-set-a-target-value"></a>3단계: 대상 값 설정
 1. **COGS** 를 **대상 값** 으로 끌어다 놓습니다.
 2. 집계를 **평균**으로 변경합니다.
-   Power BI가 바늘을 추가하여 대상 값이 **$145.48K**임을 나타냅니다. 목표를 초과 했음을 알 수 있습니다.
+   Power BI는 바늘을 추가하여 목표값이 **$146K**임을 나타냅니다. 목표를 초과 했음을 알 수 있습니다.
    
-   ![](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress_new.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-cogs.png)
    
    > [!NOTE]
    > 대상 값을 수동으로 입력할 수도 있습니다.  아래의 "서식 옵션을 사용하여 수동으로 최소값, 최대값 및 대상 값 설정"을 참조하세요.
@@ -98,7 +98,7 @@ ms.locfileid: "34292527"
 1. **최대 값** 웰에서 **최대 총 판매량** 을 제거합니다.
 2. 페인트 브러시 아이콘을 선택하여 서식 창을 엽니다.
    
-   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-roller.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-max.png)
 3. **게이지 축** 을 확장하고 **최소** 및 **최대**값을 입력합니다.
    
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-axis.png)
@@ -112,8 +112,6 @@ ms.locfileid: "34292527"
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[시각화를 보고서에 추가](power-bi-report-add-visualizations-i.md)
 
 [시각화를 대시보드에 고정](service-dashboard-pin-tile-from-report.md)
 

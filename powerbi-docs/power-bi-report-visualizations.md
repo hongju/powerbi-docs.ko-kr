@@ -2,21 +2,21 @@
 title: Power BI 서비스 및 Desktop의 보고서 시각화 개요
 description: Microsoft Power BI의 보고서 시각화(시각적 개체)에 대한 개요입니다.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f0e0dc02fc07849c68c00ce857da0ccbeb2d76df
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 03b981f6ac03bf23077458a29ea6f88b8feaa04e
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240190"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044282"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 보고서의 시각화
 시각화(즉, 시각적 개체)는 데이터에서 발견된 정보를 표시합니다. Power BI 보고서에 시각적 개체가 하나 있는 단일 페이지가 포함될 수도 있고 시각적 개체로 가득한 여러 페이지가 포함될 수도 있습니다. Power BI 서비스에서 시각적 개체를 [보고서에서 대시보드에 고정](service-dashboard-pin-tile-from-report.md)할 수 있습니다. 
@@ -25,7 +25,7 @@ ms.locfileid: "34240190"
 
 Power BI 시각화 창에서 바로 사용할 수 있는 다양한 시각적 개체 유형이 있습니다. 
 
-![](media/power-bi-report-visualizations/power-bi-visualizations.png)
+![](media/power-bi-report-visualizations/power-bi-templates.png)
 
 더 많은 선택 옵션을 보려면 [Microsoft AppSource 커뮤니티 사이트](https://appsource.microsoft.com)를 방문하여 Microsoft 및 커뮤니티에서 제공하는 [사용자 지정 시각적 개체](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)를 찾아 다운로드하세요.    
 
@@ -48,8 +48,3 @@ Power BI에서 원하는 방식의 시각화가 있는 경우 타일 형태로 [
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
-[Power BI의 보고서](service-reports.md)  
-[Power BI의 대시보드](service-dashboards.md)  
-[Power BI - 기본 개념](service-basic-concepts.md)  
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-

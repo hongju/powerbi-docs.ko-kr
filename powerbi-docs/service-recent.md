@@ -2,31 +2,31 @@
 title: Power BI에서 최근에 방문한 콘텐츠 표시
 description: Power BI의 최근 항목에 대한 문서
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 09/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c3d75f6cada62e7fc1dd026a4bdfa1daa8e94153
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ae57617b1b70a3ed6181ab164accb69dac29779c
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250934"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044213"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Power BI 서비스의 **최근** 콘텐츠
 
 
 ## <a name="what-is-recent-content"></a>최근 콘텐츠란
-최근 콘텐츠란 사용자가 방문한 마지막 항목입니다(최대 20개).  여기에는 대시보드, 보고서, 앱 및 모든 작업 영역의 통합 문서가 포함됩니다.
+최근 콘텐츠란 사용자가 Power BI 서비스에서 방문한 마지막 항목입니다(최대 20개).  여기에는 대시보드, 보고서, 앱 및 모든 작업 영역의 통합 문서가 포함됩니다.
 
 ![최근 콘텐츠 창](media/service-recent/power-bi-recent-screen.png)
 
-Amanda가 **최근** 콘텐츠 목록을 채우는 방법을 보여주는 비디오를 시청한 다음 비디오 아래의 단계별 지침을 수행하여 직접 사용해보세요.
+Amanda가 Power BI 서비스 **최근** 콘텐츠 목록을 채우는 방법을 보여주는 비디오를 시청한 다음, 비디오 아래의 단계별 지침을 수행하여 직접 사용해보세요.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
