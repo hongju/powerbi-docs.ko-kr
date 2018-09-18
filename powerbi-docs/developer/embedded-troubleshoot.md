@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241571"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558579"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
 
@@ -105,13 +105,13 @@ GenerateToken 호출 전에 응용 프로그램의 백 엔드가 인증 토큰�
 
 Power BI Embedded를 사용하고 Azure AD 직접 인증을 활용하는 경우 ***오류: unauthorized_client, error_description:AADSTS70002: 자격 증명의 유효성 검사 오류입니다.와 같은 로그인 메시지를 수신합니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 너무 많이 로그인을 시도했습니다.*** 2018년 6월 14일부터 직접 인증이 기본적으로 해제되었기 때문입니다.
 
-조직 또는 [서비스 주체](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)로 범위를 지정할 수 있는 [Azure AD 정책](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)을 사용하여 이 기능을 다시 설정하는 방법이 있습니다.
+조직 또는 [서비스 주체](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object)로 범위를 지정할 수 있는 [Azure AD 정책](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)을 사용하여 이 기능을 다시 설정하는 방법이 있습니다.
 
 앱별 기준으로만 이 기능을 설정하는 것이 좋습니다.
 
 이 정책을 만들려면 정책을 만들고 할당하는 **전역 관리자** 디렉터리에 위치해야 합니다. 정책을 만들고 이 응용 프로그램에 SP를 할당하기 위한 샘플 스크립트는 다음과 같습니다.
 
-1. [Azure AD 미리 보기 PowerShell 모듈](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)을 설치합니다.
+1. [Azure AD 미리 보기 PowerShell 모듈](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)을 설치합니다.
 
 2. 다음 PowerShell 명령을 한 줄씩 실행합니다(결과적으로 변수 $sp에 두 개 이상의 응용 프로그램이 없는지 확인).
 
@@ -274,7 +274,7 @@ IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는
 
 등록된 응용 프로그램을 편집하려는 경우 응용 프로그램이 웹 API에 대한 액세스 권한을 제공할 수 있도록 [AAD 등록 응용 프로그램](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)을 편집하는 방법을 알아봅니다.
 
-Power BI 사용자 프로필 또는 데이터를 편집하려는 경우 [Power BI 데이터](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)를 편집하는 방법을 알아봅니다.
+Power BI 사용자 프로필 또는 데이터를 편집하려는 경우 [Power BI 데이터](https://docs.microsoft.com/power-bi/service-basic-concepts)를 편집하는 방법을 알아봅니다.
 
 자세한 내용은 [Power BI Embedded FAQ](embedded-faq.md)를 참조하세요.
 
