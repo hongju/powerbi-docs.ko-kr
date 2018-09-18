@@ -2,26 +2,28 @@
 title: 데이터 집합에 데이터 푸시
 description: Power BI 데이터 집합에 데이터 푸시
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.author: maghan
-ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598552"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974187"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI 데이터 집합에 데이터 푸시
+
 Power BI API를 사용하여 데이터를 Power BI 데이터 집합에 푸시할 수 있습니다. 예를 들어 기존 비즈니스 워크플로를 확장하여 키 데이터를 데이터 집합에 푸시하고자 한다고 가정합니다. 여기서는 Product 테이블을 포함하는 Sales Marketing 데이터 집합을 데이터 집합에 푸시하려고 합니다.
 
 데이터 집합에 데이터 푸시를 시작하기 전에 Azure AD(Azure Active Directory) 및 [Power BI 계정](create-an-azure-active-directory-tenant.md)이 필요합니다.
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>데이터 집합에 데이터를 푸시하는 단계
+
 * 1단계: [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)
 * 2단계: [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)
 * 3단계: [Power BI에서 데이터 집합 만들기](walkthrough-push-data-create-dataset.md)
@@ -31,6 +33,7 @@ Power BI API를 사용하여 데이터를 Power BI 데이터 집합에 푸시할
 다음 섹션에서는 데이터를 푸시하는 Power BI API 작업에 대한 일반적인 내용을 설명합니다.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>데이터를 푸시하는 Power BI API 작업
+
 Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱이 데이터 집합에 행을 추가하면 대시보드의 타일이 업데이트된 데이터와 함께 자동으로 업데이트됩니다. 데이터를 푸시하려면 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업과 함께 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 사용합니다. 데이터 집합을 찾으려면 [데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업을 사용합니다. 이러한 작업에서는 그룹 ID를 전달하여 그룹으로 작업할 수 있습니다. 그룹 ID 목록을 가져오려면 [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) 작업을 사용합니다.
 
 데이터 집합에 데이터를 푸시하는 작업은 다음과 같습니다.
@@ -108,13 +111,14 @@ Power BI 테이블 스키마에는 다음과 같은 데이터 형식을 사용�
 | 문자열 |현재 최대 128K자를 허용합니다. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI에 데이터 푸시에 대해 자세히 알아보기
+
 데이터 집합에 데이터 푸시를 시작하려면 왼쪽 탐색 창에서 [1단계: Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)을 참조하세요.
 
 [다음 단계 >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>다음 단계
+
 [Power BI에 등록](create-an-azure-active-directory-tenant.md)  
 [JSON 개요](http://json.org/)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-
