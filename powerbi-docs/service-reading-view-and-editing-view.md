@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 736d4b53f82255e84e3bd54a2177ae17c264039b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251670"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726757"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 서비스 보고서의 읽기용 보기 및 편집용 보기
 Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작용할 수 있는 읽기용 보기 및 편집용 보기라는 두 가지 모드가 있습니다. 읽기용 보기는 모든 사용자가 사용할 수 있으며 특히 데이터 *소비자*를 위해 설계되었지만 편집용 보기는 보고서 *작성자*와 소유자만 사용할 수 있습니다.
@@ -59,13 +59,13 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 | [보고서 페이지 복제](power-bi-report-copy-paste-page.md) | 아니요  | 예 |
 | [보고서 페이지 삭제](service-delete.md) | 아니요 | 예 |
 |**보고서 시각화 작업**|
-| [보고서에 시각화 추가](power-bi-report-add-visualizations-i.md) | 아니요  | 예 |
+| [보고서에 시각화 추가](visuals/power-bi-report-add-visualizations-i.md) | 아니요  | 예 |
 | [보고서에 텍스트 상자 및 셰이프 추가](power-bi-reports-add-text-and-shapes.md) | 아니요  | 예 |
 | [보고서 서식 창 사용](service-the-report-editor-take-a-tour.md) | 아니요 | 예 |
 | [시각적 개체 상호 작용 설정](service-reports-visual-interactions.md) | 아니요  | 예 |
 | [시각화를 만드는 데 사용된 데이터 표시](service-reports-show-data.md) | 아니요  | 예 |
 | [드릴링 구성](power-bi-visualization-drill-down.md) | 아니요  | 예 |
-| [사용되는 시각화 변경](power-bi-report-change-visualization-type.md) | 아니요 | 예|
+| [사용되는 시각화 변경](visuals/power-bi-report-change-visualization-type.md) | 아니요 | 예|
 | [시각화, 텍스트 상자 또는 셰이프 삭제](service-delete.md)| 아니요 | 예 |
 
 

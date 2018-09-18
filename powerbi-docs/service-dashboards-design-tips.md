@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944977"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726053"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>멋진 Power BI 대시보드를 디자인하기 위한 팁
 이제 대시보드를 만들고 일부 타일을 추가했으므로 모양과 기능을 개선하는 방법을 살펴보겠습니다. 일반적으로 여기에는 가장 중요한 정보를 돋보이게 하고 깔끔하며 군더더기 없이 만드는 것이 포함됩니다.
@@ -23,7 +23,7 @@ ms.locfileid: "36944977"
 다음은 몇 가지 팁입니다.
 
 > [!TIP]
-> 보고서에 대한 대부분의 디자인 원칙이 대시보드에도 적용됩니다.  백서 [보고서 및 시각화에 대한 최상의 디자인 원칙](power-bi-visualization-best-practices.md)을 읽어보세요.
+> 보고서에 대한 대부분의 디자인 원칙이 대시보드에도 적용됩니다.  백서 [보고서 및 시각화에 대한 최상의 디자인 원칙](visuals/power-bi-visualization-best-practices.md)을 읽어보세요.
 >
 >
 
@@ -51,7 +51,7 @@ Microsoft의 수석 프로그램 관리자이며 Power BI 대시보드 전문가
 
 하지만 컨텍스트를 제공해야 합니다.  
 
-[번호로만 타일 만들기](power-bi-visualization-card.md)에 대해 알아보세요.
+[번호로만 타일 만들기](visuals/power-bi-visualization-card.md)에 대해 알아보세요.
 
 ## <a name="put-the-most-important-information-in-the-upper-corner"></a>가장 중요한 정보를 상단 모서리에 놓기
 대부분의 사람들이 위쪽에서 아래쪽으로 읽는 경향이 있으므로 가장 높은 수준의 세부 정보를 맨 위에 배치하고 대상 그룹이 읽어가는 방향(왼쪽-오른쪽, 오른쪽-왼쪽)으로 보다 자세한 정보를 표시합니다.
@@ -68,7 +68,7 @@ Microsoft의 수석 프로그램 관리자이며 Power BI 대시보드 전문가
 * [차트가 정렬](power-bi-report-change-sort.md)되는 방식에 주의하세요.  최상위 또는 최하위 숫자에 주목하도록 하려면 측정값을 기준으로 정렬합니다.  사람들이 여러 다른 범주 내에서 특정 범주를 신속하게 찾을 수 있도록 하려면 축을 기준으로 정렬합니다.  
 * 원형 차트는 범주가 8개 미만일 경우 적합합니다. 값을 나란히 비교할 수 없으므로 원형 차트는 가로 막대형 및 세로 막대형 차트보다 값을 비교하기가 더 어렵습니다. 원형 차트는 부분을 비교하기보다는 부분에서 전체로의 관계를 파악하는 데 유용할 수 있습니다. 계기 차트는 목표의 컨텍스트에서 현재 상태를 표시하는 데 적합합니다.
 
-시각화 관련 지침에 대한 자세한 내용은 [Power BI에서 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)을 참조하세요.  
+시각화 관련 지침에 대한 자세한 내용은 [Power BI에서 시각화 유형](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)을 참조하세요.  
 
 ## <a name="learning-more-about-best-practice-dashboard-design"></a>모범 사례 대시보드 디자인에 대해 자세히 알아보기
 뛰어난 대시보드 디자인 기법을 마스터하려면 시각적 인식 및 상황에 따라 조치 가능한 정보를 명확히 전달하는 방법에 대한 기본적인 게슈탈트(Gestalt) 이론을 학습하는 것이 좋습니다. 다행히 이에 대한 광범위한 리소스가 이미 제공되고 있으며 블로그에도 올라와 있습니다. 다음은 몇 가지 유용한 설명서입니다.

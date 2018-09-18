@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044328"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727585"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Power BI 서비스의 전체 화면 모드
 ## <a name="what-is-full-screen-mode"></a>전체 화면 모드란?
@@ -24,7 +24,7 @@ ms.locfileid: "44044328"
 
 메뉴 및 탐색 모음 없이 Power BI 콘텐츠(대시보드, 보고서 페이지, 타일 및 시각적 개체)를 표시합니다.  항상 한눈에 콘텐츠 전체를 볼 수 있습니다. 이를 TV 모드라고도 합니다. 전체 화면 모드에서 사용할 수 있는 기능은 콘텐츠에 따라 다릅니다. 
 
-Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 화면을 사용할 수 있습니다](mobile-windows-10-app-presentation-mode.md). Power BI Desktop에는 보고서 또는 시각화에 대한 전체 화면 모드가 없지만, [관계 보기 및 보고서 보기](desktop-report-view.md)를 위한 페이지에 맞추기 및 [보고서 시각적 개체를 위한 포커스 모드](service-focus-mode.md)가 있습니다.
+Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 화면을 사용할 수 있습니다](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Power BI Desktop에는 보고서 또는 시각화에 대한 전체 화면 모드가 없지만, [관계 보기 및 보고서 보기](desktop-report-view.md)를 위한 페이지에 맞추기 및 [보고서 시각적 개체를 위한 포커스 모드](service-focus-mode.md)가 있습니다.
 
  
 

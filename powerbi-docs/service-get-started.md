@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598662"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726849"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>자습서: Power BI 서비스 시작(app.powerbi.com)
 이 자습서는 ***Power BI 서비스***를 시작할 때 도움이 됩니다. Power BI 서비스를 다른 Power BI 제품에 적용하는 방법을 이해하려면 [Power BI란?](power-bi-overview.md)을 참조하여 시작하는 것이 좋습니다.
@@ -42,7 +42,7 @@ ms.locfileid: "37598662"
 
 ![체험 등록 또는 로그인](media/service-get-started/power-bi-sign-up.png)
 
-Power BI Desktop에 대한 도움말 찾고 있는 경우 [데스크톱 시작](desktop-getting-started.md)을 참조하세요. Power BI 모바일에 도움을 찾고 있는 경우 [모바일 장치에 대한 Power BI 앱](mobile-apps-for-mobile-devices.md)을 참조하세요.
+Power BI Desktop에 대한 도움말 찾고 있는 경우 [데스크톱 시작](desktop-getting-started.md)을 참조하세요. Power BI 모바일에 도움을 찾고 있는 경우 [모바일 장치에 대한 Power BI 앱](consumer/mobile/mobile-apps-for-mobile-devices.md)을 참조하세요.
 
 > [!TIP]
 > 대신 무료 자가 진행식 교육 과정을 더 선호합니까? [EdX에서 데이터 분석 및 시각화 코스에 등록](http://aka.ms/edxpbi)합니다.

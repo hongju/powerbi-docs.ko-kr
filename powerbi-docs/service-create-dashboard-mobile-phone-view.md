@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4d237a308e059ce712872860031f122de9d6795c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3d2e5dcbfb5163e20dc60470c240378278bbcf1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34238424"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727240"
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>휴대폰용으로 최적화된 Power BI 대시보드 보기 만들기
 휴대폰의 Power BI 모바일 앱에서 대시보드를 볼 때 대시보드 타일이 모두 동일한 크기로 하나씩 배치된 것을 확인할 수 있습니다. Power BI 서비스에서 특히 휴대폰에 대해 소유하고 있는 모든 대시보드의 사용자 지정된 보기를 만들 수 있습니다.
@@ -58,6 +58,6 @@ ms.locfileid: "34238424"
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 전화 앱에 대해 최적화된 보고서 만들기](desktop-create-phone-report.md)
-* [모든 크기에 최적화된 반응형 시각적 개체 만들기](desktop-create-responsive-visuals.md)
+* [모든 크기에 최적화된 반응형 시각적 개체 만들기](visuals/desktop-create-responsive-visuals.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

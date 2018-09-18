@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
-ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
+ms.openlocfilehash: 80995f77a4e11c2773e9b03a224d42ac8d492228
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42799048"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727562"
 ---
 # <a name="hyperlinks-in-tables"></a>테이블에서 하이퍼링크
 이 항목에서는 하이퍼링크를 만들어 Power BI Desktop을 사용하는 방법을 배웁니다. 만든 후에는 보고서 테이블 및 행렬에 하이퍼링크를 추가하려면 Desktop 또는 Power BI 서비스를 사용합니다. 
@@ -87,7 +87,7 @@ A: 아니요. 링크 아이콘을 사용할 수 있습니다. 하이퍼링크의
 
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 보고서의 시각화](power-bi-report-visualizations.md)
+[Power BI 보고서의 시각화](visuals/power-bi-report-visualizations.md)
 
 [Power BI - 기본 개념](service-basic-concepts.md)
 

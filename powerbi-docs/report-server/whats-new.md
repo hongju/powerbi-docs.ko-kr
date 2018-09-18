@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: d9b0cc26a3662b49cd7ed14a3a645ddf2a4536bc
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: 648938006cd15e2bb92b305aa9a2af24d028cead
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40258016"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726941"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -32,7 +32,7 @@ Power BI Report Server 및 Report Server에 최적화된 Power BI Desktop을 다
 
 * [Power BI 서비스의 새로운 기능](../service-whats-new.md)
 * [Power BI Desktop의 새로운 기능](../desktop-latest-update.md)
-* [Power BI용 모바일 앱의 새로운 기능](../mobile-whats-new-in-the-mobile-apps.md)
+* [Power BI용 모바일 앱의 새로운 기능](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="august-2018"></a>2018년 8월
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c5a50a5bab76fd856099a3c1430638dc9e33ea8
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 8463dc96a120e9bf26ff0718fb050304890a5cea
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257035"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728183"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
@@ -60,7 +60,7 @@ Power BI 및 Power BI Desktop을 사용하여 자신의 온-프레미스 데이�
 Power BI Report Server는 사용자가 보고서를 만들고 게시하고 관리한 다음 웹 브라우저, 해당 모바일 장치 또는 Windows 제공 이메일과 같은 다른 방식으로 다른 사용자에게 전달하는 고유한 온-프레미스에 배포하는 솔루션입니다. [Power BI Report Server](report-server/get-started.md)에 대해 자세히 알아보세요.
 
 ### <a name="power-bi-mobile-apps"></a>Power BI 모바일 앱
-[Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI를 볼 수도 있습니다](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+[Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI를 볼 수도 있습니다](consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI는 모바일 장치를 지원하나요?
 예. Power BI에는 Android 휴대폰 및 태블릿, iOS 장치 및 Windows 10 장치용 기본 앱이 있습니다. 다음의 각 스토어에서 [Power BI 모바일 앱](https://powerbi.microsoft.com/mobile) 중 하나를 다운로드합니다.  

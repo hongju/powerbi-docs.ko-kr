@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 324a9b7f8a3718c6da0efb7533751d88dd717bcf
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657808"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728091"
 ---
 # <a name="conditional-formatting-in-tables"></a>테이블에서 조건부 서식 지정 
 테이블에 조건부 서식을 사용하면 셀 값을 기반으로 하거나 다른 값 또는 필드를 기반으로 하여 그라데이션 색을 사용하는 등 사용자 지정된 셀 색을 지정할 수 있습니다. 데이터 막대를 사용하여 셀 값을 표시할 수도 있습니다. 
@@ -133,5 +133,5 @@ ms.locfileid: "39657808"
 ## <a name="next-steps"></a>다음 단계
 자세한 내용은 다음 아티클을 참조하세요.  
 
-* [Power BI의 색 서식을 위한 팁과 힌트](service-tips-and-tricks-for-color-formatting.md)  
+* [Power BI의 색 서식을 위한 팁과 힌트](visuals/service-tips-and-tricks-for-color-formatting.md)  
 

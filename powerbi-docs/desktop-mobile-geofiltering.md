@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: ed8a0990c9da2da877c32a0ef44c676f91e0f493
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 80d2039b2cfcac2f2c3db9c6f656561b670aa341
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291400"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727493"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>모바일 앱용 Power BI Desktop에서 지리적 필터링 설정
 Power BI Desktop에서는 열의 [지리 데이터 범주](desktop-data-categorization.md)를 지정하여 보고서의 시각적 개체에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다. 추가적인 이점으로 사용자 또는 동료가 Power BI 모바일 앱에서 해당 보고서를 볼 때 Power BI에서 사용자가 있는 위치와 일치하는 지리적 필터를 자동으로 제공합니다. 
 
-예를 들어 고객을 만나기 위해 이동하는 판매 관리자이고, 방문하려는 특정 고객에 대한 총 판매 및 수익을 신속하게 필터링하려고 한다고 합시다. 현재 위치에 대한 상세 데이터를 시/도, 구/군/시 또는 실제 주소별로 얻으려고 합니다. 나중에 시간이 남으면 근처에 있는 다른 고객을 방문하려고 합니다. [위치별로 보고서를 필터링하여 이러한 고객을 찾을 수 있습니다](mobile-apps-geographic-filtering.md).
+예를 들어 고객을 만나기 위해 이동하는 판매 관리자이고, 방문하려는 특정 고객에 대한 총 판매 및 수익을 신속하게 필터링하려고 한다고 합시다. 현재 위치에 대한 상세 데이터를 시/도, 구/군/시 또는 실제 주소별로 얻으려고 합니다. 나중에 시간이 남으면 근처에 있는 다른 고객을 방문하려고 합니다. [위치별로 보고서를 필터링하여 이러한 고객을 찾을 수 있습니다](consumer/mobile/mobile-apps-geographic-filtering.md).
 
 > [!NOTE]
 > 보고서의 지리적 이름이 영어인 경우(예: "New York City" 또는 "Germany") 모바일 앱에서 위치별로 필터링할 수 있습니다.
@@ -52,12 +52,12 @@ Power BI Desktop에서는 열의 [지리 데이터 범주](desktop-data-categori
 2. Power BI 서비스에 보고서를 게시합니다.
 
 ## <a name="view-the-report-in-power-bi-mobile-app"></a>Power BI 모바일 앱에서 보고서 보기
-1. [Power BI 모바일 앱](mobile-apps-for-mobile-devices.md) 중 하나에서 보고서를 엽니다.
+1. [Power BI 모바일 앱](consumer/mobile/mobile-apps-for-mobile-devices.md) 중 하나에서 보고서를 엽니다.
 2. 보고서에서 데이터가 포함된 지리적 위치에 있는 경우 사용자의 위치에 자동으로 필터링할 수 있습니다.
    
     ![모바일 앱에서 지리적 필터](media/desktop-mobile-geofiltering/power-bi-mobile-geo-map-set-filter.png)
 
-[Power BI 모바일 앱에서 위치별 보고서 필터링](mobile-apps-geographic-filtering.md)에 대해 자세히 알아보세요.
+[Power BI 모바일 앱에서 위치별 보고서 필터링](consumer/mobile/mobile-apps-geographic-filtering.md)에 대해 자세히 알아보세요.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI Desktop의 데이터 분류](desktop-data-categorization.md)  

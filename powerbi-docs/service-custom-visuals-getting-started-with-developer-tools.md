@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
-ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
+ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256957"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726688"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
 사용자 지정 시각적 개체를 사용하면 사용자 요구 사항과 앱 디자인에 맞출 수 있습니다. 개발자 도구로 Power BI용 사용자 지정 시각적 개체를 만드는 방법을 알아보세요.
@@ -388,7 +388,7 @@ pbiviz update 1.2.0
 자세한 내용은 [시각적 개체 실행](#running-your-visual) 또는 [서버 인증서 설치](#ssl-setup)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI의 시각화](power-bi-report-visualizations.md)  
+[Power BI의 시각화](visuals/power-bi-report-visualizations.md)  
 [Power BI의 사용자 지정 시각화](power-bi-custom-visuals.md)  
 [사용자 지정 시각적 개체를 Office 스토어에 게시](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  

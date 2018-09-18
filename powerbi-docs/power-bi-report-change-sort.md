@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 89891ead8eda1b8de4c7be943af2a9e9e98314c5
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561796"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726090"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 값을 기준으로 대부분의 시각화를 알파벳순으로 정렬할 수 있습니다. 예를 들어 이 차트는 매장 이름을 기준으로 정렬되었습니다.
@@ -49,7 +49,7 @@ Power BI 보고서에서는 필터, 슬라이서, 정렬 및 기타 데이터 �
 * Excel에서 숫자 열에 "텍스트"가 아닌 "정수" 또는 "십진수"로 태그를 지정합니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 보고서의 시각화](power-bi-report-visualizations.md)에 대해 자세히 알아보세요.
+[Power BI 보고서의 시각화](visuals/power-bi-report-visualizations.md)에 대해 자세히 알아보세요.
 
 [Power BI - 기본 개념](service-basic-concepts.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 14890d93261c12e16756c8f65d9273d954f673dd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e474081a5f094bc04f6fc93b985b8d81efee1a0b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34256705"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728114"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI에 지원되는 언어 및 국가/지역
 
@@ -191,7 +191,7 @@ Power BI Desktop 응용 프로그램의 언어를 설정할 수 있을 뿐만 �
 * 스페인어-español
 
 ## <a name="next-steps"></a>다음 단계
-* Power BI 모바일 앱 중 하나를 사용하고 있나요? 자세한 내용은 [Power BI 모바일 앱에서 지원되는 언어](mobile-apps-supported-languages.md)를 참조하세요.
+* Power BI 모바일 앱 중 하나를 사용하고 있나요? 자세한 내용은 [Power BI 모바일 앱에서 지원되는 언어](consumer/mobile/mobile-apps-supported-languages.md)를 참조하세요.
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)에 질문합니다.
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
 

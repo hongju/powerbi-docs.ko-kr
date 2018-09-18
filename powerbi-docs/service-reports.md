@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136965"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728045"
 ---
 # <a name="reports-in-power-bi"></a>Power BI의 보고서
 ## <a name="what-is-a-power-bi-report"></a>Power BI 보고서란?
@@ -27,7 +27,7 @@ Power BI ***보고서***는 데이터 집합의 다양한 결과 및 통찰력�
 
 Power BI를 처음 접하는 경우 [Power BI 기본 개념](service-basic-concepts.md)을 읽어 보고 적절한 기초 정보를 얻을 수 있습니다.
 
-보고서는 Power BI 서비스 및 Power BI Desktop의 기능입니다. 보고서 작업 환경은 거의 동일합니다. 그러나 모바일의 경우 보고서를 만들 수는 없지만 [보기, 공유 및 보고서에 주석 달기](mobile-reports-in-the-mobile-apps.md)는 가능합니다.
+보고서는 Power BI 서비스 및 Power BI Desktop의 기능입니다. 보고서 작업 환경은 거의 동일합니다. 그러나 모바일의 경우 보고서를 만들 수는 없지만 [보기, 공유 및 보고서에 주석 달기](consumer/mobile/mobile-reports-in-the-mobile-apps.md)는 가능합니다.
 
 ## <a name="advantages-of-reports"></a>보고서의 이점
 보고서는 단일 데이터 집합을 기반으로 합니다. 각 보고서의 시각화는 각기 정보 모음을 나타냅니다. 시각화 요소는 정적인 것이 아니므로 사용자가 데이터를 조사하여 정보와 답변을 찾아가는 과정에서 데이터를 추가 및 제거하고 시각화 유형을 변경하며 필터 및 슬라이서를 적용할 수 있습니다. 대시보드와 거의 유사하게 보고서도 대화형이며 자유롭게 사용자 지정이 가능하고 기본 데이터가 변경되면 시각화도 업데이트됩니다. 

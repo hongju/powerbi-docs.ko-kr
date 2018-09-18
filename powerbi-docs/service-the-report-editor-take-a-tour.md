@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299473"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726642"
 ---
 # <a name="the-report-editortake-a-tour"></a>보고서 편집기... 둘러보기
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 및 Power BI Desktop의 보고서 편집
@@ -65,7 +65,7 @@ Power BI 보고서 편집기는 다음 3개 섹션으로 구성됩니다.
 
 ![범례에서 StoreType 제거](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-자세한 내용은 [Power BI 보고서에 시각화 추가](power-bi-report-add-visualizations-i.md)를 참조하세요.
+자세한 내용은 [Power BI 보고서에 시각화 추가](visuals/power-bi-report-add-visualizations-i.md)를 참조하세요.
 
 ### <a name="format-your-visuals"></a>시각적 개체 서식 지정
 페인트 롤러 아이콘을 선택하여 서식 창을 엽니다. 선택한 시각화의 유형에 따라 사용할 수 있는 옵션이 달라집니다.
@@ -74,9 +74,9 @@ Power BI 보고서 편집기는 다음 3개 섹션으로 구성됩니다.
 
 매우 다양한 서식 지정이 가능합니다.  자세히 알아보려면 직접 살펴보거나 다음 문서를 참조하세요.
 
-* [시각화 제목, 배경 및 범례 사용자 지정](power-bi-visualization-customize-title-background-and-legend.md)
-* [색 서식 지정](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [X축 및 Y축 속성 사용자 지정](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [시각화 제목, 배경 및 범례 사용자 지정](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [색 서식 지정](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [X축 및 Y축 속성 사용자 지정](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>시각화에 분석 추가
 분석 창을 표시하려면 돋보기 아이콘을 선택합니다. 선택한 시각화의 유형에 따라 사용할 수 있는 옵션이 달라집니다.
@@ -126,7 +126,7 @@ Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조 줄을 
 ## <a name="next-steps"></a>다음 단계:
 [보고서 만들기](service-report-create-new.md)
 
-[Power BI 서비스](service-reports.md), [Power BI Desktop](desktop-report-view.md) 및 [Power BI Mobile](mobile-apps-view-phone-report.md)의 보고서에 대해 자세히 알아보세요.
+[Power BI 서비스](service-reports.md), [Power BI Desktop](desktop-report-view.md) 및 [Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md)의 보고서에 대해 자세히 알아보세요.
 
 [Power BI - 기본 개념](service-basic-concepts.md)
 

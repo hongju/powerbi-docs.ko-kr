@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dbe98d69ce800ef57e6def59003dce56b7be56cd
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 57e1285537854454504b0d2952068e5d9dc4f378
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600923"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726711"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI에서 시각화 드릴 모드
 
@@ -190,7 +190,7 @@ Power BI를 사용하면 하나 또는 모든 하위 집합을 확장할 수 있
 데이터가 분기 및 연도 보고서에 대해 동일하지만 **값**에 지정된 수준으로 드릴다운한 후에 단일 보고서를 보다 구체적으로 만드는 방법 및 "모든 월" 보고서에 추가 데이터를 포함하는 방법을 확인할 수 있습니다.
 
 
-|확장 모드|년|분기|월|일|
+|확장 모드|연도|분기|월|일|
 | ---|:---:|:---:|:---:|---|
 |단일|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
 |모두|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
@@ -223,7 +223,7 @@ Power BI를 사용하면 하나 또는 모든 하위 집합을 확장할 수 있
   ![](media/power-bi-visualization-drill-down/power-bi-change-data-type2.png)
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 보고서의 시각화](power-bi-report-visualizations.md)
+[Power BI 보고서의 시각화](visuals/power-bi-report-visualizations.md)
 
 [Power BI 보고서](service-reports.md)
 

@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d7f966834e2d6b44f3a887991bd0ebd6e38836f0
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 83d9e435c1dca10a444f3125830eb6432aecf6bd
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044351"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728206"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
 
 - [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
-- [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)  
+- [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI 팀 블로그](https://powerbi.microsoft.com/blog/)
 - Dynamics 365의 [비즈니스 응용 프로그램 2018년 봄 릴리스 정보](http://aka.ms/businessappsreleasenotes): Microsoft 플랫폼에서 응용 프로그램 및 확장을 빌드하기 위한 새 기능과 함께, 비즈니스 응용 프로그램의 최신 업데이트입니다. 
 

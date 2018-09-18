@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2d8509c83ccce3d76926d926c64061ca78c100d
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: fc4d62134bccae1a1ac0fd10444dd47c84ecc945
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256173"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727033"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 서비스의 R 패키지
 강력한 [R 프로그래밍 언어](https://www.r-project.org/)를 사용하여 Power BI 서비스에서 시각적 개체를 만들 수 있습니다. 많은 R 패키지가 Power BI 서비스에서 지원되며(및 더 많은 패키지가 항상 지원되고 있음) 일부 패키지는 지원되지 않습니다.
 
-다음 섹션에서는 Power BI에서 지원되고, 지원되지 않는 알파벳 순서로 정렬된 R 패키지의 테이블을 제공합니다. Power BI에서 R에 대한 자세한 내용은 [R 시각적 개체](service-r-visuals.md) 문서를 참조하세요.
+다음 섹션에서는 Power BI에서 지원되고, 지원되지 않는 알파벳 순서로 정렬된 R 패키지의 테이블을 제공합니다. Power BI에서 R에 대한 자세한 내용은 [R 시각적 개체](visuals/service-r-visuals.md) 문서를 참조하세요.
 
 ## <a name="request-support-for-a-new-r-package"></a>새 R 패키지에 대한 지원 요청
 **Power BI 서비스**에 지원되는 R 패키지는 **지원 패키지**라는 다음 섹션에서 찾을 수 있습니다. 해당 목록에 없는 R 패키지의 지원을 요청하려는 경우 [Power BI 피드백 팀의 R](mailto:rinpbifb@microsoft.com)으로 요청을 포함한 전자 메일을 보낼 수 있습니다.
@@ -940,7 +940,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 ## <a name="next-steps"></a>다음 단계
 Power BI의 R에 대한 자세한 내용은 다음 문서를 참조하세요.
 
-* [Power BI 서비스에서 R 시각적 개체 만들기](service-r-visuals.md)
+* [Power BI 서비스에서 R 시각적 개체 만들기](visuals/service-r-visuals.md)
 * [R을 사용하여 Power BI 시각적 개체 만들기](desktop-r-visuals.md)
 * [Power BI Desktop에서 R 스크립트 실행](desktop-r-scripts.md)
 * [쿼리 편집기에서 R 사용](desktop-r-in-query-editor.md)

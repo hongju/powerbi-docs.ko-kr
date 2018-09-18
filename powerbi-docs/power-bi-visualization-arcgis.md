@@ -2,28 +2,28 @@
 title: Power BI에서 ESRI로 ArcGIS 지도 만들기
 description: 'Power BI에서 ESRI로 ArcGIS 지도 만들기 '
 author: mihart
-manager: kvivek
+manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 127187367b2ae5680b50bc1e72de7214c522705e
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168069"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728252"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI 서비스 및 Power BI 데스크톱에서 Esri로 ArcGIS 지도 만들기
-이 자습서는 ArcGIS 지도를 만드는 사용자의 관점에서 작성되었습니다. 작성자가 동료와 ArcGIS 지도를 공유하면 해당 동료는 지도를 보고 상호 작용할 수 있지만 변경 내용을 저장할 수 없습니다. ArcGIS 지도 보기에 대해 자세히 알아보려면 [ArcGIS 지도와 상호 작용](power-bi-visualizations-arcgis.md)을 참조하세요.
+이 자습서는 ArcGIS 지도를 만드는 사용자의 관점에서 작성되었습니다. 작성자가 동료와 ArcGIS 지도를 공유하면 해당 동료는 지도를 보고 상호 작용할 수 있지만 변경 내용을 저장할 수 없습니다. ArcGIS 지도 보기에 대해 자세히 알아보려면 [ArcGIS 지도와 상호 작용](visuals/power-bi-visualizations-arcgis.md)을 참조하세요.
 
 ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어서 완전히 새로운 수준으로 매핑합니다. 기본 지도, 위치 유형, 테마, 기호 스타일 및 참조 계층에서 선택하여 멋진 정보 제공용 지도 시각화를 만듭니다. 공간 분석과 지도의 신뢰할 수 있는 데이터 계층의 조합은 시각화에서 데이터의 심도 깊은 이해를 제공합니다.
 
- 모바일 장치에서 ArcGIS 지도를 만들 수 없는 경우에도 지도를 보고 상호 작용할 수 있습니다. [ArcGIS 지도와 상호 작용](power-bi-visualizations-arcgis.md)을 참조하세요.
+ 모바일 장치에서 ArcGIS 지도를 만들 수 없는 경우에도 지도를 보고 상호 작용할 수 있습니다. [ArcGIS 지도와 상호 작용](visuals/power-bi-visualizations-arcgis.md)을 참조하세요.
 
 > [!TIP]
 > GIS는 Geographic Information Science(지리적 정보 과학)의 약자입니다.
@@ -329,7 +329,7 @@ Power BI용 ArcGIS Maps는 추가 비용 없이 모든 Power BI 사용자가 사
 
 **Power BI용 ArcGIS Maps에서 Esri Shapefiles를 지원합니까?**
 
-Power BI용 ArcGIS Maps는 국가/지역, 시/도 및 우편 번호와 같은 표준 경계를 자동으로 감지합니다. [Power BI Desktop용 도형 지도(미리 보기)](desktop-shape-map.md)를 사용하면 사용자 자신의 도형을 직접 제공할 수 있습니다.
+Power BI용 ArcGIS Maps는 국가/지역, 시/도 및 우편 번호와 같은 표준 경계를 자동으로 감지합니다. [Power BI Desktop용 도형 지도(미리 보기)](visuals/desktop-shape-map.md)를 사용하면 사용자 자신의 도형을 직접 제공할 수 있습니다.
 
 **오프라인에서 ArcGIS 지도를 볼 수 있습니까?**
 
@@ -340,7 +340,7 @@ Power BI용 ArcGIS Maps는 국가/지역, 시/도 및 우편 번호와 같은 �
 아직은 연결할 수 없습니다. [이 아이디어에 투표](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases)를 이용해 주십시오. 그리고 이 연결 기능에 대한 서비스를 시작하게 되면 귀하에게 전자 메일을 보내겠습니다.  
 
 ## <a name="next-steps"></a>다음 단계
-[사용자와 공유한 ArcGIS 지도와 상호 작용](power-bi-visualizations-arcgis.md)
+[사용자와 공유한 ArcGIS 지도와 상호 작용](visuals/power-bi-visualizations-arcgis.md)
 
 [Power BI용 ArcGIS 지도의 가용성을 발표하는 블로그 게시물](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 

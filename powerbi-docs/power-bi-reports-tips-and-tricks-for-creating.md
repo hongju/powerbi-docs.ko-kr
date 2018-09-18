@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34254881"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726803"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop 및 Power BI 서비스에서 보고서를 만들기 위한 팁과 힌트
 데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop, Power BI 서비스 ‘및’ 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다.
@@ -167,7 +167,7 @@ DAX는 Power BI Desktop의 계산 수식 언어입니다.  DAX는 BI 분석에 �
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 ‘및’ Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportspower-bi-visualization-best-practicesmd"></a>백서 읽기: [Power BI 보고서 디자인 원칙](power-bi-visualization-best-practices.md)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>백서 읽기: [Power BI 보고서 디자인 원칙](visuals/power-bi-visualization-best-practices.md)
 이 문서는 Power BI에서 보고서를 디자인하는 모범 사례를 제공합니다. 계획 단계를 시작으로 보고서와 페이지 및 보고서를 구성하는 개별적인 시각적 개체에 적용할 수 있는 디자인 원칙을 설명합니다. 이러한 모범 사례의 대다수는 대시보드 디자인에도 적용됩니다.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>"Power BI에서 시각적으로 멋진 보고서(및 대시보드)를 설계하는 방법"을 읽거나 봅니다.
@@ -209,7 +209,7 @@ DAX는 Power BI Desktop의 계산 수식 언어입니다.  DAX는 BI 분석에 �
 * [차트가 정렬](power-bi-report-change-sort.md)되는 방식에 주의하세요.  최상위 또는 최하위 숫자에 주목하도록 하려면 측정값을 기준으로 정렬합니다.  사람들이 여러 다른 범주 내에서 특정 범주를 신속하게 찾을 수 있도록 하려면 축을 기준으로 정렬합니다.  
 * 원형 차트는 범주가 8개 미만일 경우 적합합니다. 값을 나란히 비교할 수 없으므로 원형 차트는 가로 막대형 및 세로 막대형 차트보다 값을 비교하기가 더 어렵습니다. 원형 차트는 부분을 비교하기보다는 부분에서 전체로의 관계를 파악하는 데 유용할 수 있습니다. 계기 차트는 목표의 컨텍스트에서 현재 상태를 표시하는 데 적합합니다.    
 
-시각화 관련 지침에 대한 자세한 내용은 [Power BI에서 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)을 참조하세요.  
+시각화 관련 지침에 대한 자세한 내용은 [Power BI에서 시각화 유형](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)을 참조하세요.  
 
 ### <a name="learn-more-about-best-practice-dashboard-design"></a>모범 사례 대시보드 디자인에 대한 자세한 정보
 다음은 몇 가지 유용한 설명서입니다.

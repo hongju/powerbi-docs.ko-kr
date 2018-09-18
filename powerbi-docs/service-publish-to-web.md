@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2018
+ms.date: 09/13/2018
 LocalizationGroup: Share your work
-ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380339"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558542"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -61,7 +61,7 @@ Power BI **웹에 게시**를 사용하면 장치에서 메일이나 소셜 미�
 
 블로그 게시물에 콘텐츠를 포함하는 경우 일반적으로 화면의 특정 크기에 맞추어야 합니다.  필요에 따라 iFrame 태그의 높이와 및 너비를 조정할 수 있지만, 보고서가 iFrame의 지정된 영역에 맞는지 확인해야 할 수도 있으므로 보고서를 편집할 때 적절한 보기 모드를 설정해야 합니다.
 
-다음 표는 보기 모드에 대한 지침과 포함했을 때 표시되는 모양을 제공합니다.
+다음 표는 보기 모드에 대한 지침과 포함했을 때 표시되는 모양을 제공합니다. 
 
 | 보기 모드 | 포함되었을 때 구현되는 모양 |
 | --- | --- |

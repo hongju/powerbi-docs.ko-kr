@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 802107ce9c12075ffc51461375ca3e9a313f2be1
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293700"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558427"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>빠른 시작: SharePoint Server에서 iFrame을 사용하여 Power BI Report Server 보고서 포함
 
@@ -24,7 +24,7 @@ ms.locfileid: "34293700"
 ## <a name="prerequisites"></a>필수 조건
 * [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)를 설치하고 구성해야 합니다.
 * Power BI Report Server에 최적화된 [Power BI Desktop](install-powerbi-desktop.md)을 설치해야 합니다.
-* [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install) 환경을 설치하고 구성해야 합니다.
+* [SharePoint](https://docs.microsoft.com/sharepoint/install/install) 환경을 설치하고 구성해야 합니다.
 
 ## <a name="creating-the-power-bi-report-server-report-url"></a>Power BI Report Server 보고서 URL 만들기
 

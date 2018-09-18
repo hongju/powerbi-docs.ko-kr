@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 94936092a86ee3ac46ed0516609b3beaf1589180
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 189134a82e183819f1d48be0b420c9f92a5e69b3
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257197"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725952"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A에서 질문하기 위한 팁
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A에서 인식하는 단어 및 용어
@@ -24,7 +24,7 @@ ms.locfileid: "40257197"
 아래 목록은 현재 시제를 사용하지만 대부분의 경우에서 모든 시제가 인식됩니다. 예를 들어 "is"는 are, was, were, will be, have, has, had, will have, has got, do, does, did를 포함합니다.  그리고 “sort”는 sorted와 sorting을 포함합니다.  또한 PowerBI는 단어의 단수 및 복수 버전을 인식하고 포함합니다. 예를 들어 Power BI는 “year" 및 “years”를 인식합니다.
 
 > [!NOTE]
-> Q&A는 [iPads, iPhones, iPod Touch 장치에서 iOS용 Microsoft Power BI 앱](mobile-apps-ios-qna.md)에서도 사용할 수 있습니다.
+> Q&A는 [iPads, iPhones, iPod Touch 장치에서 iOS용 Microsoft Power BI 앱](consumer/mobile/mobile-apps-ios-qna.md)에서도 사용할 수 있습니다.
 > 
 > 
 

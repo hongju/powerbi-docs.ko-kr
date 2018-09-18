@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dc79282a5c221e85fae7838009f6cecf91cbfdb8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a9dc1d0f87102cc5bf66a3fb21b8be7af6a66059
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246830"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726826"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 및 Power BI
 
@@ -110,7 +110,7 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
 ## <a name="next-steps"></a>다음 단계
 * [Microsoft Flow 시작](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [Power BI 서비스에서 데이터 경고 설정](service-set-data-alerts.md)
-* [iPhone에서 데이터 경고 설정](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Windows 10용 Power BI 모바일 앱의 데이터 경고 설정](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [iPhone에서 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Windows 10용 Power BI 모바일 앱의 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

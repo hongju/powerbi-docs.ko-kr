@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 368f2692933b37d833c864fb9fea6a22423bbb77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481834"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726389"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 Power BI Report Server에 최적화된 Power BI Desktop을 설치하는 방법에 대해 자세히 알아봅니다.
@@ -78,7 +78,7 @@ Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
 * Power BI Desktop 미리 보기 기능
 
 ### <a name="in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서
-Power BI Report Server 보고서는 [Power BI 모바일 앱](../mobile-apps-for-mobile-devices.md)에서 다음을 비롯한 모든 기본 기능을 지원합니다.
+Power BI Report Server 보고서는 [Power BI 모바일 앱](../consumer/mobile/mobile-apps-for-mobile-devices.md)에서 다음을 비롯한 모든 기본 기능을 지원합니다.
 
 * [전화 보고서 레이아웃](../desktop-create-phone-report.md): Power BI 모바일 앱에 보고서를 최적화할 수 있습니다. 휴대전화에서 최적화된 보고서에는 특수 아이콘 ![전화 보고서 레이아웃 아이콘](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) 및 레이아웃이 있습니다.
   

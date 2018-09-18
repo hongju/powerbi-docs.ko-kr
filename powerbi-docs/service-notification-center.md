@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ca8b7ded6427f912933618ebdeaeeecea41b8681
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8db686b842f01653e45e8d2d6313cb4ac39bcaeb
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249942"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727171"
 ---
 # <a name="power-bi-notifications"></a>Power BI 알림
 알림 센터는 Power BI 환경에 관련된 정보의 순차적 피드입니다. 이를 열고 사용자와 공유된 새 대시보드, 그룹 공간에 대한 변경 사항, Power BI 이벤트 및 회의에 대한 정보, 설정한 경고 등에 대한 메시지를 확인합니다. [Power BI 서비스에서 경고를 설정](service-set-data-alerts.md)할 수 있으며 Power BI 모바일 앱에서도 설정할 수 있습니다.
@@ -40,7 +40,7 @@ Amanda가 수신한 알림을 검토하고 관리하고 응답하는 과정을 �
 ### <a name="next-steps"></a>다음 단계
 * [Power BI 서비스의 데이터 경고](service-set-data-alerts.md)
 * [Power BI 데이터 경고에 의해 트리거되는 Microsoft Flow 만들기](service-flow-integration.md)
-* [iPhone 앱(iOS용 Power BI)의 데이터 경고 설정](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Windows 10용 Power BI 모바일 앱의 데이터 경고 설정](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [iPhone 앱(iOS용 Power BI)의 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Windows 10용 Power BI 모바일 앱의 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

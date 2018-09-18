@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d99081a3d77ebfa7115d7546c59adc42eab308ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 52c392123b6bc86b4a40d90a8479ed8fcd6dbc61
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237948"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726366"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Power BI에서 모바일 앱에 사용할 보고서의 QR 코드 만들기
 Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보에 연결할 수 있습니다. 탐색하거나 검색할 필요가 없습니다.
 
 편집할 수 없는 보고서에 대한 QR 코드를 Power BI 서비스에서 만들 수 있습니다. 그런 다음 주요 위치에 QR 코드를 배치합니다. 예를 들어 메일에 붙여넣거나 인쇄하여 특정 위치에 붙여넣을 수 있습니다. 
 
-보고서를 공유한 동료는 [모바일 장치](mobile-apps-qr-code.md)에서 바로 QR 코드를 스캔하여 보고서에 액세스할 수 있습니다. Power BI 앱에 있는 QR 코드 스캐너 또는 휴대폰에 설치된 다른 QR 스캐너 중 하나를 사용할 수 있습니다. [혼합 현실용 Power BI 앱을 사용하여 보고서 QR 코드를 스캔](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)할 수도 있습니다.
+보고서를 공유한 동료는 [모바일 장치](consumer/mobile/mobile-apps-qr-code.md)에서 바로 QR 코드를 스캔하여 보고서에 액세스할 수 있습니다. Power BI 앱에 있는 QR 코드 스캐너 또는 휴대폰에 설치된 다른 QR 스캐너 중 하나를 사용할 수 있습니다. [혼합 현실용 Power BI 앱을 사용하여 보고서 QR 코드를 스캔](consumer/mobile/mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)할 수도 있습니다.
 
 ## <a name="create-a-qr-code-for-a-report"></a>보고서에 대한 QR 코드 만들기
 1. Power BI 서비스에서 보고서를 엽니다.
@@ -48,8 +48,8 @@ Power BI는 QR 코드를 인쇄할 수 있는 JPG 파일로 생성합니다.
 2. 가장자리를 따라 QR 코드를 잘라내어 보고서와 관련된 위치에 붙입니다. 
 
 ## <a name="next-steps"></a>다음 단계
-* 모바일 앱으로 [실제 Power BI 데이터에 연결](mobile-apps-data-in-real-world-context.md)
-* [모바일 장치에서 Power BI QR 코드 스캔](mobile-apps-qr-code.md)
+* 모바일 앱으로 [실제 Power BI 데이터에 연결](consumer/mobile/mobile-apps-data-in-real-world-context.md)
+* [모바일 장치에서 Power BI QR 코드 스캔](consumer/mobile/mobile-apps-qr-code.md)
 * [타일에 대한 QR 코드 만들기](service-create-qr-code-for-tile.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

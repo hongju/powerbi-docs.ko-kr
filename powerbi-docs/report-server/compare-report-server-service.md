@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 598b3e75aa134a5b5e2ee2a8c01316133b60fdac
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34296786"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727263"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -40,7 +40,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 신속한 정보 활용 | 아니요 | 예 | [Power BI를 사용하여 데이터 인사이트를 자동으로 생성](../service-insights.md) 
 | Excel에서 분석 | 아니요 | 예 | [Excel에서 분석](../service-analyze-in-excel.md) 
 | 페이지가 매겨진 보고서 | 예 | 아니요 | 페이지를 매긴 보고서는 Power BI 서비스에서 사용할 수 없지만, [페이지를 매긴 보고서 항목을 Power BI 대시보드에 고정](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)할 수 있습니다.
-| Power BI 모바일 앱 | 예 | 예 | [Power BI 모바일 앱 개요](../mobile-apps-for-mobile-devices.md) 
+| Power BI 모바일 앱 | 예 | 예 | [Power BI 모바일 앱 개요](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | ARC GIS 지도 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop에서 Esri로 ArcGIS 지도 만들기](../power-bi-visualization-arcgis.md)
 | Power BI 보고서에 대한 메일 구독 | 아니요 | 예 | Power BI 서비스에서 [보고서 또는 대시보드 구독](../service-report-subscribe.md) 
 | 페이지를 매긴 보고서에 대한 메일 구독 | 예 | 아니요 | [Reporting Services의 메일 전송](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
@@ -48,7 +48,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 행 수준 보안 | DirectQuery 모드에서 데이터 원본을 통해서만 | DirectQuery(데이터 원본) 및 가져오기 모드에서 사용 가능 | Power BI를 사용하는 [RLS(행 수준 보안)](../service-admin-rls.md) 
 | 전체 화면 모드 | 아니요 | 예 | Power BI 서비스의 [전체 화면 모드](../service-fullscreen-mode.md) 
 | 고급 Office 365 공동 작업 | 아니요 | 예 | Office 365를 사용하여 [앱 작업 영역에서 공동 작업](../service-collaborate-power-bi-workspace.md) 
-| R 시각적 개체 | 아니요 | 예 | Power BI 서비스에서 [R 시각적 개체 만들기](../service-r-visuals.md)  
+| R 시각적 개체 | 아니요 | 예 | Power BI 서비스에서 [R 시각적 개체 만들기](../visuals/service-r-visuals.md)  
 | 미리 보기 기능 | 아니요 | 예 | [Power BI 서비스 미리 보기 기능 옵트인](../service-preview-features.md) 
 | 사용자 지정 시각적 개체 | 예 | 예 | [Power BI의 사용자 지정 시각적 개체](../power-bi-custom-visuals.md) 
 | Power BI Desktop | 보고서 서버에 최적화된 버전으로, 보고서 서버로 다운로드할 수 있음 | Power BI 서비스에 최적화된 버전으로, Windows 스토어에서 사용 가능 | [보고서 서버용 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI 서비스용 Power BI Desktop](http://aka.ms/pbidesktopstore)

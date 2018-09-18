@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d6ab9619fd1419f94994b65fffef7ddcbfff3f3d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445121"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727194"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI용 백서
 
@@ -31,7 +31,7 @@ ms.locfileid: "34445121"
 | [Power BI 및 GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Power BI는 GDPR 준수를 위한 과정에 중요한 부분일 수 있습니다. 이 문서의 목적은 GDPR에 대한 몇 가지 기본적인 이해를 제공하고 GDPR을 Power BI와 연결하는 것입니다. 이 문서에 설명된 특정 상황에서는 GDPR 준수가 필수이지만 GDPR 준수는 단순히 “확인란” 연습이 아닙니다. 전반적인 데이터 보호 및 개인 정보 보호 기능을 향상하는 방법이기도 합니다.|
 | [Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포](https://aka.ms/powerbi-b2b-whitepaper)|이 문서에서는 AAD B2B(Azure Active Directory Business-to-business)의 통합을 사용하여 콘텐츠를 조직 외부 사용자에게 배포하는 방법을 간략히 설명합니다.|
 | [Power BI를 사용한 고급 분석](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |예측 분석, 사용자 지정 시각화, R 통합 및 데이터 분석 식을 비롯한 Power BI의 고급 분석 기능을 설명합니다. |
-| [보고서 및 시각적 개체에 대한 디자인 모범 사례](power-bi-visualization-best-practices.md) |Power BI 보고서 디자인에 대한 모범 사례를 제공합니다. |
+| [보고서 및 시각적 개체에 대한 디자인 모범 사례](visuals/power-bi-visualization-best-practices.md) |Power BI 보고서 디자인에 대한 모범 사례를 제공합니다. |
 | [양방향 필터링](desktop-bidirectional-filtering.md) |Power BI Desktop에서 양방향 교차 필터링에 대해 설명합니다(이 백서에서는 SQL Server Analysis Services 2016에 대해서도 다루며 둘 다 동작은 동일합니다). |
 | [SQL Server 2016 Analysis Services의 DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |SQL Server 2016에서 DirectQuery는 획기적으로 향상된 속도 및 성능을 제공하도록 다시 설계되었지만 이해하고 구현하기가 더 복잡해졌습니다. |
 | [Power BI 및 SAP BW](https://aka.ms/powerbiandsapbw)| 이 아티클에서는 SAP 고객이 Power BI를 기존 SAP BW(비즈니스 웨어하우스) 시스템에 연결하여 활용하는 방법에 대해 설명합니다.|

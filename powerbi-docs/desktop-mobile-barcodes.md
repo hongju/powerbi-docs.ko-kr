@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: eb0d584e2383e1b878cfc26739e77d4e50d70a0f
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 804794f53eb062d5c9cb286be46c0459d5435d28
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280481"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727938"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>모바일 앱용 Power BI Desktop에서 바코드 태그
-Power BI Desktop에서는 열의 [데이터 범주](desktop-data-categorization.md)를 지정하여 보고서의 시각적 개체에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다. 또한 열의 범주를 **바코드**로 지정할 수도 있습니다. 사용자 또는 사용자의 동료가 iPhone의 [Power BI 앱이 있는 제품에서 바코드를 스캔](mobile-apps-scan-barcode-iphone.md)하면 해당 바코드를 포함하는 모든 보고서가 표시됩니다. 모바일 앱에서 보고서를 열면 Power BI가 보고서를 바코드와 관련된 데이터로 자동으로 필터링합니다.
+Power BI Desktop에서는 열의 [데이터 범주](desktop-data-categorization.md)를 지정하여 보고서의 시각적 개체에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다. 또한 열의 범주를 **바코드**로 지정할 수도 있습니다. 사용자 또는 사용자의 동료가 iPhone의 [Power BI 앱이 있는 제품에서 바코드를 스캔](consumer/mobile/mobile-apps-scan-barcode-iphone.md)하면 해당 바코드를 포함하는 모든 보고서가 표시됩니다. 모바일 앱에서 보고서를 열면 Power BI가 보고서를 바코드와 관련된 데이터로 자동으로 필터링합니다.
 
 1. Power BI Desktop에서 데이터 보기로 전환합니다.
 2. 바코드 데이터가 있는 열을 선택합니다. 아래 [지원되는 바코드 형식](#supported-barcode-formats) 목록을 참조하세요.
@@ -27,7 +27,7 @@ Power BI Desktop에서는 열의 [데이터 범주](desktop-data-categorization.
 4. 보고서 보기에서 바코드로 필터링하려는 시각적 개체에 이 필드를 추가합니다.
 5. 보고서를 저장하고 Power BI 서비스에 게시합니다.
 
-이제 [iPhone용 Power BI 앱](mobile-iphone-app-get-started.md)에서 스캐너를 열고 바코드를 스캔하면 이 보고서가 보고서 목록에 표시됩니다. 보고서를 열면 해당하는 시각적 개체가 스캔한 제품 바코드로 필터링됩니다.
+이제 [iPhone용 Power BI 앱](consumer/mobile/mobile-iphone-app-get-started.md)에서 스캐너를 열고 바코드를 스캔하면 이 보고서가 보고서 목록에 표시됩니다. 보고서를 열면 해당하는 시각적 개체가 스캔한 제품 바코드로 필터링됩니다.
 
 ## <a name="supported-barcode-formats"></a>지원되는 바코드 형식
 다음은 Power BI 보고서에서 태그를 지정한 경우 Power BI가 인식하는 바코드입니다. 
@@ -44,8 +44,8 @@ Power BI Desktop에서는 열의 [데이터 범주](desktop-data-categorization.
 * ITF14Code 
 
 ## <a name="next-steps"></a>다음 단계
-* [iPhone에서 Power BI 앱의 바코드 스캔](mobile-apps-scan-barcode-iphone.md)
-* [iPhone에서 바코드 스캔 문제](mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
+* [iPhone에서 Power BI 앱의 바코드 스캔](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
+* [iPhone에서 바코드 스캔 문제](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Power BI Desktop의 데이터 분류](desktop-data-categorization.md)  
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

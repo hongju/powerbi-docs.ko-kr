@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 15ca7461c1661b83e1fbb08b66e7d1843bdb1c9f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a86e9f93023e317ba665ec04bb3a67ebfbdfe8a1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298944"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727447"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>시각화를 생성하는 데 사용 된 데이터 표시
 ## <a name="show-data"></a>데이터 표시
@@ -48,7 +48,7 @@ Power BI 시각화는 데이터 집합에서 데이터를 사용하여 구성됩
 
 ### <a name="next-steps"></a>다음 단계
 [Power BI 시각화에서 데이터 내보내기](power-bi-visualization-export-data.md)    
-[Power BI 보고서의 시각화](power-bi-report-visualizations.md)    
+[Power BI 보고서의 시각화](visuals/power-bi-report-visualizations.md)    
 [Power BI 보고서](service-reports.md)    
 [Power BI - 기본 개념](service-basic-concepts.md)    
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

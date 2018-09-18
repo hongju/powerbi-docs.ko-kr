@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623956"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726665"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI에서 공동 작업하고 공유하려면 어떻게 해야 하나요?
 
@@ -83,9 +83,9 @@ iOS 및 Android 장치용 Power BI 모바일 앱에서 타일, 보고서 또는 
 
 타일, 보고서 또는 시각적 개체의 스냅숏을 공유하고, 수신자는 귀하가 메일을 보낸 바로 그대로를 확인합니다. 메일에는 대시보드 또는 보고서에 대한 링크가 포함되어 있습니다. Power BI Pro 라이선스가 있거나 콘텐츠가 [프리미엄 용량](service-premium.md)에 있고 이미 다른 사람과 공유했다면 다른 사람이 열 수 있습니다. 타일의 스냅숏은 동일한 메일 도메인의 동료뿐만 아니라 누구에게든 보낼 수 있습니다.
 
-iOS 및 Android 모바일 앱에서 [타일, 보고서 및 시각적 개체 주석 달기 및 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)에 대해 자세히 알아보세요.
+iOS 및 Android 모바일 앱에서 [타일, 보고서 및 시각적 개체 주석 달기 및 공유](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)에 대해 자세히 알아보세요.
 
-또한 Windows 10 장치용 Power BI 앱에서 [타일의 스냅숏을 공유](mobile-windows-10-phone-app-get-started.md)할 수 있습니다.
+또한 Windows 10 장치용 Power BI 앱에서 [타일의 스냅숏을 공유](consumer/mobile/mobile-windows-10-phone-app-get-started.md)할 수 있습니다.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>PDF 또는 기타 정적 파일로 저장 또는 인쇄
 또한 Power BI 서비스에서 전체 대시보드, 대시보드 타일, 보고서 페이지 또는 시각화 개체를 PDF(또는 기타 정적 파일 형식)로 인쇄 또는 저장할 수 있습니다. 보고서는 한 번에 한 페이지만 인쇄할 수 있습니다. 전체 보고서를 한 번에 인쇄할 수는 없습니다. [정적 파일로 인쇄 또는 저장](service-print.md)하는 방법에 대해 자세히 알아보세요.

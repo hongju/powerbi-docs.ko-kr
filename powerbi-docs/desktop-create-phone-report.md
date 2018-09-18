@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280665"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726458"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Power BI 전화 앱에 대해 최적화된 보고서 만들기
 [Power BI Desktop에서 보고서를 만들](desktop-report-view.md) 때, 특별히 전화용으로 보고서를 만들어 전화에서 Mobile Apps로 사용하는 경험을 향상시킬 수 있습니다. 최적의 경험을 위해 시각적 개체를 어쩌면 모두 포함하지 않고 크기를 조정하고 정렬하여 휴대폰용 보고서를 조정합니다. 또한 휴대폰에서 볼 수 있도록 크기를 적절히 조정하는 [*반응형* 시각적 개체](#optimize-a-visual-for-any-size) 및 [반응형 슬라이서](#enhance-slicers-to-to-work-well-in-phone-reports)를 만들 수 있습니다. 또한 보고서에 필터를 추가하는 경우 해당 필터는 휴대폰 보고서에 자동으로 나타납니다. 보고서 구독자는 해당 필터를 확인하고 해당 필터로 보고서를 필터링할 수 있습니다.
@@ -56,7 +56,7 @@ ms.locfileid: "39280665"
 
 ![반응형 시각적 개체 크기 조정](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-각 시각적 개체에 대해 응답성을 사용하도록 설정할지 여부를 선택합니다. [시각적 개체 최적화](desktop-create-responsive-visuals.md)에 대해 자세히 알아보세요.
+각 시각적 개체에 대해 응답성을 사용하도록 설정할지 여부를 선택합니다. [시각적 개체 최적화](visuals/desktop-create-responsive-visuals.md)에 대해 자세히 알아보세요.
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>휴대폰 보고서 레이아웃을 만들 때 고려 사항
 * 여러 페이지의 보고서인 경우 모든 페이지 또는 일부만 최적화할 수 있습니다. 
@@ -101,11 +101,11 @@ ms.locfileid: "39280665"
 
 ![최적화되지 않은 휴대폰 페이지](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-보고서 독자는 전화를 옆으로 돌려 페이지를 가로 보기 모드로 볼 수 있습니다. [휴대폰에 대해 최적화된 Power BI 보고서와 상호 작용](mobile-apps-view-phone-report.md)하는 것은 어떤지에 대해 자세히 알아보세요.
+보고서 독자는 전화를 옆으로 돌려 페이지를 가로 보기 모드로 볼 수 있습니다. [휴대폰에 대해 최적화된 Power BI 보고서와 상호 작용](consumer/mobile/mobile-apps-view-phone-report.md)하는 것은 어떤지에 대해 자세히 알아보세요.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 대시보드 휴대폰 보기 만들기](service-create-dashboard-mobile-phone-view.md)
-* [휴대폰에 대해 최적화된 Power BI 보고서 보기](mobile-apps-view-phone-report.md)
-* [모든 크기에 최적화된 반응형 시각적 개체 만들기](desktop-create-responsive-visuals.md)
+* [휴대폰에 대해 최적화된 Power BI 보고서 보기](consumer/mobile/mobile-apps-view-phone-report.md)
+* [모든 크기에 최적화된 반응형 시각적 개체 만들기](visuals/desktop-create-responsive-visuals.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 
