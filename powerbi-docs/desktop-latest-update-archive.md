@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8c2ee97fb39fe115da78bad7bc5787a152dfd793
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: e7eadadede8f342b25ea59dcd2053f53d654ffff
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658153"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728321"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -34,11 +34,59 @@ ms.locfileid: "39658153"
 
 다음 섹션은 이전 달들의 **Power BI Desktop**에 대한 업데이트를 설명합니다.
 
+## <a name="august-2018-update-2615192321"></a>2018년 8월 업데이트(2.61.5192.321)
+
+8월 업데이트는 7월의 대규모 릴리스 직후 빠르게 이어졌습니다. 해변의 화창한 날씨처럼 이러한 업데이트를 마주하기를 바랍니다. 먼저 살짝 사용해 보면 이러한 업데이트가 적절하다고 느낄 것입니다. 
+
+8월에 업데이트되는 **Power BI Desktop**의 새 기능은 다음과 같습니다.
+
+### <a name="modeling"></a>모델링
+
+* 측정값에 대한 데이터 범주 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=15m27s) [[아티클]](desktop-measures.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
+* 통계 DAX 함수 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=18m56s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
+
+
+### <a name="reporting"></a>보고
+
+* PDF로 내보내기 및 보고서 인쇄 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=12s) [[아티클]](desktop-export-to-pdf.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#print) 
+* 책갈피 그룹 만들기 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=4m4s) [[아티클]](desktop-bookmarks.md#bookmark-groups) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#bookmarks) 
+* 테마는 현재 일반 공급됩니다. [[비디오]](https://youtu.be/dgv5HhHxxe8?t=7m9s) [[아티클]](desktop-report-themes.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Theming) 
+* 슬라이서 재작성 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=22m53s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#slicer) 
+
+### <a name="analytics"></a>분석
+
+* 값으로 조건부 서식 지정 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=7m54s) [[아티클]](desktop-conditional-table-formatting.md#color-formatting-by-field-value) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
+* Python 통합 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=11m14s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
+* Q&A 개선 사항 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=13m1s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
+
+### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+
+* 5개의 새 사용자 지정 시각적 개체 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=19m48s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>데이터 연결
+
+* Spark 커넥터는 일반 공급됩니다. [[비디오]](https://youtu.be/dgv5HhHxxe8?t=31m41s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#spark) 
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dgv5HhHxxe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
 ## <a name="july-2018-update-26051693201"></a>2018년 7월 업데이트(2.60.5169.3201)
 
 7월의 대규모 업데이트는 시각적 개체를 시작하고 다채로운 인사이트를 표시하는 장기 요청 데이터 및 보고 기능을 포함하여 극찬을 받았습니다.
 
-7월의 **Power BI Desktop**에 추가된 업데이트는 다음과 같습니다.
+**Power BI Desktop** 7월 업데이트의 새 기능은 다음과 같습니다.
 
 ### <a name="modeling"></a>모델링
 
@@ -89,7 +137,7 @@ ms.locfileid: "39658153"
 
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 ## <a name="june-2018-update-2595135101"></a>2018년 6월 업데이트(2.59.5135.101)
 
@@ -136,7 +184,7 @@ ms.locfileid: "39658153"
 
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 ## <a name="may-2018-update-2585103281"></a>2018년 5월 업데이트(2.58.5103.281)
 
@@ -190,7 +238,7 @@ ms.locfileid: "39658153"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="april-2018-update-2575068501"></a>2018년 4월 업데이트(2.57.5068.501)
@@ -236,7 +284,7 @@ ms.locfileid: "39658153"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 
@@ -282,7 +330,7 @@ ms.locfileid: "39658153"
 
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 
@@ -304,7 +352,7 @@ ms.locfileid: "39658153"
 ### <a name="reporting"></a>보고
 
 * 여러 페이지에서 데이터 요소 다중 선택  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=23s) [[문서]](desktop-multi-select.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
-* 보고서의 여러 페이지에서 슬라이서 동기화  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[문서]](desktop-slicers.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* 보고서의 여러 페이지에서 슬라이서 동기화  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[문서]](visuals/desktop-slicers.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
 * 숫자 범위 슬라이서 개선 - 정수 맞추기(미리 보기)  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=8m44s)  [[문서]](desktop-slicer-numeric-range.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
 * Bing 지도에 대해 더 빠른 지오코딩(웹 미리 보기) - 최대 6배 더 빠름  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=10m18s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
 * 가로 막대형 및 세로 막대형 차트 시각적 개체에 대한 오버플로 데이터 레이블   [[비디오]](https://youtu.be/KeVB5RwMzJo?t=12m31s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
@@ -346,7 +394,7 @@ ms.locfileid: "39658153"
 
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="january-2018-update-2544970761"></a>2018년 1월 업데이트(2.54.4970.761)
@@ -395,7 +443,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 
@@ -451,7 +499,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="november-2017-update-2524921202"></a>2017년 11월 업데이트(2.52.4921.202)
@@ -507,7 +555,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 
@@ -565,7 +613,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jksjtR8GnBE" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="september-2017-update-2504859502"></a>2017년 9월 업데이트(2.50.4859.502)
@@ -575,7 +623,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 ### <a name="report-view"></a>보고서 보기:
 
 -   다른 보고서 페이지로 드릴스루 [[비디오]](https://youtu.be/moTQJlnClJw?t=19s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#drillthrough) [[문서]](desktop-drillthrough.md)
--   리본 차트 [[비디오]](https://youtu.be/moTQJlnClJw?t=8m57s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[문서]](desktop-ribbon-charts.md)
+-   리본 차트 [[비디오]](https://youtu.be/moTQJlnClJw?t=8m57s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[문서]](visuals/desktop-ribbon-charts.md)
 -   증가 설명/축소 설명에 대한 정보 [[비디오]](https://youtu.be/moTQJlnClJw?t=13m37s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#insights) [[문서]](desktop-insights.md)
 -   테마 미리 보기 업데이트 - 차트 스타일 제어 [[비디오]](https://youtu.be/moTQJlnClJw?t=19m25s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#theming) [[문서]](desktop-report-themes.md)
 -   내게 필요한 옵션 기능 향상 [[비디오]](https://youtu.be/moTQJlnClJw?t=27m25s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibility) [[문서]](desktop-accessibility.md)
@@ -605,7 +653,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moTQJlnClJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="august-2017-update-2494831222"></a>2017년 8월 업데이트(2.49.4831.222)
@@ -650,7 +698,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ND8U0yXroaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="july-2017-update-2484792321"></a>2017년 7월 업데이트(2.48.4792.321)
@@ -700,7 +748,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4X96ow7FnSY" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="june-2017-update-2474766542"></a>2017년 6월 업데이트(2.47.4766.542)
@@ -714,7 +762,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 -   시각적 글꼴 패밀리 설정[[비디오]](https://youtu.be/YlNVE5dgcSI?t=6m59s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#fonts)
 -   수평 이미지 슬라이서[[비디오]](https://youtu.be/YlNVE5dgcSI?t=8m42s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#imageSlicer)
 -   콤보 차트 서식 업데이트[[비디오]](https://youtu.be/YlNVE5dgcSI?t=9m58s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#comboChart)
--   Bing 지도 개선[[비디오]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[문서]](power-bi-map-tips-and-tricks.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
+-   Bing 지도 개선[[비디오]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[문서]](visuals/power-bi-map-tips-and-tricks.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
 -   고밀도 줄 샘플링[[비디오]](https://youtu.be/YlNVE5dgcSI?t=16m53s) [[문서]](desktop-high-density-sampling.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#highDensityLine)
 -   액세스할 수 있는 보고서[[비디오]](https://youtu.be/YlNVE5dgcSI?t=19m23s) [[문서]](desktop-accessibility.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#accessibility)
 
@@ -745,7 +793,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YlNVE5dgcSI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 
@@ -792,7 +840,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKISVNHcHVA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 
@@ -804,7 +852,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 ### <a name="report-view"></a>보고서 보기:
 
 -   축 제목 이름 바꾸기 [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=25s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#renameAxisTitles)
--   새로운 매트릭스 시각적 개체 기능 향상: 열 정렬, 열 크기 조정 및 자동 줄 바꿈(미리 보기) [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[문서]](desktop-matrix-visual.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
+-   새로운 매트릭스 시각적 개체 기능 향상: 열 정렬, 열 크기 조정 및 자동 줄 바꿈(미리 보기) [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[문서]](visuals/desktop-matrix-visual.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
 
 ### <a name="analytics"></a>분석:
 
@@ -837,7 +885,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AWMaIaI8G2Y" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="march-2017-update-2444675422"></a>2017년 3월 업데이트(2.44.4675.422)
@@ -846,7 +894,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 ### <a name="report-view"></a>보고서 보기:
 
--   새 행렬 시각화 개체(미리 보기)[[동영상]](https://youtu.be/CaRTON3lJqw?t=18s)[[문서]](desktop-matrix-visual.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
+-   새 행렬 시각화 개체(미리 보기)[[동영상]](https://youtu.be/CaRTON3lJqw?t=18s)[[문서]](visuals/desktop-matrix-visual.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
 -   숫자 범위 슬라이서(미리 보기)[[동영상]](https://youtu.be/CaRTON3lJqw?t=8m20s)[[문서]](desktop-slicer-numeric-range.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#rangeSlicer)
 -   원형 및 도넛형 시각적 개체의 데이터 레이블 - 합계의 백분율[[동영상]](https://youtu.be/CaRTON3lJqw?t=10m52s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#dataLabels)
 -   여러 시리즈를 사용하여 상호 강조 표시[[동영상]](https://youtu.be/CaRTON3lJqw?t=11m57s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#crossHighlight)
@@ -880,7 +928,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaRTON3lJqw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 
@@ -928,7 +976,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mn75-LOPxMA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="january-2017-update-2424611482"></a>2017년 1월 업데이트(2.42.4611.482)
@@ -964,7 +1012,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C1-f0T8vZ7M" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 
@@ -1017,7 +1065,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kERJ_WOLuLk" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="october-2016-update-2404554361"></a>2016년 10월 업데이트(2.40.4554.361)
@@ -1070,7 +1118,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UXEYSvgvMaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="september-2016-update-2394526362"></a>2016년 9월 업데이트(2.39.4526.362)
@@ -1128,7 +1176,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcUr6E8g_KI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 
@@ -1189,7 +1237,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0VvG7Eqoke8" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="july-2016-update-2374464321"></a>2016년 7월 업데이트(2.37.4464.321)
@@ -1201,7 +1249,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 ### <a name="report-view"></a>보고서 보기:
 
 -   미리 정의된 테이블 스타일 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[비디오]](https://youtu.be/g8ccfjffWmw?t=1m25s)
--   도형 맵 업데이트 - 사용자 지정 맵 사용 [[문서]](desktop-shape-map.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[비디오]](https://youtu.be/g8ccfjffWmw?t=2m21s)
+-   도형 맵 업데이트 - 사용자 지정 맵 사용 [[문서]](visuals/desktop-shape-map.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[비디오]](https://youtu.be/g8ccfjffWmw?t=2m21s)
 
 ### <a name="data-connectors"></a>데이터 커넥터:
 
@@ -1232,7 +1280,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g8ccfjffWmw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 ## <a name="june-2016-update-2364434362"></a>2016년 6월 업데이트(2.36.4434.362)
 
@@ -1242,7 +1290,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 ### <a name="report-view"></a>보고서 보기:
 
--   새로운 시각적 개체 - 도형 맵 [[비디오]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[문서]](desktop-shape-map.md)
+-   새로운 시각적 개체 - 도형 맵 [[비디오]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[문서]](visuals/desktop-shape-map.md)
 -   검색 가능한 슬라이서 [[비디오]](https://youtu.be/sZsL2l6oS4A?t=6m25s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   구성 가능한 꺾은선형 차트 레이블 [[비디오]](https://youtu.be/sZsL2l6oS4A?t=7m21s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   새 로그인 진입점 [[비디오]](https://youtu.be/sZsL2l6oS4A?t=2m30s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
@@ -1286,7 +1334,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 
@@ -1342,7 +1390,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 ## <a name="april-2016-update-2344372322"></a>2016년 4월 업데이트(2.34.4372.322)
 
@@ -1391,7 +1439,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="march-2016-update-2334337281"></a>2016년 3월 업데이트(2.33.4337.281)
@@ -1443,7 +1491,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 
@@ -1501,7 +1549,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 
 ## <a name="january-2016-update-2314280361"></a>2016년 1월 업데이트(2.31.4280.361)

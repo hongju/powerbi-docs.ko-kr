@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f4e79746116d4a7add356a658ce12028b688dae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 7fa3e2e63ef5f43206a398f58d9e8f13bdf8067a
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657923"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728137"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>최신 Power BI Desktop 업데이트의 새로운 기능
 
-## <a name="august-2018-update-2615192321"></a>2018년 8월 업데이트(2.61.5192.321)
+## <a name="september-2018-update-2625222582"></a>2018년 9월 업데이트(2.62.5222.582)
 
-8월 업데이트는 7월의 대규모 릴리스 직후 신속하게 이어집니다. 이러한 업데이트를 잘 사용하시기 바랍니다. 설치하시면 이러한 업데이트를 적절하게 활용할 수 있습니다. 
+9월 업데이트는 흥미로운 새 강의, 추가된 학습 자료, 이전 환경 기반에 정착하여 그 어느 때보다 더 능력 있고 성숙해진 것입니다. 이러한 업데이트가 한 움큼의 예리한 2번 연필처럼 유용하게 사용되기를 바랍니다. 
 
 이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. 월별 버전은 **Power BI Desktop** 설치 방법에 관계없이 같습니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
@@ -36,32 +36,31 @@ ms.locfileid: "39657923"
 
 이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
 
-### <a name="modeling"></a>모델링
-
-* 측정값에 대한 데이터 범주 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=15m27s) [[아티클]](desktop-measures.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
-* 통계 DAX 함수 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=18m56s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
-
-
 ### <a name="reporting"></a>보고
 
-* PDF로 내보내기 및 보고서 인쇄 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=12s) [[아티클]](desktop-export-to-pdf.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#print) 
-* 책갈피 그룹 만들기 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=4m4s) [[아티클]](desktop-bookmarks.md#bookmark-groups) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#bookmarks) 
-* 테마는 현재 일반 공급됩니다. [[비디오]](https://youtu.be/dgv5HhHxxe8?t=7m9s) [[아티클]](desktop-report-themes.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Theming) 
-* 슬라이서 재작성 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=22m53s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#slicer) 
+* 분산형 차트의 점 그림 레이아웃 지원 [[비디오]](https://youtu.be/Rzw2WyI09kY?t=30s)  [[문서]](power-bi-visualization-scatter.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dotPlot) 
+* 테이블 및 매트릭스 시각적 개체에서 값 및 선택 영역 복사 [[비디오]](https://youtu.be/Rzw2WyI09kY?t=2m33s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#copy) 
+* 기본 제공 보고서 테마 옵션 [[비디오]](https://youtu.be/Rzw2WyI09kY?t=6m2s)  [[문서]](desktop-report-themes.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* 일반적으로 사용 가능한 보고서 페이지 도구 설명, 새 카드 지원 [[비디오]](https://youtu.be/Rzw2WyI09kY?t=8m10s)  [[문서]](desktop-tooltips.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* 분석 및 서식 지정 창 지원에 대한 향상된 접근성 기능 [[비디오]](https://youtu.be/Rzw2WyI09kY?t=9m29s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#accessibility)
 
 ### <a name="analytics"></a>분석
 
-* 값으로 조건부 서식 지정 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=7m54s) [[아티클]](desktop-conditional-table-formatting.md#color-formatting-by-field-value) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
-* Python 통합 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=11m14s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
-* Q&A 개선 사항 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=13m1s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
+* 집계(미리 보기)[[비디오]](https://youtu.be/Rzw2WyI09kY?t=11m37s)  [[문서]](desktop-aggregations.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
 
 ### <a name="custom-visuals"></a>사용자 지정 시각적 개체
 
-* 5개의 새 사용자 지정 시각적 개체 [[비디오]](https://youtu.be/dgv5HhHxxe8?t=19m48s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+* 5개의 새 사용자 지정 시각적 개체 [[비디오]](https://youtu.be/Rzw2WyI09kY?t=23m8s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>데이터 연결
 
-* Spark 커넥터는 일반 공급됩니다. [[비디오]](https://youtu.be/dgv5HhHxxe8?t=31m41s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#spark) 
+* PDF 파일 커넥터(미리 보기) [[비디오]](https://youtu.be/Rzw2WyI09kY?t=29m26s)  [[문서]](desktop-connect-pdf.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* SAP BW 커넥터 - 측정값 속성 지원 [[비디오]](https://youtu.be/Rzw2WyI09kY?t=30m15s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#sapBW) 
+* 데이터 흐름 커넥터(베타) [[문서]](desktop-connect-dataflows.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dataflows) 
+
+### <a name="data-preparation"></a>데이터 준비
+* M Intellisense [[비디오]](https://youtu.be/Rzw2WyI09kY?t=30m42s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* 예제에서 열 추가 - 텍스트 패딩 지원 [[비디오]](https://youtu.be/Rzw2WyI09kY?t=32m27s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#addColumn) 
 
 
 > [!NOTE]
@@ -72,10 +71,10 @@ ms.locfileid: "39657923"
 
 다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dgv5HhHxxe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rzw2WyI09kY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
 ## <a name="more-videos"></a>비디오 더 보기
 

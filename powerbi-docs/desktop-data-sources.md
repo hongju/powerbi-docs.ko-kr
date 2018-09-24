@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657877"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512067"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 소스
 Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 있습니다. 이 페이지의 맨 아래에는 사용 가능한 데이터 소스의 전체 목록이 있습니다.
@@ -53,6 +53,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * XML
 * JSON
 * 폴더
+* PDF(베타)
 * SharePoint 폴더
 
 다음 그림은 **파일** 에 대한 **데이터 가져오기**창을 보여 줍니다.
@@ -79,7 +80,8 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Impala
 * Google BigQuery
 * Snowflake
-* Exasol
+* Exasol(베타)
+* Jethro(베타)
 
 > [!NOTE]
 > 일부 데이터베이스 커넥터는 **파일 > 옵션 및 설정 > 옵션**을 선택한 다음 **미리 보기 기능**을 선택하고 커넥터를 사용하도록 설정하여 사용해야 합니다. 위에서 언급한 커넥터 중 일부를 표시하지 않고 사용하지 않으려는 경우 **미리 보기 기능** 설정을 확인합니다. *베타* 또는 *미리 보기*로 표시된 모든 데이터 원본은 제한된 지원 및 기능을 가지며 프로덕션 환경에서는 사용할 수 없습니다.
@@ -93,6 +95,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 **Power BI** 범주는 다음과 같은 데이터 연결을 제공합니다.
 
 * Power BI 데이터 집합
+* Power BI 데이터 흐름(베타)
 
 다음 이미지는 **Power BI**에 대한 **데이터 가져오기** 창을 보여줍니다.
 
@@ -108,7 +111,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Azure Cosmos DB(베타)
 * Azure Data Lake Store
 * Azure HDInsight(HDFS)
-* Azure HDInsight Spark(베타)
+* Azure HDInsight Spark
 * HDInsight 대화형 쿼리(베타)
 * Azure KustoDB(베타)
 
@@ -169,6 +172,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * HDFS(Hadoop 파일)
 * Spark
 * R 스크립트
+* Python 스크립트
 * ODBC
 * OLE DB
 * 빈 쿼리

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657946"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512182"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
 **보고서 테마**를 사용하여 전체 보고서에 회사 색, 계절 색 지정 등의 색 테마를 적용하거나 적용하려는 모든 기타 색 테마를 적용할 수 있습니다. **보고서 테마**를 적용하는 경우 보고서의 모든 시각적 개체에서는 선택한 테마 색을 사용합니다(몇 가지 예외 적용, 이 문서의 뒷부분에서 설명).
@@ -36,7 +36,17 @@ ms.locfileid: "39657946"
 [Power BI Desktop 가져오기](desktop-get-the-desktop.md)의 링크에서 설치할 수 있는 **Power BI Desktop**의 최신 릴리스로 업그레이드하는 것이 좋습니다. 
 
 ## <a name="how-report-themes-work"></a>보고서 테마 작동 방법
-Power BI Desktop 보고서에 보고서 테마를 적용하려면 **홈** 리본에서 **테마 전환** 단추를 선택한 다음 드롭다운 목록에서 **테마 가져오기**를 선택합니다.
+보고서 테마를 Power BI Desktop 보고서에 적용하려면 사용 가능한 기본 제공 보고서 테마 중에서 선택하거나 사용자 지정 테마를 가져올 수 있습니다.
+
+사용 가능한 기본 제공 보고서 테마에서 선택하려면 **홈** 리본에서 **테마 전환** 단추를 선택한 다음, 드롭다운 메뉴에서 포함된 테마 중 하나를 선택합니다.
+
+![보고서 테마 선택](media/desktop-report-themes/report-themes_2a.png)
+
+보고서 테마가 보고서에 적용되고, 진행할 준비가 되었습니다.
+
+### <a name="importing-report-themes"></a>보고서 테마 가져오기
+
+보고서 테마를 가져오려면 **홈** 리본에서 **테마 전환** 단추를 선택한 다음, 드롭다운에서 **테마 가져오기**를 선택합니다.
 
 ![](media/desktop-report-themes/report-themes_3.png)
 

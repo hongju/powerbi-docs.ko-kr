@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280757"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512159"
 ---
-# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Power BI Desktop(미리 보기)의 보고서 페이지에 기반을 둔 도구 설명 만들기
+# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop의 보고서 페이지에 기반한 도구 설명 만들기
 **Power BI Desktop**에서 만든 보고서 페이지에 기반을 둔 시각적 개체를 가리키면 나타나는 **보고서 도구 설명**을 시각적으로 풍부하게 만들 수 있습니다. 도구 설명으로 사용되는 보고서 페이지를 만들면 사용자 지정 도구 설명에 시각적 개체, 이미지 및 기타 보고서 페이지에서 만든 항목 컬렉션을 포함할 수 있습니다. 
 
 ![Power BI Desktop의 보고서 도구 설명](media/desktop-tooltips/desktop-tooltips_00a.png)
@@ -27,11 +27,15 @@ ms.locfileid: "39280757"
 보고서 도구 설명을 사용하여 모든 종류의 흥미로운 작업을 수행할 수 있습니다. 도구 설명을 만드는 방법과 이를 구성하기 위해 해야 할 일을 살펴보겠습니다.
 
 ### <a name="enable-the-tooltips-preview"></a>도구 설명 미리 보기 활성화 
-보고서 도구 설명 기능은 현재 미리 보기 상태이므로, 활성화해야 보고서 도구 설명을 만들 수 있습니다. 보고서 도구 설명 미리 보기 기능을 활성화하려면 Power BI Desktop에서 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 다음, **보고서 페이지 도구 설명** 옆에 있는 확인란을 선택합니다. 
+**Power BI Desktop**의 2018년 9월 릴리스부터 도구 설명은 일반 공급되며, 사용하도록 설정할 필요가 없습니다. 
+
+이전 버전의 **Power BI Desktop**을 사용하는 경우 Power BI Desktop에서 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 차례로 선택하여 미리 보기 기능으로 사용하도록 설정한 다음, **보고서 페이지 도구 설명** 옆에 있는 확인란을 선택할 수 있습니다. 
 
 ![보고서 도구 설명의 미리 보기 기능 활성화](media/desktop-tooltips/desktop-tooltips_01.png)
 
 보고서 도구 설명의 미리 보기 버전을 활성화하도록 선택한 후에는 **Power BI Desktop**을 다시 시작해야 합니다.
+
+[Power BI Desktop 가져오기](desktop-get-the-desktop.md)의 링크에서 설치할 수 있는 **Power BI Desktop**의 최신 릴리스로 업그레이드하는 것이 좋습니다. 
 
 ## <a name="create-a-report-tooltip-page"></a>보고서 도구 설명 페이지 만들기
 시작하려면 페이지 탭 영역에서 **Power BI Desktop** 캔버스 아래쪽에 있는 **+** 단추를 클릭하여 새 보고서 페이지를 만듭니다. 단추는 보고서의 마지막 페이지 옆에 있습니다. 
@@ -117,8 +121,9 @@ ms.locfileid: "39280757"
 
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
-**도구 설명** 보고서의 이 미리 보기 버전에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
+**도구 설명**에 대해 유념해야 할 몇 가지 제한 사항과 고려 사항이 있습니다.
 
+* **Power BI Desktop**의 2018년 9월 릴리즈부터 도구 설명이 일반 공급되며, 카드 시각적 개체에서도 도구 설명을 지원합니다.
 * **Power BI Desktop**의 2018년 7월 릴리스부터 테이블 및 행렬 시각적 개체의 도구 설명이 지원됩니다. 
 * 모바일 앱 또는 포함된 환경(예: 웹에 게시)에서 보고서를 볼 때 보고서 도구 설명이 지원되지 않습니다. 
 * 사용자 지정 시각적 개체에는 보고서 도구 설명이 지원되지 않습니다. 

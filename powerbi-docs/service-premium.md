@@ -8,21 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2018
+ms.date: 09/11/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: f7024b3e4827201edb4137eb513333030e39059f
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: 87847575d4fff3d3530847246be5bc8f720b5141
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250753"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512136"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI 프리미엄이란?
 Power BI Premium은 조직 또는 팀에 대해 Power BI 서비스를 실행하는 전용 리소스를 제공합니다. 더욱 신뢰할 수 있는 성능을 제공하고 더 큰 데이터 볼륨을 사용하도록 설정합니다. 또한 프리미엄을 통해 뷰어를 위한 사용자별 라이선스를 구입할 필요 없이 광범위하게 콘텐츠를 배포할 수 있습니다.
 
-프리미엄 용량에 작업 영역을 할당하여 Power BI 프리미엄을 활용할 수 있습니다. *프리미엄 용량*은 조직을 위한 전용 리소스입니다. 프리미엄 용량에 할당되지 않은 작업 영역의 경우 이는 공유 용량에 있게 됩니다.
-
-*공유 용량*을 사용하면 다른 고객에 의해 공유되는 계산 리소스에서 워크로드가 실행됩니다. 공유 용량에서 모든 사용자를 위해 환경의 품질을 보장하도록 더 많은 제한이 개별 사용자에게 적용됩니다.
+*프리미엄 용량*에 작업 영역을 할당하여 Power BI Premium을 활용할 수 있습니다. 프리미엄 용량은 조직을 위한 전용 리소스입니다. 프리미엄 용량에 할당되지 않은 작업 영역은 *공유 용량*에 있습니다. 공유 용량을 사용하면 다른 고객이 공유하는 계산 리소스에서 워크로드가 실행됩니다. 공유 용량에서 모든 사용자를 위해 환경의 품질을 보장하도록 더 많은 제한이 개별 사용자에게 적용됩니다.
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -42,18 +40,18 @@ Power BI 내에는 두 가지 유형의 용량이 있습니다. 공유 용량 �
 | **Power BI 보고서 온-프레미스 게시** |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함") |
 
 *<sup>1</sup> 자세한 내용은 [Power BI Pro 및 Power BI Premium을 사용하는 사용자 기능](service-free-vs-pro.md) 기능을 참조하세요.*  
-*<sup>2</sup> Power BI 프리미엄에 제공되는 향후 개선 사항은 GA를 게시합니다.*
+*<sup>2</sup> 향후에 Power BI Premium에 제공될 향상된 기능입니다.*
 
 ### <a name="premium-capacity"></a>프리미엄 용량
 
-Power BI 프리미엄 용량의 사용을 시작하려면 작업 영역을 용량에 할당해야 합니다. 작업 영역을 프리미엄 용량에 할당하는 방법에 대한 자세한 내용은 [Power BI 프리미엄 관리](service-admin-premium-manage.md)를 참조하세요.
+Power BI 프리미엄 용량의 사용을 시작하려면 작업 영역을 용량에 할당해야 합니다. 프리미엄 용량으로 작업 영역을 지원하면 다음을 얻을 수 있습니다.
 
-프리미엄 용량으로 작업 영역을 지원하면 Power BI Premium의 이점을 누릴 수 있습니다.
+* **예약된 새로 고침**: 공유 용량을 사용하면 가져온 모델 데이터 집합에 대해 예약된 새로 고침이 하루 8번으로 제한됩니다. Premium 작업 영역에 있는 데이터 집합의 경우 하루 최대 48번까지 새로 고침을 예약할 수 있습니다. 향상된 예약된 새로 고침은 DirectQuery에 대해 예약된 캐시 새로 고침 설정에 적용되지 않으며 프리미엄 용량 및 공유 용량 간에 동일하게 유지됩니다.
+* **전용 하드웨어로 격리**: 공유 용량의 특성으로 인해 안전 조치에도 불구하고 보고서 및 대시보드의 성능은 용량에 있는 다른 워크로드의 리소스 요청의 영향을 받을 수 있습니다. 그러나 프리미엄 용량은 관련되지 않은 워크로드와 분리하여 워크로드에 대해 더 일관되고 신뢰할 수 있는 성능을 제공합니다.
 
-* **예약된 새로 고침**: 공유 용량을 사용하면 가져온 모델에 대해 예약된 새로 고침은 하루 8번으로 제한됩니다. 프리미엄 작업 영역에서 데이터 집합에 대한 새로 고침 수는 하루 48번으로 증가됩니다. DirectQuery에 대한 예약된 캐시 새로 고침 설정에 적용되지 않습니다. 프리미엄 및 공유 용량 사이에는 동일하게 유지됩니다.
-* **전용 하드웨어로 격리**: 공유 용량의 특성으로 인해 안전 조치에도 불구하고 보고서 및 대시보드의 성능은 용량에 있는 다른 워크로드의 리소스 요청의 영향을 받을 수 있습니다. 반대로, 프리미엄은 관련되지 않은 작업에서 분리하여 작업에 대한 보다 일관된 신뢰할 수 있는 성능을 제공합니다.
+앱이 프리미엄 용량으로 지원되는 경우(즉, 현재 Premium에 할당된 앱 작업 영역에서 게시된 경우) 할당된 라이선스에 관계없이 조직의 모든 사용자가 게시된 앱을 사용할 수 있습니다.
 
-앱이 프리미엄 용량에 의해 지원되는 경우(즉, 현재 Premium에 할당된 앱 작업 영역에서 게시됨) 게시된 앱은 할당된 라이선스에 관계 없이 조직의 모든 사용자가 사용할 수 있습니다.
+프리미엄 용량에 작업 영역을 할당하는 방법에 대한 자세한 내용은 [Power BI Premium 관리](service-admin-premium-manage.md)를 참조하세요.
 
 ### <a name="shared-capacity"></a>공유 용량
 
@@ -84,7 +82,7 @@ Power BI 프리미엄은 서로 다른 v-코어 용량으로 노드 구성에서
 * 백 엔드 V 코어는 어려운 작업: 쿼리 처리, 캐시 관리, R 서버 실행, 데이터 새로 고침, 자연어 처리, 실시간 피드, 보고서 및 이미지의 서버 쪽 렌더링에 책임이 있습니다. 백 엔드 V 코어를 사용하여 메모리의 일정량도 예약됩니다. 큰 데이터 모델 또는 많은 수의 활성 데이터 집합을 처리할 때 충분한 메모리를 갖는 것은 특히 중요해지고 있습니다.
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
-Power BI 프리미엄은 Power BI Report Server 온-프레미스를 실행할 수 있는 권한을 포함합니다. 자세한 내용은 [Power BI Report Server 시작](report-server/get-started.md)을 참조하세요.
+Power BI Premium에는 조직의 Power BI Report Server를 온-프레미스에서 실행할 수 있는 기능도 포함됩니다. 자세한 내용은 [Power BI Report Server 시작](report-server/get-started.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 프리미엄 FAQ](service-premium-faq.md)  
