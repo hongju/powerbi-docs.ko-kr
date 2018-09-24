@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dfb45be36516be9196fbdd4297209ce4bf15925c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44513334"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974210"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop의 집계(미리 보기)
 
@@ -243,7 +243,7 @@ Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있�
 
 다음 표에는 **Sales Agg** 테이블에 대한 **집계 관리** 대화 상자에 설정된 항목이 나와 있습니다. **Date**가 세부 정보 테이블인 GroupBy 항목은 Date 특성별로 그룹화된 쿼리에 대한 집계에 강제로 적중해야 합니다. 앞의 예제와 같이 관계가 있으므로 CustomerKey 및 ProductSubcategoryKey에 대한 GroupBy 항목은 집계 적중 횟수에 영향을 주지 않습니다(또 다시 DISTINCTCOUNT 제외).
 
-![Sales Agg 집계 테이블](media/desktop-aggregations/aggregations-table_03.jpg)
+![Sales Agg 집계 테이블](media/desktop-aggregations/aggregations-table_04.jpg)
 
 > 참고: 이 모델에서는 **Date** 테이블이 세부 정보 테이블이므로 집계 관리 대화 상자를 채우려면 이 테이블이 DirectQuery 모드에 있어야 합니다. 이는 일반 공급에서 제거하려는 미리 보기 제한 사항입니다.
 
