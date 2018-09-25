@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fba2ea948190a59039766ffc2b5fab6189896ab8
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 4b61ff56ea1aec64a3e88db46836f948c4190d60
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328491"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547456"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 서비스용 데이터 원본
 데이터는 Power BI의 핵심입니다. 데이터를 탐색하고 차트 및 대시보드를 만들며 질문 및 답변으로 질문할 때마다 볼 수 있는 모든 해당 시각화 및 답변은 데이터 집합에서 해당하는 기본 데이터를 가져옵니다. 그러나 해당 데이터 집합을 어디서 가져오나요? 데이터 원본에서 가져옵니다.
@@ -44,7 +44,7 @@ XML 테이블(.xml) 또는 텍스트 파일(.txt)과 같은 다른 파일 형식
 
 콘텐츠 팩은 준비해야 하는 데이터 및 보고서를 모두 포함합니다. Power BI에는 두 가지 유형의 콘텐츠 팩이 있습니다. Google 분석, Marketo, 또는 Salesforce와 같은 서비스의 콘텐츠 팩과 조직의 다른 사용자가 생성하고 공유한 콘텐츠 팩입니다.
 
-**서비스** – Power BI용 콘텐츠 팩이 있는 여러 가지 서비스가 있으며 이후에도 계속 추가됩니다. 대부분의 서비스에는 계정이 있어야 합니다. 자세한 내용은 [서비스에 연결](service-connect-to-services.md)을 참조하세요.
+**서비스** – Power BI용 콘텐츠 팩이 있는 여러 가지 서비스가 있으며 이후에도 계속 추가됩니다. 대부분의 서비스에는 계정이 있어야 합니다. 자세한 내용은 [서비스에 연결](consumer/end-user-connect-to-services.md)을 참조하세요.
 
 **조직** – 사용자 및 조직의 다른 사용자가 Power BI Pro 계정을 갖는 경우 콘텐츠 팩을 만들고 공유하며 사용할 수 있습니다. 자세한 내용은 [조직 콘텐츠 팩](service-organizational-content-pack-introduction.md)을 참조하세요.
 
