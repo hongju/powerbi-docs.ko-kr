@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 44244bf746c1a11229d2041b4c2b43871fa7a199
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6955bc0c41e5a6a145d2101ab527d753f98d5c61
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944540"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550078"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 소매점 분석 샘플: 둘러보기
 
@@ -165,5 +165,5 @@ ms.locfileid: "36944540"
 * [모든 샘플 파일의 zip 파일 다운로드](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [이 Power BI 샘플에 대한 Excel 통합 문서 다운로드](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Power BI에 대한 데이터 가져오기](service-get-data.md)    
-* [Power BI - 기본 개념](service-basic-concepts.md)    
+* [Power BI - 기본 개념](consumer/end-user-basic-concepts.md)    
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

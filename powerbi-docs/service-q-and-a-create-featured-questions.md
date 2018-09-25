@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726320"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548238"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI 질문 및 답변에 대한 추천 질문 만들기
 데이터 집합을 소유하는 경우 해당 데이터 집합에 고유한 추천 질문을 추가할 수 있습니다.  Power BI 질문 및 답변은 이러한 질문을 데이터 집합을 사용(*소비*)하는 동료에게 보여줍니다.  추천 질문은 동료에게 데이터 집합에 대해 문의할 수 있는 형식의 질문에 대한 아이디어를 제공합니다. 추가한 추천 질문은 인기있는 질문, 흥미로운 결과를 표시하는 질문 또는 표현하기 어려울 수 있는 질문을 추가하는 등 다양하게 만들 수 있습니다.
@@ -47,8 +47,8 @@ Will이 Power BI 질문 및 답변에 몇 가지 추천 질문을 추가하고 �
    ![맵 시각화](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>다음 단계
-[Power BI의 질문 및 답변](power-bi-q-and-a.md)  
+[Power BI의 질문 및 답변](consumer/end-user-q-and-a.md)  
 [자습서: Power BI 질문 및 답변 소개](power-bi-visualization-introduction-to-q-and-a.md)  
-[Power BI - 기본 개념](service-basic-concepts.md)  
+[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

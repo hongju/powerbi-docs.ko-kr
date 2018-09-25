@@ -1,21 +1,21 @@
 ---
 title: 모든 크기의 Power BI 시각적 개체 최적화
 description: Power BI 휴대폰 앱에 대해 Power BI Desktop 및 Power BI 서비스에서 기존 보고서의 시각적 개체를 최적화하는 방법을 알아봅니다.
-author: maggiesMSFT
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/13/2018
-ms.author: maggies
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d85d4bd60c341ef588cf56b1345f28aa25b810de
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1c50bcf656f967502e8bb01f7ca5184996170bed
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744083"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566329"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>모든 크기의 Power BI 시각적 개체 최적화
 기본적으로 새 보고서를 만들 때 시각적 개체는 ‘반응형’이므로, 화면 크기와 관계없이 최대 데이터양과 인사이트를 표시하도록 동적으로 변경됩니다. 이전 보고서의 경우에도 동적으로 크기를 조정하도록 시각적 개체를 설정할 수 있습니다.

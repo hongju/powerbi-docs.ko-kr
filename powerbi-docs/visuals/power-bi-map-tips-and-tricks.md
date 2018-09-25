@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 487e53bae0fe872771b5ecbbe0458cd09dc48a4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744389"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548514"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 시각화를 위한 팁과 힌트
 Power BI는 Bing 지도와 통합되어 기본 지도 좌표를 제공(지오코딩이라는 프로세스)하므로 지도를 쉽게 만들 수 있습니다. 이와 함께 알고리즘을 사용하여 올바른 위치를 식별하지만, 경우에 따라 추측하기도 합니다. Power BI가 자체적으로 지도 시각화를 만들 수 없는 경우 Bing 지도의 도움말을 등록합니다. 
@@ -89,7 +89,7 @@ Power BI에서 사용하는 데이터 집합에 위도 및 경도 필드가 있�
 * 두 번째 옵션인 ![맵으로 드릴 다운은](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) 지도를 클릭할 필요가 없다는 점을 제외하고 드릴 다운과 유사합니다.  현재 수준의 컨텍스트를 기억하여 계층의 한 수준 아래로 확장됩니다. 예를 들어 현재 국가를 보고 있는데 이 아이콘을 선택하면 계층의 한 수준 아래인 주로 이동합니다. 지오 코딩의 경우 Bing Maps 지오 코드의 정확도를 높이는 데 도움이 되도록 Power BI가 각 주와 해당 국가에 대한 데이터를 전송합니다. 대부분의 지도에서 맨 오른쪽을 보면 이 옵션이나 드릴 다운 옵션을 사용할 수 있으므로 Bing에 최대한 많은 정보를 전송하여 정확한 위치 정보를 얻을 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 시각화에서 드릴다운](../power-bi-visualization-drill-down.md)
+[Power BI 시각화에서 드릴다운](../consumer/end-user-drill.md)
 
 [Power Bi 시각화](power-bi-report-visualizations.md)
 

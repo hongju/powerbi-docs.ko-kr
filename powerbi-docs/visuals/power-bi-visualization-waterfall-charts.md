@@ -2,7 +2,7 @@
 title: Power BI의 폭포 차트
 description: Power BI의 폭포 차트
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: feb608455add8740d7894fa2cec3c54a8a26944e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736791"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565823"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI의 폭포 차트
 폭포 차트는 값을 더하거나 뺄 때의 누계를 보여줍니다. 초기 값(예: 순수입)이 일련의 양수 및 음수 변경에 어떻게 영향을 받는지 이해하는 데 유용합니다.
@@ -74,13 +74,13 @@ ms.locfileid: "44736791"
 보고서 페이지에서 다른 시각화 요소를 교차 필터링하는 폭포 차트에서 세로형 막대를 강조 표시하고 그 반대의 경우도 마찬가지입니다. 그러나 총 세로형 막대는 강조 표시를 트리거하지 않거나 교차 필터링에 응답하지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI의 보고서](../service-reports.md)
+[Power BI의 보고서](../consumer/end-user-reports.md)
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Power BI 보고서의 시각화](power-bi-report-visualizations.md)
 
-[Power BI - 기본 개념](../service-basic-concepts.md)
+[Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

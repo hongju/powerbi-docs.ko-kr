@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1104c7f90f46252a74c4aa8e5ec573a159ef1c40
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330170"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550124"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI의 DirectQuery 사용
 **Power BI Desktop** 또는 **Power BI 서비스**를 사용하는 경우 모든 종류의 다양한 데이터 원본에 연결할 수 있으며 이러한 데이터를 여러 가지 방법으로 연결할 수 있습니다. 데이터를 가져오는 가장 일반적인 방법인 Power BI로 데이터를 *가져오거나* **DirectQuery**라고 하는 원래의 원본 리포지토리에 있는 데이터에 직접 연결할 수 있습니다. 이 문서에서는 **DirectQuery**와 그 기능에 대해 설명하며, 다음 항목을 포함하고 있습니다.
@@ -277,7 +277,7 @@ DirectQuery 연결을 사용하여 보고서를 만들 때는 다음 지침을 �
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  DirectQuery에서 이러한 교차 필터링 및 교차 강조 표시를 사용하려면 쿼리를 기본 원본으로 제출해야 하므로 사용자의 선택에 응답하는 데 걸리는 시간이 지나치게 길면 상호 작용을 해제해야 합니다. 그러나 이 상호 작용은 전체 보고서(‘쿼리 감소 옵션’에 대해 위에서 설명한 것처럼)에 대해 해제하거나 [이 문서](service-reports-visual-interactions.md)에 설명된 것처럼 사례별로 해제할 수 있습니다.
+  DirectQuery에서 이러한 교차 필터링 및 교차 강조 표시를 사용하려면 쿼리를 기본 원본으로 제출해야 하므로 사용자의 선택에 응답하는 데 걸리는 시간이 지나치게 길면 상호 작용을 해제해야 합니다. 그러나 이 상호 작용은 전체 보고서(‘쿼리 감소 옵션’에 대해 위에서 설명한 것처럼)에 대해 해제하거나 [이 문서](consumer/end-user-interactions.md)에 설명된 것처럼 사례별로 해제할 수 있습니다.
 
 제안된 위 목록 외에도 다음과 같은 각각의 보고 기능으로 인해 성능 문제가 발생할 수 있습니다.
 

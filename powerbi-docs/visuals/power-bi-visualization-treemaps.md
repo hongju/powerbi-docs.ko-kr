@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744029"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548077"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI의 트리맵
 트리맵은 계층 데이터를 중첩된 사각형의 집합으로 표시합니다.  계층의 각 수준은 다른 사각형("잎")를 포함하는 색이 칠해진 사각형("가지"라고도 함)으로 표시됩니다.  각 사각형 안에 공간은 측정된 정량 값을 기반으로 할당되며, 왼쪽 상단(최대)에서 오른쪽 하단(최소)까지 크기 별로 정렬된 사각형으로 표시됩니다.
@@ -62,7 +62,7 @@ ms.locfileid: "44744029"
    > 
 5. **체인** 영역을 마우스로 가리키면 **범주**의 해당 부분에 대한 도구 설명이 표시됩니다.  예를 들어, **040 Juniors** 사각형의 **Lindseys** 에 마우스로 가리키면 Juniors 범주의 Lindsey의 부분에 대한 도구 설명이 나타납니다.  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [트리맵을 대시보드 타일로 추가합니다(시각적 개체 고정)](../service-dashboard-tiles.md). 
+6. [트리맵을 대시보드 타일로 추가합니다(시각적 개체 고정)](../consumer/end-user-tiles.md). 
 7. [보고서를 저장합니다](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>강조 표시 및 교차 필터링
@@ -76,11 +76,11 @@ ms.locfileid: "44744029"
 2. **지난 해 체인별 판매액** 원형 차트에서 **Fashions Direct** 조각을 선택하여 트리맵을 교차 필터링합니다.  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. 차트를 상호 간에 강조 표시하고 필터링하는 방법을 관리하려면 [Power BI 보고서의 시각화 상호 작용](../service-reports-visual-interactions.md)을 참조하세요.
+3. 차트를 상호 간에 강조 표시하고 필터링하는 방법을 관리하려면 [Power BI 보고서의 시각화 상호 작용](../consumer/end-user-interactions.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 [시각화를 대시보드에 고정](../service-dashboard-pin-tile-from-report.md)  
-[Power BI - 기본 개념](../service-basic-concepts.md)  
+[Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)  
 

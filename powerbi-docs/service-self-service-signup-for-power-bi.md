@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f6c899932390bc4f9818fdcbb499848ca88a8d5
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558519"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549986"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Power BI에 개별 등록
 Power BI에 등록하고 개인 보고서를 시작하는 방법과 시각화 요구 사항에 대해 알아봅니다.
@@ -99,7 +99,7 @@ Power BI에 등록하려면 다음을 수행할 수 있습니다.
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>서비스 중인 Power BI Pro 60일 평가판
 무료 계정에 등록한 후 필요에 따라 Pro를 무료로 60일 동안 사용해 볼 수 있습니다. 평가판 기간 동안 모든 Pro 기능에 대한 액세스 권한이 있습니다. Power BI Pro는 Power BI 무료 버전의 모든 기능과 추가 공유 및 공동 작업 기능을 제공합니다. 자세한 내용은 [Power BI 가격 책정](https://powerbi.microsoft.com/pricing)을 참조하세요. Power BI Pro의 60일 무료 평가판을 사용해 보려면 Power BI에 로그인하고 다음 Power BI Pro 기능 중 하나를 사용해 보세요.
 
-* [앱 작업 영역 만들기](service-create-distribute-apps.md)
+* [앱 작업 영역 만들기](consumer/end-user-create-apps.md)
 * [대시보드 공유](service-share-dashboards.md)
 
 이러한 기능을 사용하고 나면 무료 평가판을 시작하라는 메시지가 표시됩니다. 또한 기어 아이콘을 선택하고 **개인 저장소 관리**를 선택하여 사용하도록 선택할 수 있습니다. 그런 다음 오른쪽에서 **무료로 Pro 사용해 보기**를 선택합니다.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252143"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545731"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 항목의 이름 바꾸기
 이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 보고서 페이지, 통합 문서, 데이터 집합, 앱 및 작업 영역의 이름을 변경하는 방법을 안내합니다.
@@ -71,7 +71,7 @@ ms.locfileid: "34252143"
 ## <a name="rename-a-page-in-a-report"></a>보고서의 페이지 이름 바꾸기
 Power BI 보고서에 페이지의 이름이 마음에 들지 않나요?  한 번의 클릭으로 새 이름을 지정할 수 있습니다. 페이지의 이름은 [보고서 편집용 보기 ](service-interact-with-a-report-in-editing-view.md)에서 변경할 수 있습니다.
 
-1. [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 엽니다.
+1. [편집용 보기](consumer/end-user-reading-view.md)에서 보고서를 엽니다.
 2. Power BI 창의 아래쪽에 있는 보고서 페이지 탭을 찾습니다.
    
     ![탭이 강조 표시된 보고서](media/service-rename/report-page-tabs-new.png)

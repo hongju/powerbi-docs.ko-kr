@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 25340ac8349e112b2424496274441feedebe7052
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 85a5856d20781012f32d53c9468fdd6b77a0f685
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34298852"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546606"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI 프리미엄 FAQ
 Power BI 프리미엄 제품에 대한 질문과 대답 목록을 찾아보세요.
@@ -102,7 +102,7 @@ Power BI Report Server에 대한 자세한 내용은 [Power BI Report Server 시
 **Power BI 앱이란?**  
 사용자가 엔터프라이즈 규모에서 정보를 탐색하고 검색하는 방법을 개선하기 위해 콘텐츠 팩을 Power BI 앱으로 발전시키고 있습니다. 현재 Power BI 앱은 대시보드 및 보고서를 특정 사람, 그룹 또는 전체 조직에 배포할 수 있는 간소화된 방법을 제공합니다. 비즈니스 사용자는 이러한 앱을 간편하게 설치하고 손쉽게 검색하여 한 곳으로 콘텐츠를 중앙 집중화하고 자동으로 업데이트할 수 있습니다. 
 
-앱에 대 한 자세한 내용은 [Power BI에서 앱이란?](service-install-use-apps.md)을 참조하세요.
+앱에 대 한 자세한 내용은 [Power BI에서 앱이란?](consumer/end-user-apps.md)을 참조하세요.
 
 **Power BI 프리미엄 롤아웃의 일부로 Power BI Pro, Power BI 무료, Power BI Desktop 등에 변경 사항이 있습니까?**  
 현재 Power BI Pro와 무료 서비스 간 차이를 단순화하고 있습니다. 무료 서비스는 개인 사용을 위해, Power BI Pro는 공동 작업을 위해 고안되긴 했으나, 기능적 차이점이 사용자에게 혼란을 주어왔다는 점에 대한 의견을 수렴해왔습니다. 앞으로 Power BI Pro와 동일한 기능을 갖추도록 무료 서비스를 개선할 예정이나, 공유 및 공동 작업 기능은 Power BI Pro 사용자에게만 제한됩니다.

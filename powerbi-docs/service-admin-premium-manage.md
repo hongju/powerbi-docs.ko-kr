@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: e60cc5341bba50d9fac82f032656f449cadaa255
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558473"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546556"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium 및 Power BI Embedded 내에서 용량 관리
 콘텐츠에 대한 전용 리소스를 제공하는 Power BI Premium 및 Power BI Embedded 용량을 관리하는 방법을 알아봅니다.
@@ -183,6 +183,6 @@ Power BI 관리자 포털의 **용량 설정** 탭 내에서 Power BI Report Ser
 자세한 내용은 [Power BI Report Server 설치](report-server/install-report-server.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
-사용자와 게시된 앱을 공유합니다. 자세한 내용은 [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md)를 참조하십시오.
+사용자와 게시된 앱을 공유합니다. 자세한 내용은 [Power BI에서 앱 만들기 및 배포](consumer/end-user-create-apps.md)를 참조하십시오.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

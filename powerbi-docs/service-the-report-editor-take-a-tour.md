@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726642"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546076"
 ---
 # <a name="the-report-editortake-a-tour"></a>보고서 편집기... 둘러보기
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 및 Power BI Desktop의 보고서 편집
 Power BI 서비스의 보고서 편집기와 Power BI Desktop의 보고서 편집기는 매우 유사합니다. 비디오에서는 Power BI Desktop의 보고서 편집기를 보여주고 이 문서에서는 Power BI 서비스의 보고서 편집기를 보여줍니다. 
 
 ## <a name="the-difference-between-report-creators-and-report-consumers"></a>보고서 ‘작성자’와 보고서 ‘소비자’ 간의 차이
-보고서를 작성하고 편집하는 기능은 보고서 소유자(‘작성자’)로 제한됩니다. 사용자와 공유되는 보고서를 ‘소비’하는 경우, Power BI 서비스 [읽기용 보기](service-reading-view-and-editing-view.md)에서만 보고서를 열고 조작할 수 있지만, 보고서 작성자에게 제공되는 강력하고 다양한 기능은 사용할 수 없습니다.  
+보고서를 작성하고 편집하는 기능은 보고서 소유자(‘작성자’)로 제한됩니다. 사용자와 공유되는 보고서를 ‘소비’하는 경우, Power BI 서비스 [읽기용 보기](consumer/end-user-reading-view.md)에서만 보고서를 열고 조작할 수 있지만, 보고서 작성자에게 제공되는 강력하고 다양한 기능은 사용할 수 없습니다.  
 
-보고서 읽기용 보기에 대해 자세히 알아보려면 [Power BI 서비스의 읽기용 보기 및 편집용 보기](service-reading-view-and-editing-view.md)를 참조하세요. 
+보고서 읽기용 보기에 대해 자세히 알아보려면 [Power BI 서비스의 읽기용 보기 및 편집용 보기](consumer/end-user-reading-view.md)를 참조하세요. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Power BI 서비스에서 *보고서 편집기*는 [편집용 보기](service-reading-view-and-editing-view.md)로만 제공됩니다. 편집용 보기에서 보고서를 열려면 보고서 소유자 또는 작성자여야 합니다.
+Power BI 서비스에서 *보고서 편집기*는 [편집용 보기](consumer/end-user-reading-view.md)로만 제공됩니다. 편집용 보기에서 보고서를 열려면 보고서 소유자 또는 작성자여야 합니다.
 
 Power BI 보고서 편집기는 다음 3개 섹션으로 구성됩니다.   
 
@@ -126,9 +126,9 @@ Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조 줄을 
 ## <a name="next-steps"></a>다음 단계:
 [보고서 만들기](service-report-create-new.md)
 
-[Power BI 서비스](service-reports.md), [Power BI Desktop](desktop-report-view.md) 및 [Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md)의 보고서에 대해 자세히 알아보세요.
+[Power BI 서비스](consumer/end-user-reports.md), [Power BI Desktop](desktop-report-view.md) 및 [Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md)의 보고서에 대해 자세히 알아보세요.
 
-[Power BI - 기본 개념](service-basic-concepts.md)
+[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

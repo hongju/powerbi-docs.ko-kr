@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c3dae6bcd59f44ab66b305b009da1e6fdabc9879
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 6cfd4cf1ae090351a710b00ee82600ddcbc71632
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737241"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546168"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 보고서의 시각화
 시각화(즉, 시각적 개체)는 데이터에서 발견된 정보를 표시합니다. Power BI 보고서에 시각적 개체가 하나 있는 단일 페이지가 포함될 수도 있고 시각적 개체로 가득한 여러 페이지가 포함될 수도 있습니다. Power BI 서비스에서 시각적 개체를 [보고서에서 대시보드에 고정](../service-dashboard-pin-tile-from-report.md)할 수 있습니다. 
 
-보고서 *작성자*와 보고서 *소비자*를 구분하는 것이 중요합니다. 보고서를 작성 또는 수정하는 사람이 작성자입니다.  작성자에게는 보고서 및 보고서의 기본 데이터 집합을 편집할 수 있는 권한이 있습니다. 즉, Power BI Desktop에서는 데이터 뷰에서 데이터 집합을 열고 보고서 보기에서 시각적 개체를 만들 수 있습니다. Power BI service 서비스에서는 [편집용 보기](../service-reading-view-and-editing-view.md)의 보고서 편집기에서 데이터 집합 또는 보고서를 열 수 있습니다. 보고서 또는 대시보드가 [사용자와 공유](../service-shared-with-me.md)되는 경우 사용자는 보고서 **소비자**입니다. 사용자는 보고서 및 시각적 개체를 보고 상호 작용할 수 있지만 변경 내용을 저장할 수 없습니다.
+보고서 *작성자*와 보고서 *소비자*를 구분하는 것이 중요합니다. 보고서를 작성 또는 수정하는 사람이 작성자입니다.  작성자에게는 보고서 및 보고서의 기본 데이터 집합을 편집할 수 있는 권한이 있습니다. 즉, Power BI Desktop에서는 데이터 뷰에서 데이터 집합을 열고 보고서 보기에서 시각적 개체를 만들 수 있습니다. Power BI service 서비스에서는 [편집용 보기](../consumer/end-user-reading-view.md)의 보고서 편집기에서 데이터 집합 또는 보고서를 열 수 있습니다. 보고서 또는 대시보드가 [사용자와 공유](../consumer/end-user-shared-with-me.md)되는 경우 사용자는 보고서 **소비자**입니다. 사용자는 보고서 및 시각적 개체를 보고 상호 작용할 수 있지만 변경 내용을 저장할 수 없습니다.
 
 Power BI 시각화 창에서 바로 사용할 수 있는 다양한 시각적 개체 유형이 있습니다. 
 

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 574c28fc3e921f2b0e245cf965e23bd6b264f037
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 89f45409607cbe8da6cb1b167b6e71238d6edde0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737450"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548813"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>빠른 시작: Power BI 모바일 앱에서 대시보드 및 보고서 살펴보기
 이 빠른 시작에서는 Android 휴대폰에서 Power BI 모바일 앱의 샘플 대시보드 및 보고서를 살펴봅니다. 다른 모바일 앱에서도 따라할 수 있습니다. 
@@ -153,5 +153,5 @@ Android 장치에서 샘플을 볼 준비가 되었습니다.
 이 빠른 시작에서는 Android 장치의 샘플 대시보드 및 보고서를 살펴보았습니다. Power BI 서비스 작업에 대해 자세히 알아보세요. 
 
 > [!div class="nextstepaction"]
-> [빠른 시작 - Power BI 서비스 살펴보기](../../service-the-new-power-bi-experience.md)
+> [빠른 시작 - Power BI 서비스 살펴보기](../end-user-experience.md)
 

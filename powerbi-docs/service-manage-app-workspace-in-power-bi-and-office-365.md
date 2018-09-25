@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624347"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547571"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI 및 Office 365에서 앱 작업 영역 관리
-[Power BI 또는 Office 365에서 앱 작업 영역](service-install-use-apps.md)의 작성자나 관리자는 Power BI의 작업 영역에 대한 몇 가지 측면을 관리합니다. Office 365에서 관리하는 기타 측면. 
+[Power BI 또는 Office 365에서 앱 작업 영역](consumer/end-user-apps.md)의 작성자나 관리자는 Power BI의 작업 영역에 대한 몇 가지 측면을 관리합니다. Office 365에서 관리하는 기타 측면. 
 
 > [!NOTE]
 > 새 작업 영역 환경 미리 보기를 통해 Power BI 작업 영역과 Office 365 그룹 간의 관계를 변경합니다. 새 작업 영역 중 하나를 만들 때마다 Office 365 그룹을 자동으로 만드는 것은 아닙니다. [새 작업 영역 만들기(미리 보기)](service-create-the-new-workspaces.md)를 참고하세요.
@@ -76,7 +76,7 @@ ms.locfileid: "39624347"
 3. **저장** 또는 **취소**를 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI에서 앱이란?](service-install-use-apps.md)
-* [Power BI에서 대시보드 및 보고서로 앱 게시](service-create-distribute-apps.md)
+* [Power BI에서 앱이란?](consumer/end-user-apps.md)
+* [Power BI에서 대시보드 및 보고서로 앱 게시](consumer/end-user-create-apps.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

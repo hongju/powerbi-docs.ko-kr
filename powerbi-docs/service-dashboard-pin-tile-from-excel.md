@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3bb151de24a984406aa6fd40a70977f2e9eaf1be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599597"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548054"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel에서 Power BI 대시보드에 타일 고정
 Excel 통합 문서에서 타일을 고정하려면 해당 통합 문서를 Power BI 서비스(app.powerbi.com)에 연결합니다. 통합 문서를 기본적으로 연결하면 해당 통합 문서의 연결된 읽기 전용 버전을 Power BI 서비스로 가져오고 범위를 대시 보드에 고정할 수 있습니다. 전체 워크시트를 대시보드에 고정할 수도 있습니다.  
@@ -49,7 +49,7 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 그러나 일부 
     ![Power BI의 Excel 온라인](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>대시보드에 셀의 범위 고정
-새 [대시보드 타일](service-dashboard-tiles.md)을 추가하는 한 가지 방법은 Power BI의 Excel 통합 문서 내에서 추가하는 것입니다. 비즈니스용 OneDrive 또는 다른 그룹 공유 문서 라이브러리에 저장된 Excel 통합 문서에서 범위를 고정할 수 있습니다. 범위에는 데이터, 차트, 테이블, 피벗 테이블, 피벗 차트 및 기타 Excel 부분이 포함될 수 있습니다.
+새 [대시보드 타일](consumer/end-user-tiles.md)을 추가하는 한 가지 방법은 Power BI의 Excel 통합 문서 내에서 추가하는 것입니다. 비즈니스용 OneDrive 또는 다른 그룹 공유 문서 라이브러리에 저장된 Excel 통합 문서에서 범위를 고정할 수 있습니다. 범위에는 데이터, 차트, 테이블, 피벗 테이블, 피벗 차트 및 기타 Excel 부분이 포함될 수 있습니다.
 
 1. 대시보드에 고정하려는 셀을 강조 표시합니다.
    

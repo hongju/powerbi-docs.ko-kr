@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6ae44bb641768ec6518814a0d8699dc41d260e90
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b40933e085cf81528a28e9eedb4260351f657323
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624749"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548399"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Power BI에서 동료와 작업 영역 만들기
 
@@ -77,7 +77,7 @@ Power BI에서 대시보드 및 보고서의 컬렉션을 만들고 구체화하
 
 ## <a name="distribute-an-app"></a>앱 배포
 
-콘텐츠가 준비되면 게시할 대시보드 및 보고서를 선택한 다음, *앱*으로 게시합니다. 동료는 몇 가지 다른 방법으로 앱을 설치할 수 있습니다. Power BI 관리자가 사용자에게 사용 권한을 부여한 경우 동료의 Power BI 계정에서 해당 앱을 자동으로 설치할 수 있습니다. 그렇지 않으면 Microsoft AppSource에서 해당 앱을 찾아 설치하거나 직접 링크를 보낼 수 있습니다. 업데이트를 자동으로 가져오므로, 데이터 새로 고침 빈도를 조절할 수 있습니다. 자세한 내용은 [Power BI에서 대시보드 및 보고서로 앱 생성 및 게시](service-create-distribute-apps.md)를 참조하세요.
+콘텐츠가 준비되면 게시할 대시보드 및 보고서를 선택한 다음, *앱*으로 게시합니다. 동료는 몇 가지 다른 방법으로 앱을 설치할 수 있습니다. Power BI 관리자가 사용자에게 사용 권한을 부여한 경우 동료의 Power BI 계정에서 해당 앱을 자동으로 설치할 수 있습니다. 그렇지 않으면 Microsoft AppSource에서 해당 앱을 찾아 설치하거나 직접 링크를 보낼 수 있습니다. 업데이트를 자동으로 가져오므로, 데이터 새로 고침 빈도를 조절할 수 있습니다. 자세한 내용은 [Power BI에서 대시보드 및 보고서로 앱 생성 및 게시](consumer/end-user-create-apps.md)를 참조하세요.
 
 ## <a name="power-bi-apps-faq"></a>Power BI 앱 FAQ
 
@@ -92,7 +92,7 @@ Power BI에서 대시보드 및 보고서의 컬렉션을 만들고 구체화하
 [기존 앱 작업 영역과 다른 새로운 앱 작업 영역은 어떤가요?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces)를 참조하여 현재 및 새로운 앱 작업 영역을 비교합니다. 
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI에서 앱 설치 및 사용](service-install-use-apps.md)
-* [외부 서비스용 Power BI 앱](service-connect-to-services.md)
+* [Power BI에서 앱 설치 및 사용](consumer/end-user-apps.md)
+* [외부 서비스용 Power BI 앱](consumer/end-user-connect-to-services.md)
 - [새 작업 영역 만들기(미리 보기)](service-create-the-new-workspaces.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

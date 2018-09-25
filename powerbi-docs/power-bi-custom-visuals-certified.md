@@ -10,16 +10,16 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 45bd00877aadba2a84ac533add18b82337fa8403
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726872"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546260"
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
-A *인증된 사용자 지정 시각적 개체*는 일련의 코드 요구 사항을 충족하고 엄격한 보안 테스트를 통과한 시각적 개체입니다.  사용자 지정 시각적 개체가 인증되면 [PowerPoint로 내보낼](service-publish-to-powerpoint.md) 수 있으며 사용자가 [페이지를 보고하도록 구독](service-report-subscribe.md)하면 수신된 전자 메일에 표시됩니다. 물론, [표준 사용자 지정 시각적 개체](power-bi-custom-visuals.md)처럼 사용하여 Power BI 서비스 및 Power BI Desktop 보고서에 추가하고 Power BI 모바일에서 보고 내장시킬 수 있습니다.
+A *인증된 사용자 지정 시각적 개체*는 일련의 코드 요구 사항을 충족하고 엄격한 보안 테스트를 통과한 시각적 개체입니다.  사용자 지정 시각적 개체가 인증되면 [PowerPoint로 내보낼](consumer/end-user-powerpoint.md) 수 있으며 사용자가 [페이지를 보고하도록 구독](consumer/end-user-subscribe.md)하면 수신된 전자 메일에 표시됩니다. 물론, [표준 사용자 지정 시각적 개체](power-bi-custom-visuals.md)처럼 사용하여 Power BI 서비스 및 Power BI Desktop 보고서에 추가하고 Power BI 모바일에서 보고 내장시킬 수 있습니다.
 
 웹 개발자로서 고유한 시각화를 만들고 [Microsoft AppSource](https://appsource.microsoft.com)에 추가하는 데 관심이 있나요? 방법을 알아보려면 [개발자 도구 시작하기](service-custom-visuals-getting-started-with-developer-tools.md)를 참조하세요.
 

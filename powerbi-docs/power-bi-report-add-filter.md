@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c8f99cf9c4d0645638b2ef300606f89a2d28aa0d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561704"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545971"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Power BI 서비스 보고서에 필터 추가(편집용 보기)
 > [!TIP]
@@ -26,13 +26,13 @@ ms.locfileid: "34561704"
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>편집용 보기 및 읽기용 보기에서 보고서 필터 간의 차이는 무엇입니까
-보고서는 [읽기용 보기](service-reading-view-and-editing-view.md)와 [편집용 보기](service-interact-with-a-report-in-editing-view.md)의 두 가지 방식으로 조작할 수 있습니다.  또한 사용할 수 있는 필터링 기능은 현재 모드에 따라 달라집니다.
+보고서는 [읽기용 보기](consumer/end-user-reading-view.md)와 [편집용 보기](service-interact-with-a-report-in-editing-view.md)의 두 가지 방식으로 조작할 수 있습니다.  또한 사용할 수 있는 필터링 기능은 현재 모드에 따라 달라집니다.
 
 * 편집용 보기에서는 보고서, 페이지 및 시각적 개체 필터를 추가할 수 있습니다. 보고서를 저장하면 필터가 함께 저장됩니다. 읽기용 보기에서 보고서를 보는 사람들은 추가된 필터로 상호 작용할 수 있습니다.
 * 읽기용 보기에서는 보고서에 이미 있는 보고서, 드릴스루, 페이지 및 시각적 필터를 사용하여 상호 작용할 수 있지만 새로운 필터를 추가할 수 없습니다. 하지만 모바일 앱에서 보고서를 확인하는 경우 및 보고서를 나갔다가 나중에 돌아오는 경우에도 필터 창의 변경 내용을 보고서와 함께 저장합니다.  
 
 > [!NOTE]
-> 이 문서는 보고서 **편집용 보기**에서 필터를 만드는 방법에 대해 설명합니다.  읽기용 보기에서 필터에 대한 자세한 내용은 [보고서 읽기용 보기에서 필터로 상호 작용](service-reading-view-and-editing-view.md)을 참조하세요.
+> 이 문서는 보고서 **편집용 보기**에서 필터를 만드는 방법에 대해 설명합니다.  읽기용 보기에서 필터에 대한 자세한 내용은 [보고서 읽기용 보기에서 필터로 상호 작용](consumer/end-user-reading-view.md)을 참조하세요.
 
 
 ## <a name="filters-available-in-the-power-bi-filters-pane"></a>Power BI *필터* 창에서 사용할 수 있는 필터
@@ -58,7 +58,7 @@ ms.locfileid: "34561704"
 * 시각화에서 사용하고 있지 않은 필드를 식별하고 직접 **비주얼 수준 필터** 버킷에 해당 필드 추가
 
 ### <a name="by-filtering-the-fields-already-in-the-visualization"></a>시각화에 이미 있는 필드 필터링
-1. [편집용 보기에서 보고서](service-reading-view-and-editing-view.md)를 엽니다.
+1. [편집용 보기에서 보고서](consumer/end-user-reading-view.md)를 엽니다.
    
    ![](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. 시각화와 필터 창 및 필드 창을 엽니다(이미 열리지 않은 경우).
@@ -72,7 +72,7 @@ ms.locfileid: "34561704"
    * **시각적 수준 필터** 영역으로 아래로 스크롤하고 화살표를 선택하여 필터링할 필드를 확장합니다. 이 에에서는 **StoreNumberName**을 필터링합니다.
      
       ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
-   * **기본**, **고급** 또는 **상위 N개** 필터링 컨트롤을 설정합니다([보고서 필터 사용 방법](power-bi-how-to-report-filter.md) 참조). 이 예에서는 기본 필터링을 선택하고 10, 11, 15 및 18번 옆에 확인 표시를 남깁니다.
+   * **기본**, **고급** 또는 **상위 N개** 필터링 컨트롤을 설정합니다([보고서 필터 사용 방법](consumer/end-user-report-filter.md) 참조). 이 예에서는 기본 필터링을 선택하고 10, 11, 15 및 18번 옆에 확인 표시를 남깁니다.
      
       ![](media/power-bi-report-add-filter/power-bi-basic-filters.png) 
    * 시각적 개체가 바뀌면서 새 필터가 반영됩니다. 필터와 함께 보고서를 저장할 경우 보고서를 읽는 사용자는 읽기용 보기에서 필터를 사용하여 조작하면서 값을 선택하거나 지울 수 있습니다.
@@ -91,10 +91,10 @@ ms.locfileid: "34561704"
      ![](media/power-bi-report-add-filter/power-bi-filtered-andrew.png)
 
 ## <a name="add-a-filter-to-an-entire-page-aka-page-view-filter"></a>전체 페이지에 필터 추가(페이지 보기 필터)
-1. [편집용 보기에서 보고서](service-reading-view-and-editing-view.md)를 엽니다.
+1. [편집용 보기에서 보고서](consumer/end-user-reading-view.md)를 엽니다.
 2. 시각화와 필터 창 및 필드 창을 엽니다(이미 열리지 않은 경우).
 3. 필드 창에서 새 페이지 수준 필터로 추가하려는 필드를 선택하고 **페이지 수준 필터 영역**으로 끌어 놓습니다.  
-4. 필터링할 값을 선택하고 **기본** 또는 **고급** 필터링 컨트롤을 설정합니다([보고서 필터 사용 방법](power-bi-how-to-report-filter.md) 참조).
+4. 필터링할 값을 선택하고 **기본** 또는 **고급** 필터링 컨트롤을 설정합니다([보고서 필터 사용 방법](consumer/end-user-report-filter.md) 참조).
    
    이 필터의 영향을 받는 페이지의 모든 시각화는 변경 사항에 맞게 다시 그려집니다. 
    
@@ -130,10 +130,10 @@ Power BI 서비스 및 Power BI Desktop의 드릴스루를 사용하여 공급 �
     ![](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
 ## <a name="add-a-filter-to-an-entire-report-aka-report-filter"></a>전체 보고서에 필터 추가(보고서 필터)
-1. [편집용 보기에서 보고서](service-reading-view-and-editing-view.md)를 엽니다.
+1. [편집용 보기에서 보고서](consumer/end-user-reading-view.md)를 엽니다.
 2. 시각화와 필터 창 및 필드 창을 엽니다(이미 열리지 않은 경우).
 3. 새 필터 창에서 새 보고서 수준 필터로 추가하려는 필드를 선택하고 **페이지 수준 필터 영역**으로 끌어 놓습니다.  
-4. 필터링할 값을 선택합니다([보고서 필터를 사용하는 방법](power-bi-how-to-report-filter.md) 참조).
+4. 필터링할 값을 선택합니다([보고서 필터를 사용하는 방법](consumer/end-user-report-filter.md) 참조).
 
     활성 페이지와, 보고서의 모든 페이지에서 시각적 개체가 바뀌면서 새 필터가 반영됩니다. 필터와 함께 보고서를 저장할 경우 보고서를 읽는 사용자는 읽기용 보기에서 필터를 사용하여 조작하면서 값을 선택하거나 지울 수 있습니다.
 
@@ -149,13 +149,13 @@ Power BI 서비스 및 Power BI Desktop의 드릴스루를 사용하여 공급 �
 - 필터를 많이 변경하고 보고서 작성자 기본 설정으로 되돌리려는 경우 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
- [보고서 필터를 사용하는 방법](power-bi-how-to-report-filter.md)
+ [보고서 필터를 사용하는 방법](consumer/end-user-report-filter.md)
 
   [필터 및 보고서에서 강조 표시](power-bi-reports-filters-and-highlighting.md)
 
-[필터로 조작 및 보고서 읽기용 보기에서 강조 표시](service-reading-view-and-editing-view.md)
+[필터로 조작 및 보고서 읽기용 보기에서 강조 표시](consumer/end-user-reading-view.md)
 
-[보고서 시각적 개체가 서로 교차 필터링 및 교차 강조 표시되는 방식 변경](service-reports-visual-interactions.md)
+[보고서 시각적 개체가 서로 교차 필터링 및 교차 강조 표시되는 방식 변경](consumer/end-user-interactions.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: v-thepet
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5758bb53fe4a8a3658d242c3bd72da0a78500579
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737511"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565087"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI의 슬라이서
 보고서를 읽는 사람이 전체 판매액 메트릭을 보고 개별 구역 관리자 및 다른 시간 프레임에 대한 성과를 강조 표시할 수 있도록 하려 합니다. 별도의 보고서 또는 비교 차트를 만들거나 슬라이서를 사용할 수 있습니다. 슬라이서는 보고서의 다른 시각화에 표시되는 데이터 집합의 부분을 좁히는 대체 필터링 방법입니다. 
@@ -98,7 +98,7 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
 2. **FiscalMonth 및 구역 관리자별 총 판매액 차이** 차트 위에서 **없음** 아이콘을 선택하여 슬라이서가 필터링을 중지하도록 설정합니다. 
 3. **월**을 선택하고 **FiscalMonth 및 구역 관리자별 총 판매액 차이** 차트 위에서 **없음** 아이콘을 다시 선택하여 이 슬라이서가 필터링을 중지하도록 설정합니다. 이제 슬라이서에서 이름과 날짜 범위를 선택할 때 FiscalMonth 및 구역 관리자별 총 판매액 차이 차트가 변경되지 않습니다. 
 
-상호 작용 편집에 대한 자세한 내용은 [Power BI 보고서의 시각적 상호 작용](../service-reports-visual-interactions.md)을 참조하세요.
+상호 작용 편집에 대한 자세한 내용은 [Power BI 보고서의 시각적 상호 작용](../consumer/end-user-interactions.md)을 참조하세요.
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>다른 페이지에서 슬라이서 동기화 및 사용
 2018년 2월 Power BI 업데이트부터 보고서의 일부 또는 모든 페이지에서 슬라이서를 동기화하여 사용할 수 있습니다. 
@@ -193,5 +193,5 @@ Power BI 개선 방법에 대한 아이디어가 있습니까? [아이디어 제
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - 기본 개념](../service-basic-concepts.md)
+[Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)
 

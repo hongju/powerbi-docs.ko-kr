@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 42ba9b042209dfd717c58042834e8d7966f97ecf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736784"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543316"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>Power BI 모바일 앱에서 iPhone으로 바코드 스캔
 실제 세계에서 바코드를 스캔하여 Power BI 모바일 앱에 있는 필터링된 BI 정보에 직접 이동합니다.
@@ -67,6 +67,6 @@ iPhone에서 바코드로 필터링된 보고서를 보는 동안 다른 바코�
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI Desktop에서 바코드 필드 태그 지정](../../desktop-mobile-barcodes.md)
-* [Power BI의 대시보드 타일](../../service-dashboard-tiles.md)
-* [Power BI의 대시보드](../../service-dashboards.md)
+* [Power BI의 대시보드 타일](../end-user-tiles.md)
+* [Power BI의 대시보드](../end-user-dashboards.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: da330e75642e243637f792cde706b6d34ce70062
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 8cf0a4de37f1bdc6e90a05799caebd2ce0e77046
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280734"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548307"
 ---
 # <a name="power-bi-pro-in-your-organization"></a>조직의 Power BI Pro
 
@@ -35,7 +35,7 @@ Power BI Pro는 더 많은 기능이 있는 유료 라이선스입니다. Power 
 
 무료 계정에 등록한 후 필요에 따라 Pro를 무료로 60일 동안 사용해 볼 수 있습니다. 평가판 기간 동안 모든 Pro 기능에 대한 액세스 권한이 있습니다. Power BI Pro는 Power BI 무료 버전의 모든 기능과 추가 공유 및 공동 작업 기능을 제공합니다. 자세한 내용은 [Power BI 가격 책정](https://powerbi.microsoft.com/en-us/pricing/)을 참조하세요. Power BI Pro의 60일 평가판을 사용해 보려면 Power BI에 로그인하고 다음 Power BI Pro 기능 중 하나를 사용해 보세요.
 
-* [작업 영역 만들기](service-create-distribute-apps.md)
+* [작업 영역 만들기](consumer/end-user-create-apps.md)
 * [대시보드 공유](service-share-dashboards.md)
 
 이러한 기능을 사용하고 나면 무료 평가판을 시작하라는 메시지가 표시됩니다. 또한 기어 아이콘을 선택하고 개인 저장소 관리를 선택하여 사용하도록 선택할 수 있습니다. 그런 다음, 오른쪽에서 무료로 Pro 사용해 보기를 선택합니다.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: cd9762a5f9a46ab7d726a326c1b231f30c8e6271
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 91c08ab428852cc0fa8a721278e232400ed19bfa
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582503"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546490"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI와 함께 사용 가능한 샘플 데이터는 무엇입니까?
 Power BI를 처음 접하고, 사용해 보고 싶지만 데이터가 없는 경우가 있습니다.  또는 데이터 집합이 있지만 Power BI의 작동 원리를 아직 잘 모르기 때문에 데이터 집합이 조금이라도 손상될까봐 걱정하는 분들이 있습니다.
@@ -191,7 +191,7 @@ Excel 통합 문서의 데이터가 Power BI 데이터 집합 및 보고서로 �
 4. Power BI Desktop에서 열 .pbix 파일을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 기본 개념](service-basic-concepts.md)
+[Power BI 기본 개념](consumer/end-user-basic-concepts.md)
 
 [자습서: Power BI 샘플에 연결](sample-tutorial-connect-to-the-samples.md)
 

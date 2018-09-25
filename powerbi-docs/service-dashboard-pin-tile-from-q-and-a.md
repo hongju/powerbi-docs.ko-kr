@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e71412febc5b8d8a9ee4ff20174496de0c7d51f2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf5855acc5efe773f8f06e6de9f769f75794bdb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251417"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548735"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>질문 및 답변에서 대시보드에 타일 고정
 ## <a name="how-to-pin-a-tile-from-qa"></a>질문 및 답변에서 타일을 고정하는 방법
 질문 및 답변은 Power BI의 임시 보고 도구입니다. 특정 통찰력을 찾아야 하나요? 데이터에 대한 질문을 하고 시각화 형태로 답변을 받습니다.
 
-이 방법에서는 Power BI 서비스(app.powerbi.com)를 사용하여 대시보드를 열고, 자연어를 사용하여 시각화를 만드는 질문을 하고, 해당 시각화를 대시보드에 고정할 것입니다. 대시보드는 Power BI Desktop에서 사용할 수 없습니다. 질문 및 답변을 다른 Power BI 도구 및 콘텐츠와 함께 사용하는 방법은 [Power BI 질문 및 답변 개요](power-bi-q-and-a.md)를 참조하세요. 
+이 방법에서는 Power BI 서비스(app.powerbi.com)를 사용하여 대시보드를 열고, 자연어를 사용하여 시각화를 만드는 질문을 하고, 해당 시각화를 대시보드에 고정할 것입니다. 대시보드는 Power BI Desktop에서 사용할 수 없습니다. 질문 및 답변을 다른 Power BI 도구 및 콘텐츠와 함께 사용하는 방법은 [Power BI 질문 및 답변 개요](consumer/end-user-q-and-a.md)를 참조하세요. 
 
 이를 수행하려면 [소매점 분석 샘플 대시보드](sample-retail-analysis.md)를 여세요.
 
 
-1. 보고서에서 고정된 타일이 하나 이상 있는 [대시보드](service-dashboards.md)를 엽니다. 질문하면 Power BI는 해당 대시보드에 고정된 타일이 있는 데이터 집합에서 답변을 찾습니다.  자세한 내용은 [데이터 가져오기](service-get-data.md)를 참조하세요.
+1. 보고서에서 고정된 타일이 하나 이상 있는 [대시보드](consumer/end-user-dashboards.md)를 엽니다. 질문하면 Power BI는 해당 대시보드에 고정된 타일이 있는 데이터 집합에서 답변을 찾습니다.  자세한 내용은 [데이터 가져오기](service-get-data.md)를 참조하세요.
 2. 대시보드 맨 위에 있는 질문 상자에 데이터에 대해 알고 싶은 내용을 입력하기 시작합니다.  
    ![질문 및 답변 질문하기 상자](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. 예를 들어 "last year sales by month and territory(지난 해 월별 및 지역별 판매액)"...을 입력합니다.  
@@ -62,6 +62,6 @@ ms.locfileid: "34251417"
 
 ## <a name="next-steps"></a>다음 단계
 [이름 변경, 크기 조정, 하이퍼링크 추가, 타일 위치 변경 등](service-dashboard-edit-tile.md)    
-[포커스 모드에서 대시보드 타일 표시](service-focus-mode.md)     
-[Power BI의 Q&A로 돌아가기](power-bi-q-and-a.md)  
+[포커스 모드에서 대시보드 타일 표시](consumer/end-user-focus.md)     
+[Power BI의 Q&A로 돌아가기](consumer/end-user-q-and-a.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

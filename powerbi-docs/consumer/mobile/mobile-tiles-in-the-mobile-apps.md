@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737126"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549803"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
@@ -23,7 +23,7 @@ ms.locfileid: "44737126"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 장치 |
 
-타일은 데이터의 라이브 스냅숏이며 대시보드에 고정됩니다. 값은 데이터 변경에 따라 변경됩니다. **[Power BI 서비스에서 대시보드에 타일을 추가합니다](../../service-dashboard-tiles.md).** 
+타일은 데이터의 라이브 스냅숏이며 대시보드에 고정됩니다. 값은 데이터 변경에 따라 변경됩니다. **[Power BI 서비스에서 대시보드에 타일을 추가합니다](../end-user-tiles.md).** 
 
 그런 다음 Power BI 모바일 앱에서 포커스 모드로 타일을 열고 상호 작용합니다. Bing 및 R에 기반한 타일을 포함하여 모든 종류의 시각적 개체로 타일을 열 수 있습니다.
 

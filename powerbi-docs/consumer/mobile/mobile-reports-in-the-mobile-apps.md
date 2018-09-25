@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5fe4212be55a42a6892a94e2a07da8af5c035b6d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742958"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547249"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -82,7 +82,7 @@ Power BI Desktop 또는 Power BI 서비스에서 보고서를 디자인할 때 [
 * 정렬 순서를 반대로 바꾸려면 줄임표(**...**)를 다시 탭한 다음 동일한 필드 이름을 다시 탭합니다.
 
 ## <a name="drill-down-and-up-in-a-visual"></a>시각적 개체에서 드릴다운 및 드릴업
-보고서 작성자가 시각적 개체에 드릴다운 기능을 추가하면 시각적 개체에 드릴다운하여 그 일부를 구성하는 값을 볼 수 있습니다. Power BI Desktop 또는 Power BI 서비스에서 [시각적 개체에 드릴다운을 추가](../../power-bi-visualization-drill-down.md)할 수 있습니다. 
+보고서 작성자가 시각적 개체에 드릴다운 기능을 추가하면 시각적 개체에 드릴다운하여 그 일부를 구성하는 값을 볼 수 있습니다. Power BI Desktop 또는 Power BI 서비스에서 [시각적 개체에 드릴다운을 추가](../end-user-drill.md)할 수 있습니다. 
 
 * 시각적 개체의 특정 막대 또는 지점을 누르면 해당 도구 설명이 표시됩니다. 드릴다운한 경우 도구 설명의 맨 아래에서 화살표를 누를 수 있습니다. 
   

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722546"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547033"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Power BI 서비스에서 데스크톱에 보고서 내보내기(미리 보기)
 Power BI Desktop에서 보고서를 저장하고 **게시**를 선택하여 Power BI 서비스에 보고서를 내보낼(또는 다운로드할) 수 있습니다. 반대 방향으로도 내보내기할 수 있을 뿐 아니라 Power BI 서비스에서 바탕화면으로 보고서를 다운로드할 수 있습니다. 어느 방향으로든 내보내는 파일의 파일 확장명은 *.pbix*입니다.
@@ -27,7 +27,7 @@ Power BI Desktop에서 보고서를 저장하고 **게시**를 선택하여 Powe
 ## <a name="download-the-report-as-a-pbix"></a>.pbix 파일로 보고서 다운로드
 .Pbix 파일을 다운로드하려면 다음 단계를 따르세요.
 
-1. **Power BI 서비스**에서 다운로드하려는 보고서를 [편집용 보기](service-reading-view-and-editing-view.md)로 엽니다.
+1. **Power BI 서비스**에서 다운로드하려는 보고서를 [편집용 보기](consumer/end-user-reading-view.md)로 엽니다.
 2. 메뉴 모음에서 **파일 > 보고서 다운로드**를 선택합니다.
    
    > [!NOTE]
@@ -67,8 +67,8 @@ Power BI 서비스에서 *.pbix* 파일의 다운로드(내보내기)와 관련�
 
 또한 여기에 **Power BI 서비스**를 사용 방법을 학습하는 데 도움이 되는 몇 가지 추가 문서가 나와 있습니다.
 
-* [Power BI의 보고서](service-reports.md)
-* [Power BI - 기본 개념](service-basic-concepts.md)
+* [Power BI의 보고서](consumer/end-user-reports.md)
+* [Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
 
 **Power BI Desktop**을 설치하면 다음 콘텐츠는 빠르게 시작하고 실행하는 데 도움을 줄 수 있습니다.
 

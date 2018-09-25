@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 0762ee808c089b73c69be99a38bfad63c231bc54
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c33e7dd69d4bd0a0d09ebc124739d5d017c631bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737432"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550032"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 장치에서 Power BI 모바일 앱 시작
 Microsoft Power BI용 Android 앱은 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 
@@ -119,11 +119,11 @@ Microsoft Intune을 사용하면 액세스 핀이 필요하고, 응용 프로그
 Power BI의 대시보드 및 보고서와 Power BI Report Server 또는 Reporting Services 웹 포털의 보고서 및 KPI를 사용하여 Power BI용 Android 장치 앱에서 수행할 수 있는 몇 가지 다른 작업은 다음과 같습니다.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서
-* [앱](../../service-install-use-apps.md) 보기.
+* [앱](../end-user-apps.md) 보기.
 * [대시보드](../../mobile-apps-view-dashboard.md) 보기.
 * [대시보드의 타일](../../mobile-tiles-in-the-mobile-apps.md) 탐색.
 * [Power BI 보고서](../../mobile-reports-in-the-mobile-apps.md) 열기.
-* [앱](../../service-install-use-apps.md) 보기.
+* [앱](../end-user-apps.md) 보기.
 * [타일에 주석 달기 및 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * [대시보드](../../mobile-share-dashboard-from-the-mobile-apps.md) 공유.
 * Android 휴대폰에서 [Power BI QR 코드를 스캔](../../mobile-apps-qr-code.md)하여 관련 대시보드 타일 또는 보고서 열기. 

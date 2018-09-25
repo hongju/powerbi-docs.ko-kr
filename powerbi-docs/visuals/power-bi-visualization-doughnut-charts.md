@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d09f9d9d0de8608a39111f24e6f605c3fbce55fb
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3bf0aa516f50d363b53d2ed91b86d999e7855c30
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737000"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545025"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI의 도넛형 차트
 도넛형 차트는 전체에 대한 부분의 관계를 표시한다는 점에서 원형 차트와 비슷합니다. 가운데가 비어 있고 레이블 또는 아이콘이 들어갈 공간이 있다는 점만 다릅니다.
@@ -43,13 +43,13 @@ ms.locfileid: "44737000"
 * 도넛형 차트는 개별 섹션을 서로 비교하는 것보다는 특정 섹션을 전체와 비교하는 데 사용하는 것이 가장 좋습니다. 
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI의 보고서](../service-reports.md)
+[Power BI의 보고서](../consumer/end-user-reports.md)
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Power BI 보고서의 시각화](power-bi-report-visualizations.md)
 
-[Power BI - 기본 개념](../service-basic-concepts.md)
+[Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

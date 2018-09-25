@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623933"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543952"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI 앱 작업 영역에서 공동 작업
 Power BI 앱 작업 영역은 동료들과 대시보드, 보고서 및 데이터 집합을 공동 작업하여 *앱*을 만들기에 적합합니다. 공동 작업은 Power BI의 작업 영역에서 그치지 않습니다. Office 365는 비즈니스용 OneDrive에서 파일 공유, Exchange에서 대화, 공유 일정, 작업 등과 같은 다른 그룹 서비스를 제공합니다. [Office 365의 그룹](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)에 대해 자세히 알아보세요.
@@ -38,7 +38,7 @@ Power BI Desktop 파일을 만든 후 Power BI 앱 작업 영역에 게시하면
    
     ![보고서 탭](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    여기서부터 Power BI의 다른 보고서와 같습니다. 나와 앱 작업 영역의 다른 사람들은 [보고서를 수정](service-reports.md)하고 타일을 귀하가 선택한 대시보드에 저장할 수 있습니다.
+    여기서부터 Power BI의 다른 보고서와 같습니다. 나와 앱 작업 영역의 다른 사람들은 [보고서를 수정](consumer/end-user-reports.md)하고 타일을 귀하가 선택한 대시보드에 저장할 수 있습니다.
 
 ## <a name="collaborate-in-office-365"></a>Office 365에서 공동 작업
 Office 365에서 공동 작업은 Power BI의 앱 작업 영역에서 시작됩니다.
@@ -77,7 +77,7 @@ Office 365에서 공동 작업은 Power BI의 앱 작업 영역에서 시작됩�
 앱 작업 영역의 소유자 또는 관리자인 경우 작업 영역 구성원을 추가하거나 제거할 수 있습니다. [Power BI 앱 작업 영역 관리](service-manage-app-workspace-in-power-bi-and-office-365.md)에 대해 자세히 알아보세요.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI에서 앱 및 앱 작업 영역 만들기](service-create-distribute-apps.md)
+* [Power BI에서 앱 및 앱 작업 영역 만들기](consumer/end-user-create-apps.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 * 의견이 있으신가요? [Power BI Ideas(영문)](https://ideas.powerbi.com/forums/265200-power-bi)을 방문하세요.
 

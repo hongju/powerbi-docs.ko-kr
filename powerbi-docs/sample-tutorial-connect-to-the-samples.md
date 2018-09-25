@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "36944609"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543799"
 ---
 # <a name="the-power-bi-samples"></a>Power BI 샘플
 
@@ -79,7 +79,7 @@ ms.locfileid: "36944609"
     ![일치하는 시각적 개체를 강조 표시한 보고서 페이지](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > 타일이 [Power BI 질문 및 답변](power-bi-q-and-a.md)을 사용하여 생성된 경우 질문 및 답변 페이지가 대신 열립니다. 타일이 [Excel에서 고정](service-dashboard-pin-tile-from-excel.md)된 경우 Excel Online이 Power BI 내에서 열립니다.
+   > 타일이 [Power BI 질문 및 답변](consumer/end-user-q-and-a.md)을 사용하여 생성된 경우 질문 및 답변 페이지가 대신 열립니다. 타일이 [Excel에서 고정](service-dashboard-pin-tile-from-excel.md)된 경우 Excel Online이 Power BI 내에서 열립니다.
    > 
    > 
 1. **데이터 집합** 탭으로 돌아가면 데이터 집합을 살펴볼 수 있는 몇 가지 옵션이 있습니다.  Power BI Desktop 또는 Excel에서처럼 데이터 집합을 열고 모든 행과 열을 볼 수는 없습니다.  동료와 콘텐츠 팩을 공유 하는 사람은 일반적으로 동료에게 데이터에 대한 직접 액세스 권한을 제공하고자 하는 것이 아니라 유용한 정보를 공유하고자 합니다. 그렇다고 데이터 집합을 탐색할 수 없다는 의미는 아닙니다.  
@@ -89,7 +89,7 @@ ms.locfileid: "36944609"
    * 데이터 집합을 탐색하는 한 가지 방법은 처음부터 고유한 시각화 및 보고서를 만드는 것입니다.  차트 아이콘 선택 ![보고서 아이콘](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) 보고서 편집 모드에서 데이터 집합을 엽니다.
      
        ![새 보고서](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * 데이터 집합을 탐색하는 또 다른 방법은 [신속한 정보 활용](service-insights.md)을 실행하는 것입니다. 줄임표 (...)를 선택하고 **유용한 정보 얻기**를 선택합니다. 유용한 정보가 준비되면 **정보 보기**를 선택합니다.
+   * 데이터 집합을 탐색하는 또 다른 방법은 [신속한 정보 활용](consumer/end-user-insights.md)을 실행하는 것입니다. 줄임표 (...)를 선택하고 **유용한 정보 얻기**를 선택합니다. 유용한 정보가 준비되면 **정보 보기**를 선택합니다.
      
        ![인사이트 보고서](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -130,7 +130,7 @@ Desktop에서 샘플 PBIX 파일을 열면 Power BI가 실제로 해당 데이�
 
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 기본 개념](service-basic-concepts.md)
+[Power BI 기본 개념](consumer/end-user-basic-concepts.md)
 
 [Power BI 서비스의 샘플](sample-datasets.md)
 

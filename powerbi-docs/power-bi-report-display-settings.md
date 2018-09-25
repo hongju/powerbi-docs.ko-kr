@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a22bee33254e447f27f717b78a53fe3a5cc34fb2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242134"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545455"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 보고서의 페이지 표시 설정
 보고서 레이아웃 픽셀을 완벽하게 유지하는 것이 어렵다는 것을 알고 있습니다. 화면에 표시된 보고서의 가로 세로 비율과 크기는 보는 사람마다 다르기 때문에 어려울 때도 있습니다 
@@ -39,7 +39,7 @@ Power BI 서비스에서 보고서를 열고 상단 왼쪽 메뉴 모음에서 *
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-페이지 보기 설정은 [읽기용 보기와 편집용 보기](service-reading-view-and-editing-view.md)에서 모두 사용할 수 있습니다. 편집용 보기에서 보고서 소유자는 개별 보고서 페이지에 페이지 보기 설정을 할당할 수 있으며 해당 설정은 보고서와 함께 저장됩니다. 동료가 이 보고서를 읽기용 보기로 열면 소유자의 설정에 따라보고서 페이지가 표시됩니다.  읽기용 보기에서 동료는 페이지 보기 설정의 *일부*를 변경할 수 있지만 보고서를 종료하면 변경 내용이 저장되지 않습니다.
+페이지 보기 설정은 [읽기용 보기와 편집용 보기](consumer/end-user-reading-view.md)에서 모두 사용할 수 있습니다. 편집용 보기에서 보고서 소유자는 개별 보고서 페이지에 페이지 보기 설정을 할당할 수 있으며 해당 설정은 보고서와 함께 저장됩니다. 동료가 이 보고서를 읽기용 보기로 열면 소유자의 설정에 따라보고서 페이지가 표시됩니다.  읽기용 보기에서 동료는 페이지 보기 설정의 *일부*를 변경할 수 있지만 보고서를 종료하면 변경 내용이 저장되지 않습니다.
 
 ##    <a name="page-view-settings"></a>페이지 보기 설정
 *페이지 보기* 설정의 첫 번째 집합은 보고서 페이지를 브라우저 창과 상대적으로 제어합니다.  다음 중에서 선택합니다.
@@ -62,7 +62,7 @@ Power BI 서비스에서 보고서를 열고 상단 왼쪽 메뉴 모음에서 *
 ## <a name="page-size-settings"></a>페이지 크기 설정
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-*페이지 크기* 설정은 보고서 소유자만 사용할 수 있습니다. Power BI 서비스(app.powerbi.com)에서 이는 [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 열 수 있다는 의미입니다. 이러한 설정은 보고서 캔버스의 표시 비율과 실제 크기를 조정합니다(픽셀 단위).   
+*페이지 크기* 설정은 보고서 소유자만 사용할 수 있습니다. Power BI 서비스(app.powerbi.com)에서 이는 [편집용 보기](consumer/end-user-reading-view.md)에서 보고서를 열 수 있다는 의미입니다. 이러한 설정은 보고서 캔버스의 표시 비율과 실제 크기를 조정합니다(픽셀 단위).   
 
 * 4:3 비율
 * 16:9 비율(기본값)
@@ -71,11 +71,11 @@ Power BI 서비스에서 보고서를 열고 상단 왼쪽 메뉴 모음에서 *
 * 사용자 지정(높이 및 너비(픽셀))
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 보고서에서 페이지 보기 및 페이지 크기 설정을 사용하는 방법에 대해 알아보세요](power-bi-change-report-display-settings.md).
+[Power BI 보고서에서 페이지 보기 및 페이지 크기 설정을 사용하는 방법에 대해 알아보세요](consumer/end-user-report-view.md).
 
-[Power BI의 보고서](service-reports.md)에 대해 자세히 알아보기
+[Power BI의 보고서](consumer/end-user-reports.md)에 대해 자세히 알아보기
 
-[Power BI - 기본 개념](service-basic-concepts.md)
+[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

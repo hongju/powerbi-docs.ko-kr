@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b486ad6bc4027aa2122ee72fc7fb89f0fd80c875
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a219ad94725f8d5423597bd65321f0024f95c1bb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737054"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546007"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>시각화 제목, 범례 및 배경 사용자 지정
 이 자습서에서는 시각화를 사용자 지정하는 몇 가지 방법을 알아봅니다.   시각화를 사용자 지정하는 많은 옵션이 있으며 모두에 대해 자세히 알아보기 위한 가장 좋은 방법은 서식 지정 창(페인트 롤러 아이콘 선택)을 탐색하는 것입니다.  시작하기 위해 이 문서는 시각화 제목, 범례 및 배경을 사용자 지정하는 방법을 보여 줍니다.  
@@ -120,6 +120,6 @@ Amanda가 보고서에서 시각화를 사용자 지정하는 비디오를 시�
 ## <a name="next-steps"></a>다음 단계
 [X축 및 Y축 사용자 지정](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [색 및 축 속성 사용자 지정](service-getting-started-with-color-formatting-and-axis-properties.md)  
-[Power BI - 기본 개념](../service-basic-concepts.md)  
+[Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

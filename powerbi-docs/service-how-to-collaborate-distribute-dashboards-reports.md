@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726665"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545754"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI에서 공동 작업하고 공유하려면 어떻게 해야 하나요?
 
@@ -57,7 +57,7 @@ ms.locfileid: "44726665"
 
 ![앱 게시 아이콘](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-앱은 Power BI 서비스([https://powerbi.com](https://powerbi.com))에서 쉽게 찾아 설치할 수 있습니다. 앱에 대한 직접 링크를 비즈니스 사용자에게 보내거나, 해당 사용자가 AppSource에서 해당 앱을 검색할 수 있습니다. Power BI 관리자가 권한을 부여한 경우 동료의 Power BI 계정에 해당 앱을 자동으로 설치할 수 있습니다. [앱 게시](service-create-distribute-apps.md)에 대해 자세히 알아봅니다. 
+앱은 Power BI 서비스([https://powerbi.com](https://powerbi.com))에서 쉽게 찾아 설치할 수 있습니다. 앱에 대한 직접 링크를 비즈니스 사용자에게 보내거나, 해당 사용자가 AppSource에서 해당 앱을 검색할 수 있습니다. Power BI 관리자가 권한을 부여한 경우 동료의 Power BI 계정에 해당 앱을 자동으로 설치할 수 있습니다. [앱 게시](consumer/end-user-create-apps.md)에 대해 자세히 알아봅니다. 
 
 앱을 설치한 후에 브라우저 또는 모바일 장치에서 볼 수 있습니다.
 
@@ -88,7 +88,7 @@ iOS 및 Android 모바일 앱에서 [타일, 보고서 및 시각적 개체 주�
 또한 Windows 10 장치용 Power BI 앱에서 [타일의 스냅숏을 공유](consumer/mobile/mobile-windows-10-phone-app-get-started.md)할 수 있습니다.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>PDF 또는 기타 정적 파일로 저장 또는 인쇄
-또한 Power BI 서비스에서 전체 대시보드, 대시보드 타일, 보고서 페이지 또는 시각화 개체를 PDF(또는 기타 정적 파일 형식)로 인쇄 또는 저장할 수 있습니다. 보고서는 한 번에 한 페이지만 인쇄할 수 있습니다. 전체 보고서를 한 번에 인쇄할 수는 없습니다. [정적 파일로 인쇄 또는 저장](service-print.md)하는 방법에 대해 자세히 알아보세요.
+또한 Power BI 서비스에서 전체 대시보드, 대시보드 타일, 보고서 페이지 또는 시각화 개체를 PDF(또는 기타 정적 파일 형식)로 인쇄 또는 저장할 수 있습니다. 보고서는 한 번에 한 페이지만 인쇄할 수 있습니다. 전체 보고서를 한 번에 인쇄할 수는 없습니다. [정적 파일로 인쇄 또는 저장](consumer/end-user-print.md)하는 방법에 대해 자세히 알아보세요.
 
 ## <a name="publish-to-the-web"></a>웹에 게시
 
@@ -99,7 +99,7 @@ Power BI 보고서는 어떤 장치에서든 블로그 게시물, 웹 사이트,
 
 ## <a name="next-steps"></a>다음 단계
 * [동료 및 다른 사용자와 대시보드 공유](service-share-dashboards.md)
-* [Power BI에서 앱 만들기 및 게시](service-create-distribute-apps.md)
+* [Power BI에서 앱 만들기 및 게시](consumer/end-user-create-apps.md)
 * 의견이 있으신가요? 제안 사항이 있으시면 [Power BI 커뮤니티 사이트](https://community.powerbi.com/)를 방문하세요.
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f070b6649d8d120a889961fffd6b9b923422293e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744416"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548468"
 ---
 # <a name="funnel-charts"></a>깔대기형 차트
 깔때기형 차트는 순차적으로 연결된 단계가 있는 선형 프로세스를 시각화하는 데 도움이 됩니다. 예를 들어 잠재 고객 \> 적격 잠재 고객 \> 가망 고객 \> 계약 \> 완료 단계를 통해 고객을 추적하는 영업 깔때기가 있습니다.  깔때기의 모양은 추적 중인 프로세스의 상태를 한눈에 보여줍니다.
@@ -70,7 +70,7 @@ ms.locfileid: "44744416"
    * 이전 단계(이 경우에는 제안 단계/해결 단계)의 %인 단계-단계(즉, 중단율)
      
      ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [깔때기를 대시보드 타일로 추가합니다](../service-dashboard-tiles.md). 
+5. [깔때기를 대시보드 타일로 추가합니다](../consumer/end-user-tiles.md). 
 6. [보고서를 저장합니다](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>강조 표시 및 교차 필터링
@@ -81,10 +81,10 @@ ms.locfileid: "44744416"
 1. 깔때기에서 **제안** 막대를 선택합니다. 이는 페이지의 다른 시각화 요소를 상호 간에 강조 표시합니다. Ctrl 키를 사용하면 여러 개를 선택할 수 있습니다.
    
    ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. 시각적 개체를 상호 간에 강조 표시하고 필터링하는 방법에 대한 기본 설정을 설정하려면 [Power BI에서 시각적 상호 작용](../service-reports-visual-interactions.md)을 참조하세요.
+2. 시각적 개체를 상호 간에 강조 표시하고 필터링하는 방법에 대한 기본 설정을 설정하려면 [Power BI에서 시각적 상호 작용](../consumer/end-user-interactions.md)을 참조하세요.
 
 ## <a name="create-a-funnel-chart-in-qa"></a>질문 및 대답에서 깔때기형 차트 만들기
-기회 분석 샘플 대시보드나 기회 분석 샘플 데이터 집합에서 고정된 하나 이상의 시각화가 있는 다른 대시보드를 엽니다.  질문 및 답변에서 질문을 입력하면 Power BI가 선택된 대시보드(타일이 고정된)와 관련된 모든 데이터 집합에서 답변을 검색합니다. 자세한 내용은 [Power BI - 기본 개념](../service-basic-concepts.md)을 참조하세요.
+기회 분석 샘플 대시보드나 기회 분석 샘플 데이터 집합에서 고정된 하나 이상의 시각화가 있는 다른 대시보드를 엽니다.  질문 및 답변에서 질문을 입력하면 Power BI가 선택된 대시보드(타일이 고정된)와 관련된 모든 데이터 집합에서 답변을 검색합니다. 자세한 내용은 [Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)을 참조하세요.
 
 1. 기회 분석 샘플 대시보드에서 질문 및 답변의 질문 상자에 질문을 입력하세요.
    
@@ -97,7 +97,7 @@ ms.locfileid: "44744416"
 
 [시각화를 대시보드에 고정](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI - 기본 개념](../service-basic-concepts.md)
+[Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728252"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548031"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI 서비스 및 Power BI 데스크톱에서 Esri로 ArcGIS 지도 만들기
 이 자습서는 ArcGIS 지도를 만드는 사용자의 관점에서 작성되었습니다. 작성자가 동료와 ArcGIS 지도를 공유하면 해당 동료는 지도를 보고 상호 작용할 수 있지만 변경 내용을 저장할 수 없습니다. ArcGIS 지도 보기에 대해 자세히 알아보려면 [ArcGIS 지도와 상호 작용](visuals/power-bi-visualizations-arcgis.md)을 참조하세요.
@@ -61,7 +61,7 @@ ArcGIS 지도는 현재 Power BI 서비스, Power BI Desktop 및 Power BI 모바
 2. **Power BI용 ArcGIS Maps** 확인란을 선택합니다. 선택한 후에는 Power BI를 다시 시작해야 합니다.
    
     ![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
-3. [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 열고 시각화 창에서 Power BI용 ArcGIS Maps 아이콘을 선택합니다.
+3. [편집용 보기](consumer/end-user-reading-view.md)에서 보고서를 열고 시각화 창에서 Power BI용 ArcGIS Maps 아이콘을 선택합니다.
    
     ![](media/power-bi-visualization-arcgis/power-bi-viz-pane2.png)
 4. Power BI에서 빈 ArcGIS 지도 템플릿을 보고서 캔버스에 추가합니다.

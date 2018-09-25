@@ -1,21 +1,21 @@
 ---
 title: 히스토그램
 description: 히스토그램
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48dc6b9066ae843f508a714da88acc8aa6560b51
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4a8d04f87959c5a746fc2ac490bb63afb98607cc
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736802"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565041"
 ---
 # <a name="histograms"></a>히스토그램
 Power BI에서 히스토그램을 작성하는 방법은 여러 가지가 있습니다. 가장 간단한 작업부터 시작합니다.

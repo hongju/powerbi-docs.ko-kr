@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 23a8875479197f1d200a9f086fcfd27d483faf40
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 723aa8e1a6817551f5e8f1c0cf096d185b1e53ae
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157548"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543782"
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Power BI에서 템플릿 콘텐츠 팩 환경
-이 섹션에서는 사용자가 ISV [콘텐츠 팩](service-connect-to-services.md)에 연결하는 일반적인 환경을 강조 표시합니다.
+이 섹션에서는 사용자가 ISV [콘텐츠 팩](consumer/end-user-connect-to-services.md)에 연결하는 일반적인 환경을 강조 표시합니다.
 
 https://app.powerbi.com/getdata/services 에서 릴리스된 콘텐츠 팩에 연결하여 직접 연결해 보세요(예: 아래 설명된 [GitHub 콘텐츠 팩](https://app.powerbi.com/getdata/services/github)).
 

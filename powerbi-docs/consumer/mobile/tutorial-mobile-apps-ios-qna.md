@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: tutorial
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 8ea0ad288a12e5e08d4e52ff9c27242d5d169cab
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744407"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547132"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>자습서: iOS 앱에서 질문 및 답변 가상 분석가에게 데이터에 대한 질문하기 - Power BI
 
@@ -132,5 +132,5 @@ iOS 장치에서 샘플을 볼 준비가 되었습니다.
 
 iOS용 Power BI 모바일 앱에서 질문 및 답변 가상 지원을 사용해 보았습니다. Power BI 서비스에서 질문 및 답변에 대해 자세히 알아보세요.
 > [!div class="nextstepaction"]
-> [Power BI 서비스에서 Q&A](../../power-bi-q-and-a.md)
+> [Power BI 서비스에서 Q&A](../end-user-q-and-a.md)
 

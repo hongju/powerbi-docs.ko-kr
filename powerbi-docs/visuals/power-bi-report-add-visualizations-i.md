@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8095db86b8954b3f91a83f2e83c0108d1676cf76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744335"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545271"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>1부, Power BI 보고서에 시각화 추가
 이 문서에서는 Power BI 서비스 또는 Power BI Desktop을 사용하여 보고서에 시각화를 만드는 방법을 간단히 소개합니다.  고급 내용을 보려면 [2부를 참조](power-bi-report-add-visualizations-ii.md)하세요. Amanda가 보여주는 보고서 캔버스에서 시각적 개체를 만들고, 편집하고, 서식을 지정하는 몇 가지 다양한 방법을 확인해 보세요. 그런 다음 직접 [영업 마케팅 샘플](../sample-datasets.md)을 사용하여 자신만의 보고서를 만들어 보세요.
@@ -25,7 +25,7 @@ ms.locfileid: "44744335"
 
 
 ## <a name="open-a-report-and-add-a-new-page"></a>보고서를 열고 새 페이지 추가
-1. [편집용 보기에서 보고서](../service-reading-view-and-editing-view.md)를 엽니다. 이 자습서는 [영업 및 마케팅 샘플](../sample-datasets.md)을 사용합니다.
+1. [편집용 보기에서 보고서](../consumer/end-user-reading-view.md)를 엽니다. 이 자습서는 [영업 및 마케팅 샘플](../sample-datasets.md)을 사용합니다.
 2. 필드 창이 표시되지 않으면 화살표 아이콘을 선택하여 엽니다. 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
@@ -59,7 +59,7 @@ ms.locfileid: "44744335"
 ## <a name="next-steps"></a>다음 단계
  [자습서: 2부, Power BI 보고서에 시각화 추가](power-bi-report-add-visualizations-ii.md)를 계속 읽습니다.
    
-   보고서에서 [시각화로 조작](../service-reading-view-and-editing-view.md)합니다.
+   보고서에서 [시각화로 조작](../consumer/end-user-reading-view.md)합니다.
    
    [시각화로 더 많은 작업을 할 수 있습니다](power-bi-report-visualizations.md).
    

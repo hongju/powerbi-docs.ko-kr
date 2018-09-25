@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c567921b765f03fbaa11f2b98724cea1a1ce1905
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 92506d4ce2f372a4535a0a178ef43791c6d94f83
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240988"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547962"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Power BI 질문 및 답변 시작
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>소매 분석 샘플에 Power BI 질문 및 답변 사용
@@ -57,7 +57,7 @@ ms.locfileid: "34240988"
 4. 대시보드로 차트를 고정하려면 고정 아이콘 ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png)을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI의 질문 및 답변](power-bi-q-and-a.md)
+[Power BI의 질문 및 답변](consumer/end-user-q-and-a.md)
 
 [Power BI의 질문 및 답변에서 데이터가 잘 작동하도록 설정](service-prepare-data-for-q-and-a.md)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598981"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546099"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>대시보드 타일 편집 또는 제거
 
@@ -36,7 +36,7 @@ ms.locfileid: "37598981"
 * [타일 삭제](#delete)
   
   > [!TIP]
-  > 타일 자체에 표시된 시각화를 변경하려면 해당 타일을 삭제하고 새 [대시보드 타일](service-dashboard-tiles.md)을 추가합니다.
+  > 타일 자체에 표시된 시각화를 변경하려면 해당 타일을 삭제하고 새 [대시보드 타일](consumer/end-user-tiles.md)을 추가합니다.
 
   
 ## <a name="prerequisites"></a>필수 조건
@@ -142,11 +142,11 @@ ms.locfileid: "37598981"
 
 - - -
 ## <a name="next-steps"></a>다음 단계
-[Power BI의 대시보드 타일](service-dashboard-tiles.md)
+[Power BI의 대시보드 타일](consumer/end-user-tiles.md)
 
-[Power BI의 대시보드](service-dashboards.md)
+[Power BI의 대시보드](consumer/end-user-dashboards.md)
 
-[Power BI - 기본 개념](service-basic-concepts.md)
+[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

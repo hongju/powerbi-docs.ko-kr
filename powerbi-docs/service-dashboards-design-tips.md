@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726053"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544969"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>멋진 Power BI 대시보드를 디자인하기 위한 팁
 이제 대시보드를 만들고 일부 타일을 추가했으므로 모양과 기능을 개선하는 방법을 살펴보겠습니다. 일반적으로 여기에는 가장 중요한 정보를 돋보이게 하고 깔끔하며 군더더기 없이 만드는 것이 포함됩니다.
@@ -65,7 +65,7 @@ Microsoft의 수석 프로그램 관리자이며 Power BI 대시보드 전문가
 * 정밀도와 시간 수준을 섞어쓰지 마세요. 시간 프레임을 잘 이해하고 있어야 합니다.  해당 연도의 특정 월에서 필터링된 차트 옆에 지난 달에 대한 하나의 차트를 포함하지 마세요.
 * 동일한 눈금에 큰 측정값과 작은 측정값을 함께 사용하지 마세요(예: 꺾은선형 차트 또는 가로 막대형 차트).  예를 들어 백만 단위인 측정값과 천 단위인 측정값이 있을 수 있습니다.  이러한 큰 단위에서는 천 단위인 측정값의 차이를 파악하기 어렵습니다.  함께 사용해야 하는 경우 보조 축의 사용을 허용하는 시각화를 선택합니다.
 * 불필요한 데이터 레이블로 차트를 복잡하게 하지 마세요. 가로 막대형 차트의 값은 일반적으로 실제 숫자를 표시하지 않아도 잘 이해됩니다.
-* [차트가 정렬](power-bi-report-change-sort.md)되는 방식에 주의하세요.  최상위 또는 최하위 숫자에 주목하도록 하려면 측정값을 기준으로 정렬합니다.  사람들이 여러 다른 범주 내에서 특정 범주를 신속하게 찾을 수 있도록 하려면 축을 기준으로 정렬합니다.  
+* [차트가 정렬](consumer/end-user-change-sort.md)되는 방식에 주의하세요.  최상위 또는 최하위 숫자에 주목하도록 하려면 측정값을 기준으로 정렬합니다.  사람들이 여러 다른 범주 내에서 특정 범주를 신속하게 찾을 수 있도록 하려면 축을 기준으로 정렬합니다.  
 * 원형 차트는 범주가 8개 미만일 경우 적합합니다. 값을 나란히 비교할 수 없으므로 원형 차트는 가로 막대형 및 세로 막대형 차트보다 값을 비교하기가 더 어렵습니다. 원형 차트는 부분을 비교하기보다는 부분에서 전체로의 관계를 파악하는 데 유용할 수 있습니다. 계기 차트는 목표의 컨텍스트에서 현재 상태를 표시하는 데 적합합니다.
 
 시각화 관련 지침에 대한 자세한 내용은 [Power BI에서 시각화 유형](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)을 참조하세요.  
@@ -81,5 +81,5 @@ Microsoft의 수석 프로그램 관리자이며 Power BI 대시보드 전문가
 
 ## <a name="next-steps"></a>다음 단계
 [보고서에서 대시보드 만들기](service-dashboard-create.md)  
-[Power BI - 기본 개념](service-basic-concepts.md)  
+[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

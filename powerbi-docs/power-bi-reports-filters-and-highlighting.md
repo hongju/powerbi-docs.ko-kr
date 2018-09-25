@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7239351a7a9486aeeab53e4ab7fc5c3c3e877ff6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9dd80776690e1fd45144c99570be8aa787a2938c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561451"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544503"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>필터 및 Power BI 보고서에서 강조 표시 정보
 ***필터***는 사용자가 집중하려는 데이터를 제외한 나머지를 모두 제거합니다.  ***강조*** 는 데이터를 제거하지 않고 볼 수 있는 데이터의 하위 집합을 강조 표시하므로 필터링이 아닙니다. 강조되지 않은 데이터는 볼 수 있지만 흐리게 표시됩니다.
@@ -24,9 +24,9 @@ ms.locfileid: "34561451"
 
 * 필터 및 강조 표시에 대한 소개(지금 읽고 있는 문서)
 * [소유하고 있는 편집용 보기/보고서에서 필터 및 강조 표시를 만들고 사용](power-bi-report-add-filter.md)할 수 있는 방법입니다. 보고서에 대한 편집 권한이 있는 경우 보고서에서 필터 및 강조 표시를 만들고 수정 및 삭제할 수 있습니다.
-* [사용자와 공유되거나 보고서 읽기용 보기의 보고서에서 필터 및 강조 표시를 사용](service-reading-view-and-editing-view.md)할 수 있는 방법입니다. 수행할 수 있는 작업은 보다 제한적이지만 Power BI는 여전히 다양한 필터링 및 강조 표시 옵션을 제공합니다.  
-* 필터의 종류(예: 날짜 및 시간, 숫자, 텍스트) 및 기본 및 고급 옵션의 차이점 자세히 살펴보기를 포함하는 [편집용 보기에서 사용할 수 있는 필터 및 강조 표시 제어의 자세한 둘러보기](power-bi-how-to-report-filter.md)입니다.
-* 이제 필터 및 강조 표시가 기본적으로 작동하는 방법을 배웠으므로 [페이지 필터 및 상호 강조 표시에서 시각화 방식을 변경하는 방법에 대해 알아봅니다](service-reports-visual-interactions.md).
+* [사용자와 공유되거나 보고서 읽기용 보기의 보고서에서 필터 및 강조 표시를 사용](consumer/end-user-reading-view.md)할 수 있는 방법입니다. 수행할 수 있는 작업은 보다 제한적이지만 Power BI는 여전히 다양한 필터링 및 강조 표시 옵션을 제공합니다.  
+* 필터의 종류(예: 날짜 및 시간, 숫자, 텍스트) 및 기본 및 고급 옵션의 차이점 자세히 살펴보기를 포함하는 [편집용 보기에서 사용할 수 있는 필터 및 강조 표시 제어의 자세한 둘러보기](consumer/end-user-report-filter.md)입니다.
+* 이제 필터 및 강조 표시가 기본적으로 작동하는 방법을 배웠으므로 [페이지 필터 및 상호 강조 표시에서 시각화 방식을 변경하는 방법에 대해 알아봅니다](consumer/end-user-interactions.md).
 
 > [!TIP]
 > Power BI는 데이터 연결 방식을 어떻게 알고 있습니까?  Power BI는 기본 [데이터 모델](https://support.office.com/article/Create-a-Data-Model-in-Excel-87e7a54c-87dc-488e-9410-5c75dbcb0f7b?ui=en-US&rs=en-US&ad=US)에 속하는 다양한 테이블과 필드 사이의 관계를 사용하여 보고서 페이지의 항목이 서로 상호 작용하도록 합니다.
@@ -46,7 +46,7 @@ ms.locfileid: "34561451"
 > 
 
 ## <a name="filters-in-reading-view-versus-editing-view"></a>읽기용 보기 및 편집용 보기의 필터
-보고서는 [읽기용 보기와 편집용 보기](service-reading-view-and-editing-view.md)의 두 가지 방식으로 조작할 수 있습니다.  또한 사용할 수 있는 필터링 기능은 현재 모드에 따라 달라집니다.
+보고서는 [읽기용 보기와 편집용 보기](consumer/end-user-reading-view.md)의 두 가지 방식으로 조작할 수 있습니다.  또한 사용할 수 있는 필터링 기능은 현재 모드에 따라 달라집니다.
 
 * 편집용 보기에서는 보고서, 페이지, 드릴스루 및 시각적 개체 필터를 추가할 수 있습니다. 보고서를 저장하는 경우 모바일 앱에서 여는 경우에도 필터를 보고서와 함께 저장합니다. 읽기용 보기에서 보고서를 보는 사람들은 사용자가 추가한 필터로 상호 작용할 수 있지만 새 필터를 추가할 수 없습니다.
 * 읽기용 보기에서 이미 보고서에 존재하는 필터로 상호 작용하고 선택을 저장할 수 있습니다.  하지만 새 필터를 추가할 수 없습니다.
@@ -62,7 +62,7 @@ ms.locfileid: "34561451"
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-읽기용 보기에서 기존 필터를 수정하여 데이터를 탐색합니다. 모바일 앱에서 보고서를 여는 경우에도 변경 내용을 보고서와 함께 저장합니다. [Power BI 서비스의 보고서 읽기용 보기 및 편집용 보기](service-reading-view-and-editing-view.md) 아티클에서 방법을 알아보세요.
+읽기용 보기에서 기존 필터를 수정하여 데이터를 탐색합니다. 모바일 앱에서 보고서를 여는 경우에도 변경 내용을 보고서와 함께 저장합니다. [Power BI 서비스의 보고서 읽기용 보기 및 편집용 보기](consumer/end-user-reading-view.md) 아티클에서 방법을 알아보세요.
 
 ### <a name="the-filters-pane-in-editing-view"></a>편집용 보기에서 필터 창
 보고서에 대한 소유자 권한이 있는 경우 편집용 보기에서 열면 **필터**는 사용할 수 있는 여러 개의 편집 창 중 하나인 것을 확인할 수 있습니다.
@@ -74,7 +74,7 @@ ms.locfileid: "34561451"
 하지만 편집용 보기에서 필터 및 강조 표시를 사용하여 수행할 수 있는 작업이 훨씬 더 많습니다. 주요 차이점은 새 필터를 추가할 수 있는 것입니다. [보고서에 필터 추가](power-bi-report-add-filter.md) 문서에서 이를 수행하는 방법 및 더 자세히 알아보기
 
 ## <a name="ad-hoc-filtering-and-highlighting"></a>임시 필터링 및 강조 표시
-보고서 캔버스의 필드를 선택하여 페이지의 나머지 부분을 필터링 및 강조 표시합니다. 동일한 시각적 개체의 빈 공간을 선택하여 제거합니다. 이러한 종류의 필터링 및 강조 표시는 데이터 영향을 신속하게 탐색하는 흥미로운 방법입니다. 이러한 종류의 교차 필터링 및 교차 강조 표시의 작동 방법을 미세 조정하려면 [시각적 상호 작용](service-reports-visual-interactions.md)을 참조하세요.
+보고서 캔버스의 필드를 선택하여 페이지의 나머지 부분을 필터링 및 강조 표시합니다. 동일한 시각적 개체의 빈 공간을 선택하여 제거합니다. 이러한 종류의 필터링 및 강조 표시는 데이터 영향을 신속하게 탐색하는 흥미로운 방법입니다. 이러한 종류의 교차 필터링 및 교차 강조 표시의 작동 방법을 미세 조정하려면 [시각적 상호 작용](consumer/end-user-interactions.md)을 참조하세요.
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
@@ -83,15 +83,15 @@ ms.locfileid: "34561451"
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ## <a name="next-steps"></a>다음 단계
-[필터로 조작 및 강조 표시(읽기용 보기)](service-reading-view-and-editing-view.md)
+[필터로 조작 및 강조 표시(읽기용 보기)](consumer/end-user-reading-view.md)
 
 [보고서에 필터 추가(편집용 보기)](power-bi-report-add-filter.md)
 
-[보고서 필터 둘러보기](power-bi-how-to-report-filter.md)
+[보고서 필터 둘러보기](consumer/end-user-report-filter.md)
 
-[보고서 시각적 개체가 서로 교차 필터링 및 교차 강조 표시되는 방식 변경](service-reports-visual-interactions.md)
+[보고서 시각적 개체가 서로 교차 필터링 및 교차 강조 표시되는 방식 변경](consumer/end-user-interactions.md)
 
-[Power BI의 보고서](service-reports.md)에 대해 자세히 알아보기
+[Power BI의 보고서](consumer/end-user-reports.md)에 대해 자세히 알아보기
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

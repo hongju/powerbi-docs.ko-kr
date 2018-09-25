@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f110464d435130a40666e61dd6a9c89ad6b10ccf
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8ac91cb0ab6061f0fcbcb120c5915a91166f90ad
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280435"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546191"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -37,7 +37,7 @@ ms.locfileid: "39280435"
 * Excel, CSV 및 Power BI Desktop 파일에서 보고서 및 [데이터 가져오기](service-get-data.md)
 * 데이터 관리 게이트웨이
 * Azure SQL 및 Power BI용 Blob Storage 둘 다에서 모든 데이터 암호화
-* [콘텐츠 팩](service-connect-to-services.md)을 사용하여 서비스에 연결
+* [콘텐츠 팩](consumer/end-user-connect-to-services.md)을 사용하여 서비스에 연결
 
 ## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>정부 서비스와 공용 Azure 클라우드 서비스 간의 연결 
 

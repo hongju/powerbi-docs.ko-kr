@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f0337b26989b3d42e86339c4afc087579c2c3529
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44725630"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548790"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>기존 보고서에서 새 보고서 만들기(보고서 복사)
 이미 데이터 집합에 연결하는 보고서가 있고 다시 사용하거나 수정하려고 하는 몇 가지 시각적 개체가 있을 수 있습니다.  새 보고서에 대한 기준으로 해당 보고서를 단순히 복사할 수 없습니까?  수행할 작업:
 
-1. [보고서를 엽니다](service-report-open.md).
+1. [보고서를 엽니다](consumer/end-user-report-open.md).
 2. **파일** 메뉴에서 **다른 이름으로 저장**을 선택합니다.
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)
@@ -39,6 +39,6 @@ ms.locfileid: "44725630"
 ## <a name="next-steps"></a>다음 단계:
 [새 시각화 만들기](visuals/power-bi-report-add-visualizations-ii.md)
 
-필요하지 않은 [시각화 삭제](service-delete.md)
+필요하지 않은 [시각화 삭제](consumer/end-user-delete.md)
 
 [Power BI Desktop을 사용하여 보고서 만들기](desktop-report-view.md)

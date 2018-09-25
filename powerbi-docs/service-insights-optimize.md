@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: eed9b668cccf3bc8252d70f1dee94675063a8844
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fbf49a9ddbec5f087a28e51144c782e2f1739db0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247760"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546949"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Power BI 신속한 정보 활용을 위해 데이터 최적화
 신속한 정보 활용 결과를 개선하려는 경우  데이터 집합 소유자이면, 다음을 시도해 보세요.
@@ -26,7 +26,7 @@ ms.locfileid: "34247760"
 * 데이터가 통계적으로 중요하지 않다는 내용의 오류 메시지를 받나요?  매우 간단하거나 많은 데이터가 없거나 날짜 또는 숫자 열이 없는 모델에서 발생할 수 있습니다. 정보를 생성하려면 데이터 집합은 하나 이상의 차원과 하나의 측정값이 있어야 합니다.
 
 ### <a name="next-steps"></a>다음 단계
-[Power BI 신속한 정보 활용](service-insights.md)
+[Power BI 신속한 정보 활용](consumer/end-user-insights.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

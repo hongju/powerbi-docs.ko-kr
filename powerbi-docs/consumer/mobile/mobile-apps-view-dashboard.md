@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 9738660ced6b8dbe32e7308b86f671f21c8c312c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1b5f62e965a5a5df97a16c20f60043db534b8f77
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744488"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547594"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
 적용 대상:
@@ -31,7 +31,7 @@ ms.locfileid: "44744488"
 모바일 장치에서 대시보드 및 보고서를 보려면 웹 브라우저에서 대시보드를 만들거나 연결해야 합니다. 
 
 1. Power BI 서비스([https://www.powerbi.com](https://www.powerbi.com))로 이동하여 [계정을 등록](../../service-self-service-signup-for-power-bi.md)합니다.
-2. [자신의 Power BI 대시보드 및 보고서를 만들거나](../../service-get-started.md) [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) 및 [Adobe Analyics](../../service-connect-to-adobe-analytics.md)와 같은 다양한 서비스에 대해 기존 [Power BI 앱](../../service-connect-to-services.md)에 연결합니다.
+2. [자신의 Power BI 대시보드 및 보고서를 만들거나](../../service-get-started.md) [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) 및 [Adobe Analyics](../../service-connect-to-adobe-analytics.md)와 같은 다양한 서비스에 대해 기존 [Power BI 앱](../end-user-connect-to-services.md)에 연결합니다.
 
 Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 

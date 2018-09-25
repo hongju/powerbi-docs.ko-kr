@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c90db1c08ba1d172acc4d0e82d23409d835879a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727944"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543593"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>자습서: 질문 및 답변을 사용하여 시각화를 만들고 보고서를 작성하는 방법
-[질문 및 답변 개요](power-bi-q-and-a.md)에서는 Power BI 질문 및 답변을 소개하고 *소비자*(대시보드 및 보고서를 소비자와 공유)와 *작성자*(기본 보고서 및 데이터 집합 소유)를 구분했습니다. 이 자습서의 첫 번째 부분은 주로 Power BI 서비스를 사용하여 대시보드를 소비하는 사람들을 위해 설계되었습니다. 두 번째 부분은 Power BI 서비스 또는 Power BI Desktop을 사용하여 보고서를 만드는 사람들을 위해 설계되었습니다. [질문 및 답변과 Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) 및 [질문 및 답변과 Power BI Embedded](developer/qanda.md)는 별도의 문서에서 다룹니다.
+[질문 및 답변 개요](consumer/end-user-q-and-a.md)에서는 Power BI 질문 및 답변을 소개하고 *소비자*(대시보드 및 보고서를 소비자와 공유)와 *작성자*(기본 보고서 및 데이터 집합 소유)를 구분했습니다. 이 자습서의 첫 번째 부분은 주로 Power BI 서비스를 사용하여 대시보드를 소비하는 사람들을 위해 설계되었습니다. 두 번째 부분은 Power BI 서비스 또는 Power BI Desktop을 사용하여 보고서를 만드는 사람들을 위해 설계되었습니다. [질문 및 답변과 Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) 및 [질문 및 답변과 Power BI Embedded](developer/qanda.md)는 별도의 문서에서 다룹니다.
 
 질문 및 답변은 대화형으로 재미도 있으며 시각화가 진행하는 흥미로운 경로를 표시함에 따라 대개 하나의 질문은 다른 항목으로 연결됩니다. Amanda가 질문 및 답변을 사용하여 시각화를 만들고, 시각적 개체를 자세히 살펴보고, 대시보드에 고정하는 과정을 시청합니다.
 
@@ -64,7 +64,7 @@ ms.locfileid: "44727944"
 
 ![](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-보고서에서 질문 및 답변을 사용하려면 보고서 및 기본 데이터 집합에 대한 편집 권한이 있어야 합니다. [질문 및 답변 개요 항목](power-bi-q-and-a.md)에서는 이것을 *작성자* 시나리오라고 불렀습니다. 그 대신 공유되는 보고서를 *소비*하는 경우 질문 및 답변을 사용할 수 없습니다.
+보고서에서 질문 및 답변을 사용하려면 보고서 및 기본 데이터 집합에 대한 편집 권한이 있어야 합니다. [질문 및 답변 개요 항목](consumer/end-user-q-and-a.md)에서는 이것을 *작성자* 시나리오라고 불렀습니다. 그 대신 공유되는 보고서를 *소비*하는 경우 질문 및 답변을 사용할 수 없습니다.
 
 1. 편집용 보기(Power BI 서비스) 또는 보고서 보기(Power BI Desktop)에서 보고서를 열고 메뉴 모음에서 **질문하기**를 선택합니다.
 
@@ -98,14 +98,14 @@ ms.locfileid: "44727944"
 질문 및 답변으로 데이터에 자체적으로 알릴 수 있도록 할 뿐만 아니라 답변을 표시하는 방법을 Power BI에 알려줄 수 있습니다. 질문 끝에 "<visualization type>으로"를 추가하기만 하면 됩니다.  예를 들어 "show inventory volume by plant as a map" 및 "show total inventory as a card"를 입력합니다.  직접 시도해 봅니다.
 
 ##  <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-- 라이브 연결 또는 게이트웨이를 사용하여 데이터 집합에 연결한 경우 질문 및 답변을 [해당 데이터 집합에 대해 활성화](service-q-and-a-direct-query.md)해야 합니다.
+- 라이브 연결 또는 게이트웨이를 사용하여 데이터 집합에 연결한 경우 질문 및 답변을 [해당 데이터 집합에 대해 활성화](consumer/end-user-q-and-a-direct-query.md)해야 합니다.
 
 - 우리는 보고서를 열었으므로 질문 및 답변 옵션이 표시되지 않습니다. Power BI 서비스를 사용하는 경우 편집용 보기에서 보고서를 열어야 합니다. 편집용 보기를 열 수 없으면 해당 보고서에 대한 편집 권한이 없다는 의미이며 해당 보고서에 질문 및 답변을 사용할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI의 질문 및 답변](power-bi-q-and-a.md) 으로 돌아가기  
+[Power BI의 질문 및 답변](consumer/end-user-q-and-a.md) 으로 돌아가기  
 [자습서: 소매점 판매 샘플에서 질문 및 답변 사용](power-bi-visualization-introduction-to-q-and-a.md)   
-[질문 및 답변에서 질문하기 위한 팁](service-q-and-a-tips.md)   
+[질문 및 답변에서 질문하기 위한 팁](consumer/end-user-q-and-a-tips.md)   
 [질문 및 답변을 위한 통합 문서 준비](service-prepare-data-for-q-and-a.md)  
-[질문 및 답변에 대한 온-프레미스 데이터 집합 준비](service-q-and-a-direct-query.md)
+[질문 및 답변에 대한 온-프레미스 데이터 집합 준비](consumer/end-user-q-and-a-direct-query.md)
 [질문 및 답변에서 대시보드에 타일 고정](service-dashboard-pin-tile-from-q-and-a.md)

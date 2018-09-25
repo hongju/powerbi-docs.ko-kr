@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bc5fe4c1e1fedc700fcbadd182f01e9e50348e3e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34257232"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545643"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>동료와 필터링된 Power BI 보고서 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. 또한 Power BI는 [보고서를 공동 작업하고 배포하는 여러 방법](service-how-to-collaborate-distribute-dashboards-reports.md)을 제공합니다.
@@ -28,7 +28,7 @@ Power BI 서비스의 대부분의 위치(즐겨찾기, 최근 항목, 공유한
 ## <a name="filter-and-share-a-report"></a>보고서 필터링 및 공유
 필터링된 버전의 보고서를 공유하려면 어떻게 해야 할까요? 아마도 특정 도시, 판매 직원 또는 연도의 데이터만 보여 주는 보고서일 수도 있습니다. 사용자 지정 URL을 만들어서 이 작업을 수행합니다.
 
-1. [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 열고, 필터를 적용하고, 보고서를 저장합니다.
+1. [편집용 보기](consumer/end-user-reading-view.md)에서 보고서를 열고, 필터를 적용하고, 보고서를 저장합니다.
    
    이 예에서는 [소매점 분석 샘플](sample-tutorial-connect-to-the-samples.md)을 필터링하여 **지역**이 **NC**인 값만 보여 줍니다.
    

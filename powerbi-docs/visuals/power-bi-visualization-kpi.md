@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bb1ebf08c7ffb7a18cc0dd273c767c082f89f1aa
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d3afa24c68db5ffcaec1dddae09b0b9719bf2bb5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736910"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543546"
 ---
 # <a name="kpi-visuals"></a>KPI 시각적 개체
 KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률의 정도를 알리는 시각적 신호입니다. KPI에 대한 자세한 내용은 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)를 참조하세요.
@@ -42,7 +42,7 @@ KPI(핵심 성과 지표)는 특정 측정값을 기반으로 하며 정의된 �
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. [편집용 보기](../service-reading-view-and-editing-view.md)에서 보고서를 열고 [새 페이지를 추가](../power-bi-report-add-page.md)합니다.    
+1. [편집용 보기](../consumer/end-user-reading-view.md)에서 보고서를 열고 [새 페이지를 추가](../power-bi-report-add-page.md)합니다.    
 2. **판매량 > 올해 총 단위**를 선택합니다.  표시기입니다.
 3. **시간 > 월**을 추가합니다.  추세를 나타냅니다.
 4. 중요: 차트를 **월**별로 정렬합니다. 시각적 개체를 KPI로 변환하고 나면 정렬할 수 있는 옵션이 없습니다.

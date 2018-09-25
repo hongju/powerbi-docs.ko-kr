@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737079"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548114"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 앱의 질문 및 답변 가상 분석가 - Power BI
 
@@ -137,11 +137,11 @@ Apple iOS 개발자 가이드의 [iOS의 새로운 기능](https://go.microsoft.
 좀더 구체적인 질문을 하거나 데이터 집합을 향상시켜 데이터 집합에서 질문 및 답변 가상 분석가를 사용하는 경우 사용자와 고객이 얻는 결과를 향상시킬 수 있습니다.
 
 ### <a name="how-to-ask-questions"></a>질문하는 방법
-* iOS 모바일 앱의 Power BI 서비스 또는 질문 및 답변 가상 분석가에서 이러한 [질문 및 답변에서 질문하기 팁](../../service-q-and-a-tips.md)을 따르세요.
+* iOS 모바일 앱의 Power BI 서비스 또는 질문 및 답변 가상 분석가에서 이러한 [질문 및 답변에서 질문하기 팁](../end-user-q-and-a-tips.md)을 따르세요.
 
 ### <a name="how-to-enhance-the-dataset"></a>데이터 집합을 향상시키는 방법
 * Power BI Desktop 또는 Power BI 서비스에서 데이터 집합을 향상시켜 [데이터가 질문 및 답변과 질문 및 답변 가상 분석가에서 잘 작동하도록](../../service-prepare-data-for-q-and-a.md) 합니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 서비스에서 Q&A](../../power-bi-q-and-a.md)
+* [Power BI 서비스에서 Q&A](../end-user-q-and-a.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티의 모바일 앱 섹션](https://go.microsoft.com/fwlink/?linkid=839277) 확인

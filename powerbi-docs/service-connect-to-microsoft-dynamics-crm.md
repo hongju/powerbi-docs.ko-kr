@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937265"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547065"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Power BI로 Microsoft Dynamics CRM에 연결
 Power BI용 Microsoft Dynamics CRM Online을 사용하면 데이터에 쉽게 액세스하고 분석할 수 있습니다. Power BI는 OData 피드를 사용하여 계정, 활동, 기회, 제품, 잠재 고객, 사용자 등과 같은 필요한 모든 엔터티 및 조치가 포함된 설명 모델을 만듭니다. 앱을 설치한 후 Power BI 서비스([https://powerbi.com](https://powerbi.com)) 및 Power BI 모바일 앱에서 대시보드 및 보고서를 볼 수 있습니다. 
@@ -128,7 +128,7 @@ Dynamics CRM Online [판매 관리자](https://msit.powerbi.com/groups/me/getdat
 
 ## <a name="system-requirements"></a>시스템 요구 사항
 * 유효한 Dynamics CRM Online 2016 이상 인스턴스(Power BI는 온-프레미스 CRM 버전에서 작동하지 않음) 2016 이상이 설치되지 않은 경우:
-* 관리자가 사이트 설정에서 OData 끝점을 사용하도록 설정해야 합니다.
+* 관리자가 사이트 설정에서 OData 엔드포인트를 사용하도록 설정해야 합니다.
 * 모든 테이블에 100k 미만의 레코드를 가진 계정. 계정에 100k 이상의 레코드에 대한 액세스가 있는 경우 가져오기가 실패합니다.
 
 <a name="FindingParams"></a>
@@ -136,14 +136,14 @@ Dynamics CRM Online [판매 관리자](https://msit.powerbi.com/groups/me/getdat
 ## <a name="finding-parameters"></a>매개 변수 찾기
 인스턴스의 주소는 브라우저의 URL 표시줄에서 찾을 수 있습니다. 일반적으로 형식은 다음과 같습니다. `https://[instance_name].crm.dynamics.com`
 
-Power BI는 Dynamics CRM 2016 끝점만을 지원합니다. 이전 버전의 CRM Online에서 연결이 작동하지 않습니다. Power BI Desktop을 사용하여 계정에 직접 연결합니다.
+Power BI는 Dynamics CRM 2016 엔드포인트만을 지원합니다. 이전 버전의 CRM Online에서 연결이 작동하지 않습니다. Power BI Desktop을 사용하여 계정에 직접 연결합니다.
 
 ## <a name="troubleshooting"></a>문제 해결
 연결하는 데 문제가 있는 경우 다음을 확인하세요.  
 
 * 정확한 인스턴스 URL을 제공하는지(관리자와 확인)  
 * 인스턴스가 CRM Online 2016인지  
-* OData 끝점이 사용하도록 설정되었는지  
+* OData 엔드포인트가 사용하도록 설정되었는지  
 
 또한 OData URL `https://[instance_name].crm.dynamics.com/api/data/v8.0/`을 사용하여 Power BI Desktop에서 직접 연결해 보세요.
 
@@ -154,7 +154,7 @@ CRM Online 2016 이상이 설치되지 않은 경우 Power BI Desktop을 사용�
 "100000 레코드라는 최대 한도 초과 쿼리로 데이터 새로 고침 실패" 오류가 표시되는 경우 Power BI Desktop에서 직접 연결하거나 CRM 솔루션 템플릿을 활용하는 방법을 고려하세요.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI에서 앱이란?](service-install-use-apps.md)
+* [Power BI에서 앱이란?](consumer/end-user-apps.md)
 * [Power BI에서 데이터 가져오기](service-get-data.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

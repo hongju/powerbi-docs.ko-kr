@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240213"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550055"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>보고서에서 Power BI 대시보드에 타일 고정
 ## <a name="pinning-tiles-from-a-report"></a>보고서에서 타일 고정
-새 [대시보드 타일](service-dashboard-tiles.md)을 추가하는 한 가지 방법은 [Power BI 보고서](service-reports.md) 내에서 추가하는 것입니다. 실제로 보고서에서 여러 개의 새 타일을 추가할 수 있습니다.  이러한 각 타일은 클릭하여 보고서로 돌아갈 수 있는 링크입니다.
+새 [대시보드 타일](consumer/end-user-tiles.md)을 추가하는 한 가지 방법은 [Power BI 보고서](consumer/end-user-reports.md) 내에서 추가하는 것입니다. 실제로 보고서에서 여러 개의 새 타일을 추가할 수 있습니다.  이러한 각 타일은 클릭하여 보고서로 돌아갈 수 있는 링크입니다.
 
 그리고 전체 보고서 페이지는 대시보드에 고정할 수 있습니다.  이렇게 하는 것을 *라이브* 타일을 고정한다고 합니다.  *라이브* 라고 하는 이유는 대시보드의 타일 상호 작용할 수 있기 때문이며, 개별 시각화 타일과 달리 보고서에서 변경된 내용은 대시보드와 동기화되기 때문이기도 합니다. 아래에서 자세히 알아보세요.
 
@@ -58,15 +58,15 @@ Amanda가 Power BI 보고서에서 시각적 개체 및 이미지를 고정하�
 자세한 내용은 [전체 보고서 페이지 고정](service-dashboard-pin-live-tile-from-report.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI의 대시보드](service-dashboards.md)
+[Power BI의 대시보드](consumer/end-user-dashboards.md)
 
-[Power BI의 대시보드 타일](service-dashboard-tiles.md)
+[Power BI의 대시보드 타일](consumer/end-user-tiles.md)
 
-[Power BI의 보고서](service-reports.md)
+[Power BI의 보고서](consumer/end-user-reports.md)
 
 [Power BI에서 데이터 새로 고침](refresh-data.md)
 
-[Power BI 기본 개념](service-basic-concepts.md)
+[Power BI 기본 개념](consumer/end-user-basic-concepts.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

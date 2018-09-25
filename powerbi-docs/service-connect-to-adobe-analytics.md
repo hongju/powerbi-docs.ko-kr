@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "38924538"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544627"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Power BI로 Adobe Analytics에 연결
 Power BI를 통해 Adobe Analytics에 연결하는 경우 먼저 Adobe Analytics Marketing 클라우드 계정에 연결합니다. 사이트 트래픽 및 사용자 차원에 대한 통찰력을 제공하는 Power BI 대시보드 및 Power BI 보고서 집합을 사용하는 앱이 가져옵니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다. 대시보드 및 보고서를 조작할 수 있지만 변경 내용을 저장할 수 없습니다.
@@ -94,7 +94,7 @@ Adobe [문서](https://marketing.adobe.com/resources/help/en_US/reference/new_re
 오류가 발생하기 전에 자격 증명 화면을 성공적으로 통과한 경우 보고서를 완료하는 데 오랜 시간이 걸릴 수 있습니다. 일반적인 오류는 *"Adobe Analytics 보고서에서 데이터를 가져오지 못했습니다. 콘텐츠에 &quot;참조, 페이지&quot;가 포함되며, 대략적인 기간은 xx초입니다."* 형식입니다. "포함된 내용" 섹션을 검토하고 Adobe 인스턴스 크기와 비교하세요. 그러나 오늘 이 제한 시간을 해결할 방법이 없습니다. 그러나 보다 큰 인스턴스를 효과적으로 지원하기 위한 업데이트를 고려하고 있습니다. https://ideas.powerbi.com에서 Power BI 팀에 피드백을 제공하세요.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI에서 앱이란?](service-install-use-apps.md)
+* [Power BI에서 앱이란?](consumer/end-user-apps.md)
 * [Power BI에서 데이터 가져오기](service-get-data.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

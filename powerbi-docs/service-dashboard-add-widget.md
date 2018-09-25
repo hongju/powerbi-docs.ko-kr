@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 064de8e84edd50f3216c814ddd235452d573d0a0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 68195883f2aad0f3131ec14c508334ac41cd918b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247714"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545869"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>대시보드에 이미지, 텍스트, 비디오 등 추가
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -149,7 +149,7 @@ ms.locfileid: "34247714"
 * 웹 사이트의 일부 콘텐츠를 포함하려고 하지만 웹 사이트에서 복사하여 붙여넣을 embed 태그를 제공하지 않으면 embed.ly에서 embed 태그 생성에 대한 도움말을 확인하세요.
 
 ## <a name="next-steps"></a>다음 단계
-[대시보드 타일](service-dashboard-tiles.md)
+[대시보드 타일](consumer/end-user-tiles.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.
 

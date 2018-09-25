@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624301"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547640"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI의 조직 콘텐츠 팩 소개
 > [!NOTE]
@@ -42,7 +42,7 @@ AppSource에서 전체 조직, 배포 또는 보안 그룹 및 [사용자가 속
 
 * AppSource를 보려면 **데이터 가져오기** > **내 조직** > **가져오기**를 선택합니다.
 
-[조직 콘텐츠 팩 찾기 및 열기](service-organizational-content-pack-find-and-open.md)에 대해 자세히 알아보세요.
+[조직 콘텐츠 팩 찾기 및 열기](consumer/end-user-content-pack.md)에 대해 자세히 알아보세요.
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>조직 콘텐츠 팩의 수명 주기
 모든 Power BI Pro 사용자는 조직 콘텐츠 팩을 만들고 게시하고 액세스할 수 있습니다. 콘텐츠 팩 작성자만 통합 문서와 데이터 집합을 수정하고, 새로 고침을 예약하고, 삭제할 수 있습니다.
@@ -52,7 +52,7 @@ AppSource에서 전체 조직, 배포 또는 보안 그룹 및 [사용자가 속
 1. Power BI Pro에서 Nate가 콘텐츠 팩을 만들어 마케팅 배포 그룹에 게시합니다. 새로 고침 설정은 데이터 집합과 함께 상속되며 Nate만 변경할 수 있습니다.
    
    > [!NOTE]
-   > Nate가 현재 소속되어 있는 [Power BI 앱 작업 영역](service-create-distribute-apps.md) 내에서 콘텐츠 팩을 만들 경우 Nate가 작업 영역을 떠나더라도 해당 Power BI 작업 영역의 다른 사람들이 소유권을 계승할 수 있습니다.
+   > Nate가 현재 소속되어 있는 [Power BI 앱 작업 영역](consumer/end-user-create-apps.md) 내에서 콘텐츠 팩을 만들 경우 Nate가 작업 영역을 떠나더라도 해당 Power BI 작업 영역의 다른 사람들이 소유권을 계승할 수 있습니다.
    > 
    > 
 2. Nate는 배포 그룹에 메일을 보내어 새 콘텐츠 팩에 대해 알려줍니다.
@@ -76,7 +76,7 @@ AppSource에서 전체 조직, 배포 또는 보안 그룹 및 [사용자가 속
 
 ## <a name="next-steps"></a>다음 단계
 * [조직 콘텐츠 팩 만들기 및 게시](service-organizational-content-pack-create-and-publish.md)
-* [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md) 
-* [Power BI - 기본 개념](service-basic-concepts.md)
+* [Power BI에서 앱 만들기 및 배포](consumer/end-user-create-apps.md) 
+* [Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

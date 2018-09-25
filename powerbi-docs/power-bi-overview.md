@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: c2e0dc401e5927e69ecb9b059042df646b238bd5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1d5f5b4458dca8fb9d45dfc938f16e5fa77f45db
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944402"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545386"
 ---
 # <a name="what-is-power-bi"></a>Power BI란?
 **Power BI**는 관련 없는 데이터 소스를 시각적으로 몰입도가 뛰어나고 일관된 대화형 정보로 변환하는 소프트웨어 서비스, 앱 및 커넥터의 컬렉션입니다. 데이터가 간단한 Excel 스프레드시트이든 클라우드 기반 온-프레미스 하이브리드 데이터 웨어하우스 컬렉션이든 **Power BI**를 통해 손쉽게 데이터 소스를 연결하고, 중요한 내용을 시각화(또는 검색)하고, 이 내용을 원하는 모든 사람과 공유할 수 있습니다.
@@ -57,5 +57,5 @@ Power BI Report Server에서 제공하는 즉시 사용할 도구와 서비스�
 Power BI Report Server는 방화벽 뒤에 배포한 다음, 웹 브라우저, 모바일 장치 또는 메일로 보는지에 관계없이 다양한 방법으로 적합한 사용자에게 보고서를 배달하는 솔루션입니다. 그리고 Power BI Report Server는 클라우드의 Power BI와 호환되므로 준비가 되면 클라우드로 이동할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[로그인하고, 일부 데이터를 가져오고, Power BI 서비스 사용 방법을 알아봅니다.](service-the-new-power-bi-experience.md)   
+[로그인하고, 일부 데이터를 가져오고, Power BI 서비스 사용 방법을 알아봅니다.](consumer/end-user-experience.md)   
 [자습서: Power BI 서비스 시작](service-get-started.md)

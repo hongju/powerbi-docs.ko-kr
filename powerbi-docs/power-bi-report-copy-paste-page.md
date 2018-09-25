@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8083e2aba9a2aa5b8bba27995e9fe261a76084c9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 380567441fafec92d1f5e9e6b135b797264df40f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728068"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543571"
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Power BI에서 보고서 페이지 복제
-Power BI 서비스 또는 Power BI Desktop에서 보고서 페이지를 복제하려면 보고서에 대한 편집 권한이 필요합니다. Power BI 서비스에서 이는 [편집용 보기](service-reading-view-and-editing-view.md)에서 보고서를 연다는 의미입니다. 
+Power BI 서비스 또는 Power BI Desktop에서 보고서 페이지를 복제하려면 보고서에 대한 편집 권한이 필요합니다. Power BI 서비스에서 이는 [편집용 보기](consumer/end-user-reading-view.md)에서 보고서를 연다는 의미입니다. 
 
 
 1. Power BI에서 하나 이상의 페이지가 있는 보고서를 엽니다. 
@@ -36,7 +36,7 @@ Power BI 서비스 또는 Power BI Desktop에서 보고서 페이지를 복제�
 ### <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 시각화](visuals/power-bi-report-visualizations.md)에 대한 자세한 정보    
 [보고서에 새 페이지 추가](power-bi-report-add-page.md)    
-[Power BI - 기본 개념](service-basic-concepts.md)    
+[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)    
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

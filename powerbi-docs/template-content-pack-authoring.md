@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 8b7c46ad1e9ea9c4c79a8f5a1b48c73ab3336306
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 7253a340ce0852039a08d0ed17c488fc8fdbfa69
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157571"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545925"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI에서 템플릿 콘텐츠 팩 작성
 템플릿 콘텐츠 팩 작성 시에는 Power BI Desktop 및 PowerBI.com을 사용합니다. 콘텐츠 팩에는 네 가지 구성 요소가 있습니다.
@@ -22,7 +22,7 @@ ms.locfileid: "39157571"
 * 쿼리를 사용하면 데이터를 [연결](desktop-connect-to-data.md) 및 [변환](desktop-query-overview.md)할 수 있으며 [매개 변수](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)도 정의할 수 있습니다.  
 * 데이터 모델로 [관계](desktop-create-and-manage-relationships.md), [측정값](desktop-measures.md) 및 Q&A 개선을 만들 수 있습니다.  
 * 보고서 [페이지](desktop-report-view.md)는 데이터에 대한 정보를 제공하는 시각적 개체 및 필터가 포함됩니다.  
-* [대시보드](service-dashboards.md) 및 [타일](service-dashboard-create.md)은 포함된 Insights에 대한 개요를 제공합니다.  
+* [대시보드](consumer/end-user-dashboards.md) 및 [타일](service-dashboard-create.md)은 포함된 Insights에 대한 개요를 제공합니다.  
 
 기존 Power BI 기능으로 각 구성 요소에 익숙할 수 있습니다. 콘텐츠 팩을 빌드할 때는 각 측면에 대해 추가 고려 사항이 있습니다. 자세한 내용은 아래 각 섹션을 참조하세요.
 
@@ -31,7 +31,7 @@ ms.locfileid: "39157571"
 ## <a name="queries"></a>쿼리
 템플릿 콘텐츠 팩의 경우 Power BI Desktop에서 개발된 쿼리를 사용하여 데이터 원본에 연결하고 데이터를 가져옵니다. 이러한 쿼리는 일관된 스키마를 반환하는 데 필요하며 예약된 데이터 새로 고침에 대해 지원됩니다(직접 쿼리는 지원되지 않음).
 
-템플릿 콘텐츠 팩은 콘텐츠 팩당 하나의 데이터 원본만 지원하므로 쿼리를 신중하게 정의합니다. 단일 데이터 원본은 동일한 인증을 요구하는 원본으로 정의됩니다. 모든 호출이 동일한 API 끝점을 향하며 동일한 인증을 사용하는 경우 다른 쿼리에서 여러 API 호출을 만들 수 있습니다. Power BI 콘텐츠 팩은 서로 다른 인증을 요구하는 여러 원본을 지원하지 않습니다.
+템플릿 콘텐츠 팩은 콘텐츠 팩당 하나의 데이터 원본만 지원하므로 쿼리를 신중하게 정의합니다. 단일 데이터 원본은 동일한 인증을 요구하는 원본으로 정의됩니다. 모든 호출이 동일한 API 엔드포인트를 향하며 동일한 인증을 사용하는 경우 다른 쿼리에서 여러 API 호출을 만들 수 있습니다. Power BI 콘텐츠 팩은 서로 다른 인증을 요구하는 여러 원본을 지원하지 않습니다.
 
 ### <a name="connect-to-your-api"></a>API에 연결
 시작하려면 Power BI Desktop에서 API에 연결하여 쿼리 작성을 시작해야 합니다.

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744461"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549848"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI의 등치 지역도(단계구분도)
 등치 지역도는 음영 또는 색조 또는 패턴을 사용하여 특정 값이 특정 지리 또는 지역을 기준으로 어떻게 다른지 표시합니다.  밝게(낮은 빈도/낮음)부터 어둡게(높은 빈도/높음)까지 다양한 음영으로 이러한 상대적 차이를 신속하게 표시합니다.    
@@ -109,7 +109,7 @@ Power BI Desktop의 데이터 집합을 편집할 수 있는 권한이 있는 �
 지도 시각화에 대한 자세한 도움말은 [지도 시각화를 위한 팁과 힌트](power-bi-map-tips-and-tricks.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
-[대시보드 타일로 등치 지역도 추가(시각적 개체 고정)](../service-dashboard-tiles.md)    
+[대시보드 타일로 등치 지역도 추가(시각적 개체 고정)](../consumer/end-user-tiles.md)    
  [시각화를 보고서에 추가](power-bi-report-add-visualizations-i.md)  
  [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [사용되는 시각화 유형 변경](power-bi-report-change-visualization-type.md)      

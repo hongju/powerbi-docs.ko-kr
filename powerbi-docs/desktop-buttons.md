@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 54cb45d1e9649fa761cfaf67aab708a2707e7516
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330492"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546751"
 ---
 # <a name="using-buttons-in-power-bi"></a>Power BI에서 단추 사용
 Power BI의 **단추**를 사용하여 보고서 및 대시보드가 앱과 유사하게 동작하도록 만들고, 매력적인 환경을 만들어 사용자가 Power BI 콘텐츠를 마우스로 가리키고, 클릭하고, 추가로 상호 작용할 수 있습니다. **Power BI Desktop**의 보고서에 단추를 추가하고, 해당 보고서를 Power BI 서비스에 공유하거나 게시하여 사용자에 대해 앱과 유사한 동작을 제공하는 대시보드를 만들 수 있습니다.
@@ -75,6 +75,6 @@ Power BI의 단추에는 기본(마우스로 가리키거나 선택하는 경우
 단추와 유사하거나 상호 작용하는 기능에 대한 자세한 내용은 다음 아티클을 살펴보겠습니다.
 
 * [Power BI Desktop에서 드릴스루 사용](desktop-drillthrough.md)
-* [포커스 모드에서 대시보드 타일 또는 보고서 시각적 개체 표시](service-focus-mode.md)
+* [포커스 모드에서 대시보드 타일 또는 보고서 시각적 개체 표시](consumer/end-user-focus.md)
 * [책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드](desktop-bookmarks.md)
 
