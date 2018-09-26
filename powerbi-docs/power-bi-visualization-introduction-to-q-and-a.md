@@ -1,21 +1,21 @@
 ---
 title: Power BI 질문 및 답변 시작
 description: Power BI 서비스에서 소매점 분석 샘플을 사용하여 질문 및 답변을 시작합니다.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 01/16/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 92506d4ce2f372a4535a0a178ef43791c6d94f83
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6759145d2764a586526a69c8b577178144ba019e
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547962"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187011"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Power BI 질문 및 답변 시작
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>소매 분석 샘플에 Power BI 질문 및 답변 사용

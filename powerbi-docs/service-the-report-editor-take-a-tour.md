@@ -1,7 +1,7 @@
 ---
 title: 보고서 편집기... 둘러보기
 description: 보고서 편집기... 둘러보기입니다.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/11/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9ce4d09e20fe02ff0552045e307f9d63aa834bd3
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546076"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187585"
 ---
 # <a name="the-report-editortake-a-tour"></a>보고서 편집기... 둘러보기
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 및 Power BI Desktop의 보고서 편집

@@ -1,21 +1,21 @@
 ---
 title: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
 description: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
-author: davidiseminger
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: maghan
 LocalizationGroup: Create reports
-ms.openlocfilehash: 75808c850659395dd8576b7de4dca0379dfff2f5
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: b9f9b6faa7490ed05626f52623750ea79183d36a
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329940"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187378"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Power BI에서 R 지원 사용자 지정 시각적 개체 사용
 **Power BI Desktop** 및 **Power BI 서비스**에서는 R 지원 사용자 지정 시각적 개체를 R에 대한 지식 없이 R 스크립팅하지 않고 사용할 수 있습니다. 그러면 직접 R을 학습하거나 프로그래밍하지 않고도 R 시각적 개체 및 R 스크립트의 분석 및 시각적 기능을 활용할 수 있습니다.

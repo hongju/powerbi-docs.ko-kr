@@ -1,21 +1,21 @@
 ---
 title: 시각화의 집계(합계, 평균, 최대값 등)
 description: Power BI에서 차트의 집계 변경(합계, 평균, 최대값 등)
-author: mihart
+author: mgblythe
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/29/2018
-ms.author: mihart
+ms.author: mblythe
 LocalizationGroup: Reports
-ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: a79fc16f183edb359c15da31ebd6f2747fa7859d
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241548"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187286"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI 시각화의 집계
 ## <a name="what-is-an-aggregate"></a>집계란?
@@ -114,7 +114,7 @@ Power BI 서비스에서의 집계 작업은 혼동될 수 있습니다. Power B
 2. 집계를 기본값인 **요약 안 함** 에서 **개수(고유)** 로 변경하는 경우 Power BI는 다른 제품의 수를 계산합니다. 이 경우 4가 있습니다.
    
    ![](media/service-aggregates/power-bi-aggregates-count.png)
-3. 그리고 집계를 **개수**로 변경하면 Power BI는 총수를 계산합니다. 이 경우에는 **제품**에 7개 항목이 있습니다. 
+3. 그리고 집계를 **개수**로 변경하면 Power BI는 총 수를 계산합니다. 이 경우에는 **제품**에 7개 항목이 있습니다. 
    
    ![](media/service-aggregates/power-bi-aggregate-count2.png)
 
@@ -125,13 +125,13 @@ Power BI 서비스에서의 집계 작업은 혼동될 수 있습니다. Power B
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 Q: **요약 안 함** 옵션이 없는 이유는 무엇입니까?
 
-A: 선택한 필드는 Excel 또는 [Power BI Desktop](desktop-measures.md)에서 만든 계산된 측정값 또는 고급 측정값일 가능성이 큽니다. 각 계산된 측정값에는 하드 코드된 고유한 수식이 있습니다. 사용 중인 집계는 변경할 수 없습니다.  예를 들어, 합계인 경우 합계만 될 수 있습니다. 필드 목록에서 계산된 측정값 은 계산기 기호로 표시됩니다.
+A: 선택한 필드는 Excel 또는 [Power BI Desktop](desktop-measures.md)에서 만든 계산된 측정값 또는 고급 측정값일 가능성이 큽니다. 각 계산된 측정값에는 하드 코딩된 고유한 수식이 있습니다. 사용 중인 집계는 변경할 수 없습니다.  예를 들어, 합계인 경우 합계만 될 수 있습니다. 필드 목록에서 계산된 측정값 은 계산기 기호로 표시됩니다.
 
 Q: 내 필드**는** 숫자인데, **개수** 및 **고유 개수**와 같은 선택만 나타나는 이유는 무엇입니까?
 
 A1: 데이터 집합 소유자가 실수로 또는 의도적으로 필드를 숫자로 분류*하지* 않았다고 설명할 수 있습니다. 예를 들어 데이터 집합에 **연도** 필드가 있다면 **연도** 필드는 개수를 셈하지만(즉, 1974년도에 태어난 사람의 수) 합계나 평균을 계산하지 않을 가능성이 크기 때문에 데이터 집합 소유자는 이 필드를 텍스트로 분류할 수 있습니다. 소유자는 Power BI Desktop의 데이터 집합을 열고 **모델링** 탭을 사용하여 데이터 형식을 변경할 수 있습니다.  
 
-A2: 필드에는 계산기 아이콘이 있는 경우, 이는 *계산된 측정값*이며 각각의 계산된 측정값에는 데이터 집합 소유자만 변경할 수 있는 자체 하드 코드된 수식이 있습니다. 사용 중인 계산은 평균이나 합계와 같은 간단한 집계일 수 있지만, "부모 범주에 대한 기여 비율"이나 "한 해 시작 이후 누계"와 같이 좀 복잡한 집계일 수도 있습니다. Power BI는 결과의 합계 또는 평균을 계산하지 않고 각 데이터 요소에 대해 하드 코드된 수식을 사용하여 다시 계산하기만 합니다.
+A2: 필드에는 계산기 아이콘이 있는 경우, 이는 *계산된 측정값*이며 각각의 계산된 측정값에는 데이터 집합 소유자만 변경할 수 있는 자체 하드 코딩된 수식이 있습니다. 사용 중인 계산은 평균이나 합계와 같은 간단한 집계일 수 있지만, "부모 범주에 대한 기여 비율"이나 "한 해 시작 이후 누계"와 같이 좀 복잡한 집계일 수도 있습니다. Power BI는 결과의 합계 또는 평균을 계산하지 않고 각 데이터 요소에 대해 하드 코드된 수식을 사용하여 다시 계산하기만 합니다.
 
 A3: 또 다른 원인으로는 범주별 값만 허용하는 *버킷*에 필드를 놓은 경우입니다.  이 경우 유일한 옵션은 개수 및 고유 개수입니다.
 
