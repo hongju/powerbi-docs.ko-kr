@@ -91,8 +91,6 @@ items:
         href: ../../service-report-open.md
       - name: Power BI 보고서에서 차트 정렬 방식 변경
         href: ../../power-bi-report-change-sort.md
-      - name: 시각화에서 데이터 내보내기
-        href: ../../power-bi-visualization-export-data.md
       - name: 보고서 필터를 사용하는 방법
         href: ../../power-bi-how-to-report-filter.md
       - name: 보고서 또는 대시보드 구독
@@ -189,9 +187,9 @@ items:
     items:
     - name: 모바일 앱에서 지원되는 언어
       href: ../../mobile-apps-supported-languages.md
-ms.openlocfilehash: 26018ef2bd80f8ac73c88e147dd950114ed1453f
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0d5506fefb05d9e83b9aea40bc773ad0c4ac126d
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726435"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47237942"
