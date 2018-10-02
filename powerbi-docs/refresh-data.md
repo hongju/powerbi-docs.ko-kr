@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329687"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417375"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI에서 데이터 새로 고침
 항상 최신 데이터를 가져오는 것은 올바른 결정을 내리는 데 중요한 경우가 많습니다. 일부 데이터에 연결하여 업로드하기 위해 Power BI에서 이미 데이터 가져오기를 사용했으며, 일부 보고서와 대시보드를 만들었습니다. 이제, 데이터가 최신이고 가장 좋은 상태임을 확인해야 합니다.
@@ -211,8 +211,6 @@ DirectQuery를 사용하여 클라우드의 Power BI와 데이터베이스 사�
 | **데이터 원본** | **자동** | **사용자 구성 수동 또는 예약 새로 고침** | **필수 게이트웨이** |
 | --- | --- | --- | --- |
 | Power BI Rest API 또는 Microsoft Stream Analytics을 사용하여 개발된 사용자 지정 앱 |예, 라이브 스트리밍 |아니요 |아니요 |
-
-자세한 내용은 [Power BI에서 실시간 대시보드 만들기](https://msdn.microsoft.com/library/mt267603.aspx)를 참조하세요.
 
 ## <a name="configure-scheduled-refresh"></a>예약된 새로 고침 구성
 예약된 새로 고침을 구성하는 방법을 알아보려면 [예약된 새로 고침 구성](refresh-scheduled-refresh.md)을 참조하세요.
