@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: fa572b44445c4fcf929286b68222b2faf4f9d7d2
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ad430f438bb6418378b13f3104f87a3bd972a2e4
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548284"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271880"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Power BI 앱 작업 영역에 대해 OneDrive에 저장된 파일에 연결
 [Power BI에서 앱 작업 영역을 만들었으므로](consumer/end-user-create-apps.md) Power BI 앱 작업 영역에 대한 비즈니스용 OneDrive에 Excel, CSV, Power BI Desktop 파일을 저장할 수 있습니다. 비즈니스용 OneDrive에 저장한 파일은 계속 업데이트할 수 있고 이러한 파일을 기반으로 하는 Power BI 보고서와 대시보드에 업데이트 내용이 자동으로 반영됩니다. 
@@ -29,7 +29,7 @@ ms.locfileid: "46548284"
 2. 그런 다음 [Power BI에서 해당 파일에 연결](service-connect-to-files-in-app-workspace-onedrive-for-business.md#2-import-excel-files-as-datasets-or-as-excel-online-workbooks)합니다.
 
 > [!NOTE]
-> 앱 작업 영역은 [Power BI Pro](service-free-vs-pro.md)에서만 사용할 수 있습니다.
+> 앱 작업 영역은 [Power BI Pro](service-features-license-type.md)에서만 사용할 수 있습니다.
 > 
 > 
 

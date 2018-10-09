@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 40d3e311e9ff9276200a37cabf2d29b324f83f7b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737162"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271650"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 또는 보고서 공유
 적용 대상:
@@ -23,7 +23,7 @@ ms.locfileid: "44737162"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 장치 |
 
-[Power BI Pro 라이선스](../../service-free-vs-pro.md)를 사용하면 Power BI 모바일 앱에서 링크를 공유하여 다른 사용자가 대시보드 및 보고서를 보도록 초대할 수 있습니다. 회사 메일 계정을 사용하거나 사용하지 않고 조직 내외부에서 다른 사용자와 공유할 수 있습니다. 다른 사용자도 Power BI Pro 라이선스가 필요합니다. 또는 콘텐츠가 [프리미엄 용량](../../service-premium.md)에 있어야 합니다.
+[Power BI Pro 라이선스](../../service-features-license-type.md)를 사용하면 Power BI 모바일 앱에서 링크를 공유하여 다른 사용자가 대시보드 및 보고서를 보도록 초대할 수 있습니다. 회사 메일 계정을 사용하거나 사용하지 않고 조직 내외부에서 다른 사용자와 공유할 수 있습니다. 다른 사용자도 Power BI Pro 라이선스가 필요합니다. 또는 콘텐츠가 [프리미엄 용량](../../service-premium.md)에 있어야 합니다.
 
 iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일, 보고서 또는 시각화 개체의 스냅숏에 주석을 달고 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)할 수 있습니다. 
 

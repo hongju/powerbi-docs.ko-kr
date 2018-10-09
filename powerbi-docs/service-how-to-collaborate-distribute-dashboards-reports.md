@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545754"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271716"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI에서 공동 작업하고 공유하려면 어떻게 해야 하나요?
 
@@ -29,7 +29,7 @@ ms.locfileid: "46545754"
 - 보고서 인쇄
 * 공용 웹 사이트의 웹에 게시합니다. 그러면 전세계 누구든지 해당 항목을 보고 상호 작용할 수 있습니다.
 
-선택하는 옵션에 상관 없이 대시보드를 공유하려면 [Power BI Pro](service-free-vs-pro.md) 라이선스가 필요하거나 콘텐츠가 [프리미엄 용량](service-premium.md)에 있어야 합니다. 선택한 옵션에 따라 대시보드를 보는 동료에 대해 라이선스 요구 사항이 달라집니다. 다음 섹션에 자세한 내용이 나와 있습니다. 
+선택하는 옵션에 상관 없이 대시보드를 공유하려면 [Power BI Pro](service-features-license-type.md) 라이선스가 필요하거나 콘텐츠가 [프리미엄 용량](service-premium.md)에 있어야 합니다. 선택한 옵션에 따라 대시보드를 보는 동료에 대해 라이선스 요구 사항이 달라집니다. 다음 섹션에 자세한 내용이 나와 있습니다. 
 
 ![Power BI 서비스의 앱](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 

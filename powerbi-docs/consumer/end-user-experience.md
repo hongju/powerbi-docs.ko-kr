@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/18/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 152ca52713cc548553d061d2457d13d1b5760ee4
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565846"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798934"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>빠른 시작 - Power BI 서비스 살펴보기
 
@@ -38,7 +38,7 @@ Power BI 서비스 둘러보기에서 사용할 샘플 데이터를 가져오겠
 
     ![샘플 선택](./media/end-user-experience/power-bi-retail-sample.png)
 
-    Power BI 서비스에서 샘플을 가져오고 대시보드를 표시합니다. 대시보드는 Power BI Desktop과 Power BI 서비스를 차별화하는 것입니다. 또한 샘플에는 보고서와 데이터 집합이 포함되어 있으며 나중에 살펴보겠습니다.
+    Power BI 서비스에서 샘플을 가져오고 대시보드를 표시합니다. 대시보드는 Power BI Desktop에서 Power BI 서비스를 구분할 수 있는 항목입니다. 또한 샘플에는 보고서와 데이터 집합이 포함되어 있으며 나중에 살펴보겠습니다.
 
     ![](media/end-user-experience/power-bi-dashboard.png)
 

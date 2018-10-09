@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 60ac0a944b1eb54ab998fbf25cb5fb79d6dddbe6
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37926599"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271903"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -120,7 +120,7 @@ ms.locfileid: "37926599"
     Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>기존 사용자가 Power BI 사용을 시작하지 못하게 하려면 어떻게 합니까?
-관리자로서 사용자가 Power BI에 등록하지 못하게 하기 위해 실행할 수 있는 단계가 있습니다. 이렇게 차단하면 사용자의 등록 시도가 실패하며 사용자는 자기 조직의 관리자에게 문의하도록 디렉션됩니다. 자동 라이선스 배포(예: 학생, 교수 및 교직원을 위한 교육용 Office 365)를 이미 사용하지 않도록 설정한 경우 프로세스를 반복할 필요가 없습니다. [자세히 알아보기](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
+관리자로서 사용자가 Power BI에 등록하지 못하게 하기 위해 실행할 수 있는 단계가 있습니다. 이렇게 차단하면 사용자의 등록 시도가 실패하며 사용자는 자기 조직의 관리자에게 문의하도록 디렉션됩니다. 자동 라이선스 배포(예: 학생, 교수 및 교직원을 위한 교육용 Office 365)를 이미 사용하지 않도록 설정한 경우 프로세스를 반복할 필요가 없습니다. [자세히 알아보기](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
 
 이를 제어하는 AAD 설정은 **AllowAdHocSubscriptions**입니다. 대부분의 테넌트에서는 이 설정을 true로 설정되어 사용합니다. 파트너를 통해 Power BI를 구입한 경우 기본적으로 false로 설정되어 사용하지 않습니다.
 
