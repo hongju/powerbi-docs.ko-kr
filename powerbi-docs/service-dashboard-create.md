@@ -8,22 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: 462e9b1d991690846c57a225552b271fca19499c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544398"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908650"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>보고서에서 Power BI 대시보드 만들기
-지금까지 [Power BI의 대시보드](consumer/end-user-dashboards.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 보고서에서, 처음부터, 데이터 집합에서 대시보드를 만들거나 기존 대시보드를 복제하는 등 다양한 방법으로 대시보드를 만들 수 있습니다.  
+지금까지 [Power BI의 대시보드](service-dashboards.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 보고서에서, 처음부터, 데이터 집합에서 대시보드를 만들거나 기존 대시보드를 복제하는 등 다양한 방법으로 대시보드를 만들 수 있습니다.  
 
 처음 시작할 때에는 부담스러울 수 있으므로, 이미 빌드된 보고서에서 시각화를 고정하여 쉽고 빠르게 대시보드를 만들어 시작합니다. 이 빠른 시작을 완료하면 대시보드와 보고서 간 관계를 이해하고, 보고서 편집기에서 편집용 보기를 열고, 타일을 고정하고, 대시보드와 보고서 간을 탐색할 수 있습니다. 그런 다음, 왼쪽의 목차에 있는 링크를 사용하거나 맨 아래의 **다음 단계**를 사용하여 고급 항목으로 진행합니다.
 
 ## <a name="who-can-create-a-dashboard"></a>대시보드는 누가 만들 수 있나요?
-대시보드 만들기는 **작성자** 기능이며 보고서에 대한 편집 권한이 필요합니다. 편집 권한은 보고서 작성자와 작성자가 액세스 권한을 부여하는 동료들에게 제공됩니다. 예를 들어 David가 workspaceABC에서 보고서를 만들고 해당 작업 영역의 구성원으로 사용자를 추가하는 경우, David와 사용자는 둘 다 편집 권한이 있습니다. 반면, 보고서가 사용자와 직접 공유되거나 [Power BI 앱](consumer/end-user-apps.md)의 일부로서 공유되는 경우(사용자가 보고서를 **소비**하는 경우) 사용자는 대시보드에 타일을 고정할 수 없습니다.
+대시보드 만들기는 **작성자** 기능이며 보고서에 대한 편집 권한이 필요합니다. 편집 권한은 보고서 작성자와 작성자가 액세스 권한을 부여하는 동료들에게 제공됩니다. 예를 들어 David가 workspaceABC에서 보고서를 만들고 해당 작업 영역의 구성원으로 사용자를 추가하는 경우, David와 사용자는 둘 다 편집 권한이 있습니다. 반면, 보고서가 사용자와 직접 공유되거나 [Power BI 앱](service-create-distribute-apps.md)의 일부로서 공유되는 경우(사용자가 보고서를 **소비**하는 경우) 사용자는 대시보드에 타일을 고정할 수 없습니다.
 
 > **참고**: 대시보드는 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. Power BI 모바일에서는 대시보드를 만들 수 없지만 [보고 공유](consumer/mobile/mobile-apps-view-dashboard.md)할 수는 있습니다.
 >
@@ -65,7 +65,7 @@ Power BI 샘플 데이터 집합 중 하나를 가져오고 이를 사용하여 
 1. 같은 작업 영역에서 **보고서** 탭을 선택합니다. 새로 가져온 보고서에는 노란색 별표가 함께 표시됩니다. 열려는 보고서 이름을 선택합니다.
 
     ![보고서 탭](media/service-dashboard-create/power-bi-reports.png)
-2. 보고서는 [읽기용 보기](consumer/end-user-reading-view.md)로 열립니다. 맨 아래에는 할인 분석과 지출 개요 등의 두 탭이 있습니다. 각 탭은 보고서의 페이지를 나타냅니다.
+2. 보고서는 읽기용 보기로 열립니다. 맨 아래에는 할인 분석과 지출 개요 등의 두 탭이 있습니다. 각 탭은 보고서의 페이지를 나타냅니다.
     **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
 
     ![읽기용 보기의 보고서](media/service-dashboard-create/power-bi-reading-view.png)
@@ -108,9 +108,9 @@ Power BI 샘플 데이터 집합 중 하나를 가져오고 이를 사용하여 
 
 ## <a name="next-steps"></a>다음 단계
 * [타일 크기 조정 및 이동](service-dashboard-edit-tile.md)
-* [대시보드 타일에 대한 모든 정보](consumer/end-user-tiles.md)
-* [앱을 만들어 대시보드 공유](consumer/end-user-create-apps.md)
-* [Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
+* [대시보드 타일에 대한 모든 정보](service-dashboard-tiles.md)
+* [앱을 만들어 대시보드 공유](service-install-use-apps.md)
+* [Power BI - 기본 개념](service-basic-concepts.md)
 * [멋진 대시보드를 디자인하기 위한 팁](service-dashboards-design-tips.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564839"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908627"
 ---
 # <a name="reports-in-power-bi"></a>Power BI의 보고서
 ## <a name="what-is-a-power-bi-report"></a>Power BI 보고서란?
@@ -67,7 +67,7 @@ Power BI를 처음 접하는 경우 [Power BI 기본 개념](end-user-basic-conc
 * [Power BI 서비스 둘러보기](end-user-basic-concepts.md)에서 시작하면 보고서와 보고서 도구 위치를 파악할 수 있습니다.
 * [읽기용 보기](end-user-reading-view.md)에서 [보고서를 여는 방법](end-user-report-open.md)과 모든 사용 가능한 상호 작용에 대해 살펴봅니다. 
 * [샘플](../sample-tutorial-connect-to-the-samples.md) 중 하나를 둘러보면 보고서에 금방 익숙해 집니다.  
-* 보고서가 더 이상 필요하지 않는 경우 [제거할 수 있습니다](end-user-delete.md).
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * 보고서가 어떤 데이터 집합을 사용 중이며 어떤 대시보드가 보고서에서 고정된 타일이 있는지 확인하려면 [관련된 콘텐츠를 봅니다](end-user-related.md).
 
 > [!TIP]
@@ -79,6 +79,4 @@ Power BI를 처음 접하는 경우 [Power BI 기본 개념](end-user-basic-conc
 [Power BI란?](../power-bi-overview.md) 
 
 [Power BI - 기본 개념](end-user-basic-concepts.md)
-
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

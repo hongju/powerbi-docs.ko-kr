@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 99d8faa7ba3e0e92f97e84bd52454ad44a472e71
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 00f4f63630efd36b55da5e15ce28f1733edaf84f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547295"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908673"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
 Windows 10용 Power BI 모바일 앱은 태블릿이나 폰에 Power BI를 통해 비즈니스 정보에 대한 터치 기반의 최신 모바일 액세스를 제공합니다. 어디서든 [Windows 시작 화면](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)에서 회사 대시보드를 보고 조작할 수 있습니다.
@@ -108,7 +108,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 Power BI의 대시보드 및 보고서, 또는 Reporting Services 웹 포털의 Reporting Services 모바일 보고서 및 KPI를 사용하여 Windows 10 장치용 Power BI 앱에서 수행할 수 있는 몇 가지 다른 작업입니다.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서
-* [앱](../end-user-apps.md) 보기.
+* [앱](../../service-create-distribute-apps.md) 보기.
 * [대시보드](mobile-apps-view-dashboard.md) 보기.
 * 장치의 시작 화면의 라이브 타일에 [대시보드 및 Power BI 타일 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
 * [타일 공유](mobile-windows-10-phone-app-get-started.md).

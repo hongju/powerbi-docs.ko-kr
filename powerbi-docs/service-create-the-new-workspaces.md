@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5a94b4c808dcb7cbb040f68c0de7588a3b99c155
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548836"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909018"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Power BI에서 새 작업 영역 만들기(미리 보기)
 
@@ -130,7 +130,7 @@ Power BI는 새 작업 영역 환경을 미리 보기 상태로 소개합니다.
 
 ## <a name="distribute-an-app"></a>앱 배포
 
-콘텐츠가 준비되면 게시할 대시보드 및 보고서를 선택한 다음, *앱*으로 게시합니다. 각 작업 영역에서 하나의 앱을 만들 수 있습니다. 동료는 몇 가지 다른 방법으로 앱을 설치할 수 있습니다. Power BI 관리자가 사용자에게 사용 권한을 부여한 경우 동료의 Power BI 계정에서 해당 앱을 자동으로 설치할 수 있습니다. 그렇지 않으면 Microsoft AppSource에서 해당 앱을 찾아 설치하거나 직접 링크를 보낼 수 있습니다. 업데이트를 자동으로 가져오므로, 데이터 새로 고침 빈도를 조절할 수 있습니다. 자세한 내용은 [Power BI에서 대시보드 및 보고서로 앱 생성 및 게시](consumer/end-user-create-apps.md)를 참조하세요.
+콘텐츠가 준비되면 게시할 대시보드 및 보고서를 선택한 다음, *앱*으로 게시합니다. 각 작업 영역에서 하나의 앱을 만들 수 있습니다. 동료는 몇 가지 다른 방법으로 앱을 설치할 수 있습니다. Power BI 관리자가 사용자에게 사용 권한을 부여한 경우 동료의 Power BI 계정에서 해당 앱을 자동으로 설치할 수 있습니다. 그렇지 않으면 Microsoft AppSource에서 해당 앱을 찾아 설치하거나 직접 링크를 보낼 수 있습니다. 업데이트를 자동으로 가져오므로, 데이터 새로 고침 빈도를 조절할 수 있습니다. 자세한 내용은 [Power BI에서 대시보드 및 보고서로 앱 생성 및 게시](service-create-distribute-apps.md)를 참조하세요.
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>이전 앱 작업 영역을 새 앱 작업 영역으로 변환
 
@@ -172,7 +172,6 @@ Power BI는 새 작업 영역 환경을 미리 보기 상태로 소개합니다.
 - 경우에 따라 프리미엄 용량에서 공유 용량으로 작업 영역을 이동한 후에 무료 사용자 및 사용자 그룹이 수신하지 말아야 할 이메일을 계속 받게 됩니다. 구독을 만든 사용자의 내 작업 영역이 프리미엄 용량에 위치한 경우에 이 문제가 발생합니다.
 
 ## <a name="next-steps"></a>다음 단계
-
-- [현재 작업 영역 만들기](service-create-workspaces.md)
-* [Power BI에서 앱 설치 및 사용](consumer/end-user-apps.md)
+* [현재 작업 영역 만들기](service-create-workspaces.md)
+* [Power BI에서 앱 설치 및 사용](service-create-distribute-apps.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

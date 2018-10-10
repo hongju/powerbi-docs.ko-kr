@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 08/16/2018
-ms.openlocfilehash: 6960945d878269344e8993577a8eac239d8ca4a4
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549894"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908374"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -85,7 +85,7 @@ SharePoint Online에 보고서를 포함시키는 것이 사용자에게 보고�
 > [!IMPORTANT]
 > Power BI 서비스 내에서 보고서를 볼 수 있는 사람이 누구인지 확인하고 목록에 없는 사람에게 액세스 권한을 부여합니다.
 
-Power BI 서비스 내에서 보고서에 액세스 권한을 부여하는 방법에는 두 가지가 있습니다. Office 365 그룹을 사용하여 SharePoint Online 팀 사이트를 빌드하는 경우 사용자를 **Power BI 서비스 내 앱 작업 영역** 및 **SharePoint 페이지**의 구성원으로 나열합니다. 그러면 사용자가 해당 그룹의 콘텐츠를 볼 수 있게 됩니다. 자세한 내용은 [Power BI에서 앱 만들기 및 배포](consumer/end-user-create-apps.md)를 참조하십시오.
+Power BI 서비스 내에서 보고서에 액세스 권한을 부여하는 방법에는 두 가지가 있습니다. Office 365 그룹을 사용하여 SharePoint Online 팀 사이트를 빌드하는 경우 사용자를 **Power BI 서비스 내 앱 작업 영역** 및 **SharePoint 페이지**의 구성원으로 나열합니다. 그러면 사용자가 해당 그룹의 콘텐츠를 볼 수 있게 됩니다. 자세한 내용은 [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md)를 참조하십시오.
 
 또는 다음을 수행하여 사용자에게 보고서 액세스 권한을 부여할 수 있습니다.
 
@@ -151,7 +151,7 @@ Power BI 웹 파트 내에서 보고서가 로드되지 않고 다음과 같은 
 ## <a name="next-steps"></a>다음 단계
 
 [최종 사용자의 최신 사이트 페이지 작성 허용 또는 금지](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Power BI에서 앱 만들기 및 배포](consumer/end-user-create-apps.md)  
+[Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md)  
 [동료 및 다른 사용자와 대시보드 공유](service-share-dashboards.md)  
 [Power BI 프리미엄이란?](service-premium.md)  
 

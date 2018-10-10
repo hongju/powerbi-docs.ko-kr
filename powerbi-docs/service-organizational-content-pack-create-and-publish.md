@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eaf70dab21bd35947582e343567bb1457b99cabc
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547985"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908466"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Power BI 조직 콘텐츠 팩 만들기 및 게시(자습서)
 
@@ -92,7 +92,7 @@ Contoso의 릴리스 관리자이고 신제품 출시를 준비하는 중이라�
 ### <a name="next-steps"></a>다음 단계
 * [조직 콘텐츠 팩 소개](service-organizational-content-pack-introduction.md)  
 * [조직 콘텐츠 팩 관리, 업데이트 및 삭제](service-organizational-content-pack-manage-update-delete.md)  
-* [Power BI에서 그룹 만들기](consumer/end-user-create-apps.md)  
+* [Power BI에서 그룹 만들기](service-create-distribute-apps.md)  
 * [비즈니스용 OneDrive란?](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

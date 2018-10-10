@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 334bffeabbf5342c21424fa5d9907eba7e71fd4e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546122"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909041"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -205,7 +205,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 > [!NOTE]
 > 테넌트 설정을 변경하면 적용하는 데 다소 시간이 걸릴 수 있습니다.
 
-여기로 이동하여 [앱 푸시](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users)에 대해 자세히 알아봅니다.
+여기로 이동하여 [앱 푸시](service-create-distribute-apps.md)에 대해 자세히 알아봅니다.
 
 ## <a name="integration-settings"></a>통합 설정
 

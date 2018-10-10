@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bd8a8b9a9aff451282c5cef8a6dd6f27b90335d7
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1bb1831d37dc3f8bfe5ee141859cbccec541735e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548698"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908788"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Power BI로 Google 분석에 연결
 Power BI를 통해 Google 분석에 연결하는 경우 먼저 Google 분석 계정에 연결합니다. 사이트 트래픽 및 사용자 차원에 대한 통찰력을 제공하는 Power BI 대시보드 및 Power BI 보고서 집합을 가져옵니다. 대시보드 및 보고서를 조작할 수 있지만 변경 내용을 저장할 수 없습니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다.
@@ -27,16 +27,16 @@ Power BI Desktop에서 [Google 웹로그 분석 커넥터](service-google-analyt
 ## <a name="how-to-connect"></a>연결 방법
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. **Google Analytics** \> **가져오기**를 선택합니다.
+3. **Google Analytics** \> **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-google-analytics/ga.png)
-2. 메시지가 표시되면 Google 분석 자격 증명을 입력합니다. **oAuth 2** 를 인증 메커니즘으로 선택하고 **로그인**을 클릭합니다. 구성된 경우 2단계 인증을 포함할 수 있는 Google 인증 흐름을 따릅니다.
+4. 메시지가 표시되면 Google 분석 자격 증명을 입력합니다. **oAuth 2** 를 인증 메커니즘으로 선택하고 **로그인**을 클릭합니다. 구성된 경우 2단계 인증을 포함할 수 있는 Google 인증 흐름을 따릅니다.
    
    ![](media/service-connect-to-google-analytics/creds.png)
-3. **허용** 을 클릭하여 Power BI가 Google 분석 데이터에 액세스할 수 있도록 합니다.
+5. **허용** 을 클릭하여 Power BI가 Google 분석 데이터에 액세스할 수 있도록 합니다.
    
    ![](media/service-connect-to-google-analytics/googleanalytics.png)
-4. Power BI가 특정 Google 웹로그 분석 뷰에 연결됩니다. 연결하려는 계정 이름, 속성 이름 및 뷰 이름을 선택합니다. 이 정보는 Google 분석 계정의 왼쪽 위 또는 **홈** 탭에서 확인할 수 있습니다. 아래 세부 정보를 참조하세요. 
+6. Power BI가 특정 Google 웹로그 분석 뷰에 연결됩니다. 연결하려는 계정 이름, 속성 이름 및 뷰 이름을 선택합니다. 이 정보는 Google 분석 계정의 왼쪽 위 또는 **홈** 탭에서 확인할 수 있습니다. 아래 세부 정보를 참조하세요. 
    
    ![](media/service-connect-to-google-analytics/params2.png)
 5. **연결** 을 클릭하여 가져오기 프로세스를 시작합니다. 
@@ -44,7 +44,7 @@ Power BI Desktop에서 [Google 웹로그 분석 커넥터](service-google-analyt
 ## <a name="view-the-google-analytics-dashboard-and-reports"></a>Google 웹로그 분석 대시보드 및 보고서 보기
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![](media/service-connect-to-google-analytics/googleanalytics2.png)
+   ![](media/service-connect-to-google-analytics/googleanalytics2.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -69,7 +69,7 @@ Power BI를 연결하려면 [Google 웹로그 분석](https://www.google.com/ana
 * 이 문서를 보고 있는 Power BI 지원 사이트에서 페이지의 오른쪽에 있는 **고객 지원** 을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI에서 앱이란?](consumer/end-user-apps.md)
+* [Power BI에서 앱이란?](service-create-distribute-apps.md)
 * [Power BI에서 데이터 가져오기](service-get-data.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

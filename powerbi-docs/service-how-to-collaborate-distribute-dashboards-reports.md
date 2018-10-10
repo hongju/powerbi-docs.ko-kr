@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271716"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908972"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI에서 공동 작업하고 공유하려면 어떻게 해야 하나요?
 
@@ -57,7 +57,7 @@ ms.locfileid: "48271716"
 
 ![앱 게시 아이콘](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-앱은 Power BI 서비스([https://powerbi.com](https://powerbi.com))에서 쉽게 찾아 설치할 수 있습니다. 앱에 대한 직접 링크를 비즈니스 사용자에게 보내거나, 해당 사용자가 AppSource에서 해당 앱을 검색할 수 있습니다. Power BI 관리자가 권한을 부여한 경우 동료의 Power BI 계정에 해당 앱을 자동으로 설치할 수 있습니다. [앱 게시](consumer/end-user-create-apps.md)에 대해 자세히 알아봅니다. 
+앱은 Power BI 서비스([https://powerbi.com](https://powerbi.com))에서 쉽게 찾아 설치할 수 있습니다. 앱에 대한 직접 링크를 비즈니스 사용자에게 보내거나, 해당 사용자가 AppSource에서 해당 앱을 검색할 수 있습니다. Power BI 관리자가 권한을 부여한 경우 동료의 Power BI 계정에 해당 앱을 자동으로 설치할 수 있습니다. [앱 게시](service-create-distribute-apps.md)에 대해 자세히 알아봅니다. 
 
 앱을 설치한 후에 브라우저 또는 모바일 장치에서 볼 수 있습니다.
 
@@ -99,7 +99,7 @@ Power BI 보고서는 어떤 장치에서든 블로그 게시물, 웹 사이트,
 
 ## <a name="next-steps"></a>다음 단계
 * [동료 및 다른 사용자와 대시보드 공유](service-share-dashboards.md)
-* [Power BI에서 앱 만들기 및 게시](consumer/end-user-create-apps.md)
+* [Power BI에서 앱 만들기 및 게시](service-create-distribute-apps.md)
 * 의견이 있으신가요? 제안 사항이 있으시면 [Power BI 커뮤니티 사이트](https://community.powerbi.com/)를 방문하세요.
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.
 

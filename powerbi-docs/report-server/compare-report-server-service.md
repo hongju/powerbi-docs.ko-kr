@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548491"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908534"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -33,7 +33,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 게이트웨이 필요 | 아니요 | 온-프레미스 데이터 원본의 경우 예 |  
 | 실시간 스트리밍 | 아니요 | 예 | [Power BI에서 실시간 스트리밍](../service-real-time-streaming.md)
 | 대시보드 | 아니요 | 예 | [Power BI 서비스의 대시보드](../consumer/end-user-dashboards.md) 
-| 앱을 사용하여 보고서 그룹 배포 | 아니요 | 예 | [대시보드 및 보고서로 앱 생성 및 게시](../consumer/end-user-create-apps.md) 
+| 앱을 사용하여 보고서 그룹 배포 | 아니요 | 예 | [대시보드 및 보고서로 앱 생성 및 게시](../service-create-distribute-apps.md) 
 | 콘텐츠 팩 | 아니요 | 예 | [조직 콘텐츠 팩: 소개](../service-organizational-content-pack-introduction.md) 
 | Salesforce와 같은 서비스에 연결 | 아니요 | 예 | Power BI 서비스와 함께 [사용하는 서비스에 연결](../consumer/end-user-connect-to-services.md)
 | 질문 및 답변 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop의 질문 및 답변](../consumer/end-user-q-and-a.md) 
