@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48798934"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112156"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>빠른 시작 - Power BI 서비스 살펴보기
 
@@ -125,7 +125,7 @@ Power BI 서비스 탐색 경험을 안내하는 Amanda를 봅니다.  그런 �
 
 ![내용 정렬](./media/end-user-experience/power-bi-sort.png)
 
-자세한 내용은 [Power BI 탐색: 검색, 정렬, 필터링](end-user-search-filter-sort.md)을 참조하세요.
+자세한 내용은 [Power BI 탐색: 검색, 정렬, 필터링](end-user-search-sort.md)을 참조하세요.
 
 ## <a name="clean-up-resources"></a>리소스 정리
 이 빠른 시작을 완료한 후 원하는 경우 소매점 분석 샘플 대시보드, 보고서 및 데이터 집합을 삭제할 수 있습니다.
