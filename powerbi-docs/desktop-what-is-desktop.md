@@ -36,7 +36,7 @@ ms.locfileid: "39031905"
 **Power BI Desktop**을 통해 여러 원본의 데이터를 사용하여 조직의 다른 사용자와 공유할 수 있는 통합 보고서인 복잡하고 시각적으로 풍부한 보고서를 만들 수 있습니다. 
 
 ## <a name="connect-to-data"></a>데이터에 연결
-**Power BI Desktop**을 시작하려면 첫 번째 단계는 데이터에 연결하는 것입니다. **Power BI Desktop**에서 연결할 수 있는 다양한 데이터 원본이 있습니다. 데이터에 연결하려면 **홈** 리본을 선택한 다음, **데이터 가져오기 > 기타**를 선택합니다. 다음 이미지에는 Power BI Desktop이 연결할 수 있는 여러 범주를 보여주는 **데이터 가져오기** 창이 표시됩니다.
+**Power BI Desktop**을 시작하기 위한 첫 번째 단계는 데이터에 연결하는 것입니다. **Power BI Desktop**에서 연결할 수 있는 다양한 데이터 원본이 있습니다. 데이터에 연결하려면 **홈** 리본을 선택한 다음, **데이터 가져오기 > 추가**를 선택합니다. 다음 이미지에는 Power BI Desktop이 연결할 수 있는 여러 범주를 보여주는 **데이터 가져오기** 창이 표시됩니다.
 
 ![Power BI Desktop에서 데이터 가져오기](media/desktop-what-is-desktop/what-is-desktop_02.png)
 
