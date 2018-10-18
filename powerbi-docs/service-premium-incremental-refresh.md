@@ -57,7 +57,7 @@ Power BI 서비스에서 증분 새로 고침을 활용하려면 예약된 **Ran
 
 ![사용자 지정 필터](media/service-premium-incremental-refresh/custom-filter.png)
 
-열 값이 **RangeStart***보다 이후이거나 같고* **RangeEnd**보다 *이전*인 행이 필터링되는지 확인합니다.
+열 값이 **RangeStart** *보다 이후이거나 같고* **RangeEnd**보다 *이전*인 행이 필터링되는지 확인합니다.
 
 ![행 필터링](media/service-premium-incremental-refresh/filter-rows.png)
 
