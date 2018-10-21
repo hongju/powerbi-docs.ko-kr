@@ -75,7 +75,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
     
     ![수식 입력줄](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png)
     
-2.  기본적으로 새 측정값의 이름은 간단히 측정값입니다. 이름을 바꾸지 않으면 추가적인 새 측정값의 이름이 측정값 2, 측정 3 등으로 지정됩니다. 측정값을 보다 쉽게 식별하려고 하므로 수식 입력줄에서 **측정값**을 강조 표시한 다음, **Net Sales**를 입력합니다.
+2.  기본적으로 새 측정값의 이름은 간단히 측정값입니다. 이름을 바꾸지 않으면 추가적인 새 측정값의 이름이 측정값 2, 측정값 3 등으로 지정됩니다. 측정값을 보다 쉽게 식별하려고 하므로 수식 입력줄에서 **측정값**을 강조 표시한 다음, **Net Sales**를 입력합니다.
     
 3.  이제 수식 입력을 시작할 수 있습니다. 등호 기호 뒤에 먼저 **Sum**을 입력합니다. 입력할 때 입력하는 문자로 시작하는 모든 DAX 함수를 보여주는 드롭다운 제안 목록이 표시됩니다. 필요한 경우 아래로 스크롤하여 목록에서 **SUM**을 선택한 다음, Enter 키를 누릅니다.
     
@@ -89,7 +89,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
     
     ![SalesAmount 선택](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
-4. **판매액[SalesAmount]** 를 선택하고 닫는 괄호를 입력합니다.
+4. **Sales[SalesAmount]** 를 선택하고 닫는 괄호를 입력합니다.
     
     > [!TIP]
     > 구문 오류는 닫는 괄호가 누락되거나 잘못 배치되어 발생하는 경우가 가장 많습니다.
