@@ -89,7 +89,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
     
     ![SalesAmount 선택](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
-4. **판매액[SalesAmount]** 를 선택하고 닫는 괄호를 입력합니다.
+4. **Sales[SalesAmount]** 를 선택하고 닫는 괄호를 입력합니다.
     
     > [!TIP]
     > 구문 오류는 닫는 괄호가 누락되거나 잘못 배치되어 발생하는 경우가 가장 많습니다.
