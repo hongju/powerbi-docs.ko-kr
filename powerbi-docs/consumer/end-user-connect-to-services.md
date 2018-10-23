@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Connect to services
-ms.openlocfilehash: add6a02d10c2dfe0e0fd93b9d12f03a10d057241
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 8d8446f231d1de3527d5371a55542641c29cca83
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908213"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435284"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI로 사용하는 서비스에 연결
 
@@ -60,7 +60,7 @@ Power BI 앱에 제안하려는 서비스를 사용하나요? [Power BI 지원](
 앱을 구축하려는 서비스가 있나요? [추천을 제출](https://azure.microsoft.com/marketplace/programs/certified/apply/)하고 "Power BI 콘텐츠 팩 게시"를 선택하여 시작합니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI에서 앱이란?](../service-install-use-apps.md)
+* [Power BI에서 앱이란?](end-user-apps.md)
 * [Power BI에서 데이터 가져오기](../service-get-data.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

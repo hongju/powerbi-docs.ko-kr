@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 668db107087420ceeabbe68325ee6c67dc69e524
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547203"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396638"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI의 SQL Server Analysis Services 라이브 데이터
 Power BI에서는 두 가지 방법으로 라이브 SQL Server Analysis Services 서버에 연결할 수 있습니다. **데이터 가져오기**에서 SQL Server Analysis Services 서버에 연결하거나 이미 Analysis Services 서버에 연결된 [Power BI Desktop 파일](service-desktop-files.md) 또는 [Excel 통합 문서](service-excel-workbook-files.md)에 연결할 수 있습니다. Power BI Desktop 파일의 백업 복사본을 로컬에서 유지 관리하는 다양한 도구 집합 및 기능 때문에 Power BI Desktop을 사용하는 것이 좋습니다.
@@ -23,7 +23,7 @@ Power BI에서는 두 가지 방법으로 라이브 SQL Server Analysis Services
  >[!IMPORTANT]
  >* 라이브 Analysis Services 서버에 연결하려면 관리자가 온-프레미스 데이터 게이트웨이를 설치하고 구성해야 합니다. 자세한 내용은 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)를 참조하세요.
  >* 게이트웨이를 사용하는 경우 데이터가 온-프레미스로 유지됩니다.  해당 데이터를 기반으로 하여 만든 보고서는 Power BI 서비스에 저장됩니다. 
- >* [질문 및 답변 자연어 쿼리](consumer/end-user-q-and-a-direct-query.md)는 Analysis Services 라이브 연결에 대해 미리 보기 상태입니다.
+ >* [질문 및 답변 자연어 쿼리](service-q-and-a-direct-query.md)는 Analysis Services 라이브 연결에 대해 미리 보기 상태입니다.
 
 ## <a name="to-connect-to-a-model-from-get-data"></a>데이터 가져오기에서 모델에 연결하려면
 1. **내 작업 영역**에서 **데이터 가져오기**를 선택합니다. 사용 가능한 경우에 그룹 작업 영역으로 변경할 수도 있습니다.

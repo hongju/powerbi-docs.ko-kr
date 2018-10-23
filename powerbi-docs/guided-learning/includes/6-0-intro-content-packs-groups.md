@@ -2,8 +2,6 @@ Power BI에 대한 **단계별 학습** 과정의 **게시 및 공유** 단원�
 
 Excel과 Power BI가 원활하게 함께 작동하는 방식과 보고서 및 대시보드에서 만들 수 있는 시각적 개체에 대한 모든 내용을 배웠으므로 이를 동료 및 친구와 공유하고 싶을 것입니다. Power BI를 사용하면 **게시 및 공유**가 간편합니다.
 
-이 단원에서는 Excel 통합 문서를 Power BI로 가져오는 것이 얼마나 쉬운지, 그리고 Power BI와 Excel이 효율적으로 함께 작동하는 과정을 보여 줍니다.
-
 ## <a name="share-and-collaborate-with-colleagues-in-power-bi"></a>Power BI에서 동료와 공유 및 공동 작업
 *Power BI를 사용하여 공유 및 공동 작업을 수행할 때 이를 손쉽게 수행하도록 도와주는 도구를 알아봅니다.*
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908903"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641393"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Power BI로 Microsoft Dynamics NAV에 연결
 Power BI를 사용하면 Microsoft Dynamics NAV에 대한 정보를 쉽게 파악할 수 있습니다. Power BI는 영업 및 재무를 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 사용하여 앱을 구축합니다. Power BI는 데이터가 검색되는 원본 테이블(이 경우에 영업 및 재무 데이터)에 대한 사용 권한이 필요합니다. 요구 사항에 대한 자세한 내용은 아래에 나와 있습니다. 앱을 설치한 후 Power BI 서비스([https://powerbi.com](https://powerbi.com)) 및 Power BI 모바일 앱에서 대시보드 및 보고서를 볼 수 있습니다. 
@@ -29,7 +29,7 @@ Power BI를 사용하면 Microsoft Dynamics NAV에 대한 정보를 쉽게 파�
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
 4. 대화 상자가 나타나면 Microsoft Dynamics NAV OData URL을 입력합니다. URL은 다음 패턴과 일치해야 합니다.
    
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
    * NAV 서버 이름이 있는 "instance.navserver.com"
    * NAV 서버 인스턴스 이름이 있는 "DynamicsNAV90\_Instance1"
@@ -72,7 +72,7 @@ Microsoft Dynamics NAV URL 입력 후에 이 오류가 표시되면 다음 요�
 
 * URL은 정확하게 이 패턴을 따릅니다.
   
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
   
   * NAV 서버 이름이 있는 "instance.navserver.com"
   * NAV 서버 인스턴스 이름이 있는 "DynamicsNAV90\_Instance1"
@@ -92,11 +92,11 @@ Microsoft Dynamics NAV URL 입력 후에 이 오류가 표시되면 다음 요�
 
 * URL가 위에서 지정한 패턴을 따르는지 확인합니다. 일반적인 실수를 지정합니다.
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
     그러나 NAV 회사 이름을 가진 'Company('CRONUS%20International%20Ltd.')' 섹션을 포함해야 합니다.
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 앱이란?](service-create-distribute-apps.md)

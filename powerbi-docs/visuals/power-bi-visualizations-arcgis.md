@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 10/16/2018
 ms.author: mihart
-ms.openlocfilehash: a312a4311590d02d0fa8bd97726f9cf596cfe6a0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2c7a9d5f6bdbbfff905f3faa8cec255c2b85a0d5
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545777"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396805"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI에서 ArcGIS 지도와 상호 작용
 이 토픽은 Power BI 서비스, 데스크톱 또는 모바일에서 ArcGIS 지도를 *사용하는* 사람의 관점에서 작성됩니다. 작성자가 ArcGIS 지도를 사용자와 공유하면 여러 가지 방법으로 해당 지도와 상호 작용할 수 있습니다.  ArcGIS 지도를 작성하는 방법에 대한 자세한 내용은 [Esri에서 제공하는 ArcGIS 지도](../power-bi-visualization-arcgis.md)를 참조하세요.
@@ -57,7 +57,7 @@ Power BI용 ArcGIS Maps에서는 세 가지 선택 모드를 사용할 수 있�
 ## <a name="interacting-with-an-arcgis-map"></a>ArcGIS 지도와 상호 작용
 사용 가능한 기능은 사용자가 *작성자*(지도를 만든 사람)인지 *소비자*(사용자와 ArcGIS 지도를 공유한 사람)인지에 따라 달라집니다. 소비자로서 ArcGIS 지도와 상호 작용하는 경우(즉, [읽기용 보기](../consumer/end-user-reading-view.md)), 할 수 있는 작업은 다음과 같습니다.
 
-* 다른 시각화 유형의 경우 [대시보드에 고정](../service-dashboard-pin-tile-from-report.md), [보기](../consumer/end-user-show-data.md) 및/또는 [기본 데이터 내보내기](../consumer/end-user-export-data.md)를 할 수 있으며, [포커스 모드](../consumer/end-user-focus.md) 및 [전체 화면](../service-fullscreen-mode.md)에서 지도를 볼 수 있습니다.    
+* 다른 시각화 유형의 경우 [대시보드에 고정](../service-dashboard-pin-tile-from-report.md), [보기](../consumer/end-user-show-data.md) 및/또는 [기본 데이터 내보내기](power-bi-visualization-export-data.md)를 할 수 있으며, [포커스 모드](../consumer/end-user-focus.md) 및 [전체 화면](../service-fullscreen-mode.md)에서 지도를 볼 수 있습니다.    
 * 필터를 사용하여 맵을 탐색하기 위해 **필터** 창을 확장합니다. 보고서를 닫으면 적용된 필터는 저장되지 않습니다.    
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * 지도에 참조 계층이 있는 경우 도구 설명에 세부 정보를 표시할 위치를 선택합니다. 여기에서 Adams 카운티를 선택하고 작성자가 지도에 추가한 평균 가구 소득 참조 계층의 데이터를 참조합니다.

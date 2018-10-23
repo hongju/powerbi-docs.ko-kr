@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6cd667a81a743a0b074155e0e16a49178157bc6c
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547884"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396500"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Power BI의 질문 및 답변에서 Excel 데이터가 잘 작동하게 만드는 방법
 데이터 모델을 만들거나 Power BI에 사용할 Excel 통합 문서를 작성하는 사람이라면 다음을 확인하세요.
@@ -45,7 +45,7 @@ Power BI에서는 질문 및 답변으로 구조화된 데이터를 검색하고
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI의 Q&A](consumer/end-user-q-and-a.md)로 돌아가기  
-[질문 및 답변에 대한 온-프레미스 데이터 집합 준비](consumer/end-user-q-and-a-direct-query.md)   
+[질문 및 답변에 대한 온-프레미스 데이터 집합 준비](service-q-and-a-direct-query.md)   
 [질문 및 답변 빠른 시작](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI에 대한 데이터 가져오기](service-get-data.md)  
 
