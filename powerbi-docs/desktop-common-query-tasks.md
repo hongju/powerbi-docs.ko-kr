@@ -56,7 +56,7 @@ Power BI Desktop의 데이터에 연결하려면 리본의 **홈** 탭에서 **�
 
 ![](media/desktop-common-query-tasks/datasources_fromwebbox.png)
 
-**O확인**,을 선택하면, 이전처럼 Power BI Desktop이 통합 문서를 검사하고 찾은 데이터를 **탐색기** 창에 표시합니다.
+**확인** 을 선택하면, 이전처럼 Power BI Desktop이 통합 문서를 검사하고 찾은 데이터를 **탐색기** 창에 표시합니다.
 
 다른 데이터 연결도 비슷합니다. 데이터 연결에 인증이 필요한 경우 Power BI Desktop이 적절한 자격 증명을 묻는 메시지를 표시합니다.
 
