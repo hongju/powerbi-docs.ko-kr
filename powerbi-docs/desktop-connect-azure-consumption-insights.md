@@ -39,7 +39,7 @@ ms.locfileid: "39329917"
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
-  이 버전의 커넥터는 https://ea.azure.com에서 엔터프라이즈 등록을 지원합니다. 중국 등록은 현재 지원되지 않습니다.
+  이 버전의 커넥터는 https://ea.azure.com 에서 엔터프라이즈 등록을 지원합니다. 중국 등록은 현재 지원되지 않습니다.
 
 다음으로 연결할 *선택키*를 제공합니다.
 
