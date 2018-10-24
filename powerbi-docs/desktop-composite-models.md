@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388850"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336993"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop의 복합 모델(미리 보기)
 
@@ -58,7 +58,7 @@ DirectQuery를 사용하는 경우 **복합 모델**에서는 다음을 수행�
 예를 들어 **복합 모델**을 사용하면 스프레드시트에서 가져온 데이터와 함께, 엔터프라이즈 데이터 웨어하우스의 데이터를 부서별 SQL Server 데이터베이스에 있는 판매 대상 데이터와 결합하는 모델을 빌드할 수 있습니다. 둘 이상 DirectQuery 원본의 데이터를 결합하거나 DirectQuery를 가져온 데이터와 결합하는 모델을 ‘복합 모델’이라고 합니다.
 
 > [!NOTE]
-> 복합 모델이 미리 보기 상태인 동안에는 Power BI 서비스에 복합 모델을 게시할 수 없습니다. 
+> **Power BI Desktop**의 2018년 10월 릴리스부터 Power BI 서비스에 대한 복합 모델을 Power BI 서비스에 게시’할 수 있습니다’. 예약된 새로 고침 및 대시보드 타일 새로 고침의 경우 Power BI 서비스의 복합 모델은 모델 가져오기와 동일한 방식으로 동작합니다. 
 
 테이블이 다양한 원본에서 오는 경우에도 일반적인 경우처럼 해당 테이블 간에 관계를 만들 수 있으며 다음 제한 사항이 적용됩니다. 교차 원본인 관계는 실제 카디널리티와 관계없이 **다 대 다** 카디널리티를 포함하는 것으로 정의해야 합니다. [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)에 설명된 대로 해당 관계의 동작은 **다 대 다** 관계의 정상 동작과 동일합니다. 복합 모델의 컨텍스트 내에서 모든 가져온 테이블은 실제로 가져온 실제 기본 데이터 원본과 관계없이 실질적으로 단일 원본입니다.   
 
@@ -164,12 +164,13 @@ DirectQuery를 사용하는 경우 주로 사용자에게 좋은 환경을 제�
 
 **복합 모델**의 이 릴리스에는 몇 가지 제한 사항이 있습니다.
 
-다음 다차원 원본은 **복합 모델**과 함께 사용할 수 없습니다.
+다음 Live Connect(다차원) 원본은 **복합 모델**과 함께 사용할 수 없습니다.
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI 데이터 집합
+* Azure Analysis Services
 
 DirectQuery를 사용하여 이러한 다차원 원본에 연결할 경우 다른 DirectQuery 원본에 연결할 수 없고 가져온 데이터와 결합할 수도 없습니다.
 

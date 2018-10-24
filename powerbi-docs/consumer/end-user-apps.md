@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/09/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0d9f16933bff264b10c0bff3e1b7c440a3d373a2
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48907857"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112202"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다. 조직의 사용자는 주요 비즈니스 정보를 사용하여 앱을 만들고 배포할 수 있습니다. 이미 사용 중일 수 있는 Google 웹로그 분석 및 Microsoft Dynamics CRM과 같은 [외부 서비스](end-user-connect-to-services.md)에서도 Power BI 앱을 제공합니다. 
@@ -34,13 +34,13 @@ Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모
 
 **컴퓨터에서** 
 
-이메일의 링크를 클릭하면 Power BI 서비스([https://powerbi.com](https://powerbi.com))가 브라우저에서 열립니다. 앱을 설치 의사를 확인하면 앱 시작 페이지로 열립니다.
+메일에서 링크를 선택하여 브라우저에서 Power BI 서비스([https://powerbi.com](https://powerbi.com))를 엽니다. 앱을 설치하겠다고 확인하면 앱 방문 페이지가 열립니다.
 
 ![Power BI 서비스의 앱 방문 페이지](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
 
 **iOS 또는 Android 모바일 장치에서** 
 
-모바일 장치에서 이메일의 링크를 클릭하면 앱이 자동으로 설치되어 모바일 앱에서 앱 콘텐츠 목록을 엽니다. 
+모바일 장치에서 메일의 링크를 선택하면 앱이 자동으로 설치되어 모바일 앱에서 앱 콘텐츠 목록을 엽니다. 
 
 ![모바일 장치의 앱 콘텐츠 목록](./media/end-user-apps/power-bi-app-index-it-spend-360.png)
 
@@ -50,7 +50,7 @@ Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모
 1. **앱** ![왼쪽 탐색 창의 앱](./media/end-user-apps/power-bi-apps-bar.png) > **앱 가져오기**를 선택합니다. 
    
      ![앱 가져오기 아이콘](./media/end-user-apps/power-bi-service-apps-get-apps-oppty.png)
-2. AppSource의 **내 조직**에서 검색하여 결과 범위를 좁힌 후 찾고자 하는 앱을 찾을 수 있습니다.
+2. AppSource의 **내 조직**에서 검색하여 결과 범위를 좁힌 후 찾고자 하는 앱을 찾습니다.
    
      ![내 조직의 AppSource에서](./media/end-user-apps/power-bi-appsource-my-org.png)
 3. **지금 가져오기**를 선택하여 앱 페이지에 추가합니다. 

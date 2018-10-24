@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 10/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
+ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974210"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49359726"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop의 집계(미리 보기)
 
@@ -191,9 +191,9 @@ Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있�
 
 ![Driver Activity Agg 테이블에 대한 집계 관리 대화 상자](media/desktop-aggregations/aggregations_11.jpg)
 
-다음 표에는 **Sales Agg** 테이블에 대한 집계가 나와 있습니다.
+다음 표에는 **Driver Activity Agg** 테이블에 대한 집계가 나와 있습니다.
 
-![Sales Agg 집계 테이블](media/desktop-aggregations/aggregations-table_02.jpg)
+![Driver Activity Agg 집계 테이블](media/desktop-aggregations/aggregations-table_02.jpg)
 
 ### <a name="group-by-columns"></a>Group By 열
 
@@ -229,9 +229,9 @@ Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있�
 
 ![집계 관리 대화 상자](media/desktop-aggregations/aggregations_14.jpg)
 
-다음 표에는 **Sales Agg** 테이블에 대한 집계가 나와 있습니다.
+다음 표에는 **Driver Activity Agg2** 테이블에 대한 집계가 나와 있습니다.
 
-![Sales Agg 집계 테이블](media/desktop-aggregations/aggregations-table_03.jpg)
+![Driver Activity Agg2 집계 테이블](media/desktop-aggregations/aggregations-table_03.jpg)
 
 ## <a name="aggregations-based-on-group-by-columns-combined-with-relationships"></a>관계와 결합된 group-by 열 기반 집계
 

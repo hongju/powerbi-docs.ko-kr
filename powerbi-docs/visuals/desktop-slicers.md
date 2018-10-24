@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 161ea8f20db36c129787e84242ea002980d0f8dd
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: df4afe91de955eabfba6eeea9022cc5f9475cc33
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565869"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336855"
 ---
 # <a name="using-slicers-power-bi-desktop"></a>Power BI Desktop의 슬라이서 사용
 
@@ -65,6 +65,12 @@ ms.locfileid: "46565869"
 이 기능을 사용하면 사용자 지정 슬라이서 그룹을 만들어 동기화 상태를 유지할 수 있습니다. 기본 이름이 제공되지만 원하는 이름을 사용할 수 있습니다. 
 
 그룹 이름은 슬라이서에 추가적인 유연성을 제공합니다. 동일한 필드를 사용하는 슬라이서를 동기화할 별도의 그룹을 만들거나 다른 필드를 사용하는 슬라이서를 동일한 그룹에 배치할 수 있습니다. 
+
+## <a name="how-filtering-affects-selection-in-slicers"></a>슬라이서에서 필터링이 선택에 영향을 주는 방법
+
+슬라이서에서 선택한 다음, 일반적으로 선택한 항목을 제거하는 필터를 적용하면 해당 슬라이서의 항목 목록 맨 아래에 남아 있습니다. 필터가 제거되면 선택 항목은 계속 해당 슬라이서에 남아 있습니다. 슬라이서에서 항목을 선택 취소하면 목록에서 사라집니다.
+
+![슬라이서에서 보유한 선택 항목](./media/desktop-slicers/retained-selection-in-slicers.gif)
 
 
 ## <a name="next-steps"></a>다음 단계

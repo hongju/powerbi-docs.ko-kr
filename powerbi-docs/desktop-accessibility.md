@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256035"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336878"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서의 내게 필요한 옵션
 Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 상호 작용할 수 있도록 하는 기능이 있습니다. 이러한 기능에는 키보드 또는 화면 판독기를 사용하여 보고서를 이용하고 탭 키로 페이지에 있는 다양한 개체에 포커스를 이동하며 시각적 개체에 표식을 세밀하게 사용하는 기능이 있습니다.
@@ -61,6 +61,8 @@ Tab 키를 눌러 슬라이서에서 컨트롤로 이동할 수 있습니다. �
 ## <a name="tips-for-creating-accessible-reports"></a>액세스할 수 있는 보고서를 만들기 위한 팁
 다음 팁은 액세스가 보다 편리한 **Power BI Desktop** 보고서를 만드는 데 도움이 될 수 있습니다.
 
+### <a name="general-tips-for-accessible-reports"></a>액세스 가능한 보고서에 대한 일반 팁.
+
 * **선**, **영역** 및 **콤보** 시각적 개체뿐만 아니라 **분산형** 및 **거품형** 시각적 개체의 경우 표식을 켜고 각 선에 다양한 *표식 모양*을 사용합니다.
   
   * *표식*을 켜려면 **시각화** 창에서**서식** 섹션을 선택하고 **셰이프** 섹션을 확장한 후 아래로 스크롤하여 **표식** 토글을 찾아 *켜기*로 설정합니다.
@@ -80,6 +82,13 @@ Tab 키를 눌러 슬라이서에서 컨트롤로 이동할 수 있습니다. �
 * 모든 시각적 개체에는 제목, 축 레이블 및 데이터 레이블이 포함됩니다.
 * 모든 보고서 페이지에 의미 있는 제목을 사용합니다.
 * 보고서의 탭 순서에 포함되어 있으므로 가능하면 장식 셰이프 및 이미지를 보고서에 사용하지 마세요. 보고서에 장식 개체를 포함해야 하는 경우 화면 판독기 사용자가 장식용임을 알 수 있도록 개체의 대체 텍스트를 업데이트합니다.
+
+### <a name="arranging-items-in-field-buckets"></a>필드 버킷의 항목 정렬
+2018년 10월 **Power BI Desktop** 릴리스부터는 **키보드로 필드**를 탐색하고 화면 판독기와 상호 작용할 수 있습니다. 
+
+화면 판독기를 사용하여 보고서를 작성하는 절차를 개선하기 위해 컨텍스트 메뉴를 **필드** 목록의 위 또는 아래로 이동하거나 **범례** 또는 **값**과 같은 다른 위치로 필드를 이동하여 필드를 다른 저장소로 이동할 수 있습니다.
+
+![필드의 컨텍스트 메뉴를 사용하여 필드를 위, 아래로 또는 다른 영역으로 이동할 수 있습니다.](media/desktop-accessibility/accessibility_09.png)
 
 ## <a name="high-contrast-support-for-reports"></a>보고서에 고대비 지원
 

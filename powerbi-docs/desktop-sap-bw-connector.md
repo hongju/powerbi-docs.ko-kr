@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280205"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336924"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop에서 SAP BW Connector 사용
 Power BI Desktop을 통해 **SAP BW(Business Warehouse)** 데이터에 액세스할 수 있습니다.
 
 SAP 고객이 Power BI를 기존 SAP BW(Business Warehouse) 시스템에 연결하여 활용하는 방법에 대한 자세한 내용은 [Power BI 및 SAP BW 백서](https://aka.ms/powerbiandsapbw)를 참조하세요. DirectQuery 및 SAP BW 사용에 대한 자세한 내용은 [DirectQuery 및 SAP BW(Business Warehouse)](desktop-directquery-sap-bw.md) 아티클을 참조하세요.
 
-**Power BI Desktop**의 2018년 6월 릴리스부터 성능 및 기능이 크게 향상된 구현으로 SAP BW 커넥터를 사용할 수 있습니다. 이 업데이트된 버전의 SAP BW 커넥터는 Microsoft에서 개발했으며 **구현 2.0**라고 합니다. 버전 1(v1)의 **SAP BW 커넥터** 또는 **구현 2.0 SAP 커넥터** 중 하나를 선택할 수 있습니다. 다음 섹션에서는 각 버전의 설치를 차례로 설명합니다. Power BI Desktop에서 SAP BW에 연결할 때 하나 또는 다른 연결을 선택할 수 있습니다.
+**Power BI Desktop**(및 2018년 10월 릴리스부터 일반적으로 사용 가능)의 2018년 6월 릴리스부터 성능 및 기능이 크게 향상된 구현으로 SAP BW 커넥터를 사용할 수 있습니다. 이 업데이트된 버전의 SAP BW 커넥터는 Microsoft에서 개발했으며 **구현 2.0**라고 합니다. 버전 1(v1)의 **SAP BW 커넥터** 또는 **구현 2.0 SAP 커넥터** 중 하나를 선택할 수 있습니다. 다음 섹션에서는 각 버전의 설치를 차례로 설명합니다. Power BI Desktop에서 SAP BW에 연결할 때 하나 또는 다른 연결을 선택할 수 있습니다.
 
 선택이 가능할 때마다 **구현 2.0 SAP 커넥터**를 사용하는 것이 좋습니다.
 

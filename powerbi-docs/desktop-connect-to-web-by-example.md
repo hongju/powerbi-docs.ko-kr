@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop의 예제를 통해 웹 페이지에서 데이터 추출(미리 보기)
+title: Power BI Desktop의 예제를 통해 웹 페이지에서 데이터 추출
 description: 끌어올 항목의 예제를 제공하여 웹 페이지에서 데이터 추출
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290985"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336809"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>예제를 제공하여 웹 페이지에서 데이터 가져오기(미리 보기)
+# <a name="get-data-from-a-web-page-by-providing-an-example"></a>예제를 제공하여 웹 페이지에서 데이터 가져오기
 
 웹 페이지에서 데이터를 가져오면 사용자가 간편하게 웹 페이지에서 데이터를 추출하고 해당 데이터를 **Power BI Desktop**으로 가져올 수 있습니다. 그러나 대부분의 경우 웹 페이지의 데이터는 쉽게 추출할 수 있는 정돈된 테이블에 포함되지 않으므로 데이터가 구조화되고 일관성이 있더라도 해당 페이지의 데이터를 가져오는 것은 어려울 수 있습니다. 
 
@@ -26,13 +26,6 @@ ms.locfileid: "34290985"
 ![예제를 통해 웹에서 데이터 가져오기](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
 
-## <a name="enabling-the-preview-feature-get-data-from-web-by-example"></a>예제를 통해 웹에서 데이터 가져오기 미리 보기 기능 사용
-
-**예제를 통해 웹에서 데이터 가져오기**는 미리 보기로 제공되고 **Power BI Desktop**에서 사용하도록 설정해야 합니다. 이 기능을 사용하도록 설정하려면 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 다음, **웹에서 새로운 경험** 확인란을 선택합니다. 선택한 후에는 Power BI Desktop을 다시 시작해야 합니다.
-
-![미리 보기 기능 사용](media/desktop-connect-to-web-by-example/web-by-example_02.png)
-
-미리 보기 기능이 사용하도록 설정되면 사용을 시작할 준비가 된 것입니다. 
 
 ## <a name="using-get-data-from-web-by-example"></a>예제를 통해 웹에서 데이터 가져오기 사용
 

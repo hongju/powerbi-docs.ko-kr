@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512067"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336901"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 소스
 Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 있습니다. 이 페이지의 맨 아래에는 사용 가능한 데이터 소스의 전체 목록이 있습니다.
@@ -75,13 +75,15 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Teradata 데이터베이스
 * SAP HANA 데이터베이스
 * SAP Business Warehouse 응용 프로그램 서버
-* SAP Business Warehouse 메시지 서버(베타)
+* SAP Business Warehouse 메시지 서버
 * Amazon Redshift
 * Impala
 * Google BigQuery
 * Snowflake
+* Dremio(베타)
 * Exasol(베타)
 * Jethro(베타)
+* Kyligence 엔터프라이즈(베타)
 
 > [!NOTE]
 > 일부 데이터베이스 커넥터는 **파일 > 옵션 및 설정 > 옵션**을 선택한 다음 **미리 보기 기능**을 선택하고 커넥터를 사용하도록 설정하여 사용해야 합니다. 위에서 언급한 커넥터 중 일부를 표시하지 않고 사용하지 않으려는 경우 **미리 보기 기능** 설정을 확인합니다. *베타* 또는 *미리 보기*로 표시된 모든 데이터 원본은 제한된 지원 및 기능을 가지며 프로덕션 환경에서는 사용할 수 없습니다.
@@ -112,7 +114,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Azure Data Lake Store
 * Azure HDInsight(HDFS)
 * Azure HDInsight Spark
-* HDInsight 대화형 쿼리(베타)
+* HDInsight 대화형 쿼리
 * Azure KustoDB(베타)
 
 다음 그림은 **Azure** 에 대한 **데이터 가져오기**창을 보여 줍니다.
@@ -124,10 +126,10 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * SharePoint Online 목록
 * Microsoft Exchange Online
 * Dynamics 365(온라인)
-* Dynamics NAV(베타)
+* Dynamics NAV
 * Dynamics 365 Business Central
+* Dynamics 365 Business Central(온-프레미스)
 * 앱용 Common Data Service(베타)
-* Common Data Service(베타)
 * Microsoft Azure Consumption Insights(베타)
 * Visual Studio Team Services(베타)
 * Salesforce 개체
@@ -163,7 +165,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 **기타** 범주는 다음과 같은 데이터 연결을 제공합니다.
 
-* Vertica(베타)
+* Vertica
 * 웹
 * SharePoint 목록
 * OData 피드
@@ -175,6 +177,8 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Python 스크립트
 * ODBC
 * OLE DB
+* Denado
+* Paxata(베타)
 * 빈 쿼리
 
 다음 그림은 **기타** 에 대한 **데이터 가져오기**창을 보여 줍니다.
