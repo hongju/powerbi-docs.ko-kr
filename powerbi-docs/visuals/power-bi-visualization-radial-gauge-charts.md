@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565561"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416869"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI의 방사형 계기 차트
 방사형 계기 차트는 원호 형태로 목표/KPI에 대한 진행률을 측정하는 단일 값을 표시합니다.  목표 또는 목표값은 선(바늘)으로 표시됩니다. 목표에 대한 진행률은 음영으로 표시됩니다.  진행률은 나타내는 값은 호의 내부에 굵게 표시됩니다. 모든 가능한 값은 최소(맨 왼쪽 값)에서 최대 (맨 오른쪽 값)까지 호를 따라 균등하게 분배됩니다.
@@ -92,7 +92,7 @@ ms.locfileid: "46565561"
 
 ### <a name="step-5-save-your-report"></a>5단계: 보고서 저장
 1. [보고서를 저장합니다](../service-report-save.md).
-2. [대시보드 타일로 계기 차트를 추가합니다](../consumer/end-user-tiles.md). 
+2. [대시보드 타일로 계기 차트를 추가합니다](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>서식 옵션을 사용하여 수동으로 최소값, 최대값 및 대상 값 설정
 1. **최대 값** 웰에서 **최대 총 판매량** 을 제거합니다.
@@ -110,14 +110,8 @@ ms.locfileid: "46565561"
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. 필요에 따라 계기 차트 서식 지정을 계속합니다.
 
-## <a name="next-steps"></a>다음 단계
+## <a name="next-step"></a>다음 단계
+
+[Power BI의 계기](power-bi-visualization-kpi.md)
+
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[시각화를 보고서에 추가](power-bi-report-add-visualizations-i.md)
-
-[시각화를 대시보드에 고정](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)
-
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-

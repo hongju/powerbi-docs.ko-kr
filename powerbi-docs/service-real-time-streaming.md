@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a3102ff26a4dbf58d8db0073f1af9cf2db5b6515
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329388"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417168"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI에서 실시간 스트리밍
 Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스트리밍하고 대시보드를 업데이트할 수 있습니다. Power BI에서 만들 수 있는 시각적 개체 또는 대시보드를 실시간 데이터 및 시각적 개체를 표시하고 업데이트하도록 만들 수도 있습니다. 스트리밍 데이터의 장치 및 원본은 팩터리 센서, 소셜 미디어 원본, 서비스 사용 메트릭 및 시간이 중요한 데이터가 수집되거나 전송되는 모든 것일 수 있습니다.
@@ -65,7 +65,7 @@ Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> 얼마나 많은 데이터를 푸시할 수 있는지에 대한 **푸시** 한도 정보는 [이 MSDN 문서](https://msdn.microsoft.com/library/dn950053.aspx)를 참조하세요.
+> 얼마나 많은 데이터를 푸시할 수 있는지에 대한 **푸시** 한도 정보는 [이 문서](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations)를 참조하세요.
 > 
 > 
 
@@ -83,14 +83,12 @@ Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Power BI REST API를 사용하여 데이터 푸시
 **Power BI REST API**는 데이터를 만들고 **푸시** 데이터 집합 및 **스트리밍** 데이터 집합으로 전송하는 데 사용할 수 있습니다. Power BI REST API를 사용하여 데이터 집합을 만드는 경우 *defaultMode* 플래그에서 데이터 집합이 푸시인지 스트리밍인지 여부를 지정합니다. *defaultMode* 플래그가 설정되어 있지 않은 경우 데이터 집합은 **푸시** 데이터 집합으로 기본 설정됩니다.
 
-defaultMode 값이 pushStreaming으로 설정되어 있는 경우 데이터 집합은 모두 **푸시** *및* **스트리밍** 데이터 집합이며 두 데이터 집합 형식의 이점을 모두 제공합니다. [**데이터 집합 만들기**에 관한 REST API 문서](https://msdn.microsoft.com/library/mt203562.aspx)는 스트리밍 데이터 집합 만들기에 대해 설명하고 작업 중인 *defaultMode* 플래그를 보여 줍니다.
+defaultMode 값이 pushStreaming으로 설정되어 있는 경우 데이터 집합은 모두 **푸시** *및* **스트리밍** 데이터 집합이며 두 데이터 집합 형식의 이점을 모두 제공합니다. 
 
 > [!NOTE]
 > *defaultMode* 플래그를 *pushStreaming*으로 설정한 상태로 데이터 집합을 사용할 때, 요청이 **스트리밍** 데이터 집합에 대해 15Kb 크기 제한을 초과하되 **푸시** 데이터 집합의 16MB 크기 제한보다는 작은 경우 요청은 성공하고 데이터가 푸시 데이터 집합에서 업데이트됩니다. 그러나 모든 스트리밍 타일은 일시적으로 실패하게 됩니다.
-> 
-> 
 
-데이터 집합을 만들고 나면 REST API를 통해 [이 문서에 설명된](https://msdn.microsoft.com/library/mt203561.aspx) 대로 [API에 **행 추가**](https://msdn.microsoft.com/library/mt203561.aspx)를 사용하여 데이터를 푸시합니다.
+데이터 집합을 만들고 나면 REST API를 통해 [**PostRows** API](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)를 사용하여 데이터를 푸시합니다.
 
 REST API에 대한 모든 요청은 **Azure AD OAuth**를 사용하여 보안이 설정됩니다.
 
@@ -136,7 +134,7 @@ Azure Stream Analytics는 defaultMode를 pushStreaming으로 설정한 상태에
 
 ![](media/service-real-time-streaming/real-time-streaming_2.png)
 
-이 페이지에서 이미 만든 경우 스트리밍 데이터 집합의 끝점을 (텍스트 상자로) 입력할 수 있습니다. 스트리밍 데이터 집합이 아직 없는 경우 오른쪽 위 모서리에서 더하기 아이콘( **+** )을 선택하여 스트리밍 데이터 집합을 만들기 위한 사용 가능한 옵션을 표시합니다.
+이 페이지에서 이미 만든 경우 스트리밍 데이터 집합의 엔드포인트를 (텍스트 상자로) 입력할 수 있습니다. 스트리밍 데이터 집합이 아직 없는 경우 오른쪽 위 모서리에서 더하기 아이콘( **+** )을 선택하여 스트리밍 데이터 집합을 만들기 위한 사용 가능한 옵션을 표시합니다.
 
 ![](media/service-real-time-streaming/real-time-streaming_3.png)
 
@@ -149,19 +147,19 @@ Azure Stream Analytics는 defaultMode를 pushStreaming으로 설정한 상태에
 ## <a name="create-your-streaming-dataset-with-the-option-you-like-best"></a>가장 마음에 드는 옵션으로 스트리밍 데이터 집합 만들기
 Power BI에서 사용하고 시각화할 수 있는 실시간 스트리밍 데이터 피드를 만드는 두 가지 방법이 있습니다.
 
-* 실시간 스트리밍 끝점을 사용하여 **Power BI REST API**
+* 실시간 스트리밍 엔드포인트를 사용하여 **Power BI REST API**
 * **PubNub**
 
 다음 섹션에서는 각 옵션을 차례로 확인합니다.
 
 ### <a name="using-the-power-bi-rest-api"></a>POWER BI REST API 사용
-**Power BI REST API** - 개발자가 쉽게 실시간 스트리밍을 사용하도록 Power BI REST API에 대한 최근 개선 기능이 설계되었습니다. **새 스트리밍 데이터 집합** 창에서 **API**를 선택하면 Power BI를 연결하고 끝점을 사용하도록 제공하는 항목이 제공됩니다.
+**Power BI REST API** - 개발자가 쉽게 실시간 스트리밍을 사용하도록 Power BI REST API에 대한 최근 개선 기능이 설계되었습니다. **새 스트리밍 데이터 집합** 창에서 **API**를 선택하면 Power BI를 연결하고 엔드포인트를 사용하도록 제공하는 항목이 제공됩니다.
 
 ![](media/service-real-time-streaming/real-time-streaming_5.png)
 
-이 데이터 스트림을 통해 전송되는 데이터를 Power BI에 저장하려는 경우 기록 데이터 분석을 활성화하고 수집된 데이터 스트림에 대한 보고서 작성 및 분석을 수행할 수 있습니다. [API에 대해 자세히 알아볼](https://msdn.microsoft.com/library/dn877544.aspx) 수도 있습니다.
+이 데이터 스트림을 통해 전송되는 데이터를 Power BI에 저장하려는 경우 기록 데이터 분석을 활성화하고 수집된 데이터 스트림에 대한 보고서 작성 및 분석을 수행할 수 있습니다. [API에 대해 자세히 알아볼](https://docs.microsoft.com/rest/api/power-bi/) 수도 있습니다.
 
-데이터 스트림을 성공적으로 만들면 응용 프로그램이 *POST* 요청을 사용하여 데이터를 사용자가 만든 Power BI **스트리밍 데이터** 데이터 집합으로 푸시하도록 호출할 수 있는 REST API URL 끝점이 제공됩니다.
+데이터 스트림을 성공적으로 만들면 응용 프로그램이 *POST* 요청을 사용하여 데이터를 사용자가 만든 Power BI **스트리밍 데이터** 데이터 집합으로 푸시하도록 호출할 수 있는 REST API URL 엔드포인트가 제공됩니다.
 
 *POST* 요청 시 요청 본문이 Power BI 사용자 인터페이스에서 제공하는 JSON 샘플과 일치하는지 확인해야 합니다. 예를 들어, 배열에서 JSON 개체를 래핑합니다.
 
@@ -223,10 +221,10 @@ Power BI에서 실시간 스트리밍이 작동되는 방법에 대한 간단한
 아쉽게도 현재는 사용할 수 없습니다.
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>이전 질문을 고려해 볼 때, 실시간 데이터 집합에 관한 모델링을 하려면 어떻게 해야 합니까?
-데이터가 영구적으로 저장되지 않으므로 모델링은 스트리밍 데이터 집합에서 불가능합니다. 푸시 데이터 집합의 경우 데이터 집합/테이블 REST API 업데이트를 사용하여 측정값 및 관계를 추가할 수 있습니다. [테이블 스키마 업데이트 문서](https://msdn.microsoft.com/library/mt203560.aspx) 및 [데이터 집합 속성 문서](https://msdn.microsoft.com/library/mt742155.aspx)에서 자세한 정보를 얻을 수 있습니다.
+데이터가 영구적으로 저장되지 않으므로 모델링은 스트리밍 데이터 집합에서 불가능합니다. 푸시 데이터 집합의 경우 데이터 집합/테이블 REST API 업데이트를 사용하여 측정값 및 관계를 추가할 수 있습니다. 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>푸시 데이터 집합의 모든 값을 지우려면 어떻게 해야 합니까? 스트리밍 데이터 집합은 어떻습니까?
-푸시 데이터 집합에서 행 삭제 REST API 호출을 사용할 수 있습니다. 이와 별도로, REST API에 대한 래퍼로, 이 유용한 도구를 사용할 수도 있습니다. 현재 스트리밍 데이터 집합에서 데이터를 지울 수 있는 방법은 없습니다만 데이터는 자체적으로 한 시간 후에 삭제됩니다.
+푸시 데이터 집합에서 행 삭제 REST API 호출을 사용할 수 있습니다. 현재 스트리밍 데이터 집합에서 데이터를 지울 수 있는 방법은 없습니다만 데이터는 자체적으로 한 시간 후에 삭제됩니다.
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Power BI에 대해 Azure Stream Analytics 출력을 설정했지만 Power BI에 표시되지 않습니다. 문제가 무엇입니까?
 다음은 문제를 해결하는 데 사용할 수 있는 검사 목록입니다.
@@ -241,9 +239,6 @@ Power BI에서 실시간 스트리밍이 작동되는 방법에 대한 간단한
 ## <a name="next-steps"></a>다음 단계
 다음은 Power BI의 실시간 스트리밍으로 작업하는 경우 유용한 몇 가지 링크입니다.
 
-* [실시간 데이터를 사용한 Power BI REST API의 개요](https://msdn.microsoft.com/library/dn877544.aspx)
-* [Power BI REST API 제한 사항](https://msdn.microsoft.com/library/dn950053.aspx)
-* [**데이터 집합 만들기**에 대한 REST API 문서](https://msdn.microsoft.com/library/mt203562.aspx)
-* [Power BI REST API **행 추가**](https://msdn.microsoft.com/library/mt203561.aspx)
+* [실시간 데이터를 사용한 Power BI REST API의 개요](https://docs.microsoft.com/rest/api/power-bi/)
 * [Azure Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)
 

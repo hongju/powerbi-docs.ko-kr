@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566032"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417329"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵(미리 보기)
-Power BI Desktop에서는 서로 다른 지역에 다양한 색을 적용하여 맵에서 지역의 상대적인 비교를 보여 주는 **도형 맵** 시각적 개체를 만듭니다. **맵** 시각화와 달리, **도형 맵**에서는 맵에서 데이터 요소에 대한 정확한 지리상의 위치를 보여줄 수 없으며 대신, 색을 다양하게 지정하여 맵에서 지역의 상대적인 비교를 보여 주는 것을 주요 목적으로 합니다.
+**도형 맵** 시각적 개체를 만들어 색을 사용하여 맵의 영역을 비교합니다. **맵** 시각적 개체와 달리 **도형 맵**은 데이터 요소의 정확한 지리적 위치를 맵에 표시할 수 없습니다. 대신, 색을 다르게 지정하여 맵 영역의 상대 비교를 표시하는 데 주로 사용됩니다.
 
-**도형 맵** 시각적 개체는 지리적, 좌석 배치, 평면도 및 기타 등 사용자가 만들 수 있는 사용자 지정 맵을 사용하는 강력한 기능이 있는 ESRI/TopoJSON 맵을 기반으로 합니다. 사용자 지정 맵을 사용하는 기능은 **도형 맵**의 이 미리 보기 버전에서 사용할 수 없습니다.
+**도형 맵** 시각적 개체는 사용자가 만들 수 있는 사용자 지정 맵을 사용하는 매력적인 기능이 있는 ESRI/TopoJSON 맵을 기반으로 합니다. 사용자 지정 맵의 예로는 지리적, 좌석 배치, 평면도 등이 있습니다. 사용자 지정 맵을 사용하는 기능은 **도형 맵**의 이 미리 보기 버전에서 사용할 수 없습니다.
 
 ## <a name="creating-shape-maps"></a>도형 맵 만들기
 미리 보기 릴리스에서 제공하는 맵을 사용하여 **도형 맵** 컨트롤을 테스트할 수 있습니다. 또는 **사용자 지정 맵 사용**이라는 다음 섹션에서 설명한 요구 사항을 충족하면 고유한 사용자 지정 맵을 사용할 수 있습니다.
@@ -47,7 +47,7 @@ Power BI Desktop에 비어 있는 **도형 맵** 시각적 개체 디자인 캔�
    > 
 
    ![](media/desktop-shape-map/shape-map_3a.png)
-2. **형식** 설정 창에서 **도형**을 확장하고 **표준 맵** 드롭다운에서 선택하여 데이터를 표시합니다. 현재 다음 그림에 나와 있는 것처럼 렌더링이 나타납니다.
+2. **형식** 설정 창에서 **도형**을 확장하고 **표준 맵** 드롭다운에서 선택하여 데이터를 표시합니다. 이 시점에는 다음 이미지와 같이 렌더링이 나타납니다.
 
    ![](media/desktop-shape-map/shape-map_3b.png)
 
@@ -68,7 +68,7 @@ Power BI Desktop에 비어 있는 **도형 맵** 시각적 개체 디자인 캔�
 ![](media/desktop-shape-map/shape-map_6.png)
 
 ## <a name="sample-custom-map"></a>샘플 사용자 지정 맵
-*미국 연방 검사국*은 소송 및 담당 건수 데이터에 대한 연간 회계 보고서를 릴리스합니다.  해당되는 모든 보고서를 아래 링크에서 확인할 수 있습니다.
+‘미국 연방 검사국’은 소송 및 담당 건수 데이터에 대한 연간 회계 보고서를 릴리스합니다.  해당되는 모든 보고서를 아래 링크에서 확인할 수 있습니다.
 
 https://www.justice.gov/usao/resources/annual-statistical-reports
 
@@ -115,7 +115,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="australia-states"></a>오스트레일리아: 주
 
-| id | abbr | iso | name | postal |
+| `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -128,7 +128,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="austria-states"></a>오스트리아: 주
 
-| id | iso | name | name-en | postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -142,7 +142,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="brazil-states"></a>브라질: 주
 
-| id |
+| `id` |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -178,7 +178,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="canada-provinces"></a>캐나다: 시/도
 
-| id | iso | name | postal |
+| `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -196,7 +196,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="france-regions"></a>프랑스: 지역
 
-| id | name | name-en |
+| `id` | `name` | `name-en` |
 | --- | --- | --- |
 | Alsace |Alsace |Alsace |
 | Rhone-Alpes |Rhône-Alpes |Rhone-Alpes |
@@ -223,7 +223,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="germany-states"></a>독일: 주
 
-| id | iso | name | name-en | postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
 | de-th |DE-TH |Thüringen |Thuringia |TH |
@@ -244,7 +244,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="ireland-counties"></a>아일랜드: 지방
 
-| id |
+| `id` |
 | --- |
 | Wicklow |
 | Wexford |
@@ -275,7 +275,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="italy-regions"></a>이탈리아: 지역
 
-| id | iso | name | name-en | postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley |VD |
@@ -300,7 +300,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="mexico-states"></a>멕시코: 주
 
-| id | abreviatura | iso | name | name-en | postal |
+| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -337,7 +337,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="netherlands-provinces"></a>네덜란드: 시/도
 
-| id | iso | name | name-en |
+| `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -354,7 +354,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="uk-countries"></a>영국: 국가
 
-| id | iso | name |
+| `id` | `iso` | `name` |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Scotland |
@@ -363,7 +363,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="usa-states"></a>미국: 주
 
-| id | name | postal |
+| `id` | `name` | `postal` |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -417,3 +417,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |
 
+## <a name="next-steps"></a>다음 단계
+[Power BI의 행렬 시각적 개체](desktop-matrix-visual.md)
+
+[Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)

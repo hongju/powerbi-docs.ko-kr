@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.date: 09/17/2018
+ms.openlocfilehash: b50f3d5a3b01e32dcbaf80db5e25bd046c5e27a2
+ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558574"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46506802"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -84,15 +84,19 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 |약정  |약정 없음 |매년  |매월/매년 |
 |차별화 |탁월한 탄력성 - Azure Portal에서 또는 API를 통해 리소스를 강화/규모 축소, 일시 중지/다시 시작 가능  |SharePoint Online 및 Microsoft Teams(모바일 앱 제외)에 콘텐츠를 포함하는 데 사용 가능 |응용 프로그램에 포함 및 Power BI 서비스 사용을 동일한 용량에 결합 |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure에서 PBIE 용량을 만드는 필수 구성 요소는 무엇입니까? 
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure에서 PBIE 용량을 만드는 필수 구성 요소는 무엇입니까?
 
 * 조직 디렉토리에 로그인해야 합니다(MSA 계정은 지원되지 않음).
 * Power BI 테넌트가 있어야 합니다. 즉, 디렉토리에 있는 한 명 이상의 사용자가 Power BI에 가입해야 합니다. 
 * 조직 디렉토리에 Azure 구독이 있어야 합니다.
 
-### <a name="how-can-i-monitor-capacity-consumption"></a>용량 소비를 모니터링하려면 어떻게 하나요?
+### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Power BI Embedded 용량 소비를 모니터링하려면 어떻게 하나요?
 
-조만간 Azure를 통해 모니터링을 사용할 수 있습니다. Azure 리소스인 Power BI Embedded는 상태 및 사용 현황을 보여주는 모니터링 KPI를 포함할 예정입니다.
+* [Power BI 관리 포털](../service-admin-portal.md#power-bi-embedded-settings) 사용
+
+* Power BI에서 [메트릭 앱](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) 다운로드
+
+* [Azure 진단 로깅](azure-pbie-diag-logs.md) 사용
 
 ### <a name="will-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>앱의 소비량에 따라 용량이 자동으로 조정되나요?
 
@@ -276,11 +280,11 @@ Power BI Embedded는 일부 [소버린 클라우드](embed-sample-for-customers-
 * 질문 및 답변, 새로 고침, 책갈피, 대시보드 및 타일 포함, 사용자 지정 메뉴 등의 새로운 기능은 **Power BI Embedded** 솔루션에서만 지원됩니다.
 * 용량 청구 모델입니다.
 
-## <a name="onboarding-experience-tool-for-embedding"></a>포함하기 위한 온보딩 환경 도구
+## <a name="embedding-setup-tool-for-embedding"></a>포함에 대한 포함 설정 도구
 
-### <a name="what-is-the-onboarding-experience-tool"></a>온보딩 환경 도구란?
+### <a name="what-is-the-embedding-setup-tool"></a>포함 설정 도구란 무엇인가요?
 
-[온보딩 환경 도구](https://aka.ms/embedsetup)를 사용하면 샘플 응용 프로그램을 신속하게 시작하고 다운로드하여 Power BI에서 포함을 시작할 수 있습니다.
+[포함 설정 도구](https://aka.ms/embedsetup)를 사용하면 샘플 응용 프로그램을 신속하게 시작하고 다운로드하여 Power BI에서 포함을 시작할 수 있습니다.
 
 ### <a name="which-solution-should-i-choose"></a>어떤 솔루션은 선택해야 하나요?
 

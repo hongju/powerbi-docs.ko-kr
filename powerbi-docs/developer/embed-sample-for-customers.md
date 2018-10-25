@@ -3,20 +3,21 @@ title: 고객의 응용 프로그램에 Power BI 콘텐츠 포함
 description: 고객의 Power BI API를 사용하여 웹앱에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다.
 author: markingmyname
 ms.author: maghan
-ms.date: 06/20/2018
+manager: kfile
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.date: 06/20/2018
+ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
+ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616054"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "48827436"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>자습서: Power BI 보고서, 대시보드 또는 타일을 고객의 응용 프로그램에 포함
+
 **Azure의 Power BI Embedded**를 통해 **앱 소유 데이터**를 사용하여 응용 프로그램에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **앱 소유 데이터**는 해당 임베디드 분석 플랫폼으로 Power BI를 사용하는 응용 프로그램을 갖는 것입니다. **앱 소유 데이터**를 사용하는 작업은 일반적으로 **ISV 개발자** 시나리오입니다. **ISV 개발자**로서 응용 프로그램 사용자가 Power BI 라이선스 없이 완벽하게 통합된 대화형 응용 프로그램에서 보고서, 대시보드 또는 타일을 표시하는 **Power BI** 콘텐츠를 만들 수 있습니다. 이 자습서에서는 **앱 소유 데이터**를 사용하는 고객에 대해 **Azure의 Power BI Embedded**를 사용하는 경우 **Power BI** JavaScript API와 함께 **Power BI** .NET SDK를 사용하여 보고서를 응용 프로그램에 통합하는 방법을 보여 줍니다.
 
 이 자습서에서는 다음 작업을 수행하는 방법을 알아봅니다.
@@ -25,6 +26,7 @@ ms.locfileid: "39616054"
 >* 응용 프로그램에 Power BI 보고서를 포함합니다.
 
 ## <a name="prerequisites"></a>필수 조건
+
 시작하려면 사용자의 **마스터 계정**인 **Power BI Pro** 계정 및 **Microsoft Azure** 구독이 필요합니다.
 
 * 아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/en-us/pricing/)합니다.
@@ -36,9 +38,10 @@ ms.locfileid: "39616054"
 
 응용 프로그램으로 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 포함을 허용하도록 설정되었는지 확인해야 합니다. 설치의 일부로 다음을 수행해야 합니다.
 
-[온보딩 환경 도구](https://aka.ms/embedsetup/AppOwnsData)를 진행하여 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 응용 프로그램을 신속하게 시작하고 다운로드할 수 있습니다.
+[포함 설치 도구](https://aka.ms/embedsetup/AppOwnsData)를 진행하여 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 응용 프로그램을 신속하게 시작하고 다운로드할 수 있습니다.
 
 그러나 환경을 수동으로 설정하도록 선택하면 아래를 계속할 수 있습니다.
+
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure AD(Azure Active Directory)에서 응용 프로그램 등록
 
 Azure Active Directory에 응용 프로그램을 등록하여 응용 프로그램에서 Power BI REST API에 액세스할 수 있도록 합니다. 그러면 응용 프로그램에 대한 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
@@ -46,11 +49,11 @@ Azure Active Directory에 응용 프로그램을 등록하여 응용 프로그�
 1. [Microsoft Power BI API 약관](https://powerbi.microsoft.com/api-terms)에 동의합니다.
 
 2. [Azure Portal](https://portal.azure.com)에 로그인합니다.
- 
+
     ![Azure Portal 주](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
 3. 왼쪽 탐색 창에서 **모든 서비스**를 선택하고, **앱 등록**을 선택한 다음, **새 응용 프로그램 등록**을 선택합니다.
-   
+
     ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![새 앱 등록](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
@@ -65,15 +68,15 @@ Azure Active Directory에 응용 프로그램을 등록하여 응용 프로그�
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory 포털 사용
 
 1. Azure Portal 내에서 [앱 등록](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade)으로 이동한 후 포함에 사용할 앱을 선택합니다.
-   
+
     ![앱 선택](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
 2. **설정**을 선택한 다음, **API 액세스**에서 **필요한 권한**을 선택합니다.
-   
+
     ![필요한 권한](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. **Windows Azure Active Directory**를 선택한 다음 **로그인한 사용자 권한으로 디렉터리에 액세스**가 선택되어 있는지 확인합니다. **저장**을 선택합니다.
-   
+
     ![Microsoft Azure AD 권한](media/embed-sample-for-customers/embed-sample-for-customers-011.png)
 
 4. **추가**를 선택합니다.
@@ -89,13 +92,13 @@ Azure Active Directory에 응용 프로그램을 등록하여 응용 프로그�
     ![PBI 서비스 선택](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
 7. **위임된 권한**에서 모든 권한을 선택합니다. 선택 항목을 저장하려면 하나씩 선택해야 합니다. 완료되면 **저장**을 선택합니다.
-   
+
     ![위임 권한 선택](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
 8. **필요한 권한**에서 **사용 권한 부여**를 선택합니다.
-   
+
     Azure AD에서 동의하도록 요구하는 메시지가 표시되지 않게 하려면 **권한 부여** 작업에는 *마스터 계정*이 필요합니다. 이 작업을 수행하는 계정이 전역 관리자인 경우, 조직 내 모든 사용자에게 이 응용 프로그램에 대한 권한을 부여해야 합니다. 이 작업을 수행하는 계정이 *마스터 계정*이고 전역 관리자가 아닌 경우, 이 응용 프로그램의 *마스터 계정*에만 권한을 부여해야 합니다.
-   
+
     ![필요한 권한 대화 상자에서 권한 부여](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
@@ -170,7 +173,9 @@ Power BI Desktop을 사용하여 보고서 및 데이터 집합을 만든 다음
 
     왼쪽 탐색 창에서 **모든 서비스**를 선택하고 **앱 등록**을 선택합니다.
 
-    ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png) **clientId**를 가져올 응용 프로그램을 선택합니다.
+    ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+
+    **clientId**를 가져올 응용 프로그램을 선택합니다.
 
     ![앱 선택](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
@@ -204,6 +209,7 @@ Power BI Desktop을 사용하여 보고서 및 데이터 집합을 만든 다음
     ![응용 프로그램 보기](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>응용 프로그램 내에서 콘텐츠 포함
+
 콘텐츠를 포함하는 단계가 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 사용하여 수행할 수 있더라도 이 아티클에 설명된 예제 코드는 **.NET SDK**를 사용하여 만듭니다.
 
 응용 프로그램 내에서 고객에 대한 콘텐츠 포함을 수행하려면 **Azure AD**의 마스터 계정에 대한 **액세스 토큰**을 가져와야 합니다. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 대한 호출을 수행하기 전에 **앱 소유 데이터**를 사용하여 사용자의 Power BI 응용 프로그램에 대한 [Azure AD 액세스 토큰](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)을 가져오는 데 필요합니다.
@@ -225,6 +231,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>포함하려는 콘텐츠 항목 가져오기
+
 Power BI 클라이언트 개체를 사용하여 포함하려는 항목에 대한 참조를 검색할 수 있습니다.
 
 지정된 작업 영역에서 첫 번째 보고서를 검색하는 방법을 보여주는 코드 샘플은 다음과 같습니다.
@@ -243,6 +250,7 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>포함 토큰을 만듭니다.
+
 JavaScript API에서 사용할 수 있는 embed 토큰이 생성되어야 합니다. embed 토큰은 포함한 항목에 한정됩니다. 따라서 Power BI 콘텐츠의 구성 요소를 포함하는 경우 이에 대한 새 embed 토큰을 만들어야 합니다. 어떤 **accessLevel**을 사용할지를 포함한 자세한 내용은 사용 하려면 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)를 참조하세요.
 
 응용 프로그램에 대한 보고서의 embed 토큰을 추가하는 샘플은 다음과 같습니다.
@@ -269,6 +277,7 @@ var embedConfig = new EmbedConfig()
 이는 **EmbedConfig** 및 **TileEmbedConfig**에 대한 클래스가 생성되었음을 의미합니다. 이 항목에 대한 샘플은 **Models\EmbedConfig.cs** 파일 및 **Models\TileEmbedConfig.cs 파일** 내에서 사용 가능합니다.
 
 ### <a name="load-an-item-using-javascript"></a>JavaScript를 사용하여 항목 로드
+
 JavaScript를 사용하여 웹 페이지의 div 요소로 보고서를 로드합니다.
 
 JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](https://microsoft.github.io/PowerBI-JavaScript/demo)를 사용할 수 있습니다. 이 방법으로 다양한 유형의 Power BI Embedded 샘플을 빠르게 재생할 수 있습니다. [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 페이지를 방문하여 JavaScript API에 대한 추가 정보를 얻을 수도 있습니다.
@@ -323,6 +332,7 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 이제 응용 프로그램 개발을 완료했으므로 전용 용량을 포함한 앱 작업 영역으로 돌아갈 차례입니다. 전용 용량은 프로덕션으로 이동해야 합니다.
 
 ### <a name="create-a-dedicated-capacity"></a>전용 용량 만들기
+
 전용 용량을 만들면 고객을 위해 전용 리소스의 혜택을 활용할 수 있습니다. [Microsoft Azure Portal](https://portal.azure.com) 내에서 전용 용량을 구입할 수 있습니다. Power BI Embedded 용량을 만드는 방법에 대한 자세한 내용은 [Azure Portal에서 Power BI Embedded 용량 만들기](azure-pbie-create-capacity.md)를 참조하세요.
 
 아래 표를 사용하여 필요에 맞는 최적의 Power BI Embedded 용량을 결정합니다.
@@ -359,6 +369,7 @@ PRO 라이선스가 있는 embed 토큰을 사용하는 것은 개발 테스트�
     ![용량에 연결된 앱 작업 영역](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>다음 단계
+
 이 자습서에서는 고객의 응용 프로그램에 Power BI 콘텐츠를 포함하는 방법을 알아보았습니다. 조직에 Power BI 콘텐츠를 포함할 수도 있습니다.
 
 > [!div class="nextstepaction"]

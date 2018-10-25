@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657969"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549917"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비롯한 보고서 페이지의 현재 구성된 보기를 캡처하고 저장된 해당 책갈피를 선택하여 나중에 해당 상태로 돌아갈 수 있습니다. 
@@ -182,5 +182,5 @@ Power BI Desktop 2018년 3월 버전부터 책갈피가 일반 공급됩니다.
 책갈피와 유사하거나 상호 작용하는 기능에 대한 자세한 내용은 다음 문서를 살펴보겠습니다.
 
 * [Power BI Desktop에서 드릴스루 사용](desktop-drillthrough.md)
-* [포커스 모드에서 대시보드 타일 또는 보고서 시각적 개체 표시](service-focus-mode.md)
+* [포커스 모드에서 대시보드 타일 또는 보고서 시각적 개체 표시](consumer/end-user-focus.md)
 

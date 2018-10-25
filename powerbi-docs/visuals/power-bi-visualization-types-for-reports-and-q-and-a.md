@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566053"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448940"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
@@ -32,10 +32,10 @@ ms.locfileid: "46566053"
 >[!TIP]
 >기본 영역 차트는 축과 선 사이의 영역이 채워진 꺾은선형 차트를 기반으로 합니다.
 
-자세한 내용은 [자습서: 기본 영역 차트](power-bi-visualization-basic-area-chart.md)를 참조하세요.
+자세한 내용은 [기본 영역 차트](power-bi-visualization-basic-area-chart.md)를 참조하세요.
 
 ### <a name="bar-and-column-charts"></a>가로 막대형 및 세로 막대형 차트
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png) 
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
  ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
@@ -56,7 +56,7 @@ ms.locfileid: "46566053"
 >[!TIP]
 >콤보 차트는 세로 막대형 차트와 꺾은선형 차트를 결합합니다. *꺾은선형 및 누적 세로 막대형* 과 꺾은선형 및 묶은 세로 막대형중에서 선택합니다.
 
-자세한 내용은 [자습서: Power BI의 콤보 차트](power-bi-visualization-combo-chart.md)를 참조하세요.
+자세한 내용은 [Power BI의 콤보 차트](power-bi-visualization-combo-chart.md)를 참조하세요.
 
 ### <a name="doughnut-charts"></a>도넛형 차트
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
@@ -64,7 +64,7 @@ ms.locfileid: "46566053"
 >[!TIP]
 >도넛형 차트는 원형 차트와 비슷합니다.  이 차트는 전체에 대한 부분의 관계를 보여 줍니다.
 
-자세한 내용은 [자습서: Power BI의 도넛형 차트](power-bi-visualization-doughnut-charts.md)를 참조하세요.
+자세한 내용은 [Power BI의 도넛형 차트](power-bi-visualization-doughnut-charts.md)를 참조하세요.
 
 ### <a name="funnel-charts"></a>깔대기형 차트
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
@@ -72,7 +72,7 @@ ms.locfileid: "46566053"
 >[!TIP]
 >깔대기형은 단계와 항목이 한 단계에서 다음 단계로 순차적으로 흐르는 프로세스를 시각화하는 데 도움이 됩니다.  잠재 고객에서 시작하여 구매 이행으로 끝나는 영업 프로세스와 같이 단계 사이에 순차적 흐름이 있는 경우 깔때기형을 사용합니다.
 
-자세한 내용은 [자습서: Power BI의 깔대기형 차트](power-bi-visualization-funnel-charts.md)를 참조하세요.
+자세한 내용은 [Power BI의 깔때기형 차트](power-bi-visualization-funnel-charts.md)를 참조하세요.
 
 ### <a name="gauge-charts"></a>계기 차트
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
@@ -80,7 +80,7 @@ ms.locfileid: "46566053"
 >[!TIP]
 >목표의 컨텍스트에서 현재 상태를 표시합니다.
 
-자세한 내용은 [자습서: Power BI의 계기 차트](power-bi-visualization-radial-gauge-charts.md)를 참조하세요.
+자세한 내용은 [Power BI의 계기 차트](power-bi-visualization-radial-gauge-charts.md)를 참조하세요.
 
 ### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
@@ -88,7 +88,7 @@ ms.locfileid: "46566053"
 >[!TIP]
 >측정 가능한 목표에 도달하는 진행률을 표시합니다.
 
-자세한 내용은 [자습서: Power BI의 KPI](power-bi-visualization-kpi.md)를 참조하세요.
+자세한 내용은 [Power BI의 KPI](power-bi-visualization-kpi.md)를 참조하세요.
 
 ### <a name="line-charts"></a>꺽은선형 차트
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
@@ -107,7 +107,7 @@ ms.locfileid: "46566053"
 ### <a name="maps-arcgis-maps"></a>지도: ArcGIS 지도
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-자세한 내용은 [자습서: Power BI의 ArcGIS 지도](../power-bi-visualization-arcgis.md)를 참조하세요.
+자세한 내용은 [Power BI의 ArcGIS 지도](../power-bi-visualization-arcgis.md)를 참조하세요.
 
 ### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도(코로플레스)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -115,10 +115,21 @@ ms.locfileid: "46566053"
 >[!TIP]
 >색이 더 강할수록 값이 더 큽니다.
 
-자세한 내용은 [자습서: Power BI의 등치 지역도](power-bi-visualization-filled-maps-choropleths.md)를 참조하세요.
+자세한 내용은 [Power BI의 등치 지역도](power-bi-visualization-filled-maps-choropleths.md)를 참조하세요.
+
+### <a name="maps-shape-maps"></a>지도: 도형 맵
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+
+>[!TIP]
+>영역을 색상별로 비교합니다.
+
+자세한 내용은 [Shape Maps in Power BI](desktop-shape-map.md)(Power BI의 도형 맵)를 참조하세요.
+
 
 ### <a name="matrix"></a>행렬
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+자세한 내용은 [Matrix visuals in Power BI](desktop-shape-map.md)(Power BI의 매트릭스 시각적 개체)를 참조하세요.
 
 ### <a name="pie-charts"></a>원형 차트
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
@@ -129,12 +140,20 @@ ms.locfileid: "46566053"
 >[!TIP]
 >2(분산형) 또는 3(거품형) 정량 측정값 간의 관계(존재 여부, 순서 등)를 표시합니다.
 
-자세한 내용은 [자습서: Power BI의 분산형 차트](power-bi-visualization-scatter.md)를 참조하세요.
+자세한 내용은 [Power BI의 분산형 차트](power-bi-visualization-scatter.md)를 참조하세요.
+
+### <a name="scatter-high-density"></a>분산형-고밀도
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+
+>[!TIP]
+>시각적 개체에 데이터 요소가 너무 많으면 시각적 개체가 다운될 수 있으므로, 정교한 샘플링 알고리즘을 사용하여 시각화의 정확성을 보장하세요.
+
+자세한 내용은 [High Density Scatter charts in Power BI](desktop-high-density-scatter-charts.md)(Power BI의 고밀도 분산형 차트)를 참조하세요.
 
 ### <a name="slicers"></a>슬라이서
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
-자세한 내용은 [자습서: Power BI의 슬라이서](power-bi-visualization-slicers.md)를 참조하세요.
+자세한 내용은 [Power BI의 슬라이서](power-bi-visualization-slicers.md)를 참조하세요.
 
 ### <a name="standalone-images"></a>독립 실행형 이미지
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
@@ -149,10 +168,10 @@ ms.locfileid: "46566053"
 
 자세한 내용은 [Power BI에서 테이블 작업](power-bi-visualization-tables.md)을 참조하세요.
 
-### <a name="tree-maps"></a>트리 맵
+### <a name="treemaps"></a>트리맵
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
-자세한 내용은 [자습서: Power BI의 트리 맵](power-bi-visualization-treemaps.md)을 참조하세요.
+자세한 내용은 [Power BI의 트리 맵](power-bi-visualization-treemaps.md)을 참조하세요.
 
 >[!TIP]
 >값을 나타내는 크기와 색이 지정된 사각형으로 구성된 차트입니다.  이 차트는 사각형이 주 사각형 내에 중첩되는 계층 구조 형식일 수 있습니다.
@@ -163,7 +182,7 @@ ms.locfileid: "46566053"
 >[!TIP]
 >폭포 차트는 값을 더하거나 뺄 때의 누계를 보여 줍니다.
 
-자세한 내용은 [자습서: Power BI의 폭포 차트](power-bi-visualization-waterfall-charts.md)를 참조하세요.
+자세한 내용은 [Power BI의 폭포 차트](power-bi-visualization-waterfall-charts.md)를 참조하세요.
 
 ## <a name="tell-qa-which-visualization-to-use"></a>질문 및 답변에 사용할 시각화 알리기
 Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에서 시각화 유형을 지정할 수 있습니다.  예:
@@ -175,10 +194,3 @@ Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼
 ## <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 시각화](power-bi-report-visualizations.md)    
 [sqlbi.com에서 오른쪽 시각적 개체 참조](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
-
-[Power BI의 보고서](../consumer/end-user-reports.md)
-
-[Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)
-
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-

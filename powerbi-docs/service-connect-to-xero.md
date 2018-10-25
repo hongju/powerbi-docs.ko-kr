@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3074602af73d937e64a9155d3d197b91b1b1ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 98250e30d1ca944aa536e0d8a05e6ee6c227fc61
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246912"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546757"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Power BI로 Xero에 연결
 Xero는 중소기업을 위해 특별히 설계된 사용이 용이한 온라인 계정 소프트웨어입니다. 이 Power BI 콘텐츠 팩으로 Xero 재무를 기반으로 하여 매력적인 시각화 개체를 만들어 보세요. 기본 대시보드에는 현금 보유 현황, 수익과 지출 비교, 손익 추세, 대금 결제 기간, 투자 수익률 등 다양한 중소기업 메트릭이 포함됩니다.
@@ -46,9 +46,9 @@ Power BI용 [Xero 콘텐츠 팩](https://app.powerbi.com/getdata/services/xero)�
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
-* [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용

@@ -7,32 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ccfa947f83a5079cda3bfb173c0f83f6b811a9ff
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564742"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909133"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI 서비스의 대시보드
 
 Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전달하기 위해 시각화를 사용하는 단일 페이지입니다. 한 페이지로 제한되기 때문에 해당 스토리의 가장 중요한 요소만 포함할 경우 잘 디자인된 대시보드라 할 수 있습니다.
 
-![대시보드](./media/end-user-dashboards/power-bi-dashboard2.png)
+![대시보드](media/end-user-dashboards/power-bi-dashboard2.png)
 
 대시보드에 표시되는 시각화를 타일이라고 하며 보고서에서 대시보드에 고정됩니다. Power BI를 처음 접하는 경우 [Power BI 기본 개념](end-user-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
 
 > [!NOTE]
-> 대시보드는 Power BI 서비스의 기능이며 Power BI Desktop에서는 사용할 수 없습니다. 모바일 장치에서는 대시보드를 만들 수 없지만 [보고 공유](mobile/mobile-apps-view-dashboard.md)할 수는 있습니다.
+> 대시보드는 Power BI 서비스의 기능이며 Power BI Desktop에서는 사용할 수 없습니다. 모바일 장치에서는 대시보드를 만들 수 없지만 [보고 공유](/mobile/mobile-apps-view-dashboard.md)할 수는 있습니다.
 > 
 > 
 
 대시보드의 시각화는 보고서를 기반으로 하며 각 보고서는 한 개의 데이터 집합을 기반으로 합니다. 사실, 대시보드를 생각하는 한 가지 방법은 기본 보고서와 데이터 집합으로 들어가는 입구로 여기는 것입니다. 시각화를 선택하면 이를 만드는 데 사용한 보고서(및 데이터 집합)으로 이동합니다.
 
-![대시보드, 보고서, 데이터 집합 간의 관계를 보여주는 다이어그램](./media/end-user-dashboards/power-bi-diagram.png)
+![대시보드, 보고서, 데이터 집합 간의 관계를 보여주는 다이어그램](media/end-user-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>대시보드의 장점
 대시보드는 비즈니스를 모니터링하고, 답변을 찾고, 가장 중요한 모든 메트릭을 한 눈에 볼 수 있는 훌륭한 방법입니다. 대시보드의 시각화는 하나 또는 여러 개의 기본 데이터 집합, 하나 또는 여러 개의 기본 보고서에서 제공될 수 있습니다. 대시보드는 온-프레미스 및 클라우드에서 생성된 데이터를 결합하여 데이터의 현재 위치에 관계없이 통합된 보기를 제공합니다.
@@ -40,7 +40,7 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 대시보드는 단순한 예쁜 그림이 아닙니다. 대화형이며 자유롭게 사용자 지정 가능하고 기본 데이터가 변경되면 타일이 업데이트됩니다.
 
 ## <a name="dashboards-versus-reports"></a>대시보드 및 보고서
-대개 [보고서](end-user-reports.md)는 시각화로 채워진 캔버스이므로 대시보드와 혼동됩니다. 하지만 몇 가지 주요 차이점이 있습니다.
+대개 보고서는 시각화로 채워진 캔버스이므로 대시보드와 혼동됩니다. 하지만 몇 가지 주요 차이점이 있습니다.
 
 | **기능** | **대시보드** | **보고서** |
 | --- | --- | --- |
@@ -65,28 +65,16 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 
 Power BI Pro는 대시보드를 공유하고 공유한 대시보드를 보는 데 필요합니다.
 
-### <a name="if-you-will-be-creating-and-sharing-dashboards"></a>대시보드를 만들고 공유고 공유하려는 경우
-* 샘플 중 하나를 사용하여 [보고서에서 대시보드를 만듭니다](../service-dashboard-create.md).
-* [대시보드 타일](end-user-tiles.md)과 대시보드에 핀 고정하는 모든 다양한 방법에 대해 알아봅니다.
-* [질문 및 답변 자연어 쿼리에서 잘 작동하는 대시보드](../service-insights-optimize.md)를 생성하고 [신속한 정보 활용](../service-prepare-data-for-q-and-a.md)으로 대시보드 소비자를 지원합니다.
-* [동료와 대시보드를 공유](../service-how-to-collaborate-distribute-dashboards-reports.md)하는 다양한 방법을 모두 알아봅니다.
-
 ### <a name="if-you-will-be-receiving-and-consuming-dashboards"></a>대시보드를 수신하고 사용하는 경우
 * [샘플 대시보드](../sample-tutorial-connect-to-the-samples.md) 중 하나를 둘러보면 대시보드에 금방 익숙해 집니다.
 * [대시보드 타일](end-user-tiles.md)과 선택할 경우 어떻게 되는지 알아보세요.
-* 대시보드 모양이 마음에 들지 않은가요?  [타일 크기를 조정하거나 이동하거나 이름을 바꿀 수 있습니다](../service-dashboard-edit-tile.md).
-* 개별 대시보드 타일을 추적하고 특정 임계값에 도달하면 전자 메일을 수신하고 싶은가요? [타일에 경고를 만듭니다](../service-set-data-alerts.md).
-* 즐겁게 대시보드 질문을 활용하세요. [Power BI 질문 및 답변](../power-bi-tutorial-q-and-a.md)을 사용하여 데이터에 대한 질문을 하고 시각화 형태로 답변을 받는 방법에 대해 알아봅니다.
+* 개별 대시보드 타일을 추적하고 특정 임계값에 도달하면 전자 메일을 수신하고 싶은가요? [타일에 경고를 만듭니다](end-user-alerts.md).
+* 즐겁게 대시보드 질문을 활용하세요. [Power BI 질문 및 답변](end-user-q-and-a.md)을 사용하여 데이터에 대한 질문을 하고 시각화 형태로 답변을 받는 방법에 대해 알아봅니다.
 
 > [!TIP]
 > 여기서 찾고 있는 항목이 없으면 왼쪽 내용에 있는 목차를 사용합니다.
-> 
 > 
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](../power-bi-overview.md)  
 [Power BI - 기본 개념](end-user-basic-concepts.md)  
-[Power BI 프리미엄이란?](../service-premium.md)  
-
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-

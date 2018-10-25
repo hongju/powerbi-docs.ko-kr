@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135263"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545687"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI로 Marketo에 연결
 Power BI용 Marketo 콘텐츠 팩을 사용하면 잠재 고객 및 해당 활동과 관련된 데이터로 Marketo 계정을 파악할 수 있습니다. 이 연결을 만들면 데이터가 검색되고, 해당 데이터를 기반으로 하여 대시보드 및 관련 보고서가 자동으로 제공됩니다.
@@ -32,11 +32,11 @@ Power BI용 [Marketo 콘텐츠 팩](https://app.powerbi.com/getdata/services/mar
 3. **Marketo** \> **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-marketo/marketo.png)
-4. Marketo 또는 Marketo 관리자가 제공한 Marketo REST 끝점을 입력하고 다음을 선택합니다.
+4. Marketo 또는 Marketo 관리자가 제공한 Marketo REST 엔드포인트를 입력하고 다음을 선택합니다.
    
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
-   Marketo REST 끝점에 대해 자세히 읽어보세요. [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/).
+   Marketo REST 엔드포인트에 대해 자세히 읽어보세요. [http://developers.marketo.com/documentation/rest/endpoint-url/](http://developers.marketo.com/documentation/rest/endpoint-url/).
 5. **기본** 인증 방법을 사용하여 클라이언트 ID를 **사용자 이름** 으로 입력하고 클라이언트 암호를 **암호**로 입력합니다. 클라이언트 ID 및 클라이언트 암호는 Marketo 또는 marketo 관리자([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/))에서 사용할 수 있습니다. 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
@@ -48,9 +48,9 @@ Power BI용 [Marketo 콘텐츠 팩](https://app.powerbi.com/getdata/services/mar
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
-* [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용

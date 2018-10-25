@@ -8,27 +8,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e19bc596bef3862dca79ac92ffbd74954a9c756
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300164"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909225"
 ---
-# <a name="monitor-power-bi-premium-capacities-in-your-organization"></a>조직의 Power BI Premium 용량 모니터링
+# <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Power BI Premium 및 Power BI Embedded 용량 모니터링
 
-이 문서에서는 Power BI Premium 용량의 메트릭 모니터링에 대한 개요를 제공합니다. 용량 사용량 모니터링을 사용하면 정보를 기반으로 하여 용량을 관리할 수 있습니다. 
+이 문서에서는 Power BI Premium 용량의 메트릭 모니터링에 대한 개요를 제공합니다. 용량 사용량 모니터링을 사용하면 정보를 기반으로 하여 용량을 관리할 수 있습니다.
 
 Power BI Premium 용량 메트릭 앱 또는 관리 포털에서 용량을 모니터링할 수 있습니다. 앱이 더 자세한 내용을 제공하므로, 앱을 사용하는 것이 좋지만 이 문서에서는 두 가지 옵션을 모두 다룹니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="install-the-premium-capacity-metrics-app"></a>프리미엄 용량 메트릭 앱 설치
 
 [프리미엄 용량 메트릭 앱](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)으로 바로 이동하거나 Power BI에서 다른 앱을 설치하는 것처럼 설치할 수 있습니다.
-
-> [!IMPORTANT]
-> 이 앱을 설치하고 사용하려면 하나 이상의 용량에 대한 용량 관리자여야 합니다. Power BI 관리자만으로는 충분하지 않습니다. 
 
 1. Power BI에서 **앱**을 클릭합니다.
 
@@ -42,47 +41,66 @@ Power BI Premium 용량 메트릭 앱 또는 관리 포털에서 용량을 모�
 
 이제 앱을 설치했으므로 조직의 용량에 대한 메트릭을 볼 수 있습니다. 사용 가능한 몇 가지 주요 메트릭을 살펴보겠습니다.
 
-## <a name="use-the-metrics-app"></a>메트릭 앱 사용 
+## <a name="use-the-metrics-app"></a>메트릭 앱 사용
+
 앱을 열면 먼저 관리자 권한이 있는 모든 용량의 요약이 포함된 대시보드가 표시됩니다.
 
-![프리미엄 보고서 개요](media/service-admin-premium-monitor-capacity/app-dashboard.png)
+![메트릭 앱 대시보드](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-### <a name="filtering"></a>필터링
+이 보고서에는 3개의 탭이 있으며 다음 섹션에서 각 탭을 좀 더 자세히 설명합니다.
 
-**Filters applied to all pages**(모든 페이지에 적용된 필터) 탭을 사용하면 지난 7일 이내의 용량, 데이터 집합 및/또는 날짜 범위를 선택할 수 있습니다. 이 필터는 이 보고서의 모든 관련 페이지 및 타일에 선택 사항을 적용합니다. 아무것도 선택하지 않으면 보고서 기본값에 따라 사용자가 소유한 모든 용량에 대한 지난주의 메트릭이 표시됩니다.
+* **모든 페이지에 적용된 필터**: 보고서의 다른 페이지를 특정 용량으로 필터링할 수 있습니다.
+* **데이터 집합**: 용량 내 데이터 집합의 상태에 대한 자세한 메트릭을 제공합니다.
+* **시스템**: 메모리 및 높은 CPU 사용률을 포함하는 전반적인 용량 메트릭을 제공합니다. 
 
-![프리미엄 보고서 개요](media/service-admin-premium-monitor-capacity/premium-report-overview.png)
+### <a name="filters-applied-to-all-pages-tab"></a>모든 페이지 탭에 적용된 필터
 
-### <a name="summary-tab"></a>요약 탭
+**모든 페이지에 적용된 필터** 탭을 사용하면 지난 7일 이내의 용량, 데이터 집합 및/또는 날짜 범위를 선택할 수 있습니다. 그러면 필터가 보고서의 모든 관련 페이지 및 타일에 적용됩니다. 필터를 선택하지 않으면 보고서 기본값에 따라 사용자가 소유한 모든 용량에 대한 지난주의 메트릭이 표시됩니다.
 
-**요약** 탭에는 엔터티, 시스템 및 데이터 집합에 따른 용량의 보기가 표시됩니다.
+![필터 탭](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
-![모든 페이지에 적용되는 필터](media/service-admin-premium-monitor-capacity/premium-summary-report.png)
+### <a name="datasets-tab"></a>데이터 집합 탭
 
-| **영역** | **메트릭** |
+**데이터 집합** 탭은 앱의 대량 메트릭을 제공합니다. 탭 맨 위에 있는 네 개의 단추 **요약**, **새로 고침**, **쿼리** 및 **데이터 집합**을 사용하여 다른 영역으로 이동합니다.
+
+![데이터 집합 탭](media/service-admin-premium-monitor-capacity/datasets-tab.png)
+
+#### <a name="summary-area"></a>요약 영역
+
+![요약 단추](media/service-admin-premium-monitor-capacity/summary-button.png)
+
+**요약** 영역에는 엔터티, 시스템 리소스 및 데이터 집합 워크로드에 따른 용량 보기가 표시됩니다.
+
+| | **메트릭** |
 | --- | --- |
 | **엔터티** | * 사용자가 소유한 용량의 수입니다.<br> * 용량에 있는 데이터 집합의 고유 번호입니다.<br> * 용량의 고유한 작업 영역의 수입니다. |
 | **시스템** | * 지난 7일간 평균 메모리 사용량(GB)입니다.<br> * 지난 7일간 최고 메모리 사용량(GB) 및 최고 메모리가 사용된 로컬 시간<br> * 지난 7일간 CPU가 임계값의 80%를 초과한 횟수(3분 버킷으로 분할됨)<br> * 지난 7일간 CPU가 80%을 가장 길게 초과한 경우(한 시간 버킷으로 분할됨) 및 CPU가 80%을 가장 길게 초과한 로컬 시간<br> * 지난 7일간 직접 쿼리/라이브 연결 수가 임계 값의 80%을 초과한 횟수(3분 버킷으로 분할됨)<br> * 지난 7일간 직접 쿼리/라이브 연결이 80%을 가장 길게 초과한 경우(한 시간 버킷으로 분할됨) 및 직접 쿼리/라이브 연결이 80%을 가장 길게 초과한 로컬 시간 |
 | **데이터 집합 워크로드** | * 지난 7일간 총 새로 고침 수<br> * 지난 7일간 성공한 총 새로 고침 수<br> * 지난 7일간 실패한 총 새로 고침 수<br> * 메모리 부족으로 인해 실패한 총 새로 고침 수<br> * 평균 새로 고침 기간은 작업을 완료하는 데 걸리는 시간(분)으로 측정됨<br> * 평균 새로 고침 대기 시간은 예약된 시간과 작업 시작 사이의 평균 지연 시간(분)으로 측정됨<br> * 지난 7일간 실행된 총 쿼리 수<br> * 지난 7일간 성공한 총 쿼리 수<br> * 지난 7일간 실패한 총 쿼리 수<br> * 평균 쿼리 기간은 작업을 완료하는 데 걸리는 시간(분)으로 측정됨<br> * 메모리 부족으로 인해 제거된 총 모델 수 |
 |  |  |
 
-### <a name="refreshes-tab"></a>새로 고침 탭
+#### <a name="refreshes-area"></a>새로 고침 영역
 
-**새로 고침** 탭에는 지난 7일간 데이터 집합별로 세분화된 전체 새로 고침, 성공 측정값, 평균/최대 대기 시간 및 평균/최대 새로 고침 기간이 표시됩니다. 맨 아래 두 개의 차트에는 새로 고침 및 메모리 사용률(GB)과 한 시간 버킷으로 분할된 평균 대기 시간(로컬 시간으로 보고됨)이 표시됩니다. 맨 위의 막대형 차트에는 데이터 집합이 새로 고침을 완료하는 데 걸린 최대 시간(새로 고침 기간) 및 최대 새로 고침 대기 시간별로 상위 5개 데이터 집합이 나열됩니다. 새로 고침 대기 시간이 여러 번 급증한다면 용량이 많이 실행된다는 것을 나타냅니다.
+![새로 고침 단추](media/service-admin-premium-monitor-capacity/refreshes-button.png)
 
-![프리미엄 새로 고침 보고서](media/service-admin-premium-monitor-capacity/premium-refresh-report.png)
+**새로 고침** 영역에는 지난 7일간 데이터 집합별로 세분화된 전체 새로 고침, 성공 측정값, 평균/최대 대기 시간 및 평균/최대 새로 고침 기간이 표시됩니다. 맨 아래 두 개의 차트에는 새로 고침 및 메모리 사용률(GB)과 한 시간 버킷으로 분할된 평균 대기 시간(로컬 시간으로 보고됨)이 표시됩니다. 맨 위의 막대형 차트에는 데이터 집합이 새로 고침을 완료하는 데 걸린 평균 시간(새로 고침 기간) 및 평균 새로 고침 대기 시간별로 상위 5개 데이터 집합이 나열됩니다. 새로 고침 대기 시간이 여러 번 급증한다면 용량이 많이 실행된다는 것을 나타냅니다.
 
-### <a name="datasets-tab"></a>데이터 집합 탭
+#### <a name="queries-area"></a>쿼리 영역
 
-**데이터 집합** 탭에는 시간별로 메모리 부족으로 인해 제거된 전체 데이터 집합이 표시됩니다.
+![쿼리 단추](media/service-admin-premium-monitor-capacity/queries-button.png)
 
-![프리미엄 데이터 집합 보고서](media/service-admin-premium-monitor-capacity/premium-datasets-report.png)
+**쿼리** 영역에는 지난 7일 동안 실행된 총 쿼리 수, 실시간 쿼리/직접 쿼리의 총 쿼리 대기 횟수, 평균/최대 기간, 보고된 평균/최대 대기 시간을 데이터 집합별로 분할한 결과(밀리초), 작업 영역 및 시간별 버킷이 표시됩니다. 맨 아래 차트에는 쿼리 수, 평균 기간(밀리초) 및 평균 대기 시간(밀리초), 메모리 소비량(GB)을 현지 시간으로 보고된 1시간 버킷으로 분할한 결과가 표시됩니다. 두 개의 상단 오른쪽 차트에는 평균 쿼리 기간과 쿼리 완료에 소요된 대기 시간에 따른 상위 5개 데이터 집합이 표시됩니다. 쿼리 기간이 길고 대기 시간이 길면 조회 지속 기간 및 장기 대기 시간은 용량이 과도하게 실행되고 있음을 나타냅니다. 또한 단일 데이터 집합에 문제가 있으며 추가 조사가 필요하다는 것을 의미할 수도 있습니다.
+
+#### <a name="datasets-area"></a>데이터 집합 영역
+
+![데이터 집합 단추](media/service-admin-premium-monitor-capacity/datasets-button.png)
+
+**데이터 집합** 영역에는 시간별로 메모리 부족으로 인해 제거된 전체 데이터 집합이 표시됩니다.
 
 ### <a name="system-tab"></a>시스템 탭
 
-**시스템** 탭에는 높은 CPU 사용률(80% 사용률을 초과한 횟수), 직접 쿼리/라이브 연결의 높은 사용률 및 메모리 사용률이 표시됩니다.
+**시스템** 탭에는 높은 CPU 사용률 횟수(80% 사용률을 초과한 횟수), 높은 직접 쿼리/실시간 연결 사용률 및 메모리 사용률이 표시됩니다.
 
-![프리미엄 시스템 보고서](media/service-admin-premium-monitor-capacity/premium-system-report.png)
+![프리미엄 시스템 보고서](media/service-admin-premium-monitor-capacity/system-tab.png)
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Power BI Embedded 용량 모니터링
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7a10429561efed82d9481b2899a997cc89737d55
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 150277c4069be8c292e02caa495e8c545138227e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37135562"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546053"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Power BI로 Mandrill에 연결
 Power BI 콘텐츠 팩은 Mandrill 계정에서 데이터를 끌어오고 데이터를 탐색할 수 있게 해주는 대시보드, 일련의 보고서 및 데이터 집합을 생성합니다. Mandrill의 분석을 사용하여 뉴스레터 또는 마케팅 캠페인을 신속하게 파악할 수 있습니다. 데이터가 매일 새로 고쳐지도록 설정되어 모니터링하는 데이터를 최신 상태를 유지합니다.
@@ -41,13 +41,13 @@ Power BI 콘텐츠 팩은 Mandrill 계정에서 데이터를 끌어오고 데이
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
-* [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](power-bi-overview.md)
 
-[Power BI - 기본 개념](service-basic-concepts.md)
+[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
 

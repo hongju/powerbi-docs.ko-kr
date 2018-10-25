@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544627"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908581"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Power BI로 Adobe Analytics에 연결
 Power BI를 통해 Adobe Analytics에 연결하는 경우 먼저 Adobe Analytics Marketing 클라우드 계정에 연결합니다. 사이트 트래픽 및 사용자 차원에 대한 통찰력을 제공하는 Power BI 대시보드 및 Power BI 보고서 집합을 사용하는 앱이 가져옵니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다. 대시보드 및 보고서를 조작할 수 있지만 변경 내용을 저장할 수 없습니다.
@@ -25,26 +25,26 @@ Power BI를 통해 Adobe Analytics에 연결하는 경우 먼저 Adobe Analytics
 ## <a name="how-to-connect"></a>연결 방법
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. **Adobe Analytics** \> **가져오기**를 선택합니다.
+3. **Adobe Analytics** \> **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-adobe-analytics/adobe.png)
-2. Power BI는 특정 Adobe Analytics 회사 및 보고서 모음 ID(보고서 모음 이름 아님)에 연결됩니다. 아래 [이러한 매개 변수 찾기](#FindingParams)에서 세부 정보를 참조하세요.
+4. Power BI는 특정 Adobe Analytics 회사 및 보고서 모음 ID(보고서 모음 이름 아님)에 연결됩니다. 아래 [이러한 매개 변수 찾기](#FindingParams)에서 세부 정보를 참조하세요.
    
    ![](media/service-connect-to-adobe-analytics/parameters.png)
-3. **인증 방법**에 대해 **oAuth2** \> **로그인**을 선택합니다. 메시지가 표시되면 Adobe Analytics 자격 증명을 입력합니다. 
+5. **인증 방법**에 대해 **oAuth2** \> **로그인**을 선택합니다. 메시지가 표시되면 Adobe Analytics 자격 증명을 입력합니다. 
    
     ![](media/service-connect-to-adobe-analytics/creds.png)
    
     ![](media/service-connect-to-adobe-analytics/adobe_signin.png)
-4. **허용** 을 클릭하여 Power BI가 Adobe Analytics 데이터에 액세스할 수 있도록 합니다.
+6. **허용** 을 클릭하여 Power BI가 Adobe Analytics 데이터에 액세스할 수 있도록 합니다.
    
    ![](media/service-connect-to-adobe-analytics/adobe_authorize.png)
-5. 승인한 후에 가져오기 프로세스가 자동으로 시작됩니다. 
+7. 승인한 후에 가져오기 프로세스가 자동으로 시작됩니다. 
 
 ## <a name="view-the-adobe-analytics-dashboard-and-reports"></a>Adobe Analytics 대시보드 및 보고서 보기
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![Adobe Analytics dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
+   ![Adobe Analytics 대시보드](media/service-connect-to-adobe-analytics/dashboard.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -82,7 +82,7 @@ Power BI에서는 Adobe Analytics 보고서 API를 사용하여 다음 테이블
 
 **보고서 모음 ID**
 
-이 모음 ID는 보고서 모음을 만들 때 생성됩니다. 관리자에 문의하여 ID 값을 식별할 수 있습니다. 보고서 모음 이름이 아님에 유의하세요.
+이 모음 ID는 보고서 모음을 만들 때 생성됩니다. 관리자에 문의하여 ID 값을 식별할 수 있습니다. 이 ID는 보고서 모음 이름이 아닙니다.
 
 Adobe [문서](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html)에서:
 
@@ -91,10 +91,10 @@ Adobe [문서](https://marketing.adobe.com/resources/help/en_US/reference/new_re
 ## <a name="troubleshooting"></a>문제 해결
 권한이 없음을 나타내는 자격 증명을 입력한 후에 오류가 표시되는 경우 Adobe Analytics API에 액세스할 수 있는 관리자를 확인합니다. 또한 제공되는 Adobe ID가 마케팅 클라우드 조직(Adobe Analytics 회사와 관련됨)에 연결되었는지를 확인합니다.
 
-오류가 발생하기 전에 자격 증명 화면을 성공적으로 통과한 경우 보고서를 완료하는 데 오랜 시간이 걸릴 수 있습니다. 일반적인 오류는 *"Adobe Analytics 보고서에서 데이터를 가져오지 못했습니다. 콘텐츠에 &quot;참조, 페이지&quot;가 포함되며, 대략적인 기간은 xx초입니다."* 형식입니다. "포함된 내용" 섹션을 검토하고 Adobe 인스턴스 크기와 비교하세요. 그러나 오늘 이 제한 시간을 해결할 방법이 없습니다. 그러나 보다 큰 인스턴스를 효과적으로 지원하기 위한 업데이트를 고려하고 있습니다. https://ideas.powerbi.com에서 Power BI 팀에 피드백을 제공하세요.
+오류가 발생하기 전에 자격 증명 화면을 성공적으로 통과한 경우 보고서를 완료하는 데 오랜 시간이 걸릴 수 있습니다. 일반적인 오류는 *"Adobe Analytics 보고서에서 데이터를 가져오지 못했습니다. 콘텐츠에 &quot;참조, 페이지&quot;가 포함되며, 대략적인 기간은 xx초입니다."* 형식입니다. “포함된 내용” 섹션을 검토하고 Adobe 인스턴스 크기와 비교하세요. 그러나 오늘 이 제한 시간을 해결할 방법이 없습니다. 그러나 보다 큰 인스턴스를 효과적으로 지원하기 위한 업데이트를 고려하고 있습니다. https://ideas.powerbi.com에서 Power BI 팀에 피드백을 제공하세요.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI에서 앱이란?](consumer/end-user-apps.md)
+* [Power BI에서 앱이란?](service-create-distribute-apps.md)
 * [Power BI에서 데이터 가져오기](service-get-data.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

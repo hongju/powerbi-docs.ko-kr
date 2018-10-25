@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3c508044e9f21c09d3115fd745320be9ad0161bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599050"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548445"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Power BI로 tyGraph에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 tyGraph 데이터를 보고 탐색합니다. tyGraph 계정에 연결하고 대시보드, 보고서 및 데이터 집합을 로드하여 시작합니다. 기본 콘텐츠에 활성 참여 측정(MAE 점수) 및 주요 참가자와 같은 정보가 포함됩니다. 가장 중요한 정보를 강조 표시하려면 추가로 사용자 지정합니다.  설정한 일정에 따라 데이터가 자동으로 새로 고쳐집니다.
@@ -51,9 +51,9 @@ Power BI 콘텐츠 팩을 사용하여 Power BI에서 tyGraph 데이터를 보�
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
-* [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 <a name="FindingParams"></a>

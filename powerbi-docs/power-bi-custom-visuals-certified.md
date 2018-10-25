@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/13/2018
+ms.date: 09/24/2018
 ms.author: mihart
-ms.openlocfilehash: 45bd00877aadba2a84ac533add18b82337fa8403
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 54c484153896430a7c5c886864459361cae97428
+ms.sourcegitcommit: fbc1fabcb5e3b285228c9aa192b9b421b2782922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546260"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "47059073"
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
@@ -107,6 +107,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [MAQ Software의 선형 계기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [비디오](https://youtu.be/7_jFaM30dkc) |
 | [LineDot 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) | |
 | [Mekko 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) | [비디오](https://youtu.be/90FLCKpgicA) |
+| [다중 KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381763) | |
 | [Overview by CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381477)(CloudScope의 개요) | |
 | [재생 축(동적 슬라이서)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [비디오](https://youtu.be/IvfIP3E6-1Q) |

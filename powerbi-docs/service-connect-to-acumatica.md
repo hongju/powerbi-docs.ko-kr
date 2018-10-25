@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 452226f8d5b8e0ca05fc4d9e81355c7a4c10e923
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 6aa5b5dbb22881b6bccaa2ed43352a8f22308675
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582641"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546651"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Power BI로 Acumatica에 연결
 Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하게 파악할 수 있습니다. Power BI는 기회, 계정 및 고객을 포함하여 데이터를 검색한 다음 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다.
@@ -35,7 +35,7 @@ Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하�
 3. **Acumatica** \> **연결**을 선택합니다.
    
    ![](media/service-connect-to-acumatica/acumatica.png)
-4. Acumatica OData 끝점을 입력합니다. OData 끝점을 사용하면 외부 시스템이 Acumatica에서 데이터를 요청할 수 있습니다. Acumatica OData 끝점의 형식은 다음과 같고, HTTPS를 사용해야 합니다.
+4. Acumatica OData 엔드포인트를 입력합니다. OData 엔드포인트를 사용하면 외부 시스템이 Acumatica에서 데이터를 요청할 수 있습니다. Acumatica OData 엔드포인트의 형식은 다음과 같고, HTTPS를 사용해야 합니다.
    
      `https://[sitedomain]/odata/[companyname]`
    
@@ -51,22 +51,22 @@ Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하�
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
-* [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="system-requirements"></a>시스템 요구 사항
 이 콘텐츠 팩에는 Acumatica v5.2 이상이 필요합니다. Acumatica. 관리자에게 버전을 확인하세요.
 
 ## <a name="finding-parameters"></a>매개 변수 찾기
-**Acumatica OData 끝점**
+**Acumatica OData 엔드포인트**
 
-Acumatica OData 끝점의 형식은 다음과 같고, HTTPS를 사용해야 합니다.
+Acumatica OData 엔드포인트의 형식은 다음과 같고, HTTPS를 사용해야 합니다.
 
     https://[sitedomain]/odata/[companyname]
 
-Acumatica에 로그인한 경우 브라우저의 주소 표시줄에서 응용 프로그램 사이트 도메인을 찾을 수 있습니다. 아래 예제에서 사이트 도메인은 `https://pbi.acumatica.com`이므로 제공할 OData 끝점은 `https://pbi.acumatica.com/odata`가 됩니다.
+Acumatica에 로그인한 경우 브라우저의 주소 표시줄에서 응용 프로그램 사이트 도메인을 찾을 수 있습니다. 아래 예제에서 사이트 도메인은 `https://pbi.acumatica.com`이므로 제공할 OData 엔드포인트는 `https://pbi.acumatica.com/odata`가 됩니다.
 
  ![](media/service-connect-to-acumatica/url.png)
 
@@ -75,7 +75,7 @@ Acumatica에 로그인한 경우 브라우저의 주소 표시줄에서 응용 �
 ![](media/service-connect-to-acumatica/signin2.png)
 
 ## <a name="troubleshooting"></a>문제 해결
-로그인할 수 없는 경우 제공한 Acumatica OData 끝점 형식이 올바른지 확인합니다.
+로그인할 수 없는 경우 제공한 Acumatica OData 엔드포인트 형식이 올바른지 확인합니다.
 
     https://<application site domain>/odata/<company name>
 

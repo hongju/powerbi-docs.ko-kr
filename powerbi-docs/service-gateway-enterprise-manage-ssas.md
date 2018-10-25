@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599184"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238103"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>데이터 원본 관리 - Analysis Services
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 수 있는 데이터 원본을 추가해야 합니다. 이 문서에서는 게이트웨이 및 데이터 소스로 작업하는 방법을 살펴봅니다. 예정된 새로 고침 또는 라이브 연결을 위해 Analysis Services 데이터 원본을 사용할 수 있습니다.
@@ -150,13 +150,38 @@ UPN 매핑 화면을 가져오려면 다음을 수행합니다.
 AD 조회를 수행하도록 게이트웨이를 구성하는 방법:
 
 1. 최신 게이트웨이를 다운로드하여 설치합니다.
+
 2. 게이트웨이에서 로컬 서비스 계정 대신 도메인 계정으로 실행하려면 **온-프레미스 데이터 게이트웨이 서비스**를 변경해야 합니다. 그러지 않으면 런타임에 AD 조회가 제대로 작동하지 않습니다. 변경 내용을 적용하려면 게이트웨이 서비스를 다시 시작해야 합니다.  컴퓨터의 게이트웨이 앱으로 이동합니다(“온-프레미스 데이터 게이트웨이” 검색). 이렇게 하려면 **서비스 설정 > 서비스 계정 변경**으로 이동합니다. 새 게이트웨이를 대신 만들려는 경우가 아니라면 동일한 시스템에서 복구 키를 복원해야 하므로 이 게이트웨이에 대한 복구 키가 있는지 확인합니다. . 
-3. 쓰기 권한이 있는지 확인하려면 게이트웨이의 설치 폴더인 *C:\Program Files\On-premises data gateway*로 이동하고 다음 파일을 편집합니다.
 
-       Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
-4. AD 사용자에 대한 *자신*의 Active Directory 특성 구성에 따라 다음 두 가지 구성 값을 편집합니다. 아래에 표시된 구성 값은 단지 예일 뿐이므로 Active Directory 구성에 따라 해당 구성 값을 지정해야 합니다. 
+3. 쓰기 권한이 있는지 확인하려면 관리자로 게이트웨이의 설치 폴더인 *C:\Program Files\On-premises data gateway*로 이동하고 다음 파일을 편집합니다. Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 
-   ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+4. AD 사용자에 대한 ‘자신’의 Active Directory 특성 구성에 따라 다음 두 가지 구성 값을 편집합니다. 아래에 표시된 구성 값은 단지 예일 뿐이므로 Active Directory 구성에 따라 해당 구성 값을 지정해야 합니다. 이러한 구성은 대/소문자를 구분하므로 Active Directory의 값과 일치하는지 확인합니다.
+
+    ![Azure Active Directory 설정](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+
+    ADServerPath 구성의 값이 제공되지 않은 경우 게이트웨이는 기본 글로벌 카탈로그를 사용합니다. ADServerPath에 대해 여러 개의 값을 지정할 수도 있습니다. 각 값은 다음 예제와 같이 세미콜론으로 구분해야 합니다.
+
+    ```xml
+    <setting name="ADServerPath" serializeAs="String">
+        <value> >GC://serverpath1; GC://serverpath2;GC://serverpath3</value>
+    </setting>
+    ```
+    게이트웨이는 일치 항목을 찾을 때까지 ADServerPath의 값을 왼쪽에서 오른쪽으로 구문 분석합니다. 일치 항목이 없으면 원래 UPN이 사용됩니다. 게이트웨이 서비스(PBIEgwService)를 실행하는 계정에 ADServerPath에 지정한 모든 AD 서버에 대한 쿼리 권한이 있는지 확인합니다.
+
+    게이트웨이는 다음 예제와 같이 두 가지 유형의 ADServerPath를 지원합니다.
+
+    **WinNT**
+
+    ```xml
+    <value="WinNT://usa.domain.corp.contoso.com,computer"/>
+    ```
+
+    **GC**
+
+    ```xml
+    <value> GC://USA.domain.com </value>
+    ```
+
 5. **온-프레미스 데이터 게이트웨이** 서비스를 다시 시작하여 구성 변경 내용을 적용합니다.
 
 ### <a name="working-with-mapping-rules"></a>매핑 규칙 작업

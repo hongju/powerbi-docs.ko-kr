@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cbd67a9c35726830fc862326d9a015b96952b83
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5fe70f2ba213305c5307bb202cacbb1245cf970f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37136298"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548560"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Power BI로 Lithium에 연결
 Lithium에서는 사람들이 질문에 대한 답을 얻고 경험을 공유할 수 있도록 지원하여 세계 최고 브랜드와 고객 간에 신뢰할 수 있는 관계를 형성해 줍니다. Lithium 콘텐츠 팩을 Power BI에 연결하면 온라인 커뮤니티에 대한 주요 메트릭을 측정하여 판매를 촉진하고, 서비스 비용을 절감하며, 고객 충성도를 높일 수 있습니다. 
@@ -49,9 +49,9 @@ Power BI용 [Lithium 콘텐츠 팩](https://app.powerbi.com/getdata/services/lit
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
-* [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="system-requirements"></a>시스템 요구 사항
@@ -60,5 +60,5 @@ Lithium 콘텐츠 팩을 사용하려면 Lithium community v15.9 이상이 필�
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](power-bi-overview.md)
 
-[Power BI - 기본 개념](service-basic-concepts.md)
+[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
 

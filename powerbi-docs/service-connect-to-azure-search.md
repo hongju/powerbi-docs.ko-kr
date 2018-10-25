@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 09171c02dcbf5af50553c6e82f46f7f81b15a4cc
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5ba3c1336abc10872e58ef2ec38f076dfa120d47
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136206"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544964"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Power BI로 Azure Search에 연결
 Azure Search 트래픽 분석을 사용하면 Azure Search 서비스에 대한 트래픽을 모니터링하고 이해할 수 있습니다. Power BI용 Azure Search 콘텐츠 팩은 지난 30일 동안의 검색, 인덱싱, 서비스 통계 및 대기 시간을 비롯한 검색 데이터를 자세히 제공합니다. 자세한 내용은 [Azure 블로그 게시물](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/)에서 찾을 수 있습니다.
@@ -44,9 +44,9 @@ Azure Search 트래픽 분석을 사용하면 Azure Search 서비스에 대한 �
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
-* [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="system-requirements"></a>시스템 요구 사항
@@ -58,5 +58,5 @@ Azure Search 콘텐츠 팩을 사용하려면 계정에 대해 Azure Search 트�
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](power-bi-overview.md)
 
-[Power BI - 기본 개념](service-basic-concepts.md)
+[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
 

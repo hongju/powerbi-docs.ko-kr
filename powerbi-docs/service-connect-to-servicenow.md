@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5a0c00b6082b3561a1e07e5eef4e4e21f71f97a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c5fc2d476a12a4faf60313dd69dce7e143b88807
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135470"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548169"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>인시던트 보고를 위해 Power BI로 ServiceNow에 연결
 ServiceNow에서는 비즈니스, 운영 및 IT 관리를 비롯하여 비즈니스를 개선하기 위한 여러 제품과 솔루션을 제공합니다. 이 콘텐츠 팩에는 개시된 인시던트, 최근에 해결된 인시던트, 최근에 닫은 인시던트에 대한 다양한 정보 및 보고서가 포함되어 있습니다.  
@@ -44,9 +44,9 @@ ServiceNow에서는 비즈니스, 운영 및 IT 관리를 비롯하여 비즈니
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
-* [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="system-requirements"></a>시스템 요구 사항
@@ -63,5 +63,5 @@ ServiceNow에서는 비즈니스, 운영 및 IT 관리를 비롯하여 비즈니
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](power-bi-overview.md)
 
-[Power BI - 기본 개념](service-basic-concepts.md)
+[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
 

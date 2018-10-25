@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 64757d6cbd82b666bf18f1ee87d8e51954872990
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bb6868784314b369fcc02e3a36caf7c82c3c5966
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726734"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564926"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server용 Power BI 보고서 만들기
 Power BI 서비스 (https://powerbi.com) 에서 클라우드에 Power BI 보고서를 저장할 수 있는 것과 마찬가지로 Power BI Report Server 웹 포털에서 Power BI 보고서 온-프레미스를 저장하고 관리할 수 있습니다. Power BI Desktop에서 보고서를 만들고 편집하고 웹 포털에 게시합니다. 그런 다음 조직의 보고서 판독기는 모바일 장치의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
@@ -31,7 +31,7 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
 
     ![웹 포털에서 Power BI Desktop 다운로드](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    또는 Microsoft 다운로드 센터에서 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723)(Power BI Report Server에 최적화 - 2018년 3월)으로 바로 이동합니다.
+    또는 Microsoft 다운로드 센터에서 [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271)(Power BI Report Server에 최적화 - 2018년 8월)으로 바로 이동합니다.
 
 2. 다운로드 센터 페이지에서 **다운로드**를 선택합니다.
 
@@ -41,13 +41,13 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
 
     - **PBIDesktopRS_x64.msi**(64비트 버전).
 
-4. 설치 프로그램을 다운로드한 후에는 Power BI Desktop(2018년 3월) 설치 마법사를 실행합니다.
+4. 설치 프로그램을 다운로드한 후에는 Power BI Desktop(2018년 8월) 설치 마법사를 실행합니다.
 
 2. 설치가 끝나면 **지금 Power BI Desktop 시작**을 선택합니다.
    
-    그러면 자동으로 시작되어 사용할 준비가 됩니다. 제목 표시줄에 "Power BI Desktop(2018년 3월)"이 표시되면 올바른 버전이 준비된 것입니다.
+    그러면 자동으로 시작되어 사용할 준비가 됩니다. 제목 표시줄에 “Power BI Desktop(2018년 8월)”이 표시되면 올바른 버전이 준비된 것입니다.
 
-    ![Power BI Desktop 2018년 3월 버전](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+    ![Power BI Desktop 2018년 8월 버전](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-august-2018.png)
 
 3. Power BI Desktop에 익숙하지 않은 경우 시작 화면에서 비디오를 시청하는 것이 좋습니다.
    
@@ -91,36 +91,6 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
 2. 이제 웹 포털에서 볼 수 있습니다.
    
     ![웹 포털에서 보고서 보기](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
-
-## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
-Power BI Report Server 및 Power BI 서비스 (http://powerbi.com) 의 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
-
-### <a name="in-a-browser"></a>브라우저에서
-Power BI Report Server 보고서는 다음을 비롯한 모든 시각화를 지원합니다.
-
-* 사용자 지정 시각적 개체
-
-Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
-
-* R 시각적 개체
-* ArcGIS 맵
-* 현재 위치
-* Power BI Desktop 미리 보기 기능
-
-### <a name="in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서
-Power BI Report Server 보고서는 [Power BI 모바일 앱](../consumer/mobile/mobile-apps-for-mobile-devices.md)에서 다음을 비롯한 모든 기본 기능을 지원합니다.
-
-* [전화 보고서 레이아웃](../desktop-create-phone-report.md): Power BI 모바일 앱에 보고서를 최적화할 수 있습니다. 휴대전화에서 최적화된 보고서에는 특수 아이콘 ![전화 보고서 레이아웃 아이콘](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) 및 레이아웃이 있습니다.
-  
-    ![휴대폰에 최적화된 보고서](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
-
-Power BI Report Server 보고서는 Power BI 모바일 앱에서 다음과 같은 기능을 지원하지 않습니다.
-
-* R 시각적 개체
-* ArcGIS 맵
-* 사용자 지정 시각적 개체
-* 현재 위치
-* 지역 필터링 또는 막대 코드
 
 ## <a name="next-steps"></a>다음 단계
 ### <a name="power-bi-desktop"></a>Power BI Desktop

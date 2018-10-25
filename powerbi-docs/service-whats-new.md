@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/27/2018
+ms.date: 09/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 090a59f406f1e3874f678752f0e0bc9656ae492f
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548951"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909179"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
@@ -31,37 +31,43 @@ ms.locfileid: "46548951"
 * [Microsoft Power BI(YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="august-2018"></a>2018년 8월
-* Power BI [보고서 URL 필터](service-url-filters.md) 개선 사항
+## <a name="september-2018"></a>2018년 9월
+* Power BI 서비스에 [언급된 대시보드](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)
 
 ## <a name="previous-months-2018"></a>이전 달(2018년)
+### <a name="august-2018"></a>2018년 8월
+* Power BI Premium용[용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
+* Power BI [보고서 URL 필터](service-url-filters.md) 개선 사항
+
 ### <a name="july-2018"></a>2018년 7월
+* [영구 필터](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)에 대한 사용자 지정 시각적 개체 지원
 * Power BI 관리자용 [API 및 PowerShell Cmdlet](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/)
+* Power BI Premium에 대한 [Multi-Geo 지원](service-admin-premium-multi-geo.md)
 
 ### <a name="june-2018"></a>2018년 6월
 * 필터 및 슬라이서를 사용하여 보고서 공유
 * [게이트웨이 연결](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/)에 대한 새롭고 향상된 사용자 인터페이스 및 데이터 집합 설정
 
 ### <a name="may-2018"></a>2018년 5월
-* Power BI 서비스의 [테마 대시보드](https://docs.microsoft.com/power-bi/service-dashboard-themes)
-* 프리미엄을 사용하여 [증분 새로 고침](https://docs.microsoft.com/power-bi/service-premium-incremental-refresh)
-* [Power BI 앱](https://docs.microsoft.com/power-bi/service-create-distribute-apps)에 대한 액세스 워크플로 요청
-* 사용자가 [Power BI 앱](https://docs.microsoft.com/power-bi/service-create-distribute-apps)을 쉽게 찾을 수 있도록 데이터 업데이트
+* Power BI 서비스의 [테마 대시보드](service-dashboard-themes.md)
+* 프리미엄을 사용하여 [증분 새로 고침](service-premium-incremental-refresh.md)
+* [Power BI 앱](service-create-distribute-apps.md)에 대한 액세스 워크플로 요청
+* 사용자가 [Power BI 앱](service-create-distribute-apps.md)을 쉽게 찾을 수 있도록 데이터 업데이트
 * Power BI 서비스에서 [영구 필터](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) 설정 및 해제
 * Azure B2B는 보고서에 대한 워크플로 기능 향상을 도입합니다.
 
 ### <a name="april-2018"></a>2018년 4월
 * [데이터 보호에 대한 Power BI 백서](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* Power BI 서비스 [감사 로그](https://docs.microsoft.com/power-bi/service-admin-auditing)는 Office 365 테넌트에 대해 기본적으로 설정됩니다.
+* Power BI 서비스 [감사 로그](service-admin-auditing.md)는 Office 365 테넌트에 대해 기본적으로 설정됩니다.
 
 ### <a name="march-2018"></a>2018년 3월
 * Power BI 서비스의 [영구 필터](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)
 * 사용자의 개인 메일 계정을 사용하여 사용자와 콘텐츠 공유 [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) 확장
 
 ### <a name="february-2018"></a>2018년 2월
-* 최종 사용자에 대해 자동으로 [Power BI 앱](https://docs.microsoft.com/power-bi/service-create-distribute-apps) 설치
+* 최종 사용자에 대해 자동으로 [Power BI 앱](service-create-distribute-apps.md) 설치
 * Power BI Premium의 P4 및 P5 용량
-* [조직의 사용자 지정 시각적 개체](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-organization) 미리 보기
+* [조직의 사용자 지정 시각적 개체](power-bi-custom-visuals-organization.md) 미리 보기
 
 ### <a name="january-2018"></a>2018년 1월
 *   Power BI 보고서 공유 및 즐겨찾기에 추가
@@ -73,7 +79,7 @@ ms.locfileid: "46548951"
 
 ## <a name="previous-months-2017"></a>이전 달(2017년)
 ## <a name="october-and-november-2017"></a>2017년 10월 및 11월
-*   [Power BI 앱](https://docs.microsoft.com/power-bi/service-create-distribute-apps)을 사용하여 콘텐츠를 선택적으로 게시
+*   [Power BI 앱](service-create-distribute-apps.md)을 사용하여 콘텐츠를 선택적으로 게시
 *   [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/)를 사용하여 외부 사용자 배포
 * AI 기반 앱 권장 사항
 * 대시보드 타일 위 UI 업데이트
@@ -587,7 +593,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 * Power BI의 "일반 공급"(GA) 릴리스가 공개되었음을 알려드립니다. [Power BI Pro](service-self-service-signup-for-power-bi.md)에 지금 등록합니다. GA 릴리스의 일부로서, 몇 가지 멋진 새로운 기능을 제공하려 합니다.
 * 새 시각화 요소 및 보고서 작성 환경: 새 보고 캔버스에는 시각화를 더 다양하게 선택하고 제목, 범례, 축, 색상, 배경 등의 서식 지정에 대해 더욱 세밀하게 제어할 수 있습니다.
-* [Power BI 그룹](consumer/end-user-create-apps.md): Office 365 그룹을 기반으로 하는 강력한 공동 작업 환경을 제공합니다.
+* [Power BI 그룹](service-create-distribute-apps.md): Office 365 그룹을 기반으로 하는 강력한 공동 작업 환경을 제공합니다.
 * [조직 콘텐츠 팩](service-organizational-content-pack-introduction.md): Power BI를 사용 하여 대시보드 및 보고서를 매우 간단하게 만들 수 있고, 사용자가 이 콘텐츠를 조직 콘텐츠 갤러리에 게시할 수 있게 되었습니다.
 * [전체 Excel 파일 가져오기](service-excel-workbook-files.md): Excel Online에서 하듯 비즈니스용 OneDrive에 저장된 Excel 통합 문서를 Power BI에 가져와 전체 통합 문서를 볼 수 있습니다.
 * [CSV 파일 가져오기](service-get-data-from-files.md): Excel 또는 Power BI 데스크톱 파일처럼 쉼표로 구분된 값 텍스트(CSV) 파일은 Power BI 대시보드 및 보고서용 데이터 집합이 될 수도 있습니다.

@@ -1,38 +1,39 @@
 ---
 title: Power BI 전화 앱에 대해 최적화된 보고서 만들기
-description: Power BI 전화 앱에 대해 Power BI Desktop에서 보고서 페이지를 최적화하는 방법을 알아봅니다.
+description: 특별히 휴대폰용 보고서 버전을 만들어 Power BI 휴대폰 앱의 보고서 페이지를 최적화하는 방법을 알아봅니다.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 09/14/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22f4d6bf3c715c390c9760593ba5afdc72ce3bf7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726458"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973957"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Power BI 전화 앱에 대해 최적화된 보고서 만들기
-[Power BI Desktop에서 보고서를 만들](desktop-report-view.md) 때, 특별히 전화용으로 보고서를 만들어 전화에서 Mobile Apps로 사용하는 경험을 향상시킬 수 있습니다. 최적의 경험을 위해 시각적 개체를 어쩌면 모두 포함하지 않고 크기를 조정하고 정렬하여 휴대폰용 보고서를 조정합니다. 또한 휴대폰에서 볼 수 있도록 크기를 적절히 조정하는 [*반응형* 시각적 개체](#optimize-a-visual-for-any-size) 및 [반응형 슬라이서](#enhance-slicers-to-to-work-well-in-phone-reports)를 만들 수 있습니다. 또한 보고서에 필터를 추가하는 경우 해당 필터는 휴대폰 보고서에 자동으로 나타납니다. 보고서 구독자는 해당 필터를 확인하고 해당 필터로 보고서를 필터링할 수 있습니다.
+특별히 휴대폰용 보고서 버전을 만들어 휴대폰의 모바일 앱에서 보고서를 보는 환경을 개선할 수 있습니다. Power BI Desktop 및 Power BI 서비스에서 최적의 환경을 위해 일부 시각적 개체를 포함하지 않고 크기를 조정하고 다시 정렬하여 휴대폰용 보고서를 조정합니다. 또한 휴대폰에서 볼 수 있도록 크기를 적절히 조정하는 [*반응형* 시각적 개체](#optimize-a-visual-for-any-size) 및 [반응형 슬라이서](#enhance-slicers-to-to-work-well-in-phone-reports)를 만들 수 있습니다. 또한 보고서에 필터를 추가하는 경우 해당 필터는 휴대폰 보고서에 자동으로 나타납니다. 보고서 구독자는 해당 필터를 확인하고 해당 필터로 보고서를 필터링할 수 있습니다.
 
 ![휴대폰에 최적화된 보고서](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-## <a name="lay-out-a-report-page-for-the-phone-in-power-bi-desktop"></a>Power BI Desktop에서의 전화용 보고서 페이지 레이아웃
-[Power BI Desktop에서 보고서를 만든](desktop-report-view.md) 후, 전화용으로 최적화할 수 있습니다.
+## <a name="lay-out-a-report-page-for-the-phone"></a>휴대폰용 보고서 페이지 페이아웃
 
-1. Power BI Desktop의 왼쪽 탐색 모음에서 **보고서 보기**를 선택합니다.
-   
-    ![보고서 보기 아이콘](media/desktop-create-phone-report/desktop-create-phone-report-2.png)
-2. **보기** 탭에서 **휴대폰 레이아웃**을 선택합니다.  
+보고서를 만든 후 휴대폰에 맞게 최적화할 수 있습니다.
+
+1. Power BI Desktop의 보고서 보기에 있는 **보기** 탭에서 **휴대폰 레이아웃**을 선택합니다.  
    
     ![휴대폰 레이아웃 아이콘](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
+    Power BI 서비스에서 **보고서 편집** > **모바일 레이아웃**를 선택합니다.
+
     빈 전화 캔버스가 표시됩니다. 원본 보고서 페이지의 모든 시각적 개체는 오른쪽의 시각화 창에 나열됩니다.
+
 3. 전화 레이아웃에 시각적 개체를 추가하려면 시각화 창에서 전화 캔버스로 끌어옵니다.
    
     전화 보고서는 그리드 레이아웃을 사용합니다. 시각적 개체를 모바일 캔버스로 끌어오면 해당 그리드로 딸깍 소리를 내며 맞춰집니다.
@@ -40,12 +41,10 @@ ms.locfileid: "44726458"
     ![시각적 개체 끌어서 놓기](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
     마스터 보고서 페이지의 일부 또는 모든 시각적 개체를 전화 보고서 페이지에 추가할 수 있습니다. 각 시각적 개체는 한 번만 추가할 수 있습니다.
+
 4. 그리드 위의 시각적 개체를 대시보드 및 모바일 대시보드 위의 타일에 대해서와 마찬가지로 크기를 조정할 수 있습니다.
    
-   > [!NOTE]
-   > 전화 보고서 그리드는 다양한 크기의 전화에 맞게 크기를 조정함으로써 보고서가 크고 작은 전화 화면에서 모두 잘 나옵니다.
-   > 
-   > 
+   전화 보고서 그리드는 다양한 크기의 전화에 맞게 크기를 조정함으로써 보고서가 크고 작은 전화 화면에서 모두 잘 나옵니다.
    
    ![시각적 개체 크기 조정](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 

@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544006"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448963"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI의 콤보 차트
 Power BI 콤보 차트는 꺾은선형 차트와 세로 막대형 차트를 결합한 단일 시각화 요소입니다. 2개 차트를 하나로 결합하면 데이터를 더 빠르게 비교할 수 있습니다.
@@ -55,9 +55,9 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
     c.  **시간** \> **회계 월**을 선택하여 **축** 웰에 추가합니다.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. 시각화의 오른쪽 위 모서리에 있는 줄임표(...)를 선택하고 **FiscalMonth 기준 정렬**을 선택합니다. 오름차순 또는 내림차순으로 정렬하려면 두 번 선택해야 할 수도 있습니다.
+5. 시각화의 오른쪽 위 모서리에 있는 줄임표(...)를 선택하고 **정렬 기준 > FiscalMonth**를 선택합니다. 정렬 순서를 변경하려면 줄임표를 다시 선택하고 **오름차순 정렬** 또는 **내림차순 정렬**을 선택합니다.
 
-6. 세로 막대형 차트를 콤보 차트로 변환합니다. 세로 막대형 차트를 선택한 상태로 **시각화** 창에서 **꺾은선형 및 묶은 세로 막대형 차트**를 선택합니다.
+6. 세로 막대형 차트를 콤보 차트로 변환합니다. **꺾은선형 및 누적 세로 막대형**과 **꺾은선형 및 묶은 세로 막대형**의 두 가지 콤보 차트를 사용할 수 있습니다. 세로 막대형 차트를 선택한 상태로 **시각화** 창에서 **꺾은선형 및 묶은 세로 막대형 차트**를 선택합니다.
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. **필드** 창에서 **판매액** \> **작년 판매액**을 **꺾은선형 값** 버킷으로 끌어다 놓습니다.
@@ -71,7 +71,8 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 ## <a name="create-a-combo-chart-with-two-axes"></a>두 개의 축이 있는 콤보 차트 만들기
 이 작업에서는 총 수익과 매출을 비교하겠습니다.
 
-1. **월별** **작년의 총 수익률(%)** 을 추적하는 새로운 꺾은선형 차트를 만듭니다.  1월에는 GM%가 35%였고, 4월에 45% 고점에 도달했으며, 7월에 감소하고, 8월에 다시 고점에 도달했습니다. 작년과 금년의 매출 패턴이 유사할까요?
+1. **월별** **작년의 총 수익률(%)** 을 추적하는 새로운 꺾은선형 차트를 만듭니다. **월별** 및 **오름차순** 기준으로 정렬하려면 줄임표를 선택합니다.  
+1월에는 GM%가 35%였고, 4월에 45% 고점에 도달했으며, 7월에 감소하고, 8월에 다시 고점에 도달했습니다. 작년과 금년의 매출 패턴이 유사할까요?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
 2. **This Year Sales > Value** 및 **Last Year Sales**를 꺾은선형 차트에 추가합니다. **작년의 총 수익률(%)** 의 눈금은 **Sales** 눈금보다 훨씬 작기 때문에 비교하기가 어렵습니다.      
@@ -80,7 +81,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 3. 보다 쉽게 읽고 해석 가능한 시각적 개체를 만들려면 꺾은선형 차트를 꺾은선형 및 누적 세로 막대형 차트로 변환합니다.
 
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. **작년 총수익%** 을 **세로 막대 값**에서 **꺾은선형 값**으로 끌어다 놓습니다. Power BI가 두 개의 축을 만들기 때문에 데이터 집합의 크기를 다르게 조정할 수 있습니다. 왼쪽은 판매액(달러)을 측정하고, 오른쪽은 백분율을 측정합니다.
+4. **작년 총수익%** 을 **세로 막대 값**에서 **꺾은선형 값**으로 끌어다 놓습니다. Power BI가 두 개의 축을 만들기 때문에 데이터 집합의 크기를 다르게 조정할 수 있습니다. 왼쪽은 판매액(달러)을 측정하고, 오른쪽은 백분율을 측정합니다. 질문에 대한 답변이 표시됩니다. 유사한 패턴이 확인됩니다.
 
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
@@ -103,20 +104,16 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 
 여기서 다음과 같은 작업을 수행할 수 있습니다.
 
-* [대시보드 타일로 콤보 차트를 추가합니다](../consumer/end-user-tiles.md).
+* [대시보드 타일로 콤보 차트를 추가합니다](../service-dashboard-tiles.md).
 * [보고서를 저장합니다](../service-report-save.md).
-* [장애가 있는 사용자가 보고서에 액세스할 수 있도록 만들기](../desktop-accessibility.md)
+* [장애가 있는 사용자가 보고서에 액세스할 수 있도록 만듭니다](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>교차 강조 표시 및 교차 필터링
 
-콤보 차트에서 특정 세로 막대 또는 꺾은선을 강조 표시하면 보고서 페이지의 다른 시각화 요소가 교차 강조 표시 및 교차 필터링되며 그 반대의 경우도 마찬가지입니다. 이 기본 동작을 변경하려면 [시각적 상호 작용](../consumer/end-user-interactions.md)을 사용합니다.
+콤보 차트에서 특정 세로 막대 또는 꺾은선을 강조 표시하면 보고서 페이지의 다른 시각화 요소가 교차 강조 표시 및 교차 필터링되며 그 반대의 경우도 마찬가지입니다. 이 기본 동작을 변경하려면 [시각적 상호 작용](../service-reports-visual-interactions.md)을 사용합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI 보고서의 시각화 개요](power-bi-report-visualizations.md)
+[Power BI의 도넛형 차트](power-bi-visualization-doughnut-charts.md)
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)
-
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

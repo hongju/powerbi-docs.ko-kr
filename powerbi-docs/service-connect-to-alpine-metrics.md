@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7456a030dd5047642c4de9c7a289fed96fe390f1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 7bab3839b5f47448a6882d0ea15bb0f253ceb5ea
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135976"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547883"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Power BI로 Alpine Metrics Sales Predictions에 연결
 Alpine Metrics에서는 최신 Predictive Sales Process Optimization을 클라우드에서, 그리고 영업 조직 규모에 따라 주문형으로 제공합니다. Power BI용 Alpine Metrics Sales Predictions 콘텐츠 팩에는 잠재적 및 예측된 판매 및 위험과 같은 메트릭을 포함하여 비즈니스의 미래에 대해 깊이 이해할 수 있도록 합니다. 
@@ -43,9 +43,9 @@ Power BI용 [Alpine Metrics Sales Predictions 콘텐츠 팩](https://app.powerbi
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
-* [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용
@@ -68,5 +68,5 @@ Power BI용 [Alpine Metrics Sales Predictions 콘텐츠 팩](https://app.powerbi
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](power-bi-overview.md)
 
-[Power BI - 기본 개념](service-basic-concepts.md)
+[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
 

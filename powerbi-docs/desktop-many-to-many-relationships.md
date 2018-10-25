@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388758"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974003"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop의 다 대 다 관계(미리 보기)
 
@@ -158,12 +158,13 @@ Power BI에서 두 테이블 간 관계를 정의할 때 관계의 카디널리�
 
 **다 대 다 관계** 및 **복합 모델**의 이 릴리스에 대한 몇 가지 제한 사항이 있습니다.
 
-다음 다차원 원본은 **복합 모델**과 함께 사용할 수 없습니다.
+다음 Live Connect(다차원) 원본은 **복합 모델**과 함께 사용할 수 없습니다.
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI 데이터 집합
+* Azure Analysis Services
 
 DirectQuery를 사용하여 이러한 다차원 원본에 연결할 경우 다른 DirectQuery 원본에 연결할 수 없고 가져온 데이터와 결합할 수도 없습니다.
 

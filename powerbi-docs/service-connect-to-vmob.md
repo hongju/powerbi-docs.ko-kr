@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b1f2970ad73783acf3736856463915161056b801
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 01c7866a47d20b51055aa77bdd4792e2277c335f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237879"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549745"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Power BI로 VMob에 연결
 Power BI 및 VMob 콘텐츠 팩에서 VMob 데이터 추적 및 탐색이 쉽습니다. Power BI는 전체 시간 및 지난 30일에 대한 사용자 통계, 지난 30일에 대한 정품 KPI 및 지난 30일 동안의 캠페인 성능 데이터를 검색할 수 있습니다.
@@ -44,9 +44,9 @@ Power BI용 [VMob 콘텐츠 팩](https://app.powerbi.com/getdata/services/vmob)�
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
-* [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계

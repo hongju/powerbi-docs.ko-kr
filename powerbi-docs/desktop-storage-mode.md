@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: ce4aab1a477485a30a4166d86d166a4ac289108f
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388804"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974233"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop의 저장소 모드(미리 보기)
 
@@ -171,12 +171,13 @@ ms.locfileid: "39388804"
 
 **저장소 모드**의 이 릴리스 및 **복합 모델**과 상관 관계에 대한 몇 가지 제한 사항이 있습니다.
 
-다음 다차원 원본은 **복합 모델**과 함께 사용할 수 없습니다.
+다음 Live Connect(다차원) 원본은 **복합 모델**과 함께 사용할 수 없습니다.
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI 데이터 집합
+* Azure Analysis Services
 
 DirectQuery를 사용하여 이러한 다차원 원본에 연결할 경우 다른 DirectQuery 원본에 연결할 수 없고 가져온 데이터와 결합할 수도 없습니다.
 

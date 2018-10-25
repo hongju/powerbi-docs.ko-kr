@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565823"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448917"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI의 폭포 차트
 폭포 차트는 값을 더하거나 뺄 때의 누계를 보여줍니다. 초기 값(예: 순수입)이 일련의 양수 및 음수 변경에 어떻게 영향을 받는지 이해하는 데 유용합니다.
@@ -39,32 +39,32 @@ ms.locfileid: "46565823"
 
 1. **데이터 집합** 탭을 선택하고 새로운 "소매 분석 샘플" 데이터 집합으로 스크롤합니다.  **보고서 만들기** 아이콘을 선택하여 보고서 편집 보기에서 데이터 집합을 엽니다. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. **필드** 창에서 **판매액 \> 총 판매액 분산**을 선택합니다. **총 판매액 분산** 이 **Y축** 영역에 없는 경우, 그곳으로 끌어 놓습니다.
-3. 차트를 **폭포**로 변환합니다. 
+    ![데이터 집합 탭이 강조 표시됨](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+2. **필드** 창에서 **판매액 \> 총 판매액 분산**을 선택합니다. 
+3. 차트를 **폭포**로 변환합니다. **총 판매액 분산** 이 **Y축** 영역에 없는 경우, 그곳으로 끌어 놓습니다.
    
-    ![](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![시각화 템플릿](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. **시간** \> **회계 월**을 선택하여 **범주**에 추가합니다. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![폭포](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 5. 폭포 차트를 시간순으로 정렬합니다. 차트의 오른쪽 위 모서리에서 줄임표(...)를 선택하고 **회계 월**을 선택합니다.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sort.png)
+    ![정렬 기준 > FiscalMonth 선택](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![새 오름차순 정렬의 결과](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. 조금 더 세부적으로 들어가 월간 편차의 가장 큰 요인을 살펴봅니다. **매장** > **지역**을 **분석** 버킷으로 끕니다.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
-7. 기본적으로 Power BI는 월별 증가 또는 감소에 상위 5개 요인을 추가합니다. 하지만 상위 2개 요인에만 관심이 있는 경우  서식 지정 창에서 **분석**을 선택하고 **최대값**을 2로 설정하면 됩니다.
+    ![분석 버킷의 매장 표시](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+7. 기본적으로 Power BI는 월별 증가 또는 감소에 상위 5개 요인을 추가합니다. 하지만 상위 2개 요인에만 관심이 있는 경우  서식 지정 창에서 **분석**을 선택하고 **최댓값**을 2로 설정하면 됩니다.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![서식 > 분석](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
     간단히 살펴보면 오하이오 및 펜실베니아 지역이 폭포 차트의 증감에 가장 큰 영향을 주는 지역인 것으로 보입니다. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-8. 흥미로운 결과입니다. 이 두 지역의 매출이 다른 지역보다 훨씬 더 높아서 이처럼 큰 영향을 주는 것일까요?  확인해 보겠습니다. 영역별 매출을 보여주는 지도를 만듭니다.  
+    ![폭포 차트](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+8. 흥미로운 결과입니다. 이 두 지역의 매출이 다른 지역보다 훨씬 더 높아서 이처럼 큰 영향을 주는 것일까요?  확인해 보겠습니다. 올해와 작년의 지역별 매출을 보여 주는 지도를 만듭니다.  
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
+    ![PA 및 Ohio의 지도 확대 사진](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
    
     지도가 이 이론을 뒷받침해 주고 있습니다.  이 두 지역의 작년(거품 크기)과 올해(거품 음영) 매출이 최고값을 기록했다고 나와 있습니다.
 
@@ -74,13 +74,7 @@ ms.locfileid: "46565823"
 보고서 페이지에서 다른 시각화 요소를 교차 필터링하는 폭포 차트에서 세로형 막대를 강조 표시하고 그 반대의 경우도 마찬가지입니다. 그러나 총 세로형 막대는 강조 표시를 트리거하지 않거나 교차 필터링에 응답하지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI의 보고서](../consumer/end-user-reports.md)
+
+[시각적 개체 상호 작용](../service-reports-visual-interactions.md)
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI 보고서의 시각화](power-bi-report-visualizations.md)
-
-[Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)
-
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-

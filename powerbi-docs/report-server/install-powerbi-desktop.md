@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/24/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726389"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564788"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 Power BI Report Server에 최적화된 Power BI Desktop을 설치하는 방법에 대해 자세히 알아봅니다.
@@ -31,7 +31,7 @@ Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유�
 
     ![웹 포털에서 Power BI Desktop 다운로드](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    또는 Microsoft 다운로드 센터에서 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723)(Power BI Report Server에 최적화 - 2018년 3월)으로 바로 이동할 수도 있습니다.
+    또는 Microsoft 다운로드 센터에서 [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271)(Power BI Report Server에 최적화 - 2018년 8월)으로 바로 이동할 수도 있습니다.
 
 2. 다운로드 센터 페이지에서 **다운로드**를 선택합니다.
 
@@ -41,7 +41,8 @@ Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유�
 
     - **PBIDesktopRS_x64.msi**(64비트 버전).
 
-1. 설치 프로그램을 다운로드한 후에는 Power BI Desktop(2017년 10월) 설치 마법사를 실행합니다.
+1. 설치 프로그램을 다운로드한 후에는 Power BI Desktop(2018년 8월) 설치 마법사를 실행합니다.
+
 2. 설치가 끝나면 **지금 Power BI Desktop 시작**을 선택합니다.
    
     그러면 자동으로 시작되어 사용할 준비가 됩니다.
@@ -49,7 +50,7 @@ Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유�
 ## <a name="verify-you-are-using-the-correct-version"></a>올바른 버전을 사용하는지 확인
 Power BI Desktop 내의 시작 화면 또는 제목 표시줄을 보면 올바른 Power BI Desktop을 사용하고 있는지 확인할 수 있습니다. 제목 표시줄은 릴리스 월과 릴리스 연도를 표시합니다.
 
-![Power BI Report Server에 최적화된 Power BI Desktop의 제목 표시줄](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+![Power BI Report Server에 최적화된 Power BI Desktop의 제목 표시줄](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 
 Power BI 서비스용 Power BI Desktop 버전은 제목 표시줄에 월 및 연도가 없습니다.
 
@@ -63,7 +64,7 @@ Power BI Desktop을 설치한 다음 Power BI Report Server에 최적화된 Powe
 Power BI Report Server 내에서 Power BI 보고서를 편집하거나 웹 포털에서 새 Power BI 보고서를 만들면 올바른 버전의 Power BI Destop이 열립니다.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
-Power BI Report Server 및 Power BI 서비스 (http://powerbi.com) 의 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
+Power BI Report Server, Power BI 서비스(http://app.powerbi.com)) 및 Power BI 모바일 앱의 Power BI 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
 
 ### <a name="in-a-browser"></a>브라우저에서
 Power BI Report Server 보고서는 다음을 비롯한 모든 시각화를 지원합니다.
@@ -80,9 +81,9 @@ Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
 ### <a name="in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서
 Power BI Report Server 보고서는 [Power BI 모바일 앱](../consumer/mobile/mobile-apps-for-mobile-devices.md)에서 다음을 비롯한 모든 기본 기능을 지원합니다.
 
-* [전화 보고서 레이아웃](../desktop-create-phone-report.md): Power BI 모바일 앱에 보고서를 최적화할 수 있습니다. 휴대전화에서 최적화된 보고서에는 특수 아이콘 ![전화 보고서 레이아웃 아이콘](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) 및 레이아웃이 있습니다.
+* [전화 보고서 레이아웃](../desktop-create-phone-report.md): Power BI 모바일 앱에 보고서를 최적화할 수 있습니다. 휴대전화에서 최적화된 보고서에는 특수 아이콘 ![전화 보고서 레이아웃 아이콘](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) 및 레이아웃이 있습니다.
   
-    ![휴대폰에 최적화된 보고서](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+    ![휴대폰에 최적화된 보고서](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
 Power BI Report Server 보고서는 Power BI 모바일 앱에서 다음과 같은 기능을 지원하지 않습니다.
 

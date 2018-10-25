@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4cd8974316119978749db4f3996db76d907ab38
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 26caf128828ec67ce7a6f2af62560869e261ee8b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136068"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543523"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Power BI로 QuickBooks Online에 연결
 Power BI용 QuickBooks Online 데이터에 연결하면 비즈니스 현금 흐름, 수익성, 고객 등에 대한 통찰력을 제공하는 Power BI 대시보드 및 Power BI 보고서가 즉시 표시됩니다. 제공된 대시보드 및 보고서를 그대로 사용하거나, 가장 관심 있는 정보를 강조 표시하도록 사용자 지정합니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다.
@@ -55,9 +55,9 @@ Power BI용 [QuickBooks Online 콘텐츠 팩](https://dxt.powerbi.com/getdata/se
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
-* [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="troubleshooting"></a>문제 해결
@@ -82,5 +82,5 @@ Power BI용 [QuickBooks Online 콘텐츠 팩](https://dxt.powerbi.com/getdata/se
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](power-bi-overview.md)
 
-[Power BI - 기본 개념](service-basic-concepts.md)
+[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
 

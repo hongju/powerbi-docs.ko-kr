@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc9a8637416bdea50e955c1aea73bbcfeed51bb6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f125edf58ab80da68a236d671495fc48e475c212
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243004"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548537"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Power BI로 comScore Digital Analytix에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 comScore Digital Analytix 데이터를 보고 탐색합니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다.
@@ -45,9 +45,9 @@ Power BI 콘텐츠 팩을 사용하여 Power BI에서 comScore Digital Analytix 
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
-* [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 <a name="Requirements"></a>

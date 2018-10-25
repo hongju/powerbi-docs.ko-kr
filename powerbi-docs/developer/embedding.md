@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
 ms.date: 07/31/2018
-ms.openlocfilehash: 2889345c5e4a5e93602c51baa27bf2c7e28e138f
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616031"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973773"
 ---
 # <a name="embedding-with-power-bi"></a>Power BI에 포함
 
-Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드 및 보고서 포함을 위한 API가 있습니다. 즉, 일련의 기능은 물론, 콘텐츠 포함 시 대시보드, 게이트웨이 및 앱 작업 영역 등의 최신 Power BI 기능을 이용할 수 있습니다.
+Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드 및 보고서 포함을 위한 API가 있습니다. 이 기능은 일련의 기능은 물론, 콘텐츠 포함 시 대시보드, 게이트웨이 및 앱 작업 영역 등의 최신 Power BI 기능을 이용할 수 있음을 의미합니다.
 
-[온보딩 환경 도구](https://aka.ms/embedsetup)를 통해 신속하게 샘플 응용 프로그램을 다운로드하여 시작할 수 있습니다.
+[포함 설정 도구](https://aka.ms/embedsetup)를 통해 신속하게 시작하고 샘플 응용 프로그램을 다운로드할 수 있습니다.
 
 사용자에게 적합한 솔루션을 선택합니다.
 
@@ -49,7 +49,7 @@ Power BI 라이선스가 없는 고객 및 사용자의 경우 조직 또는 고
 
 편집, 저장 등과 같은 셀프 서비스 기능은 Power BI 사용자에 대해 포함하는 경우 [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 통해 사용할 수 있습니다.
 
-[조직에 대한 콘텐츠를 포함할 온보딩 환경 도구](https://aka.ms/embedsetup/UserOwnsData)를 진행하여 조직에 대한 보고서를 통합하는 방법을 설명하는 샘플 응용 프로그램을 신속하게 시작하고 다운로드할 수 있습니다.
+조직의 콘텐츠를 포함할 [포함 설정 도구](https://aka.ms/embedsetup/UserOwnsData)를 통해 조직에 대한 보고서를 통합하는 방법을 설명하는 샘플 응용 프로그램을 신속하게 시작하고 다운로드할 수 있습니다.
 
 ## <a name="embedding-for-your-customers"></a>고객에 대한 콘텐츠 포함
 

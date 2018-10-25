@@ -1,5 +1,5 @@
 ---
-title: Power BI의 슬라이서
+title: 자습서 - Power BI의 슬라이서
 description: Power BI의 슬라이서
 author: mihart
 manager: kvivek
@@ -7,23 +7,23 @@ ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
-ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: mihart
+ms.topic: tutorial
+ms.date: 09/25/2018
+ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e42504c2c320e4f102cab5e2272e6123bf580cf5
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565087"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448986"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI의 슬라이서
 보고서를 읽는 사람이 전체 판매액 메트릭을 보고 개별 구역 관리자 및 다른 시간 프레임에 대한 성과를 강조 표시할 수 있도록 하려 합니다. 별도의 보고서 또는 비교 차트를 만들거나 슬라이서를 사용할 수 있습니다. 슬라이서는 보고서의 다른 시각화에 표시되는 데이터 집합의 부분을 좁히는 대체 필터링 방법입니다. 
 
 이 자습서에서는 무료 [소매점 분석 샘플](../sample-retail-analysis.md)을 사용하여 목록 및 날짜 범위 슬라이서를 만들고, 서식을 지정하고, 이를 사용하는 방법을 안내합니다. 슬라이서의 서식을 지정하고 사용하는 방법을 재미있게 알아보세요. 
 
-![슬라이서](./media/power-bi-visualization-slicers/slicer2.gif)
+![슬라이서](media/power-bi-visualization-slicers/slicer2.gif)
 
 ## <a name="when-to-use-a-slicer"></a>슬라이서를 사용하는 경우
 다음과 같은 경우 슬라이서를 사용하는 것이 좋습니다.
@@ -46,7 +46,7 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
 
 보고서를 처음으로 변경한 경우 **기본값으로 다시 설정**의 단추가 켜집니다. 원래 보고서 설정을 변경했다는 미리 알림입니다. 보고서에서 벗어날 경우 해당 변경 내용은 저장됩니다(유지). 보고서로 돌아가면 보고서를 다시 조각화할 필요가 없습니다.  그러나 보고서를 작성자의 기본 설정으로 다시 설정하려는 경우 위의 메뉴 모음에서 **기본값으로 다시 설정** 단추를 선택합니다.
 
-![기본 단추로 되돌리기](./media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+![기본 단추로 되돌리기](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
 
 > [!NOTE]
 > **기본값으로 다시 설정** 단추가 비활성 상태로 유지되면 보고서 작성자가 해당 보고서에 대해 기능을 비활성화하거나 보고서에 사용자 지정 시각적 개체가 포함되었음을 의미합니다. 단순히 단추를 마우스로 가리키면 설명의 도구 설명을 읽을 수 있습니다. 
@@ -54,10 +54,10 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
 **구역 관리자별로 데이터를 필터링하는 새 슬라이서를 만들려면**
 
 1. Power BI Desktop 또는 Power BI 서비스에서 [소매점 분석 샘플](../sample-retail-analysis.md)을 엽니다. (Power BI 서비스에서는 왼쪽 위에 있는 **보고서 편집**을 선택합니다.)
-2. **개요** 페이지에서 캔버스에 아무것도 선택되어 있지 않으면 **시각화** 창에서 **슬라이서** 아이콘 ![슬라이서 아이콘](./media/power-bi-visualization-slicers/slicer-icon.png)을 선택하여 새 슬라이서를 만듭니다. 
+2. **개요** 페이지에서 캔버스에 아무것도 선택되어 있지 않으면 **시각화** 창에서 **슬라이서** 아이콘 ![슬라이서 아이콘](media/power-bi-visualization-slicers/slicer-icon.png)을 선택하여 새 슬라이서를 만듭니다. 
 3. 새 슬라이서를 선택한 상태에서 **필드** 창의 **구역** 아래에서 **구역 관리자**를 선택하여 슬라이서를 채웁니다. 새 슬라이서는 이름 앞에 선택 상자가 있는 목록입니다. 
     
-    ![새 슬라이서](./media/power-bi-visualization-slicers/2-slicer.png)
+    ![새 슬라이서](media/power-bi-visualization-slicers/2-slicer.png)
     
 4. 캔버스에서 슬라이서 및 기타 요소의 크기를 조정하고 끌어서 슬라이서에 사용할 공간을 만듭니다. 슬라이서 크기를 너무 작게 조정하면 슬라이서 항목이 잘립니다. 
 5. 슬라이서에서 이름을 선택하고 페이지의 다른 시각화 요소에 미치는 영향을 확인합니다. 이름을 다시 선택하여 선택을 취소하고 **Ctrl** 키를 누른 채로 둘 이상의 이름을 선택합니다. 모든 이름을 선택하면 아무것도 선택하지 않은 것과 동일한 효과가 있습니다. 
@@ -70,7 +70,7 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
 1. 캔버스에 아무것도 선택되어 있지 않으면 [필드] 창에서 **시간**을 드롭다운하고 **월**(또는 Power BI 서비스의 **날짜**)을 [시각화] 창의 **값** 상자로 끌어 놓아 새 시각화를 만듭니다.
 2. 새 시각화를 선택한 상태로 **슬라이서** 아이콘을 선택하여 새 시각화를 슬라이서로 변환합니다. 이 슬라이서는 채워진 날짜 범위를 사용하는 슬라이더 컨트롤입니다.
     
-    ![새 범위 슬라이서](./media/power-bi-visualization-slicers/2a-date-slicer.png)
+    ![새 범위 슬라이서](media/power-bi-visualization-slicers/2a-date-slicer.png)
     
 4. 캔버스에서 슬라이서 및 기타 요소의 크기를 조정하고 끌어서 슬라이서에 사용할 공간을 만듭니다. 슬라이더 크기는 슬라이서 크기로 조정하지만 슬라이서 크기를 너무 작게 조정하면 해당 슬라이더가 사라지고 날짜가 잘립니다. 
 4. 슬라이더로 다른 날짜 범위를 선택하거나, 날짜 필드를 선택하여 값을 입력하거나 더 정확한 선택을 위해 달력을 팝업으로 표시합니다. 페이지의 다른 시각화에 미치는 영향을 확인합니다.
@@ -93,12 +93,12 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
     - Power BI Desktop에서 **시각적 개체 도구** 아래의 **서식** 메뉴를 선택하고 **상호 작용 편집**을 선택합니다.
     - Power BI 서비스에서 메뉴 모음의 **시각적 상호 작용**을 드롭다운하고 **상호 작용 편집**을 켭니다. 
    
-   필터 컨트롤 ![필터 컨트롤](./media/power-bi-visualization-slicers/filter-controls.png)은 페이지의 다른 모든 시각적 개체 위에 표시됩니다. 처음에는 모든 **필터** 아이콘이 선택됩니다.
+   필터 컨트롤 ![필터 컨트롤](media/power-bi-visualization-slicers/filter-controls.png)은 페이지의 다른 모든 시각적 개체 위에 표시됩니다. 처음에는 모든 **필터** 아이콘이 선택됩니다.
    
 2. **FiscalMonth 및 구역 관리자별 총 판매액 차이** 차트 위에서 **없음** 아이콘을 선택하여 슬라이서가 필터링을 중지하도록 설정합니다. 
 3. **월**을 선택하고 **FiscalMonth 및 구역 관리자별 총 판매액 차이** 차트 위에서 **없음** 아이콘을 다시 선택하여 이 슬라이서가 필터링을 중지하도록 설정합니다. 이제 슬라이서에서 이름과 날짜 범위를 선택할 때 FiscalMonth 및 구역 관리자별 총 판매액 차이 차트가 변경되지 않습니다. 
 
-상호 작용 편집에 대한 자세한 내용은 [Power BI 보고서의 시각적 상호 작용](../consumer/end-user-interactions.md)을 참조하세요.
+상호 작용 편집에 대한 자세한 내용은 [Power BI 보고서의 시각적 상호 작용](../service-reports-visual-interactions.md)을 참조하세요.
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>다른 페이지에서 슬라이서 동기화 및 사용
 2018년 2월 Power BI 업데이트부터 보고서의 일부 또는 모든 페이지에서 슬라이서를 동기화하여 사용할 수 있습니다. 
@@ -108,7 +108,7 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
 1. **보기** 메뉴에서 Power BI Desktop의 **슬라이서 동기화**를 선택하거나, Power BI 서비스의 **슬라이서 동기화 창**을 켭니다. **슬라이서 동기화** 창이 나타납니다. 
 2. **개요** 페이지에서 **구역 관리자** 슬라이서를 선택합니다. 해당 페이지에 구역 관리자 슬라이서가 있지만 **동기화** 열에서 선택되지 않았으므로 **표시** 열에서 **구역 월별 판매량** 페이지가 이미 선택되어 있습니다. 
     
-    ![슬라이서 동기화](./media/power-bi-visualization-slicers/9-sync-slicers.png)
+    ![슬라이서 동기화](media/power-bi-visualization-slicers/9-sync-slicers.png)
     
 3. **동기화** 열에서 **신규 매장** 페이지 및 **구역 월별 판매량** 페이지를 선택하여 **개요** 슬라이서를 해당 페이지에 동기화합니다. 
     
@@ -126,7 +126,7 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
 
 1. 페이지에서 **구역 관리자** 슬라이서가 선택되면 **시각화** 창에서 **서식** 아이콘 ![](media/power-bi-visualization-slicers/power-bi-paintroller.png)을 선택하여 서식 컨트롤을 표시합니다. 
     
-    ![서식 지정](./media/power-bi-visualization-slicers/3-format.png)
+    ![서식 지정](media/power-bi-visualization-slicers/3-format.png)
     
 2. 각 범주 옆에 있는 드롭다운 화살표를 선택하여 옵션을 표시하고 편집합니다. 
 
@@ -134,25 +134,25 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
 1. **윤곽선 색**에서 빨간색을 선택하고 **윤곽선 두께**를 "2"로 변경합니다. 이 옵션을 사용하면 머리글 및 항목 윤곽선 또는 밑줄의 색과 두께를 설정할 수 있습니다. 
 2. **방향**에서는 **세로**가 기본값입니다. **가로**를 선택하여 가로로 정렬된 타일이나 단추 및 슬라이서에 맞지 않는 항목에 액세스하기 위한 스크롤 화살표가 있는 슬라이서를 생성합니다.
     
-    ![가로](./media/power-bi-visualization-slicers/4-horizontal.png)
+    ![가로](media/power-bi-visualization-slicers/4-horizontal.png)
     
 3. **반응형** 레이아웃을 켜서 보기 화면 및 슬라이서 크기에 따라 슬라이서 항목의 크기와 정렬을 변경합니다. 목록 슬라이서의 경우 반응형 레이아웃은 가로 방향으로만 사용할 수 있고 이 레이아웃을 사용하면 작은 화면에서 항목이 잘리지 않습니다. 범위 슬라이더 슬라이서의 경우 반응형 서식에 따라 슬라이더의 스타일이 변경되고 이 서식을 사용하면 더 유연하게 크기를 조정할 수 있습니다. 두 슬라이서 형식은 모두 매우 작은 크기의 필터 아이콘이 됩니다. 
     
-    ![반응형](./media/power-bi-visualization-slicers/5-responsive.png)
+    ![반응형](media/power-bi-visualization-slicers/5-responsive.png)
     
     >[!NOTE]
     >반응형 레이아웃의 변경 내용은 사용자가 설정한 특정 제목 및 항목 서식을 재정의할 수 있습니다. 
     
 4. **X 위치**, **Y 위치**, **너비** 및 **높이**에서 슬라이서 위치와 크기를 숫자 정밀도로 설정하거나, 슬라이서를 캔버스에서 직접 이동하고 크기를 조정합니다. 다양한 항목 크기와 정렬을 사용해 보고 반응형 서식이 이에 따라 어떻게 변경되는지 확인하세요.  
 
-    ![가로 단추](./media/power-bi-visualization-slicers/6-buttons.png)
+    ![가로 단추](media/power-bi-visualization-slicers/6-buttons.png)
 
 가로 방향 및 반응형 레이아웃에 대한 자세한 내용은 [Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기](../power-bi-slicer-filter-responsive.md)를 참조하세요.
 
 ### <a name="selection-controls-options-list-slicers-only"></a>선택 컨트롤 옵션(목록 슬라이서만 해당)
 1. **모두 선택 표시**는 기본적으로 **꺼져** 있습니다. 토글 시 모든 항목을 선택하거나 선택 취소하는 **모두 선택** 항목을 슬라이서에 추가하려면 **켜기**로 전환합니다. 모든 항목이 선택되어 있을 때 한 항목을 클릭하거나 탭하면 선택이 취소되고 “is-not” 형식의 필터가 허용됩니다. 
     
-    ![모두 선택](./media/power-bi-visualization-slicers/7-select-all.png)
+    ![모두 선택](media/power-bi-visualization-slicers/7-select-all.png)
     
 2. **단일 선택**은 기본적으로 **켜져** 있습니다. 각 항목을 클릭하거나 탭하면 항목이 선택되고 **Ctrl** 키를 누른 채로 클릭하거나 탭하면 여러 항목이 선택됩니다. **Ctrl** 키를 누르지 않고 여러 항목을 선택할 수 있게 하려면 **단일 선택**을 **끄기**로 전환합니다. 각 항목을 다시 클릭하거나 탭하면 선택이 취소됩니다. 
 
@@ -165,7 +165,7 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
 1. 항목 텍스트와 배경의 서식을 지정하여 **글꼴 색**을 검정으로, **배경**을 연한 빨강으로, **텍스트 크기**를 10pt로, **글꼴 패밀리**를 Arial로 설정합니다. 
 2. **윤곽**에서 **프레임**을 선택하여 **일반** 옵션에서 설정한 크기와 색상으로 각 항목 둘레에 테두리를 그립니다. 
     
-    ![서식 지정](./media/power-bi-visualization-slicers/8-formatted.png)
+    ![서식 지정](media/power-bi-visualization-slicers/8-formatted.png)
     
     >[!TIP]
     >- **방향 > 가로**를 사용하면 선택 취소된 항목이 선택된 텍스트와 배경색으로 표시되고, 선택된 항목은 시스템 기본값(일반적으로 흰색 텍스트의 검은 배경)으로 표시됩니다.
@@ -183,15 +183,7 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
 - **테두리:** 슬라이서 둘레에 1픽셀 테두리를 추가하고 색을 설정합니다. (이 슬라이서 테두리는 일반 윤곽 설정과 별개이며 영향을 받지 않습니다.) 
 
 ## <a name="next-steps"></a>다음 단계
-[평가판 등록](https://powerbi.microsoft.com/get-started/)
-
-Power BI 개선 방법에 대한 아이디어가 있습니까? [아이디어 제출](https://ideas.powerbi.com/forums/265200-power-bi-ideas)
-
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-
-[시각화를 보고서에 추가](power-bi-report-add-visualizations-i.md)
-
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)
+[Power BI의 테이블](power-bi-visualization-tables.md)
 

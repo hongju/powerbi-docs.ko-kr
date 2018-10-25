@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136781"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548261"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI로 Salesforce에 연결
 Power BI를 사용하면 Salesforce.com 계정에 쉽게 연결할 수 있습니다. 이 연결을 만들면 데이터가 검색되고, 해당 데이터를 기반으로 하여 대시보드 및 관련 보고서가 자동으로 제공됩니다.
@@ -56,13 +56,15 @@ Power BI용 [Salesforce 콘텐츠 팩](https://app.powerbi.com/getdata/services/
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
-이 대시보드를 변경하여 원하는 방식으로 데이터를 표시할 수 있습니다. 대시보드에서 질문 및 답변에 질문하거나 타일을 클릭하여 [원본 보고서를 열고](service-dashboard-tiles.md) [타일을 변경](service-dashboard-edit-tile.md)할 수 있습니다.
+이 대시보드를 변경하여 원하는 방식으로 데이터를 표시할 수 있습니다. 대시보드에서 질문 및 답변에 질문하거나 타일을 클릭하여 [원본 보고서를 열고](consumer/end-user-tiles.md) [타일을 변경](service-dashboard-edit-tile.md)할 수 있습니다.
 
 **다음 단계**
 
-* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](power-bi-q-and-a.md)합니다.
-* 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
+* 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
+* 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다. <<<<<<< HEAD
+* [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다. =======
 * [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
+>>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
 * 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="system-requirements-and-considerations"></a>시스템 요구 사항 및 고려 사항

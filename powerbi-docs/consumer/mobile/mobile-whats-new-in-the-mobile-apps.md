@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 922352c0cdbacd57d3e6706d490b3cc7e65ab8f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744506"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909248"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -22,6 +22,25 @@ ms.locfileid: "44744506"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="september-2018"></a>2018년 9월
+
+### <a name="phone-report-editing-in-the-browser-all-devices"></a>브라우저에서 휴대폰 보고서 편집(모든 장치)
+
+이제 단지 Power BI Desktop뿐만 아니라 Power BI 서비스에 이미 게시된 보고서에 대해 휴대폰 보고서 레이아웃을 만들 수 있습니다. 브라우저의 편집 모드에서 이러한 레이아웃을 만듭니다.
+
+### <a name="dashboard-commenting-ios-and-android"></a>대시보드에 의견 달기(iOS 및 Android) 
+
+대시보드 및 특정 타일에 직접 의견을 추가하여 데이터에 대해 논의할 수 있으며, 대시보드를 보는 모든 사람이 여러분의 의견을 볼 수 있습니다. 조직의 다른 사람들을 @mentioning하여 대화로 끌어올 수도 있습니다. 여러분이 @mentioned한 사용자는 휴대폰으로 메시지에 대한 푸시 알림을 받게 됩니다.
+
+현재 iOS 및 Android 장치에서 사용할 수 있습니다. Windows 지원도 곧 제공될 예정입니다.
+
+[대시보드 의견에 대한 Power BI 블로그 게시물](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)을 읽어보세요.
+
+### <a name="single-sign-on-windows"></a>Single Sign-On(Windows)
+
+SSO(Single Sign-On)는 Windows용 Power BI Mobile에서 가장 많이 요청된 기능 중 하나입니다. 이제 기본 조직 계정을 사용하여 도메인에 가입된 Windows 모바일 장치에 로그인할 뿐 아니라 Power BI 서비스에도 원활하게 로그인할 수 있습니다. [SSO 및 Windows 모바일 앱](mobile-windows-10-app-single-sign-on-sso.md)에 대해 자세히 알아보세요.
+
 
 ## <a name="july-2018"></a>2018년 7월
 
@@ -177,7 +196,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 
 ### <a name="june-2107"></a>2017년 6월
 #### <a name="all-devices"></a>모든 장치
-**앱 즐겨찾기 만들기** 대시보드를 즐겨찾기로 만들 수 있습니다. 최근에는 [Power BI에서 앱을 추가했으며](../../service-install-use-apps.md) 이제 앱 즐겨찾기 만들기도 수행할 수 있습니다. 
+**앱 즐겨찾기 만들기** 대시보드를 즐겨찾기로 만들 수 있습니다. 최근에는 [Power BI에서 앱을 추가했으며](../../service-create-distribute-apps.md) 이제 앱 즐겨찾기 만들기도 수행할 수 있습니다. 
 
 ### <a name="may-2017"></a>2017년 5월
 #### <a name="all-devices"></a>모든 장치
@@ -498,7 +517,7 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 
 **R 타일 및 웹 위젯** 모바일 장치의 대시보드에서 이러한 새 타일 유형을 볼 수 있습니다.
 
-**Bing 대시보드** 이제 Power BI 서비스에서 [Bing 검색 결과로 대시보드](../../service-connect-to-services.md)를 만든 후 모바일 장치에서 볼 수 있습니다.
+**Bing 대시보드** 이제 Power BI 서비스에서 [Bing 검색 결과로 대시보드](../end-user-connect-to-services.md)를 만든 후 모바일 장치에서 볼 수 있습니다.
 
 **대시보드에 타일로 고정되는 보고서 페이지** 이제 Power BI 서비스의 대시보드에 전체 보고서 페이지를 고정할 수 있어, iPhone 또는 Android 휴대폰의 Power BI 앱에서 보고서 페이지를 볼 수 있습니다.
 

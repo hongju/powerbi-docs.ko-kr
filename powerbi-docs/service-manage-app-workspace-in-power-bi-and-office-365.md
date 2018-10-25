@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 25e7fe3e47cee2aed7781fff2a20621e3bd860ed
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547571"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908811"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI 및 Office 365에서 앱 작업 영역 관리
-[Power BI 또는 Office 365에서 앱 작업 영역](consumer/end-user-apps.md)의 작성자나 관리자는 Power BI의 작업 영역에 대한 몇 가지 측면을 관리합니다. Office 365에서 관리하는 기타 측면. 
+[Power BI 또는 Office 365에서 앱 작업 영역](service-create-distribute-apps.md)의 작성자나 관리자는 Power BI의 작업 영역에 대한 몇 가지 측면을 관리합니다. Office 365에서 관리하는 기타 측면. 
 
 > [!NOTE]
 > 새 작업 영역 환경 미리 보기를 통해 Power BI 작업 영역과 Office 365 그룹 간의 관계를 변경합니다. 새 작업 영역 중 하나를 만들 때마다 Office 365 그룹을 자동으로 만드는 것은 아닙니다. [새 작업 영역 만들기(미리 보기)](service-create-the-new-workspaces.md)를 참고하세요.
@@ -36,7 +36,7 @@ ms.locfileid: "46547571"
 * 그룹 전자 메일 주소를 참조하세요.
 * 그룹 삭제.
 
-앱 작업 공간의 관리자 또는 구성원이 되려면 [Power BI Pro](service-free-vs-pro.md) 라이선스가 필요합니다. 앱 작업 영역이 Power BI 프리미엄 용량에 있는 경우를 제외하고 앱 사용자는 Power BI Pro 라이선스가 필요합니다. 자세한 내용은 [Power BI 프리미엄이란?](service-premium.md)을 참조하세요.
+앱 작업 영역의 관리자 또는 구성원이 되려면 [Power BI Pro 라이선스](service-features-license-type.md)가 필요합니다. 앱 작업 영역이 Power BI 프리미엄 용량에 있는 경우를 제외하고 앱 사용자는 Power BI Pro 라이선스가 필요합니다. 자세한 내용은 [Power BI 프리미엄이란?](service-premium.md)을 참조하세요.
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Power BI에서 앱 작업 영역 편집
 1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 줄임표(**…**)를 선택한 다음 > **작업 영역 편집**을 선택합니다. 
@@ -76,7 +76,6 @@ ms.locfileid: "46547571"
 3. **저장** 또는 **취소**를 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI에서 앱이란?](consumer/end-user-apps.md)
-* [Power BI에서 대시보드 및 보고서로 앱 게시](consumer/end-user-create-apps.md)
+* [Power BI에서 대시보드 및 보고서로 앱 게시](service-create-distribute-apps.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

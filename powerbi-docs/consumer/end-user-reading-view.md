@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: de7766176f5c25288912cf463dce79f487e7335d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565110"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908084"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 서비스 보고서의 읽기용 보기 및 편집용 보기
 Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작용할 수 있는 읽기용 보기 및 편집용 보기라는 두 가지 모드가 있습니다. 읽기용 보기는 모든 사용자가 사용할 수 있으며 특히 데이터 *소비자*를 위해 설계되었지만 편집용 보기는 보고서 *작성자*와 소유자만 사용할 수 있습니다.
@@ -26,11 +26,12 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 
  읽기용 보기는 보고서를 탐색하고 상호 작용할 수 있는 방법으로, 재미있고 안전하게 데이터를 사용하면서 파악할 수 있습니다. 읽기용 보기는 *소비자*를 위해 설계되었습니다. 이들은 앱에서 보고서를 열거나 [공유한](../service-share-dashboards.md) 사람들을 말합니다. 읽기용 보기는 특정 보고서의 모든 소비자가 동일한 필터가 적용된 동일한 보고서 및 선택적으로 동일한 시각화를 보도록 합니다.  소비자는 보고서와 상호 작용할 수 있고, 기존 필터를 변경할 수 있습니다(이러한 변경 내용은 보고서와 함께 저장됨). 하지만 새 필터를 추가할 수 없습니다.
 
->**참고**: 상황에 따라 행 수준 보안 및 데이터 권한으로 인해 보고서 소비자가 다른 데이터를 볼 수 있습니다.
+> [!NOTE]
+> 상황에 따라 행 수준 보안 및 데이터 권한으로 인해 보고서 소비자가 다른 데이터를 볼 수 있습니다.
 
 ## <a name="report-editing-view"></a>보고서 편집용 보기
 
-편집용 보기는 보고서를 만든 사람이나 [앱 작업 영역의 구성원 또는 관리자로서 보고서를 공동 소유하는 사람](end-user-create-apps.md)만 사용할 수 있습니다.
+편집용 보기는 보고서를 만든 사람이나 [앱 작업 영역의 구성원 또는 관리자로서 보고서를 공동 소유하는 사람](../service-create-distribute-apps.md)만 사용할 수 있습니다.
 
 편집용 보기는 보고서 *작성자*를 위한 것입니다. 이 보기에서 작성자는 데이터 집합을 가져와서 데이터 집합에 연결하고, 데이터를 탐색하고, 보고서 및 대시보드를 작성합니다. 편집용 보기에서 *작성자*는 필드를 추가 및 제거하고 시각화 유형을 변경하며 새 시각화를 만들고 보고서에서 시각화 및 페이지를 추가 및 삭제하는 등 데이터에 대한 작업을 훨씬 자세히 수행할 수 있습니다. 그런 다음 동료들과 만든 보고서를 공유할 수 있습니다.
 
@@ -53,11 +54,11 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 | [사용 메트릭 보기](../service-usage-metrics.md) | 예, 보고서 캔버스에서 볼 수 있습니다. | 예, 보고서 목록(콘텐츠 보기)에서 볼 수 있습니다. |
 | [관련 항목 보기](end-user-related.md) | 예, 보고서 캔버스에서 볼 수 있습니다. | 예, 보고서 목록(콘텐츠 보기)에서 볼 수 있습니다. |
 | [보고서 저장](../service-report-save.md) | 예, 하지만 **다른 이름으로 저장**을 사용한 경우만 가능합니다. | 예 |
-| [보고서 삭제](end-user-delete.md) | 아니요  | 예 |
+| [보고서 삭제](../service-delete.md) | 아니요  | 예 |
 |**보고서 페이지** |
 | [보고서 페이지 추가 또는 이름 바꾸기](../power-bi-report-add-page.md)  | 아니요  | 예  |
 | [보고서 페이지 복제](../power-bi-report-copy-paste-page.md) | 아니요  | 예 |
-| [보고서 페이지 삭제](end-user-delete.md) | 아니요 | 예 |
+| [보고서 페이지 삭제](../service-delete.md) | 아니요 | 예 |
 |**보고서 시각화 작업**|
 | [보고서에 시각화 추가](../visuals/power-bi-report-add-visualizations-i.md) | 아니요  | 예 |
 | [보고서에 텍스트 상자 및 셰이프 추가](../power-bi-reports-add-text-and-shapes.md) | 아니요  | 예 |
@@ -66,7 +67,7 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 | [시각화를 만드는 데 사용된 데이터 표시](end-user-show-data.md) | 아니요  | 예 |
 | [드릴링 구성](end-user-drill.md) | 아니요  | 예 |
 | [사용되는 시각화 변경](../visuals/power-bi-report-change-visualization-type.md) | 아니요 | 예|
-| [시각화, 텍스트 상자 또는 셰이프 삭제](end-user-delete.md)| 아니요 | 예 |
+| [시각화, 텍스트 상자 또는 셰이프 삭제](../service-delete.md)| 아니요 | 예 |
 
 
 ## <a name="navigating-between-editing-view-and-reading-view"></a>편집용 보기 및 읽기용 보기 간 이동
@@ -88,7 +89,6 @@ Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작
 
 
 
-### <a name="next-steps"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 읽기용 보기에서 보고서와 상호 작용하는 방법은 여러 가지가 있으며 데이터 분리 및 결합하여 통찰력을 얻고 질문에 대한 답변을 얻을 수 있습니다.  다음 항목인 [읽기용 보기에서 보고서와 상호 작용](../service-interact-with-a-report-in-editing-view.md)에서 이에 대해 보다 자세히 설명합니다.    
 [Power BI의 보고서](end-user-reports.md)로 돌아가기    
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

@@ -2,18 +2,17 @@
 title: Power BI 작업 영역 컬렉션 작업 영역 컬렉션 콘텐츠를 Power BI으로 마이그레이션하는 방법
 description: Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션하고 앱에서 포함하기 위한 고급 기능을 활용하는 방법을 알아봅니다.
 author: markingmyname
-manager: kfile
-ms.reviewer: ''
-ms.Embedded: powerbi
+ms.service: powerbi
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: 6de0efe3bad1662d1324488a7030894248056730
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: f53b7e02ac3f744a7eb0fa7dd74b7144a434a42f
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388666"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271857"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션하고 앱에서 포함하기 위한 고급 기능을 활용하는 방법을 알아봅니다.
@@ -30,7 +29,7 @@ Power BI Embedded를 사용하면, 콘텐츠 포함 시 단일 API 영역, 일�
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
-새 Power BI Embedded에 마이그레이션을 시작하기 전에 [온보딩 환경 도구](https://aka.ms/embedsetup)를 사용하여 새 Power BI Embedded 환경을 설정할 수 있는 연습을 신속하게 설명할 수 있습니다.
+새 Power BI Embedded에 마이그레이션을 시작하기 전에 [임베딩 설정 도구](https://aka.ms/embedsetup)를 사용하여 새 Power BI Embedded 환경을 설정할 수 있는 연습을 신속하게 설명할 수 있습니다.
 
 사용자에게 적합한 솔루션을 선택합니다.
 * **고객에 대한 콘텐츠 포함** - [앱 소유 데이터](https://aka.ms/embedsetup/AppOwnsData) 솔루션에 관심이 있는 경우입니다. [고객에 대한 콘텐츠를 포함](embedding.md#embedding-for-your-customers)하면 Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함하는 기능을 제공합니다. 

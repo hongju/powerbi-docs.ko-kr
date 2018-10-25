@@ -2,12 +2,13 @@
 title: Microsoft Power BI 학습 도우미
 description: 순차적인 과정 모음을 통해 학습 과정을 시작하고, Microsoft Power BI의 광범위하고 강력한 기능을 이해하세요.
 layout: LandingPage
-ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.service: powerbi
+ms.openlocfilehash: 8e9c26e48f50eb5b95a23f98329dbaea578e01d3
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600679"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48799072"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -32,25 +33,9 @@ ms.locfileid: "37600679"
 시작 </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=1">Power BI 소개</a>
-                                <span style="margin-left: 32px; align-self: center;">5m</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=2">Power BI 사용</a>
-                                <span style="margin-left: 32px; align-self: center;">4m</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=3">Power BI의 구성 요소</a>
-                                <span style="margin-left: 32px; align-self: center;">6m</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=4">Power BI 서비스 둘러보기</a>
-                                <span style="margin-left: 32px; align-self: center;">9m</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=5">검토 및 다음 단계</a>
-                                <span style="margin-left: 32px; align-self: center;">5m</span>
-                              </li>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/">Microsoft Learn을 사용하여 Power BI 시작</a>
+                                <span style="margin-left: 32px; align-self: center;">47m</span>
+                              </li>                              
                           </ul>
                       </div>
                     </div>

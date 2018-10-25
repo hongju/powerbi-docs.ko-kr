@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547065"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908834"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Power BI로 Microsoft Dynamics CRM에 연결
 Power BI용 Microsoft Dynamics CRM Online을 사용하면 데이터에 쉽게 액세스하고 분석할 수 있습니다. Power BI는 OData 피드를 사용하여 계정, 활동, 기회, 제품, 잠재 고객, 사용자 등과 같은 필요한 모든 엔터티 및 조치가 포함된 설명 모델을 만듭니다. 앱을 설치한 후 Power BI 서비스([https://powerbi.com](https://powerbi.com)) 및 Power BI 모바일 앱에서 대시보드 및 보고서를 볼 수 있습니다. 
@@ -26,17 +26,16 @@ Dynamics CRM Online [판매 관리자](https://msit.powerbi.com/groups/me/getdat
 
 ## <a name="how-to-connect"></a>연결 방법
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-
-1. **Microsoft Dynamics CRM 판매 관리자** 또는 **Microsoft Dynamics CRM 서비스 관리자**를 선택하고 **연결**을 클릭합니다.
+3. **Microsoft Dynamics CRM 판매 관리자** 또는 **Microsoft Dynamics CRM 서비스 관리자**를 선택하고 **연결**을 클릭합니다.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
-2. 계정과 연결된 서비스 URL을 제공합니다.  `https://company.crm.dynamics.com` 형식이며 [아래](#FindingParams)에서 자세한 내용을 확인합니다.
+4. 계정과 연결된 서비스 URL을 제공합니다.  `https://company.crm.dynamics.com` 형식이며 [아래](#FindingParams)에서 자세한 내용을 확인합니다.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. 메시지가 표시되면 자격 증명을 제공합니다(브라우저를 사용하여 이미 로그인한 경우 이 단계를 건너뛸 수 있음). 인증 방법에 대해 **oAuth2**를 입력하고 **로그인**을 클릭합니다.
+5. 메시지가 표시되면 자격 증명을 제공합니다(브라우저를 사용하여 이미 로그인한 경우 이 단계를 건너뛸 수 있음). 인증 방법에 대해 **oAuth2**를 입력하고 **로그인**을 클릭합니다.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
-4. 연결하면 사용자 고유의 데이터로 채워진, 판매 관리자 또는 서비스 관리자용으로 사용자 지정된 대시보드가 표시됩니다.
+6. 연결하면 사용자 고유의 데이터로 채워진, 판매 관리자 또는 서비스 관리자용으로 사용자 지정된 대시보드가 표시됩니다.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/dashboard.png)
 
@@ -48,9 +47,9 @@ Dynamics CRM Online [판매 관리자](https://msit.powerbi.com/groups/me/getdat
 ## <a name="whats-included"></a>포함된 내용
 아래 섹션에서는 [판매 관리자](#Sales) 및 [서비스 관리자](#Service) 가상 사용자에 포함된 내용에 대해 자세히 설명합니다.
 
-또한 데이터는 Dynamics CRM Online 사용자에게 할당된 보안 역할에 따라 제한됩니다.
+데이터는 Dynamics CRM Online 사용자에게 할당된 보안 역할에 따라 제한됩니다.
 
-대시보드 및 보고서는 팀 또는 그룹에 집중된 단기적인 데이터에 대한 운영 보고를 제공하기 위한 것입니다. 각 쿼리는 Dynamics CRM Online에서 최대 100K의 레코드를 검색하는 것으로 제한됩니다. 조직의 데이터 양이 많아 이 제한을 초과하면 데이터 새로 고침 Dynamics CRM Online이 종료됨에 따라 프로비전에 실패합니다. 계정이 너무 큰 경우 Power BI Desktop을 통해 연결하여 사용자 지정 솔루션을 구축하는 방법을 고려해 보세요.
+대시보드 및 보고서는 팀 또는 그룹에 집중된 단기적인 데이터에 대한 운영 보고를 제공하기 위한 것입니다. 각 쿼리는 Dynamics CRM Online에서 최대 100K의 레코드를 검색하는 것으로 제한됩니다. 조직의 데이터양이 많아 이 제한을 초과하면 데이터 새로 고침 Dynamics CRM Online이 종료됨에 따라 프로비저닝에 실패합니다. 계정이 너무 큰 경우 Power BI Desktop을 통해 연결하여 사용자 지정 솔루션을 구축하는 방법을 고려해 보세요.
 
 <a name="Sales"></a>
 
@@ -154,7 +153,7 @@ CRM Online 2016 이상이 설치되지 않은 경우 Power BI Desktop을 사용�
 "100000 레코드라는 최대 한도 초과 쿼리로 데이터 새로 고침 실패" 오류가 표시되는 경우 Power BI Desktop에서 직접 연결하거나 CRM 솔루션 템플릿을 활용하는 방법을 고려하세요.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI에서 앱이란?](consumer/end-user-apps.md)
+* [Power BI에서 앱이란?](service-create-distribute-apps.md)
 * [Power BI에서 데이터 가져오기](service-get-data.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

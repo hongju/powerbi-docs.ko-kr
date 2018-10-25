@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250387"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565915"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server 설치
 
@@ -29,8 +29,8 @@ Power BI Report Server를 설치하기 전에 [Power BI Report Server를 설치�
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI Report Server 제품 키
 
-#### <a name="power-bi-premium"></a>Power BI 프리미엄
-Power BI 프리미엄을 구입한 경우 Power BI 관리자 포털의 **프리미엄 설정** 탭 내에서 Power BI Report Server 제품 키에 대한 액세스를 갖습니다. 전역 관리자 또는 Power BI 서비스 관리자 역할에 할당된 사용자만 사용 가능합니다.
+#### <a name="power-bi-premium"></a>Power BI Premium
+Power BI Premium을 구입한 경우 Power BI 관리자 포털의 **프리미엄 설정** 탭 내에서 Power BI Report Server 제품 키에 대한 액세스를 갖습니다. 전역 관리자 또는 Power BI 서비스 관리자 역할이 할당된 사용자만 사용할 수 있습니다.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key.png "프리미엄 설정 내의 Power BI Report Server 키")
 

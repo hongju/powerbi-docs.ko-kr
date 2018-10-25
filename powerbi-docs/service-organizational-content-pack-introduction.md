@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3f8a5075290620d9d1ed1829008002ff71d25c82
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547640"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908162"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI의 조직 콘텐츠 팩 소개
 > [!NOTE]
@@ -33,7 +33,7 @@ AppSource에서 전체 조직, 배포 또는 보안 그룹 및 [사용자가 속
 대시보드, 보고서 및 Excel 통합 문서는 읽기 전용이지만, 자신만의 개인화된 콘텐츠 팩 버전을 만들기 위한 시작 지점으로 대시보드와 보고서를 복사하여 사용할 수 있습니다.
 
 > [!NOTE]
-> 조직 콘텐츠 팩은 사용자 또는 동료에게 [Power BI Pro](service-free-vs-pro.md)가 있는 경우에만 사용할 수 있습니다.
+> 조직 콘텐츠 팩은 사용자 또는 동료에게 [Power BI Pro 라이선스](service-features-license-type.md)가 있는 경우에만 사용할 수 있습니다.
 > 
 > 
 
@@ -52,7 +52,7 @@ AppSource에서 전체 조직, 배포 또는 보안 그룹 및 [사용자가 속
 1. Power BI Pro에서 Nate가 콘텐츠 팩을 만들어 마케팅 배포 그룹에 게시합니다. 새로 고침 설정은 데이터 집합과 함께 상속되며 Nate만 변경할 수 있습니다.
    
    > [!NOTE]
-   > Nate가 현재 소속되어 있는 [Power BI 앱 작업 영역](consumer/end-user-create-apps.md) 내에서 콘텐츠 팩을 만들 경우 Nate가 작업 영역을 떠나더라도 해당 Power BI 작업 영역의 다른 사람들이 소유권을 계승할 수 있습니다.
+   > Nate가 현재 소속되어 있는 [Power BI 앱 작업 영역](service-create-distribute-apps.md) 내에서 콘텐츠 팩을 만들 경우 Nate가 작업 영역을 떠나더라도 해당 Power BI 작업 영역의 다른 사람들이 소유권을 계승할 수 있습니다.
    > 
    > 
 2. Nate는 배포 그룹에 메일을 보내어 새 콘텐츠 팩에 대해 알려줍니다.
@@ -76,7 +76,7 @@ AppSource에서 전체 조직, 배포 또는 보안 그룹 및 [사용자가 속
 
 ## <a name="next-steps"></a>다음 단계
 * [조직 콘텐츠 팩 만들기 및 게시](service-organizational-content-pack-create-and-publish.md)
-* [Power BI에서 앱 만들기 및 배포](consumer/end-user-create-apps.md) 
+* [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md) 
 * [Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 
