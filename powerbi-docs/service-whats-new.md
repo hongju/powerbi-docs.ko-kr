@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2018
+ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: b54a38f4c5639eae549a36a93c887d87630b7daf
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909179"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396753"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
@@ -212,7 +212,7 @@ ms.locfileid: "48909179"
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)하세요.
 
-* [SQL Server 2016 Analysis Services 표 형식 모델에 대해 Power BI 질문 및 답변 지원](consumer/end-user-q-and-a-direct-query.md): 데이터 소스에 연결된 엔터프라이즈 게이트웨이에 대한 Power BI 질문 및 답변 사용자 환경과 Power BI 질문 및 답변의 공개 미리 보기 시작이 향상되어, SQL Server 2016 Analysis Services 표 형식 모델을 지원하게 되었습니다. 자세한 내용은 [블로그 게시물을 참조](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)하세요.
+* [SQL Server 2016 Analysis Services 표 형식 모델에 대해 Power BI 질문 및 답변 지원](service-q-and-a-direct-query.md): 데이터 소스에 연결된 엔터프라이즈 게이트웨이에 대한 Power BI 질문 및 답변 사용자 환경과 Power BI 질문 및 답변의 공개 미리 보기 시작이 향상되어, SQL Server 2016 Analysis Services 표 형식 모델을 지원하게 되었습니다. 자세한 내용은 [블로그 게시물을 참조](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)하세요.
 * [Excel 보고서에 대한 로컬 파일 지원](service-excel-workbook-files.md#local-excel-workbooks): 이제 로컬 드라이브 또는 다른 저장소 서비스에서 Excel 파일을 업로드하고 Power BI의 장점이 추가된 Excel Online에서 해당 Excel 보고서를 사용할 수 있습니다. 자세한 내용은 [블로그 게시물을 참조](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)하세요.
 
 **2016년 4월 28일**
