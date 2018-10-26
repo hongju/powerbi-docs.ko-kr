@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558579"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46474049"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
 
@@ -84,18 +84,18 @@ Azure Portal 또는 Power BI 앱 등록 페이지 내에서 표시되는 오류 
 
 GenerateToken 호출 전에 응용 프로그램의 백 엔드가 인증 토큰을 새로 고침해야 할 수 있습니다.
 
-```
+    ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
     Host: wabi-us-north-central-redirect.analysis.windows.net
     ...
     Authorization: Bearer eyJ0eXAiOi...
     ...
- 
+
     HTTP/1.1 403 Forbidden
     ...
-     
+
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-```
+    ```
 
 ## <a name="authentication"></a>인증
 
@@ -197,7 +197,7 @@ Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 응용 프
 
 ## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>IError 개체로 포함된 응용 프로그램 문제 해결
 
-**JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)에서 ‘오류’ 이벤트에 의해 반환된 [**IError 개체**를 사용하여 응용 프로그램을 디버그하고 오류의 원인을 더 잘 알아보세요.
+[**JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)에서 ‘오류’ 이벤트에 의해 반환된 **IError 개체**를 사용하여 응용 프로그램을 디버그하고 오류의 원인을 더 잘 알아보세요.
 
 IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는 적절한 일반 오류 테이블을 확인해야 합니다. **IError 속성**을 테이블의 속성과 비교하여 가능한 실패 원인을 찾아보세요.
 
@@ -229,13 +229,13 @@ IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는
 | OpenConnectionError | 시각적 개체를 표시할 수 없습니다. <visual title>(이)라는 보고서 시각적 개체를 렌더링할 수 없습니다. | 해당 없음 | 용량과 관련된 보고서가 세션에서 열려 있는 동안 용량이 일시 중지되었거나 삭제되었습니다. |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | 이 보고서와 연결된 모델 스키마를 로드할 수 없습니다. 서버에 연결되어 있는지 확인하고 다시 시도하세요. | 해당 없음 | <li> 용량이 일시 중지됨 <li> 용량이 삭제됨 |
 
-## <a name="onboarding-experience-tool-for-embedding"></a>포함하기 위한 온보딩 환경 도구
+## <a name="embedding-setup-tool"></a>포함 설정 도구
 
-[온보딩 환경 도구](https://aka.ms/embedsetup)를 진행하여 신속하게 샘플 응용 프로그램을 다운로드할 수 있습니다. 다음 샘플과 응용 프로그램을 비교할 수 있습니다.
+[포함 설정 도구](https://aka.ms/embedsetup)를 통해 신속하게 샘플 응용 프로그램을 다운로드할 수 있습니다. 다음 샘플과 응용 프로그램을 비교할 수 있습니다.
 
 ### <a name="prerequisites"></a>필수 조건
 
-온보딩 환경 도구를 사용하기 전에 적절한 필수 조건이 모두 있는지 확인합니다. **Power BI Pro** 계정과 **Microsoft Azure** 구독이 필요합니다.
+포함 설정 도구를 사용하기 전에 적절한 필수 조건이 모두 있는지 확인합니다. **Power BI Pro** 계정과 **Microsoft Azure** 구독이 필요합니다.
 
 * 아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/en-us/pricing/)합니다.
 * Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)을 만듭니다.
@@ -244,7 +244,7 @@ IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는
 
 ### <a name="common-issues"></a>일반적인 문제
 
-온보딩 환경 도구를 사용하여 테스트하는 경우 발생할 수 있는 몇 가지 일반적인 문제는 다음과 같습니다.
+포함 설정 도구를 사용하여 테스트하는 경우 발생할 수 있는 몇 가지 일반적인 문제는 다음과 같습니다.
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>고객에 대한 콘텐츠 포함 사용 샘플 응용 프로그램
 
@@ -262,6 +262,10 @@ IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는
 
 샘플 응용 프로그램에 삽입되지 않은 유일한 값이 사용자 암호이기 때문에 이 오류가 발생합니다. 솔루션에서 Web.config 파일을 열고 사용자의 암호로 pbiPassword 필드를 채웁니다.
 
+오류 - AADSTS50079가 표시되는 경우: 사용자가 다단계 인증을 사용해야 합니다.
+
+    Need to use an AAD account that does not have MFA enabled.
+
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>조직에 대한 콘텐츠 포함 사용 샘플 응용 프로그램
 
 **조직에 대한 콘텐츠 포함** 환경을 사용하는 경우 *PowerBI-Developer-Samples.zip* 파일을 저장하고 압축을 풉니다. 그런 다음, *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 폴더를 열고, *pbi-saas-embed-report.sln* 파일을 실행합니다.
@@ -275,6 +279,10 @@ IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는
 등록된 응용 프로그램을 편집하려는 경우 응용 프로그램이 웹 API에 대한 액세스 권한을 제공할 수 있도록 [AAD 등록 응용 프로그램](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)을 편집하는 방법을 알아봅니다.
 
 Power BI 사용자 프로필 또는 데이터를 편집하려는 경우 [Power BI 데이터](https://docs.microsoft.com/power-bi/service-basic-concepts)를 편집하는 방법을 알아봅니다.
+
+오류 - AADSTS50079가 표시되는 경우: 사용자가 다단계 인증을 사용해야 합니다.
+
+    Need to use an AAD account that does not have MFA enabled.
 
 자세한 내용은 [Power BI Embedded FAQ](embedded-faq.md)를 참조하세요.
 
