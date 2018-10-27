@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI Desktop의 DAX 기본 사항
 description: Power BI Desktop의 DAX 기본 사항
 author: davidiseminger
@@ -174,11 +174,11 @@ DAX에는 [날짜 및 시간](https://msdn.microsoft.com/library/ee634786.aspx),
 
 이 수식에는 다음과 같은 구문 요소가 있습니다.
 
-**A.** 측정값 이름 **매장 판매액**.
+**A.** 측정값 이름 **Store Sales**.
 
 **B.** 등호 연산자(**=**)는 수식의 시작을 나타냅니다.
 
-**C.** **계산** 함수는 지정된 필터로 수정된 컨텍스트에서 식을 인수로 평가합니다.
+**C.** **CALCULATE** 함수는 지정된 필터로 수정된 컨텍스트에서 식을 인수로 평가합니다.
 
 **D.** 괄호 **()** 는 하나 이상의 인수를 포함하는 식을 둘러쌉니다.
 
@@ -188,7 +188,7 @@ DAX에는 [날짜 및 시간](https://msdn.microsoft.com/library/ee634786.aspx),
 
 **G.** 정규화된 참조되는 열 **Channel[ChannelName]**. 바로 행 컨텍스트입니다. 이 열의 각 행은 Store, Online 등의 채널을 지정합니다.
 
-**H.** 필터로 사용되는 특정 값 **매장**. 바로 필터 컨텍스트입니다.
+**H.** 필터로 사용되는 특정 값 **Store**. 바로 필터 컨텍스트입니다.
 
 이 수식은 Total Sales 측정값으로 정의된 판매액 값만 Channel[ChannelName] 열에서 “Store” 값을 필터로 사용하는 행에 대해서만 계산되도록 합니다.
 
