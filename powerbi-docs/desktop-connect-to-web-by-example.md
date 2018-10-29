@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336809"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952214"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>예제를 제공하여 웹 페이지에서 데이터 가져오기
 
@@ -51,6 +51,8 @@ ms.locfileid: "49336809"
 이 예제에서는 페이지의 각 게임에 대한 ‘이름’ 및 ‘가격’을 추출합니다. 다음 이미지와 같이 각 열에 대해 페이지에서 두 개 정도의 예제를 지정하여 작업을 수행할 수 있습니다. 이러한 예제가 입력되면 **파워 쿼리**(웹 페이지에서 데이터를 추출하는 기본 기술)는 스마트 데이터 추출 알고리즘을 사용하여 예제 항목의 패턴에 맞는 데이터를 추출할 수 있습니다.
 
 ![예제별 데이터](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+
+> 참고: 값 제안에는 길이가 128자보다 작거나 같은 값만 포함됩니다.
 
 웹 페이지에서 추출한 데이터에 만족하면 **확인**을 선택하여 **쿼리 편집기**로 이동하고, 여기서 이 데이터를 다른 데이터 원본과 결합하는 것과 같이 데이터를 셰이핑하거나 더 많은 변환을 적용할 수 있습니다.
 

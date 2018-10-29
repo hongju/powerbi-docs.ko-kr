@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d23e168f6192629ce9dd945e29691dcf40ae1427
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 66956a38a4f2076a01cf224bbef3a20490915e9b
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565409"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473707"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI 서비스의 주요 대시보드
 ## <a name="create-a-featured-dashboard"></a>추천 대시보드 만들기
@@ -41,7 +41,7 @@ Amanda가 추천 대시보드를 만드는 과정을 시청하고 비디오 아�
 
 
 1. *추천*으로 설정하려는 대시보드를 엽니다. 
-2. 상단 탐색 표시줄에 **추천으로 설정** 또는 추천 ![추천 아이콘](./media/end-user-featured/power-bi-featured-icon.png) 아이콘이 표시됩니다. 다음 중 하나를 선택합니다.
+2. 상단 메뉴 표시줄에 **추천으로 설정** 또는 추천 ![추천 아이콘](./media/end-user-featured/power-bi-featured-icon.png) 아이콘이 표시됩니다. 다음 중 하나를 선택합니다.
    
     ![추천으로 설정 아이콘](./media/end-user-featured/power-bi-set-as-featured.png)
 3. 선택 사항을 확인합니다.

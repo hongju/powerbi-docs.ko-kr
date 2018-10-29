@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
-ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
+ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43151909"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49474029"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 문제 해결
 
@@ -40,6 +40,25 @@ ms.locfileid: "43151909"
 * 서비스를 시작하려면 이 명령을 실행합니다.
 
     '''   net start PBIEgwService   '''
+
+### <a name="log-file-configuration"></a>로그 파일 구성
+
+게이트웨이 서비스 로그는 정보, 오류 및 네트워크의 세 개 버킷으로 분류됩니다. 이 분류 방식은 오류 또는 문제에 따라 특정 영역에 초점을 맞출 수 있게 해주는 더 나은 문제 해결 환경을 제공합니다. 게이트웨이 구성 파일 `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log`의 다음 조각에서 세 가지 범주를 볼 수 있습니다.
+
+```xml
+  <system.diagnostics>
+    <trace autoflush="true" indentsize="4">
+      <listeners>
+        <remove name="Default" />
+        <add name="ApplicationFileTraceListener"
+             type="Microsoft.PowerBI.DataMovement.Pipeline.Common.Diagnostics.RotatableFilesManagerTraceListener, Microsoft.PowerBI.DataMovement.Pipeline.Common"
+             initializeData="%LOCALAPPDATA%\Microsoft\On-premises data gateway\,GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50" />
+      </listeners>
+    </trace>
+  </system.diagnostics>
+```
+
+이 파일은 기본적으로 *\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config*에 있습니다. 유지할 로그 파일 수를 구성하려면 `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`과 같이 첫 번째 숫자(이 예에서는 20)를 변경합니다.
 
 ### <a name="error-failed-to-create-a-gateway-try-again"></a>오류: 게이트웨이를 만들지 못했습니다. 다시 시도하세요.
 

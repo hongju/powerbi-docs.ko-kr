@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 770b2796eb8f29cadfe8371cb2baef12cec7c0e8
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0d07953fb4f9474f929c108df5b76acb61c7df7c
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48910294"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435340"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 요소 삭제
 이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 통합 문서, 데이터 집합, 앱, 시각화 및 작업 영역을 삭제하는 방법을 안내합니다.
@@ -129,7 +129,7 @@ ms.locfileid: "48910294"
 
    ![앱 선택](media/service-delete/power-bi-delete-app.png)
 
-   실수로 앱을 제거할 경우 복구할 수 있는 몇 가지 옵션이 있습니다.  앱 작성자에게 다시 보내달라고 요청하거나, 앱 링크가 포함된 메일 원본을 찾거나 [알림 센터](service-notification-center.md)를 확인하여 해당 앱에 대한 알림이 목록에 남아 있는지 살펴보거나 조직의 [AppSource](service-install-use-apps.md)를 확인할 수 있습니다.
+   실수로 앱을 제거할 경우 복구할 수 있는 몇 가지 옵션이 있습니다.  앱 작성자에게 다시 보내달라고 요청하거나, 앱 링크가 포함된 메일 원본을 찾거나 [알림 센터](service-notification-center.md)를 확인하여 해당 앱에 대한 알림이 목록에 남아 있는지 살펴보거나 [조직의 AppSource](consumer/end-user-apps.md)를 확인할 수 있습니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 이 문서는 Power BI 서비스의 주요 구성 요소를 삭제하는 방법을 소개했습니다. 그러나 Power BI에서 삭제할 수 있는 몇 가지가 더 있습니다.  

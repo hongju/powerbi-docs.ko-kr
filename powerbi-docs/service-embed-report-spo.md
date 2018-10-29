@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 08/16/2018
-ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.date: 10/01/2018
+ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908374"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641209"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -87,7 +87,7 @@ SharePoint Online에 보고서를 포함시키는 것이 사용자에게 보고�
 
 Power BI 서비스 내에서 보고서에 액세스 권한을 부여하는 방법에는 두 가지가 있습니다. Office 365 그룹을 사용하여 SharePoint Online 팀 사이트를 빌드하는 경우 사용자를 **Power BI 서비스 내 앱 작업 영역** 및 **SharePoint 페이지**의 구성원으로 나열합니다. 그러면 사용자가 해당 그룹의 콘텐츠를 볼 수 있게 됩니다. 자세한 내용은 [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md)를 참조하십시오.
 
-또는 다음을 수행하여 사용자에게 보고서 액세스 권한을 부여할 수 있습니다.
+또는 아래 단계를 따라 사용자에게 보고서 액세스 권한을 부여할 수 있습니다.
 
 1. 보고서의 타일을 대시보드에 추가합니다.
 
@@ -126,7 +126,7 @@ Power BI 웹 파트 내에서 보고서가 로드되지 않고 다음과 같은 
 1. 보고서에 대한 액세스 권한이 없습니다.
 2. 보고서가 삭제되었습니다.
 
-이 문제를 해결하려면 SharePoint Online 페이지의 소유자에게 문의해야 합니다.
+이 문제를 해결하려면 SharePoint Online 페이지의 소유자에게 문의하세요.
 
 ## <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 
@@ -147,6 +147,8 @@ Power BI 웹 파트 내에서 보고서가 로드되지 않고 다음과 같은 
 * [소버린 클라우드](https://powerbi.microsoft.com/en-us/clouds/)에서는 Power BI 웹 파트를 사용할 수 없습니다.
 
 * 클래식 SharePoint Server는 이 웹 파트에서 지원되지 않습니다.
+
+* [URL 필터](service-url-filters.md)는 SPO 웹 파트에서 지원되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -7,22 +7,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc68be50917b113371fc168d1b6e3defa2b5001e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112202"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473431"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
-Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다. 조직의 사용자는 주요 비즈니스 정보를 사용하여 앱을 만들고 배포할 수 있습니다. 이미 사용 중일 수 있는 Google 웹로그 분석 및 Microsoft Dynamics CRM과 같은 [외부 서비스](end-user-connect-to-services.md)에서도 Power BI 앱을 제공합니다. 
+Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다. 조직의 사용자는 주요 비즈니스 정보가 포함된 앱을 만들고 배포합니다. 이미 사용 중일 수 있는 Google 웹로그 분석 및 Microsoft Dynamics CRM과 같은 [외부 서비스](end-user-connect-to-services.md)에서도 Power BI 앱을 제공합니다. 
 
-![Power BI의 앱](./media/end-user-apps/power-bi-apps-left-nav.png)
+![Power BI의 앱](./media/end-user-apps/power-bi-apps-navbar.png)
 
-앱은 Power BI 서비스([https://powerbi.com](https://powerbi.com)) 및 모바일 장치에서 쉽게 찾아 설치할 수 있습니다. 앱을 설치한 후에는 다양한 여러 대시보드가 앱, 브라우저 또는 모바일 장치에 모두 함께 있기 때문에 그 이름들을 기억할 필요가 없습니다.
+앱은 Power BI 서비스([app.powerbi.com](https:app.powerbi.com)) 및 모바일 장치에서 쉽게 찾아 설치할 수 있습니다. 앱을 설치한 후에는 다양한 여러 대시보드가 앱, 브라우저 또는 모바일 장치에 모두 함께 있기 때문에 그 이름들을 기억할 필요가 없습니다.
 
 앱을 사용하면 앱 작성자가 업데이트를 릴리스할 때마다 자동으로 변경 사항을 확인할 수 있습니다. 또한 작성자는 데이터 새로 고침 예약 빈도를 조절하기도 하므로, 최신 상태로 유지하는 것에 대해 염려할 필요가 없습니다. 
 
@@ -36,7 +36,7 @@ Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모
 
 메일에서 링크를 선택하여 브라우저에서 Power BI 서비스([https://powerbi.com](https://powerbi.com))를 엽니다. 앱을 설치하겠다고 확인하면 앱 방문 페이지가 열립니다.
 
-![Power BI 서비스의 앱 방문 페이지](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
+![Power BI 서비스의 앱 방문 페이지](./media/end-user-apps/power-bi-get-app.png)
 
 **iOS 또는 Android 모바일 장치에서** 
 
@@ -56,12 +56,12 @@ Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모
 3. **지금 가져오기**를 선택하여 앱 페이지에 추가합니다. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>앱에서 대시보드 및 보고서와 상호 작용
-이제 앱에서 대시보드 및 보고서의 데이터를 탐색할 수 있습니다. 필터링, 강조 표시, 정렬 및 드릴다운과 같은 모든 표준 Power BI 상호 작용에 액세스할 수 있습니다. 보고서의 테이블 또는 다른 시각적 개체에서 [데이터를 Excel로 내보낼](end-user-export-data.md) 수도 있습니다. [Power BI에서 보고서와 상호 작용](end-user-reading-view.md)을 읽어 보세요. 
+이제 앱에서 대시보드 및 보고서의 데이터를 탐색할 수 있습니다. 필터링, 강조 표시, 정렬 및 드릴다운과 같은 모든 표준 Power BI 상호 작용에 액세스할 수 있습니다. [Power BI에서 보고서와 상호 작용](end-user-reading-view.md)을 읽어 보세요. 
 
 ![Power BI 시각적 개체에서 데이터 내보내기](./media/end-user-apps/power-bi-service-export-data-visual.png)
 
 
 
 ## <a name="next-steps"></a>다음 단계
-* [외부 서비스용 Power BI 앱](end-user-connect-to-services.md)
+[외부 서비스용 Power BI 앱](end-user-connect-to-services.md)
 

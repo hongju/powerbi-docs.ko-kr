@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dc3c80b2043024a694c4852da200eb503b10c28a
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de1b47656ae06f522b4b86a124bf558a660ba4e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337039"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473408"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>최신 Power BI Desktop 업데이트의 새로운 기능
 
-## <a name="october-2018-update-2625222582"></a>2018년 10월 업데이트(2.62.5222.582)
+## <a name="october-2018-update-263327240262"></a>2018년 10월 업데이트(2.63.3272.40262)
 
 10월 업데이트는 이전보다 훨씬 유용하고 많은 도움이 됩니다. 
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 10/18/2018
 ms.author: maikelson
-ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137592"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473960"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -22,9 +22,7 @@ ms.locfileid: "37137592"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
-
->[Power BI 커뮤니티의 예정된 웹 세미나 참석](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
+>[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>주요 웹 세미나
 
@@ -34,21 +32,29 @@ ms.locfileid: "37137592"
 <br>작성자: Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**Power BI 소유자의 Power BI 힌트, 팁 및 도구**
-<br>작성자: Mike Carlo 및 Seth Bauer
-<br>[지금 보기](https://www.youtube.com/watch?v=fnj1_e3HXow)
-
 **20분 안에 Power BI 대시보드에 대해 자세히 알아보기**
 <br>작성자: Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Power BI에서 실행되는 Microsoft – 재무 계획 및 분석 용이**
+<br>작성자: Cory Hrncirik 및 Miguel Martinez
+<br>[등록 및 지금 보기](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI 데이터 시각적 개체 만들기: 코어 차트 유형 및 이를 사용하는 방법**
+<br>작성자: Miranda Li
+<br>[등록 및 지금 보기](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
+**Power BI, Excel 및 Office 365: 엔터프라이즈 데이터 최적화**
+<br>작성자: Olaf Hubel 및 Miguel Martinez
+<br>[등록 및 지금 보기](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
 **흥미진진한 기능 – 개선된 시각화 디자인을 위한 팁**
 <br>작성자: Miranda Li
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Better Together: Excel 사용자가 Power BI로부터 얻을 수 있는 5가지 장점**
-<br>작성자: Carlos Otero 및 Miguel Martinez
-<br>[등록 및 지금 보기](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
+**Power BI 소유자의 Power BI 힌트, 팁 및 도구**
+<br>작성자: Mike Carlo 및 Seth Bauer
+<br>[지금 보기](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 >[커뮤니티 전문가들이 제공하는 Power BI 주문형 웹 세미나 라이브러리 탐색하기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -61,6 +67,10 @@ ms.locfileid: "37137592"
 **시각적으로 멋진 Power BI 보고서를 만드는 방법**
 <br>작성자: Charles Sterling
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Better Together: Excel 사용자가 Power BI로부터 얻을 수 있는 5가지 장점**
+<br>작성자: Carlos Otero 및 Miguel Martinez
+<br>[등록 및 지금 보기](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 **20분 이내에 Power BI Embedded에 대해 자세히 알아보기**
 <br>작성자: Megan Asarrane 및 Colin Murphy

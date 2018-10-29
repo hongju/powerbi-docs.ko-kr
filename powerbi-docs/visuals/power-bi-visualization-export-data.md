@@ -8,18 +8,18 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d042119a95cb60f930a0535e93b0a50ee9224da3
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112271"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396813"
 ---
 # <a name="export-data-from-visualizations"></a>시각화에서 데이터 내보내기
-시각화를 만드는 데 사용되는 데이터를 보려는 경우 Power BI에서 해당 데이터를 표시하거나 해당 데이터를 .xlsx 또는 .csv 파일로 Excel에 내보낼 수 있습니다.   
+시각화를 만드는 데 사용되는 데이터를 보려는 경우 Power BI에서 해당 데이터를 표시하거나 해당 데이터를 .xlsx 또는 .csv 파일로 Excel에 내보낼 수 있습니다. 데이터를 내보내는 옵션에는 Pro 또는 Premium 라이선스가 필요하며 데이터 집합 및 보고서에 대한 편집 권한이 필요합니다. 
 
 Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 파일로 저장하고 Excel에서 여는 것을 지켜봅니다. 그런 다음 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
 
@@ -92,9 +92,12 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 
 
 ### <a name="set-the-export-options"></a>내보내기 옵션 설정
 Power BI 보고서 디자이너는 소비자가 사용할 수 있는 데이터 내보내기 옵션의 유형을 제어합니다. 선택 항목은 다음과 같습니다.
-- 요약된 데이터 내보내기만 허용(보고서의 기본값) 
-- 요약된 데이터와 기본 데이터 내보내기 허용  
+- 요약된 데이터만 내보내기 허용(새 보고서의 경우 기본값) 
+- 요약된 데이터와 기본 데이터 내보내기 허용(2018년 10월 전 이전 기본값) 
 - 데이터 내보내기 허용 안 함  
+
+    > [!IMPORTANT]
+    > 보고서 디자이너는 이전 보고서를 다시 방문하여 필요에 따라 내보내기 옵션을 수동으로 재설정하는 것이 좋습니다.
 
 1. 이러한 옵션을 설정하려면 Power BI Desktop에서 시작합니다.
 

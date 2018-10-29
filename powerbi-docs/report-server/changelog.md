@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 41f48e886c376f6cc00a76313538e5a6b9ac1c3b
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380316"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641945"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -40,7 +40,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
             - 사용자 지정 시각적 개체는 현재 버전(있는 경우)의 서버 API와 호환 가능한 이전 버전으로 대체합니다.
 
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
-    - *버전: 2.61.5192.64(2018년 8월), 릴리스 날짜: 2018년 8월 15일*
+    - *버전: 2.61.5192.641(2018년 8월), 릴리스 날짜: 2018년 8월 15일*
         - Power BI Report Server에서 연결에 필요한 변경 내용 포함(2018년 8월)         
         
 ## <a name="march-2018"></a>2018년 3월

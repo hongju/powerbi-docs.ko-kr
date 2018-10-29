@@ -1,21 +1,21 @@
 ---
 title: Power BI Premium에 대한 Multi-Geo 지원(미리 보기)
 description: Power BI 테넌트의 홈 지역이 아닌 다른 지역에 있는 데이터 센터에 콘텐츠를 배포하는 방법을 알아봅니다.
-author: maggiesMSFT
-ms.author: maggies
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/31/2018
+ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 135217acbe6289edb73c39035f58df8babf32566
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300187"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641671"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium에 대한 Multi-Geo 지원(미리 보기)
 
@@ -40,7 +40,7 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 새 용량의 경우 드롭다운에서 기본 지역이 아닌 다른 지역을 선택하여 다중 지역을 사용하도록 설정합니다.  각 사용 가능한 용량은 현재 위치한 지역을 표시합니다(예: **미국 중서부**).
 
 ![용량 크기: 지역을 선택합니다. Power BI 다중 지역](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
-  
+
 용량을 만든 후 용량은 해당 지역에 남아 있고 생성된 작업 영역에는 해당 지역에 저장된 콘텐츠가 포함됩니다. 작업 영역 설정 화면의 드롭다운을 통해 한 지역에서 다른 지역으로 작업 영역을 마이그레이션할 수 있습니다.
 
 ![작업 영역 편집: 사용 가능한 용량을 선택합니다. Power BI 다중 지역](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
@@ -91,11 +91,8 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
 - 지역 간에 시작한 모든 이동이 데이터 전송 전에 모든 회사 및 정부 준수 요구 사항을 따르는지 확인합니다.
-
 - 원격 지역에 저장된 캐시된 쿼리는 해당 지역에 남아 있습니다. 그러나 전송 중인 다른 데이터는 여러 지역 간에 이동할 수 있습니다.
-
 - 다중 지역 환경에서 데이터를 한 지역에서 다른 지역으로 이동하면 원본 데이터는 최대 30일 동안 데이터 이동이 시작된 지역에 남아 있을 수 있습니다. 해당 기간에 최종 사용자는 데이터에 액세스할 수 없습니다. 데이터가 이 지역에서 제거되고 30일 기간 동안 삭제됩니다.
-
 - 일반적으로 다중 지역을 사용해도 성능이 향상되지 않습니다. 보고서 및 대시보드 로드에는 메타데이터의 홈 지역에 대한 요청이 포함됩니다.
 
 ## <a name="next-steps"></a>다음 단계
