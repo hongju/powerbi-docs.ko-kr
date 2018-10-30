@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f9bc117d4260bb8efa604591703205b405fd63c9
-ms.sourcegitcommit: f391b645062f64ac3adc2ce7877318583b14b941
+ms.openlocfilehash: 92b8d0e0ecfa9bae36e552e30cf8f1a7fcecff4b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48016172"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100752"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>DirectQuery를 포함하는 HDInsight의 Spark
 
@@ -58,7 +58,7 @@ Power BI 서비스 내에서 DirectQuery를 사용하여 Azure HDInsight의 Spar
 
 ## <a name="limitations"></a>제한 사항
 
-이러한 제한 사항 및 참고는 환경이 계속 향상됨에 따라 변경될 수 있습니다. 추가 설명서는 [Azure HDInsight의 Apache Spark와 함께 BI 도구 사용](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-use-bi-tools/)에서 찾을 수 있습니다.
+이러한 제한 사항 및 참고는 환경이 계속 향상됨에 따라 변경될 수 있습니다. 추가 설명서는 [Azure HDInsight의 Apache Spark와 함께 BI 도구 사용](/azure/hdinsight/spark/apache-spark-use-bi-tools/)에서 찾을 수 있습니다.
 
 * Power BI 서비스는 Spark 2.0 및 HDInsight 3.5의 구성만 지원합니다.
 * 열 선택 또는 필터 추가와 같은 모든 작업은 데이터베이스에 다시 쿼리를 보냅니다. 따라서 매우 큰 필드를 선택하기 전에 적절한 시각적 형식을 선택하는 것이 좋습니다.
@@ -76,9 +76,9 @@ Azure Portal의 **구성** > **클러스터 크기 조정**에서 추가 리소�
 
 ## <a name="next-steps"></a>다음 단계
 
-[시작: HDInsight Linux에서 Apache Spark 클러스터 만들기 및 Spark SQL을 사용하여 대화형 쿼리 실행](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
+[시작: HDInsight Linux에서 Apache Spark 클러스터 만들기 및 Spark SQL을 사용하여 대화형 쿼리 실행](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
 [Power BI란?](power-bi-overview.md)  
 [Power BI에 대한 데이터 가져오기](service-get-data.md)
-[SSO를 위해 온-프레미스 게이트웨이에서 Kerberos 사용](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)
+[SSO를 위해 온-프레미스 게이트웨이에서 Kerberos 사용](service-gateway-sso-kerberos.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

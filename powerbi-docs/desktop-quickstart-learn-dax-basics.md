@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417122"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003297"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop의 DAX 기본 사항
 이 문서는 Power BI Desktop을 처음 사용하는 사용자를 위한 것입니다. 여기서는 DAX(Data Analysis Expressions)를 사용하여 여러 가지 기본 계산 및 데이터 분석 문제를 해결하는 방법에 대해 신속하고 간략하게 소개합니다. 또한 일부 기본 개념, 완료할 수 있는 일련의 작업 및 지금까지 학습한 내용을 테스트할 수 있는 몇 가지 퀴즈를 검토합니다. 이 문서를 완료하면 DAX의 가장 중요한 기본 개념을 제대로 이해하고 있어야 합니다.
@@ -49,7 +49,7 @@ DAX를 학습하는 가장 좋은 방법은 몇 가지 기본 수식을 만들�
 
 **B.** 등호 연산자(**=**)는 수식의 시작을 나타냅니다. 계산되면 결과를 반환합니다.
 
-**C.** DAX 함수 **SUM**은 **판매액[SalesAmount]** 열에 있는 모든 숫자를 더합니다. 함수에 대해서는 나중에 자세히 살펴보겠습니다.
+**C.** DAX 함수 **합계**는 **판매액[SalesAmount]** 열에 있는 모든 숫자를 더합니다. 함수에 대해서는 나중에 자세히 살펴보겠습니다.
 
 **D.** 괄호 **()** 는 하나 이상의 인수를 포함하는 식을 둘러쌉니다. 모든 함수에는 하나 이상의 인수가 필요합니다. 인수는 함수에 값을 전달합니다.
 
@@ -83,9 +83,9 @@ DAX 수식을 이해하려는 경우 매일 생각하고 말하는 언어로 각
 ### <a name="task-create-a-measure-formula"></a>작업: 측정값 수식 만들기
 이 작업을 완료하려면 Contoso Sales Sample Power BI Desktop 파일을 열어야 합니다.
     
-1. 보고서 뷰의 필드 목록에서 **판매액** 테이블을 마우스 오른쪽 단추로 클릭한 다음 **새 측정값**을 클릭합니다.
+1. 보고서 뷰의 필드 목록에서 **판매액** 테이블을 마우스 오른쪽 단추로 클릭한 다음 새 측정값을 클릭합니다.
     
-2. 수식 입력줄에서 새 측정값 이름 **이전 분기 판매액**을 입력하여 **측정값**을 대체합니다.
+2. 수식 입력줄에서 새 측정값 이름 이전 분기 판매액을 입력하여 **측정값**을 대체합니다.
     
 3. 등호 다음에 처음 몇 개의 문자 **CAL**을 입력한 다음, 사용할 함수를 두 번 클릭합니다. 이 수식에서는 **CALCULATE** 함수를 사용하려고 합니다.
 
@@ -142,7 +142,7 @@ DAX에는 [날짜 및 시간](https://msdn.microsoft.com/library/ee634786.aspx),
 * DAX에는 다양한 시간 인텔리전스 함수가 포함되어 있습니다. 이러한 함수를 사용하여 날짜 범위를 정의하거나 선택하고 그에 따라 동적 계산을 수행할 수 있습니다. 예를 들어 병렬 기간 전체의 합계를 비교할 수 있습니다.
 * Excel에는 매우 많이 사용되는 VLOOKUP 함수가 있습니다. DAX 함수는 Excel의 VLOOKUP처럼 셀 또는 셀 범위를 참조로 사용하지 않습니다. DAX 함수는 열 또는 테이블을 참조로 사용합니다. Power BI Desktop에서는 관계형 데이터 모델을 사용하고 있다는 점에 유의해야 합니다. 다른 테이블의 값을 조회하기가 매우 쉬우므로 대부분의 경우 수식을 만들 필요가 없습니다.
   
-  보다시피 DAX의 함수를 사용하면 매우 강력한 수식을 만들 수 있습니다. 실제로 여기서는 함수의 기본 사항만 다루었습니다. DAX에 대한 이해가 늘어나면 여러 가지 다른 함수를 사용하여 수식을 만들 수 있습니다. 각 DAX 함수에 대한 자세한 내용은 [DAX 함수 참조](https://msdn.microsoft.com/library/ee634396.aspx)를 참조하세요.
+  보다시피 DAX의 함수를 사용하면 매우 강력한 수식을 만들 수 있습니다. 실제로 여기서는 함수의 기본 사항만 다루었습니다. DAX에 대한 이해가 늘어나면 여러 가지 다른 함수를 사용하여 수식을 만들 수 있습니다. 각 DAX 함수에 대한 자세한 내용은 [DAX 함수 참조](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference)를 참조하세요.
 
 ### <a name="functions-quickquiz"></a>함수 QuickQuiz
 1. 함수는 항상 무엇을 참조하나요?
@@ -174,11 +174,11 @@ DAX에는 [날짜 및 시간](https://msdn.microsoft.com/library/ee634786.aspx),
 
 이 수식에는 다음과 같은 구문 요소가 있습니다.
 
-**A.** 측정값 이름 **Store Sales**.
+**A.** 측정값 이름 **매장 판매액**.
 
 **B.** 등호 연산자(**=**)는 수식의 시작을 나타냅니다.
 
-**C.** **CALCULATE** 함수는 지정된 필터로 수정된 컨텍스트에서 식을 인수로 평가합니다.
+**C.** **계산** 함수는 지정된 필터로 수정된 컨텍스트에서 식을 인수로 평가합니다.
 
 **D.** 괄호 **()** 는 하나 이상의 인수를 포함하는 식을 둘러쌉니다.
 
@@ -186,9 +186,9 @@ DAX에는 [날짜 및 시간](https://msdn.microsoft.com/library/ee634786.aspx),
 
 **F.** 쉼표(**,**)는 첫 번째 식 인수를 필터 인수와 구분합니다.
 
-**G.** 정규화된 참조되는 열 **Channel[ChannelName]**. 바로 행 컨텍스트입니다. 이 열의 각 행은 Store, Online 등의 채널을 지정합니다.
+**G.** 정규화된 참조되는 열 **채널[ChannelName]**. 바로 행 컨텍스트입니다. 이 열의 각 행은 Store, Online 등의 채널을 지정합니다.
 
-**H.** 필터로 사용되는 특정 값 **Store**. 바로 필터 컨텍스트입니다.
+**H.** 필터로 사용되는 특정 값 **매장**. 바로 필터 컨텍스트입니다.
 
 이 수식은 Total Sales 측정값으로 정의된 판매액 값만 Channel[ChannelName] 열에서 “Store” 값을 필터로 사용하는 행에 대해서만 계산되도록 합니다.
 

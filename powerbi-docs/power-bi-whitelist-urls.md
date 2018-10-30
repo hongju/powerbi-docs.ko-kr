@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: cc7b24d273f8e83854f7e316f0c761e710e48160
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 7b57e0d5e303f2b342e2d7750741717b178a8f4e
+ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641968"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "50222108"
 ---
 # <a name="power-bi-urls"></a>Power BI URL
 
@@ -70,7 +70,7 @@ OneDrive와 같은 특정 데이터 원본에서 데이터를 가져오려면 �
 | --- | --- | --- | --- |
 | 1 | **필수:** AppSource(Power BI의 내부 또는 외부 앱) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
 | 2 | **필수:** 로그인하고 콘텐츠 팩의 데이터 가져오기 | *.github.com  | TCP 443 |
-| 3 | **선택 사항:** 개인 OneDrive에서 파일 가져오기 | [OneDrive 사이트에 대한 필수 URL 및 포트](https://docs.microsoft.com/en-us/onedrive/required-urls-and-ports)를 참조하세요. | 해당 없음 |
+| 3 | **선택 사항:** 개인 OneDrive에서 파일 가져오기 | [OneDrive 사이트에 대한 필수 URL 및 포트](https://docs.microsoft.com/onedrive/required-urls-and-ports)를 참조하세요. | 해당 없음 |
 | 4 | **선택 사항:** Power BI(60초 후) 자습서 비디오 | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **선택 사항:** PubNub 스트리밍 데이터 원본 | [PubNub 설명서](https://support.pubnub.com/support/solutions/articles/14000043522)를 참조하세요. | 해당 없음 |
 | | | |
@@ -93,7 +93,7 @@ Power BI는 특정 엔드포인트에 따라 사용자 지정 시각적 개체�
 | 1 | **필수:** Marketplace 인터페이스 또는 파일에서 사용자 지정 시각적 개체 가져오기 | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
 | 2 | **선택 사항:** Bing Maps | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
 | 3 | **선택 사항:** PowerApps | PowerApps 시스템 요구 사항 사이트에서 [필수 서비스 섹션](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)을 참조하세요. | 해당 없음 |
-| 4 | **선택 사항:** Visio | [Office Online 및 일반 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)과 [SharePoint Online 및 비즈니스용 OneDrive](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business)에 대한 Office 365 설명서 참조 | 해당 없음 |
+| 4 | **선택 사항:** Visio | [Office Online 및 일반 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)과 [SharePoint Online 및 비즈니스용 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business)에 대한 Office 365 설명서 참조 | 해당 없음 |
 | | | |
 
 ## <a name="related-external-sites"></a>관련 외부 사이트

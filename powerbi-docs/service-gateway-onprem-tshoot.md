@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474029"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101649"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 문제 해결
 
@@ -446,7 +446,7 @@ PowerShell 프롬프트에서 [Test-NetConnection](https://docs.microsoft.com/po
 
 ## <a name="kerberos"></a>Kerberos
 
-기본 데이터베이스 서버 및 온-프레미스 데이터 게이트웨이가 [Kerberos 제한 위임](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)에 맞게 제대로 구성되지 않은 경우에는 게이트웨이에서 [자세한 정보 로깅](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)을 사용하도록 설정하고 문제 해결의 시작점으로 게이트웨이의 로그 파일에 있는 오류/추적을 기반으로 하여 조사합니다.
+기본 데이터베이스 서버 및 온-프레미스 데이터 게이트웨이가 [Kerberos 제한 위임](service-gateway-sso-kerberos.md)에 맞게 제대로 구성되지 않은 경우에는 게이트웨이에서 [자세한 정보 로깅](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)을 사용하도록 설정하고 문제 해결의 시작점으로 게이트웨이의 로그 파일에 있는 오류/추적을 기반으로 하여 조사합니다.
 
 ### <a name="impersonationlevel"></a>ImpersonationLevel
 

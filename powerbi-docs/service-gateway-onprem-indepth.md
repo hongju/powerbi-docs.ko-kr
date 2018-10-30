@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38921510"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101511"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>온-프레미스 데이터 게이트웨이 심층 분석
 조직의 사용자는 온-프레미스 데이터(이미 액세스 권한이 있는)에 액세스할 수 있지만 그러한 사용자가 온-프레미스 데이터 원본에 연결할 수 있기 전에 온-프레미스 데이터 게이트웨이를 설치하고 구성해야 합니다. 게이트웨이를 사용하면 클라우드의 사용자로부터 온-프레미스 데이터 원본으로, 다시 클라우드로 빠르고 안전하게 백그라운드에서 통신할 수 있습니다.
@@ -52,7 +52,7 @@ Analysis Services에서도 이 계정에 따라 필터링을 제공할 수 있�
 모델에서 역할 및 동적 행 수준 보안을 구현하는 작업은 이 문서의 범위를 벗어납니다.  MSDN에서 [역할(SSAS 테이블 형식)](https://msdn.microsoft.com/library/hh213165.aspx) 및 [보안 역할(Analysis Services - 다차원 데이터)](https://msdn.microsoft.com/library/ms174840.aspx)을 자세히 알아볼 수 있습니다. 테이블 형식 모델 보안을 가장 깊이 있게 이해하려면 [테이블 형식 BI 의미 체계 모델 보안 설정](https://msdn.microsoft.com/library/jj127437.aspx)(영문) 백서를 다운로드하여 읽어 보세요.
 
 ## <a name="what-about-azure-active-directory"></a>Azure Active Directory의 경우
-Microsoft 클라우드 서비스는 [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/)를 사용하여 사용자 인증을 수행합니다. Azure Active Directory는 사용자 이름 및 보안 그룹을 포함하는 테넌트입니다. 일반적으로 사용자가 로그인하는 전자 메일 주소는 계정의 UPN과 같습니다.
+Microsoft 클라우드 서비스는 [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis)를 사용하여 사용자 인증을 수행합니다. Azure Active Directory는 사용자 이름 및 보안 그룹을 포함하는 테넌트입니다. 일반적으로 사용자가 로그인하는 전자 메일 주소는 계정의 UPN과 같습니다.
 
 내 로컬 Active Directory의 역할이란?
 
@@ -78,7 +78,7 @@ Analysis Services 라이브 연결을 사용할 예정인 경우 로컬 Active D
 1. Azure Active Directory에 계정을 수동으로 추가할 수 있습니다.
    
    Azure 포털 또는 Office 365 관리 포털 내에 계정을 만들 수 있으며 계정 이름은 로컬 Active Directory 계정의 UPN과 일치합니다.
-2. [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) 도구를 사용하여 로컬 계정을 Azure Active Directory 테넌트와 동기화할 수 있습니다.
+2. [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) 도구를 사용하여 로컬 계정을 Azure Active Directory 테넌트와 동기화할 수 있습니다.
    
    Azure AD Connect 도구는 암호 해시 동기화, 통과 인증 및 페더레이션을 비롯한 인증 설정 및 디렉터리 동기화를 위한 옵션을 제공합니다. 테넌트 관리자 또는 로컬 도메인 관리자가 아닌 경우 IT 관리자에게 이 내용이 구성되었는지 문의해야 합니다.
 
@@ -90,7 +90,7 @@ Azure AD Connect를 사용하면 UPN이 AAD와 로컬 Active Directory 간에 �
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>이제 게이트웨이가 들어오는 위치입니다.
-게이트웨이는 클라우드와 온-프레미스 서버 사이의 브리지 역할을 합니다. 클라우드와 게이트웨이 간의 데이터 전송은 [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)를 통해 보안이 설정됩니다. Service Bus는 아웃바운드 연결을 통해 게이트웨이에서 클라우드와 온-프레미스 서버 사이에 보안 채널을 만듭니다.  온-프레미스 방화벽에서 열어야 하는 인바운드 연결이 없습니다.
+게이트웨이는 클라우드와 온-프레미스 서버 사이의 브리지 역할을 합니다. 클라우드와 게이트웨이 간의 데이터 전송은 [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview)를 통해 보안이 설정됩니다. Service Bus는 아웃바운드 연결을 통해 게이트웨이에서 클라우드와 온-프레미스 서버 사이에 보안 채널을 만듭니다.  온-프레미스 방화벽에서 열어야 하는 인바운드 연결이 없습니다.
 
 Analysis Services 데이터 원본이 있으면 Analysis Services 서버와 동일한 포리스트/도메인에 조인된 컴퓨터에 게이트웨이를 설치해야 합니다.
 
@@ -116,8 +116,10 @@ Analysis Services 데이터 원본이 있으면 Analysis Services 서버와 동�
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>다음 단계
+
 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
-[Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)  
-[Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
+[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview/)  
+[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

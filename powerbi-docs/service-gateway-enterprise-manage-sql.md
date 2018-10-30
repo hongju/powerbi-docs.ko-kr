@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2eb880ee512a3f13c56bb6dbf880209f05cdf7b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ff770320e0e6cd3f591e3318637a04977152e488
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296317"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101419"
 ---
 # <a name="manage-your-data-source---sql-server"></a>데이터 원본 관리 - SQL Server
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 데이터 원본을 추가할 수 있습니다. 이 문서에서는 게이트웨이 및 데이터 소스로 작업하는 방법을 살펴봅니다. 예약된 새로 고침 또는 DirectQuery에 대해 SQL Server 데이터 원본을 사용할 수 있습니다.
@@ -60,7 +60,7 @@ Power BI 서비스에서 게이트웨이를 다운로드할 수 있습니다. **
 **인증 방법**을 선택해야 할 수 있습니다.  인증 방법은 **Windows** 또는 **기본**입니다.  Windows 인증 대신 SQL 인증을 사용하려는 경우 **기본** 을 선택합니다. 그런 다음 이 데이터 소스에 사용할 자격 증명을 입력합니다.
 
 > [!NOTE]
-> Kerberos SSO(Single Sign On)가 구성되어 해당 데이터 원본에 대해 활성화되지 않은 한 데이터 원본에 대한 모든 쿼리는 이 자격 증명을 사용하여 실행됩니다. SSO에서 가져오기 데이터 집합은 저장된 자격 증명을 사용하지만 DirectQuery 데이터 집합은 현재 Power BI 사용자를 사용하여 SSO를 통한 쿼리를 실행합니다. 자세한 내용은 온-프레미스 데이터 게이트웨이 기본 문서를 통해 [자격 증명](service-gateway-onprem.md#credentials)이 저장되는 방법을 확인해 보거나, [Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) 방법을 설명하는 문서를 참조하세요.
+> Kerberos SSO(Single Sign On)가 구성되어 해당 데이터 원본에 대해 활성화되지 않은 한 데이터 원본에 대한 모든 쿼리는 이 자격 증명을 사용하여 실행됩니다. SSO에서 가져오기 데이터 집합은 저장된 자격 증명을 사용하지만 DirectQuery 데이터 집합은 현재 Power BI 사용자를 사용하여 SSO를 통한 쿼리를 실행합니다. 자세한 내용은 온-프레미스 데이터 게이트웨이 기본 문서를 통해 [자격 증명](service-gateway-onprem.md#credentials)이 저장되는 방법을 확인해 보거나, [Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용](service-gateway-sso-kerberos.md) 방법을 설명하는 문서를 참조하세요.
 > 
 > 
 
@@ -123,6 +123,6 @@ DirectQuery와 예약된 새로 고침에 대한 경우입니다.
 * [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
 * [온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)  
 * [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)
-* [Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) 
+* [Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용](service-gateway-sso-kerberos.md) 
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

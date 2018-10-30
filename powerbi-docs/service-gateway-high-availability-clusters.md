@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5b89b53cab0f7e4df07b15a05cd74c7d99b1392a
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 21a254cfc4543649cfe863830a56abe666480e63
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657992"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100870"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이를 위한 고가용성 클러스터
 
@@ -90,6 +90,6 @@ PowerShell 스크립트는 온-프레미스 데이터 게이트웨이 설치 폴
 -   [온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)  
 -   [온-프레미스 데이터 게이트웨이(개인 모드)](service-gateway-personal-mode.md)
 -   [온-프레미스 데이터 게이트웨이에 대한 프록시 설정 구성](service-gateway-proxy.md)  
--   [Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
+-   [Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용](service-gateway-sso-kerberos.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f0c98d88ad9b87e57cf8f1cf7c36a58e30b684ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ce1769d343f5a5923b1a436a2cc0c97428f74152
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545363"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101138"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Power BI용 SQL Database 감사 콘텐츠 팩
-Azure용 Power BI 콘텐츠 팩 [SQL Database 감사](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/)를 사용하면 데이터베이스 작업을 이해하고 비즈니스 문제나 의심스러운 보안 위반을 나타낼 수 있는 불일치 및 비정상을 파악할 수 있습니다. 
+Azure용 Power BI 콘텐츠 팩 [SQL Database 감사](/azure/sql-database/sql-database-auditing/)를 사용하면 데이터베이스 작업을 이해하고 비즈니스 문제나 의심스러운 보안 위반을 나타낼 수 있는 불일치 및 비정상을 파악할 수 있습니다. 
 
 Power BI용 [SQL Database 감사 콘텐츠 팩](https://app.powerbi.com/getdata/services/sql-db-auditing)에 연결합니다.
 
