@@ -1,23 +1,23 @@
 ---
-title: Power BI 서비스에서 보고서 보기
-description: 읽기용 보기에서 Power BI 보고서 열기
+title: 소비자에 대한 Power BI 서비스의 보고서를 봅니다.
+description: 이 항목에서는 Power BI 소비자와 최종 사용자가 Power BI 보고서를 열고 보아야 하는 내용을 표시합니다.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.author: mihart
-ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112018"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396937"
 ---
-# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>Power BI 서비스에서 보고서 보기(app.powerbi.com)
-보고서는 하나 이상의 시각적 개체 페이지입니다. 보고서는 Power BI ‘보고서 디자이너’가 만들며 [사용자와 직접 공유](end-user-shared-with-me.md)되거나 [앱](end-user-apps.md)의 일부로 공유됩니다. 
+# <a name="view-a-report-in-power-bi-service-for-consumers"></a>*소비자*에 대한 Power BI 서비스의 보고서 보기
+보고서는 하나 이상의 시각적 개체 페이지입니다. 보고서는 Power BI *보고서 디자이너*가 만들며 [직접 또는 [앱](end-user-apps.md)의 일부로 *소비자](end-user-shared-with-me.md)와 공유*됩니다. 
 
 여러 가지 방법으로 보고서를 열 수 있으며, 여기서는 홈페이지 또는 대시보드에서 여는 방법을 보여줍니다. 
 
@@ -42,7 +42,7 @@ Power BI ‘디자이너’가 상단 메뉴 모음에 있는 **공유** 단추�
    
    ![홈페이지의 공유한 항목 섹션](./media/end-user-report-open/power-bi-shared.png)
 
-4. 보고서를 열려면 보고서 카드 중 하나를 선택하면 됩니다.
+4. 보고서를 열려면 보고서 *카드* 중 하나를 선택하면 됩니다.
 
    ![보고서 페이지](./media/end-user-report-open/power-bi-report1.png)
 
@@ -65,10 +65,10 @@ Power BI ‘디자이너’가 상단 메뉴 모음에 있는 **공유** 단추�
 
    ![홈페이지](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. 앱 중 하나를 선택하여 엽니다. 앱 ‘디자이너’가 설정한 옵션에 따라 앱에서 대시보드나 보고서가 열립니다. 앱을 선택하는 경우:
+8. 앱 중 하나를 선택하여 엽니다. 앱 *디자이너*가 설정한 옵션에 따라 앱에서 대시보드, 보고서 또는 앱 콘텐츠 목록을 엽니다. 앱을 선택하는 경우:
     - 보고서를 열면 모두 설정됩니다.
     - 대시보드를 열고 아래의 [대시보드에서 보고서 열기](#Open-a-report-from-a-dashboard)를 참조하세요.
-
+    - **보고서**에서 앱 콘텐츠 목록을 열고 보고서를 선택하여 엽니다.
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>대시보드에서 보고서 열기
@@ -83,15 +83,15 @@ Power BI ‘디자이너’가 상단 메뉴 모음에 있는 **공유** 단추�
     ![읽기용 보기로 보고서 열기](./media/end-user-report-open/power-bi-report-new.png)
 
 > [!NOTE]
-> 모든 타일이 보고서로 연결되는 것은 아닙니다. [질문 및 답변으로 작성한](../service-dashboard-pin-tile-from-q-and-a.md) 타일을 선택하면 질문 및 답변 화면이 열립니다. [대시보드 **타일 추가** 위젯을 사용하여 만든](../service-dashboard-add-widget.md) 타일을 선택하면 **타일 편집** 마법사가 열립니다.  
+> 모든 타일이 보고서로 연결되는 것은 아닙니다. [질문 및 답변으로 작성한](end-user-q-and-a.md) 타일을 선택하면 질문 및 답변 화면이 열립니다. [대시보드 **타일 추가** 위젯을 사용하여 만든](../service-dashboard-add-widget.md) 타일을 선택하면 몇 가지 문제가 발생할 수 있습니다.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>보고서를 열 수 있는 기타 방법
 Power BI 서비스를 보다 편리하게 탐색할 수 있기 때문에 자신에게 가장 적합한 워크플로를 찾을 수 있습니다. 보고서에 액세스하는 몇 가지 다른 방법:
 - **즐겨찾기** 및 **최근 항목**을 사용하여 왼쪽 탐색 창에서    
 - [관련 항목 보기](end-user-related.md) 사용    
-- 누군가가 [사용자와 공유](../service-share-reports.md)하거나 [경고를 설정](../service-set-data-alerts.md)할 때 메일을 통해    
-- [알림 센터](end-user-notification-center.md)에서    
+- 누군가가 [사용자와 공유](../service-share-reports.md)하거나 [경고를 설정](end-user-alerts.md)할 때 메일을 통해    
+- [알림 센터](end-user-notification-center.md)를 통해    
 - 기타
 
 ## <a name="next-steps"></a>다음 단계

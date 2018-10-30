@@ -7,20 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 10/23/2018
 ms.author: maikelson
-ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473960"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952237"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
 예정된 라이브 웹 세미나에 등록하거나 녹화된 주문형 세션을 감상해 보세요.
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
+
+**Power BI: 제대로 된 분석**
+<br>작성자: Gohul Shanmugalingam
+<br>*2018년 11월 8일, 오후 1시~2시 동부 표준시*
+
+분석 및 Excel의 비전을 내다보는 모든 전문가로부터 잘 구성된 매력적인 보고서를 만들고, 이해하기 쉬운 유용한 인사이트를 공유하며, 안전한 방식으로 복잡한 데이터의 흐름을 원활하게 하여 이러한 데이터에 쉽게 액세스하는 방법을 배워 보세요.
+
+새로운 제품 혁신 사항과 최신 엔터프라이즈 BI 및 셀프 서비스 BI 비전을 공유하여 데이터 기반 조직 문화를 조성하는 데 도움을 드립니다.
+
+[11월 8일에 시청하도록 등록](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Power BI로 데이터 모델링 기술 키우기**
+<br>작성자: Kasper de Jonge
+<br>*2018년 11월 20일, 오전 11시~오후 12시 태평양 표준시*
+
+이 웨비나에 등록하여 Power BI 모델링 기술을 비약적으로 발전시키세요. Power BI 메모리 내 분석 엔진, 데이터 관계를 만들고 관리하는 전략 및 DAX(데이터 분석 식) 필터 컨텍스트를 사용하는 방법을 알아보세요. 그뿐만 아니라 Power BI 또는 Azure Analysis Services로 모델링 문제를 능숙하게 해결하는 방법을 알아보세요.
+
+[11월 20일에 시청하도록 등록](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
 
 >[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 

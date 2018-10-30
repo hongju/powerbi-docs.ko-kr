@@ -877,7 +877,9 @@ items:
     - name: 자습서
       items:
       - name: Power BI 사용자 지정 시각적 개체 개발
-        href: https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/
+        href: developer/custom-visual-develop-tutorial.md
+      - name: 서식 옵션 추가
+        href: developer/custom-visual-develop-tutorial-format-options.md
     - name: 개념
       items:
       - name: 기능 사용
@@ -1201,9 +1203,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI로 전환되는 Office 365용 Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 513c5a62b5436d157b1b22fbf1f06735a589dd3b
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 29189aa7be988fef11dea305e4e0a1651e12a7a4
+ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003067"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "50153728"
