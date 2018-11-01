@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
-ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
+ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48232929"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396960"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -169,7 +169,8 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 * *in* 연산자를 사용하는 경우 *in*의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록이어야 합니다.    
 * Power BI Report Server에서는 보고서 URL에 보고서 매개 변수를 포함시켜 [보고서 매개 변수를 전달](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)할 수 있습니다. 이러한 URL 매개 변수는 보고서 처리 엔진에 직접 전달되기 때문에 접두사가 붙지 않습니다.
-* 쿼리 문자열 필터링은 [웹에 게시](service-publish-to-web.md) 또는 Power BI Embedded에는 작동하지 않습니다.   
+* 쿼리 문자열 필터링은 [웹에 게시](service-publish-to-web.md)에는 작동하지 않습니다.
+* [SharePoint Online에 보고서 웹 파트 포함](service-embed-report-spo.md)은 URL 필터를 지원하지 않습니다.
 * Javascript 제한 때문에 Long 데이터 형식은 (2^53-1)입니다.
 * 보고서 URL 필터에는 10개 식 제한(AND로 연결된 10개의 필터)이 있습니다.
 

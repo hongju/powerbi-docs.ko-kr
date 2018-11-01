@@ -7,34 +7,35 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2f10ead5d08efa12cae05aeb6f2e3d3068636f77
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396914"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252494"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
-관리 포털을 통해 조직에서 Power BI의 테넌트 관리를 사용할 수 있습니다. 사용 메트릭, Office 365 관리 센터 액세스 및 설정 등과 같은 항목을 포함하고 있습니다.
+관리 포털을 통해 조직의 Power BI ‘테넌트’를 관리할 수 있습니다. 포털에는 사용 메트릭, Office 365 관리 센터 액세스 및 설정 등과 같은 항목이 포함되어 있습니다.
 
-회사에 대한 Power BI의 테넌트 관리는 Power BI 관리 포털을 통해 수행됩니다. 관리 포털은 Office 365의 전역 관리자이거나 Power BI 서비스 관리자 역할에 할당된 모든 사용자가 액세스할 수 있습니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요.
-
-모든 사용자는 기어 아이콘에서 **관리 포털**을 볼 수 있습니다. 관리자가 아닌 경우 **프리미엄 설정** 섹션만 보이고, 관리 권한이 있는 용량만 확인할 수 있습니다.
+전체 관리 포털은 Office 365의 전역 관리자이거나 Power BI 서비스 관리자 역할에 할당된 모든 사용자가 액세스할 수 있습니다. 이러한 역할 중 하나를 할당받지 않은 경우에는 포털에 **용량 설정**만 표시됩니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요.
 
 ## <a name="how-to-get-to-the-admin-portal"></a>관리 포털에 도달하는 방법
 
 Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Office 365 또는 Azure Active Directory 내에서 **전역 관리자**로 표시되거나 Power BI 서비스 관리자 역할이 할당되어야 합니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요. Power BI 관리 포털에 도달하려면 다음을 수행합니다.
 
 1. Power BI 서비스의 오른쪽 위에서 설정 기어를 선택합니다.
-2. **관리 포털**을 선택합니다.
 
-![](media/service-admin-portal/powerbi-admin-settings.png)
+1. **관리 포털**을 선택합니다.
 
-포털 내에 6개의 탭이 있습니다. 이들을 아래에서 설명합니다.
+    ![관리 포털에 대한 설정](media/service-admin-portal/powerbi-admin-settings.png)
+
+포털에는 7개의 탭이 있습니다. 이 문서의 나머지 부분에서는 이러한 각 탭에 대한 정보를 제공합니다.
+
+![관리 포털 탐색](media/service-admin-portal/powerbi-admin-landing-page.png)
 
 * [사용 메트릭](#usage-metrics)
 * [사용자](#users)
@@ -42,12 +43,11 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 * [테넌트 설정](#tenant-settings)
 * [프리미엄 설정](#premium-settings)
 * [embed 태그](#embed-codes)
-* [조직의 시각적 개체](#Organization-visuals)
-
-![](media/service-admin-portal/powerbi-admin-landing-page.png)
+* [조직의 시각적 개체](#organization-visuals)
 
 ## <a name="usage-metrics"></a>사용 메트릭
-관리 포털에서 첫 번째 탭은 **사용 메트릭**입니다. 사용 메트릭 보고서는 조직을 위한 Power BI 내에서 사용을 모니터링하는 기능을 제공합니다. 또한 조직을 위한 Power BI 내에서 가장 활발한 사용자 및 그룹이 누구인지 확인하는 기능을 제공합니다.
+
+**사용 메트릭**을 통해 조직의 Power BI 사용을 모니터링할 수 있습니다. 또한 조직을 위한 Power BI 내에서 가장 활발한 사용자 및 그룹이 누구인지 확인하는 기능을 제공합니다.
 
 > [!NOTE]
 > 대시보드에 처음 액세스할 때 또는 대시보드를 오랫동안 보지 않았다가 다시 방문한 후 대시보드를 로드하는 동안 로드 중 화면이 표시될 수 있습니다.
@@ -58,79 +58,76 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 * 사용자 작업 영역의 모든 대시보드, 보고서 및 데이터 집합에 대한 고유한 개수입니다.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
+    ![대시보드, 보고서, 데이터 집합에 대한 고유한 개수](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* 액세스할 수 있는 사용자 수별로 가장 많이 사용한 대시보드입니다. 예를 들어 사용자 3명과 공유하는 대시보드가 있는데 서로 다른 두 사용자가 연결한 콘텐츠 팩에 이를 추가하면 개수는 6 (1 + 3 + 2)가 됩니다
+* 액세스할 수 있는 사용자 수별로 가장 많이 사용한 대시보드입니다. 예를 들어 사용자 3명과 공유하는 대시보드가 있는데 서로 다른 두 사용자가 연결한 콘텐츠 팩에 이를 추가하면 개수는 6(1+3+2)개가 됩니다.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
+    ![가장 많이 사용한 대시보드](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
 * 사용자가 연결한 가장 인기 있는 콘텐츠입니다. 사용자가 데이터 가져오기 프로세스를 통해 도달할 수 있는 모든 것, 다시 말해서 SaaS 콘텐츠 팩, 조직 콘텐츠 팩, 파일 또는 데이터베이스가 이에 해당합니다.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
+    ![가장 많이 사용한 패키지](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
 * 직접 만든 대시보드 및 공유하는 대시보드를 모두 포함하여 가지고 있는 대시보드 수를 기반으로 하는 최상위 사용자의 뷰입니다.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
+    ![최상위 사용자 - 대시보드](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
 
 * 가지고 있는 보고서 수를 기반으로 하는 최상위 사용자의 뷰입니다.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
+    ![최상위 사용자 - 보고서](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-두 번째 섹션은 동일한 유형의 정보를 보여 주지만 그룹을 기반으로 합니다. 여기에서는 조직에서 가장 활발한 그룹 및 해당 그룹이 사용 중인 정보의 종류를 확인할 수 있습니다.
+두 번째 섹션은 동일한 유형의 정보를 보여 주지만 그룹을 기반으로 합니다. 여기에서는 조직에서 가장 활발한 그룹 및 해당 그룹이 사용 중인 콘텐츠의 종류를 확인할 수 있습니다.
 
 이 정보를 사용하여 조직의 사용자가 Power BI를 사용하는 방법을 실제로 파악할 수 있으며 조직에서 매우 활발한 사용자 및 그룹을 인식할 수 있습니다.
 
 ## <a name="users"></a>사용자
 
-관리 포털의 두 번째 탭은 **사용자 관리**입니다. Power BI의 경우 사용자 관리는 Office 365 관리 센터에서 수행되므로 이 섹션을 통해 Office 365 내에서 사용자, 관리자 및 그룹을 관리하는 영역에 빨리 도달할 수 있습니다.
+Office 365 관리 센터에서 Power BI 사용자, 그룹 및 관리자를 관리합니다. **사용자** 탭은 테넌트의 관리 센터에 대한 링크를 제공합니다.
 
-![](media/service-admin-portal/powerbi-admin-manage-users.png)
-
-**O365 관리 센터로 이동**을 클릭하면 테넌트의 사용자를 관리하는 Office 365 관리 센터 방문 페이지로 직접 이동합니다.
-
-![](media/service-admin-portal/powerbi-admin-o365-admin-center.png)
+![O365 관리 센터로 이동](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>감사 로그
 
-관리 포털의 세 번째 탭은 **감사 로그**입니다. 로그는 Office 365 보안 및 규정 준수 센터 내에 위치합니다. 이 섹션에서는 Office 365 내에서 해당 영역에 빠르게 액세스할 수 있습니다.
-
-감사 로그에 대한 자세한 내용은 [조직에서 Power BI 감사](service-admin-auditing.md)를 참조하세요.
+Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리합니다. **감사 로그** 탭은 테넌트의 Security & Compliance 센터에 대한 링크를 제공합니다. [자세히 알아보기](service-admin-auditing.md)
 
 ## <a name="tenant-settings"></a>테넌트 설정
 
-관리 포털의 세 번째 탭은 **테넌트 설정**입니다. 테넌트 설정을 통해 조직에 사용할 수 있도록 만들어진 기능을 더 잘 제어할 수 있습니다. 중요한 데이터에 대한 우려가 있는 경우 일부 기능은 사용자의 조직에 적합하지 않을 수 있거나 특정 그룹에만 지정된 기능을 사용 가능하도록 할 수 있습니다. 이러한 경우 테넌트를 끌 수 있습니다.
+**테넌트 설정** 탭에서는 조직에서 사용할 수 있는 기능에 대한 세분화된 제어를 제공합니다. 중요한 데이터에 대한 우려가 있는 경우 일부 기능은 사용자의 조직에 적합하지 않을 수 있거나 특정 기능을 특정 그룹만 사용할 수 있도록 할 수 있습니다.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+다음 이미지는 **테넌트 설정** 탭의 처음 두 섹션을 보여 줍니다.
+
+![테넌트 설정](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> 설정이 테넌트의 모든 사용자에게 적용되려면 최대 10분까지 걸릴 수 있습니다.
+> 설정 변경 내용이 테넌트의 모든 사용자에게 적용되려면 최대 10분까지 걸릴 수 있습니다.
 
 설정에는 다음과 같은 세 가지 상태가 포함될 수 있습니다.
 
-* **전체 조직에 대해 사용하지 않도록 설정**: 기능을 사용하지 않도록 설정할 수 있으며 그렇게 하면 사용자가 사용할 수 없게 됩니다.
+* **전체 조직에서 사용하지 않도록 설정됨**: 조직의 누구도 이 기능을 사용할 수 없습니다.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+    ![모두 사용 안 함 설정](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **전체 조직에 대해 사용하도록 설정**: 전체 조직에 대해 기능을 사용하도록 설정할 수 있으며 모든 사용자가 해당 기능에 액세스할 수 있습니다.
+* **전체 조직에서 사용하도록 설정됨**: 조직의 모든 사용자가 이 기능을 사용할 수 있습니다.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![모두 사용 설정](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **조직의 하위 집합에 대해 사용하도록 설정**: 또한 조직의 일부에 대해 기능을 사용하도록 설정할 수도 있습니다. 이는 몇 가지 방법으로 발생할 수 있습니다. 특정 사용자 그룹을 제외하고 전체 조직에 대해 사용하도록 설정할 수 있습니다.
+* **조직 일부에서 사용하도록 설정됨**: 조직에서 사용자 또는 그룹의 특정 하위 집합만 이 기능을 사용할 수 있습니다.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+    특정 사용자 그룹을 제외하고 전체 조직에서 기능을 사용하도록 설정할 수 있습니다.
+
+    ![하위 집합 사용 설정](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
     또한 특정 사용자 그룹에만 기능을 사용하도록 설정하고 사용자 그룹에 대해 사용하지 않도록 설정할 수도 있습니다. 이 경우 특정 사용자가 허용되는 그룹에 있더라도 해당 기능에 액세스할 수 없게 됩니다.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+    ![제외 사용 설정](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 다음 몇몇 섹션에서는 다양한 형식의 테넌트 설정 개요를 제공합니다.
 
 ## <a name="workspace-settings"></a>작업 영역 설정
 
 ### <a name="create-workspaces-preview"></a>작업 영역 만들기(미리 보기)
-조직의 사용자는 앱 작업 영역을 만들어 대시보드, 보고서 및 기타 콘텐츠에서 공동 작업할 수 있습니다.
 
-자세한 내용은 [새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
+조직의 사용자는 앱 작업 영역을 만들어 대시보드, 보고서 및 기타 콘텐츠에서 공동 작업할 수 있습니다. [자세히 알아보기](service-create-the-new-workspaces.md)
 
 ## <a name="export-and-sharing-settings"></a>내보내기 및 공유 설정
 
@@ -138,19 +135,21 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 조직의 사용자는 조직 외부의 사용자와 대시보드를 공유할 수 있습니다.
 
-![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![외부 사용자 설정](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
-외부 사용자와 공유할 때 표시되는 메시지는 다음과 같습니다.
+다음 이미지는 외부 사용자와 공유할 때 표시되는 메시지를 보여 줍니다.
 
-![](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![외부 사용자와 공유](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
 ### <a name="publish-to-web"></a>웹에 게시
 
 조직의 사용자는 웹에 보고서를 게시할 수 있습니다. [자세히 알아보기](service-publish-to-web.md)
 
-![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+다음 이미지는 **웹에 게시** 설정을 사용하도록 설정한 경우 보고서의 **파일** 메뉴를 보여 줍니다.
 
-사용자의 웹 게시 설정에 따라 UI에 다른 옵션이 표시될 수 있습니다.
+![웹에 게시 설정](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+**웹에 게시** 설정에 따라 UI에 다른 옵션이 표시됩니다.
 
 |특정 |전체 조직에 대해 사용 |전체 조직에 대해 사용 안 함 |특정 보안 그룹   |
 |---------|---------|---------|---------|
@@ -163,7 +162,9 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 조직의 사용자는 타일 또는 시각화에서 데이터를 내보낼 수 있습니다. [자세히 알아보기](visuals/power-bi-visualization-export-data.md)
 
-![](media/service-admin-portal/powerbi-admin-export-data.png)
+다음 이미지는 타일에서 데이터를 내보내는 옵션을 보여 줍니다.
+
+![타일에서 데이터 내보내기](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
 > **데이터 내보내기**를 사용하지 않도록 설정하면 사용자는 Power BI 서비스 라이브 연결과 함께 **Excel에서 분석** 기능을 사용할 수 없습니다.
@@ -172,7 +173,9 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 조직의 사용자는 PowerPoint 파일로 Power BI 보고서를 내보낼 수 있습니다. [자세히 알아보기](consumer/end-user-powerpoint.md)
 
-![](media/service-admin-portal/powerbi-admin-powerpoint.png)
+다음 이미지는 **보고서를 PowerPoint 프레젠테이션으로 내보내기** 설정을 사용하도록 설정한 경우 보고서의 **파일** 메뉴를 보여 줍니다.
+
+![보고서를 PowerPoint 프레젠테이션으로 내보내기](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>대시보드 및 보고서 인쇄
 
@@ -362,7 +365,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 시각적 개체를 사용하지 않도록 설정하면 시각적 개체가 기존 보고서에 렌더링되지 않고 아래와 같은 오류 메시지가 표시됩니다.
 
-이 사용자 지정 시각적 개체는 더 이상 사용할 수 없습니다. 자세한 내용은 관리자에게 문의하세요.*
+이 사용자 지정 시각적 개체는 더 이상 사용할 수 없습니다. 자세한 내용은 관리자에게 문의하세요.
 
 그러나 책갈피로 지정된 시각적 개체는 여전히 작동합니다.
 

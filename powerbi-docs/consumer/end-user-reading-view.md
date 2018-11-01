@@ -1,94 +1,199 @@
 ---
-title: Power BI 서비스의 보고서 읽기용 보기 및 편집용 보기
-description: Power BI 서비스 보고서의 읽기용 보기 및 편집용 보기 간 차이점에 대한 대략적 개요
+title: Power BI 서비스의 Power BI 소비자 기능
+description: 이 빠른 시작에서 **소비자**는 Power BI 서비스를 사용하는 방법을 알아봅니다.
+services: powerbi
+documentationcenter: ''
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
 ms.service: powerbi
-ms.component: powerbi-service
-ms.topic: conceptual
-ms.date: 10/02/2018
+ms.topic: quickstart
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/17/2018
 ms.author: mihart
-LocalizationGroup: Reports
-ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 1da43fb6bc0604cfa356f19aa212256612350c65
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908084"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396523"
 ---
-# <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 서비스 보고서의 읽기용 보기 및 편집용 보기
-Power BI 서비스(Power BI Desktop 아님)에는 보고서를 보고 상호 작용할 수 있는 읽기용 보기 및 편집용 보기라는 두 가지 모드가 있습니다. 읽기용 보기는 모든 사용자가 사용할 수 있으며 특히 데이터 *소비자*를 위해 설계되었지만 편집용 보기는 보고서 *작성자*와 소유자만 사용할 수 있습니다.
+<!-- once the sample aps are live, change this so consumers can follow along -->
+# <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>빠른 시작: ***소비자***의 Power BI 기능 알아보기
+이 빠른 시작에서는 Power BI를 조작하여 데이터 기반 비즈니스 인사이트를 검색하는 방법을 알아봅니다. 이 문서에서는 자세한 내용을 제공하는 대신 Power BI **소비자**가 사용할 수 있는 다양한 작업을 빠르게 둘러볼 수 있습니다.
 
-![보고서 작성자 및 보고서 소비자의 아트워크](./media/end-user-reading-view/power-bi-creators-consumers.png)
+아직 Power BI에 등록하지 않은 경우 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
 
-## <a name="report-reading-view"></a>보고서 읽기용 보기
+## <a name="prerequisites"></a>필수 조건
+- Power BI 서비스(app.powerbi.com) <!-- app from AppSource -->
 
- 읽기용 보기는 보고서를 탐색하고 상호 작용할 수 있는 방법으로, 재미있고 안전하게 데이터를 사용하면서 파악할 수 있습니다. 읽기용 보기는 *소비자*를 위해 설계되었습니다. 이들은 앱에서 보고서를 열거나 [공유한](../service-share-dashboards.md) 사람들을 말합니다. 읽기용 보기는 특정 보고서의 모든 소비자가 동일한 필터가 적용된 동일한 보고서 및 선택적으로 동일한 시각화를 보도록 합니다.  소비자는 보고서와 상호 작용할 수 있고, 기존 필터를 변경할 수 있습니다(이러한 변경 내용은 보고서와 함께 저장됨). 하지만 새 필터를 추가할 수 없습니다.
+## <a name="reading-view"></a>읽기용 보기
+읽기용 보기는 보고서 ‘소비자’의 Power BI 서비스에서 사용할 수 있습니다. 동료가 보고서를 공유해주면 읽기용 보기를 사용하여 보고서를 탐색 및 조작할 수 있습니다. 
 
-> [!NOTE]
-> 상황에 따라 행 수준 보안 및 데이터 권한으로 인해 보고서 소비자가 다른 데이터를 볼 수 있습니다.
+다른 Power BI 서비스 보고서 모드는 보고서 ‘디자이너’가 사용할 수 있는 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)입니다.  
 
-## <a name="report-editing-view"></a>보고서 편집용 보기
+읽기용 보기는 대시보드 및 보고서를 탐색하는 강력하고 안전한 방법입니다. 공유된 대시보드와 보고서를 조각화 및 분석하는 동안 기본 데이터 집합은 그대로 유지되고 변경되지 않습니다. 
 
-편집용 보기는 보고서를 만든 사람이나 [앱 작업 영역의 구성원 또는 관리자로서 보고서를 공동 소유하는 사람](../service-create-distribute-apps.md)만 사용할 수 있습니다.
+읽기용 보기에서 페이지의 시각적 개체를 교차 강조 표시 및 교차 필터링하는 등의 작업을 수행할 수 있습니다.  하나의 시각적 개체에서 값을 강조 표시하거나 선택하고 즉시 다른 시각적 개체에 미치는 영향을 확인합니다. 필터 창을 사용하여 보고서 페이지에 필터를 추가하고 수정하며 시각화에 값이 정렬되는 방식을 변경합니다. 이는 Power BI의 몇 가지 ‘소비자’ 기능일 뿐입니다.  이러한 항목 등을 자세히 알아보려면 계속 읽어보세요.
 
-편집용 보기는 보고서 *작성자*를 위한 것입니다. 이 보기에서 작성자는 데이터 집합을 가져와서 데이터 집합에 연결하고, 데이터를 탐색하고, 보고서 및 대시보드를 작성합니다. 편집용 보기에서 *작성자*는 필드를 추가 및 제거하고 시각화 유형을 변경하며 새 시각화를 만들고 보고서에서 시각화 및 페이지를 추가 및 삭제하는 등 데이터에 대한 작업을 훨씬 자세히 수행할 수 있습니다. 그런 다음 동료들과 만든 보고서를 공유할 수 있습니다.
+ 
+### <a name="view-an-app"></a>앱 보기
+Power BI에서 ‘앱’은 관련 대시보드 및 보고서와 함께 모두 한곳에서 번들로 제공됩니다.
 
-## <a name="reading-view-versus-editing-view"></a>읽기용 보기 및 편집용 보기 비교
-이 차트에서는 Power BI 서비스의 모든 보고서 기능을 나열하지 않습니다! 여기에는 읽기용 보기와 편집용 보기 **모두**에서 사용할 수 없는 보고서 작업만 나열됩니다.
+1. **앱** ![왼쪽 탐색 창의 앱](./media/end-user-apps/power-bi-apps-bar.png) > **앱 가져오기**를 선택합니다. 
+   
+     ![앱 가져오기 아이콘](./media/end-user-reading-view/power-bi-get-app.png)
+2. AppSource의 **내 조직**에서 검색하여 결과 범위를 좁힌 후 찾고자 하는 앱을 찾습니다.
+   
+     ![내 조직의 AppSource에서](./media/end-user-reading-view/power-bi-appsource.png)
+3. **지금 가져오기**를 선택하여 앱 컨테이너에 추가합니다. 
 
+### <a name="view-a-dashboard"></a>대시보드 보기
+이 앱은 대시보드로 열립니다. Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전달하기 위해 시각화를 사용하는 단일 페이지입니다. 한 페이지로 제한되기 때문에 해당 스토리의 가장 중요한 요소만 포함할 경우 잘 디자인된 대시보드라 할 수 있습니다.
 
-|작업  | 읽기용 보기  | 편집용 보기 |
-|-------------------------|-------|-------|
-|**보고서, 전체**  |
-| [보고서 만들기 또는 편집](../service-report-create-new.md) | 아니요  | 예 |
-| [보고서 공유](../service-share-reports.md)| 예 | 예, 다른 사용자에게 *소유자* 권한을 부여하는 등 권한을 관리할 수도 있습니다. |
-| [필터 창에서 영구적인(영구) 시각적 개체 수준, 드릴스루, 페이지 수준 및 보고서 수준 필터 만들기](../power-bi-report-add-filter.md) | 아니요  | 예 |
-| [보고서 필터 창 사용](end-user-report-filter.md) | 예, 기존 필터를 사용할 수 있고 보고서를 함께 변경 내용을 저장할 수 있지만 새 필터를 추가할 수 없습니다. | 예 |
-| [보고서 분석 창 사용](../service-analytics-pane.md) | 아니요 | 예 |
-| [보고서 **보기** 옵션](../power-bi-report-display-settings.md) | 예, 몇 가지 예외가 있습니다. | 예, 눈금선, 맞추기, 잠금 등 모두 가능합니다. |
-| [새로 고침 일정 만들기](../refresh-data.md) | 아니요  | 예 |
-| [보고서 구독](end-user-subscribe.md) | 예 | 아니요 |
-| [질문 및 답변 - 보고서에서 질문하기](end-user-q-and-a.md) | 아니요  | 예 |
-| [사용 메트릭 보기](../service-usage-metrics.md) | 예, 보고서 캔버스에서 볼 수 있습니다. | 예, 보고서 목록(콘텐츠 보기)에서 볼 수 있습니다. |
-| [관련 항목 보기](end-user-related.md) | 예, 보고서 캔버스에서 볼 수 있습니다. | 예, 보고서 목록(콘텐츠 보기)에서 볼 수 있습니다. |
-| [보고서 저장](../service-report-save.md) | 예, 하지만 **다른 이름으로 저장**을 사용한 경우만 가능합니다. | 예 |
-| [보고서 삭제](../service-delete.md) | 아니요  | 예 |
-|**보고서 페이지** |
-| [보고서 페이지 추가 또는 이름 바꾸기](../power-bi-report-add-page.md)  | 아니요  | 예  |
-| [보고서 페이지 복제](../power-bi-report-copy-paste-page.md) | 아니요  | 예 |
-| [보고서 페이지 삭제](../service-delete.md) | 아니요 | 예 |
-|**보고서 시각화 작업**|
-| [보고서에 시각화 추가](../visuals/power-bi-report-add-visualizations-i.md) | 아니요  | 예 |
-| [보고서에 텍스트 상자 및 셰이프 추가](../power-bi-reports-add-text-and-shapes.md) | 아니요  | 예 |
-| [보고서 서식 창 사용](../service-the-report-editor-take-a-tour.md) | 아니요 | 예 |
-| [시각적 개체 상호 작용 설정](end-user-interactions.md) | 아니요  | 예 |
-| [시각화를 만드는 데 사용된 데이터 표시](end-user-show-data.md) | 아니요  | 예 |
-| [드릴링 구성](end-user-drill.md) | 아니요  | 예 |
-| [사용되는 시각화 변경](../visuals/power-bi-report-change-visualization-type.md) | 아니요 | 예|
-| [시각화, 텍스트 상자 또는 셰이프 삭제](../service-delete.md)| 아니요 | 예 |
+![대시보드](media/end-user-reading-view/power-bi-dashboard.png)
+
+대시보드에 표시되는 시각화를 타일이라고 하며 보고서에서 대시보드에 고정됩니다.
+
+### <a name="subscribe-to-a-dashboard-or-report"></a>대시보드(또는 보고서) 구독
+대시보드를 모니터링하기 위해 Power BI를 열 필요가 없습니다.  대신에 구독하면 Power BI가 설정된 일정에 따라 해당 대시보드의 스냅숏을 메일로 보내 줍니다. 
+
+![구독 아이콘 선택](./media/end-user-subscribe/power-bi-subscribe-orientation.png).
 
 
-## <a name="navigating-between-editing-view-and-reading-view"></a>편집용 보기 및 읽기용 보기 간 이동
-보고서 작성자와 소유자만 편집용 보기에서 보고서를 열 수 있다는 점을 기억하세요.
+1. 상단의 메뉴 모음에서 **구독**을 선택하거나 봉투 아이콘 ![구독 아이콘](./media/end-user-subscribe/power-bi-icon-envelope.png)을 선택합니다.
+   
+   ![구독 아이콘](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-1. 기본적으로 보고서는 보통 읽기용 보기에서 열립니다. **보고서 편집** 옵션이 보일 경우 읽기용 보기로 보고 있다는 의미입니다. **보고서 편집**이 회색으로 표시될 경우 편집용 보기에서 보고서를 열 권한이 없는 것입니다.
+3. 노란색 슬라이더를 사용하여 구독을 설정하거나 해제합니다.  선택적으로 메일 메시지 세부 사항을 추가하세요. 
 
-   ![회색으로 표시된 보고서 편집](./media/end-user-reading-view/power-bi-edit-report-grey.png)
+    아래 스크린샷에서 보고서를 구독할 때 실제 보고서 *페이지*를 구독하는 것을 의미합니다.  보고서에서 여러 페이지를 구독하려면 **다른 구독 추가**를 선택하고, 다른 페이지를 선택합니다. 
+      
+   ![구독 창](./media/end-user-subscribe/power-bi-emails.png)
+   
+    보고서 페이지를 새로 고치면 데이터 집합이 새로 고쳐지지 않습니다. 데이터 집합 소유자만 데이터 집합을 수동으로 새로 고칠 수 있습니다. 기본 데이터 집합의 이름을 검색하려면 맨 위 메뉴 모음에서 **관련 항목 보기**를 선택합니다.
 
-2. **보고서 편집**이 회색으로 표시되지 않을 경우 편집용 보기에서 보고서를 열도록 선택하세요.
+### <a name="view-related-content"></a>관련 콘텐츠 보기
+**관련 콘텐츠** 창은 Power BI 서비스 콘텐츠(대시보드, 보고서 및 데이터 집합)가 서로 어떻게 연결되어 있는지를 보여 줍니다. 창에 관련 콘텐츠가 표시될 뿐만 아니라 콘텐츠에 대한 작업을 수행하고 관련 콘텐츠 간을 쉽게 탐색할 수 있습니다.
 
-   ![보고서 편집 옵션](./media/end-user-reading-view/power-bi-edit-report.png)
+대시보드 또는 보고서의 위쪽 메뉴 모음에서 **관련 항목 보기**를 선택합니다.
 
-   보고서가 편집용 보기 상태가 되며 읽기용 보기에서 마지막으로 사용한 것과 동일한 [표시 설정](../power-bi-report-display-settings.md)을 사용합니다.
+![관련 콘텐츠](./media/end-user-reading-view/power-bi-view-related-dashboard.png)
 
-2. **읽기용 보기**로 돌아가려면 위쪽 탐색 모음에서 읽기용 보기를 선택합니다.
+### <a name="use-qa-to-ask-questions-using-natural-language"></a>질문 및 답변을 사용하여 자연어 사용에 대해 질문하기
+경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. 질문 및 답변 상자는 대시보드의 위쪽에서 사용할 수 있습니다. “판매 단계별 대규모 영업 기회 수를 깔때기로 표시합니다.”를 예로 들 수 있습니다. 
 
-    ![읽기용 보기 옵션](./media/end-user-reading-view/power-bi-reading-view.png)
+![질문 및 답변](./media/end-user-reading-view/power-bi-qna.png)
+
+### <a name="favorite-a-dashboard"></a>대시보드를 즐겨찾기에 추가
+콘텐츠를 ‘즐겨찾기’로 만들면 왼쪽 모음에서 콘텐츠에 액세스할 수 있습니다. 왼쪽 탐색 모음은 Power BI의 모든 영역에 표시됩니다. 즐겨찾기는 일반적으로 가장 자주 방문하는 대시보드, 보고서 페이지 및 앱입니다.
+
+1. 질문 및 답변을 종료하여 대시보드로 돌아갑니다.    
+2. Power BI 서비스의 오른쪽 위 모서리에서 **즐겨찾기**나 별모양 ![별모양 아이콘](./media/end-user-favorite/power-bi-favorite-icon.png) 아이콘을 선택합니다.
+   
+   ![즐겨찾기 아이콘으로 바뀝니다](./media/end-user-favorite/powerbi-dashboard-favorite.png)
 
 
+### <a name="open-and-view-a-report-and-report-pages"></a>보고서 및 보고서 페이지 열기 및 보기
+보고서는 하나 이상의 시각적 개체 페이지입니다. 보고서는 Power BI ‘보고서 디자이너’가 만들고 직접 또는 [앱](end-user-apps.md)의 일부로 [‘소비자’와 공유](end-user-shared-with-me.md)합니다. 
+
+대시보드에서 보고서를 열 수 있습니다. 대부분의 대시보드 타일은 보고서에서 ‘고정’됩니다. 타일을 선택하면 타일을 만드는 데 사용된 보고서가 열립니다. 
+
+1. 대시보드에서 타일을 선택합니다. 이 예제에서는 “수익” 열 차트 타일을 선택했습니다.
+
+    ![타일을 선택한 대시보드](./media/end-user-reading-view/power-bi-dashboard2.png)
+
+2.  연결된 보고서가 열립니다. “수익 개요” 페이지에 있는지 확인합니다. 이는 대시보드에서 선택한 열 차트가 포함된 보고서 페이지입니다.
+
+    ![읽기용 보기로 보고서 열기](./media/end-user-reading-view/power-bi-report-opens.png)
+
+### <a name="adjust-the-display-dimensions"></a>표시 크기 조정
+보고서는 다양한 장치에서 다양한 화면 크기 및 가로 세로 비율로 볼 수 있습니다.  기본 렌더링으로는 장치에서 보고자 하는 모습이 아닐 수 있습니다.  
+
+1. 조정하려면 위쪽 메뉴 모음에서 **보기**를 선택합니다.
+
+    ![보고서 보기 메뉴](media/end-user-reading-view/power-bi-fit.png)
+
+2.  표시 옵션 중 하나를 선택합니다. 이 예제에서는 **페이지에 맞추기**를 선택했습니다.
+
+    ![보고서 보기 페이지에 맞추기](media/end-user-reading-view/power-bi-report-fit.png)    
+
+### <a name="use-the-report-filters-pane"></a>보고서 필터 창 사용
+보고서 작성자가 보고서의 페이지에 필터를 추가한 경우 필터를 조작하고 변경 내용을 보고서와 함께 저장할 수 있습니다.
+
+1. 오른쪽 위에 있는 **필터** 아이콘을 선택합니다.
+   
+   ![필터 아이콘 선택](media/end-user-reading-view/filters.png)  
+
+2. 시각적 개체를 선택하여 활성화합니다. 시각적 개체에 적용된 모든 필터(시각적 개체 수준 필터)가 전체 보고서 페이지(페이지 수준 필터) 및 전체 보고서(보고서 수준 필터)에서 표시됩니다.
+   
+   ![보고서 필터 유형](media/end-user-reading-view/power-bi-reading-filters.png)
+
+3. 필터를 마우스로 가리키고 아래쪽 화살표를 선택하여 확장합니다.
+   
+   ![필터 확장](media/end-user-reading-view/power-bi-expan-filter.png)
+
+4. 필터를 변경하고 시각적 개체에 준 영향을 확인합니다.  
+   
+     
+     ![고급 필터링](media/end-user-reading-view/power-bi-advanced-filter.png)
+
+### <a name="see-how-all-the-visuals-on-a-page-are-interconnected"></a>페이지에 있는 모든 시각적 개체의 상호 연결 방법 참조
+페이지에서 관련 시각화를 교차 강조 표시 및 교차 필터링합니다. 단일 보고서 페이지에 있는 시각화는 모두 서로 "연결되어" 있습니다.  즉, 하나의 시각화에서 하나 이상의 값을 선택하면 동일한 값을 사용하는 다른 시각화가 선택 항목에 따라 변경됩니다.
+
+![교차 강조 표시](media/end-user-reading-view/pagefilter3b.gif)
+> 
+### <a name="display-details-on-a-visualization"></a>시각화의 세부 정보 표시
+세부 정보를 보려면 시각적 요소를 마우스로 가리킵니다.
+
+![세부 정보를 보려면 마우스로 가리킵니다.](media/end-user-reading-view/amarillachart.png)
+
+### <a name="sort-a-visualization"></a>시각화 정렬
+보고서 페이지의 시각적 개체를 정렬하고 적용된 변경 내용과 함께 저장할 수 있습니다. 
+
+1. 시각적 개체를 마우스로 가리켜 활성화합니다.    
+2. 줄임표(...)를 선택하여 정렬 옵션을 엽니다.
+
+    ![차트 정렬](media/end-user-reading-view/sort.gif) 
+
+###  <a name="open-the-selection-pane"></a>**선택 영역** 창 열기
+보고서 페이지의 시각화 간에 쉽게 탐색할 수 있습니다. 
+
+1. **보기 > 선택 영역 창**을 선택하여 [선택 영역] 창을 엽니다. **선택 영역 창**을 켜기로 토글합니다.
+
+    ![보고서 선택 영역 창 켜기](media/end-user-reading-view/power-bi-selection-pane2.png)
+
+2. [선택 영역] 창이 보고서 캔버스에서 열립니다. 목록에서 시각적 개체를 선택하여 활성화합니다.
+
+    ![보고서 선택 영역 창](media/end-user-reading-view/power-bi-selection-pane-new.png)
+
+### <a name="zoom-in-on-individual-visuals"></a>개별 시각적 개체 확대
+시각적 개체를 마우스로 가리키고 **포커스 모드** 아이콘 ![](media/end-user-reading-view/pbi_popouticon.jpg)을 선택합니다. 아래와 같이 포커스 모드에서 시각화를 보고 전체 보고서 캔버스를 채우도록 확장합니다.
+
+![포커스 모드](media/end-user-reading-view/powerbi-focus-mode.png)
+
+메뉴 표시줄, 필터 창, 기타 크롬 없이 동일한 시각화를 표시하려면 상위 메뉴 모음 ![](media/end-user-reading-view/power-bi-focus-icon.png)에서 **전체 화면** 아이콘을 선택합니다.
+
+![전체 화면 모드](media/end-user-reading-view/power-bi-full-screen.png)
+
+### <a name="show-the-data-used-to-create-a-visualization"></a>시각화를 만드는 데 사용된 데이터 표시
+Power BI 시각화는 기본 데이터 집합의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. **데이터 표시**를 선택하면 Power BI는 시각화 아래(또는 옆에) 데이터를 표시합니다.
+
+1. Power BI 서비스에서 보고서를 열고 시각적 개체를 선택합니다.  
+2. 시각적 개체 뒤에 데이터를 표시하려면 줄임표(...)를 선택하고 **데이터 표시**를 선택합니다.
+   
+   ![데이터 표시 선택](./media/end-user-show-data/power-bi-show-data2.png)
+
+이는 **소비자**가 Power BI 서비스로 수행할 수 있는 몇 가지 작업의 빠른 개요였습니다.  
+
+## <a name="clean-up-resources"></a>리소스 정리
+- 앱에 연결한 경우 왼쪽 탐색 모음에서 **앱**을 선택하여 앱 콘텐츠 목록을 엽니다. 삭제할 앱을 마우스로 가리키고 휴지통 아이콘을 선택합니다.
+
+- Power BI 샘플 보고서에 가져오거나 연결한 경우 왼쪽 탐색 모음에서 **내 작업 영역**을 엽니다. 맨 위에 있는 탭을 사용하여 대시보드, 보고서 및 데이터 집합을 찾고 각각의 휴지통 아이콘을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
-읽기용 보기에서 보고서와 상호 작용하는 방법은 여러 가지가 있으며 데이터 분리 및 결합하여 통찰력을 얻고 질문에 대한 답변을 얻을 수 있습니다.  다음 항목인 [읽기용 보기에서 보고서와 상호 작용](../service-interact-with-a-report-in-editing-view.md)에서 이에 대해 보다 자세히 설명합니다.    
-[Power BI의 보고서](end-user-reports.md)로 돌아가기    
+
+

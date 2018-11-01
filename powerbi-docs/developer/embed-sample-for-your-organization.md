@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 07/13/2018
-ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827459"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396868"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>자습서: Power BI 보고서, 대시보드 또는 타일을 조직의 응용 프로그램에 포함
 
@@ -158,13 +158,13 @@ Power BI Desktop을 사용하여 보고서와 데이터 집합을 만들 수 있
 
     ![사용자 소유 데이터 응용 프로그램 샘플](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. 샘플 응용 프로그램에서 **Cloud.config** 파일을 엽니다. 응용 프로그램을 성공적으로 실행하려면 **ClientID** 및 **ClientSecret** 필드를 입력해야 합니다.
+2. 샘플 응용 프로그램에서 **Cloud.config** 파일을 엽니다. 응용 프로그램을 성공적으로 실행하려면 **ApplicationID** 및 **ApplicationSecret** 필드를 입력해야 합니다.
 
     ![Cloud.config 파일](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    Azure의 **응용 프로그램 ID**를 사용하여 **ClientID** 정보를 입력합니다. **ClientID**는 응용 프로그램에서 권한을 요청 중인 사용자에게 응용 프로그램을 인식시키는 데 사용됩니다.
+    Azure의 **응용 프로그램 ID**를 사용하여 **ApplicationID** 정보를 입력합니다. **ApplicationID**는 응용 프로그램에서 권한을 요청 중인 사용자에게 응용 프로그램을 인식시키는 데 사용됩니다.
 
-    **ClientID**를 가져오려면 다음 단계를 수행합니다.
+    **ApplicationID**를 가져오려면 다음 단계를 수행합니다.
 
     1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
@@ -174,17 +174,17 @@ Power BI Desktop을 사용하여 보고서와 데이터 집합을 만들 수 있
 
         ![앱 등록 검색](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. **ClientID**를 사용해야 하는 응용 프로그램을 선택합니다.
+    1. **ApplicationID**를 사용해야 하는 응용 프로그램을 선택합니다.
 
         ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. GUID로 나열된 **응용 프로그램 ID**가 표시되어야 합니다. 이 **응용 프로그램 ID**를 응용 프로그램의 **ClientID**로 사용합니다.
+    1. GUID로 나열된 **응용 프로그램 ID**가 표시되어야 합니다. 이 **응용 프로그램 ID**를 응용 프로그램의 **ApplicationID**로 사용합니다.
 
-        ![ClientID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. **Azure**의 **앱 등록** 섹션에 있는 **키** 섹션에서 **ClientSecret** 정보를 입력합니다.
+    1. **Azure**의 **앱 등록** 섹션에 있는 **키** 섹션에서 **ApplicationSecret** 정보를 입력합니다.
 
-    1. **ClientSecret**를 가져오려면 다음 단계를 수행합니다.
+    1. **ApplicationSecret**을 가져오려면 다음 단계를 수행합니다.
 
         1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
@@ -194,7 +194,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 집합을 만들 수 있
 
             ![앱 등록 검색](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. **ClientSecret**를 사용해야 하는 응용 프로그램을 선택합니다.
+        1. **ApplicationSecret**을 사용해야 하는 응용 프로그램을 선택합니다.
 
             ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 

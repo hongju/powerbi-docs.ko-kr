@@ -1,5 +1,5 @@
 ---
-title: Power BI 대시보드란?
+title: Power BI 서비스 소비자에 대한 대시보드란?
 description: 대시보드는 Power BI 서비스의 핵심 기능입니다.
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 840f302b1df31736d7fcd1c0766c34963a2f6738
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909133"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473928"
 ---
-# <a name="dashboards-in-power-bi-service"></a>Power BI 서비스의 대시보드
+# <a name="dashboards-for-power-bi-service-consumers"></a>Power BI 서비스 소비자에 대한 대시보드
 
 Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전달하기 위해 시각화를 사용하는 단일 페이지입니다. 한 페이지로 제한되기 때문에 해당 스토리의 가장 중요한 요소만 포함할 경우 잘 디자인된 대시보드라 할 수 있습니다.
 

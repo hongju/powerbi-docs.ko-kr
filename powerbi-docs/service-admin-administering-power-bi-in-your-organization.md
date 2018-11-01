@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: overview
-ms.date: 05/01/2018
+ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fcc7563ef1c1196a7e00e107bb1dadd6b10075d3
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944310"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252471"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 관리란?
 
@@ -30,7 +30,6 @@ Power BI는 셀프 서비스 비즈니스 인텔리전스를 위해 설계되었
 - Power BI 배포의 채택 및 투자 수익률 증가
 
 수행할 작업은 비즈니스 사용자의 생산성을 높이고 보안과 법률 및 규정 준수를 보장하는 것입니다. 책임에는 도움말 및 지원이 포함되고 대부분의 경우 비즈니스 사용자가 적절한 작업을 수행하도록 지원할 책임이 포함될 수 있습니다.
-
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Power BI와 관련된 관리자 역할
 
@@ -50,7 +49,6 @@ Power BI 서비스 관리자는 기능, 보안 및 모니터링에 대한 다양
 
 Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하거나 Office 365에서 감사 로그를 보는 기능을 제공하지 않습니다. 따라서 Power BI 서비스 관리자 역할만 수행하는 사용자는 Power BI 관리 작업을 수행할 수 없습니다.
 
-
 ## <a name="administrative-tasks"></a>관리 작업
 
 관리자는 다음 표에서 다루는 조직에 대한 Power BI 테넌트를 지원하는 많은 작업을 수행합니다.
@@ -65,7 +63,6 @@ Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하
 | Power BI 리소스 관리 |<ul><li>작업 영역 관리<br><li>사용자 지정 시각적 개체 게시<br><li>다른 응용 프로그램에 Power BI를 포함하는 데 사용되는 코드 확인|
 | 테넌트 사용자에게 도움말 및 지원 제공 |<ul><li>데이터 액세스 및 기타 문제 해결</ul>|
 | 기타 작업 |<ul><li>System Center Configuration Manager 등을 사용하여 Power BI Desktop 배포<br><li>Intune에서 Power BI 모바일 앱 배포 관리<br><li>원본 데이터 보안과 같은 데이터 개인 정보 및 보안 관리</ul>|
-
 
 ## <a name="administrative-tools"></a>관리 도구
 
@@ -82,11 +79,12 @@ Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하
 
 ## <a name="next-steps"></a>다음 단계
 
-이 문서를 통해 Power BI 관리자 작업 및 관련된 특정 역할, 작업 및 도구에 대한 인사이트를 빠르게 파악하기를 바랍니다. 이해도를 높이기 위해 아래 두 가지 주제를 참조하는 것이 좋습니다.
+이 문서를 통해 Power BI 관리자 작업 및 관련된 특정 역할, 작업 및 도구에 대한 인사이트를 빠르게 파악하기를 바랍니다. 이해도를 높이기 위해 다음 문서 주제를 참조하는 것이 좋습니다.
 
 [Power BI 관리 포털 사용](service-admin-portal.md)
+
+[PowerShell cmdlet 사용](/powershell/power-bi/overview?toc=%2Fen-us%2Fpower-bi%2FTOC.json&bc=%2Fen-us%2Fpower-bi%2Fbreadcrumb%2Ftoc.json&view=powerbi-ps)
 
 [Power BI 관리 FAQ](service-admin-faq.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-

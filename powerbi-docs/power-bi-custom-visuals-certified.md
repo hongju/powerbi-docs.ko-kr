@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 10/30/2018
 ms.author: mihart
-ms.openlocfilehash: 54c484153896430a7c5c886864459361cae97428
-ms.sourcegitcommit: fbc1fabcb5e3b285228c9aa192b9b421b2782922
+ms.openlocfilehash: ba6c59d168deb5fb68f4b339f11fba795bae6452
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "47059073"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252402"
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
@@ -86,6 +86,7 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [슬라이서 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960) | |
 | [Stack Shuffle 지원](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten 와플 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
+| [Filter by List by Devscope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381413)(Devscope의 목록을 기준으로 필터) | [비디오](https://youtu.be/RetEWGwBu0I) |
 | [Force-Directed Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764)(Force-Directed 그래프) | [비디오](https://youtu.be/YsTa7uyJ4sg) |
 | [MAQ Software의 원본이 포함된 깔때기](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [비디오](https://youtu.be/R_EcimsLI8U) |
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [비디오](https://youtu.be/qJ7s_KrGiUU) |

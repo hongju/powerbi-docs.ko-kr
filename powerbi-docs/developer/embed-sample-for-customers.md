@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 06/20/2018
-ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827436"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435491"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>자습서: Power BI 보고서, 대시보드 또는 타일을 고객의 응용 프로그램에 포함
 
@@ -36,7 +36,7 @@ ms.locfileid: "48827436"
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>임베디드 분석 개발 환경 설정
 
-응용 프로그램으로 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 포함을 허용하도록 설정되었는지 확인해야 합니다. 설치의 일부로 다음을 수행해야 합니다.
+응용 프로그램으로 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 Power BI에 포함을 허용하도록 설정해야 합니다.
 
 [포함 설치 도구](https://aka.ms/embedsetup/AppOwnsData)를 진행하여 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 응용 프로그램을 신속하게 시작하고 다운로드할 수 있습니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "48827436"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure AD(Azure Active Directory)에서 응용 프로그램 등록
 
-Azure Active Directory에 응용 프로그램을 등록하여 응용 프로그램에서 Power BI REST API에 액세스할 수 있도록 합니다. 그러면 응용 프로그램에 대한 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
+Azure Active Directory에 응용 프로그램을 등록하여 응용 프로그램에서 Power BI REST API에 액세스할 수 있도록 합니다. 응용 프로그램을 등록하면 응용 프로그램의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
 
 1. [Microsoft Power BI API 약관](https://powerbi.microsoft.com/api-terms)에 동의합니다.
 
@@ -63,7 +63,7 @@ Azure Active Directory에 응용 프로그램을 등록하여 응용 프로그�
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Azure Active Directory 내 응용 프로그램에 권한 적용
 
-앱 등록 페이지에 제공된 것 외에도 응용 프로그램에 추가 권한을 사용하도록 설정해야 합니다. 포함에 사용된 ‘마스터’ 계정(전역 관리자 계정이어야 함)으로 로그인해야 합니다.
+앱 등록 페이지에 제공된 것 외에도 응용 프로그램의 추가 권한을 사용하도록 설정합니다. 포함에 사용 중인 ‘마스터’ 계정으로 로그인합니다. 마스터 계정은 전역 관리자 계정이어야 합니다.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory 포털 사용
 
@@ -91,7 +91,7 @@ Azure Active Directory에 응용 프로그램을 등록하여 응용 프로그�
 
     ![PBI 서비스 선택](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-7. **위임된 권한**에서 모든 권한을 선택합니다. 선택 항목을 저장하려면 하나씩 선택해야 합니다. 완료되면 **저장**을 선택합니다.
+7. **위임된 권한**에서 모든 권한을 선택합니다. 완료되면 **저장**을 선택합니다.
 
     ![위임 권한 선택](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
@@ -107,11 +107,11 @@ Azure Active Directory에 응용 프로그램을 등록하여 응용 프로그�
 
 고객의 보고서, 대시보드 또는 타일을 포함하는 경우 콘텐츠를 앱 작업 영역 내에 배치해야 합니다. ‘마스터’ 계정은 앱 작업 영역의 관리자여야 합니다.
 
-1. 먼저 작업 영역을 만듭니다. **작업 영역** > **앱 작업 영역 만들기**를 선택합니다. 응용 프로그램이 액세스해야 하는 콘텐츠를 배치할 위치입니다.
+1. 먼저 작업 영역을 만듭니다. **작업 영역** > **앱 작업 영역 만들기**를 선택합니다. 앱 만들기 작업 영역에서 응용 프로그램이 액세스해야 하는 콘텐츠를 배치합니다.
 
     ![작업 영역 만들기](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
 
-2. 작업 영역에 이름을 지정합니다. 해당하는 **작업 영역 ID**를 사용할 수 없는 경우 편집하여 고유한 ID를 입력합니다. 또한 앱의 이름이어야 합니다.
+2. 작업 영역에 이름을 지정합니다. 해당하는 **작업 영역 ID**를 사용할 수 없는 경우 편집하여 고유한 ID를 입력합니다.
 
     ![작업 영역 이름 지정](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
@@ -161,11 +161,11 @@ Power BI Desktop을 사용하여 보고서 및 데이터 집합을 만든 다음
 
     ![앱 소유 데이터 응용 프로그램 예제](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. 응용 프로그램 예제에서 Web.config 파일을 엽니다. 응용 프로그램을 성공적으로 실행하려면 5개의 필드를 입력해야 합니다. **clientId**, **groupId**, **reportId**, **pbiUsername** 및 **pbiPassword**입니다.
+2. 응용 프로그램 예제에서 Web.config 파일을 엽니다. 응용 프로그램을 성공적으로 실행하려면 5개의 필드를 입력해야 합니다. **applicationId**, **workspaceId**, **reportId**, **pbiUsername** 및 **pbiPassword**.
 
     ![웹 구성 파일](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    **Azure**의 **응용 프로그램 ID**를 사용하여 **clientId** 정보를 입력합니다. **clientId**는 응용 프로그램에서 권한을 요청 중인 사용자에게 응용 프로그램을 인식시키는 데 사용됩니다. **clientId**를 가져오려면 다음 단계를 수행합니다.
+    **Azure**의 **응용 프로그램 ID**를 사용하여 **applicationId** 정보를 입력합니다. **applicationId**는 응용 프로그램에서 권한을 요청 중인 사용자에게 응용 프로그램을 인식시키는 데 사용됩니다. **applicationId**를 가져오려면 다음 단계를 수행합니다.
 
     [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
@@ -175,17 +175,17 @@ Power BI Desktop을 사용하여 보고서 및 데이터 집합을 만든 다음
 
     ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    **clientId**를 가져올 응용 프로그램을 선택합니다.
+    **applicationId**를 가져올 응용 프로그램을 선택합니다.
 
     ![앱 선택](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    GUID로 나열된 **응용 프로그램 ID**가 표시되어야 합니다. 이 **응용 프로그램 ID**를 응용 프로그램의 **clientId**로 사용합니다.
+    GUID로 나열된 **응용 프로그램 ID**가 표시되어야 합니다. 이 **응용 프로그램 ID**를 응용 프로그램의 **applicationId**로 사용합니다.
 
-    ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    Power BI의 **앱 작업 영역 GUID**를 사용하여 **groupId** 정보를 입력합니다.
+    Power BI의 **앱 작업 영역 GUID**를 사용하여 **workspaceId** 정보를 입력합니다.
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
     Power BI의 **보고서 GUID**를 사용하여 **reportId** 정보를 입력합니다.
 
@@ -242,8 +242,8 @@ Power BI 클라이언트 개체를 사용하여 포함하려는 항목에 대한
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
@@ -263,7 +263,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -339,7 +339,7 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 
 | 용량 노드 | 총 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 코어 | 프런트 엔드 코어 | DirectQuery/라이브 연결 제한 | 사용량이 가장 많은 시간에 최대 페이지 렌더링 |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1개 가상 코어 |0.5개 코어, 3GB RAM |0.5개 코어 | 초당 5 |1-300 |
+| A1 |1개 가상 코어 |0.5개 코어, 3GB RAM |0.5개 코어 |초당 0.5 |1-300 |
 | A2 |2개 가상 코어 |1개 코어, 5GB RAM |1개 코어 | 초당 10 |301-600 |
 | A3 |4개 가상 코어 |2개 코어, 10GB RAM |2개 코어 | 초당 15 |601-1,200 |
 | A4 |8개 가상 코어 |4개 코어, 25GB RAM |4개 코어 |초당 30 |1,201-2,400 |
