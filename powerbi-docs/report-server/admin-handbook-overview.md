@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2c8319395bd4daf44562f71380fc254964708c2b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721918"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100614"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>관리 개요, Power BI Report Server
 이 아티클은 Power BI, 모바일 및 페이지가 매겨진 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리 개요입니다. 이 문서에서는 Power BI Report Server를 계획, 배포 및 관리하는 개념을 소개하고 추가 정보 링크를 제공합니다.
@@ -50,7 +50,7 @@ Report Server를 구성할 때 여러 가지 옵션이 있습니다. SSL을 사�
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 서버 제품 키 확인](find-product-key.md)  
 [Power BI Report Server에 최적화된 Power BI Desktop 설치](install-powerbi-desktop.md)  
-[보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

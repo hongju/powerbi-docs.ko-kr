@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/01/2018
-ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.date: 10/20/2018
+ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641209"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100775"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -42,41 +42,38 @@ SharePoint Online에 보고서를 포함하기 위해 먼저 보고서의 URL을
 2. **파일** 메뉴 항목을 선택합니다.
 
 3. **SharePoint Online에 포함**를 선택합니다.
-   
-    ![](media/service-embed-report-spo/powerbi-file-menu.png)
+
+    ![파일 메뉴](media/service-embed-report-spo/powerbi-file-menu.png)
 
 4. 대화 상자에서 URL을 복사합니다.
 
-    ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
-
-   > [!NOTE]
-   > 또한 보고서를 볼 때 웹 브라우저의 주소 표시줄에 표시되는 URL을 사용할 수 있습니다. 해당 URL에는 현재 보고 있는 보고서 페이지가 포함됩니다. 다른 페이지를 사용하려는 경우 URL에서 보고서 섹션을 제거해야 합니다.
+    ![Embed 링크](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>SharePoint Online 페이지에 Power BI 보고서 추가
 
 1. SharePoint Online에서 원하는 페이지를 열고 **편집**을 선택합니다.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
+    ![SP 편집 페이지](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
     또는 SharePoint Online에서 **+ 새로 만들기**를 선택하여 새 최신 사이트 페이지를 만듭니다.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
+    ![SP 새 페이지](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
 2. **+** 를 선택하고 **Power BI** 웹 파트를 선택합니다.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
+    ![SP 새 웹 파트](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
 3. **앱 보고서**를 선택합니다.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
+    ![SP 새 보고서](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. 속성 창에 보고서 URL을 붙여 넣습니다. 이것이 위의 단계에서 복사한 URL입니다. 보고서를 자동으로 로드합니다.
+4. 속성 창에 보고서 URL을 붙여 넣습니다. 이 보고서 URL은 위 단계에서 복사한 URL입니다. 보고서를 자동으로 로드합니다.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
+    ![SP 새 웹 파트 속성](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
 5. **게시**를 선택하여 변경 사항을 SharePoint Online 사용자가 볼 수 있도록 합니다.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
+    ![SP 보고서 로드됨](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
 ## <a name="granting-access-to-reports"></a>보고서에 액세스 부여
 
@@ -87,24 +84,12 @@ SharePoint Online에 보고서를 포함시키는 것이 사용자에게 보고�
 
 Power BI 서비스 내에서 보고서에 액세스 권한을 부여하는 방법에는 두 가지가 있습니다. Office 365 그룹을 사용하여 SharePoint Online 팀 사이트를 빌드하는 경우 사용자를 **Power BI 서비스 내 앱 작업 영역** 및 **SharePoint 페이지**의 구성원으로 나열합니다. 그러면 사용자가 해당 그룹의 콘텐츠를 볼 수 있게 됩니다. 자세한 내용은 [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md)를 참조하십시오.
 
-또는 아래 단계를 따라 사용자에게 보고서 액세스 권한을 부여할 수 있습니다.
+또는 앱 내에 보고서를 포함하여 사용자와 보고서를 직접 공유할 수 있습니다. 보고서를 포함하려면 앱을 미리 설치해야 합니다. **앱을 자동으로 설치** 기능을 사용하여 앱을 미리 설치하도록 설정할 수 있습니다.
 
-1. 보고서의 타일을 대시보드에 추가합니다.
+   ![앱을 자동으로 설치](media/service-embed-report-spo/install-app-automatically.png)
 
-2. 보고서에 액세스해야 하는 사용자와 대시보드를 공유합니다. 자세한 내용은 [동료 및 다른 사용자와 대시보드 공유](service-share-dashboards.md)를 참조하세요.
-
-## <a name="web-part-settings"></a>웹 파트 설정
-
-다음은 SharePoint Online용 Power BI 웹 파트에 필요한 조정할 수 있는 설정에 대한 설명입니다.
-
-![](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
-
-| 속성 | 설명 |
-| --- | --- |
-| 페이지 이름 |웹 파트에 의해 표시되는 기본 페이지를 설정합니다. 드롭다운에서 값을 선택합니다. 페이지가 표시되지 않는 경우는 보고서가 한 페이지이거나 붙여 넣은 URL에 페이지 이름이 포함된 경우입니다. URL에서 보고서 섹션을 제거하여 특정 페이지를 선택합니다. |
-| 디스플레이 |보고서를 SharePoint Online 페이지 내에 맞추는 옵션입니다. |
-| 탐색 창 표시 |페이지 탐색 창을 표시하거나 숨깁니다. |
-| 필터 창 표시 |필터 창을 표시하거나 숨깁니다. |
+> [!NOTE]
+> **사용자는 SharePoint 페이지에서 보고서를 보려면 SharePoint 페이지 및 보고서에 대한 액세스 권한이 둘 다 필요합니다.**
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
@@ -113,13 +98,26 @@ Power BI 환경에서 다단계 인증을 사용하여 로그인해야 하는 �
 > [!NOTE]
 > 다단계 인증은 아직 Azure Active Directory 2.0으로 지원되지 않습니다. 사용자는 *오류*라는 메시지를 수신합니다. 사용자가 해당 보안 장치를 사용하여 SharePoint Online에 다시 로그인하면 보고서를 볼 수 있습니다.
 
+## <a name="web-part-settings"></a>웹 파트 설정
+
+다음은 SharePoint Online용 Power BI 웹 파트에 필요한 조정할 수 있는 설정에 대한 설명입니다.
+
+![SP 웹 파트 속성](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
+
+| 속성 | 설명 |
+| --- | --- |
+| 페이지 이름 |웹 파트에 의해 표시되는 기본 페이지를 설정합니다. 드롭다운에서 값을 선택합니다. 페이지가 표시되지 않는 경우는 보고서가 한 페이지이거나 붙여 넣은 URL에 페이지 이름이 포함된 경우입니다. URL에서 보고서 섹션을 제거하여 특정 페이지를 선택합니다. |
+| 디스플레이 |보고서를 SharePoint Online 페이지 내에 맞추는 옵션입니다. |
+| 탐색 창 표시 |페이지 탐색 창을 표시하거나 숨깁니다. |
+| 필터 창 표시 |필터 창을 표시하거나 숨깁니다. |
+
 ## <a name="reports-that-do-not-load"></a>로드되지 않는 보고서
 
 Power BI 웹 파트 내에서 보고서가 로드되지 않고 다음과 같은 메시지가 표시될 수 있습니다.
 
 *이 콘텐츠는 사용할 수 없습니다.*
 
-![](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
+![보고서를 찾을 수 없음 메시지](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
 
 이 메시지가 표시되는 데는 일반적으로 두 가지 이유가 있습니다.
 
@@ -128,11 +126,15 @@ Power BI 웹 파트 내에서 보고서가 로드되지 않고 다음과 같은 
 
 이 문제를 해결하려면 SharePoint Online 페이지의 소유자에게 문의하세요.
 
+## <a name="licensing"></a>라이선싱
+
+SharePoint에서 보고서를 보는 사용자에게 **Power BI Pro 라이선스**가 필요하거나, **[Power BI Premium 용량(EM 또는 P SKU)](service-admin-premium-purchase.md)** 에 있는 작업 영역에 있어야 합니다.
+
 ## <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 
-* 오류: "An error occurred, please try logging out and back in and then revisiting this page.(오류가 발생했습니다. 로그아웃했다가 다시 로그인한 후 이 페이지를 다시 방문하세요.) 관련 ID: 정의되지 않음, http 응답 상태: 400, 서버 오류 코드 10001, 메시지: 누락된 새로 고침 토큰"
+* 오류: “An error occurred, please try logging out and back in and then revisiting this page. Correlation ID: undefined, http response status: 400, server error code 10001, message: Missing refresh token”(오류가 발생했습니다. 로그아웃했다가 다시 로그인한 후 이 페이지를 다시 방문하세요. 상관 관계 ID: 정의되지 않음, HTTP 응답 상태: 400, 서버 오류 코드 10001, 메시지: 누락된 새로 고침 토큰)
   
-  이 오류가 발생한 경우 다음 중 한 가지를 시도하세요.
+  이 오류가 발생하면 아래 문제 해결 단계 중 하나를 시도하세요.
   
   1. SharePoint에서 로그아웃했다가 다시 로그인합니다. 다시 로그인하기 전에 모든 브라우저 창을 닫아야 합니다.
 

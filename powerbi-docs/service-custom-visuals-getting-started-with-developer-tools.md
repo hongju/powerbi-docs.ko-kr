@@ -2,33 +2,34 @@
 title: 개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
 description: 사용자 지정 시각적 개체를 사용하면 사용자 요구 사항과 앱 디자인에 맞출 수 있습니다. 개발자 도구로 Power BI용 사용자 지정 시각적 개체를 만드는 방법을 알아보세요.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 11/30/2017
-ms.author: maghan
-ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a8aca5e3410d6352d64044cdc1d8575b2449912c
+ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726688"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "50153705"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
+
 사용자 지정 시각적 개체를 사용하면 사용자 요구 사항과 앱 디자인에 맞출 수 있습니다. 개발자 도구로 Power BI용 사용자 지정 시각적 개체를 만드는 방법을 알아보세요.
 
 > [!NOTE]
 > 이 문서를 사용하면 개발자 도구를 시작하고 실행할 수 있습니다. 자세한 내용에 대해서는 [Power BI 시각적 개체 Git 리포지토리](https://github.com/Microsoft/PowerBI-visuals)에 있는 참조 정보를 검토하세요.
-> 
-> 
 
 ## <a name="requirements"></a>요구 사항
+
 * NodeJS 4.0 + 필요 (5.0 이상 권장) [NodeJS 다운로드](https://nodejs.org)
 
 ## <a name="install-nodejs-and-the-power-bi-tools"></a>NodeJS 및 Power BI 도구 설치
-사용자 지정 시각적 개체를 만들려면 NodeJS를 설치해야 합니다. NodeJS는 명령줄 도구를 실행하기 위해 필요합니다.
+
+사용자 지정 시각적 개체를 만들려면 NodeJS를 설치해야 합니다. NodeJS는 명령줄 도구를 실행하는 데 필요합니다.
 
 1. [NodeJS](https://nodejs.org)를 다운로드하고 설치합니다. 버전 4.0 이상이 필요하지만 5.0 이상을 권장합니다.
 2. 명령줄 도구를 설치합니다. 명령 프롬프트에서 다음 명령을 실행합니다.
@@ -83,12 +84,11 @@ ms.locfileid: "44726688"
 <a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>서버 인증서 설치
+
 시각적 개체에 대한 실시간 미리 보기를 사용하려면 신뢰할 수 있는 https 서버가 필요합니다. 시작하기 전에 웹 브라우저에서 로드할 수 있도록 시각적 개체 자산을 허용하는 SSL 인증서를 설치해야 합니다. 
 
 > [!NOTE]
 > 이 인증서는 개발자 워크스테이션에 한 번만 설치합니다.
-> 
-> 
 
 인증서를 ‘만들려면’ 다음 명령을 실행합니다.
 
@@ -96,9 +96,6 @@ ms.locfileid: "44726688"
 
 > [!NOTE]
 > 인증서의 위치 경로와 새로 생성된 암호를 알려주는 메시지가 표시됩니다.
-> 
-> 
-
 
 인증서를 ‘설치’하려면 다음 명령을 실행합니다.
 
@@ -106,8 +103,6 @@ ms.locfileid: "44726688"
 
 > [!NOTE]
 > 새로 생성된 암호를 사용하여 PFX 인증서를 설치하라고 알려주는 메시지가 표시됩니다.
-> 
-> 
 
 **Windows OS**
 
@@ -131,12 +126,10 @@ ms.locfileid: "44726688"
 
 > [!NOTE]
 > 인증서가 인식되지 않으면 컴퓨터를 다시 시작해야 합니다.
-> 
-> 
 
 **OSX**
 
-1. 왼쪽 위의 자물쇠가 잠겨 있으면 이 자물쇠를 선택하여 잠금을 해제합니다. localhost를 검색하고 해당 인증서를 두 번 클릭합니다.
+1. 왼쪽 위의 자물쇠가 잠겨 있으면 이 자물쇠를 선택하여 잠금을 해제합니다. *localhost*를 검색하고 해당 인증서를 두 번 클릭합니다.
 
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. **항상 신뢰**를 선택하고 창을 닫습니다.
@@ -149,10 +142,9 @@ ms.locfileid: "44726688"
 
 > [!NOTE]
 > 인증서가 인식되지 않으면 컴퓨터를 다시 시작해야 합니다.
-> 
-> 
 
-## <a name="enable-live-preview-of-developer-visual"></a>개발자 시각적 개체의 실시간 미리 보기 사용
+## <a name="enable-a-live-preview-of-the-developer-visual"></a>개발자 시각적 개체의 실시간 미리 보기 사용
+
 사용자 지정 시각적 개체에 대한 실시간 미리 보기를 사용하려면 다음 단계를 수행 합니다. 이렇게 하면 보고서를 편집할 때 Power BI 서비스에서 시각적 개체를 사용할 수 있습니다.
 
 1. [app.powerbi.com](https://app.powerbi.com)을 찾아 로그인합니다.
@@ -168,16 +160,16 @@ ms.locfileid: "44726688"
 
    > [!NOTE]
    > 이렇게 하려면 개발 컴퓨터의 시각적 개체 폴더에서 `pbiviz start`를 실행했어야 합니다. 시각적 개체 만들기에 대한 자세한 내용은 이 문서의 [새 시각적 개체 만들기](#create-a-new-visual)를 참조하세요.
-   > 
-   > 
+
 5. 보고서 캔버스에서 시각적 개체를 선택합니다. 다른 시각적 개체를 처리하는 것처럼 데이터를 바인딩할 수 있습니다.
 
 이제 시각적 개체를 개발하기 위해 시작할 수 있습니다.
 
 ## <a name="create-a-new-visual"></a>새 시각적 개체 만들기
+
 다음 명령을 실행하여 새로운 시각적 개체 프로젝트를 만들 수 있습니다.
 
-```
+```powershell
 pbiviz new MyVisualName
 ```
 
@@ -186,18 +178,20 @@ pbiviz new MyVisualName
 이 명령은 실행된 바로 그 위치에 새 폴더를 만듭니다. 시각적 개체를 위한 기본 시작 템플릿을 생성 합니다. 명령이 완료되면 디렉터리를 열고 선호하는 편집기를 사용하여 새 시각적 개체에 대한 작업을 시작할 수 있습니다.
 
 ## <a name="testing-your-visual-in-power-bi"></a>Power BI에서 시각적 개체 테스트
+
 보고서와 대시보드의 Power BI 서비스에서 시각적 개체를 테스트할 수 있습니다.
 
 <a name="running-your-visual"></a>
 
 ### <a name="running-your-visual"></a>시각적 개체 실행
+
 다음을 수행하면 시각적 개체를 실행할 수 있습니다.
 
 1. 프롬프트를 엽니다.
 2. 시각적 개체 폴더가 있는 디렉터리로 이동합니다. 이 폴더에는 `pbiviz.json` 파일이 있습니다.
 3. 다음 명령을 실행합니다.
 
-    ```
+    ```powershell
     pbiviz start
     ```
 
@@ -205,7 +199,7 @@ pbiviz new MyVisualName
 
 잘못된 위치에 있으면 다음과 비슷한 오류 메시지가 표시됩니다.
 
-```
+```powershell
     error  LOAD ERROR Error: pbiviz.json not found. You must be in the root of a visual project to run this command.
         at e (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:67:35)
         at Function.loadVisualPackage (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:62:16)
@@ -220,14 +214,13 @@ pbiviz new MyVisualName
 ```
 
 ### <a name="viewing-your-visual-in-power-bi"></a>Power BI에서 시각적 개체 보기
+
 보고서에서 시각적 개체를 보려면 해당 보고서로 이동하고 **시각화** 창에서 시각적 개체를 선택합니다.
 
 > [!NOTE]
 > [시각적 개체 실행](#running-your-visual) 섹션에서 설명한 대로 먼저 `pbiviz start` 명령을 실행해야 이 작업을 수행할 수 있습니다.
-> 
-> 
 
-![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
+![Power BI 개발자 시각적 개체 선택](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
 
 이제 시각적 개체에 대한 시작 템플릿이 표시됩니다.
 
@@ -242,6 +235,7 @@ pbiviz new MyVisualName
 | 피드백 보내기 |환경을 개선할 수 있는 귀중한 경험이 있으면 알려 주십시오! (GitHub 계정 필요) |
 
 ## <a name="package-your-visual-for-use-in-power-bi-desktop-and-distribution"></a>Power BI Desktop 및 배포에 사용할 시각적 개체 패키징
+
 시각적 개체를 [Power BI Desktop](https://powerbi.microsoft.com/desktop/)에 로드하거나 [Power BI 시각적 개체 갤러리](https://visuals.powerbi.com)의 커뮤니티와 공유하려면 먼저 `pbiviz` 파일을 생성해야 합니다.
 
 다음을 수행하면 시각적 개체를 패키징할 수 있습니다.
@@ -250,19 +244,21 @@ pbiviz new MyVisualName
 2. 시각적 개체 폴더가 있는 디렉터리로 이동합니다. 이 폴더에는 `pbiviz.json` 파일이 있습니다.
 3. 다음 명령을 실행합니다.
 
-    ```
+    ```powershell
     pbiviz package
     ```
 
 이 명령은 `dist/` 디렉터리에 시각적 개체 프로젝트의 `pbiviz` 파일을 만듭니다. 이미 `pbiviz` 파일이 있으면 이 파일을 덮어씁니다.
 
 ## <a name="updating-the-visuals-api-version"></a>시각적 개체 API 버전 업데이트
+
 `pbiviz new`를 사용하여 시각적 개체를 만드는 경우 해당 API type 정의 및 json 스키마의 복사본이 시각적 개체의 디렉터리로 복사됩니다. 필요한 경우 `pbiviz update` 명령을 사용하여 이러한 파일을 업데이트할 수 있습니다. 이렇게 하면 이전 API 버전에 대한 수정이 릴리스되거나 최신 API 버전으로 업데이트하려는 경우에 유용합니다.
 
 ### <a name="updating-your-existing-api-version"></a>기존 API 버전 업데이트
+
 기존 API에 대한 업데이트가 릴리스되는 경우 다음을 수행하여 최신 버전을 가져올 수 있습니다.
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -273,9 +269,10 @@ pbiviz update
 이렇게 하면 npm에서 업데이트된 type 정의와 스키마를 포함한 최신 도구를 다운로드합니다. `pbiviz update`를 사용하는 경우 *pbiviz.json* 파일의 `apiVersion` 속성을 최신 버전으로 덮어씁니다.
 
 ### <a name="upgrading-to-a-different-api-version"></a>다른 API 버전으로 업그레이드
+
 위에서 설명한 대로 동일한 단계를 사용하여 다른 API 버전으로 업데이트할 수 있습니다. 사용할 API 버전을 명시적으로 지정할 수 있습니다.
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -287,10 +284,9 @@ pbiviz update 1.2.0
 
 > [!WARNING]
 > 도구에서 사용하는 기본 API 버전은 항상 안정적인 API 버전입니다. 기본 API 버전 이후의 버전은 안정적이지 못하며 조금 후에 바로 바뀔 수도 있습니다. 예기치 않은 동작이 발생하거나 Power BI 서비스와 Power BI Desktop 간에 다르게 작동할 수 있습니다. 현재 안정적인 API 버전에 대해서는 [변경 로그](https://github.com/Microsoft/PowerBI-visuals/blob/master/ChangeLog.md)를 참조하세요. 시험판 버전에 대한 자세한 내용은 [로드맵](https://github.com/Microsoft/PowerBI-visuals/blob/master/Roadmap/README.md)을 참조하세요.
-> 
-> 
 
 ## <a name="inside-the-visual-project"></a>시각적 개체 프로젝트 내부 구조
+
 시각적 개체 프로젝트는 `pbiviz new` 명령을 실행할 때 만들어지는 폴더입니다. 
 
 ### <a name="file-structure"></a>파일 구조
@@ -308,6 +304,7 @@ pbiviz update 1.2.0
 | tsconfig.json |TypeScript 컴파일러 설정입니다. [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)에서 자세히 알아보세요. |
 
 ### <a name="pbivizjson"></a>pbiviz.json
+
 시각적 개체에 대한 기본 구성 파일입니다. 여기에는 시각적 개체를 빌드하는 데 필요한 파일 관련 정보와 함께 메타 데이터도 포함되어 있습니다.
 
 ```
@@ -336,6 +333,7 @@ pbiviz update 1.2.0
 ```
 
 ### <a name="visual-source-typescript"></a>시각적 개체 원본(TypeScript)
+
 시각적 개체는 더 많은 고급 기능과 ES6/ES7 기능에 대한 초기 액세스를 지원하는 JavaScript의 상위 집합인 TypeScript로 작성해야 합니다.
 
 모든 TypeScript 파일은 `src/` 디렉터리에 저장되고 `tsconfig.json`의 `files` 배열에 추가되어야 합니다. 이렇게 하면 TypeScript 컴파일러에서 특정 순서로 이 파일들을 로드할 수 있습니다.
@@ -347,6 +345,7 @@ pbiviz update 1.2.0
 [TypeScript](http://www.typescriptlang.org/)에서 자세히 알아보세요.
 
 ### <a name="visual-style-less"></a>시각적 개체 스타일(Less)
+
 시각적 개체 스타일 지정은 CSS 스타일 시트로 처리됩니다. 편의상 중첩, 변수, mixin, 조건, 루프 등 몇 가지 고급 기능을 지원하는 Less 사전 컴파일러를 사용합니다. 이러한 기능 중 하나를 사용하지 않을 경우 Less 파일에 일반 CSS만 작성할 수 있습니다.
 
 모든 Less 파일은 `style/` 디렉터리에 저장됩니다. `pbiviz.json` 파일의 `style` 필드에 지정된 파일이 로드됩니다. 추가되는 파일은 모두 `@import`를 사용하여 로드됩니다.
@@ -354,12 +353,15 @@ pbiviz update 1.2.0
 [Less](http://lesscss.org/)에서 자세히 알아보세요.
 
 ## <a name="debugging"></a>디버깅
+
 사용자 지정 시각적 개체의 디버깅에 대한 팁은 [디버깅 가이드](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md)를 을 참조하세요.
 
 ## <a name="submit-your-visual-to-appsource"></a>AppSource에 시각적 개체 제출
+
 다른 사람들이 사용할 시각적 개체를 나열하고 AppSource에 제출할 수 있습니다. 이 과정에 대한 자세한 내용은 [사용자 지정 시각적 개체를 AppSource에 게시](developer/office-store.md)를 참조하세요.
 
 ## <a name="troubleshooting"></a>문제 해결
+
 **Pbiviz 명령어가 없습니다(또는 유사한 오류)**
 
 `pbiviz`를 터미널/명령줄에서 실행하는 경우에는 도움말 화면이 표시됩니다. 그렇지 않은 경우 개발자 도구가 올바르게 설치되지 않았습니다. 4.0 버전 이상의 NodeJS를 설치했는지 확인합니다.
@@ -376,8 +378,6 @@ pbiviz update 1.2.0
 
 > [!NOTE]
 > 디버그 시각적 개체는 현재 Power BI 서비스에서만 제공되며, Power BI Desktop이나 모바일 앱에는 제공되지 않습니다. 패키징된 시각적 개체는 어디서나 변함 없이 작동됩니다.
-> 
-> 
 
 자세한 내용은 [개발자 시각적 개체의 실시간 미리 보기 사용](#enable-live-preview-of-developer-visual)을 참조하세요.
 
@@ -388,11 +388,11 @@ pbiviz update 1.2.0
 자세한 내용은 [시각적 개체 실행](#running-your-visual) 또는 [서버 인증서 설치](#ssl-setup)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
+
 [Power BI의 시각화](visuals/power-bi-report-visualizations.md)  
 [Power BI의 사용자 지정 시각화](power-bi-custom-visuals.md)  
 [사용자 지정 시각적 개체를 Office 스토어에 게시](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  
 [Less CSS](http://lesscss.org/)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/) 

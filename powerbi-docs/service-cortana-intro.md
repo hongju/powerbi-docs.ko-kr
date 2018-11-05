@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2018
+ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 95fa59d91a73101d7d04f3921a81236bfae7d0bb
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: ccc99c2f9810bcda80e1f02ce67e49390fd0308f
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187309"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003251"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Power BI에 대한 Cortana를 사용하여 Power BI 데이터를 신속하게 찾기 및 보기
 Windows 10 장치에서 Cortana를 사용하여 중요한 비즈니스 관련 질문에 대한 답변을 즉시 확인하세요. Power BI와 통합하면 Cortana는 Power BI 대시보드 및 보고서에서 직접 주요 정보를 검색할 수 있습니다. Windows 10 2015년 11월 이상 버전, Cortana, Power BI 및 하나 이상의 데이터 집합에 대한 액세스만 있으면 됩니다.
@@ -29,7 +29,7 @@ Windows 10 장치에서 Cortana를 사용하여 중요한 비즈니스 관련 �
 > 
 > 
 
-기본 기술은 [Microsoft의 Azure Search 서비스]()를 사용합니다. 이 검색 서비스는 스마트 순위, 오류 수정 및 자동 완성과 같은 추가 기능을 제공합니다.
+기본 기술은 [Microsoft Azure Search 서비스](https://docs.microsoft.com/azure/search/)를 사용합니다. 이 검색 서비스는 스마트 순위, 오류 수정 및 자동 완성과 같은 추가 기능을 제공합니다.
 
 두 Cortana 환경은 함께 존재합니다.
 
@@ -54,22 +54,22 @@ Cortana는 일치 항목을 찾으면, Cortana 화면에서 바로 대시보드 
 ### <a name="cortana-and-dashboards-the-new-experience"></a>Cortana 및 대시보드(*새로운 환경*)
 Cortana는 소유하고 있는 대시보드 및 사용자와 공유된 대시보드에서 답변을 찾을 수 있습니다. 제목, 키워드, 소유자 이름, 작업 영역 이름, 앱 이름 등을 사용하여 Cortana에 질문할 수 있습니다.
 
-Cortana가 답변을 찾도록 질문에는 최소 2개 단어가 있어야 합니다. 한 단어 이름(Marketing)이 있는 대시보드를 검색하는 경우, "show Marketing(마케팅 보기)" 및 "michele hart sample(michele hart 샘플)"의 경우와 같이 "show(보기)" 또는 "Power BI" 또는 "<owner name>"을 질문에 추가합니다. 
+Cortana가 답변을 찾도록 질문에는 최소 2개 단어가 있어야 합니다. 한 단어 이름(Marketing)이 있는 대시보드를 검색하는 경우, “show Marketing” 및 “michele hart sample”의 경우와 같이 “show” 또는 “Power BI” 또는 소유자 이름을 질문에 추가합니다. 
 
-대시보드에 한 단어 이상의 제목이 있을 때, 검색 결과 최소 두 단어와 일치하거나 대시보드가 소유자 이름과 함께 단어 중 하나와 일치하는 경우 Cortana는 해당 대시보드를 반환하기만 합니다. “Customer Profitability Sample(고객 수익성 샘플)”이라는 대시보드의 경우 다음과 같습니다. 
+대시보드에 두 단어 이상의 제목이 있을 때, 검색 결과 최소 두 단어와 일치하거나 소유자 이름과 함께 단어 중 하나와 일치하는 경우 Cortana는 해당 대시보드를 반환하기만 합니다. “Customer Profitability Sample(고객 수익성 샘플)”이라는 대시보드의 경우 다음과 같습니다. 
 
 * “show me customer(고객 표시)”는 Power BI 대시보드 결과를 반환하지 *않습니다*.   
 * “show me customer profitability(고객 수익성 표시)”, “customer p(고객 p)”, “customer s(고객 s)”, “profitability sample(수익성 샘플)”, “michele hart sample(michele hart 샘플)”, “show customer profitability sample(고객 수익성 샘플 표시)” 및 “show me customer p(고객 p 표시)”와 같은 발언(utterances)은 Power BI 결과를 반환하게 *됩니다*.
-* 단어 "powerbi"를 추가하면 2개의 필수 단어 중 하나로 계산되어 "power bi sample(power bi 샘플)"은 Power BI 결과를 반환하게 *됩니다*. 
+* 단어 “powerbi”를 추가하면 2개의 필수 단어 중 하나로 계산되어 “powerbi sample”은 ‘Power BI 결과를 반환’하게 됩니다. 
   
     ![최소한 2개 단어를 사용하여 Cortana 검색](media/service-cortana-intro/power-bi-cortana-2-words.png)
 
 ### <a name="cortana-and-reports"></a>Cortana 및 보고서
- Cortana는 [Cortana에서 표시하도록 특별히 디자인된 페이지](service-cortana-answer-cards.md)가 있는 보고서에서 답변을 찾을 수 있습니다. 이러한 특별 보고서 페이지 중 하나에서 제목 또는 키워드를 사용하여 간단히 질문을 합니다.  
+ Cortana는 [Cortana에서 표시하도록 특별히 디자인된 페이지](service-cortana-answer-cards.md)가 있는 보고서에서 답변을 찾을 수 있습니다. 이러한 특별 보고서 페이지 중 하나에서 제목 또는 키워드를 사용하여 간단히 질문합니다.  
 
 보고서에 대한 기본 기술은 [Microsoft의 Power BI 질문 및 답변](consumer/end-user-q-and-a.md)을 사용합니다.
 
-Cortana에서 질문하는 경우 Power BI는 Cortana용으로 특별히 디자인된 보고서 페이지에서 답변합니다. Power BI에 이미 생성된 Cortana *대답 카드*에서 Cortana가 직접 잠재적인 답변을 즉시 결정합니다.  답변을 자세히 살펴보려면 Power BI에서 결과를 열기만 하면 됩니다.
+Cortana에서 질문하는 경우 Power BI는 Cortana용으로 특별히 디자인된 보고서 페이지에서 답변합니다. Power BI에 이미 생성된 Cortana *대답 카드*에서 Cortana가 직접 잠재적인 답변을 즉시 결정합니다.  답변을 자세히 살펴보려면 Power BI에서 결과를 엽니다.
 
 > [!NOTE]
 > Cortana가 Power BI 보고서에서 답변을 찾도록 하려면 [Power BI 서비스를 사용하여 이 기능을 활성화하고 Power BI와 통신하도록 Windows를 설정](service-cortana-enable.md)해야 합니다.  

@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b83ef2b6f2cd07e9f6c9af849e0f64d0490fa1af
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546961"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003228"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Power BI로 Zuora에 연결
 Power BI용 Zuora를 사용하면 중요한 수익, 청구 및 구독 데이터를 시각화할 수 있습니다. 기본 대시보드 및 보고서를 사용하여 사용량 추세를 분석하거나, 대금 청구 및 지불을 추적하거나, 되풀이되는 수익을 모니터링하거나, 고유한 대시보드 및 보고 요구 사항을 충족하도록 사용자 지정합니다.
@@ -32,7 +32,7 @@ Power BI용 [Zuora](https://app.powerbi.com/getdata/services/Zuora)에 연결합
 3. **Zuora** \>  **가져오기**를 선택합니다.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Zuora URL을 지정합니다. 이는 일반적으로 " <https://www.zuora.com> "이며, 아래 [이러한 매개 변수 찾기](#FindingParams)에서 세부 정보를 참조하세요.
+4. Zuora URL을 지정합니다. 이 URL은 일반적으로 “<https://www.zuora.com>”이며, 아래 [이러한 매개 변수 찾기](#FindingParams)에서 세부 정보를 참조하세요.
 
    ![](media/service-connect-to-zuora/params.png)
 5. **인증 방법**에 대해 **기본** 을 선택하고, 사용자 이름 및 암호(대/소문자 구분)를 제공한 다음 **로그인**을 선택합니다.
@@ -95,11 +95,10 @@ Zuora API에 대한 액세스 권한이 필요합니다.
 일반적으로 Zuora 데이터에 액세스하기 위해 로그인하는 URL을 제공합니다. 유효한 옵션은 다음과 같습니다.  
 
 * https://www.zuora.com  
-* https://www.apisandbox.zuora.com  
 * 서비스 인스턴스에 해당하는 URL  
 
 ## <a name="troubleshooting"></a>문제 해결
-Zuora 콘텐츠 팩은 Zuora 계정의 다양한 기능을 가져옵니다. 특정 기능을 사용하지 않으면 해당 타일/보고서가 빈 상태로 표시될 수 있습니다. 로드하는 데 문제가 발생하는 경우 Power BI 지원 담당자에게 문의하세요.
+Zuora 콘텐츠 팩은 Zuora 계정의 다양한 기능을 가져옵니다. 특정 기능을 사용하지 않으면 해당 타일/보고서가 빈 상태로 표시될 수 있습니다. 로드하는 데 문제가 발생하는 경우 Power BI 지원에 문의하세요.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI에서 시작](service-get-started.md)

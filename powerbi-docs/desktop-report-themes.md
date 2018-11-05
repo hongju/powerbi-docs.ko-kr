@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 9945237088073a4f9111e06fd6729a1c4db10081
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512182"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003320"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
 **보고서 테마**를 사용하여 전체 보고서에 회사 색, 계절 색 지정 등의 색 테마를 적용하거나 적용하려는 모든 기타 색 테마를 적용할 수 있습니다. **보고서 테마**를 적용하는 경우 보고서의 모든 시각적 개체에서는 선택한 테마 색을 사용합니다(몇 가지 예외 적용, 이 문서의 뒷부분에서 설명).
@@ -37,6 +37,17 @@ ms.locfileid: "44512182"
 
 ## <a name="how-report-themes-work"></a>보고서 테마 작동 방법
 보고서 테마를 Power BI Desktop 보고서에 적용하려면 사용 가능한 기본 제공 보고서 테마 중에서 선택하거나 사용자 지정 테마를 가져올 수 있습니다.
+
+| 기본 제공 보고서 테마 | 기본 색 시퀀스    |
+|------ |---------- |
+| 기본값   | ![#01B8AA](https://placehold.it/20/01B8AA/000000?text=+) ![#374649](https://placehold.it/20/374649/000000?text=+) ![#FD625E](https://placehold.it/20/FD625E/000000?text=+) ![#F2C80F](https://placehold.it/20/F2C80F/000000?text=+) ![#5F6B6D](https://placehold.it/20/5F6B6D/000000?text=+) ![#8AD4EB](https://placehold.it/20/8AD4EB/000000?text=+) ![#FE9666](https://placehold.it/20/FE9666/000000?text=+) ![#A66999](https://placehold.it/20/A66999/000000?text=+)|
+| 도시공원     | ![#73B761](https://placehold.it/20/73B761/000000?text=+) ![#4A588A](https://placehold.it/20/4A588A/000000?text=+) ![#ECC846](https://placehold.it/20/ECC846/000000?text=+) ![#CD4C46](https://placehold.it/20/CD4C46/000000?text=+) ![#71AFE2](https://placehold.it/20/71AFE2/000000?text=+) ![#8D6FD1](https://placehold.it/20/8D6FD1/000000?text=+) ![#EE9E64](https://placehold.it/20/EE9E64/000000?text=+) ![#95DABB](https://placehold.it/20/95DABB/000000?text=+)|
+| 교실     | ![#4A8DDC](https://placehold.it/20/4A8DDC/000000?text=+) ![#4C5D8A](https://placehold.it/20/4C5D8A/000000?text=+) ![#F3C911](https://placehold.it/20/F3C911/000000?text=+) ![#DC5B57](https://placehold.it/20/DC5B57/000000?text=+) ![#33AE81](https://placehold.it/20/33AE81/000000?text=+) ![#95C8F0](https://placehold.it/20/95C8F0/000000?text=+) ![#DD915F](https://placehold.it/20/DD915F/000000?text=+) ![#9A64A0](https://placehold.it/20/9A64A0/000000?text=+)|
+| 색맹 지원   | ![#074650](https://placehold.it/20/074650/000000?text=+) ![#009292](https://placehold.it/20/009292/000000?text=+) ![#FE6DB6](https://placehold.it/20/FE6DB6/000000?text=+) ![#FEB5DA](https://placehold.it/20/FEB5DA/000000?text=+) ![#480091](https://placehold.it/20/480091/000000?text=+) ![#B66DFF](https://placehold.it/20/B66DFF/000000?text=+) ![#B5DAFE](https://placehold.it/20/B5DAFE/000000?text=+) ![#6DB6FF](https://placehold.it/20/6DB6FF/000000?text=+)|
+| 전기  | ![#118DFF](https://placehold.it/20/118DFF/000000?text=+) ![#750985](https://placehold.it/20/750985/000000?text=+) ![#C83D95](https://placehold.it/20/C83D95/000000?text=+) ![#FF985E](https://placehold.it/20/FF985E/000000?text=+) ![#1DD5EE](https://placehold.it/20/1DD5EE/000000?text=+) ![#42F7C0](https://placehold.it/20/42F7C0/000000?text=+) ![#3049AD](https://placehold.it/20/3049AD/000000?text=+) ![#F64F5C](https://placehold.it/20/F64F5C/000000?text=+)|
+| 고대비     | ![#107C10](https://placehold.it/20/107C10/000000?text=+) ![#002050](https://placehold.it/20/002050/000000?text=+) ![#A80000](https://placehold.it/20/A80000/000000?text=+) ![#5C2D91](https://placehold.it/20/5C2D91/000000?text=+) ![#004B50](https://placehold.it/20/004B50/000000?text=+) ![#0078D7](https://placehold.it/20/0078D7/000000?text=+) ![#D83B01](https://placehold.it/20/D83B01/000000?text=+) ![#B4009E](https://placehold.it/20/B4009E/000000?text=+)|
+| 일몰    | ![#B6B0FF](https://placehold.it/20/B6B0FF/000000?text=+) ![#3049AD](https://placehold.it/20/3049AD/000000?text=+) ![#FF994E](https://placehold.it/20/FF994E/000000?text=+) ![#C83D95](https://placehold.it/20/C83D95/000000?text=+) ![#FFBBED](https://placehold.it/20/FFBBED/000000?text=+) ![#42F9F9](https://placehold.it/20/42F9F9/000000?text=+) ![#00B2D9](https://placehold.it/20/00B2D9/000000?text=+) ![#FFD86C](https://placehold.it/20/FFD86C/000000?text=+)|
+| 석양  | ![#F17925](https://placehold.it/20/F17925/000000?text=+) ![#004753](https://placehold.it/20/004753/000000?text=+) ![#CCAA14](https://placehold.it/20/CCAA14/000000?text=+) ![#4B4C4E](https://placehold.it/20/4B4C4E/000000?text=+) ![#D82C20](https://placehold.it/20/D82C20/000000?text=+) ![#A3D0D4](https://placehold.it/20/A3D0D4/000000?text=+) ![#536F18](https://placehold.it/20/536F18/000000?text=+) ![#46ABB0](https://placehold.it/20/46ABB0/000000?text=+)|
 
 사용 가능한 기본 제공 보고서 테마에서 선택하려면 **홈** 리본에서 **테마 전환** 단추를 선택한 다음, 드롭다운 메뉴에서 포함된 테마 중 하나를 선택합니다.
 

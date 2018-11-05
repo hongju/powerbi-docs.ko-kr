@@ -1,6 +1,6 @@
 ---
-title: Power BI의 분산형 차트
-description: Power BI의 분산형 차트
+title: Power BI의 분산형, 거품형 및 점 그림 차트
+description: Power BI의 분산형 차트, 점 그림 차트 및 거품형 차트
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,22 +8,26 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448848"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003182"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI의 분산형 차트 및 거품형 차트
+# <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI의 분산형 차트, 거품형 차트 및 점 그림 차트
 분산형 차트에는 항상 가로 축을 따라 하나의 숫자 데이터 집합을 표시하고 세로 축을 따라 다른 숫자 값 집합을 표시하는 두 개의 값 축이 있습니다. 차트에서 x 및 y 숫자 값의 교차점에 점이 표시되고 이러한 값이 단일 데이터 요소로 결합됩니다. 데이터에 따라 가로 축에 균등 또는 불균등하게 이러한 데이터 요소를 배포할 수 있습니다.
 
-거품형 차트는 데이터 요소를 거품으로 바꾸며 거품 *크기*로 데이터의 추가 차원을 나타냅니다.
+거품형 차트는 데이터 요소를 거품으로 바꾸고 거품 ‘크기’로 데이터의 추가 차원을 나타냅니다.
 
 ![샘플 거품형 차트](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제외하면 점 그림 차트는 거품형 차트 및 분산형 차트와 비슷합니다. 
+
+![샘플 거품형 차트](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
 데이터 요소의 수를 10,000까지 설정할 수 있습니다.  
 
@@ -41,6 +45,9 @@ ms.locfileid: "47448848"
 * 데이터에 각각 값 집합을 포함하는 세 가지 데이터 계열이 있는 경우.
 * 재무 데이터를 제공하려는 경우.  다양한 거품 크기는 시각적으로 특정 값을 강조 표시하는 데 유용합니다.
 * 사분면에 사용하려는 경우.
+
+### <a name="dot-plot-charts-are-a-great-choice-in-place-of-a-scatter-or-bubble"></a>점 그림 차트는 분산형 또는 거품형을 대신하는 좋은 선택입니다.
+* X축을 따라 범주 데이터를 포함하려는 경우
 
 ## <a name="create-a-scatter-chart"></a>분산형 차트 만들기
 이 비디오를 통해 Will이 분산형 차트를 만드는 방법을 본 후 아래 단계에 따라 직접 분산형 차트를 만드세요.
@@ -63,11 +70,11 @@ ms.locfileid: "47448848"
 
 3. 분산형 차트로 변환합니다. 시각화 창에서 분산형 차트 아이콘을 선택합니다.
 
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
+   ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png).
 
 4. **세부 정보** 에서 **범례** 로 **구역**를 끌어다 놓습니다. 그러면 Y축에 **총 매출 분산 %** 을 그리고 X축에 **평방 미터당 매출**을 그리는 분산형 차트를 표시합니다. 데이터 요소 색은 구역을 나타냅니다.
 
-    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
 이제 3차원을 추가해보겠습니다.
 
@@ -75,18 +82,17 @@ ms.locfileid: "47448848"
 
 1. **필드** 창에서 **판매량** > **올해 판매액** > **값**을 **크기** 영역으로 끌어다 놓습니다. 데이터 요소는 판매 값과 비례하는 볼륨으로 확장합니다.
    
-   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
+   ![요소가 거품이 됨](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
 2. 거품을 마우스로 가리킵니다. 거품 크기는 **This Year Sales**의 값을 반영합니다.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![도구 설명 표시](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
 3. 거품형 차트에 표시할 데이터 요소의 수를 설정하려면 **시각화** 창의 **서식** 섹션에서 **일반** 카드를 확장하고 **데이터 볼륨**을 조정합니다. 최대 데이터 볼륨 수를 10,000개로 설정할 수 있습니다. 숫자가 클수록 성능을 위해 먼저 테스트하는 것이 좋습니다. 
 
     ![데이터 볼륨](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-   > [!NOTE]
-   > 데이터 요소가 많을수록 로드 시간이 길어질 수 있으므로 제한 값이 높은 보고서를 게시하기로 선택하는 경우 웹 및 모바일에서 보고서를 테스트하고 성능이 사용자의 예상과 일치하도록 해야 합니다. 데이터 요소 수보다 많은 경우 성능 향상을 위해 다양한 형식 요소에서 결과를 테스트해야 합니다.
+   데이터 요소가 많을수록 로드 시간이 길어질 수 있으므로 제한 값이 높은 보고서를 게시하기로 선택하는 경우 웹 및 모바일에서 보고서를 테스트하고 성능이 사용자의 예상과 일치하도록 해야 합니다. 
 
 4. [시각화 색, 레이블, 제목, 배경 등의 서식을 지정](service-getting-started-with-color-formatting-and-axis-properties.md)할 수 있습니다. [액세스 가능성을 향상시키려면](../desktop-accessibility.md) 각 줄에 표식 모양을 추가하는 것이 좋습니다. 각 선에 다양한 표식 모양을 사용하면 보고서 사용자가 선(또는 영역)을 보다 쉽게 구분할 수 있습니다. 표식 모양을 선택하려면 **셰이프** 카드를 확장한 다음, 표식 모양을 선택합니다.
 
@@ -95,6 +101,13 @@ ms.locfileid: "47448848"
    표식 모양을 다이아몬드, 삼각형 또는 사각형으로 변경할 수 있습니다.
 
    ![사각형 표식](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+
+## <a name="create-a-dot-plot"></a>점 그림 만들기
+점 그림을 만들려면 숫자 X축 필드를 범주 필드로 바꿉니다.
+
+**X축** 창에서 **제곱 피트당 판매액**을 제거하고 **구역 > DM**으로 바꿉니다.
+   
+![새 점 그림](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결

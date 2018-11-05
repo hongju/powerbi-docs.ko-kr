@@ -1,6 +1,6 @@
 ---
 title: 사용자와 공유한 ArcGIS 지도와 상호 작용
-description: '읽기용 보기에서 ArcGis 지도 사용 '
+description: Power BI 보고서 소비자로 읽기용 모드에서 ArcGis 지도 사용
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2c7a9d5f6bdbbfff905f3faa8cec255c2b85a0d5
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396805"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003274"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI에서 ArcGIS 지도와 상호 작용
 이 토픽은 Power BI 서비스, 데스크톱 또는 모바일에서 ArcGIS 지도를 *사용하는* 사람의 관점에서 작성됩니다. 작성자가 ArcGIS 지도를 사용자와 공유하면 여러 가지 방법으로 해당 지도와 상호 작용할 수 있습니다.  ArcGIS 지도를 작성하는 방법에 대한 자세한 내용은 [Esri에서 제공하는 ArcGIS 지도](../power-bi-visualization-arcgis.md)를 참조하세요.
@@ -57,8 +57,12 @@ Power BI용 ArcGIS Maps에서는 세 가지 선택 모드를 사용할 수 있�
 ## <a name="interacting-with-an-arcgis-map"></a>ArcGIS 지도와 상호 작용
 사용 가능한 기능은 사용자가 *작성자*(지도를 만든 사람)인지 *소비자*(사용자와 ArcGIS 지도를 공유한 사람)인지에 따라 달라집니다. 소비자로서 ArcGIS 지도와 상호 작용하는 경우(즉, [읽기용 보기](../consumer/end-user-reading-view.md)), 할 수 있는 작업은 다음과 같습니다.
 
-* 다른 시각화 유형의 경우 [대시보드에 고정](../service-dashboard-pin-tile-from-report.md), [보기](../consumer/end-user-show-data.md) 및/또는 [기본 데이터 내보내기](power-bi-visualization-export-data.md)를 할 수 있으며, [포커스 모드](../consumer/end-user-focus.md) 및 [전체 화면](../service-fullscreen-mode.md)에서 지도를 볼 수 있습니다.    
-* 필터를 사용하여 맵을 탐색하기 위해 **필터** 창을 확장합니다. 보고서를 닫으면 적용된 필터는 저장되지 않습니다.    
+* ‘보기’ 권한을 가진 프리미엄 소비자는 [시각화를 만드는 데 사용되는 데이터를 보고](../consumer/end-user-show-data.md), [구독](../consumer/end-user-subscribe.md)하고, [포커스 모드 및 전체 화면 모드](../consumer/end-user-focus.md)에서 지도를 보고, [관련 콘텐츠를 보고](../consumer/end-user-related.md), ‘보고서 작성자’가 설정한 [필터를 조작](../consumer/end-user-report-filter.md)하고, [보고서를 공유](../service-share-reports.md)할 수 있습니다.
+
+* 다른 시각화 형식과 마찬가지로 Power BI **Pro** 소비자는 프리미엄 소비자가 수행할 수 있는 모든 작업을 수행할 뿐 아니라, [기본 데이터를 내보내고](power-bi-visualization-export-data.md), [사용 메트릭](../service-usage-metrics.md)을 가져오고, 복사본을 저장하고, [웹에 게시](../service-publish-to-web.md)할 수 있습니다.
+
+    
+* 필터를 사용하여 맵을 탐색하기 위해 **필터** 창을 확장합니다.   
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * 지도에 참조 계층이 있는 경우 도구 설명에 세부 정보를 표시할 위치를 선택합니다. 여기에서 Adams 카운티를 선택하고 작성자가 지도에 추가한 평균 가구 소득 참조 계층의 데이터를 참조합니다.
   
@@ -116,6 +120,9 @@ Power BI용 ArcGIS Maps는 다음과 같은 서비스 및 응용 프로그램에
 **ArcGIS Maps for Power BI를 함께 작동하는 방법**
 ArcGIS Maps for Power BI는 Esri(www.esri.com)에서 제공합니다. ArcGIS Maps for Power BI의 사용은 Esri의 [사용 약관](https://go.microsoft.com/fwlink/?LinkID=8263222) 및 [개인 정보 보호 정책](https://go.microsoft.com/fwlink/?LinkID=826323)에 따릅니다. Power BI용 ArcGIS Maps 시각적 개체를 사용할 Power BI 사용자는 승인 대화 상자를 수락해야 합니다(자세한 내용은 사용자 동의 참조).  Esri의 ArcGIS Maps for Power BI를 사용하는 작업은 승인 대화 상자에 연결되어 있는 Esri의 사용 약관 및 개인 정보 보호 정책에 따릅니다. 각 사용자는 처음으로 ArcGIS Maps for Power BI를 사용하기 전에 동의해야 합니다. 사용자가 동의하면 시각적 개체에 바인딩된 데이터는 지오코딩을 위해 Esri의 서비스로 전송됩니다. 즉, 위치 정보를 맵에 표시될 수 있는 위도 및 경도 정보로 변환하는 것입니다. 데이터 시각화에 바인딩된 모든 데이터를 Esri의 서비스에 보낼 수 있다고 가정해야 합니다. Esri에서는 기본 맵, 공간 분석, 지오코딩 등와 같은 서비스를 제공합니다. ArcGIS Maps for Power BI 시각적 개체는 Esri에서 제공되고 유지 관리되는 인증서에 의해 보호되는 SSL 연결을 사용하여 이러한 서비스와 상호 작용합니다. ArcGIS Maps for Power BI에 대한 추가 정보는 Esri의 [ArcGIS Maps for Power BI 제품 페이지](https://www.esri.com/powerbi)에서 가져올 수 있습니다.
 
+**Power BI Plus**    
+![더하기 아이콘을 선택하여 등록 또는 로그인](media/power-bi-visualizations-arcgis/power-bi-plus.png)
+
 사용자가 ArcGIS Maps for Power BI를 통해 Esri에서 제공된 추가 구독에 등록하는 경우 Esri와 직접 관계로 전환됩니다. Power BI는 Esri에 사용자에 대한 개인 정보를 전송하지 않습니다. 사용자가 고유한 AAD ID를 사용하여 Esri 제공 AAD 응용 프로그램에 로그인하고 트러스트합니다. 이렇게 하면 사용자는 Esri와 개인 정보를 직접 공유하게 됩니다. 사용자가 ArcGIS Maps for Power BI 시각적 개체에 추가 콘텐츠를 추가하면 다른 Power BI 사용자도 해당 콘텐츠를 보거나 편집하기 위해 Esri의 추가 구독이 필요합니다. 
 
 Esri의 ArcGIS Maps for Power BI가 작동하는 방법에 대한 기술적인 세부 질문은 해당 지원 사이트를 통해 Esri에 문의하세요.
@@ -123,12 +130,12 @@ Esri의 ArcGIS Maps for Power BI가 작동하는 방법에 대한 기술적인 �
 **ArcGIS 지도가 표시되지 않는 경우**    
 Power BI용 ArcGIS Maps를 사용할 수 없는 서비스 또는 응용 프로그램에서 시각화는 빈 Power BI 로고와 함께 빈 시각적 개체로서 표시합니다.
 
-**지도에 내 주소가 모두 표시되지 않는 경우**    
-주소를 지오코딩한 경우 첫 1500개 주소만 지오코딩됩니다. 지오코딩 장소 이름 또는 국가는 1500개 주소 제한에 적용되지 않습니다.
+**지도에 내 정보가 일부 표시되지 않는 경우**    
+지도에 위도/경도를 지오코딩할 경우 최대 30,000개의 데이터 요소가 표시됩니다. 우편 번호 또는 거리 주소와 같은 데이터 요소를 지오코딩하면 처음 15,000개의 데이터 요소만 지오코딩됩니다. 지오코딩 장소 이름 또는 국가는 1500개 주소 제한에 적용되지 않습니다.
 
 **Power BI용 ArcGIS Maps를 사용하는 경우 요금이 부과됩니까?**
 
-Power BI용 ArcGIS Maps는 추가 비용 없이 모든 Power BI 사용자가 사용할 수 있습니다. **Esri**에서 제공하는 구성 요소이며, 이 문서의 앞 부분에서 설명했듯이 **Esri**의 사용 약관 및 개인 정보 보호 정책에 따라 사용할 수 있습니다.
+Power BI용 ArcGIS Maps는 추가 비용 없이 모든 Power BI 사용자가 사용할 수 있습니다. **Esri**에서 제공하는 구성 요소이며, 이 문서의 앞 부분에서 설명했듯이 **Esri**의 사용 약관 및 개인 정보 보호 정책에 따라 사용할 수 있습니다. ArcGIS **Plus**를 구독하면 비용이 청구됩니다.
 
 **내 캐시가 가득 찼다는 오류 메시지가 나타나는 경우**
 
@@ -146,4 +153,3 @@ Power BI용 ArcGIS Maps는 추가 비용 없이 모든 Power BI 사용자가 사
 개선을 위해 제안할 사항이 있으면 [Power BI 아이디어 목록](https://ideas.powerbi.com)에 제출해 주십시오.
 
 [Power BI용 ArcGIS Maps 제품 페이지](https://www.esri.com/powerbi)
-
