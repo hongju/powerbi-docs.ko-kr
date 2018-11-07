@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3b19740616e7b9a390a883fde2fd96320de7b94a
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: a1492a98825ad26b2dde359cf9cec96cc4623e04
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973589"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223171"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>개발자는 Power BI API로 무엇을 할 수 있나요?
 
@@ -29,7 +29,7 @@ Power BI는 대화형 대시보드를 표시하며 다양한 데이터 원본에
 | Power BI 사용자 및 비Power BI 사용자를 위한 대시보드, 보고서 및 타일 포함(앱 소유 데이터) |[Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embedding-content.md) |
 | 기존 비즈니스 워크플로를 확장하여 키 데이터를 Power BI 대시보드에 푸시 |[대시보드에 데이터 푸시](walkthrough-push-data.md) |
 | Power BI에 인증. |[Power BI에 인증](get-azuread-access-token.md) |
-| 사용자 지정 시각적 개체 만들기 |[개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기](../service-custom-visuals-getting-started-with-developer-tools.md) |
+| 사용자 지정 시각적 개체 만들기 |[Power BI 사용자 지정 시각적 개체 개발](custom-visual-develop-tutorial.md) |
 
 > [!NOTE]
 > Power BI API는 계속 그룹으로 앱 작업 영역을 참조합니다. 그룹에 대한 참조는 앱 작업 영역과 작업 중임을 의미합니다.
@@ -72,7 +72,7 @@ Power BI API를 사용하여 데이터를 데이터 집합에 푸시할 수 있�
 ## <a name="next-steps"></a>다음 단계
 
 [데이터 집합에 데이터 푸시](walkthrough-push-data.md)  
-[사용자 지정 시각적 개체 개발자 도구 시작하기](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Power BI 사용자 지정 시각적 개체 개발](custom-visual-develop-tutorial.md)  
 [Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

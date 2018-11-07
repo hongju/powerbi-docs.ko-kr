@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fee4acf21e38ddeaf78ff785d76b41c774c7022d
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 97d9fc6bf7a27b9d681d10ae20ab0780622e5ee8
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909551"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223401"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI의 DirectQuery에서 지원하는 데이터 원본
 **Power BI Desktop** 및 **Power BI 서비스**에는 데이터에 연결하고 액세스할 수 있는 많은 데이터 원본이 포함되어 있습니다. 이 문서에서는 **DirectQuery**라는 연결 방법을 지원하는 Power BI의 데이터 원본에 대해 설명합니다. DirectQuery에 대한 자세한 내용은 [**Power BI의 DirectQuery**](desktop-directquery-about.md)를 참조하세요.
