@@ -106,6 +106,8 @@ items:
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: 시각화 제목, 배경 및 범례 사용자 지정
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
+    - name: 사용자 지정 시각적 개체 문제 해결
+      href: power-bi-custom-visuals-troubleshoot.md
     - name: 데이터에 연결
       items:
       - name: Power BI Desktop의 데이터 소스
@@ -426,8 +428,6 @@ items:
       items:
       - name: Power BI 내에서 콘텐츠 이름 바꾸기
         href: service-rename.md
-      - name: 전체 화면 모드(TV 모드)에서 대시보드 및 보고서 표시
-        href: service-fullscreen-mode.md
       - name: Power BI의 신속한 정보 활용
         href: service-insights.md
       - name: 미국 정부 기관 등록
@@ -764,6 +764,24 @@ items:
         href: refresh-troubleshooting-tile-errors.md
       - name: 새로 고침에 실패한 경우 Xero 콘텐츠 팩 자격 증명을 새로 고치는 방법
         href: service-refresh-xero-credentials.md
+    - name: 셀프 서비스 데이터 준비
+      items:
+      - name: 데이터 흐름을 사용하여 셀프 서비스 데이터 준비(미리 보기)
+        href: service-dataflows-overview.md
+      - name: 데이터 흐름 만들기 및 사용
+        href: service-dataflows-create-use.md
+      - name: Power BI Premium의 컴퓨팅된 엔터티
+        href: service-dataflows-computed-entities-premium.md
+      - name: 온-프레미스 데이터 원본으로 만든 데이터 흐름 사용
+        href: service-dataflows-on-premises-gateways.md
+      - name: 데이터 흐름 간에 엔터티 연결(미리 보기)
+        href: service-dataflows-linked-entities.md
+      - name: 데이터 흐름에 증분 새로 고침 사용(미리 보기)
+        href: service-dataflows-incremental-refresh.md
+      - name: 데이터 흐름에 사용할 수 있는 개발자 리소스
+        href: service-dataflows-developer-resources.md
+      - name: Power BI Desktop에서 데이터 흐름에 연결
+        href: desktop-connect-dataflows.md
   - name: 리소스
     items:
     - name: 비디오
@@ -774,6 +792,36 @@ items:
       href: supported-languages-countries-regions.md
     - name: 백서
       href: whitepapers.md
+- name: Power BI의 페이지를 매긴 보고서
+  items:
+  - name: 개요
+    items:
+    - name: 페이지를 매긴 보고서란? (미리 보기)
+      href: paginated-reports-report-builder-power-bi.md
+  - name: 자습서
+    items:
+    - name: 페이지를 매긴 보고서 만들기 및 업로드
+      href: paginated-reports-quickstart-aw.md
+  - name: 개념
+    items:
+    - name: 보고서 디자인 뷰 다루기
+      href: paginated-reports-report-design-view.md
+    - name: 페이지를 매긴 보고서 FAQ
+      href: paginated-reports-faq.md
+  - name: 방법
+    items:
+    - name: 포함된 데이터 원본 만들기
+      href: paginated-reports-embedded-data-source.md
+    - name: 포함된 데이터 집합 만들기
+      href: paginated-reports-create-embedded-dataset.md
+    - name: 매개 변수 만들기
+      href: paginated-reports-parameters.md
+    - name: 페이지를 매긴 보고서 게시
+      href: paginated-reports-save-to-power-bi-service.md
+    - name: 페이지를 매긴 보고서 보기
+      href: paginated-reports-view-power-bi-service.md
+    - name: 매개 변수와 상호 작용
+      href: paginated-reports-view-parameters.md
 - name: 개발자용 Power BI
   items:
   - name: 개발자는 Power BI로 무엇을 할 수 있나요
@@ -908,8 +956,6 @@ items:
       items:
       - name: 개발자 센터
         href: https://powerbi.microsoft.com/developers/
-      - name: 개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기
-        href: service-custom-visuals-getting-started-with-developer-tools.md
       - name: 샘플
         href: https://microsoft.github.io/PowerBI-visuals/samples/
       - name: 사용자 지정 시각적 Git 리포지토리
@@ -1203,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: fffb456fe7ad9648b27a1106e9a4cb6401b5f56b
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 7c2025a2dd23ce58937cd9987bec8d28b8ffb04c
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909712"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508063"

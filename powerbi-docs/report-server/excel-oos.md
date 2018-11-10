@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
-ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
+ms.openlocfilehash: 183b1e51f933fc8dc439e5f8b0f434e8366e9794
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42703009"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101442"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>OOS(Office Online Server)를 사용하여 Excel 통합 문서를 호스트하도록 보고서 서버 구성
 
@@ -186,7 +186,7 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 [관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
-[보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

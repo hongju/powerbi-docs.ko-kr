@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62950462f60fea6db44a9756eff8f99a6841d1d4
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: 3881e37fa5e97939265e9bb9362cee65a1030e67
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435445"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100821"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 게시
 
@@ -63,7 +63,7 @@ Power BI에서 관련 대시보드 및 보고서 컬렉션을 사용하여 *앱*
    
      ![앱 콘텐츠](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-5. **액세스**에서 앱에 액세스할 수 있는 사람을 조직의 모든 사람, 특정 사람, Active Directory 보안 그룹 중에서 결정합니다. 권한이 있는 경우 받는 사람에 대해 앱 자동 설치를 선택할 수 있습니다. [Power BI 관리 포털](#how-to-enable-pushing-apps)에서 이 설정을 사용하도록 설정할 수 있습니다. [앱을 푸시](#how-to-enable-pushing-apps)하기 위한 추가 고려사항을 알아볼 수 있습니다.
+5. **액세스**에서 앱에 액세스할 수 있는 사람을 조직의 모든 사람, 특정 사람, Active Directory 보안 그룹 중에서 결정합니다. 권한이 있는 경우 받는 사람에 대해 앱 자동 설치를 선택할 수 있습니다. Power BI 관리자는 Power BI 관리 포털에서 이 설정을 사용하도록 설정할 수 있습니다. [앱을 자동으로 설치](#how-to-install-an-app-automatically-for-end-users)하는 방법을 자세히 알아보세요.
 
     ![앱 액세스](media/service-create-distribute-apps/power-bi-apps-access.png)
 

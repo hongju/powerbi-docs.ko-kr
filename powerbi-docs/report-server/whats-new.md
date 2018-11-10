@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: 648938006cd15e2bb92b305aa9a2af24d028cead
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a365cab0420fdf373d62f5b1774a4d86985adfe3
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726941"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101258"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -328,7 +328,7 @@ Power BI Report Server는 이제 새 Power BI 테이블 및 행렬 시각적 개
 [Power BI Report Server란?](get-started.md) 
 [관리자 안내서](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
-[보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

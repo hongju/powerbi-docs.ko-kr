@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d2aae3abeca51cdcc142660190332f84adcfddfb
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: c94fd3ce58cefdb9e3cc7749b6486ab9bb0577cb
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448825"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101465"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드의 테이블
 테이블은 논리적으로 연속된 행과 열에서 관련된 데이터를 포함하는 표입니다. 머리글과 합계에 대한 행이 포함될 수도 있습니다. 테이블은 단일 범주에 대한 많은 값을 볼 수 있는 정량적 비교와 잘 작동합니다. 예를 들어 이 테이블은 **범주**합에 대한 5개의 서로 다른 측정값을 표시합니다.
 
 ![](media/power-bi-visualization-tables/table.png)
+
+보고서에서 테이블을 만들고 동일한 보고서 페이지에서 다른 시각적 개체를 포함하는 테이블 내 요소를 상호 강조 표시합니다.  또한 행, 열 및 개별 셀과 상호 강조 표시를 선택할 수 있습니다. 개별 셀 및 여러 셀 선택을 복사하여 다른 응용 프로그램에 붙여넣을 수 있습니다.
 
 ## <a name="when-to-use-a-table"></a>테이블을 사용하는 경우
 다음과 같은 경우 테이블은 좋은 선택입니다.
@@ -108,9 +110,24 @@ ms.locfileid: "47448825"
 6. 시각화에서 조건부 서식 지정을 제거하려면 필드를 다시 마우스 오른쪽 단추로 클릭하고 **조건부 서식 지정 제거**를 선택합니다.
 
 > [!TIP]
-> 서식 창(페인트 롤러 아이콘)에서 조건부 서식을 사용할 수도 있습니다. 서식을 지정할 값을 선택한 후 **색 눈금** 또는 **데이터 막대**를 켜짐으로 설정하여 기본 설정을 적용하거나 설정을 사용자 지정하고 **고급 컨트롤**을 선택합니다.
+> 서식 창(페인트 롤러 아이콘)에서 조건부 서식을 사용할 수도 있습니다. 서식을 지정할 값을 선택한 후 **색 눈금** 또는 **데이터 막대**를 **켜짐**으로 설정하여 기본 설정을 적용하거나 설정을 사용자 지정하고 **고급 컨트롤**을 선택합니다.
 > 
-> 
+## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>다른 응용 프로그램에서 사용하기 위해 Power BI 테이블의 값 복사
+
+테이블 또는 행렬에는 Dynamics CRM, Excel 같은 다른 응용 프로그램에서 사용하려는 콘텐츠가 포함되거나 다른 Power BI 보고서가 포함될 수도 있습니다. Power BI를 마우스 오른쪽 단추로 클릭하면 단일 셀이나 여러 셀 선택을 클립보드에 복사하여 다른 응용 프로그램에 붙여넣을 수 있습니다.
+
+
+* 단일 셀의 값을 복사하려면 셀을 선택하고 마우스 오른쪽 단추를 클릭한 후 **값 복사**를 선택합니다. 클립보드에 서식 없는 셀 값이 있으면 이제 다른 응용 프로그램에 이 값을 붙여넣을 수 있습니다.
+
+    ![복사 옵션](media/power-bi-visualization-tables/power-bi-copy-value.png)
+
+* 두 개 이상의 셀을 복사하려면 셀 범위를 선택하거나 Ctrl 키를 사용하여 하나 이상의 셀을 선택합니다. 복사본에는 열 및 행 머리글이 포함됩니다.
+
+    ![복사 옵션](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+
+    복사본에는 열 및 행 머리글이 포함됩니다.
+
+    ![Excel에 붙여넣기](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>테이블의 열 너비 조정
 경우에 따라 Power BI는 보고서와 대시보드에 열 머리글을 자릅니다. 전체 열 이름을 표시하려면 머리글의 오른쪽으로 공간을 마우스로 가리켜 이중 화살표를 표시하고 선택하고 끕니다.

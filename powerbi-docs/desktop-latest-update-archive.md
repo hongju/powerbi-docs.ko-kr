@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: cda575c11be90c8e18a3a9f3b8325ccf674afffc
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: b068516b13b3aab134b20f95939c75a5b6e949b5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337085"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101695"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -341,7 +341,7 @@ ms.locfileid: "49337085"
 
 ### <a name="reporting"></a>보고
 
-* 보고서 페이지 도구 설명 [[비디오]](https://youtu.be/kuI6MMzDh34?t=16s) [[아티클]]() [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* 보고서 페이지 도구 설명 [[비디오]](https://youtu.be/kuI6MMzDh34?t=16s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
 * 책갈피는 현재 일반적으로 사용할 수 있습니다. [[비디오]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[아티클]](desktop-bookmarks.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
 * 테이블 및 행렬 열에 대한 단위 및 정밀도 제어 표시 [[비디오]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[아티클]](desktop-slicer-numeric-range.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
 * 보고서의 읽기 모드에서 시각적 개체 헤더 끄기 [[비디오]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 

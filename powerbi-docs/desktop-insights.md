@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a4c73cc81a09a3747ff34e6a20508b4ff19eafa8
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c01af129e15025b97925f59532d1be7a6671b47f
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280297"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909620"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Power BI Desktop에서 인사이트를 사용하여 시각적 개체에서 보이는 증가 및 감소 정보 설명(미리 보기)
 
 종종 시각적 개체에서 값의 대폭 증가 후 대폭 하락을 보고 이러한 변동의 원인에 대해 궁금해 합니다. **Power BI Desktop**에서 **인사이트**를 통해, 몇 번의 클릭으로 원인을 알 수 있습니다.
 
-예를 들어, *연도* 및 *국가*별 *판매액*을 보여 주는 다음과 같은 시각적 개체가 있습니다. 2014년에는 *1분기*와 *2분기* 사이에 판매가 급격하게 하락하면서 판매가 대폭 감소했습니다. 이러한 경우에는 데이터를 탐색하여 발생한 변경 사항에 대해 설명할 수 있습니다. 
+예를 들어, *연도* 및 *국가*별 *판매액*을 보여 주는 다음과 같은 시각적 개체가 있습니다. 2014년에는 *1분기*와 *2분기* 사이에 판매가 급격하게 하락하면서 판매가 대폭 감소했습니다. 이러한 경우에는 데이터를 검색하여 발생한 변경 사항에 관해 설명할 수 있습니다. 
 
 ![증가 및 감소 정보가 있는 시각적 개체](media/desktop-insights/insights_01a.png)
 
@@ -36,7 +36,7 @@ ms.locfileid: "39280297"
 
 
 ## <a name="using-insights"></a>정보 사용
-인사이트를 사용하여 차트에 보이는 증가 또는 감소 정보를 설명하려면 막대 또는 줄 차트에서 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 증가 설명**(또는 모든 정보가 이전 데이터 요소의 변경 내용에 기반하므로 *감소 설명*)을 선택합니다.
+인사이트를 사용하여 차트에 보이는 증가 또는 감소 정보를 설명하려면 가로 막대형 차트 또는 꺾은선형 차트에서 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 증가 설명**(또는 모든 정보가 이전 데이터 요소의 변경 내용을 기반으로 하므로 ‘감소 설명’)을 선택합니다.
 
 ![인사이트 표시 메뉴](media/desktop-insights/insights_02.png)
 
@@ -113,7 +113,6 @@ ms.locfileid: "39280297"
 * TopN 필터
 * 포함/제외 필터
 * 측정값 필터
-* 비가산적 측정값 및 집계
 * 숫자가 아닌 측정값
 * “다음과 같이 값 표시” 사용
 * 필터링된 측정값 - 필터링된 측정값은 특정 필터(예: *프랑스의 총 판매액*)가 적용된 시각적 개체 수준의 계산이며 인사이트 기능으로 만든 일부 hte 시각적 개체에서 사용됩니다.

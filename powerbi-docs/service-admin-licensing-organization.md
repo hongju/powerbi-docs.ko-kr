@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: bdd43c820f87bb9308478b4e2100514349644d11
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 11ad100bce2e13d5622676f43573dee411a93221
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252379"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973307"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>조직의 Power BI 라이선스 부여
 
@@ -150,6 +150,9 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
     ```powershell
      Set-MsolCompanySettings -AllowAdHocSubscriptions $true
     ```
+
+> [!NOTE]
+> AllowAdHocSubscriptions 플래그는 사용자가 Azure 권한 관리 서비스에 등록하는 기능을 비롯하여 조직의 여러 사용자 기능을 제어하기 위해 사용됩니다. 이 플래그를 변경하면 이러한 모든 기능에 영향을 줍니다.
 
 ## <a name="next-steps"></a>다음 단계
 

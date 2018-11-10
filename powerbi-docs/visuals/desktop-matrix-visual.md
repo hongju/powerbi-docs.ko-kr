@@ -7,27 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 10/25/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 96b2fb3cb1558f862c792b3bed77c9f0c2bc61a5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416823"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101373"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Power BI Desktop에서 행렬 시각적 개체 사용
-**행렬** 시각적 개체 기능(때로는 ‘테이블’이라고도 함)을 사용하여 **Power BI Desktop** 보고서에서 행렬 시각적 개체를 만들고 기타 시각적 개체를 사용하여 행렬 내에서 크로스 강조 표시 요소를 만들 수 있습니다. 또한 행, 열 및 개별 셀과 상호 강조 표시를 선택할 수 있습니다. 마지막으로 레이아웃 공간을 효율적으로 사용할 수 있도록 행렬 시각적 개체는 단계별 레이아웃을 지원합니다.
+**행렬** 시각적 개체 기능을 사용하여 **Power BI Desktop** 및 **Power BI 서비스** 보고서에서 행렬 시각적 개체(‘테이블’이라고도 함)를 만들고 기타 시각적 개체를 사용하여 행렬 내에서 요소를 상호 강조 표시할 수 있습니다. 또한 행, 열 및 개별 셀과 상호 강조 표시를 선택할 수 있습니다. 개별 셀 및 여러 셀 선택을 복사하여 다른 응용 프로그램에 붙여넣을 수 있습니다. 마지막으로 레이아웃 공간을 효율적으로 사용할 수 있도록 행렬 시각적 개체는 단계별 레이아웃을 지원합니다.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
 행렬과 관련된 여러 가지 기능을 이 문서의 다음 섹션에서 살펴보겠습니다.
 
-> [!NOTE]
-> **Power BI Desktop**의 2017년 7월 릴리스부터 행렬 및 테이블 시각적 개체는 적용된 **보고서 테마**의 스타일(색 포함)을 반영합니다. 이러한 색은 행렬 시각적 개체에 기대하는 색이 아닐 수 있지만, **보고서 테마** 구성에서 변경할 수 있습니다. 테마에 대한 자세한 내용은 [**Power BI Desktop에서 보고서 테마 사용**](../desktop-report-themes.md)을 참조하세요.
-> 
-> 
+## <a name="report-themes"></a>보고서 테마
+행렬 및 테이블 시각적 개체에서 적용된 **보고서 테마**의 스타일(색 포함)을 반영합니다. 이러한 색은 행렬 시각적 개체에 기대하는 색이 아닐 수 있지만, **보고서 테마** 구성에서 변경할 수 있습니다. 테마에 대한 자세한 내용은 [**Power BI Desktop에서 보고서 테마 사용**](../desktop-report-themes.md)을 참조하세요.
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Power BI에서 총계를 계산하는 방법 이해
 
@@ -134,6 +132,20 @@ ms.locfileid: "47416823"
 또한 Ctrl+클릭은 크로스 강조 표시에서도 작동합니다. 예를 들어, 다음 이미지의 경우 **행렬** 시각적 개체에서 하위 범주 컬렉션을 선택했습니다. 시각적 개체에서 선택하지 않은 항목이 회색으로 표시되고, **행렬** 시각적 개체에서 선택한 항목이 페이지의 다른 시각적 개체에 반영되는 방법을 살펴보세요.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
+
+## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>다른 응용 프로그램에서 사용하기 위해 Power BI의 값 복사
+
+행렬 또는 테이블에는 Dynamics CRM, Excel 같은 다른 응용 프로그램에서 사용하려는 콘텐츠가 포함되거나 다른 Power BI 보고서가 포함될 수도 있습니다. Power BI를 마우스 오른쪽 단추로 클릭하면 단일 셀이나 여러 셀 선택을 클립보드에 복사하여 다른 응용 프로그램에 붙여넣을 수 있습니다.
+
+![복사 옵션](media/desktop-matrix-visual/power-bi-cell-copy.png)
+
+* 단일 셀의 값을 복사하려면 셀을 선택하고 마우스 오른쪽 단추를 클릭한 후 **값 복사**를 선택합니다. 클립보드에 서식 없는 셀 값이 있으면 이제 다른 응용 프로그램에 이 값을 붙여넣을 수 있습니다.
+
+    ![복사 옵션](media/desktop-matrix-visual/power-bi-copy.png)
+
+* 두 개 이상의 셀을 복사하려면 셀 범위를 선택하거나 Ctrl 키를 사용하여 하나 이상의 셀을 선택합니다. 복사본에는 열 및 행 머리글이 포함됩니다.
+
+    ![Excel에 붙여넣기](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>매트릭스 시각적 개체에서 음영 및 글꼴 색
 **행렬** 시각적 개체를 사용하여 행렬 내에서 셀의 배경에 **조건부 서식**(색 및 음영)을 적용할 수 있고 텍스트와 값 자체에 조건부 서식을 적용할 수 있습니다.

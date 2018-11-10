@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 ms.date: 09/17/2018
-ms.openlocfilehash: ac35e0c61576e561afd495e51d814bc38ab0a3f5
-ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
+ms.openlocfilehash: 5fb4583dccf7b6543881f1c9062227b9a3a68b05
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46473980"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223138"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>개발자는 Power BI로 무엇을 할 수 있나요?
 
@@ -44,7 +44,7 @@ Power BI로 사용자 지정 시각적 개체를 사용하여 사용자 또는 �
 
 ![CV 샘플](media/what-can-you-do/powerbi-custom-visual-store.png)
 
-사용자 지정 시각적 개체 개발에 대한 학습을 시작하려면 [개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기](../service-custom-visuals-getting-started-with-developer-tools.md)를 참조하세요.
+사용자 지정 시각적 개체 개발에 대한 학습을 시작하려면 [Power BI 사용자 지정 시각적 개체 개발](custom-visual-develop-tutorial.md)을 참조하세요.
 
 ## <a name="using-api-automation"></a>API 자동화 사용
 

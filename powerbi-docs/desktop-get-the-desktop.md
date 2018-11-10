@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 319c636c660aff3ab651475e2d7b553fef49b8cd
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137333"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909597"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 **Power BI Desktop**을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. **Power BI Desktop**에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다.  **Power BI Desktop**은 무료로 다운로드할 수 있습니다.
@@ -101,11 +101,35 @@ Microsoft Store에서 **Power BI Desktop**을 설치할 때 다음과 같은 몇
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
+항상 Power BI Desktop 사용 경험이 만족스럽기를 바랍니다. Power BI Desktop 사용에 문제가 발생할 수 있으므로, 이 섹션에는 발생할 수 있는 문제를 해결하기 위한 해결 방법이나 제안 사항이 포함되어 있습니다. 
+
+### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop의 이전 릴리스 사용 시 문제
+
 **Power BI Desktop**의 구형 버전을 사용할 때 일부 사용자에게는 다음과 유사한 오류가 발생합니다. 
 
     "We weren't able to restore the saved database to the model" 
 
 Power BI Desktop의 현재 버전으로 업데이트하면 대개 이 문제가 해결됩니다.
+
+### <a name="disabling-notifications"></a>알림 사용 안 함
+향상된 기능, 성능, 안정성 및 기타 개선 사항을 활용하려면 최신 버전의 Power BI Desktop으로 업데이트하는 것이 좋습니다. 일부 조직에서는 사용자가 개별적으로 새 버전으로 업데이트하기를 원하지 않을 수 있습니다. 다음 단계를 통해 레지스트리를 수정하여 알림을 사용하지 않도록 설정할 수 있습니다.
+
+1. 레지스트리 편집기를 사용하여 *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop*으로 이동합니다.
+2. *REG_DWORD: DisableUpdateNotification* 설정을 사용하여 새 항목을 만듭니다.
+3. 새 항목의 값을 **1**로 설정합니다.
+
+변경 내용을 적용하려면 컴퓨터를 다시 시작해야 합니다.
+
+### <a name="power-bi-desktop-loads-with-a-partial-screen"></a>Power BI Desktop은 부분 화면으로 로드됩니다.
+
+특정 화면 해상도 구성을 포함한 특정 상황에 있는 일부 사용자에게는 Power BI Desktop 렌더링 콘텐츠가 큰 검은색 영역과 함께 표시될 수 있습니다. 이 문제의 원인은 일반적으로 Power BI Desktop이 콘텐츠를 표시하는 방법 때문이 아니라 항목 렌더링 방법에 영향을 주는 최근 운영 체제 업데이트 때문입니다. 이와 관계없이 큰 검은색 영역은 멋진 시각적 개체만큼 매력적이지 않으므로 이 문제를 해결하려면 다음 단계를 수행합니다.
+
+1. 시작 키를 누르고 표시되는 검색 창에 ‘흐리게’라는 단어를 입력합니다.
+2. 표시되는 대화 상자에서 *Let Windows fix apps that are blurry.*(Windows에서 흐리게 표시되는 앱을 수정하도록 합니다.) 옵션을 선택합니다.
+3. Power BI Desktop을 다시 시작합니다.
+
+이 문제는 후속 Windows 업데이트가 릴리스된 후에 해결될 수 있습니다. 
+ 
 
 ## <a name="next-steps"></a>다음 단계
 **Power BI Desktop**을 설치하면 다음 콘텐츠는 빠르게 시작하고 실행하는 데 도움을 줄 수 있습니다.

@@ -4,18 +4,18 @@ description: Power BI Report Server의 개요를 확인하여 SSRS(SQL Server Re
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 10/24/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 1be2270074011f73c3d942677211dd99d18c6b2b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 95a97c86ae7d17091b49fbf33cf5ec0d26053c3e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294574"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101398"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server란?
 
@@ -28,6 +28,9 @@ Power BI Report Server는 SQL Server Reporting Services 및 Power BI 온라인 �
 
 ## <a name="licensing-power-bi-report-server"></a>Power BI Report Server 라이선싱
 Power BI Report Server는 Software Assurance와 함께 [Power BI Premium](../service-premium.md) 및 [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)의 두 가지 라이선스를 통해 사용할 수 있습니다. Power BI Premium 라이선스를 사용하면 하이브리드 배포 혼합 클라우드 및 온-프레미스를 만들 수 있습니다.  
+
+> [!NOTE]
+> Power BI Premium의 경우 Power BI Report Server는 P SKU에만 포함됩니다. EM SKU에는 포함되지 않았습니다.
 
 ## <a name="web-portal"></a>웹 포털
 Power BI Report Server에 대한 진입점은 최신 브라우저에서 볼 수 있는 보안 웹 포털입니다. 여기서 모든 보고서 및 KPI에 액세스할 수 있습니다. 웹 포털의 콘텐츠는 기존 폴더 계층 구조에서 구성됩니다. 폴더에서 콘텐츠는 Power BI 보고서, 모바일 보고서, 페이지가 매겨진 보고서와 KPI 및 Excel 통합 문서, 공유 데이터 집합 및 공유 데이터 원본 등의 형식으로 구성되어 보고서에 대한 문서 블록으로 사용합니다. 즐겨찾기에 태그를 지정하여 즐겨찾기를 단일 폴더에서 볼 수 있습니다. 웹 포털에서 KPI를 만들 수 있습니다. 
@@ -66,7 +69,7 @@ Power BI Report Server 프로그래밍 기능을 활용하여 API를 사용하�
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI Report Server 설치](install-report-server.md)  
-[보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

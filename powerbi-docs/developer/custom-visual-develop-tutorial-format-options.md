@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: dcefa427290fd804a0b2c79dc357e5f5bfbe7296
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50160650"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223263"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>자습서: Power BI 사용자 지정 시각적 개체에 서식 옵션 추가
 
@@ -254,6 +254,10 @@ ms.locfileid: "50160650"
 
 8. **Circle Card** 아이콘 위로 마우스를 이동하여 나타나는 도구 설명을 확인합니다.
 
+## <a name="debugging"></a>디버깅
+
+사용자 지정 시각적 개체의 디버깅에 대한 팁은 [디버깅 가이드](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/)를 을 참조하세요.
+
 ## <a name="next-steps"></a>다음 단계
 
-다른 사용자가 사용하도록 새로 개발된 사용자 지정 시각적 개체를 게시하는 방법에 대한 자세한 내용은 [AppSource에 사용자 지정 시각적 개체 게시](office-store.md)를 참조하세요.
+**AppSource**에 제출하여 다른 사용자가 사용할 새로 개발된 시각적 개체를 나열할 수 있습니다. 이 프로세스에 대한 자세한 내용은 [사용자 지정 시각적 개체를 AppSource에 게시](office-store.md)를 참조하세요.

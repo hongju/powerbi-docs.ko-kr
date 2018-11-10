@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456137"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101580"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
 이 자습서는 **Analysis Services 테이블 형식 모델** 내에서 **행 수준 보안**을 구현하는 데 필요한 단계를 설명하고 Power BI 보고서에서 사용하는 방법을 보여 줍니다. 이 자습서의 단계는 샘플 데이터 집합에서 완료하여 필요한 단계를 따르고 알아볼 수 있도록 설계되었습니다.
@@ -72,6 +72,9 @@ ms.locfileid: "34456137"
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     이 수식에서 **LOOKUPVALUE** 함수는 **DimUserSecurity [SalesTerritoryID]** 열에 대한 모든 값을 반환합니다. 여기에서 **DimUserSecurity [UserName]** 은 현재 로그온된 Windows 사용자 이름과 같고 **DimUserSecurity [SalesTerritoryID]** 는 **DimSalesTerritory [SalesTerritoryKey]** 와 같습니다.
    
+    > [!IMPORTANT]
+    > 행 수준 보안을 사용하는 경우 DAX 함수 [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax)은 지원되지 않는다는 점에 주의하세요.
+
    **LOOKUPVALUE**에서 반환된 Sales SalesTerritoryKey의 집합은 **DimSalesTerritory**에 표시된 행을 제한하는 데 사용됩니다. 행에 대한 **SalesTerritoryKey**가 **LOOKUPVALUE** 함수에서 반환된 ID의 집합에 있는 행만 표시됩니다.
 8. **DimUserSecurity** 테이블의 경우 **DAX 필터** 열에서 다음 수식을 입력합니다.
    

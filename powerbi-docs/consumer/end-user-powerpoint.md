@@ -1,5 +1,5 @@
 ---
-title: 보고서를 Power BI에서 PowerPoint(미리 보기)로 내보내기
+title: 보고서를 Power BI에서 PowerPoint로 내보내기
 description: Power BI 보고서를 PowerPoint로 내보내는 방법을 알아봅니다.
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 85a0a34f9c67d29fee7be6335f79e97b482548be
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 661d615ed33b12ae0557fd8feaa0bc47b3a6638f
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565340"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736944"
 ---
-# <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>보고서를 Power BI에서 PowerPoint(미리 보기)로 내보내기
+# <a name="export-reports-from-power-bi-to-powerpoint"></a>보고서를 Power BI에서 PowerPoint로 내보내기
 이제 Power BI를 사용하여 보고서를 **Microsoft PowerPoint**에 게시하고 Power BI 보고서에 따라 슬라이드 모음을 쉽게 만들 수 있습니다. **PowerPoint로 내보내는** 경우 다음이 발생합니다.
 
 * Power BI 보고서의 각 페이지는 PowerPoint에서 개별 슬라이드를 생성합니다.
@@ -51,7 +51,7 @@ PowerPoint로 내보내려는 보고서가 캔버스에 표시되면 다음 이�
 이제 필요한 항목이 모두 준비되었습니다. 파일을 다운로드하고 PowerPoint로 연 다음 다른 PowerPoint 모음에서 원하는 대로 수정하거나 개선시킬 수 있습니다.
 
 ## <a name="checking-out-your-exported-powerpoint-file"></a>내보낸 PowerPoint 파일 확인
-Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소가 있습니다. 다음 이미지를 살펴보고 이러한 멋진 기능 중 일부에 대해 설명하는 몇몇 요소를 확인합니다.
+Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소가 있습니다. 다음 이미지를 살펴보고 이러한 멋진 기능 중 일부에 관해 설명하는 몇몇 요소를 확인합니다.
 
 ![](media/end-user-powerpoint/powerbi_to_powerpoint_5.png)
 
@@ -77,9 +77,9 @@ Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소�
 * **R 시각적 개체**는 현재 지원되지 않습니다. 이러한 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
 * **인증된** **사용자 지정 시각적 개체**가 지원됩니다. 사용자 지정 시각적 개체를 인증하는 방법을 비롯한 인증된 사용자 지정 시각적 개체에 대한 자세한 내용은 [사용자 지정 시각적 개체 인증하기](../power-bi-custom-visuals-certified.md)를 참조하세요. 인증되지 않았거나 지원되지 않는 사용자 지정 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
 * **인증된 사용자 지정 시각적 개체**가 지원됩니다. 인증된 사용자 지정 시각적 개체는 Power BI와 함께 사용하도록 승인되었으며, 특정 코드 요구 사항을 충족하고 엄격한 보안 테스트 통과하였습니다. [**인증된 사용자 지정 시각적 개체**에 대한 자세한 내용을 알아보세요](../power-bi-custom-visuals-certified.md).
-* 15개 이상의 보고서 페이지를 포함하는 보고서는 현재 내보낼 수 없습니다.
+* 30개 이상의 보고서 페이지를 포함하는 보고서는 현재 내보낼 수 없습니다.
 * 보고서를 PowerPoint로 내보내는 과정은 몇 분 정도 걸릴 수 있으므로 잠시 기다려주세요. 필요한 시간에 영향을 줄 수 있는 요소는 보고서의 구조 및 Power BI 서비스의 현재 부하를 포함합니다.
-* **PowerPoint로 내보내기(미리 보기)** 메뉴 항목을 Power BI 서비스에서 사용할 수 없는 경우 테넌트 관리자가 이 기능을 사용하지 않도록 설정했을 가능성이 높습니다. 자세한 내용은 테넌트 관리자에게 문의하세요.
+* **PowerPoint로 내보내기** 메뉴 항목을 Power BI 서비스에서 사용할 수 없는 경우 테넌트 관리자가 이 기능을 사용하지 않도록 설정했을 가능성이 큽니다. 자세한 내용은 테넌트 관리자에게 문의하세요.
 * 배경 이미지는 차트의 경계 영역에서 잘립니다. PowerPoint로 내보내기 전에 배경 이미지를 제거하는 것이 좋습니다.
 * PowerPoint로 내보낼 때 강조 표시, 필터링, 드릴다운 등 **세션 내 대화형 작업**은 아직 지원되지 않습니다. 내보낸 PowerPoint는 보고서에 저장된 대로 원래 시각적 개체를 보여 줍니다.
 * PowerPoint의 페이지는 Power BI 보고서의 원래 페이지 크기에 관계 없이 항상 표준 9:16 크기로 만들어집니다.

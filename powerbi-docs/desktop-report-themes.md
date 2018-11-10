@@ -10,33 +10,38 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9945237088073a4f9111e06fd6729a1c4db10081
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
+ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003320"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51027463"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
-**보고서 테마**를 사용하여 전체 보고서에 회사 색, 계절 색 지정 등의 색 테마를 적용하거나 적용하려는 모든 기타 색 테마를 적용할 수 있습니다. **보고서 테마**를 적용하는 경우 보고서의 모든 시각적 개체에서는 선택한 테마 색을 사용합니다(몇 가지 예외 적용, 이 문서의 뒷부분에서 설명).
+**보고서 테마**를 사용하여 회사 색, 계절 색 또는 기타 색 테마와 같은 색 테마를 전체 보고서에 적용할 수 있습니다. **보고서 테마**를 적용할 때 보고서의 모든 시각적 개체는 선택한 테마의 색을 사용합니다. 몇 가지 예외가 적용되며 이 문서의 뒷부분에서 설명합니다.
 
-![](media/desktop-report-themes/report-themes_1.png)
+![보고서 테마](media/desktop-report-themes/report-themes_1.png)
 
-**보고서 테마**를 적용하려면 기본 구조를 사용하여 Power BI Desktop으로 가져오고 보고서에 적용할 수 있는 JSON 파일이 필요합니다. JSON 파일 구조 및 가져오는 과정은 빠르고 간편합니다(단추 몇 번 클릭이면 됨).
+**보고서 테마**를 적용할 경우 기본 구조를 사용하는 JSON 파일이 필요합니다. 그런 다음, 이 JSON 파일을 Power BI Desktop으로 가져와서 보고서에 적용할 수 있습니다. JSON 파일 구조 및 가져오는 프로세스는 빠르고 간편합니다(단추 몇 번 클릭이면 됨).
 
-**Power BI Desktop**의 2017년 9월 릴리스부터는 JSON 파일을 사용하여 더 많은 보고서 테마 요소를 정의하고 **서식** 창에서 직접 조정할 수 있는 JSON 파일을 사용하여 거의 모든 요소를 사용자 지정(및 표준화)할 수 있습니다. 2017년 9월 릴리스(이상)의 목표는 보고서 모양과 느낌을 세부적인 수준으로 완전히 제어하도록 설정하는 것입니다.
+**Power BI Desktop**의 2017년 9월 버전부터 JSON 파일을 사용하여 더 많은 보고서 테마 요소를 정의할 수 있습니다. 거의 모든 요소를 사용자 지정 및 표준화할 수도 있습니다. 사용자 지정하려면 **서식** 창에서 수동으로 조정하는 JSON 파일을 사용합니다. 2017년 9월 릴리스(이상)의 목표는 보고서 모양과 느낌을 세부적인 수준으로 완전히 제어하는 것입니다.
 
 ### <a name="enable-report-themes"></a>보고서 테마 사용하도록 설정
-**Power BI Desktop**의 2018년 8월 릴리스를 기준으로 보고서 테마는 일반 공급되며, 사용하도록 설정할 필요가 없습니다. 
+**Power BI Desktop**의 2018년 8월 버전부터 보고서 테마는 일반 공급되며, 사용하도록 설정할 필요가 없습니다. 
 
-이전 버전의 **Power BI Desktop**을 사용하는 경우 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택하여 미리 보기 기능으로 사용하도록 설정한 다음, **사용자 지정 보고서 테마** 옆에 있는확인란을 선택할 수 있습니다. 선택한 후에는 **Power BI Desktop**을 다시 시작해야 합니다.
+이전 버전의 **Power BI Desktop**을 사용하는 경우 다음 단계를 수행하여 미리 보기 기능으로 사용할 수 있습니다. 
 
-![](media/desktop-report-themes/report-themes_2.png)
+1. **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택합니다. 
+2. 그런 다음, **사용자 지정 보고서 테마** 옆에 있는 확인란을 선택합니다. 
 
-[Power BI Desktop 가져오기](desktop-get-the-desktop.md)의 링크에서 설치할 수 있는 **Power BI Desktop**의 최신 릴리스로 업그레이드하는 것이 좋습니다. 
+선택한 후에는 **Power BI Desktop**을 다시 시작해야 합니다.
+
+![사용자 지정 보고서 테마](media/desktop-report-themes/report-themes_2.png)
+
+[Power BI Desktop 가져오기](desktop-get-the-desktop.md)의 링크에서 가져올 수 있는 **Power BI Desktop**의 최신 버전으로 업그레이드하는 것이 좋습니다. 
 
 ## <a name="how-report-themes-work"></a>보고서 테마 작동 방법
-보고서 테마를 Power BI Desktop 보고서에 적용하려면 사용 가능한 기본 제공 보고서 테마 중에서 선택하거나 사용자 지정 테마를 가져올 수 있습니다.
+보고서 테마를 Power BI Desktop 보고서에 적용하려면 사용 가능한 기본 제공 보고서 테마 중에서 선택하거나 사용자 지정 테마를 가져옵니다.
 
 | 기본 제공 보고서 테마 | 기본 색 시퀀스    |
 |------ |---------- |
@@ -57,36 +62,44 @@ ms.locfileid: "50003320"
 
 ### <a name="importing-report-themes"></a>보고서 테마 가져오기
 
-보고서 테마를 가져오려면 **홈** 리본에서 **테마 전환** 단추를 선택한 다음, 드롭다운에서 **테마 가져오기**를 선택합니다.
+사용자 지정 보고서 테마를 가져오려면 **홈** 리본에서 **테마 전환** 단추를 선택합니다. 그런 다음, 드롭다운 메뉴에서 **테마 가져오기**를 선택합니다.
 
-![](media/desktop-report-themes/report-themes_3.png)
+![테마 가져오기](media/desktop-report-themes/report-themes_3.png)
 
-사용자를 JSON 테마 파일의 위치로 이동시키는 창이 나타납니다. Power BI Desktop은 Power BI 보고서 테마 파일 유형인 JSON 파일을 찾습니다. 다음 이미지에서는 몇 개의 휴일 테마 파일이 제공됩니다. 3월에 제공되는 휴일 테마를 선택합니다.
+사용자를 JSON 테마 파일의 위치로 이동시키는 창이 나타납니다. JSON이 Power BI 보고서 테마 파일 형식이므로 Power BI Desktop은 JSON 파일을 검색합니다. 다음 이미지에서는 몇 개의 휴일 테마 파일이 제공됩니다. 3월의 휴일 테마를 선택하겠습니다.
 
-![](media/desktop-report-themes/report-themes_4.png)
+![휴일 테마](media/desktop-report-themes/report-themes_4.png)
 
-테마 파일이 성공적으로 로드되는 경우 Power BI Desktop에서 사용자에게 알려 줍니다.
+테마 파일이 성공적으로 로드된 경우 Power BI Desktop에서 사용자에게 알려 줍니다.
 
-![](media/desktop-report-themes/report-themes_5.png)
+![테마를 성공적으로 가져옴](media/desktop-report-themes/report-themes_5.png)
 
 이제 테마 파일을 가져왔으므로 단순하고 간단한 JSON 파일 구조를 살펴보겠습니다.
 
 ## <a name="structure-of-a-report-theme-json-file"></a>보고서 테마 JSON 파일의 구조
-이전 섹션에서 선택된 기본 JSON 파일(*St Patricks Day.json* 파일)이 편집기에서 열린 경우 다음과 같이 표시됩니다.
+ 편집기에서 열린 경우 이전 섹션에서 선택한 기본 JSON 파일(*St Patrick’s Day.json* 파일)이 다음 스크린샷과 같이 표시됩니다.
 
-![](media/desktop-report-themes/report-themes_6.png)
+![성 패트릭의 날 JSON 파일](media/desktop-report-themes/report-themes_6.png)
 
 JSON 파일에는 다음과 같은 필수 줄이 있습니다.
 
-* **name** - 필수 필드인 유일한 테마 이름입니다.
-* **dataColors** - Power BI Desktop 시각적 개체에서 데이터에 사용하는 16진수 색 코드의 목록입니다. 목록에는 색이 원하는 수 만큼 포함될 수 있습니다.
-* **background**, **foreground** 및 **tableAccent** - 이러한 값은 다양한 유형의 시각적 개체에 적용되어야 하는 색입니다. **foreground**은 텍스트 상자 텍스트, KPI 목표 텍스트, 다중 행 카드 텍스트, 카드 값 텍스트, 계기 콜아웃 텍스트, 수직 슬라이서 요소 텍스트 및 **테이블** 및 **행렬** 합계 및 값 텍스트에 적용됩니다. **background**는 단추 채우기 및 콤보 차트 레이블 배경에 적용됩니다. 적용되는 특정 시각적 개체 스타일에 따라 이러한 색을 사용하는 방법이 달라집니다. **테이블** 및 **행렬** 시각적 개체에는 기본적으로 이러한 스타일이 적용됩니다.
+* **name**: 유일한 필수 필드인 테마 이름입니다.
 
-스타일을 **테이블** 또는 **매트릭스** 시각적 개체에 적용하는 경우 **시각화** 창에서 시각적 개체를 선택하고 **형식** 섹션을 선택한 다음 **행렬 스타일**을 확장하고 **스타일** 드롭다운 목록에서 스타일을 선택합니다.
+* **dataColors**: Power BI Desktop 시각적 개체에서 데이터에 사용하는 16진수 색 코드의 목록입니다. 목록에는 색이 원하는 만큼 포함될 수 있습니다.
 
-![](media/desktop-report-themes/report-themes_7.png)
+* **background**, **foreground** 및 **tableAccent**: 다양한 유형의 시각적 개체에 적용되어야 하는 색입니다. 
+  - **foreground**는 텍스트 상자 텍스트, KPI 목표 텍스트, 다중 행 카드 텍스트, 카드 값 텍스트, 계기 설명선 텍스트, 수직 슬라이서 요소 텍스트 및 **테이블** 및 **행렬** 합계 및 값 텍스트에 적용됩니다. 
+  - **background**는 단추 채우기 및 콤보 차트 레이블 배경에 적용됩니다. 적용되는 특정 시각적 개체 스타일에 따라 이러한 색을 사용하는 방법이 달라집니다. 
+  - **테이블** 및 **행렬** 시각적 개체에는 기본적으로 이러한 스타일이 적용됩니다.
 
-고유의 JSON 파일을 만드는 쉬운 잘라내기/붙여넣기의 경우 *St Patricks Day.json* 파일의 텍스트는 다음과 같습니다.
+**테이블** 또는 **행렬** 시각적 개체에 스타일을 적용하려면 다음 단계를 수행합니다. 
+1. 시각적 개체를 선택합니다. 
+2. 그런 다음, **시각화** 창에서 **서식** 섹션을 선택합니다.
+3. **행렬 스타일**을 확장한 후 **스타일** 드롭다운에서 스타일을 선택합니다.
+
+![스타일 드롭다운](media/desktop-report-themes/report-themes_7.png)
+
+다음은 고유한 JSON 파일을 만드는 데 사용할 수 있는 *St Patrick’s Day.json* 파일의 텍스트입니다.
 
     {
         "name": "St Patricks Day",
@@ -98,52 +111,52 @@ JSON 파일에는 다음과 같은 필수 줄이 있습니다.
 
 여기에서 선택한 색에 대한 고유한 색 16진수 코드를 입력할 수 있습니다.
 
-**Power BI Desktop**의 2017년 9월 릴리스부터는 JSON 파일이 훨씬 더 정교해 질 수 있습니다. JSON 파일에서 영향을 주려는 서식을 정의할 수 있을 뿐이며 JSON 파일에 지정되지 *않은* 항목은 간단히 Power BI 기본 설정으로 되돌아갑니다.
+**Power BI Desktop**의 2017년 9월 버전부터는 JSON 파일이 훨씬 더 정교해질 수 있습니다. JSON 파일에서 조정하려는 서식만 정의하고 JSON 파일에 ‘지정되지 않은’ 항목은 간단히 Power BI 기본 설정으로 되돌아갑니다.
 
-JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모든 차트가 12라는 글꼴 크기를 사용하거나 특정 시각적 개체가 특정 글꼴 제품군을 사용하도록 지정하거나 특정 차트 종류에 대해 데이터 레이블을 끌 수 있습니다.
+JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모든 차트가 12라는 글꼴 크기를 사용하거나 특정 시각적 개체가 특정 글꼴 제품군을 사용하도록 지정할 수 있습니다. 또는 특정 차트 종류의 데이터 레이블을 끌 수 있습니다.
 
-세분화된 JSON 파일을 사용하는 기능을 사용하여 차트 및 보고서를 표준화하는 테마 파일을 만들 수 있고 조직 보고서에 대한 일관성을 쉽게 유지할 수 있습니다.
+세부적인 JSON 파일을 사용하는 경우 차트 및 보고서를 표준화하는 테마 파일을 만들 수 있으므로 조직 보고서에 대한 일관성을 쉽게 유지할 수 있습니다.
 
 자세한 JSON 파일의 서식에 대한 내용은 이 문서의 뒷부분에 나오는 **보고서 테마 JSON 파일 서식** 섹션을 참조하세요.
 
 ## <a name="how-report-theme-colors-stick-to-your-reports"></a>보고서에 보고서 테마 색을 유지하는 방법
 **Power BI 서비스**에 보고서를 게시하는 경우 보고서 테마 색이 유지됩니다.
 
-또한 **형식** 패널의 **데이터 색** 섹션은 보고서 테마를 반영합니다. 예를 들어 **성 패트릭의 날** 테마에서 다수의 녹색, 밤색을 적용한 후에 시각적 개체를 선택하고 **형식 > 데이터 색**으로 이동하는 경우 다음이 표시됩니다.
+**서식** 패널의 **데이터 색** 섹션은 보고서 테마를 반영합니다. 예를 들어 **성 패트릭의 날** 테마에서 다수의 녹색 및 갈색을 적용한 후에 시각적 개체를 선택합니다. 그런 다음, **서식 > 데이터 색**으로 이동하고 다음 정보를 확인합니다.
 
-![](media/desktop-report-themes/report-themes_8.png)
+![시각화](media/desktop-report-themes/report-themes_8.png)
 
-모두 녹색으로 보이십니까? 해당 색이 가져오고 적용한 **보고서 테마**의 일부이기 때문입니다.
+모두 녹색으로 보이시나요? 해당 색이 가져오고 적용한 **보고서 테마**의 일부이기 때문입니다.
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>보고서에 보고서 테마 색을 유지하지 않는 경우
-시각적 개체에서 특정 데이터 요소에 사용자 지정 색 집합(또는 개별 색상)을 적용하는 경우 보고서 테마를 적용하면 사용자 지정된 데이터 요소 색을 재정의하지 *않습니다*.
+시각적 개체에서 특정 데이터 요소에 사용자 지정 색 집합(또는 개별 색)을 적용한다고 가정합니다. 보고서 테마를 적용하면 이 보고서 테마는 사용자 지정 데이터 요소 색을 ‘재정의하지 않습니다’.
 
-또한 색상표의 테마 색 섹션을 사용하여 데이터 요소의 색을 수동으로 설정하는 경우 해당 색은 새로운 보고서 테마를 적용할 때 업데이트되지 ‘않습니다’. 기본 색을 다시 가져오려면(그래서 새 보고서 테마를 적용하는 경우 업데이트함) **테마 색상**표에서 **기본값으로 되돌리기**를 선택할 수 있습니다.
+테마 색 섹션을 사용하여 데이터 요소 색의 색을 수동으로 설정할 수도 있습니다. 새 보고서 테마를 적용할 때 색은 ‘업데이트되지 않습니다’. 새 보고서 테마를 적용할 때 업데이트되도록 기본 색을 다시 가져오려면 **테마 색** 색상표에서 **기본값으로 되돌리기**를 선택합니다.
 
-![](media/desktop-report-themes/report-themes_9.png)
+![기본값으로 되돌리기](media/desktop-report-themes/report-themes_9.png)
 
 또한 많은 **사용자 지정 시각적 개체**가 보고서 테마에 적용되지 않습니다.
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>지금 바로 사용할 수 있는 보고서 테마 파일
-**보고서 테마**를 시작하시겠습니까? 좋습니다! 이 아티클에서 사용한 보고서에 적용된 해당 보고서 테마의 이미지와 **Power BI Desktop** 보고서에 다운로드하고 가져올 수 있는 즉시 사용 가능한 몇몇 보고서 테마 JSON 파일은 다음과 같습니다.
+**보고서 테마**를 시작하려고 하시나요? **Power BI Desktop** 보고서에 다운로드하고 가져올 수 있는 즉시 사용 가능한 몇몇 보고서 테마 JSON 파일은 다음과 같습니다. 보고서에 적용되는 보고서 테마 이미지도 이 문서에 포함했습니다.
 
 * [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)에 사용되는 [테마](https://go.microsoft.com/fwlink/?linkid=843924)는 [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924)이라는 **보고서 테마**의 첫 번째 릴리스를 발표합니다.
 
-![](media/desktop-report-themes/report-themes_10.png)
+  ![waverform.json 테마](media/desktop-report-themes/report-themes_10.png)
 
-* 기본 색 테마보다 [시각적으로 익숙한 테마](https://go.microsoft.com/fwlink/?linkid=843923)인 [*ColorblindSafe-Longer.json*](https://go.microsoft.com/fwlink/?linkid=843923)입니다.
+* 기본 색 테마보다 [시각 장애가 있는 사용자가 더 쉽게 읽을 수 있는 테마](https://go.microsoft.com/fwlink/?linkid=843923)입니다. 이를 [*ColorblindSafe-Longer.json*](https://go.microsoft.com/fwlink/?linkid=843923)이라고 합니다.
 
-![](media/desktop-report-themes/report-themes_11.png)
+  ![ColorblindSafe-Longer.json 테마.](media/desktop-report-themes/report-themes_11.png)
 
-* 아래에 표시된 [*Apothecary.json*](https://go.microsoft.com/fwlink/?linkid=843925)이라는 파일을 포함하여 수많은 [파워 뷰 테마](https://go.microsoft.com/fwlink/?linkid=843925)가 zip 파일에 래핑됩니다.
+* 아래에 표시된 [*Apothecary.json*](https://go.microsoft.com/fwlink/?linkid=843925)이라는 파일을 포함하여 [파워 뷰 테마](https://go.microsoft.com/fwlink/?linkid=843925) 그룹이 zip 파일에 래핑됩니다.
 
-![](media/desktop-report-themes/report-themes_12.png)
+  ![Apothecary.json 테마](media/desktop-report-themes/report-themes_12.png)
 
-* 마지막으로 관심을 가질만한 예쁜 테마(*발렌타인 데이* 테마)는 다음과 같습니다.
+* 마지막으로 ‘밸런타인데이’ 테마는 다음과 같습니다.
 
-![](media/desktop-report-themes/report-themes_13.png)
+  ![밸런타인데이 테마](media/desktop-report-themes/report-themes_13.png)
 
-다운로드하지 않더라도 발렌타인 데이 JSON 파일에 대한 코드는 다음과 같습니다.
+다운로드를 제공하지 않지만 다음과 같은 밸런타인데이 JSON 파일에 대한 코드를 제공했습니다.
 
     {
         "name": "Valentine's Day",
@@ -153,7 +166,7 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
         "tableAccent": "#990011"
     }
 
-**보고서 테마**를 사용하여 Power BI Desktop 보고서가 사용자, 조직 또는 현재 시즌이나 휴일을 다양하게 반영하도록 할 수 있습니다. 사용해보세요. 간단합니다.
+**보고서 테마**를 사용하여 Power BI Desktop 보고서가 사용자, 조직 또는 현재 시즌이나 휴일을 다양하게 반영하도록 할 수 있습니다. 
 
 시작점으로 사용할 수 있는 몇 가지 추가 보고서 테마는 다음과 같습니다.
 
@@ -165,11 +178,11 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
 ## <a name="report-theme-json-file-format"></a>보고서 테마 JSON 파일 서식
 기본 JSON 파일에는 다음과 같은 5줄이 필요합니다.
 
-* **name** - 필수 필드인 유일한 테마 이름입니다.
-* **dataColors** - Power BI Desktop 시각적 개체에서 데이터에 사용하는 16진수 색 코드의 목록입니다. 목록에는 색이 원하는 수 만큼 포함될 수 있습니다.
-* **background**, **foreground** 및 **tableAccent** - 이러한 값은 다양한 유형의 시각적 개체에 적용되어야 하는 색입니다. **foreground**은 텍스트 상자 텍스트, KPI 목표 텍스트, 다중 행 카드 텍스트, 카드 값 텍스트, 계기 콜아웃 텍스트, 수직 슬라이서 요소 텍스트 및 **테이블** 및 **행렬** 합계 및 값 텍스트에 적용됩니다. **background**는 단추 채우기 및 콤보 차트 레이블 배경에 적용됩니다. 적용되는 특정 시각적 개체 스타일에 따라 이러한 색을 사용하는 방법이 달라집니다. **테이블** 및 **행렬** 시각적 개체에는 기본적으로 이러한 스타일이 적용됩니다.
+* **name**: 유일한 필수 필드인 테마 이름입니다.
+* **dataColors**: Power BI Desktop 시각적 개체에서 데이터에 사용하는 16진수 색 코드의 목록입니다. 목록에는 색이 원하는 만큼 포함될 수 있습니다.
+* **background**, **foreground** 및 **tableAccent**: 다양한 유형의 시각적 개체에 적용되어야 하는 색입니다. **foreground**은 텍스트 상자 텍스트, KPI 목표 텍스트, 다중 행 카드 텍스트, 카드 값 텍스트, 계기 설명선 텍스트, 수직 슬라이서 요소 텍스트 및 **테이블** 및 **행렬** 합계 및 값 텍스트에 적용됩니다. **background**는 단추 채우기 및 콤보 차트 레이블 배경에 적용됩니다. 적용되는 특정 시각적 개체 스타일에 따라 이러한 색을 사용하는 방법이 달라집니다. **테이블** 및 **행렬** 시각적 개체에는 기본적으로 이러한 스타일이 적용됩니다.
 
-확장된 JSON 파일 서식을 만들려면 서식을 보다 더 자세하고 세부적으로 제어하여 **visualStyles** 섹션을 JSON 파일에 추가하고 해당 섹션에 지정된 중첩 서식 특성을 추가해야 합니다. **visualStyles** 섹션의 서식은 다음과 같습니다.
+확장된 JSON 파일 서식을 만들려면 서식을 좀 더 자세하고 세부적으로 제어하여 **visualStyles** 섹션을 JSON 파일에 추가해야 합니다. **visualStyles** 섹션에서 서식 관련 정보를 중첩합니다. **visualStyles** 섹션은 다음 서식과 같이 표시됩니다.
 
     visualStyles: {
         visualName: {
@@ -181,17 +194,17 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
         }
     }
 
-**visualName** 및 **cardName** 섹션의 경우 특정 시각적 개체 및 cardName를 나열할 수 있습니다. 또는 특정 시각적 개체에 대한 속성을 포함하는 모든 시각적 개체 또는 모든 카드에 적용하도록 설정하려는 경우 별표("\*")를 사용할 수 있습니다. 보고서에서는 전체 보고서의 모든 시각적 개체에서 사용되어야 하는 글꼴 크기 또는 특정 글꼴 제품군과 같은 설정을 전역적으로 적용하려는 경우 별표("\*")를 사용할 수 있습니다.
+**visualName** 및 **cardName** 섹션의 경우 특정 시각적 개체 및 cardName을 사용합니다. 특정 시각적 개체의 속성이 있는 모든 시각적 개체 또는 카드에 해당 설정을 적용하려면 별표(“\*”)를 사용합니다. 보고서에서 글꼴 크기 또는 특정 글꼴 패밀리와 같은 설정을 전체적으로 적용하려는 경우에도 별표(“\*”)를 사용할 수 있습니다.
 
 > [!NOTE]
-> 영향을 주려는 서식 지정 요소를 지정해야 합니다. JSON 파일에 포함되지 않은 모든 서식 요소는 기본값 및 설정으로 되돌아갑니다.
+> 영향을 주려는 서식 요소만 지정해야 합니다. JSON 파일에 포함되지 않은 모든 서식 요소는 기본값 및 설정으로 되돌아갑니다.
 > 
 > 
 
 ### <a name="json-file-element-definitions"></a>JSON 파일 요소 정의
-이 섹션의 표에서는 시각적 요소 이름(*visualName*), 카드 이름(*cardName*) 및 JSON 파일을 만드는 데 필요한 열거형을 정의합니다.
+이 섹션의 표에서는 시각적 개체 이름(*visualName*), 카드 이름(*cardName*) 및 JSON 파일을 만드는 데 필요한 열거형을 정의합니다.
 
-*dateTime*을 사용하는 경우 날짜는 시작 시 날짜/시간을 사용하여 다음과 같이 작은 따옴표로 묶인 ISO 날짜여야 합니다.
+*dateTime*을 사용하는 경우 날짜는 시작 시 날짜/시간을 사용하여 작은따옴표로 묶인 ISO 날짜여야 합니다. 예를 들면 다음과 같습니다.
 
     “datetime’2011-10-05T14:48:00.000Z’”
 
@@ -231,7 +244,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 | 트리맵 |
 | waterfallChart |
 
-다음 표에서는 *cardName* 값을 정의합니다. 각 셀에 있는 첫 번째 값은 JSON 파일 용어이며 두 번째 값은 **Power BI Desktop** 사용자 인터페이스에 표시되는 카드의 이름입니다.
+다음 표에서는 *cardName* 값을 정의합니다. 각 셀의 첫 번째 값은 JSON 파일 용어입니다. 두 번째 값은 **Power BI Desktop** 사용자 인터페이스에 표시되는 카드의 이름입니다.
 
 | **cardName** |
 | --- |
@@ -288,7 +301,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 | zoom: 확대/축소 |
 
 ### <a name="properties-within-each-card"></a>각 카드 내의 속성
-다음 섹션에서는 각 카드 내의 속성을 정의합니다.
+다음 섹션에서는 각 카드 내에 속성을 정의합니다.
 
     "general":
         "responsive": {
@@ -1176,7 +1189,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
             "Value"
           ],
           "description": [
-            "Set reference line numeric value "
+            "Set reference line numeric value"
           ]
         },
         "lineColor": {
@@ -1312,7 +1325,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
             "Value"
           ],
           "description": [
-            "Set reference line numeric value "
+            "Set reference line numeric value"
           ]
         },
         "lineColor": {
@@ -2029,7 +2042,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
             "Value"
           ],
           "description": [
-            "Set reference line numeric value "
+            "Set reference line numeric value"
           ]
         },
         "lineColor": {

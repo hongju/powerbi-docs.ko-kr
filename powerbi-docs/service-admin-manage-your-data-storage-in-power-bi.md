@@ -1,21 +1,21 @@
 ---
 title: 데이터 저장소 관리
 description: 보고서 및 데이터 집합을 계속 게시할 수 있도록 개인 또는 앱 작업 영역, 데이터 저장소를 관리하는 방법에 대해 알아봅니다.
-author: mgblythe
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 864d50d8850a8ceed964f128cea71b0daf5d8322
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944747"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736875"
 ---
 # <a name="manage-your-data-storage"></a>데이터 저장소 관리
 보고서 및 데이터 집합을 계속 게시할 수 있도록 개인 또는 앱 작업 영역, 데이터 저장소를 관리하는 방법에 대해 알아봅니다.
@@ -25,7 +25,7 @@ ms.locfileid: "36944747"
 * 모든 사용자의 최대 데이터 저장소는 10GB입니다.
 * Power BI Pro 라이선스가 있는 사용자는 최대 10GB 데이터 저장소로 앱 작업 영역을 만들 수 있습니다.
 
-테넌트 수준에서 테넌트의 모든 Pro 사용자 및 앱 작업 영역에 대해 Pro 사용자 1인당 총 사용량은 10GB를 초과할 수 없습니다.
+테넌트 수준에서 테넌트의 모든 Pro 사용자 및 앱 작업 영역에 대해 Pro 사용자 1인당 총사용량은 10GB를 초과할 수 없습니다.
 
 [Power BI 가격 책정 모델](https://powerbi.microsoft.com/pricing)의 다른 기능에 대해 살펴봅니다.
 

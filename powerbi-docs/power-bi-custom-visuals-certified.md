@@ -2,6 +2,7 @@
 title: 인증된 Power BI 사용자 지정 시각화
 description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스. 이미 인증된 사용자 지정 시각적 개체 목록.
 author: mihart
+ms.author: mihart
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,45 +10,46 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.author: mihart
-ms.openlocfilehash: ba6c59d168deb5fb68f4b339f11fba795bae6452
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252402"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223447"
 ---
 # <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
+
 ## <a name="what-is-meant-by-certified"></a>*인증*이란?
+
 A *인증된 사용자 지정 시각적 개체*는 일련의 코드 요구 사항을 충족하고 엄격한 보안 테스트를 통과한 시각적 개체입니다.  사용자 지정 시각적 개체가 인증되면 [PowerPoint로 내보낼](consumer/end-user-powerpoint.md) 수 있으며 사용자가 [페이지를 보고하도록 구독](consumer/end-user-subscribe.md)하면 수신된 전자 메일에 표시됩니다. 물론, [표준 사용자 지정 시각적 개체](power-bi-custom-visuals.md)처럼 사용하여 Power BI 서비스 및 Power BI Desktop 보고서에 추가하고 Power BI 모바일에서 보고 내장시킬 수 있습니다.
 
-웹 개발자로서 고유한 시각화를 만들고 [Microsoft AppSource](https://appsource.microsoft.com)에 추가하는 데 관심이 있나요? 방법을 알아보려면 [개발자 도구 시작하기](service-custom-visuals-getting-started-with-developer-tools.md)를 참조하세요.
-
+웹 개발자로서 고유한 시각화를 만들고 [Microsoft AppSource](https://appsource.microsoft.com)에 추가하는 데 관심이 있나요? 자세한 내용은 [Power BI 사용자 지정 시각적 개체 개발](developer/custom-visual-develop-tutorial.md)을 참조하세요.
 
 ## <a name="certification-requirements"></a>인증 요구 사항
-* Microsoft AppSource 승인    
-* 사용자 지정 시각적 개체는 API 1.2 이상 버전으로 작성됩니다.    
-* 검토에 사용 가능한 코드 리포지토리(예: GitHub을 통해 사용할 수 있는 시각적 개체 코드)    
-* 공용 검토 가능한 OSS 구성 요소만 사용    
-* 외부 서비스 또는 리소스에 액세스하지 않습니다.    
+
+* Microsoft AppSource 승인
+* 사용자 지정 시각적 개체는 API 1.2 이상 버전으로 작성됩니다.
+* 검토에 사용 가능한 코드 리포지토리(예: GitHub을 통해 사용할 수 있는 시각적 개체 코드)
+* 공용 검토 가능한 OSS 구성 요소만 사용
+* 외부 서비스 또는 리소스에 액세스하지 않습니다.
 
 > **팁**: 코드를 제출하기 전에 미리 유효성을 검사하려면 기본 보안 규칙 집합을 포함하는 EsLint를 사용하는 것이 좋습니다.
-> 
-> 
 
 ## <a name="process-for-submitting-a-custom-visual-for-certification"></a>인증을 위해 사용자 지정 시각적 개체를 전송하는 프로세스
+
 인증을 위해 사용자 지정 시각적 개체를 제출하려면:
 
 1. Power BI 사용자 지정 시각적 개체 지원에 전자 메일을 보냅니다(pbicvsupport@microsoft.com). 전자 메일에는 다음 정보를 포함합니다.    
 
-   * 제목: 시각적 인증 요청    
-   * 시각적 소스 코드를 호스팅하는 GitHub 리포지토리에 연결    
-   * 요구 사항 준수(위 참조)    
-   * 코드 및 보안 검토 전달    
+   * 제목: 시각적 인증 요청
+   * 시각적 소스 코드를 호스팅하는 GitHub 리포지토리에 연결
+   * 요구 사항 준수(위 참조)
+   * 코드 및 보안 검토 전달
 
 2. Microsoft의 사용자 지정 시각적 개체 팀은 사용자 지정 시각적 개체를 인증하고 인증된 목록(아래)에 추가하거나 수정해야 하는 문제에 대한 보고서와 함께 거부하는 경우 사용자에게 알립니다. 개발자는 Microsoft와의 통신을 열어 두고 필요한 경우 인증된 시각적 개체를 업데이트하는 것을 담당합니다.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI 인증된 사용자 지정 시각적 개체 제거
+
 Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 제거할 수 있습니다.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>인증된 사용자 지정 시각적 개체의 목록
@@ -142,10 +144,11 @@ Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 �
 | [워드 클라우드](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [비디오](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>다음 단계
-[사용자 지정 시각적 개체 개발자 도구 시작하기(미리 보기)](service-custom-visuals-getting-started-with-developer-tools.md)      
-[YouTube에서 Microsoft의 사용자 지정 시각적 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Power BI의 시각화](visuals/power-bi-report-visualizations.md)  
-[Power BI의 사용자 지정 시각화](power-bi-custom-visuals.md)  
-[Microsoft AppSource에 사용자 지정 시각적 개체 게시](developer/office-store.md)  
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 
+* [Power BI 사용자 지정 시각적 개체 개발](developer/custom-visual-develop-tutorial.md)
+* [YouTube에서 Microsoft의 사용자 지정 시각적 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
+* [Power BI의 시각화](visuals/power-bi-report-visualizations.md)  
+* [Power BI의 사용자 지정 시각화](power-bi-custom-visuals.md)  
+* [Microsoft AppSource에 사용자 지정 시각적 개체 게시](developer/office-store.md)  
+
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

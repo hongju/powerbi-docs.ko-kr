@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
-ms.openlocfilehash: 34f34fd0a83367e306f8d84b4f9ebdf3cf30af93
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396776"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223056"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI용 백서
 
@@ -36,7 +36,7 @@ ms.locfileid: "49396776"
 | [Power BI 및 SAP BW](https://aka.ms/powerbiandsapbw)| 이 아티클에서는 SAP 고객이 Power BI를 기존 SAP BW(비즈니스 웨어하우스) 시스템에 연결하여 활용하는 방법에 대해 설명합니다.| 2018년 2월 |
 | [Power BI 거버넌스 및 배포 방법](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) | Power BI 에코시스템 내에서 거버넌스의 개념, 옵션 및 제안을 제공합니다. | 2016년 3월 |
 | [테이블 형식 BI 의미 체계 모델 보안](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |이 문서에서는 테이블 형식 BI 의미 체계 및 Power BI의 보안 모델을 소개합니다. 네트워크 보안 컨텍스트에서 작동하는 모델에 연결하기 위해 역할을 만들고, 동적 보안을 구현하고, 가장 설정을 구성하고, 역할을 관리하고, 메서드를 선택하는 방법을 알아봅니다. | 2016년 4월 |
-| [Power BI 및 GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| 이 링크는 Microsoft Power BI GDPR 백서를 포함하는 Service Trust Portal의 백서 목록으로 안내합니다. | 2018년 4월 |
+| [Power BI 및 GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| 이 링크를 통해 Microsoft Power BI GDPR 백서를 비롯한 Service Trust Portal의 백서 목록으로 이동합니다. | 2018년 4월 |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 

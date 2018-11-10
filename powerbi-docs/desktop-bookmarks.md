@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6bc8eea6138f2961457d03eaf5ef88d0327a058d
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549917"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909574"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비롯한 보고서 페이지의 현재 구성된 보기를 캡처하고 저장된 해당 책갈피를 선택하여 나중에 해당 상태로 돌아갈 수 있습니다. 
@@ -44,13 +44,12 @@ Power BI Desktop 2018년 3월 버전부터 책갈피가 일반 공급됩니다.
 
 * 현재 페이지
 * 필터
-* 슬라이서
+* 슬라이서 유형(예: 드롭다운 또는 목록) 및 슬라이서 상태를 포함한 슬라이서
+* 시각적 개체 선택 상태(예: 필터 상호 강조 표시)
 * 정렬 순서
 * 드릴 위치
 * 표시 유형(**선택** 창을 사용하는 개체)
 * 표시 되는 개체의 포커스 또는 **스포트라이트** 모드
-
-현재 책갈피는 교차 강조 표시 상태를 저장하지 않습니다. 
 
 책갈피에 표시하려는 대로 보고서 페이지를 구성합니다. 보고서 페이지 및 시각적 개체가 원하는 대로 정렬되면 **책갈피** 창에서 **추가**를 선택하여 책갈피를 추가합니다. 
 

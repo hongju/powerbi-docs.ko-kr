@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: 2ea6f2e557f26358ab6a93d33c890e90c96885f4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6d494ebf00388478bea802dbb713f1025d428439
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34564653"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101235"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>보고서 서버 제품 키를 확인하는 방법
 프로덕션 환경에서 서버를 설치하기 위해 Power BI Report Server 제품 키를 찾는 방법에 대해 알아봅니다.
@@ -47,7 +47,7 @@ SQL Server Enterprise SA 규약이 있는 경우 [볼륨 라이선스 서비스 
 ## <a name="next-steps"></a>다음 단계
 [Power BI Report Server 설치](install-report-server.md)  
 [Power BI Report Server에 최적화된 Power BI Desktop 설치](install-powerbi-desktop.md)  
-[보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

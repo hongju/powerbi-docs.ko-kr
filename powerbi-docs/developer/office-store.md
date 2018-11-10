@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: d46acd9c70e8deb7fb9ae6d241256e61b7f85b65
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.openlocfilehash: 4ac828baa4f6080ab50008aa4ffb570ff016246f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50153751"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223139"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource에 사용자 지정 시각적 개체 게시
 
@@ -102,7 +102,7 @@ Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [개발자 센터
    * 지원 문서 링크
    * 개인정보처리방침 링크
    * 비디오 링크
-   * EULA(최종 사용자 사용권 계약)
+   * 최종 사용자 사용권 계약(EULA)
 
        EULA 파일을 업로드해야 합니다. 자체적인 EULA를 사용하거나 Office 스토어 내에 있는 Power BI 사용자 지정 시각적 개체에 대한 기본 EULA를 사용할 수 있습니다. 기본 EULA를 사용하려면 판매자 대시보드의 “최종 사용자 사용권 계약” 파일 업로드 대화 상자에 다음 URL을 붙여넣습니다. [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
 
@@ -147,7 +147,7 @@ Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [개발자 센터
 
 ## <a name="next-steps"></a>다음 단계
 
-[개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Power BI 사용자 지정 시각적 개체 개발](custom-visual-develop-tutorial.md)  
 [Power BI의 시각화](../visuals/power-bi-report-visualizations.md)  
 [Power BI의 사용자 지정 시각화](../power-bi-custom-visuals.md)  
 [*인증된* 사용자 지정 시각적 개체 가져오기](../power-bi-custom-visuals-certified.md)

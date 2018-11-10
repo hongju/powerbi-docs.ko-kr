@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 41f48e886c376f6cc00a76313538e5a6b9ac1c3b
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: c80ded7a21eb8110467a2335253fa1a68942cc2c
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641945"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101534"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -169,7 +169,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 [Power BI Report Server란?](get-started.md)
 [관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
-[보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

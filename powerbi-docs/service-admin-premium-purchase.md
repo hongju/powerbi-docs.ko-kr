@@ -48,7 +48,7 @@ Power BI Premium에 대한 자세한 내용은 [Power BI Premium이란?](service
 
     ![Office 365 앱 선택](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    또는 Office 365 관리 센터를 찾아볼 수 있습니다. https://portal.office.com으로 이동하여 **관리자**를 선택하면 도달할 수 있습니다.
+    또는 Office 365 관리 센터를 찾아볼 수 있습니다. [https://portal.office.com](https://portal.office.com)으로 이동하여 **관리자**를 선택하면 도달할 수 있습니다.
 
 1. **청구** > **서비스 구입**을 선택합니다.
 

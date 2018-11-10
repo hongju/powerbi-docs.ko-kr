@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: 813d65844fee21a6c10d4c95bd15fb18cf4c75c2
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: ed3a7a7c9f649f5ce834594572e3ab87b91181f5
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50160666"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223424"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>자습서: Power BI 사용자 지정 시각적 개체 개발
 
@@ -39,6 +39,7 @@ Power BI Desktop 보고서에서 카드는 Circle Card가 되도록 수정됩니
 
 * 아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/en-us/pricing/)합니다.
 * [Visual Studio Code](https://www.visualstudio.com/)가 설치되어 있어야 합니다.
+* Windows 사용자의 경우 [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) 버전 4 이상이 필요하고, OSX 사용자의 경우 [터미널](https://macpaw.com/how-to/use-terminal-on-mac)이 필요합니다.
 
 ## <a name="setting-up-the-developer-environment"></a>개발자 환경 설정
 
@@ -69,6 +70,8 @@ Power BI Desktop 보고서에서 카드는 Circle Card가 되도록 수정됩니
     ```
 
 ### <a name="creating-and-installing-a-certificate"></a>인증서 만들기 및 설치
+
+#### <a name="windows"></a>Windows
 
 1. 인증서를 만들려면 다음 명령을 입력합니다.
 
@@ -117,13 +120,32 @@ Power BI Desktop 보고서에서 카드는 Circle Card가 되도록 수정됩니
 > [!Important]
 > Windows PowerShell 세션을 닫지 마세요.
 
+#### <a name="osx"></a>OSX
+
+1. 왼쪽 위의 자물쇠가 잠겨 있으면 이 자물쇠를 선택하여 잠금을 해제합니다. *localhost*를 검색하고 해당 인증서를 두 번 클릭합니다.
+
+    ![OSX에서 SSL 인증서 1 설치](media/custom-visual-develop-tutorial/install-ssl-certificate-osx.png)
+
+2. **항상 신뢰**를 선택하고 창을 닫습니다.
+
+    ![OSX에서 SSL 인증서 2 설치](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
+
+3. 사용자 이름과 암호를 입력 합니다. **설정 업데이트**를 선택합니다.
+
+    ![OSX에서 SSL 인증서 3 설치](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
+
+4. 열려 있는 브라우저를 모두 닫습니다.
+
+> [!NOTE]
+> 인증서가 인식되지 않으면 컴퓨터를 다시 시작해야 합니다.
+
 ## <a name="creating-a-custom-visual"></a>사용자 지정 시각적 개체 만들기
 
 사용자 환경을 설정했으므로 사용자 지정 시각적 개체를 만들어 보겠습니다.
 
 이 자습서의 전체 소스 코드를 [다운로드](https://github.com/Microsoft/PowerBI-visuals-circlecard)할 수 있습니다.
 
-1. Windows PowerShell에서 Power BI Visual Tools 패키지가 설치되었는지 확인합니다.
+1. Power BI Visual Tools 패키지가 설치되었는지 확인합니다.
 
     ```powershell
     pbiviz
@@ -555,6 +577,10 @@ PowerShell에서 실행 중인 사용자 지정 시각적 개체를 중지하려
 이제 데이터 역할을 구성하고 시각적 개체를 데이터 보기에 바인딩했습니다.
 
 다음 자습서에서는 서식 옵션을 사용자 지정 시각적 개체에 추가하는 방법을 알아봅니다.
+
+## <a name="debugging"></a>디버깅
+
+사용자 지정 시각적 개체의 디버깅에 대한 팁은 [디버깅 가이드](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/)를 을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

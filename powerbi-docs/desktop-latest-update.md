@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7de1b47656ae06f522b4b86a124bf558a660ba4e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: b2e73621fe974da97e3a766fa25110522b36448b
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473408"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223286"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>최신 Power BI Desktop 업데이트의 새로운 기능
 
@@ -62,7 +62,7 @@ ms.locfileid: "49473408"
 * 현재 사용 가능한 SAP BW 커넥터 구현 v2  [[비디오]](https://youtu.be/MhrhIXNtelw?t=133)   [[문서]](desktop-sap-bw-connector.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBW) 
 * 현재 사용 가능한 SAP BW 메시지 서버 커넥터  [[비디오]](https://youtu.be/MhrhIXNtelw?t=159) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBWmessageServer) 
 * 현재 사용 가능한 Vertica 커넥터   [[비디오]](https://youtu.be/MhrhIXNtelw?t=175)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23vertica) 
-* 현재 사용 가능한 Dynamics NAV 및 Dynamics 365 비즈니스 중앙 커넥터  [[비디오]](https://youtu.be/MhrhIXNtelw?t=197)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
+* 현재 사용 가능한 Dynamics NAV 및 Dynamics 365 비즈니스 중앙 커넥터 [[비디오]](https://youtu.be/MhrhIXNtelw?t=197)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
 * 새 Dynamics 365 비즈니스 중앙 온-프레미스 커넥터 [[비디오]](https://youtu.be/MhrhIXNtelw?t=219) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamicsOnPrem) 
 
 ### <a name="data-preparation"></a>데이터 준비
