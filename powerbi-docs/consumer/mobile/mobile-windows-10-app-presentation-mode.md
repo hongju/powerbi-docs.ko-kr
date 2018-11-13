@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: d265e465825fb8def167207ed632f1702adcbc7f
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973635"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507936"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Surface Hub, Windows 10에서 프레젠테이션 모드로 보고서 보기 - Power BI
 Surface Hub에서 보고서를 프레젠테이션 모드로 표시하고 Windows 10 장치에서 대시보드, 보고서 및 타일을 전체 화면 모드로 표시할 수 있습니다. 
@@ -27,7 +27,7 @@ Power BI 모바일 앱의 전체 화면 모드에서는 페이지 탭과 보고�
 
 Surface Hub에서 보고서를 프레젠테이션 모드로 표시하는 경우, 페이지에서 다양한 잉크 색으로 그릴 수 있고 보고서의 페이지 사이를 이동할 수 있습니다.
 
-웹의 [Power BI 서비스에서 전체 화면 모드로 대시보드와 보고서를 표시할 수](../../service-fullscreen-mode.md)도 있습니다.
+웹의 [Power BI 서비스에서 전체 화면 모드로 대시보드와 보고서를 표시할 수](../end-user-focus.md)도 있습니다.
 
 > [!NOTE]
 > 프레젠테이션 모드는 [타일용 포커스 모드](mobile-tiles-in-the-mobile-apps.md)와 다릅니다.
@@ -74,6 +74,6 @@ Surface Hub에서는 기본적으로 프레젠테이션 모드가 켜져 있지�
 7. 전제 화면 모드를 끝내려면 맨 위에서 아래로 살짝 밀고 안쪽을 향하는 두 개의 화살표 ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png)를 탭합니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 서비스에서 전체 화면 모드로 대시보드 및 보고서 표시](../../service-fullscreen-mode.md)
+* [Power BI 서비스에서 전체 화면 모드로 대시보드 및 보고서 표시](../end-user-focus.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

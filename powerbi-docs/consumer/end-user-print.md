@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 636dbceae129d7a5288fa6dfc8a281d5257a087f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564995"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507672"
 ---
 # <a name="printing-from-power-bi-service"></a>Power BI 서비스에서 인쇄
 Power BI 서비스에서 전체 대시보드, 대시보드 타일, 보고서 페이지 또는 보고서 시각적 개체를 인쇄합니다. 보고서는 한 번에 한 페이지만 인쇄할 수 있습니다. 전체 보고서를 한 번에 인쇄할 수는 없습니다.
@@ -47,7 +47,7 @@ Amanda가 대시보드 및 보고서에서 인쇄하는 모습을 시청합니�
 1. 줄임표를 선택하고 포커스 아이콘 ![포커스 아이콘](./media/end-user-print/power-bi-focus-icon.png)을 선택하여 [포커스 모드에서 타일을 엽니다](end-user-focus.md).
    
     ![줄임표 메뉴](./media/end-user-print/menu-options.png)
-2. 이제 맨 위 탐색 모음에서 전체 화면 아이콘 ![전체 화면 아이콘](./media/end-user-print/power-bi-full-screen-icon.png)을 선택하여 [전체 화면 모드](../service-fullscreen-mode.md)에서 타일을 봅니다.
+2. 이제 맨 위 탐색 모음에서 전체 화면 아이콘 ![전체 화면 아이콘](./media/end-user-print/power-bi-full-screen-icon.png)을 선택하여 [전체 화면 모드](end-user-focus.md)에서 타일을 봅니다.
 3. 타일을 마우스로 가리켜서 옵션 메뉴 표시
    
     ![전체 화면 옵션 메뉴](./media/end-user-print/menu-options-new.png)

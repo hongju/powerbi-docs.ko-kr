@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558450"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297139"
 ---
 # <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
 
@@ -47,9 +47,9 @@ ms.locfileid: "45558450"
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 다운로드 및 설치
 
-게이트웨이를 다운로드하려면 다운로드 메뉴에서 **데이터 게이트웨이** 를 선택합니다. [온-프레미스 데이터 게이트웨이](http://go.microsoft.com/fwlink/?LinkID=820925)를 다운로드합니다. 
+게이트웨이를 다운로드하려면 다운로드 메뉴에서 **데이터 게이트웨이** 를 선택합니다. [온-프레미스 데이터 게이트웨이](http://go.microsoft.com/fwlink/?LinkID=820925)를 다운로드합니다.
 
-온-프레미스 데이터 게이트웨이를 업데이트는 이 섹션에서 설명된 대로 게이트웨이를 재설치함으로써 수행됩니다. 다시 설치하여 게이트웨이를 업데이트할 때 기존 게이트웨이 설정이 유지됩니다.
+이 섹션에 설명된 대로 게이트웨이를 다시 설치하여 온-프레미스 데이터 게이트웨이를 업데이트합니다. 최신 버전의 게이트웨이를 설치하면 기존 설정이 유지됩니다. 동일한 버전을 설치하면 이는 완전한 다시 설치로 처리되고 설정이 유지되지 않습니다.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -118,7 +118,7 @@ ms.locfileid: "45558450"
 [데이터 원본 관리 - Oracle](service-gateway-onprem-manage-oracle.md)  
 [데이터 원본 관리 - 가져오기/예약된 새로 고침](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)  
-[온-프레미스 데이터 게이트웨이(개인 모드) - 새 버전의 개인 게이트웨이](service-gateway-personal-mode.md)
+[온-프레미스 데이터 게이트웨이(개인 모드) - 개인 게이트웨이의 새 버전](service-gateway-personal-mode.md)  
 [온-프레미스 데이터 게이트웨이에 대한 프록시 설정 구성](service-gateway-proxy.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

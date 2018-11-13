@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544969"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507856"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>멋진 Power BI 대시보드를 디자인하기 위한 팁
 이제 대시보드를 만들고 일부 타일을 추가했으므로 모양과 기능을 개선하는 방법을 살펴보겠습니다. 일반적으로 여기에는 가장 중요한 정보를 돋보이게 하고 깔끔하며 군더더기 없이 만드는 것이 포함됩니다.
@@ -43,7 +43,7 @@ Microsoft의 수석 프로그램 관리자이며 Power BI 대시보드 전문가
 대시보드가 너무 복잡한가요?  필수 정보를 쉽게 읽고 해석할 수 있도록 군더더기 제거
 
 ## <a name="make-use-of-full-screen-mode"></a>전체 화면 모드 사용
-다른 항목 없이 [전체 화면](service-fullscreen-mode.md)에서 대시보드를 표시합니다.
+다른 항목 없이 [전체 화면](consumer/end-user-focus.md)에서 대시보드를 표시합니다.
 
 ## <a name="make-the-most-important-information-biggest"></a>가장 중요한 정보를 가장 비중있게
 대시보드에서 시각화와 텍스트가 모두 동일한 크기인 경우 독자들은 가장 중요한 사항에 초점을 맞추기 어려워합니다. 예를 들어, 카드 시각화의 경우 중요한 번호를 눈에 띄게 표시하는 좋은 방법입니다.  
