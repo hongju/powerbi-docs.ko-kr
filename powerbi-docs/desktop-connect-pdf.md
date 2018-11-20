@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fe13e5776648342aa4f7e86dce657e6ffcca11b9
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 2ecd4b8e6295431f520dea61454bbf868bfab254
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44513294"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619679"
 ---
 # <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>Power BI Desktop에서 PDF 파일에 연결(미리 보기)
 Power BI Desktop에서 Power BI Desktop의 다른 데이터 원본처럼 **PDF 파일**에 연결하여 파일에 포함된 데이터를 사용할 수 있습니다.
@@ -45,6 +45,10 @@ PDF 커넥터는 **Power BI Desktop**에서 미리 보기로 있으며, 사용�
 ![PDF 파일의 데이터에 연결](media/desktop-connect-pdf/connect-pdf_04.png)
 
 PDF 파일에서 검색된 요소 옆의 확인란을 선택하면 오른쪽 창에 해당 요소가 표시됩니다. 가져올 준비가 되면 **로드** 단추를 선택하여 **Power BI Desktop**으로 데이터를 가져옵니다.
+
+**Power BI Desktop**의 2018년 11월 릴리스부터 PDF 연결에 대한 선택적 매개 변수로 **Start page** 및 **End Page**를 지정할 수 있습니다. 다음 형식을 사용하여 M 수식 언어로 이러한 매개 변수를 지정할 수도 있습니다.
+
+`Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
 
 
 ## <a name="next-steps"></a>다음 단계

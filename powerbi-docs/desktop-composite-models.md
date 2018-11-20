@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop의 복합 모델 사용(미리 보기)
+title: Power BI Desktop의 복합 모델 사용
 description: Power BI Desktop에서 여러 데이터 연결 및 다 대 다 관계를 사용하여 데이터 모델 만들기
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: b7a8323557f769fa2a05d504de2540bc505e7a54
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435399"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619704"
 ---
-# <a name="use-composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop의 복합 모델 사용(미리 보기)
+# <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop의 복합 모델 사용
 
 이전에 Power BI Desktop에서 보고서에 DirectQuery를 사용했을 때 &mdash;DirectQuery 또는 가져오기인지 여부와 관계없이&mdash; 해당 보고서에 대한 다른 데이터 연결이 허용되지 않습니다. 복합 모델을 사용하면 해당 제한이 제거됩니다. 보고서에는 둘 이상의 DirectQuery 또는 가져오기 데이터 연결의 데이터 연결이 선택한 조합으로 원활하게 포함될 수 있습니다.
 
@@ -29,17 +29,7 @@ Power BI Desktop의 복합 모델 기능은 다음 세 가지 관련 기능으�
 
 * **다 대 다 관계**: *복합 모델*을 사용하면 테이블 간에 *다 대 다 관계*를 설정할 수 있습니다. 이 방법은 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계를 설정하기 위해 새 테이블만 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)를 참조하세요.
 
-* **저장소 모드**: 이제 데이터 원본을 백 엔드로 쿼리하는 데 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 자세한 내용은 [Power BI Desktop의 저장소 모드(미리 보기)](desktop-storage-mode.md)를 참조하세요.
-
-## <a name="enable-the-composite-models-preview-feature"></a>복합 모델 미리 보기 기능 사용
-
-복합 모델 기능은 미리 보기에 있으며 Power BI Desktop에서 사용하도록 설정해야 합니다. 복합 모델을 사용하려면 **파일** > **옵션 및 설정** > **옵션** > **미리 보기 기능**을 선택한 다음, **복합 모델** 확인란을 선택합니다. 
-
-![“미리 보기 기능” 창](media/desktop-composite-models/composite-models_02.png)
-
-이 기능을 사용하려면 Power BI Desktop을 다시 시작해야 합니다.
-
-![“기능을 다시 시작해야 합니다.” 창](media/desktop-composite-models/composite-models_03.png)
+* **저장소 모드**: 이제 백 엔드 데이터 원본에 대한 쿼리가 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 자세한 내용은 [Power BI Desktop의 저장소 모드(미리 보기)](desktop-storage-mode.md)를 참조하세요.
 
 
 ## <a name="use-composite-models"></a>복합 모델 사용

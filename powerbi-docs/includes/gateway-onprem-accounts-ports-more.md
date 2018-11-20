@@ -61,14 +61,14 @@
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
-## <a name="support-for-tls-1112"></a>TLS 1.1/1.2에 대한 지원
+## <a name="support-for-tls-12"></a>TLS 1.2에 대한 지원
 
-온-프레미스 데이터 게이트웨이는 기본적으로 TLS(전송 계층 보안) 1.1 또는 1.2를 사용하여 **Power BI 서비스**와 통신합니다. 온-프레미스 데이터 게이트웨이의 이전 버전은 기본적으로 TLS 1.0을 사용합니다. 2018년 3월 15일에 TLS 1.0을 사용하여 **Power BI 서비스**와 상호 작용하는 게이트웨이 기능을 포함하여 TLS 1.0 지원이 종료됩니다. 게이트웨이가 계속 작동하도록 하려면 온-프레미스 데이터 게이트웨이 설치를 업그레이드해야 합니다.
+기본적으로 온-프레미스 데이터 게이트웨이는 TLS(전송 계층 보안) 1.2를 사용하여 Power BI 서비스와 통신합니다. 모든 게이트웨이 트래픽이 TLS 1.2를 사용하도록 하려면 게이트웨이 서비스를 실행 중인 머신에 다음 레지스트리 키를 추가하거나 수정해야 할 수 있습니다.
 
-11월 1일 전까지 TLS 1.0은 온-프레미스 데이터 게이트웨이로 계속 지원되며, 대체 메커니즘으로 게이트웨이에서 사용됩니다. 모든 게이트웨이 트래픽에서 TLS 1.1 또는 1.2를 사용하도록 하려면(및 게이트웨이에서 TLS 1.0을 사용하지 않도록 하려면) 게이트웨이 서비스를 실행하는 컴퓨터에서 다음 레지스트리 키를 추가하거나 수정해야 합니다.
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > 이러한 레지스트리 키를 추가하거나 수정하면 변경 내용이 모든 .NET 응용 프로그램에 적용됩니다. 다른 응용 프로그램에 대한 TLS에 영향을 주는 레지스트리 변경에 대한 정보는 [TLS(전송 계층 보안) 레지스트리 설정](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)을 참조하세요.

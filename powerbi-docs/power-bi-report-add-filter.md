@@ -1,25 +1,27 @@
 ---
-title: Power BI의 시각적 개체, 페이지, 드릴스루 또는 보고서에 필터 추가
-description: Power BI의 보고서에 페이지 필터, 시각화 필터, 보고서 필터 또는 드릴스루 필터 추가
+title: Power BI 보고서에 필터 추가
+description: Power BI의 보고서에 페이지 필터, 시각화 필터 또는 보고서 필터 추가
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 11/08/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c70e29bf7dcd5a307cbcb4762595716595dfa523
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
+ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973284"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51611155"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Power BI 서비스 보고서에 필터 추가(편집용 보기)
 
 이 문서에서는 Power BI의 보고서에 페이지 필터, 시각화 필터, 보고서 필터 또는 드릴스루 필터를 추가하는 방법을 설명합니다. 이 문서의 예제는 Power BI 서비스에 있습니다. 단계는 Power BI Desktop과 거의 동일합니다.
+
+**알고 계십니까?** Power BI에는 현재 미리 보기로 제공되는 새 필터 환경이 있습니다. [Power BI 보고서의 새 필터 환경](power-bi-report-filter-preview.md)에 대해 자세히 알아보세요.
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>편집용 보기 또는 읽기용 보기의 필터
 읽기용 보기 및 편집용 보기의 두 가지 보기에서 보고서를 조작할 수 있습니다. 사용할 수 있는 필터링 기능은 현재 보기에 따라 달라집니다. 자세한 내용은 모든 [필터 및 Power BI 보고서에서 강조 표시 정보](power-bi-reports-filters-and-highlighting.md)를 참조하세요.
@@ -75,7 +77,7 @@ ms.locfileid: "50973284"
 
 이제 새 필드를 시각화에 시각적 수준 필터로 추가하겠습니다.
    
-1. [필드] 창에서 새 시각적 수준 필터로 추가하려는 필드를 선택하고 **시각적 수준 필터 영역**으로 끌어 놓습니다.  이 예제에서는 **지역 관리자**를 **시각적 수준 필터** 버킷으로 끌어 놓고, **an**을 검색하고, 해당하는 3명의 관리자를 선택합니다. 
+1. [필드] 창에서 새 시각적 수준 필터로 추가하려는 필드를 선택하고 **시각적 수준 필터 영역**으로 끌어 놓습니다.  이 예제에서는 **지역 관리자**를 **시각적 수준 필터** 버킷으로 끌어놓고, **an**을 검색하고, 해당하는 3명의 관리자를 선택합니다. 
      
     ![](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -109,7 +111,7 @@ Power BI 서비스 및 Power BI Desktop의 드릴스루를 사용하여 공급 �
 ### <a name="create-a-drillthrough-filter"></a>드릴스루 필터 만들기
 과정을 따르려면 편집용 보기에서 고객 수익성 샘플을 엽니다. 경영진 비즈니스 영역에 초점을 두는 페이지를 원하는 경우를 가정해 봅니다.   
 
-1. 보고서에 새 페이지를 추가하고 이름을 **팀 경영진**으로 지정합니다. 드릴스루 *대상* 페이지가 됩니다.
+1. 보고서에 새 페이지를 추가하고 이름을 **팀 경영진**으로 지정합니다. 이 페이지는 드릴스루 *대상*이 됩니다.
 2. 팀 경영진의 비즈니스 영역에 대한 주요 메트릭을 추적하는 시각화를 추가합니다.    
 3. 드릴스루 필터 웰에 **경영진 > 경영진 이름**을 추가합니다.    
    
@@ -144,7 +146,7 @@ Power BI 서비스 및 Power BI Desktop의 드릴스루를 사용하여 공급 �
 
 - 시각적 수준 필터 및 페이지 수준 필터에서 서로 다른 결과를 반환할 수 있는 경우가 있습니다.  예를 들어 시각적 수준 필터를 추가하는 경우 Power BI는 집계된 결과를 필터링합니다.  기본 집계는 Sum이지만 [집계 형식을 변경](service-aggregates.md)할 수 있습니다.  
 
-    그러면 페이지 수준 필터를 추가하는 경우 Power BI는 집계하지 않고 필터링합니다.  이는 한 페이지에 각각 다른 집계 형식을 활용할 수 있는 많은 시각적 개체가 포함될 수 있기 때문입니다.  따라서 각 데이터 행에 필터가 적용됩니다.
+    그러면 페이지 수준 필터를 추가하는 경우 Power BI는 집계하지 않고 필터링합니다.  한 페이지에 각각 다른 집계 형식을 활용할 수 있는 많은 시각적 개체가 포함될 수 있기 때문에 집계하지 않습니다.  따라서 각 데이터 행에 필터가 적용됩니다.
 
 - 필드 창이 표시되지 않으면 보고서 [편집용 보기](service-interact-with-a-report-in-editing-view.md)에 있는지 확인하십시오.    
 - 필터를 많이 변경하고 보고서 작성자 기본 설정으로 되돌리려는 경우 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다.

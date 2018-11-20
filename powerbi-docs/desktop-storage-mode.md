@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: df61b9c68407ef0d00d1d5981c57021e7659cfff
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359749"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619497"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop의 저장소 모드(미리 보기)
 
@@ -43,16 +43,6 @@ Power BI Desktop의 저장소 모드 설정은 다음 세 가지 관련 기능 �
 
 * **저장소 모드**: 이제 백 엔드 데이터 원본에 대한 쿼리가 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 저장소 모드는 이 문서에서 더 자세히 설명합니다.
 
-## <a name="enable-the-storage-mode-preview-feature"></a>저장소 모드 미리 보기 기능 사용
-
-저장소 모드 기능은 미리 보기로 제공되고 Power BI Desktop에서 사용하도록 설정해야 합니다. 저장소 모드를 사용하려면 **파일** > **옵션 및 설정** > **옵션** > **미리 보기 기능**을 선택한 다음, **복합 모델** 확인란을 선택합니다. 
-
-![“미리 보기 기능” 창](media/desktop-composite-models/composite-models_02.png)
-
-기능을 사용하려면 Power BI Desktop을 다시 시작합니다.
-
-![“기능을 다시 시작해야 합니다.” 창](media/desktop-composite-models/composite-models_03.png)
-
 ## <a name="use-the-storage-mode-property"></a>저장소 모드 속성 사용
 
 저장소 모드는 모델의 각 테이블에서 설정할 수 있는 속성입니다. 저장소 모드를 설정하려면 **필드** 창에서 설정할 속성이 포함된 테이블을 마우스 오른쪽 단추로 클릭한 다음, **속성**을 선택합니다.
@@ -75,19 +65,7 @@ Power BI Desktop의 저장소 모드 설정은 다음 세 가지 관련 기능 �
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>DirectQuery 및 이중 테이블에 대한 제약 조건
 
-이중 테이블에는 DirectQuery 테이블과 동일한 제약 조건이 있습니다. 이러한 제약 조건에는 제한된 M 변환 및 계산 열의 제한된 DAX 함수가 포함됩니다. 자세한 내용은 [DirectQuery 사용의 의미](desktop-directquery-about.md#implications-of-using-directquery)를 참조하세요.
-
-## <a name="relationship-rules-on-tables-with-different-storage-modes"></a>다양한 저장소 모드가 포함된 테이블에 대한 관계 규칙
-
-관계는 관련 테이블의 저장소 모드를 기반으로 하는 규칙을 준수해야 합니다. 이 섹션서는 유효한 조합의 예제를 제공합니다. 자세한 내용은 [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)를 참조하세요.
-
-단일 데이터 원본이 있는 데이터 집합의 경우 다음 *일 대 다* 관계 조합이 유효합니다.
-
-| ‘다’ 쪽의 테이블 | ‘일’ 쪽의 테이블 |
-| ------------- |----------------------| 
-| 이중          | 이중                 | 
-| 가져오기        | 가져오기 또는 이중       | 
-| DirectQuery   | DirectQuery 또는 이중  | 
+이중 테이블에는 DirectQuery 테이블과 동일한 함수 제약 조건이 있습니다. 이러한 제약 조건에는 제한된 M 변환 및 계산 열의 제한된 DAX 함수가 포함됩니다. 자세한 내용은 [DirectQuery 사용의 의미](desktop-directquery-about.md#implications-of-using-directquery)를 참조하세요.
 
 ## <a name="propagation-of-dual"></a>이중 전파
 가져오기 및 DirectQuery를 지원하는 단일 원본에서 모든 테이블을 가져오는 경우 다음 간단한 모델을 사용하는 것이 좋습니다.
@@ -98,14 +76,11 @@ Power BI Desktop의 저장소 모드 설정은 다음 세 가지 관련 기능 �
 
 ![저장소 모드 경고 창](media/desktop-storage-mode/storage-mode_05.png)
 
-이전에 설명한 관계 규칙을 준수하려면 차원 테이블(*Customer*, *Date* 및 *Geography*)을 **이중**으로 설정해야 합니다. 사전에 이러한 테이블을 **이중**으로 설정할 필요 없이 단일 작업으로 설정할 수 있습니다.
+데이터 세트의 약한 관계 수를 줄이고 성능을 향상하기 위해 차원 테이블(*Customer*, *Geography*, *Date*)을 **이중**으로 설정할 수 있습니다. 약한 관계에는 일반적으로 원본 시스템에 조인 논리를 밀어 넣을 수 없는 DirectQuery 테이블이 하나 이상 포함됩니다. **이중** 테이블이 DirectQuery 또는 가져오기로 작동할 수 있다는 사실은 이를 방지하는 데 도움이 됩니다.
 
 전파 논리는 많은 테이블을 포함하는 모델에 도움이 되도록 디자인되었습니다. 50개 테이블이 포함된 모델이 있고 특정 팩트(트랜잭션) 테이블만 캐시해야 한다고 가정합니다. Power BI Desktop의 논리가 **이중**으로 설정해야 하는 최소 차원 테이블 집합을 계산하므로 사용자가 계산할 필요가 없습니다.
 
 전파 논리는 **일 대 다** 관계의 한쪽으로만 이동합니다.
-
-* DirectQuery 테이블 *Sales* 및 *SurveyResponse*에 대한 관계 때문에 *SurveyResponse*를 변경하는 대신 *Customer* 테이블을 **가져오기**로 변경할 수는 없습니다.
-* *SurveyResponse*를 변경하는 대신 *Customer* 테이블을 **이중**으로 변경할 수는 있습니다. 전파 논리는 *Geography* 테이블도 **이중**으로 설정합니다.
 
 ## <a name="storage-mode-usage-example"></a>저장소 모드 사용 예제
 이전 섹션의 예제를 계속 진행하고 다음 저장소 모드 속성 설정을 적용한다고 가정해 보겠습니다.
@@ -127,7 +102,7 @@ Power BI Desktop의 저장소 모드 설정은 다음 세 가지 관련 기능 �
 
 * *SurveyResponse* 테이블을 기반으로 하는 보고서 쿼리는 메모리 내 캐시에서 반환되므로 비교적 빠릅니다.
 
-## <a name="queries-that-hit-or-miss-the-cache"></a>캐시를 적중 또는 누락하는 쿼리
+## <a name="queries-that-hit-or-miss-the-cache"></a>캐시를 적중 또는 무시하는 쿼리
 
 Power BI Desktop의 진단 포트에 **SQL 프로파일러**를 연결하면 다음 이벤트에 따라 추적을 수행하여 메모리 내 캐시를 적중 또는 누락하는 쿼리를 확인할 수 있습니다.
 
@@ -191,4 +166,3 @@ DirectQuery를 사용하여 이러한 다차원 원본에 연결하는 경우 �
 * [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)
 * [Power BI의 DirectQuery 사용](desktop-directquery-about.md)
 * [Power BI의 DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
-

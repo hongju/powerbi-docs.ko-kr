@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359726"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619727"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop의 집계(미리 보기)
 
@@ -25,15 +25,15 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 
 **집계**를 사용하는 이점은 다음과 같습니다.
 
-* **큰 데이터 집합에 대한 쿼리 성능** - 사용자가 Power BI 보고서에서 시각적 개체와 상호 작용할 때 DAX 쿼리가 데이터 집합에 제출됩니다. 세부 정보 수준에서 필요한 리소스의 일부를 사용하여 집계된 수준에서 데이터를 캐싱하여 쿼리 속도를 높입니다. 그렇지 않으면 가능하지 않았던 방법으로 빅 데이터의 잠금을 해제합니다.
+* **빅 데이터에 대한 쿼리 성능** - 사용자가 Power BI 보고서에서 시각적 개체와 상호 작용할 때 DAX 쿼리가 데이터 세트에 제출됩니다. 세부 정보 수준에서 필요한 리소스의 일부를 사용하여 집계된 수준에서 데이터를 캐싱하여 쿼리 속도를 높입니다. 그렇지 않으면 가능하지 않았던 방법으로 빅 데이터의 잠금을 해제합니다.
 * **데이터 새로 고침 최적화** - 집계된 수준에서 데이터를 캐싱하여 캐시 크기와 새로 고침 횟수를 줄입니다. 사용자가 데이터를 사용할 수 있게 하는 시간이 빨라집니다.
 * **분산된 아키텍처 구현** - Power BI 메모리 내 캐시에서 집계된 쿼리를 효과적으로 처리할 수 있게 합니다. DirectQuery 모드에서 데이터 원본에 보내는 쿼리를 제한하여 동시성 제한 내에서 유지할 수 있게 합니다. 전달해야 하는 쿼리는 데이터 웨어하우스 및 빅 데이터 시스템에서 일반적으로 잘 처리하는 트랜잭션 수준 쿼리로 필터링되는 경향이 있습니다.
 
 ### <a name="table-level-storage"></a>테이블 수준 저장소
-테이블 수준 저장소는 일반적으로 집계 기능과 함께 사용됩니다. 자세한 내용은 [Power BI Desktop의 저장소 모드(미리 보기)](desktop-storage-mode.md) 문서를 참조하세요.
+테이블 수준 저장소는 일반적으로 집계 기능과 함께 사용됩니다. 자세한 내용은 [Power BI Desktop의 스토리지 모드](desktop-storage-mode.md) 문서를 참조하세요.
 
 ### <a name="data-source-types"></a>데이터 원본 유형
-집계는 데이터 웨어하우스 및 데이터 마트뿐만 아니라 Hadoop 기반 빅 데이터 원본과 같은 차원 모델을 나타내는 데이터 원본과 함께 사용됩니다. 이 문서에서는 각 유형의 데이터 원본에 대한 Power BI의 일반적인 모델링 차이점에 대해 설명합니다.
+집계는 데이터 웨어하우스 및 데이터 마트, Hadoop 기반 빅 데이터 원본과 같은 차원 모델을 나타내는 데이터 원본과 함께 사용됩니다. 이 문서에서는 각 유형의 데이터 원본에 대한 Power BI의 일반적인 모델링 차이점에 대해 설명합니다.
 
 모든 Power BI 가져오기 및 다차원이 아닌 DirectQuery 원본은 집계와 함께 작동합니다.
 
@@ -57,7 +57,7 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 
 대신 **Sales Agg**(판매 집계) 테이블을 집계 테이블로 만듭니다. 세분성이 **Sales**보다 더 높으므로 행 수가 훨씬 적습니다. 행 수는 **CustomerKey**, **DateKey** 및 **ProductSubcategoryKey**별로 그룹화된 **SalesAmount**의 합계와 같아야 합니다. 수십억 개가 아닌 수백만 개의 행이 관리하기가 훨씬 더 쉬울 수 있습니다.
 
-다음 차원 테이블은 비즈니스 가치가 높은 쿼리에 가장 일반적으로 사용되는 것으로 가정해 보겠습니다. 이러한 테이블은 *일 대 다*(또는 *다 대 일*) 관계를 사용하여 **Sales Agg**를 필터링할 수 있는 테이블입니다. *다 대 다* 또는 *다중 원본*과 같은 다른 관계 유형은 집계에 고려되지 않습니다.
+다음 차원 테이블은 비즈니스 가치가 높은 쿼리에 가장 일반적으로 사용되는 것으로 가정해 보겠습니다. 이러한 테이블은 *일 대 다*(또는 *다 대 일*) 관계를 사용하여 **Sales Agg**를 필터링할 수 있는 테이블입니다.
 
 * 지리
 * 고객
@@ -77,7 +77,7 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 
 ![저장소 모드 설정](media/desktop-aggregations/aggregations_04.jpg)
 
-이렇게 하면 관련된 차원 테이블이 **이중** 저장소 모드로 설정된다는 것을 알려주는 다음 대화 상자가 표시됩니다. 
+이렇게 하면 관련된 차원 테이블이 **이중** 스토리지 모드로 설정될 수 있음을 알려주는 다음 대화 상자가 표시됩니다. 
 
 ![저장소 모드 대화 상자](media/desktop-aggregations/aggregations_05.jpg)
 
@@ -88,7 +88,23 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 
 **이중** 저장소 모드에 대한 자세한 내용은 [저장소 모드](desktop-storage-mode.md) 문서를 참조하세요.
 
-> 참고: **Sales Agg** 테이블은 숨겨져 있습니다. 집계 테이블은 데이터 집합의 소비자로부터 숨겨져 있어야 합니다. 소비자 및 쿼리는 집계 테이블이 아닌 세부 정보 테이블을 참조하며, 심지어는 집계 테이블이 있는지도 인식할 필요가 없습니다.
+### <a name="strong-vs-weak-relationships"></a>강력 관계 대 약한 관계
+관계를 기반으로 하는 집계 적중은 강력한 관계가 필요합니다.
+
+강력한 관계에는 두 테이블이 모두 ‘단일 원본’에 있는 다음과 같은 조합이 포함됩니다.
+
+| *다 쪽의 테이블 | ‘일’ 쪽의 테이블 |
+| ------------- |----------------------| 
+| 이중          | 이중                 | 
+| 가져오기        | 가져오기 또는 이중       | 
+| DirectQuery   | DirectQuery 또는 이중  | 
+
+*cross-source* 관계가 강력한 것으로 간주되는 유일한 경우는 두 테이블이 모두 가져오는 경우입니다. 다 대 다 관계는 항상 약한 관계로 간주됩니다.
+
+관계에 의존하지 않는 *cross-source* 집계 적중의 경우 아래의 group-by 열 기반 집계 섹션을 참조하세요.
+
+### <a name="aggregation-table-is-hidden"></a>집계 테이블이 숨겨져 있음
+**Sales Agg** 테이블은 숨겨져 있습니다. 집계 테이블은 항상 데이터 세트의 소비자로부터 숨겨져 있어야 합니다. 소비자 및 쿼리는 집계 테이블이 아닌 세부 정보 테이블을 참조하며, 심지어는 집계 테이블이 있는지도 인식할 필요가 없습니다.
 
 ### <a name="manage-aggregations-dialog"></a>집계 관리 대화 상자
 다음으로 집계를 정의합니다. 테이블을 마우스 오른쪽 단추로 클릭하여 **Sales Agg** 테이블에 대한 **집계 관리** 상황에 맞는 메뉴를 선택합니다.
@@ -155,7 +171,7 @@ SQL 프로파일러를 사용하여 메모리 내 캐시(저장소 엔진) 또�
 
 ![쿼리 예제](media/desktop-aggregations/aggregations-code_02.jpg)
 
-다음 쿼리는 집계에 적중하지 않습니다. **SalesAmount**의 합계를 요청했지만 **Product**(제품) 테이블의 열에 대한 group by 작업을 수행합니다. 이는 집계에 적중할 수 있는 세분성이 아닙니다. 모델의 관계를 관찰하면 제품 하위 범주에 여러 개의 **Product** 행이 있을 수 있습니다. 쿼리는 집계할 제품을 결정할 수 없습니다. 이 경우 쿼리는 DirectQuery로 되돌아가고 SQL 쿼리를 데이터 원본에 제출합니다.
+다음 쿼리는 집계에 적중하지 않습니다. **SalesAmount**의 합계를 요청했지만 **Product** 테이블의 열에 대한 group by 작업을 수행합니다. 이는 집계에 적중할 수 있는 세분성이 아닙니다. 모델의 관계를 관찰하면 제품 하위 범주에 여러 개의 **Product** 행이 있을 수 있습니다. 쿼리는 집계할 제품을 결정할 수 없습니다. 이 경우 쿼리는 DirectQuery로 되돌아가고 SQL 쿼리를 데이터 원본에 제출합니다.
 
 ![쿼리 예제](media/desktop-aggregations/aggregations-code_03.jpg)
 
@@ -277,4 +293,3 @@ DirectQuery 문서:
 
 * [Power BI의 DirectQuery 사용](desktop-directquery-about.md)
 * [Power BI의 DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
-

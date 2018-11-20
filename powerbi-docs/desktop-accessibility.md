@@ -7,25 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223378"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619635"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서의 내게 필요한 옵션
 Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 상호 작용할 수 있도록 하는 기능이 있습니다. 이러한 기능에는 키보드 또는 화면 판독기를 사용하여 보고서를 이용하고 탭 키로 페이지에 있는 다양한 개체에 포커스를 이동하며 시각적 개체에 표식을 세밀하게 사용하는 기능이 있습니다.
 
 ![꺾은선형 및 영역형 차트에 다양한 표식을 사용하여 내게 필요한 옵션 개선](media/desktop-accessibility/accessibility_01.png)
-
-> [!NOTE]
-> 이러한 내게 필요한 옵션은 **Power BI Desktop** 2017년 6월 및 이후 릴리스에서 제공됩니다. 향후 릴리스에서도 추가적인 내게 필요한 옵션 기능이 제공될 예정입니다.
-> 
-> 
 
 ## <a name="consuming-a-power-bi-desktop-report-with-a-keyboard-or-screen-reader"></a>키보드 또는 화면 판독기로 Power BI Desktop 보고서 사용
 **Power BI Desktop**의 2017년 9월 릴리스부터 **?** 키를 눌러 **Power BI Desktop**에서 사용할 수 있는 내게 필요한 옵션 바로 가기 키를 설명하는 창을 표시합니다.
@@ -116,50 +111,64 @@ Windows에서 고대비 모드를 사용하면 선택한 설정 및 팔레트가
 * 내레이터를 사용하는 경우 표시 데이터를 HTML 테이블로 탐색하는 방법에는 몇 가지 제한이 있습니다.
 
 ## <a name="keyboard-shortcuts"></a>바로 가기 키
+바로 가기 키는 키보드를 사용하여 Power BI 보고서에서 이동하는 데 유용합니다. 다음 표는 Power BI 보고서에서 사용 가능한 바로 가기를 설명합니다. Power BI Desktop에서 이러한 바로 가기 키 사용 외에도 이러한 바로 가기는 다음 환경에서도 작동합니다.
+
+* Q&A 탐색기 대화 상자
+* 시작 대화 상자
+* 파일 메뉴 및 정보 대화 상자
+* 경고 막대
+* 파일 복원 대화 상자
+* 찡그린 얼굴 대화 상자
+
+접근성을 개선하기 위한 지속적인 노력의 일환으로, 이전 환경 목록도 화면 읽기 프로그램과 고대비 설정을 지원합니다.
+
+
 ### <a name="frequently-used-shortcuts"></a>자주 사용되는 바로 가기
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
-| 구역 간에 포커스 이동  | Ctrl + F6 |
+| 구역 간에 포커스 이동  | Ctrl+F6 |
 | 구역에서 포커스를 앞으로 이동 | Tab         |
-| 구역에서 포커스를 뒤로 이동 | Shift + Tab |
+| 구역에서 포커스를 뒤로 이동 | Shift+Tab |
+| 개체 선택 또는 선택 취소 | 입력 또는 공백 |
+| 다중 선택 개체 | Ctrl+Space |
 
 ### <a name="on-visual"></a>시각적 개체에서
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
-| 시각적 메뉴로 포커스 이동 | Alt + Shift + F10 |
-| 데이터 표시 | Alt + Shift + F11  |
+| 시각적 메뉴로 포커스 이동 | Alt+Shift+F10 |
+| 데이터 표시 | Alt+Shift+F11  |
 
 ### <a name="pane-navigation"></a>창 탐색
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
-| 팝업 메뉴 열기 | <ul><li>Windows 키보드: Windows 팝업 키 + F10  Windows 팝업 키는 왼쪽 Alt 키와 왼쪽 화살표 키 사이에 있습니다.</li><li>다른 키보드: Shift+F10</li></ul> |
+| 팝업 메뉴 열기 | <ul><li>Windows 키보드: Windows 팝업 키+F10  Windows 팝업 키는 왼쪽 Alt 키와 왼쪽 화살표 키 사이에 있습니다.</li><li>다른 키보드: Shift+F10</li></ul> |
 
 ### <a name="slicer"></a>슬라이서
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
-| 슬라이서 상호 작용 | Ctrl + 오른쪽 화살표 키 |
+| 슬라이서 상호 작용 | Ctrl+오른쪽 화살표 키 |
 
 ### <a name="selection-pane"></a>선택 창
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
 | 선택 영역 창 활성화 | F6 |
-| 계층에서 위로 개체 이동 | Ctrl + Shift + F |
-| 계층에서 아래로 개체 이동 | Ctrl + Shift + B |
-| 개체 표시/숨기기(설정/해제) | Ctrl + Shift + S |
+| 계층에서 위로 개체 이동 | Ctrl+Shift+F |
+| 계층에서 아래로 개체 이동 | Ctrl+Shift+B |
+| 개체 표시/숨기기(설정/해제) | Ctrl+Shift+S |
 
 ### <a name="dax-editor"></a>DAX 편집기
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
-| 위로/아래로 줄 이동 | Alt + 위쪽 화살표 키/아래쪽 화살표 키 |
-| 위로/아래로 줄 복사 | Shift + Alt + 위쪽 화살표 키/아래쪽 화살표 키 |
-| 아래에 행 삽입 | Ctrl + Enter |
-| 위에 행 삽입 | Ctrl + Shift + Enter |
-| 일치하는 대괄호로 이동 | Ctrl + Shift + \ |
-| 줄 들여쓰기/내어쓰기 | Ctrl + ] / [ |
-| 커서 삽입 | Alt + 클릭 |
-| 현재 줄 선택 | Ctrl + I |
-| 현재 선택 사항에 일치하는 모든 항목 선택 | Ctrl + Shift + L |
-| 현재 단어와 일치하는 항목 모두 선택 | Ctrl + F2 |
+| 위로/아래로 줄 이동 | Alt+위쪽 화살표 키/아래쪽 화살표 키 |
+| 위로/아래로 줄 복사 | Shift+Alt+위쪽 화살표 키/아래쪽 화살표 키 |
+| 아래에 행 삽입 | Ctrl+Enter |
+| 위에 행 삽입 | Ctrl+Shift+Enter |
+| 일치하는 대괄호로 이동 | Ctrl+Shift+\ |
+| 줄 들여쓰기/내어쓰기 | Ctrl+] / [ |
+| 커서 삽입 | Alt+클릭 |
+| 현재 줄 선택 | Ctrl+I |
+| 현재 선택 사항에 일치하는 모든 항목 선택 | Ctrl+Shift+L |
+| 현재 단어와 일치하는 항목 모두 선택 | Ctrl+F2 |
 
 
 

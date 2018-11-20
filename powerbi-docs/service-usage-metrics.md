@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4c10a0ffdf11829d8faa15ea14be136922c86382
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7b511a28f056df268216552f7d075a88c047f9f3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545035"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619842"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>대시보드 및 보고서의 사용 메트릭
 
@@ -69,7 +69,7 @@ ms.locfileid: "46545035"
     > [!NOTE]
     > 사용 메트릭 보고서에서 타일을 대시보드에 고정하는 경우 해당 대시보드를 앱 또는 콘텐츠 팩에 추가할 수 없습니다.
 
-## <a name="what-metrics-are-reported"></a>보고되는 메트릭은 무엇인가요?
+## <a name="which-metrics-are-reported"></a>보고되는 메트릭은 무엇인가요?
 
 | 메트릭 | 대시보드 | 보고서 | 설명 |
 | --- | --- | --- | --- |
@@ -162,6 +162,15 @@ Power BI에서 완전한 기능을 갖춘 보고서를 만드는 경우 지난 9
 Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. 이러한 클라우드는 서비스 전달, 데이터 주거성, 액세스 및 통제와 관련하여 로컬 규정에 부합하는 고유 모델과 결합된 Power BI 글로벌 버전으로서 동일한 수준의 보안, 개인 정보 보호, 규정 준수 및 투명성을 제공합니다. 지역 규정에 대한 이 고유한 모델로 인해 사용 메트릭을 국가별 클라우드에서 사용할 수 없습니다. 자세한 내용은 [국가별 클라우드](https://powerbi.microsoft.com/en-us/clouds/)를 참조하세요.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
+
+사용 메트릭과 감사 로그를 비교할 때 발생할 수 있는 차이점과 이유를 이해하는 것이 중요합니다. *감사 로그*는 Power BI 서비스의 데이터를 사용하여 수집되며, *사용 메트릭*은 클라이언트에서 수집됩니다. 이러한 차이 때문에 감사 로그의 활동 집계 개수가 항상 사용 메트릭과 일치하지 않을 수 있으며, 그 이유는 다음과 같습니다.
+
+* 사용 메트릭은 일관되지 않는 네트워크 연결, 광고 차단 또는 클라이언트에서 이벤트 전송을 방해할 수 있는 기타 문제로 인해 실제보다 활동 수가 적게 집계될 수 있습니다.
+* 이 문서의 앞부분에서 설명한 것처럼 특정 유형의 보기는 사용 메트릭에 포함되지 않습니다.
+* Power BI 서비스로 요청을 다시 전송할 필요 없이 인시던트가 새로 고쳐지는 경우 사용 메트릭은 실제보다 활동 수가 많이 집계될 수 있습니다.
+
+
+사용 메트릭과 감사 로그 간의 잠재적 차이 외에도 사용 메트릭에 대한 다음 질문과 답변은 사용자와 관리자에게 도움이 될 수 있습니다.
 
 Q: 대시보드 또는 보고서에서 사용 메트릭을 실행할 수 없음 A: 소유하거나 편집할 수 있는 권한이 있는 콘텐츠에 대한 사용 메트릭만을 볼 수 있습니다.
 
