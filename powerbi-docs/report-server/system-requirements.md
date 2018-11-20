@@ -1,23 +1,23 @@
 ---
 title: Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항
-description: 여기서는 Power BI Report Server를 설치하고 실행하기 위한 최소 하드웨어 및 소프트웨어 요구 사항이 표시됩니다.
+description: 이 문서에는 Power BI Report Server를 설치하고 실행하기 위한 최소 하드웨어 및 소프트웨어 요구 사항이 표시됩니다.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780573"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507909"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항
-여기서는 Power BI Report Server를 설치하고 실행하기 위한 최소 하드웨어 및 소프트웨어 요구 사항이 표시됩니다.
+이 문서에는 Power BI Report Server를 설치하고 실행하기 위한 최소 하드웨어 및 소프트웨어 요구 사항이 표시됩니다.
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>프로세서, 메모리 및 운영 체제 요구 사항
 
@@ -43,18 +43,19 @@ ms.locfileid: "37780573"
 * SQL Server 2014
 * SQL Server 2012
 
-원격 컴퓨터에서 보고서 서버 데이터베이스를 만드는 작업은 네트워크 액세스 권한을 갖는 도메인 사용자 계정 또는 서비스 계정을 사용하도록 연결을 구성해야 합니다. 원격 SQL Server 인스턴스를 사용하려는 경우 보고서 서버가 SQL Server 인스턴스에 연결하는 데 사용해야 하는 자격 증명을 신중하게 선택하는 것이 좋습니다. 자세한 내용은 [Report Server 데이터베이스 연결 구성](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)을 참조하세요.
+원격 컴퓨터에서 보고서 서버 데이터베이스를 만들 때 네트워크 액세스 권한을 가진 도메인 사용자 계정 또는 서비스 계정을 사용하도록 연결을 구성해야 합니다. 원격 SQL Server 인스턴스를 사용하려는 경우 보고서 서버가 SQL Server 인스턴스에 연결하는 데 사용해야 하는 자격 증명을 신중하게 선택하는 것이 좋습니다. 자세한 내용은 [Report Server 데이터베이스 연결 구성](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)을 참조하세요.
 
 ## <a name="considerations"></a>고려 사항
 Power BI Report Server는 Report Server를 작동하는 데 필요한 핵심 설정을 구성하는 기본값을 설치합니다. 다음 요구 사항을 포함합니다.
 
 * 설치한 이후 및 Report Server 데이터베이스를 구성하기 전에 SQL Server 데이터베이스 엔진을 사용할 수 있어야 합니다. 데이터베이스 엔진 인스턴스는 Reporting Services 구성 관리자가 만들 Report Server 데이터베이스를 호스팅합니다. 데이터베이스 엔진은 실제 설치 환경에 필요하지 않습니다.
-* 설치 마법사를 실행하는 데 사용된 사용자 계정은 로컬 관리자 그룹의 구성원이어야 합니다.
-* Reporting Services 구성 관리자에 사용된 사용자 계정에는 Report Server 데이터베이스를 호스팅하는 데이터베이스 엔진 인스턴스에 있는 데이터베이스에 액세스하고 해당 데이터베이스를 만들 사용 권한이 있어야 합니다.
+- [SQL Server 버전에서 지원되는 Reporting Services 기능](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)에서는 SQL Server 버전 간의 차이점을 설명합니다.
+* 설치 프로그램을 실행하는 사용자 계정은 로컬 관리자 그룹의 멤버여야 합니다.
+* Reporting Services 구성 관리자를 실행하는 사용자 계정에는 보고서 서버 데이터베이스를 호스트하는 데이터베이스 엔진 인스턴스에 있는 데이터베이스에 액세스하고 해당 데이터베이스를 만들 권한이 있어야 합니다.
 * 설치 마법사는 기본값을 사용하여 Report Server와 웹 포털에 대한 액세스를 제공하는 URL을 예약할 수 있어야 합니다. 기본값은 **ReportServer** 및 **보고서**에 있는 포트 80, 강력한 와일드 카드 및 가상 디렉터리 이름입니다.
 
 ## <a name="read-only-domain-controller-rodc"></a>RODC(읽기 전용 도메인 컨트롤러)
- Report Server를 RODC(읽기 전용 도메인 컨트롤러)에 있는 환경에 설치할 수 있지만 제대로 작동하려면 Reporting Services는 읽기 전용 도메인 컨트롤러에 액세스해야 합니다. Reporting Services가 RODC에 액세스할 수 있는 경우 서비스를 관리하려고 할 때 오류가 발생할 수 있습니다.
+ RODC(읽기 전용 도메인 컨트롤러)가 있는 환경에 보고서 서버를 설치할 수 있습니다. 그러나 Reporting Services가 제대로 작동하려면 읽기/쓰기 도메인 컨트롤러에 대한 액세스가 필요합니다. Reporting Services가 RODC에 액세스할 수 있는 경우 서비스를 관리하려고 할 때 오류가 발생할 수 있습니다.
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI 보고서 및 Analysis Services 라이브 연결
 테이블 형식 또는 다차원 인스턴스에 대해 라이브 연결을 사용할 수 있습니다. Analysis Services 서버가 제대로 작동하려면 적절한 버전이어야 합니다.
@@ -69,7 +70,7 @@ Power BI Report Server는 Report Server를 작동하는 데 필요한 핵심 설
 [Power BI Report Server란?](get-started.md)  
 [관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
-[보고서 작성기 설치](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

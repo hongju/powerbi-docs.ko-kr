@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: 3e125061766d6ade0daeaacb208d3070d8e9bd9b
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973261"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266119"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -297,6 +297,15 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 
 조직의 사용자는 Power BI Desktop에서 보고서를 게시하고, Power BI 보고서 파일을 업로드하고, 서비스에서 바로 데이터에 연결하는 등 데이터를 서비스로 가져올 수 있습니다. [자세히 알아보기](desktop-upload-desktop-files.md)
 
+## <a name="dataflow-settings-preview"></a>데이터 흐름 설정(미리 보기)
+
+### <a name="create-and-use-dataflows-preview"></a>데이터 흐름 만들기 및 사용(미리 보기)
+
+조직의 사용자가 데이터 흐름을 만들고 사용할 수 있습니다. [자세히 알아보기](service-dataflows-overview.md)
+
+> [!NOTE]
+> 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
+
 ## <a name="capacity-settings"></a>용량 설정
 
 ### <a name="power-bi-premium"></a>Power BI Premium
@@ -305,7 +314,7 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 
 ![Premium 설정 액세스 권한 없음](media/service-admin-portal/premium-settings-no-access.png)
 
-Premium 설정 관리에 관한 자세한 내용은 [Power BI Premium 관리](service-admin-premium-manage.md)를 참조하세요.
+프리미엄 설정 관리에 관한 자세한 내용은 [Power BI Premium 관리](service-admin-premium-manage.md)를 참조하세요.
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 

@@ -4,19 +4,18 @@ description: Power BI 보고서 소비자로 읽기용 모드에서 ArcGis 지�
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-tags: power bi, service, desktop, mobile
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003274"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266027"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI에서 ArcGIS 지도와 상호 작용
 이 토픽은 Power BI 서비스, 데스크톱 또는 모바일에서 ArcGIS 지도를 *사용하는* 사람의 관점에서 작성됩니다. 작성자가 ArcGIS 지도를 사용자와 공유하면 여러 가지 방법으로 해당 지도와 상호 작용할 수 있습니다.  ArcGIS 지도를 작성하는 방법에 대한 자세한 내용은 [Esri에서 제공하는 ArcGIS 지도](../power-bi-visualization-arcgis.md)를 참조하세요.
@@ -24,7 +23,7 @@ ms.locfileid: "50003274"
 ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어서 완전히 새로운 수준으로 매핑합니다. 기본 지도, 위치 유형, 테마, 기호 스타일 및 참조 계층 등 사용 가능한 옵션으로 멋진 정보 제공용 지도 시각화를 만듭니다. 공간 분석과 지도의 신뢰할 수 있는 데이터 계층(인구 조사 데이터 등)의 조합은 시각화에서 데이터의 심도 깊은 이해를 제공합니다.
 
 > [!TIP]
-> GIS는 Geographic Information Science(지리적 정보 과학)의 약자입니다.
+> GIS는 Geographic Information System(지리적 정보 시스템)의 약자입니다.
 > 
 
 사용하는 예제는 [Esri에서 제공하는 ArcGIS 지도](../power-bi-visualization-arcgis.md)에서 만든 ArcGIS 지도와 동일합니다. 도시별 작년 판매액을 보고, 거리 기본 지도, 크기를 나타내는 버블 기호, 평균 가구 소득에 대한 참조 계층을 사용합니다. 지도에는 3개의 핀과 한 번의 운행 시간 반경(자주색)이 있습니다.

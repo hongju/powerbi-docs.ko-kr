@@ -4,22 +4,24 @@ description: 이 문서에서는 Power BI Report Server와 Power BI 서비스의
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 11/06/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: a693eef85f7eafe7cfac2a02cbccc346201a6f13
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908534"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507695"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
 Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 주요 차이점이 있습니다. 이 표에서 유사성과 차이점을 설명합니다.
+
+## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스의 기능
 
 | 기능 | Power BI Report Server | Power BI 서비스 | 참고
 |---------|---------|---------|---------|
@@ -39,14 +41,14 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 질문 및 답변 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop의 질문 및 답변](../consumer/end-user-q-and-a.md) 
 | 신속한 정보 활용 | 아니요 | 예 | [Power BI를 사용하여 데이터 인사이트를 자동으로 생성](../consumer/end-user-insights.md) 
 | Excel에서 분석 | 아니요 | 예 | [Excel에서 분석](../service-analyze-in-excel.md) 
-| 페이지가 매겨진 보고서 | 예 | 아니요 | 페이지를 매긴 보고서는 Power BI 서비스에서 사용할 수 없지만, [페이지를 매긴 보고서 항목을 Power BI 대시보드에 고정](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)할 수 있습니다.
+| 페이지가 매겨진 보고서 | 예 | 예 | [Power BI 서비스에서 페이지를 매긴 보고서를 사용할 수 있음](../paginated-reports-report-builder-power-bi.md)(미리 보기)
 | Power BI 모바일 앱 | 예 | 예 | [Power BI 모바일 앱 개요](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | ARC GIS 지도 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop에서 Esri로 ArcGIS 지도 만들기](../power-bi-visualization-arcgis.md)
 | Power BI 보고서에 대한 메일 구독 | 아니요 | 예 | Power BI 서비스에서 [보고서 또는 대시보드 구독](../consumer/end-user-subscribe.md) 
 | 페이지를 매긴 보고서에 대한 메일 구독 | 예 | 아니요 | [Reporting Services의 메일 전송](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | 데이터 경고 | 아니요 | 예 | Power BI 서비스의 [데이터 경고](../service-set-data-alerts.md)
 | 행 수준 보안 | DirectQuery 모드에서 데이터 원본을 통해서만 | DirectQuery(데이터 원본) 및 가져오기 모드에서 사용 가능 | Power BI를 사용하는 [RLS(행 수준 보안)](../service-admin-rls.md) 
-| 전체 화면 모드 | 아니요 | 예 | Power BI 서비스의 [전체 화면 모드](../service-fullscreen-mode.md) 
+| 전체 화면 모드 | 아니요 | 예 | Power BI 서비스의 [전체 화면 모드](../consumer/end-user-focus.md) 
 | 고급 Office 365 공동 작업 | 아니요 | 예 | Office 365를 사용하여 [앱 작업 영역에서 공동 작업](../service-collaborate-power-bi-workspace.md) 
 | R 시각적 개체 | 아니요 | 예 | Power BI 서비스에서 [R 시각적 개체 만들기](../visuals/service-r-visuals.md)  
 | 미리 보기 기능 | 아니요 | 예 | [Power BI 서비스 미리 보기 기능 옵트인](../consumer/end-user-preview-features.md) 

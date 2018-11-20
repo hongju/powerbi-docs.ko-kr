@@ -8,15 +8,15 @@ featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548031"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266050"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI 서비스 및 Power BI 데스크톱에서 Esri로 ArcGIS 지도 만들기
 이 자습서는 ArcGIS 지도를 만드는 사용자의 관점에서 작성되었습니다. 작성자가 동료와 ArcGIS 지도를 공유하면 해당 동료는 지도를 보고 상호 작용할 수 있지만 변경 내용을 저장할 수 없습니다. ArcGIS 지도 보기에 대해 자세히 알아보려면 [ArcGIS 지도와 상호 작용](visuals/power-bi-visualizations-arcgis.md)을 참조하세요.
@@ -26,7 +26,7 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
  모바일 장치에서 ArcGIS 지도를 만들 수 없는 경우에도 지도를 보고 상호 작용할 수 있습니다. [ArcGIS 지도와 상호 작용](visuals/power-bi-visualizations-arcgis.md)을 참조하세요.
 
 > [!TIP]
-> GIS는 Geographic Information Science(지리적 정보 과학)의 약자입니다.
+> GIS는 Geographic Information Systems(지리적 정보 시스템)의 약자입니다.
 
 
 아래 예제에서는 2016 평균 가처분 소득의 인구 통계 계층에 대해 heatmap으로 지역 판매를 표시하는 데 진한 회색 캔버스를 사용합니다. 살펴봄으로써 알 수 있듯이 ArcGIS 지도를 사용하면 최상의 스토리를 알릴 수 있도록 거의 제한이 없는 향상된 매핑 기능, 인구 통계 데이터 및 눈을 뗄 수 없는 지도 시각화를 제공합니다.

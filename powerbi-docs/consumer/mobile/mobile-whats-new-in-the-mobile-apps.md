@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909248"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297231"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -22,6 +22,26 @@ ms.locfileid: "48909248"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="october-2018"></a>2018년 10월
+
+### <a name="paginated-report-preview-all-devices"></a>페이지를 매긴 보고서 미리 보기(모든 디바이스)
+
+이제 Power BI 서비스에서 페이지를 매긴 보고서를 사용할 수 있습니다. Power BI 서비스에서 페이지를 매긴 보고서에 액세스할 수 있는 사용자는 모바일 앱에서도 이러한 보고서에 액세스할 수 있습니다. 
+
+[모바일의 페이지를 매긴 보고서에 대한 Power BI 블로그 게시물](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/)을 참조하세요.
+
+### <a name="shared-credentials-ios"></a>공유 자격 증명(iOS)
+
+모바일 앱에서 Power BI에 로그인하는 것은 간편하지 않습니다. 공유 자격 증명을 통해 디바이스에서 다른 Office 365 앱 자격 증명을 사용하여 Power BI 서비스에서 사용자를 인증하는 방식으로 로그인 프로세스를 단순화했습니다.
+
+### <a name="in-app-urls-ios"></a>앱 내 URL(iOS) 
+
+이제 다른 Power BI 아티팩트를 가리키는 보고서의 링크가 앱 내에서 바로 열립니다. 이를 통해 사용자 지정 탐색 흐름(예: 보고서에서 대시보드로 연결)을 빌드할 수 있습니다.
+
+### <a name="ios12-and-watchos-5-support"></a>iOS12 및 watchOS 5 지원 
+
+모바일 디바이스 및 시계의 새로운 OS에서 원활하게 작동하도록 iOS용 Power BI 앱을 업데이트했습니다.
 
 ## <a name="september-2018"></a>2018년 9월
 
@@ -41,10 +61,11 @@ ms.locfileid: "48909248"
 
 SSO(Single Sign-On)는 Windows용 Power BI Mobile에서 가장 많이 요청된 기능 중 하나입니다. 이제 기본 조직 계정을 사용하여 도메인에 가입된 Windows 모바일 장치에 로그인할 뿐 아니라 Power BI 서비스에도 원활하게 로그인할 수 있습니다. [SSO 및 Windows 모바일 앱](mobile-windows-10-app-single-sign-on-sso.md)에 대해 자세히 알아보세요.
 
+## <a name="previous-months"></a>이전 달
 
-## <a name="july-2018"></a>2018년 7월
+### <a name="july-2018"></a>2018년 7월
 
-### <a name="ios-and-android-only"></a>iOS 및 Android만 해당
+#### <a name="ios-and-android-only"></a>iOS 및 Android만 해당
 
 **공유 필터**
 
@@ -55,127 +76,125 @@ SSO(Single Sign-On)는 Windows용 Power BI Mobile에서 가장 많이 요청된 
 모바일 장치에서 가로 모드로 보고서를 볼 때 웹용 Power BI에 표시되는 것과 동일한 배경 이미지를 볼 수 있습니다.
 
 
-## <a name="june-2018"></a>2018년 6월
+### <a name="june-2018"></a>2018년 6월
 
-### <a name="full-canvas-reports"></a>전체 캔버스 보고서
+#### <a name="full-canvas-reports"></a>전체 캔버스 보고서
 
 이제 보고서가 로드된 후에 위쪽 및 아래쪽 작업 막대가 바로 사라지므로 보고서를 한 번에 좀 더 자세히 볼 수 있습니다.
 
-### <a name="increased-phone-report-canvas-size"></a>전화 보고서 캔버스 크기 증가
+#### <a name="increased-phone-report-canvas-size"></a>전화 보고서 캔버스 크기 증가
 
 전화 보고서 캔버스 크기가 증가하여 이전보다 시각적 개체를 위한 공간이 추가되었습니다.
 
-## <a name="may-2018"></a>2018년 5월
+### <a name="may-2018"></a>2018년 5월
 
-### <a name="mobile-drill-through-all-mobile-apps"></a>모바일 드릴스루: 모든 모바일 앱
+#### <a name="mobile-drill-through-all-mobile-apps"></a>모바일 드릴스루: 모든 모바일 앱
 
 보고서 작성자가 해당 동작을 정의한 경우, 모바일 앱에서 선택한 데이터 요소에서 다른 보고서 페이지로 드릴스루할 수 있습니다. 
 
-### <a name="back-button-all-mobile-apps"></a>뒤로 단추: 모든 모바일 앱
+#### <a name="back-button-all-mobile-apps"></a>뒤로 단추: 모든 모바일 앱
 
 이제 살짝 밀기, 작업 모음에서 보고서 페이지 선택 또는 드릴스루 사용을 통해 보고서를 탐색할 때 뒤로 단추를 사용하여 보고 있었던 이전 페이지로 돌아갈 수 있습니다. 
 
-### <a name="dashboard-themes-all-mobile-apps"></a>대시보드 테마: 모든 모바일 앱
+#### <a name="dashboard-themes-all-mobile-apps"></a>대시보드 테마: 모든 모바일 앱
 
 보고서 작성자가 Power BI 서비스에서 대시보드 테마를 사용자 지정하면 대시보드의 모양과 느낌이 모바일 앱에서도 변경됩니다. 그러나 배경 이미지는 표시되지 않습니다.
 
-### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: 원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한 구성
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: 원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한 구성
 
 이제 IT 관리자는 MDM 도구를 사용하여 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한을 구성할 수 있습니다. 자세한 내용은 [원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한 구성](../../report-server/configure-powerbi-mobile-apps-remote.md)을 참조하세요.
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>혼합 현실용 Power BI 앱(미리 보기)
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>혼합 현실용 Power BI 앱(미리 보기)
 
 혼합 현실을 위한 Power BI 앱이 지금 Microsoft Store에서 제공됩니다. 가상 환경을 사용하는 동안 대시보드 및 보고서를 확인하거나 사용자 환경 컨텍스트의 특정 위치에 배치하고 봅니다. 새 [Introducing Power BI on Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss)(Hololens의 Power BI 소개) 동영상 또는 새 [혼합 현실을 위한 Power BI 앱](mobile-mixed-reality-app.md)에 대한 문서를 참조하세요.
 
 
-## <a name="april-2018"></a>2018년 4월
+### <a name="april-2018"></a>2018년 4월
 
-### <a name="mobile-drill-down-and-drill-up"></a>모바일 드릴다운 및 드릴업
+#### <a name="mobile-drill-down-and-drill-up"></a>모바일 드릴다운 및 드릴업
 
 이제 드릴다운 및 드릴업을 사용하여 보고서 모바일 장치에서 시각적 개체를 자세히 살펴볼 수 있습니다. 이 새로운 기능에 액세스하려면 보고서 시각적 개체에서 도구 설명 메뉴를 길게 눌러서 연 다음, 드릴 단추를 탭하여 데이터를 자세히 살펴봅니다. [모바일 앱에서 드릴업 및 드릴다운](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/)하는 방법을 알아보세요.
 
-### <a name="persistent-filters"></a>영구 필터
+#### <a name="persistent-filters"></a>영구 필터
 
 보고서 필터와 슬라이서가 최근에 업데이트되어 웹용 Power BI에서 Power BI 모바일 앱으로 자동으로 저장됩니다. 이제 모바일 앱에서 설정한 필터와 슬라이서가 웹용 Power BI에 자동으로 저장됩니다.
 
 
-## <a name="march-2018"></a>2018년 3월
+### <a name="march-2018"></a>2018년 3월
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>혼합 현실용 Power BI 앱(미리 보기)
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>혼합 현실용 Power BI 앱(미리 보기)
 
 사용자가 위치한 데이터를 가져오는 최신 변경 사항에서 혼합 현실용 Power BI 앱을 만들었습니다. 가상 환경을 사용하는 동안 대시보드 및 보고서를 확인하거나 사용자 환경 컨텍스트의 특정 위치에 배치하고 봅니다. 새로운 [혼합 현실용 Power BI 앱](mobile-mixed-reality-app.md)에 대해 자세히 읽어보세요.
 
-### <a name="share-reports-and-dashboards-externally"></a>외부에서 보고서 및 대시보드 공유
+#### <a name="share-reports-and-dashboards-externally"></a>외부에서 보고서 및 대시보드 공유
 
 앱에서 바로 조직 외부의 사용자와 대시보드 및 보고서를 공유합니다. 외부 공유는 조직 및 소셜 계정 모두에 대해 사용할 수 있습니다. 
 
-### <a name="persistent-filters"></a>영구 필터
+#### <a name="persistent-filters"></a>영구 필터
 
 웹의 Power BI에서 필터 및 슬라이서를 설정하면 필터 선택 사항이 모바일 앱에도 적용되어 중단했던 위치를 선택할 수 있습니다.
 
-### <a name="refresh-reports-on-the-ipad"></a>iPad의 보고서 새로 고침
+#### <a name="refresh-reports-on-the-ipad"></a>iPad의 보고서 새로 고침
 
 Power BI 보고서에는 이제 iPad 앱의 새로 고침 단추가 있습니다.
 
-## <a name="february-2018"></a>2018년 2월
+### <a name="february-2018"></a>2018년 2월
 
-### <a name="share-reports"></a>보고서 공유
+#### <a name="share-reports"></a>보고서 공유
 
 이제 모바일 앱에서 직접 보고서를 공유할 수 있습니다. [모바일 앱에서 대시보드 및 보고서 공유](mobile-share-dashboard-from-the-mobile-apps.md)에 대해 자세히 알아보세요.
 
-### <a name="improved-tooltips"></a>도구 설명 향상
+#### <a name="improved-tooltips"></a>도구 설명 향상
 
 보고서 시각적 개체를 누른 상태로 잠시 기다려서 도구 설명에 액세스하는 경우 시각적 개체를 손가락으로 끌어와서 각 데이터 요소에 대한 세부 정보를 탐색할 수 있습니다.
 
-## <a name="january-2018"></a>2018년 1월
+### <a name="january-2018"></a>2018년 1월
 
-### <a name="report-favorites"></a>보고서 즐겨찾기
+#### <a name="report-favorites"></a>보고서 즐겨찾기
 
 **즐겨찾기** 페이지에 나타나도록 보고서를 즐겨찾기로 태그를 지정하세요. 자세한 내용은 [Power BI 모바일 앱의 즐겨찾기](mobile-apps-favorites.md)를 읽어보세요.
 
-### <a name="view-shared-reports"></a>공유 보고서 보기
+#### <a name="view-shared-reports"></a>공유 보고서 보기
 
 이제 다른 사람이 사용자와 보고서를 공유하면 대시보드와 함께 **공유한 항목** 페이지에 표시됩니다.
 
-### <a name="improved-hyperlink-support"></a>하이퍼링크 지원 개선
+#### <a name="improved-hyperlink-support"></a>하이퍼링크 지원 개선
 
 이제 사용자 지정 시각적 개체의 링크를 탭하여 모바일 브라우저에서 열 수 있습니다.
 
-### <a name="intune-integration-android"></a>Intune 통합(Android)
+#### <a name="intune-integration-android"></a>Intune 통합(Android)
 
 Intune 모바일 장치 관리를 사용하여 조건부 액세스를 지원합니다.
 
-## <a name="december-2017"></a>2017년 12월
+### <a name="december-2017"></a>2017년 12월
 
-### <a name="improved-security-management"></a>향상된 보안 관리 
+#### <a name="improved-security-management"></a>향상된 보안 관리 
 
 조직의 데이터를 보다 효과적으로 보호할 수 있도록 Android 장치에서 CA(조건부 액세스) 및 Microsoft Intune MDM(모바일 장치 관리)에 대한 지원이 추가되었습니다. iOS에는 이미 사용 가능합니다.
 
-### <a name="improved-permission-management"></a>향상된 사용 권한 관리
+#### <a name="improved-permission-management"></a>향상된 사용 권한 관리
 
 데이터 집합, 대시보드 및 보고서에 대한 사용자 권한을 보다 정밀하게 관리할 수 있도록 몇 가지 기능이 변경되었습니다.
 
-### <a name="auto-installed-apps"></a>자동 설치된 앱
+#### <a name="auto-installed-apps"></a>자동 설치된 앱
 
 일부 앱은 Power BI에 설치할 필요가 없습니다. 조직의 Power BI 응용 프로그램 작성자는 대시보드 및 보고서 컬렉션을 포함하는 *앱*을 만들 수 있습니다. 그런 다음 앱을 게시하여 Power BI 서비스 및 Power BI 모바일 앱에 자동으로 설치하도록 설정할 수 있습니다. 앱이 설치되도록 설정되면 **앱** 메뉴에 앱이 자동으로 표시됩니다.
 
 ![Power BI 모바일 앱의 앱](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
-## <a name="november-2017"></a>2017년 11월
-### <a name="iphone-x-optimization"></a>iPhone X 최적화
+### <a name="november-2017"></a>2017년 11월
+#### <a name="iphone-x-optimization"></a>iPhone X 최적화
 
 iPhone X용 앱 레이아웃을 최적화하여 모든 장치의 스타일에 맞게 데이터를 탐색할 수 있습니다.
 
-## <a name="october-2017"></a>2017년 10월
-### <a name="filters-for-phone-reports-in-android"></a>Android에서 휴대폰 보고서에 대한 필터
+### <a name="october-2017"></a>2017년 10월
+#### <a name="filters-for-phone-reports-in-android"></a>Android에서 휴대폰 보고서에 대한 필터
 
 Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서를 만들고 보고서에 필터가 있는 경우 이제 Android에서 휴대폰 보고서에 이러한 필터를 적용할 수 있습니다. Android의 Power BI 보고서에 대한 필터에서 자세히 알아봅니다.
 
-### <a name="show-data-in-reports"></a>보고서에 데이터 표시
+#### <a name="show-data-in-reports"></a>보고서에 데이터 표시
 
 이제 보고서의 시각적 개체를 테이블 보기로 전환하여 데이터 뒤의 숫자를 볼 수 있습니다. 이 기능에 액세스하려면 보고서의 시각적 개체 메뉴의 "데이터 표시" 또는 확장된 시각적 개체의 작업 메뉴에 있는 새 아이콘을 탭합니다.
-
-## <a name="previous-months"></a>이전 달
 
 ### <a name="september-2017"></a>2017년 9월
 #### <a name="filters-for-phone-reports-in-iphones"></a>iPhone에서 휴대폰 보고서에 대한 필터

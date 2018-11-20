@@ -1,5 +1,5 @@
 ---
-title: Power BI 관리를 위한 PowerShell cmdlet, REST API 및 .NET SDK
+title: 관리자용 PowerShell cmdlet, REST API 및 .NET SDK
 description: 스크립트 및 프로그래밍 API를 통해 Power BI를 관리할 수 있는 방법에 대해 알아봅니다.
 author: mgblythe
 manager: kfile
@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 06/25/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ffb2ae077add5756af63f07d8f3da830e075e0b4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4455fef5a2ed0e7ee23ff8ca3a0b626cd695838
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945289"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507994"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>Power BI 관리를 위한 PowerShell cmdlet, REST API 및 .NET SDK
 Power BI를 사용하면 관리자가 PowerShell cmdlet을 사용하여 일반적인 작업을 스크립팅할 수 있습니다. 또한 REST API를 노출하고 관리 솔루션을 개발하기 위해 .NET SDK를 제공합니다. 이 항목에서는 해당하는 SDK 메서드 및 REST API 엔드포인트의 cmdlet 목록을 보여줍니다. 자세한 내용은 다음을 참조하세요.

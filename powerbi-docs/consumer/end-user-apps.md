@@ -7,22 +7,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 11/09/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: bc68be50917b113371fc168d1b6e3defa2b5001e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 9c9a99e2bfe0ae90607da4f27d77cb0a2a78a7c8
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473431"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507649"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다. 조직의 사용자는 주요 비즈니스 정보가 포함된 앱을 만들고 배포합니다. 이미 사용 중일 수 있는 Google 웹로그 분석 및 Microsoft Dynamics CRM과 같은 [외부 서비스](end-user-connect-to-services.md)에서도 Power BI 앱을 제공합니다. 
 
 ![Power BI의 앱](./media/end-user-apps/power-bi-apps-navbar.png)
 
-앱은 Power BI 서비스([app.powerbi.com](https:app.powerbi.com)) 및 모바일 장치에서 쉽게 찾아 설치할 수 있습니다. 앱을 설치한 후에는 다양한 여러 대시보드가 앱, 브라우저 또는 모바일 장치에 모두 함께 있기 때문에 그 이름들을 기억할 필요가 없습니다.
+앱은 Power BI 서비스 및 모바일 디바이스에서 쉽게 찾아 설치할 수 있습니다. 앱을 설치한 후에는 다양한 여러 대시보드가 앱, 브라우저 또는 모바일 장치에 모두 함께 있기 때문에 그 이름들을 기억할 필요가 없습니다.
 
 앱을 사용하면 앱 작성자가 업데이트를 릴리스할 때마다 자동으로 변경 사항을 확인할 수 있습니다. 또한 작성자는 데이터 새로 고침 예약 빈도를 조절하기도 하므로, 최신 상태로 유지하는 것에 대해 염려할 필요가 없습니다. 
 

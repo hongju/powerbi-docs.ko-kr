@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223056"
+ms.locfileid: "51266096"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI용 백서
 
@@ -22,6 +22,7 @@ ms.locfileid: "51223056"
 
 | 백서 | 설명 | 날짜 |
 | --- | --- | --- |
+| [Power BI 및 데이터 흐름](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| 이 백서에서는 데이터 흐름의 기술 정보를 자세히 설명하고 데이터 흐름의 특징 및 기능의 기반이 되는 역량과 이니셔티브를 설명합니다. | 2018년 11월 |
 | [Microsoft Power BI 프리미엄](https://aka.ms/pbipremiumwhitepaper) |시작될 때의 모습과 확대 방식 등, Power BI 프리미엄을 설명합니다. | 2017년 10월 |
 | [Power BI Premium 계획 및 배포](https://aka.ms/Premium-Capacity-Planning-Deployment)| 이 문서는 잘 정의된 워크로드를 위한 프리미엄 용량을 계획하고 배포하기 위한 지침과 모범 사례를 제공합니다.| 2017년 11월 |
 | [Power BI 프리미엄을 사용한 Embedded Analytics에 대한 용량 계획](https://aka.ms/pbiewhitepaper) |이 문서는 앱 개발자/ISV에게 해당 비즈니스에 대한 가장 적절한 용량을 결정하기 위한 지침을 제공합니다. | 2017년 10월 |

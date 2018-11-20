@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b4ecec3b2e53c2fea0fcbb7d78d1114da1a105ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da8fb3da7ea0e4f0457951bc421a5f207c3c6911
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299634"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273313"
 ---
 # <a name="on-premises-data-gateway-faq"></a>온-프레미스 데이터 게이트웨이 FAQ
 <!-- Shared FAQ shared Include -->
@@ -68,6 +68,9 @@ ms.locfileid: "34299634"
 
 **질문:** 게이트웨이에서 ExpressRoute를 사용하는가요?  
 **답변:** 예. ExpressRoute 및 Power BI에 대한 자세한 내용은 [Power BI 및 ExpressRoute](service-admin-power-bi-expressroute.md)를 참조하세요.
+
+**질문:** R 스크립트를 사용하고 있습니다. 지원됩니까?
+**대답:** R 스크립트는 개인 모드에서만 지원됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  

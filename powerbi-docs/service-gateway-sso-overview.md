@@ -1,5 +1,5 @@
 ---
-title: Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On) 사용
+title: 온-프레미스 데이터 원본의 SSO(Single Sign-On) 사용
 description: Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)를 사용하도록 게이트웨이 구성
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/15/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: c489ff0e1b764a6ee3dc026e8294132dc8f49025
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: b728ba6ebaab81ea475f51b9134de34c37d4149b
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474586"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580497"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI의 게이트웨이 SSO(Single Sign-On) 개요
 
@@ -25,8 +25,10 @@ ms.locfileid: "49474586"
 
 * SQL Server([Kerberos](service-gateway-sso-kerberos.md))
 * SAP HANA([Kerberos](service-gateway-sso-kerberos.md) 및 [SAML](service-gateway-sso-saml.md)
+* SAP BW([Kerberos](service-gateway-sso-kerberos.md))
 * Teradata([Kerberos](service-gateway-sso-kerberos.md))
 * Spark([Kerberos](service-gateway-sso-kerberos.md))
+* Impala([Kerberos](service-gateway-sso-kerberos.md))
 
 사용자가 Power BI 서비스에서 DirectQuery 보고서와 상호 작용하는 경우 각 교차 필터, 조각, 정렬 및 보고서 편집 작업은 기본 온-프레미스 데이터 원본에 대해 라이브를 실행하는 쿼리에서 발생할 수 있습니다.  SSO가 데이터 원본에 대해 구성된 경우 쿼리는 Power BI와 상호 작용하는 사용자의 ID에서 실행합니다(즉, 웹 환경 또는 Power BI 모바일 앱을 통해). 따라서 각 사용자는 구성된 Single Sign-On으로 기본 데이터 원본에서 사용 권한이 있는 데이터를 정확하게 보며, 서로 다른 사용자 간에는 공유 데이터 캐싱이 없습니다.
 

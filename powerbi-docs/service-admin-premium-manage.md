@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: a36b0524006144bfa9fbd24d9ff88b42a1acb3d4
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 39429d0f09431da3f860bf0454843c65ce07a524
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641646"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266004"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium 및 Power BI Embedded 내에서 용량 관리
 
@@ -53,6 +53,44 @@ Power BI Premium 또는 Embedded SKU를 구입할 때 테넌트는 실행 중인
 대부분의 경우 사용자는 프리미엄 용량에 있다는 것을 알지 않아도 됩니다. 대시보드 및 보고서가 작동합니다. 시각적 힌트로 프리미엄 용량에 있는 작업 영역 옆에 다이아몬드 아이콘이 표시됩니다.
 
 ![작업 영역을 표시하는 다이아몬드는 프리미엄 용량에 의해 지원됩니다.](media/service-admin-premium-manage/premium-workspace.png)
+
+## <a name="configure-workloads"></a>워크로드 구성
+
+Power BI의 워크로드를 사용자에게 제공할 수 있는 많은 서비스 중 하나로 생각해 보세요. 기본적으로 **Power BI Premium** 및 **Power BI Embedded** 용량은 클라우드에서 실행 중인 Power BI 쿼리와 연결된 워크로드만 지원합니다.
+
+이제 **페이지를 매긴 보고서**, **데이터 흐름** 등 두 가지 추가 워크로드의 미리 보기를 지원합니다. 이러한 워크로드는 Power BI 관리 포털에서 또는 Power BI REST API를 통해 사용하도록 설정합니다. 다양한 워크로드가 서로 영향을 미치는 방식을 제어할 수 있도록 각 워크로드가 이용하는 최대 메모리를 설정할 수도 있습니다.
+
+### <a name="enable-workloads-in-the-power-bi-admin-portal"></a>Power BI 관리 포털에서 워크로드를 사용하도록 설정
+
+워크로드를 사용하도록 설정하려면 다음 단계를 수행합니다.
+
+1. **용량 설정**에서 용량을 선택합니다.
+
+1. **추가 옵션**에서 **워크로드**를 확장합니다.
+
+1. 하나 이상의 워크로드를 사용하도록 설정하고 **최대 메모리** 값을 설정합니다.
+
+    ![관리 포털에서 워크로드 구성](media/service-admin-premium-manage/admin-portal-workloads.png)
+
+1. **적용**을 선택합니다.
+
+### <a name="default-memory-settings"></a>기본 메모리 설정
+
+다음 표는 사용 가능한 다양한 [용량 노드](service-premium.md#premium-capacity-nodes)를 기반으로 한 기본 및 최소 메모리 값을 보여 줍니다. 메모리는 데이터 흐름에는 동적으로 할당되지만 페이지를 매긴 보고서에는 정적으로 할당됩니다. 자세한 내용은 다음 섹션인 [페이지를 매긴 보고서에 대한 고려 사항](#considerations-for-paginated-reports)을 참조하세요.
+
+|                     | EM3                      | P1                       | P2                      | P3                       |
+|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| 페이지가 매겨진 보고서 | 해당 없음 | 기본값 20%, 최소값 10% | 기본값 20%, 최소값 5% | 기본값 20%, 최소값 2.5% |
+| 데이터 흐름 | 기본값 15%, 최소값 8%  | 기본값 15%, 최소값 4%  | 기본값 15%, 최소값 2% | 기본값 15%, 최소값 1%  |
+| | | | | |
+
+### <a name="considerations-for-paginated-reports"></a>페이지를 매긴 보고서에 대한 고려 사항
+
+페이지를 매긴 보고서 워크로드를 사용하는 경우 다음 사항에 유의하세요.
+
+* **페이지를 매긴 보고서에서 메모리 할당**: 페이지를 매긴 보고서를 사용하면 콘텐츠에 따라 텍스트 색상을 동적으로 변경하는 경우와 같이 보고서를 렌더링할 때 고유의 코드를 실행할 수 있습니다. 이에 따라 용량 내에 있는 포함된 공간에서 페이지를 매긴 보고서를 실행하여 Power BI Premium 용량을 보호합니다. 워크로드가 활성 상태인지 여부와 관계없이 사용자가 지정하는 최대 메모리를 이 공간에 할당합니다. 동일한 용량에서 Power BI 보고서 또는 데이터 흐름을 사용하는 경우 다른 워크로드에 부정적인 영향을 미치지 않도록 페이지를 매긴 보고서에 충분히 작은 메모리를 설정해야 합니다.
+
+* **페이지를 매긴 보고서를 사용할 수 없음**: 드물지만 페이지를 매긴 보고서 워크로드를 사용할 수 없는 경우가 있습니다. 이런 경우 워크로드에서 관리 포털에 오류 상태를 표시하며 사용자에게는 보고서 렌더링 제한 시간이 표시됩니다. 이 문제를 해결하려면 워크로드를 사용하지 않도록 설정했다가 다시 사용하도록 설정하세요.
 
 ## <a name="monitor-capacity-usage"></a>용량 사용량 모니터링
 
