@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297139"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679021"
 ---
 # <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
 
@@ -100,7 +100,7 @@ ms.locfileid: "51297139"
 ## <a name="enabling-outbound-azure-connections"></a>아웃바운드 Azure 연결 사용
 
 온-프레미스 데이터 게이트웨이는 클라우드 연결에 대해 Azure Service Bus를 사용하고 해당하는 연결된 Azure 지역에 대한 아웃바운드 연결을 설정합니다. 기본적으로 여기가 Power BI 테넌트의 위치입니다. 내 [Power BI 테넌트](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)는 어디에 있습니까?를 참조하세요.
-방화벽이 아웃바운드 연결을 차단하는 경우 온-프레미스 데이터 게이트웨이에서 해당하는 연결된 Azure 지역으로 아웃바운드 연결을 허용하도록 방화벽을 구성해야 합니다. 각 Azure 데이터 센터의 IP 주소 범위에 대한 세부 정보는 [Microsoft Azure 데이터 센터 IP 범위](https://www.microsoft.com/en-us/download/details.aspx?id=41653)를 참조하세요.
+방화벽이 아웃바운드 연결을 차단하는 경우 온-프레미스 데이터 게이트웨이에서 해당하는 연결된 Azure 지역으로 아웃바운드 연결을 허용하도록 방화벽을 구성해야 합니다. 각 Azure 데이터 센터의 IP 주소 범위에 대한 세부 정보는 [Microsoft Azure 데이터 센터 IP 범위](https://www.microsoft.com/download/details.aspx?id=41653)를 참조하세요.
 > [!NOTE]
 > IP 주소 범위는 시간이 지나도 변경될 수 있습니다. 따라서 정기적으로 최신 정보를 다운로드해야 합니다. 
 

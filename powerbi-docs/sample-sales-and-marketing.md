@@ -1,21 +1,21 @@
 ---
 title: 'Power BI의 영업 및 마케팅 샘플: 둘러보기'
 description: 'Power BI의 영업 및 마케팅 샘플: 둘러보기'
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5e69f9416f1de84cd4e2268964620b6a114d4016
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 717db64d30a12d41dc293db11f6f942e4615a1db
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944494"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717588"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI의 영업 및 마케팅 샘플: 둘러보기
 

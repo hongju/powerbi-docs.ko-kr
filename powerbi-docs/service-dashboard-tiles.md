@@ -1,21 +1,21 @@
 ---
 title: Power BI 서비스의 대시보드 타일
 description: Power BI의 대시보드 타일에 대한 모든 정보. SSRS(SQL Server Reporting Services)에서 만들어진 타일을 포함합니다.
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/3/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f63f99004f9cb532821d6623ab2bdd3f805beafd
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: 76b8eaff949ee56d57511eabea913363e6cdc3f6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48875420"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717404"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
 대시보드 및 대시보드 타일은 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. Power BI 모바일에서는 대시보드 타일을 만들거나 고정할 수 없지만 [보고 공유](mobile-tiles-in-the-mobile-apps.md)할 수는 있습니다. 또한 Power BI 모바일에서는 [iPhone 앱으로 대시보드에 그림을 추가](mobile-iphone-app-get-started.md)할 수 있습니다.

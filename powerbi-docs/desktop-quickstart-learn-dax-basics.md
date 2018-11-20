@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003297"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679458"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop의 DAX 기본 사항
 이 문서는 Power BI Desktop을 처음 사용하는 사용자를 위한 것입니다. 여기서는 DAX(Data Analysis Expressions)를 사용하여 여러 가지 기본 계산 및 데이터 분석 문제를 해결하는 방법에 대해 신속하고 간략하게 소개합니다. 또한 일부 기본 개념, 완료할 수 있는 일련의 작업 및 지금까지 학습한 내용을 테스트할 수 있는 몇 가지 퀴즈를 검토합니다. 이 문서를 완료하면 DAX의 가장 중요한 기본 개념을 제대로 이해하고 있어야 합니다.
@@ -142,7 +142,7 @@ DAX에는 [날짜 및 시간](https://msdn.microsoft.com/library/ee634786.aspx),
 * DAX에는 다양한 시간 인텔리전스 함수가 포함되어 있습니다. 이러한 함수를 사용하여 날짜 범위를 정의하거나 선택하고 그에 따라 동적 계산을 수행할 수 있습니다. 예를 들어 병렬 기간 전체의 합계를 비교할 수 있습니다.
 * Excel에는 매우 많이 사용되는 VLOOKUP 함수가 있습니다. DAX 함수는 Excel의 VLOOKUP처럼 셀 또는 셀 범위를 참조로 사용하지 않습니다. DAX 함수는 열 또는 테이블을 참조로 사용합니다. Power BI Desktop에서는 관계형 데이터 모델을 사용하고 있다는 점에 유의해야 합니다. 다른 테이블의 값을 조회하기가 매우 쉬우므로 대부분의 경우 수식을 만들 필요가 없습니다.
   
-  보다시피 DAX의 함수를 사용하면 매우 강력한 수식을 만들 수 있습니다. 실제로 여기서는 함수의 기본 사항만 다루었습니다. DAX에 대한 이해가 늘어나면 여러 가지 다른 함수를 사용하여 수식을 만들 수 있습니다. 각 DAX 함수에 대한 자세한 내용은 [DAX 함수 참조](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference)를 참조하세요.
+  보다시피 DAX의 함수를 사용하면 매우 강력한 수식을 만들 수 있습니다. 실제로 여기서는 함수의 기본 사항만 다루었습니다. DAX에 대한 이해가 늘어나면 여러 가지 다른 함수를 사용하여 수식을 만들 수 있습니다. 각 DAX 함수에 대한 자세한 내용은 [DAX 함수 참조](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)를 참조하세요.
 
 ### <a name="functions-quickquiz"></a>함수 QuickQuiz
 1. 함수는 항상 무엇을 참조하나요?

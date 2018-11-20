@@ -1,21 +1,21 @@
 ---
 title: Power BI와 함께 사용 가능한 샘플 둘러보기
 description: Power BI의 샘플 콘텐츠 팩, PBIX 파일 및 Excel 데이터 집합
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/06/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 91c08ab428852cc0fa8a721278e232400ed19bfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: fa6c6094e4fdfefebd0c7bb1f9ec8fa87d41766b
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546490"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717795"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI와 함께 사용 가능한 샘플 데이터는 무엇입니까?
 Power BI를 처음 접하고, 사용해 보고 싶지만 데이터가 없는 경우가 있습니다.  또는 데이터 집합이 있지만 Power BI의 작동 원리를 아직 잘 모르기 때문에 데이터 집합이 조금이라도 손상될까봐 걱정하는 분들이 있습니다.

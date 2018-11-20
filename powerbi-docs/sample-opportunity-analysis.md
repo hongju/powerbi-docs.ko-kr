@@ -1,21 +1,21 @@
 ---
 title: 'Power BI의 기회 분석 샘플: 둘러보기'
 description: 'Power BI의 기회 분석 샘플: 둘러보기'
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/20/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 2a7bc3ae08d46ccc9340295a1a6bc9f8303382f8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 12bc6039f7b6580782d3dfac181443caa6557447
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945092"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717496"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 기회 분석 샘플: 둘러보기
 

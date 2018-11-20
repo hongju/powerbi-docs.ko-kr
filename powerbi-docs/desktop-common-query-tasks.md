@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: bec5bb108bc210f268db0392370e15d89c0352b7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 33462cbdac69d13d64d396a1dd93a6e1922a9e2c
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39330216"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679385"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop의 일반적인 쿼리 작업
 Power BI Desktop의 **쿼리 편집기** 창에서 작업하는 경우 일반적으로 사용되는 소수의 작업이 있습니다. 이 문서에서는 이러한 일반적인 작업을 보여 주고, 추가 정보 링크를 제공합니다. 
@@ -56,7 +56,7 @@ Power BI Desktop의 데이터에 연결하려면 리본의 **홈** 탭에서 **�
 
 ![](media/desktop-common-query-tasks/datasources_fromwebbox.png)
 
-**확인** 을 선택하면, 이전처럼 Power BI Desktop이 통합 문서를 검사하고 찾은 데이터를 **탐색기** 창에 표시합니다.
+**O확인**,을 선택하면, 이전처럼 Power BI Desktop이 통합 문서를 검사하고 찾은 데이터를 **탐색기** 창에 표시합니다.
 
 다른 데이터 연결도 비슷합니다. 데이터 연결에 인증이 필요한 경우 Power BI Desktop이 적절한 자격 증명을 묻는 메시지를 표시합니다.
 
@@ -69,7 +69,7 @@ Power BI Desktop에서 데이터에 연결하는 단계별 데모를 보려면 [
 
 ![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
-데이터 모양을 지정하는 경우 요구 사항에 맞는 형태와 형식으로 데이터 소스를 변환합니다. 이 경우 *Header*라는 첫 번째 열이 필요하지 않으므로 제거하겠습니다.
+데이터 모양을 지정하는 경우 요구 사항에 맞는 형태와 형식으로 데이터 소스를 변환합니다. 이 경우 *헤더*라는 첫 번째 열이 필요하지 않으므로 제거하겠습니다.
 
 **쿼리 편집기**에서 리본 메뉴와 상황에 맞는 오른쪽 클릭 메뉴를 통해 많은 명령을 사용할 수 있습니다. 예를 들어 *Header* 열을 마우스 오른쪽 단추로 클릭할 때 나타나는 메뉴를 사용하여 열을 제거할 수 있습니다. 열을 선택한 다음, 리본에서 **열 제거** 단추를 선택할 수도 있습니다.
 
@@ -146,7 +146,7 @@ Power BI Desktop을 사용하면 열을 피벗하고, 열의 각 고유 값에 �
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 
-Power BI Desktop은 광범위한 수식 범주 집합을 제공합니다. 자세한 내용 및 모든 쿼리 편집기 수식의 전체 참조를 보려면 [파워 쿼리 수식 범주](https://support.office.com/en-in/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819)를 참조하세요.
+Power BI Desktop은 광범위한 수식 범주 집합을 제공합니다. 자세한 내용 및 모든 쿼리 편집기 수식의 전체 참조를 보려면 [파워 쿼리 수식 범주](https://support.office.com/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819)를 참조하세요.
 
 쿼리 편집기에 대한 수식 범주는 다음과 같습니다.
 

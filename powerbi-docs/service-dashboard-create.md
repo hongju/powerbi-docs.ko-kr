@@ -1,7 +1,7 @@
 ---
 title: 보고서에서 Power BI 대시보드 만들기
 description: 보고서에서 Power BI 대시보드 만들기
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
-ms.author: mihart
-ms.openlocfilehash: 666938d8d852793b68bb278147c61f077c839ed2
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.author: maggies
+ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435367"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717427"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>보고서에서 Power BI 대시보드 만들기
 지금까지 [Power BI의 대시보드](service-dashboards.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 보고서에서, 처음부터, 데이터 집합에서 대시보드를 만들거나 기존 대시보드를 복제하는 등 다양한 방법으로 대시보드를 만들 수 있습니다.  

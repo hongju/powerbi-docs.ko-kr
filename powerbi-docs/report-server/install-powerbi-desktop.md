@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 54f49bf28019ba41df7d68e1d5312ee975023859
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564788"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679067"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 Power BI Report Server에 최적화된 Power BI Desktop을 설치하는 방법에 대해 자세히 알아봅니다.
@@ -31,7 +31,7 @@ Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유�
 
     ![웹 포털에서 Power BI Desktop 다운로드](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    또는 Microsoft 다운로드 센터에서 [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271)(Power BI Report Server에 최적화 - 2018년 8월)으로 바로 이동할 수도 있습니다.
+    또는 Microsoft 다운로드 센터에서 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271)(Power BI Report Server에 최적화 - 2018년 8월)으로 바로 이동할 수도 있습니다.
 
 2. 다운로드 센터 페이지에서 **다운로드**를 선택합니다.
 

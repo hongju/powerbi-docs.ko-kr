@@ -1,21 +1,21 @@
 ---
 title: 질문 및 답변에서 대시보드에 타일을 고정하는 방법
 description: 질문 및 답변 상자에서 Power BI 대시보드에 타일을 고정하는 방법에 대한 설명서입니다.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9cf5855acc5efe773f8f06e6de9f769f75794bdb
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 32099bb5ab5cb3784bd237234344783be8ca5a9a
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548735"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717204"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>질문 및 답변에서 대시보드에 타일 고정
 ## <a name="how-to-pin-a-tile-from-qa"></a>질문 및 답변에서 타일을 고정하는 방법

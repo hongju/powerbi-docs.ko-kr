@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e74c8db22a2a1c4ddb188ae13a8ca5df9f862f3
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 432e38ffdcb92ee1d2cf1d62f7f34863d748885b
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507718"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679113"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>조직 콘텐츠 팩 찾기 및 연결
 
@@ -38,7 +38,7 @@ ms.locfileid: "51507718"
 ## <a name="connect-to-an-organizational-content-pack"></a>조직 콘텐츠 팩에 연결
 * **지금 가져오기**를 선택하여 콘텐츠 팩에 연결하고 활성 작업 영역에 추가합니다. 새 대시보드, 보고서, Excel 통합 문서 및 데이터 집합은 노란색 별표 별모양으로 장식됩니다.
 
-콘텐츠 팩에 Excel 통합 문서가 있는 경우 통합 문서를 볼 수 있는 권한이 없다는 경고가 표시될 수 있습니다. 그렇다면 콘텐츠 팩 소유자에게 [비즈니스용 OneDrive에서 통합 문서를 공유](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)하도록 요청합니다. 
+콘텐츠 팩에 Excel 통합 문서가 있는 경우 통합 문서를 볼 수 있는 권한이 없다는 경고가 표시될 수 있습니다. 그렇다면 콘텐츠 팩 소유자에게 [비즈니스용 OneDrive에서 통합 문서를 공유](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)하도록 요청합니다. 
 
 콘텐츠 팩이 잠겼습니다. [대시보드 및 보고서의 자체 복사본을 저장](../service-organizational-content-pack-copy-refresh-access.md)할 수 있습니다. 
 

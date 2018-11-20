@@ -1,26 +1,26 @@
 ---
 title: 'Power BI용 고객 수익성 샘플: 둘러보기'
 description: 'Power BI용 고객 수익성 샘플: 둘러보기'
-author: amandacofsky
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: fb06b83ca2fe949751337347c91b3947e115286d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a47a63311dd28f2f1f313bc0a5cfcd68cdb0401b
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944724"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717979"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI용 고객 수익성 샘플: 둘러보기
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>고객 수익성 샘플 개요
-“고객 수익성 샘플” 콘텐츠 팩은 마케팅 자료를 제조하는 회사에 대한 대시보드, 보고서 및 데이터 집합을 포함합니다. 이 대시보드는 5개 비즈니스 단위 관리자(즉, 임원), 제품, 고객 및 총수익(GM)에 대한 주요 메트릭을 확인하기 위해 CFO에 의해 만들어졌습니다. 수익성에 영향을 주는 팩트를 한 눈에 볼 수 있습니다.
+“고객 수익성 샘플” 콘텐츠 팩은 마케팅 자료를 제조하는 회사에 대한 대시보드, 보고서 및 데이터 집합을 포함합니다. 이 대시보드는 5개 비즈니스 단위 관리자(즉, 임원), 제품, 고객 및 총수익(GM)에 대한 주요 메트릭을 확인하기 위해 CFO에 의해 만들어졌습니다. 수익성에 영향을 주는 요인을 한 눈에 볼 수 있습니다.
 
 ![Power BI 대시보드](media/sample-customer-profitability/power-bi-dash.png)
 

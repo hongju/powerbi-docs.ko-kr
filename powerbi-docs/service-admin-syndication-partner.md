@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909321"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157405"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Office 365 파트너 구독에 Power BI를 추가할 수 없음
 
@@ -23,7 +23,7 @@ Office 365는 회사에서 Office 365를 자사의 솔루션에 통합하여 재
 
 Office 365 구독과 함께 Power BI를 구매하려면 파트너에게 문의하는 것이 좋습니다. 파트너가 Power BI를 제공하지 않을 경우 사용할 다양한 옵션이 있습니다.
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>파트너와 협업하여 Power BI 구매
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>파트너와 협업하여 Power BI 구매
 
 Power BI Pro 또는 Power BI Premium에 대한 구독을 구매하려면 파트너와 협업하여 어떤 옵션이 있는지 고려합니다.
 
@@ -31,7 +31,7 @@ Power BI Pro 또는 Power BI Premium에 대한 구독을 구매하려면 파트�
 
 * 파트너는 Microsoft로부터 직접 또는 Power BI를 제공하는 다른 파트너로부터 Power BI를 구매할 수 있는 모델로 전환할 수 있습니다.
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>Microsoft 또는 다른 채널에서 구매
+## <a name="purchase-from-microsoft-or-another-channel"></a>Microsoft 또는 다른 채널에서 구매
 
 파트너와 관계에 따라 Microsoft 또는 다른 파트너로부터 직접 Power BI를 구매할 수 있습니다. Office 365 관리 포털에서 Power BI 구독을 추가할 수 있는지 확인할 수 있습니다(전역 관리자 또는 청구 관리자 역할의 멤버 자격 필요).
 

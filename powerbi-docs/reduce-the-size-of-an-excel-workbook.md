@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12ff54b1aa44edaead98b1fab6942acbd76216c7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5d21dff56620e4b2eb05ed3bbf123ff1d1805075
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329434"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679358"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Power BI에서 보기 위해 Excel 통합 문서 크기 줄이기
 1GB 미만의 Excel 통합 문서를 Power BI에 업로드할 수 있습니다. Excel 통합 문서에는 두 부분이 있습니다. 데이터 모델과, 보고서의 나머지 부분(핵심 워크시트 컨텐츠)입니다. 보고서가 다음 크기 제한에 적합한 경우, **비즈니스용 OneDrive**에 저장하고 Power BI에 연결하여 Excel Online에서 볼 수 있습니다.
@@ -28,7 +28,7 @@ ms.locfileid: "39329434"
 
 * 이미지.
 * 음영 처리 된 셀. [셀 음영 서식을 제거합니다](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e).
-* 색이 지정된 워크시트. [시트 배경을 제거합니다](https://support.office.com/en-US/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8).
+* 색이 지정된 워크시트. [시트 배경을 제거합니다](https://support.office.com/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8).
 * 텍스트 상자.
 * 클립 아트.
 
@@ -55,7 +55,7 @@ Excel로 데이터를 가져올 때는 다음 팁을 따르십시오.
 * **Excel Data 탭에서**: **데이터 가져오기** 상자의 **테이블** 선택 상자에 표시하지 마십시오.
 
 ## <a name="workbook-size-optimizer"></a>통합 문서 크기 최적화 프로그램
-통합 문서가 데이터 모델을 포함하는 경우 통합 문서 크기 최적화 프로그램을 실행하여 통합 문서 크기를 줄일 수 있습니다. [통합 문서 크기 최적화 프로그램을 다운로드](https://www.microsoft.com/en-us/download/details.aspx?id=38793)합니다.
+통합 문서가 데이터 모델을 포함하는 경우 통합 문서 크기 최적화 프로그램을 실행하여 통합 문서 크기를 줄일 수 있습니다. [통합 문서 크기 최적화 프로그램을 다운로드](https://www.microsoft.com/download/details.aspx?id=38793)합니다.
 
 ## <a name="related-info"></a>관련된 정보
 [메모리 효율적인 데이터 모델 만들기](https://support.office.com/article/Create-a-memory-efficient-Data-Model-using-Excel-2013-and-the-Power-Pivot-add-in-951c73a9-21c4-46ab-9f5e-14a2833b6a70)

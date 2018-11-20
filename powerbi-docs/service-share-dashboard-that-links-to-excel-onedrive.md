@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28934a525c332344b31de599363fb41126a18cfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ccb73b05998eded0c32742deed57b2bee35fbbb6
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548767"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679090"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>OneDrive에서 Excel 파일에 연결되는 Power BI 대시보드 공유
 Power BI에서 [비즈니스용 OneDrive의 Excel 통합 문서에 연결](service-excel-workbook-files.md)하고 해당 통합 문서에서 대시보드에 타일을 고정할 수 있습니다. 해당 대시보드를 공유하거나 해당 대시보드를 포함하는 콘텐츠 팩을 만들면 다음과 같이 됩니다.
 
 * 동료는 통합 문서 자체에 대한 사용 권한 없이도 타일을 볼 수 있습니다. 따라서 콘텐츠 팩을 만들면 동료가 OneDrive의 Excel 통합 문서에서 만든 타일을 볼 수 있다는 것을 알 수 있습니다.
-* 타일을 클릭하면 Power BI 내에서 통합 문서가 열립니다. 동료가 비즈니스용 OneDrive의 통합 문서에 대해 최소한 [읽기 권한](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)이 있는 경우에만 통합 문서가 열립니다.
+* 타일을 클릭하면 Power BI 내에서 통합 문서가 열립니다. 동료가 비즈니스용 OneDrive의 통합 문서에 대해 최소한 [읽기 권한](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)이 있는 경우에만 통합 문서가 열립니다.
 
 ## <a name="share-a-dashboard-that-contains-workbook-tiles"></a>통합 문서 타일을 포함하는 대시보드 공유
 비즈니스용 OneDrive의 Excel 통합 문서에 다시 연결하는 대시보드를 공유하려면 [대시보드 공유](service-share-dashboards.md)를 참조하세요. 차이점은 공유하기 전에 연결된 Excel 통합 문서에 대한 사용 권한을 수정할 수 있다는 것입니다.
@@ -30,7 +30,7 @@ Power BI에서 [비즈니스용 OneDrive의 Excel 통합 문서에 연결](servi
 
 1. 동료의 메일 주소를 입력합니다.
 2. 동료가 Power BI에서 Excel 통합 문서를 볼 수 있게 하려면 **비즈니스용 OneDrive로 이동하여 통합 문서 사용 권한 설정**을 선택합니다.
-3. 필요에 따라 OneDrive에서 [사용 권한을 수정](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)합니다.
+3. 필요에 따라 OneDrive에서 [사용 권한을 수정](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)합니다.
 4. **공유**를 선택합니다.
 
 >[!NOTE]
@@ -46,7 +46,7 @@ Power BI에서 [비즈니스용 OneDrive의 Excel 통합 문서에 연결](servi
    
     ![콘텐츠 팩에서 Excel 통합 문서](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
 3. **비즈니스용 OneDrive로 이동하여 통합 문서 사용 권한 설정**을 선택합니다.
-4. 필요에 따라 OneDrive에서 [사용 권한을 수정](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)합니다.
+4. 필요에 따라 OneDrive에서 [사용 권한을 수정](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)합니다.
 5. **게시**를 선택합니다.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Power BI 작업 영역에서 대시보드 공유

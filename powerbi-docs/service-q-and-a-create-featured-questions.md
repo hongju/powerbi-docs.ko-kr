@@ -1,7 +1,7 @@
 ---
 title: Power BI 질문 및 답변에 대한 추천 질문을 만드는 방법
 description: Power BI 질문 및 답변에 대한 추천 질문을 만드는 방법에 대한 설명서입니다.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: E1mIAyEXuF4
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 02663648002f7924725791e378e10532fadc1128
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548238"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51716944"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI 질문 및 답변에 대한 추천 질문 만들기
 데이터 집합을 소유하는 경우 해당 데이터 집합에 고유한 추천 질문을 추가할 수 있습니다.  Power BI 질문 및 답변은 이러한 질문을 데이터 집합을 사용(*소비*)하는 동료에게 보여줍니다.  추천 질문은 동료에게 데이터 집합에 대해 문의할 수 있는 형식의 질문에 대한 아이디어를 제공합니다. 추가한 추천 질문은 인기있는 질문, 흥미로운 결과를 표시하는 질문 또는 표현하기 어려울 수 있는 질문을 추가하는 등 다양하게 만들 수 있습니다.

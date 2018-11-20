@@ -2,7 +2,7 @@
 title: Power BI 서비스에서 대시보드 테마 사용
 description: 사용자 지정 색상표를 사용하고 Power BI 서비스에서 전체 대시보드에 적용하는 방법 알아보기
 author: maggiesMSFT
-manager: annbe
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: fd6cc83b5e5d27159f0cff853cb3effb6b415a9d
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 4e0f8dac3a5d254594c512f0a9804773308c9eb7
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186596"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717287"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI 서비스에서 대시보드 테마 사용
 **대시보드 테마**를 사용하여 전체 대시보드에 회사 색, 계절 색 지정 또는 적용하려는 기타 색 테마 등의 색 테마를 적용할 수 있습니다. **대시보드 테마**를 적용하는 경우 대시보드의 모든 시각적 개체에서는 선택한 테마를 사용합니다(몇 가지 예외 적용, 이 아티클의 뒷부분에서 설명).

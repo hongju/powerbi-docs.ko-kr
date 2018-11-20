@@ -1,21 +1,21 @@
 ---
 title: 하나의 대시보드에서 다른 대시보드에 타일 고정
 description: 하나의 대시보드에서 다른 대시보드에 타일 고정
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: d8a241a810cc41e908fd99df08f8eae53bac7f47
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545902"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717128"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>하나의 대시보드에서 다른 대시보드에 타일 고정
 다른 대시보드에서 타일을 복사하는 것은 새 [대시보드 타일](consumer/end-user-tiles.md)을 추가하는 방법 중 하나입니다. 질문 및 답변이나 보고서에서 이 각 타일을 클릭하면 만들어진 곳으로 링크가 연결됩니다. 
