@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 2ca75f191f27bd158b9fab67c7be6902154f8ac1
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641232"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717634"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium이란?
 
@@ -46,7 +46,7 @@ Microsoft Power BI Premium은 조직에 대해 Power BI 서비스를 실행하�
 | --- | --- | --- |
 | **새로 고침 빈도** |8/일 |48/일 |
 | **전용 하드웨어로 격리** |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함") |
-| **엔터프라이즈 배포 대상** ***모든 사용자*** | | |
+| **엔터프라이즈 배포 대상** _**모든 사용자**_ | | |
 | 앱 및 공유 |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함")<sup>1</sup> |
 | 포함된 API 및 컨트롤 |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함")<sup>2</sup> |
 | **Power BI 보고서 온-프레미스 게시** |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함") |
@@ -83,6 +83,39 @@ Power BI 프리미엄은 서로 다른 v-코어 용량으로 노드 구성에서
 * 프런트 엔드 V 코어는 웹 서비스, 대시보드 및 보고서 문서 관리, 액세스 권한 관리, 예약, API, 업로드 및 다운로드, 일반적으로 사용자 환경에 관련된 모든 항목에 책임이 있습니다.
 
 * 백 엔드 V 코어는 어려운 작업: 쿼리 처리, 캐시 관리, R 서버 실행, 데이터 새로 고침, 자연어 처리, 실시간 피드, 보고서 및 이미지의 서버 쪽 렌더링에 책임이 있습니다. 백 엔드 V 코어를 사용하여 메모리의 일정량도 예약됩니다. 큰 데이터 모델 또는 많은 수의 활성 데이터 집합을 처리할 때 충분한 메모리를 갖는 것은 특히 중요해지고 있습니다.
+
+## <a name="workloads-in-premium-capacity"></a>프리미엄 용량에서 워크로드
+
+Power BI의 워크로드를 사용자에게 제공할 수 있는 많은 서비스 중 하나로 생각해 보세요. 기본적으로 **Power BI Premium** 및 **Power BI Embedded**의 용량은 클라우드에서 실행 중인 Power BI 쿼리와 연결된 워크로드만 지원합니다.
+
+이제 **페이지를 매긴 보고서**, **데이터 흐름** 등 두 가지 추가 워크로드의 미리 보기를 지원합니다. 이러한 워크로드는 Power BI 관리 포털에서 또는 Power BI REST API를 통해 사용하도록 설정합니다. 다양한 워크로드가 서로 영향을 미치는 방식을 제어할 수 있도록 각 워크로드가 이용하는 최대 메모리를 설정할 수도 있습니다. 자세한 내용은 [워크로드 구성](service-admin-premium-manage.md#configure-workloads)을 참조하세요.
+
+### <a name="default-memory-settings"></a>기본 메모리 설정
+
+다음 표에서는 사용 가능한 다양한 [용량 노드](#premium-capacity-nodes)를 기반으로 하는 기본 및 최소 메모리 값을 보여줍니다. 메모리는 데이터 흐름에는 동적으로 할당되지만 페이지를 매긴 보고서에는 정적으로 할당됩니다. 자세한 내용은 다음 섹션인 [페이지를 매긴 보고서에 대한 고려 사항](#considerations-for-paginated-reports)을 참조하세요.
+
+#### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>SaaS(Software as a Service)용 Microsoft Office SKU 시나리오
+
+|                     | EM3                      | P1                       | P2                      | P3                       |
+|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| 페이지가 매겨진 보고서 | 해당 없음 | 기본값 20%, 최솟값 10% | 기본값 20%, 최솟값 5% | 기본값 20%, 최솟값 2.5% |
+| 데이터 흐름 | 기본값 20%, 최솟값 8%  | 기본값 20%, 최솟값 4%  | 기본값 20%, 최솟값 2% | 기본값 20%, 최솟값 1%  |
+| | | | | |
+
+#### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>PaaS(Platform as a Service)용 Microsoft Azure SKU 시나리오
+
+|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
+|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
+| 페이지가 매겨진 보고서 | 해당 없음                      | 해당 없음                      | 해당 없음                     | 기본값 20%, 최솟값 10% | 기본값 20%, 최솟값 5% | 기본값 20%, 최솟값 2.5% |
+| 데이터 흐름         | 기본값 27%, 최솟값 27% | 기본값 20%, 최솟값 16% | 기본값 20%, 최솟값 8% | 기본값 20%, 최솟값 4%  | 기본값 20%, 최솟값 2% | 기본값 20%, 최솟값 1%   |
+
+### <a name="considerations-for-paginated-reports"></a>페이지를 매긴 보고서에 대한 고려 사항
+
+페이지를 매긴 보고서 워크로드를 사용하는 경우 다음 사항에 유의하세요.
+
+* **페이지를 매긴 보고서에서 메모리 할당**: 페이지를 매긴 보고서를 사용하면 콘텐츠에 따라 텍스트 색상을 동적으로 변경하는 경우와 같이 보고서를 렌더링할 때 고유의 코드를 실행할 수 있습니다. 이에 따라 용량 내에 포함된 공간에서 페이지를 매긴 보고서를 실행하여 Power BI Premium 용량을 보호합니다. 워크로드가 활성 상태인지 여부와 관계없이 사용자가 지정하는 최대 메모리를 이 공간에 할당합니다. 동일한 용량에서 Power BI 보고서 또는 데이터 흐름을 사용하는 경우 다른 워크로드에 부정적인 영향을 미치지 않도록 페이지를 매긴 보고서에 충분히 작은 메모리를 설정해야 합니다.
+
+* **페이지를 매긴 보고서를 사용할 수 없음**: 드물지만 페이지를 매긴 보고서 워크로드를 사용할 수 없는 경우가 있습니다. 이런 경우 워크로드에서 관리 포털에 오류 상태를 표시하며 사용자에게는 보고서 렌더링 제한 시간이 표시됩니다. 이 문제를 해결하려면 워크로드를 사용하지 않도록 설정한 다음, 다시 사용하도록 설정하세요.
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
 

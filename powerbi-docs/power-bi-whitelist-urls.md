@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: 7b57e0d5e303f2b342e2d7750741717b178a8f4e
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: e62d39f13e2b171456d667ec9683acd4ebdc5516
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222108"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157129"
 ---
 # <a name="power-bi-urls"></a>Power BI URL
 
@@ -69,7 +69,7 @@ OneDrive와 같은 특정 데이터 원본에서 데이터를 가져오려면 �
 | 행 | 용도 | 대상 | 포트 |
 | --- | --- | --- | --- |
 | 1 | **필수:** AppSource(Power BI의 내부 또는 외부 앱) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
-| 2 | **필수:** 로그인하고 콘텐츠 팩의 데이터 가져오기 | *.github.com  | TCP 443 |
+| 2 | **선택 사항:** 로그인하고 콘텐츠 팩의 데이터 가져오기 | 사용되는 콘텐츠 팩에 따라 다름 | 사용되는 콘텐츠 팩에 따라 다름 |
 | 3 | **선택 사항:** 개인 OneDrive에서 파일 가져오기 | [OneDrive 사이트에 대한 필수 URL 및 포트](https://docs.microsoft.com/onedrive/required-urls-and-ports)를 참조하세요. | 해당 없음 |
 | 4 | **선택 사항:** Power BI(60초 후) 자습서 비디오 | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **선택 사항:** PubNub 스트리밍 데이터 원본 | [PubNub 설명서](https://support.pubnub.com/support/solutions/articles/14000043522)를 참조하세요. | 해당 없음 |

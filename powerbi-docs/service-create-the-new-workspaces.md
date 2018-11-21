@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/24/2018
+ms.date: 11/14/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: cdc406ddd9c086114ca118130bb4973737de3ed1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909018"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717898"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Power BI에서 새 작업 영역 만들기(미리 보기)
 
@@ -168,7 +168,7 @@ Power BI는 새 작업 영역 환경을 미리 보기 상태로 소개합니다.
 
 다음과 같은 문제를 알고 있고 해결 방법을 개발 중입니다.
 
-- 이메일에 대한 구독의 받는 사람으로 추가된 무료 사용자 또는 사용자 그룹은 수신해야 할 이메일을 받지 못할 수 있습니다. 새 작업 영역 환경이 프리미엄 용량에 위치하지만 구독을 만든 사용자의 내 작업 영역이 프리미엄 용량에 없는 경우에 이 문제가 발생합니다. 내 작업 영역이 프리미엄 용량에 위치하면 무료 사용자 및 사용자 그룹은 이메일을 받게 됩니다.
+- 이메일에 대한 구독의 받는 사람으로 추가된 무료 사용자 또는 사용자 그룹은 수신해야 할 이메일을 받지 못할 수 있습니다. 새 작업 영역 중 하나가 프리미엄 용량에 위치하지만 구독을 만든 사용자의 내 작업 영역이 프리미엄 용량에 없는 경우에 이 문제가 발생합니다. 내 작업 영역이 프리미엄 용량에 위치하면 무료 사용자 및 사용자 그룹은 이메일을 받게 됩니다.
 - 경우에 따라 프리미엄 용량에서 공유 용량으로 작업 영역을 이동한 후에 무료 사용자 및 사용자 그룹이 수신하지 말아야 할 이메일을 계속 받게 됩니다. 구독을 만든 사용자의 내 작업 영역이 프리미엄 용량에 위치한 경우에 이 문제가 발생합니다.
 
 ## <a name="next-steps"></a>다음 단계

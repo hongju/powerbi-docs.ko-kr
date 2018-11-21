@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4e1c2d309990c28ad0568dbd15dd7fe81634e95
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: b8d51bef94a046d7e59962b565d13ba623b5bcc4
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565708"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679493"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI에서 시각화 드릴 모드
 
@@ -177,7 +177,7 @@ Power BI를 사용하면 하나 또는 모든 하위 집합을 확장할 수 있
 ### <a name="hierarchical-data-and-time-data"></a>계층적 데이터 및 시간 데이터
 예를 들어 [소매 분석 샘플](../sample-datasets.md)을 따라 **TotalSales**(값) 별로 **월**(축)을 보는 세로 막대형 누적 차트 시각화를 만듭니다.  
 
-축 데이터 필드가 **월**인 경우라도 **축**에서 **연도** 범주를 생성합니다. Power BI가 읽어 온 모든 값에 대한 전체 날짜/시간 구조를 제공하기 때문입니다. 계층 구조의 상단에서는 연도에 대한 데이터를 표시합니다.
+축 데이터 필드가 **월**인 경우라도 **축**에서 **연도** 범주를 생성합니다. Power BI가 읽어 온 모든 값에 대한 전체 날짜/시간 구조를 제공하기 때문입니다. 계층 구조의 맨 위에는 해당 연도에 대한 데이터가 표시됩니다.
 
 ![](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
 

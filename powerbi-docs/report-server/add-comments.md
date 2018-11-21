@@ -1,5 +1,5 @@
 ---
-title: 보고서 서버의 보고서에 주석 추가 - Power BI Report Server
+title: Power BI Report Server의 보고서에 주석 추가
 description: Power BI Report Server 또는 SQL Server Reporting Services 보고서 서버에서 페이지가 매겨진 보고서 또는 Power BI에 주석을 추가하는 방법을 알아봅니다.
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: ff51b2e41d921b7a88afc9b13bb4ecd98814d12e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e0053660263f4cbed55050b9431b67228bf74c29
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727976"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157359"
 ---
-# <a name="add-comments-to-a-report-in-a-report-server"></a>보고서 서버의 보고서에 주석 추가
-보고서 서버의 웹 포털 내에 있는 Power BI 보고서를 비롯한 보고서에 주석을 추가할 수 있습니다. 주석은 보고서와 함께 유지되며 적절한 권한이 있는 모든 사용자는 보고서에 대한 주석을 볼 수 있습니다. 자세한 내용은 아래 [사용](#permissions) 섹션을 참조하세요.
+# <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>보고서 서버의 보고서에 주석 추가 - Power BI Report Server
+보고서 서버의 웹 포털 내에 있는 Power BI 보고서를 비롯한 보고서에 주석을 추가할 수 있습니다. 주석은 보고서와 함께 유지되며 적절한 권한이 있는 모든 사용자는 보고서에 대한 주석을 볼 수 있습니다. 자세한 내용은 아래 [사용 권한](#permissions) 섹션을 참조하세요.
 
 ## <a name="add-or-view-comments"></a>주석 추가 또는 보기
 1. 보고서 서버에서 페이지가 매겨진 보고서 또는 Power BI 보고서를 엽니다.

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9fed01feb86530dbee10e446d41799a3e2ccd9e3
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: 38a735a6cc258f3285787202b832ade9c6525994
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271512"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51678975"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>동료와 필터링된 Power BI 보고서 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. 또한 Power BI는 [보고서를 공동 작업하고 배포하는 여러 방법](service-how-to-collaborate-distribute-dashboards-reports.md)을 제공합니다.
@@ -49,7 +49,7 @@ Power BI 서비스의 대부분의 위치(즐겨찾기, 최근 항목, 공유한
    
    app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
 
-3. [보고서를 공유](service-share-dashboards.md)하되, **받는 사람에게 메일 알림 보내기** 확인란을 선택 취소합니다. 
+3. [보고서를 공유](service-share-dashboards.md)하되, **받는 사람에게 이메일 알림 보내기** 확인란을 선택 취소합니다. 
 
     ![보고서 공유 대화 상자](media/service-share-reports/power-bi-share-report-dialog.png)
 

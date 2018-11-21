@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 8cdeed0c5575a8405ae5db6d1eaca522ab0597cb
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736967"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679435"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -119,7 +119,7 @@ https://app.powerbi.com/ > ? > Power BI 정보
 ![Power BI 정보](media/embedded-faq/about-01.png)
 ![테넌트 지역](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>CSP(통신 순차적 프로세스) 채널에서 지원되는 기능은 무엇인가요?
+### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>CSP(클라우드 솔루션 공급자) 채널에서 지원되는 기능은 무엇인가요?
 
 * 구독 형식 CSP를 사용하여 테넌트에 대한 PBIE를 만들 수 있습니다.
 * 파트너 계정은 고객 테넌트에 로그인하고 고객 테넌트에 대한 PBIE를 구매하여 고객 테넌트 사용자를 Power BI 용량 관리자로 지정합니다.

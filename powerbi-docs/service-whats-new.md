@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b54a38f4c5639eae549a36a93c887d87630b7daf
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 0ffcec94d015223df596aa6ac941f7400a89e747
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396753"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51718071"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
@@ -655,7 +655,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 4월 23일**
 
-* 이제 새 콘텐츠 팩을 사용하여 **Microsoft Dynamics 마케팅** 데이터를 시각화 및 탐색할 수 있습니다! 자세한 내용은 [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx) 및 [설명서](service-connect-to-microsoft-dynamics-marketing.md)에 나와 있습니다.
+* 이제 새 콘텐츠 팩을 사용하여 **Microsoft Dynamics 마케팅** 데이터를 시각화 및 탐색할 수 있습니다! 자세한 내용은 [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx)을 참조하세요.
 
 **2015년 4월 15일**
 

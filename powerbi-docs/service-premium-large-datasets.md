@@ -10,24 +10,32 @@ ms.topic: conceptual
 ms.date: 10/18/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: 416f022ee3c413c69650e6f1736cc94edcd58f13
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 0449d7953b5cefb4c76d89f05ec5b3fa70e9c0da
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641255"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679388"
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>대형 데이터 집합을 위한 Power BI 프리미엄 지원
 
-Power BI 프리미엄은 최대 10GB 크기의 Power BI Desktop(.pbix) 파일 업로드를 지원합니다. 업로드한 후에는 데이터 집합 크기를 최대 12GB까지 새로 고칠 수 있습니다. 큰 데이터 집합을 사용하려면 프리미엄 용량에 할당된 작업 영역에 게시합니다. 이 문서에서는 대규모 데이터 집합 작업에 대한 고려 사항 및 모범 사례를 설명합니다.
+Power BI 프리미엄은 최대 10GB 크기의 Power BI Desktop(.pbix) 파일 업로드를 지원합니다. 업로드한 후에는 데이터 집합 크기를 최대 12GB까지 새로 고칠 수 있습니다. 큰 데이터 집합을 사용하려면 프리미엄 용량에 할당된 작업 영역에 게시합니다.
+ 
+## <a name="best-practices"></a>모범 사례
 
-**대규모 모델은 리소스 용량을 매우 많이 사용할 수 있습니다**. 1GB 보다 큰 모델에는 최소 P1 SKU를 사용하는 것이 좋습니다. 다음 표에는 다양한 .pbix 크기에 대한 권장 SKU를 설명합니다.
+이 섹션에서는 큰 데이터 집합을 사용한 작업에 대한 모범 사례를 설명합니다.
+
+**대규모 모델은 리소스 용량을 매우 많이 사용할 수 있습니다**. 1GB 보다 큰 모델에는 최소 P1 SKU를 사용하는 것이 좋습니다. A3까지 A SKU가 지원하는 작업 영역에 대형 모델을 게시하는 것이 효과적일 수 있지만 새로 고치는 작업은 가능하지 않습니다.
+
+다음 표에는 다양한 .pbix 크기에 대한 권장 SKU를 설명합니다.
 
    |SKU  |.pbix의 크기   |
    |---------|---------|
    |P1    | < 3GB        |
    |P2    | < 6GB        |
-   |P3, P4, P5    | 최대 10GB |
+   |P3, P4, P5    | 최대 10GB   |
+
+Power BI Embedded A4 SKU는 P1 SKU, A5 = P2 및 A6 = P3과 같습니다. 대형 모델을 A 및 EM SKU에 게시하면 공유 용량의 모델 크기 제한 오류와 관련이 없는 오류가 반환될 수 있습니다. A 및 EM SKU의 대형 모델에 대한 새로 고침 오류로 인해 시간 초과를 가리킬 가능성이 높습니다. 이러한 시나리오에 대한 오류 메시지를 개선하기 위해 노력하고 있습니다.
 
 **.pbix 파일은 고도로 압축된 상태의 데이터를 나타냅니다**. 데이터는 메모리에 로드될 때 여러 번 확장할 가능성이 있으며, 거기서부터 데이터 새로 고침 중 여러 번 더 확장할 수도 있습니다.
 

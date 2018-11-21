@@ -1,5 +1,5 @@
 ---
-title: Power BI 보고서에 필터 추가
+title: 편집용 보기에서 보고서에 필터 추가
 description: Power BI의 보고서에 페이지 필터, 시각화 필터 또는 보고서 필터 추가
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 328c8ab2e236f0ddc0c5116c1f76d343999193ab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611155"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157382"
 ---
-# <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Power BI 서비스 보고서에 필터 추가(편집용 보기)
+# <a name="add-a-filter-to-a-report-in-editing-view"></a>편집용 보기에서 보고서에 필터 추가
 
 이 문서에서는 Power BI의 보고서에 페이지 필터, 시각화 필터, 보고서 필터 또는 드릴스루 필터를 추가하는 방법을 설명합니다. 이 문서의 예제는 Power BI 서비스에 있습니다. 단계는 Power BI Desktop과 거의 동일합니다.
 

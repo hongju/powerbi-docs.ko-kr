@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973376"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850594"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -47,7 +47,7 @@ URL?filter=***Table***/***Field*** eq '***value***'
 
 * **문자열**은 'manager name'과 같이 작은따옴표로 묶여야 합니다.
 * **숫자**에는 특별한 서식 지정이 필요하지 않습니다.
-* **날짜 및 시간**은 작은따옴표로 묶여야 하고, 앞에 단어 **DateTime**이 와야 합니다.
+* **날짜 및 시간**은 작은따옴표로 묶여야 합니다. OData v3에서는 datetime이라는 단어 앞에 와야 하지만 OData v4에서는 datetime이 필요하지 않습니다.
 
 여전히 혼동되는 경우 계속 읽어 보고 자세히 분석합니다.  
 
@@ -167,7 +167,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 쿼리 문자열 매개 변수를 사용할 때 알아야 할 몇 가지 사항이 있습니다.
 
-* *in* 연산자를 사용하는 경우 *in*의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록이어야 합니다.    
+* *in* 연산자를 사용하는 경우 *in*의 오른쪽에 있는 값은 괄호로 묶이고 쉼표로 구분된 목록이어야 합니다.    
 * Power BI Report Server에서는 보고서 URL에 보고서 매개 변수를 포함시켜 [보고서 매개 변수를 전달](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)할 수 있습니다. 이러한 URL 매개 변수는 보고서 처리 엔진에 직접 전달되기 때문에 접두사가 붙지 않습니다.
 * 쿼리 문자열 필터링은 [웹에 게시](service-publish-to-web.md)에는 작동하지 않습니다.
 * [SharePoint Online에 보고서 웹 파트 포함](service-embed-report-spo.md)은 URL 필터를 지원하지 않습니다.

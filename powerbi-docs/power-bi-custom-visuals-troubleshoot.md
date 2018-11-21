@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: d6f3f654574e9cca081ae2f8191fd7b9fc017afd
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 3d9e8e46fdd84edbeb5b4ff5e8f7efe4a4291049
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223574"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679258"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>Power BI 사용자 지정 시각적 개체 문제 해결
 
@@ -37,7 +37,7 @@ ms.locfileid: "51223574"
 
 **시각적 개체 서버에 연결할 수 없습니다**
 
-시각적 개체 프로젝트의 루트에 있는 터미널 명령줄에서 `pbiviz start` 명령으로 시각적 개체 서버를 실행합니다. 서버가 실행 중인 경우 SSL 인증서가 올바르게 설치되지 않았을 수도 있습니다.
+시각적 개체 프로젝트의 루트에 있는 터미널 명령줄에서 `pbiviz start` 명령으로 시각적 개체 서버를 실행합니다. 서버가 실행 중이 아닌 경우 SSL 인증서가 올바르게 설치되지 않았을 수도 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

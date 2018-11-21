@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 294fb3a0142908ce0ab068e075ce39f950a0b124
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973353"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850479"
 ---
 # <a name="using-auditing-within-your-organization"></a>조직 내에서 감사 사용
 
@@ -139,83 +139,100 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 Power BI에서 감사하는 활동은 다음과 같습니다.
 
-* AddDatasourceToGateway
-* AddGroupMembers
-* AnalyzedByExternalApplication
-* AnalyzeInExcel
-* AttachDataflowStorageAccount
-* BindToGateway
-* ChangeCapacityState
-* ChangeGatewayAdministrators
-* ChangeGatewayDatasourceUsers
-* CreateApp
-* CreateDashboard
-* CreateDataflow
-* CreateDataset
-* CreateEmailSubscription
-* CreateFolder
-* CreateGateway
-* CreateGroup
-* CreateOrgApp
-* CreateReport
-* DeleteComment
-* DeleteDashboard
-* DeleteDataflow
-* DeleteDataset
-* DeleteEmailSubscription
-* DeleteFolder
-* DeleteGateway
-* DeleteGroup
-* DeleteGroupMembers
-* DeleteOrgApp
-* DeleteReport
-* DownloadReport
-* EditDataset
-* EditReport
-* ExportDataflow
-* ExportReport
-* ExportTile
-* GenerateDataflowSasToken
-* GenerateEmbedToken
-* GetDatasources
-* 가져오기
-* InstallApp
-* MigrateWorkspaceIntoCapacity
-* OptInForProTrial
-* PostComment
-* PrintDashboard
-* PrintReport
-* PublishToWebReport
-* RefreshDataset
-* RemoveDatasourceFromGateway
-* RemoveWorkspacesFromCapacity
-* RenameDashboard
-* SetAllConnections
-* SetScheduledRefresh
-* SetScheduledRefreshOnDataflow
-* ShareDashboard
-* ShareReport
-* TakeOverDataset
-* TakeOverDatasource
-* UnpublishApp
-* UpdateApp
-* UpdateCapacityAdmins
-* UpdateCapacityDisplayName
-* UpdateCapacityResourceGovernanceSettings
-* UpdateCapacityUsersAssignment
-* UpdatedAdminFeatureSwitch
-* UpdateDataflow
-* UpdateDatasetParameters
-* UpdateDatasourceCredentials
-* UpdateDatasources
-* UpdateEmailSubscription
-* UpdateFolder
-* UpdateFolderAccess
-* ViewDashboard
-* ViewDataflow
-* ViewReport
-* ViewTile
-* ViewUsageMetrics
+| 식별 이름                                     | 작업 이름                              | 참고                                  |
+|---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Power BI 게이트웨이에 데이터 원본 추가됨             | AddDatasourceToGateway                      |                                          |
+| Power BI 폴더 액세스 권한 추가됨                      | AddFolderAccess                             | 현재 사용되지 않음                       |
+| Power BI 그룹 구성원 추가됨                      | AddGroupMembers                             |                                          |
+| 관리자가 테넌트에 데이터 흐름 스토리지 계정 연결됨 | AdminAttachedDataflowStorageAccountToTenant | 현재 사용되지 않음                       |
+| Power BI 데이터 집합 분석됨                         | AnalyzedByExternalApplication               |                                          |
+| Power BI 보고서 분석                          | AnalyzeInExcel                              |                                          |
+| 게이트웨이에 바인딩된 Power BI 데이터 세트                | BindToGateway                               |                                          |
+| 용량 상태 변경됨                            | ChangeCapacityState                         |                                          |
+| 용량 사용자 할당 변경됨                  | UpdateCapacityUsersAssignment               |                                          |
+| Power BI 데이터 세트 연결 변경됨              | SetAllConnections                           |                                          |
+| Power BI Gateway 관리자 변경됨                   | ChangeGatewayAdministrators                 |                                          |
+| Power BI Gateway 데이터 원본 사용자 변경됨        | ChangeGatewayDatasourceUsers                |                                          |
+| 조직의 Power BI 콘텐츠 팩 만듦      | CreateOrgApp                                |                                          |
+| Power BI 앱 만듦                              | CreateApp                                   |                                          |
+| Power BI 대시보드 만듦                        | CreateDashboard                             |                                          |
+| Power BI 데이터 흐름 만듦                         | CreateDataflow                              |                                          |
+| Power BI 데이터 세트 만듦                          | CreateDataset                               |                                          |
+| Power BI 이메일 구독 만듦               | CreateEmailSubscription                     |                                          |
+| Power BI 폴더 만듦                           | CreateFolder                                |                                          |
+| Power BI Gateway 만들어짐                          | CreateGateway                               |                                          |
+| Power BI 그룹 만듦                            | CreateGroup                                 |                                          |
+| Power BI 보고서 만듦                           | CreateReport                                |                                          |
+| 외부 스토리지 계정으로 데이터 흐름 마이그레이션     | DataflowMigratedToExternalStorageAccount    | 현재 사용되지 않음                       |
+| 데이터 흐름 사용 권한 추가됨                        | DataflowPermissionsAdded                    | 현재 사용되지 않음                       |
+| 데이터 흐름 사용 권한 제거됨                      | DataflowPermissionsRemoved                  | 현재 사용되지 않음                       |
+| 조직의 Power BI 콘텐츠 팩 삭제됨      | DeleteOrgApp                                |                                          |
+| Power BI 주석 삭제됨                          | DeleteComment                               |                                          |
+| Power BI 대시보드 삭제됨                        | DeleteDashboard                             | 현재 사용되지 않음                       |
+| Power BI 데이터 흐름 삭제됨                         | DeleteDataflow                              | 현재 사용되지 않음                       |
+| Power BI 데이터 세트 삭제됨                          | DeleteDataset                               |                                          |
+| Power BI 이메일 구독 삭제됨               | DeleteEmailSubscription                     |                                          |
+| Power BI 폴더 삭제됨                           | DeleteFolder                                |                                          |
+| Power BI 폴더 액세스 권한 삭제됨                    | DeleteFolderAccess                          | 현재 사용되지 않음                       |
+| Power BI Gateway 삭제됨                          | DeleteGateway                               |                                          |
+| Power BI 그룹 삭제됨                            | DeleteGroup                                 |                                          |
+| Power BI 보고서 삭제됨                           | DeleteReport                                |                                          |
+| 검색된 Power BI 데이터 세트의 데이터 원본          | GetDatasources                              |                                          |
+| 다운로드한 Power BI 보고서                        | DownloadReport                              |                                          |
+| Power BI 인증 권한 편집됨          | EditCertificationPermission                 | 현재 사용되지 않음                       |
+| Power BI 대시보드 편집됨                         | EditDashboard                               | 현재 사용되지 않음                       |
+| Power BI 데이터 세트 편집됨                           | EditDataset                                 |                                          |
+| Power BI 데이터 세트 속성 편집됨                | EditDatasetProperties                       | 현재 사용되지 않음                       |
+| 새 Power BI 보고서 편집됨                            | EditReport                                  |                                          |
+| Power BI 데이터 흐름 내보냄                        | ExportDataflow                              |                                          |
+| Power BI 보고서 시각적 데이터 내보냄              | ExportReport                                |                                          |
+| Power BI 데이터 타일 데이터 내보냄                       | ExportTile                                  |                                          |
+| 데이터 흐름 사용 권한을 추가하지 못함                | FailedToAddDataflowPermissions              | 현재 사용되지 않음                       |
+| 데이터 흐름 사용 권한을 제거하지 못함             | FailedToRemoveDataflowPermissions           | 현재 사용되지 않음                       |
+| Power BI 데이터 흐름 SAS 토큰 생성됨             | GenerateDataflowSasToken                    |                                          |
+| Power BI Embed 토큰 생성됨                    | GenerateEmbedToken                          |                                          |
+| Power BI로 파일 가져옴                         | 가져오기                                      |                                          |
+| Power BI 앱 설치됨                            | InstallApp                                  |                                          |
+| 용량에 작업 영역 마이그레이션됨                  | MigrateWorkspaceIntoCapacity                |                                          |
+| Power BI 주석 게시됨                           | PostComment                                 |                                          |
+| Power BI 대시보드 인쇄됨                        | PrintDashboard                              |                                          |
+| Power BI 보고서 페이지 인쇄됨                      | PrintReport                                 |                                          |
+| 웹에 Power BI 보고서 게시됨                  | PublishToWebReport                          |                                          |
+| Key Vault에서 Power BI 데이터 흐름 비밀 수신됨  | ReceiveDataflowSecretFromKeyVault           | 현재 사용되지 않음                       |
+| Power BI Gateway에서 데이터 원본 제거됨         | RemoveDatasourceFromGateway                 |                                          |
+| Power BI 그룹 구성원 제거됨                    | DeleteGroupMembers                          |                                          |
+| 용량에서 작업 영역 제거됨                 | RemoveWorkspacesFromCapacity                |                                          |
+| Power BI 대시보드 이름 바꿈                        | RenameDashboard                             |                                          |
+| 요청된 Power BI 데이터 흐름 새로 고침               | RequestDataflowRefresh                      | 현재 사용되지 않음                       |
+| 요청된 Power BI 데이터 세트 새로 고침                | RefreshDataset                              |                                          |
+| 검색된 Power BI 작업 영역                     | GetWorkspaces                               |                                          |
+| Power BI 데이터 흐름에서 예약된 새로 고침 설정        | SetScheduledRefreshOnDataflow               |                                          |
+| Power BI 데이터 세트에서 예약된 새로 고침 설정         | SetScheduledRefresh                         |                                          |
+| Power BI 대시보드 공유                         | ShareDashboard                              |                                          |
+| Power BI 보고서 공유                            | ShareReport                                 |                                          |
+| Power BI 평가판 확장 시작됨                   | OptInForExtendedProTrial                    | 현재 사용되지 않음                       |
+| Power BI 평가판 시작됨                            | OptInForProTrial                            |                                          |
+| Power BI 데이터 원본 인계됨                   | TakeOverDatasource                          |                                          |
+| Power BI 데이터 세트 인계됨                        | TakeOverDataset                             |                                          |
+| Power BI 앱 게시 취소됨                          | UnpublishApp                                |                                          |
+| 용량 리소스 거버넌스 설정 업데이트      | UpdateCapacityResourceGovernanceSettings    | 현재 Office 365 관리 포털에 없음 |
+| 용량 관리자 업데이트됨                            | UpdateCapacityAdmins                        |                                          |
+| 용량 표시 이름 업데이트됨                     | UpdateCapacityDisplayName                   |                                          |
+| 조직의 Power BI 설정 업데이트됨          | UpdatedAdminFeatureSwitch                   |                                          |
+| Power BI 앱 업데이트됨                              | UpdateApp                                   |                                          |
+| Power BI 데이터 흐름 업데이트됨                         | UpdateDataflow                              |                                          |
+| Power BI 데이터 세트의 데이터 원본 업데이트됨             | UpdateDatasources                           |                                          |
+| Power BI 데이터 세트 매개 변수 업데이트됨               | UpdateDatasetParameters                     |                                          |
+| Power BI 이메일 구독 업데이트됨               | UpdateEmailSubscription                     |                                          |
+| Power BI 폴더 업데이트됨                           | UpdateFolder                                |                                          |
+| Power BI 폴더 액세스 권한 업데이트됨                    | UpdateFolderAccess                          |                                          |
+| Power BI 게이트웨이 데이터 원본 자격 증명 업데이트됨  | UpdateDatasourceCredentials                 |                                          |
+| Power BI 대시보드 표시됨                         | ViewDashboard                               |                                          |
+| Power BI 데이터 흐름 표시됨                          | ViewDataflow                                |                                          |
+| Power BI 보고서 표시됨                            | ViewReport                                  |                                          |
+| Power BI 타일 표시됨                              | ViewTile                                    |                                          |
+| Power BI 사용 메트릭 표시됨                     | ViewUsageMetrics                            |                                          |
+|                                                   |                                             |                                          |
 
 ## <a name="next-steps"></a>다음 단계
 

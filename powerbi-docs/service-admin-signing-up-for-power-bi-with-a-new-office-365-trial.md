@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5089be0cb8bd96573a0d1b3e25c742c1f559253b
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736852"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850387"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>새 Office 365 평가판으로 Power BI에 등록
 
@@ -27,7 +27,7 @@ ms.locfileid: "50736852"
 
 1. 가입 프로세스를 마치면 you@yourcompany.onmicrosoft.com과 유사한 새 로그인 이름이 주어집니다. 이는 Power BI에서 사용할 로그인입니다.
 
-1. [이 링크를 사용하여](https://portal.office.com/Start/Confirm?Sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235&ru=https%3A%2F%2Fapp.powerbi.com%3FredirectedFromSignup%3D1%26noSignUpCheck%3D1) Power BI에 등록합니다. 메시지가 표시되면 이전 단계의 Office 365에서 선택한 이름과 암호를 사용하여 로그인합니다.
+1. [이 링크를 사용하여](https://app.powerbi.com/signupredirect?pbi_source=web) Power BI에 등록합니다. 메시지가 표시되면 이전 단계의 Office 365에서 선택한 이름과 암호를 사용하여 로그인합니다.
 
 1. 이제 끝났습니다! 완료되면 Power BI로 리디렉션됩니다. 새 계정으로 로그인하는 데 문제가 있는 경우 개인 브라우저 세션을 사용해 보세요.
 

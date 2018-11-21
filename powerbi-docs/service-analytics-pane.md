@@ -1,5 +1,5 @@
 ---
-title: Power BI 서비스의 분석 창
+title: 시각적 개체에 대한 동적 참조 줄 만들기
 description: Power BI 서비스에서 시각적 개체에 대한 동적 참조 줄 만들기
 author: mihart
 manager: kfile
@@ -7,17 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2017
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 04173d98185d7900848e93563b8e981bf3b200e6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244519"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717703"
 ---
-# <a name="analytics-pane-in-power-bi-service"></a>Power BI 서비스의 분석 창
+# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 시각적 개체에 대한 동적 참조 줄 만들기
+
 **Power BI 서비스**의 **분석** 창에서 시각적 개체에 동적 참조 줄을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다.
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
@@ -27,7 +28,7 @@ ms.locfileid: "34244519"
 > 
 > 
 
-## <a name="using-the-analytics-pane"></a>분석 창 사용
+## <a name="use-the-analytics-pane"></a>분석 창 사용
 **분석** 창을 사용하여 다음과 같은 유형의 동적 참조 줄을 만들 수 있습니다(모든 시각적 개체 유형에 모든 줄을 사용할 수 있는 것은 아님).
 
 * X축 상수 선
