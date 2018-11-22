@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266119"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268369"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 관리 포털
 
@@ -301,7 +301,7 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 
 ### <a name="create-and-use-dataflows-preview"></a>데이터 흐름 만들기 및 사용(미리 보기)
 
-조직의 사용자가 데이터 흐름을 만들고 사용할 수 있습니다. [자세히 알아보기](service-dataflows-overview.md)
+조직의 사용자가 데이터 흐름을 만들고 사용할 수 있습니다. 데이터 흐름 개요는 [Power BI의 셀프 서비스 데이터 준비(미리 보기)](service-dataflows-overview.md)를 참조하세요. 프리미엄 용량에 대한 데이터 흐름을 사용하려면 [워크로드 구성](service-admin-premium-manage.md#configure-workloads)을 참조하세요.
 
 > [!NOTE]
 > 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.

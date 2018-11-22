@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 8bdb249543d8d6b5b0cb7d75e3295adc751e5ab1
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679021"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268346"
 ---
 # <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
 
@@ -90,8 +90,9 @@ ms.locfileid: "51679021"
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
 * [Azure Information Protection](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
-)은 현재 지원되지 않음
-* [Access 온라인](https://products.office.com/en-us/access)은 현재 지원되지 않음
+)은 현재 지원되지 않습니다.
+* [액세스 온라인](https://products.office.com/en-us/access)은 현재 지원되지 않습니다.
+* 게이트웨이를 개인 모드에서 실행하는 경우에만 R 스크립트가 지원됩니다.
 
 ## <a name="tenant-level-administration"></a>테넌트 수준 관리
 
