@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 26fa709eee00607911b2bee2e8bf3f5f1cba732f
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850387"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289108"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>새 Office 365 평가판으로 Power BI에 등록
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-이 문서에서는 Office 365 평가판을 사용하여 Power BI에 가입하는 대체 방법을 설명합니다. 업무용 메일 주소로 Power BI에 가입하는 데 문제가 있는 경우 먼저 [Power BI에 사용할 수 있는 메일 주소](service-self-service-signup-for-power-bi.md#what-email-address-can-be-used-with-power-bi)인지 확인합니다. 사용할 수 없는 메일 주소인 경우 먼저 Office 365 평가판에 가입한 후 Power BI에 가입해 보세요. Office 365 평가판 만료 후에도 Power BI를 사용할 수 있습니다.
+이 문서에서는 Office 365 평가판을 사용하여 Power BI에 가입하는 대체 방법을 설명합니다. 업무용 메일 주소로 Power BI에 가입하는 데 문제가 있는 경우 먼저 [Power BI에 사용할 수 있는 메일 주소](service-self-service-signup-for-power-bi.md#supported-email-addresses)인지 확인합니다. 사용할 수 없는 메일 주소인 경우 먼저 Office 365 평가판에 가입한 후 Power BI에 가입해 보세요. Office 365 평가판 만료 후에도 Power BI를 사용할 수 있습니다.
 
 1. [Office 365 웹 사이트에서](https://go.microsoft.com/fwlink/p/?LinkID=403802) Office 365 평가판에 등록합니다.
 
