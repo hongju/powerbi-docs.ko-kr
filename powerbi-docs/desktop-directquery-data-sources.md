@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 97d9fc6bf7a27b9d681d10ae20ab0780622e5ee8
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 098447f4d0c0b1dc9534c91e84827c4cefb8850c
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223401"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452548"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI의 DirectQuery에서 지원하는 데이터 원본
 **Power BI Desktop** 및 **Power BI 서비스**에는 데이터에 연결하고 액세스할 수 있는 많은 데이터 원본이 포함되어 있습니다. 이 문서에서는 **DirectQuery**라는 연결 방법을 지원하는 Power BI의 데이터 원본에 대해 설명합니다. DirectQuery에 대한 자세한 내용은 [**Power BI의 DirectQuery**](desktop-directquery-about.md)를 참조하세요.
@@ -31,7 +31,7 @@ ms.locfileid: "51223401"
 * IBM Netezza(베타)
 * Impala(버전 2.x)
 * Oracle 데이터베이스(버전 12 이상)
-* SAP Business Warehouse 응용 프로그램 서버
+* SAP Business Warehouse 애플리케이션 서버
 * SAP Business Warehouse 메시지 서버(베타)
 * SAP HANA
 * Snowflake
@@ -62,10 +62,10 @@ ms.locfileid: "51223401"
 | Amazon Redshift |아니요 |
 | Impala(버전 2.x) |예 |
 | Snowflake |예 |
-| Spark(베타), 버전 0.9 이상 |**Power BI 서비스**에서는 아직 지원되지 않음 |
+| Spark(베타), 버전 0.9 이상 |예 |
 | Azure HDInsight Spark(베타) |아니요 |
 | IBM Netezza |예 |
-| SAP Business Warehouse 응용 프로그램 서버 |예 |
+| SAP Business Warehouse 애플리케이션 서버 |예 |
 | SAP Business Warehouse 메시지 서버 |**Power BI 서비스**에서는 아직 지원되지 않음 |
 | Google BigQuery |아니요 |
 

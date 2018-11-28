@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101580"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452755"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
 이 자습서는 **Analysis Services 테이블 형식 모델** 내에서 **행 수준 보안**을 구현하는 데 필요한 단계를 설명하고 Power BI 보고서에서 사용하는 방법을 보여 줍니다. 이 자습서의 단계는 샘플 데이터 집합에서 완료하여 필요한 단계를 따르고 알아볼 수 있도록 설계되었습니다.
@@ -50,7 +50,7 @@ ms.locfileid: "50101580"
    이후 작업에서 해당 사용자로 다시 돌아오겠습니다.
 4. 다음으로 사용자와 연결된 지역 세부 정보를 보여 주는 **DimSalesTerritory** 테이블을 사용하여 *내부 조인*을 수행합니다. 다음 코드는 *내부 조인*을 수행하고 다음에 나오는 이미지는 *내부 조인*이 성공하면 테이블이 나타나는 방법을 보여 줍니다.
    
-       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. 위의 이미지는 사용자가 담당하는 판매 지역과 같은 정보를 보여 줍니다. **2단계**에서 만든 관계 때문에 해당 데이터가 표시됩니다. 또한 사용자 **Jon Doe는 오스트레일리아 판매 지역의 일부입니다**. 이후 단계 및 작업에서 John Doe를 다시 방문할 예정입니다.

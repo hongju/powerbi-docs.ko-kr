@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 52f5d7e8bbf6f22f930ad7b4703587ea3af3dc94
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cc374da84e269abe18a52270c0d9fd15987cf666
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717519"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452617"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 서비스의 데이터 경고
 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 경고를 설정합니다. 
@@ -65,7 +65,7 @@ Amanda가 대시보드의 타일에 일부 경고를 추가하는 과정을 시�
    ![Power BI 서비스의 알림 아이콘](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. 알림 센터를 열어서 경고 세부 정보를 봅니다.
    
-    ![경고 참고](media/service-set-data-alerts/powerbi-alert-notfication.png)
+    ![경고 참고](media/service-set-data-alerts/powerbi-alert-notification.png)
    
    > [!NOTE]
    > 경고는 새로 고쳐지는 데이터에만 적용됩니다. 데이터가 새로 고쳐지면, Power BI에서 해당 데이터에 대해 경고가 설정되어 있는지 확인됩니다. 데이터가 경고 임계값에 도달하면, 경고가 트리거됩니다.
