@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336924"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452870"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop에서 SAP BW Connector 사용
 Power BI Desktop을 통해 **SAP BW(Business Warehouse)** 데이터에 액세스할 수 있습니다.
@@ -197,11 +197,28 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
            </item>
    
    이 오류를 해결하려면 사용자가 SAP 관리자에게 BAPI_USER_GET_DETAIL을 실행할 권한을 Power BI의 SAPBW 사용자에게 부여해 달라고 요청해야 합니다. 또한 이 문제 해결 솔루션의 앞 부분에서 설명한 것처럼 사용자에게 필요한 DCPFM 값이 있는지 확인하는 것도 중요합니다. 
+   
 2. **SAP BEx 쿼리에 대한 연결**
    
    다음 그림에 나와 있는 것처럼 특정 속성을 사용하도록 설정하여 Power BI Desktop에서 **BEx** 쿼리를 수행할 수 있습니다.
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
+   
+3. **탐색** 창은 데이터 미리 보기를 표시하지 않고 대신 ‘개체 참조가 개체의 인스턴스로 설정되지 않음’ 오류 메시지를 제공합니다.
+   
+   SAP 사용자는 SAP BW의 InfoProviders에서 메타데이터를 가져오고 데이터를 검색하기 위해 특정 BAPI 함수 모듈에 대한 액세스 권한이 필요합니다. 내용은 다음과 같습니다.
+   * BAPI_MDPROVIDER_GET_CATALOGS
+   * BAPI_MDPROVIDER_GET_CUBES
+   * BAPI_MDPROVIDER_GET_DIMENSIONS
+   * BAPI_MDPROVIDER_GET_HIERARCHYS
+   * BAPI_MDPROVIDER_GET_LEVELS
+   * BAPI_MDPROVIDER_GET_MEASURES
+   * BAPI_MDPROVIDER_GET_MEMBERS
+   * BAPI_MDPROVIDER_GET_VARIABLES
+   * BAPI_IOBJ_GETDETAIL
+
+   이 문제를 해결하기 위해 사용자에게 *BAPI_IOBJ_GETDETAIL*뿐만 아니라 다양한 *MDPROVIDER* 모듈에 대한 액세스 권한이 있는지 확인하세요. 이 문제 또는 유사한 문제를 추가로 해결하려면 Power BI Desktop의 ‘옵션’ 내의 ‘진단’ 창에서 ‘추적 사용’을 선택합니다. 추적이 활성화되어 있는 동안 SAP BW에서 데이터를 검색하고 추적 파일에서 자세한 정보를 확인합니다.
+
 
 ## <a name="next-steps"></a>다음 단계
 SAP 및 DirectQuery에 대한 자세한 내용은 다음 리소스를 참조하세요.

@@ -3,18 +3,18 @@ title: 앱에서 보고서 또는 대시보드 포함
 description: 앱 작업 영역이 아닌 Power BI 앱에서 보고서 또는 대시보드를 통합하거나 포함하는 방법에 대해 알아봅니다.
 author: markingmyname
 ms.author: maghan
-ms.date: 07/13/2018
 ms.topic: how-to
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 11/27/2018
+ms.openlocfilehash: 8073696907ceff67664a0802a2b7775eea693e37
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47237988"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452525"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>앱에서 보고서 또는 대시보드 포함
 
@@ -26,11 +26,11 @@ Power BI에서 앱을 만들어 관련 대시보드 및 보고서를 모두 한�
 
 2. Power BI 서비스에서 원하는 보고서를 엽니다.
 
-3. **파일** > **SharePoint Online에 포함**으로 이동한 다음, 해당 위치에서 보고서 embedURL을 가져옵니다. 다음 스냅숏에 표시됩니다. 또는 GetReports/GetReport REST API를 호출하고 해당 보고서 embedURL 필드를 응답에서 추출합니다. 앱이 사용자 작업 영역에서 인스턴스화되었기 때문에 REST 호출에서 URL의 일부로 작업 영역 식별자를 포함하면 안 됩니다.
-
-4. 3단계에서 검색된 embedURL을 JavaScript SDK에 사용합니다.
+3. **파일** > **SharePoint Online에 포함**으로 이동하고 보고서 embedURL을 가져옵니다. embedURL 샘플은 아래 스냅숏에 표시됩니다. 또는 GetReports/GetReport REST API를 호출하고 해당 보고서 embedURL 필드를 응답에서 추출할 수 있습니다. 앱이 사용자 작업 영역에서 인스턴스화되었기 때문에 REST 호출에서 URL의 일부로 작업 영역 식별자를 포함하면 안 됩니다.
 
     ![앱에서 포함](media/embed-from-apps/embed-from-app.png)
+
+4. 3단계에서 검색된 embedURL을 JavaScript SDK에 사용합니다.
 
 ## <a name="grab-a-dashboard-embedurl-for-embedding"></a>포함할 대시보드 embedURL 가져오기
 

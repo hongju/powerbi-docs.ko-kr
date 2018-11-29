@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b7a8323557f769fa2a05d504de2540bc505e7a54
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: ffb82303584249641454c81f61e399d2b1d4f574
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619704"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452778"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop의 복합 모델 사용
 
@@ -177,7 +177,7 @@ DirectQuery를 사용할 때는 주로 사용자에게 좋은 환경을 제공�
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
-* Power BI 데이터 집합
+* Power BI 데이터 세트
 * Azure Analysis Services
 
 DirectQuery를 사용하여 이러한 다차원 원본에 연결하는 경우 다른 DirectQuery 원본에 연결하거나 가져오기 데이터와 결합할 수 없습니다.

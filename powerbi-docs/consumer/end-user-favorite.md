@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7fcf7411e7785f4403e08d1e3094a60bd93bcf57
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565064"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452502"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>즐겨 찾는 대시보드, 보고서 및 Power BI 서비스의 앱
 콘텐츠를 *즐겨찾기* 로 만들면 모든 작업 영역에서 액세스할 수 있습니다.  즐겨찾기는 일반적으로 가장 자주 방문하는 콘텐츠입니다.

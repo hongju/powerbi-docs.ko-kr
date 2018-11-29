@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ea11394c8b559b38f3c01fe339afac4ce3b0d863
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717956"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452732"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Power BI Desktop에서 질문 및 답변 언어 스키마 편집 및 관용구 추가 
 일반적인 구 및 자연어를 사용하여 데이터에 대해 질문하는 것은 강력한 기능입니다. 데이터에서 응답할 때, 즉, Power BI의 질문 및 답변을 통해 수행할 때 훨씬 더 강력합니다. Power BI 질문 및 답변에 질문할 때 정확히 답변하는 것이 최선의 방법입니다. 
@@ -197,7 +197,7 @@ Binding: {Table: Products}
       Adjectives: [discontinued]
 ```
 
-*측정 형용사 관용구*는 "길이는 강의 길이를 나타냅니다"와 "작은 국가 지역은 좁은 육지 면적을 가집니다"와 같이 형용사가 적용되는 정도를 나타내는 숫자 값에 따라 새 형용사를 정의합니다. 다음과 같은 종류의 질문에 사용되는 측정값 형용사 관용구는 다음과 같습니다.
+*측정 형용사 관용구*는 "길이는 강의 길이를 나타냅니다"와 "작은 국가 지역은 좁은 육지 면적을 가집니다"와 같이 형용사가 적용되는 정도를 나타내는 숫자 값에 따라 새 형용사를 정의합니다. 측정값 형용사 관용구는 다음과 같은 종류의 질문에 사용됩니다.
 - 긴 강을 나열하십시오.
 - 어떤 강이 가장 깁니까?
 - 농구에서 금메달을 획득한 가장 작은 국가 지역을 나열하십시오.

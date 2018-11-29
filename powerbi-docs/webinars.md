@@ -1,50 +1,40 @@
 ---
-title: Power BI 웹 세미나
-description: Power BI 웹 세미나
+title: Power BI 웨비나
+description: Power BI 웨비나
 author: maikelson
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952237"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452663"
 ---
-# <a name="power-bi-webinars"></a>Power BI 웹 세미나
+# <a name="power-bi-webinars"></a>Power BI 웨비나
 
-예정된 라이브 웹 세미나에 등록하거나 녹화된 주문형 세션을 감상해 보세요.
+예정된 라이브 웨비나에 등록하거나 녹화된 주문형 세션을 감상해 보세요.
 
-## <a name="upcoming-webinars"></a>예정된 웹 세미나
+## <a name="upcoming-webinars"></a>예정된 웨비나
 
-**Power BI: 제대로 된 분석**
-<br>작성자: Gohul Shanmugalingam
-<br>*2018년 11월 8일, 오후 1시~2시 동부 표준시*
+**환자 결과와 수익성을 둘 다 개선하는 입증된 의료 솔루션**
+<br>작성자: US Medical IT의 Stephen Cracknell 및 Stuart Macanliss
+<br>2018년 11월 28일 오전 11시~오후 12시 태평양 표준시
 
-분석 및 Excel의 비전을 내다보는 모든 전문가로부터 잘 구성된 매력적인 보고서를 만들고, 이해하기 쉬운 유용한 인사이트를 공유하며, 안전한 방식으로 복잡한 데이터의 흐름을 원활하게 하여 이러한 데이터에 쉽게 액세스하는 방법을 배워 보세요.
+의료 조직은 많은 양의 데이터를 환자 인사이트로 전환하고 그러한 인사이트를 행동으로 전환하는 문제에 직면해 있습니다. 이 웨비나에 등록하여 조직에서 데이터를 유용한 환자 인사이트로 변환하는 데 도움이 되는 의미 있는 의료 보고서를 디자인하는 방법에 대해 알아보세요. US Medical IT의 설립자이자 CEO인 Stephen Cracknell, Healthcare IT의 이사인 Stuart Macanliss, 텍사스에서 활동하는 류마티스 전문의인 Dr. John P. Lavery의 조언과 전문가 전략을 받으세요.
 
-새로운 제품 혁신 사항과 최신 엔터프라이즈 BI 및 셀프 서비스 BI 비전을 공유하여 데이터 기반 조직 문화를 조성하는 데 도움을 드립니다.
+[11월 28일에 시청하도록 등록](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-[11월 8일에 시청하도록 등록](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+>[Power BI 커뮤니티의 예정된 웨비나](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
-**Power BI로 데이터 모델링 기술 키우기**
-<br>작성자: Kasper de Jonge
-<br>*2018년 11월 20일, 오전 11시~오후 12시 태평양 표준시*
+## <a name="featured-webinars"></a>주요 웨비나
 
-이 웨비나에 등록하여 Power BI 모델링 기술을 비약적으로 발전시키세요. Power BI 메모리 내 분석 엔진, 데이터 관계를 만들고 관리하는 전략 및 DAX(데이터 분석 식) 필터 컨텍스트를 사용하는 방법을 알아보세요. 그뿐만 아니라 Power BI 또는 Azure Analysis Services로 모델링 문제를 능숙하게 해결하는 방법을 알아보세요.
-
-[11월 20일에 시청하도록 등록](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
-
->[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
-
-## <a name="featured-webinars"></a>주요 웹 세미나
-
-인기 있는 주문형 웹 세미나 시작
+인기 있는 주문형 웨비나 시작
 
 **Power BI 시작하기**
 <br>작성자: Miguel Martinez
@@ -54,9 +44,17 @@ ms.locfileid: "49952237"
 <br>작성자: Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
 
+**Power BI로 데이터 모델링 기술 키우기**
+<br>작성자: Kasper de Jonge
+<br>[등록 및 지금 보기](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
 **Power BI에서 실행되는 Microsoft – 재무 계획 및 분석 용이**
 <br>작성자: Cory Hrncirik 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI: 제대로 된 분석**
+<br>작성자: Gohul Shanmugalingam
+<br>[등록 및 지금 보기](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
 **Power BI 데이터 시각적 개체 만들기: 코어 차트 유형 및 이를 사용하는 방법**
 <br>작성자: Miranda Li
@@ -70,13 +68,13 @@ ms.locfileid: "49952237"
 <br>작성자: Miranda Li
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Power BI 소유자의 Power BI 힌트, 팁 및 도구**
-<br>작성자: Mike Carlo 및 Seth Bauer
-<br>[지금 보기](https://www.youtube.com/watch?v=fnj1_e3HXow)
+**Microsoft Flow 및 PowerApps의 전체 경제적 영향**
+<br>Jonathan Lipsitz, Enrique Plaza Garcia 제공
+<br>[등록 및 지금 보기](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
->[커뮤니티 전문가들이 제공하는 Power BI 주문형 웹 세미나 라이브러리 탐색하기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+>[커뮤니티 전문가들이 제공하는 Power BI 주문형 웨비나 라이브러리 탐색하기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-## <a name="on-demand-webinars"></a>주문형 웹 세미나
+## <a name="on-demand-webinars"></a>주문형 웨비나
 
 언제든 녹화된 세션 보기
 
@@ -112,10 +110,6 @@ ms.locfileid: "49952237"
 <br>작성: Esri의 Scott Ball 및 Microsoft의 Enrique Plaza
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
-**의료업체의 수익성 향상**
-<br>작성자: US Medical IT의 Stephen Cracknell 및 Stuart Macanliss
-<br>[등록 및 지금 보기](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
-
 **영업 및 서비스를 위한 응용 인텔리전스**
 <br>작성자: Avanade의 Ed Bobrin
 <br>[등록 및 지금 보기](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
@@ -129,6 +123,10 @@ ms.locfileid: "49952237"
 <br>[등록 및 지금 보기](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
 ### <a name="community"></a>커뮤니티 ###
+
+**Power BI 소유자의 Power BI 힌트, 팁 및 도구**
+<br>작성자: Mike Carlo 및 Seth Bauer
+<br>[지금 보기](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **데이터 및 Power BI로 스토리텔링**
 <br>작성자: Tristan Malherbe
