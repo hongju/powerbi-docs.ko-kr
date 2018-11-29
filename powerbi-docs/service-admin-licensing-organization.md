@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 09ce2e2db94116d70824b276b9b67b9dbe163d11
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679320"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331991"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>조직의 Power BI 라이선스 부여
 
 Power BI 서비스에서 사용자는 다음 두 가지 유형의 라이선스를 기반으로 하는 기능을 정의했습니다.
 
-* **사용자별** - ‘무료 라이선싱 및 Power BI Pro 라이선싱’. 무료 라이선스를 사용하면 Power BI 서비스의 일부 기능에 액세스할 수 있습니다. Pro 라이선스를 사용하면 콘텐츠를 공유하고 다른 Pro 사용자와 공동으로 작업하는 기능을 포함하여 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있습니다. Pro 사용자만 앱 작업 영역에서 콘텐츠를 게시 및 사용하고, 대시보드를 공유하고, 대시보드 및 보고서를 구독할 수 있습니다. 자세한 내용은 [라이선스 유형별 Power BI 서비스 기능](service-features-license-type.md)을 참조하세요.
+* **사용자별** - *Power BI Pro 라이선싱 및 무료 라이선싱*. Power BI Pro 라이선스를 사용하면 콘텐츠를 공유하고 다른 Pro 사용자와 공동으로 작업하는 기능을 포함하여 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있습니다. Pro 사용자만 앱 작업 영역에서 콘텐츠를 게시 및 사용하고, 대시보드를 공유하고, 대시보드 및 보고서를 구독할 수 있습니다. 무료 라이선스를 사용하면 Power BI 서비스의 일부 기능에 액세스할 수 있습니다. 자세한 내용은 [라이선스 유형별 Power BI 서비스 기능](service-features-license-type.md)을 참조하세요.
 
 * **용량 기반** - ‘Power BI Premium 라이선싱’. Premium은 Power BI에서 보다 일관된 성능을 제공하고 더 많은 데이터를 지원할 수 있는 전용 용량을 제공합니다. 개별 사용자의 경우, Premium을 통해 콘텐츠를 보는 수신자에게 Pro 라이선스를 요구하지 않고도 Pro 사용자별 콘텐츠를 광범위하게 배포할 수 있습니다. 자세한 내용은 [Power BI 프리미엄이란?](service-premium.md)을 참조하세요.
 
@@ -73,17 +73,11 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
 
 ## <a name="manage-power-bi-free-licenses"></a>Power BI 무료 라이선스 관리
 
-조직 내의 사용자는 두 가지 방법으로 Power BI 무료 라이선스에 액세스할 수 있습니다. Power BI에 개별적으로 등록할 수 있거나 Office 365 관리자 포털 내에서 Power BI 라이선스를 할당받을 수 있습니다.
+조직 내의 사용자는 두 가지 방법으로 Power BI 무료 라이선스에 액세스할 수 있습니다.
 
-조직 관리자가 Power BI에 관심이 있는 사용자가 무료로 등록하도록 허용하여 개인 등록을 허용해야 하는 부담을 줄입니다.
+* Office 365 관리 포털 내에서 Power BI 라이선스를 할당할 수 있습니다.
 
-그러나 개별 사용자 등록을 비활성화하면 더욱 확실하게 제어할 수 있어, 서비스 사용량을 감사해야 하는 경우 적절한 옵션입니다.
-
-### <a name="power-bi-free-for-individuals"></a>개인용 무료 Power BI
-
-기본적으로 조직의 개인은 Power BI 무료 라이선스에 등록할 수 있습니다. 자세한 내용은 [Power BI에 개인으로 가입](service-self-service-signup-for-power-bi.md)을 참조하세요.
-
-개별 등록을 차단하려면 이 문서의 뒷부분에 나오는 [Azure Active Directory에서 개별 사용자 등록 사용 또는 사용 안 함](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)을 참조하세요.
+* 사용자가 [Power BI Pro 평가판에 등록](service-self-service-signup-for-power-bi.md)하고 평가판이 만료되면 무료 라이선스가 할당됩니다.
 
 ### <a name="requesting-and-assigning-free-licenses"></a>무료 라이선스 요청 및 할당
 

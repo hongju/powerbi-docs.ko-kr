@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/20/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 4a5d124ffd213c54d628ff15e32ece18e56913eb
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157570"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289200"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 서비스 콘텐츠 팩 프로그램의 개요
 콘텐츠 팩은 사용자가 원본에서 즉시 정보를 얻을 수 있도록 해주는 기본 제공 콘텐츠 집합입니다. 일반적으로 콘텐츠 팩은 역할, 도메인, 워크플로에 대한 정보를 제공하는 특정 비즈니스 시나리오에 초점을 둡니다.
@@ -24,7 +24,7 @@ ISV는 고객이 자신의 계정에 연결하고 인스턴스화할 수 있는 
 서식 파일 콘텐츠 팩을 구축하는 이러한 ISV는 Power BI 콘텐츠 팩 갤러리(app.powerbi.com/getdata/services) 및 Microsoft AppSource(appsource.microsoft.com)에서 공개적으로 사용할 수 있도록 Power BI 팀에 제출될 수 있습니다. 공용 콘텐츠 팩 환경에 대한 예는 [여기](template-content-pack-experience.md)에서 확인할 수 있습니다.
 
 ## <a name="overview"></a>개요
-템플릿 콘텐츠 팩을 개발 및 제출하는 일반적은 프로세스는 여러 단계로 구성됩니다.
+템플릿 콘텐츠 팩을 개발 및 제출하는 일반적인 프로세스는 여러 단계로 구성됩니다.
 
  ![프로세스](media/service-content-pack-overview/developer-content-pack-overview.png)
 
@@ -48,7 +48,7 @@ PowerBI 서비스 및 AppSource에 게시될 콘텐츠 팩을 빌드하고 제�
 기술 요구 사항에 대한 자세한 내용은 [제작](template-content-pack-authoring.md) 섹션을 검토하세요.
 
 ## <a name="business-scenario"></a>비즈니스 시나리오
-콘텐츠 팩은 특정 비즈니스 시나리오에 초점을 맞춘 정보와 메트릭을 제공합니다. 대상 그룹과 콘텐츠 팩에서 얻게 되는 이점을 이해하면 사용자가 콘텐츠를 성공적으로 활용하도록 할 수 있습니다.
+콘텐츠 팩은 특정 비즈니스 시나리오에 초점을 맞춘 정보와 메트릭을 제공합니다. 대상 그룹과 콘텐츠 팩에서 얻게 되는 이점을 이해하면 사용자가 제공하는 콘텐츠를 사용하여 성공할 수 있습니다.
 
 ### <a name="tips"></a>팁
 * 대상 그룹 및 수행하려는 작업 파악  
@@ -78,7 +78,7 @@ Power BI 서비스 콘텐츠 팩은 모든 REST API 또는 OData 피드를 지�
 [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)으로 이메일을 보내 자유롭게 질문하세요.
 
 ## <a name="support"></a>지원
-개발 중 지원은 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)를 참조하세요. 적극적으로 모니터링 및 관리됩니다. 고객 인시던트에서 해당 팀에 연락하는 방법을 신속하게 찾을 수 있습니다.
+개발 중 지원을 받으려면 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)를 사용하세요. 고객 인시던트에서 해당 팀에 연락하는 방법을 신속하게 찾을 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 [작성](template-content-pack-authoring.md)

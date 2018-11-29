@@ -1,56 +1,73 @@
 ---
-title: 인증된 Power BI 사용자 지정 시각화
+title: 인증된 Power BI 사용자 지정 시각화 개체
 description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스. 이미 인증된 사용자 지정 시각적 개체 목록.
-author: mihart
-ms.author: mihart
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/30/2018
-ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: fd352cd78225e647acf53c2af899e4d2fc662376
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223447"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289269"
 ---
-# <a name="getting-a-custom-visual-certified"></a>사용자 지정 시각적 개체 *인증*하기
+# <a name="certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체
 
-## <a name="what-is-meant-by-certified"></a>*인증*이란?
+## <a name="what-are-certified-custom-visuals"></a>**_인증된_** 사용자 지정 시각적 개체란 무엇인가요?
 
-A *인증된 사용자 지정 시각적 개체*는 일련의 코드 요구 사항을 충족하고 엄격한 보안 테스트를 통과한 시각적 개체입니다.  사용자 지정 시각적 개체가 인증되면 [PowerPoint로 내보낼](consumer/end-user-powerpoint.md) 수 있으며 사용자가 [페이지를 보고하도록 구독](consumer/end-user-subscribe.md)하면 수신된 전자 메일에 표시됩니다. 물론, [표준 사용자 지정 시각적 개체](power-bi-custom-visuals.md)처럼 사용하여 Power BI 서비스 및 Power BI Desktop 보고서에 추가하고 Power BI 모바일에서 보고 내장시킬 수 있습니다.
+인증된 사용자 지정 시각적 개체는 **Microsoft Power BI 팀**이 테스트하고 승인한 특정 **지정 코드** 요구 사항을 충족하는 **Marketplace**의 시각적 개체입니다. 사용자 지정 시각적 개체가 인증되면 더 많은 기능을 제공합니다. 예를 들어 [PowerPoint로 내보내기](consumer/end-user-powerpoint.md)할 수 있으며 사용자가 [보고서 페이지를 구독](consumer/end-user-subscribe.md)할 때 받은 이메일에 시각적 개체를 표시할 수 있습니다.
 
-웹 개발자로서 고유한 시각화를 만들고 [Microsoft AppSource](https://appsource.microsoft.com)에 추가하는 데 관심이 있나요? 자세한 내용은 [Power BI 사용자 지정 시각적 개체 개발](developer/custom-visual-develop-tutorial.md)을 참조하세요.
+**인증된 사용자 지정 시각적 개체**는 [표준 사용자 지정 시각적 개체](power-bi-custom-visuals.md)처럼 사용됩니다. 인증된 사용자 지정 시각적 개체는 **Power BI 서비스**, **Power BI Desktop 보고서**에 추가할 수 있으며 **Power BI 모바일** 및 **Power BI Embedded**로 볼 수 있습니다.
 
-## <a name="certification-requirements"></a>인증 요구 사항
+수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스할 수 없는지 확인하기 위해 설계되었습니다. **Microsoft**는 타사 사용자 지정 시각적 개체의 작성자가 *아니며*, 이러한 시각적 개체의 기능을 확인하기 위해 작성자에게 직접 연락하는 것이 좋습니다.
 
-* Microsoft AppSource 승인
+인증 프로세스는 선택적 프로세스이며 마켓플레이스에서 해당 시각적 개체가 인증되기를 원하는지 여부는 개발자에게 달려있습니다.  
+
+**인증되지 않은 사용자 지정 시각적 개체**는 반드시 안전하지 않은 시각적 개체를 의미하지는 않습니다. 일부 시각적 개체는 [인증 요구 사항](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) 중 하나 이상을 준수하지 않았기 때문에 인증되지 않았습니다. 예를 들어 맵 시각적 개체와 같은 외부 서비스에 연결하거나 상용 라이브러리를 사용하여 시각적 개체에 연결할 수 있습니다.
+
+웹 개발자로서 고유한 시각화를 만들고  **[Microsoft AppSource](https://appsource.microsoft.com)** 에 추가하는 데 관심이 있나요?  **[자세한 내용은 Power BI 사용자 지정 시각적 개체 개발](developer/custom-visual-develop-tutorial.md)** 을 참조하세요.
+
+## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI 인증된 사용자 지정 시각적 개체 제거
+
+Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-have-been-certified)에서 시각적 개체를 제거할 수 있습니다.
+
+## <a name="getting-a-custom-visualcertified"></a>사용자 지정 시각적 개체 인증 받기
+
+### <a name="certification-requirements"></a>인증 요구 사항
+
+사용자 지정 시각적 개체 [인증](#certified-custom-visuals)을 받으려면 사용자 지정 시각적 개체가 다음을 준수하는지 확인합니다.  
+
+* Microsoft AppSource가 승인되었습니다. 사용자 지정 시각적 개체는 [마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 있어야 합니다.
 * 사용자 지정 시각적 개체는 API 1.2 이상 버전으로 작성됩니다.
-* 검토에 사용 가능한 코드 리포지토리(예: GitHub을 통해 사용할 수 있는 시각적 개체 코드)
-* 공용 검토 가능한 OSS 구성 요소만 사용
-* 외부 서비스 또는 리소스에 액세스하지 않습니다.
+* Power BI 팀이 검토할 수 있는 코드 리포지토리(예: GitHub를 통해 사용 가능한 사람이 읽을 수 있는 형식의 소스 코드(Javascript 또는 TypeScript))입니다.
 
-> **팁**: 코드를 제출하기 전에 미리 유효성을 검사하려면 기본 보안 규칙 집합을 포함하는 EsLint를 사용하는 것이 좋습니다.
+    >[!Note]
+    > Github에서 코드를 공용으로 공유할 필요는 없습니다.
+
+* 공용 검토 가능한 OSS 구성 요소만(공용 JS 라이브러리 또는 TypeScript는 소스 코드를 검토할 수 있으며 알려진 취약점이 없음) 사용합니다. 상용 구성 요소를 사용하여 사용자 지정 시각적 개체를 확인할 수 없습니다.
+
+* 외부 서비스 또는 리소스에 액세스하지 않습니다(HTTP/S 또는 WebSocket 요청이 없어도 Power BI에서 모든 서비스로 이동하는 것을 포함하되 이에 국한되지는 않음). 
+
+> [!TIP]
+> 코드를 제출하기 전에 미리 유효성을 검사하려면 기본 보안 규칙 집합을 포함하는 EsLint를 사용하는 것이 좋습니다.
 
 ## <a name="process-for-submitting-a-custom-visual-for-certification"></a>인증을 위해 사용자 지정 시각적 개체를 전송하는 프로세스
 
 인증을 위해 사용자 지정 시각적 개체를 제출하려면:
 
-1. Power BI 사용자 지정 시각적 개체 지원에 전자 메일을 보냅니다(pbicvsupport@microsoft.com). 전자 메일에는 다음 정보를 포함합니다.    
+1. Power BI 사용자 지정 시각적 개체 지원 팀에 이메일을 보냅니다(pbicvsupport@microsoft.com). 전자 메일에는 다음 정보를 포함합니다.
+    * 제목: 시각적 인증 요청
+    * 사람이 읽을 수 있는 소스 코드가 호스팅되는 GitHub 리포지토리에 연결
+    * [요구 사항 준수](#certification-requirements)
+    * 코드 검토 통과
 
-   * 제목: 시각적 인증 요청
-   * 시각적 소스 코드를 호스팅하는 GitHub 리포지토리에 연결
-   * 요구 사항 준수(위 참조)
-   * 코드 및 보안 검토 전달
-
-2. Microsoft의 사용자 지정 시각적 개체 팀은 사용자 지정 시각적 개체를 인증하고 인증된 목록(아래)에 추가하거나 수정해야 하는 문제에 대한 보고서와 함께 거부하는 경우 사용자에게 알립니다. 개발자는 Microsoft와의 통신을 열어 두고 필요한 경우 인증된 시각적 개체를 업데이트하는 것을 담당합니다.
-
-## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI 인증된 사용자 지정 시각적 개체 제거
-
-Microsoft에서는 판단에 따라 인증된 목록에서 시각적 개체를 제거할 수 있습니다.  
+2. Microsoft 사용자 지정 시각적 개체 팀은 사용자 지정 시각적 개체가 인증되어 [인증된 목록](#list-of-custom-visuals-that-have-been-certified)에 추가되거나 수정해야 하는 문제에 대한 보고서와 함께 거부될 때 사용자에게 알립니다. 개발자는 Microsoft와의 통신을 열어 두고 필요한 경우 인증된 시각적 개체를 업데이트하는 것을 담당합니다.
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>인증된 사용자 지정 시각적 개체의 목록
 

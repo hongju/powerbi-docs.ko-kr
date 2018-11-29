@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223263"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289177"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>자습서: Power BI 사용자 지정 시각적 개체에 서식 옵션 추가
 
@@ -32,7 +32,7 @@ ms.locfileid: "51223263"
 
     ‘이 시각적 데이터에 대해 서식 옵션을 사용할 수 없습니다.’라는 메시지가 표시됩니다.
 
-    ![서식 페인트 브러시](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![서식 페인트 브러시](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. **Visual Studio Code**에서 *capabilities.json* 파일을 엽니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "51223263"
     ```json
     "objects": {},
     ```
-    ![개체 추가](media/custom-visual-develop-tutorial/add-objects.png)
+    ![개체 추가](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. **capabilities.json** 파일을 저장합니다.
 
@@ -50,13 +50,13 @@ ms.locfileid: "51223263"
     > [!Note]
     > 서식 옵션이 변경되지 않으면 **사용자 지정 시각적 개체 다시 로드**를 선택합니다.
 
-    ![서식 옵션 보기](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![서식 옵션 보기](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. **제목** 옵션을 ‘끄기’로 설정합니다. 시각적 개체가 왼쪽 위 모서리에 측정값 이름이 표시하지 않는지 확인합니다.
 
-    ![타일 옵션이 꺼져 있음](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![타일 옵션이 꺼져 있음](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![이름 타일 없음](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![이름 타일 없음](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>사용자 지정 서식 옵션 추가
 
@@ -64,7 +64,7 @@ ms.locfileid: "51223263"
 
 1. PowerShell에서 사용자 지정 시각적 개체를 중지합니다.
 
-2. Visual Studio Code의 **capabilities.json** 파일에서 다음 JSON 조각을 **objects** 개체에 삽입합니다.
+2. Visual Studio Code의 **capabilities.json** 파일에서 다음 JSON 조각을 **objects**로 레이블된 개체에 삽입합니다.
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ ms.locfileid: "51223263"
                  }
              }
          }
-     }
+     },
     ```
 
     JSON 조각은 circleColor 및 circleThickness라는 두 개의 옵션으로 구성된 circle이라는 그룹을 설명합니다.
 
-   ![원 두께 코드](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![원 두께 코드](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. **capabilities.json** 파일을 저장합니다.
 
@@ -112,7 +112,7 @@ ms.locfileid: "51223263"
     }
     ```
 
-    ![모듈 클래스](media/custom-visual-develop-tutorial/module-classes.png)
+    ![모듈 클래스](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     이 모듈은 두 개의 클래스를 정의합니다. **CircleSettings** 클래스는 **capabilities.json** 파일에 정의된 개체와 일치하는 이름을 사용하여 두 개의 속성(**circleColor** 및 **circleThickness**)을 정의하고 기본값을 설정합니다. **VisualSettings** 클래스는 **DataViewObjectParser** 클래스를 상속하고 *capabilities.json* 파일에 정의된 개체와 일치하는 **circle**이라는 속성을 추가하고 **CircleSettings**의 인스턴스를 반환합니다.
 
@@ -127,7 +127,7 @@ ms.locfileid: "51223263"
     ```
     이 속성은 시각적 개체 설정을 설명하는 **VisualSettings** 개체에 대한 참조를 저장합니다.
 
-    ![visual 클래스 추가](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![visual 클래스 추가](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. **Visual** 클래스에서 **update** 메서드 앞에 다음 메서드를 추가합니다. 이 메서드는 서식 옵션을 채우는 데 사용됩니다.
 
@@ -140,7 +140,7 @@ ms.locfileid: "51223263"
     ```
     이 메서드는 서식 옵션을 채우는 데 사용됩니다.
 
-    ![Visual settings 개체](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![Visual settings 개체](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. **update** 메서드에서 **radius** 변수 선언 뒤에 다음 코드를 추가합니다.
 
@@ -150,7 +150,7 @@ ms.locfileid: "51223263"
     ```
     이 코드는 서식 옵션을 검색합니다. **circleThickness** 속성에 전달된 값을 조정하여 음수인 경우 0으로 변환하고 10보다 큰 경우 10으로 변환합니다.
 
-    ![Radius 변수](media/custom-visual-develop-tutorial/radius.png)
+    ![Radius 변수](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. **circle 요소**의 경우 **채우기 스타일**에 전달된 값을 다음 식으로 수정합니다.
 
@@ -158,7 +158,7 @@ ms.locfileid: "51223263"
     this.visualSettings.circle.circleColor
     ```
 
-    ![circle 요소 채우기](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![circle 요소 채우기](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. **circle 요소**의 경우 **스트로크 너비 스타일**에 전달된 값을 다음 식으로 수정합니다.
 
@@ -166,7 +166,7 @@ ms.locfileid: "51223263"
     this.visualSettings.circle.circleThickness
     ```
 
-    ![원 스트로크 너비](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![원 스트로크 너비](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. visual.ts 파일을 저장합니다.
 
@@ -180,7 +180,7 @@ ms.locfileid: "51223263"
 
 16. **시각적 개체 서식** 옵션에서 **원**을 확장합니다.
 
-    ![원 서식](media/custom-visual-develop-tutorial/circle-format.png)
+    ![원 서식](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     **색** 및 **두께** 옵션을 수정합니다.
 
@@ -198,7 +198,7 @@ ms.locfileid: "51223263"
 
     **시각화** 창에서 아이콘 위에 마우스를 놓으면 표시 이름이 표시됩니다.
 
-    ![표시 이름 시각적 개체](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![표시 이름 시각적 개체](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. **description** 속성에 다음 텍스트를 입력합니다.
 
@@ -216,7 +216,7 @@ ms.locfileid: "51223263"
 
 10. 아이콘을 검토합니다.
 
-    ![시각적 개체 창 이미지](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![시각적 개체 창 이미지](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. Visual Studio Code에서 모든 파일이 저장되었는지 확인합니다.
 
@@ -226,7 +226,7 @@ ms.locfileid: "51223263"
     pbiviz package
     ```
 
-    ![Dist 폴더](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![Dist 폴더](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 이제 패키지가 프로젝트의 **dist** 폴더에 출력됩니다. 패키지에는 Power BI 서비스 또는 Power BI Desktop 보고서로 사용자 지정 시각적 개체를 가져오는 데 필요한 모든 것이 포함되어 있습니다. 사용자 지정 시각적 개체를 패키지했으므로 사용할 준비가 되었습니다.
 
@@ -238,7 +238,7 @@ ms.locfileid: "51223263"
 
 2. **‘시각화’** 창에서 **줄임표**를 선택한 다음, 파일에서 **가져오기**를 선택합니다.
 
-    ![데스크톱에 사용자 지정 시각적 개체 추가](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![데스크톱에 사용자 지정 시각적 개체 추가](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. **가져오기 창**에서 **가져오기**를 선택합니다.
 
@@ -250,7 +250,7 @@ ms.locfileid: "51223263"
 
 7. 시각적 개체가 **‘시각화’** 창에 추가되었는지 확인합니다.
 
-    ![PBI Desktop 시각적 개체 창에서 보기](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![PBI Desktop 시각적 개체 창에서 보기](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. **Circle Card** 아이콘 위로 마우스를 이동하여 나타나는 도구 설명을 확인합니다.
 

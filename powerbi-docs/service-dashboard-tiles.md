@@ -1,29 +1,29 @@
 ---
-title: Power BI 서비스의 대시보드 타일
-description: Power BI의 대시보드 타일에 대한 모든 정보. SSRS(SQL Server Reporting Services)에서 만들어진 타일을 포함합니다.
+title: Power BI 디자이너용 대시보드 타일 소개
+description: Power BI의 대시보드 타일에 대한 모든 정보. SSRS(SQL Server Reporting Services) 보고서에서 만들어진 타일을 포함합니다.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/3/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 76b8eaff949ee56d57511eabea913363e6cdc3f6
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: de99c04077a58f1c0c060561674fefa9041fa144
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717404"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331968"
 ---
-# <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
-대시보드 및 대시보드 타일은 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. Power BI 모바일에서는 대시보드 타일을 만들거나 고정할 수 없지만 [보고 공유](mobile-tiles-in-the-mobile-apps.md)할 수는 있습니다. 또한 Power BI 모바일에서는 [iPhone 앱으로 대시보드에 그림을 추가](mobile-iphone-app-get-started.md)할 수 있습니다.
+# <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 타일 소개
 
-## <a name="dashboard-tiles"></a>대시보드 타일
+타일은 대시보드에 고정된 데이터에 대한 스냅숏입니다. 타일은 보고서, 데이터 세트, 대시보드, Q&A 상자, Excel 및 SSRS(SQL Server Reporting Services) 보고서 등에서 만들 수 있습니다.  이 스크린샷은 대시보드에 고정된 여러 타일을 보여 줍니다.
+
 ![Power BI 대시보드](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-타일은 대시보드에 고정된 데이터에 대한 스냅숏입니다. 타일은 보고서, 데이터 집합, 대시보드, 질문 및 답변 상자, Excel 및 SSRS(SQL Server Reporting Services) 등에서 만들 수 있습니다.  이 스크린샷은 대시보드에 고정된 여러 타일을 보여 줍니다.
+대시보드 및 대시보드 타일은 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. 모바일 디바이스에서는 대시보드를 만들 수 없지만 [보기 및 공유](mobile-apps-view-dashboard.md)할 수 있습니다.
 
 고정 외에도 [타일 추가](service-dashboard-add-widget.md)를 사용하여 대시보드에서 독립 실행형 타일을 직접 만들 수 있습니다. 독립 실행형 타일에는 텍스트 상자, 이미지, 동영상, 스트리밍 데이터 및 웹 콘텐츠가 포함됩니다.
 
@@ -43,7 +43,7 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
 * [비즈니스용 OneDrive의 Excel 통합 문서](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher for Excel](publisher-for-excel.md)
 * [신속한 정보 활용](service-insights.md)
-* [SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
+* [보고 서비스](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 [타일 추가](service-dashboard-add-widget.md)를 사용하여 대시보드에서 이미지, 텍스트 상자, 동영상, 스트리밍 데이터 및 웹 콘텐츠에 대한 독립 실행형 타일을 직접 만들 수 있습니다.
 
@@ -78,7 +78,7 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
 3. 동작 메뉴를 닫으려면 캔버스의 빈 영역을 선택합니다.
 
 ### <a name="select-click-a-tile"></a>타일 선택(클릭)
-타일을 선택하는 경우 다음 작업은 타일을 만든 방법 및 타일에 [사용자 지정 링크](service-dashboard-edit-tile.md)가 있는지 여부에 따라 달라집니다. 사용자 지정 링크가 있는 경우 타일을 선택하면 해당 링크로 이동합니다. 링크가 없는 경우 타일을 선택하면 타일을 만드는 데 사용되는 보고서, Excel Online 통합 문서, 온-프레미스인 SSRS 보고서 또는 질문 및 답변의 질문으로 이동됩니다.
+타일을 선택하는 경우 다음 작업은 타일을 만드는 방법에 따라 달라집니다. 또한 [사용자 지정 링크](service-dashboard-edit-tile.md)가 있는 경우 타일을 선택하면 해당 링크로 이동합니다. 그렇지 않은 경우 보고서, Excel Online 통합 문서, 온-프레미스 Reporting Services 보고서 또는 타일을 만드는 데 사용된 Q&A 질문으로 이동됩니다.
 
 > [!NOTE]
 > 이 동작의 예외는 **타일 추가**를 사용하여 대시보드에 직접 만든 동영상 타일입니다. 이러한 방식으로 만든 동영상 타일을 선택하면 동영상이 대시보드에서 바로 재생됩니다.   
@@ -86,12 +86,13 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
 > 
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+
 * 시각화를 만드는 데 사용된 보고서를 저장하지 않은 경우 타일을 선택해도 어떤 동작도 수행되지 않습니다.
-* 타일이 Excel Online의 통합 문서에서 만들어졌으며 해당 통합 문서에 대한 권한이 읽기 권한보다 낮은 경우 타일을 선택해도 Excel Online에서 통합 문서가 열리지 않습니다.
-* **타일 추가**를 사용하여 대시보드에서 직접 만든 파일에서는, 사용자 지정 하이퍼링크가 설정된 경우 제목, 부제목 및/또는 타일을 선택하면 해당 URL이 열립니다.  그렇지 않은 경우 이미지, 웹 코드 또는 텍스트 상자에 대한 대시보드에서 직접 만든 다음 타일 중 하나를 선택하면 기본적으로 동작을 생성하지 않습니다.
-* SSRS 내의 보고서에 대한 권한이 없는 경우 SSRS에서 만든 타일을 선택하면 액세스가 없음을 나타내는 페이지를 생성합니다(rsAccessDenied).
-* SSRS 서버가 있는 네트워크에 대한 액세스가 없는 경우 SSRS에서 만든 타일을 선택하면 서버를 찾을 수 없음을 나타내는 페이지를 만듭니다(HTTP 404). 장치에서 보고서를 보려면 보고서 서버에 대한 네트워크 액세스가 있어야 합니다.
-* 원래 시각화를 사용하여 타일을 변경한 경우 타일이 변경되지 않습니다.  예를 들어 보고서에서 꺾은선형 차트를 고정한 다음 꺾은선형 차트를 막대형 차트로 변경하면 대시보드 타일에 꺾은선형 차트가 계속 표시됩니다. 데이터는 새로 고쳐지지만 시각화 유형은 새로 고쳐지지 않습니다.
+* 타일이 Excel Online의 통합 문서에서 생성된 경우 최소한 해당 통합 문서에 대한 읽기 권한이 필요합니다. 그렇지 않은 경우 타일을 선택해도 Excel Online의 통합 문서가 열리지 않습니다.
+* **타일 추가**를 사용하여 대시보드에 직접 타일을 만들고 이에 대한 사용자 지정 하이퍼링크를 설정한다고 가정해 봅니다. 이 경우 제목, 부제목 또는 타일을 선택하면 해당 URL이 열립니다. 그렇지 않은 경우 이미지, 웹 코드 또는 텍스트 상자에 대한 대시보드에서 직접 만든 타일을 선택하면 기본적으로 아무것도 일어나지 않습니다.
+* Reporting Services 내의 보고서에 대한 권한이 없는 경우 Reporting Services 보고서에서 만든 타일을 선택하면 액세스 권한이 없음을 나타내는 페이지로 이동합니다(rsAccessDenied).
+* Reporting Services 서버가 있는 네트워크에 액세스할 수 없는 경우 Reporting Services에서 만든 타일을 선택하면 서버를 찾을 수 없음을 나타내는 페이지로 이동합니다(HTTP 404). 보고서를 보려면 디바이스가 보고서 서버에 대한 네트워크 액세스 권한이 있어야 합니다.
+* 원래 시각화를 사용하여 타일을 변경한 경우 타일이 변경되지 않습니다.  예를 들어 보고서에서 꺾은선형 차트를 고정한 다음, 꺾은선형 차트를 막대형 차트로 변경하면 대시보드 타일에 꺾은선형 차트가 계속 표시됩니다. 데이터는 새로 고쳐지지만 시각화 유형은 새로 고쳐지지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [대시보드에 대한 카드(큰 숫자 타일) 만들기](power-bi-visualization-card.md)
