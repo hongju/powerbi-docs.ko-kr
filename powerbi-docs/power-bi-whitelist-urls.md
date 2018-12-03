@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: e62d39f13e2b171456d667ec9683acd4ebdc5516
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 47fb90ba0f73bba2b210a9003b782a477dbf8214
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157129"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578730"
 ---
 # <a name="power-bi-urls"></a>Power BI URL
 
@@ -91,7 +91,7 @@ Power BI는 특정 엔드포인트에 따라 사용자 지정 시각적 개체�
 | 행 | 용도 | 대상 | 포트 |
 | --- | --- | --- | --- |
 | 1 | **필수:** Marketplace 인터페이스 또는 파일에서 사용자 지정 시각적 개체 가져오기 | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **선택 사항:** Bing Maps | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
+| 2 | **선택 사항:** Bing Maps | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
 | 3 | **선택 사항:** PowerApps | PowerApps 시스템 요구 사항 사이트에서 [필수 서비스 섹션](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)을 참조하세요. | 해당 없음 |
 | 4 | **선택 사항:** Visio | [Office Online 및 일반 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)과 [SharePoint Online 및 비즈니스용 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business)에 대한 Office 365 설명서 참조 | 해당 없음 |
 | | | |
@@ -103,7 +103,7 @@ Power BI는 다른 관련 사이트에 연결됩니다. 이러한 사이트에�
 | 행 | 용도 | 대상 | 포트 |
 | --- | --- | --- | --- |
 | 1 | **선택 사항:** 커뮤니티 사이트 | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **선택 사항:** 설명서 사이트 | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.neting-district.clicktale.net | TCP 443 |
+| 2 | **선택 사항:** 설명서 사이트 | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
 | 3 | **선택 사항:** 다운로드 사이트(Power BI Desktop 관련 사이트 등) | download.microsoft.com | TCP 443 |
 | 4 | **선택 사항:** 외부 리디렉션 | aka.ms </br> go.microsoft.com | TCP 443 |
 | 5 | **선택 사항:** 아이디어 피드백 사이트| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |

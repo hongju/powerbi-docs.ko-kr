@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b61ff56ea1aec64a3e88db46836f948c4190d60
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2a23a725ecad5641c3f82fa4c57ee1a0bc951e28
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547456"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670391"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 서비스용 데이터 원본
 데이터는 Power BI의 핵심입니다. 데이터를 탐색하고 차트 및 대시보드를 만들며 질문 및 답변으로 질문할 때마다 볼 수 있는 모든 해당 시각화 및 답변은 데이터 집합에서 해당하는 기본 데이터를 가져옵니다. 그러나 해당 데이터 집합을 어디서 가져오나요? 데이터 원본에서 가져옵니다.
