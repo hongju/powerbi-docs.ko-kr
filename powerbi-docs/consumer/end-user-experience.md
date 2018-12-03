@@ -38,7 +38,7 @@ Power BI 서비스 둘러보기에서 사용할 샘플 데이터를 가져오겠
 
     ![샘플 선택](./media/end-user-experience/power-bi-retail-sample.png)
 
-    Power BI 서비스에서 샘플을 가져오고 대시보드를 표시합니다. 대시보드는 Power BI Desktop에서 Power BI 서비스를 구분할 수 있는 항목입니다. 또한 샘플에는 보고서와 데이터 집합이 포함되어 있으며 나중에 살펴보겠습니다.
+    Power BI 서비스에서 샘플을 가져오고 대시보드를 표시합니다. 대시보드는 Power BI Desktop과 Power BI 서비스를 구분할 수 있는 항목입니다. 또한 샘플에는 보고서와 데이터 집합이 포함되어 있으며 나중에 살펴보겠습니다.
 
     ![](media/end-user-experience/power-bi-dashboard.png)
 
