@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 26eae99b9dcfb667a66946c292854c602d8c2a73
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 4a602a8494261705d61c70679d9511993afe69af
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39326950"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670075"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>독일 클라우드 고객을 위한 Power BI 관련 질문과 대답
 **Power BI 서비스**에는 EU/EFTA(유럽 연합/유럽 자유 무역 계약) 고객을 위해 제공되는 버전이 있는데, 주로 MCD(Microsoft Cloud Deutschland)라고 부릅니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 EU/EFTA 고객과 관련된 것이며 **Power BI 서비스** 상용 버전 또는 정부 고객에게 제공되는 Power BI 서비스와는 별개입니다.
@@ -55,7 +55,7 @@ ms.locfileid: "39326950"
    
    [SaaS Embedding 개발자 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)에 독일 및 기타 Power BI 클라우드 관련 구성 정보가 업데이트되었습니다. **Cloud Configs** 폴더에서 클라우드 관련 구성 끝점에 대한 샘플을 확인하세요. 다음 표에는 독일 클라우드 및 상호 참조를 위한 공용 클라우드용 Power BI 서비스의 다양한 구성 끝점이 나와 있습니다.
 
-| **끝점 이름 및/또는 사용법** | **독일 클라우드용 Power BI 서비스 URL** | **공용 클라우드의 해당 URL(상호 참조용)** |
+| **엔드포인트 이름 및/또는 사용법** | **독일 클라우드용 Power BI 서비스 URL** | **공용 클라우드의 해당 URL(상호 참조용)** |
 | --- | --- | --- |
 | 홈 페이지, 등록 및 로그인 |[https://powerbi.microsoft.com/power-bi-germany/](https://powerbi.microsoft.com/power-bi-germany/) |[https://powerbi.microsoft.com/](https://powerbi.microsoft.com/) |
 | Power BI 서비스 직접 로그인 |[https://app.powerbi.de/?noSignUpCheck=1](https://app.powerbi.de/?noSignUpCheck=1) |[https://app.powerbi.com/?noSignUpCheck=1](https://app.powerbi.com/?noSignUpCheck=1) |

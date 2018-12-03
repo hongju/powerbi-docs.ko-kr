@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 017a1b9b326842c5bcc483f77e0be1fa884c0270
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34813667"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578201"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop에서 관계 만들기 및 관리
 여러 테이블을 가져올 때 이러한 모든 테이블의 데이터를 사용하여 분석을 수행하려는 경우가 있습니다. 결과를 정확하게 계산하고 보고서에 올바른 정보를 표시하려면 테이블 간의 관계가 필요합니다. Power BI Desktop에서는 이러한 관계를 쉽게 만들 수 있습니다. 실제로 아무 작업도 수행할 필요가 없는 경우가 대부분입니다. 자동 검색 기능이 자동으로 작업을 수행할 수 있습니다. 그러나 경우에 따라 직접 관계를 만들어야 하거나 관계를 일부 변경해야 할 수 있습니다. 어떤 경우든지 Power BI Desktop에서의 관계 및 관계를 만들고 편집하는 방법을 이해하는 것이 중요합니다. 
@@ -129,7 +129,7 @@ Power BI Desktop에서 관계가 작동하는 방식을 이해하는 데 도움�
 CompanyProject 테이블의 ProjName 열을 보면 프로젝트에 대해 각 색상 값이 하나뿐입니다. 이 테이블의 각 색상 값은 고유하며, 이러한 두 테이블 간에 관계를 만들 수 있기 때문에 이는 중요합니다. 이 경우 다대일 관계입니다. 다대일 관계에서는 테이블 중 하나에 고유한 값을 가진 열이 하나 이상 있어야 합니다. 일부 관계에 대한 몇 가지 추가 옵션이 있으며 나중에 살펴보겠지만, 지금은 두 테이블의 각 Project 열 간에 관계를 만들겠습니다.
 
 ### <a name="to-create-the-new-relationship"></a>새 관계를 만들려면
-1. **홈&gt;관계 관리**를 클릭합니다.
+1. **관계 관리**를 클릭합니다.
 2. **관계 관리**에서 **새로 만들기**를 클릭합니다. 관계에 사용하려는 테이블, 열 및 추가 설정을 선택할 수 있는 **관계 만들기** 대화 상자가 열립니다.
 3. 첫 번째 테이블에서 **ProjectHours**를 선택한 다음 **Project** 열을 선택합니다. 관계의 다 측면입니다.
 4. 두 번째 테이블에서 **CompanyProject**를 선택한 다음 **ProjName** 열을 선택합니다. 관계의 일 측면입니다.  

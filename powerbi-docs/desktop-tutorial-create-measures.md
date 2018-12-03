@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 8cfa3190acd4ef2ae2e1123f22d8f6221147afb1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 85c16822a51bc3c4a59bbfaa363f742f77552b72
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34456091"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578638"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>자습서: Power BI Desktop에서 고유한 측정값 만들기
 측정값을 사용하여 Power BI Desktop에서 가장 강력한 데이터 분석 솔루션 중 일부를 만들 수 있습니다. 측정값은 보고서를 조작할 때 데이터에서 계산을 수행하여 도움을 줍니다. 이 자습서에서는 Power BI Desktop에서 고유한 기본 측정값을 이해하고 만드는 과정을 안내합니다.
@@ -75,7 +75,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
     
     ![수식 입력줄](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png)
     
-2.  기본적으로 새 측정값의 이름은 간단히 측정값입니다. 이름을 바꾸지 않으면 추가적인 새 측정값의 이름이 측정값 2, 측정값 3 등으로 지정됩니다. 측정값을 보다 쉽게 식별하려고 하므로 수식 입력줄에서 **측정값**을 강조 표시한 다음, **Net Sales**를 입력합니다.
+2.  기본적으로 새 측정값의 이름은 간단히 측정값입니다. 이름을 바꾸지 않으면 추가적인 새 측정값의 이름이 측정값 2, 측정 3 등으로 지정됩니다. 측정값을 보다 쉽게 식별하려고 하므로 수식 입력줄에서 **측정값**을 강조 표시한 다음, **Net Sales**를 입력합니다.
     
 3.  이제 수식 입력을 시작할 수 있습니다. 등호 기호 뒤에 먼저 **Sum**을 입력합니다. 입력할 때 입력하는 문자로 시작하는 모든 DAX 함수를 보여주는 드롭다운 제안 목록이 표시됩니다. 필요한 경우 아래로 스크롤하여 목록에서 **SUM**을 선택한 다음, Enter 키를 누릅니다.
     

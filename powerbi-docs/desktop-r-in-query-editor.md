@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 98f5e6b5fee1f3666ff204a5f2da400d0aaab80f
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 9183a0fbb163fb4e46e6b310bcce953aaef9d1b8
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256127"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670627"
 ---
 # <a name="using-r-in-query-editor"></a>쿼리 편집기에서 R 사용
 Power BI Desktop **쿼리 편집기**에서 통계학자, 데이터 과학자 및 데이터 분석에 의해 널리 사용되는 프로그래밍 언어인 **R**을 사용할 수 있습니다. R을 **쿼리 편집기**에 통합하면 R을 사용하여 데이터 정리를 수행하고 누락된 데이터, 예측, 클러스터링을 완성하는 작업을 포함하여 데이터 집합에서 고급 데이터 셰이핑 및 분석을 수행할 수 있습니다. **R**은 강력한 언어이며 **쿼리 편집기**에서 사용하여 데이터 모델을 준비하고 보고서를 만들 수 있습니다.

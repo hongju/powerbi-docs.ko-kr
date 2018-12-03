@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 9c3361d831e472a1cb2239a95f2c94b57376dc1b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: f8ceeddea7a8a9b7a63043cc7e91269da570790b
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329158"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670994"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop에서 로그인 문제 해결
 **Power BI Desktop**에 로그인하려고 하는데 오류가 발생하는 경우가 있습니다. 로그인 문제의 두 가지 기본적인 이유는 **프록시 인증 오류** 및 **HTTPS 이외의 URL 리디렉션 오류**입니다. 
@@ -59,7 +59,7 @@ ms.locfileid: "39329158"
 * *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException:* ‘HTTPS 이외의 URL 리디렉션이 webviw에서 지원되지 않음’
 * *ErrorCode: non_https_redirect_failed*
 
-*ErrorCode: non_https_redirect_failed*가 발생하면 리디렉션 체인에 있는 하나 이상의 리디렉션 페이지 또는 공급자가 HTTPS 보호 끝점이 아니거나 하나 이상의 리디렉션에 대한 인증서 발급자가 장치의 신뢰할 수 있는 루트가 아닌 것입니다. 로그인 리디렉션 체인의 모든 공급자는 HTTPS URL을 사용해야 합니다. 이 문제를 해결하려면 관리자에게 문의하고 해당 인증 사이트에 대해 보안 URL을 사용하도록 요청합니다. 
+*ErrorCode: non_https_redirect_failed*가 발생하면 리디렉션 체인에 있는 하나 이상의 리디렉션 페이지 또는 공급자가 HTTPS 보호 엔드포인트가 아니거나 하나 이상의 리디렉션에 대한 인증서 발급자가 장치의 신뢰할 수 있는 루트가 아닌 것입니다. 로그인 리디렉션 체인의 모든 공급자는 HTTPS URL을 사용해야 합니다. 이 문제를 해결하려면 관리자에게 문의하고 해당 인증 사이트에 대해 보안 URL을 사용하도록 요청합니다. 
 
 ## <a name="how-to-collect-a-trace-in-power-bi-desktop"></a>Power BI Desktop에서 추적을 수집하는 방법
 

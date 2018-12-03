@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 507cc25d324f47f00434430461d78013baa7210f
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8c0736728d1dfce5a571eb1950670bc9fc9fa1c1
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546939"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670765"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>자연어 쿼리에 대한 Power BI Desktop의 Q&A 사용
 일반적인 구 및 자연어를 사용하여 데이터에 대해 질문하는 것은 강력한 기능입니다. 훨씬 더 강력한 것은 데이터가 응답할 때입니다. 즉, **Power BI Desktop**의 Q&A를 통해 수행할 수 있는 것입니다.

@@ -20,6 +20,7 @@
 | SAP HANA |예 |예 |
 | SharePoint 목록(온-프레미스) |아니요 |예 |
 | Snowflake |예 |예 |
+| Spark |예 |예 |
 | SQL Server |예 |예 |
 | Sybase |아니요 |예 |
 | Teradata |예 |예 |

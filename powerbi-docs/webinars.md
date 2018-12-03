@@ -1,6 +1,6 @@
 ---
-title: Power BI 웨비나
-description: Power BI 웨비나
+title: Power BI 웹 세미나
+description: Power BI 웹 세미나
 author: maikelson
 manager: kfile
 ms.reviewer: ''
@@ -9,32 +9,26 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452663"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670420"
 ---
-# <a name="power-bi-webinars"></a>Power BI 웨비나
+# <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
-예정된 라이브 웨비나에 등록하거나 녹화된 주문형 세션을 감상해 보세요.
+예정된 라이브 웹 세미나에 등록하거나 녹화된 주문형 세션을 감상해 보세요.
 
-## <a name="upcoming-webinars"></a>예정된 웨비나
+## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-**환자 결과와 수익성을 둘 다 개선하는 입증된 의료 솔루션**
-<br>작성자: US Medical IT의 Stephen Cracknell 및 Stuart Macanliss
-<br>2018년 11월 28일 오전 11시~오후 12시 태평양 표준시
+아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
 
-의료 조직은 많은 양의 데이터를 환자 인사이트로 전환하고 그러한 인사이트를 행동으로 전환하는 문제에 직면해 있습니다. 이 웨비나에 등록하여 조직에서 데이터를 유용한 환자 인사이트로 변환하는 데 도움이 되는 의미 있는 의료 보고서를 디자인하는 방법에 대해 알아보세요. US Medical IT의 설립자이자 CEO인 Stephen Cracknell, Healthcare IT의 이사인 Stuart Macanliss, 텍사스에서 활동하는 류마티스 전문의인 Dr. John P. Lavery의 조언과 전문가 전략을 받으세요.
+>[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
-[11월 28일에 시청하도록 등록](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
+## <a name="featured-webinars"></a>주요 웹 세미나
 
->[Power BI 커뮤니티의 예정된 웨비나](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
-
-## <a name="featured-webinars"></a>주요 웨비나
-
-인기 있는 주문형 웨비나 시작
+인기 있는 주문형 웹 세미나 시작
 
 **Power BI 시작하기**
 <br>작성자: Miguel Martinez
@@ -72,9 +66,9 @@ ms.locfileid: "52452663"
 <br>Jonathan Lipsitz, Enrique Plaza Garcia 제공
 <br>[등록 및 지금 보기](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
->[커뮤니티 전문가들이 제공하는 Power BI 주문형 웨비나 라이브러리 탐색하기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+>[커뮤니티 전문가들이 제공하는 Power BI 주문형 웹 세미나 라이브러리 탐색하기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-## <a name="on-demand-webinars"></a>주문형 웨비나
+## <a name="on-demand-webinars"></a>주문형 웹 세미나
 
 언제든 녹화된 세션 보기
 
@@ -105,6 +99,10 @@ ms.locfileid: "52452663"
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>파트너 ###
+
+**환자 결과와 수익성을 둘 다 개선하는 입증된 의료 솔루션**
+<br>작성자: US Medical IT의 Stephen Cracknell 및 Stuart Macanliss
+<br>[등록 및 지금 보기](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 **위치 인텔리전스를 사용하여 BI 강화**
 <br>작성: Esri의 Scott Ball 및 Microsoft의 Enrique Plaza
