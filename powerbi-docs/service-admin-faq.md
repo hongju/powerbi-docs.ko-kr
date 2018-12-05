@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157083"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830312"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -174,11 +174,15 @@ Power BI 관리 포털에 액세스하려면 계정이 Office 365 또는 Azure A
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Microsoft에서 내 사용자를 위해 만든 테넌트를 관리하는 프로세스는 무엇입니까?
 
-테넌트를 Microsoft가 만든 경우 다음 단계를 따라 테넌트를 청구 및 관리할 수 있습니다.
+셀프 서비스 사용자가 Azure AD를 사용하는 클라우드 서비스에 등록하면 해당 사용자의 메일 도메인을 기반으로 관리되지 않는 Azure AD 디렉터리에 추가됩니다. ‘관리자 인수’로 알려진 프로세스를 사용하여 만든 테넌트를 사용하고 관리할 수 있습니다. 수행하는 인수 유형은 도메인과 연결된 기존 관리 테넌트가 있는지 여부에 따라 다릅니다.
 
-1. 관리할 테넌트 도메인과 일치하는 메일 주소 도메인을 사용해 Power BI에 가입하여 테넌트에 가입합니다. 예를 들어 Microsoft가 contoso.com 테넌트를 만든 경우 @contoso.com으로 끝나는 메일 주소를 사용하여 테넌트에 가입합니다.
+* ‘내부 인수’를 사용하여 도메인에 대한 새 관리 테넌트를 만듭니다.
 
-1. 도메인 소유권을 확인하여 관리자 제어 청구: 테넌트 내에서 도메인 소유권을 확인하여 *전역 관리자* 역할을 승격할 수 있습니다. 이를 수행하려면 [Office 365 문서](/office365/admin/misc/become-the-admin)의 단계를 따릅니다.
+* ‘외부 인수’를 사용하여 도메인을 기존 관리 테넌트로 이동합니다.
+
+자세한 내용은 [Azure Active Directory에서 관리자로 관리되지 않는 디렉터리 인수](/azure/active-directory/users-groups-roles/domains-admin-takeover)을 참조하세요.
+
+외부 인수를 수행하면 인수 전에 생성된 Power BI 콘텐츠가 [Power BI 보관 작업 영역](service-admin-power-bi-archived-workspace.md)에 배치됩니다. 새 테넌트에서 사용할 콘텐츠를 수동으로 마이그레이션해야 합니다.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>여러 도메인이 있는 경우 사용자가 추가되는 Office 365 테넌트를 제어할 수 있습니까?
 
