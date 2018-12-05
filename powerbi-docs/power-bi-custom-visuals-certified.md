@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: fd352cd78225e647acf53c2af899e4d2fc662376
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 7830aa829dc05e29ec0b8dc23d7f35b58991b007
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289269"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830151"
 ---
 # <a name="certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체
 
@@ -138,6 +138,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-ha
 | [MAQ Software의 링 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [비디오](https://youtu.be/pDToHDFHnq8) |
 | [MAQ Software의 회전 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [비디오](https://youtu.be/d5xBCMmb3hU) |
 | [Sankey 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380777) | [비디오](https://youtu.be/WWP9wVUHGaA) |
+| [Scatter Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381703)(Akvelon의 분산형 차트) | |
 | [스크롤러](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
 | [OKViz에 의한 스마트 필터](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [비디오](https://youtu.be/gcJsDDRQq28) |
 | [OKViz로 스파크라인](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [비디오](https://youtu.be/0m3Vnvso9tY) |

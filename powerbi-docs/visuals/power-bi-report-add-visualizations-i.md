@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545271"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829806"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>1부, Power BI 보고서에 시각화 추가
 이 문서에서는 Power BI 서비스 또는 Power BI Desktop을 사용하여 보고서에 시각화를 만드는 방법을 간단히 소개합니다.  고급 내용을 보려면 [2부를 참조](power-bi-report-add-visualizations-ii.md)하세요. Amanda가 보여주는 보고서 캔버스에서 시각적 개체를 만들고, 편집하고, 서식을 지정하는 몇 가지 다양한 방법을 확인해 보세요. 그런 다음 직접 [영업 마케팅 샘플](../sample-datasets.md)을 사용하여 자신만의 보고서를 만들어 보세요.
@@ -29,7 +29,7 @@ ms.locfileid: "46545271"
 2. 필드 창이 표시되지 않으면 화살표 아이콘을 선택하여 엽니다. 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
-3. [보고서에 빈 페이지를 추가](../power-bi-report-add-page.md)합니다.
+3. 보고서에 빈 페이지를 추가합니다.
 
 ## <a name="add-visualizations-to-the-report"></a>시각화 요소를 보고서에 추가
 1. **필드** 창에서 필드를 선택하여 시각화를 만듭니다.  

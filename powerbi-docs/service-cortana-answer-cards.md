@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 327ba72c46aa5a6a2edea723bd5450cd5bbbcdb4
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187332"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829898"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI 서비스 또는 Power BI Desktop을 사용하여 Cortana에 대한 사용자 지정 답변 페이지 만들기
 Power BI의 전체 기능을 사용하여 Cortana 질문에 답변하도록 특별히 설계된 *Cortana 답변 페이지*(*Cortana 대답 카드*라고도 함)라는 특수한 보고서 페이지를 만듭니다.
@@ -41,7 +41,7 @@ Power BI에 대한 Cortana의 설정 및 사용을 안내하는 4가지 문서�
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>Cortana를 위해 특별히 디자인된 Cortana 대답 페이지 만들기
 보고서의 *Cortana 대답 페이지*는 특별히 Cortana용으로 크기가 지정되었기 때문에 Cortana가 질문에 대한 답변으로 화면에 알맞게 표시할 수 있습니다. Cortana에 대한 대답 페이지를 만들려면 다음을 수행합니다.
 
-1. [빈 보고서 페이지](power-bi-report-add-page.md)로 시작하는 것이 좋습니다.
+1. 빈 보고서 페이지로 시작하는 것이 좋습니다.
 2. **시각화** 창에서 페인트 롤러 아이콘을 선택한 다음, **페이지 크기** > **형식** > **Cortana**를 선택합니다.
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)

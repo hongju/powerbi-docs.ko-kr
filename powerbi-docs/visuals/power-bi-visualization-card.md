@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: b15d285774f0b6735fbc5df0ca2d00a81b944012
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48874578"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829944"
 ---
 # <a name="card-visualizations"></a>카드 시각화
 Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율, 총 영업 기회와 같이 한 가지 가장 중요한 숫자만 추적하려는 경우가 있습니다. 이 시각화 유형을 *카드*라고 합니다. 거의 모든 네이티브 Power BI 시각화와 마찬가지로 카드도 보고서 편집기 또는 질문과 대답을 사용하여 만들 수 있습니다.
@@ -25,7 +25,7 @@ Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율
 ## <a name="create-a-card-using-the-report-editor"></a>보고서 편집기를 사용하여 카드 만들기
 이 지침은 소매 분석 샘플을 사용합니다. 이를 수행하려면 Power BI 서비스(app.powerbi.com) 또는 Power BI Desktop에 대한 [샘플을 다운로드](../sample-datasets.md)합니다.   
 
-1. [빈 보고서 페이지](../power-bi-report-add-page.md)에서 시작하고 **Store** \> **Open store count** 필드를 선택합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 열어야 합니다.
+1. 빈 보고서 페이지에서 시작하고 **매장** \> **오픈 매장 수** 필드를 선택합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 열어야 합니다.
 
     Power BI에서 하나의 숫자가 포함된 열 차트를 만듭니다.
 

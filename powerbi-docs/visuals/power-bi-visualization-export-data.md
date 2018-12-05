@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: f6cb53eadb3c5ddf14b8f8b3b3882e0d7b509a3f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396813"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830105"
 ---
 # <a name="export-data-from-visualizations"></a>시각화에서 데이터 내보내기
 시각화를 만드는 데 사용되는 데이터를 보려는 경우 Power BI에서 해당 데이터를 표시하거나 해당 데이터를 .xlsx 또는 .csv 파일로 Excel에 내보낼 수 있습니다. 데이터를 내보내는 옵션에는 Pro 또는 Premium 라이선스가 필요하며 데이터 집합 및 보고서에 대한 편집 권한이 필요합니다. 
@@ -38,7 +38,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
 
 ## <a name="from-a-visualization-in-a-report"></a>보고서의 시각화에서
-과정을 따르려면 [편집용 보기](../consumer/end-user-reading-view.md)에서 [조달 분석 샘플 보고서](../sample-procurement.md)를 엽니다. [빈 보고서 페이지를 새로 추가합니다](../power-bi-report-add-page.md). 그런 다음 집계와 시각화 수준 필터를 추가하려면 다음 단계를 따릅니다.
+과정을 따르려면 [편집용 보기](../consumer/end-user-reading-view.md)에서 [조달 분석 샘플 보고서](../sample-procurement.md)를 엽니다. 빈 보고서 페이지를 새로 추가합니다. 그런 다음 집계와 시각화 수준 필터를 추가하려면 다음 단계를 따릅니다.
 
 1. 새 막대형 차트를 만듭니다.  필드 창에서 **위치 > 도시** 및 **송장 > 할인율**을 선택합니다.  **할인율**을 가치 웰로 옮겨야 할 수도 있습니다. 
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49397006"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830013"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>자습서: 질문 및 답변을 사용하여 시각화를 만들고 보고서를 작성하는 방법
 [질문 및 답변 개요](consumer/end-user-q-and-a.md)에서는 Power BI 질문 및 답변을 소개하고 *소비자*(대시보드 및 보고서를 소비자와 공유)와 *작성자*(기본 보고서 및 데이터 집합 소유)를 구분했습니다. 이 자습서의 첫 번째 부분은 주로 Power BI 서비스를 사용하여 대시보드를 소비하는 사람들을 위해 설계되었습니다. 두 번째 부분은 Power BI 서비스 또는 Power BI Desktop을 사용하여 보고서를 만드는 사람들을 위해 설계되었습니다. [질문 및 답변과 Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) 및 [질문 및 답변과 Power BI Embedded](developer/qanda.md)는 별도의 문서에서 다룹니다.
@@ -74,7 +74,7 @@ ms.locfileid: "49397006"
     **서비스**    
     ![](media/power-bi-tutorial-q-and-a/power-bi-service.png)
 
-2. 질문 및 답변 질문 상자는 보고서 캔버스에 표시됩니다. 아래 예에서는 질문 상자가 다른 시각화 위에 표시됩니다. 그래도 문제는 없지만 질문을 하기 전에 [보고서에 빈 페이지를 추가](power-bi-report-add-page.md)하는 것이 더 좋을 것 같습니다.
+2. 질문 및 답변 질문 상자는 보고서 캔버스에 표시됩니다. 아래 예에서는 질문 상자가 다른 시각화 위에 표시됩니다. 그래도 문제는 없지만 질문을 하기 전에 보고서에 빈 페이지를 추가하는 것이 더 좋을 것 같습니다.
 
     ![](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 

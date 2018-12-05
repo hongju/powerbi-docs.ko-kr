@@ -282,6 +282,8 @@ items:
         href: desktop-create-phone-report.md
       - name: 데이터 보기 및 레코드 보기 사용
         href: desktop-see-data-see-records.md
+      - name: 보고서를 만드는 팁
+        href: desktop-tips-and-tricks-for-creating-reports.md
     - name: 시각화
       items:
       - name: 시각화 모범 사례
@@ -312,7 +314,7 @@ items:
         href: power-bi-reports-add-text-and-shapes.md
       - name: X축 및 Y축 속성 사용자 지정
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: Power BI의 ArcGIS
+      - name: Power BI의 ArcGIS 지도
         href: power-bi-visualization-arcgis.md
       - name: 기본 영역형 차트
         href: visuals/power-bi-visualization-basic-area-chart.md
@@ -346,6 +348,8 @@ items:
         href: visuals/power-bi-visualization-treemaps.md
       - name: Power BI의 폭포 차트
         href: visuals/power-bi-visualization-waterfall-charts.md
+      - name: 동적 참조 줄 만들기
+        href: service-analytics-pane.md
     - name: 문제 해결
       items:
       - name: Power BI Desktop 및 파워 쿼리에서 Access 데이터베이스 및 Excel 스프레드시트 가져오기 문제 해결
@@ -382,10 +386,10 @@ items:
       href: power-bi-overview.md
   - name: 자습서
     items:
-    - name: GitHub 샘플에 연결
-      href: service-tutorial-connect-to-github.md
     - name: Power BI 시작
       href: service-get-started.md
+    - name: GitHub 샘플에 연결
+      href: service-tutorial-connect-to-github.md
   - name: 개념
     items:
     - name: Power BI 서비스의 새로운 기능
@@ -644,40 +648,28 @@ items:
         href: service-dashboard-themes.md
     - name: 보고서
       items:
-      - name: 기존 보고서에서 새 보고서 만들기
-        href: power-bi-report-copy.md
-      - name: 보고서에 페이지 추가
-        href: power-bi-report-add-page.md
+      - name: 데이터 집합에서 새 보고서 만들기
+        href: service-report-create-new.md
       - name: 보고서에 필터 추가
         href: power-bi-report-add-filter.md
       - name: Power BI에 보고서 저장
         href: service-report-save.md
-      - name: 데이터 집합에서 새 보고서 만들기
-        href: service-report-create-new.md
       - name: 편집용 보기에서 보고서와 상호 작용
         href: service-interact-with-a-report-in-editing-view.md
       - name: Excel에서 분석
         href: service-analyze-in-excel.md
       - name: 보고서를 만드는 팁과 힌트
         href: power-bi-reports-tips-and-tricks-for-creating.md
-      - name: 분석 창
-        href: service-analytics-pane.md
       - name: 보고서에 대한 사용 현황 메트릭
         href: service-usage-metrics.md
       - name: 보고서에 대한 QR 코드 만들기
         href: service-create-qr-code-for-report.md
-      - name: 보고서의 페이지 다시 정렬
-        href: service-report-reorder-pages.md
-      - name: 보고서 페이지 복제
-        href: power-bi-report-copy-paste-page.md
       - name: 서비스에서 Power BI Desktop으로 보고서 내보내기(미리 보기)
         href: service-export-to-pbix.md
       - name: URL의 매개 변수를 사용하여 보고서 필터링
         href: service-url-filters.md
       - name: 빠르고 신뢰할 수 있는 보고서 빌드 모범 사례
         href: power-bi-reports-performance.md
-      - name: ArcGIS 맵과 상호 작용
-        href: visuals/power-bi-visualizations-arcgis.md
     - name: 데이터에 대해 질문하기
       items:
       - name: 질문 및 답변을 사용하여 시각화 및 보고서 만들기
@@ -792,6 +784,30 @@ items:
         href: service-dataflows-developer-resources.md
       - name: Power BI Desktop에서 데이터 흐름에 연결
         href: desktop-connect-dataflows.md
+    - name: Power BI의 페이지를 매긴 보고서
+      items:
+      - name: 페이지를 매긴 보고서란? (미리 보기)
+        href: paginated-reports-report-builder-power-bi.md
+      - name: 페이지를 매긴 보고서 FAQ
+        href: paginated-reports-faq.md
+      - name: 페이지를 매긴 보고서 만들기 및 업로드
+        href: paginated-reports-quickstart-aw.md
+      - name: 보고서 디자인 뷰 다루기
+        href: paginated-reports-report-design-view.md
+      - name: 페이지를 매긴 보고서에 직접 데이터 입력
+        href: paginated-reports-enter-data.md
+      - name: 포함된 데이터 원본 만들기
+        href: paginated-reports-embedded-data-source.md
+      - name: 포함된 데이터 집합 만들기
+        href: paginated-reports-create-embedded-dataset.md
+      - name: 매개 변수 만들기
+        href: paginated-reports-parameters.md
+      - name: 페이지를 매긴 보고서 게시
+        href: paginated-reports-save-to-power-bi-service.md
+      - name: 페이지를 매긴 보고서 보기
+        href: paginated-reports-view-power-bi-service.md
+      - name: 매개 변수와 상호 작용
+        href: paginated-reports-view-parameters.md
   - name: 리소스
     items:
     - name: 비디오
@@ -802,38 +818,6 @@ items:
       href: supported-languages-countries-regions.md
     - name: 백서
       href: whitepapers.md
-- name: Power BI의 페이지를 매긴 보고서
-  items:
-  - name: 개요
-    items:
-    - name: 페이지를 매긴 보고서란? (미리 보기)
-      href: paginated-reports-report-builder-power-bi.md
-  - name: 자습서
-    items:
-    - name: 페이지를 매긴 보고서 만들기 및 업로드
-      href: paginated-reports-quickstart-aw.md
-  - name: 개념
-    items:
-    - name: 보고서 디자인 뷰 다루기
-      href: paginated-reports-report-design-view.md
-    - name: 페이지를 매긴 보고서 FAQ
-      href: paginated-reports-faq.md
-  - name: 방법
-    items:
-    - name: 페이지를 매긴 보고서에 직접 데이터 입력
-      href: paginated-reports-enter-data.md
-    - name: 포함된 데이터 원본 만들기
-      href: paginated-reports-embedded-data-source.md
-    - name: 포함된 데이터 집합 만들기
-      href: paginated-reports-create-embedded-dataset.md
-    - name: 매개 변수 만들기
-      href: paginated-reports-parameters.md
-    - name: 페이지를 매긴 보고서 게시
-      href: paginated-reports-save-to-power-bi-service.md
-    - name: 페이지를 매긴 보고서 보기
-      href: paginated-reports-view-power-bi-service.md
-    - name: 매개 변수와 상호 작용
-      href: paginated-reports-view-parameters.md
 - name: 개발자용 Power BI
   items:
   - name: 개발자는 Power BI로 무엇을 할 수 있나요
@@ -1265,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331853"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830404"
