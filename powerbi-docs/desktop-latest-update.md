@@ -38,14 +38,14 @@ ms.locfileid: "51619544"
 
 ### <a name="reporting"></a>보고
 
-* 매트릭스 행 머리글 확장 및 축소  [[비디오]](https://youtu.be/1xsXXoyTxfk?t=16)  [[문서]](power-bi-reports-filters-and-highlighting.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
+* 행렬 행 머리글 확장 및 축소 [[비디오]](https://youtu.be/1xsXXoyTxfk?t=16) [[문서]](power-bi-reports-filters-and-highlighting.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
 * Desktop 파일 간 복사 및 붙여넣기 [[비디오]](https://youtu.be/1xsXXoyTxfk?t=199)  [[문서]](desktop-report-view.md#copy-and-paste-between-reports)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
 * 업데이트된 필터링 환경(미리 보기) [[비디오]](https://youtu.be/1xsXXoyTxfk?t=410)   [[문서]](power-bi-reports-filters-and-highlighting.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
 * 보고서 접근성 개선 [[비디오]](https://youtu.be/1xsXXoyTxfk?t=1036)  [[문서]](desktop-accessibility.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
 
 ### <a name="analytics"></a>분석
 
-* 조건부 서식 지정에 사용하도록 업그레이드된 시각적 개체의 색 채도 [[비디오]](https://youtu.be/1xsXXoyTxfk?t=1224)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
+* 조건부 서식 지정에 사용하도록 업그레이드된 시각적 개체의 색 채도 [[비디오]](https://youtu.be/1xsXXoyTxfk?t=1224) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
 * Q&A 탐색기의 후속 질문 [[비디오]](https://youtu.be/1xsXXoyTxfk?t=1429)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
 
 
