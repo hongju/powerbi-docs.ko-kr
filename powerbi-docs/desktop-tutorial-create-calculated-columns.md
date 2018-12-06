@@ -48,7 +48,7 @@ ms.locfileid: "52578684"
     
 3.  새 열의 값을 ProductCategory 이름으로 시작하려고 합니다. 이 열은 다르지만 관련된 테이블에 있으므로 [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 함수를 사용하여 가져올 수 있습니다.
     
-    등호 뒤에 **r**을 입력합니다. 드롭다운 제안 목록에는 문자 R로 시작하는 모든 DAX 함수가 표시됩니다. 각 함수를 선택하면 해당 함수에 대한 설명이 표시됩니다. 문자를 더 입력하면 원하는 함수와 더 비슷한 함수들이 제안 목록에 표시됩니다. **RELATED**를 선택한 다음, **Enter** 키를 누릅니다.
+    등호 뒤에 **r**을 입력합니다. 드롭다운 제안 목록에는 문자 R로 시작하는 모든 DAX 함수가 표시됩니다. 각 함수를 선택하면 해당 효과에 대한 설명이 표시됩니다. 입력하면 제안 목록이 필요한 함수에 더 가깝게 축소됩니다. **RELATED**를 선택한 다음, **Enter** 키를 누릅니다.
     
     ![RELATED 선택](media/desktop-tutorial-create-calculated-columns/create4.png)
     
