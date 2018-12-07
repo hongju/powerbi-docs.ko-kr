@@ -246,10 +246,6 @@ items:
         href: visuals/desktop-slicer-filter-date-range.md
       - name: 그룹화 및 범주화 사용
         href: desktop-grouping-and-binning.md
-      - name: 리본 차트
-        href: visuals/desktop-ribbon-charts.md
-      - name: 새 행렬 시각적 개체 사용
-        href: visuals/desktop-matrix-visual.md
       - name: R을 사용하여 Power BI 시각적 개체 만들기
         href: desktop-r-visuals.md
       - name: R 기반 사용자 지정 시각적 개체 사용
@@ -290,6 +286,8 @@ items:
         href: visuals/power-bi-visualization-best-practices.md
       - name: Power BI 보고서에서 시각화 유형 변경
         href: visuals/power-bi-report-change-visualization-type.md
+      - name: 시각적 개체 유형별 데이터 요소 한도
+        href: visuals/power-bi-data-points.md
       - name: 색 서식 지정 및 축 속성 시작
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
       - name: Power BI의 색 서식을 위한 팁과 힌트
@@ -332,10 +330,14 @@ items:
         href: desktop-high-density-sampling.md
       - name: KPI 시각적 개체
         href: visuals/power-bi-visualization-kpi.md
+      - name: 행렬 시각적 개체
+        href: visuals/desktop-matrix-visual.md
       - name: Power BI에서 R 스크립트를 사용하여 고급 분석 및 시각화 만들기
         href: visuals/service-r-visuals.md
       - name: Power BI의 방사형 계기 차트
         href: visuals/power-bi-visualization-radial-gauge-charts.md
+      - name: 리본 차트
+        href: visuals/desktop-ribbon-charts.md
       - name: Power BI의 분산형 차트
         href: visuals/power-bi-visualization-scatter.md
       - name: 고밀도 분산형 차트
@@ -1251,9 +1253,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 83446170e1ee29cdf2e2d2f1298a37c58e255f1b
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 066aa4a3b87375e29e14d1611e7e67ab58dfd482
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900385"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979677"
