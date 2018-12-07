@@ -1,5 +1,5 @@
 ---
-title: Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 만들기 | Microsoft Docs
+title: Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 만들기(미리 보기)
 description: 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수를 만드는 방법을 알아봅니다.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 3a1d497f112e84aeb958b86658ee3ffae3e87c6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d36f8e26282ae794976b0d679feb426ea04a981b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267931"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900293"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 만들기
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 만들기(미리 보기)
 
 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수를 만드는 방법을 알아봅니다.  보고서 매개 변수는 보고서 데이터를 선택하고 보고서 프레젠테이션에 변화를 주는 방법을 제공합니다. 사용자가 기본값과 사용 가능한 값 목록을 제공할 수 있으며 보고서 구독자가 선택 항목을 변경할 수 있습니다.  
 

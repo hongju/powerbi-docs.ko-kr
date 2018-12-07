@@ -1,5 +1,5 @@
 ---
-title: Power BI 페이지를 매긴 보고서의 포함된 데이터 세트 만들기 | Microsoft Docs
+title: Power BI 페이지를 매긴 보고서의 포함된 데이터 세트 만들기(미리 보기)
 description: 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트를 포함된 데이터 원본을 기반으로 만드는 방법을 알아봅니다.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.author: maggies
-ms.openlocfilehash: 4362633f705d412749e1146417a48cd61d47743c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 827a7acd24ead0c4948a09f2e67b53c3966769bb
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267965"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900431"
 ---
-# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트 만들기
+# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트 만들기(미리 보기)
 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트를 포함된 데이터 원본을 기반으로 만드는 방법을 알아봅니다. 포함된 데이터 세트는 해당 보고서에 사용할 수 있도록 하나의 페이지를 매긴 보고서에 있습니다. 현재 Power BI 서비스에 게시된 페이지를 매긴 보고서에는 포함된 데이터 세트 및 포함된 데이터 원본이 필요합니다. 보고서를 만드는 동안 보고서 작성기에서 포함된 데이터 원본 및 데이터 세트를 만듭니다. 
 
 데이터 세트를 만들려면 먼저 데이터 원본을 만들어야 합니다. 방법을 알아보려면 Power BI 서비스에서 [페이지를 매긴 보고서의 포함된 데이터 원본](paginated-reports-embedded-data-source.md)을 참조하세요.

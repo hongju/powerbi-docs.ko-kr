@@ -1,5 +1,5 @@
 ---
-title: 보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터 입력
+title: 보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터 입력(미리 보기)
 description: 이 문서에서는 보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터를 입력하는 방법을 볼 수 있습니다.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: 201a81eaef81015c73d70b54e8e862c2ccc29b1d
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: c3b003ee600df010aa07aad78ee2350704734dd4
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52290071"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900408"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>보고서 작성기 - Power BI에서 페이지를 매긴 보고서에 직접 데이터 입력
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터 입력(미리 보기) - Power BI
 
 이 문서에서는 포함된 데이터 세트로 RDL 보고서에 직접 데이터를 입력할 수 있는 SQL Server 2016 보고서 작성기의 새 버전 기능에 대해 알아봅니다.  이 기능은 Power BI Desktop과 비슷합니다. 보고서의 데이터 세트에 직접 데이터를 입력하거나 Microsoft Excel과 같은 다른 프로그램에서 붙여넣을 수 있습니다. 데이터를 입력하여 데이터 세트를 만든 후에는 다른 포함된 데이터 세트와 마찬가지로 데이터 세트를 사용할 수 있습니다. 또한 둘 이상의 테이블을 추가하고 하나를 다른 테이블을 위한 필터로 사용할 수 있습니다. 이 기능은 보고서 매개 변수처럼 보고서에서 사용해야 할 수 있는 작고 정적인 데이터 세트에 특히 유용합니다.
  
