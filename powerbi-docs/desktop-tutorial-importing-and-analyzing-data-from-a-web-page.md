@@ -47,7 +47,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
    
     ![대화 상자에서 데이터 가져오기](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
-   Wikipedia 웹 페이지에 연결한 후 Power BI **탐색기** 대화 상자에는 페이지에서 사용 가능한 테이블 목록이 표시됩니다. 테이블 이름을 선택하여 데이터를 미리 볼 수 있습니다. 정확히 원하는 셰이프가 아니지만 원하는 데이터가 **Results[edit]** 테이블에 있습니다. 보고서에 로드하기 전에 데이터를 다시 셰이핑하고 정리합니다. 
+   Wikipedia 웹 페이지에 연결한 후 Power BI **탐색기** 대화 상자에는 페이지에서 사용 가능한 테이블 목록이 표시됩니다. 테이블 이름을 선택하여 데이터를 미리 볼 수 있습니다. 정확히 원하는 셰이프는 아니지만 원하는 데이터가 **Results[edit]** 테이블에 있습니다. 보고서에 로드하기 전에 데이터를 다시 셰이핑하고 정리합니다. 
    
    ![탐색기 대화 상자](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
    
@@ -121,7 +121,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
    
    ![닫기 및 적용](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
    
-이 쿼리는 Power BI Desktop **보고서 보기**로 로드되고, **필드** 창에서 쿼리를 볼 수 있습니다. 
+이 쿼리는 Power BI Desktop **보고서 보기**로 로드되고 **필드** 창에서 볼 수 있습니다. 
    
    ![필드 창](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
 >[!TIP]
@@ -141,7 +141,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
 
    ![맵 확대](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
    
-3. 맵에는 유로컵 토너먼트에서 우승한 모든 국가에 대한 동일한 데이터 요소가 표시됩니다. 각 데이터 요소의 크기에 해당 국가가 우승한 빈도를 반영하려면 **시각화** 창의 아래쪽 부분에 있는 **크기** 아래의 **여기에 데이터 필드 추가**로 **Year** 필드를 끌어옵니다. 이 필드는 **Year개** 측정값으로 자동으로 변경되고 이제 맵 시각화에는 더 많은 토너먼트에서 우승한 국가에 대한 더 큰 데이터 요소가 표시됩니다. 
+3. 맵에는 유로컵 토너먼트에서 우승한 모든 국가에 대한 동일한 데이터 요소가 표시됩니다. 각 데이터 요소의 크기에 해당 국가가 우승한 빈도를 반영하려면 **시각화** 창의 아래쪽 부분에 있는 **크기** 아래의 **데이터 필드를 여기에 끌어오기**로 **Year** 필드를 끌어옵니다. 이 필드는 **Count of Year** 측정값으로 자동으로 변경되고 이제 맵 시각화에는 더 많은 토너먼트에서 우승한 국가에 대한 더 큰 데이터 요소가 표시됩니다. 
    
    ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage15.png)
    
