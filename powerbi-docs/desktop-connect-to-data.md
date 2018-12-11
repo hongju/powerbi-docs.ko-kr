@@ -20,7 +20,7 @@ ms.locfileid: "52578155"
 # <a name="connect-to-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터에 연결
 Power BI Desktop을 사용하면 계속 확장되는 데이터에 쉽게 연결할 수 있습니다. Power BI Desktop이 없는 경우 여기서 [다운로드](http://go.microsoft.com/fwlink/?LinkID=521662)하여 설치할 수 있습니다.
 
-Power BI Desktop에는 사용할 수 있는 *모든 종류* 의 데이터 소스가 있습니다. 다음 그림은 **파일** 리본을 선택한 다음 **데이터 가져오기\>자세히**를 선택하여 데이터에 연결하는 방법을 보여 줍니다.
+Power BI Desktop에는 사용할 수 있는 *모든 종류* 의 데이터 소스가 있습니다. 다음 그림은 **파일** 리본을 선택한 다음 **데이터 가져오기\>추가...**를 선택하여 데이터에 연결하는 방법을 보여 줍니다.
 
 ![](media/desktop-connect-to-data/getdatavid_smallv2.gif)
 
@@ -54,7 +54,7 @@ Power BI Desktop에는 사용할 수 있는 *모든 종류* 의 데이터 소스
 
 ![](media/desktop-connect-to-data/designer_gsg_appliedsteps_changedtype.png)
 
-로드된 후에도 테이블을 추가로 변경할 수 있지만 지금은 이 작업으로 충분합니다. 작업을 마치고 **홈** 리본에서 **닫기 및 적용**을 선택하면 Power BI Desktop이 변경 사항을 적용하고 쿼리 편집기를 닫습니다.
+로드된 후에도 테이블을 추가로 변경할 수 있지만 지금은 이 작업으로 충분합니다. 작업을 마치고 리본 메뉴 **홈** 탭 **닫기 및 적용**을 선택하면 Power BI Desktop이 변경 사항을 적용하고 쿼리 편집기를 닫습니다.
 
 ![](media/desktop-connect-to-data/connecttodata_closenload.png)
 
