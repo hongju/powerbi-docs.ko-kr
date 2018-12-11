@@ -65,7 +65,7 @@ ms.locfileid: "52578500"
    
    ![파워 쿼리 편집기](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
    
-2. **created_time** 열을 선택합니다. 이 열은 현재 열 머리글에 **ABC** 아이콘으로 표시된 텍스트 데이터 형식입니다. 머리글을 마우스 오른쪽 단추로 클릭하고 **열 분할 > 구분 기호 기준**을 선택하거나, 리본 의 [홈] 탭에 있는 **변환** 아래에서 **열 분할 > 구분 기호 기준**을 선택합니다.  
+2. **created_time** 열을 선택합니다. 이 열은 현재 열 머리글에 **ABC** 아이콘으로 표시된 텍스트 데이터 형식입니다. 머리글을 마우스 오른쪽 단추로 클릭하고 **열 분할 > 구분 기호 기준**을 선택하거나, 리본 메뉴의 [홈] 탭에 있는 **변환** 아래에서 **열 분할 > 구분 기호 기준**을 선택합니다. 
    
    ![구분 기호로 열 분할](media/desktop-tutorial-facebook-analytics/delimiter1.png)
    
