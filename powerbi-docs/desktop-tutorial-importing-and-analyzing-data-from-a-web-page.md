@@ -36,7 +36,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
 
 데이터를 가져오려면:
 
-1. Power BI Desktop **홈** 리본 탭에서 **데이터 가져오기** 옆에 있는 화살표를 드롭다운하고 **웹**을 선택합니다.
+1. Power BI Desktop 리본 메뉴의 **홈** 탭 **외부 데이터** 그룹의 **데이터 가져오기** 를 클릭한 후 **웹**을 선택합니다.
    
    ![리본에서 데이터 가져오기](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web3.png) 
    
@@ -47,7 +47,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
    
     ![대화 상자에서 데이터 가져오기](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
-   Wikipedia 웹 페이지에 연결한 후 Power BI **탐색기** 대화 상자에는 페이지에서 사용 가능한 테이블 목록이 표시됩니다. 테이블 이름을 선택하여 데이터를 미리 볼 수 있습니다. 정확히 원하는 셰이프가 아니더라도 원하는 데이터가 **Results[edit]** 테이블에 있습니다. 보고서에 로드하기 전에 데이터를 다시 셰이핑하고 정리합니다. 
+   Wikipedia 웹 페이지에 연결한 후 Power BI **탐색기** 대화 상자에는 페이지에서 사용 가능한 테이블 목록이 표시됩니다. 테이블 이름을 선택하여 데이터를 미리 볼 수 있습니다. 정확히 원하는 셰이프는 아니지만 원하는 데이터가 **Results[edit]** 테이블에 있습니다. 보고서에 로드하기 전에 데이터를 다시 셰이핑하고 정리합니다. 
    
    ![탐색기 대화 상자](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
    
@@ -68,7 +68,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
 
 1. **파워 쿼리 편집기** 그리드에서 **Year** 및 **Final Winners** 열을 선택합니다(여러 항목을 선택하려면 **Ctrl** 키를 누르고 있음).
    
-2. 마우스 오른쪽 단추를 클릭하고 드롭다운에서 **다른 열 제거**를 선택하거나, **홈** 리본 탭의 **열 관리** 그룹에서 **열 제거** > **다른 열 제거**를 선택하여 테이블에서 다른 모든 열을 제거합니다. 
+2. 마우스 오른쪽 단추를 클릭하고 드롭다운 메뉴에서 **다른 열 제거**를 선택하거나, 리본 메뉴 **홈** 탭의 **열 관리** 그룹에서 **열 제거** > **다른 열 제거**를 선택하여 테이블에서 다른 모든 열을 제거합니다. 
    
    ![다른 열 제거 드롭다운](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) 또는 ![다른 열 제거 리본](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
@@ -76,7 +76,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
 
 1. **Year** 열을 선택합니다.
    
-2. 마우스 오른쪽 단추를 클릭하고 드롭다운에서 **값 바꾸기**를 선택하거나, **홈** 리본 탭의 **변환** 그룹에서 **값 바꾸기**를 선택합니다(**변환** 탭의 **열** 그룹에도 있음). 
+2. 마우스 오른쪽 단추를 클릭하고 드롭다운에서 **값 바꾸기**를 선택하거나, 리본 메뉴 **홈** 탭의 **변환** 그룹에서 **값 바꾸기**를 선택합니다(**변환** 탭의 **열** 그룹에도 있음). 
    
    ![값 바꾸기 드롭다운](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web7.png) 또는 ![값 바꾸기 리본](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8a.png)
    
@@ -96,7 +96,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
 
 1. **Final Winner** 열 머리글을 두 번 클릭하거나 길게 탭합니다. 또는 
    - **Final Winners** 열 머리글을 마우스 오른쪽 단추로 클릭하고 드롭다운에서 **이름 바꾸기**를 선택합니다. 또는 
-   - **Final Winners** 열을 선택하고 리본의 **변환** 탭에 있는 **임의 열** 그룹에서 **이름 바꾸기**를 선택합니다. 
+   - **Final Winners** 열을 선택하고 리본의 **변환** 탭에 있는 **열** 그룹에서 **이름 바꾸기**를 선택합니다. 
    
    ![이름 바꾸기 드롭다운](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7a.png) 또는 ![이름 바꾸기 리본](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8.png)
    
@@ -105,7 +105,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
 또한 **Country** 열에서 null 값이 포함된 행(예: “2020”)을 필터링하려 합니다. **Year** 값으로 작업한 대로 필터 메뉴를 사용하거나 다음을 수행할 수 있습니다.
 
 1. 값이 *null*인 **2020** 행에서 **Country** 셀을 마우스 오른쪽 단추로 클릭합니다. 
-2. 상황에 맞는 메뉴에서 **텍스트 필터** >  **같지 않음**을 선택하여 해당 셀 값이 포함된 모든 행을 제거합니다.
+2. 상황에 맞는 메뉴에서 **텍스트 필터** >  **같지 않음...**을 선택하여 해당 셀 값이 포함된 모든 행을 제거합니다.
    
    ![텍스트 필터](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web11.png)
    
@@ -117,23 +117,23 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
    
    ![쿼리 이름 지정](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
 
-2. **홈** 리본 탭에서 **닫기 및 적용** > **닫기 및 적용**을 선택합니다.
+2. 리본 메뉴 **홈** 탭에서 **닫기 및 적용** > **닫기 및 적용**을 선택합니다.
    
    ![닫기 및 적용](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
    
-이 쿼리는 Power BI Desktop **보고서 보기**로 로드되고, 여기에서 **필드** 창에 표시됩니다. 
+이 쿼리는 Power BI Desktop **보고서 보기**로 로드되고 **필드** 창에서 볼 수 있습니다. 
    
    ![필드 창](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
 >[!TIP]
 >항상 **파워 쿼리 편집기**로 돌아가서 다음과 같이 쿼리를 편집하고 구체화할 수 있습니다.
 >- **필드** 창의 **Euro Cup Winners** 옆에 있는 **추가 옵션** 줄임표(**...**)를 선택하고 드롭다운에서 **쿼리 편집**을 선택하거나,
->- 보고서 보기의 **홈** 리본 탭에 있는 **외부 데이터** 그룹에서 **쿼리 편집** > **쿼리 편집**을 선택합니다. 
+>- 리본 메뉴 **홈** 탭에 있는 **외부 데이터** 그룹에서 **쿼리 편집** > **쿼리 편집**을 선택합니다. 
 
 ## <a name="create-a-visualization"></a>시각화 만들기
 
 데이터를 기반으로 시각화를 만들려면: 
 
-1. **필드** 창에서 **국가** 필드를 선택하거나 보고서 캔버스로 끌어옵니다. Power BI Desktop은 데이터를 국가 이름으로 인식하고 **맵** 시각화를 자동으로 만듭니다. 
+1. **필드** 창에서 **Country** 필드를 선택하거나 보고서 캔버스로 끌어옵니다. Power BI Desktop은 데이터를 국가 이름으로 인식하고 **맵** 시각화를 자동으로 만듭니다. 
    
    ![맵 시각화](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web14.png)
    
@@ -151,13 +151,13 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
 살펴본 것처럼 데이터를 기반으로 시각화를 쉽게 만들 수 있습니다. 원하는 방식으로 데이터를 더 잘 표시하도록 시각화를 쉽게 사용자 지정할 수도 있습니다. 
 
 ### <a name="format-the-map"></a>맵 서식 지정
-시각화를 선택한 다음, **시각화** 창에서 **형식**(페인트 롤러) 아이콘을 선택하여 시각화 모양을 변경할 수 있습니다. 예를 들어 서독이 토너먼트에서 2회 우승했고 독일이 1회 우승했으므로 시각화의 “독일” 데이터 요소가 잘못될 수 있고, 맵에는 두 요소를 구분하거나 함께 추가하는 대신 두 요소를 겹쳐 놓습니다. 이러한 두 요소에 색상을 다르게 지정하여 강조 표시할 수 있습니다. 맵에 보다 구체적이고 매력적인 제목을 제공할 수도 있습니다. 
+시각화를 선택한 다음, **시각화** 창에서 **서식**(페인트 롤러) 아이콘을 선택하여 시각화 모양을 변경할 수 있습니다. 예를 들어 West Germany가 토너먼트에서 2회 우승했고 Germany가 1회 우승했으므로 시각화의 “Germany” 데이터 요소가 잘못될 수 있고, 맵에는 두 요소를 구분하거나 함께 추가하는 대신 두 요소를 겹쳐 놓습니다. 이러한 두 요소에 색상을 다르게 지정하여 강조 표시할 수 있습니다. 맵에 보다 구체적이고 매력적인 제목을 제공할 수도 있습니다. 
 
-1. 시각화를 선택한 상태로 **형식** 아이콘을 선택한 다음, **데이터 색**을 선택하여 데이터 색 옵션을 확장합니다. 
+1. 시각화를 선택한 상태로 **서식** 아이콘을 선택한 다음, **데이터 색**을 선택하여 데이터 색 옵션을 확장합니다. 
    
    ![데이터 색 지정](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
    
-2. **모두 표시**를 **켜기**로 전하고 나서 **West Germany** 옆의 드롭다운을 선택하고 노란색을 선택합니다. 
+2. **모두 표시**를 **설정**으로 변경하고 **West Germany** 옆의 드롭다운을 클릭하고 노란색을 선택합니다. 
    
    ![색 변경](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web16.png)
    
@@ -179,10 +179,10 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
 ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web19.png)
 
 >[!TIP]
->- **데이터 색** 서식 옵션을 사용하여 “독일” 및 “서독”을 같은 색으로 설정할 수 있습니다. 
+>- **데이터 색** 서식 옵션을 사용하여 “Germany” 및 “West Germany”를 같은 색으로 설정할 수 있습니다. 
 >- 원형 차트에서 가장 많이 우승한 국가를 함께 그룹화하려면 시각화의 오른쪽 위에 있는 줄임표(**...**)를 선택한 다음, 드롭다운에서 **연도 수별 정렬**을 선택합니다. 
 
-Power BI Desktop은 다양한 데이터 원본에서 데이터를 가져오고 이 데이터를 풍부한 대화형 방식으로 시각화하기 위해 분석 요구 사항에 맞게 모양을 지정하는 원활한 종단 간 환경을 제공합니다. 보고서가 준비되면 [Power BI로 업로드](desktop-upload-desktop-files.md)하고 보고서에 따라 대시보드를 만든 후 다른 Power BI 사용자와 공유할 수 있습니다.
+Power BI Desktop은 다양한 종류의 데이터 원본에서 데이터를 가져오고 이 데이터를 대화형 방식으로 풍부하게 시각화하기 위해 분석 요구 사항을 충족하도록 셰이핑하는 완벽한 End-to-End 환경을 제공합니다. 보고서가 준비되면 [Power BI로 업로드](desktop-upload-desktop-files.md)하고 보고서에 따라 대시보드를 만든 후 다른 Power BI 사용자와 공유할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 * [다른 Power BI Desktop 자습서 참고](http://go.microsoft.com/fwlink/?LinkID=521937)
