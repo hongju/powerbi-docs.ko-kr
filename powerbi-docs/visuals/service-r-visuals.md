@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 11/07/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 409a2ee486d0153e0dec2f715ff0e2ea19e236d7
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 4fb62a34d01335a521bb37afe89f1d48b31fae57
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297116"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979516"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 R 시각적 개체 만들기
 Power BI 서비스는 R 스크립트를 사용하여 만든 시각적 개체 보기 및 상호 작용을 지원합니다. 일반적으로 *R 시각적 개체* 라고 하는 R 스크립트를 사용하여 만든 시각적 개체는 R의 풍부한 분석 및 시각화 기능을 사용하여 예측과 같은 고급 데이터 셰이핑 및 분석을 제공할 수 있습니다.

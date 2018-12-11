@@ -4,18 +4,19 @@ description: Power BI Desktop에서 CSV 파일 데이터에 쉽게 연결하고 
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 51eb46b9c54aa6f61cf2ec233a14128ca1b41607
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: d20714536ae7556b96b86638671f43896deb5533
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670581"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025077"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Power BI Desktop에서 CSV 파일에 연결
 Power BI Desktop에서 쉼표로 구분된 값(*CSV*) 파일에 연결하는 것은 Excel 통합 문서에 연결하는 것과 매우 유사합니다. 둘 다 간편하며 이 문서에서는 액세스 권한이 있는 CSV 파일에 연결하는 방법을 단계별로 안내합니다.
@@ -44,7 +45,7 @@ Power BI Desktop에서 쉼표로 구분된 값(*CSV*) 파일에 연결하는 것
 
 Power BI Desktop에서 해당 데이터를 사용하여 시각적 개체, 보고서를 만들거나 Excel 통합 문서, 데이터베이스 또는 기타 데이터 원본처럼 연결 및 가져오려는 다른 모든 데이터를 조작할 수 있습니다.
 
-### <a name="next-steps"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 Power BI Desktop을 사용하여 연결할 수 있는 모든 종류의 데이터가 있습니다. 데이터 원본에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
 * [Power BI Desktop이란?](desktop-what-is-desktop.md)

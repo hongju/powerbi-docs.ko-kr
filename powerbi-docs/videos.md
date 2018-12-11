@@ -4,17 +4,18 @@ description: Power BI 동영상 및 YouTube 채널 링크입니다.
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: 89eb19fb89193e2859a79d20156d89bf012b7fda
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 6d50bde03a3b2aa7583f39336d874cd8e9075388
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578040"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026090"
 ---
 # <a name="power-bi-videos"></a>Power BI 동영상
 Power BI에 대한 YouTube 채널을 제공합니다. Power BI에 익숙하지 않다면 [채널](https://www.youtube.com/user/mspowerbi/videos)을 방문할 수 있으며 [Power BI 재생 목록으로 데이터 분석 및 시각화](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)부터 시작하는 것이 좋습니다.

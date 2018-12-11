@@ -4,25 +4,26 @@ description: Power BI Desktop에서 요소의 그룹화 및 범주화 방법 알
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6363cbe3afdce351acc728fe29af8662702b8254
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 64ec167a295255a6813244ef6cb222b4eccb50f3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670696"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025245"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Power BI Desktop에서 그룹화 및 범주화 사용
 **Power BI Desktop**에서는 시각적 개체를 만들 때 기본 데이터에서 발견되는 값을 기반으로 청크(또는 그룹)로 데이터를 집계합니다. 대개는 좋지만 이러한 청크를 표시하는 방법을 구체화하고자 하는 때가 있을 수 있습니다. 예를 들어 하나의 큰 범주(하나의 *그룹*)에 세 가지 범주의 제품을 배치할 수 있습니다. 또는 균등하게 분할된 923,983달러 대신 1,000,000달러의 bin 크기로 배치된 판매액을 볼 수 있습니다.
 
 Power BI Desktop에서 데이터 요소를 **그룹화**하여 시각적 개체에서 데이터와 추세를 더욱 명확하게 보고 분석하고 탐색할 수 있습니다. ‘범주화’라고 하는 **bin 크기**를 정의하여 의미 있는 방식으로 데이터 시각화를 향상하도록 하는 크기가 같은 그룹에 값을 입력할 수도 있습니다.
 
-### <a name="using-grouping"></a>그룹화 사용
+## <a name="using-grouping"></a>그룹화 사용
 그룹화를 사용하려면 Ctrl+클릭을 사용하여 시각적 개체의 두 개 이상의 요소를 다중 선택 요소로 선택합니다. 그런 다음, 다중 선택 요소 중 하나를 마우스 오른쪽 단추로 클릭하고 표시되는 메뉴에서 **그룹**을 선택합니다.
 
 ![](media/desktop-grouping-and-binning/grouping-binning_1.png)
@@ -45,10 +46,8 @@ Power BI Desktop에서 데이터 요소를 **그룹화**하여 시각적 개체�
 
 > [!NOTE]
 > 기존 시각적 개체에서 다중 선택을 하지 않고 **필드**에서 모든 필드에 대한 그룹을 만들 수 있습니다. 필드를 마우스 오른쪽 단추로 클릭하고 표시되는 메뉴에서 **새 그룹**을 선택합니다.
-> 
-> 
 
-### <a name="using-binning"></a>범주화 사용하기
+## <a name="using-binning"></a>범주화 사용하기
 **Power BI Desktop**에서 수치 및 시간 필드에 대한 bin 크기를 설정할 수 있습니다. 범주화를 사용하여 **Power BI Desktop**이 표시하는 데이터를 적절한 크기로 만들 수 있습니다.
 
 bin 크기를 적용하려면 **필드**를 마우스 오른쪽 단추로 클릭하고 **새 그룹**을 선택합니다.

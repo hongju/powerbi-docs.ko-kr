@@ -4,18 +4,19 @@ description: Power BI Desktop에서 Excel 통합 문서 데이터에 쉽게 연�
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 36c01851138ae8b8e74acd60b39f5b358e20e392
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: cff8950526393fd2243dbe5a4a8dcc16fcc44821
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669063"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025261"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Power BI Desktop에서 Excel에 연결
 Power BI Desktop에서 Excel 통합 문서에 연결하는 것은 간단하며 이 문서에서는 이에 대한 단계를 안내합니다.
@@ -45,7 +46,7 @@ Power BI Desktop에 **탐색기** 창의 통합 문서에서 가져온 다른 �
 
 이제 Excel 통합 문서에서 가져온 데이터를 Power BI Desktop에서 사용하여 시각적 개체, 보고서를 만들거나 기타 Excel 통합 문서, 데이터베이스 또는 기타 데이터 원본처럼 연결 및 가져오려는 다른 모든 데이터를 조작할 수 있습니다.
 
-### <a name="next-steps"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 Power BI Desktop을 사용하여 연결할 수 있는 모든 종류의 데이터가 있습니다. 데이터 원본에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
 * [Power BI Desktop이란?](desktop-what-is-desktop.md)
