@@ -64,18 +64,18 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
     
     ![새 측정값](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     
-    Power BI Desktop 리본의 [홈] 탭에 있는 [계산] 그룹에서 **새 측정값**을 선택하여 새 측정값을 만들 수도 있습니다.
+    Power BI Desktop 리본 메뉴의 [홈] 탭에 있는 [계산] 그룹에서 **새 측정값**을 선택하여 새 측정값을 만들 수도 있습니다.
     
     ![리본의 새 측정값](media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png)
     
     >[!TIP]
-    >리본에서 측정값을 만들면 측정값이 모든 테이블에서 만들어질 수 있지만, 사용하려는 테이블에서 만들면 측정값을 더 쉽게 찾을 수 있습니다. 이 경우 먼저 Sales 테이블을 선택하여 활성화한 다음, **새 측정값**을 선택합니다. 
+    >리본 메뉴에서 측정값을 만들면 측정값이 모든 테이블에서 만들어질 수 있지만, 사용하려는 테이블에서 만들면 측정값을 더 쉽게 찾을 수 있습니다. 이 경우 먼저 Sales 테이블을 선택하여 활성화한 다음, **새 측정값**을 선택합니다. 
     
     수식 입력줄이 측정값 이름을 바꾸고 DAX 수식을 입력할 수 있는 보고서 캔버스 위에 표시됩니다.
     
     ![수식 입력줄](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png)
     
-2.  기본적으로 새 측정값의 이름은 간단히 측정값입니다. 이름을 바꾸지 않으면 추가적인 새 측정값의 이름이 측정값 2, 측정 3 등으로 지정됩니다. 측정값을 보다 쉽게 식별하려고 하므로 수식 입력줄에서 **측정값**을 강조 표시한 다음, **Net Sales**를 입력합니다.
+2.  기본적으로 새 측정값의 이름은 간단히 측정값입니다. 이름을 바꾸지 않으면 추가적인 새 측정값의 이름이 측정값 2, 측정값 3 등으로 지정됩니다. 측정값을 보다 쉽게 식별하려고 하므로 수식 입력줄에서 **측정값**을 강조 표시한 다음, **Net Sales**를 입력합니다.
     
 3.  이제 수식 입력을 시작할 수 있습니다. 등호 기호 뒤에 먼저 **Sum**을 입력합니다. 입력할 때 입력하는 문자로 시작하는 모든 DAX 함수를 보여주는 드롭다운 제안 목록이 표시됩니다. 필요한 경우 아래로 스크롤하여 목록에서 **SUM**을 선택한 다음, Enter 키를 누릅니다.
     
@@ -85,7 +85,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
     
     ![열 선택](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    식은 항상 여는 괄호와 닫는 괄호 사이에 나타납니다. 식에는 SUM 함수에 전달할 단일 인수인 SalesAmount 열이 포함됩니다. 목록에 Sales(SalesAmount) 값 하나만 남을 때까지 “SalesAmount”를 입력합니다. 테이블 이름 앞에 오는 열 이름을 열의 ‘정규화된 이름’이라고 합니다. 정규화된 열 이름을 사용하면 수식을 읽기가 더 쉽습니다. 
+    식은 항상 여는 괄호와 닫는 괄호 사이에 나타납니다. 식에는 SUM 함수에 전달할 단일 인수인 SalesAmount 열이 포함됩니다. 목록에 Sales(SalesAmount) 값 하나만 남을 때까지 “SalesAmount”를 입력합니다. 열 이름 앞에 테이블 이름이 오는 경우 열의 ‘정규화된 이름’이라고 합니다. 정규화된 열 이름을 사용하면 수식을 읽기가 더 쉽습니다. 
     
     ![SalesAmount 선택](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
@@ -132,7 +132,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
     
 ### <a name="use-your-measure-with-a-slicer"></a>슬라이서와 함께 측정값 사용
 
-순매출액 및 판매액을 연도별로 추가로 필터링하도록 슬라이서를 추가할 수 있습니다.
+순매출액 및 판매액을 연도별로 필터링하도록 슬라이서를 추가할 수 있습니다.
     
 1.  차트 옆에 있는 빈 영역을 클릭한 다음, **시각화**에서 **테이블** 시각화를 선택합니다. 보고서 캔버스에 빈 테이블 시각화가 만들어집니다.
     
