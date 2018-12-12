@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 8689c9a2fded5e283740d82923d674b73434e6a1
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: aca89b1e45c2ce236a4b5a960436077e089a5b01
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850456"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900569"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -37,7 +37,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 대시보드 | 아니요 | 예 | [Power BI 서비스의 대시보드](../consumer/end-user-dashboards.md) 
 | 앱을 사용하여 보고서 그룹 배포 | 아니요 | 예 | [대시보드 및 보고서로 앱 생성 및 게시](../service-create-distribute-apps.md) 
 | 콘텐츠 팩 | 아니요 | 예 | [조직 콘텐츠 팩: 소개](../service-organizational-content-pack-introduction.md) 
-| Salesforce와 같은 서비스에 연결 | 예 | 예 | Power BI 서비스의 콘텐츠 팩과 함께 [사용하는 서비스에 연결](../consumer/end-user-connect-to-services.md)합니다. Power BI Report Server에서 인증된 커넥터를 사용하여 서비스에 연결합니다. 자세한 내용은 [Power BI Report Server에서 Power BI 보고서 데이터 원본](data-sources.md)을 참조하세요.
+| Salesforce와 같은 서비스에 연결 | 예 | 예 | Power BI 서비스의 콘텐츠 팩과 함께 [사용하는 서비스에 연결](../service-connect-to-services.md)합니다. Power BI Report Server에서 인증된 커넥터를 사용하여 서비스에 연결합니다. 자세한 내용은 [Power BI Report Server에서 Power BI 보고서 데이터 원본](data-sources.md)을 참조하세요.
 | 질문 및 답변 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop의 질문 및 답변](../consumer/end-user-q-and-a.md) 
 | 신속한 정보 활용 | 아니요 | 예 | [Power BI를 사용하여 데이터 인사이트를 자동으로 생성](../consumer/end-user-insights.md) 
 | Excel에서 분석 | 아니요 | 예 | [Excel에서 분석](../service-analyze-in-excel.md) 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 12/03/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: ebec34690001293e93dafd69dd76f7bdbf54981c
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448940"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900537"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
@@ -129,7 +129,7 @@ ms.locfileid: "47448940"
 ### <a name="matrix"></a>행렬
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
-자세한 내용은 [Matrix visuals in Power BI](desktop-shape-map.md)(Power BI의 매트릭스 시각적 개체)를 참조하세요.
+자세한 내용은 [Matrix visuals in Power BI](desktop-matrix-visual.md)(Power BI의 매트릭스 시각적 개체)를 참조하세요.
 
 ### <a name="pie-charts"></a>원형 차트
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)

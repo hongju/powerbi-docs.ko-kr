@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b9fff17d51756da4561823886ed80beeec830843
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 88be0aa477b5e4b2df4f53c42dfb6fde3dda0184
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548108"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900500"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>자습서: Power BI를 사용하여 GitHub 샘플에 연결
 이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI에서 대시보드와 보고서를 자동으로 만듭니다. Power BI 콘텐츠 공용 리포지토리(*repo*라고도 함)에 연결하여 다음 질문과 관련된 정보를 참조합니다. 얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여한 사람은 누구인가요? 어떤 요일이 가장 많이 기여하는가요? 그리고 다른 질문에도 답변합니다. 
@@ -125,6 +125,6 @@ ms.locfileid: "46548108"
 이 자습서에서는 GitHub 공용 리포지토리에 연결하고 데이터를 가져와서 Power BI의 대시보드 및 보고서에서 서식을 지정했습니다. 대시보드 및 보고서를 탐색하여 데이터에 대한 몇 가지 질문에 답변했습니다. 이제 Salesforce, Microsoft Dynamics 및 Google Analytics와 같은 다른 서비스에 연결하는 방법에 대해 자세히 알아볼 수 있습니다. 
  
 > [!div class="nextstepaction"]
-> [사용하는 온라인 서비스에 연결](consumer/end-user-connect-to-services.md)
+> [사용하는 온라인 서비스에 연결](service-connect-to-services.md)
 
 
