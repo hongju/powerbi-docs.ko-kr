@@ -4,18 +4,19 @@ description: Power BI를 사용한 신속한 정보 활용 및 정보 보기.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d3d6592d3cf2e0bc7239a6f725dbfc1334108823
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: eabe72a2aa44c87bed4ebc3f4c9ac65678dd4774
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564857"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280237"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI에서 지원되는 정보의 유형
 ## <a name="how-does-insights-work"></a>정보는 어떻게 작동하나요?

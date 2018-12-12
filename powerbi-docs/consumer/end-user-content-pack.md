@@ -4,18 +4,19 @@ description: Power BI에서 조직 콘텐츠 팩 찾기 및 열기
 author: mihart
 manager: kvivek
 ms.reviewer: lukaszp
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 432e38ffdcb92ee1d2cf1d62f7f34863d748885b
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 78765b6df2e058fb17cca66a22f5fef523d5500e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679113"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279365"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>조직 콘텐츠 팩 찾기 및 연결
 
