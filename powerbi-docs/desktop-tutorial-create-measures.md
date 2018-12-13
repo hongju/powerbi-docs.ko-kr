@@ -85,7 +85,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
     
     ![열 선택](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    식은 항상 여는 괄호와 닫는 괄호 사이에 나타납니다. 식에는 SUM 함수에 전달할 단일 인수인 SalesAmount 열이 포함됩니다. 목록에 Sales(SalesAmount) 값 하나만 남을 때까지 “SalesAmount”를 입력합니다. 테이블 이름 앞에 오는 열 이름을 열의 ‘정규화된 이름’이라고 합니다. 정규화된 열 이름을 사용하면 수식을 읽기가 더 쉽습니다. 
+    식은 항상 여는 괄호와 닫는 괄호 사이에 나타납니다. 식에는 SUM 함수에 전달할 단일 인수인 SalesAmount 열이 포함됩니다. 목록에 Sales(SalesAmount) 값 하나만 남을 때까지 “SalesAmount”를 입력합니다. 열 이름 앞에 테이블 이름이 오는 경우 열의 ‘정규화된 이름’이라고 합니다. 정규화된 열 이름을 사용하면 수식을 읽기가 더 쉽습니다. 
     
     ![SalesAmount 선택](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
