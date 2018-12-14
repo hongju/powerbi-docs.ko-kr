@@ -30,26 +30,26 @@ Power BI Desktop에는 세 가지 보기가 있습니다.
 
 ![](media/desktop-query-overview/queryoverview_viewicons.png)
 
-Power BI Desktop은 하나 이상의 데이터 소스, 모양 및 필요에 맞는 데이터 변환에 연결하고 해당 모델을 Power BI Desktop에 로드할 수 있는 **Query Editor**도 함께 제공합니다.
+Power BI Desktop은 하나 이상의 데이터 소스, 모양 및 필요에 맞는 데이터 변환에 연결하고 해당 모델을 Power BI Desktop에 로드할 수 있는 **쿼리 편집기**도 함께 제공합니다.
 
-이 문서에서는 **Query Editor**의 데이터를 사용하는 작업의 개요를 설명합니다. 물론 더 많은 내용이 있으므로, 이 문서의 끝에는 지원하는 데이터 형식, 데이터에 연결, 데이터 모양 지정, 관계 생성 및 시작 방법에 대한 자세한 지침을 제공하는 링크가 있습니다.
+이 문서에서는 **쿼리 편집기**의 데이터를 사용하는 작업의 개요를 설명합니다. 물론 더 많은 내용이 있으므로, 이 문서의 끝에는 지원하는 데이터 형식, 데이터에 연결, 데이터 모양 지정, 관계 생성 및 시작 방법에 대한 자세한 지침을 제공하는 링크가 있습니다.
 
-그러나 우선은 **Query Editor**를 살펴보겠습니다.
+그러나 우선은 **쿼리 편집기**를 살펴보겠습니다.
 
 ## <a name="the-query-editor"></a>Query Editor
-**Query Editor**를 사용하려면 Power BI Desktop의 **홈** 탭에서 **쿼리 편집**을 선택합니다.  
+**쿼리 편집기**를 사용하려면 Power BI Desktop의 **홈** 탭에서 **쿼리 편집**을 선택합니다.  
 
 ![](media/desktop-query-overview/queryoverview_queryview.png)
 
-데이터 연결이 없는 경우, **Query Editor**는 데이터를 받을 준비가 된 빈 창으로 나타납니다.  
+데이터 연결이 없는 경우, **쿼리 편집기**는 데이터를 받을 준비가 된 빈 창으로 나타납니다.  
 
 ![](media/desktop-query-overview/queryoverview_blankpane.png)
 
-쿼리가 로드되면 **Query Editor**는 더 흥미로워집니다. 다음 웹 데이터 소스에 연결한 경우, **Query Editor**는 데이터에 대한 정보를 로드하며, 그 후에는 모양을 지정할 수 있습니다.
+쿼리가 로드되면 **쿼리 편집기**는 더 흥미로워집니다. 다음 웹 데이터 소스에 연결한 경우, **쿼리 편집기**는 데이터에 대한 정보를 로드하며, 그 후에는 모양을 지정할 수 있습니다.
 
 [*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
-데이터 연결이 설정되면 **Query Editor**는 다음과 같이 표시됩니다.
+데이터 연결이 설정되면 **쿼리 편집기**는 다음과 같이 표시됩니다.
 
 1. 리본 메뉴에서 이제 많은 단추가 활성화되어 쿼리의 데이터를 조작할 수 있습니다.
 2. 왼쪽 창에 쿼리가 나열되며 선택, 보기 및 모양 지정에 사용할 수 있습니다.
@@ -61,7 +61,7 @@ Power BI Desktop은 하나 이상의 데이터 소스, 모양 및 필요에 맞�
 다음 섹션에서 리본 메뉴, 쿼리 창, 데이터 뷰 및 쿼리 설정 창의 4가지 각 영역을 살펴보겠습니다.
 
 ## <a name="the-query-ribbon"></a>쿼리 리본
-**Query Editor**의 리본 메뉴는 **홈**, **변환**, **열 추가** 및 **보기**의 4개 탭으로 구성되어 있습니다.
+**쿼리 편집기**의 리본 메뉴는 **홈**, **변환**, **열 추가** 및 **보기**의 4개 탭으로 구성되어 있습니다.
 
 **홈** 탭에는 모든 쿼리의 첫 단계인 **데이터 가져오기**를 포함한 일반적인 쿼리 작업이 포함됩니다. 다음 이미지는 **홈** 리본을 보여 줍니다.  
 
@@ -123,7 +123,7 @@ Power BI Desktop은 하나 이상의 데이터 소스, 모양 및 필요에 맞�
 **고급 편집기** 창에서 코드를 직접 편집할 수 있습니다. 창을 닫으려면 **완료** 또는 **취소** 단추를 선택합니다.  
 
 ## <a name="saving-your-work"></a>작업 내용 저장
-원하는 위치에 쿼리가 있는 경우, Query Editor에서 데이터 모델에 대한 변경 사항을 Power BI Desktop에 적용하도록 설정하고 Query Editor를 닫을 수 있습니다. 이렇게 하려면 Query Editor의 **파일** 메뉴에서 **닫기 및 적용**을 선택합니다.  
+원하는 위치에 쿼리가 있는 경우, Query Editor에서 데이터 모델에 대한 변경 사항을 Power BI Desktop에 적용하도록 설정하고 쿼리 편집기를 닫을 수 있습니다. 이렇게 하려면 쿼리 편집기의 **파일** 메뉴에서 **닫기 및 적용**을 선택합니다.  
 ![](media/desktop-query-overview/queryoverview_closenload.png)
 
 Power BI Desktop은 진행 상태를 대화 상자로 표시합니다.  
