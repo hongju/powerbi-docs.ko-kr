@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 778be27e38c287de1adf7011c9e4b78048b2a4fa
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850594"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180809"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -145,17 +145,17 @@ Table_x0020_Name/Column_x002B_Plus eq 3 ![테이블 시각적 개체 렌더링 �
 
 Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![테이블 시각적 개체 렌더링 특수 문자](media/service-url-filters/power-bi-special-characters2.png)
 
-### <a name="use-dax-to-filter-on-multiple-values"></a>DAX를 사용하여 여러 값을 필터링
+## <a name="use-dax-to-filter-on-multiple-values"></a>DAX를 사용하여 여러 값을 필터링
 
 여러 값을 필터링하는 한 가지 방법은 두 필드를 하나의 값으로 연결하는 계산된 열을 만드는 것입니다. 그런 다음 해당 값을 필터링할 수 있습니다.
 
-예를 들어 Territory 및 Chain이라는 두 필드가 있습니다. Power BI Desktop에서 TerritoryChain이라는 [새 계산된 열](desktop-tutorial-create-calculated-columns.md)(필드)을 만듭니다. **필드** 이름에는 공백을 포함할 수 없다는 점에 유의하세요. 다음은 해당 열에 대한 DAX 수식입니다
+예를 들어 다음과 같은 두 개의 필드가 있습니다. 지역 및 체인. Power BI Desktop에서 TerritoryChain이라는 [새 계산된 열](desktop-tutorial-create-calculated-columns.md)(필드)을 만듭니다. **필드** 이름에는 공백을 포함할 수 없다는 점에 유의하세요. 다음은 해당 열에 대한 DAX 수식입니다
 
 TerritoryChain = [Territory] & " - " & [Chain]
 
 보고서를 Power BI 서비스에 게시한 후 URL 쿼리 문자열을 사용하여 NC에 있는 Lindseys 매장으로만 표시 데이터를 필터링합니다.
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
+    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>필터링된 보고서에서 타일 고정
 

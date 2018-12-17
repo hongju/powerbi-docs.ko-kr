@@ -9,13 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
+ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717634"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025445"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium이란?
 
@@ -45,11 +46,11 @@ Microsoft Power BI Premium은 조직에 대해 Power BI 서비스를 실행하�
 |  | 공유 용량 | Power BI 프리미엄 용량 |
 | --- | --- | --- |
 | **새로 고침 빈도** |8/일 |48/일 |
-| **전용 하드웨어로 격리** |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함") |
+| **전용 하드웨어로 격리** |![사용할 수 없음](media/service-premium/not-available.png) |![사용 가능](media/service-premium/available.png) |
 | **엔터프라이즈 배포 대상** _**모든 사용자**_ | | |
-| 앱 및 공유 |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함")<sup>1</sup> |
-| 포함된 API 및 컨트롤 |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함")<sup>2</sup> |
-| **Power BI 보고서 온-프레미스 게시** |![](media/service-premium/not-available.png "사용할 수 없음") |![](media/service-premium/available.png "사용 가능함") |
+| 앱 및 공유 |![사용할 수 없음](media/service-premium/not-available.png) |![사용 가능](media/service-premium/available.png) |
+| 포함된 API 및 컨트롤 |![사용할 수 없음](media/service-premium/not-available.png) |![사용 가능함](media/service-premium/available.png)<sup>2</sup> |
+| **Power BI 보고서 온-프레미스 게시** |![사용할 수 없음](media/service-premium/not-available.png) |![사용 가능](media/service-premium/available.png) |
 | | | |
 
 <sup>1</sup> 자세한 내용은 [라이선스 유형별 기능](service-features-license-type.md)을 참조하세요.  
@@ -88,7 +89,7 @@ Power BI 프리미엄은 서로 다른 v-코어 용량으로 노드 구성에서
 
 Power BI의 워크로드를 사용자에게 제공할 수 있는 많은 서비스 중 하나로 생각해 보세요. 기본적으로 **Power BI Premium** 및 **Power BI Embedded**의 용량은 클라우드에서 실행 중인 Power BI 쿼리와 연결된 워크로드만 지원합니다.
 
-이제 **페이지를 매긴 보고서**, **데이터 흐름** 등 두 가지 추가 워크로드의 미리 보기를 지원합니다. 이러한 워크로드는 Power BI 관리 포털에서 또는 Power BI REST API를 통해 사용하도록 설정합니다. 다양한 워크로드가 서로 영향을 미치는 방식을 제어할 수 있도록 각 워크로드가 이용하는 최대 메모리를 설정할 수도 있습니다. 자세한 내용은 [워크로드 구성](service-admin-premium-manage.md#configure-workloads)을 참조하세요.
+이제 다음 두 가지 추가 워크로드의 미리 보기를 지원합니다. **페이지를 매긴 보고서** 및 **데이터 흐름**. 이러한 워크로드는 Power BI 관리 포털에서 또는 Power BI REST API를 통해 사용하도록 설정합니다. 다양한 워크로드가 서로 영향을 미치는 방식을 제어할 수 있도록 각 워크로드가 이용하는 최대 메모리를 설정할 수도 있습니다. 자세한 내용은 [워크로드 구성](service-admin-premium-manage.md#configure-workloads)을 참조하세요.
 
 ### <a name="default-memory-settings"></a>기본 메모리 설정
 
@@ -113,7 +114,7 @@ Power BI의 워크로드를 사용자에게 제공할 수 있는 많은 서비�
 
 페이지를 매긴 보고서 워크로드를 사용하는 경우 다음 사항에 유의하세요.
 
-* **페이지를 매긴 보고서에서 메모리 할당**: 페이지를 매긴 보고서를 사용하면 콘텐츠에 따라 텍스트 색상을 동적으로 변경하는 경우와 같이 보고서를 렌더링할 때 고유의 코드를 실행할 수 있습니다. 이에 따라 용량 내에 포함된 공간에서 페이지를 매긴 보고서를 실행하여 Power BI Premium 용량을 보호합니다. 워크로드가 활성 상태인지 여부와 관계없이 사용자가 지정하는 최대 메모리를 이 공간에 할당합니다. 동일한 용량에서 Power BI 보고서 또는 데이터 흐름을 사용하는 경우 다른 워크로드에 부정적인 영향을 미치지 않도록 페이지를 매긴 보고서에 충분히 작은 메모리를 설정해야 합니다.
+* **페이지를 매긴 보고서의 메모리 할당**: 페이지를 매긴 보고서를 사용하면 콘텐츠에 따라 텍스트 색상을 동적으로 변경하는 경우와 같이 보고서를 렌더링할 때 고유의 코드를 실행할 수 있습니다. 이에 따라 용량 내에 포함된 공간에서 페이지를 매긴 보고서를 실행하여 Power BI Premium 용량을 보호합니다. 워크로드가 활성 상태인지 여부와 관계없이 사용자가 지정하는 최대 메모리를 이 공간에 할당합니다. 동일한 용량에서 Power BI 보고서 또는 데이터 흐름을 사용하는 경우 다른 워크로드에 부정적인 영향을 미치지 않도록 페이지를 매긴 보고서에 충분히 작은 메모리를 설정해야 합니다.
 
 * **페이지를 매긴 보고서를 사용할 수 없음**: 드물지만 페이지를 매긴 보고서 워크로드를 사용할 수 없는 경우가 있습니다. 이런 경우 워크로드에서 관리 포털에 오류 상태를 표시하며 사용자에게는 보고서 렌더링 제한 시간이 표시됩니다. 이 문제를 해결하려면 워크로드를 사용하지 않도록 설정한 다음, 다시 사용하도록 설정하세요.
 

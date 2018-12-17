@@ -1,44 +1,42 @@
 ---
-title: Power BI Pro와 무료 버전 비교
-description: Power BI 내 모든 사용자는 무료 사용자이거나 Pro 사용자입니다. 이러한 두 유형의 사용자가 어떻게 다른지 알아두면 유익합니다.
+title: 라이선스 유형별 Power BI 서비스 기능
+description: Power BI 서비스에서 사용자는 다음 두 가지 유형의 라이선스를 기반으로 하는 기능을 정의했습니다. 사용자별(무료 및 Pro) 및 용량 기반.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/13/2018
+ms.date: 12/06/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 62d6a274b7cfb784f4f61b0973bad22ea6194698
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: fab6181997fd57448a152fe315efcadf076e4fbb
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641301"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025880"
 ---
-# <a name="power-bi-free-vs-pro"></a>Power BI Pro와 무료 버전 비교
+# <a name="power-bi-service-features-by-license-type"></a>라이선스 유형별 Power BI 서비스 기능
 
-Power BI 내 모든 사용자는 무료 사용자이거나 Pro 사용자입니다. 이러한 두 유형의 사용자가 어떻게 다른지 알아두면 유익합니다.
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
-서비스의 *모든 사용자*는 무료 또는 Pro입니다. 무료 사용자와 Pro 사용자는 공유 및 공동 작업을 중심으로 주된 차이점을 보입니다. Pro 사용자만 앱 작업 영역에 콘텐츠를 게시하고, 프리미엄 용량 없이 앱을 소비하고, 대시보드를 공유하고, 대시보드 및 보고서를 구독할 수 있습니다. 무료 사용자는 이제 DirectQuery, 라이브 연결과 같은 모든 연결 옵션 및 데이터 게이트웨이의 사용을 통해 모든 데이터 원본에 연결할 수 있습니다.
+## <a name="per-user-license-type-comparison"></a>사용자별 라이선스 유형 비교
 
-무료 사용자는 앱이 게시되고 앱 작업 영역이 프리미엄 용량에 할당되면 앱을 소비할 수 있습니다.
-
-## <a name="free-vs-pro-comparison"></a>무료 및 Pro 비교
-사용자 유형별로 지원되는 기능 목록은 다음과 같습니다.
+사용자별 라이선스 유형으로 지원되는 기능 목록은 다음과 같습니다.
 
 |  | 무료 | Pro |
 | --- | --- | --- |
 | **70+ 데이터 원본에 연결** |![사용 가능한 기능](media/features-license-type/available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 | **웹에 게시** |![사용 가능한 기능](media/features-license-type/available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
-| **피어-투-피어 공유** |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 | **PowerPoint, Excel, CSV로 내보내기** |![사용 가능한 기능](media/features-license-type/available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 | **엔터프라이즈 배포** | | |
 | 앱 |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 | 전자 메일 구독 |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 | 포함된 API 및 컨트롤 |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 | **공동 작업** | | |
+| 피어-투-피어 공유 |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 | 앱 작업 영역 |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 | Excel에서 분석, Power BI Desktop에서 분석 |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 

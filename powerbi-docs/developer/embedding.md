@@ -1,6 +1,6 @@
 ---
-title: Power BI에 포함
-description: Power BI는 대시보드 및 보고서를 응용 프로그램에 포함하기 위한 API를 제공합니다.
+title: Power BI를 사용한 임베디드 분석
+description: Power BI는 대시보드 및 보고서에 대한 임베디드 분석을 사용하기 위한 API를 애플리케이션에 제공합니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 PaaS 환경과 SaaS 환경에 둘 다 Power BI와 함께 포함하는 방법을 자세히 알아봅니다.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,15 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
-ms.date: 07/31/2018
-ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: a4c0a66fb70797cc8b42094c65b23c71944b67a2
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973773"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180333"
 ---
-# <a name="embedding-with-power-bi"></a>Power BI에 포함
+# <a name="embedded-analytics-with-power-bi"></a>Power BI를 사용한 임베디드 분석
 
 Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드 및 보고서 포함을 위한 API가 있습니다. 이 기능은 일련의 기능은 물론, 콘텐츠 포함 시 대시보드, 게이트웨이 및 앱 작업 영역 등의 최신 Power BI 기능을 이용할 수 있음을 의미합니다.
 
@@ -39,11 +40,11 @@ Power BI 라이선스가 없는 고객 및 사용자의 경우 조직 또는 고
 
 ## <a name="embedding-for-your-organization"></a>조직에 대한 콘텐츠 포함
 
-**조직에 대한 콘텐츠를 포함하면** Power BI 서비스를 확장할 수 있습니다. 조직에 대한 콘텐츠 포함에서 응용 프로그램 사용자가 해당 콘텐츠를 보는 경우 Power BI 서비스에 로그인해야 합니다. 조직 내 사용자가 로그인하면 해당 사용자는 본인 소유의 또는 Power BI 서비스에서 공유된 대시보드 및 보고서에만 액세스할 수 있습니다.
+**조직에 대한 콘텐츠를 포함하면** Power BI 서비스를 확장할 수 있습니다. 조직에 대한 콘텐츠 포함에서 애플리케이션 사용자가 해당 콘텐츠를 보는 경우 Power BI 서비스에 로그인해야 합니다. 조직 내 사용자가 로그인하면 해당 사용자는 본인 소유의 또는 Power BI 서비스에서 공유된 대시보드 및 보고서에만 액세스할 수 있습니다.
 
 *조직에 대한 콘텐츠 포함의 예제에는 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams 통합(관리자 권한 필요)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 및 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)와 같은 내부 응용 프로그램이 포함됩니다.*
 
-조직에 대한 콘텐츠를 포함하는 경우 다음 항목을 참조하세요.
+조직에 대한 콘텐츠를 포함하는 경우 아래 항목을 참조하세요.
 
 * [보고서를 앱에 통합](embed-sample-for-your-organization.md)
 
@@ -61,7 +62,7 @@ Power BI 라이선스가 없는 고객 및 사용자의 경우 조직 또는 고
 
 Power BI Embedded에는 ISV, 해당 개발자 및 고객에 대한 혜택이 있습니다. 예를 들어 ISV는 Power BI Desktop을 사용하여 시각적 개체를 무료로 만들 수 있습니다. ISV는 시각적 분석 개발 노력을 최소화하여 시장에 대한 출시 시간 단축을 달성하고 차별화된 데이터 환경에서 경쟁사와 차별화할 수 있습니다. ISV는 임베디드 분석을 사용하여 만든 추가 값에 대해 프리미엄 요금을 청구하도록 옵트인할 수도 있습니다.
 
-Power BI Embedded에서 고객은 Power BI에 대해 알 필요가 없습니다. 포함된 응용 프로그램을 만드는 데 하나의 Power BI Pro 계정이 필요합니다. Power BI Pro 계정은 응용 프로그램에 대한 마스터 계정처럼 작동합니다(프록시 계정으로 간주). 또한 Power BI Pro 계정을 사용하면 응용 프로그램이 소유한/관리하는 Power BI 서비스 내에서 대시보드 및 보고서에 대한 액세스를 제공하는 embed 토큰을 생성할 수 있습니다.
+Power BI Embedded에서 고객은 Power BI에 대해 알 필요가 없습니다. 포함된 응용 프로그램을 만드는 데 하나의 Power BI Pro 계정이 필요합니다. Power BI Pro 계정은 애플리케이션에 대한 마스터 계정처럼 작동합니다(이 마스터 계정을 프록시 계정으로 간주). 또한 Power BI Pro 계정을 사용하면 응용 프로그램이 소유한/관리하는 Power BI 서비스 내에서 대시보드 및 보고서에 대한 액세스를 제공하는 embed 토큰을 생성할 수 있습니다.
 
 Power BI Embedded를 사용하는 개발자는 시각적 개체 및 분석을 개발하는 시간보다 해당 응용 프로그램의 핵심 역량을 빌드하는 데 집중하여 시간을 투자할 수 있습니다. 개발자는 고객 보고서 및 대시보드 요구를 신속하게 충족하고 완전히 문서화된 API 및 SDK를 사용하여 쉽게 포함할 수 있습니다. 앱에서 탐색하기 쉬운 데이터 탐색을 설정하여 ISV를 사용하면 고객이 모든 장치에서 상황에 맞는 신속한 데이터 기반 결정을 내릴 수 있습니다.
 

@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578431"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025124"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI를 사용하는 행 수준 보안(RLS)
 
@@ -41,7 +42,7 @@ Power BI Desktop으로 Power BI로 가져온 데이터 모델에 대한 RLS를 �
 1. 데이터 집합에 대해 **줄임표 (...)** 를 선택합니다.
 2. **보안**을 선택합니다.
    
-   ![](media/service-admin-rls/rls-security.png)
+   ![보안 필터 양방향으로 적용](media/service-admin-rls/rls-security.png)
 
 Power BI Desktop에서 만든 역할에 멤버를 추가할 수 있는 RLS 페이지로 이동합니다. 데이터 집합의 소유자만이 사용할 수 있는 보안이 표시됩니다. 데이터 집합이 그룹에 있는 경우 그룹의 관리자만이 보안 옵션을 확인할 수 있습니다. 
 
@@ -53,17 +54,17 @@ Power BI Desktop 내에서 역할을 만들거나 수정할 수만 있습니다.
 
 전자 메일 주소 또는 추가하려는 사용자, 보안 그룹 및 배포 목록의 이름을 입력하여 역할에 멤버를 추가할 수 있습니다. 이 멤버는 조직 내에 있어야 합니다. Power BI 내에서 만든 그룹을 추가할 수 없습니다.
 
-![](media/service-admin-rls/rls-add-member.png)
+![멤버 추가](media/service-admin-rls/rls-add-member.png)
 
 또한 역할 이름 옆 또는 멤버 옆에 있는 괄호에 있는 번호로 역할의 일부인 멤버의 수를 확인할 수 있습니다.
 
-![](media/service-admin-rls/rls-member-count.png)
+![역할의 멤버](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>멤버 제거
 
 해당 이름 옆에 있는 X를 선택하여 멤버를 제거할 수 있습니다. 
 
-![](media/service-admin-rls/rls-remove-member.png)
+![멤버 제거](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Power BI 서비스 내에서 역할 유효성 검사
 
@@ -72,15 +73,15 @@ Power BI Desktop 내에서 역할을 만들거나 수정할 수만 있습니다.
 1. 역할 옆에 있는 **줄임표 (...)** 를 선택합니다.
 2. **역할로 데이터 테스트**를 선택합니다.
 
-![](media/service-admin-rls/rls-test-role.png)
+![역할로 테스트](media/service-admin-rls/rls-test-role.png)
 
 이 역할에 사용 가능한 보고서가 표시됩니다. 대시보드는 이 보기에서 나타나지 않습니다. 위의 파란색 막대에서는 적용된 내용이 표시됩니다.
 
-![](media/service-admin-rls/rls-test-role2.png)
+![지금 <role>로 보기](media/service-admin-rls/rls-test-role2.png)
 
 **지금 다른 형식으로 보기**를 선택하여 다른 역할 또는 역할의 조합을 테스트할 수 있습니다.
 
-![](media/service-admin-rls/rls-test-role3.png)
+![다른 역할 테스트](media/service-admin-rls/rls-test-role3.png)
 
 특정 사용자로 데이터를 볼 수 있습니다. 또는 사용 가능한 역할의 조합을 선택하여 작업을 검사할 수 있습니다. 
 
@@ -95,7 +96,7 @@ Power BI 서비스 내의 앱 작업 영역에 Power BI Desktop 보고서를 게
 > [!WARNING]
 > 구성원이 편집 권한을 갖도록 앱 작업 영역을 구성한 경우 RLS 역할이 적용되지 않습니다. 사용자는 모든 데이터를 확인할 수 있습니다.
 
-![](media/service-admin-rls/rls-group-settings.png)
+![그룹 설정](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 

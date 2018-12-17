@@ -1,23 +1,23 @@
 ---
-title: Power BI Desktop에서 행렬 시각적 개체 사용
-description: 행렬 시각적 개체를 사용하여 Power BI Desktop에서 단계 레이아웃 및 세부적인 강조 표시를 사용하는 방법을 알아봅니다.
+title: Power BI에서 행렬 시각적 개체 사용
+description: 행렬 시각적 개체를 사용하여 Power BI에서 단계 레이아웃 및 세부적인 강조 표시를 사용하는 방법을 알아봅니다.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/25/2018
+ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 96b2fb3cb1558f862c792b3bed77c9f0c2bc61a5
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 123cb794a1ba307439a47bdb949e2c76297e7ba2
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101373"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979551"
 ---
-# <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Power BI Desktop에서 행렬 시각적 개체 사용
+# <a name="use-the-matrix-visual-in-power-bi"></a>Power BI에서 행렬 시각적 개체 사용
 **행렬** 시각적 개체 기능을 사용하여 **Power BI Desktop** 및 **Power BI 서비스** 보고서에서 행렬 시각적 개체(‘테이블’이라고도 함)를 만들고 기타 시각적 개체를 사용하여 행렬 내에서 요소를 상호 강조 표시할 수 있습니다. 또한 행, 열 및 개별 셀과 상호 강조 표시를 선택할 수 있습니다. 개별 셀 및 여러 셀 선택을 복사하여 다른 응용 프로그램에 붙여넣을 수 있습니다. 마지막으로 레이아웃 공간을 효율적으로 사용할 수 있도록 행렬 시각적 개체는 단계별 레이아웃을 지원합니다.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
@@ -39,7 +39,25 @@ ms.locfileid: "50101373"
 
 총계와 소계를 검토할 때, 이러한 값은 표시되는 값이 아니라 기본 데이터를 기준으로 함을 기억하세요. 
 
+<!-- use Nov blog post video
 
+## Expanding and collapsing row headers
+There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+
+![](media/desktop-matrix-visual/power-bi-expand1.png)
+
+You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
+Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+
+![](media/desktop-matrix-visual/power-bi-expand2.png)
+
+The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+
+![](media/desktop-matrix-visual/power-bi-expand3.png)
+
+Watch the following video to learn more about expand/collapse in the matrix:
+
+-->
 ## <a name="using-drill-down-with-the-matrix-visual"></a>행렬 시각적 개체로 드릴다운 사용
 **행렬** 시각적 개체를 사용하면 이전에는 사용할 수 없었던 모든 종류의 흥미로운 드릴다운 작업을 수행할 수 있습니다. 행, 열을 사용하여 개별 섹션 및 셀까지 드릴다운하는 기능이 포함됩니다. 각 기능의 작동 방법을 살펴보겠습니다.
 

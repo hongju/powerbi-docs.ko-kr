@@ -9,15 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268369"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026710"
 ---
-# <a name="power-bi-admin-portal"></a>Power BI 관리 포털
+# <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
 관리 포털을 통해 조직의 Power BI ‘테넌트’를 관리할 수 있습니다. 포털에는 사용 메트릭, Office 365 관리 센터 액세스 및 설정 등과 같은 항목이 포함되어 있습니다.
 
@@ -113,7 +114,7 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 
     ![모두 사용 설정](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **조직 일부에서 사용하도록 설정됨**: 조직에서 사용자 또는 그룹의 특정 하위 집합만 이 기능을 사용할 수 있습니다.
+* **조직 일부에서 사용하도록 설정됨**: 조직에서 사용자 또는 그룹의 특정 하위 세트만 이 기능을 사용할 수 있습니다.
 
     특정 사용자 그룹을 제외하고 전체 조직에서 기능을 사용하도록 설정할 수 있습니다.
 

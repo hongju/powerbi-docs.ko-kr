@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b69b84c7c61227ef7a827722c86f54100bd2f3b7
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 258b526c08615a81f3cc940fc3b9f2fcda063a12
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268010"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180648"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Power BI의 데이터 흐름 간에 엔터티 연결(미리 보기)
 
@@ -32,6 +32,12 @@ Power BI의 데이터 흐름을 사용하면 단일 조직 데이터 스토리�
 연결된 엔터티를 새로 고치려면 [Power BI Premium](service-premium.md) 구독이 필요합니다. 연결된 엔터티는 Power BI Premium 용량에 호스트된 작업 영역의 모든 데이터 흐름에서 사용할 수 있습니다. 원본 데이터 흐름에 대한 제한 사항은 없습니다.
 
 연결된 엔터티는 새 Power BI 작업 영역에서만 제대로 작동합니다. [새 Power BI 작업 영역](service-create-the-new-workspaces.md)에 대해 자세히 알아볼 수 있습니다. 모든 연결된 데이터 흐름이 제대로 작동하려면 새 작업 영역에 있어야 합니다.
+
+> [!NOTE]
+> 엔터티는 표준 엔터티인지 계산된 엔터티인지 여부에 따라 다릅니다. 표준 엔터티(일반적으로 간단히 엔터티라고 함)는 SQL 데이터베이스와 같은 외부 데이터 원본을 쿼리합니다. 계산된 엔터티에는 Power BI의 프리미엄 용량이 필요하며 이 엔터티는 Power BI 스토리지에 이미 있는 데이터에서 변환을 실행합니다. 
+>
+>데이터 흐름이 프리미엄 용량 작업 영역에 없는 경우에는 변환이 스토리지 내 변환으로 정의되지만 않으면 단일 쿼리를 계속 참조하거나 두 개 이상의 쿼리를 결합할 수 있습니다. 이러한 참조를 표준 엔터티로 간주합니다. 이를 수행하려면 참조된 쿼리의 **로드 사용** 옵션을 꺼서 데이터가 구체화되지 않고 스토리지에 수집되지 않도록 합니다. 여기서 **로드 사용 = false**인 쿼리를 참조하고, 구체화하려는 결과 쿼리에만 **로드 사용**을 **켜기**로 설정할 수 있습니다.
+
 
 ## <a name="how-to-link-entities-between-dataflows"></a>데이터 흐름 간에 엔터티를 연결하는 방법
 

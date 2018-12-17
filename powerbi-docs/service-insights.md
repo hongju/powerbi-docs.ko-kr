@@ -1,24 +1,25 @@
 ---
-title: Power BI를 사용하여 데이터 정보를 자동으로 생성
+title: Power BI를 사용하여 데이터 인사이트를 자동으로 생성
 description: 데이터 집합 및 대시보드 타일에 대한 정보를 얻는 방법에 대해 알아봅니다.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/25/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b58b0b88ed0417f88784824a67ab294dda7343e
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 386f4fb24488df3856f8e731fcd6c95043c86d74
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850433"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180924"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>Power BI를 사용하여 데이터 정보를 자동으로 생성
+# <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI를 사용하여 데이터 인사이트를 자동으로 생성
 새 데이터 집합이 있고 어디서 시작해야 할지가 확실하지 않은 경우  빠르게 대시보드를 만들어야 하는 경우  놓쳤을 수 있는 정보를 찾으려는 경우
 
 신속한 정보 활용을 실행하여 데이터를 기준으로 흥미로운 대화형 시각화를 생성합니다. 신속한 정보 활용은 데이터 집합 전체에 대해 실행하거나(신속한 정보 활용) 특정 대시보드 타일에 대해 실행할 수 있습니다(지정된 범위의 신속한 정보 활용). 정보 활용에 대해서도 정보 활용을 실행할 수 있습니다.

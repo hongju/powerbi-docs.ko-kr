@@ -1,26 +1,29 @@
 ---
-title: 독일 정부 고객을 위한 Power BI 관련 질문과 대답
+title: 독일 정부 고객을 위한 질문과 대답
 description: 독일 정부 고객을 위한 Power BI 독일 정부 서비스 관련 자주 묻는 질문에 대답
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4a602a8494261705d61c70679d9511993afe69af
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: dfc240e50f2fa88fc40b5f6f8d80b1106c388cd5
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670075"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026457"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>독일 클라우드 고객을 위한 Power BI 관련 질문과 대답
 **Power BI 서비스**에는 EU/EFTA(유럽 연합/유럽 자유 무역 계약) 고객을 위해 제공되는 버전이 있는데, 주로 MCD(Microsoft Cloud Deutschland)라고 부릅니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 EU/EFTA 고객과 관련된 것이며 **Power BI 서비스** 상용 버전 또는 정부 고객에게 제공되는 Power BI 서비스와는 별개입니다.
 
 ![](media/service-govde-faq/govde-faq_01.png)
+
+## <a name="questions-and-answers"></a>질문 및 답변
 
 다음의 질문과 대답은 EU/EFTA 고객을 위해 특별히 제공되는 Power BI 서비스 클라우드인 MCD(Microsoft Cloud Deutschland)의 Power BI Pro 서비스에 대한 중요한 정보를 제공합니다.
 
@@ -68,7 +71,7 @@ ms.locfileid: "52670075"
 | Azure Portal(Embedded용) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
 | 커뮤니티 |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |
 
-### <a name="next-steps"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 Power BI에서는 모든 종류의 작업을 수행할 수 있습니다. 서비스에 등록하는 방법을 보여 주는 문서를 포함하여 자세한 정보 및 학습에 대해서는 다음 리소스를 확인해 보세요.
 
 * [Power BI 단계별 학습](guided-learning/gettingstarted.yml?tutorial-step=1)

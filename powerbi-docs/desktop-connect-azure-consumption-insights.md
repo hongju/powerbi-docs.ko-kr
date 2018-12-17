@@ -1,21 +1,22 @@
 ---
-title: Power BI Desktop(베타)에서 Azure Consumption Insights 데이터에 연결
+title: Azure Consumption Insights 데이터에 연결(베타)
 description: Power BI Desktop을 사용하여 쉽게 Azure에 연결 및 소비 및 사용량에 대한 정보 얻기
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619612"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026792"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop(베타)의 Azure Consumption Insights에 연결
 **Azure Consumption Insights** 커넥터에서 **Power BI Desktop**을 사용하여 Azure에 연결하고 조직의 Azure 서비스 사용에 대한 심층 분석 데이터 및 정보를 가져옵니다. 또한 측정값, 사용자 지정 열, 시각적 개체를 만들어 조직의 Azure 사용에 대해 보고하고 공유할 수 있습니다. **Azure Consumption Insights** 커넥터의 이 릴리스는 베타 상태이며 변경될 수 있습니다.
@@ -41,16 +42,16 @@ ms.locfileid: "51619612"
   
   이 버전의 커넥터는 https://ea.azure.com 에서 엔터프라이즈 등록을 지원합니다. 중국 등록은 현재 지원되지 않습니다.
 
-다음으로, 연결할 *액세스 키*를 제공합니다.
+다음으로 연결할 *선택키*를 제공합니다.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
-* [Azure Enterprise Portal](https://ea.azure.com)에서 등록을 위한 액세스 키를 찾을 수 있습니다.
+* [Azure Enterprise Portal](https://ea.azure.com)에서 등록을 위한 선택키를 찾을 수 있습니다.
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 ‘액세스 키’를 제공하고 **연결**을 선택하면 **탐색기** 창이 나타나고 사용할 수 있는 9개의 테이블이 표시됩니다. 
-* **Budgets**: 예산 세부 정보를 제공하여 기존 예산 목표 대비 실제 비용 및 사용을 봅니다. 
+* **예산**: 예산 세부 정보를 제공하여 기존 예산 목표 대비 실제 비용 및 사용을 봅니다. 
 * **MarketPlace**: 사용량 기반 Azure Marketplace 요금을 제공합니다.
 * **PriceSheets**: 등록에 적용되는 미터별 요금을 제공합니다.
 * **RICharges**: 지난 24개월 동안 예약 인스턴스와 관련된 요금을 제공합니다.

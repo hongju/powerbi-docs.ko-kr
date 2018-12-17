@@ -1,5 +1,5 @@
 ---
-title: Power BI URL
+title: 허용 목록의 Power BI URL
 description: 이 문서에서는 Power BI를 사용하는 고객이 연결할 수 있어야 하는 엔드포인트를 설명합니다.
 author: mgblythe
 ms.author: mblythe
@@ -9,14 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: 47fb90ba0f73bba2b210a9003b782a477dbf8214
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.custom: seodec18
+ms.openlocfilehash: dcf51f26aac018acdd58e4244f21e41a1b6f1bc6
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578730"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026638"
 ---
-# <a name="power-bi-urls"></a>Power BI URL
+# <a name="power-bi-urls-for-whitelisting"></a>허용 목록의 Power BI URL
 
 Power BI SaaS(Software-as-a-service) 응용 프로그램이라고도 하는 **Power BI 온라인 서비스**는 인터넷에 연결되어 있어야 합니다. 아래 엔드포인트는 Power BI 온라인 서비스를 사용하여 고객에게 연결할 수 있어야 합니다.
 

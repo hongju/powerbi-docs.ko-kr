@@ -1,21 +1,22 @@
 ---
-title: Excel에서 분석
+title: Power BI용 Excel에서 분석
 description: Excel에서 Power BI 데이터 집합을 분석하는 방법 알아보기
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d1ddb1eabb45fa0c93b04419524d7f4f194189bb
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: b33fafee2ef1f217a99b870e77c3823c6783a11d
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669132"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025951"
 ---
 # <a name="analyze-in-excel"></a>Excel에서 분석
 Excel을 사용하여 Power BI에 있는 데이터 집합을 살펴보고 조작하려는 경우가 있습니다. **Excel에서 분석**을 사용하면, 이것이 가능하고, Power BI에 존재하는 데이터 집합을 기반으로 Excel의 피벗 테이블, 차트, 슬라이서 기능에 액세스할 수 있습니다.

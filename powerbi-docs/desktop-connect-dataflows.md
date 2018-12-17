@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f87db1f715118f346e3b8069897e92fd157f881c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 6d602b19141c6277fe7ec6a7627749f57f6e25a6
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51265935"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180717"
 ---
 # <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>Power BI Desktop에서 Power BI 데이터 흐름을 통해 만든 데이터에 연결(베타)
 **Power BI Desktop**에서 Power BI Desktop의 다른 데이터 원본처럼 **Power BI 데이터 흐름**에서 만든 데이터에 연결할 수 있습니다.
@@ -36,6 +36,20 @@ ms.locfileid: "51265935"
 
 데이터 흐름의 데이터 수집 성능을 향상할 수 있습니다. 예를 들어 수집된 데이터 크기가 **Power BI Desktop**이 컴퓨터에서 관리하기에 너무 큰 경우 데이터 흐름의 연결된 엔터티와 계산된 엔터티를 사용하여 데이터 흐름 내 데이터를 집계한 후 미리 준비되고 집계된 데이터만 수집할 수 있습니다. 이러한 방식의 대량 데이터 처리는 실행 중인 **Power BI Desktop** 인스턴스에서 로컬로 수행되지 않고 데이터 흐름에서 온라인으로 수행됩니다. 이 접근 방식을 사용하면 Power BI Desktop이 더 적은 양의 데이터를 수집하며 데이터 흐름 사용 환경의 뛰어난 응답성과 속도를 유지할 수 있습니다.
 
+## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
+
+대부분 데이터 흐름은 Power BI 서비스 테넌트에 있습니다. 그러나 데이터 흐름의 소유자가 아니거나 데이터 흐름의 CDM 폴더 권한이 명시적으로 부여되지 않은 경우 **Power BI Desktop** 사용자는 Azure Data Lake Storage Gen2 계정에 저장된 데이터 흐름에 액세스할 수 없습니다. 다음 상황을 고려하세요.
+
+1.  Anna는 새 앱 작업 영역을 만들고 조직의 Data Lake에 데이터 흐름을 저장하도록 구성합니다.
+2.  Anna가 만든 작업 영역의 구성원인 Ben은 Power BI Desktop 및 데이터 흐름 커넥터를 사용하여 Anna가 만든 데이터 흐름에서 데이터를 가져오려고 합니다.
+3.  Ben은 Data Lake에서 데이터 흐름 CDM 폴더의 권한 있는 사용자로 추가되지 않았으므로 오류가 발생합니다.
+
+    ![데이터 흐름을 사용하는 중 오류 발생](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
+
+이 문제를 해결하려면 Ben에게 CDM 폴더 및 해당 파일의 독자 권한이 부여되어야 합니다. [이 문서](https://go.microsoft.com/fwlink/?linkid=2029121)에서 CDM 폴더의 액세스 권한을 부여하는 방법을 자세히 알아볼 수 있습니다.
+
+
+
 
 ## <a name="next-steps"></a>다음 단계
 Power BI 데이터 흐름을 사용하여 모든 종류의 흥미로운 작업을 수행할 수 있습니다. 자세한 내용은 다음 리소스를 확인하세요.
@@ -45,6 +59,13 @@ Power BI 데이터 흐름을 사용하여 모든 종류의 흥미로운 작업�
 * [Power BI Premium의 계산된 엔터티 사용(미리 보기)](service-dataflows-computed-entities-premium.md)
 * [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)](service-dataflows-on-premises-gateways.md)
 * [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)](service-dataflows-developer-resources.md)
+
+Azure Data Lake Storage Gen2와 통합에 대한 자세한 내용은 다음 문서를 참조하세요.
+
+* [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)
+* [작업 영역 데이터 흐름 설정 구성(미리 보기)](service-dataflows-configure-workspace-storage-settings.md)
+* [CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)](service-dataflows-add-cdm-folder.md)
+* [데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 다음과 같은 **Power BI Desktop**에 대한 문서도 유용할 수 있습니다.
 

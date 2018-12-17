@@ -7,23 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: b4ce5c811b2aa18803483ed9780c6b73a6b04bb1
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331899"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979240"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
-대시보드 및 대시보드 타일은 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. Power BI 모바일에서는 대시보드 타일을 만들거나 고정할 수 없지만 [보고 공유](mobile/mobile-tiles-in-the-mobile-apps.md)할 수는 있습니다. 
+타일은 *설계자*가 대시보드에 고정한 데이터에 대한 스냅숏입니다. 타일은 보고서, 데이터 집합, 대시보드, 질문 및 답변의 질문하기 상자, Excel 및 SSRS(SQL Server Reporting Services) 등에서 만들 수 있습니다.  이 스크린샷은 대시보드에 고정된 여러 타일을 보여 줍니다.
 
-## <a name="dashboard-tiles"></a>대시보드 타일
 ![Power BI 대시보드](./media/end-user-tiles/power-bi-dashboard.png)
 
-타일은 *설계자*가 대시보드에 고정한 데이터에 대한 스냅숏입니다. 타일은 보고서, 데이터 집합, 대시보드, 질문 및 답변의 질문하기 상자, Excel 및 SSRS(SQL Server Reporting Services) 등에서 만들 수 있습니다.  이 스크린샷은 대시보드에 고정된 여러 타일을 보여 줍니다.
 
 *설계자*는 **타일 추가**를 사용하여 보고서에 고정된 타일 외에 다른 독립 실행형 타일을 대시보드에 직접 추가할 수 있습니다. 독립 실행형 타일에는 텍스트 상자, 이미지, 동영상, 스트리밍 데이터 및 웹 콘텐츠가 포함됩니다.
 
@@ -32,7 +30,6 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>대시보드에서 타일 조작
 
-### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>타일을 가리켜서 모양 및 동작을 변경합니다.
 1. 타일을 가리켜서 줄임표을 표시합니다.
    
     ![타일 줄임표](./media/end-user-tiles/ellipses_new.png)

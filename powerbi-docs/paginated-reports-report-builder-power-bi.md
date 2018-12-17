@@ -1,23 +1,23 @@
 ---
 title: Power BI Premium의 페이지를 매긴 보고서란? (미리 보기)
-description: 페이지를 매긴 보고서는 인쇄 또는 공유할 수 있는 보고서입니다. 보고서 레이아웃을 정확하게 제어할 수 있습니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다.
+description: 페이지를 매긴 보고서는 SQL Server Reporting Services의 표준 보고서 형식과 함께 이제 Power BI 서비스에서 사용할 수 있습니다. 이러한 보고서를 인쇄 또는 공유할 수 있습니다. 보고서 레이아웃을 정확하게 제어할 수 있습니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: report-builder
 ms.topic: overview
-ms.date: 11/20/2018
+ms.date: 12/05/2018
 ms.author: maggies
-ms.openlocfilehash: 7a39d7b3bdbbd592afc6481c5936efc76569ad11
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d79299f469062ec74c49ff4b7e9edda26c3409a3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289223"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026127"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Power BI Premium의 페이지를 매긴 보고서란? (미리 보기)
-페이지를 매긴 보고서는 SQL Server Reporting Services의 표준 보고서 형식과 함께 이제 Power BI 서비스에서 사용할 수 있습니다. 페이지를 매긴 보고서는 인쇄 또는 공유하도록 디자인된 보고서입니다. 이러한 보고서가 “페이지를 매긴” 보고서로 불리는 이유는 페이지에 적합하게 형식 지정되어 있기 때문입니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다. 보고서 페이지 레이아웃을 정확하게 제어할 수 있기 때문에 “pixel perfect”라고도 합니다. 페이지를 매긴 보고서는 SQL Server Reporting Services의 RDL 보고서 기술을 기반으로 합니다. 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 독립 실행형 도구입니다. 
+페이지를 매긴 보고서는 SQL Server Reporting Services의 표준 보고서 형식과 함께 이제 Power BI 서비스에서 사용할 수 있습니다. 이러한 보고서를 인쇄 또는 공유할 수 있습니다. 이러한 보고서가 “페이지를 매긴” 보고서로 불리는 이유는 페이지에 적합하게 형식 지정되어 있기 때문입니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다. 보고서 페이지 레이아웃을 정확하게 제어할 수 있기 때문에 “pixel perfect”라고도 합니다. 페이지를 매긴 보고서는 SQL Server Reporting Services의 RDL 보고서 기술을 기반으로 합니다. 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 독립 실행형 도구입니다. 
 
 페이지를 매긴 보고서에는 여러 페이지가 있을 수 있습니다. 예를 들어 이 보고서에는 563페이지가 있습니다. 각 페이지는 청구서당 한 페이지가 정확하게 배치되고 머리글과 바닥글이 반복됩니다.
 
@@ -43,7 +43,7 @@ ms.locfileid: "52289223"
 
 ### <a name="create-paginated-reports-with-matrix-chart-and-free-form-layouts"></a>행렬, 차트 및 자유 형식 레이아웃을 사용하여 페이지를 매긴 보고서 만들기
 
-열 기반 데이터의 테이블 보고서, 요약된 데이터의 행렬 보고서(예: 크로스탭 또는 피벗 테이블 보고서), 그래픽 데이터의 차트 보고서 및 그 밖의 자유 형식 ‘목록’ 보고서(예: 청구서)를 만듭니다. 
+테이블 보고서는 열 기반 데이터에 적합합니다. 크로스탭 또는 피벗 테이블 보고서와 같은 행렬 보고서는 요약된 데이터에 적합합니다. 차트 보고서는 그래픽 형식으로 데이터를 제공하고 자유 형식 ‘목록’ 보고서는 청구서와 같은 거의 모든 다른 것을 제공할 수 있습니다. 
   
 보고서 작성기 마법사 중 하나로 시작할 수 있습니다. 테이블, 행렬 및 차트 마법사는 포함된 데이터 원본 연결 및 포함된 데이터 세트를 만드는 과정을 안내합니다. 그런 다음, 필드를 끌어서 놓아 데이터 세트 쿼리를 만들고, 레이아웃 및 스타일을 선택하고, 보고서를 사용자 지정합니다.  
   
@@ -66,7 +66,7 @@ ms.locfileid: "52289223"
 
 초기 릴리스에서 지원되지 않는 몇 가지 다른 기능은 다음과 같습니다.
 
-- 보고서 페이지 또는 시각적 개체를 Power BI 대시보드에 고정.
+- 보고서 페이지 또는 시각적 개체를 Power BI 대시보드에 고정. Power BI Report Server 또는 Reporting Services 보고서 서버의 온-프레미스 페이지를 매긴 보고서에서 Power BI 대시보드에 시각화를 고정할 수 있습니다. 자세한 내용은 [Power BI 대시보드에 Reporting Services 항목 고정](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)을 참조하세요.
 - 문서 구조 및 단추 표시/숨기기와 같은 대화형 기능.
 - 하위 보고서 및 드릴스루 보고서.
 - 구독.

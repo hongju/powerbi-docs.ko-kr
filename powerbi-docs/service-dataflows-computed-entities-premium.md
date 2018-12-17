@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8131722d0e035f28fcb88827b1a68c2da97959cb
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b63b8a601040751cda81e022d571d3a0ed6d501f
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268091"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180671"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Power BI Premium의 계산된 엔터티 사용(미리 보기)
 
@@ -77,16 +77,21 @@ Power BI 서비스의 데이터 흐름 제작 도구에서 **엔터티 편집**�
 
 Power BI Premium 용량에서 작업 영역을 제거하면 연결된 데이터 흐름이 더 이상 새로 고쳐지지 않음을 유의해야 합니다. 
 
+조직의 Azure Data Lake Storage Gen2 계정에서 특별히 만든 데이터 흐름을 사용할 때 연결된 엔터티와 계산된 엔터티는 해당 엔터티가 동일한 스토리지 계정에 있을 경우에만 제대로 작동합니다. 자세한 내용은 [데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)](service-dataflows-connect-azure-data-lake-storage-gen2.md)을 참조하세요.
+
+또한 연결된 엔터티는 CDM 폴더에서 만들어진 데이터 흐름에 사용할 수 없습니다. [CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)](service-dataflows-add-cdm-folder.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
 이 문서에서는 Power BI 서비스에서 사용할 수 있는 계산된 엔터티와 데이터 흐름을 설명했습니다. 다음은 몇 가지 유용한 추가 문서입니다.
 
-
 * [데이터 흐름을 사용하여 셀프 서비스 데이터 준비](service-dataflows-overview.md)
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
 * [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)](service-dataflows-on-premises-gateways.md)
 * [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)](service-dataflows-developer-resources.md)
+* [작업 영역 데이터 흐름 설정 구성(미리 보기)](service-dataflows-configure-workspace-storage-settings.md)
+* [CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)](service-dataflows-add-cdm-folder.md)
+* [데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)

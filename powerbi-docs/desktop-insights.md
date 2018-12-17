@@ -1,27 +1,28 @@
 ---
-title: Power BI Desktop에서 인사이트를 사용하여 시각적 개체에서 증가 및 감소 정보 설명(미리 보기)
+title: 인사이트를 사용하여 시각적 개체에서 증가 및 감소 정보 설명(미리 보기)
 description: Power BI Desktop에서 증가 또는 감소하는 정보 쉽게 파악
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c01af129e15025b97925f59532d1be7a6671b47f
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: ca4e1ac208b0056c6a3052e77769624118f0e54f
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909620"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026687"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Power BI Desktop에서 인사이트를 사용하여 시각적 개체에서 보이는 증가 및 감소 정보 설명(미리 보기)
 
 종종 시각적 개체에서 값의 대폭 증가 후 대폭 하락을 보고 이러한 변동의 원인에 대해 궁금해 합니다. **Power BI Desktop**에서 **인사이트**를 통해, 몇 번의 클릭으로 원인을 알 수 있습니다.
 
-예를 들어, *연도* 및 *국가*별 *판매액*을 보여 주는 다음과 같은 시각적 개체가 있습니다. 2014년에는 *1분기*와 *2분기* 사이에 판매가 급격하게 하락하면서 판매가 대폭 감소했습니다. 이러한 경우에는 데이터를 검색하여 발생한 변경 사항에 관해 설명할 수 있습니다. 
+예를 들어, *연도* 및 *국가*별 *판매액*을 보여 주는 다음과 같은 시각적 개체가 있습니다. 2014년에는 *1분기*와 *2분기* 사이에 판매가 급격하게 하락하면서 판매가 대폭 감소했습니다. 이러한 경우에는 데이터를 탐색하여 발생한 변경 사항에 대해 설명할 수 있습니다. 
 
 ![증가 및 감소 정보가 있는 시각적 개체](media/desktop-insights/insights_01a.png)
 

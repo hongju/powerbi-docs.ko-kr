@@ -1,27 +1,26 @@
 ---
-title: '타사 서비스: Power BI Desktop에 대한 Google 웹로그 분석 커넥터'
-description: '타사 서비스: Power BI Desktop에 대한 Google 웹로그 분석 커넥터'
+title: '타사 서비스: Google 애널리틱스 커넥터'
+description: '타사 서비스: Power BI Desktop용 Google Analytics 커넥터'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a0c98a8f65529575cb70fccec927c1ee00d9a089
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: b7451f156503d88baf4bdf3f3ae2cb99c04a94c1
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669431"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025606"
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop용 Google Analytics 커넥터
 > [!NOTE]
 > Google Analytics 콘텐츠 팩과 Power BI Desktop의 커넥터는 Google Analytics 핵심 보고 API를 사용합니다. 이와 같이 기능 및 가용성은 시간에 따라 달라질 수 있습니다.
-> 
-> 
 
 **Google 웹로그 분석** 커넥터를 사용하여 Google 웹로그 분석 데이터에 연결할 수 있습니다. 연결하려면 다음 단계를 따릅니다.
 

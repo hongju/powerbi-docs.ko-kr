@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 12/07/2018
 ms.author: maggies
-ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: a4914bf0fb6945bc5ee45bdf6559ca75bbd7c2b5
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565915"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180947"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server 설치
 
@@ -26,6 +26,10 @@ Power BI Report Server를 다운로드하려면 [Power BI Report Server를 사�
 
 ## <a name="before-you-begin"></a>시작하기 전에
 Power BI Report Server를 설치하기 전에 [Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항](system-requirements.md)을 검토하는 것이 좋습니다.
+
+ > [!IMPORTANT]
+ > Power BI Report Server를 RODC(읽기 전용 도메인 컨트롤러)가 있는 환경에 설치할 수 있지만 제대로 작동하려면 Power BI Report Server가 읽기-쓰기 도메인 컨트롤러에 액세스해야 합니다. Power BI Report Server가 RODC에만 액세스할 수 있는 경우 서비스를 관리하려고 할 때 오류가 발생할 수 있습니다.
+
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI Report Server 제품 키
 

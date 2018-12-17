@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268109"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180579"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Power BI에서 데이터 흐름 만들기 및 사용(미리 보기)
 
@@ -143,6 +143,10 @@ Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 �
 
 엔터티를 선택하고 **로드** 단추를 선택하면 **Power BI Desktop**의 **필드** 창에 엔터티가 표시되며 다른 데이터 세트의 **테이블**처럼 표시되고 작동합니다.
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>Azure Data Lake Storage Gen2에 저장된 데이터 흐름 사용
+
+일부 조직에서 데이터 흐름의 생성 및 관리를 위해 자체 스토리지를 사용하려고 할 수 있습니다. 요구 사항을 따르고 권한을 제대로 관리하면 데이터 흐름을 Azure Data Lake Storage Gen2와 통합할 수 있습니다. 이 방법의 모든 요구 사항에 대한 설명서는 개요 문서, [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)부터 확인할 수 있습니다.
+
 
 ## <a name="troubleshooting-data-connections"></a>데이터 연결 문제 해결
 
@@ -160,6 +164,7 @@ Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 �
 * [Power BI Premium의 계산된 엔터티 사용(미리 보기)](service-dataflows-computed-entities-premium.md)
 * [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)](service-dataflows-on-premises-gateways.md)
 * [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)](service-dataflows-developer-resources.md)
+* [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
 * [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)

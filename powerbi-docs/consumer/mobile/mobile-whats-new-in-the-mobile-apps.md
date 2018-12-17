@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297231"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979554"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -300,7 +300,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 #### <a name="android"></a>Android
 **ADFS(Active Directory Federation Services) 미리 보기를 사용한 SSRS 인증** 이제 모바일 장치에서 조직 계정으로 온-프레미스 SQL Server Reporting Services 서버에 로그인할 수 있습니다. [OAuth를 사용하여 SSRS 서버에 연결](mobile-oauth-ssrs.md)에 대해 자세히 알아보세요.
 
-**새 기능 및 향상된 기능: 신속한 정보 주석 달기 및 공유** 이제 Android 장치에서 공유 및 주석 달기가 완벽하게 작동합니다. 향상된 메뉴를 사용하면 쉽고 빠르게 정보에 주석을 달고 공유할 수 있고 주석이 추가된 보고서를 Power BI 앱에서 바로 공유할 수도 있습니다.
+**새 기능 및 향상된 기능: 신속한 정보 주석 달기 및 공유** 이제 Android 디바이스에서 공유 및 주석 달기가 완벽하게 작동합니다. 향상된 메뉴를 사용하면 쉽고 빠르게 정보에 주석을 달고 공유할 수 있고 주석이 추가된 보고서를 Power BI 앱에서 바로 공유할 수도 있습니다.
 
 ### <a name="december-2016"></a>2016년 12월
 [2016년 12월 모바일 앱 블로그 기능 요약](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016)을 참조하세요.
@@ -346,7 +346,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 * [Android 태블릿에서 Reporting Services 모바일 보고서 및 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) 탐색
 
 #### <a name="android-devices"></a>Android 장치
-**미리 보기: Intune 모바일 응용 프로그램 관리** Microsoft Intune 모바일 응용 프로그램 관리자(MAM)에 대한 Power BI 지원은 이제 Android 장치에서 Power BI Pro 사용자를 위한 미리 보기에 있습니다. 
+**미리 보기: Intune 모바일 애플리케이션 관리** Microsoft Intune MAM(모바일 애플리케이션 관리자)에 대한 Power BI 지원은 이제 Android 디바이스에서 Power BI Pro 사용자를 위한 미리 보기에 있습니다. 
 
 **즐겨찾기** Android 장치에서 즐겨 찾는 대시보드 태그를 지정하고 한 곳에 수집된 [즐겨 찾는 Power BI 대시보드와 Reporting Services 모바일 보고서 및 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports)를 모두 보세요. 
 
@@ -458,8 +458,8 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 ### <a name="may-2016"></a>2016년 5월
 #### <a name="ios-devices-and-android-phones"></a>iOS 장치 및 Android 휴대폰
 * **QR 코드**는 **보고서에**도 제공됩니다. 관련된 보고서도 직접 이동하려면 탐색 또는 검색이 필요 없이 Power BI 앱을 사용하여 코드를 스캔합니다.
-* SQL Server 2016 Reporting Services에 대한 **데이터 관리 향상**: 로드 시간 및 장치에서 데이터 사용이 감소했습니다.
-* **SQL Server 2016 테마가 지정된 모바일 보고서**: 장치에서 모바일 보고서에 대한 테마를 확인합니다.
+* SQL Server 2016 Reporting Services에 대한 **데이터 관리 개선**: 디바이스의 로드 시간 및 데이터 사용이 감소되었습니다.
+* **SQL Server 2016 테마가 지정된 모바일 보고서**: 디바이스에서 모바일 보고서에 대한 테마를 확인합니다.
 * **Geofiltering**: 현재 위치에 따라 보고서를 필터링합니다.
 
 ### <a name="april-2016"></a>2016년 4월
@@ -523,7 +523,7 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 
 [Windows 10 Phone에서 보고서](mobile-reports-in-the-mobile-apps.md)를 봅니다.
 
-보다 신속한 [Windows 10 모바일 대시보드에 대한 정보 활용](mobile-tiles-in-the-mobile-apps.md): 타일 스냅숏을 공유하거나 대시보드에서 직접 보고서를 엽니다.
+[Windows 10 모바일 대시보드에서 인사이트](mobile-tiles-in-the-mobile-apps.md)에 더 신속하게 접근: 타일 스냅숏을 공유하거나 대시보드에서 직접 보고서를 엽니다.
 
 ### <a name="january-2016"></a>2016년 1월
 모든 1월 개선 사항은 2015년 12월에 출시된 새로운 [Windows 10 Phone용 Power BI 앱](mobile-windows-10-phone-app-get-started.md)에 이미 있습니다. 현재 모바일 장치에 사용할 다른 Power BI 앱에 롤아웃하고 있습니다. 이러한 향상된 기능에 대한 자세한 내용은 블로그 게시물을 읽어보세요.
@@ -536,7 +536,7 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 
 **R 타일 및 웹 위젯** 모바일 장치의 대시보드에서 이러한 새 타일 유형을 볼 수 있습니다.
 
-**Bing 대시보드** 이제 Power BI 서비스에서 [Bing 검색 결과로 대시보드](../end-user-connect-to-services.md)를 만든 후 모바일 장치에서 볼 수 있습니다.
+**Bing 대시보드** 이제 Power BI 서비스에서 [Bing 검색 결과로 대시보드](../../service-connect-to-services.md)를 만든 후 모바일 장치에서 볼 수 있습니다.
 
 **대시보드에 타일로 고정되는 보고서 페이지** 이제 Power BI 서비스의 대시보드에 전체 보고서 페이지를 고정할 수 있어, iPhone 또는 Android 휴대폰의 Power BI 앱에서 보고서 페이지를 볼 수 있습니다.
 
@@ -601,7 +601,7 @@ Power BI 모바일 앱의 개선된 점 -- Android, iOS(iPhone 및 iPad) 및 Win
 
 #### <a name="android"></a>Android
 * 그룹 작업 영역 지원: 그룹 작업 영역에서는 동료와 공동 작업을 수행합니다. 
-* 인증되지 않은 사용자 지원: 사용자 인증에 실패하거나 앱에 로그인할 수 없는 경우의 일부 시나리오에 대해 신속하고 편리한 방법으로 접촉하여 지원하고 피드백을 보냅니다.
+* 인증되지 않은 사용자 지원:  사용자 인증에 실패하거나 앱에 로그인할 수 없는 경우의 일부 시나리오에 대해 신속하고 편리한 방법으로 접촉하여 지원하고 피드백을 보냅니다.
 * 역할 기반 보안을 사용하는 대시보드에 액세스할 때의 사용자 환경을 개선했습니다.          
 * 모든 대시보드 타일의 차트 및 맞춤의 데이터 서식을 개선했습니다. 
 
@@ -611,9 +611,9 @@ Power BI 모바일 앱의 개선된 점 -- Android, iOS(iPhone 및 iPad) 및 Win
 * 인증 프로세스 업그레이드 품질, 성능 및 기능을 개선하여 SSO(Single Sign-On)를 포함하는 앱 인증 프로세스를 향상시켰습니다. 
 * 꺾은선형 차트의 데이터 표현을 개선하여 x축 압축을 향상시켰습니다.
 * 역할 기반 보안을 사용하는 경우의 사용자 환경을 개선하였습니다.
-* 매트릭스 차트 타일에 대한 터치 최적화 개선: 이제 매트릭스 데이터를 통해 쉽게 스크롤하고 모든 데이터를 쉽고 직관적으로 볼 수 있습니다.
+* 행렬 차트 타일에 대한 터치 최적화 개선: 이제 행렬 데이터를 통해 쉽게 스크롤하고 모든 데이터를 쉽고 직관적으로 볼 수 있습니다.
 * 대시보드 타일의 차트 및 맞춤의 데이터 서식을 개선했습니다. 
-* iOS 7 지원 제거: Power BI에 대한 가장 높은 보안 표준을 유지하기 위해 더 이상 iOS 7이 설치된 장치를 지원하지 않습니다. iOS 8 이상이 필요합니다. 
+* iOS 7 지원 제거: Power BI에 대한 가장 높은 보안 표준을 유지하기 위해 더 이상 iOS 7이 설치된 디바이스를 지원하지 않습니다. iOS 8 이상이 필요합니다. 
 * 앱에 피드백 송신 및 등급 매기기 추가: 앱에 추가된 피드백 송신 기능 및 등급 매기기 기능을 제공하여 로드맵 커뮤니티의 영향을 증가시키고 앱의 문제를 쉽고 직접적으로 답할 수 있게 했습니다.
 
 #### <a name="windows"></a>Windows

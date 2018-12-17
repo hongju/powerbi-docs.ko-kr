@@ -1,21 +1,22 @@
 ---
-title: Power BI 쿼리 편집기에서 R 사용
+title: 파워 쿼리 편집기에서 R 사용
 description: 고급 분석을 위해 Power BI Desktop 쿼리 편집기에서 R 사용
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9183a0fbb163fb4e46e6b310bcce953aaef9d1b8
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 10431709fd77089fb98524b7060711ce6acc76fd
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670627"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026126"
 ---
 # <a name="using-r-in-query-editor"></a>쿼리 편집기에서 R 사용
 Power BI Desktop **쿼리 편집기**에서 통계학자, 데이터 과학자 및 데이터 분석에 의해 널리 사용되는 프로그래밍 언어인 **R**을 사용할 수 있습니다. R을 **쿼리 편집기**에 통합하면 R을 사용하여 데이터 정리를 수행하고 누락된 데이터, 예측, 클러스터링을 완성하는 작업을 포함하여 데이터 집합에서 고급 데이터 셰이핑 및 분석을 수행할 수 있습니다. **R**은 강력한 언어이며 **쿼리 편집기**에서 사용하여 데이터 모델을 준비하고 보고서를 만들 수 있습니다.

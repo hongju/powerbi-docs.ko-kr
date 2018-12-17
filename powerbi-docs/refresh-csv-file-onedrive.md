@@ -1,21 +1,22 @@
 ---
-title: OneDrive에서 쉼표로 구분된 값(.csv) 파일로부터 만들어진 데이터 집합 새로 고침
+title: OneDrive에 있는 .csv 파일에서 만든 데이터 세트 새로 고침
 description: OneDrive에서 쉼표로 구분된 값(.csv) 파일로부터 만들어진 데이터 집합 새로 고침
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 6e6ce7a80e810ac8c05f6a4ab70c2d19f2201262
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c06d9c56051ccb02d17d695561bc6caa462e99c3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670360"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025537"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 있는 .CSV 파일에서 만든 데이터 집합 새로 고침
 ## <a name="what-are-the-advantages"></a>장점은 무엇인가요?

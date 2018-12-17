@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.author: mihart
-ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508017"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026349"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다.
@@ -40,9 +40,9 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
  
 **앱 작업 영역** 이제 내 작업 영역을 제외한 Power BI의 모든 작업 영역은 앱 작업 영역입니다. 콘텐츠는 번들로 묶어 Power BI 앱으로 제공될 수 있습니다. Premium 용량에 저장된 콘텐츠는 무료 사용자와 공유할 수 있습니다. 개인 작업 영역(내 작업 영역 내)은 Premium 용량에 호스트될 수 있습니다.  
 
-**AppSource**
+**AppSource** 다운로드할 대시보드, 보고서, 데이터 세트 및 앱을 찾아보고 검색할 수 있는 중앙 집중식 온라인 리포지토리입니다.
 
-**Power BI용 ArcGIS** ArcGIS는 ESRI사에서 만든 매핑 및 분석 플랫폼입니다. Power BI 시각적 개체 라이브러리에 포함된 시각적 개체 이름을 Power BI용 ArcGIS라고 합니다.
+**ArcGIS Maps for Power BI** ArcGIS는 ESRI사에서 만든 매핑 및 분석 플랫폼입니다. Power BI 시각적 개체 라이브러리에 포함된 시각적 개체 이름을 ArcGIS Maps for Power BI라고 합니다.
 
 **할당** [Power BI Premium] 작업 영역을 전용 용량 간에 이동하기 위한 동사입니다. 전용 용량이 공유 용량보다 우월하다는 함축적 의미가 있으므로 작업 영역을 전용 용량으로 전환할 때는 용어 “승격”을 사용하지 마세요.  
 
@@ -69,7 +69,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **콘텐츠 목록** 앱의 콘텐츠 인덱스입니다.
 
-**콘텐츠 팩**
+**콘텐츠 팩** 사전 패키지된 데이터 세트, 보고서 및 대시보드의 모음입니다. 이제 **앱**, [새 작업 영역 환경에 대해](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces) 알아봅니다. 
 
 **콘텐츠 보기**
 
@@ -92,11 +92,11 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 **데이터 모델, Excel 데이터 모델**
 
 
-**데이터 집합** 및 **데이터 원본**
+**데이터 세트** 및 **데이터 원본** **데이터 세트**는 시각화 및 보고서를 만드는 데 사용되는 데이터 컬렉션입니다.
 
 **전용 용량** [Power BI Premium] Microsoft 클라우드 데이터 센터의 전용 하드웨어에서 실행되는 데이터 모델로, 대규모에서 일관된 성능을 보장하는 데 도움이 됩니다. BI 솔루션은 Power BI 라이선스와 관계없이 전체 조직에 전달됩니다.
 
-**Desktop** 첫 번째 인스턴스: Power BI Desktop 이후 언급 시: Desktop
+**Desktop** 첫 번째 인스턴스: Power BI Desktop 이후 언급 시: 바탕 화면
 
 
 **다이아몬드** Power BI Premium입니다. 작업 영역을 나타내는 아이콘의 모양은 Premium 용량 작업 영역입니다.
@@ -110,6 +110,8 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 **줄임표**...
 
 **embed 태그** 인터넷의 공통 표준입니다. Power BI에서 고객은 embed 태그를 생성한 후 복사하여 웹 사이트나 블로그에 보고서 시각적 개체와 같은 콘텐츠를 배치할 수 있습니다.
+
+**Embedded** Power BI Embedded를 참조하세요. 
 
 **포함** Power BI 개발자 서비스에서 Power BI REST API 및 Power BI SDK를 사용하여 앱에 분석을 통합하는 프로세스입니다.
 
@@ -133,7 +135,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 ## <a name="g"></a>G
 
-**게이트웨이** 또는 **온-프레미스 데이터 게이트웨이** 기본 데이터 원본에 대한 브리지입니다. Power BI 서비스와 새로 고침을 지원하는 온-프레미스 데이터 원본 간에 빠르고 안전한 데이터 전송을 제공합니다. 일반적으로 IT 부서에서 관리합니다. 온-프레미스 데이터 게이트웨이
+**게이트웨이** 또는 **온-프레미스 데이터 게이트웨이** 기본 데이터 원본에 대한 브리지입니다. Power BI 서비스와 새로 고침을 지원하는 온-프레미스 데이터 원본 간에 빠르고 안전한 데이터 전송을 제공합니다. 일반적으로 IT 부서에서 관리합니다. 
 
 ## <a name="h"></a>H
 **고밀도 시각적 개체** Power BI로 렌더링할 수 있는 것보다 더 많은 데이터 요소를 포함하는 시각적 개체입니다. Power BI는 데이터를 샘플링하여 셰이프 및 이상값을 보여 줍니다.
@@ -160,7 +162,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 ## <a name="m"></a>M
 
-**측정** DAX 코드 또는 빠른 측정을 사용하여 Power BI Desktop에서 작성된 사용자 지정 계산입니다.
+**모바일 앱** iOS, Android 및 Windows 디바이스에서 Power BI를 실행할 수 있는 앱입니다.
 
 **모델링** [Power BI Desktop] 연결한 데이터를 Power BI에서 사용할 준비가 완료된 것입니다. 여기에는 여러 데이터 원본의 테이블 간 관계 작성, 수치 작성 및 메트릭 할당 등이 포함됩니다.
 
@@ -180,6 +182,9 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 ## <a name="o"></a>O
 
 **비즈니스용 OneDrive** 및 **OneDrive** OneDrive는 개인 계정이고 비즈니스용 OneDrive는 회사 계정입니다.  
+
+**온-프레미스 데이터 게이트웨이**
+
 
 
 ## <a name="p"></a>P
@@ -202,7 +207,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **Power BI**, **Power BI 서비스**, **Power BI Desktop**, **Power BI Mobile**, Power BI 제품 일부 *Power BI*는 일반적인 용어입니다. 대개 최초에 *Power BI 서비스* 및 *Power BI Mobile*과 같은 전체 제품 이름을 언급한 후에 Power BI를 사용합니다.
 
-**Power BI Desktop** *Desktop*이라고도 합니다.
+**Power BI Desktop** *Desktop*이라고도 합니다. 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 Power BI의 무료 Windows 애플리케이션입니다. 보고서 디자이너 및 관리자가 사용합니다. 자세한 내용은 [Power BI란?](../power-bi-overview.md)을 참조하세요.
 
 **Power BI Embedded** 개발자가 자체 앱, 사이트 및 도구에 Power BI 대시보드 및 보고서를 포함하는 데 사용하는 제품입니다.
 
@@ -210,8 +215,9 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **Power BI Pro 라이선스** 대시보드를 빌드하고 작성하고, 공유 데이터로 공동 작업을 수행하고, 자동으로 데이터를 최신 상태로 유지하고, 데이터가 액세스 및 사용되는 방식을 감사 및 제어하는 기능과 배포할 콘텐츠를 패키지(Power BI 앱)로 만드는 기능을 제공하는 월별 사용자 라이선스입니다.
 
-**Power BI Report Server** Power BI Premium과 함께 출시된 새로운 SSRS 브랜드 제품으로, 조직이 분산형 하이브리드 BI 시스템(클라우드 및 온-프레미스 배포 혼합)을 빌드할 수 있도록 합니다.
-풍부한 페이지 매김 보고 기능을 포함하는 SQL Server Reporting Services와 Power BI Desktop을 사용하여 제작된 Power BI 보고서를 제공하고 Power BI 모바일 앱에 전달하는 기능이 함께 제공되는 모바일 보고서를 기준으로 합니다. 클래식 SSRS도 계속 판매됩니다.
+**Power BI Report Server** Power BI Premium과 함께 출시된 새로운 SSRS 브랜드 제품으로, 조직이 분산형 하이브리드 BI 시스템(클라우드 및 온-프레미스 배포 혼합)을 빌드할 수 있도록 합니다. Embedded는 Power BI 보고서를 저장하고 관리하는 현지화된 방법을 제공합니다.
+
+**Power BI 서비스** 온라인 SaaS(Software as a Service) 서비스입니다. 자세한 내용은 [Power BI란?](../power-bi-overview.md)을 참조하세요.
 
 **Power BI 서비스 커넥터** Power BI Desktop 사용자는 이 커넥터를 통해 Desktop에서 Power BI 서비스의 데이터 집합에 연결할 수 있습니다. 모델을 한 번 만든 후 여러 보고서 및 대시보드에서 다시 사용할 수 있습니다.
 

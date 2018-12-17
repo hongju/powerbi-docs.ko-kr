@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 864e7a3d78386f6996d866f45558add3b51faa69
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 08931086d05ca3fe7edba2cd195a4f6f61cfccc7
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145192"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025916"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>새로 고침을 지원하지 않는 데이터 소스 문제 해결
 예약 새로 고침에 대해 데이터 집합을 구성할 때 오류가 발생할 수 있습니다.
@@ -28,13 +29,13 @@ ms.locfileid: "37145192"
 어떤 데이터 원본을 사용했는지 잘 모를 경우 Power BI Desktop에서 다음 단계를  통해 찾을 수 있습니다.  
 
 1. Power BI Desktop에서 **보고서** 창에 있는지 확인합니다.  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
+   ![데스크톱 보고서 창](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
 2. 리본 메뉴에서 **쿼리 편집** 을 선택합니다.  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
+   ![쿼리 편집](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
 3. **고급 편집기**를 선택합니다.  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
+   ![고급 편집기](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. 원본에 대해 나열된 공급자를 메모해 둡니다.  이 예제에서는 공급자가 ActiveDirectory입니다.  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
+   ![데이터 원본 공급자](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
 5. [Power BI에서 데이터 새로 고침](refresh-data.md)에 있는 지원되는 데이터 원본 복록과 해당 공급자를 비교합니다.  Active Directory가 새로 고침이 지원되는 데이터 원본이 아님을 알 수 있습니다.  
 
 ## <a name="next-steps"></a>다음 단계

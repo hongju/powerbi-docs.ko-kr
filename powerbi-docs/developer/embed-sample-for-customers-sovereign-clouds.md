@@ -1,23 +1,25 @@
 ---
-title: 정부 및 소버린 클라우드용 고객의 응용 프로그램에 Power BI 콘텐츠 포함
-description: 고객의 Power BI API를 사용하여 웹앱에 대시보드, 타일 또는 보고서를 통합하거나 포함하는 방법을 알아봅니다.
+title: 정부 및 소버린 클라우드용 애플리케이션에 Power BI 콘텐츠를 포함하기 위한 임베디드 분석
+description: 고객의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/25/2018
-ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: aabf472e236f545fe51d4007dcd8fbdf36632931
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003159"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180625"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>자습서: 소버린 클라우드용 응용 프로그램에 Power BI 대시보드, 타일 또는 보고서 포함
 
-고객에 대한 데이터를 통합하는 경우 Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 대시보드, 타일 또는 보고서를 웹 응용 프로그램에 포함하는 방법을 알아봅니다.
+소버린 클라우드용 비즈니스 프로세스 애플리케이션 내에 분석 콘텐츠를 포함하는 방법을 알아봅니다. Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서, 대시보드 또는 타일을 웹 애플리케이션에 포함할 수 있습니다.
 
 Power BI는 소버린(개인용) 클라우드도 지원합니다.
 
@@ -132,7 +134,7 @@ REST API 호출을 실행하려면 Azure AD를 사용해 응용 프로그램을 
 
 * 중국 클라우드용 Power BI - https://app.powerbi.cn/apps
 
-[고객에 대한 콘텐츠 포함 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)을 다운로드했다면 Azure AD에서 샘플이 인증을 받을 수 있도록, 등록 후에 얻은 **applicationId**를 사용합니다. 샘플을 구성하려면 *web.config* 파일에서 **applicationId**를 변경합니다.
+[고객에 대한 콘텐츠 포함 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)을 다운로드했다면 Azure AD에서 샘플이 인증을 받을 수 있도록 얻은 **applicationId**를 사용합니다. 샘플을 구성하려면 *web.config* 파일에서 **applicationId**를 변경합니다.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>2 단계-Azure AD로 액세스 토큰 가져오기
 
@@ -227,7 +229,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>포함 토큰을 만듭니다.
 
-JavaScript API를 사용하여 포함 토큰을 생성할 수 있습니다. embed 토큰은 포함한 항목에 한정됩니다. Power BI 콘텐츠의 구성 요소를 포함하는 경우 이에 대한 새 포함 토큰을 만들어야 합니다. 어떤 **accessLevel**을 사용할지를 포함한 자세한 내용은 [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken)을 참조하세요.
+JavaScript API를 사용하여 포함 토큰을 생성할 수 있습니다. 포함 토큰은 포함한 항목에 한정됩니다. Power BI 콘텐츠의 구성 요소를 포함하는 경우 이에 대한 새 포함 토큰을 만들어야 합니다. 어떤 **accessLevel**을 사용할지를 포함한 자세한 내용은 [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken)을 참조하세요.
 
 > [!IMPORTANT]
 > 포함 토큰은 개발자 테스트 전용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 포함 시나리오를 위해 [용량을 구입해야](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) 합니다. 용량을 구입할 때 토큰 생성은 제한 없이 포함시킬 수 있습니다.

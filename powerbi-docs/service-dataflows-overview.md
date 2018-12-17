@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 360ffdd61525244bd75e57c8c9c9aad25131a13d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267992"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180832"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI의 셀프 서비스 데이터 준비(미리 보기)
 
@@ -68,6 +68,7 @@ CDM(공통 데이터 모델)을 확장하려는 조직의 경우 데이터 흐�
 
 Power BI는 조직의 Azure Data Lake Storage 계정에 저장된 공통 데이터 모델 형식의 스키마화된 데이터가 있는 폴더에 연결할 수도 있습니다. 이러한 폴더는 Azure Data Services와 같은 서비스를 통해 만들 수 있습니다. 이러한 폴더에 연결하면 분석가가 Power BI의 데이터로 원활하게 작업할 수 있습니다. 
 
+조직의 Azure Data Lake에 있는 데이터 흐름을 만드는 방법을 비롯하여 Azure Data Lake Storage Gen2 및 데이터 흐름 통합에 대한 자세한 내용은 [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)을 참조하세요.
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Power BI Premium의 데이터 흐름 기능
 
@@ -105,9 +106,6 @@ Power BI는 조직의 Azure Data Lake Storage 계정에 저장된 공통 데이�
 * 개발자를 위한 데이터 흐름을 시작합니다.
 
 
-
-
-
 ## <a name="next-steps"></a>다음 단계
 
 이 문서에는 Power BI의 빅 데이터용 셀프 서비스 데이터 준비에 대한 개요와 이 기능을 사용할 수 있는 여러 방법이 제공되어 있습니다. 다음 문서에서는 데이터 흐름의 공통 사용 시나리오에 대해 자세히 설명합니다. 
@@ -116,6 +114,7 @@ Power BI는 조직의 Azure Data Lake Storage 계정에 저장된 공통 데이�
 * [Power BI Premium의 계산된 엔터티 사용(미리 보기)](service-dataflows-computed-entities-premium.md)
 * [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)](service-dataflows-on-premises-gateways.md)
 * [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)](service-dataflows-developer-resources.md)
+* [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)
 
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)

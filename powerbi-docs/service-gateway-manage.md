@@ -1,5 +1,5 @@
 ---
-title: Power BI용 게이트웨이 관리
+title: Power BI 온-프레미스 게이트웨이 관리
 description: Power BI에서 온-프레미스 데이터에 연결할 수 있도록 게이트웨이를 관리하는 방법을 알아봅니다.
 author: mgblythe
 manager: kfile
@@ -9,15 +9,16 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 21eaca02502ae67ba5ecddff8e1b8890e0a049af
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755165"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026388"
 ---
-# <a name="manage-a-power-bi-gateway"></a>Power BI 게이트웨이 관리
+# <a name="manage-a-power-bi-on-premises-gateway"></a>Power BI 온-프레미스 게이트웨이 관리
 
 [Power BI 데이터 게이트웨이를 설치](service-gateway-install.md)한 후 필요에 따라 관리합니다. 이 항목에서는 데이터 원본 및 사용자 추가 및 제거, 게이트웨이 다시 시작, 게이트웨이 마이그레이션, 복원, 인수 및 제거 방법에 대해 알아봅니다. 
 

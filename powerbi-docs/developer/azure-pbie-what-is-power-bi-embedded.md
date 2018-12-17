@@ -1,25 +1,26 @@
 ---
-title: Azure Power BI Embedded의 정의 | Microsoft Docs
-description: Power BI Embedded는 뛰어난 시각적 개체, 보고서 및 대시보드를 앱에 신속하게 추가할 수 있도록 지원하여 ISV와 개발자가 Power BI 기능을 사용하는 방식을 단순화하도록 설계되었습니다.
+title: Azure Power BI Embedded 및 임베디드 분석의 정의 | Microsoft Docs
+description: Power BI Embedded는 뛰어난 시각적 개체, 보고서 및 대시보드를 앱에 신속하게 추가할 수 있도록 지원하여 ISV와 개발자가 Power BI 기능을 사용하는 방식을 단순화하기 위한 임베디드 분석 도구로 설계되었습니다. Power BI Embedded를 통해 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하는 방법을 알아봅니다.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.component: ''
 ms.devlang: csharp, javascript
 ms.topic: overview
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: b46508aeca35769fb27324fb20f502ac66cb55ab
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 70cb8f72e5749f7eed70d4476f3af87e272813f4
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360557"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180694"
 ---
-# <a name="what-is-power-bi-embedded-in-azure"></a>Azure의 Power BI Embedded란? 
+# <a name="what-is-power-bi-embedded-in-azure"></a>Azure의 Power BI Embedded란?
 
-Power BI Embedded는 ISV 및 개발자가 Power BI 기능을 사용하는 방식을 간소화하도록 설계되었습니다. Power BI Embedded는 뛰어난 시각적 개체, 보고서 및 대시보드를 사용자의 앱에 빠르게 추가할 수 있도록 지원하여 Power BI 기능을 단순화합니다. Microsoft Azure에 구축된 앱과 유사하게 머신 러닝 및 IoT와 같은 서비스를 사용합니다. 해당 앱에서 쉽게 사용할 수 있는 데이터 탐색을 설정하여 ISV는 고객들이 상황에 맞는 신속한 데이터 기반 결정을 내릴 수 있도록 지원합니다.
+Power BI Embedded는 ISV 및 개발자가 임베디드 분석과 함께 Power BI 기능을 사용하는 방식을 간소화하도록 설계되었습니다. Power BI Embedded는 뛰어난 시각적 개체, 보고서 및 대시보드를 사용자의 앱에 빠르게 추가할 수 있도록 지원하여 Power BI 기능을 단순화합니다. Microsoft Azure에 구축된 앱과 유사하게 머신 러닝 및 IoT와 같은 서비스를 사용합니다. 해당 앱에서 쉽게 사용할 수 있는 데이터 탐색을 설정하여 ISV는 고객들이 상황에 맞는 신속한 데이터 기반 결정을 내릴 수 있도록 지원합니다.
 
 > [!VIDEO https://www.youtube.com/embed/iEHfUuoZseo]
 
@@ -39,7 +40,7 @@ Power BI 콘텐츠가 포함된 기존 앱이 Power BI Premium을 사용 중인�
 
 Power BI Embedded를 사용하면 가장 잘 할 수 있는 것, 즉 훌륭한 앱 구축에 집중할 수 있습니다. 이미 보유하고 있는 도구와 기술을 사용하여 Power BI Embedded로 관리하고 개발할 수 있습니다.
 
-* [**Azure Portal**](https://portal.azure.com/): 모든 Azure 서비스를 관리하는 웹 기반 응용 프로그램입니다.
+* [**Azure Portal**](https://portal.azure.com/): 모든 Azure 서비스를 관리하는 웹 기반 애플리케이션입니다.
 * [**Visual Studio Code**](https://code.visualstudio.com/docs): 확장 프로그램을 지원하는 Windows, macOS 및 Linux용 다운로드 가능한 오픈 소스의 무료 코드 편집기입니다.
 * [**Power BI Desktop**](https://powerbi.microsoft.com/desktop/): 시각적 분석을 사용하여 풍부한 대화형 보고서를 만드는 다운로드 가능한 무료 도구입니다.
 

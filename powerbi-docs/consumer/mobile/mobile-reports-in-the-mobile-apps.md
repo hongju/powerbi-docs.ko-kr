@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547249"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180993"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -105,6 +105,16 @@ Power BI Desktop 또는 Power BI 서비스에서 보고서를 디자인할 때 [
 드릴스루할 때 뒤로 단추를 누르면 다시 이전 보고서 페이지로 이동합니다.
 
 [Power BI Desktop에서 드릴스루를 추가](../../desktop-drillthrough.md)하는 방법에 대해 알아봅니다.
+
+## <a name="show-data-and-copy-values"></a>데이터 표시 및 값 복사
+
+휴대폰 보고서에 있는 시각화의 오른쪽 위 모서리에서 메뉴 옵션 줄임표(**...**)를 선택한 후 **데이터 표시**를 선택하여 시각화를 구성하는 데이터를 볼 수 있습니다.
+
+![Power BI 모바일에 데이터 메뉴 옵션이 표시됨](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+제공된 테이블의 셀을 길게 탭하면 기본 선택 및 복사 메뉴가 표시되므로 테이블(또는 전체 테이블)에서 데이터 복사를 선택할 수 있습니다.
+
+![Power BI 모바일 드릴스루 보고서](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>다음 단계
 * [휴대폰에 최적화된 Power BI 보고서 보기 및 상호 작용](mobile-apps-view-phone-report.md)

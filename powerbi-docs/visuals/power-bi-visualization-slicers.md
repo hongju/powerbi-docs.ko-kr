@@ -1,22 +1,22 @@
 ---
 title: 자습서 - Power BI의 슬라이서
 description: Power BI의 슬라이서
-author: mihart
+author: v-thepet
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 09/25/2018
-ms.author: v-thepet
+ms.date: 10/25/2018
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e42504c2c320e4f102cab5e2272e6123bf580cf5
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: e6b738060875685a7de8e07a55d28afaf071b32e
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448986"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979654"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI의 슬라이서
 보고서를 읽는 사람이 전체 판매액 메트릭을 보고 개별 구역 관리자 및 다른 시간 프레임에 대한 성과를 강조 표시할 수 있도록 하려 합니다. 별도의 보고서 또는 비교 차트를 만들거나 슬라이서를 사용할 수 있습니다. 슬라이서는 보고서의 다른 시각화에 표시되는 데이터 집합의 부분을 좁히는 대체 필터링 방법입니다. 

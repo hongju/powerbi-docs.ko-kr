@@ -4,18 +4,19 @@ description: Power BI Desktop에서 데이터에 연결
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e0430455131b0669dfa744c7a1df6691bda4c782
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 0fc366ad5b42f84f8677be36d1f2093a4ac0fa23
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578155"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025560"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터에 연결
 Power BI Desktop을 사용하면 계속 확장되는 데이터에 쉽게 연결할 수 있습니다. Power BI Desktop이 없는 경우 여기서 [다운로드](http://go.microsoft.com/fwlink/?LinkID=521662)하여 설치할 수 있습니다.
@@ -24,6 +25,7 @@ Power BI Desktop에는 사용할 수 있는 *모든 종류* 의 데이터 소스
 
 ![](media/desktop-connect-to-data/getdatavid_smallv2.gif)
 
+## <a name="example-of-connecting-to-data"></a>데이터에 연결하는 방법 예제
 이 예제에서는 **웹** 데이터 소스에 연결합니다.
 
 은퇴를 계획 중이며, 많은 햇빛과 세금 및 의료 보험 혜택이 있는 곳에서 거주하려 한다고 가정해 보세요. 또는 데이터 분석가이며 고객에게 유용한 정보를 제공하려 한다고 가정해 보세요. 예를 들어 비옷을 만드는 클라이언트가 강우량이 *많은* 지역에서 매출 목표를 정하도록 도울 수 있습니다.
@@ -64,7 +66,7 @@ Power BI Desktop에는 사용할 수 있는 *모든 종류* 의 데이터 소스
 
 물론, 이것은 단일 데이터 연결이 있는 간단한 모델입니다. 대부분의 Power BI Desktop 보고서는 다양한 데이터 소스에 연결하고, 요구 사항에 맞게 모양이 지정되고, 풍부한 데이터 모델을 생성하는 관계를 포함합니다.  
 
-### <a name="next-steps"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. 해당 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
 * [Power BI Desktop이란?](desktop-what-is-desktop.md)

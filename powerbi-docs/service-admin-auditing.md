@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850479"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026825"
 ---
 # <a name="using-auditing-within-your-organization"></a>조직 내에서 감사 사용
 
@@ -73,13 +74,13 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 선택한 날짜 범위가 90일을 초과하면 오류가 표시됩니다. 최대 날짜 범위인 90일을 사용하는 경우 **시작 날짜**에 현재 시간을 선택합니다. 그렇지 않으면 시작 날짜가 종료 날짜보다 빠르다는 오류가 표시됩니다. 90일이 지나기 전에 감사를 사용하도록 설정하는 경우, 날짜 범위가 감사를 켠 날짜 이전에 시작되도록 설정할 수 없습니다.
 
-![](media/service-admin-auditing/search-audit-log-by-date.png)
+![날짜별 검색](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>사용자별 감사 로그 검색
 
 특정 사용자가 수행한 활동에 대한 감사 로그 항목을 검색할 수 있습니다. 이를 수행하려면 **사용자** 필드에 사용자 이름을 하나 이상 입력합니다. 사용자 이름은 메일 주소와 유사하며 사용자가 Power BI에 로그인하는 계정입니다. 조직의 모든 사용자(및 서비스 계정)에 대한 항목을 반환하려면 이 상자를 비워둡니다.
 
-![날짜별 검색](media/service-admin-auditing/search-audit-log-by-user.png)
+![사용자별 검색](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>검색 결과 보기
 

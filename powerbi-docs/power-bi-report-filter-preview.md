@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d2d8bef9689fd2e9db99c0a521a5ee326845b1de
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611363"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026250"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI 보고서의 새 필터 환경(미리 보기)
 
-이 문서에서는 새 필터 환경을 자세히 설명합니다. Power BI의 필터에 새 기능과 새 디자인이 추가됩니다. Power BI Desktop 또는 Power BI 서비스에서 보고서를 디자인할 때 [필터] 창을 전체 보고서처럼 보이게 만들고 전체 보고서와 작동하도록 만들 수 있습니다. 새 환경에서 이전 [필터] 창은 필터 편집 창으로 작동하며 새 [필터] 창은 보고서 소비자에게만 표시됩니다. 
+이 문서에서는 새 필터 환경을 설명합니다. Power BI의 필터에 새 기능과 새 디자인이 추가됩니다. Power BI Desktop 또는 Power BI 서비스에서 보고서를 디자인할 때 [필터] 창을 전체 보고서처럼 보이게 만들고 전체 보고서와 작동하도록 만들 수 있습니다. 새 환경에서 이전 [필터] 창은 필터 편집 창으로 작동하며 새 [필터] 창은 보고서 소비자에게만 표시됩니다. 
  
 ![기본 보기(추가 사용자 지정이 적용되지 않음)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
 
@@ -98,7 +98,7 @@ Power BI Desktop을 다시 시작한 후에는 사용자가 만드는 모든 새
 
     ![서식 아이콘 선택](media/power-bi-report-filter-preview/power-bi-filter-format.png)    
 
-1. **필터 창**을 확장하여 배경, 글꼴, 아이콘 및 왼쪽 테두리에 대한 색을 설정하여 보고서 페이지를 보완합니다.
+1. **필터 창**을 확장하여 배경, 아이콘 및 왼쪽 테두리의 색을 설정하여 보고서 페이지를 보완합니다.
 
     ![필터 창 확장](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
 

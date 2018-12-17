@@ -4,18 +4,19 @@ description: Power BI Desktop에서 DirectQuery를 사용하여 교차 필터링
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 58fbef3f8622121100ce77ae69d6c17cbeb46510
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 89ee11efab495d55457e265e654972aac941d50c
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578316"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025330"
 ---
 # <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery를 사용하여 양방향 교차 필터링 사용
 
@@ -23,11 +24,12 @@ ms.locfileid: "52578316"
 
 양방향 교차 필터링을 사용할 경우 보고서 작성자(및 데이터 모델러)는 관련 테이블로 작업할 때 필터가 적용되는 방식을 효과적으로 제어하여 이러한 필터가 테이블 관계의 양쪽에 적용되도록 할 수 있습니다. 테이블 관계의 다른 쪽에서 두 번째 관련 테이블에 필터 컨텍스트를 전파하여 이를 수행할 수 있습니다.
 
+## <a name="detailed-whitepaper-for-bidirectional-cross-filtering"></a>양방향 교차 필터링에 대한 자세한 백서
 Power BI Desktop에서 양방향 교차 필터링에 대해 설명하는 [자세한 백서](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)가 제공됩니다(이 백서에서는 SQL Server Analysis Services 2016에 대해서도 다루며 둘 다 동작은 동일합니다).
 
 * [Power BI Desktop에서 양방향 교차 필터링](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) 백서 다운로드
 
-### <a name="enabling-bidirectional-cross-filtering-for-directquery"></a>DirectQuery에 대해 양방향 교차 필터링 사용
+## <a name="enabling-bidirectional-cross-filtering-for-directquery"></a>DirectQuery에 대해 양방향 교차 필터링 사용
 
 교차 필터링을 활성화하려면 관계에 대한 **관계 편집** 대화 상자에서 다음을 선택해야 합니다.
 

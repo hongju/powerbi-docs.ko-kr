@@ -1,37 +1,36 @@
 ---
-title: Power BI 샘플 사용
-description: Power BI 샘플 사용
+title: Power BI 서비스의 샘플에 연결
+description: Power BI 서비스의 샘플을 설치하고 검색하는 방법을 알아봅니다.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 10ba57b203c100dffafa6563e85fd06b7af2eecb
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: fc27054b79497658249b49d832a81223987b7be8
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718025"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180970"
 ---
-# <a name="the-power-bi-samples"></a>Power BI 샘플
+#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI 서비스의 샘플에 연결
 
-[Power BI에 대한 샘플 데이터 집합](sample-datasets.md) 문서로 시작하는 것을 권장합니다. 이 문서에서는 샘플을 가져오는 방법, 샘플을 저장하는 위치, 샘플을 사용하는 방법, 각 샘플이 들려주는 몇 가지 이야기 등 샘플에 대한 모든 것을 알아볼 수 있습니다. 기본 내용을 살펴본 후에는 이 자습서로 돌아오세요.   
+이 자습서에서는 다음을 수행하는 방법을 설명합니다. 
+- 샘플 콘텐츠 팩을 가져와서 Power BI 서비스에 추가하고 콘텐츠를 엽니다. *콘텐츠 팩*은 데이터 집합이 대시보드 및 보고서와 함께 제공되는 일종의 샘플입니다. 
+- Power BI Desktop에서 샘플 .pbix 파일을 엽니다.
 
-### <a name="prerequisites"></a>필수 조건
+먼저 자세히 알아보려면 [Power BI에 대한 샘플 데이터 세트](sample-datasets.md) 문서로 시작하는 것을 권장합니다. 이 문서에서는 샘플을 가져오는 방법, 샘플을 저장하는 위치, 샘플을 사용하는 방법, 각 샘플이 들려주는 몇 가지 이야기 등 샘플에 대한 모든 것을 알아볼 수 있습니다. 기본 내용을 살펴본 후에는 이 자습서로 돌아오세요.   
+
+## <a name="prerequisites"></a>필수 조건
 샘플은 Power BI 서비스 및 Power BI Desktop에 대해 사용할 수 있습니다. 과정을 따르기 위해 소매점 분석 샘플을 사용하겠습니다.
 
 이 자습서에 사용된 *소매점 분석* 샘플 콘텐츠 팩은 대시보드, 보고서 및 데이터 집합으로 구성됩니다.
 이 콘텐츠 팩과 해당 시나리오를 잘 알려면 시작하기 전에 [소매점 분석 샘플을 둘러보는 것](sample-retail-analysis.md)이 좋습니다.
-
-## <a name="about-this-tutorial"></a>이 자습서 정보
-이 자습서에서는 다음을 수행하는 방법을 설명합니다. 
-- 샘플 콘텐츠 팩을 가져와서 Power BI 서비스에 추가하고 콘텐츠를 엽니다. *콘텐츠 팩*은 데이터 집합이 대시보드 및 보고서와 함께 제공되는 일종의 샘플입니다. 
--  Power BI Desktop에서 샘플 .pbix 파일을 엽니다.
-
 
 ## <a name="samples-and-power-bi-service"></a>샘플 및 Power BI 서비스
 

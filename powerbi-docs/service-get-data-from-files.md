@@ -1,23 +1,24 @@
 ---
-title: 파일에서 데이터 가져오기
+title: Power BI 파일에서 데이터 가져오기
 description: Excel, Power BI Desktop 및 CSV 파일에서 Power BI로 데이터를 가져오는 방법 알아보기
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 10f609f5b531b5ce08e254e96219600c2a3e497e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 644d863f98c7c7099a9bdda7ac714372499b0614
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669638"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026434"
 ---
-# <a name="get-data-from-files"></a>파일에서 데이터 가져오기
+# <a name="get-data-from-files-for-power-bi"></a>Power BI 파일에서 데이터 가져오기
 ![](media/service-get-data-from-files/file_icons.png)
 
 Power BI에서는 세 가지 형식의 파일에서 데이터 및 보고서를 연결하거나 가져올 수 있습니다.

@@ -1,21 +1,22 @@
 ---
-title: Power BI에서 빠른 측정을 사용하여 일반적이고 강력한 계산 수행
+title: 일반적이고 강력한 계산 수행에 빠른 측정 사용
 description: 빠른 측정은 일반적인 계산을 신속하게 수행하는 미리 만들어진 DAX 수식을 제공합니다.
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c3b8d11176992cb9e6ce114d2c0a7a310ca5d9fc
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 19fdadb6476dab9eda0fa5c76f17680cbd7b4cfe
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670979"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026416"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>빠른 측정을 사용하여 일반적이고 강력한 계산 수행
 **빠른 측정**을 사용하여 일반적이고 강력한 계산을 빠르고 쉽게 수행할 수 있습니다. **빠른 측정**은 사용자가 대화 상자에 입력한 내용에 따라 내부적으로(DAX를 작성할 필요가 없음) DAX 명령 집합을 실행한 후 사용할 결과를 보고서에 표시합니다. 무엇보다도 빠른 측정으로 실행되는 DAX를 확인하고 사용자 고유의 DAX 지식을 바로 사용하거나 확장할 수 있습니다.

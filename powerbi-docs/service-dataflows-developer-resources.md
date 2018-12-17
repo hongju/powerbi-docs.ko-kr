@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d2b2449985a4380d78e7055ecf87f99a65a9a67e
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: a56dbb713f3d853094c2612a19edecb8bf4d7b24
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268028"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180602"
 ---
 # <a name="developer-resources-for-power-bi-dataflows-preview"></a>Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)
 
@@ -29,7 +29,7 @@ Power BI 서비스의 엔터티를 만들거나 연결하고 Power BI Desktop의
 
 | 데이터 흐름 리소스 | 설명 |
 | --- | --- |
-| [Power BI dataflow REST API Reference](http://download.microsoft.com/download/5/4/0/540DAA5B-6760-4BDF-A089-8C3DBA8BB4DD/Power%20BI%20dataflow%20REST%20API%20reference.docx)(Power BI 데이터 흐름 REST API 참조)    | 데이터 흐름 REST API에 대한 완벽한 참조 가이드입니다.|
+| [Power BI dataflow REST API Reference](https://go.microsoft.com/fwlink/?linkid=2047629)(Power BI 데이터 흐름 REST API 참조)    | 데이터 흐름 REST API에 대한 완벽한 참조 가이드입니다.|
 
 
 ## <a name="next-steps"></a>다음 단계
@@ -41,10 +41,15 @@ Power BI 서비스의 엔터티를 만들거나 연결하고 Power BI Desktop의
 * [Power BI Premium의 계산된 엔터티 사용(미리 보기)](service-dataflows-computed-entities-premium.md)
 * [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)](service-dataflows-on-premises-gateways.md)
 
+CDM 개발 및 자습서 리소스에 대한 내용은 다음을 참조하세요.
+* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [CDM 폴더](https://go.microsoft.com/fwlink/?linkid=2045304)
+* [CDM 모델 파일 정의](https://go.microsoft.com/fwlink/?linkid=2045521)
+
+
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)
 * [예약된 새로 고침 구성](refresh-scheduled-refresh.md)
 
-공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
-* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+
 

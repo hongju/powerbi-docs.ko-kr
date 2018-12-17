@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 90fd71c59059f1b1b2c1b7d1d2da582d228c7a88
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ea5312178d33986ebc3f4b9e8610012c87d54216
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242367"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026034"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>오류: Excel 통합 문서에서 데이터를 찾을 수 없습니다.
 
@@ -26,7 +27,7 @@ Power BI로 Excel 통합 문서를 가져오면 다음과 같은 오류가 표�
 
 *오류: Excel 통합 문서에서 데이터를 찾을 수 없습니다. 데이터 서식이 제대로 지정되지 않았을 수 있습니다. Excel에서 통합 문서를 편집한 다음 다시 가져와야 합니다.*
 
-![](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
+![통합 문서에서 데이터를 찾을 수 없습니다.](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
 
 ## <a name="quick-solution"></a>빠른 해결 방법
 1. Excel에서 통합 문서를 편집합니다.
@@ -46,28 +47,28 @@ Excel 통합 문서를 가져오면 Power BI에서 이러한 표를 찾아 데�
     >[!NOTE]
     >여기서 사용된 그림은 Excel 2013용입니다. 다른 버전을 사용하는 경우 약간 다르게 표시될 수 있지만 단계는 동일합니다.
     
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
+    ![통합 문서 열기](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
 2. 데이터가 포함된 셀 범위를 선택합니다. 첫 번째 행에는 열 머리글(열 이름)이 포함되어 있어야 합니다.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
+    ![셀 범위 선택](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
 3. 리본의 **삽입** 탭에서 **표**를 클릭합니다. 또는 바로 가기로 **Ctrl+T**를 누릅니다.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
+    ![테이블 삽입](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
 4. 다음과 같은 대화 상자가 표시됩니다. **머리글 포함** 이 선택되어 있는지 확인하고 **확인**을 선택합니다.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
+    ![테이블 만들기](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
 5. 이제 데이터의 서식이 표로 지정됩니다.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
+    ![표로 서식이 지정된 데이터](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
 6. 통합 문서를 저장합니다.
 7. Power BI로 돌아갑니다. 왼쪽 탐색 창의 맨 아래에 있는 데이터 가져오기를 선택합니다.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
+    ![데이터 가져오기](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
 8. **파일** 상자에서 **가져오기**를 선택합니다.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
+    ![파일 가져오기](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
 9. Excel 통합 문서를 다시 가져옵니다. 이번에는 가져오기에서 표를 찾아 성공합니다.
    
     가져오기가 계속 실패하는 경우 도움말 메뉴에서 **커뮤니티**를 클릭하여 알립니다.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
+    ![커뮤니티 링크](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)

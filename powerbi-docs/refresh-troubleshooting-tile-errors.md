@@ -1,21 +1,22 @@
 ---
 title: 타일 오류 문제 해결
-description: 타일이 새로 고침하려고 할 때 발생할 수 있는 일반적인 오류
+description: 타일이 Power BI에서 새로 고쳐질 때 발생할 수 있는 일반적인 오류
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1341caa1f67d01a03128344acd67261abf450f90
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: d03bf92331d1536337cfb8279c182822630c6c80
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669868"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025035"
 ---
 # <a name="troubleshooting-tile-errors"></a>타일 오류 문제 해결
 다음은 설명이 있는 타일에 발생할 수 있는 일반적인 오류입니다.
