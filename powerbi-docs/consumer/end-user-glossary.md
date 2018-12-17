@@ -2,17 +2,18 @@
 title: Power BI 소비자를 위한 용어집
 description: Power BI에서는 많은 새 용어를 도입했으며 익숙한 용어가 새로운 방식으로 사용되고 있습니다. 용어집을 사용하여 Power BI 용어에 친숙해질 수 있습니다.
 services: power-bi
+ms.custom: seodec18
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/12/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026349"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280791"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다.
@@ -42,7 +43,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **AppSource** 다운로드할 대시보드, 보고서, 데이터 세트 및 앱을 찾아보고 검색할 수 있는 중앙 집중식 온라인 리포지토리입니다.
 
-**ArcGIS Maps for Power BI** ArcGIS는 ESRI사에서 만든 매핑 및 분석 플랫폼입니다. Power BI 시각적 개체 라이브러리에 포함된 시각적 개체 이름을 ArcGIS Maps for Power BI라고 합니다.
+**Power BI용 ArcGIS** ArcGIS는 ESRI사에서 만든 매핑 및 분석 플랫폼입니다. Power BI 시각적 개체 라이브러리에 포함된 시각적 개체 이름을 Power BI용 ArcGIS라고 합니다.
 
 **할당** [Power BI Premium] 작업 영역을 전용 용량 간에 이동하기 위한 동사입니다. 전용 용량이 공유 용량보다 우월하다는 함축적 의미가 있으므로 작업 영역을 전용 용량으로 전환할 때는 용어 “승격”을 사용하지 마세요.  
 
