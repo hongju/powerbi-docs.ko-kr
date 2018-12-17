@@ -19,7 +19,7 @@ ms.locfileid: "52452778"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop의 복합 모델 사용
 
-이전에 Power BI Desktop에서 보고서에 DirectQuery를 사용했을 때 &mdash;DirectQuery 또는 가져오기인지 여부와 관계없이&mdash; 해당 보고서에 대한 다른 데이터 연결이 허용되지 않습니다. 복합 모델을 사용하면 해당 제한이 제거됩니다. 보고서에는 둘 이상의 DirectQuery 또는 가져오기 데이터 연결의 데이터 연결이 선택한 조합으로 원활하게 포함될 수 있습니다.
+이전에 Power BI Desktop에서 보고서에 DirectQuery를 사용했을 때 &mdash;DirectQuery 또는 가져오기인지 여부와 관계없이&mdash; 해당 보고서에 대한 다른 데이터 연결이 허용되지 않았습니다. 복합 모델을 사용하면 해당 제한이 제거됩니다. 보고서에는 둘 이상의 DirectQuery 또는 가져오기 데이터 연결의 데이터 연결이 선택한 조합으로 원활하게 포함될 수 있습니다.
 
 ![Power BI Desktop의 복합 모델](media/desktop-composite-models/composite-models_01.png)
 
