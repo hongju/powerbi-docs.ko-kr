@@ -1,20 +1,21 @@
 ---
-title: Power BI 소비자란?
+title: Power BI "소비자"란?
 description: Power BI 개요 및 다양한 부분의 연동 방식 - Power BI Desktop, Power BI 서비스, Power BI Mobile, Report Server, Power BI Embedded
 author: mihart
 manager: kvivek
 ms.service: powerbi
+ms.custom: seodec18
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 10/13/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 15cdd66e6062c4199b2f736208192c452bcbd0af
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 392593c6bceed7555a82916b2a992200438dffab
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396589"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280177"
 ---
 # <a name="power-bi-for-consumers"></a>소비자용 Power BI
 Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. ‘최종 사용자’ 또는 ‘소비자’는 동료로부터 대시보드, 보고서 및 앱을 받는 사람입니다. 비즈니스 의사 결정을 위해 ‘Power BI 서비스’에서 이 콘텐츠를 검토하고 조작합니다.****

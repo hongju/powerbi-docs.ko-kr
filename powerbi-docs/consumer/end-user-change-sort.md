@@ -1,33 +1,34 @@
 ---
-title: Power BI 보고서에서 차트 정렬 방식 변경
+title: 보고서에 차트 정렬 방식 변경
 description: Power BI 보고서에서 차트 정렬 방식 변경
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: Conceptual
-ms.date: 09/20/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f4ca6633eb401e7df8041ea385284210c14995ad
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 191dfdeba436322052befdbc6548fd08f96f0738
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979341"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280009"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 값을 기준으로 대부분의 시각화를 알파벳순으로 정렬할 수 있습니다. 예를 들어 이 차트는 범주 **매장 이름**을 기준으로 정렬되었습니다.
 
-![](media/end-user-change-sort/pbi_chartsortcategory.png)
+![X 축을 기준으로 사전순으로 정렬된 막대형 차트](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 정렬 기준을 범주(매장 이름)에서 값(평방 피트당 매출)으로 대신 변경하는 것은 쉽습니다.
 
 1. 줄임표(...)를 선택하고 **정렬 기준 > 평방 미터당 매출**을 선택합니다.
 2. 필요한 경우 줄임표를 다시 선택하고 **내림차순 정렬**을 선택합니다.
 
-   ![](media/end-user-change-sort/sort.gif)
+   ![정렬 방식 및 오름차순, 내림차순 선택을 보여주는 비디오](media/end-user-change-sort/sort.gif)
 
    **참고**: 일부 시각화는 정렬되지 않습니다.  예를 들어 다음 시각적 개체는 정렬할 수 없습니다. 트리맵, 맵, 등치 지역도, 분산형, Guage, 카드, Multi Row Card, 폭포.
 

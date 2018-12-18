@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: f272d0e40de5c65de9134c3d184195889233496b
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979554"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280929"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -22,6 +22,36 @@ ms.locfileid: "52979554"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="november-2018"></a>2018년 11월
+
+### <a name="modern-visual-header"></a>최신 시각적 머리글 
+
+새로운 '최신 시각적 머리글’을 사용하는 보고서에서는 더 이상 머리글 공간이 할당되지 않으므로 빈 공간이 줄어들고 시각화할 수 있는 공간이 늘어납니다.
+
+### <a name="enhance-presentation-mode-windows"></a>프레젠테이션 모드(Windows)를 개선합니다.
+
+Surface Hub 및 Windows 10 디바이스에 대해 향상된 프레젠테이션 모드입니다.  개선된 프레젠테이션 및 협업 도구와 크롬을 사용하지 않고 최적화된 대형 화면 보기를 제공하는 향상된 Surface Hub 회의실을 사용하여, 데이터에 집중할 수 있습니다. 또한 프레젠테이션 모드는 데이터를 효과적으로 제시하고 데이터에 대해 토론하는 데 도움이 되는 도구를 제공합니다. [여기](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/)에서 프레젠테이션 모드에 대한 자세한 내용을 알아보세요.
+
+### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>태블릿의 세로 보고서 레이아웃(iOS 및 Android)
+
+이제 휴대폰 보고서 레이아웃이 있는 경우 이를 사용하여 태블릿에서 보고서를 세로 모드 방향으로 표시할 수 있습니다. [Power BI 서비스 또는 데스크톱에서 휴대폰 레이아웃을 만드는 방법](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/)에 대해 자세히 알아보세요.
+
+### <a name="supporting-report-query-string"></a>보고서 쿼리 문자열 지원 
+
+쿼리 문자열이 포함된 보고서 열기 링크가 모바일 앱에서 열리고 쿼리 문자열에 정의된 조건에 따라 미리 필터링됩니다. [쿼리 문자열을 사용하여 보고서 URL을 만드는 방법](https://docs.microsoft.com/en-us/power-bi/service-url-filters/)에 대해 자세히 알아보세요.  
+
+### <a name="shared-credentials-now-in-android"></a>공유 자격 증명(현재 Android)
+
+모바일 앱에서 Power BI에 로그인하는 것은 간편하지 않습니다. 공유 자격 증명을 통해 디바이스에서 다른 Office 365 앱 자격 증명을 사용하여 Power BI 서비스에서 사용자를 인증하는 방식으로 로그인 프로세스를 단순화했습니다.
+
+### <a name="in-app-urls-now-in-android"></a>앱 내 URL(현재 Android) 
+
+이제 다른 Power BI 아티팩트를 가리키는 보고서의 링크가 앱 내에서 바로 열립니다. 이를 통해 사용자 지정 탐색 흐름(예: 보고서에서 대시보드로 연결)을 빌드할 수 있습니다.
+
+### <a name="show-data-and-copy-values"></a>데이터 표시 및 값 복사
+
+보고서 시각화 작업 메뉴(...)에는 기본 데이터를 표 형식으로 표시할 수 있는 옵션이 있습니다. 표에 있는 경우, 표(Intune 정책이 복사를 제한하지 않는다고 가정할 때)에서 선택하고 길게 탭할 수 있습니다.
 
 ## <a name="october-2018"></a>2018년 10월
 

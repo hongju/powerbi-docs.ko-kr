@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 8bae8475ee4bbe91ea27f3a9e30a3323a92a8250
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180533"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280262"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI로 대시보드 타일에서 데이터 인사이트 보기
 대시보드의 각 시각화 타일은 데이터 탐색에 사용됩니다. 타일을 선택하면 보고서 기반의 데이터 집합을 필터링 및 정렬하고 자세히 살펴볼 수 있는 보고서가 열립니다. 또한 인사이트를 실행하면 Power BI에서 데이터 탐색을 수행합니다.

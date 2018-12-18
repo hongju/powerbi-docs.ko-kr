@@ -6,16 +6,17 @@ manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: landing-page
-ms.date: 11/07/2018
+ms.date: 12/10/2018
 ms.author: mihart
-layout: LandingPage
+layout: landingpage
+ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: c3a506b8693560406b6fa961f4341b77f2745690
-ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
+ms.openlocfilehash: bd4592a8ba28277356f251c81906ac265c1759a2
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2018
-ms.locfileid: "53111511"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280883"
 ---
 # <a name="power-bi-for-consumers"></a>소비자용 Power BI
 ‘최종 사용자’ 또는 ‘소비자’는 동료로부터 대시보드, 보고서 및 앱을 받는 사람입니다. 비즈니스 의사 결정을 위해 ‘Power BI 서비스’에서 이 콘텐츠를 검토하고 조작합니다.****
