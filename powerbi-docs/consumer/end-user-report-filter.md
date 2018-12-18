@@ -1,21 +1,22 @@
 ---
-title: 보고서 필터 추가
+title: 보고서에 필터 추가
 description: 소비자에 대한 Power BI 서비스의 보고서에 필터를 추가하는 방법
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: ea219071b475bf5bb9123e1aa3bbaca412507a8e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473810"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280768"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>보고서 필터 창 둘러보기
 이 문서에서는 Power BI 서비스의 보고서 필터 창에 대해 알아봅니다.
@@ -36,7 +37,7 @@ Power BI 서비스에서 보고서는 필터 창에서 수행한 모든 변경 �
 ## <a name="open-the-filters-pane"></a>필터 창 열기
 보고서가 열린 경우 필터 창은 보고서 캔버스의 오른쪽에 표시됩니다. 창이 표시되지 않는 경우 오른쪽 위 모서리의 화살표를 선택하여 확장합니다.  
 
-이 예제에서 6개의 필터가 있는 시각적 개체를 선택했습니다. 보고서 페이지에도 필터가 있으며, **페이지 수준 필터** 머리글 아래 나열되어 있습니다. 하나의 [드릴스루 필터](../power-bi-report-add-filter.md)가 있으며 전체 보고서에도 필터가 있습니다. **FiscalYear**는 2013 또는 2014입니다.
+이 예제에서 6개의 필터가 있는 시각적 개체를 선택했습니다. 보고서 페이지에도 필터가 있으며, **페이지 수준 필터** 머리글 아래 나열되어 있습니다. 하나의 [드릴스루 필터](../power-bi-report-add-filter.md)가 있으며 전체 보고서에도 필터가 있습니다.  **FiscalYear**는 2013 또는 2014입니다.
 
 ![필터 목록](media/end-user-report-filter/power-bi-filter-list.png)
 

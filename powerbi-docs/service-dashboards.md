@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 7a1187373304387ac511053d241e5cfb31f7fcd9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331945"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280584"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 소개
 
@@ -48,15 +48,15 @@ Power BI ***대시보드***는 시각화를 통해 스토리를 알려주는 흔
 | --- | --- | --- |
 | 페이지 |한 페이지 |한 페이지 이상 |
 | 데이터 소스 |대시보드당 보고서 및 데이터 집합 모두 하나 이상 |보고서당 단일 데이터 집합 |
-| Power BI Desktop에서 사용 가능 |아니요 |예, ***작성자***는 데스크톱에서 보고서를 빌드하고 볼 수 있음 |
+| Power BI Desktop에서 사용 가능 |아니요 | Power BI Desktop에서 보고서 작성 및 보기 가능 |
 | 구독 |대시보드 구독 가능 |보고서 페이지 구독 가능 |
 | 필터링 |필터링 또는 조각화 불가능 |필터링, 강조 표시 및 조각화를 위한 다양한 방법 |
 | 추천 |한 대시보드를 “주천” 대시보드로 설정할 수 있음 |추천 보고서를 만들 수 없음 |
 | 즐겨찾기 | 대시보드를 *즐겨찾기*로 설정할 수 있음 | 보고서를 *즐겨찾기*로 설정할 수 있음
 | 경고 설정 |특정 상황에서 대시보드 타일에서 사용 가능 |보고서에서 사용 불가능 |
-| 자연어 쿼리 |대시보드에서 사용 가능 |보고서에서 사용 불가능 |
+| 자연어 쿼리(질문 및 답변) |대시보드에서 사용 가능 | 보고서에서 가용 가능 |
 | 기본 데이터 집합 테이블 및 필드를 볼 수 있음 |아니요. 데이터를 내보낼 수 있지만 대시보드 자체에서 테이블 및 필드를 볼 수 없음 |예. 데이터 집합 테이블 및 필드와 값을 볼 수 있음. |
-| 사용자 지정 |아니요 |읽기용 보기에서 게시, 포함, 필터, 내보내기, .pbix로 다운로드, 관련 콘텐츠 보기, QR 코드 생성, Excel에서 분석 등을 수행할 수 있습니다.  |
+
 
 ## <a name="next-steps"></a>다음 단계
 * [샘플 대시보드](sample-tutorial-connect-to-the-samples.md) 중 하나를 둘러보면 대시보드에 금방 익숙해 집니다.

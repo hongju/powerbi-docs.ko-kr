@@ -5,21 +5,21 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kvivek
-backup: ''
+ms.custom: seodec18
 editor: ''
 tags: ''
 ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 1da43fb6bc0604cfa356f19aa212256612350c65
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396523"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280124"
 ---
 <!-- once the sample aps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>빠른 시작: ***소비자***의 Power BI 기능 알아보기
@@ -175,7 +175,7 @@ Power BI에서 ‘앱’은 관련 대시보드 및 보고서와 함께 모두 �
 
 ![포커스 모드](media/end-user-reading-view/powerbi-focus-mode.png)
 
-메뉴 표시줄, 필터 창, 기타 크롬 없이 동일한 시각화를 표시하려면 상위 메뉴 모음 ![](media/end-user-reading-view/power-bi-focus-icon.png)에서 **전체 화면** 아이콘을 선택합니다.
+메뉴 모음, 필터 창, 기타 크롬 없이 이 시각화만 표시하려면 상단 메뉴 모음에서 **전체 화면** 아이콘 ![전체 화면 아이콘](media/end-user-reading-view/power-bi-focus-icon.png) 을 선택합니다.
 
 ![전체 화면 모드](media/end-user-reading-view/power-bi-full-screen.png)
 

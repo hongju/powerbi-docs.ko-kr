@@ -48,7 +48,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
    
     ![대화 상자에서 데이터 가져오기](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
-   Wikipedia 웹 페이지에 연결한 후 Power BI **탐색기** 대화 상자에는 페이지에서 사용 가능한 테이블 목록이 표시됩니다. 테이블 이름을 선택하여 데이터를 미리 볼 수 있습니다. 정확히 원하는 셰이프가 아니더라도 원하는 데이터가 **Results[edit]** 테이블에 있습니다. 보고서에 로드하기 전에 데이터를 다시 셰이핑하고 정리합니다. 
+   Wikipedia 웹 페이지에 연결한 후 Power BI **탐색기** 대화 상자에는 페이지에서 사용 가능한 테이블 목록이 표시됩니다. 테이블 이름을 선택하여 데이터를 미리 볼 수 있습니다. 정확히 원하는 셰이프는 아니지만 원하는 데이터가 **Results[edit]** 테이블에 있습니다. 보고서에 로드하기 전에 데이터를 다시 셰이핑하고 정리합니다. 
    
    ![탐색기 대화 상자](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
    
@@ -122,7 +122,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
    
    ![닫기 및 적용](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
    
-이 쿼리는 Power BI Desktop **보고서 보기**로 로드되고, 여기에서 **필드** 창에 표시됩니다. 
+이 쿼리는 Power BI Desktop **보고서 보기**로 로드되고 **필드** 창에서 볼 수 있습니다. 
    
    ![필드 창](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
 >[!TIP]
@@ -154,11 +154,11 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
 ### <a name="format-the-map"></a>맵 서식 지정
 시각화를 선택한 다음, **시각화** 창에서 **형식**(페인트 롤러) 아이콘을 선택하여 시각화 모양을 변경할 수 있습니다. 예를 들어 서독이 토너먼트에서 2회 우승했고 독일이 1회 우승했으므로 시각화의 “독일” 데이터 요소가 잘못될 수 있고, 맵에는 두 요소를 구분하거나 함께 추가하는 대신 두 요소를 겹쳐 놓습니다. 이러한 두 요소에 색상을 다르게 지정하여 강조 표시할 수 있습니다. 맵에 보다 구체적이고 매력적인 제목을 제공할 수도 있습니다. 
 
-1. 시각화를 선택한 상태로 **형식** 아이콘을 선택한 다음, **데이터 색**을 선택하여 데이터 색 옵션을 확장합니다. 
+1. 시각화를 선택한 상태로 **서식** 아이콘을 선택한 다음, **데이터 색**을 선택하여 데이터 색 옵션을 확장합니다. 
    
    ![데이터 색 지정](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
    
-2. **모두 표시**를 **켜기**로 전하고 나서 **West Germany** 옆의 드롭다운을 선택하고 노란색을 선택합니다. 
+2. **모두 표시**를 **설정**으로 변경하고 **West Germany** 옆의 드롭다운을 클릭하고 노란색을 선택합니다. 
    
    ![색 변경](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web16.png)
    
@@ -180,10 +180,10 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship의 UEFA 유럽 
 ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web19.png)
 
 >[!TIP]
->- **데이터 색** 서식 옵션을 사용하여 “독일” 및 “서독”을 같은 색으로 설정할 수 있습니다. 
+>- **데이터 색** 서식 옵션을 사용하여 “Germany” 및 “West Germany”를 같은 색으로 설정할 수 있습니다. 
 >- 원형 차트에서 가장 많이 우승한 국가를 함께 그룹화하려면 시각화의 오른쪽 위에 있는 줄임표(**...**)를 선택한 다음, 드롭다운에서 **연도 수별 정렬**을 선택합니다. 
 
-Power BI Desktop은 다양한 데이터 원본에서 데이터를 가져오고 이 데이터를 풍부한 대화형 방식으로 시각화하기 위해 분석 요구 사항에 맞게 모양을 지정하는 원활한 종단 간 환경을 제공합니다. 보고서가 준비되면 [Power BI로 업로드](desktop-upload-desktop-files.md)하고 보고서에 따라 대시보드를 만든 후 다른 Power BI 사용자와 공유할 수 있습니다.
+Power BI Desktop은 다양한 종류의 데이터 원본에서 데이터를 가져오고 이 데이터를 대화형 방식으로 풍부하게 시각화하기 위해 분석 요구 사항을 충족하도록 셰이핑하는 완벽한 End-to-End 환경을 제공합니다. 보고서가 준비되면 [Power BI로 업로드](desktop-upload-desktop-files.md)하고 보고서에 따라 대시보드를 만든 후 다른 Power BI 사용자와 공유할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 * [다른 Power BI Desktop 자습서 참고](http://go.microsoft.com/fwlink/?LinkID=521937)

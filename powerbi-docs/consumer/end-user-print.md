@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: bb3ecb8a343d2ed3f3693dd136b11b7543cabc70
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507672"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280745"
 ---
 # <a name="printing-from-power-bi-service"></a>Power BI 서비스에서 인쇄
 Power BI 서비스에서 전체 대시보드, 대시보드 타일, 보고서 페이지 또는 보고서 시각적 개체를 인쇄합니다. 보고서는 한 번에 한 페이지만 인쇄할 수 있습니다. 전체 보고서를 한 번에 인쇄할 수는 없습니다.
@@ -80,13 +81,13 @@ Amanda가 대시보드 및 보고서에서 인쇄하는 모습을 시청합니�
 * Q: **인쇄** 단추를 찾을 수 없습니다.    
 * A: Power BI Desktop을 사용하는 경우 인쇄는 지원되지 않습니다.  인쇄는 Power BI 서비스에서만 작동합니다.
 * Q: 한 번에 모든 보고서 페이지를 인쇄할 수 없습니다.    
-* A: 그렇습니다. 보고서 페이지는 한 번에 한 페이지만 인쇄할 수 있습니다.
+* A: 정상 동작입니다. 보고서 페이지는 한 번에 한 페이지만 인쇄할 수 있습니다.
 * Q: PDF로 인쇄할 수 없습니다.    
-* A: 브라우저에서 PDF 드라이버를 이미 구성한 경우에만 옵션이 나타납니다.    
-* Q: **인쇄**를 선택한 경우 표시 내용이 여기에 표시된 내용과 일치하지 않습니다.    
+* A: 이 옵션은 브라우저에서 PDF 드라이버를 구성한 경우에만 나타납니다.    
+* Q: **인쇄**를 선택하면 표시되는 내용이 여기에 표시된 내용과 같지 않습니다.    
 * A: 인쇄 화면은 브라우저 및 소프트웨어 버전에 따라 다릅니다.
-* Q: 내 인쇄물이 제대로 조정되지 않습니다.  내 대시보드가 페이지에 맞지 않습니다. 기타 크기 조정 및 방향 질문입니다.    
-* A: 인쇄된 복사본이 Power BI 서비스와 정확히 동일하게 나타난다고는 보장할 수 없습니다. 크기 조정, 여백, 시각적 개체 세부 정보, 방향 및 크기와 같은 항목은 Power BI에서 제어되지 않습니다. 다음과 같은 문제에 대한 도움말은 특정 브라우저에 대한 설명서를 참조하세요.      
+* Q: 인쇄물의 크기가 올바르게 조정되지 않습니다.  내 대시보드가 페이지에 맞지 않습니다. 기타 크기 조정 및 방향 질문입니다.    
+* A: 인쇄된 복사본이 Power BI 서비스에 표시되는 것과 정확히 동일하게 표시된다고 보장할 수는 없습니다. 크기 조정, 여백, 시각적 개체 세부 정보, 방향 및 크기와 같은 항목은 Power BI에서 제어되지 않습니다. 다음과 같은 문제에 대한 도움말은 특정 브라우저에 대한 설명서를 참조하세요.      
 
 ## <a name="next-steps"></a>다음 단계
 [동료 및 다른 사용자와 대시보드 및 보고서 공유](../service-share-dashboards.md)

@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473868"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280814"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>빠른 시작 - Power BI 서비스 살펴보기
 
@@ -40,7 +41,7 @@ Power BI 서비스 둘러보기에서 사용할 샘플 데이터를 가져오겠
 
     Power BI 서비스에서 샘플을 가져오고 대시보드를 표시합니다. 대시보드는 Power BI Desktop과 Power BI 서비스를 구분할 수 있는 항목입니다. 또한 샘플에 포함된 보고서와 데이터 세트도 나중에 살펴보도록 하겠습니다.
 
-    ![](media/end-user-experience/power-bi-dashboard.png)
+    ![대시보드](media/end-user-experience/power-bi-dashboard.png)
 
 Power BI 서비스 탐색 경험을 안내하는 Amanda를 봅니다.  그런 다음 비디오 아래에 있는 단계별 지침을 따라서 직접 탐색해 볼 수 있습니다.
 
@@ -50,7 +51,7 @@ Power BI 서비스 탐색 경험을 안내하는 Amanda를 봅니다.  그런 �
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>콘텐츠(대시보드, 보고서, 통합 문서, 데이터 집합, 작업 영역, 앱) 보기
 먼저 기본 콘텐츠(대시보드, 보고서, 데이터 집합, 통합 문서)가 어떻게 구성되는지 살펴 보겠습니다. 콘텐츠는 작업 영역 컨텍스트 내에서 표시됩니다. 지금은 하나의 작업 영역만 있으며 **내 작업 영역**이라고 합니다. 일반적으로 소비자는 다른 모든 작업 영역을 사용하지 않거나 필요로 하지 않습니다. [내 작업 영역]에는 소유한 모든 콘텐츠가 저장됩니다. 고유한 콘텐츠에 대한 개인 샌드박스 또는 작업 영역으로 생각하면 됩니다. 내 작업 영역은 방금 다운로드한 소매점 분석 샘플이 저장되는 위치입니다. 
 
-내 작업 영역 내에서 콘텐츠는 대시보드, 보고서, 통합 문서, 데이터 집합이라는 네 개의 탭으로 구성됩니다.
+내 작업 영역에서는 콘텐츠가 네 개의 탭(대시보드, 보고서, 통합 문서, 데이터 세트)으로 구성됩니다.
 
 ![내 작업 영역 화면](./media/end-user-experience/power-bi-my-workspace.png)
 

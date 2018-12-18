@@ -1,22 +1,23 @@
 ---
-title: 포커스 모드 및 전체 화면 모드 - 더 자세한 정보를 보기 위해 확대하는 방법입니다.
+title: 포커스 모드와 전체 화면 모드 - 확대하여 더 자세히 보는 방법
 description: 포커스 모드 또는 전체 화면 모드에서 Power BI 대시보드, 대시보드 타일, 보고서 또는 보고서 시각화를 표시하는 방법에 대한 설명서
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 70e7fcb9f38c6dbf52adf58f8477f671156c9da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 13032e011446fad765961dacdb83fbb8bd5a2f6e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507964"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279963"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>콘텐츠를 더 자세히 표시: 포커스 모드 및 전체 화면 모드
 
@@ -83,7 +84,7 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
     전체 화면 보기에서 이러한 화살표를 사용하여 보고서의 페이지 간을 이동합니다.    
   * 전체 화면 모드를 종료하려면 **전체 화면 종료** 아이콘을 선택합니다.
 
-      ![](media/end-user-focus/exit-fullscreen-new.png)
+      ![전체 화면 종료 아이콘](media/end-user-focus/exit-fullscreen-new.png)
 
 ## <a name="working-in-focus-mode"></a>포커스 모드에서 작업
 포커스 모드를 여는 두 가지 방법은 대시보드 타일 및 보고서 시각화를 사용하는 것입니다.
@@ -130,7 +131,7 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
     ![포커스 모드 나가기](media/end-user-focus/power-bi-exit-focus-report.png)  
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-* 보고서에서 포커스 모드를 시각화와 함께 사용할 때에는 모든 필터: 시각적 수준, 페이지 수준, 드릴스루 및 보고서 수준을 보고 조작할 수 있습니다.    
+* 보고서의 시각화에서 포커스 모드를 사용할 때는 모든 필터(시각적 수준, 페이지 수준, 드릴스루 및 보고서 수준)을 보고 조작할 수 있습니다.    
 * 대시보드에서 포커스 모드를 시각화와 함께 사용할 때에는 시각적 수준 필터만을 보고 조작할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계

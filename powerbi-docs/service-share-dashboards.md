@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: abddbf3e4ae0b51dbb46f949e6d4f287d084f873
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271766"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281034"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. Power BI는 [대시보드 및 보고서를 공동 작업하고 배포하는 여러 가지 다른 방법](service-how-to-collaborate-distribute-dashboards-reports.md)도 제공합니다.
@@ -29,7 +29,7 @@ Power BI 서비스의 대부분의 위치(즐겨찾기, 최근 항목, 공유한
 
 또한 [Power BI 모바일 앱에서 대시보드를 공유](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)할 수 있습니다. Power BI 서비스 또는 Power BI 모바일 앱에서는 대시보드를 공유할 수 있지만 Power BI Desktop에서는 공유할 수 없습니다.
 
-## <a name="video-share-a-dashboard"></a>동영상: 대시보드 공유
+## <a name="video-share-a-dashboard"></a>비디오: 대시보드 공유
 Amanda가 회사 내부 및 외부의 동료와 대시보드를 공유하는 과정을 시청합니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0tUwn8DHo3s?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -96,7 +96,7 @@ Amanda가 회사 내부 및 외부의 동료와 대시보드를 공유하는 과
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>조직 외부 사용자와 대시보드 또는 보고서 공유
 조직 외부 사용자와 공유하는 경우 해당 사용자는 공유 대시보드 또는 보고서에 대한 링크가 포함된 메일을 수신하고 Power BI에 로그인하여 대시보드 또는 보고서를 확인해야 합니다. Power BI Pro 라이선스가 없는 경우 링크를 클릭한 후 라이선스를 등록할 수 있습니다.
 
-로그인하면 일반적인 Power BI 포털이 아닌, 왼쪽 탐색 창이 없는 브라우저 창에 공유 대시보드 또는 보고서가 표시됩니다. 나중에 이 대시보드 또는 보고서에 액세스하려면 링크에 책갈피를 설정해야 합니다.
+로그인하면 일반적인 Power BI 포털이 아닌, 왼쪽 탐색 창이 없는 브라우저 창에 공유 대시보드 또는 보고서가 표시됩니다. 나중에 이 대시보드 또는 보고서에 액세스하려면 링크를 책갈피에 추가해야 합니다.
 
 이 대시보드 또는 보고서의 어떤 내용도 편집할 수 없습니다. 차트를 조작하고 보고서의 필터 또는 슬라이서를 변경할 수 있지만 변경 내용을 저장할 수는 없습니다.
 
@@ -111,7 +111,7 @@ Power BI 모바일 앱에서 조직 외부의 사람들에게 링크를 보낼 �
 
 * 일반적으로 사용자와 사용자의 동료는 대시보드 또는 보고서에서 동일한 데이터를 볼 수 있습니다. 따라서 사용자가 타인보다 더 많은 데이터를 볼 수 있는 권한을 가진 경우, 그들도 사용자의 대시보드 또는 보고서의 모든 데이터를 볼 수 있게 됩니다. 그러나 [RLS(행 수준 보안)](service-admin-rls.md)가 대시보드 또는 보고서 바탕이 되는 데이터 집합에 적용된 경우 각 사용자의 자격 증명은 해당 사용자가 액세스할 수 있는 데이터가 무엇인지 결정하는 데 사용됩니다.
 * 대시보드를 공유하는 모든 사용자는 대시보드를 보고 [읽기용 보기](consumer/end-user-reading-view.md)에서 관련 보고서를 조작할 수 있습니다. 보고서를 만들거나 기존 보고서에 변경 내용을 저장할 수는 없습니다.
-* 데이터 집합을 다운로드하거나 볼 수는 없습니다.
+* 누구도 데이터 세트를 다운로드하거나 볼 수는 없지만, Excel에서 분석 기능을 사용하여 데이터 세트에 직접 액세스할 수는 있습니다.  관리자는 그룹에 포함된 모든 사용자의 권한을 제한함으로써 Excel에서 분석 기능의 사용 가능 여부를 제한할 수 있습니다. 이때 제한은 해당 그룹이 포함된 모든 작업 영역에서 그룹에 포함된 모든 사용자에게 적용됩니다.
 * 모든 사용자는 수동으로 [데이터를 새로 고칠](refresh-data.md) 수 있습니다.
 * Office 365를 메일에 사용하는 경우 메일 그룹과 연결된 메일 주소를 입력하여 메일 그룹의 멤버와 공유할 수 있습니다.
 * 사용자와 동일한 메일 도메인을 가진 동료 및 도메인은 다르지만 동일한 테넌트 내에 등록된 동료는 다른 사용자요 대시보드를 다시 공유할 수 있습니다. 예를 들어 contoso.com 및 contoso2.com 도메인이 동일한 테넌트에 등록되어 있다고 가정합니다. 이메일 주소가 konrads@contoso.com인 경우, 사용자가 공유 권한을 부여하기만 하면 ravali@contoso.com 및 gustav@contoso2.com 모두 공유할 수 있습니다.

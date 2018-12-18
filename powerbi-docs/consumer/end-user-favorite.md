@@ -3,20 +3,21 @@ title: Power BI 서비스의 즐겨찾기(대시보드, 보고서, 앱)
 description: Power BI 서비스에서 대시보드, 보고서, 앱을 즐겨찾기에 추가하는 방법에 대한 설명서
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: cc94f352c550d7fba96f71f894e8d81ba5bc487a
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452502"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280192"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>즐겨 찾는 대시보드, 보고서 및 Power BI 서비스의 앱
 콘텐츠를 *즐겨찾기* 로 만들면 모든 작업 영역에서 액세스할 수 있습니다.  즐겨찾기는 일반적으로 가장 자주 방문하는 콘텐츠입니다.
@@ -61,7 +62,7 @@ Amanda가 작업 영역에 즐겨찾기를 추가하는 비디오를 시청한 �
    
     ![즐겨찾기 창](./media/end-user-favorite/power-bi-favorites-screen.png)
    
-   여기에서 열기, 소유자 식별, 심지어 동료와 공유 등의 작업을 수행할 수 있습니다.
+   여기에서 열기, 소유자 식별, 동료와 공유 등의 작업을 수행할 수 있습니다.
 
 ## <a name="unfavorite-content"></a>즐겨찾기에서 제거된 콘텐츠
 이제 보고서를 예전만큼 자주 사용하지 않나요?  즐겨찾기에서 제거할 수 있습니다. 즐겨찾기에서 제거하면 콘텐츠는 즐겨찾기 목록에서 제거되지만 Power BI에서는 제거되지 않습니다.

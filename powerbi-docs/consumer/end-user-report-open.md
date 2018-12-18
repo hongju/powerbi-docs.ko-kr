@@ -1,23 +1,24 @@
 ---
-title: 소비자에 대한 Power BI 서비스의 보고서를 봅니다.
+title: 보고서 보기
 description: 이 항목에서는 Power BI 소비자와 최종 사용자가 Power BI 보고서를 열고 보아야 하는 내용을 표시합니다.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: df28cd585998b8877a788e709eaf6b22474e6122
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396937"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281056"
 ---
 # <a name="view-a-report-in-power-bi-service-for-consumers"></a>*소비자*에 대한 Power BI 서비스의 보고서 보기
-보고서는 하나 이상의 시각적 개체 페이지입니다. 보고서는 Power BI *보고서 디자이너*가 만들며 [직접 또는 [앱](end-user-apps.md)의 일부로 *소비자](end-user-shared-with-me.md)와 공유*됩니다. 
+보고서는 하나 이상의 시각적 개체 페이지입니다. 보고서는 Power BI ‘보고서 디자이너’가 만들고 직접 또는 [앱](end-user-apps.md)의 일부로 [‘소비자’와 공유](end-user-shared-with-me.md)합니다. 
 
 여러 가지 방법으로 보고서를 열 수 있으며, 여기서는 홈페이지 또는 대시보드에서 여는 방법을 보여줍니다. 
 
@@ -38,7 +39,7 @@ Power BI ‘디자이너’가 상단 메뉴 모음에 있는 **공유** 단추�
 
    ![홈페이지](./media/end-user-report-open/power-bi-select-home.png)
    
-3. **공유한 항목**이 표시될 때까지 아래로 스크롤합니다. 보고서 아이콘 ![보고서 아이콘](./media/end-user-report-open/power-bi-report-icon.png)을 찾습니다. 이 스크린샷에는 ‘재무’ 보고서와 Northwind ‘보고서’가 있습니다. 
+3. **공유한 항목**이 표시될 때까지 아래로 스크롤합니다. 보고서 아이콘 ![보고서 아이콘](./media/end-user-report-open/power-bi-report-icon.png)을 찾습니다. 이 스크린샷에는 *재무* 보고서와 *Northwind* 보고서가 있습니다. 
    
    ![홈페이지의 공유한 항목 섹션](./media/end-user-report-open/power-bi-shared.png)
 

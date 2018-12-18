@@ -1,21 +1,22 @@
 ---
-title: Power BI 서비스 및 Desktop의 질문 및 답변 개요
+title: Power BI 서비스의 질문 및 답변 개요
 description: Power BI 질문 및 답변 자연어 쿼리에 대한 설명서 개요 항목입니다.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 361c71c979d65e5c71ada6889bc7312ef64da23e
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 3548041be39705c3013d09740040afc3e7f1c9e7
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396362"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279581"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **소비자**를 위한 질문 및 답변
 ## <a name="what-is-qa"></a>질문 및 답변이란 무엇인가요?
@@ -46,7 +47,7 @@ Power BI 서비스의 대시보드, 즉 Power BI Mobile의 경우 대시보드 �
 
 ![질문 및 답변 화면](media/end-user-q-and-a/power-bi-qna-screen.png) 
 
-* 시각화 축 레이블과 값에 "sales", "account", "month" 및 "opportunities"가 포함되는 경우 "Which *account* has the highest *opportunity* 또는 show *sales* by month as a bar chart"와 같은 질문을 자신 있게 할 수 있습니다.
+* 시각화의 축 레이블과 값에 "sales", "account", "month" 및 "opportunities"가 포함된, 경우 "Which *account* has the highest *opportunity*"(opportunity가 가장 큰 account는?), "Show *sales* by month as a bar chart"(월별 sales를 막대형 차트로 표시)와 같은 질문을 할 수 있습니다.
 
 * Google 분석의 웹 사이트 성능 데이터가 있는 경우 웹 페이지에 소요된 시간, 페이지 순 방문 수 및 사용자 참여율에 대한 질문 및 답변을 할 수 있습니다. 또는 인구 통계 데이터를 쿼리하는 경우 지역별 연령 및 가구 소득에 대한 질문을 할 수 있습니다.
 
@@ -73,7 +74,7 @@ Power BI 서비스의 대시보드, 즉 Power BI Mobile의 경우 대시보드 �
 
 **답변 2**: 대시보드 *설계자* 또는 관리자가 질문 및 답변을 해제하는 경우도 있습니다. 대시보드 설계자 또는 관리자에게 질문 및 답변을 다시 설정해도 되는지 확인하세요.   
 
-**질문**: 질문을 입력할 때 원하는 결과가 표시되지 않습니다.    
+**질문**: 질문을 입력해도 원하는 결과가 표시되지 않습니다.    
 **답변**: 대시보드 *설계자*에게 문의합니다. 설계자는 다양한 방법으로 질문 및 답변 결과를 개선할 수 있습니다. 예를 들어 설계자는 데이터 집합 열의 이름을 쉽게 이해할 수 있는 이름으로 변경할 수 있습니다(`CustFN` 대신 `CustomerFirstName`). 설계자는 데이터 집합을 정말로 잘 알고 있기 때문에 도움이 되는 질문을 생각하여 Q&A 캔버스에 추가할 수도 있습니다.
 
 ![주요 질문 개요](media/end-user-q-and-a/power-bi-featured-q.png)

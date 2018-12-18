@@ -1,21 +1,22 @@
 ---
-title: Power BI 시각화를 생성하는 데 사용된 데이터 표시
+title: 시각화를 생성하는 데 사용 된 데이터 표시
 description: 이 문서에서는 Power BI 소비자가 시각적 개체를 만드는 데 사용되는 데이터를 어떻게 "볼 수 있는지" 설명합니다.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58251ffa31dcac17f83c8b4ab3962b7df4b87f84
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 4a3acd0d95b400a15348b896f150b74f01f5ce03
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396385"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279389"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>시각화를 생성하는 데 사용 된 데이터 표시
 ## <a name="show-data"></a>데이터 표시
@@ -31,7 +32,7 @@ Power BI 시각화는 기본 데이터 집합의 데이터를 사용하여 구�
    
    ![시각적 개체 및 데이터 세로 표시](./media/end-user-show-data/power-bi-explore-show-data-new.png)
 
-4. 방향을 변경하려면 시각화의 오른쪽 맨 위 모서리에서 세로 레이아웃 ![](media/end-user-show-data/power-bi-vertical-icon-new.png)을 선택합니다.
+4. 방향을 변경하려면 시각화의 오른쪽 위에서 세로 레이아웃 ![레이아웃 아이콘](media/end-user-show-data/power-bi-vertical-icon-new.png) 을 선택합니다.
    
    ![시각적 개체 및 데이터 가로 표시](./media/end-user-show-data/power-bi-explore-show-data2-new.png)
 

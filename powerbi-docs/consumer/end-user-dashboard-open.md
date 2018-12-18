@@ -1,21 +1,22 @@
 ---
 title: Power BI 대시보드 보기
-description: 대시보드는 Power BI 서비스의 핵심 기능입니다.
+description: 대시보드는 Power BI 서비스의 핵심 기능입니다. 대시보드를 열고 보는 방법을 알아보세요.
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53575f657c2d58f9d6b1908fb42bbb9267c3a3b8
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 2fa614683ecfebc0693829c834dcfa4f160d22b1
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396684"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279756"
 ---
 # <a name="view-a-dashboard"></a>대시보드 보기
 Power BI 소비자는 대시보드를 보는 데 많은 시간을 소비합니다. 대시보드는 기본 보고서 및 데이터 집합에서 특정 정보를 강조 표시하도록 설계되었습니다. 또한 Power BI 소비자는 데이터 기반 비즈니스 의사 결정을 수행하기 위해 추적, 모니터링, 질문에 답변, 테스트 등에 해당 정보를 사용합니다.

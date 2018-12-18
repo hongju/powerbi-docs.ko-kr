@@ -1,24 +1,25 @@
 ---
-title: Power BI를 사용하여 데이터 정보를 자동으로 생성
-description: 데이터 집합 및 대시보드 타일에 대한 정보를 얻는 방법에 대해 알아봅니다.
+title: 대시보드 타일에서 인사이트 실행 및 보기
+description: Power BI 최종 사용자로 대시보드 타일 관련 인사이트를 얻는 방법을 알아봅니다.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f68e962eacf04005d83ec0def10cf8e0e24f6e10
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112041"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180533"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>Power BI를 사용하여 데이터 정보를 자동으로 생성
+# <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI로 대시보드 타일에서 데이터 인사이트 보기
 대시보드의 각 시각화 타일은 데이터 탐색에 사용됩니다. 타일을 선택하면 보고서 기반의 데이터 집합을 필터링 및 정렬하고 자세히 살펴볼 수 있는 보고서가 열립니다. 또한 인사이트를 실행하면 Power BI에서 데이터 탐색을 수행합니다.
 
 신속한 정보 활용을 실행하여 데이터를 기준으로 흥미로운 대화형 시각화를 생성합니다. 빠른 인사이트는 특정 대시보드 타일에서 실행할 수 있으므로 특정 인사이트에 대해 인사이트를 실행할 수도 있습니다.
@@ -40,7 +41,9 @@ ms.locfileid: "49112041"
 4. 인사이트 하나로 호기심이 자극되나요? 자세히 알아보려면 해당 인사이트 카드를 선택합니다. 선택한 인사이트는 왼쪽에 나타나고 해당 단일 인사이트의 데이터에만 기초한 새 인사이트 카드는 오른쪽에 표시됩니다.    
 
  ## <a name="interact-with-the-insight-cards"></a>정보 활용 카드와 상호 작용
-   * 시각화를 필터링합니다.  필터를 표시하려면 오른쪽 위 모서리에 있는 화살표를 선택하여 필터 창을 확장합니다.
+일단 인사이트가 시작되면 계속 살펴보세요.
+
+   * 캔버스에서 시각적 개체를 필터링합니다.  필터를 표시하려면 오른쪽 위 모서리에 있는 화살표를 선택하여 필터 창을 확장합니다.
 
      ![확장된 필터 메뉴](./media/end-user-insights/power-bi-insights-on-insights.png)
    
