@@ -6,19 +6,20 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
+ms.custom: seodec18
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 71e30fa6c53e7ed8ed4364dca668b2a689ef1f19
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 50858dcab91980e85e71fd82dec4189139eea2b4
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641753"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280538"
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service-consumers"></a>***Power BI - Power BI 서비스 소비자를 위한 기본 개념***
+# <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI 서비스 ***소비자를*** 위한 기본 개념
 
 ## <a name="power-bi-consumers-and-designers"></a>Power BI *소비자* 및 *설계자*
 이 문서에서는 독자가 [Power BI 개요](../power-bi-overview.md)를 이미 읽었고, 자신을 Power BI ***소비자***로 인식하고 있다고 가정합니다. 소비자는 동료에게 대시보드 및 보고서와 같은 Power BI 콘텐츠를 받습니다. 소비자는 웹 사이트 기반 버전의 Power BI인 Power BI 서비스를 사용합니다. 
@@ -33,21 +34,21 @@ ms.locfileid: "49641753"
 
 시작하려면 브라우저를 열고 **app.powerbi.com**만 입력하면 됩니다. Power BI 서비스를 맨 처음에 열면 다음과 같은 내용이 표시됩니다.
 
-![](media/end-user-basic-concepts/power-bi-open.png)
+![Power BI 서비스 시작 화면](media/end-user-basic-concepts/power-bi-open.png)
 
 Power BI를 사용할 때는 웹 사이트를 열 때마다 표시되는 내용을 개인 설정할 수 있습니다.  예를 들어, Power BI가 홈 페이지를 여는 것을 선호하는 사람도 있고, 즐겨찾기 대시보드에 먼저 표시되는 것을 선호하는 사람도 있습니다. 걱정하지 마세요. 그 방법을 알려드리겠습니다. 
 - [홈 미리 보기](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
 - [콘텐츠를 **추천**](end-user-featured.md) 콘텐츠로 설정 
 
-![](media/end-user-basic-concepts/power-bi-first.png)
+![홈페이지 보기와 대시보드 보기](media/end-user-basic-concepts/power-bi-first.png)
 
 하지만 좀 더 자세히 살펴보기 전에 Power BI 서비스를 구성하는 요소에 대한 이야기로 돌아가 보겠습니다.
 
 ## <a name="power-bi-content"></a>Power BI ***콘텐츠***
 ### <a name="introduction-to-building-blocks"></a>구성 요소 소개
-Power BI 소비자를 위한 5가지 구성 요소는 ***시각화***, ***대시보드***, ***보고서***, ***앱*** 및 ***데이터 집합***입니다. 이를 *Power BI* ***콘텐츠***라고 부르기도 합니다. 그리고 *콘텐츠*는 ***작업 영역***에 있습니다. 일반적인 워크플로에는 이러한 모든 구성 요소가 관여합니다. Power BI *설계자*(아래 다이어그램에서 노란색으로 표시)는 *데이터 집합*에서 데이터를 수집하고, 분석을 위해 Power BI로 가져오고, 흥미로운 사실과 인사이트를 강조 표시하는 *시각화*로 가득찬 *보고서*를 만들고, 보고서의 시각화를 대시보드에 고정하고, 보고서 및 대시보드를 *앱* 또는 다른 공유 콘텐츠 형태로 *소비자*(아래 다이어그램에 검은색으로 표시)와 공유합니다. 
+Power BI 소비자를 위한 5가지 구성 요소는 ***시각화***, ***대시보드***, ***보고서***, ***앱*** 및 ***데이터 집합***입니다. 이를 *Power BI* ***콘텐츠***라고 부르기도 합니다. 그리고 *콘텐츠*는 ***작업 영역***에 있습니다. 일반적인 워크플로에서는 이와 같은 구성 요소가 모두 사용됩니다.  Power BI *설계자*(아래 다이어그램에서 노란색으로 표시)는 *데이터 세트*에서 데이터를 수집하고, 분석을 위해 Power BI로 가져오고, 유용한 사실과 인사이트를 보여주는 다양한 *시각화*로 구성된 *보고서*를 만들고, 보고서의 시각화를 대시보드에 고정하고, 보고서 및 대시보드를 *앱* 또는 다른 공유 콘텐츠 형태로 *소비자*와 공유합니다(아래 다이어그램에서 검은색으로 표시). 
 
-![](media/end-user-basic-concepts/power-bi-workflow.png)
+![순서도, 기본](media/end-user-basic-concepts/power-bi-workflow.png)
 
 가장 기본적으로 
 * ![시각화 아이콘](media/end-user-basic-concepts/visual.png) ***시각화***(또는 *시각적 개체*)는 Power BI *설계자*가 *보고서* 및 *데이터 집합*의 데이터를 사용하여 빌드한 차트 유형입니다. 일반적으로 *설계자*는 Power BI Desktop의 시각적 개체를 빌드합니다. 
@@ -71,14 +72,14 @@ _______________________________________________________
 
 
 
-## <a name="datasets"></a>데이터 집합
+## <a name="datasets"></a>데이터 세트
 *데이터 집합*은 *설계자*가 가져오거나 연결한 다음, 보고서와 대시보드를 빌드하는 데 사용하는 데이터 컬렉션입니다. 소비자는 데이터와 직접 상호 작용하지 않지만 더 큰 그림에 어떻게 부합하는지 이해하면 도움이 될 것입니다.  
 
 각 데이터 집합은 OneDrive의 Excel 통합 문서, 온-프레미스 SSAS 표 형식 데이터 집합, Salesforce 데이터 집합 등 데이터의 단일 원본을 나타냅니다. 다양한 데이터 원본이 지원됩니다.
 
 설계자가 소비자와 앱을 공유하면 소비자는 앱에 포함된 데이터 집합을 확인할 수 있습니다. 
 
-![](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![앱이 선택된 상태에서 캔버스의 데이터 세트 섹션을 가리키는 화살표](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
 **하나의** 데이터 집합은...
 
@@ -107,7 +108,7 @@ Power BI에서 볼 수 있는 시각화로는 폭포, 리본, 트리맵, 원형,
 * 여러 대시보드에 사용할 수 있습니다.
 __________________________________________________
 ## <a name="reports"></a>보고서
-Power BI 보고서는 시각화, 그래픽 및 텍스트로 이루어진 하나 이상의 페이지입니다. 보고서의 모든 시각화는 단일 데이터 집합에서 제공합니다. *설계자*는 *읽기 보기*](end-user-reading-view.md)에서 보고서와 상호 작용하는 *소비자*와 보고서를 공유합니다.[
+Power BI 보고서는 시각화, 그래픽 및 텍스트로 이루어진 하나 이상의 페이지입니다. 보고서의 모든 시각화는 단일 데이터 집합에서 제공합니다. *설계자*는 [*읽기 보기*에서 보고서와 상호 작용하는](end-user-reading-view.md) *소비자*와 보고서를 공유합니다.
 
 ![탭이 포함된 보고서](media/end-user-basic-concepts/power-bi-report2.png)
 
@@ -117,14 +118,14 @@ Power BI 보고서는 시각화, 그래픽 및 텍스트로 이루어진 하나 
 * 데이터 집합 하나의 데이터만 사용하여 만들 수 있습니다.  
 * 여러 앱의 일부일 수 있습니다.
   
-  ![](media/end-user-basic-concepts/drawing5.png)
+  ![보고서의 관계를 보여주는 그림](media/end-user-basic-concepts/drawing5.png)
 
 ________________________________________________
 
 ## <a name="dashboards"></a>대시보드
 대시보드는 기본 데이터 집합의 일부 하위 집합에 대한 사용자 지정 보기를 나타냅니다. *설계자*는 대시보드를 빌드하고 개인적으로 혹은 앱에 포함하는 방법으로 *소비자*와 공유합니다. 대시보드는 *타일*, 그래픽 및 텍스트가 포함된 단일 캔버스입니다. 
 
-  ![](media/end-user-basic-concepts/power-bi-dashboard.png)
+  ![샘플 대시보드](media/end-user-basic-concepts/power-bi-dashboard.png)
 
 타일은 *설계자*가 보고서에서 대시보드 등으로 *고정*하는 시각적 개체의 렌더링입니다.  고정된 각 타일에는 데이터 집합에서 만들고 대시보드에 고정된 [시각화](end-user-visualizations.md)가 표시됩니다. 또한 타일에는 전체 보고서 페이지가 포함될 수 있으며, 라이브 스트리밍 데이터 또는 동영상도 포함될 수 있습니다. *설계자*가 대시보드에 타일을 추가할 수 있는 여러 가지 방법이 있지만 이 개요 항목에서 다루기엔 너무 많습니다. 자세히 알아보려면 [Power BI의 대시보드 타일](end-user-tiles.md)을 참조하세요. 
 
@@ -144,20 +145,20 @@ ________________________________________________
 * 여러 보고서의 시각화를 표시할 수 있습니다.
 * 다른 도구(예: Excel)에서 고정된 시각화를 표시할 수 있습니다.
   
-  ![](media/end-user-basic-concepts/drawing1.png)
+  ![대시보드의 관계를 보여주는 그림](media/end-user-basic-concepts/drawing1.png)
 
 ________________________________________________
 
 ## <a name="apps"></a>앱
 이러한 대시보드 및 보고서 컬렉션은 관련 콘텐츠를 단일 패키지로 정리합니다. Power BI *설계자*는 이를 빌드하고 개인, 그룹, 전체 조직 또는 대중과 공유합니다. 소비자는 자신이 동료와 동일한 데이터(단일 버전의 진실한 정보)로 작업하고 있음을 확신할 수 있습니다. 
 
-![](media/end-user-basic-concepts/power-bi-app.png)
+![왼쪽 탐색 창에서 앱이 선택된 상태](media/end-user-basic-concepts/power-bi-app.png)
 
 앱은 Power BI 서비스(https://powerbi.com) 및 모바일 장치에서 쉽게 찾아 설치할 수 있습니다. 앱을 설치한 후에는 다양한 여러 대시보드가 앱, 브라우저 또는 모바일 장치에 모두 함께 있기 때문에 그 이름들을 기억할 필요가 없습니다. 
 
 이 앱에는 단일 앱을 구성하는 관련 대시보드 3개와 관련 보고서 3개가 있습니다.
 
-![](media/end-user-basic-concepts/power-bi-app-list.png)
+![선택한 앱과 관련된 콘텐츠](media/end-user-basic-concepts/power-bi-app-list.png)
 
 앱을 사용하면 앱 작성자가 업데이트를 릴리스할 때마다 자동으로 변경 사항을 확인할 수 있습니다. 또한 작성자는 데이터 새로 고침 예약 빈도를 조절하기도 하므로, 최신 상태로 유지하는 것에 대해 염려할 필요가 없습니다.
 
