@@ -33,7 +33,7 @@ ms.locfileid: "52268300"
 
 Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 정부용)에는 다중 지역을 사용할 수 없습니다.
 
-이제 Power BI Embedded에서도 Multi-Geo를 사용할 수 있습니다. [Multi-Geo support in Power BI Embedded (Preview)](developer/embedded-multi-geo.md)(Power BI Embedded(미리 보기)의 Multi-Geo 지원)에서 자세한 내용을 확인해 보세요.
+이제 Power BI Embedded에서도 Multi-Geo를 사용할 수 있습니다. [Power BI Embedded(미리 보기)의 Multi-Geo 지원](developer/embedded-multi-geo.md)에서 자세한 내용을 확인해 보세요.
 
 ## <a name="using-multi-geo"></a>다중 지역 사용
 
