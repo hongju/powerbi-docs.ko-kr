@@ -1,6 +1,6 @@
 ---
-title: Power BI Desktop의 보고서 뷰
-description: Power BI Desktop의 보고서 뷰
+title: Power BI Desktop의 보고서 보기
+description: Power BI Desktop의 보고서 보기
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -72,7 +72,7 @@ Power BI Desktop 보고서에서 시각적 개체를 가져와서 손쉽게 다�
 
 보고서를 만들 때 보고서에서 페이지를 숨길 수도 있습니다. 이 기능은 다른 보고서 페이지에서 사용되는 테이블이나 지원되는 시각적 개체를 만드는 경우처럼, 보고서에 기본 데이터 또는 시각적 개체를 만들어야 하지만 해당 페이지가 다른 사람에게 표시되는 것을 원하지 않을 경우에 유용할 수 있습니다. 보고서 페이지를 만들고 게시하려는 보고서에서 페이지를 숨기려는 다른 독창적인 이유가 많이 있습니다. 
 
-간단하게 보고서 페이지를 숨길 수 있습니다. 보고서 페이지 탭을 마우스 오른쪽 단추로 클릭하고 나타나는 메뉴에서 페이지 숨기기 를 선택하면 됩니다.
+간단하게 보고서 페이지를 숨길 수 있습니다. 보고서 페이지 탭을 마우스 오른쪽 단추로 클릭하고 나타나는 메뉴에서 **페이지 숨기기**를 선택하면 됩니다.
 
 ![페이지 숨기기 옵션](media/desktop-report-view/report-view_05.png)
 
