@@ -28,7 +28,7 @@ Power BI Pro 라이선스가 있는 경우 또는 [프리미엄 용량](service-
 ![타일](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
 > [!WARNING]
-> 데이터 기반 경고 알림은 데이터에 관한 정보를 제공합니다. 모바일 장치에서 Power BI 데이터를 보는 데 그 모바일 장치를 잃어버린 경우 Power BI 서비스를 사용하여 모든 데이터 기반 경고 규칙을 해제하는 것이 좋습니다.
+> 데이터 기반 경고 알림은 데이터에 관한 정보를 제공합니다. 모바일 디바이스에서 Power BI 데이터를 보는 데 그 모바일 디바이스를 잃어버린 경우 Power BI 서비스를 사용하여 모든 데이터 기반 경고 규칙을 해제하는 것이 좋습니다.
 > 
 > 
 

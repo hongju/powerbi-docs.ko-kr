@@ -27,7 +27,7 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 대시보드에 표시되는 시각화를 타일이라고 하며 보고서에서 대시보드에 고정됩니다. Power BI를 처음 접하는 경우 [Power BI 기본 개념](end-user-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
 
 > [!NOTE]
-> 대시보드는 Power BI 서비스의 기능이며 Power BI Desktop에서는 사용할 수 없습니다. 모바일 장치에서는 대시보드를 만들 수 없지만 [보고 공유](mobile/mobile-apps-view-dashboard.md)할 수는 있습니다.
+> 대시보드는 Power BI 서비스의 기능이며 Power BI Desktop에서는 사용할 수 없습니다. 모바일 디바이스에서는 대시보드를 만들 수 없지만 [보고 공유](mobile/mobile-apps-view-dashboard.md)할 수는 있습니다.
 > 
 > 
 

@@ -21,7 +21,7 @@ ms.locfileid: "52157267"
 
 적용 대상:
 
-| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Windows 10 장치](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
+| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Windows 10 디바이스](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
 
@@ -37,7 +37,7 @@ ms.locfileid: "52157267"
 ### <a name="install-the-power-bi-for-android-app"></a>Android용 Power BI 앱 설치
 Google Play에서 [Android용 Power BI 앱](http://go.microsoft.com/fwlink/?LinkID=544867)을 다운로드합니다.
 
-Power BI는 Android 5.0 이상 운영 체제를 실행하는 Android 장치에서 작동합니다. 장치를 확인하려면 **설정** > **장치 정보** > **Android 버전**으로 이동합니다.
+Power BI는 Android 5.0 이상 운영 체제를 실행하는 Android 디바이스에서 작동합니다. 디바이스를 확인하려면 **설정** > **디바이스 정보** > **Android 버전**으로 이동합니다.
 
 ### <a name="download-the-retail-analysis-sample"></a>분석 샘플 정보
 빠른 시작의 첫 번째 단계는 Power BI 서비스에 소매점 분석 샘플을 다운로드하는 것입니다.
@@ -72,10 +72,10 @@ Power BI는 Android 5.0 이상 운영 체제를 실행하는 Android 장치에�
    
    ![소매점 분석 샘플 대시보드](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-service-opportunity-sample.png)
 
-Android 장치에서 샘플을 볼 준비가 되었습니다.
+Android 디바이스에서 샘플을 볼 준비가 되었습니다.
 
-## <a name="view-a-dashboard-on-your-android-device"></a>Android 장치에서 대시보드 보기
-1. Android 장치에서 Power BI 앱을 열고, 브라우저에서 Power BI 서비스에 사용한 것과 동일한 Power BI 계정 자격 증명으로 로그인합니다.
+## <a name="view-a-dashboard-on-your-android-device"></a>Android 디바이스에서 대시보드 보기
+1. Android 디바이스에서 Power BI 앱을 열고, 브라우저에서 Power BI 서비스에 사용한 것과 동일한 Power BI 계정 자격 증명으로 로그인합니다.
 
 1.  왼쪽 위 모퉁이에서 ![전역 탐색 단추](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-global-nav-button.png).
 
@@ -150,7 +150,7 @@ Android 장치에서 샘플을 볼 준비가 되었습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-이 빠른 시작에서는 Android 장치의 샘플 대시보드 및 보고서를 살펴보았습니다. Power BI 서비스 작업에 대해 자세히 알아보세요. 
+이 빠른 시작에서는 Android 디바이스의 샘플 대시보드 및 보고서를 살펴보았습니다. Power BI 서비스 작업에 대해 자세히 알아보세요. 
 
 > [!div class="nextstepaction"]
 > [빠른 시작 - Power BI 서비스 살펴보기](../end-user-experience.md)

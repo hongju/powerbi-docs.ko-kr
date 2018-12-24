@@ -19,9 +19,9 @@ ms.locfileid: "53180993"
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
 
-| ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android 휴대폰](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Android 태블릿](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Windows 10 장치](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
+| ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android 휴대폰](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Android 태블릿](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Windows 10 디바이스](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 장치 |
+| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 Power BI 보고서는 해당 데이터의 다양한 결과 및 통찰력을 나타내는 시각적 개체가 포함된 데이터의 상호작용형 보기입니다. 3단계 프로세스의 세 번째 단계는 Power BI 모바일 앱에서 보고서 보기입니다.
 
