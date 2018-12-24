@@ -18,7 +18,7 @@ ms.lasthandoff: 09/21/2018
 ms.locfileid: "46549422"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Power BI로 AT Internet Bridge에 연결
-AT Internet을 사용하면 해당 통합 디지털 분석 플랫폼인 Analytics Suite를 통해 데이터에서 즉시 값을 추출할 수 있습니다. Power BI용 AT Internet Bridge 콘텐츠 팩에는 사이트에 대한 방문 횟수, 원본, 지역화 및 장치와 관련된 데이터가 포함됩니다.
+AT Internet을 사용하면 해당 통합 디지털 분석 플랫폼인 Analytics Suite를 통해 데이터에서 즉시 값을 추출할 수 있습니다. Power BI용 AT Internet Bridge 콘텐츠 팩에는 사이트에 대한 방문 횟수, 원본, 지역화 및 디바이스와 관련된 데이터가 포함됩니다.
 
 Power BI용 [AT Internet Bridge 콘텐츠 팩](https://app.powerbi.com/getdata/services/at-internet-bridge)에 연결합니다.
 
@@ -53,7 +53,7 @@ Power BI용 [AT Internet Bridge 콘텐츠 팩](https://app.powerbi.com/getdata/s
 이 콘텐츠 팩에는 다음 테이블에 있는 지난 45일 동안의 데이터가 들어 있습니다.  
 
     - 변환  
-    - 장치  
+    - 디바이스  
     - 지역화  
     - 원본  
     - 글로벌 방문  

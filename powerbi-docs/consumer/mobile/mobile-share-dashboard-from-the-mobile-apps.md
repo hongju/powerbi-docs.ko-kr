@@ -21,7 +21,7 @@ ms.locfileid: "48271650"
 
 | ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 장치 |
+| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 [Power BI Pro 라이선스](../../service-features-license-type.md)를 사용하면 Power BI 모바일 앱에서 링크를 공유하여 다른 사용자가 대시보드 및 보고서를 보도록 초대할 수 있습니다. 회사 메일 계정을 사용하거나 사용하지 않고 조직 내외부에서 다른 사용자와 공유할 수 있습니다. 다른 사용자도 Power BI Pro 라이선스가 필요합니다. 또는 콘텐츠가 [프리미엄 용량](../../service-premium.md)에 있어야 합니다.
 
@@ -85,7 +85,7 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
 2. **편집**을 누릅니다.
 3. 공유를 해제하려면 이름 옆의 빨간색 원을 누르고 **삭제**를 누릅니다.
 
-## <a name="share-from-your-android-device"></a>Android 장치에서 공유
+## <a name="share-from-your-android-device"></a>Android 디바이스에서 공유
 1. 대시보드 또는 보고서 홈페이지에서 말줄임표(...)를 누르고 **동료 초대**를 누릅니다.
    
    ![동료 초대](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
@@ -109,7 +109,7 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    
    [동료와 대시보드 공유에 대한 참고 사항](../../service-share-dashboards.md)을 자세히 읽어보세요.
 
-### <a name="unshare-from-your-android-device"></a>Android 장치에서 공유 해제
+### <a name="unshare-from-your-android-device"></a>Android 디바이스에서 공유 해제
 소유자인 경우에만 공유 해제할 수 있습니다.
 
 1. 대시보드 또는 보고서의 오른쪽 위 모퉁이에 있는 초대 아이콘을 누릅니다. ![초대 아이콘](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png). 
@@ -117,7 +117,7 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    이 대시보드 또는 보고서를 공유한 동료의 목록이 표시됩니다.
 2. 동료와 공유를 중지하려면 이름 \> **제거** 옆에 있는 **X**를 누릅니다.
 
-## <a name="share-from-your-windows-10-device"></a>Windows 10 장치에서 공유
+## <a name="share-from-your-windows-10-device"></a>Windows 10 디바이스에서 공유
 1. 대시보드 또는 보고서에서 초대 아이콘을 누릅니다. ![초대 아이콘](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_inviteicon.png).
    
    또는 대시보드 또는 보고서 홈페이지에서 오른쪽 단추로 클릭하거나 길게 누르고 **초대**를 누릅니다.

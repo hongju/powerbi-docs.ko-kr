@@ -45,7 +45,7 @@ https://fs.contoso.com
 WAP(웹 응용 프로그램 프록시) 서버의 공용 IP 주소에 대한 **fs**의 DNS 레코드를 가리키도록 해야 합니다. 해당 항목이 WAP 응용 프로그램의 일부로 게시되기 때문입니다.
 
 ## <a name="certificates"></a>인증서
-WAP 응용 프로그램과 ADFS 서버에 대한 인증서를 구성해야 합니다. 이러한 인증서는 둘 다 모바일 장치가 인식하는 유효한 인증서 기관의 일부여야 합니다.
+WAP 응용 프로그램과 ADFS 서버에 대한 인증서를 구성해야 합니다. 이러한 인증서는 둘 다 모바일 디바이스가 인식하는 유효한 인증서 기관의 일부여야 합니다.
 
 ## <a name="reporting-services-configuration"></a>Reporting Services 구성
 Reporting Services 쪽에서 구성할 항목이 많지 않습니다. 적절한 Kerberos 인증을 사용하기 위해 유효한 SPN(서비스 주체 이름)을 생성하고 협상 인증에 Reporting Services 서버를 사용할 수 있도록 해야 합니다.
@@ -168,7 +168,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 | 매개 변수 | 주석 |
 | --- | --- |
 | **ADFSRelyingPartyName** |ADFS 내에서 응용 프로그램 그룹의 일부로 만든 Web API 이름입니다. |
-| **ExternalCertificateThumbprint** |외부 사용자에 사용할 인증서입니다. 이 인증서가 모바일 장치에서 유효하고 신뢰할 수 있는 인증 기관에서 제공되는 것이 중요합니다. |
+| **ExternalCertificateThumbprint** |외부 사용자에 사용할 인증서입니다. 이 인증서가 모바일 디바이스에서 유효하고 신뢰할 수 있는 인증 기관에서 제공되는 것이 중요합니다. |
 | **BackendServerUrl** |WAP 서버의 보고서 서버에 대한 URL입니다. WAP 서버가 DMZ에 있으면 정규화된 도메인 이름을 사용해야 합니다. WAP 서버의 웹 브라우저에서 이 URL을 누를 수 있는지 확인합니다. |
 | **BackendServerAuthenticationSPN** |Reporting Services 구성의 일부로 만들어진 SPN입니다. |
 
@@ -211,7 +211,7 @@ Multi-Factor Authentication을 사용하여 사용자 환경에 대한 추가 �
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
-요청이 수행한 정도를 확인하기 위해 모바일 장치에 대한 프록시 역할을 하도록 [Fiddler](http://www.telerik.com/fiddler)를 설정할 수 있습니다. 전화 장치에 Fiddler 프록시를 사용하려면 Fiddler를 실행하는 컴퓨터에 [iOS 및 Android용 CertMaker](http://www.telerik.com/fiddler/add-ons)를 설정해야 합니다. Fiddler에 대한 Telerik의 추가 기능입니다.
+요청이 수행한 정도를 확인하기 위해 모바일 디바이스에 대한 프록시 역할을 하도록 [Fiddler](http://www.telerik.com/fiddler)를 설정할 수 있습니다. 전화 디바이스에 Fiddler 프록시를 사용하려면 Fiddler를 실행하는 컴퓨터에 [iOS 및 Android용 CertMaker](http://www.telerik.com/fiddler/add-ons)를 설정해야 합니다. Fiddler에 대한 Telerik의 추가 기능입니다.
 
 Fiddler를 사용할 경우 로그인이 성공적으로 작동하면 WAP 응용 프로그램 또는 ADFS 서버의 인증서 문제가 발생할 수 있습니다. [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226)와 같은 도구를 사용하여 인증서가 유효한지 확인할 수 있습니다.
 

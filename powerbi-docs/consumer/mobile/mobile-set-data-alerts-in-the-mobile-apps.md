@@ -21,14 +21,14 @@ ms.locfileid: "44737252"
 
 | ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Android 태블릿](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 장치 |
+| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
-Power BI Mobile Apps 및 Power BI 서비스의 대시보드에서 경고를 설정할 수 있습니다. 타일의 데이터가 설정해 놓은 한도를 넘어 변경되면 알려주는 경고입니다. 경고는 카드 및 계기 같이 단일 숫자가 특징인 타일에 대해 작동하며 스트리밍 데이터에는 작동하지 않습니다. 모바일 장치에서 데이터 경고를 설정하고 Power BI 서비스에서 볼 수 있으며, 그 반대로도 가능합니다. 대시보드나 타일의 스냅숏을 공유했더라도 설정한 데이터 경고만 볼 수 있습니다.
+Power BI Mobile Apps 및 Power BI 서비스의 대시보드에서 경고를 설정할 수 있습니다. 타일의 데이터가 설정해 놓은 한도를 넘어 변경되면 알려주는 경고입니다. 경고는 카드 및 계기 같이 단일 숫자가 특징인 타일에 대해 작동하며 스트리밍 데이터에는 작동하지 않습니다. 모바일 디바이스에서 데이터 경고를 설정하고 Power BI 서비스에서 볼 수 있으며, 그 반대로도 가능합니다. 대시보드나 타일의 스냅숏을 공유했더라도 설정한 데이터 경고만 볼 수 있습니다.
 
 Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용량일 경우 타일에 경고를 설정할 수 있습니다. 
 
 > [!WARNING]
-> 데이터 기반 경고 알림은 데이터에 관한 정보를 제공합니다. 장치를 분실한 경우 Power BI 서비스에 가서 모든 데이터 기반 경고 규칙을 해제하는 것이 좋습니다. 
+> 데이터 기반 경고 알림은 데이터에 관한 정보를 제공합니다. 디바이스를 분실한 경우 Power BI 서비스에 가서 모든 데이터 기반 경고 규칙을 해제하는 것이 좋습니다. 
 > 
 > [Power BI 서비스에서 데이터 경고 관리하기](../../service-set-data-alerts.md)에 대해 자세히 알아보세요.
 > 
@@ -59,7 +59,7 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>iPhone 또는 iPad에서 경고 관리
-모바일 장치에서 개별 경고를 관리하거나 [Power BI 서비스에서 모든 경고를 관리](../../service-set-data-alerts.md)할 수 있습니다.
+모바일 디바이스에서 개별 경고를 관리하거나 [Power BI 서비스에서 모든 경고를 관리](../../service-set-data-alerts.md)할 수 있습니다.
 
 1. 대시보드에서 경고가 포함된 번호 또는 계기 타일을 탭합니다.  
    
@@ -69,8 +69,8 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
    
     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
 
-## <a name="data-alerts-on-an-android-device"></a>Android 장치의 데이터 경고
-### <a name="set-an-alert-on-an-android-device"></a>Android 장치의 경고 설정
+## <a name="data-alerts-on-an-android-device"></a>Android 디바이스의 데이터 경고
+### <a name="set-an-alert-on-an-android-device"></a>Android 디바이스의 경고 설정
 1. Power BI 대시보드에서 번호 또는 계기 타일을 탭하여 엽니다.  
 2. 종 모양 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png)을(를) 눌러서 경고를 추가합니다.  
    
@@ -91,7 +91,7 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
 7. 경고 제목을 변경할 수도 있습니다.
 8. **저장**을 누릅니다.
 
-### <a name="manage-alerts-on-an-android-device"></a>Android 장치의 경고 관리
+### <a name="manage-alerts-on-an-android-device"></a>Android 디바이스의 경고 관리
 Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비스에서 모든 경고를 관리](../../service-set-data-alerts.md)할 수 있습니다.
 
 1. 대시보드에서 경고가 포함된 카드 또는 계기 타일을 탭합니다.  
@@ -102,8 +102,8 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
 4. 같은 타일에 또 다른 경고를 추가하려면 더하기 아이콘(+)을 탭합니다.
 5. 경고를 모두 삭제하려면 쓰레기통 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png)을 탭합니다.
 
-## <a name="data-alerts-on-a-windows-device"></a>Windows 장치의 데이터 경고
-### <a name="set-data-alerts-on-a-windows-device"></a>Windows 장치의 데이터 경고 설정
+## <a name="data-alerts-on-a-windows-device"></a>Windows 디바이스의 데이터 경고
+### <a name="set-data-alerts-on-a-windows-device"></a>Windows 디바이스의 데이터 경고 설정
 1. 대시보드에서 번호 또는 계기 타일을 탭하여 엽니다.  
 2. 종 모양 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png)을(를) 눌러서 경고를 추가합니다.  
    
@@ -126,7 +126,7 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
-### <a name="manage-alerts-on-a-windows-device"></a>Windows 장치의 경고 관리
+### <a name="manage-alerts-on-a-windows-device"></a>Windows 디바이스의 경고 관리
 Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비스에서 모든 경고를 관리](../../service-set-data-alerts.md)할 수 있습니다.
 
 1. 대시보드에서 경고가 포함된 카드 또는 계기 타일을 탭합니다.  
@@ -139,7 +139,7 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
 4. 경고를 모두 함께 삭제하려면, 마우스 오른쪽 단추를 클릭하거나 탭하고 누른 채로 > **삭제**합니다.
 
 ## <a name="receiving-alerts"></a>경고 수신
-다른 사람이 공유해 준 새 대시보드에 대한 알림과 함께 모바일 장치의 Power BI [알림 센터](mobile-apps-notification-center.md) 또는 Power BI 서비스에서 경고를 수신합니다.
+다른 사람이 공유해 준 새 대시보드에 대한 알림과 함께 모바일 디바이스의 Power BI [알림 센터](mobile-apps-notification-center.md) 또는 Power BI 서비스에서 경고를 수신합니다.
 
 데이터 소스는 매일 새로 고치도록 설정하는 경우가 많으며, 이 보다 빈번하게 설정하기도 합니다. 대시보드의 데이터가 새로 고쳐질 때, 추적되는 데이터가 설정해 놓은 임계값 중 하나에 도달하면, 몇 가지 현상이 발생합니다.
 

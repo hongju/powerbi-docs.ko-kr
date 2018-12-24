@@ -14,7 +14,7 @@ Power BI의 **초보자**인 경우 이 과정을 통해 지식을 계속 쌓을
 **Power BI**는 단순하고 빠르기 때문에 Excel 스프레드시트 또는 로컬 데이터베이스에서 빠른 정보를 생성할 수 있습니다. 하지만 **Power BI**는 강력하면서도 엔터프라이즈급이기 때문에 광범위한 모델링 및 실시간 분석뿐 아니라 사용자 지정 개발에 즉시 사용할 수 있습니다. 따라서 Power BI는 개인 보고서 및 시각화 도구일 수 있으며, 그룹 프로젝트, 사업부 또는 회사 전체의 분석 및 의사 결정 엔진으로 역할도 할 수 있습니다.
 
 ## <a name="the-parts-of-power-bi"></a>Power BI의 요소
-Power BI는 **Power BI Desktop**이라는 Windows 데스크톱 응용 프로그램, **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*), Windows Phone 및 태블릿뿐 아니라 iOS 및 Android 장치에서 사용할 수 있는 모바일 Power BI **앱**으로 구성됩니다.
+Power BI는 **Power BI Desktop**이라는 Windows 데스크톱 응용 프로그램, **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*), Windows Phone 및 태블릿뿐 아니라 iOS 및 Android 디바이스에서 사용할 수 있는 모바일 Power BI **앱**으로 구성됩니다.
 
 ![](media/0-0-what-is-power-bi/c0a0_2.png)
 
@@ -29,7 +29,7 @@ Power BI 사용 방법은 프로젝트 또는 팀에서 사용자의 역할에 �
 
 여러분은 실시간 대시보드에서 재고 및 제조 진행 상황을 보고 **Power BI Desktop**을 사용하여 팀을 위해 고객 참여 통계에 대한 보고서를 만들 수 있습니다. Power BI를 사용하는 방법은 상황에 가장 적합한 도구인 Power BI의 기능 또는 서비스를 기반으로 할 수 있지만 Power BI의 각 부분을 사용할 수 있으므로 매우 유연하고 매력적입니다.
 
-이 세 가지 요소(**Desktop**, **서비스** 및 **모바일**)에 대해서는 이 **단계별 학습** 과정의 뒷부분에서 좀 더 자세히 알아보겠습니다. 또한 향후 문서에서는 Power BI Desktop에서 보고서를 만들고, 서비스에서 공유하며, 모바일 장치에서 세분화할 예정입니다.
+이 세 가지 요소(**Desktop**, **서비스** 및 **모바일**)에 대해서는 이 **단계별 학습** 과정의 뒷부분에서 좀 더 자세히 알아보겠습니다. 또한 향후 문서에서는 Power BI Desktop에서 보고서를 만들고, 서비스에서 공유하며, 모바일 디바이스에서 세분화할 예정입니다.
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI의 작업 흐름
 Power BI의 일반적인 작업 흐름은 보고서가 만들어지는 **Power BI Desktop**에서 시작합니다. 이 보고서는 Power BI **서비스**에서 게시된 다음 **Power BI 모바일** 앱 사용자가 정보를 소비할 수 있도록 공유됩니다.

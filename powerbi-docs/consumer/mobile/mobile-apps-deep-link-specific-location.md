@@ -17,14 +17,14 @@ ms.lasthandoff: 09/12/2018
 ms.locfileid: "44742859"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
-모든 모바일 플랫폼에서 Power BI 모바일 앱(예: iOS, Android 장치 및 Windows 10) 내에 특정 위치(*딥 링크*)에 연결하려면 URI(Uniform Resource Identifier)를 만들고 사용할 수 있습니다.
+모든 모바일 플랫폼에서 Power BI 모바일 앱(예: iOS, Android 디바이스 및 Windows 10) 내에 특정 위치(*딥 링크*)에 연결하려면 URI(Uniform Resource Identifier)를 만들고 사용할 수 있습니다.
 
 URI 링크는 대시보드, 타일 및 보고서를 직접 가리킬 수 있습니다.
 
 딥 링크의 대상은 URI의 형식을 결정합니다. 다른 위치로 딥 링크를 만들려면 다음 단계를 수행합니다. 
 
 ## <a name="open-the-power-bi-mobile-app"></a>Power BI 모바일 앱 열기
-이 URI를 사용하여 모든 장치에서 Power BI 모바일 앱 열기
+이 URI를 사용하여 모든 디바이스에서 Power BI 모바일 앱 열기
 
     mspbi://app/
 

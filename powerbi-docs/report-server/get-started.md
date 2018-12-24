@@ -19,7 +19,7 @@ ms.locfileid: "52289154"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server란?
 
-Power BI Report Server는 보고서와 KPI를 표시하고 관리하는 웹 포털이 있는 온-프레미스 보고서 서버입니다. 이와 함께 Power BI 보고서, 페이지를 매긴 보고서, 모바일 보고서 및 KPI를 만들 수 있는 도구가 제공됩니다. 사용자는 웹 브라우저 또는 모바일 장치에서 보거나 받은 편지함에서 메일로 보는 등의 다양한 방법으로 해당 보고서에 액세스할 수 있습니다.
+Power BI Report Server는 보고서와 KPI를 표시하고 관리하는 웹 포털이 있는 온-프레미스 보고서 서버입니다. 이와 함께 Power BI 보고서, 페이지를 매긴 보고서, 모바일 보고서 및 KPI를 만들 수 있는 도구가 제공됩니다. 사용자는 웹 브라우저 또는 모바일 디바이스에서 보거나 받은 편지함에서 메일로 보는 등의 다양한 방법으로 해당 보고서에 액세스할 수 있습니다.
 
 ![Power BI Report Server 웹 포털](media/get-started/power-bi-report-server-overview.png)
 
@@ -58,7 +58,7 @@ Power BI 보고서는 데이터 모델의 다양한 결과 및 인사이트를 �
 [SSDT(SQL Server Data Tools)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt)에서 [보고서 작성기](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) 또는 보고서 디자이너를 사용하여 최신 보고서를 만들 수 있습니다. 
 
 ## <a name="reporting-services-mobile-reports"></a>Reporting Services 모바일 보고서
-모바일 보고서는 온-프레미스 데이터에 연결되고 보유한 다양한 장치 및 방법에 맞게 조정되는 반응형 레이아웃을 포함합니다. SQL Server 모바일 보고서 게시자를 사용하여 이 보고서를 만듭니다.
+모바일 보고서는 온-프레미스 데이터에 연결되고 보유한 다양한 디바이스 및 방법에 맞게 조정되는 반응형 레이아웃을 포함합니다. SQL Server 모바일 보고서 게시자를 사용하여 이 보고서를 만듭니다.
 
 [Reporting Services 모바일 보고서](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)에 대해 자세히 알아보세요. 
 

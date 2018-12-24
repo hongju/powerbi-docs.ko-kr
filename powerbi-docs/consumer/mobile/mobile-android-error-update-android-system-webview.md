@@ -21,7 +21,7 @@ Microsoft Power BI용 Android 모바일 앱에 로그인할 때 Android System W
 
 Google Play Store로 이동하여 Android System Webview를 업데이트한 후에 다시 돌아와서 Power BI 모바일 앱을 다시 열려고 시도한다고 가정해 보겠습니다. 
 
-Android 장치에서 Android 7 이상을 실행 중인 경우 Android System Webview를 업데이트하라는 메시지가 다시 표시될 수 있습니다. 
+Android 디바이스에서 Android 7 이상을 실행 중인 경우 Android System Webview를 업데이트하라는 메시지가 다시 표시될 수 있습니다. 
 
 ## <a name="solution-upgrade-your-version-of-the-chrome-app"></a>솔루션: Chrome 앱의 버전 업그레이드
 Chrome 앱을 실제로 업그레이드해야 합니다. 

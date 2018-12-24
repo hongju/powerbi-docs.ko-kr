@@ -22,7 +22,7 @@ Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보�
 
 편집할 수 없는 대시보드의 타일에 대한 QR 코드를 Power BI 서비스에서 만들 수 있습니다. 그런 다음 주요 위치에 QR 코드를 배치합니다. 예를 들어 메일에 붙여넣거나 인쇄하여 특정 위치에 붙여넣을 수 있습니다. 
 
-대시보드를 공유한 동료는 [모바일 장치에서 바로 QR 코드를 스캔하여 타일에 액세스](consumer/mobile/mobile-apps-qr-code.md)할 수 있습니다. Power BI 앱에 있는 QR 코드 스캐너 또는 휴대폰에 설치된 다른 QR 스캐너 중 하나를 사용할 수 있습니다.
+대시보드를 공유한 동료는 [모바일 디바이스에서 바로 QR 코드를 스캔하여 타일에 액세스](consumer/mobile/mobile-apps-qr-code.md)할 수 있습니다. Power BI 앱에 있는 QR 코드 스캐너 또는 휴대폰에 설치된 다른 QR 스캐너 중 하나를 사용할 수 있습니다.
 
 
 ## <a name="create-a-qr-code-for-a-tile"></a>타일에 대한 QR 코드 만들기

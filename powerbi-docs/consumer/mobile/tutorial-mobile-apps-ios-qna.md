@@ -82,7 +82,7 @@ iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
    
    ![기회 분석 샘플 대시보드](./media/tutorial-mobile-apps-ios-qna/power-bi-service-opportunity-sample.png)
 
-iOS 장치에서 샘플을 볼 준비가 되었습니다.
+iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 
 ## <a name="try-featured-insights"></a>추천 정보 사용
 1. iPhone 또는 iPad에서 Power BI 앱을 열고, 브라우저에서 Power BI 서비스에 사용한 것과 동일한 Power BI 계정 자격 증명으로 로그인합니다.

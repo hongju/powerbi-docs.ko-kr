@@ -16,7 +16,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 09/12/2018
 ms.locfileid: "44744398"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 장치에서 Power BI 모바일 앱 시작
+# <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 디바이스에서 Power BI 모바일 앱 시작
 iPhone, iPad 또는 iPod Touch의 iOS 앱용 Microsoft Power BI는 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기 적절한 데이터를 최신 상태로 유지합니다.  
 
 ![iPhone 또는 iPad의 Power BI 모바일 앱](./media/mobile-iphone-app-get-started/pbi_ipad_iphonedevices.png)
@@ -40,7 +40,7 @@ iOS용 Power BI 앱은 iOS 10 이상이 설치된 iPhone 5 이상에서 실행�
 
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 앱 시작
-1. iOS 장치에서 Power BI 앱을 엽니다.
+1. iOS 디바이스에서 Power BI 앱을 엽니다.
 2. Power BI 대시보드를 보려면 **Power BI**를 누릅니다.  
    Reporting Services 모바일 보고서 및 KPI를 보려면 **SQL Server Reporting Services**를 누릅니다.
    
@@ -80,7 +80,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 [모바일 앱에서 콘텐츠 찾기](mobile-apps-quickstart-view-dashboard-report.md)에 대해 읽습니다.
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>즐겨찾는 대시보드, KPI 및 보고서 보기
-모바일 앱의 즐겨찾기 페이지에서 Power BI Report Server 및 Reporting Services KPI와 보고서와 함께 즐겨 찾는 모든 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 장치에서 액세스할 수 있습니다. 
+모바일 앱의 즐겨찾기 페이지에서 Power BI Report Server 및 Reporting Services KPI와 보고서와 함께 즐겨 찾는 모든 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 디바이스에서 액세스할 수 있습니다. 
 
 * **즐겨찾기**를 누릅니다.
   
@@ -97,12 +97,12 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 자세한 내용은 [Power BI 모바일 앱의 즐겨찾기](mobile-apps-favorites.md)를 읽어보세요.
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에 대한 Enterprise 지원
-조직에서 Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱을 포함한 장치 및 응용 프로그램을 관리할 수 있습니다.
+조직에서 Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱을 포함한 디바이스 및 응용 프로그램을 관리할 수 있습니다.
 
 Microsoft Intune을 사용하면 액세스 핀이 필요하고, 응용 프로그램에서 데이터를 처리하는 방법을 제어하며, 앱을 사용하지 않을 때 응용 프로그램 데이터를 암호화하는 것과 같은 항목을 조직에서 제어할 수 있습니다.
 
 > [!NOTE]
-> iOS 장치에서 Power BI 모바일 앱을 사용하고 조직에서 Microsoft Intune MAM을 구성한 경우 백그라운드 데이터 새로 고침이 해제됩니다. 다음 번에 앱을 시작하면 Power BI에서 웹의 Power BI 서비스로부터 데이터를 새로 고칩니다.
+> iOS 디바이스에서 Power BI 모바일 앱을 사용하고 조직에서 Microsoft Intune MAM을 구성한 경우 백그라운드 데이터 새로 고침이 해제됩니다. 다음 번에 앱을 시작하면 Power BI에서 웹의 Power BI 서비스로부터 데이터를 새로 고칩니다.
 > 
 
 [Microsoft Intune을 사용하여 Power BI 모바일 앱 구성](../../service-admin-mobile-intune.md)에 대해 자세히 알아보세요. 

@@ -27,14 +27,14 @@ SQL Server 2016 Enterprise Edition 모바일 보고서 게시자를 사용하여
 그런 다음 Windows 10용 Power BI 모바일 앱에서, 폴더에 정리되어 있거나 즐겨찾기에 모아놓은 모바일 보고서와 KPI를 봅니다. 
 
 > [!NOTE]
-> 장치에서 Windows 10이 실행되고 있어야 합니다. RAM 1GB, 내부 저장소 8GB 이상인 장치에서 앱이 최적으로 작동합니다.
+> 디바이스에서 Windows 10이 실행되고 있어야 합니다. RAM 1GB, 내부 저장소 8GB 이상인 디바이스에서 앱이 최적으로 작동합니다.
 > 
 > 
 
 ## <a name="explore-samples-without-a-sql-server-2016-reporting-services-server"></a>SQL Server 2016 Reporting Services 서버 없이 샘플을 탐색합니다.
 Reporting Services 웹 포털에 대한 액세스가 없더라도, Reporting Services 모바일 보고서의 기능을 탐색할 수 있습니다.
 
-1. Windows 10 장치에서 Power BI 앱을 엽니다.
+1. Windows 10 디바이스에서 Power BI 앱을 엽니다.
 2. 왼쪽 위 모퉁이에서 ![전역 탐색 단추](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) 전역 탐색 단추를 탭합니다.
 3. **설정** 아이콘 ![설정 아이콘](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)을 탭하고 **서버에 연결**을 마우스 오른쪽 단추로 클릭하거나 탭한 채로 유지한 다음 **샘플 보기**를 탭합니다.
    
@@ -81,7 +81,7 @@ Reporting Services KPI 및 모바일 보고서는 Reporting Services 웹 포털�
     ![Reporting Services 모바일 보고서](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="view-your-favorite-kpis-and-reports"></a>즐겨찾는 KPI 및 보고서 보기
-Reporting Services 웹 포털에 KPI와 모바일 보고서를 즐겨찾기로 표시해 놓으면 Windows 10 장치에서 Power BI 즐겨찾기 대시보드와 보고서를 통해 한 폴더에서 편리하게 볼 수 있습니다.
+Reporting Services 웹 포털에 KPI와 모바일 보고서를 즐겨찾기로 표시해 놓으면 Windows 10 디바이스에서 Power BI 즐겨찾기 대시보드와 보고서를 통해 한 폴더에서 편리하게 볼 수 있습니다.
 
 * **즐겨찾기**를 누릅니다.
   

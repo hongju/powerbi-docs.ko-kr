@@ -54,8 +54,8 @@ Power BI 및 Power BI Desktop을 사용하여 자신의 온-프레미스 데이�
 ### <a name="power-bi-mobile-apps"></a>Power BI 모바일 앱
 [Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI를 볼 수도 있습니다](mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
 
-## <a name="does-power-bi-support-mobile-devices"></a>Power BI는 모바일 장치를 지원하나요?
-예. Power BI에는 Android 휴대폰 및 태블릿, iOS 장치 및 Windows 10 장치용 기본 앱이 있습니다. 다음의 각 스토어에서 [Power BI 모바일 앱](https://powerbi.microsoft.com/mobile) 중 하나를 다운로드합니다.  
+## <a name="does-power-bi-support-mobile-devices"></a>Power BI는 모바일 디바이스를 지원하나요?
+예. Power BI에는 Android 휴대폰 및 태블릿, iOS 디바이스 및 Windows 10 디바이스용 기본 앱이 있습니다. 다음의 각 스토어에서 [Power BI 모바일 앱](https://powerbi.microsoft.com/mobile) 중 하나를 다운로드합니다.  
 
 * [Apple 앱 스토어](http://go.microsoft.com/fwlink/?LinkId=526218)
 * [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)

@@ -43,7 +43,7 @@ Cortana를 Power BI와 통합하는 데 여전히 문제가 있는 경우 제대
    * “show me sales fy16(매출 fy16 표시)”, “sales fy16(매출 fy16)”, “show sales fy16(매출 fy16 표시)” 및 “show me sales f(매출 f 표시)”는 Power BI 결과를 반환하게 *됩니다*.    
    * 단어 "powerbi"를 추가하면 2개의 필수 단어 중 하나로 계산되어 "powerbi sales(powerbi 매출)"는 Power BI 결과를 반환하게 *됩니다*.
 5. 보고서 또는 대시보드에 대한 액세스 또는 편집 사용 권한이 있습니까? 보고서의 경우 검색하려는 콘텐츠에 [대답 카드](service-cortana-answer-cards.md)가 있는지 확인합니다.  대시보드의 경우 검색하려는 콘텐츠가 **공유한 항목**, 앱 작업 영역 또는 **내 작업 영역**에 있는지 확인합니다. 문제를 파악하는 데 유용한 [문제 해결 도구를 사용](#try-the-cortana-troubleshooting-tool)하세요.
-6. 모바일 장치를 사용하고 있습니까?  현재 Windows 모바일 장치에서의 Power BI와 Cortana 통합만 지원됩니다.
+6. 모바일 디바이스를 사용하고 있습니까?  현재 Windows 모바일 디바이스에서의 Power BI와 Cortana 통합만 지원됩니다.
 7. Cortana가 영어에 대해 구성되어 있습니까?  현재 Cortana-Power BI 통합은 영어만을 지원합니다. Cortana를 열고 톱니 아이콘을 선택하여 설정을 표시합니다. **Cortana 언어**까지 아래로 스크롤하고 영어 옵션 중 하나로 설정되어 있는지 확인합니다.
 
    ![Cortana 언어 설정](media/service-cortana-troubleshoot/power-bi-cortana-language.png)

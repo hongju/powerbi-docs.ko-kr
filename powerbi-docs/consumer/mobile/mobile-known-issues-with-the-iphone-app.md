@@ -25,7 +25,7 @@ ms.locfileid: "44737259"
 ## <a name="we-encountered-communication-failures"></a>"통신 오류가 발생했습니다."
 “통신 오류가 발생했습니다. Wi-Fi 연결의 프록시 설정과 관련된 오류일 수 있습니다. 다른 Wi-fi 연결로 전환하면 문제를 해결할 수 있습니다.”
 
-iPhone 또는 iPad 인터넷 연결에 수동 또는 자동으로 구성된 명시적인 HTTP 프록시가 반드시 필요한 경우에 이 메시지가 표시될 수 있습니다. 이 경우 iOS 장치에서 Power BI 앱이 작동하지 않습니다.
+iPhone 또는 iPad 인터넷 연결에 수동 또는 자동으로 구성된 명시적인 HTTP 프록시가 반드시 필요한 경우에 이 메시지가 표시될 수 있습니다. 이 경우 iOS 디바이스에서 Power BI 앱이 작동하지 않습니다.
 
 ### <a name="workaround"></a>해결 방법
 iPhone 또는 iPad을 명시적인 HTTP 프록시 설정이 필요하지 않은 다른 연결(즉, HTTP 프록시 끔으로 구성된 연결)로 전환합니다.

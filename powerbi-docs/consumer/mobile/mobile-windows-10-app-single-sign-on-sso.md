@@ -20,9 +20,9 @@ ms.locfileid: "45975038"
 
 Power BI 모바일 Windows 앱의 SSO(Single Sign-On)에 대해 읽어 보세요. SSO는 단일 사용자 계정으로 한 번만 로그인하여 비즈니스를 수행하는 데 필요한 모든 응용 프로그램 및 리소스에 액세스하는 것을 의미합니다. 로그인하면 다시 인증하지 않고도 모든 응용 프로그램에 액세스할 수 있습니다. 
 
-Power BI Windows 앱은 Azure Active Directory에 통합되어 있으므로 기본 조직 계정을 사용하여 도메인에 가입된 장치에 로그인할 뿐 아니라 Power BI 서비스에도 로그인할 수 있습니다. Windows 휴대폰에서 Power BI를 보는 경우 Power BI에 사용하는 계정은 장치 설정에서 회사 또는 학교 계정으로 구성되어야 합니다.  
+Power BI Windows 앱은 Azure Active Directory에 통합되어 있으므로 기본 조직 계정을 사용하여 도메인에 가입된 디바이스에 로그인할 뿐 아니라 Power BI 서비스에도 로그인할 수 있습니다. Windows 휴대폰에서 Power BI를 보는 경우 Power BI에 사용하는 계정은 디바이스 설정에서 회사 또는 학교 계정으로 구성되어야 합니다.  
 
-SSO는 Microsoft Azure Active Directory에서 관리하는 Windows 장치에만 사용할 수 있습니다. 
+SSO는 Microsoft Azure Active Directory에서 관리하는 Windows 디바이스에만 사용할 수 있습니다. 
 
 ## <a name="sign-in-with-sso"></a>SSO로 로그인
 

@@ -77,7 +77,7 @@ iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
 
     ![소매점 분석 샘플](./media/mobile-apps-ios-qna/power-bi-oa.png)
   
-iOS 장치에서 샘플을 볼 준비가 되었습니다.
+iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>iPhone 또는 iPad에서 질문하기
 1. 사용자의 iPhone 또는 iPad에서 전역 탐색 단추 ![전역 탐색 단추](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **작업 영역** > **내 작업 영역**을 탭하고 소매점 분석 샘플 대시보드를 엽니다.

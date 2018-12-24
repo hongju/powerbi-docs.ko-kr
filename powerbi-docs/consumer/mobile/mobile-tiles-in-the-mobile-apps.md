@@ -19,9 +19,9 @@ ms.locfileid: "46549803"
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
 
-| ![iPhone](./media/mobile-tiles-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-tiles-in-the-mobile-apps/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-tiles-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-tiles-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10 장치](./media/mobile-tiles-in-the-mobile-apps/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-tiles-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-tiles-in-the-mobile-apps/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-tiles-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-tiles-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10 디바이스](./media/mobile-tiles-in-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 장치 |
+| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 타일은 데이터의 라이브 스냅숏이며 대시보드에 고정됩니다. 값은 데이터 변경에 따라 변경됩니다. **[Power BI 서비스에서 대시보드에 타일을 추가합니다](../end-user-tiles.md).** 
 

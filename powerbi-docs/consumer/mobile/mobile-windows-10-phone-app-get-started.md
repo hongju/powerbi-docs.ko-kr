@@ -28,18 +28,18 @@ Windows 10용 Power BI 모바일 앱은 태블릿이나 폰에 Power BI를 통�
 ## <a name="first-things-first"></a>먼저 수행할 중요한 작업
 * Windows 스토어에서 [**Windows 10용 Power BI 모바일 앱을 다운로드**](http://go.microsoft.com/fwlink/?LinkID=526478)합니다.
   
-  장치에서 Windows 10이 실행되고 있어야 합니다. RAM 3GB, 내부 저장소 8GB 이상인 장치에서 앱이 최적으로 작동합니다.
+  디바이스에서 Windows 10이 실행되고 있어야 합니다. RAM 3GB, 내부 저장소 8GB 이상인 디바이스에서 앱이 최적으로 작동합니다.
    
 * [Power BI 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)을 알아보세요.
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>웹에서 Power BI 서비스에 등록합니다.
-아직 등록하지 않은 경우, [Power BI 서비스](http://powerbi.com/)로 가서 대시보드 및 보고서를 만들어 저장하고, 데이터를 함께 가져오기 위해 자신의 계정을 등록합니다. Windows 10 장치에서 Power BI에 로그인하여 어디서나 자신의 대시보드를 볼 수 있습니다.
+아직 등록하지 않은 경우, [Power BI 서비스](http://powerbi.com/)로 가서 대시보드 및 보고서를 만들어 저장하고, 데이터를 함께 가져오기 위해 자신의 계정을 등록합니다. Windows 10 디바이스에서 Power BI에 로그인하여 어디서나 자신의 대시보드를 볼 수 있습니다.
 
 1. Power BI 서비스에서 [등록](http://go.microsoft.com/fwlink/?LinkID=513879)을 눌러 Power BI 계정을 만듭니다.
 2. [사용자 고유의 대시보드 및 보고서 만들기](../../service-get-started.md)를 시작합니다.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 앱 시작
-1. Windows 10 장치의 시작 화면에서 Power BI 앱을 엽니다.
+1. Windows 10 디바이스의 시작 화면에서 Power BI 앱을 엽니다.
    
    ![Power BI 앱 아이콘](./media/mobile-windows-10-phone-app-get-started/pbi_win10ph_appiconsm.png)
 2. Power BI 대시보드 및 보고서를 보려면 **Power BI**를 누릅니다. 웹의 Power BI 계정과 동일한 자격 증명으로 로그인합니다. 
@@ -92,7 +92,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 ![Power BI 왼쪽 탐색](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>즐겨찾는 대시보드, KPI 및 보고서 보기
-모바일 앱의 즐겨찾기 페이지에서 Reporting Services KPI 및 모바일 보고서와 함께 모든 즐겨 찾는 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 장치에서 액세스할 수 있습니다. 
+모바일 앱의 즐겨찾기 페이지에서 Reporting Services KPI 및 모바일 보고서와 함께 모든 즐겨 찾는 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 디바이스에서 액세스할 수 있습니다. 
 
 * **즐겨찾기**를 누릅니다.
   
@@ -105,7 +105,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 자세한 내용은 [Power BI 모바일 앱의 즐겨찾기](mobile-apps-favorites.md)를 읽어보세요.
 
 ## <a name="next-steps"></a>다음 단계
-Power BI의 대시보드 및 보고서, 또는 Reporting Services 웹 포털의 Reporting Services 모바일 보고서 및 KPI를 사용하여 Windows 10 장치용 Power BI 앱에서 수행할 수 있는 몇 가지 다른 작업입니다.
+Power BI의 대시보드 및 보고서, 또는 Reporting Services 웹 포털의 Reporting Services 모바일 보고서 및 KPI를 사용하여 Windows 10 디바이스용 Power BI 앱에서 수행할 수 있는 몇 가지 다른 작업입니다.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서
 * [앱](../../service-create-distribute-apps.md) 보기.

@@ -27,7 +27,7 @@ Windows 10용 Power BI 모바일 앱에서 Power BI 대시보드를 Windows 시�
    
    ![Windows 10 모바일 앱 위쪽 막대](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start.png)
    
-   라이브 타일을 보려면 장치 시작 화면으로 이동합니다.
+   라이브 타일을 보려면 디바이스 시작 화면으로 이동합니다.
    
    ![Windows 10 라이브 타일](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/pbi_win10ph_startscrn.png)
 

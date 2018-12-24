@@ -19,16 +19,16 @@ ms.locfileid: "50909689"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune으로 모바일 앱 구성
 
-Microsoft Intune을 사용하여 조직에서는 장치 및 응용 프로그램을 관리할 수 있습니다. iOS 및 Android용 Power BI 모바일 응용 프로그램은 Intune과 통합됩니다. 이 통합을 통해 장치에서 응용 프로그램을 관리하고 보안을 제어할 수 있습니다. 구성 정책을 통해 액세스 핀 요구, 응용 프로그램에서 데이터가 처리되는 방식, 앱이 사용되고 있지 않을 때 응용 프로그램 데이터를 암호화하는 것과 같은 항목을 제어할 수 있습니다.
+Microsoft Intune을 사용하여 조직에서는 디바이스 및 응용 프로그램을 관리할 수 있습니다. iOS 및 Android용 Power BI 모바일 응용 프로그램은 Intune과 통합됩니다. 이 통합을 통해 디바이스에서 응용 프로그램을 관리하고 보안을 제어할 수 있습니다. 구성 정책을 통해 액세스 핀 요구, 응용 프로그램에서 데이터가 처리되는 방식, 앱이 사용되고 있지 않을 때 응용 프로그램 데이터를 암호화하는 것과 같은 항목을 제어할 수 있습니다.
 
-## <a name="general-mobile-device-management-configuration"></a>일반 모바일 장치 관리 구성
+## <a name="general-mobile-device-management-configuration"></a>일반 모바일 디바이스 관리 구성
 
-이 문서에서는 Intune이 제대로 구성되어 있고 장치가 intune에 등록되었다고 가정합니다. 이 문서는 Microsoft Intune에 대한 전체 구성 가이드로 제공되지는 않았습니다. Intune에 대한 자세한 내용은 [Intune이란?](/intune/introduction-intune/)을 참조하세요.
+이 문서에서는 Intune이 제대로 구성되어 있고 디바이스가 intune에 등록되었다고 가정합니다. 이 문서는 Microsoft Intune에 대한 전체 구성 가이드로 제공되지는 않았습니다. Intune에 대한 자세한 내용은 [Intune이란?](/intune/introduction-intune/)을 참조하세요.
 
-Microsoft Intune은 Office 365 내에서 MDM(모바일 장치 관리)과 공존할 수 있습니다. MDM을 사용하는 경우 장치는 MDM 내에 등록된 것으로 표시되지만 Intune 내에서 관리할 수 있습니다.
+Microsoft Intune은 Office 365 내에서 MDM(모바일 디바이스 관리)과 공존할 수 있습니다. MDM을 사용하는 경우 디바이스는 MDM 내에 등록된 것으로 표시되지만 Intune 내에서 관리할 수 있습니다.
 
 > [!NOTE]
-> Intune을 구성한 후에는 iOS 또는 Android 장치에서 Power BI 모바일 앱의 백그라운드 데이터 새로 고침이 꺼집니다. 앱을 시작하면 Power BI에서 웹의 Power BI 서비스로부터 데이터를 새로 고칩니다.
+> Intune을 구성한 후에는 iOS 또는 Android 디바이스에서 Power BI 모바일 앱의 백그라운드 데이터 새로 고침이 꺼집니다. 앱을 시작하면 Power BI에서 웹의 Power BI 서비스로부터 데이터를 새로 고칩니다.
 
 ## <a name="step-1-get-the-url-for-the-application"></a>1단계: 응용 프로그램 URL 가져오기
 
@@ -92,7 +92,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 1. **게시자**, **이름** 및 **설명**을 제공합니다. 선택적으로 **아이콘**을 제공할 수도 있습니다. **범주** 는 회사 포털 앱에 대한 항목입니다. 완료되면 **다음**을 선택합니다.
 
-1. **모두** (기본값), **iPad** 또는 **iPhone**중에서 어떤 방식으로 게시할지 결정할 수 있습니다. 기본적으로 **모두** 가 표시되며 두 장치 유형에 모두 작동합니다. Power BI 앱은 iPhone 및 iPad에 둘 다 동일한 URL입니다. **다음**을 선택합니다.
+1. **모두** (기본값), **iPad** 또는 **iPhone**중에서 어떤 방식으로 게시할지 결정할 수 있습니다. 기본적으로 **모두** 가 표시되며 두 디바이스 유형에 모두 작동합니다. Power BI 앱은 iPhone 및 iPad에 둘 다 동일한 URL입니다. **다음**을 선택합니다.
 
 1. **업로드**를 선택합니다.
 
@@ -159,7 +159,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 앱이 배포되면 앱 페이지에서 배포에 대해 **예** 가 표시됩니다.
 
-## <a name="step-5-install-the-application-on-a-device"></a>5단계: 장치에서 응용 프로그램 설치
+## <a name="step-5-install-the-application-on-a-device"></a>5단계: 디바이스에서 응용 프로그램 설치
 
 ‘회사 포털’ 앱을 통해 응용 프로그램을 설치합니다. 회사 포털을 설치하지 않은 경우 iOS 또는 Android 플랫폼의 앱 스토어를 통해 가져올 수 있습니다. 조직의 로그인으로 회사 포털에 로그인합니다.
 

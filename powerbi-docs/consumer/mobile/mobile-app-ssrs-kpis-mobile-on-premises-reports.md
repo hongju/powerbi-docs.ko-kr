@@ -49,7 +49,7 @@ Reporting Services 웹 포털에 대한 액세스가 없더라도, Reporting Ser
 ## <a name="connect-to-an-on-premises-report-server"></a>온-프레미스 보고서 서버에 연결
 Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI를 볼 수 있습니다. 
 
-1. 모바일 장치에서 Power BI 앱을 엽니다.
+1. 모바일 디바이스에서 Power BI 앱을 엽니다.
 2. Power BI에 아직 로그인하지 않은 경우 **Reporting Server**를 누릅니다.
    
    ![보고서 서버에 로그인](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
@@ -116,7 +116,7 @@ Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting 
     ![포커스 모드의 KPI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/pbi_ipad_ssmrp_tile.png)
 
 ## <a name="view-your-favorite-kpis-and-reports"></a>즐겨찾는 KPI 및 보고서 보기
-웹 포털에서 KPI와 보고서를 즐겨찾기로 표시한 다음 모바일 장치에서 Power BI 즐겨찾기 대시보드와 함께 하나의 폴더에서 편리하게 볼 수 있습니다.
+웹 포털에서 KPI와 보고서를 즐겨찾기로 표시한 다음 모바일 디바이스에서 Power BI 즐겨찾기 대시보드와 함께 하나의 폴더에서 편리하게 볼 수 있습니다.
 
 * **즐겨찾기**를 누릅니다.
   

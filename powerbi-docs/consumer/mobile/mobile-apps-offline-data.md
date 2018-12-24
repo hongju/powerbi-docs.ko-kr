@@ -21,7 +21,7 @@ ms.locfileid: "44744227"
 
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 장치 |
+| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 모바일 브라우저가 아닌 모바일 앱에서 Power BI 보기를 사용하는 이점은 네트워크에 연결되지 않을 때에도 데이터를 볼 수 있다는 점입니다. 
 
@@ -37,10 +37,10 @@ ms.locfileid: "44744227"
 ## <a name="background-data-refresh"></a>백그라운드 데이터 새로 고침
 백그라운드 새로 고침은 지난 2주 동안 보았던 대시보드와 보고서뿐만 아니라 즐겨찾는 대시보드도 Power BI 서비스(데이터 원본이 아님)의 데이터로 업데이트합니다. Wi-fi로 연결된 경우 백그라운드 새로 고침은 2시간마다 업데이트됩니다. 그렇지 않으면 3G 네트워크상에 있는 경우 Power BI는 콘텐츠를 24시간마다 업데이트합니다.
 
-예를 들어 네트워크 사용을 방지하기 위해 백그라운드 새로 고침을 해제할 수 있습니다. 장치에서 설정을 확인합니다.
+예를 들어 네트워크 사용을 방지하기 위해 백그라운드 새로 고침을 해제할 수 있습니다. 디바이스에서 설정을 확인합니다.
 
 > [!NOTE]
-> iOS 장치에서 Power BI 모바일 앱을 사용하고 조직에서 Microsoft Intune MAM을 구성한 경우 백그라운드 데이터 새로 고침이 해제됩니다. 다음 번에 앱을 시작하면 Power BI에서 웹의 Power BI 서비스로부터 데이터를 새로 고칩니다.
+> iOS 디바이스에서 Power BI 모바일 앱을 사용하고 조직에서 Microsoft Intune MAM을 구성한 경우 백그라운드 데이터 새로 고침이 해제됩니다. 다음 번에 앱을 시작하면 Power BI에서 웹의 Power BI 서비스로부터 데이터를 새로 고칩니다.
 > 
 > [Microsoft Intune을 사용하여 Power BI 모바일 앱 구성](../../service-admin-mobile-intune.md)에 대해 자세히 알아보세요. 
 > 
@@ -50,7 +50,7 @@ ms.locfileid: "44744227"
 Power BI는 오프라인으로 사용할 수 없는 대시보드, 보고서 및 타일이 누락된 표시기 뿐만 아니라 오프라인 모드에서 내부 및 외부로 이동하는 경우 지우기 표시기를 제공합니다.
 
 ## <a name="limitations"></a>제한 사항
-모바일 장치의 Power BI가 오프라인 상태인 경우 다음과 같은 제한이 발생할 수 있습니다.
+모바일 디바이스의 Power BI가 오프라인 상태인 경우 다음과 같은 제한이 발생할 수 있습니다.
 
 * Power BI는 최대 250MB의 데이터를 오프라인으로 캐시할 수 있습니다.
 * Bing 맵 타일 및 일부 사용자 지정 타일 등 일부 타일 유형은 활성 서버 연결을 필요로 하므로 오프라인으로 사용할 수 없습니다.

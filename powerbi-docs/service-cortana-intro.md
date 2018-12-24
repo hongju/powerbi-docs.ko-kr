@@ -17,7 +17,7 @@ ms.lasthandoff: 10/25/2018
 ms.locfileid: "50003251"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Power BI에 대한 Cortana를 사용하여 Power BI 데이터를 신속하게 찾기 및 보기
-Windows 10 장치에서 Cortana를 사용하여 중요한 비즈니스 관련 질문에 대한 답변을 즉시 확인하세요. Power BI와 통합하면 Cortana는 Power BI 대시보드 및 보고서에서 직접 주요 정보를 검색할 수 있습니다. Windows 10 2015년 11월 이상 버전, Cortana, Power BI 및 하나 이상의 데이터 집합에 대한 액세스만 있으면 됩니다.
+Windows 10 디바이스에서 Cortana를 사용하여 중요한 비즈니스 관련 질문에 대한 답변을 즉시 확인하세요. Power BI와 통합하면 Cortana는 Power BI 대시보드 및 보고서에서 직접 주요 정보를 검색할 수 있습니다. Windows 10 2015년 11월 이상 버전, Cortana, Power BI 및 하나 이상의 데이터 집합에 대한 액세스만 있으면 됩니다.
 
 ![Cortana 검색 필드](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
@@ -77,7 +77,7 @@ Cortana에서 질문하는 경우 Power BI는 Cortana용으로 특별히 디자�
 > 
 
 ## <a name="using-cortana-to-get-answers-from-power-bi"></a>Cortana를 사용하여 Power BI에서 답변 확인
-1. Cortana에서 시작합니다. 여러 가지 다른 방법으로 Cortana를 *열* 수 있습니다. 작업 표시줄에서 Cortana 아이콘을 선택하거나(아래 그램 참조), 음성 명령을 사용하거나, Windows 모바일 장치에서 검색 아이콘을 탭합니다.
+1. Cortana에서 시작합니다. 여러 가지 다른 방법으로 Cortana를 *열* 수 있습니다. 작업 표시줄에서 Cortana 아이콘을 선택하거나(아래 그램 참조), 음성 명령을 사용하거나, Windows 모바일 디바이스에서 검색 아이콘을 탭합니다.
    
      ![](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 2. Cortana가 준비되면 Cortana 검색 표시줄에 질문을 입력하거나 말합니다. Cortana에서 사용 가능한 결과를 표시합니다. 질문과 일치하는 Power BI 대시보드가 있으면 **가장 일치하는 항목** 또는 **Power BI** 아래에 표시됩니다.
@@ -125,7 +125,7 @@ Cortana에서 질문하는 경우 Power BI는 Cortana용으로 특별히 디자�
 * Cortana는 [Power BI에 사용하도록 설정](service-cortana-enable.md)되지 않은 모든 Cortana 카드에 액세스할 수 없습니다.
 * Cortana가 아직도 Power BI와 함께 작동하지 않나요?  [Cortana 문제 해결사](service-cortana-troubleshoot.md)를 사용해 보세요.
 * Power BI용 Cortana는 현재 영어로만 제공됩니다.
-* Power BI에 대한 Cortana는 Windows 모바일 장치에서만 사용할 수 있습니다.
+* Power BI에 대한 Cortana는 Windows 모바일 디바이스에서만 사용할 수 있습니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

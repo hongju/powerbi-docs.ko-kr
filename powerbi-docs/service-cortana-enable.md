@@ -1,6 +1,6 @@
 ---
 title: Power BI에 대해 Cortana 활성화
-description: Power BI와 함께 Cortana를 사용하여 데이터에서 답변을 가져올 수 있습니다. 각 Power BI 데이터 집합에 대해 Cortana를 활성화한 다음 Cortana가 Windows 장치에서 데이터 집합에 액세스할 수 있도록 설정합니다.
+description: Power BI와 함께 Cortana를 사용하여 데이터에서 답변을 가져올 수 있습니다. 각 Power BI 데이터 집합에 대해 Cortana를 활성화한 다음 Cortana가 Windows 디바이스에서 데이터 집합에 액세스할 수 있도록 설정합니다.
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi

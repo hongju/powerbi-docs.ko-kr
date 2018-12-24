@@ -19,7 +19,7 @@ ms.locfileid: "52979493"
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
 적용 대상:
 
-| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10 장치](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10 디바이스](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android 휴대폰](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android 태블릿](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[Windows 10 장치](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
 
@@ -28,7 +28,7 @@ ms.locfileid: "52979493"
 ## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Power BI 서비스에서 대시보드 만들기(https://powerbi.com)
 **모바일 앱에서 대시보드를 만들지 않습니다.** 
 
-모바일 장치에서 대시보드 및 보고서를 보려면 웹 브라우저에서 대시보드를 만들거나 연결해야 합니다. 
+모바일 디바이스에서 대시보드 및 보고서를 보려면 웹 브라우저에서 대시보드를 만들거나 연결해야 합니다. 
 
 1. Power BI 서비스([https://www.powerbi.com](https://www.powerbi.com))로 이동하여 [계정을 등록](../../service-self-service-signup-for-power-bi.md)합니다.
 2. [자신의 Power BI 대시보드 및 보고서를 만들거나](../../service-get-started.md) [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) 및 [Adobe Analyics](../../service-connect-to-adobe-analytics.md)와 같은 다양한 서비스에 대해 기존 [Power BI 앱](../../service-connect-to-services.md)에 연결합니다.
@@ -146,8 +146,8 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 
     “손가락 모으기” 제스처로 대시보드의 다른 영역을 확대/축소하고 이동하여 탐색할 수 있습니다. 그리고 여전히 [타일을 탭](mobile-tiles-in-the-mobile-apps.md)하여 타일을 포커스 모드로 열고 데이터를 조작할 수 있습니다.
 
-## <a name="view-dashboards-on-your-windows-10-device"></a>Windows 10 장치에서 대시보드 보기
-1. Windows 10 장치에서 Power BI 앱을 열고 로그인합니다.
+## <a name="view-dashboards-on-your-windows-10-device"></a>Windows 10 디바이스에서 대시보드 보기
+1. Windows 10 디바이스에서 Power BI 앱을 열고 로그인합니다.
    
    먼저 [앱을 다운로드](http://go.microsoft.com/fwlink/?LinkID=526478)해야 하나요?
 2. 대시보드를 열려면 누릅니다.   

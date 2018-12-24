@@ -21,18 +21,18 @@ ms.locfileid: "46544952"
 
 | ![iPhone](./media/mobile-apps-favorites/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-favorites/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-favorites/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-favorites/android-tablet-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-favorites/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 장치 |
+| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 모바일 앱에서 즐겨 찾는 온-프레미스 Power BI Report Server, Reporting Services KPI 및 보고서와 함께 즐겨 찾는 Power BI 대시보드, 보고서, 앱을 만들고 보는 방법에 대해 알아보세요.
 
-Power BI 모바일 앱에서 즐겨찾기를 만들면 Power BI 서비스([https://powerbi.com](https://powerbi.com))의 즐겨찾기 페이지와 모든 모바일 장치에서 해당 즐겨찾기를 볼 수 있습니다. 
+Power BI 모바일 앱에서 즐겨찾기를 만들면 Power BI 서비스([https://powerbi.com](https://powerbi.com))의 즐겨찾기 페이지와 모든 모바일 디바이스에서 해당 즐겨찾기를 볼 수 있습니다. 
 
 ![Power BI 모바일 앱의 즐겨찾기](./media/mobile-apps-favorites/power-bi-android-favorites-reports.png)
 
 
 또한 [Power BI 서비스에서 Power BI 대시보드 및 앱 즐겨찾기를](../end-user-favorite.md) 만들 수도 있습니다. 그런 다음 모바일 앱의 즐겨찾기 페이지에서 이를 볼 수 있습니다.
 
-Power BI Report Server 또한 Reporting Services 웹 포털에서 KPI와 보고서를 즐겨찾기로 표시하고 모바일 장치에서 Power BI 즐겨찾기 대시보드와 함께 하나의 폴더로 편리하게 볼 수 있습니다.
+Power BI Report Server 또한 Reporting Services 웹 포털에서 KPI와 보고서를 즐겨찾기로 표시하고 모바일 디바이스에서 Power BI 즐겨찾기 대시보드와 함께 하나의 폴더로 편리하게 볼 수 있습니다.
 
 ## <a name="view-your-power-bi-favorites"></a>Power BI 즐겨찾기 보기
 * 맨 위의 탐색 메뉴 ![탐색 메뉴 아이콘](./media/mobile-apps-favorites/power-bi-iphone-global-nav-button.png)을 탭한 다음, **즐겨찾기**를 탭합니다.

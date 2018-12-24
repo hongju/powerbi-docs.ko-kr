@@ -1,6 +1,6 @@
 ---
 title: Surface Hub, Windows 10에서 프레젠테이션 모드 보기 - Power BI
-description: Surface Hub에서 Power BI 보고서를 표시하고 Windows 10 장치에서 전체 화면 모드로 Power BI 대시보드, 보고서 및 타일을 표시하는 방법을 알아보세요.
+description: Surface Hub에서 Power BI 보고서를 표시하고 Windows 10 디바이스에서 전체 화면 모드로 Power BI 대시보드, 보고서 및 타일을 표시하는 방법을 알아보세요.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -17,7 +17,7 @@ ms.lasthandoff: 11/10/2018
 ms.locfileid: "51507936"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Surface Hub, Windows 10에서 프레젠테이션 모드로 보고서 보기 - Power BI
-Surface Hub에서 보고서를 프레젠테이션 모드로 표시하고 Windows 10 장치에서 대시보드, 보고서 및 타일을 전체 화면 모드로 표시할 수 있습니다. 
+Surface Hub에서 보고서를 프레젠테이션 모드로 표시하고 Windows 10 디바이스에서 대시보드, 보고서 및 타일을 전체 화면 모드로 표시할 수 있습니다. 
 
 ![전체 화면 모드의 보고서](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
 
@@ -62,7 +62,7 @@ Surface Hub에서는 기본적으로 프레젠테이션 모드가 켜져 있지�
    
    * 열려면 안쪽으로 살짝 밀거나 핸들을 탭합니다.
    * 닫으려면 바깥쪽으로 살짝 밀거나 맨 위에 있는 X를 탭합니다.
-2. 펜으로 쓰기를 지원하는 장치에서는 즉시 쓰기를 시작할 수 있습니다. 
+2. 펜으로 쓰기를 지원하는 디바이스에서는 즉시 쓰기를 시작할 수 있습니다. 
 3. 잉크 색을 변경하려면, 왼쪽 또는 오른쪽 작업 모음에서 펜을 탭합니다.
    
     ![Surface hub 잉크](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-ink.png)

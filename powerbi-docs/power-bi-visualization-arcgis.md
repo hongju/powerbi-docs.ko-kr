@@ -23,7 +23,7 @@ ms.locfileid: "51266050"
 
 ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어서 완전히 새로운 수준으로 매핑합니다. 기본 지도, 위치 유형, 테마, 기호 스타일 및 참조 계층에서 선택하여 멋진 정보 제공용 지도 시각화를 만듭니다. 공간 분석과 지도의 신뢰할 수 있는 데이터 계층의 조합은 시각화에서 데이터의 심도 깊은 이해를 제공합니다.
 
- 모바일 장치에서 ArcGIS 지도를 만들 수 없는 경우에도 지도를 보고 상호 작용할 수 있습니다. [ArcGIS 지도와 상호 작용](visuals/power-bi-visualizations-arcgis.md)을 참조하세요.
+ 모바일 디바이스에서 ArcGIS 지도를 만들 수 없는 경우에도 지도를 보고 상호 작용할 수 있습니다. [ArcGIS 지도와 상호 작용](visuals/power-bi-visualizations-arcgis.md)을 참조하세요.
 
 > [!TIP]
 > GIS는 Geographic Information Systems(지리적 정보 시스템)의 약자입니다.

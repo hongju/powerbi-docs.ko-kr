@@ -1,5 +1,5 @@
 ---
-title: Android 장치에서 Power BI 모바일 앱 시작
+title: Android 디바이스에서 Power BI 모바일 앱 시작
 description: 온-프레미스 및 클라우드에서 비즈니스 정보에 대한 모바일 액세스 권한을 사용하여 Microsoft Power BI용 Android 모바일 앱이 Power BI를 휴대하는 방법에 대해 알아봅니다.
 author: maggiesMSFT
 manager: kfile
@@ -16,7 +16,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/10/2018
 ms.locfileid: "48908756"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 장치에서 Power BI 모바일 앱 시작
+# <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 디바이스에서 Power BI 모바일 앱 시작
 Microsoft Power BI용 Android 앱은 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 
 
 ![Android용 Power BI 앱의 대시보드](./media/mobile-android-app-get-started/power-bi-android-dashboard-optimized-090117.png)
@@ -36,21 +36,21 @@ Power BI Desktop에서 Power BI 보고서를 만들고 게시합니다.
 
 Google Play에서 [Android용 Power BI 앱](http://go.microsoft.com/fwlink/?LinkID=544867)을 다운로드합니다.
   
-Power BI는 Android 5.0 이상 운영 체제를 실행하는 다양한 Android 장치에서 실행할 수 있습니다. 장치를 확인하려면 **설정** > **장치 정보** > **Android 버전**으로 이동합니다. 
+Power BI는 Android 5.0 이상 운영 체제를 실행하는 다양한 Android 디바이스에서 실행할 수 있습니다. 디바이스를 확인하려면 **설정** > **디바이스 정보** > **Android 버전**으로 이동합니다. 
 
 **앱을 열 때 시작**    
-등록하거나 로그인하지 않고도 앱을 연 후 로그인 페이지를 훑어보고 Android 장치에서 Power BI 앱으로 할 수 있는 작업에 대한 개요를 빠르게 파악할 수 있습니다. **건너뛰기** 를 탭하여 샘플을 보거나 탐색하고 앱을 실습하세요. 대시보드 홈페이지에서 언제든지 [샘플로 돌아갈](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) 수 있습니다.
+등록하거나 로그인하지 않고도 앱을 연 후 로그인 페이지를 훑어보고 Android 디바이스에서 Power BI 앱으로 할 수 있는 작업에 대한 개요를 빠르게 파악할 수 있습니다. **건너뛰기** 를 탭하여 샘플을 보거나 탐색하고 앱을 실습하세요. 대시보드 홈페이지에서 언제든지 [샘플로 돌아갈](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) 수 있습니다.
 
 [Power BI 모바일 앱의 새로운 기능](../../mobile-whats-new-in-the-mobile-apps.md)을 알아보세요.
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>웹에서 Power BI 서비스에 등록합니다.
-아직 등록하지 않은 경우, [Power BI 서비스(http://powerbi.com/)](http://powerbi.com/)로 가서 대시보드 및 보고서를 만들어 저장하고, 데이터를 함께 가져오기 위해 자신의 계정을 등록합니다. 그 후 Android 장치에서 Power BI에 로그인하면 어디서든 대시보드를 볼 수 있습니다.
+아직 등록하지 않은 경우, [Power BI 서비스(http://powerbi.com/)](http://powerbi.com/)로 가서 대시보드 및 보고서를 만들어 저장하고, 데이터를 함께 가져오기 위해 자신의 계정을 등록합니다. 그 후 Android 디바이스에서 Power BI에 로그인하면 어디서든 대시보드를 볼 수 있습니다.
 
 1. Power BI 서비스에서 [등록](http://go.microsoft.com/fwlink/?LinkID=513879)을 눌러 Power BI 계정을 만듭니다.
 2. [사용자 고유의 대시보드 및 보고서 만들기](../../service-get-started.md)를 시작합니다.
 
-## <a name="get-started-with-the-power-bi-app-on-your-device"></a>장치에서 Power BI 앱 시작
-1. Android 장치의 시작 화면에서 Android용 Power BI 앱을 엽니다.
+## <a name="get-started-with-the-power-bi-app-on-your-device"></a>디바이스에서 Power BI 앱 시작
+1. Android 디바이스의 시작 화면에서 Android용 Power BI 앱을 엽니다.
    
    ![Power BI 아이콘](./media/mobile-android-app-get-started/power-bi-logo-android.png)
 2. Power BI 대시보드 및 보고서를 보려면 **Power BI**를 누릅니다.  
@@ -91,7 +91,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 ![왼쪽 탐색 창](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>즐겨찾는 대시보드, KPI 및 보고서 보기
-모바일 앱의 즐겨찾기 페이지에서 Power BI Report Server 및 Reporting Services KPI와 보고서와 함께 즐겨 찾는 모든 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 장치에서 액세스할 수 있습니다. 
+모바일 앱의 즐겨찾기 페이지에서 Power BI Report Server 및 Reporting Services KPI와 보고서와 함께 즐겨 찾는 모든 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 디바이스에서 액세스할 수 있습니다. 
 
 * **즐겨찾기**를 누릅니다.
   
@@ -104,19 +104,19 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 자세한 내용은 [Power BI 모바일 앱의 즐겨찾기](mobile-apps-favorites.md)를 읽어보세요.
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에 대한 Enterprise 지원
-조직에서 Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱을 포함한 장치 및 응용 프로그램을 관리할 수 있습니다.
+조직에서 Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱을 포함한 디바이스 및 응용 프로그램을 관리할 수 있습니다.
 
 Microsoft Intune을 사용하면 액세스 핀이 필요하고, 응용 프로그램에서 데이터를 처리하는 방법을 제어하며, 앱을 사용하지 않을 때 응용 프로그램 데이터를 암호화하는 것과 같은 항목을 조직에서 제어할 수 있습니다.
 
 > [!NOTE]
-> Android 장치에서 Power BI 모바일 앱을 사용하고 조직에서 Microsoft Intune MAM을 구성한 경우 백그라운드 데이터 새로 고침이 해제됩니다. 다음 번에 앱을 시작하면 Power BI에서 웹의 Power BI 서비스로부터 데이터를 새로 고칩니다.
+> Android 디바이스에서 Power BI 모바일 앱을 사용하고 조직에서 Microsoft Intune MAM을 구성한 경우 백그라운드 데이터 새로 고침이 해제됩니다. 다음 번에 앱을 시작하면 Power BI에서 웹의 Power BI 서비스로부터 데이터를 새로 고칩니다.
 > 
 > 
 
 [Microsoft Intune을 사용하여 Android용 Power BI 모바일 앱 구성](../../service-admin-mobile-intune.md)에 대해 자세히 알아보세요. 
 
 ## <a name="next-steps"></a>다음 단계
-Power BI의 대시보드 및 보고서와 Power BI Report Server 또는 Reporting Services 웹 포털의 보고서 및 KPI를 사용하여 Power BI용 Android 장치 앱에서 수행할 수 있는 몇 가지 다른 작업은 다음과 같습니다.
+Power BI의 대시보드 및 보고서와 Power BI Report Server 또는 Reporting Services 웹 포털의 보고서 및 KPI를 사용하여 Power BI용 Android 디바이스 앱에서 수행할 수 있는 몇 가지 다른 작업은 다음과 같습니다.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서
 * [앱](../../service-create-distribute-apps.md) 보기.
