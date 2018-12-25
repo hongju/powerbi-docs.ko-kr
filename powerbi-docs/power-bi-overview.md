@@ -24,7 +24,7 @@ ms.locfileid: "51619589"
 **Power BI**는 단순하고 빠르기 때문에 Excel 스프레드시트 또는 로컬 데이터베이스에서 빠른 정보를 생성할 수 있습니다. 하지만 **Power BI**는 강력하면서도 엔터프라이즈급이기 때문에 광범위한 모델링 및 실시간 분석뿐 아니라 사용자 지정 개발에 즉시 사용할 수 있습니다. 따라서 Power BI는 개인 보고서 및 시각화 도구일 수 있으며, 그룹 프로젝트, 사업부 또는 회사 전체의 분석 및 의사 결정 엔진으로 역할도 할 수 있습니다.
 
 ## <a name="the-parts-of-power-bi"></a>Power BI의 요소
-Power BI는 **Power BI Desktop**이라는 Windows 데스크톱 응용 프로그램, **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*), Windows Phone 및 태블릿뿐 아니라 iOS 및 Android 장치에서 사용할 수 있는 모바일 Power BI **앱**으로 구성됩니다.
+Power BI는 **Power BI Desktop**이라는 Windows 데스크톱 응용 프로그램, **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*), Windows Phone 및 태블릿뿐 아니라 iOS 및 Android 디바이스에서 사용할 수 있는 모바일 Power BI **앱**으로 구성됩니다.
 
 ![Power BI Desktop, 서비스, 모바일](media/power-bi-overview/power-bi-blocks.png)
 
@@ -60,7 +60,7 @@ Power BI Report Server에서 제공하는 즉시 사용할 도구와 서비스�
 
 ![온-프레미스에 대한 다이어그램](media/power-bi-overview/power-bi-report-server2.png)
 
-Power BI Report Server는 방화벽 뒤에 배포한 다음, 웹 브라우저, 모바일 장치 또는 메일로 보는지에 관계없이 다양한 방법으로 적합한 사용자에게 보고서를 배달하는 솔루션입니다. 그리고 Power BI Report Server는 클라우드의 Power BI와 호환되므로 준비가 되면 클라우드로 이동할 수 있습니다.
+Power BI Report Server는 방화벽 뒤에 배포한 다음, 웹 브라우저, 모바일 디바이스 또는 메일로 보는지에 관계없이 다양한 방법으로 적합한 사용자에게 보고서를 배달하는 솔루션입니다. 그리고 Power BI Report Server는 클라우드의 Power BI와 호환되므로 준비가 되면 클라우드로 이동할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [로그인하고, 일부 데이터를 가져오고, Power BI 서비스 사용 방법을 알아봅니다.](service-the-new-power-bi-experience.md)   
