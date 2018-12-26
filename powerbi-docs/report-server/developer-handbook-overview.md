@@ -27,7 +27,7 @@ Power BI, 모바일, 페이지가 매겨진 보고서 및 KPI를 보고, 저장�
 URL에 쿼리 문자열 매개 변수 `?rs:Embed=true`를 추가하여 Power BI Report Server 내의 보고서를 iFrame 내에 포함할 수 있습니다. 다른 보고서 형식뿐만 아니라 Power BI 보고서에서도 작동합니다.
 
 ### <a name="report-viewer-control"></a>보고서 뷰어 컨트롤
-페이지가 매겨진 보고서에서 보고서 뷰어 컨트롤을 활용할 수 있습니다. 이를 통해 .NET 창 또는 웹 응용 프로그램 내에 컨트롤을 배치할 수 있습니다. 자세한 내용은 [보고서 뷰어 컨트롤 시작](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
+페이지가 매겨진 보고서에서 보고서 뷰어 컨트롤을 활용할 수 있습니다. 이를 통해 .NET 창 또는 웹 애플리케이션 내에 컨트롤을 배치할 수 있습니다. 자세한 내용은 [보고서 뷰어 컨트롤 시작](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
 
 ## <a name="apis"></a>API
 Power BI Report Server를 조작하는 몇 가지 API 옵션이 있습니다. 다음 항목이 포함됩니다.
@@ -44,7 +44,7 @@ Power BI Report Server를 조작하는 몇 가지 API 옵션이 있습니다. �
 > 
 
 ## <a name="custom-extensions"></a>사용자 지정 확장
-확장 라이브러리는 Power BI Report Server에 포함된 일련의 클래스, 인터페이스 및 값 형식입니다. 이 라이브러리는 시스템 기능에 대한 액세스 권한을 제공하고 Power BI Report Server 구성 요소를 확장하는 데 Microsoft .NET Framework 응용 프로그램을 사용할 수 있는 기반으로 설계되었습니다.
+확장 라이브러리는 Power BI Report Server에 포함된 일련의 클래스, 인터페이스 및 값 형식입니다. 이 라이브러리는 시스템 기능에 대한 액세스 권한을 제공하고 Power BI Report Server 구성 요소를 확장하는 데 Microsoft .NET Framework 애플리케이션을 사용할 수 있는 기반으로 설계되었습니다.
 
 여러 종류의 확장을 빌드할 수 있습니다.
 

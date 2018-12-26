@@ -246,7 +246,7 @@ DirectQuery 보고서에 대한 연결 문자열을 업데이트해야 합니다
 * [SaaS 작업 영역에서 DirectQuery 자격 증명 설정](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)
 
 ## <a name="embedding"></a>포함
-이제 Power BI Embedded Azure 서비스에서 Power BI 서비스로 보고서가 마이그레이션되었으며 응용 프로그램을 업데이트하고 이 앱 작업 영역에 보고서를 포함할 수 있습니다.
+이제 Power BI Embedded Azure 서비스에서 Power BI 서비스로 보고서가 마이그레이션되었으며 애플리케이션을 업데이트하고 이 앱 작업 영역에 보고서를 포함할 수 있습니다.
 
 자세한 내용은 [Power BI Embedded 작업 영역 컬렉션 콘텐츠를 Power BI로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md)을 참조하세요.
 

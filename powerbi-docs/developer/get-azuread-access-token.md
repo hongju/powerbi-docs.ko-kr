@@ -1,6 +1,6 @@
 ---
-title: 사용자를 인증하고 응용 프로그램에 대한 Azure AD 액세스 토큰 가져오기
-description: Power BI 콘텐츠 포함에 사용하기 위해 Azure Active Directory 내에서 응용 프로그램을 등록하는 방법에 대해 알아봅니다.
+title: 사용자를 인증하고 애플리케이션에 대한 Azure AD 액세스 토큰 가져오기
+description: Power BI 콘텐츠 포함에 사용하기 위해 Azure Active Directory 내에서 애플리케이션을 등록하는 방법에 대해 알아봅니다.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
@@ -17,7 +17,7 @@ ms.lasthandoff: 07/31/2018
 ms.locfileid: "39359935"
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>사용자를 인증하고 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기
-Power BI 응용 프로그램 내에서 사용자를 인증하고 REST API와 함께 사용할 액세스 토큰을 검색할 수 있는 방법을 알아봅니다.
+Power BI 애플리케이션 내에서 사용자를 인증하고 REST API와 함께 사용할 액세스 토큰을 검색할 수 있는 방법을 알아봅니다.
 
 Power BI REST API를 호출할 수 있으려면, Azure Active Directory(Azure AD) **인증 액세스 토큰**(액세스 토큰)이 있어야 합니다. **액세스 토큰**은 앱이 **Power BI** 대시보드, 타일 및 보고서에 액세스하도록 허용하는 데 사용됩니다. Azure Active Directory **액세스 토큰** 흐름에 대해 자세히 알아보려면, [Azure AD 인증 코드 부여 흐름](https://msdn.microsoft.com/library/azure/dn645542.aspx)을 참조하세요.
 
@@ -160,9 +160,9 @@ protected void Page_Load(object sender, EventArgs e)
 ```
 
 ## <a name="access-token-for-non-power-bi-users-app-owns-data"></a>비Power BI 사용자(앱 소유 데이터) 포함에 대한 액세스 토큰
-이 방법은 앱이 데이터에 대한 액세스를 소유한 ISV 유형 응용 프로그램에 일반적으로 사용됩니다. 사용자가 Power BI 사용자일 필요는 없으며 응용 프로그램이 인증 및 최종 사용자의 액세스를 컨트롤합니다.
+이 방법은 앱이 데이터에 대한 액세스를 소유한 ISV 유형 애플리케이션에 일반적으로 사용됩니다. 사용자가 Power BI 사용자일 필요는 없으며 애플리케이션이 인증 및 최종 사용자의 액세스를 컨트롤합니다.
 
-이 방법은 단일 *마스터* 계정인 Power BI Pro 사용자를 사용합니다. 이 계정에 대한 자격 증명은 응용 프로그램과 함께 저장됩니다. 응용 프로그램은 이러한 저장된 자격 증명으로 Azure AD에 대해 인증합니다. 아래와 같은 예제 코드는 [앱 소유 데이터 샘플](https://github.com/guyinacube/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)에서 가져옵니다.
+이 방법은 단일 *마스터* 계정인 Power BI Pro 사용자를 사용합니다. 이 계정에 대한 자격 증명은 애플리케이션과 함께 저장됩니다. 애플리케이션은 이러한 저장된 자격 증명으로 Azure AD에 대해 인증합니다. 아래와 같은 예제 코드는 [앱 소유 데이터 샘플](https://github.com/guyinacube/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)에서 가져옵니다.
 
 **HomeController.cs**
 

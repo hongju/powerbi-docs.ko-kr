@@ -300,7 +300,7 @@ PowerShell에서 실행 중인 사용자 지정 시각적 개체를 중지하려
 
     ![D3 라이브러리 설치](media/custom-visual-develop-tutorial/install-d3-library-type-def.png)
 
-    이 명령은 JavaScript 파일을 기반으로 TypeScript 정의를 설치하므로 TypeScript(JavaScript의 상위 집합)에서 사용자 지정 시각적 개체를 개발할 수 있습니다. Visual Studio Code는 TypeScript 응용 프로그램 개발에 적합한 IDE입니다.
+    이 명령은 JavaScript 파일을 기반으로 TypeScript 정의를 설치하므로 TypeScript(JavaScript의 상위 집합)에서 사용자 지정 시각적 개체를 개발할 수 있습니다. Visual Studio Code는 TypeScript 애플리케이션 개발에 적합한 IDE입니다.
 
 3. [Visual Studio Code](https://code.visualstudio.com/)를 시작합니다.
 

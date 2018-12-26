@@ -18,7 +18,7 @@ ms.lasthandoff: 09/21/2018
 ms.locfileid: "46549584"
 ---
 # <a name="connect-to-troux-for-power-bi"></a>Power BI용 Troux에 연결
-Troux 콘텐츠 팩을 사용하여 엔터프라이즈 아키텍처 리포지토리를 직접 Power BI에서 완전히 새로운 방식으로 시각화할 수 있습니다. 이 콘텐츠 팩은 비즈니스 기능에 대한 일련의 통찰력, 이러한 기능을 제공하는 응용 프로그램, 그리고 Power BI를 사용하여 완벽하게 사용자 지정할 수 있는 이러한 응용 프로그램을 지원하는 기술을 제공합니다.
+Troux 콘텐츠 팩을 사용하여 엔터프라이즈 아키텍처 리포지토리를 직접 Power BI에서 완전히 새로운 방식으로 시각화할 수 있습니다. 이 콘텐츠 팩은 비즈니스 기능에 대한 일련의 통찰력, 이러한 기능을 제공하는 애플리케이션, 그리고 Power BI를 사용하여 완벽하게 사용자 지정할 수 있는 이러한 애플리케이션을 지원하는 기술을 제공합니다.
 
 Power BI용 [Troux 콘텐츠 팩](https://app.powerbi.com/getdata/services/troux)에 연결하세요.
 

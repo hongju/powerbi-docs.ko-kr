@@ -34,10 +34,10 @@ Premium은 Power BI에서 보다 일관된 성능을 제공하고 더 많은 데
 Power BI 프리미엄 관련된 질문은 [Power BI 프리미엄 FAQ](../service-premium-faq.md)를 참조하세요.
 
 ## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>내 조직에서 Power BI 계정을 가진 사용자를 찾으려면 어떻게 하나요?
-Power BI에 대한 Azure Active Directory 통합 응용 프로그램 보고서를 보면 조직 내의 활성 사용자를 확인할 수 있습니다. Azure AD 보고서에는 각 사용자의 라이선스 유형이 나와 있지 않습니다. Power BI에 로그인한 사용자가 누구이며 언제 로그인하였는지만 보고됩니다. 자세한 내용은 [로그인한 Power BI 사용자 찾기](../service-admin-access-usage.md)를 참조하세요.
+Power BI에 대한 Azure Active Directory 통합 애플리케이션 보고서를 보면 조직 내의 활성 사용자를 확인할 수 있습니다. Azure AD 보고서에는 각 사용자의 라이선스 유형이 나와 있지 않습니다. Power BI에 로그인한 사용자가 누구이며 언제 로그인하였는지만 보고됩니다. 자세한 내용은 [로그인한 Power BI 사용자 찾기](../service-admin-access-usage.md)를 참조하세요.
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
-Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료 데스크톱 응용 프로그램입니다. Power BI Desktop은 대화형 작업이 많은 시각화에 고급 데이터 탐색, 셰이핑, 모델링 및 보고서 작성 기능을 제공함으로써 Power BI 서비스와 통합되어 작동합니다. 작업을 파일에 저장하고 데이터 및 보고서를 Power BI 사이트에 바로 게시하여 다른 사용자와 공유할 수 있습니다. [Power BI Desktop이란?](../desktop-what-is-desktop.md)에 대해 자세히 알아봅니다.
+Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료 데스크톱 애플리케이션입니다. Power BI Desktop은 대화형 작업이 많은 시각화에 고급 데이터 탐색, 셰이핑, 모델링 및 보고서 작성 기능을 제공함으로써 Power BI 서비스와 통합되어 작동합니다. 작업을 파일에 저장하고 데이터 및 보고서를 Power BI 사이트에 바로 게시하여 다른 사용자와 공유할 수 있습니다. [Power BI Desktop이란?](../desktop-what-is-desktop.md)에 대해 자세히 알아봅니다.
 
 ## <a name="what-do-i-need-to-use-power-bi-service"></a>Power BI 서비스를 사용하려면 무엇이 필요한가요?
 웹 브라우저와 회사 메일 주소만 있으면 됩니다. .gov 및 .mil 이메일 주소를 등록할 수 있습니다. 자세한 내용은 [Power BI 서비스에 미국 정부 기관 등록](../service-govus-signup.md)을 참조하세요. 

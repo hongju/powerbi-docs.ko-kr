@@ -20,7 +20,7 @@ ms.locfileid: "44742796"
 Power BI Apple Watch 앱을 사용하여 시계에 있는 Power BI 대시보드에서 KPI 및 타일 카드을 볼 수 있습니다. KPI 및 카드 타일은 작은 화면에서 하트비트 측정값을 제공하는 데 가장 적합합니다. iPhone이나 Watch 자체에서 대시보드를 새로 고칠 수 있습니다.
 
 ## <a name="install-the-apple-watch-app"></a>Apple Watch 앱 설치
-Power BI Apple Watch 앱은 iOS 앱용 Power BI를 제공하므로 [iPhone에 Power BI 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone 앱을 다운로드")할 경우 Apple 앱 스토어에서 하면 Power BI Watch 앱을 자동으로 다운로드 합니다. Apple 설명서에서는 [Apple Watch 응용 프로그램을 설치](https://support.apple.com/en-us/HT204784)하는 방법을 설명합니다.
+Power BI Apple Watch 앱은 iOS 앱용 Power BI를 제공하므로 [iPhone에 Power BI 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone 앱을 다운로드")할 경우 Apple 앱 스토어에서 하면 Power BI Watch 앱을 자동으로 다운로드 합니다. Apple 설명서에서는 [Apple Watch 애플리케이션을 설치](https://support.apple.com/en-us/HT204784)하는 방법을 설명합니다.
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Apple Watch에서 Power BI 앱 사용
 시계의 Springboard에서 또는 시계 화면(구성된 경우)에서 직접 Power BI 위젯을 클릭하여 Power BI Apple Watch 앱으로 이동합니다.

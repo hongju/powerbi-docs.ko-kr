@@ -24,7 +24,7 @@ OneDrive 또는 SharePoint Online에서 Power BI 서비스로 파일을 가져�
 ## <a name="advantages-of-storing-a-power-bi-desktop-file-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 있는 Power BI Desktop 파일을 저장하는 이점
 OneDrive 또는 SharePoint Online에서 **Power BI Desktop** 파일을 저장하는 경우 파일의 모델에 로드한 데이터를 데이터 집합에 가져오고 파일에서 만든 보고서는 제공된 Power BI의 **보고서**에 로드됩니다. 새 측정값을 추가하거나 열 이름을 변경하고 시각화를 편집하는 등 OneDrive 또는 SharePoint Online에서 파일을 변경한 경우 파일을 저장하면 일반적으로 약 1시간 내에 Power BI 서비스에서 업데이트됩니다.
 
-홈 리본에서 새로 고침을 선택하여 Power BI Desktop에서 바로 일회성인 수동 새로 고침을 수행할 수 있습니다. 여기에서 새로 고침을 선택하면 *파일의* 모델에 있는 데이터는 원래 데이터 원본에서 업데이트된 데이터로 새로 고쳐집니다. 완전히 Power BI Desktop 응용 프로그램 자체에서 가져온 이러한 종류의 새로 고침은 Power BI에서 수동 또는 예약된 새로 고침과 다르기 때문에 차이를 이해하는 것이 중요합니다.
+홈 리본에서 새로 고침을 선택하여 Power BI Desktop에서 바로 일회성인 수동 새로 고침을 수행할 수 있습니다. 여기에서 새로 고침을 선택하면 *파일의* 모델에 있는 데이터는 원래 데이터 원본에서 업데이트된 데이터로 새로 고쳐집니다. 완전히 Power BI Desktop 애플리케이션 자체에서 가져온 이러한 종류의 새로 고침은 Power BI에서 수동 또는 예약된 새로 고침과 다르기 때문에 차이를 이해하는 것이 중요합니다.
 
 ![](media/refresh-desktop-file-onedrive/pbix-refresh.png)
 

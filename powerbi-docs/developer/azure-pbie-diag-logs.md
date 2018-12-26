@@ -40,7 +40,7 @@ ms.locfileid: "40126627"
 
     * **저장소 계정에 보관** - 이 옵션을 사용하려면 기존 저장소 계정에 연결해야 합니다. [저장소 계정 만들기](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)를 참조하고 지침에 따라 저장소 계정을 만듭니다. 그런 다음, 포털에서 이 페이지로 돌아가서 저장소 계정을 선택합니다. 새로 만들어진 저장소 계정이 드롭다운 메뉴에 나타나는 데 몇 분이 걸릴 수 있습니다. 로그 파일 저장소는 JSON 형식입니다.
     * **이벤트 허브로의 스트림** - 이 옵션을 사용하려면 기존 이벤트 허브 네임스페이스 및 이벤트 허브에 연결해야 합니다. 자세한 내용은 [Azure Portal을 사용하여 이벤트 허브 네임스페이스 및 이벤트 허브 만들기](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)를 참조하세요.
-    * **Log Analytics에 보내기** - 이 옵션을 사용하려면 기존 작업 영역을 사용하거나 포털에서 [새 작업 영역을 만드는](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) 단계에 따라 새 Log Analytics 작업 영역을 만듭니다. 이 작업에는 기본 제공 분석, 대시보드 및 알림 기능을 제공하는 [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview)를 이용합니다. Log Analytics를 사용하면 다른 리소스의 추가 데이터를 연결하고 모든 응용 프로그램의 리소스 전체에서 데이터의 단일 및 전체 보기를 가져올 수 있습니다. [단일 클릭으로 Power BI](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi)에 연결할 수도 있습니다.
+    * **Log Analytics에 보내기** - 이 옵션을 사용하려면 기존 작업 영역을 사용하거나 포털에서 [새 작업 영역을 만드는](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) 단계에 따라 새 Log Analytics 작업 영역을 만듭니다. 이 작업에는 기본 제공 분석, 대시보드 및 알림 기능을 제공하는 [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview)를 이용합니다. Log Analytics를 사용하면 다른 리소스의 추가 데이터를 연결하고 모든 애플리케이션의 리소스 전체에서 데이터의 단일 및 전체 보기를 가져올 수 있습니다. [단일 클릭으로 Power BI](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi)에 연결할 수도 있습니다.
     Log Analytics에서 로그를 보는 방법에 대한 자세한 내용은 [Log Analytics의 로그 보기](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity)를 참조하세요.
     * **Engine** - 아래에 [나열된 엔진 이벤트](#whats-logged) 집합을 기록하려면 이 옵션을 선택합니다.
     * **AllMetrics** - [메트릭](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)에 자세한 정보 데이터를 저장하려면 이 옵션을 선택합니다. 저장소 계정에 보관할 경우 진단 로그의 보존 기간을 선택할 수 있습니다. 로그는 보존 기간이 만료된 후에 자동 삭제됩니다.
@@ -143,8 +143,8 @@ PowerShell을 사용하여 메트릭 및 진단 로깅을 사용하도록 설정
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | 사용자의 문이 실행 중인 데이터 집합의 ID입니다. |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | 세션 GUID입니다. |
 | SPID | 180 | 서버 프로세스 ID입니다. 사용자 세션을 고유하게 식별합니다. 이는 XML/A에서 사용하는 세션 GUID에 해당합니다. |
-| ClientProcessID | null | 클라이언트 응용 프로그램의 프로세스 ID입니다. |
-| ApplicationName | null | 서버에 대한 연결을 만든 클라이언트 응용 프로그램의 이름입니다. |
+| ClientProcessID | null | 클라이언트 애플리케이션의 프로세스 ID입니다. |
+| ApplicationName | null | 서버에 대한 연결을 만든 클라이언트 애플리케이션의 이름입니다. |
 | CapacityName | pbi641fb41260f84aa2b778a85891ae2d97 | Power BI Embedded 용량 리소스의 이름입니다. |
 | RequestParameters |  |  |
 | RequestProperties |  |  |

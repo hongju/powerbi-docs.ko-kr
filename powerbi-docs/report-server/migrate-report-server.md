@@ -19,7 +19,7 @@ ms.locfileid: "34480937"
 # <a name="migrate-a-report-server-installation"></a>Report Server 설치 마이그레이션
 Power BI Report Server의 인스턴스로 기존 SSRS(SQL Server Reporting Services) 인스턴스를 마이그레이션하는 방법에 대해 알아봅니다.
 
-마이그레이션은 응용 프로그램 데이터 파일을 새 Power BI Report Server 인스턴스로 이동하는 것으로 정의됩니다. 설치를 마이그레이션하는 일반적인 이유는 다음과 같습니다.
+마이그레이션은 애플리케이션 데이터 파일을 새 Power BI Report Server 인스턴스로 이동하는 것으로 정의됩니다. 설치를 마이그레이션하는 일반적인 이유는 다음과 같습니다.
 
 * SQL Server Reporting Services를 Power BI Report Server로 이동하려고 합니다.
   
@@ -41,7 +41,7 @@ SSRS(기본 모드) 인스턴스에서 Power BI Report Server로 마이그레이
 > 
 > 
 
-* 데이터베이스, 응용 프로그램 및 구성 파일을 백업합니다.
+* 데이터베이스, 애플리케이션 및 구성 파일을 백업합니다.
 * 암호화 키를 백업합니다.
 * 보고서를 호스팅하는 Report Server 데이터베이스를 복제합니다.
 * Power BI Report Server를 설치합니다. 동일한 하드웨어를 사용하는 경우 SSRS 인스턴스와 동일한 서버에서 Power BI Report Server를 설치할 수 있습니다. Power BI Report Server를 설치하는 방법에 자세한 정보는 [Power BI Report Server 설치](install-report-server.md)를 참조하세요.
@@ -85,7 +85,7 @@ Power BI Reprot Server에서 마이그레이션하는 작업은 SSRS(기본 모�
 
 ![](media/migrate-report-server/migrate-from-pbirs.png "Power BI Report Server에서 Power BI Report Server로 마이그레이션")
 
-* 데이터베이스, 응용 프로그램 및 구성 파일을 백업합니다.
+* 데이터베이스, 애플리케이션 및 구성 파일을 백업합니다.
 * 암호화 키를 백업합니다.
 * 보고서를 호스팅하는 Report Server 데이터베이스를 복제합니다.
 * Power BI Report Server를 설치합니다. Power BI Report Server를 마이그레이션하는 것과 동일한 서버에 설치할 수 *없습니다*. Power BI Report Server를 설치하는 방법에 자세한 정보는 [Power BI Report Server 설치](install-report-server.md)를 참조하세요.

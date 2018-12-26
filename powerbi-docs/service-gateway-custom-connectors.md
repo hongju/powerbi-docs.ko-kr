@@ -19,7 +19,7 @@ ms.locfileid: "50101281"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이에서 사용자 지정 데이터 커넥터 사용
 
-Power BI용 데이터 커넥터를 사용하면 응용 프로그램, 서비스 또는 데이터 원본의 데이터에 연결하고 액세스할 수 있습니다. 사용자 지정 데이터 커넥터를 개발하고 Power BI Desktop에서 사용할 수 있습니다.
+Power BI용 데이터 커넥터를 사용하면 애플리케이션, 서비스 또는 데이터 원본의 데이터에 연결하고 액세스할 수 있습니다. 사용자 지정 데이터 커넥터를 개발하고 Power BI Desktop에서 사용할 수 있습니다.
 
 Power BI용 사용자 지정 데이터 커넥터를 개발하는 방법에 대한 자세한 내용은 [여기](http://aka.ms/dataconnectors)에서 설명서를 확인하세요.
 

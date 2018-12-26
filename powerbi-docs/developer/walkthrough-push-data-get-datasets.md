@@ -30,7 +30,7 @@ ms.locfileid: "37092555"
 > 
 > 
 
-1. 2단계: 데이터 푸시 연습, [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 만든 콘솔 응용 프로그램 프로젝트에서 Newtonsoft.Json NuGet 패키지를 설치합니다. 패키지를 설치하는 방법은 다음과 같습니다.
+1. 2단계: 데이터 푸시 연습, [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 만든 콘솔 애플리케이션 프로젝트에서 Newtonsoft.Json NuGet 패키지를 설치합니다. 패키지를 설치하는 방법은 다음과 같습니다.
    
      a. Visual Studio 2015에서 **도구** > **NuGet 패키지 관리자** > **패키지 관리자 콘솔**을 선택합니다.
    

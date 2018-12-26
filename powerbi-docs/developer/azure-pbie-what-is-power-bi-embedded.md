@@ -32,7 +32,7 @@ Power BI 콘텐츠가 포함된 기존 앱이 Power BI Premium을 사용 중인�
 
 ## <a name="comparing-power-bi-embedded-with-power-bi-premium"></a>Power BI Embedded와 Power BI Premium 비교
 
-**Power BI Embedded**는 고객을 위해 응용 프로그램을 구축하는 독립 소프트웨어 공급업체(ISV) 및 개발자용입니다. 서비스를 직접 구축하기 보다는 응용 프로그램 데이터 시각화를 지원하는 타사 비즈니스 인텔리전스 서비스로 사용할 수 있습니다. Power BI Embedded는 개발자가 고객을 위해 보고서 및 대시보드를 응용 프로그램에 포함할 수 있는 PaaS(Platform as a Service) 분석 솔루션입니다. **Power BI Premium**은 조직의 가장 중요한 비즈니스 데이터의 단일 보기를 제공하는 SaaS(software-as-a-service) 분석 솔루션입니다. 
+**Power BI Embedded**는 고객을 위해 응용 프로그램을 구축하는 독립 소프트웨어 공급업체(ISV) 및 개발자용입니다. 서비스를 직접 구축하기 보다는 애플리케이션 데이터 시각화를 지원하는 타사 비즈니스 인텔리전스 서비스로 사용할 수 있습니다. Power BI Embedded는 개발자가 고객을 위해 보고서 및 대시보드를 애플리케이션에 포함할 수 있는 PaaS(Platform as a Service) 분석 솔루션입니다. **Power BI Premium**은 조직의 가장 중요한 비즈니스 데이터의 단일 보기를 제공하는 SaaS(software-as-a-service) 분석 솔루션입니다. 
 
 [Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embedded/)가 종량제 기능인 반면, [Power BI Premium](https://powerbi.microsoft.com/calculator/)은 월별 요금이 필요합니다. 비교 방식에 대한 자세한 내용은 이 [동영상](https://www.youtube.com/watch?v=0y2oJikC6Xc&t=0s&list=PLv2BtOtLblH1dQPV49Ni12olDcUoW-GEl&index=3)에서 확인하세요.
 

@@ -41,7 +41,7 @@ ms.locfileid: "45974992"
 
 여러 Python IDE를 설치한 경우 어떤 것을 시작할 것인지 **옵션** 대화 상자의 ‘검색된 Python IDE’ 드롭다운에서 선택하여 지정할 수 있습니다.
 
-기본적으로 **Power BI Desktop**은 **Visual Studio Code**가 로컬 컴퓨터에 설치된 경우 그것을 외부 Python IDE로 시작할 것이며 **Visual Studio Code**가 설치되지 않았고 **Visual Studio**가 있다면 그것이 대신 시작될 것입니다. 어떠한 Python IDE도 설치되지 않은 경우 **.PY** 파일과 관련된 응용 프로그램이 시작됩니다.
+기본적으로 **Power BI Desktop**은 **Visual Studio Code**가 로컬 컴퓨터에 설치된 경우 그것을 외부 Python IDE로 시작할 것이며 **Visual Studio Code**가 설치되지 않았고 **Visual Studio**가 있다면 그것이 대신 시작될 것입니다. 어떠한 Python IDE도 설치되지 않은 경우 **.PY** 파일과 관련된 애플리케이션이 시작됩니다.
 
 **.PY** 파일 연결이 없는 경우 **옵션** 대화 상자의 ‘선호하는 Python IDE로 이동’ 섹션에서 사용자 지정 IDE로 경로를 지정하는 것이 가능합니다. 또한 **Power BI Desktop**에서 **Python IDE 시작** 화살표 아이콘 옆에 있는 **설정** 기어 아이콘을 선택하여 다른 Python IDE를 시작할 수 있습니다.
 

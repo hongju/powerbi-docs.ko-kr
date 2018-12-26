@@ -28,7 +28,7 @@ ms.locfileid: "34812632"
 > 
 > 
 
-1. Visual Studio 2015에서 **콘솔 응용 프로그램** 프로젝트를 만듭니다.
+1. Visual Studio 2015에서 **콘솔 애플리케이션** 프로젝트를 만듭니다.
 2. [.NET NuGet 패키지용 Azure AD 인증 라이브러리](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)를 설치합니다. .NET 앱에서 인증 보안 토큰을 가져오려면 이 패키지를 사용합니다. 패키지를 설치하는 방법은 다음과 같습니다.
    
      a. Visual Studio 2015에서 **도구** > **NuGet 패키지 관리자** > **패키지 관리자 콘솔**을 선택합니다.

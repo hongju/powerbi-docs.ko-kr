@@ -18,7 +18,7 @@ ms.locfileid: "43821757"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API 참조
 
-Power BI는 사용자 지정 대시보드 응용 프로그램을 구축하는 데 사용할 수 있는 클라우드 기반 서비스입니다. Power BI REST API는 Power BI에서 **데이터 집합** , **테이블**, **행**등의 **대시보드** 리소스에 프로그래밍 방식의 액세스 권한을 제공하는 REST 기반 API입니다.
+Power BI는 사용자 지정 대시보드 애플리케이션을 구축하는 데 사용할 수 있는 클라우드 기반 서비스입니다. Power BI REST API는 Power BI에서 **데이터 집합** , **테이블**, **행**등의 **대시보드** 리소스에 프로그래밍 방식의 액세스 권한을 제공하는 REST 기반 API입니다.
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 

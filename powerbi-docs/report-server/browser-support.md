@@ -97,7 +97,7 @@ Your browser does not support scripts or has been configured to not allow script
 > 
 
 ## <a name="browser-support-for-report-viewer-web-server-controls-in-visual-studio"></a>Visual Studio에서 Report Viewer 웹 서버 컨트롤에 대한 브라우저 지원
-Report Viewer 웹 서버 컨트롤은 ASP.NET 웹 응용 프로그램에서 보고서 기능을 포함하는 데 사용됩니다. Report Viewer 컨트롤을 가져오는 방법에 대한 자세한 내용은 [Report Viewer 컨트롤을 사용하여 Reporting Services 통합 - 시작](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
+Report Viewer 웹 서버 컨트롤은 ASP.NET 웹 애플리케이션에서 보고서 기능을 포함하는 데 사용됩니다. Report Viewer 컨트롤을 가져오는 방법에 대한 자세한 내용은 [Report Viewer 컨트롤을 사용하여 Reporting Services 통합 - 시작](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
 
 스크립트 지원을 사용하는 브라우저를 사용합니다. 브라우저에서 스크립트를 실행할 수 없는 경우 보고서를 볼 수 없습니다.
 

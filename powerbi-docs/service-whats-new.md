@@ -574,7 +574,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 8월 18일**
 
-* Azure Mobile Engagement는 개발자가 응용 프로그램의 성능을 추적하여 보존 및 앱 사용량을 늘리도록 돕는 앱 분석 서비스입니다. [Power BI Azure Mobile Engagement 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx)을 사용하여 기본 제공된 대시보드, 일련의 보고서, 큐레이트 데이터 집합에 신속하게 연결하고 앱이 얼마나 잘 수행되는지를 즉시 알 수 있습니다. 자세한 내용은 [Power BI용 Azure Mobile Engagement 콘텐츠 팩 도움말 페이지](service-connect-to-azure-mobile.md)를 참조하세요.
+* Azure Mobile Engagement는 개발자가 애플리케이션의 성능을 추적하여 보존 및 앱 사용량을 늘리도록 돕는 앱 분석 서비스입니다. [Power BI Azure Mobile Engagement 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx)을 사용하여 기본 제공된 대시보드, 일련의 보고서, 큐레이트 데이터 집합에 신속하게 연결하고 앱이 얼마나 잘 수행되는지를 즉시 알 수 있습니다. 자세한 내용은 [Power BI용 Azure Mobile Engagement 콘텐츠 팩 도움말 페이지](service-connect-to-azure-mobile.md)를 참조하세요.
 
 **2015년 8월 11일**
 
@@ -602,9 +602,9 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 7월 14일**
 
-* Acumatica Cloud ERP는 강력하고 유연한 플랫폼에서 제공되는 재무, 배포, CRM 및 프로젝트 회계 등 완전 통합 비즈니스 관리 응용 프로그램 제품군을 제공합니다. Power BI [Acumatica 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)을 사용하면 신속하게 연결하고 기회 데이터에 대한 이해력을 즉각적으로 넓힐 수 있습니다. 이 콘텐츠에는 날짜별로 획득한 총 기회 수 등과 같은 세부 정보를 탐색하고 제공하기 위해 기본 제공된 대시보드, 일련의 보고서, 큐레이트 데이터 집합이 있습니다. 자세한 내용은 [여기](service-connect-to-acumatica.md)를 읽어보세요. 
+* Acumatica Cloud ERP는 강력하고 유연한 플랫폼에서 제공되는 재무, 배포, CRM 및 프로젝트 회계 등 완전 통합 비즈니스 관리 애플리케이션 제품군을 제공합니다. Power BI [Acumatica 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)을 사용하면 신속하게 연결하고 기회 데이터에 대한 이해력을 즉각적으로 넓힐 수 있습니다. 이 콘텐츠에는 날짜별로 획득한 총 기회 수 등과 같은 세부 정보를 탐색하고 제공하기 위해 기본 제공된 대시보드, 일련의 보고서, 큐레이트 데이터 집합이 있습니다. 자세한 내용은 [여기](service-connect-to-acumatica.md)를 읽어보세요. 
 * [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx)는 이제 완전히 관리되는 Spark 서비스를 제공합니다. 이 기능을 통해 반복적인 기계 학습과 대화형 데이터 분석 등의 시나리오를 구성할 수 있게 되었습니다. Power BI를 통해 간단한 실시간 탐색을 제공하는 HDInsight의 Spark의 데이터에 직접 연결할 수 있습니다. 자세한 내용은 [도움말 설명서](spark-on-hdinsight-with-direct-connect.md)를 읽어보세요.
-* [Office 365 탐색 및 응용 프로그램 시작 관리자 통합](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher) 이제 한 번의 클릭으로 Office 365 응용 프로그램 모두를 탐색할 수 있습니다.
+* [Office 365 탐색 및 응용 프로그램 시작 관리자 통합](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher) 이제 한 번의 클릭으로 Office 365 애플리케이션 모두를 탐색할 수 있습니다.
 * 타일을 클릭할 때 사용자가 탐색하는 [사용자 지정 URL 지정](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url) 이제 특정 보고서, 다른 대시보드, SSRS 보고서 또는 외부 웹사이트 등 사용자가 이동하는 곳을 정확하게 제어할 수 있게 되었습니다. 
 * Power BI에서 사용하는 [저장소의 표시 유형 및 관리](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
 * [질문과 대답에 표시되는 시각적 개체와 필드 구성](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#visual)

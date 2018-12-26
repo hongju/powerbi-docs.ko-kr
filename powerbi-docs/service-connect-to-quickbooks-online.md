@@ -67,7 +67,7 @@ Power BI용 [QuickBooks Online 콘텐츠 팩](https://dxt.powerbi.com/getdata/se
 
 " 오류가 발생했습니다." 이 창을 닫고 다시 시도하세요.
 
-이 회사의 다른 사용자가 응용 프로그램을 이미 구독했습니다. [관리자 메일]로 연락하여 이 구독을 변경하세요."
+이 회사의 다른 사용자가 애플리케이션을 이미 구독했습니다. [관리자 메일]로 연락하여 이 구독을 변경하세요."
 
 ![](media/service-connect-to-quickbooks-online/pbi_qbo_oopssm.png)
 

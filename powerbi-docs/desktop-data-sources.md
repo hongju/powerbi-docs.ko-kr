@@ -72,7 +72,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Sybase 데이터베이스
 * Teradata 데이터베이스
 * SAP HANA 데이터베이스
-* SAP Business Warehouse 응용 프로그램 서버
+* SAP Business Warehouse 애플리케이션 서버
 * SAP Business Warehouse 메시지 서버
 * Amazon Redshift
 * Impala

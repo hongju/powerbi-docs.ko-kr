@@ -20,7 +20,7 @@ ms.locfileid: "52670204"
 # <a name="get-data-from-excel-workbook-files"></a>Excel 통합 문서 파일에서 데이터 가져오기
 ![](media/service-excel-workbook-files/excel_icon.png)
 
-Microsoft Excel은 가장 널리 사용하는 업무용 응용 프로그램 중 하나로서, Power BI로 데이터를 가져오는 가장 일반적인 방법 중 하나이기도 합니다.
+Microsoft Excel은 가장 널리 사용하는 업무용 애플리케이션 중 하나로서, Power BI로 데이터를 가져오는 가장 일반적인 방법 중 하나이기도 합니다.
 
 ## <a name="what-types-of-workbooks-does-power-bi-support"></a>Power BI에서 지원하는 통합 문서 형식
 Power BI에서는 Excel 2007 이상에서 만들어진 통합 문서 가져오기 또는 연결을 지원합니다. 통합 문서는 1GB 미만인 .xlsx 또는 .xlsm 파일 형식으로 저장되어야 합니다. 이 문서에서 설명된 일부 기능은 이후 버전의 Excel에서만 사용 가능합니다.

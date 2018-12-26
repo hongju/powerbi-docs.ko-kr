@@ -18,7 +18,7 @@ ms.locfileid: "51223138"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>개발자는 Power BI로 무엇을 할 수 있나요?
 
-개발자는 Power BI 콘텐츠를 응용 프로그램에 포함할 수 있는 다양한 옵션을 사용할 수 있습니다. 개발자는 **Power BI에 포함**, **사용자 지정 시각적 개체**, **Power BI에 데이터 푸시** 등의 옵션을 사용할 수 있습니다.
+개발자는 Power BI 콘텐츠를 애플리케이션에 포함할 수 있는 다양한 옵션을 사용할 수 있습니다. 개발자는 **Power BI에 포함**, **사용자 지정 시각적 개체**, **Power BI에 데이터 푸시** 등의 옵션을 사용할 수 있습니다.
 
 ## <a name="embedding-power-bi-content"></a>Power BI 콘텐츠 포함
 

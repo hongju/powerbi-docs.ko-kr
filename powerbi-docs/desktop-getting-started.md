@@ -57,7 +57,7 @@ Power BI Desktop은 비즈니스 인텔리전스 리포지토리 및 보고서�
 
 ![](media/desktop-getting-started/gsg_download.png)
 
-Power BI Desktop은 응용 프로그램으로 설치되며 데스크톱에서 실행됩니다.
+Power BI Desktop은 애플리케이션으로 설치되며 데스크톱에서 실행됩니다.
 
 ![](media/desktop-getting-started/designer_gsg_install.png)
 

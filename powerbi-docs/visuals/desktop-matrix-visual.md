@@ -18,7 +18,7 @@ ms.lasthandoff: 12/06/2018
 ms.locfileid: "52979551"
 ---
 # <a name="use-the-matrix-visual-in-power-bi"></a>Power BI에서 행렬 시각적 개체 사용
-**행렬** 시각적 개체 기능을 사용하여 **Power BI Desktop** 및 **Power BI 서비스** 보고서에서 행렬 시각적 개체(‘테이블’이라고도 함)를 만들고 기타 시각적 개체를 사용하여 행렬 내에서 요소를 상호 강조 표시할 수 있습니다. 또한 행, 열 및 개별 셀과 상호 강조 표시를 선택할 수 있습니다. 개별 셀 및 여러 셀 선택을 복사하여 다른 응용 프로그램에 붙여넣을 수 있습니다. 마지막으로 레이아웃 공간을 효율적으로 사용할 수 있도록 행렬 시각적 개체는 단계별 레이아웃을 지원합니다.
+**행렬** 시각적 개체 기능을 사용하여 **Power BI Desktop** 및 **Power BI 서비스** 보고서에서 행렬 시각적 개체(‘테이블’이라고도 함)를 만들고 기타 시각적 개체를 사용하여 행렬 내에서 요소를 상호 강조 표시할 수 있습니다. 또한 행, 열 및 개별 셀과 상호 강조 표시를 선택할 수 있습니다. 개별 셀 및 여러 셀 선택을 복사하여 다른 애플리케이션에 붙여넣을 수 있습니다. 마지막으로 레이아웃 공간을 효율적으로 사용할 수 있도록 행렬 시각적 개체는 단계별 레이아웃을 지원합니다.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -151,13 +151,13 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
 
-## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>다른 응용 프로그램에서 사용하기 위해 Power BI의 값 복사
+## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>다른 애플리케이션에서 사용하기 위해 Power BI의 값 복사
 
-행렬 또는 테이블에는 Dynamics CRM, Excel 같은 다른 응용 프로그램에서 사용하려는 콘텐츠가 포함되거나 다른 Power BI 보고서가 포함될 수도 있습니다. Power BI를 마우스 오른쪽 단추로 클릭하면 단일 셀이나 여러 셀 선택을 클립보드에 복사하여 다른 응용 프로그램에 붙여넣을 수 있습니다.
+행렬 또는 테이블에는 Dynamics CRM, Excel 같은 다른 애플리케이션에서 사용하려는 콘텐츠가 포함되거나 다른 Power BI 보고서가 포함될 수도 있습니다. Power BI를 마우스 오른쪽 단추로 클릭하면 단일 셀이나 여러 셀 선택을 클립보드에 복사하여 다른 애플리케이션에 붙여넣을 수 있습니다.
 
 ![복사 옵션](media/desktop-matrix-visual/power-bi-cell-copy.png)
 
-* 단일 셀의 값을 복사하려면 셀을 선택하고 마우스 오른쪽 단추를 클릭한 후 **값 복사**를 선택합니다. 클립보드에 서식 없는 셀 값이 있으면 이제 다른 응용 프로그램에 이 값을 붙여넣을 수 있습니다.
+* 단일 셀의 값을 복사하려면 셀을 선택하고 마우스 오른쪽 단추를 클릭한 후 **값 복사**를 선택합니다. 클립보드에 서식 없는 셀 값이 있으면 이제 다른 애플리케이션에 이 값을 붙여넣을 수 있습니다.
 
     ![복사 옵션](media/desktop-matrix-visual/power-bi-copy.png)
 

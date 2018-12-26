@@ -71,7 +71,7 @@
 ```
 
 > [!NOTE]
-> 이러한 레지스트리 키를 추가하거나 수정하면 변경 내용이 모든 .NET 응용 프로그램에 적용됩니다. 다른 응용 프로그램에 대한 TLS에 영향을 주는 레지스트리 변경에 대한 정보는 [TLS(전송 계층 보안) 레지스트리 설정](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)을 참조하세요.
+> 이러한 레지스트리 키를 추가하거나 수정하면 변경 내용이 모든 .NET 애플리케이션에 적용됩니다. 다른 애플리케이션에 대한 TLS에 영향을 주는 레지스트리 변경에 대한 정보는 [TLS(전송 계층 보안) 레지스트리 설정](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)을 참조하세요.
 
 ## <a name="how-to-restart-the-gateway"></a>게이트웨이를 다시 시작하는 방법
 

@@ -111,7 +111,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 <InternalUrl>/hosting/discovery
 ```
 
-Office Online Server가 예상대로 작동하는 경우 WOPI(웹 응용 프로그램 열기 플랫폼 인터페이스 프로토콜) 검색 XML 파일이 웹 브라우저에 표시됩니다. 해당 파일의 처음 몇 줄은 다음 예제와 유사합니다.
+Office Online Server가 예상대로 작동하는 경우 WOPI(웹 애플리케이션 열기 플랫폼 인터페이스 프로토콜) 검색 XML 파일이 웹 브라우저에 표시됩니다. 해당 파일의 처음 몇 줄은 다음 예제와 유사합니다.
 
 ```
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -164,7 +164,7 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 ### <a name="firewall-considerations"></a>방화벽 고려 사항
 
-방화벽 문제를 방지하기 위해 포트 2382와 2383를 열어야 할 수도 있습니다. 또한 응용 프로그램 방화벽 정책으로 파워 피벗 인스턴스에 대해 *msmdsrv.exe*를 추가할 수 있습니다.
+방화벽 문제를 방지하기 위해 포트 2382와 2383를 열어야 할 수도 있습니다. 또한 애플리케이션 방화벽 정책으로 파워 피벗 인스턴스에 대해 *msmdsrv.exe*를 추가할 수 있습니다.
 
 ## <a name="configure-power-bi-report-server-to-use-the-oos-server"></a>OOS Server를 사용하도록 Power BI Report Server 구성
 

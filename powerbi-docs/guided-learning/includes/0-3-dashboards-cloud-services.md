@@ -21,7 +21,7 @@ Power BI는 모든 종류의 서비스에 대한 콘텐츠 팩을 제공합니�
 
 ![](media/0-3-dashboards-cloud-services/c0a3_3.png)
 
-이 가이드에서는 **GitHub**를 선택합니다. GitHub는 온라인 소스 제어용 응용 프로그램입니다. GitHub 콘텐츠 팩에 대한 정보 및 자격 증명을 입력하면 사용자의 데이터를 가져오기 시작합니다.
+이 가이드에서는 **GitHub**를 선택합니다. GitHub는 온라인 소스 제어용 애플리케이션입니다. GitHub 콘텐츠 팩에 대한 정보 및 자격 증명을 입력하면 사용자의 데이터를 가져오기 시작합니다.
 
 ![](media/0-3-dashboards-cloud-services/c0a3_4.png)
 

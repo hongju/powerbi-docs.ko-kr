@@ -41,7 +41,7 @@ Power BI용 [UserVoice 콘텐츠 팩](https://app.powerbi.com/getdata/services/u
    >끝에 슬래시가 없고 연결이 http**s**로 되어 있는지 확인합니다.
    
    ![](media/service-connect-to-uservoice/capture.png)
-5. 메시지가 표시되면 UserVoice 자격 증명을 입력하고 UserVoice 인증 프로세스를 따릅니다. 브라우저에서 UserVoice에 이미 로그인한 경우 자격 증명을 묻는 메시지가 표시되지 않을 수도 있습니다. "액세스를 허용"을 클릭하여 Power BI 응용 프로그램에 데이터에 대한 액세스 권한을 부여합니다.
+5. 메시지가 표시되면 UserVoice 자격 증명을 입력하고 UserVoice 인증 프로세스를 따릅니다. 브라우저에서 UserVoice에 이미 로그인한 경우 자격 증명을 묻는 메시지가 표시되지 않을 수도 있습니다. "액세스를 허용"을 클릭하여 Power BI 애플리케이션에 데이터에 대한 액세스 권한을 부여합니다.
    
    >[!NOTE]
    >UserVoice 계정에 대한 관리자 자격 증명이 필요합니다.

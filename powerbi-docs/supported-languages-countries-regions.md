@@ -153,7 +153,7 @@ Power BI Desktop을 다운로드하든 Windows 스토어에서 설치하든 특�
 
 ### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Power BI Desktop에서 모델 언어 선택
 
-Power BI Desktop 응용 프로그램의 언어를 설정할 수 있을 뿐만 아니라 모델 언어도 설정할 수 있습니다. 모델 언어는 다음 두 가지에 주로 영향을 미칩니다.
+Power BI Desktop 애플리케이션의 언어를 설정할 수 있을 뿐만 아니라 모델 언어도 설정할 수 있습니다. 모델 언어는 다음 두 가지에 주로 영향을 미칩니다.
 
 - 문자열 비교 및 정렬 방법. 예를 들어 터키어는 데이터베이스의 데이터 정렬에 따라 문자 i가 두 가지로 표기되기 때문에 문자열을 정렬할 경우 다른 순서로 정렬될 수 있습니다. 
 - Power BI Desktop이 날짜 필드에서 숨겨진 날짜 테이블을 만들 때 사용하는 언어. 필드 이름의 예로는 월/Monat/Mois 등이 있습니다.

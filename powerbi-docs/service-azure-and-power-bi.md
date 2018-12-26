@@ -55,7 +55,7 @@ Azure와 Power BI를 사용하여 필요한 만큼 확장할 수 있습니다. �
 
 ## <a name="context-insights-with-power-bi-embedded-analytics"></a>Power BI Embedded 분석을 사용하는 컨텍스트 인사이트
 
-응용 프로그램, 웹 사이트, 포털 등의 멋진 대화형 데이터 시각화를 포함하여 비즈니스 데이터를 활용합니다. [Power BI Embedded를 Azure의 리소스로](https://azure.microsoft.com/services/power-bi-embedded/) 사용하면 대화형 보고서와 대시보드를 손쉽게 포함할 수 있으며, 사용자는 다양한 장치에서 일관되고 재현성이 높은 환경을 이용할 수 있습니다.  분석 포함에 Power BI를 사용하면 데이터 -> 지식 -> 인사이트 -> 작업의 구매 경험에서 도움을 받을 수 있습니다.  또한 [조직의 내부 응용 프로그램 및 포털](https://powerbi.microsoft.com/en-us/developers/embedded-analytics/organization/)에 분석을 포함하여 Power BI 및 Azure의 가치를 확장할 수 있습니다.
+애플리케이션, 웹 사이트, 포털 등의 멋진 대화형 데이터 시각화를 포함하여 비즈니스 데이터를 활용합니다. [Power BI Embedded를 Azure의 리소스로](https://azure.microsoft.com/services/power-bi-embedded/) 사용하면 대화형 보고서와 대시보드를 손쉽게 포함할 수 있으며, 사용자는 다양한 장치에서 일관되고 재현성이 높은 환경을 이용할 수 있습니다.  분석 포함에 Power BI를 사용하면 데이터 -> 지식 -> 인사이트 -> 작업의 구매 경험에서 도움을 받을 수 있습니다.  또한 [조직의 내부 애플리케이션 및 포털](https://powerbi.microsoft.com/en-us/developers/embedded-analytics/organization/)에 분석을 포함하여 Power BI 및 Azure의 가치를 확장할 수 있습니다.
 
 [Power BI 개발자 포털](http://dev.powerbi.com)에는 Power BI API에 대한 많은 정보가 있습니다.
 
@@ -63,7 +63,7 @@ Azure와 Power BI를 사용하여 필요한 만큼 확장할 수 있습니다. �
 
 ## <a name="embed-your-power-bi-data-within-your-app"></a>앱 내에 Power BI 데이터 포함
 
-응용프로그램, 웹 사이트, 포털 등에 멋진 대화형 데이터 시각화를 포함하여 비즈니스 데이터를 상황에 맞게 소개할 수 있습니다. [Azure에서 Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/)를 사용하면 대화형 보고서와 대시보드를 손쉽게 포함할 수 있으며, 사용자는 다양한 장치에서 일관되고 재현성이 높은 환경을 이용할 수 있습니다.
+애플리케이션, 웹 사이트, 포털 등에 멋진 대화형 데이터 시각화를 포함하여 비즈니스 데이터를 상황에 맞게 소개할 수 있습니다. [Azure에서 Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/)를 사용하면 대화형 보고서와 대시보드를 손쉽게 포함할 수 있으며, 사용자는 다양한 장치에서 일관되고 재현성이 높은 환경을 이용할 수 있습니다.
 
 ## <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure 및 Power BI로 수행할 수 있는 작업은 무엇인가요?
 

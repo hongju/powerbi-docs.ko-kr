@@ -1,6 +1,6 @@
 ---
 title: Power BI 포함 콘텐츠를 사용하는 사용자 지정 레이아웃
-description: 응용 프로그램에 Power BI 콘텐츠를 포함하는 경우 사용자 지정 레이아웃에 대해 알아봅니다.
+description: 애플리케이션에 Power BI 콘텐츠를 포함하는 경우 사용자 지정 레이아웃에 대해 알아봅니다.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''

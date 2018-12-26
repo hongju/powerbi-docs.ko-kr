@@ -1,6 +1,6 @@
 ---
 title: Microsoft Intune으로 모바일 앱 구성
-description: Microsoft Intune으로 Power BI 모바일 앱을 구성하는 방법 여기에는 응용 프로그램을 추가 및 배포하는 방법도 포함됩니다. 또한 보안을 제어하기 위한 모바일 응용 프로그램 정책을 만드는 방법도 포함됩니다.
+description: Microsoft Intune으로 Power BI 모바일 앱을 구성하는 방법 여기에는 애플리케이션을 추가 및 배포하는 방법도 포함됩니다. 또한 보안을 제어하기 위한 모바일 애플리케이션 정책을 만드는 방법도 포함됩니다.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -19,7 +19,7 @@ ms.locfileid: "50909689"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune으로 모바일 앱 구성
 
-Microsoft Intune을 사용하여 조직에서는 디바이스 및 응용 프로그램을 관리할 수 있습니다. iOS 및 Android용 Power BI 모바일 응용 프로그램은 Intune과 통합됩니다. 이 통합을 통해 디바이스에서 응용 프로그램을 관리하고 보안을 제어할 수 있습니다. 구성 정책을 통해 액세스 핀 요구, 응용 프로그램에서 데이터가 처리되는 방식, 앱이 사용되고 있지 않을 때 응용 프로그램 데이터를 암호화하는 것과 같은 항목을 제어할 수 있습니다.
+Microsoft Intune을 사용하여 조직에서는 디바이스 및 응용 프로그램을 관리할 수 있습니다. iOS 및 Android용 Power BI 모바일 애플리케이션은 Intune과 통합됩니다. 이 통합을 통해 디바이스에서 응용 프로그램을 관리하고 보안을 제어할 수 있습니다. 구성 정책을 통해 액세스 핀 요구, 애플리케이션에서 데이터가 처리되는 방식, 앱이 사용되고 있지 않을 때 애플리케이션 데이터를 암호화하는 것과 같은 항목을 제어할 수 있습니다.
 
 ## <a name="general-mobile-device-management-configuration"></a>일반 모바일 디바이스 관리 구성
 
@@ -30,11 +30,11 @@ Microsoft Intune은 Office 365 내에서 MDM(모바일 디바이스 관리)과 �
 > [!NOTE]
 > Intune을 구성한 후에는 iOS 또는 Android 디바이스에서 Power BI 모바일 앱의 백그라운드 데이터 새로 고침이 꺼집니다. 앱을 시작하면 Power BI에서 웹의 Power BI 서비스로부터 데이터를 새로 고칩니다.
 
-## <a name="step-1-get-the-url-for-the-application"></a>1단계: 응용 프로그램 URL 가져오기
+## <a name="step-1-get-the-url-for-the-application"></a>1단계: 애플리케이션 URL 가져오기
 
-Intune 내에서 응용 프로그램을 만들기 전에 앱의 URL을 가져와야 합니다. iOS의 경우에는 iTunes에서 가져옵니다. Android의 경우 Power BI 모바일 페이지에서 가져올 수 있습니다.
+Intune 내에서 애플리케이션을 만들기 전에 앱의 URL을 가져와야 합니다. iOS의 경우에는 iTunes에서 가져옵니다. Android의 경우 Power BI 모바일 페이지에서 가져올 수 있습니다.
 
-응용 프로그램을 만들 때 필요하므로 URL을 저장해 둡니다.
+애플리케이션을 만들 때 필요하므로 URL을 저장해 둡니다.
 
 ### <a name="get-ios-url"></a>iOS URL 가져오기
 
@@ -56,11 +56,11 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 [Power BI 모바일 페이지](https://powerbi.microsoft.com/mobile/)에서 Google Play의 URL을 가져올 수 있습니다. **Google Play에서 다운로드**를 선택하여 앱 페이지로 이동합니다. 브라우저 주소 표시줄에서 URL을 복사할 수 있습니다. 다음과 유사하게 나타납니다. *https://play.google.com/store/apps/details?id=com.microsoft.powerbim*
 
-## <a name="step-2-create-a-mobile-application-management-policy"></a>2단계: 모바일 응용 프로그램 관리 정책 만들기
+## <a name="step-2-create-a-mobile-application-management-policy"></a>2단계: 모바일 애플리케이션 관리 정책 만들기
 
-모바일 응용 프로그램 관리 정책을 사용하면 액세스 핀과 같은 항목을 적용할 수 있습니다. Intune 포털 내에서 정책을 하나 만들 수 있습니다.
+모바일 애플리케이션 관리 정책을 사용하면 액세스 핀과 같은 항목을 적용할 수 있습니다. Intune 포털 내에서 정책을 하나 만들 수 있습니다.
 
-응용 프로그램을 만들거나 정책을 먼저 만들 수 있습니다. 추가되는 순서는 중요하지 않습니다. 배포 단계를 위해 둘 다 필요합니다.
+애플리케이션을 만들거나 정책을 먼저 만들 수 있습니다. 추가되는 순서는 중요하지 않습니다. 배포 단계를 위해 둘 다 필요합니다.
 
 1. Intune 포털에서 **정책** > **구성 정책**을 선택합니다.
 
@@ -70,17 +70,17 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 1. **소프트웨어** 에서 Android 또는 iOS에 대한 모바일 응용 프로그램 관리를 선택할 수 있습니다. 빠르게 시작하려면 **권장 설정으로 정책 만들기**를 선택하거나 사용자 지정 정책을 만들 수 있습니다.
 
-1. 정책을 편집하여 응용 프로그램에서 원하는 제한 사항을 구성합니다.
+1. 정책을 편집하여 애플리케이션에서 원하는 제한 사항을 구성합니다.
 
-## <a name="step-3-create-the-application"></a>3단계: 응용 프로그램 만들기
+## <a name="step-3-create-the-application"></a>3단계: 애플리케이션 만들기
 
-응용 프로그램은 배포를 위해 Intune에 저장되는 참조 또는 패키지입니다. 응용 프로그램을 만들고 Google Play 또는 iTunes에서 가져온 앱 URL을 참조해야 합니다.
+애플리케이션은 배포를 위해 Intune에 저장되는 참조 또는 패키지입니다. 애플리케이션을 만들고 Google Play 또는 iTunes에서 가져온 앱 URL을 참조해야 합니다.
 
-응용 프로그램을 만들거나 정책을 먼저 만들 수 있습니다. 추가되는 순서는 중요하지 않습니다. 배포 단계를 위해 둘 다 필요합니다.
+애플리케이션을 만들거나 정책을 먼저 만들 수 있습니다. 추가되는 순서는 중요하지 않습니다. 배포 단계를 위해 둘 다 필요합니다.
 
 1. Intune 포털로 이동한 후 왼쪽 메뉴에서 **앱** 을 선택합니다.
 
-1. **앱 추가**를 선택합니다. 이렇게 하면 **소프트웨어 추가** 응용 프로그램이 시작됩니다.
+1. **앱 추가**를 선택합니다. 이렇게 하면 **소프트웨어 추가** 애플리케이션이 시작됩니다.
 
 ### <a name="create-for-ios"></a>iOS용으로 만들기
 
@@ -116,9 +116,9 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
     ![앱 탭](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
-## <a name="step-4-deploy-the-application"></a>4단계: 응용 프로그램 배포
+## <a name="step-4-deploy-the-application"></a>4단계: 애플리케이션 배포
 
-응용 프로그램을 추가한 후에 최종 사용자가 사용할 수 있도록 배포해야 합니다. 이 단계는 만든 정책을 앱에 바인딩하는 단계입니다.
+애플리케이션을 추가한 후에 최종 사용자가 사용할 수 있도록 배포해야 합니다. 이 단계는 만든 정책을 앱에 바인딩하는 단계입니다.
 
 ### <a name="deploy-for-ios"></a>iOS용으로 배포
 
@@ -161,7 +161,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 ## <a name="step-5-install-the-application-on-a-device"></a>5단계: 디바이스에서 응용 프로그램 설치
 
-‘회사 포털’ 앱을 통해 응용 프로그램을 설치합니다. 회사 포털을 설치하지 않은 경우 iOS 또는 Android 플랫폼의 앱 스토어를 통해 가져올 수 있습니다. 조직의 로그인으로 회사 포털에 로그인합니다.
+‘회사 포털’ 앱을 통해 애플리케이션을 설치합니다. 회사 포털을 설치하지 않은 경우 iOS 또는 Android 플랫폼의 앱 스토어를 통해 가져올 수 있습니다. 조직의 로그인으로 회사 포털에 로그인합니다.
 
 1. 회사 포털 앱을 엽니다.
 

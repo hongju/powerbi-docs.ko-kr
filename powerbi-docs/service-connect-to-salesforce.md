@@ -71,7 +71,7 @@ Power BI용 [Salesforce 콘텐츠 팩](https://app.powerbi.com/getdata/services/
 - API에 액세스할 수 있는 프로덕션 Salesforce 계정을 사용하여 연결되어 있어야 합니다.
 - 로그인하는 동안 Power BI 앱에 권한이 부여되어야 합니다.
 - 계정에 데이터를 끌어오고 새로 고치는 데 사용할 수 있는 충분한 API 호출이 있어야 합니다.
-- 새로 고치려면 유효한 인증 토큰이 필요합니다. Salesforce에서는 응용 프로그램당 5개 인증 토큰으로 제한되므로 5개 이하의 Salesforce 데이터 집합을 가져와야 합니다.
+- 새로 고치려면 유효한 인증 토큰이 필요합니다. Salesforce에서는 애플리케이션당 5개 인증 토큰으로 제한되므로 5개 이하의 Salesforce 데이터 집합을 가져와야 합니다.
 - Salesforce 보고서 API에는 최대 2,000개의 데이터 행을 지원하는 제한 사항이 있습니다.
 
 

@@ -32,7 +32,7 @@ Power BI용 [Windows 개발자 센터 콘텐츠 팩](https://app.powerbi.com/get
 3. **Windows 개발자 센터** \> **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-windows-dev-center/windowsdev.png)
-4. 소유한 앱의 응용 프로그램 ID를 입력하고 다음을 클릭합니다. 아래 [이러한 매개 변수 찾기](#FindingParams)에서 세부 정보를 참조하세요.
+4. 소유한 앱의 애플리케이션 ID를 입력하고 다음을 클릭합니다. 아래 [이러한 매개 변수 찾기](#FindingParams)에서 세부 정보를 참조하세요.
    
    ![](media/service-connect-to-windows-dev-center/params.png)
 5. **인증 방법**에 대해 **oAuth2** \> **로그인**을 선택합니다. 대화 상자가 나타나면 Windows 개발자 센터 계정에 연결된 Azure Active Directory 자격 증명을 입력합니다(자세한 내용은 [시스템 요구 사항](#Requirements) 참조).
@@ -64,7 +64,7 @@ Power BI용 [Windows 개발자 센터 콘텐츠 팩](https://app.powerbi.com/get
 <a name="FindingParams"></a>
 
 ## <a name="finding-parameters"></a>매개 변수 찾기
-앱 관리의 앱 ID 페이지로 이동하여 앱에 대한 응용 프로그램 ID를 찾을 수 있습니다.
+앱 관리의 앱 ID 페이지로 이동하여 앱에 대한 애플리케이션 ID를 찾을 수 있습니다.
 
 응용 프로그램 ID는 Windows 10 스토어에 대한 URL의 끝인 https://www.microsoft.com/store/apps/ **{applicationId}** 에 있습니다.
 

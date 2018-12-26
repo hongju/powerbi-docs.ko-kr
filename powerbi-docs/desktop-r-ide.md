@@ -42,7 +42,7 @@ ms.locfileid: "53025988"
 
 여러 R IDE를 설치한 경우 어떤 것을 시작할 것인지 **옵션** 대화 상자의 *검색된 R IDE* 드롭다운에서 선택하여 지정할 수 있습니다.
 
-기본적으로 **Power BI Desktop**은 **R Studio**가 로컬 컴퓨터에 설치된 경우 그것을 외부 R IDE로 시작할 것이며 **R Studio**가 설치되지 않았고 **R Tools for Visual Studio**와 함께 **Visual Studio 2015**가 있다면 그것이 대신 시작될 것입니다. 어떠한 R IDE도 설치되지 않은 경우 **.R** 파일과 관련된 응용 프로그램이 시작됩니다.
+기본적으로 **Power BI Desktop**은 **R Studio**가 로컬 컴퓨터에 설치된 경우 그것을 외부 R IDE로 시작할 것이며 **R Studio**가 설치되지 않았고 **R Tools for Visual Studio**와 함께 **Visual Studio 2015**가 있다면 그것이 대신 시작될 것입니다. 어떠한 R IDE도 설치되지 않은 경우 **.R** 파일과 관련된 애플리케이션이 시작됩니다.
 
 **R** 파일 연결이 없는 경우 **옵션** 대화 상자의 *선호하는 R IDE로 이동* 섹션에서 사용자 지정 IDE로 경로를 지정하는 것이 가능합니다. 또한 **Power BI Desktop**에서 **R IDE 시작** 화살표 아이콘 옆에 있는 **설정** 기어 아이콘을 선택하여 다른 R IDE를 시작할 수 있습니다.
 

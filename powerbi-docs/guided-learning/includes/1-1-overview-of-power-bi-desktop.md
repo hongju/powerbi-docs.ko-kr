@@ -11,11 +11,11 @@ Power BI Desktop은 데이터에 연결하여 데이터를 정리 및 시각화�
 
 ![](media/1-1-overview-of-power-bi-desktop/1-1_1.png)
 
-Power BI Desktop은 Windows 컴퓨터에 응용 프로그램으로 설치됩니다.
+Power BI Desktop은 Windows 컴퓨터에 애플리케이션으로 설치됩니다.
 
 ![](media/1-1-overview-of-power-bi-desktop/1-1_2.png)
 
-다운로드한 후에는 Power BI Desktop을 설치하고 Windows의 다른 응용 프로그램과 마찬가지로 실행합니다. 다음 그림에서는 응용 프로그램을 시작할 때 표시되는 Power BI Desktop의 시작 화면을 보여 줍니다.
+다운로드한 후에는 Power BI Desktop을 설치하고 Windows의 다른 애플리케이션과 마찬가지로 실행합니다. 다음 그림에서는 애플리케이션을 시작할 때 표시되는 Power BI Desktop의 시작 화면을 보여 줍니다.
 
 ![](media/1-1-overview-of-power-bi-desktop/1-1_3.png)
 

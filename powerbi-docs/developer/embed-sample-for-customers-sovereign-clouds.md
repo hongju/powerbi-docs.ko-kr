@@ -17,7 +17,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/10/2018
 ms.locfileid: "53180625"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>자습서: 소버린 클라우드용 응용 프로그램에 Power BI 대시보드, 타일 또는 보고서 포함
+# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>자습서: 소버린 클라우드용 애플리케이션에 Power BI 대시보드, 타일 또는 보고서 포함
 
 소버린 클라우드용 비즈니스 프로세스 애플리케이션 내에 분석 콘텐츠를 포함하는 방법을 알아봅니다. Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서, 대시보드 또는 타일을 웹 애플리케이션에 포함할 수 있습니다.
 
@@ -122,7 +122,7 @@ Power BI는 소버린(개인용) 클라우드도 지원합니다.
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>1단계 - Azure AD에 앱 등록
 
-REST API 호출을 실행하려면 Azure AD를 사용해 응용 프로그램을 등록합니다. 자세한 내용은 [Power BI 콘텐츠를 포함하려면 Azure AD 앱 등록](register-app.md)을 참조하세요. 소버린 클라우드 소속이 서로 다르기 때문에 응용 프로그램을 등록하기 위한 개별 URL이 있습니다.
+REST API 호출을 실행하려면 Azure AD를 사용해 애플리케이션을 등록합니다. 자세한 내용은 [Power BI 콘텐츠를 포함하려면 Azure AD 앱 등록](register-app.md)을 참조하세요. 소버린 클라우드 소속이 서로 다르기 때문에 애플리케이션을 등록하기 위한 개별 URL이 있습니다.
 
 * GCC(정부 커뮤니티 클라우드) - https://app.powerbigov.us/apps 
 
@@ -138,7 +138,7 @@ REST API 호출을 실행하려면 Azure AD를 사용해 응용 프로그램을 
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>2 단계-Azure AD로 액세스 토큰 가져오기
 
-응용 프로그램 내에서 Azure AD에서 **액세스 토큰**을 가져와야 Power BI REST API로 호출할 수 있습니다. 자세한 내용은 [사용자를 인증하고 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기](get-azuread-access-token.md)를 참조하세요. 소버린 클라우드 소속이 서로 다르기 때문에 응용 프로그램에 대한 액세스 토큰을 얻기 위한 개별 URL이 있습니다.
+애플리케이션 내에서 Azure AD에서 **액세스 토큰**을 가져와야 Power BI REST API로 호출할 수 있습니다. 자세한 내용은 [사용자를 인증하고 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기](get-azuread-access-token.md)를 참조하세요. 소버린 클라우드 소속이 서로 다르기 때문에 애플리케이션에 대한 액세스 토큰을 얻기 위한 개별 URL이 있습니다.
 
 * GCC(정부 커뮤니티 클라우드) - https://login.microsoftonline.com
 
@@ -154,7 +154,7 @@ REST API 호출을 실행하려면 Azure AD를 사용해 응용 프로그램을 
 
 ## <a name="step-3---get-a-content-item"></a>3 단계-콘텐츠 항목 가져오기
 
-Power BI 콘텐츠를 포함하려면 제대로 포함되었는지 확인하기 위해 몇 가지를 수행해야 합니다. 이러한 모든 단계를 REST API를 사용하여 직접 수행할 수 있지만, 여기에 나오는 샘플 응용 프로그램과 예제는 NET SDK를 사용합니다.
+Power BI 콘텐츠를 포함하려면 제대로 포함되었는지 확인하기 위해 몇 가지를 수행해야 합니다. 이러한 모든 단계를 REST API를 사용하여 직접 수행할 수 있지만, 여기에 나오는 샘플 애플리케이션과 예제는 NET SDK를 사용합니다.
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>액세스 토큰으로 Power BI 클라이언트 만들기
 
@@ -300,7 +300,7 @@ var embedConfig = new TileEmbedConfig()
 
 JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드합니다. 샘플은 EmbedConfig/TileEmbedConfig 모델을 대시보드, 타일 또는 보고서에 대한 보기와 함께 사용합니다. JavaScript API 사용에 관한 전체 샘플인 경우 [Microsoft Power BI Embedded 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo)을 사용할 수 있습니다.
 
-이 응용 프로그램 샘플은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) 내에서 사용할 수 있습니다.
+이 애플리케이션 샘플은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) 내에서 사용할 수 있습니다.
 
 ### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
@@ -427,7 +427,7 @@ JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드
 
 ## <a name="next-steps"></a>다음 단계
 
-* 검토하기 위한 샘플 응용 프로그램은 GitHub에서 사용할 수 있습니다. 위의 예제는 이 샘플을 기반으로 하고 있습니다. 자세한 내용은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)을 참조하세요.
+* 검토하기 위한 샘플 애플리케이션은 GitHub에서 사용할 수 있습니다. 위의 예제는 이 샘플을 기반으로 하고 있습니다. 자세한 내용은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)을 참조하세요.
 
 * JavaScript API에 대한 자세한 내용은 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 참조하세요.
 

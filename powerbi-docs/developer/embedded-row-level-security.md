@@ -1,6 +1,6 @@
 ---
 title: Power BI Embedded 콘텐츠에서 행 수준 보안 사용
-description: 응용 프로그램 내에서 Power BI 콘텐츠를 포함하는 데 필요한 단계에 대해 알아봅니다.
+description: 애플리케이션 내에서 Power BI 콘텐츠를 포함하는 데 필요한 단계에 대해 알아봅니다.
 author: markingmyname
 ms.author: maghan
 manager: kfile

@@ -870,13 +870,13 @@ items:
         href: developer/embed-from-apps.md
       - name: Azure Active Directory 테넌트 만들기
         href: developer/create-an-azure-active-directory-tenant.md
-      - name: 응용 프로그램 등록
+      - name: 애플리케이션 등록
         href: developer/register-app.md
       - name: Power BI 서비스에 인증
         href: developer/get-azuread-access-token.md
       - name: Q&A 포함
         href: developer/qanda.md
-      - name: 포함된 응용 프로그램 문제 해결
+      - name: 포함된 애플리케이션 문제 해결
         href: developer/embedded-troubleshoot.md
       - name: Azure에서 용량 관리
         items:

@@ -55,7 +55,7 @@ Power BI 보고서 렌더링뿐만 아니라 예약된 새로 고침을 수행�
 * OAuth(예: Facebook, Google Analytics, Salesforce 등)만을 사용하여 데이터 원본을 연결할 수 있는 경우 캐시 새로 고침 계획을 만들 수 없습니다. 현재 RS는 페이지를 매긴, 모바일 또는 Power BI 보고서에 대한 것인지에 관계없이 모든 데이터 원본에 대한 OAuth 인증을 지원하지 않습니다.
 
 ### <a name="memory-limits"></a>메모리 제한
-보고서 서버에 대한 기존의 작업은 웹 응용 프로그램과 유사했습니다. 가져온 데이터 또는 DirectQuery를 사용하여 보고서를 로드하는 기능 및 예약된 새로 고침을 수행하는 기능은 보고서 서버와 함께 호스팅되는 Analysis Services 인스턴스를 사용합니다. 결과적으로, 서버에서 예기치 않은 메모리 부족이 발생할 수 있습니다. Analysis Services에서 보고서 서버와 함께 메모리를 사용할 수 있다는 것을 아는 것에 따라 서버 배포를 계획합니다.
+보고서 서버에 대한 기존의 작업은 웹 애플리케이션과 유사했습니다. 가져온 데이터 또는 DirectQuery를 사용하여 보고서를 로드하는 기능 및 예약된 새로 고침을 수행하는 기능은 보고서 서버와 함께 호스팅되는 Analysis Services 인스턴스를 사용합니다. 결과적으로, 서버에서 예기치 않은 메모리 부족이 발생할 수 있습니다. Analysis Services에서 보고서 서버와 함께 메모리를 사용할 수 있다는 것을 아는 것에 따라 서버 배포를 계획합니다.
 
 Analysis Services 인스턴스를 모니터링하는 방법에 대한 자세한 내용은 [Analysis Services 인스턴스 모니터링](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)을 참조하세요.
 

@@ -32,7 +32,7 @@ Power BI용 [Twilio 콘텐츠 팩](https://app.powerbi.com/getdata/services/twil
 3. **Twilio** \> **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-twilio/twilio.png)
-4. **인증 방법**에 대해 **oAuth2** \> 로그인을 선택합니다. 메시지가 표시되면 Twilio 자격 증명을 제공하고 데이터에 액세스할 수 권한을 Power BI 응용 프로그램에 부여합니다.
+4. **인증 방법**에 대해 **oAuth2** \> 로그인을 선택합니다. 메시지가 표시되면 Twilio 자격 증명을 제공하고 데이터에 액세스할 수 권한을 Power BI 애플리케이션에 부여합니다.
    
    ![](media/service-connect-to-twilio/pbi_twilio_login.png)
 5. 이렇게 하면 Twilio 계정에서 데이터 가져오기가 시작되며, 지난 30일간의 통화 및 메시지 사용 현황이 대시보드에 채워집니다. 

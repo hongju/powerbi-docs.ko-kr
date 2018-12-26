@@ -113,7 +113,7 @@ ms.locfileid: "51580543"
 ```
 
 > [!NOTE]
-> 이러한 레지스트리 키를 추가하거나 수정하면 변경 내용이 모든 .NET 응용 프로그램에 적용됩니다. 다른 응용 프로그램에 대한 TLS에 영향을 주는 레지스트리 변경에 대한 정보는 [TLS(전송 계층 보안) 레지스트리 설정](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)을 참조하세요.
+> 이러한 레지스트리 키를 추가하거나 수정하면 변경 내용이 모든 .NET 애플리케이션에 적용됩니다. 다른 애플리케이션에 대한 TLS에 영향을 주는 레지스트리 변경에 대한 정보는 [TLS(전송 계층 보안) 레지스트리 설정](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)을 참조하세요.
 
 ## <a name="data-sources"></a>데이터 원본
 
@@ -355,7 +355,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 
 ### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
 
-*Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* 파일에 있는 `TracingVerbosity` 값을 `4`에서 `5`로 수정해야 합니다. 이 파일은 기본적으로 *C:\Program Files\On-premises data gateway* 에 있습니다. 이 설정을 변경하면 세부 정보 표시 항목을 게이트웨이 로그에 기록하기 시작합니다. 여기에는 지속 시간을 표시 하는 항목이 포함 됩니다. 온-프레미스 게이트웨이 응용 프로그램에서 "추가 로깅" 단추를 사용하여 자세한 정보 항목을 사용하도록 설정할 수도 있습니다.
+*Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* 파일에 있는 `TracingVerbosity` 값을 `4`에서 `5`로 수정해야 합니다. 이 파일은 기본적으로 *C:\Program Files\On-premises data gateway* 에 있습니다. 이 설정을 변경하면 세부 정보 표시 항목을 게이트웨이 로그에 기록하기 시작합니다. 여기에는 지속 시간을 표시 하는 항목이 포함 됩니다. 온-프레미스 게이트웨이 애플리케이션에서 "추가 로깅" 단추를 사용하여 자세한 정보 항목을 사용하도록 설정할 수도 있습니다.
 
    ![추가 로깅](media/service-gateway-onprem-tshoot/additional-logging.png)
 

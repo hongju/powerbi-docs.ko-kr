@@ -86,7 +86,7 @@ Power BI용 ArcGIS Maps에서는 세 가지 선택 모드를 사용할 수 있�
     ![](media/power-bi-visualizations-arcgis/power-bi-demographics.png)
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
-Power BI용 ArcGIS Maps는 다음과 같은 서비스 및 응용 프로그램에서 사용할 수 있습니다.
+Power BI용 ArcGIS Maps는 다음과 같은 서비스 및 애플리케이션에서 사용할 수 있습니다.
 
 <table>
 <tr><th>서비스/앱</th><th>가용성</th></tr>
@@ -99,7 +99,7 @@ Power BI용 ArcGIS Maps는 다음과 같은 서비스 및 응용 프로그램에
 <td>예</td>
 </tr>
 <tr>
-<td>Power BI 모바일 응용 프로그램</td>
+<td>Power BI 모바일 애플리케이션</td>
 <td>예</td>
 </tr>
 <tr>
@@ -122,12 +122,12 @@ ArcGIS Maps for Power BI는 Esri(www.esri.com)에서 제공합니다. ArcGIS Map
 **Power BI Plus**    
 ![더하기 아이콘을 선택하여 등록 또는 로그인](media/power-bi-visualizations-arcgis/power-bi-plus.png)
 
-사용자가 ArcGIS Maps for Power BI를 통해 Esri에서 제공된 추가 구독에 등록하는 경우 Esri와 직접 관계로 전환됩니다. Power BI는 Esri에 사용자에 대한 개인 정보를 전송하지 않습니다. 사용자가 고유한 AAD ID를 사용하여 Esri 제공 AAD 응용 프로그램에 로그인하고 트러스트합니다. 이렇게 하면 사용자는 Esri와 개인 정보를 직접 공유하게 됩니다. 사용자가 ArcGIS Maps for Power BI 시각적 개체에 추가 콘텐츠를 추가하면 다른 Power BI 사용자도 해당 콘텐츠를 보거나 편집하기 위해 Esri의 추가 구독이 필요합니다. 
+사용자가 ArcGIS Maps for Power BI를 통해 Esri에서 제공된 추가 구독에 등록하는 경우 Esri와 직접 관계로 전환됩니다. Power BI는 Esri에 사용자에 대한 개인 정보를 전송하지 않습니다. 사용자가 고유한 AAD ID를 사용하여 Esri 제공 AAD 애플리케이션에 로그인하고 트러스트합니다. 이렇게 하면 사용자는 Esri와 개인 정보를 직접 공유하게 됩니다. 사용자가 ArcGIS Maps for Power BI 시각적 개체에 추가 콘텐츠를 추가하면 다른 Power BI 사용자도 해당 콘텐츠를 보거나 편집하기 위해 Esri의 추가 구독이 필요합니다. 
 
 Esri의 ArcGIS Maps for Power BI가 작동하는 방법에 대한 기술적인 세부 질문은 해당 지원 사이트를 통해 Esri에 문의하세요.
 
 **ArcGIS 지도가 표시되지 않는 경우**    
-Power BI용 ArcGIS Maps를 사용할 수 없는 서비스 또는 응용 프로그램에서 시각화는 빈 Power BI 로고와 함께 빈 시각적 개체로서 표시합니다.
+Power BI용 ArcGIS Maps를 사용할 수 없는 서비스 또는 애플리케이션에서 시각화는 빈 Power BI 로고와 함께 빈 시각적 개체로서 표시합니다.
 
 **지도에 내 정보가 일부 표시되지 않는 경우**    
 지도에 위도/경도를 지오코딩할 경우 최대 30,000개의 데이터 요소가 표시됩니다. 우편 번호 또는 거리 주소와 같은 데이터 요소를 지오코딩하면 처음 15,000개의 데이터 요소만 지오코딩됩니다. 지오코딩 장소 이름 또는 국가는 1500개 주소 제한에 적용되지 않습니다.

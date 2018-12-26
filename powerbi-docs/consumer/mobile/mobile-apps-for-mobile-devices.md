@@ -37,7 +37,7 @@ Power BI Desktop에서 보고서를 만듭니다. 대시보드를 만들고 Powe
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에 대한 Enterprise 지원
 조직에서 Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱을 포함한 디바이스 및 응용 프로그램을 관리할 수 있습니다.
 
-Microsoft Intune을 사용하면 액세스 핀이 필요하고, 응용 프로그램에서 데이터를 처리하는 방법을 제어하며, 앱을 사용하지 않을 때 응용 프로그램 데이터를 암호화하는 것과 같은 항목을 조직에서 제어할 수 있습니다.
+Microsoft Intune을 사용하면 액세스 핀이 필요하고, 애플리케이션에서 데이터를 처리하는 방법을 제어하며, 앱을 사용하지 않을 때 애플리케이션 데이터를 암호화하는 것과 같은 항목을 조직에서 제어할 수 있습니다.
 
 [Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱 구성](../../service-admin-mobile-intune.md)에 대해 자세히 알아보세요. 
 

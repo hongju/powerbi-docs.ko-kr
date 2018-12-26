@@ -234,7 +234,7 @@ Kerberos가 게이트웨이에서 어떻게 작동하는지 이해했으므로 S
 
 1. BW 서버의 서비스 사용자를 BW 서버 머신에서 BW 서버 서비스를 시작하는 사용자로 설정합니다.
 
-    1. "실행" 프로그램을 열고 "Services.msc"를 입력합니다. BW 응용 프로그램 서버 인스턴스에 해당하는 서비스를 찾습니다. 이를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
+    1. "실행" 프로그램을 열고 "Services.msc"를 입력합니다. BW 애플리케이션 서버 인스턴스에 해당하는 서비스를 찾습니다. 이를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 
         ![서버 속성](media/service-gateway-sso-kerberos/server-properties.png)
 
@@ -244,7 +244,7 @@ Kerberos가 게이트웨이에서 어떻게 작동하는지 이해했으므로 S
 
     1. snc/identity/as 프로필 매개 변수를 p:\<자신이 만든 BW 서비스 사용자\>(예: p:BWServiceUser@MYDOMAIN.COM)로 설정합니다. 서비스 사용자의 UPN 앞에 있는 p:을 확인합니다. 공용 암호화 라이브러리가 SNC 라이브러리로 사용될 경우와 같이 p:CN=이 아닙니다.
 
-    1. snc/gssapi\_lib 프로필 매개 변수를o \<서버 머신의 gsskrb5.dll/gx64krb5.dll 경로(OS 비트 수에 따라 사용하는 라이브러리가 달라짐)\>로 설정합니다. 라이브러리는 BW 응용 프로그램 서버가 액세스할 수 있는 위치에 보관하는 것을 잊지 마세요.
+    1. snc/gssapi\_lib 프로필 매개 변수를o \<서버 머신의 gsskrb5.dll/gx64krb5.dll 경로(OS 비트 수에 따라 사용하는 라이브러리가 달라짐)\>로 설정합니다. 라이브러리는 BW 애플리케이션 서버가 액세스할 수 있는 위치에 보관하는 것을 잊지 마세요.
 
     1. 또한 다음 추가 프로필 매개 변수를 설정하고 필요에 맞게 값을 변경합니다. 마지막 5개 옵션은 클라이언트가 SNC를 구성하지 않고 SAP 로그온/GUI를 사용하여 BW 서버에 연결할 수 있게 해줍니다.
 
@@ -265,7 +265,7 @@ Kerberos가 게이트웨이에서 어떻게 작동하는지 이해했으므로 S
 
 ### <a name="map-a-bw-user-to-an-active-directory-user"></a>BW 사용자를 Active Directory 사용자에 매핑
 
-SAP BW 응용 프로그램 서버 사용자에게 Active Directory 사용자를 매핑하고 SAP GUI/로그온의 SSO 연결을 테스트합니다.
+SAP BW 애플리케이션 서버 사용자에게 Active Directory 사용자를 매핑하고 SAP GUI/로그온의 SSO 연결을 테스트합니다.
 
 1. SAP GUI/로그온을 사용하여 BW 서버에 로그인합니다. 트랜잭션 SU01을 실행합니다.
 
@@ -273,7 +273,7 @@ SAP BW 응용 프로그램 서버 사용자에게 Active Directory 사용자를 
 
     ![사용자 유지 관리](media/service-gateway-sso-kerberos/user-maintenance.png)
 
-1. **SNC** 탭을 선택합니다. SNC 이름 입력란에 p:\<활성 디렉터리 사용자\>@\<도메인\>을 입력합니다. Active Directory 사용자의 UPN 앞에 와야 하는 p:라는 필수 항목에 유의하세요. 지정된 Active Directory 사용자는 BW 응용 프로그램 서버에 대한 SSO 액세스를 허용하려는 개인이나 조직에 속해 있어야 합니다. 예를 들어 [testuser@TESTDOMAIN.COM](mailto:testuser@TESTDOMAIN.COM) 사용자에 대한 SSO 액세스를 허용하려면 p:testuser@TESTDOMAIN.COM을 입력합니다.
+1. **SNC** 탭을 선택합니다. SNC 이름 입력란에 p:\<활성 디렉터리 사용자\>@\<도메인\>을 입력합니다. Active Directory 사용자의 UPN 앞에 와야 하는 p:라는 필수 항목에 유의하세요. 지정된 Active Directory 사용자는 BW 애플리케이션 서버에 대한 SSO 액세스를 허용하려는 개인이나 조직에 속해 있어야 합니다. 예를 들어 [testuser@TESTDOMAIN.COM](mailto:testuser@TESTDOMAIN.COM) 사용자에 대한 SSO 액세스를 허용하려면 p:testuser@TESTDOMAIN.COM을 입력합니다.
 
     ![사용자 유지 관리](media/service-gateway-sso-kerberos/maintain-users.png)
 
@@ -289,7 +289,7 @@ SAP 로그온/SAP GUI를 사용하여 SSO를 통해 방금 전에 SSO 액세스�
 
     ![새 시스템 항목](media/service-gateway-sso-kerberos/new-system-entry.png)
 
-1. 다음 페이지에서 응용 프로그램 서버, 인스턴스 번호 및 시스템 ID 등 적절한 세부 정보를 입력한 후 **마침**을 선택합니다.
+1. 다음 페이지에서 애플리케이션 서버, 인스턴스 번호 및 시스템 ID 등 적절한 세부 정보를 입력한 후 **마침**을 선택합니다.
 
 1. 새 연결을 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다. **네트워크** 탭을 선택합니다. **SNC 이름** 창에서 p:\<BW 서비스 사용자의 UPN\>(예: p:BWServiceUser@MYDOMAIN.COM)을 입력한 후 **확인**을 선택합니다.
 
@@ -307,7 +307,7 @@ SAP 로그온/SAP GUI를 사용하여 SSO를 통해 방금 전에 SSO 액세스�
 
 1. 서버 시작을 방해하는 SQL 자격 증명 관련 오류가 표시되면 서비스 사용자에게 BW 데이터베이스에 대한 액세스 권한을 부여했는지 확인하세요.
 
-1. "(GSS-API) 지정된 대상을 알 수 없거나 연결할 수 없음": 이는 일반적으로 잘못된 SNC 이름을 지정한 경우에 발생합니다. 클라이언트 응용 프로그램에서는 서비스 사용자의 UPN보다는 "p:CN="이 아닌 "p:"만 사용하도록 하세요.
+1. "(GSS-API) 지정된 대상을 알 수 없거나 연결할 수 없음": 이는 일반적으로 잘못된 SNC 이름을 지정한 경우에 발생합니다. 클라이언트 애플리케이션에서는 서비스 사용자의 UPN보다는 "p:CN="이 아닌 "p:"만 사용하도록 하세요.
 
 1. "(GSS-API) 잘못된 이름이 지정됨": 서버의 SNC ID 프로필 매개 변수 값에 "p:"가 있는지 확인합니다.
 
@@ -365,11 +365,11 @@ Azure AD DirSync를 구성하지 않은 경우 **Azure AD 사용자에게 매핑
 
     1. **적용**을 선택합니다. 값 열에 올바른 값이 설정되었는지 확인합니다.
 
-### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>Power BI 서비스에 새 BW 응용 프로그램 서버 데이터 원본 추가
+### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>Power BI 서비스에 새 BW 애플리케이션 서버 데이터 원본 추가
 
 게이트웨이에 BW 데이터 원본 추가: 이 문서의 앞 부분에 나온 [보고서 실행](#running-a-power-bi-report)에 대한 지침을 따르세요.
 
-1. Power BI Desktop에서 BW 서버에 로그인할 때 입력하는 응용 프로그램 서버의 **호스트 이름**, **시스템 번호** 및 **클라이언트 ID**를 데이터 원본 구성 창에 입력합니다. **인증 방법**에 대해서는 **Windows**를 선택합니다.
+1. Power BI Desktop에서 BW 서버에 로그인할 때 입력하는 애플리케이션 서버의 **호스트 이름**, **시스템 번호** 및 **클라이언트 ID**를 데이터 원본 구성 창에 입력합니다. **인증 방법**에 대해서는 **Windows**를 선택합니다.
 
 1. **SNC 파트너 이름** 필드에 p: \<BW 서비스 사용자에 매핑한 SPN\>을 입력합니다. 예를 들어 SPN이 SAP/BWServiceUser@MYDOMAIN.COM인 경우 **SNC 파트너 이름** 필드에 p:SAP/BWServiceUser@MYDOMAIN.COM을 입력해야 합니다.
 
@@ -387,7 +387,7 @@ Power BI Desktop에서 Power BI 서비스로 DirectQuery 보고서를 게시하�
 
 ### <a name="troubleshooting-gateway-connectivity-issues"></a>게이트웨이 연결 문제 해결
 
-1. 게이트웨이 로그를 확인합니다. 게이트웨이 구성 응용 프로그램을 열고 **진단**, **로그 내보내기**를 차례로 선택합니다. 가장 최근의 오류는 표시되는 로그 파일의 맨 아래에 있습니다.
+1. 게이트웨이 로그를 확인합니다. 게이트웨이 구성 애플리케이션을 열고 **진단**, **로그 내보내기**를 차례로 선택합니다. 가장 최근의 오류는 표시되는 로그 파일의 맨 아래에 있습니다.
 
     ![게이트웨이 진단](media/service-gateway-sso-kerberos/gateway-diagnostics.png)
 

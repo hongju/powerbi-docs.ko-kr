@@ -286,7 +286,7 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 
 ### <a name="embed-content-in-apps"></a>앱에 콘텐츠 포함
 
-조직 내 사용자는 Power BI 대시보드 및 보고서를 SaaS(Software as a Service) 응용 프로그램에 포함할 수 있습니다. 이 설정을 사용하지 않도록 설정하면 사용자는 REST API를 사용하여 Power BI 콘텐츠를 해당 응용 프로그램에 포함할 수 없게 됩니다. [자세히 알아보기](developer/embedding.md)
+조직 내 사용자는 Power BI 대시보드 및 보고서를 SaaS(Software as a Service) 애플리케이션에 포함할 수 있습니다. 이 설정을 사용하지 않도록 설정하면 사용자는 REST API를 사용하여 Power BI 콘텐츠를 해당 애플리케이션에 포함할 수 없게 됩니다. [자세히 알아보기](developer/embedding.md)
 
 ## <a name="workspaces-and-import-settings"></a>작업 영역 및 가져오기 설정
 
@@ -379,7 +379,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 그러나 책갈피로 지정된 시각적 개체는 여전히 작동합니다.
 
-업데이트 후 또는 관리자가 변경한 후 Power BI Desktop 사용자는 응용 프로그램을 다시 시작하거나 Power BI 서비스에서 브라우저를 새로 고쳐 업데이트를 확인해야 합니다.
+업데이트 후 또는 관리자가 변경한 후 Power BI Desktop 사용자는 애플리케이션을 다시 시작하거나 Power BI 서비스에서 브라우저를 새로 고쳐 업데이트를 확인해야 합니다.
 
 ### <a name="update-a-visual"></a>시각적 개체 업데이트
 

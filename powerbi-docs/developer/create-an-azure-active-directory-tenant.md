@@ -1,6 +1,6 @@
 ---
 title: Power BI에서 사용할 Azure Active Directory 테넌트 만들기
-description: Power BI REST API를 사용하여 사용자 지정 응용 프로그램에 사용할 새 Azure AD(Azure Active Directory) 테넌트를 만드는 방법을 알아봅니다.
+description: Power BI REST API를 사용하여 사용자 지정 애플리케이션에 사용할 새 Azure AD(Azure Active Directory) 테넌트를 만드는 방법을 알아봅니다.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
@@ -17,16 +17,16 @@ ms.lasthandoff: 06/26/2018
 ms.locfileid: "34286040"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI에서 사용할 Azure Active Directory 테넌트 만들기
-Power BI REST API를 사용하여 사용자 지정 응용 프로그램에 사용할 새 Azure AD(Azure Active Directory) 테넌트를 만드는 방법을 알아봅니다.
+Power BI REST API를 사용하여 사용자 지정 애플리케이션에 사용할 새 Azure AD(Azure Active Directory) 테넌트를 만드는 방법을 알아봅니다.
 
 테넌트는 Azure Active Directory 내에서 조직을 나타냅니다. 이것은 조직이 Azure, Microsoft Intun 또는 Office 365와 같은 Microsoft 클라우드 서비스에 가입할 때 수신하고 소유하는 Azure AD 서비스의 전용 인스턴스입니다. 각 Azure AD 테넌트는 고유하며 다른 Azure AD 테넌트와 별개입니다.
 
-Azure AD 테넌트가 있다면 응용 프로그램을 정의하고 응용 프로그램에서 Power BI REST API를 사용할 수 있도록 사용 권한을 할당할 수 있습니다.
+Azure AD 테넌트가 있다면 애플리케이션을 정의하고 애플리케이션에서 Power BI REST API를 사용할 수 있도록 사용 권한을 할당할 수 있습니다.
 
-조직에는 응용 프로그램에 사용할 수 있는 Azure AD 테넌트가 이미 있을 수 있습니다. 응용 프로그램에 필요한 테넌트를 사용하거나 특별히 응용 프로그램에 맞게 새 테넌트를 만들 수 있습니다. 이 문서에서는 새 테넌트를 만드는 방법을 살펴봅니다.
+조직에는 애플리케이션에 사용할 수 있는 Azure AD 테넌트가 이미 있을 수 있습니다. 애플리케이션에 필요한 테넌트를 사용하거나 특별히 애플리케이션에 맞게 새 테넌트를 만들 수 있습니다. 이 문서에서는 새 테넌트를 만드는 방법을 살펴봅니다.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Azure Active Directory 테넌트 만들기
-Power BI를 사용자 지정 응용 프로그램에 통합하기 위해서는 Azure AD 내에서 응용 프로그램을 정의해야 합니다. 이렇게 하려면 Azure AD 내에 디렉터리가 필요합니다. 바로 테넌트입니다. 조직에서 Power BI 또는 Office 365를 사용하지 않아 아직 테넌트가 없는 경우 [만들어야 합니다](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). 응용 프로그램을 조직의 테넌트와 혼합하여 사용하지 않으려는 경우에도 테넌트를 만들어야 할 수 있습니다. 이렇게 하면 격리된 상태를 유지할 수 있습니다.
+Power BI를 사용자 지정 애플리케이션에 통합하기 위해서는 Azure AD 내에서 애플리케이션을 정의해야 합니다. 이렇게 하려면 Azure AD 내에 디렉터리가 필요합니다. 바로 테넌트입니다. 조직에서 Power BI 또는 Office 365를 사용하지 않아 아직 테넌트가 없는 경우 [만들어야 합니다](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). 애플리케이션을 조직의 테넌트와 혼합하여 사용하지 않으려는 경우에도 테넌트를 만들어야 할 수 있습니다. 이렇게 하면 격리된 상태를 유지할 수 있습니다.
 
 또는 테스트 용도로 테넌트를 만들려고 할 수 있습니다.
 
@@ -84,7 +84,7 @@ Power BI를 사용자 지정 응용 프로그램에 통합하기 위해서는 Az
    > 
 
 ## <a name="next-steps"></a>다음 단계
-이제 Azure AD 테넌트가 있고 이 테넌트를 사용하여 Power BI 내의 항목을 테스트하며 응용 프로그램에 포함된 Power BI 대시보드 및 보고서를 앞으로 이동할 수 있습니다. 항목을 포함하는 방법에 대한 자세한 내용은 [Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embedding-content.md)을 참조하세요.
+이제 Azure AD 테넌트가 있고 이 테넌트를 사용하여 Power BI 내의 항목을 테스트하며 애플리케이션에 포함된 Power BI 대시보드 및 보고서를 앞으로 이동할 수 있습니다. 항목을 포함하는 방법에 대한 자세한 내용은 [Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embedding-content.md)을 참조하세요.
 
 [Azure AD 디렉터리란?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis)  
 [Azure Active Directory 테넌트를 가져오는 방법](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  

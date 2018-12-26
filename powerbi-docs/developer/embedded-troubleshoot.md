@@ -1,5 +1,5 @@
 ---
-title: 포함된 응용 프로그램 문제 해결
+title: 포함된 애플리케이션 문제 해결
 description: 이 문서에서는 Power BI 콘텐츠를 포함할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
 author: markingmyname
 ms.author: maghan
@@ -16,7 +16,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 09/20/2018
 ms.locfileid: "46474049"
 ---
-# <a name="troubleshooting-your-embedded-application"></a>포함된 응용 프로그램 문제 해결
+# <a name="troubleshooting-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
 이 문서에서는 Power BI 콘텐츠를 포함할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
 
@@ -60,7 +60,7 @@ Microsoft 지원에 문의할 때 요청 ID를 제공해 주세요.
 
 **앱 등록 실패**
 
-Azure Portal 또는 Power BI 앱 등록 페이지 내에서 표시되는 오류 메시지는 권한 부족에 대해 언급할 것입니다. 응용 프로그램을 등록하려면 Azure AD 테넌트의 관리자이거나, 관리자가 아닌 사용자도 응용 프로그램을 등록할 수 있도록 설정해야 합니다.
+Azure Portal 또는 Power BI 앱 등록 페이지 내에서 표시되는 오류 메시지는 권한 부족에 대해 언급할 것입니다. 애플리케이션을 등록하려면 Azure AD 테넌트의 관리자이거나, 관리자가 아닌 사용자도 애플리케이션을 등록할 수 있도록 설정해야 합니다.
 
 **새 앱을 등록하는 경우 Azure Portal에 Power BI 서비스가 표시되지 않음**
 
@@ -70,7 +70,7 @@ Azure Portal 또는 Power BI 앱 등록 페이지 내에서 표시되는 오류 
 
 **401을 반환하는 API 호출**
 
-추가 조사를 위해 fiddler 캡처가 필요할 수 있습니다. Azure AD에 등록된 응용 프로그램에 필요한 사용 권한 범위가 없는 것이 원인일 수 있습니다. Azure Portal에서 필요한 범위가 Azure AD의 앱 등록 내에 있는지 확인하세요.
+추가 조사를 위해 fiddler 캡처가 필요할 수 있습니다. Azure AD에 등록된 애플리케이션에 필요한 사용 권한 범위가 없는 것이 원인일 수 있습니다. Azure Portal에서 필요한 범위가 Azure AD의 앱 등록 내에 있는지 확인하세요.
 
 **403을 반환하는 API 호출**
 
@@ -82,7 +82,7 @@ Azure Portal 또는 Power BI 앱 등록 페이지 내에서 표시되는 오류 
 * 인증된 사용자가 그룹(앱 작업 영역)의 관리자가 아닙니다.
 * 권한 부여 헤더가 올바르게 표시되지 않을 수 있습니다. 오타가 없는지 확인합니다.
 
-GenerateToken 호출 전에 응용 프로그램의 백 엔드가 인증 토큰을 새로 고침해야 할 수 있습니다.
+GenerateToken 호출 전에 애플리케이션의 백 엔드가 인증 토큰을 새로 고침해야 할 수 있습니다.
 
     ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
@@ -109,11 +109,11 @@ Power BI Embedded를 사용하고 Azure AD 직접 인증을 활용하는 경우 
 
 앱별 기준으로만 이 기능을 설정하는 것이 좋습니다.
 
-이 정책을 만들려면 정책을 만들고 할당하는 **전역 관리자** 디렉터리에 위치해야 합니다. 정책을 만들고 이 응용 프로그램에 SP를 할당하기 위한 샘플 스크립트는 다음과 같습니다.
+이 정책을 만들려면 정책을 만들고 할당하는 **전역 관리자** 디렉터리에 위치해야 합니다. 정책을 만들고 이 애플리케이션에 SP를 할당하기 위한 샘플 스크립트는 다음과 같습니다.
 
 1. [Azure AD 미리 보기 PowerShell 모듈](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)을 설치합니다.
 
-2. 다음 PowerShell 명령을 한 줄씩 실행합니다(결과적으로 변수 $sp에 두 개 이상의 응용 프로그램이 없는지 확인).
+2. 다음 PowerShell 명령을 한 줄씩 실행합니다(결과적으로 변수 $sp에 두 개 이상의 애플리케이션이 없는지 확인).
 
 ```powershell
 Connect-AzureAD
@@ -154,7 +154,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: 권한 부여에는 관리자 권한이 필요합니다.
 
 **_증상:_**</br>
-관리자가 아닌 사용자가 처음으로 응용 프로그램에 로그인을 시도하고 동의를 부여할 때 다음과 같은 오류가 표시됩니다.
+관리자가 아닌 사용자가 처음으로 애플리케이션에 로그인을 시도하고 동의를 부여할 때 다음과 같은 오류가 표시됩니다.
 * ConsentTest에는 관리자만이 부여할 수 있는 조직의 리소스에 액세스하는 사용 권한이 필요합니다. 사용하기 전에 이 앱에 대한 사용 권한을 부여하려면 관리자에게 문의하세요.
 * AADSTS90094: 권한 부여에는 관리자 권한이 필요합니다.
 
@@ -189,13 +189,13 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 **보고서 또는 대시보드가 로드되지 않음**
 
-사용자가 보고서 또는 대시보드를 볼 수 없는 경우 보고서 또는 대시보드가 powerbi.com에서 올바르게 로드되는지 확인합니다. 보고서 또는 대시보드가 powerbi.com에서 올바르게 로드되지 않으면 응용 프로그램에서도 작동하지 않습니다.
+사용자가 보고서 또는 대시보드를 볼 수 없는 경우 보고서 또는 대시보드가 powerbi.com에서 올바르게 로드되는지 확인합니다. 보고서 또는 대시보드가 powerbi.com에서 올바르게 로드되지 않으면 애플리케이션에서도 작동하지 않습니다.
 
 **보고서 또는 대시보드 속도가 느림**
 
-Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 응용 프로그램 또는 포함 API 문제를 배제해도 되는 수준인지 확인합니다.
+Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 애플리케이션 또는 포함 API 문제를 배제해도 되는 수준인지 확인합니다.
 
-## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>IError 개체로 포함된 응용 프로그램 문제 해결
+## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>IError 개체로 포함된 애플리케이션 문제 해결
 
 [**JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)에서 ‘오류’ 이벤트에 의해 반환된 **IError 개체**를 사용하여 응용 프로그램을 디버그하고 오류의 원인을 더 잘 알아보세요.
 
@@ -231,7 +231,7 @@ IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는
 
 ## <a name="embedding-setup-tool"></a>포함 설정 도구
 
-[포함 설정 도구](https://aka.ms/embedsetup)를 통해 신속하게 샘플 응용 프로그램을 다운로드할 수 있습니다. 다음 샘플과 응용 프로그램을 비교할 수 있습니다.
+[포함 설정 도구](https://aka.ms/embedsetup)를 통해 신속하게 샘플 응용 프로그램을 다운로드할 수 있습니다. 다음 샘플과 애플리케이션을 비교할 수 있습니다.
 
 ### <a name="prerequisites"></a>필수 조건
 
@@ -246,7 +246,7 @@ IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는
 
 포함 설정 도구를 사용하여 테스트하는 경우 발생할 수 있는 몇 가지 일반적인 문제는 다음과 같습니다.
 
-#### <a name="using-the-embed-for-your-customers-sample-application"></a>고객에 대한 콘텐츠 포함 사용 샘플 응용 프로그램
+#### <a name="using-the-embed-for-your-customers-sample-application"></a>고객에 대한 콘텐츠 포함 사용 샘플 애플리케이션
 
 **고객에 대한 콘텐츠 포함** 환경을 사용하는 경우 *PowerBI-Developer-Samples.zip* 파일을 저장하고 압축을 풉니다. 그런 다음, *PowerBI-Developer-Samples-master\App Owns Data* 폴더를 열고 *PowerBIEmbedded_AppOwnsData.sln* 파일을 실행합니다.
 
@@ -254,19 +254,19 @@ IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는
 
     AADSTS70001: Application with identifier <client ID> was not found in the directory <directory ID>
 
-솔루션은 팝업을 닫는 것입니다. 몇 초 정도 기다린 후에 다시 시도하세요. 이 작업을 여러 번 반복해야 합니다. 시간 간격은 외부 API에 사용할 수 있는 경우 응용 프로그램 등록 프로세스를 완료하는 데 문제를 일으킵니다.
+솔루션은 팝업을 닫는 것입니다. 몇 초 정도 기다린 후에 다시 시도하세요. 이 작업을 여러 번 반복해야 합니다. 시간 간격은 외부 API에 사용할 수 있는 경우 애플리케이션 등록 프로세스를 완료하는 데 문제를 일으킵니다.
 
 샘플 앱을 실행하는 경우 다음과 같은 오류 메시지가 표시됩니다.
 
     Password is empty. Please fill password of Power BI username in web.config.
 
-샘플 응용 프로그램에 삽입되지 않은 유일한 값이 사용자 암호이기 때문에 이 오류가 발생합니다. 솔루션에서 Web.config 파일을 열고 사용자의 암호로 pbiPassword 필드를 채웁니다.
+샘플 애플리케이션에 삽입되지 않은 유일한 값이 사용자 암호이기 때문에 이 오류가 발생합니다. 솔루션에서 Web.config 파일을 열고 사용자의 암호로 pbiPassword 필드를 채웁니다.
 
 오류 - AADSTS50079가 표시되는 경우: 사용자가 다단계 인증을 사용해야 합니다.
 
     Need to use an AAD account that does not have MFA enabled.
 
-#### <a name="using-the-embed-for-your-organization-sample-application"></a>조직에 대한 콘텐츠 포함 사용 샘플 응용 프로그램
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>조직에 대한 콘텐츠 포함 사용 샘플 애플리케이션
 
 **조직에 대한 콘텐츠 포함** 환경을 사용하는 경우 *PowerBI-Developer-Samples.zip* 파일을 저장하고 압축을 풉니다. 그런 다음, *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 폴더를 열고, *pbi-saas-embed-report.sln* 파일을 실행합니다.
 
@@ -274,9 +274,9 @@ IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는
 
     AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
 
-웹 서버 응용 프로그램에 대해 지정된 리디렉션 URL이 샘플의 URL과 다르기 때문입니다. 샘플 응용 프로그램을 등록하려면 리디렉션 URL로 `http://localhost:13526/`을 사용합니다.
+웹 서버 애플리케이션에 대해 지정된 리디렉션 URL이 샘플의 URL과 다르기 때문입니다. 샘플 애플리케이션을 등록하려면 리디렉션 URL로 `http://localhost:13526/`을 사용합니다.
 
-등록된 응용 프로그램을 편집하려는 경우 응용 프로그램이 웹 API에 대한 액세스 권한을 제공할 수 있도록 [AAD 등록 응용 프로그램](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)을 편집하는 방법을 알아봅니다.
+등록된 애플리케이션을 편집하려는 경우 애플리케이션이 웹 API에 대한 액세스 권한을 제공할 수 있도록 [AAD 등록 애플리케이션](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)을 편집하는 방법을 알아봅니다.
 
 Power BI 사용자 프로필 또는 데이터를 편집하려는 경우 [Power BI 데이터](https://docs.microsoft.com/power-bi/service-basic-concepts)를 편집하는 방법을 알아봅니다.
 
