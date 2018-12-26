@@ -157,7 +157,7 @@ Power BI Desktop의 쿼리 편집기에서는 리본 메뉴에서 사용 가능�
 
 <http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
-**쿼리 편집기**의 **홈** 리본에서 **데이터 가져오기 \> 웹**을 선택하고 주소를 입력한 다음 **확인**을 선택하면 **탐색기** 창에 해당 웹 페이지에서 발견된 사항이 표시됩니다.
+**쿼리 편집기**의 리본 메뉴 **홈** 탭에서 **데이터 가져오기 \> 웹**을 선택하고 주소를 입력한 다음 **확인**을 선택하면 **탐색기** 창에 해당 웹 페이지에서 발견된 사항이 표시됩니다.
 
  ![](media/desktop-getting-started/designer_gsg_usstateabbreviationsnavigator.png)
 
@@ -214,7 +214,7 @@ Power BI Desktop의 쿼리 편집기에서는 리본 메뉴에서 사용 가능�
 
 이러한 데이터 셰이핑 및 결합의 각 단계에 대한 자세한 설명은 [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)을 참조하세요.
 
-이제 Power BI Desktop 내에서 몇 가지 흥미로운 보고서를 만들 수 있는 충분한 데이터가 확보되었습니다. 이는 중요 시점이므로 이 Power BI Desktop 파일을 저장하고 **Power BI Desktop 시작**이라는 이름을 지정하겠습니다. **쿼리 편집기**의 변경 내용을 적용하려면 변경 내용을 Power BI Desktop으로 로드하고 **홈** 리본에서 **닫기 및 적용**을 선택합니다.
+이제 Power BI Desktop 내에서 몇 가지 흥미로운 보고서를 만들 수 있는 충분한 데이터가 확보되었습니다. 이는 중요 시점이므로 이 Power BI Desktop 파일을 저장하고 **Power BI Desktop 시작**이라는 이름을 지정하겠습니다. **쿼리 편집기**의 변경 내용을 적용하고, Power BI Desktop으로 로드하기 위해 리본 메뉴의 **홈** 탭에서 **닫기 및 적용**을 선택합니다.
 
 ![](media/desktop-getting-started/shapecombine_closeandapply.png)
 
@@ -223,7 +223,7 @@ Power BI Desktop의 쿼리 편집기에서는 리본 메뉴에서 사용 가능�
 
 **보고서** 뷰에는 다음과 같은 5개의 기본 영역이 있습니다.
 
-1. 리본 - 보고서 및 시각화와 관련된 일반적인 작업을 표시합니다.
+1. **리본** 메뉴 - 보고서 및 시각화와 관련된 일반적인 작업을 표시합니다.
 2. **보고서** 뷰 또는 캔버스 - 시각화를 만들고 정렬합니다.
 3. **페이지** 탭 영역(아래쪽에 있음) - 보고서 페이지를 선택하거나 추가할 수 있습니다.
 4. **시각화** 창 - 시각화를 변경하고 색 또는 축을 사용자 지정하며 필터를 적용하고 필드를 끄는 등의 작업을 수행할 수 있습니다.
