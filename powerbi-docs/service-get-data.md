@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a23a725ecad5641c3f82fa4c57ee1a0bc951e28
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: e0721efaaca879ffb2915315af9aea4dbafca3ca
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670391"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900247"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 서비스용 데이터 원본
 데이터는 Power BI의 핵심입니다. 데이터를 탐색하고 차트 및 대시보드를 만들며 질문 및 답변으로 질문할 때마다 볼 수 있는 모든 해당 시각화 및 답변은 데이터 집합에서 해당하는 기본 데이터를 가져옵니다. 그러나 해당 데이터 집합을 어디서 가져오나요? 데이터 원본에서 가져옵니다.
@@ -33,7 +33,7 @@ ms.locfileid: "52670391"
 
 **Power BI Desktop**(.pbix) - Power BI Desktop을 사용하여 외부 데이터 원본에서 데이터를 쿼리하고 로드하며 측정값 및 관계를 사용하여 데이터 모델을 확장하고 보고서를 만들 수 있습니다. Power BI Desktop 파일을 Power BI 사이트로 가져올 수 있습니다. Power BI Desktop은 해당 데이터 원본, 데이터 쿼리 및 변환과 데이터 모델링 개념을 잘 알고 있는 고급 사용자에게 가장 적합합니다. 자세한 내용은 [Power BI Desktop에서 데이터에 연결](desktop-connect-to-data.md)을 참조하세요.
 
-**쉼표로 구분된 값**(.csv) - 파일은 데이터의 행이 있는 간단한 텍스트 파일입니다. 각 행에는 하나 이상의 값이 포함될 수 있고 쉼표로 구분됩니다. 예를 들어 이름 및 주소 데이터가 포함된 .csv에는 이름, 성, 주소, 도시, 상태 등에 대한 값을 가진 많은 행이 있을 수 있습니다. .csv 파일에 데이터를 가져올 수 없지만 Excel과 같은 많은 응용 프로그램은 .csv 파일처럼 간단한 테이블 데이터를 저장할 수 있습니다.
+**쉼표로 구분된 값**(.csv) - 파일은 데이터의 행이 있는 간단한 텍스트 파일입니다. 각 행에는 하나 이상의 값이 포함될 수 있고 쉼표로 구분됩니다. 예를 들어 이름 및 주소 데이터가 포함된 .csv에는 이름, 성, 주소, 도시, 상태 등에 대한 값을 가진 많은 행이 있을 수 있습니다. .csv 파일에 데이터를 가져올 수 없지만 Excel과 같은 많은 애플리케이션은 .csv 파일처럼 간단한 테이블 데이터를 저장할 수 있습니다.
 
 XML 테이블(.xml) 또는 텍스트 파일(.txt)과 같은 다른 파일 형식의 경우 가져오기 및 변환을 사용하여 먼저 Excel 또는 Power BI Desktop 파일로 해당 데이터를 쿼리, 변환 및 로드할 수 있습니다. 그런 다음 Excel 또는 Power BI Desktop 파일을 Power BI로 가져올 수 있습니다.
 
@@ -44,7 +44,7 @@ XML 테이블(.xml) 또는 텍스트 파일(.txt)과 같은 다른 파일 형식
 
 콘텐츠 팩은 준비해야 하는 데이터 및 보고서를 모두 포함합니다. Power BI에는 두 가지 유형의 콘텐츠 팩이 있습니다. Google 분석, Marketo, 또는 Salesforce와 같은 서비스의 콘텐츠 팩과 조직의 다른 사용자가 생성하고 공유한 콘텐츠 팩입니다.
 
-**서비스** – Power BI용 콘텐츠 팩이 있는 여러 가지 서비스가 있으며 이후에도 계속 추가됩니다. 대부분의 서비스에는 계정이 있어야 합니다. 자세한 내용은 [서비스에 연결](consumer/end-user-connect-to-services.md)을 참조하세요.
+**서비스** – Power BI용 콘텐츠 팩이 있는 여러 가지 서비스가 있으며 이후에도 계속 추가됩니다. 대부분의 서비스에는 계정이 있어야 합니다. 자세한 내용은 [서비스에 연결](service-connect-to-services.md)을 참조하세요.
 
 **조직** – 사용자 및 조직의 다른 사용자가 Power BI Pro 계정을 갖는 경우 콘텐츠 팩을 만들고 공유하며 사용할 수 있습니다. 자세한 내용은 [조직 콘텐츠 팩](service-organizational-content-pack-introduction.md)을 참조하세요.
 
