@@ -72,7 +72,7 @@ Power BI용 [Marketo 콘텐츠 팩](https://app.powerbi.com/getdata/services/mar
 
 **API 제한 세부 정보**
 
-Marketo에서 데이터 가져오기는 Marketo API를 사용합니다. Marketo의 각 고객은 Marketo API를 사용하는 모든 응용 프로그램 간에 공유되는 총 API 호출 수가 하루에 10,000개로 제한됩니다. Power BI 통합 및 기타 통합에 API를 사용할 수 있습니다. API에 대한 자세한 내용은 다음을 참조하세요. <http://developers.marketo.com/documentation/rest/>.
+Marketo에서 데이터 가져오기는 Marketo API를 사용합니다. Marketo의 각 고객은 Marketo API를 사용하는 모든 애플리케이션 간에 공유되는 총 API 호출 수가 하루에 10,000개로 제한됩니다. Power BI 통합 및 기타 통합에 API를 사용할 수 있습니다. API에 대한 자세한 내용은 다음을 참조하세요. <http://developers.marketo.com/documentation/rest/>.
 
 Power BI가 Marketo에 수행하는 API 호출 수는 Marketo 계정의 데이터 양에 따라 달라집니다. Power BI는 작년의 모든 잠재 고객 및 활동을 가져옵니다. 다음은 가져올 때 Power BI가 사용하는 API 호출 수와 Marketo의 데이터 예제입니다.  
 
