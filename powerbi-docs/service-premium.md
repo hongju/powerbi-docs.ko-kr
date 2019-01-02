@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/21/2018
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: ea26ba39a9ec06b79330719afd4fb3b3a572d912
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025445"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301807"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium이란?
 
@@ -71,14 +71,14 @@ Power BI 프리미엄은 서로 다른 v-코어 용량으로 노드 구성에서
 >[!NOTE]
 >이 테이블의 링크는 Office 365 전역 관리자 역할에 있는 사용자의 경우에만 제대로 작동합니다. 다른 사용자가 누르면 404 오류가 표시됩니다.
 
-| 용량 노드 | 총 V 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 V 코어 | 프런트 엔드 V 코어 | DirectQuery/라이브 연결 제한 | 사용량이 가장 많은 시간에 최대 페이지 렌더링 | 가용성 |
+| 용량 노드 | 총 V 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 V 코어 | 프런트 엔드 V 코어 | DirectQuery/라이브 연결 제한 | 가용성 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [EM1(매월)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1개 가상 코어 |0.5v-코어, 2.5GB RAM |0.5v-코어 |초당 3.75 |150-300 |사용 가능 |
-| [EM2(매월)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2v-코어 |1v-코어, 5GB RAM |1개 가상 코어 |초당 7.5 |301-600 |사용 가능 |
-| [EM3(매월)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4v-코어 |2v-코어, 10GB RAM |2v-코어 | |601-1,200 |사용 가능함 |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8v-코어 |4v-코어, 25GB RAM |4v-코어 |초당 30 |1,201-2,400 |사용 가능함([매월](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)도 사용 가능함) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16v-코어 |8v-코어, 50GB RAM |8v-코어 |초당 60 |2,401-4,800 |사용 가능함 |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32v-코어 |16v-코어, 100GB RAM |16v-코어 |초당 120 |4,801-9600 |사용 가능 |
+| [EM1(매월)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1개 가상 코어 |0.5v-코어, 2.5GB RAM |0.5v-코어 |초당 3.75 |사용 가능 |
+| [EM2(매월)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2v-코어 |1v-코어, 5GB RAM |1개 가상 코어 |초당 7.5 |사용 가능 |
+| [EM3(매월)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4v-코어 |2v-코어, 10GB RAM |2v-코어 | |사용 가능 |
+| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8v-코어 |4v-코어, 25GB RAM |4v-코어 |초당 30 |사용 가능함([매월](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)도 사용 가능함) |
+| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16v-코어 |8v-코어, 50GB RAM |8v-코어 |초당 60 |사용 가능 |
+| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32v-코어 |16v-코어, 100GB RAM |16v-코어 |초당 120 |사용 가능 |
 | | | | | | | |
 
 * 프런트 엔드 V 코어는 웹 서비스, 대시보드 및 보고서 문서 관리, 액세스 권한 관리, 예약, API, 업로드 및 다운로드, 일반적으로 사용자 환경에 관련된 모든 항목에 책임이 있습니다.

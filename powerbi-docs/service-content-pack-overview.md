@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 11/20/2018
 ms.author: maggies
 ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289200"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451355"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 서비스 콘텐츠 팩 프로그램의 개요
 콘텐츠 팩은 사용자가 원본에서 즉시 정보를 얻을 수 있도록 해주는 기본 제공 콘텐츠 집합입니다. 일반적으로 콘텐츠 팩은 역할, 도메인, 워크플로에 대한 정보를 제공하는 특정 비즈니스 시나리오에 초점을 둡니다.
@@ -57,7 +57,7 @@ PowerBI 서비스 및 AppSource에 게시될 콘텐츠 팩을 빌드하고 제�
 * 별도의 고유한 시나리오에 대해 두 개 이상의 콘텐츠 팩을 제공하는 방법 고려  
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
-**타사는 소유하지 않은 SaaS 응용 프로그램에 대해 Power BI 서비스 콘텐츠 팩을 빌드할 수 있나요?**
+**타사는 소유하지 않은 SaaS 애플리케이션에 대해 Power BI 서비스 콘텐츠 팩을 빌드할 수 있나요?**
 
 서비스에서 콘텐츠 팩을 게시하기 전에 SaaS 애플리케이션의 소유자와 파트너 계약을 서명해야 합니다. 타사인 경우 SaaS 애플리케이션 소유자와 파트너 계약에 용이하게 서명해야 합니다.
 

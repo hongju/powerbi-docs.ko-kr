@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: ea4292fd95fa72a553d9f91b39ff0bc5de71a584
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180763"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301853"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>자습서: Power BI 보고서, 대시보드 또는 타일을 조직의 애플리케이션에 포함
 
@@ -61,7 +61,7 @@ ms.locfileid: "53180763"
 
     ![새 앱 등록](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. 메시지에 따라 새 애플리케이션을 만듭니다. **사용자 소유 데이터**의 경우 **응용 프로그램 유형**으로 **웹앱/API**를 사용합니다. Azure AD에서 토큰 응답을 반환하는 데 사용하는 **로그온 URL**을 제공합니다. 사용하는 애플리케이션에 대한 값을 입력합니다. 예를 들면, `http://localhost:13526/`과 같습니다.
+4. 메시지에 따라 새 애플리케이션을 만듭니다. **사용자 소유 데이터**의 경우 **애플리케이션 유형**으로 **웹앱/API**를 사용합니다. Azure AD에서 토큰 응답을 반환하는 데 사용하는 **로그온 URL**을 제공합니다. 사용하는 애플리케이션에 대한 값을 입력합니다. 예를 들면, `http://localhost:13526/`과 같습니다.
 
     ![앱 만들기](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
@@ -155,7 +155,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 집합을 만들 수 있
 
 샘플 애플리케이션을 사용하여 콘텐츠를 포함하려면 다음 단계를 수행합니다.
 
-1. 시작하려면 GitHub에서 [사용자 소유 데이터 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)을 다운로드합니다. [보고서](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app)용, [대시보드](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app)용 및 [타일](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app)용의 세 가지 샘플 응용 프로그램이 있습니다. 이 문서에서는 **보고서** 애플리케이션을 참조합니다.
+1. 시작하려면 GitHub에서 [사용자 소유 데이터 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)을 다운로드합니다. [보고서](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app)용, [대시보드](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app)용 및 [타일](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app)용의 세 가지 샘플 애플리케이션이 있습니다. 이 문서에서는 **보고서** 애플리케이션을 참조합니다.
 
     ![사용자 소유 데이터 애플리케이션 샘플](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
@@ -163,7 +163,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 집합을 만들 수 있
 
     ![Cloud.config 파일](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    Azure의 **애플리케이션 ID**를 사용하여 **ApplicationID** 정보를 입력합니다. **ApplicationID**는 응용 프로그램에서 권한을 요청 중인 사용자에게 응용 프로그램을 인식시키는 데 사용됩니다.
+    Azure의 **애플리케이션 ID**를 사용하여 **ApplicationID** 정보를 입력합니다. **ApplicationID**는 애플리케이션에서 권한을 요청 중인 사용자에게 애플리케이션을 인식시키는 데 사용됩니다.
 
     **ApplicationID**를 가져오려면 다음 단계를 수행합니다.
 
@@ -175,7 +175,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 집합을 만들 수 있
 
        ![앱 등록 검색](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    3. **ApplicationID**를 사용해야 하는 응용 프로그램을 선택합니다.
+    3. **ApplicationID**를 사용해야 하는 애플리케이션을 선택합니다.
 
        ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
@@ -195,7 +195,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 집합을 만들 수 있
 
        ![앱 등록 검색](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    3. **ApplicationSecret**을 사용해야 하는 응용 프로그램을 선택합니다.
+    3. **ApplicationSecret**을 사용해야 하는 애플리케이션을 선택합니다.
 
        ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
@@ -258,7 +258,7 @@ REST API를 호출하려면 *권한 부여* 헤더를 *Bearer {access token}* �
 다음 코드 샘플은 **REST API**로 보고서를 검색하는 방법을 보여 줍니다.
 
 > [!NOTE]  
-> **포함하려는 콘텐츠 항목을 가져오는 샘플은 [샘플 응용 프로그램](#embed-your-content-using-the-sample-application)의 Default.aspx.cs** 파일 내에서 사용 가능합니다. 예로는 보고서, 대시보드 또는 타일이 있습니다.
+> **포함하려는 콘텐츠 항목을 가져오는 샘플은 [샘플 애플리케이션](#embed-your-content-using-the-sample-application)의 Default.aspx.cs** 파일 내에서 사용 가능합니다. 예로는 보고서, 대시보드 또는 타일이 있습니다.
 
 ```csharp
 using Newtonsoft.Json;
@@ -429,17 +429,16 @@ function updateEmbedReport() {
 
 다음 표에서는 [Microsoft Office 365](../service-admin-premium-purchase.md) 내에서 사용할 수 있는 Power BI Premium SKU를 나열합니다.
 
-| 용량 노드 | 총 vCore<br/>(백 엔드 + 프런트 엔드) | 백 엔드 vCore | 프런트 엔드 vCore | DirectQuery/라이브 연결 제한 | 사용량이 가장 많은 시간에 최대 페이지 렌더링 |
+| 용량 노드 | 총 vCore<br/>(백 엔드 + 프런트 엔드) | 백 엔드 vCore | 프런트 엔드 vCore | DirectQuery/라이브 연결 제한 |
 | --- | --- | --- | --- | --- | --- |
-| EM1 |vCore 1개 |vCore 0.5개, 10GB RAM |vCore 0.5개 |초당 3.75 |150-300 |
-| EM2 |vCore 2개 |vCore 1개, 10GB RAM |vCore 1개 |초당 7.5 |301-600 |
-| EM3 |vCore 4개 |vCore 2개, 10GB RAM |vCore 2개 |초당 15 |601-1,200 |
-| P1 |vCore 8개 |vCore 4개, 25GB RAM |vCore 4개 |초당 30 |1,201-2,400 |
-| P2 |vCore 16개 |vCore 8개, 50GB의 RAM |vCore 8개 |초당 60 |2,401-4,800 |
-| P3 |vCore 32개 |vCore 16개, 100GB의 RAM |vCore 16개 |초당 120 |4,801-9,600 |
-| P4 |vCore 64개 |vCore 32개, 200GB RAM |vCore 32개 |초당 240 |9,601-19,200 |
-| P5 |vCore 128개 |vCore 64개, 400GB RAM |vCore 64개 |초당 480 |19,201-38,400 |
-
+| EM1 |vCore 1개 |vCore 0.5개, 10GB RAM |vCore 0.5개 |초당 3.75 |
+| EM2 |vCore 2개 |vCore 1개, 10GB RAM |vCore 1개 |초당 7.5 |
+| EM3 |vCore 4개 |vCore 2개, 10GB RAM |vCore 2개 |초당 15 |
+| P1 |vCore 8개 |vCore 4개, 25GB RAM |vCore 4개 |초당 30 |
+| P2 |vCore 16개 |vCore 8개, 50GB의 RAM |vCore 8개 |초당 60 |
+| P3 |vCore 32개 |vCore 16개, 100GB의 RAM |vCore 16개 |초당 120 |
+| P4 |vCore 64개 |vCore 32개, 200GB RAM |vCore 32개 |초당 240 |
+| P5 |vCore 128개 |vCore 64개, 400GB RAM |vCore 64개 |초당 480 |
 > [!NOTE]
 > - Microsoft Office 앱에 포함하려는 경우 EM SKU를 사용하여 무료 Power BI 라이선스로 콘텐츠에 액세스할 수 있습니다. 하지만 Powerbi.com 또는 Power BI Mobile을 사용하는 경우 무료 Power BI 라이선스를 사용하여 콘텐츠에 액세스할 수 없습니다.
 > - Powerbi.com 또는 Power BI Mobile을 사용하여 Microsoft Office 앱에 포함하려는 경우 무료 Power BI 라이선스로 콘텐츠에 액세스할 수 있습니다.

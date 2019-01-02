@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
 ms.openlocfilehash: 740c012d83f9ca70f6e909b8cf62714f67c123d4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268323"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451378"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한 구성
 

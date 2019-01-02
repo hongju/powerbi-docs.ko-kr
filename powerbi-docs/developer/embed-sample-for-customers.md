@@ -10,16 +10,16 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: e396f46987ef14aac9361e8f7ef41e90b2d8383e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96cd04385bec6d4b9b47e3e05a30820b2f19f3dd
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180878"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301876"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>자습서: Power BI 보고서, 대시보드 또는 타일을 고객의 애플리케이션에 포함
 
-**Azure의 Power BI Embedded**를 통해 앱 소유 데이터를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **앱 소유 데이터**는 해당 임베디드 분석 플랫폼으로 Power BI를 사용하는 응용 프로그램을 갖는 것입니다. **ISV 개발자**는 사용자에게 Power BI 라이선스를 요구하지 않고도 완벽하게 통합된 대화형 애플리케이션에서 보고서, 대시보드 또는 타일을 표시하는 Power BI 콘텐츠를 만들 수 있습니다. 이 자습서에서는 고객을 위해 **Azure의 Power BI Embedded**를 사용하는 경우 Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서를 애플리케이션에 통합하는 방법을 보여 줍니다.
+**Azure의 Power BI Embedded**를 통해 앱 소유 데이터를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **앱 소유 데이터**는 해당 임베디드 분석 플랫폼으로 Power BI를 사용하는 애플리케이션을 갖는 것입니다. **ISV 개발자**는 사용자에게 Power BI 라이선스를 요구하지 않고도 완벽하게 통합된 대화형 애플리케이션에서 보고서, 대시보드 또는 타일을 표시하는 Power BI 콘텐츠를 만들 수 있습니다. 이 자습서에서는 고객을 위해 **Azure의 Power BI Embedded**를 사용하는 경우 Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서를 애플리케이션에 통합하는 방법을 보여 줍니다.
 
 이 자습서에서는 다음 작업을 수행하는 방법을 알아봅니다.
 > [!div class="checklist"]
@@ -166,7 +166,7 @@ Power BI Desktop을 사용하여 보고서 및 데이터 집합을 만든 다음
 
     ![웹 구성 파일](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    **Azure**의 **응용 프로그램 ID**를 사용하여 **applicationId** 정보를 입력합니다. **applicationId**는 응용 프로그램에서 권한을 요청 중인 사용자에게 응용 프로그램을 인식시키는 데 사용됩니다. **applicationId**를 가져오려면 다음 단계를 수행합니다.
+    **Azure**의 **애플리케이션 ID**를 사용하여 **applicationId** 정보를 입력합니다. **applicationId**는 애플리케이션에서 권한을 요청 중인 사용자에게 애플리케이션을 인식시키는 데 사용됩니다. **applicationId**를 가져오려면 다음 단계를 수행합니다.
 
     [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
@@ -176,7 +176,7 @@ Power BI Desktop을 사용하여 보고서 및 데이터 집합을 만든 다음
 
     ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    **applicationId**를 가져올 응용 프로그램을 선택합니다.
+    **applicationId**를 가져올 애플리케이션을 선택합니다.
 
     ![앱 선택](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
@@ -256,7 +256,7 @@ Javascript API에서 사용할 수 있는 포함 토큰을 생성했습니다. �
 
 애플리케이션에 대한 보고서의 embed 토큰을 추가하는 샘플은 다음과 같습니다.
 
-*보고서, 대시보드 또는 타일에 대한 embed 토큰을 만드는 샘플은 [샘플 응용 프로그램](#embed-your-content-within-a-sample-application)의 Controllers\HomeController.cs 파일 내에서 사용 가능합니다.*
+*보고서, 대시보드 또는 타일에 대한 embed 토큰을 만드는 샘플은 [샘플 애플리케이션](#embed-your-content-within-a-sample-application)의 Controllers\HomeController.cs 파일 내에서 사용 가능합니다.*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -285,7 +285,7 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 
 보고서에 대한 보기와 함께 **EmbedConfig** 모델 및 **TileEmbedConfig** 모델을 사용하는 샘플은 다음과 같습니다.
 
-*보고서, 대시보드 또는 타일에 대한 보기를 추가하는 샘플은 [샘플 응용 프로그램](#embed-your-content-within-a-sample-application)의 Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml 또는 Views\Home\Embedtile.cshtml 파일 내에서 사용 가능합니다.*
+*보고서, 대시보드 또는 타일에 대한 보기를 추가하는 샘플은 [샘플 애플리케이션](#embed-your-content-within-a-sample-application)의 Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml 또는 Views\Home\Embedtile.cshtml 파일 내에서 사용 가능합니다.*
 
 ```javascript
 <script src="~/scripts/powerbi.js"></script>
@@ -338,14 +338,14 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 
 아래 표를 사용하여 필요에 맞는 최적의 Power BI Embedded 용량을 결정합니다.
 
-| 용량 노드 | 총 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 코어 | 프런트 엔드 코어 | DirectQuery/라이브 연결 제한 | 사용량이 가장 많은 시간에 최대 페이지 렌더링 |
+| 용량 노드 | 총 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 코어 | 프런트 엔드 코어 | DirectQuery/라이브 연결 제한|
 | --- | --- | --- | --- | --- | --- |
-| A1 |1개 가상 코어 |0.5개 코어, 3GB RAM |0.5개 코어 |초당 0.5 |1-300 |
-| A2 |2개 가상 코어 |1개 코어, 5GB RAM |1개 코어 | 초당 10 |301-600 |
-| A3 |4개 가상 코어 |2개 코어, 10GB RAM |2개 코어 | 초당 15 |601-1,200 |
-| A4 |8개 가상 코어 |4개 코어, 25GB RAM |4개 코어 |초당 30 |1,201-2,400 |
-| A5 |16개 가상 코어 |8개 코어, 50GB RAM |8개 코어 |초당 60 |2,401-4,800 |
-| A6 |32개 가상 코어 |16개 코어, 100GB RAM |16개 코어 |초당 120 |4,801-9600 |
+| A1 |1개 가상 코어 |0.5개 코어, 3GB RAM |0.5개 코어 |초당 0.5 |
+| A2 |2개 가상 코어 |1개 코어, 5GB RAM |1개 코어 | 초당 10 |
+| A3 |4개 가상 코어 |2개 코어, 10GB RAM |2개 코어 | 초당 15 |
+| A4 |8개 가상 코어 |4개 코어, 25GB RAM |4개 코어 |초당 30 |
+| A5 |16개 가상 코어 |8개 코어, 50GB RAM |8개 코어 |초당 60 |
+| A6 |32개 가상 코어 |16개 코어, 100GB RAM |16개 코어 |초당 120 |
 
 **‘SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다.’**
 

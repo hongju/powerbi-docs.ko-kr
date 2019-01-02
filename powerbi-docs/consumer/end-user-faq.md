@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/21/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e329b40c0be55ce164ab487b7eb1d3006062b15a
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: be92d60e2f1fd6a9ea21cac37325ccfd58ba0687
+ms.sourcegitcommit: 2c77439e4bf66d239baf19ae2ce0eed6c5c7f13c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280676"
+ms.lasthandoff: 12/22/2018
+ms.locfileid: "53748539"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
@@ -29,6 +29,10 @@ Power BI 서비스는 모든 사용자가 데이터에 대한 폭넓은 이해�
 Power BI Pro는 콘텐츠를 공유하고 다른 Pro 사용자와 공동으로 작업하는 기능을 포함하여 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 라이선스입니다. Pro 사용자만 앱 작업 영역에서 콘텐츠를 게시 및 사용하고, 대시보드를 공유하고, 대시보드 및 보고서를 구독할 수 있습니다. 
 
 Premium은 Power BI에서 보다 일관된 성능을 제공하고 더 많은 데이터를 지원할 수 있는 전용 용량을 제공합니다. 개별 사용자의 경우, Premium을 통해 콘텐츠를 보는 수신자에게 사용자별 라이선스를 요구하지 않고도 Pro 사용자별 컨텐츠를 광범위하게 배포할 수 있습니다.
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>내 Power BI Pro 라이선스가 만료될 경우 어떻게 됩니까?
+Power BI Pro 라이선스가 만료된 후 30일의 유예 기간이 있습니다.
+Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한 내용은 [비즈니스용 Office 365 구독이 종료되면 내 데이터 및 액세스 권한은 어떻게 되나요?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)를 참조하세요.
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI 프리미엄에 대한 질문이 있다면?
 Power BI 프리미엄 관련된 질문은 [Power BI 프리미엄 FAQ](../service-premium-faq.md)를 참조하세요.
