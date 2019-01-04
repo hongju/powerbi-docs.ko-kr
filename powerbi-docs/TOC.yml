@@ -252,6 +252,8 @@ items:
         href: desktop-r-powered-custom-visuals.md
       - name: 눈금선과 눈금선에 맞추기(snap-to-grid) 사용
         href: desktop-gridlines-snap-to-grid.md
+      - name: Power BI 보고서의 페이지 표시 설정
+        href: power-bi-report-display-settings.md
       - name: 예제에서 열 추가
         href: desktop-add-column-from-example.md
       - name: 사용자 지정 열 추가
@@ -282,12 +284,16 @@ items:
         href: desktop-tips-and-tricks-for-creating-reports.md
     - name: 시각화
       items:
+      - name: Power BI의 시각화
+        href: visuals/power-bi-report-visualizations.md
       - name: 시각화 모범 사례
         href: visuals/power-bi-visualization-best-practices.md
       - name: 보고서에서 시각화 유형 변경
         href: visuals/power-bi-report-change-visualization-type.md
       - name: 시각적 개체 유형별 데이터 요소 한도
         href: visuals/power-bi-data-points.md
+      - name: 시각적 개체를 만드는 데 사용된 데이터 보기
+        href: visuals/service-reports-show-data.md
       - name: 색 서식 지정 및 축 속성 시작
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
       - name: 색 서식을 위한 팁과 힌트
@@ -386,6 +392,8 @@ items:
     items:
     - name: Power BI란?
       href: power-bi-overview.md
+    - name: Power BI Desktop 및 서비스 비교
+      href: service-service-vs-desktop.md
   - name: 자습서
     items:
     - name: Power BI 시작
@@ -396,164 +404,56 @@ items:
     items:
     - name: Power BI 서비스의 새로운 기능
       href: service-whats-new.md
-    - name: 디자이너에 대한 기본 개념
-      href: service-basic-concepts.md
-    - name: 도움을 받을 수 있는 10가지 팁
-      href: service-tips-for-finding-help.md
+    - name: 기본 개념
+      items:
+      - name: 디자이너에 대한 기본 개념
+        href: service-basic-concepts.md
+      - name: Power BI의 데이터 종류
+        href: service-get-data.md
+      - name: 보고서 편집기 둘러보기
+        href: service-the-report-editor-take-a-tour.md
+      - name: 작업 구성
+        href: service-new-workspaces.md
+    - name: Power BI의 워크플로
+      items:
+      - name: 작업 공유 방법
+        href: service-how-to-collaborate-distribute-dashboards-reports.md
+      - name: 데이터를 최신 상태로 유지
+        href: refresh-data.md
+      - name: 모니터링 사용 현황
+        href: service-usage-metrics.md
     - name: 라이선싱
       items:
       - name: 셀프 서비스 등록
         href: service-self-service-signup-for-power-bi.md
+      - name: 조직의 라이선싱
+        href: service-admin-licensing-organization.md
       - name: 라이선스 유형별 기능
         href: service-features-license-type.md
-      - name: Extended Pro 평가판 활성화
-        href: service-extended-pro-trial.md
-      - name: 미국 정부용 Power BI
-        href: service-govus-overview.md
-      - name: 독일 클라우드 고객을 위한 FAQ
-        href: service-govde-faq.md
-    - name: 데이터
+    - name: 자세한 개념
       items:
-      - name: Power BI용 데이터 원본
-        href: service-get-data.md
-      - name: 파일에서 데이터 가져오기
-        href: service-get-data-from-files.md
-      - name: 집계(합계, 평균, 최댓값 등)
-        href: service-aggregates.md
-      - name: Power BI에서 데이터 새로 고침
-        href: refresh-data.md
-      - name: Azure 및 Power BI
-        href: service-azure-and-power-bi.md
-      - name: Power BI 및 Azure 송신
-        href: service-azure-egress-power-bi.md
-    - name: 보고서 디자인
-      items:
-      - name: 보고서 편집기... 둘러보기
-        href: service-the-report-editor-take-a-tour.md
-      - name: Power BI의 시각화
-        href: visuals/power-bi-report-visualizations.md
-      - name: 보고서의 필터 및 강조 표시 정보
-        href: power-bi-reports-filters-and-highlighting.md
-      - name: Power BI 보고서의 페이지 표시 설정
-        href: power-bi-report-display-settings.md
-      - name: Power BI용 Cortana 소개
-        href: service-cortana-intro.md
-    - name: 기타
-      items:
-      - name: Microsoft Flow 및 Power BI
-        href: service-flow-integration.md
-      - name: 타사 앱 시작
-        href: service-power-bi-get-started-third-party-apps.md
+      - name: 도움을 받을 수 있는 10가지 팁
+        href: service-tips-for-finding-help.md
+      - name: 라이선싱 특수 사례
+        items:
+        - name: Extended Pro 평가판 활성화
+          href: service-extended-pro-trial.md
+        - name: 미국 정부용 Power BI
+          href: service-govus-overview.md
+        - name: 독일 클라우드 고객을 위한 FAQ
+          href: service-govde-faq.md
+      - name: 기타
+        items:
+        - name: Microsoft Flow 및 Power BI
+          href: service-flow-integration.md
+        - name: 타사 앱 시작
+          href: service-power-bi-get-started-third-party-apps.md
   - name: 방법
     items:
-    - name: 서비스에 연결
+    - name: 파일에서 데이터 가져오기
       items:
-      - name: 서비스에 연결
-        href: service-connect-to-services.md
-      - name: Acumatica
-        href: service-connect-to-acumatica.md
-      - name: Adobe Analytics
-        href: service-connect-to-adobe-analytics.md
-      - name: Alpine Metrics Sales Predictions
-        href: service-connect-to-alpine-metrics.md
-      - name: appFigures
-        href: service-connect-to-appfigures.md
-      - name: Application Insights
-        href: service-connect-to-application-insights.md
-      - name: AT Internet Bridge
-        href: service-connect-to-at-internet.md
-      - name: Azure 감사 로그
-        href: service-connect-to-azure-audit-logs.md
-      - name: Azure Mobile Engagement
-        href: service-connect-to-azure-mobile.md
-      - name: Microsoft Azure Consumption Insights
-        href: service-connect-to-azure-consumption-insights.md
-      - name: Azure Search
-        href: service-connect-to-azure-search.md
-      - name: 회로 ID
-        href: service-connect-to-circuit-id.md
-      - name: ClickDimensions
-        href: service-connect-to-clickdimensions.md
-      - name: comScore Digital Analytix
-        href: service-connect-to-connect-to.md
-      - name: GitHub
-        href: service-connect-to-github.md
-      - name: Google 분석
-        href: service-connect-to-google-analytics.md
-      - name: Insightly
-        href: service-connect-to-insightly.md
-      - name: IntelliBoard
-        href: service-connect-to-intelliboard.md
-      - name: Lithium
-        href: service-connect-to-lithium.md
-      - name: MailChimp
-        href: service-connect-to-mailchimp.md
-      - name: Mandrill
-        href: service-connect-to-mandrill.md
-      - name: Marketo
-        href: service-connect-to-marketo.md
-      - name: Microsoft Azure 엔터프라이즈
-        href: service-connect-to-azure-enterprise.md
-      - name: Microsoft Dynamics AX
-        href: service-connect-to-microsoft-dynamics-ax.md
-      - name: Microsoft Dynamics CRM
-        href: service-connect-to-microsoft-dynamics-crm.md
-      - name: Microsoft Dynamics NAV
-        href: service-connect-to-microsoft-dynamics-nav.md
-      - name: Office365Mon
-        href: service-connect-to-office365mon.md
-      - name: Planview Enterprise
-        href: service-connect-to-planview.md
-      - name: Prevedere
-        href: service-connect-to-prevedere.md
-      - name: 프로젝트 온라인
-        href: service-connect-to-project-online.md
-      - name: Projectplace
-        href: service-connect-to-projectplace.md
-      - name: QuickBooks Online
-        href: service-connect-to-quickbooks-online.md
-      - name: Salesforce
-        href: service-connect-to-salesforce.md
-      - name: SendGrid
-        href: service-connect-to-sendgrid.md
-      - name: ServiceNow 인시던트
-        href: service-connect-to-servicenow.md
-      - name: Smartsheet
-        href: service-connect-to-smartsheet.md
-      - name: SparkPost
-        href: service-connect-to-sparkpost.md
-      - name: SQL Database 감사
-        href: service-connect-to-azure-sql-database-auditing.md
-      - name: SQL Sentry
-        href: service-connect-to-sql-sentry.md
-      - name: 줄무늬
-        href: service-connect-to-stripe.md
-      - name: SweetIQ
-        href: service-connect-to-sweetiq.md
-      - name: Troux
-        href: service-connect-to-troux.md
-      - name: Twilio
-        href: service-connect-to-twilio.md
-      - name: tyGraph
-        href: service-connect-to-tygraph.md
-      - name: UserVoice
-        href: service-connect-to-uservoice.md
-      - name: VMob
-        href: service-connect-to-vmob.md
-      - name: Webtrends
-        href: service-connect-to-webtrends.md
-      - name: Windows 개발자 센터
-        href: service-connect-to-windows-dev-center.md
-      - name: Xero
-        href: service-connect-to-xero.md
-      - name: Zendesk
-        href: service-connect-to-zendesk.md
-      - name: Ziosk
-        href: service-connect-to-ziosk.md
-      - name: Zuora
-        href: service-connect-to-zuora.md
-    - name: 파일의 데이터
-      items:
+      - name: 파일에서 데이터 가져오기
+        href: service-get-data-from-files.md
       - name: Excel에서 멋진 보고서로
         href: service-from-excel-to-stunning-report.md
       - name: Excel 통합 문서 파일에서 데이터 가져오기
@@ -566,12 +466,16 @@ items:
         href: service-comma-separated-value-files.md
       - name: Power BI에서 실시간 스트리밍
         href: service-real-time-streaming.md
-      - name: Excel 2016에서 Power BI로 게시
+      - name: Excel에서 Power BI로 게시
         href: service-publish-from-excel.md
       - name: Excel 통합 문서 크기 줄이기
         href: reduce-the-size-of-an-excel-workbook.md
-    - name: 데이터베이스의 데이터
+    - name: 데이터베이스에서 데이터 가져오기
       items:
+      - name: Azure 및 Power BI
+        href: service-azure-and-power-bi.md
+      - name: Power BI 및 Azure 송신
+        href: service-azure-egress-power-bi.md
       - name: DirectQuery를 사용한 Azure SQL Data Warehouse
         href: service-azure-sql-data-warehouse-with-direct-connect.md
       - name: DirectQuery를 사용한 Azure SQL Database
@@ -618,8 +522,6 @@ items:
         href: service-dashboard-pin-live-tile-from-report.md
       - name: Power BI 서비스의 데이터 경고
         href: service-set-data-alerts.md
-      - name: 대시보드에 대한 사용 현황 메트릭
-        href: service-usage-metrics.md
       - name: 대시보드에 이미지, 텍스트 상자, 비디오 또는 코드 추가
         href: service-dashboard-add-widget.md
       - name: 타일 편집
@@ -640,6 +542,8 @@ items:
       items:
       - name: 데이터 세트에서 보고서 만들기
         href: service-report-create-new.md
+      - name: 보고서의 필터 및 강조 표시 정보
+        href: power-bi-reports-filters-and-highlighting.md
       - name: 보고서에 필터 추가
         href: power-bi-report-add-filter.md
       - name: Power BI에 보고서 저장
@@ -650,6 +554,8 @@ items:
         href: service-analyze-in-excel.md
       - name: 보고서를 만드는 팁과 힌트
         href: power-bi-reports-tips-and-tricks-for-creating.md
+      - name: 서비스의 집계 작업
+        href: service-aggregates.md
       - name: 보고서에 대한 사용 현황 메트릭
         href: service-usage-metrics.md
       - name: 보고서에 대한 QR 코드 만들기
@@ -664,7 +570,7 @@ items:
       items:
       - name: Power BI 질문 및 답변 시작
         href: power-bi-visualization-introduction-to-q-and-a.md
-      - name: 질문 및 답변을 사용하여 시각화 및 보고서 만들기
+      - name: 질문 및 답변을 사용하여 시각적 개체 및 보고서 만들기
         href: power-bi-tutorial-q-and-a.md
       - name: 질문 및 답변에서 데이터가 잘 작동하도록 설정
         href: service-prepare-data-for-q-and-a.md
@@ -674,18 +580,16 @@ items:
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
       - name: 라이브 연결로 질문 및 답변 사용
         href: service-q-and-a-direct-query.md
+      - name: Power BI에 대해 Cortana 소개
+        href: service-cortana-intro.md
       - name: Power BI에 대해 Cortana 사용
         href: service-cortana-enable.md
       - name: Power BI의 신속한 정보 활용
         href: service-insights.md
       - name: 빠른 인사이트를 위한 데이터 최적화
         href: service-insights-optimize.md
-    - name: 작업 공유
+    - name: Power BI에서 공동 작업
       items:
-      - name: 공동 작업하고 공유하려면 어떻게 해야 하나요?
-        href: service-how-to-collaborate-distribute-dashboards-reports.md
-      - name: 대시보드 및 보고서 공유
-        href: service-share-dashboards.md
       - name: 앱 만들기 및 공유
         href: service-create-distribute-apps.md
       - name: 앱 작업 영역 만들기
@@ -694,22 +598,24 @@ items:
         href: service-create-the-new-workspaces.md
       - name: 작업 영역에서 데이터 스토리지 관리
         href: service-admin-manage-your-data-storage-in-power-bi.md
-      - name: 필터링된 보고서 공유
-        href: service-share-reports.md
-      - name: Power BI에서 웹에 게시
-        href: service-publish-to-web.md
-      - name: SharePoint Online에 보고서 포함
-        href: service-embed-report-spo.md
       - name: 그룹의 OneDrive의 파일에 연결
         href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
       - name: 그룹 작업 영역에서 공동 작업
         href: service-collaborate-power-bi-workspace.md
       - name: Power BI 및 Office 365에서 그룹 관리
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
+    - name: 작업 게시 및 공유
+      items:
+      - name: 대시보드 및 보고서 공유
+        href: service-share-dashboards.md
+      - name: 필터링된 보고서 공유
+        href: service-share-reports.md
+      - name: Power BI에서 웹에 게시
+        href: service-publish-to-web.md
+      - name: SharePoint Online에 보고서 포함
+        href: service-embed-report-spo.md
       - name: OneDrive의 Excel 통합 문서에 연결하는 대시보드 공유
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-    - name: 게시
-      items:
       - name: Excel용 Power BI 게시자
         href: publisher-for-excel.md
     - name: 문제 해결
@@ -750,6 +656,8 @@ items:
         href: service-dataflows-create-use.md
       - name: Power BI Premium의 컴퓨팅된 엔터티(미리 보기)
         href: service-dataflows-computed-entities-premium.md
+      - name: 데이터 흐름을 사용하여 데이터 원본에 연결(미리보기)
+        href: service-dataflows-data-sources.md
       - name: 온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)
         href: service-dataflows-on-premises-gateways.md
       - name: 데이터 흐름 간에 엔터티 연결(미리 보기)
@@ -800,7 +708,113 @@ items:
         href: service-govus-signup.md
       - name: Power BI에서 거의 모든 요소 삭제
         href: service-delete.md
-      - name: 콘텐츠 팩
+      - name: 서비스에 연결
+        items:
+        - name: 서비스에 연결
+          href: service-connect-to-services.md
+        - name: Acumatica
+          href: service-connect-to-acumatica.md
+        - name: Adobe Analytics
+          href: service-connect-to-adobe-analytics.md
+        - name: Alpine Metrics Sales Predictions
+          href: service-connect-to-alpine-metrics.md
+        - name: appFigures
+          href: service-connect-to-appfigures.md
+        - name: Application Insights
+          href: service-connect-to-application-insights.md
+        - name: AT Internet Bridge
+          href: service-connect-to-at-internet.md
+        - name: Azure 감사 로그
+          href: service-connect-to-azure-audit-logs.md
+        - name: Azure Mobile Engagement
+          href: service-connect-to-azure-mobile.md
+        - name: Microsoft Azure Consumption Insights
+          href: service-connect-to-azure-consumption-insights.md
+        - name: Azure Search
+          href: service-connect-to-azure-search.md
+        - name: 회로 ID
+          href: service-connect-to-circuit-id.md
+        - name: ClickDimensions
+          href: service-connect-to-clickdimensions.md
+        - name: comScore Digital Analytix
+          href: service-connect-to-connect-to.md
+        - name: GitHub
+          href: service-connect-to-github.md
+        - name: Google 분석
+          href: service-connect-to-google-analytics.md
+        - name: Insightly
+          href: service-connect-to-insightly.md
+        - name: IntelliBoard
+          href: service-connect-to-intelliboard.md
+        - name: Lithium
+          href: service-connect-to-lithium.md
+        - name: MailChimp
+          href: service-connect-to-mailchimp.md
+        - name: Mandrill
+          href: service-connect-to-mandrill.md
+        - name: Marketo
+          href: service-connect-to-marketo.md
+        - name: Microsoft Azure 엔터프라이즈
+          href: service-connect-to-azure-enterprise.md
+        - name: Microsoft Dynamics AX
+          href: service-connect-to-microsoft-dynamics-ax.md
+        - name: Microsoft Dynamics CRM
+          href: service-connect-to-microsoft-dynamics-crm.md
+        - name: Microsoft Dynamics NAV
+          href: service-connect-to-microsoft-dynamics-nav.md
+        - name: Office365Mon
+          href: service-connect-to-office365mon.md
+        - name: Planview Enterprise
+          href: service-connect-to-planview.md
+        - name: Prevedere
+          href: service-connect-to-prevedere.md
+        - name: 프로젝트 온라인
+          href: service-connect-to-project-online.md
+        - name: Projectplace
+          href: service-connect-to-projectplace.md
+        - name: QuickBooks Online
+          href: service-connect-to-quickbooks-online.md
+        - name: Salesforce
+          href: service-connect-to-salesforce.md
+        - name: SendGrid
+          href: service-connect-to-sendgrid.md
+        - name: ServiceNow 인시던트
+          href: service-connect-to-servicenow.md
+        - name: Smartsheet
+          href: service-connect-to-smartsheet.md
+        - name: SparkPost
+          href: service-connect-to-sparkpost.md
+        - name: SQL Database 감사
+          href: service-connect-to-azure-sql-database-auditing.md
+        - name: SQL Sentry
+          href: service-connect-to-sql-sentry.md
+        - name: 줄무늬
+          href: service-connect-to-stripe.md
+        - name: SweetIQ
+          href: service-connect-to-sweetiq.md
+        - name: Troux
+          href: service-connect-to-troux.md
+        - name: Twilio
+          href: service-connect-to-twilio.md
+        - name: tyGraph
+          href: service-connect-to-tygraph.md
+        - name: UserVoice
+          href: service-connect-to-uservoice.md
+        - name: VMob
+          href: service-connect-to-vmob.md
+        - name: Webtrends
+          href: service-connect-to-webtrends.md
+        - name: Windows 개발자 센터
+          href: service-connect-to-windows-dev-center.md
+        - name: Xero
+          href: service-connect-to-xero.md
+        - name: Zendesk
+          href: service-connect-to-zendesk.md
+        - name: Ziosk
+          href: service-connect-to-ziosk.md
+        - name: Zuora
+          href: service-connect-to-zuora.md
+      - name: 조직 콘텐츠 팩
         items:
         - name: 조직 콘텐츠 팩 관리, 업데이트 및 삭제
           href: service-organizational-content-pack-manage-update-delete.md
@@ -812,16 +826,16 @@ items:
           href: service-organizational-content-pack-create-and-publish.md
         - name: 조직 콘텐츠 팩에 대한 연결 제거
           href: service-organizational-content-pack-disconnect.md
-        - name: 인증
-          items:
-          - name: 콘텐츠 팩 인증 프로그램
-            href: service-content-pack-overview.md
-          - name: 템플릿 콘텐츠 팩 작성
-            href: template-content-pack-authoring.md
-          - name: 템플릿 콘텐츠 팩 테스트
-            href: template-content-pack-testing.md
-          - name: 템플릿 콘텐츠 팩 환경
-            href: template-content-pack-experience.md
+      - name: 콘텐츠 팩 인증
+        items:
+        - name: 콘텐츠 팩 인증 프로그램
+          href: service-content-pack-overview.md
+        - name: 템플릿 콘텐츠 팩 작성
+          href: template-content-pack-authoring.md
+        - name: 템플릿 콘텐츠 팩 테스트
+          href: template-content-pack-testing.md
+        - name: 템플릿 콘텐츠 팩 환경
+          href: template-content-pack-experience.md
   - name: 리소스
     items:
     - name: 비디오
@@ -946,6 +960,8 @@ items:
       items:
       - name: Power BI 시각적 개체에 대한 지침
         href: developer/office-store-in-app-purchase-visual-guidelines.md
+      - name: 사용자 지정 시각적 개체 FAQ
+        href: power-bi-custom-visuals-faq.md
       - name: 기능 사용
         href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
       - name: 데이터 보기 매핑
@@ -962,6 +978,8 @@ items:
         href: power-bi-custom-visuals-certified.md
       - name: AppSource에 사용자 지정 시각적 개체 게시
         href: developer/office-store.md
+      - name: 사용자 지정 시각적 개체 문제 해결
+        href: power-bi-custom-visuals-troubleshoot.md
     - name: 참조
       items:
       - name: API
@@ -1218,8 +1236,6 @@ items:
       href: service-admin-faq.md
   - name: 방법
     items:
-    - name: Power BI 관리 포털
-      href: service-admin-portal.md
     - name: 라이선싱 및 등록
       items:
       - name: 조직에 대한 라이선싱
@@ -1265,9 +1281,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 8d672463e0f7ce1fb9f9a2fc938ae73cdd492a42
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: 8c0c1c309fc1225e3f5f8535bdb8578294c6ba3f
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329812"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983902"
