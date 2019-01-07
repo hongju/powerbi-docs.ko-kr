@@ -20,7 +20,7 @@ ms.locfileid: "51717473"
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 IT 지출 분석 샘플: 둘러보기
 
 ## <a name="overview-of-the-it-spend-analysis-sample"></a>IT 지출 분석 샘플 개요
-IT 지출 분석 [콘텐츠 팩](service-organizational-content-pack-introduction.md)(대시보드, 보고서 및 데이터 집합)에서는 IT 부서의 계획된 비용과 실제 비용을 비교 분석합니다. 이러한 비교는 회사에서 한 해를 얼마나 잘 계획하는지 이해하고 계획과 편차가 큰 영역을 조사하는 데 도움이 됩니다. 이 예제의 회사는 연간 계획 주기를 거친 다음 분기별로 새로운 LE(Latest Estimate)를 생성하여 회계 연도 동안 IT 지출의 변화를 분석합니다.
+IT 지출 분석 [콘텐츠 팩](service-organizational-content-pack-introduction.md)(대시보드, 보고서 및 데이터 세트)에서는 IT 부서의 계획된 비용과 실제 비용을 비교 분석합니다. 이러한 비교는 회사에서 한 해를 얼마나 잘 계획하는지 이해하고 계획과 편차가 큰 영역을 조사하는 데 도움이 됩니다. 이 예제의 회사는 연간 계획 주기를 거친 다음 분기별로 새로운 LE(Latest Estimate)를 생성하여 회계 연도 동안 IT 지출의 변화를 분석합니다.
 
 ![](media/sample-it-spend/it1.png)
 
@@ -43,7 +43,7 @@ IT 지출 분석 [콘텐츠 팩](service-organizational-content-pack-introductio
   
    ![데이터 가져오기](media/sample-it-spend/it-connect.png)
    
-5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 집합을 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 
+5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 세트를 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 
    
    ![별표](media/sample-it-spend/it-asterisk.png)
   

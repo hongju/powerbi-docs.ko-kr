@@ -60,7 +60,7 @@ Power BI 서비스에서 게이트웨이를 다운로드할 수 있습니다. **
 **인증 방법**을 선택해야 할 수 있습니다.  인증 방법은 **Windows** 또는 **기본**입니다.  Windows 인증 대신 SQL 인증을 사용하려는 경우 **기본** 을 선택합니다. 그런 다음 이 데이터 소스에 사용할 자격 증명을 입력합니다.
 
 > [!NOTE]
-> Kerberos SSO(Single Sign On)가 구성되어 해당 데이터 원본에 대해 활성화되지 않은 한 데이터 원본에 대한 모든 쿼리는 이 자격 증명을 사용하여 실행됩니다. SSO에서 가져오기 데이터 집합은 저장된 자격 증명을 사용하지만 DirectQuery 데이터 집합은 현재 Power BI 사용자를 사용하여 SSO를 통한 쿼리를 실행합니다. 자세한 내용은 온-프레미스 데이터 게이트웨이 기본 문서를 통해 [자격 증명](service-gateway-onprem.md#credentials)이 저장되는 방법을 확인해 보거나, [Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용](service-gateway-sso-kerberos.md) 방법을 설명하는 문서를 참조하세요.
+> Kerberos SSO(Single Sign On)가 구성되어 해당 데이터 원본에 대해 활성화되지 않은 한 데이터 원본에 대한 모든 쿼리는 이 자격 증명을 사용하여 실행됩니다. SSO에서 가져오기 데이터 세트는 저장된 자격 증명을 사용하지만 DirectQuery 데이터 세트는 현재 Power BI 사용자를 사용하여 SSO를 통한 쿼리를 실행합니다. 자세한 내용은 온-프레미스 데이터 게이트웨이 기본 문서를 통해 [자격 증명](service-gateway-onprem.md#credentials)이 저장되는 방법을 확인해 보거나, [Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용](service-gateway-sso-kerberos.md) 방법을 설명하는 문서를 참조하세요.
 > 
 > 
 
@@ -105,12 +105,12 @@ Power BI 서비스에서 게이트웨이를 다운로드할 수 있습니다. **
 > 
 > 
 
-게이트웨이 내에서 데이터 집합 및 데이터 원본 간의 링크는 서버 이름 및 데이터베이스 이름을 기반으로 합니다. 이는 일치해야 합니다. 예를 들어 **Power BI Desktop** 내에서 서버 이름에 대한 IP 주소를 제공하는 경우 게이트웨이 구성 내에서 데이터 원본에 대한 IP 주소를 사용해야 합니다. Power BI Desktop에서 *서버\인스턴스*를 사용하는 경우 게이트웨이에 대해 구성된 데이터 원본 내에서 동일한 것을 사용해야 합니다.
+게이트웨이 내에서 데이터 세트 및 데이터 원본 간의 링크는 서버 이름 및 데이터베이스 이름을 기반으로 합니다. 이는 일치해야 합니다. 예를 들어 **Power BI Desktop** 내에서 서버 이름에 대한 IP 주소를 제공하는 경우 게이트웨이 구성 내에서 데이터 원본에 대한 IP 주소를 사용해야 합니다. Power BI Desktop에서 *서버\인스턴스*를 사용하는 경우 게이트웨이에 대해 구성된 데이터 원본 내에서 동일한 것을 사용해야 합니다.
 
 DirectQuery와 예약된 새로 고침에 대한 경우입니다.
 
 ### <a name="using-the-data-source-with-directquery-connections"></a>DirectQuery 연결로 데이터 원본 사용
-서버 및 데이터베이스 이름이 **Power BI Desktop** 및 게이트웨이에 대해 구성된 데이터 원본 간과 일치하는지 확인해야 합니다. DirectQuery 데이터 집합을 게시하기 위해 사용자가 데이터 원본의 **사용자** 탭에 나열되는지 확인해야 합니다. Directquery의 경우 처음으로 데이터를 가져올 때 Power BI Desktop 내에서 선택이 발생합니다. [자세히 알아보기](desktop-use-directquery.md)
+서버 및 데이터베이스 이름이 **Power BI Desktop** 및 게이트웨이에 대해 구성된 데이터 원본 간과 일치하는지 확인해야 합니다. DirectQuery 데이터 세트를 게시하기 위해 사용자가 데이터 원본의 **사용자** 탭에 나열되는지 확인해야 합니다. Directquery의 경우 처음으로 데이터를 가져올 때 Power BI Desktop 내에서 선택이 발생합니다. [자세히 알아보기](desktop-use-directquery.md)
 
 게시한 후 Power BI Desktop 또는 **데이터 가져오기**에서 보고서 작업을 시작해야 합니다. 연결을 사용할 수 있으려면 게이트웨이 내에서 데이터 원본을 만든 후 몇 분 정도가 걸릴 수 있습니다.
 

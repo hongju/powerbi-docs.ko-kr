@@ -1,5 +1,5 @@
 ---
-title: 대시보드, 보고서, 작업 영역, 보고서 페이지, 데이터 집합 이름 바꾸기
+title: 대시보드, 보고서, 작업 영역, 보고서 페이지, 데이터 세트 이름 바꾸기
 description: Power BI 서비스에서 거의 모든 항목의 이름을 바꿉니다.
 author: maggiesMSFT
 manager: kfile
@@ -18,7 +18,7 @@ ms.lasthandoff: 11/16/2018
 ms.locfileid: "51716835"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 항목의 이름 바꾸기
-이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 보고서 페이지, 통합 문서, 데이터 집합, 앱 및 작업 영역의 이름을 변경하는 방법을 안내합니다.
+이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 보고서 페이지, 통합 문서, 데이터 세트, 앱 및 작업 영역의 이름을 변경하는 방법을 안내합니다.
 
 **이름을 변경할 수 있습니까?**
 
@@ -27,10 +27,10 @@ ms.locfileid: "51716835"
 | 작업 영역의 대시보드 |예 |아니요 |
 | 작업 영역의 보고서 |예 |아니요 |
 | 작업 영역의 통합 문서 |예 |아니요 |
-| 작업 영역의 데이터 집합 |예 |아니요 |
+| 작업 영역의 데이터 세트 |예 |아니요 |
 | 앱 작업 영역 |예, 본인에게 소유자 또는 관리자 권한이 있는 경우 |아니요 |
 | 게시된 앱 |관리자 권한이 있으면 앱 화면이 아니라 앱 작업 영역에서 앱 이름을 변경하고 다시 새 이름으로 게시할 수 있습니다. |아니요 |
-| 앱 콘텐츠(대시보드, 보고서, 통합 문서, 데이터 집합) |관리자 권한이 있으면 앱 화면이 아니라 앱 작업 영역에서 앱 콘텐츠 이름을 변경하고 다시 새 이름으로 게시할 수 있습니다. |아니요 |
+| 앱 콘텐츠(대시보드, 보고서, 통합 문서, 데이터 세트) |관리자 권한이 있으면 앱 화면이 아니라 앱 작업 영역에서 앱 콘텐츠 이름을 변경하고 다시 새 이름으로 게시할 수 있습니다. |아니요 |
 | **공유한 항목**의 콘텐츠 |아니요 |아니요 |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>대시보드, 보고서 또는 통합 문서 이름 바꾸기
@@ -39,12 +39,12 @@ ms.locfileid: "51716835"
    ![Power BI 서비스 작업 영역](media/service-rename/power-bi-workspace-dashboards.png)
 2. 설정 페이지에서 새 이름을 입력하고 **저장**을 선택합니다.
    
-   ![데이터 집합의 설정 창](media/service-rename/power-bi-rename-dashboard2.png)
+   ![데이터 세트의 설정 창](media/service-rename/power-bi-rename-dashboard2.png)
 
-## <a name="rename-a-dataset"></a>데이터 집합 이름 바꾸기
-1. 작업 영역에서 시작하고 **데이터 집합** 탭을 선택합니다.
+## <a name="rename-a-dataset"></a>데이터 세트 이름 바꾸기
+1. 작업 영역에서 시작하고 **데이터 세트** 탭을 선택합니다.
    
-   ![내 작업 영역 데이터 집합 탭](media/service-rename/power-bi-ellipses.png)
+   ![내 작업 영역 데이터 세트 탭](media/service-rename/power-bi-ellipses.png)
 2. 이름을 변경할 항목 위로 마우스를 가져가고 말줄임표(...)를 선택한 다음 **이름 바꾸기**를 선택합니다.  
    
       ![이름 바꾸기 선택](media/service-rename/power-bi-rename-datasets.png)

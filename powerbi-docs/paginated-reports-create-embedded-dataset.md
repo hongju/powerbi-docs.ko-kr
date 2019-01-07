@@ -21,7 +21,7 @@ ms.locfileid: "52900431"
 
 데이터 세트를 만들려면 먼저 데이터 원본을 만들어야 합니다. 방법을 알아보려면 Power BI 서비스에서 [페이지를 매긴 보고서의 포함된 데이터 원본](paginated-reports-embedded-data-source.md)을 참조하세요.
   
-## <a name="create-an-embedded-dataset"></a>포함된 데이터 집합 만들기
+## <a name="create-an-embedded-dataset"></a>포함된 데이터 세트 만들기
   
 1. 보고서 작성기의 보고서 데이터 창에서 **새로 만들기** > **데이터 세트**를 선택합니다.
 

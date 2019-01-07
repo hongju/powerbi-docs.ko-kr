@@ -51,7 +51,7 @@ Power BI용 [Smartsheet 콘텐츠 팩](https://app.powerbi.com/groups/me/getdata
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용
 Power BI용 Smartsheet 콘텐츠 팩은 수정되는 경우 보유한 작업 영역, 보고서 및 시트의 수와 같은 Smartsheet 계정의 개요를 포함합니다. 또한 관리자 사용자는 위쪽 시트 작성자 등 해당 시스템에서 사용자에 대한 정보 일부를 확인합니다.  

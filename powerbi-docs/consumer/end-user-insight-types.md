@@ -20,9 +20,9 @@ ms.locfileid: "53280237"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI에서 지원되는 정보의 유형
 ## <a name="how-does-insights-work"></a>정보는 어떻게 작동하나요?
-Power BI는 흥미로운 정보를 검색하기 위해 복잡한 알고리즘을 적용하는 동시에 데이터 집합의 여러 하위 집합을 신속하게 검색합니다. Power BI는 할당된 시간 내에 가능한 한 많은 데이터 집합을 검색합니다.
+Power BI는 흥미로운 정보를 검색하기 위해 복잡한 알고리즘을 적용하는 동시에 데이터 세트의 여러 하위 세트를 신속하게 검색합니다. Power BI는 할당된 시간 내에 가능한 한 많은 데이터 세트를 검색합니다.
 
-데이터 집합 또는 대시보드 타일에 대한 검색을 실행할 수 있습니다.   
+데이터 세트 또는 대시보드 타일에 대한 검색을 실행할 수 있습니다.   
 
 ## <a name="what-types-of-insights-can-we-find"></a>어떤 유형의 정보를 찾을 수 있나요?
 다음은 사용되는 알고리즘 중 일부입니다.
@@ -75,7 +75,7 @@ Power BI는 흥미로운 정보를 검색하기 위해 복잡한 알고리즘을
 ## <a name="next-steps"></a>다음 단계
 [Power BI 정보](end-user-insights.md)
 
-데이터 집합의 소유자인 경우 [정보를 위해 최적화](../service-insights-optimize.md)
+데이터 세트의 소유자인 경우 [정보를 위해 최적화](../service-insights-optimize.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

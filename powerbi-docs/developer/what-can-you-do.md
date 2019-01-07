@@ -1,6 +1,6 @@
 ---
 title: 개발자는 Power BI로 무엇을 할 수 있나요?
-description: Power BI는 개발자를 위한 다양한 옵션을 제공합니다. 여기에는 사용자 지정 시각적 개체에서 스트리밍 데이터 집합에 이르는 다양한 옵션이 포함됩니다.
+description: Power BI는 개발자를 위한 다양한 옵션을 제공합니다. 여기에는 사용자 지정 시각적 개체에서 스트리밍 데이터 세트에 이르는 다양한 옵션이 포함됩니다.
 author: markingmyname
 ms.author: maghan
 manager: kfile

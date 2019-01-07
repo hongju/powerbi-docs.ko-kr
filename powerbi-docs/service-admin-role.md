@@ -1,6 +1,6 @@
 ---
 title: Power BI 관리자 역할 이해
-description: Power BI 서비스 내에서 가져온 데이터 집합 및 DirectQuery에 대한 행 수준 보안을 구성하는 방법입니다.
+description: Power BI 서비스 내에서 가져온 데이터 세트 및 DirectQuery에 대한 행 수준 보안을 구성하는 방법입니다.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''

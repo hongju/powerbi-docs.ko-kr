@@ -125,7 +125,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
 
-새 필드를 만들려면 [Power BI Desktop 쿼리 편집기를 사용하여 인덱스 열을](../desktop-add-custom-column.md) 데이터 집합에 추가합니다.  그런 다음 이 열을 시각화의 **세부 정보** 영역에 추가합니다.
+새 필드를 만들려면 [Power BI Desktop 쿼리 편집기를 사용하여 인덱스 열을](../desktop-add-custom-column.md) 데이터 세트에 추가합니다.  그런 다음 이 열을 시각화의 **세부 정보** 영역에 추가합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

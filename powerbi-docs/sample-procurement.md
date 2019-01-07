@@ -47,7 +47,7 @@ ms.locfileid: "51717151"
   
    ![데이터 가져오기](media/sample-procurement/procurement1a.png)
    
-5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 집합을 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 
+5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 세트를 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 
    
    ![별표](media/sample-procurement/procurement1b.png)
   

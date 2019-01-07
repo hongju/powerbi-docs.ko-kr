@@ -1,6 +1,6 @@
 ---
 title: Power BI를 사용하는 행 수준 보안(RLS)
-description: Power BI 서비스 내에서 가져온 데이터 집합 및 DirectQuery에 대한 행 수준 보안을 구성하는 방법입니다.
+description: Power BI 서비스 내에서 가져온 데이터 세트 및 DirectQuery에 대한 행 수준 보안을 구성하는 방법입니다.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -20,9 +20,9 @@ ms.locfileid: "53025124"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI를 사용하는 행 수준 보안(RLS)
 
-Power BI를 사용하는 행 수준 보안(RLS)은 지정된 사용자에 데이터 액세스를 제한하는 데 사용됩니다. 필터는 행 수준에서 데이터 액세스를 제한하고 역할 내에서 필터를 정의할 수 있습니다. Power BI 서비스에서 작업 영역의 구성원은 작업 영역의 데이터 집합에 액세스할 수 있습니다. RLS는 이 데이터 액세스를 제한하지 않습니다.
+Power BI를 사용하는 행 수준 보안(RLS)은 지정된 사용자에 데이터 액세스를 제한하는 데 사용됩니다. 필터는 행 수준에서 데이터 액세스를 제한하고 역할 내에서 필터를 정의할 수 있습니다. Power BI 서비스에서 작업 영역의 구성원은 작업 영역의 데이터 세트에 액세스할 수 있습니다. RLS는 이 데이터 액세스를 제한하지 않습니다.
 
-Power BI Desktop으로 Power BI로 가져온 데이터 모델에 대한 RLS를 구성할 수 있습니다. SQL Server와 같은 DirectQuery를 사용하는 데이터 집합에서 RLS를 구성할 수도 있습니다. 이전에는 Power BI 외부의 온-프레미스 Analysis Services 모델 내에서 RLS를 구현할 수만 있었습니다. Analysis Services 라이브 연결의 경우 온-프레미스 모델에서 행 수준 보안을 구성합니다. 라이브 연결 데이터 집합에 보안 옵션이 표시되지 않습니다.
+Power BI Desktop으로 Power BI로 가져온 데이터 모델에 대한 RLS를 구성할 수 있습니다. SQL Server와 같은 DirectQuery를 사용하는 데이터 세트에서 RLS를 구성할 수도 있습니다. 이전에는 Power BI 외부의 온-프레미스 Analysis Services 모델 내에서 RLS를 구현할 수만 있었습니다. Analysis Services 라이브 연결의 경우 온-프레미스 모델에서 행 수준 보안을 구성합니다. 라이브 연결 데이터 세트에 보안 옵션이 표시되지 않습니다.
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
@@ -39,12 +39,12 @@ Power BI Desktop으로 Power BI로 가져온 데이터 모델에 대한 RLS를 �
 
 데이터 모델에 대한 보안을 관리하려면 다음을 수행합니다.
 
-1. 데이터 집합에 대해 **줄임표 (...)** 를 선택합니다.
+1. 데이터 세트에 대해 **줄임표 (...)** 를 선택합니다.
 2. **보안**을 선택합니다.
    
    ![보안 필터 양방향으로 적용](media/service-admin-rls/rls-security.png)
 
-Power BI Desktop에서 만든 역할에 멤버를 추가할 수 있는 RLS 페이지로 이동합니다. 데이터 세트의 소유자만이 사용할 수 있는 보안이 표시됩니다. 데이터 집합이 그룹에 있는 경우 그룹의 관리자만이 보안 옵션을 확인할 수 있습니다. 
+Power BI Desktop에서 만든 역할에 멤버를 추가할 수 있는 RLS 페이지로 이동합니다. 데이터 세트의 소유자만이 사용할 수 있는 보안이 표시됩니다. 데이터 세트가 그룹에 있는 경우 그룹의 관리자만이 보안 옵션을 확인할 수 있습니다. 
 
 Power BI Desktop 내에서 역할을 만들거나 수정할 수만 있습니다.
 

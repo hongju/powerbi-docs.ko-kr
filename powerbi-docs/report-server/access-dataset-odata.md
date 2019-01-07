@@ -1,5 +1,5 @@
 ---
-title: Power BI Report Server에서 OData 피드로 공유 데이터 집합에 액세스
+title: Power BI Report Server에서 OData 피드로 공유 데이터 세트에 액세스
 description: Power BI 보고서는 다른 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다.
 author: markingmyname
 manager: kfile
@@ -16,8 +16,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/04/2018
 ms.locfileid: "34294942"
 ---
-# <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>Power BI Report Server에서 OData 피드로 공유 데이터 집합에 액세스
-OData 피드로 Power BI Desktop에서 공유 데이터 집합에 액세스할 수 있습니다.
+# <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>Power BI Report Server에서 OData 피드로 공유 데이터 세트에 액세스
+OData 피드로 Power BI Desktop에서 공유 데이터 세트에 액세스할 수 있습니다.
 
 1. OData 피드 URL을 사용하여 OData 원본에 연결합니다.
    

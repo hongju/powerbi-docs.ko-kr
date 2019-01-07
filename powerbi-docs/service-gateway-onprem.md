@@ -1,6 +1,6 @@
 ---
 title: 온-프레미스 데이터 게이트웨이
-description: Power BI의 온-프레미스 데이터 게이트웨이에 대한 개요입니다. DirectQuery 데이터 원본으로 작업하는 데 이 게이트웨이를 사용할 수 있습니다. 또한 이 게이트웨이를 사용하여 온-프레미스 데이터로 클라우드 데이터 집합을 새로 고칠 수도 있습니다.
+description: Power BI의 온-프레미스 데이터 게이트웨이에 대한 개요입니다. DirectQuery 데이터 원본으로 작업하는 데 이 게이트웨이를 사용할 수 있습니다. 또한 이 게이트웨이를 사용하여 온-프레미스 데이터로 클라우드 데이터 세트를 새로 고칠 수도 있습니다.
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -73,7 +73,7 @@ ms.locfileid: "52268346"
 
 ![](media/service-gateway-onprem/personal-gateway-windows-service.png)
 
-설치를 완료한 후에는 Power BI 내의 데이터 집합으로 이동하여 온-프레미스 데이터 원본에 대해 자격 증명이 입력되었는지 확인해야 합니다.
+설치를 완료한 후에는 Power BI 내의 데이터 세트로 이동하여 온-프레미스 데이터 원본에 대해 자격 증명이 입력되었는지 확인해야 합니다.
 
 <a name="credentials"></a>
 

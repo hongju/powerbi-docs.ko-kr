@@ -159,9 +159,9 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 ```
 
 ## <a name="push-dataset--report"></a>푸시 데이터 집합 및 보고서
-만든 데이터 집합에 대한 보고서를 다시 빌드해야 합니다.
+만든 데이터 세트에 대한 보고서를 다시 빌드해야 합니다.
 
-이 코드 조각에서는 푸시 가능한 데이터 집합이 SaaS 환경 내의 앱 작업 영역에 이미 있다고 가정합니다. 푸시 API에 대한 자세한 내용은 [Power BI 데이터 집합으로 데이터 푸시](walkthrough-push-data.md)를 참조하세요.
+이 코드 조각에서는 푸시 가능한 데이터 세트가 SaaS 환경 내의 앱 작업 영역에 이미 있다고 가정합니다. 푸시 API에 대한 자세한 내용은 [Power BI 데이터 세트로 데이터 푸시](walkthrough-push-data.md)를 참조하세요.
 
 ```
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");

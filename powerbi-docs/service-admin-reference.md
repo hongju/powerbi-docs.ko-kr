@@ -28,14 +28,14 @@ Power BI를 사용하면 관리자가 PowerShell cmdlet을 사용하여 일반�
 
 | **Cmdlet 이름** | **별칭** | **SDK 메서드** | **REST API 엔드포인트** | **설명** |
 | --- | --- | --- | --- | --- |
-| `Get-PowerBIDatasource` | 해당 없음 | `Datasets_GetDataSourcesAsAdmin` | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | 지정된 데이터 집합에 데이터 원본을 가져옵니다. |
-| `Get-PowerBIDataset` | 해당 없음 | `Datasets_GetDatasetsAsAdmin` | /v1.0/myorg/admin/datasets | Power BI 테넌트에서 데이터 집합의 전체 목록을 가져옵니다. |
+| `Get-PowerBIDatasource` | 해당 없음 | `Datasets_GetDataSourcesAsAdmin` | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | 지정된 데이터 세트에 데이터 원본을 가져옵니다. |
+| `Get-PowerBIDataset` | 해당 없음 | `Datasets_GetDatasetsAsAdmin` | /v1.0/myorg/admin/datasets | Power BI 테넌트에서 데이터 세트의 전체 목록을 가져옵니다. |
 | `Get-PowerBIWorkspace` | `Get-PowerBIGroup` | `Groups_GetGroupsAsAdmin` | /v1.0/myorg/admin/groups | Power BI 테넌트에서 작업 영역의 전체 목록을 가져옵니다. |
 | `Add-PowerBIWorkspaceUser` | `Add-PowerBIGroupUser` | `Groups_AddUserAsAdmin` | /v1.0/myorg/admin/groups/{groupId}/users | 지정된 작업 영역에 구성원으로 사용자를 추가합니다. |
 | `Remove-PowerBIWorkspaceUser` | `Remove-PowerBIGroupUser` | `Groups_DeleteUserAsAdmin` | /v1.0/myorg/admin/groups/{groupId}/users/{user} | 지정된 작업 영역 구성원 목록에서 사용자를 제거합니다. |
 | `Restore-PowerBIWorkspace` |`Restore-PowerBIGroup` | `Groups_RestoreDeletedGroupAsAdmin` | /v1.0/myorg/admin/groups/{groupId}/restore | 삭제된 작업 영역을 복원합니다. |
 | `Set-PowerBIWorkspace` |`Set-PowerBIGroup` | `Groups_UpdateGroupAsAdmin` | /v1.0/myorg/admin/groups/{groupId} | 지정된 작업 영역의 속성을 업데이트합니다. |
-| `Get-PowerBIDataset -WorkspaceId` | 해당 없음 | `Groups_GetDatasetsAsAdmin` | /v1.0/myorg/admin/groups/{group\_id}/datasets | 지정된 작업 영역 내에서 데이터 집합을 가져옵니다. |
+| `Get-PowerBIDataset -WorkspaceId` | 해당 없음 | `Groups_GetDatasetsAsAdmin` | /v1.0/myorg/admin/groups/{group\_id}/datasets | 지정된 작업 영역 내에서 데이터 세트를 가져옵니다. |
 | `Get-PowerBIReport` | 해당 없음 | `Reports_GetReportsAsAdmin` | /v1.0/myorg/admin/reports | Power BI 테넌트에서 보고서의 전체 목록을 가져옵니다. |
 | `Get-PowerBIDashboard` | 해당 없음 | `Dashboards_GetDashboardsAsAdmin` | /v1.0/myorg/admin/dashboards | Power BI 테넌트에서 대시보드의 전체 목록을 가져옵니다. |
 | `Get-PowerBIDashboard -WorkspaceId` | 해당 없음 | `Groups_GetDashboardsAsAdmin` | /v1.0/myorg/admin/groups/{group\_id}/dashboards | 지정된 작업 영역 내에서 대시보드를 가져옵니다. |

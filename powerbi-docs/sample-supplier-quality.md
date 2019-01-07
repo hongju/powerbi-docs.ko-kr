@@ -48,7 +48,7 @@ ms.locfileid: "51717657"
   
    ![공급업체 품질 분석 샘플](media/sample-supplier-quality/supplier16.png)
    
-5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 집합을 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 
+5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 세트를 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 
    
    ![별표](media/sample-supplier-quality/supplier17.png)
   

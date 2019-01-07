@@ -18,7 +18,7 @@ ms.lasthandoff: 10/10/2018
 ms.locfileid: "48908243"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI 앱 작업 영역에서 공동 작업
-Power BI 앱 작업 영역은 동료들과 대시보드, 보고서 및 데이터 집합을 공동 작업하여 *앱*을 만들기에 적합합니다. 공동 작업은 Power BI의 작업 영역에서 그치지 않습니다. Office 365는 비즈니스용 OneDrive에서 파일 공유, Exchange에서 대화, 공유 일정, 작업 등과 같은 다른 그룹 서비스를 제공합니다. [Office 365의 그룹](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)에 대해 자세히 알아보세요.
+Power BI 앱 작업 영역은 동료들과 대시보드, 보고서 및 데이터 세트를 공동 작업하여 *앱*을 만들기에 적합합니다. 공동 작업은 Power BI의 작업 영역에서 그치지 않습니다. Office 365는 비즈니스용 OneDrive에서 파일 공유, Exchange에서 대화, 공유 일정, 작업 등과 같은 다른 그룹 서비스를 제공합니다. [Office 365의 그룹](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)에 대해 자세히 알아보세요.
 
 > [!NOTE]
 > 새 작업 영역 환경 미리 보기를 통해 Power BI 작업 영역과 Office 365 그룹 간의 관계를 변경합니다. 새 작업 영역 중 하나를 만들 때마다 Office 365 그룹을 자동으로 만드는 것은 아닙니다. [새 작업 영역 만들기(미리 보기)](service-create-the-new-workspaces.md)를 참고하세요.

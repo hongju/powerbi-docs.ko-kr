@@ -16,12 +16,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/26/2018
 ms.locfileid: "34813092"
 ---
-# <a name="push-data-to-a-dataset-complete-code-listing"></a>데이터 집합에 데이터 푸시 전체 코드 목록
-이 문서는 [데이터 집합에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
+# <a name="push-data-to-a-dataset-complete-code-listing"></a>데이터 세트에 데이터 푸시 전체 코드 목록
+이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
 **데이터 집합에 데이터 푸시**의 2~5단계를 수행하면 전체 원본 코드가 다음과 같이 표시됩니다.
 
-## <a name="push-data-to-dataset-code"></a>데이터 집합에 데이터 푸시 코드
+## <a name="push-data-to-dataset-code"></a>데이터 세트에 데이터 푸시 코드
       using System;
       using Microsoft.IdentityModel.Clients.ActiveDirectory;
       using System.Net;

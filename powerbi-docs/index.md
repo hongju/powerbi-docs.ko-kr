@@ -95,7 +95,7 @@ ms.locfileid: "51507879"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>개발자용 Power BI</h3>
-                                                    <p>Power BI는 포함 기능부터 사용자 지정 시각적 개체 및 스트리밍 데이터 집합에 이르는 다양한 옵션을 제공합니다.</p>
+                                                    <p>Power BI는 포함 기능부터 사용자 지정 시각적 개체 및 스트리밍 데이터 세트에 이르는 다양한 옵션을 제공합니다.</p>
                                                 </div>
                                             </div>
                                         </div>

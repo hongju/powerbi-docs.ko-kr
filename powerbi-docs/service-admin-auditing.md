@@ -22,7 +22,7 @@ ms.locfileid: "53026825"
 
 Power BI 테넌트의 어떤 항목에 누가 무슨 활동을 수행하는지를 아는 것은 조직에서 규정 준수 및 레코드 관리와 같은 요구 사항을 수행하도록 돕는 데 매우 중요합니다. Power BI 감사를 사용하여 “보고서 보기” 및 “대시보드 보기”와 같이 사용자가 수행한 작업을 감사할 수 있습니다. 감사를 사용하여 사용 권한을 감사할 수 없습니다.
 
-Office 365 보안 및 준수 센터에서 감사하거나 PowerShell을 사용합니다. 이 문서에서는 둘 다 다룹니다. 감사 데이터는 날짜 범위, 사용자, 대시보드, 보고서, 데이터 집합 및 작업 유형에 따라 필터링할 수 있습니다. 활동을 CSV(쉼표로 구분된 값) 파일로 다운로드하여 오프라인에서 분석하도록 할 수도 있습니다.
+Office 365 보안 및 준수 센터에서 감사하거나 PowerShell을 사용합니다. 이 문서에서는 둘 다 다룹니다. 감사 데이터는 날짜 범위, 사용자, 대시보드, 보고서, 데이터 세트 및 작업 유형에 따라 필터링할 수 있습니다. 활동을 CSV(쉼표로 구분된 값) 파일로 다운로드하여 오프라인에서 분석하도록 할 수도 있습니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -146,7 +146,7 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 | Power BI 폴더 액세스 권한 추가됨                      | AddFolderAccess                             | 현재 사용되지 않음                       |
 | Power BI 그룹 구성원 추가됨                      | AddGroupMembers                             |                                          |
 | 관리자가 테넌트에 데이터 흐름 스토리지 계정 연결됨 | AdminAttachedDataflowStorageAccountToTenant | 현재 사용되지 않음                       |
-| Power BI 데이터 집합 분석됨                         | AnalyzedByExternalApplication               |                                          |
+| Power BI 데이터 세트 분석됨                         | AnalyzedByExternalApplication               |                                          |
 | Power BI 보고서 분석                          | AnalyzeInExcel                              |                                          |
 | 게이트웨이에 바인딩된 Power BI 데이터 세트                | BindToGateway                               |                                          |
 | 용량 상태 변경됨                            | ChangeCapacityState                         |                                          |

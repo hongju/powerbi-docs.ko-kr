@@ -21,7 +21,7 @@ ms.locfileid: "39280113"
 
 한 데이터베이스에 제품 정보가 있고 다른 데이터베이스에 판매 정보가 있는 경우와 같이 데이터가 여러 데이터 원본에 분산되어 있는 것이 일반적입니다. **Power BI Desktop**을 사용하면 서로 다른 원본의 데이터를 결합하여 흥미롭고 매력적인 데이터 분석 및 시각화를 만들 수 있습니다. 
 
-이 자습서에서는 두 가지 데이터 원본(제품 정보가 포함된 Excel 통합 문서 및 주문 데이터가 포함된 OData 피드)의 데이터를 결합하는 방법을 알아봅니다. 각 데이터 집합을 가져와서 변환 및 집계 단계를 수행한 후 두 원본의 데이터를 모두 사용하여 대화형 시각화가 포함된 판매 분석 보고서를 생성합니다. 이러한 방법은 SQL Server 쿼리, CSV 파일 및 Power BI Desktop의 다른 데이터 원본에도 적용할 수 있습니다.
+이 자습서에서는 두 가지 데이터 원본(제품 정보가 포함된 Excel 통합 문서 및 주문 데이터가 포함된 OData 피드)의 데이터를 결합하는 방법을 알아봅니다. 각 데이터 세트를 가져와서 변환 및 집계 단계를 수행한 후 두 원본의 데이터를 모두 사용하여 대화형 시각화가 포함된 판매 분석 보고서를 생성합니다. 이러한 방법은 SQL Server 쿼리, CSV 파일 및 Power BI Desktop의 다른 데이터 원본에도 적용할 수 있습니다.
 
 >[!NOTE]
 >Power BI Desktop에는 일반적으로 작업을 수행하는 몇 가지 방법이 있습니다. 예를 들어 마우스 오른쪽 단추를 클릭하거나 열 또는 셀에 있는 **추가 옵션** 메뉴를 사용하여 많은 리본을 선택할 수 있습니다. 몇 가지 대체 방법은 아래 단계에 설명되어 있습니다. 
@@ -168,11 +168,11 @@ ms.locfileid: "39280113"
 
 ![필드 목록의 쿼리](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-## <a name="manage-the-relationship-between-the-datasets"></a>데이터 집합 간의 관계 관리
+## <a name="manage-the-relationship-between-the-datasets"></a>데이터 세트 간의 관계 관리
 
-Power BI Desktop에서는 보고하는 쿼리를 결합할 필요가 없습니다. 그러나 공통적인 필드를 기반으로 데이터 집합 간의 관계를 사용하여 보고서를 확장하고 보강할 수 있습니다. Power BI Desktop에서 관계를 자동으로 검색하거나, 사용자가 Power BI Desktop **관계 관리** 대화 상자에서 관계를 만들 수 있습니다. Power BI Desktop의 관계에 대한 자세한 내용은 [관계 만들기 및 관리](desktop-create-and-manage-relationships.md)를 참조하세요.
+Power BI Desktop에서는 보고하는 쿼리를 결합할 필요가 없습니다. 그러나 공통적인 필드를 기반으로 데이터 세트 간의 관계를 사용하여 보고서를 확장하고 보강할 수 있습니다. Power BI Desktop에서 관계를 자동으로 검색하거나, 사용자가 Power BI Desktop **관계 관리** 대화 상자에서 관계를 만들 수 있습니다. Power BI Desktop의 관계에 대한 자세한 내용은 [관계 만들기 및 관리](desktop-create-and-manage-relationships.md)를 참조하세요.
 
-이 자습서의 주문 및 제품 데이터 집합은 공통 *ProductID* 필드를 공유하므로 해당 열을 기반으로 데이터 집합 간에 관계가 있습니다. 
+이 자습서의 주문 및 제품 데이터 세트는 공통 *ProductID* 필드를 공유하므로 해당 열을 기반으로 데이터 세트 간에 관계가 있습니다. 
 
 1. Power BI Desktop 보고서 보기에서 **홈** 리본 탭의 **관계** 영역에 있는 **관계 관리**를 선택합니다.
    

@@ -154,7 +154,7 @@ ms.locfileid: "52900661"
 * 이 Power BI 콘텐츠 팩으로 [Jira 프로젝트 관리 데이터](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/) 탐색
 * 이 Power BI 콘텐츠 팩으로 [Insightcentr 데이터](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/) 탐색
 * [인포그래픽 디자이너 사용자 지정 시각적 개체](https://powerbi.microsoft.com/blog/quickly-create-infographics-with-the-infographic-designer-custom-visual-for-power-bi/)로 빠르게 인포그래픽 만들기
-* 비공개 미리 보기: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/)는 스트리밍 타일을 만들 수 있는 스트리밍 Power BI 데이터 집합을 출력합니다.
+* 비공개 미리 보기: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/)는 스트리밍 타일을 만들 수 있는 스트리밍 Power BI 데이터 세트를 출력합니다.
 * 미리 보기: [ESRI ArcGIS 맵 시각화](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/)를 보고서 및 대시보드에 추가합니다.
 
 ### <a name="october-2016"></a>2016년 10월
@@ -177,7 +177,7 @@ ms.locfileid: "52900661"
 
 ***Excel에서 온-프레미스 데이터 분석***
 
-* Excel에서 분석 기능은 온-프레미스 데이터 집합을 지원하도록 확장되었습니다. Excel에서 분석할 수 있도록 온-프레미스 데이터 집합에 안전한 직접 연결을 설정합니다. 또한 관리자가 온-프레미스 원본에 대한 Excel에서 분석 기능을 해제하기 위한 설정을 도입했습니다.  
+* Excel에서 분석 기능은 온-프레미스 데이터 세트를 지원하도록 확장되었습니다. Excel에서 분석할 수 있도록 온-프레미스 데이터 세트에 안전한 직접 연결을 설정합니다. 또한 관리자가 온-프레미스 원본에 대한 Excel에서 분석 기능을 해제하기 위한 설정을 도입했습니다.  
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/)하세요.
 
@@ -192,7 +192,7 @@ ms.locfileid: "52900661"
 ***데이터 가져오기***
 
 * 파일 크기 제한이 1GB로 증가: Excel 통합 문서 및 Power BI Desktop 파일의 파일 크기 제한이 1GB까지 증가되었습니다.
-* 엔터프라이즈 게이트웨이 및 다른 게이트웨이 업데이트로 설정된 SSAS 서버 찾기: 이제 엔터프라이즈 게이트웨이를 설정하면 회사의 사용자는 데이터 가져오기 페이지를 통해 Power BI 서비스에서 이러한 서버에 액세스할 수 있습니다. 또한 게이트웨이와 함께 Analysis Services를 사용하는 경우, 게이트웨이를 사용하여 UPN 매핑 규칙을 만드는 SAP 비즈니스 웨어하우스 서버의 데이터를 포함하는 데이터 집합에 대한 새로 고침 지원을 추가했습니다.
+* 엔터프라이즈 게이트웨이 및 다른 게이트웨이 업데이트로 설정된 SSAS 서버 찾기: 이제 엔터프라이즈 게이트웨이를 설정하면 회사의 사용자는 데이터 가져오기 페이지를 통해 Power BI 서비스에서 이러한 서버에 액세스할 수 있습니다. 또한 게이트웨이와 함께 Analysis Services를 사용하는 경우, 게이트웨이를 사용하여 UPN 매핑 규칙을 만드는 SAP 비즈니스 웨어하우스 서버의 데이터를 포함하는 데이터 세트에 대한 새로 고침 지원을 추가했습니다.
 
 ***행 수준 보안(RLS)***
 
@@ -261,7 +261,7 @@ ms.locfileid: "52900661"
 ***엔터프라이즈 기능***
 
 * 관리자 사용 현황 보고: Power BI 관리 센터에 사용 현황 보고서를 추가했습니다.
-* 행 수준 보안: Power BI 데이터 집합에 사용 권한을 설정할 수 있는 미리 보기 기능입니다.
+* 행 수준 보안: Power BI 데이터 세트에 사용 권한을 설정할 수 있는 미리 보기 기능입니다.
 * 데이터 내보내기 사용 안 함: 테넌트의 사용자는 더 이상 타일 및 시각적 데이터를 .csv 파일로 내보낼 수 없습니다.
 
 ***질문 및 답변***
@@ -443,7 +443,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 12월 3일**
 
-* 신속한 정보 활용을 사용하여 자동으로 추세를 검색하고 데이터 집합의 패턴을 찾습니다([동영상](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) 또는 [문서](consumer/end-user-insights.md)).
+* 신속한 정보 활용을 사용하여 자동으로 추세를 검색하고 데이터 세트의 패턴을 찾습니다([동영상](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) 또는 [문서](consumer/end-user-insights.md)).
 * [Power BI에서 VMob 데이터 시각화](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Cortana와 Power BI 통합](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [엔터프라이즈용 Power BI 게이트웨이 미리 보기](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
@@ -597,7 +597,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 * [조직 콘텐츠 팩](service-organizational-content-pack-introduction.md): Power BI를 사용 하여 대시보드 및 보고서를 매우 간단하게 만들 수 있고, 사용자가 이 콘텐츠를 조직 콘텐츠 갤러리에 게시할 수 있게 되었습니다.
 * [전체 Excel 파일 가져오기](service-excel-workbook-files.md): Excel Online에서 하듯 비즈니스용 OneDrive에 저장된 Excel 통합 문서를 Power BI에 가져와 전체 통합 문서를 볼 수 있습니다.
 * [CSV 파일 가져오기](service-get-data-from-files.md): Excel 또는 Power BI 데스크톱 파일처럼 쉼표로 구분된 값 텍스트(CSV) 파일은 Power BI 대시보드 및 보고서용 데이터 집합이 될 수도 있습니다.
-* Excel, Power BI Desktop 및 CSV 파일 대체: 업데이트된 버전의 파일을 Power BI에 업로드하여 기존 데이터 집합을 대체할 수 있습니다. 이 데이터 세트에 연결된 모든 보고서 및 대시보드는 이제 자동으로 새 버전을 사용합니다.
+* Excel, Power BI Desktop 및 CSV 파일 대체: 업데이트된 버전의 파일을 Power BI에 업로드하여 기존 데이터 세트를 대체할 수 있습니다. 이 데이터 세트에 연결된 모든 보고서 및 대시보드는 이제 자동으로 새 버전을 사용합니다.
 * Power BI의 이번 주 업데이트가 [Visual Studio Online 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)에서 작업 항목 추적 기능을 제공할 수 있게 되었음을 알려드립니다. 이 업데이트는 초기 버전에 포함된 Git 리포지토리, 끌어오기 요청 및 버전 제어 콘텐츠에 대한 중요한 메트릭 외에도 작업 항목에 대해 알 수 있도록 해주는 새로운 대시보드, 보고서, 업데이트된 데이터 집합을 포함합니다. 시작 방법에 대한 자세한 내용은 [Power BI용 Visual Studio Online 콘텐츠 팩 도움말 페이지](service-connect-to-quickbooks-online.md)를 참조하세요.
 
 **2015년 7월 14일**
@@ -611,7 +611,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 7월 7일**
 
-* 가장 많이 기다리고 요청된 기능 중 하나가 이제 Power BI에서 사용할 수 있게 되었습니다. 오늘부터 Power BI에서 SQL Server와 같은 온-프레미스 소스에 연결된 [데이터 집합을 새로 고칠](http://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx) 수 있습니다. 파워 쿼리 또는 파워 피벗을 사용하여 통합 문서로 가져온 데이터로 Power BI Designer 파일 또는 Excel 통합 문서에서 생성된 데이터 세트를 새로 고칠 수 있습니다. 
+* 가장 많이 기다리고 요청된 기능 중 하나가 이제 Power BI에서 사용할 수 있게 되었습니다. 오늘부터 Power BI에서 SQL Server와 같은 온-프레미스 소스에 연결된 [데이터 세트를 새로 고칠](http://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx) 수 있습니다. 파워 쿼리 또는 파워 피벗을 사용하여 통합 문서로 가져온 데이터로 Power BI Designer 파일 또는 Excel 통합 문서에서 생성된 데이터 세트를 새로 고칠 수 있습니다. 
 
 **2015년 6월 30일**
 

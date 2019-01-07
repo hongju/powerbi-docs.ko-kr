@@ -19,7 +19,7 @@ ms.locfileid: "52900224"
 # <a name="template-content-pack-experiences-in-power-bi"></a>Power BI에서 템플릿 콘텐츠 팩 환경
 이 섹션에서는 사용자가 ISV [콘텐츠 팩](service-connect-to-services.md)에 연결하는 일반적인 환경을 강조 표시합니다.
 
- https://app.powerbi.com/getdata/services 에서 릴리스된 콘텐츠 팩에 연결하여 직접 연결해 보세요(예: 아래 설명된 [GitHub 콘텐츠 팩](https://app.powerbi.com/getdata/services/github)).
+https://app.powerbi.com/getdata/services 에서 릴리스된 콘텐츠 팩에 연결하여 직접 연결해 보세요(예: 아래 설명된 [GitHub 콘텐츠 팩](https://app.powerbi.com/getdata/services/github)).
 
 ## <a name="connect"></a>연결
 시작하려면 사용자가 콘텐츠 팩 갤러리를 탐색하여 연결할 콘텐츠 팩을 선택합니다. 콘텐츠 팩 항목에는 이름, 아이콘 및 사용자에게 더 많은 정보를 제공하는 설명 텍스트가 제공됩니다.
@@ -43,7 +43,7 @@ ms.locfileid: "52900224"
 ![연결](media/template-content-pack-experience/github_creds2.png)
 
 ## <a name="instantiation"></a>인스턴스화
-로그인에 성공하면 콘텐츠 팩에 포함된 아티팩트(모델, 보고서 및 대시보드)가 탐색 모음에 나타납니다.  이러한 아티팩트는 각 사용자의 계정에 추가됩니다.  데이터는 비동기적으로 로드되어 데이터 집합(모델)을 채웁니다.  그러면 사용자는 대시보드, 보고서 및 모델을 사용할 수 있습니다.
+로그인에 성공하면 콘텐츠 팩에 포함된 아티팩트(모델, 보고서 및 대시보드)가 탐색 모음에 나타납니다.  이러한 아티팩트는 각 사용자의 계정에 추가됩니다.  데이터는 비동기적으로 로드되어 데이터 세트(모델)를 채웁니다.  그러면 사용자는 대시보드, 보고서 및 모델을 사용할 수 있습니다.
 
 기본적으로 사용자에게는 매일 새로 고침 일정이 구성되어 모델에서 쿼리를 다시 평가합니다.  사용자에게 제공된 자격 증명에서는 표시하지 않고 데이터를 새로 고칠 수 있도록 허용해야 합니다.
 

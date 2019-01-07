@@ -65,7 +65,7 @@ Power BI용 [Salesforce 콘텐츠 팩](https://app.powerbi.com/getdata/services/
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다. =======
 * [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
 >>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
-* 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="system-requirements-and-considerations"></a>시스템 요구 사항 및 고려 사항
 - API에 액세스할 수 있는 프로덕션 Salesforce 계정을 사용하여 연결되어 있어야 합니다.

@@ -19,7 +19,7 @@ ms.locfileid: "48908420"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>조직 콘텐츠 팩: 복사, 새로 고침 및 액세스 권한
 
-조직 콘텐츠 팩이 게시되면 모든 받는 사람에게 동일한 대시보드, 보고서, Excel 통합 문서, 데이터 집합 및 데이터가 표시됩니다(SSAS(SQL Server Analysis Services) 데이터 원본이 아닌 경우).  [콘텐츠 팩 작성자만 콘텐츠 팩을 편집 및 다시 게시](service-organizational-content-pack-manage-update-delete.md)할 수 있습니다.  그러나 모든 받는 사람은 원본과 함께 보관이 가능한 콘텐츠 팩 복사본을 저장할 수 있습니다.
+조직 콘텐츠 팩이 게시되면 모든 받는 사람에게 동일한 대시보드, 보고서, Excel 통합 문서, 데이터 세트 및 데이터가 표시됩니다(SSAS(SQL Server Analysis Services) 데이터 원본이 아닌 경우).  [콘텐츠 팩 작성자만 콘텐츠 팩을 편집 및 다시 게시](service-organizational-content-pack-manage-update-delete.md)할 수 있습니다.  그러나 모든 받는 사람은 원본과 함께 보관이 가능한 콘텐츠 팩 복사본을 저장할 수 있습니다.
 
 콘텐츠 팩을 만드는 것은 대시보드를 공유하거나 그룹 내에서 공동 작업하는 것과 다릅니다. [대시보드 및 보고서를 공동 작업 및 공유하는 방법](service-how-to-collaborate-distribute-dashboards-reports.md)에 대해 알아보고 상황에 맞는 최상의 옵션을 결정하세요.
 
@@ -45,7 +45,7 @@ ms.locfileid: "48908420"
 * **보안 설정 변경**: 대시보드 및 보고서가 온-프레미스 SSAS 데이터 원본에 연결되고 보안 설정이 변경되면 해당 서버에 대한 권한이 취소될 수 있습니다.
 
 ## <a name="how-are-organizational-content-packs-refreshed"></a>조직 콘텐츠 팩이 새로 고침되는 방식
-콘텐츠 팩을 만들면 새로 고침 설정이 데이터 세트와 함께 상속됩니다.  콘텐츠 팩 복사본을 만들면 새 버전은 원본 데이터 집합과 새로 고침 일정에 대한 링크를 유지합니다. 
+콘텐츠 팩을 만들면 새로 고침 설정이 데이터 세트와 함께 상속됩니다.  콘텐츠 팩 복사본을 만들면 새 버전은 원본 데이터 세트와 새로 고침 일정에 대한 링크를 유지합니다. 
 
 [조직 콘텐츠 팩 관리, 업데이트 및 삭제](service-organizational-content-pack-manage-update-delete.md)를 참조하세요.
 

@@ -45,7 +45,7 @@ Power BI는 모든 종류의 서비스에 대한 콘텐츠 팩을 제공합니�
 ![](media/0-3-dashboards-cloud-services/c0a3_8.png)
 
 ## <a name="refreshing-data-in-the-power-bi-service"></a>Power BI 서비스에서 데이터 새로 고침
-콘텐츠 팩의 데이터 집합 또는 Power BI에서 사용하는 다른 데이터에 대해 **새로 고침**을 수행할 수 있습니다. 새로 고침 설정을 지정하려면 데이터 집합 옆의 줄임표(...)를 선택합니다. 그러면 메뉴가 나타납니다.
+콘텐츠 팩의 데이터 세트 또는 Power BI에서 사용하는 다른 데이터에 대해 **새로 고침**을 수행할 수 있습니다. 새로 고침 설정을 지정하려면 데이터 집합 옆의 줄임표(...)를 선택합니다. 그러면 메뉴가 나타납니다.
 
 ![](media/0-3-dashboards-cloud-services/c0a3_9.png)
 

@@ -28,7 +28,7 @@ HR 부서는 업종이나 규모가 다른 경우에도 여러 회사에서 동�
 
 ![](media/sample-human-resources/hr1.png)
 
-이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여 주는 시리즈의 일부입니다. 이 샘플은 익명화된 obviEnce([www.obvience.com](http://www.obvience.com/))의 실제 데이터입니다. 데이터는 콘텐츠 팩/앱, Excel 통합 문서 또는 .pbix Power BI Desktop 파일 등 여러 형식으로 사용할 수 있습니다. 자세한 내용은 [샘플 데이터 집합](sample-datasets.md)을 참조하세요.
+이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여 주는 시리즈의 일부입니다. 이 샘플은 익명화된 obviEnce([www.obvience.com](http://www.obvience.com/))의 실제 데이터입니다. 데이터는 콘텐츠 팩/앱, Excel 통합 문서 또는 .pbix Power BI Desktop 파일 등 여러 형식으로 사용할 수 있습니다. 자세한 내용은 [샘플 데이터 세트](sample-datasets.md)를 참조하세요.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -46,7 +46,7 @@ HR 부서는 업종이나 규모가 다른 경우에도 여러 회사에서 동�
 4. **인적 자원 샘플**을 선택한 다음 **연결**을 선택합니다.  
    
    ![데이터 가져오기](media/sample-human-resources/pbi_hr_sample_connect.png)
-5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 집합을 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 
+5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 세트를 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 
    
    ![별표](media/sample-human-resources/human-resources-sample-asterisk.png)
   

@@ -35,7 +35,7 @@ ms.locfileid: "53180556"
 하이퍼링크를 추가하는 절차는 가져온 데이터인지 또는 DirectQuery를 사용하여 연결된 데이터인지에 따라 달라집니다. 아래에서는 두 시나리오를 모두 설명합니다.
 
 ### <a name="for-data-imported-into-power-bi"></a>Power BI로 가져온 데이터인 경우
-1. 하이퍼링크가 데이터 집합에서 필드로 존재하지 않는 경우 Power BI Desktop을 사용하여 [사용자 지정 열](desktop-common-query-tasks.md)로 추가합니다.
+1. 하이퍼링크가 데이터 세트에서 필드로 존재하지 않는 경우 Desktop을 사용하여 [사용자 지정 열](desktop-common-query-tasks.md)로 추가합니다.
 2. 데이터 보기에서 열을 선택한 다음 **모델링** 탭에서 **데이터 범주** 드롭다운을 선택합니다.
    
     ![데이터 범주 드롭다운 목록](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
@@ -64,7 +64,7 @@ ms.locfileid: "53180556"
 4. (선택 사항) [Desktop에서 Power BI 서비스에 보고서를 게시](guided-learning/publishingandsharing.yml?tutorial-step=2)하고 Power BI 서비스에서 보고서를 엽니다. 하이퍼링크도 이 보고서에서 작동됩니다.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>Excel 파워 피벗에서 표 또는 행렬 하이퍼링크 만들기
-Power BI 테이블 및 행렬에 하이퍼링크를 추가하는 다른 방법은 Power BI에서 해당 데이터 집합에 가져오고 연결하기 전에 하이퍼링크를 만드는 것입니다. 이 예제에서는 Excel 통합 문서를 사용합니다.
+Power BI 테이블 및 행렬에 하이퍼링크를 추가하는 다른 방법은 Power BI에서 해당 데이터 세트에 가져오고 연결하기 전에 하이퍼링크를 만드는 것입니다. 이 예제에서는 Excel 통합 문서를 사용합니다.
 
 1. Excel에서 통합 문서를 엽니다.
 2. **PowerPivot** 탭을 선택한 후 **관리**를 선택합니다.

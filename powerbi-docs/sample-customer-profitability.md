@@ -41,7 +41,7 @@ ms.locfileid: "51717979"
 4. **고객 수익성 샘플**을 선택한 다음 **연결**을 선택합니다.  
 
    ![데이터 가져오기](media/sample-customer-profitability/get-supplier-sample.png)
-5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 집합을 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 샘플을 사용하여 Power BI 실행을 테스트해 보세요.  
+5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 세트를 현재 작업 영역에 추가합니다. 새 콘텐츠에는 노란색 별표가 표시됩니다. 샘플을 사용하여 Power BI 실행을 테스트해 보세요.  
 
    ![별표](media/sample-customer-profitability/supplier-sample-asterisk.png)
 

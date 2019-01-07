@@ -182,7 +182,7 @@ Windows 2000 이전 호환성 액세스 권한이 있는 도메인에는 TGGAU �
 
 계정이 게이트웨이 구성 내에서 데이터 원본의 **사용자** 탭에 나열되는지 확인합니다. 게이트웨이에 대한 액세스가 없는 경우 게이트웨이의 관리자에게 문의하고 확인하도록 요청합니다. **사용자** 목록의 계정에만 Analysis Services 목록에 나열된 데이터 원본이 표시될 수 있습니다.
 
-### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>오류: 이 데이터 집합의 데이터 원본에 대해 설치되거나 구성된 게이트웨이가 없습니다.
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>오류: 이 데이터 세트의 데이터 원본에 대해 설치되거나 구성된 게이트웨이가 없습니다.
 
 [데이터 원본 추가](service-gateway-manage.md#add-a-data-source)에 설명된 대로 하나 이상의 데이터 원본을 게이트웨이에 추가했는지 확인합니다. 게이트웨이가 **게이트웨이 관리** 아래의 관리 포털에 표시되지 않는 경우 브라우저 캐시를 지우거나 서비스에서 로그아웃한 다음, 다시 로그인하세요.
 
@@ -307,7 +307,7 @@ Azure Active Directory UPN이 로컬 Active Directory UPN과 일치하지 않는
 
 ## <a name="reviewing-slow-performing-queries"></a>느린 성능 쿼리 검토
 
-게이트웨이를 통한 응답이 느리다는 것을 알 수 있습니다. 이는 DirectQuery 쿼리 또는 가져온 데이터 집합을 새로 고칠 때 필요할 수 있습니다. 출력 쿼리 및 타이밍에 대한 추가 로깅을 사용하여 느리게 수행되는 항목을 알 수 있습니다. 장기 실행 쿼리를 찾으면 쿼리 성능을 조정하기 위해 데이터 원본에서 추가 수정이 필요할 수 있습니다. 예를 들어, SQL Server 쿼리를 위해 인덱스를 조정합니다.
+게이트웨이를 통한 응답이 느리다는 것을 알 수 있습니다. 이는 DirectQuery 쿼리 또는 가져온 데이터 세트를 새로 고칠 때 필요할 수 있습니다. 출력 쿼리 및 타이밍에 대한 추가 로깅을 사용하여 느리게 수행되는 항목을 알 수 있습니다. 장기 실행 쿼리를 찾으면 쿼리 성능을 조정하기 위해 데이터 원본에서 추가 수정이 필요할 수 있습니다. 예를 들어, SQL Server 쿼리를 위해 인덱스를 조정합니다.
 
 쿼리 기간을 확인하려면 두 개의 구성 파일을 수정해야 합니다.
 
@@ -376,7 +376,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 | --- | --- |
 | MGEQ |ADO.NET을 통해 실행되는 쿼리입니다. 여기에는 DirectQuery 데이터 원본이 포함됩니다. |
 | MGEO |OLEDB를 통해 실행되는 쿼리입니다. 여기에는 SAP HANA 및 Analysis Services 2016이 포함됩니다. |
-| MGEM |매시업 엔진에서 실행되는 쿼리입니다. 가져온 데이터 집합에 사용되어 예약된 새로 고침을 사용하거나 요청 시 새로 고칩니다. |
+| MGEM |매시업 엔진에서 실행되는 쿼리입니다. 가져온 데이터 세트에 사용되어 예약된 새로 고침을 사용하거나 요청 시 새로 고칩니다. |
 
 ### <a name="determine-the-duration-of-a-query"></a>쿼리 지속 시간 확인
 데이터 원본을 쿼리하는 데 걸린 시간을 확인하려면 다음과 같이 수행할 수 있습니다.

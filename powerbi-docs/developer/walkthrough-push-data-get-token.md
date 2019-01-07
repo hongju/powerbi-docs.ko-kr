@@ -17,9 +17,9 @@ ms.lasthandoff: 06/26/2018
 ms.locfileid: "34812632"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2단계: 인증 액세스 토큰 가져오기
-이 문서는 [데이터 집합에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
+이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
-데이터 집합에 데이터 푸시의 **1단계**인 [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)에서는 Azure AD에 클라이언트 앱을 등록했습니다. 이 단계에서는 인증 액세스 토큰을 가져옵니다. Power BI 앱이 **Azure AD** 와 통합되어 보안 로그인 및 앱에 대한 권한 부여를 제공합니다. 토큰을 사용하여 **Azure AD** 에 인증하고 Power BI 리소스에 액세스할 수 있습니다.
+데이터 세트에 데이터 푸시의 **1단계**인 [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)에서는 Azure AD에 클라이언트 앱을 등록했습니다. 이 단계에서는 인증 액세스 토큰을 가져옵니다. Power BI 앱이 **Azure AD** 와 통합되어 보안 로그인 및 앱에 대한 권한 부여를 제공합니다. 토큰을 사용하여 **Azure AD** 에 인증하고 Power BI 리소스에 액세스할 수 있습니다.
 
 인증 액세스 토큰을 가져오는 방법은 다음과 같습니다.
 
@@ -104,9 +104,9 @@ Program {...}에 이 코드를 추가합니다.
        #endregion
 ```
 
-인증 토큰을 가져온 후에는 원하는 Power BI 작업을 호출할 수 있습니다. 다음 단계에서는 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업을 호출하여 대시보드에 데이터를 푸시할 데이터 집합을 만드는 방법을 보여 줍니다.
+인증 토큰을 가져온 후에는 원하는 Power BI 작업을 호출할 수 있습니다. 다음 단계에서는 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업을 호출하여 대시보드에 데이터를 푸시할 데이터 세트를 만드는 방법을 보여 줍니다.
 
-다음 단계에서는 [Power BI에서 데이터 집합을 만드는](walkthrough-push-data-create-dataset.md) 방법을 보여 줍니다.
+다음 단계에서는 [Power BI에서 데이터 세트를 만드는](walkthrough-push-data-create-dataset.md) 방법을 보여 줍니다.
 
 다음은 [전체 코드 목록](#code)입니다.
 

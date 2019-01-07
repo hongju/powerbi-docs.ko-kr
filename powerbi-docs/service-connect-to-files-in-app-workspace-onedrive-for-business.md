@@ -47,7 +47,7 @@ ms.locfileid: "48908700"
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
-## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Excel 파일을 데이터 집합 또는 Excel 온라인 통합 문서로 가져오기
+## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Excel 파일을 데이터 세트 또는 Excel 온라인 통합 문서로 가져오기
 이제 앱 작업 영역에 대한 비즈니스용 OneDrive에 파일이 있으므로 선택할 수 있는 사항이 있습니다. 다음을 할 수 있습니다. 
 
 * [Excel 통합 문서의 데이터를 데이터 집합으로 가져오고](service-get-data-from-files.md) 데이터를 사용하여 웹 브라우저 및 모바일 장치에서 볼 수 있는 보고서와 대시보드를 빌드합니다.

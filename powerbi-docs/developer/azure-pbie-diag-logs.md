@@ -24,7 +24,7 @@ ms.locfileid: "40126627"
 * 장기 실행 또는 문제가 있는 쿼리 검색.
 * 용량 제한에 도달할 때 오류 검색.
 * [용량 메트릭](https://powerbi.microsoft.com/blog/power-bi-developer-community-april-update/) 파생.
-* 특정 데이터 집합의 사용량 추적.
+* 특정 데이터 세트의 사용량 추적.
 
 ## <a name="set-up-diagnostics-logging"></a>진단 로깅 설정
 
@@ -140,7 +140,7 @@ PowerShell을 사용하여 메트릭 및 진단 로깅을 사용하도록 설정
 | 오류 | 0 | 지정된 이벤트의 오류 번호입니다. |
 | TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes): 850 6800] | 이벤트와 관련된 텍스트 데이터입니다. |
 | ConnectionID | 3 | 고유한 연결 ID입니다. |
-| DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | 사용자의 문이 실행 중인 데이터 집합의 ID입니다. |
+| DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | 사용자의 명령문이 실행 중인 데이터 세트의 ID입니다. |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | 세션 GUID입니다. |
 | SPID | 180 | 서버 프로세스 ID입니다. 사용자 세션을 고유하게 식별합니다. 이는 XML/A에서 사용하는 세션 GUID에 해당합니다. |
 | ClientProcessID | null | 클라이언트 애플리케이션의 프로세스 ID입니다. |

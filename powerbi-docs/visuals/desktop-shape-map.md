@@ -80,7 +80,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ![](media/desktop-shape-map/shape-map_7b.png)
 
-이 데이터 집합 및 시각화를 실험하려는 경우 다음 링크를 사용하여 이 보고서를 생성하는 데 사용된 원본 PBIX 파일을 다운로드할 수 있습니다.
+이 데이터 세트 및 시각화를 실험하려는 경우 다음 링크를 사용하여 이 보고서를 생성하는 데 사용된 원본 PBIX 파일을 다운로드할 수 있습니다.
 
 * [도형 맵 데모 .PBIX 파일 사용자 지정](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 

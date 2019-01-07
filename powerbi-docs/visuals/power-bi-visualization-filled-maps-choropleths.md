@@ -125,7 +125,7 @@ Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 �
 
 ![시각화 및 필드 창](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
 
-Power BI Desktop의 데이터 집합을 편집할 수 있는 권한이 있는 경우 지도 모호성을 해결하는 도움말은 이 비디오를 시청하세요.
+Power BI Desktop의 데이터 세트를 편집할 수 있는 권한이 있는 경우 지도 모호성을 해결하는 도움말은 이 비디오를 시청하세요.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Co2z9b-s_yM" frameborder="0" allowfullscreen></iframe>
 

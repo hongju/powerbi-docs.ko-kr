@@ -1,5 +1,5 @@
 ---
-title: 대시보드, 보고서, 통합 문서, 데이터 집합 또는 작업 영역 삭제
+title: 대시보드, 보고서, 통합 문서, 데이터 세트 또는 작업 영역 삭제
 description: Power BI에서 거의 모든 요소를 삭제하는 방법을 알아봅니다.
 author: maggiesMSFT
 manager: kfile
@@ -18,14 +18,14 @@ ms.lasthandoff: 11/16/2018
 ms.locfileid: "51717450"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 요소 삭제
-이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 통합 문서, 데이터 집합, 앱, 시각화 및 작업 영역을 삭제하는 방법을 안내합니다.
+이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 통합 문서, 데이터 세트, 앱, 시각화 및 작업 영역을 삭제하는 방법을 안내합니다.
 
 ## <a name="delete-a-dashboard"></a>대시보드 삭제
 대시보드를 제거할 수 있습니다. 대시보드를 제거해도 기본 데이터 세트 또는 해당 대시보드와 연결된 보고서가 삭제되지 않습니다.
 
 * 대시보드의 소유자인 경우 대시보드를 제거할 수 있습니다. 동료와 대시보드를 공유한 경우 Power BI 작업 영역에서 대시보드를 제거하면 동료의 Power BI 작업 영역에서 해당 대시보드가 제거됩니다.
 * 대시보드가 공유되지만 더 이상 보고 싶지 않은 경우 제거할 수 있습니다.  대시보드를 제거해도 다른 사람의 Power BI 작업 영역에서는 제거되지 않습니다.
-* 대시보드가 [조직 콘텐츠 팩](service-organizational-content-pack-disconnect.md)에 포함된 경우 제거하는 유일한 방법은 연결된 데이터 집합을 제거하는 것입니다.
+* 대시보드가 [조직 콘텐츠 팩](service-organizational-content-pack-disconnect.md)에 포함된 경우 제거하는 유일한 방법은 연결된 데이터 세트를 제거하는 것입니다.
 
 ### <a name="to-delete-a-dashboard"></a>대시보드를 삭제하려면
 1. 작업 영역에서 **대시보드** 탭을 선택합니다.
@@ -64,16 +64,16 @@ ms.locfileid: "51717450"
 
    ![통합 문서 제거 대화 상자](media/service-delete/power-bi-delete-confirm.png)
 
-## <a name="delete-a-dataset"></a>데이터 집합 삭제
-데이터 세트를 삭제할 수 있습니다. 그러나 데이터 집합을 삭제하면 해당 데이터 집합의 데이터가 포함된 모든 보고서와 대시보드 타일도 삭제됩니다.
+## <a name="delete-a-dataset"></a>데이터 세트 삭제
+데이터 세트를 삭제할 수 있습니다. 그러나 데이터 세트를 삭제하면 해당 데이터 세트의 데이터가 포함된 모든 보고서와 대시보드 타일도 삭제됩니다.
 
-데이터 집합이 하나 이상의 [조직 콘텐츠 팩](service-organizational-content-pack-disconnect.md)에 속해 있는 경우 삭제하는 유일한 방법은 사용 중인 콘텐츠 팩에서 제거하는 것입니다. 따라서 처리될 때까지 기다린 후 다시 삭제를 시도해 보세요.
+데이터 세트가 하나 이상의 [조직 콘텐츠 팩](service-organizational-content-pack-disconnect.md)에 속해 있는 경우 삭제하는 유일한 방법은 사용 중인 콘텐츠 팩에서 제거하는 것입니다. 따라서 처리될 때까지 기다린 후 다시 삭제를 시도해 보세요.
 
-### <a name="to-delete-a-dataset"></a>데이터 집합에서 삭제하려면
-1. 작업 영역에서 **데이터 집합** 탭을 선택합니다.
-2. 삭제할 보고서를 찾은 후 줄임표(...)를 선택합니다.  
+### <a name="to-delete-a-dataset"></a>데이터 세트에서 삭제하려면
+1. 작업 영역에서 **데이터 세트** 탭을 선택합니다.
+2. 삭제할 데이터 세트를 찾고 줄임표(...)를 선택합니다.  
 
-    ![데이터 집합 탭](media/service-delete/power-bi-delete-datasetnew.png)
+    ![데이터 세트 탭](media/service-delete/power-bi-delete-datasetnew.png)
 3. 드롭다운 목록에서 **삭제**를 선택합니다.
 
    ![줄임표 메뉴](media/service-delete/power-bi-delete-datasetnew2.png)

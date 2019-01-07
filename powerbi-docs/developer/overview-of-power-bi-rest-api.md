@@ -65,7 +65,7 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 
 ## <a name="push-data-into-power-bi"></a>Power BI로 데이터 푸시
 
-Power BI API를 사용하여 데이터를 데이터 집합에 푸시할 수 있습니다. 이 기능을 사용하여 데이터 집합 내 테이블에 행을 추가할 수 있습니다. 그러면 새 데이터가 대시보드의 타일과 보고서 내 시각적 개체에 반영될 수 있습니다.
+Power BI API를 사용하여 데이터를 데이터 세트에 푸시할 수 있습니다. 이 기능을 사용하여 데이터 세트 내 테이블에 행을 추가할 수 있습니다. 그러면 새 데이터가 대시보드의 타일과 보고서 내 시각적 개체에 반영될 수 있습니다.
 
 ![데이터 푸시 샘플](media/what-can-you-do/powerbi-push-data.png)
 

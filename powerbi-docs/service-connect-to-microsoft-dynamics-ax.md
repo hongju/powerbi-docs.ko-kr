@@ -49,7 +49,7 @@ Microsoft Dynamics AX [소매 채널 실적](https://app.powerbi.com/getdata/ser
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용
 콘텐츠 팩은 Dynamics AX 7 OData 피드를 사용하여 각각 소매 채널, 재무 및 비용 관리 실적에 각각 관련된 데이터를 가져옵니다.

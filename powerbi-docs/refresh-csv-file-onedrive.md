@@ -18,9 +18,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/07/2018
 ms.locfileid: "53025537"
 ---
-# <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 있는 .CSV 파일에서 만든 데이터 집합 새로 고침
+# <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 있는 .CSV 파일에서 만든 데이터 세트 새로 고침
 ## <a name="what-are-the-advantages"></a>장점은 무엇인가요?
-OneDrive 또는 SharePoint Online의 .csv 파일에 연결하면 Power BI에 데이터 집합이 생성됩니다. .csv 파일에서 데이터를 Power BI의 데이터 세트로 가져옵니다. Power BI는 자동으로 파일에 연결되고 Power BI에서 데이터 세트의 변경 내용을 새로 고칩니다. OneDrive 또는 SharePoint Online에서 .csv 파일을 편집하는 경우 한 번 저장하면 해당 변경 내용이 Power BI에서 일반적으로 약 1시간 내에 표시됩니다. 데이터 세트에 기반한 Power BI의 시각화는 자동으로 업데이트됩니다.
+OneDrive 또는 SharePoint Online의 .csv 파일에 연결하면 Power BI에 데이터 세트가 생성됩니다. .csv 파일에서 데이터를 Power BI의 데이터 세트로 가져옵니다. Power BI는 자동으로 파일에 연결되고 Power BI에서 데이터 세트의 변경 내용을 새로 고칩니다. OneDrive 또는 SharePoint Online에서 .csv 파일을 편집하는 경우 한 번 저장하면 해당 변경 내용이 Power BI에서 일반적으로 약 1시간 내에 표시됩니다. 데이터 세트에 기반한 Power BI의 시각화는 자동으로 업데이트됩니다.
 
 파일이 비즈니스용 OneDrive 또는 SharePoint Online의 공유 폴더에 있는 경우 다른 사용자가 동일한 파일을 작업할 수 있습니다. 한 번 저장되면 변경 내용은 Power BI에서 일반적으로 1시간 내에 자동으로 업데이트됩니다.
 

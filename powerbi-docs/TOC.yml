@@ -1000,7 +1000,7 @@ items:
         href: developer/overview-of-power-bi-rest-api.md
     - name: 자습서
       items:
-      - name: 데이터 집합에 데이터 푸시
+      - name: 데이터 세트에 데이터 푸시
         href: developer/walkthrough-push-data.md
     - name: 개념
       items:
@@ -1010,7 +1010,7 @@ items:
         items:
         - name: Power BI REST API 제한 사항
           href: developer/api-rest-api-limitations.md
-        - name: 데이터 집합 속성
+        - name: 데이터 세트 속성
           href: developer/api-dataset-properties.md
         - name: 데이터 모델 버전 관리
           href: developer/api-data-model-versioning.md
@@ -1108,7 +1108,7 @@ items:
         href: paginated-reports-enter-data.md
       - name: KPI 작업
         href: https://go.microsoft.com/fwlink/?linkid=849021
-      - name: 'OData 피드로 공유 데이터 집합에 액세스 '
+      - name: 'OData 피드로 공유 데이터 세트에 액세스 '
         href: report-server/access-dataset-odata.md
       - name: 예약된 새로 고침 구성
         href: report-server/configure-scheduled-refresh.md
@@ -1224,7 +1224,7 @@ items:
         href: service-admin-premium-monitor-capacity.md
       - name: 프리미엄 용량 다시 시작
         href: service-admin-premium-restart.md
-      - name: 대형 데이터 집합 지원
+      - name: 대형 데이터 세트 지원
         href: service-premium-large-datasets.md
       - name: 증분 새로 고침
         href: service-premium-incremental-refresh.md

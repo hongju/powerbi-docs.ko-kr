@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI Desktop 시작
 description: Power BI Desktop 시작
 author: davidiseminger
@@ -281,7 +281,7 @@ Power BI에 로그인하라는 메시지가 표시될 수 있습니다.
 
 ![](media/desktop-getting-started/gsg_syw_3.png)
 
-Power BI에 로그인하면 방금 서비스의 **대시보드**, **보고서**및 **데이터 집합** 섹션에서 로드한 Power BI Desktop 파일이 표시됩니다.
+Power BI에 로그인하면 방금 전에 로드한 Power BI Desktop 파일이 서비스의 **대시보드**, **보고서**및 **데이터 세트** 섹션에 표시됩니다.
 
 작업 내용을 공유하는 또 다른 방법은 **Power BI** 서비스에서 작업 내용을 로드하는 것입니다. 다음 링크를 클릭하면 **Power BI** 서비스가 브라우저에 표시됩니다.
 

@@ -26,7 +26,7 @@ ms.locfileid: "51717204"
 이를 수행하려면 [소매점 분석 샘플 대시보드](sample-retail-analysis.md)를 여세요.
 
 
-1. 보고서에서 고정된 타일이 하나 이상 있는 [대시보드](consumer/end-user-dashboards.md)를 엽니다. 질문하면 Power BI는 해당 대시보드에 고정된 타일이 있는 데이터 집합에서 답변을 찾습니다.  자세한 내용은 [데이터 가져오기](service-get-data.md)를 참조하세요.
+1. 보고서에서 고정된 타일이 하나 이상 있는 [대시보드](consumer/end-user-dashboards.md)를 엽니다. 질문하면 Power BI는 해당 대시보드에 고정된 타일이 있는 데이터 세트에서 답변을 찾습니다.  자세한 내용은 [데이터 가져오기](service-get-data.md)를 참조하세요.
 2. 대시보드 맨 위에 있는 질문 상자에 데이터에 대해 알고 싶은 내용을 입력하기 시작합니다.  
    ![질문 및 답변 질문하기 상자](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. 예를 들어 "last year sales by month and territory(지난 해 월별 및 지역별 판매액)"...을 입력합니다.  

@@ -35,9 +35,9 @@ ms.locfileid: "47417375"
 
 ![](media/refresh-data/dataset-menu.png)
 
-데이터 세트는 하나 이상의 데이터 원본에서 데이터를 가져올 수 있습니다. 예를 들어, Power BI 데스크톱을 사용하여 조직 내 SQL 데이터베이스에서 데이터를 가져오고, OData 피드 온라인에서 다른 데이터를 가져올 수 있습니다. 그런 다음 Power BI에 파일을 게시하면, 하나의 데이터 집합이 만들어지지만 SQL 데이터베이스와 OData 피드 모두에 대한 데이터 원본을 가지게 됩니다.
+데이터 세트는 하나 이상의 데이터 원본에서 데이터를 가져올 수 있습니다. 예를 들어, Power BI 데스크톱을 사용하여 조직 내 SQL 데이터베이스에서 데이터를 가져오고, OData 피드 온라인에서 다른 데이터를 가져올 수 있습니다. 그런 다음, Power BI에 파일을 게시하면 하나의 데이터 세트가 만들어지지만 SQL Database와 OData 피드 모두에 대한 데이터 원본을 가지게 됩니다.
 
-데이터 세트는 데이터 원본, 데이터 원본 자격 증명, 그리고 대부분의 경우 데이터 원본에서 복사한 데이터의 하위 세트를 포함합니다. 보고서 및 대시보드에서 시각화를 만들면, 데이터 집합의 데이터를 볼 수 있거나, Azure SQL 데이터베이스와 같은 라이브 연결의 경우 데이터 집합은 데이터 원본에서 바로 볼 수 있는 데이터를 정의합니다. Analysis Services에 대한 라이브 연결의 경우 데이터 세트 정의는 Analysis Services에서 직접 가져옵니다.
+데이터 세트는 데이터 원본, 데이터 원본 자격 증명, 그리고 대부분의 경우 데이터 원본에서 복사한 데이터의 하위 세트를 포함합니다. 보고서 및 대시보드에서 시각화를 만들면, 데이터 세트의 데이터를 볼 수 있거나, Azure SQL Database와 같은 라이브 연결의 경우 데이터 세트는 데이터 원본에서 바로 볼 수 있는 데이터를 정의합니다. Analysis Services에 대한 라이브 연결의 경우 데이터 세트 정의는 Analysis Services에서 직접 가져옵니다.
 
 > *데이터를 새로 고칠 경우 데이터 원본에서 Power BI에 저장된 데이터 집합의 데이터를 업데이트합니다. 이 새로 고침은 증분이 아닌 전체 새로 고침입니다.*
 > 
@@ -161,12 +161,12 @@ Adobe Analytics, SalesForce, Dynamics CRM Online와 같은 **온라인 서비스
 ## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>온-프레미스 데이터 원본에 라이브 연결 및 DirectQuery
 온-프레미스 데이터 게이트웨이를 사용하면 Power BI에서 온-프레미스 데이터 원본에 쿼리를 실행할 수 있습니다. 시각화와 상호 작용할 때, 쿼리는 Power BI에서 데이터베이스에 직접 전송됩니다. 그런 다음 업데이트된 데이터가 반환되고 시각화가 업데이트됩니다. Power BI와 데이터베이스가 직접 연결되어 있기 때문에, 새로 고침 일정을 설정할 필요가 없습니다.
 
-DirectQuery와 달리 라이브 연결을 사용하여 SSAS(SQL Service Analysis Services) 데이터 원본에 연결하면 SSAS 원본에 대한 라이브 연결이 보고서 로드 시에도 캐시에 대해 실행될 수 있습니다. 이 동작은 보고서의 로드 성능을 향상시킵니다. **새로 고침** 단추를 사용하여 SSAS 데이터 원본의 최신 데이터를 요청할 수 있습니다. SSAS 데이터 원본 소유자는 보고서가 필요한 최신 상태를 유지할 수 있도록 데이터 집합에 대해 예약된 캐시 새로 고침 빈도를 구성할 수 있습니다. 
+DirectQuery와 달리 라이브 연결을 사용하여 SSAS(SQL Service Analysis Services) 데이터 원본에 연결하면 SSAS 원본에 대한 라이브 연결이 보고서 로드 시에도 캐시에 대해 실행될 수 있습니다. 이 동작은 보고서의 로드 성능을 향상시킵니다. **새로 고침** 단추를 사용하여 SSAS 데이터 원본의 최신 데이터를 요청할 수 있습니다. SSAS 데이터 원본 소유자는 보고서가 필요한 최신 상태를 유지할 수 있도록 데이터 세트에 대해 예약된 캐시 새로 고침 빈도를 구성할 수 있습니다. 
 
 온-프레미스 데이터 게이트웨이로 데이터 원본을 구성하면 해당 데이터 원본을 예약된 새로 고침 옵션으로 사용할 수 있습니다. 개인 게이트웨이를 사용하는 대신입니다.
 
 > [!NOTE]
-> 라이브 또는 DirectQuery 연결에 데이터 집합을 구성한 경우 한 시간마다 또는 데이터와 상호 작용에서 발생할 때 데이터 집합이 새로 고쳐집니다. Power BI 서비스의 *예정된 캐시 새로 고침* 옵션에서 *새로 고침 빈도*를 수동으로 조정할 수 있습니다.
+> 라이브 또는 DirectQuery 연결에 데이터 세트를 구성한 경우 한 시간마다 또는 데이터와 상호 작용에서 발생할 때 데이터 세트가 새로 고쳐집니다. Power BI 서비스의 *예정된 캐시 새로 고침* 옵션에서 *새로 고침 빈도*를 수동으로 조정할 수 있습니다.
 > 
 > 
 
@@ -190,11 +190,11 @@ DirectQuery를 사용하여 클라우드의 Power BI와 데이터베이스 사�
 
 ![](media/refresh-data/refresh-data_2.png)
 
-빈도를 조정하려는 데이터 집합을 선택할 수 있는 **설정** 페이지가 나타납니다. 해당 페이지에서 위에 있는 **데이터 집합** 탭을 선택합니다.
+빈도를 조정하려는 데이터 세트를 선택할 수 있는 **설정** 페이지가 나타납니다. 해당 페이지에서 위에 있는 **데이터 세트** 탭을 선택합니다.
 
 ![](media/refresh-data/refresh-data_3.png)
 
-데이터 집합을 선택하면 오른쪽 창에서 해당 데이터 집합에 대한 옵션 컬렉션이 표시됩니다. DirectQuery/라이브 연결의 경우 다음 이미지에 나와 있는 것처럼 연결된 드롭다운 메뉴를 사용하여 새로 고침 빈도를 15분에서 매주 사이로 설정할 수 있습니다.
+데이터 세트를 선택하면 오른쪽 창에서 해당 데이터 세트에 대한 옵션 컬렉션이 표시됩니다. DirectQuery/라이브 연결의 경우 다음 이미지에 나와 있는 것처럼 연결된 드롭다운 메뉴를 사용하여 새로 고침 빈도를 15분에서 매주 사이로 설정할 수 있습니다.
 
 ![](media/refresh-data/refresh-data_1.png)
 
@@ -221,11 +221,11 @@ Power BI에서 데이터 새로 고침에 대해 가장 좋은 학습 방법은 
 ### <a name="excel-workbook-with-tables-of-data"></a>데이터의 테이블이 포함된 Excel 통합 문서
 몇 가지 데이터의 테이블이 포함된 Excel 통합 문서가 있지만, 그 중 어떤 테이블도 Excel 데이터 모델에 로드되지 않습니다. 데이터 가져오기를 사용하여 로컬 드라이브의 통합 문서 파일을 Power BI에 업로드하고 대시보드를 만듭니다. 그러나 이제 로컬 드라이브의 몇 개의 통합 문서의 테이블을 일부 변경했고, 새 데이터로 Power BI의 대시보드를 업데이트하려 합니다.
 
-하지만, 이 시나리오에서는 새로 고침이 지원되지 않습니다. 대시보드에 대한 데이터 집합을 새로 고치려면 통합 문서를 다시 업로드해야 합니다. 그러나 통합 문서 파일을 OneDrive 또는 SharePoint Online에 배치하는 것이 가장 좋은 방법입니다.
+하지만, 이 시나리오에서는 새로 고침이 지원되지 않습니다. 대시보드에 대한 데이터 세트를 새로 고치려면 통합 문서를 다시 업로드해야 합니다. 그러나 통합 문서 파일을 OneDrive 또는 SharePoint Online에 배치하는 것이 가장 좋은 방법입니다.
 
 OneDrive 또는 SharePoint Online에 있는 파일에 연결하면 보고서와 대시보드는 파일에 있는 그대로 데이터를 표시합니다. 이 경우, 이는 Excel 통합 문서입니다. Power BI는 업데이트에 대한 매시간 마다 파일을 자동으로 검사합니다. 통합 문서(OneDrive 또는 SharePoint Online에 저장됨)를 변경한 경우, 이러한 변경 내용은 한 시간 내에 대시보드 및 보고서에 반영됩니다. 새로 고침을 전혀 설정하지 않아도 됩니다. 그러나 Power BI에서 업데이트를 즉시 확인해야 하는 경우, 지금 새로 고침을 사용하여 데이터 세트를 수동으로 새로 고칠 수 있습니다.
 
-자세히 알아보려면 [Power BI의 Excel 데이터](service-excel-workbook-files.md) 또는 [OneDrive의 Excel 통합 문서에서 만들어진 데이터 집합 새로 고침](refresh-excel-file-onedrive.md)을 참조하세요.
+자세히 알아보려면 [Power BI의 Excel 데이터](service-excel-workbook-files.md) 또는 [OneDrive의 Excel 통합 문서에서 만들어진 데이터 세트 새로 고침](refresh-excel-file-onedrive.md)을 참조하세요.
 
 ### <a name="excel-workbook-connects-to-a-sql-database-in-your-company"></a>Excel 통합 문서를 회사의 SQL 데이터베이스에 연결
 로컬 컴퓨터에 SalesReport.xlsx 라는 Excel 통합 문서를 있다고 가정해봅시다. Excel의 파워 쿼리는 회사 서버의 SQL 데이터베이스에 연결하고 데이터 모델에 로드된 판매 데이터에 대해 쿼리하는 데 사용되었습니다. 매일 아침, 통합 문서를 열어 PivotTables를 업데이트하도록 새로 고침을 누릅니다.
@@ -235,11 +235,11 @@ OneDrive 또는 SharePoint Online에 있는 파일에 연결하면 보고서와 
 이 경우, SalesReport.xlsx 데이터 세트의 데이터를 수동으로 새로 고치거나 새로 고침 일정을 설정할 수 있습니다. 실제로 회사의 SQL 데이터베이스에서 데이터를 가져오기 때문에, 게이트웨이를 다운로드하여 설치해야 합니다. 게이트웨이를 설치하고 구성했으면, SalesReport 데이터 세트의 설정으로 이동하여 데이터 원본에 로그인해야 합니다. 하지만 이 작업을 한 번만 수행하면 됩니다. 그러면 Power BI가 SQL 데이터베이스에 연결하여 업데이트된 데이터를 가져올 수 있도록 새로 고침 일정을 설정할 수 있습니다. 보고서와 대시보드도 자동으로 업데이트됩니다.
 
 > [!NOTE]
-> Power BI 서비스의 데이터 집합 내에서 데이터를 업데이트합니다. 로컬 파일은 새로 고침의 일환으로 업데이트되지 않습니다.
+> Power BI 서비스의 데이터 세트 내에서 데이터를 업데이트합니다. 로컬 파일은 새로 고침의 일환으로 업데이트되지 않습니다.
 > 
 > 
 
-자세한 내용은 [Power BI의 Excel 데이터](service-excel-workbook-files.md), [Power BI Gateway - Personal](service-gateway-personal-mode.md), [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md), [로컬 드라이브에 있는 Excel 통합 문서로부터 만들어진 데이터 집합 새로 고침](refresh-excel-file-local-drive.md)을 참조하세요.
+자세한 내용은 [Power BI의 Excel 데이터](service-excel-workbook-files.md), [Power BI Gateway - Personal](service-gateway-personal-mode.md), [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md), [로컬 드라이브에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침](refresh-excel-file-local-drive.md)을 참조하세요.
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>OData 피드의 데이터가 포함된 Power BI 데스크톱 파일
 이 경우, Power BI 데스크톱에서 데이터 가져오기를 사용하여 OData 피드에 연결하여 인구 데이터를 가져옵니다.  Power BI 데스크톱에서 몇 개의 보고서를 만든 다음, WACensus라고 파일 이름을 정하고 회사의 공유 폴더에 저장합니다. 그런 다음 Power BI 서비스에 파일을 게시합니다.

@@ -67,7 +67,7 @@ iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
   
    ![소매점 분석 샘플](./media/mobile-apps-ios-qna/retail16.png)
    
-5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 집합을 현재 작업 영역에 추가합니다.
+5. Power BI에서 콘텐츠 팩을 가져와 새 대시보드, 보고서 및 데이터 세트를 현재 작업 영역에 추가합니다.
    
    ![소매점 분석 샘플](./media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
 
@@ -139,7 +139,7 @@ Apple iOS 개발자 가이드의 [iOS의 새로운 기능](https://go.microsoft.
 ### <a name="how-to-ask-questions"></a>질문하는 방법
 * iOS 모바일 앱의 Power BI 서비스 또는 질문 및 답변 가상 분석가에서 이러한 [질문 및 답변에서 질문하기 팁](../end-user-q-and-a-tips.md)을 따르세요.
 
-### <a name="how-to-enhance-the-dataset"></a>데이터 집합을 향상시키는 방법
+### <a name="how-to-enhance-the-dataset"></a>데이터 세트를 향상시키는 방법
 * Power BI Desktop 또는 Power BI 서비스에서 데이터 집합을 향상시켜 [데이터가 질문 및 답변과 질문 및 답변 가상 분석가에서 잘 작동하도록](../../service-prepare-data-for-q-and-a.md) 합니다.
 
 ## <a name="next-steps"></a>다음 단계

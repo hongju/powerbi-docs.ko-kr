@@ -1,5 +1,5 @@
 ## <a name="using-the-username-or-userprincipalname-dax-function"></a>username() 또는 userprincipalname() DAX 함수 사용
-데이터 집합 내에서 DAX 함수 *username()* 또는 *userprincipalname()* 을 사용할 수 있습니다. Power BI Desktop의 식 내에서 사용할 수 있습니다. 모델을 게시하면 Power BI 서비스 내에서 사용됩니다.
+데이터 세트 내에서 DAX 함수 *username()* 또는 *userprincipalname()* 을 사용할 수 있습니다. Power BI Desktop의 식 내에서 사용할 수 있습니다. 모델을 게시하면 Power BI 서비스 내에서 사용됩니다.
 
 Power BI Desktop 내에서 *username ()* 은 사용자를 *DOMAIN\User* 형식으로 반환하며, *userprincipalname()* 은 사용자를 <em>user@contoso.com</em> 형식으로 반환합니다.
 

@@ -1,6 +1,6 @@
 ---
 title: '데이터 세트에서 새 보고서 만들기 '
-description: 데이터 집합에서 새 Power BI 보고서를 만듭니다.
+description: 데이터 세트에서 새 Power BI 보고서를 만듭니다.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -17,15 +17,15 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/04/2018
 ms.locfileid: "52830187"
 ---
-# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>데이터 집합을 가져와 Power BI 서비스에서 새 보고서 만들기
-지금까지 [Power BI의 보고서](consumer/end-user-reports.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 아주 다양한 방법으로 보고서를 만들 수 있으며 이 문서에서는 Power BI 서비스를 사용하여 Excel 데이터 집합에서 매우 기본적인 보고서를 만드는 것으로 시작하겠습니다. 보고서를 만들기 위한 기본 사항을 이해하고 나면 맨 아래의 **다음 단계**가 더 높은 수준의 보고서 항목으로 안내합니다.  
+# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>데이터 세트를 가져와 Power BI 서비스에서 새 보고서 만들기
+지금까지 [Power BI의 보고서](consumer/end-user-reports.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 아주 다양한 방법으로 보고서를 만들 수 있으며 이 문서에서는 Power BI 서비스를 사용하여 Excel 데이터 세트에서 매우 기본적인 보고서를 만드는 것으로 시작하겠습니다. 보고서를 만들기 위한 기본 사항을 이해하고 나면 맨 아래의 **다음 단계**가 더 높은 수준의 보고서 항목으로 안내합니다.  
 
 ## <a name="prerequisites"></a>필수 조건
 > - Power BI Desktop을 사용하여 보고서를 만들기 위한 Power BI 서비스는 [Desktop 보고서 보기](desktop-report-view.md)를 참조하세요.  
-> - 소매점 분석 샘플 데이터 집합
+> - 소매점 분석 샘플 데이터 세트
 
-## <a name="import-the-dataset"></a>데이터 집합 가져오기
-이 방법에서는 데이터 집합과 빈 보고서 캔버스를 사용하여 보고서 만들기를 시작합니다. 과정을 따라 하려면 [소매점 분석 샘플 정보 Excel 데이터 집합](http://go.microsoft.com/fwlink/?LinkId=529778)을 다운로드하여 비즈니스용 OneDrive(기본) 또는 로컬에 저장합니다.
+## <a name="import-the-dataset"></a>데이터 세트 가져오기
+이 방법에서는 데이터 세트와 빈 보고서 캔버스를 사용하여 보고서 만들기를 시작합니다. 과정을 따라 하려면 [소매점 분석 샘플 정보 Excel 데이터 세트](http://go.microsoft.com/fwlink/?LinkId=529778)를 다운로드하여 비즈니스용 OneDrive(기본) 또는 로컬에 저장합니다.
 
 1. Power BI 서비스 작업 영역에서 보고서를 만들 것이므로 기존 작업 영역을 선택하거나 새 작업 영역을 만듭니다.
    
@@ -39,10 +39,10 @@ ms.locfileid: "52830187"
 4. 이 연습에서는 **가져오기**를 선택합니다.
    
    ![가져오기 선택](media/service-report-create-new/power-bi-import.png)
-5. 데이터 집합을 가져온 후 선택 **데이터 집합 보기**를 선택합니다.
+5. 데이터 세트를 가져온 후 **데이터 세트 보기**를 선택합니다.
    
-   ![데이터 집합 보기 선택](media/service-report-create-new/power-bi-view-dataset.png)
-6. 데이터 집합을 볼 때는 실제로 보고서 편집기가 열립니다.  빈 캔버스 및 보고서 편집 도구를 볼 수 있습니다.
+   ![데이터 세트 보기 선택](media/service-report-create-new/power-bi-view-dataset.png)
+6. 데이터 세트를 볼 때는 실제로 보고서 편집기가 열립니다.  빈 캔버스 및 보고서 편집 도구를 볼 수 있습니다.
    
    ![보고서 편집기](media/service-report-create-new/power-bi-blank-report.png)
 
@@ -51,7 +51,7 @@ ms.locfileid: "52830187"
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>보고서에 방사형 계기 추가
-이제 데이터 집합을 가져왔으므로 몇 가지 질문에 답해 보겠습니다.  우리의 CMO(최고 마케팅 책임자)는 올해의 영엽 목표를 얼마나 달성했는지 알고 싶어 합니다. 계기는 이런 정보 유형을 표시하기에 [좋은 시각화 선택](visuals/power-bi-report-visualizations.md)입니다.
+이제 데이터 세트를 가져왔으므로 몇 가지 질문에 답해 보겠습니다.  우리의 CMO(최고 마케팅 책임자)는 올해의 영엽 목표를 얼마나 달성했는지 알고 싶어 합니다. 계기는 이런 정보 유형을 표시하기에 [좋은 시각화 선택](visuals/power-bi-report-visualizations.md)입니다.
 
 1. 필드 창에서 **판매액** > **올해 판매액** > **값**을 선택합니다.
    

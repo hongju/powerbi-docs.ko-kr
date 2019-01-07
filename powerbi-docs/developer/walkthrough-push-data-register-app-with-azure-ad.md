@@ -1,6 +1,6 @@
 ---
 title: Azure AD에 앱 등록
-description: 연습 - 데이터 집합에 데이터 푸시 - Azure AD에 앱 등록
+description: 연습 - 데이터 세트에 데이터 푸시 - Azure AD에 앱 등록
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
@@ -17,9 +17,9 @@ ms.lasthandoff: 08/02/2018
 ms.locfileid: "34285971"
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>1단계: Azure AD에 앱 등록
-이 문서는 [데이터 집합에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
+이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
-Power BI 데이터 집합에 데이터를 푸시하는 첫 번째 단계는 Azure AD에 앱을 등록하는 것입니다. 먼저 이렇게 해야만 Azure AD에서 앱을 식별하는 **클라이언트 ID** 를 얻을 수 있습니다. **클라이언트 ID**가 없으면 Azure AD에서 앱을 인증할 수 없습니다.
+Power BI 데이터 세트에 데이터를 푸시하는 첫 번째 단계는 Azure AD에 앱을 등록하는 것입니다. 먼저 이렇게 해야만 Azure AD에서 앱을 식별하는 **클라이언트 ID** 를 얻을 수 있습니다. **클라이언트 ID**가 없으면 Azure AD에서 앱을 인증할 수 없습니다.
 
 > **참고**: Power BI에 앱을 등록하기 전에, [Power BI에 등록](create-an-azure-active-directory-tenant.md)해야 합니다.
 > 

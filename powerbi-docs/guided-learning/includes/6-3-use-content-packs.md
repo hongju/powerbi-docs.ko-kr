@@ -8,7 +8,7 @@
 
 ![Power BI에서 공유 및 공동 작업](./media/6-3-use-content-packs/pbi_learn06_03switch2group.png)
 
-그룹에 아직 대시보드, 보고서 또는 데이터 집합이 없습니다. 제가 만든 콘텐츠 팩을 사용하도록 하겠습니다. 타사 서비스 대신 제 조직에서 콘텐츠 팩을 찾아봅니다.
+그룹에 아직 대시보드, 보고서 또는 데이터 세트가 없습니다. 제가 만든 콘텐츠 팩을 사용하도록 하겠습니다. 타사 서비스 대신 제 조직에서 콘텐츠 팩을 찾아봅니다.
 
 ![Power BI에서 공유 및 공동 작업](./media/6-3-use-content-packs/pbi_learn06_03myorgcontpk.png)
 
@@ -16,17 +16,17 @@
 
 ![Power BI에서 공유 및 공동 작업](./media/6-3-use-content-packs/pbi_learn06_03contgallry.png)
 
-Power BI에서 콘텐츠 팩에 있는 대시보드, 보고서 및 데이터 집합을 가져옵니다.
+Power BI에서 콘텐츠 팩에 있는 대시보드, 보고서 및 데이터 세트를 가져옵니다.
 
 ![Power BI에서 공유 및 공동 작업](./media/6-3-use-content-packs/pbi_learn06_03added2group.png)
 
-데이터 집합을 선택하면 Power BI에서 콘텐츠 팩을 개인 설정할지 묻습니다.
+데이터 세트를 선택하면 Power BI에서 콘텐츠 팩을 개인 설정할지 묻습니다.
 
 ![Power BI에서 공유 및 공동 작업](./media/6-3-use-content-packs/pbi_learn06_03personalize.png)
 
 변경할 수 있는 콘텐츠 팩의 복사본을 만들고 게시된 버전의 콘텐츠 팩에서 연결을 해제합니다. 콘텐츠 팩 작성자가 게시된 버전을 변경한 경우 이러한 업데이트는 자동으로 제공되지 않습니다.
 
-하지만 원하는 경우 대시보드, 보고서 및 데이터 집합을 편집할 수 있습니다.
+하지만 원하는 경우 대시보드, 보고서 및 데이터 세트를 편집할 수 있습니다.
 
 ![Power BI에서 공유 및 공동 작업](./media/6-3-use-content-packs/pbi_learn06_03editreport.png)
 

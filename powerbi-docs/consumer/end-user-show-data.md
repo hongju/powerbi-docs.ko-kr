@@ -20,7 +20,7 @@ ms.locfileid: "53279389"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>시각화를 생성하는 데 사용 된 데이터 표시
 ## <a name="show-data"></a>데이터 표시
-Power BI 시각화는 기본 데이터 집합의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. **데이터 표시**를 선택하면 Power BI는 시각화 아래(또는 옆에) 데이터를 표시합니다.
+Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. **데이터 표시**를 선택하면 Power BI는 시각화 아래(또는 옆에) 데이터를 표시합니다.
 
 
 ## <a name="using-show-data-in-power-bi-service"></a>Power BI 서비스에서 *데이터 표시* 사용

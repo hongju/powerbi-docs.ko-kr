@@ -22,7 +22,7 @@ ms.locfileid: "39388643"
 작업 영역 컬렉션에서 Power BI 서비스로 콘텐츠를 마이그레이션하는 것은 현재 솔루션과 동시에 수행할 수 있으며 가동 중지 시간이 필요하지 않습니다.
 
 ## <a name="limitations"></a>제한 사항
-* 푸시된 데이터 집합은 다운로드할 수 없으며 Power BI 서비스용 Power BI REST API를 사용하여 다시 만들어야 합니다.
+* 푸시된 데이터 세트는 다운로드할 수 없으며 Power BI 서비스용 Power BI REST API를 사용하여 다시 만들어야 합니다.
 * 2016년 11월 26일 이전에 가져온 PBIX 파일은 다운로드할 수 없습니다.
 
 ## <a name="download"></a>다운로드
@@ -220,7 +220,7 @@ Power BI에 로그인하고 해당 작업 영역이 존재하는지 확인하여
 
 그런 다음 계획을 다시 열고 마이그레이션 도구에서 실패한 보고서를 업로드합니다.
 
-Power BI로 돌아가, 앱 작업 영역에 업로드한 보고서 및 데이터 집합을 볼 수 있습니다.
+Power BI로 돌아가, 앱 작업 영역에 업로드한 보고서 및 데이터 세트를 볼 수 있습니다.
 
 ![](media/migrate-tool/migrate-tool-upload-app-workspace.png)
 
@@ -240,7 +240,7 @@ xml을 편집한 후에는 마이그레이션 도구 내에서 계획을 다시 
 ### <a name="directquery-reports"></a>DirectQuery 보고서
 DirectQuery 보고서에 대한 연결 문자열을 업데이트해야 합니다. *powerbi.com* 내에서 수행하거나 Power BI Embedded(Paas)에서 연결 문자열을 프로그래밍 방식으로 쿼리할 수 있습니다. 예를 들어 [PaaS 보고서에서 DirectQuery 연결 문자열 추출](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report)을 참조하세요.
 
-그런 다음 Power BI 서비스(Saas) 내에서 데이터 집합에 대한 연결 문자열을 업데이트하고 데이터 원본에 대한 자격 증명을 설정할 수 있습니다. 다음 예제를 통해 이 작업을 수행하는 방법을 볼 수 있습니다.
+그런 다음, Power BI 서비스(Saas) 내에서 데이터 세트에 대한 연결 문자열을 업데이트하고 데이터 원본에 대한 자격 증명을 설정할 수 있습니다. 다음 예제를 통해 이 작업을 수행하는 방법을 볼 수 있습니다.
 
 * [SaaS 작업 영역에서 DirectQuery 연결 문자열 업데이트](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
 * [SaaS 작업 영역에서 DirectQuery 자격 증명 설정](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)

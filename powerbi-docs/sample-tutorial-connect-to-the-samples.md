@@ -46,7 +46,7 @@ ms.locfileid: "53180970"
    ![노란색 연결 단추](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
 
 ## <a name="what-exactly-was-imported"></a>정확히 무엇을 가져왔나요?
-샘플 콘텐츠 팩을 사용할 경우 **연결**을 선택하면 Power BI가 실제로 해당 콘텐츠 팩의 복사본을 가져와 자동으로 클라우드에 저장합니다. 콘텐츠 팩을 만든 사람이 데이터 집합, 보고서 및 대시보드를 포함했기 때문에 **연결**을 클릭하면 해당 항목을 가져오게 됩니다. 
+샘플 콘텐츠 팩을 사용할 경우 **연결**을 선택하면 Power BI가 실제로 해당 콘텐츠 팩의 복사본을 가져와 자동으로 클라우드에 저장합니다. 콘텐츠 팩을 만든 사람이 데이터 세트, 보고서 및 대시보드를 포함했기 때문에 **연결**을 클릭하면 해당 항목을 가져오게 됩니다. 
 
 1. Power BI는 새 대시보드를 만들고 **대시보드** 탭에 나열합니다. 노란색 별표로 새 대시보드를 알려줍니다.
    
@@ -55,12 +55,12 @@ ms.locfileid: "53180970"
    
    ![소매점 분석 샘플 주위의 빨간색 상자 및 노란색 별표](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
    
-   **데이터 집합** 탭을 확인합니다.  새 데이터 집합도 있습니다.
+   **데이터 집합** 탭을 확인합니다.  새 데이터 세트도 있습니다.
    
    ![소매점 분석 샘플 주위의 빨간색 상자](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
 
 ## <a name="explore-your-new-content"></a>새 콘텐츠 살펴보기
-이제 직접 대시보드, 데이터 집합 및 보고서를 살펴봅니다. 대시보드, 보고서 및 데이터 집합을 탐색하는 여러 가지 방법 중 한 가지 방법이 아래에 설명되어 있습니다.  
+이제 직접 대시보드, 데이터 세트 및 보고서를 살펴봅니다. 대시보드, 보고서 및 데이터 세트를 탐색하는 여러 가지 방법 중 한 가지 방법이 아래에 설명되어 있습니다.  
 
 > [!TIP]
 > 우선 약간의 지원을 원하시나요?  이 샘플을 단계별로 안내하는 [소매점 분석 샘플 둘러보기](sample-retail-analysis.md)를 확인하세요.
@@ -81,14 +81,14 @@ ms.locfileid: "53180970"
    > 타일이 [Power BI 질문 및 답변](consumer/end-user-q-and-a.md)을 사용하여 생성된 경우 질문 및 답변 페이지가 대신 열립니다. 타일이 [Excel에서 고정](service-dashboard-pin-tile-from-excel.md)된 경우 Excel Online이 Power BI 내에서 열립니다.
    > 
    > 
-1. **데이터 집합** 탭으로 돌아가면 데이터 집합을 살펴볼 수 있는 몇 가지 옵션이 있습니다.  Power BI Desktop 또는 Excel에서처럼 데이터 집합을 열고 모든 행과 열을 볼 수는 없습니다.  동료와 콘텐츠 팩을 공유 하는 사람은 일반적으로 동료에게 데이터에 대한 직접 액세스 권한을 제공하고자 하는 것이 아니라 유용한 정보를 공유하고자 합니다. 그렇다고 데이터 집합을 탐색할 수 없다는 의미는 아닙니다.  
+1. **데이터 집합** 탭으로 돌아가면 데이터 집합을 살펴볼 수 있는 몇 가지 옵션이 있습니다.  Power BI Desktop 또는 Excel에서처럼 데이터 집합을 열고 모든 행과 열을 볼 수는 없습니다.  동료와 콘텐츠 팩을 공유 하는 사람은 일반적으로 동료에게 데이터에 대한 직접 액세스 권한을 제공하고자 하는 것이 아니라 유용한 정보를 공유하고자 합니다. 그렇다고 데이터 세트를 탐색할 수 없다는 의미는 아닙니다.  
    
-   ![데이터 집합 탭](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
+   ![데이터 세트 탭](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
    
-   * 데이터 집합을 탐색하는 한 가지 방법은 처음부터 고유한 시각화 및 보고서를 만드는 것입니다.  차트 아이콘 선택 ![보고서 아이콘](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) 보고서 편집 모드에서 데이터 집합을 엽니다.
+   * 데이터 세트를 탐색하는 한 가지 방법은 처음부터 고유한 시각화 및 보고서를 만드는 것입니다.  차트 아이콘 선택 ![보고서 아이콘](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) 보고서 편집 모드에서 데이터 세트를 엽니다.
      
        ![새 보고서](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * 데이터 집합을 탐색하는 또 다른 방법은 [신속한 정보 활용](consumer/end-user-insights.md)을 실행하는 것입니다. 줄임표 (...)를 선택하고 **유용한 정보 얻기**를 선택합니다. 유용한 정보가 준비되면 **정보 보기**를 선택합니다.
+   * 데이터 세트를 탐색하는 또 다른 방법은 [신속한 정보 활용](consumer/end-user-insights.md)을 실행하는 것입니다. 줄임표 (...)를 선택하고 **유용한 정보 얻기**를 선택합니다. 유용한 정보가 준비되면 **정보 보기**를 선택합니다.
      
        ![인사이트 보고서](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -125,7 +125,7 @@ Desktop에서 샘플 PBIX 파일을 열면 Power BI가 실제로 해당 데이�
     관계 보기는 모델의 모든 테이블, 열 및 관계를 표시합니다. 여기에서 관계를 보고 변경하고 만들 수 있습니다.
 
 ## <a name="explore-your-new-content"></a>새 콘텐츠 살펴보기
-이제 직접 데이터 집합, 관계 및 보고서를 살펴봅니다. 시작하는 데 도움이 필요하면 [Desktop 시작 가이드](desktop-getting-started.md)를 참조하세요.    
+이제 직접 데이터 세트, 관계 및 보고서를 살펴봅니다. 시작하는 데 도움이 필요하면 [Desktop 시작 가이드](desktop-getting-started.md)를 참조하세요.    
 
 
 ## <a name="next-steps"></a>다음 단계

@@ -50,14 +50,14 @@ Cortana를 Power BI와 통합하는 데 여전히 문제가 있는 경우 제대
 8. Cortana에 대해 활성화한 보고서가 100개 이상입니까?  Cortana는 최대 총 100개만을 검색합니다.  보고서가 포함되어 있는지 확인하려면 Cortana가 내 작업 영역을 처음으로 검색하므로 **내 작업 영역**으로 이동하거나 복사합니다.
 9. 얼마 동안의 시간을 제공해야 할 수도 있습니다. 처음으로 쿼리를 입력하는 경우 모델은 콜드일 수 있습니다.  데이터가 메모리로 로드될 수 있도록 몇 초 정도 기다린 다음 다시 시도하십시오.
 10. 대시보드의 경우 Cortana에 액세스할 수 있게 하려면 최대 24시간이 걸릴 수 있습니다.    
-11. 보고서의 경우 새 데이터 집합 또는 사용자 지정 대답 카드를 Power BI에 추가하고 Cortana에 대해 사용하도록 설정한 경우 Cortana에 결과를 표시하는 데에는 최대 30분 정도 걸릴 수 있습니다. Windows 10에 로그인했다가 로그아웃하거나, Windows 10에서 Cortana 프로세스를 다시 시작하면 새 보고서 콘텐츠를 즉시 표시할 수 있습니다.  
+11. 보고서의 경우 새 데이터 세트 또는 사용자 지정 대답 카드를 Power BI에 추가하고 Cortana에 대해 사용하도록 설정한 경우 Cortana에 결과를 표시하는 데에는 최대 30분 정도 걸릴 수 있습니다. Windows 10에 로그인했다가 로그아웃하거나, Windows 10에서 Cortana 프로세스를 다시 시작하면 새 보고서 콘텐츠를 즉시 표시할 수 있습니다.  
 12. Power BI 관리자는 “옵트아웃”할 수 있습니다. 이 경우에 해당하는지 관리자에게 확인합니다.
 
 ## <a name="reports-only-why-doesnt-cortana-find-answers-from-my-power-bi-reports"></a>보고서 전용: Cortana가 내 Power BI 보고서에서 대답을 찾지 않는 이유는 무엇입니까?
 1. 보고서에서 대답을 찾고 있는 경우 Cortana **대답 카드**가 포함된 보고서가 있습니까? 대답 카드는 Cortana가 사용자의 Power BI 보고서에서 대답을 찾을 수 있는 유일한 방법입니다.  [Power BI 서비스 및 Power BI Desktop에서 Cortana 대답 카드 만들기](service-cortana-answer-cards.md)를 참조하여 대답 카드를 만드는 방법을 알아봅니다.
 2. Windows 버전 1511 이상을 실행 중입니까?  Windows 설정을 열고 **시스템 > 정보**를 선택하여 확인합니다. 그렇지 않은 경우 Windows의 버전을 업데이트합니다.
 3. Windows 및 Power BI 계정이 연결되어 있습니까? 이 작업은 혼동될 수 있습니다. [Power BI에 대해 Cortana 사용](service-cortana-enable.md#add-your-power-bi-credentials-to-windows)의 지침을 따릅니다.
-4. 기본 데이터 집합이 Cortana에 대해 사용하도록 설정되었습니까? 아마도 동료가 이미 Cortana에 대해 활성화한 데이터 집합을 공유했습니다. 하지만 그렇지 않은 경우 [직접 Cortana에 대한 데이터 집합을 활성화하는 방법을 알아봅니다](service-cortana-enable.md). 빠르고 간단합니다.
+4. 기본 데이터 세트가 Cortana에 대해 사용하도록 설정되었습니까? 아마도 동료가 이미 Cortana에 대해 활성화한 데이터 세트를 공유했습니다. 하지만 그렇지 않은 경우 [직접 Cortana에 대한 데이터 세트를 활성화하는 방법을 알아봅니다](service-cortana-enable.md). 빠르고 간단합니다.
 
 ## <a name="dashboards-only-why-doesnt-cortana-find-answers-from-my-power-bi-dashboards"></a>대시보드 전용: Cortana가 내 Power BI 대시보드에서 대답을 찾지 않는 이유는 무엇입니까?
 1. 회사 계정에 연결되어 있는지 확인합니다. Power BI는 이 연결이 필요하므로 데이터에 대한 액세스 권한을 인증할 수 있습니다. 연결되어 있는지 확인하려면, 또는 그렇지 않은 경우 회사 계정을 연결하려면 Windows 검색 상자를 사용하여 “회사 또는 학교에 연결”로 이동합니다.  
@@ -86,7 +86,7 @@ Cortana를 Power BI와 통합하는 데 여전히 문제가 있는 경우 제대
 
    ![Utterance 필드의 Cortana 매장](media/service-cortana-troubleshoot/power-bi-utterance.png)
 
-   결과를 얻었으므로 이제 Cortana**가** Power BI에서 사용하도록 설정된 것을 알 수 있습니다. 문제를 Windows 쪽 또는 Cortana 언어 설정의 문제 항목 또는 Cortana에 대해 활성화된 100개 이상의 데이터 집합을 갖는 것으로 좁힙니다.
+   결과를 얻었으므로 이제 Cortana**가** Power BI에서 사용하도록 설정된 것을 알 수 있습니다. 문제를 Windows 쪽 또는 Cortana 언어 설정의 문제 항목 또는 Cortana에 대해 활성화된 100개 이상의 데이터 세트를 갖는 것으로 좁힙니다.
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>대시보드에서 대답을 검색하는 데 문제가 있습니까?
 사용자와 공유된 대시보드를 찾고 있나요?  Power BI > **공유한 항목**을 열고 대시보드의 이름을 찾습니다.  그런 다음, 해당 이름을 **Utterances** 필드에 입력합니다.

@@ -107,7 +107,7 @@ ms.locfileid: "52578891"
 * 도넛
 * 테이블
 
-백분위수 줄은 **Power BI Desktop**에서 가져온 데이터를 사용할 경우 또는 **Analysis Service 2016** 이상, **Azure Analysis Services**를 실행하는 서버의 모델 또는 Power BI 서비스의 데이터 집합에 연결할 경우에만 사용할 수 있습니다. 
+백분위수 줄은 **Power BI Desktop**에서 가져온 데이터를 사용할 경우 또는 **Analysis Service 2016** 이상, **Azure Analysis Services**를 실행하는 서버의 모델 또는 Power BI 서비스의 데이터 세트에 연결할 경우에만 사용할 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
 Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. 해당 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.

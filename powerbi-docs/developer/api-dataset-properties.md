@@ -1,6 +1,6 @@
 ---
-title: Power BI 데이터 집합 속성
-description: Power BI 데이터 집합 API의 속성에 대한 자세한 내용
+title: Power BI 데이터 세트 속성
+description: Power BI 데이터 세트 API의 속성에 대한 자세한 내용
 author: markingmyname
 manager: kfile
 ms.author: maghan
@@ -16,9 +16,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 07/03/2018
 ms.locfileid: "37780578"
 ---
-# <a name="dataset-properties"></a>데이터 집합 속성
+# <a name="dataset-properties"></a>데이터 세트 속성
 
-데이터 집합 API의 현재 v1은 이름과 테이블의 컬렉션을 사용하여 데이터 집합을 만듭니다. 각 테이블에는 이름과 행의 컬렉션이 있습니다. 각 열에는 이름 및 datatype이 있습니다. 테이블 간의 측정값 및 관계를 지원함으로써 특히 이러한 속성을 확장했습니다. 이 릴리스에 대해 지원되는 속성의 전체 목록은 아래와 같습니다.
+데이터 세트 API의 현재 v1은 이름과 테이블의 컬렉션을 사용하여 데이터 세트를 만듭니다. 각 테이블에는 이름과 행의 컬렉션이 있습니다. 각 열에는 이름 및 datatype이 있습니다. 테이블 간의 측정값 및 관계를 지원함으로써 특히 이러한 속성을 확장했습니다. 이 릴리스에 대해 지원되는 속성의 전체 목록은 아래와 같습니다.
 
 > [!IMPORTANT]
 > [데이터 집합 작업 그룹](https://docs.microsoft.com/rest/api/power-bi/datasets) 페이지에서 액세스할 수 있습니다.
@@ -27,11 +27,11 @@ ms.locfileid: "37780578"
 
 이름  |형식  |설명  |읽기 전용  |필수
 ---------|---------|---------|---------|---------
-id     |  Guid       | 데이터 집합용 시스템 전체 범위 고유 식별자입니다.        | True        | False        
-name     | 문자열        | 데이터 집합의 사용자 정의 이름입니다.        | False        | True        
+id     |  Guid       | 데이터 세트용 시스템 전체 범위 고유 식별자입니다.        | True        | False        
+name     | 문자열        | 데이터 세트의 사용자 정의 이름입니다.        | False        | True        
 테이블     | 테이블[]        | 테이블의 컬렉션입니다.        |  False       | False        
 관계     | 관계[]        | 테이블 간 관계의 컬렉션입니다.        | False        |  False  
-defaultMode     | 문자열        | 데이터 집합이 "Push", "Streaming", "PushStreaming"의 값으로 푸시되거나, 스트림되거나 둘 다 되는지 여부를 결정합니다.         | False        |  False
+defaultMode     | 문자열        | 데이터 세트가 "Push", "Streaming", "PushStreaming"의 값으로 푸시되거나, 스트림되거나 둘 다 되는지 여부를 결정합니다.         | False        |  False
 
 ## <a name="table"></a>테이블
 

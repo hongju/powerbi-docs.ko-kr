@@ -78,7 +78,7 @@ iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
   
    ![기회 분석 샘플 - 연결](./media/tutorial-mobile-apps-ios-qna/opportunity-connect.png)
    
-5. Power BI가 샘플을 가져와 새 대시보드, 보고서 및 데이터 집합을 내 작업 영역에 추가합니다.
+5. Power BI가 샘플을 가져와 새 대시보드, 보고서 및 데이터 세트를 내 작업 영역에 추가합니다.
    
    ![기회 분석 샘플 대시보드](./media/tutorial-mobile-apps-ios-qna/power-bi-service-opportunity-sample.png)
 
@@ -113,7 +113,7 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 
 ## <a name="clean-up-resources"></a>리소스 정리
 
-자습서를 마치면 기회 분석 샘플 대시보드, 보고서 및 데이터 집합을 삭제할 수 있습니다.
+자습서를 마치면 기회 분석 샘플 대시보드, 보고서 및 데이터 세트를 삭제할 수 있습니다.
 
 1. Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.
 

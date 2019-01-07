@@ -254,9 +254,9 @@ Power BI Report Server에서 예약된 데이터 새로 고침을 설정하여 �
 
 최대 2GB 크기의 파일을 업로드할 수 있지만 기본적으로 이 제한은 SSMS(SQL Server Management Studio)의 보고서 서버 설정에서 1GB로 설정되어 있습니다.  이러한 파일은 SharePoint에 대해서와 마찬가지로 데이터베이스에 저장되며 SQL Server 카탈로그에 대한 특별한 구성은 필요하지 않습니다.  
 
-### <a name="accessing-shared-datasets-as-odata-feeds"></a>OData 피드로 공유 데이터 집합에 액세스
+### <a name="accessing-shared-datasets-as-odata-feeds"></a>OData 피드로 공유 데이터 세트에 액세스
 
-OData 피드로 Power BI Desktop에서 공유 데이터 집합에 액세스할 수 있습니다. 자세한 내용은 [Power BI Report Server에서 OData 피드로 공유 데이터 집합에 액세스](access-dataset-odata.md)를 참조하세요.
+OData 피드로 Power BI Desktop에서 공유 데이터 세트에 액세스할 수 있습니다. 자세한 내용은 [Power BI Report Server에서 OData 피드로 공유 데이터 세트에 액세스](access-dataset-odata.md)를 참조하세요.
 
 ### <a name="scale-out"></a>확장
 

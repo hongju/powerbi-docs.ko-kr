@@ -190,7 +190,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |data.table| 1.10.4| https://cran.r-project.org/web/packages/data.table/index.html |
 |data.table| zoo| grid|
 |data.tree| 0.7.0| https://cran.r-project.org/web/packages/data.tree/index.html |
-|데이터 집합| 3.4.1| NA|
+|데이터 세트| 3.4.1| NA|
 |날짜| 1.2-37| https://cran.r-project.org/web/packages/date/index.html |
 |DBI|0.7| https://cran.r-project.org/web/packages/DBI/index.html |
 |dbscan| 1.1-1| https://cran.r-project.org/web/packages/dbscan/index.html |

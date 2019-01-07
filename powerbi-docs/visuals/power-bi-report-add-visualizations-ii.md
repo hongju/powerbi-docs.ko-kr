@@ -26,7 +26,7 @@ ms.locfileid: "52830220"
 - [소매점 분석 샘플](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ## <a name="create-a-new-visualization"></a>새 시각화 만들기
-이 자습서에서는 소매점 분석 데이터 집합을 자세히 살펴보고 몇 가지 주요 시각화를 만듭니다.
+이 자습서에서는 소매점 분석 데이터 세트를 자세히 살펴보고 몇 가지 주요 시각화를 만듭니다.
 
 ### <a name="open-a-report-and-add-a-new-blank-page"></a>보고서를 열고 새 페이지를 추가합니다.
 1. Power BI Desktop에서 소매점 분석 샘플 .PBIX 파일을 엽니다. 

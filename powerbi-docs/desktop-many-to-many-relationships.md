@@ -160,7 +160,7 @@ Power BI Desktop에서는 관계에서 열의 고유한 값이 모든 테이블�
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
-* Power BI 데이터 집합
+* Power BI 데이터 세트
 * Azure Analysis Services
 
 DirectQuery를 사용하여 이러한 다차원 원본에 연결하는 경우 다른 DirectQuery 원본에 연결하거나 가져온 데이터와 결합할 수 없습니다.

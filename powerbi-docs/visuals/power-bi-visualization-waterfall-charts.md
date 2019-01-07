@@ -39,7 +39,7 @@ ms.locfileid: "47448917"
 
 1. **데이터 집합** 탭을 선택하고 새로운 "소매 분석 샘플" 데이터 집합으로 스크롤합니다.  **보고서 만들기** 아이콘을 선택하여 보고서 편집 보기에서 데이터 집합을 엽니다. 
    
-    ![데이터 집합 탭이 강조 표시됨](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+    ![데이터 세트 탭이 강조 표시됨](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
 2. **필드** 창에서 **판매액 \> 총 판매액 분산**을 선택합니다. 
 3. 차트를 **폭포**로 변환합니다. **총 판매액 분산** 이 **Y축** 영역에 없는 경우, 그곳으로 끌어 놓습니다.
    

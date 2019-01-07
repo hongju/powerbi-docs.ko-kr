@@ -133,7 +133,7 @@ ms.locfileid: "53301853"
 
 ### <a name="create-and-publish-your-reports"></a>보고서 만들기 및 게시
 
-Power BI Desktop을 사용하여 보고서와 데이터 집합을 만들 수 있습니다. 그런 후 해당 보고서를 앱 작업 영역에 게시할 수 있습니다. 보고서를 게시하는 최종 사용자는 앱 작업 영역에 게시하기 위해 Power BI Pro 라이선스가 필요합니다.
+Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있습니다. 그런 후 해당 보고서를 앱 작업 영역에 게시할 수 있습니다. 보고서를 게시하는 최종 사용자는 앱 작업 영역에 게시하기 위해 Power BI Pro 라이선스가 필요합니다.
 
 1. GitHub에서 샘플 [블로그 데모](https://github.com/Microsoft/powerbi-desktop-samples)를 다운로드합니다.
 
