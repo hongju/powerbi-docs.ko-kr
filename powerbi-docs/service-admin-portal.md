@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
+ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026710"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "53735572"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -386,6 +386,18 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 조직 저장소에서 시각적 개체를 업데이트하려면 기어 아이콘을 선택합니다. 시각적 개체의 새 버전을 찾아보고 업로드합니다.
 
 시각적 개체 ID가 변경되지 않았는지 확인합니다. 새 파일은 조직 전체의 모든 보고서에 대해 이전 파일을 대체합니다. 그러나 시각적 개체의 새 버전이 시각적 개체의 이전 버전에 대한 사용이나 데이터 구조를 중단하는 경우에는 이전 버전을 바꾸지 마세요. 대신에 시각적 개체의 새 버전에 대한 새 목록을 만들어야 합니다. 예를 들어 새 버전 번호(버전 X.X)를 새 나열된 시각적 개체의 제목에 추가합니다. 이렇게 하면 업데이트된 버전 번호를 가진 동일한 시각적 개체가 되므로 기존 보고서가 해당 기능을 중단하지 않습니다. 다시 한번 시각적 개체 ID가 변경되지 않았는지 확인합니다. 그러면 다음에 사용자가 Power BI Desktop에서 조직의 리포지토리에 들어갈 때 새 버전을 가져올 수 있으며, 보고서에 있는 현재 버전을 바꾸라는 메시지가 표시됩니다.
+
+자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)을 참조하세요.
+
+## <a name="dataflow-storage-preview"></a>데이터 흐름 스토리지(미리 보기)
+
+기본적으로 Power BI에 사용되는 데이터는 Power BI에서 제공하는 내부 스토리지에 저장됩니다. 데이터 흐름 및 ADLS Gen2(Azure Data Lake Storage Gen2)를 통합하면 조직의 Azure Data Lake Storage Gen2 계정에 데이터 흐름을 저장할 수 있습니다. 자세한 내용은 [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)을 참조하세요.
+
+## <a name="workspaces-preview"></a>작업 영역(미리 보기)
+
+관리자는 테넌트에 있는 작업 영역을 볼 수 있습니다. 작업 영역 목록을 정렬 및 필터링하고 각 작업 영역에 대한 세부 정보를 표시할 수 있습니다. 테이블 열은 작업 영역에 대해 [Power BI 관리자 Rest API](/rest/api/power-bi/admin)에서 반환된 속성에 해당합니다. 개인 작업 영역은 **개인 그룹** 형식, 레거시 작업 영역은 **그룹** 형식, 최신 작업 영역은 **작업 영역** 형식입니다. 자세한 내용은 [Power BI에서 새 작업 영역 만들기(미리 보기)](service-create-the-new-workspaces.md)를 참조하세요.
+
+![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
 
 ## <a name="next-steps"></a>다음 단계
 

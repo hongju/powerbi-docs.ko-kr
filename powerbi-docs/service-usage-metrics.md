@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1c6c0a803e77ead6d43c23ac2b12b305d5960ef7
-ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
+ms.openlocfilehash: f7aad6b0e3dd38c795d886d1aba26a82a8529c01
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2018
-ms.locfileid: "53111545"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649374"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>대시보드 및 보고서의 사용 메트릭
 
@@ -166,7 +166,7 @@ Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. �
 사용 메트릭과 감사 로그를 비교할 때 발생할 수 있는 차이점과 이유를 이해하는 것이 중요합니다. *감사 로그*는 Power BI 서비스의 데이터를 사용하여 수집되며, *사용 메트릭*은 클라이언트에서 수집됩니다. 이러한 차이 때문에 감사 로그의 활동 집계 개수가 항상 사용 메트릭과 일치하지 않을 수 있으며, 그 이유는 다음과 같습니다.
 
 * 사용 메트릭은 일관되지 않는 네트워크 연결, 광고 차단 또는 클라이언트에서 이벤트 전송을 방해할 수 있는 기타 문제로 인해 실제보다 활동 수가 적게 집계될 수 있습니다.
-* 이 문서의 앞부분에서 설명한 것처럼 특정 유형의 보기는 사용 메트릭에 포함되지 않습니다.
+* 이 문서의 앞부분에서 설명한 대로 특정 유형의 보기는 사용량 메트릭에 포함되지 않습니다.
 * Power BI 서비스로 요청을 다시 전송할 필요 없이 클라이언트가 새로 고쳐지는 경우 사용 메트릭은 실제보다 활동 수가 많이 집계될 수 있습니다.
 
 

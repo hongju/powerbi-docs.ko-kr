@@ -1,31 +1,29 @@
 ---
 title: Surface Hub, Windows 10에서 프레젠테이션 모드 보기 - Power BI
 description: Surface Hub에서 Power BI 보고서를 표시하고 Windows 10 디바이스에서 전체 화면 모드로 Power BI 대시보드, 보고서 및 타일을 표시하는 방법을 알아보세요.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.date: 12/10/2018
+ms.author: mshenhav
+ms.openlocfilehash: 49a1d8386159966171b46801d3bfe3685b2a6bb2
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507936"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301761"
 ---
-# <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Surface Hub, Windows 10에서 프레젠테이션 모드로 보고서 보기 - Power BI
-Surface Hub에서 보고서를 프레젠테이션 모드로 표시하고 Windows 10 디바이스에서 대시보드, 보고서 및 타일을 전체 화면 모드로 표시할 수 있습니다. 
+# <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub 및 Windows 10 디바이스에서 프레젠테이션 모드로 보고서 및 대시보드 보기
+프레젠테이션 모드를 사용하여 Windows 10 디바이스 및 Surface Hub에서 보고서와 대시보드를 전체 화면으로 표시할 수 있습니다. 
 
 ![전체 화면 모드의 보고서](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
 
-프레젠테이션 모드 및 전체 화면 모드는 모임이나 회의 또는 사무실의 전용 프로젝터에서 Power BI를 표시하거나 작은 화면 공간을 최대화하는 데 유용합니다. 
+프레젠테이션 모드는 모임이나 회의 또는 사무실의 전용 프로젝터에서 Power BI를 표시하거나 작은 화면 공간을 최대화하는 데 유용합니다. 
 
-Power BI 모바일 앱의 전체 화면 모드에서는 페이지 탭과 보고서의 필터 창을 제외한 탐색 및 메뉴 모음 등의 "크롬"이 모두 제거됩니다.
-
-Surface Hub에서 보고서를 프레젠테이션 모드로 표시하는 경우, 페이지에서 다양한 잉크 색으로 그릴 수 있고 보고서의 페이지 사이를 이동할 수 있습니다.
+Windows 10용 Power BI 모바일 앱의 프레젠테이션 모드에서는 탐색 및 메뉴 모음과 같은 모든 "크롬"이 제거되어 사용자와 팀 구성원이 보고서의 데이터에 집중할 수 있습니다. 작업이 있는 도구 모음을 사용할 수 있게 되고 이를 통해 프레젠테이션 모드에서 데이터와 상호 작용하고 공동 작업을 수행할 수 있습니다.
 
 웹의 [Power BI 서비스에서 전체 화면 모드로 대시보드와 보고서를 표시할 수](../end-user-focus.md)도 있습니다.
 
@@ -34,44 +32,24 @@ Surface Hub에서 보고서를 프레젠테이션 모드로 표시하는 경우,
 > 
 > 
 
-## <a name="display-dashboards-reports-and-tiles-in-full-screen-mode"></a>전체 화면 모드로 대시보드, 보고서 및 타일 표시
-1. Power BI 모바일 앱의 대시보드, 보고서 또는 타일에서 **전체 화면** 아이콘 ![전체 화면 아이콘](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png)을 탭하여 전체 화면 모드로 이동합니다.
-2. 프레젠테이션 모드에서는 보고서를 필터링하거나 다른 대시보드와 보고서를 검색할 수 있습니다.
-   
-    필더 창을 확장하여 필터를 설정하거나 제거합니다.
-   
-    ![필터 창](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-filter.png)
-   
-     검색 아이콘 ![검색 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) 을 탭하여 다른 대시보드를 찾습니다.
-   
-    ![검색 결과](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-search.png)
-3. 전체 화면 모드를 끝내려면 도구 모음에서 안쪽을 향하는 두 개의 화살표 ![전체 화면 모드 끝내기](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) 가 있는 아이콘을 탭하거나 맨 위에서 아래로 살짝 밀고 안쪽을 향하는 두 개의 화살표를 탭합니다 ![전체 화면 모드 끝내기](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
+## <a name="use-presentation-mode"></a>프레젠테이션 모드 사용
+Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화면 모드로 이동합니다.
+![전체 화면 아이콘](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) 앱 크롬이 사라지고 도구 모음이 화면 아래쪽 또는 오른쪽과 왼쪽에 표시됩니다(화면 크기에 따라 다름).
 
-## <a name="turn-on-presentation-mode-for-surface-hub"></a>Surface Hub에서 프레젠테이션 모드 켜기
-Surface Hub에서는 기본적으로 프레젠테이션 모드가 켜져 있지만, 꺼져 있더라도 다시 켤 수 있습니다.
+![측면 도구 모음이 있는 전체 화면 모드의 보고서](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
 
-1. 왼쪽 탐색 모음의 맨 아래에 있는 설정 아이콘 ![설정 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-settings-icon.png) 을 탭합니다.
-2. **옵션**을 탭한 후 **Microsoft Surface Hub 프레젠테이션 모드 사용**을 **설정**으로 살짝 밉니다.
-   
-    ![프레젠테이션 모드 켜기](./media/mobile-windows-10-app-presentation-mode/power-bi-turn-on-presentation-mode.png)
+도구 모음에서 수행할 수 있는 작업은 다음과 같습니다.
 
-## <a name="display-and-draw-on-reports-on-surface-hub"></a>Surface Hub에서 보고서 표시 및 그리기
-1. 보고서에서 **전체 화면** 아이콘 ![전체 화면 아이콘](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png)을 탭하고 Surface Hub 프레젠테이션 모드로 이동합니다.
-   
-    화면 양쪽에 축소 가능한 작업 모음이 표시됩니다. 
-   
-   * 열려면 안쪽으로 살짝 밀거나 핸들을 탭합니다.
-   * 닫으려면 바깥쪽으로 살짝 밀거나 맨 위에 있는 X를 탭합니다.
-2. 펜으로 쓰기를 지원하는 디바이스에서는 즉시 쓰기를 시작할 수 있습니다. 
-3. 잉크 색을 변경하려면, 왼쪽 또는 오른쪽 작업 모음에서 펜을 탭합니다.
-   
-    ![Surface hub 잉크](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-ink.png)
-4. 잉크의 일부 또는 전부를 제거하려면 지우개 또는 실행 취소 화살표를 탭합니다.
-5. 보고서 내용을 새로 고치려면 원형 화살표를 탭합니다.
-6. 보고서에서 다른 페이지로 이동하려면 옆쪽 화살표를 탭합니다.
-   
-    ![다른 페이지로 옆쪽 화살표](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-arrows.png)
-7. 전제 화면 모드를 끝내려면 맨 위에서 아래로 살짝 밀고 안쪽을 향하는 두 개의 화살표 ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png)를 탭합니다.
+1. 뒤로 아이콘 ![뒤로 아이콘을 탭하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 이전 페이지로 돌아갑니다. 아이콘을 길게 탭하면 이동 경로 창이 열려 보고서 또는 대시보드의 폴더로 이동할 수 있습니다.
+2. 잉크 아이콘 ![잉크 아이콘을 사용하면](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) 보고서 페이지에 그리거나 주석을 달 때 색을 선택할 수 있습니다. 
+3. 페이지 아이콘 ![페이지 매김 아이콘을 사용하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 현재 표시하고 있는 보고서 페이지를 바꿉니다.
+4. 검색 아이콘 ![검색 아이콘을 탭하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) Power BI에서 다른 아티팩트를 찾습니다.
+5. 도구 모음에서 안쪽을 향하는 두 개의 화살표가 있는 아이콘 ![전체 화면 모드 끝내기을 탭하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) 프레젠테이션 모드를 종료합니다.
+
+도구 모음을 도킹 해제하고 끌어서 화면의 아무 곳에나 배치할 수 있습니다. 이는 보고서의 특정 영역에 집중하고 그 옆에 사용할 수 있는 도구를 배치하려는 대형 화면에 유용합니다. 도구 모음 위에 손가락을 놓고 보고서 캔버스로 살짝 밀면 됩니다.
+
+![프레젠테이션 모드의 보고서 및 도킹 해제된 도구 모음](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 서비스에서 전체 화면 모드로 대시보드 및 보고서 표시](../end-user-focus.md)

@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/18/2018
 ms.locfileid: "52157405"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Office 365 파트너 구독에 Power BI를 추가할 수 없음
@@ -53,7 +53,7 @@ Power BI Pro 무료 평가판에 가입할 수 있습니다. 평가판 기간이
 
 ### <a name="enable-ad-hoc-subscriptions"></a>임시 구독 사용
 
-기본적으로 임시 구독이라고도 하는 개별 가입은 사용하지 않도록 설정됩니다. 이 경우 가입하려고 할 때 다음 메시지가 표시됩니다. *Your IT department has turned off signup for Microsoft Power BI*(IT 부서에서 Microsoft Power BI에 대한 가입을 해지했습니다.)
+기본적으로 임시 구독이라고도 하는 개별 가입은 사용하지 않도록 설정됩니다. 이 경우 등록하려고 하면 *IT 부서에서 Microsoft Power BI 등록을 해제했습니다.* 라는 메시지가 표시됩니다.
 
 ![죄송합니다 이미지](media/service-admin-syndication-partner/sorry.png)
 

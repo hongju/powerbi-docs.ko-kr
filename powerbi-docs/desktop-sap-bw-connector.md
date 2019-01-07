@@ -11,11 +11,11 @@ ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452870"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451447"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop에서 SAP BW Connector 사용
 Power BI Desktop을 통해 **SAP BW(Business Warehouse)** 데이터에 액세스할 수 있습니다.
@@ -32,7 +32,7 @@ SAP 고객이 Power BI를 기존 SAP BW(Business Warehouse) 시스템에 연결�
 1. 로컬 컴퓨터에 **SAP NetWeaver** 라이브러리를 설치합니다. SAP 관리자 또는 직접 [SAP 소프트웨어 다운로드 센터](https://support.sap.com/swdc)에서 **SAP Netweaver** 라이브러리를 가져올 수 있습니다. **SAP 소프트웨어 다운로드 센터**에서 구조를 자주 변경했기 때문에 해당 사이트를 탐색하기 위한 보다 구체적인 지침을 사용할 수 없습니다. **SAP NetWeaver** 라이브러리는 일반적으로 SAP 클라이언트 도구 설치에도 포함됩니다.
    
    SAP Note #1025361을 검색하면 최신 버전에 대한 다운로드 위치를 가져올 수 있습니다. **SAP NetWeaver** 라이브러리(32비트 또는 64비트)의 아키텍처가 **Power BI Desktop** 설치와 일치하는지 확인한 후, SAP Note에 따라 **SAP NetWeaver RFC SDK**에 포함된 모든 파일을 설치합니다.
-2. **데이터 가져오기** 대화 상자에는 **데이터베이스** 범주에 **SAP Business Warehouse 응용 프로그램 서버** 및 **SAP Business Warehouse Message 서버**에 대한 항목이 포함되어 있습니다.
+2. **데이터 가져오기** 대화 상자에는 **데이터베이스** 범주에 **SAP Business Warehouse 애플리케이션 서버** 및 **SAP Business Warehouse Message 서버**에 대한 항목이 포함되어 있습니다.
    
    ![SAP의 데이터 옵션 가져오기](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
@@ -66,7 +66,7 @@ Power BI Desktop의 버전 1 **SAP BW 커넥터**를 사용하면 **SAP Business
 
 ![SAP 서버 연결 설정](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-지정된 서버에 대해 실행되는 언어 코드 및 사용자 지정 MDX 문 등 두 개의 추가 **고급 옵션**을 지정할 수도 있습니다.
+또한 두 가지 추가 **고급 옵션**인 언어 코드 및 지정된 서버에 대해 실행할 사용자 지정 MDX 문을 지정할 수 있습니다.
 
 ![추가 연결 정보](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
@@ -78,9 +78,9 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
 
 또한 **탐색기** 창에서는 다음 작업을 수행할 수 있는 몇 가지 **표시 옵션**이 제공됩니다.
 
-* **선택한 항목만과 *모든 항목* 표시(기본 뷰):** 이 옵션은 선택된 항목의 마지막 집합을 확인하는 데 유용합니다. 이 보기에 대한 다른 방법은 *미리 보기* 영역에서 열 이름을 선택하는 것입니다.
-* **데이터 미리 보기(기본 동작) 사용:** 또한 이 대화 상자에서 데이터 미리 보기를 표시할지 여부를 제어할 수 있습니다. 미리 보기에 대한 데이터를 더 이상 요청하지 않으므로 데이터 미리 보기를 사용하지 않도록 설정하면 서버 호출의 양을 줄일 수 있습니다.
-* **기술 이름:** SAP BW는 큐브 내의 개체에 대한 기술 이름의 개념을 지원합니다. 기술 이름을 사용하면 큐브 소유자가 큐브에 해당 개체에 대한 물리적 이름 대신 큐브 개체에 대한 *사용자 식별* 이름을 노출할 수 있습니다.
+* ***선택한 항목만* 및 *모든 항목*(기본 보기) 표시:** 이 옵션은 선택한 항목의 최종 세트를 확인하는 데 유용합니다. 이 보기에 대한 다른 방법은 *미리 보기* 영역에서 열 이름을 선택하는 것입니다.
+* **데이터 미리 보기 사용(기본 동작):** 이 대화 상자에서 데이터 미리 보기를 표시할지 여부를 제어할 수도 있습니다. 미리 보기에 대한 데이터를 더 이상 요청하지 않으므로 데이터 미리 보기를 사용하지 않도록 설정하면 서버 호출의 양을 줄일 수 있습니다.
+* **기술 이름:** SAP BW는 큐브 내의 개체에 대한 *기술 이름*의 개념을 지원합니다. 기술 이름을 사용하면 큐브 소유자가 큐브에 해당 개체에 대한 물리적 이름 대신 큐브 개체에 대한 *사용자 식별* 이름을 노출할 수 있습니다.
 
 ![탐색기 창](media/desktop-sap-bw-connector/sap_bw_6.png)
 
@@ -95,7 +95,7 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
 
 구현 2.0 SAP BW 커넥터를 사용하려면 새 연결을 만들어야 합니다. 새 연결을 만들려면 다음 단계를 수행하세요.
 
-1. **데이터 가져오기** 창에서 **SAP Business Warehouse 응용 프로그램 서버** 또는 **SAP Business Warehouse 메시지 서버** 중 하나를 선택합니다.
+1. **데이터 가져오기** 창에서 **SAP Business Warehouse 애플리케이션 서버** 또는 **SAP Business Warehouse 메시지 서버** 중 하나를 선택합니다.
 
 2. 그러면 새로운 연결 대화 상자가 나타나 구현을 선택할 수 있습니다. 다음 이미지와 같이 **구현 2.0**을 선택하면 실행 모드, 일괄 처리 크기 및 특성 구조 활성화 옵션을 사용할 수 있습니다.
 

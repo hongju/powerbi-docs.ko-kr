@@ -9,12 +9,12 @@ ms.component: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0ddf95563c52af135ac7ae4fe71aeddcd2ce7313
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d3fdf9b568aa13ba5a8437c684835e0fce803d19
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268082"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649448"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI의 페이지를 매긴 보고서: FAQ(미리 보기)
 
@@ -59,7 +59,7 @@ ReportType 필드에는 Power BI 보고서가 아닌 페이지를 매긴 보고�
 
 ### <a name="can-i-monitor-this-workload-through-the-premium-capacity-monitoring-app"></a>프리미엄 용량 모니터링 앱을 통해 이 워크로드를 모니터링할 수 있나요?
 
-아직은 연결할 수 없습니다. 모니터링은 공개 미리 보기에서 Power BI 데이터 세트에 대해 가지고 있는 것과 동일한 관련 세부 정보가 있는 기존 보고서의 새 탭으로 사용할 수 있습니다.
+예, 모니터링은 Power BI 데이터 세트에 대한 동일한 관련 세부 정보가 포함된 새 탭으로 사용할 수 있습니다.
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>페이지를 매긴 보고서를 만들고 게시하려면 Pro 라이선스가 필요한가요?
 
@@ -73,9 +73,9 @@ ReportType 필드에는 Power BI 보고서가 아닌 페이지를 매긴 보고�
 
 페이지를 매긴 보고서에 대한 각 Premium SKU의 기본 메모리는 다음과 같습니다.
 
-- **P1/A4**: 기본값 20%, 최소값 10%
-- **P2/A5**: 기본값 10%, 최소값 5%
-- **P3/A6**: 기본값 5%, 최소값 2.5%
+- **P1/A4**: 기본값 20%, 최솟값 10%
+- **P2/A5**: 기본값 20%, 최솟값 5%
+- **P3/A6**: 기본값 20%, 최솟값 2.5%
 
 ## <a name="general"></a>일반
 
@@ -113,15 +113,12 @@ Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니�
 - 책갈피
 - Bing 지도 계층
 - 사용자 지정 글꼴
-- 숨겨진 매개 변수
-
-토글 및 대화형 정렬은 아직 프로덕션에 없으나 곧 제공될 것으로 예상됩니다.    
 
 토글/정렬을 제외하고 Power BI 서비스에서 지원되지 않는 기능이 있는 파일을 업로드하려고 하면 오류 메시지를 받게 됩니다.
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>페이지를 매긴 보고서에 대해 현재 지원되는 데이터 원본은 무엇인가요?
 
-온-프레미스 게이트웨이를 사용하는 Azure SQL Database, SQL Server 및 SSAS(SQL Server Analysis Services) 테이블 형식 모델이 지원됩니다. SSAS 다차원(MDX) 모델은 현재 지원되지 않습니다.
+온-프레미스 게이트웨이를 사용하는 Azure SQL Database, SQL Server 및 SSAS(SQL Server Analysis Services) 테이블 형식 모델(DAX) 및 다차원(MDX) 모델을 모두 지원합니다.
 
 게이트웨이를 통해 SSAS에 액세스하는 경우 해당 자격 증명이 저장된 사용자가 SSAS에서 게이트웨이를 통해 작업하려면 상승된 권한이 있어야 합니다.
 
@@ -135,7 +132,7 @@ Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니�
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>게이트웨이를 통해 저장 프로시저를 사용할 수 있나요?
 
-게이트웨이를 통해 저장 프로시저를 사용할 수 있으나 저장 프로시저에 매개 변수가 있는 경우에는 사용할 수 없습니다.
+게이트웨이를 통해 저장 프로시저를 사용할 수 있지만, 저장 프로시저에 매개 변수가 있는 경우 특정 시나리오에서 문제가 표시될 수 있습니다.
 
 ### <a name="what-export-formats-are-available-for-my-report-in-the-power-bi-service"></a>Power BI 서비스에서 내 보고서에 사용할 수 있는 내보내기 형식은 무엇인가요?
 
@@ -143,15 +140,15 @@ Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, .CSV, XML 및 MHTML�
 
 ### <a name="can-i-print-paginated-reports"></a>페이지를 매긴 보고서를 인쇄할 수 있나요?
 
-현재 PDF로 내보내서 해당 파일을 인쇄할 수 있습니다. 페이지를 매긴 보고서에서 바로 인쇄하는 기능도 곧 제공될 것입니다. 
+예, 인쇄는 새롭고 향상된 인쇄 미리 보기 환경을 포함하여 페이지를 매긴 보고서에 사용할 수 있습니다. 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>페이지를 매긴 보고서에 대해 메일 구독을 사용할 수 있나요?
 
-아닙니다. 메일 구독은 나중에 제공될 예정입니다.
+아니요, 하지만 이메일 구독이 나중에 제공될 예정입니다.
 
 ### <a name="what-features-from-ssrs-will-you-be-supporting-in-the-power-bi-service"></a>Power BI 서비스에서 지원하는 SSRS의 기능은 무엇인가요?
 
-두 제품 간에 최대한 패리티에 근접한 기능을 제공할 계획입니다.  Power BI의 다양한 권한 모델과 같이, SSRS 및 Power BI와 관련한 특정한 기능은 기존의 SSRS 패턴에 맞게 변경하는 것이 합리적이지 않을 수 있습니다. 하지만, Microsoft는 이와 같이 합리적이지 않은 결정을 내리라는 고객 및 파트너의 피드백을 받을 것으로 예상합니다.
+대부분의 시나리오에서 기능 패리티를 제공할 계획이지만, SSRS 및 Power BI에 관한 특정 항목에서 기존 SSRS 패턴에 맞게 변경하려고 하는 것이 이해되지 않을 수 있습니다.  예를 들어 Power BI의 다른 권한 모델을 SSRS에 다시 매핑할 수 없습니다.  이러한 유형의 결정을 내리기 위해 고객과 파트너의 피드백을 찾고 있습니다.
 
 ### <a name="can-i-run-custom-code-in-my-report"></a>내 보고서에서 사용자 지정 코드를 실행할 수 있나요?
 
@@ -171,7 +168,7 @@ Microsoft는 기존 Power BI API를 사용하여 이 시나리오를 지원할 �
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Power BI 앱을 통해 내 페이지를 매긴 보고서 콘텐츠를 공유할 수 있나요?
 
-현재 포털에서 공유 작업을 통해 개별적인 페이지를 매긴 보고서를 다른 사용자와 공유할 수 있습니다. 앱에서의 공유는 아직 지원되지 않지만 곧 지원될 것으로 예상됩니다. 도구 모음에도 공유 단추가 있습니다.
+현재 포털 또는 도구 모음에서 공유 작업을 통해 개별적으로 페이지를 매긴 보고서를 다른 사용자와 공유할 수 있습니다. 앱에서의 공유는 아직 지원되지 않지만 곧 지원될 것으로 예상됩니다. 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>보고서 타일을 대시보드에 고정하는 기능과 같이, Power BI의 다른 보고서 관련 기능이 페이지를 매긴 보고서에서도 작동하나요?
 
@@ -179,15 +176,15 @@ Microsoft는 기존 Power BI API를 사용하여 이 시나리오를 지원할 �
 
 ### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>Power BI 서비스의 페이지를 매긴 보고서에 대해 새 제작 도구를 만들 계획인가요?  현재 보고서 작성기로는 필요한 일부 작업을 수행할 수 없습니다.
 
-아직도 최상의 도구를 제공하기 위해 다양한 옵션을 검토 중이긴 하지만 ALM, 사용자 지정 확장, SSRS의 작성자 도구 중 하나에만 포함될 수 있는 다른 기능 등 여러 기능을 지원하게 될 것이라 확신하고 있습니다. 
+여전히 Power BI의 페이지를 매긴 보고서에 대한 최상의 도구 스토리에 적용할 다양한 옵션을 찾고 있습니다. 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>SSRS 고객이 기존 보고서 및 자산을 Power BI로 이동할 수 있도록 마이그레이션 도구가 계획되어 있나요?
 
-예. 하지만 Power BI 서비스의 핵심적인 지원 기능 세트가 완료될 때까지는 안 됩니다.
+현재 콘텐츠를 자동으로 Power BI로 이동할 수 있는 옵션을 평가하고 있지만, GA 상태가 될 때까지 이 옵션은 사용할 수 없습니다.
 
 ### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>페이지를 매긴 보고서와 Power BI 보고서를 단일 제작 도구로 둘 다 만들 수 있나요?
 
-현재 단일 제작 도구를 계획하고 있지는 않으나 제작 도구를 개별 다운로드/브랜딩이 아니라 단일 BI 제품군으로 함께 배포할 수 있는 방법을 찾고 있습니다.
+잠재적으로는 가능합니다.  현재 이 시나리오를 가능하게 하는 방법을 찾고 있거나, 단순히 제작 도구를 단일 BI 제품군으로 배포하는 경우와 개별 다운로드/브랜딩을 사용하는 경우를 비교하고 있습니다.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서에 대한 보고서 뷰어 컨트롤이 있나요?
 

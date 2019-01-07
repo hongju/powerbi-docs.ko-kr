@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619819"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329743"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 소스
 Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 있습니다. 이 페이지의 맨 아래에는 사용 가능한 데이터 소스의 전체 목록이 있습니다.
@@ -78,6 +78,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Impala
 * Google BigQuery
 * Snowflake
+* Essbase(베타)
 * BI 커넥터
 * Exasol
 * Dremio(베타)
@@ -93,7 +94,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 **Power BI** 범주는 다음과 같은 데이터 연결을 제공합니다.
 
-* Power BI 데이터 집합
+* Power BI 데이터 세트
 * Power BI 데이터 흐름(베타)
 
 다음 이미지는 **Power BI**에 대한 **데이터 가져오기** 창을 보여줍니다.
@@ -137,7 +138,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * appFigures(베타)
 * comScore Digital Analytix(베타)
 * Dynamics 365 for Customer Insights(베타)
-* Data.World - 데이터 집합 가져오기(베타)
+* Data.World - 데이터 세트 가져오기(베타)
 * Facebook
 * GitHub(베타)
 * MailChimp(베타)
