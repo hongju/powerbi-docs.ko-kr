@@ -559,14 +559,14 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 * 친절한 하이퍼링크를 통해 이제 텍스트 상자에 전체 URL을 표시하지 않고도 사용자에게 링크를 제공할 수 있습니다.
 * Power BI 보고서에 드릴 지원이 추가 되었습니다. 사용자가 데이터의 한 수준에서 관련된 데이터까지 탐색할 수 있도록 드릴 경로를 만들 수 있습니다.
 * 두 가지 새로운 산업 관련 샘플인 IT Spend Analysis 및 Supplier Quality Analysis는 데이터 가져오기 환경의 샘플 섹션 아래에 추가되었습니다. 이러한 샘플은 통찰력 있는 보고서와 대시보드를 만들 데이터를 사용 하는 방법의 좋은 예입니다.
-* Yammer 데이터에 대한 이해력을 심층적으로 쉽게 넓힐 수 있는 tyGraph를 위한 새로운 콘텐츠 팩이 있습니다. 콘텐츠 팩에는 Measure of Active Engagement(MAE 점수)와 같은 통찰력과 파일 보기 및 파일 다운로드와 같은 콘텐츠 소비 메트릭을 탐색하고 제공하는 대시보드, 일련의 보고서, 큐레이트 데이터 집합이 있습니다. [블로그](http://blogs.msdn.com/b/powerbi/archive/2015/09/09/analyze-and-monitor-your-tygraph-data-with-power-bi.aspx) 및 [도움말 항목](service-connect-to-tygraph.md)에서 자세히 알아보세요.
+* Yammer 데이터에 대한 이해력을 심층적으로 쉽게 넓힐 수 있는 tyGraph를 위한 새로운 콘텐츠 팩이 있습니다. 콘텐츠 팩에는 Measure of Active Engagement(MAE 점수)와 같은 통찰력과 파일 보기 및 파일 다운로드와 같은 콘텐츠 소비 메트릭을 탐색하고 제공하는 대시보드, 일련의 보고서, 큐레이트 데이터 세트가 있습니다. [블로그](http://blogs.msdn.com/b/powerbi/archive/2015/09/09/analyze-and-monitor-your-tygraph-data-with-power-bi.aspx) 및 [도움말 항목](service-connect-to-tygraph.md)에서 자세히 알아보세요.
 
 **2015년 9월 1일**
 
 * Webtrends는 회사가 고객 데이터의 특성을 파악하여 디지털 마케팅이 성공하도록 도와줍니다. 사용자는 웹, 소셜 네트워크, 모바일 및 SharePoint 채널에 걸쳐 방문자 여행에 대한 정보를 관찰하고, 분석하여 제공할 수 있습니다. [Webtrends 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx) 출시로 사용자는 Webtrends 분석 데이터를 모니터링, 분석 및 시각화하는 데 Power BI를 사용할 수 있게 되었습니다. Power BI용 Webtrends 콘텐츠 팩의 [도움말 페이지](service-connect-to-webtrends.md)에서 자세히 알아보세요.
-* 질문과 대답으로 시작하는 것이 훨씬 간단합니다. 질문과 대답 텍스트 상자에 커서를 배치하는 순간 즉시 데이터와 관련된 질문 및 주요 메트릭 목록이 표시됩니다.  기본적으로, 드롭다운 목록에서 대시보드에 이미 고정된 타일과 데이터 집합에 있는 각 테이블에 대한 항목에 대한 질문을 볼 수 있습니다.
+* 질문과 대답으로 시작하는 것이 훨씬 간단합니다. 질문과 대답 텍스트 상자에 커서를 배치하는 순간 즉시 데이터와 관련된 질문 및 주요 메트릭 목록이 표시됩니다.  기본적으로, 드롭다운 목록에서 대시보드에 이미 고정된 타일과 데이터 세트에 있는 각 테이블에 대한 항목에 대한 질문을 볼 수 있습니다.
 * 기본적으로 표시하는 동적 캔버스 크기는 브라우저 창 크기에 맞게 최적의 차원으로 모든 보고서 항목을 렌더링합니다. 가로 세로 비율을 고정하거나 다른 방식으로 보고서를 맞추려는 경우 페이지에 맞추기, 너비에 맞추기, 실제 크기 등의 세 가지 옵션을 지원합니다.
-* 또한 보유할 수 있는 데이터 집합 및 보고서 수의 제한을 늘렸습니다. 현재 Power BI 계정에서 최대 200개의 데이터 집합과 각 데이터 집합에 대해 200개의 보고서를 보유할 수 있습니다.
+* 또한 보유할 수 있는 데이터 세트 및 보고서 수의 제한을 늘렸습니다. 현재 Power BI 계정에서 최대 200개의 데이터 세트와 각 데이터 세트에 대해 200개의 보고서를 보유할 수 있습니다.
 
 **2015년 8월 25일**
 
@@ -597,12 +597,12 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 * [조직 콘텐츠 팩](service-organizational-content-pack-introduction.md): Power BI를 사용 하여 대시보드 및 보고서를 매우 간단하게 만들 수 있고, 사용자가 이 콘텐츠를 조직 콘텐츠 갤러리에 게시할 수 있게 되었습니다.
 * [전체 Excel 파일 가져오기](service-excel-workbook-files.md): Excel Online에서 하듯 비즈니스용 OneDrive에 저장된 Excel 통합 문서를 Power BI에 가져와 전체 통합 문서를 볼 수 있습니다.
 * [CSV 파일 가져오기](service-get-data-from-files.md): Excel 또는 Power BI 데스크톱 파일처럼 쉼표로 구분된 값 텍스트(CSV) 파일은 Power BI 대시보드 및 보고서용 데이터 집합이 될 수도 있습니다.
-* Excel, Power BI Desktop 및 CSV 파일 대체: 업데이트된 버전의 파일을 Power BI에 업로드하여 기존 데이터 집합을 대체할 수 있습니다. 이 데이터 집합에 연결된 모든 보고서 및 대시보드는 이제 자동으로 새 버전을 사용합니다.
+* Excel, Power BI Desktop 및 CSV 파일 대체: 업데이트된 버전의 파일을 Power BI에 업로드하여 기존 데이터 집합을 대체할 수 있습니다. 이 데이터 세트에 연결된 모든 보고서 및 대시보드는 이제 자동으로 새 버전을 사용합니다.
 * Power BI의 이번 주 업데이트가 [Visual Studio Online 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)에서 작업 항목 추적 기능을 제공할 수 있게 되었음을 알려드립니다. 이 업데이트는 초기 버전에 포함된 Git 리포지토리, 끌어오기 요청 및 버전 제어 콘텐츠에 대한 중요한 메트릭 외에도 작업 항목에 대해 알 수 있도록 해주는 새로운 대시보드, 보고서, 업데이트된 데이터 집합을 포함합니다. 시작 방법에 대한 자세한 내용은 [Power BI용 Visual Studio Online 콘텐츠 팩 도움말 페이지](service-connect-to-quickbooks-online.md)를 참조하세요.
 
 **2015년 7월 14일**
 
-* Acumatica Cloud ERP는 강력하고 유연한 플랫폼에서 제공되는 재무, 배포, CRM 및 프로젝트 회계 등 완전 통합 비즈니스 관리 애플리케이션 제품군을 제공합니다. Power BI [Acumatica 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)을 사용하면 신속하게 연결하고 기회 데이터에 대한 이해력을 즉각적으로 넓힐 수 있습니다. 이 콘텐츠에는 날짜별로 획득한 총 기회 수 등과 같은 세부 정보를 탐색하고 제공하기 위해 기본 제공된 대시보드, 일련의 보고서, 큐레이트 데이터 집합이 있습니다. 자세한 내용은 [여기](service-connect-to-acumatica.md)를 읽어보세요. 
+* Acumatica Cloud ERP는 강력하고 유연한 플랫폼에서 제공되는 재무, 배포, CRM 및 프로젝트 회계 등 완전 통합 비즈니스 관리 애플리케이션 제품군을 제공합니다. Power BI [Acumatica 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)을 사용하면 신속하게 연결하고 기회 데이터에 대한 이해력을 즉각적으로 넓힐 수 있습니다. 이 콘텐츠에는 날짜별로 획득한 총 기회 수 등과 같은 세부 정보를 탐색하고 제공하기 위해 기본 제공된 대시보드, 일련의 보고서, 큐레이트 데이터 세트가 있습니다. 자세한 내용은 [여기](service-connect-to-acumatica.md)를 읽어보세요. 
 * [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx)는 이제 완전히 관리되는 Spark 서비스를 제공합니다. 이 기능을 통해 반복적인 기계 학습과 대화형 데이터 분석 등의 시나리오를 구성할 수 있게 되었습니다. Power BI를 통해 간단한 실시간 탐색을 제공하는 HDInsight의 Spark의 데이터에 직접 연결할 수 있습니다. 자세한 내용은 [도움말 설명서](spark-on-hdinsight-with-direct-connect.md)를 읽어보세요.
 * [Office 365 탐색 및 응용 프로그램 시작 관리자 통합](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher) 이제 한 번의 클릭으로 Office 365 애플리케이션 모두를 탐색할 수 있습니다.
 * 타일을 클릭할 때 사용자가 탐색하는 [사용자 지정 URL 지정](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url) 이제 특정 보고서, 다른 대시보드, SSRS 보고서 또는 외부 웹사이트 등 사용자가 이동하는 곳을 정확하게 제어할 수 있게 되었습니다. 
@@ -611,7 +611,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 7월 7일**
 
-* 가장 많이 기다리고 요청된 기능 중 하나가 이제 Power BI에서 사용할 수 있게 되었습니다. 오늘부터 Power BI에서 SQL Server와 같은 온-프레미스 소스에 연결된 [데이터 집합을 새로 고칠](http://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx) 수 있습니다. 파워 쿼리 또는 파워 피벗을 사용하여 통합 문서로 가져온 데이터로 Power BI Designer 파일 또는 Excel 통합 문서에서 생성된 데이터 집합을 새로 고칠 수 있습니다. 
+* 가장 많이 기다리고 요청된 기능 중 하나가 이제 Power BI에서 사용할 수 있게 되었습니다. 오늘부터 Power BI에서 SQL Server와 같은 온-프레미스 소스에 연결된 [데이터 집합을 새로 고칠](http://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx) 수 있습니다. 파워 쿼리 또는 파워 피벗을 사용하여 통합 문서로 가져온 데이터로 Power BI Designer 파일 또는 Excel 통합 문서에서 생성된 데이터 세트를 새로 고칠 수 있습니다. 
 
 **2015년 6월 30일**
 
@@ -629,7 +629,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 6월 9일**
 
-* Power BI를 통해 [MailChimp API](http://blogs.msdn.com/b/powerbi/archive/2015/06/09/user-power-bi-to-monitor-and-visualize-your-mailchimp-data.aspx)를 사용하여 해당 데이터를 모니터링하고 탐색하여 분석을 위해 기본 제공된 일련의 콘텐츠를 제공합니다. 대시보드, 보고서 및 MailChimp 시나리오에 대해 큐레이트된 데이터 집합을 통해 요일별 상위 캠페인의 총 열린 수 등의 데이터를 쉽게 액세스할 수 있습니다. 시작 방법에 대한 자세한 내용은 Power BI용 MailChimp 콘텐츠 팩 [설명서](service-connect-to-mailchimp.md)를 참조하세요.
+* Power BI를 통해 [MailChimp API](http://blogs.msdn.com/b/powerbi/archive/2015/06/09/user-power-bi-to-monitor-and-visualize-your-mailchimp-data.aspx)를 사용하여 해당 데이터를 모니터링하고 탐색하여 분석을 위해 기본 제공된 일련의 콘텐츠를 제공합니다. 대시보드, 보고서 및 MailChimp 시나리오에 대해 큐레이트된 데이터 세트를 통해 요일별 상위 캠페인의 총 열린 수 등의 데이터를 쉽게 액세스할 수 있습니다. 시작 방법에 대한 자세한 내용은 Power BI용 MailChimp 콘텐츠 팩 [설명서](service-connect-to-mailchimp.md)를 참조하세요.
 
 **2015년 6월 2일**
 
@@ -642,7 +642,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 5월 13일**
 
-* Power BI의 최신 업데이트를 사용하면 일련의 기본 제공된 보고서와 사용자 지정된 대시보드와 **SQL 데이터베이스 감사** 에 의해 기록된 데이터에 연결할 수 있습니다. 이 콘텐츠 팩은 보고를 위해 생성된 데이터 집합을 기반으로 의심스러운 이벤트, 비정상적인 활동 및 추세를 쉽게 찾을 수 있습니다. [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/05/14/monitor-your-azure-sql-database-auditing-activity-with-power-bi.aspx) 및 [설명서](service-connect-to-azure-sql-database-auditing.md)에서 자세히 알아보세요.
+* Power BI의 최신 업데이트를 사용하면 일련의 기본 제공된 보고서와 사용자 지정된 대시보드와 **SQL 데이터베이스 감사** 에 의해 기록된 데이터에 연결할 수 있습니다. 이 콘텐츠 팩은 보고를 위해 생성된 데이터 세트를 기반으로 의심스러운 이벤트, 비정상적인 활동 및 추세를 쉽게 찾을 수 있습니다. [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/05/14/monitor-your-azure-sql-database-auditing-activity-with-power-bi.aspx) 및 [설명서](service-connect-to-azure-sql-database-auditing.md)에서 자세히 알아보세요.
 * **Azure SQL 데이터베이스**에 저장된 데이터에 직접 연결할 수 있습니다. 쿼리를 동적으로 생성하여 원본으로 보내어 데이터베이스를 통해 직접 대화형 보고서를 만들 수 있습니다. 자세한 내용은 [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx) 및 [설명서](service-azure-sql-database-with-direct-connect.md)에 나와 있습니다.
 
 **2015년 5월 7일**
@@ -659,7 +659,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 4월 15일**
 
-* 이제 새 콘텐츠 팩을 사용하여 **Google 분석** 데이터를 시각화 및 탐색할 수 있습니다! Google 분석 콘텐츠 팩을 사용하면 대시보드, 보고서 및 데이터 집합을 가져와 지난 6개월 동안 사이트의 사용에 대한 이해력을 넓힐 수 있습니다. 자세한 내용은 [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx) 및 [설명서](service-connect-to-google-analytics.md)에 나와 있습니다.
+* 이제 새 콘텐츠 팩을 사용하여 **Google 분석** 데이터를 시각화 및 탐색할 수 있습니다! Google 분석 콘텐츠 팩을 사용하면 대시보드, 보고서 및 데이터 세트를 가져와 지난 6개월 동안 사이트의 사용에 대한 이해력을 넓힐 수 있습니다. 자세한 내용은 [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx) 및 [설명서](service-connect-to-google-analytics.md)에 나와 있습니다.
 * 이제 질문 및 답변 및 보고서의 KPI 및 이미지가 포함된 **모든 카드를 고정**할 수 있습니다.
 * 이제 쿼리의 끝에 'as card'라는 문구를 사용하여 **질문 및 답변에서 카드**를 사용할 수 있습니다.
 

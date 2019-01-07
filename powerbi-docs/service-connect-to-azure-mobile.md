@@ -38,7 +38,7 @@ Power BI용 [Azure Mobile Engagement 콘텐츠 팩](https://app.powerbi.com/grou
 5. 인증 방법에 대해 키를 제공한 다음 로그인을 클릭합니다.
    
     ![](media/service-connect-to-azure-mobile/creds.png)
-6. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 집합이 표시됩니다. 새 항목이 노란색 별표 \*로 표시되고 다시 선택하면 사라집니다.
+6. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목이 노란색 별표 \*로 표시되고 다시 선택하면 사라집니다.
    
     ![](media/service-connect-to-azure-mobile/dashboard.png)
 

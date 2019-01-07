@@ -37,7 +37,7 @@ Power BI용 [IntelliBoard 콘텐츠 팩](https://app.powerbi.com/getdata/service
     ![](media/service-connect-to-intelliboard/creds.png)
    
     ![](media/service-connect-to-intelliboard/creds2.png)
-5. 연결되면 대시보드, 보고서 및 데이터 집합은 자동으로 로드됩니다. 완료되면 타일은 IntelliBoard 계정의 데이터로 업데이트됩니다.
+5. 연결되면 대시보드, 보고서 및 데이터 세트는 자동으로 로드됩니다. 완료되면 타일은 IntelliBoard 계정의 데이터로 업데이트됩니다.
    
     ![](media/service-connect-to-intelliboard/dashboard.png)
 

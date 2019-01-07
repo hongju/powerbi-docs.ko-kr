@@ -29,7 +29,7 @@ ms.locfileid: "52670857"
 [**Web.Page**](https://msdn.microsoft.com/library/mt260924.aspx) 함수를 사용하는 웹 커넥터 스크립트가 있고 2016년 11월 18일 이후에 데이터 집합 또는 보고서를 업데이트한 경우 새로 고침이 제대로 작동하도록 하려면 게이트웨이를 사용해야 합니다.
 
 ## <a name="unsupported-data-source-for-refresh"></a>새로 고침을 지원하지 않는 데이터 소스
-데이터 집합을 구성할 때 새로 고치기 위해 지원되지 않는 데이터 원본을 사용하는 데이터 집합을 비롯한 오류가 발생할 수 있습니다. 자세한 내용은 [새로 고침을 지원하지 않는 데이터 소스 문제 해결](service-admin-troubleshoot-unsupported-data-source-for-refresh.md)을 참조하세요.
+데이터 세트를 구성할 때 새로 고치기 위해 지원되지 않는 데이터 원본을 사용하는 데이터 세트를 비롯한 오류가 발생할 수 있습니다. 자세한 내용은 [새로 고침을 지원하지 않는 데이터 소스 문제 해결](service-admin-troubleshoot-unsupported-data-source-for-refresh.md)을 참조하세요.
 
 ## <a name="dashboard-doesnt-reflect-changes-after-refresh"></a>대시보드는 새로 고침 후의 변경을 반영하지 않습니다.
 대시보드 타일에 반영되도록 하려면 새로 고침에 대해 약 10~15분 기다려 주세요.  여전히 표시되지 않으면 대시 보드에 시각화를 다시 고정합니다.

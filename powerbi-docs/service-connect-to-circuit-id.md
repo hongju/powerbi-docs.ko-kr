@@ -35,7 +35,7 @@ Power BI용 [회로 ID 콘텐츠 팩](https://app.powerbi.com/getdata/services/c
 4. 인증 방법에 대해 기본을 선택하고 사용자 이름 및 암호를 제공합니다. 그런 다음 로그인을 누릅니다.
    
     ![](media/service-connect-to-circuit-id/circuitid_login.png)
-5. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 집합이 표시됩니다. 새 항목은 노란색 별표로 표시됩니다.
+5. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 노란색 별표로 표시됩니다.
    
     ![](media/service-connect-to-circuit-id/circuitid_dashboard_chrome.png)
 

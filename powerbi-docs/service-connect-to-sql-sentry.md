@@ -47,7 +47,7 @@ Power BI용 [SQL Sentry 콘텐츠 팩](https://app.powerbi.com/groups/me/getdata
    처음 연결하는 경우 Power BI에 계정에 대한 읽기 전용 액세스를 허용하라는 메시지가 표시됩니다. 허용을 선택하여 가져오기 프로세스를 시작합니다.  가져오기 프로세스는 계정의 데이터 볼륨에 따라 몇 분 정도 걸릴 수 있습니다.
    
    ![](media/service-connect-to-sql-sentry/img7400.png)
-6. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 집합이 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
+6. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
    
    ![](media/service-connect-to-sql-sentry/img8200.png)
 7. SQL Sentry 대시보드를 선택합니다.

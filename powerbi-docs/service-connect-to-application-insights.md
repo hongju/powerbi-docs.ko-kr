@@ -41,7 +41,7 @@ Power BI를 사용하여 [Application Insights](/azure/application-insights/app-
 5. **로그인** 을 선택하고 연결할 화면을 따릅니다.
    
     ![Application Insights 연결 로그인](media/service-connect-to-application-insights/pbi_contpkappinsitconnectn2.png)
-6. 가져오기 프로세스가 자동으로 시작됩니다. 완료되면 알림이 보여지고 새 대시보드, 보고서 및 모델이 별표로 표시된 탐색 창에 나타납니다.  대시보드를 선택하여 가져온 데이터를 표시합니다.
+6. 가져오기 프로세스가 자동으로 시작됩니다. 완료되면 알림이 보여지고 새 대시보드, 보고서 및 데이터 세트가 별표로 표시된 탐색 창에 나타납니다.  대시보드를 선택하여 가져온 데이터를 표시합니다.
    
     ![Application Insights 대시보드](media/service-connect-to-application-insights/pbi_contpkappinsitdash.png)
 

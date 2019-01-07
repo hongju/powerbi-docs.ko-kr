@@ -49,7 +49,7 @@ Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지가 매겨진
    * 페이지가 매겨진 보고서
    * Power BI Desktop 보고서
    * Excel 통합 문서
-   * 데이터 집합
+   * 데이터 세트
    * 데이터 소스
    * 리소스
 

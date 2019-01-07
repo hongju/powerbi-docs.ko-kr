@@ -1,6 +1,6 @@
 ---
-title: 행을 추가할 데이터 집합 가져오기
-description: 데이터 푸시 연습 - Power BI 테이블에 행을 추가할 데이터 집합 가져오기
+title: 행을 추가할 데이터 세트 가져오기
+description: 데이터 푸시 연습 - Power BI 테이블에 행을 추가할 데이터 세트 가져오기
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
@@ -16,16 +16,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/29/2018
 ms.locfileid: "37092555"
 ---
-# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4단계: Power BI 테이블에 행을 추가할 데이터 집합 가져오기
+# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4단계: Power BI 테이블에 행을 추가할 데이터 세트 가져오기
 이 문서는 [데이터 집합에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
-데이터 집합에 데이터 푸시의 **3단계** [Power BI에서 데이터 집합 만들기](walkthrough-push-data-create-dataset.md)에서는 [데이터 집합 만들기](https://docs.microsoft.com/rest/api/power-bi/datasets) 작업을 호출하여 Power BI에서 데이터 집합을 만들었습니다. 이 단계에서는 [데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업과 Newtonsoft.Json을 사용하여 데이터 집합 ID를 가져옵니다. 4단계의 데이터 집합 ID를 사용하여 데이터 집합에 행을 추가합니다. 
+데이터 집합에 데이터 푸시의 **3단계** [Power BI에서 데이터 집합 만들기](walkthrough-push-data-create-dataset.md)에서는 [데이터 집합 만들기](https://docs.microsoft.com/rest/api/power-bi/datasets) 작업을 호출하여 Power BI에서 데이터 집합을 만들었습니다. 이 단계에서는 [데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업과 Newtonsoft.Json을 사용하여 데이터 집합 ID를 가져옵니다. 4단계의 데이터 세트 ID를 사용하여 데이터 세트에 행을 추가합니다. 
 
 데이터를 Power BI 데이터 집합으로 푸시하려면 데이터 집합의 테이블을 참조해야 합니다. 데이터 집합의 테이블을 참조하려면 먼저 **데이터 집합 ID**를 가져와야 합니다. **데이터 집합 ID**는 [ID별 데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid) 작업을 사용하여 가져옵니다. **ID별 데이터 집합 가져오기** 작업은 Power BI에 있는 모든 데이터 집합의 목록이 포함된 JSON 문자열을 반환합니다. JSON 문자열을 역직렬화하는 데 권장되는 방법은 [Newtonsoft.Json](http://www.newtonsoft.com/json)을 사용하는 것입니다.
 
-데이터 집합을 가져오는 방법은 다음과 같습니다.
+데이터 세트를 가져오는 방법은 다음과 같습니다.
 
-## <a name="get-a-power-bi-dataset"></a>Power BI 데이터 집합 가져오기
+## <a name="get-a-power-bi-dataset"></a>Power BI 데이터 세트 가져오기
 > **참고**: 시작하기 전에 [데이터 집합에 데이터 푸시](walkthrough-push-data.md)의 이전 단계를 수행해야 합니다.
 > 
 > 

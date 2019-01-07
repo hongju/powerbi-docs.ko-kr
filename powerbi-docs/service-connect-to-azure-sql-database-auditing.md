@@ -60,7 +60,7 @@ Power BI용 [SQL Database 감사 콘텐츠 팩](https://app.powerbi.com/getdata/
 5. 인증 방법에 대해 **키**를 선택하고 **계정 키** \> **로그인**을 입력합니다.
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqlauditing3.png)
-6. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 집합이 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
+6. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqldbauditingnewdash.png)
 

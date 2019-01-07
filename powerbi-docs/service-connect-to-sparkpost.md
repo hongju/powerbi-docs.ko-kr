@@ -18,7 +18,7 @@ ms.lasthandoff: 09/21/2018
 ms.locfileid: "46547617"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Power BI로 SparkPost에 연결
-SparkPost용 Power BI 콘텐츠 팩을 사용하면 SparkPost 계정에서 하나의 통찰력 대시보드에 중요한 데이터 집합을 추출할 수 있습니다. SparkPost 콘텐츠 팩을 사용하여 도메인, 캠페인 및 ISP에 의한 참여를 포함하는 전체 전자 메일 통계를 시각화할 수 있습니다.
+SparkPost용 Power BI 콘텐츠 팩을 사용하면 SparkPost 계정에서 하나의 통찰력 대시보드에 중요한 데이터 세트를 추출할 수 있습니다. SparkPost 콘텐츠 팩을 사용하여 도메인, 캠페인 및 ISP에 의한 참여를 포함하는 전체 전자 메일 통계를 시각화할 수 있습니다.
 
 [Power BI용 SparkPost 콘텐츠 팩](https://app.powerbi.com/getdata/services/spark-post)에 연결합니다.
 
@@ -35,7 +35,7 @@ SparkPost용 Power BI 콘텐츠 팩을 사용하면 SparkPost 계정에서 하�
 4. 대화 상자가 나타나면 SparkPost API 키를 입력하고 로그인을 선택합니다. 아래에서 [이러한 매개 변수 찾기](#FindingParams)에 대한 세부 정보를 참조하세요.
    
    ![](media/service-connect-to-sparkpost/creds.png)
-5. 데이터는 로드하기 시작하며 계정의 크기에 따라 약간의 시간이 걸릴 수 있습니다. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 지난 90일간의 메일 통계가 채워진 기본 대시보드, 보고서 및 데이터 집합이 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
+5. 데이터는 로드하기 시작하며 계정의 크기에 따라 약간의 시간이 걸릴 수 있습니다. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 지난 90일간의 이메일 통계가 채워진 기본 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
    
    ![](media/service-connect-to-sparkpost/dashboard.png)
 

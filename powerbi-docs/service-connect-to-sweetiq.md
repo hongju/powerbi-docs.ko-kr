@@ -35,7 +35,7 @@ Power BI용 [SweetIQ 콘텐츠 팩](https://app.powerbi.com/groups/me/getdata/se
 4. **키** 인증 형식을 선택하고 Sweet IQ API 키를 제공합니다. 일반적으로 영숫자 값입니다. 이 값 찾기에 대한 자세한 내용은 아래를 참조하세요.
    
     ![](media/service-connect-to-sweetiq/credentials.png)
-5. Power BI가 데이터를 로드를 시작합니다. 이 작업은 계정의 데이터의 크기에 따라 시간이 걸릴 수 있습니다. 로드가 완료되면 새 대시보드, 보고서 및 데이터 집합이 왼쪽 탐색 창에 표시됩니다.
+5. Power BI가 데이터를 로드를 시작합니다. 이 작업은 계정의 데이터의 크기에 따라 시간이 걸릴 수 있습니다. 로드가 완료되면 새 대시보드, 보고서 및 데이터 세트가 왼쪽 탐색 창에 표시됩니다.
    
     ![](media/service-connect-to-sweetiq/dashboard.png)
 

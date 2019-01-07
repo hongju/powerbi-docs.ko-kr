@@ -23,7 +23,7 @@ ms.locfileid: "37780578"
 > [!IMPORTANT]
 > [데이터 집합 작업 그룹](https://docs.microsoft.com/rest/api/power-bi/datasets) 페이지에서 액세스할 수 있습니다.
 
-## <a name="dataset"></a>데이터 집합
+## <a name="dataset"></a>데이터 세트
 
 이름  |형식  |설명  |읽기 전용  |필수
 ---------|---------|---------|---------|---------

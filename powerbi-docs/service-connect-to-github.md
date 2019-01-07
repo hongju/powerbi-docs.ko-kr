@@ -45,7 +45,7 @@ Power BI용 GitHub 콘텐츠 팩을 사용하면 참여, 문제, 끌어오기 �
    ![](media/service-connect-to-github/github_authorize.png)
    
    GitHub를 사용하여 Power BI에 연결되고 Power BI가 데이터에 연결할 수 있습니다.  하루에 한 번 데이터가 새로 고쳐집니다.
-8. 리포에 연결하면 Power BI에서 데이터를 가져옵니다. 왼쪽 탐색 창에 새 [GitHub 대시보드](https://powerbi.microsoft.com/integrations/github), 보고서 및 데이터 집합이 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
+8. 리포에 연결하면 Power BI에서 데이터를 가져옵니다. 왼쪽 탐색 창에 새 [GitHub 대시보드](https://powerbi.microsoft.com/integrations/github), 보고서 및 데이터 세트가 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
    
    ![](media/service-connect-to-github/pbi_githubdash.png)
 

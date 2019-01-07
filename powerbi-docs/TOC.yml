@@ -1022,7 +1022,7 @@ items:
         href: developer/walkthrough-push-data-get-token.md
       - name: 데이터 세트 만들기
         href: developer/walkthrough-push-data-create-dataset.md
-      - name: 행을 추가할 데이터 집합 가져오기
+      - name: 행을 추가할 데이터 세트 가져오기
         href: developer/walkthrough-push-data-get-datasets.md
       - name: 테이블에 행 추가
         href: developer/walkthrough-push-data-add-rows.md

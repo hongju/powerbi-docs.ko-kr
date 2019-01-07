@@ -29,7 +29,7 @@ ms.locfileid: "53180970"
 ## <a name="prerequisites"></a>필수 조건
 샘플은 Power BI 서비스 및 Power BI Desktop에 대해 사용할 수 있습니다. 과정을 따르기 위해 소매점 분석 샘플을 사용하겠습니다.
 
-이 자습서에 사용된 *소매점 분석* 샘플 콘텐츠 팩은 대시보드, 보고서 및 데이터 집합으로 구성됩니다.
+이 자습서에 사용된 *소매점 분석* 샘플 콘텐츠 팩은 대시보드, 보고서 및 데이터 세트로 구성됩니다.
 이 콘텐츠 팩과 해당 시나리오를 잘 알려면 시작하기 전에 [소매점 분석 샘플을 둘러보는 것](sample-retail-analysis.md)이 좋습니다.
 
 ## <a name="samples-and-power-bi-service"></a>샘플 및 Power BI 서비스

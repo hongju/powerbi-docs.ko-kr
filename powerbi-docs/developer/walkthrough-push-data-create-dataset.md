@@ -1,5 +1,5 @@
 ---
-title: 데이터 집합 만들기
+title: 데이터 세트 만들기
 description: 연습 - 데이터 집합에 데이터 푸시 - Power BI에서 데이터 집합 만들기
 author: markingmyname
 manager: kfile
@@ -21,7 +21,7 @@ ms.locfileid: "37092532"
 
 데이터 집합에 데이터 푸시의 **2단계**인 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 **Azure AD**에 인증한 토큰을 가져왔습니다. 이 단계에서는 이 토큰을 사용하여 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업을 호출합니다.
 
-REST 리소스를 호출하려면 리소스를 찾는 URL을 사용하여 데이터 집합을 설명하는 JSON(JavaScript Object Notation) 문자열을 Power BI 서비스 리소스에 보냅니다. REST 리소스는 작업할 Power BI 서비스 부분을 식별합니다. 데이터 집합에 데이터를 푸시하려면 대상 리소스는 **데이터 집합**입니다. 데이터 집합을 식별하는 URL은 https://api.PowerBI.com/v1.0/myorg/datasets입니다. 그룹 내의 데이터를 푸시하는 경우 URL은 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets입니다.
+REST 리소스를 호출하려면 리소스를 찾는 URL을 사용하여 데이터 세트를 설명하는 JSON(JavaScript Object Notation) 문자열을 Power BI 서비스 리소스에 보냅니다. REST 리소스는 작업할 Power BI 서비스 부분을 식별합니다. 데이터 집합에 데이터를 푸시하려면 대상 리소스는 **데이터 집합**입니다. 데이터 집합을 식별하는 URL은 https://api.PowerBI.com/v1.0/myorg/datasets입니다. 그룹 내의 데이터를 푸시하는 경우 URL은 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets입니다.
 
 Power BI REST 작업을 인증하려면 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 가져온 토큰을 요청 헤더에 추가합니다.
 

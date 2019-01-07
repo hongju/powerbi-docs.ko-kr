@@ -34,7 +34,7 @@ Power BI API를 사용하여 데이터를 Power BI 데이터 집합에 푸시할
 
 ## <a name="power-bi-api-operations-to-push-data"></a>데이터를 푸시하는 Power BI API 작업
 
-Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱이 데이터 집합에 행을 추가하면 대시보드의 타일이 업데이트된 데이터와 함께 자동으로 업데이트됩니다. 데이터를 푸시하려면 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업과 함께 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 사용합니다. 데이터 집합을 찾으려면 [데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업을 사용합니다. 이러한 작업에서는 그룹 ID를 전달하여 그룹으로 작업할 수 있습니다. 그룹 ID 목록을 가져오려면 [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) 작업을 사용합니다.
+Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱이 데이터 세트에 행을 추가하면 대시보드의 타일이 업데이트된 데이터와 함께 자동으로 업데이트됩니다. 데이터를 푸시하려면 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업과 함께 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 사용합니다. 데이터 집합을 찾으려면 [데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업을 사용합니다. 이러한 작업에서는 그룹 ID를 전달하여 그룹으로 작업할 수 있습니다. 그룹 ID 목록을 가져오려면 [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) 작업을 사용합니다.
 
 데이터 집합에 데이터를 푸시하는 작업은 다음과 같습니다.
 
@@ -43,9 +43,9 @@ Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 
 * [행 게시](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
 * [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
-Power BI에서 데이터 집합을 만들려면 Power BI 서비스에 JSON(JavaScript Object Notation) 문자열을 전달합니다. JSON에 대한 자세한 내용은 [JSON 소개](http://json.org/)를 참조하세요.
+Power BI에서 데이터 세트를 만들려면 Power BI 서비스에 JSON(JavaScript Object Notation) 문자열을 전달합니다. JSON에 대한 자세한 내용은 [JSON 소개](http://json.org/)를 참조하세요.
 
-데이터 집합에 대한 JSON 문자열의 형식은 다음과 같습니다.
+데이터 세트에 대한 JSON 문자열의 형식은 다음과 같습니다.
 
 **Power BI 데이터 집합 JSON 개체**
 
@@ -59,7 +59,7 @@ Power BI에서 데이터 집합을 만들려면 Power BI 서비스에 JSON(JavaS
         ]
     }
 
-여기의 Sales Marketing 데이터 집합 예제에서는 아래 예제와 같은 JSON 문자열을 전달합니다. 이 예제에서 **SalesMarketing** 은 데이터 집합의 이름이고 **Product** 는 테이블의 이름입니다. 테이블을 정의한 후 테이블 스키마를 정의합니다. **SalesMarketing** 데이터 집합의 경우 테이블 스키마는 ProductID, Manufacturer, Category, Segment, Product 및 IsCompete 열을 포함합니다.
+여기의 Sales Marketing 데이터 세트 예제에서는 아래 예제와 같은 JSON 문자열을 전달합니다. 이 예제에서 **SalesMarketing** 은 데이터 집합의 이름이고 **Product** 는 테이블의 이름입니다. 테이블을 정의한 후 테이블 스키마를 정의합니다. **SalesMarketing** 데이터 집합의 경우 테이블 스키마는 ProductID, Manufacturer, Category, Segment, Product 및 IsCompete 열을 포함합니다.
 
 **예제 데이터 집합 개체 JSON**
 

@@ -35,7 +35,7 @@ Power BI용 [SendGrid 콘텐츠 팩](https://app.powerbi.com/getdata/services/se
 4. 메시지가 표시되면 SendGrid 사용자 이름과 암호를 제공합니다. **로그인**을 선택합니다.
    
    ![](media/service-connect-to-sendgrid/pbi_sendgridsignin.png)
-5. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 지난 90일간의 메일 통계가 채워진 새 대시보드, 보고서 및 데이터 집합이 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
+5. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 지난 90일간의 이메일 통계가 채워진 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
    
    ![](media/service-connect-to-sendgrid/pbi_sendgriddash.png)
 

@@ -18,7 +18,7 @@ ms.lasthandoff: 09/21/2018
 ms.locfileid: "46544604"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>Power BI로 Smartsheet에 연결
-Smartsheet는 간편하게 공동으로 작업하고 파일을 공유할 수 있는 플랫폼을 제공합니다. Power BI용 Smartsheet 콘텐츠 팩은 Smartsheet 계정의 개요를 보여 주는 대시보드, 보고서 및 데이터 집합을 제공합니다. [Power BI Desktop](desktop-connect-to-data.md)을 사용하여 계정의 개별 시트에 직접 연결할 수도 있습니다. 
+Smartsheet는 간편하게 공동으로 작업하고 파일을 공유할 수 있는 플랫폼을 제공합니다. Power BI용 Smartsheet 콘텐츠 팩은 Smartsheet 계정의 개요를 보여 주는 대시보드, 보고서 및 데이터 세트를 제공합니다. [Power BI Desktop](desktop-connect-to-data.md)을 사용하여 계정의 개별 시트에 직접 연결할 수도 있습니다. 
 
 Power BI용 [Smartsheet 콘텐츠 팩](https://app.powerbi.com/groups/me/getdata/services/smartsheet)에 연결합니다.
 
@@ -42,7 +42,7 @@ Power BI용 [Smartsheet 콘텐츠 팩](https://app.powerbi.com/groups/me/getdata
    ![](media/service-connect-to-smartsheet/creds.png)
    
    ![](media/service-connect-to-smartsheet/creds2.png)
-5. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 집합이 표시됩니다. 새 항목은 노란색 별표 \*가 표시됩니다. Smartsheet 항목을 선택하세요.
+5. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 노란색 별표 \*가 표시됩니다. Smartsheet 항목을 선택하세요.
    
    ![](media/service-connect-to-smartsheet/dashboard.png)
 

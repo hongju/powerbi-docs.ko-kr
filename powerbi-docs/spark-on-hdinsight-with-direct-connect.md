@@ -43,10 +43,10 @@ Power BI 서비스 내에서 DirectQuery를 사용하여 Azure HDInsight의 Spar
      ![](media/spark-on-hdinsight-with-direct-connect/spark-server-name.png)
 
      ![](media/spark-on-hdinsight-with-direct-connect/spark-username.png)
-5. 연결되면 "SparkDataset"라는 이름의 새 데이터 집합이 표시됩니다. 생성된 자리 표시자 타일을 통해 데이터 집합에 액세스할 수도 있습니다.
+5. 연결되면 "SparkDataset"라는 이름의 새 데이터 세트가 표시됩니다. 생성된 자리 표시자 타일을 통해 데이터 세트에 액세스할 수도 있습니다.
 
      ![](media/spark-on-hdinsight-with-direct-connect/spark-dataset.png)
-6. 데이터 집합을 드릴인투하여 데이터베이스의 모든 테이블 및 열을 탐색할 수 있습니다. 열을 선택하면 쿼리가 다시 소스로 전송되고 동적으로 시각 효과를 만듭니다. 이러한 시각 효과를 새 보고서에 저장하고 대시보드에 다시 고정할 수 있습니다.
+6. 데이터 세트를 드릴인투하여 데이터베이스의 모든 테이블 및 열을 탐색할 수 있습니다. 열을 선택하면 쿼리가 다시 소스로 전송되고 동적으로 시각 효과를 만듭니다. 이러한 시각 효과를 새 보고서에 저장하고 대시보드에 다시 고정할 수 있습니다.
 
 ## <a name="finding-your-spark-on-hdinsight-parameters"></a>HDInsight의 Spark 매개 변수 찾기
 

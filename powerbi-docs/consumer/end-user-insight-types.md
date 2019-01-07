@@ -38,7 +38,7 @@ Power BI는 흥미로운 정보를 검색하기 위해 복잡한 알고리즘을
 ![시계열의 변경 지점 예제](./media/end-user-insight-types/pbi_auto_insight_types_changepoint.png)
 
 ## <a name="correlation"></a>상관 관계
-데이터 집합의 한 차원에 대해 그릴 때 여러 측정값이 서로 간의 상관 관계를 표시하는 경우를 검색합니다.
+데이터 세트의 한 차원에 대해 그릴 때 여러 측정값이 서로 간의 상관 관계를 표시하는 경우를 검색합니다.
 
 ![상관 관계 예제](./media/end-user-insight-types/pbi_auto_insight_types_correlation.png)
 

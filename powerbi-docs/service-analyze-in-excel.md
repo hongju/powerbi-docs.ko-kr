@@ -1,6 +1,6 @@
 ---
 title: Power BI용 Excel에서 분석
-description: Excel에서 Power BI 데이터 집합을 분석하는 방법 알아보기
+description: Excel에서 Power BI 데이터 세트를 분석하는 방법 알아보기
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -25,7 +25,7 @@ Excel을 사용하여 Power BI에 있는 데이터 집합을 살펴보고 조작
 **Excel에서 분석**을 사용하려면 몇 가지 요구 사항이 있습니다.
 
 * **Excel에서 분석**은 Microsoft Excel 2010 SP1 이상에 지원됩니다.
-* Excel 피벗 테이블은 숫자 필드의 집계를 끌어서 놓도록 지원하지 않습니다. Power BI에서 데이터 집합은 *미리 정의된 측정값이어야 합니다*.
+* Excel 피벗 테이블은 숫자 필드의 집계를 끌어서 놓도록 지원하지 않습니다. Power BI에서 데이터 세트는 *미리 정의된 측정값이어야 합니다*.
 * 일부 조직에서는 Excel에 필수 **Excel에서 분석** 업데이트 설치를 막는 그룹 정책 규칙이 있을 수 있습니다. 업데이트를 설치할 수 없는 경우 관리자에게 확인합니다.
 * **Excel에서 분석**하려면 Pro 라이선스가 필요합니다. 라이선스 유형 간 기능의 차이점에 대해 학습하려면 [라이선스 유형별 Power BI 기능](service-features-license-type.md)을 살펴보세요. 
 

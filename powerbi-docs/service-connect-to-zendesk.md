@@ -49,7 +49,7 @@ Zendesk 콘텐츠 팩은 티켓 볼륨 및 에이전트 성능에 대한 통찰�
 6. **허용** 을 클릭하여 Power BI가 Zendesk 데이터에 액세스할 수 있도록 합니다.
    
    ![](media/service-connect-to-zendesk/zendesk2.jpg)
-7. **연결** 을 클릭하여 가져오기 프로세스를 시작합니다. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 집합이 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
+7. **연결** 을 클릭하여 가져오기 프로세스를 시작합니다. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
    
    ![](media/service-connect-to-zendesk/pbi_zendeskdash.png)
 

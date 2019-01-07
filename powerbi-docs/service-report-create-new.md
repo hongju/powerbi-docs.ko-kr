@@ -1,5 +1,5 @@
 ---
-title: '데이터 집합에서 새 보고서 만들기 '
+title: '데이터 세트에서 새 보고서 만들기 '
 description: 데이터 집합에서 새 Power BI 보고서를 만듭니다.
 author: maggiesMSFT
 manager: kfile

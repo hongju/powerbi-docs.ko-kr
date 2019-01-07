@@ -46,7 +46,7 @@ Power BI용 [QuickBooks Online 콘텐츠 팩](https://dxt.powerbi.com/getdata/se
    
    ![](media/service-connect-to-quickbooks-online/pbi_qbo_authorizesm.png)
    
-   Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 집합이 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
+   Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 노란색 별표 \*로 표시됩니다.
    
    ![](media/service-connect-to-quickbooks-online/pbi_qbo_leftnavnew.png)
 8. QuickBooks Online 대시보드를 선택합니다. Power BI가 가져온 데이터를 표시하기 위해 자동으로 생성한 대시보드입니다. 이 대시보드를 수정하여 원하는 방식으로 데이터를 표시할 수 있습니다. 
@@ -71,7 +71,7 @@ Power BI용 [QuickBooks Online 콘텐츠 팩](https://dxt.powerbi.com/getdata/se
 
 ![](media/service-connect-to-quickbooks-online/pbi_qbo_oopssm.png)
 
-...이는 회사의 다른 관리자가 Power BI를 사용하여 회사 데이터에 이미 연결되었음을 의미합니다. 해당 관리자에게 대시보드를 공유하도록 요청하세요. 현재 한 명의 관리자 사용자만 특정 QuickBooks Online 회사 데이터 집합을 Power BI에 연결할 수 있습니다. Power BI가 대시보드를 만든 후 관리자는 동일한 Power BI 테넌트의 여러 동료와 공유할 수 있습니다.
+...이는 회사의 다른 관리자가 Power BI를 사용하여 회사 데이터에 이미 연결되었음을 의미합니다. 해당 관리자에게 대시보드를 공유하도록 요청하세요. 현재 한 명의 관리자 사용자만 특정 QuickBooks Online 회사 데이터 세트를 Power BI에 연결할 수 있습니다. Power BI가 대시보드를 만든 후 관리자는 동일한 Power BI 테넌트의 여러 동료와 공유할 수 있습니다.
 
 **"이 앱은 해당 국가의 연결을 허용하도록 설정되어 있지 않습니다"**
 

@@ -25,7 +25,7 @@ ms.locfileid: "39475663"
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
-Power BI API를 사용하여 데이터 집합에 행을 추가하는 방법은 다음과 같습니다.
+Power BI API를 사용하여 데이터 세트에 행을 추가하는 방법은 다음과 같습니다.
 
 ## <a name="add-rows-to-a-power-bi-table"></a>Power BI 테이블에 행 추가
 > [!NOTE]
