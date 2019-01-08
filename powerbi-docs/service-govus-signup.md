@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2800eb5b01e8203632ae60c9b304a5ed9ce28b69
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 281e84b1dd3a3c21a7aaebce4784551a8afb31ba
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670233"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056067"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI 서비스에 미국 정부 기관 등록
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -102,7 +102,7 @@ Power BI **무료** 라이선스에서 **Power BI 미국 정부**로 마이그�
 
 무료와 Pro 라이선스를 미국 정부 테넌트에서 혼합 사용하며 *허용 목록 작성* 프로세스를 마친 경우 다음을 기대할 수 있습니다.
 
-***허용 목록 작성*** 후에
+**_허용 목록 작성_** 전에
 
 * 무료 라이선스 사용자가 상용 클라우드에서 실행
 * Pro 미국 정부 라이선스가 포털에 표시되고 관리자가 사용자에게 이 라이선스를 할당할 수 있습니다. Pro 미국 정부 사용자의 경우 관리자가 미국 정부 Pro 라이선스를 할당한 뒤 무료 라이선스의 데이터가 사라지지 않습니다. 할당된 사용자는 미국 정부 기관 고객용 Power BI Pro 기능에 액세스할 수 있으나 다음 글머리 기호 목록의 기능은 테넌트가 *허용 목록에 추가*될 때까지 차이가 있습니다. 
@@ -112,7 +112,7 @@ Power BI **무료** 라이선스에서 **Power BI 미국 정부**로 마이그�
   * PBIX 파일은 상용 Power BI 서비스에서 수동으로 업로드해야 합니다.
   * Power BI 모바일 앱을 사용할 수 없습니다.
 
-***허용 목록 작성*** 후에
+**_허용 목록 작성_** 후에
 
 * 상용 Power BI 서비스에서 실행하는 무료 사용자는 계속 실행할 수 있지만 예상대로 인증을 수행하지 않습니다.
 * 미국 정부 클라우드에서 실행되는 Pro 사용자는 **미국 정부 기관 고객용 Power BI** 서비스를 예상대로 사용할 수 있습니다.

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5db91d037ae32f43fe703bdc7e589a1ec5a295ca
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 48cdff67e613093c3ac473b0a505a6f0d57f4f2d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547617"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008100"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Power BI로 SparkPost에 연결
 SparkPost용 Power BI 콘텐츠 팩을 사용하면 SparkPost 계정에서 하나의 통찰력 대시보드에 중요한 데이터 세트를 추출할 수 있습니다. SparkPost 콘텐츠 팩을 사용하여 도메인, 캠페인 및 ISP에 의한 참여를 포함하는 전체 전자 메일 통계를 시각화할 수 있습니다.

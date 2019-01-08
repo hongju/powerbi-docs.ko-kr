@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5b469c506a29778ea34216b09bde90ed5f1d4345
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 72b934357ec4208fa07266143b08af861659e465
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544719"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008330"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Power BI로 Zendesk에 연결
 Zendesk 콘텐츠 팩은 티켓 볼륨 및 에이전트 성능에 대한 통찰력을 제공하는 Power BI 대시보드 및 Power BI 보고서 집합을 제공합니다. 제공된 대시보드 및 보고서를 사용하거나, 가장 관심 있는 정보를 강조 표시하도록 사용자 지정할 수 있습니다.  하루에 한 번 자동으로 데이터가 새로 고쳐집니다. 

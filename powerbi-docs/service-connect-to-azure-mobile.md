@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 370613fb4436eb71ae0b6af6c0b5166e8bb7b434
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8d95ab3675fdced31641a8abbffa31ed0a6643c1
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546697"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008307"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Power BI로 Azure Mobile Engagement에 연결
 Power BI Azure Mobile Engagement 콘텐츠 팩을 사용하면 앱 데이터를 신속하게 파악할 수 있습니다.
@@ -47,7 +47,7 @@ Power BI용 [Azure Mobile Engagement 콘텐츠 팩](https://app.powerbi.com/grou
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI에서 시작](service-get-started.md)

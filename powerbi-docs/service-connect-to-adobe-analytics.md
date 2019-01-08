@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 8ea62f894b01143997850f3c15f2a069b93d7c26
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908581"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008698"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Power BI로 Adobe Analytics에 연결
 Power BI를 통해 Adobe Analytics에 연결하는 경우 먼저 Adobe Analytics Marketing 클라우드 계정에 연결합니다. 사이트 트래픽 및 사용자 차원에 대한 통찰력을 제공하는 Power BI 대시보드 및 Power BI 보고서 집합을 사용하는 앱이 가져옵니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다. 대시보드 및 보고서를 조작할 수 있지만 변경 내용을 저장할 수 없습니다.

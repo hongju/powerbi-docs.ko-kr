@@ -8,13 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: e9701a05ffeff7d8e5113c870db3f90e2e3c8c8e
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289177"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056113"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>자습서: Power BI 사용자 지정 시각적 개체에 서식 옵션 추가
 
@@ -234,7 +235,7 @@ ms.locfileid: "52289177"
 
 이제 Power BI Desktop 보고서를 열고 Circle Card 사용자 지정 시각적 개체를 가져올 수 있습니다.
 
-1. **Power BI Desktop**을 열고 모든 ‘샘플 데이터 집합’을 사용하여 새 보고서 만들기
+1. **Power BI Desktop**을 열고 모든 *샘플 데이터 세트*를 사용하여 새 보고서 만들기
 
 2. **‘시각화’** 창에서 **줄임표**를 선택한 다음, 파일에서 **가져오기**를 선택합니다.
 

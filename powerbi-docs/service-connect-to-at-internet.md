@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c65cc7052a3a056280561643c7734212b92769be
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 5afb79f52c4717887ba16d9ca43f913ba3446627
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549422"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008376"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Power BI로 AT Internet Bridge에 연결
 AT Internet을 사용하면 해당 통합 디지털 분석 플랫폼인 Analytics Suite를 통해 데이터에서 즉시 값을 추출할 수 있습니다. Power BI용 AT Internet Bridge 콘텐츠 팩에는 사이트에 대한 방문 횟수, 원본, 지역화 및 디바이스와 관련된 데이터가 포함됩니다.

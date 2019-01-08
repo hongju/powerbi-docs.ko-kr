@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e91fda3afe74875ed1b785862f13f53d9aff7108
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 55d61e89b1fb01de472d967a312b25340d482951
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544604"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008468"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>Power BI로 Smartsheet에 연결
 Smartsheet는 간편하게 공동으로 작업하고 파일을 공유할 수 있는 플랫폼을 제공합니다. Power BI용 Smartsheet 콘텐츠 팩은 Smartsheet 계정의 개요를 보여 주는 대시보드, 보고서 및 데이터 세트를 제공합니다. [Power BI Desktop](desktop-connect-to-data.md)을 사용하여 계정의 개별 시트에 직접 연결할 수도 있습니다. 

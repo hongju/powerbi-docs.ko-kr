@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c732d1128719db500e13194d36ba1db2605efd2c
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 1b40cf858fd42e9e73a64e926fef0caf917ed064
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908700"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008905"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Power BI 앱 작업 영역에 대해 OneDrive에 저장된 파일에 연결
 [Power BI에서 앱 작업 영역을 만들었으므로](service-create-distribute-apps.md) Power BI 앱 작업 영역에 대한 비즈니스용 OneDrive에 Excel, CSV, Power BI Desktop 파일을 저장할 수 있습니다. 비즈니스용 OneDrive에 저장한 파일은 계속 업데이트할 수 있고 이러한 파일을 기반으로 하는 Power BI 보고서와 대시보드에 업데이트 내용이 자동으로 반영됩니다. 
@@ -50,7 +50,7 @@ ms.locfileid: "48908700"
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Excel 파일을 데이터 세트 또는 Excel 온라인 통합 문서로 가져오기
 이제 앱 작업 영역에 대한 비즈니스용 OneDrive에 파일이 있으므로 선택할 수 있는 사항이 있습니다. 다음을 할 수 있습니다. 
 
-* [Excel 통합 문서의 데이터를 데이터 집합으로 가져오고](service-get-data-from-files.md) 데이터를 사용하여 웹 브라우저 및 모바일 장치에서 볼 수 있는 보고서와 대시보드를 빌드합니다.
+* [Excel 통합 문서의 데이터를 데이터 세트로 가져오고](service-get-data-from-files.md) 데이터를 사용하여 웹 브라우저 및 모바일 디바이스에서 볼 수 있는 보고서와 대시보드를 빌드합니다.
 * 또는 [Power BI에서 전체 Excel 통합 문서에 연결하고](service-excel-workbook-files.md) Excel Online에 표시된 대로 정확하게 표시합니다.
 
 ### <a name="import-or-connect-to-the-files-in-your-app-workspace"></a>앱 작업 영역의 파일 가져오기 또는 연결
@@ -70,7 +70,7 @@ ms.locfileid: "48908700"
 6. **가져오기** 또는 **연결**을 선택합니다.
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
-7. **가져오기**를 선택하는 경우 **데이터 집합** 탭에 통합 문서가 나타납니다. 
+7. **가져오기**를 선택하는 경우 **데이터 세트** 탭에 통합 문서가 나타납니다. 
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
    

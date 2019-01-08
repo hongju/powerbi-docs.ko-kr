@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ccb878da983aad493efb2cfdfb0d09366964a157
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 81498dff9c70deaf8135faf244db96509b1cf18d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545432"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008836"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Power BI로 Windows 개발자 센터에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 Windows 개발자 센터 앱을 탐색하고 모니터링합니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다.
@@ -66,7 +66,7 @@ Power BI용 [Windows 개발자 센터 콘텐츠 팩](https://app.powerbi.com/get
 ## <a name="finding-parameters"></a>매개 변수 찾기
 앱 관리의 앱 ID 페이지로 이동하여 앱에 대한 애플리케이션 ID를 찾을 수 있습니다.
 
-응용 프로그램 ID는 Windows 10 스토어에 대한 URL의 끝인 https://www.microsoft.com/store/apps/ **{applicationId}** 에 있습니다.
+애플리케이션 ID는 Windows 10 스토어에 대한 URL의 끝인 https://www.microsoft.com/store/apps/**{applicationId}** 에 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI에서 시작](service-get-started.md)

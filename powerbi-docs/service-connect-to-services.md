@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 685a28b336e45224f924ed103a34dd19413868bf
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: c2a6e25cae2fcd1a2d84a5ffe6941559593f75c0
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979286"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008560"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI로 사용하는 서비스에 연결
 Salesforce, Microsoft Dynamics, Google 웹로그 분석과 같은 비즈니스를 실행하는 데 사용하는 다양한 서비스에 연결할 수 있습니다. Power BI는 서비스에 연결할 자격 증명을 사용하여 시작한 다음 자동으로 데이터를 표시하고 비즈니스에 대한 시각적 정보를 제공하는 대시보드를 포함한 Power BI 앱 및 Power BI 보고서 집합을 만듭니다.

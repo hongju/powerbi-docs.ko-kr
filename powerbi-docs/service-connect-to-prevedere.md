@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e030d80a26b946d6b99c808c937dca4bb6eb3a62
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e15333af4e2fb8508f76517b193ca4351c2782c7
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543493"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007921"
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>Power BI로 Prevedere에 연결
 배타적이고 중요한 재무 정보에 액세스하여 향후 비즈니스를 사전에 자신 있게 향상시킵니다.
