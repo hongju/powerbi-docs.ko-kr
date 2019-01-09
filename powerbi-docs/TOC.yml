@@ -98,18 +98,12 @@ items:
       href: desktop-connect-to-data.md
     - name: Power BI Desktop에서 게시
       href: desktop-upload-desktop-files.md
-    - name: Power BI의 사용자 지정 시각화
-      href: power-bi-custom-visuals.md
-    - name: Power BI의 조직을 위한 사용자 지정 시각적 개체
-      href: power-bi-custom-visuals-organization.md
     - name: 1부, Power BI 보고서에 시각화 추가
       href: visuals/power-bi-report-add-visualizations-i.md
     - name: 2부, Power BI 보고서에 시각화 추가
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: 시각화 제목, 배경 및 범례 사용자 지정
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-    - name: 사용자 지정 시각적 개체 문제 해결
-      href: power-bi-custom-visuals-troubleshoot.md
     - name: 데이터에 연결
       items:
       - name: Power BI Desktop의 데이터 소스
@@ -788,7 +782,7 @@ items:
           href: service-connect-to-azure-sql-database-auditing.md
         - name: SQL Sentry
           href: service-connect-to-sql-sentry.md
-        - name: 줄무늬
+        - name: Stripe
           href: service-connect-to-stripe.md
         - name: SweetIQ
           href: service-connect-to-sweetiq.md
@@ -880,7 +874,7 @@ items:
         href: developer/power-bi-permissions.md
     - name: 방법
       items:
-      - name: 앱에서 포함하는 방법
+      - name: 앱에서 포함
         href: developer/embed-from-apps.md
       - name: Azure Active Directory 테넌트 만들기
         href: developer/create-an-azure-active-directory-tenant.md
@@ -890,8 +884,6 @@ items:
         href: developer/get-azuread-access-token.md
       - name: Q&A 포함
         href: developer/qanda.md
-      - name: 포함된 애플리케이션 문제 해결
-        href: developer/embedded-troubleshoot.md
       - name: Azure에서 용량 관리
         items:
         - name: Azure에서 용량 만들기
@@ -902,6 +894,10 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Azure에서 용량 일시 중지 및 시작
           href: developer/azure-pbie-pause-start.md
+      - name: 문제 해결
+        items:
+        - name: 포함된 애플리케이션 문제 해결
+          href: developer/embedded-troubleshoot.md
       - name: 작업 영역 컬렉션에서 마이그레이션
         items:
         - name: Power BI 작업 영역 컬렉션에서 마이그레이션하는 방법
@@ -944,12 +940,12 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848280
       - name: 스택 오버플로
         href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: 사용자 지정 시각적 개체 개발
+  - name: 사용자 지정 시각적 개체
     items:
     - name: 개요
       items:
-      - name: Power BI로 사용자 지정 시각적 개체 추가
-        href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
+      - name: Power BI의 사용자 지정 시각적 개체
+        href: power-bi-custom-visuals.md
     - name: 자습서
       items:
       - name: Power BI 사용자 지정 시각적 개체 개발
@@ -958,6 +954,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: 개념
       items:
+      - name: Power BI의 조직을 위한 사용자 지정 시각적 개체
+        href: power-bi-custom-visuals-organization.md
       - name: Power BI 시각적 개체에 대한 지침
         href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: 사용자 지정 시각적 개체 FAQ
@@ -978,8 +976,12 @@ items:
         href: power-bi-custom-visuals-certified.md
       - name: AppSource에 사용자 지정 시각적 개체 게시
         href: developer/office-store.md
-      - name: 사용자 지정 시각적 개체 문제 해결
-        href: power-bi-custom-visuals-troubleshoot.md
+      - name: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
+        href: desktop-r-powered-custom-visuals.md
+      - name: 문제 해결
+        items:
+        - name: 사용자 지정 시각적 개체 개발 문제 해결
+          href: power-bi-custom-visuals-troubleshoot.md
     - name: 참조
       items:
       - name: API
@@ -1283,9 +1285,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: bb2600fea9af9578ab9b9dd7260e358a8de7e646
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 2e6a77d0aadd85cce05d8dc4fb5fdb60e4cbe91d
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008882"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072339"
