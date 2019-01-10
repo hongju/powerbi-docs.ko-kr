@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/13/2018
+ms.date: 01/08/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: ab5f891b8769657f18861863562c0ab866044a18
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558542"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136625"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -26,6 +26,9 @@ Power BI **웹에 게시**를 사용하면 디바이스에서 메일이나 소�
 > [!WARNING]
 > **웹에 게시**를 사용하는 경우 누구나 인터넷에서 게시하는 보고서 또는 시각적 개체를 볼 수 있습니다. 이러한 보고서를 볼 때에는 인증이 사용되지 않습니다. 인터넷에서 누구나(인증되지 않은 대중) 볼 수 있어야 하는 보고서 및 데이터에만 웹에 게시를 사용하세요. 보고서에 집계된 세부 정보 수준 데이터를 포함합니다. 이 보고서를 게시하기 전에 데이터 및 시각화를 공개적으로 공유하는 권한이 있는지 확인합니다. 기밀 또는 소유 정보를 게시하지 마십시오. 확실하지 않은 경우 게시하기 전에 조직의 정책을 확인합니다.
 
+>[!Note]
+>내부 포털 또는 웹 사이트에서 콘텐츠를 안전하게 포함하려면 [포함](service-embed-secure.md) 또는 [SharePoint Online에 포함](service-embed-report-spo.md) 옵션을 사용합니다. 이렇게 하면 사용자가 내부 데이터를 볼 때 모든 사용 권한 및 데이터 보안이 적용됩니다.
+
 ## <a name="how-to-use-publish-to-web"></a>웹에 게시를 사용하는 방법
 
 **웹에 게시** 는 편집할 수 있는 개인 또는 그룹 작업 영역의 보고서에서 사용할 수 있습니다.  사용자와 공유되는 보고서 또는 데이터를 보호하기 위해 행 수준 보안을 사용하는 보고서로 웹에 게시를 사용할 수 없습니다. 웹에 게시가 지원되지 않는 경우의 전체 목록은 아래 **제한** 섹션을 참조하세요. 웹에 게시를 사용하기 전에 이 문서의 앞부분에 있는 **경고**를 확인해 보세요.
@@ -34,46 +37,45 @@ Power BI **웹에 게시**를 사용하면 디바이스에서 메일이나 소�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
-
 다음 단계는 **웹에 게시**를 사용하는 방법을 설명합니다.
 
 1. 편집할 수 있는 작업 영역의 보고서에서 **파일 > 웹에 게시**를 선택합니다.
-   
-   ![](media/service-publish-to-web/publish_to_web1.png)
+
+   ![PtW1](media/service-publish-to-web/publish_to_web1.png)
 
 2. 대화 상자에서 콘텐츠를 검토하고 다음 대화 상자에 표시된 대로 **embed 태그 만들기**를 선택합니다.
-   
-   ![](media/service-publish-to-web/publish_to_web2_ga.png)
+
+   ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
 3. 경고를 검토하고 다음 대화 상자에 표시된 대로 데이터를 공용 웹 사이트에 포함할 수 있는지 확인합니다. 포함할 수 있는 경우 **게시**를 선택합니다.
-   
-   ![](media/service-publish-to-web/publish_to_web3_ga.png)
+
+   ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
 4. 메일로 보낼 수 있거나, 코드에 포함할 수 있거나(예: iFrame), 웹 페이지 또는 블로그에 직접 붙여 넣을 수 있는 링크를 제공하는 대화 상자가 나타납니다.
-   
-   ![](media/service-publish-to-web/publish_to_web4.png)
+
+   ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
 5. 보고서에 대한 embed 태그를 이전에 만든 경우 embed 태그가 곧 나타납니다. 각 보고서에 대한 embed 태그는 하나만 만들 수 있습니다.
-   
-   ![](media/service-publish-to-web/publish_to_web5.png)
+
+   ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
 ## <a name="tips-and-tricks-for-view-modes"></a>보기 모드에 대한 팁과 요령
 
 블로그 게시물에 콘텐츠를 포함하는 경우 일반적으로 화면의 특정 크기에 맞추어야 합니다.  필요에 따라 iFrame 태그의 높이와 및 너비를 조정할 수 있지만, 보고서가 iFrame의 지정된 영역에 맞는지 확인해야 할 수도 있으므로 보고서를 편집할 때 적절한 보기 모드를 설정해야 합니다.
 
-다음 표는 보기 모드에 대한 지침과 포함했을 때 표시되는 모양을 제공합니다. 
+다음 표는 보기 모드에 대한 지침과 포함했을 때 표시되는 모양을 제공합니다.
 
 | 보기 모드 | 포함되었을 때 구현되는 모양 |
 | --- | --- |
-| ![](media/service-publish-to-web/publish_to_web6b.png) |**페이지에 맞추기** 는 보고서의 페이지 높이 및 너비를 유지합니다. 16:9 또는 4:3과 같은 ‘Dynamic’ 비율로 페이지를 설정하는 경우 콘텐츠는 제공한 iFrame 내에 맞게 확장됩니다. iFrame에 포함된 경우 **페이지에 맞추기**를 사용하면 **letterboxing**이 발생할 수 있으며 여기에서 콘텐츠가 iFrame 내에 맞게 확장된 후 iFrame의의 영역이 회색 배경으로 표시됩니다. letterboxing을 최소화하려면 iFrame 높이/너비를 적절하게 설정합니다. |
-| ![](media/service-publish-to-web/publish_to_web6d.png) |**실제 크기** 는 보고서 페이지에 설정된 대로 보고서의 크기를 유지합니다. 따라서 iFrame에 스크롤 막대가 표시될 수 있습니다. 스크롤 막대를 피하도록 iFrame 높이 및 너비를 설정합니다. |
-| ![](media/service-publish-to-web/publish_to_web6c.png) |**너비에 맞추기** 는 iFrame에 대한 가로 영역 내에 콘텐츠를 맞춥니다. 테두리는 계속 표시되지만, 콘텐츠는 사용 가능한 가로 공간을 모두 사용하도록 확장됩니다. |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**페이지에 맞추기** 는 보고서의 페이지 높이 및 너비를 유지합니다. 16:9 또는 4:3과 같은 ‘Dynamic’ 비율로 페이지를 설정하는 경우 콘텐츠는 제공한 iFrame 내에 맞게 확장됩니다. iFrame에 포함된 경우 **페이지에 맞추기**를 사용하면 **letterboxing**이 발생할 수 있으며 여기에서 콘텐츠가 iFrame 내에 맞게 확장된 후 iFrame의의 영역이 회색 배경으로 표시됩니다. letterboxing을 최소화하려면 iFrame 높이/너비를 적절하게 설정합니다. |
+| ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**실제 크기** 는 보고서 페이지에 설정된 대로 보고서의 크기를 유지합니다. 따라서 iFrame에 스크롤 막대가 표시될 수 있습니다. 스크롤 막대를 피하도록 iFrame 높이 및 너비를 설정합니다. |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**너비에 맞추기** 는 iFrame에 대한 가로 영역 내에 콘텐츠를 맞춥니다. 테두리는 계속 표시되지만, 콘텐츠는 사용 가능한 가로 공간을 모두 사용하도록 확장됩니다. |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>iFrame 높이 및 너비에 대한 팁과 트릭
 
 웹에 게시한 후 받는 embed 코드의 모양은 다음과 같습니다.
 
-![](media/service-publish-to-web/publish_to_web7.png)
+![PtW7](media/service-publish-to-web/publish_to_web7.png)
 
 너비와 높이를 수동으로 편집하여 보고서를 포함하는 페이지에 원하는 대로 정확하게 맞출 수 있습니다.
 
@@ -93,20 +95,20 @@ Power BI **웹에 게시**를 사용하면 디바이스에서 메일이나 소�
 **웹에 게시** embed 코드를 만들면 Power BI 서비스의 **설정** 메뉴에서 만드는 코드를 관리할 수 있습니다. embed 코드 관리에는 대상 시각적 개체 또는 코드에 대한 보고서(사용할 수 없는 embed 코드 렌더링)를 제거하거나 embed 코드를 다시 가져오는 기능이 포함되어 있습니다.
 
 1. **웹에 게시** embed 코드를 관리하려면 **설정** 기어를 열고 **embed 코드 관리**를 선택합니다.
-   
-   ![](media/service-publish-to-web/publish_to_web8.png)
+
+   ![PtW8](media/service-publish-to-web/publish_to_web8.png)
 
 2. 아래 그림에 나와 있는 것처럼 만든 embed 코드 목록이 표시됩니다.
-   
-   ![](media/service-publish-to-web/publish_to_web9.png)
+
+   ![PtW9](media/service-publish-to-web/publish_to_web9.png)
 
 3. 목록에서 각 **웹에 게시** embed 코드에 대해 embed 코드를 검색하거나 embed 코드를 삭제할 수 있으므로 해당 보고서나 시각적 개체에 대한 링크가 더 이상 작동하지 않게 할 수 있습니다.
-   
-   ![](media/service-publish-to-web/publish_to_web10.png)
+
+   ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
 4. **삭제**를 선택하는 경우 embed 코드를 삭제할 것인지 묻는 메시지가 나타납니다.
-   
-   ![](media/service-publish-to-web/publish_to_web11.png)
+
+   ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
 ## <a name="updates-to-reports-and-data-refresh"></a>보고서 업데이트 및 데이터 새로 고침
 
@@ -138,6 +140,7 @@ Power BI **웹에 게시**를 사용하면 디바이스에서 메일이나 소�
 - 보고서 수준 DAX 측정값을 포함하는 보고서
 - SSO(Single Sign-On) 데이터 쿼리 모델
 - [보안 기밀 또는 소유 정보](#publish-to-web-from-power-bi)
+- **포함** 옵션에 제공되는 자동 인증 기능은 Power BI JavaScript API에서 작동하지 않습니다. Power BI JavaScript API의 경우 포함에 대해 [사용자 소유 데이터](developer/embed-sample-for-your-organization.md) 접근 방식을 사용합니다. [사용자 소유 데이터](developer/embed-sample-for-your-organization.md)에 대해 자세히 알아보세요.
 
 ## <a name="tenant-setting"></a>테넌트 설정
 
@@ -167,7 +170,7 @@ Power BI 관리자는 웹에 게시 기능을 사용하거나 사용하지 않�
 
 문제를 보고하려면 보이는 웹에 게시 보고서의 아래쪽 막대에서 **플래그** 아이콘을 선택합니다.
 
-![](media/service-publish-to-web/publish_to_web12_ga.png)
+![PtW12](media/service-publish-to-web/publish_to_web12_ga.png)
 
 ## <a name="licensing-and-pricing"></a>라이선스 및 가격
 
@@ -178,5 +181,11 @@ Power BI 관리자는 웹에 게시 기능을 사용하거나 사용하지 않�
 **웹에 게시**를 사용하여 embed 코드를 만들면 보고서가 인터넷 사용자에 표시됩니다. 공개적으로 사용할 수 있으므로 뷰어는 나중에 소셜 미디어를 통해 보고서를 쉽게 공유할 수 있습니다. 사용자가 직접 공용 URL을 열어 보고서를 보거나 웹 페이지 또는 블로그에 포함된 보고서를 보면 Power BI는 보고서 정의 및 보고서를 보는 데 필요한 쿼리 결과를 캐시합니다. 이 방법을 사용하면 수천 명의 사용자가 성능에 영향을 주지 않고 동시에 보고서를 볼 수 있습니다.
 
 캐시는 수명이 길기 때문에 보고서 정의를 업데이트하거나(예: 보기 모드를 변경하는 경우) 보고서 데이터를 새로 고치는 경우 보고서 버전에 변경 사항이 적용되어 사용자에게 보이기까지 약 1시간이 걸릴 수 있습니다. 따라서 작업을 미리 준비하고 설정에 만족하는 경우에만 **웹에 게시** embed 코드를 만드는 것이 좋습니다.
+
+## <a name="next-steps"></a>다음 단계
+
+- [SharePoint Online 보고서 웹 파트](service-embed-report-spo.md) 
+
+- [보안 포털 또는 웹 사이트에 보고서 포함](service-embed-secure.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

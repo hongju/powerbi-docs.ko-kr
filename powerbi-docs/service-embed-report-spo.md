@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 3ad4335cabac159aee38d54fbfff0f689009fd68
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973330"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136602"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -75,7 +75,7 @@ SharePoint Online에 보고서를 포함하기 위해 먼저 보고서의 URL을
 
     ![SP 보고서 로드됨](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
-## <a name="granting-access-to-reports"></a>보고서에 액세스 부여
+## <a name="grant-access-to-reports"></a>보고서에 액세스 권한 부여
 
 SharePoint Online에 보고서를 포함시키는 것이 사용자에게 보고서를 볼 수 있는 권한을 자동으로 주는 것은 아닙니다. 보고서를 볼 수 있는 권한은 Power BI 서비스 내에서 설정됩니다.
 
@@ -90,7 +90,7 @@ Power BI 서비스 내에서 보고서에 액세스 권한을 부여하는 방�
 
 2. 작성자는 앱 작업 영역에서 보고서를 만듭니다. **Power BI 무료 사용자**와 공유하려면 앱 작업 영역을 **Premium 작업 영역**으로 설정해야 합니다.
 
-3. 작성자가 앱을 게시한 후 설치합니다. 작성자는 SharePoint Online에 포함하는 데 사용되는 보고서 URL에 액세스할 수 있는 앱을 설치해야 합니다.
+3. 작성자가 앱을 게시한 후 설치합니다. *작성자는 SharePoint Online에 포함하는 데 사용되는 보고서 URL에 액세스할 수 있는 앱을 설치해야 합니다.*
 
 4. 이제 모든 최종 사용자도 앱을 설치해야 합니다. 그러나 [Power BI 관리 포털](service-admin-portal.md)에서 사용할 수 있는 **앱을 자동으로 설치** 기능을 사용하여 최종 사용자를 위해 앱이 미리 설치되도록 설정할 수 있습니다.
 
@@ -152,7 +152,7 @@ SharePoint에서 보고서를 보는 사용자에게 **Power BI Pro 라이선스
 
 ## <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 
-* 오류: "An error occurred, please try logging out and back in and then revisiting this page.(오류가 발생했습니다. 로그아웃했다가 다시 로그인한 후 이 페이지를 다시 방문하세요.) Correlation ID: undefined, http response status: 400, server error code 10001, message: Missing refresh token”(오류가 발생했습니다. 로그아웃했다가 다시 로그인한 후 이 페이지를 다시 방문하세요. 상관 관계 ID: 정의되지 않음, HTTP 응답 상태: 400, 서버 오류 코드 10001, 메시지: 누락된 새로 고침 토큰)
+* 오류: "An error occurred, please try logging out and back in and then revisiting this page.(오류가 발생했습니다. 로그아웃했다가 다시 로그인한 후 이 페이지를 다시 방문하세요.) Correlation ID: undefined, http response status:(상관관계 ID: 정의되지 않음, http 응답 상태:) 400, server error code 10001, message:(400, 서버 코드 오류 10001, 메시지:) Missing refresh token(새로 고침 태그 없음)"
   
   이 오류가 발생하면 아래 문제 해결 단계 중 하나를 시도하세요.
   
@@ -174,9 +174,10 @@ SharePoint에서 보고서를 보는 사용자에게 **Power BI Pro 라이선스
 
 ## <a name="next-steps"></a>다음 단계
 
-[최종 사용자의 최신 사이트 페이지 작성 허용 또는 금지](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md)  
-[동료 및 다른 사용자와 대시보드 공유](service-share-dashboards.md)  
-[Power BI 프리미엄이란?](service-premium.md)  
+* [최종 사용자의 최신 사이트 페이지 작성 허용 또는 금지](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
+* [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md)  
+* [동료 및 다른 사용자와 대시보드 공유](service-share-dashboards.md)  
+* [Power BI 프리미엄이란?](service-premium.md)
+* [보안 포털 또는 웹 사이트에 보고서 포함](service-embed-secure.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
