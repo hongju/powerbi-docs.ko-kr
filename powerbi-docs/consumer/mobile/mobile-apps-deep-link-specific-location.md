@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 63b9129c56b064f224eef0720e5f585c86d80a93
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1f9503980ba19b290fa5d0fd1f521bb85ef93759
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742859"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983580"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
 모든 모바일 플랫폼에서 Power BI 모바일 앱(예: iOS, Android 디바이스 및 Windows 10) 내에 특정 위치(*딥 링크*)에 연결하려면 URI(Uniform Resource Identifier)를 만들고 사용할 수 있습니다.
@@ -70,6 +70,12 @@ mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60
 
 `https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
 
+보고서가 내 작업 영역이 아닌 그룹에 있다면 보고서 ID 앞이나 뒤에 `&GroupObjectId=<36-character-group-id>`를 추가합니다. 예를 들어 
+
+mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+
+두 가지 사이에 앰퍼샌드(&)를 참조하세요.
+
 ## <a name="open-to-a-specific-report-page"></a>특정 보고서 페이지에 열기
 이 URI는 Power BI 모바일 앱에서 특정 보고서 페이지를 엽니다.
 
@@ -100,7 +106,7 @@ mspbi://app/OpenReport?ReportObjectId=500217de-50f0-4af1-b345-b81027224033&openF
 ## <a name="next-steps"></a>다음 단계
 사용자 의견은 나중에 구현할 사항을 결정하는 데 도움이 됩니다. 따라서 Power BI 모바일 앱에서 참조하고자 하는 다른 기능에 대해 꼭 투표해주세요. 
 
-* [모바일 장치용 Power BI 앱](mobile-apps-for-mobile-devices.md)
+* [모바일 디바이스용 Power BI 앱](mobile-apps-for-mobile-devices.md)
 * Twitter에서 @MSPowerBI 팔로우
 * [Power BI 커뮤니티](http://community.powerbi.com/)에서 대화에 참여
 * [Power BI란?](../../power-bi-overview.md)

@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/12/2018
-ms.openlocfilehash: 010a26076fe139401eb2dbbc363c712d67c637fb
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.date: 12/20/2018
+ms.openlocfilehash: 5ee6758093969a2db1d932a88f21c965380bab5c
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329720"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008445"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
@@ -145,7 +145,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 해당 이유를 확인하려면 다음 단계를 시도합니다.
 
-* [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets)을 실행합니다. IsEffectiveIdentityRequired 속성이 true인지 확인합니다.
+* [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets)를 실행합니다. IsEffectiveIdentityRequired 속성이 true인지 확인합니다.
 * Username은 모든 EffectiveIdentity의 필수 항목입니다.
 * IsEffectiveIdentityRolesRequired가 true이면 역할이 필요합니다.
 * DatasetId는 모든 EffectiveIdentity의 필수 항목입니다.
@@ -291,3 +291,7 @@ AADSTS50079 오류가 발생하는 경우: 사용자가 다단계 인증을 사�
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 
 추가 지원이 필요한 경우 [지원 담당자에게 문의](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)하거나 [Azure Portal을 통해 지원 티켓을 작성](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)하고 발생한 오류 메시지를 제공하세요.
+
+## <a name="performance"></a>성능
+
+[Power BI Embedded 성능](embedded-performance-best-practices.md)

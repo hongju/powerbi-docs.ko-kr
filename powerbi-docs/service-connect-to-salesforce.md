@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548261"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008583"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI로 Salesforce에 연결
 Power BI를 사용하면 Salesforce.com 계정에 쉽게 연결할 수 있습니다. 이 연결을 만들면 데이터가 검색되고, 해당 데이터를 기반으로 하여 대시보드 및 관련 보고서가 자동으로 제공됩니다.
@@ -65,7 +65,7 @@ Power BI용 [Salesforce 콘텐츠 팩](https://app.powerbi.com/getdata/services/
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다. =======
 * [타일을 선택](service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
 >>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
-* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="system-requirements-and-considerations"></a>시스템 요구 사항 및 고려 사항
 - API에 액세스할 수 있는 프로덕션 Salesforce 계정을 사용하여 연결되어 있어야 합니다.
@@ -80,7 +80,7 @@ Power BI용 [Salesforce 콘텐츠 팩](https://app.powerbi.com/getdata/services/
 
 ### <a name="unable-to-connect-to-the-remote-server-message"></a>"원격 서버에 연결할 수 없습니다." 메시지
 
-Salesforce 계정에 연결하려고 시도할 때 "원격 서버에 연결할 수 없습니다." 메시지가 표시되면 Outsystems 포럼에서 이 솔루션을 참조하세요. [Salesforce 커넥터 로그인 오류 메시지: 원격 서버에 연결할 수 없습니다.](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
+Salesforce 계정에 연결하려고 시도할 때 "원격 서버에 연결할 수 없음" 메시지가 표시되면 Outsystems 포럼에서 다음 솔루션을 참조하세요. [Salesforce 커넥터 로그인 오류 메시지: 원격 서버에 연결할 수 없음](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
 
 
 ## <a name="next-steps"></a>다음 단계

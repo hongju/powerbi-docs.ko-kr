@@ -9,13 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 7830aa829dc05e29ec0b8dc23d7f35b58991b007
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e839fabffc685ac0f97146cb7ee5218039df1c18
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830151"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056182"
 ---
 # <a name="certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체
 
@@ -62,7 +63,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-ha
 인증을 위해 사용자 지정 시각적 개체를 제출하려면:
 
 1. Power BI 사용자 지정 시각적 개체 지원 팀에 이메일을 보냅니다(pbicvsupport@microsoft.com). 전자 메일에는 다음 정보를 포함합니다.
-    * 제목: 시각적 인증 요청
+    * 제목: 시각적 개체 인증 요청
     * 사람이 읽을 수 있는 소스 코드가 호스팅되는 GitHub 리포지토리에 연결
     * [요구 사항 준수](#certification-requirements)
     * 코드 검토 통과
@@ -73,6 +74,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-ha
 
 | AppSource에 연결 | 비디오에 연결 |
 | --- | --- |
+| [3AG 시스템 - 상대적 차이가 있는 세로 막대형 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
 | [별표 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft 달력](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [MAQ Software의 보타이 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [비디오](https://youtu.be/So5xKMSpVJI) |

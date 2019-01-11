@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003228"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008606"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Power BI로 Zuora에 연결
 Power BI용 Zuora를 사용하면 중요한 수익, 청구 및 구독 데이터를 시각화할 수 있습니다. 기본 대시보드 및 보고서를 사용하여 사용량 추세를 분석하거나, 대금 청구 및 지불을 추적하거나, 되풀이되는 수익을 모니터링하거나, 고유한 대시보드 및 보고 요구 사항을 충족하도록 사용자 지정합니다.
@@ -70,11 +70,11 @@ Power BI용 [Zuora](https://app.powerbi.com/getdata/services/Zuora)에 연결합
 | 계정: 지불 |지불 유효 날짜에 기반한 특정 기간의 총 지불 금액입니다. |합계(Payment.Amount) <br>위치<br>Payment.EffectiveDate =< TimePeriod.EndDate<br>AND    Payment.EffectiveDate >= TimePeriod.StartDate |
 | 계정: 환불 |환불 날짜에 기반한 특정 기간의 총 환불 금액입니다. 금액은 음수로 보고됩니다. |-1*합계(Refund.Amount)<br>위치<br>Refund.RefundDate =< TimePeriod.EndDate<br>및    Refund.RefundDate >= TimePeriod.StartDate |
 | 계정: 순지불 |특정 기간의 계정 지불 더하기 계정 환불입니다. |Account.Payments + Account.Refunds |
-| 계정: 활성화 계정 |특정 기간에 활성화된 계정의 수입니다. 구독은 기간 시작 날짜 이전(또는 시점)에 시잔되어야 합니다. |수(Account.AccountNumber)<br>위치<br>    Subscription.Status != "Expired"<br>및    Subscription.Status != "Draft"<br>및    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>및    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>또는<br>Subscription.SubscriptionEndDate = null) –evergreen subscription |
+| 계정: 활성 계정 |특정 기간에 활성화된 계정의 수입니다. 구독은 기간 시작 날짜 이전(또는 시점)에 시잔되어야 합니다. |수(Account.AccountNumber)<br>위치<br>    Subscription.Status != "Expired"<br>및    Subscription.Status != "Draft"<br>및    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>및    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>또는<br>Subscription.SubscriptionEndDate = null) –evergreen subscription |
 | 계정: 되풀이되는 평균 수익 |특정 기간의 활성화 계정당 총 MRR입니다. |총 MRR/Account.ActiveAccounts |
 | 계정: 취소된 구독 |특정 기간에 구독을 취소한 계정의 수입니다. |수(Account.AccountNumber)<br>위치<br>Subscription.Status = "Cancelled"<br>및    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>및    Subscription.CancelledDate >= TimePeriod.StartDate |
 | 계정: 지불 오류 |지불 오류의 합계입니다. |합계(Payment.Amount)<br>위치<br>Payment.Status = "Error" |
-| 예정된 수익 항목: 인식된 수익 |특정 회계 기간에 인식된 총수익입니다. |합계(RevenueScheduleItem.Amount)<br>위치<br>AccountingPeriod.StartDate = TimePeriod.StartDate |
+| 수익 일정 항목: 인식된 수익 |특정 회계 기간에 인식된 총수익입니다. |합계(RevenueScheduleItem.Amount)<br>위치<br>AccountingPeriod.StartDate = TimePeriod.StartDate |
 | 구독: 새 구독 |특정 기간의 새 구독 수입니다. |수(Subscription.ID)<br>위치<br>Subscription.Version = "1"<br>및    Subscription.CreatedDate <= TimePeriod.EndDate<br>및    Subscription.CreatedDate >= TimePeriod.StartDate |
 | 송장: 송장 항목 |특정 기간의 송장 항목 요금 총액입니다. |합계(InvoiceItem.ChargeAmount)<br>위치<br>    Invoice.Status = "Posted"<br>및 Invoice.InvoiceDate <= TimePeriod.EndDate<br>및 Invoice.InvoiceDate >= TimePeriod.StartDate |
 | 송장: 세금 항목 |특정 기간의 세금 항목 총세액입니다. |합계(TaxationItem.TaxAmount)<br>위치<br>Invoice.Status = "Posted"<br>및 Invoice.InvoiceDate <= TimePeriod.EndDate<br>및 Invoice.InvoiceDate >= TimePeriod.StartDate |
@@ -82,9 +82,9 @@ Power BI용 [Zuora](https://app.powerbi.com/getdata/services/Zuora)에 연결합
 | 송장: 송장 조정 |특정 기간의 송장 조정 총액입니다. |합계(InvoiceAdjustment.Amount) <br>위치<br>    Invoice.Status = "Posted"<br>및 InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>및    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
 | 송장: 순청구액 |특정 기간의 송장 항목, 세금 항목, 송장 항목 조정 및 송장 조정의 합입니다. |Invoice.InvoiceItems + Invoice.TaxationItems + Invoice.InvoiceItemAdjustments + Invoice.InvoiceAdjustments |
 | 송장: 송장 잔고 |게시된 송장 잔고의 합계입니다. |합계(Invoice.Balance) <br>위치<br>    Invoice.Status = "Posted" |
-| 송장: 총청구액 |특정 기간에 게시된 송장에 대한 송장 항목 요금의 합계입니다. |합계(InvoiceItem.ChargeAmount) <br>위치<br>    Invoice.Status = "Posted"<br>및 Invoice.InvoiceDate <= TimePeriod.EndDate<br>및 Invoice.InvoiceDate >= TimePeriod.StartDate |
+| 송장: 총 청구액 |특정 기간에 게시된 송장에 대한 송장 항목 요금의 합계입니다. |합계(InvoiceItem.ChargeAmount) <br>위치<br>    Invoice.Status = "Posted"<br>및 Invoice.InvoiceDate <= TimePeriod.EndDate<br>및 Invoice.InvoiceDate >= TimePeriod.StartDate |
 | 송장: 총 조정액 |게시된 송장과 관련된 송장 조정액 및 송장 항목 조정액의 합계입니다. |합계(InvoiceAdjustment.Amount) <br>위치<br>    Invoice.Status = "Posted"<br>및 InvoiceAdjustment.Status = "Processed"<br>+<br>합계(InvoiceItemAdjustment.Amount) <br>위치<br>    Invoice.Status = "Posted"<br>및 invoiceItemAdjustment.Status = "Processed" |
-| 총 MRR: 등급 계획 요금 |특정 기간에 구독에서 되풀이되는 월수익의 합계입니다. |합계(RatePlanCharge.MRR) <br>위치<br>    Subscription.Status != "Expired"<br>및    Subscription.Status != "Draft"<br>및    RatePlanCharge.EffectiveStartDate <= TimePeriod.StartDate<br>및 RatePlanCharge.EffectiveEndDate > TimePeriod.StartDate<br>    또는    RatePlanCharge.EffectiveEndDate = null --evergreen subscription |
+| 등급 계획 요금: 총 MRR |특정 기간에 구독에서 되풀이되는 월수익의 합계입니다. |합계(RatePlanCharge.MRR) <br>위치<br>    Subscription.Status != "Expired"<br>및    Subscription.Status != "Draft"<br>및    RatePlanCharge.EffectiveStartDate <= TimePeriod.StartDate<br>및 RatePlanCharge.EffectiveEndDate > TimePeriod.StartDate<br>    또는    RatePlanCharge.EffectiveEndDate = null --evergreen subscription |
 
 ## <a name="system-requirements"></a>시스템 요구 사항
 Zuora API에 대한 액세스 권한이 필요합니다.

@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/27/2018
-ms.openlocfilehash: 71cbae5f282883ca26a5bf0b2ae7b5609b86eb58
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578799"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008422"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -23,15 +23,15 @@ ms.locfileid: "52578799"
 
 ## <a name="general"></a>일반
 
-### <a name="what-is-power-bi-embedded"></a>Power BI Embedded는 무엇인가요?
+### <a name="what-is-power-bi-embedded"></a>Power BI Embedded는 무엇입니까?
 
 Microsoft PBIE(Power BI Embedded)를 사용하면 애플리케이션 개발자는 자체 데이터 시각화 및 컨트롤을 처음부터 새로 만들 필요 없이 완전한 대화형 보고서를 포함할 수 있습니다.
 
-### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Power BI Embedded의 대상 그룹은 누구인가요?
+### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Power BI Embedded의 대상 그룹은 누구입니까?
 
 자체 애플리케이션을 만드는 개발자 및 소프트웨어 회사를 말하며 ISV(독립 소프트웨어 공급업체)라고도 합니다.
 
-### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Power BI Embedded는 Power BI 서비스와 어떤 차이가 있나요?
+### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Power BI Embedded는 Power BI 서비스와 어떤 차이가 있습니까?
 
 Power BI Embedded는 분석 솔루션을 처음부터 새로 만들지 않고 애플리케이션을 빌드한 후 고객의 의사 결정을 도와주는 시각적 개체를 해당 애플리케이션에 포함하려는 ISV 또는 개발자를 위한 것입니다. 비즈니스 사용자는 포함된 분석 서비스를 사용하여 비즈니스 데이터에 액세스하고 애플리케이션 내에서 이 데이터를 사용하여 고급 정보를 생성하는 쿼리를 수행할 수 있습니다.
 
@@ -43,13 +43,13 @@ Power BI Premium은 조직, 파트너, 고객 및 공급업체에 대한 단일 
 
 Power BI Embedded는 애플리케이션을 빌드하고 시각적 개체를 포함하려는 ISV 또는 개발자를 위한 용량입니다. Power BI Embedded는 고객의 의사 결정에 도움을 줍니다. 왜냐하면 Power BI Embedded는 애플리케이션 개발자를 위한 용량이며 해당 애플리케이션 고객은 조직 내부 또는 외부의 아무 사용자를 포함하여 Power BI Embedded 용량에 저장된 콘텐츠를 사용할 수 있기 때문입니다. Power BI Embedded 용량 콘텐츠는 한 번 클릭으로 웹 게시 또는 한 번 클릭으로 SharePoint 게시를 통해 공유할 수 없으며, SSRS 보고서를 지원하지 않습니다.
 
-### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>고객이 Power BI Premium 또는 Power BI Embedded 중에 하나를 구매해야 하는 경우 Microsoft에서는 무엇을 추천하나요?
+### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>고객이 Power BI Premium 또는 Power BI Embedded 중에 하나를 구매해야 하는 경우 Microsoft에서는 무엇을 추천합니까?
 
 Microsoft는 기업 고객에게는 엔터프라이즈급 셀프 서비스 클라우드 BI 솔루션인 Power BI Premium을, ISV에게는 클라우드 기반의 포함된 분석 구성 요소인 Power BI Embedded를 추천합니다. 그러나 고객이 구매할 수 있는 제품에는 제한이 없습니다.
 
 ISV(일반적으로 대규모)가 P SKU를 사용하여 조직 내에서 사전 패키지 Power BI 서비스의 추가 이점을 누리는 동시에 애플리케이션에 포함하려는 경우가 있을 수 있습니다. 일부 기업에서는 사용하기로 할 수 있습니다. 기간 업무 애플리케이션을 빌드하고 여기에 분석 기능을 포함하는 데에만 관심이 있고 사전 패키지 Power BI 서비스에는 관심이 없는 기업은 Azure의 A SKU를 사용할 수 있습니다.
 
-### <a name="how-many-embed-tokens-can-i-create"></a>얼마나 많은 포함 토큰을 만들 수 있나요?
+### <a name="how-many-embed-tokens-can-i-create"></a>얼마나 많은 포함 토큰을 만들 수 있습니까?
 
 PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 환경에 포함하려면 [용량을 구입](#technical)해야 합니다. 용량을 구입할 때 생성할 수 있는 포함 토큰 수에는 제한이 없습니다. [사용 가능한 기능](https://docs.microsoft.com/rest/api/power-bi/availablefeatures)으로 이동하여 현재 포함된 사용 현황을 백분율로 표시하는 사용 값을 확인합니다.
 
@@ -74,7 +74,7 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 | Powerbi.com 및 Power BI 모바일에서 무료 Power BI 라이선스를 사용하여 콘텐츠 액세스 | 아니요 | 아니요 | 예 |
 | MS Office 앱에 포함된 무료 Power BI 라이선스를 사용하여 콘텐츠에 액세스 | 아니요 | 예 | 예 |
 
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>이제 Power BI는 A SKU, EM SKU, P SKU의 세 가지 SKU를 포함할 수 있습니다. 제 시나리오에는 어떤 용량을 구매해야 하나요?
+### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI는 이제 다음 세 가지 SKU를 포함할 수 있습니다. SKU, EM SKU 및 P SKU. 제 시나리오에는 어떤 용량을 구매해야 하나요?
 
 |  |A SKU(Power BI Embedded)  |EM SKU(Power BI Premium)  |P SKU(Power BI Premium)  |
 |---------|---------|---------|---------|
@@ -84,7 +84,7 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 |약정  |약정 없음 |매년  |매월/매년 |
 |차별화 |탁월한 탄력성 - Azure Portal에서 또는 API를 통해 리소스를 강화/규모 축소, 일시 중지/다시 시작 가능  |SharePoint Online 및 Microsoft Teams(모바일 앱 제외)에 콘텐츠를 포함하는 데 사용 가능 |애플리케이션에 포함 및 Power BI 서비스 사용을 동일한 용량에 결합 |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure에서 PBIE 용량을 만드는 필수 구성 요소는 무엇인가요?
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure에서 PBIE 용량을 만드는 필수 구성 요소는 무엇입니까?
 
 * 조직 디렉토리에 로그인해야 합니다(MSA 계정은 지원되지 않음).
 * Power BI 테넌트가 있어야 합니다. 즉, 디렉터리에 있는 한 명 이상의 사용자가 Power BI에 가입해야 합니다. 
@@ -104,7 +104,7 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>용량을 만들기/크기 조정/다시 시작하면 용량을 일시 중단된 상태로 전환하는 이유는 무엇인가요?
 
-용량의 프로비전(확장/다시 시작/만들기)에 실패할 수 있습니다. 프로비전 호출의 호출자는 세부 정보 가져오기 API [용량-세부 정보 가져오기](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails)를 사용하여 용량의 ProvisioningState를 확인해야 합니다.
+용량의 프로비전(확장/다시 시작/만들기)에 실패할 수 있습니다. 프로비전 호출의 호출자는 세부 정보 가져오기 API를 사용하여 용량의 ProvisioningState를 확인해야 합니다. [용량 - 세부 정보 가져오기](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
 
 ### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>특정 지역에서만 PBIE를 만들 수 있는 이유는 무엇인가요?
 
@@ -135,9 +135,9 @@ Power BI에서는 조직 계정에 등록해야 합니다. MSA(Microsoft 계정)
 * REST API - https://docs.microsoft.com/rest/api/power-bi-embedded/
 * PowerShell cmdlet - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
 
-### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 솔루션에 포함된 PBI Embedded 전용 용량 역할은 무엇인가요?
+### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 솔루션에 포함된 PBI Embedded 전용 용량 역할이란?
 
-[솔루션의 수준을 프로덕션으로 올리기](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) 위해서는 Power BI 콘텐츠(응용 프로그램에서 사용 중인 앱 작업 영역)를 Power BI Embedded(A SKU) 용량에 할당해야 합니다.
+[솔루션의 수준을 프로덕션으로 올리기](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) 위해서는 Power BI 콘텐츠(애플리케이션에서 사용 중인 앱 작업 영역)를 Power BI Embedded(A SKU) 용량에 할당해야 합니다.
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>PBI Embedded를 사용 가능한 Azure 지역은 어디인가요?
 
@@ -192,7 +192,7 @@ PowerBI.com을 사용하여 Power BI Embedded 용량에 작업 영역을 할당/
 
 ### <a name="what-type-of-content-pack-data-can-be-embedded"></a>어떤 유형의 콘텐츠 팩 데이터를 포함할 수 있나요?
 
-콘텐츠 팩 데이터 집합에서 빌드된 **대시보드** 및 **타일**은 *포함이 불가능*하지만, 콘텐츠 팩 데이터 집합에서 작성한 **보고서**는 *포함 가능*합니다.
+콘텐츠 팩 데이터 세트에서 빌드된 **대시보드** 및 **타일**은 *포함이 불가능*하지만, 콘텐츠 팩 데이터 세트에서 작성한 **보고서**는 *포함 가능*합니다.
 
 ### <a name="what-is-the-difference-between-using-rls-vs-javascript-filters"></a>RLS 대 JavaScript 필터 사용의 차이점은 무엇인가요?
 
@@ -252,7 +252,7 @@ Power BI Embedded는 일부 [소버린 클라우드](embed-sample-for-customers-
 
 ## <a name="power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션
 
-### <a name="what-is-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션은 무엇인가요?
+### <a name="what-is-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션이란?
 
 **Power BI 작업 영역 컬렉션**( **Power BI Embedded** 버전 1)은 **Power BI 작업 영역 컬렉션** Azure 리소스를 기반으로 하는 솔루션입니다. 이 솔루션을 사용하면 애플리케이션을 Power BI에 대해 인증하는 데 **Power BI 작업 영역 컬렉션** 솔루션의 Power BI 콘텐츠, 전용 API 및 작업 영역 컬렉션 키를 사용하는 고객의 **Power BI Embedded** 애플리케이션을 만들 수 있습니다.
 
@@ -297,7 +297,7 @@ Power BI Embedded는 일부 [소버린 클라우드](embed-sample-for-customers-
 
 ### <a name="what-is-the-embedding-setup-tool"></a>포함 설정 도구란 무엇인가요?
 
-[포함 설정 도구](https://aka.ms/embedsetup)를 사용하면 샘플 응용 프로그램을 신속하게 시작하고 다운로드하여 Power BI에서 포함을 시작할 수 있습니다.
+[포함 설정 도구](https://aka.ms/embedsetup)를 사용하면 샘플 애플리케이션을 신속하게 시작하고 다운로드하여 Power BI에서 포함을 시작할 수 있습니다.
 
 ### <a name="which-solution-should-i-choose"></a>어떤 솔루션은 선택해야 하나요?
 
@@ -310,14 +310,18 @@ Power BI Embedded는 일부 [소버린 클라우드](embed-sample-for-customers-
 
 **조직에 대한 콘텐츠 포함** 환경을 사용하는 경우 *PowerBI-Developer-Samples.zip* 파일을 저장하고 압축을 풉니다. 그런 다음, *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 폴더를 열고, *pbi-saas-embed-report.sln* 파일을 실행합니다.
 
-### <a name="how-can-i-edit-my-registered-application"></a>등록된 애플리케이션을 편집하려면 어떻게 하나요?
+### <a name="how-can-i-edit-my-registered-application"></a>등록된 애플리케이션을 편집할 수 있는 방법
 
-[여기](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)에서 AAD 등록 응용 프로그램을 편집하는 방법을 알아볼 수 있습니다.
+[여기](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)에서 AAD 등록 애플리케이션을 편집하는 방법을 알아볼 수 있습니다.
 
-### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>내 Power BI 사용자 프로필 또는 데이터를 편집하려면 어떻게 하나요?
+### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>내 Power BI 사용자 프로필 또는 데이터를 편집할 수 있는 방법
 
 [여기](https://docs.microsoft.com/power-bi/service-basic-concepts)에서 Power BI 데이터를 편집하는 방법을 알아볼 수 있습니다.
 
 자세한 내용은 [포함된 애플리케이션 문제 해결](embedded-troubleshoot.md)을 참조하세요.
 
-궁금한 점이 더 있으신가요? [Power BI 커뮤니티에 질문해 주세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+
+### <a name="what-are-the-best-practices-to-improve-performance"></a>성능을 개선하기 위한 모범 사례는 무엇인가요?
+
+[Power BI Embedded 성능](embedded-performance-best-practices.md)

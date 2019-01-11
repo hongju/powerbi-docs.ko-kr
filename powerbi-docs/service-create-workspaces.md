@@ -7,25 +7,25 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: 55f592101954ae5c0724fb5b48fb2571a1bdfc51
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451424"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983695"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Power BI에서 동료와 작업 영역 만들기
 
-Power BI에서 대시보드 및 보고서의 컬렉션을 만들고 구체화하기 위해 동료와 공동 작업하는 공간인 *작업 영역*을 만들 수 있습니다. 그런 다음, 전체 조직 또는 특정 사용자나 그룹으로 배포할 수 있는 *앱*에 포함합니다. 
+Power BI에서 대시보드 및 보고서의 컬렉션을 만들고 구체화하기 위해 동료와 공동 작업하는 공간인 *작업 영역*을 만들 수 있습니다. 그런 다음, 컬렉션을 전체 조직 또는 특정 사용자나 그룹으로 배포할 수 있는 *앱*에 포함합니다. 
 
 ![Power BI 앱](media/service-create-workspaces/power-bi-apps-left-nav.png)
 
-작업 영역을 만들면 연결된 기본 Office 365 그룹을 만들게 됩니다. 모든 작업 영역 관리는 Office 365에 위치합니다. 동료를 이러한 작업 영역에 구성원 또는 관리자로 추가할 수 있습니다. 작업 영역에 있는 대시보드, 보고서는 물론, 더 광범위한 대상 그룹에 게시할 계획이 있는 기타 아티클에 대해 공동 작업할 수 있습니다. 작업 영역에 있는 추가된 모든 사용자에게는 Power BI Pro 라이선스가 필요합니다. 
+작업 영역을 만들면 연결된 기본 Office 365 그룹을 만들게 됩니다. 모든 작업 영역 관리는 Office 365에 위치합니다. 동료를 이러한 작업 영역에 구성원 또는 관리자로 추가할 수 있습니다. 작업 영역에 있는 대시보드, 보고서는 물론, 더 광범위한 대상 그룹에 게시할 계획이 있는 기타 문서에 대해 공동 작업할 수 있습니다. 작업 영역에 있는 추가된 모든 사용자에게는 Power BI Pro 라이선스가 필요합니다. 
 
-**알고 계십니까?** Power BI는 새 작업 영역 환경을 미리 보기 상태로 제공합니다. [새 작업 영역 만들기(미리 보기)](service-create-the-new-workspaces.md)를 참고하여 나중에 작업 영역을 변경하는 방법을 알아봅니다. 
+**알고 계십니까?** Power BI는 새 작업 영역 환경을 미리 보기 상태로 제공합니다. 새 작업 영역에 대한 자세한 내용은 [새 작업 영역에서 작업 구성(미리 보기)](service-new-workspaces.md)을 참조합니다. 
 
 ## <a name="video-apps-and-app-workspaces"></a>비디오: 앱 및 앱 작업 영역
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -84,12 +84,12 @@ Power BI에서 대시보드 및 보고서의 컬렉션을 만들고 구체화하
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>앱이 조직 콘텐츠 팩과 다른점
 앱은 조직 콘텐츠 팩이 진화된 것입니다. 조직 콘텐츠 팩이 이미 있는 경우 앱과 함께 계속 작동합니다. 앱 및 콘텐츠 팩에는 몇 가지 주요 차이점이 있습니다. 
 
-* 비즈니스 사용자가 콘텐츠 팩을 설치한 후에는 그룹화된 ID를 잃게 됩니다. 그저 다른 대시보드 및 보고서가 혼재된 대시보드 및 보고서 목록일 뿐입니다. 한편으로, 앱은 설치 후에도 그룹화와 ID를 유지합니다. 이를 통해 비즈니스 사용자는 시간이 지나도 계속 해당 앱으로 이동할 수 있습니다.
+* 비즈니스 사용자가 콘텐츠 팩을 설치한 후에는 그룹화된 ID를 잃게 됩니다. 그저 다른 대시보드 및 보고서가 혼재된 대시보드 및 보고서 목록일 뿐입니다. 한편으로, 앱은 설치 후에도 그룹화와 ID를 유지합니다. 이 그룹화를 통해 비즈니스 사용자는 시간이 지나도 계속 해당 앱으로 쉽게 이동할 수 있습니다.
 * 어떠한 작업 영역에서도 여러 콘텐츠 팩을 만들 수 있지만 앱은 해당 작업 영역과 일대일 관계를 맺습니다. 
 * 시간이 지나면 조직 콘텐츠 팩의 사용을 중단할 계획이므로, 지금부터 앱을 만드는 것이 좋습니다.  
 * 새 작업 영역 환경 미리 보기를 사용하여 조직 콘텐츠 팩의 사용을 중단하는 첫 번째 조치를 취합니다. 미리 보기 작업 영역에서 해당 앱을 사용하거나 만들 수 없습니다.
 
-[기존 앱 작업 영역과 다른 새로운 앱 작업 영역은 어떤가요?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces)를 참조하여 현재 및 새로운 앱 작업 영역을 비교합니다. 
+[기존 앱 작업 영역과 새 앱 작업 영역의 차이점은?](service-new-workspaces.md#how-are-the-new-workspaces-different-from-current-workspaces)를 참조하여 둘을 비교합니다. 
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 앱 설치 및 사용](service-create-distribute-apps.md)

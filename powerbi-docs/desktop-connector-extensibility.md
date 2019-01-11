@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: eaf76f2ba762a603bf37385ea00cd714499db4b5
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40257098"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983419"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI에서 커넥터 확장성
 
@@ -42,7 +42,7 @@ Power BI에서 고객 및 개발자는 기존 커넥터 및 일반 데이터 원
 * (권장) 인증된 확장 프로그램만 로드하도록 허용
 * (권장하지 않음) 경고 없이 모든 확장 프로그램을 로드하도록 허용
 
-**사용자 지정 커넥터** 또는 사용자나 타사가 개발한 커넥터를 사용하고 배포하려는 경우 **"(권장하지 않음) 경고 없이 모든 확장 프로그램을 로드하도록 허용"** 을 선택해야 합니다. **사용자 지정 커넥터**를 실행하려는 경우가 아니라면 이 보안 설정을 사용하지 않는 것이 좋습니다.
+**사용자 지정 커넥터** 또는 사용자나 타사가 개발한 커넥터를 사용하고 배포하려는 경우 **"(권장하지 않음) 경고 없이 모든 확장 프로그램을 로드하도록 허용"** 을 선택해야 합니다. 사용자 지정 커넥터를 절대적으로 신뢰하지 않는 한 보안 설정을 권장하지 않습니다. 여기에 있는 코드는 자격 증명을 처리(HTTP를 통해 보내는 것을 포함)하고 개인 정보 수준을 무시할 수 있기 때문입니다.
 
 **"(권장)"** 보안 설정에서 시스템에 사용자 지정 커넥터가 있는 경우 보안으로 인해 로드할 수 없는 커넥터를 설명하는 오류가 표시됩니다.
 

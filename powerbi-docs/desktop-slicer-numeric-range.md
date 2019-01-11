@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f997ee7574c5dd9dc6b4d28767d599a97bf297ed
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a2402872744b3029e37bf49eaaeae27a3ad95734
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669845"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983626"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Power BI Desktop에서 숫자 범위 슬라이서 사용
 **숫자 범위 슬라이서**를 사용하여 데이터 모델의 모든 숫자 열에 모든 종류의 필터를 적용할 수 있습니다. **사이** 숫자, 숫자**보다 작거나 같음** 또는 숫자**보다 크거나 같음**을 필터링하도록 선택할 수 있습니다. 간단하게 들릴 수도 있지만 데이터를 필터링하는 매우 강력한 방법입니다.
@@ -54,6 +54,14 @@ ms.locfileid: "52669845"
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>숫자 범위 슬라이서를 사용하여 정수로 맞춤
 
 숫자 범위 슬라이서는 기본 필드의 데이터 유형이 **정수**인 경우 정수로 맞춰집니다. 슬라이서를 깔끔하게 정수로 맞출 수 있습니다. **10진수** 유형 필드에서는 숫자의 분수를 입력하거나 선택할 수 있습니다. 텍스트 상자에 적용된 서식은 더 정밀한 숫자를 입력하거나 선택할 수 있더라도 필드에 설정된 서식과 매칭됩니다.
+
+## <a name="display-formatting-with-the-date-range-slicer"></a>날짜 범위 슬라이서로 서식 지정 표시
+
+슬라이서를 사용하여 날짜 범위를 표시하거나 설정하는 경우 사용자의 브라우저 또는 운영 체제 로캘에 따라 **짧은 날짜** 형식을 사용하여 날짜 형식이 항상 표시됩니다. 이는 기본 데이터 또는 모델에 대한 데이터 형식 설정에 관계없이 표시 형식입니다. 
+
+예를 들어, 기본 데이터 형식에 대한 긴 날짜 형식(예: *2001년 3월 14일 수요일*과 같은 다른 시각적 개체 또는 상황에서 형식을 *dddd, MMMM d, yyyy*로 지정)을 사용할 수 있지만 날짜 범위 슬라이서에서는 날짜가 슬라이서에 *03/14/2001*로 표시됩니다.
+
+슬라이서에 **짧은 날짜** 형식을 표시하면 슬라이서 내에서 문자열의 길이가 일관되고 간단하게 유지됩니다. 
 
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항

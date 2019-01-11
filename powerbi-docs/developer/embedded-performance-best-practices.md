@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: d0f4ca29e30e5f6e6176f036dc535601eb580471
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: e28801a15cf50351d737af63bc48f655ca85d28f
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329881"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008169"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 성능에 대한 모범 사례
 
@@ -71,6 +71,6 @@ Powerbi.preload()는 나중에 보고서에 포함하는 데 사용되는 JavaSc
 
 ## <a name="next-steps"></a>다음 단계
 
-* [보고서 성능](../power-bi-reports-performance.md)
+* [Power BI 보고서 성능 모범 사례](../power-bi-reports-performance.md)
 * [Power BI Embedded 문제를 해결 하는 방법](embedded-troubleshoot.md)
 * [Power BI Embedded FAQ](embedded-faq.md)

@@ -8,24 +8,24 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4a3acd0d95b400a15348b896f150b74f01f5ce03
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: c420309a6254e4a52235baaa29665f45c89905be
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53279389"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983396"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>시각화를 생성하는 데 사용 된 데이터 표시
-## <a name="show-data"></a>데이터 표시
+## <a name="show-data-in-reading-view"></a>읽기용 보기에 데이터 표시
 Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. **데이터 표시**를 선택하면 Power BI는 시각화 아래(또는 옆에) 데이터를 표시합니다.
 
 
-## <a name="using-show-data-in-power-bi-service"></a>Power BI 서비스에서 *데이터 표시* 사용
-1. Power BI 서비스에서 보고서를 열고 시각적 개체를 선택합니다.  
-2. 시각적 개체 뒤의 데이터를 표시하려면 줄임표(...)를 선택하고 **데이터 표시**를 선택합니다.
+## <a name="using-show-data-in-power-bi-service-reading-view"></a>Power BI 서비스 읽기용 보기에서 *데이터 표시* 사용
+1. Power BI 서비스에서 보고서를 읽기용 보기에서 열고 시각적 개체를 선택합니다.  
+2. 시각적 개체 뒤에 데이터를 표시하려면 줄임표(...)를 선택하고 **데이터 표시**를 선택합니다.
    
    ![데이터 표시 선택](./media/end-user-show-data/power-bi-show-data2.png)
 3. 기본적으로 데이터는 시각적 개체 아래에 표시됩니다.
@@ -36,6 +36,6 @@ Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구�
    
    ![시각적 개체 및 데이터 가로 표시](./media/end-user-show-data/power-bi-explore-show-data2-new.png)
 
-### <a name="next-steps"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 시각화](../visuals/power-bi-report-visualizations.md)    
 [Power BI 보고서](end-user-reports.md)    

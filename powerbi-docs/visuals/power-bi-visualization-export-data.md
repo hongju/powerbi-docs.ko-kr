@@ -8,18 +8,18 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6cb53eadb3c5ddf14b8f8b3b3882e0d7b509a3f
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 8d79d92577da25a316eba8e789a1b7b004a9967a
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830105"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983764"
 ---
 # <a name="export-data-from-visualizations"></a>시각화에서 데이터 내보내기
-시각화를 만드는 데 사용되는 데이터를 보려는 경우 Power BI에서 해당 데이터를 표시하거나 해당 데이터를 .xlsx 또는 .csv 파일로 Excel에 내보낼 수 있습니다. 데이터를 내보내는 옵션에는 Pro 또는 Premium 라이선스가 필요하며 데이터 세트 및 보고서에 대한 편집 권한이 필요합니다. 
+시각화를 만드는 데 사용되는 데이터를 보려는 경우 [Power BI에서 해당 데이터를 표시](service-reports-show-data.md)하거나 해당 데이터를 .xlsx 또는 .csv 파일로 Excel에 내보낼 수 있습니다. 데이터를 내보내는 옵션에는 Pro 또는 Premium 라이선스가 필요하며 데이터 세트 및 보고서에 대한 편집 권한이 필요합니다. 
 
 Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 파일로 저장하고 Excel에서 여는 것을 지켜봅니다. 그런 다음 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
 
@@ -38,9 +38,9 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
 
 ## <a name="from-a-visualization-in-a-report"></a>보고서의 시각화에서
-과정을 따르려면 [편집용 보기](../consumer/end-user-reading-view.md)에서 [조달 분석 샘플 보고서](../sample-procurement.md)를 엽니다. 빈 보고서 페이지를 새로 추가합니다. 그런 다음 집계와 시각화 수준 필터를 추가하려면 다음 단계를 따릅니다.
+과정을 따르려면 편집용 보기에서 [조달 분석 샘플 보고서](../sample-procurement.md)를 엽니다. 빈 보고서 페이지를 새로 추가합니다. 그런 다음 집계와 시각화 수준 필터를 추가하려면 다음 단계를 따릅니다.
 
-1. 새 막대형 차트를 만듭니다. 필드 창에서 **위치 > 도시** 및 **송장 > 할인율**을 선택합니다. **할인율**을 값 웰로 옮겨야 할 수도 있습니다.
+1. 새 막대형 차트를 만듭니다.  필드 창에서 **위치 > 도시** 및 **송장 > 할인율**을 선택합니다.  **할인율**을 가치 웰로 옮겨야 할 수도 있습니다. 
 
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. **할인율**에 대한 집계를 **개수**에서 **평균**으로 변경합니다. 값 웰에서 **할인율**(**할인율 개수**라고 할 수도 있음) 오른쪽에 있는 화살표를 선택하고 **평균**을 선택합니다.
@@ -55,8 +55,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 
 4. 시각화의 오른쪽 위 모서리에 있는 줄임표를 선택합니다. **데이터 내보내기**를 선택합니다.
 
    ![](media/power-bi-visualization-export-data/power-bi-export-data2.png)
-5. Power BI 온라인에서 시각화에 집계가 있는 경우(한 예로, **개수**를 *평균*, *합계* 또는 *최소*로 변경한 경우) **요약된 데이터** 및 **내부 데이터**라는 두 가지 옵션이 있습니다. Power BI Desktop에서는 **요약된 데이터**에 대한 옵션만 사용할 수 있습니다. 집계 이해를 위한 도움은 [Power BI의 집계](../service-aggregates.md)를 참조하세요.
-
+5. Power BI 온라인에서 시각화에 집계가 있는 경우(한 예로, **개수**를 *평균*, *합계* 또는 *최소*로 변경한 경우) 다음 두 가지 옵션이 있습니다. **요약된 데이터** 및 **기본 데이터**. Power BI Desktop에서는 **요약된 데이터**에 대한 옵션만 사용할 수 있습니다. 집계 이해를 위한 도움은 [Power BI의 집계](../service-aggregates.md)를 참조하세요.
     ![](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 6. **요약된 데이터** > **내보내기**를 선택하고 .xlsx 또는.csv 중 하나를 선택합니다. Power BI 데이터를 내보냅니다.  시각화에 필터를 적용한 경우 내보낸 데이터는 필터링으로 내보냅니다. **내보내기**를 선택하면 브라우저에서 파일을 저장할 것인지 묻는 메시지를 표시 합니다. 저장한 후 Excel에서 파일을 엽니다.
 
@@ -71,7 +70,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 
    >기본 데이터 내보내기를 사용하면 사용자가 모든 세부 데이터 즉, 데이터의 모든 열을 확인할 수 있습니다. Power BI 서비스 관리자는 조직에 대해 이 기능을 해제할 수 있습니다. 데이터 세트 소유자인 경우 데스크톱 또는 Power BI 서비스에서 필드 목록에 표시되지 않도록 전용 열을 “숨김”으로 설정할 수 있습니다.
 
 
-   **내부 데이터**: 모델의 시각적 개체 및 추가 데이터에서 데이터를 확인하려면 이 옵션을 선택합니다(자세한 내용은 아래 차트 참조).  시각화에 집계가 있으면 *기본 데이터*를 선택하여 집계를 제거합니다. **내보내기**를 선택하면 데이터는 .xlsx 파일로 내보내지고 브라우저는 파일을 저장할 것인지 묻는 메시지를 표시합니다. 저장한 후 Excel에서 파일을 엽니다.
+   **내부 데이터**: 모델의 시각적 개체 ***및*** 추가 데이터에서 데이터를 확인하려면 이 옵션을 선택합니다(자세한 내용은 아래 차트 참조).  시각화에 집계가 있으면 *기본 데이터*를 선택하여 집계를 제거합니다. **내보내기**를 선택하면 데이터는 .xlsx 파일로 내보내지고 브라우저는 파일을 저장할 것인지 묻는 메시지를 표시합니다. 저장한 후 Excel에서 파일을 엽니다.
 
    이 예에서 Excel 내보내기는 데이터 세트의 모든 단일 도시 행에 대해 한 행 및 해당 단일 항목에 대한 할인율을 보여 줍니다. 즉, 데이터는 결합 및 집계되지 않습니다. 스프레드시트의 첫 번째 행에는 Power BI에서 데이터를 추출할 때 사용된 필터를 보여 줍니다.  
 
@@ -130,9 +129,6 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
   2. **데이터** 탭에서 **외부 데이터 가져오기** > **텍스트에서**를 선택합니다.
 * Power BI 관리자는 데이터 내보내기를 사용하지 않도록 설정할 수 있습니다.
 
-## <a name="next-steps"></a>다음 단계
-[Power BI의 대시보드](../consumer/end-user-dashboards.md)  
-[Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

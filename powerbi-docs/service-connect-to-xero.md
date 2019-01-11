@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 98250e30d1ca944aa536e0d8a05e6ee6c227fc61
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 87e2ff9bf8e4eb87b4b915492bf8cfa4a97a9150
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546757"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008859"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Power BI로 Xero에 연결
 Xero는 중소기업을 위해 특별히 설계된 사용이 용이한 온라인 계정 소프트웨어입니다. 이 Power BI 콘텐츠 팩으로 Xero 재무를 기반으로 하여 매력적인 시각화 개체를 만들어 보세요. 기본 대시보드에는 현금 보유 현황, 수익과 지출 비교, 손익 추세, 대금 결제 기간, 투자 수익률 등 다양한 중소기업 메트릭이 포함됩니다.
@@ -81,7 +81,7 @@ Power BI용 [Xero 콘텐츠 팩](https://app.powerbi.com/getdata/services/xero)�
 * Xero 계정
 
 ## <a name="system-requirements"></a>시스템 요구 사항
-Xero 콘텐츠 팩에 액세스하려면 "Standard + Reports" 또는 "Advisor" 역할이 필요합니다.
+Xero 콘텐츠 팩에 액세스하려면 다음 역할이 필요합니다. "Standard + Reports" 또는 "Advisor".
 
 <a name="FindingParams"></a>
 
@@ -89,7 +89,7 @@ Xero 콘텐츠 팩에 액세스하려면 "Standard + Reports" 또는 "Advisor" �
 Power BI에서 추적할 조직 이름을 제공합니다. 이를 통해 여러 서로 다른 조직에 연결할 수 있습니다. 예약된 새로 고침에 영향을 주므로 동일한 조직에 여러 번 연결할 수 없습니다.   
 
 ## <a name="troubleshooting"></a>문제 해결
-* Xero 사용자는 Power BI용 Xero 콘텐츠 팩에 액세스하려면 "Standard + Reports" 또는 "Advisor" 역할을 보유해야 합니다. 콘텐츠 팩은 Power BI를 통해 보고 데이터에 액세스하는 데 사용자 기반 권한을 사용합니다.  
+* Xero 사용자는 Power BI용 Xero 콘텐츠 팩에 액세스하려면 다음 역할을 보유해야 합니다. "Standard + Reports" 또는 "Advisor". 콘텐츠 팩은 Power BI를 통해 보고 데이터에 액세스하는 데 사용자 기반 권한을 사용합니다.  
 * 얼마 동안 로드한 후 오류가 표시되면, 오류 메시지가 표시되기 까지 소요된 시간을 확인하세요. Xero에서 제공하는 액세스 토큰은 30분 동안만 유효하기 때문에 그 시간 안에 로드될 수 있는 것보다 많은 데이터가 있는 계정은 실패하게 됩니다. 이를 개선하기 위해 적극적으로 노력하고 있습니다.
 * 로드하는 동안 대시보드의 타일은 일반 로딩 상태가 유지됩니다. 이것은 전체 로드가 완료될 때까지 변경되지 않습니다. 로드가 완료되었다는 알림을 받았는데 타일이 아직 로드 중이면, 대시보드 오른쪽 위에 있는 ...를 사용하여 대시보드 타일을 새로 고쳐 보세요.
 * 콘텐츠 팩을 새로 고칠 수 없는 경우 Power BI에서 동일한 조직에 두 번 이상 연결했는지 확인하세요. Xero에서는 조직에 대한 단일 활성 연결만 허용하며 동일한 조직에 두 번 이상 연결하는 경우 자격 증명이 유효하지 않음을 나타내는 오류가 표시될 수 있습니다.  

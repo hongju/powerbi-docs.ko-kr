@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 12/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e00537db4ffbcb6c1a154cb69fb2c856bd7596
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565662"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983373"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI의 색 서식을 위한 팁과 힌트
 Power BI는 대시보드 및 보고서를 사용자 지정할 수 있는 다양한 방법을 제공합니다. 이 아티클에서는 사용자의 요구에 맞게 Power BI를 보다 매력적이고 흥미롭게 시각화하고 사용자 지정할 수 있는 팁 모음에 대해 자세히 다룹니다.
@@ -29,38 +29,35 @@ Power BI는 대시보드 및 보고서를 사용자 지정할 수 있는 다양�
 * 색 눈금 분기 사용
 * Power BI에서 실행 취소 방법
 
-설정을 변경하려면 보고서를 편집해야 합니다. 다음 이미지와 같이 **내 작업 영역** 창에서 **보고서**를 선택한 다음 최상위 메뉴 영역에서 **보고서 편집**을 선택합니다.
+설정을 변경하려면 보고서를 편집해야 합니다. 다음 이미지와 같이 **내 작업 영역** 창에서 **보고서**를 선택한 다음 최상위 메뉴 영역에서 **보고서 편집**을 선택합니다. 이 예제에서는 **인적 자원 샘플**을 사용합니다.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_1.png)
+![보고서 편집이 강조 표시된 보고서 캔버스](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 **보고서** 캔버스 오른쪽에 **시각화** 창이 나타나면 사용자 지정을 시작할 준비가 된 것입니다.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_2.png)
+![서식 지정 창이 표시되는 보고서](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>단일 데이터 요소 색 변경
-하나의 특정 데이터 요소를 강조 표시하려는 경우가 있습니다. 아마도 신제품 출시에 대한 판매 수치 또는 새 프로그램을 시작한 후 품질 점수 증가 등을 강조 표시하려는 경우입니다. Power BI에서는 색을 변경하여 특정 데이터 요소를 강조 표시할 수 있습니다.
+하나의 특정 데이터 요소를 강조 표시하려는 경우가 있습니다. 아마도 신제품 출시에 대한 판매 수치 또는 새 프로그램을 시작한 후 품질 점수 증가 등을 강조 표시하려는 경우입니다. Power BI 및 대부분의 시각적 개체 형식의 경우 색을 변경하여 특정 데이터 요소를 강조 표시할 수 있습니다.
 
-다음 시각화는 주거 비용과 관련하여 주의 순위를 보여줍니다. 
+다음 시각화는 기본 색을 사용하여 직원별 판매 수익을 표시합니다. 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_3.png)
+![영역 차트](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
 
-이제 이 순위 목록에서 워싱턴의 위치를 색을 사용하여 신속하게 보여주는 상황을 상상해 보겠습니다. 수행하는 단계는 다음과 같습니다.
+Annelie의 영역을 보는 것은 어렵기 때문에 두드러져 보이는 색을 사용합니다. 수행하는 단계는 다음과 같습니다.
 
 **데이터 색** 섹션을 확장합니다. 다음이 나타납니다.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_4.png)
+![서식 지정 아래의 데이터 색 선택 영역](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
 
-**모두 표시** 를 **켜기**로 설정합니다. 그러면 시각화에서 각 데이터 요소에 대한 색이 표시됩니다. 데이터 요소를 마우스로 가리키면 스크롤되어 데이터 요소를 수정할 수 있습니다.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_5.png)
+이 경우 Valery에 사용되는 색과 유사하지 않은 어둡지만 밝은 색을 선택합니다. Annelie의 색 상자 안에 있는 아래쪽 화살표를 선택하고 **사용자 지정 색**을 선택하고 밝은 파란색을 선택합니다.
 
-이 경우 **워싱턴** 을 녹색으로 변경해보겠습니다. **워싱턴** 까지 아래로 스크롤하고 색 상자 안에 있는 아래쪽 화살표를 선택하면 색 선택 창이 나타납니다.
+![색 선택](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+일단 선택되면 Annelie의 영역은 다른 직원과 구별하기가 훨씬 쉬워집니다. 
 
-선택하면 **워싱턴** 데이터 요소가 멋지게 음영 표시되고 확실히 돋보입니다.
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_7.png)
+![영역 차트, 이제 Annalie의 영역은 밝은 파란색](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
 
 시각화 유형을 변경한 후 돌아오더라도 Power BI에서 선택 항목을 기억하고 **워싱턴** 을 녹색으로 유지합니다.
 
