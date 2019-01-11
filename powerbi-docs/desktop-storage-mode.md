@@ -1,6 +1,6 @@
 ---
-title: Power BI Desktop의 저장소 모드 사용(미리 보기)
-description: 저장소 모드를 사용하여 Power BI Desktop에서 데이터가 보고서용으로 메모리 내에 캐시되는지 여부 제어
+title: Power BI Desktop의 스토리지 모드 사용(미리 보기)
+description: 스토리지 모드를 사용하여 Power BI Desktop에서 데이터가 보고서용으로 메모리 내에 캐시되는지 여부 제어
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -17,15 +17,15 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 11/14/2018
 ms.locfileid: "51619497"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop의 저장소 모드(미리 보기)
+# <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop의 스토리지 모드(미리 보기)
 
-Microsoft Power BI Desktop에서는 테이블의 ‘저장소 모드’를 지정할 수 있습니다. ‘저장소 모드’를 사용하면 Power BI Desktop이 보고서에 대한 메모리 내 테이블 데이터를 캐시할지 여부를 제어할 수 있습니다. 
+Microsoft Power BI Desktop에서는 테이블의 ‘스토리지 모드’를 지정할 수 있습니다. ‘저장소 모드’를 사용하면 Power BI Desktop이 보고서에 대한 메모리 내 테이블 데이터를 캐시할지 여부를 제어할 수 있습니다. 
 
-![Power BI Desktop의 저장소 모드](media/desktop-storage-mode/storage-mode_01.png)
+![Power BI Desktop의 스토리지 모드](media/desktop-storage-mode/storage-mode_01.png)
 
-저장소 모드를 설정하면 많은 이점이 제공됩니다. 모델에서 각 테이블의 저장소 모드를 개별적으로 설정할 수 있습니다. 이 작업을 수행하면 다음과 같은 이점을 제공하는 단일 데이터 세트를 사용할 수 있습니다.
+스토리지 모드를 설정하면 많은 이점이 제공됩니다. 모델에서 각 테이블의 스토리지 모드를 개별적으로 설정할 수 있습니다. 이 작업을 수행하면 다음과 같은 이점을 제공하는 단일 데이터 세트를 사용할 수 있습니다.
 
-* **쿼리 성능**: 사용자가 Power BI 보고서에서 시각적 개체를 조작할 때 DAX(Data Analysis Expressions) 쿼리가 데이터 집합에 제출됩니다. 저장소 모드를 제대로 설정하여 데이터를 메모리에 캐시하면 보고서의 쿼리 성능과 대화형 작업이 향상될 수 있습니다.
+* **쿼리 성능**: 사용자가 Power BI 보고서에서 시각적 개체를 조작할 때 DAX(Data Analysis Expressions) 쿼리가 데이터 집합에 제출됩니다. 스토리지 모드를 제대로 설정하여 데이터를 메모리에 캐시하면 보고서의 쿼리 성능과 대화형 작업이 향상될 수 있습니다.
 
 * **큰 데이터 집합**: 캐시되지 않은 테이블이 캐싱을 위해 메모리를 사용하지 않습니다. 너무 크거나 비용이 많이 드는 큰 데이터 세트에 대한 대화형 분석을 메모리에 완전히 캐시할 수 있습니다. 캐시할 테이블과 캐시하지 않을 테이블을 선택할 수 있습니다.
 
@@ -35,25 +35,25 @@ Microsoft Power BI Desktop에서는 테이블의 ‘저장소 모드’를 지�
 
 * **쓰기 저장**: 쓰기 저장을 사용하면 비즈니스 사용자가 셀 값을 변경하여 what-if 시나리오를 살펴볼 수 있습니다. 사용자 지정 애플리케이션이 변경 내용을 데이터 원본에 적용할 수 있습니다. 캐시되지 않은 테이블이 즉시 변경 내용을 표시하므로 효과를 즉시 분석할 수 있습니다.
 
-Power BI Desktop의 저장소 모드 설정은 다음 세 가지 관련 기능 중 하나입니다.
+Power BI Desktop의 스토리지 모드 설정은 다음 세 가지 관련 기능 중 하나입니다.
 
 * **복합 모델**: 보고서에 DirectQuery 연결 또는 가져오기를 비롯한 두 개 이상의 데이터 연결을 다양한 조합으로 포함할 수 있습니다. 자세한 내용은 [Power BI Desktop의 복합 모델(미리 보기)](desktop-composite-models.md)을 참조하세요.
 
 * **다 대 다 관계**: ‘복합 모델’을 사용하면 테이블 간에 ‘다 대 다 관계’를 설정할 수 있습니다. ‘다 대 다 관계’는 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계를 설정하기 위해 새 테이블만 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)를 참조하세요.
 
-* **저장소 모드**: 이제 백 엔드 데이터 원본에 대한 쿼리가 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 저장소 모드는 이 문서에서 더 자세히 설명합니다.
+* **저장소 모드**: 이제 백 엔드 데이터 원본에 대한 쿼리가 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 스토리지 모드는 이 문서에서 더 자세히 설명합니다.
 
-## <a name="use-the-storage-mode-property"></a>저장소 모드 속성 사용
+## <a name="use-the-storage-mode-property"></a>스토리지 모드 속성 사용
 
-저장소 모드는 모델의 각 테이블에서 설정할 수 있는 속성입니다. 저장소 모드를 설정하려면 **필드** 창에서 설정할 속성이 포함된 테이블을 마우스 오른쪽 단추로 클릭한 다음, **속성**을 선택합니다.
+스토리지 모드는 모델의 각 테이블에서 설정할 수 있는 속성입니다. 스토리지 모드를 설정하려면 **필드** 창에서 설정할 속성이 포함된 테이블을 마우스 오른쪽 단추로 클릭한 다음, **속성**을 선택합니다.
 
 ![상황에 맞는 메뉴의 속성 명령](media/desktop-storage-mode/storage-mode_02.png)
 
-현재 속성은 테이블의 **필드 속성** 창에 있는 **저장소 모드** 드롭다운 목록에 표시됩니다. 여기서 현재 저장소 모드를 보거나 수정할 수 있습니다.
+현재 속성은 테이블의 **필드 속성** 창에 있는 **스토리지 모드** 드롭다운 목록에 표시됩니다. 여기서 현재 스토리지 모드를 보거나 수정할 수 있습니다.
 
-![테이블의 저장소 모드 설정](media/desktop-storage-mode/storage-mode_03.png)
+![테이블의 스토리지 모드 설정](media/desktop-storage-mode/storage-mode_03.png)
 
-저장소 모드에는 다음 세 가지 값이 있습니다.
+스토리지 모드에는 다음 세 가지 값이 있습니다.
 
 * **가져오기**: 값을 **가져오기**로 설정하면 가져온 테이블이 캐시됩니다. 가져오기 테이블의 데이터를 반환하는 Power BI 데이터 세트에 제출된 쿼리는 캐시된 데이터에서만 수행할 수 있습니다.
 
@@ -70,11 +70,11 @@ Power BI Desktop의 저장소 모드 설정은 다음 세 가지 관련 기능 �
 ## <a name="propagation-of-dual"></a>이중 전파
 가져오기 및 DirectQuery를 지원하는 단일 원본에서 모든 테이블을 가져오는 경우 다음 간단한 모델을 사용하는 것이 좋습니다.
 
-![저장소 모드에 대한 예제 관계 보기](media/desktop-storage-mode/storage-mode_04.png)
+![스토리지 모드에 대한 예제 관계 보기](media/desktop-storage-mode/storage-mode_04.png)
 
 처음에 이 모델의 모든 테이블이 DirectQuery라고 가정해 봅니다. *SurveyResponse* 테이블의 **저장소 모드**를 가져오기로 변경하면 다음 경고 창이 표시됩니다.
 
-![저장소 모드 경고 창](media/desktop-storage-mode/storage-mode_05.png)
+![스토리지 모드 경고 창](media/desktop-storage-mode/storage-mode_05.png)
 
 데이터 세트의 약한 관계 수를 줄이고 성능을 향상하기 위해 차원 테이블(*Customer*, *Geography*, *Date*)을 **이중**으로 설정할 수 있습니다. 약한 관계에는 일반적으로 원본 시스템에 조인 논리를 밀어 넣을 수 없는 DirectQuery 테이블이 하나 이상 포함됩니다. **이중** 테이블이 DirectQuery 또는 가져오기로 작동할 수 있다는 사실은 이를 방지하는 데 도움이 됩니다.
 
@@ -82,10 +82,10 @@ Power BI Desktop의 저장소 모드 설정은 다음 세 가지 관련 기능 �
 
 전파 논리는 **일 대 다** 관계의 한쪽으로만 이동합니다.
 
-## <a name="storage-mode-usage-example"></a>저장소 모드 사용 예제
-이전 섹션의 예제를 계속 진행하고 다음 저장소 모드 속성 설정을 적용한다고 가정해 보겠습니다.
+## <a name="storage-mode-usage-example"></a>스토리지 모드 사용 예제
+이전 섹션의 예제를 계속 진행하고 다음 스토리지 모드 속성 설정을 적용한다고 가정해 보겠습니다.
 
-| 테이블                   | 저장소 모드         |
+| 테이블                   | 스토리지 모드         |
 | ----------------------- |----------------------| 
 | *Sales*                 | DirectQuery          | 
 | *SurveyResponse*        | 가져오기               | 
@@ -94,7 +94,7 @@ Power BI Desktop의 저장소 모드 설정은 다음 세 가지 관련 기능 �
 | *Geography*             | 이중                 | 
 
 
-이러한 저장소 모드 속성을 설정하면 *Sales* 테이블에 중요한 데이터 볼륨이 있다고 가정하여 다음 동작이 발생합니다.
+이러한 스토리지 모드 속성을 설정하면 *Sales* 테이블에 중요한 데이터 볼륨이 있다고 가정하여 다음 동작이 발생합니다.
 * Power BI Desktop은 차원 테이블(*Date*, *Customer* 및 *Geography*)을 캐시하므로 표시할 슬라이서 값을 검색할 때 초기 보고서 로드 시간이 빠릅니다.
 * *Sales* 테이블을 캐시하지 않으면 Power BI Desktop은 다음 결과를 제공합니다.
     * 데이터 새로 고침 시간이 개선되고 메모리 소비가 감소합니다.
@@ -116,15 +116,15 @@ Power BI Desktop의 진단 포트에 **SQL 프로파일러**를 연결하면 다
 
 이전 예제를 계속하여, 다음 쿼리는 **이중** 모드인 *Date* 테이블의 열만 참조합니다. 따라서 쿼리는 캐시를 적중해야 합니다.
 
-![저장소 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode_06.png)
+![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode_06.png)
 
 다음 쿼리는 **DirectQuery** 모드인 *Sales* 테이블의 열만 참조합니다. 따라서 캐시를 적중하지 ‘않아야’ 합니다.
 
-![저장소 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode_07.png)
+![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode_07.png)
 
 다음 쿼리는 두 열을 결합하므로 흥미롭습니다. 이 쿼리는 캐시를 적중하지 않습니다. 초기에는 캐시에서 *CalendarYear* 값을 검색하고 원본에서 *SalesAmount* 값을 검색한 후 결과를 결합할 것으로 기대할 수 있지만, 이 방법은 SUM/GROUP BY 작업을 원본 시스템에 제출하는 것보다 덜 효율적입니다. 작업이 원본으로 푸시다운된 경우 반환되는 행 수가 훨씬 더 적을 수 있습니다. 
 
-![저장소 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode_08.png)
+![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
 > 이 동작은 캐시된 테이블과 캐시되지 않은 테이블을 결합할 때 [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)와 다릅니다.
@@ -145,7 +145,7 @@ Power BI Desktop의 진단 포트에 **SQL 프로파일러**를 연결하면 다
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
-저장소 모드의 이 릴리스 및 복합 모델과 상관 관계에 대한 몇 가지 제한 사항이 있습니다.
+스토리지 모드의 이 릴리스 및 복합 모델과 상관 관계에 대한 몇 가지 제한 사항이 있습니다.
 
 다음 Live Connect(다차원) 원본은 복합 모델과 함께 사용할 수 없습니다.
 
@@ -157,7 +157,7 @@ Power BI Desktop의 진단 포트에 **SQL 프로파일러**를 연결하면 다
 
 DirectQuery를 사용하여 이러한 다차원 원본에 연결하는 경우 다른 DirectQuery 원본에 연결할 수 없고 가져온 데이터와 결합할 수 없습니다.
 
-복합 모델을 사용하면 DirectQuery 사용의 기존 제한 사항이 여전히 적용됩니다. 이러한 제한 사항 중 대부분은 테이블의 저장소 모드에 따라 테이블별로 적용됩니다. 예를 들어 가져온 테이블의 계산 열은 다른 테이블을 참조할 수 있지만, DirectQuery 테이블에서 계산 열은 동일한 테이블의 열만 참조하도록 제한됩니다. 다른 제한 사항은 모델 내의 테이블이 DirectQuery인 경우 모델에 전체적으로 적용됩니다. 예를 들어 QuickInsights 기능과 질문 및 답변 기능은 모델 내의 테이블에 DirectQuery의 저장소 모드가 있는 경우 해당 모델에서 사용할 수 없습니다. 
+복합 모델을 사용하면 DirectQuery 사용의 기존 제한 사항이 여전히 적용됩니다. 이러한 제한 사항 중 대부분은 테이블의 스토리지 모드에 따라 테이블별로 적용됩니다. 예를 들어 가져온 테이블의 계산 열은 다른 테이블을 참조할 수 있지만, DirectQuery 테이블에서 계산 열은 동일한 테이블의 열만 참조하도록 제한됩니다. 다른 제한 사항은 모델 내의 테이블이 DirectQuery인 경우 모델에 전체적으로 적용됩니다. 예를 들어 QuickInsights 기능과 질문 및 답변 기능은 모델 내의 테이블에 DirectQuery의 저장소 모드가 있는 경우 해당 모델에서 사용할 수 없습니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -35,7 +35,7 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
 
 조직 내 개인은 Power BI Pro 평가판에 등록할 수 있습니다. 자세한 내용은 [Power BI에 개인으로 가입](service-self-service-signup-for-power-bi.md)을 참조하세요.
 
-이 제품 내 Power BI Pro 평가판을 사용하는 사용자는 Office 365 관리 포털에서 Power BI Pro 평가판 사용자로 표시되지 않고 Power BI 무료 사용자로 표시됩니다. 그러나 Power BI의 저장소 관리 페이지에는 Power BI Pro 평가판 사용자로 표시됩니다.
+이 제품 내 Power BI Pro 평가판을 사용하는 사용자는 Office 365 관리 포털에서 Power BI Pro 평가판 사용자로 표시되지 않고 Power BI 무료 사용자로 표시됩니다. 그러나 Power BI의 스토리지 관리 페이지에는 Power BI Pro 평가판 사용자로 표시됩니다.
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>조직용 Power BI Pro 평가판
 

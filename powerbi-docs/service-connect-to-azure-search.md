@@ -35,7 +35,7 @@ Azure Search 트래픽 분석을 사용하면 Azure Search 서비스에 대한 �
 4. Azure Search 분석이 저장되는 Table Storage 계정의 이름을 제공합니다.
    
    ![](media/service-connect-to-azure-search/params.png)
-5. 인증 메커니즘으로 **키** 를 선택하고 저장소 계정 키를 제공합니다. **로그인** 을 클릭하여 로드 프로세스를 시작합니다.
+5. 인증 메커니즘으로 **키** 를 선택하고 스토리지 계정 키를 제공합니다. **로그인** 을 클릭하여 로드 프로세스를 시작합니다.
    
    ![](media/service-connect-to-azure-search/creds.png)
 6. 로드가 완료되면 새 대시보드, 보고서 및 모델이 탐색 창에 나타납니다. 대시보드를 선택하여 가져온 데이터를 표시합니다.
@@ -53,7 +53,7 @@ Azure Search 트래픽 분석을 사용하면 Azure Search 서비스에 대한 �
 Azure Search 콘텐츠 팩을 사용하려면 계정에 대해 Azure Search 트래픽 분석이 사용되도록 설정되어야 합니다.
 
 ## <a name="troubleshooting"></a>문제 해결
-저장소 계정 이름이 전체 액세스 키와 함께 제공된 경우 올바른지 확인합니다. 저장소 계정 이름은 Azure Search 트래픽 분석을 사용하여 구성한 계정과 일치해야 합니다.
+스토리지 계정 이름이 전체 액세스 키와 함께 제공된 경우 올바른지 확인합니다. 스토리지 계정 이름은 Azure Search 트래픽 분석을 사용하여 구성한 계정과 일치해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](power-bi-overview.md)
