@@ -1,5 +1,5 @@
 ---
-title: Power BI의 사용자 지정 시각화
+title: Power BI의 사용자 지정 시각적 개체
 description: Power BI의 사용자 지정 시각화
 author: markingmyname
 ms.author: maghan
@@ -8,23 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.subservice: powerbi-custom-visuals
-ms.date: 11/06/2018
+ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d38cf108a4c2e863811cfee68fc2d0b95c1990e
-ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
+ms.openlocfilehash: 0d634d7fc7753f7aaaf7d7118cfad1ab90b6e82a
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54056044"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072247"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI의 사용자 지정 시각적 개체
 
-Power BI 보고서를 만들거나 편집 할 때 사용할 수 있는 다양한 유형의 시각적 개체가 있습니다. 이러한 시각적 개체는 **시각화** 창에 표시됩니다. Power BI Desktop을 다운로드하거나 Power BI 서비스(app.powerbi.com)를 열면 이 시각적 개체 집합이 "사전 패키지 형태"로 제공됩니다.
+Power BI 보고서를 만들거나 편집 할 때 사용할 수 있는 다양한 유형의 시각적 개체가 있습니다. 이러한 시각적 개체는 **시각화** 창에 표시됩니다. [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/)을 다운로드하거나 [Power BI 서비스](https://app.powerbi.com)를 열면 이러한 시각적 개체 세트가 "사전 패키지 형태"로 함께 제공됩니다.
 
 ![시각화](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
-하지만 이 시각적 개체 집합에 국한되지 않으며, 타원을 선택하면 *사용자 지정 시각적 개체*라는 보고서 시각적 개체의 다른 원본이 열립니다.
+이 시각적 개체 세트만 사용할 수 있는 것은 아닙니다. 타원을 선택하면 *사용자 지정 시각적 개체*라는 또 하나의 보고서 시각적 개체 소스가 열립니다.
 
 사용자 지정 시각적 개체는 개발자가 사용자 지정 시각적 개체 SDK를 사용하여 만들어, 비즈니스 사용자가 비즈니스에 가장 적합한 방식으로 데이터를 표시할 수 있도록 합니다. 그런 다음, 보고서 작성자는 사용자 지정 시각적 개체 파일을 보고서로 가져오고 다른 Power BI 시각적 개체로 사용할 수 있습니다. 사용자 지정 시각적 개체는 Power BI에서 가장 중요하며 필터링되고, 강조 표시되고, 편집되고, 공유될 수 있습니다.
 
@@ -41,7 +40,7 @@ Power BI 보고서를 만들거나 편집 할 때 사용할 수 있는 다양한
 > [!WARNING]
 > 사용자 지정 시각적 개체에는 보안 또는 개인 정보 관련 위험이 있는 코드가 포함될 수 있습니다. 보고서로 가져오기 전에 사용자 지정 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인해야 합니다.
 
-## <a name="organization-visuals"></a>조직의 시각적 개체
+## <a name="organizational-visuals"></a>조직의 시각적 개체
 
 Power BI 관리자는 사용자 지정 시각적 개체를 조직에 배포할 수 있습니다. 그러면 보고서 작성자는 관리자가 조직 내에서 사용할 수 있도록 승인한 사용자 지정 시각적 개체를 쉽게 검색하고 사용할 수 있습니다. 그러면 관리자는 조직에 배포할 특정 사용자 지정 시각적 개체를 선택할 수 있을 뿐만 아니라 이러한 시각적 개체를 쉽게 관리(예: 업데이트 버전, 사용/사용 안 함)할 수 있습니다. 보고서 작성자의 경우, 해당 시각적 개체 업데이트를 원할하게 지원할 수 있을 뿐만 아니라 조직에 고유한 시각적 개체를 쉽게 찾을 수 있습니다.
 
@@ -74,7 +73,7 @@ Power BI 인증 시각적 개체는 품질에 대해 추가로 엄격한 테스�
 
     ![cv imported](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="import-organization-visuals"></a>조직의 시각적 개체 가져오기
+### <a name="import-organizational-visuals"></a>조직의 시각적 개체 가져오기
 
 1. 시각화 창 아래쪽에서 줄임표(...)를 선택합니다.
 
@@ -132,7 +131,7 @@ Power BI 인증 시각적 개체는 품질에 대해 추가로 엄격한 테스�
 
 ### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>Microsoft AppSource에서 사용자 지정 시각적 개체 다운로드 및 가져오기
 
-1. [Microsoft AppSource](https://appsource.microsoft.com)에서 시작하고 **앱**의 탭을 선택합니다. 
+1. [Microsoft AppSource](https://appsource.microsoft.com)에서 시작하고 **앱**의 탭을 선택합니다.
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
@@ -175,5 +174,9 @@ Power BI 인증 시각적 개체는 품질에 대해 추가로 엄격한 테스�
 ## <a name="faq"></a>FAQ
 
 자세한 내용 및 질문과 대답은 [Power BI 사용자 지정 시각적 개체에 대한 질문과 대답](power-bi-custom-visuals-faq.md#organizational-custom-visuals)을 참조하세요.
+
+## <a name="next-steps"></a>다음 단계
+
+* [Power BI의 시각화](visuals/power-bi-report-visualizations.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.

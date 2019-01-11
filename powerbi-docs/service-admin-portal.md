@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
-ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
+ms.openlocfilehash: e83c853ac1c3fc7c7d4d5e79c9f6be965d880361
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53735572"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072293"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -57,9 +57,9 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 다음은 각 타일에 표시되는 내용에 대한 요약입니다.
 
-* 사용자 작업 영역의 모든 대시보드, 보고서 및 데이터 집합에 대한 고유한 개수입니다.
+* 사용자 작업 영역의 모든 대시보드, 보고서 및 데이터 세트에 대한 고유한 개수입니다.
   
-    ![대시보드, 보고서, 데이터 집합에 대한 고유한 개수](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
+    ![대시보드, 보고서, 데이터 세트에 대한 고유한 개수](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
 * 액세스할 수 있는 사용자 수별로 가장 많이 사용한 대시보드입니다. 예를 들어 사용자 3명과 공유하는 대시보드가 있는데 서로 다른 두 사용자가 연결한 콘텐츠 팩에 이를 추가하면 개수는 6(1+3+2)개가 됩니다.
   
@@ -204,7 +204,7 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 
 ### <a name="create-template-organizational-content-packs-and-apps"></a>템플릿 조직 콘텐츠 팩 및 앱 만들기
 
-조직의 사용자는 Power BI Desktop에서 빌드된 데이터 집합을 사용하는 템플릿 콘텐츠 팩을 만들 수 있습니다. [자세히 알아보기](template-content-pack-authoring.md)
+조직의 사용자는 Power BI Desktop에서 빌드된 데이터 세트를 사용하는 템플릿 콘텐츠 팩을 만들 수 있습니다. [자세히 알아보기](template-content-pack-authoring.md)
 
 ### <a name="push-apps-to-end-users"></a>최종 사용자에게 앱 푸시
 
@@ -219,9 +219,9 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 > [!NOTE]
 > 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
 
-### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>온-프레미스 데이터 집합을 통해 Excel에서 분석 사용
+### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>온-프레미스 데이터 세트를 통해 Excel에서 분석 사용
 
-조직의 사용자는 Excel을 사용하여 온-프레미스 Power BI 데이터 집합을 보고 상호 작용할 수 있습니다. [자세히 알아보기](service-analyze-in-excel.md)
+조직의 사용자는 Excel을 사용하여 온-프레미스 Power BI 데이터 세트를 보고 상호 작용할 수 있습니다. [자세히 알아보기](service-analyze-in-excel.md)
 
 > [!NOTE]
 > **데이터 내보내기**를 사용하지 않도록 설정하면 사용자는 **Excel에서 분석** 기능을 사용할 수 없습니다.
@@ -329,9 +329,9 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 ![Power BI 관리 포털 내의 embed 태그](media/service-admin-portal/embed-codes.png)
 
-## <a name="organization-visuals"></a>조직의 시각적 개체
+## <a name="organizational-visuals"></a>조직의 시각적 개체
 
-**조직 시각적 개체** 탭에서는 조직 내부에서 사용자 지정 시각적 개체를 배포 및 관리할 수 있습니다. 조직 시각적 개체를 사용하면 조직에서 소유 시각적 개체를 쉽게 배포할 수 있으므로 이후 보고서 작성자가 Power BI Desktop에서 이를 검색하고 보고서로 가져올 수 있습니다. [자세히 알아보기](power-bi-custom-visuals-organization.md)
+**조직의 시각적 개체** 탭에서는 조직 내부에서 사용자 지정 시각적 개체를 배포 및 관리할 수 있습니다. 조직 시각적 개체를 사용하면 조직에서 소유 시각적 개체를 쉽게 배포할 수 있으므로 이후 보고서 작성자가 Power BI Desktop에서 이를 검색하고 보고서로 가져올 수 있습니다. [자세히 알아보기](power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > 사용자 지정 시각적 개체에는 보안 또는 개인 정보 관련 위험이 있는 코드가 포함될 수 있습니다. 조직의 리포지토리로 배포하기 전에 사용자 지정 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인해야 합니다.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180832"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072224"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI의 셀프 서비스 데이터 준비(미리 보기)
 
@@ -92,7 +92,7 @@ Power BI는 조직의 Azure Data Lake Storage 계정에 저장된 공통 데이�
 |데이터 흐름 연결된 엔터티| |        +|
 |표준화된 스키마/공통 데이터 모델에 대한 기본 제공 지원|  +|  +|
 
-
+Premium 용량에서 데이터 흐름 워크로드를 활성화하는 방법을 알아보려면 Power BI Premium의 [워크로드 구성](service-admin-premium-manage.md#configure-workloads) 문서를 참조하세요.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Power BI의 빅 데이터용 셀프 서비스 데이터 준비에 대한 요약
 이 문서의 앞에 설명된 것처럼 **데이터 흐름**을 사용하여 비즈니스 데이터를 더 효율적으로 제어하고 더 빠르게 인사이트를 얻을 수 있는 여러 시나리오와 예제가 있습니다. 공통 데이터 모델에 의해 정의된 표준 데이터 모델(스키마)을 사용하면 데이터 흐름이 중요한 비즈니스 데이터를 가져와 매우 짧은 기간 동안 BI 인사이트를 모델링하고 만들기를 위한 데이터를 준비할 수 있습니다. 이전에는 이러한 인사이트 만들기에 몇 달 또는 그 이상의 시간이 걸렸습니다. 
