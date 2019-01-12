@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 5ee6758093969a2db1d932a88f21c965380bab5c
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: db782cea1d47dc31abf2908b82a756404fda513d
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008445"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136533"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
@@ -219,6 +219,10 @@ IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는
 
 ## <a name="content-rendering"></a>콘텐츠 렌더링
 
+### <a name="performance"></a>성능
+
+[Power BI Embedded 성능](embedded-performance-best-practices.md)
+
 ### <a name="rendering-or-consumption-of-embedded-content-fails-or-times-out"></a>포함된 콘텐츠의 렌더링 또는 사용이 실패하거나 시간이 초과됨
 
 포함된 토큰이 만료되지 않았는지 확인합니다. 포함 토큰 만료를 확인하고 새로 고칩니다. 자세한 내용은 [JavaScript SDK를 사용하여 토큰 새로 고침](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example)을 참조하세요.
@@ -292,6 +296,8 @@ AADSTS50079 오류가 발생하는 경우: 사용자가 다단계 인증을 사�
 
 추가 지원이 필요한 경우 [지원 담당자에게 문의](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)하거나 [Azure Portal을 통해 지원 티켓을 작성](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)하고 발생한 오류 메시지를 제공하세요.
 
-## <a name="performance"></a>성능
+## <a name="next-steps"></a>다음 단계
 
-[Power BI Embedded 성능](embedded-performance-best-practices.md)
+자세한 내용은 [FAQ](embedded-faq.md)를 참조하세요.
+
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
