@@ -62,7 +62,7 @@ items:
       href: desktop-composite-models.md
     - name: Power BI Desktop의 다 대 다 관계(미리 보기)
       href: desktop-many-to-many-relationships.md
-    - name: Power BI Desktop의 저장소 모드(미리 보기)
+    - name: Power BI Desktop의 스토리지 모드(미리 보기)
       href: desktop-storage-mode.md
     - name: Power BI Desktop에서 양방향 교차 필터링(미리 보기)
       href: desktop-bidirectional-filtering.md
@@ -72,6 +72,8 @@ items:
       href: desktop-directquery-data-sources.md
     - name: Power BI 데이터 원본 필수 조건
       href: desktop-data-source-prerequisites.md
+    - name: Power BI의 다차원 모델의 기본 멤버
+      href: desktop-default-member-multidimensional-models.md
     - name: 사용자 지정 시각적 개체 FAQ
       href: power-bi-custom-visuals-faq.md
   - name: 방법
@@ -104,6 +106,8 @@ items:
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: 시각화 제목, 배경 및 범례 사용자 지정
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
+    - name: Power BI에서 데이터가 없는 항목 표시
+      href: desktop-show-items-no-data.md
     - name: 데이터에 연결
       items:
       - name: Power BI Desktop의 데이터 소스
@@ -864,8 +868,10 @@ items:
       items:
       - name: 성능 모범 사례
         href: developer/embedded-performance-best-practices.md
-      - name: 행 수준 보안(RLS)
+      - name: 행 수준 보안
         href: developer/embedded-row-level-security.md
+      - name: 다중 테넌트 관리
+        href: developer/embed-multi-tenancy.md
       - name: Power BI Embedded에 대한 Azure 진단 로깅
         href: developer/azure-pbie-diag-logs.md
       - name: 포함 FAQ
@@ -1287,9 +1293,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: cf29eebc31ef8a62b20b08606e97b4fd035b3fec
-ms.sourcegitcommit: c4455dcb6d9a091ac80f4a5135433b162fcaba58
+ms.openlocfilehash: a3abfd814e95ca00c433b66e7fe6aad665f8426f
+ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "54211370"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "54239293"
