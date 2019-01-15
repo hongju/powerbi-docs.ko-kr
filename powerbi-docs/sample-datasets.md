@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: e46cfffc28bd77685e0a34b492e54234a76afa35
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: ae1aa4bb5a345d72a33d3d859a6a47de6c27b0ed
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180901"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291536"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI와 함께 사용 가능한 샘플 데이터는 무엇입니까?
 Power BI를 처음 접하고, 사용해 보고 싶지만 데이터가 없는 경우가 있습니다.  또는 데이터 세트가 있지만 Power BI의 작동 원리를 아직 잘 모르기 때문에 데이터 세트가 조금이라도 손상될까봐 걱정하는 분들이 있습니다.
@@ -154,8 +154,8 @@ ObviEnce는 Microsoft Business Intelligence에 주력하는 ISV이자 IP(Intelle
 8. Power BI로 통합 문서를 가져올지, 데이터를 가져올지 선택하고 온라인 Excel과 똑같은지 확인합니다.
 
     ![가져오기 또는 연결](media/sample-datasets/power-bi-import.png)
-9. **가져오기**를 선택하면 Power BI에서 샘플 통합 문서를 가져와 **조달 분석 샘플**이라는 새 데이터 집합으로 추가합니다.  통합 문서에 파워 뷰 시트, 테이블 또는 범위나 데이터 모델이 있을 경우 Power BI에서 같은 이름의 보고서도 만듭니다. 열려 있는 대시보드가 아직 없을 경우 Power BI에서 새 대시보드를 만듭니다. (**데이터 가져오기**를 클릭할 때 대시보드가 열려 있으면 해당 대시보드에 새 빈 타일이 표시됩니다.  해당 타일을 클릭하면 방금 추가한 데이터 세트에 대한 보고서로 이동합니다). 새 콘텐츠에는 샘플의 이름을 딴 이름이 지정되며, 노란색 별표가 표시됩니다.
-10. **데이터 집합이 준비되었습니다!** 화면이 나타나면 **데이터 세트 보기** 또는 **빠른 정보 활용 탐색**을 선택하거나 간단히 Power BI 왼쪽 탐색 모음을 사용하여 연결된 보고서 또는 대시보드를 엽니다.  
+9. **가져오기**를 선택하면 Power BI에서 샘플 통합 문서를 가져와 **조달 분석 샘플**이라는 새 데이터 세트로 추가합니다.  통합 문서에 파워 뷰 시트, 테이블 또는 범위나 데이터 모델이 있을 경우 Power BI에서 같은 이름의 보고서도 만듭니다. 열려 있는 대시보드가 아직 없을 경우 Power BI에서 새 대시보드를 만듭니다. (**데이터 가져오기**를 클릭할 때 대시보드가 열려 있으면 해당 대시보드에 새 빈 타일이 표시됩니다.  해당 타일을 클릭하면 방금 추가한 데이터 세트에 대한 보고서로 이동합니다). 새 콘텐츠에는 샘플의 이름을 딴 이름이 지정되며, 노란색 별표가 표시됩니다.
+10. **데이터 세트가 준비되었습니다!** 화면이 나타나면 **데이터 세트 보기** 또는 **빠른 정보 활용 탐색**을 선택하거나 간단히 Power BI 왼쪽 탐색 모음을 사용하여 연결된 보고서 또는 대시보드를 엽니다.  
 
      ![데이터 세트 보기](media/sample-datasets/power-bi-ready.png)
 

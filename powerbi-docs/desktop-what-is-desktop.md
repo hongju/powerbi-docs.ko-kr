@@ -5,21 +5,21 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a083512a1d280044b30f07c46d201def33fa66fa
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: d687e9ed9fac38dabf539a4f2fffbc89cf3a2bbb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578523"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296128"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
 
-**Power BI Desktop**은 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 무료 응용 프로그램입니다. **Power BI Desktop**을 사용하면 여러 다른 데이터 원본에 연결하고 이들을 데이터 모델에 결합하여 시각적 개체 및 조직 내의 다른 사용자와 보고서로 공유할 수 있는 시각적 개체 모음을 빌드할 수 있습니다. 비즈니스 인텔리전스 프로젝트에서 작업하는 대부분의 사용자는 **Power BI Desktop**을 사용하여 보고서를 만든 다음, **Power BI 서비스**를 사용하여 다른 사용자와 보고서를 공유합니다.
+**Power BI Desktop**은 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 무료 애플리케이션입니다. **Power BI Desktop**을 사용하면 여러 다른 데이터 원본에 연결하고 이들을 데이터 모델에 결합하여 시각적 개체 및 조직 내의 다른 사용자와 보고서로 공유할 수 있는 시각적 개체 모음을 빌드할 수 있습니다. 비즈니스 인텔리전스 프로젝트에서 작업하는 대부분의 사용자는 **Power BI Desktop**을 사용하여 보고서를 만든 다음, **Power BI 서비스**를 사용하여 다른 사용자와 보고서를 공유합니다.
 
 ![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
@@ -87,7 +87,7 @@ Power BI Desktop에서 모델을 만드는 데 사용한 데이터의 다양한 
 
 ## <a name="next-steps"></a>다음 단계
 
-**Power BI Desktop**을 시작하려면 먼저 응용 프로그램을 다운로드하여 설치해야 합니다. **Power BI Desktop**을 가져오는 방법은 두 가지가 있습니다.
+**Power BI Desktop**을 시작하려면 먼저 애플리케이션을 다운로드하여 설치해야 합니다. **Power BI Desktop**을 가져오는 방법은 두 가지가 있습니다.
 
 * [웹에서 Power BI Desktop 다운로드](desktop-get-the-desktop.md)
 * [Windows 스토어에서 Power BI Desktop 가져오기](http://aka.ms/pbidesktopstore)

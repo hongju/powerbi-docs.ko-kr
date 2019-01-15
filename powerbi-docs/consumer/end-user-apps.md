@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: lukaszp
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ca6823673b46c033d2fd04b7d8a278d87aeb78f3
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 859deefd829a696d2a99e896439481357c698e4a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280492"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275160"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다. 조직의 사용자는 주요 비즈니스 정보가 포함된 앱을 만들고 배포합니다. 이미 사용 중일 수 있는 Google 웹로그 분석 및 Microsoft Dynamics CRM과 같은 [외부 서비스](../service-connect-to-services.md)에서도 Power BI 앱을 제공합니다. 
@@ -39,7 +39,7 @@ Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모
 
 ![Power BI 서비스의 앱 방문 페이지](./media/end-user-apps/power-bi-get-app.png)
 
-**iOS 또는 Android 모바일 장치에서** 
+**iOS 또는 Android 모바일 디바이스에서** 
 
 모바일 디바이스에서 메일의 링크를 선택하면 앱이 자동으로 설치되어 모바일 앱에서 앱 콘텐츠 목록을 엽니다. 
 

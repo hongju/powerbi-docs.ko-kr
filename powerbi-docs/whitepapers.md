@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 01/09/2019
 ms.author: maggies
-ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266096"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295820"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI용 백서
 
@@ -26,7 +26,7 @@ ms.locfileid: "51266096"
 | [Microsoft Power BI 프리미엄](https://aka.ms/pbipremiumwhitepaper) |시작될 때의 모습과 확대 방식 등, Power BI 프리미엄을 설명합니다. | 2017년 10월 |
 | [Power BI Premium 계획 및 배포](https://aka.ms/Premium-Capacity-Planning-Deployment)| 이 문서는 잘 정의된 워크로드를 위한 프리미엄 용량을 계획하고 배포하기 위한 지침과 모범 사례를 제공합니다.| 2017년 11월 |
 | [Power BI 프리미엄을 사용한 Embedded Analytics에 대한 용량 계획](https://aka.ms/pbiewhitepaper) |이 문서는 앱 개발자/ISV에게 해당 비즈니스에 대한 가장 적절한 용량을 결정하기 위한 지침을 제공합니다. | 2017년 10월 |
-| [Power BI Enterprise 배포 계획](https://aka.ms/pbienterprisedeploy) |이는 원활하게 작동하고 안전한 조직 Power BI 배포에 대한 고려 사항을 간략히 설명한 기술 백서입니다. | 2018년 7월 |
+| [Power BI Enterprise 배포 계획](https://go.microsoft.com/fwlink/?linkid=2057861) |이는 원활하게 작동하고 안전한 조직 Power BI 배포에 대한 고려 사항을 간략히 설명한 기술 백서입니다. | 2018년 7월 |
 | [Power BI 보고서 서버에 대한 용량 계획 지침](report-server/capacity-planning.md) |이 문서는 보고서 서버에 대한 다양한 워크로드의 다양한 부하 테스트 실행 결과를 공유하여 Power BI 보고서 서버의 용량 계획에 대한 지침을 제공하려고 합니다. | 2018년 3월 |
 | [보안](service-admin-power-bi-security.md) |Power BI 내 보안에 대한 자세한 설명을 제공합니다. | 2018년 7월 |
 | [Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포](https://aka.ms/powerbi-b2b-whitepaper)|이 문서에서는 AAD B2B(Azure Active Directory Business-to-business)의 통합을 사용하여 콘텐츠를 조직 외부 사용자에게 배포하는 방법을 간략히 설명합니다.| 2018년 3월 |

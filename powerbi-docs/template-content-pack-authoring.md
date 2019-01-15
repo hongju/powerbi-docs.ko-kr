@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 7253a340ce0852039a08d0ed17c488fc8fdbfa69
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ab80739b64a3fc72fec0af000b7678bfad585c6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545925"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285073"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI에서 템플릿 콘텐츠 팩 작성
 템플릿 콘텐츠 팩 작성 시에는 Power BI Desktop 및 PowerBI.com을 사용합니다. 콘텐츠 팩에는 네 가지 구성 요소가 있습니다.
@@ -130,12 +130,12 @@ Power BI Desktop에서 [매개 변수](https://powerbi.microsoft.com/blog/deep-d
 
 | 지원됨 | *지원되지 않음* |
 | --- | --- |
-| PBI Desktop에 기본 제공되는 데이터 세트 |*다른 콘텐츠 팩 또는 Excel 파일 등의 입력의 데이터 집합* |
+| PBI Desktop에 기본 제공되는 데이터 세트 |*다른 콘텐츠 팩 또는 Excel 파일 등의 입력의 데이터 세트* |
 | 클라우드 예약된 데이터 새로 고침에 대해 지원되는 데이터 원본 |*직접 쿼리 또는 온-프레미스 연결이 지원되지 않음* |
 | 해당 위치에서 일관된 스키마 또는 오류를 반환하는 쿼리 |*동적 또는 사용자 지정 스키마* |
 | 데이터 세트당 한 개의 데이터 원본 |*여러 데이터 원본으로 감지되는 매시업 또는 URL 등의 여러 데이터 원본* |
 | 텍스트 형식의 매개 변수 |*기타 매개 변수 형식(예: 날짜) 또는 "허용되는 값 목록"* |
-| 한 개 대시보드, 보고서 및 데이터 세트 |*여러 개의 대시보드, 보고서 또는 데이터 집합* |
+| 한 개 대시보드, 보고서 및 데이터 세트 |*여러 개의 대시보드, 보고서 또는 데이터 세트* |
 
 ## <a name="next-step"></a>다음 단계
 [콘텐츠 팩 테스트 및 제출](template-content-pack-testing.md)

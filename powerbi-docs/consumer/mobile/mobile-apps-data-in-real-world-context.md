@@ -1,20 +1,20 @@
 ---
 title: Power BI 모바일 앱으로 실제 환경 데이터 가져오기
 description: Power BI 모바일 앱에서는 검색할 필요 없이 관련된 BI 정보에 실제 세계를 연결할 수 있습니다.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
-ms.author: maggies
-ms.openlocfilehash: 58e9bc55c756e78a1eb855d28339bf28064ebeec
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: bc3b6bdab9c0d02b3cc0fe5be4aa1052377e2c88
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44743759"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275413"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Power BI 모바일 앱으로 실제 환경에서 데이터 가져오기
 Power BI 모바일 앱에서는 여러 가지 방법으로 관련된 BI 정보에 실제 세계를 연결할 수 있습니다. 
@@ -27,7 +27,7 @@ Power BI 모바일 앱에서는 여러 가지 방법으로 관련된 BI 정보�
 추가 정보:
 
 * [Power BI에서 타일에 대한 QR 코드 만들기](../../service-create-qr-code-for-tile.md)
-* [모바일 장치에서 Power BI QR 코드 스캔](mobile-apps-qr-code.md)
+* [모바일 디바이스에서 Power BI QR 코드 스캔](mobile-apps-qr-code.md)
 * [혼합 현실용 Power BI 앱을 사용하여 QR 코드 스캔](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)
 
 ## <a name="qr-codes-for-reports"></a>보고서에 대한 QR 코드

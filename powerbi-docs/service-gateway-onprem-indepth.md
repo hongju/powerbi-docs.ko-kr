@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "50101511"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279323"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>온-프레미스 데이터 게이트웨이 심층 분석
 조직의 사용자는 온-프레미스 데이터(이미 액세스 권한이 있는)에 액세스할 수 있지만 그러한 사용자가 온-프레미스 데이터 원본에 연결할 수 있기 전에 온-프레미스 데이터 게이트웨이를 설치하고 구성해야 합니다. 게이트웨이를 사용하면 클라우드의 사용자로부터 온-프레미스 데이터 원본으로, 다시 클라우드로 빠르고 안전하게 백그라운드에서 통신할 수 있습니다.

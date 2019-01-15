@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: e0053660263f4cbed55050b9431b67228bf74c29
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 14540dc9ecaf1c3baa513b6e8cd12323de973d3d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157359"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275390"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>보고서 서버의 보고서에 주석 추가 - Power BI Report Server
 보고서 서버의 웹 포털 내에 있는 Power BI 보고서를 비롯한 보고서에 주석을 추가할 수 있습니다. 주석은 보고서와 함께 유지되며 적절한 권한이 있는 모든 사용자는 보고서에 대한 주석을 볼 수 있습니다. 자세한 내용은 아래 [사용 권한](#permissions) 섹션을 참조하세요.

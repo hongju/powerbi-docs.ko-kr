@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 386f4fb24488df3856f8e731fcd6c95043c86d74
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 9e1c4a3942c75f41dc105e424685d32badbf3866
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180924"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276425"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI를 사용하여 데이터 인사이트를 자동으로 생성
 새 데이터 세트가 있고 어디서 시작해야 할지가 확실하지 않은 경우  빠르게 대시보드를 만들어야 하는 경우  놓쳤을 수 있는 정보를 찾으려는 경우
@@ -38,7 +38,7 @@ Amanda가 데이터 세트에 대한 신속한 정보 활용을 실행하고, �
 
 이제 여러분 차례입니다. [공급업체 품질 분석 샘플](sample-supplier-quality.md)을 사용하여 정보 활용을 살펴보세요.
 
-1. **데이터 집합** 탭에서 줄임표(...)를 선택하고 **유용한 정보 얻기**를 선택합니다.
+1. **데이터 세트** 탭에서 줄임표(...)를 선택하고 **유용한 정보 얻기**를 선택합니다.
    
     ![데이터 세트 탭](media/service-insights/power-bi-ellipses.png)
    

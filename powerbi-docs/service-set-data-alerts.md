@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cc374da84e269abe18a52270c0d9fd15987cf666
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 6d818252d60c2e6e123e4dff0c64dd5e2408cad2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452617"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285740"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 서비스의 데이터 경고
 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 경고를 설정합니다. 
@@ -73,7 +73,7 @@ Amanda가 대시보드의 타일에 일부 경고를 추가하는 과정을 시�
    > 
 
 ## <a name="managing-alerts"></a>경고 관리
-경고를 관리하는 방식은 여러 가지입니다. 대시보드 타일 자체에서, Power BI 설정 메뉴에서, 그리고 [ iPhone의 Power BI 모바일 앱](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) 또는 [Windows 10용 Power BI 모바일 앱](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)에서 관리할 수 있습니다.
+경고는 여러 가지 방법으로 관리할 수 있습니다. 대시보드 타일 자체에서, Power BI 설정 메뉴에서, 그리고 [ iPhone용 Power BI 모바일 앱](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) 또는 [Windows 10용 Power BI 모바일 앱](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)에서 관리할 수 있습니다.
 
 ### <a name="from-the-tile-itself"></a>타일 자체에서
 1. 타일에 대한 경고를 변경하거나 제거하려면, 종 모양 아이콘 ![경고 아이콘](media/service-set-data-alerts/power-bi-bell-icon.png)을 선택하여 **경고 관리** 창을 다시 엽니다. 해당 타일에 설정해 놓은 모든 경고가 표시됩니다.
@@ -103,7 +103,7 @@ Amanda가 대시보드의 타일에 일부 경고를 추가하는 과정을 시�
 
 ## <a name="next-steps"></a>다음 단계
 [데이터 경고를 포함하는 Microsoft Flow 만들기](service-flow-integration.md)    
-[모바일 장치에서 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)    
+[모바일 디바이스에서 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)    
 [Power BI란?](power-bi-overview.md)    
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

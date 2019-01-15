@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 31fe32bff8749b7b8136d980da9ea0e5bec3bc4f
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: dcde797bc0bd564e5328a51e119a07f1884547f1
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53281088"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275441"
 ---
 # <a name="reports-in-power-bi"></a>Power BI의 보고서
 ## <a name="what-is-a-power-bi-report"></a>Power BI 보고서란?
@@ -60,7 +60,7 @@ Power BI를 처음 접하는 경우 [Power BI 기본 개념](end-user-basic-conc
 ### <a name="if-you-will-be-creating-and-sharing-reports"></a>보고서를 만들고 공유고 공유하려는 경우
 * [Power BI 서비스 둘러보기](end-user-basic-concepts.md)에서 시작하면 보고서와 보고서 도구 위치를 파악할 수 있습니다.
 * [보고서 편집기](../service-the-report-editor-take-a-tour.md)를 둘러보세요.
-* [데이터 집합에서 새 보고서를 만드는 방법](../service-report-create-new.md)을 살펴봅니다.
+* [데이터 세트에서 새 보고서를 만드는 방법](../service-report-create-new.md)을 살펴봅니다.
 * [시각화, 페이지 및 보고서 수준 필터를 사용하는 방법에 살펴봅니다.](end-user-report-filter.md)
 * [동료와 보고서를 공유](../service-share-dashboards.md)하는 다양한 방법을 모두 알아봅니다.
 

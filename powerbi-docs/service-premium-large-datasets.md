@@ -5,17 +5,17 @@ author: jocaplan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/18/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: 0449d7953b5cefb4c76d89f05ec5b3fa70e9c0da
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 3aa8ef5ea7a51da226d48869bdf255900dee8d6d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679388"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284199"
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>대형 데이터 세트를 위한 Power BI 프리미엄 지원
 
@@ -39,9 +39,9 @@ Power BI Embedded A4 SKU는 P1 SKU, A5 = P2 및 A6 = P3과 같습니다. 대형 
 
 **.pbix 파일은 고도로 압축된 상태의 데이터를 나타냅니다**. 데이터는 메모리에 로드될 때 여러 번 확장할 가능성이 있으며, 거기서부터 데이터 새로 고침 중 여러 번 더 확장할 수도 있습니다.
 
-**큰 데이터 집합의 예정된 새로 고침에는 시간이 오래 걸리고** 리소스를 매우 많이 사용할 수 있습니다. 따라서 너무 많은 겹치는 새로 고침은 예약하지 마십시오. 예약된 새로 고침 작업에 대한 제한 시간은 이 용량에서 모든 데이터 세트에 두 배인 4시간이 되었음을 확인할 수 있습니다. [증분 새로 고침](service-premium-incremental-refresh.md)을 사용하는 것이 좋습니다. 더 빠르고, 더 안정적이며, 리소스 소모가 더 적기 때문입니다.
+**큰 데이터 세트의 예정된 새로 고침에는 시간이 오래 걸리고** 리소스를 매우 많이 사용할 수 있습니다. 따라서 너무 많은 겹치는 새로 고침은 예약하지 마십시오. 예약된 새로 고침 작업에 대한 제한 시간은 이 용량에서 모든 데이터 세트에 두 배인 4시간이 되었음을 확인할 수 있습니다. [증분 새로 고침](service-premium-incremental-refresh.md)을 사용하는 것이 좋습니다. 더 빠르고, 더 안정적이며, 리소스 소모가 더 적기 때문입니다.
 
-**큰 데이터 집합의 초기 보고서 로드에는 시간이 오래 걸릴 수 있습니다**. 데이터 집합을 마지막으로 사용한 후 시간이 꽤 지난 경우 모델이 프리미엄 용량의 메모리에 로드되기 때문입니다. 로딩 시간이 더 긴 보고서의 로딩 표시줄에 로드 진행률이 표시됩니다.
+**큰 데이터 세트의 초기 보고서 로드에는 시간이 오래 걸릴 수 있습니다**. 데이터 세트를 마지막으로 사용한 후 시간이 꽤 지난 경우 모델이 프리미엄 용량의 메모리에 로드되기 때문입니다. 로딩 시간이 더 긴 보고서의 로딩 표시줄에 로드 진행률이 표시됩니다.
 
 **프리미엄 용량에서 작업 영역을 제거하는 경우** 모델 및 관련된 모든 보고서 및 대시보드는 작동하지 않게 됩니다.
 

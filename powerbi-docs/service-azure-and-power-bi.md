@@ -6,16 +6,16 @@ ms.author: davidi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/26/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 3eca6d1ae7aaef507d1ee51889c0c617ff33f9e9
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 8717e4938ef558eb4bb8c0614990b651d2b59c28
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101189"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277713"
 ---
 # <a name="azure-and-power-bi"></a>Azure 및 Power BI
 
@@ -55,7 +55,7 @@ Azure와 Power BI를 사용하여 필요한 만큼 확장할 수 있습니다. �
 
 ## <a name="context-insights-with-power-bi-embedded-analytics"></a>Power BI Embedded 분석을 사용하는 컨텍스트 인사이트
 
-애플리케이션, 웹 사이트, 포털 등의 멋진 대화형 데이터 시각화를 포함하여 비즈니스 데이터를 활용합니다. [Power BI Embedded를 Azure의 리소스로](https://azure.microsoft.com/services/power-bi-embedded/) 사용하면 대화형 보고서와 대시보드를 손쉽게 포함할 수 있으며, 사용자는 다양한 장치에서 일관되고 재현성이 높은 환경을 이용할 수 있습니다.  분석 포함에 Power BI를 사용하면 데이터 -> 지식 -> 인사이트 -> 작업의 구매 경험에서 도움을 받을 수 있습니다.  또한 [조직의 내부 애플리케이션 및 포털](https://powerbi.microsoft.com/en-us/developers/embedded-analytics/organization/)에 분석을 포함하여 Power BI 및 Azure의 가치를 확장할 수 있습니다.
+애플리케이션, 웹 사이트, 포털 등의 멋진 대화형 데이터 시각화를 포함하여 비즈니스 데이터를 활용합니다. [Power BI Embedded를 Azure의 리소스로](https://azure.microsoft.com/services/power-bi-embedded/) 사용하면 대화형 보고서와 대시보드를 손쉽게 포함할 수 있으며, 사용자는 다양한 디바이스에서 일관되고 재현성이 높은 환경을 이용할 수 있습니다.  분석 포함에 Power BI를 사용하면 데이터 -> 지식 -> 인사이트 -> 작업의 구매 경험에서 도움을 받을 수 있습니다.  또한 [조직의 내부 애플리케이션 및 포털](https://powerbi.microsoft.com/en-us/developers/embedded-analytics/organization/)에 분석을 포함하여 Power BI 및 Azure의 가치를 확장할 수 있습니다.
 
 [Power BI 개발자 포털](http://dev.powerbi.com)에는 Power BI API에 대한 많은 정보가 있습니다.
 

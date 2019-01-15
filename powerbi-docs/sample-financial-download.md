@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: sample
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 7437b31d5801a4bb462f10c402dd6bef4dcbf4f4
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c508a97d10c1ac16df5c5a006900257d7003ed43
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717273"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274976"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>Power BI용 재무 샘플 통합 문서 다운로드
 Power BI 서비스를 사용해 볼 데이터가 필요한가요? 샘플 재무 데이터의 간단한 Excel 통합 문서를 다운로드할 수 있습니다.  다운로드하는 방법은 다음과 같습니다.
@@ -29,7 +29,7 @@ Power BI 서비스를 사용해 볼 데이터가 필요한가요? 샘플 재무 
 
 [Excel 데이터를 가져오는 방법](service-excel-workbook-files.md)
 
-[Power BI를 사용해 볼 수 있는 다른 데이터 -- 샘플 데이터 집합 및 콘텐츠 팩](sample-datasets.md)
+[Power BI를 사용해 볼 수 있는 다른 데이터 -- 샘플 데이터 세트 및 콘텐츠 팩](sample-datasets.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

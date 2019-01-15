@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: baa09e190bc33dfd99bcd80d8705ed6ec71d3a1d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 340e32d6d3b29e266d81253378feb4266c01d000
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564882"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274516"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>색 서식 지정 및 축 속성 시작
 **Power BI**에서는 데이터 계열, 데이터 요소 및 시각화의 배경 색까지도 변경할 수 있습니다. x축과 y축의 표시 방법을 변경할 수도 있으며 대시보드 및 보고서가 나타나는 방식을 완전히 제어할 수 있습니다.
@@ -40,7 +40,7 @@ ms.locfileid: "46564882"
 * 데이터 색
 * 데이터 레이블
 * 셰이프
-* 그림 영역
+* 플롯 영역
 * 제목
 * 배경
 * 잠금 요소

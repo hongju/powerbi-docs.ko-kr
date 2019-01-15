@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 6055a9c5e41f1745b088df93587d701393c0d495
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 83273d42ed27523c618cf229c0c3a0bec7b82cb6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336740"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292847"
 ---
 # <a name="power-bi-security"></a>Power BI 보안
 Power BI 보안에 대한 자세한 설명을 보려면 [Power BI 보안 백서를 다운로드](http://go.microsoft.com/fwlink/?LinkId=829185)하세요.
@@ -57,7 +57,7 @@ Power BI의 플랫폼 보안에는 다중 테넌트 환경 보안, 네트워킹 
 
 이 문서의 앞부분에서 설명한 것처럼 사용자의 온-프레미스 Active Directory 서버에서 Power BI 로그인을 사용하여 자격 증명에 대한 UPN에 매핑합니다. 그러나 **중요한** 점은 자신이 공유하는 데이터는 사용자 본인의 책임이라는 사실입니다. 사용자가 자신의 자격 증명을 사용하여 데이터 원본에 연결한 다음, 해당 데이터에 근거한 보고서(또는 대시보드나 데이터 세트)를 공유한다면 대시보드가 공유되지 않은 사용자는 원래의 데이터 원본에 대해 인증되지 않으며 보고서에 대한 액세스를 부여받게 됩니다.
 
-여기서 **온-프레미스 데이터 게이트웨이**를 사용한 **SQL Server Analysis Services** 연결은 예외입니다. 즉 대시보드가 Power BI에 캐시로 저장되지만 기본 보고서나 데이터 세트에 대한 액세스에서 보고서(또는 데이터 세트) 액세스를 시도하는 사용자에 대한 인증이 시작되며, 사용자에게 데이터 액세스를 위한 충분한 자격 증명이 있는 경우에만 액세스가 부여됩니다. 자세한 내용은 [온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)을 참조하세요.
+여기서 **온-프레미스 데이터 게이트웨이**를 사용한 **SQL Server Analysis Services** 연결은 예외입니다. 즉 대시보드가 Power BI에 캐시로 저장되지만 기본 보고서나 데이터 집합에 대한 액세스에서 보고서(또는 데이터 집합) 액세스를 시도하는 사용자에 대한 인증이 시작되며, 사용자에게 데이터 액세스를 위한 충분한 자격 증명이 있는 경우에만 액세스가 부여됩니다. 자세한 내용은 [온-프레미스 데이터 게이트웨이 심층 분석](service-gateway-onprem-indepth.md)을 참조하세요.
 
 ## <a name="enforcing-tls-version-usage"></a>TLS 버전 사용 적용
 

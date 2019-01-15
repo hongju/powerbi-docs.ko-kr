@@ -5,27 +5,27 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 9a6d8919f8ccb032fa7b4bd3312217501c1acb77
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 004f1b16474f738f8354585c83cd7707799e6dbb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092532"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288584"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3단계: Power BI에서 데이터 세트 만들기
 이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
 데이터 세트에 데이터 푸시의 **2단계**인 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 **Azure AD**에 인증한 토큰을 가져왔습니다. 이 단계에서는 이 토큰을 사용하여 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업을 호출합니다.
 
-REST 리소스를 호출하려면 리소스를 찾는 URL을 사용하여 데이터 세트를 설명하는 JSON(JavaScript Object Notation) 문자열을 Power BI 서비스 리소스에 보냅니다. REST 리소스는 작업할 Power BI 서비스 부분을 식별합니다. 데이터 세트에 데이터를 푸시하려면 대상 리소스는 **데이터 세트**입니다. 데이터 집합을 식별하는 URL은 https://api.PowerBI.com/v1.0/myorg/datasets입니다. 그룹 내의 데이터를 푸시하는 경우 URL은 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets입니다.
+REST 리소스를 호출하려면 리소스를 찾는 URL을 사용하여 데이터 세트를 설명하는 JSON(JavaScript Object Notation) 문자열을 Power BI 서비스 리소스에 보냅니다. REST 리소스는 작업할 Power BI 서비스 부분을 식별합니다. 데이터 세트에 데이터를 푸시하려면 대상 리소스는 **데이터 세트**입니다. 데이터 세트를 식별하는 URL은 https://api.PowerBI.com/v1.0/myorg/datasets입니다. 그룹 내의 데이터를 푸시하는 경우 URL은 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets입니다.
 
 Power BI REST 작업을 인증하려면 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 가져온 토큰을 요청 헤더에 추가합니다.
 
-[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업을 호출하면 새 데이터 집합이 만들어집니다. 
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업을 호출하면 새 데이터 세트가 만들어집니다. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -37,11 +37,11 @@ Power BI에서 데이터 세트를 만드는 방법은 다음과 같습니다.
 > 
 > 
 
-1. [2단계 - 인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 만든 콘솔 응용 프로그램 프로젝트에서 **using System.Net;** 및 **using System.IO;** 를 Program.cs에 추가합니다.
+1. [2단계 - 인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 만든 콘솔 애플리케이션 프로젝트에서 **using System.Net;** 및 **using System.IO;** 를 Program.cs에 추가합니다.
 2. Program.cs에서 아래 코드를 추가합니다.
-3. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. **만든 데이터 집합** 이 콘솔 창에 표시됩니다. Power BI에 로그인하여 새 데이터 세트를 볼 수도 있습니다.
+3. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. **만든 데이터 세트**가 콘솔 창에 표시됩니다. Power BI에 로그인하여 새 데이터 세트를 볼 수도 있습니다.
 
-**데이터 집합에 데이터 푸시 샘플**
+**데이터 세트에 데이터 푸시 샘플**
 
 Program.cs에 이 코드를 추가합니다.
 
@@ -226,7 +226,7 @@ Program.cs에 이 코드를 추가합니다.
 [다음 단계 >](walkthrough-push-data-get-datasets.md)
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 테이블에 행을 추가할 데이터 집합 가져오기](walkthrough-push-data-get-datasets.md)  
+[Power BI 테이블에 행을 추가할 데이터 세트 가져오기](walkthrough-push-data-get-datasets.md)  
 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)  
 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  
 [PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  

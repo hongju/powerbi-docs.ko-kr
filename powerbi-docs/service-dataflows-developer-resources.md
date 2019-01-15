@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a56dbb713f3d853094c2612a19edecb8bf4d7b24
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 20bd8cd06e2a183d284752dc378a8aa1440c3aef
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180602"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274700"
 ---
 # <a name="developer-resources-for-power-bi-dataflows-preview"></a>Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)
 

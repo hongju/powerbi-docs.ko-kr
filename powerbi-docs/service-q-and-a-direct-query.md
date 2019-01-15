@@ -5,28 +5,28 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: mihart
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f87cf50207754cbc036c023dac184ad7525b199f
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: 1484d1dc646270de6f789dc102c6d75343dac832
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435307"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292571"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Power BI에서 라이브 연결에 대한 질문 및 답변 사용
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>온-프레미스 데이터 게이트웨이란 무엇인가요?  라이브 연결이란?
 Power BI의 데이터 세트를 Power BI로 가져올 수 있거나 이에 대한 라이브 연결을 만들 수 있습니다. 라이브 연결 데이터 세트는 보통 "온-프레미스"라고 합니다. 라이브 연결은 [게이트웨이](service-gateway-onprem.md) 및 데이터를 사용하여 관리되고 라이브 쿼리를 사용하여 앞뒤로 조사가 전송됩니다.
 
-## <a name="qa-for-on-premises-data-gateway-datasets"></a>온-프레미스 데이터 게이트웨이 데이터 집합에 대한 질문 및 답변
-게이트웨이를 통해 액세스하는 데이터 집합에 대한 질문 및 답변을 사용하려는 경우 먼저 사용하도록 설정해야 합니다.
+## <a name="qa-for-on-premises-data-gateway-datasets"></a>온-프레미스 데이터 게이트웨이 데이터 세트에 대한 질문 및 답변
+게이트웨이를 통해 액세스하는 데이터 세트에 대한 질문 및 답변을 사용하려는 경우 먼저 사용하도록 설정해야 합니다.
 
-활성화되면 Power BI는 데이터 원본의 인덱스를 만들고 Power BI에 해당 데이터의 하위 집합을 업로드하여 묻는 질문을 사용합니다. 초기 인덱스를 만들려면 몇 분 정도 걸릴 수 있습니다. Power BI는 데이터 변경에 따른 인덱스를 자동으로 유지 관리하고 업데이트합니다. 이러한 데이터 집합에 대한 질문 및 답변을 사용하면 Power BI에 게시된 데이터와 동일하게 작동합니다. 질문 및 답변 환경에서 사용할 수 있는 전체 기능은 Cortana 데이터 원본 사용을 포함하여 두 경우 모두에 지원됩니다.
+활성화되면 Power BI는 데이터 원본의 인덱스를 만들고 Power BI에 해당 데이터의 하위 집합을 업로드하여 묻는 질문을 사용합니다. 초기 인덱스를 만들려면 몇 분 정도 걸릴 수 있습니다. Power BI는 데이터 변경에 따른 인덱스를 자동으로 유지 관리하고 업데이트합니다. 이러한 데이터 세트에 대한 질문 및 답변을 사용하면 Power BI에 게시된 데이터와 동일하게 작동합니다. 질문 및 답변 환경에서 사용할 수 있는 전체 기능은 Cortana 데이터 원본 사용을 포함하여 두 경우 모두에 지원됩니다.
 
-Power BI에서 질문을 하면 질문 및 답변에서는 데이터 집합의 인덱스를 사용하여 질문에 대답하는 데 사용할 수 있는 시트를 구성하고 보고하기 위해 가장 훌륭한 시각적 개체를 결정합니다. 잠재적인 정답을 결정한 후에 질문 및 답변에서는 차트와 그래프를 채울 게이트웨이를 통해 데이터 원본에서 라이브 데이터를 인출하는 DirectQuery를 사용합니다. 이렇게 하면 Power BI 질문 및 답변은 기본 데이터 원본에서 직접 최신 데이터를 표시하게 됩니다.
+Power BI에서 질문을 하면 질문 및 답변에서는 데이터 세트의 인덱스를 사용하여 질문에 대답하는 데 사용할 수 있는 시트를 구성하고 보고하기 위해 가장 훌륭한 시각적 개체를 결정합니다. 잠재적인 정답을 결정한 후에 질문 및 답변에서는 차트와 그래프를 채울 게이트웨이를 통해 데이터 원본에서 라이브 데이터를 인출하는 DirectQuery를 사용합니다. 이렇게 하면 Power BI 질문 및 답변은 기본 데이터 원본에서 직접 최신 데이터를 표시하게 됩니다.
 
 Power BI 질문 및 답변은 데이터 원본에서 텍스트 및 스키마 값을 사용하여 답변에 대한 기본 모델을 쿼리하는 방법을 결정합니다. 따라서 특정한 새롭거나 삭제된 텍스트 값을 검색하기 위해(예: 새로 추가된 텍스트 레코드와 관련된 고객 이름 요청) 최신 값을 최신 버전으로 유지하는 인덱스를 사용합니다. Power BI에서는 변경된 60분 창 내에서 텍스트 및 스키마 인덱스를 자동으로 최신 상태로 유지합니다.
 
@@ -41,15 +41,15 @@ Power BI 질문 및 답변은 데이터 원본에서 텍스트 및 스키마 값
 1. Power BI의 오른쪽 위에서 톱니바퀴 아이콘 ![기어 아이콘](media/service-q-and-a-direct-query/power-bi-cog.png)을 선택하고 **설정**을 선택합니다.
    
    ![설정 메뉴](media/service-q-and-a-direct-query/powerbi-settings.png)
-2. **데이터 집합**을 선택하고 질문 및 답변에 사용할 데이터 집합을 선택합니다.
+2. **데이터 세트**를 선택하고 질문 및 답변에 사용할 데이터 세트를 선택합니다.
    
    ![설정 메뉴의 데이터 세트 화면](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
-3. **질문 및 답변 및 Cortana**를 확장하고 **이 데이터 집합에 대한 질문 및 답변 설정** 확인란을 선택하고 **적용**을 선택합니다.
+3. **질문 및 답변 및 Cortana**를 확장하고 **이 데이터 세트에 대한 질문 및 답변 설정** 확인란을 선택하고 **적용**을 선택합니다.
    
     ![확장된 질문 및 답변 영역](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>데이터 캐시의 의미와 개인 정보 보호 방법은 무엇인가요?
-온-프레미스 데이터에 대한 질문 및 답변을 사용하면 데이터의 하위 집합이 서비스에 캐시됩니다. 이렇게 하려면 질문 및 답변을 적절한 성능으로 사용하여야 합니다. Power BI는 24자보다 긴 값을 캐싱에서 제외합니다. **이 데이터 집합에 대한 질문 및 답변 켜기** 선택을 취소하여 질문 및 답변을 사용하지 않거나 데이터 집합을 삭제하면 몇 시간 이내에 캐시가 삭제됩니다.
+온-프레미스 데이터에 대한 질문 및 답변을 사용하면 데이터의 하위 집합이 서비스에 캐시됩니다. 이렇게 하려면 질문 및 답변을 적절한 성능으로 사용하여야 합니다. Power BI는 24자보다 긴 값을 캐싱에서 제외합니다. **이 데이터 세트에 대한 질문 및 답변 켜기** 선택을 취소하여 질문 및 답변을 사용하지 않거나 데이터 세트를 삭제하면 몇 시간 이내에 캐시가 삭제됩니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 이 기능은 미리 보기 단계 중에 일부가 제한됩니다.

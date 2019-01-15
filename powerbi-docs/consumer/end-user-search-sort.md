@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7f56cb4ec9859750c218975d25f3b8e2dd8a0469
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: ef8d7c61d35f15517db4fdbbea347a525a130f31
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280469"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288224"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>탐색: Power BI 서비스에서 콘텐츠 검색, 찾기 및 정렬
 Power BI 서비스에서 콘텐츠를 탐색하는 방법은 여러 가지가 있습니다. 콘텐츠는 작업 영역 내에서 대시보드, 보고서, 통합 문서, 데이터 세트와 같은 유형별로 정리됩니다.  그리고 즐겨찾기, 최근, 공유한 항목, 주요와 같은 용도별로도 정리됩니다. 하나의 탐색 중지를 위해 홈페이지에서 한 페이지에 모든 콘텐츠를 구성합니다. 이처럼 다양한 콘텐츠 경로를 통해 Power BI 서비스에서 필요한 항목을 빠르게 찾을 수 있습니다.  
@@ -25,7 +25,7 @@ Power BI 서비스에서 콘텐츠를 탐색하는 방법은 여러 가지가 �
 
 일반적으로 Power BI 소비자는 작업 영역이 한 개(**내 작업 영역**)만 있습니다. Microsoft 샘플을 다운로드하거나 고유한 콘텐츠를 생성하거나 다운로드한 경우에만 **내 작업 영역**에 콘텐츠가 포함됩니다.  
 
-**내 작업 영역** 내에서 Power BI 서비스는 대시보드, 보고서, 통합 문서 및 데이터 집합과 같은 유형별로 콘텐츠를 구분합니다. 작업 영역을 선택하면 이 조직이 표시됩니다. 이 예제에서 **내 작업 영역**에는 대시보드 한 개, 보고서 두 개, 데이터 세트 두 개가 포함되어 있고, 통합 문서는 포함되어 있지 않습니다.
+**내 작업 영역** 내에서 Power BI 서비스는 대시보드, 보고서, 통합 문서 및 데이터 세트와 같은 유형별로 콘텐츠를 구분합니다. 작업 영역을 선택하면 이 조직이 표시됩니다. 이 예제에서 **내 작업 영역**에는 대시보드 한 개, 보고서 두 개, 데이터 세트 두 개가 포함되어 있고, 통합 문서는 포함되어 있지 않습니다.
 
 ![비디오](./media/end-user-search-sort/nav.gif)
 

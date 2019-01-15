@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 52ce1d0eaf9b99c2717b733592c46d65d2209083
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 42460930c3e5406c9a3822c75084d641fd9255bf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280446"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292341"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A에서 질문하기 위한 팁
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A에서 인식하는 단어 및 용어
@@ -25,7 +25,7 @@ ms.locfileid: "53280446"
 아래 목록은 현재 시제를 사용하지만 대부분의 경우에서 모든 시제가 인식됩니다. 예를 들어 “is”는 **are**, **was**, **were**, **will be**, **have**, **has**, **had**, **will have**, **has got**, **do**, **does**, **did**를 포함합니다.  그리고 “sort”는 **sorted**와 **sorting**을 포함합니다.  PowerBI는 단어의 단수와 복수를 모두 인식하고 포함합니다. 
 
 > [!NOTE]
-> Q&A는 [iPads, iPhones, iPod Touch 장치에서 iOS용 Microsoft Power BI 앱](mobile/mobile-apps-ios-qna.md)에서도 사용할 수 있습니다.
+> Q&amp;A는 [iPads, iPhones, iPod Touch 디바이스에서 iOS용 Microsoft Power BI 앱](mobile/mobile-apps-ios-qna.md)에서도 사용할 수 있습니다.
 >  
 
 

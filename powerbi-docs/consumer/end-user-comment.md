@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 96c4014dbb38b84fb7e682dafaa0fab3338d6669
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 45ea01fb575ae7134177fe548279d36b7792b27a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280147"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289190"
 ---
 # <a name="add-comments-to-a-visualization"></a>시각화에 댓글 추가
 개별 댓글을 추가하거나 동료와 함께 시각화에 대한 대화를 시작합니다. **댓글** 기능은 ‘소비자’가 시각화 개체와 상호 작용할 수 있는 방법 중 하나입니다. 

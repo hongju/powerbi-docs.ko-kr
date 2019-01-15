@@ -6,20 +6,20 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
 LocalizationGroup: Embedded
-ms.openlocfilehash: 5dbbd8b14dcd473335e2ad5293e66ab6a16b73e7
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: ab1b0f7ea7dbee13f39fbf47505a00e2ed6d41ea
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252356"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280427"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Power BI Embedded(미리 보기)에 대한 Multi-Geo 지원
 
-**Power BI Embedded(미리 보기)에 대한 Multi-Geo 지원**은 Power BI Embedded를 사용하여 응용 프로그램을 빌드해 앱에 분석 기능을 포함하는 ISV와 조직이 이제 전 세계 여러 지역에서 데이터를 배포할 수 있음을 의미합니다.
+**Power BI Embedded(미리 보기)에 대한 Multi-Geo 지원**은 Power BI Embedded를 사용하여 애플리케이션을 빌드해 앱에 분석 기능을 포함하는 ISV와 조직이 이제 전 세계 여러 지역에서 데이터를 배포할 수 있음을 의미합니다.
 
 이제 **Power BI Embedded**를 사용하는 고객은 [Power BI Premium에서 Multi-Geo를 사용하여 지원](../service-admin-premium-Multi-Geo.md)하는 것과 동일한 기능 및 제한 사항에 따라 **Multi-Geo** 옵션을 사용하여 **A 용량**을 설정할 수 있습니다.
 

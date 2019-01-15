@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f98d4c5e7b7cc02c9a08d982edb88b2e129f51e6
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: a4bc58a5be385e22c68aa29a8a366231c8434bba
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186873"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283961"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 및 Power BI Desktop에서 보고서 저장
 Power BI에서 보고서를 변경한 후에 저장하거나 새 이름으로 저장하거나 변경 내용을 저장하지 않고 닫을 수 있습니다. 보고서를 열고 시각화를 만들며 대시보드에 고정하는 경우를 가정해 보겠습니다. 변경 내용을 저장하지 않고 닫으면 타일은 대시보드에 유지되지만 시각화는 보고서에 저장되지 않습니다. 대시보드에서 해당 타일을 클릭하면 보고서가 열리지만 시각화는 보고서에 존재하지 않습니다.

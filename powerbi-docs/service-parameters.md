@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: eefb863b4dde9fb6e368e244fa9d55c0af7c6001
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 8db6f106ecc2285cb66ff980bc72fa666456f81a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829599"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274792"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>Power BI 서비스의 매개 변수 설정 편집
 보고서 작성자는 Power BI Desktop의 보고서에 쿼리 매개 변수를 추가합니다. 매개 변수를 사용하면 보고서의 일부가 하나 이상의 매개 변수 *값*을 사용하도록 할 수 있습니다. 예를 들어 보고서 작성자는 단일 국가/지역으로 데이터를 제한하는 매개 변수 또는 날짜, 시간 및 텍스트와 같은 필드에 적합한 형식을 정의하는 매개 변수를 만들 수 있습니다.
@@ -28,7 +28,7 @@ ms.locfileid: "52829599"
 
 1. Power BI 서비스에서 톱니바퀴 아이콘 ![톱니바퀴 아이콘](media/service-parameters/power-bi-cog.png)을 선택하여 **설정**을 엽니다.
 
-2. **데이터 집합**에 대한 탭을 선택하고 목록에서 데이터 집합을 강조 표시합니다. 
+2. **데이터 세트**에 대한 탭을 선택하고 목록에서 데이터 세트를 강조 표시합니다. 
     
     ![데이터 세트 탭이 선택된 설정 창](media/service-parameters/power-bi-select-dataset2.png)
 

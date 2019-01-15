@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: e1f1a8fdc5094fd13fc2894d9728951d9f6bde96
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983557"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280726"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI 작업 영역에서 데이터 스토리지 관리
 
@@ -44,14 +44,14 @@ ms.locfileid: "53983557"
 
 ## <a name="manage-items-you-own"></a>소유한 항목 관리
 
-Power BI 계정에서 사용 중인 데이터 저장소의 규모를 확인하고 계정을 관리합니다.
+Power BI 계정에서 사용 중인 데이터 스토리지의 규모를 확인하고 계정을 관리합니다.
 
-1. 자체 저장소를 관리하려면 왼쪽 탐색 창의 **내 작업 영역**으로 이동합니다.
+1. 자체 스토리지를 관리하려면 왼쪽 탐색 창의 **내 작업 영역**으로 이동합니다.
    
     ![내 작업 영역](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 2. 오른쪽 위 모서리에서 ![기어 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)을 선택한 후\> **개인 스토리지 관리**를 선택합니다.
    
-    위쪽 막대는 사용한 저장소 한도의 크기를 보여줍니다.
+    위쪽 막대는 사용한 스토리지 한도의 크기를 보여줍니다.
    
     ![스토리지 용량 한도 관리](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
@@ -69,7 +69,7 @@ Power BI 계정에서 사용 중인 데이터 저장소의 규모를 확인하�
     ![앱 작업 영역 선택](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
 2. 오른쪽 위 모서리에서 ![기어 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)을 선택한 후\> **그룹 스토리지 관리**를 선택합니다.
    
-    위쪽 막대는 사용한 그룹 저장소 한도의 크기를 보여줍니다.
+    위쪽 막대는 사용한 그룹 스토리지 한도의 크기를 보여줍니다.
    
     ![앱 작업 영역 스토리지 관리](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
@@ -102,7 +102,7 @@ Power BI로 가져오는 데이터 세트당 1GB 제한이 있습니다. Excel �
 
  제한 중 하나에 도달하는 작업을 수행하려는 경우 제한을 초과했다는 메시지가 표시됩니다. 스토리지 용량을 줄이고 한도를 초과하도록 스토리지를 [관리](#manage)할 수 있습니다.
 
- ![저장소 제한 초과](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![스토리지 제한 초과](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

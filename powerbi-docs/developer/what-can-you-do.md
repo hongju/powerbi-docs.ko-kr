@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 09/17/2018
-ms.openlocfilehash: 5fb4583dccf7b6543881f1c9062227b9a3a68b05
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: a32bdceb317f2d6a2f5945dc3911f683a306605e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223138"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282474"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>개발자는 Power BI로 무엇을 할 수 있나요?
 
@@ -24,7 +24,7 @@ ms.locfileid: "51223138"
 
 Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드 및 보고서 포함을 위한 API가 있습니다. 이 기능은 콘텐츠 포함 시 대시보드, 게이트웨이, 앱 작업 영역 등의 최신 Power BI 기능에 액세스할 수 있음을 의미합니다.
 
-[포함 설정 도구](https://aka.ms/embedsetup)를 통해 신속하게 시작하고 샘플 응용 프로그램을 다운로드할 수 있습니다.
+[포함 설정 도구](https://aka.ms/embedsetup)를 통해 신속하게 시작하고 샘플 애플리케이션을 다운로드할 수 있습니다.
 
 사용자에게 적합한 솔루션을 선택합니다.
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 350378be4a9e24b844cf1ad17133db65ab674573
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a5aaa50aff2302742d6845c9cb16b0fc36ea2677
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670489"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276785"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery 사용
 **Power BI Desktop**을 사용하여 데이터 원본에 연결할 때 항상 데이터의 복사본을 **Power BI Desktop**으로 가져올 수 있습니다. 일부 데이터 원본의 경우 다른 방법을 사용할 수 있습니다. **DirectQuery**를 사용하여 데이터 원본에 직접 연결합니다.
@@ -41,7 +41,7 @@ ms.locfileid: "52670489"
 ## <a name="benefits-of-using-directquery"></a>DirectQuery 사용의 이점
 **DirectQuery**를 사용하는 경우 몇 가지 이점이 있습니다.
 
-* **DirectQuery**를 사용하면 매우 큰 데이터 집합에 대한 시각화를 구축할 수 있습니다. 그렇지 않으면 사전 집계를 사용하여 모든 데이터를 처음 가져오는 작업을 실행할 수 없습니다.
+* **DirectQuery**를 사용하면 매우 큰 데이터 세트에 대한 시각화를 빌드할 수 있습니다. 그렇지 않으면 사전 집계를 사용하여 모든 데이터를 처음 가져오는 작업을 실행할 수 없습니다.
 * 기본 데이터를 변경하려면 데이터를 새로 고쳐야 할 수 있으며, 일부 보고서의 경우 현재 데이터를 표시하려면 대량의 데이터 전송이 필요할 수 있으므로 데이터 다시 가져오기를 실행할 수 없습니다. 이와 반대로 **DirectQuery** 보고서는 항상 현재 데이터를 사용합니다.
 * 1GB 데이터 세트 제한은 **DirectQuery**에 적용되지 *않습니다*.
 

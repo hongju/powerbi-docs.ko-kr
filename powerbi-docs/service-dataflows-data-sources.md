@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7e26074d0ee8e45740513e17b4c4346cae5dfcf5
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984662"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280557"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Power BI 데이터 흐름에 대한 데이터 원본에 연결(미리 보기)
 
@@ -159,7 +159,7 @@ Power BI 데이터 흐름 사용자 인터페이스에 표시되지 않지만 �
 * SAP HANA
 * Analysis Services
 * Azure 분석 서비스
-* Google 분석
+* Google 애널리틱스
 * Adobe Analytics
 * ODBC
 * OLE DB

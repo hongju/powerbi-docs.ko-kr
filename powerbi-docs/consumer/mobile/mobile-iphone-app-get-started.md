@@ -1,20 +1,20 @@
 ---
 title: iOS용 Power BI 모바일 앱 시작
 description: 온-프레미스 및 클라우드에서 비즈니스 정보에 대한 모바일 액세스 권한을 사용하여 iOS 앱용 Microsoft Power BI 모바일 앱이 Power BI를 휴대하는 방법에 대해 알아봅니다.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
-ms.author: maggies
-ms.openlocfilehash: a09fc4471f9af3a9406dcbcdd80d5bcc7a3632f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744398"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281784"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 디바이스에서 Power BI 모바일 앱 시작
 iPhone, iPad 또는 iPod Touch의 iOS 앱용 Microsoft Power BI는 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기 적절한 데이터를 최신 상태로 유지합니다.  
@@ -97,7 +97,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 자세한 내용은 [Power BI 모바일 앱의 즐겨찾기](mobile-apps-favorites.md)를 읽어보세요.
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에 대한 Enterprise 지원
-조직에서 Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱을 포함한 디바이스 및 응용 프로그램을 관리할 수 있습니다.
+조직에서 Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱을 포함한 장치 및 애플리케이션을 관리할 수 있습니다.
 
 Microsoft Intune을 사용하면 액세스 핀이 필요하고, 애플리케이션에서 데이터를 처리하는 방법을 제어하며, 앱을 사용하지 않을 때 애플리케이션 데이터를 암호화하는 것과 같은 항목을 조직에서 제어할 수 있습니다.
 

@@ -5,21 +5,21 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 73ed37f50acd61a6ac15d543d354b6cc437e4a53
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813092"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274999"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>데이터 세트에 데이터 푸시 전체 코드 목록
 이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
-**데이터 집합에 데이터 푸시**의 2~5단계를 수행하면 전체 원본 코드가 다음과 같이 표시됩니다.
+**데이터 세트에 데이터 푸시**의 2~5단계를 수행하면 전체 원본 코드가 다음과 같이 표시됩니다.
 
 ## <a name="push-data-to-dataset-code"></a>데이터 세트에 데이터 푸시 코드
       using System;
@@ -221,12 +221,12 @@ ms.locfileid: "34813092"
 
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 데이터 집합에 데이터 푸시](walkthrough-push-data.md)  
-[연습 - Power BI 데이터 집합에 데이터 푸시](walkthrough-push-data.md)  
+[Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md)  
+[연습 - Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md)  
 [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)  
 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)  
-[Power BI에서 데이터 집합 만들기](walkthrough-push-data-create-dataset.md)  
-[Power BI 테이블에 행을 추가할 데이터 집합 가져오기](walkthrough-push-data-get-datasets.md)  
+[Power BI에서 데이터 세트 만들기](walkthrough-push-data-create-dataset.md)  
+[Power BI 테이블에 행을 추가할 데이터 세트 가져오기](walkthrough-push-data-get-datasets.md)  
 [Power BI 테이블에 행 추가](walkthrough-push-data-add-rows.md)  
 [Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  

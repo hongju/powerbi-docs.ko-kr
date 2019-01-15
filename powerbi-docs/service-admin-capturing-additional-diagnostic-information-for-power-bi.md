@@ -5,18 +5,18 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8a8ec433a6ebb620593648cdb222df0f60b2f21e
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: b38e1e73b9829b4b86237f826b4245a6b95cfa36
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025169"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292939"
 ---
 # <a name="capturing-additional-diagnostic-information"></a>추가 진단 정보 캡처
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Power BI에 대한 추가 진단 정보 캡처

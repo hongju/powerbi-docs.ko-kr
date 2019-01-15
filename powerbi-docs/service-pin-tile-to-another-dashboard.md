@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d8a241a810cc41e908fd99df08f8eae53bac7f47
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 68b392f4570d137fabdfe8f10e5b7035babc397b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717128"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54272630"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>하나의 대시보드에서 다른 대시보드에 타일 고정
 다른 대시보드에서 타일을 복사하는 것은 새 [대시보드 타일](consumer/end-user-tiles.md)을 추가하는 방법 중 하나입니다. 질문 및 답변이나 보고서에서 이 각 타일을 클릭하면 만들어진 곳으로 링크가 연결됩니다. 

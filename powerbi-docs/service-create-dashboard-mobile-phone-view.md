@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d3d2e5dcbfb5163e20dc60470c240378278bbcf1
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: cd7df8383ad22d273ebf396fc1cf8297f110dde5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727240"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288155"
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>휴대폰용으로 최적화된 Power BI 대시보드 보기 만들기
 휴대폰의 Power BI 모바일 앱에서 대시보드를 볼 때 대시보드 타일이 모두 동일한 크기로 하나씩 배치된 것을 확인할 수 있습니다. Power BI 서비스에서 특히 휴대폰에 대해 소유하고 있는 모든 대시보드의 사용자 지정된 보기를 만들 수 있습니다.

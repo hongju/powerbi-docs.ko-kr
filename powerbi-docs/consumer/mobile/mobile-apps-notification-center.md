@@ -1,20 +1,20 @@
 ---
 title: Power BI 모바일 앱에서 알림 가져오기
 description: 알림 센터에서는 모바일 디바이스에서 바로 사용자에게 Power BI 환경과 관련된 정보를 제공합니다.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
-ms.author: maggies
-ms.openlocfilehash: fb5dd23e3b452de6b22d6f67e992bffca9c4bd7f
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 378e81207cb9b0f09e094ddbdced99defedde1ff
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736845"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280036"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 알림 가져오기
 적용 대상:
@@ -57,7 +57,7 @@ Power BI가 알리는 방법을 변경할 수 있습니다.
    
     Android 휴대폰에서 **알림 설정**으로 이동합니다.
    
-    Windows 장치의 **설정**에서 **시스템** > **알림 및 작업**으로 이동합니다.
+    Windows 디바이스의 **설정**에서 **시스템** > **알림 및 작업**으로 이동합니다.
 2. 앱 목록에서 **Power BI**를 선택합니다. 
 3. 여기서 알림을 완전히 해제하거나 원하는 알림을 선택할 수 있습니다.
    
@@ -69,7 +69,7 @@ Power BI가 알리는 방법을 변경할 수 있습니다.
    
     ![알림 선택](./media/mobile-apps-notification-center/power-bi-notifications-android-settings.png)
 
-    **Windows 10 장치에서**
+    **Windows 10 디바이스에서**
 
     ![알림 선택](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
 
@@ -77,5 +77,5 @@ Power BI가 알리는 방법을 변경할 수 있습니다.
 * [Power BI 서비스의 데이터 경고](../../service-set-data-alerts.md)
 * [iPhone 앱(iOS용 Power BI)의 데이터 경고 설정](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10용 Power BI 모바일 앱의 데이터 경고 설정](mobile-set-data-alerts-in-the-mobile-apps.md)
-* 모바일 장치에 대한 [최신 버전의 Power BI 앱 다운로드](https://powerbi.microsoft.com/mobile/)
+* 모바일 디바이스에 대한 [최신 버전의 Power BI 앱 다운로드](https://powerbi.microsoft.com/mobile/)
 

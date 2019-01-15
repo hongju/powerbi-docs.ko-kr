@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 19a029564fecdc9a54a136d045e75bb9580193da
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 145ef2da33e0d596f03f75c76aaa99e90f58c4c2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908243"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288523"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI 앱 작업 영역에서 공동 작업
 Power BI 앱 작업 영역은 동료들과 대시보드, 보고서 및 데이터 세트를 공동 작업하여 *앱*을 만들기에 적합합니다. 공동 작업은 Power BI의 작업 영역에서 그치지 않습니다. Office 365는 비즈니스용 OneDrive에서 파일 공유, Exchange에서 대화, 공유 일정, 작업 등과 같은 다른 그룹 서비스를 제공합니다. [Office 365의 그룹](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)에 대해 자세히 알아보세요.

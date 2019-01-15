@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dfc240e50f2fa88fc40b5f6f8d80b1106c388cd5
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 5c4bf7c1e1abb8fd87b97c48bfa94b57d5481b00
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026457"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295860"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>독일 클라우드 고객을 위한 Power BI 관련 질문과 대답
 **Power BI 서비스**에는 EU/EFTA(유럽 연합/유럽 자유 무역 계약) 고객을 위해 제공되는 버전이 있는데, 주로 MCD(Microsoft Cloud Deutschland)라고 부릅니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 EU/EFTA 고객과 관련된 것이며 **Power BI 서비스** 상용 버전 또는 정부 고객에게 제공되는 Power BI 서비스와는 별개입니다.
@@ -54,7 +54,7 @@ ms.locfileid: "53026457"
    * 웹에 게시
    * Esri에서 제공하는 ArcGIS 지도
    * Power BI Embedded(별도의 ISV 라이선스 요금, 향후 [Microsoft Azure Germany](https://azure.microsoft.com/overview/clouds/germany/)를 통해 제공 예정)
-7. **독일 클라우드용 Power BI 서비스를 내 응용 프로그램에서 사용하고 통합하는 방법에 대한 관련 구성 정보를 어디에서 찾을 수 있습니까?**
+7. **독일 클라우드용 Power BI 서비스를 내 애플리케이션에서 사용하고 통합하는 방법에 대한 관련 구성 정보를 어디에서 찾을 수 있습니까?**
    
    [SaaS Embedding 개발자 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)에 독일 및 기타 Power BI 클라우드 관련 구성 정보가 업데이트되었습니다. **Cloud Configs** 폴더에서 클라우드 관련 구성 끝점에 대한 샘플을 확인하세요. 다음 표에는 독일 클라우드 및 상호 참조를 위한 공용 클라우드용 Power BI 서비스의 다양한 구성 끝점이 나와 있습니다.
 

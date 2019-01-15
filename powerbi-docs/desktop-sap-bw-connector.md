@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: f1ddcee1e39f8704eda7cc94cffb27c1a8b6b75f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451447"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290340"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop에서 SAP BW Connector 사용
 Power BI Desktop을 통해 **SAP BW(Business Warehouse)** 데이터에 액세스할 수 있습니다.
@@ -115,9 +115,9 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
 
     이 옵션의 기본값은 SapBusinessWarehouseExecutionMode.BasXmlGzip입니다.
 
-    대규모 데이터에서 대기 시간이 긴 경우 *SapBusinessWarehouseExecutionMode.BasXmlGzip*을 사용하면 성능이 향상될 수 있습니다.
+    대규모 데이터 세트에서 대기 시간이 긴 경우 *SapBusinessWarehouseExecutionMode.BasXmlGzip*을 사용하면 성능이 향상될 수 있습니다.
 
-2. **BatchSize** - MDX 문을 실행할 때 한 번에 검색되는 최대 행 수를 지정합니다. 행 수가 적으면 대규모 데이터 집합을 검색하는 동안 서버에 대한 호출을 더 많이 변환합니다. 행 수가 많으면 성능이 향상될 수 있지만 SAP BW 서버의 메모리 문제가 발생할 수 있습니다. 기본값은 50000행입니다.
+2. **BatchSize** - MDX 문을 실행할 때 한 번에 검색되는 최대 행 수를 지정합니다. 행 수가 적으면 대규모 데이터 세트를 검색하는 동안 서버에 대한 호출을 더 많이 변환합니다. 행 수가 많으면 성능이 향상될 수 있지만 SAP BW 서버의 메모리 문제가 발생할 수 있습니다. 기본값은 50000행입니다.
 
 3. **EnableStructures** - 특성 구조가 인식되는지 여부를 나타내는 논리 값입니다. 이 옵션의 기본값은 false입니다. 선택할 수 있는 개체 목록에 영향을 줍니다. 기본 쿼리 모드에서는 지원되지 않습니다.
 
@@ -130,11 +130,11 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
 * 향상된 성능
 * 수백만 행의 데이터를 검색할 수 있고 일괄 처리 크기 매개 변수를 통해 미세 조정할 수 있습니다.
 * 실행 모드로 전환할 수 있습니다.
-* 압축 모드를 지원합니다. 긴 대기 시간 연결 또는 대규모 데이터 집합에 특히 유용합니다.
+* 압축 모드를 지원합니다. 긴 대기 시간 연결 또는 대규모 데이터 세트에 특히 유용합니다.
 * 날짜 변수의 향상된 검색
 * [실험적] 날짜(ABAP 유형 DATS) 및 시간(ABAP 유형 TIMS) 차원을 텍스트 값 대신 날짜 및 시간으로 각각 표시합니다.
 * 예외 처리가 향상됩니다. BAPI 호출에서 발생하는 오류가 이제 표시됩니다.
-* BasXml 및 BasXmlGzip 모드의 열 접기입니다. 예를 들어 생성된 MDX 쿼리가 40개의 열을 검색하지만 현재 선택 항목에는 10개만 필요한 경우, 이 요청은 서버로 전달되어 더 작은 데이터 집합을 검색합니다.
+* BasXml 및 BasXmlGzip 모드의 열 접기입니다. 예를 들어 생성된 MDX 쿼리가 40개의 열을 검색하지만 현재 선택 항목에는 10개만 필요한 경우, 이 요청은 서버로 전달되어 더 작은 데이터 세트를 검색합니다.
 
 
 ### <a name="changing-existing-reports-to-use-implementation-20"></a>2.0 구현을 사용하기 위해 기존 보고서 변경 

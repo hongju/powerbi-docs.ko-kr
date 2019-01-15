@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: eae1aeb8ef52029617443b4c68bb79e164bbc23d
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 59e1f4eda6bf48e85841d4646824407d3c839485
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39713061"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290621"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>보고서를 Power BI Desktop에서 PDF로 내보내기
 **Power BI Desktop**에서 PDF 파일로 보고서를 내보내고 따라서 해당 PDF에서 보고서를 쉽게 공유하거나 인쇄할 수 있습니다.

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 5c67ba54ee4cb6ef5cb542158df0be45ad613f01
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 7eb09f92be6c49756513b095afbdb9f451753d30
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670466"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289421"
 ---
 # <a name="configuring-scheduled-refresh"></a>예약된 새로 고침 구성
 
@@ -30,7 +30,7 @@ ms.locfileid: "52670466"
 
 새로 고침 예약 화면을 가져오려면 다음을 수행할 수 있습니다.
 
-1. **데이터 집합**에 나열된 데이터 집합 옆에 있는 **줄임표(...)** 를 선택합니다.
+1. **데이터 세트**에 나열된 데이터 세트 옆에 있는 **줄임표(...)** 를 선택합니다.
 2. **새로 고침 예약**을 선택합니다.
    
     ![](media/refresh-scheduled-refresh/dataset-menu.png)

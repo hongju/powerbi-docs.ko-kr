@@ -1,20 +1,20 @@
 ---
 title: Power BI 모바일 앱에서 오프라인 데이터 보기
 description: 모바일 브라우저가 아닌 모바일 앱에서 Power BI 보기를 사용하는 이점에 대해 알아봅니다. 네트워크에 연결되지 않을 때에도 데이터를 볼 수 있습니다.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
-ms.author: maggies
-ms.openlocfilehash: 2c980878f70d8cf6368b446c8ed8a2207d0b7acd
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 36a3026ebbdf1290d7f809f5c1ccaac7f5fbd7d0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744227"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292410"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 오프라인 데이터 보기
 적용 대상:
@@ -61,7 +61,7 @@ Power BI는 오프라인으로 사용할 수 없는 대시보드, 보고서 및 
 ## <a name="next-steps"></a>다음 단계
 사용자 의견은 나중에 구현할 사항을 결정하는 데 도움이 됩니다. 따라서 Power BI 모바일 앱에서 참조하고자 하는 다른 기능에 대해 꼭 투표해주세요. 
 
-* [모바일 장치용 Power BI 앱](mobile-apps-for-mobile-devices.md)
+* [모바일 디바이스용 Power BI 앱](mobile-apps-for-mobile-devices.md)
 * Twitter에서 @MSPowerBI 팔로우
 * [Power BI 커뮤니티](http://community.powerbi.com/)에서 대화에 참여
 * [Power BI란?](../../power-bi-overview.md)

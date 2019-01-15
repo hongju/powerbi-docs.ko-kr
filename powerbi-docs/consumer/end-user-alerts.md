@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0d614b6028fa4d7e11ac5bf82e05d44a95e4f234
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 83032e97d9d6b2628d7adfefa95996cff469c4f5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280860"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277852"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>자습서: Power BI 서비스에서 데이터 경고 설정
 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 경고를 설정합니다. 
@@ -116,6 +116,6 @@ Amanda가 대시보드의 타일에 일부 경고를 추가하는 과정을 시�
 경고 삭제 지침은 위에 설명되어 있습니다. 간단히 말해서 Power BI 메뉴 모음에서 기어 아이콘을 선택합니다. **설정**에서 **경고**를 선택하고 경고를 삭제합니다.
 
 > [!div class="nextstepaction"]
-> [모바일 장치에서 데이터 경고 설정](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+> [모바일 디바이스에서 데이터 경고 설정](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 
 

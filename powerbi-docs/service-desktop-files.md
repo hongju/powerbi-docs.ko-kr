@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d6b94fc6677df4725c8ea8059dbc7460f1e7d1c7
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 8173e78428af5392c2a359df20a1df65b1b8b988
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670373"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275666"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Power BI Desktop 파일에서 데이터 가져오기
 ![](media/service-desktop-files/pbid_file_icon.png)
@@ -27,7 +27,7 @@ ms.locfileid: "52670373"
 ## <a name="where-your-file-is-saved-makes-a-difference"></a>파일 저장 위치는 중요합니다.
 **로컬** - 파일을 사용자 컴퓨터의 로컬 드라이브 또는 조직의 다른 위치에 저장하는 경우 Power BI Desktop에서 파일을 *가져오거나* *게시*하여 데이터와 보고서를 Power BI로 가져올 수 있습니다. 파일은 사실 로컬 드라이브에 그대로 남아 있으므로, 전체 파일을 실제로 Power BI로 가져온 것은 아닙니다. 실제로는, 새 데이터 세트가 Power BI에서 만들어지고 Power BI Desktop 파일의 데이터와 데이터 모델이 데이터 세트로 로드되는 것입니다. 파일에 보고서가 있을 경우 Power BI의 보고서에 나타납니다.
 
-**OneDrive - 비즈니스** – 비즈니스용 OneDrive가 있고 Power BI에 로그인하는 같은 계정으로 로그인할 경우 Power BI Desktop의 작업과 Power BI의 데이터 집합, 보고서 그리고 대시보드의 동기화를 유지하는 가장 효율적인 방법입니다. Power BI와 OneDrive가 클라우드에 있으므로 Power BI는 매시간 OneDrive의 파일에 *연결*합니다. 변경 내용이 발견되면 데이터 세트, 보고서 및 대시보드가 Power BI에서 자동으로 업데이트됩니다.
+**OneDrive - 비즈니스** – 비즈니스용 OneDrive가 있고 Power BI에 로그인하는 같은 계정으로 로그인할 경우 Power BI Desktop의 작업과 Power BI의 데이터 세트, 보고서 그리고 대시보드의 동기화를 유지하는 가장 효율적인 방법입니다. Power BI와 OneDrive가 클라우드에 있으므로 Power BI는 매시간 OneDrive의 파일에 *연결*합니다. 변경 내용이 발견되면 데이터 세트, 보고서 및 대시보드가 Power BI에서 자동으로 업데이트됩니다.
 
 **OneDrive - 개인** – 본인의 OneDrive 계정으로 파일을 저장할 경우 비즈니스용 OneDrive에 제공하는 것과 동일한 많은 혜택을 누릴 수 있습니다. 가장 큰 차이점은 파일에 처음 연결할 때(‘데이터 가져오기’ > ‘파일’ > ‘OneDrive - 개인’ 사용) Microsoft 계정으로 OneDrive에 로그인해야 한다는 점이 가장 큰 차이점이며, 일반적으로 Power BI에 로그인하기 위해 사용하는 것과는 다릅니다. Microsoft 계정으로 OneDrive에 로그인할 경우 로그인 유지 옵션을 선택해야 합니다. 이러한 방식으로 Power BI는 매시간 파일에 연결할 수 있으며 Power BI의 데이터 세트는 동기화를 유지하게 됩니다.
 
@@ -62,5 +62,5 @@ Power BI Desktop에서 게시를 사용하는 것은 로컬 드라이브에서 �
 ## <a name="next-steps"></a>다음 단계
 **데이터 탐색** - 파일에서 Power BI로 데이터 및 보고서를 가져오면 이제 살펴볼 차례입니다. 파일에 이미 보고서가 있다면 탐색 창의 **보고서**에 나타납니다. 파일에 데이터가 있다면 새 보고서를 만들 수 있습니다. 새 데이터 세트를 마우스 오른쪽 단추로 클릭한 다음, **탐색**을 클릭합니다.
 
-**외부 데이터 원본 새로 고침** - Power BI Desktop 파일이 외부 데이터 원본에 연결할 경우 데이터 집합이 항상 최신 상태를 유지하도록 예약된 새로 고침을 설정할 수 있습니다. 대부분의 경우에 예약된 새로 고침을 설정하는 방법은 아주 쉽지만 이 문서에서는 자세히 다루지 않겠습니다. 자세한 내용은 [Power BI에서 데이터 새로 고침](refresh-data.md)을 참조하세요.
+**외부 데이터 원본 새로 고침** - Power BI Desktop 파일이 외부 데이터 원본에 연결할 경우 데이터 세트가 항상 최신 상태를 유지하도록 예약된 새로 고침을 설정할 수 있습니다. 대부분의 경우에 예약된 새로 고침을 설정하는 방법은 아주 쉽지만 이 문서에서는 자세히 다루지 않겠습니다. 자세한 내용은 [Power BI에서 데이터 새로 고침](refresh-data.md)을 참조하세요.
 

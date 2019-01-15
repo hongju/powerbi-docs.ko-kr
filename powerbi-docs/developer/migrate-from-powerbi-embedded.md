@@ -3,16 +3,16 @@ title: Power BI 작업 영역 컬렉션 작업 영역 컬렉션 콘텐츠를 Pow
 description: Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션하고 앱에서 포함하기 위한 고급 기능을 활용하는 방법을 알아봅니다.
 author: markingmyname
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: ff9218a84ba9c0055e965f4b000b73a490d250a5
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: a52902e22572503b4be6c21f87abf62a90f60476
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297180"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296619"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션하고 앱에서 포함하기 위한 고급 기능을 활용하는 방법을 알아봅니다.
@@ -108,7 +108,7 @@ Power BI 내에서 하나의 앱 작업 영역을 만들려면 Pro 라이센스�
 ### <a name="report-types"></a>보고서 유형
 다소 다른 마이그레이션 흐름이 필요한 여러 종류의 보고서가 있습니다.
 
-#### <a name="cached-dataset--report"></a>캐시된 데이터 집합 및 보고서
+#### <a name="cached-dataset--report"></a>캐시된 데이터 세트 및 보고서
 캐시된 데이터 세트는 라이브 연결 또는 DirectQuery 연결과는 대조적으로 데이터를 가져온 PBIX 파일을 가리킵니다.
 
 **흐름**
@@ -117,7 +117,7 @@ Power BI 내에서 하나의 앱 작업 영역을 만들려면 Pro 라이센스�
 2. PBIX를 저장합니다.
 3. SaaS 작업 영역에 PBIX 가져오기를 호출합니다.
 
-#### <a name="directquery-dataset--report"></a>DirectQuery 데이터 집합 및 보고서
+#### <a name="directquery-dataset--report"></a>DirectQuery 데이터 세트 및 보고서
 **흐름**
 
 1. GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources를 호출하고 수신된 연결 문자열을 저장합니다.
@@ -128,7 +128,7 @@ Power BI 내에서 하나의 앱 작업 영역을 만들려면 Pro 라이센스�
 6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources를 호출하여 GW ID 및 데이터 원본 ID를 가져옵니다.
 7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}를 호출하여 사용자의 자격 증명을 업데이트합니다.
 
-#### <a name="old-dataset--reports"></a>이전 데이터 집합 및 보고서
+#### <a name="old-dataset--reports"></a>이전 데이터 세트 및 보고서
 2016년 10월 이전에 만든 데이터 세트/보고서입니다. PBIX 다운로드는 2016년 10월 이전에 업로드된 PBIX를 지원하지 않습니다
 
 **흐름**
@@ -136,7 +136,7 @@ Power BI 내에서 하나의 앱 작업 영역을 만들려면 Pro 라이센스�
 1. 개발 환경에서 PBIX를 가져옵니다(내부 원본 제어).
 2. SaaS 작업 영역에 PBIX 가져오기를 호출합니다.
 
-#### <a name="push-dataset--report"></a>푸시 데이터 집합 및 보고서
+#### <a name="push-dataset--report"></a>푸시 데이터 세트 및 보고서
 PBIX 다운로드는 *푸시 API* 데이터 세트를 지원하지 않습니다. 푸시 API 데이터 세트 데이터는 PaaS에서 SaaS로 이식할 수 없습니다.
 
 **흐름**

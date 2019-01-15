@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c3bd9515c60cb158ade8663dfa91d54041be3f64
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: b27cbf9b6e51b5f0d1a7b06a62371ad5bec1f5fd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52668533"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292663"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>쉼표로 구분된 값(.csv) 파일에서 데이터 가져오기
 ![](media/service-comma-separated-value-files/csv_icon.png)
@@ -30,7 +30,7 @@ ms.locfileid: "52668533"
 ## <a name="where-your-file-is-saved-makes-a-difference"></a>파일 저장 위치는 중요합니다.
 **로컬** - .CSV 파일을 사용자 컴퓨터의 로컬 드라이브 또는 조직의 다른 위치에 저장하는 경우 Power BI에서 파일을 Power BI로 *가져올* 수 있습니다. 파일은 사실 로컬 드라이브에 그대로 남아 있으므로, 전체 파일을 실제로 Power BI로 가져온 것은 아닙니다. 실제로는, 새 데이터 세트가 Power BI에서 만들어지고 .CSV 파일의 데이터가 데이터 세트로 로드되는 것입니다.
 
-**OneDrive - 비즈니스** – 비즈니스용 OneDrive가 있고 Power BI에 로그인하는 같은 계정으로 로그인할 경우 Power BI에서 사용자의 .CSV 파일과 데이터 집합, 보고서, 그리고 대시보드의 동기화를 유지하는 가장 효율적인 방법입니다. Power BI와 OneDrive가 클라우드에 있으므로 Power BI는 매시간 OneDrive의 파일에 연결합니다. 변경 내용이 발견되면 데이터 세트, 보고서 및 대시보드가 Power BI에서 자동으로 업데이트됩니다.
+**OneDrive - 비즈니스** – 비즈니스용 OneDrive가 있고 Power BI에 로그인하는 같은 계정으로 로그인할 경우 Power BI에서 사용자의 .CSV 파일과 데이터 세트, 보고서, 그리고 대시보드의 동기화를 유지하는 가장 효율적인 방법입니다. Power BI와 OneDrive가 클라우드에 있으므로 Power BI는 매시간 OneDrive의 파일에 연결합니다. 변경 내용이 발견되면 데이터 세트, 보고서 및 대시보드가 Power BI에서 자동으로 업데이트됩니다.
 
 **OneDrive - 개인** – 본인의 OneDrive 계정으로 파일을 저장할 경우 비즈니스용 OneDrive에 제공하는 것과 동일한 많은 혜택을 누릴 수 있습니다. 가장 큰 차이점은 파일에 처음 연결할 때(‘데이터 가져오기’ > ‘파일’ > ‘OneDrive - 개인’ 사용) Microsoft 계정으로 OneDrive에 로그인해야 한다는 점이 가장 큰 차이점이며, 일반적으로 Power BI에 로그인하기 위해 사용하는 것과는 다릅니다. Microsoft 계정으로 OneDrive에 로그인할 경우 로그인 유지 옵션을 선택해야 합니다. 이러한 방식으로 Power BI는 매시간 파일에 연결할 수 있으며 Power BI의 데이터 세트는 동기화를 유지하게 됩니다.
 
@@ -53,5 +53,5 @@ ms.locfileid: "52668533"
 ## <a name="next-steps"></a>다음 단계
 **데이터 탐색** - 파일에서 Power BI로 데이터를 가져오면 이제 살펴볼 차례입니다. 새 데이터 세트를 마우스 오른쪽 단추로 클릭한 다음, **탐색**을 클릭합니다.
 
-**새로 고침 일정** - 파일이 로컬 드라이브에 저장된 경우 Power BI의 데이터 집합 및 보고서가 최신 상태를 유지하도록 예약된 새로 고침을 설정할 수 있습니다. 자세한 내용은 [Power BI에서 데이터 새로 고침](refresh-data.md)을 참조하십시오. 파일이 OneDrive에 저장되면 Power BI는 매시간 자동으로 동기화합니다.
+**새로 고침 일정** - 파일이 로컬 드라이브에 저장된 경우 Power BI의 데이터 세트 및 보고서가 최신 상태를 유지하도록 예약된 새로 고침을 설정할 수 있습니다. 자세한 내용은 [Power BI에서 데이터 새로 고침](refresh-data.md)을 참조하십시오. 파일이 OneDrive에 저장되면 Power BI는 매시간 자동으로 동기화합니다.
 

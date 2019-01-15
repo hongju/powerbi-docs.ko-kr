@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 09a9dd194d278184c04e091e62aebc0b9fe248d1
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 76027ff6e75071fde178ae05a8656c1596d36598
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717313"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291697"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Power BI의 질문 및 답변에서 Excel 데이터가 잘 작동하게 만드는 방법
 데이터 모델을 만들거나 Power BI에 사용할 Excel 통합 문서를 작성하는 사람이라면 다음을 확인하세요.
@@ -29,7 +29,7 @@ Power BI에서는 질문 및 답변으로 구조화된 데이터를 검색하고
 
 예를 들어, "Product", "Month", "Units Sold", "Gross Sales" 및 "Profit"이라는 열이 있는 "Sales"라는 Excel 테이블에서 이러한 엔터티에 대한 질문을 할 수 있습니다.  show sales(판매량 표시), total profit by month(월간 총 수익), sort products by units sold(판매 단위로 제품 정렬) 등으로 질문할 수 있습니다. [가능한 질문 종류](consumer/end-user-q-and-a.md) 및 [질문 및 답변 쿼리에 지정할 수 있는 시각화 유형](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)에 대해 자세히 알아보세요.
 
-### <a name="prepare-an-excel-dataset-for-qa"></a>질문 및 답변에 대한 Excel 데이터 집합 준비
+### <a name="prepare-an-excel-dataset-for-qa"></a>질문 및 답변에 대한 Excel 데이터 세트 준비
 질문 및 답변에서는 테이블, 열 및 계산된 필드 이름을 사용하여 데이터 관련 질문에 답변하므로 통합 문서에서 호출하는 엔터티가 중요합니다!
 
 다음은 통합 문서에서 대부분의 질문 및 답변에 대한 몇 가지 팁입니다.
@@ -45,7 +45,7 @@ Power BI에서는 질문 및 답변으로 구조화된 데이터를 검색하고
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI의 Q&A](consumer/end-user-q-and-a.md)로 돌아가기  
-[질문 및 답변에 대한 온-프레미스 데이터 집합 준비](service-q-and-a-direct-query.md)   
+[질문 및 답변에 대한 온-프레미스 데이터 세트 준비](service-q-and-a-direct-query.md)   
 [질문 및 답변 빠른 시작](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI에 대한 데이터 가져오기](service-get-data.md)  
 

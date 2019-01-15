@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bbfb4a33c8413fe47f1c7749b001bf602dd4956c
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 80905abfe271ebd5d0aeec73d1287428e281da99
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578132"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276678"
 ---
 # <a name="publish-from-power-bi-desktop"></a>Power BI Desktop에서 게시
 **Power BI Desktop** 파일을 **Power BI 서비스**에 게시하면 모델의 데이터 및 **보고서** 보기에서 만든 보고서가 Power BI 작업 영역에 게시됩니다. 작업 영역 탐색기에서 동일한 이름의 새 데이터 세트와 모든 보고서를 볼 수 있습니다.
@@ -42,7 +42,7 @@ ms.locfileid: "52578132"
 ![게시 성공 대화 상자](media/desktop-upload-desktop-files/pbid_publish_success.png)
 
 ## <a name="re-publish-or-replace-a-dataset-published-from-power-bi-desktop"></a>Power BI Desktop에서 게시된 데이터 세트의 다시 게시 또는 대체
-**Power BI Desktop** 파일을 게시할 때는 **Power BI Desktop**에서 만든 데이터 집합 및 모든 보고서가 Power BI 사이트에 업로드됩니다. **Power BI Desktop** 파일을 다시 게시할 때는 Power BI 사이트의 데이터 집합이 **Power BI Desktop** 파일에서 업데이트된 데이터 집합으로 대체됩니다.
+**Power BI Desktop** 파일을 게시할 때는 **Power BI Desktop**에서 만든 데이터 세트 및 모든 보고서가 Power BI 사이트에 업로드됩니다. **Power BI Desktop** 파일을 다시 게시할 때는 Power BI 사이트의 데이터 세트가 **Power BI Desktop** 파일에서 업데이트된 데이터 세트로 대체됩니다.
 
 매우 단순하지만 몇 가지 알아둘 사항이 있습니다.
 

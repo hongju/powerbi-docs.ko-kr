@@ -5,16 +5,16 @@ author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
-ms.openlocfilehash: 49a1d8386159966171b46801d3bfe3685b2a6bb2
-ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
+ms.openlocfilehash: e96095cd63a9f2bd01b17f16392319167ef3354c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53301761"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274838"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub 및 Windows 10 디바이스에서 프레젠테이션 모드로 보고서 및 대시보드 보기
 프레젠테이션 모드를 사용하여 Windows 10 디바이스 및 Surface Hub에서 보고서와 대시보드를 전체 화면으로 표시할 수 있습니다. 
@@ -43,8 +43,8 @@ Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화
 1. 뒤로 아이콘 ![뒤로 아이콘을 탭하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 이전 페이지로 돌아갑니다. 아이콘을 길게 탭하면 이동 경로 창이 열려 보고서 또는 대시보드의 폴더로 이동할 수 있습니다.
 2. 잉크 아이콘 ![잉크 아이콘을 사용하면](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) 보고서 페이지에 그리거나 주석을 달 때 색을 선택할 수 있습니다. 
 3. 페이지 아이콘 ![페이지 매김 아이콘을 사용하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 현재 표시하고 있는 보고서 페이지를 바꿉니다.
-4. 검색 아이콘 ![검색 아이콘을 탭하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) Power BI에서 다른 아티팩트를 찾습니다.
-5. 도구 모음에서 안쪽을 향하는 두 개의 화살표가 있는 아이콘 ![전체 화면 모드 끝내기을 탭하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) 프레젠테이션 모드를 종료합니다.
+4. 검색 아이콘 ![검색 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) Power BI에서 다른 아티팩트를 찾습니다.
+5. 도구 모음에서 안쪽을 향하는 두 개의 화살표가 있는 아이콘 ![전체 화면 모드 끝내기](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) 프레젠테이션 모드를 종료합니다.
 
 도구 모음을 도킹 해제하고 끌어서 화면의 아무 곳에나 배치할 수 있습니다. 이는 보고서의 특정 영역에 집중하고 그 옆에 사용할 수 있는 도구를 배치하려는 대형 화면에 유용합니다. 도구 모음 위에 손가락을 놓고 보고서 캔버스로 살짝 밀면 됩니다.
 

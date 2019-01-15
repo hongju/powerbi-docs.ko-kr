@@ -7,20 +7,20 @@ ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: cc2369f6e1e074231267ceb41c19585eccfdb6f9
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: e3b7731dec23c6fda49d31716d6e450231ab4bc5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280727"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276609"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI 서비스에서 관련 콘텐츠 보기
-**관련 콘텐츠** 창은 Power BI 서비스 콘텐츠(대시보드, 보고서 및 데이터 집합)가 서로 어떻게 연결되어 있는지를 보여 줍니다. 관련 콘텐츠 창은 작업을 수행하기 위한 실행 공간으로도 기능합니다. 관련 콘텐츠 창에서 새로 고치거나, 이름을 변경하거나, 인사이트를 생성하는 등 다양한 작업을 수행할 수 있습니다. 관련 보고서 또는 대시보드를 선택하면 Power BI 작업 영역에서 열립니다.   
+**관련 콘텐츠** 창은 Power BI 서비스 콘텐츠(대시보드, 보고서 및 데이터 세트)가 서로 어떻게 연결되어 있는지를 보여 줍니다. 관련 콘텐츠 창은 작업을 수행하기 위한 실행 공간으로도 기능합니다. 관련 콘텐츠 창에서 새로 고치거나, 이름을 변경하거나, 인사이트를 생성하는 등 다양한 작업을 수행할 수 있습니다. 관련 보고서 또는 대시보드를 선택하면 Power BI 작업 영역에서 열립니다.   
 
 Power BI에서 보고서는 데이터 세트를 기반으로 작성되고, 보고서의 시각적 개체는 대시보드에 고정되며, 대시보드의 시각적 개체는 다시 보고서로 연결됩니다. 그렇다면 마케팅 보고서의 시각적 개체는 어느 대시보드에서 호스트하는지 어떻게 알 수 있을까요? 그리고 이러한 대시보드를 어떻게 찾나요? 조달 대시보드가 둘 이상의 데이터 세트에 있는 시각적 개체를 사용하고 있나요? 그렇다면 이름을 무엇으로 지정하고 어떻게 열고 편집할 수 있나요? HR 데이터 세트를 사용하는 보고서 또는 대시보드가 있을까요? 링크가 끊어지지 않도록 하면서 데이터 세트를 이동할 수는 없을까요? 이와 같은 질문에 대한 답변은 모두 **관련 콘텐츠** 창에서 확인할 수 있습니다.  관련 콘텐츠 창은 관련 콘텐츠를 표시해 줄 뿐 아니라 콘텐츠에 대해 작업을 수행하고 관련 콘텐츠 사이를 손쉽게 이동할 수 있는 곳으로도 기능합니다.
 
@@ -79,7 +79,7 @@ Power BI에서 보고서는 데이터 세트를 기반으로 작성되고, 보�
 여기에서 관련 콘텐츠에 대해 직접 작업할 수 있습니다.  예를 들어 대시보드 이름을 선택하여 엽니다.  목록에 있는 대시보드에서 아이콘을 선택하여 [다른 사람과 대시보드를 공유](../service-share-dashboards.md)하거나 해당 대시보드의 **설정** 창을 엽니다. 데이터 세트의 경우 [새 보고서 만들기](../service-report-create-new.md), [새로 고침](../refresh-data.md), 이름 바꾸기, [Excel에서 분석](../service-analyze-in-excel.md), [유용한 정보 얻기](end-user-insights.md) 또는 데이터 세트에 대해 **설정** 창 열기에 대한 아이콘을 선택합니다.  
 
 ## <a name="view-related-content-for-a-dataset"></a>데이터 세트에 대한 관련 콘텐츠 보기
-**관련 콘텐츠** 창을 열려면 데이터 집합에 대해 *보기* 이상의 권한이 있어야 합니다. 이 예제에서는 [조달 분석 샘플](../sample-procurement.md)을 사용합니다.
+**관련 콘텐츠** 창을 열려면 데이터 세트에 대해 *보기* 이상의 권한이 있어야 합니다. 이 예제에서는 [조달 분석 샘플](../sample-procurement.md)을 사용합니다.
 
 작업 영역에서 **데이터 세트** 탭을 선택하고 **관련 항목 보기** 아이콘 ![관련 항목 보기 아이콘](./media/end-user-related/power-bi-view-related-icon-new.png) 을 찾습니다.
 

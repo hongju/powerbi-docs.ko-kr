@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae17eff366fe5e931963c9367586c08fd39eda69
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: cb4a0f81766aa030b1981cb67a26c296dab2ba2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973934"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277207"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Power BI에서 고밀도 선 샘플링
 **Power BI Desktop** 2017년 6월 릴리스 및 **Power BI 서비스** 업데이트부터 새 샘플링 알고리즘은 고밀도 데이터를 샘플링하는 시각적 개체를 향상시키는데 사용할 수 있습니다. 예를 들어 각 상점이 매년 10000개 이상의 판매 영수증을 갖는 소매 상점의 판매 결과에서 꺾은선형 차트를 만들 수 있습니다. 이러한 판매 정보의 꺾은선형 차트는 각 상점의 데이터에서 데이터를 샘플링하고(해당 데이터의 의미 있는 표현을 선택하여 시간 경과에 따른 판매 변화를 보여줌), 다중 계열 꺾은선형 차트를 만들어 기본 데이터를 나타냅니다. 이는 고밀도 데이터 시각화의 일반적인 사례입니다. Power BI Desktop은 고밀도 데이터의 해당 샘플링을 향상시켰으며, 이에 대해 이 문서에서 자세히 설명합니다.
@@ -37,7 +37,7 @@ ms.locfileid: "45973934"
 
 고밀도 시각적 개체의 경우 **Power BI**는 데이터를 고해상도 청크로 지능적으로 분할한 다음, 각 청크를 나타내기 위해 중요한 요소를 선택합니다. 고해상도 데이터 분할의 해당 프로세스는 결과 차트가 모든 기본 데이터 요소 렌더링에서 시각적으로 구별되지만 훨씬 빠르고 더욱 대화형이 되도록 특별히 조정됩니다.
 
-### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>고밀도 선 시각적 개체에 대한 최솟값 및 최댓값
+### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>고밀도 선 시각적 개체에 대한 최소 및 최대값
 지정된 모든 시각화의 경우 다음과 같은 시각적 제한 사항이 적용됩니다.
 
 * **3,500**은 기본 데이터 요소 또는 계열의 수와 관계없이 대부분의 시각적 개체에 ‘표시되는’ 데이터 요소의 최대 수입니다(다음 글머리 기호 목록의 ‘예외’ 참조). 이와 같이 각각 350개의 데이터 요소가 있는 10개의 시리즈가 있는 경우 시각적 개체는 해당 최대 전체 데이터 요소 제한에 도달했습니다. 하나의 시리즈가 있는 경우 새 알고리즘이 이를 기본 데이터에 대한 최상의 샘플링으로 여기는 경우 최대 3,500개의 데이터 요소를 가질 수 있습니다.

@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d03bf92331d1536337cfb8279c182822630c6c80
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: bc53bdf6c0fd013d446c6d74cf2a422a84302f6a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025035"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289788"
 ---
 # <a name="troubleshooting-tile-errors"></a>타일 오류 문제 해결
 다음은 설명이 있는 타일에 발생할 수 있는 일반적인 오류입니다.
@@ -52,7 +52,7 @@ ms.locfileid: "53025035"
 
 시각적 개체는 사용 가능한 리소스로 결과를 완료하기에 너무 많은 데이터를 쿼리하려 했습니다. 시각적 개체를 필터링하여 결과에서 데이터의 양을 줄입니다.
 
-**다음 필드를 식별할 수 없습니다. {0} 데이터 집합에 존재하는 필드를 사용하여 시각적 개체를 업데이트합니다.**
+**다음 필드를 식별할 수 없습니다. {0} 데이터 세트에 존재하는 필드를 사용하여 시각적 개체를 업데이트합니다.**
 
 필드가 삭제되었거나 이름이 바뀌었을 수 있습니다. 시각적 개체에서 끊어진 필드를 제거하고 다른 필드를 추가하며 다시 고정할 수 있습니다.
 

@@ -6,22 +6,22 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: a4c0a66fb70797cc8b42094c65b23c71944b67a2
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: b333ed96fe14ed7bbc91869e507a8e76504b6a5f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180333"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288132"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI를 사용한 임베디드 분석
 
 Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드 및 보고서 포함을 위한 API가 있습니다. 이 기능은 일련의 기능은 물론, 콘텐츠 포함 시 대시보드, 게이트웨이 및 앱 작업 영역 등의 최신 Power BI 기능을 이용할 수 있음을 의미합니다.
 
-[포함 설정 도구](https://aka.ms/embedsetup)를 통해 신속하게 시작하고 샘플 응용 프로그램을 다운로드할 수 있습니다.
+[포함 설정 도구](https://aka.ms/embedsetup)를 통해 신속하게 시작하고 샘플 애플리케이션을 다운로드할 수 있습니다.
 
 사용자에게 적합한 솔루션을 선택합니다.
 
@@ -42,7 +42,7 @@ Power BI 라이선스가 없는 고객 및 사용자의 경우 조직 또는 고
 
 **조직에 대한 콘텐츠를 포함하면** Power BI 서비스를 확장할 수 있습니다. 조직에 대한 콘텐츠 포함에서 애플리케이션 사용자가 해당 콘텐츠를 보는 경우 Power BI 서비스에 로그인해야 합니다. 조직 내 사용자가 로그인하면 해당 사용자는 본인 소유의 또는 Power BI 서비스에서 공유된 대시보드 및 보고서에만 액세스할 수 있습니다.
 
-*조직에 대한 콘텐츠 포함의 예제에는 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams 통합(관리자 권한 필요)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 및 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)와 같은 내부 응용 프로그램이 포함됩니다.*
+*조직에 대한 콘텐츠 포함의 예제에는 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams 통합(관리자 권한 필요)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 및 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)와 같은 내부 애플리케이션이 포함됩니다.*
 
 조직에 대한 콘텐츠를 포함하는 경우 아래 항목을 참조하세요.
 
@@ -56,7 +56,7 @@ Power BI 라이선스가 없는 고객 및 사용자의 경우 조직 또는 고
 
 **고객에 대한 콘텐츠 포함**을 통해 Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함할 수 있습니다. 고객에 대한 콘텐츠 포함은 **Power BI Embedded**라고도 합니다.
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)는 ISV(독립 소프트웨어 공급 업체) 및 개발자가 용량 기반 시간당 요금 모델을 통해 응용 프로그램에 시각적 개체, 보고서 및 대시보드를 신속하게 추가하는 **Microsoft Azure** 서비스입니다.
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)는 ISV(독립 소프트웨어 공급 업체) 및 개발자가 용량 기반 시간당 요금 모델을 통해 애플리케이션에 시각적 개체, 보고서 및 대시보드를 신속하게 추가하는 **Microsoft Azure** 서비스입니다.
 
 ![고객에 대한 콘텐츠를 포함하는 워크플로 포함](media/embedding/powerbi-embed-flow.png)
 

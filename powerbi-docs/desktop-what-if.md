@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6a69a6f852f6a37649b152a3c0ba0e469b555b37
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: def3655d446f48d4dd0746e5544d8da618e09fcc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025192"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295939"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>What if 매개 변수를 사용하여 Power BI Desktop에서 변수 시각화
 **Power BI Desktop** 2018년 8월 릴리스에서부터는 보고서에 대한 **What if** 변수를 만들고, 슬라이서인 변수와 상호 작용하고, 보고서에서 다른 키 값을 시각화하고 수치화할 수 있습니다.

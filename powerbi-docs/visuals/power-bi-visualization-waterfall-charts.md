@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: c219a7ac9ce88d3dca9d01a09868835062fe93ce
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448917"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291904"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI의 폭포 차트
 폭포 차트는 값을 더하거나 뺄 때의 누계를 보여줍니다. 초기 값(예: 순수입)이 일련의 양수 및 음수 변경에 어떻게 영향을 받는지 이해하는 데 유용합니다.
@@ -37,7 +37,7 @@ ms.locfileid: "47448917"
 ## <a name="create-a-waterfall-chart"></a>폭포 차트 만들기
 월별 매출 편차(실제 매출과 예상 매출의 편차)를 표시하는 폭포 차트를 만들겠습니다. 이를 수행하려면 Power BI에 로그인하고 **데이터 가져오기 \> 샘플 \> 소매 분석 샘플**을 선택합니다. 
 
-1. **데이터 집합** 탭을 선택하고 새로운 "소매 분석 샘플" 데이터 집합으로 스크롤합니다.  **보고서 만들기** 아이콘을 선택하여 보고서 편집 보기에서 데이터 집합을 엽니다. 
+1. **데이터 세트** 탭을 선택하고 새로운 "소매 분석 샘플" 데이터 세트로 스크롤합니다.  **보고서 만들기** 아이콘을 선택하여 보고서 편집 보기에서 데이터 세트를 엽니다. 
    
     ![데이터 세트 탭이 강조 표시됨](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
 2. **필드** 창에서 **판매액 \> 총 판매액 분산**을 선택합니다. 
@@ -55,7 +55,7 @@ ms.locfileid: "47448917"
 6. 조금 더 세부적으로 들어가 월간 편차의 가장 큰 요인을 살펴봅니다. **매장** > **지역**을 **분석** 버킷으로 끕니다.
    
     ![분석 버킷의 매장 표시](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
-7. 기본적으로 Power BI는 월별 증가 또는 감소에 상위 5개 요인을 추가합니다. 하지만 상위 2개 요인에만 관심이 있는 경우  서식 지정 창에서 **분석**을 선택하고 **최댓값**을 2로 설정하면 됩니다.
+7. 기본적으로 Power BI는 월별 증가 또는 감소에 상위 5개 요인을 추가합니다. 하지만 상위 2개 요인에만 관심이 있는 경우  서식 지정 창에서 **분석**을 선택하고 **최대값**을 2로 설정하면 됩니다.
    
     ![서식 > 분석](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    

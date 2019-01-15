@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 129649367efa3a2b23fbf3be181e14df158eba02
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: b82f739d8e5dd5497ab2a41e44097fda12345bd3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329858"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278219"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -248,7 +248,7 @@ ms.locfileid: "53329858"
 
 * 복합 모델(미리 보기)  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=15s)  [[문서]](desktop-composite-models.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
 * 다 대 다 관계(미리 보기)(복합 모델과 연관됨)  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=4m53s)  [[문서]](desktop-many-to-many-relationships.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
-* 저장소 모드(미리 보기)(복합 모델과 연관됨)  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=15s)  [[문서]](desktop-storage-mode.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* 스토리지 모드(미리 보기)(복합 모델과 연관됨)  [[비디오]](https://youtu.be/Mtig3rmIUe0?t=15s)[[문서]](desktop-storage-mode.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
 
 
 ### <a name="reporting"></a>보고
@@ -926,7 +926,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 ### <a name="data-connectivity"></a>데이터 연결:
 
 -   사용자 지정 데이터 커넥터 지원[[비디오]](https://youtu.be/YlNVE5dgcSI?t=25m53s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#customConnectors)
--   **Power BI 서비스** 온-프레미스 및 푸시 스트리밍 데이터 집합에 라이브 연결 [[비디오]](https://youtu.be/YlNVE5dgcSI?t=26m42s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#liveConnect)
+-   **Power BI 서비스** 온-프레미스 및 푸시 스트리밍 데이터 세트에 라이브 연결 [[비디오]](https://youtu.be/YlNVE5dgcSI?t=26m42s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#liveConnect)
 -   Impala 커넥터는 이제 일반적으로 사용 가능[[비디오]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)
 -   Amazon Redshift 커넥터는 이제 일반적으로 사용 가능[[비디오]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#redshift)
 -   SAP BW 커넥터 - DirectQuery 지원[[비디오]](https://youtu.be/YlNVE5dgcSI?t=27m45s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#sapBW)
@@ -969,7 +969,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 ### <a name="analytics"></a>분석:
 
--   Analysis Services 테이블 형식 모델 및 Power BI 서비스 데이터 집합에 대한 라이브 연결의 보고서 수준 측정값 [[비디오]](https://youtu.be/CKISVNHcHVA?t=12m48s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#reportLevelMeasures)
+-   Analysis Services 테이블 형식 모델 및 Power BI 서비스 데이터 세트에 대한 라이브 연결의 보고서 수준 측정값 [[비디오]](https://youtu.be/CKISVNHcHVA?t=12m48s)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#reportLevelMeasures)
 -   두 개의 새 빠른 측정값(미리 보기) [[비디오]](https://youtu.be/CKISVNHcHVA?t=15m39s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#quickMeasures)
 -   개수별 Bin [[비디오]](https://youtu.be/CKISVNHcHVA?t=18m22s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#binByCount)
 
@@ -1018,7 +1018,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 ### <a name="data-connectivity"></a>데이터 연결:
 
--   Power BI 서비스에서 데이터 집합에 연결(미리 보기) [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=12m39s) [[문서]](desktop-report-lifecycle-datasets.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#powerBIservice)
+-   Power BI 서비스에서 데이터 세트에 연결(미리 보기) [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=12m39s)[[문서]](desktop-report-lifecycle-datasets.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#powerBIservice)
 -   새롭거나 향상된 데이터 커넥터:
     -  Redshift 커넥터: 베타 지원, Power BI 서비스에 게시 [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=14m44s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#redshift)
     -   SAP HANA 및 BW: 향상된 매개 변수 입력 환경 [[비디오]](https://youtu.be/AWMaIaI8G2Y?t=15m17s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#SAP)
@@ -2109,7 +2109,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 **성능 개선**
 
--   중간 크기의 데이터 집합 및 큰 데이터 집합의 로드 속도가 약 20% 빨라짐
+-   중간 크기의 데이터 세트 및 큰 데이터 세트의 로드 속도가 약 20% 빨라짐
 
 -   기존 PBIX 파일을 여는 데 걸리는 시간이 약 50% 개선됨
 

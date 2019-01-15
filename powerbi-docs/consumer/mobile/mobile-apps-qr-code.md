@@ -1,20 +1,20 @@
 ---
 title: 모바일 디바이스에서 Power BI QR 코드 스캔
 description: Power BI의 QR 코드는 실제 세계의 모든 항목을 iPhone 및 Android 디바이스용 Power BI 모바일 앱에서 관련된 BI 정보에 연결할 수 있습니다.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
-ms.author: maggies
-ms.openlocfilehash: 46b7978dda82809146a7604cc5967fe7c07df764
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 8b994dfd44a999b877a906571027f5fcb55d9924
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44743903"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275344"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>모바일 디바이스에서 Power BI QR 코드 스캔
 적용 대상:

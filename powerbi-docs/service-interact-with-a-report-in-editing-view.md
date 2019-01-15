@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e03f6b4542c4f5f6c1d1a84892030520651ac9a3
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 12ee21427f06f0bce373adffa7ef336de144a3a4
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908310"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290570"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI 서비스의 편집 보기에서 보고서와 상호 작용
 Power BI 서비스 및 Power BI Desktop에서 보고서를 만들고 편집할 수 있습니다. Power BI 서비스에서는 **편집용 보기**에서 보고서를 만들고 편집할 수 있습니다. 또한 Power BI Desktop에서는 [**보고서 보기**](desktop-report-view.md)에서 보고서를 만들고 편집할 수 있습니다. 이 문서에서는 Power BI 서비스의 편집용 보기에 대해 설명합니다. 

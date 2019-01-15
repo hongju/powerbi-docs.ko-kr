@@ -6,20 +6,20 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: dcf51f26aac018acdd58e4244f21e41a1b6f1bc6
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 39a62950260789b50be034c2f55808e6991764db
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026638"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294069"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>허용 목록의 Power BI URL
 
-Power BI SaaS(Software-as-a-service) 응용 프로그램이라고도 하는 **Power BI 온라인 서비스**는 인터넷에 연결되어 있어야 합니다. 아래 엔드포인트는 Power BI 온라인 서비스를 사용하여 고객에게 연결할 수 있어야 합니다.
+Power BI SaaS(Software-as-a-service) 애플리케이션이라고도 하는 **Power BI 온라인 서비스**는 인터넷에 연결되어 있어야 합니다. 아래 엔드포인트는 Power BI 온라인 서비스를 사용하여 고객에게 연결할 수 있어야 합니다.
 
 Power BI 온라인 서비스를 사용하려면 아래 테이블에 **필수**라고 표시된 엔드포인트 및 연결된 사이트에서 **필수**라고 표시된 엔드포인트에 연결하는 액세스 권한이 있어야 합니다. 외부 사이트에 대한 링크가 특정 섹션을 가리키는 경우 해당 섹션에서 엔드포인트를 검토해야 합니다.
 

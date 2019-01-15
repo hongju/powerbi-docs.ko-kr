@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0fc366ad5b42f84f8677be36d1f2093a4ac0fa23
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 3f3b1435e7c696d0edf810b8b69be201ff1d92ce
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025560"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278657"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터에 연결
 Power BI Desktop을 사용하면 계속 확장되는 데이터에 쉽게 연결할 수 있습니다. Power BI Desktop이 없는 경우 여기서 [다운로드](http://go.microsoft.com/fwlink/?LinkID=521662)하여 설치할 수 있습니다.
@@ -44,7 +44,7 @@ Power BI Desktop에는 사용할 수 있는 *모든 종류* 의 데이터 소스
 
 이때 창의 아래쪽에서 **편집** 을 선택하여 테이블을 로드하기 전에 쿼리를 편집하거나 테이블을 로드할 수 있습니다.
 
-**편집**을 선택하면 테이블이 로드되고 쿼리 편집기가 실행됩니다. **쿼리 설정** 창이 표시됩니다(표시되지 않는 경우 리본에서 **보기**를 선택한 다음 **표시\> 쿼리 설정**을 선택하여** 쿼리 설정** 창을 표시할 수 있음). 표시되는 모양은 다음과 같습니다.
+**편집**을 선택하면 테이블이 로드되고 쿼리 편집기가 실행됩니다. **쿼리 설정** 창이 표시됩니다(표시되지 않는 경우 리본에서 **보기**를 선택한 다음 **표시\> 쿼리 설정**을 선택하여 **쿼리 설정** 창을 표시할 수 있음). 표시되는 모양은 다음과 같습니다.
 
 ![](media/desktop-connect-to-data/designer_gsg_editquery.png)
 

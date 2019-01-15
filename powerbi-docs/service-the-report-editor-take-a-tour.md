@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 7a3b4c9e47a85d11446ba3729c258bbb2868acec
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 70eb50c493c6828ca03b1161138e1a4f4b1fae8e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983649"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284436"
 ---
 # <a name="tour-of-the-report-editor-in-power-bi"></a>Power BI의 보고서 편집기 둘러보기
 

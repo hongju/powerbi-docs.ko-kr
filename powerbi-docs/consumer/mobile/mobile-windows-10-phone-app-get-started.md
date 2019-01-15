@@ -1,20 +1,20 @@
 ---
 title: Windows 10용 Power BI 모바일 앱 시작
 description: Windows 10용 Power BI 모바일 앱은 태블릿이나 휴대폰에서 비즈니스 정보에 대한 터치 기반의 최신 모바일 액세스를 제공합니다.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: 00f4f63630efd36b55da5e15ce28f1733edaf84f
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.author: mshenhav
+ms.openlocfilehash: aa41e1e2869ad4d2f77224e3bec99dc00c59c536
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908673"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291444"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
 Windows 10용 Power BI 모바일 앱은 태블릿이나 폰에 Power BI를 통해 비즈니스 정보에 대한 터치 기반의 최신 모바일 액세스를 제공합니다. 어디서든 [Windows 시작 화면](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)에서 회사 대시보드를 보고 조작할 수 있습니다.
@@ -28,7 +28,7 @@ Windows 10용 Power BI 모바일 앱은 태블릿이나 폰에 Power BI를 통�
 ## <a name="first-things-first"></a>먼저 수행할 중요한 작업
 * Windows 스토어에서 [**Windows 10용 Power BI 모바일 앱을 다운로드**](http://go.microsoft.com/fwlink/?LinkID=526478)합니다.
   
-  디바이스에서 Windows 10이 실행되고 있어야 합니다. RAM 3GB, 내부 저장소 8GB 이상인 디바이스에서 앱이 최적으로 작동합니다.
+  디바이스에서 Windows 10이 실행되고 있어야 합니다. RAM 3GB, 내부 스토리지 8GB 이상인 장치에서 앱이 최적으로 작동합니다.
    
 * [Power BI 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)을 알아보세요.
 
@@ -110,12 +110,12 @@ Power BI의 대시보드 및 보고서, 또는 Reporting Services 웹 포털의 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서
 * [앱](../../service-create-distribute-apps.md) 보기.
 * [대시보드](mobile-apps-view-dashboard.md) 보기.
-* 장치의 시작 화면의 라이브 타일에 [대시보드 및 Power BI 타일 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
+* 디바이스의 시작 화면의 라이브 타일에 [대시보드 및 Power BI 타일 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
 * [타일 공유](mobile-windows-10-phone-app-get-started.md).
 * [대시보드](mobile-share-dashboard-from-the-mobile-apps.md) 공유.
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Reporting Services 모바일 보고서 및 KPI
-* Windows 10 장치용 Power BI 앱에서 [Reporting Services 모바일 보고서 및 KPI 보기](mobile-app-windows-10-ssrs-kpis-mobile-reports.md).
+* Windows 10 디바이스용 Power BI 앱에서 [Reporting Services 모바일 보고서 및 KPI 보기](mobile-app-windows-10-ssrs-kpis-mobile-reports.md).
 * [Reporting Services 웹 포털에서 KPI](https://msdn.microsoft.com/library/mt683632.aspx) 만들기.
 * [SQL Server 모바일 보고서 게시자를 사용하여 고유한 모바일 보고서 만들기](https://msdn.microsoft.com/library/mt652547.aspx) 및 Reporting Services 웹 포털에 게시.
 

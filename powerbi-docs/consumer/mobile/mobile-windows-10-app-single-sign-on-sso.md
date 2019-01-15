@@ -1,20 +1,20 @@
 ---
 title: Power BI 모바일 Windows 앱의 Single Sign-On
 description: Power BI 모바일 Windows 앱의 SSO(Single Sign-On)에 대해 읽어 보세요. SSO는 단일 사용자 계정으로 한 번만 로그인하여 비즈니스를 수행하는 데 필요한 모든 애플리케이션 및 리소스에 액세스하는 것을 의미합니다.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.author: maggies
-ms.openlocfilehash: f13b6e0a6583bcb66da0fb0a27188c83c4bf6806
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.author: mshenhav
+ms.openlocfilehash: fdbdebacc2ae41cdfa8296eb6b0c06e52f149cac
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45975038"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290961"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI 모바일 Windows 앱의 Single Sign-On
 

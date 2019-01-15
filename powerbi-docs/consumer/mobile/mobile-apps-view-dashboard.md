@@ -1,27 +1,27 @@
 ---
 title: Power BI 모바일 앱에서 대시보드 및 보고서 보기
 description: Power BI 서비스에서 대시보드 및 보고서를 생성하거나 연결합니다. 그러면 Power BI 모바일 앱에 표시됩니다.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: 9738660ced6b8dbe32e7308b86f671f21c8c312c
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.author: mshenhav
+ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979493"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279231"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
 적용 대상:
 
 | ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10 디바이스](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android 휴대폰](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android 태블릿](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[Windows 10 장치](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
+| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android 휴대폰](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android 태블릿](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[Windows 10 디바이스](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
 
 대시보드는 귀사의 수명 주기 및 프로세스로 통하는 포털입니다. 대시보드는 비즈니스의 현재 상태를 한 곳에서 모니터링하는 개요입니다.
 

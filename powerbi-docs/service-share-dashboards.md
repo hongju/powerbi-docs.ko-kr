@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: abddbf3e4ae0b51dbb46f949e6d4f287d084f873
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: a4f10253619393ffd9807b1e33730a4dd37a47ff
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53281034"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277391"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. Power BI는 [대시보드 및 보고서를 공동 작업하고 배포하는 여러 가지 다른 방법](service-how-to-collaborate-distribute-dashboards-reports.md)도 제공합니다.
@@ -89,7 +89,7 @@ Amanda가 회사 내부 및 외부의 동료와 대시보드를 공유하는 과
    * **읽기**는 해당 개인이 다른 사람과 공유하지 않도록 합니다.
    * **액세스 권한 제거**는 해당 사용자가 공유된 콘텐츠를 전혀 보지 못하도록 합니다.
 
-4. **액세스 권한 제거** 대화 상자에서 보고서 및 데이터 집합과 같은 관련 콘텐츠에 대한 액세스를 제거할지 여부를 결정합니다. 경고 아이콘 ![Power BI 경고 아이콘](media/service-share-dashboards/power-bi-warning-icon.png)을 사용하여 항목을 제거하는 경우 제대로 표시되지 않으므로 관련 콘텐츠를 제거하는 것이 좋습니다.
+4. **액세스 권한 제거** 대화 상자에서 보고서 및 데이터 세트와 같은 관련 콘텐츠에 대한 액세스를 제거할지 여부를 결정합니다. 경고 아이콘 ![Power BI 경고 아이콘](media/service-share-dashboards/power-bi-warning-icon.png)을 사용하여 항목을 제거하는 경우 제대로 표시되지 않으므로 관련 콘텐츠를 제거하는 것이 좋습니다.
 
     ![Power BI 공유 경고 대화 상자](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
 
@@ -130,7 +130,7 @@ Power BI 모바일 앱에서 조직 외부의 사람들에게 링크를 보낼 �
 
 1. 콘텐츠 목록에 있는 **데이터 세트** 탭으로 이동합니다.
 
-1. 데이터 집합 옆에 있는 줄임표(**...**) > **사용 권한 관리**를 선택합니다.
+1. 데이터 세트 옆에 있는 줄임표(**...**) &gt; **사용 권한 관리**를 선택합니다.
 
     ![권한 관리](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
 

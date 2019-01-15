@@ -5,21 +5,21 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 6f0d7c44060c1818636b1574fdd835627d52b103
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 10b6935b66685762bab5c4d06dd6d83f9cdb8959
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670535"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275689"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>로컬 드라이브에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
 ## <a name="whats-supported"></a>무엇이 지원되나요?
-Power BI에서 지금 새로 고침 및 새로 고침 예약은 다음 데이터 원본에 연결하고 Excel 데이터 모델에 데이터를 로드하는 데 파워 쿼리(Excel 2016에서 데이터 가져오기 및 변환) 또는 파워 피벗을 사용하는 로컬 드라이브에서 가져온 Excel 통합 문서에서 만든 데이터 집합에 지원됩니다.  
+Power BI에서 지금 새로 고침 및 새로 고침 예약은 다음 데이터 원본에 연결하고 Excel 데이터 모델에 데이터를 로드하는 데 파워 쿼리(Excel 2016에서 데이터 가져오기 및 변환) 또는 파워 피벗을 사용하는 로컬 드라이브에서 가져온 Excel 통합 문서에서 만든 데이터 세트에 지원됩니다.  
 
 ### <a name="power-bi-gateway---personal"></a>Power BI 게이트웨이 - 개인
 * 파워 쿼리에 표시된 모든 온라인 데이터 원본.

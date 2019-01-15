@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 1114f1949c68e4bebf2d636906bf754e7de77273
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 76ec5c140fc90dcf71a76bc6ca13a860e3474c37
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900270"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280948"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Power BI 서비스에 페이지를 매긴 보고서 게시(미리 보기)
 

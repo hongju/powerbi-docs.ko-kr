@@ -1,20 +1,20 @@
 ---
 title: Power BI 모바일 앱의 즐겨찾기
 description: 모바일 앱에서 즐겨 찾는 Power BI 대시보드, 보고서, 앱, Power BI Report Server, Reporting Services 보고서 및 KPI를 만들고 보는 방법에 대해 알아보세요.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
-ms.author: maggies
-ms.openlocfilehash: a689a3b04ca3b48c0b924ae62a52315dc3535faf
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544952"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278680"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 즐겨찾기 만들기 및 보기
 적용 대상:
