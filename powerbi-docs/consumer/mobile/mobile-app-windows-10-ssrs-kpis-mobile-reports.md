@@ -1,20 +1,20 @@
 ---
 title: Windows 10 모바일 앱에서 SSRS 모바일 보고서 및 KPI 보기 - Power BI
 description: Windows 10용 Power BI 모바일 앱은 중요한 온-프레미스 비즈니스 정보에 대한 터치 기반의 라이브 모바일 액세스를 제공합니다.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: 12a2816937c9883ca5fe4d64367c439ef897cd2d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 98c76fd5903a44c8cc1ef5b175f235f1ec4382e9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744119"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289374"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Windows 10 Power BI 모바일 앱에서 Reporting Services(SSRS) 모바일 보고서 및 KPI 보기
 SQL Server 2016 Reporting Services에서 Windows 10용 Power BI 모바일 앱은 중요한 온-프레미스 비즈니스 정보에 대한 터치 기반의 라이브 모바일 액세스를 제공합니다. 
@@ -27,7 +27,7 @@ SQL Server 2016 Enterprise Edition 모바일 보고서 게시자를 사용하여
 그런 다음 Windows 10용 Power BI 모바일 앱에서, 폴더에 정리되어 있거나 즐겨찾기에 모아놓은 모바일 보고서와 KPI를 봅니다. 
 
 > [!NOTE]
-> 디바이스에서 Windows 10이 실행되고 있어야 합니다. RAM 1GB, 내부 저장소 8GB 이상인 디바이스에서 앱이 최적으로 작동합니다.
+> 디바이스에서 Windows 10이 실행되고 있어야 합니다. RAM 1GB, 내부 스토리지 8GB 이상인 장치에서 앱이 최적으로 작동합니다.
 > 
 > 
 

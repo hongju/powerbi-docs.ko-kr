@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 32099bb5ab5cb3784bd237234344783be8ca5a9a
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717204"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285188"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>질문 및 답변에서 대시보드에 타일 고정
 ## <a name="how-to-pin-a-tile-from-qa"></a>질문 및 답변에서 타일을 고정하는 방법
@@ -52,10 +52,10 @@ ms.locfileid: "51717204"
    ![타일이 있는 대시보드](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-* 질문 입력을 시작하면 질문 및 답변에서 현재 대시보드와 연결된 모든 데이터 집합에서 최적의 답변을 검색하기 시작합니다.  "현재 대시보드"는 위쪽 탐색 모음에 나열된 대시보드입니다. 예를 들어, 이 질문은 **mihart** 응용 프로그램 작업 영역에 속하는 **소매점 분석 샘플** 대시보드에서 묻습니다.
+* 질문 입력을 시작하면 질문 및 답변에서 현재 대시보드와 연결된 모든 데이터 세트에서 최적의 답변을 검색하기 시작합니다.  "현재 대시보드"는 위쪽 탐색 모음에 나열된 대시보드입니다. 예를 들어, 이 질문은 **mihart** 응용 프로그램 작업 영역에 속하는 **소매점 분석 샘플** 대시보드에서 묻습니다.
 
   ![이동 경로](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
-* **질문 및 답변에서 사용할 데이터 집합은 어떻게 아나요**?  질문 및 답변에서는 해당 대시보드에 고정된 시각화가 하나 이상 있는 모든 데이터 집합에 액세스할 수 있습니다.
+* **질문 및 답변에서 사용할 데이터 세트는 어떻게 아나요**?  질문 및 답변에서는 해당 대시보드에 고정된 시각화가 하나 이상 있는 모든 데이터 세트에 액세스할 수 있습니다.
 
 * **질문 상자가 보이지 않나요**? Power BI 관리자에게 문의하세요. 관리자는 질문 및 답변을 사용하지 않도록 설정할 수 있습니다.
 

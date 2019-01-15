@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7371b871db54411e97f8ec1f4f01ba2e56f6023c
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: ca4af083e616023196b7a983d6f04dcdd97826a9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026549"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279921"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Excel용 Power BI 게시자
 Microsoft의 **Power BI publisher for Excel**을 사용하면 피벗 테이블, 차트 및 범위와 같은 Excel의 가장 중요한 정보를 스냅숏으로 나타낸 후 Power BI의 대시보드에 고정할 수 있습니다.
@@ -110,13 +110,13 @@ Power BI에 데이터가 없는 경우, Excel은 이를 감지하고 샘플 데�
 이번 **Power BI publisher for Excel**의 릴리스에는 고려할 몇 가지 사항이 있습니다.
 
 * **공유 데이터** - 사용자와 공유해왔지만 Power BI에서 직접 표시되지 않는 데이터는 **데이터에 연결**에서 사용할 수 없습니다.
-* **SSAS 온-프레미스** - 선택한 데이터 집합이 온-프레미스 SSAS(SQL Server Analysis Services)에서 비롯되고 Power BI의 데이터 집합이 데이터 전반에서 DirectQuery를 사용하는 경우, **Power BI publisher for Excel**은 Power BI를 거치지 *않고* 온-프레미스 네트워크 연결을 통해 해당 데이터에 연결합니다. 그렇기 때문에 이러한 데이터 세트에 연결하려는 사용자는 온-프레미스 네트워크에 연결해야 하고 데이터가 저장된 Analysis Services 인스턴스에서 사용되는 인증 메서드를 통해 해당 데이터에 대한 액세스가 인증됩니다.
+* **SSAS 온-프레미스** - 선택한 데이터 세트가 온-프레미스 SSAS(SQL Server Analysis Services)에서 비롯되고 Power BI의 데이터 세트가 데이터 전반에서 DirectQuery를 사용하는 경우, **Power BI publisher for Excel**은 Power BI를 거치지 *않고* 온-프레미스 네트워크 연결을 통해 해당 데이터에 연결합니다. 그렇기 때문에 이러한 데이터 세트에 연결하려는 사용자는 온-프레미스 네트워크에 연결해야 하고 데이터가 저장된 Analysis Services 인스턴스에서 사용되는 인증 메서드를 통해 해당 데이터에 대한 액세스가 인증됩니다.
 * **필수 드라이버** - **Power BI publisher for Excel**은 이 기능에 필요한 모든 드라이버를 자동으로 설치 합니다. 자동으로 설치된 드라이버 중 Analysis Services용 Excel OLE DB 드라이버는 사용자(또는 기타 다른 이유로)에 의해 제거될 경우, Power BI 데이터에 연결되지 않습니다.
-* **데이터 집합에 측정값이 있어야 합니다.** – Excel에서 측정값이 피벗 테이블의 값으로 처리되고 데이터가 제대로 분석되려면 데이터 집합에 모델 측정값이 정의되어 있어야 합니다. [측정값](desktop-measures.md)에 대해 자세히 알아보세요.
-* **그룹 지원** – 지정된 그룹의 외부 사람과 공유된 데이터 집합은 지원되지 않으며, 연결할 수 없습니다.
-* **무료 구독 및 Pro 구독** – 그룹과 관련된 활동은 Power BI 무료 사용자에게 지원되지 않기 때문에, 해당 사용자의 작업 영역에서는 그룹에 공유된 보고서나 데이터 집합을 볼 수 없습니다.
-* **공유 보고서 또는 데이터 집합** – 다른 이가 공유해 준 보고서 또는 데이터 집합에 연결할 수 없습니다.
-* **데이터 모델 대신 테이블 사용** – 데이터 모델 없이 Excel의 테이블만을 가져와서 만든 데이터 집합 및 보고서는 현재 지원되지 않으며, 연결할 수 없습니다.
+* **데이터 세트에 측정값이 있어야 합니다.** – Excel에서 측정값이 피벗 테이블의 값으로 처리되고 데이터가 제대로 분석되려면 데이터 세트에 모델 측정값이 정의되어 있어야 합니다. [측정값](desktop-measures.md)에 대해 자세히 알아보세요.
+* **그룹 지원** – 지정된 그룹의 외부 사람과 공유된 데이터 세트는 지원되지 않으며, 연결할 수 없습니다.
+* **무료 구독 및 Pro 구독** – 그룹과 관련된 활동은 Power BI 무료 사용자에게 지원되지 않기 때문에, 해당 사용자의 작업 영역에서는 그룹에 공유된 보고서나 데이터 세트를 볼 수 없습니다.
+* **공유 보고서 또는 데이터 세트** – 다른 이가 공유해 준 보고서 또는 데이터 세트에 연결할 수 없습니다.
+* **데이터 모델 대신 테이블 사용** – 데이터 모델 없이 Excel의 테이블만을 가져와서 만든 데이터 세트 및 보고서는 현재 지원되지 않으며, 연결할 수 없습니다.
 
 설득력 있는 차트나 데이터의 범위와 같은 다른 시각적 개체를 만들면, 이 문서의 앞부분에 설명된 대로 Power BI에서 이를 대시보드에 쉽게 고정할 수 있습니다.
 

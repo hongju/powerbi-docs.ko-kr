@@ -1,21 +1,21 @@
 ---
-title: '타사 서비스: Power BI Desktop에 대한 Facebook 커넥터'
-description: '타사 서비스: Power BI Desktop에 대한 Facebook 커넥터'
+title: '타사 서비스: Power BI Desktop용 Facebook 커넥터'
+description: '타사 서비스: Power BI Desktop용 Facebook 커넥터'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 66f6fa32ecabecfbaa178b5744e71c80a6020ebd
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a8b37606b602a24aa4a0995e138a52a86e0f945c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669661"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295619"
 ---
 # <a name="facebook-connector-for-power-bi-desktop"></a>Power BI Desktop용 Facebook 커넥터
 **Power BI Desktop**의 Facebook 커넥터는 Facebook Graph API를 사용합니다. 이와 같이 기능 및 가용성은 시간에 따라 달라질 수 있습니다.

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: 737fa3158078e24d56270fea9b212a06935652ae
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 84f159e38f8fee239e8fca3280d852e456fb61a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101557"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274907"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI Report Server에 대한 브라우저 지원
 Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다.

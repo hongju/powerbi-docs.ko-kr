@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67a04f1ae1bd5858aa4413c77a6d98ac5a04d32f
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 84e2bc663a4e3912608279c7315bc494b3c9844a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51620101"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296527"
 ---
 # <a name="modeling-view-in-power-bi-desktop-preview"></a>Power BI Desktop의 모델링 보기(미리 보기)
 
@@ -67,7 +67,7 @@ ms.locfileid: "51620101"
 
 * [Power BI Desktop의 집계(미리 보기)](desktop-aggregations.md)
 * [Power BI Desktop의 복합 모델(미리 보기)](desktop-composite-models.md)
-* [Power BI Desktop의 저장소 모드(미리 보기)](desktop-storage-mode.md)
+* [Power BI Desktop의 스토리지 모드(미리 보기)](desktop-storage-mode.md)
 * [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)
 
 

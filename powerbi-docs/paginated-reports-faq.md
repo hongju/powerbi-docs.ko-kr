@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: d3fdf9b568aa13ba5a8437c684835e0fce803d19
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: d86f52b45dfac4252dfd2e7de29de64c16a566ca
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649448"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294124"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI의 페이지를 매긴 보고서: FAQ(미리 보기)
 
@@ -106,7 +106,7 @@ Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니�
 현재 페이지를 매긴 보고서에서는 다음 항목을 지원하지 않습니다.
 
 - 공유 데이터 원본
-- 공유 데이터 집합
+- 공유 데이터 세트
 - 하위 보고서
 - 클릭 광고 및 드릴스루 동작
 - 연결된 보고서

@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3b1a6b9a0e95c6bbd628368d47b866da18643741
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: fed4119946cb762fb4d9aee3b5300be225a6e379
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44725837"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288109"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기
 

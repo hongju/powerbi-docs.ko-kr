@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 017a1b9b326842c5bcc483f77e0be1fa884c0270
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: f8b9f775b43f2c1b26b7ef56c5bb0985fc3f7ca2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578201"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292060"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop에서 관계 만들기 및 관리
 여러 테이블을 가져올 때 이러한 모든 테이블의 데이터를 사용하여 분석을 수행하려는 경우가 있습니다. 결과를 정확하게 계산하고 보고서에 올바른 정보를 표시하려면 테이블 간의 관계가 필요합니다. Power BI Desktop에서는 이러한 관계를 쉽게 만들 수 있습니다. 실제로 아무 작업도 수행할 필요가 없는 경우가 대부분입니다. 자동 검색 기능이 자동으로 작업을 수행할 수 있습니다. 그러나 경우에 따라 직접 관계를 만들어야 하거나 관계를 일부 변경해야 할 수 있습니다. 어떤 경우든지 Power BI Desktop에서의 관계 및 관계를 만들고 편집하는 방법을 이해하는 것이 중요합니다. 
