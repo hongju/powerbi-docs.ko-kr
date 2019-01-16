@@ -83,7 +83,7 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
 
    ![모두 및 AK를 선택하지 않은 상태 드롭다운](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 7. **SalesFact** \> **Sentiment**를 선택하여 **색 채도** 영역에 추가합니다. **색 채도** 영역의 필드는 지도 음영을 제어합니다.  
-   ![색 채도 필드 웰의 감정](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map.png)
+   ![색 채도 필드 영역의 Sentiment](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map.png)
 8. 등치 지역도는 녹색과 빨간색으로 채워지며, 빨간색은 낮은 인지 수를 나타내고 녹색은 더 높고 더 긍정적인 인지를 나타냅니다.  여기에 제가 강조 표시한 와이오밍(WY) 주는 인지가 74로 매우 양호합니다.  
    ![상태 및 감정을 보여주는 검정 대화 상자](media/power-bi-visualization-filled-maps-choropleths/power-bi-wy.png)
 9. [보고서를 저장합니다](../service-report-save.md).
