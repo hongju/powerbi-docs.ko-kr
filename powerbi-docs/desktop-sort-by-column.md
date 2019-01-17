@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1fc906e758c456b5ae1e748a186dbaef2c1ff38e
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 5deca1a92836e442bfa9beeb90fe8a2bc2a74841
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909666"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285924"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Power BI Desktop의 열 기준 정렬
 **Power BI Desktop**과 **Power BI 서비스**에서는 다양한 데이터 필드로 정렬하여 시각적 개체의 모양을 변경할 수 있습니다. 시각적 개체의 정렬 방법을 변경하여 전달하려는 정보를 강조 표시하고 해당 추세(또는 강조점)에 시각적 효과를 반영했는지 확인할 수 있습니다.
@@ -63,7 +63,7 @@ ms.locfileid: "50909666"
 
 ![오름차순 정렬](media/desktop-sort-by-column/sortbycolumn_5.png)
 
-정렬 기준으로 시각적 개체에 포함된 어떤 열이든 사용할 수 있습니다. 정렬할 기준 열로 SalesQuantity를 간편하게 선택하여 정렬 기준 SalesQuantity에서 가장 판매량이 높은 제조업체를 표시해도 시각적 개체에 있는 다른 열은 그대로 유지됩니다. 그러나 해당 제조업체에는 적용됩니다. 이러한 설정을 통해 시각적 개체를 살펴보겠습니다.
+정렬 기준으로 시각적 개체에 포함된 어떤 열이든 사용할 수 있습니다. 정렬할 기준 열로 SalesQuantity를 간편하게 선택하여 **정렬 기준 SalesQuantity**에서 가장 판매량이 높은 제조업체를 표시해도 시각적 개체에 있는 다른 열은 그대로 유지됩니다. 그러나 해당 제조업체에는 적용됩니다. 이러한 설정을 통해 시각적 개체를 살펴보겠습니다.
 
 ![정렬 기준 SalesQuantity](media/desktop-sort-by-column/sortbycolumn_6.png)
 
