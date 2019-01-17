@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 01/15/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1749fc932b3aa6cfb86de87bc9ecd71f78d92af5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6cc26f386a77ad8482d7f1af69fd0fdf2b7de5ac
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281968"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324023"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium이란?
 
-Microsoft Power BI Premium은 조직에 대해 Power BI 서비스를 실행하는 전용 리소스를 제공합니다. 더욱 신뢰할 수 있는 성능을 제공하고 더 큰 데이터 볼륨을 사용하도록 설정합니다. 또한 Premium을 통해 콘텐츠 소비자를 위한 사용자별 Pro 라이선스를 구입할 필요 없이 광범위하게 콘텐츠를 배포할 수 있습니다. 구매 정보를 보려면 [Power BI Premium 구매 방법](service-admin-premium-purchase.md)을 참조하세요.
+Microsoft Power BI Premium은 조직에 대해 Power BI 서비스를 실행하는 전용 리소스를 제공합니다. 더욱 신뢰할 수 있는 성능을 제공하고 더 큰 데이터 볼륨을 사용하도록 설정합니다. 또한 Premium을 통해 콘텐츠 소비자를 위한 사용자별 Pro 라이선스를 구입할 필요 없이 광범위하게 콘텐츠를 배포할 수 있습니다. 구매 정보를 보려면 [Power BI Premium 구매 방법](service-admin-premium-purchase.md)을 참조하세요.   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -46,19 +46,16 @@ Microsoft Power BI Premium은 조직에 대해 Power BI 서비스를 실행하�
 |  | 공유 용량 | Power BI 프리미엄 용량 |
 | --- | --- | --- |
 | **새로 고침 빈도** |8/일 |48/일 |
-| **전용 하드웨어로 격리** |![사용할 수 없음](media/service-premium/not-available.png) |![사용 가능](media/service-premium/available.png) |
-| **엔터프라이즈 배포 대상** _**모든 사용자**_ | | |
-| 앱 및 공유 |![사용할 수 없음](media/service-premium/not-available.png) |![사용 가능](media/service-premium/available.png) |
-| 포함된 API 및 컨트롤 |![사용할 수 없음](media/service-premium/not-available.png) |![사용 가능함](media/service-premium/available.png)<sup>2</sup> |
-| **Power BI 보고서 온-프레미스 게시** |![사용할 수 없음](media/service-premium/not-available.png) |![사용 가능](media/service-premium/available.png) |
+| 전용 하드웨어로 격리 |![사용할 수 없음](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| 엔터프라이즈 배포 대상 *모든 사용자* | | |
+| 앱 및 공유 |![사용할 수 없음](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| 포함된 API 및 컨트롤 |![사용할 수 없음](media/service-premium/not-available.png) |![](media/service-premium/available.png)<sup>[1](#fnt1)</sup> |
+| Power BI 보고서 온-프레미스 게시 |![사용할 수 없음](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
 | | | |
 
-<sup>1</sup> 자세한 내용은 [라이선스 유형별 기능](service-features-license-type.md)을 참조하세요.  
-*<sup>2</sup> 향후에 Power BI Premium에 제공될 향상된 기능입니다.*
+<a name="fnt1">1</a> 향후에 Power BI Premium에 제공될 향상된 기능입니다.
 
-프리미엄 용량에 작업 영역을 할당하는 방법에 대한 자세한 내용은 [Power BI Premium 관리](service-admin-premium-manage.md)를 참조하세요.
 
-<a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>프리미엄 용량 노드
 
@@ -68,22 +65,19 @@ Power BI 프리미엄은 서로 다른 v-코어 용량으로 노드 구성에서
 
 * EM 노드는 포함된 배포에만 사용할 수 있습니다. EM 노드에는 Power BI Pro 라이선스가 없는 사용자와 앱 공유와 같은 프리미엄 기능에 대한 액세스 권한이 없습니다.
 
->[!NOTE]
->이 테이블의 링크는 Office 365 전역 관리자 역할에 있는 사용자의 경우에만 제대로 작동합니다. 다른 사용자가 누르면 404 오류가 표시됩니다.
-
-| 용량 노드 | 총 V 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 V 코어 | 프런트 엔드 V 코어 | DirectQuery/라이브 연결 제한 | 가용성 |
-| --- | --- | --- | --- | --- | --- | --- |
-| [EM1(매월)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1개 가상 코어 |0.5v-코어, 2.5GB RAM |0.5v-코어 |초당 3.75 |사용 가능 |
-| [EM2(매월)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2v-코어 |1v-코어, 5GB RAM |1개 가상 코어 |초당 7.5 |사용 가능 |
-| [EM3(매월)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4v-코어 |2v-코어, 10GB RAM |2v-코어 | |사용 가능 |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8v-코어 |4v-코어, 25GB RAM |4v-코어 |초당 30 |사용 가능함([매월](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)도 사용 가능함) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16v-코어 |8v-코어, 50GB RAM |8v-코어 |초당 60 |사용 가능 |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32v-코어 |16v-코어, 100GB RAM |16v-코어 |초당 120 |사용 가능 |
+| 용량 노드 | 총 V 코어<br/>*(백 엔드+프런트 엔드)*  | 백 엔드 V 코어 <sup>[1](#fn1)</sup> | 프런트 엔드 V 코어 <sup>[2](#fn2)</sup> | DirectQuery/라이브 연결 제한 | 최대 동시 새로 고침 |  가용성
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| EM1(매월) |1개 가상 코어 |0.5v-코어, 2.5GB RAM |0.5v-코어 |초당 3.75 |  1 | 사용 가능 |
+| EM2(매월) |2v-코어 |1v-코어, 5GB RAM |1개 가상 코어 |초당 7.5 |  2 | 사용 가능 |
+| EM3(매월) |4v-코어 |2v-코어, 10GB RAM |2v-코어 | | 3 |  사용 가능 |
+| P1 |8v-코어 |4v-코어, 25GB RAM |4v-코어 |초당 30 | 6 | 사용 가능함(매월도 사용 가능함) |
+| P2 |16v-코어 |8v-코어, 50GB RAM |8v-코어 |초당 60 | 12 | 사용 가능 |
+| P3 |32v-코어 |16v-코어, 100GB RAM |16v-코어 |초당 120 | 24 | 사용 가능 |
 | | | | | | | |
 
-* 프런트 엔드 V 코어는 웹 서비스, 대시보드 및 보고서 문서 관리, 액세스 권한 관리, 예약, API, 업로드 및 다운로드, 일반적으로 사용자 환경에 관련된 모든 항목에 책임이 있습니다.
+<a name="fn1">1</a>: 프런트 엔드 V 코어는 웹 서비스에 책임이 있습니다. 예를 들어 대시보드 및 보고서 문서 관리, 액세스 권한 관리, 예약, API, 업로드 및 다운로드, 일반적으로 사용자 환경에 관련된 모든 항목에 책임이 있습니다. 
 
-* 백 엔드 V 코어는 어려운 작업: 쿼리 처리, 캐시 관리, R 서버 실행, 데이터 새로 고침, 자연어 처리, 실시간 피드, 보고서 및 이미지의 서버 쪽 렌더링에 책임이 있습니다. 백 엔드 V 코어를 사용하여 메모리의 일정량도 예약됩니다. 큰 데이터 모델 또는 많은 수의 활성 데이터 세트를 처리할 때 충분한 메모리를 갖는 것은 특히 중요해지고 있습니다.
+<a name="fn2">2</a>: 백 엔드 V 코어는 쿼리 처리, 캐시 관리, R 서버 실행, 데이터 새로 고침, 자연어 처리, 실시간 피드, 보고서 및 이미지의 서버 쪽 렌더링 등의 어려운 작업에 책임이 있습니다. 백 엔드 V 코어를 사용하여 메모리의 일정량도 예약됩니다. 큰 데이터 모델 또는 많은 수의 활성 데이터 세트를 처리할 때 충분한 메모리를 갖는 것은 특히 중요해지고 있습니다.
 
 ## <a name="workloads-in-premium-capacity"></a>프리미엄 용량에서 워크로드
 
@@ -112,11 +106,9 @@ Power BI의 워크로드를 사용자에게 제공할 수 있는 많은 서비�
 
 ### <a name="considerations-for-paginated-reports"></a>페이지를 매긴 보고서에 대한 고려 사항
 
-페이지를 매긴 보고서 워크로드를 사용하는 경우 다음 사항에 유의하세요.
+페이지를 매긴 보고서 워크로드를 사용하는 경우 페이지를 매긴 보고서를 통해 콘텐츠에 따라 텍스트 색상을 동적으로 변경하는 경우와 같이 보고서를 렌더링할 때 고유의 코드를 실행할 수 있습니다. 이에 따라 용량 내에 포함된 공간에서 페이지를 매긴 보고서를 실행하여 Power BI Premium 용량을 보호합니다. 워크로드가 활성 상태인지 여부와 관계없이 사용자가 지정하는 최대 메모리를 이 공간에 할당합니다. 동일한 용량에서 Power BI 보고서 또는 데이터 흐름을 사용하는 경우 다른 워크로드에 부정적인 영향을 미치지 않도록 페이지를 매긴 보고서에 충분히 작은 메모리를 설정해야 합니다.
 
-* **페이지를 매긴 보고서의 메모리 할당**: 페이지를 매긴 보고서를 사용하면 콘텐츠에 따라 텍스트 색상을 동적으로 변경하는 경우와 같이 보고서를 렌더링할 때 고유의 코드를 실행할 수 있습니다. 이에 따라 용량 내에 포함된 공간에서 페이지를 매긴 보고서를 실행하여 Power BI Premium 용량을 보호합니다. 워크로드가 활성 상태인지 여부와 관계없이 사용자가 지정하는 최대 메모리를 이 공간에 할당합니다. 동일한 용량에서 Power BI 보고서 또는 데이터 흐름을 사용하는 경우 다른 워크로드에 부정적인 영향을 미치지 않도록 페이지를 매긴 보고서에 충분히 작은 메모리를 설정해야 합니다.
-
-* **페이지를 매긴 보고서를 사용할 수 없음**: 드물지만 페이지를 매긴 보고서 워크로드를 사용할 수 없는 경우가 있습니다. 이런 경우 워크로드에서 관리 포털에 오류 상태를 표시하며 사용자에게는 보고서 렌더링 제한 시간이 표시됩니다. 이 문제를 해결하려면 워크로드를 사용하지 않도록 설정한 다음, 다시 사용하도록 설정하세요.
+드물지만 페이지를 매긴 보고서 워크로드를 사용할 수 없는 경우가 있습니다. 이런 경우 워크로드에서 관리 포털에 오류 상태를 표시하며 사용자에게는 보고서 렌더링 제한 시간이 표시됩니다. 이 문제를 해결하려면 워크로드를 사용하지 않도록 설정한 다음, 다시 사용하도록 설정하세요.
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
 
@@ -129,6 +121,5 @@ Power BI Premium에는 조직의 Power BI Report Server를 온-프레미스에�
 [Power BI Premium 관리](service-admin-premium-manage.md)
 [Microsoft Power BI Premium 백서](https://aka.ms/pbipremiumwhitepaper)
 [Power BI Enterprise 배포 계획 백서](https://aka.ms/pbienterprisedeploy)
-[조직에서 Power BI 관리](service-admin-administering-power-bi-in-your-organization.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 3aa4ea96e9bea4e52de05b49fa0c958a6c2a6943
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286867"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324046"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -22,6 +22,12 @@ ms.locfileid: "54286867"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="december-2018"></a>2018년 12월
+
+### <a name="filter-is-now-available-for-landscape-reports"></a>이제 가로 보고서에서 필터를 사용할 수 있습니다. 
+
+이제 가로 보고서와 휴대폰 보고서에서 보고서의 필터 창을 사용할 수 있습니다.
 
 ## <a name="november-2018"></a>2018년 11월
 
