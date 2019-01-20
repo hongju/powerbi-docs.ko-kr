@@ -145,7 +145,7 @@ Power BI 시각화에 계층 구조가 포함되어 있는 것이 확실한가�
 
 기본적으로 드릴은 보고서의 다른 시각적 개체를 필터링하지 않습니다. 하지만 Power BI Desktop 및 Power BI 서비스에서 이 기능을 사용할 수 있습니다. 
 
-1. 바탕 화면에서 **형식** 탭을 선택하고, **기타 시각적 개체 드릴 필터링**의 확인란을 선택합니다.
+1. Power BI Desktop에서 **형식** 탭을 선택하고, **기타 시각적 개체 드릴 필터링**의 확인란을 선택합니다.
 
     ![Power BI Desktop의 설정](./media/end-user-drill/power-bi-drill-filters-desktop.png)
 
