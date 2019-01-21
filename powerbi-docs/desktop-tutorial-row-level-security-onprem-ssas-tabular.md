@@ -6,17 +6,17 @@ manager: amitaro
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 546ae48aac10ae6c72a062665c7d8f448432a194
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452755"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292640"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
 이 자습서는 **Analysis Services 테이블 형식 모델** 내에서 **행 수준 보안**을 구현하는 데 필요한 단계를 설명하고 Power BI 보고서에서 사용하는 방법을 보여 줍니다. 이 자습서의 단계는 샘플 데이터 세트에서 완료하여 필요한 단계를 따르고 알아볼 수 있도록 설계되었습니다.
@@ -91,7 +91,7 @@ ms.locfileid: "52452755"
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
 4. 이전 단계를 완료하여 게이트웨이가 구성되고 온-프레미스 **Analysis Services** 데이터 원본과 상호 작용할 준비가 되었습니다.
 
-## <a name="task-4-creating-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>작업 4: Power BI Desktop을 사용하여Aanlysis Services 테이블 형식 모델 기반 보고서 만들기
+## <a name="task-4-creating-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>작업 4: Power BI Desktop을 사용하여 Analysis Services 테이블 형식 모델 기반 보고서 만들기
 1. **Power BI Desktop**을 시작하고 **데이터 가져오기 > 데이터베이스**를 선택합니다.
 2. 데이터 원본 목록에서 **SQL Server Analysis Services 데이터베이스**를 선택하고 **연결**을 선택합니다.
    

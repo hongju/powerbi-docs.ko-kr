@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 354ba336407f200d2c311f6bf0de91967cf3f5d1
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598142"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275022"
 ---
 # <a name="manage-content-in-the-web-portal"></a>웹 포털에서 콘텐츠 관리 
 Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지가 매겨진 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치입니다.
@@ -24,7 +24,7 @@ Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지가 매겨진
 모든 최신 브라우저에서 웹 포털을 볼 수 있습니다. 웹 포털의 폴더에서 보고서 및 KPI를 구성하고 즐겨찾기로 표시할 수 있습니다. 거기에 Excel 통합 문서를 저장할 수도 있습니다. 웹 포털에서 보고서를 만드는 데 필요한 도구를 시작할 수 있습니다.
 
 * Power BI Desktop을 사용하여 만든 **Power BI 보고서**: 웹 포털 및 Power BI 모바일 앱에서 확인합니다.
-* 보고서 작성기에서 만든 **페이지가 매겨진** 보고서: 최신 수준의 고정 레이아웃 문서가 인쇄에 최적화되었습니다.
+* 보고서 작성기에서 만든 **페이지를 매긴 보고서**: 최신 수준의 고정 레이아웃 문서가 인쇄에 최적화되었습니다.
 * 웹 포털에서 바로 만든 **KPI**.
 
 웹 포털에서 Report Server 폴더를 찾거나 특정 보고서를 검색할 수 있습니다. 보고서 기록에서 보고서, 해당 일반 속성 및 캡처된 보고서의 과거 복사본을 볼 수 있습니다. 사용 권한에 따라 보고서를 구독하여 파일 시스템에 전자 메일 받은 편지함이나 공유 폴더로 전달하도록 할 수도 있습니다.

@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 92b8d0e0ecfa9bae36e552e30cf8f1a7fcecff4b
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 398737276e55e15273a2245a4b7a72fdca938438
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100752"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287718"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>DirectQuery를 포함하는 HDInsight의 Spark
 
@@ -62,7 +62,7 @@ Power BI 서비스 내에서 DirectQuery를 사용하여 Azure HDInsight의 Spar
 
 * Power BI 서비스는 Spark 2.0 및 HDInsight 3.5의 구성만 지원합니다.
 * 열 선택 또는 필터 추가와 같은 모든 작업은 데이터베이스에 다시 쿼리를 보냅니다. 따라서 매우 큰 필드를 선택하기 전에 적절한 시각적 형식을 선택하는 것이 좋습니다.
-* DirectQuery 데이터 집합에 질문 및 답변을 사용할 수 없습니다.
+* DirectQuery 데이터 세트에 질문 및 답변을 사용할 수 없습니다.
 * 스키마 변경 내용은 자동으로 선택되지 않습니다.
 * Power BI는 데이터 세트 내의 **모든 테이블에서** 16,000개의 열을 지원합니다. Power BI는 또한 테이블당 내부 행 번호 열을 포함합니다. 즉, 데이터 세트에 100개의 테이블이 있는 경우 사용할 수 있는 열 수는 15,900개입니다. Spark 데이터 원본에서 사용하는 데이터 양에 따라 이러한 제한이 발생할 수 있습니다.
 

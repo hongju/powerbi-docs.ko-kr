@@ -5,21 +5,21 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e07575658ed25e3f4933a7840ef4bc970264b23
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296023"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279852"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI에 대한 데이터 게이트웨이 배포 지침
 
-이 문서는 네트워크 환경에서 데이터 게이트웨이를 배포하기 위한 고려 사항 및 지침을 제공합니다. **게이트웨이**는 사설 온-프레미스 네트워크에 상주하는 데이터가 차후 Power BI 등의 클라우드 서비스에서 사용될 수 있게 데이터 액세스를 용이하게 하는 소프트웨어입니다. 이 문서는 배포를 안내하고 **온-프레미스 데이터 게이트웨이** 설정에 대한 지침을 제공합니다.
+이 문서는 네트워크 환경에서 데이터 게이트웨이를 배포하기 위한 고려 사항 및 지침을 제공합니다. **게이트웨이**는 사설 온-프레미스 네트워크에 보존하는 데이터가 차후 Power BI 등의 클라우드 서비스에서 사용될 수 있게 데이터 액세스를 용이하게 하는 소프트웨어입니다. 이 문서는 배포를 안내하고 **온-프레미스 데이터 게이트웨이** 설정에 대한 지침을 제공합니다.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
@@ -40,7 +40,7 @@ ms.locfileid: "34296023"
 *보고서*당 *하나*의 게이트웨이만 허용하는 **Power BI**에는 제약 조건이 있으므로 보고서가 여러 데이터 원본을 기반으로 하는 경우에도 이러한 모든 데이터 원본은 단일 게이트웨이를 거쳐야 합니다. 그러나 대시보드가 *여러* 보고서를 기반으로 하는 경우 각 제공 보고서에 대해 전용 게이트웨이를 사용할 수 있으므로 해당 단일 대시보드에 제공하는 이러한 여러 보고서 간에 게이트웨이 부하를 분산합니다.
 
 ### <a name="connection-type"></a>연결 유형
-**Power BI**는 두 가지 유형의 연결, **DirectQuery** 및 **가져오기**를 제공합니다. 모든 데이터 원본은 두 연결 유형을 모두 제공하지 않으며 보안 요구 사항, 성능, 데이터 제한 사항 및 데이터 모델 크기와 같은 많은 이유는 하나를 선택하는 데 원인이 될 수 있습니다. [온-프레미스 데이터 게이트웨이 문서](service-gateway-onprem.md)의 *사용 가능한 데이터 원본 유형 목록* 섹션에서 연결 유형 및 지원되는 데이터 원본에 대해 자세히 알아볼 수 있습니다.
+**Power BI**는 다음 두 가지 유형의 연결을 제공합니다. **DirectQuery** 및 **가져오기**. 모든 데이터 원본은 두 연결 유형을 모두 제공하지 않으며 보안 요구 사항, 성능, 데이터 제한 사항 및 데이터 모델 크기와 같은 많은 이유는 하나를 선택하는 데 원인이 될 수 있습니다. [온-프레미스 데이터 게이트웨이 문서](service-gateway-onprem.md)의 *사용 가능한 데이터 원본 유형 목록* 섹션에서 연결 유형 및 지원되는 데이터 원본에 대해 자세히 알아볼 수 있습니다.
 
 사용되는 연결의 유형에 따라 게이트웨이 사용량은 다를 수 있습니다. 예를 들어 가능할 때마다 **DirectQuery** 데이터 원본을 **예약된 새로 고침** 데이터 원본에서 분리하려고 시도해야 합니다(다른 보고서에 있고 구분될 수 있다고 가정). 이렇게 하면 회사의 기본 대시보드에 사용되는 대형 데이터 모델의 아침의 예약된 새로 고침처럼 게이트웨이에 수천 개의 DirectQuery 요청이 동시에 대기하는 것을 방지합니다. 다음은 각각에 대해 고려해야 할 사항입니다.
 

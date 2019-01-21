@@ -5,20 +5,20 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 102198c4524903098ad0c6b0b9fd7e231c3f1fdc
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 703ccbc0c1c541fe161f409480701788d0cd12af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578293"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280255"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop의 Analysis Services 테이블 형식 데이터 사용
-Power BI Desktop에서는 라이브 연결을 통한 탐색이나, 항목 선택 후 Power BI Desktop에 가져오기 등, 두 가지 방법으로 SQL Server Analysis Services 테이블 형식 모델에 연결하고 데이터를 가져올 수 있습니다.
+Power BI Desktop에서 SQL Server Analysis Services 테이블 형식 모델의 데이터에 연결하고 이 데이터를 가져올 수 있는 두 가지 방법은 다음과 같습니다. 라이브 연결을 사용하여 탐색하거나, 항목을 선택하고 Power BI Desktop으로 가져옵니다.
 
 측정값에 대해 좀 더 자세히 살펴보겠습니다.
 
@@ -54,21 +54,21 @@ Power BI Desktop에 동적 보고서를 만들 경우 Power BI 사이트에 게�
 ## <a name="frequently-asked-questions"></a>질문과 대답
 **질문:** 온-프레미스 데이터 게이트웨이가 필요한가요?
 
-**응답:** 경우에 따라 다릅니다. Power BI Desktop을 사용하여 테이블 형식 모델에 라이브로 연결하나 Power BI 사이트에 게시하지는 않으려는 경우 게이트웨이가 필요하지 않습니다. 반면에 Power BI 사이트에 게시하려는 경우, Power BI 서비스와 온-프레미스 Analysis Services 서버 간의 안전한 통신을 위해 데이터 게이트웨이가 필요합니다. 데이터 게이트웨이를 설치하기 전에 Analysis Services 서버 관리자에게 문의해야 합니다.
+**답변:** 경우에 따라 다릅니다. Power BI Desktop을 사용하여 테이블 형식 모델에 라이브로 연결하나 Power BI 사이트에 게시하지는 않으려는 경우 게이트웨이가 필요하지 않습니다. 반면에 Power BI 사이트에 게시하려는 경우, Power BI 서비스와 온-프레미스 Analysis Services 서버 간의 안전한 통신을 위해 데이터 게이트웨이가 필요합니다. 데이터 게이트웨이를 설치하기 전에 Analysis Services 서버 관리자에게 문의해야 합니다.
 
 항목을 선택하고 데이터를 가져올 경우 Power BI Desktop 파일에 테이블 형식 모델 데이터를 직접 가져오는 것이므로 게이트웨이가 필요하지 않습니다.
 
 **질문:** Power BI 서비스에서 테이블 형식 모델에 라이브로 연결하는 것과, Power BI Desktop에서 라이브로 연결하는 것에는 어떤 차이가 있나요?
 
-**응답:** Power BI 서비스 사이트에서 회사의 온-프레미스 Analysis Services 데이터베이스로 가는 테이블 형식 모델에 라이브로 연결할 때는 둘 사이의 안전한 통신을 위해 온-프레미스 데이터 게이트웨이가 필요합니다. Power BI Desktop에서 테이블 형식 모델에 라이브로 연결할 때는 연결하려는 Power BI Desktop과 Analysis Services 서버가 모두 회사에서 온-프레미스로 실행 중이기 때문에 게이트웨이가 필요하지 않습니다. 그러나 Power BI Desktop 파일을 Power BI 사이트에 게시할 경우 게이트웨이가 필요합니다.
+**답변:** Power BI 서비스 사이트에서 회사의 온-프레미스 Analysis Services 데이터베이스로 가는 테이블 형식 모델에 라이브로 연결할 때는 둘 사이의 안전한 통신을 위해 온-프레미스 데이터 게이트웨이가 필요합니다. Power BI Desktop에서 테이블 형식 모델에 라이브로 연결할 때는 연결하려는 Power BI Desktop과 Analysis Services 서버가 모두 회사에서 온-프레미스로 실행 중이기 때문에 게이트웨이가 필요하지 않습니다. 그러나 Power BI Desktop 파일을 Power BI 사이트에 게시할 경우 게이트웨이가 필요합니다.
 
 **질문:** 라이브 연결을 만든 경우 동일한 Power BI Desktop 파일에서 다른 데이터 원본에 연결할 수 있나요?
 
-**응답:** 아니요. 같은 파일에서 라이브 데이터를 탐색하고 다른 유형의 데이터 원본에 연결할 수 없습니다. 이미 데이터를 가져왔거나 Power BI Desktop 파일의 다른 데이터 원본에 연결한 경우 라이브 탐색을 위해 새 파일을 만들어야 합니다.
+**답변:** 아니요. 같은 파일에서 라이브 데이터를 탐색하고 다른 유형의 데이터 원본에 연결할 수 없습니다. 이미 데이터를 가져왔거나 Power BI Desktop 파일의 다른 데이터 원본에 연결한 경우 라이브 탐색을 위해 새 파일을 만들어야 합니다.
 
 **질문:** 라이브 연결을 만든 경우 Power BI Desktop에서 모델 또는 쿼리를 편집할 수 있나요?
 
-**답변:** Power BI Desktop에서 보고서 수준 측정값을 만들 수 있지만 다른 모든 쿼리 및 모델링 기능은 라이브 데이터를 탐색할 때 사용할 수 없습니다.
+**답변:** Power BI Desktop에서 보고서 수준 측정값을 만들 수 있지만, 다른 모든 쿼리 및 모델링 기능은 라이브 데이터를 탐색할 때 사용할 수 없습니다.
 
 **질문:** 만든 라이브 연결은 안전한가요?
 
@@ -76,7 +76,7 @@ Power BI Desktop에 동적 보고서를 만들 경우 Power BI 사이트에 게�
 
 **질문:** 탐색기에서 모델 및 큐브 뷰가 보입니다. 차이점은 무엇인가요?
 
-**응답:** 큐브 뷰는 테이블 형식 모델의 특정 뷰입니다. 여기에는 고유의 데이터 분석 필요에 따라 특정 테이블, 열 또는 측정치만 포함될 수 있습니다. 테이블 형식 모델에는 하나 이상의 큐브 뷰가 포함되어 모델에 모든 것을 담을 수 있습니다. 무엇을 선택할지 확실히 모르겠으면 관리자에게 확인합니다.
+**답변:** 큐브 뷰는 테이블 형식 모델의 특정 뷰입니다. 여기에는 고유의 데이터 분석 필요에 따라 특정 테이블, 열 또는 측정치만 포함될 수 있습니다. 테이블 형식 모델에는 하나 이상의 큐브 뷰가 포함되어 모델에 모든 것을 담을 수 있습니다. 무엇을 선택할지 확실히 모르겠으면 관리자에게 확인합니다.
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>최초 연결 후 서버 이름을 변경하려면
 탐색 라이브 연결이 있는 Power BI Desktop 파일을 만든 후 다른 서버로의 연결 전환이 필요한 상황이 발생할 수 있습니다. 예를 들어, 개발 서버에 연결할 때 Power BI Desktop 파일을 만들었으며 Power BI 서비스에 게시하기 전에 프러덕션 서버로 연결을 전환하려는 경우가 있습니다.

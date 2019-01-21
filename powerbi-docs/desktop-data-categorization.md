@@ -5,24 +5,24 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 55e496656046037226a7414c994697b670bcf8c9
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 92191c96409a3a75ad44f8d3472805a3e98da7dd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669730"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275712"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop의 데이터 분류
 **Power BI Desktop**에서는 열의 데이터 범주를 지정하여 시각화에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다.
 
 Power BI Desktop이 데이터를 가져올 때는 데이터 자체만 가져오는 것이 아니라 테이블, 열 이름, 주요 키 여부 등과 같은 정보를 함께 가져옵니다.  이 정보로 Power BI Desktop이 시각화를 만들 때 어떻게 좋은 기본 환경을 만들 수 있는지를 짐작할 수 있습니다. 
 
-다음 예에서는 Power BI Desktop이 열에 숫자 값이 있음을 감지하면 사용자가 어떤 식으로든 이를 집계하려 한다고 가정하고 값 열에 배치합니다. 또는 날짜 시간 값이 있는 열의 경우 꺾은선형 차트에서 시 계층 축으로 사용할 수 있다고 가정합니다.
+예를 들면 다음과 같습니다. Power BI Desktop이 열에 숫자 값이 있음을 감지하면 사용자가 어떤 식으로든 이를 집계하려 한다고 가정하고 값 열에 배치합니다. 또는 날짜 시간 값이 있는 열의 경우 꺾은선형 차트에서 시 계층 축으로 사용할 수 있다고 가정합니다.
 
 그러나 지리 등, 다소 더 까다로운 경우도 있습니다. Excel 워크시트에서 다음 테이블을 고려해 보겠습니다.
 

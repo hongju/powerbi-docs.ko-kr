@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a27e192c5ccc1fb3a7af9bafbc9c4fd14ccabf4c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900109"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292064"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -73,27 +73,27 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 ## <a name="frequently-asked-questions-faq-for-the-us-government-version-of-the-power-bi-service"></a>Power BI 서비스 미국 정부 기관 버전에 대한 FAQ(질문과 대답)
 서비스에 관해 필요한 정보를 신속하게 얻을 수 있도록 다음과 같은 질문 (및 대답)이 제공됩니다.
 
-**질문:** 상용 **Power BI** 데이터를 미국 정부 기관용 **Power BI 서비스**로 마이그레이션하려면 어떻게 해야 합니까?
+**질문:** 상업용 **Power BI** 데이터를 미국 정부 기관용 **Power BI 서비스**로 마이그레이션하려면 어떻게 할까요?
 
-**대답:** 관리자가 별도의 미국 정부 기관 특정의 구독 하에 **Power BI**의 새 인스턴스를 만들어야 합니다. 그런 다음 미국 정부 기관용 **Power BI 서비스**에서 상용 데이터를 복제하고, 상용 라이선스를 제거하고, 기존 도메인을 새로운 미국 정부 기관 특정 서비스에 연결하면 됩니다.
+**답변:** 관리자가 별도의 미국 정부 기관 특정의 구독 하에 **Power BI**의 새 인스턴스를 만들어야 합니다. 그런 다음 미국 정부 기관용 **Power BI 서비스**에서 상용 데이터를 복제하고, 상용 라이선스를 제거하고, 기존 도메인을 새로운 미국 정부 기관 특정 서비스에 연결하면 됩니다.
 
-**질문:** 특정 콘텐츠 팩에 연결할 수 없는 이유는 무엇입니까?
+**질문:** 특정 콘텐츠 팩에 연결할 수 없는 이유는 무엇인가요?
 
-**대답:** 해당 콘텐츠 팩에 연결하기 전에 구독을 사용하도록 설정되어 있어야 합니다.
+**답변:** 해당 콘텐츠 팩에 연결하기 전에 구독을 사용하도록 설정되어 있어야 합니다.
 
-**질문:** 미국 정부 기관용 **Power BI**를 가져오는 데 관심이 있습니다. 어떻게 시작할 수 있나요?
+**질문:** 미국 정부 기관용 **Power BI**를 가져오는 데 관심이 있습니다. 어떻게 시작하나요?
 
-**대답:** 등록(종종 온보딩이라고 함)은 기존 라이선스 및 구독에 따라 다를 수 있습니다. 자세한 내용은 [미국 정부 기관용 Power BI 등록](service-govus-signup.md) 문서를 참조하세요.
+**답변:** 가입(종종 ‘온보딩’이라고 함)은 기존 라이선스 및 구독에 따라 다를 수 있습니다. 자세한 내용은 [미국 정부 기관용 Power BI 등록](service-govus-signup.md) 문서를 참조하세요.
 
-**질문:** 미국 정부 기관용 **Power BI** 연결을 위한 URL은 상용 **Power BI** URL과 다릅니까?
+**질문:** 미국 정부 기관용 **Power BI** 연결을 위한 URL은 상업용 **Power BI** URL과 다른가요?
 
-**대답:** 예, URL이 다릅니다. 다음 표에서는 각각의 URL을 보여 줍니다.
+**답변:** 예. URL이 다릅니다. 다음 표에서는 각각의 URL을 보여 줍니다.
 
 | 상용 버전 URL | 미국 정부 기관 버전 URL |
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-**질문:** 내 계정이 하나 이상의 소버린 클라우드에서 프로비전됩니다. **Power BI Desktop**을 사용할 때 어떤 클라우드에 연결할 것인지 선택하려면 어떻게 해야 합니까?
+**질문:** 내 계정이 여러 개의 소버린 클라우드에서 프로비전됩니다. **Power BI Desktop**을 사용할 때 어떤 클라우드에 연결할 것인지 선택하려면 어떻게 해야 합니까?
 
 **답변:** **Power BI Desktop**의 2018년 7월 릴리스부터 **Power BI Desktop**에 로그인할 때 사용할 클라우드를 선택할 수 있습니다.
 

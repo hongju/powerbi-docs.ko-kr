@@ -1,20 +1,20 @@
 ---
 title: iOS 앱의 질문 및 답변 가상 분석가 - Power BI
-description: iOS 장치에 설치된 Power BI 모바일 앱에서 질문 및 답변 가상 분석가를 사용하여 사용자의 고유한 언어로 이 샘플 데이터에 대해 질문합니다.
-author: maggiesMSFT
+description: iOS 디바이스에 설치된 Power BI 모바일 앱에서 질문 및 답변 가상 분석가를 사용하여 사용자의 고유한 언어로 이 샘플 데이터에 대해 질문합니다.
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
-ms.author: maggies
-ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548114"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278703"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 앱의 질문 및 답변 가상 분석가 - Power BI
 
@@ -100,13 +100,13 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. 왼쪽 위 모서리에 있는 화살표를 눌러 질문 및 답변 가상 분석가 채팅 창으로 돌아갑니다.
 8. 텍스트를 삭제하고 다시 시작하려면 텍스트 상자의 오른쪽에 있는 X를 누릅니다.
-9. 새 질문을 해 보십시오. 키워드에서 **맨 위**를 누르고 **avg $/unit ly별 판매** > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 누릅니다.
+9. 새 질문을 해 보세요. 키워드에서 **맨 위**를 탭하고 **avg $/unit ly별 판매** > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
 10. 키워드에서 **기준**를 선택하여 맨 위에 있는 제안 목록에서 **시간** > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 누릅니다.
 
      ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. **자격**을 입력하고, 제안 목록에서 꺽은선형 차트 아이콘 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 선택합니다.
+11. **자격**을 입력하고, 제안 목록에서 꺾은선형 차트 아이콘 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 선택합니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
@@ -134,13 +134,13 @@ Apple iOS 개발자 가이드의 [iOS의 새로운 기능](https://go.microsoft.
     사용자 피드백은 익명으로 개선 및 질문에 대한 대답에 도움이 됩니다.
 
 ## <a name="enhance-your-qa-virtual-analyst-results"></a>질문 및 답변 가상 분석가 결과 향상
-좀더 구체적인 질문을 하거나 데이터 집합을 향상시켜 데이터 집합에서 질문 및 답변 가상 분석가를 사용하는 경우 사용자와 고객이 얻는 결과를 향상시킬 수 있습니다.
+좀더 구체적인 질문을 하거나 데이터 세트를 향상시켜 데이터 세트에서 질문 및 답변 가상 분석가를 사용하는 경우 사용자와 고객이 얻는 결과를 향상시킬 수 있습니다.
 
 ### <a name="how-to-ask-questions"></a>질문하는 방법
 * iOS 모바일 앱의 Power BI 서비스 또는 질문 및 답변 가상 분석가에서 이러한 [질문 및 답변에서 질문하기 팁](../end-user-q-and-a-tips.md)을 따르세요.
 
 ### <a name="how-to-enhance-the-dataset"></a>데이터 세트를 향상시키는 방법
-* Power BI Desktop 또는 Power BI 서비스에서 데이터 집합을 향상시켜 [데이터가 질문 및 답변과 질문 및 답변 가상 분석가에서 잘 작동하도록](../../service-prepare-data-for-q-and-a.md) 합니다.
+* Power BI Desktop 또는 Power BI 서비스에서 데이터 세트를 향상시켜 [데이터가 질문 및 답변과 질문 및 답변 가상 분석가에서 잘 작동하도록](../../service-prepare-data-for-q-and-a.md) 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 서비스에서 Q&A](../end-user-q-and-a.md)

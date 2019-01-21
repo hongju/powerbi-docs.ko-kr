@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 37e3e16a17e163d1acfeb43e1a1ede9fba1eca1e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266027"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279369"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI에서 ArcGIS 지도와 상호 작용
 이 토픽은 Power BI 서비스, 데스크톱 또는 모바일에서 ArcGIS 지도를 *사용하는* 사람의 관점에서 작성됩니다. 작성자가 ArcGIS 지도를 사용자와 공유하면 여러 가지 방법으로 해당 지도와 상호 작용할 수 있습니다.  ArcGIS 지도를 작성하는 방법에 대한 자세한 내용은 [Esri에서 제공하는 ArcGIS 지도](../power-bi-visualization-arcgis.md)를 참조하세요.
@@ -145,7 +145,7 @@ Power BI용 ArcGIS Maps는 추가 비용 없이 모든 Power BI 사용자가 사
 아니요, 지도를 표시하려면 Power BI는 네트워크 연결이 필요합니다.
 
 ## <a name="next-steps"></a>다음 단계
-도움말 보기: **Esri**에서는 **Power BI용 ArcGIS Maps** 기능 모음에 대한 [종합적인 설명서](https://go.microsoft.com/fwlink/?LinkID=828772)를 제공하고 있습니다.
+도움말 가져오기: **Esri**에서는 **Power BI용 ArcGIS Maps** 기능 모음에 대한 [종합적인 설명서](https://go.microsoft.com/fwlink/?LinkID=828772)를 제공하고 있습니다.
 
 [**Power BI용 ArcGIS Maps**와 관련된 Power BI 커뮤니티](https://go.microsoft.com/fwlink/?LinkID=828771)에서 질문하고 최신 정보를 얻고 문제를 보고하고 대답을 찾을 수 있습니다.
 

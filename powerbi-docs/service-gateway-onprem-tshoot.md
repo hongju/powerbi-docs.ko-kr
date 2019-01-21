@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
-ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
+ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51580543"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296573"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 문제 해결
 
@@ -117,7 +117,7 @@ ms.locfileid: "51580543"
 
 ## <a name="data-sources"></a>데이터 원본
 
-### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>오류: 연결할 수 없습니다. 세부 정보: "연결 자격 증명이 잘못되었습니다."
+### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>오류: 연결할 수 없습니다. 세부 정보: “잘못된 연결 자격 증명입니다.”
 
 **세부 정보 표시**에 데이터 원본에서 받은 오류 메시지가 표시됩니다. SQL Server의 경우 다음과 유사한 출력이 표시됩니다.
 
@@ -125,7 +125,7 @@ ms.locfileid: "51580543"
 
 사용자 이름과 암호가 올바른지 확인합니다. 또한 해당 자격 증명을 데이터 원본에 연결할 수 있는지 확인합니다. 사용 중인 계정이 **인증 방법**과 일치하는지 확인합니다.
 
-### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>오류: 연결할 수 없습니다. 세부 정보: "데이터베이스에 연결할 수 없습니다."
+### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>오류: 연결할 수 없습니다. 세부 정보: “데이터베이스에 연결할 수 없습니다.”
 
 서버에는 연결할 수 있지만 제공된 데이터베이스에는 연결할 수 없습니다. 데이터베이스의 이름을 확인하고 사용자 자격 증명에 해당 데이터베이스에 액세스할 수 있는 적절한 사용 권한이 있는지 확인합니다.
 
@@ -133,15 +133,15 @@ ms.locfileid: "51580543"
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
-### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>오류: 연결할 수 없습니다. 세부 정보: "데이터 게이트웨이에서 알 수 없는 오류 발생"
+### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>오류: 연결할 수 없습니다. 세부 정보: “데이터 게이트웨이에서 알 수 없는 오류 발생”
 
 이 오류는 다양한 이유로 발생할 수 있습니다. 게이트웨이를 호스트하는 컴퓨터에서 데이터 소스에 연결할 수 있는지 확인해야 합니다. 서버에서 액세스할 수 없기 때문에 발생한 결과일 수 있습니다.
 
 **세부 정보 표시**에 오류 코드 **DM_GWPipeline_UnknownError**가 표시될 수 있습니다.
 
-또한 [이벤트 로그] > **응용 프로그램 및 서비스 로그** > **온-프레미스 데이터 게이트웨이 서비스**에서 자세한 내용을 참조하세요.
+또한 [이벤트 로그] &gt; **애플리케이션 및 서비스 로그** > **온-프레미스 데이터 게이트웨이 서비스**에서 자세한 내용을 참조하세요.
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>오류: 에 연결하는 중 오류가 발생했습니다<server>. 세부 내역: "데이터 게이트웨이에 연결했지만 해당 게이트웨이가 온-프레미스 데이터 원본에 액세스할 수 없습니다."
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>오류: <server>에 연결하려는 동안 오류가 발생했습니다. 세부 정보: “데이터 게이트웨이에 연결했지만 해당 게이트웨이에서 온-프레미스 데이터 원본에 액세스할 수 없습니다.”
 
 지정된 데이터 원본에 연결할 수 없습니다. 해당 데이터 원본에 제공된 정보의 유효성을 검사해야 합니다.
 
@@ -517,7 +517,7 @@ FailedToImpersonateUserException은 다른 사용자를 대신해서 가장할 �
 
 예약된 새로 고침에 게이트웨이를 사용하는 경우 **새로 고침 기록**을 사용하면 지원을 요청해야 할 때 유용한 데이터를 제공할 뿐만 아니라 어떤 오류가 발생했는지 확인할 수 있습니다. 예약된 새로 고침을 비롯하여 요청에 따른 새로 고침도 볼 수 있습니다. **새로 고침 기록**을 가져오는 방법은 다음과 같습니다.
 
-1. Power BI 탐색 창의 **데이터 집합**에서 데이터 집합 &gt; 열기 메뉴 &gt; **새로 고침 예약**을 선택합니다.
+1. Power BI 탐색 창의 **데이터 세트**에서 데이터 세트 &gt; 열기 메뉴 &gt;**새로 고침 예약**을 선택합니다.
 
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. **다음 설정...** &gt; **새로 고침 예약**에서 **기록 새로 고침**을 선택합니다.

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/03/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ebec34690001293e93dafd69dd76f7bdbf54981c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900537"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296803"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
@@ -42,7 +42,7 @@ ms.locfileid: "52900537"
 >[!TIP]
 >여러 범주의 특정 값을 살펴보는 데는 가로 막대형 차트가 표준입니다.
 
-### <a name="cards-multi-row"></a>카드: 다중 행
+### <a name="cards-multi-row"></a>카드: 여러 행
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>카드: 단일 숫자
@@ -90,7 +90,7 @@ ms.locfileid: "52900537"
 
 자세한 내용은 [Power BI의 KPI](power-bi-visualization-kpi.md)를 참조하세요.
 
-### <a name="line-charts"></a>꺽은선형 차트
+### <a name="line-charts"></a>꺾은선형 차트
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
 
 >[!TIP]
@@ -104,12 +104,12 @@ ms.locfileid: "52900537"
 
 자세한 내용은 [지도 시각 효과에 대한 팁과 트릭](power-bi-map-tips-and-tricks.md)을 참조하세요.
 
-### <a name="maps-arcgis-maps"></a>지도: ArcGIS 지도
+### <a name="maps-arcgis-maps"></a>지도: ArcGIS 맵
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 자세한 내용은 [Power BI의 ArcGIS 지도](../power-bi-visualization-arcgis.md)를 참조하세요.
 
-### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도(코로플레스)
+### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]

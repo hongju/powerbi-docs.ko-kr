@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8856a8641b38b7a8256b199acccd54e030bdce40
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: dd4ee055501974345c819f7604ff30174cd4c5ba
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984635"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279010"
 ---
 # <a name="organize-work-in-the-new-workspaces-preview-in-power-bi"></a>Power BI의 새 작업 영역에서 작업 구성(미리 보기)
 
@@ -43,7 +43,7 @@ ms.locfileid: "53984635"
 
 ## <a name="roles-in-the-new-workspaces"></a>새 작업 영역의 역할
 
-새 작업 영역에 멤버, 기여자 또는 관리자로 사용자 그룹이나 개인을 추가합니다. 사용자 그룹의 모든 사용자는 정의된 역할을 가져옵니다. 개인이 여러 사용자 그룹에 속해 있는 경우 역할에서 제공하는 가장 높은 수준의 사용 권한을 얻을 수 있습니다.  다양한 역할에 대한 설명은 이 아티클의 뒷부분에서 [새 작업 영역의 역할](#roles-in-the-new-workspaces)을 참조하세요.
+새 작업 영역에 멤버, 기여자 또는 관리자로 사용자 그룹이나 개인을 추가합니다. 사용자 그룹의 모든 사용자는 정의된 역할을 가져옵니다. 개인이 여러 사용자 그룹에 속해 있는 경우 역할에서 제공하는 가장 높은 수준의 사용 권한을 얻을 수 있습니다.
 
 작업 영역에 추가하는 모든 사용자는 Power BI Pro 라이선스가 필요합니다. 작업 영역에서 이러한 사용자는 물론, 더 광범위한 대상 그룹이나 조직 전체에 게시할 계획이 있는 대시보드, 보고서에 대해 공동 작업을 수행할 수 있습니다. 조직 내 다른 사용자에게 콘텐츠를 배포하려는 경우 해당 사용자에게 Power BI Pro 라이선스를 할당하거나 Power BI Premium 용량에 작업 영역을 배치할 수 있습니다.
 
@@ -83,9 +83,7 @@ ms.locfileid: "53984635"
 
 새 작업 영역이 GA(일반 공급)되면 이전 작업 영역을 자동으로 마이그레이션하도록 옵트인할 수 있습니다. GA 이후 어떤 시점에서 마이그레이션해야 합니다.
 
-## <a name="power-bi-apps-faq"></a>Power BI 앱 FAQ
-
-### <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>현재 작업 영역과 새 작업 영역의 차이점은?
+## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>현재 작업 영역과 새 작업 영역의 차이점은?
 
 새 작업 영역을 사용하여 몇 가지 기능을 다시 디자인하고 있습니다. 미리 보기와 함께 영구적일 것으로 예상대는 변경 내용은 다음과 같습니다. 
 
@@ -94,6 +92,13 @@ ms.locfileid: "53984635"
 - 현재 작업 영역에서 조직 콘텐츠 팩을 만들 수 있습니다. 새 작업 영역에서 콘텐츠 팩을 만들 수 없습니다.
 - 현재 작업 영역에서 조직 콘텐츠 팩을 사용할 수 있습니다. 새 작업 영역에서 콘텐츠 팩을 사용할 수 없습니다.
 - 미리 보기 기간 동안 일부 기능은 새 작업 영역에 아직 활성화되지 않았습니다. 세부 정보는 다음 섹션인 [계획된 새 작업 영역 기능](service-new-workspaces.md#planned-new-workspace-preview-features)을 참조하세요.
+
+## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
+
+알아야 할 제한 사항:
+
+- 작업 영역은 최대 1,000개 데이터 세트 또는 데이터 세트당 1,000개 보고서를 포함할 수 있습니다. 
+- Power BI Pro 라이선스가 있는 사용자는 최대 250개 작업 영역의 멤버일 수 있습니다.
 
 ## <a name="planned-new-workspace-preview-features"></a>예정된 새 작업 영역 미리 보기 기능
 

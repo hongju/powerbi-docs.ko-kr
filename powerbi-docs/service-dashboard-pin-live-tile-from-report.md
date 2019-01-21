@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 447257ba715b473c233b1d13c6319ff4958f33fa
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717174"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285809"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>전체 보고서 페이지를 라이브 타일로 Power BI 대시보드에 고정
 새 [대시보드 타일](consumer/end-user-tiles.md)을 추가하는 다른 방법은 전체 보고서 페이지를 고정하는 것입니다. 이는 한 번에 두 개 이상의 시각화를 고정하는 간단한 방법입니다.  또한 전체 페이지를 고정하면 타일이 *라이브* 상태가 되며, 대시보드에서 바로 상호 작용할 수 있습니다. 필터를 추가하거나 차트에 사용된 필드를 변경하는 등 보고서 편집기에서 시각화 요소들에 수행하는 모든 변경 내용은 대시보드 타일에도 반영됩니다.  
@@ -38,7 +38,7 @@ Amanda가 라이브 보고서 페이지를 대시보드에 고정하는 과정�
 2. 시각화를 선택하지 않은 상태에서 메뉴 모음에서 **라이브 고정 페이지**를 선택합니다.
    
    ![라이브 고정 페이지 아이콘](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. 기존 대시보드 또는 새 대시보드에 타일을 고정합니다.  *라이브 고정 페이지에서 변경 내용을 보고서에 적용하여 해당 페이지를 새로 고치면 대시보드 타일에 나타나게 됩니다.* 라는 텍스트가 강조 표시되어 있습니다.
+3. 기존 대시보드 또는 새 대시보드에 타일을 고정합니다. 다음 텍스트가 강조 표시되어 있습니다. ‘라이브 고정 페이지에서 변경 내용을 보고서에 적용하여 해당 페이지를 새로 고치면 대시보드 타일에 나타나게 됩니다.’
    
    * 기존 대시보드: 드롭다운에서 대시보드의 이름을 선택합니다. 사용자와 공유된 대시보드는 드롭다운에 나타나지 않습니다.
    * 새 대시보드: 새 대시보드의 이름을 입력합니다.

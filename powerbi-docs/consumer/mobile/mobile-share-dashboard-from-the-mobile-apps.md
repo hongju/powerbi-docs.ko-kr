@@ -1,20 +1,20 @@
 ---
 title: Power BI 모바일 앱에서 대시보드 또는 보고서 공유
 description: Power BI 모바일 앱에서 링크를 공유하여 다른 사용자가 대시보드 및 보고서를 보도록 초대하세요. 방법을 알아봅니다.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
-ms.author: maggies
-ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.author: mshenhav
+ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271650"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283670"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 또는 보고서 공유
 적용 대상:
@@ -51,7 +51,7 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    
    다음 구문과 함께 이 대시보드 또는 보고서를 공유한 동료의 목록이 표시됩니다.
    
-   * **보기 가능**: 볼 수는 있지만 공유할 수 없습니다.
+   * **보기 가능**: 볼 수는 있지만, 공유할 수 없습니다.
    * **보기 및 초대 가능**: 보고 다른 동료와 공유할 수 있습니다.
 1. **편집**을 누릅니다.
    
@@ -80,7 +80,7 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    
    다음 구문과 함께 이 대시보드 또는 보고서를 공유한 동료의 목록이 표시됩니다.
    
-   * **보기 가능**: 볼 수는 있지만 공유할 수 없습니다.
+   * **보기 가능**: 볼 수는 있지만, 공유할 수 없습니다.
    * **보기 및 초대 가능**: 보고 다른 동료와 공유할 수 있습니다.
 2. **편집**을 누릅니다.
 3. 공유를 해제하려면 이름 옆의 빨간색 원을 누르고 **삭제**를 누릅니다.
@@ -93,8 +93,8 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
 
     대시보드의 소유자인 경우, 해당 대시보드 또는 보고서를 공유한 동료들의 목록이 다음 메모와 함께 표시됩니다.
 
-    -   **보기 가능**: 볼 수는 있지만 공유할 수 없습니다.
-    -   **보기 및 다시 공유 가능**: 보고 다른 동료와 공유할 수 있습니다.
+    -   **보기 가능**: 볼 수는 있지만, 공유할 수 없습니다.
+    -   **보고 다시 공유할 수 있음**: 보고 다른 동료와 공유할 수 있습니다.
 
 1. 이메일 주소 및 대시보드 초대와 함께 보낼 메시지를 입력합니다. 그렇지 않으면 Power BI가 기본 메시지를 송신합니다.
 2. 재공유를 허용하려면 **수신자가 이 대시보드를 공유할 수 있도록 허용** 이 선택된 채로 둡니다.
@@ -126,9 +126,9 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    
    대시보드의 소유자인 경우, 해당 대시보드를 공유한 동료들의 목록이 다음 메모와 함께 표시됩니다.
    
-   **보기 가능**: 볼 수는 있지만 공유할 수 없습니다.
+   **보기 가능**: 볼 수는 있지만, 공유할 수 없습니다.
    
-   **보기 및 다시 공유 가능**: 보고 다른 동료와 공유할 수 있습니다.
+   **보고 다시 공유할 수 있음**: 보고 다른 동료와 공유할 수 있습니다.
 2. 초대와 함께 보낼 이메일 주소 및 메시지를 입력합니다. 그렇지 않으면 Power BI가 기본 메시지를 송신합니다.
    
    ![초대 대화 상자](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-windows-10-share-dashboard.png)

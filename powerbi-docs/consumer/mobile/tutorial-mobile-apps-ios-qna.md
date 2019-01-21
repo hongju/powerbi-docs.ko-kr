@@ -1,20 +1,20 @@
 ---
 title: '자습서: iOS 앱의 질문 및 답변 가상 분석가에게 질문하기'
-description: 이 자습서에서는 iOS 장치에 설치된 Power BI 모바일 앱에서 질문 및 답변 가상 분석가를 사용하여 사용자의 고유한 언어로 이 샘플 데이터에 대해 질문합니다.
-author: maggiesMSFT
+description: 이 자습서에서는 iOS 디바이스에 설치된 Power BI 모바일 앱에서 질문 및 답변 가상 분석가를 사용하여 사용자의 고유한 언어로 이 샘플 데이터에 대해 질문합니다.
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
-ms.author: maggies
-ms.openlocfilehash: 9fd0d06b186d84412ec36749270d261ddd01fb2f
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.author: mshenhav
+ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157152"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282935"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>자습서: Power BI iOS 앱의 질문 및 답변 가상 분석가를 통해 데이터에 대해 질문하기
 
@@ -105,7 +105,7 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 
      질문 및 답변 가상 분석가에서 정보 2를 표시합니다.
 
-    ![정보 2](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
+    ![인사이트 2](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
 5. 차트를 탭하여 포커스 모드에서 엽니다.
 
     ![포커스 모드의 정보 2 차트](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
@@ -125,7 +125,7 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 
 4. **보고서** 탭을 선택하고 기회 분석 보고서에 대해 동일한 작업을 수행합니다.
 
-5. **데이터 집합** 탭을 선택하고 기회 분석 데이터 집합에 대해 동일한 작업을 수행합니다.
+5. **데이터 세트** 탭을 선택하고 기회 분석 데이터 세트에 대해 동일한 작업을 수행합니다.
 
 
 ## <a name="next-steps"></a>다음 단계

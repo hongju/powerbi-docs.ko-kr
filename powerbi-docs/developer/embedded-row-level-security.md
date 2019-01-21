@@ -4,17 +4,17 @@ description: 애플리케이션 내에서 Power BI 콘텐츠를 포함하는 데
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.openlocfilehash: 901c087c486598019e905598ee83382664842cc8
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578776"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284176"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI Embedded 콘텐츠에서 행 수준 보안 사용
 
@@ -28,7 +28,7 @@ ms.locfileid: "52578776"
 
 RLS를 활용하려면 세 가지 주요 개념인 사용자, 역할 및 규칙을 이해해야 합니다. 각각에 대해 좀 더 자세히 살펴보겠습니다.
 
-**사용자** – 아티팩트(대시보드, 타일, 보고서 또는 데이터 집합)를 보는 최종 사용자입니다. 사용자는 Power BI Embedded에서 포함 토큰에 있는 사용자 이름 속성에 의해 식별됩니다.
+**사용자** – 아티팩트(대시보드, 타일, 보고서 또는 데이터 세트)를 보는 최종 사용자입니다. 사용자는 Power BI Embedded에서 포함된 토큰에 있는 사용자 이름 속성에 의해 식별됩니다.
 
 **역할** - 사용자 역할에 속합니다. 역할은 규칙에 대한 컨테이너로써 *판매 관리자* 또는 *영업 담당자*와 같은 이름을 지정할 수 있습니다. Power BI Desktop 내에서 역할을 만듭니다. 자세한 내용은 [Power BI Desktop에서 RLS(행 수준 보안)](../desktop-rls.md)을 참조하세요.
 
@@ -48,13 +48,13 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 이 스키마에서 기억해야 할 몇 가지 사항은 다음과 같습입니다.
 
 * **총 판매액**과 같은 모든 측정값 **영업** 팩트 테이블에 저장됩니다.
-* 관련 추가 차원 테이블에는 **항목**, **시간**, **저장소** 및 **구역**이라는 네 가지 항목이 있습니다.
+* 관련 추가 차원 테이블에는 **항목**, **시간**, **스토리지** 및 **구역**이라는 네 가지 항목이 있습니다.
 * 관계선의 화살표는 필터가 테이블 간에 이동할 수 있는 방식을 나타냅니다. 예를 들어, 필터가 **시간[날짜]** 에 배치되면 현재 스키마에서는 **영업** 테이블에 있는 값만을 필터링합니다. 관계선에 있는 모든 화살표가 다른 방향이 아닌 판매 테이블을 가리키기 때문에 다른 테이블은 이 필터의 영향을 받지 않습니다.
 * **구역** 테이블은 각 지역에 있는 관리자를 나타냅니다.
   
     ![구역 테이블 내의 행](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
-이 스키마에 따라 **구역** 테이블의 **구역 관리자** 열에 필터를 적용하는 경우 및 해당 필터가 보고서를 보는 사용자와 일치하는 경우 해당 필터는 **저장소** 및 **영업** 테이블을 필터링하여 해당 지역 관리자에게만 데이터를 표시합니다.
+이 스키마에 따라 **구역** 테이블의 **구역 관리자** 열에 필터를 적용하는 경우 및 해당 필터가 보고서를 보는 사용자와 일치하는 경우 해당 필터는 **스토리지** 및 **영업** 테이블을 필터링하여 해당 지역 관리자에게 데이터를 표시합니다.
 
 방법은 다음과 같습니다.
 
@@ -75,11 +75,11 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 
 필터링을 적용하면 여기에서 수행한 방식으로 **구역**, **저장소** 및 **영업** 테이블에서 모든 레코드를 필터링합니다. 그러나 **영업**과 **시간** 간 관계의 필터 방향으로 인해 **영업**과 **항목** 및 **항목**과 **시간** 테이블이 필터링되지 않습니다. 양방향 교차 필터링에 대한 자세한 내용은 [SQL Server Analysis Services 2016 및 Power BI Desktop에서 양방향 교차 필터링](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) 백서를 다운로드합니다.
 
-## <a name="applying-user-and-role-to-an-embed-token"></a>포함 토큰에 사용자 및 역할 적용
+## <a name="applying-user-and-role-to-an-embed-token"></a>포함된 토큰에 사용자 및 역할 적용
 
 이제 Power BI Desktop 역할을 구성했으므로 역할을 활용하기 위해 애플리케이션에 필요한 몇 가지 작업이 있습니다.
 
-사용자가 애플리케이션에 의해 인증되고, 권한을 부여 받고, 포함 토큰을 사용하여 특정 Power BI Embedded 보고서에 대한 사용자 액세스 권한을 부여합니다. Power BI Embedded에는 사용자에 대한 특정 정보가 없습니다. RLS가 작동하려면 ID 양식에서 포함 토큰의 일부로 몇 가지 추가 컨텍스트를 통과해야 합니다. [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API를 사용하여 ID를 전달할 수 있습니다.
+사용자가 애플리케이션에 의해 인증되고 권한을 부여 받고 포함된 토큰을 사용하여 특정 Power BI Embedded 보고서에 대한 사용자 액세스 권한을 부여합니다. Power BI Embedded에는 사용자에 대한 특정 정보가 없습니다. RLS가 작동하려면 ID 양식에서 포함 토큰의 일부로 몇 가지 추가 컨텍스트를 통과해야 합니다. [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API를 사용하여 ID를 전달할 수 있습니다.
 
 API는 관련 데이터 세트가 표시된 ID 목록을 수락합니다. RLS를 실행하려면 ID의 일부로 다음 내용을 전달해야 합니다.
 
@@ -87,7 +87,7 @@ API는 관련 데이터 세트가 표시된 ID 목록을 수락합니다. RLS를
 * **역할(필수)** – 행 수준 보안 규칙을 적용할 때 선택하는 역할을 포함하는 문자열입니다. 둘 이상의 역할을 전달하는 경우 문자열 배열로 전달되어야 합니다.
 * **데이터 세트(필수)** - 포함하는 아티팩트에 적용할 수 있는 데이터 집합입니다.
 
-**PowerBIClient.Reports**에서 **GenerateTokenInGroup** 메서드를 사용하여 포함 토큰을 만들 수 있습니다.
+**PowerBIClient.Reports**에서 **GenerateTokenInGroup** 메서드를 사용하여 포함된 토큰을 만들 수 있습니다.
 
 예를 들어 [PowerBIEmbedded_AppOwnsData](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) 샘플을 변경할 수 있습니다. *Home\HomeController.cs 줄 76 및 77*은 다음에서 업데이트할 수 없습니다.
 
@@ -141,7 +141,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 ### <a name="using-the-customdata-feature"></a>CustomData 기능 사용
 
-CustomData 기능은 **Azure Analysis Services**에 상주하는 모델에 대해서만 작동하고 **라이브 연결** 모드에서만 작동합니다. 사용자 및 역할과 달리, CustomData 기능은 .pbix 파일 내에 설정할 수 없습니다. CustomData 기능을 사용하여 토큰을 생성할 때 사용자 이름이 필요합니다.
+CustomData 기능은 **Azure Analysis Services**에 보존하는 모델에 대해서만 작동하고 **라이브 연결** 모드에서만 작동합니다. 사용자 및 역할과 달리 .pbix 파일 내에 사용자 지정 데이터 기능을 설정할 수 없습니다. 사용자 지정 데이터 기능을 사용하여 토큰을 생성할 때 사용자 이름이 필요합니다.
 
 CustomData 기능을 사용하면 **Azure Analysis Services**를 데이터 원본으로 사용하여 애플리케이션에서 Power BI 데이터를 볼 때(애플리케이션의 Azure Analysis Services에 연결된 Power BI 데이터 보기) 행 필터를 추가할 수 있습니다.
 
@@ -213,18 +213,18 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 
     ![PBI 보고서 샘플](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
-7. Power BI API를 통해 애플리케이션에서 CustomData 기능을 사용합니다.  CustomData 기능을 사용하여 토큰을 생성할 때 사용자 이름이 필요합니다. 사용자 이름은 마스터 사용자의 UPN과 같아야 합니다. 마스터 사용자는 생성한 역할의 구성원이어야 합니다. 역할을 지정하지 않으면 마스터 사용자가 구성원인 모든 역할이 RLS 평가에 사용됩니다.
+7. Power BI API를 통해 애플리케이션에서 CustomData 기능을 사용합니다.  사용자 지정 데이터 기능을 사용하여 토큰을 생성할 때 사용자 이름이 필요합니다. 사용자 이름은 마스터 사용자의 UPN과 같아야 합니다. 마스터 사용자는 생성한 역할의 구성원이어야 합니다. 역할을 지정하지 않으면 마스터 사용자가 구성원인 모든 역할이 RLS 평가에 사용됩니다.
 
     > [!Note]
     > 애플리케이션을 프로덕션에 배포할 준비가 되면 마스터 사용자 계정 필드 또는 옵션이 최종 사용자에게 표시되지 않아야 합니다.
 
     CustomData 기능을 추가하기 위한 [코드](#customdata-sdk-additions)를 봅니다.
 
-8. 이제 보고서에 포함된 모든 데이터를 보기 위해 Customdata 값을 적용하기 전에, 애플리케이션에서 보고서를 볼 수 있습니다.
+8. 이제 보고서에 포함된 모든 데이터를 보기 위해 사용자 지정 데이터 값을 적용하기 전에, 애플리케이션에서 보고서를 볼 수 있습니다.
 
     ![사용자 지정 데이터가 적용되기 전](media/embedded-row-level-security/customdata-before.png)
 
-    그런 다음, Customdata 값을 적용하여 보고서가 다른 데이터 세트를 표시하는 방법을 확인할 수 있습니다.
+    그런 다음, 사용자 지정 데이터 값을 적용하여 보고서가 다른 데이터 세트를 표시하는 방법을 확인할 수 있습니다.
     ![CustomData가 적용된 후](media/embedded-row-level-security/customdata-after.png)
 
 ## <a name="using-rls-vs-javascript-filters"></a>RLS 대 JavaScript 필터 사용
@@ -239,6 +239,75 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 
 [JavaScript 필터](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters)는 사용자가 축소되고 범위가 지정되고 필터링된 데이터 보기를 사용하도록 허용하기 위해 사용됩니다. 그러나 사용자는 여전히 모델 스키마 테이블, 열 및 측정값에 대한 액세스 권한을 가지고 있으며 데이터에도 액세스할 수 있습니다. 데이터에 대한 제한된 액세스는 클라이언트 측 필터링 API를 통해서가 아니라 RLS로만 적용할 수 있습니다.
 
+## <a name="token-based-identity-with-azure-sql-database-preview"></a>Azure SQL Database를 사용한 토큰 기반 ID(미리 보기)
+
+**토큰 기반 ID**를 사용하면 **Azure SQL Database**에 **AAD(Azure Active Directory)** 액세스 토큰을 사용하여 포함 토큰에 유효한 ID를 지정할 수 있습니다.
+
+데이터를 **Azure SQL Database**에 저장하는 고객은 이제 **Power BI Embedded**와 통합될 때 Azure SQL에서 사용자 및 데이터 액세스 권한을 관리하는 새로운 기능을 사용할 수 있습니다.
+
+포함 토큰을 생성하는 경우 Azure SQL에서 사용자의 유효 ID를 지정할 수 있습니다. 서버에 AAD 액세스 토큰을 전달하여 사용자의 유효 ID를 지정할 수 있습니다. 액세스 토큰은 해당 특정 세션을 위해 Azure SQL에서 해당 사용자의 관련 데이터를 끌어오는 데만 사용됩니다.
+
+Azure SQL에서 각 사용자의 보기를 관리하거나 다중 테넌트 DB의 특정 고객으로 Azure SQL에 로그인하는 데 사용할 수 있습니다. Azure SQL에서 해당 세션에서 행 수준 보안을 적용하고 해당 세션의 관련 데이터만 검색하여 Power BI에서 RLS를 관리할 필요성을 제거하는 데 사용할 수도 있습니다.
+
+이러한 유효 ID 문제는 Azure SQL Server의 RLS 규칙에 직접 적용됩니다. Power BI Embedded는 Azure SQL Server에서 데이터를 쿼리할 때 제공된 액세스 토큰을 사용합니다. 액세스 토큰이 제공된 사용자의 UPN은 USER_NAME() SQL 함수의 결과로 액세스할 수 있습니다.
+
+토큰 기반 ID는 AAD 인증을 허용하도록 구성된 Azure SQL Database에 연결된 전용 용량의 DirectQuery 모델에서만 작동합니다([Azure SQL Database의 AAD 인증에 대한 자세한 정보](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)). 데이터 세트의 데이터 원본은 토큰 기반 ID를 사용하기 위해 최종 사용자의 OAuth2 자격 증명을 사용하도록 구성해야 합니다.
+
+   ![Azure SQL Server 구성](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
+
+### <a name="token-based-identity-sdk-additions"></a>토큰 기반 ID SDK 추가
+
+ID Blob 속성은 토큰 생성 시나리오에서 유효 ID에 추가되었습니다.
+
+```JSON
+[JsonProperty(PropertyName = "identityBlob")]
+public IdentityBlob IdentityBlob { get; set; }
+```
+
+IdentityBlob 형식은 값 문자열 속성을 포함하는 간단한 JSON 구조체임
+
+```JSON
+[JsonProperty(PropertyName = "value")]
+public string value { get; set; }
+```
+
+EffectiveIdentity는 다음 호출을 사용하여 ID Blob을 통해 만들 수 있습니다.
+
+```C#
+public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null, IdentityBlob identityBlob = null);
+```
+
+다음 호출을 사용하여 ID Blob을 만들 수 있습니다.
+
+```C#
+public IdentityBlob(string value);
+```
+
+### <a name="token-based-identity-rest-api-usage"></a>토큰 기반 ID REST API 사용
+
+[REST API](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetoken#definitions)를 호출하는 경우 각 ID 내에 ID Blob을 추가할 수 있습니다.
+
+```JSON
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "datasets": ["fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc"],
+        “identityBlob”: {
+            “value”: “eyJ0eXAiOiJKV1QiLCJh….”
+         }
+        }
+    ]
+}
+```
+
+ID Blob에 제공된 값은 Azure SQL Server에 유효한 액세스 토큰이어야 합니다(<https://database.windows.net/>의 리소스 URL 포함).
+
+   > [!Note]
+   > Azure SQL의 액세스 토큰을 만들 수 있으려면 애플리케이션에는 Azure Portal의 AAD 앱 등록 구성에서 **Azure SQL Database** API에 대한 **Access Azure SQL DB 및 Data Warehouse** 위임 권한이 있어야 합니다.
+
+   ![앱 등록](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
 * Power BI 서비스 내에서 역할에 사용자를 할당하면 포함 토큰을 사용할 때 RLS에 영향을 주지 않습니다.
@@ -249,4 +318,10 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 * 기본 데이터 세트가 클라우드 모델(캐시된 모델 또는 DirectQuery)이면 유효 ID는 하나 이상의 역할을 포함해야 합니다. 그러지 않으면 역할 할당이 이루어지지 않습니다.
 * ID 목록은 대시보드 포함을 위한 여러 ID 토큰을 구현합니다. 다른 모든 아티팩트는 목록에 단일 ID가 포함됩니다.
 
-궁금한 점이 더 있으신가요? [Power BI 커뮤니티에 질문해 주세요.](https://community.powerbi.com/)
+### <a name="token-based-identity-limitations-preview"></a>토큰 기반 ID 제한 사항(미리 보기)
+
+* 이 기능은 Power BI Premium에서만 제한됩니다.
+* 이 기능은 SQL Server 온-프레미스에서 작동하지 않습니다.
+* 이 기능은 Multi-Geo에서 작동하지 않습니다.
+
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

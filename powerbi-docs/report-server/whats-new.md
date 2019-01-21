@@ -6,15 +6,15 @@ ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: a365cab0420fdf373d62f5b1774a4d86985adfe3
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101258"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292456"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -113,7 +113,7 @@ Kerberos에서 SAP HANA SSO 직접 쿼리 지원은 Power BI 보고서에 대해
 - [시각적 개체에 대한 도구 설명 해제](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#tooltips)
 - [슬라이서 내게 필요한 옵션](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#slicerAccessibility)
 - [서식 지정 창 향상된 기능](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#formattingPane)
-- [선 및 콤보 차트에 대한 단계별 선 지원](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#steppedLine)
+- [꺾은선형 및 콤보 차트에 대한 단계별 선 지원](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#steppedLine)
 - [정렬 환경 향상된 기능](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#sorting)
 - [Power BI Desktop에서 PDF로 내보내기를 통해 보고서 인쇄](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#print)
 - [책갈피 그룹 만들기](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#bookmarks)
@@ -216,7 +216,7 @@ reader에게 보고서에 대한 액세스 권한을 부여하려고 하지만 �
 - [다른 시각적 개체의 필터 드릴](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 - [여러 행 카드에 대한 다차원 AS 모델의 셀 수준 서식 지정](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
 
-### <a name="performance"></a>연결
+### <a name="performance"></a>성능
 
 - [필터링 성능 개선](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
 - [DirectQuery 성능 개선](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
@@ -227,7 +227,7 @@ reader에게 보고서에 대한 액세스 권한을 부여하려고 하지만 �
 
 #### <a name="export-to-accessible-pdf"></a>액세스할 수 있는 PDF로 내보내기
 
-이제 페이지 매긴 보고서(RDL)를 PDF로 내보내면 액세스할 수 있는/태그가 지정된 PDF 파일을 가져올 수 있습니다. 크기가 크지만 화면 판독기 및 기타 보조 기술에서 쉽게 읽고 탐색할 수 있습니다. **AccessiblePDF** 장치 정보 설정을 **True**로 설정하여 액세스할 수 있는 PDF를 활성화합니다. [PDF 장치 정보 설정](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings) 및 [장치 정보 설정 변경](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)을 참조하세요.
+이제 페이지 매긴 보고서(RDL)를 PDF로 내보내면 액세스할 수 있는/태그가 지정된 PDF 파일을 가져올 수 있습니다. 크기가 크지만 화면 판독기 및 기타 보조 기술에서 쉽게 읽고 탐색할 수 있습니다. **AccessiblePDF** 디바이스 정보 설정을 **True**로 설정하여 액세스할 수 있는 PDF를 활성화합니다. [PDF 디바이스 정보 설정](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings) 및 [디바이스 정보 설정 변경](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)을 참조하세요.
 
 ### <a name="other-improvements"></a>기타 개선 기능
 
@@ -269,7 +269,7 @@ OData 피드로 Power BI Desktop에서 공유 데이터 세트에 액세스할 �
 * EnableCustomVisuals: True/False
 * EnablePowerBIReportEmbeddedModels: True/False
 * EnablePowerBIReportExportData: True/False
-* MaxFileSizeMb: 이제 기본값은 1000입니다.
+* MaxFileSizeMb: 기본값은 1000
 * ModelCleanupCycleMinutes: 메모리에서 모델을 제거하기 위해 확인하는 주기
 * ModelExpirationMinutes: 마지막으로 사용된 시간에 따라 모델 만료 및 모델 제거까지 남은 시간
 * ScheduleRefreshTimeoutMinutes: 모델에 대해 적용할 수 있는 데이터 새로 고침 기간 기본적으로 2시간입니다.  하드 상한 제한은 없습니다.

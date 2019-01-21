@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900454"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283532"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>페이지를 매긴 보고서의 보고서 디자인 뷰 살펴보기(미리 보기)
 

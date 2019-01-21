@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 78cfcd51a951095353ce5d0f25c4511cc720c632
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: f527fa17ab242f6835ca99a3ff3ef3e2525a001f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578224"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277138"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Power BI Desktop이 시작되지 않는 문제 해결
 **Power BI Desktop**에서 이전 버전의 **Power BI 온-프레미스 데이터 게이트웨이**를 설치하고 실행하는 사용자는 Power BI 온-프레미스 게이트웨이가 로컬 컴퓨터의 명명된 파이프에 배치되는 관리 정책 제한으로 인해 Power BI Desktop을 시작할 수 없게 됩니다. 

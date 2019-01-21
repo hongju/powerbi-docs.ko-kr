@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 717db64d30a12d41dc293db11f6f942e4615a1db
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 58c5063796a575498ab1c402f0be6aa2492e9060
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717588"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289236"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI의 영업 및 마케팅 샘플: 둘러보기
 
@@ -24,7 +24,7 @@ ms.locfileid: "51717588"
 
 VanArsdel에는 많은 경쟁사가 있으나 업계 선두업체입니다. CMO는 시장 점유율을 높이고 성장 기회를 모색하고자 합니다. 하지만 어떤 이유로 VanArsdel의 시장 점유율이 떨어지기 시작했고 6월에 큰폭으로 하락했습니다.
 
-이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여 주는 시리즈의 일부입니다. 이러한 데이터는 obviEnce(www.obvience.com)에서 제공하는 실제 데이터로, 익명으로 처리되었습니다.
+이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여 주는 시리즈의 일부입니다. 이러한 데이터는 익명화된 obviEnce(www.obvience.com)의 실제 데이터입니다.
 
 ![](media/sample-sales-and-marketing/sales1.png)
 
@@ -56,13 +56,13 @@ VanArsdel에는 많은 경쟁사가 있으나 업계 선두업체입니다. CMO�
  * [영업 및 마케팅 샘플](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
-[이 샘플에 대한 데이터 집합(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529785)할 수도 있습니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 **파워 피벗 > 관리**를 선택합니다.
+[이 샘플에 대한 데이터 세트(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529785)할 수도 있습니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 **파워 피벗 > 관리**를 선택합니다.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>대시보드가 시사하는 점은 무엇입니까?
 대시보드를 둘러보고 CMO가 고정하도록 선택한 타일을 살펴보겠습니다. 시장 점유율, 판매 및 인지에 대한 정보를 확인합니다. 또한 지역, 시간, 경쟁에 따라 분석한 데이터를 살펴봅니다.
 
 * 왼쪽 열의 세로에 있는 번호 타일은 지난 해 업계 판매량(50K), 시장 점유율(32.86%), 판매량(16K), 인지 점수(68), 인지 차이(4), 총 판매 단위(1M)를 나타냅니다.
-* 맨 위의 꺽은선형 차트는 시간 경과에 따른 시장 점유율 변동을 보여줍니다. 시장 점유율은 6월에 큰폭으로 하락했습니다. 또한 한동안 증가했던 R12M(12개월 롤링) 점유율도 정체 상태입니다.
+* 맨 위의 꺾은선형 차트는 시간 경과에 따른 시장 점유율 변동을 보여줍니다. 시장 점유율은 6월에 큰폭으로 하락했습니다. 또한 한동안 증가했던 R12M(12개월 롤링) 점유율도 정체 상태입니다.
 * 가운데 세로 막대형 차트 타일 자료에서 드러나듯 최대 경쟁사는 Aliqui입니다.
 * 대부분의 비즈니스는 동부 및 중부에서 이루어집니다.
 * 아래쪽의 꺾은선형 차트는 6월 하락이 비수기에 따른 것이 아님을 보여줍니다. 어떤 경쟁사도 이런 추세를 보이지 않았습니다.
@@ -103,7 +103,7 @@ VanArsdel에는 많은 경쟁사가 있으나 업계 선두업체입니다. CMO�
    d.  부문을 선택하여 해당 섹션을 확장하고 **생산성**을 선택하여 해당 부문도 추가함으로써 필터를 수정합니다.  
 3. "월별 총 단위 및 isVanArsdel"에서 범례의 검은색 "예"를 선택하여 VanArsdel로 페이지를 교차 필터링합니다. 생산성 부문에서는 경쟁이 없습니다.
 4. 검은색 "예"를 다시 선택하여 필터를 제거합니다.
-5. 꺽은선형 차트를 살펴봅니다. 월별 시장 점유율과 12개월 롤링 시장 점유율이 표시됩니다. 12개월 롤링 데이터는 월별 변동을 평준화하여 장기적 추세를 파악하는 데 도움이 됩니다. 가로 막대형 차트의 편의 및 중재를 차례로 선택하여 각 부문의 시장 점유율이 어떻게 변화했는지 확인합니다. 중재 부문은 편의 부문보다 시장 점유율 변동이 큽니다.
+5. 꺾은선형 차트를 살펴봅니다. 월별 시장 점유율과 12개월 롤링 시장 점유율이 표시됩니다. 12개월 롤링 데이터는 월별 변동을 평준화하여 장기적 추세를 파악하는 데 도움이 됩니다. 가로 막대형 차트의 편의 및 중재를 차례로 선택하여 각 부문의 시장 점유율이 어떻게 변화했는지 확인합니다. 중재 부문은 편의 부문보다 시장 점유율 변동이 큽니다.
 
 6월에 시장 점유율이 대폭 하락한 원인을 아직 찾고 있습니다. 인지를 확인해 보겠습니다.
 

@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/28/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e364d2ceac3d1a30b0742ceac2bd56e2bc66d9ba
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: ace392570dbabc65d128941fc735231622f2c008
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973238"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285326"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>필터 및 Power BI 보고서에서 강조 표시 정보
  이 아티클에서는 Power BI 서비스의 필터링 및 강조 표시를 소개합니다. 환경은 Power BI Desktop과 거의 동일합니다. ***필터***는 사용자가 집중하려는 데이터를 제외한 나머지를 모두 제거합니다. ***‘강조 표시’*** 는 필터링되지 않습니다. 데이터를 제거하지 않지만 표시되는 데이터의 하위 집합을 강조 표시합니다. 강조 표시되지 않은 데이터는 볼 수 있지만 흐리게 표시됩니다.
@@ -48,7 +48,7 @@ ms.locfileid: "50973238"
 필터 옆에 **모두**라는 단어가 있는 경우 이는 필드의 모든 값이 필터에 포함된다는 것을 의미합니다.  예를 들어 아래 스크린샷의 **체인(전체)** 은 이 보고서 페이지가 모든 상점 체인에 대한 데이터를 포함한다는 것을 의미합니다.  반면 **FiscalYear는 2013 또는 2014입니다**의 보고서 수준 필터는 보고서가 2013 및 2014년의 회계 연도에 대한 데이터만을 포함한다는 것을 알려 줍니다.
 
 ## <a name="filters-in-reading-or-editing-view"></a>읽기용 또는 편집용 보기의 필터
-보고서는 [읽기용 보기](consumer/end-user-reading-view.md) 및 편집용 보기의 두 가지 모드로 조작할 수 있습니다. 사용할 수 있는 필터링 기능은 현재 모드에 따라 달라집니다.
+보고서는 다음 두 가지 모드로 조작할 수 있습니다. [읽기용 보기](consumer/end-user-reading-view.md) 및 편집용 보기. 사용할 수 있는 필터링 기능은 현재 모드에 따라 달라집니다.
 
 * 편집용 보기에서는 보고서, 페이지, 드릴스루 및 시각적 개체 필터를 추가할 수 있습니다. 보고서를 저장하는 경우 모바일 앱에서 여는 경우에도 필터를 보고서와 함께 저장합니다. 읽기용 보기에서 보고서를 보는 사람들은 사용자가 추가한 필터를 조작할 수 있지만 새 필터를 추가할 수 없습니다.
 * 읽기용 보기에서 이미 보고서에 존재하는 필터를 조작하고 선택을 저장할 수 있습니다. 새 필터를 추가할 수 없습니다.

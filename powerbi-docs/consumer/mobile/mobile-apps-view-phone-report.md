@@ -1,20 +1,20 @@
 ---
 title: 전화에 대해 최적화된 Power BI 보고서 보기
 description: Power BI 휴대폰 앱에서 보도록 최적화된 보고서 페이지와의 상호 작용에 대해 알아봅니다.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
-ms.author: maggies
-ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 99f40837f4b2c188120c4ca0311be3e9ded5fe95
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547801"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276909"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>전화에 대해 최적화된 Power BI 보고서 보기
 
@@ -70,7 +70,7 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 
 * 시각적 개체에 표시되는 정보를 **드릴다운**합니다. 휴대폰 보고서에서 [드릴업 및 드릴다운](mobile-apps-view-phone-report.md#drill-down-in-a-visual)하는 방법은 아래에서 자세히 알아보세요.
 * 시각적 개체의 값을 **정렬**합니다.
-* **되돌리기**: 시각적 개체에서 수행한 탐색 과정을 지우고 보고서가 만들어졌을 때 설정된 정의로 되돌리기합니다.
+* **되돌리기**: 시각적 개체에서 수행한 탐색 과정을 지우고 보고서가 만들어졌을 때 설정된 정의로 되돌립니다.
   
     시각적 개체에서 모든 탐색을 지우려면 줄임표(**...** ) > **되돌리기**를 누릅니다 .
   

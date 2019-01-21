@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: a5762964b75d73d8dabceac58c47f616753b94cc
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 31a7221d3b284e6342b192384f92616a52e12631
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830187"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280258"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>데이터 세트를 가져와 Power BI 서비스에서 새 보고서 만들기
 지금까지 [Power BI의 보고서](consumer/end-user-reports.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 아주 다양한 방법으로 보고서를 만들 수 있으며 이 문서에서는 Power BI 서비스를 사용하여 Excel 데이터 세트에서 매우 기본적인 보고서를 만드는 것으로 시작하겠습니다. 보고서를 만들기 위한 기본 사항을 이해하고 나면 맨 아래의 **다음 단계**가 더 높은 수준의 보고서 항목으로 안내합니다.  

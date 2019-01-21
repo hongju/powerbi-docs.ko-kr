@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 85f7dd131806cd808c28c23cb70230a0c719e0a1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670204"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285625"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel 통합 문서 파일에서 데이터 가져오기
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -43,7 +43,7 @@ Excel을 사용하여 외부 데이터 원본에 연결할 경우 통합 문서�
 Power BI에서 파워 뷰 시트와 피벗 테이블 및 차트가 어떻게 나타나는지 또는 나타나지 않을지는 통합 문서가 저장된 위치와 Power BI로 가져오기 위해 선택한 방식에 따라 달라집니다. 아래에서 더 자세히 다루겠습니다.
 
 ## <a name="data-types"></a>데이터 형식
-Power BI는 정수, 10진수 숫자, 통화, 날짜, True/False, 텍스트 등의 데이터 형식을 지원합니다. Excel에서 데이터를 특정 데이터 형식으로 표시하면 Power BI 환경이 향상됩니다.
+Power BI는 다음 데이터 형식을 지원합니다. 정수, 10진수 숫자, 통화, 날짜, True/False, 텍스트. Excel에서 데이터를 특정 데이터 형식으로 표시하면 Power BI 환경이 향상됩니다.
 
 ## <a name="prepare-your-workbook-for-power-bi"></a>Power BI에 사용할 통합 문서 준비
 Power BI에 사용할 통합 문서를 준비하는 방법에 대해 자세히 알아보려면 이 유용한 비디오를 보세요.
@@ -51,9 +51,9 @@ Power BI에 사용할 통합 문서를 준비하는 방법에 대해 자세히 �
 <iframe width="500" height="281" src="https://www.youtube.com/embed/l2wy4XgQIu0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="where-your-workbook-file-is-saved-makes-a-difference"></a>통합 문서 파일의 저장 위치는 중요합니다.
-**로컬** - 통합 문서 파일을 사용자 컴퓨터의 로컬 드라이브 또는 조직의 다른 위치에 저장하는 경우 Power BI에서 파일을 Power BI로 로드할 수 있습니다. 파일은 사실 로컬 드라이브에 그대로 남아 있으므로, 전체 파일을 실제로 Power BI로 가져온 것은 아닙니다. 실제로는, 새 데이터 세트가 Power BI에서 만들어지고 통합 문서의 데이터와 데이터 모델(있는 경우) 파일의 데이터가 데이터 세트로 로드되는 것입니다. 통합 문서에 파워 뷰 시트가 있는 경우 해당 시트는 Power BI 사이트의 보고서에 나타납니다. 또한, Excel 2016에는 **게시** 기능(**파일** 메뉴 아래)도 있습니다. **게시**를 사용하면 Power BI에서 **데이터 가져오기 > 파일 > 로컬 파일**을 사용하는 것과 사실상 같지만, 통합 문서를 정기적으로 변경하는 경우에는 Power BI에서 데이터 집합을 업데이트하는 것이 훨씬 더 쉽습니다.
+**로컬** - 통합 문서 파일을 사용자 컴퓨터의 로컬 드라이브 또는 조직의 다른 위치에 저장하는 경우 Power BI에서 파일을 Power BI로 로드할 수 있습니다. 파일은 사실 로컬 드라이브에 그대로 남아 있으므로, 전체 파일을 실제로 Power BI로 가져온 것은 아닙니다. 실제로는, 새 데이터 세트가 Power BI에서 만들어지고 통합 문서의 데이터와 데이터 모델(있는 경우) 파일의 데이터가 데이터 세트로 로드되는 것입니다. 통합 문서에 파워 뷰 시트가 있는 경우 해당 시트는 Power BI 사이트의 보고서에 나타납니다. 또한, Excel 2016에는 **게시** 기능(**파일** 메뉴 아래)도 있습니다. **게시**를 사용하면 Power BI에서 **데이터 가져오기 &gt; 파일 &gt; 로컬 파일**을 사용하는 것과 사실상 같지만, 통합 문서를 정기적으로 변경하는 경우에는 Power BI에서 데이터 세트를 업데이트하는 것이 훨씬 더 쉽습니다.
 
-**OneDrive - 비즈니스** – 비즈니스용 OneDrive가 있고 Power BI에 로그인하는 같은 계정으로 로그인할 경우 Excel의 작업과 Power BI의 데이터 집합, 보고서 그리고 대시보드의 동기화를 유지하는 가장 효율적인 방법입니다. Power BI와 OneDrive가 클라우드에 있으므로 Power BI는 매시간 OneDrive의 통합 문서 파일에 연결합니다. 변경 내용이 발견되면 데이터 세트, 보고서 및 대시보드가 Power BI에서 자동으로 업데이트됩니다. 통합 문서를 로컬 드라이브에 저장한 것과 같이 게시를 사용하여 Power BI에서도 데이터 세트와 보고서를 즉시 업데이트할 수 있습니다. 그렇지 않으면, Power BI는 일반적으로 한 시간 이내에 자동으로 동기화합니다.
+**OneDrive - 비즈니스** – 비즈니스용 OneDrive가 있고 Power BI에 로그인하는 같은 계정으로 로그인할 경우 Excel의 작업과 Power BI의 데이터 세트, 보고서 그리고 대시보드의 동기화를 유지하는 가장 효율적인 방법입니다. Power BI와 OneDrive가 클라우드에 있으므로 Power BI는 매시간 OneDrive의 통합 문서 파일에 연결합니다. 변경 내용이 발견되면 데이터 세트, 보고서 및 대시보드가 Power BI에서 자동으로 업데이트됩니다. 통합 문서를 로컬 드라이브에 저장한 것과 같이 게시를 사용하여 Power BI에서도 데이터 세트와 보고서를 즉시 업데이트할 수 있습니다. 그렇지 않으면, Power BI는 일반적으로 한 시간 이내에 자동으로 동기화합니다.
 
 **OneDrive - 개인** – 본인의 OneDrive 계정으로 통합 문서 파일을 저장할 경우 비즈니스용 OneDrive에 제공하는 것과 동일한 많은 혜택을 누릴 수 있습니다. 가장 큰 차이점은 파일에 처음 연결할 때(‘데이터 가져오기’ > ‘파일’ > ‘OneDrive - 개인’ 사용) Microsoft 계정으로 OneDrive에 로그인해야 한다는 점이 가장 큰 차이점이며, 일반적으로 Power BI에 로그인하기 위해 사용하는 것과는 다릅니다. Microsoft 계정으로 OneDrive에 로그인할 경우 로그인 유지 옵션을 선택해야 합니다. 이러한 방식으로 Power BI는 매시간 통합 문서에 연결할 수 있으며 Power BI의 데이터 세트 및 보고서는 동기화를 유지하게 됩니다.
 
@@ -65,7 +65,7 @@ Power BI에 사용할 통합 문서를 준비하는 방법에 대해 자세히 �
 ![](media/service-excel-workbook-files/excel_import_connect.png)
 
 ### <a name="import-excel-data-into-power-bi"></a>Power BI로 Excel 데이터 가져오기
-**가져오기**를 선택할 경우 테이블에서 지원되는 데이터 및/또는 데이터 모델을 Power BI에서 새로운 데이터 집합으로 가져옵니다.  파워 뷰 시트가 있는 경우 Power BI에서 보고서로 다시 생성됩니다.
+**가져오기**를 선택할 경우 테이블에서 지원되는 데이터 및/또는 데이터 모델을 Power BI에서 새로운 데이터 세트로 가져옵니다. 파워 뷰 시트가 있는 경우 Power BI에서 보고서로 다시 생성됩니다.
 
 통합 문서 편집을 계속할 수 있습니다. 변경 내용이 저장되면 일반적으로 한 시간 이내에 Power BI에서 해당 데이터 세트와 동기화됩니다. 더 즉각적인 결과가 필요할 경우 게시를 다시 클릭하면 변경 내용이 즉시 내보내집니다. 보고서에 있는 모든 시각화 및 대시보드도 업데이트됩니다.
 
@@ -119,12 +119,12 @@ Excel 2016에서 **Power BI에 게시** 기능을 사용하면 파일을 가져�
 ## <a name="troubleshooting"></a>문제 해결
 통합 문서 파일이 너무 큰가요? [Power BI에서 보기 위해 Excel 통합 문서 크기 줄이기](reduce-the-size-of-an-excel-workbook.md)를 확인하세요.
 
-현재 가져오기를 선택할 때 Power BI는 명명된 표 또는 데이터 모델에 포함된 데이터만 가져옵니다. 결과적으로 통합 문서에 명명된 테이블, 파워 뷰 시트 또는 Excel 데이터 모델이 포함되지 않은 경우 다음 오류가 표시될 수 있습니다. **"Excel 통합 문서에서 데이터를 찾을 수 없습니다."** [이 문서](service-admin-troubleshoot-excel-workbook-data.md)에서는 통합 문서를 수정하고 다시 가져오는 방법을 설명합니다.
+현재 가져오기를 선택할 때 Power BI는 명명된 표 또는 데이터 모델에 포함된 데이터만 가져옵니다. 결과적으로 통합 문서에 명명된 테이블, 파워 뷰 시트 또는 Excel 데이터 모델이 포함되지 않은 경우 다음 오류가 표시될 수 있습니다. **“Excel 통합 문서에서 데이터를 찾을 수 없습니다.”**. [이 문서](service-admin-troubleshoot-excel-workbook-data.md)에서는 통합 문서를 수정하고 다시 가져오는 방법을 설명합니다.
 
 ## <a name="next-steps"></a>다음 단계
 **데이터 탐색** - 파일에서 Power BI로 데이터 및 보고서를 가져오면 이제 살펴볼 차례입니다. 새 데이터 세트를 마우스 오른쪽 단추로 클릭한 다음, 탐색을 클릭합니다. 4단계에서 OneDrive의 통합 문서 파일에 연결하는 경우 통합 문서는 보고서에 나타납니다. 클릭하면 마치 Excel Online에서와 같이 Power BI에서 열립니다.
 
-**새로 고침 예약** - Excel 통합 문서 파일이 외부 데이터 원본에 연결하거나 로컬 드라이브에서 가져온 경우 데이터 집합 또는 보고서가 항상 최신 상태로 업데이트되도록 예약된 새로 고침을 설정할 수 있습니다. 대부분의 경우에 예약된 새로 고침을 설정하는 방법은 아주 쉽지만 이 문서에서는 자세히 다루지 않겠습니다. 자세한 내용은 [Power BI에서 데이터 새로 고침](refresh-data.md)을 참조하세요.
+**새로 고침 예약** - Excel 통합 문서 파일이 외부 데이터 원본에 연결하거나 로컬 드라이브에서 가져온 경우 데이터 세트 또는 보고서가 항상 최신 상태로 업데이트되도록 예약된 새로 고침을 설정할 수 있습니다. 대부분의 경우에 예약된 새로 고침을 설정하는 방법은 아주 쉽지만 이 문서에서는 자세히 다루지 않겠습니다. 자세한 내용은 [Power BI에서 데이터 새로 고침](refresh-data.md)을 참조하세요.
 
 [Excel 2016에서 Power BI로 게시](service-publish-from-excel.md)
 

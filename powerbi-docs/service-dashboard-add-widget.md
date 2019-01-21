@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 01af6707cf53f1a5be3f1e7446e967b2306e993b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717926"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287074"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>대시보드에 이미지, 텍스트, 비디오 등 추가
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -28,7 +28,7 @@ ms.locfileid: "51717926"
 1. 맨 위 메뉴 모음에서 **타일 추가** 를 선택합니다. 공간 제약에 따라 더하기 ![더하기 기호](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png) 기호만 표시될 수 있습니다.
    
     ![타일 추가 아이콘](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
-2. **이미지**, **텍스트 상자**, **동영상**, **웹 콘텐츠** 또는 **사용자 지정 스트리밍 데이터** 중 추가할 타일 형식을 선택합니다.
+2. 다음 중 추가할 타일 유형을 선택합니다. **이미지**, **텍스트 상자**, **동영상**, **웹 콘텐츠** 또는 **사용자 지정 스트리밍 데이터**.
    
     ![타일 추가 창](media/service-dashboard-add-widget/power-bi-add-tile.png)
 

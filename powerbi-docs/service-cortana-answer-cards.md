@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e1748c478f9f58b568b901f3a243e64e4658f6a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829898"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54273090"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI 서비스 또는 Power BI Desktop을 사용하여 Cortana에 대한 사용자 지정 답변 페이지 만들기
 Power BI의 전체 기능을 사용하여 Cortana 질문에 답변하도록 특별히 설계된 *Cortana 답변 페이지*(*Cortana 대답 카드*라고도 함)라는 특수한 보고서 페이지를 만듭니다.

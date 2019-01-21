@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: 0ec22bd142f7509935691ff7bfcd38cb51a04fb2
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280113"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285763"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>자습서: Excel 및 OData 피드의 판매 데이터 결합
 
@@ -156,7 +156,7 @@ ms.locfileid: "39280113"
 ![제품 쿼리 적용된 단계](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png) &nbsp;&nbsp; ![주문 쿼리 적용된 단계](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
 
 >[!TIP]
->적용된 단계의 기초는 **M** 언어라고도 하는 **파워 쿼리 언어**로 작성된 수식입니다. 수식을 보고 편집하려면 리본의 [홈] 탭에 있는 **쿼리** 그룹에서 **고급 편집기**를 선택합니다. 
+>적용된 단계의 기초는 **M** 언어라고도 하는 **파워 쿼리 언어**로 작성된 수식입니다. 수식을 보고 편집하려면 리본 메뉴의 [홈] 탭에 있는 **쿼리** 그룹에서 **고급 편집기**를 선택합니다. 
 
 ## <a name="import-the-transformed-queries"></a>변환된 데이터 가져오기
 

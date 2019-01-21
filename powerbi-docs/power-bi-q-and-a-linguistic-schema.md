@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452732"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289926"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Power BI Desktop에서 질문 및 답변 언어 스키마 편집 및 관용구 추가 
 일반적인 구 및 자연어를 사용하여 데이터에 대해 질문하는 것은 강력한 기능입니다. 데이터에서 응답할 때, 즉, Power BI의 질문 및 답변을 통해 수행할 때 훨씬 더 강력합니다. Power BI 질문 및 답변에 질문할 때 정확히 답변하는 것이 최선의 방법입니다. 
@@ -25,7 +25,7 @@ ms.locfileid: "52452732"
 이러한 모든 것은 엔터프라이즈 데이터에서 시작됩니다.  더 나은 데이터 모델일수록 사용자가 좋은 품질의 답변을 더 쉽게 얻을 수 있습니다. 모델을 향상시키는 한 가지 방법은 데이터 세트의 테이블과 열 이름 간의 용어 및 관계를 정의하고 범주화하는 언어 스키마를 추가하는 것입니다. Power BI Desktop은 언어 스키마를 관리하는 곳입니다. 
 
 ## <a name="what-is-a-linguistic-schema"></a>언어 스키마란?
-언어 스키마는 질문 및 답변에서 데이터 집합과 관련된 음성, 동의어 및 관용구를 포함하여 해당 데이터 집합 내의 개체에 대해 인식해야 하는 용어와 관용구를 설명합니다. 데이터 세트를 가져오거나 연결할 때 Power BI는 데이터 세트의 구조에 따라 언어 스키마를 만듭니다. 질문 및 답변에 질문할 때 데이터의 일치 항목과 관계를 찾아 질문의 의도를 파악합니다. 예를 들어 명사, 동사, 형용사, 관용구 및 기타 요소를 찾습니다. 그리고 어떤 열이 동사의 목적어인지와 같은 관계를 찾습니다. 
+언어 스키마는 질문 및 답변에서 데이터 세트와 관련된 음성, 동의어 및 관용구를 포함하여 해당 데이터 세트 내의 개체에 대해 인식해야 하는 용어와 관용구를 설명합니다. 데이터 세트를 가져오거나 연결할 때 Power BI는 데이터 세트의 구조에 따라 언어 스키마를 만듭니다. 질문 및 답변에 질문할 때 데이터의 일치 항목과 관계를 찾아 질문의 의도를 파악합니다. 예를 들어 명사, 동사, 형용사, 관용구 및 기타 요소를 찾습니다. 그리고 어떤 열이 동사의 목적어인지와 같은 관계를 찾습니다. 
 
 품사는 익숙할 것이지만(그렇지 않은 경우 아래 참조), 관용구는 새로운 용어일 수 있습니다.  관용구는 항목 간의 관계(또는 "문구")에 대해 설명하는 방법입니다. 예를 들어 고객과 제품 사이의 관계를 설명하기 위해 "고객이 제품을 구매합니다"라고 말할 수 있습니다. 또는 고객과 연령 사이의 관계를 설명하기 위해 "연령은 고객의 나이를 나타냅니다"라고 말할 수 있습니다. 또는 고객과 전화 번호 사이의 관계를 설명하기 위해 "고객에게 전화 번호가 있습니다"라고 간단히 말할 수 있습니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "52452732"
 
 - 질문 및 답변에는 두 가지 측면이 있습니다.  한 측면은 준비 또는 "모델링"입니다.  다른 한 측면은 질문하고 데이터를 탐색하거나 "소비"하는 것입니다. 일부 회사에서는 데이터 모델러 또는 IT 관리자라고 하는 직원이 데이터 세트를 조합하고, 데이터 모델을 만들고, Power BI에 데이터 세트를 게시할 수 있습니다.  직원의 또 다른 집합은 데이터를 온라인으로 "소비"하는 직원일 수 있습니다.  다른 회사에서는 이러한 역할을 결합할 수 있습니다. 
 
-    이 항목은 데이터 모델러를 위한 것입니다. 이는 가능한 한 최상의 질문 및 답변 결과를 제공하기 위해 데이터 집합을 가져오고 최적화하는 사람들입니다. 
+    이 항목은 데이터 모델러를 위한 것입니다. 이는 가능한 한 최상의 질문 및 답변 결과를 제공하기 위해 데이터 세트를 가져오고 최적화하는 사람들입니다. 
 
 - [.yaml 및 .pbix 파일 샘플](https://go.microsoft.com/fwlink/?linkid=871858)    
 - YAML 파일 편집기 - [Visual Studio Code](https://code.visualstudio.com/) 권장
@@ -49,7 +49,7 @@ ms.locfileid: "52452732"
 Visual Studio Code를 사용하여 언어 스키마 YAML 파일을 편집하는 것이 좋습니다. Visual Studio Code는 YAML 파일에 대한 기본 지원 기능을 갖추고 있으며, 특히 Power BI 언어 스키마 형식의 유효성을 검사하도록 확장할 수 있습니다.
 1. [Visual Studio Code](https://code.visualstudio.com/)를 설치합니다.    
 
-2. 이전에 저장한 언어 스키마 샘플([YAML 파일](https://go.microsoft.com/fwlink/?linkid=871858)(SummerOlympics.lsdl.yaml))을 선택합니다.    
+2. 이전에 저장한 다음 언어 스키마 샘플을 선택합니다. [YAML 파일](https://go.microsoft.com/fwlink/?linkid=871858)(SummerOlympics.lsdl.yaml).    
 4. **Visual Studio Code** 및 **Always use this app to open .yaml files**(항상 이 앱을 사용하여 .yaml 파일을 엽니다)를 선택합니다.
 
     ![How do you want to open this file(이 파일은 어떻게 여시겠습니까?)](media/power-bi-q-and-a-linguistic-schema/power-bi-visual-code.png)
@@ -86,7 +86,7 @@ Power BI Desktop에서 언어 스키마를 처음 내보낼 때 파일의 대부
 ![State: Generated를 보여 주는 YAML](media/power-bi-q-and-a-linguistic-schema/power-bi-generated-state.png)
 
 
-언어 스키마 파일을 Power BI Desktop으로 다시 가져오면 **State: Generated**로 표시된 항목이 무시되므로(나중에 다시 생성됨), 생성된 내용 일부를 변경하려면 해당 **State: Generated** 태그도 제거해야 합니다. 마찬가지로 생성된 내용 일부를 제거하려면 언어 스키마 파일을 가져올 때 다시 생성되지 않도록 **State: Generated** 태그를 **State: Deleted**로 변경해야 합니다.
+언어 스키마 파일을 Power BI Desktop으로 다시 가져오면 **State: Generated**로 표시된 항목이 무시되므로(나중에 다시 생성됨), 생성된 내용 일부를 변경하려면 해당 **State: Generated** 태그도 제거해야 합니다. 마찬가지로 생성된 일부 콘텐츠를 제거하려면 **State: Generated** 태그를 **State: Deleted**로 변경해야 언어 스키마 파일을 가져올 때 해당 콘텐츠가 다시 생성되지 않습니다.
 
 1. Power BI Desktop *관계 보기*에서 데이터 세트를 엽니다. 
 2. **모델링** 탭을 선택하고, **언어 스키마 내보내기**를 선택합니다.

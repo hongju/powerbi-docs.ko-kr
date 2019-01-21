@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ae2d40d5a53a7a84c0f6070a7be1011968d7ed7b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578500"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276977"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>자습서: Power BI Desktop을 사용한 Facebook 분석
 
@@ -187,7 +187,7 @@ ms.locfileid: "52578500"
 2. 파워 쿼리 편집기에서 **Number of comments** 열을 선택하고 다음 중 한 방법으로 데이터 형식을 **정수**로 변경합니다. 
    - **Number of comments** 열 머리글 옆의 **1.2** 아이콘을 선택하고 드롭다운에서 **정수** 선택 또는
    - 열 머리글을 마우스 오른쪽 단추로 클릭하고 **형식 변경 > 정수** 선택 또는
-   - [홈] 탭의 **변환** 그룹에서 **데이터 형식: 정수**를 선택하거나 **변환** 탭의 **열** 그룹을 선택하고 **데이터 형식: 정수** 선택.
+   - **데이터 형식: 정수**를 [홈] 탭의 **변환** 그룹에서 선택하거나 **변환** 탭의 **열** 그룹을 선택하고 **데이터 형식: 정수** 선택.
    
    열 머리글의 아이콘이 정수 데이터 형식을 나타내는 **123**으로 변경됩니다.
    
@@ -234,7 +234,7 @@ ms.locfileid: "52578500"
 
 ![꺾은선형 차트](media/desktop-tutorial-facebook-analytics/moreviz.png)
 
-Power BI Desktop은 다양한 데이터 원본에서 데이터를 가져오고 이 데이터를 풍부한 대화형 방식으로 시각화하기 위해 분석 요구 사항에 맞게 모양을 지정하는 원활한 종단 간 환경을 제공합니다. 보고서가 준비되면 [Power BI 서비스로 업로드](desktop-upload-desktop-files.md)하고 보고서에 따라 대시보드를 만든 후 다른 Power BI 사용자와 공유할 수 있습니다.
+Power BI Desktop은 다양한 종류의 데이터 원본에서 데이터를 가져오고 이 데이터를 대화형 방식으로 풍부하게 시각화하기 위해 분석 요구 사항을 충족하도록 셰이핑하는 완벽한 End-to-End 환경을 제공합니다. 보고서가 준비되면 [Power BI 서비스로 업로드](desktop-upload-desktop-files.md)하고 보고서에 따라 대시보드를 만든 후 다른 Power BI 사용자와 공유할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [다른 Power BI Desktop 자습서 참고](http://go.microsoft.com/fwlink/?LinkID=521937)

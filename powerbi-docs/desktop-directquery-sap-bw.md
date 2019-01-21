@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c47fb847ff5360031f4bfe2974db9c405a4ce5f
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670742"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278081"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 및 SAP BW(Business Warehouse)
 **DirectQuery**를 사용하여 **SAP BW(Business Warehouse)** 데이터 원본에 직접 연결할 수 있습니다. SAP BW의 OLAP/다차원 특성을 고려할 때 관계형 원본(예: SQL Server)과 SAP BW에 대한 DirectQuery 간에는 많은 차이점이 있습니다. 이러한 차이점은 다음과 같이 요약됩니다.
@@ -42,7 +42,7 @@ Power BI에서 DirectQuery를 사용하여 SAP BW에 연결할 때 기본적인 
 ## <a name="additional-visualization-restrictions"></a>추가 시각화 제한 사항
 Power BI에서 DirectQuery를 사용하여 SAP BW에 연결할 때 기본적인 추가 시각화 제한 사항은 다음과 같습니다.
 
-* **열 집계 없음:** 시각적 개체에 대한 열 집계를 변경할 수 없으며, 항상 *요약 안 함*입니다.
+* **열 집계 없음:** 시각적 개체에 대한 열 집계를 변경할 수 없으며, 항상 ‘요약 안 함’입니다.
 * **측정값 필터링 사용 안 함:** SAP BW에서 제공하는 지원을 반영하기 위해 측정값 필터링을 사용할 수 없습니다.
 * **다중 선택 및 포함/제외:** 데이터 요소에서 둘 이상의 열 값을 나타내는 경우 시각적 개체에 대한 데이터 요소를 여러 개 선택하는 기능을 사용할 수 없습니다. 예를 들어 범례에 있는 범주와 함께 국가별 판매를 나타내는 가로 막대형 차트가 제공되면 (미국, 자전거) 및 (프랑스, 옷)에 대한 데이터 요소를 선택할 수 없습니다. 마찬가지로 (미국, 자전거)에 대한 데이터 요소를 선택하여 시각적 개체에서 제외할 수 없습니다. 두 제한 사항은 모두 SAP BW에서 제공하는 지원을 반영하기 위해 적용됩니다.
 

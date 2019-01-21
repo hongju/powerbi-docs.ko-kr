@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e474081a5f094bc04f6fc93b985b8d81efee1a0b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 98c637692b3c31e598a11c3039b60be3dec61348
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728114"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281186"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI에 지원되는 언어 및 국가/지역
 
@@ -116,7 +116,7 @@ Power BI는 컴퓨터의 언어 기본 설정에 따라 언어를 검색합니�
    브라우저를 닫았다가 다시 열어서 변경 사항을 확인해야 합니다.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>Power BI Desktop의 언어 또는 로캘 선택
-Power BI Desktop을 얻는 방법은 두 가지 입니다. 다운로드하거나 Windows 스토어에서 설치할 수 있습니다.
+Power BI Desktop을 얻는 방법은 두 가지입니다. 다운로드하거나 Windows 스토어에서 설치할 수 있습니다.
 
 * [Windows 스토어에서 Power BI Desktop을 설치](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store)하면 모든 언어가 설치되고 Windows 기본 언어에 해당하는 언어가 표시됩니다.
 * [Power BI Desktop을 다운로드](#choose-a-language-when-you-download-power-bi-desktop)할 때 언어를 선택합니다. 

@@ -5,20 +5,20 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1260f2c69a4ab913f7451671ab7821ee250998c0
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 4372f37cf6afc8fe51d6650ddd888bd41d3ea678
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187240"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280128"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>모든 크기의 Power BI 시각적 개체 최적화
-기본적으로 새 보고서를 만들 때 시각적 개체는 ‘반응형’이므로, 화면 크기와 관계없이 최대 데이터양과 인사이트를 표시하도록 동적으로 변경됩니다. 이전 보고서의 경우에도 동적으로 크기를 조정하도록 시각적 개체를 설정할 수 있습니다.
+기본적으로 새 보고서를 만들 때 시각적 개체는 ‘반응형’입니다. 화면 크기와 관계없이 최대 데이터양과 인사이트를 표시하도록 동적으로 변경됩니다. 이전 보고서의 경우에도 동적으로 크기를 조정하도록 시각적 개체를 설정할 수 있습니다.
 
 시각적 개체 크기가 변경되면, Power BI는 데이터 보기의 우선 순위를 지정합니다. 예를 들어 패딩을 제거하고 범례를 시각적으로 맨 위로 자동으로 이동하여 시각적 개체 크기가 작아져도 정보를 계속 제공할 수 있도록 합니다. 응답성은 휴대폰에 있는 Power BI 모바일 앱의 시각적 개체에 특히 유용합니다.
 

@@ -1,30 +1,30 @@
 ---
-title: 'Power BI용 고객 수익성 샘플: 둘러보기'
-description: 'Power BI용 고객 수익성 샘플: 둘러보기'
+title: Power BI용 고객 수익성 샘플 둘러보기
+description: Power BI용 고객 수익성 샘플 둘러보기
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a47a63311dd28f2f1f313bc0a5cfcd68cdb0401b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3dd4f5f0404737685757400202d3a92767e44189
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717979"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280841"
 ---
-# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI용 고객 수익성 샘플: 둘러보기
+# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI용 고객 수익성 샘플 둘러보기
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>고객 수익성 샘플 개요
 “고객 수익성 샘플” 콘텐츠 팩은 마케팅 자료를 제조하는 회사에 대한 대시보드, 보고서 및 데이터 세트를 포함합니다. 이 대시보드는 5개 비즈니스 단위 관리자(즉, 임원), 제품, 고객 및 총수익(GM)에 대한 주요 메트릭을 확인하기 위해 CFO에 의해 만들어졌습니다. 수익성에 영향을 주는 요인을 한 눈에 볼 수 있습니다.
 
 ![Power BI 대시보드](media/sample-customer-profitability/power-bi-dash.png)
 
-이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여 주는 시리즈의 일부입니다. 이 샘플은 익명화된 obviEnce([www.obvience.com](http://www.obvience.com/))의 실제 데이터입니다. 데이터는 콘텐츠 팩/앱, Excel 통합 문서 또는 .pbix Power BI Desktop 파일 등 여러 형식으로 사용할 수 있습니다. [샘플 데이터 집합](sample-datasets.md)을 참조하세요.
+이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여 주는 시리즈의 일부입니다. 이 샘플은 익명화된 obviEnce([www.obvience.com](http://www.obvience.com/))의 실제 데이터입니다. 데이터는 콘텐츠 팩/앱, Excel 통합 문서 또는 .pbix Power BI Desktop 파일 등 여러 형식으로 사용할 수 있습니다. [샘플 데이터 세트](sample-datasets.md)를 참조하세요.
 
 ## <a name="prerequisites"></a>필수 조건
 함께 진행해볼까요? 자습서에서는 Power BI 서비스 및 “고객 수익성” 샘플 콘텐츠 팩을 사용합니다.  보고서 환경은 비슷하므로 Power BI Desktop과 샘플 PBIX 파일을 사용하여 따라 할 수도 있습니다. 콘텐츠 팩 및 PBIX 파일에 연결하기 위한 지침은 다음과 같습니다.
@@ -193,7 +193,7 @@ ms.locfileid: "51717979"
 
 이제 재생하는 데 안전한 환경입니다. 언제든지 변경 내용을 저장하지 않도록 선택할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기** 로 이동할 수 있습니다.
 
-[이 샘플에 대한 데이터 집합(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529781)할 수도 있습니다.
+[이 샘플에 대한 데이터 세트(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529781)할 수도 있습니다.
 
 ## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
 이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 고객 데이터를 파악하는 방법을 확인하는 데 도움이 되었기를 바랍니다. 이제 고유한 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 소스에 연결할 수 있습니다. [Power BI 시작하기](service-get-started.md)에 대해 자세히 알아보세요.

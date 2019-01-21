@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37137172"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285372"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁
 Power BI를 사용하면서 "즉각적인" 도움이 필요한 경우 Power BI 질문에 대한 답변을 받지 못해 실망하거나 어려움을 겪은 적이 있나요? 
@@ -30,7 +30,7 @@ Power BI에 대한 답변이 필요한 전문가는 검색을 자주 사용합�
 Power BI 팀은 Power BI 설명서 및 교육을 지속적으로 업데이트하고 개선하고 있습니다. 웹 세미나, 백서, 단계별 학습, 그리고 모든 최신 기능에 대한 블로그 게시물에 대한 링크 등의 레코딩을 포함하여 다양한 내용을 찾아볼 수 있습니다.
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3 최신 뉴스에 대한 Power BI 블로그 읽기
-Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.com/blog/)에서 모든 새로운 기능을 설명하고 있습니다. Power BI Desktop에서 Power BI 모바일 앱에 이르기까지 모든 새로운 기능에 대해 알아보세요. 정기적으로 새로운 소식을 찾아보세요. 매주 몇 분 간 블로그를 검색해 보세요. 몇 달 전 알게 된 정보가 언제 도움이 될지는 아무도 모릅니다.
+Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.com/blog/)에서 모든 새로운 기능을 설명하고 있습니다. Power BI Desktop에서 Power BI 모바일 앱에 이르기까지 모든 새로운 기능에 대해 알아보세요. 정기적으로 새로운 소식을 찾아보세요. 매주 몇 분간 블로그를 검색해 보세요. 몇 달 전 알게 된 정보가 언제 도움이 될지는 아무도 모릅니다.
 
 ## <a name="4-try-twitter"></a>4 Twitter 사용
 많은 Power BI 고객과 전문가가 Twitter에 가입하고 있습니다. 트윗에 질문하세요. 해시태그 #powerbi 및 #powerbihelp를 추가하여 아는 사람이 트윗을 볼 수 있도록 합니다.

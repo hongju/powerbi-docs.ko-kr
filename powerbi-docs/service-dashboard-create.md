@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
-ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717427"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294273"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>보고서에서 Power BI 대시보드 만들기
 지금까지 [Power BI의 대시보드](service-dashboards.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 보고서에서, 처음부터, 데이터 세트에서 대시보드를 만들거나 기존 대시보드를 복제하는 등 다양한 방법으로 대시보드를 만들 수 있습니다.  
@@ -65,7 +65,7 @@ Power BI 샘플 데이터 세트 중 하나를 가져오고 이를 사용하여 
 1. 같은 작업 영역에서 **보고서** 탭을 선택합니다. 새로 가져온 보고서에는 노란색 별표가 함께 표시됩니다. 열려는 보고서 이름을 선택합니다.
 
     ![보고서 탭](media/service-dashboard-create/power-bi-reports.png)
-2. 보고서는 읽기용 보기로 열립니다. 맨 아래에는 할인 분석과 지출 개요 등의 두 탭이 있습니다. 각 탭은 보고서의 페이지를 나타냅니다.
+2. 보고서는 읽기용 보기로 열립니다. 아래쪽에 다음 두 탭이 있습니다. 할인 분석 및 지출 개요. 각 탭은 보고서의 페이지를 나타냅니다.
     **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
 
     ![읽기용 보기의 보고서](media/service-dashboard-create/power-bi-reading-view.png)

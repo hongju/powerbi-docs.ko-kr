@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d875a5cd3ded8769ab3734601bd81cf0f17d7cea
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 74567016fe98d57b68d972084761ab8e50bf7b23
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578270"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284728"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop의 계산 열 사용
 계산된 열을 사용하면 이미 모델에 있는 표에 새 데이터를 추가할 수 있습니다. 그러나 값을 쿼리하고 데이터 소스에서 새 열로 로드하는 대신 열 값을 정의하는 DAX(Data Analysis Expressions) 수식을 만듭니다. Power BI Desktop에서 보고서 뷰의 새 열 기능을 사용하여 계산된 열이 생성됩니다.
@@ -52,7 +52,7 @@ Jeff는 Geography 표를 마우스 오른쪽 단추로 클릭한 다음 새 열�
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
 ## <a name="learn-more"></a>자세한 정보
-여기서는 계산된 열에 대한 간략한 소개만 제공했습니다. 샘플 파일을 다운로드하고 더 많은 열을 만드는 방법에 대한 단계별 학습을 받을 수 있는 [자습서: Power BI Desktop에서 계산 열 만들기](desktop-tutorial-create-calculated-columns.md) 자습서를 참조해야 합니다. 
+여기서는 계산된 열에 대한 간략한 소개만 제공했습니다. 샘플 파일을 다운로드하여 더 많은 측정값을 만드는 방법에 대한 단계별 학습을 진행할 수 있는 [자습서: Power BI Desktop에서 계산 열 만들기](desktop-tutorial-create-calculated-columns.md) 자습서를 참조해야 합니다. 
 
 DAX에 대한 자세한 내용은 [Power BI Desktop의 DAX 기본 사항](desktop-quickstart-learn-dax-basics.md)을 참조하세요.
 

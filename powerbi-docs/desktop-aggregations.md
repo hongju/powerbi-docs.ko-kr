@@ -5,21 +5,21 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: cd9a68d10e0da0aaa883dae1a3979eff6a6b4ce6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619727"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290731"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop의 집계(미리 보기)
 
-Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데이터에 대한 대화형 분석을 수행할 수 있습니다. **집계**는 의사 결정에서 큰 데이터 집합의 잠금을 해제하는 비용을 크게 줄일 수 있습니다.
+Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데이터에 대한 대화형 분석을 수행할 수 있습니다. **집계**는 의사 결정에서 대규모 데이터 세트의 잠금을 해제하는 비용을 크게 줄일 수 있습니다.
 
 ![Microsoft Power BI Desktop의 집계](media/desktop-aggregations/aggregations_07.jpg)
 
@@ -62,7 +62,7 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 * 지리
 * 고객
 * 날짜
-* Product Subcategory(제품 하위 범주)
+* 제품 하위 범주
 * Product Category(제품 범주)
 
 다음 이미지에서는 이 모델을 보여 줍니다.
@@ -70,7 +70,7 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 ![모델의 집계 테이블](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> **Sales Agg** 테이블은 또 다른 테이블일 뿐이므로 다양한 방법으로 로드할 수 있는 유연성을 제공합니다. 예를 들어 집계는 ETL/ELT 프로세스를 사용하거나 테이블에 대한 [M 식](https://msdn.microsoft.com/query-bi/m/power-query-m-reference)을 통해 원본 데이터베이스에서 수행할 수 있습니다. [Power BI Premium에서 증분 새로 고침](service-premium-incremental-refresh.md)을 사용하는지 여부에 관계없이 [가져오기] 저장소 모드를 사용하거나, [columnstore 인덱스](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview)를 사용하여 빠르게 쿼리하도록 최적화되는 DirectQuery를 사용할 수 있습니다. 이러한 유연성을 통해 쿼리 로드를 분산시키는 분산된 아키텍처를 가능하게 하여 병목 현상을 방지할 수 있습니다.
+> **Sales Agg** 테이블은 또 다른 테이블일 뿐이므로 다양한 방법으로 로드할 수 있는 유연성을 제공합니다. 예를 들어 집계는 ETL/ELT 프로세스를 사용하거나 테이블에 대한 [M 식](https://msdn.microsoft.com/query-bi/m/power-query-m-reference)을 통해 원본 데이터베이스에서 수행할 수 있습니다. [Power BI Premium에서 증분 새로 고침](service-premium-incremental-refresh.md)을 사용하는지 여부에 관계없이 [가져오기] 스토리지 모드를 사용하거나, [columnstore 인덱스](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview)를 사용하여 빠르게 쿼리하도록 최적화되는 DirectQuery를 사용할 수 있습니다. 이러한 유연성을 통해 쿼리 로드를 분산시키는 분산된 아키텍처를 가능하게 하여 병목 현상을 방지할 수 있습니다.
 
 ### <a name="storage-mode"></a>스토리지 모드 
 여기서 사용하고 있는 예를 사용하여 계속 진행하겠습니다. 쿼리 속도를 높이기 위해 **Sales Agg**의 스토리지 모드를 **가져오기**로 설정했습니다.
@@ -86,7 +86,7 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 * **Sales Agg** 테이블(가져오기)의 메트릭을 집계하고 관련 이중 테이블의 특성별로 그룹화하는 쿼리는 메모리 내 캐시에서 반환할 수 있습니다.
 * **Sales** 테이블(DirectQuery)의 메트릭을 집계하고 관련 이중 테이블의 특성별로 그룹화하는 쿼리는 DirectQuery 모드에서 반환할 수 있습니다. 그룹별 작업이 포함된 쿼리 논리는 원본 데이터베이스로 전달됩니다.
 
-**이중** 저장소 모드에 대한 자세한 내용은 [저장소 모드](desktop-storage-mode.md) 문서를 참조하세요.
+**이중** 스토리지 모드에 대한 자세한 내용은 [스토리지 모드](desktop-storage-mode.md) 문서를 참조하세요.
 
 ### <a name="strong-vs-weak-relationships"></a>강력 관계 대 약한 관계
 관계를 기반으로 하는 집계 적중은 강력한 관계가 필요합니다.
@@ -111,7 +111,7 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 
 ![집계 관리 메뉴 선택](media/desktop-aggregations/aggregations_06.jpg)
 
-**집계 관리** 대화 상자가 표시됩니다. **Sales Agg** 테이블의 각 열에 대한 행을 표시합니다. 여기서는 집계 동작을 지정할 수 있습니다. **Sales** 테이블을 참조하는 Power BI 데이터 집합에 제출된 쿼리는 내부적으로 **Sales Agg** 테이블로 리디렉션됩니다. 데이터 세트의 소비자는 **Sales Agg** 테이블이 있는지조차 인식할 필요가 없습니다.
+**집계 관리** 대화 상자가 표시됩니다. **Sales Agg** 테이블의 각 열에 대한 행을 표시합니다. 여기서는 집계 동작을 지정할 수 있습니다. **Sales** 테이블을 참조하는 Power BI 데이터 세트에 제출된 쿼리는 내부적으로 **Sales Agg** 테이블로 리디렉션됩니다. 데이터 세트의 소비자는 **Sales Agg** 테이블이 있는지조차 인식할 필요가 없습니다.
 
 ![집계 관리 대화 상자](media/desktop-aggregations/aggregations_07.jpg)
 
@@ -127,7 +127,7 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 * 최대
 * 최소
 * 합계
-* 테이블 행 수 계산
+* 테이블 행 개수
 
 #### <a name="validations"></a>유효성 검사
 
@@ -199,7 +199,7 @@ Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있�
 
 ![IoT 테이블](media/desktop-aggregations/aggregations_09.jpg)
 
-이 데이터 세트에서 대화형 분석을 사용하려면 대부분의 특성을 그룹화하지만 경도 및 위도와 같은 높은 카디널리티 특성은 제외하는 집계 테이블을 추가합니다. 이렇게 하면 행 수가 크게 줄어들고 메모리 내 캐시에 쉽게 맞출 수 있을 만큼 작습니다. **Driver Activity Agg**(운전 기사 활동 집계)의 저장소 모드는 [가져오기]입니다.
+이 데이터 세트에서 대화형 분석을 사용하려면 대부분의 특성을 그룹화하지만 경도 및 위도와 같은 높은 카디널리티 특성은 제외하는 집계 테이블을 추가합니다. 이렇게 하면 행 수가 크게 줄어들고 메모리 내 캐시에 쉽게 맞출 수 있을 만큼 작습니다. **Driver Activity Agg**(운전 기사 활동 집계)의 스토리지 모드는 [가져오기]입니다.
 
 ![Driver Activity Agg 테이블](media/desktop-aggregations/aggregations_10.jpg)
 
@@ -253,7 +253,7 @@ Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있�
 
 이 문서의 앞부분에서 설명한 집계에 대한 두 가지 기술을 결합할 수도 있습니다. 관계를 기반으로 하는 **집계**에서는 비정규화된 차원 테이블을 여러 테이블로 분할해야 할 수 있습니다. 특정 차원 테이블에 대해 비용이 많이 들거나 적절하지 않은 경우 필요한 특성을 다른 차원에 사용되는 특정 차원과 관계에 대한 집계 테이블에 복제할 수 있습니다.
 
-다음 모델은 **Sales Agg** 테이블에서 *Month*(월), *Month*(분기), *Semester*(학기) 및 *Year*(연도)를 복제합니다. **Sales Agg**와 **Date**(날짜) 테이블 간에는 관계가 없습니다. **Customer**(고객) 및 **제품 하위 범주**에 대한 관계가 있습니다. **Sales Agg**의 저장소 모드는 [가져오기]입니다.
+다음 모델은 **Sales Agg** 테이블에서 *Month*(월), *Month*(분기), *Semester*(학기) 및 *Year*(연도)를 복제합니다. **Sales Agg**와 **Date**(날짜) 테이블 간에는 관계가 없습니다. **Customer**(고객) 및 **제품 하위 범주**에 대한 관계가 있습니다. **Sales Agg**의 스토리지 모드는 [가져오기]입니다.
 
 ![집계 기술 결합](media/desktop-aggregations/aggregations_15.jpg)
 
@@ -279,7 +279,7 @@ Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있�
 
 ## <a name="caches-should-be-kept-in-sync"></a>캐시는 동기화되어야 합니다.
 
-메모리 내 캐시가 원본 데이터와 동기화된 상태로 유지되지 않으면 DirectQuery와 가져오기 및/또는 이중 저장소 모드를 결합한 **집계**에서 다른 데이터가 반환될 수 있습니다. 예를 들어 쿼리 실행은 캐시된 값과 일치하도록 DirectQuery 결과를 필터링하여 데이터 문제를 마스크하려고 시도하지 않습니다. 이러한 기능은 성능 최적화이며 비즈니스 요구 사항을 충족하는 능력을 손상시키지 않는 방식으로만 사용해야 합니다. 사용자는 데이터 흐름을 알고 있어야 하므로 이에 맞게 적절하게 설계해야 합니다. 필요한 경우 원본에서 이러한 문제를 처리하는 기술이 확립되어 있습니다.
+메모리 내 캐시가 원본 데이터와 동기화된 상태로 유지되지 않으면 DirectQuery와 가져오기 및/또는 이중 스토리지 모드를 결합한 **집계**에서 다른 데이터가 반환될 수 있습니다. 예를 들어 쿼리 실행은 캐시된 값과 일치하도록 DirectQuery 결과를 필터링하여 데이터 문제를 마스크하려고 시도하지 않습니다. 이러한 기능은 성능 최적화이며 비즈니스 요구 사항을 충족하는 능력을 손상시키지 않는 방식으로만 사용해야 합니다. 사용자는 데이터 흐름을 알고 있어야 하므로 이에 맞게 적절하게 설계해야 합니다. 필요한 경우 원본에서 이러한 문제를 처리하는 기술이 확립되어 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -287,7 +287,7 @@ Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있�
 
 * [Power BI Desktop의 복합 모델(미리 보기)](desktop-composite-models.md)
 * [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)
-* [Power BI Desktop의 저장소 모드(미리 보기)](desktop-storage-mode.md)
+* [Power BI Desktop의 스토리지 모드(미리 보기)](desktop-storage-mode.md)
 
 DirectQuery 문서:
 

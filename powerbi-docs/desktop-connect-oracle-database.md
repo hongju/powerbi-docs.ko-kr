@@ -5,22 +5,22 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5b5dc41ee3f4d41f2e38053470054a8f453e4fb3
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670297"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284498"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle 데이터베이스에 연결
 **Power BI Desktop**을 사용하여 Oracle 데이터베이스에 연결하기 위해 Power BI Desktop을 실행하는 컴퓨터에 올바른 Oracle 클라이언트 소프트웨어를 설치해야 합니다. 사용하는 Oracle 클라이언트 소프트웨어는 설치한 Power BI Desktop의 버전(**32비트** 버전 또는 **64비트** 버전)에 따라 달라집니다.
 
-**지원 되는 버전**: Oracle 9 이상, Oracle 클라이언트 소프트웨어 8.1.7 이상.
+**지원되는 버전**: Oracle 9 이상, Oracle 클라이언트 소프트웨어 8.1.7 이상.
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>설치된 Power BI Desktop의 버전 확인
 설치된 Power BI Desktop의 버전을 확인하려면 **파일 > 도움말 > 정보**를 선택한 다음, **버전:** 줄을 확인합니다. 다음 이미지에서 64비트 버전의 Power BI Desktop이 설치되었습니다.

@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: e559cb3ed460c8d81406ae8c8b01fe33eceaf461
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266050"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293919"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI 서비스 및 Power BI 데스크톱에서 Esri로 ArcGIS 지도 만들기
 이 자습서는 ArcGIS 지도를 만드는 사용자의 관점에서 작성되었습니다. 작성자가 동료와 ArcGIS 지도를 공유하면 해당 동료는 지도를 보고 상호 작용할 수 있지만 변경 내용을 저장할 수 없습니다. ArcGIS 지도 보기에 대해 자세히 알아보려면 [ArcGIS 지도와 상호 작용](visuals/power-bi-visualizations-arcgis.md)을 참조하세요.
@@ -207,7 +207,7 @@ ArcGIS Online에서는 공용 웹 지도를 게시하는 조직을 위한 기능
 2. 검색 용어를 입력한 후 지도 계층을 선택합니다. 이 예에서는 미국 하원의원 선거구를 선택했습니다.
    
     ![](media/power-bi-visualization-arcgis/power-bi-esri-demographics-esri2-new.png)
-3. 자세한 정보를 보려면 음영 처리된 영역을 선택하여 *참조 계층에서 선택*을 엽니다. 참조 계층 선택 도구를 사용하여 참조 계층에 있는 경계 또는 개체를 선택합니다.
+3. 자세한 정보를 보려면 음영 처리된 영역을 선택하여 ‘참조 계층에서 선택’을 엽니다. 참조 계층 선택 도구를 사용하여 참조 계층에 있는 경계 또는 개체를 선택합니다.
 
 <br/>
 
@@ -325,7 +325,7 @@ Power BI용 ArcGIS Maps는 추가 비용 없이 모든 Power BI 사용자가 사
 
 **Power BI Desktop에서 내 캐시가 가득 찼다는 오류 메시지가 나타나는 경우**
 
-이는 해결 중인 버그입니다.  캐시를 지우려면 C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF 위치에서 파일을 삭제한 다음 Power BI를 다시 시작해봅니다.
+이는 해결 중인 버그입니다.  캐시를 지우려면 C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF 위치에서 파일을 삭제한 후 Power BI를 다시 시작해 봅니다.
 
 **Power BI용 ArcGIS Maps에서 Esri Shapefiles를 지원합니까?**
 

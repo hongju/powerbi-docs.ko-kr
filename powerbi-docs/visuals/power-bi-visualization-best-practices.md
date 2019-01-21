@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77802d2db59ddff94123991e209441b4c491f98b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548606"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296727"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>보고서 및 시각적 효과에 대한 디자인 모범 사례
 <!-- Shared newnav Include -->
@@ -65,7 +65,7 @@ Power BI 보고서 생성 및 사용에 대한 심층적인 설명과 지침은 
 
 ![](media/power-bi-visualization-best-practices/power-bi-example1newa.png)
 
-**그림 1: 보기 힘든 보고서 페이지에는 많은 작업이 필요합니다.**
+**그림 1:    보기 힘든 보고서 페이지에는 많은 작업이 필요함**
 
 위의 예제에는 아래에서 설명할 공간 관련(레이아웃) 디자인 문제가 많이 포함되어 있습니다.
 
@@ -95,19 +95,19 @@ Power BI 보고서 생성 및 사용에 대한 심층적인 설명과 지침은 
 
 ![](media/power-bi-visualization-best-practices/power-bi-example2new.png)
 
-**그림 2: 보기 힘든 보고서 예제가 레이아웃 편집을 통해 개선되었습니다.**
+**그림 2:    보기 힘든 보고서 예제가 레이아웃 편집을 통해 개선됨**
 
 Power BI에는 시각적 개체를 정렬하는 데 유용한 도구가 포함됩니다. Power BI Desktop에서 시각적 개체를 여러 개 선택한 상태에서 **Visuals**(시각적 개체) 리본 탭의 **Align and Distribute**(맞춤 및 배분) 옵션을 사용하면 시각적 개체의 위치를 맞출 수 있습니다.
 
 ![](media/power-bi-visualization-best-practices/power-bi-visualization.png)
 
-**그림 3: Power BI Desktop에서 시각적 개체 정렬하기**
+**그림 3:    Power BI Desktop에서 시각적 개체 정렬하기**
 
 Power BI 온라인과 Power BI Desktop에서는 모든 시각적 개체의 서식 창에 있는 **일반** 탭을 통해 시각적 개체의 크기와 위치를 정확하게 제어할 수도 있습니다.
 
 ![](media/power-bi-visualization-best-practices/power-bi-align-vizs.png)
 
-**그림 4: 시각적 개체에 대한 정확한 위치 설정**
+**그림 4:    시각적 개체에 대한 정확한 위치 설정**
 
 예제 보고서 페이지(그림 2)의 경우 카드 2개와 큰 테두리의 **X 위치**가 200으로 정렬되어 있습니다.
 
@@ -133,7 +133,7 @@ Power BI 온라인과 Power BI Desktop에서는 모든 시각적 개체의 서�
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-size.png)
 
-**그림 6: 페이지 높이 늘리기**
+**그림 6:    페이지 높이 늘리기**
 
 #### <a name="reduce-clutter"></a>혼잡함 줄이기
 혼잡한 보고서 페이지는 한 눈에 이해하기가 어렵기 때문에 이에 압도되어 독자들이 읽으려는 시도조차 하지 않을 수 있습니다.  필요하지 않은 보고서 요소는 모두 제거합니다. 이해도나 탐색에 도움이 되지 않는 개체를 멋으로 추가하지 않습니다. 보고서 페이지는 정보를 최대한 명확하고 신속하고 응집력 있게 전달해야 합니다.
@@ -146,7 +146,7 @@ Edward Tufte는 *The Visual Display of Quantitative Information* 라는 그의 �
 
 ![](media/power-bi-visualization-best-practices/power-bi-example3newer.png)
 
-**그림 7: 보기 힘든 예제 보고서가 정돈되었습니다.**
+**그림 7:    보기 힘든 예제 보고서가 정돈됨**
 
 ### <a name="tell-a-story-at-a-glance"></a>스토리 한 눈에 알려주기
 사전 지식이 없는 사람이 아무런 설명 없이 보고서를 신속하게 이해할 수 있는지를 전반적으로 평가해야 합니다. 페이지가 무엇을 말하는지 각 차트/테이블이 무엇을 전달하지를 독자들이 한 눈에 볼 수 있어야 합니다.   
@@ -160,13 +160,13 @@ Power BI 서비스 위쪽의 메뉴 모음에서 **텍스트 상자**를 선택�
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-boxes.png)
 
-**그림 8: 텍스트 상자 추가**
+**그림 8:    텍스트 상자 추가**
 
 빈 상자에 내용을 입력하고 아래쪽에 있는 컨트롤을 사용하여 글꼴, 크기, 맞춤 등을 설정합니다. 핸들을 사용하여 상자 크기를 조정합니다.
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-edit.png)
 
-**그림 9: 텍스트 상자 서식 지정**
+**그림 9:    텍스트 상자 서식 지정**
 
 하지만 지나치면 안됩니다! 보고서에 텍스트가 너무 많으면 산만하고 시각적 개체의 가치가 떨어집니다. 보고서 페이지를 이해할 수 있도록 만들기 위해 텍스트가 많이 필요하다면 처음부터 다시 시작합니다.  개체만으로 스토리를 더 잘 알려줄 수 있는 다른 시각적 개체를 선택할 수 있나요? 시각적 개체의 원래 제목을 약간 수정하여 좀 더 쉽게 이해할 수 있도록 만들 수 있나요?   
 
@@ -178,11 +178,11 @@ Power BI 서비스 위쪽의 메뉴 모음에서 **텍스트 상자**를 선택�
 
 ![](media/power-bi-visualization-best-practices/shapes.png)
 
-**그림 10a: Power BI 서비스의 셰이프**
+**그림 10a:    Power BI 서비스의 셰이프**
 
 ![](media/power-bi-visualization-best-practices/power-bi-desktop-shapes2new.png)
 
-**그림 10b: Power BI Desktop의 셰이프**
+**그림 10b:    Power BI Desktop의 셰이프**
 
 이제 예제 페이지의 모양은 어떤가요?  그림 11은 텍스트 글꼴과 색상이 일관적으로 적용된 보다 깔끔하고 덜 혼잡한 페이지를 보여줍니다.  왼쪽 위 모서리에 있는 페이지 제목은 페이지가 무엇을 말하는지 알려줍니다.
 
@@ -275,7 +275,7 @@ Power BI 서비스 위쪽의 메뉴 모음에서 **텍스트 상자**를 선택�
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5b.png)
 
-**그림 21: 색 모범 사례가 적용된 보고서 예제(흰색 배경)**
+**그림 21:    색 모범 사례가 적용된 보고서 예제(흰색 배경)**
  
 
 ### <a name="aesthetics"></a>미관
@@ -301,7 +301,7 @@ TDI 블로거이자 TechTarget 업계 분석가인 Wayne Eckerson의 비유가 �
 
 범주형 데이터와 양적 데이터의 차이를 이해하고 어떤 시각적 개체 유형이 어떤 데이터 유형과 가장 잘 맞는지 알아냅니다. 양적 데이터는 측정값이라고도 하며 일반적으로 숫자입니다. 범주형 데이터는 차원이라고도 하며 분류가 가능합니다. 이 내용은 아래쪽의 “적합한 측정값 선택”에 보다 심층적으로 논의되어 있습니다.
 
-보고서를 보다 인상적으로 만들려는 목적만으로 예쁘고 더 복잡한 시각적 개체 유형을 사용하려는 유혹은 피해야 합니다. 필요한 것은 스토리 전달을 위한 가장 간단한 옵션입니다. 가로 막대형 차트와 간단한 꺽은선형 차트는 정보를 신속하게 전달할 수 있습니다.  친숙하고 편리하며 대부분의 독자가 쉽게 해석할 수 있습니다.  대부분의 사람들이 왼쪽에서 오른쪽으로 위에서 아래로 읽기 때문에 이 두 가지 차트 유형의 경우 신속하게 훑어보고 이해하는 것이 가능하다는 이점이 더해집니다.
+보고서를 보다 인상적으로 만들려는 목적만으로 예쁘고 더 복잡한 시각적 개체 유형을 사용하려는 유혹은 피해야 합니다. 필요한 것은 스토리 전달을 위한 가장 간단한 옵션입니다. 가로 막대형 차트와 간단한 꺾은선형 차트는 정보를 신속하게 전달할 수 있습니다.  친숙하고 편리하며 대부분의 독자가 쉽게 해석할 수 있습니다.  대부분의 사람들이 왼쪽에서 오른쪽으로 위에서 아래로 읽기 때문에 이 두 가지 차트 유형의 경우 신속하게 훑어보고 이해하는 것이 가능하다는 이점이 더해집니다.
 
 스토리 전달을 위해 시각적 개체에 스크롤이 필요한가요? 가능하면 스크롤을 사용하지 않습니다.  필터를 적용하고 계층/드릴다운을 활용해봐도 스크롤바가 제거되지 않으면 다른 시각적 개체 유형을 선택하는 것이 좋습니다. 스크롤바를 피할 수 없다면 가로 스크롤이 세로 스크롤보다 쉽게 받아들여 집니다.
 
@@ -347,11 +347,11 @@ TDI 블로거이자 TechTarget 업계 분석가인 Wayne Eckerson의 비유가 �
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-before.png)
 
-**그림 24:    전**
+**그림 24:    이전**
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-after.png)
 
-**그림 25:    후**
+**그림 25:    이후**
 
 **축 제목을 설정 및 해제하려면**
 
@@ -411,7 +411,7 @@ TDI 블로거이자 TechTarget 업계 분석가인 Wayne Eckerson의 비유가 �
 
 **그림 31: 서식 창 열기**
 
-그런 다음 조정할 시각적 요소를 선택하고 설정이 선택되어 있는지 확인합니다. 시각적 요소의 예에는 **X축**, **Y축**, **제목**, **데이터 레이블**, **범례**가있습니다. 아래 예제는 **제목** 요소를 보여줍니다.
+그런 다음 조정할 시각적 요소를 선택하고 설정이 선택되어 있는지 확인합니다. 시각적 요소의 예에는 **X축**, **Y축**, **제목**, **데이터 레이블**, **범례**가 있습니다. 아래 예제는 **제목** 요소를 보여줍니다.
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-formatting.png)
 
@@ -455,7 +455,7 @@ Power BI의 가장 강력한 기능 중 하나는 차트가 서로 상호 작용
 
 ![](media/power-bi-visualization-best-practices/power-bi-visual-interactions.png)
 
-**그림 34: 시각적 상호 작용**
+**그림 34: 시각적 개체 상호 작용**
 
 그런 다음 페이지에 있는 각각의 시각적 개체에 대해 선택한 시각적 개체로 필터링이나 강조 표시를 할지 또는 아무것도 하지 않을지를 결정합니다. 일부 시각적 개체는 강조 표시를 할 수 없으며 이러한 개체에 대해서는 강조 표시 컨트롤을 사용할 수 없습니다. 자세한 내용은 [Power BI에서 시각적 상호 작용](../consumer/end-user-interactions.md)을 참조하세요.
 
@@ -587,44 +587,44 @@ Power BI에 기본적으로 사용되는 색은 범주 값을 쉽게 구분하�
 ## <a name="visual-types-and-best-practices"></a>시각적 개체 유형 및 모범 사례
 Power BI에는 기본적으로 시각적 개체가 많이 제공됩니다.  이러한 항목에 Microsoft와 Power BI 커뮤니티에서 사용할 수 있는 사용자 지정 시각적 개체를 추가하면 시각적 개체 옵션이 문서화하기 어려울 만큼 너무 많아집니다. 그렇기는 하지만 가장 많이 사용되는 기본 시각적 개체 유형 중 일부에 대해 살펴보겠습니다.  
 
-### <a name="line-charts"></a>꺽은선형 차트
+### <a name="line-charts"></a>꺾은선형 차트
 ![](media/power-bi-visualization-best-practices/power-bi-line-chartb.png)
 
-꺽은선형 차트는 시간에 따른 데이터를 검토할 수 있는 강력한 방식입니다.  데이터를 표로 보는 경우에는 사람의 눈이 최고, 최저, 주기, 패턴 등을 포착하는 속도를 별로 활용하지 못합니다.  
+꺾은선형 차트는 시간에 따른 데이터를 검토할 수 있는 강력한 방식입니다.  데이터를 표로 보는 경우에는 사람의 눈이 최고, 최저, 주기, 패턴 등을 포착하는 속도를 별로 활용하지 못합니다.  
 아래 예제는 수여된 메달의 수와 메달을 딴 운동 선수의 수에 관한 추세를 보여줍니다.  
 
 ![](media/power-bi-visualization-best-practices/power-bi-line-chart.png)
 
-**그림 47:    꺽은선형 차트**
+**그림 47:    꺾은선형 차트**
 
 #### <a name="best-practices"></a>모범 사례
-* 꺽은선형 차트를 처음 볼 때 눈에 띄는 것은 곡선의 모양입니다.  따라서 시간 또는 분포 범주와 같이 곡선에 의미를 부여하는 X축이 있어야 합니다.  제품이나 지리와 같은 범주 필드를 X축에 설정하면 곡선의 모양이 의미 있는 정보를 제공하지 않기 때문에 꺽은선형 차트에 대한 흥미가 떨어집니다.
+* 꺾은선형 차트를 처음 볼 때 눈에 띄는 것은 곡선의 모양입니다.  따라서 시간 또는 분포 범주와 같이 곡선에 의미를 부여하는 X축이 있어야 합니다.  제품이나 지리와 같은 범주 필드를 X축에 설정하면 곡선의 모양이 의미 있는 정보를 제공하지 않기 때문에 꺾은선형 차트에 대한 흥미가 떨어집니다.
 * 이와 같이 차트 여러 개를 서로 위 아래에 배치하는 경우 계열 사이의 비교가 쉽도록 X축에 맞춰서 배열합니다. 동일한 범위의 값이 표시되도록 필터를 사용합니다.  예를 들어 날짜 범위를 검토하는 경우 날짜 범위가 같도록 해야 합니다.  예를 들어 모든 차트가 1896 ~ 2012여야 합니다.
 * 공간을 충분히 활용합니다.  데이터에 적합한 경우 실제 데이터 요소로 시선을 끌고 차트에서 위쪽과 아래쪽 빈 공간을 없애기 위해 Y축의 시작점과 끝점을 설정합니다. 이렇게 하려면 페인트 롤러 아이콘을 선택하여 서식 창을 엽니다. **Y축** 영역을 확장하고 **시작**점과 **끝**점을 설정합니다.
   
   ![](media/power-bi-visualization-best-practices/power-bi-start-end.png)
   
-  **그림 48: 시작점 및 끝점 설정**
-* 시작점과 끝점을 명시적으로 설정해야 하는 또 다른 이유는 동일한 Y축 필드를 사용하여 같은 페이지에서 둘 이상의 차트를 비교하는 경우입니다.  예를 들어 누적 이벤트 수를 볼 때 영국이 1 ~ 70개이고 오스트레일리아가 1 ~ 12개이면 2가지 꺽은선형 차트는 매우 다른 Y축을 표시하게 됩니다(그림 x). 이렇게 하면 한눈에 비교하기가 어려워집니다. 이렇게 하지 않고 동일한 Y축 범위를 사용하도록 차트를 설정합니다(그림 x).
+  **그림 48: 시작점 및 엔드포인트 설정**
+* 시작점과 끝점을 명시적으로 설정해야 하는 또 다른 이유는 동일한 Y축 필드를 사용하여 같은 페이지에서 둘 이상의 차트를 비교하는 경우입니다.  예를 들어 누적 이벤트 수를 볼 때 영국이 1 ~ 70개이고 오스트레일리아가 1 ~ 12개이면 2가지 꺾은선형 차트는 매우 다른 Y축을 표시하게 됩니다(그림 x). 이렇게 하면 한눈에 비교하기가 어려워집니다. 이렇게 하지 않고 동일한 Y축 범위를 사용하도록 차트를 설정합니다(그림 x).
   
   ![](media/power-bi-visualization-best-practices/power-bi-line-chart2.png)
   
-  **그림 49: Y축이 다른 꺽은선형 차트**
+  **그림 49: Y축이 다른 꺾은선형 차트**
   
   ![](media/power-bi-visualization-best-practices/power-bi-line-chart3.png)
   
-  **그림 50: Y축이 일치하는 꺽은선형 차트**
+  **그림 50: Y축이 일치하는 꺾은선형 차트**
 
 자세한 내용은 다음을 참조하세요.
 
 * [X축 및 Y축 사용자 지정](power-bi-visualization-customize-x-axis-and-y-axis.md)
-* [꺽은선형 차트 및 불규칙한 간격](http://www.perceptualedge.com/articles/visual_business_intelligence/line_graphs_and_irregular_intervals.pdf)(영문)
-* [꺽은선형 차트 101](http://www.columnfivemedia.com/data-visualization-101-line-charts)(영문)
+* [꺾은선형 차트 및 불규칙한 간격](http://www.perceptualedge.com/articles/visual_business_intelligence/line_graphs_and_irregular_intervals.pdf)(영문)
+* [꺾은선형 차트 101](http://www.columnfivemedia.com/data-visualization-101-line-charts)(영문)
 
 ### <a name="barcolumn-charts"></a>가로 막대형/세로 막대형 차트
 ![](media/power-bi-visualization-best-practices/power-bi-bar-chart.png)
 
-꺽은선형 차트가 시간에 따른 데이터를 표시하는 표준이라면 가로 막대형 차트는 다양한 범주의 특정 값을 표시하는 표준입니다.  수를 기준으로 가로 막대를 정렬하면 최고 값과 분포를 바로 볼 수 있습니다.  가로 막대형 차트는 길쭉한 레이블과 어울립니다.  
+꺾은선형 차트가 시간에 따른 데이터를 표시하는 표준이라면 가로 막대형 차트는 다양한 범주의 특정 값을 표시하는 표준입니다.  수를 기준으로 가로 막대를 정렬하면 최고 값과 분포를 바로 볼 수 있습니다.  가로 막대형 차트는 길쭉한 레이블과 어울립니다.  
 
 ![](media/power-bi-visualization-best-practices/power-bi-horizontal-scroll.png)
 
@@ -636,7 +636,7 @@ Power BI에는 기본적으로 시각적 개체가 많이 제공됩니다.  이�
   ![](media/power-bi-visualization-best-practices/power-bi-data-labels.png)
   
   **그림 52: 데이터 레이블 설정**
-* 위의 가로 막대형 차트는 다수의 **단일 시점**에 대한 한 가지 측정값을 비교하는 데 매우 유용합니다.  위의 꺽은선형 차트는 시간에 따른 추세를 보여주는 반면 가로 막대형 차트는 특정 시점의 단일 범주에 대한 추세를 보여줍니다.  얼핏 보면 가로 막대형 차트는 스페인이 25%라는 세계 최악의 실업률을 갖는 것을 보여줍니다.
+* 위의 가로 막대형 차트는 다수의 **단일 시점**에 대한 한 가지 측정값을 비교하는 데 매우 유용합니다.  위의 꺾은선형 차트는 시간에 따른 추세를 보여주는 반면 가로 막대형 차트는 특정 시점의 단일 범주에 대한 추세를 보여줍니다.  얼핏 보면 가로 막대형 차트는 스페인이 25%라는 세계 최악의 실업률을 갖는 것을 보여줍니다.
 * 가로 막대형/세로 막대형 차트가 할당된 공간에 맞지 않는 경우에는 Power BI에서 스크롤바가 추가됩니다. 가능한 경우, 타당하다면, 독자가 전체 분포에 대한 개요를 볼 수 있게 전체 차트를 표시하도록 시각적 개체와 보고서를 배열합니다.  안타깝지만 예제에는 전세계 국가의 수가 너무 많아서 이렇게 하는 것이 불가능합니다.
   
   포함된 값을 제한하는 한가지 방법은 필터를 사용하는 것입니다. 예를 들어 실업률이 20%를 초과하는 경우에만 국가를 보여주는 시각적 수준 필터를 추가합니다.
@@ -649,8 +649,8 @@ Power BI에는 기본적으로 시각적 개체가 많이 제공됩니다.  이�
 가로 막대형 차트 및 세로 막대형 차트에 대한 자세한 내용:
 
 * [가로 막대형 차트 101](http://blog.newscred.com/article/data-visualization-101-bar-charts)(영문)
-* [데이터 시각화 카탈로그: 가로 막대형 차트](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)(영문)
-* [데이터 시각화 카탈로그: Multiset 가로 막대형 차트](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)(영문)
+* [데이터 시각화 카탈로그: 가로 막대형 차트](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
+* [데이터 시각화 카탈로그: 다중 집합 가로 막대형 차트](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
 
 ### <a name="stacked-barcolumn-charts"></a>누적 가로 막대형/세로 막대형 차트
 ![](media/power-bi-visualization-best-practices/power-bi-stacked.png)
@@ -661,17 +661,17 @@ Power BI에는 기본적으로 시각적 개체가 많이 제공됩니다.  이�
 
 **그림 54: 누적 세로 막대형 차트**
 
-누적 세로 막대형 차트는 시간에 따라 총 수익이 증가하고 광고 및 방송 범주가 시간에 따라 꾸준히 증가하여 전반적인 수익 증가에 기여하는 것을 보여줍니다.  하지만 이런 차트에서는 3가지 범주가 서로에게 미치는 영향을 비교하기가 쉽지 안습니다. 예를 들어 방송이나 경기일 증가 대비 광고 증가는 어떤가요?  이러한 데이터에 맞는 선택 또는 시각적 데이터는 꺽은선형 차트입니다.  
+누적 세로 막대형 차트는 시간에 따라 총 수익이 증가하고 광고 및 방송 범주가 시간에 따라 꾸준히 증가하여 전반적인 수익 증가에 기여하는 것을 보여줍니다.  하지만 이런 차트에서는 3가지 범주가 서로에게 미치는 영향을 비교하기가 쉽지 안습니다. 예를 들어 방송이나 경기일 증가 대비 광고 증가는 어떤가요?  이러한 데이터에 맞는 선택 또는 시각적 데이터는 꺾은선형 차트입니다.  
 
 ![](media/power-bi-visualization-best-practices/power-bi-deloite2.png)
 
-**그림 55: 꺽은선형 차트로 변환**
+**그림 55: 꺾은선형 차트로 변환**
 
-꺽은선형 차트에서는 광고 수익이 가장 많이 증가하고 방송 및 경기일 수익이 그 뒤를 따른다는 것을 쉽게 볼 수 있습니다.
+꺾은선형 차트에서는 광고 수익이 가장 많이 증가하고 방송 및 경기일 수익이 그 뒤를 따른다는 것을 쉽게 볼 수 있습니다.
 
 #### <a name="best-practices"></a>모범 사례
 * 가로 막대형/세로 막대형 차트의 경우, 가로 또는 세로로 표시할 수 있는 옵션이 있습니다.   레이블이 긴 경우에는 가로가 적합하며 시계열 데이터가 있는 경우에는 세로가 적합합니다.  
-* 시간에 따른 추세 및 다른 변화 패턴을 표시하려면 누적 가로 막대형/세로 막대형 차트를 사용하지 않는 것이 좋습니다.  꺽은선형 차트와 같은 다른 차트가 훨씬 더 적합합니다.
+* 시간에 따른 추세 및 다른 변화 패턴을 표시하려면 누적 가로 막대형/세로 막대형 차트를 사용하지 않는 것이 좋습니다.  꺾은선형 차트와 같은 다른 차트가 훨씬 더 적합합니다.
 * 총 볼륨 또는 총 비율을 기반으로 분포를 표시할 수도 있습니다.  
 * Few의 저서에 따르면 *누적 가로 막대형 차트의 세그먼트는 비교하기가 어렵습니다. 세그먼트가 나란히 정렬되어 있고 모두가 같은 기준선에서 위쪽으로 증가한다면 높이를 비교하는 것이 쉬울 수 있지만 서로 누적되어 있는 경우에는 비교하기가 어렵습니다. 또, 월별로 (수익이) 변화하는 것을 보기는 꽤 쉽지만 다른 (범주의) (수익이) 변화하는 것을 보기는 매우 어렵습니다*.  
 * 100% 누적 차트는 백분율을 사용하는 경우에 매우 적합합니다.  아래 예제에서는 팀별 범주 분포를 볼 수 있습니다.  백분율은 상대적이며 패턴을 한눈에 보는 것이 가능합니다. 예를 들어 Everton의 수익은 주로 방송(70% 이상)에서 발생하지만 PSG의 경우 방송에서 발생하는 수익은 20% 뿐입니다.  가로로 표시하도록 선택하면 팀 레이블을 표시하기 쉽고 수익 유형의 영향을 보기 쉽습니다.
@@ -682,15 +682,15 @@ Power BI에는 기본적으로 시각적 개체가 많이 제공됩니다.  이�
 
 누적 차트에 대한 자세한 내용:
 
-* [데이터 시각화 카탈로그: 누적 가로 막대형 그래프](http://www.datavizcatalogue.com/methods/stacked_bar_graph.html#top)(영문)
+* [데이터 시각화 카탈로그: 누적 가로 막대형 그래프](http://www.datavizcatalogue.com/methods/stacked_bar_graph.html#top)
 * [100% 누적 가로 막대형 그래프는 어떤 경우에 유용한가요?](http://www.perceptualedge.com/blog/?p=2239)(영문)
 
 ### <a name="combo-barcolumn-charts"></a>콤보 가로 막대형/세로 막대형 차트
 ![](media/power-bi-visualization-best-practices/power-bi-combo.png)
 
-Power BI에서는 세로 막대형 차트와 가로 막대형 차트를 콤보 차트로 결합할 수 있습니다. 꺾은선형 및 누적 세로 막대형 차트 및 꺾은선형 및 묶은 세로 막대형 차트가 여기에 해당됩니다. 두 개의 개별적인 시각적 개체를 하나로 결합하면 소중한 캔버스 공간을 절약할 수 있습니다.
+Power BI에서는 세로 막대형 차트와 꺾은선형 차트를 콤보 차트로 결합할 수 있습니다. 선택 항목은 다음과 같습니다. 꺾은선형 및 누적 세로 막대형 차트 및 꺾은선형 및 묶은 세로 막대형 차트. 두 개의 개별적인 시각적 개체를 하나로 결합하면 소중한 캔버스 공간을 절약할 수 있습니다.
 
-아래 두 개의 스크린샷에 전과 후가 표시되어 있습니다.  첫 번째 페이지에는 두 개의 개별적인 시각적 개체가 있습니다. 세로 막대형 차트는 시간에 따른 인구를 보여주고 꺽은선형 차트는 시간에 따른 GDP를 보여줍니다. 이러한 차트는 X축(연도)과 값(2002 ~ 2012)이 같기 때문에 콤보 차트로 만들기에 적합합니다.  시각적 개체 하나에서 2가지 추세를 비교할 수 있도록 차트를 결합하는 게 좋지 않을까요?  2개 차트를 결합하면 데이터를 더 빠르게 비교할 수 있습니다.
+아래 두 개의 스크린샷에 전과 후가 표시되어 있습니다.  첫 번째 페이지에는 두 개의 개별적인 시각적 개체가 있습니다. 세로 막대형 차트는 시간에 따른 인구를 보여주고 꺾은선형 차트는 시간에 따른 GDP를 보여줍니다. 이러한 차트는 X축(연도)과 값(2002 ~ 2012)이 같기 때문에 콤보 차트로 만들기에 적합합니다.  시각적 개체 하나에서 2가지 추세를 비교할 수 있도록 차트를 결합하는 게 좋지 않을까요?  2개 차트를 결합하면 데이터를 더 빠르게 비교할 수 있습니다.
 
 새 보고서 페이지에는 꺾은선형 및 누적 세로 막대형 차트라는 시각적 개체가 하나 있습니다. 꺾은선형 및 묶은 세로 막대형 차트도 이만큼 쉽게 만들 수 있습니다.  이제 두 가지 추세 사이의 관계를 보기가 더 쉬워졌습니다.   2008년까지는 인구와 GDP의 추세가 유사했던 것을 볼 수 있습니다. 하지만 2009년부터 인구 증가가 둔화되고 GDP는 변동이 심해졌습니다.  
 
@@ -705,15 +705,15 @@ Power BI에서는 세로 막대형 차트와 가로 막대형 차트를 콤보 �
 #### <a name="best-practices"></a>모범 사례
 콤보 차트는 시각적 개체 양쪽 모두에 공통적인 축이 하나 이상 있는 경우에 가장 적합합니다.
 
-축을 주시하세요! 콤보 차트를 읽고 해석하기 쉬운가요?  아니면 범위와 값이 다르게 사용되어 있나요? 예를 들어, 세로 막대형 차트의 Y축 규모가 꺽은선형 차트의 Y축 규모보다 훨씬 작은 경우에는 콤보 차트를 사용하는 의미가 없습니다.  예를 들어 훨씬 아래쪽에 있는 세 번째 선(바다 색)이 그런 경우입니다.
+축을 주시하세요! 콤보 차트를 읽고 해석하기 쉬운가요?  아니면 범위와 값이 다르게 사용되어 있나요? 예를 들어, 세로 막대형 차트의 Y축 규모가 꺾은선형 차트의 Y축 규모보다 훨씬 작은 경우에는 콤보 차트를 사용하는 의미가 없습니다.  예를 들어 훨씬 아래쪽에 있는 세 번째 선(바다 색)이 그런 경우입니다.
 
    ![](media/power-bi-visualization-best-practices/power-bi-dual-line.png)
 
-   **그림 59: 바람직하지 않은 꺽은선형 차트**
+   **그림 59: 바람직하지 않은 꺾은선형 차트**
 
-마찬가지로 세로 막대형 차트와 꺽은선형 차트에 2가지 다른 측정이 사용된 경우 이중 축을 만들지 않는다면 콤보차트는 의미가 없습니다.  예를 들어 달러 및 백분율을 축으로 만듭니다. 독자들이 차트를 이해할 수 있도록 두 축을 모두 포함해야 하고 축 레이블도 추가하는 것이 좋습니다.
+마찬가지로 세로 막대형 차트와 꺾은선형 차트에 2가지 다른 측정이 사용된 경우 이중 축을 만들지 않는다면 콤보 차트는 의미가 없습니다.  예를 들어 달러 및 백분율을 축으로 만듭니다. 독자들이 차트를 이해할 수 있도록 두 축을 모두 포함해야 하고 축 레이블도 추가하는 것이 좋습니다.
 
-이렇게 하려면 서식 창을 열어서 **Y축**을 확장하고 **보조 표시**를 설정합니다(이미 설정되지 않은 경우). 이 설정을 찾기 어려운 경우에는 **Y축(세로 막대)** 을 확장하고 **보조 표시**가 보일 때까지 아래쪽으로 스크롤합니다. 또한 Y축(세로 막대) **제목**을 설정하고 Y축(꺽은선형) **제목**을 설정합니다.
+이렇게 하려면 서식 창을 열어서 **Y축**을 확장하고 **보조 표시**를 설정합니다(이미 설정되지 않은 경우). 이 설정을 찾기 어려운 경우에는 **Y축(세로 막대)** 을 확장하고 **보조 표시**가 보일 때까지 아래쪽으로 스크롤합니다. 또한 Y축(세로 막대) **제목**을 설정하고 Y축(꺾은선형) **제목**을 설정합니다.
 
 ![](media/power-bi-visualization-best-practices/power-bi-show-secondary-new.png)
 
@@ -721,7 +721,7 @@ Power BI에서는 세로 막대형 차트와 가로 막대형 차트를 콤보 �
 
 ![](media/power-bi-visualization-best-practices/power-bi-combo-chart.png)
 
-**그림 61: 대신 콤보차트 만들기**
+**그림 61: 대신 콤보 차트 만들기**
 
 * 이중 축을 활용해 보세요. 여러 값 범위와 여러 측정값을 비교하기 좋은 방법입니다. 두 측정값 사이의 상관 관계를 하나의 시각적 개체에 표시하기 좋은 방법입니다.
 
@@ -772,18 +772,18 @@ Power BI에서는 세로 막대형 차트와 가로 막대형 차트를 콤보 �
 
 ![](media/power-bi-visualization-best-practices/power-bi-treemap2.png)
 
-**그림 64: 트리맵에 표시된 지역 및 국가별 GDP**
+**그림 64: 트리 맵에 표시된 지역 및 국가별 GDP**
 
 트리 맵에 대한 자세한 내용을 보려면 아래 링크를 클릭하세요.
 
 * [트리 맵 개요](http://www.perceptualedge.com/articles/b-eye/treemaps.pdf)(영문)
-* [데이터 시각화 카탈로그: 트리 맵](http://www.datavizcatalogue.com/methods/treemap.html#.VYhylI3bL7Y)(영문)
+* [데이터 시각화 카탈로그: 트리 맵](http://www.datavizcatalogue.com/methods/treemap.html#.VYhylI3bL7Y)
 
 ### <a name="other-charts"></a>기타 차트
 #### <a name="pie-or-donut-charts"></a>원형 차트 또는 도넛형 차트
 ![](media/power-bi-visualization-best-practices/power-bi-donut.png)
 
-일반적으로 가로 막대형/세로 막대형/꺽은선형 차트가 대부분의 용도에 적합합니다. 원형 차트와 도넛형 차트는 제대로 해석하기 어렵고 실제로 데이터를 왜곡하기도 한다는 사실은 잘 알려져 있습니다. 가능한 경우 사용을 피하는 것이 좋습니다. Stephen Few의 [Save the Pies for Dessert]([www.percetualedge.com/articles/08-21-07.pdf](http://www.perceptualedge.com/articles/08-21-07.pdf)에는 이에 관한 역사와 위험성이 훌륭하게 저술되어 있습니다.
+일반적으로 가로 막대형/세로 막대형/꺾은선형 차트가 대부분의 용도에 적합합니다. 원형 차트와 도넛형 차트는 제대로 해석하기 어렵고 실제로 데이터를 왜곡하기도 한다는 사실은 잘 알려져 있습니다. 가능한 경우 사용을 피하는 것이 좋습니다. Stephen Few의 [Save the Pies for Dessert]([www.percetualedge.com/articles/08-21-07.pdf](http://www.perceptualedge.com/articles/08-21-07.pdf)에는 이에 관한 역사와 위험성이 훌륭하게 저술되어 있습니다.
 
 원형 차트가 유용할 수 있는 경우 즉, 전체와 부분을 비교하는 경우에 대한 설명이 있습니다. 드물지만 이 차트가 100% 기준 누적 가로 막대형 차트보다 매우 유용한 경우도 있습니다.
 
@@ -809,7 +809,7 @@ KPI는 값, 상태, 목표, 목표와의 차이 및 추세를 같은 크기의 �
 이제 이러한 모범 사례를 테스트할 차례입니다.  자신만의 모범 사례를 공유해 주세요. 권장 사항에 그냥 동의하지 마세요. 아니면 “규칙을 깰만한” 좋은 이유를 찾으셨나요?  그런 얘기도 알려 주시면 감사하겠습니다.  
 
 ### <a name="book-recommendations"></a>권장 도서
-요즘은 시각 디자인 기법을 파고들어 공부하기 좋은 책이 많이 있습니다. Stephen Few의 Information Dashboard Design 은 필독 도서입니다.  그가 저술한 Show Me the Numbers 와 Now You See It 이라는 책에는 내용이 매우 자세하고 심층적으로 다루어져 있습니다. Few를 비롯한 여러 사람들에게 영감을 준 Edward R. Tufte가 저술한 The Visual Display of Quantitative Information 은 이 분야의 고전으로 통합니다.  Tufte는 Visual Explanations, Envisioning Information 그리고 Beautiful Evidence 라는 책도 저술했습니다.  Andy Kirk의 신간 도서 Data Visualization: A Handbook for Data Driven Design 역시 대단히 유용합니다. 그 외 추천할만한 작가로는 Lachlan James, William McKnight, Boris Evelson(Forrester), Darkhorse Analytics 등이 있습니다.
+요즘은 시각 디자인 기법을 파고들어 공부하기 좋은 책이 많이 있습니다. Stephen Few의 Information Dashboard Design 은 필독 도서입니다.  그가 저술한 Show Me the Numbers 와 Now You See It 이라는 책에는 내용이 매우 자세하고 심층적으로 다루어져 있습니다. Few를 비롯한 여러 사람들에게 영감을 준 Edward R. Tufte가 저술한 The Visual Display of Quantitative Information 은 이 분야의 고전으로 통합니다.  Tufte는 Visual Explanations, Envisioning Information 그리고 Beautiful Evidence 라는 책도 저술했습니다.  Andy Kirk의 신간 도서 *Data Visualization: A Handbook for Data Driven Design* 역시 대단히 유용합니다. 그 외 추천할만한 작가로는 Lachlan James, William McKnight, Boris Evelson(Forrester), Darkhorse Analytics 등이 있습니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

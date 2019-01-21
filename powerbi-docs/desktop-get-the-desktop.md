@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909597"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281922"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 **Power BI Desktop**을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. **Power BI Desktop**에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다.  **Power BI Desktop**은 무료로 다운로드할 수 있습니다.
@@ -42,7 +42,7 @@ ms.locfileid: "50909597"
 
 ![](media/desktop-get-the-desktop/getpbid_3.png)
 
-**Power BI Desktop**은 응용 프로그램으로 설치되며 데스크톱에서 실행됩니다.
+**Power BI Desktop**은 애플리케이션으로 설치되며 데스크톱에서 실행됩니다.
 
 ![](media/desktop-get-the-desktop/designer_gsg_install.png)
 
@@ -95,9 +95,9 @@ Microsoft Store에서 **Power BI Desktop**을 설치할 때 다음과 같은 몇
 * .NET 4.5
 * Internet Explorer 9 이상
 * **메모리(RAM):** 최소 1GB, 1.5GB 이상 권장.
-* **디스플레이:** 최소 1440x900, 1600x900(16:9) 권장. 1024x768 또는 1280x800처럼 낮은 해상도는 권장되지 않습니다. 시작 화면 닫기 같은 특정 컨트롤이 해상도 밖에 표시되기 때문입니다.
+* **디스플레이:** 최소 권장 - 1440x900 또는 1600x900(16:9). 1024x768 또는 1280x800처럼 낮은 해상도는 권장되지 않습니다. 시작 화면 닫기 같은 특정 컨트롤이 해상도 밖에 표시되기 때문입니다.
 * **Windows 디스플레이 설정:** 디스플레이 설정이 텍스트, 앱 및 기타 항목의 크기를 100% 이상으로 변경하도록 설정되어 있으면 **Power BI Desktop**을 계속 사용하기 위해 닫히거나 응답해야 하는 특정 대화 상자가 표시되지 않을 수 있습니다. 이 문제가 발생하면 Windows에서 **설정> 시스템> 디스플레이**로 이동하여 **디스플레이 설정**을 확인하고 슬라이더를 사용하여 디스플레이 설정을 100%로 되돌립니다.
-* **CPU:** 1GHz 또는 더 빠른 x86 또는 x64비트 프로세스 권장.
+* **CPU:** 1GHz 또는 더 빠른 x86 또는 x64비트 프로세서 권장.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
@@ -115,7 +115,7 @@ Power BI Desktop의 현재 버전으로 업데이트하면 대개 이 문제가 
 향상된 기능, 성능, 안정성 및 기타 개선 사항을 활용하려면 최신 버전의 Power BI Desktop으로 업데이트하는 것이 좋습니다. 일부 조직에서는 사용자가 개별적으로 새 버전으로 업데이트하기를 원하지 않을 수 있습니다. 다음 단계를 통해 레지스트리를 수정하여 알림을 사용하지 않도록 설정할 수 있습니다.
 
 1. 레지스트리 편집기를 사용하여 *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop*으로 이동합니다.
-2. *REG_DWORD: DisableUpdateNotification* 설정을 사용하여 새 항목을 만듭니다.
+2. 다음 설정을 사용하여 새 항목을 만듭니다. *REG_DWORD : DisableUpdateNotification*
 3. 새 항목의 값을 **1**로 설정합니다.
 
 변경 내용을 적용하려면 컴퓨터를 다시 시작해야 합니다.
@@ -125,7 +125,7 @@ Power BI Desktop의 현재 버전으로 업데이트하면 대개 이 문제가 
 특정 화면 해상도 구성을 포함한 특정 상황에 있는 일부 사용자에게는 Power BI Desktop 렌더링 콘텐츠가 큰 검은색 영역과 함께 표시될 수 있습니다. 이 문제의 원인은 일반적으로 Power BI Desktop이 콘텐츠를 표시하는 방법 때문이 아니라 항목 렌더링 방법에 영향을 주는 최근 운영 체제 업데이트 때문입니다. 이와 관계없이 큰 검은색 영역은 멋진 시각적 개체만큼 매력적이지 않으므로 이 문제를 해결하려면 다음 단계를 수행합니다.
 
 1. 시작 키를 누르고 표시되는 검색 창에 ‘흐리게’라는 단어를 입력합니다.
-2. 표시되는 대화 상자에서 *Let Windows fix apps that are blurry.*(Windows에서 흐리게 표시되는 앱을 수정하도록 합니다.) 옵션을 선택합니다.
+2. 표시되는 대화 상자에서 다음 옵션을 선택합니다. *Let Windows fix apps that are blurry.*(Windows에서 흐리게 표시되는 앱을 수정하도록 합니다.)
 3. Power BI Desktop을 다시 시작합니다.
 
 이 문제는 후속 Windows 업데이트가 릴리스된 후에 해결될 수 있습니다. 

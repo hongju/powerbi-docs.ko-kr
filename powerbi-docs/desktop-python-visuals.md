@@ -5,17 +5,17 @@ author: otarb
 manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 588b8cd6289c1f5d1242ade73dea149474bfed38
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 7390f029144e5cb37830921071ad5c2c678b2d4d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45975222"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275482"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Python을 사용하여 Power BI 시각적 개체 만들기
 **Power BI Desktop**에서 **Python**을 사용하면 데이터를 시각화할 수 있습니다.
@@ -58,7 +58,7 @@ Python 설치를 지정하면 Python 시각적 개체 만들기를 시작할 준
    
    다음 그림의 예제에서는 세 개의 필드 hp, gear, drat가 선택되었습니다. 그 결과, Python 스크립트 편집기에서 다음과 같은 바인딩 코드를 생성했습니다.
    
-   * **dataset** 라는 데이터 프레임이 생성
+   * **dataset**라는 데이터 프레임이 생성
      * 이 데이터 프레임은 사용자가 선택한 여러 필드로 구성
    * 기본 집계는 테이블 시각적 개체와 마찬가지로 *요약되지 않으며*
    * 필드는 그룹화되고 중복 행은 한 번만 표시됩니다.

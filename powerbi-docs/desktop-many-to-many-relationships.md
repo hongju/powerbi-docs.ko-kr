@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 379f80e1e87181ffdacdaab01d87ff435f2a9501
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473777"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291076"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop의 다 대 다 관계(미리 보기)
 
@@ -29,7 +29,7 @@ Power BI Desktop의 다 ‘대 다 관계’ 기능은 다음 세 가지 관련 
 
 * **다 대 다 관계**: ‘복합 모델’을 사용하면 테이블 간에 ‘다 대 다 관계’를 설정할 수 있습니다. 이 방법은 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계를 설정하기 위해 새 테이블만 도입하는 것과 같은 이전 해결 방법을 제거합니다. 이 기능은 이 문서에서 더 자세히 설명합니다.
 
-* **저장소 모드**: 이제 백 엔드 데이터 원본에 대한 쿼리가 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 자세한 내용은 [Power BI Desktop의 스토리지 모드(미리 보기)](desktop-storage-mode.md)를 참조하세요.
+* **스토리지 모드**: 이제 백 엔드 데이터 원본에 대한 쿼리가 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 자세한 내용은 [Power BI Desktop의 스토리지 모드(미리 보기)](desktop-storage-mode.md)를 참조하세요.
 
 ## <a name="enable-the-many-to-many-relationships-preview-feature"></a>‘다 대 다 관계’ 미리 보기 기능 사용
 

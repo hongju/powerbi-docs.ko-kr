@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0b214e2c08e6a39e4b09643c02bccedb56d5b9f4
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717657"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292985"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI용 공급업체 품질 분석 샘플: 둘러보기
 
@@ -59,7 +59,7 @@ ms.locfileid: "51717657"
  * [공급업체 품질 분석 샘플 PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
-[이 샘플에 대한 데이터 집합(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529779)할 수도 있습니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 **파워 피벗 > 관리**를 선택합니다.
+[이 샘플에 대한 데이터 세트(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529779)할 수도 있습니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 **파워 피벗 > 관리**를 선택합니다.
 
 
 ## <a name="downtime-caused-by-defective-materials"></a>결함이 있는 자재로 인한 가동 중지 시간
@@ -156,7 +156,7 @@ ms.locfileid: "51717657"
     ![](media/sample-supplier-quality/supplier14.png)  
 
     이러한 결함 수량이 증가하면서 가동 중지 시간(분)도 동일하게 증가되었는지 알아보겠습니다.  
-2. 질문 상자에서 "월별, 연도별 총 가동 중지 시간(분) 꺽은선형 차트"를 입력합니다.  
+2. 질문 상자에서 "월별, 연도별 총 가동 중지 시간(분) 꺾은선형 차트"를 입력합니다.  
 
    ![](media/sample-supplier-quality/supplier15.png)
 

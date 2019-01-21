@@ -5,16 +5,16 @@ author: maikelson
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670420"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283142"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -50,7 +50,7 @@ ms.locfileid: "52670420"
 <br>작성자: Gohul Shanmugalingam
 <br>[등록 및 지금 보기](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
-**Power BI 데이터 시각적 개체 만들기: 코어 차트 유형 및 이를 사용하는 방법**
+**Power BI 데이터 시각적 개체 만들기:  코어 차트 유형 및 이를 사용하는 방법**
 <br>작성자: Miranda Li
 <br>[등록 및 지금 보기](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
 
@@ -78,7 +78,7 @@ ms.locfileid: "52670420"
 <br>작성자: Charles Sterling
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**Better Together: Excel 사용자가 Power BI로부터 얻을 수 있는 5가지 장점**
+**함께 사용하면 더욱 강력한 성능: Excel 사용자가 Power BI로부터 얻을 수 있는 5가지 장점**
 <br>작성자: Carlos Otero 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
@@ -116,7 +116,7 @@ ms.locfileid: "52670420"
 <br>작성자: Blue Margin의 Jon Thompson 및 Elgin Fastener Group의 Jim Pastor
 <br>[등록 및 지금 보기](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
-**새 Power BI 및 data.world 커넥터를 사용하여 공용 또는 개인 데이터 집합 시각화**
+**새 Power BI 및 data.world 커넥터를 사용하여 공용 또는 개인 데이터 세트 시각화**
 <br>작성자: Patrick McGarry 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 

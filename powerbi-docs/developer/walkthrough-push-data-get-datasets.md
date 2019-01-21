@@ -5,28 +5,28 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 44fbf1e651c36c95694e397c64050977f3ee730a
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: f6396747dc21ddc94ab1abda6939e8e423c649e7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092555"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296194"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4단계: Power BI 테이블에 행을 추가할 데이터 세트 가져오기
 이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
-데이터 집합에 데이터 푸시의 **3단계** [Power BI에서 데이터 집합 만들기](walkthrough-push-data-create-dataset.md)에서는 [데이터 집합 만들기](https://docs.microsoft.com/rest/api/power-bi/datasets) 작업을 호출하여 Power BI에서 데이터 집합을 만들었습니다. 이 단계에서는 [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업과 Newtonsoft.Json을 사용하여 데이터 세트 ID를 가져옵니다. 4단계의 데이터 세트 ID를 사용하여 데이터 세트에 행을 추가합니다. 
+데이터 세트에 데이터 푸시의 **3단계**[Power BI에서 데이터 세트 만들기](walkthrough-push-data-create-dataset.md)에서는 [데이터 세트 만들기](https://docs.microsoft.com/rest/api/power-bi/datasets) 작업을 호출하여 Power BI에서 데이터 세트를 만들었습니다. 이 단계에서는 [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업과 Newtonsoft.Json을 사용하여 데이터 세트 ID를 가져옵니다. 4단계의 데이터 세트 ID를 사용하여 데이터 세트에 행을 추가합니다. 
 
-데이터를 Power BI 데이터 세트로 푸시하려면 데이터 세트의 테이블을 참조해야 합니다. 데이터 세트의 테이블을 참조하려면 먼저 **데이터 세트 ID**를 가져와야 합니다. **데이터 집합 ID**는 [ID별 데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid) 작업을 사용하여 가져옵니다. **ID별 데이터 집합 가져오기** 작업은 Power BI에 있는 모든 데이터 집합의 목록이 포함된 JSON 문자열을 반환합니다. JSON 문자열을 역직렬화하는 데 권장되는 방법은 [Newtonsoft.Json](http://www.newtonsoft.com/json)을 사용하는 것입니다.
+데이터를 Power BI 데이터 세트로 푸시하려면 데이터 세트의 테이블을 참조해야 합니다. 데이터 세트의 테이블을 참조하려면 먼저 **데이터 세트 ID**를 가져와야 합니다. **데이터 세트 ID**는 [ID별 데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid) 작업을 사용하여 가져옵니다. **ID별 데이터 세트 가져오기** 작업은 Power BI에 있는 모든 데이터 세트의 목록이 포함된 JSON 문자열을 반환합니다. JSON 문자열을 역직렬화하는 데 권장되는 방법은 [Newtonsoft.Json](http://www.newtonsoft.com/json)을 사용하는 것입니다.
 
 데이터 세트를 가져오는 방법은 다음과 같습니다.
 
 ## <a name="get-a-power-bi-dataset"></a>Power BI 데이터 세트 가져오기
-> **참고**: 시작하기 전에 [데이터 집합에 데이터 푸시](walkthrough-push-data.md)의 이전 단계를 수행해야 합니다.
+> **참고**: 시작하기 전에 [데이터 세트에 데이터 푸시](walkthrough-push-data.md)의 이전 단계를 수행해야 합니다.
 > 
 > 
 
@@ -39,7 +39,7 @@ ms.locfileid: "37092555"
 3. Program.cs에 **데이터 세트 ID**를 가져오는 아래 코드를 추가합니다.
 4. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. 콘솔 창에 **데이터 세트 ID:** 다음에 ID가 표시됩니다.
 
-**데이터 집합 가져오기 샘플**
+**데이터 세트 가져오기 샘플**
 
 Program.cs에 이 코드를 추가합니다.
 
@@ -267,7 +267,7 @@ Program.cs에 이 코드를 추가합니다.
 ## <a name="next-steps"></a>다음 단계
 [Power BI 테이블에 행 추가](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
-[데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
+[데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [Power BI로 데이터 푸시](walkthrough-push-data.md)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
 [Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  

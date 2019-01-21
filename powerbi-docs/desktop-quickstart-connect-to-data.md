@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: quickstart
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 01f36c65c63527256ce11c63f66c3ce4bc0a76c5
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 4b8cd79eca1711b424d772737b27400f9291cef0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670811"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279208"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>빠른 시작: Power BI Desktop에서 데이터에 연결
 
@@ -33,7 +33,7 @@ ms.locfileid: "52670811"
 
 ## <a name="launch-power-bi-desktop"></a>Power BI Desktop 시작
 
-**Power BI Desktop**을 설치한 후 로컬 컴퓨터에서 실행되도록 응용 프로그램을 시작합니다. 사용자가 연결하는 데이터를 기반으로 시각적 개체 및 보고서를 만들 빈 캔버스가 표시됩니다. 
+**Power BI Desktop**을 설치한 후 로컬 컴퓨터에서 실행되도록 애플리케이션을 시작합니다. 사용자가 연결하는 데이터를 기반으로 시각적 개체 및 보고서를 만들 빈 캔버스가 표시됩니다. 
 
 ![Power BI Desktop - 빈 캔버스](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 

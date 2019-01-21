@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027463"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277437"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
 **보고서 테마**를 사용하여 회사 색, 계절 색 또는 기타 색 테마와 같은 색 테마를 전체 보고서에 적용할 수 있습니다. **보고서 테마**를 적용할 때 보고서의 모든 시각적 개체는 선택한 테마의 색을 사용합니다. 몇 가지 예외가 적용되며 이 문서의 뒷부분에서 설명합니다.
@@ -126,7 +126,7 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
 
 ![시각화](media/desktop-report-themes/report-themes_8.png)
 
-모두 녹색으로 보이시나요? 해당 색이 가져오고 적용한 **보고서 테마**의 일부이기 때문입니다.
+모두 녹색으로 보이십니까? 해당 색이 가져오고 적용한 **보고서 테마**의 일부이기 때문입니다.
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>보고서에 보고서 테마 색을 유지하지 않는 경우
 시각적 개체에서 특정 데이터 요소에 사용자 지정 색 집합(또는 개별 색)을 적용한다고 가정합니다. 보고서 테마를 적용하면 이 보고서 테마는 사용자 지정 데이터 요소 색을 ‘재정의하지 않습니다’.
@@ -138,7 +138,7 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
 또한 많은 **사용자 지정 시각적 개체**가 보고서 테마에 적용되지 않습니다.
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>지금 바로 사용할 수 있는 보고서 테마 파일
-**보고서 테마**를 시작하려고 하시나요? **Power BI Desktop** 보고서에 다운로드하고 가져올 수 있는 즉시 사용 가능한 몇몇 보고서 테마 JSON 파일은 다음과 같습니다. 보고서에 적용되는 보고서 테마 이미지도 이 문서에 포함했습니다.
+**보고서 테마**를 시작하시겠습니까? **Power BI Desktop** 보고서에 다운로드하고 가져올 수 있는 즉시 사용 가능한 몇몇 보고서 테마 JSON 파일은 다음과 같습니다. 보고서에 적용되는 보고서 테마 이미지도 이 문서에 포함했습니다.
 
 * [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)에 사용되는 [테마](https://go.microsoft.com/fwlink/?linkid=843924)는 [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924)이라는 **보고서 테마**의 첫 번째 릴리스를 발표합니다.
 
@@ -180,7 +180,7 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
 
 * **name**: 유일한 필수 필드인 테마 이름입니다.
 * **dataColors**: Power BI Desktop 시각적 개체에서 데이터에 사용하는 16진수 색 코드의 목록입니다. 목록에는 색이 원하는 만큼 포함될 수 있습니다.
-* **background**, **foreground** 및 **tableAccent**: 다양한 유형의 시각적 개체에 적용되어야 하는 색입니다. **foreground**은 텍스트 상자 텍스트, KPI 목표 텍스트, 다중 행 카드 텍스트, 카드 값 텍스트, 계기 설명선 텍스트, 수직 슬라이서 요소 텍스트 및 **테이블** 및 **행렬** 합계 및 값 텍스트에 적용됩니다. **background**는 단추 채우기 및 콤보 차트 레이블 배경에 적용됩니다. 적용되는 특정 시각적 개체 스타일에 따라 이러한 색을 사용하는 방법이 달라집니다. **테이블** 및 **행렬** 시각적 개체에는 기본적으로 이러한 스타일이 적용됩니다.
+* **background**, **foreground** 및 **tableAccent**: 다양한 유형의 시각적 개체에 적용되어야 하는 색입니다. **foreground**은 텍스트 상자 텍스트, KPI 목표 텍스트, 다중 행 카드 텍스트, 카드 값 텍스트, 계기 콜아웃 텍스트, 수직 슬라이서 요소 텍스트 및 **테이블** 및 **행렬** 합계 및 값 텍스트에 적용됩니다. **background**는 단추 채우기 및 콤보 차트 레이블 배경에 적용됩니다. 적용되는 특정 시각적 개체 스타일에 따라 이러한 색을 사용하는 방법이 달라집니다. **테이블** 및 **행렬** 시각적 개체에는 기본적으로 이러한 스타일이 적용됩니다.
 
 확장된 JSON 파일 서식을 만들려면 서식을 좀 더 자세하고 세부적으로 제어하여 **visualStyles** 섹션을 JSON 파일에 추가해야 합니다. **visualStyles** 섹션에서 서식 관련 정보를 중첩합니다. **visualStyles** 섹션은 다음 서식과 같이 표시됩니다.
 
@@ -222,7 +222,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 | comboChart |
 | donutChart |
 | filledMap |
-| 깔때기 |
+| 깔때기형 |
 | 계기 |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
@@ -231,7 +231,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 | lineChart |
 | lineClusteredColumnComboChart |
 | lineStackedColumnComboChart |
-| 맵 |
+| 지도 |
 | multiRowCard |
 | pieChart |
 | pivotTable |
@@ -248,56 +248,56 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 
 | **cardName** |
 | --- |
-| axis: 계기 축 |
-| breakdown: 분석 |
-| bubbles: 거품형 차트 |
+| axis: 게이지 축 |
+| breakdown: 분석 결과 |
+| bubbles: 거품형 |
 | calloutValue: 설명선 값 |
 | card: 카드 |
-| cardTitle: 카드 제목 |
-| categoryAxis: X-축 |
+| cardTitle: 카드 타일 |
+| categoryAxis: X축 |
 | categoryLabels: 범주 레이블 |
-| columnFormatting: 서식 지정 필드 |
-| columnHeaders: 열 헤더 |
+| columnFormatting: 필드 서식 |
+| columnHeaders: 열 머리글 |
 | dataLabels: 데이터 레이블 |
 | fill: 채우기 |
-| fillPoint: 채우기 지점 |
+| fillPoint: 채우기 점 |
 | forecast: 예측 |
 | general: 일반 |
 | goals: 목표 |
 | grid: 그리드 |
-| header: 헤더 |
+| header: 머리글 |
 | imageScaling: 크기 조정 |
 | indicator: 표시기 |
 | items: 항목 |
 | labels: 데이터 레이블 |
 | legend: 범례 |
 | lineStyles: 셰이프 |
-| mapControls: 컨트롤 매핑 |
-| mapStyles: 스타일 매핑 |
+| mapControls: 지도 컨트롤 |
+| mapStyles: 지도 스타일 |
 | numericInputStyle: 숫자 입력 |
-| percentBarLabel: 변환 비율 레이블 |
-| plotArea: 그림 영역 |
+| percentBarLabel: 변환율 레이블 |
+| plotArea: 플롯 영역 |
 | plotAreaShading: 대칭 음영 |
-| ratioLine: 비율 줄 |
-| referenceLine: 상수 줄 |
-| ribbonChart: 리본 메뉴 |
+| ratioLine: 비율 선 |
+| referenceLine: 상수 선 |
+| ribbonChart: 리본 |
 | rotation: 회전 |
-| rowHeaders: 행 헤더 |
-| selection: 선택 영역 컨트롤 |
-| sentimentColors: 감성 색 |
+| rowHeaders: 행 머리글 |
+| selection: 선택 컨트롤 |
+| sentimentColors: 감정 색 |
 | shape: 셰이프 |
 | slider: 슬라이더 |
-| status: 색 코딩 |
+| status: 색 구분 |
 | subTotals: 부분합 |
 | target: 대상 |
 | total: 총합계 |
-| trend: 추세 줄 |
+| trend: 추세선 |
 | trendline: 추세 축 |
-| valueAxis: Y-축 |
+| valueAxis: Y축 |
 | values: 값 |
 | wordWrap: 자동 줄 바꿈 |
-| xAxisReferenceLine: X-축 상수 선 |
-| y1AxisReferenceLine: 상수 줄 |
+| xAxisReferenceLine: X축 상수 선 |
+| y1AxisReferenceLine: 상수 선 |
 | zoom: 확대/축소 |
 
 ### <a name="properties-within-each-card"></a>각 카드 내의 속성

@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3ef719f85690297cd523a6fefb7f0ba5f77c9199
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 0ad902fc08592addb234517af99faedf1851503a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717611"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280944"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium 및 Power BI Embedded 내에서 용량 관리
 
@@ -56,7 +56,7 @@ Power BI Premium 또는 Embedded SKU를 구입할 때 테넌트는 실행 중인
 
 ## <a name="configure-workloads"></a>워크로드 구성
 
-기본적으로 Power BI Premium 및 Power BI Embedded 용량은 클라우드에서 실행 중인 Power BI 쿼리와 연결된 워크로드만 지원합니다. 이제 **페이지를 매긴 보고서**, **데이터 흐름** 등 두 가지 추가 워크로드의 미리 보기를 지원합니다. 자세한 내용은 [Workloads in Premium capacity](service-premium.md#workloads-in-premium-capacity)(프리미엄 용량의 워크로드)를 참조하세요.
+기본적으로 Power BI Premium 및 Power BI Embedded 용량은 클라우드에서 실행 중인 Power BI 쿼리와 연결된 워크로드만 지원합니다. 이제 다음 두 가지 추가 워크로드의 미리 보기를 지원합니다. **페이지를 매긴 보고서** 및 **데이터 흐름**. 자세한 내용은 [Workloads in Premium capacity](service-premium.md#workloads-in-premium-capacity)(프리미엄 용량의 워크로드)를 참조하세요.
 
 Power BI 관리 포털에서 워크로드를 사용하도록 설정하려면 다음 단계를 수행하세요.
 

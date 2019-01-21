@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 3a434c418e8a385db921dd910f354bda04ad8edd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679044"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289328"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Power BI 조직 콘텐츠 팩 만들기 및 게시(자습서)
 
@@ -53,7 +53,7 @@ Contoso의 릴리스 관리자이고 신제품 출시를 준비하는 중이라�
       > 
       > 
    
-   3. 권장 사항: **설명**을 추가합니다. 이렇게 하면 동료들이 필요한 콘텐츠 팩을 더욱 쉽게 찾을 수 있습니다. 설명 외에도 동료들이 이 콘텐츠 팩을 검색하는 데 사용할 수 있는 키워드를 추가합니다. 동료가 질문이 있거나 도움이 필요한 경우 연락할 수 있는 연락처 정보를 포함합니다.
+   3. 권장: **설명**을 추가합니다. 이렇게 하면 동료들이 필요한 콘텐츠 팩을 더욱 쉽게 찾을 수 있습니다. 설명 외에도 동료들이 이 콘텐츠 팩을 검색하는 데 사용할 수 있는 키워드를 추가합니다. 동료가 질문이 있거나 도움이 필요한 경우 연락할 수 있는 연락처 정보를 포함합니다.
    
    4. 텍스트를 찾는 것보다 이미지를 검색하는 것이 더 빠르므로 **이미지 또는 로고를 업로드**하여 그룹 구성원이 콘텐츠 팩을 쉽게 찾을 수 있도록 합니다. 아래 스크린샷에서는 기회 수 100%의 세로 막대형 차트 타일 이미지를 사용했습니다.
    

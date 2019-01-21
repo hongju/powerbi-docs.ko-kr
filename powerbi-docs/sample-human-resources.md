@@ -1,23 +1,23 @@
 ---
 title: '인적 자원 샘플: 둘러보기'
-description: 'Power BI용 인적 자원 샘플: 둘러보기'
+description: Power BI용 인적 자원 샘플 둘러보기
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c0f1df47501c297e65e7dc3ccdb8d745c84b2e55
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 1670fffd33e741962db5e7312f2a27273151980d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717875"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293943"
 ---
-# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI용 인적 자원 샘플: 둘러보기
+# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI용 인적 자원 샘플 둘러보기
 
 ## <a name="overview-of-the-human-resources-sample"></a>인적 자원 샘플 개요
 HR 부서는 업종이나 규모가 다른 경우에도 여러 회사에서 동일한 보고 모델을 갖습니다. 이 샘플에서는 신입, 근무 중인 직원, 퇴사한 직원을 살펴보고 채용 전략에서의 추세를 파악해 보겠습니다. 주요 목표는 다음을 이해하는 것입니다.
@@ -57,7 +57,7 @@ HR 부서는 업종이나 규모가 다른 경우에도 여러 회사에서 동�
  * [인적 자원 샘플 PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
-[이 샘플에 대한 데이터 집합(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529780)할 수도 있습니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 **파워 피벗 > 관리**를 선택합니다.
+[이 샘플에 대한 데이터 세트(Excel 통합 문서)만 다운로드](http://go.microsoft.com/fwlink/?LinkId=529780)할 수도 있습니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 **파워 피벗 > 관리**를 선택합니다.
 
 ## <a name="new-hires"></a>신입
 먼저 신규 채용자를 살펴보겠습니다.
@@ -128,7 +128,7 @@ HR 부서는 업종이나 규모가 다른 경우에도 여러 회사에서 동�
 4. 맨 위 탐색 모음에서 대시보드의 이름을 선택하여 대시보드로 돌아갑니다.
 
 ## <a name="asking-a-question-in-the-qa-box"></a>Q&A 상자에서 질문하기
-[질문 및 답변 상자](power-bi-tutorial-q-and-a.md)에서 자연어로 질문을 입력할 수 있습니다. 질문 및 답변에서 사용자가 입력한 단어를 인식하고 답변이 있는 데이터 집합의 위치를 찾아냅니다.
+[질문 및 답변 상자](power-bi-tutorial-q-and-a.md)에서 자연어로 질문을 입력할 수 있습니다. 질문 및 답변에서 사용자가 입력한 단어를 인식하고 답변이 있는 데이터 세트의 위치를 찾아냅니다.
 
 1. 질문과 대답 질문 상자를 클릭합니다. 입력을 시작하기 전에 질문 및 답변 상자에 다음과 같은 제안이 포함되어 있는지 확인합니다.
 

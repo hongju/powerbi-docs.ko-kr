@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: d0c6222c4b10307985ad039c3b391c8648614979
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619635"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280059"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서의 내게 필요한 옵션
 Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 상호 작용할 수 있도록 하는 기능이 있습니다. 이러한 기능에는 키보드 또는 화면 판독기를 사용하여 보고서를 이용하고 탭 키로 페이지에 있는 다양한 개체에 포커스를 이동하며 시각적 개체에 표식을 세밀하게 사용하는 기능이 있습니다.
@@ -36,7 +36,7 @@ Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 �
 * 포커스가 *보고서 페이지 탭*에 있는 경우 *탭* 또는 *화살표* 키를 사용하여 한 보고서 페이지에서 다음 페이지로 포커스를 이동합니다. 보고서 페이지의 제목과 현재 선택 여부는 화면 판독기로 읽습니다. 현재 포커스가 있는 보고서 페이지를 로드하려면 *Enter* 또는 *Space* 키를 사용합니다.
 * 포커스가 로드된 *보고서 페이지*에 있는 경우 *탭* 키를 사용하여 페이지의 각 개체(모든 텍스트 상자, 이미지, 셰이프 및 차트)로 포커스를 이동합니다. 화면 판독기는 개체의 유형, 개체의 제목(있는 경우) 및 해당 개체에 대한 설명(보고서 작성자가 제공한 경우)을 읽습니다. 
 
-시각적 개체 사이를 탐색할 때 추가적으로 상호 작용하려면 **Alt+Shift+F10**을 눌러 정렬, 차트 뒤의 데이터 내보내기 및 포커스 모드가 포함된 다양한 옵션을 포함하는 시각적 헤더로 포커스를 이동시킬 수 있습니다. 
+시각적 개체 사이를 탐색할 때 **Alt+Shift+F10**을 눌러 정렬, 차트 뒤의 데이터 내보내기 및 포커스 모드가 포함된 다양한 옵션을 포함하는 시각적 헤더로 포커스를 이동시킬 수 있습니다. 
 
 ![Power BI Desktop에서 Alt+Shift+F10을 눌러 시각적 헤더로 포커스 이동](media/desktop-accessibility/accessibility_08.png)
 
@@ -68,13 +68,13 @@ Tab 키를 눌러 슬라이서에서 컨트롤로 이동할 수 있습니다. �
   ![꺾은선형 및 영역형 차트에 다양한 표식을 사용하여 내게 필요한 옵션 개선](media/desktop-accessibility/accessibility_01.png)
   
   * 각 선에 다양한 *표식 모양*을 사용하면 보고서 사용자가 선(또는 영역)을 보다 쉽게 구분할 수 있습니다.
-* 이전 글머리 기호에 따라 정보를 전달하기 위해 색에 의존하지 마세요. 줄 및 분산형 차트에서 셰이프를 사용하는 것 외에도 테이블 및 행렬에 정보를 제공하는 조건부 서식을 사용하지 마세요. 
+* 이전 글머리 기호에 따라 정보를 전달하기 위해 색에 의존하지 마세요. 꺾은선형 및 분산형 차트에서 셰이프를 사용하는 것 외에도 테이블 및 행렬에 정보를 제공하는 조건부 서식을 사용하지 마세요. 
 * 보고서의 각 시각적 개체에 대한 의도적인 정렬 순서를 선택합니다. 화면 판독기 사용자가 차트 뒤의 데이터를 탐색할 때 시각적 개체와 같은 정렬 순서를 선택합니다.
 * 테마 갤러리에서 고대비 및 색맹인 *테마*를 선택하고 [**테마 설정** 미리 보기 기능](desktop-report-themes.md)을 사용하여 가져옵니다.
 * 보고서의 모든 개체에 대해 *대체 텍스트*를 제공합니다. 이렇게 하면 보고서 사용자는 시각적 개체, 이미지, 셰이프 또는 텍스트 상자를 볼 수 없더라도 시각적 개체와 통신하는 내용을 잘 파악할 수 있습니다. 개체(예: 시각적 개체, 셰이프 등)를 선택하고 **시각화** 창에서 **서식** 섹션을 선택하며 **일반**을 확장한 후 아래로 스크롤하고 **대체 텍스트** 텍스트 상자를 입력하여 **Power BI Desktop** 보고서의 모든 개체에 대해 ‘대체 텍스트’를 제공할 수 있습니다.
   
   ![보고서에 있는 모든 개체에 대한 대체 텍스트는 시각화 > 서식 > 일반 > 대체 텍스트 상자에서 추가할 수 있습니다.](media/desktop-accessibility/accessibility_02.png)
-* 보고서에서 텍스트와 배경 색 간에 충분한 대비가 되는지 확인합니다. [색상 대비 분석기](https://developer.paciellogroup.com/resources/contrastanalyser/)와 같은 여러 도구를 사용하여 보고서 색상을 확인할 수 있습니다. 
+* 보고서에서 텍스트와 배경 색 간에 충분한 대비가 되는지 확인합니다. [색 대비 분석기](https://developer.paciellogroup.com/resources/contrastanalyser/)와 같은 여러 도구를 사용하여 보고서 색상을 확인할 수 있습니다. 
 * 쉽게 읽을 수 있는 텍스트 크기와 글꼴을 사용합니다. 작은 텍스트 크기 또는 읽기 어려울 수 있는 글꼴은 필요한 옵션에 도움이 되지 않습니다.
 * 모든 시각적 개체에는 제목, 축 레이블 및 데이터 레이블이 포함됩니다.
 * 모든 보고서 페이지에 의미 있는 제목을 사용합니다.
@@ -93,7 +93,7 @@ Windows에서 고대비 모드를 사용하면 선택한 설정 및 팔레트가
 
 ![고대비 Windows 설정](media/desktop-accessibility/accessibility_05.png)
 
-**Power BI Desktop**은 Windows에서 어떤 고대비 테마가 사용되고 있는지 자동으로 감지하여 해당 설정을 보고서에 적용합니다. 이러한 고대비 색상은 Power BI 서비스 또는 다른 곳에 게시될 때 보고서를 따릅니다.
+**Power BI Desktop**은 Windows에서 어떤 고대비 테마가 사용되고 있는지 자동으로 감지하여 해당 설정을 보고서에 적용합니다. 이러한 고대비 색은 Power BI 서비스 또는 다른 곳에 게시될 때 보고서를 따릅니다.
 
 ![고대비 Windows 설정](media/desktop-accessibility/accessibility_05b.png)
 
@@ -126,51 +126,54 @@ Windows에서 고대비 모드를 사용하면 선택한 설정 및 팔레트가
 ### <a name="frequently-used-shortcuts"></a>자주 사용되는 바로 가기
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
-| 구역 간에 포커스 이동  | Ctrl+F6 |
+| 구역 간에 포커스 이동  | Ctrl + F6 |
 | 구역에서 포커스를 앞으로 이동 | Tab         |
-| 구역에서 포커스를 뒤로 이동 | Shift+Tab |
+| 구역에서 포커스를 뒤로 이동 | Shift + Tab |
 | 개체 선택 또는 선택 취소 | 입력 또는 공백 |
 | 다중 선택 개체 | Ctrl+Space |
 
 ### <a name="on-visual"></a>시각적 개체에서
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
-| 시각적 메뉴로 포커스 이동 | Alt+Shift+F10 |
-| 데이터 표시 | Alt+Shift+F11  |
+| 시각적 메뉴로 포커스 이동 | Alt + Shift + F10 |
+| 데이터 표시 | Alt + Shift + F11  |
 
 ### <a name="pane-navigation"></a>창 탐색
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
-| 팝업 메뉴 열기 | <ul><li>Windows 키보드: Windows 팝업 키+F10  Windows 팝업 키는 왼쪽 Alt 키와 왼쪽 화살표 키 사이에 있습니다.</li><li>다른 키보드: Shift+F10</li></ul> |
+| 상황에 맞는 메뉴 열기 | <ul><li>Windows 키보드: Windows 팝업 키+F10.  Windows 팝업 키는 왼쪽 Alt 키와 왼쪽 화살표 키 사이에 있습니다.</li><li>다른 키보드: Shift + F10</li></ul> |
 
 ### <a name="slicer"></a>슬라이서
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
-| 슬라이서 상호 작용 | Ctrl+오른쪽 화살표 키 |
+| 슬라이서 상호 작용 | Ctrl + 오른쪽 화살표 키 |
 
 ### <a name="selection-pane"></a>선택 창
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
 | 선택 영역 창 활성화 | F6 |
-| 계층에서 위로 개체 이동 | Ctrl+Shift+F |
-| 계층에서 아래로 개체 이동 | Ctrl+Shift+B |
-| 개체 표시/숨기기(설정/해제) | Ctrl+Shift+S |
+| 계층에서 위로 개체 이동 | Ctrl + Shift + F |
+| 계층에서 아래로 개체 이동 | Ctrl + Shift + B |
+| 개체 표시/숨기기(설정/해제) | Ctrl + Shift + S |
 
 ### <a name="dax-editor"></a>DAX 편집기
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
-| 위로/아래로 줄 이동 | Alt+위쪽 화살표 키/아래쪽 화살표 키 |
-| 위로/아래로 줄 복사 | Shift+Alt+위쪽 화살표 키/아래쪽 화살표 키 |
-| 아래에 행 삽입 | Ctrl+Enter |
-| 위에 행 삽입 | Ctrl+Shift+Enter |
-| 일치하는 대괄호로 이동 | Ctrl+Shift+\ |
-| 줄 들여쓰기/내어쓰기 | Ctrl+] / [ |
-| 커서 삽입 | Alt+클릭 |
-| 현재 줄 선택 | Ctrl+I |
-| 현재 선택 사항에 일치하는 모든 항목 선택 | Ctrl+Shift+L |
-| 현재 단어와 일치하는 항목 모두 선택 | Ctrl+F2 |
+| 위로/아래로 줄 이동 | Alt + 위쪽 화살표 키/아래쪽 화살표 키 |
+| 위로/아래로 줄 복사 | Shift + Alt + 위쪽 화살표 키/아래쪽 화살표 키 |
+| 아래에 행 삽입 | Ctrl + Enter |
+| 위에 행 삽입 | Ctrl + Shift + Enter |
+| 일치하는 대괄호로 이동 | Ctrl + Shift + \ |
+| 줄 들여쓰기/내어쓰기 | Ctrl + ] / [ |
+| 커서 삽입 | Alt + 클릭 |
+| 현재 줄 선택 | Ctrl + I |
+| 현재 선택 사항에 일치하는 모든 항목 선택 | Ctrl + Shift + L |
+| 현재 단어와 일치하는 항목 모두 선택 | Ctrl + F2 |
 
-
+### <a name="enter-data"></a>데이터 입력
+| 수행할 작업           | 누르기                |
+| :------------------- | :------------------- |
+| 편집 가능한 그리드 종료 | Ctrl+Tab |
 
 
 ## <a name="next-steps"></a>다음 단계

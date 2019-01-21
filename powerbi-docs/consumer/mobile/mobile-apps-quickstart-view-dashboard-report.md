@@ -1,20 +1,20 @@
 ---
 title: '빠른 시작: 모바일 앱에서 대시보드 및 보고서 살펴보기'
 description: 이 빠른 시작에서는 Power BI 모바일 앱의 샘플 대시보드 및 보고서를 살펴봅니다.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/16/2018
-ms.author: maggies
-ms.openlocfilehash: 6d5d543c3654da13592b24f4c70bc964eb7bddff
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.author: mshenhav
+ms.openlocfilehash: 9bb6dec4cdb689d2a21812b1dab8ebeb49090542
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157267"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279116"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>빠른 시작: Power BI 모바일 앱에서 대시보드 및 보고서 살펴보기
 이 빠른 시작에서는 Android 휴대폰에서 Power BI 모바일 앱의 샘플 대시보드 및 보고서를 살펴봅니다. 다른 모바일 앱에서도 따라할 수 있습니다. 
@@ -145,7 +145,7 @@ Android 디바이스에서 샘플을 볼 준비가 되었습니다.
 
 4. **보고서** 탭을 선택하고 소매점 분석 보고서에 대해 동일한 작업을 수행합니다.
 
-5. **데이터 집합** 탭을 선택하고 소매점 분석 데이터 집합에 대해 동일한 작업을 수행합니다.
+5. **데이터 세트** 탭을 선택하고 소매점 분석 데이터 세트에 대해 동일한 작업을 수행합니다.
 
 
 ## <a name="next-steps"></a>다음 단계
@@ -153,5 +153,5 @@ Android 디바이스에서 샘플을 볼 준비가 되었습니다.
 이 빠른 시작에서는 Android 디바이스의 샘플 대시보드 및 보고서를 살펴보았습니다. Power BI 서비스 작업에 대해 자세히 알아보세요. 
 
 > [!div class="nextstepaction"]
-> [빠른 시작 - Power BI 서비스 살펴보기](../end-user-experience.md)
+> [빠른 시작: Power BI 서비스 살펴보기](../end-user-experience.md)
 

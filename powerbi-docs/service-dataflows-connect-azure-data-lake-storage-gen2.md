@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: d48df3287813229e673bbc523281cdb2218ec384
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649048"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277276"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)
 
@@ -76,7 +76,7 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 
 스토리지 계정을 Power BI에 추가하려면 먼저 *powerbi*라는 파일 시스템을 만들어야 합니다. Azure Databricks, HDInsight, AZCopy 또는 Azure Storage 탐색기 사용을 포함하여 다양한 방법으로 파일 시스템을 만들 수 있습니다. 이 섹션에서는 Azure Storage 탐색기를 사용하여 파일 시스템을 만드는 간단한 방법을 보여 줍니다.
 
-이 단계를 수행하려면 Azure Storage 탐색기 버전 1.6.1 이상을 설치해야 합니다. Windows, Macintosh 또는 Linux용 Azure Storage 탐색기를 설치하려면 [Azure Storage 탐색기](https://azure.microsoft.com/features/storage-explorer/)를 참조하세요.
+이 단계를 수행하려면 Azure Storage 탐색기 버전 1.6.2 이상을 설치해야 합니다. Windows, Macintosh 또는 Linux용 Azure Storage 탐색기를 설치하려면 [Azure Storage 탐색기](https://azure.microsoft.com/features/storage-explorer/)를 참조하세요.
 
 1. Azure Storage 탐색기를 성공적으로 설치하면 처음 시작할 때 [Microsoft Azure Storage 탐색기 - 연결] 창이 표시됩니다. Storage 탐색기는 스토리지 계정에 연결하는 여러 가지 방법을 제공하지만 현재 필요한 설정에 지원되는 방법은 한 가지뿐입니다. 
 
@@ -104,7 +104,7 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 
 1. [Azure Portal](https://portal.azure.com/)의 왼쪽 탐색 패널에서 **Azure Active Directory**를 선택합니다.
 2. Azure **Active Directory** 블레이드에서 **엔터프라이즈 애플리케이션**을 선택합니다.
-3. **애플리케이션 유형** 드롭다운 메뉴에서 **모든 애플리케이션**을 선택한 후 **적용을 **선택합니다. 테넌트 애플리케이션의 샘플이 다음 이미지와 비슷하게 표시됩니다.
+3. **애플리케이션 유형** 드롭다운 메뉴에서 **모든 애플리케이션**을 선택한 후 **적용을** 선택합니다. 테넌트 애플리케이션의 샘플이 다음 이미지와 비슷하게 표시됩니다.
 
     ![AAD 엔터프라이즈 애플리케이션](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 

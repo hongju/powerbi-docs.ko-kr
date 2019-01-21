@@ -1,20 +1,20 @@
 ---
 title: Apple Watch에서 모바일 앱의 Power BI 데이터 탐색
 description: Power BI Apple Watch 앱
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: bb5257b801ddb8ff2269a102e4f6c299b1291df4
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 2d43fe5e0248d3876f70878bbbe8a1c9b6387df7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742796"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278909"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch에서 Power BI 모바일 앱의 데이터 탐색
 Power BI Apple Watch 앱을 사용하여 시계에 있는 Power BI 대시보드에서 KPI 및 타일 카드을 볼 수 있습니다. KPI 및 카드 타일은 작은 화면에서 하트비트 측정값을 제공하는 데 가장 적합합니다. iPhone이나 Watch 자체에서 대시보드를 새로 고칠 수 있습니다.

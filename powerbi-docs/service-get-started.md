@@ -6,19 +6,19 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900554"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291988"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>자습서: Power BI 서비스 시작(app.powerbi.com)
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>자습서: Power BI 서비스(app.powerbi.com) 시작
 이 자습서는 ***Power BI 서비스***를 시작할 때 도움이 됩니다. Power BI 서비스를 다른 Power BI 제품에 적용하는 방법을 이해하려면 [Power BI란?](power-bi-overview.md)을 참조하여 시작하는 것이 좋습니다.
 
 ![바탕 화면, 서비스, 모바일 간의 관계를 보여주는 아트](media/service-get-started/power-bi-components.png)
@@ -33,7 +33,7 @@ ms.locfileid: "52900554"
 > * 해당 데이터를 사용하여 시각화를 만들고 보고서로 저장
 > * 보고서에서 타일을 고정하여 대시보드 만들기
 > * 질문 및 답변 자연어 도구를 사용하여 대시보드에 다른 시각화 추가
-> * 데이터 집합, 보고서 및 대시보드를 삭제하여 리소스 정리
+> * 데이터 세트, 보고서 및 대시보드를 삭제하여 리소스 정리
 
 ## <a name="sign-up-for-power-bi-service"></a>Power BI 서비스에 등록
 아직 Power BI에 등록하지 않은 경우 시작하기 전에 [Power BI Pro 평가판에 등록](https://app.powerbi.com/signupredirect?pbi_source=web)합니다.
@@ -53,7 +53,7 @@ Power BI Desktop에 대한 도움말 찾고 있는 경우 [데스크톱 시작](
 > 
 
 ## <a name="what-is-power-bi-service"></a>Power BI 서비스란?
-Microsoft Power BI 서비스는 Power BI 온라인 또는 app.powerbi.com이라고도 합니다. Power BI는 중요한 정보를 최신 상태로 유지하는 데 도움이 됩니다.  Power BI 서비스를 사용하면 ***대시보드***를 통해 비즈니스의 실상을 잘 파악할 수 있습니다.  대시보드에는 클릭하여 ***보고서***를 열고 자세히 탐색할 수 있는 ***타일***이 표시됩니다.  여러 ***데이터 집합***에 연결하여 관련 데이터를 모두 한 곳으로 가져옵니다. Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power BI - 기본 개념](consumer/end-user-basic-concepts.md)을 참조하세요.
+Microsoft Power BI 서비스는 Power BI 온라인 또는 app.powerbi.com이라고도 합니다. Power BI는 중요한 정보를 최신 상태로 유지하는 데 도움이 됩니다.  Power BI 서비스를 사용하면 ***대시보드***를 통해 비즈니스의 실상을 잘 파악할 수 있습니다.  대시보드에는 클릭하여 ***보고서***를 열고 자세히 탐색할 수 있는 ***타일***이 표시됩니다.  여러 ***데이터 세트***에 연결하여 관련 데이터를 모두 한 곳으로 가져옵니다. Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power BI - 기본 개념](consumer/end-user-basic-concepts.md)을 참조하세요.
 
 Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시보드를 만들어 어디서나 최신 정보를 받고 다른 사람과 통찰력을 공유할 수 있습니다.  Salesforce와 같은 SaaS 애플리케이션에 대한 구독이 있는 경우  먼저 Salesforce에 연결하여 해당 데이터에서 자동으로 대시보드를 생성하거나 [다른 모든 SaaS 앱을 체크 아웃](service-get-data.md)합니다. 조직의 일부인 경우 [앱](service-create-distribute-apps.md)이 자신에게 게시되었는지 확인합니다.
 
@@ -72,12 +72,12 @@ Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시�
 4. 컴퓨터에서 파일을 찾은 다음 **열기**를 선택합니다. 비즈니스용 OneDrive에 저장한 경우 해당 옵션을 선택합니다. 로컬에 저장한 경우 **로컬 파일**을 선택합니다. 
    
    ![데이터 가져오기 > 파일 화면](media/service-get-started/gs2.png)
-5. 이 자습서에서는 보고서 및 대시보드를 만드는 데 사용할 수 있게 Excel 파일을 데이터 집합으로 추가하기 위해 **가져오기**를 선택할 것입니다. **업로드**를 선택할 경우 전체 Excel 통합 문서가 Power BI에 업로드되어 Excel에서 온라인으로 열어 편집할 수 있습니다.
+5. 이 자습서에서는 보고서 및 대시보드를 만드는 데 사용할 수 있게 Excel 파일을 데이터 세트로 추가하기 위해 **가져오기**를 선택할 것입니다. **업로드**를 선택할 경우 전체 Excel 통합 문서가 Power BI에 업로드되어 Excel에서 온라인으로 열어 편집할 수 있습니다.
    
    ![가져오기 선택](media/service-get-started/power-bi-import.png)
-6. 데이터 집합이 준비되면 **데이터 집합 보기**를 선택하여 보고서 편집기에서 엽니다. 
+6. 데이터 세트가 준비되면 **데이터 세트 보기**를 선택하여 보고서 편집기에서 엽니다. 
 
-    ![데이터 집합이 준비되었습니다 대화 상자](media/service-get-started/power-bi-gs.png)
+    ![데이터 세트가 준비되었습니다.](media/service-get-started/power-bi-gs.png)
 
     아직 시각화를 만들지 않았기 때문에 보고서 캔버스는 비어 있을 것입니다.
 
@@ -128,7 +128,7 @@ Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시�
    
    언제든지 대시보드에서 새 타일을 선택하여 보고서로 돌아갑니다. Power BI가 읽기용 보기에서 보고서 편집기로 돌아갑니다. 편집용 보기로 다시 전환하려면 상단 메뉴 모음에서 **보고서 편집**을 선택합니다. 편집용 보기로 전환되면 타일을 계속 탐색하고 고정합니다. 
 
-## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>3단계: 질문 및 답변 탐색 계속(자연어 쿼리)
+## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>3단계:  질문 및 답변 탐색 계속(자연어 쿼리)
 1. 데이터의 빠른 탐색을 위해 질문 및 답변 상자에 질문을 합니다. 질문 및 답변의 질문 상자는 대시보드의 상단(**데이터에 대해 질문하기**) 및 보고서의 상단 메뉴 모음(**질문하기**)에 있습니다. 예를 들어 "어떤 세그먼트에서 가장 많은 수익을 냈나요"라고 입력해 보세요.
    
    ![질문 및 답변 캔버스](media/service-get-started/powerbi-qna.png)
@@ -143,15 +143,15 @@ Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시�
    ![차트가 고정된 대시보드](media/service-get-started/power-bi-final-dashboard.png)
 
 ## <a name="clean-up-resources"></a>리소스 정리
-자습서를 완료했으므로 데이터 집합, 보고서 및 대시보드를 삭제할 수 있습니다. 
+자습서를 완료했으므로 데이터 세트, 보고서 및 대시보드를 삭제할 수 있습니다. 
 
 1. 왼쪽 탐색 모음에서 **내 작업 영역**을 선택합니다.
-2. **데이터 집합** 탭을 선택하고 이 자습서에 가져온 데이터 집합을 찾습니다.  
+2. **데이터 세트** 탭을 선택하고 이 자습서에 가져온 데이터 세트를 찾습니다.  
 3. 줄임표(...) > **삭제**를 선택합니다.
 
-    ![데이터 집합 삭제](media/service-get-started/power-bi-delete.jpg)
+    ![데이터 세트 삭제](media/service-get-started/power-bi-delete.jpg)
 
-    데이터 집합을 삭제하면 보고서 및 대시보드도 삭제합니다. 
+    데이터 세트를 삭제하면 보고서 및 대시보드도 삭제합니다. 
 
 
 ## <a name="next-steps"></a>다음 단계

@@ -5,17 +5,17 @@ author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 2093800f10484a24eb4db9f77f45468ae4b9b4c3
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829837"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290501"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop 및 Power BI 서비스에서 보고서를 만들기 위한 팁과 힌트
 데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop, Power BI 서비스 ‘및’ 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다.
@@ -30,7 +30,7 @@ Power BI Desktop의 쿼리 편집기는 Excel 2013의 파워 쿼리 추가 기�
 또한 [수식 참조](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)를 볼 수 있습니다.
 
 ### <a name="data-types-in-query-editor"></a>쿼리 편집기의 데이터 형식
-Power BI Desktop의 쿼리 편집기를 사용하여 데이터를 로드하는 경우 최상의 추측 데이터 형식 검색을 수행합니다.  수식을 사용할 경우 열의 데이터 형식 설정이 유지되지 않는 경우도 있습니다. 쿼리 탭에 처음 데이터 로드, 첫 행을 머리글로 사용, 열 추가, 그룹화 기준, 병합, 추가 작업을 수행한 이후와 처음 데이터 로드를 누르기 전에 열의 데이터 형식이 올바른지 확인해야 합니다.
+Power BI Desktop의 쿼리 편집기를 사용하여 데이터를 로드하는 경우 최상의 추측 데이터 형식 검색을 수행합니다.  수식을 사용할 경우 열의 데이터 형식 설정이 유지되지 않는 경우도 있습니다. 다음과 같은 경우 열의 데이터 형식이 올바른지 확인해야 합니다.  쿼리 탭에 처음 데이터 로드, 첫 행을 머리글로 사용, 열 추가, 그룹화 기준, 병합, 추가 작업을 수행한 이후 및 처음 데이터 로드를 누르기 이전.
 
 기억해야 할 한 가지 중요한 사항: 데이터 표의 기울임꼴은 데이터 형식이 올바르게 설정되었음을 의미하지는 않습니다. 단지 데이터가 텍스트로 간주되지 않음을 의미할 뿐입니다.
 

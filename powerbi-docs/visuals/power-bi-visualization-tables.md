@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c94fd3ce58cefdb9e3cc7749b6486ab9bb0577cb
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 2c909f1f7d2c1b500d37de0e4617e10c79977c96
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101465"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284774"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드의 테이블
 테이블은 논리적으로 연속된 행과 열에서 관련된 데이터를 포함하는 표입니다. 머리글과 합계에 대한 행이 포함될 수도 있습니다. 테이블은 단일 범주에 대한 많은 값을 볼 수 있는 정량적 비교와 잘 작동합니다. 예를 들어 이 테이블은 **범주**합에 대한 5개의 서로 다른 측정값을 표시합니다.
@@ -50,7 +50,7 @@ ms.locfileid: "50101465"
 
     ![범주 추가 결과](media/power-bi-visualization-tables/power-bi-table1.png)
 3. **영업 > 평균 단가** 및 **> 지난 해 매출** 및 **>올해 매출**을 선택하고 3개 옵션(값, 목표, 상태) 전부 선택합니다.   
-4. 시각화 창에서 **값** 영역을 찾고 이 페이지에서 차트 열의 순서가 첫 번째 이미지와 일치될 때까지 끌어서 놓습니다.  값 영역은 다음과 같이 표시되어야 합니다.
+4. 시각화 창에서 well **값**을 찾고 이 페이지에서 차트 열의 순서가 첫 번째 이미지와 일치될 때까지 끌어서 놓습니다.  well 값은 다음과 같이 표시되어야 합니다.
 
     ![값 웰](media/power-bi-visualization-tables/power-bi-table2.png)
 5. 핀 고정 아이콘을 선택하여 테이블을 대시보드에 고정  
@@ -80,11 +80,11 @@ ms.locfileid: "50101465"
     ![지금까지 모든 서식이 포함된 테이블](media/power-bi-visualization-tables/power-bi-table-format.png)
 
 ### <a name="conditional-formatting"></a>조건부 서식 지정
-서식 지정 유형 중 하나로 *조건부 서식 지정*이 있으며, 이는 Power BI 서비스 또는 Desktop에 있는 **시각화** 창의 **값** 영역 필드에 적용됩니다. 
+서식 지정 유형 중 하나로 *조건부 서식 지정*이 있으며, 이는 Power BI 서비스 또는 Desktop에 있는 **시각화** 창의 **값** 웰 필드에 적용됩니다. 
 
 테이블에 대한 조건부 서식 지정을 사용하여 그라데이션 색 사용을 포함하는 셀 값을 기반으로 하는 사용자 지정된 셀 배경색 및 글꼴 색을 지정할 수 있습니다. 
 
-1. Power BI 서비스 또는 Desktop의 **시각화** 창에서 서식을 지정하려는 **값** 영역의 값 옆에 있는 아래쪽 화살표를 선택합니다(또는 필드를 마우스 오른쪽 단추로 클릭). 필드에 대한 조건부 서식은 **필드**의 **값** 영역에서만 관리할 수 있습니다.
+1. Power BI 서비스 또는 Desktop의 **시각화** 창에서 서식을 지정하려는 **값** 웰의 값 옆에 있는 아래쪽 화살표를 선택합니다(또는 필드를 마우스 오른쪽 단추로 클릭). 필드에 대한 조건부 서식은 **필드**의 **값** 영역에서만 관리할 수 있습니다.
 
     ![배경색 눈금 경로](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
 2. **배경 색 눈금**을 선택합니다. 대화 상자가 나타나면 색은 물론 ‘최소’ 및 ‘최대’ 값을 구성할 수 있습니다. **분기** 상자를 선택하면 선택적인 *가운데* 값도 구성할 수 있습니다.
@@ -135,7 +135,7 @@ ms.locfileid: "50101465"
 ![열 크기 조정 비디오 확대 사진](media/power-bi-visualization-tables/resizetable.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-* 열 서식 지정을 적용할 때 자동, 왼쪽, 가운데, 오른쪽 중에 하나의 열당 맞춤 옵션을 선택할 수 있습니다. 일반적으로 열은 모두 텍스트 또는 숫자만을 포함하고 섞지 않습니다. 하지만 열에 숫자와 텍스트가 모두 포함되어 있는 경우 **자동**은 텍스트의 경우 왼쪽에 정렬하고, 번호의 경우 오른쪽에 정렬합니다. 이 동작은 왼쪽에서 오른쪽으로 읽는 언어를 지원합니다.   
+* 열 서식 지정을 적용할 때 다음 중에 하나의 열당 맞춤 옵션을 선택할 수 있습니다. 자동, 왼쪽, 가운데, 오른쪽. 일반적으로 열은 모두 텍스트 또는 숫자만을 포함하고 섞지 않습니다. 하지만 열에 숫자와 텍스트가 모두 포함되어 있는 경우 **자동**은 텍스트의 경우 왼쪽에 정렬하고, 번호의 경우 오른쪽에 정렬합니다. 이 동작은 왼쪽에서 오른쪽으로 읽는 언어를 지원합니다.   
 
 ## <a name="next-steps"></a>다음 단계
 

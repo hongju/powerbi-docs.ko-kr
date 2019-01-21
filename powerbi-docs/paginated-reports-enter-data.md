@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: c3b003ee600df010aa07aad78ee2350704734dd4
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 9556a501832502a8d5653967408b9fac8d0704a5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900408"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295606"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터 입력(미리 보기) - Power BI
 
@@ -28,7 +28,7 @@ ms.locfileid: "52900408"
 
 ## <a name="get-started"></a>시작
 
-보고서 작성기를 다운로드하고 설치한 후에는 포함된 데이터 원본과 데이터 세트를 보고서에 추가하는 데 사용하는 것과 동일한 워크플로를 수행합니다. 다음 프로시저에서는 **데이터 원본** 아래에 새 옵션(**데이터 입력**)이 표시됩니다.  이 데이터 원본은 보고서에 한 번만 설정하면 됩니다. 그런 다음, 입력된 데이터의 여러 테이블을 별도의 데이터 세트로 만들 수 있으며, 모두 해당 단일 데이터 원본을 사용합니다.
+보고서 작성기를 다운로드하고 설치한 후에는 포함된 데이터 원본과 데이터 세트를 보고서에 추가하는 데 사용하는 것과 동일한 워크플로를 수행합니다. 다음 프로시저에서는 **데이터 원본** 아래에 새 옵션인 **데이터 입력**이 표시됩니다.  이 데이터 원본은 보고서에 한 번만 설정하면 됩니다. 그런 다음, 입력된 데이터의 여러 테이블을 별도의 데이터 세트로 만들 수 있으며, 모두 해당 단일 데이터 원본을 사용합니다.
 
 1. **보고서 데이터** 창에서 **새로 만들기** > **데이터 세트**를 선택합니다.
 

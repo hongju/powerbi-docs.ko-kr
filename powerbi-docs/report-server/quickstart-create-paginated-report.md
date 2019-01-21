@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.author: maggies
-ms.openlocfilehash: 475221981181e4ddfac18e7023259fac9bbc35ed
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289131"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284432"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server에 페이지를 매긴 보고서 만들기
 이름에서 알 수 있듯이 여러 페이지에서 페이지가 매겨진 보고서를 실행할 수 있습니다. 고정된 형식으로 만들어졌으며 정확한 사용자 지정을 제공합니다. 페이지가 매겨진 보고서는 .rdl 파일입니다.
@@ -51,13 +51,13 @@ SSRS 서버에 보고서를 만들기 위해 보고서 작성기를 이미 설�
 
 페이지가 매겨진 보고서는 Microsoft SQL Server와 Microsoft Azure SQL Database 및 Oracle, Hyperion 등과 같은 다양한 데이터 소스에 연결할 수 있습니다. [페이지가 매겨진 보고서에서 지원하는 데이터 소스](connect-data-sources.md)에 대해 참고하세요.
 
-차트 마법사의 첫 번째 페이지, **데이터 세트 선택**에서 데이터 세트를 만들거나 서버에 대한 공유 데이터 세트를 선택할 수 있습니다. *데이터 집합*은 외부 데이터 원본에 대한 쿼리에서 보고서 데이터를 반환합니다.
+차트 마법사의 첫 번째 페이지, **데이터 세트 선택**에서 데이터 세트를 만들거나 서버에 대한 공유 데이터 세트를 선택할 수 있습니다. *데이터 세트*는 외부 데이터 원본에 대한 쿼리에서 보고서 데이터를 반환합니다.
 
-1. **찾아보기** > 서버에서 공유 데이터 집합 선택 > **열기** > **다음**을 선택합니다.
+1. **찾아보기** &gt; 서버에서 공유 데이터 세트 선택 &gt; **열기** > **다음**을 선택합니다.
    
     ![차트 마법사: 데이터 세트 선택](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
-     데이터 세트를 만들어야 하나요? [공유 또는 포함된 데이터 집합 만들기](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs)를 참조하세요.
+     데이터 세트를 만들어야 하나요? [공유 또는 포함된 데이터 세트 만들기](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs)를 참조하세요.
 2. 이 경우에는 차트 유형에서 가로 막대형 차트를 선택합니다.
    
     ![차트 마법사: 차트 종류](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)

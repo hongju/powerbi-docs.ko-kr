@@ -6,24 +6,24 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92e86817231e959db50af3c32fe8eba761c79a61
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: dd7360761cc78aed9b01eb99165de9f0b4b91ffe
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448871"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274769"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI의 트리맵
 트리맵은 계층 데이터를 중첩된 사각형의 집합으로 표시합니다.  계층의 각 수준은 다른 사각형("잎")를 포함하는 색이 칠해진 사각형("가지"라고도 함)으로 표시됩니다.  각 사각형 내부의 공간은 측정되는 값을 기반으로 하여 할당됩니다. 사각형은 크기순으로 가장 큰 것이 왼쪽 위, 가장 작은 것이 오른쪽 아래에 정렬됩니다.
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)
 
-예를 들어, 내 판매액을 분석하고 있는 경우 **Urban**, **Rural**, **Youth** 및 **Mix** 등 의류 범주의 최상단 사각형(‘가지’라고도 함)을 가지고 있는 것입니다.  내 범주 사각형은 각 범주 내의 의류 제조업체에 해당하는 작은 사각형(‘잎’이라고도 함)으로 분할됩니다. 그리고 이 작은 사각형은 판매 수치를 기준으로 크기가 조정되고 음영으로 표시됩니다.  
+예를 들어, 내 판매액을 분석하고 있는 경우 다음과 같은 의류 범주의 최상위 사각형(‘분기’라고도 함)을 가지고 있는 것입니다. **Urban**, **Rural**, **Youth** 및 **Mix**.  내 범주 사각형은 각 범주 내의 의류 제조업체에 해당하는 작은 사각형(‘잎’이라고도 함)으로 분할됩니다. 그리고 이 작은 사각형은 판매 수치를 기준으로 크기가 조정되고 음영으로 표시됩니다.  
 
 위의 **Urban** 가지에서는 `Maximus` 의류가 많이 판매되었고 `Natura` 및 `Fama`는 더 적게 판매되었고 `Leo`는 거의 판매되지 않았습니다.  따라서 내 트리맵의 **Urban** 가지에는 다음과 같이 구성됩니다.
 * `Maximus`에 해당하는 가장 큰 사각형(왼쪽 위 모서리)

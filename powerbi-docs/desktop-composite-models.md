@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ffb82303584249641454c81f61e399d2b1d4f574
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 734af04ae515b1cae19b5afc99166619a85ab828
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452778"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290460"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop의 복합 모델 사용
 
@@ -27,9 +27,9 @@ Power BI Desktop의 복합 모델 기능은 다음 세 가지 관련 기능으�
 
 * **복합 모델**: 보고서에 DirectQuery 연결 또는 가져오기를 비롯한 여러 데이터 연결을 다양한 조합으로 포함할 수 있습니다. 이 문서에서는 복합 모델에 대해 자세히 설명합니다.
 
-* **다 대 다 관계**: *복합 모델*을 사용하면 테이블 간에 *다 대 다 관계*를 설정할 수 있습니다. 이 방법은 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계를 설정하기 위해 새 테이블만 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)를 참조하세요.
+* **다 대 다 관계**: ‘복합 모델’을 사용하면 테이블 간에 ‘다 대 다 관계’를 설정할 수 있습니다. 이 방법은 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계를 설정하기 위해 새 테이블만 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)를 참조하세요.
 
-* **저장소 모드**: 이제 백 엔드 데이터 원본에 대한 쿼리가 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 자세한 내용은 [Power BI Desktop의 스토리지 모드(미리 보기)](desktop-storage-mode.md)를 참조하세요.
+* **스토리지 모드**: 이제 백 엔드 데이터 원본에 대한 쿼리가 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 자세한 내용은 [Power BI Desktop의 스토리지 모드(미리 보기)](desktop-storage-mode.md)를 참조하세요.
 
 
 ## <a name="use-composite-models"></a>복합 모델 사용
@@ -156,9 +156,9 @@ DirectQuery를 사용할 때는 주로 사용자에게 좋은 환경을 제공�
 
 복합 모델을 사용하면 추가 성능 고려 사항이 추가됩니다. 단일 시각적 개체는 여러 원본에 쿼리를 보낼 수 있으며, 이는 한 쿼리에서 두 번째 원본으로 결과를 전달하는 경우가 많습니다. 이 상황에서는 다음과 같은 실행 형식이 발생할 수 있습니다.
 
-* **많은 리터럴 값을 포함하는 SQL 쿼리**: 예를 들어, 선택한 *제품 관리자* 집합의 총 *판매액*을 요청하는 시각적 개체는 먼저 해당 제품 관리자가 관리하는 *제품*을 찾아야 합니다. 이 순서는 시각적 개체에서 *WHERE* 절에 모든 제품 ID가 포함된 SQL 쿼리를 보내기 전에 수행해야 합니다.
+* **많은 리터럴 값을 포함하는 SQL 쿼리**: 예를 들어, 선택한 ‘제품 관리자’ 집합의 총 ‘판매액’을 요청하는 시각적 개체는 먼저 해당 제품 관리자가 관리하는 ‘제품’을 찾아야 합니다. 이 순서는 시각적 개체에서 *WHERE* 절에 모든 제품 ID가 포함된 SQL 쿼리를 보내기 전에 수행해야 합니다.
 
-* **데이터가 로컬로 집계된 후 하위 수준의 세분성으로 쿼리하는 SQL 쿼리**: *제품 관리자*의 필터 기준을 충족하는 *제품*의 수가 증가함에 따라 모든 제품을 *WHERE* 절에 포함시키는 것은 비효율적이거나 불가능해질 수 있습니다. 대신 *제품*의 하위 수준에서 관계형 원본을 쿼리한 다음, 로컬로 결과를 집계할 수 있습니다. *제품*의 카디널리티가 1백만 개 제한을 초과하면 쿼리가 실패합니다.
+* **데이터가 로컬로 집계된 후 하위 수준의 세분성으로 쿼리하는 SQL 쿼리**: ‘제품 관리자’의 필터 조건을 충족하는 ‘제품’의 수가 증가함에 따라 모든 제품을 *WHERE* 절에 포함하는 것은 비효율적이거나 불가능해질 수 있습니다. 대신 *제품*의 하위 수준에서 관계형 원본을 쿼리한 다음, 로컬로 결과를 집계할 수 있습니다. *제품*의 카디널리티가 1백만 개 제한을 초과하면 쿼리가 실패합니다.
 
 * **여러 SQL 쿼리, 값별로 그룹당 하나**: 집계에서 **DistinctCount**를 사용하고 다른 원본의 열로 그룹화할 때 외부 원본이 그룹을 정의하는 많은 리터럴 값의 효율적인 전달을 지원하지 않는 경우 값별로 그룹당 하나의 SQL 쿼리를 보내야 합니다. 
 
@@ -182,13 +182,13 @@ DirectQuery를 사용할 때는 주로 사용자에게 좋은 환경을 제공�
 
 DirectQuery를 사용하여 이러한 다차원 원본에 연결하는 경우 다른 DirectQuery 원본에 연결하거나 가져오기 데이터와 결합할 수 없습니다.
 
-복합 모델을 사용하면 DirectQuery의 기존 제한 사항이 여전히 적용됩니다. 이러한 제한 사항 중 대부분은 테이블의 스토리지 모드에 따라 테이블별로 적용됩니다. 예를 들어 가져오기 테이블에서 계산된 열은 다른 테이블을 참조할 수 있지만, DirectQuery 테이블에서 계산된 열은 여전히 동일한 테이블의 열만 참조할 수 있습니다. 다른 제한 사항은 모델 내의 테이블이 DirectQuery인 경우 모델에 전체적으로 적용됩니다. 예를 들어 QuickInsights 및 Q&A 기능은 모델 내의 테이블에 DirectQuery의 저장소 모드가 있는 경우 모델에서 사용할 수 없습니다. 
+복합 모델을 사용하면 DirectQuery의 기존 제한 사항이 여전히 적용됩니다. 이러한 제한 사항 중 대부분은 테이블의 스토리지 모드에 따라 테이블별로 적용됩니다. 예를 들어 가져오기 테이블에서 계산된 열은 다른 테이블을 참조할 수 있지만, DirectQuery 테이블에서 계산된 열은 여전히 동일한 테이블의 열만 참조할 수 있습니다. 다른 제한 사항은 모델 내의 테이블이 DirectQuery인 경우 모델에 전체적으로 적용됩니다. 예를 들어 QuickInsights 및 Q&amp;A 기능은 모델 내의 테이블에 DirectQuery의 스토리지 모드가 있는 경우 모델에서 사용할 수 없습니다. 
 
 ## <a name="next-steps"></a>다음 단계
 
 복합 모델 및 DirectQuery에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)
-* [Power BI Desktop의 저장소 모드(미리 보기)](desktop-storage-mode.md)
+* [Power BI Desktop의 스토리지 모드(미리 보기)](desktop-storage-mode.md)
 * [Power BI의 DirectQuery 사용](desktop-directquery-about.md)
 * [Power BI의 DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
 

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 763b79b50266678a78dc956372f504f30836c4fc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507909"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292964"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항
 이 문서에는 Power BI Report Server를 설치하고 실행하기 위한 최소 하드웨어 및 소프트웨어 요구 사항이 표시됩니다.

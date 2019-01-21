@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 328c8ab2e236f0ddc0c5116c1f76d343999193ab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 774a90b946be30d26217a450edff541136bdb863
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157382"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283854"
 ---
 # <a name="add-a-filter-to-a-report-in-editing-view"></a>편집용 보기에서 보고서에 필터 추가
 
@@ -24,7 +24,7 @@ ms.locfileid: "52157382"
 **알고 계십니까?** Power BI에는 현재 미리 보기로 제공되는 새 필터 환경이 있습니다. [Power BI 보고서의 새 필터 환경](power-bi-report-filter-preview.md)에 대해 자세히 알아보세요.
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>편집용 보기 또는 읽기용 보기의 필터
-읽기용 보기 및 편집용 보기의 두 가지 보기에서 보고서를 조작할 수 있습니다. 사용할 수 있는 필터링 기능은 현재 보기에 따라 달라집니다. 자세한 내용은 모든 [필터 및 Power BI 보고서에서 강조 표시 정보](power-bi-reports-filters-and-highlighting.md)를 참조하세요.
+읽기용 보기 및 편집용 보기의 다음 두 가지 보기에서 보고서를 조작할 수 있습니다. 읽기용 보기 및 편집용 보기. 사용할 수 있는 필터링 기능은 현재 보기에 따라 달라집니다. 자세한 내용은 모든 [필터 및 Power BI 보고서에서 강조 표시 정보](power-bi-reports-filters-and-highlighting.md)를 참조하세요.
 
 이 문서는 보고서 **편집용 보기**에서 필터를 만드는 방법에 관해 설명합니다.  읽기용 보기에서 필터에 대한 자세한 내용은 [보고서 읽기용 보기에서 필터로 상호 작용](consumer/end-user-reading-view.md)을 참조하세요.
 

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 71ed70344281dec3353b73c8698594d62ef32eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983373"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285602"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI의 색 서식을 위한 팁과 힌트
 Power BI는 대시보드 및 보고서를 사용자 지정할 수 있는 다양한 방법을 제공합니다. 이 아티클에서는 사용자의 요구에 맞게 Power BI를 보다 매력적이고 흥미롭게 시각화하고 사용자 지정할 수 있는 팁 모음에 대해 자세히 다룹니다.
@@ -29,41 +29,38 @@ Power BI는 대시보드 및 보고서를 사용자 지정할 수 있는 다양�
 * 색 눈금 분기 사용
 * Power BI에서 실행 취소 방법
 
-설정을 변경하려면 보고서를 편집해야 합니다. 다음 이미지와 같이 **내 작업 영역** 창에서 **보고서**를 선택한 다음 최상위 메뉴 영역에서 **보고서 편집**을 선택합니다. 이 예제에서는 **인적 자원 샘플**을 사용합니다.
+변경하려면 보고서를 편집하고 있어야 합니다. 보고서를 열고 다음 그림과 같이 위쪽 메뉴 영역에서 **보고서 편집**을 선택합니다.
 
-![보고서 편집이 강조 표시된 보고서 캔버스](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
-**보고서** 캔버스 오른쪽에 **시각화** 창이 나타나면 사용자 지정을 시작할 준비가 된 것입니다.
+**보고서** 캔버스 오른쪽에 **시각화** 창이 나타나면 사용자 지정을 시작할 준비가 된 것입니다. 창이 표시되지 않으면 오른쪽 위 모서리의 화살표를 선택하여 창을 엽니다.
 
-![서식 지정 창이 표시되는 보고서](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>단일 데이터 요소 색 변경
-하나의 특정 데이터 요소를 강조 표시하려는 경우가 있습니다. 아마도 신제품 출시에 대한 판매 수치 또는 새 프로그램을 시작한 후 품질 점수 증가 등을 강조 표시하려는 경우입니다. Power BI 및 대부분의 시각적 개체 형식의 경우 색을 변경하여 특정 데이터 요소를 강조 표시할 수 있습니다.
+하나의 특정 데이터 요소를 강조 표시하려는 경우가 있습니다. 아마도 신제품 출시에 대한 판매 수치 또는 새 프로그램을 시작한 후 품질 점수 증가 등을 강조 표시하려는 경우입니다. Power BI에서는 색을 변경하여 특정 데이터 요소를 강조 표시할 수 있습니다.
 
-다음 시각화는 기본 색을 사용하여 직원별 판매 수익을 표시합니다. 
+다음 시각화는 제품 세그먼트별로 판매된 단위의 순위를 보여 줍니다. 
 
-![영역 차트](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-grey.png)
 
-Annelie의 영역을 보는 것은 어렵기 때문에 두드러져 보이는 색을 사용합니다. 수행하는 단계는 다음과 같습니다.
+이제 색을 사용하여 이 브랜드의 새 세그먼트가 얼마나 잘 운영되는지 보여 주기 위해 **Convenience** 세그먼트를 살펴보겠습니다. 수행하는 단계는 다음과 같습니다.
 
-**데이터 색** 섹션을 확장합니다. 다음이 나타납니다.
+**데이터 색** 섹션을 확장하고 **모두 표시**의 슬라이더를 켜기로 전환합니다. 그러면 시각화에서 각 데이터 요소에 대한 색이 표시됩니다. 데이터 요소를 마우스로 가리키면 스크롤되어 데이터 요소를 수정할 수 있습니다.
 
-![서식 지정 아래의 데이터 색 선택 영역](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
+**Convenience**를 주황색으로 설정합니다. 
 
-이 경우 Valery에 사용되는 색과 유사하지 않은 어둡지만 밝은 색을 선택합니다. Annelie의 색 상자 안에 있는 아래쪽 화살표를 선택하고 **사용자 지정 색**을 선택하고 밝은 파란색을 선택합니다.
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-orange.png)
 
-![색 선택](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+선택된 **Convenience** 데이터 요소는 멋지게 음영 표시되고 확실히 돋보입니다.
 
-일단 선택되면 Annelie의 영역은 다른 직원과 구별하기가 훨씬 쉬워집니다. 
+시각화 유형을 변경한 후 돌아오더라도 Power BI에서 선택 항목을 기억하고 **Convenience**를 주황색으로 유지합니다.
 
-![영역 차트, 이제 Annalie의 영역은 밝은 파란색](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
+하나, 여러 개 또는 모든 데이터 요소(element)의 데이터 요소(point) 색을 변경할 수 있습니다. 회사 색처럼 보이는 시각적 개체가 필요할 수 있습니다. 
 
-시각화 유형을 변경한 후 돌아오더라도 Power BI에서 선택 항목을 기억하고 **워싱턴** 을 녹색으로 유지합니다.
-
-둘 이상의 데이터 요소(element)에 대한 데이터 요소(point)의 색도 변경할 수 있습니다. 다음 이미지에서는 **애리조나** 가 빨간색이고 **워싱턴** 은 여전히 녹색입니다.
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_8.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
 색으로 모든 종류의 작업을 수행할 수 있습니다. 다음 섹션에서는 그라데이션을 살펴보겠습니다.
 
@@ -73,16 +70,27 @@ Annelie의 영역을 보는 것은 어렵기 때문에 두드러져 보이는 �
 다음 섹션에서는 숫자 값을 기준으로 색을 지정하는 다양한 방법을 보여줍니다.
 
 ## <a name="base-the-color-of-data-points-on-a-value"></a>값 기준 데이터 요소 색
-값을 기반으로 색을 변경하려면 색의 기준으로 할 필드를 **필드** 창의 **색 채도** 영역으로 끌어옵니다. 다음 이미지에서는 **과세 전 수익** 을 **색 채도**로 끌어왔습니다. 보다시피 **총 판매량** (해당 열이 더 높음)은 **Velo** 가 높지만 **과세 전 수익** (해당 열의 색 채도가 높음)은 **Amarilla** 가 더 많습니다.
+값을 기반으로 색을 변경하려면 색의 기준으로 할 필드를 **필드** 창의 **색 채도** 영역으로 끌어옵니다. 다음 그림에서는 **%Market Share SPLY YTD**를 **색 채도**로 끌어왔습니다. 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_9.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-color-saturation.png)
+
+또한 [서식] 창의 **데이터 색** 아래에서 **%Market Share SPLY YTD** 값이 세로 막대형 차트의 색 및 음영을 변경하는 방식을 결정합니다. 이 예제에서는 시장 점유율이 낮을수록 연한 파란색으로 표시되고 값이 높을수록 진핸 파란색으로 표시됩니다.
+
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
+
+보이는 것처럼 **Productivity** 및 **Extreme**에서 둘 다 더 많은 단위를 판매했지만(해당 열이 더 높음), **Moderation**의 **%Market Share SPLY YTD**가 더 큽니다(해당 열의 색 채도가 더 큼).
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-saturation.png)
 
 ## <a name="customize-the-colors-used-in-the-color-scale"></a>색 눈금에 사용되는 색 사용자 지정
-색 눈금에 사용되는 색을 사용자 지정할 수도 있습니다. **데이터 색** 을 확장하면 데이터 시각화에 사용되는 색의 그라데이션이 표시됩니다. 기본적으로 데이터의 가장 낮은 값은 채도가 가장 적은 색에 매핑되고 가장 높은 값은 채도가 가장 높은 색에 매핑됩니다.
+색 눈금에 사용되는 색을 사용자 지정할 수도 있습니다. 기본적으로 데이터의 가장 낮은 값은 채도가 가장 적은 색에 매핑되고 가장 높은 값은 채도가 가장 높은 색에 매핑됩니다. 위의 그림에서는 파란색 그라데이션을 사용했습니다. 
 
-색 범위가 **최소** 및 **최대** 색상 값 사이의 스펙트럼을 표시하는 그라데이션 막대에 표시됩니다. 이때 **최소** 값 색은 왼쪽에, **최대** 값 색은 오른쪽에 표시됩니다.
+**데이터 색** 을 확장하면 데이터 시각화에 사용되는 색의 그라데이션이 표시됩니다. 색 범위가 **최소** 및 **최대** 색상 값 사이의 스펙트럼을 표시하는 그라데이션 막대에 표시됩니다. 이때 **최소** 값 색은 왼쪽에, **최대** 값 색은 오른쪽에 표시됩니다.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_10.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
 
 다른 색 범위를 사용하도록 눈금을 변경하려면 **최소** 또는 **최대**옆의 색 드롭다운을 선택하고 색을 선택합니다. 다음 이미지에서는 **최대** 색이 검정색으로 변경되고 그라데이션 막대에서 **최소** 및 **최대** 사이의 새로운 색 스펙트럼을 보여 줍니다.
 

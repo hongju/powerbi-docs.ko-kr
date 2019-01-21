@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a93c676775fe6e826ea83cfad91498b7fe3e2103
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: eba4e740f6fd08ffd60b95dfc437551dfb95e7b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983603"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293703"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Power BI에서 새 작업 영역 만들기(미리 보기)
 
@@ -63,7 +63,7 @@ Power BI는 새 작업 영역 환경을 미리 보기 상태로 소개합니다.
 
 1. **액세스**를 선택합니다.
 
-1. 보안 그룹, 배포 목록, Office 365 그룹 또는 개인을 이러한 작업 영역에 멤버, 기여자 또는 관리자로 추가합니다. 다양한 역할에 대한 설명은 이 아티클의 뒷부분에서 [새 작업 영역의 역할](#roles-in-the-new-workspaces)을 참조하세요.
+1. 보안 그룹, 배포 목록, Office 365 그룹 또는 개인을 이러한 작업 영역에 멤버, 기여자 또는 관리자로 추가합니다. 다양한 역할에 대한 설명은 [새 작업 영역의 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
 
     ![작업 영역 추가 멤버, 관리자, 기여자](media/service-create-the-new-workspaces/power-bi-access-add-members.png)
 

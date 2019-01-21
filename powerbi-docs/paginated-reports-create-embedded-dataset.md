@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.author: maggies
-ms.openlocfilehash: 827a7acd24ead0c4948a09f2e67b53c3966769bb
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 1689d7382c0f3bf7406a4a44ffeab53e6bc59197
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900431"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281071"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트 만들기(미리 보기)
 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트를 포함된 데이터 원본을 기반으로 만드는 방법을 알아봅니다. 포함된 데이터 세트는 해당 보고서에 사용할 수 있도록 하나의 페이지를 매긴 보고서에 있습니다. 현재 Power BI 서비스에 게시된 페이지를 매긴 보고서에는 포함된 데이터 세트 및 포함된 데이터 원본이 필요합니다. 보고서를 만드는 동안 보고서 작성기에서 포함된 데이터 원본 및 데이터 세트를 만듭니다. 
@@ -56,6 +56,6 @@ ms.locfileid: "52900431"
 ## <a name="next-steps"></a>다음 단계 
 
 - [What are paginated reports in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md)(Power BI Premium의 페이지를 매긴 보고서란?(미리 보기))  
-- [Tutorial: Create a paginated report and upload it to the Power BI service](paginated-reports-quickstart-aw.md)(자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드)
+- [자습서: Create a paginated report and upload it to the Power BI service](paginated-reports-quickstart-aw.md)(자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드)
 - [Publish a paginated report to the Power BI service](paginated-reports-save-to-power-bi-service.md)(Power BI 서비스에 페이지를 매긴 보고서 게시)
 

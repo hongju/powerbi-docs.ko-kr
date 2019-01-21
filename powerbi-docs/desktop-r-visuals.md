@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0a739e963039e61aa66e398d27fa82982eb26bb0
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c1a4ba0a89f84cb0fce205373f1d0f00cc1479ac
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670512"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278583"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R을 사용하여 Power BI 시각적 개체 만들기
 **Power BI Desktop**에서 **R**을 사용하면 데이터를 시각화할 수 있습니다.
@@ -58,7 +58,7 @@ R 설치를 지정하면 R 시각적 개체 만들기를 시작할 준비가 되
    
    다음 그림의 예제에서는 세 개의 필드 hp, gear, drat가 선택되었습니다. 그 결과, R 스크립트 편집기에서 다음과 같은 바인딩 코드를 생성했습니다.
    
-   * **dataset** 라는 데이터 프레임이 생성
+   * **dataset**라는 데이터 프레임이 생성
      * 이 데이터 프레임은 사용자가 선택한 여러 필드로 구성
    * 기본 집계는 테이블 시각적 개체와 마찬가지로 *요약되지 않으며*
    * 필드는 그룹화되고 중복 행은 한 번만 표시됩니다.

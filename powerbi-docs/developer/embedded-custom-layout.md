@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
 ms.author: maghan
-ms.openlocfilehash: 36f9665f0e42ee62e5a1a4a7584a2492bea276b0
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37597915"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288937"
 ---
 # <a name="custom-layouts"></a>사용자 지정 레이아웃
 
@@ -65,7 +65,7 @@ enum DisplayOption {
 ```
 
 - `pageSize`: 페이지 크기를 사용하여 캔버스 영역 크기(즉, 보고서의 흰색 영역)를 제어합니다.
-- `displayOptions`: 가능한 값은 FitToWidth, FitToPage 또는 ActualSize입니다. iframe에 맞게 캔버스의 크기를 조정하는 방법을 제어합니다.
+- `displayOptions`: 가능한 값은 다음과 같습니다. FitToWidth, FitToPage 또는 ActualSize. iframe에 맞게 캔버스의 크기를 조정하는 방법을 제어합니다.
 - `pagesLayout`: 각 시각적 개체의 레이아웃을 제어합니다. 자세한 내용은 PagesLayout을 참조하세요.
 
 ## <a name="pages-layout"></a>페이지 레이아웃

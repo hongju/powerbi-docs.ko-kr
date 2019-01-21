@@ -5,16 +5,16 @@ author: parthsha
 manager: kfile
 ms.reviewer: maghan
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: c19bc774ebffa2e781512e793abbefd1bd9fb5e2
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679295"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296665"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server에 대한 용량 계획 지침
 Power BI Report Server는 셀프 서비스 BI 및 엔터프라이즈 보고 솔루션으로써 고객이 방화벽을 넘어 온-프레미스에 배포할 수 있습니다. 이 기능은 SQL Server Reporting Services의 온-프레미스 서버 플랫폼과 Power BI Desktop의 대화형 보고 기능을 결합했습니다. 기업 내에서 분석 및 보고 사용량이 지나치게 증가하면 엔터프라이즈 사용자의 기본 사항에 맞게 조정하는 데 필요한 하드웨어 인프라 및 소프트웨어 라이선스를 위한 예산 편성이 어려울 수 있습니다. 이 문서는 보고서 서버에 대한 다양한 워크로드의 다양한 부하 테스트 실행 결과를 공유하여 Power BI 보고서 서버의 용량 계획에 대한 지침을 제공하려고 합니다. 조직의 보고서, 쿼리 및 사용 패턴이 광범위하게 다른 반면 사용되는 실제 테스트 및 실행되는 방법에 대한 자세한 설명 등 이 문서에 표시되는 결과는 Power BI Report Server를 배포하는 초기 단계 계획 프로세스에 있는 모든 사용자에게 참조 사항으로 제공됩니다.
@@ -60,7 +60,7 @@ Power BI Report Server 배포는 다음과 같은 가상 컴퓨터의로 구성�
 모든 테스트는 종단 간 작업(예: 보고서 렌더링, 새 데이터 원본 만들기 등)을 수행하기 위해 작성되었습니다. (API를 통해) 보고서 서버에 하나 이상의 웹 요청을 수행하여 달성합니다. 실제 상황에서 사용자는 이러한 종단 간 작업 중 하나를 완료하기 위해 몇 가지 중간 작업을 수행해야 합니다. 예를 들어 사용자가 보고서를 렌더링하려면 웹 포털으로 이동하고, 보고서가 있는 폴더로 이동하고, 렌더링할 보고서를 클릭합니다. 테스트가 종단 간 작업을 달성하는 데 필요한 모든 작업을 수행하지 않는 반면 대부분의 Power BI Report Server에서 발생하는 부하를 여전히 적용합니다. GitHub 프로젝트를 탐색하여 수행되는 다양한 작업뿐만 아니라 사용되는 다양한 종류의 보고서에 대해 자세히 알아볼 수 있습니다.
 
 ### <a name="workloads"></a>워크로드
-테스트에 사용되는 Power BI Report Heavy 및 Paginated Report Heavy라는 2가지 워크로드 프로필이 있습니다. 다음 표에서는 Report Server에 대해 실행되는 요청의 분포를 설명합니다.
+테스트에 사용되는 두 가지 워크로드 프로필은 다음과 같습니다. Power BI Report Heavy 및 Paginated Report Heavy. 다음 표에서는 Report Server에 대해 실행되는 요청의 분포를 설명합니다.
 
 | 활동 | Power BI Report Heavy, 발생 빈도 | Paginated Report Heavy, 발생 빈도 |
 | --- | --- | --- |

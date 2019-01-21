@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f202597fa641bf68b8e49c461ed5c25ea987c3e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 019ee7985c27c72ca41a09c8d13754316fd60232
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670931"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291651"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 시작
 **Power BI Desktop 시작 가이드**를 시작합니다. 아래의 간단한 안내를 통해 Power BI Desktop의 작동 방법을 파악하고, 이 도구로 수행할 수 있는 작업을 확인하고, 비즈니스 인텔리전스 활동을 강화하는 강력한 데이터 모델을 유용한 보고서와 함께 신속하게 작성할 수 있습니다. 
@@ -69,9 +69,9 @@ Power BI Desktop을 실행하면 *시작* 화면이 표시됩니다.
 
 ![](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-Power BI Desktop에는 세 가지 보기 즉 **보고서** 보기, **데이터** 보기 및 **관계** 보기가 있습니다. 또한 Power BI Desktop에는 별도 창에서 열리는 **쿼리 편집기**도 포함되어 있습니다. **쿼리 편집기**에서 쿼리를 작성하고 데이터를 변환한 다음 구체화된 해당 데이터 모델을 Power BI Desktop으로 로드하고 보고서를 만들 수 있습니다.
+Power BI Desktop에는 다음 세 가지 보기가 있습니다. **보고서** 보기, **데이터** 보기 및 **관계** 보기. 또한 Power BI Desktop에는 별도 창에서 열리는 **쿼리 편집기**도 포함되어 있습니다. **쿼리 편집기**에서 쿼리를 작성하고 데이터를 변환한 다음 구체화된 해당 데이터 모델을 Power BI Desktop으로 로드하고 보고서를 만들 수 있습니다.
 
-다음 화면에는 Power BI Desktop의 왼쪽을 따라 위에서 아래로 세 개의 뷰 아이콘 즉 **보고서**, **데이터** 및 **관계**가 표시되어 있습니다. 현재 표시된 뷰는 왼쪽을 따라 노랑 막대로 표시됩니다. 여기서는 현재 **보고서** 뷰가 표시되어 있습니다. 이러한 세 아이콘 중 원하는 아이콘을 선택하여 뷰를 변경할 수 있습니다.
+다음 화면에는 Power BI Desktop의 왼쪽을 따라 위에서 아래로 다음 세 개의 보기 아이콘이 표시됩니다. **보고서**, **데이터** 및 **관계**. 현재 표시된 뷰는 왼쪽을 따라 노랑 막대로 표시됩니다. 여기서는 현재 **보고서** 뷰가 표시되어 있습니다. 이러한 세 아이콘 중 원하는 아이콘을 선택하여 뷰를 변경할 수 있습니다.
 
 ![](media/desktop-getting-started/designer_gsg_viewtypes.png)
 
@@ -214,7 +214,7 @@ Power BI Desktop의 쿼리 편집기에서는 리본 메뉴에서 사용 가능�
 
 이러한 데이터 셰이핑 및 결합의 각 단계에 대한 자세한 설명은 [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)을 참조하세요.
 
-이제 Power BI Desktop 내에서 몇 가지 흥미로운 보고서를 만들 수 있는 충분한 데이터가 확보되었습니다. 이는 중요 시점이므로 이 Power BI Desktop 파일을 저장하고 **Power BI Desktop 시작**이라는 이름을 지정하겠습니다. **쿼리 편집기**의 변경 내용을 적용하고, Power BI Desktop으로 로드하기 위해 리본 메뉴의 **홈** 탭에서 **닫기 및 적용**을 선택합니다.
+이제 Power BI Desktop 내에서 몇 가지 흥미로운 보고서를 만들 수 있는 충분한 데이터가 확보되었습니다. 이는 중요 시점이므로 이 Power BI Desktop 파일을 저장하고 **Power BI Desktop 시작**이라는 이름을 지정하겠습니다. **쿼리 편집기**의 변경 내용을 적용하려면 변경 내용을 Power BI Desktop으로 로드하고 **홈** 리본 메뉴에서 **닫기 및 적용**을 선택합니다.
 
 ![](media/desktop-getting-started/shapecombine_closeandapply.png)
 
@@ -269,7 +269,7 @@ Power BI Desktop의 쿼리 편집기에서는 리본 메뉴에서 사용 가능�
 ## <a name="share-your-work"></a>작업 공유
 이제 비교적 완전한 Power BI Desktop 보고서가 완성되었으므로 **Power BI** 서비스에서 다른 사용자와 공유할 수 있습니다. Power BI Desktop에서 수행한 작업 내용을 공유하는 방법은 몇 가지가 있습니다. **Power BI** 서비스에 게시하거나, Power BI 서비스에서 직접 .pbix 파일을 업로드하거나, 일반적인 파일처럼 .pbix 파일을 저장하여 보낼 수 있습니다.
 
-먼저 Power BI Desktop에서 직접 **Power BI** 서비스에 게시하는 경우를 살펴보겠습니다. 리본 메뉴 **홈** 탭에서 **게시**를 선택합니다.
+먼저 Power BI Desktop에서 직접 **Power BI** 서비스에 게시하는 경우를 살펴보겠습니다. **홈** 리본 메뉴에서 **게시**를 선택합니다.
 
 ![](media/desktop-getting-started/gsg_syw_1.png)
 

@@ -5,22 +5,22 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8024756159b4974ef4a23ab60a055d57b0dfa590
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 1b587edb82f60ac8a9ff22716e42bcf941e0c794
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670604"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276540"
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery 및 SAP HANA
 **DirectQuery**를 사용하여 **SAP HANA** 데이터 원본에 직접 연결할 수 있습니다. SAP HANA에 연결할 때에는 두 가지 옵션이 있습니다.
 
-* **SAP HANA를 다차원 원본으로 취급(기본값):** 이 경우 Power BI가 SAP Business Warehouse 또는 Analysis Services와 같은 다른 다차원 원본에 연결할 때와 비슷한 동작이 수행됩니다. 이 설정을 사용하여 SAP HANA에 연결하면 단일 분석 또는 계산 보기가 선택되고, 해당 보기의 모든 측정값, 계층 구조 및 특성을 필드 목록에서 사용할 수 있습니다. 시각적 개체가 생성될 때 집계 데이터는 항상 SAP HANA에서 검색됩니다. 이것이 권장되는 방법이며 SAP HANA에 대한 새로운 DirectQuery 보고서의 기본값입니다.
+* **SAP HANA를 다차원 원본으로 처리(기본값):**  이 경우 Power BI를 SAP Business Warehouse 또는 Analysis Services처럼 다른 다차원 원본에 연결할 때와 동작이 비슷합니다. 이 설정을 사용하여 SAP HANA에 연결하면 단일 분석 또는 계산 보기가 선택되고, 해당 보기의 모든 측정값, 계층 구조 및 특성을 필드 목록에서 사용할 수 있습니다. 시각적 개체가 생성될 때 집계 데이터는 항상 SAP HANA에서 검색됩니다. 이것이 권장되는 방법이며 SAP HANA에 대한 새로운 DirectQuery 보고서의 기본값입니다.
 
 * **SAP HANA를 관계형 원본으로 처리:** 이 경우 Power BI에서 SAP HANA를 관계형 원본으로 처리합니다. 이 옵션은 더 많은 유연성을 제공하지만, 측정값이 예상대로 집계되는지 확인하고 성능 문제를 피하도록 주의해야 합니다.
 
@@ -66,7 +66,7 @@ DirectQuery를 사용하여 SAP HANA에 연결할 때(다차원 원본으로 처
 
 * **계산 열 지원 안 함:** 계산 열을 만드는 기능을 사용할 수 없습니다. 즉 계산 열을 만드는 그룹화 및 클러스터링을 사용할 수 없습니다.
 * **측정값에 대한 추가 제한 사항:** SAP HANA에서 제공하는 지원 수준을 반영하기 위해 측정값에서 사용할 수 있는 DAX 식에 추가로 적용되는 제한 사항이 있습니다.
-* **관계 정의에 대한 지원 없음:** 보고서 내에서 단일 보기만 쿼리할 수 있으며, 관계 정의에 대한 지원이 없습니다.
+* **관계 정의 지원 안 함:** 보고서 내에서 단일 보기만 쿼리할 수 있으며, 관계 정의에 대한 지원이 없습니다.
 * **데이터 보기 없음:** **데이터 보기**는 일반적으로 테이블의 세부 수준 데이터를 표시합니다. SAP HANA와 같은 OLAP 원본의 특성을 고려할 때 이 보기는 SAP HANA를 통해 사용할 수 없습니다.
 * **열 및 측정값 세부 정보 고정:** 필드 목록에 표시되는 열 및 측정값의 목록은 기본 원본에 따라 고정되며 수정할 수 없습니다. 예를 들어 열을 삭제하거나 데이터 형식을 변경할 수 없지만 이름은 변경할 수 있습니다.
 * **DAX의 추가 제한 사항:** 원본의 제한 사항을 반영하기 위해 측정값 정의에 사용할 수 있는 DAX에 대한 추가 제한 사항이 있습니다. 예를 들어 테이블에 대해 집계 함수를 사용할 수 없습니다.

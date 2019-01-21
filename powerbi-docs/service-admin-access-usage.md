@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dfd9aab419d0a097721c4f2b49e382c11be82541
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: f685a900465cc0f1b635aad7609aaae4356da6b3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909505"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284636"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>로그인한 Power BI 사용자 찾기
 
@@ -32,7 +32,7 @@ ms.locfileid: "50909505"
 
 * 테넌트는 Azure AD Premium 라이선스와 연결되어 있어야 합니다.
 
-* 전역 관리자, 보안 관리자 또는 보안 구독자 역할 중 하나여야 합니다.
+* 다음 역할 중 하나여야 합니다. 전역 관리자, 보안 관리자 또는 보안 읽기 권한자.
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>Azure Portal을 사용하여 로그인 보기
 
@@ -44,7 +44,7 @@ ms.locfileid: "50909505"
    
     ![Azure AD 로그인](media/service-admin-access-usage/azure-portal-sign-ins.png)
 
-1. **Microsoft Power BI** 또는 **Power BI Gateway** 중 하나로 응용 프로그램을 필터링하고 **적용**을 선택합니다.
+1. **Microsoft Power BI** 또는 **Power BI Gateway** 중 하나로 애플리케이션을 필터링하고 **적용**을 선택합니다.
 
     **Microsoft Power BI**는 서비스에 관련된 로그인 활동을 필터링하지만, **Power BI Gateway**는 온-프레미스 데이터 게이트웨이에 관련된 로그인 활동을 필터링합니다.
    

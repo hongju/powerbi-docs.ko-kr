@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f4c9fec65f9c006095470a8983f889d44f3ce460
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072891"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279990"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Power BI에서 데이터가 없는 항목 표시
 
@@ -65,7 +65,7 @@ Powe BI가 표시와 관련 있는 데이터를 판단하는 방식을 알아보
 
 **4. 관계가 없는 서로 다른 테이블에서 온 그룹**
 
-이 문서에서 다루는 샘플 모델에는 이 조합이 없지만, 관계가 없는 서로 다른 테이블에서 온 그룹이 있다면 Power BI는 두 열의 관계를 파악할 수 없으므로 각 열의 모든 값이 크로스 조인된 것이 결과가 됩니다. 데이터베이스에서 이러한 크로스 조인 연산을 수행하려면 비용이 많이 들고 사용자에게 그다지 유용한 정보를 제공하지도 않기 때문에 이 경우 Power BI는 *제약 없는 조인*이라는 유형의 오류를 발생시킵니다. 
+이 문서에서 다루는 샘플 모델에는 이 조합이 없지만, 관계가 없는 서로 다른 테이블에서 온 그룹이 있다면 Power BI는 두 열의 관계를 파악할 수 없습니다. 따라서 각 열의 모든 값이 크로스 조인됩니다. 데이터베이스에서 이러한 크로스 조인 연산을 수행하려면 비용이 많이 들고 사용자에게 그다지 유용한 정보를 제공하지도 않기 때문에 이 경우 Power BI는 *제약 없는 조인*이라는 유형의 오류를 발생시킵니다. 
 
 ![제약 없는 조인 오류](media/desktop-show-items-no-data/show-items-no-data_01.png)
 
@@ -76,7 +76,7 @@ Powe BI가 표시와 관련 있는 데이터를 판단하는 방식을 알아보
 
 **데이터가 없는 항목 표시** 기능을 사용하면 수치 데이터가 없는(수치 값이 비어 있는) 행과 열을 포함할 수 있습니다.
 
-**데이터가 없는 항목 표시** 기능을 활성화하려면 시각적 개체를 하나 선택하고 **필드** 영역에서 해당 필드를 마우스 오른쪽 단추로 클릭한 다음 아래 그림에 보이는 것처럼 표시되는 메뉴에서 **데이터가 없는 항목 표시**를 선택합니다.
+**데이터가 없는 항목 표시** 기능을 사용하도록 설정하려면 시각적 개체를 하나 선택하고 **필드** 영역에서 해당 필드를 마우스 오른쪽 단추로 클릭한 후 아래 그림과 같이 표시되는 메뉴에서 **데이터가 없는 항목 표시**를 선택합니다.
 
 ![데이터가 없는 항목 표시 기능을 활성화하는 방법](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -195,4 +195,4 @@ Powe BI가 표시와 관련 있는 데이터를 판단하는 방식을 알아보
 
 이 문서에서는 Power BI에서 **데이터가 없는 항목 표시** 기능을 활성화하는 방법을 설명했습니다. 다음 문서에도 관심이 있을 수 있습니다. 
 
-* [Power BI Desktop의 데이터 원본](desktop-data-sources.md)
+* [Power BI의 다차원 모델의 기본 멤버](desktop-default-member-multidimensional-models.md)

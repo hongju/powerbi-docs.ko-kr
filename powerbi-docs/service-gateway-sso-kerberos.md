@@ -6,20 +6,20 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508040"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295262"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용
 
-[Kerberos 제한된 위임](https://technet.microsoft.com/library/jj553400.aspx)을 사용하여 원활한 Single Sign-On 연결을 사용하도록 설정하세요. SSO를 사용하도록 설정하면 Power BI 보고서 및 대시보드가 온-프레미스 원본의 데이터를 손쉽게 새로 고칠 수 있습니다.
+[Kerberos 제한된 위임](/windows-server/security/kerberos/kerberos-constrained-delegation-overview)을 사용하여 원활한 Single Sign-On 연결을 사용하도록 설정하세요. SSO를 사용하도록 설정하면 Power BI 보고서 및 대시보드가 온-프레미스 원본의 데이터를 손쉽게 새로 고칠 수 있습니다.
 
 ## <a name="supported-data-sources"></a>지원되는 데이터 원본
 
@@ -65,7 +65,7 @@ Kerberos 제한된 위임을 적절하게 작동하기 위해 *서비스 사용�
 > [!NOTE]
 > Azure AD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우 게이트웨이 서비스는 런타임 시 로컬 AD 조회를 수행하지 않아도 되며 게이트웨이 서비스에 대해 로컬 서비스 SID(도메인 계정 요구 대신)를 사용할 수 있습니다. 이 아티클에서 간략히 설명한 Kerberos 제한된 위임 구성 단계는 해당 구성과 동일합니다(도메인 계정 대신 Active Directory의 게이트웨이 컴퓨터 개체에 간단히 적용됨).
 
-### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>필수 구성 요소 3: SPN(SetSPN) 및 Kerberos 제한된 위임 설정을 구성하는 도메인 관리자 권한 갖기
+### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>필수 구성 요소 3: SPN(SetSPN) 및 Kerberos 제한 위임 설정을 구성하는 도메인 관리자 권한 갖기
 
 도메인 관리자가 도메인 관리자 권한을 요구하지 않고 다른 사용자에게 SPN 및 Kerberos 위임을 구성하는 권한을 일시적 또는 영구적으로 허용하는 것은 기술적으로 가능하지만 이는 권장되는 방법이 아닙니다. 다음 섹션에서 **필수 구성 요소 3**에 필요한 구성 단계를 자세히 설명합니다.
 
@@ -111,9 +111,9 @@ Kerberos 제한된 위임을 적절하게 작동하기 위해 *서비스 사용�
 
 다음 단계에서는 SQL Server를 실행 중인 데이터베이스 서버와 게이트웨이 머신이라는 두 머신을 사용하여 온-프레미스 환경을 가정합니다. 이 예에서는 다음과 같은 설정 및 이름을 가정합니다.
 
-* 게이트웨이 컴퓨터 이름: **PBIEgwTestGW**
+* 게이트웨이 머신 이름: **PBIEgwTestGW**
 * 게이트웨이 서비스 계정: **PBIEgwTest\GatewaySvc**(계정 표시 이름: 게이트웨이 커넥터)
-* SQL Server 데이터 원본 컴퓨터 이름: **PBIEgwTestSQL**
+* SQL Server 데이터 원본 머신 이름: **PBIEgwTestSQL**
 * SQL Server 데이터 원본 서비스 계정: **PBIEgwTest\SQLService**
 
 지정된 이러한 예제 이름 및 설정, 구성 단계는 다음과 같습니다.
@@ -164,7 +164,7 @@ Kerberos 제한된 위임을 적절하게 작동하기 위해 *서비스 사용�
 
 SAP HANA를 사용 중인 경우 약간의 성능 개선 효과를 볼 수 있는 다음과 같은 추가 단계를 수행하는 것이 좋습니다.
 
-1. 게이트웨이 설치 디렉터리에서 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*라는 구성 파일을 찾아서 엽니다.
+1. 게이트웨이 설치 디렉터리에서 다음 구성 파일을 찾아서 엽니다. *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*.
 
 1. *FullDomainResolutionEnabled* 속성을 찾아 값을 *True*로 변경합니다.
 
@@ -367,7 +367,7 @@ Azure AD DirSync를 구성하지 않은 경우 **Azure AD 사용자에게 매핑
 
 ### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>Power BI 서비스에 새 BW 애플리케이션 서버 데이터 원본 추가
 
-게이트웨이에 BW 데이터 원본 추가: 이 문서의 앞 부분에 나온 [보고서 실행](#running-a-power-bi-report)에 대한 지침을 따르세요.
+게이트웨이에 BW 데이터 원본 추가: 이 문서의 앞부분에 나온 [보고서 실행](#running-a-power-bi-report)에 대한 지침을 따르세요.
 
 1. Power BI Desktop에서 BW 서버에 로그인할 때 입력하는 애플리케이션 서버의 **호스트 이름**, **시스템 번호** 및 **클라이언트 ID**를 데이터 원본 구성 창에 입력합니다. **인증 방법**에 대해서는 **Windows**를 선택합니다.
 

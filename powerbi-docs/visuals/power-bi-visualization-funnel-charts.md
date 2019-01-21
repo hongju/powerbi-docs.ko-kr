@@ -6,20 +6,20 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 345293e6b8bd7047ecfe1716f0b7be1c5bed9c58
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829875"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289627"
 ---
 # <a name="funnel-charts"></a>깔대기형 차트
-깔때기형 차트는 순차적으로 연결된 단계가 있는 선형 프로세스를 시각화하는 데 도움이 됩니다. 예를 들어 잠재 고객 \> 적격 잠재 고객 \> 가망 고객 \> 계약 \> 완료 단계를 통해 고객을 추적하는 영업 깔때기가 있습니다.  깔때기의 모양은 추적 중인 프로세스의 상태를 한눈에 보여줍니다.
+깔때기형 차트는 순차적으로 연결된 단계가 있는 선형 프로세스를 시각화하는 데 도움이 됩니다. 예를 들어 다음 단계를 통해 고객을 추적하는 영업 깔때기가 있습니다. 잠재 고객 \> 적격 잠재 고객 \> 예측 \> 계약 \> 닫기.  깔때기의 모양은 추적 중인 프로세스의 상태를 한눈에 보여줍니다.
 
 각 깔때기 단계는 합계의 백분율을 나타냅니다. 따라서 대부분의 경우 깔때기형 차트는 깔때기 모양으로, 첫 단계가 가장 크고 뒤로 갈수록 점점 작아집니다.  서양배 모양의 깔때기도 유용합니다. 프로세스의 문제를 식별할 수 있기 때문입니다.  하지만 일반적으로 첫 번째 단계인 "유입" 단계가 가장 큽니다.
 
@@ -84,7 +84,7 @@ ms.locfileid: "52829875"
 2. 시각적 개체를 상호 간에 강조 표시하고 필터링하는 방법에 대한 기본 설정을 설정하려면 [Power BI에서 시각적 상호 작용](../service-reports-visual-interactions.md)을 참조하세요.
 
 ## <a name="create-a-funnel-chart-using-qa"></a>질문 및 답변을 사용하여 깔때기형 차트 만들기
-기회 분석 샘플 대시보드나 기회 분석 샘플 데이터 세트에서 고정된 하나 이상의 시각화가 있는 다른 대시보드를 엽니다.  질문 및 답변에서 질문을 입력하면 Power BI가 선택된 대시보드(타일이 고정된)와 관련된 모든 데이터 집합에서 답변을 검색합니다. 자세한 내용은 [Power BI - 기본 개념](../service-basic-concepts.md)을 참조하세요.
+기회 분석 샘플 대시보드나 기회 분석 샘플 데이터 세트에서 고정된 하나 이상의 시각화가 있는 다른 대시보드를 엽니다.  질문 및 답변에서 질문을 입력하면 Power BI가 선택된 대시보드(타일이 고정된)와 관련된 모든 데이터 세트에서 답변을 검색합니다. 자세한 내용은 [Power BI - 기본 개념](../service-basic-concepts.md)을 참조하세요.
 
 1. 기회 분석 샘플 대시보드에서 질문 및 답변의 질문 상자에 질문을 입력하세요.
    

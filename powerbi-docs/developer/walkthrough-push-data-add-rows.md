@@ -6,22 +6,22 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/01/2018
-ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 0337e35a67a852e1bb82209e095df4945c5de84a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475663"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275298"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5단계: Power BI 테이블에 행 추가
 이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
 데이터 세트에 데이터 푸시의 **4단계**인 [Power BI 테이블에 행을 추가할 데이터 세트 가져오기](walkthrough-push-data-get-datasets.md)에서는 [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업 및 Newtonsoft.Json을 사용하여 데이터 세트 ID를 가져왔습니다. 이 단계에서는 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업에 데이터 세트 ID를 사용하여 **Power BI** 데이터 세트에 행을 추가합니다. 
 
-[PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 호출하면 데이터 집합에 행이 추가됩니다.
+[PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 호출하면 데이터 세트에 행이 추가됩니다.
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -36,7 +36,7 @@ Power BI API를 사용하여 데이터 세트에 행을 추가하는 방법은 �
 1. 2단계: 데이터 푸시 연습, [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 만든 콘솔 애플리케이션 프로젝트에 아래 코드를 추가합니다.
 2. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. **추가된 행** 이 콘솔 창에 표시됩니다. Power BI에 로그인하여 데이터 세트에 추가된 행을 볼 수도 있습니다.
 
-**데이터 집합에 데이터 푸시 샘플**
+**데이터 세트에 데이터 푸시 샘플**
 
 Program.cs에 이 코드를 추가합니다.
 
@@ -307,7 +307,7 @@ Program.cs에 이 코드를 추가합니다.
         }
     }
 
-위의 코드에서 **_//첫 번째 ID를 가져오도록_** 지정했지만 올바른 방법은 이름으로 데이터 세트를 검색하는 것입니다.
+위의 코드에서 **_//첫 번째 ID를 가져오도록_** 지정했지만 올바른 방법은 이름으로 데이터 집합을 검색하는 것입니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 대시보드에 데이터 푸시](walkthrough-push-data.md)  

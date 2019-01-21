@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 33b88c728a5a79f2b1edf6e1728850723ce76fec
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: 96ea117ff0ba28a158eb9f0eaf748d66b25f90d5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40257204"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278932"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>자습서: SQL Server에서 온-프레미스 데이터에 연결
 
@@ -176,7 +176,7 @@ Power BI Desktop에서는 SQL Server에 직접 연결하지만 Power BI 서비�
 
 2. Power BI 서비스의 왼쪽 탐색 창에서 **내 작업 영역**을 선택합니다.
 
-3. **데이터 집합** 아래에서 **TestGatewayDocs** 데이터 집합에 대해 **기타**(**. . .**) > **지금 새로 고침**을 선택합니다.
+3. **데이터 세트** 아래에서 **TestGatewayDocs** 데이터 세트에 대해 **기타**(**. . .**) &gt; **지금 새로 고침**을 선택합니다.
 
     ![지금 새로 고침](media/service-gateway-sql-tutorial/refresh-now.png)
 

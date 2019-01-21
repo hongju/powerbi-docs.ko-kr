@@ -6,22 +6,22 @@ manager: kfile
 ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: cf489f842d114dbf0ac1add561a93c2ce5499971
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4654534d9643b9c5cf5911249a0eda33b5cc32af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780578"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277902"
 ---
 # <a name="dataset-properties"></a>데이터 세트 속성
 
 데이터 세트 API의 현재 v1은 이름과 테이블의 컬렉션을 사용하여 데이터 세트를 만듭니다. 각 테이블에는 이름과 행의 컬렉션이 있습니다. 각 열에는 이름 및 datatype이 있습니다. 테이블 간의 측정값 및 관계를 지원함으로써 특히 이러한 속성을 확장했습니다. 이 릴리스에 대해 지원되는 속성의 전체 목록은 아래와 같습니다.
 
 > [!IMPORTANT]
-> [데이터 집합 작업 그룹](https://docs.microsoft.com/rest/api/power-bi/datasets) 페이지에서 액세스할 수 있습니다.
+> [데이터 세트 작업 그룹](https://docs.microsoft.com/rest/api/power-bi/datasets) 페이지에서 액세스할 수 있습니다.
 
 ## <a name="dataset"></a>데이터 세트
 
@@ -50,7 +50,7 @@ name     |  문자열        | 열의 사용자 정의 이름입니다.        |
 dataType     |  문자열       |  지원되는 [EDM 데이터 형식](https://msdn.microsoft.com/library/ee382832.aspx) 및 제한 사항입니다. [데이터 형식 제한](#DataTypeRestrictions)을 참조하세요.      |  False       | True        
 formatString     | 문자열        | 값이 표시될 때 그 서식을 어떻게 지정하는지 설명하는 문자열입니다. 문자열 서식을 지정하는 방법에 대 한 자세한 내용은 [FORMAT_STRING 콘텐츠](https://msdn.microsoft.com/library/ms146084.aspx)를 참조하세요.      | False        | False        
 sortByColumn    | 문자열        |   현재 열을 정렬하는 데 사용하기 위해 동일 테이블에 있는 열의 문자열 이름입니다.     | False        | False       
-dataCategory     | 문자열        |  이 열에 있는 데이터를 설명하는 데이터 범주에 사용할 문자열 값입니다. 몇 가지 일반적인 값으로는 Address, City, Continent, Country, Image, ImageUrl, Latitude, Longitude, Organization, Place, PostalCode, StateOrProvince, WebUrl 등이 있습니다.       |  False       | False        
+dataCategory     | 문자열        |  이 열에 있는 데이터를 설명하는 데이터 범주에 사용할 문자열 값입니다. 몇 가지 일반적인 값은 다음과 같습니다. Address, City, Continent, Country, Image, ImageUrl, Latitude, Longitude, Organization, Place, PostalCode, StateOrProvince, WebUrl       |  False       | False        
 isHidden    |  부울 값       |  열을 보기에서 숨겨져 있는지를 나타내는 속성입니다. 기본값은 False입니다.       | False        | False        
 summarizeBy     | 문자열        |  열에 대한 기본 집계 메서드입니다. 값으로는 default, none, sum, min, max, count, average, distinctCount 등이 있습니다.     |  False       | False
 
@@ -68,7 +68,7 @@ isHidden     | 문자열        |  True인 경우, 테이블은 클라이언트 
 이름  |형식  |설명  |읽기 전용  |필수 
 ---------|---------|---------|---------|---------
 name     | 문자열        | 관계의 사용자 정의 이름입니다. 관계의 식별자로 사용되기도 합니다.        | False       | True        
-crossFilteringBehavior     | 문자열        |    관계의 필터 방향으로는 OneDirection(기본값), BothDirections, Automatic 등이 있습니다.       | False        | False        
+crossFilteringBehavior     | 문자열        |    관계의 필터 방향은 다음과 같습니다. OneDirection(기본값), BothDirections, Automatic       | False        | False        
 fromTable     | 문자열        | 외래 키 테이블의 이름입니다.        | False        | True         
 fromColumn    | 문자열        | 외래 키 열의 이름입니다.        | False        | True         
 toTable    | 문자열        | 기본 키 테이블의 이름입니다.        | False        | True         

@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 0990f6ddaf458d5723cd04fedf0b34f497de16cb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974187"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278496"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI 데이터 세트에 데이터 푸시
 
@@ -27,7 +27,7 @@ Power BI API를 사용하여 데이터를 Power BI 데이터 세트에 푸시할
 * 1단계: [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)
 * 2단계: [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)
 * 3단계: [Power BI에서 데이터 세트 만들기](walkthrough-push-data-create-dataset.md)
-* 4단계:[ Power BI 테이블에 행을 추가할 데이터 세트 가져오기](walkthrough-push-data-get-datasets.md)
+* 4단계: [Power BI 테이블에 행을 추가할 데이터 세트 가져오기](walkthrough-push-data-get-datasets.md)
 * 5단계: [Power BI 테이블에 행 추가](walkthrough-push-data-add-rows.md)
 
 다음 섹션에서는 데이터를 푸시하는 Power BI API 작업에 대한 일반적인 내용을 설명합니다.
@@ -39,7 +39,7 @@ Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 
 데이터 세트에 데이터를 푸시하는 작업은 다음과 같습니다.
 
 * [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
-* [데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
+* [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
 * [행 게시](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
 * [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
@@ -47,7 +47,7 @@ Power BI에서 데이터 세트를 만들려면 Power BI 서비스에 JSON(JavaS
 
 데이터 세트에 대한 JSON 문자열의 형식은 다음과 같습니다.
 
-**Power BI 데이터 집합 JSON 개체**
+**Power BI 데이터 세트 JSON 개체**
 
     {"name": "dataset_name", "tables":
         [{"name": "", "columns":
@@ -59,9 +59,9 @@ Power BI에서 데이터 세트를 만들려면 Power BI 서비스에 JSON(JavaS
         ]
     }
 
-여기의 Sales Marketing 데이터 세트 예제에서는 아래 예제와 같은 JSON 문자열을 전달합니다. 이 예제에서 **SalesMarketing**은 데이터 세트의 이름이고 **Product**는 테이블의 이름입니다. 테이블을 정의한 후 테이블 스키마를 정의합니다. **SalesMarketing** 데이터 집합의 경우 테이블 스키마는 ProductID, Manufacturer, Category, Segment, Product 및 IsCompete 열을 포함합니다.
+여기의 Sales Marketing 데이터 세트 예제에서는 아래 예제와 같은 JSON 문자열을 전달합니다. 이 예제에서 **SalesMarketing**은 데이터 세트의 이름이고 **Product**는 테이블의 이름입니다. 테이블을 정의한 후 테이블 스키마를 정의합니다. **SalesMarketing** 데이터 세트의 경우 테이블 스키마는 다음 열을 포함합니다. ProductID, Manufacturer, Category, Segment, Product 및 IsCompete.
 
-**예제 데이터 집합 개체 JSON**
+**예제 데이터 세트 개체 JSON**
 
     {
         "name": "SalesMarketing",

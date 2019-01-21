@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830312"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296826"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -70,7 +70,7 @@ ms.locfileid: "52830312"
 * **시나리오 1**: 조직에 기존 Office 365 환경이 이미 있고 Power BI에 가입하는 사용자가 Office 365 계정을 이미 가지고 있습니다.
     이 시나리오에서 사용자가 테넌트(예: contoso.com)에 회사 또는 학교 계정을 이미 가지고 있지만 Power BI가 아직 없는 경우, Microsoft가 해당 계정의 플랜을 활성화해 주며 사용자에게 Power BI 서비스 사용 방법을 자동으로 알립니다.
 
-* **시나리오 2**: 조직에 기존 Office 365 환경이 있지만 Power BI에 가입하는 사용자가 Office 365 계정을 가지고 있지 않습니다.
+* **시나리오 2**: 조직에 기존 Office 365 환경이 있지만, Power BI에 가입하는 사용자가 Office 365 계정을 가지고 있지 않습니다.
     이 시나리오에서 사용자는 조직의 도메인(예: contoso.com)에 전자 메일 주소가 있지만 Office 365 계정이 아직 없습니다. 이 경우 사용자는 Power BI에 가입할 수 있으며 자동으로 계정을 받습니다. 이렇게 해서 사용자가 Power BI 서비스에 액세스할 수 있습니다. 예를 들어 Nancy라는 직원이 자신의 업무용 메일 주소(예: nancy@contoso.com)를 사용하여 가입하면 Microsoft는 자동으로 Nancy를 Contoso의 Office 365 환경에 사용자로 추가하고 해당 계정에 대해 Power BI를 활성화합니다.
 
 * **시나리오 3**: 조직에 메일 도메인에 연결된 Office 365 환경이 없습니다.
@@ -158,7 +158,7 @@ Get-MsolCompanyInformation | fl allow*
 
 * **시나리오 1**: 조직에 기존 Office 365 환경이 이미 있고 조직의 모든 사용자가 Office 365 계정을 가지고 있는 경우 ID 관리 방법은 변경되지 않습니다.
 
-* **시나리오 2**: 조직에 기존 Office 365 환경이 있지만 조직의 일부 사용자가 Office 365 계정을 가지고 있지 않은 경우 테넌트에서 사용자를 생성하고 사용자의 회사 또는 학교 메일 주소를 기반으로 라이선스를 할당합니다.
+* **시나리오 2**: 조직에 기존 Office 365 환경이 있지만, 조직의 일부 사용자가 Office 365 계정을 가지고 있지 않은 경우 테넌트에서 사용자를 생성하고 사용자의 회사 또는 학교 메일 주소를 기반으로 라이선스를 할당합니다.
 
     즉, 특정 시간에 관리하는 사용자 수는 조직의 사용자가 서비스에 가입함에 따라 증가합니다.
 
@@ -186,7 +186,7 @@ Power BI 관리 포털에 액세스하려면 계정이 Office 365 또는 Azure A
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>여러 도메인이 있는 경우 사용자가 추가되는 Office 365 테넌트를 제어할 수 있습니까?
 
-아무 작업을 수행하지 않은 경우 각 사용자 메일 도메인 및 하위 도메인에 테넌트가 만들어집니다. 모든 사용자가 메일 주소 확장과 관계없이 동일한 테넌트에 있게 하려면: 대상 테넌트를 미리 만들거나 기존 테넌트를 사용하고 해당 테넌트 내에 통합할 모든 기존 도메인 및 하위 도메인을 추가합니다. 그런 다음, 해당 도메인 및 하위 도메인에서 끝나는 메일 주소를 가진 모든 사용자는 가입할 때 자동으로 대상 테넌트에 가입합니다.
+아무 작업을 수행하지 않은 경우 각 사용자 메일 도메인 및 하위 도메인에 테넌트가 만들어집니다. 모든 사용자가 자신의 전자 메일 주소 확장명에 관계 없이 동일한 테넌트에 포함되도록 하려면: 대상 테넌트를 미리 만들거나 기존 테넌트를 사용하고 해당 테넌트 내에 통합할 모든 기존 도메인 및 하위 도메인을 추가합니다. 그런 다음, 해당 도메인 및 하위 도메인에서 끝나는 메일 주소를 가진 모든 사용자는 가입할 때 자동으로 대상 테넌트에 가입합니다.
 
 > [!IMPORTANT]
 > 사용자가 생성된 후 테넌트 간에 사용자를 이동하는 자동화된 메커니즘은 없습니다. 단일 Office 365 테넌트에 도메인 추가에 대해 알아보려면 [Office 365에 사용자 및 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.

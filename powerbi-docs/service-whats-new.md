@@ -5,17 +5,17 @@ author: mihart
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: c35f418362c5036331030bf100d9bfca6b943a4a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900661"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295822"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
@@ -24,7 +24,7 @@ ms.locfileid: "52900661"
 - [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
 - [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI 팀 블로그](https://powerbi.microsoft.com/blog/)
-- Dynamics 365의 [비즈니스 응용 프로그램 2018년 봄 릴리스 정보](http://aka.ms/businessappsreleasenotes): Microsoft 플랫폼에서 응용 프로그램 및 확장을 빌드하기 위한 새 기능과 함께, 비즈니스 응용 프로그램의 최신 업데이트입니다. 
+- Dynamics 365의 [2018년 봄 Business Applications 릴리스 정보](http://aka.ms/businessappsreleasenotes): 플랫폼을 기반으로 애플리케이션 및 확장을 빌드하는 새로운 기능뿐만 아니라 비즈니스 애플리케이션에 대한 최신 업데이트. 
 
 “새로운 기능” 및 기능에 대한 자세한 내용은 YouTube 채널에서도 확인할 수 있습니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "52900661"
 
 ### <a name="june-2018"></a>2018년 6월
 * 필터 및 슬라이서를 사용하여 보고서 공유
-* [게이트웨이 연결](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/)에 대한 새롭고 향상된 사용자 인터페이스 및 데이터 집합 설정
+* [게이트웨이 연결](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/)에 대한 새롭고 향상된 사용자 인터페이스 및 데이터 세트 설정.
 
 ### <a name="may-2018"></a>2018년 5월
 * Power BI 서비스의 [테마 대시보드](service-dashboard-themes.md)
@@ -125,7 +125,7 @@ ms.locfileid: "52900661"
 * 조직에서 Power BI가 어떻게 사용되는지를 미세 조정합니다. 통해 조직에서 사용 되는 방식을 미세 조정 [세부적인 관리자 컨트롤](https://powerbi.microsoft.com/blog/announcing-granular-tenant-settings-in-power-bi/)합니다.
 * [관련 콘텐츠 보기 창](https://powerbi.microsoft.com/blog/announcing-the-view-related-content-pane-navigation-made-even-easier/preview/)을 통해 더 짧은 시간에 더 많은 작업을 해보세요.
 * 향상된 [DAX 쿼리에 대한 메시지 문제 해결](https://powerbi.microsoft.com/blog/power-bi-service-march-feature-summary/#DAXtroubleshooting)입니다.
-* [사용자 지정 캐시 새로 고침 일정](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/)을 통해 데이터 집합을 더 자세히 제어해 보세요.
+* [사용자 지정 캐시 새로 고침 일정](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/)을 통해 데이터 세트를 더 자세히 제어해 보세요.
 * [Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/)로 연결합니다.
 * [Office 스토어에서 Power BI 사용자 지정 시각적 개체](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)를 찾습니다.
 * 미리 보기: [보고서 페이지를 구독](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)하여 자신의 데이터에 대해 자세히 알아봅니다.
@@ -133,7 +133,7 @@ ms.locfileid: "52900661"
 
 ### <a name="february-2017"></a>2017년 2월
 * [탐색 미리 보기 기능 향상](https://powerbi.microsoft.com/blog/power-bi-service-february-feature-summary/) – 더 쉽게 작업 영역 사이를 전환하고 현재 작업 영역 내에서 콘텐츠에 대한 작업을 수행합니다. 
-* 사용자 지정 응용 프로그램에 [Power BI 대시보드를 포함](https://powerbi.microsoft.com/blog/embed-dashboard/)했습니다.
+* 사용자 지정 애플리케이션에 [Power BI 대시보드를 포함](https://powerbi.microsoft.com/blog/embed-dashboard/)했습니다.
 * 미리 보기: [SharePoint Online에 Power BI 보고서를 통합](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)합니다. 
 
 ### <a name="january-2017"></a>2017년 1월
@@ -160,7 +160,7 @@ ms.locfileid: "52900661"
 ### <a name="october-2016"></a>2016년 10월
 * [새로운 Microsoft 팀과 Power BI 통합](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)을 이용합니다.
 * R을 이해하지 않고 Power BI에서 [R 시각화](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/)를 디자인합니다.
-* 미리 보기: [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/)를 사용하여 BI 전문가는 클라우드 또는 온-프레미스에 상주하는 데이터를 기반으로 BI 의미 체계 모델을 만들어 비즈니스 사용자에게 단순화된 데이터 보기를 제공할 수 있습니다.
+* 미리 보기: [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/)를 사용하여 BI 전문가는 클라우드 또는 온-프레미스에 보존하는 데이터를 기반으로 BI 의미 체계 모델을 만들어 비즈니스 사용자에게 단순화된 데이터 보기를 제공할 수 있습니다.
 * 새로운 [Power BI 서비스 관리자 역할](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/)은 Power BI 관리 포털에 액세스할 수 있지만 다른 Office 365 관리 액세스할 수 없는 사용자에게 할당할 수 있습니다.
 * [Power BI를 사용하여 MYOB 고급 데이터](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/)를 탐색합니다.
 * 비관리자가 [Power BI 감사 로그](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/)를 검토할 수 있는 방법
@@ -184,7 +184,7 @@ ms.locfileid: "52900661"
 ### <a name="june-2016"></a>2016년 6월
 ***신속한 정보 활용***
 
-* 신속한 정보 활용이 복잡한 필터와 함께 작동: 단일 타일에 대해 범위가 지정된 신속한 정보 활용이 이제 복잡한 필터를 이해하게 되었습니다.
+* 빠른 인사이트가 복잡한 필터와 함께 작동: 단일 타일에 대해 범위가 지정된 빠른 인사이트가 이제 복잡한 필터를 이해하게 되었습니다.
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)하세요.
 
@@ -197,8 +197,8 @@ ms.locfileid: "52900661"
 ***행 수준 보안(RLS)***
 
 * AAD(Azure Active Directory) 그룹 지원: 사용자는 이제 AAD 그룹(보안 그룹 및 배포 목록)을 역할에 할당할 수 있습니다. 이렇게 하면 한 번에 쉽게 역할을 사용자의 큰 그룹에 할당할 수 있습니다.
-* [RLS이 있는 데이터에 의해 지원되는 보고서와 함께 RLS 역할을 테스트](service-admin-rls.md#validating-the-role-within-power-bi-desktop): 데이터 집합을 특정 역할로 테스트할 수 있는 RLS 미리 보기에 기능을 추가했습니다. 어떤 사용자가 자신의 대시보드를 가지기 전에 예상대로 작동하는지 확인할 수 있습니다.
-* 직접 쿼리를 기반으로 RLS를 정의하고 클라우드 모델에 적용: 이제 직접 쿼리 데이터 소스에 대해 RLS 규칙을 만들어 적용할 수 있습니다.
+* [제 위치에 RLS가 있는 데이터에서 지원하는 보고서와 함께 RLS 역할을 테스트](service-admin-rls.md#validating-the-role-within-power-bi-desktop): 데이터 세트를 특정 역할로 테스트할 수 있는 RLS 미리 보기에 기능을 추가했습니다. 어떤 사용자가 자신의 대시보드를 가지기 전에 예상대로 작동하는지 확인할 수 있습니다.
+* 직접 쿼리를 기반으로 RLS를 정의하고 클라우드 모델에 적용: 이제 직접 쿼리 데이터 원본에 대해 RLS 규칙을 만들어 적용할 수 있습니다.
 
 ***대시보드***
 
@@ -208,16 +208,16 @@ ms.locfileid: "52900661"
 
 * 향상된 다운로드 환경: 새로운 대화 환경을 통해 Excel의 분석 기능에 쉽게 업데이트를 다운로드합니다.
 * RLS 지원: RLS가 설정되면 사용자가 Excel에서 데이터를 분석할 때 데이터에 적용하는 규칙이 적용됩니다.
-* 온-프레미스 Analysis Services 데이터베이스의 향상된 오류 메시지 제공기능: 이전에는 지원되지 않는 데이터 소스에 대해 Excel에서 분석을 선택한 경우, ODC 파일을 다운로드하고 Power BI에 연결한 이후까지 오류 메시지가 나타나지 않습니다. 지원되지 않는 데이터 소스에 대해 Excel에서 분석을 선택하면, 해당 데이터 소스는 아직 지원되지 않음을 알려주는 메시지가 나타납니다.
+* 온-프레미스 Analysis Services 데이터베이스의 향상된 오류 메시지 제공 기능: 이전에는 지원되지 않는 데이터 원본에 대해 Excel에서 분석을 선택한 경우, ODC 파일을 다운로드하고 Power BI에 연결한 이후까지 오류 메시지가 나타나지 않습니다. 지원되지 않는 데이터 소스에 대해 Excel에서 분석을 선택하면, 해당 데이터 소스는 아직 지원되지 않음을 알려주는 메시지가 나타납니다.
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)하세요.
 
-* [SQL Server 2016 Analysis Services 표 형식 모델에 대해 Power BI 질문 및 답변 지원](service-q-and-a-direct-query.md): 데이터 소스에 연결된 엔터프라이즈 게이트웨이에 대한 Power BI 질문 및 답변 사용자 환경과 Power BI 질문 및 답변의 공개 미리 보기 시작이 향상되어, SQL Server 2016 Analysis Services 표 형식 모델을 지원하게 되었습니다. 자세한 내용은 [블로그 게시물을 참조](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)하세요.
-* [Excel 보고서에 대한 로컬 파일 지원](service-excel-workbook-files.md#local-excel-workbooks): 이제 로컬 드라이브 또는 다른 저장소 서비스에서 Excel 파일을 업로드하고 Power BI의 장점이 추가된 Excel Online에서 해당 Excel 보고서를 사용할 수 있습니다. 자세한 내용은 [블로그 게시물을 참조](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)하세요.
+* [SQL Server 2016 Analysis Services 테이블 형식 모델에 대해 Power BI 질문 및 답변 지원](service-q-and-a-direct-query.md): 데이터 원본에 연결된 엔터프라이즈 게이트웨이에 대한 Power BI 질문 및 답변 사용자 환경과 Power BI 질문 및 답변의 공개 미리 보기 시작이 향상되어, SQL Server 2016 Analysis Services 테이블 형식 모델을 지원하게 되었습니다. 자세한 내용은 [블로그 게시물을 참조](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)하세요.
+* [Excel 보고서에 대한 로컬 파일 지원](service-excel-workbook-files.md#local-excel-workbooks): 이제 로컬 드라이브 또는 다른 스토리지 서비스에서 Excel 파일을 업로드하고 Power BI의 장점이 추가된 Excel Online에서 해당 Excel 보고서를 사용할 수 있습니다. 자세한 내용은 [블로그 게시물을 참조](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)하세요.
 
 **2016년 4월 28일**
 
-* [대시보드 타일에서 신속한 정보 활용](consumer/end-user-insights.md): 포커스 모드에서 타일을 볼 때, 신속한 정보 활용을 클릭하여 타일과 관련 데이터의 상관 관계, 이상값, 추세, 계절성, 추세의 변환점, 주요 요인을 몇 초 내에 자동으로 검색하세요.
+* [대시보드 타일의 빠른 인사이트](consumer/end-user-insights.md): 포커스 모드에서 타일을 볼 때, [인사이트 얻기]를 클릭하여 타일과 관련 데이터의 상관관계, 이상값, 추세, 계절성, 추세의 변환점, 주요 요인을 몇 초 내에 자동으로 검색하세요.
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)하세요.
 
@@ -229,7 +229,7 @@ ms.locfileid: "52900661"
 
 **2016년 4월 16일**
 
-* Microsoft 보안 센터: Power BI는 Microsoft 보안 센터와 협력하여, Microsoft 제품에 대한 규정 준수 인증을 문서화하기 위한 단일 소스를 제공합니다. Power BI의 인증에는 ISO 27001, ISO 27018, EU 모델 조항, HIPAA BAA 및 영국 G-클라우드가 포함됩니다.
+* Microsoft 보안 센터: Power BI는 Microsoft 보안 센터와 협력하여, Microsoft 제품에 대한 규정 준수 인증을 문서화하기 위한 단일 원본을 제공합니다. Power BI의 인증에는 ISO 27001, ISO 27018, EU 모델 조항, HIPAA BAA 및 영국 G-클라우드가 포함됩니다.
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-added-to-microsoft-trust-center/)하세요.
 
@@ -242,7 +242,7 @@ ms.locfileid: "52900661"
 
 ***대시보드***
 
-* [Vimeo 비디오 타일](service-dashboard-add-widget.md): 대시보드에서 Vimeo 플레이어가 포함된 타일을 추가합니다.
+* [Vimeo 비디오 타일](service-dashboard-add-widget.md):  대시보드에서 Vimeo 플레이어가 포함된 타일을 추가합니다.
 
 ***Excel에서 분석***
 
@@ -266,7 +266,7 @@ ms.locfileid: "52900661"
 
 ***질문 및 답변***
 
-* "is"에 대한 자동 완성: 질문 및 답변에서는 "is" 뒤에 열 이름을 입력하면 값을 제안합니다.
+* “is”에 대한 자동 완성: 질문 및 답변에서는 “is” 뒤에 열 이름을 입력하면 값을 제안합니다.
 
 ***모바일***
 
@@ -403,7 +403,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 * 시각화 기능 향상:
   
   1. 표 시각적 개체의 정렬 상태에 대한 시각 신호
-  2. 새로운 시각적 개체: 누적 영역형 차트
+  2. 새 시각적 개체: 누적 영역형 차트
   3. 영역 차트 및 꺾은선형 차트에 대한 스마트 도구 설명
   4. 카티전 시각적 개체에 대한 참조 선/영역을 만드는 기능
   5. 원형 차트 및 분산형 차트에 대한 데이터 레이블 개선
@@ -421,8 +421,8 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
   1. SSAS 다차원 지원 - 계층 지원(미리 보기 기능)
   2. Stripe 커넥터
   3. Smartsheet 커넥터
-  4. “데이터 입력”: 데이터를 붙여넣거나 입력하여 표 생성
-  5. DirectQuery 개선: 모든 유형의 T-SQL 및 SAP HANA를 지원하여 결과적으로 성능 개선
+  4. “데이터 입력”: 데이터를 붙여넣거나 입력하여 테이블 만들기
+  5. DirectQuery 개선:  T-SQL 및 SAP HANA의 모든 데이터 유형을 지원하여 결과적으로 성능 개선
   6. ODBC 커넥터: 사용자/시스템 DSN 선택 지원
   7. CSV 커넥터: 원본 대화 상자에서 열 구분 기호를 지정하는 기능
 
@@ -541,7 +541,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 * 대시보드를 유연하게 만들어서 1x1에서 5x5의 범위가 지정된 추가 타일 크기를 가진 대시보드를 사용자 지정할 수 있습니다.
 * 고유한 공간에서 수행한 방식으로 [그룹 공간에서 대시보드를 공유(및 공유 해제)](service-collaborate-power-bi-workspace.md)할 수 있습니다. 동료가 공유 초대를 수락하면 공유된 대시보드(및 연관 된 보고서)는 읽기 전용 권한으로 해당하는 고유한 공간에 추가됩니다.
-* Power BI에 고객 수익성, 인적 자원, 영업 기회 분석, 조달 분석, 판매 및 마케팅 샘플이라는 5가지 [업계 관련 샘플](sample-datasets.md)을 추가합니다.
+* Power BI에 다음과 같은 5가지 [업계 관련 샘플](sample-datasets.md)을 추가했습니다. 고객 수익성, 인적 자원, 영업 기회 분석, 조달 분석, 판매 및 마케팅 샘플.
 * Stripe는 온라인 비즈니스에 대한 고급 지불 플랫폼입니다. 창업자부터 Fortune지 선정 500대 기업까지 수천 개의 비즈니스가 Stripe를 사용하여 전 세계의 사용자로부터 130개가 넘는 통화로 지불을 수락하고 있습니다. 기존 Stripe 계정으로 Power BI를 연결하여 [Stripe 작업을 모니터링하고 탐색하며 시각화하는 데 Power BI Stripe 콘텐츠 팩을 사용](service-connect-to-stripe.md)할 수 있습니다.
 
 [블로그에서 자세한 내용을 알아보세요](http://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx).
@@ -592,11 +592,11 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 **2015년 7월 24일**
 
 * Power BI의 "일반 공급"(GA) 릴리스가 공개되었음을 알려드립니다. [Power BI Pro](service-self-service-signup-for-power-bi.md)에 지금 등록합니다. GA 릴리스의 일부로서, 몇 가지 멋진 새로운 기능을 제공하려 합니다.
-* 새 시각화 요소 및 보고서 작성 환경: 새 보고 캔버스에는 시각화를 더 다양하게 선택하고 제목, 범례, 축, 색상, 배경 등의 서식 지정에 대해 더욱 세밀하게 제어할 수 있습니다.
+* 새 시각화 요소 및 보고서 작성 환경: 새 보고 캔버스에는 시각화를 더 다양하게 선택하고 제목, 범례, 축, 색상, 배경 등의 서식 지정을 더욱 세밀하게 제어할 수 있습니다.
 * [Power BI 그룹](service-create-distribute-apps.md): Office 365 그룹을 기반으로 하는 강력한 공동 작업 환경을 제공합니다.
-* [조직 콘텐츠 팩](service-organizational-content-pack-introduction.md): Power BI를 사용 하여 대시보드 및 보고서를 매우 간단하게 만들 수 있고, 사용자가 이 콘텐츠를 조직 콘텐츠 갤러리에 게시할 수 있게 되었습니다.
+* [조직 콘텐츠 팩](service-organizational-content-pack-introduction.md): Power BI를 사용하여 대시보드 및 보고서를 매우 간단하게 만들 수 있고, 사용자가 이 콘텐츠를 조직 콘텐츠 갤러리에 게시할 수 있게 되었습니다.
 * [전체 Excel 파일 가져오기](service-excel-workbook-files.md): Excel Online에서 하듯 비즈니스용 OneDrive에 저장된 Excel 통합 문서를 Power BI에 가져와 전체 통합 문서를 볼 수 있습니다.
-* [CSV 파일 가져오기](service-get-data-from-files.md): Excel 또는 Power BI 데스크톱 파일처럼 쉼표로 구분된 값 텍스트(CSV) 파일은 Power BI 대시보드 및 보고서용 데이터 집합이 될 수도 있습니다.
+* [CSV 파일 가져오기](service-get-data-from-files.md): Excel 또는 Power BI Desktop 파일처럼 쉼표로 구분된 값 텍스트(CSV) 파일은 Power BI 대시보드 및 보고서용 데이터 세트가 될 수도 있습니다.
 * Excel, Power BI Desktop 및 CSV 파일 대체: 업데이트된 버전의 파일을 Power BI에 업로드하여 기존 데이터 세트를 대체할 수 있습니다. 이 데이터 세트에 연결된 모든 보고서 및 대시보드는 이제 자동으로 새 버전을 사용합니다.
 * Power BI의 이번 주 업데이트가 [Visual Studio Online 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)에서 작업 항목 추적 기능을 제공할 수 있게 되었음을 알려드립니다. 이 업데이트는 초기 버전에 포함된 Git 리포지토리, 끌어오기 요청 및 버전 제어 콘텐츠에 대한 중요한 메트릭 외에도 작업 항목에 대해 알 수 있도록 해주는 새로운 대시보드, 보고서, 업데이트된 데이터 집합을 포함합니다. 시작 방법에 대한 자세한 내용은 [Power BI용 Visual Studio Online 콘텐츠 팩 도움말 페이지](service-connect-to-quickbooks-online.md)를 참조하세요.
 
@@ -604,9 +604,9 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 * Acumatica Cloud ERP는 강력하고 유연한 플랫폼에서 제공되는 재무, 배포, CRM 및 프로젝트 회계 등 완전 통합 비즈니스 관리 애플리케이션 제품군을 제공합니다. Power BI [Acumatica 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)을 사용하면 신속하게 연결하고 기회 데이터에 대한 이해력을 즉각적으로 넓힐 수 있습니다. 이 콘텐츠에는 날짜별로 획득한 총 기회 수 등과 같은 세부 정보를 탐색하고 제공하기 위해 기본 제공된 대시보드, 일련의 보고서, 큐레이트 데이터 세트가 있습니다. 자세한 내용은 [여기](service-connect-to-acumatica.md)를 읽어보세요. 
 * [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx)는 이제 완전히 관리되는 Spark 서비스를 제공합니다. 이 기능을 통해 반복적인 기계 학습과 대화형 데이터 분석 등의 시나리오를 구성할 수 있게 되었습니다. Power BI를 통해 간단한 실시간 탐색을 제공하는 HDInsight의 Spark의 데이터에 직접 연결할 수 있습니다. 자세한 내용은 [도움말 설명서](spark-on-hdinsight-with-direct-connect.md)를 읽어보세요.
-* [Office 365 탐색 및 응용 프로그램 시작 관리자 통합](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher) 이제 한 번의 클릭으로 Office 365 애플리케이션 모두를 탐색할 수 있습니다.
+* [Office 365 탐색 및 애플리케이션 시작 관리자 통합](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher) 이제 한 번의 클릭으로 Office 365 애플리케이션 모두를 탐색할 수 있습니다.
 * 타일을 클릭할 때 사용자가 탐색하는 [사용자 지정 URL 지정](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url) 이제 특정 보고서, 다른 대시보드, SSRS 보고서 또는 외부 웹사이트 등 사용자가 이동하는 곳을 정확하게 제어할 수 있게 되었습니다. 
-* Power BI에서 사용하는 [저장소의 표시 유형 및 관리](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
+* Power BI에서 사용하는 [스토리지의 표시 유형 및 관리](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
 * [질문과 대답에 표시되는 시각적 개체와 필드 구성](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#visual)
 
 **2015년 7월 7일**

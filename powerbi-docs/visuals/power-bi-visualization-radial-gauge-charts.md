@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 079494a47452ca0ca043032f78fa35c7d1755d11
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416869"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282566"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI의 방사형 계기 차트
 방사형 계기 차트는 원호 형태로 목표/KPI에 대한 진행률을 측정하는 단일 값을 표시합니다.  목표 또는 목표값은 선(바늘)으로 표시됩니다. 목표에 대한 진행률은 음영으로 표시됩니다.  진행률은 나타내는 값은 호의 내부에 굵게 표시됩니다. 모든 가능한 값은 최소(맨 왼쪽 값)에서 최대 (맨 오른쪽 값)까지 호를 따라 균등하게 분배됩니다.
@@ -49,7 +49,7 @@ ms.locfileid: "47416869"
 
 2. **데이터 가져오기 \> 파일**을 선택하고 파일을 저장한 위치를 찾아 ***Power BI 서비스***에서 파일을 엽니다. **가져오기**를 선택합니다. 재무 샘플은 데이터 세트로 작업 영역 탐색 창에 추가됩니다.
 
-3. **데이터 집합** 콘텐츠 목록에서 **재무 샘플**을 선택하여 탐색 모드에서 엽니다.
+3. **데이터 세트** 콘텐츠 목록에서 **재무 샘플**을 선택하여 탐색 모드에서 엽니다.
 
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 

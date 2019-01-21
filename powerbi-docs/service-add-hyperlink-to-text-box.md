@@ -6,22 +6,22 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92c5ad6be98e77c7fb844d45ab135bfb9d1cd141
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 6b438b9d9e66d336b94122fe96a707f0602261b4
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829967"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278007"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>보고서에서 텍스트 상자에 하이퍼링크 추가
 텍스트 상자를 보고서에 추가하고, 보고서의 대시보드에 고정하고, 대시보드에 직접 추가할 수 있습니다. 텍스트 상자의 위치에 상관없이 하이퍼링크를 추가할 수 있습니다.  
 
-> **참고**: Power BI 테이블 및 매트릭스의 하이퍼링크에 대한 자세한 내용은 [테이블의 하이퍼링크](power-bi-hyperlinks-in-tables.md)를 참조하십시오. **대시보드**에 텍스트 상자 추가에 대한 자세한 내용은 [대시보드에서 바로 타일 추가](service-dashboard-add-widget.md)를 참조하세요. 
+> **참고**: Power BI 테이블 및 매트릭스의 하이퍼링크에 대한 자세한 내용은 [테이블의 하이퍼링크](power-bi-hyperlinks-in-tables.md)를 참조하세요. **대시보드**에 텍스트 상자 추가에 대한 자세한 내용은 [대시보드에서 바로 타일 추가](service-dashboard-add-widget.md)를 참조하세요. 
 > 
 > 
 

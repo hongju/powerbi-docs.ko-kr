@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: e3b7a6ca4471fb1a6454f6efb9fba1f89b8ae1da
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829990"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290398"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>빠르게 Excel 통합 문서에서 멋진 보고서 작성
 상사가 퇴근 전에 최근 판매 실적과 지난 캠페인에 대한 의견이 포함된 보고서를 제출하도록 요구합니다. 하지만 최신 데이터는 다양한 타사 시스템과 노트북의 파일에 있습니다. 이전에는 시각적 개체를 만들고 보고서 형식을 지정하는 데 몇 시간이 걸렸습니다. 걱정이 되기 시작합니다.
@@ -57,7 +57,7 @@ Power BI는 컴퓨터에 있는 Excel 파일을 포함하여 여러 데이터 �
 ![데이터 가져오기 > 파일 창](media/service-from-excel-to-stunning-report/pbi_local_file.png)
 
 ## <a name="build-your-report"></a>보고서 작성
-Power BI가 Excel 파일을 가져온 후 보고서 작성을 시작합니다. **데이터 집합이 준비됨** 메시지가 표시되면 **데이터 집합 보기**를 선택합니다.  Power BI가 편집용 보기에서 열리고 보고서 캔버스를 표시합니다. 오른쪽에는 시각화, 필터 및 필드 창이 있습니다.
+Power BI가 Excel 파일을 가져온 후 보고서 작성을 시작합니다. **데이터 세트가 준비됨** 메시지가 표시되면 **데이터 세트 보기**를 선택합니다.  Power BI가 편집용 보기에서 열리고 보고서 캔버스를 표시합니다. 오른쪽에는 시각화, 필터 및 필드 창이 있습니다.
 
 Excel 통합 문서 표 데이터가 필드 창에 나타납니다. 표 이름 아래에 열 머리글이 개별 필드로 나열됩니다.
 

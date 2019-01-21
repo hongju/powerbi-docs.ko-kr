@@ -5,20 +5,20 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: b7423a5b15f314050ee21b7eed5c3ea7ad960985
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250433"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291674"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Power BI Report Server에 대한 REST API를 사용하여 개발
 
-Power BI Report Server는 REST(Representational State Transfer) API를 지원합니다. REST API는 HTTP 작업(메서드)의 집합을 지원하는 서비스 끝점이며, 보고서 서버 내에서 리소스에 대한 액세스 만들기, 검색, 업데이트 또는 삭제를 제공합니다.
+Power BI Report Server는 REST(Representational State Transfer) API를 지원합니다. REST API는 HTTP 작업(메서드)의 집합을 지원하는 서비스 엔드포인트가며, 보고서 서버 내에서 리소스에 대한 액세스 만들기, 검색, 업데이트 또는 삭제를 제공합니다.
 
 REST API는 Power BI Report Server 카탈로그의 개체에 대한 프로그래밍 방식 액세스를 제공합니다. 개체의 예로는 폴더, 보고서, KPI, 데이터 원본, 데이터 세트, 새로 고침 계획, 구독 등이 있습니다. REST API를 사용하여, 예를 들어, 폴더 계층을 탐색하고, 폴더의 내용을 검색하거나 보고서 정의를 다운로드할 수 있습니다. 개체를 만들고, 업데이트하고 삭제할 수도 있습니다. 개체를 사용하는 예로는 보고서 업로드, 새로 고침 계획 실행, 폴더 삭제 등이 있습니다.
 
@@ -31,7 +31,7 @@ REST API 요청/응답 쌍은 5개의 구성 요소로 구분될 수 있습니�
 * **요청 URI**는 `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`으로 구성됩니다. 요청 URI는 요청 메시지 헤더에 포함되어 있지만 대부분의 언어 또는 프레임워크에서는 요청 메시지에서 이를 별도로 전달해야 하므로 여기에서는 별도로 호출합니다.
   
   * URI 체계: 요청을 전송하는 데 사용되는 프로토콜을 나타냅니다. 예: `http` 또는 `https`
-  * URI 호스트: REST 서비스 끝점이 호스팅되는 서버의 도메인 이름 또는 IP 주소를 지정합니다(예: `myserver.contoso.com`).
+  * URI 호스트: REST 서비스 엔드포인트가 호스트되는 서버의 도메인 이름 또는 IP 주소를 지정합니다(예: `myserver.contoso.com`).
   * 리소스 경로: 해당 리소스의 선택을 결정하는 데 서비스에서 사용하는 여러 세그먼트를 포함할 수 있는 리소스 또는 리소스 컬렉션을 지정합니다. 예: `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties`는 CatalogItem에 대한 지정된 속성을 가져오는 데 사용할 수 있습니다.
   * 쿼리 문자열(선택 사항): API 버전 또는 리소스 선택 조건과 같은 추가 단순 매개 변수를 제공합니다.
 * HTTP 요청 메시지 헤더 필드:

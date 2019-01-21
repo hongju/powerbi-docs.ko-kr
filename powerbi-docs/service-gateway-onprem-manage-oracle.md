@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4b503b7282377b112aebe237cc9a8d132502f0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5e737978b7c39abd331f51fbb12e24656d54e838
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298346"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275919"
 ---
 # <a name="manage-your-data-source---oracle"></a>데이터 원본 관리 - Oracle
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 수 있는 데이터 원본을 추가해야 합니다. 이 문서에서는 게이트웨이 및 데이터 소스로 작업하는 방법을 살펴봅니다. 예약된 새로 고침 또는 DirectQuery에 대해 Oracle 데이터 원본을 사용할 수 있습니다.
@@ -39,7 +39,7 @@ Power BI 서비스에서 게이트웨이를 다운로드할 수 있습니다. **
 
 * [Windows x64용 64비트 ODAC 12.2c 릴리스 1(12.2.0.1.0)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
-설치된 후에 데이터베이스에 대한 적절한 정보로 tnsnames.ora 파일을 구성해야 합니다. Power BI Desktop 및 게이트웨이는 tnsnames.ora 파일에 정의된 net_service_name 외부로 이동합니다. 구성되지 않으면 연결할 수 없습니다. tnsnames.ora에 대한 기본 경로는 다음 `[Oracle Home Directory]\Network\Admin\tnsnames.ora`와(과) 같습니다. tnsnames.ora 파일을 구성하는 방법에 대한 자세한 내용은 [Oracle: 로컬 이름 지정 매개 변수(tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)를 참조하세요.
+설치된 후에 데이터베이스에 대한 적절한 정보로 tnsnames.ora 파일을 구성해야 합니다. Power BI Desktop 및 게이트웨이는 tnsnames.ora 파일에 정의된 net_service_name 외부로 이동합니다. 구성되지 않으면 연결할 수 없습니다. tnsnames.ora에 대한 기본 경로는 다음 `[Oracle Home Directory]\Network\Admin\tnsnames.ora`와(과) 같습니다. Tnsnames.ora 파일을 구성하는 방법에 대한 자세한 내용은 [Oracle: Local Naming Parameters (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)(Oracle: 로컬 이름 지정 매개 변수(tnsnames.ora))를 참조하세요.
 
 ### <a name="example-tnsnamesora-file-entry"></a>예제 tnsnames.ora 파일 항목
 tnsname.ora에 있는 항목의 기본 형식은 다음과 같습니다.
@@ -157,11 +157,11 @@ DirectQuery와 예약된 새로 고침에 대한 경우입니다.
 ## <a name="troubleshooting"></a>문제 해결
 명명 구문이 잘못되었거나 적절히 구성되지 않은 경우 Oracle에서 여러 오류가 발생할 수 있습니다.
 
-* ORA-12154: TNS: 지정된 연결 식별자를 확인할 수 없습니다  
-* ORA-12514: TNS 수신기는 현재 연결 설명자에서 요청된 서비스를 알지 못합니다  
+* ORA-12154: TNS: 지정된 연결 식별자를 확인할 수 없습니다.  
+* ORA-12514: TNS 수신기는 현재 연결 설명자에서 요청된 서비스를 알지 못합니다.  
 * ORA-12541: TNS: 수신기 없음  
 * ORA-12170: TNS: 연결 시간 초과가 발생함  
-* ORA-12504: TNS 수신기가 CONNECT_DATA에서 SERVICE_NAME을 제공받지 못했습니다  
+* ORA-12504: TNS 수신기가 CONNECT_DATA에서 SERVICE_NAME을 제공받지 못했습니다.  
 
 Oracle 클라이언트가 설치되지 않거나 제대로 구성되지 않은 경우 이러한 오류가 발생할 수 있습니다. 설치된 경우 tnsnames.ora 파일이 제대로 구성되어 있고 적절한 net_service_name을 사용하는지 확인합니다. net_service_name이 Power BI Desktop을 사용하는 컴퓨터와 게이트웨이를 실행하는 컴퓨터 간에 동일한지 확인해야 합니다. 자세한 내용은 [Oracle 클라이언트 설치](#installing-the-oracle-client)를 참조하세요.
 
