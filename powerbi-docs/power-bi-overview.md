@@ -4,17 +4,17 @@ description: Power BI 개요 및 다양한 부분의 연동 방식 - Power BI De
 author: davidiseminger
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: overview
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 357af2f995fc927e7b55283c762e5f4b52376444
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: bc712b892cd35259bc036f41b6e3e16a5388ffad
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619589"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293075"
 ---
 # <a name="what-is-power-bi"></a>Power BI란?
 **Power BI**는 관련 없는 데이터 소스를 시각적으로 몰입도가 뛰어나고 일관된 대화형 정보로 변환하는 소프트웨어 서비스, 앱 및 커넥터의 컬렉션입니다. 데이터가 간단한 Excel 스프레드시트이든 클라우드 기반 온-프레미스 하이브리드 데이터 웨어하우스 컬렉션이든 **Power BI**를 통해 손쉽게 데이터 소스를 연결하고, 중요한 내용을 시각화(또는 검색)하고, 이 내용을 원하는 모든 사람과 공유할 수 있습니다.
@@ -24,7 +24,7 @@ ms.locfileid: "51619589"
 **Power BI**는 단순하고 빠르기 때문에 Excel 스프레드시트 또는 로컬 데이터베이스에서 빠른 정보를 생성할 수 있습니다. 하지만 **Power BI**는 강력하면서도 엔터프라이즈급이기 때문에 광범위한 모델링 및 실시간 분석뿐 아니라 사용자 지정 개발에 즉시 사용할 수 있습니다. 따라서 Power BI는 개인 보고서 및 시각화 도구일 수 있으며, 그룹 프로젝트, 사업부 또는 회사 전체의 분석 및 의사 결정 엔진으로 역할도 할 수 있습니다.
 
 ## <a name="the-parts-of-power-bi"></a>Power BI의 요소
-Power BI는 **Power BI Desktop**이라는 Windows 데스크톱 응용 프로그램, **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*), Windows Phone 및 태블릿뿐 아니라 iOS 및 Android 디바이스에서 사용할 수 있는 모바일 Power BI **앱**으로 구성됩니다.
+Power BI는 **Power BI Desktop**이라는 Windows 데스크톱 애플리케이션, **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*), Windows Phone 및 태블릿뿐 아니라 iOS 및 Android 장치에서 사용할 수 있는 모바일 Power BI **앱**으로 구성됩니다.
 
 ![Power BI Desktop, 서비스, 모바일](media/power-bi-overview/power-bi-blocks.png)
 
@@ -35,7 +35,7 @@ Power BI 사용 방법은 프로젝트 또는 팀에서 사용자의 역할에 �
 
 예를 들어 여러분은 주로 **Power BI 서비스**를 사용하지만 많은 숫자를 다루는 비즈니스 보고서를 만드는 동료는 **Power BI Desktop**을 중점적으로 사용하고 여러분이 보는 Power BI 서비스에 Desktop 보고서를 게시할 수 있습니다. 영업을 담당하는 또 다른 동료는 주로 Power BI 전화 앱을 사용하여 자신의 영업 할당량에 대한 진행 상황을 모니터링하고 새로운 영업 리드에 대한 세부 정보를 확인할 수 있습니다.
 
-개발자인 경우 Power BI API를 사용하여 데이터를 데이터 집합으로 푸시하거나 대시보드와 보고서를 사용자 지정 애플리케이션에 포함할 수 있습니다. 새로운 시각적 개체에 대한 아이디어가 있나요? 직접 빌드하고 다른 사람과 공유합니다.  
+개발자인 경우 Power BI API를 사용하여 데이터를 데이터 세트로 푸시하거나 대시보드와 보고서를 사용자 지정 애플리케이션에 포함할 수 있습니다. 새로운 시각적 개체에 대한 아이디어가 있나요? 직접 빌드하고 다른 사람과 공유합니다.  
 
 달성하려는 목표 또는 지정된 프로젝트나 작업에서 맡은 역할에 따라 **Power BI**의 각 요소를 서로 다른 시점에 사용할 수 있습니다.
 

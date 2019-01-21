@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 323391268e930d3b7b2926590f3377b850b65624
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679458"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282589"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop의 DAX 기본 사항
 이 문서는 Power BI Desktop을 처음 사용하는 사용자를 위한 것입니다. 여기서는 DAX(Data Analysis Expressions)를 사용하여 여러 가지 기본 계산 및 데이터 분석 문제를 해결하는 방법에 대해 신속하고 간략하게 소개합니다. 또한 일부 기본 개념, 완료할 수 있는 일련의 작업 및 지금까지 학습한 내용을 테스트할 수 있는 몇 가지 퀴즈를 검토합니다. 이 문서를 완료하면 DAX의 가장 중요한 기본 개념을 제대로 이해하고 있어야 합니다.
@@ -33,10 +33,10 @@ Microsoft Excel에서 수식을 만드는 방법을 이미 잘 알고 있을 수
 
 **예제 통합 문서**
 
-DAX를 학습하는 가장 좋은 방법은 몇 가지 기본 수식을 만들어 실제 데이터에 사용하고 그 결과를 직접 확인하는 것입니다. 이 문서의 예제 및 작업에서는 Contoso Sales Sample for Power BI Desktop Preview 파일을 사용합니다. 이는 [자습서: Power BI Desktop에서 고유한 측정값 만들기](desktop-tutorial-create-measures.md) 아티클에 사용된 것과 동일한 샘플 파일입니다. 다운로드할 [샘플 파일](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)은 다음과 같습니다.
+DAX를 학습하는 가장 좋은 방법은 몇 가지 기본 수식을 만들어 실제 데이터에 사용하고 그 결과를 직접 확인하는 것입니다. 이 문서의 예제 및 작업에서는 Contoso Sales Sample for Power BI Desktop Preview 파일을 사용합니다. [자습서: Power BI Desktop에서 고유한 측정값 만들기](desktop-tutorial-create-measures.md) 문서에 사용된 것과 동일한 샘플 파일입니다. 다운로드할 [샘플 파일](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)은 다음과 같습니다.
 
 ## <a name="lets-begin"></a>시작하기
-여기서는 세 가지 기본 개념인 구문, 함수 및 컨텍스트를 중심으로 DAX에 대한 이해를 진행합니다. 물론 DAX에는 다른 중요한 개념도 있지만 이러한 세 가지 개념을 이해하면 DAX 기술을 구축할 최상의 토대가 제공됩니다.
+여기서는 다음과 같은 세 가지 기본 개념을 중심으로 DAX를 살펴봅니다. ‘구문’, ‘함수’ 및 ‘컨텍스트’. 물론 DAX에는 다른 중요한 개념도 있지만 이러한 세 가지 개념을 이해하면 DAX 기술을 구축할 최상의 토대가 제공됩니다.
 
 ### <a name="syntax"></a>구문
 수식을 직접 만들기 전에 DAX 수식 구문에 대해 살펴보겠습니다. 구문에는 수식을 구성하는 요소, 보다 간단히 수식이 작성되는 방법이 포함됩니다. 예를 들어 측정값에 대한 간단한 DAX 수식을 살펴보겠습니다.
@@ -83,9 +83,9 @@ DAX 수식을 이해하려는 경우 매일 생각하고 말하는 언어로 각
 ### <a name="task-create-a-measure-formula"></a>작업: 측정값 수식 만들기
 이 작업을 완료하려면 Contoso Sales Sample Power BI Desktop 파일을 열어야 합니다.
     
-1. 보고서 뷰의 필드 목록에서 **판매액** 테이블을 마우스 오른쪽 단추로 클릭한 다음 새 측정값을 클릭합니다.
+1. 보고서 뷰의 필드 목록에서 **판매액** 테이블을 마우스 오른쪽 단추로 클릭한 다음 **새 측정값**을 클릭합니다.
     
-2. 수식 입력줄에서 새 측정값 이름 이전 분기 판매액을 입력하여 **측정값**을 대체합니다.
+2. 수식 입력줄에서 새 측정값 이름 **이전 분기 판매액**을 입력하여 **측정값**을 대체합니다.
     
 3. 등호 다음에 처음 몇 개의 문자 **CAL**을 입력한 다음, 사용할 함수를 두 번 클릭합니다. 이 수식에서는 **CALCULATE** 함수를 사용하려고 합니다.
 
@@ -134,7 +134,7 @@ DAX 수식을 이해하려는 경우 매일 생각하고 말하는 언어로 각
 ### <a name="functions"></a>함수
 함수는 특정 순서 또는 구조에서 인수라는 특정 값을 사용하여 계산을 수행하는 미리 정의된 수식입니다. 인수는 다른 함수, 다른 수식, 식, 열 참조, 숫자, 텍스트, TRUE/FALSE 같은 논리 값 또는 상수일 수 있습니다.
 
-DAX에는 [날짜 및 시간](https://msdn.microsoft.com/library/ee634786.aspx), [시간 인텔리전스](https://msdn.microsoft.com/library/ee634763.aspx), [정보](https://msdn.microsoft.com/library/ee634552.aspx), [논리](https://msdn.microsoft.com/library/ee634365.aspx), [수학](https://msdn.microsoft.com/library/ee634241.aspx), [통계](https://msdn.microsoft.com/library/ee634822.aspx), [텍스트](https://msdn.microsoft.com/library/ee634938.aspx), [상위/하위](https://msdn.microsoft.com/library/mt150102.aspx) 및 [기타](https://msdn.microsoft.com/library/mt150101.aspx) 함수와 같은 범주의 함수가 포함되어 있습니다. Excel 수식의 함수에 익숙한 경우 DAX의 많은 함수가 유사하게 보이지만 DAX 함수는 다음과 같은 측면에서 고유합니다.
+DAX에는 다음과 같은 범주의 함수가 포함됩니다. [날짜 및 시간](https://msdn.microsoft.com/library/ee634786.aspx), [시간 인텔리전스](https://msdn.microsoft.com/library/ee634763.aspx), [정보](https://msdn.microsoft.com/library/ee634552.aspx), [논리](https://msdn.microsoft.com/library/ee634365.aspx), [수학](https://msdn.microsoft.com/library/ee634241.aspx), [통계](https://msdn.microsoft.com/library/ee634822.aspx), [텍스트](https://msdn.microsoft.com/library/ee634938.aspx), [상위/하위](https://msdn.microsoft.com/library/mt150102.aspx) 및 [기타](https://msdn.microsoft.com/library/mt150101.aspx) 함수. Excel 수식의 함수에 익숙한 경우 DAX의 많은 함수가 유사하게 보이지만 DAX 함수는 다음과 같은 측면에서 고유합니다.
 
 * DAX 함수는 항상 전체 열 또는 테이블을 참조합니다. 테이블 또는 열에서 특정 값만 사용하려는 경우 수식에 필터를 추가할 수 있습니다.
 * 행 단위로 계산을 사용자 지정해야 하는 경우 DAX는 현재 행 값이나 관련 값을 일종의 인수로 사용할 수 있는 함수를 제공하여 컨텍스트에 따라 다른 계산을 수행합니다. 컨텍스트에 대해서는 나중에 자세히 살펴보겠습니다.
@@ -186,7 +186,7 @@ DAX에는 [날짜 및 시간](https://msdn.microsoft.com/library/ee634786.aspx),
 
 **F.** 쉼표(**,**)는 첫 번째 식 인수를 필터 인수와 구분합니다.
 
-**G.** 정규화된 참조되는 열 **채널[ChannelName]**. 바로 행 컨텍스트입니다. 이 열의 각 행은 Store, Online 등의 채널을 지정합니다.
+**G.** 정규화된 참조되는 열 **채널[ChannelName]**. 바로 행 컨텍스트입니다. 이 열의 각 행은 다음 채널을 지정합니다. Store, Online 등
 
 **H.** 필터로 사용되는 특정 값 **매장**. 바로 필터 컨텍스트입니다.
 
