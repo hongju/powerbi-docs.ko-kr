@@ -270,6 +270,12 @@ items:
         href: desktop-rls.md
       - name: 도구 설명 사용자 지정
         href: desktop-custom-tooltips.md
+      - name: 보고서의 텍스트 상자 및 셰이프
+        href: power-bi-reports-add-text-and-shapes.md
+      - name: 텍스트 상자에 하이퍼링크 추가
+        href: service-add-hyperlink-to-text-box.md
+      - name: 테이블에서 하이퍼링크
+        href: power-bi-hyperlinks-in-tables.md
       - name: 조건부 테이블 서식 지정
         href: desktop-conditional-table-formatting.md
       - name: Power BI Desktop의 열 기준 정렬
@@ -302,18 +308,12 @@ items:
         href: visuals/power-bi-visualization-export-data.md
       - name: 보고서에서 시각화 이동, 크기 조정 및 팝아웃
         href: visuals/power-bi-visualization-move-and-resize.md
-      - name: 테이블에서 하이퍼링크
-        href: power-bi-hyperlinks-in-tables.md
-      - name: 보고서에서 텍스트 상자에 하이퍼링크 추가
-        href: service-add-hyperlink-to-text-box.md
       - name: 보고서에서 시각적 개체가 조작되는 방식 변경
         href: service-reports-visual-interactions.md
       - name: 히스토그램
         href: visuals/service-histograms.md
       - name: Power BI Map 시각화를 위한 팁과 힌트
         href: visuals/power-bi-map-tips-and-tricks.md
-      - name: Power BI 보고서의 텍스트 상자
-        href: power-bi-reports-add-text-and-shapes.md
       - name: X축 및 Y축 속성 사용자 지정
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
       - name: Power BI의 ArcGIS 지도
@@ -1293,9 +1293,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a3abfd814e95ca00c433b66e7fe6aad665f8426f
-ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
+ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "54239293"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406733"
