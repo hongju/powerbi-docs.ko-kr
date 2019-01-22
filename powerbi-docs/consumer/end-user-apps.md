@@ -48,13 +48,13 @@ Power BI에서 *앱*을 사용하면 관련된 대시보드 및 보고서를 모
 ### <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource에서 앱 가져오기
 또한 Microsoft AppSource에서 액세스 권한이 있는 앱을 찾고 설치할 수 있습니다. 
 
-1. **앱** ![왼쪽 탐색 창의 앱](./media/end-user-apps/power-bi-apps-bar.png) > **앱 가져오기**를 선택합니다. 
+1. **앱** ![왼쪽 탐색 창의 앱](./media/end-user-apps/power-bi-apps-bar.png) > **앱 받기**를 선택합니다. 
    
      ![앱 가져오기 아이콘](./media/end-user-apps/power-bi-service-apps-get-apps-oppty.png)
 2. AppSource의 **내 조직**에서 검색하여 결과 범위를 좁힌 후 찾고자 하는 앱을 찾습니다.
    
      ![내 조직의 AppSource에서](./media/end-user-apps/power-bi-appsource-my-org.png)
-3. **지금 가져오기**를 선택하여 앱 페이지에 추가합니다. 
+3. **지금 받기**를 선택하여 앱 페이지에 추가합니다. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>앱에서 대시보드 및 보고서와 상호 작용
 이제 앱에서 대시보드 및 보고서의 데이터를 탐색할 수 있습니다. 필터링, 강조 표시, 정렬 및 드릴다운과 같은 모든 표준 Power BI 상호 작용에 액세스할 수 있습니다. [Power BI에서 보고서와 상호 작용](end-user-reading-view.md)을 읽어 보세요. 
