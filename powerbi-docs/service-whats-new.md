@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32a052ca009c613b262d5277a0fd85b186c8e148
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406756"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488917"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
@@ -197,7 +197,7 @@ ms.locfileid: "54406756"
 ***행 수준 보안(RLS)***
 
 * AAD(Azure Active Directory) 그룹 지원: 사용자는 이제 AAD 그룹(보안 그룹 및 배포 목록)을 역할에 할당할 수 있습니다. 이렇게 하면 한 번에 쉽게 역할을 사용자의 큰 그룹에 할당할 수 있습니다.
-* [제 위치에 RLS가 있는 데이터에서 지원하는 보고서와 함께 RLS 역할을 테스트](service-admin-rls.md#validating-the-role-within-power-bi-desktop): 데이터 세트를 특정 역할로 테스트할 수 있는 RLS 미리 보기에 기능을 추가했습니다. 어떤 사용자가 자신의 대시보드를 가지기 전에 예상대로 작동하는지 확인할 수 있습니다.
+* [제 위치에 RLS가 있는 데이터에서 지원하는 보고서와 함께 RLS 역할을 테스트](service-admin-rls.md#validate-the-roles-within-power-bi-desktop): 데이터 세트를 특정 역할로 테스트할 수 있는 RLS 미리 보기에 기능을 추가했습니다. 어떤 사용자가 자신의 대시보드를 가지기 전에 예상대로 작동하는지 확인할 수 있습니다.
 * 직접 쿼리를 기반으로 RLS를 정의하고 클라우드 모델에 적용: 이제 직접 쿼리 데이터 원본에 대해 RLS 규칙을 만들어 적용할 수 있습니다.
 
 ***대시보드***
