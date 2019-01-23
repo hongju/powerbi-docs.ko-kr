@@ -80,7 +80,7 @@ ms.locfileid: "54284774"
     ![지금까지 모든 서식이 포함된 테이블](media/power-bi-visualization-tables/power-bi-table-format.png)
 
 ### <a name="conditional-formatting"></a>조건부 서식 지정
-서식 지정 유형 중 하나로 *조건부 서식 지정*이 있으며, 이는 Power BI 서비스 또는 Desktop에 있는 **시각화** 창의 **값** 웰 필드에 적용됩니다. 
+서식 지정 유형 중 하나로 *조건부 서식 지정*이 있으며, 이는 Power BI 서비스 또는 Desktop에 있는 **시각화** 창의 **값** 영역 필드에 적용됩니다. 
 
 테이블에 대한 조건부 서식 지정을 사용하여 그라데이션 색 사용을 포함하는 셀 값을 기반으로 하는 사용자 지정된 셀 배경색 및 글꼴 색을 지정할 수 있습니다. 
 
