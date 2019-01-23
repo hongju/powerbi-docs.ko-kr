@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: Conceptual
-ms.date: 12/06/2018
+ms.date: 01/17/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 28dcba5a44da4d0acd8f1b6d0a1bfce655eb46bd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e648257ecd657b07d02fbff69a3424159b636059
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280105"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394676"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 값을 기준으로 대부분의 시각화를 알파벳순으로 정렬할 수 있습니다. 예를 들어 이 차트는 범주 **매장 이름**을 기준으로 정렬되었습니다.
@@ -33,17 +33,17 @@ Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 
    **참고**: 일부 시각화는 정렬되지 않습니다.  예를 들어 다음 시각적 개체는 정렬할 수 없습니다. 트리맵, 맵, 등치 지역도, 분산형, Guage, 카드, Multi Row Card, 폭포.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>정렬 순서에 적용한 변경 내용 저장
-Power BI 보고서에서는 필터, 슬라이서, 정렬 및 기타 데이터 보기 변경 사항을 유지합니다. 따라서 보고서에서 다른 곳으로 이동하고 나중에 돌아오면 변경 내용이 저장됩니다.  보고서 작성자 설정에 대한 변경 내용을 다시 되돌리려면 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다. 
+Power BI 보고서에서는 필터, 슬라이서, 정렬 및 기타 데이터 보기 변경 사항을 유지합니다. 따라서 보고서에서 다른 곳으로 이동하고 나중에 돌아오면 변경 내용이 저장됩니다.  변경 내용을 보고서 디자이너 설정으로 다시 되돌리려면 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다. 
 
 ![영구 정렬](media/end-user-change-sort/power-bi-reset-to-default.png)
 
-그러나 **기본값으로 다시 설정** 단추가 회색으로 표시되면 보고서 작성자가 변경 내용을 저장하는 기능을 비활성화했다는 의미입니다.
+그러나 **기본값으로 다시 설정** 단추가 회색으로 표시되면 보고서 디자이너가 변경 내용을 저장하는 기능을 비활성화했다는 의미입니다.
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>다른 조건을 사용하여 정렬
 경우에 따라 다른 필드 또는 기타 조건을 사용하여 시각적 개체를 정렬할 수 있습니다.  예를 들어 사전순이 아닌 월별로 정렬하려고 하거나 개별 숫자가 아닌 전체 숫자(예를 들어 0, 1, 20, 9가 아닌 0, 1, 9, 20 전체)별로 정렬하려고 할 수 있습니다.  
 
-일부 경우에는 원하는 방식으로, 예를 들어 월별로 시각적 개체를 정렬할 수 있습니다.  하지만 그렇지 않은 경우 보고서에 사용된 데이터 세트를 조정해야 하기 때문일 수 있습니다. 보고서 작성자에게 데이터 세트를 업데이트하도록 요청하세요.
+일부 경우에는 원하는 방식으로, 예를 들어 월별로 시각적 개체를 정렬할 수 있습니다.  하지만 그렇지 않은 경우 보고서에 사용된 데이터 세트를 조정해야 하기 때문일 수 있습니다. 보고서 디자이너에게 데이터 세트를 업데이트하도록 요청하세요.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 시각화](end-user-visualizations.md)에 대해 자세히 알아보세요.

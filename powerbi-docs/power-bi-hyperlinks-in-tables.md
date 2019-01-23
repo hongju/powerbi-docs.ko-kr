@@ -1,22 +1,22 @@
 ---
 title: 테이블에 하이퍼링크 추가
 description: Power BI Desktop을 사용하여 하이퍼링크를 만듭니다. 그런 다음, Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가합니다.
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 637253e3cffebcba7df0a3bc3ce44e943b909364
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 972abb3781cbaaff8a9617b70988c21f7389d4f9
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279898"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406664"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>테이블에 하이퍼링크 추가
 이 항목에서는 하이퍼링크를 만들어 Power BI Desktop을 사용하는 방법을 배웁니다. 그런 다음, Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가합니다. 
@@ -25,7 +25,6 @@ ms.locfileid: "54279898"
 
 > [!NOTE]
 > Power BI 서비스를 사용하여 [대시보드의 타일](service-dashboard-edit-tile.md)에 하이퍼링크와 [대시보드에 텍스트 상자](service-dashboard-add-widget.md)를 즉시 만들 수 있습니다. Power BI 서비스 및 Power BI Desktop을 사용하여 [보고서의 입력란](service-add-hyperlink-to-text-box.md)에 하이퍼링크를 즉시 만들 수 있습니다.
-> 
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Power BI Desktop을 사용하여 표 또는 행렬에서 하이퍼링크를 만들려면
@@ -56,7 +55,7 @@ ms.locfileid: "54279898"
 6. (선택 사항) [Desktop에서 Power BI 서비스에 보고서를 게시](guided-learning/publishingandsharing.yml?tutorial-step=2)하고 Power BI 서비스에서 보고서를 엽니다. 하이퍼링크도 이 보고서에서 작동됩니다.
 
 ### <a name="for-data-connected-with-directquery"></a>DirectQuery와 연결된 데이터인 경우
-새 열은 DirectQuery 모드에서 만들 수 없습니다.  하지만 데이터에 URL이 이미 포함되어 있으면 해당 데이터를 하이퍼링크로 만들 수 있습니다.
+새 열은 DirectQuery 모드에서 만들 수 없습니다.  하지만 데이터에 URL이 이미 포함되어 있으면 하이퍼링크로 전환할 수 있습니다.
 
 1. 보고서 보기에서 URL을 포함하고 있는 필드를 사용하여 테이블을 만듭니다.
 2. 열을 선택한 다음 **모델링** 탭에서 **데이터 범주** 드롭다운을 선택합니다.

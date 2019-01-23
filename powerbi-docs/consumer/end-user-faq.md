@@ -1,6 +1,6 @@
 ---
-title: Power BI 소비자에 대한 질문과 대답
-description: Power BI FAQ
+title: Power BI에서 최종 사용자에게 자주 묻는 질문
+description: Power BI 서비스 및 Power BI 모바일 앱에 대해 자주 묻는 질문과 대답 목록을 찾습니다.
 author: mihart
 manager: kvivek
 ms.custom: seodec18
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b292e6df7cb01e26b610ffb99ec5b794df933bfa
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287578"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394768"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
@@ -41,7 +41,7 @@ Power BI 프리미엄 관련된 질문은 [Power BI 프리미엄 FAQ](../service
 Power BI에 대한 Azure Active Directory 통합 애플리케이션 보고서를 보면 조직 내의 활성 사용자를 확인할 수 있습니다. Azure AD 보고서에는 각 사용자의 라이선스 유형이 나와 있지 않습니다. Power BI에 로그인한 사용자가 누구이며 언제 로그인하였는지만 보고됩니다. 자세한 내용은 [로그인한 Power BI 사용자 찾기](../service-admin-access-usage.md)를 참조하세요.
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
-Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료 데스크톱 애플리케이션입니다. Power BI Desktop은 대화형 작업이 많은 시각화에 고급 데이터 탐색, 셰이핑, 모델링 및 보고서 작성 기능을 제공함으로써 Power BI 서비스와 통합되어 작동합니다. 작업을 파일에 저장하고 데이터 및 보고서를 Power BI 사이트에 바로 게시하여 다른 사용자와 공유할 수 있습니다. [Power BI Desktop이란?](../desktop-what-is-desktop.md)에 대해 자세히 알아봅니다.
+Power BI Desktop은 사용자가 자신의 컴퓨터에 바로 설치할 수 있는 무료 애플리케이션입니다. Power BI Desktop은 Power BI 서비스와 긴밀하게 작동합니다.  데이터 과학자, 관리자 및 개발자는 Power BI Desktop을 사용하여 보고서를 생성하고, 여러분과 같은 Power BI 서비스 사용자에게 제공합니다. [Power BI Desktop이란?](../desktop-what-is-desktop.md)에 대해 자세히 알아봅니다.
 
 ## <a name="what-do-i-need-to-use-power-bi-service"></a>Power BI 서비스를 사용하려면 무엇이 필요한가요?
 웹 브라우저와 회사 메일 주소만 있으면 됩니다. .gov 및 .mil 이메일 주소를 등록할 수 있습니다. 자세한 내용은 [Power BI 서비스에 미국 정부 기관 등록](../service-govus-signup.md)을 참조하세요. 
@@ -49,14 +49,8 @@ Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>회사 메일을 사용하여 등록해야 하는 이유는 무엇인가요?
 Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. [Power BI 셀프 서비스 등록 프로세스](../service-self-service-signup-for-power-bi.md)에 대해 자세히 알아보세요.
 
-## <a name="is-power-bi-available-on-premises"></a>Power BI는 온-프레미스에서 사용할 수 있나요?
-Power BI 서비스([https://powerbi.com](https://powerbi.com))는 사설 내부 클라우드 서비스로 사용할 수 없습니다. 하지만, 온-프레미스에서 보고 작업할 수 있는 세 가지 다른 옵션이 제공됩니다. 
-
-### <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
-Power BI 및 Power BI Desktop을 사용하여 자신의 온-프레미스 데이터 소스에 안전하게 연결할 수 있습니다. [온-프레미스 데이터 게이트웨이](../service-gateway-onprem.md)를 사용하면 온-프레미스 SQL Server Analysis Services 서버 및 기타 데이터 원본에 라이브로 연결할 수 있습니다. 또한 중앙 집중화된 게이트웨이로 예약된 새로 고침을 설정할 수도 있습니다. 게이트웨이를 사용할 수 없는 경우 [Power BI Gateway - Personal](../service-gateway-personal-mode.md)를 사용하여 온-프레미스 데이터 원본에서 데이터를 새로 고칠 수 있습니다.
-
-### <a name="power-bi-mobile-apps"></a>Power BI 모바일 앱
-[Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI를 볼 수도 있습니다](mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>정부, 교육 및 비영리 기관용 가격 책정을 Power BI에 적용할 수 있나요?
+예, 비영리 기관용 가격 책정은 Microsoft로부터 직접 구입하는 경우 사용할 수 있습니다. [Microsoft 비영리](https://www.microsoft.com/en-us/nonprofits/power-bi) 사이트를 통해 자세한 정보를 알아보고 등록할 수 있습니다. 정부 및 교육 기관용 가격 책정은 MOSP/Direct, EA 및 Open 라이선싱 프로그램을 통해 제공됩니다. 정부 기관용 가격 책정도 배포에서 사용할 수 있습니다. 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI는 모바일 디바이스를 지원하나요?
 예. Power BI에는 Android 휴대폰 및 태블릿, iOS 디바이스 및 Windows 10 디바이스용 기본 앱이 있습니다. 다음의 각 스토어에서 [Power BI 모바일 앱](https://powerbi.microsoft.com/mobile) 중 하나를 다운로드합니다.  
@@ -96,6 +90,11 @@ Power BI 서비스를 무료로 사용하려면 웹 브라우저와 메일만 �
 Power BI Pro 라이선스를 직접 구입하거나 [www.powerbi.com](http://www.powerbi.com)을 통해 담당자와 채팅할 수 있습니다.
 
 [Microsoft 파트너](https://partner.microsoft.com/)를 찾아 Power BI 구현에 대한 도움을 받을 수도 있습니다.
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>내 Power BI Pro 라이선스가 만료될 경우 어떻게 됩니까?
+Power BI Pro 라이선스가 만료된 후 유예 기간이 있습니다. 볼륨 라이선스 구입에 포함된 라이선스의 경우 유예 기간은 90일입니다. 라이선스를 직접 구입한 경우 유예 기간은 30일입니다.
+
+Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한 내용은 [비즈니스용 Office 365 구독이 종료되면 내 데이터 및 액세스 권한은 어떻게 되나요?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)를 참조하세요.
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI는 국가, 지역 및 업계별 규정 준수 요구 사항을 충족합니까?
 [Microsoft 보안 센터](http://go.microsoft.com/fwlink/?LinkId=785324)에서 Power BI 준수에 대해 자세히 알아보세요.

@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: f9e33e78a5cd1141a09eaf226f41a3f52aaebab7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/17/2018
+ms.openlocfilehash: cd32b644205629ce62579f5a720d486f93073dea
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284061"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394731"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -47,7 +47,7 @@ Power BI Embedded는 애플리케이션을 빌드하고 시각적 개체를 포�
 
 Microsoft는 기업 고객에게는 엔터프라이즈급 셀프 서비스 클라우드 BI 솔루션인 Power BI Premium을, ISV에게는 클라우드 기반의 포함된 분석 구성 요소인 Power BI Embedded를 추천합니다. 그러나 고객이 구매할 수 있는 제품에는 제한이 없습니다.
 
-ISV(일반적으로 대규모)가 P SKU를 사용하여 조직 내에서 사전 패키지 Power BI 서비스의 추가 이점을 누리는 동시에 애플리케이션에 포함하려는 경우가 있을 수 있습니다. 일부 기업에서는 사용하기로 할 수 있습니다. 기간 업무 애플리케이션을 빌드하고 여기에 분석 기능을 포함하는 데에만 관심이 있고 사전 패키지 Power BI 서비스에는 관심이 없는 기업은 Azure의 A SKU를 사용할 수 있습니다.
+ISV(일반적으로 대규모)가 P SKU를 사용하여 조직 내에서 사전 패키지 Power BI 서비스의 추가 이점을 누리는 동시에 애플리케이션에 포함하려는 경우가 있을 수 있습니다. LOB(기간 업무) 애플리케이션을 빌드하고 분석 기능을 포함하는 데에만 관심이 있고 사전 패키지 Power BI 서비스에는 관심이 없는 일부 기업은 Azure에서 SKU를 사용할 수 있습니다.
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>얼마나 많은 포함 토큰을 만들 수 있습니까?
 
@@ -59,7 +59,7 @@ PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power B
 
 PowerBI.com은 Software as a Service 제안에 소셜 공동 작업, 이메일 구독 등의 여러 기능을 포함한 엔터프라이즈 솔루션입니다.
 
-Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 만드는 개발자를 위한 API 집합입니다. Embedded 분석 시나리오의 경우 PowerBI.com을 사용하여 ISV 및 개발자의 포함된 분석 솔루션 콘텐츠 및 테넌트 수준 설정 관리를 도와주어야 합니다.
+Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 만드는 개발자를 위한 API 집합입니다. Embedded 분석 시나리오의 경우 PowerBI.com을 사용하여 ISV 및 개발자의 포함된 분석 솔루션 콘텐츠 및 테넌트 수준 설정을 관리할 수 있습니다.
 
 다음은 기능상 차이점의 일부 목록입니다.
 
@@ -106,9 +106,9 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 
 용량의 프로비전(확장/다시 시작/만들기)에 실패할 수 있습니다. 프로비전 호출의 호출자는 세부 정보 가져오기 API를 사용하여 용량의 ProvisioningState를 확인해야 합니다. [용량 - 세부 정보 가져오기](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
 
-### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>특정 지역에서만 PBIE를 만들 수 있는 이유는 무엇인가요?
+### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>특정 지역에서만 Power BI Embedded 용량을 만들 수 있나요?
 
-PBI 테넌트 지역에서만 PBIE 용량을 만들 수 있습니다.
+[다중 지역 (미리 보기)](embedded-multi-geo.md) 기능을 사용하면 Power BI 홈 테넌트 위치가 아닌 다른 지역에서 [Power BI Embedded 용량](azure-pbie-create-capacity.md)을 구매할 수 있습니다.
 
 ### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>내 PBI 테넌트 지역을 어떻게 찾을 수 있나요?
 
@@ -157,7 +157,7 @@ Power BI에서는 조직 계정에 등록해야 합니다. MSA(Microsoft 계정)
 
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Power BI Embedded의 인증 모델은 무엇인가요?
 
-Power BI Embedded는 앞으로도 계속해서 마스터 사용자 인증(지정된 Power BI Pro 라이선스 사용자)에 Azure AD를 사용하여 Power BI 내에서 애플리케이션을 인증할 것입니다.
+Power BI Embedded는 마스터 사용자 인증(지정된 Power BI Pro 라이선스 사용자)을 위해 Azure AD를 계속 사용하여 Power BI 내에서 애플리케이션을 인증합니다.
 
 애플리케이션 사용자의 인증 및 권한 부여는 ISV를 통해 구현되고, ISV는 자체 애플리케이션에 맞는 자체 인증을 구현할 수 있습니다.
 
@@ -216,7 +216,7 @@ Power BI Embedded는 Azure를 통해 제공됩니다.
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>이미 Power BI Premium을 구입했는데 Azure에서 Power BI Embedded의 일부 이점을 사용하고 싶으면 어떻게 하나요?
 
-고객은 계약 기간이 종료될 때까지는 기존에 구매한 Power BI Premium 요금을 계속 지불해야 하며, 기간이 종료되면 해당 시점의 상황을 보고 Power BI Premium을 전환하면 됩니다.
+고객은 계약 기간이 종료될 때까지는 기존에 구매한 Power BI Premium 요금을 계속 지불한 다음, 기간이 종료되면 해당 시점의 상황을 보고 Power BI Premium을 전환하면 됩니다.
 
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>Power BI Embedded에 액세스하려면 Power BI Premium을 구매해야 하나요?
 
@@ -232,11 +232,11 @@ Power BI Embedded는 배포된 노드 유형을 기반으로 예측 가능한 �
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Power BI Embedded에 Power BI Pro 라이선스가 필요한 사람은 누구이고 그 이유는 무엇인가요?
 
-Power BI 작업 영역에 보고서를 추가해야 하는 분석가, REST API를 사용해야 하는 개발자, Power BI 테넌트 및 용량을 관리해야 하는 테넌트 관리자는 Power BI Pro 라이선스가 필요합니다.
+Power BI 작업 영역에 보고서를 추가해야 하는 분석가는 Power BI 라이선스가 필요합니다. REST API를 사용해야 하는 개발자는 Power BI Pro 라이선스가 필요합니다. Power BI 테넌트 및 용량을 관리해야 하는 모든 테넌트 관리자는 Power BI Pro 라이선스가 필요합니다.
 
 Power BI Embedded는 Power BI 포털을 사용하여 포함된 콘텐츠를 관리하고 유효성을 검증할 수 있으므로, 올바른 리포지토리의 보고서에 액세스할 수 있도록 PowerBI.com 내에서 앱을 인증하려면 Power BI Pro 라이선스가 필요 합니다.
 
-그러나 고유한 애플리케이션 내의 [포함된 보고서 만들기/편집](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View)에서 최종 사용자가 Power BI 사용자일 필요가 없으므로 Pro 라이선스도 필요하지 않습니다.
+그러나 고유한 애플리케이션 내의 [포함된 보고서 만들기/편집](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View)의 경우 최종 사용자가 Power BI 사용자일 필요가 없으므로 Pro 라이선스가 필요하지 않습니다.
 
 ### <a name="can-i-get-started-for-free"></a>무료로 시작할 수 있나요?
 
@@ -279,7 +279,7 @@ Power BI Embedded는 일부 [소버린 클라우드](embed-sample-for-customers-
 
 그러나 이는 새 기능이 **Power BI 작업 영역 컬렉션** 솔루션에 추가되지 않음을 의미하며 해당 고객은 새 **Power BI Embedded** 솔루션으로 마이그레이션을 계획하는 것이 좋습니다.
 
-### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Power BI 작업 영역 컬렉션 지원은 언제 중단될까요?
+### <a name="when-is-power-bi-workspace-collection-support-discontinued"></a>Power BI 작업 영역 컬렉션 지원은 언제 중단되나요?
 
 **Power BI 작업 영역 컬렉션** 솔루션을 이미 사용하고 있는 고객은 2018년 6월 말까지 또는 지원 계약이 종료될 때까지 계속 사용할 수 있습니다.
 

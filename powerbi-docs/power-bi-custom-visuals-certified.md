@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: bfe3421b2c2328ee65cb8f34b43b34de8fe98723
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 03b18d4d603b09d34dd3f99decc841c3bae934f4
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280220"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394850"
 ---
 # <a name="certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체
 
@@ -74,6 +74,10 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-ha
 | AppSource에 연결 | 비디오에 연결 |
 | --- | --- |
 | [3AG 시스템 - 상대적 차이가 있는 세로 막대형 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
+| [고급 도넛 시각적 개체](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381941) | |
+| [고급 네트워크 시각화](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381942) | |
+| [고급 TimeSeries 시각적 개체](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381943) | |
+| [고급 콤보 시각적 개체](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381944) | |
 | [별표 그림](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft 달력](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [MAQ Software의 보타이 차트](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [비디오](https://youtu.be/So5xKMSpVJI) |
