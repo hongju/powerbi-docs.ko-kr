@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fa76b19e187f7a27dc8b9268dad4d9b5ab8f101
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286384"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838465"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI의 조직 콘텐츠 팩 소개
 > [!NOTE]
@@ -41,8 +41,6 @@ AppSource에서 전체 조직, 배포 또는 보안 그룹 및 [사용자가 속
 조직 콘텐츠 팩을 게시하면 AppSource에 추가됩니다.  이 중앙 리포지토리를 사용하면 멤버가 게시된 대시보드, 보고서 및 데이터 세트를 쉽게 찾아 검색할 수 있습니다.  
 
 * AppSource를 보려면 **데이터 가져오기** > **내 조직** > **가져오기**를 선택합니다.
-
-[조직 콘텐츠 팩 찾기 및 열기](consumer/end-user-content-pack.md)에 대해 자세히 알아보세요.
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>조직 콘텐츠 팩의 수명 주기
 모든 Power BI Pro 사용자는 조직 콘텐츠 팩을 만들고 게시하고 액세스할 수 있습니다. 콘텐츠 팩 작성자만 통합 문서와 데이터 세트를 수정하고, 새로 고침을 예약하고, 삭제할 수 있습니다.
