@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: Conceptual
-ms.date: 01/17/2019
+ms.date: 01/19/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e648257ecd657b07d02fbff69a3424159b636059
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 4fd49c3279c47139a0e15fbcc4729f39b0a59b78
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394676"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838281"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 값을 기준으로 대부분의 시각화를 알파벳순으로 정렬할 수 있습니다. 예를 들어 이 차트는 범주 **매장 이름**을 기준으로 정렬되었습니다.
@@ -30,7 +30,8 @@ Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 
 
    ![정렬 방식 및 오름차순, 내림차순 선택을 보여주는 비디오](media/end-user-change-sort/sort.gif)
 
-   **참고**: 일부 시각화는 정렬되지 않습니다.  예를 들어 다음 시각적 개체는 정렬할 수 없습니다. 트리맵, 맵, 등치 지역도, 분산형, Guage, 카드, Multi Row Card, 폭포.
+> [!NOTE]
+> 일부 시각화는 정렬되지 않습니다. 예를 들어 다음 시각적 개체는 정렬할 수 없습니다. 트리맵, 맵, 등치 지역도, 분산형, Guage, 카드, Multi Row Card, 폭포.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>정렬 순서에 적용한 변경 내용 저장
 Power BI 보고서에서는 필터, 슬라이서, 정렬 및 기타 데이터 보기 변경 사항을 유지합니다. 따라서 보고서에서 다른 곳으로 이동하고 나중에 돌아오면 변경 내용이 저장됩니다.  변경 내용을 보고서 디자이너 설정으로 다시 되돌리려면 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다. 

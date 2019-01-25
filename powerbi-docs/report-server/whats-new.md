@@ -8,31 +8,47 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/16/2018
-ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/22/2019
+ms.openlocfilehash: 2a65baf94abcb79dac7bb9419ad67124f2b65bb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292456"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488940"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
 Power BI Report Server의 새로운 기능에 대해 알아봅니다. 이 아티클에서는 주요 기능 영역을 설명하고 새 항목이 릴리스될 때 업데이트됩니다.
 
-Power BI Report Server 및 Report Server에 최적화된 Power BI Desktop을 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동합니다.
-
-이러한 원본을 확인하여 Power BI Report Server에서 새로운 기능을 최신 상태로 유지합니다.
-
-* [Microsoft Power BI 블로그](https://powerbi.microsoft.com/blog/)
-* [SQL Server Reporting Services 팀 블로그](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* [큐브에서 Guy YouTube 채널](https://aka.ms/guyinacube)
+Power BI Report Server에 최적화된 Power BI Report Server 및 Power BI Desktop의 최신 버전을 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동합니다.
 
 관련 Power BI “새로운 기능” 정보는 다음을 참조하세요.
 
 * [Power BI 서비스의 새로운 기능](../service-whats-new.md)
 * [Power BI Desktop의 새로운 기능](../desktop-latest-update.md)
 * [Power BI용 모바일 앱의 새로운 기능](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2019"></a>2019년 1월
+
+Power BI 보고서에서 다음 기능 지원:
+
+[**행 수준 보안**](row-level-security-report-server.md) Power BI Report Server를 사용하는 RLS(행 수준 보안)를 설정하면 지정된 사용자의 데이터 액세스를 제한할 수 있습니다. 필터는 행 수준에서 데이터 액세스를 제한하고 역할 내에서 필터를 정의할 수 있습니다.
+
+[**행렬 행 머리글의 확장 및 축소**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) 가장 많이 요청된 시각적 개체 기능 중 하나인 개별 행 머리글을 확장 및 축소하는 기능을 추가했습니다.
+
+[**.pbix 파일 간에 복사 및 붙여넣기**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) 시각적 개체의 컨텍스트 메뉴에서 또는 표준 Ctrl+C 바로 가기 키를 사용하여 .pbix 파일 간에 시각적 개체를 복사하고 Ctrl+V를 사용하여 다른 보고서에 붙여넣을 수 있습니다.
+
+[**스마트 맞춤 가이드**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) PowerPoint에서 볼 수 있는 것처럼 보고서 페이지에서 개체를 이동할 때 페이지의 모든 항목을 정렬하는 데 도움이 되는 스마트 맞춤 가이드가 표시됩니다. 페이지의 있는 항목을 드래그하거나 크기를 조정할 때마다 스마트 가이드를 볼 수 있습니다. 다른 개체 근처에서 개체를 이동하면 다른 개체와 정렬된 위치로 스냅됩니다.
+
+**내게 필요한 옵션 기능** 목록에 내게 필요한 옵션 기능이 너무 많습니다(예: [필드 목록 창 내게 필요한 옵션 지원](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)). 필드 목록 창에 완전히 액세스할 수 있습니다. 키보드 및 화면 reader만 사용하여 창 주위를 탐색하고 컨텍스트 메뉴를 사용하여 보고서 페이지에 필드를 추가할 수 있습니다.
+
+### <a name="administrator-settings"></a>관리자 설정
+
+관리자는 서버 팜에 대한 SSMS 고급 속성에서 다음 속성을 설정할 수 있습니다.
+
+**AllowedResourceExtensionsForUpload** 보고서 서버에 업로드할 수 있는 리소스 확장을 설정합니다. &ast;.rdl 및 &ast;.pbix와 같은 기본 제공 파일 형식에 대한 확장을 포함할 필요가 없습니다. 기본값은 “&ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt, &ast;.pptx”입니다. 
+
+**SupportedHyperlinkSchemes** 렌더링할 수 있는 하이퍼링크 작업에서 정의할 수 있도록 허용된 URI 구성표의 쉼표로 구분된 목록을 설정하거나 모든 하이퍼링크 구성표를 활성화하는 데 “&ast;”를 설정합니다. 예를 들어 “http,https”를 설정하면 “https://www contoso.com”에 대한 하이퍼링크가 허용되지만 “mailto:bill@contoso.com” 또는 “javascript:window.open(‘www.contoso.com’, ‘_blank’)”에 대한 하이퍼링크를 제거합니다. 기본값은 “&ast;”입니다.
 
 ## <a name="august-2018"></a>2018년 8월
 
@@ -113,7 +129,7 @@ Kerberos에서 SAP HANA SSO 직접 쿼리 지원은 Power BI 보고서에 대해
 - [시각적 개체에 대한 도구 설명 해제](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#tooltips)
 - [슬라이서 내게 필요한 옵션](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#slicerAccessibility)
 - [서식 지정 창 향상된 기능](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#formattingPane)
-- [꺾은선형 및 콤보 차트에 대한 단계별 선 지원](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#steppedLine)
+- [선 및 콤보 차트에 대한 단계별 선 지원](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#steppedLine)
 - [정렬 환경 향상된 기능](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#sorting)
 - [Power BI Desktop에서 PDF로 내보내기를 통해 보고서 인쇄](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#print)
 - [책갈피 그룹 만들기](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#bookmarks)
@@ -325,10 +341,10 @@ Power BI Report Server는 이제 새 Power BI 테이블 및 행렬 시각적 개
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI Report Server란?](get-started.md) 
-[관리자 안내서](admin-handbook-overview.md)  
-[Power BI Report Server 설치](install-report-server.md)  
-[보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
+이러한 원본을 확인하여 Power BI Report Server의 새로운 기능을 최신 상태로 유지합니다.
+
+* [Microsoft Power BI 블로그](https://powerbi.microsoft.com/blog/)
+* [SQL Server Reporting Services 팀 블로그](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [큐브에서 Guy YouTube 채널](https://aka.ms/guyinacube)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 01/14/2019
 ms.author: maggies
-ms.openlocfilehash: 943e81c8c49a4a0707ed41b593093fc27a85a01e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1f7da83629b932d2e14fbc57682e0f7f7988739a
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295884"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488825"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 Power BI Report Server에 최적화된 Power BI Desktop을 설치하는 방법에 대해 자세히 알아봅니다.
@@ -31,7 +31,7 @@ Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유�
 
     ![웹 포털에서 Power BI Desktop 다운로드](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    또는 Microsoft 다운로드 센터에서 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271)(Power BI Report Server에 최적화 - 2018년 8월)으로 바로 이동할 수도 있습니다.
+    또는 Microsoft 다운로드 센터에서 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271)(Power BI Report Server에 최적화 - 2019년 1월)으로 바로 이동합니다.
 
 2. 다운로드 센터 페이지에서 **다운로드**를 선택합니다.
 
@@ -41,14 +41,14 @@ Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유�
 
     - **PBIDesktopRS_x64.msi**(64비트 버전).
 
-1. 설치 프로그램을 다운로드한 후에는 Power BI Desktop(2018년 8월) 설치 마법사를 실행합니다.
+1. 설치 프로그램을 다운로드한 후에는 Power BI Desktop(2019년 1월) 설치 마법사를 실행합니다.
 
 2. 설치가 끝나면 **지금 Power BI Desktop 시작**을 선택합니다.
    
     그러면 자동으로 시작되어 사용할 준비가 됩니다.
 
 ## <a name="verify-you-are-using-the-correct-version"></a>올바른 버전을 사용하는지 확인
-Power BI Desktop 내의 시작 화면 또는 제목 표시줄을 보면 올바른 Power BI Desktop을 사용하고 있는지 확인할 수 있습니다. 제목 표시줄은 릴리스 월과 릴리스 연도를 표시합니다.
+Power BI Desktop 내의 시작 화면 또는 제목 표시줄을 보면 올바른 Power BI Desktop을 사용하고 있는지 확인할 수 있습니다. 제목 표시줄은 릴리스 월과 연도를 표시합니다.
 
 ![Power BI Report Server에 최적화된 Power BI Desktop의 제목 표시줄](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 
