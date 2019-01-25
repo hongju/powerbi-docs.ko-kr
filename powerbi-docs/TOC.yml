@@ -64,7 +64,7 @@ items:
       href: desktop-many-to-many-relationships.md
     - name: Power BI Desktop의 스토리지 모드(미리 보기)
       href: desktop-storage-mode.md
-    - name: Power BI Desktop에서 양방향 교차 필터링(미리 보기)
+    - name: Power BI Desktop의 양방향 교차 필터링
       href: desktop-bidirectional-filtering.md
     - name: Power BI 및 DirectQuery
       href: desktop-directquery-about.md
@@ -1110,13 +1110,15 @@ items:
         href: report-server/quickstart-create-powerbi-report.md
       - name: 보고서 서버의 콘텐츠 관리
         href: report-server/getting-around.md
+      - name: 보고서 서버의 행 수준 보안(RLS)
+        href: report-server/row-level-security-report-server.md
       - name: 보고서 서버에 대해 페이지가 매겨진 보고서 만들기
         href: report-server/quickstart-create-paginated-report.md
       - name: 페이지를 매긴 보고서에 직접 데이터 입력
         href: paginated-reports-enter-data.md
       - name: KPI 작업
         href: https://go.microsoft.com/fwlink/?linkid=849021
-      - name: 'OData 피드로 공유 데이터 세트에 액세스 '
+      - name: OData 피드로 공유 데이터 세트에 액세스
         href: report-server/access-dataset-odata.md
       - name: 예약된 새로 고침 구성
         href: report-server/configure-scheduled-refresh.md
@@ -1293,9 +1295,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: ae98cdee3793186b590ded6143546b5b79062685
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406733"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488894"
