@@ -9,18 +9,41 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292035"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488871"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
 Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에 대한 버그 픽스와 새 항목을 나열합니다.
 
 새로운 기능에 대한 자세한 내용은 [Power BI 보고서 서버의 새로운 기능](whats-new.md)을 참조하세요. 
+
+## <a name="january-2019"></a>2019년 1월
+- **Power BI Report Server**            
+    - *버전 1.4.6960.38798(빌드 15.0.1102.222), 릴리스 날짜: 2019년 1월 22일*
+        - 기능
+            - Power BI 보고서 
+                - 행 수준 보안 지원
+                - 행렬 행 머리글의 확장 및 축소
+                - .pbix 파일 간에 복사 및 붙여넣기
+                - 스마트 맞춤 가이드
+                - SAP BW 2.0 커넥터 지원
+            - 관리자
+                - 보고서 서버에 업로드할 수 있는 리소스 확장을 제한하는 기능
+                - 지원되는 하이퍼링크 구성표를 제한하는 기능
+        - 버그 픽스
+            - HTML 삽입 취약성
+            - PDF로 내보내기가 유로 기호를 표시하지 않습니다.
+            - Power BI 보고서에 여러 데이터 원본이 있는 암호를 저장하면 변경되지 않은 암호가 무효화됨
+            - 유휴 상태 후 시각적 개체가 Power BI 모바일 앱의 문제 표시
+
+- **Power BI Desktop(Power BI Report Server에 최적화됨)**
+    - *버전: 2.65.5313.1421(2019년 1월) 릴리스 날짜: 2019년 1월 22일*
+        - Power BI Report Server에서 연결에 필요한 변경 내용 포함(2019년 1월)  
 
 ## <a name="august-2018"></a>2018년 8월
 - **Power BI Report Server**
