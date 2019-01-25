@@ -1,1296 +1,1301 @@
+items:
 - name: Power BI Desktop
   items:
-    - name: 개요
+  - name: 개요
+    items:
+    - name: Power BI Desktop이란?
+      href: desktop-what-is-desktop.md
+  - name: 빠른 시작
+    items:
+    - name: 데이터에 연결
+      href: desktop-quickstart-connect-to-data.md
+    expanded: true
+  - name: 자습서
+    items:
+    - name: 여러 데이터 원본 셰이프 및 결합
+      href: desktop-shape-and-combine-data.md
+    - name: Power BI Desktop을 사용하여 웹 페이지에서 데이터 가져오기 및 분석
+      href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+    - name: " Excel 및 OData 피드의 판매 데이터 분석"
+      href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+    - name: Power BI Desktop에서 고유한 측정값 만들기
+      href: desktop-tutorial-create-measures.md
+    - name: Power BI Desktop에서 계산 열 만들기
+      href: desktop-tutorial-create-calculated-columns.md
+    - name: Power BI Desktop을 사용한 Facebook 분석
+      href: desktop-tutorial-facebook-analytics.md
+    - name: Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
+      href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
+  - name: 샘플
+    items:
+    - name: Power BI용 샘플
+      href: sample-datasets.md
+    - name: 샘플 콘텐츠 팩 사용
+      href: sample-tutorial-connect-to-the-samples.md
+    - name: '고객 수익성 샘플: 둘러보기'
+      href: sample-customer-profitability.md
+    - name: 'IT 지출 분석 샘플: 둘러보기'
+      href: sample-it-spend.md
+    - name: '인적 자원 샘플: 둘러보기'
+      href: sample-human-resources.md
+    - name: '기회 분석 샘플: 둘러보기'
+      href: sample-opportunity-analysis.md
+    - name: '조달 분석 샘플: 둘러보기'
+      href: sample-procurement.md
+    - name: '소매점 분석 샘플: 둘러보기'
+      href: sample-retail-analysis.md
+    - name: '영업 및 마케팅 샘플: 둘러보기'
+      href: sample-sales-and-marketing.md
+    - name: '공급업체 품질 분석 샘플: 둘러보기'
+      href: sample-supplier-quality.md
+    - name: 재무 샘플 통합 문서 다운로드
+      href: sample-financial-download.md
+  - name: 개념
+    items:
+    - name: 최신 Power BI Desktop 업데이트의 새로운 기능
+      href: desktop-latest-update.md
+    - name: Power BI Desktop의 모델링 보기(미리 보기)
+      href: desktop-modeling-view.md
+    - name: Power BI Desktop의 집계(미리 보기)
+      href: desktop-aggregations.md
+    - name: Power BI Desktop의 복합 모델
+      href: desktop-composite-models.md
+    - name: Power BI Desktop의 다 대 다 관계(미리 보기)
+      href: desktop-many-to-many-relationships.md
+    - name: Power BI Desktop의 스토리지 모드(미리 보기)
+      href: desktop-storage-mode.md
+    - name: Power BI Desktop에서 양방향 교차 필터링(미리 보기)
+      href: desktop-bidirectional-filtering.md
+    - name: Power BI 및 DirectQuery
+      href: desktop-directquery-about.md
+    - name: DirectQuery에서 지원하는 데이터 원본
+      href: desktop-directquery-data-sources.md
+    - name: Power BI 데이터 원본 필수 조건
+      href: desktop-data-source-prerequisites.md
+    - name: Power BI의 다차원 모델의 기본 멤버
+      href: desktop-default-member-multidimensional-models.md
+    - name: 사용자 지정 시각적 개체 FAQ
+      href: power-bi-custom-visuals-faq.md
+  - name: 방법
+    items:
+    - name: Power BI Desktop 다운로드
+      href: desktop-get-the-desktop.md
+    - name: Power BI Desktop 시작 가이드
+      href: desktop-getting-started.md
+    - name: Power BI Desktop의 일반적인 쿼리 작업
+      href: desktop-common-query-tasks.md
+    - name: Power BI Desktop에서 관계 만들기 및 관리
+      href: desktop-create-and-manage-relationships.md
+    - name: Power BI Desktop의 데이터 보기
+      href: desktop-data-view.md
+    - name: Power BI Desktop을 사용한 쿼리 개요
+      href: desktop-query-overview.md
+    - name: Power BI Desktop의 DAX 기본 사항
+      href: desktop-quickstart-learn-dax-basics.md
+    - name: Power BI Desktop의 관계 보기
+      href: desktop-relationship-view.md
+    - name: Power BI Desktop의 보고서 뷰
+      href: desktop-report-view.md
+    - name: Power BI Desktop에서 여러 데이터 원본에 연결
+      href: desktop-connect-to-data.md
+    - name: Power BI Desktop에서 게시
+      href: desktop-upload-desktop-files.md
+    - name: 1부, Power BI 보고서에 시각화 추가
+      href: visuals/power-bi-report-add-visualizations-i.md
+    - name: 2부, Power BI 보고서에 시각화 추가
+      href: visuals/power-bi-report-add-visualizations-ii.md
+    - name: 시각화 제목, 배경 및 범례 사용자 지정
+      href: visuals/power-bi-visualization-customize-title-background-and-legend.md
+    - name: Power BI에서 데이터가 없는 항목 표시
+      href: desktop-show-items-no-data.md
+    - name: 데이터에 연결
       items:
-        - name: Power BI Desktop이란?
-          href: desktop-what-is-desktop.md
-    - name: 빠른 시작
-      expanded: true
+      - name: Power BI Desktop의 데이터 소스
+        href: desktop-data-sources.md
+      - name: 예를 통해 웹 페이지에 연결(미리 보기)
+        href: desktop-connect-to-web-by-example.md
+      - name: Power BI 서비스의 데이터 집합에 연결
+        href: desktop-report-lifecycle-datasets.md
+      - name: Power BI Desktop에 Excel 통합 문서 가져오기
+        href: desktop-import-excel-workbooks.md
+      - name: 제네릭 인터페이스를 사용하여 데이터에 연결
+        href: desktop-connect-using-generic-interfaces.md
+      - name: PDF 파일에 연결
+        href: desktop-connect-pdf.md
+      - name: Adobe Analytics에 연결
+        href: desktop-connect-adobe-analytics.md
+      - name: Oracle 데이터베이스에 연결
+        href: desktop-connect-oracle-database.md
+      - name: Power BI Desktop에서 Python 스크립트 실행
+        href: desktop-python-scripts.md
+      - name: 파워 쿼리 편집기에서 Python 사용
+        href: desktop-python-in-query-editor.md
+      - name: Power BI로 외부 Python IDE 사용
+        href: desktop-python-ide.md
+      - name: Python을 사용하여 Power BI 시각적 개체 만들기
+        href: desktop-python-visuals.md
+      - name: Power BI Desktop에서 R 스크립트 실행
+        href: desktop-r-scripts.md
+      - name: 쿼리 편집기에서 R 사용
+        href: desktop-r-in-query-editor.md
+      - name: Power BI로 외부 R IDE 사용
+        href: desktop-r-ide.md
+      - name: 지원되는 R 패키지
+        href: service-r-packages-support.md
+      - name: Power BI Desktop에 데이터 직접 연결
+        href: desktop-enter-data-directly-into-desktop.md
+      - name: Power BI Desktop에서 Excel에 연결
+        href: desktop-connect-excel.md
+      - name: Power BI Desktop의 Analysis Services 다차원 데이터
+        href: desktop-ssas-multidimensional.md
+      - name: Power BI Desktop에서 CSV 파일에 연결
+        href: desktop-connect-csv.md
+      - name: Power BI Desktop에서 Google BigQuery 데이터베이스에 연결
+        href: desktop-connect-bigquery.md
+      - name: Power BI Desktop에서 Impala 데이터베이스에 연결
+        href: desktop-connect-impala.md
+      - name: Power BI Desktop에서 OData 피드에 연결
+        href: desktop-connect-odata.md
+      - name: Power BI Desktop에서 Amazon Redshift 데이터베이스에 연결
+        href: desktop-connect-redshift.md
+      - name: Power BI Desktop에서 웹 페이지에 연결
+        href: desktop-connect-to-web.md
+      - name: Power BI Desktop에서 Snowflake Computing 웨어하우스에 연결
+        href: desktop-connect-snowflake.md
+      - name: Azure Consumption Insights 데이터에 연결
+        href: desktop-connect-azure-consumption-insights.md
+      - name: Power BI Desktop에서 SAP HANA 사용
+        href: desktop-sap-hana.md
+      - name: Power BI Desktop의 Analysis Services 테이블 형식 데이터
+        href: desktop-analysis-services-tabular-data.md
+      - name: Power BI Desktop에서 DirectQuery 사용
+        href: desktop-use-directquery.md
+      - name: Oracle 및 Teradata 데이터베이스용 DirectQuery
+        href: desktop-directquery-for-oracle-teradata.md
+      - name: DirectQuery 및 SAP BW(Business Warehouse)
+        href: desktop-directquery-sap-bw.md
+      - name: DirectQuery 및 SAP HANA
+        href: desktop-directquery-sap-hana.md
+      - name: Power BI Desktop의 참조 무결성 설정 가정
+        href: desktop-assume-referential-integrity.md
+      - name: Power BI Desktop(미리 보기)에서 SAP BW Connector 사용
+        href: desktop-sap-bw-connector.md
+      - name: Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
+        href: desktop-use-onedrive-business-links.md
+      - name: '타사 서비스: Power BI Desktop용 Facebook 커넥터'
+        href: service-facebook-connector.md
+      - name: '타사 서비스: Power BI Desktop용 Google Analytics 커넥터'
+        href: service-google-analytics-connector.md
+      - name: 'Project Online: Power BI Desktop을 통해서 데이터에 연결'
+        href: desktop-project-online-connect-to-data.md
+    - name: 데이터 변환 및 모양 지정
       items:
-        - name: 데이터에 연결
-          href: desktop-quickstart-connect-to-data.md
-    - name: 자습서
+      - name: Power BI Desktop에서 도형 맵 사용(미리 보기)
+        href: visuals/desktop-shape-map.md
+      - name: 이진 조합
+        href: desktop-combine-binaries.md
+    - name: 데이터 모델링
       items:
-        - name: 여러 데이터 원본 셰이프 및 결합
-          href: desktop-shape-and-combine-data.md
-        - name: Power BI Desktop을 사용하여 웹 페이지에서 데이터 가져오기 및 분석
-          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Excel 및 OData 피드의 판매 데이터 분석'
-          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Power BI Desktop에서 고유한 측정값 만들기
-          href: desktop-tutorial-create-measures.md
-        - name: Power BI Desktop에서 계산 열 만들기
-          href: desktop-tutorial-create-calculated-columns.md
-        - name: Power BI Desktop을 사용한 Facebook 분석
-          href: desktop-tutorial-facebook-analytics.md
-        - name: Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
-          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-    - name: 샘플
+      - name: Power BI Desktop의 데이터 분류
+        href: desktop-data-categorization.md
+      - name: 모바일 앱의 바코드 필드 태그 지정
+        href: desktop-mobile-barcodes.md
+      - name: 모바일 앱의 지리적 필터링 설정
+        href: desktop-mobile-geofiltering.md
+      - name: Power BI Desktop의 계산 열
+        href: desktop-calculated-columns.md
+      - name: Power BI Desktop의 계산된 테이블
+        href: desktop-calculated-tables.md
+      - name: Power BI Desktop의 측정값
+        href: desktop-measures.md
+      - name: 질문 및 답변 언어 스키마 편집
+        href: power-bi-q-and-a-linguistic-schema.md
+      - name: KPI 가져오기 및 표시(미리 보기)
+        href: desktop-import-and-display-kpis.md
+    - name: 보고서 만들기
       items:
-        - name: Power BI용 샘플
-          href: sample-datasets.md
-        - name: 샘플 콘텐츠 팩 사용
-          href: sample-tutorial-connect-to-the-samples.md
-        - name: '고객 수익성 샘플: 둘러보기'
-          href: sample-customer-profitability.md
-        - name: 'IT 지출 분석 샘플: 둘러보기'
-          href: sample-it-spend.md
-        - name: '인적 자원 샘플: 둘러보기'
-          href: sample-human-resources.md
-        - name: '기회 분석 샘플: 둘러보기'
-          href: sample-opportunity-analysis.md
-        - name: '조달 분석 샘플: 둘러보기'
-          href: sample-procurement.md
-        - name: '소매점 분석 샘플: 둘러보기'
-          href: sample-retail-analysis.md
-        - name: '영업 및 마케팅 샘플: 둘러보기'
-          href: sample-sales-and-marketing.md
-        - name: '공급업체 품질 분석 샘플: 둘러보기'
-          href: sample-supplier-quality.md
-        - name: 재무 샘플 통합 문서 다운로드
-          href: sample-financial-download.md
-    - name: 개념
+      - name: 보고서에 대한 시각적 요소
+        href: desktop-visual-elements-for-reports.md
+      - name: 보고서 페이지를 기준으로 도구 설명 만들기
+        href: desktop-tooltips.md
+      - name: PDF로 내보내기 및 보고서 인쇄
+        href: desktop-export-to-pdf.md
+      - name: Power BI Desktop의 Q&A
+        href: desktop-qna-in-reports.md
+      - name: Power BI Desktop의 분석 창
+        href: desktop-analytics-pane.md
+      - name: 인사이트를 사용하여 증가와 감소 설명
+        href: desktop-insights.md
+      - name: 인사이트를 사용하여 차트에서 배포가 다른 곳 찾기
+        href: desktop-insights-find-where-different.md
+      - name: Power BI의 책갈피
+        href: desktop-bookmarks.md
+      - name: 보고서 테마 사용
+        href: desktop-report-themes.md
+      - name: 새 필터 환경 체험
+        href: power-bi-report-filter-preview.md
+      - name: 빠른 측정 사용
+        href: desktop-quick-measures.md
+      - name: What if 매개 변수 사용
+        href: desktop-what-if.md
+      - name: 드릴스루 사용
+        href: desktop-drillthrough.md
+      - name: 상대 날짜 슬라이서 및 필터 사용
+        href: visuals/desktop-slicer-filter-date-range.md
+      - name: 그룹화 및 범주화 사용
+        href: desktop-grouping-and-binning.md
+      - name: R을 사용하여 Power BI 시각적 개체 만들기
+        href: desktop-r-visuals.md
+      - name: R 기반 사용자 지정 시각적 개체 사용
+        href: desktop-r-powered-custom-visuals.md
+      - name: 눈금선과 눈금선에 맞추기(snap-to-grid) 사용
+        href: desktop-gridlines-snap-to-grid.md
+      - name: Power BI 보고서의 페이지 표시 설정
+        href: power-bi-report-display-settings.md
+      - name: 예제에서 열 추가
+        href: desktop-add-column-from-example.md
+      - name: 사용자 지정 열 추가
+        href: desktop-add-custom-column.md
+      - name: Power BI에서 응답형 시각적 개체 만들기
+        href: visuals/desktop-create-responsive-visuals.md
+      - name: Power BI Desktop(미리 보기)에서 인라인 계층 구조 레이블 사용
+        href: desktop-inline-hierarchy-labels.md
+      - name: 숫자 범위 슬라이서 사용
+        href: desktop-slicer-numeric-range.md
+      - name: 크기를 조정할 수 있는 슬라이서 만들기
+        href: power-bi-slicer-filter-responsive.md
+      - name: Cortana에 대한 사용자 지정 답변 카드 만들기
+        href: service-cortana-answer-cards.md
+      - name: 행 수준 보안
+        href: desktop-rls.md
+      - name: 도구 설명 사용자 지정
+        href: desktop-custom-tooltips.md
+      - name: 보고서의 텍스트 상자 및 셰이프
+        href: power-bi-reports-add-text-and-shapes.md
+      - name: 텍스트 상자에 하이퍼링크 추가
+        href: service-add-hyperlink-to-text-box.md
+      - name: 테이블에서 하이퍼링크
+        href: power-bi-hyperlinks-in-tables.md
+      - name: 조건부 테이블 서식 지정
+        href: desktop-conditional-table-formatting.md
+      - name: Power BI Desktop의 열 기준 정렬
+        href: desktop-sort-by-column.md
+      - name: 모바일 앱에 최적화된 보고서 만들기
+        href: desktop-create-phone-report.md
+      - name: 데이터 보기 및 레코드 보기 사용
+        href: desktop-see-data-see-records.md
+      - name: 보고서를 만드는 팁
+        href: desktop-tips-and-tricks-for-creating-reports.md
+    - name: 시각화
       items:
-        - name: 최신 Power BI Desktop 업데이트의 새로운 기능
-          href: desktop-latest-update.md
-        - name: Power BI Desktop의 모델링 보기(미리 보기)
-          href: desktop-modeling-view.md
-        - name: Power BI Desktop의 집계(미리 보기)
-          href: desktop-aggregations.md
-        - name: Power BI Desktop의 복합 모델
-          href: desktop-composite-models.md
-        - name: Power BI Desktop의 다 대 다 관계(미리 보기)
-          href: desktop-many-to-many-relationships.md
-        - name: Power BI Desktop의 스토리지 모드(미리 보기)
-          href: desktop-storage-mode.md
-        - name: Power BI Desktop의 양방향 교차 필터링
-          href: desktop-bidirectional-filtering.md
-        - name: Power BI 및 DirectQuery
-          href: desktop-directquery-about.md
-        - name: DirectQuery에서 지원하는 데이터 원본
-          href: desktop-directquery-data-sources.md
-        - name: Power BI 데이터 원본 필수 조건
-          href: desktop-data-source-prerequisites.md
-        - name: Power BI의 다차원 모델의 기본 멤버
-          href: desktop-default-member-multidimensional-models.md
-        - name: 사용자 지정 시각적 개체 FAQ
-          href: power-bi-custom-visuals-faq.md
-    - name: 방법
+      - name: Power BI의 시각화
+        href: visuals/power-bi-report-visualizations.md
+      - name: 시각화 모범 사례
+        href: visuals/power-bi-visualization-best-practices.md
+      - name: 보고서에서 시각화 유형 변경
+        href: visuals/power-bi-report-change-visualization-type.md
+      - name: 시각적 개체 유형별 데이터 요소 한도
+        href: visuals/power-bi-data-points.md
+      - name: 시각적 개체를 만드는 데 사용된 데이터 보기
+        href: visuals/service-reports-show-data.md
+      - name: 색 서식 지정 및 축 속성 시작
+        href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
+      - name: 색 서식을 위한 팁과 힌트
+        href: visuals/service-tips-and-tricks-for-color-formatting.md
+      - name: 시각화 복사 및 붙여넣기
+        href: visuals/power-bi-visualization-copy-paste.md
+      - name: 시각화를 만드는 데 사용된 데이터 내보내기
+        href: visuals/power-bi-visualization-export-data.md
+      - name: 보고서에서 시각화 이동, 크기 조정 및 팝아웃
+        href: visuals/power-bi-visualization-move-and-resize.md
+      - name: 보고서에서 시각적 개체가 조작되는 방식 변경
+        href: service-reports-visual-interactions.md
+      - name: 히스토그램
+        href: visuals/service-histograms.md
+      - name: Power BI Map 시각화를 위한 팁과 힌트
+        href: visuals/power-bi-map-tips-and-tricks.md
+      - name: X축 및 Y축 속성 사용자 지정
+        href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
+      - name: Power BI의 ArcGIS 지도
+        href: power-bi-visualization-arcgis.md
+      - name: 기본 영역형 차트
+        href: visuals/power-bi-visualization-basic-area-chart.md
+      - name: Power BI의 카드(큰 숫자 타일)
+        href: visuals/power-bi-visualization-card.md
+      - name: Power BI의 콤보 차트
+        href: visuals/power-bi-visualization-combo-chart.md
+      - name: Power BI의 도넛형 차트
+        href: visuals/power-bi-visualization-doughnut-charts.md
+      - name: Power BI의 등치 지역도(코로플레스)
+        href: visuals/power-bi-visualization-filled-maps-choropleths.md
+      - name: Power BI의 깔때기형 차트
+        href: visuals/power-bi-visualization-funnel-charts.md
+      - name: 고밀도 줄 샘플링
+        href: desktop-high-density-sampling.md
+      - name: KPI 시각적 개체
+        href: visuals/power-bi-visualization-kpi.md
+      - name: 행렬 시각적 개체
+        href: visuals/desktop-matrix-visual.md
+      - name: Power BI에서 R 스크립트를 사용하여 고급 분석 및 시각화 만들기
+        href: visuals/service-r-visuals.md
+      - name: Power BI의 방사형 계기 차트
+        href: visuals/power-bi-visualization-radial-gauge-charts.md
+      - name: 리본 차트
+        href: visuals/desktop-ribbon-charts.md
+      - name: Power BI의 분산형 차트
+        href: visuals/power-bi-visualization-scatter.md
+      - name: 고밀도 분산형 차트
+        href: visuals/desktop-high-density-scatter-charts.md
+      - name: Power BI의 슬라이서
+        href: visuals/power-bi-visualization-slicers.md
+      - name: Power BI의 테이블
+        href: visuals/power-bi-visualization-tables.md
+      - name: Power BI의 트리맵
+        href: visuals/power-bi-visualization-treemaps.md
+      - name: Power BI의 폭포 차트
+        href: visuals/power-bi-visualization-waterfall-charts.md
+      - name: 동적 참조 줄 만들기
+        href: service-analytics-pane.md
+    - name: 문제 해결
       items:
-        - name: Power BI Desktop 다운로드
-          href: desktop-get-the-desktop.md
-        - name: Power BI Desktop 시작 가이드
-          href: desktop-getting-started.md
-        - name: Power BI Desktop의 일반적인 쿼리 작업
-          href: desktop-common-query-tasks.md
-        - name: Power BI Desktop에서 관계 만들기 및 관리
-          href: desktop-create-and-manage-relationships.md
-        - name: Power BI Desktop의 데이터 보기
-          href: desktop-data-view.md
-        - name: Power BI Desktop을 사용한 쿼리 개요
-          href: desktop-query-overview.md
-        - name: Power BI Desktop의 DAX 기본 사항
-          href: desktop-quickstart-learn-dax-basics.md
-        - name: Power BI Desktop의 관계 보기
-          href: desktop-relationship-view.md
-        - name: Power BI Desktop의 보고서 뷰
-          href: desktop-report-view.md
-        - name: Power BI Desktop에서 여러 데이터 원본에 연결
-          href: desktop-connect-to-data.md
-        - name: Power BI Desktop에서 게시
-          href: desktop-upload-desktop-files.md
-        - name: '1부, Power BI 보고서에 시각화 추가'
-          href: visuals/power-bi-report-add-visualizations-i.md
-        - name: '2부, Power BI 보고서에 시각화 추가'
-          href: visuals/power-bi-report-add-visualizations-ii.md
-        - name: '시각화 제목, 배경 및 범례 사용자 지정'
-          href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-        - name: Power BI에서 데이터가 없는 항목 표시
-          href: desktop-show-items-no-data.md
-        - name: 데이터에 연결
-          items:
-            - name: Power BI Desktop의 데이터 소스
-              href: desktop-data-sources.md
-            - name: 예를 통해 웹 페이지에 연결(미리 보기)
-              href: desktop-connect-to-web-by-example.md
-            - name: Power BI 서비스의 데이터 집합에 연결
-              href: desktop-report-lifecycle-datasets.md
-            - name: Power BI Desktop에 Excel 통합 문서 가져오기
-              href: desktop-import-excel-workbooks.md
-            - name: 제네릭 인터페이스를 사용하여 데이터에 연결
-              href: desktop-connect-using-generic-interfaces.md
-            - name: PDF 파일에 연결
-              href: desktop-connect-pdf.md
-            - name: Adobe Analytics에 연결
-              href: desktop-connect-adobe-analytics.md
-            - name: Oracle 데이터베이스에 연결
-              href: desktop-connect-oracle-database.md
-            - name: Power BI Desktop에서 Python 스크립트 실행
-              href: desktop-python-scripts.md
-            - name: 파워 쿼리 편집기에서 Python 사용
-              href: desktop-python-in-query-editor.md
-            - name: Power BI로 외부 Python IDE 사용
-              href: desktop-python-ide.md
-            - name: Python을 사용하여 Power BI 시각적 개체 만들기
-              href: desktop-python-visuals.md
-            - name: Power BI Desktop에서 R 스크립트 실행
-              href: desktop-r-scripts.md
-            - name: 쿼리 편집기에서 R 사용
-              href: desktop-r-in-query-editor.md
-            - name: Power BI로 외부 R IDE 사용
-              href: desktop-r-ide.md
-            - name: 지원되는 R 패키지
-              href: service-r-packages-support.md
-            - name: Power BI Desktop에 데이터 직접 연결
-              href: desktop-enter-data-directly-into-desktop.md
-            - name: Power BI Desktop에서 Excel에 연결
-              href: desktop-connect-excel.md
-            - name: Power BI Desktop의 Analysis Services 다차원 데이터
-              href: desktop-ssas-multidimensional.md
-            - name: Power BI Desktop에서 CSV 파일에 연결
-              href: desktop-connect-csv.md
-            - name: Power BI Desktop에서 Google BigQuery 데이터베이스에 연결
-              href: desktop-connect-bigquery.md
-            - name: Power BI Desktop에서 Impala 데이터베이스에 연결
-              href: desktop-connect-impala.md
-            - name: Power BI Desktop에서 OData 피드에 연결
-              href: desktop-connect-odata.md
-            - name: Power BI Desktop에서 Amazon Redshift 데이터베이스에 연결
-              href: desktop-connect-redshift.md
-            - name: Power BI Desktop에서 웹 페이지에 연결
-              href: desktop-connect-to-web.md
-            - name: Power BI Desktop에서 Snowflake Computing 웨어하우스에 연결
-              href: desktop-connect-snowflake.md
-            - name: Azure Consumption Insights 데이터에 연결
-              href: desktop-connect-azure-consumption-insights.md
-            - name: Power BI Desktop에서 SAP HANA 사용
-              href: desktop-sap-hana.md
-            - name: Power BI Desktop의 Analysis Services 테이블 형식 데이터
-              href: desktop-analysis-services-tabular-data.md
-            - name: Power BI Desktop에서 DirectQuery 사용
-              href: desktop-use-directquery.md
-            - name: Oracle 및 Teradata 데이터베이스용 DirectQuery
-              href: desktop-directquery-for-oracle-teradata.md
-            - name: DirectQuery 및 SAP BW(Business Warehouse)
-              href: desktop-directquery-sap-bw.md
-            - name: DirectQuery 및 SAP HANA
-              href: desktop-directquery-sap-hana.md
-            - name: Power BI Desktop의 참조 무결성 설정 가정
-              href: desktop-assume-referential-integrity.md
-            - name: Power BI Desktop(미리 보기)에서 SAP BW Connector 사용
-              href: desktop-sap-bw-connector.md
-            - name: Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
-              href: desktop-use-onedrive-business-links.md
-            - name: '타사 서비스: Power BI Desktop용 Facebook 커넥터'
-              href: service-facebook-connector.md
-            - name: '타사 서비스: Power BI Desktop용 Google Analytics 커넥터'
-              href: service-google-analytics-connector.md
-            - name: 'Project Online: Power BI Desktop을 통해서 데이터에 연결'
-              href: desktop-project-online-connect-to-data.md
-        - name: 데이터 변환 및 모양 지정
-          items:
-            - name: Power BI Desktop에서 도형 맵 사용(미리 보기)
-              href: visuals/desktop-shape-map.md
-            - name: 이진 조합
-              href: desktop-combine-binaries.md
-        - name: 데이터 모델링
-          items:
-            - name: Power BI Desktop의 데이터 분류
-              href: desktop-data-categorization.md
-            - name: 모바일 앱의 바코드 필드 태그 지정
-              href: desktop-mobile-barcodes.md
-            - name: 모바일 앱의 지리적 필터링 설정
-              href: desktop-mobile-geofiltering.md
-            - name: Power BI Desktop의 계산 열
-              href: desktop-calculated-columns.md
-            - name: Power BI Desktop의 계산된 테이블
-              href: desktop-calculated-tables.md
-            - name: Power BI Desktop의 측정값
-              href: desktop-measures.md
-            - name: 질문 및 답변 언어 스키마 편집
-              href: power-bi-q-and-a-linguistic-schema.md
-            - name: KPI 가져오기 및 표시(미리 보기)
-              href: desktop-import-and-display-kpis.md
-        - name: 보고서 만들기
-          items:
-            - name: 보고서에 대한 시각적 요소
-              href: desktop-visual-elements-for-reports.md
-            - name: 보고서 페이지를 기준으로 도구 설명 만들기
-              href: desktop-tooltips.md
-            - name: PDF로 내보내기 및 보고서 인쇄
-              href: desktop-export-to-pdf.md
-            - name: Power BI Desktop의 Q&A
-              href: desktop-qna-in-reports.md
-            - name: Power BI Desktop의 분석 창
-              href: desktop-analytics-pane.md
-            - name: 인사이트를 사용하여 증가와 감소 설명
-              href: desktop-insights.md
-            - name: 인사이트를 사용하여 차트에서 배포가 다른 곳 찾기
-              href: desktop-insights-find-where-different.md
-            - name: Power BI의 책갈피
-              href: desktop-bookmarks.md
-            - name: 보고서 테마 사용
-              href: desktop-report-themes.md
-            - name: 새 필터 환경 체험
-              href: power-bi-report-filter-preview.md
-            - name: 빠른 측정 사용
-              href: desktop-quick-measures.md
-            - name: What if 매개 변수 사용
-              href: desktop-what-if.md
-            - name: 드릴스루 사용
-              href: desktop-drillthrough.md
-            - name: 상대 날짜 슬라이서 및 필터 사용
-              href: visuals/desktop-slicer-filter-date-range.md
-            - name: 그룹화 및 범주화 사용
-              href: desktop-grouping-and-binning.md
-            - name: R을 사용하여 Power BI 시각적 개체 만들기
-              href: desktop-r-visuals.md
-            - name: R 기반 사용자 지정 시각적 개체 사용
-              href: desktop-r-powered-custom-visuals.md
-            - name: 눈금선과 눈금선에 맞추기(snap-to-grid) 사용
-              href: desktop-gridlines-snap-to-grid.md
-            - name: Power BI 보고서의 페이지 표시 설정
-              href: power-bi-report-display-settings.md
-            - name: 예제에서 열 추가
-              href: desktop-add-column-from-example.md
-            - name: 사용자 지정 열 추가
-              href: desktop-add-custom-column.md
-            - name: Power BI에서 응답형 시각적 개체 만들기
-              href: visuals/desktop-create-responsive-visuals.md
-            - name: Power BI Desktop(미리 보기)에서 인라인 계층 구조 레이블 사용
-              href: desktop-inline-hierarchy-labels.md
-            - name: 숫자 범위 슬라이서 사용
-              href: desktop-slicer-numeric-range.md
-            - name: 크기를 조정할 수 있는 슬라이서 만들기
-              href: power-bi-slicer-filter-responsive.md
-            - name: Cortana에 대한 사용자 지정 답변 카드 만들기
-              href: service-cortana-answer-cards.md
-            - name: 행 수준 보안
-              href: desktop-rls.md
-            - name: 도구 설명 사용자 지정
-              href: desktop-custom-tooltips.md
-            - name: 보고서의 텍스트 상자 및 셰이프
-              href: power-bi-reports-add-text-and-shapes.md
-            - name: 텍스트 상자에 하이퍼링크 추가
-              href: service-add-hyperlink-to-text-box.md
-            - name: 테이블에서 하이퍼링크
-              href: power-bi-hyperlinks-in-tables.md
-            - name: 조건부 테이블 서식 지정
-              href: desktop-conditional-table-formatting.md
-            - name: Power BI Desktop의 열 기준 정렬
-              href: desktop-sort-by-column.md
-            - name: 모바일 앱에 최적화된 보고서 만들기
-              href: desktop-create-phone-report.md
-            - name: 데이터 보기 및 레코드 보기 사용
-              href: desktop-see-data-see-records.md
-            - name: 보고서를 만드는 팁
-              href: desktop-tips-and-tricks-for-creating-reports.md
-        - name: 시각화
-          items:
-            - name: Power BI의 시각화
-              href: visuals/power-bi-report-visualizations.md
-            - name: 시각화 모범 사례
-              href: visuals/power-bi-visualization-best-practices.md
-            - name: 보고서에서 시각화 유형 변경
-              href: visuals/power-bi-report-change-visualization-type.md
-            - name: 시각적 개체 유형별 데이터 요소 한도
-              href: visuals/power-bi-data-points.md
-            - name: 시각적 개체를 만드는 데 사용된 데이터 보기
-              href: visuals/service-reports-show-data.md
-            - name: 색 서식 지정 및 축 속성 시작
-              href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
-            - name: 색 서식을 위한 팁과 힌트
-              href: visuals/service-tips-and-tricks-for-color-formatting.md
-            - name: 시각화 복사 및 붙여넣기
-              href: visuals/power-bi-visualization-copy-paste.md
-            - name: 시각화를 만드는 데 사용된 데이터 내보내기
-              href: visuals/power-bi-visualization-export-data.md
-            - name: '보고서에서 시각화 이동, 크기 조정 및 팝아웃'
-              href: visuals/power-bi-visualization-move-and-resize.md
-            - name: 보고서에서 시각적 개체가 조작되는 방식 변경
-              href: service-reports-visual-interactions.md
-            - name: 히스토그램
-              href: visuals/service-histograms.md
-            - name: Power BI Map 시각화를 위한 팁과 힌트
-              href: visuals/power-bi-map-tips-and-tricks.md
-            - name: X축 및 Y축 속성 사용자 지정
-              href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: Power BI의 ArcGIS 지도
-              href: power-bi-visualization-arcgis.md
-            - name: 기본 영역형 차트
-              href: visuals/power-bi-visualization-basic-area-chart.md
-            - name: Power BI의 카드(큰 숫자 타일)
-              href: visuals/power-bi-visualization-card.md
-            - name: Power BI의 콤보 차트
-              href: visuals/power-bi-visualization-combo-chart.md
-            - name: Power BI의 도넛형 차트
-              href: visuals/power-bi-visualization-doughnut-charts.md
-            - name: Power BI의 등치 지역도(코로플레스)
-              href: visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: Power BI의 깔때기형 차트
-              href: visuals/power-bi-visualization-funnel-charts.md
-            - name: 고밀도 줄 샘플링
-              href: desktop-high-density-sampling.md
-            - name: KPI 시각적 개체
-              href: visuals/power-bi-visualization-kpi.md
-            - name: 행렬 시각적 개체
-              href: visuals/desktop-matrix-visual.md
-            - name: Power BI에서 R 스크립트를 사용하여 고급 분석 및 시각화 만들기
-              href: visuals/service-r-visuals.md
-            - name: Power BI의 방사형 계기 차트
-              href: visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: 리본 차트
-              href: visuals/desktop-ribbon-charts.md
-            - name: Power BI의 분산형 차트
-              href: visuals/power-bi-visualization-scatter.md
-            - name: 고밀도 분산형 차트
-              href: visuals/desktop-high-density-scatter-charts.md
-            - name: Power BI의 슬라이서
-              href: visuals/power-bi-visualization-slicers.md
-            - name: Power BI의 테이블
-              href: visuals/power-bi-visualization-tables.md
-            - name: Power BI의 트리맵
-              href: visuals/power-bi-visualization-treemaps.md
-            - name: Power BI의 폭포 차트
-              href: visuals/power-bi-visualization-waterfall-charts.md
-            - name: 동적 참조 줄 만들기
-              href: service-analytics-pane.md
-        - name: 문제 해결
-          items:
-            - name: Power BI Desktop 및 파워 쿼리에서 Access 데이터베이스 및 Excel 스프레드시트 가져오기 문제 해결
-              href: desktop-access-database-errors.md
-            - name: Power BI Desktop을 시작할 때 발생하는 문제 해결
-              href: desktop-error-launching-desktop.md
-    - name: 참조
-      items:
-        - name: Power BI Desktop의 데이터 형식
-          href: desktop-data-types.md
-        - name: Power BI Desktop의 수식 편집기 바로 가기
-          href: desktop-formula-editor.md
-        - name: Power BI Desktop 개인 정보 수준
-          href: desktop-privacy-levels.md
-        - name: Power BI에서 커넥터 확장성
-          href: desktop-connector-extensibility.md
-    - name: 리소스
-      items:
-        - name: Power BI Desktop 동영상
-          href: desktop-videos.md
-        - name: Power BI Desktop으로 이전 월별 업데이트
-          href: desktop-latest-update-archive.md
-        - name: Power BI Desktop 웃는 얼굴 보내기 개인정보처리방침
-          href: desktop-send-smile-privacy-statement.md
-        - name: Power BI 보고서의 접근성
-          href: desktop-accessibility.md
-        - name: Power BI Desktop 로그인 양식 관리
-          href: desktop-admin-sign-in-form.md
+      - name: Power BI Desktop 및 파워 쿼리에서 Access 데이터베이스 및 Excel 스프레드시트 가져오기 문제 해결
+        href: desktop-access-database-errors.md
+      - name: Power BI Desktop을 시작할 때 발생하는 문제 해결
+        href: desktop-error-launching-desktop.md
+  - name: 참조
+    items:
+    - name: Power BI Desktop의 데이터 형식
+      href: desktop-data-types.md
+    - name: Power BI Desktop의 수식 편집기 바로 가기
+      href: desktop-formula-editor.md
+    - name: Power BI Desktop 개인 정보 수준
+      href: desktop-privacy-levels.md
+    - name: Power BI에서 커넥터 확장성
+      href: desktop-connector-extensibility.md
+  - name: 리소스
+    items:
+    - name: Power BI Desktop 동영상
+      href: desktop-videos.md
+    - name: Power BI Desktop으로 이전 월별 업데이트
+      href: desktop-latest-update-archive.md
+    - name: Power BI Desktop 웃는 얼굴 보내기 개인정보처리방침
+      href: desktop-send-smile-privacy-statement.md
+    - name: Power BI 보고서의 접근성
+      href: desktop-accessibility.md
+    - name: Power BI Desktop 로그인 양식 관리
+      href: desktop-admin-sign-in-form.md
 - name: Power BI 서비스
   items:
-    - name: 개요
+  - name: 개요
+    items:
+    - name: Power BI란?
+      href: power-bi-overview.md
+    - name: Power BI Desktop 및 서비스 비교
+      href: service-service-vs-desktop.md
+  - name: 자습서
+    items:
+    - name: Power BI 시작
+      href: service-get-started.md
+    - name: GitHub 샘플에 연결
+      href: service-tutorial-connect-to-github.md
+  - name: 개념
+    items:
+    - name: Power BI 서비스의 새로운 기능
+      href: service-whats-new.md
+    - name: 기본 개념
       items:
-        - name: Power BI란?
-          href: power-bi-overview.md
-        - name: Power BI Desktop 및 서비스 비교
-          href: service-service-vs-desktop.md
-    - name: 자습서
+      - name: 디자이너에 대한 기본 개념
+        href: service-basic-concepts.md
+      - name: Power BI의 데이터 종류
+        href: service-get-data.md
+      - name: 보고서 편집기 둘러보기
+        href: service-the-report-editor-take-a-tour.md
+      - name: 작업 구성
+        href: service-new-workspaces.md
+    - name: Power BI의 워크플로
       items:
-        - name: Power BI 시작
-          href: service-get-started.md
-        - name: GitHub 샘플에 연결
-          href: service-tutorial-connect-to-github.md
-    - name: 개념
+      - name: 작업 공유 방법
+        href: service-how-to-collaborate-distribute-dashboards-reports.md
+      - name: 데이터를 최신 상태로 유지
+        href: refresh-data.md
+      - name: 모니터링 사용 현황
+        href: service-usage-metrics.md
+    - name: 라이선싱
       items:
-        - name: Power BI 서비스의 새로운 기능
-          href: service-whats-new.md
-        - name: 기본 개념
-          items:
-            - name: 디자이너에 대한 기본 개념
-              href: service-basic-concepts.md
-            - name: Power BI의 데이터 종류
-              href: service-get-data.md
-            - name: 보고서 편집기 둘러보기
-              href: service-the-report-editor-take-a-tour.md
-            - name: 작업 구성
-              href: service-new-workspaces.md
-        - name: Power BI의 워크플로
-          items:
-            - name: 작업 공유 방법
-              href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: 데이터를 최신 상태로 유지
-              href: refresh-data.md
-            - name: 모니터링 사용 현황
-              href: service-usage-metrics.md
-        - name: 라이선싱
-          items:
-            - name: 셀프 서비스 등록
-              href: service-self-service-signup-for-power-bi.md
-            - name: 조직의 라이선싱
-              href: service-admin-licensing-organization.md
-            - name: 라이선스 유형별 기능
-              href: service-features-license-type.md
-        - name: 자세한 개념
-          items:
-            - name: 도움을 받을 수 있는 10가지 팁
-              href: service-tips-for-finding-help.md
-            - name: 라이선싱 특수 사례
-              items:
-                - name: Extended Pro 평가판 활성화
-                  href: service-extended-pro-trial.md
-                - name: 미국 정부용 Power BI
-                  href: service-govus-overview.md
-                - name: 독일 클라우드 고객을 위한 FAQ
-                  href: service-govde-faq.md
-            - name: 기타
-              items:
-                - name: Microsoft Flow 및 Power BI
-                  href: service-flow-integration.md
-                - name: 타사 앱 시작
-                  href: service-power-bi-get-started-third-party-apps.md
-    - name: 방법
+      - name: 셀프 서비스 등록
+        href: service-self-service-signup-for-power-bi.md
+      - name: 조직의 라이선싱
+        href: service-admin-licensing-organization.md
+      - name: 라이선스 유형별 기능
+        href: service-features-license-type.md
+    - name: 자세한 개념
       items:
-        - name: 파일에서 데이터 가져오기
-          items:
-            - name: 파일에서 데이터 가져오기
-              href: service-get-data-from-files.md
-            - name: Excel에서 멋진 보고서로
-              href: service-from-excel-to-stunning-report.md
-            - name: Excel 통합 문서 파일에서 데이터 가져오기
-              href: service-excel-workbook-files.md
-            - name: Power BI Desktop 파일에서 데이터 가져오기
-              href: service-desktop-files.md
-            - name: 매개 변수 편집
-              href: service-parameters.md
-            - name: 쉼표로 구분된 값(.csv) 파일에서 데이터 가져오기
-              href: service-comma-separated-value-files.md
-            - name: Power BI에서 실시간 스트리밍
-              href: service-real-time-streaming.md
-            - name: Excel에서 Power BI로 게시
-              href: service-publish-from-excel.md
-            - name: Excel 통합 문서 크기 줄이기
-              href: reduce-the-size-of-an-excel-workbook.md
-        - name: 데이터베이스에서 데이터 가져오기
-          items:
-            - name: Azure 및 Power BI
-              href: service-azure-and-power-bi.md
-            - name: Power BI 및 Azure 송신
-              href: service-azure-egress-power-bi.md
-            - name: DirectQuery를 사용한 Azure SQL Data Warehouse
-              href: service-azure-sql-data-warehouse-with-direct-connect.md
-            - name: DirectQuery를 사용한 Azure SQL Database
-              href: service-azure-sql-database-with-direct-connect.md
-            - name: DirectQuery를 포함하는 HDInsight의 Spark
-              href: spark-on-hdinsight-with-direct-connect.md
-            - name: Power BI의 SQL Server Analysis Services 라이브 데이터
-              href: sql-server-analysis-services-tabular-data.md
-        - name: 데이터 새로 고침
-          items:
-            - name: 예약된 새로 고침 구성
-              href: refresh-scheduled-refresh.md
-            - name: Power BI Desktop 파일의 데이터 세트 새로 고침 - 로컬
-              href: refresh-desktop-file-local-drive.md
-            - name: Power BI Desktop 파일의 데이터 세트 새로 고침 - 클라우드
-              href: refresh-desktop-file-onedrive.md
-            - name: Excel 통합 문서의 데이터 세트 새로 고침 - 로컬
-              href: refresh-excel-file-local-drive.md
-            - name: Excel 통합 문서의 데이터 세트 새로 고침 - 클라우드
-              href: refresh-excel-file-onedrive.md
-            - name: OneDrive에 있는 .csv 파일에서 만든 데이터 세트 새로 고침
-              href: refresh-csv-file-onedrive.md
-            - name: 새로 고침 시나리오 문제 해결
-              href: refresh-troubleshooting-refresh-scenarios.md
-        - name: 대시보드
-          items:
-            - name: 대시보드 소개
-              href: service-dashboards.md
-            - name: 대시보드 타일
-              href: service-dashboard-tiles.md
-            - name: 보고서에서 대시보드 만들기
-              href: service-dashboard-create.md
-            - name: 대시보드 복사본 만들기
-              href: service-dashboard-copy.md
-            - name: 보고서에서 대시보드에 타일 고정
-              href: service-dashboard-pin-tile-from-report.md
-            - name: 대시보드 간에 타일 고정
-              href: service-pin-tile-to-another-dashboard.md
-            - name: Excel의 대시보드에 타일 고정
-              href: service-dashboard-pin-tile-from-excel.md
-            - name: 질문 및 답변에서 대시보드에 타일 고정
-              href: service-dashboard-pin-tile-from-q-and-a.md
-            - name: 전체 보고서 페이지를 대시보드에 고정
-              href: service-dashboard-pin-live-tile-from-report.md
-            - name: Power BI 서비스의 데이터 경고
-              href: service-set-data-alerts.md
-            - name: '대시보드에 이미지, 텍스트 상자, 비디오 또는 코드 추가'
-              href: service-dashboard-add-widget.md
-            - name: 타일 편집
-              href: service-dashboard-edit-tile.md
-            - name: 멋진 대시보드를 디자인하기 위한 팁
-              href: service-dashboards-design-tips.md
-            - name: 대시보드의 휴대폰 보기 만들기
-              href: service-create-dashboard-mobile-phone-view.md
-            - name: 타일에 대한 QR 코드 만들기
-              href: service-create-qr-code-for-tile.md
-            - name: 대시보드에 이미지 추가
-              href: service-dashboard-add-image.md
-            - name: 대시보드 데이터 분류
-              href: service-data-classification.md
-            - name: 대시보드 테마
-              href: service-dashboard-themes.md
-        - name: 보고서
-          items:
-            - name: 데이터 세트에서 보고서 만들기
-              href: service-report-create-new.md
-            - name: 보고서의 필터 및 강조 표시 정보
-              href: power-bi-reports-filters-and-highlighting.md
-            - name: 보고서에 필터 추가
-              href: power-bi-report-add-filter.md
-            - name: Power BI에 보고서 저장
-              href: service-report-save.md
-            - name: 편집용 보기에서 보고서와 상호 작용
-              href: service-interact-with-a-report-in-editing-view.md
-            - name: Excel에서 분석
-              href: service-analyze-in-excel.md
-            - name: 보고서를 만드는 팁과 힌트
-              href: power-bi-reports-tips-and-tricks-for-creating.md
-            - name: 서비스의 집계 작업
-              href: service-aggregates.md
-            - name: 보고서에 대한 사용 현황 메트릭
-              href: service-usage-metrics.md
-            - name: 보고서에 대한 QR 코드 만들기
-              href: service-create-qr-code-for-report.md
-            - name: Power BI Desktop으로 보고서 내보내기(미리 보기)
-              href: service-export-to-pbix.md
-            - name: URL의 매개 변수를 사용하여 보고서 필터링
-              href: service-url-filters.md
-            - name: 빠르고 신뢰할 수 있는 보고서 빌드 모범 사례
-              href: power-bi-reports-performance.md
-        - name: 데이터에 대해 질문하기
-          items:
-            - name: Power BI 질문 및 답변 시작
-              href: power-bi-visualization-introduction-to-q-and-a.md
-            - name: 질문 및 답변을 사용하여 시각적 개체 및 보고서 만들기
-              href: power-bi-tutorial-q-and-a.md
-            - name: 질문 및 답변에서 데이터가 잘 작동하도록 설정
-              href: service-prepare-data-for-q-and-a.md
-            - name: 질문 및 답변에 대한 추천 질문 만들기
-              href: service-q-and-a-create-featured-questions.md
-            - name: 질문 및 답변의 시각화 유형
-              href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
-            - name: 라이브 연결로 질문 및 답변 사용
-              href: service-q-and-a-direct-query.md
-            - name: Power BI에 대해 Cortana 소개
-              href: service-cortana-intro.md
-            - name: Power BI에 대해 Cortana 사용
-              href: service-cortana-enable.md
-            - name: Power BI의 신속한 정보 활용
-              href: service-insights.md
-            - name: 빠른 인사이트를 위한 데이터 최적화
-              href: service-insights-optimize.md
-        - name: Power BI에서 공동 작업
-          items:
-            - name: 앱 작업 영역 만들기
-              href: service-create-workspaces.md
-            - name: 새 작업 영역 만들기(미리 보기)
-              href: service-create-the-new-workspaces.md
-            - name: 앱 만들기 및 공유
-              href: service-create-distribute-apps.md
-            - name: 작업 영역에서 데이터 스토리지 관리
-              href: service-admin-manage-your-data-storage-in-power-bi.md
-            - name: 그룹의 OneDrive의 파일에 연결
-              href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-            - name: 그룹 작업 영역에서 공동 작업
-              href: service-collaborate-power-bi-workspace.md
-            - name: Power BI 및 Office 365에서 그룹 관리
-              href: service-manage-app-workspace-in-power-bi-and-office-365.md
-        - name: 작업 게시 및 공유
-          items:
-            - name: 대시보드 및 보고서 공유
-              href: service-share-dashboards.md
-            - name: 필터링된 보고서 공유
-              href: service-share-reports.md
-            - name: SharePoint Online에 보고서 포함
-              href: service-embed-report-spo.md
-            - name: 보안 포털 또는 웹 사이트에 보고서 포함
-              href: service-embed-secure.md
-            - name: Power BI에서 웹에 게시
-              href: service-publish-to-web.md
-            - name: OneDrive의 Excel 통합 문서에 연결하는 대시보드 공유
-              href: service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Excel용 Power BI 게시자
-              href: publisher-for-excel.md
-        - name: 문제 해결
-          items:
-            - name: Power BI 암호를 잊은 경우
-              href: service-admin-forgot-your-password.md
-            - name: Power BI에 대한 추가 진단 정보 캡처
-              href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
-            - name: Power BI에 대한 대체 이메일 주소
-              href: service-admin-alternate-email-address-for-power-bi.md
-            - name: Power BI 및 Azure에서 동일한 계정 로그인을 사용하는 방법
-              href: service-admin-how-to-use-the-same-account-as-azure.md
-            - name: Office 365 전용 - 알려진 문제
-              href: service-admin-office-365-dedicated-known-issues.md
-            - name: Cortana 문제 해결
-              href: service-cortana-troubleshoot.md
-            - name: Excel에서 분석 문제 해결
-              href: desktop-troubleshooting-analyze-in-excel.md
-            - name: 온-프레미스 데이터 게이트웨이 문제 해결
-              href: service-gateway-onprem-tshoot.md
-            - name: Power BI Gateway – Personal 문제 해결
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
-            - name: 새로 고침을 지원하지 않는 데이터 소스 문제 해결
-              href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: Azure SQL Database에 대해 예약된 새로 고침의 문제 해결
-              href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-            - name: '오류: Excel 통합 문서에서 데이터를 찾을 수 없습니다.'
-              href: service-admin-troubleshoot-excel-workbook-data.md
-            - name: 타일 오류 문제 해결
-              href: refresh-troubleshooting-tile-errors.md
-            - name: 새로 고침에 실패한 경우 Xero 콘텐츠 팩 자격 증명을 새로 고치는 방법
-              href: service-refresh-xero-credentials.md
-        - name: 셀프 서비스 데이터 준비
-          items:
-            - name: 데이터 흐름을 사용하여 셀프 서비스 데이터 준비(미리 보기)
-              href: service-dataflows-overview.md
-            - name: 데이터 흐름 만들기 및 사용(미리 보기)
-              href: service-dataflows-create-use.md
-            - name: Power BI Premium의 컴퓨팅된 엔터티(미리 보기)
-              href: service-dataflows-computed-entities-premium.md
-            - name: 데이터 흐름을 사용하여 데이터 원본에 연결(미리보기)
-              href: service-dataflows-data-sources.md
-            - name: 온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)
-              href: service-dataflows-on-premises-gateways.md
-            - name: 데이터 흐름 간에 엔터티 연결(미리 보기)
-              href: service-dataflows-linked-entities.md
-            - name: 데이터 흐름에 증분 새로 고침 사용(미리 보기)
-              href: service-dataflows-incremental-refresh.md
-            - name: 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)
-              href: service-dataflows-developer-resources.md
-            - name: Power BI Desktop에서 데이터 흐름에 연결
-              href: desktop-connect-dataflows.md
-            - name: 데이터 흐름 및 Azure Data Lake 통합(미리 보기)
-              href: service-dataflows-azure-data-lake-integration.md
-            - name: 데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)
-              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: 작업 영역 데이터 흐름 설정 구성(미리 보기)
-              href: service-dataflows-configure-workspace-storage-settings.md
-            - name: CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)
-              href: service-dataflows-add-cdm-folder.md
-        - name: Power BI의 페이지를 매긴 보고서
-          items:
-            - name: 페이지를 매긴 보고서란? (미리 보기)
-              href: paginated-reports-report-builder-power-bi.md
-            - name: 페이지를 매긴 보고서 FAQ(미리 보기)
-              href: paginated-reports-faq.md
-            - name: 페이지를 매긴 보고서 만들기 및 업로드(미리 보기)
-              href: paginated-reports-quickstart-aw.md
-            - name: 보고서 디자인 보기 다루기(미리 보기)
-              href: paginated-reports-report-design-view.md
-            - name: 페이지를 매긴 보고서에 직접 데이터 입력(미리 보기)
-              href: paginated-reports-enter-data.md
-            - name: 포함된 데이터 원본 만들기(미리 보기)
-              href: paginated-reports-embedded-data-source.md
-            - name: 포함된 데이터 세트 만들기(미리 보기)
-              href: paginated-reports-create-embedded-dataset.md
-            - name: 매개 변수 만들기(미리 보기)
-              href: paginated-reports-parameters.md
-            - name: 페이지를 매긴 보고서 게시(미리 보기)
-              href: paginated-reports-save-to-power-bi-service.md
-            - name: 페이지를 매긴 보고서 보기(미리 보기)
-              href: paginated-reports-view-power-bi-service.md
-            - name: 매개 변수와 상호 작용(미리 보기)
-              href: paginated-reports-view-parameters.md
-        - name: 기타 작업
-          items:
-            - name: Power BI 내에서 콘텐츠 이름 바꾸기
-              href: service-rename.md
-            - name: 미국 정부 기관 등록
-              href: service-govus-signup.md
-            - name: Power BI에서 거의 모든 요소 삭제
-              href: service-delete.md
-            - name: 서비스에 연결
-              items:
-                - name: 서비스에 연결
-                  href: service-connect-to-services.md
-                - name: Acumatica
-                  href: service-connect-to-acumatica.md
-                - name: Adobe Analytics
-                  href: service-connect-to-adobe-analytics.md
-                - name: Alpine Metrics Sales Predictions
-                  href: service-connect-to-alpine-metrics.md
-                - name: appFigures
-                  href: service-connect-to-appfigures.md
-                - name: Application Insights
-                  href: service-connect-to-application-insights.md
-                - name: AT Internet Bridge
-                  href: service-connect-to-at-internet.md
-                - name: Azure 감사 로그
-                  href: service-connect-to-azure-audit-logs.md
-                - name: Azure Mobile Engagement
-                  href: service-connect-to-azure-mobile.md
-                - name: Microsoft Azure Consumption Insights
-                  href: service-connect-to-azure-consumption-insights.md
-                - name: Azure Search
-                  href: service-connect-to-azure-search.md
-                - name: 회로 ID
-                  href: service-connect-to-circuit-id.md
-                - name: ClickDimensions
-                  href: service-connect-to-clickdimensions.md
-                - name: comScore Digital Analytix
-                  href: service-connect-to-connect-to.md
-                - name: GitHub
-                  href: service-connect-to-github.md
-                - name: Google 애널리틱스
-                  href: service-connect-to-google-analytics.md
-                - name: Insightly
-                  href: service-connect-to-insightly.md
-                - name: IntelliBoard
-                  href: service-connect-to-intelliboard.md
-                - name: Lithium
-                  href: service-connect-to-lithium.md
-                - name: MailChimp
-                  href: service-connect-to-mailchimp.md
-                - name: Mandrill
-                  href: service-connect-to-mandrill.md
-                - name: Marketo
-                  href: service-connect-to-marketo.md
-                - name: Microsoft Dynamics AX
-                  href: service-connect-to-microsoft-dynamics-ax.md
-                - name: Microsoft Dynamics CRM
-                  href: service-connect-to-microsoft-dynamics-crm.md
-                - name: Microsoft Dynamics NAV
-                  href: service-connect-to-microsoft-dynamics-nav.md
-                - name: Office365Mon
-                  href: service-connect-to-office365mon.md
-                - name: Planview Enterprise
-                  href: service-connect-to-planview.md
-                - name: Prevedere
-                  href: service-connect-to-prevedere.md
-                - name: 프로젝트 온라인
-                  href: service-connect-to-project-online.md
-                - name: Projectplace
-                  href: service-connect-to-projectplace.md
-                - name: QuickBooks Online
-                  href: service-connect-to-quickbooks-online.md
-                - name: Salesforce
-                  href: service-connect-to-salesforce.md
-                - name: SendGrid
-                  href: service-connect-to-sendgrid.md
-                - name: ServiceNow 인시던트
-                  href: service-connect-to-servicenow.md
-                - name: Smartsheet
-                  href: service-connect-to-smartsheet.md
-                - name: SparkPost
-                  href: service-connect-to-sparkpost.md
-                - name: SQL Database 감사
-                  href: service-connect-to-azure-sql-database-auditing.md
-                - name: SQL Sentry
-                  href: service-connect-to-sql-sentry.md
-                - name: Stripe
-                  href: service-connect-to-stripe.md
-                - name: SweetIQ
-                  href: service-connect-to-sweetiq.md
-                - name: Troux
-                  href: service-connect-to-troux.md
-                - name: Twilio
-                  href: service-connect-to-twilio.md
-                - name: tyGraph
-                  href: service-connect-to-tygraph.md
-                - name: UserVoice
-                  href: service-connect-to-uservoice.md
-                - name: VMob
-                  href: service-connect-to-vmob.md
-                - name: Webtrends
-                  href: service-connect-to-webtrends.md
-                - name: Windows 개발자 센터
-                  href: service-connect-to-windows-dev-center.md
-                - name: Xero
-                  href: service-connect-to-xero.md
-                - name: Zendesk
-                  href: service-connect-to-zendesk.md
-                - name: Ziosk
-                  href: service-connect-to-ziosk.md
-                - name: Zuora
-                  href: service-connect-to-zuora.md
-            - name: 조직 콘텐츠 팩
-              items:
-                - name: '조직 콘텐츠 팩 관리, 업데이트 및 삭제'
-                  href: service-organizational-content-pack-manage-update-delete.md
-                - name: '조직 콘텐츠 팩: 복사, 새로 고침 및 액세스'
-                  href: service-organizational-content-pack-copy-refresh-access.md
-                - name: '조직 콘텐츠 팩: 소개'
-                  href: service-organizational-content-pack-introduction.md
-                - name: 조직 콘텐츠 팩 만들기 및 게시
-                  href: service-organizational-content-pack-create-and-publish.md
-                - name: 조직 콘텐츠 팩에 대한 연결 제거
-                  href: service-organizational-content-pack-disconnect.md
-            - name: 콘텐츠 팩 인증
-              items:
-                - name: 콘텐츠 팩 인증 프로그램
-                  href: service-content-pack-overview.md
-                - name: 템플릿 콘텐츠 팩 작성
-                  href: template-content-pack-authoring.md
-                - name: 템플릿 콘텐츠 팩 테스트
-                  href: template-content-pack-testing.md
-                - name: 템플릿 콘텐츠 팩 환경
-                  href: template-content-pack-experience.md
-    - name: 리소스
+      - name: 도움을 받을 수 있는 10가지 팁
+        href: service-tips-for-finding-help.md
+      - name: 라이선싱 특수 사례
+        items:
+        - name: Extended Pro 평가판 활성화
+          href: service-extended-pro-trial.md
+        - name: 미국 정부용 Power BI
+          href: service-govus-overview.md
+        - name: 독일 클라우드 고객을 위한 FAQ
+          href: service-govde-faq.md
+      - name: 기타
+        items:
+        - name: Microsoft Flow 및 Power BI
+          href: service-flow-integration.md
+        - name: 타사 앱 시작
+          href: service-power-bi-get-started-third-party-apps.md
+  - name: 방법
+    items:
+    - name: 파일에서 데이터 가져오기
       items:
-        - name: 비디오
-          href: videos.md
-        - name: 웹 세미나
-          href: webinars.md
-        - name: 지원되는 언어 및 국가/지역
-          href: supported-languages-countries-regions.md
-        - name: 백서
-          href: whitepapers.md
+      - name: 파일에서 데이터 가져오기
+        href: service-get-data-from-files.md
+      - name: Excel에서 멋진 보고서로
+        href: service-from-excel-to-stunning-report.md
+      - name: Excel 통합 문서 파일에서 데이터 가져오기
+        href: service-excel-workbook-files.md
+      - name: Power BI Desktop 파일에서 데이터 가져오기
+        href: service-desktop-files.md
+      - name: 매개 변수 편집
+        href: service-parameters.md
+      - name: 쉼표로 구분된 값(.csv) 파일에서 데이터 가져오기
+        href: service-comma-separated-value-files.md
+      - name: Power BI에서 실시간 스트리밍
+        href: service-real-time-streaming.md
+      - name: Excel에서 Power BI로 게시
+        href: service-publish-from-excel.md
+      - name: Excel 통합 문서 크기 줄이기
+        href: reduce-the-size-of-an-excel-workbook.md
+    - name: 데이터베이스에서 데이터 가져오기
+      items:
+      - name: Azure 및 Power BI
+        href: service-azure-and-power-bi.md
+      - name: Power BI 및 Azure 송신
+        href: service-azure-egress-power-bi.md
+      - name: DirectQuery를 사용한 Azure SQL Data Warehouse
+        href: service-azure-sql-data-warehouse-with-direct-connect.md
+      - name: DirectQuery를 사용한 Azure SQL Database
+        href: service-azure-sql-database-with-direct-connect.md
+      - name: DirectQuery를 포함하는 HDInsight의 Spark
+        href: spark-on-hdinsight-with-direct-connect.md
+      - name: Power BI의 SQL Server Analysis Services 라이브 데이터
+        href: sql-server-analysis-services-tabular-data.md
+    - name: 데이터 새로 고침
+      items:
+      - name: 예약된 새로 고침 구성
+        href: refresh-scheduled-refresh.md
+      - name: Power BI Desktop 파일의 데이터 세트 새로 고침 - 로컬
+        href: refresh-desktop-file-local-drive.md
+      - name: Power BI Desktop 파일의 데이터 세트 새로 고침 - 클라우드
+        href: refresh-desktop-file-onedrive.md
+      - name: Excel 통합 문서의 데이터 세트 새로 고침 - 로컬
+        href: refresh-excel-file-local-drive.md
+      - name: Excel 통합 문서의 데이터 세트 새로 고침 - 클라우드
+        href: refresh-excel-file-onedrive.md
+      - name: OneDrive에 있는 .csv 파일에서 만든 데이터 세트 새로 고침
+        href: refresh-csv-file-onedrive.md
+      - name: 새로 고침 시나리오 문제 해결
+        href: refresh-troubleshooting-refresh-scenarios.md
+    - name: 대시보드
+      items:
+      - name: 대시보드 소개
+        href: service-dashboards.md
+      - name: 대시보드 타일
+        href: service-dashboard-tiles.md
+      - name: 보고서에서 대시보드 만들기
+        href: service-dashboard-create.md
+      - name: 대시보드 복사본 만들기
+        href: service-dashboard-copy.md
+      - name: 보고서에서 대시보드에 타일 고정
+        href: service-dashboard-pin-tile-from-report.md
+      - name: 대시보드 간에 타일 고정
+        href: service-pin-tile-to-another-dashboard.md
+      - name: Excel의 대시보드에 타일 고정
+        href: service-dashboard-pin-tile-from-excel.md
+      - name: 질문 및 답변에서 대시보드에 타일 고정
+        href: service-dashboard-pin-tile-from-q-and-a.md
+      - name: 전체 보고서 페이지를 대시보드에 고정
+        href: service-dashboard-pin-live-tile-from-report.md
+      - name: Power BI 서비스의 데이터 경고
+        href: service-set-data-alerts.md
+      - name: 대시보드에 이미지, 텍스트 상자, 비디오 또는 코드 추가
+        href: service-dashboard-add-widget.md
+      - name: 타일 편집
+        href: service-dashboard-edit-tile.md
+      - name: 멋진 대시보드를 디자인하기 위한 팁
+        href: service-dashboards-design-tips.md
+      - name: 대시보드의 휴대폰 보기 만들기
+        href: service-create-dashboard-mobile-phone-view.md
+      - name: 타일에 대한 QR 코드 만들기
+        href: service-create-qr-code-for-tile.md
+      - name: 대시보드에 이미지 추가
+        href: service-dashboard-add-image.md
+      - name: 대시보드 데이터 분류
+        href: service-data-classification.md
+      - name: 대시보드 테마
+        href: service-dashboard-themes.md
+    - name: 보고서
+      items:
+      - name: 데이터 세트에서 보고서 만들기
+        href: service-report-create-new.md
+      - name: 보고서의 필터 및 강조 표시 정보
+        href: power-bi-reports-filters-and-highlighting.md
+      - name: 보고서에 필터 추가
+        href: power-bi-report-add-filter.md
+      - name: Power BI에 보고서 저장
+        href: service-report-save.md
+      - name: 편집용 보기에서 보고서와 상호 작용
+        href: service-interact-with-a-report-in-editing-view.md
+      - name: Excel에서 분석
+        href: service-analyze-in-excel.md
+      - name: 보고서를 만드는 팁과 힌트
+        href: power-bi-reports-tips-and-tricks-for-creating.md
+      - name: 서비스의 집계 작업
+        href: service-aggregates.md
+      - name: 보고서에 대한 사용 현황 메트릭
+        href: service-usage-metrics.md
+      - name: 보고서에 대한 QR 코드 만들기
+        href: service-create-qr-code-for-report.md
+      - name: Power BI Desktop으로 보고서 내보내기(미리 보기)
+        href: service-export-to-pbix.md
+      - name: URL의 매개 변수를 사용하여 보고서 필터링
+        href: service-url-filters.md
+      - name: 빠르고 신뢰할 수 있는 보고서 빌드 모범 사례
+        href: power-bi-reports-performance.md
+    - name: 데이터에 대해 질문하기
+      items:
+      - name: Power BI 질문 및 답변 시작
+        href: power-bi-visualization-introduction-to-q-and-a.md
+      - name: 질문 및 답변을 사용하여 시각적 개체 및 보고서 만들기
+        href: power-bi-tutorial-q-and-a.md
+      - name: 질문 및 답변에서 데이터가 잘 작동하도록 설정
+        href: service-prepare-data-for-q-and-a.md
+      - name: 질문 및 답변에 대한 추천 질문 만들기
+        href: service-q-and-a-create-featured-questions.md
+      - name: 질문 및 답변의 시각화 유형
+        href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
+      - name: 라이브 연결로 질문 및 답변 사용
+        href: service-q-and-a-direct-query.md
+      - name: Power BI에 대해 Cortana 소개
+        href: service-cortana-intro.md
+      - name: Power BI에 대해 Cortana 사용
+        href: service-cortana-enable.md
+      - name: Power BI의 신속한 정보 활용
+        href: service-insights.md
+      - name: 빠른 인사이트를 위한 데이터 최적화
+        href: service-insights-optimize.md
+    - name: Power BI에서 공동 작업
+      items:
+      - name: 앱 작업 영역 만들기
+        href: service-create-workspaces.md
+      - name: 새 작업 영역 만들기(미리 보기)
+        href: service-create-the-new-workspaces.md
+      - name: 앱 만들기 및 공유
+        href: service-create-distribute-apps.md
+      - name: 작업 영역에서 데이터 스토리지 관리
+        href: service-admin-manage-your-data-storage-in-power-bi.md
+      - name: 그룹의 OneDrive의 파일에 연결
+        href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
+      - name: 그룹 작업 영역에서 공동 작업
+        href: service-collaborate-power-bi-workspace.md
+      - name: Power BI 및 Office 365에서 그룹 관리
+        href: service-manage-app-workspace-in-power-bi-and-office-365.md
+    - name: 작업 게시 및 공유
+      items:
+      - name: 대시보드 및 보고서 공유
+        href: service-share-dashboards.md
+      - name: 필터링된 보고서 공유
+        href: service-share-reports.md
+      - name: SharePoint Online에 보고서 포함
+        href: service-embed-report-spo.md
+      - name: 보안 포털 또는 웹 사이트에 보고서 포함
+        href: service-embed-secure.md
+      - name: Power BI에서 웹에 게시
+        href: service-publish-to-web.md
+      - name: OneDrive의 Excel 통합 문서에 연결하는 대시보드 공유
+        href: service-share-dashboard-that-links-to-excel-onedrive.md
+      - name: Excel용 Power BI 게시자
+        href: publisher-for-excel.md
+    - name: 문제 해결
+      items:
+      - name: Power BI 암호를 잊은 경우
+        href: service-admin-forgot-your-password.md
+      - name: Power BI에 대한 추가 진단 정보 캡처
+        href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
+      - name: Power BI에 대한 대체 이메일 주소
+        href: service-admin-alternate-email-address-for-power-bi.md
+      - name: Power BI 및 Azure에서 동일한 계정 로그인을 사용하는 방법
+        href: service-admin-how-to-use-the-same-account-as-azure.md
+      - name: Office 365 전용 - 알려진 문제
+        href: service-admin-office-365-dedicated-known-issues.md
+      - name: Cortana 문제 해결
+        href: service-cortana-troubleshoot.md
+      - name: Excel에서 분석 문제 해결
+        href: desktop-troubleshooting-analyze-in-excel.md
+      - name: 온-프레미스 데이터 게이트웨이 문제 해결
+        href: service-gateway-onprem-tshoot.md
+      - name: Power BI Gateway – Personal 문제 해결
+        href: service-admin-troubleshooting-power-bi-personal-gateway.md
+      - name: 새로 고침을 지원하지 않는 데이터 소스 문제 해결
+        href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+      - name: Azure SQL Database에 대해 예약된 새로 고침의 문제 해결
+        href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+      - name: '오류: Excel 통합 문서에서 데이터를 찾을 수 없습니다.'
+        href: service-admin-troubleshoot-excel-workbook-data.md
+      - name: 타일 오류 문제 해결
+        href: refresh-troubleshooting-tile-errors.md
+      - name: 새로 고침에 실패한 경우 Xero 콘텐츠 팩 자격 증명을 새로 고치는 방법
+        href: service-refresh-xero-credentials.md
+    - name: 셀프 서비스 데이터 준비
+      items:
+      - name: 데이터 흐름을 사용하여 셀프 서비스 데이터 준비(미리 보기)
+        href: service-dataflows-overview.md
+      - name: 데이터 흐름 만들기 및 사용(미리 보기)
+        href: service-dataflows-create-use.md
+      - name: Power BI Premium의 컴퓨팅된 엔터티(미리 보기)
+        href: service-dataflows-computed-entities-premium.md
+      - name: 데이터 흐름을 사용하여 데이터 원본에 연결(미리보기)
+        href: service-dataflows-data-sources.md
+      - name: 온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)
+        href: service-dataflows-on-premises-gateways.md
+      - name: 데이터 흐름 간에 엔터티 연결(미리 보기)
+        href: service-dataflows-linked-entities.md
+      - name: 데이터 흐름에 증분 새로 고침 사용(미리 보기)
+        href: service-dataflows-incremental-refresh.md
+      - name: 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)
+        href: service-dataflows-developer-resources.md
+      - name: Power BI Desktop에서 데이터 흐름에 연결
+        href: desktop-connect-dataflows.md
+      - name: 데이터 흐름 및 Azure Data Lake 통합(미리 보기)
+        href: service-dataflows-azure-data-lake-integration.md
+      - name: 데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)
+        href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+      - name: 작업 영역 데이터 흐름 설정 구성(미리 보기)
+        href: service-dataflows-configure-workspace-storage-settings.md
+      - name: CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)
+        href: service-dataflows-add-cdm-folder.md
+    - name: Power BI의 페이지를 매긴 보고서
+      items:
+      - name: 페이지를 매긴 보고서란? (미리 보기)
+        href: paginated-reports-report-builder-power-bi.md
+      - name: 페이지를 매긴 보고서 FAQ(미리 보기)
+        href: paginated-reports-faq.md
+      - name: 페이지를 매긴 보고서 만들기 및 업로드(미리 보기)
+        href: paginated-reports-quickstart-aw.md
+      - name: 보고서 디자인 보기 다루기(미리 보기)
+        href: paginated-reports-report-design-view.md
+      - name: 페이지를 매긴 보고서에 직접 데이터 입력(미리 보기)
+        href: paginated-reports-enter-data.md
+      - name: 포함된 데이터 원본 만들기(미리 보기)
+        href: paginated-reports-embedded-data-source.md
+      - name: 포함된 데이터 세트 만들기(미리 보기)
+        href: paginated-reports-create-embedded-dataset.md
+      - name: 매개 변수 만들기(미리 보기)
+        href: paginated-reports-parameters.md
+      - name: 페이지를 매긴 보고서 게시(미리 보기)
+        href: paginated-reports-save-to-power-bi-service.md
+      - name: 페이지를 매긴 보고서 보기(미리 보기)
+        href: paginated-reports-view-power-bi-service.md
+      - name: 매개 변수와 상호 작용(미리 보기)
+        href: paginated-reports-view-parameters.md
+    - name: 기타 작업
+      items:
+      - name: Power BI 내에서 콘텐츠 이름 바꾸기
+        href: service-rename.md
+      - name: 미국 정부 기관 등록
+        href: service-govus-signup.md
+      - name: Power BI에서 거의 모든 요소 삭제
+        href: service-delete.md
+      - name: 서비스에 연결
+        items:
+        - name: 서비스에 연결
+          href: service-connect-to-services.md
+        - name: Acumatica
+          href: service-connect-to-acumatica.md
+        - name: Adobe Analytics
+          href: service-connect-to-adobe-analytics.md
+        - name: Alpine Metrics Sales Predictions
+          href: service-connect-to-alpine-metrics.md
+        - name: appFigures
+          href: service-connect-to-appfigures.md
+        - name: Application Insights
+          href: service-connect-to-application-insights.md
+        - name: AT Internet Bridge
+          href: service-connect-to-at-internet.md
+        - name: Azure 감사 로그
+          href: service-connect-to-azure-audit-logs.md
+        - name: Azure Mobile Engagement
+          href: service-connect-to-azure-mobile.md
+        - name: Microsoft Azure Consumption Insights
+          href: service-connect-to-azure-consumption-insights.md
+        - name: Azure Search
+          href: service-connect-to-azure-search.md
+        - name: 회로 ID
+          href: service-connect-to-circuit-id.md
+        - name: ClickDimensions
+          href: service-connect-to-clickdimensions.md
+        - name: comScore Digital Analytix
+          href: service-connect-to-connect-to.md
+        - name: GitHub
+          href: service-connect-to-github.md
+        - name: Google 애널리틱스
+          href: service-connect-to-google-analytics.md
+        - name: Insightly
+          href: service-connect-to-insightly.md
+        - name: IntelliBoard
+          href: service-connect-to-intelliboard.md
+        - name: Lithium
+          href: service-connect-to-lithium.md
+        - name: MailChimp
+          href: service-connect-to-mailchimp.md
+        - name: Mandrill
+          href: service-connect-to-mandrill.md
+        - name: Marketo
+          href: service-connect-to-marketo.md
+        - name: Microsoft Dynamics AX
+          href: service-connect-to-microsoft-dynamics-ax.md
+        - name: Microsoft Dynamics CRM
+          href: service-connect-to-microsoft-dynamics-crm.md
+        - name: Microsoft Dynamics NAV
+          href: service-connect-to-microsoft-dynamics-nav.md
+        - name: Office365Mon
+          href: service-connect-to-office365mon.md
+        - name: Planview Enterprise
+          href: service-connect-to-planview.md
+        - name: Prevedere
+          href: service-connect-to-prevedere.md
+        - name: 프로젝트 온라인
+          href: service-connect-to-project-online.md
+        - name: Projectplace
+          href: service-connect-to-projectplace.md
+        - name: QuickBooks Online
+          href: service-connect-to-quickbooks-online.md
+        - name: Salesforce
+          href: service-connect-to-salesforce.md
+        - name: SendGrid
+          href: service-connect-to-sendgrid.md
+        - name: ServiceNow 인시던트
+          href: service-connect-to-servicenow.md
+        - name: Smartsheet
+          href: service-connect-to-smartsheet.md
+        - name: SparkPost
+          href: service-connect-to-sparkpost.md
+        - name: SQL Database 감사
+          href: service-connect-to-azure-sql-database-auditing.md
+        - name: SQL Sentry
+          href: service-connect-to-sql-sentry.md
+        - name: Stripe
+          href: service-connect-to-stripe.md
+        - name: SweetIQ
+          href: service-connect-to-sweetiq.md
+        - name: Troux
+          href: service-connect-to-troux.md
+        - name: Twilio
+          href: service-connect-to-twilio.md
+        - name: tyGraph
+          href: service-connect-to-tygraph.md
+        - name: UserVoice
+          href: service-connect-to-uservoice.md
+        - name: VMob
+          href: service-connect-to-vmob.md
+        - name: Webtrends
+          href: service-connect-to-webtrends.md
+        - name: Windows 개발자 센터
+          href: service-connect-to-windows-dev-center.md
+        - name: Xero
+          href: service-connect-to-xero.md
+        - name: Zendesk
+          href: service-connect-to-zendesk.md
+        - name: Ziosk
+          href: service-connect-to-ziosk.md
+        - name: Zuora
+          href: service-connect-to-zuora.md
+      - name: 조직 콘텐츠 팩
+        items:
+        - name: 조직 콘텐츠 팩 관리, 업데이트 및 삭제
+          href: service-organizational-content-pack-manage-update-delete.md
+        - name: '조직 콘텐츠 팩: 복사, 새로 고침 및 액세스'
+          href: service-organizational-content-pack-copy-refresh-access.md
+        - name: '조직 콘텐츠 팩: 소개'
+          href: service-organizational-content-pack-introduction.md
+        - name: 조직 콘텐츠 팩 만들기 및 게시
+          href: service-organizational-content-pack-create-and-publish.md
+        - name: 조직 콘텐츠 팩에 대한 연결 제거
+          href: service-organizational-content-pack-disconnect.md
+      - name: 콘텐츠 팩 인증
+        items:
+        - name: 콘텐츠 팩 인증 프로그램
+          href: service-content-pack-overview.md
+        - name: 템플릿 콘텐츠 팩 작성
+          href: template-content-pack-authoring.md
+        - name: 템플릿 콘텐츠 팩 테스트
+          href: template-content-pack-testing.md
+        - name: 템플릿 콘텐츠 팩 환경
+          href: template-content-pack-experience.md
+  - name: 리소스
+    items:
+    - name: 비디오
+      href: videos.md
+    - name: 웹 세미나
+      href: webinars.md
+    - name: 지원되는 언어 및 국가/지역
+      href: supported-languages-countries-regions.md
+    - name: 백서
+      href: whitepapers.md
 - name: 개발자용 Power BI
   items:
-    - name: 개발자는 Power BI로 무엇을 할 수 있나요
-      href: developer/what-can-you-do.md
-    - name: 임베디드 분석
+  - name: 개발자는 Power BI로 무엇을 할 수 있나요
+    href: developer/what-can-you-do.md
+  - name: 임베디드 분석
+    items:
+    - name: 개요
       items:
-        - name: 개요
-          items:
-            - name: Power BI에 포함이란?
-              href: developer/embedding.md
-            - name: Azure의 Power BI Embedded란?
-              href: developer/azure-pbie-what-is-power-bi-embedded.md
-        - name: 자습서
-          items:
-            - name: 고객용 콘텐츠 포함
-              href: developer/embed-sample-for-customers.md
-            - name: 조직용 콘텐츠 포함
-              href: developer/embed-sample-for-your-organization.md
-            - name: 소버린 클라우드용 콘텐츠 포함
-              href: developer/embed-sample-for-customers-sovereign-clouds.md
-        - name: 개념
-          items:
-            - name: 성능 모범 사례
-              href: developer/embedded-performance-best-practices.md
-            - name: 행 수준 보안
-              href: developer/embedded-row-level-security.md
-            - name: 다중 테넌트 관리
-              href: developer/embed-multi-tenancy.md
-            - name: Power BI Embedded에 대한 Azure 진단 로깅
-              href: developer/azure-pbie-diag-logs.md
-            - name: 포함 FAQ
-              href: developer/embedded-faq.md
-            - name: Power BI 사용 권한
-              href: developer/power-bi-permissions.md
-        - name: 방법
-          items:
-            - name: 앱에서 포함
-              href: developer/embed-from-apps.md
-            - name: Azure Active Directory 테넌트 만들기
-              href: developer/create-an-azure-active-directory-tenant.md
-            - name: 애플리케이션 등록
-              href: developer/register-app.md
-            - name: Power BI 서비스에 인증
-              href: developer/get-azuread-access-token.md
-            - name: Q&A 포함
-              href: developer/qanda.md
-            - name: Azure에서 용량 관리
-              items:
-                - name: Azure에서 용량 만들기
-                  href: developer/azure-pbie-create-capacity.md
-                - name: Azure에서 Multi-Geo를 사용하여 용량 만들기
-                  href: developer/embedded-multi-geo.md
-                - name: Azure에서 용량 확장
-                  href: developer/azure-pbie-scale-capacity.md
-                - name: Azure에서 용량 일시 중지 및 시작
-                  href: developer/azure-pbie-pause-start.md
-            - name: 문제 해결
-              items:
-                - name: 포함된 애플리케이션 문제 해결
-                  href: developer/embedded-troubleshoot.md
-            - name: 작업 영역 컬렉션에서 마이그레이션
-              items:
-                - name: Power BI 작업 영역 컬렉션에서 마이그레이션하는 방법
-                  href: developer/migrate-from-powerbi-embedded.md
-                - name: 마이그레이션 도구
-                  href: developer/migrate-tool.md
-                - name: 마이그레이션 코드 조각
-                  href: developer/migrate-code-snippets.md
-        - name: 참조
-          items:
-            - name: API
-              items:
-                - name: Azure Resource Management REST API
-                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
-                - name: Power BI REST API
-                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
-                - name: Power BI REST API 참조
-                  href: developer/rest-api-reference.md
-            - name: .NET SDK 다운로드
-              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-            - name: 앱에 사용자 지정 레이아웃 포함
-              href: developer/embedded-custom-layout.md
-        - name: 리소스
-          items:
-            - name: 개발자 센터
-              href: 'https://powerbi.microsoft.com/en-us/developers/'
-            - name: 포함 설정 도구
-              href: 'https://aka.ms/embedsetup'
-            - name: JavaScript Playground 샘플
-              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-            - name: Power BI JavaScript wiki
-              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
-            - name: JavaScript Git 리포지토리
-              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
-            - name: 'Power BI C# Git 리포지토리'
-              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-            - name: 샘플
-              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: Power BI 커뮤니티
-              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-            - name: 스택 오버플로
-              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
-    - name: 사용자 지정 시각적 개체
+      - name: Power BI에 포함이란?
+        href: developer/embedding.md
+      - name: Azure의 Power BI Embedded란?
+        href: developer/azure-pbie-what-is-power-bi-embedded.md
+    - name: 자습서
       items:
-        - name: 개요
-          items:
-            - name: Power BI의 사용자 지정 시각적 개체
-              href: power-bi-custom-visuals.md
-        - name: 자습서
-          items:
-            - name: Power BI 사용자 지정 시각적 개체 개발
-              href: developer/custom-visual-develop-tutorial.md
-            - name: 서식 옵션 추가
-              href: developer/custom-visual-develop-tutorial-format-options.md
-        - name: 개념
-          items:
-            - name: Power BI의 조직을 위한 사용자 지정 시각적 개체
-              href: power-bi-custom-visuals-organization.md
-            - name: Power BI 시각적 개체에 대한 지침
-              href: developer/office-store-in-app-purchase-visual-guidelines.md
-            - name: 사용자 지정 시각적 개체 FAQ
-              href: power-bi-custom-visuals-faq.md
-            - name: 기능 사용
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/'
-            - name: 데이터 보기 매핑
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/dataviewmappings/'
-            - name: 개체 및 속성
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/'
-            - name: 고급 편집 모드
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/advanced-edit-mode/'
-            - name: 버전이 있는 API 가이드로 마이그레이션
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/migrating-to-versioned-api-guide/'
-        - name: 방법
-          items:
-            - name: 사용자 지정 시각적 개체 인증 받기
-              href: power-bi-custom-visuals-certified.md
-            - name: AppSource에 사용자 지정 시각적 개체 게시
-              href: developer/office-store.md
-            - name: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
-              href: desktop-r-powered-custom-visuals.md
-            - name: 문제 해결
-              items:
-                - name: 사용자 지정 시각적 개체 개발 문제 해결
-                  href: power-bi-custom-visuals-troubleshoot.md
-        - name: 참조
-          items:
-            - name: API
-              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
-        - name: 리소스
-          items:
-            - name: 개발자 센터
-              href: 'https://powerbi.microsoft.com/developers/'
-            - name: 샘플
-              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: 사용자 지정 시각적 Git 리포지토리
-              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-    - name: 자동화
+      - name: 고객용 콘텐츠 포함
+        href: developer/embed-sample-for-customers.md
+      - name: 조직용 콘텐츠 포함
+        href: developer/embed-sample-for-your-organization.md
+      - name: 소버린 클라우드용 콘텐츠 포함
+        href: developer/embed-sample-for-customers-sovereign-clouds.md
+    - name: 개념
       items:
-        - name: 개요
-          items:
-            - name: Power BI API로 무엇을 할 수 있나요?
-              href: developer/overview-of-power-bi-rest-api.md
-        - name: 자습서
-          items:
-            - name: 데이터 세트에 데이터 푸시
-              href: developer/walkthrough-push-data.md
-        - name: 개념
-          items:
-            - name: 실시간 데이터에 대한 자동 보존 정책
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-            - name: 데이터 푸시
-              items:
-                - name: Power BI REST API 제한 사항
-                  href: developer/api-rest-api-limitations.md
-                - name: 데이터 세트 속성
-                  href: developer/api-dataset-properties.md
-                - name: 데이터 모델 버전 관리
-                  href: developer/api-data-model-versioning.md
-        - name: 방법
-          items:
-            - name: Azure AD에 앱 등록
-              href: developer/walkthrough-push-data-register-app-with-azure-ad.md
-            - name: 인증 액세스 토큰 가져오기
-              href: developer/walkthrough-push-data-get-token.md
-            - name: 데이터 세트 만들기
-              href: developer/walkthrough-push-data-create-dataset.md
-            - name: 행을 추가할 데이터 세트 가져오기
-              href: developer/walkthrough-push-data-get-datasets.md
-            - name: 테이블에 행 추가
-              href: developer/walkthrough-push-data-add-rows.md
-        - name: 참조
-          items:
-            - name: REST API
-              href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Power BI REST API 참조
-              href: developer/rest-api-reference.md
-            - name: 전체 코드 목록
-              href: developer/walkthrough-push-data-complete-code.md
-        - name: 리소스
-          items:
-            - name: 개발자 센터
-              href: 'https://powerbi.microsoft.com/en-us/developers/'
-            - name: 'Power BI C# Git 리포지토리'
-              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-            - name: .NET SDK 다운로드
-              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+      - name: 성능 모범 사례
+        href: developer/embedded-performance-best-practices.md
+      - name: 행 수준 보안
+        href: developer/embedded-row-level-security.md
+      - name: 다중 테넌트 관리
+        href: developer/embed-multi-tenancy.md
+      - name: Power BI Embedded에 대한 Azure 진단 로깅
+        href: developer/azure-pbie-diag-logs.md
+      - name: 포함 FAQ
+        href: developer/embedded-faq.md
+      - name: Power BI 사용 권한
+        href: developer/power-bi-permissions.md
+    - name: 방법
+      items:
+      - name: 앱에서 포함
+        href: developer/embed-from-apps.md
+      - name: Azure Active Directory 테넌트 만들기
+        href: developer/create-an-azure-active-directory-tenant.md
+      - name: 애플리케이션 등록
+        href: developer/register-app.md
+      - name: Power BI 서비스에 인증
+        href: developer/get-azuread-access-token.md
+      - name: Q&A 포함
+        href: developer/qanda.md
+      - name: Azure에서 용량 관리
+        items:
+        - name: Azure에서 용량 만들기
+          href: developer/azure-pbie-create-capacity.md
+        - name: Azure에서 Multi-Geo를 사용하여 용량 만들기
+          href: developer/embedded-multi-geo.md
+        - name: Azure에서 용량 확장
+          href: developer/azure-pbie-scale-capacity.md
+        - name: Azure에서 용량 일시 중지 및 시작
+          href: developer/azure-pbie-pause-start.md
+      - name: 문제 해결
+        items:
+        - name: 포함된 애플리케이션 문제 해결
+          href: developer/embedded-troubleshoot.md
+      - name: 작업 영역 컬렉션에서 마이그레이션
+        items:
+        - name: Power BI 작업 영역 컬렉션에서 마이그레이션하는 방법
+          href: developer/migrate-from-powerbi-embedded.md
+        - name: 마이그레이션 도구
+          href: developer/migrate-tool.md
+        - name: 마이그레이션 코드 조각
+          href: developer/migrate-code-snippets.md
+    - name: 참조
+      items:
+      - name: API
+        items:
+        - name: Azure Resource Management REST API
+          href: https://docs.microsoft.com/rest/api/power-bi-embedded/
+        - name: Power BI REST API
+          href: https://msdn.microsoft.com/library/mt147898.aspx
+        - name: Power BI REST API 참조
+          href: developer/rest-api-reference.md
+      - name: .NET SDK 다운로드
+        href: https://go.microsoft.com/fwlink/?linkid=848274
+      - name: 앱에 사용자 지정 레이아웃 포함
+        href: developer/embedded-custom-layout.md
+    - name: 리소스
+      items:
+      - name: 개발자 센터
+        href: https://powerbi.microsoft.com/en-us/developers/
+      - name: 포함 설정 도구
+        href: https://aka.ms/embedsetup
+      - name: JavaScript Playground 샘플
+        href: https://go.microsoft.com/fwlink/?linkid=848279
+      - name: Power BI JavaScript wiki
+        href: https://github.com/Microsoft/powerbi-javascript/wiki
+      - name: JavaScript Git 리포지토리
+        href: https://go.microsoft.com/fwlink/?linkid=848276
+      - name: Power BI C# Git 리포지토리
+        href: https://go.microsoft.com/fwlink/?linkid=848273
+      - name: 샘플
+        href: https://go.microsoft.com/fwlink/?linkid=851293
+      - name: Power BI 커뮤니티
+        href: https://go.microsoft.com/fwlink/?linkid=848280
+      - name: 스택 오버플로
+        href: https://go.microsoft.com/fwlink/?linkid=848281
+  - name: 사용자 지정 시각적 개체
+    items:
+    - name: 개요
+      items:
+      - name: Power BI의 사용자 지정 시각적 개체
+        href: power-bi-custom-visuals.md
+    - name: 자습서
+      items:
+      - name: Power BI 사용자 지정 시각적 개체 개발
+        href: developer/custom-visual-develop-tutorial.md
+      - name: 서식 옵션 추가
+        href: developer/custom-visual-develop-tutorial-format-options.md
+    - name: 개념
+      items:
+      - name: Power BI의 조직을 위한 사용자 지정 시각적 개체
+        href: power-bi-custom-visuals-organization.md
+      - name: Power BI 시각적 개체에 대한 지침
+        href: developer/office-store-in-app-purchase-visual-guidelines.md
+      - name: 사용자 지정 시각적 개체 FAQ
+        href: power-bi-custom-visuals-faq.md
+      - name: 기능 사용
+        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
+      - name: 데이터 보기 매핑
+        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/dataviewmappings/
+      - name: 개체 및 속성
+        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/
+      - name: 고급 편집 모드
+        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/advanced-edit-mode/
+      - name: 버전이 있는 API 가이드로 마이그레이션
+        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/migrating-to-versioned-api-guide/
+    - name: 방법
+      items:
+      - name: 사용자 지정 시각적 개체 인증 받기
+        href: power-bi-custom-visuals-certified.md
+      - name: AppSource에 사용자 지정 시각적 개체 게시
+        href: developer/office-store.md
+      - name: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
+        href: desktop-r-powered-custom-visuals.md
+      - name: 문제 해결
+        items:
+        - name: 사용자 지정 시각적 개체 개발 문제 해결
+          href: power-bi-custom-visuals-troubleshoot.md
+    - name: 참조
+      items:
+      - name: API
+        href: https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/
+    - name: 리소스
+      items:
+      - name: 개발자 센터
+        href: https://powerbi.microsoft.com/developers/
+      - name: 샘플
+        href: https://microsoft.github.io/PowerBI-visuals/samples/
+      - name: 사용자 지정 시각적 Git 리포지토리
+        href: https://go.microsoft.com/fwlink/?linkid=848277
+  - name: 자동화
+    items:
+    - name: 개요
+      items:
+      - name: Power BI API로 무엇을 할 수 있나요?
+        href: developer/overview-of-power-bi-rest-api.md
+    - name: 자습서
+      items:
+      - name: 데이터 세트에 데이터 푸시
+        href: developer/walkthrough-push-data.md
+    - name: 개념
+      items:
+      - name: 실시간 데이터에 대한 자동 보존 정책
+        href: developer/api-automatic-retention-policy-for-real-time-data.md
+      - name: 데이터 푸시
+        items:
+        - name: Power BI REST API 제한 사항
+          href: developer/api-rest-api-limitations.md
+        - name: 데이터 세트 속성
+          href: developer/api-dataset-properties.md
+        - name: 데이터 모델 버전 관리
+          href: developer/api-data-model-versioning.md
+    - name: 방법
+      items:
+      - name: Azure AD에 앱 등록
+        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
+      - name: 인증 액세스 토큰 가져오기
+        href: developer/walkthrough-push-data-get-token.md
+      - name: 데이터 세트 만들기
+        href: developer/walkthrough-push-data-create-dataset.md
+      - name: 행을 추가할 데이터 세트 가져오기
+        href: developer/walkthrough-push-data-get-datasets.md
+      - name: 테이블에 행 추가
+        href: developer/walkthrough-push-data-add-rows.md
+    - name: 참조
+      items:
+      - name: REST API
+        href: https://docs.microsoft.com/rest/api/power-bi
+      - name: Power BI REST API 참조
+        href: developer/rest-api-reference.md
+      - name: 전체 코드 목록
+        href: developer/walkthrough-push-data-complete-code.md
+    - name: 리소스
+      items:
+      - name: 개발자 센터
+        href: https://powerbi.microsoft.com/en-us/developers/
+      - name: Power BI C# Git 리포지토리
+        href: https://go.microsoft.com/fwlink/?linkid=848273
+      - name: .NET SDK 다운로드
+        href: https://go.microsoft.com/fwlink/?linkid=848274
 - name: Power BI Report Server
   items:
-    - name: 개요
+  - name: 개요
+    items:
+    - name: Power BI Report Server란?
+      href: report-server/get-started.md
+    - name: Power BI Report Server 및 서비스 비교
+      href: report-server/compare-report-server-service.md
+  - name: 자습서
+    items:
+    - name: VM에서 Power BI Report Server 탐색
+      href: report-server/tutorial-explore-report-server-web-portal.md
+  - name: 개념
+    items:
+    - name: 새로운 기능
+      href: report-server/whats-new.md
+    - name: 로그 변경
+      href: report-server/changelog.md
+    - name: 지원 타임라인
+      href: report-server/support-timeline.md
+    - name: 하드웨어 및 소프트웨어 요구 사항
+      href: report-server/system-requirements.md
+    - name: 브라우저 지원
+      href: report-server/browser-support.md
+    - name: 관리자 개요
+      href: report-server/admin-handbook-overview.md
+    - name: 보고서 서버 기본 사항
       items:
-        - name: Power BI Report Server란?
-          href: report-server/get-started.md
-        - name: Power BI Report Server 및 서비스 비교
-          href: report-server/compare-report-server-service.md
-    - name: 자습서
+      - name: Power BI 보고서 예약된 새로 고침
+        href: report-server/scheduled-refresh.md
+      - name: Power BI 보고서 데이터 원본
+        href: report-server/data-sources.md
+      - name: 페이지를 매긴 보고서 데이터 원본
+        href: report-server/connect-data-sources.md
+      - name: 구독
+        href: https://go.microsoft.com/fwlink/?linkid=851310
+      - name: 모바일 앱 사용
+        href: https://go.microsoft.com/fwlink/?linkid=848711
+      - name: 예약된 새로 고침 문제 해결
+        href: report-server/scheduled-refresh-troubleshoot.md
+    - name: 개발자용 보고서 서버
       items:
-        - name: VM에서 Power BI Report Server 탐색
-          href: report-server/tutorial-explore-report-server-web-portal.md
-    - name: 개념
+      - name: 개발자용 보고서 서버
+        href: report-server/developer-handbook-overview.md
+      - name: 보고서 뷰어 컨트롤
+        href: https://go.microsoft.com/fwlink/?linkid=848724
+      - name: 개발 확장
+        href: https://go.microsoft.com/fwlink/?linkid=848723
+      - name: 보고서 포함
+        href: report-server/quickstart-embed.md
+  - name: 방법
+    items:
+    - name: Power BI Desktop 설치
+      href: report-server/install-powerbi-desktop.md
+    - name: 보고서 서버 기본 사항
       items:
-        - name: 새로운 기능
-          href: report-server/whats-new.md
-        - name: 로그 변경
-          href: report-server/changelog.md
-        - name: 지원 타임라인
-          href: report-server/support-timeline.md
-        - name: 하드웨어 및 소프트웨어 요구 사항
-          href: report-server/system-requirements.md
-        - name: 브라우저 지원
-          href: report-server/browser-support.md
-        - name: 관리자 개요
-          href: report-server/admin-handbook-overview.md
-        - name: 보고서 서버 기본 사항
-          items:
-            - name: Power BI 보고서 예약된 새로 고침
-              href: report-server/scheduled-refresh.md
-            - name: Power BI 보고서 데이터 원본
-              href: report-server/data-sources.md
-            - name: 페이지를 매긴 보고서 데이터 원본
-              href: report-server/connect-data-sources.md
-            - name: 구독
-              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
-            - name: 모바일 앱 사용
-              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
-            - name: 예약된 새로 고침 문제 해결
-              href: report-server/scheduled-refresh-troubleshoot.md
-        - name: 개발자용 보고서 서버
-          items:
-            - name: 개발자용 보고서 서버
-              href: report-server/developer-handbook-overview.md
-            - name: 보고서 뷰어 컨트롤
-              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
-            - name: 개발 확장
-              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
-            - name: 보고서 포함
-              href: report-server/quickstart-embed.md
-    - name: 방법
+      - name: 보고서 서버용 Power BI 보고서 만들기
+        href: report-server/quickstart-create-powerbi-report.md
+      - name: 보고서 서버의 콘텐츠 관리
+        href: report-server/getting-around.md
+      - name: 보고서 서버에 대해 페이지가 매겨진 보고서 만들기
+        href: report-server/quickstart-create-paginated-report.md
+      - name: 페이지를 매긴 보고서에 직접 데이터 입력
+        href: paginated-reports-enter-data.md
+      - name: KPI 작업
+        href: https://go.microsoft.com/fwlink/?linkid=849021
+      - name: 'OData 피드로 공유 데이터 세트에 액세스 '
+        href: report-server/access-dataset-odata.md
+      - name: 예약된 새로 고침 구성
+        href: report-server/configure-scheduled-refresh.md
+      - name: 보고서에 메모 추가
+        href: report-server/add-comments.md
+    - name: 관리자용 보고서 서버
       items:
-        - name: Power BI Desktop 설치
-          href: report-server/install-powerbi-desktop.md
-        - name: 보고서 서버 기본 사항
-          items:
-            - name: 보고서 서버용 Power BI 보고서 만들기
-              href: report-server/quickstart-create-powerbi-report.md
-            - name: 보고서 서버의 콘텐츠 관리
-              href: report-server/getting-around.md
-            - name: 보고서 서버의 행 수준 보안(RLS)
-              href: report-server/row-level-security-report-server.md
-            - name: 보고서 서버에 대해 페이지가 매겨진 보고서 만들기
-              href: report-server/quickstart-create-paginated-report.md
-            - name: 페이지를 매긴 보고서에 직접 데이터 입력
-              href: paginated-reports-enter-data.md
-            - name: KPI 작업
-              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-            - name: OData 피드로 공유 데이터 세트에 액세스
-              href: report-server/access-dataset-odata.md
-            - name: 예약된 새로 고침 구성
-              href: report-server/configure-scheduled-refresh.md
-            - name: 보고서에 메모 추가
-              href: report-server/add-comments.md
-        - name: 관리자용 보고서 서버
-          items:
-            - name: 보고서 서버 설치
-              href: report-server/install-report-server.md
-            - name: 제품 키 찾기
-              href: report-server/find-product-key.md
-            - name: 보고서 서버 업그레이드
-              href: report-server/upgrade.md
-            - name: 보고서 서버 마이그레이션
-              href: report-server/migrate-report-server.md
-            - name: Power BI 보고서를 사용하도록 Kerberos 구성
-              href: report-server/configure-kerberos-powerbi-reports.md
-            - name: 원격으로 모바일 앱 액세스 구성
-              href: report-server/configure-powerbi-mobile-apps-remote.md
-            - name: Excel 통합 문서 호스트
-              href: report-server/excel-oos.md
-    - name: 참조
-      items:
-        - name: REST API
-          href: report-server/rest-api.md
-        - name: WMI
-          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
-        - name: SOAP API
-          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
-        - name: URL 액세스
-          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
-        - name: 확장
-          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
-    - name: 리소스
-      items:
-        - name: 용량 계획 백서
-          href: report-server/capacity-planning.md
+      - name: 보고서 서버 설치
+        href: report-server/install-report-server.md
+      - name: 제품 키 찾기
+        href: report-server/find-product-key.md
+      - name: 보고서 서버 업그레이드
+        href: report-server/upgrade.md
+      - name: 보고서 서버 마이그레이션
+        href: report-server/migrate-report-server.md
+      - name: Power BI 보고서를 사용하도록 Kerberos 구성
+        href: report-server/configure-kerberos-powerbi-reports.md
+      - name: 원격으로 모바일 앱 액세스 구성
+        href: report-server/configure-powerbi-mobile-apps-remote.md
+      - name: Excel 통합 문서 호스트
+        href: report-server/excel-oos.md
+  - name: 참조
+    items:
+    - name: REST API
+      href: report-server/rest-api.md
+    - name: WMI
+      href: https://go.microsoft.com/fwlink/?linkid=848719
+    - name: SOAP API
+      href: https://go.microsoft.com/fwlink/?linkid=848721
+    - name: URL 액세스
+      href: https://go.microsoft.com/fwlink/?linkid=848722
+    - name: 확장
+      href: https://go.microsoft.com/fwlink/?linkid=848723
+  - name: 리소스
+    items:
+    - name: 용량 계획 백서
+      href: report-server/capacity-planning.md
 - name: 게이트웨이
   items:
-    - name: 개요
+  - name: 개요
+    items:
+    - name: Power BI 게이트웨이란?
+      href: service-gateway-getting-started.md
+  - name: 자습서
+    items:
+    - name: SQL Server 데이터에 연결
+      href: service-gateway-sql-tutorial.md
+  - name: 개념
+    items:
+    - name: 데이터 게이트웨이 배포 지침
+      href: service-gateway-deployment-guidance.md
+    - name: 온-프레미스 데이터 게이트웨이 FAQ
+      href: service-gateway-onprem-faq.md
+  - name: 방법
+    items:
+    - name: 게이트웨이 설치
+      href: service-gateway-install.md
+    - name: 게이트웨이 관리
+      href: service-gateway-manage.md
+    - name: 엔터프라이즈 데이터 원본 관리 - Analysis Services
+      href: service-gateway-enterprise-manage-ssas.md
+    - name: 엔터프라이즈 데이터 원본 관리 - SAP HANA
+      href: service-gateway-enterprise-manage-sap.md
+    - name: 엔터프라이즈 데이터 소스 관리 - SQL
+      href: service-gateway-enterprise-manage-sql.md
+    - name: 데이터 원본 관리 - Oracle
+      href: service-gateway-onprem-manage-oracle.md
+    - name: 엔터프라이즈 데이터 원본 관리 - 가져오기/예약된 새로 고침
+      href: service-gateway-enterprise-manage-scheduled-refresh.md
+    - name: 온-프레미스 및 클라우드 데이터 원본 병합
+      href: service-gateway-mashup-on-premises-cloud.md
+    - name: SSO(Single Sign-On) 사용
       items:
-        - name: Power BI 게이트웨이란?
-          href: service-gateway-getting-started.md
-    - name: 자습서
-      items:
-        - name: SQL Server 데이터에 연결
-          href: service-gateway-sql-tutorial.md
-    - name: 개념
-      items:
-        - name: 데이터 게이트웨이 배포 지침
-          href: service-gateway-deployment-guidance.md
-        - name: 온-프레미스 데이터 게이트웨이 FAQ
-          href: service-gateway-onprem-faq.md
-    - name: 방법
-      items:
-        - name: 게이트웨이 설치
-          href: service-gateway-install.md
-        - name: 게이트웨이 관리
-          href: service-gateway-manage.md
-        - name: 엔터프라이즈 데이터 원본 관리 - Analysis Services
-          href: service-gateway-enterprise-manage-ssas.md
-        - name: 엔터프라이즈 데이터 원본 관리 - SAP HANA
-          href: service-gateway-enterprise-manage-sap.md
-        - name: 엔터프라이즈 데이터 소스 관리 - SQL
-          href: service-gateway-enterprise-manage-sql.md
-        - name: 데이터 원본 관리 - Oracle
-          href: service-gateway-onprem-manage-oracle.md
-        - name: 엔터프라이즈 데이터 원본 관리 - 가져오기/예약된 새로 고침
-          href: service-gateway-enterprise-manage-scheduled-refresh.md
-        - name: 온-프레미스 및 클라우드 데이터 원본 병합
-          href: service-gateway-mashup-on-premises-cloud.md
-        - name: SSO(Single Sign-On) 사용
-          items:
-            - name: SSO(Single Sign-On) - 개요
-              href: service-gateway-sso-overview.md
-            - name: SSO(Single Sign-On) - Kerberos
-              href: service-gateway-sso-kerberos.md
-            - name: SSO(Single Sign-On) - Kerberos - 리소스 기반
-              href: service-gateway-sso-kerberos-resource.md
-            - name: SSO(Single Sign-On) - SAML
-              href: service-gateway-sso-saml.md
-        - name: 프록시 설정 구성
-          href: service-gateway-proxy.md
-        - name: 온-프레미스 데이터 게이트웨이를 위한 고가용성 클러스터
-          href: service-gateway-high-availability-clusters.md
-        - name: 온-프레미스 데이터 게이트웨이
-          href: service-gateway-onprem.md
-        - name: 온-프레미스 데이터 게이트웨이 심층 분석
-          href: service-gateway-onprem-indepth.md
-        - name: 온-프레미스 데이터 게이트웨이(개인 모드)
-          href: service-gateway-personal-mode.md
-        - name: 사용자 지정 커넥터
-          href: service-gateway-custom-connectors.md
-        - name: 온-프레미스 데이터 게이트웨이 문제 해결
-          href: service-gateway-onprem-tshoot.md
+      - name: SSO(Single Sign-On) - 개요
+        href: service-gateway-sso-overview.md
+      - name: SSO(Single Sign-On) - Kerberos
+        href: service-gateway-sso-kerberos.md
+      - name: SSO(Single Sign-On) - Kerberos - 리소스 기반
+        href: service-gateway-sso-kerberos-resource.md
+      - name: SSO(Single Sign-On) - SAML
+        href: service-gateway-sso-saml.md
+    - name: 프록시 설정 구성
+      href: service-gateway-proxy.md
+    - name: 온-프레미스 데이터 게이트웨이를 위한 고가용성 클러스터
+      href: service-gateway-high-availability-clusters.md
+    - name: 온-프레미스 데이터 게이트웨이
+      href: service-gateway-onprem.md
+    - name: 온-프레미스 데이터 게이트웨이 심층 분석
+      href: service-gateway-onprem-indepth.md
+    - name: 온-프레미스 데이터 게이트웨이(개인 모드)
+      href: service-gateway-personal-mode.md
+    - name: 사용자 지정 커넥터
+      href: service-gateway-custom-connectors.md
+    - name: 온-프레미스 데이터 게이트웨이 문제 해결
+      href: service-gateway-onprem-tshoot.md
 - name: 관리
   items:
-    - name: 개요
+  - name: 개요
+    items:
+    - name: Power BI 관리란?
+      href: service-admin-administering-power-bi-in-your-organization.md
+  - name: 개념
+    items:
+    - name: Power BI Premium
       items:
-        - name: Power BI 관리란?
-          href: service-admin-administering-power-bi-in-your-organization.md
-    - name: 개념
+      - name: Power BI 프리미엄이란?
+        href: service-premium.md
+      - name: 프리미엄 용량 메모리 사용, 최적화
+        href: service-premium-understand-how-it-works.md
+      - name: Power BI 프리미엄 구매
+        href: service-admin-premium-purchase.md
+      - name: Power BI 프리미엄 관리
+        href: service-admin-premium-manage.md
+      - name: Power BI Premium 모니터링
+        href: service-admin-premium-monitor-capacity.md
+      - name: 프리미엄 용량 다시 시작
+        href: service-admin-premium-restart.md
+      - name: 대형 데이터 세트 지원
+        href: service-premium-large-datasets.md
+      - name: 증분 새로 고침
+        href: service-premium-incremental-refresh.md
+      - name: 다중 지역 지원(미리 보기)
+        href: service-admin-premium-multi-geo.md
+      - name: Power BI 프리미엄 FAQ
+        href: service-premium-faq.md
+    - name: Office 365의 관리 역할
+      href: service-admin-role.md
+    - name: 질문과 대답(FAQ)
+      href: service-admin-faq.md
+  - name: 방법
+    items:
+    - name: 라이선싱 및 등록
       items:
-        - name: Power BI Premium
-          items:
-            - name: Power BI 프리미엄이란?
-              href: service-premium.md
-            - name: '프리미엄 용량 메모리 사용, 최적화'
-              href: service-premium-understand-how-it-works.md
-            - name: Power BI 프리미엄 구매
-              href: service-admin-premium-purchase.md
-            - name: Power BI 프리미엄 관리
-              href: service-admin-premium-manage.md
-            - name: Power BI Premium 모니터링
-              href: service-admin-premium-monitor-capacity.md
-            - name: 프리미엄 용량 다시 시작
-              href: service-admin-premium-restart.md
-            - name: 대형 데이터 세트 지원
-              href: service-premium-large-datasets.md
-            - name: 증분 새로 고침
-              href: service-premium-incremental-refresh.md
-            - name: 다중 지역 지원(미리 보기)
-              href: service-admin-premium-multi-geo.md
-            - name: Power BI 프리미엄 FAQ
-              href: service-premium-faq.md
-        - name: Office 365의 관리 역할
-          href: service-admin-role.md
-        - name: 질문과 대답(FAQ)
-          href: service-admin-faq.md
-    - name: 방법
-      items:
-        - name: 라이선싱 및 등록
-          items:
-            - name: 조직에 대한 라이선싱
-              href: service-admin-licensing-organization.md
-            - name: Power BI Pro 구매
-              href: service-admin-purchasing-power-bi-pro.md
-            - name: Office 365 평가판으로 등록
-              href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: Office 365 파트너와 함께 Power BI 추가
-              href: service-admin-syndication-partner.md
-        - name: 내 테넌트는 어디에 있나요?
-          href: service-admin-where-is-my-tenant-located.md
-        - name: 로그인한 사용자 찾기
-          href: service-admin-access-usage.md
-        - name: Power BI 감사
-          href: service-admin-auditing.md
-        - name: 서비스 상태 추적
-          href: service-admin-health.md
-        - name: Power BI 계정 닫기
-          href: service-admin-closing-your-account.md
-        - name: Power BI 및 ExpressRoute
-          href: service-admin-power-bi-expressroute.md
-        - name: Azure AD B2B 사용
-          href: service-admin-azure-ad-b2b.md
-        - name: Power BI를 사용하는 행 수준 보안
-          href: service-admin-rls.md
-        - name: Power BI 보관 작업 영역
-          href: service-admin-power-bi-archived-workspace.md
-        - name: Intune으로 모바일 앱 구성
-          href: service-admin-mobile-intune.md
-    - name: 참조
-      items:
-        - name: 'PowerShell, REST API 및 .NET SDK'
-          href: service-admin-reference.md
-        - name: PowerShell용 Power BI cmdlet
-          href: 'https://docs.microsoft.com/powershell/power-bi/'
-          maintainContext: true
-        - name: 서비스 URL 참조
-          href: power-bi-whitelist-urls.md
-    - name: 리소스
-      items:
-        - name: Power BI 거버넌스 및 배포 방법
-          href: service-admin-governance.md
-        - name: Power BI 보안
-          href: service-admin-power-bi-security.md
+      - name: 조직에 대한 라이선싱
+        href: service-admin-licensing-organization.md
+      - name: Power BI Pro 구매
+        href: service-admin-purchasing-power-bi-pro.md
+      - name: Office 365 평가판으로 등록
+        href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+      - name: Office 365 파트너와 함께 Power BI 추가
+        href: service-admin-syndication-partner.md
+    - name: 내 테넌트는 어디에 있나요?
+      href: service-admin-where-is-my-tenant-located.md
+    - name: 로그인한 사용자 찾기
+      href: service-admin-access-usage.md
+    - name: Power BI 감사
+      href: service-admin-auditing.md
+    - name: 서비스 상태 추적
+      href: service-admin-health.md
+    - name: Power BI 계정 닫기
+      href: service-admin-closing-your-account.md
+    - name: Power BI 및 ExpressRoute
+      href: service-admin-power-bi-expressroute.md
+    - name: Azure AD B2B 사용
+      href: service-admin-azure-ad-b2b.md
+    - name: Power BI를 사용하는 행 수준 보안
+      href: service-admin-rls.md
+    - name: Power BI 보관 작업 영역
+      href: service-admin-power-bi-archived-workspace.md
+    - name: Intune으로 모바일 앱 구성
+      href: service-admin-mobile-intune.md
+  - name: 참조
+    items:
+    - name: PowerShell, REST API 및 .NET SDK
+      href: service-admin-reference.md
+    - name: PowerShell용 Power BI cmdlet
+      href: https://docs.microsoft.com/powershell/power-bi/
+      maintainContext: true
+    - name: 서비스 URL 참조
+      href: power-bi-whitelist-urls.md
+  - name: 리소스
+    items:
+    - name: Power BI 거버넌스 및 배포 방법
+      href: service-admin-governance.md
+    - name: Power BI 보안
+      href: service-admin-power-bi-security.md
+ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406733"
