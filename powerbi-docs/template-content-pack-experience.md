@@ -19,7 +19,7 @@ ms.locfileid: "54288270"
 # <a name="template-content-pack-experiences-in-power-bi"></a>Power BI에서 템플릿 콘텐츠 팩 환경
 이 섹션에서는 사용자가 ISV [콘텐츠 팩](service-connect-to-services.md)에 연결하는 일반적인 환경을 강조 표시합니다.
 
-https://app.powerbi.com/getdata/services 에서 릴리스된 콘텐츠 팩에 연결하여 직접 연결해 보세요(예: 아래 설명된 [GitHub 콘텐츠 팩](https://app.powerbi.com/getdata/services/github)).
+[https://app.powerbi.com/getdata/services](https://app.powerbi.com/getdata/services) 에서 릴리스된 콘텐츠 팩에 연결하여 직접 연결해 보세요(예: 아래 설명된 [GitHub 콘텐츠 팩](https://app.powerbi.com/getdata/services/github)).
 
 ## <a name="connect"></a>연결
 시작하려면 사용자가 콘텐츠 팩 갤러리를 탐색하여 연결할 콘텐츠 팩을 선택합니다. 콘텐츠 팩 항목에는 이름, 아이콘 및 사용자에게 더 많은 정보를 제공하는 설명 텍스트가 제공됩니다.

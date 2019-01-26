@@ -308,7 +308,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 #### <a name="ios-devices"></a>iOS 디바이스
 **질문 및 답변 미리 보기로 데이터에 대해 질문하기** 
 
-질문 및 답변을 사용하여 데이터에 관해 직접 질문을 하면 Power BI에서 답변을 제공합니다. 질문 및 답변은 이미 http://powerbi.com의 Power BI 서비스입니다. 이제 [iPhone 또는 iPad의 모바일 앱에서도 사용 가능](mobile-apps-ios-qna.md)합니다.
+질문 및 답변을 사용하여 데이터에 관해 직접 질문을 하면 Power BI에서 답변을 제공합니다. 질문 및 답변은 이미 [http://powerbi.com](http://powerbi.com) 의 Power BI 서비스입니다. 이제 [iPhone 또는 iPad의 모바일 앱에서도 사용 가능](mobile-apps-ios-qna.md)합니다.
 
 **둘 이상의 SSRS 서버에 연결** 
 

@@ -95,7 +95,7 @@ Power BI에서 추적할 조직 이름을 제공합니다. 이를 통해 여러 
 * 콘텐츠 팩을 새로 고칠 수 없는 경우 Power BI에서 동일한 조직에 두 번 이상 연결했는지 확인하세요. Xero에서는 조직에 대한 단일 활성 연결만 허용하며 동일한 조직에 두 번 이상 연결하는 경우 자격 증명이 유효하지 않음을 나타내는 오류가 표시될 수 있습니다.  
 * 오류 메시지 또는 매우 느린 로드 시간처럼 Power BI용 Xero 콘텐츠 팩에 연결하는 문제의 경우 먼저 캐시/쿠키를 지우고 브라우저를 다시 시작한 후 Power BI에 다시 연결합니다.  
 
-다른 문제의 경우 문제가 지속되면 http://support.powerbi.com에 티켓을 제출합니다.
+다른 문제의 경우 문제가 지속되면 [http://support.powerbi.com](http://support.powerbi.com) 에 티켓을 제출합니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI에서 시작](service-get-started.md)
