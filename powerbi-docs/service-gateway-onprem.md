@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 4bc704eb5aeb2bf6da18a43a6d4502b5541ce249
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287902"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899253"
 ---
 # <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
 
@@ -96,7 +96,9 @@ ms.locfileid: "54287902"
 
 ## <a name="tenant-level-administration"></a>테넌트 수준 관리
 
-현재 테넌트 관리자가 다른 사용자가 설치 및 구성한 모든 게이트웨이를 관리할 수 있는 단일 장소가 없습니다.  테넌트 관리자인 경우 설치한 모든 게이트웨이에 자신을 관리자로 추가하도록 조직의 사용자에게 요청하는 것이 좋습니다. 이렇게 하면 게이트웨이 설정 페이지 또는 [PowerShell 명령](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)을 통해 조직의 모든 게이트웨이를 관리할 수 있습니다. 
+테넌트 관리자는 테넌트 내에 설치된 모든 온-프레미스 데이터 게이트웨이를 보고 관리할 수 있습니다. 이 기능은 현재 공개 미리 보기로 제공됩니다. 자세한 내용은 [Power 플랫폼 관리 센터 설명서](/power-platform/admin/onpremises-data-gateway-management)를 참조하세요.
+
+또한 테넌트 관리자인 경우 설치한 모든 게이트웨이에 자신을 관리자로 추가하도록 조직의 사용자에게 요청하는 것이 좋습니다. 이렇게 하면 게이트웨이 설정 페이지 또는 [PowerShell 명령](service-gateway-high-availability-clusters.md#powershell-support-for-gateway-clusters)을 통해 조직의 모든 게이트웨이를 관리할 수 있습니다. 
 
 ## <a name="enabling-outbound-azure-connections"></a>아웃바운드 Azure 연결 사용
 
