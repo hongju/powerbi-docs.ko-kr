@@ -66,7 +66,7 @@ Power BI용 [Windows 개발자 센터 콘텐츠 팩](https://app.powerbi.com/get
 ## <a name="finding-parameters"></a>매개 변수 찾기
 앱 관리의 앱 ID 페이지로 이동하여 앱에 대한 애플리케이션 ID를 찾을 수 있습니다.
 
-애플리케이션 ID는 Windows 10 스토어에 대한 URL의 끝인 https://www.microsoft.com/store/apps/**{applicationId}** 에 있습니다.
+애플리케이션 ID는 Windows 10 스토어에 대한 URL의 끝인 https://www.microsoft.com/store/apps/ **{applicationId}** 에 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI에서 시작](service-get-started.md)
