@@ -1,5 +1,5 @@
 ---
-title: 전화에 대해 최적화된 Power BI 보고서 보기
+title: 휴대폰에 대해 최적화된 Power BI 보고서 보기
 description: Power BI 휴대폰 앱에서 보도록 최적화된 보고서 페이지와의 상호 작용에 대해 알아봅니다.
 author: mshenhav
 manager: kfile
@@ -16,7 +16,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/15/2019
 ms.locfileid: "54276909"
 ---
-# <a name="view-power-bi-reports-optimized-for-your-phone"></a>전화에 대해 최적화된 Power BI 보고서 보기
+# <a name="view-power-bi-reports-optimized-for-your-phone"></a>휴대폰에 대해 최적화된 Power BI 보고서 보기
 
 적용 대상:
 
@@ -30,7 +30,7 @@ Power BI Desktop 또는 Power BI 서비스에서 Power BI 보고서를 만들 �
 
 ![세로 모드 보고서](./media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
 
-전화에 최적화 보고서 없다면 보고서는 열리지만 최적화되지 않은 가로 보기 화면으로 열립니다. 휴대폰에 최적화된 보고서에서도 휴대폰를 옆으로 돌리면 보고서는 최적화 되지 않은 보기에서 원본 보고서 레이아웃으로 열립니다. 일부 페이지만 최적화된 경우, 사용자는 세로 보기 메시지를 보게 될 것이며 이는 보고서가 가로 보기로 사용 가능하다는 것을 의미합니다.
+휴대폰에 최적화된 보고서가 없다면 보고서는 열리지만 최적화되지 않은 가로 보기 화면으로 열립니다. 휴대폰에 최적화된 보고서에서도 휴대폰를 옆으로 돌리면 보고서는 최적화 되지 않은 보기에서 원본 보고서 레이아웃으로 열립니다. 일부 페이지만 최적화된 경우, 사용자는 세로 보기 메시지를 보게 될 것이며 이는 보고서가 가로 보기로 사용 가능하다는 것을 의미합니다.
 
 ![최적화되지 않은 보고서 페이지](./media/mobile-apps-view-phone-report/06-power-bi-phone-report-page-not-optimized.png)
 
