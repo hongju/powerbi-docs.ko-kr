@@ -66,6 +66,6 @@ Power BI Desktop은 Excel에서 일반적으로 *개체*라고 하는 다음 요
 * **계층 구조:** 현재 Power BI Desktop에서는 이 유형의 데이터 모델 개체가 지원되지 않습니다. 따라서 Power BI Desktop에 Excel 통합 문서를 가져올 때 계층을 건너뜁니다.
 * **이진 데이터 열:** 현재 Power BI Desktop에서는 이 유형의 데이터 모델 열이 지원되지 않습니다. 이진 데이터 열은 Power BI Desktop의 결과 테이블에서 제거됩니다.
 * **지원되지 않는 파워 뷰 요소:** Power BI Desktop에서는 몇 가지 파워 뷰 기능(예: 테마, 특정 유형의 시각화(재생 축이 있는 분산형 차트, 드릴다운 동작 등))이 지원되지 않습니다. 이렇게 지원되지 않는 시각화 기능으로 인해 Power BI Desktop 보고서의 해당 위치에 *지원되지 않는 시각화* 메시지가 표시됩니다. 이 메시지는 필요에 따라 삭제하거나 재구성할 수 있습니다.
-* **파워 쿼리에서** ***테이블에서***를 사용하는 명명된 범위와 **M**에서 ***Excel.CurrentWorkbook*****을 사용하는 명명된 범위**: 현재 Power BI Desktop에서는 이러한 명명된 범위 데이터를 가져오는 것이 지원되지 않습니다. 이 기능은 Power BI Desktop의 향후 업데이트에서 지원할 계획입니다. 현재 이렇게 명명된 범위는 외부 Excel 통합 문서 연결에 따라 Power BI Desktop에 로드됩니다.
+* **파워 쿼리에서** ***테이블에서*** 를 사용하는 명명된 범위와 **M** 에서 ***Excel.CurrentWorkbook*** **을 사용하는 명명된 범위**: 현재 Power BI Desktop에서는 이러한 명명된 범위 데이터를 가져오는 것이 지원되지 않습니다. 이 기능은 Power BI Desktop의 향후 업데이트에서 지원할 계획입니다. 현재 이렇게 명명된 범위는 외부 Excel 통합 문서 연결에 따라 Power BI Desktop에 로드됩니다.
 * **SSRS로 PowerPivot 연결 :** 현재 Power BI Desktop에서 PowerPivot 데이터 소스를 사용할 수 없으므로 SSRS(SQL Server Reporting Services)에 대한 PowerPivot 외부 연결이 지원되지 않습니다.
 

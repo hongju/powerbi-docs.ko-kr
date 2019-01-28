@@ -19,7 +19,7 @@ ms.locfileid: "54838364"
 ---
 <!-- fold this topic into existing topics -->
 # <a name="power-bi-for-consumers"></a>소비자용 Power BI
-Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. ‘최종 사용자’ 또는 ‘소비자’는 동료로부터 대시보드, 보고서 및 앱을 받는 사람입니다. 비즈니스 의사 결정을 위해 ‘Power BI 서비스’에서 이 콘텐츠를 검토하고 조작합니다.****
+Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. ‘최종 사용자’ 또는 ‘소비자’는 동료로부터 대시보드, 보고서 및 앱을 받는 사람입니다. 비즈니스 의사 결정을 위해 ***‘Power BI 서비스’*** 에서 이 콘텐츠를 검토하고 조작합니다.
 
 ![Power BI 대시보드](media/end-user-consumer/power-bi-service.png)
 
