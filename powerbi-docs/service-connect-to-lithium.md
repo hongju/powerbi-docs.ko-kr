@@ -35,7 +35,7 @@ Power BI용 [Lithium 콘텐츠 팩](https://app.powerbi.com/getdata/services/lit
 3. **Lithium** \> **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-lithium/lithiumconnect.png)
-4. Lithium 커뮤니티의 URL을 입력합니다. 이는 *https://community.yoursite.com*의 형식입니다.
+4. Lithium 커뮤니티의 URL을 입력합니다. 이는 *https://community.yoursite.com* 의 형식입니다.
    
    ![](media/service-connect-to-lithium/params.png)
 5. 메시지가 표시되면 Lithium 자격 증명을 입력합니다. **oAuth 2** 를 인증 메커니즘으로 선택하고 **로그인** 을 클릭하여 Lithium 인증 흐름을 따릅니다.
