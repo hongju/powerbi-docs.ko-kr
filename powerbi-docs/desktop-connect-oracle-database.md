@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284498"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899230"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle 데이터베이스에 연결
 **Power BI Desktop**을 사용하여 Oracle 데이터베이스에 연결하기 위해 Power BI Desktop을 실행하는 컴퓨터에 올바른 Oracle 클라이언트 소프트웨어를 설치해야 합니다. 사용하는 Oracle 클라이언트 소프트웨어는 설치한 Power BI Desktop의 버전(**32비트** 버전 또는 **64비트** 버전)에 따라 달라집니다.
@@ -51,3 +51,11 @@ ms.locfileid: "54284498"
 4. Oracle 데이터베이스 정보가 Oracle 데이터베이스 대화 상자에 입력되면(SID 또는 네이티브 데이터베이스 쿼리 등의 선택적 정보 포함) **확인**을 선택하여 연결합니다.
 5. Oracle 데이터베이스에서 데이터베이스 사용자 자격 증명을 요구하는 경우 메시지가 표시되면 대화 상자에서 해당 자격 증명을 입력합니다.
 
+
+## <a name="troubleshooting"></a>문제 해결
+
+Microsoft Store에서 Power BI Desktop을 다운로드하면 Oracle 드라이버 문제로 인해 Oracle 데이터베이스에 연결할 수 없게 됩니다. 이 문제가 발생하는 경우 "개체 참조가 설정되지 않음"이라는 오류 메시지를 반환합니다. 문제를 해결하려면 다음 중 하나를 수행하세요.
+
+* 대신 https://powerbi.microsoft.com/desktop에서 Power BI Desktop을 다운로드합니다.
+
+* Microsoft Store의 버전을 사용하려는 경우 로컬 컴퓨터에서 oraons.dll을 _12.X.X\client_X_에서 _12.X.X\client_X\bin_로 복사하세요. X는 버전 및 디렉터리 숫자를 나타냅니다.

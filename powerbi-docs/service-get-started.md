@@ -1,6 +1,6 @@
 ---
-title: Power BI 서비스 시작(Power BI 온라인)
-description: Power BI 온라인 시작(app.powerbi.com)
+title: Power BI 서비스 시작
+description: Power BI 온라인 서비스 시작(app.powerbi.com)
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,20 +8,20 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291988"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147499"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>자습서: Power BI 서비스(app.powerbi.com) 시작
+# <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>자습서: Power BI 서비스 시작(app.powerbi.com)
 이 자습서는 ***Power BI 서비스***를 시작할 때 도움이 됩니다. Power BI 서비스를 다른 Power BI 제품에 적용하는 방법을 이해하려면 [Power BI란?](power-bi-overview.md)을 참조하여 시작하는 것이 좋습니다.
 
-![바탕 화면, 서비스, 모바일 간의 관계를 보여주는 아트](media/service-get-started/power-bi-components.png)
+![Power BI Desktop, 서비스, 모바일 간의 관계를 보여주는 아트](media/service-get-started/power-bi-components.png)
 
 이 자습서에서 수행하는 단계는 다음과 같습니다.
 
@@ -35,14 +35,14 @@ ms.locfileid: "54291988"
 > * 질문 및 답변 자연어 도구를 사용하여 대시보드에 다른 시각화 추가
 > * 데이터 세트, 보고서 및 대시보드를 삭제하여 리소스 정리
 
-## <a name="sign-up-for-power-bi-service"></a>Power BI 서비스에 등록
+## <a name="sign-up-for-the-power-bi-service"></a>Power BI 서비스에 등록
 아직 Power BI에 등록하지 않은 경우 시작하기 전에 [Power BI Pro 평가판에 등록](https://app.powerbi.com/signupredirect?pbi_source=web)합니다.
 
 계정이 이미 있는 경우 브라우저를 열고 app.powerbi.com을 입력하여 Power BI 서비스를 엽니다. 
 
 ![체험 등록 또는 로그인](media/service-get-started/power-bi-sign-up.png)
 
-Power BI Desktop에 대한 도움말 찾고 있는 경우 [데스크톱 시작](desktop-getting-started.md)을 참조하세요. Power BI 모바일에 도움을 찾고 있는 경우 [모바일 디바이스에 대한 Power BI 앱](consumer/mobile/mobile-apps-for-mobile-devices.md)을 참조하세요.
+Power BI Desktop에 대한 도움말 찾고 있는 경우 [Power BI Desktop 시작](desktop-getting-started.md)을 참조하세요. Power BI 모바일에 도움을 찾고 있는 경우 [모바일 디바이스에 대한 Power BI 앱](consumer/mobile/mobile-apps-for-mobile-devices.md)을 참조하세요.
 
 > [!TIP]
 > 대신 무료 자가 진행식 교육 과정을 더 선호합니까? [EdX에서 데이터 분석 및 시각화 코스에 등록](http://aka.ms/edxpbi)합니다.
@@ -52,8 +52,8 @@ Power BI Desktop에 대한 도움말 찾고 있는 경우 [데스크톱 시작](
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-## <a name="what-is-power-bi-service"></a>Power BI 서비스란?
-Microsoft Power BI 서비스는 Power BI 온라인 또는 app.powerbi.com이라고도 합니다. Power BI는 중요한 정보를 최신 상태로 유지하는 데 도움이 됩니다.  Power BI 서비스를 사용하면 ***대시보드***를 통해 비즈니스의 실상을 잘 파악할 수 있습니다.  대시보드에는 클릭하여 ***보고서***를 열고 자세히 탐색할 수 있는 ***타일***이 표시됩니다.  여러 ***데이터 세트***에 연결하여 관련 데이터를 모두 한 곳으로 가져옵니다. Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power BI - 기본 개념](consumer/end-user-basic-concepts.md)을 참조하세요.
+## <a name="what-is-the-power-bi-service"></a>Power BI 서비스란?
+Microsoft Power BI 서비스는 Power BI 온라인 또는 app.powerbi.com이라고도 합니다. Power BI는 중요한 정보를 최신 상태로 유지하는 데 도움이 됩니다.  Power BI 서비스를 사용하면 ***대시보드***를 통해 비즈니스의 상태를 파악할 수 있습니다.  대시보드에는 클릭하여 ***보고서***를 열고 자세히 탐색할 수 있는 ***타일***이 표시됩니다.  여러 ***데이터 세트***에 연결하여 관련 데이터를 모두 한 곳으로 가져옵니다. Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power BI - 기본 개념](consumer/end-user-basic-concepts.md)을 참조하세요.
 
 Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시보드를 만들어 어디서나 최신 정보를 받고 다른 사람과 통찰력을 공유할 수 있습니다.  Salesforce와 같은 SaaS 애플리케이션에 대한 구독이 있는 경우  먼저 Salesforce에 연결하여 해당 데이터에서 자동으로 대시보드를 생성하거나 [다른 모든 SaaS 앱을 체크 아웃](service-get-data.md)합니다. 조직의 일부인 경우 [앱](service-create-distribute-apps.md)이 자신에게 게시되었는지 확인합니다.
 
@@ -72,7 +72,7 @@ Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시�
 4. 컴퓨터에서 파일을 찾은 다음 **열기**를 선택합니다. 비즈니스용 OneDrive에 저장한 경우 해당 옵션을 선택합니다. 로컬에 저장한 경우 **로컬 파일**을 선택합니다. 
    
    ![데이터 가져오기 > 파일 화면](media/service-get-started/gs2.png)
-5. 이 자습서에서는 보고서 및 대시보드를 만드는 데 사용할 수 있게 Excel 파일을 데이터 세트로 추가하기 위해 **가져오기**를 선택할 것입니다. **업로드**를 선택할 경우 전체 Excel 통합 문서가 Power BI에 업로드되어 Excel에서 온라인으로 열어 편집할 수 있습니다.
+5. 이 자습서에서는 **가져오기**를 선택하여 보고서 및 대시보드를 만드는 데 사용할 수 있는 Excel 파일을 데이터 세트로 추가하겠습니다. **업로드**를 선택할 경우 전체 Excel 통합 문서가 Power BI에 업로드되어 Excel에서 온라인으로 열어 편집할 수 있습니다.
    
    ![가져오기 선택](media/service-get-started/power-bi-import.png)
 6. 데이터 세트가 준비되면 **데이터 세트 보기**를 선택하여 보고서 편집기에서 엽니다. 
@@ -87,7 +87,7 @@ Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시�
 
     ![읽기용 보기 옵션](media/service-get-started/power-bi-editing-view.png)
 
-    편집용 보기에 있을 때는 자신이 보고서의 *소유자*이고 *작성자*이므로 보고서를 만들고 수정할 수 있습니다. 동료와 보고서를 공유할 경우 동료는 *소비자*이므로 읽기용 보기에서 보고서와 상호 작용만 가능합니다. [읽기용 보기 및 편집용 보기](consumer/end-user-reading-view.md)에 대해 자세히 알아보세요.
+    편집용 보기 상태인 경우 자신이 보고서의 *소유자*이거나 *작성자*이므로 보고서를 만들고 수정할 수 있습니다. 동료와 보고서를 공유할 경우 동료는 *소비자*이므로 읽기용 보기에서 보고서와 상호 작용만 가능합니다. [읽기용 보기 및 편집용 보기](consumer/end-user-reading-view.md)에 대해 자세히 알아보세요.
     
     [둘러보기](service-the-report-editor-take-a-tour.md)를 통해 보고서 편집기에 익숙해질 수 있습니다.
    > 
@@ -104,11 +104,11 @@ Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시�
    
    ![아이콘이 선택된 보고서 편집기](media/service-get-started/gettingstart5new.png)
 
-3. 흥미로워 보이므로 대시보드에 *고정*해 보겠습니다. 시각화를 마우스로 가리키고 **고정** 아이콘을 선택합니다.  이 시각화를 고정하면 대시보드에 저장되고 최신 상태로 유지되므로 최신 값을 한눈에 추적할 수 있습니다.
+3. 이 차트가 흥미로워 보이므로 대시보드에 *고정*해 보겠습니다. 시각화를 마우스로 가리키고 **고정** 아이콘을 선택합니다.  이 시각화를 고정하면 대시보드에 저장되고 최신 상태로 유지되므로 최신 값을 한눈에 추적할 수 있습니다.
    
    ![고정 아이콘](media/service-get-started/pinnew.png)
 
-4. 새 보고서이므로 먼저 저장해야 시각화를 대시보드에 고정할 수 있다는 메시지가 표시됩니다. 보고서에 이름(예: *기간별 매출*)을 지정하고 **저장 및 계속**을 선택합니다. 
+4. 이 보고서는 새로운 항목이므로 먼저 저장해야 시각화를 대시보드에 고정할 수 있다는 메시지가 표시됩니다. 보고서에 이름(예: *기간별 매출*)을 지정하고 **저장 후 계속**을 선택합니다. 
    
    ![보고서 저장 대화 상자](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
@@ -118,7 +118,7 @@ Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시�
    
 1. **고정**을 선택합니다.
    
-    오른쪽 위에 나타나는 성공 메시지를 통해 시각화가 타일로 대시보드에 추가되었음을 알 수 있습니다.
+    오른쪽 위 모서리에 나타나는 성공 메시지를 통해 시각화가 타일로 대시보드에 추가되었음을 알 수 있습니다.
    
     ![대시보드에 고정 대화 상자](media/service-get-started/power-bi-pin-success.png)
 
@@ -126,7 +126,7 @@ Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시�
    
    ![시각화가 고정된 대시보드](media/service-get-started/power-bi-new-dashboard.png)
    
-   언제든지 대시보드에서 새 타일을 선택하여 보고서로 돌아갑니다. Power BI가 읽기용 보기에서 보고서 편집기로 돌아갑니다. 편집용 보기로 다시 전환하려면 상단 메뉴 모음에서 **보고서 편집**을 선택합니다. 편집용 보기로 전환되면 타일을 계속 탐색하고 고정합니다. 
+   언제든지 대시보드에서 새 타일을 선택하면 보고서로 돌아갑니다. Power BI가 읽기용 보기에서 보고서 편집기로 돌아갑니다. 편집용 보기로 다시 전환하려면 상단 메뉴 모음에서 **보고서 편집**을 선택합니다. 편집용 보기로 전환되면 타일을 계속 탐색하고 고정합니다. 
 
 ## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>3단계:  질문 및 답변 탐색 계속(자연어 쿼리)
 1. 데이터의 빠른 탐색을 위해 질문 및 답변 상자에 질문을 합니다. 질문 및 답변의 질문 상자는 대시보드의 상단(**데이터에 대해 질문하기**) 및 보고서의 상단 메뉴 모음(**질문하기**)에 있습니다. 예를 들어 "어떤 세그먼트에서 가장 많은 수익을 냈나요"라고 입력해 보세요.

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 04f67f82552f7915f8ca4fc6e639de3e616c2f8a
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295262"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147591"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용
 
@@ -205,6 +205,9 @@ Kerberos가 게이트웨이에서 어떻게 작동하는지 이해했으므로 S
 이 가이드에서는 가능한 한 포괄적으로 설명하려고 합니다. 이러한 단계 중 일부를 이미 완료한 경우에는 이를 건너뛸 수 있습니다. 예를 들어 BW 서버의 서비스 사용자를 이미 만들고 해당 사용자에게 SPN을 매핑했거나, 이미 gsskrb5 라이브러리를 설치했습니다.
 
 ### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>클라이언트 머신 및 BW 서버에 gsskrb5 설치
+
+> [!NOTE]
+> gsskrb5는 SAP에서 더 이상 적극적으로 지원되지 않습니다. 자세한 내용은 [SAP 참고 352295](https://launchpad.support.sap.com/#/notes/352295)를 참조하세요. 또한 gsskrb5는 데이터 게이트웨이에서 BW Message Server로의 SSO 연결을 허용하지 않습니다. BW Application Server에 대한 연결만 가능합니다.
 
 게이트웨이를 통해 SSO 연결을 완료하려면 클라이언트 및 서버에서 모두 gsskrb5를 사용 중이어야 합니다. 공용 암호화 라이브러리(sapcrypto)는 현재 지원되지 않습니다.
 

@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488917"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147568"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
 
+- Microsoft Business Applications 그룹에서 [비즈니스 인텔리전스 '18년 10월의 새로운 기능](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) 릴리스 정보: 비즈니스 애플리케이션에 대한 최신 업데이트
 - [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
 - [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI 팀 블로그](https://powerbi.microsoft.com/blog/)
-- Dynamics 365의 [2018년 봄 Business Applications 릴리스 정보](http://aka.ms/businessappsreleasenotes): 플랫폼을 기반으로 애플리케이션 및 확장을 빌드하는 새로운 기능뿐만 아니라 비즈니스 애플리케이션에 대한 최신 업데이트. 
 
-“새로운 기능” 및 기능에 대한 자세한 내용은 YouTube 채널에서도 확인할 수 있습니다.
+또한 "새로운 기능" 및 기능에 대한 자세한 내용은 YouTube 채널을 확인하세요.
 
 * [Microsoft Power BI(YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)

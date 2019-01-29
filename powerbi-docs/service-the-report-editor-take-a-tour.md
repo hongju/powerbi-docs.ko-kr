@@ -8,21 +8,21 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 70eb50c493c6828ca03b1161138e1a4f4b1fae8e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284436"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147407"
 ---
-# <a name="tour-of-the-report-editor-in-power-bi"></a>Power BI의 보고서 편집기 둘러보기
+# <a name="tour-the-report-editor-in-power-bi"></a>Power BI의 보고서 편집기 둘러보기
 
 Power BI 서비스의 *보고서 편집기*와 Power BI Desktop의 보고서 편집기는 유사합니다. 비디오에서는 Power BI Desktop의 보고서 편집기를 보여주고 이 문서에서는 Power BI 서비스의 보고서 편집기를 보여줍니다. 
 
-보고서 작성자로서 대시보드 및 보고서를 만들고 편집합니다. 그런 다음, 보고서 소비자에게 배포합니다. Power BI 서비스의 읽기용 보기에서는 대시보드 및 보고서와 상호 작용할 수 있지만 편집은 할 수 없습니다. 보고서 [Power BI 서비스에서 읽기용 보기 및 편집용 보기](consumer/end-user-reading-view.md) 간 차이점에 대해 자세히 알아보기 
+보고서 작성자로서 대시보드 및 보고서를 만들고 편집합니다. 그런 다음, 보고서 소비자에게 배포합니다. Power BI 서비스의 읽기용 보기에서는 대시보드 및 보고서와 상호 작용할 수 있지만 편집은 할 수 없습니다. [보고서 소비자가 Power BI 서비스에서 수행할 수 있는 작업](consumer/end-user-reading-view.md)을 자세히 참고하세요. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -45,7 +45,7 @@ Power BI 보고서 편집기는 다음 세 개의 섹션이 있습니다.
 
 |  |  |
 | --- | --- |
-| ![보고서 편집기 창](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>시각화 창의 맨 위에서는 사용 중인 시각적 개체의 형식을 식별합니다. 묶은 세로 막대형 차트를 예로 들 수 있습니다.<br><br></li> <li>시각화 창의 맨 아래에는(아래로 스크롤해야 함) 시각적 개체에서 사용되는 필드가 표시됩니다. 이 차트는 회계 월, 지역 관리자 및 총 판매액 분산을 사용 중입니다. <br><br></li><li>필터 창(아래로 스크롤해야 함)에는 적용된 필터가 표시됩니다. <br><br></li><li>필드 창에는 사용할 수 있는 테이블이 나열되고 테이블의 이름을 확장하면 해당 테이블을 구성하는 필드가 나타납니다. 노란색 글꼴은 해당 테이블에서 최소 하나의 필드가 시각화에 사용되고 있음을 나타냅니다.<br><br></li><li>![페인트 롤러 아이콘](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) 서식 지정 창을 표시하려면 선택한 시각화에서 페인트 롤러 아이콘을 선택합니다.<br><br></li><li>![돋보기 아이콘](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) 분석 창을 표시하려면 돋보기 아이콘을 선택합니다.</ul> |
+| ![보고서 편집기 창](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>시각화 창의 맨 위에서는 사용 중인 시각적 개체의 형식을 식별합니다. 묶은 세로 막대형 차트를 예로 들 수 있습니다.<br><br></li> <li>시각화 창의 맨 아래에는(아래로 스크롤해야 함) 시각적 개체에서 사용되는 필드가 표시됩니다. 이 차트는 회계 월, 지역 관리자 및 총 판매액 분산을 사용 중입니다. <br><br></li><li>필터 창(아래로 스크롤해야 함)에는 적용된 필터가 표시됩니다. <br><br></li><li>필드 창에는 사용할 수 있는 테이블이 나열되고 테이블의 이름을 확장하면 해당 테이블을 구성하는 필드가 나타납니다. 노란색 글꼴은 해당 테이블에서 최소 하나의 필드가 시각화에 사용되고 있음을 나타냅니다.<br><br></li><li>![페인트 롤러 아이콘](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) 서식 지정 창을 표시하려면 선택한 시각화에서 페인트 롤러 아이콘을 선택합니다.<br><br></li><li>![돋보기 아이콘](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) 분석 창을 표시하려면 돋보기 아이콘을 선택하세요.</ul> |
 
 ## <a name="the-visualizations-pane"></a>시각화 창
 ![시각화 창의 위쪽](media/service-the-report-editor-take-a-tour/selectviz.png)
@@ -65,7 +65,7 @@ Power BI 보고서 편집기는 다음 세 개의 섹션이 있습니다.
 자세한 내용은 [Power BI 보고서에 시각화 추가](visuals/power-bi-report-add-visualizations-i.md)를 참조하세요.
 
 ### <a name="format-your-visuals"></a>시각적 개체 서식 지정
-페인트 롤러 아이콘을 선택하여 서식 창을 엽니다. 선택한 시각화의 유형에 따라 사용할 수 있는 옵션이 달라집니다.
+페인트 롤러 아이콘을 선택하여 서식 창을 엽니다. 선택한 시각화의 형식에 따라 사용할 수 있는 옵션이 달라집니다.
 
 ![보고서 편집기의 서식 지정 창](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
 
@@ -76,7 +76,7 @@ Power BI 보고서 편집기는 다음 세 개의 섹션이 있습니다.
 * [X축 및 Y축 속성 사용자 지정](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>시각화에 분석 추가
-분석 창을 표시하려면 돋보기 아이콘을 선택합니다. 선택한 시각화의 유형에 따라 사용할 수 있는 옵션이 달라집니다.
+분석 창을 표시하려면 돋보기 아이콘을 선택합니다. 선택한 시각화의 형식에 따라 사용할 수 있는 옵션이 달라집니다.
 
 ![보고서 편집기의 분석 창](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
 Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조 줄을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다. 자세한 내용은 [Power BI 서비스의 분석 창](service-analytics-pane.md) 또는 [Power BI Desktop의 분석 창](desktop-analytics-pane.md)을 참조하세요.
@@ -85,7 +85,7 @@ Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조 줄을 
 ## <a name="the-filters-pane"></a>필터 창
 필터 창을 사용하여 페이지, 보고서, 드릴스루 및 시각적 수준에서 보고서에 대한 지속 필터를 보고 설정하고 수정할 수 있습니다. 예, 시각적 개체의 요소를 선택하거나 슬라이서 같은 도구를 사용하여 보고서 페이지 및 시각적 개체에서 임시 필터링을 수행할 수 있습니다. 그러나 필터 창을 사용하면 필터의 상태가 보고서에 저장됩니다. 
 
-필터 창에는 다른 강력한 기능 하나가 있습니다. 즉, ***보고서에서 비주얼 중 하나에서 사용되는 알렉스가 아닌 필드*** 를 사용하여 필터링하는 기능입니다. 설명해 보겠습니다. 보고서 페이지를 만들 때 Power BI는 시각화에 사용하는 모든 필드를 필터 창의 시각적 수준 필터 영역에 자동으로 추가합니다.  그러나 현재 시각화에 사용되지 않는 필드를 사용하여 시각적 개체, 페이지, 드릴스루 또는 보고서 필터를 설정하려면 필터 버킷 중 하나로 끌어오면 됩니다.   
+필터 창에는 다른 강력한 기능 하나가 있습니다. 즉, ***보고서에서 비주얼 중 하나에 사용되는 알렉스가 아닌 필드***를 사용하여 필터링하는 기능입니다. 설명해 보겠습니다. 보고서 페이지를 만들 때 Power BI는 시각화에 사용하는 모든 필드를 필터 창의 시각적 수준 필터 영역에 자동으로 추가합니다.  그러나 현재 시각화에 사용되지 않는 필드를 사용하여 시각적 개체, 페이지, 드릴스루 또는 보고서 필터를 설정하려면 필터 버킷 중 하나로 끌어오면 됩니다.   
 
 ![필터 창](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -97,7 +97,7 @@ Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조 줄을 
 
 |  |  |
 | --- | --- |
-| ![필드 창](media/service-the-report-editor-take-a-tour/reportfields.png) |<ul><li>필드를 페이지로 끌어 새 시각화를 시작합니다.  필드를 기존 시각화로 끌어 필드를 해당 시각화에 추가할 수도 있습니다.<br><br></li> <li>필드 옆에 있는 확인 표시를 추가하면 Power BI가 해당 필드를 활성(또는 새) 시각화에 추가합니다. 또한 해당 필드에 배치할 버킷도 결정됩니다.  예를 들어 필드가 범례, 축 또는 값에서 사용된다면? Power BI가 최적 사항을 제안하며 필요한 경우 사용자가 버킷에서 해당 항목을 움직일 수 있습니다. <br><br></li><li>어떤 방법을 사용하든 선택한 각 필드가 보고서 편집기의 시각화 창에 추가됩니다.</li></ul> |
+| ![필드 창](media/service-the-report-editor-take-a-tour/reportfields.png) |<ul><li>필드를 페이지로 끌어 새 시각화를 시작합니다.  필드를 기존 시각화로 끌어 필드를 해당 시각화에 추가할 수도 있습니다.<br><br></li> <li>필드 옆에 있는 확인 표시를 추가하면 Power BI가 해당 필드를 활성(또는 새) 시각화에 추가합니다. 또한 해당 필드에 배치할 버킷도 결정됩니다.  예를 들어 필드가 범례, 축 또는 값에서 사용되어야 하나요? Power BI가 최적 사항을 제안하며 필요한 경우 사용자가 버킷에서 해당 항목을 움직일 수 있습니다. <br><br></li><li>어떤 방법을 사용하든 선택한 각 필드가 보고서 편집기의 시각화 창에 추가됩니다.</li></ul> |
 
 **참고**: Power BI Desktop을 사용하는 경우에도 필드 표시/숨기기, 계산 추가 등의 옵션이 있습니다.
 
@@ -109,7 +109,7 @@ Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조 줄을 
 각 계산 필드에는 하드 코드된 고유한 수식이 있습니다. 계산은 변경할 수 없습니다. 예를 들어 합계인 경우 합계만 될 수 있습니다. 자세한 내용은 [측정값 이해](desktop-measures.md)를 참조하세요.
 
 ![고유 필드 아이콘](media/service-the-report-editor-take-a-tour/icon.png) **고유 필드**  
-이 아이콘이 있는 필드는 Excel에서 가져온 것이며 중복된 값이 있는 경우에도 모든 값을 표시하도록 설정됩니다. 예를 들어 데이터에 'John Smith'라는 사람에 대한 레코드가 두 개 있는 경우 각 레코드는 고유한 것으로 처리되며 합계가 계산되지 않습니다.  
+이 아이콘이 있는 필드는 Excel에서 가져온 것이며 중복된 값이 있는 경우에도 모든 값을 표시하도록 설정됩니다. 예를 들어 데이터에 'John Smith'라는 사람에 대한 레코드가 두 개 있는 경우 각 레코드는 고유한 것으로 처리되며 합쳐지지 않습니다.  
 
 **![지리 아이콘](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) 지리 필드**  
 위치 필드는 지도 시각화를 만드는 데 사용할 수 있습니다. 

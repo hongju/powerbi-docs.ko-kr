@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a45ddbef861ad29f5823edee213b12af068d48eb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26c7c1b428f513fe2b79a3377085004506412604
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277230"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899299"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 서비스용 데이터 원본
 데이터는 Power BI의 핵심입니다. 데이터를 탐색하고 차트 및 대시보드를 만들며 질문 및 답변으로 질문할 때마다 볼 수 있는 모든 해당 시각화 및 답변은 데이터 세트에서 해당하는 기본 데이터를 가져옵니다. 그러나 해당 데이터 세트를 어디서 가져오나요? 데이터 원본에서 가져옵니다.
@@ -29,7 +29,7 @@ ms.locfileid: "54277230"
 ## <a name="files"></a>파일
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel**(.xlsx, xlxm) – 사용자가 워크시트에 입력한 데이터를 통합 문서에 포함할 수 있다는 점에서 독특하며, 파워 쿼리(Excel 2016에서 가져오기 및 변환) 또는 파워 피벗을 사용하여 외부 데이터 원본에서 데이터를 쿼리하고 로드할 수 있습니다. 워크시트의 테이블에 있는 데이터(데이터가 테이블에 *있어야 함*)를 가져오거나 데이터 모델에 로드된 데이터를 가져올 수 있습니다. 자세한 내용은 [Excel에서 데이터 가져오기](service-get-data-from-files.md)를 참조하세요.
+**Excel**(.xlsx, .xlsm) – Excel은 사용자가 워크시트에 입력한 데이터를 통합 문서에 포함할 수 있고, 파워 쿼리(Excel 2016에서 가져오기 및 변환) 또는 파워 피벗을 사용하여 외부 데이터 원본에서 데이터를 쿼리하고 로드할 수 있다는 특징이 있습니다. 워크시트의 테이블에 있는 데이터(데이터가 테이블에 *있어야 함*)를 가져오거나 데이터 모델에 로드된 데이터를 가져올 수 있습니다. 자세한 내용은 [Excel에서 데이터 가져오기](service-get-data-from-files.md)를 참조하세요.
 
 **Power BI Desktop**(.pbix) - Power BI Desktop을 사용하여 외부 데이터 원본에서 데이터를 쿼리하고 로드하며 측정값 및 관계를 사용하여 데이터 모델을 확장하고 보고서를 만들 수 있습니다. Power BI Desktop 파일을 Power BI 사이트로 가져올 수 있습니다. Power BI Desktop은 해당 데이터 원본, 데이터 쿼리 및 변환과 데이터 모델링 개념을 잘 알고 있는 고급 사용자에게 가장 적합합니다. 자세한 내용은 [Power BI Desktop에서 데이터에 연결](desktop-connect-to-data.md)을 참조하세요.
 
