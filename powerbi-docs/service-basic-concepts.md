@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/18/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 487a67f48913ee774904377956eee85ccbae49fc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296688"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147453"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 서비스의 디자이너를 위한 기본 개념
 
@@ -223,7 +223,6 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
 
 ## <a name="next-steps"></a>다음 단계
 - [Power BI란?](power-bi-overview.md)  
-- [탐색: Power BI 서비스 살펴보기](service-the-new-power-bi-experience.md)
 - [Power BI 비디오](videos.md)  
 - [보고서 편집기 - 둘러보기](service-the-report-editor-take-a-tour.md)
 
