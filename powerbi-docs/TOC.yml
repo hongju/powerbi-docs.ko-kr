@@ -410,10 +410,10 @@ items:
         href: service-get-data.md
       - name: 보고서 편집기 둘러보기
         href: service-the-report-editor-take-a-tour.md
-      - name: 작업 구성
-        href: service-new-workspaces.md
     - name: Power BI의 워크플로
       items:
+      - name: 작업 구성
+        href: service-new-workspaces.md
       - name: 작업 공유 방법
         href: service-how-to-collaborate-distribute-dashboards-reports.md
       - name: 데이터를 최신 상태로 유지
@@ -1295,9 +1295,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: ae98cdee3793186b590ded6143546b5b79062685
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 6278920f313261f1e25d72093058fd61dbb13803
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488894"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147522"
