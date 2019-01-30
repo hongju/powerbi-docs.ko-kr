@@ -29,7 +29,7 @@ ms.locfileid: "54288155"
 
 ## <a name="create-a-phone-view-of-a-dashboard"></a>대시보드의 휴대폰 보기 만들기
 1. Power BI 서비스에서 대시보드를 엽니다.
-2. 오른쪽 상단 모퉁이에서 **웹 보기** 옆에 있는 화살표를 선택한 다음 **전화 보기**를 선택합니다.
+2. 오른쪽 상단 모퉁이에서 **웹 보기** 옆에 있는 화살표를 선택한 다음 **휴대폰 보기**를 선택합니다.
 
     ![](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-dashboard.png)
 
@@ -57,7 +57,7 @@ ms.locfileid: "54288155"
     Power BI는 휴대폰 레이아웃을 자동으로 저장합니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 전화 앱에 대해 최적화된 보고서 만들기](desktop-create-phone-report.md)
+* [Power BI 모바일 앱에 최적화된 보고서 만들기](desktop-create-phone-report.md)
 * [모든 크기에 최적화된 반응형 시각적 개체 만들기](visuals/desktop-create-responsive-visuals.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 
