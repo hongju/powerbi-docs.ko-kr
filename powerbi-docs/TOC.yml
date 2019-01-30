@@ -316,8 +316,8 @@ items:
         href: visuals/power-bi-map-tips-and-tricks.md
       - name: X축 및 Y축 속성 사용자 지정
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: Power BI의 ArcGIS 지도
-        href: power-bi-visualization-arcgis.md
+      - name: ArcGIS 맵
+        href: visuals/power-bi-visualization-arcgis.md
       - name: 기본 영역형 차트
         href: visuals/power-bi-visualization-basic-area-chart.md
       - name: Power BI의 카드(큰 숫자 타일)
@@ -1295,9 +1295,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 6278920f313261f1e25d72093058fd61dbb13803
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 070efc5b3775b8d675e7f053094f108edabd3115
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147522"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234488"
