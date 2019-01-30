@@ -91,7 +91,7 @@ Adobe [문서](https://marketing.adobe.com/resources/help/en_US/reference/new_re
 ## <a name="troubleshooting"></a>문제 해결
 권한이 없음을 나타내는 자격 증명을 입력한 후에 오류가 표시되는 경우 Adobe Analytics API에 액세스할 수 있는 관리자를 확인합니다. 또한 제공되는 Adobe ID가 마케팅 클라우드 조직(Adobe Analytics 회사와 관련됨)에 연결되었는지를 확인합니다.
 
-오류가 발생하기 전에 자격 증명 화면을 성공적으로 통과한 경우 보고서를 완료하는 데 오랜 시간이 걸릴 수 있습니다. 일반적인 오류는 *"Adobe Analytics 보고서에서 데이터를 가져오지 못했습니다. 콘텐츠에 &quot;참조, 페이지&quot;가 포함되며, 대략적인 기간은 xx초입니다."* 형식입니다. “포함된 내용” 섹션을 검토하고 Adobe 인스턴스 크기와 비교하세요. 그러나 오늘 이 제한 시간을 해결할 방법이 없습니다. 그러나 보다 큰 인스턴스를 효과적으로 지원하기 위한 업데이트를 고려하고 있습니다. https://ideas.powerbi.com에서 Power BI 팀에 피드백을 제공하세요.
+오류가 발생하기 전에 자격 증명 화면을 성공적으로 통과한 경우 보고서를 완료하는 데 오랜 시간이 걸릴 수 있습니다. 일반적인 오류는 *"Adobe Analytics 보고서에서 데이터를 가져오지 못했습니다. 콘텐츠에 &quot;참조, 페이지&quot;가 포함되며, 대략적인 기간은 xx초입니다."* 형식입니다. “포함된 내용” 섹션을 검토하고 Adobe 인스턴스 크기와 비교하세요. 그러나 오늘 이 제한 시간을 해결할 방법이 없습니다. 그러나 보다 큰 인스턴스를 효과적으로 지원하기 위한 업데이트를 고려하고 있습니다. https://ideas.powerbi.com 에서 Power BI 팀에 피드백을 제공하세요.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 앱이란?](service-create-distribute-apps.md)

@@ -95,7 +95,7 @@ Webtrends 프로필 ID를 선택한 후에 URL에서 사용자 Webtrends 프로�
 ![](media/service-connect-to-webtrends/webtrendscreds.png)
 
 ## <a name="troubleshooting"></a>문제 해결
-자격 증명을 제공한 후에 콘텐츠 팩이 로드되는 동안 문제가 발생할 수 있습니다. 로드하는 동안 "Oops" 메시지를 확인하는 경우 아래의 문제 해결 제안을 검토합니다. 문제가 있는 경우 https://support.powerbi.com에 지원 티켓을 제출합니다.
+자격 증명을 제공한 후에 콘텐츠 팩이 로드되는 동안 문제가 발생할 수 있습니다. 로드하는 동안 "Oops" 메시지를 확인하는 경우 아래의 문제 해결 제안을 검토합니다. 문제가 있는 경우 https://support.powerbi.com 에 지원 티켓을 제출합니다.
 
 1. 올바른 프로필 ID을 사용하는 것에 대한 자세한 내용은 [매개 변수 찾기](#FindingParams)를 참조하세요.
 2. 사용자는 ["포함된 내용"](#Included) 섹션에 나열된 보고서에 대한 액세스 권한이 있습니다.
