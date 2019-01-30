@@ -1,4 +1,4 @@
----
+﻿---
 title: iOS 앱의 질문 및 답변 가상 분석가 - Power BI
 description: iOS 디바이스에 설치된 Power BI 모바일 앱에서 질문 및 답변 가상 분석가를 사용하여 사용자의 고유한 언어로 이 샘플 데이터에 대해 질문합니다.
 author: mshenhav
