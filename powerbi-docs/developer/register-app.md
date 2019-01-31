@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 96f91eefeab038419ce64e31c7b4b5755d6adf2c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c05dddbddc2dd19fed1bfbec25bcd9e378df543f
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286591"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430156"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>포함된 Power BI 콘텐츠에 Azure AD 앱 등록
 
@@ -138,7 +138,7 @@ Azure Active Directory에 애플리케이션을 등록하는 방법에 대한 �
 
 ### <a name="applying-permissions-programmatically"></a>프로그래밍 방식으로 권한 적용
 
-1. 테넌트 내에서 기존 서비스 주체(사용자)를 가져와야 합니다. 이 작업을 수행하는 방법에 대한 자세한 내용은 [Get servicePrincipal](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/serviceprincipal_get)을 참조하세요.
+1. 테넌트 내에서 기존 서비스 주체(사용자)를 가져와야 합니다. 이 작업을 수행하는 방법에 대한 자세한 내용은 [Get servicePrincipal](https://developer.microsoft.com/graph/docs/api-reference/beta/api/serviceprincipal_get)을 참조하세요.
 
     {id} 없이 *Get servicePrincipal* API를 호출하면 테넌트 내의 모든 서비스 주체를 가져옵니다.
 2. **appId** 속성으로 앱 클라이언트 ID가 있는 서비스 주체를 확인합니다.

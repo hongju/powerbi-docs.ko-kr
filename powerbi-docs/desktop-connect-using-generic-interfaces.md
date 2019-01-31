@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c1671c820b6de4cddac169c67103168ac46ffc1f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c680ebea23c479202b8b49ed0376f2416a9cffa3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296045"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430628"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Power BI Desktop에서 제네릭 인터페이스를 사용하여 데이터에 연결
 리소스의 **데이터 가져오기** 창에 표시된 대로, **데이터베이스 액세스**에서 **Zendesk**에 이르는 기본 제공 데이터 커넥터를 사용하여 **Power BI Desktop**의 다수의 다양한 데이터 원본에 연결할 수 있습니다. **Power BI Desktop**에 빌드된 제네릭 인터페이스(예: **ODBC** 또는 **REST API**)를 사용하여 모든 종류의 *다른* 데이터 원본에 연결하여 추가로 사용자 연결 옵션을 더욱 확장시킬 수도 있습니다.
@@ -49,7 +49,7 @@ ms.locfileid: "54296045"
 | Power BI Desktop 제네릭 커넥터 | 외부 데이터 원본 | 자세한 정보에 대한 링크 |
 | --- | --- | --- |
 | ODBC |Cassandra |[Cassandra ODBC 드라이버](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
-| ODBC |Couchbase DB |[Couchbase 및 Power BI](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| ODBC |Couchbase DB |[Couchbase 및 Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 | ODBC |DynamoDB |[DynamoDB ODBC 드라이버](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
 | ODBC |Google BigQuery |[BigQuery ODBC 드라이버](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
 | ODBC |Hbase |[Hbase ODBC 드라이버](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
@@ -91,7 +91,7 @@ ms.locfileid: "54296045"
 
 | Power BI Desktop 제네릭 커넥터 | 외부 데이터 원본 | 자세한 정보에 대한 링크 |
 | --- | --- | --- |
-| REST API |Couchbase DB |[Couchbase REST API 정보](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| REST API |Couchbase DB |[Couchbase REST API 정보](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 
 ## <a name="data-sources-accessible-through-r-script"></a>R 스크립트를 통해 액세스할 수 있는 데이터 원본
 **R 스크립트**를 사용하여 데이터 원본에 액세스하고 **Power BI Desktop**에서 해당 데이터를 사용할 수 있습니다.

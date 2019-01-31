@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: f95b778daa9112324c20b0f358e21dd004092060
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294048"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430007"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>추가 구매 시 Power BI 시각적 개체에 대한 지침
 
@@ -62,7 +62,7 @@ IAP 시각적 개체는 무료 시각적 개체이며 무료 기능을 제공하
 
 ## <a name="faq"></a>FAQ
 
-자세한 내용 및 질문과 대답은 [추가 구매가 포함된 시각적 개체에 관한 자주 묻는 질문](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases)을 참조하세요.
+자세한 내용 및 질문과 대답은 [추가 구매가 포함된 시각적 개체에 관한 자주 묻는 질문](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

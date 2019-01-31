@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: c662fea5bb343d835cffec126ffe6eb071be2218
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7f1c05e1c396b1126bffbf6e62798e679decdca9
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296642"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431180"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>자습서: Power BI 보고서, 대시보드 또는 타일을 고객의 애플리케이션에 포함
 
@@ -30,7 +30,7 @@ ms.locfileid: "54296642"
 
 시작하려면 사용자의 **마스터 계정**인 **Power BI Pro** 계정 및 **Microsoft Azure** 구독이 필요합니다.
 
-* 아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/en-us/pricing/)합니다.
+* 아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
 * Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)을 만듭니다.
 * 고유한 [Azure Active Directory 테넌트 ](create-an-azure-active-directory-tenant.md) 설정을 사용해야 합니다.
 * [Visual Studio](https://www.visualstudio.com/)를 설치해야 합니다(버전 2013 이상).

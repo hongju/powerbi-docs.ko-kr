@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 11/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d48384be3c581eb25cde7019882ad2f44995ca99
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3d197da63be256825efc44c9e97988648d049efa
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279967"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430743"
 ---
 # <a name="kpi-visuals"></a>KPI 시각적 개체
 KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률의 정도를 알리는 시각적 신호입니다. KPI에 대한 자세한 내용은 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)를 참조하세요.
@@ -24,7 +24,7 @@ KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률�
 아직 Power BI에 등록하지 않은 경우 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ## <a name="prerequisites"></a>필수 조건
-* [Power BI Desktop - 무료입니다!](https://powerbi.microsoft.com/en-us/get-started/)
+* [Power BI Desktop - 무료입니다!](https://powerbi.microsoft.com/get-started/)
 * [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ## <a name="when-to-use-a-kpi"></a>KPI를 사용하는 경우

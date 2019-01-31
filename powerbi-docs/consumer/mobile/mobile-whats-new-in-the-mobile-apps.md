@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54324046"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431249"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -37,15 +37,15 @@ ms.locfileid: "54324046"
 
 ### <a name="enhance-presentation-mode-windows"></a>프레젠테이션 모드(Windows)를 개선합니다.
 
-Surface Hub 및 Windows 10 디바이스에 대해 향상된 프레젠테이션 모드입니다.  개선된 프레젠테이션 및 협업 도구와 크롬을 사용하지 않고 최적화된 대형 화면 보기를 제공하는 향상된 Surface Hub 회의실을 사용하여, 데이터에 집중할 수 있습니다. 또한 프레젠테이션 모드는 데이터를 효과적으로 제시하고 데이터에 대해 토론하는 데 도움이 되는 도구를 제공합니다. [여기](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/)에서 프레젠테이션 모드에 대한 자세한 내용을 알아보세요.
+Surface Hub 및 Windows 10 디바이스에 대해 향상된 프레젠테이션 모드입니다.  개선된 프레젠테이션 및 협업 도구와 크롬을 사용하지 않고 최적화된 대형 화면 보기를 제공하는 향상된 Surface Hub 회의실을 사용하여, 데이터에 집중할 수 있습니다. 또한 프레젠테이션 모드는 데이터를 효과적으로 제시하고 데이터에 대해 토론하는 데 도움이 되는 도구를 제공합니다. [여기](https://powerbi.microsoft.com/blog/presentation-mode-in-power-bi-windows-app/)에서 프레젠테이션 모드에 대한 자세한 내용을 알아보세요.
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>태블릿의 세로 보고서 레이아웃(iOS 및 Android)
 
-이제 휴대폰 보고서 레이아웃이 있는 경우 이를 사용하여 태블릿에서 보고서를 세로 모드 방향으로 표시할 수 있습니다. [Power BI 서비스 또는 데스크톱에서 휴대폰 레이아웃을 만드는 방법](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/)에 대해 자세히 알아보세요.
+이제 휴대폰 보고서 레이아웃이 있는 경우 이를 사용하여 태블릿에서 보고서를 세로 모드 방향으로 표시할 수 있습니다. [Power BI 서비스 또는 데스크톱에서 휴대폰 레이아웃을 만드는 방법](https://docs.microsoft.com/power-bi/desktop-create-phone-report/)에 대해 자세히 알아보세요.
 
 ### <a name="supporting-report-query-string"></a>보고서 쿼리 문자열 지원 
 
-쿼리 문자열이 포함된 보고서 열기 링크가 이제 모바일 앱에서 열리고 쿼리 문자열에 정의된 조건에 따라 미리 필터링됩니다. [쿼리 문자열을 사용하여 보고서 URL을 만드는 방법](https://docs.microsoft.com/en-us/power-bi/service-url-filters/)에 대해 자세히 알아보세요.  
+쿼리 문자열이 포함된 보고서 열기 링크가 이제 모바일 앱에서 열리고 쿼리 문자열에 정의된 조건에 따라 미리 필터링됩니다. [쿼리 문자열을 사용하여 보고서 URL을 만드는 방법](https://docs.microsoft.com/power-bi/service-url-filters/)에 대해 자세히 알아보세요.  
 
 ### <a name="shared-credentials-now-in-android"></a>공유 자격 증명(현재 Android)
 
@@ -65,7 +65,7 @@ Surface Hub 및 Windows 10 디바이스에 대해 향상된 프레젠테이션 �
 
 이제 Power BI 서비스에서 페이지를 매긴 보고서를 사용할 수 있습니다. Power BI 서비스에서 페이지를 매긴 보고서에 액세스할 수 있는 사용자는 모바일 앱에서도 이러한 보고서에 액세스할 수 있습니다. 
 
-[모바일의 페이지를 매긴 보고서에 대한 Power BI 블로그 게시물](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/)을 참조하세요.
+[모바일의 페이지를 매긴 보고서에 대한 Power BI 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/)을 참조하세요.
 
 ### <a name="shared-credentials-ios"></a>공유 자격 증명(iOS)
 

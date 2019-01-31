@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7c233d059bb8db0c90097e4648ac515a0f499ba5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 65889d1082cee75ed56edc67ece9c99b5f344a6e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295605"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430224"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>조직의 Power BI 라이선스 부여
 
@@ -43,9 +43,9 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
 
 등록하기 위한 단계를 수행하기 전에 다음 사항을 유의하세요.
 
-* 등록하려면 Office 365의 [**전역 관리자** 또는 **대금 청구 관리자**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) 역할의 구성원이어야 합니다.
+* 등록하려면 Office 365의 [**전역 관리자** 또는 **대금 청구 관리자**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) 역할의 구성원이어야 합니다.
 
-* 조직 평가판은 테넌트당 1개로 제한됩니다. 이는 이미 다른 사용자가 Power BI Pro 평가판을 테넌트에 적용한 경우에 이 평가판을 다시 구할 수 없다는 것을 의미합니다. 이와 관련하여 도움이 필요한 경우 [Office 365 청구 지원](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671&ui=en-US&rs=en-US&ad=US)에 문의하세요.
+* 조직 평가판은 테넌트당 1개로 제한됩니다. 이는 이미 다른 사용자가 Power BI Pro 평가판을 테넌트에 적용한 경우에 이 평가판을 다시 구할 수 없다는 것을 의미합니다. 이와 관련하여 도움이 필요한 경우 [Office 365 청구 지원](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671)에 문의하세요.
 
 1. [Office 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)로 이동합니다.
 

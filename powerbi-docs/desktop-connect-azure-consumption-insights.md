@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f6c7df80f580c40cb1c0653b237894bb5911bde0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7280d7c601e59b15ffad6ececfed8b111ab796cb
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282543"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430973"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop(베타)의 Azure Consumption Insights에 연결
 **Azure Consumption Insights** 커넥터에서 **Power BI Desktop**을 사용하여 Azure에 연결하고 조직의 Azure 서비스 사용에 대한 심층 분석 데이터 및 정보를 가져옵니다. 또한 측정값, 사용자 지정 열, 시각적 개체를 만들어 조직의 Azure 사용에 대해 보고하고 공유할 수 있습니다. **Azure Consumption Insights** 커넥터의 이 릴리스는 베타 상태이며 변경될 수 있습니다.
@@ -70,7 +70,7 @@ ms.locfileid: "54282543"
 > 
 > 
 
-**부하**를 선택하는 경우 데이터는 **Power BI Desktop**으로 로드됩니다.  커넥터는 테이블의 기본 기간에 따라 데이터를 로드합니다.  기간을 사용자 지정해야 하는 경우 [사용자 지정 쿼리를 설정할 수 있습니다](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
+**부하**를 선택하는 경우 데이터는 **Power BI Desktop**으로 로드됩니다.  커넥터는 테이블의 기본 기간에 따라 데이터를 로드합니다.  기간을 사용자 지정해야 하는 경우 [사용자 지정 쿼리를 설정할 수 있습니다](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 

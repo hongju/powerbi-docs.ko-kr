@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 2f7d43649079f63fe18bfb4316557c2b5322f204
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 8cda803939ee9ae2f864496300fce25890770dac
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234465"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430376"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -387,7 +387,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 시각적 개체 ID가 변경되지 않았는지 확인합니다. 새 파일은 조직 전체의 모든 보고서에 대해 이전 파일을 대체합니다. 그러나 시각적 개체의 새 버전이 시각적 개체의 이전 버전에 대한 사용이나 데이터 구조를 중단하는 경우에는 이전 버전을 바꾸지 마세요. 대신에 시각적 개체의 새 버전에 대한 새 목록을 만들어야 합니다. 예를 들어 새 버전 번호(버전 X.X)를 새 나열된 시각적 개체의 제목에 추가합니다. 이렇게 하면 업데이트된 버전 번호를 가진 동일한 시각적 개체가 되므로 기존 보고서가 해당 기능을 중단하지 않습니다. 다시 한번 시각적 개체 ID가 변경되지 않았는지 확인합니다. 그러면 다음에 사용자가 Power BI Desktop에서 조직의 리포지토리에 들어갈 때 새 버전을 가져올 수 있으며, 보고서에 있는 현재 버전을 바꾸라는 메시지가 표시됩니다.
 
-자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)을 참조하세요.
+자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)을 참조하세요.
 
 ## <a name="dataflow-storage-preview"></a>데이터 흐름 스토리지(미리 보기)
 

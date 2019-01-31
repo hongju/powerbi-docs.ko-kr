@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 03fc8430317905294e735da928b8b65d93be3545
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0d78b38928ee807ca9c8b62a90645a1c21daab55
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277023"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431042"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop의 일반적인 쿼리 작업
 Power BI Desktop의 **쿼리 편집기** 창에서 작업하는 경우 일반적으로 사용되는 소수의 작업이 있습니다. 이 문서에서는 이러한 일반적인 작업을 보여 주고, 추가 정보 링크를 제공합니다. 
@@ -142,7 +142,7 @@ Power BI Desktop을 사용하면 열을 피벗하고, 열의 각 고유 값에 �
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-여기서는 **USA\_StudentEnrollment** 쿼리와 연결된 쿼리 단계가 표시된 **고급 편집기**를 살펴보겠습니다. 이러한 단계는 **M**이라고도 하는 파워 쿼리 수식 언어로 생성됩니다. 자세한 내용은 [파워 쿼리 수식에 대한 자세한 정보](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US)를 참조하세요. 언어 사양 자체를 보려면 [Microsoft Excel용 파워 쿼리 수식 언어 사양](http://go.microsoft.com/fwlink/?linkid=320633)을 참조하세요.
+여기서는 **USA\_StudentEnrollment** 쿼리와 연결된 쿼리 단계가 표시된 **고급 편집기**를 살펴보겠습니다. 이러한 단계는 **M**이라고도 하는 파워 쿼리 수식 언어로 생성됩니다. 자세한 내용은 [파워 쿼리 수식에 대한 자세한 정보](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)를 참조하세요. 언어 사양 자체를 보려면 [Microsoft Excel용 파워 쿼리 수식 언어 사양](http://go.microsoft.com/fwlink/?linkid=320633)을 참조하세요.
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

@@ -8,12 +8,12 @@ ms.service: powerbi-service
 ms.topic: resource
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 1722c401dfd5d2fdfbba530f440cecf9f1e075f3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280791"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431272"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다.
@@ -32,7 +32,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **경고** 설정된 제한에 따른 데이터 변화를 사용자에게 알리는 기능입니다. 보고서 시각적 개체에서 고정된 타일에서 경고를 설정할 수 있습니다. 사용자는 서비스 및 해당 모바일 앱에 대한 경고를 받습니다.
 
-**주석 달기** iOS 및 Android 장치용 Power BI 모바일 앱에서 타일, 보고서 또는 시각화 개체의 스냅숏 사본에 줄, 텍스트 또는 스탬프를 쓰는 것입니다.
+**주석 달기** iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 또는 시각화 개체의 스냅숏 사본에 줄, 텍스트 또는 스탬프를 쓰는 것입니다.
 
 **대답 카드, 대답 페이지** Cortana 대답 카드를 참조하세요.
 
@@ -70,7 +70,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **콘텐츠 목록** 앱의 콘텐츠 인덱스입니다.
 
-**콘텐츠 팩** 사전 패키지된 데이터 세트, 보고서 및 대시보드의 모음입니다. 이제 **앱**, [새 작업 영역 환경에 대해](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces) 알아봅니다. 
+**콘텐츠 팩** 사전 패키지된 데이터 세트, 보고서 및 대시보드의 모음입니다. 이제 **앱**, [새 작업 영역 환경에 대해](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) 알아봅니다. 
 
 **콘텐츠 보기**
 
@@ -220,13 +220,13 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **Power BI 서비스** 온라인 SaaS(Software as a Service) 서비스입니다. 자세한 내용은 [Power BI란?](../power-bi-overview.md)을 참조하세요.
 
-**Power BI 서비스 커넥터** Power BI Desktop 사용자는 이 커넥터를 통해 Desktop에서 Power BI 서비스의 데이터 집합에 연결할 수 있습니다. 모델을 한 번 만든 후 여러 보고서 및 대시보드에서 다시 사용할 수 있습니다.
+**Power BI 서비스 커넥터** Power BI Desktop 사용자는 이 커넥터를 통해 Desktop에서 Power BI 서비스의 데이터 세트에 연결할 수 있습니다. 모델을 한 번 만든 후 여러 보고서 및 대시보드에서 다시 사용할 수 있습니다.
 
 **Premium 작업 영역** 다이아몬드 아이콘을 통해 고객에게 표시되며, 전용 용량으로 실행되는 작업 영역입니다.  
 
 
 ## <a name="q"></a>Q
-**질문 및 답변** 데이터 집합에 대한 자연어 질문을 입력하고 시각화 형식으로 답변을 얻은 기능입니다. Power BI 서비스 및 Desktop에 나타납니다.
+**질문 및 답변** 데이터 세트에 대한 자연어 질문을 입력하고 시각화 형식으로 답변을 얻은 기능입니다. Power BI 서비스 및 Desktop에 나타납니다.
 
 **질문 및 답변 가상 분석가**  
 [Power BI Mobile] iOS의 경우 질문 및 답변에 대한 대화식 UI가 표시됩니다.
@@ -311,7 +311,7 @@ Power BI 대시보드에는 보고서 타일이 포함되어 있습니다.
 
 **통합 문서** 데이터 원본으로 사용할 Excel 통합 문서입니다. 통합 문서는 연결된 테이블, 파워 쿼리 또는 파워 피벗을 사용하여 로드한 데이터의 하나 이상의 테이블이 있는 데이터 모델을 포함할 수 있습니다.
 
-**작업 영역** Power BI의 대시보드, 보고서 및 데이터 집합에 대한 컨테이너입니다. 이 용어 모음에서 앱 작업 영역을 참조하세요.
+**작업 영역** Power BI의 대시보드, 보고서 및 데이터 세트에 대한 컨테이너입니다. 이 용어 모음에서 앱 작업 영역을 참조하세요.
 
 ## <a name="x"></a>X
 **X축**  

@@ -7,17 +7,17 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: a52902e22572503b4be6c21f87abf62a90f60476
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: be1c1e489cd29fc67ade95886f77a5a08697ff99
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296619"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431019"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션하고 앱에서 포함하기 위한 고급 기능을 활용하는 방법을 알아봅니다.
 
-Microsoft는 최근에 사용자의 콘텐츠 액세스, 공유 및 배포 방법에 대한 유연성을 높여주는 새로운 용량 기반 라이선스 모델인 [Power BI Embedded를 발표했습니다](https://powerbi.microsoft.com/en-us/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/). 또한, 이 제품은 향상된 확장성 및 성능을 제공합니다.
+Microsoft는 최근에 사용자의 콘텐츠 액세스, 공유 및 배포 방법에 대한 유연성을 높여주는 새로운 용량 기반 라이선스 모델인 [Power BI Embedded를 발표했습니다](https://powerbi.microsoft.com/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/). 또한, 이 제품은 향상된 확장성 및 성능을 제공합니다.
 
 Power BI Embedded를 사용하면, 콘텐츠 포함 시 단일 API 영역, 일관된 성능은 물론 대시보드, 게이트웨이 및 앱 작업 영역 등의 최신 Power BI 기능을 이용할 수 있습니다. 더 나아가 Power BI Desktop을 시작하고 Power BI Embedded를 통해 배포를 진행할 수 있습니다.
 

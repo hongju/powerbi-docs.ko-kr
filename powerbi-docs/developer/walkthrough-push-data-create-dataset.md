@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 004f1b16474f738f8354585c83cd7707799e6dbb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b05a0182fd360fc407a0cc00ad31b94f70648749
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288584"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430330"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3단계: Power BI에서 데이터 세트 만들기
 이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
@@ -153,7 +153,7 @@ Program.cs에 이 코드를 추가합니다.
                 string resourceUri = "https://analysis.windows.net/powerbi/api";
 
                 //OAuth2 authority Uri
-                string authorityUri = "https://login.windows.net/common/oauth2/authorize";
+                string authorityUri = "https://login.microsoftonline.net/common/";
 
                 //Get access token:
                 // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

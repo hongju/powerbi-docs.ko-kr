@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295377"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430444"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>시각적 개체 유형별 데이터 요소 제한 및 전략
 
@@ -40,7 +40,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 ## <a name="statistics"></a>통계
 특정 모델은 특정 열의 값 수에 대한 통계를 제공할 수 있습니다. 해당 정보가 있으면 해당 정보를 이용하여 시각적 개체가 전략의 값 수를 명시적으로 재정의하지 않는 경우 여러 계층 구조에서 향상된 분산을 제공합니다.
 
-자세한 내용은 [Analysis Services의 새로운 기능](https://docs.microsoft.com/en-us/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)을 참조하세요.
+자세한 내용은 [Analysis Services의 새로운 기능](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)을 참조하세요.
 
 ## <a name="dynamic-limits"></a>동적 제한
 위의 전략 외에도 그룹화 열의 2개 계층 구조(축과 범례 또는 범주와 계열)가 있는 시각적 개체는 ‘동적 제한’이라는 하나의 추가 전략을 사용합니다.  동적 제한은 데이터 요소를 더 잘 분산하도록 설계되었습니다. 
@@ -128,7 +128,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 - 값: 한 번에 200개 행의 창을 사용하여 가상화
 
 ### <a name="scatter-chart-high-density"></a>분산형 차트(고밀도)
-[고밀도 분산형](https://docs.microsoft.com/en-us/power-bi/visuals/desktop-high-density-scatter-charts) 참조
+[고밀도 분산형](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts) 참조
 
 ### <a name="pie"></a>원형
 - 최대 요소: 3,500

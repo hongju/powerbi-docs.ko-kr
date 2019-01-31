@@ -9,18 +9,18 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 2d43fe5e0248d3876f70878bbbe8a1c9b6387df7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278909"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430904"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch에서 Power BI 모바일 앱의 데이터 탐색
 Power BI Apple Watch 앱을 사용하여 시계에 있는 Power BI 대시보드에서 KPI 및 타일 카드을 볼 수 있습니다. KPI 및 카드 타일은 작은 화면에서 하트비트 측정값을 제공하는 데 가장 적합합니다. iPhone이나 Watch 자체에서 대시보드를 새로 고칠 수 있습니다.
 
 ## <a name="install-the-apple-watch-app"></a>Apple Watch 앱 설치
-Power BI Apple Watch 앱은 iOS 앱용 Power BI를 제공하므로 [iPhone에 Power BI 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone 앱을 다운로드")할 경우 Apple 앱 스토어에서 하면 Power BI Watch 앱을 자동으로 다운로드 합니다. Apple 설명서에서는 [Apple Watch 애플리케이션을 설치](https://support.apple.com/en-us/HT204784)하는 방법을 설명합니다.
+Power BI Apple Watch 앱은 iOS 앱용 Power BI를 제공하므로 [iPhone에 Power BI 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone 앱을 다운로드")할 경우 Apple 앱 스토어에서 하면 Power BI Watch 앱을 자동으로 다운로드 합니다. Apple 설명서에서는 [Apple Watch 애플리케이션을 설치](https://support.apple.com/HT204784)하는 방법을 설명합니다.
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Apple Watch에서 Power BI 앱 사용
 시계의 Springboard에서 또는 시계 화면(구성된 경우)에서 직접 Power BI 위젯을 클릭하여 Power BI Apple Watch 앱으로 이동합니다.
@@ -69,7 +69,7 @@ Power BI는 대시보드가 시계와 동기화되었다는 지표를 보여줍�
 Power BI Apple Watch 위젯은 데이터가 업데이트되는 시간에 업데이트되므로 필요한 정보를 항상 최신 상태로 유지합니다.
 
 ### <a name="add-a-power-bi-widget-to-your-watch-face"></a>시계 화면에 Power BI 위젯 추가
-Apple 가이드에서 [Apple Watch 화면 사용자 지정](https://support.apple.com/en-us/HT205536)을 참조하세요.
+Apple 가이드에서 [Apple Watch 화면 사용자 지정](https://support.apple.com/HT205536)을 참조하세요.
 
 ### <a name="change-the-text-on-the-widget"></a>위젯의 텍스트 변경
 Apple Watch 화면의 작은 공간에 맞게 Power BI Apple Watch 앱을 통해 작은 공간에 맞게 위젯의 제목을 변경할 수 있습니다.

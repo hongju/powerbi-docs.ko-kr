@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: d811ff6c68155d354df1785ae722829e1187543c
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147568"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431088"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
@@ -40,7 +40,7 @@ ms.locfileid: "55147568"
 * Power BI [보고서 URL 필터](service-url-filters.md) 개선 사항
 
 ### <a name="july-2018"></a>2018년 7월
-* [영구 필터](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)에 대한 사용자 지정 시각적 개체 지원
+* [영구 필터](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)에 대한 사용자 지정 시각적 개체 지원
 * Power BI 관리자용 [API 및 PowerShell Cmdlet](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/)
 * Power BI Premium에 대한 [Multi-Geo 지원](service-admin-premium-multi-geo.md)
 

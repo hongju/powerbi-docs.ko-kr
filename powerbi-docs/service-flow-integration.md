@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: f39912f5813f67ed65afde10a0e157385e98b7b7
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406618"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430766"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 및 Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started)는 비즈니스 사용자가 사용하는 애플리케이션 및 SaaS 서비스가 증가함에 따라 워크플로 자동화를 위해 제공되는 SaaS입니다. Flow를 사용하면 즐겨 찾는 앱과 서비스(Power BI 포함)를 통합하여 작업을 자동화함으로써 알림 가져오기, 파일 동기화, 데이터 수집 등을 수행할 수 있습니다. 워크플로 자동화를 사용하면 반복 작업이 쉬워집니다.
+[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started)는 비즈니스 사용자가 사용하는 애플리케이션 및 SaaS 서비스가 증가함에 따라 워크플로 자동화를 위해 제공되는 SaaS입니다. Flow를 사용하면 즐겨 찾는 앱과 서비스(Power BI 포함)를 통합하여 작업을 자동화함으로써 알림 가져오기, 파일 동기화, 데이터 수집 등을 수행할 수 있습니다. 워크플로 자동화를 사용하면 반복 작업이 쉬워집니다.
 
 [이제 Flow를 사용하여 시작합니다.](https://flow.microsoft.com/documentation/getting-started)
 
@@ -31,7 +31,7 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Power BI 데이터 경고로 트리거하는 흐름 만들기
 
 ### <a name="prerequisites"></a>필수 조건
-이 자습서에서는 흐름을 만드는 두 가지 방법, 즉 템플릿을 이용하는 방법과 처음부터 새로 만드는 방법을 보여줍니다. 과정을 따르려면 [Power BI에서 데이터 경고를 만들고](service-set-data-alerts.md), Slack 체험 계정을 만든 다음, [Microsoft Flow에 등록합니다](https://flow.microsoft.com/en-us/#home-signup)(무료).
+이 자습서에서는 흐름을 만드는 두 가지 방법, 즉 템플릿을 이용하는 방법과 처음부터 새로 만드는 방법을 보여줍니다. 과정을 따르려면 [Power BI에서 데이터 경고를 만들고](service-set-data-alerts.md), Slack 체험 계정을 만든 다음, [Microsoft Flow에 등록합니다](https://flow.microsoft.com/#home-signup)(무료).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Power BI를 사용하여 템플릿을 기반으로 하는 흐름 만들기
 이 작업에서는 Power BI 데이터 경고(알림)에 의해 트리거되는 간단한 흐름을 만드는 템플릿을 사용합니다.
@@ -108,7 +108,7 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
     ![흐름은 Outlook 알림을 트리거합니다.](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>다음 단계
-* [Microsoft Flow 시작](https://flow.microsoft.com/en-us/documentation/getting-started/)
+* [Microsoft Flow 시작](https://flow.microsoft.com/documentation/getting-started/)
 * [Power BI 서비스에서 데이터 경고 설정](service-set-data-alerts.md)
 * [iPhone에서 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10용 Power BI 모바일 앱의 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

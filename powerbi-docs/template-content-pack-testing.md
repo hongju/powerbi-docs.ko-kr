@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 2ceb8440cd64b05966caaadc9346771dd28cba82
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8a5382a5e435f916599b05310f89d9b1f0327023
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281232"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430674"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Power BI용 템플릿 콘텐츠 팩 테스트
 게시를 위해 제출하기 전에 여러 가지 방법으로 콘텐츠 팩을 테스트할 수 있습니다.  
@@ -68,7 +68,7 @@ ms.locfileid: "54281232"
 <a name="submission"></a>
 
 ## <a name="submission"></a>제출
-[Microsoft AppSource](https://appsource.microsoft.com/en-us/partners/list-an-app)를 통한 제출 프로세스를 통해 PowerBI.com의 서비스 콘텐츠 팩 갤러리에서 템플릿 콘텐츠 팩을 게시할 뿐만 아니라 [Microsoft AppSource](http://appsource.microsoft.com)에 콘텐츠 팩을 나열합니다.
+[Microsoft AppSource](https://appsource.microsoft.com/partners/list-an-app)를 통한 제출 프로세스를 통해 PowerBI.com의 서비스 콘텐츠 팩 갤러리에서 템플릿 콘텐츠 팩을 게시할 뿐만 아니라 [Microsoft AppSource](http://appsource.microsoft.com)에 콘텐츠 팩을 나열합니다.
 
 ### <a name="before-submission"></a>제출하기 전에
 * 콘텐츠 팩 내에 있는 각 아티팩트에 대해 작성 팁을 검토합니다.
@@ -77,7 +77,7 @@ ms.locfileid: "54281232"
 * 콘텐츠 팩이 Q&A에 대해 잘 응답하는지 확인하고 데이터 모델에 대해 30개 이상의 다양한 질문으로 테스트해보는 것이 좋습니다. (사용자 고유의 사용자 지정 [데이터 커넥터](https://aka.ms/DataConnectors)를 개발한 경우 이 단계를 건너뜁니다.)
 
 ### <a name="submission"></a>제출
-제출할 준비가 되면 AppSource의 [앱 제출 페이지](https://appsource.microsoft.com/en-us/partners/list-an-app)를 방문하고 정보를 제출합니다. 사용 가능한 제품 목록에서 Power BI가 선택되어 있는지 확인합니다.
+제출할 준비가 되면 AppSource의 [앱 제출 페이지](https://appsource.microsoft.com/partners/list-an-app)를 방문하고 정보를 제출합니다. 사용 가능한 제품 목록에서 Power BI가 선택되어 있는지 확인합니다.
 
 Power BI 팀에서 제출을 검토하고 모든 아티팩트가 제출 요구 사항을 충족하는지 확인하도록 연락합니다. 완료하는 것 외에도 애플리케이션에 설명된 비즈니스 시나리오를 충족하는지 확인하기 위해 제공된 대시보드 및 보고서의 품질도 확인합니다.
 

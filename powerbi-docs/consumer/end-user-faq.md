@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 001fab5caae7663a70b0f4d4272a1f9abbb1765e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394768"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429915"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
@@ -50,7 +50,7 @@ Power BI Desktop은 사용자가 자신의 컴퓨터에 바로 설치할 수 있
 Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. [Power BI 셀프 서비스 등록 프로세스](../service-self-service-signup-for-power-bi.md)에 대해 자세히 알아보세요.
 
 ## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>정부, 교육 및 비영리 기관용 가격 책정을 Power BI에 적용할 수 있나요?
-예, 비영리 기관용 가격 책정은 Microsoft로부터 직접 구입하는 경우 사용할 수 있습니다. [Microsoft 비영리](https://www.microsoft.com/en-us/nonprofits/power-bi) 사이트를 통해 자세한 정보를 알아보고 등록할 수 있습니다. 정부 및 교육 기관용 가격 책정은 MOSP/Direct, EA 및 Open 라이선싱 프로그램을 통해 제공됩니다. 정부 기관용 가격 책정도 배포에서 사용할 수 있습니다. 
+예, 비영리 기관용 가격 책정은 Microsoft로부터 직접 구입하는 경우 사용할 수 있습니다. [Microsoft 비영리](https://www.microsoft.com/nonprofits/power-bi) 사이트를 통해 자세한 정보를 알아보고 등록할 수 있습니다. 정부 및 교육 기관용 가격 책정은 MOSP/Direct, EA 및 Open 라이선싱 프로그램을 통해 제공됩니다. 정부 기관용 가격 책정도 배포에서 사용할 수 있습니다. 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI는 모바일 디바이스를 지원하나요?
 예. Power BI에는 Android 휴대폰 및 태블릿, iOS 디바이스 및 Windows 10 디바이스용 기본 앱이 있습니다. 다음의 각 스토어에서 [Power BI 모바일 앱](https://powerbi.microsoft.com/mobile) 중 하나를 다운로드합니다.  

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/17/2018
-ms.openlocfilehash: cd32b644205629ce62579f5a720d486f93073dea
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: da005c7b1dcf04a61873f2b712083b10a5365329
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394731"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430582"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -79,7 +79,7 @@ Power BI Embedded는 Platform as a Service에서 포함된 분석 솔루션을 �
 |  |A SKU(Power BI Embedded)  |EM SKU(Power BI Premium)  |P SKU(Power BI Premium)  |
 |---------|---------|---------|---------|
 |구입  |Azure Portal |Office |Office |
-|사용 사례 | 자체 애플리케이션에 콘텐츠 포함 | <li> 자체 애플리케이션에 콘텐츠 포함 <br><br></br> <li> MS Office 애플리케이션에 콘텐츠 포함: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams(모바일 앱 제외)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 자체 애플리케이션에 콘텐츠 포함 <br><br></br> <li> MS Office 애플리케이션에 콘텐츠 포함: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams(모바일 앱 제외)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> [Power BI 서비스](https://powerbi.microsoft.com/en-us/)를 통해 Power BI 사용자와 콘텐츠 공유  |
+|사용 사례 | 자체 애플리케이션에 콘텐츠 포함 | <li> 자체 애플리케이션에 콘텐츠 포함 <br><br></br> <li> MS Office 애플리케이션에 콘텐츠 포함: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams(모바일 앱 제외)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 자체 애플리케이션에 콘텐츠 포함 <br><br></br> <li> MS Office 애플리케이션에 콘텐츠 포함: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams(모바일 앱 제외)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> [Power BI 서비스](https://powerbi.microsoft.com/)를 통해 Power BI 사용자와 콘텐츠 공유  |
 |청구 |시간별 |매월 |매월 |
 |약정  |약정 없음 |매년  |매월/매년 |
 |차별화 |탁월한 탄력성 - Azure Portal에서 또는 API를 통해 리소스를 강화/규모 축소, 일시 중지/다시 시작 가능  |SharePoint Online 및 Microsoft Teams(모바일 앱 제외)에 콘텐츠를 포함하는 데 사용 가능 |애플리케이션에 포함 및 Power BI 서비스 사용을 동일한 용량에 결합 |

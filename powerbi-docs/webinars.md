@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283142"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430996"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -24,7 +24,7 @@ ms.locfileid: "54283142"
 
 아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
 
->[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
+>[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>주요 웹 세미나
 

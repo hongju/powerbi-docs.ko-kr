@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 76027ff6e75071fde178ae05a8656c1596d36598
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 627a94097d4235f39414c1165ac8cbbc806508a3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291697"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430063"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Power BI의 질문 및 답변에서 Excel 데이터가 잘 작동하게 만드는 방법
 데이터 모델을 만들거나 Power BI에 사용할 Excel 통합 문서를 작성하는 사람이라면 다음을 확인하세요.
@@ -34,7 +34,7 @@ Power BI에서는 질문 및 답변으로 구조화된 데이터를 검색하고
 
 다음은 통합 문서에서 대부분의 질문 및 답변에 대한 몇 가지 팁입니다.
 
-* 데이터가 Excel 테이블인지 확인합니다. 다음은 [Excel 테이블을 만드는 방법](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-e81aa349-b006-4f8a-9806-5af9df0ac664?ui=en-US&rs=en-US&ad=US)입니다.
+* 데이터가 Excel 테이블인지 확인합니다. 다음은 [Excel 테이블을 만드는 방법](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-e81aa349-b006-4f8a-9806-5af9df0ac664)입니다.
 * 테이블, 열 및 계산된 필드의 이름이 자연어로 인식되는지 확인합니다.
   
   예를 들어, 판매 데이터를 포함하는 테이블인 경우 테이블을 "Sales"라고 합니다. "Year", "Product", "Sales Rep" 및 "Amount"와 같은 열 이름이 질문 및 답변에서 잘 작동합니다.

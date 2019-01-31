@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 660f76b5bf04f742d435df928e068e434ca70531
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281991"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430605"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI 서비스 ***소비자를*** 위한 기본 개념
 
@@ -37,7 +37,7 @@ ms.locfileid: "54281991"
 ![Power BI 서비스 시작 화면](media/end-user-basic-concepts/power-bi-open.png)
 
 Power BI를 사용할 때는 웹 사이트를 열 때마다 표시되는 내용을 개인 설정할 수 있습니다.  예를 들어, Power BI가 홈 페이지를 여는 것을 선호하는 사람도 있고, 즐겨찾기 대시보드에 먼저 표시되는 것을 선호하는 사람도 있습니다. 걱정하지 마세요. 그 방법을 알려드리겠습니다. 
-- [홈 미리 보기](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [홈 미리 보기](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)    
 - [콘텐츠를 **추천**](end-user-featured.md) 콘텐츠로 설정 
 
 ![홈페이지 보기와 대시보드 보기](media/end-user-basic-concepts/power-bi-first.png)

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 025d843158795e7c36a5a278f2022349a9b72ca6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 50fbb175640e38431db62df34276417f1080e42a
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277161"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430353"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 성능에 대한 모범 사례
 
@@ -26,7 +26,7 @@ Powerbi.embed() 메서드는 보고서, 대시보드 또는 타일을 포함하�
 
 ### <a name="embed-url"></a>포함 URL
 
-포함 URL은 직접 생성하지 마세요. 대신 [보고서 가져오기](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Freports%2Fgetreportsingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256168308&sdata=22lkqRM2w1MQfrM8dooedaPqqIU8PufTq9TT4VDzRo0%3D&reserved=0), [대시보드 가져오기](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Fdashboards%2Fgetdashboardsingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256168308&sdata=nfWRgbSoXVF42Rg%2Ba9491u19uksXp%2FAyz%2Fa%2Ba7%2FCtdA%3D&reserved=0) 또는 [타일 가져오기](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Fdashboards%2Fgettilesingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256178318&sdata=LgZ27TynNpqQJDrb3aHWGQXIS%2FzichAO9De5M2uhF1Q%3D&reserved=0) API를 호출하여 포함 URL을 가져옵니다. **_config_** 라는 URL에 새 매개 변수를 추가하여 성능을 향상시켰습니다.
+포함 URL은 직접 생성하지 마세요. 대신 [보고서 가져오기](/rest/api/power-bi/reports/getreportsingroup), [대시보드 가져오기](/rest/api/power-bi/dashboards/getdashboardsingroup) 또는 [타일 가져오기](/rest/api/power-bi/dashboards/gettilesingroup) API를 호출하여 포함 URL을 가져옵니다. **_config_** 라는 URL에 새 매개 변수를 추가하여 성능을 향상시켰습니다.
 
 ### <a name="permissions"></a>권한
 
@@ -58,7 +58,7 @@ Powerbi.preload()는 나중에 보고서에 포함하는 데 사용되는 JavaSc
 
 도구 및 SDK 패키지를 최신 상태로 유지합니다.
 
-* 항상 최신 버전의 [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/)을 사용합니다.
+* 항상 최신 버전의 [Power BI Desktop](https://powerbi.microsoft.com/desktop/)을 사용합니다.
 
 * 최신 버전의 [Power BI 클라이언트 SDK](https://github.com/Microsoft/PowerBI-JavaScript)를 설치합니다. 더욱 향상된 기능을 계속 릴리스하고 있으므로 수시로 후속 조치를 수행해야 합니다.
 
