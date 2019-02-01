@@ -608,6 +608,8 @@ items:
         href: service-share-dashboards.md
       - name: 필터링된 보고서 공유
         href: service-share-reports.md
+      - name: 직접 및 다른 사용자 구독
+        href: service-report-subscribe.md
       - name: SharePoint Online에 보고서 포함
         href: service-embed-report-spo.md
       - name: 보안 포털 또는 웹 사이트에 보고서 포함
@@ -1248,6 +1250,8 @@ items:
       href: service-admin-role.md
     - name: 질문과 대답(FAQ)
       href: service-admin-faq.md
+    - name: 고가용성 및 장애 조치(failover) FAQ
+      href: service-admin-failover.md
   - name: 방법
     items:
     - name: 라이선싱 및 등록
@@ -1295,9 +1299,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 070efc5b3775b8d675e7f053094f108edabd3115
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 5b2dc80f12aba21c7d5a1f0da71f8eb31d242c5b
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234488"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431111"
