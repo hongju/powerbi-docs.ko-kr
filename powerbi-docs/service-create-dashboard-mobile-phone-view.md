@@ -29,7 +29,7 @@ ms.locfileid: "54288155"
 
 ## <a name="create-a-phone-view-of-a-dashboard"></a>대시보드의 휴대폰 보기 만들기
 1. Power BI 서비스에서 대시보드를 엽니다.
-2. 오른쪽 상단 모퉁이에서 **웹 보기** 옆에 있는 화살표를 선택한 다음 **휴대폰 보기**를 선택합니다.
+2. 오른쪽 상단 코너에서 **웹 보기** 옆에 있는 화살표를 선택한 다음 **휴대폰 보기**를 선택합니다.
 
     ![](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-dashboard.png)
 
