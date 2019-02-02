@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/03/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee0063d5266c663079a9801777ee2c900957c52f
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296803"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234304"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
@@ -82,6 +82,11 @@ ms.locfileid: "54296803"
 
 자세한 내용은 [Power BI의 계기 차트](power-bi-visualization-radial-gauge-charts.md)를 참조하세요.
 
+<!-- ### Key influencers chart
+![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+
+A key influencer chart displays the major contributors to a selected result or value. -->
+
 ### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
@@ -90,7 +95,7 @@ ms.locfileid: "54296803"
 
 자세한 내용은 [Power BI의 KPI](power-bi-visualization-kpi.md)를 참조하세요.
 
-### <a name="line-charts"></a>꺾은선형 차트
+### <a name="line-charts"></a>꺽은선형 차트
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
 
 >[!TIP]
@@ -107,7 +112,7 @@ ms.locfileid: "54296803"
 ### <a name="maps-arcgis-maps"></a>지도: ArcGIS 맵
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-자세한 내용은 [Power BI의 ArcGIS 지도](../power-bi-visualization-arcgis.md)를 참조하세요.
+자세한 내용은 [Power BI의 ArcGIS 지도](power-bi-visualization-arcgis.md)를 참조하세요.
 
 ### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,6 +138,13 @@ ms.locfileid: "54296803"
 
 ### <a name="pie-charts"></a>원형 차트
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+
+원형 차트는 전체에 대한 부분의 관계를 보여줍니다. 
+
+### <a name="ribbon-chart"></a>리본 차트
+![리본 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+
+리본 차트는 가장 높은 순위를 가지는 데이터 범주(가장 큰 값)를 보여줍니다. 리본 차트는 각 기간에 가장 높은 범위(값)가 항상 위쪽에 표시되어 순위 변경 내용을 효과적으로 표시합니다.
 
 ### <a name="scatter-and-bubble-charts"></a>분산형 및 거품형 차트
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 01/18/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 085860fb9d8e9e01bf0694896a561f34a5627b53
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 7d76d874712f328344b60fc8b146f69e1aca55db
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394670"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234534"
 ---
 # <a name="add-comments-to-a-dashboard"></a>대시보드에 주석 추가
 개별 주석을 추가하거나 동료와 대시보드에 관한 대화를 시작합니다. **주석** 기능은 *소비자*가 다른 사용자와 공동 작업할 수 있는 방법 중 하나입니다. 
@@ -73,7 +73,7 @@ ms.locfileid: "54394670"
 5. **닫기**를 선택하여 대시보드 또는 보고서로 돌아갑니다.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>@ 기호를 사용하여 동료의 주의 유도
-대시보드 주석을 만들거나 특정 시각적 개체에 주석을 달 때 "@" 기호를 사용하여 동료의 주의를 끕니다.  "@" 기호를 입력하면 Power BI는 조직에서 개인을 검색하고 선택할 수 있는 드롭다운을 엽니다. "@" 기호로 나타나는 확인된 이름은 파란색 글꼴로 표시됩니다. 
+대시보드 주석을 만들거나 특정 시각적 개체에 주석을 달 때 "\@" 기호를 사용하여 동료의 주의를 끕니다.  "\@" 기호를 입력하면 Power BI는 조직에서 개인을 검색하고 선택할 수 있는 드롭다운을 엽니다. "\@" 기호로 나타나는 확인된 이름은 파란색 글꼴로 표시됩니다. 
 
 다음은 시각화 ‘디자이너’와 나누는 대화입니다. @ 기호를 사용하여 댓글이 표시되는지 확인합니다. 이 댓글이 나에게 쓴 것인지 알고 있습니다. Power BI에서 이 앱 대시보드를 열고 헤더에서 **댓글**을 선택합니다. **댓글** 창에 대화가 표시됩니다.
 

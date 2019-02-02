@@ -1,5 +1,5 @@
 ---
-title: 시각화로 작업하기
+title: 소비자로서 시각화 작업
 description: Power BI 개념 및 용어 - 시각화 요소, 시각적 개체입니다. Power BI 시각화, 시각적 개체란 무엇인가요?
 author: mihart
 manager: kvivek
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 875f5cef31ea61fffff29404b03af5bbbfc9f0c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287641"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234350"
 ---
 # <a name="visualizations-for-power-bi-consumers"></a>Power BI **소비자**를 위한 시각화
 
@@ -53,4 +53,5 @@ ms.locfileid: "54287641"
 
 ## <a name="next-steps"></a>다음 단계
 [소비자에 대한 기본 개념](end-user-basic-concepts.md)  으로 돌아가기  
-[시각화를 선택하여 보고서 열기](end-user-report-open.md)
+[시각화를 선택하여 보고서 열기](end-user-report-open.md)    
+[Power BI에서 사용할 수 있는 시각화 유형](end-user-visual-type.md)

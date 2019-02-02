@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 74d261098ee8385721a0b72d808a6ecb1b89be7c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283808"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234442"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -106,10 +106,10 @@ Power BI는 **and** 외에도 많은 연산자를 지원합니다. 아래 표에
 |**gt**     | 보다 큼        |아니요 | 예 | 예  | 제품/가격 gt 20
 |**le**     |   작거나 같음      | 아니요 | 예 | 예  | 제품/가격 le 100
 |**lt**     |  보다 작음       | 아니요 | 예 | 예 |  제품/가격 lt 20
-|**in****     |  포함       | 예 | 예 |  예 | 학생/나이 in (27, 29)
+|**in\*\***     |  포함       | 예 | 예 |  예 | 학생/나이 in (27, 29)
 
 
-\** **in**을 사용하는 경우 **in**의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록 또는 컬렉션을 반환하는 단일 식일 수 있습니다.
+\*\* **in**을 사용하는 경우 **in**의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록 또는 컬렉션을 반환하는 단일 식일 수 있습니다.
 
 ### <a name="numeric-data-types"></a>숫자 데이터 형식
 

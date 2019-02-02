@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296826"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430285"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -45,6 +45,7 @@ ms.locfileid: "54296826"
 * [추가로 준비할 사항이 있습니까?](#are-there-any-additional-things-i-should-be-prepared-for)
 * [내 Power BI 테넌트는 어디에 있습니까?](#where-is-my-power-bi-tenant-located)
 * [Power BI Service Level Agreement(서비스 수준 약정)란?](#what-is-the-power-bi-sla)
+* [Power BI는 고가용성 및 장애 조치(failover)를 어떻게 처리하나요?](#how-does-power-bi-handle-high-availability-and-failover)
 
 ### <a name="security-in-power-bi-section"></a>Power BI의 보안 섹션
 
@@ -241,11 +242,15 @@ Power BI 테넌트가 있는 데이터 영역에 대한 자세한 내용은 [내
 
 Power BI SLA(서비스 수준 약정)에 대한 자세한 내용은 Microsoft 라이선스 웹 사이트의 **라이선스** 섹션에서 [라이선스 사용 조건 및 설명서](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 문서를 참조하세요.
 
+### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Power BI는 고가용성 및 장애 조치(failover)를 어떻게 처리하나요?
+
+고가용성 및 장애 조치(failover)에 대한 정보는 [Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ](service-admin-failover.md)를 참조하세요.
+
 ## <a name="security-in-power-bi"></a>Power BI의 보안
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI는 국가, 지역 및 업계별 규정 준수 요구 사항을 충족합니까?
 
-Power BI 준수에 대해 자세히 알아보려면 [Microsoft 보안 센터](https://www.microsoft.com/en-us/TrustCenter/CloudServices/business-application-platform/default.aspx)를 참조하세요.
+Power BI 준수에 대해 자세히 알아보려면 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/default.aspx)를 참조하세요.
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI에서 보안은 어떻게 작동합니까?
 

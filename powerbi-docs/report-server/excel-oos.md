@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 2a0fc921ba576803f02ede8fd269370584c61efe
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 157808d7378b40cb097c2cb667eb9d237654e66d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284222"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234419"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>OOS(Office Online Server)를 사용하여 Excel 통합 문서를 호스트하도록 보고서 서버 구성
 
@@ -57,7 +57,7 @@ Office Online 서버를 실행하게 되는 서버에서 이러한 절차를 수
 1. [VLSC(Volume Licensing Service Center)](http://go.microsoft.com/fwlink/p/?LinkId=256561)에서 Office Online Server를 다운로드합니다. 다운로드는 VLSC 포털에서 이러한 Office 제품 아래에 있습니다. 개발 목적으로 MSDN 구독자 다운로드에서 OOS를 다운로드할 수 있습니다.
 2. Setup.exe를 실행합니다.
 3. **Microsoft 소프트웨어 사용 조건 읽기** 페이지에서 **동의함**을 선택하고 **계속**을 선택합니다.
-4. **파일 위치 선택** 페이지에서 Office Online Server 파일을 설치할 폴더(C:\Program Files\Microsoft Office Web Apps*)를 선택하고 **지금 설치**를 선택합니다. 지정한 폴더가 존재하지 않으면 Setup에서 해당 폴더를 만듭니다.
+4. **파일 위치 선택** 페이지에서 Office Online Server 파일을 설치할 폴더(C:\Program Files\Microsoft Office Web Apps\*)를 선택하고 **지금 설치**를 선택합니다. 지정한 폴더가 존재하지 않으면 Setup에서 해당 폴더를 만듭니다.
 
     시스템 드라이브에 Office Online Server를 설치하는 것이 좋습니다.
 

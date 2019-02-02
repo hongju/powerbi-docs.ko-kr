@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 4fff6b19b9a17b626d11545a8d4baa8464ffc324
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294089"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431226"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
@@ -99,6 +99,14 @@ GenerateToken 호출 전에 애플리케이션의 백 엔드가 인증 토큰을
 
 ## <a name="authentication"></a>인증
 
+### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>AADSTS90002로 인증 실패: 테넌트 '권한 부여'를 찾을 수 없음
+
+ ***오류: invalid_request, error_description과 같은 메시지를 받은 경우: AADSTS90002: ADAL 4.x가 "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/"를 기관 URL로 지원하지 않기 때문에 테넌트 '권한 부여'를 찾을 수 없습니다***.
+ 
+이 문제를 해결하려면 기관 URL의 끝에서 "oauth2/authorize/"를 잘라내야 합니다. 참조용 [Power BI 개발자 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)을 참조하세요.
+
+ ADAL 4.x 릴리스 정보에서 [더 나은 기관 유효성 검사](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation)를 확인하세요.
+ 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 또는 AADSTS50053으로 인증하지 못했습니다.
 
 **_(AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다.)_**
@@ -243,7 +251,7 @@ Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 애플리�
 
 포함 설정 도구를 사용하기 전에 적절한 필수 조건이 모두 있는지 확인합니다. **Power BI Pro** 계정과 **Microsoft Azure** 구독이 필요합니다.
 
-* 아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/en-us/pricing/)합니다.
+* 아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
 * Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)을 만듭니다.
 * 고유한 [Azure Active Directory 테넌트 ](create-an-azure-active-directory-tenant.md) 설정을 사용해야 합니다.
 * [Visual Studio](https://www.visualstudio.com/)를 설치해야 합니다(버전 2013 이상).
@@ -294,7 +302,7 @@ AADSTS50079 오류가 발생하는 경우: 사용자가 다단계 인증을 사�
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 
-추가 지원이 필요한 경우 [지원 담당자에게 문의](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)하거나 [Azure Portal을 통해 지원 티켓을 작성](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)하고 발생한 오류 메시지를 제공하세요.
+추가 지원이 필요한 경우 [지원 담당자에게 문의](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded)하거나 [Azure Portal을 통해 지원 티켓을 작성](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)하고 발생한 오류 메시지를 제공하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

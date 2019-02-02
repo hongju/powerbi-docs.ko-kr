@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 36a3026ebbdf1290d7f809f5c1ccaac7f5fbd7d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b4977bd043cec08c86fbd3c8893e8f1e185dc1fc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292410"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430559"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 오프라인 데이터 보기
 적용 대상:
@@ -57,6 +57,7 @@ Power BI는 오프라인으로 사용할 수 없는 대시보드, 보고서 및 
 * Power BI에서 전체 Excel 통합 문서는 오프라인으로 사용할 수 없습니다.
 * 연결된 상태에서 해당 문서를 봤다면 오프라인으로도 Reporting Services 모바일 보고서 및 KPI를 볼 수 있습니다. 백그라운드에서 새로 고치지 않습니다. 열 때마다 새로 고칩니다.
 * Power BI 모바일 앱에서 Power BI Report Server에 저장된 Power BI Desktop(.pbix) 파일을 볼 수 없습니다. 
+* 네트워크가 오프라인 상태일 때는 페이지를 매긴 보고서(RDL)를 사용할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 사용자 의견은 나중에 구현할 사항을 결정하는 데 도움이 됩니다. 따라서 Power BI 모바일 앱에서 참조하고자 하는 다른 기능에 대해 꼭 투표해주세요. 
