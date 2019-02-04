@@ -64,7 +64,7 @@ comScore DAx 사용자 계정과 comScore DAx API에 대한 액세스는 연결�
 
 연결하는 데이터 센터는 comScore에서 이동하는 URL에 의해 결정됩니다.
 
-https://dax.comscore.com 을 사용하는 경우 "US"를 입력하고, https://dax.comscore.eu 를 사용하는 경우 "EU"를 입력합니다.
+[https://dax.comscore.com](https://dax.comscore.com) 을 사용하는 경우 "US"를 입력하고, https://dax.comscore.eu 를 사용하는 경우 "EU"를 입력합니다.
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 
