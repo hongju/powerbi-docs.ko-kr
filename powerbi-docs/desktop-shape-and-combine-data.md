@@ -85,7 +85,7 @@ _New Rank_ 값은 변경되지 않았습니다. 이는 단계의 순서 때문�
 
 ![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
 
-다음으로 ‘추가된 사용자 지정 항목’ 단계를 선택합니다. 이제 데이터에 ‘Error’가 표시되고 이 오류를 해결해야 합니다. 
+다음으로 ‘추가된 사용자 지정 항목’ 단계를 선택합니다. 이제 데이터에 ‘오류’가 표시되고 이 오류를 해결해야 합니다. 
 
 ![](media/desktop-shape-and-combine-data/shapecombine_error2.png)
 
@@ -179,7 +179,7 @@ _New Rank_ 값은 변경되지 않았습니다. 이는 단계의 순서 때문�
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* 몇 개의 불필요한 열 제거 – 주와 2자로 된 공식 약어 간의 매핑만 필요하므로 다음 열을 제거할 수 있습니다. 차례로 **Column1**, **Column3**, **Column4** 및 **Column6**~**Column11**. 먼저 **Column1**을 선택하고 **Ctrl** 키를 누른 채 제거할 다른 열을 선택합니다. 이렇게 하면 연속하지 않는 여러 열을 선택할 수 있습니다. 리본의 홈 탭에서 **열 제거 > 열 제거**를 선택합니다.
+* 몇 개의 불필요한 열 제거 – 주와 2자로 된 공식 약어 간의 매핑만 필요하므로 다음 열을 제거할 수 있습니다. 차례로 **Column1**, **Column3**, **Column4** 및 **Column6**~**Column11**. 먼저 **Column1**을 선택하고 **Ctrl** 키를 누른 채 제거할 다른 열을 선택합니다. 이렇게 하면 연속하지 않는 여러 열을 선택할 수 있습니다. 리본의 홈 탭에서 **열 제거 > 열 제거\>를 선택합니다**.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 
@@ -201,7 +201,7 @@ _New Rank_ 값은 변경되지 않았습니다. 이는 단계의 순서 때문�
 
 다른 쿼리에 추가하려는 열이 하나 이상 있는 경우 쿼리를 **병합** 합니다. 기존 쿼리에 추가하려는 데이터 행이 더 있는 경우 쿼리를 **추가** 합니다.
 
-이 경우 쿼리를 병합하려고 합니다. 시작하려면 쿼리 편집기의 왼쪽 창에서 다른 쿼리를 병합하려는 경우 *넣을* 쿼리를 선택하며 이 경우에는 RetirementStats입니다. 그런 다음 리본 메뉴의 홈 탭에서 **결합** > **쿼리 병합**을 선택합니다.
+이 경우 쿼리를 병합하려고 합니다. 시작하려면 쿼리 편집기의 왼쪽 창에서 다른 쿼리를 병합하려는 경우 *넣을* 쿼리를 선택하며 이 경우에는 RetirementStats입니다. 그런 다음 리본 메뉴의 홈 탭에서 **결합******쿼리 병합**을 선택합니다.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_mergequeries.png)
 
