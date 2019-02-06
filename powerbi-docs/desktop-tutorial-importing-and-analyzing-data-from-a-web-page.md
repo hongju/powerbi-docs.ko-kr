@@ -69,7 +69,7 @@ ms.locfileid: "54276747"
 
 1. **파워 쿼리 편집기** 그리드에서 **Year** 및 **Final Winners** 열을 선택합니다(여러 항목을 선택하려면 **Ctrl** 키를 누르고 있음).
    
-2. 마우스 오른쪽 단추를 클릭하고 드롭다운 메뉴에서 **다른 열 제거**를 선택하거나, 리본 메뉴 **홈** 탭의 **열 관리**그룹에서 **열 제거**  >  **다른 열 제거**를 선택하여 테이블에서 다른 모든 열을 제거합니다. 
+2. 마우스 오른쪽 단추를 클릭하고 드롭다운 메뉴에서 **다른 열 제거**를 선택하거나, 리본 메뉴 **홈** 탭의 열 관리**그룹에서** **열 제거**  >  **다른 열 제거**를 선택하여 테이블에서 다른 모든 열을 제거합니다. 
    
    ![다른 열 제거 드롭다운](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) 또는 ![다른 열 제거 리본](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
@@ -142,7 +142,7 @@ ms.locfileid: "54276747"
 
    ![맵 확대](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
    
-3. 맵에는 유로컵 토너먼트에서 우승한 모든 국가에 대한 동일한 데이터 요소가 표시됩니다. 각 데이터 요소의 크기에 해당 국가가 우승한 빈도를 반영하려면 **시각화** 창의 아래쪽 부분에 있는 **크기** 아래의 **여기에 데이터 필드 추가**로 **Year** 필드를 끌어옵니다. 이 필드는 **Count of Year** 측정값으로 자동으로 변경되고 이제 맵 시각화에는 더 많은 토너먼트에서 우승한 국가에 대한 더 큰 데이터 요소가 표시됩니다. 
+3. 맵에는 유로컵 토너먼트에서 우승한 모든 국가에 대한 동일한 데이터 요소가 표시됩니다. 각 데이터 요소의 크기에 해당 국가가 우승한 빈도를 반영하려면 **시각화** 창의 아래쪽 부분에 있는 **크기** 아래의 **데이터 필드를 여기에 끌어오기**로 **Year** 필드를 끌어옵니다. 이 필드는 **Count of Year** 측정값으로 자동으로 변경되고 이제 맵 시각화에는 더 많은 토너먼트에서 우승한 국가에 대한 더 큰 데이터 요소가 표시됩니다. 
    
    ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage15.png)
    
