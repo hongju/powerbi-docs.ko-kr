@@ -1234,8 +1234,10 @@ items:
         href: service-admin-premium-purchase.md
       - name: Power BI 프리미엄 관리
         href: service-admin-premium-manage.md
-      - name: Power BI Premium 모니터링
+      - name: 앱을 사용하여 프리미엄 용량 모니터링
         href: service-admin-premium-monitor-capacity.md
+      - name: 관리 포털에서 프리미엄 용량 모니터링
+        href: service-admin-premium-monitor-portal.md
       - name: 프리미엄 용량 다시 시작
         href: service-admin-premium-restart.md
       - name: 대형 데이터 세트 지원
@@ -1299,9 +1301,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 5b2dc80f12aba21c7d5a1f0da71f8eb31d242c5b
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: e5f1b5c6ac45f6f37b61692fe4bd7f5cc086aec5
+ms.sourcegitcommit: 01d08ddf9a437489f75501efda6b3b0d8cbd7864
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431111"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55760398"

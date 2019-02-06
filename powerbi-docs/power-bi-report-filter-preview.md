@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: be6496f6445c78250c17c98ac4b343eb0b0a0c66
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290018"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482709"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI 보고서의 새 필터 환경(미리 보기)
 
@@ -108,7 +108,7 @@ Power BI Desktop을 다시 시작한 후에는 사용자가 만드는 모든 새
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>읽기 모드에 시각적 개체의 필터 보기
 
-읽기 모드에서 시각적 개체 위로 커서를 이동하면 시각적 개체에 영향을 주는 모든 필터, 슬라이서 등이 포함된 팝업이 표시됩니다. 팝업 서식 지정은 필터 창 서식 지정과 동일합니다. 
+읽기 모드에서 시각적 개체의 필터 아이콘 위로 마우스를 올려 놓으면 해당 시각적 개체에 영향을 주는 모든 필터, 슬라이서 등이 포함된 팝업이 표시됩니다. 팝업 서식 지정은 필터 창 서식 지정과 동일합니다. 
 
 ![시각적 개체에 영향을 주는 필터](media/power-bi-report-filter-preview/power-bi-filter-per-visual.png)
 

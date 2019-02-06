@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26bd41c8fa2d1300a0f9e106c7899777ac5950f7
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292597"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482732"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Power BI에 대한 Cortana를 사용하여 Power BI 데이터를 신속하게 찾기 및 보기
 Windows 10 디바이스에서 Cortana를 사용하여 중요한 비즈니스 관련 질문에 대한 답변을 즉시 확인하세요. Power BI와 통합하면 Cortana는 Power BI 대시보드 및 보고서에서 직접 주요 정보를 검색할 수 있습니다. Windows 10 2015년 11월 이상 버전, Cortana, Power BI 및 하나 이상의 데이터 세트에 대한 액세스만 있으면 됩니다.
@@ -22,7 +22,7 @@ Windows 10 디바이스에서 Cortana를 사용하여 중요한 비즈니스 관
 ![Cortana 검색 필드](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>Windows 10에 대한 새 Cortana *대시보드* 검색 환경 미리 보기
-잠시 동안 [Cortana를 사용하여 특정 형식의 보고서 페이지를 검색할](service-cortana-answer-cards.md) 수 있습니다. 이제 **새로운 환경**이 추가되었습니다. 바로 대시보드를 검색할 수 있는 기능입니다. 사용해 보시고 [피드백을 보내주세요](mailto:pbicortanasg@microsoft.com). 최종적으로 *새로운 환경*이 확장되어 보고서에 대한 Cortana 검색이 포함될 것입니다.  새 환경의 주요 이점 중 하나는 Cortana를 활성화하거나 Windows 10을 구성하는 등 특별한 설정이 필요 없다는 점입니다. 알아서 작동합니다.
+잠시 동안 [Cortana를 사용하여 특정 형식의 보고서 페이지를 검색할](service-cortana-answer-cards.md) 수 있습니다. 이제 **새로운 환경**이 추가되었습니다. 바로 대시보드를 검색할 수 있는 기능입니다. 사용해 보시고 [Power BI Ideas에서 피드백을 보내주세요](https://ideas.powerbi.com/forums/265200-power-bi). 최종적으로 *새로운 환경*이 확장되어 보고서에 대한 Cortana 검색이 포함될 것입니다.  새 환경의 주요 이점 중 하나는 Cortana를 활성화하거나 Windows 10을 구성하는 등 특별한 설정이 필요 없다는 점입니다. 알아서 작동합니다.
 
 > [!NOTE]
 > “알아서 작동”하지 않으면 도움을 받을 수 있는 [문제 해결 문서](service-cortana-troubleshoot.md)를 참조하세요.
@@ -127,7 +127,8 @@ Cortana에서 질문하는 경우 Power BI는 Cortana용으로 특별히 디자�
 * Power BI용 Cortana는 현재 영어로만 제공됩니다.
 * Power BI에 대한 Cortana는 Windows 모바일 디바이스에서만 사용할 수 있습니다.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.
+의견이 있으신가요? [Power BI Ideas에 피드백을 보내주세요](https://ideas.powerbi.com/forums/265200-power-bi).
 
 ## <a name="next-steps"></a>다음 단계
 [보고서를 위한 Cortana - Power BI - Windows 통합 활성화](service-cortana-enable.md)

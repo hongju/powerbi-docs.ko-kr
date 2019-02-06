@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 034fc149dcd76102ae83864fe65d53c55b57c96a
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488871"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482755"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -24,6 +24,17 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
 ## <a name="january-2019"></a>2019년 1월
 - **Power BI Report Server**            
+    - *버전 1.4.6969.7395(빌드 15.0.1102.235), 릴리스 날짜: 2019년 1월 30일*
+        - 버그 픽스
+            - Power BI 보고서
+                - 직접 쿼리를 사용할 때 기본 자격 증명으로 문제 해결
+                - 행 수준 보안 필터가 적용된 양방향 관계 수정
+                - 스케일 아웃 환경에서 모델을 새로 고친 후 부실 데이터 수정
+                - Firefox 63+의 테이블/행렬에 대한 이중 스크롤 막대 수정
+                - Internet Explorer에서 +/- 아이콘 크기 수정
+            - 페이지가 매겨진 보고서
+                - 보고서의 공유 데이터 원본 사용량 업데이트 문제 해결
+
     - *버전 1.4.6960.38798(빌드 15.0.1102.222), 릴리스 날짜: 2019년 1월 22일*
         - 기능
             - Power BI 보고서 
@@ -35,6 +46,10 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
             - 관리자
                 - 보고서 서버에 업로드할 수 있는 리소스 확장을 제한하는 기능
                 - 지원되는 하이퍼링크 구성표를 제한하는 기능
+            - 프로그래밍 기능
+                - 새 웹 API: /PowerBIReports({Id})/DataModelRoles(GET)
+                - 새 웹 API: /PowerBIReports({Id})/DataModelRoleAssignments(GET & PUT)
+                - 자세한 내용은 [Power BI Report Server REST API](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0)를 참조하세요.
         - 버그 픽스
             - HTML 삽입 취약성
             - PDF로 내보내기가 유로 기호를 표시하지 않습니다.
@@ -42,6 +57,10 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
             - 유휴 상태 후 시각적 개체가 Power BI 모바일 앱의 문제 표시
 
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
+    - *버전: 2.65.5313.1562(2019년 1월) 릴리스 날짜: 2019년 1월 30일*
+        - Power BI Report Server를 제거한 후에도 바로 가기 및 고정된 아이콘이 남아 있음
+        - 검은색 아이콘에 검은색 텍스트를 제공하는 메뉴를 시작하도록 고정 중인 Power BI Report Server 수정
+
     - *버전: 2.65.5313.1421(2019년 1월) 릴리스 날짜: 2019년 1월 22일*
         - Power BI Report Server에서 연결에 필요한 변경 내용 포함(2019년 1월)  
 

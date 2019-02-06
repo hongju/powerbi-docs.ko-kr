@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/31/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
+ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234442"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "55648700"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -40,6 +40,14 @@ URL?filter=***Table***/***Field*** eq '***value***'
 
 * **테이블** 및 **필드** 이름은 대소문자를 구분하고, **값**은 구분하지 않습니다.
 * 보고서 보기에서 숨겨진 필드는 계속 필터링할 수 있습니다.
+
+### <a name="reports-in-apps"></a>앱의 보고서
+
+앱의 보고서에 URL 필터를 추가하려는 경우 형식이 약간 다릅니다. 앱의 보고서에 대한 링크에는 URL에 추가되는 쿼리 매개 변수(ctid)가 있습니다. 쿼리 매개 변수는 앰퍼샌드(&)로 구분해야 합니다. 따라서 “?filter=” 대신 “&filter=”(ctid 매개 변수 뒤)에 쿼리를 추가해야 합니다. 
+
+이 예제와 같습니다.
+
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*테이블*/*필드* eq '*값*'
 
 ### <a name="field-types"></a>필드 형식
 
@@ -118,10 +126,10 @@ Power BI URL 필터에는 다음 형식의 숫자가 포함될 수 있습니다.
 |숫자 형식  |예제  |
 |---------|---------|
 |**integer**     |   5      |
-|**long**     |   5L 또는 5l      |
+|**long**     |   5 L 또는 5 l      |
 |**double**     |   5.5나 55e-1이나 0.55e+1 또는 5D나 5d 또는 0.5e1D나 0.5e1d 또는 5.5D나 5.5d 또는 55e-1D나 55e-1d     |
 |**decimal**     |   5M이나 5m 또는 5.5M이나 5.5m      |
-|**float**     | 5F나 5f 또는 0.5e1F나 0.5e-1d        |
+|**float**     | 5 F나 5 f 또는 0.5e1 F나 0.5e-1 d        |
 
 ### <a name="date-data-types"></a>Date 데이터 형식
 
