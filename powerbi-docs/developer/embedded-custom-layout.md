@@ -2,22 +2,21 @@
 title: Power BI 포함 콘텐츠를 사용하는 사용자 지정 레이아웃
 description: 애플리케이션에 Power BI 콘텐츠를 포함하는 경우 사용자 지정 레이아웃에 대해 알아봅니다.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.author: maghan
-ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e812fde896072762e113c81b1dd728091a8ff190
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288937"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762309"
 ---
 # <a name="custom-layouts"></a>사용자 지정 레이아웃
-
 
 원본 보고서와 다른 레이아웃으로 구성된 보고서를 포함하려면 사용자 지정 레이아웃을 사용합니다. 페이지 크기만 정의하는 경우와 시각적 크기 또는 위치 및 표시 유형을 제어하는 경우의 새 레이아웃 정의 방법은 다릅니다.
 
@@ -115,7 +114,6 @@ enum VisualContainerDisplayMode {
 - `width`, height: 시각적 개체의 새 크기를 정의합니다.
 - `displayState`: 시각적 개체의 표시 여부를 정의합니다.
 
-
 ## <a name="update-layout"></a>레이아웃 업데이트
 
 보고서를 로드하는 동안 언제든지 updateSettings 메서드를 사용하여 보고서 레이아웃을 업데이트할 수 있습니다. [업데이트 설정](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Update-Settings)을 참조하세요.
@@ -173,9 +171,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-
 ## <a name="see-also"></a>참고 항목
 
 [Power BI 대시보드, 보고서 및 타일 포함](embedding-content.md)   
 [Power BI 커뮤니티에 문의](https://community.powerbi.com/)
-

@@ -2,21 +2,22 @@
 title: 인증 액세스 토큰 가져오기
 description: 데이터 푸시 연습 - 인증 액세스 토큰 가져오기
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 1381706801a1a817927c891fcc205950cef24cbb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 2d4e59badf394153dcb6877a270d2ecea63f5df6
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430858"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761964"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2단계: 인증 액세스 토큰 가져오기
+
 이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
 데이터 세트에 데이터 푸시의 **1단계**인 [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)에서는 Azure AD에 클라이언트 앱을 등록했습니다. 이 단계에서는 인증 액세스 토큰을 가져옵니다. Power BI 앱이 **Azure AD** 와 통합되어 보안 로그인 및 앱에 대한 권한 부여를 제공합니다. 토큰을 사용하여 **Azure AD** 에 인증하고 Power BI 리소스에 액세스할 수 있습니다.
@@ -24,15 +25,16 @@ ms.locfileid: "55430858"
 인증 액세스 토큰을 가져오는 방법은 다음과 같습니다.
 
 ## <a name="get-an-authentication-access-token"></a>인증 액세스 토큰 가져오기
+
 > **참고**: 시작하기 전에 [데이터 세트에 데이터 푸시](walkthrough-push-data.md)의 이전 단계를 수행해야 합니다.
 > 
 > 
 
 1. Visual Studio 2015에서 **콘솔 애플리케이션** 프로젝트를 만듭니다.
 2. [.NET NuGet 패키지용 Azure AD 인증 라이브러리](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)를 설치합니다. .NET 앱에서 인증 보안 토큰을 가져오려면 이 패키지를 사용합니다. 패키지를 설치하는 방법은 다음과 같습니다.
-   
+
      a. Visual Studio 2015에서 **도구** > **NuGet 패키지 관리자** > **패키지 관리자 콘솔**을 선택합니다.
-   
+
      b. **패키지 관리자 콘솔**에서 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612를 입력합니다.
 3. 아래 코드를 class Program {...}에 추가합니다.
 4. "{ClientID}"는 앱을 등록할 때 가져온 **클라이언트 ID** 로 바꿉니다. [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)을 참조하세요.
@@ -113,6 +115,7 @@ Program {...}에 이 코드를 추가합니다.
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>전체 코드 목록
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
@@ -172,10 +175,10 @@ Program {...}에 이 코드를 추가합니다.
         }
     }
 
-
 [다음 단계 >](walkthrough-push-data-create-dataset.md)
 
 ## <a name="next-steps"></a>다음 단계
+
 [Power BI에서 데이터 세트 만들기](walkthrough-push-data-create-dataset.md)  
 [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)  
 [.NET NuGet 패키지용 Azure AD 인증 라이브러리](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
@@ -183,4 +186,3 @@ Program {...}에 이 코드를 추가합니다.
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
 [Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-

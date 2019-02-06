@@ -2,21 +2,22 @@
 title: Power BI Embedded에서 콘텐츠 마이그레이션을 위한 코드 조각
 description: 다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/30/2018
-ms.author: maghan
-ms.openlocfilehash: ddb0e95e20a22fd6e7e832c415462504d2ef3652
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: f53549e0a046195c353362368e2e3682df152af9
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429976"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762516"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션에서 콘텐츠 마이그레이션을 위한 코드 조각
+
 다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다. 특정 보고서 형식에 대한 관련 흐름은 [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md#content-migration)을 참조하세요.
 
 **마이그레이션 도구**는 Power BI Embedded(PaaS)에서 Power BI 서비스(SaaS)로 콘텐츠 복사를 지원하기 위해 사용할 수 있습니다. 특히 콘텐츠가 많은 경우입니다. 자세한 내용은 [Power BI Embedded 마이그레이션 도구](migrate-tool.md)를 참조하세요.
@@ -25,7 +26,7 @@ ms.locfileid: "55429976"
 
 아래 코드 조각을 실행하기 위해서는 다음 네임스페이스를 사용해야 합니다.
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.PowerBI.Api.V1;
 using Microsoft.PowerBI.Api.V1.Models;
@@ -46,8 +47,8 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-
 ## <a name="export-report-from-paas-workspace"></a>PaaS 작업 영역에서 보고서 내보내기
+
 ```
     // Create a token credentials with "AppKey" type
     var credentials = new TokenCredentials(<myAppKey==>, "AppKey");
@@ -72,6 +73,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="import-report-to-saas-workspace"></a>SaaS 작업 영역으로 보고서 가져오기
+
 ```
     AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myClientId>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
@@ -85,6 +87,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="extract-directquery-connection-string-from-paas-report"></a>PaaS 보고서에서 DirectQuery 연결 문자열 추출
+
 SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다.
 
 ```
@@ -105,6 +108,7 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 ```
 
 ## <a name="update-directquery-connection-string-is-saas-workspace"></a>SaaS 작업 영역에서 DirectQuery 연결 문자열 업데이트
+
 ```
     public class ConnectionString
     {
@@ -123,6 +127,7 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 ```
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>SaaS 작업 영역에서 DirectQuery 자격 증명 설정
+
 이 코드 조각에서는 간단한 설명을 위해 암호화되지 않은 자격 증명을 사용하지만 암호화된 자격 증명 전송도 지원합니다.
 
 ```
@@ -159,6 +164,7 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 ```
 
 ## <a name="push-dataset--report"></a>푸시 데이터 세트 및 보고서
+
 만든 데이터 세트에 대한 보고서를 다시 빌드해야 합니다.
 
 이 코드 조각에서는 푸시 가능한 데이터 세트가 SaaS 환경 내의 앱 작업 영역에 이미 있다고 가정합니다. 푸시 API에 대한 자세한 내용은 [Power BI 데이터 세트로 데이터 푸시](walkthrough-push-data.md)를 참조하세요.
@@ -223,6 +229,7 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 ```
 
 ## <a name="next-steps"></a>다음 단계
+
 [Power BI Embedded 마이그레이션 도구](migrate-tool.md)  
 [Power BI에 포함](embedding.md)  
 [Power BI Embedded 작업 영역 컬렉션 콘텐츠를 Power BI으로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md)  
@@ -234,4 +241,3 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 [Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-

@@ -2,26 +2,28 @@
 title: 전체 코드 목록
 description: 데이터 푸시 연습 - 전체 코드 목록
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 96620449e8be8dbbfa13a00484fff29f2370fe19
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 95aadefab6a98413a22dd9386bfb4fc06cb482cb
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429939"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762240"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>데이터 세트에 데이터 푸시 전체 코드 목록
+
 이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
 **데이터 세트에 데이터 푸시**의 2~5단계를 수행하면 전체 원본 코드가 다음과 같이 표시됩니다.
 
 ## <a name="push-data-to-dataset-code"></a>데이터 세트에 데이터 푸시 코드
+
       using System;
       using Microsoft.IdentityModel.Clients.ActiveDirectory;
       using System.Net;
@@ -219,8 +221,8 @@ ms.locfileid: "55429939"
           }
       }
 
-
 ## <a name="next-steps"></a>다음 단계
+
 [Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md)  
 [연습 - Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md)  
 [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)  
@@ -231,6 +233,4 @@ ms.locfileid: "55429939"
 [Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
 
-
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-

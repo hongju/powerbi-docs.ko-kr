@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431226"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762102"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
@@ -106,7 +106,7 @@ GenerateToken 호출 전에 애플리케이션의 백 엔드가 인증 토큰을
 이 문제를 해결하려면 기관 URL의 끝에서 "oauth2/authorize/"를 잘라내야 합니다. 참조용 [Power BI 개발자 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)을 참조하세요.
 
  ADAL 4.x 릴리스 정보에서 [더 나은 기관 유효성 검사](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation)를 확인하세요.
- 
+
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 또는 AADSTS50053으로 인증하지 못했습니다.
 
 **_(AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다.)_**

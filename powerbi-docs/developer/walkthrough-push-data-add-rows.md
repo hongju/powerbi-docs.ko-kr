@@ -4,19 +4,20 @@ description: 데이터 푸시 연습 - Power BI 테이블에 행 추가
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/01/2018
-ms.openlocfilehash: 798bfbb5d1ebf127e7b958e02166dea5f1af81ef
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430491"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761987"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5단계: Power BI 테이블에 행 추가
+
 이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
 데이터 세트에 데이터 푸시의 **4단계**인 [Power BI 테이블에 행을 추가할 데이터 세트 가져오기](walkthrough-push-data-get-datasets.md)에서는 [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업 및 Newtonsoft.Json을 사용하여 데이터 세트 ID를 가져왔습니다. 이 단계에서는 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업에 데이터 세트 ID를 사용하여 **Power BI** 데이터 세트에 행을 추가합니다. 
@@ -28,10 +29,9 @@ ms.locfileid: "55430491"
 Power BI API를 사용하여 데이터 세트에 행을 추가하는 방법은 다음과 같습니다.
 
 ## <a name="add-rows-to-a-power-bi-table"></a>Power BI 테이블에 행 추가
+
 > [!NOTE]
 > 시작하기 전에 [데이터 세트에 데이터 푸시](walkthrough-push-data.md)의 이전 단계를 수행해야 합니다.
-> 
-> 
 
 1. 2단계: 데이터 푸시 연습, [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 만든 콘솔 애플리케이션 프로젝트에 아래 코드를 추가합니다.
 2. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. **추가된 행** 이 콘솔 창에 표시됩니다. Power BI에 로그인하여 데이터 세트에 추가된 행을 볼 수도 있습니다.
@@ -57,7 +57,8 @@ Program.cs에 이 코드를 추가합니다.
   
        //Add rows to a Power BI table
        AddRows(datasetId, "Product");
-   }     
+   }
+
   ```
 * AddRows() 메서드 추가:
 

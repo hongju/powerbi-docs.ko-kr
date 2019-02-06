@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: b535e3cc42956818fce0c1c127fd775b6b4d4664
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 2d095f117fdaafa34a1b9636d03045d0119f4dd8
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431295"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762470"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>자습서: Power BI 보고서, 대시보드 또는 타일을 조직의 애플리케이션에 포함
+# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서: 조직의 애플리케이션에 Power BI 콘텐츠 포함
 
 **Power BI**를 통해 사용자 소유 데이터를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **사용자 소유 데이터**를 사용하면 애플리케이션에서 Power BI 서비스를 확장하여 임베디드 분석을 사용할 수 있습니다. 이 자습서는 보고서를 애플리케이션에 통합하는 방법을 보여 줍니다. Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 조직의 애플리케이션에 포함합니다.
 
