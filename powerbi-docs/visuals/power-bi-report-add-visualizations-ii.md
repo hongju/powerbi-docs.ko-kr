@@ -35,24 +35,24 @@ ms.locfileid: "54288247"
 2. 캔버스 맨 아래에 있는 노란색 더하기 아이콘을 선택하여 새 페이지를 추가합니다.
 
 ### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>올해와 작년의 매출을 비교하는 시각화를 추가합니다.
-1. **매출** 표에서 **올해 매출** > **값** 및 **작년 매출**을 선택합니다. Power BI에 세로 막대형 차트가 만들어집니다.  이 기능에 대해 자세히 알아보겠습니다. 월별 매출이 어떻게 보이나요?  
+1. **Sales** 테이블에서 **This Year Sales** > **Value** 및 **Last Year Sales**를 선택합니다. Power BI에 세로 막대형 차트가 만들어집니다. 이 기능에 대해 자세히 알아보겠습니다. 월별 매출이 어떻게 보이나요?  
    
    ![](media/power-bi-report-add-visualizations-ii/power-bi-barchart.png)
-2. 시간 테이블에서 **회계 월**을 **축** 영역으로 끌어옵니다.  
+2. Time 테이블에서 **FiscalMonth**를 **축** 영역으로 끌어옵니다.  
    ![](media/power-bi-report-add-visualizations-ii/power-bi-month.png)
 3. 시각화를 영역형 차트로 [변경](power-bi-report-change-visualization-type.md)합니다.  선택할 수 있는 시각화 유형이 많습니다. 사용할 유형을 결정하려면 [각 유형 설명, 모범 사례에 대한 팁 및 자습서](power-bi-visualization-types-for-reports-and-q-and-a.md)를 참조하세요. 시각화 창에서 영역형 차트 아이콘 ![](media/power-bi-report-add-visualizations-ii/power-bi-areachart.png)을 선택합니다.
-4. 줄임표를 선택하고 **회계 월별 정렬**을 선택하여 시각화를 정렬합니다.
+4. 줄임표(...)를 선택하고 **정렬 기준** > **FiscalMonth**를 선택하여 시각화를 정렬합니다.
 5. 시각화를 선택하고 윤곽 원 중 하나를 클릭한 다음 끌어서 [시각화의 크기를 조정](power-bi-visualization-move-and-resize.md)합니다. 스크롤 막대가 보이지 않도록 넓게 만들고 다른 시각화를 추가할 만큼의 공간을 남겨둡니다.
    
    ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
 6. [보고서를 저장합니다](../service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>위치별 매출을 볼 수 있는 맵 시각화 추가
-1. **매장** 표에서 **지역**을 선택합니다. Power BI는 해당 지역이 위치인 것을 인식하고 맵 시각화를 만듭니다.  
+1. **Store** 테이블에서 **Territory**를 선택합니다. Power BI는 해당 지역이 위치인 것을 인식하고 맵 시각화를 만듭니다.  
    ![](media/power-bi-report-add-visualizations-ii/power-bi-map.png)
-2. **총 매장**을 크기 영역으로 끌어 놓습니다.  
+2. **Total Stores**를 크기 영역으로 끌어 놓습니다.  
    ![](media/power-bi-report-add-visualizations-ii/power-bi-map2.png)
-3. 범례를 추가합니다.  매장 이름별로 데이터를 보려면 **체인** 을 범례 영역으로 끌어 놓습니다.  
+3. 범례를 추가합니다. 매장 이름별로 데이터를 보려면 **Chain**을 범례 영역으로 끌어 놓습니다.  
    ![](media/power-bi-report-add-visualizations-ii/power-bi-legend.png)
 
 ## <a name="next-steps"></a>다음 단계
