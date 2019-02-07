@@ -1,21 +1,21 @@
 ---
 title: Power BI 프리미엄 구매 방법
 description: Power BI Premium을 구매하고 전체 조직에 대한 콘텐츠에 대한 액세스를 활성화할 수 있는 방법을 알아봅니다.
-author: mgblythe
+author: minewiskan
+ms.author: owend
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/14/2019
-ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: ebcf4a6467991bfc0d434302cd2c846ca4af1a5c
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: c23c85c7afa16844d2e2e0944fa0aed0d760fc28
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54324000"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794387"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
 
