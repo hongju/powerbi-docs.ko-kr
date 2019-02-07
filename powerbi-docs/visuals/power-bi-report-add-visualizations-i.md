@@ -38,14 +38,14 @@ ms.locfileid: "54296090"
    
    ![](media/power-bi-report-add-visualizations-i/pbi_onecolchart.png)
    
-   또는 이름, 제품과 같은 **범주 필드부터 시작**합니다. Power BI에서 테이블이 생성되고 이 필드가 **값** 에 추가됩니다.
+   또는 이름, 제품과 같은 **범주 필드부터 시작**합니다. Power BI에서 테이블이 생성되고 이 필드가 **값**에 추가됩니다.
    
    ![](media/power-bi-report-add-visualizations-i/pbi_agif_createchart3.gif)
    
    또는 지역 > 도시와 같은 **지리 필드부터 시작**합니다. Power BI 및 Bing Maps는 지도 시각화를 만듭니다.
    
    ![](media/power-bi-report-add-visualizations-i/power-bi-map.png)
-2. 시각화를 만든 다음 해당 형식을 변경합니다. **제품 > 범주** 및 **제품 > 제품 수**를 차례로 선택하여 **값** 에 추가합니다.
+2. 시각화를 만든 다음 해당 형식을 변경합니다. **제품 > 범주** 및 **제품 > 제품 수**를 차례로 선택하여 **값**에 추가합니다.
    
    ![](media/power-bi-report-add-visualizations-i/part1table1.png)
 3. 세로 막대형 차트 아이콘을 선택하여 세로 막대형 차트에 대한 시각화를 변경합니다.
