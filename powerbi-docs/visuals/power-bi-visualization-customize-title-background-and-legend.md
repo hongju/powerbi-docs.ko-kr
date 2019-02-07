@@ -46,7 +46,7 @@ Amanda가 보고서에서 시각화를 사용자 지정하는 비디오를 시�
 3. 켜기(또는 끄기) 슬라이더를 선택하여  **제목** 을 켜고 끕니다. 이 경우에는 **켜기**로 설정합니다.  
 
    ![](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
-4. 텍스트 필드에서 **Store count by month opened** 를 입력하여 **제목 텍스트** 를 변경합니다.  
+4. 텍스트 필드에서 **Store count by month opened**를 입력하여 **제목 텍스트**를 변경합니다.  
 5. **글꼴색** 을 주황색으로 변경하고 **배경색** 을 노란색으로 변경합니다.
 
    * 드롭다운을 선택하고 **테마 색**, **최근에 사용한 색**또는 **사용자 지정 색**에서 색을 선택합니다.
@@ -84,10 +84,10 @@ Amanda가 보고서에서 시각화를 사용자 지정하는 비디오를 시�
       ![](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
 4. 켜기(또는 끄기) 슬라이더를 선택하여 범례를 켜고 끕니다. 이 경우에는 **켜기**로 설정합니다.
 5. 범례를 시각화의 왼쪽으로 이동합니다.    
-6. **제목** 을 **켜기** 로 전환하고 **범례 이름** 필드에 **Managers**를 입력하여 범례 제목을 추가합니다.
+6. **제목**을 **켜기**로 전환하고 **범례 이름** 필드에 **Managers**를 입력하여 범례 제목을 추가합니다.
    ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
 
-   지금까지 수행한 모든 범례 사용자 지정 작업을 되돌리려면 **범례** 사용자 지정 창 맨 아래에 있는 **기본값으로 되돌리기** 를 선택합니다.
+   지금까지 수행한 모든 범례 사용자 지정 작업을 되돌리려면 **범례** 사용자 지정 창 맨 아래에 있는 **기본값으로 되돌리기**를 선택합니다.
 
 <a name="list"></a>
 
