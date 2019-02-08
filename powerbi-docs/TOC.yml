@@ -870,6 +870,8 @@ items:
       items:
       - name: 성능 모범 사례
         href: developer/embedded-performance-best-practices.md
+      - name: 서비스 사용자
+        href: developer/embed-service-principal.md
       - name: 행 수준 보안
         href: developer/embedded-row-level-security.md
       - name: 다중 테넌트 관리
@@ -888,7 +890,7 @@ items:
         href: developer/create-an-azure-active-directory-tenant.md
       - name: 애플리케이션 등록
         href: developer/register-app.md
-      - name: Power BI 서비스에 인증
+      - name: Azure AD 액세스 토큰 가져오기
         href: developer/get-azuread-access-token.md
       - name: Q&A 포함
         href: developer/qanda.md
@@ -1036,6 +1038,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: 테이블에 행 추가
         href: developer/walkthrough-push-data-add-rows.md
+      - name: 자격 증명 암호화
+        href: developer/encrypt-credentials.md
     - name: 참조
       items:
       - name: REST API
@@ -1234,9 +1238,9 @@ items:
         href: service-admin-premium-purchase.md
       - name: Power BI 프리미엄 관리
         href: service-admin-premium-manage.md
-      - name: 앱을 사용하여 프리미엄 용량 모니터링
+      - name: 앱을 사용하여 용량 모니터링
         href: service-admin-premium-monitor-capacity.md
-      - name: 관리 포털에서 프리미엄 용량 모니터링
+      - name: 관리 포털에서 용량 모니터링
         href: service-admin-premium-monitor-portal.md
       - name: 프리미엄 용량 다시 시작
         href: service-admin-premium-restart.md
@@ -1301,9 +1305,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e5f1b5c6ac45f6f37b61692fe4bd7f5cc086aec5
-ms.sourcegitcommit: 01d08ddf9a437489f75501efda6b3b0d8cbd7864
+ms.openlocfilehash: 27de32e6dda7f6eba069eaee56582a449dca858c
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55760398"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794493"
