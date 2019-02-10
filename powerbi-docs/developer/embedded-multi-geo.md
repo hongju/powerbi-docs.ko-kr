@@ -4,18 +4,17 @@ description: Power BI Embedded의 홈 지역이 아닌 다른 지역에 있는 �
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/31/2018
-LocalizationGroup: Embedded
-ms.openlocfilehash: ab1b0f7ea7dbee13f39fbf47505a00e2ed6d41ea
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280427"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762424"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Power BI Embedded(미리 보기)에 대한 Multi-Geo 지원
 
@@ -56,7 +55,9 @@ Powerbi.com의 관리 포털에서도 사용할 수 있습니다. 관리 포털�
 Power BI 콘텐츠를 다른 지역으로 이동하려면 다음 단계를 따르세요.
 
 1. 다른 지역에 [새 용량을 만듭니다](azure-pbie-create-capacity.md).
+
 2. 기존 용량의 모든 작업 영역을 새 용량에 할당합니다.
+
 3. 이전 용량을 삭제하거나 일시 중지합니다.
 
 콘텐츠를 다시 할당하지 않고 용량을 삭제하려는 경우 해당 용량의 모든 콘텐츠가 홈 지역에 있는 공유 용량으로 이동된다는 점에 유의하세요.
@@ -66,7 +67,9 @@ Power BI 콘텐츠를 다른 지역으로 이동하려면 다음 단계를 따�
 API를 통해 Multi-Geo를 사용한 용량 관리를 지원하기 위해 기존 API를 약간 변경했습니다.
 
 1. **[용량 가져오기](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** - API에서 사용자에 대한 액세스 권한이 포함된 용량 목록을 반환합니다. 이제 응답에는 용량의 위치를 지정하는 ‘지역’이라는 추가 속성이 포함됩니다.
-2. **[용량에 할당](https://docs.microsoft.com/rest/api/power-bi/capacities)** - API를 통해 용량에 지정된 작업 영역을 할당할 수 있습니다. 이 작업으로는 홈 지역 외부의 용량에 작업 영역을 할당하거나 다른 지역의 용량 간에 작업 영역을 이동할 수 없습니다. 이 작업을 수행하려면 작업 영역에 대한 관리자 권한이 필요하며, 사용자가 대상 용량에 대한 권한을 관리하거나 할당해야 합니다.
+
+2. **[용량에 할당](https://docs.microsoft.com/rest/api/power-bi/capacities)** - API를 통해 용량에 지정된 작업 영역을 할당할 수 있습니다. 이 작업으로는 홈 지역 외부의 용량에 작업 영역을 할당하거나 다른 지역의 용량 간에 작업 영역을 이동할 수 없습니다. 이 작업을 수행하려면 사용자 또는 [서비스 주체](embed-service-principal.md)가 여전히 작업 영역에 대한 관리자 권한이 필요하며, 관리 또는 대상 용량에 대한 사용 권한을 할당해야 합니다.
+
 3. **[Azure Resource Manager API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** - ‘만들기’ 및 ‘삭제’를 포함하여 모든 Azure Resource Manager API 작업에서 Multi-Geo를 지원합니다.
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항

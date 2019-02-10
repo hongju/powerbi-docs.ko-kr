@@ -8,17 +8,17 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: f7e83c2d0cd2f1c3344bf61f9f90ca43f09f7189
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234350"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794290"
 ---
-# <a name="visualizations-for-power-bi-consumers"></a>Power BI **소비자**를 위한 시각화
+# <a name="interact-with-visualizations-in-reports-dashboards-and-apps"></a>보고서, 대시보드 앱의 시각화와 상호 작용
 
 가장 기본적으로 ***시각화***(또는 *시각적 개체*)는 *보고서* 및 *데이터 세트*의 데이터를 사용하여 Power BI *디자이너*에 의해 빌드된 차트 유형입니다. 
 
@@ -27,13 +27,14 @@ ms.locfileid: "55234350"
 
 ## <a name="what-can-i-do-with-visualizations"></a>시각화로 수행할 수 있는 작업은 무엇인가요?
 
-시각화는 보고서 및 대시보드 ‘디자이너’에서 만들고, ‘소비자’와 공유합니다. 소비자는 시각화와 상호 작용하여 인사이트를 얻고 데이터 기반의 비즈니스 의사 결정을 내릴 수 있는 여러 가지 옵션을 사용할 수 있습니다. 이러한 모든 옵션은 단계별 지침에 대한 링크와 함께 아래에 나열되어 있습니다.
+시각화는 보고서 및 대시보드 ‘디자이너’에서 만들고, ‘소비자’와 공유합니다. 소비자는 시각화와 상호 작용하여 인사이트를 얻고 데이터 기반의 비즈니스 의사 결정을 내릴 수 있는 여러 가지 옵션을 사용할 수 있습니다. 이러한 모든 옵션은 아래 표에 단계별 지침에 대한 링크와 함께 나열되어 있습니다.
 
-그러나 먼저, Q&A에 대해 알아보겠습니다. Q&A는 Power BI의 자연어 검색 도구입니다. 자연어를 사용하여 질문을 입력하면 Q&A가 시각화 형식으로 질문에 답변합니다. Q&A는 소비자가 고유한 시각화를 작성할 수 있는 한 방법입니다. 그러나 Q&A를 사용하여 작성하는 시각화는 저장할 수 없습니다. 하지만 데이터에서 학습하려는 특정한 것이 있지만 디자이너가 보고서나 대시보드에 포함하지 않은 경우에는 Q&A가 유용한 옵션입니다. Q&A에 대한 자세한 내용을 보려면 [소비자에 대한 Q&A](end-user-q-and-a.md)를 참조하세요.
+> [!IMPORTANT]
+> 그러나 먼저, Q&A에 대해 알아보겠습니다. Q&A는 Power BI의 자연어 검색 도구입니다. 자연어를 사용하여 질문을 입력하면 Q&A가 시각화 형식으로 질문에 답변합니다. Q&A는 소비자가 고유한 시각화를 작성할 수 있는 한 방법입니다. 그러나 Q&A를 사용하여 작성하는 시각화는 저장할 수 없습니다. 하지만 데이터에서 학습하려는 특정한 것이 있지만 디자이너가 보고서나 대시보드에 포함하지 않은 경우에는 Q&A가 유용한 옵션입니다. Q&A에 대한 자세한 내용을 보려면 [소비자에 대한 Q&A](end-user-q-and-a.md)를 참조하세요.
 
 
 
-|열1  |대시보드에서  |보고서에서  | Q&A에서
+|작업  |대시보드에서  |보고서에서  | Q&A에서
 |---------|---------|---------|--------|
 |[시각화에 설명을 직접 추가하거나 시각화에 대해 동료와 대화를 시작](end-user-comment.md)합니다.     |  예       |   아니요      |  아니요  |
 |[시각화를 작성한 보고서를 열고 탐색](end-user-tiles.md)합니다.     |    예     |   해당 없음      |  해당 없음 |

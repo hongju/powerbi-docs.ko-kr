@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 790c06dd84d7db3a382ef547c8fcc16237273951
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 69ce8088903cbdddef504dbf5e9b2ecc2a8ab9d4
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431157"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762677"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>자습서: 소버린 클라우드용 애플리케이션에 Power BI 대시보드, 타일 또는 보고서 포함
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>자습서: 소버린 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
 
 소버린 클라우드용 비즈니스 프로세스 애플리케이션 내에 분석 콘텐츠를 포함하는 방법을 알아봅니다. Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서, 대시보드 또는 타일을 웹 애플리케이션에 포함할 수 있습니다.
 
@@ -37,7 +37,7 @@ Power BI는 소버린(개인용) 클라우드도 지원합니다.
 
 ![포함된 대시보드](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-이 연습을 시작하려면 **Power BI 계정**이 필요합니다. 계정이 설정되어 있지 않으면 소버린 클라우드 유형에 따라 [미국 정부 Power BI 계정](../service-govus-signup.md) 또는 [독일 클라우드용 Power BI 계정](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) 또는 [중국 클라우드용 Power BI 계정](http://www.21vbluecloud.com/powerbi/)에 등록할 수 있습니다.
+이 연습을 시작하려면 **Power BI 계정**이 필요합니다. 계정을 설정하지 않은 경우 정부 또는 국가의 유형에 따라 적절한 소버린 클라우드를 선택할 수 있습니다. [미국 정부 Power BI 계정](../service-govus-signup.md), [독일 클라우드용 Power BI 계정](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) 또는 [중국 클라우드용 Power BI 계정](http://www.21vbluecloud.com/powerbi/)에 등록할 수 있습니다.
 
 > [!NOTE]
 > 대신 조직의 대시보드를 포함하려고 하십니까? [조직의 앱에 대시보드 통합](integrate-dashboard.md)을 참조하세요.
@@ -435,7 +435,7 @@ JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드
 
 * [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md)
 
-제한 사항 및 고려 사항
+고려 사항 및 제한 사항
 
 * 이제 GCC 계정은 P 및 EM 용량만을 지원합니다.
 

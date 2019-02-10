@@ -2,24 +2,24 @@
 title: Azure Portal에서 Power BI Embedded 용량 만들기| Microsoft Docs
 description: 이 아티클은 Microsoft Azure에서 Power BI Embedded 용량을 만드는 방법을 안내합니다.
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: caab7ce649687ec22d171e112382aa13d7652fb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.reviewer: zakharb
+ms.date: 02/05/2019
+ms.openlocfilehash: 1d829dc31bc6e2419d4f2c187b40d6945f963f69
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288546"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762562"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal에서 Power BI Embedded 용량 만들기
 
-이 아티클은 Microsoft Azure에서 Power BI Embedded 용량을 만드는 방법을 안내합니다. Power BI Embedded는 뛰어난 시각적 개체, 보고서 및 대시보드를 사용자의 앱에 빠르게 추가할 수 있도록 지원하여 Power BI 기능을 단순화합니다.
+이 문서는 Microsoft Azure에서 [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) 용량을 만드는 방법을 안내합니다. Power BI Embedded는 뛰어난 시각적 개체, 보고서 및 대시보드를 사용자의 앱에 빠르게 추가할 수 있도록 지원하여 Power BI 기능을 단순화합니다.
 
 Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/)을 만듭니다.
 
@@ -38,13 +38,11 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 1. [Azure Portal](https://portal.azure.com/)에 로그인합니다.
 
-2. **리소스 만들기** > **데이터 + 분석**을 선택합니다.
+2. 검색 상자에서 *Power BI Embedded*를 검색합니다.
 
-3. 검색 상자에서 *Power BI Embedded*를 검색합니다.
+3. Power BI Embedded 내에서 **만들기**를 선택합니다.
 
-4. Power BI Embedded 내에서 **만들기**를 선택합니다.
-
-5. 필요한 정보를 입력하고 **만들기**를 선택합니다.
+4. 필요한 정보를 입력하고 **만들기**를 선택합니다.
 
     ![새 용량을 만들기 위해 작성할 필드](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
@@ -57,9 +55,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
     |**위치**|테넌트에 대해 Power BI가 호스팅되는 위치입니다. 기본 위치는 홈 지역이지만 [Multi-Geo 옵션](embedded-multi-geo.md)을 사용하여 위치를 변경할 수 있습니다.
     |**가격 책정 계층**|사용자의 요구를 충족하는 SKU(v 코어 수 및 메모리 크기)를 선택합니다.  자세한 내용은 [Power BI Embedded 가격 책정](https://azure.microsoft.com/pricing/details/power-bi-embedded/)을 참조하세요.|
 
-6. **만들기**를 선택합니다.
-
-일반적으로 만드는 데 1분 미만으로, 단 몇 초가 걸리는 경우도 있습니다. **대시보드에 고정**을 선택할 경우 대시보드로 이동하여 새 용량을 확인하거나, 또는 **모든 서비스** > **Power BI Embedded**로 이동하여 용량이 준비되었는지 확인할 수 있습니다.
+**모든 서비스** > **Power BI Embedded**로 이동하여 용량이 준비되었는지 확인할 수 있습니다. 또는 알림 섹션 또는 블레이드 내에서 **대시보드에 고정**을 선택하여 대시보드로 이동하여 새 용량을 확인할 수 있습니다.
 
 ![Power BI Embedded 용량이 포함된 Azure Portal 대시보드](media/azure-pbie-create-capacity/azure-portal-dashboard.png)
 

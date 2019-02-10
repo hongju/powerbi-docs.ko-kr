@@ -3,22 +3,22 @@ title: 직접 보고서 및 대시보드 구독
 description: 본인과 동료가 Power BI 보고서 또는 대시보드의 이메일 스냅숏을 구독하는 방법에 대해 알아보세요.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 02/05/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a35067af531f6da29edef7638fc9a743c948b8ce
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: df167f8693708c08bc44e935cff184917d8aaf54
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430260"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794318"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Power BI 서비스에서 보고서 또는 대시보드 구독 
-가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서 스냅숏을 전자 메일로 받은 편지함에 보냅니다. 매일, 매주 또는 데이터 새로 고침될 때 Power BI에게 이메일 수신 빈도를 알려줍니다. Power BI가 이메일을 보내는 특정 시간도 설정할 수 있습니다.  
+가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서 스냅숏을 전자 메일로 받은 편지함에 보냅니다. 매일, 매주 또는 데이터 새로 고침될 때 Power BI에게 이메일 수신 빈도를 알려줍니다. Power BI가 이메일을 보내거나 지금 실행되도록 특정 시간을 설정할 수도 있습니다.  
 
 메일 및 스냅숏은 Power BI 설정에 설정된 언어를 사용합니다([Power BI에 지원되는 언어 및 국가/지역](../supported-languages-countries-regions.md) 참조). 언어가 정의되지 않은 경우 Power BI는 현재 브라우저의 로캘 설정에 따른 언어를 사용합니다. 언어 기본 설정을 보거나 설정하려면 기어 아이콘 ![기어 아이콘](./media/end-user-subscribe/power-bi-settings-icon.png) > **설정 > 일반 > 언어**를 선택합니다. 
 
@@ -40,23 +40,23 @@ ms.locfileid: "55430260"
    
    ![구독 아이콘](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-   ![구독 창](./media/end-user-subscribe/power-bi-emails2.png)
+   ![구독 창](./media/end-user-subscribe/power-bi-emails-new.png)
     
     대시보드에 있는 **구독**을 선택하면 왼쪽 화면이 나타납니다. 보고서 페이지에 있는 **구독**을 선택하면 오르쪽 화면이 나타납니다. 보고서에서 여러 페이지를 구독하려면 **다른 구독 추가**를 선택하고, 다른 페이지를 선택합니다. 
 
-3. 노란색 슬라이더를 사용하여 구독을 설정하거나 해제합니다.  슬라이더를 Off로 설정해도 구독이 삭제되지 않습니다. 구독을 삭제하려면 휴지통 아이콘을 선택합니다.
+4. 노란색 슬라이더를 사용하여 구독을 설정하거나 해제합니다.  슬라이더를 Off로 설정해도 구독이 삭제되지 않습니다. 구독을 삭제하려면 휴지통 아이콘을 선택합니다.
 
 4. 선택적으로 메일 메시지 세부 사항을 추가하세요. 
 
 5. 구독에 대해 **빈도**를 선택합니다.  매일, 매주 또는 데이터 새로 고침 후(매일)를 선택할 수 있습니다.  특정 요일에만 구독 이메일을 받으려면 **매주**를 선택하고 수신할 요일을 선택합니다.  예를 들어 평일에만 구독 이메일을 받으려면 빈도에 대해 **매주**를 선택하고 토요일 및 일요일의 확인란을 선택 취소합니다.   
 
-
 6. 빈도에 대해 매일 또는 매주를 선택하고 구독에 대해 **예약** **시간**을 입력하여 이메일이 전송되는 시간을 예약합니다.   
 
 7. 날짜 필드에 날짜를 입력하여 시작 및 종료 날짜를 예약합니다. 기본적으로 구독 시작 시간은 구독을 만든 날짜이고 종료 날짜는 1년 후입니다. 구독이 종료 날짜에 도달하면 다시 활성화될 때까지 중지됩니다.  예정된 종료일 전에 확장 여부를 묻는 알림을 받게 됩니다.     
 
+8. 구독을 검토하고 테스트하려면 **지금 실행**을 선택합니다.  바로 이메일을 보내드립니다. 
 
-5. **저장 후 닫기**를 선택하여 구독을 저장합니다. 설정한 일정에 따라 대시보드 또는 보고서의 스냅숏과 이메일을 받게 됩니다. 빈도가 **데이터 새로 고침 후**로 설정된 모든 구독은 첫 번째 예약된 새로 고침 이후에만 이메일을 보냅니다.
+8. 모든 항목이 양호하면 **저장 후 닫기**를 선택하여 구독을 저장합니다. 설정한 일정에 따라 대시보드 또는 보고서의 스냅숏과 이메일을 받게 됩니다. 빈도가 **데이터 새로 고침 후**로 설정된 모든 구독은 첫 번째 예약된 새로 고침 이후에만 이메일을 보냅니다.
    
    ![대시보드의 이메일 스냅숏](media/end-user-subscribe/power-bi-subscribe-email.png)
    
@@ -83,6 +83,5 @@ Pro 라이선스가 만료되거나, 소유자가 대시보드 또는 보고서�
 * Power BI는 2개월 넘게 방문하지 않은 대시보드 및 보고서와 연결된 데이터 세트의 경우 자동으로 새로 고침을 일시 중지합니다.  그러나 대시보드 또는 보고서에 구독을 추가하면 방문하지 않았더라도 일시 중지되지 않습니다.    
 
 ## <a name="next-steps"></a>다음 단계
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)    
-* [블로그 게시물 읽기](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
 
+[콘텐츠 검색 및 정렬](end-user-search-sort.md)

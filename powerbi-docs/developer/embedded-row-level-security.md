@@ -8,15 +8,15 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: f50305eed647bfc94bc5c19ee1a298cb9ac9c782
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284176"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762700"
 ---
-# <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI Embedded 콘텐츠에서 행 수준 보안 사용
+# <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded를 사용하는 행 수준 보안
 
 **RLS(행 수준 보안)** 를 사용하여 대시보드, 타일, 보고서 및 데이터 세트 내 데이터에 대한 사용자 액세스를 제한할 수 있습니다. 여러 사용자가 다른 데이터를 보면서 동일한 아티팩트로 작업할 수 있습니다. RLS 포함이 지원됩니다.
 
@@ -141,7 +141,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 ### <a name="using-the-customdata-feature"></a>CustomData 기능 사용
 
-CustomData 기능은 **Azure Analysis Services**에 보존하는 모델에 대해서만 작동하고 **라이브 연결** 모드에서만 작동합니다. 사용자 및 역할과 달리 .pbix 파일 내에 사용자 지정 데이터 기능을 설정할 수 없습니다. 사용자 지정 데이터 기능을 사용하여 토큰을 생성할 때 사용자 이름이 필요합니다.
+CustomData 기능은 **Azure Analysis Services**에 상주하는 모델에 대해서만 작동하고 **라이브 연결** 모드에서만 작동합니다. 사용자 및 역할과 달리 .pbix 파일 내에 사용자 지정 데이터 기능을 설정할 수 없습니다. 사용자 지정 데이터 기능을 사용하여 토큰을 생성할 때 사용자 이름이 필요합니다.
 
 CustomData 기능을 사용하면 **Azure Analysis Services**를 데이터 원본으로 사용하여 애플리케이션에서 Power BI 데이터를 볼 때(애플리케이션의 Azure Analysis Services에 연결된 Power BI 데이터 보기) 행 필터를 추가할 수 있습니다.
 
@@ -247,7 +247,7 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 
 포함 토큰을 생성하는 경우 Azure SQL에서 사용자의 유효 ID를 지정할 수 있습니다. 서버에 AAD 액세스 토큰을 전달하여 사용자의 유효 ID를 지정할 수 있습니다. 액세스 토큰은 해당 특정 세션을 위해 Azure SQL에서 해당 사용자의 관련 데이터를 끌어오는 데만 사용됩니다.
 
-Azure SQL에서 각 사용자의 보기를 관리하거나 다중 테넌트 DB의 특정 고객으로 Azure SQL에 로그인하는 데 사용할 수 있습니다. Azure SQL에서 해당 세션에서 행 수준 보안을 적용하고 해당 세션의 관련 데이터만 검색하여 Power BI에서 RLS를 관리할 필요성을 제거하는 데 사용할 수도 있습니다.
+Azure SQL에서 각 사용자의 보기를 관리하거나 다중 테넌트 DB의 특정 고객으로 Azure SQL에 로그인하는 데 사용할 수 있습니다. Azure SQL에서 해당 세션에 행 수준 보안을 적용하고 해당 세션의 관련 데이터만 검색하여 Power BI에서 RLS를 관리할 필요성을 제거할 수도 있습니다.
 
 이러한 유효 ID 문제는 Azure SQL Server의 RLS 규칙에 직접 적용됩니다. Power BI Embedded는 Azure SQL Server에서 데이터를 쿼리할 때 제공된 액세스 토큰을 사용합니다. 액세스 토큰이 제공된 사용자의 UPN은 USER_NAME() SQL 함수의 결과로 액세스할 수 있습니다.
 
@@ -308,6 +308,18 @@ ID Blob에 제공된 값은 Azure SQL Server에 유효한 액세스 토큰이어
 
    ![앱 등록](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
+## <a name="on-premises-data-gateway-with-service-principal-preview"></a>서비스 주체가 있는 온-프레미스 데이터 게이트웨이(미리 보기)
+
+SSAS(SQL Server Analysis Services) 온-프레미스 라이브 연결 데이터 원본을 사용하여 RLS(행 수준 보안)를 구성하는 고객은 **Power BI Embedded**와 통합할 때 SSAS에서 사용자와 해당 데이터 액세스를 관리할 수 있는 새로운 [서비스 주체](embed-service-principal.md) 기능을 사용할 수 있습니다.
+
+[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 통해 [서비스 주체 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)를 사용하여 포함 토큰에 대한 SSAS 온-프레미스 라이브 연결을 위한 유효한 ID를 지정할 수 있습니다.
+
+지금까지 SSAS 온-프레미스 라이브 연결을 위한 유효한 ID를 지정하려면 포함 토큰을 생성하는 마스터 사용자가 게이트웨이 관리자여야 했습니다. 이제 사용자를 게이트웨이 관리자로 요구하는 대신 게이트웨이 관리자는 사용자가 포함 토큰을 생성할 때 유효한 ID를 재정의할 수 있도록 해당 데이터 원본에 대한 전용 권한을 사용자에게 부여할 수 있습니다. 이 새로운 기능을 통해 라이브 SSAS 연결에 서비스 주체를 포함시킬 수 있습니다.
+
+이 시나리오를 사용하기 위해 게이트웨이 관리자는 [데이터 원본 사용자 REST API 추가](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser)를 사용하여 서비스 주체에게 Power BI Embedded에 대한 *ReadOverrideEffectiveIdentity* 권한을 부여합니다.
+
+관리 포털을 사용하여 이 권한을 설정할 수 없습니다. 이 사용 권한은 API로만 설정됩니다. 관리 포털에서 이러한 사용 권한이 있는 사용자 및 SPN에 대한 표시를 볼 수 있습니다.
+
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
 * Power BI 서비스 내에서 역할에 사용자를 할당하면 포함 토큰을 사용할 때 RLS에 영향을 주지 않습니다.
@@ -315,7 +327,7 @@ ID Blob에 제공된 값은 Azure SQL Server에 유효한 액세스 토큰이어
 * 온-프레미스 서버에 대해 Analysis Services 라이브 연결이 지원됩니다.
 * Azure Analysis Services 라이브 연결은 역할별 필터링을 지원합니다. CustomData를 사용하여 동적 필터링을 수행할 수 있습니다.
 * 기본 데이터 세트에서 RLS가 필요하지 않은 경우 GenerateToken 요청은 유효 ID를 포함하지 **않아야** 합니다.
-* 기본 데이터 세트가 클라우드 모델(캐시된 모델 또는 DirectQuery)이면 유효 ID는 하나 이상의 역할을 포함해야 합니다. 그러지 않으면 역할 할당이 이루어지지 않습니다.
+* 기본 데이터 세트가 클라우드 모델(캐시된 모델 또는 DirectQuery)이면 유효 ID는 하나 이상의 역할을 포함해야 합니다. 그렇지 않으면 역할 할당이 이루어지지 않습니다.
 * ID 목록은 대시보드 포함을 위한 여러 ID 토큰을 구현합니다. 다른 모든 아티팩트는 목록에 단일 ID가 포함됩니다.
 
 ### <a name="token-based-identity-limitations-preview"></a>토큰 기반 ID 제한 사항(미리 보기)

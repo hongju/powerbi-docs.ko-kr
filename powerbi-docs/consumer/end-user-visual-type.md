@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 174886acf1d827497b48d660bb89e2b4057b09b9
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234632"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794841"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 시각화는 보고서, 대시보드, 앱 및 Q&A에서 찾을 수 있습니다. 이러한 시각화 유형 중 일부는 Power BI와 함께 패키지로 제공되며, 일부는 *사용자 지정 시각적 개체*입니다. 사용자 지정 시각적 개체는 Power BI 외부에서 생성되며, *보고서 디자이너*가 Power BI 보고서, 대시보드 및 앱에 추가할 수 있습니다. 
@@ -26,7 +26,7 @@ ms.locfileid: "55234632"
 > 사용자 지정 시각적 개체에 대해 알아보려면 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)의 **Power BI 시각적 개체** 섹션에서 이를 검색합니다. 각 시각적 개체마다 설명, 작성자 정보, 스크린샷 또는 비디오를 찾을 수 있습니다. 
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI에서 사용할 수 있는 시각화 목록
-이러한 모든 시각화는 Power BI 앱, 대시보드, 보고서 및 [Q&A에 지정](#gna)에서 찾을 수 있습니다.
+이러한 모든 시각화는 Power BI 앱, 대시보드, 보고서 및 [Q&A에 지정](#qna)에서 찾을 수 있습니다. 시각화와 상호 작용하는 방법을 알아보려면 [보고서, 대시보드 및 앱의 시각화와 상호 작용](end-user-visualizations.md)을 참조하세요.
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>영역형 차트: 기본(겹침) 및 누적
 ![영역 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
@@ -232,5 +232,5 @@ Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼
 ![질문 및 답변 세션](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 보고서의 시각화](end-user-visualizations.md)    
+[보고서, 대시보드 앱의 시각화와 상호 작용](end-user-visualizations.md)    
 [sqlbi.com에서 오른쪽 시각적 개체 참조](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

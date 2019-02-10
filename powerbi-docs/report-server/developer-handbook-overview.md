@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: df77d4b9642a6df511af8af054e3e983c0120f77
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291628"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794717"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>개발자 안내서 개요, Power BI Report Server
 Power BI, 모바일, 페이지가 매겨진 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 개발자 안내서를 시작합니다.
@@ -24,19 +24,19 @@ Power BI, 모바일, 페이지가 매겨진 보고서 및 KPI를 보고, 저장�
 이 안내서는 개발자로서 Power BI Report Server를 사용해야 하는 옵션을 강조 표시합니다.
 
 ## <a name="embedding"></a>포함
-URL에 쿼리 문자열 매개 변수 `?rs:Embed=true`를 추가하여 Power BI Report Server 내의 보고서를 iFrame 내에 포함할 수 있습니다. 다른 보고서 형식뿐만 아니라 Power BI 보고서에서도 작동합니다.
+URL에 쿼리 문자열 매개 변수 `?rs:Embed=true`를 추가하여 Power BI Report Server 내의 보고서를 iFrame 내에 포함할 수 있습니다. 이 기술은 다른 보고서 형식뿐만 아니라 Power BI 보고서에서도 작동합니다.
 
 ### <a name="report-viewer-control"></a>보고서 뷰어 컨트롤
 페이지가 매겨진 보고서에서 보고서 뷰어 컨트롤을 활용할 수 있습니다. 이를 통해 .NET 창 또는 웹 애플리케이션 내에 컨트롤을 배치할 수 있습니다. 자세한 내용은 [보고서 뷰어 컨트롤 시작](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
 
 ## <a name="apis"></a>API
-Power BI Report Server를 조작하는 몇 가지 API 옵션이 있습니다. 다음 항목이 포함됩니다.
+Power BI Report Server를 조작하는 몇 가지 API 옵션이 있습니다. 이 기술에는 다음이 포함됩니다.
 
 * [REST API](rest-api.md)
 * [URL 액세스](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
 * [WMI 공급자](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
-오픈 소스 [PowerShell 유틸리티](https://github.com/Microsoft/ReportingServicesTools)를 사용하여 Report Server를 관리할 수도 있습니다.
+오픈 소스 [PowerShell 유틸리티](https://github.com/Microsoft/ReportingServicesTools)를 사용하여 보고서 서버를 관리할 수도 있습니다.
 
 > [!NOTE]
 > 현재 PowerShell 유틸리티는 Power BI Desktop 파일(.pbix)을 지원하지 않습니다.
