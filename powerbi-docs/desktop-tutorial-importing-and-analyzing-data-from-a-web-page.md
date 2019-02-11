@@ -29,7 +29,7 @@ ms.locfileid: "54276747"
 
 ## <a name="connect-to-a-web-data-source"></a>웹 데이터 원본에 연결
 
- http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 의 UEFA 유럽 축구 선수권 대회 Wikipedia 페이지에 있는 Results 테이블에서 UEFA 우승팀 데이터를 가져올 수 있습니다. 
+http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 의 UEFA 유럽 축구 선수권 대회 Wikipedia 페이지에 있는 Results 테이블에서 UEFA 우승팀 데이터를 가져올 수 있습니다. 
 
 ![Wikipedia Results 테이블](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -69,7 +69,7 @@ ms.locfileid: "54276747"
 
 1. **파워 쿼리 편집기** 그리드에서 **Year** 및 **Final Winners** 열을 선택합니다(여러 항목을 선택하려면 **Ctrl** 키를 누르고 있음).
    
-2. 마우스 오른쪽 단추를 클릭하고 드롭다운 메뉴에서 **다른 열 제거**를 선택하거나, 리본 메뉴 **홈** 탭의 열 관리**그룹에서** **열 제거**  >  **다른 열 제거**를 선택하여 테이블에서 다른 모든 열을 제거합니다. 
+2. 마우스 오른쪽 단추를 클릭하고 드롭다운 메뉴에서 **다른 열 제거**를 선택하거나, 리본 메뉴 **홈** 탭의 **열 관리**그룹에서 **열 제거**  >  **다른 열 제거**를 선택하여 테이블에서 다른 모든 열을 제거합니다. 
    
    ![다른 열 제거 드롭다운](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) 또는 ![다른 열 제거 리본](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
@@ -128,7 +128,7 @@ ms.locfileid: "54276747"
 >[!TIP]
 >항상 **파워 쿼리 편집기**로 돌아가서 다음과 같이 쿼리를 편집하고 구체화할 수 있습니다.
 >- **필드** 창의 **Euro Cup Winners** 옆에 있는 **추가 옵션** 줄임표(**...**)를 선택하고 드롭다운에서 **쿼리 편집** 을 선택하거나,
->- 보고서 보기의 **홈** 리본 탭에 있는 **외부 데이터** 그룹에서 **쿼리 편집** > **쿼리 편집**을 선택합니다. 
+>- 보고서 보기의 **홈** 리본 탭에 있는**외부 데이터** 그룹에서 **쿼리 편집** > **쿼리 편집**을 선택합니다. 
 
 ## <a name="create-a-visualization"></a>시각화 만들기
 
@@ -142,7 +142,7 @@ ms.locfileid: "54276747"
 
    ![맵 확대](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
    
-3. 맵에는 유로컵 토너먼트에서 우승한 모든 국가에 대한 동일한 데이터 요소가 표시됩니다. 각 데이터 요소의 크기에 해당 국가가 우승한 빈도를 반영하려면 **시각화** 창의 아래쪽 부분에 있는 **크기** 아래의 **데이터 필드를 여기에 끌어오기**로 **Year** 필드를 끌어옵니다. 이 필드는 **Count of Year** 측정값으로 자동으로 변경되고 이제 맵 시각화에는 더 많은 토너먼트에서 우승한 국가에 대한 더 큰 데이터 요소가 표시됩니다. 
+3. 맵에는 유로컵 토너먼트에서 우승한 모든 국가에 대한 동일한 데이터 요소가 표시됩니다. 각 데이터 요소의 크기에 해당 국가가 우승한 빈도를 반영하려면 **시각화** 창의 아래쪽 부분에 있는 **크기** 아래의 **여기에 데이터 필드 추가**로 **Year** 필드를 끌어옵니다. 이 필드는 **Count of Year** 측정값으로 자동으로 변경되고 이제 맵 시각화에는 더 많은 토너먼트에서 우승한 국가에 대한 더 큰 데이터 요소가 표시됩니다. 
    
    ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage15.png)
    
