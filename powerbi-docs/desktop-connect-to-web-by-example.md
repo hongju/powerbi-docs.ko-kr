@@ -46,7 +46,7 @@ ms.locfileid: "54280082"
 
 ![탐색기 창](media/desktop-connect-to-web-by-example/web-by-example_05.png)
 
-**예제를 사용하여 테이블 추가**을 선택하면 웹 페이지의 콘텐츠를 미리 보고 추출할 데이터의 샘플 값을 입력할 수 있는 대화형 창이 표시됩니다. 
+**예제를 사용하여 테이블 추출**을 선택하면 웹 페이지의 콘텐츠를 미리 보고 추출할 데이터의 샘플 값을 입력할 수 있는 대화형 창이 표시됩니다. 
 
 이 예제에서는 페이지의 각 게임에 대한 ‘이름’ 및 ‘가격’을 추출합니다. 다음 이미지와 같이 각 열에 대해 페이지에서 두 개 정도의 예제를 지정하여 작업을 수행할 수 있습니다. 이러한 예제가 입력되면 **파워 쿼리**(웹 페이지에서 데이터를 추출하는 기본 기술)는 스마트 데이터 추출 알고리즘을 사용하여 예제 항목의 패턴에 맞는 데이터를 추출할 수 있습니다.
 
@@ -64,7 +64,7 @@ ms.locfileid: "54280082"
 ## <a name="next-steps"></a>다음 단계
 **Power BI Desktop**을 사용하여 모든 종류의 데이터를 연결할 수 있습니다. 데이터 원본에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
-* [예제의 열 추가](desktop-add-column-from-example.md)
+* [예제별 열 추가](desktop-add-column-from-example.md)
 * [웹 페이지에 연결](desktop-connect-to-web.md)
 * [Power BI Desktop의 데이터 원본](desktop-data-sources.md)
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
