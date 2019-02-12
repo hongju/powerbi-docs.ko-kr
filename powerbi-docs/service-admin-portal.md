@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8cda803939ee9ae2f864496300fce25890770dac
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430376"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888236"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -287,16 +287,6 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 ### <a name="embed-content-in-apps"></a>앱에 콘텐츠 포함
 
 조직 내 사용자는 Power BI 대시보드 및 보고서를 SaaS(Software as a Service) 애플리케이션에 포함할 수 있습니다. 이 설정을 사용하지 않도록 설정하면 사용자는 REST API를 사용하여 Power BI 콘텐츠를 해당 애플리케이션에 포함할 수 없게 됩니다. [자세히 알아보기](developer/embedding.md)
-
-## <a name="workspaces-and-import-settings"></a>작업 영역 및 가져오기 설정
-
-### <a name="author-content-in-workspaces"></a>작업 영역에서 콘텐츠 작성
-
-조직의 사용자는 작업 영역에 액세스하여 데이터에 연결하고 콘텐츠를 작성할 수 있습니다. [자세히 알아보기](service-create-the-new-workspaces.md)
-
-### <a name="import-data-into-power-bi"></a>Power BI로 데이터 가져오기
-
-조직의 사용자는 Power BI Desktop에서 보고서를 게시하고, Power BI 보고서 파일을 업로드하고, 서비스에서 바로 데이터에 연결하는 등 데이터를 서비스로 가져올 수 있습니다. [자세히 알아보기](desktop-upload-desktop-files.md)
 
 ## <a name="dataflow-settings-preview"></a>데이터 흐름 설정(미리 보기)
 
