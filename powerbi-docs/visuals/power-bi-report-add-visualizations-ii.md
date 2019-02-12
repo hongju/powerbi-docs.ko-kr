@@ -41,7 +41,7 @@ ms.locfileid: "54288247"
 2. Time 테이블에서 **FiscalMonth**를 **축** 영역으로 끌어옵니다.  
    ![](media/power-bi-report-add-visualizations-ii/power-bi-month.png)
 3. 시각화를 영역형 차트로 [변경](power-bi-report-change-visualization-type.md)합니다.  선택할 수 있는 시각화 유형이 많습니다. 사용할 유형을 결정하려면 [각 유형 설명, 모범 사례에 대한 팁 및 자습서](power-bi-visualization-types-for-reports-and-q-and-a.md)를 참조하세요. 시각화 창에서 영역형 차트 아이콘 ![](media/power-bi-report-add-visualizations-ii/power-bi-areachart.png)을 선택합니다.
-4. 줄임표를 선택하고 **회계 월별 정렬**을 선택하여 시각화를 정렬합니다.
+4. 줄임표(...)를 선택하고 **정렬 기준 > FiscalMonth**를 선택하여 시각화를 정렬합니다.
 5. 시각화를 선택하고 윤곽 원 중 하나를 클릭한 다음 끌어서 [시각화의 크기를 조정](power-bi-visualization-move-and-resize.md)합니다. 스크롤 막대가 보이지 않도록 넓게 만들고 다른 시각화를 추가할 만큼의 공간을 남겨둡니다.
    
    ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
