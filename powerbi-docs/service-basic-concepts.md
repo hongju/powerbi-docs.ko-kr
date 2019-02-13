@@ -8,23 +8,25 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2018
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: d09ff277ed1c47b9ab11d6ffed4e5c8a57059465
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147453"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971720"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 서비스의 디자이너를 위한 기본 개념
 
-이 문서에서는 이미 [Power BI 서비스에 등록](service-self-service-signup-for-power-bi.md)했고 [일부 데이터를 추가](service-get-data.md)했다고 가정합니다. 아직 데이터가 없는 경우 [Power BI 샘플 콘텐츠 팩](sample-datasets.md#the-power-bi-samples-as-content-packs)을 설치해 보세요.
+이 문서는 Power BI 서비스에 익숙해지도록 도와주기 위한 것입니다. 즉, 이 서비스의 여러 요소가 무엇이고, 이 요소가 함께 어떻게 작동하고, 이 요소를 어떻게 사용하는지를 소개합니다. 이미 [Power BI 서비스에 등록](service-self-service-signup-for-power-bi.md)하고 [일부 데이터를 추가](service-get-data.md)한 경우 이 문서를 더 잘 활용할 수 있습니다. 디자이너의 일반적인 워크플로는 보통 Power BI Desktop에서 보고서를 만드는 것으로 시작합니다. 그런 다음 이 보고서를 Power BI 서비스에 게시하고 계속 수정할 수 있습니다. Power BI 서비스에서 보고서를 기반으로 대시보드를 만들 수도 있습니다. 
+
+이 문서에서 보고서가 아직 없는 경우 [Power BI 샘플 콘텐츠 팩](sample-datasets.md#the-power-bi-samples-as-content-packs)을 설치해 보세요.
 
 ![브라우저의 Power BI 서비스 홈 화면](media/service-basic-concepts/power-bi-home-screen.png)
 
-브라우저에서 Power BI 서비스를 열 때 표시되는 요소는 다음과 같습니다.
+브라우저에서 Power BI 서비스를 열면 홈 화면에서 시작합니다. 표시될 수 있는 요소는 다음과 같습니다.
 
 1. 탐색 창(왼쪽 탐색)
 2. Office 365 앱 시작 관리자
@@ -34,9 +36,9 @@ ms.locfileid: "55147453"
 6. 즐겨 찾는 대시보드의 타일
 7. 자주 사용하는 대시보드 및 보고서
 
-이러한 기능은 나중에 자세히 살펴보고 먼저 몇 가지 Power BI 개념에 대해 검토해 보겠습니다.
+보고서 및 대시보드의 최종 사용자도 브라우저에서 Power BI 서비스를 열면 시작 환경이 같습니다.
 
-또는 이 문서의 나머지 부분을 읽기 전에 이 비디오를 시청하는 것이 좋습니다.  비디오에서 Power BI 서비스의 기본 개념을 검토하고 간략한 둘러보기를 제공합니다.
+이러한 기능은 나중에 자세히 살펴보고 먼저 몇 가지 Power BI 개념에 대해 검토해 보겠습니다. 또는 이 비디오를 먼저 시청하면 좋습니다.  이 비디오에서는 Power BI 서비스의 기본 개념을 검토하고 간략한 둘러보기를 제공합니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 
@@ -45,13 +47,12 @@ ms.locfileid: "55147453"
 Power BI의 4가지 주요 구성 요소는 **_대시보드_**, **_보고서_**, **_통합 문서_**, **_데이터 세트_** 입니다. 그리고 모두 **_작업 영역_** 에 구성됩니다. 네 가지 구성 요소를 살펴보기 전에 작업 영역을 이해하는 것이 중요하므로 작업 영역부터 살펴보겠습니다.
 
 ## <a name="workspaces"></a>작업 영역
-작업 영역은 Power BI의 대시보드, 보고서, 통합 문서 및 데이터 세트를 위한 컨테이너입니다. 작업 영역에는 다음과 같은 두 종류가 있습니다. *내 작업 영역* 및 *앱 작업 영역*. 그렇다면 *앱*이란 무엇일까요? Power BI *앱*은 조직에 대한 주요 메트릭을 제공하도록 제작된 대시보드 및 보고서의 컬렉션입니다. 앱은 대화형이지만 편집할 수 없습니다.
+작업 영역은 Power BI의 대시보드, 보고서, 통합 문서 및 데이터 세트를 위한 컨테이너입니다. 작업 영역에는 다음과 같은 두 종류가 있습니다. *내 작업 영역* 및 *앱 작업 영역*. 그렇다면 *앱*이란 무엇일까요? Power BI *앱*은 조직의 Power BI 최종 사용자에게 주요 메트릭을 제공하도록 제작된 대시보드 및 보고서의 컬렉션입니다. 앱은 대화형이지만 최종 사용자가 편집할 수는 없습니다.
 
-- ‘내 작업 영역’은 Power BI 고객이 콘텐츠를 작업하는 개인적인 작업 영역입니다. 내 작업 영역에는 본인만 액세스할 수 있습니다. 내 작업 영역에서 대시보드 및 보고서를 공유할 수 있습니다. 대시보드 및 보고서에 대한 공동 작업을 하거나 앱을 만들려면 앱 작업 영역에서 작업해야 합니다.      
+- *내 작업 영역*은 Power BI 고객이 콘텐츠를 작업하는 개인적인 작업 영역입니다. 내 작업 영역에는 본인만 액세스할 수 있습니다. 내 작업 영역에서 대시보드 및 보고서를 공유할 수 있습니다. 대시보드 및 보고서에 대한 공동 작업을 하거나 앱을 만들려면 앱 작업 영역에서 작업해야 합니다.      
 -  *앱 작업 영역*은 동료들과 함께 콘텐츠를 공동 작업하고 공유하는 데 사용됩니다. 또한 조직을 위한 앱을 만들어 게시하고 관리하는 공간이기도 합니다. Power BI 앱을 구성할 콘텐츠를 위한 준비 영역이자 컨테이너라고 생각하면 됩니다. 앱 작업 영역에 동료를 추가하고 대시보드, 보고서, 통합 문서 및 데이터 세트에 대한 공동 작업을 수행할 수 있습니다. 모든 앱 작업 영역 구성원에게는 Power BI Pro 라이선스가 있어야 하지만 앱 소비자(앱에 액세스할 수 있는 동료)에게 Pro 라이선스가 반드시 필요한 것은 아닙니다.  
 
-자세히 알아보려면 [대시보드 및 보고서를 공동 작업하고 공유하려면 어떻게 해야 합니까](service-how-to-collaborate-distribute-dashboards-reports.md)로 시작하는 목차의 **작업 공유** 섹션을 참조하세요.
-
+자세히 알아보려면 [작업을 공유하는 방법](service-how-to-collaborate-distribute-dashboards-reports.md)으로 시작하세요.
 
 이제 Power BI 구성 요소로 넘어갑니다. 데이터가 없는 대시보드나 보고서를 가질 수 없으므로(빈 대시보드와 빈 보고서가 있을 수 있지만 데이터가 있어야 유용합니다) **데이터 세트**부터 시작하겠습니다.
 
@@ -72,7 +73,7 @@ Power BI의 4가지 주요 구성 요소는 **_대시보드_**, **_보고서_**,
 
   ![데이터 세트 다이어그램](media/service-basic-concepts/drawing2.png)
 
-[데이터 세트에 연결하거나 가져오려면](service-get-data.md)**데이터 가져오기**(왼쪽 탐색 모음의 맨 아래에 있음)를 선택하거나 **+ 만들기 &gt; 데이터 세트**(오른쪽 상단)를 선택합니다. 지침에 따라 특정 원본에 연결하거나 가져오고 활성 작업 영역에 데이터 세트를 추가합니다. 새 데이터 세트는 노란색 별표로 표시됩니다. Power BI에서 작업을 수행해도 기본 데이터 세트는 변경되지 않습니다.
+[데이터 세트에 연결하거나 가져오려면](service-get-data.md) 왼쪽 탐색 모음의 맨 아래에 있는 **데이터 가져오기**를 선택합니다. 지침에 따라 특정 원본에 연결하거나 가져오고 활성 작업 영역에 데이터 세트를 추가합니다. 새 데이터 세트는 노란색 별표로 표시됩니다. Power BI에서 작업을 수행해도 기본 데이터 세트는 변경되지 않습니다.
 
 [**_앱 작업 영역_** 의](service-collaborate-power-bi-workspace.md) 부분인 경우 한 작업 영역 구성원에 의해 추가된 데이터 세트는 다른 작업 영역 구성원이 사용할 수 있습니다.
 

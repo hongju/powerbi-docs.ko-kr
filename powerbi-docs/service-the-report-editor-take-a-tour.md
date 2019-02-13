@@ -8,21 +8,23 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/25/2019
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147407"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971697"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI의 보고서 편집기 둘러보기
 
-Power BI 서비스의 *보고서 편집기*와 Power BI Desktop의 보고서 편집기는 유사합니다. 비디오에서는 Power BI Desktop의 보고서 편집기를 보여주고 이 문서에서는 Power BI 서비스의 보고서 편집기를 보여줍니다. 
+Power BI 서비스의 *보고서 편집기*와 Power BI Desktop의 보고서 편집기는 유사합니다. 일반적으로 먼저 Power BI Desktop에서 보고서를 만듭니다. 그런 다음 이 보고서를 Power BI 서비스에 게시하고 계속 수정할 수 있습니다. Power BI 서비스에서는 보고서를 기반으로 대시보드를 만들 수도 있습니다.
 
-보고서 작성자로서 대시보드 및 보고서를 만들고 편집합니다. 그런 다음, 보고서 소비자에게 배포합니다. Power BI 서비스의 읽기용 보기에서는 대시보드 및 보고서와 상호 작용할 수 있지만 편집은 할 수 없습니다. [보고서 소비자가 Power BI 서비스에서 수행할 수 있는 작업](consumer/end-user-reading-view.md)을 자세히 참고하세요. 
+대시보드와 보고서를 만든 후에는 보고서 소비자에게 배포합니다. 공유 방법에 따라 최종 사용자는 Power BI 서비스의 읽기용 보기에서 보고서나 대시보드를 조작할 수도 있지만 편집할 수는 없습니다. [보고서 소비자가 Power BI 서비스에서 수행할 수 있는 작업](consumer/end-user-reading-view.md)을 자세히 알아보세요. 
+
+이 비디오는 Power BI Desktop의 보고서 편집기를 보여줍니다. 이 문서에서는 Power BI 서비스의 보고서 편집기를 보여줍니다. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -79,7 +81,7 @@ Power BI 보고서 편집기는 다음 세 개의 섹션이 있습니다.
 분석 창을 표시하려면 돋보기 아이콘을 선택합니다. 선택한 시각화의 형식에 따라 사용할 수 있는 옵션이 달라집니다.
 
 ![보고서 편집기의 분석 창](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
-Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조 줄을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다. 자세한 내용은 [Power BI 서비스의 분석 창](service-analytics-pane.md) 또는 [Power BI Desktop의 분석 창](desktop-analytics-pane.md)을 참조하세요.
+Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조선을 추가하고, 중요한 추세 또는 인사이트에 집중할 수 있습니다. 자세한 내용은 [Power BI 서비스의 분석 창](service-analytics-pane.md) 또는 [Power BI Desktop의 분석 창](desktop-analytics-pane.md)을 참조하세요.
 
 - - -
 ## <a name="the-filters-pane"></a>필터 창
@@ -90,6 +92,12 @@ Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조 줄을 
 ![필터 창](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 자세한 내용은 [보고서에 필터 추가](power-bi-report-add-filter.md)를 참조하세요.
+
+새 필터 환경은 현재 미리 보기 상태입니다. 새 필터에서는 보고서 자체처럼 보이도록 필터의 형식을 지정할 수 있습니다. 필터를 잠그거나 보고서 소비자에게 숨길 수도 있습니다. 
+
+![새 필터 환경](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
+
+[새 필터 환경](power-bi-report-filter-preview.md)을 자세히 알아보세요.
 
 - - -
 ## <a name="the-fields-pane"></a>필드 창
