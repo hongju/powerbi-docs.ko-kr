@@ -1,5 +1,5 @@
 ---
-title: 인사이트를 사용하여 배포가 다른 곳 찾기(미리 보기)
+title: 인사이트를 사용하여 분포가 다른 곳 찾기(미리 보기)
 description: Power BI Desktop에서 차트에서 분포가 다르게 보이는 곳을 찾을 수 있도록 인사이트를 간편하게 파악
 author: davidiseminger
 manager: kfile
@@ -26,7 +26,7 @@ ms.locfileid: "54277759"
 
 ![분포가 큰 차트](media/desktop-insights-find-where-different/find-where-different_01.png)
 
-**Power BI Desktop**을 통해 분포가 다른 경우를 찾고 데이터에 대한 빠르고 자동화된 통찰력 있는 분석을 가져올 수 있습니다. 단순히 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 분포가 다른 경우 찾기**를 선택하면 인사이트가 사용하기 쉬운 창에 제공됩니다.
+**Power BI Desktop**을 통해 분포가 다른 경우를 찾고 데이터에 대한 빠르고 자동화된 통찰력 있는 분석을 가져올 수 있습니다. 단순히 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 이 분포가 다른 경우 찾기**를 선택하면 인사이트가 사용하기 쉬운 창에 제공됩니다.
 
 ![분포가 다른 경우에 대한 인사이트](media/desktop-insights-find-where-different/find-where-different_02.png)
 
@@ -38,7 +38,7 @@ ms.locfileid: "54277759"
 > 
 
 ## <a name="using-insights"></a>정보 사용
-인사이트를 사용하여 차트에 표시된 분포가 다른 경우를 파악하려면 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 분포가 다른 경우 찾기**를 선택합니다.
+인사이트를 사용하여 차트에 표시된 분포가 다른 경우를 파악하려면 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 이 분포가 다른 경우 찾기**를 선택합니다.
 
 ![마우스 오른쪽 단추로 클릭하여 인사이트 가져오기](media/desktop-insights-find-where-different/find-where-different_03.png)
 
