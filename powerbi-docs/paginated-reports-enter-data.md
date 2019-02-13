@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: 9556a501832502a8d5653967408b9fac8d0704a5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 732b90a5d325665cbe82c87bd1247ff72af9e6e5
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295606"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215139"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터 입력(미리 보기) - Power BI
 
@@ -82,11 +82,11 @@ ms.locfileid: "54295606"
 
 Power BI Report Server, SQL Server Reporting Services 2016 또는 2017 보고서 서버에 페이지를 매긴 보고서를 업로드할 수도 있습니다. 수행하기 전에 RsReportServer.config에 다음 항목을 추가 데이터 확장으로 추가해야 합니다. 문제가 발생할 경우를 대비하여 변경하기 전에 RsReportServer.config 파일을 백업하세요.
 
-```
-<Extension Name=”ENTERDATA” Type=”Microsoft.ReportingServices.DataExtensions.XmlDPConnection,Microsoft.ReportingServices.DataExtensions”>
-<Configuration>
-<ConfigName>ENTERDATA</ConfigName>
-</Configuration>
+```xml
+<Extension Name="ENTERDATA" Type="Microsoft.ReportingServices.DataExtensions.XmlDPConnection,Microsoft.ReportingServices.DataExtensions">
+    <Configuration>
+        <ConfigName>ENTERDATA</ConfigName>
+    </Configuration>
 </Extension>
 ```
 

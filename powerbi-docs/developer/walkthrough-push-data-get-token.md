@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 2d4e59badf394153dcb6877a270d2ecea63f5df6
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 0840d01a53a8d1f2c19ef1d5d263bf9a3d2d8f81
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55761964"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216565"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2단계: 인증 액세스 토큰 가져오기
 
@@ -47,7 +47,7 @@ Program {...}에 이 코드를 추가합니다.
 
 * 작업을 호출하는 토큰 변수:
   
-  ```
+  ```csharp
   private static string token = string.Empty;
   
   static void Main(string[] args)
@@ -56,7 +56,7 @@ Program {...}에 이 코드를 추가합니다.
   ```
 * static void Main(string[] args)에서:
   
-  ```
+  ```csharp
   static void Main(string[] args)
   {
     //Get an authentication access token
@@ -65,7 +65,7 @@ Program {...}에 이 코드를 추가합니다.
   ```
 * GetToken() 메서드 추가:
 
-```
+```csharp
        #region Get an authentication access token
        private static string GetToken()
        {
@@ -116,64 +116,66 @@ Program {...}에 이 코드를 추가합니다.
 
 ## <a name="complete-code-listing"></a>전체 코드 목록
 
-    using System;
-    using Microsoft.IdentityModel.Clients.ActiveDirectory;
+```csharp
+using System;
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
-    namespace walkthrough_push_data
+namespace walkthrough_push_data
+{
+    class Program
     {
-        class Program
+        private static string token = string.Empty;
+
+        static void Main(string[] args)
         {
-            private static string token = string.Empty;
 
-            static void Main(string[] args)
-            {
-
-                //Get an authentication access token
-                token = GetToken();
-
-            }
-
-            #region Get an authentication access token
-            private static string GetToken()
-            {
-                // TODO: Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612
-                // and add using Microsoft.IdentityModel.Clients.ActiveDirectory
-
-                //The client id that Azure AD created when you registered your client app.
-                string clientID = "{Client_ID}";
-
-                //RedirectUri you used when you register your app.
-                //For a client app, a redirect uri gives Azure AD more details on the application that it will authenticate.
-                // You can use this redirect uri for your client app
-                string redirectUri = "https://login.live.com/oauth20_desktop.srf";
-
-                //Resource Uri for Power BI API
-                string resourceUri = "https://analysis.windows.net/powerbi/api";
-
-                //OAuth2 authority Uri
-                string authorityUri = "https://login.microsoftonline.net/common/";
-
-                //Get access token:
-                // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken
-                // AuthenticationContext is part of the Active Directory Authentication Library NuGet package
-                // To install the Active Directory Authentication Library NuGet package in Visual Studio,
-                //  run "Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory" from the nuget Package Manager Console.
-
-                // AcquireToken will acquire an Azure access token
-                // Call AcquireToken to get an Azure token from Azure Active Directory token issuance endpoint
-                AuthenticationContext authContext = new AuthenticationContext(authorityUri);
-                string token = authContext.AcquireToken(resourceUri, clientID, new Uri(redirectUri)).AccessToken;
-
-                Console.WriteLine(token);
-                Console.ReadLine();
-
-                return token;
-            }
-
-            #endregion
+            //Get an authentication access token
+            token = GetToken();
 
         }
+
+        #region Get an authentication access token
+        private static string GetToken()
+        {
+            // TODO: Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612
+            // and add using Microsoft.IdentityModel.Clients.ActiveDirectory
+
+            //The client id that Azure AD created when you registered your client app.
+            string clientID = "{Client_ID}";
+
+            //RedirectUri you used when you register your app.
+            //For a client app, a redirect uri gives Azure AD more details on the application that it will authenticate.
+            // You can use this redirect uri for your client app
+            string redirectUri = "https://login.live.com/oauth20_desktop.srf";
+
+            //Resource Uri for Power BI API
+            string resourceUri = "https://analysis.windows.net/powerbi/api";
+
+            //OAuth2 authority Uri
+            string authorityUri = "https://login.microsoftonline.net/common/";
+
+            //Get access token:
+            // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken
+            // AuthenticationContext is part of the Active Directory Authentication Library NuGet package
+            // To install the Active Directory Authentication Library NuGet package in Visual Studio,
+            //  run "Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory" from the nuget Package Manager Console.
+
+            // AcquireToken will acquire an Azure access token
+            // Call AcquireToken to get an Azure token from Azure Active Directory token issuance endpoint
+            AuthenticationContext authContext = new AuthenticationContext(authorityUri);
+            string token = authContext.AcquireToken(resourceUri, clientID, new Uri(redirectUri)).AccessToken;
+
+            Console.WriteLine(token);
+            Console.ReadLine();
+
+            return token;
+        }
+
+        #endregion
+
     }
+}
+```
 
 [다음 단계 >](walkthrough-push-data-create-dataset.md)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mahirdiab
-ms.openlocfilehash: 050628dfe179a39ca24d2df72f1296acf48aa261
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 79ab3731abfdf972de1ee9d40456ebb0c5ebfa62
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763125"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223516"
 ---
 # <a name="encrypt-credentials"></a>자격 증명 암호화
 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/)를 사용하여 **엔터프라이즈 온-프레미스 게이트웨이**에서 [데이터 원본 만들기](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) 또는 [데이터 원본 업데이트](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)를 호출할 때, 자격 증명 값이 게이트웨이의 공개 키를 사용하여 암호화해야 합니다.
@@ -24,28 +24,28 @@ ms.locfileid: "55763125"
 아래 EncodeCredentials 메서드에 제공된 자격 증명은 자격 증명 유형에 따라 다음 형식 중 하나여야 합니다.
 
 **Basic / Windows 자격 증명**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"username\", \"value\":\"john\"},{\"name\":\"password\", \"value\":\"*****\"}]}";
 ```
 
 **키 자격 증명**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"key\", \"value\":\"ec....LA=\"}]}";
 ```
 
 **OAuth2 자격 증명**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"accessToken\", \"value\":\"eyJ0....fwtQ\"}]}";
 ```
 
 
 **익명 자격 증명**
-```
+```csharp
 var credentials = "{\"credentialData\":\"\"}";
 ```
 
 **자격 증명 암호화**
-```
+```csharp
 public static class AsymmetricKeyEncryptionHelper
 {
 

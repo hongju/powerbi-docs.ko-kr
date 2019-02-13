@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762102"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223838"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
@@ -161,7 +161,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: 권한 부여에는 관리자 권한이 필요합니다.
 
-**_증상:_**</br>
+**_증상:_**<br>
 관리자가 아닌 사용자가 동의를 허용하면서 애플리케이션에 처음으로 로그인하려고 하면 다음 오류 중 하나를 받습니다.
 
 * ConsentTest에는 관리자만이 부여할 수 있는 조직의 리소스에 액세스하는 사용 권한이 필요합니다. 사용하기 전에 이 앱에 대한 권한을 부여하도록 관리자에게 요청하세요.
@@ -171,7 +171,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 관리 사용자는 성공적으로 로그인하고 동의를 허용할 수 있습니다.
 
-**_근본 원인:_**</br>
+**_근본 원인:_**<br>
 사용자 동의는 테넌트에 대해 사용되지 않습니다.
 
 **_몇 가지 수정은 가능합니다._**

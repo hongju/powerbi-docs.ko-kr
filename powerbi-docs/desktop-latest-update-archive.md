@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b82f739d8e5dd5497ab2a41e44097fda12345bd3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1672df71d1b555a3ffcbc9f72bab5053d33c6bc3
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278219"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216887"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -2032,7 +2032,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 -   시작 페이지 및 "파일 -\> 열기" 메뉴에서 최근에 사용한 파일을 열 수 있도록 지원
 
--   Exchange connector에서 Exchange UPN 자격 증명에 대한 지원
+-   Exchange 커넥터에서 Exchange UPN 자격 증명에 대한 지원
 
 이러한 모든 새 기능 외에 **Power BI Desktop을 42개 언어로 제공**할 예정입니다. [Microsoft 공식 다운로드 페이지](https://www.microsoft.com/download/details.aspx?id=45331)에서 전체 언어 목록을 확인하고 원하는 언어 버전을 설치하세요.
 

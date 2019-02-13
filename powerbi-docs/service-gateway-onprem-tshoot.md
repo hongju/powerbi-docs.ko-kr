@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: afc4df99b90d6c6d7016f34983ca3691fb500325
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296573"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223923"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 문제 해결
 
@@ -35,11 +35,15 @@ ms.locfileid: "54296573"
 
 * 서비스를 중지하려면 이 명령을 실행합니다.
 
-    '''   net stop PBIEgwService   '''
+    ```
+    net stop PBIEgwService
+    ```
 
 * 서비스를 시작하려면 이 명령을 실행합니다.
 
-    '''   net start PBIEgwService   '''
+    ```
+    net start PBIEgwService
+    ```
 
 ### <a name="log-file-configuration"></a>로그 파일 구성
 
@@ -318,7 +322,7 @@ Azure Active Directory UPN이 로컬 Active Directory UPN과 일치하지 않는
 > [!IMPORTANT]
 > EmitQueryTraces를 사용하면 게이트웨이 사용량에 따라 로그 크기가 대폭 증가할 수 있습니다. 로그 검토 작업이 완료되면 EmitQueryTraces를 False로 설정해야 합니다. 이 설정을 장기간 사용하지 않는 것이 좋습니다.
 
-```
+```xml
 <setting name="EmitQueryTraces" serializeAs="String">
     <value>True</value>
 </setting>
@@ -362,7 +366,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 > [!IMPORTANT]
 > TracingVerbosity를 `5`로 설정하면 게이트웨이 사용량에 따라 로그 크기가 대폭 증가할 수 있습니다. 로그 검토 작업이 완료되면 TraceVerbosity를 `4`로 설정해야 합니다. 이 설정을 장기간 사용하지 않는 것이 좋습니다.
 
-```
+```xml
 <setting name="TracingVerbosity" serializeAs="String">
     <value>5</value>
 </setting>
@@ -486,7 +490,7 @@ FailedToImpersonateUserException은 다른 사용자를 대신해서 가장할 �
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
-```
+```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">
         <value>sAMAccount</value>
       </setting>

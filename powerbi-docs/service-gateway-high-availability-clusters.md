@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 51eb5c2947dc6d621e6c2ef6d3e2361a4542a0f1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee7b69bbf8857f12cabb6f7147f8e1d779b2a17e
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276932"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215070"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이를 위한 고가용성 클러스터
 
@@ -59,13 +59,13 @@ PowerShell 스크립트는 온-프레미스 데이터 게이트웨이 설치 폴
 1. 관리자 권한으로 PowerShell 명령 창을 엽니다.
 2. 그런 후 다음 일회성 PowerShell 명령을 실행합니다(현재 컴퓨터에서 PowerShell 명령을 한 번도 실행하지 않은 것으로 간주).
 
-    ```
+    ```powershell
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
     ```
 
 3. 다음으로 PowerShell 창에서 온-프레미스 데이터 게이트웨이 설치 폴더를 찾은 후 다음 명령을 사용하여 필요한 모듈을 가져옵니다.
 
-    ```
+    ```powershell
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
     ```
 

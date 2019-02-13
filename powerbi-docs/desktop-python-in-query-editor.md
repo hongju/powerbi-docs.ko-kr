@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d97c59b7c5d25e85dee5f3b5b5b6ae8d24ae6cb2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283325"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56217048"
 ---
 # <a name="using-python-in-query-editor"></a>쿼리 편집기에서 Python 사용
 Power BI Desktop **쿼리 편집기**에서 통계학자, 데이터 과학자 및 데이터 분석에 의해 널리 사용되는 프로그래밍 언어인 **Python**을 사용할 수 있습니다. Python을 **쿼리 편집기**에 통합하면 Python을 사용하여 데이터 정리를 수행하고 누락된 데이터, 예측, 클러스터링을 완성하는 작업을 포함하여 데이터 세트에서 고급 데이터 셰이핑 및 분석을 수행할 수 있습니다. **Python**은 강력한 언어이며 **쿼리 편집기**에서 데이터 모델을 준비하고 보고서를 만드는 데 사용될 수 있습니다.
@@ -43,10 +43,12 @@ Power BI Desktop의 **쿼리 편집기**에서 **Python**을 사용하려면 로
    ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. 이 예제에서는 다음 스크립트 코드를 입력합니다.
    
+    ```python
        import pandas as pd
        completedData = dataset.fillna(method='backfill', inplace=False)
        dataset["completedValues"] =  completedData["SMI missing values"]
-   
+   ```
+
    > [!NOTE]
    > 이전의 스크립트 코드가 제대로 작동하려면 Python 환경에 *pandas* 라이브러리가 설치되어 있어야 합니다. pandas를 설치하려면 Python 설치에서 다음 명령을 실행합니다. |      > pip install pandas
    > 

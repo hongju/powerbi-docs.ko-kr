@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277437"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215738"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
 **보고서 테마**를 사용하여 회사 색, 계절 색 또는 기타 색 테마와 같은 색 테마를 전체 보고서에 적용할 수 있습니다. **보고서 테마**를 적용할 때 보고서의 모든 시각적 개체는 선택한 테마의 색을 사용합니다. 몇 가지 예외가 적용되며 이 문서의 뒷부분에서 설명합니다.
@@ -101,6 +101,7 @@ JSON 파일에는 다음과 같은 필수 줄이 있습니다.
 
 다음은 고유한 JSON 파일을 만드는 데 사용할 수 있는 *St Patrick’s Day.json* 파일의 텍스트입니다.
 
+```json
     {
         "name": "St Patricks Day",
         "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
@@ -108,6 +109,7 @@ JSON 파일에는 다음과 같은 필수 줄이 있습니다.
         "foreground": "#3A6108",
         "tableAccent": "#568410"
     }
+```
 
 여기에서 선택한 색에 대한 고유한 색 16진수 코드를 입력할 수 있습니다.
 
@@ -158,6 +160,7 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
 
 다운로드를 제공하지 않지만 다음과 같은 밸런타인데이 JSON 파일에 대한 코드를 제공했습니다.
 
+```json
     {
         "name": "Valentine's Day",
         "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
@@ -165,6 +168,7 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
         "foreground": "#ee7799",
         "tableAccent": "#990011"
     }
+```
 
 **보고서 테마**를 사용하여 Power BI Desktop 보고서가 사용자, 조직 또는 현재 시즌이나 휴일을 다양하게 반영하도록 할 수 있습니다. 
 
@@ -303,7 +307,8 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 ### <a name="properties-within-each-card"></a>각 카드 내의 속성
 다음 섹션에서는 각 카드 내에 속성을 정의합니다.
 
-    "general":
+```json
+      "general":
         "responsive": {
           "type": [
             "bool"
@@ -371,7 +376,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "categoryAxis": {
+      "categoryAxis": {
         "show": {
           "type": [
             "bool"
@@ -557,7 +562,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "valueAxis": {
+      "valueAxis": {
         "show": {
           "type": [
             "bool"
@@ -865,7 +870,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "dataPoint": {
+      "dataPoint": {
         "defaultColor": {
           "type": [
             "fill"
@@ -901,7 +906,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "labels": {
+      "labels": {
         "show": {
           "type": [
             "bool"
@@ -1019,7 +1024,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "lineStyles": {
+      "lineStyles": {
         "strokeWidth": {
           "type": [
             "numeric"
@@ -1094,7 +1099,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "plotArea": {
+      "plotArea": {
         "transparency": {
           "type": [
             "numeric"
@@ -1107,7 +1112,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "trend": {
+      "trend": {
         "show": {
           "type": [
             "bool"
@@ -1297,7 +1302,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "referenceLine": {
+      "referenceLine": {
         "show": {
           "type": [
             "bool"
@@ -1433,7 +1438,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "line": {
+      "line": {
         "lineColor": {
           "type": [
             "fill"
@@ -1470,7 +1475,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "fill": {
+      "fill": {
         "show": {
           "type": [
             "bool"
@@ -1499,7 +1504,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "rotation": {
+      "rotation": {
         "angle": {
           "type": [
             "numeric"
@@ -1509,7 +1514,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "categoryLabels": {
+      "categoryLabels": {
         "show": {
           "type": [
             "bool"
@@ -1546,7 +1551,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "wordWrap": {
+      "wordWrap": {
         "show": {
           "type": [
             "bool"
@@ -1556,7 +1561,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "dataLabels": {
+      "dataLabels": {
         "color": {
           "type": [
             "fill"
@@ -1585,7 +1590,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "cardTitle": {
+      "cardTitle": {
         "color": {
           "type": [
             "fill"
@@ -1614,7 +1619,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "card": {
+      "card": {
         "outline": {
           "type": [
             "enumeration"
@@ -1695,7 +1700,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "percentBarLabel": {
+      "percentBarLabel": {
         "show": {
           "type": [
             "bool"
@@ -1732,7 +1737,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "axis": {
+      "axis": {
         "min": {
           "type": [
             "numeric"
@@ -1758,7 +1763,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "target": {
+      "target": {
         "show": {
           "type": [
             "bool"
@@ -1817,7 +1822,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "calloutValue": {
+      "calloutValue": {
         "show": {
           "type": [
             "bool"
@@ -1860,7 +1865,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "forecast": {
+      "forecast": {
         "show": {
           "type": [
             "bool"
@@ -1927,7 +1932,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "bubbles": {
+      "bubbles": {
         "bubbleSize": {
           "type": [
             "formatting"
@@ -1937,7 +1942,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "mapControls": {
+      "mapControls": {
         "autoZoom": {
           "type": [
             "bool"
@@ -1962,7 +1967,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "mapStyles": {
+      "mapStyles": {
         "mapTheme": {
           "type": [
             "enumeration"
@@ -1972,7 +1977,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "shape": {
+      "shape": {
         "map": {
           "type": [
             "geoJson"
@@ -1990,7 +1995,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "zoom": {
+      "zoom": {
         "autoZoom": {
           "type": [
             "bool"
@@ -2025,7 +2030,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "xAxisReferenceLine": {
+      "xAxisReferenceLine": {
         "show": {
           "type": [
             "bool"
@@ -2150,7 +2155,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "fillPoint": {
+      "fillPoint": {
         "show": {
           "type": [
             "bool"
@@ -2160,7 +2165,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "colorByCategory": {
+      "colorByCategory": {
         "show": {
           "type": [
             "bool"
@@ -2170,7 +2175,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "plotAreaShading": {
+      "plotAreaShading": {
         "show": {
           "type": [
             "bool"
@@ -2213,7 +2218,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "ratioLine": {
+      "ratioLine": {
         "show": {
           "type": [
             "bool"
@@ -2253,7 +2258,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "grid": {
+      "grid": {
         "outlineColor": {
           "type": [
             "fill"
@@ -2373,7 +2378,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "columnHeaders": {
+      "columnHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2448,7 +2453,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "values": {
+      "values": {
         "outline": {
           "type": [
             "enumeration"
@@ -2567,7 +2572,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "total": {
+      "total": {
         "outline": {
           "type": [
             "enumeration"
@@ -2631,7 +2636,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "columnFormatting": {
+      "columnFormatting": {
         "fontColor": {
           "type": [
             "fill"
@@ -2687,7 +2692,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "rowHeaders": {
+      "rowHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2776,7 +2781,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "subTotals": {
+      "subTotals": {
         "outline": {
           "type": [
             "enumeration"
@@ -2848,7 +2853,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "selection": {
+      "selection": {
         "selectAllCheckboxEnabled": {
           "type": [
             "bool"
@@ -2866,7 +2871,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "header": {
+      "header": {
         "show": {
           "type": [
             "bool"
@@ -2919,7 +2924,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "items": {
+      "items": {
         "fontColor": {
           "type": [
             "fill"
@@ -2964,7 +2969,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "numericInputStyle": {
+      "numericInputStyle": {
         "fontColor": {
           "type": [
             "fill"
@@ -3001,7 +3006,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "slider": {
+      "slider": {
         "show": {
           "type": [
             "bool"
@@ -3019,7 +3024,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "dateRange": {
+      "dateRange": {
         "includeToday": {
           "type": [
             "bool"
@@ -3029,7 +3034,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "sentimentColors": {
+      "sentimentColors": {
         "increaseFill": {
           "type": [
             "fill"
@@ -3063,7 +3068,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "breakdown": {
+      "breakdown": {
         "maxBreakdowns": {
           "type": [
             "integer"
@@ -3076,7 +3081,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "indicator": {
+      "indicator": {
         "indicatorDisplayUnits": {
           "type": [
             "formatting"
@@ -3108,7 +3113,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "trendline": {
+      "trendline": {
         "show": {
           "type": [
             "bool"
@@ -3118,7 +3123,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "goals": {
+      "goals": {
         "showGoal": {
           "type": [
             "bool"
@@ -3136,7 +3141,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       },
-    "status": {
+      "status": {
         "direction": {
           "type": [
             "enumeration"
@@ -3170,13 +3175,14 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
           ]
         }
       }
-
+```
 
 
 
 ### <a name="enumerations-in-the-json-file"></a>JSON 파일의 열거형
 다음 섹션에서는 JSON 파일에서 사용할 수는 열거형을 정의합니다.
 
+```json
     {
         "legend": {
             "position": [
@@ -4205,3 +4211,4 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
          ]
        }
     }
+```

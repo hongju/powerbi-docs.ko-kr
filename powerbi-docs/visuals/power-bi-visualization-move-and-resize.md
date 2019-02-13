@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cddf5594d7de129d528b2e89e2dca3c5d82a9df1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: cd5026a1bb3bca4781be1e3f61b4a71364190f8a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296550"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215898"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 및 Power BI Desktop에서 보고서의 시각화 이동 및 크기 조정
 보고서 작성자 및 소유자만 시각화 이동 및 크기 조정이 가능합니다. Power BI 서비스(app.powerbi.com)에서 이는 [편집용 보기](../consumer/end-user-reading-view.md)에서 보고서를 연다는 의미입니다.

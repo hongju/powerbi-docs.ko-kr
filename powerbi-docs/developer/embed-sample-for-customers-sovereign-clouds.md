@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 69ce8088903cbdddef504dbf5e9b2ecc2a8ab9d4
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 51ea85be275be3dbac014392e2d8b3b65c0c4d82
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762677"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216220"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>자습서: 소버린 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -356,7 +356,7 @@ JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드
     var embedTileId = "@Model.Id";
 
     // Read dashboard Id from Model
-    var embedDashboardeId = "@Model.dashboardId";
+    var embedDashboardId = "@Model.dashboardId";
 
     // Get models. models contains enums that can be used.
     var models = window['powerbi-client'].models;
@@ -371,7 +371,7 @@ JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드
         accessToken: accessToken,
         embedUrl: embedUrl,
         id: embedTileId,
-        dashboardId: embedDashboardeId
+        dashboardId: embedDashboardId
     };
 
     // Get a reference to the embedded tile HTML element

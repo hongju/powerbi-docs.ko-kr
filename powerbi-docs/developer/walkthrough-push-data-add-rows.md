@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 353104bcc99b65bdabe83f58edffd2653c48731c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55761987"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215921"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5단계: Power BI 테이블에 행 추가
 
@@ -42,7 +42,7 @@ Program.cs에 이 코드를 추가합니다.
 
 * static void Main(string[] args)에서:
   
-  ```
+  ```csharp
    static void Main(string[] args)
    {
   
@@ -62,7 +62,7 @@ Program.cs에 이 코드를 추가합니다.
   ```
 * AddRows() 메서드 추가:
 
-```
+```csharp
     #region Add rows to a Power BI table
     private static void AddRows(string datasetId, string tableName)
     {
@@ -111,6 +111,8 @@ Program.cs에 이 코드를 추가합니다.
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>전체 코드 목록
+
+```csharp
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -307,6 +309,7 @@ Program.cs에 이 코드를 추가합니다.
             #endregion
         }
     }
+```
 
 위의 코드에서 **_//첫 번째 ID를 가져오도록_** 지정했지만 올바른 방법은 이름으로 데이터 집합을 검색하는 것입니다.
 

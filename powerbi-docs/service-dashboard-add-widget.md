@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287074"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215715"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>대시보드에 이미지, 텍스트, 비디오 등 추가
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -101,12 +101,12 @@ ms.locfileid: "54287074"
 ## <a name="tips-for-embedding-web-content"></a>웹 콘텐츠 포함에 대한 팁
 * iframe의 경우 보안 소스를 사용합니다. iframe embed 태그를 입력하고 빈 타일을 가져오는 경우 iframe 소스에 **http** 를 사용하고 있는지 알아봅니다.  http를 사용하고 있는 경우 **https**로 변경하세요.
   
-  ```
+  ```html
   <iframe src="https://xyz.com">
   ```
 * 너비와 높이 정보를 편집합니다. 이 embed 태그는 동영상을 포함하고 동영상 플레이어를 560 x 315 픽셀로 설정합니다.  이 크기는 타일 크기를 조정할 때 변경되지 않습니다.
   
-  ```
+  ```html
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
@@ -114,14 +114,14 @@ ms.locfileid: "54287074"
   
   타일 크기에 맞게 플레이어 크기를 조정하려는 경우 너비 및 크기를 100%로 설정합니다.
   
-  ```
+  ```html
   <iframe width="100%" height="100%"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
 * 이 코드는 트윗을 포함하고, **AFK** 팟캐스트, **@GuyInACubeTwitter 페이지**, **팔로우**, **#analytics**, **댓글**, **리트윗** 및 **좋아요**에 대한 링크를 대시보드의 개별 링크로 유지합니다.  타일 자체를 선택하면 Twitter의 팟캐스트로 이동됩니다.
   
-  ```
+  ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">
   <p lang="en" dir="ltr">Listen to
   <a href="https://twitter.com/GuyInACube">@GuyInACube</a> talk to
