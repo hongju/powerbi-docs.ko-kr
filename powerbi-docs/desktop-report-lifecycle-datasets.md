@@ -77,7 +77,7 @@ Anna가 자신의 보고서를 만들면(그리고 이를 기반으로 데이터
 다음으로, 보고서(및 데이터 세트)가 게시된 작업 영역에 대한 액세스 권한이 있는 다른 팀 구성원이 데이터 세트에 연결하여 자신의 고유한 보고서를 작성하는 방법을 알아보겠습니다.
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>게시된 데이터 세트에 Power BI 서비스 라이브 연결 설정
-게시된 보고서에 연결을 설정하고 게시된 데이터 세트를 토대로 사용자 고유의 보고서를 만들려면 **Power BI Desktop**의 **홈** 리본에서 **데이터 가져오기**를 선택하고 **Power BI 서비스**를 선택합니다. **데이터 가져오기 > 온라인 서비스 > Power BI 서비스**에서도 선택할 수 있습니다.
+게시된 보고서에 연결을 설정하고 게시된 데이터 세트를 토대로 사용자 고유의 보고서를 만들려면 **Power BI Desktop**의 **홈** 리본에서 **데이터 가져오기**를 선택하고 **Power BI 데이터 집합**을 선택합니다. **데이터 가져오기 > Power BI > Power BI 데이터 집합**에서도 선택할 수 있습니다.
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_08.png)
 
