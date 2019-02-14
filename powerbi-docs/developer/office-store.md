@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: 850d4c01248a16029b3874548b61c2f9170560bb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bedf9092e48b0e28c14ec510f1f3b4431e81ea27
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281508"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086405"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource에 사용자 지정 시각적 개체 게시
 
@@ -30,7 +30,7 @@ ms.locfileid: "54281508"
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>사용자 지정 시각적 개체를 제출하기 위한 준비
 
-사용자 지정 시각적 개체를 코딩하고 테스트하고 pbiviz 파일로 패키지를 생성한 후 제출을 위해 다음 사항도 준비해야 합니다.
+코딩이 완료되고 [사용자 지정 시각적 개체를 테스트](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)하고 pbiviz 파일로 패키징한 후 제출을 위해 다음 사항도 준비해야 합니다.
 
 | 항목 | 필수 | 설명 |
 | --- | --- | --- |

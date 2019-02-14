@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
-ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
+ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55888236"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086474"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -236,12 +236,17 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 
 ## <a name="custom-visuals-settings"></a>사용자 지정 시각적 개체 설정
 
-### <a name="enable-custom-visuals-for-the-entire-organization"></a>전체 조직에 대해 사용자 지정 시각적 개체 사용
+### <a name="add-and-use-custom-visuals"></a>사용자 지정 시각적 개체 추가 및 사용
 
 조직의 사용자는 사용자 지정 시각적 개체를 조작하고 공유할 수 있습니다. [자세히 알아보기](power-bi-custom-visuals.md)
 
 > [!NOTE]
-> 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
+> 이 설정은 전체 조직에 적용하거나 특정 그룹으로 제한할 수 있습니다.
+
+### <a name="allow-only-certified-visuals"></a>인증된 시각적 개체만 허용
+
+"사용자 지정 시각적 개체 추가 및 사용" 설정으로 표시된 사용자 지정 시각적 개체를 추가하고 사용할 수 있는 권한이 부여된 조직의 사용자는 [인증된 사용자 지정 시각적 개체](https://go.microsoft.com/fwlink/?linkid=2002010)만 사용할 수 있습니다(인증되지 않은 시각적 개체는 차단되고 사용 시 오류 메시지가 표시됨). 
+
 
 ## <a name="r-visuals-settings"></a>R 시각적 개체 설정
 

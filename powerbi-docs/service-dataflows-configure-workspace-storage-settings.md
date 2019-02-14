@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bcde69d25b6b73787a4b9d16e4ba2b39b183ffd7
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291950"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086428"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>작업 영역 데이터 흐름 설정 구성(미리 보기)
 
 Power BI와 데이터 흐름을 사용하면 작업 영역의 데이터 흐름 정의 파일과 데이터 파일을 Azure Data Lake Storage Gen2 계정에 저장할 수 있습니다. 작업 영역 관리자는 Power BI를 구성하여 이 작업을 수행할 수 있고, 이 문서에서는 이 작업에 필요한 단계를 살펴봅니다. 
 
-작업 영역의 데이터 흐름 스토리지 위치를 구성하려면 먼저 회사의 전역 관리자가 조직의 스토리지 계정을 Power BI에 연결하고 해당 스토리지 계정의 스토리지 할당 권한을 사용하도록 설정해야 합니다. * [데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)](service-dataflows-connect-azure-data-lake-storage-gen2.md) 
+작업 영역의 데이터 흐름 스토리지 위치를 구성하려면 먼저 회사의 전역 관리자가 조직의 스토리지 계정을 Power BI에 연결하고 해당 스토리지 계정의 스토리지 할당 권한을 사용하도록 설정해야 합니다. *[데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)](service-dataflows-connect-azure-data-lake-storage-gen2.md)* 
 
 작업 영역 데이터 흐름 스토리지 설정을 구성하는 두 가지 방법은 다음과 같습니다. 
 
