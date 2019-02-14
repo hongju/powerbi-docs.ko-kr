@@ -48,7 +48,7 @@ Power BI Desktop에서 Python 스크립트를 준비하고 실행하는 경우 �
 * 중첩 테이블(테이블의 테이블)은 현재 지원되지 않습니다. 
 
 ### <a name="run-your-python-script-and-import-data"></a>Python 스크립트 실행 및 데이터 가져오기
-1. Power BI Desktop에서 Python 스크립트 데이터 커넥터는 **데이터 가져오기**에 위치합니다. Python 스크립트를 실행하려면 다음 이미지에서 보여주듯이 **데이터 가져오기 &gt;더 보기...** 를 선택한 다음, **기타 &gt; Python 스크립트**를 선택합니다.
+1. Power BI Desktop에서 Python 스크립트 데이터 커넥터는 **데이터 가져오기**에 위치합니다. Python 스크립트를 실행하려면 다음 이미지에서 보여주듯이 **데이터 가져오기 &gt;추가...** 를 선택한 다음, **기타 &gt; Python 스크립트**를 선택합니다.
    
    ![](media/desktop-python-scripts/python-scripts-1.png)
 2. Python이 로컬 머신에 설치되면 최신 설치된 버전은 Python 엔진으로 선택됩니다. 단순히 스크립트 창에 스크립트를 복사하고 **확인**을 선택합니다.
