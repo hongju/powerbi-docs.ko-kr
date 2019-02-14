@@ -23,7 +23,7 @@ ms.locfileid: "54274815"
 향후 Excel과 Power BI Desktop 간의 추가적인 통신(예: 가져오기/내보내기)을 제공할 계획입니다. 통합 문서를 Power BI Desktop으로 가져오는 현재 기능을 사용하면 기존 Excel 사용자가 Power BI Desktop을 시작할 수 있습니다.
 
 ## <a name="how-do-i-import-an-excel-workbook"></a>Excel 통합 문서를 가져오려면 어떻게 해야 하나요?
-Power BI Desktop에서 통합 문서를 가져오려면 **파일 -\>가져오기 -\>Excel 통합 문서 내용**을 선택합니다.
+Power BI Desktop에서 통합 문서를 가져오려면 **파일 -\>가져오기 -\>Excel 통합 문서 콘텐츠**를 선택합니다.
 
 ![](media/desktop-import-excel-workbooks/importexceltopbi_1.png)
 
@@ -38,7 +38,7 @@ Power BI Desktop에서 통합 문서를 가져오려면 **파일 -\>가져오기
 
 ![](media/desktop-import-excel-workbooks/importexceltopbi_2.png)
 
-가져오기가 완료되면 변화노딘 항목을 설명하고 가져올 수 없는 항목을 열거하는 **요약** 페이지가 표시됩니다.
+가져오기가 완료되면 변환된 항목을 설명하고, 가져올 수 없는 항목을 열거하는 **요약** 페이지가 표시됩니다.
 
 ![](media/desktop-import-excel-workbooks/importexceltopbi_3.png)
 
