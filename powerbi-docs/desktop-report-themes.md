@@ -219,15 +219,15 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 | areaChart |
 | barChart |
 | basicShape |
-| 카드 |
+| card |
 | clusteredBarChart |
 | clusteredColumnChart |
 | columnChart |
 | comboChart |
 | donutChart |
 | filledMap |
-| 깔때기형 |
-| 계기 |
+| funnel |
+| gauge |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
 | image |
@@ -235,17 +235,17 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 | lineChart |
 | lineClusteredColumnComboChart |
 | lineStackedColumnComboChart |
-| 지도 |
+| map |
 | multiRowCard |
 | pieChart |
 | pivotTable |
 | ribbonChart |
 | scatterChart |
 | shapeMap |
-| 슬라이서 |
+| slicer |
 | stackedAreaChart |
 | tableEx |
-| 트리맵 |
+| treemap |
 | waterfallChart |
 
 다음 표에서는 *cardName* 값을 정의합니다. 각 셀의 첫 번째 값은 JSON 파일 용어입니다. 두 번째 값은 **Power BI Desktop** 사용자 인터페이스에 표시되는 카드의 이름입니다.
