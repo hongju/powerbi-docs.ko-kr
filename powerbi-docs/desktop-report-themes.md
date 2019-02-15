@@ -256,7 +256,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 | breakdown: 분석 결과 |
 | bubbles: 거품형 |
 | calloutValue: 설명선 값 |
-| card: 카드 |
+| card: card |
 | cardTitle: 카드 타일 |
 | categoryAxis: X축 |
 | categoryLabels: 범주 레이블 |
