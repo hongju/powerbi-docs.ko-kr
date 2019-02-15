@@ -64,7 +64,7 @@ ms.locfileid: "54274746"
    > R 시각적 개체의 기본 집계 유형은 *요약 안 함*입니다.
    > 
    > 
-5. 이제 **Power BI Desktop**에서 R IDE를 직접 시작할 수 있습니다. 아래와 같이 **R 스크립트 편집기** 제목 표시줄의 오른쪽에 있는 **R IDE 시작** 단추를 선택합니다.
+5. 이제 **Power BI Desktop**에서 R IDE를 직접 시작할 수 있습니다. 아래와 같이 **R 스크립트 편집기** 제목 표시줄의 오른쪽에 있는 **외부 IDE에서 스크립트 편집** 단추를 선택합니다.
    
    ![](media/desktop-r-ide/r-ide_6.png)
 6. 다음 이미지와 같이 지정된 R IDE가 Power BI Desktop에 의해 시작됩니다(이 이미지에서 **RStudio**는 기본 R IDE입니다).
