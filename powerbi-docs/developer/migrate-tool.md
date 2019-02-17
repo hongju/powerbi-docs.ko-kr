@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 41ab7f06da3038e48e2d1188edc8b91edeee8d4f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762355"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216381"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 마이그레이션 도구
 
@@ -207,7 +207,7 @@ Power BI에 로그인하고 해당 작업 영역이 존재하는지 확인하여
 
 위의 예에서는 복제된 보고서 중 하나가 같은 이름의 보고서가 있음을 표시하며 실패했습니다. 마이그레이션 계획 XML을 살펴보면 다음이 표시됩니다.
 
-```
+```xml
 <ReportMigrationData>
     <PaaSWorkspaceCollectionName>SampleWorkspaceCollection</PaaSWorkspaceCollectionName>
     <PaaSWorkspaceId>4c04147b-d8fc-478b-8dcb-bcf687149823</PaaSWorkspaceId>
@@ -229,7 +229,7 @@ Power BI에 로그인하고 해당 작업 영역이 존재하는지 확인하여
 
 실패한 항목에 대해서는 SaaSTargetReportName의 이름을 변경할 수 있습니다.
 
-```
+```xml
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
@@ -245,7 +245,7 @@ Power BI로 돌아가, 앱 작업 영역에 업로드한 보고서 및 데이터
 
 로컬 버전의 Power BI Desktop 파일을 업로드할 수 있습니다. 도구를 닫고, XML을 편집하고 전체 경로를 **PbixPath** 속성의 로컬 PBIX에 배치해야 합니다.
 
-```
+```xml
 <PbixPath>[Full Path to PBIX file]</PbixPath>
 ```
 
@@ -255,9 +255,9 @@ xml을 편집한 후에는 마이그레이션 도구 내에서 계획을 다시 
 
 ### <a name="directquery-reports"></a>DirectQuery 보고서
 
-DirectQuery 보고서에 대한 연결 문자열을 업데이트해야 합니다. *powerbi.com* 내에서 수행하거나 Power BI Embedded(Paas)에서 연결 문자열을 프로그래밍 방식으로 쿼리할 수 있습니다. 예를 들어 [PaaS 보고서에서 DirectQuery 연결 문자열 추출](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report)을 참조하세요.
+DirectQuery 보고서에 대한 연결 문자열을 업데이트해야 합니다. *powerbi.com* 내에서 수행하거나 Power BI Embedded(PaaS)에서 연결 문자열을 프로그래밍 방식으로 쿼리할 수 있습니다. 예를 들어 [PaaS 보고서에서 DirectQuery 연결 문자열 추출](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report)을 참조하세요.
 
-그런 다음, Power BI 서비스(Saas) 내에서 데이터 세트에 대한 연결 문자열을 업데이트하고 데이터 원본에 대한 자격 증명을 설정할 수 있습니다. 다음 예제를 통해 이 작업을 수행하는 방법을 볼 수 있습니다.
+그런 다음, Power BI 서비스(SaaS) 내에서 데이터 세트에 대한 연결 문자열을 업데이트하고 데이터 원본에 대한 자격 증명을 설정할 수 있습니다. 다음 예제를 통해 이 작업을 수행하는 방법을 볼 수 있습니다.
 
 * [SaaS 작업 영역에서 DirectQuery 연결 문자열 업데이트](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
 * [SaaS 작업 영역에서 DirectQuery 자격 증명 설정](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)

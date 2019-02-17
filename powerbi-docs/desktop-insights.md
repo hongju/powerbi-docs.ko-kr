@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4b8c436088bcd7538c09d4acf0fd5d529f9c8a8f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278845"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56224022"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Power BI Desktop에서 인사이트를 사용하여 시각적 개체에서 보이는 증가 및 감소 정보 설명(미리 보기)
 
@@ -26,7 +26,7 @@ ms.locfileid: "54278845"
 
 ![증가 및 감소 정보가 있는 시각적 개체](media/desktop-insights/insights_01a.png)
 
-**Power BI Desktop**을 통해 차트에서 증가 및 감소를 설명하고, 차트에서 배포 요소를 확인하고, 데이터에 대한 빠르고 자동화된 통찰력 있는 분석을 가져옵니다. 단순히 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 감소 설명**(또는 이전 표시줄이 낮은 경우 증가)를 선택하거나 **분석 > 이 분포가 다른 경우 찾기**를 선택하면 인사이트가 사용하기 쉬운 창에 제공됩니다.
+**Power BI Desktop**을 통해 차트에서 증가 및 감소를 설명하고, 차트에서 배포 요소를 확인하고, 데이터에 대한 빠르고 자동화된 통찰력 있는 분석을 가져옵니다. 단순히 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 축소 설명**(또는 이전 표시줄이 낮은 경우 증가)를 선택하거나 **분석 > 이 배포가 다른 경우 찾기**를 선택하면 인사이트가 사용하기 쉬운 창에 제공됩니다.
 
 ![시각적 개체에 나타나는 인사이트](media/desktop-insights/insights_01.png)
 
@@ -116,7 +116,7 @@ ms.locfileid: "54278845"
 * 측정값 필터
 * 숫자가 아닌 측정값
 * “다음과 같이 값 표시” 사용
-* 필터링된 측정값 - 필터링된 측정값은 특정 필터(예: *프랑스의 총 판매액*)가 적용된 시각적 개체 수준의 계산이며 인사이트 기능으로 만든 일부 hte 시각적 개체에서 사용됩니다.
+* 필터링된 측정값 - 필터링된 측정값은 특정 필터(예: *프랑스의 총 판매액*)가 적용된 시각적 개체 수준의 계산이며 인사이트 기능으로 만든 일부 시각적 개체에서 사용됩니다.
 * 스칼라인 열 기준 정렬을 정의하지 않으면 X-축의 범주 열입니다. 계층 구조를 사용하는 경우 활성 계층 구조의 모든 열은 이 조건에 맞아야 합니다.
 
 

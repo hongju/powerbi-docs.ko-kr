@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 95bbbd8402fd2f489af5d4276616ba045d1c938b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 509eebfdf2d96a2cc77d5c9413c664a10309ab9c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287741"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216438"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비롯한 보고서 페이지의 현재 구성된 보기를 캡처하고 저장된 해당 책갈피를 선택하여 나중에 해당 상태로 돌아갈 수 있습니다. 
@@ -103,7 +103,7 @@ Power BI Desktop 2018년 3월 버전부터 책갈피가 일반 공급됩니다.
 ## <a name="bookmarks-for-shapes-and-images"></a>셰이프 및 이미지의 책갈피
 셰이프 및 이미지를 책갈피에 연결할 수도 있습니다. 이 기능을 사용하면 개체를 클릭할 때 해당 개체와 연결된 책갈피가 표시됩니다. 이는 특히 단추를 사용할 경우 유용할 수 있습니다. 자세한 내용은 [Power BI의 단추 사용](desktop-buttons.md) 문서를 참조하세요. 
 
-개체에 책갈피를 할당하려면 다음 이미지에 표시된 대로 개체를 선택하고 **도형 서식** 창에서 **작업** 섹션을 확장합니다.
+개체에 책갈피를 할당하려면 다음 이미지에 표시된 대로 개체를 선택하고 **셰이프 서식 지정** 창에서 **작업** 섹션을 확장합니다.
 
 ![개체에 책갈피 링크 추가](media/desktop-bookmarks/bookmarks_10.png)
 

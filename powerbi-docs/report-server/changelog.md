@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 034fc149dcd76102ae83864fe65d53c55b57c96a
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: 346e1a3d096ba5e8ea8d16b49d49e02c0c65e54a
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482755"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56224045"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -94,7 +94,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
                 - 서버가 사용자 지정 인증을 사용하도록 구성된 경우 보고서를 새로 고칠 수 있습니다.
                 - 보고서의 속성을 수정해도 데이터 원본 자격 증명이 초기화되지 않습니다.
             - 페이지를 매긴 보고서(RDL)의 경우
-                - RDL Expresssions에서 `Lookup()` 또는 파생 함수(예: `LookupSet()` 및 `MultiLookup()`)를 사용해도 더 이상 `#Error`가 생성되지 않습니다.
+                - RDL Expressions에서 `Lookup()` 또는 파생 함수(예: `LookupSet()` 및 `MultiLookup()`)를 사용해도 더 이상 `#Error`가 생성되지 않습니다.
                 - 연결된 보고서가 인쇄 시 대상 보고서의 페이지 크기를 유지합니다.
                 - 연계 매개 변수를 사용하는 연결된 보고서에 대한 구독을 만들 수 있습니다.
                 - IE11을 사용하는 경우 다중값 매개 변수 기본값을 수정할 수 있습니다.

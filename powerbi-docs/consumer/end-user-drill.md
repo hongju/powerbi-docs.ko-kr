@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d935b044e5cbe1a2c84ce5749c3a0b58c528bab0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282359"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216588"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI에서 시각화 드릴 모드
 
@@ -114,7 +114,7 @@ Power BI 시각화에 계층 구조가 포함되어 있는 것이 확실한가�
 
     ![테네시 데이터만 표시된 트리 맵](media/end-user-drill/power-bi-drill-down-one1.png)
 
-2. 이 시점에서 계속해서 테네시주를 드릴다운할 수도 있고, 테네시주의 특정 도시를 드릴다운할 수도 있고, 확장할 수도 있습니다(아래의 **한 번에 모든 필드 확장**을 참조하세요). 한 번에 한 필드 드릴다운을 계속합니다.  **녹스빌, TN**을 선택합니다. 이렇게 하면 트리 맵에 녹스빌에 있는 매장의 우편 번호가 표시됩니다. 
+2. 이 시점에서 테네시에 대한 드릴다운을 계속하거나 테네시의 특정 도시를 드릴다운하거나 대신 확장할 수 있습니다(아래의 **한 번에 모든 필드 확장**을 참조하세요). 한 번에 한 필드 드릴다운을 계속합니다.  **녹스빌, TN**을 선택합니다. 이렇게 하면 트리 맵에 녹스빌에 있는 매장의 우편 번호가 표시됩니다. 
 
    ![우편 번호 37919가 표시된 트리 맵](media/end-user-drill/power-bi-drill-down-one2.png)
 
@@ -127,7 +127,7 @@ Power BI 시각화에 계층 구조가 포함되어 있는 것이 확실한가�
 
     ![우편 번호와 매장 이름이 표시된 트리 맵](./media/end-user-drill/power-bi-expand1.png)
 
-2. 테네시주의 네 가지 계층 수준을 모두 보려면 트리 맵의 두 번째 수준인 **지역 및 도시별 올해 총 단위**가 나올 때까지 드릴업 화살표를 선택합니다. 
+2. 테네시의 네 가지 계층 수준을 모두 보려면 트리 맵의 두 번째 수준인 **지역 및 도시별 올해 총 단위**가 나올 때까지 드릴업 화살표를 선택합니다. 
 
     ![테네시의 모든 데이터가 표시된 트리 맵](media/end-user-drill/power-bi-drill-down-one1.png)
 
@@ -136,7 +136,7 @@ Power BI 시각화에 계층 구조가 포함되어 있는 것이 확실한가�
 
     ![이중 드릴 아이콘](./media/end-user-drill/power-bi-expand-one3.png)
 
-4. *아래로 확장* 아이콘을 한 번 더 선택하여 트리 맵에 테네시주의 네 가지 계층 수준을 모두 표시합니다. 리프를 마우스로 가리켜서 더 많은 세부 정보를 봅니다.
+4. *아래로 확장* 아이콘을 한 번 더 선택하여 트리 맵에 테네시의 네 가지 계층 수준을 모두 표시합니다. 리프를 마우스로 가리켜서 더 많은 세부 정보를 봅니다.
 
    ![테네시 데이터가 표시된 트리 맵](./media/end-user-drill/power-bi-expand-all.png)
 

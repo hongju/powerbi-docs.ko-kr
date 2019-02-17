@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 59e1f4eda6bf48e85841d4646824407d3c839485
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7b835231356ad14ab434b86a2d1f99aa7212358d
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290621"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215645"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>보고서를 Power BI Desktop에서 PDF로 내보내기
 **Power BI Desktop**에서 PDF 파일로 보고서를 내보내고 따라서 해당 PDF에서 보고서를 쉽게 공유하거나 인쇄할 수 있습니다.
@@ -43,7 +43,7 @@ ms.locfileid: "54290621"
 
 
 ## <a name="next-steps"></a>다음 단계
-**Power BI Desktop**에는 다양한 종류의 흥미로운 시각적 요소 및 기능이 있습니다. 자세한 내용은 다음 리소스를 확인하세요.
+**Power BI Desktop**에는 다양한 종류의 흥미로운 시각적 요소 및 기능이 있습니다. 정보의 자세한 내용은 다음 리소스를 확인하세요.
 
 * [시각적 개체를 사용하여 Power BI 보고서 개선](desktop-visual-elements-for-reports.md)
 * [Power BI Desktop이란?](desktop-what-is-desktop.md)

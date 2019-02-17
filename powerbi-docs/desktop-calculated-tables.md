@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 10264540a1ec0b8eb79e446590b86df855505d76
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ffa49cc65c28e0fafb8ca72cb7a1a5bbde798861
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275183"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216335"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop의 계산된 테이블 사용
 계산된 테이블을 사용하면 새 테이블을 모델에 추가할 수 있습니다. 그러나 값을 쿼리하고 데이터 소스에서 새 테이블의 열로 로드하는 대신 테이블 값을 정의하는 DAX(Data Analysis Expressions) 수식을 만듭니다. Power BI Desktop에서 보고서 뷰나 데이터 뷰의 새 테이블 기능을 사용하여 계산된 열이 생성됩니다.
@@ -35,7 +35,7 @@ Contoso의 프로젝트 관리자인 Jeff에게는 북서부 직원이 담긴 �
 
  ![](media/desktop-calculated-tables/calctables_nwempl.png)
 
-**SoutwestEmployees**
+**SouthwestEmployees**
 
  ![](media/desktop-calculated-tables/calctables_swempl.png)
 

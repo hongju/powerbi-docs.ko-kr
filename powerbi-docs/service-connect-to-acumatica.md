@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c6f3e3cf3947abf9ead15fa6b91445c8aadd6420
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: aec463a4ce72f89f0cbbcf1bd42737605657a43c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008353"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215761"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Power BI로 Acumatica에 연결
 Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하게 파악할 수 있습니다. Power BI는 기회, 계정 및 고객을 포함하여 데이터를 검색한 다음 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다.
@@ -45,7 +45,7 @@ Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하�
 5. 인증 방법에 대해서는 **기본**을 선택합니다. Acumatica 계정의 사용자 이름 및 암호를 입력한 다음 **로그인**을 클릭합니다.
    
     ![](media/service-connect-to-acumatica/creds2.png)
-6. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 선택하면 사라지는 노란색 별표 \*로 표시되며, 대시보드를 닫으면 아래와 비슷한 레이아웃이 표시됩니다.
+6. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 선택하면 사라지는 노란색 별표 \*로 표시되며, 대시보드를 선택하면 아래와 비슷한 레이아웃이 표시됩니다.
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 

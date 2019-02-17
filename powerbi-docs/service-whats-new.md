@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d811ff6c68155d354df1785ae722829e1187543c
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431088"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216864"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
@@ -31,10 +31,41 @@ ms.locfileid: "55431088"
 * [Microsoft Power BI(YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="september-2018"></a>2018년 9월
-* Power BI 서비스에 [언급된 대시보드](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)
 
-## <a name="previous-months-2018"></a>이전 달(2018년)
+## <a name="february-2019"></a>2019년 2월
+* [용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)의 워크로드 및 활성 데이터 세트 크기 메트릭.
+* PDF 및 주문형 이메일 구독(service-report-subscribe.md)으로 내보냅니다.
+* 관리 포털의 대량 작업입니다.
+
+## <a name="previous-months-2019"></a>이전 달(2019년)
+### <a name="january-2019"></a>2019년 1월
+* 내부 포털 또는 웹 사이트의 [보안 Power BI 보고서 포함](service-embed-secure.md).
+* [데이터 흐름](service-dataflows-overview.md) 편집기를 새 커넥터로 업데이트하고 네이티브 SQL 쿼리 및 파워 쿼리 온라인 변환을 지원합니다.
+* Power BI 서비스의 [개인 책갈피](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/).
+* 이메일 구독을 통한 시간 기반 일정.
+
+## <a name="2018"></a>2018
+### <a name="december-2018"></a>2018년 12월
+* Power BI 홈의 AI 기반 [권장 앱](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/).
+* 관리 포털의 [작업 영역 관리](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/).
+* [데이터 흐름](service-dataflows-overview.md)의 Power BI 데이터 흐름 및 Azure Data Lake Storage Gen2 미리 보기 통합.
+* Power BI 솔루션 템플릿이 오픈 소스가 되었습니다.
+
+### <a name="november-2018"></a>2018년 11월
+* [데이터 흐름](service-dataflows-overview.md) 공개 미리 보기로 사용 가능한 Power BI 데이터 준비.
+* Power BI Premium의 [페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md) 공개 미리 보기.
+* [용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)의 메모리에 있는 데이터 세트의 데이터 크기 및 수.
+
+### <a name="october-2018"></a>2018년 10월
+* Power BI 서비스의 집계[desktop-aggregations.md].
+* Power BI는 3개의 새로운 지역으로 확장되었습니다. 인도 중부, 오스트레일리아 동부 및 미국 중부(아이오와). 
+* 일반적으로 사용할 수 있는 PowerPoint로 내보냅니다.
+
+### <a name="september-2018"></a>2018년 9월
+* Power BI 서비스에 [언급된 대시보드](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)
+* [Power BI 홈 및 글로벌 검색](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)의 공개 미리 보기.
+* [용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)의 [모니터링 쿼리](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)에 대한 기능.
+
 ### <a name="august-2018"></a>2018년 8월
 * Power BI Premium용[용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
 * Power BI [보고서 URL 필터](service-url-filters.md) 개선 사항
@@ -78,7 +109,7 @@ ms.locfileid: "55431088"
 *   AAS(Azure Analysis Services)에 대해 예약된 새로 고침 지원
 
 ## <a name="previous-months-2017"></a>이전 달(2017년)
-## <a name="october-and-november-2017"></a>2017년 10월 및 11월
+### <a name="october-and-november-2017"></a>2017년 10월 및 11월
 *   [Power BI 앱](service-create-distribute-apps.md)을 사용하여 콘텐츠를 선택적으로 게시
 *   [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/)를 사용하여 외부 사용자 배포
 * AI 기반 앱 권장 사항
@@ -86,7 +117,7 @@ ms.locfileid: "55431088"
 * 앱에 대한 메일 구독 지원 
 * [웹 게시](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings)에 대한 세밀한 관리자 컨트롤
 
-## <a name="september-2017"></a>2017년 9월
+### <a name="september-2017"></a>2017년 9월
 * 프리미엄 용량에서는 Power BI Pro 라이선스가 없는 사용자에게 대시보드를 공유합니다.
 * V 코어 풀링을 사용하여 비즈니스 요구에 맞게 용량을 할당합니다.
 * 한 번의 클릭으로 용량을 즉시 확장하거나 축소합니다.

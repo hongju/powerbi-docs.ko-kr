@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4ad7ce28c512f69e144af98098ab9f13a15b6023
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008629"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223792"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI로 Marketo에 연결
 Power BI용 Marketo 콘텐츠 팩을 사용하면 잠재 고객 및 해당 활동과 관련된 데이터로 Marketo 계정을 파악할 수 있습니다. 이 연결을 만들면 데이터가 검색되고, 해당 데이터를 기반으로 하여 대시보드 및 관련 보고서가 자동으로 제공됩니다.
@@ -59,7 +59,7 @@ Power BI용 [Marketo 콘텐츠 팩](https://app.powerbi.com/getdata/services/mar
 | 표 이름 | 설명 |
 | --- | --- |
 | EmailActivities |디바이스, 범주, 반송된 개수 및 비율, 클릭한 개수 및 비율, 열린 개수 및 비율 및 프로그램 이름에 대한 세부 정보를 포함하여 잠재 고객/연락처로 전송된 메일에 대한 데이터입니다. Power BI에 표시되는 메일 활동은 절대 메일 배달 보고서로, 데이터에 추가 논리를 적용하지 않습니다. 이 때문에 Marketo 클라이언트와 Power BI 간에 일부 다른 결과가 표시될 수도 있습니다. |
-| ProgramActivites |상태 변경이 있는 프로그램에 대한 데이터입니다. 여기에는 다음과 같은 세부 정보를 포함합니다. 이유, 성공, 프로그램 취득 횟수 및 비율, 프로그램 성공 횟수 및 비율. |
+| ProgramActivities |상태 변경이 있는 프로그램에 대한 데이터입니다. 여기에는 다음과 같은 세부 정보를 포함합니다. 이유, 성공, 프로그램 취득 횟수 및 비율, 프로그램 성공 횟수 및 비율. |
 | WebPageActivities |검색 에이전트, 사용자 에이전트, 웹 페이지 및 시간을 포함하여 사용자 웹 페이지 방문의 데이터입니다. |
 | Datetable |오늘부터의 날짜 및 지난 연도의 날짜입니다.  날짜별로 Marketo 데이터를 분석할 수 있습니다. |
 | 잠재 고객 |회사, 수익 크기, 직원 수, 국가, 업계, 잠재 고객 점수 및 잠재 고객 상태와 같은 잠재 고객 정보입니다. 잠재 고객은 메일, 프로그램 및 웹 페이지 활동 데이터의 현재 상태에 따라 검색됩니다. |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0f2443ac5dff167e633d89834a23d186c19f858b
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281922"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216611"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 **Power BI Desktop**을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. **Power BI Desktop**에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다.  **Power BI Desktop**은 무료로 다운로드할 수 있습니다.
@@ -62,7 +62,7 @@ Microsoft Store에서 **Power BI Desktop** 가져오기에 대한 몇 가지 이
 
 * **자동 업데이트** - Windows는 사용 가능할 때 가능한 빨리 최신 버전을 백그라운드에 자동으로 다운로드하므로 버전은 항상 최신 상태를 유지합니다.
 * **필요한 파일만 다운로드** - **Microsoft Store**에서는 각 업데이트에서 변경된 구성 요소만 컴퓨터로 다운로드하므로 각 업데이트에 필요한 파일만 다운로드합니다.
-* **관리자 권한이 필요하지 않음** - MSI를 직접 다운로드하고 설치하는 경우 성공적으로 완료하려면 설치에 대한 관리자여야 합니다. Microsoft Store에서 **Power BI Desktop**을 가져올 때 관리자 권한은 필요하지 ‘않습니다’.
+* **관리자 권한이 필요하지 않음** - MSI를 직접 다운로드하고 설치하는 경우 성공적으로 완료하려면 설치에 대한 관리자여야 합니다. Microsoft Store에서 **Power BI Desktop**을 가져올 때 관리자 권한은 필요하지 *않습니다*.
 * **IT 롤아웃 활성화** - **Microsoft Store** 버전을 조직의 모든 사용자에게 보다 쉽게 배포하거나 ‘롤아웃’할 수 있으며 **비즈니스용 Microsoft Store**를 통해 **Power BI Desktop**을 제공할 수 있습니다.
 * **언어 감지** - **Microsoft Store** 버전은 지원되는 모든 언어를 포함하며 컴퓨터가 시작될 때마다 사용 중인 언어를 확인합니다. **Power BI Desktop**에서 든 모델의 지역화에 영향을 미칩니다. 예를 들어 기본 제공 날짜 계층 구조는 .pbix 파일을 만들 때 **Power BI Desktop**에서 사용하고 있었던 언어를 일치시킵니다.
 
@@ -112,7 +112,7 @@ Microsoft Store에서 **Power BI Desktop**을 설치할 때 다음과 같은 몇
 Power BI Desktop의 현재 버전으로 업데이트하면 대개 이 문제가 해결됩니다.
 
 ### <a name="disabling-notifications"></a>알림 사용 안 함
-향상된 기능, 성능, 안정성 및 기타 개선 사항을 활용하려면 최신 버전의 Power BI Desktop으로 업데이트하는 것이 좋습니다. 일부 조직에서는 사용자가 개별적으로 새 버전으로 업데이트하기를 원하지 않을 수 있습니다. 다음 단계를 통해 레지스트리를 수정하여 알림을 사용하지 않도록 설정할 수 있습니다.
+기능, 성능, 안정성 및 기타 개선 사항의 발전을 활용하려면 최신 버전의 Power BI Desktop으로 업데이트하는 것이 좋습니다. 일부 조직에서는 사용자가 개별적으로 새 버전으로 업데이트하기를 원하지 않을 수 있습니다. 다음 단계를 통해 레지스트리를 수정하여 알림을 사용하지 않도록 설정할 수 있습니다.
 
 1. 레지스트리 편집기를 사용하여 *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop*으로 이동합니다.
 2. 다음 설정을 사용하여 새 항목을 만듭니다. *REG_DWORD : DisableUpdateNotification*

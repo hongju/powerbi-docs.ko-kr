@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dd7360761cc78aed9b01eb99165de9f0b4b91ffe
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 892e056413212e319815341eb9ae95262ed54d46
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274769"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215415"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI의 트리맵
 트리맵은 계층 데이터를 중첩된 사각형의 집합으로 표시합니다.  계층의 각 수준은 다른 사각형("잎")를 포함하는 색이 칠해진 사각형("가지"라고도 함)으로 표시됩니다.  각 사각형 내부의 공간은 측정되는 값을 기반으로 하여 할당됩니다. 사각형은 크기순으로 가장 큰 것이 왼쪽 위, 가장 작은 것이 오른쪽 아래에 정렬됩니다.
@@ -52,7 +52,7 @@ ms.locfileid: "54274769"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-또는 고유한 트리맵을 만듭니다. 이 지침은 소매 분석 샘플을 사용합니다. 이를 수행하려면 Power BI 서비스에 로그인하여 **데이터 가져오기 \> 샘플 \> 소매 분석 샘플 \> 연결 \> 대시보드로 이동**을 선택합니다. 보고서에 시각화를 만들려면 데이터 세트 및 보고서에 대한 편집 권한이 필요합니다. 다행히 Power BI 샘플은 편집 가능합니다. 그러나 누군가가 사용자와 공유한 보고서에 사용자가 시각화를 추가할 수는 없습니다.  
+또는 고유한 트리맵을 만듭니다. 이 지침은 소매 분석 샘플을 사용합니다. 이를 수행하려면 Power BI 서비스에 로그인하여 **데이터 가져오기 \> 샘플 \> 소매 분석 샘플 \> 연결 \> 대시보드로 이동**을 선택합니다. 보고서에 시각화를 만들려면 데이터 세트 및 보고서에 대한 편집 권한이 필요합니다. 다행히 Power BI 샘플은 편집 가능합니다. 하지만 누군가가 사용자와 공유한 보고서에 시각화를 추가할 수는 없습니다.  
 
 1. “총 매장” 타일을 선택하여 소매 분석 샘플 보고서를 엽니다.    
 2. [편집용 보기](../service-interact-with-a-report-in-editing-view.md)를 열고 **판매액** > **작년 판매액** 측정값을 선택합니다.   

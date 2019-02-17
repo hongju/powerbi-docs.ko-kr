@@ -13,7 +13,7 @@
 
 ## <a name="ports"></a>포트
 
-게이트웨이는 Azure 서비스 버스에 대한 아웃바운드 연결을 만듭니다. 이 게이트웨이는 아웃바운드 포트 TCP 443(기본값), 5671, 5672, 9350~9354에서 통신합니다.  게이트웨이에는 인바운드 포트가 필요하지 않습니다.
+게이트웨이는 Azure 서비스 버스에 대한 아웃바운드 연결을 만듭니다. 아웃바운드 포트에서 통신합니다. TCP 443(기본값), 5671, 5672, 9350~9354.  게이트웨이에는 인바운드 포트가 필요하지 않습니다.
 
 방화벽에, 데이터 영역에 대한, IP 주소 허용 목록을 작성하는 것이 좋습니다. 매주 업데이트되는 [Microsoft Azure 데이터 센터 IP 목록](https://www.microsoft.com/download/details.aspx?id=41653)을 다운로드할 수 있습니다. 게이트웨이는 정규화된 도메인 이름(FQDN)과 함께 IP 주소를 사용하여 Azure Service Bus와 통신합니다. 게이트웨이가 HTTPS를 사용하여 통신하도록 강제 적용하는 경우 엄격하게 FQDN만을 사용하며 IP 주소를 사용하여 통신이 발생하지 않습니다.
 
@@ -43,7 +43,7 @@
 
 게이트웨이가 직접 TCP 대신 HTTPS를 사용하여 Azure Service Bus와 통신하도록 강제할 수 있습니다. HTTPS를 사용하면 성능에 영향을 줄 수 있습니다. 이렇게 하려면 이 단락 바로 다음에 나오는 코드 조각에 표시된 것과 같이 `AutoDetect`에서 `Https`로 값을 변경하여 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 파일을 수정합니다. 해당 파일은(기본적으로)  C:\Program Files\온-프레미스 데이터 게이트웨이 에 있습니다.
 
-```
+```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
     <value>Https</value>
 </setting>

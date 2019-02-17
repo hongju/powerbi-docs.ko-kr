@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 3aa4047f5a4b0146c534a5734d8d13a42c46fe58
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e829d0cf174cc81148287ce1b25449246300606c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287810"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216703"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server에서 예약된 새로 고침 문제 해결
 이 문서에서는 Power BI Report Server에서 예약된 새로 고침의 문제 해결에 사용할 수 있는 리소스를 설명합니다.
@@ -25,7 +25,7 @@ ms.locfileid: "54287810"
 보고서에 대한 새로 고침을 예약하려고 할 때 직면하는 보다 일반적인 문제는 다음과 같습니다. 
 
 ### <a name="driver-related-problems"></a>드라이버 관련 문제
-다른 데이터 원본에 연결하려면 성공적으로 연결하기 위해 설치해야 하는 타사 드라이버가 필요할 수 있습니다. Power BI Desktop을 사용하는 컴퓨터에 설치해야 할 뿐만 아니라 보고서 서버에 드라이버가 설치되었는지도 확인해야 합니다.
+다른 데이터 원본에 연결하려면 성공적인 연결을 위해 설치해야 하는 타사 드라이버가 필요할 수 있습니다. Power BI Desktop을 사용하는 컴퓨터에 설치해야 할 뿐만 아니라 보고서 서버에 드라이버가 설치되었는지도 확인해야 합니다.
 
 드라이버는 32비트 및 64비트로 제공될 수도 있습니다. Power BI Report Server는 64비트이므로 64비트 드라이버를 설치해야 합니다.
 
@@ -60,7 +60,7 @@ Windows 자격 증명으로 데이터 원본에 연결할 때 성공적으로 �
 
 **rsreportserver.config 내 설정:**
 
-```
+```xml
 <Configuration>
     <Service>
         <PollingInterval>10</PollingInterval>

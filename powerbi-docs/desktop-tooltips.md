@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 545e8f874cca18167ee260daa92eec3ef1c3e925
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0893d63c9f153b3b2810116a902a13afff3cb2ce
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291490"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223953"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop의 보고서 페이지에 기반한 도구 설명 만들기
 **Power BI Desktop**에서 만든 보고서 페이지에 기반을 둔 시각적 개체를 가리키면 나타나는 **보고서 도구 설명**을 시각적으로 풍부하게 만들 수 있습니다. 도구 설명으로 사용되는 보고서 페이지를 만들면 사용자 지정 도구 설명에 시각적 개체, 이미지 및 기타 보고서 페이지에서 만든 항목 컬렉션을 포함할 수 있습니다. 
@@ -71,7 +71,7 @@ ms.locfileid: "54291490"
 
 지정된 필드를 포함하는 시각적 개체를 가리키면 자동으로 나타나는 도구 설명을 만드는 것 외에도, 수동으로 도구 설명을 설정할 수 있습니다. 
 
-이제 보고서 도구 설명을 지원하는 모든 시각적 개체에는 해당 **서식** 창에 **도구 설명** 카드가 있습니다. 
+이제 보고서 도구 설명을 지원하는 모든 시각적 개체에는 해당 **서식 지정** 창에 **도구 설명** 카드가 있습니다. 
 
 도구 설명을 수동으로 설정하려면 수동 도구 설명을 지정할 시각적 개체를 선택한 다음, **시각화** 창에서 **서식** 섹션을 선택하고 **도구 설명** 카드를 확장하세요.
 

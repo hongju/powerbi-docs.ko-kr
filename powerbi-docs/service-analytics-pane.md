@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 842d29978fa6a4a714b42b1665112661e0704357
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ce99539e1804746970eae20dc9396f0f0536afea
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293744"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223700"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 시각적 개체에 대한 동적 참조 줄 만들기
 
@@ -50,7 +50,7 @@ ms.locfileid: "54293744"
 
 3. 새로운 선을 만들려면 **+추가**를 선택하고 선을 만드는 데 사용할 측정값을 결정합니다.  **측정값** 드롭다운에 선택된 시각화의 사용 가능한 데이터가 자동으로 채워집니다. **오픈 매장 수**를 사용하겠습니다.
 
-5. 색상, 투명도, 스타일, 위치(시각적 개체의 데이터 요소 기준) 등 선에 대한 모든 옵션이 제공됩니다. 선에 레이블을 지정하려면 제목을 지정한 후 **데이터 레이블** 슬라이더를 **설정**으로 옮겨야 합니다.  이 예에서는 아래와 같이 선에 *평균 오픈 매장 수*라는 제목을 지정하고, 기타 옵션 몇 가지를 사용자 지정하겠습니다.
+5. 색상, 투명도, 스타일, 위치(시각적 개체의 데이터 요소 기준)와 같은 선에 대한 모든 종류의 옵션이 제공됩니다. 선에 레이블을 지정하려면 제목을 지정한 후 **데이터 레이블** 슬라이더를 **설정**으로 옮겨야 합니다.  이 예에서는 아래와 같이 선에 *평균 오픈 매장 수*라는 제목을 지정하고, 기타 옵션 몇 가지를 사용자 지정하겠습니다.
    
    ![평균 선 분석 사용자 지정](media/service-analytics-pane/power-bi-average-line2.png)
 

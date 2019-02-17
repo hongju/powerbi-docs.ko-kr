@@ -1,6 +1,6 @@
 ---
 title: 인사이트를 사용하여 배포가 다른 곳 찾기(미리 보기)
-description: Power BI Desktop에서 차트에서 분포가 다르게 보이는 곳을 찾을 수 있도록 인사이트를 간편하게 파악
+description: Power BI Desktop의 차트에서 분포가 다르게 보이는 곳을 찾을 수 있도록 인사이트를 쉽게 파악
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 416313f9271950c2f12a554107ab74933c5c31b7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 82844a1e928d30db12ba5659edcee7b07eaaf7b3
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277759"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215357"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Power BI Desktop에서 인사이트를 사용하여 분포가 다른 곳 찾기(미리 보기)
 
@@ -131,7 +131,7 @@ ms.locfileid: "54277759"
 * 측정값 필터
 * 숫자가 아닌 측정값
 * “다음과 같이 값 표시” 사용
-* 필터링된 측정값 - 필터링된 측정값은 특정 필터(예: *프랑스의 총 판매액*)가 적용된 시각적 개체 수준의 계산이며 인사이트 기능으로 만든 일부 hte 시각적 개체에서 사용됩니다.
+* 필터링된 측정값 - 필터링된 측정값은 특정 필터(예: *프랑스의 총 판매액*)가 적용된 시각적 개체 수준의 계산이며 인사이트 기능으로 만든 일부 시각적 개체에서 사용됩니다.
 
 또한 다음 모델 유형 및 데이터 소스는 현재 정보에 지원되지 않습니다.
 

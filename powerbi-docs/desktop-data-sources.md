@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f5fc52df86faa69683fa1e76f8893fb1d1a09ab9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281163"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225917"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 소스
 Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 있습니다. 이 페이지의 맨 아래에는 사용 가능한 데이터 소스의 전체 목록이 있습니다.
@@ -77,11 +77,14 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Amazon Redshift
 * Impala
 * Google BigQuery
+* Vertica
 * Snowflake
 * Essbase(베타)
-* BI 커넥터
+* Dremio
 * Exasol
-* Dremio(베타)
+* MarkLogic(베타)
+* AtScale 큐브(베타)
+* BI 커넥터
 * Jethro(베타)
 * Kyligence 엔터프라이즈(베타)
 
@@ -136,8 +139,6 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Google 애널리틱스
 * Adobe Analytics
 * appFigures(베타)
-* comScore Digital Analytix(베타)
-* Dynamics 365 for Customer Insights(베타)
 * Data.World - 데이터 세트 가져오기(베타)
 * Facebook
 * GitHub(베타)
@@ -157,6 +158,8 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Webtrends(베타)
 * Zendesk(베타)
 * TeamDesk(베타)
+* Emigo 데이터 원본(베타)
+* Microsoft Graph 보안(베타)
 
 다음 그림은 **온라인 서비스**에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
@@ -164,7 +167,6 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 **기타** 범주는 다음과 같은 데이터 연결을 제공합니다.
 
-* Vertica
 * 웹
 * SharePoint 목록
 * OData 피드
@@ -176,8 +178,12 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Python 스크립트
 * ODBC
 * OLE DB
+* 직원 차원(베타)
 * Denado
 * Paxata(베타)
+* SurveyMonkey(베타)
+* QubolePresto(베타)
+* 빠른 자료(베타)
 * 빈 쿼리
 
 다음 그림은 **기타**에 대한 **데이터 가져오기** 창을 보여 줍니다.
@@ -190,7 +196,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 ## <a name="connecting-to-a-data-source"></a>데이터 소스에 연결
 데이터 소스에 연결하려면 **데이터 가져오기** 창에서 데이터 소스를 선택한 다음 **연결**을 선택합니다. 다음 그림에서는 **기타** 데이터 연결 범주에서 **웹** 이 선택됩니다.
 
-![웹에 연결](media/desktop-data-sources/data-sources_08a.png)
+![웹에 연결](media/desktop-data-sources/data-sources_08.png)
 
 데이터 연결 형식과 관련된 연결 창이 표시됩니다. 자격 증명이 필요한 경우 제공하라는 메시지가 표시됩니다. 다음 그림은 웹 데이터 소스에 연결하기 위해 입력되는 URL을 보여 줍니다.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 87e2ff9bf8e4eb87b4b915492bf8cfa4a97a9150
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: d09936f2cce1d7835efdb82929d9e8eed2291163
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008859"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223355"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Power BI로 Xero에 연결
 Xero는 중소기업을 위해 특별히 설계된 사용이 용이한 온라인 계정 소프트웨어입니다. 이 Power BI 콘텐츠 팩으로 Xero 재무를 기반으로 하여 매력적인 시각화 개체를 만들어 보세요. 기본 대시보드에는 현금 보유 현황, 수익과 지출 비교, 손익 추세, 대금 결제 기간, 투자 수익률 등 다양한 중소기업 메트릭이 포함됩니다.
@@ -86,7 +86,7 @@ Xero 콘텐츠 팩에 액세스하려면 다음 역할이 필요합니다. "Stan
 <a name="FindingParams"></a>
 
 ## <a name="finding-parameters"></a>매개 변수 찾기
-Power BI에서 추적할 조직 이름을 제공합니다. 이를 통해 여러 서로 다른 조직에 연결할 수 있습니다. 예약된 새로 고침에 영향을 주므로 동일한 조직에 여러 번 연결할 수 없습니다.   
+Power BI에서 추적할 조직 이름을 제공합니다. 이를 통해 여러 다른 조직에 연결할 수 있습니다. 예약된 새로 고침에 영향을 주므로 동일한 조직에 여러 번 연결할 수 없습니다.   
 
 ## <a name="troubleshooting"></a>문제 해결
 * Xero 사용자는 Power BI용 Xero 콘텐츠 팩에 액세스하려면 다음 역할을 보유해야 합니다. "Standard + Reports" 또는 "Advisor". 콘텐츠 팩은 Power BI를 통해 보고 데이터에 액세스하는 데 사용자 기반 권한을 사용합니다.  

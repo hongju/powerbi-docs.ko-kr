@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 9901d5a60c0fe3127dada9523e659d48fbe7bf8b
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 23907633ec92a172a9cdd392ad62b43d367260b3
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762194"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223608"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 
@@ -71,7 +71,7 @@ Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션�
     애플리케이션 백 엔드는 이 계정에 대한 자격 증명을 저장한 후 Power BI REST API에 사용할 Azure AD 토큰을 획득하기 위해 사용합니다. 이 계정은 애플리케이션에 대한 임베드 토큰을 생성하는 데 사용됩니다. 또한 이 계정은 포함용으로 만든 앱 작업 영역의 관리자여야 합니다.
 
 > [!NOTE]
-> 조직에서 포함의 목적으로 사용할 일반 사용자 계정입니다.
+> 이는 조직에서 포함의 목적으로 사용할 일반 사용자 계정일 뿐입니다.
 
 ## <a name="app-registration-and-permissions"></a>앱 등록 및 사용 권한
 

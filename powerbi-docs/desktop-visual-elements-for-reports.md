@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bef307678c471303fde7382e3c1be1648d49f0db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 457861d17aea03303df9c271c52e7f962f525bbc
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280312"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223263"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>시각적 개체를 사용하여 Power BI 보고서 개선
 
@@ -36,7 +36,7 @@ ms.locfileid: "54280312"
 
 ![배경 화면이 보고서 주위의 회색 영역을 덮고 있음](media/desktop-visual-elements-for-reports/visual-elements-for-reports_02.png)
 
-보고서 페이지별로 배경 화면을 설정하거나 보고서의 모든 페이지에 동일한 배경 화면을 포함할 수 있습니다. 배경 화면을 설정하려면 보고서에서 시각적 개체가 선택되지 않았을 때 **서식** 아이콘을 탭하거나 클릭합니다. 그러면 **배경 화면** 카드가 창에 나타납니다.
+보고서 페이지별로 배경 화면을 설정하거나 보고서의 모든 페이지에 동일한 배경 화면을 포함할 수 있습니다. 배경 화면을 설정하려면 보고서에서 시각적 개체가 선택되지 않았을 때 **서식 지정** 아이콘을 탭하거나 클릭합니다. 그러면 **배경 화면** 카드가 창에 나타납니다.
 
 ![서식 지정 창의 배경 화면 영역](media/desktop-visual-elements-for-reports/visual-elements-for-reports_03.png)
 

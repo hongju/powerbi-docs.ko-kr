@@ -1,53 +1,43 @@
 ---
-title: Power BI Desktop의 다 대 다 관계(미리 보기)
-description: Power BI Desktop의 다 대 다 관계 사용
+title: Power BI Desktop의 다 대 다 관계
+description: Power BI Desktop에서 다 대 다 카디널리티와의 관계 사용
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291076"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225963"
 ---
-# <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop의 다 대 다 관계(미리 보기)
+# <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Power BI Desktop에서 다 대 다 카디널리티와의 관계
 
-Power BI Desktop의 ‘다 대 다 관계’ 기능을 사용하면 ‘다 대 다’의 카디널리티를 사용하는 테이블을 조인할 수 있습니다. 두 개 이상의 데이터 원본이 포함된 데이터 모델을 더 쉽고 직관적으로 만들 수 있습니다. ‘다 대 다 관계’ 기능은 Power BI Desktop의 더 큰 ‘복합 모델’ 기능에 포함됩니다.
+Power BI Desktop의 *다 대 다 카디널리티와의 관계*를 사용하면 *다 대 다*의 카디널리티를 사용하는 테이블을 조인할 수 있습니다. 두 개 이상의 데이터 원본이 포함된 데이터 모델을 더 쉽고 직관적으로 만들 수 있습니다. *다 대 다 카디널리티와의 관계* 기능은 Power BI Desktop의 더 큰 *복합 모델* 기능의 일부입니다.
 
 ![“관계 편집” 창의 다 대 다 관계](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-Power BI Desktop의 다 ‘대 다 관계’ 기능은 다음 세 가지 관련 기능 중 하나입니다.
+Power BI Desktop의 *다 대 다 카디널리티와의 관계* 기능은 다음 세 가지 관련 기능 중 하나입니다.
 
 * **복합 모델**: 보고서에 DirectQuery 연결 또는 가져오기를 비롯한 두 개 이상의 데이터 연결을 다양한 조합으로 포함할 수 있습니다. 자세한 내용은 [Power BI Desktop의 복합 모델(미리 보기)](desktop-composite-models.md)을 참조하세요.
 
-* **다 대 다 관계**: ‘복합 모델’을 사용하면 테이블 간에 ‘다 대 다 관계’를 설정할 수 있습니다. 이 방법은 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계를 설정하기 위해 새 테이블만 도입하는 것과 같은 이전 해결 방법을 제거합니다. 이 기능은 이 문서에서 더 자세히 설명합니다.
+* **다 대 다 카디널리티와의 관계**: *복합 모델*을 사용하면 테이블 간에 *다 대 다 카디널리티와의 관계*를 설정할 수 있습니다. 이 방법은 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계를 설정하기 위해 새 테이블만 도입하는 것과 같은 이전 해결 방법을 제거합니다. 이 기능은 이 문서에서 더 자세히 설명합니다.
 
 * **스토리지 모드**: 이제 백 엔드 데이터 원본에 대한 쿼리가 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 자세한 내용은 [Power BI Desktop의 스토리지 모드(미리 보기)](desktop-storage-mode.md)를 참조하세요.
 
-## <a name="enable-the-many-to-many-relationships-preview-feature"></a>‘다 대 다 관계’ 미리 보기 기능 사용
+## <a name="what-relationships-with-a-many-many-cardinality-solves"></a>*다 대 다 카디널리티와의 관계* 문제 해결
 
-‘다 대 다 관계’ 기능은 Power BI Desktop에서 사용할 수 있어야 합니다. 복합 모델을 사용하려면 **파일** > **옵션 및 설정** > **옵션** > **미리 보기 기능**을 선택한 다음, **복합 모델** 확인란을 선택합니다.
+*다 대 다 카디널리티와의 관계* 기능을 사용할 수 있게 되기 전에 두 테이블 간의 관계가 Power BI에 정의되었습니다. 관계에 포함된 테이블 열 중 하나 이상에 고유한 값이 포함되어야 합니다. 그러나 열에 고유한 값이 포함되지 않는 경우가 있습니다. 
 
-![“미리 보기 기능” 창](media/desktop-composite-models/composite-models_02.png)
+예를 들어 두 개의 테이블에 *Country* 열이 있을 수 있지만, *Country* 값이 한쪽 테이블에서 고유하지 않았습니다. 이러한 테이블을 조인하려면 해결 방법을 만들어야 했습니다. 한 가지 해결 방법은 필요한 고유한 값이 포함된 추가 테이블을 모델에 추가하는 것일 수 있습니다. *다 대 다 카디널리티와의 관계* 기능을 사용하면 **다 대 다**의 카디널리티와 함께 관계를 사용하여 해당 테이블을 직접 조인할 수 있습니다.  
 
-이 기능을 사용하려면 Power BI Desktop을 다시 시작해야 합니다.
-
-![“기능을 다시 시작해야 합니다.” 창](media/desktop-composite-models/composite-models_03.png)
-
-## <a name="what-many-to-many-relationships-solves"></a>‘다 대 다 관계’로 해결하는 문제
-
-‘다 대 다 관계’ 기능을 사용할 수 있게 되기 전에 두 테이블 간의 관계가 Power BI에 정의되었습니다. 관계에 포함된 테이블 열 중 하나 이상에 고유한 값이 포함되어야 합니다. 그러나 열에 고유한 값이 포함되지 않는 경우가 있습니다. 
-
-예를 들어 두 개의 테이블에 *Country* 열이 있을 수 있지만, *Country* 값이 한쪽 테이블에서 고유하지 않았습니다. 이러한 테이블을 조인하려면 해결 방법을 만들어야 했습니다. 한 가지 해결 방법은 필요한 고유한 값이 포함된 추가 테이블을 모델에 추가하는 것일 수 있습니다. ‘다 대 다 관계’ 기능을 사용하면 **다 대 다**의 카디널리티와 함께 관계를 사용하여 해당 테이블을 직접 조인할 수 있습니다.  
-
-## <a name="use-many-to-many-relationships"></a>‘다 대 다 관계’ 사용
+## <a name="use-relationships-with-a-many-many-cardinality"></a>*다 대 다 카디널리티와의 관계* 사용
 
 Power BI에서 두 테이블 간 관계를 정의할 때 관계의 카디널리티를 정의해야 합니다. 예를 들어 *ProductSales*와 *Product* 간 관계(*ProductSales[ProductCode]* 및 *Product[ProductCode]* 열 사용)는 ‘다 대 일’로 정의됩니다. 각 제품에 많은 판매가 있고 *Product* 테이블의 열(*ProductCode*)이 고유하므로 이 방식으로 관계를 정의합니다. 관계 카디널리티를 ‘다 대 일’, ‘일 대 다’ 또는 ‘일 대 일’로 정의하는 경우 Power BI가 유효성을 검사하여 사용자가 선택한 카디널리티가 실제 데이터와 일치하는지 확인하는 데 도움이 됩니다.
 
@@ -117,14 +107,11 @@ Power BI에서 두 테이블 간 관계를 정의할 때 관계의 카디널리�
 
 ![테이블 시각적 개체](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
-확인할 수 있듯이, *TX*(‘판매액’ 데이터와 알 수 없는 ‘인구’ 데이터 포함) 및 *New York*(알려진 ‘인구’ 데이터가 포함되지만 ‘판매액’ 데이터가 없음)이 포함됩니다. 이 해결 방법은 최적의 방법이 아니고 많은 문제가 있습니다. 다 대 다 관계를 만들면 다음 섹션에 설명된 대로 이러한 문제가 해결됩니다.
+확인할 수 있듯이, *TX*(‘판매액’ 데이터와 알 수 없는 ‘인구’ 데이터 포함) 및 *New York*(알려진 ‘인구’ 데이터가 포함되지만 ‘판매액’ 데이터가 없음)이 포함됩니다. 이 해결 방법은 최적의 방법이 아니고 많은 문제가 있습니다. 다 대 다 카디널리티와의 관계를 만들면 다음 섹션에 설명된 대로 결과 문제가 해결됩니다.
 
-## <a name="use-many-to-many-relationships-instead-of-the-workaround"></a>해결 방법 대신 ‘다 대 다 관계’ 사용
+## <a name="use-relationships-with-a-many-many-cardinality-instead-of-the-workaround"></a>해결 방법 대신 *다 대 다 카디널리티와의 관계* 사용
 
 Power BI Desktop의 2018년 7월 버전을 기준으로, 비슷한 해결 방법을 사용하지 않고도 앞에서 설명한 테이블과 같은 테이블을 직접 연결할 수 있습니다. 이제 관계 카디널리티를 ‘다 대 다’로 설정할 수 있습니다. 이 설정은 테이블에 고유 값이 포함되지 않음을 나타냅니다. 이 관계의 경우 다른 테이블을 필터링하는 기준 테이블을 제어하거나 각 테이블이 다른 테이블을 필터링하는 양방향 필터링을 적용할 수 있습니다.  
-
-> [!NOTE]
-> ‘다 대 다 관계’를 만드는 기능은 미리 보기로 제공됩니다. 미리 보기로 제공되는 동안에는 ‘다 대 다 관계’를 사용하는 Power BI 서비스 모델에 게시할 수 없습니다. 
 
 Power BI Desktop에서는 관계에서 열의 고유한 값이 모든 테이블에 포함되지 않는 것으로 확인될 경우 카디널리티가 기본적으로 ‘다 대 다’로 설정됩니다. 이 경우 관계 설정은 의도한 동작이며 데이터 문제의 의도하지 않은 결과가 아닌지 확인하는 경고가 표시됩니다. 
 
@@ -136,7 +123,7 @@ Power BI Desktop에서는 관계에서 열의 고유한 값이 모든 테이블�
 
 ![테이블 시각적 개체](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
 
-‘다 대 다 관계’와 더 일반적인 ‘다 대 일’ 관계의 주요 차이점은 다음과 같습니다.
+*다 대 다 카디널리티와의 관계*와 더 일반적인 *다 대 일* 관계의 주요 차이점은 다음과 같습니다.
 
 * 표시된 값은 다른 테이블의 일치하지 않는 행에 해당하는 빈 행을 포함하지 않습니다. 이러한 값은 다른 테이블의 관계에 사용된 열이 Null인 행에 해당하지도 않습니다.
 * 둘 이상의 행이 관련될 수 있으므로 `RELATED()` 함수를 사용할 수 없습니다.
@@ -153,7 +140,7 @@ Power BI Desktop에서는 관계에서 열의 고유한 값이 모든 테이블�
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
-‘다 대 다 관계’ 및 복합 모델의 이 릴리스에 대한 몇 가지 제한 사항이 있습니다.
+*다 대 다 카디널리티와의 관계* 및 복합 모델의 이 릴리스에 대한 몇 가지 제한 사항이 있습니다.
 
 다음 Live Connect(다차원) 원본은 복합 모델과 함께 사용할 수 없습니다.
 
@@ -165,7 +152,7 @@ Power BI Desktop에서는 관계에서 열의 고유한 값이 모든 테이블�
 
 DirectQuery를 사용하여 이러한 다차원 원본에 연결하는 경우 다른 DirectQuery 원본에 연결하거나 가져온 데이터와 결합할 수 없습니다.
 
-‘다 대 다 관계’를 사용할 경우에도 DirectQuery 사용에 대한 기존 제한 사항이 계속 적용됩니다. 이러한 제한 사항 중 대부분은 테이블의 스토리지 모드에 따라 테이블별로 적용됩니다. 예를 들어 가져온 테이블에서 계산된 열은 다른 테이블을 참조할 수 있지만, DirectQuery 테이블에서 계산된 열은 여전히 동일한 테이블의 열만 참조할 수 있습니다. 다른 제한 사항은 모델 내의 테이블이 DirectQuery인 경우 모델에 전체적으로 적용됩니다. 예를 들어 QuickInsights 및 Q&A 기능은 모델 내의 테이블에 DirectQuery의 저장소 모드가 있는 경우 해당 모델에서 사용할 수 없습니다. 
+*다 대 다 카디널리티와의 관계*를 사용할 경우에도 DirectQuery 사용에 대한 기존 제한 사항이 계속 적용됩니다. 이러한 제한 사항 중 대부분은 테이블의 스토리지 모드에 따라 테이블별로 적용됩니다. 예를 들어 가져온 테이블에서 계산된 열은 다른 테이블을 참조할 수 있지만, DirectQuery 테이블에서 계산된 열은 여전히 동일한 테이블의 열만 참조할 수 있습니다. 다른 제한 사항은 모델 내의 테이블이 DirectQuery인 경우 모델에 전체적으로 적용됩니다. 예를 들어 QuickInsights 및 Q&A 기능은 모델 내의 테이블에 DirectQuery의 저장소 모드가 있는 경우 해당 모델에서 사용할 수 없습니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

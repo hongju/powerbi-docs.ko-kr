@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 70883adbc224f568e8a7a3a2843fb419d1c15308
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 548f84c38705e269998fd3c124b4f93d3c83d2ef
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278979"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215461"
 ---
 # <a name="power-bi-permissions"></a>Power BI 사용 권한
 
@@ -37,7 +37,7 @@ Power BI 사용 권한은 애플리케이션이 사용자를 대신하여 특정
 | 모든 용량 읽기 및 쓰기 |앱은 로그인한 사용자에 대한 모든 용량과 사용자에게 액세스 권한이 있는 모든 용량을 보고 해당 용량에 쓸 수 있습니다. 새 용량을 만들 수 있는 권한은 제공하지 않습니다. |Capacities.ReadWrite.All |
 | 모든 용량 읽기 |앱은 로그인한 사용자에 대한 모든 용량과 사용자에게 액세스 권한이 있는 모든 용량을 보고 해당 용량에 쓸 수 있습니다. 새 용량을 만들 수 있는 권한은 제공하지 않습니다. |Capacities.Read.All |
 | 테넌트의 모든 콘텐츠 읽기 및 쓰기 |앱은 Power BI의 모든 아티팩트(예: 그룹, 보고서, 대시보드 및 데이터 세트)를 보고 해당 아티팩트에 쓸 수 있습니다. 로그인한 사용자가 Power BI 서비스 관리자인 경우에 해당합니다. |Tenant.ReadWrite.All |
-| 테넌트의 모든 콘텐츠 보기 |앱은 Powre BI의 모든 아티팩트(예: 그룹, 보고서, 대시보드 및 데이터 세트)를 볼 수 있습니다. 로그인한 사용자가 Power BI 서비스 관리자인 경우에 해당합니다. |Tenant.Read.All |
+| 테넌트의 모든 콘텐츠 보기 |앱은 Power BI의 모든 아티팩트(예: 그룹, 보고서, 대시보드 및 데이터 세트)를 볼 수 있습니다. 로그인한 사용자가 Power BI 서비스 관리자인 경우에 해당합니다. |Tenant.Read.All |
 
 사용자 페이지에 처음으로 로그인할 때 호출의 범위 매개 변수에 요청된 권한을 전달하면 애플리케이션에서 사용 권한을 요청할 수 있습니다. 사용 권한이 부여되면 액세스 토큰이 앱에 반환되어 이후 API 호출에 사용할 수 있습니다. 액세스 권한은 특정 애플리케이션에서만 사용할 수 있습니다.
 

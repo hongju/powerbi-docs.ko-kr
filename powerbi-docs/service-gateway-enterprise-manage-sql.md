@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5bd1ee87d540fc4d4c212313483c78d168d7e104
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6771e2da33448fe3aa54a0184a220437ffb54fce
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277625"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215859"
 ---
 # <a name="manage-your-data-source---sql-server"></a>데이터 원본 관리 - SQL Server
 온-프레미스 데이터 게이트웨이를 설치한 후에는 게이트웨이와 함께 사용할 데이터 원본을 추가할 수 있습니다. 이 문서에서는 게이트웨이 및 데이터 소스로 작업하는 방법을 살펴봅니다. 예약된 새로 고침 또는 DirectQuery에 대해 SQL Server 데이터 원본을 사용할 수 있습니다.
@@ -29,7 +29,7 @@ Power BI 서비스에서 게이트웨이를 다운로드할 수 있습니다. **
 게이트웨이를 추가하려면 해당 환경의 서버에 게이트웨이를 [다운로드](https://go.microsoft.com/fwlink/?LinkId=698861)하여 설치하기만 하면 됩니다. 게이트웨이를 설치하면 **게이트웨이 관리**아래의 게이트웨이 목록에 표시됩니다.
 
 > [!NOTE]
-> 하나 이상의 게이트웨이에 대한 관리자가 아닌 경우 **게이트웨이 관리**가 표시되지 않습니다. 이것은 사용자가 관리자로 게이트웨이에 추가되었거나, 게이트웨이를 직접 설치 및 구성했을 때 발생합니다.
+> 하나 이상의 게이트웨이에 대한 관리자가 아닌 경우 **게이트웨이 관리**가 표시되지 않습니다. 이는 관리자로 게이트웨이에 추가되거나 게이트웨이를 직접 설치 및 구성할 때 발생합니다.
 > 
 > 
 

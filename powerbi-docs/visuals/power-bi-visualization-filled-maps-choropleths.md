@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 67055f855ad2872a7cf175aba85aefae7945f670
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ef03a562351b8f4487e4822ef28b89009ee5cbb4
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276310"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223493"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI의 등치 지역도(단계구분도)
 등치 지역도는 음영 또는 색조 또는 패턴을 사용하여 특정 값이 특정 지리 또는 지역을 기준으로 어떻게 다른지 표시합니다.  밝게(낮은 빈도/낮음)부터 어둡게(높은 빈도/높음)까지 다양한 음영으로 이러한 상대적 차이를 신속하게 표시합니다.    
@@ -111,7 +111,7 @@ Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 �
 
     ![Sentiment 탭이 선택됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. 페이지의 시각화 요소를 이동하고 크기를 조정하여 약간 공간을 만든 후 Ctrl+V를 사용하여 이전 보고서의 등치 지역도를 붙여넣습니다.
+4. 페이지의 시각화를 이동하고 크기를 조정하여 일부 공간을 만든 다음, CTRL-V를 사용하여 이전 보고서의 등치 지역도를 붙여넣습니다.
 
    ![등치 지역도가 Sentiment 페이지에 추가됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 

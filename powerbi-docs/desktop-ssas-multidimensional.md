@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8668e477a2778bfdeec8260a31ca63af9d4124a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b68cbafd3572100d5983eb8b17f07464d39baf3f
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287696"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56217071"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop에서 SSAS 다차원 모델에 연결
 Power BI Desktop을 통해 일반적으로 **SSAS MD**라고 하는 **SSAS 다차원 모델**에 액세스할 수 있습니다.
@@ -80,7 +80,7 @@ Power BI Desktop을 통해 일반적으로 **SSAS MD**라고 하는 **SSAS 다�
 
 * 서버는 Power BI Desktop SSAS MD 커넥터가 제대로 작동하기 위해 SQL Server 2012 SP1 CU4 또는 이후 버전의 Analysis Services를 실행해야 합니다.
 * *작업* 및 *명명된 집합* 은 Power BI에 노출되지 않지만, *작업* 또는 *명명된 집합* 을 포함하고 시각적 개체 및 보고서를 만드는 큐브에는 계속 연결할 수 있습니다.
-* Power BI가 SSAS 모델의 메타데이터를 표시하지만 모델에서 데이터를 가져올 수 없는 문제가 발생할 수 있습니다. 이러한 현상은 32비트 버전의 MSOLAP 공급자가 시스템에 설치된 경우 발생하지만, 64비트 버전의 경우 문제가 없습니다. 64비트 버전을 설치하면 문제가 해결될 수 있습니다.
+* Power BI가 SSAS 모델의 메타데이터를 표시하지만 모델에서 데이터를 검색할 수 없는 문제가 발생할 수 있습니다. 이러한 현상은 32비트 버전의 MSOLAP 공급자가 시스템에 설치된 경우 발생하지만, 64비트 버전의 경우 문제가 없습니다. 64비트 버전을 설치하면 문제가 해결될 수 있습니다.
 * SSAS 다차원 모델에 연결된 보고서를 작성할 때 ‘보고서 수준’ 측정값을 만들 수 없습니다. 사용 가능한 유일한 측정값은 MD 모델에 정의된 것입니다.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop에서 지원되는 SSAS MD의 기능

@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: ab8da0a7b1fb42158a399b5443bf737718e6a81f
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 812ac76266f8ef3299fa72b575c9ff68d2e75a79
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430421"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216358"
 ---
 # <a name="certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체
 
@@ -45,7 +45,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-ha
 
 * Microsoft AppSource가 승인되었습니다. 사용자 지정 시각적 개체는 [마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 있어야 합니다.
 * 사용자 지정 시각적 개체는 API 1.2 이상 버전으로 작성됩니다.
-* Power BI 팀이 검토할 수 있는 코드 리포지토리(예: GitHub를 통해 사용 가능한 사람이 읽을 수 있는 형식의 소스 코드(Javascript 또는 TypeScript))입니다.
+* Power BI 팀이 검토할 수 있는 코드 리포지토리(예: GitHub를 통해 사용 가능한 사람이 읽을 수 있는 형식의 소스 코드(JavaScript 또는 TypeScript))입니다.
 
     >[!Note]
     > Github에서 코드를 공용으로 공유할 필요는 없습니다.

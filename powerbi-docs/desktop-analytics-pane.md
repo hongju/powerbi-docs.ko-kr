@@ -1,6 +1,6 @@
 ---
 title: Power BI Desktop의 분석 창 사용
-description: Power BI Desktop에서 시각적 개체에 대한 동적 참조 선 만들기
+description: Power BI Desktop에서 시각적 개체에 대한 동적 참조 줄 만들기
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5c6acfb069e026e96dd9944e8001002548b83f8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fdb41a7d833ca14dd53b1043c08c244a704004da
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275509"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215392"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop의 분석 창 사용
-**Power BI Desktop**의 **분석** 창에서 시각적 개체에 동적 참조 선을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다. **분석** 창은 Power BI Desktop의 **시각화** 영역에 있습니다.
+**Power BI Desktop**의 **분석** 창에서 시각적 개체에 동적 참조 줄을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다. **분석** 창은 Power BI Desktop의 **시각화** 영역에 있습니다.
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
@@ -31,7 +31,7 @@ ms.locfileid: "54275509"
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 
 ## <a name="using-the-analytics-pane"></a>분석 창 사용
-**분석** 창을 사용하여 다음과 같은 유형의 동적 참조 선을 만들 수 있습니다(모든 시각적 개체 유형에 모든 선을 사용할 수 있는 것은 아님).
+**분석** 창을 사용하여 다음과 같은 유형의 동적 참조 줄을 만들 수 있습니다(모든 시각적 개체 유형에 모든 줄을 사용할 수 있는 것은 아님).
 
 * X축 상수 선
 * Y축 상수 선
@@ -59,7 +59,7 @@ ms.locfileid: "54275509"
 4. 데이터 레이블을 표시하려면 **데이터 레이블** 슬라이더를 켭니다. 이렇게 하면 다음 이미지처럼 데이터 레이블에 대한 추가 옵션 전체가 표시됩니다.
    
    ![](media/desktop-analytics-pane/analytics-pane_5.png)
-5. **분석** 창의 **평균 선** 항목 옆에 표시되는 숫자를 잘 보세요. 현재 시각적 개체에 있는 동적 선의 수와 유형을 알려줍니다. **주거 비용**에 최대 선을 추가하고 **분석** 창을 보면 이제 이 시각적 개체에 **최대 선** 동적 참조 선이 적용된 것을 확인할 수 있습니다.
+5. **분석** 창의 **평균 선** 항목 옆에 표시되는 숫자를 잘 보세요. 현재 시각적 개체에 있는 동적 선의 수와 유형을 알려줍니다. **주거 비용**에 최대 선을 추가하고 **분석** 창을 보면 이제 이 시각적 개체에 **최대 줄** 동적 참조 선이 적용된 것을 확인할 수 있습니다.
    
    ![](media/desktop-analytics-pane/analytics-pane_6.png)
 
@@ -107,7 +107,7 @@ ms.locfileid: "54275509"
 * 도넛
 * 테이블
 
-백분위수 선은 **Power BI Desktop**에서 가져온 데이터를 사용할 경우 또는 **Analysis Service 2016** 이상, **Azure Analysis Services**를 실행하는 서버의 모델 또는 Power BI 서비스의 데이터 세트에 연결할 경우에만 사용할 수 있습니다. 
+백분위수 줄은 **Power BI Desktop**에서 가져온 데이터를 사용할 경우 또는 **Analysis Service 2016** 이상, **Azure Analysis Services**를 실행하는 서버의 모델 또는 Power BI 서비스의 데이터 세트에 연결할 경우에만 사용할 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
 Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. 해당 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.

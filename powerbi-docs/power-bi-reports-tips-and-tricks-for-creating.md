@@ -1,7 +1,7 @@
 ---
 title: 멋진 보고서를 만드는 팁
 description: Power BI 서비스 및 Power BI Desktop에서 보고서를 만들기 위한 팁과 힌트
-author: davidi
+author: davidiseminger
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d88a455b5448b92d86719251bfada6bd807a4c91
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290501"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223815"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop 및 Power BI 서비스에서 보고서를 만들기 위한 팁과 힌트
 데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop, Power BI 서비스 ‘및’ 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다.
@@ -145,7 +145,7 @@ Power BI Desktop에서 계산 필드를 사용하여 히스토그램을 정의�
 4. **CustomerNames** 쿼리의 리본에서 **추가** 옵션을 선택하고 쿼리 **Temp**를 선택합니다.
 5. **CustomerNames** 쿼리에서 **중복 제거**를 선택합니다.
 
-이제 CustomerIndicents와 WorkItems를 관련시키는 데 사용할 수 있는, 서로의 모든 값을 포함하는 차원 테이블이 만들어졌습니다.  
+이제 각각의 모든 값을 포함하는 CustomerIncidents와 WorkItems를 관련시키는 데 사용할 수 있는 차원 테이블이 있습니다.  
 
 ### <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>쿼리 편집기를 바로 사용할 수 있는 패턴
 쿼리 편집기는 데이터를 조작하여 셰이핑하고 정리하여 시각화하거나 모델링할 수 있는 방법을 제공하는 매우 강력한 도구입니다. 알아야 할 몇 가지 패턴이 있습니다.
