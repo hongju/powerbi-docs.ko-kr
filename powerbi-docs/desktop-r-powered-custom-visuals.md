@@ -61,7 +61,7 @@ R 지원 사용자 지정 시각적 개체를 사용하려면 **사용자 지정
 5. 다음 그림처럼 사용자 지정 시각적 개체 가져오기에 대한 경고가 표시됩니다.
 
    ![R 시각적 개체 5](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_5.png)
-6. 시각적 파일이 저장된 위치로 이동하여 파일을 선택합니다. **Power BI Desktop** 사용자 지정 시각화의 확장명은 .pbivisual입니다.
+6. 시각적 파일이 저장된 위치로 이동하여 파일을 선택합니다. **Power BI Desktop** 사용자 지정 시각화의 확장명은 .pbiviz입니다.
 
    ![R 시각적 개체 6](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_6.png)
 7. Power BI Desktop으로 돌아가면 **시각화** 창에서 새로운 시각적 개체 유형을 볼 수 있습니다.
