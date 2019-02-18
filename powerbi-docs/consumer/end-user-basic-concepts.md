@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: c363d71b9d8796f1bd05ac01e12e9424a499a439
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430605"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216197"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI 서비스 ***소비자를*** 위한 기본 개념
 
@@ -61,7 +61,7 @@ Power BI 소비자를 위한 5가지 구성 요소는 ***시각화***, ***대시
 
     자세한 내용은[Power BI *소비자*용 대시보드](end-user-dashboards.md)를 참조하세요.
 
-* ![보고서 아이콘](media/end-user-basic-concepts/report.png) *보고서*는 대화형 시각적 개체, 텍스트 및 그래픽으로 구성된 여러 페이지의 모음을 말합니다. 보고서는 단일 데이터 세트를 기반으로 합니다. Oten 보고서 페이지는 개별 보고서로 정리되어, 주 관심 분야를 다루거나 단일 질문에 답합니다.
+* ![보고서 아이콘](media/end-user-basic-concepts/report.png) *보고서*는 대화형 시각적 개체, 텍스트 및 그래픽으로 구성된 여러 페이지의 모음을 말합니다. 보고서는 단일 데이터 세트를 기반으로 합니다. 종종 보고서 페이지는 개별 보고서로 정리되어, 주 관심 분야를 다루거나 단일 질문에 답합니다.
 
     자세한 내용은 [Power BI *소비자*용 보고서](end-user-reports.md)를 참조하세요.
 
