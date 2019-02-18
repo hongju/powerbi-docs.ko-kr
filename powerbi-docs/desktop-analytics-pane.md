@@ -18,7 +18,7 @@ ms.lasthandoff: 02/13/2019
 ms.locfileid: "56215392"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop의 분석 창 사용
-**Power BI Desktop**의 **분석** 창에서 시각적 개체에 동적 참조 줄을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다. **분석** 창은 Power BI Desktop의 **시각화** 영역에 있습니다.
+**Power BI Desktop**의 **분석** 창에서 시각적 개체에 동적 *참조 선을* 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다. **분석** 창은 Power BI Desktop의 **시각화** 영역에 있습니다.
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "56215392"
 4. 데이터 레이블을 표시하려면 **데이터 레이블** 슬라이더를 켭니다. 이렇게 하면 다음 이미지처럼 데이터 레이블에 대한 추가 옵션 전체가 표시됩니다.
    
    ![](media/desktop-analytics-pane/analytics-pane_5.png)
-5. **분석** 창의 **평균 선** 항목 옆에 표시되는 숫자를 잘 보세요. 현재 시각적 개체에 있는 동적 선의 수와 유형을 알려줍니다. **주거 비용**에 최대 선을 추가하고 **분석** 창을 보면 이제 이 시각적 개체에 **최대 줄** 동적 참조 선이 적용된 것을 확인할 수 있습니다.
+5. **분석** 창의 **평균 선** 항목 옆에 표시되는 숫자를 잘 보세요. 현재 시각적 개체에 있는 동적 선의 수와 유형을 알려줍니다. **주거 비용**에 최대 선을 추가하고 **분석** 창을 보면 이제 이 시각적 개체에 **최대 선** 동적 참조 선이 적용된 것을 확인할 수 있습니다.
    
    ![](media/desktop-analytics-pane/analytics-pane_6.png)
 
