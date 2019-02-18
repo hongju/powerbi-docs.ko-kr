@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9e31bd087d65bf0b4f0fa7088b6713ec981392b4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2d2a0cca984776ea67fca45b39f91e280fe02afa
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293846"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215162"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Power BI 신속한 정보 활용을 위해 데이터 최적화
-신속한 정보 활용 결과를 개선하려는 경우  데이터 집합 소유자이면, 다음을 시도해 보세요.
+신속한 정보 활용 결과를 개선하려는 경우  데이터 세트 소유자이면, 다음을 시도해 보세요.
 
 * 데이터 세트에서 열을 숨기거나 숨기기 취소합니다. Power BI 신속한 정보 활용은 숨겨진 열을 검색하지 않습니다.  따라서 중복되거나 불필요한 열을 숨기고 관련된 열의 숨기기를 취소합니다.
 * 이름, 시간, 날짜 및 숫자와 같은 데이터 형식을 혼합해서 사용합니다.
