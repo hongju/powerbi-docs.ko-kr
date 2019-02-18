@@ -1,6 +1,6 @@
 ---
 title: Power BI Desktop의 분석 창 사용
-description: Power BI Desktop에서 시각적 개체에 대한 동적 참조 줄 만들기
+description: Power BI Desktop에서 시각적 개체에 대한 동적 참조 선 만들기
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -31,7 +31,7 @@ ms.locfileid: "56215392"
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 
 ## <a name="using-the-analytics-pane"></a>분석 창 사용
-**분석** 창을 사용하여 다음과 같은 유형의 동적 참조 줄을 만들 수 있습니다(모든 시각적 개체 유형에 모든 줄을 사용할 수 있는 것은 아님).
+**분석** 창을 사용하여 다음과 같은 유형의 동적 참조 선을 만들 수 있습니다(모든 시각적 개체 유형에 모든 선을 사용할 수 있는 것은 아님).
 
 * X축 상수 선
 * Y축 상수 선
@@ -107,7 +107,7 @@ ms.locfileid: "56215392"
 * 도넛
 * 테이블
 
-백분위수 줄은 **Power BI Desktop**에서 가져온 데이터를 사용할 경우 또는 **Analysis Service 2016** 이상, **Azure Analysis Services**를 실행하는 서버의 모델 또는 Power BI 서비스의 데이터 세트에 연결할 경우에만 사용할 수 있습니다. 
+백분위수 선은 **Power BI Desktop**에서 가져온 데이터를 사용할 경우 또는 **Analysis Service 2016** 이상, **Azure Analysis Services**를 실행하는 서버의 모델 또는 Power BI 서비스의 데이터 세트에 연결할 경우에만 사용할 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
 Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. 해당 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.
