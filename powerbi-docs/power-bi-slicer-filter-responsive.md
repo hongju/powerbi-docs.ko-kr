@@ -34,7 +34,7 @@ ms.locfileid: "54288109"
 
 ## <a name="convert-to-a-horizontal-slicer"></a>가로 슬라이서로 변환
 
-1. 선택한 슬러이서를 사용하여 **시각화** 창에서 **형식** 탭을 선택합니다.
+1. 선택한 슬라이서를 사용하여 **시각화** 창에서 **서식** 탭을 선택합니다.
 2. **일반** 섹션을 확장한 다음 **방향**에서 **가로**를 선택합니다.
 
     ![슬라이서를 가로로 설정](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-2-horizontal.png) 
@@ -47,7 +47,7 @@ ms.locfileid: "54288109"
 
 이 단계는 쉽습니다. 
 
-1. **형식** 탭의 **일반** 섹션에 있는 **방향** 바로 아래에서 **반응형**을 **켜기**로 밉니다.  
+1. **서식** 탭의 **일반** 섹션에 있는 **방향** 바로 아래에서 **반응형**이 **설정** 상태인지 확인합니다.  
 
     ![슬라이서가 이제 반응함](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 
