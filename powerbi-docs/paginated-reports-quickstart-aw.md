@@ -1,20 +1,20 @@
 ---
 title: '자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드(미리 보기)'
 description: 이 자습서에서는 사용자가 샘플 Azure SQL Database에 연결합니다. 그런 다음, 보고서 작성기에서 마법사를 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.author: maggies
-ms.openlocfilehash: 05805ea7b30f0ab0bd14265caecbb04a4e975300
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 15c7d9e922ef7041c6b0f021382cae8d2aca84e9
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296475"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325246"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드(미리 보기)
 

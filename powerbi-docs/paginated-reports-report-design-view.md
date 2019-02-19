@@ -1,20 +1,20 @@
 ---
 title: 페이지를 매긴 보고서의 보고서 디자인 뷰 살펴보기(미리 보기)
 description: 보고서 작성기의 보고서 디자인 뷰는 Power BI 서비스에 게시할 수 있는 페이지를 매긴 보고서를 만들기 위한 디자인 공간입니다.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2ee381cae5bd0c0ed1e6a8cab1cd33361a05814f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283532"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324832"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>페이지를 매긴 보고서의 보고서 디자인 뷰 살펴보기(미리 보기)
 
@@ -22,12 +22,12 @@ ms.locfileid: "54283532"
 
 ![보고서 작성기 보고서 디자인 뷰](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
-1.  [보고서 데이터 창](#report-data-pane) 
-2.  [보고서 디자인 화면](#report-design-surface)  
-3.  [매개 변수 창](#parameters-pane) 
-4.  [속성 창](#properties-pane) 
-5.  [그룹화 창](#grouping-pane) 
-6.  [현재 보고서 상태 표시줄](#current-report-status-bar)  
+1. [보고서 데이터 창](#report-data-pane) 
+2. [보고서 디자인 화면](#report-design-surface)  
+3. [매개 변수 창](#parameters-pane) 
+4. [속성 창](#properties-pane) 
+5. [그룹화 창](#grouping-pane) 
+6. [현재 보고서 상태 표시줄](#current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1 [보고서 데이터] 창  
  [보고서 데이터] 창에서 보고서 레이아웃을 디자인하기 전에 보고서에 필요한 보고서 데이터와 보고서 리소스를 정의합니다. 예를 들어 데이터 원본, 데이터 세트, 계산 필드, 보고서 매개 변수 및 이미지를 [보고서 데이터] 창에 추가할 수 있습니다.  

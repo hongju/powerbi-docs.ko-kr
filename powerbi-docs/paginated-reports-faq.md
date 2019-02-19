@@ -1,20 +1,20 @@
 ---
 title: 'Power BI의 페이지를 매긴 보고서: FAQ(미리 보기)'
 description: 이 문서에서는 페이지를 매긴 보고서에 대한 질문과 대답을 제공합니다. 이러한 보고서는 인쇄 또는 PDF 생성에 최적화되어 있고 정교하게 형식 지정된 완벽한 픽셀 출력입니다.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: d86f52b45dfac4252dfd2e7de29de64c16a566ca
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d248bbf8374b64c947fa872f6294ae0d1195ede9
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294124"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324741"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI의 페이지를 매긴 보고서: FAQ(미리 보기)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280557"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324924"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Power BI 데이터 흐름에 대한 데이터 원본에 연결(미리 보기)
 
@@ -76,6 +76,7 @@ Power BI 데이터 흐름을 사용하면 다양한 데이터 원본에 연결�
 * SQL Server 데이터베이스
 * Sybase 데이터베이스
 * Teradata 데이터베이스
+* Vertica
 
 **Power BI** 범주에는 데이터 흐름에 대해 다음과 같은 사용 가능한 데이터 연결이 포함됩니다.
 
@@ -91,7 +92,8 @@ Power BI 데이터 흐름을 사용하면 다양한 데이터 원본에 연결�
 
 **온라인 서비스** 범주에는 데이터 흐름에 대해 다음과 같은 사용 가능한 데이터 연결이 포함됩니다.
 
-* 앱용 Common Data Service
+* Amazon Redshift
+* Common Data Service for Apps
 * Microsoft Exchange Online
 * Salesforce 개체
 * Salesforce 보고서
@@ -154,12 +156,8 @@ Power BI 데이터 흐름 사용자 인터페이스에 표시되지 않지만 �
 
 다음 목록은 M 쿼리를 복사하여 빈 쿼리에 붙여넣어 현재 사용할 수 있는 커넥터를 보여줍니다.
 
-* Amazon Redshift
 * SAP Business Warehouse 
-* SAP HANA
-* Analysis Services
 * Azure 분석 서비스
-* Google 애널리틱스
 * Adobe Analytics
 * ODBC
 * OLE DB
@@ -170,7 +168,6 @@ Power BI 데이터 흐름 사용자 인터페이스에 표시되지 않지만 �
 * Azure HDInsight(HDFS)
 * Hadoop 파일 HDFS
 * Informix(베타)
-* Vertica
 
 Power BI 데이터 흐름에서 데이터 원본에 연결하는 데 필요한 작업을 마쳤습니다.
 

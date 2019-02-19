@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: eb1147875accff47b80dcdaf8a4051b57e627625
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: adeb3f09e52d039937ba3cf54afb72f8ed1287f3
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762631"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249163"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서: 고객의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -97,7 +97,7 @@ Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음
 
     <center>
 
-    | **MasterUser** </br> (Power BI Pro 라이선스) | **ServicePrincipal** </br> (앱 전용 토큰)|
+    | **MasterUser** <br> (Power BI Pro 라이선스) | **ServicePrincipal** <br> (앱 전용 토큰)|
     |---------------|-------------------|
     | [applicationId](#application-id) | [applicationId](#application-id) |
     | [workspaceId](#workspace-id) | [workspaceId](#workspace-id) |
@@ -139,11 +139,11 @@ Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음
 
 Power BI의 앱 작업 영역(그룹) GUID를 사용하여 **workspaceId** 정보를 입력합니다. Power BI 서비스에 로그인하거나 Powershell을 사용할 때 URL에서 이 정보를 가져올 수 있습니다.
 
-URL </br>
+URL <br>
 
 ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-Powershell </br>
+Powershell <br>
 
 ```powershell
 Get-PowerBIworkspace -name "App Owns Embed Test"
@@ -157,11 +157,11 @@ Get-PowerBIworkspace -name "App Owns Embed Test"
 
 Power BI의 보고서 GUID를 사용하여 **reportId** 정보를 입력합니다. Power BI 서비스에 로그인하거나 Powershell을 사용할 때 URL에서 이 정보를 가져올 수 있습니다.
 
-URL</br>
+URL<br>
 
 ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
-Powershell </br>
+Powershell <br>
 
 ```powershell
 Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport

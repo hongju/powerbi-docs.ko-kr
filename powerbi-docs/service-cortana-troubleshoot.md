@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d768956f26256bd06516981b2bae0ab17ef3ca90
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296320"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249048"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI용 Cortana 문제 해결
 이 문서는 시리즈의 일부입니다. 아직 읽지 않은 경우 다음 세 개의 문서를 읽는 것이 좋습니다.
@@ -79,7 +79,7 @@ Cortana를 Power BI와 통합하는 데 여전히 문제가 있는 경우 제대
 
    ![대답 카드](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
 
-   </br>
+   <br>
 
    ![Power BI의 대답 카드 탭](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
 4. 경우에 따라 처음으로 **Utterance** 필드에 입력하는 경우 아무 일도 발생하지 않습니다. 시스템 준비로 생각하세요. 문제 해결 도구에 작동할 시간이라고 알려주는 것입니다. **Utterance** 필드에 잘라내고 붙여넣거나 다시 입력합니다. 이 예에서 대답 카드의 이름은 **Cortana 저장소**입니다. 도구에 **Cortana 매장**을 붙여넣거나 입력하면 **설명** 필드에 표시되는 단일 결과를 생성합니다. Cortana 창에 표시된 대답 카드를 클릭하여 확인합니다(이 경우 **Cortana 매장**).

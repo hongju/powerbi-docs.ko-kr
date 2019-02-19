@@ -1,20 +1,20 @@
 ---
 title: Power BI Report Server에 최적화된 Power BI Desktop 설치
 description: Power BI Report Server에 최적화된 Power BI Desktop을 설치하는 방법에 대한 자세한 내용
-author: maggiesMSFT
-ms.author: maggies
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/24/2019
-ms.openlocfilehash: 63550950b21231909c32ac63f5f2930ebf93c0af
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 7abf679c663f9c71c277c74960fe65c9aee6568d
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762217"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324970"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 

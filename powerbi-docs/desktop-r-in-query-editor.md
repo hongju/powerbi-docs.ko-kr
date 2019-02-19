@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 35448142ecad249289542493261dfff612a348ad
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ccfc25496b7bfacaea21e70f93c662600ab9cf5f
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283348"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249002"
 ---
 # <a name="using-r-in-query-editor"></a>쿼리 편집기에서 R 사용
 Power BI Desktop **쿼리 편집기**에서 통계학자, 데이터 과학자 및 데이터 분석에 의해 널리 사용되는 프로그래밍 언어인 **R**을 사용할 수 있습니다. R을 **쿼리 편집기**에 통합하면 R을 사용하여 데이터 정리를 수행하고 누락된 데이터, 예측, 클러스터링을 완성하는 작업을 포함하여 데이터 세트에서 고급 데이터 셰이핑 및 분석을 수행할 수 있습니다. **R**은 강력한 언어이며 **쿼리 편집기**에서 사용하여 데이터 모델을 준비하고 보고서를 만들 수 있습니다.
@@ -44,11 +44,13 @@ Power BI Desktop의 **쿼리 편집기**에서 **R**을 사용하려면 로컬 �
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
 6. 이 예제에서는 다음 스크립트 코드를 입력합니다.
 
+    ```r
        library(mice)
        tempData <- mice(dataset,m=1,maxit=50,meth='pmm',seed=100)
        completedData <- complete(tempData,1)
        output <- dataset
        output$completedValues <- completedData$"SMI missing values"
+    ```
 
    > [!NOTE]
    > 이전의 스크립트 코드가 제대로 작동하려면 R 환경에 설치된 *mice* 라이브러리가 있어야 합니다. mice를 설치하려면 R 설치에서 다음 명령을 실행 합니다. |      > install.packages('mice')

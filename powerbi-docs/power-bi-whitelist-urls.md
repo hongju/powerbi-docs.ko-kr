@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 39a62950260789b50be034c2f55808e6991764db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294069"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249071"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>허용 목록의 Power BI URL
 
@@ -69,10 +69,10 @@ OneDrive와 같은 특정 데이터 원본에서 데이터를 가져오려면 �
 
 | 행 | 용도 | 대상 | 포트 |
 | --- | --- | --- | --- |
-| 1 | **필수:** AppSource(Power BI의 내부 또는 외부 앱) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
+| 1 | **필수:** AppSource(Power BI의 내부 또는 외부 앱) | appsource.microsoft.com <br> *.s-microsoft.com  | TCP 443 |
 | 2 | **선택 사항:** 로그인하고 콘텐츠 팩의 데이터 가져오기 | 사용되는 콘텐츠 팩에 따라 다름 | 사용되는 콘텐츠 팩에 따라 다름 |
 | 3 | **선택 사항:** 개인 OneDrive에서 파일 가져오기 | [OneDrive 사이트에 대한 필수 URL 및 포트](https://docs.microsoft.com/onedrive/required-urls-and-ports)를 참조하세요. | 해당 없음 |
-| 4 | **선택 사항:** Power BI(60초 후) 자습서 비디오 | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
+| 4 | **선택 사항:** Power BI(60초 후) 자습서 비디오 | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
 | 5 | **선택 사항:** PubNub 스트리밍 데이터 원본 | [PubNub 설명서](https://support.pubnub.com/support/solutions/articles/14000043522)를 참조하세요. | 해당 없음 |
 | | | |
 
@@ -91,8 +91,8 @@ Power BI는 특정 엔드포인트에 따라 사용자 지정 시각적 개체�
 
 | 행 | 용도 | 대상 | 포트 |
 | --- | --- | --- | --- |
-| 1 | **필수:** Marketplace 인터페이스 또는 파일에서 사용자 지정 시각적 개체 가져오기 | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **선택 사항:** Bing Maps | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
+| 1 | **필수:** Marketplace 인터페이스 또는 파일에서 사용자 지정 시각적 개체 가져오기 | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
+| 2 | **선택 사항:** Bing Maps | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **선택 사항:** PowerApps | PowerApps 시스템 요구 사항 사이트에서 [필수 서비스 섹션](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)을 참조하세요. | 해당 없음 |
 | 4 | **선택 사항:** Visio | [Office Online 및 일반 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)과 [SharePoint Online 및 비즈니스용 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business)에 대한 Office 365 설명서 참조 | 해당 없음 |
 | | | |
@@ -103,12 +103,12 @@ Power BI는 다른 관련 사이트에 연결됩니다. 이러한 사이트에�
 
 | 행 | 용도 | 대상 | 포트 |
 | --- | --- | --- | --- |
-| 1 | **선택 사항:** 커뮤니티 사이트 | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **선택 사항:** 설명서 사이트 | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
+| 1 | **선택 사항:** 커뮤니티 사이트 | community.powerbi.com <br> oxcrx34285.i.lithium.com | TCP 443 |
+| 2 | **선택 사항:** 설명서 사이트 | docs.microsoft.com <br> img-prod-cms-rt-microsoft-com.akamaized.net <br> statics-uhf-eas.akamaized.net <br> cdnssl.clicktale.net <br> ing-district.clicktale.net | TCP 443 |
 | 3 | **선택 사항:** 다운로드 사이트(Power BI Desktop 관련 사이트 등) | download.microsoft.com | TCP 443 |
-| 4 | **선택 사항:** 외부 리디렉션 | aka.ms </br> go.microsoft.com | TCP 443 |
-| 5 | **선택 사항:** 아이디어 피드백 사이트| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |
+| 4 | **선택 사항:** 외부 리디렉션 | aka.ms <br> go.microsoft.com | TCP 443 |
+| 5 | **선택 사항:** 아이디어 피드백 사이트| ideas.powerbi.com <br> powerbi.uservoice.com | TCP 443 |
 | 6 | **선택 사항:** Power BI 사이트 - 방문 페이지, 자세한 내용 링크, 지원 사이트, 다운로드 링크, 파트너 쇼케이스 등 | powerbi.microsoft.com | TCP 443 |
 | 7 | **선택 사항:** Power BI 개발자 센터 | dev.powerbi.com | TCP 443 |
-| 8 | **선택 사항:** 지원 사이트 | support.powerbi.com </br> s3.amazonaws.com </br> *.olark.com </br> logx.optimizely.com </br> mscom.demdex.net </br> tags.tiqcdn.com | TCP 443 |
+| 8 | **선택 사항:** 지원 사이트 | support.powerbi.com <br> s3.amazonaws.com <br> *.olark.com <br> logx.optimizely.com <br> mscom.demdex.net <br> tags.tiqcdn.com | TCP 443 |
 | | | |

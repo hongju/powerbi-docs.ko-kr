@@ -1,20 +1,20 @@
 ---
 title: '자습서: VM에서 Power BI Report Server 탐색'
 description: 이 자습서에서는 Power BI Report Server가 이미 설치된 가상 머신을 만들고 웹 포털을 탐색합니다.
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
-ms.author: maggies
-ms.openlocfilehash: 4eb9f5dc7e45006d1b5697f35b79d0e9d11fa2df
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: 098aa1cd2c031a200e3ce246890a467a6e15149d
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281393"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325085"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>자습서: VM에서 Power BI Report Server 웹 포털 탐색
 이 자습서에서는 샘플 Power BI 및 페이지를 매긴 보고서와 KPI를 표시, 편집 및 관리해 볼 수 있도록 Power BI Report Server가 이미 설치된 Azure 가상 머신을 만듭니다.

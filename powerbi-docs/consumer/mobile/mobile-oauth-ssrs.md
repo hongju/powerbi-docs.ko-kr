@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 0e57ce3b5acd638b9bab316108a8fd6f46b3b280
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 88d41750ef1cc32a17e1569b7104151e2f2407f1
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285786"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249094"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth를 사용하여 Power BI Report Server 및 SSRS에 연결
 Power BI Report Server 및 SQL Server Reporting Services 2016 이상에 연결하기 위해 Power BI 모바일 앱에서 OAuth 인증을 지원하도록 환경을 구성하는 방법을 알아봅니다.
@@ -58,7 +58,7 @@ SPN은 Kerberos 인증을 사용하는 서비스에 대한 고유한 식별자�
 ### <a name="enabling-negotiate-authentication"></a>협상 인증 사용
 Kerberos 인증을 사용하는 보고서 서버를 사용하려면 보고서 서버의 인증 유형이 RSWindowsNegotiate이 되도록 구성해야 합니다. 이 작업은 rsreportserver.config 파일 내에서 수행됩니다.
 
-```
+```xml
 <AuthenticationTypes>  
     <RSWindowsNegotiate />  
     <RSWindowsKerberos />  
@@ -161,7 +161,7 @@ Active Directory 내의 WAP 서버 컴퓨터 계정에서 제한된 위임을 �
 ### <a name="add-wap-application"></a>WAP 애플리케이션 추가
 보고서 액세스 관리 콘솔 내에서 애플리케이션을 게시하는 동안 PowerShell 통해 애플리케이션을 만들고자 합니다. 애플리케이션을 추가하는 명령은 다음과 같습니다.
 
-```
+```powershell
 Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
@@ -175,7 +175,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 ### <a name="setting-integrated-authentication-for-the-wap-application"></a>WAP 애플리케이션에 대한 통합된 인증 설정
 WAP 애플리케이션을 추가한 후에 IntegratedWindowsAuthentication을 사용하도록 BackendServerAuthenticationMode를 설정해야 합니다. 이를 설정하기 위해 WAP 애플리케이션에서 ID가 필요합니다.
 
-```
+```powershell
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
 ```
 
@@ -183,7 +183,7 @@ Get-WebApplicationProxyApplication “Contoso Reports” | fl
 
 WAP 애플리케이션의 ID를 사용하여 BackendServerAuthenticationMode를 설정하려면 다음 명령을 실행합니다.
 
-```
+```powershell
 Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -BackendServerAuthenticationMode IntegratedWindowsAuthentication
 ```
 

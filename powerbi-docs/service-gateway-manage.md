@@ -11,18 +11,18 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: ff9f75b216ba64dfdb0b8244bb99016d0edd4ede
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277000"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324866"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Power BI 온-프레미스 게이트웨이 관리
 
-[Power BI 데이터 게이트웨이를 설치](service-gateway-install.md)한 후 필요에 따라 관리합니다. 이 항목에서는 데이터 원본 및 사용자 추가 및 제거, 게이트웨이 다시 시작, 게이트웨이 마이그레이션, 복원, 인수 및 제거 방법에 대해 알아봅니다. 
+[Power BI 데이터 게이트웨이를 설치](service-gateway-install.md)한 후 필요에 따라 관리합니다. 이 항목에서는 데이터 원본 및 사용자 추가 및 제거, 게이트웨이 다시 시작, 게이트웨이 마이그레이션, 복원, 인수 및 제거 방법에 대해 알아봅니다.
 
-로컬 컴퓨터의 게이트웨이 앱에서 PowerShell 스크립트를 사용하여 Power BI 서비스의 **게이트웨이 관리** 영역을 통해 게이트웨이를 관리할 수 있습니다. 이 문서에서는 Power BI 서비스에 대해 중점적으로 설명합니다. 
+로컬 컴퓨터의 게이트웨이 앱에서 PowerShell 스크립트를 사용하여 Power BI 서비스의 **게이트웨이 관리** 영역을 통해 게이트웨이를 관리할 수 있습니다. 이 문서에서는 Power BI 서비스에 대해 중점적으로 설명합니다.
 
 게이트웨이를 방금 설치한 경우 다음으로 [데이터 원본을 추가](#add-a-data-source)하고 사용자가 데이터 원본에 액세스할 수 있도록 [사용자를 추가](#add-users-to-a-data-source)하는 것이 좋습니다.
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: a9827ccead960c789bb9c7b4c39dd15d86886207
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: aab20c4056310e1e8b737b23e07450b0e5d4959c
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430927"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249324"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>자습서: Power BI 사용자 지정 시각적 개체 개발
 
@@ -453,7 +453,7 @@ PowerShell에서 실행 중인 사용자 지정 시각적 개체를 중지하려
 9. PowerShell에서 사용자 지정 시각적 개체를 시작합니다.
 
     ```powershell
-    pbiviz
+    pbiviz start
     ```
 
 ### <a name="toggle-auto-reload"></a>자동 다시 로드 토글

@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
-ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
+ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "55971674"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248910"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI(미리 보기)를 포함하는 서비스 주체
 
@@ -53,7 +53,7 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
 
 인증에 대한 서비스 주체 및 표준 마스터 계정(Power BI Pro 라이선스)를 사용하는 것 사이에는 차이점이 있습니다. 아래 표는 몇 가지 중요한 차이점을 강조 표시합니다.
 
-| 함수 호출 | 마스터 사용자 계정 </br> (Power BI Pro 라이선스) | 서비스 주체 </br> (앱 전용 토큰) |
+| 함수 호출 | 마스터 사용자 계정 <br> (Power BI Pro 라이선스) | 서비스 주체 <br> (앱 전용 토큰) |
 |------------------------------------------------------|---------------------|-------------------|
 | Power BI 서비스에 로그인할 수 있습니다.  | 예 | 아니요 |
 | Power BI 관리 포털에서 사용하도록 설정 | 아니요 | 예 |
@@ -146,7 +146,7 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 
 2. 그런 다음, **로컬 디렉터리의 관리되는 애플리케이션**에서 만든 애플리케이션의 이름을 선택합니다.
 
-   ![로컬 디렉터리의 관리되는 애플리케이션](media/embed-service-principal/managed-application-in-local-directory.png)
+   ![로컬 디렉터리의 관리형 애플리케이션](media/embed-service-principal/managed-application-in-local-directory.png)
 
     > [!Note]
     > 위의 이미지에서 개체 ID는 서비스 주체와 함께 사용되는 것이 아닙니다.

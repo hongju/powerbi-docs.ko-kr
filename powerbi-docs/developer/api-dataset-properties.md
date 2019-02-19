@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 1f4dd67b76754f7eda19bd280dd5c9e454b34184
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d272914fc41c8bd4abc78ae36a46de9e53817c81
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762125"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248933"
 ---
 # <a name="dataset-properties"></a>데이터 세트 속성
 
@@ -90,7 +90,7 @@ Double     |  Double.MaxValue 및 Double.MinValue 값은 허용되지 않습니�
 ## <a name="example"></a>예제
 다음 코드 샘플에는 이러한 유형의 많은 속성이 있습니다.
 
-```
+```json
 {
 
   "name": "PushAdvanced",
