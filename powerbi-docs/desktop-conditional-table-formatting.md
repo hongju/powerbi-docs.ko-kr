@@ -29,13 +29,13 @@ ms.locfileid: "54292054"
 > [!NOTE]
 > 테이블에 적용되는 경우 조건부 서식 지정은 조건에 따라 서식 지정된 셀에 적용된 사용자 지정 테이블 스타일을 재정의합니다.
 
-시각화에서 조건부 서식 지정을 제거하려면 필드를 다시 마우스 오른쪽 단추로 클릭하고, **조건부 서식 지정 제거**를 선택한 다음, 제거할 서식 지정 형식을 선택합니다.
+시각화에서 조건부 서식 지정을 제거하려면 필드를 다시 마우스 오른쪽 단추로 클릭하고, **조건부 서식 제거**를 선택한 다음, 제거할 서식 지정 형식을 선택합니다.
 
 ![조건부 서식 제거 메뉴](media/desktop-conditional-table-formatting/table-formatting-1-remove.png)
 
 ## <a name="background-color-scales"></a>배경색 색조
 
-**조건부 서식 지정** 및 **배경색 눈금**을 차례로 선택하면 다음과 같은 대화 상자가 나타납니다.
+**조건부 서식** 및 **배경색**을 차례로 선택하면 다음과 같은 대화 상자가 나타납니다.
 
 ![배경색 눈금 대화 상자](media/desktop-conditional-table-formatting/table-formatting-1-default-dialog.png)
 
@@ -74,7 +74,7 @@ ms.locfileid: "54292054"
 
 ## <a name="font-color-scales"></a>글꼴색 색조
 
-**조건부 서식 지정** 및 **글꼴 색 눈금**을 차례로 선택하면 다음과 같은 대화 상자가 나타납니다. 이 대화 상자는 **배경 색 눈금** 대화 상자와 비슷하지만 셀 배경색이 아니라 글꼴 색을 변경합니다.
+**조건부 서식** 및 **글꼴색**을 차례로 선택하면 다음과 같은 대화 상자가 나타납니다. 이 대화 상자는 **배경색** 대화 상자와 비슷하지만 셀 배경색이 아니라 글꼴 색을 변경합니다.
 
 ![글꼴 색 눈금 대화 상자](media/desktop-conditional-table-formatting/table-formatting-2-diverging.png)
 
@@ -84,7 +84,7 @@ ms.locfileid: "54292054"
 
 ## <a name="data-bars"></a>데이터 막대
 
-**조건부 서식 지정** 및 **데이터 막대**를 차례로 선택하면 다음과 같은 대화 상자가 나타납니다. 
+**조건부 서식** 및 **데이터 막대**를 차례로 선택하면 다음과 같은 대화 상자가 나타납니다. 
 
 ![데이터 막대 대화 상자](media/desktop-conditional-table-formatting/table-formatting-3-default.png)
 
@@ -104,7 +104,7 @@ ms.locfileid: "54292054"
 
 ![색 이름을 포함한 ProductName 필드](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
 
-해당 필드 값을 기준으로 해당 셀의 서식을 지정하려면 해당 시각적 개체에 대한 *색*을 마우스 오른쪽 단추로 클릭하여 **조건부 서식 지정** 대화 상자를 선택하고 이 경우에는 **배경색**을 선택합니다. 
+해당 필드 값을 기준으로 해당 셀의 서식을 지정하려면 해당 시각적 개체에 대한 *Color*열을 마우스 오른쪽 단추로 클릭하여 **조건부 서식** 대화 상자를 선택하고 이 경우에는 **배경색**을 선택합니다. 
 
 ![메뉴에서 배경 색 선택](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
 
