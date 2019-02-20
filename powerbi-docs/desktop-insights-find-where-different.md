@@ -1,4 +1,4 @@
-﻿---
+---
 title: 인사이트를 사용하여 분포가 다른 곳 찾기(미리 보기)
 description: Power BI Desktop의 차트에서 분포가 다르게 보이는 곳을 찾을 수 있도록 인사이트를 쉽게 파악
 author: davidiseminger
