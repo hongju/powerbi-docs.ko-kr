@@ -30,7 +30,7 @@ X축 및 Y축과 슬라이서가 있는 시각적 개체는 반응에 따라 크
 1. Power BI Desktop의 이전 보고서에서는 **보기** 탭에서 **데스크톱 레이아웃**에 있는지 확인합니다.
    
     ![데스크톱 레이아웃 아이콘](media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
-2. 시각적 개체를 선택하고 **시각화** 창에서 **서식** 섹션을 선택합니다.
+2. 시각적 개체를 선택하고 **시각화** 창에서 **형식** 섹션을 선택합니다.
 3. **일반**을 확장하고 > **반응형**을 **켜기**로 밉니다.
    
     ![반응형 켜기](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
@@ -41,8 +41,8 @@ X축 및 Y축과 슬라이서가 있는 시각적 개체는 반응에 따라 크
 Power BI 서비스에 있는 이전 보고서의 시각적 개체에 대해 반응형을 켤 수 있습니다. 보고서를 편집할 수 있어야 합니다.
 
 1. Power BI 서비스([https://powerbi.com](https://powerbi.com))의 보고서에서 **보고서 편집**을 선택합니다.
-2. 시각적 개체를 선택하고 **시각화** 창에서 **서식** 섹션을 선택합니다.
-3. **일반**을 확장하고 > **반응형** 을 **켜기**로 밉니다.
+2. 시각적 개체를 선택하고 **시각화** 창에서 **형식** 섹션을 선택합니다.
+3. **일반**을 확장하고 > **반응형**을 **켜기**로 밉니다.
    
     ![반응형 켜기](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
