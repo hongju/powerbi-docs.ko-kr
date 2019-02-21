@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216519"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426726"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)
 
@@ -70,6 +70,8 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 **역할 할당 추가** 창에서 Power BI 서비스에 할당할 **독자** 역할을 선택합니다. 그런 다음, 검색을 사용하여 **Power BI 서비스**를 찾습니다. 다음 이미지는 Power BI 서비스에 할당된 **독자** 역할을 보여 줍니다.
 
 ![독자 역할에 할당된 Power BI 서비스](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
+
+참고: 포털에서 사용 권한을 최소 30분 동안 Power BI에 적용하도록 하세요. 포털에서 사용 권한을 변경하면 Power BI에서 다시 시도하는 데 동일한 내용을 반영하기 위해 30분을 기다려야 합니다. 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>Power BI용 파일 시스템 만들기

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb550bb2a009c5f227541db41a9bc45fc708d1e1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279047"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426634"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Power BI에서 데이터 흐름 만들기 및 사용(미리 보기)
 
@@ -155,6 +155,10 @@ Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 �
 * **Salesforce 커넥터** - 데이터 흐름과 함께 Salesforce 평가판 계정을 사용하면 제공된 정보가 없는 경우 연결이 실패합니다. 이 문제를 해결하려면 테스트에 프로덕션 Salesforce 계정 또는 개발자 계정을 사용하세요.
 
 * **SharePoint 커넥터** - 하위 폴더 또는 문서가 없는 SharePoint 사이트 루트 주소를 제공해야 합니다. 예를 들어 다음과 유사한 링크를 사용하세요. https://microsoft.sharepoint.com/teams/ObjectModel/ 
+
+* **JSON 파일 커넥터** - 현재 기본 인증만 사용하여 JSON 파일에 연결할 수 있습니다.  URL 내에서 자격 증명을 입력하여 JSON 파일에 연결(예: https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg..)하는 작업은 현재 지원되지 **않습니다**.  
+
+* **Azure SQL Data Warehouse** - 데이터 흐름은 현재 Azure SQL Data Warehouse에서 AAD(Azure Active Directory) 인증을 지원하지 않습니다. 이 시나리오에서 기본 인증을 사용하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

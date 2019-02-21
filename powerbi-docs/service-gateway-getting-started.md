@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0a2c1cb446a0a975a574f5d3f2684ddf80f4f273
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274723"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324487"
 ---
 # <a name="what-are-power-bi-gateways"></a>Power BI 게이트웨이란?
 
@@ -53,7 +53,7 @@ Power BI에서는 시나리오마다 각각 두 개의 게이트웨이를 제공
 쿼리 및 데이터 흐름:
 
 1. 쿼리는 온-프레미스 데이터 원본에 대한 암호화된 자격 증명을 사용하여 클라우드 서비스에 의해 만들어집니다. 그런 다음, 게이트웨이가 처리하도록 큐로 전송됩니다.
-2. 게이트웨이 클라우드 서비스는 쿼리를 분석하고 요청을 Azure Service Bus로 푸시합니다.
+2. 게이트웨이 클라우드 서비스는 쿼리를 분석하고 요청을 Azure Service Bus로 푸시합니다. Power BI는 Service Bus를 관리하므로 추가 비용이나 구성 단계가 필요하지 않습니다.
 3. 온-프레미스 데이터 게이트웨이는 대기 중인 요청에 대해 Azure Service Bus를 폴링합니다.
 4. 게이트웨이는 쿼리를 가져오고 자격 증명의 암호를 해독하며 해당 자격 증명을 사용하여 데이터 원본에 연결합니다.
 5. 게이트웨이는 실행에 대한 데이터 원본에 쿼리를 전송합니다.

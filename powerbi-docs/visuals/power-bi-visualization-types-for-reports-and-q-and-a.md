@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ee0063d5266c663079a9801777ee2c900957c52f
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: e77f4d6fe1963b3f229ef7f477fb86b7c5c26713
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234304"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426680"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
@@ -82,10 +82,12 @@ ms.locfileid: "55234304"
 
 자세한 내용은 [Power BI의 계기 차트](power-bi-visualization-radial-gauge-charts.md)를 참조하세요.
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+### <a name="key-influencers-chart"></a>주요 영향 요인 차트
+![주요 영향 요인](/visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers.png)
 
-A key influencer chart displays the major contributors to a selected result or value. -->
+주요 영향 요인 차트는 선택한 결과 또는 값에 대한 주요 기여자를 표시합니다.
+
+자세한 내용은 [Power BI의 주요 영향 요인 차트](power-bi-visualization-influencers.md)를 참조하세요.
 
 ### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)

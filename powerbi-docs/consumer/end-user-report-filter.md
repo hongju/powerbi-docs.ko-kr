@@ -1,5 +1,5 @@
 ---
-title: 보고서에 필터 추가
+title: 보고서 필터 창 둘러보기
 description: 소비자에 대한 Power BI 서비스의 보고서에 필터를 추가하는 방법
 author: mihart
 manager: kvivek
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1f1d3c410a74f7a015472deef79072fcefaf5e2e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 161f699014fcc342ba238cad38d28103f9a63991
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281876"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298940"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>보고서 필터 창 둘러보기
 이 문서에서는 Power BI 서비스의 보고서 필터 창에 대해 알아봅니다.

@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 12/14/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: df167f8693708c08bc44e935cff184917d8aaf54
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 26ba6d0ea23451863d05b13a79e57d483b15881f
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794318"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298848"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Power BI 서비스에서 보고서 또는 대시보드 구독 
 가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서 스냅숏을 전자 메일로 받은 편지함에 보냅니다. 매일, 매주 또는 데이터 새로 고침될 때 Power BI에게 이메일 수신 빈도를 알려줍니다. Power BI가 이메일을 보내거나 지금 실행되도록 특정 시간을 설정할 수도 있습니다.  
@@ -73,6 +73,7 @@ ms.locfileid: "55794318"
 Pro 라이선스가 만료되거나, 소유자가 대시보드 또는 보고서를 삭제하거나, 구독을 만드는 데 사용된 사용자 계정이 삭제된 경우 구독이 종료됩니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+* 25개가 넘는 고정된 타일 또는 4개의 고정된 라이브 보고서 페이지가 있는 대시보드는 사용자에게 전송된 구독 이메일에 완벽하게 렌더링되지 않을 수 있습니다. 이메일을 올바르게 렌더링되도록 하기 위해 고정된 타일을 25개 미만으로 줄이고 라이브 보고서를 4개 미만으로 줄이는 것이 좋습니다.  
 * 대시보드 이메일 구독의 경우 타일에 RLS(행 수준 보안)이 적용되면 해당 타일은 표시되지 않습니다.  보고서 이메일 구독의 경우 데이터 세트가 RLS를 사용하면 구독을 만들 수 없습니다.
 * 보고서 페이지 구독은 보고서 페이지의 이름과 연결됩니다. 보고서 페이지를 구독하고 이름을 바꾸면 구독을 다시 만들어야 합니다.
 * 구독 기능을 사용할 수 없는 경우 시스템 관리자에게 문의하세요. 조직에서 인증 또는 기타 이유로 이 기능을 사용하지 않도록 설정할 수 있습니다.  

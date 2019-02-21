@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430007"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408072"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>추가 구매 시 Power BI 시각적 개체에 대한 지침
 
@@ -22,6 +22,10 @@ ms.locfileid: "55430007"
 
 > [!Note]
 > 시각적 개체 인증을 받으려면 외부 서비스나 리소스에 액세스해서는 안됩니다.
+
+> [!Note]
+> 모든 무료 시각적 개체는 이전에 제공된 동일한 무료 기능을 유지해야 합니다. 이전 무료 기능을 기반으로 선택적 고급 유료 기능을 추가할 수 있습니다. 고급 기능을 갖춘 IAP 시각적 개체를 새 시각적 개체로 제출하고 이전 무료 버전을 업데이트하지 않는 것이 좋습니다.
+
 
 ## <a name="whats-changing-in-the-submission-process"></a>제출 프로세스에서 변경된 내용은 무엇인가요?
 

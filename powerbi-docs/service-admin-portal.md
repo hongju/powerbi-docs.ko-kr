@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086474"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408187"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -172,11 +172,11 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 > [!NOTE]
 > **데이터 내보내기**를 사용하지 않도록 설정하면 사용자는 Power BI 서비스 라이브 연결과 함께 **Excel에서 분석** 기능을 사용할 수 없습니다.
 
-### <a name="export-reports-as-powerpoint-presentations"></a>보고서를 PowerPoint 프레젠테이션으로 내보내기
+### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>PowerPoint 프레젠테이션 또는 PDF 문서로 보고서 내보내기
 
-조직의 사용자는 PowerPoint 파일로 Power BI 보고서를 내보낼 수 있습니다. [자세히 알아보기](consumer/end-user-powerpoint.md)
+조직의 사용자가 Power BI 보고서를 PowerPoint 파일 또는 PDF 문서로 내보낼 수 있습니다. [자세히 알아보기](consumer/end-user-powerpoint.md)
 
-다음 이미지는 **보고서를 PowerPoint 프레젠테이션으로 내보내기** 설정을 사용하도록 설정한 경우 보고서의 **파일** 메뉴를 보여 줍니다.
+다음 이미지는 **보고서를 PowerPoint 프레젠테이션 또는 PDF 문서로 내보내기** 설정을 사용하도록 설정한 경우 보고서의 **파일** 메뉴를 보여줍니다.
 
 ![보고서를 PowerPoint 프레젠테이션으로 내보내기](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -202,9 +202,9 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 
 ![조직에 콘텐츠 팩 게시](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>템플릿 조직 콘텐츠 팩 및 앱 만들기
+### <a name="create-template-apps"></a>템플릿 앱 만들기
 
-조직의 사용자는 Power BI Desktop에서 빌드된 데이터 세트를 사용하는 템플릿 콘텐츠 팩을 만들 수 있습니다. [자세히 알아보기](template-content-pack-authoring.md)
+조직의 사용자는 Power BI Desktop에서 빌드된 데이터 세트를 사용하는 템플릿 앱을 만들 수 있습니다. [템플릿 앱](template-content-pack-authoring.md)에 대해 자세히 알아보기
 
 ### <a name="push-apps-to-end-users"></a>최종 사용자에게 앱 푸시
 
@@ -301,6 +301,18 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 
 > [!NOTE]
 > 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
+
+## <a name="template-apps-settings-preview"></a>템플릿 앱 설정(미리 보기)
+
+두 가지 설정이 템플릿 앱을 제어합니다. 
+
+![Power BI 관리 포털 템플릿 앱 설정](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+
+첫 번째 설정인 **템플릿 앱 만들기**는 조직에서 템플릿 앱을 만들 수 있는 사람을 제어합니다. 템플릿 앱 작성자는 AppSource 또는 다른 배포 메서드를 통해 조직 외부의 클라이언트에 배포할 수 있습니다.
+
+![Power BI 관리 포털, 템플릿 앱 설정 만들기](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+
+두 번째 설정인 **템플릿 앱 설치**를 사용하면 AppSource 또는 다른 원본에서 템플릿 앱을 다운로드하여 설치할 수 있는 사람을 제어할 수 있습니다.
 
 ## <a name="capacity-settings"></a>용량 설정
 

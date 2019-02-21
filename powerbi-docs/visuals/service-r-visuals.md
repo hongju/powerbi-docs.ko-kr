@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48e1ddbc498e234c43bf755d3a23a2e10e4cc856
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290217"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426611"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 R 시각적 개체 만들기
 Power BI 서비스는 R 스크립트를 사용하여 만든 시각적 개체 보기 및 상호 작용을 지원합니다. 일반적으로 *R 시각적 개체* 라고 하는 R 스크립트를 사용하여 만든 시각적 개체는 R의 풍부한 분석 및 시각화 기능을 사용하여 예측과 같은 고급 데이터 셰이핑 및 분석을 제공할 수 있습니다.
@@ -33,7 +33,7 @@ R 시각적 개체는 다음 그림에 표시된 보고서와 같이 [Power BI D
 
 ![](media/service-r-visuals/r-visuals-service_2a.png)
 
-**Power BI Desktop**에서 보고서가 만들어지면 하나 이상의 R 시각적 개체를 포함하는 보고서를 Power BI 서비스에 게시할 수 있습니다. R 시각적 개체는 현재 **Power BI Desktop**에서 만든 다음 Power BI 서비스에 게시할 수 있습니다. R 시각적 개체 만들기에 대한 자세한 내용은 [R(Power BI Desktop)을 사용하여 Power BI 시각적 개체 만들기](../desktop-r-visuals.md)를 참조하세요.
+**Power BI Desktop**에서 보고서가 만들어지면 하나 이상의 R 시각적 개체를 포함하는 보고서를 Power BI 서비스에 게시할 수 있습니다. 현재 R 시각적 개체는 **Power BI Desktop**에서 만든 다음, Power BI 서비스에 게시할 수 있습니다. R 시각적 개체 만들기에 대한 자세한 내용은 [R(Power BI Desktop)을 사용하여 Power BI 시각적 개체 만들기](../desktop-r-visuals.md)를 참조하세요.
 
 서비스에서 R 패키지 중 일부만 지원됩니다. Power BI 서비스에서 현재 지원되는 패키지 목록은 이 문서의 끝에 지원되는 패키지를 참조하세요.
 
@@ -66,11 +66,19 @@ R 스크립트에 오류가 발생하면 R 시각적 개체가 그려지지 않�
 ## <a name="licensing"></a>라이선싱
 R 시각적 개체는 보고서, 새로 고침, 필터 및 교차 필터를 렌더링하는 데 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 라이선스가 필요합니다. Power BI Pro 라이선스 및 무료 라이선스와의 차이점에 대한 자세한 내용은 [Power BI Pro 콘텐츠란?](../service-premium.md)을 참조하세요.
 
-Power BI의 무료 사용자만 동료와 공유하는 타일을 사용할 수 있습니다. 자세한 내용은 [Power BI Pro 구매](../service-admin-purchasing-power-bi-pro.md)를 참조하세요.
+Power BI의 무료 사용자만 프리미엄 작업 영역에서 다른 사용자와 공유된 타일을 사용할 수 있습니다. 자세한 내용은 [Power BI Pro 구매](../service-admin-purchasing-power-bi-pro.md)를 참조하세요.
 
 다음 표는 라이선스를 기준으로 R 시각적 개체 기능을 설명합니다.
 
-![](media/service-r-visuals/r-visuals-service_6a.png)
+
+|  |Power BI Desktop에서 R 시각적 개체 작성  | R 시각적 개체로 PBI 서비스 보고서 만들기 |보고서의 R 시각적 개체 보기  | 대시보드의 R 타일 보기 |
+|---------|---------|---------|---------|--------|
+|**게스트**(Power BI embedded)     |  관련 없음|  관련 없음       | 지원되지 않음  | 관련 없음 |
+|**관리되지 않는 테넌트**(도메인 확인되지 않음) | 지원됨 | 지원되지 않음 |  지원되지 않음 |지원됨(B2B 시나리오) |
+|무료 라이선스로 **관리되는 테넌트**    |  지원됨       |  지원되지 않음       |    프리미엄 용량에서만 지원됨    | 지원됨 |
+Pro 라이선스로 **관리되는 테넌트**     |   지원됨      | 지원됨      | 지원됨    |지원됨|
+
+
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 Power BI 서비스의 R 시각적 개체에는 몇 가지 제한 사항이 있습니다.

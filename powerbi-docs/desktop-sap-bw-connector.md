@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 02/14/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f1ddcee1e39f8704eda7cc94cffb27c1a8b6b75f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c45900d98dfa25dd991ae0cee1f165a41964c51e
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290340"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324771"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop에서 SAP BW Connector 사용
 Power BI Desktop을 통해 **SAP BW(Business Warehouse)** 데이터에 액세스할 수 있습니다.
@@ -218,6 +218,29 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
    * BAPI_IOBJ_GETDETAIL
 
    이 문제를 해결하기 위해 사용자에게 *BAPI_IOBJ_GETDETAIL*뿐만 아니라 다양한 *MDPROVIDER* 모듈에 대한 액세스 권한이 있는지 확인하세요. 이 문제 또는 유사한 문제를 추가로 해결하려면 Power BI Desktop의 ‘옵션’ 내의 ‘진단’ 창에서 ‘추적 사용’을 선택합니다. 추적이 활성화되어 있는 동안 SAP BW에서 데이터를 검색하고 추적 파일에서 자세한 정보를 확인합니다.
+
+## <a name="sap-bw-connection-support"></a>SAP BW 연결 지원
+
+다음 표에서는 SAP BW에 대한 현재 지원을 자세히 설명합니다.
+
+
+
+|제품  |모드  |인증  |커넥터  |SNC 라이브러리  |지원됨  |
+|---------|---------|---------|---------|---------|---------|
+|Power BI Desktop     |임의         | 사용자 / 암호  | 애플리케이션 서버 | 해당 없음  | 예  |
+|Power BI Desktop     |임의         | Windows          | 애플리케이션 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |
+|Power BI Desktop     |임의         | 가장을 통한 Windows | 애플리케이션 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |
+|Power BI Desktop     |임의         | 사용자 / 암호        | 메시지 서버 | 해당 없음  | 예  |
+|Power BI Desktop     |임의         | Windows        | 메시지 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |
+|Power BI Desktop     |임의         | 가장을 통한 Windows | 메시지 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |
+|Power BI 게이트웨이     |가져오기      | Power BI Desktop과 동일 |         |   |   |
+|Power BI 게이트웨이     |DirectQuery | 사용자 / 암호        | 애플리케이션 서버 | 해당 없음  | 예  |
+|Power BI 게이트웨이     |DirectQuery | 가장을 통한 Windows(고정 사용자, SSO 없음) | 애플리케이션 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |
+|Power BI 게이트웨이     |DirectQuery | DirectQuery 쿼리에 대해 Kerberos를 통해 SSO 옵션 사용 | 애플리케이션 서버 | *해당 항목만* gsskrb5/gx64krb5   | 예  |
+|Power BI 게이트웨이     |DirectQuery | 사용자 / 암호        | 메시지 서버 | 해당 없음  | 예  |
+|Power BI 게이트웨이     |DirectQuery | 가장을 통한 Windows(고정 사용자, SSO 없음) | 메시지 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |
+|Power BI 게이트웨이     |DirectQuery | DirectQuery 쿼리에 대해 Kerberos를 통해 SSO 옵션 사용 | 메시지 서버 | sapcrypto + gsskrb5/gx64krb5  | 아니요  |
+
 
 
 ## <a name="next-steps"></a>다음 단계

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794841"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426772"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 시각화는 보고서, 대시보드, 앱 및 Q&A에서 찾을 수 있습니다. 이러한 시각화 유형 중 일부는 Power BI와 함께 패키지로 제공되며, 일부는 *사용자 지정 시각적 개체*입니다. 사용자 지정 시각적 개체는 Power BI 외부에서 생성되며, *보고서 디자이너*가 Power BI 보고서, 대시보드 및 앱에 추가할 수 있습니다. 
@@ -98,10 +98,12 @@ ms.locfileid: "55794841"
 - 단일 측정값의 상태 표시
 - 빠르게 훑어보고 이해할 수 있는 정보 표시
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+ ### <a name="key-influencers-chart"></a>주요 영향 요인 차트
+![주요 영향 요인](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
-A key influencer chart displays the major contributors to a selected result or value.  -->
+주요 영향 요인 차트는 선택한 결과 또는 값에 대한 주요 기여자를 표시합니다.
+
+주요 영향 요인을 통해 주요 메트릭에 영향을 주는 요인을 이해하도록 도울 수 있습니다. 예: *두 번째 주문하는 고객에게 영향을 주는 요인*또는*지난 6월 매출이 높은 이유* 
 
 ### <a name="kpis"></a>KPI
 ![KPI](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
@@ -171,7 +173,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 이를 통해 전반적인 데이터 세트에서 중요한 포인트에 대한 응답성, 표현 및 명확한 보존의 최적 조합을 보장할 수 있습니다.
 
 ### <a name="slicers"></a>슬라이서
-![슬라이서](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![slicer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 슬라이서는 페이지의 다른 시각적 개체를 필터링하는 데 사용할 수 있는 독립 실행형 차트입니다. 슬라이서는 다양한 형식(범주, 범위, 날짜 등)으로 제공되며 사용 가능한 값 중 하나, 여러 가지 또는 모두를 선택할 수 있도록 형식을 지정할 수 있습니다. 
 

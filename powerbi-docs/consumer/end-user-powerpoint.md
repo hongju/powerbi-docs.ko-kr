@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8dd9af8b44e74aafb97e3265b9ee1c32a05edc64
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9e1ed67302b3fc4d7bf990040259e9e4615794a5
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281554"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298917"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>보고서를 Power BI에서 PowerPoint로 내보내기
 Power BI를 사용하여 보고서를 **Microsoft PowerPoint**에 게시하고 Power BI 보고서에 따라 슬라이드 모음을 쉽게 만들 수 있습니다. **PowerPoint로 내보내는** 경우 다음이 발생합니다.
@@ -35,6 +35,10 @@ Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다.
 PowerPoint로 내보내려는 보고서가 캔버스에 표시되면 Power BI 서비스의 메뉴 모음에서 **파일 > PowerPoint로 내보내기**를 선택합니다.
 
 ![왼쪽의 탐색 모음과 선택한 내 작업 영역, 선택된 파일 드롭 다운](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+   
+**현재 보기** 또는 **기본 보기**를 선택할 수 있는 옵션이 있는 팝업이 표시됩니다.  **현재 보기**는 슬라이서 및 필터 값에 대한 활성 변경 내용을 포함하는 현재 상태의 보고서를 내보냅니다.  대부분의 사용자는 이 옵션을 선택합니다.  또는 **기본 보기**를 선택하면 보고서가 원래 상태(작성자가 공유한 대로)로 내보내지고 원래 상태로 변경한 내용이 반영되지 않습니다.
+    
+또한 보고서의 숨겨진 탭을 내보낼지 여부를 선택하는 확인란이 있습니다.  브라우저에서 표시되는 보고서 탭만 내보내려면 이 상자를 선택하면 됩니다.  모든 숨겨진 탭을 내보내기의 일부로 제공하려면 이를 선택 취소 상태로 둡니다.  확인란이 회색으로 표시되면 보고서에 숨겨진 탭이 없습니다.  선택 항목을 만든 후 **내보내기**를 클릭하여 계속 진행합니다.
 
 보고서를 PowerPoint로 내보내는 Power BI 서비스 브라우저 창의 상단 오른쪽 모서리에 알림 배너가 표시됩니다. 이 작업은 몇 분 정도 걸릴 수 있으며 보고서를 내보내는 동안 Power BI에서 계속 작업할 수 있습니다.
 
@@ -74,7 +78,6 @@ Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소�
 ## <a name="limitations"></a>제한 사항
 **PowerPoint로 내보내기** 기능을 사용하는 경우 염두해야 할 고려 사항 및 제한 사항이 있습니다.
 
-* PowerPoint로 내보낼 때 강조 표시, 필터링, 드릴다운 등 세션 내 대화형 작업은 아직 지원되지 않습니다. 내보낸 PowerPoint는 보고서에 저장된 대로 원래 시각적 개체를 보여 줍니다. 필터 및 슬라이서를 적용했고 내보내기에서 이를 보존하려면 보고서를 저장한 후 내보내기를 수행합니다.
 * **R 시각적 개체**는 현재 지원되지 않습니다. 이러한 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
 * **인증된** **사용자 지정 시각적 개체**가 지원됩니다. 사용자 지정 시각적 개체를 인증하는 방법을 비롯한 인증된 사용자 지정 시각적 개체에 대한 자세한 내용은 [사용자 지정 시각적 개체 인증하기](../power-bi-custom-visuals-certified.md)를 참조하세요. 인증되지 않았거나 지원되지 않는 사용자 지정 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
 * 30개 이상의 보고서 페이지를 포함하는 보고서는 현재 내보낼 수 없습니다.

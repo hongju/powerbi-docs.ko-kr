@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a7c9c72dfbb75958be3119db61fa3aa03ac89171
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 09539bfd26685ffdd9866810b566699e5cdb4a41
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430950"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408118"
 ---
 # <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI 서비스의 보고서 또는 대시보드에 자신과 다른 사용자 구독
 
@@ -60,12 +60,10 @@ Power BI 서비스에만 구독을 만들 수 있습니다. 보고서 페이지 
 7. **저장 후 닫기**를 선택합니다. 구독한 사용자는 선택한 빈도와 시간에 대한 대시보드 또는 보고서 페이지의 이메일과 스냅숏을 수신합니다. 전체적으로 보고서 또는 대시보드당 최대 24개의 구독을 만들 수 있으며, 각 구독마다 고유한 수신자, 시간 및 빈도를 제공할 수 있습니다.  대시보드 또는 보고서에 대해 **데이터 새로 고침 후**로 설정된 모든 구독은 첫 번째 예약된 새로 고침 이후에도 계속 이메일만 보냅니다.   
       
    > [!TIP]
-   > 전자 메일을 지금 바로 보시겠습니까? 대시보드와 연결된 데이터 세트 또는 보고서와 연결된 데이터 세트 중 하나를 새로 고쳐 이메일을 트리거합니다. 데이터 세트에 대한 편집 권한이 없는 경우 해당 권한이 있는 사람에게 데이터 새로 고침을 요청해야 합니다. 관련 데이터 세트를 보려면 **관련 항목 보기** 아이콘 ![관련 항목 보기 아이콘](media/service-report-subscribe/power-bi-view-related.png)을 선택하여 **관련 콘텐츠**를 연 다음, 새로 고침 아이콘 ![새로 고침 아이콘](media/service-report-subscribe/power-bi-refresh.png)을 선택합니다. 
+   > 언제든지 즉시 구독 또는 주문형으로 이메일을 보내시겠습니까? 보낼 대시보드 또는 보고서의 구독에 대해 **지금 실행**을 선택합니다. 해당 특정 구독에 대한 모든 사용자에게 이메일이 전송된다는 알림이 표시됩니다.  원하는 만큼 이 작업을 자주 수행할 수 있습니다. 보고서 또는 대시보드당 하루 24회 예약된 구독 실행의 제한에 포함되지 않습니다. 이는 기본 데이터 세트의 데이터 새로 고침을 트리거하지 않습니다. 
    > 
    > 
    
-   ![관련 데이터 세트](media/service-report-subscribe/power-bi-view-related-screen.png)
-
 ## <a name="email-languages"></a>이메일 언어
 
 이메일 및 스냅숏은 Power BI 설정에 설정된 언어를 사용합니다([Power BI에 지원되는 언어 및 국가/지역](supported-languages-countries-regions.md) 참조). 언어가 정의되지 않은 경우 Power BI는 현재 브라우저의 로캘 설정에 따른 언어를 사용합니다. 언어 기본 설정을 보거나 설정하려면 기어 아이콘 ![기어 아이콘](media/service-report-subscribe/power-bi-settings-icon.png) > **설정 > 일반 > 언어**를 선택합니다. 
@@ -84,6 +82,7 @@ Power BI 서비스에만 구독을 만들 수 있습니다. 보고서 페이지 
 Pro 라이선스가 만료되거나 소유자가 대시보드 또는 보고서를 삭제하거나 구독을 만드는 데 사용된 사용자 계정이 삭제되면 구독이 종료됩니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+* 25개가 넘는 고정된 타일 또는 4개의 고정된 라이브 보고서 페이지가 있는 대시보드는 사용자에게 전송된 구독 이메일에 완벽하게 렌더링되지 않을 수 있습니다.  하지만 이러한 수의 타일을 통한 대시보드 구독은 차단되지 않지만 문제가 발생하면 지원되지 않는 것으로 간주되므로 지원되는 범주 내에서 적절하게 수정해야 합니다.
 * 대시보드 이메일 구독의 경우 타일에 RLS(행 수준 보안)가 적용되면 해당 타일은 표시되지 않습니다.  보고서 이메일 구독의 경우 데이터 세트가 RLS를 사용하면 구독을 만들 수 없습니다.
 * 보고서 페이지 구독은 보고서 페이지의 이름과 연결됩니다. 보고서 페이지를 구독한 다음, 이름을 바꾸면 구독을 다시 만들어야 합니다.
 * 조직은 Power BI에서 메일 구독을 사용하는 기능을 제한하는 Azure Active Directory에서 특정 설정을 구성할 수 있습니다.  이러한 제한 사항에는 리소스에 액세스할 때 다단계 인증 또는 IP 범위 제한 사항이 포함되지만 이에 국한되지는 않습니다.

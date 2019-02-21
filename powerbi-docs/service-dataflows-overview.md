@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/10/2019
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 68d350035732d8335079bf76a859919d696e2721
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 5e1bd67ba14ed35a97d91e5ed76f7a3bd8de56ea
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223677"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324834"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI의 셀프 서비스 데이터 준비(미리 보기)
 
@@ -52,6 +52,9 @@ Power BI는 조직이 여러 원본의 데이터를 통합하고 모델링을 �
 ## <a name="how-to-use-dataflows"></a>데이터 흐름 사용 방법
 
 이전 섹션에서는 데이터 흐름을 사용하여 빠르게 Power BI에서 강력한 분석을 만들 수 있는 몇 가지 방법을 설명했습니다. 이 섹션에서는 조직에서 데이터 흐름을 사용하여 빠르게 인사이트를 만들 수 있는 방법을 살펴보고 BI Pro가 고유한 데이터 흐름을 만들고 고유한 조직에 대해 인사이트를 사용자 지정할 수 있는 방법을 간략하게 알아봅니다.
+
+> [!NOTE]
+> Power BI Pro 또는 Power BI Premium 계정과 같은 데이터 흐름을 사용하려면 유료 Power BI 계정이 있어야 하지만 데이터 흐름 사용에 대해서는 별로도 요금이 부과되지 않습니다. 
 
 ### <a name="extend-the-common-data-model-for-your-business-needs"></a>비즈니스 요구 사항에 맞게 공통 데이터 모델 확장
 CDM(공통 데이터 모델)을 확장하려는 조직의 경우 데이터 흐름을 사용하면 비즈니스 인텔리전스 전문가가 표준 엔터티를 사용자 지정하거나 새 엔터티를 만들 수 있습니다. 데이터 모델을 사용자 지정하는 이러한 셀프 서비스 접근 방식을 데이터 흐름과 함께 사용하여 조직에 맞는 앱과 Power BI 대시보드를 빌드할 수 있습니다.

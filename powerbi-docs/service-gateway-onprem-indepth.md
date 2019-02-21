@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279323"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325017"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>온-프레미스 데이터 게이트웨이 심층 분석
 조직의 사용자는 온-프레미스 데이터(이미 액세스 권한이 있는)에 액세스할 수 있지만 그러한 사용자가 온-프레미스 데이터 원본에 연결할 수 있기 전에 온-프레미스 데이터 게이트웨이를 설치하고 구성해야 합니다. 게이트웨이를 사용하면 클라우드의 사용자로부터 온-프레미스 데이터 원본으로, 다시 클라우드로 빠르고 안전하게 백그라운드에서 통신할 수 있습니다.
@@ -90,7 +90,7 @@ Azure AD Connect를 사용하면 UPN이 AAD와 로컬 Active Directory 간에 �
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>이제 게이트웨이가 들어오는 위치입니다.
-게이트웨이는 클라우드와 온-프레미스 서버 사이의 브리지 역할을 합니다. 클라우드와 게이트웨이 간의 데이터 전송은 [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview)를 통해 보안이 설정됩니다. Service Bus는 아웃바운드 연결을 통해 게이트웨이에서 클라우드와 온-프레미스 서버 사이에 보안 채널을 만듭니다.  온-프레미스 방화벽에서 열어야 하는 인바운드 연결이 없습니다.
+게이트웨이는 클라우드와 온-프레미스 서버 사이의 브리지 역할을 합니다. 클라우드와 게이트웨이 간의 데이터 전송은 [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview)를 통해 보안이 설정됩니다. Service Bus는 아웃바운드 연결을 통해 게이트웨이에서 클라우드와 온-프레미스 서버 사이에 보안 채널을 만듭니다.  온-프레미스 방화벽에서 열어야 하는 인바운드 연결이 없습니다. Power BI는 Service Bus를 관리하므로 추가 비용이나 구성 단계가 필요하지 않습니다.
 
 Analysis Services 데이터 원본이 있으면 Analysis Services 서버와 동일한 포리스트/도메인에 조인된 컴퓨터에 게이트웨이를 설치해야 합니다.
 

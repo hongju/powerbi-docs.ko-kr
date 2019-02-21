@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7446cb9db0f4ebbb20e316365263fa6f09de71bb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55448224"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426565"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ
 
@@ -29,7 +29,7 @@ Power BI는 SaaS(Software as a Service)로 완전 관리형 소프트웨어입�
 
 Power BI는 비즈니스 연속성을 보장하기 위해 Azure 데이터 센터(지역이라고도 함)의 각 구성 요소의 여러 인스턴스를 유지 관리합니다. 가동 중단 또는 Power BI가 한 지역에서 액세스할 수 없거나 제대로 작동할 수 없는 문제가 있는 경우, Power BI는 해당 지역의 모든 구성 요소를 백업 인스턴스로 가져오지 못합니다. 장애 조치(failover)는 새 지역에서 Power BI 서비스 인스턴스에 대한 가용성과 작동성을 복원합니다(일반적으로 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)에 명시된 것과 동일한 지리적 위치 내에 있음).
 
-장애 조치(failover) Power BI 서비스 인스턴스는 _읽기 작업_만 지원합니다. 즉, 장애 조치(failover) 중에는 새로 고침, 보고서 게시 작업, 대시보드 또는 보고서 수정 및 Power BI 메타데이터 변경(예: 보고서에 주석 삽입)이 필요한 기타 작업이 지원되지 않습니다.  대시보드 표시 및 보고서 표시와 같은 작업(온-프레미스 데이터 원본에 대한 Live Connect의 직접 쿼리를 기반으로 하지 않음)은 계속 정상적으로 작동합니다.
+장애 조치(failover) Power BI 서비스 인스턴스는 _읽기 작업_만 지원합니다. 즉, 장애 조치(failover) 중에는 새로 고침, 보고서 게시 작업, 대시보드 또는 보고서 수정 및 Power BI 메타데이터 변경(예: 보고서에 주석 삽입)이 필요한 기타 작업이 지원되지 않습니다.  대시보드 표시 및 보고서 표시와 같은 작업(온-프레미스 데이터 원본에 대한 DirectQuery 또는 Live Connect를 기반으로 하지 않음)은 계속 정상적으로 작동합니다.
 
 ## <a name="how-are-backup-instances-kept-in-sync-with-my-data"></a>백업 인스턴스를 데이터와 동기화하는 방법은?
 

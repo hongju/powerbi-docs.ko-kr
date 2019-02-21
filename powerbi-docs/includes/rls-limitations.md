@@ -1,3 +1,16 @@
+---
+author: mgblythe
+ms.service: powerbi
+ms.topic: include
+ms.date: 02/15/2019
+ms.author: mblythe
+ms.openlocfilehash: 44ef0aa9d436f3a8a02f9a6b831847d5c996558a
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56333909"
+---
 ## <a name="limitations"></a>제한 사항
 
 다음은 클라우드 모델의 행 수준 보안에 대한 현재 제한 목록입니다.
@@ -8,7 +21,7 @@
 
 * ETL 및 DirectQuery 연결만이 지원됩니다. Analysis Services에 대한 라이브 연결은 온-프레미스 모델에서 처리됩니다.
 
-* 이 때 질문 및 답변과 Cortana는 RLS로 지원되지 않습니다. 모든 모델에서 RLS이 구성되어 있는 경우 대시보드에 대한 질문 및 답변 입력 상자가 표시되지 않습니다. 이는 로드맵 상에 있지만, 타임라인은 사용할 수 없습니다.
+* 현재 Cortana는 RLS로 지원되지 않습니다.
 
 ## <a name="known-issues"></a>알려진 문제
 

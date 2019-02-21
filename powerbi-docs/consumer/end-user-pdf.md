@@ -8,15 +8,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c18257f1f4e4e3f325c8d4d895e3b6abf88e900c
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 1aaa57006b9a5aac2b077d3326ed6a39e6a4206d
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794997"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298871"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>보고서를 Power BI에서 PDF로 내보내기
 Power BI를 사용하면 보고서를 PDF 형식으로 게시하고 Power BI 보고서를 기반으로 문서를 쉽게 만들 수 있습니다. **PDF로 내보낼** 때 Power BI 보고서의 각 페이지는 PDF 문서에 개별 페이지가 됩니다.
@@ -28,6 +28,10 @@ Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다.
 
     ![메뉴 모음에서 파일을 선택하고 PDF로 내보내기를 가리키는 화살표를 선택합니다.](media/end-user-pdf/power-bi-export-pdf.png)
 
+    **현재 보기** 또는 **기본 보기**를 선택할 수 있는 옵션이 있는 팝업이 표시됩니다.  **현재 보기**는 슬라이서 및 필터 값에 대한 활성 변경 내용을 포함하는 현재 상태의 보고서를 내보냅니다.  대부분의 사용자는 이 옵션을 선택합니다.  또는 **기본 보기**를 선택하면 보고서가 원래 상태(작성자가 공유한 대로)로 내보내지며, 변경 내용은 해당 원래 상태로 반영되지 않습니다.
+    
+    또한 보고서의 숨겨진 탭을 내보낼지 여부를 선택하는 확인란이 있습니다.  브라우저에서 표시되는 보고서 탭만 내보내려면 이 상자를 선택하면 됩니다.  모든 숨겨진 탭을 내보내기의 일부로 제공하려면 이를 선택 취소 상태로 둡니다.  확인란이 회색으로 표시되면 보고서에 숨겨진 탭이 없습니다.  선택 항목을 만든 후 내보내기 단추를 클릭하여 계속 진행합니다.
+    
     진행률 표시줄이 오른쪽 위 모서리에 표시됩니다. 내보내는 데 몇 분 정도 걸릴 수 있으며 보고서를 내보내는 동안 Power BI에서 계속 작업할 수 있습니다.
 
     ![내보내기 진행 메시지](media/end-user-pdf/power-bi-export-message.png)
@@ -43,8 +47,6 @@ Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다.
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 **PDF로 내보내기** 기능을 사용하는 경우 염두해야 할 고려 사항과 제한 사항이 있습니다.
-
-- PDF로 내보낼 때 강조 표시, 필터링, 드릴다운 등 세션 내 대화형 작업은 아직 지원되지 않습니다. 내보낸 PDF는 보고서에 저장된 대로 원래 시각적 개체를 보여줍니다. 필터 및 슬라이서를 적용한 후 내보내기에서 이를 보존하려면 보고서를 저장한 다음, 내보내기를 수행합니다.
 
 * **R 시각적 개체**는 현재 지원되지 않습니다. PDF에서 이러한 시각적 개체는 공백이 되고 오류 메시지를 표시합니다.  
 

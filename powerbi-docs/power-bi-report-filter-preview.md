@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 02/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: b130ccbe6b3fe6fa09b9a4c4efe388f79350c500
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482709"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298825"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI 보고서의 새 필터 환경(미리 보기)
 
 이 문서에서는 새 필터 환경을 설명합니다. Power BI의 필터에 새 기능과 새 디자인이 추가됩니다. Power BI Desktop 또는 Power BI 서비스에서 보고서를 디자인할 때 [필터] 창을 전체 보고서처럼 보이게 만들고 전체 보고서와 작동하도록 만들 수 있습니다. 새 환경에서 이전 [필터] 창은 필터 편집 창으로 작동하며 새 [필터] 창은 보고서 소비자에게만 표시됩니다. 
  
 ![기본 보기(추가 사용자 지정이 적용되지 않음)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
+
+> [!NOTE]
+> 새 필터 환경은 미리 보기 상태입니다. 새 빌드는 이미 설정한 서식을 재정의할 수 있습니다.
 
 보고서 디자이너가 새 필터로 수행할 수 있는 작업은 다음과 같습니다.
 
@@ -83,6 +86,7 @@ Power BI Desktop을 다시 시작한 후에는 사용자가 만드는 모든 새
 - 배경 투명도
 - 필터 창 테두리 설정 또는 해제
 - 필터 창 테두리 색
+- 필터 창 제목 및 머리글 글꼴, 색 및 텍스트 크기
 
 적용 여부(설정됨) 또는 가용성(해제됨)에 따라 필터 카드에 대해 이러한 요소의 서식을 지정할 수도 있습니다. 
 
@@ -90,6 +94,8 @@ Power BI Desktop을 다시 시작한 후에는 사용자가 만드는 모든 새
 - 배경 투명도
 - 테두리: 설정 또는 해제
 - 테두리 색
+- 글꼴, 색 및 텍스트 크기
+- 입력 상자 색
 
 ### <a name="set-the-format-for-the-filters-pane-and-cards"></a>필터 창 및 카드의 서식 설정
 
@@ -100,11 +106,11 @@ Power BI Desktop을 다시 시작한 후에는 사용자가 만드는 모든 새
 
 1. **필터 창**을 확장하여 배경, 아이콘 및 왼쪽 테두리의 색을 설정하여 보고서 페이지를 보완합니다.
 
-    ![필터 창 확장](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
+    ![필터 창 확장](media/power-bi-report-filter-preview/power-bi-filter-format-pane-font.png)
 
 1. **필터 카드**를 확장하여 **사용 가능** 및 **적용됨** 색과 테두리를 설정합니다. 사용 가능한 카드와 적용된 카드의 색을 다르게 만들면 적용되는 필터가 명확해집니다. 
   
-    ![필터 카드 확장](media/power-bi-report-filter-preview/power-bi-filter-format-card.png)
+    ![필터 카드 확장](media/power-bi-report-filter-preview/power-bi-filter-format-card-font.png)
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>읽기 모드에 시각적 개체의 필터 보기
 

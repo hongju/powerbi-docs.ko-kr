@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0418016fd7a194ff2e37e979219b97e94520f9ae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282106"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408141"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI 사용자 지정 시각적 개체에 대한 질문과 대답
 
@@ -98,6 +98,9 @@ IAP 사용자 지정 시각적 개체를 사용하고 있거나 이미 가지고
 사용자 지정 시각적 개체에 로고가 있으면 로고 지침(색, 위치, 크기 및 작업 트리거링)을 준수하는지 확인합니다.
 
 또한 지침, 모범 사례 참고 사항을 찾을 수도 있습니다.  
+> [!Note]
+> 모든 무료 시각적 개체는 이전에 제공된 동일한 무료 기능을 유지해야 합니다. 이전 무료 기능을 기반으로 선택적 고급 유료 기능을 추가할 수 있습니다. 고급 기능을 갖춘 IAP 시각적 개체를 새 시각적 개체로 제출하고 이전 무료 버전을 업데이트하지 않는 것이 좋습니다.
+
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>내 IAP 사용자 지정 시각적 개체를 인증받을 수 있나요?
 

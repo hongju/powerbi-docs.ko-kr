@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: b48feeaacc5ec0beff3b9b250f22b1aa605de9f7
-ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
+ms.openlocfilehash: f4e6f0204ed9832a3ed3c3ed8347a44300f606df
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55068054"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249393"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 이제 [앱에 대한 기본 이해](end-user-apps.md)을 했으므로, 앱을 열고 상호 작용하는 방법에 대해 알아보겠습니다. 
@@ -25,7 +25,7 @@ ms.locfileid: "55068054"
 
 모바일 디바이스의 Power BI에서는 AppSource가 아닌 직접 링크를 통해서만 설치할 수 있습니다. 앱 작성자가 앱을 자동 설치할 경우 앱 목록이 표시됩니다.
 
-### <a name="install-an-app-from-a-direct-link"></a>직접 링크에서 앱 설치 
+## <a name="install-an-app-from-a-direct-link"></a>직접 링크에서 앱 설치 
 새 앱을 설치하는 가장 쉬운 방법은 앱 작성자가 이메일로 직접 링크를 받는 것입니다.  
 
 **컴퓨터에서** 
@@ -40,8 +40,8 @@ ms.locfileid: "55068054"
 
 ![모바일 디바이스의 앱 콘텐츠 목록](./media/end-user-app-view/power-bi-app-index-it-spend-360.png)
 
-### <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource에서 앱 가져오기
-Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스한 앱(즉, 앱 작성자가 귀하에게 권한을 제공했거나 모든 사용자에게 부여한 앱)만 표시됩니다.
+## <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource에서 앱 가져오기
+Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스할 수 있는 앱(즉, 앱 작성자가 귀하에게 권한을 부여했거나 모든 사용자에게 부여한 앱)만 표시됩니다.
 
 1. **앱** ![왼쪽 탐색 창의 앱](./media/end-user-apps/power-bi-apps-bar.png) > **앱 가져오기**를 선택합니다. 
    
