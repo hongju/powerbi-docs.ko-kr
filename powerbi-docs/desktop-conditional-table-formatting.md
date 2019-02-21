@@ -104,7 +104,7 @@ ms.locfileid: "54292054"
 
 ![색 이름을 포함한 ProductName 필드](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
 
-해당 필드 값을 기준으로 해당 셀의 서식을 지정하려면 해당 시각적 개체에 대한 *Color*열을 마우스 오른쪽 단추로 클릭하여 **조건부 서식** 대화 상자를 선택하고 이 경우에는 **배경색**을 선택합니다. 
+해당 필드 값을 기준으로 해당 셀의 서식을 지정하려면 해당 시각적 개체에 대한 *색*을 마우스 오른쪽 단추로 클릭하여 **조건부 서식** 대화 상자를 선택하고 이 경우에는 **배경색**을 선택합니다. 
 
 ![메뉴에서 배경 색 선택](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
 
