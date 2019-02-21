@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: bdb9e2dcf5e8e22aaaa3bf35035b746777a387b9
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40126627"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249140"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure의 Power BI Embedded에 대한 진단 로깅
 
@@ -114,13 +114,13 @@ PowerShell을 사용하여 메트릭 및 진단 로깅을 사용하도록 설정
 |    Audit Logout    |    추적이 시작된 후 엔진 이벤트의 모든 연결 끊기를 기록합니다.    |
 |    오류    |    추적이 시작된 후 모든 엔진 오류 이벤트를 기록합니다.    |
 
-</br>
-</br>
+<br>
+<br>
 
 | 속성 이름 | Vertipaq Query End Example | 속성 설명 |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | 이벤트 분류에 사용되는 이벤트 클래스입니다. |
-| EventSubclass | 0 | 이벤트 하위 클래스는 각 이벤트 클래스에 대한 추가 정보를 제공합니다. (예: 0: VertiPaq Scan) |
+| EventSubclass | 0 | 이벤트 하위 클래스는 각 이벤트 클래스에 대한 추가 정보를 제공합니다. (예: 0: VertiPaq 검사) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | 루트 활동 ID입니다. |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | 이벤트가 시작된 시간입니다(사용 가능한 경우). |
 | StartTime | 2018-04-06T18:30:11.9137358Z | 이벤트가 시작된 시간입니다(사용 가능한 경우). |

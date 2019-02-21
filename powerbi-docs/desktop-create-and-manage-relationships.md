@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f8b9f775b43f2c1b26b7ef56c5bb0985fc3f7ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d4f1936f02edf4ece60b4761d4e541801384a5d2
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292060"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249347"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop에서 관계 만들기 및 관리
 여러 테이블을 가져올 때 이러한 모든 테이블의 데이터를 사용하여 분석을 수행하려는 경우가 있습니다. 결과를 정확하게 계산하고 보고서에 올바른 정보를 표시하려면 테이블 간의 관계가 필요합니다. Power BI Desktop에서는 이러한 관계를 쉽게 만들 수 있습니다. 실제로 아무 작업도 수행할 필요가 없는 경우가 대부분입니다. 자동 검색 기능이 자동으로 작업을 수행할 수 있습니다. 그러나 경우에 따라 직접 관계를 만들어야 하거나 관계를 일부 변경해야 할 수 있습니다. 어떤 경우든지 Power BI Desktop에서의 관계 및 관계를 만들고 편집하는 방법을 이해하는 것이 중요합니다. 
@@ -58,6 +58,8 @@ ms.locfileid: "54292060"
 **다대일(\*:1)** - 가장 일반적인 기본 형식입니다. 이는 한 테이블의 열은 둘 이상의 값 인스턴스를 가질 수 있고, 다른 관련 테이블(조회 테이블이라고도 함)은 하나의 값 인스턴스만 가질 수 있음을 의미합니다.
 
 **일대일(1:1)** - 이는 한 테이블의 열과 다른 관련 테이블이 하나의 특정 값 인스턴스만 가질 수 있음을 의미합니다.
+
+**다 대 다 관계**: 복합 모델을 사용하면 테이블 간에 다 대 다 관계를 설정할 수 있습니다. 이 방법은 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계 설정 목적으로만 새 테이블을 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [다 대 다 카디널리티와의 관계](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)를 참조하세요. 
 
 카디널리티를 변경하는 경우에 대한 자세한 내용은 이 아티클의 뒷부분에 있는 추가 옵션 이해 섹션을 참조하세요.
 
