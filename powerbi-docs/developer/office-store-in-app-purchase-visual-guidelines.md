@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 4cbd17a08a8cb7c7253f60f29a19341598c9800f
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408072"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426542"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>추가 구매 시 Power BI 시각적 개체에 대한 지침
 
@@ -33,7 +33,10 @@ ms.locfileid: "56408072"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>IAP 기능이 포함된 Power BI 시각적 개체란?
 
-IAP 시각적 개체는 무료 시각적 개체이며 무료 기능을 제공하지만, 추가 요금이 부과될 수 있는 추가 기능도 있습니다. 개발자는 작동을 위해 추가 구매가 필요한 기능에 대한 시각적 개체의 설명을 사용자에게 알려야 합니다. 현재 Microsoft는 앱에서 바로 구매 및 추가 기능을 지원하는 네이티브 API(애플리케이션 프로그래밍 인터페이스)를 제공하지 않습니다. 개발자는 해당 구매에 대해 타사 지불 시스템을 사용할 수 있습니다. 스토어 [정책](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)을 참조하세요.
+IAP 시각적 개체는 무료 시각적 개체이며 무료 기능을 제공하지만, 추가 요금이 부과될 수 있는 고급 추가 기능도 있습니다. 개발자는 작동을 위해 추가 구매가 필요한 기능에 대한 시각적 개체의 설명을 사용자에게 알려야 합니다. 현재 Microsoft는 앱에서 바로 구매 및 추가 기능을 지원하는 네이티브 API(애플리케이션 프로그래밍 인터페이스)를 제공하지 않습니다. 개발자는 해당 구매에 대해 타사 지불 시스템을 사용할 수 있습니다. 스토어 [정책](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)을 참조하세요.
+
+> [!NOTE]
+> 무료 기능에서는 워터마크를 사용할 수 없습니다. 고급 유료 기능이 유효한 라이선스 없이 사용되는 경우, 개발자자 팝업 창 또는 워터마크를 표시할 수 있습니다.  
 
 ## <a name="logo-guidelines"></a>로고 지침
 

@@ -3,19 +3,19 @@ title: 주요 영향 요인 시각화 자습서
 description: 자습서 - Power BI에서 주요 영향 요인 시각화 만들기
 author: mihart
 manager: kvivek
-ms.reviewer: justyna
+ms.reviewer: juluczni
 ms.service: powerbi
 ms.component: powerbi-visuals
 ms.topic: tutorial
-ms.date: 02/10/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325154"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426795"
 ---
 # <a name="key-influencers-visualization"></a>주요 영향 요인 시각화
 주요 영향 요인 시각적 개체는 관심 있는 메트릭을 구동하는 요소를 이해하도록 도와줍니다. 데이터를 분석하고 중요한 요소의 순위를 정하며 이를 주요 요인으로 표시합니다. 예를 들어 직원 전직률(변동)에 영향을 미치는 요인을 알아내는 데 관심이 있습니다. 한 가지 요소는 고용 계약 기간일 수도 있고 또 다른 요소는 직원 연령일 수도 있습니다. 
@@ -46,7 +46,7 @@ ms.locfileid: "56325154"
 
 6. ***오른쪽 창*** - 오른쪽 창에는 하나의 시각적 개체를 포함합니다. 이 경우, 세로 막대형 차트는 왼쪽 창에서 선택한 **주요 영향 요인**, **테마**의 모든 값을 표시합니다. 왼쪽 창에서 특정 값(**유용성**)은 녹색이며 **테마**에 대한 다른 모든 값은 검은색입니다.
 
-7. ***평균 선*** - **유용성**을 제외한 **테마**의 다른 모든 가능한 값에 대한 평균이 계산됩니다. 따라서 계산은 검정색의 모든 값에 적용됩니다. 다른 **테마**의 몇 퍼센트가 낮은 등급인지 알려줍니다. 즉, 고객이 등급을 매길 때 해당 고객은 등급에 대한 이유 또는 **테마**를 설명합니다. 일부 테마는 유용성, 속도, 보안 등입니다. **테마**는 **유용성**이며, 왼쪽 창의 시각적 개체에 따라 낮은 등급에서 두 번째로 높은 주요 영향 요인입니다. 다른 모든 테마와 해당 테마가 **낮은** 등급에 기여하는 것을 평균하면 결과를 여기서 빨간색으로 볼 수 있습니다. 
+7. ***평균 선*** - **유용성**을 제외한 **테마**의 다른 모든 가능한 값에 대한 평균이 계산됩니다. 따라서 계산은 검정색의 모든 값에 적용됩니다. 다른 **테마**의 몇 퍼센트가 낮은 등급인지 알려줍니다. 즉, 고객이 등급을 매길 때 해당 고객은 등급에 대한 이유 또는 **테마**를 설명합니다. 일부 테마는 유용성, 속도, 보안 등입니다. **테마**는 **유용성**이며, 왼쪽 창의 시각적 개체에 따라 낮은 등급에서 두 번째로 높은 주요 영향 요인입니다. 다른 모든 테마와 해당 테마가 **낮은** 등급에 기여하는 것을 평균하면 결과를 여기서 빨간색으로 볼 수 있습니다. 주어진 모든 테마 중에서 **유용성**보다 높은 것은 11.35%에 불과합니다. 
 
 8. ***확인란*** - 영향 요인인 값만 표시합니다.
 
@@ -217,7 +217,7 @@ ID의 수를 살펴볼 예정입니다(따라서 각 고객 행은 이와 관련
 
 ![오류-해결](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-**내 분석에 측정값이 포함되어 있지 않다는 경고가 표시됩니다. 왜 그런가요?** [2052261] 
+**내 분석에 측정값이 포함되어 있지 않다는 경고가 표시됩니다. 왜 그런가요?** 
 
 ![오류-측정값이 포함 안 됨](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
 
