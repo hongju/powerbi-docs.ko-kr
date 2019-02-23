@@ -1,6 +1,6 @@
 ---
-title: 시각적 개체에 대한 동적 참조 줄 만들기
-description: Power BI 서비스에서 시각적 개체에 대한 동적 참조 줄 만들기
+title: 시각적 개체에 대한 동적 참조 선 만들기
+description: Power BI 서비스에서 시각적 개체에 대한 동적 참조 선 만들기
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -17,9 +17,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/13/2019
 ms.locfileid: "56223700"
 ---
-# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 시각적 개체에 대한 동적 참조 줄 만들기
+# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 시각적 개체에 대한 동적 참조 선 만들기
 
-**Power BI 서비스**의 **분석** 창에서 시각적 개체에 동적 참조 줄을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다.
+**Power BI 서비스**의 **분석** 창에서 시각적 개체에 동적 참조 선을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다.
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
 
@@ -29,7 +29,7 @@ ms.locfileid: "56223700"
 > 
 
 ## <a name="use-the-analytics-pane"></a>분석 창 사용
-**분석** 창을 사용하여 다음과 같은 유형의 동적 참조 줄을 만들 수 있습니다(모든 시각적 개체 유형에 모든 줄을 사용할 수 있는 것은 아님).
+**분석** 창을 사용하여 다음과 같은 유형의 동적 참조 선을 만들 수 있습니다(모든 시각적 개체 유형에 모든 선을 사용할 수 있는 것은 아님).
 
 * X축 상수 선
 * Y축 상수 선
