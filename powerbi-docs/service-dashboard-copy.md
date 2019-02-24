@@ -31,7 +31,7 @@ ms.locfileid: "54293100"
 2. 오른쪽 위의 모서리에서 줄임표(...)를 선택하고 **대시보드 복제**를 선택합니다.
    
    ![줄임표 메뉴](media/service-dashboard-copy/power-bi-dulicate.png)
-3. 대시보드에 이름을 지정하고 **중복**을 선택합니다. 
+3. 대시보드에 이름을 지정하고 **복제**를 선택합니다. 
    
    ![대시보드 복제 대화 상자](media/service-dashboard-copy/power-bi-name.png)
 4. 새 대시보드는 원본과 같은 작업 영역에 저장됩니다. 
