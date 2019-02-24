@@ -55,7 +55,7 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
 타일을 선택하고 [대시보드 내에서 이동](service-dashboard-edit-tile.md)합니다. 핸들 ![핸들](media/service-dashboard-tiles/resize-handle.jpg)을 가리키고 선택하여 타일 크기를 조정합니다.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>타일을 가리켜서 모양 및 동작을 변경합니다.
-1. 타일을 가리켜서 줄임표을 표시합니다.
+1. 타일을 가리켜서 줄임표를 표시합니다.
    
     ![타일 줄임표](media/service-dashboard-tiles/ellipses_new.png)
 2. 줄임표를 선택하여 타일 동작 메뉴를 엽니다.
