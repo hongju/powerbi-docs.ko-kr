@@ -60,7 +60,7 @@ ms.locfileid: "54295939"
 
 ![](media/desktop-what-if/what-if_07.png)
 
-그런 다음 슬라이더를 이동하면 *할인 후 판매* 열이 할인된 판매액을 반영하는 것을 확인할 수 있습니다.
+그런 다음 슬라이더를 이동하면 *할인 후 판매액* 열이 할인된 판매액을 반영하는 것을 확인할 수 있습니다.
 
 ![](media/desktop-what-if/what-if_08.png)
 
