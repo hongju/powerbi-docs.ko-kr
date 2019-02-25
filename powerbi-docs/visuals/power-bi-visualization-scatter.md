@@ -72,7 +72,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 
    ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png).
 
-4. **세부 정보** 에서 **범례** 로 **구역**를 끌어다 놓습니다. 그러면 Y축에 **총 매출 분산 %** 을 그리고 X축에 **평방 미터당 매출**을 그리는 분산형 차트를 표시합니다. 데이터 요소 색은 구역을 나타냅니다.
+4. **자세히**에서 **범례**로 **구역**를 끌어다 놓습니다. 그러면 Y축에 **총 매출 분산 %**을 그리고 X축에 **평방 미터당 매출**을 그리는 분산형 차트를 표시합니다. 데이터 요소 색은 구역을 나타냅니다.
 
     ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
@@ -117,7 +117,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-**세부 정보** 영역에 필드를 추가하여 Power BI에 값을 그룹화하는 방법을 알립니다. 필드는 단순 행 번호 또는 ID 필드처럼, 그리려는 각 지점에 고유해야 합니다.
+**자세히** 영역에 필드를 추가하여 Power BI에 값을 그룹화하는 방법을 알립니다. 필드는 단순 행 번호 또는 ID 필드처럼, 그리려는 각 지점에 고유해야 합니다.
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
@@ -125,7 +125,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
 
-새 필드를 만들려면 [Power BI Desktop 쿼리 편집기를 사용하여 인덱스 열을](../desktop-add-custom-column.md) 데이터 세트에 추가합니다.  그런 다음 이 열을 시각화의 **세부 정보** 영역에 추가합니다.
+새 필드를 만들려면 [Power BI Desktop 쿼리 편집기를 사용하여 인덱스 열을](../desktop-add-custom-column.md) 데이터 세트에 추가합니다.  그런 다음 이 열을 시각화의 **자세히** 영역에 추가합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
