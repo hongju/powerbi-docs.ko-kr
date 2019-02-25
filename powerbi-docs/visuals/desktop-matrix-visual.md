@@ -117,7 +117,7 @@ Watch the following video to learn more about expand/collapse in the matrix:
 > 
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>행렬 시각적 개체를 사용한 계단형 레이아웃
-**행렬** 시각적 개체는 **계단형 레이아웃**으로 각 부모 아래의 계층 구조에 하위 범주를 자동으로 들여씁니다.
+**행렬** 시각적 개체는 각 부모 아래의 계층 구조에 하위 범주를 자동으로 들여쓰는데, 이를 **계단형 레이아웃**이라고 합니다.
 
 행렬 시각적 개체의 ‘원래’ 버전에서 하위 범주는 완전히 다른 열에 표시되고 시각적 개체에서 훨씬 더 많은 공간을 사용합니다. 다음 이미지는 원래 **행렬** 시각적 개체의 표를 보여 줍니다. 이 경우 하위 범주가 완전히 별도의 열에 있습니다.
 
@@ -138,7 +138,7 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ![](media/desktop-matrix-visual/matrix-visual_20.png)
 
-**시각화** 창의 **서식** 섹션에서 **부분합** 카드를 확장하고 **행 소계** 슬라이더를 **끄기**로 설정합니다. 이렇게 하면 부분합이 표시되지 않습니다.
+**시각화** 창의 **서식** 섹션에서 **소계** 카드를 확장하고 **행 소계** 슬라이더를 **끄기**로 설정합니다. 이렇게 하면 소계가 표시되지 않습니다.
 
 ![](media/desktop-matrix-visual/matrix-visual_21.png)
 
