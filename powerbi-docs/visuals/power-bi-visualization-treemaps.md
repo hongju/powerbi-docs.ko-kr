@@ -59,7 +59,7 @@ ms.locfileid: "56215415"
    ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)   
 3. 차트를 트리맵으로 변환합니다.  
    ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)   
-4. **항목** > **범주**를 **그룹** 웰로 끌어다 놓습니다. Power BI는 총 판매액을 기반으로 한 사각형의 크기와 범주를 나타내는 색으로 구성된 트리맵을 만듭니다. 기본적으로 범주별로 총 판매액의 상대 크기를 시각적으로 설명하는 계층을 만들었습니다. **Men's** 범주는 판매액이 가장 높고 **Hosiery** 범주는 가장 낮습니다.   
+4. **항목** > **범주**를 **그룹** 웰로 끌어다 놓습니다. Power BI는 총 판매액을 기반으로 한 사각형의 크기와 범주를 나타내는 색으로 구성된 트리맵을 만듭니다.  기본적으로 범주별로 총 판매액의 상대 크기를 시각적으로 설명하는 계층을 만들었습니다.  **Men's** 범주는 판매액이 가장 높고 **Hosiery** 범주는 가장 낮습니다.   
    ![](media/power-bi-visualization-treemaps/power-bi-complete.png)   
 5. **매장** > **체인**을 **자세히**로 끌어다 놓아 트리맵을 완료합니다. 이제 범주 및 체인 별로 작년 판매액을 비교할 수 있습니다.   
    ![](media/power-bi-visualization-treemaps/power-bi-details.png)
