@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 004396150f0301dadee32bd08ac64ce5ae36fb17
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c094aa3f89e7b4f978f7b20f046eb42a897dabd6
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296596"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661367"
 ---
 # <a name="view-a-report-in-power-bi-service-for-consumers"></a>*소비자*에 대한 Power BI 서비스의 보고서 보기
 보고서는 하나 이상의 시각적 개체 페이지입니다. 보고서는 Power BI ‘보고서 디자이너’가 만들고 직접 또는 [앱](end-user-apps.md)의 일부로 [‘소비자’와 공유](end-user-shared-with-me.md)합니다. 

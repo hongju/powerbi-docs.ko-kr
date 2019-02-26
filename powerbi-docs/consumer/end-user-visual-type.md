@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/12/2019
+ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: ea86970565717d5dae8db865a65765f2c8245bad
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426772"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662391"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 시각화는 보고서, 대시보드, 앱 및 Q&A에서 찾을 수 있습니다. 이러한 시각화 유형 중 일부는 Power BI와 함께 패키지로 제공되며, 일부는 *사용자 지정 시각적 개체*입니다. 사용자 지정 시각적 개체는 Power BI 외부에서 생성되며, *보고서 디자이너*가 Power BI 보고서, 대시보드 및 앱에 추가할 수 있습니다. 

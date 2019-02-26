@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e3b7731dec23c6fda49d31716d6e450231ab4bc5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: abf6052d7cb912f9a8ff33f064b5dc1d44f5ba3e
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276609"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662093"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI 서비스에서 관련 콘텐츠 보기
 **관련 콘텐츠** 창은 Power BI 서비스 콘텐츠(대시보드, 보고서 및 데이터 세트)가 서로 어떻게 연결되어 있는지를 보여 줍니다. 관련 콘텐츠 창은 작업을 수행하기 위한 실행 공간으로도 기능합니다. 관련 콘텐츠 창에서 새로 고치거나, 이름을 변경하거나, 인사이트를 생성하는 등 다양한 작업을 수행할 수 있습니다. 관련 보고서 또는 대시보드를 선택하면 Power BI 작업 영역에서 열립니다.   

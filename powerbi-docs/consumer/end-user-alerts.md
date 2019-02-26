@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: tutorial
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 83032e97d9d6b2628d7adfefa95996cff469c4f5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3732939dbf3d8a3569d0c945d9a4d0935d573c86
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277852"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662161"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>자습서: Power BI 서비스에서 데이터 경고 설정
 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 경고를 설정합니다. 

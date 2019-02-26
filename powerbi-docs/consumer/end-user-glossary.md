@@ -4,16 +4,17 @@ description: Power BI에서는 많은 새 용어를 도입했으며 익숙한 �
 services: power-bi
 ms.custom: seodec18
 author: mihart
-ms.service: powerbi-service
+ms.service: powerbi
+ms.subservice: powerbi-consumer
 ms.topic: resource
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 1722c401dfd5d2fdfbba530f440cecf9f1e075f3
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 91ac7e9990844f6e4f481473d402647a47249ba6
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431272"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662414"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다.

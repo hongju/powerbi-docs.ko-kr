@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f4e6f0204ed9832a3ed3c3ed8347a44300f606df
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: a0cf919d184946b23cb9ebc4ddfc24e0652c64d7
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249393"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661849"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 이제 [앱에 대한 기본 이해](end-user-apps.md)을 했으므로, 앱을 열고 상호 작용하는 방법에 대해 알아보겠습니다. 

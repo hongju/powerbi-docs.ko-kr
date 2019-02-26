@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: Conceptual
 ms.date: 01/19/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 4fd49c3279c47139a0e15fbcc4729f39b0a59b78
-ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
+ms.openlocfilehash: 44a311bf186ffc2596de2322b18f81386d505b62
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54838281"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661725"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 값을 기준으로 대부분의 시각화를 알파벳순으로 정렬할 수 있습니다. 예를 들어 이 차트는 범주 **매장 이름**을 기준으로 정렬되었습니다.

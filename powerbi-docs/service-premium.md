@@ -11,18 +11,16 @@ ms.topic: conceptual
 ms.date: 01/15/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b1a99279087f2d6557da9a70c1e02aae649dc9b4
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: a048f589b19acd1a7c38a5b81cf781d1e76b7b5b
+ms.sourcegitcommit: 187d20180d9bae5a2ec53748cede9e7301e0343e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794547"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "56725343"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium이란?
 
-Microsoft Power BI Premium은 조직에 대해 Power BI 서비스를 실행하는 전용 리소스를 제공합니다. 더욱 신뢰할 수 있는 성능을 제공하고 더 큰 데이터 볼륨을 사용하도록 설정합니다. 또한 Premium을 통해 콘텐츠 소비자를 위한 사용자별 Pro 라이선스를 구입할 필요 없이 광범위하게 콘텐츠를 배포할 수 있습니다. 구매 정보를 보려면 [Power BI Premium 구매 방법](service-admin-premium-purchase.md)을 참조하세요.   
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+Microsoft Power BI Premium은 조직에 대해 Power BI 서비스를 실행하는 전용 리소스를 제공합니다. 더욱 신뢰할 수 있는 성능을 제공하고 더 큰 데이터 볼륨을 사용하도록 설정합니다. 또한 Premium을 통해 콘텐츠 소비자를 위한 사용자별 Pro 라이선스를 구입할 필요 없이 광범위하게 콘텐츠를 배포할 수 있습니다.  
 
 ## <a name="premium-capacity-and-shared-capacity"></a>프리미엄 용량 및 공유 용량
 

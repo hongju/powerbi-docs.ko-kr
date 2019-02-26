@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9e1ed67302b3fc4d7bf990040259e9e4615794a5
-ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
+ms.openlocfilehash: 3563c19630d481f1d3601e314ee13e1aef5c597d
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56298917"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661816"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>보고서를 Power BI에서 PowerPoint로 내보내기
 Power BI를 사용하여 보고서를 **Microsoft PowerPoint**에 게시하고 Power BI 보고서에 따라 슬라이드 모음을 쉽게 만들 수 있습니다. **PowerPoint로 내보내는** 경우 다음이 발생합니다.

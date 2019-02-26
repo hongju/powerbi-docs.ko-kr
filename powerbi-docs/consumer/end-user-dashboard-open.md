@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a4dff6ca2020a349c3f06e5c828e186b3e11bdb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 62172546e38069253ccc01626dc2101b7e2e4799
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288707"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56663072"
 ---
 # <a name="view-a-dashboard"></a>대시보드 보기
 Power BI 소비자는 대시보드를 보는 데 많은 시간을 소비합니다. 대시보드는 기본 보고서 및 데이터 세트에서 특정 정보를 강조 표시하도록 설계되었습니다. 또한 Power BI 소비자는 데이터 기반 비즈니스 의사 결정을 수행하기 위해 추적, 모니터링, 질문에 답변, 테스트 등에 해당 정보를 사용합니다.
