@@ -34,7 +34,7 @@ ms.locfileid: "54283463"
 선택한 후에는 **Power BI Desktop**을 다시 시작해야 합니다.
 
 ## <a name="using-quick-measures"></a>빠른 측정 사용
-**빠른 측정**을 만들려면 **Power BI Desktop**의 **필드** 영역에서 필드를 마우스 오른쪽 단추로 클릭하고 나타나는 메뉴에서 **빠른 측정**을 선택합니다.
+**빠른 측정**을 만들려면 **Power BI Desktop**의 **필드** 영역에서 필드를 마우스 오른쪽 단추로 클릭하고 나타나는 메뉴에서 **새 빠른 측정**을 선택합니다.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
@@ -93,7 +93,7 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-**값** 필드 영역을 마우스 오른쪽 단추로 클릭하고 **빠른 측정**을 선택하면, ‘계산’으로 ‘범주별 평균’을 선택한 후 ‘기준 값’으로 ‘SalesAmount의 합계’를 선택하고 오른쪽 창의 ‘필드’ 상자에서 왼쪽의 ‘범주’ 상자로 해당 필드를 끌어서 *SalesAmount*를 지정할 수 있습니다.
+**값** 필드 영역을 마우스 오른쪽 단추로 클릭하고 **새 빠른 측정**을 선택하면, ‘계산’으로 ‘범주별 평균’을 선택한 후 ‘기준 값’으로 ‘SalesAmount의 합계’를 선택하고 오른쪽 창의 ‘필드’ 상자에서 왼쪽의 ‘범주’ 상자로 해당 필드를 끌어서 *SalesAmount*를 지정할 수 있습니다.
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 
