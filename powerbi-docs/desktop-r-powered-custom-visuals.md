@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 47558c5aa7318d3ef3ff5c5e92beb6dd4b4b3d44
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 48eb26d3827f69831f2d565b26c20853906ab41d
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290470"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892186"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Power BI에서 R 지원 사용자 지정 시각적 개체 사용
 
@@ -61,7 +61,7 @@ R 지원 사용자 지정 시각적 개체를 사용하려면 **사용자 지정
 5. 다음 그림처럼 사용자 지정 시각적 개체 가져오기에 대한 경고가 표시됩니다.
 
    ![R 시각적 개체 5](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_5.png)
-6. 시각적 파일이 저장된 위치로 이동하여 파일을 선택합니다. **Power BI Desktop** 사용자 지정 시각화의 확장명은 .pbivisual입니다.
+6. 시각적 파일이 저장된 위치로 이동하여 파일을 선택합니다. **Power BI Desktop** 사용자 지정 시각화는 .pbiviz 확장명입니다.
 
    ![R 시각적 개체 6](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_6.png)
 7. Power BI Desktop으로 돌아가면 **시각화** 창에서 새로운 시각적 개체 유형을 볼 수 있습니다.
