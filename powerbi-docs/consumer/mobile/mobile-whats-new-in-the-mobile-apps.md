@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431249"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826724"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -22,6 +22,16 @@ ms.locfileid: "55431249"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="january---february-2019"></a>2019년 1~2월
+ 
+### <a name="visio-visuals"></a>Visio 시각적 개체
+
+Visio 시각적 개체에서 SSO(Single Sign-On)를 사용하도록 설정하므로 앱에서 Visio 시각적 개체를 사용해 보고서를 볼 때 추가 로그인 단계가 필요하지 않습니다. 
+
+### <a name="dashboard-commenting-is-coming-to-power-bi-mobile-windows-app"></a>대시보드 주석 달기가 Power BI Mobile Windows 앱에 제공됩니다.
+
+대시보드 및 특정 타일에 직접 의견을 추가하여 데이터에 대해 논의할 수 있으며, 대시보드를 보는 모든 사람이 여러분의 의견을 볼 수 있습니다. 
 
 ## <a name="december-2018"></a>2018년 12월
 

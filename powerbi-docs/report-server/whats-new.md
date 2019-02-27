@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: ad3025b9649529566972f75e9c447bb7558132b8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325200"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662460"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -41,6 +41,10 @@ Power BI 보고서에서 다음 기능 지원:
 [**스마트 맞춤 가이드**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) PowerPoint에서 볼 수 있는 것처럼 보고서 페이지에서 개체를 이동할 때 페이지의 모든 항목을 정렬하는 데 도움이 되는 스마트 맞춤 가이드가 표시됩니다. 페이지의 있는 항목을 드래그하거나 크기를 조정할 때마다 스마트 가이드를 볼 수 있습니다. 다른 개체 근처에서 개체를 이동하면 다른 개체와 정렬된 위치로 스냅됩니다.
 
 **내게 필요한 옵션 기능** 목록에 내게 필요한 옵션 기능이 너무 많습니다(예: [필드 목록 창 내게 필요한 옵션 지원](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)). 필드 목록 창에 완전히 액세스할 수 있습니다. 키보드 및 화면 reader만 사용하여 창 주위를 탐색하고 컨텍스트 메뉴를 사용하여 보고서 페이지에 필드를 추가할 수 있습니다.
+
+#### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+
+- 이 릴리스에서 제공된 API 버전은 2.3입니다.
 
 ### <a name="administrator-settings"></a>관리자 설정
 
