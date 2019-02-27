@@ -1,6 +1,6 @@
 ---
-title: Cortana에 대한 사용자 지정 Power BI 대답 페이지 만들기
-description: Power BI에서 Cortana에 대한 사용자 지정 대답 페이지 만들기
+title: Cortana에 대한 사용자 지정 Power BI 답변 페이지 만들기
+description: Power BI에서 Cortana에 대한 사용자 지정 답변 페이지 만들기
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -18,7 +18,7 @@ ms.lasthandoff: 01/15/2019
 ms.locfileid: "54273090"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI 서비스 또는 Power BI Desktop을 사용하여 Cortana에 대한 사용자 지정 답변 페이지 만들기
-Power BI의 전체 기능을 사용하여 Cortana 질문에 답변하도록 특별히 설계된 *Cortana 답변 페이지*(*Cortana 대답 카드*라고도 함)라는 특수한 보고서 페이지를 만듭니다.
+Power BI의 전체 기능을 사용하여 Cortana 질문에 답변하도록 특별히 설계된 *Cortana 답변 페이지*(*Cortana 답변 카드*라고도 함)라는 특수한 보고서 페이지를 만듭니다.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
@@ -38,8 +38,8 @@ Power BI에 대한 Cortana의 설정 및 사용을 안내하는 4가지 문서�
 
 **문서 4**: [문제 해결](service-cortana-troubleshoot.md)
 
-## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>Cortana를 위해 특별히 디자인된 Cortana 대답 페이지 만들기
-보고서의 *Cortana 대답 페이지*는 특별히 Cortana용으로 크기가 지정되었기 때문에 Cortana가 질문에 대한 답변으로 화면에 알맞게 표시할 수 있습니다. Cortana에 대한 대답 페이지를 만들려면 다음을 수행합니다.
+## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>Cortana를 위해 특별히 디자인된 Cortana 답변 페이지 만들기
+보고서의 *Cortana 답변 페이지*는 특별히 Cortana용으로 크기가 지정되었기 때문에 Cortana가 질문에 대한 답변으로 화면에 알맞게 표시할 수 있습니다. Cortana에 대한 답변 페이지를 만들려면 다음을 수행합니다.
 
 1. 빈 보고서 페이지로 시작하는 것이 좋습니다.
 2. **시각화** 창에서 페인트 롤러 아이콘을 선택한 다음, **페이지 크기** > **형식** > **Cortana**를 선택합니다.
@@ -74,8 +74,8 @@ Power BI에 대한 Cortana의 설정 및 사용을 안내하는 4가지 문서�
    
       예를 들어 Cortana에게 다음과 같이 질문한다고 가정합니다.
    
-   * "상점 이름별 매출 표시" - 필요한 페이지 수준 필터의 항목이 포함되지 않았으므로 이 대답 페이지가 나타나지 않습니다.
-   * "Cary Lindseys 및 Charlotte Lindseys의 매출 표시" - 필요한 페이지 수준 필터에서 두 개 이상의 항목을 지정했으므로 이 대답 페이지가 나타나지 않습니다.
+   * "상점 이름별 매출 표시" - 필요한 페이지 수준 필터의 항목이 포함되지 않았으므로 이 답변 페이지가 나타나지 않습니다.
+   * "Cary Lindseys 및 Charlotte Lindseys의 매출 표시" - 필요한 페이지 수준 필터에서 두 개 이상의 항목을 지정했으므로 이 답변 페이지가 나타나지 않습니다.
    * "Charlotte Lindseys의 매출 표시" - 이 답변 페이지가 표시됩니다.
      
      "매출 표시" - 필요한 페이지 수준 필터의 항목이 포함되지 않았으므로 이 답변 페이지가 나타나지 않습니다.
@@ -86,10 +86,10 @@ Power BI에 대한 Cortana의 설정 및 사용을 안내하는 4가지 문서�
 > 
 
 ## <a name="how-does-cortana-order-the-results"></a>Cortana에서 결과는 어떻게 정렬되나요?
-점수가 높은 답변(예: 지정된 페이지 이름과 전체 일치)을 포함하는 결과가 Cortana에서 먼저 *가장 일치하는 항목*으로 표시됩니다. Power BI에 여러 Cortana 대답 페이지가 있는 경우 가장 일치하는 항목이 여러 개 나타날 수 있습니다. 점수가 중간 이하인 대답(예: 대답 페이지의 이름을 기반으로 하지 않는 답변) 또는 Power BI에서 인식할 수 없는 단어를 포함하는 질문은 Cortana에서 가장 일치하는 항목 아래에 링크로 나열됩니다.
+점수가 높은 답변(예: 지정된 페이지 이름과 전체 일치)을 포함하는 결과가 Cortana에서 먼저 *가장 일치하는 항목*으로 표시됩니다. Power BI에 여러 Cortana 답변 페이지가 있는 경우 가장 일치하는 항목이 여러 개 나타날 수 있습니다. 점수가 중간 이하인 답변(예: 답변 페이지의 이름을 기반으로 하지 않는 답변) 또는 Power BI에서 인식할 수 없는 단어를 포함하는 질문은 Cortana에서 가장 일치하는 항목 아래에 링크로 나열됩니다.
 
 > [!NOTE]
-> 새 데이터 세트 또는 사용자 지정 Cortana 대답 페이지가 Power BI에 추가되고 Cortana에 대해 사용하도록 설정된 경우 Cortana에 결과가 표시되기까지 최대 30분 정도 걸릴 수 있습니다. Windows 10에 로그인했다가 로그아웃하거나 Windows 10에서 Cortana 프로세스를 다시 시작하면 새 콘텐츠가 즉시 표시됩니다.
+> 새 데이터 세트 또는 사용자 지정 Cortana 답변 페이지가 Power BI에 추가되고 Cortana에 대해 사용하도록 설정된 경우 Cortana에 결과가 표시되기까지 최대 30분 정도 걸릴 수 있습니다. Windows 10에 로그인했다가 로그아웃하거나 Windows 10에서 Cortana 프로세스를 다시 시작하면 새 콘텐츠가 즉시 표시됩니다.
 > 
 > 
 
