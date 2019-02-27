@@ -63,7 +63,7 @@ ms.locfileid: "54275988"
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
 * **재생** 축의 모든 값은 분산형 차트가 원래 알고리즘으로 되돌아가도록 만듭니다.
 * 분산형 차트에서 X 및 Y 축이 모두 누락되면 차트는 원래 알고리즘으로 되돌아갑니다.
-* **분석** 창에서 **비율 줄**을 사용하면 차트가 원래 알고리즘으로 되돌아갑니다.
+* **분석** 창에서 **비율 선**을 사용하면 차트가 원래 알고리즘으로 되돌아갑니다.
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 

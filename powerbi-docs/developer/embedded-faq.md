@@ -216,7 +216,7 @@ RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데�
 
 **[애플리케이션 ID](embed-sample-for-customers.md#application-id)** 는 인증을 위해 애플리케이션 ID를 전달할 때 액세스 토큰을 만드는 데 사용됩니다.
 
-작업을 위해 서비스 주체를 참조하거나 변경하려면 **[서비스 주체 개체 ID**](embed-service-principal.md#how-to-get-the-service-principal-object-id)를 사용합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
+작업을 위해 서비스 주체를 참조하거나 변경하려면 **[서비스 주체 개체 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)** 를 사용합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>서비스 주체로 온-프레미스 데이터 게이트웨이를 관리할 수 있나요?
 
