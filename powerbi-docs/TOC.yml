@@ -843,7 +843,13 @@ items:
     - name: 지원되는 언어 및 국가/지역
       href: supported-languages-countries-regions.md
     - name: 백서
-      href: whitepapers.md
+      items:
+      - name: 백서 개요
+        href: whitepapers.md
+      - name: Power BI 보안 백서
+        href: whitepaper-powerbi-security.md
+      - name: Power BI Premium 배포
+        href: whitepaper-powerbi-premium-deployment.md
 - name: 개발자용 Power BI
   items:
   - name: 개발자는 Power BI로 무엇을 할 수 있나요
@@ -1036,6 +1042,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: 테이블에 행 추가
         href: developer/walkthrough-push-data-add-rows.md
+      - name: 자격 증명 구성
+        href: developer/configure-credentials.md
       - name: 자격 증명 암호화
         href: developer/encrypt-credentials.md
     - name: 참조
@@ -1228,7 +1236,7 @@ items:
     items:
     - name: Power BI Premium
       items:
-      - name: Power BI 프리미엄이란?
+      - name: Power BI Premium이란?
         href: service-premium.md
       - name: 프리미엄 용량 메모리 사용, 최적화
         href: service-premium-understand-how-it-works.md
@@ -1305,9 +1313,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 994d0f82fc92eb8e54aee92f0b4ceefa38cc8a49
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 1d95f65528ff52931b9fbe9119f9d593db99655a
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826701"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892439"
