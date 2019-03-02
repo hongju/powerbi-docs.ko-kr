@@ -100,7 +100,7 @@ ms.locfileid: "56216128"
 
     ![작업 영역 삭제](media/service-delete/power-bi-delete-workspace2.png)
 
-### <a name="to-remove-an-app-workspace-from-your-list"></a>목록에서 한 앱 작업 영역을 제거하려면
+### <a name="to-remove-an-app-workspace-from-your-list"></a>목록에서 하나의 앱 작업 영역을 제거하려면
 더 이상 앱 작업 영역의 구성원이 되고 싶지 않을 경우 해당 작업 영역에서 ***나가면*** 목록에서 제거됩니다. 작업 영역에서 나가면 다른 모든 작업 영역 구성원은 그대로 유지됩니다.  
 
 > [!IMPORTANT]
