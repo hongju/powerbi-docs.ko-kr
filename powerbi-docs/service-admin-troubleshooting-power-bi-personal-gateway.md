@@ -110,7 +110,7 @@ Power BI는 현재 ACE OLEDB 공급자를 사용하여 데이터 소스에 대�
 
 1. Power BI 탐색 창의 **데이터 세트**에서 데이터 세트 &gt; 열기 메뉴 &gt;**새로 고침 예약**을 선택합니다.
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
-2. **다음 설정...** &gt; **새로 고침 예약**에서 **기록 새로 고침**을 선택합니다.  
+2. **설정...**에서 **새로 고침 기록**을 선택합니다.  
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh-2.png)
    
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/refresh-history.png)
