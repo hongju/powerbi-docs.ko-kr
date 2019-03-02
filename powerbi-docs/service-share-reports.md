@@ -50,7 +50,7 @@ Power BI 서비스의 대부분의 위치(즐겨찾기, 최근 항목, 공유한
    
    app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
 
-3. [보고서를 공유](service-share-dashboards.md)하되, **받는 사람에게 이메일 알림 보내기** 확인란을 선택 취소합니다. 
+3. [보고서를 공유](service-share-dashboards.md)하되, **받는 사람에게 전자 메일 알림 보내기** 확인란을 선택 취소합니다. 
 
     ![보고서 공유 대화 상자](media/service-share-reports/power-bi-share-report-dialog.png)
 
