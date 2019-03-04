@@ -85,7 +85,7 @@ Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
 
 Power BI Report Server 보고서는 [Power BI 모바일 앱](../consumer/mobile/mobile-apps-for-mobile-devices.md)에서 다음을 비롯한 모든 기본 기능을 지원합니다.
 
-* [전화 보고서 레이아웃](../desktop-create-phone-report.md): Power BI 모바일 앱에 보고서를 최적화할 수 있습니다. 휴대폰에서 최적화된 보고서에는 특수 아이콘 ![휴대폰 보고서 레이아웃 아이콘](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) 및 레이아웃이 포함됩니다.
+* [휴대폰 보고서 레이아웃](../desktop-create-phone-report.md): Power BI 모바일 앱에 보고서를 최적화할 수 있습니다. 휴대폰에서 최적화된 보고서에는 특수 아이콘 ![휴대폰 보고서 레이아웃 아이콘](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) 및 레이아웃이 포함됩니다.
   
     ![휴대폰에 최적화된 보고서](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
