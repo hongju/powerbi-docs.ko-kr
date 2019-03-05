@@ -9,12 +9,12 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 manager: kfile
-ms.openlocfilehash: e31f67d978471f4dcc6472860fc5f8315212e563
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: d7cebbd569d16192f4acfa1c96394130731efa17
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794863"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014579"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium 용량 리소스 관리 및 최적화
 
@@ -55,7 +55,7 @@ Power BI Premium은 용량 *초과 커밋*의 이점을 제공합니다. 예를 
 
 ### <a name="workloads"></a>워크로드
 
-기본적으로 **Power BI Premium** 및 **Power BI Embedded**의 용량은 클라우드에서 실행 중인 Power BI 쿼리와 연결된 워크로드만 지원합니다. 이제 다음 두 가지 추가 워크로드의 미리 보기를 지원합니다. **페이지를 매긴 보고서** 및 **데이터 흐름**. 사용하도록 설정하면 이러한 워크로드가 용량의 메모리 사용량에 영향을 줄 수 있습니다. 자세한 내용은 [워크로드 구성](service-admin-premium-manage.md#configure-workloads)을 참조하세요.
+기본적으로 **Power BI Premium** 및 **Power BI Embedded**의 용량은 클라우드에서 실행 중인 Power BI 쿼리와 연결된 워크로드만 지원합니다. 이제 다음 두 가지 추가 워크로드의 미리 보기를 지원합니다. **페이지를 매긴 보고서** 및 **데이터 흐름**. 사용하도록 설정하면 이러한 워크로드가 용량의 메모리 사용량에 영향을 줄 수 있습니다. 
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>프리미엄 용량의 CPU 리소스 관리
 
@@ -116,6 +116,3 @@ Azure의 Power BI Embedded 용량을 사용하여 여러 SKU를 테스트하고 
 
 경우에 따라 컴퓨터에서 모델의 Power BI Desktop(.pbix) 파일을 열고 메모리 및 CPU 사용량을 확인하면 문제에 대한 많은 것을 파악할 수 있습니다. 이는 매우 큰 모델에는 도움이 되지 않지만 일부 작은 모델의 경우 컴퓨터에서 모델을 열고, 새로 고치고, 쿼리해 봅니다. 모델을 열 때 사용된 모델 크기, 메모리 및 CPU를 확인합니다. 새로 고치고 쿼리해 봅니다. 작업 관리자를 사용하여 로컬 파일에 대한 CPU 및 메모리 사용을 확인합니다. 경우에 따라 컴퓨터 자체의 이러한 메트릭은 P1/P2 같은 하위 프리미엄 용량이 솔루션에 적합하지 않음을 나타낼 수 있습니다.
 
-## <a name="next-steps"></a>다음 단계
-
-[Power BI Premium 및 Power BI Embedded 내에서 용량 관리](service-admin-premium-manage.md)

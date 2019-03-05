@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408187"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014648"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -297,7 +297,7 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 
 ### <a name="create-and-use-dataflows-preview"></a>데이터 흐름 만들기 및 사용(미리 보기)
 
-조직의 사용자가 데이터 흐름을 만들고 사용할 수 있습니다. 데이터 흐름 개요는 [Power BI의 셀프 서비스 데이터 준비(미리 보기)](service-dataflows-overview.md)를 참조하세요. 프리미엄 용량에 대한 데이터 흐름을 사용하려면 [워크로드 구성](service-admin-premium-manage.md#configure-workloads)을 참조하세요.
+조직의 사용자가 데이터 흐름을 만들고 사용할 수 있습니다. 데이터 흐름 개요는 [Power BI의 셀프 서비스 데이터 준비(미리 보기)](service-dataflows-overview.md)를 참조하세요. 프리미엄 용량에 대한 데이터 흐름을 사용하려면 [워크로드 구성](service-admin-premium-workloads.md)을 참조하세요.
 
 > [!NOTE]
 > 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
@@ -321,8 +321,6 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 **Power BI Premium** 탭에서는 조직용으로 구매한 Power BI Premium 용량(EM 또는 P SKU)을 관리할 수 있습니다. 조직 내 모든 사용자가 **Power BI Premium** 탭을 볼 수 있으나, ‘용량 관리자’ 또는 할당 권한이 있는 사용자로 할당된 경우에만 탭 내 콘텐츠를 볼 수 있습니다. 사용자에게 권한이 없으면 다음과 같은 메시지가 나타납니다.
 
 ![Premium 설정 액세스 권한 없음](media/service-admin-portal/premium-settings-no-access.png)
-
-프리미엄 설정 관리에 관한 자세한 내용은 [Power BI Premium 관리](service-admin-premium-manage.md)를 참조하세요.
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
@@ -410,6 +408,5 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 [조직의 Power BI 관리](service-admin-administering-power-bi-in-your-organization.md)  [Power BI 관리 역할 이해](service-admin-role.md)  
 [조직에서 Power BI 감사](service-admin-auditing.md)  
-[Power BI 프리미엄 관리](service-admin-premium-manage.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

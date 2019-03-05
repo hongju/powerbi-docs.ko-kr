@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
-ms.openlocfilehash: d3563b80813b0c08377e7ecaec89439197c2014f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 1b8653b4493e0a6de904ecb0f5bb8ec5bb6f7904
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324636"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014188"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Power BI Premium의 페이지를 매긴 보고서란? (미리 보기)
 
@@ -24,7 +24,7 @@ ms.locfileid: "56324636"
 
 ![Power BI 서비스의 페이지를 매긴 보고서](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-보고서 작성기에서 보고서를 미리 본 후 Power BI 서비스, http://app.powerbi.com 에 게시할 수 있습니다. 서비스에 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 작업 영역이 Power BI Premium 용량에 포함된 경우 내 작업 영역 또는 앱 작업 영역에서 페이지를 매긴 보고서를 게시하고 공유할 수 있습니다. 또한 Power BI 관리자는 Power BI 관리 포털에서 페이지를 매긴 보고서를 사용하도록 설정해야 합니다. [워크로드 구성](service-admin-premium-manage.md#configure-workloads)에 대해 자세히 알아보세요. 
+보고서 작성기에서 보고서를 미리 본 후 Power BI 서비스, http://app.powerbi.com 에 게시할 수 있습니다. 서비스에 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 작업 영역이 Power BI Premium 용량에 포함된 경우 내 작업 영역 또는 앱 작업 영역에서 페이지를 매긴 보고서를 게시하고 공유할 수 있습니다. 또한 Power BI 관리자는 Power BI 관리 포털에서 페이지를 매긴 보고서를 사용하도록 설정해야 합니다. 
 
 ## <a name="create-reports-in-report-builder"></a>보고서 작성기에서 보고서 만들기
 

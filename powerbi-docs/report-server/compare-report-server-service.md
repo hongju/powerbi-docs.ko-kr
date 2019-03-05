@@ -4,18 +4,18 @@ description: 이 문서에서는 Power BI Report Server와 Power BI 서비스의
 keywords: ''
 author: markingmyname
 ms.author: maghan
-ms.date: 02/06/2019
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 11b910d687830e525e0495a785153daa32db042d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.date: 02/06/2019
+ms.openlocfilehash: ba10e13062e4071e5afcc5d395836c96ed1401fd
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324464"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327921"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -56,7 +56,5 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | Power BI Desktop | 보고서 서버에 최적화된 버전으로, 보고서 서버로 다운로드할 수 있음 | Power BI 서비스에 최적화된 버전으로, Windows 스토어에서 사용 가능 | [보고서 서버용 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI 서비스용 Power BI Desktop](http://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>다음 단계
+
 [Power BI Report Server 설치](install-report-server.md)  
-
-
-

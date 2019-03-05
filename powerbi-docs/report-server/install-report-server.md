@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 12/07/2018
-ms.openlocfilehash: 377e601bde58c0e0a8e5634cd798e3373ebee7b7
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324901"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014441"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server 설치
 
@@ -37,11 +37,11 @@ Power BI Report Server를 설치하기 전에 [Power BI Report Server를 설치�
 
 Power BI Premium을 구입한 경우 Power BI 관리자 포털의 **프리미엄 설정** 탭 내에서 Power BI Report Server 제품 키에 대한 액세스를 갖습니다. 전역 관리자 또는 Power BI 서비스 관리자 역할이 할당된 사용자만 사용할 수 있습니다.
 
-![프리미엄 설정](../media/service-admin-premium-manage/pbirs-product-key.png " 프리미엄 설정 내의 Power BI Report Server 키")
+![프리미엄 설정](../report-server/media/install-report-server/pbirs-product-key.png " 프리미엄 설정 내의 Power BI Report Server 키")
 
 **Power BI Report Server 키**를 선택하면 제품 키를 포함하는 대화 상자가 표시됩니다. 복사하고 설치와 함께 사용할 수 있습니다.
 
-![제품 키](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Power BI Report Server 제품 키")
+![제품 키](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Power BI Report Server 제품 키")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise SA(Software Assurance)
 

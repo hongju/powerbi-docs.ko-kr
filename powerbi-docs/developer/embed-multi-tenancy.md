@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430720"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014257"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI 임베디드 분석을 사용하여 다중 테넌트 관리
 
@@ -142,7 +142,7 @@ SaaS 애플리케이션 스토리지가 모든 테넌트에 다중 테넌트 데
 
 ### <a name="scalability"></a>확장성
 
-이 모델의 한 가지 장점은 데이터를 각 테넌트의 여러 데이터 세트로 분리하면 [단일 데이터 세트의 크기 제한](https://docs.microsoft.com/power-bi/service-premium-large-datasets)(현재는 10GB 용량)이 극복된다는 점입니다. 용량이 오버로드되면 활성 데이터 세트의 메모리를 해제하도록 [미사용 데이터 세트를 제거할 수 있습니다](../service-premium-understand-how-it-works.md). 이 작업은 하나의 대규모 데이터 세트를 사용하여 수행할 수 없습니다. 여러 데이터 세트를 사용하면 필요한 경우 테넌트를 여러 Power BI 용량으로 분리할 수도 있습니다. [용량의 작동 방식을 자세히 알아봅니다](../service-admin-premium-manage.md).
+이 모델의 한 가지 장점은 데이터를 각 테넌트의 여러 데이터 세트로 분리하면 [단일 데이터 세트의 크기 제한](https://docs.microsoft.com/power-bi/service-premium-large-datasets)(현재는 10GB 용량)이 극복된다는 점입니다. 용량이 오버로드되면 활성 데이터 세트의 메모리를 해제하도록 [미사용 데이터 세트를 제거할 수 있습니다](../service-premium-understand-how-it-works.md). 이 작업은 하나의 대규모 데이터 세트를 사용하여 수행할 수 없습니다. 여러 데이터 세트를 사용하면 필요한 경우 테넌트를 여러 Power BI 용량으로 분리할 수도 있습니다.
 
 이러한 장점에도 불구하고 SaaS 애플리케이션이 나중에 도달할 수 있는 규모를 고려해야 합니다. 예를 들어 관리할 수 있는 아티팩트 수에 가까운 제한에 도달할 수 있습니다. 자세한 내용은 이 문서의 뒷부분에서 배포 [제한 사항](#summary-comparison-of-the-different-approaches)을 참조하세요. 사용되는 용량 SKU에 따라 데이터 세트를 조정해야 하는 기준 메모리 크기, [동시에 실행할 수 있는 새로 고침 횟수](../service-premium-understand-how-it-works.md) 및 데이터 새로 고침의 최대 빈도에 대한 제한이 추가됩니다. 수백 또는 수천 개의 데이터 세트를 관리하는 경우 테스트하는 것이 좋습니다. 또한 평균 및 최대 사용 볼륨뿐 아니라, 대규모 데이터 세트가 포함된 특정 테넌트, 또는 다른 테넌트와는 다르게 관리되는 다양한 사용 패턴을 고려하는 것이 좋습니다.
 
