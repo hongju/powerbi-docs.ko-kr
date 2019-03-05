@@ -19,7 +19,7 @@ ms.locfileid: "56223700"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 시각적 개체에 대한 동적 참조 선 만들기
 
-**Power BI 서비스**의 **분석** 창에서 시각적 개체에 동적 참조 줄을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다.
+**Power BI 서비스**의 **분석** 창에서 시각적 개체에 동적 참조 선을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다.
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
 
