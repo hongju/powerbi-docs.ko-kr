@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408141"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892324"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI 사용자 지정 시각적 개체에 대한 질문과 대답
 
@@ -57,8 +57,44 @@ ms.locfileid: "56408141"
 
 ### <a name="what-are-certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체란?
 
-인증된 사용자 지정 시각적 개체는 특정 [지정된](power-bi-custom-visuals-certified.md) 코드 요구 사항 및 Power BI 팀의 테스트를 충족한 [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)의 시각적 개체입니다.  수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스하지 않는지 확인하도록 설계되었습니다. 그러나 Microsoft는 타사 사용자 지정 시각적 개체의 작성자가 아니므로 이러한 시각적 개체의 기능을 확인하려면 고객이 작성자에게 직접 문의하는 것이 좋습니다.
+인증된 사용자 지정 시각적 개체는 특정 [지정된](power-bi-custom-visuals-certified.md) 코드 요구 사항 및 Power BI 팀의 테스트를 충족하는 [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)의 시각적 개체입니다.  수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스할 수 없는지 확인하기 위해 설계되었습니다. 그러나 Microsoft는 타사 사용자 지정 시각적 개체의 작성자가 아니며, 이러한 시각적 개체의 기능을 확인하기 위해 작성자에게 직접 연락하는 것이 좋습니다.
 
+### <a name="what-tests-are-done-during-the-certification-process"></a>인증 프로세스 중 수행되는 테스트는 무엇인가요?
+
+인증 프로세스 테스트에는 다음이 포함되지만 이에 국한되지는 않습니다. 코드 검토, 정적 코드 분석, 데이터 유출, 데이터 퍼징, 침투 테스트, 액세스 XSS 테스트, 악성 데이터 주입, 입력 유효성 검사 및 기능 테스트.
+ 
+### <a name="do-you-certify-visuals-every-submission"></a>제출할 때마다 시각적 개체를 인증하나요?
+
+예. 인증된 시각적 개체의 새 버전이 Marketplace에 제출될 때마다 시각적 개체의 버전 업데이트는 동일한 인증 확인 하에 진행됩니다.
+
+개발자를 위한 참고: 인증된 시각적 개체의 버전 업데이트를 제출하는 경우 [첫 번째 인증 요청](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification)으로 별도의 이메일을 보낼 필요가 없습니다. 버전 업데이트의 인증은 자동으로 이루어지며 거부를 유발하는 모든 위반에는 수정해야 할 사항을 설명하는 이메일이 발송됩니다. 
+
+### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>인증된 시각적 개체가 새 업데이트로 인증되지 않는 것이 가능한가요?
+
+아니요, 이는 불가능합니다. 인증된 시각적 개체는 새 업데이트로 인증되지 않을 수 없습니다. 업데이트가 거부되었습니다.
+ 
+### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>인증 프로세스에 제출하려면 공용 리포지토리에서 내 코드를 공유해야 하나요?
+
+아니요, 공개적으로 코드를 공유할 필요가 없습니다. 그러나 시각적 개체 코드를 확인하기 위한 읽기 권한을 제공해야 합니다. 예: GitHub의 개인 리포지토리.
+ 
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>[Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 시각적 개체를 [게시](https://docs.microsoft.com/power-bi/developer/office-store)하여 인증해야 하나요?
+
+예. Marketplace에 시각적 개체를 먼저 게시하는 것은 인증을 위한 의무 요구 사항입니다.
+사용자 지정 시각적 개체를 인증하려면 서버에 있어야 합니다. 개인 시각적 개체는 인증할 수 없습니다.
+ 
+### <a name="how-long-does-it-take-to-certify-my-visual"></a>내 시각적 개체를 인증하는 데 얼마나 걸리나요?
+
+업데이트된 버전의 경우 최대 2주가 걸릴 수 있습니다. 새로운 제출(첫 번째 인증)의 경우 최대 3주가 걸릴 수 있습니다. 
+
+### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>인증 프로세스는 데이터 유출이 발생하지 않음을 보장하나요?
+
+수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스할 수 없는지 확인하기 위해 설계되었습니다. 그러나 Microsoft는 타사 사용자 지정 시각적 개체의 작성자가 아니며, 이러한 시각적 개체의 기능을 확인하기 위해 작성자에게 직접 연락하는 것이 좋습니다.
+ 
+### <a name="are-uncertified-custom-visuals-safe-to-use"></a>인증되지 않은 사용자 지정 시각적 개체는 사용하기에 안전한가요?
+
+인증되지 않은 사용자 지정 시각적 개체는 반드시 안전하지 않은 시각적 개체를 의미하지는 않습니다.
+일부 시각적 개체는 [인증 요구 사항](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) 중 하나 이상을 준수하지 않았기 때문에 인증되지 않았습니다. 예를 들어 맵 시각적 개체와 같은 외부 서비스에 연결하거나 상용 라이브러리를 사용하여 시각적 개체에 연결할 수 있습니다.
+ 
 ## <a name="visuals-with-additional-purchases"></a>추가 구매 조건이 있는 시각적 개체
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>추가 구매 조건이 있는 시각적 개체란?
@@ -100,7 +136,6 @@ IAP 사용자 지정 시각적 개체를 사용하고 있거나 이미 가지고
 또한 지침, 모범 사례 참고 사항을 찾을 수도 있습니다.  
 > [!Note]
 > 모든 무료 시각적 개체는 이전에 제공된 동일한 무료 기능을 유지해야 합니다. 이전 무료 기능을 기반으로 선택적 고급 유료 기능을 추가할 수 있습니다. 고급 기능을 갖춘 IAP 시각적 개체를 새 시각적 개체로 제출하고 이전 무료 버전을 업데이트하지 않는 것이 좋습니다.
-
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>내 IAP 사용자 지정 시각적 개체를 인증받을 수 있나요?
 

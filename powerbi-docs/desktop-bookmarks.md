@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325043"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892416"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비롯한 보고서 페이지의 현재 구성된 보기를 캡처하고 저장된 해당 책갈피를 선택하여 나중에 해당 상태로 돌아갈 수 있습니다. 
@@ -25,6 +25,9 @@ Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비�
 ![Power BI의 책갈피](media/desktop-bookmarks/bookmarks_01.png)
 
 책갈피에는 다양한 용도가 있습니다. 책갈피를 사용하여 보고서를 만드는 고유한 과정을 추적하고(책갈피는 쉽게 추가, 삭제, 이름 바꾸기 가능) 책갈피를 만들어서 순서대로 책갈피를 알아보는 PowerPoint 같은 프레젠테이션을 빌드할 수 있습니다. 이렇게 보고서에서 스토리를 만들 수 있습니다. 책갈피를 가장 잘 사용할 수 있는 방법에 따라 다른 용도로 사용될 수 있습니다.
+
+> [!TIP]
+> Power BI 서비스에서 개인 책갈피를 사용하는 방법에 대한 정보는 개인 책갈피 기능의 [블로그 공지](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/)를 살펴보세요. 
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>책갈피 미리 보기(2018년 3월 이전 버전) 사용
 Power BI Desktop 2018년 3월 버전부터 책갈피가 일반 공급됩니다. 
