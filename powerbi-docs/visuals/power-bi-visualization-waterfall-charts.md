@@ -55,7 +55,7 @@ ms.locfileid: "56215047"
 6. 조금 더 세부적으로 들어가 월간 편차의 가장 큰 요인을 살펴봅니다. **매장** > **지역**을 **분석 결과** 버킷으로 끕니다.
    
     ![분석 버킷의 매장 표시](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
-7. 기본적으로 Power BI는 월별 증가 또는 감소에 상위 5개 요인을 추가합니다. 하지만 상위 2개 요인에만 관심이 있는 경우  서식 지정 창에서 **분석**을 선택하고 **최대값**을 2로 설정하면 됩니다.
+7. 기본적으로 Power BI는 월별 증가 또는 감소에 상위 5개 요인을 추가합니다. 하지만 상위 2개 요인에만 관심이 있는 경우  서식 지정 창에서 **분석 결과**를 선택하고 **최대값**을 2로 설정하면 됩니다.
    
     ![서식 > 분석](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
