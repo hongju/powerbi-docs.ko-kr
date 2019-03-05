@@ -25,7 +25,7 @@ Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데
 > Power BI Desktop 보고서의 모든 데이터 원본은 예약된 새로 고침 구성을 지원해야 합니다.
 >  
 
-## <a name="list-of-supported-data-sources"></a>지원되는 데이터 원본 목
+## <a name="list-of-supported-data-sources"></a>지원되는 데이터 원본 목록
 
 다른 데이터 원본은 지원되는 목록에 없더라도 작동할 수 있습니다.
 
