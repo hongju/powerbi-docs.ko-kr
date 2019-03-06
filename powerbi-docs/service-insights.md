@@ -69,7 +69,7 @@ Amanda가 데이터 세트에 대한 빠른 인사이트를 실행하고, 정보
    
    * 시각화를 필터링합니다.  필터를 표시하려면 오른쪽 위에 있는 화살표를 선택하여 필터 창을 확대합니다.
         ![정보 확장된 필터 메뉴](media/service-insights/power-bi-insights-filter-new.png)
-   * 고정 ![고정 아이콘](media/service-insights/power-bi-pin-icon.png) 아이콘 또는 **시각적 개체 고정**을 선택하여 대시보드에 인사이트 카드를 고정합니다.
+   * 고정 ![고정 아이콘](media/service-insights/power-bi-pin-icon.png) 아이콘 또는 **시각적 개체 고정**을 선택하여 대시보드에 정보 활용 카드를 고정합니다.
    * 카드 자체에서 인사이트를 실행합니다. 이것을 **지정된 범위의 인사이트**라고 합니다. 오른쪽 위 모서리에서 전구 모양 아이콘 ![인사이트 아이콘](media/service-insights/power-bi-bulb-icon.png) 또는 **인사이트 얻기**을 선택합니다.
      
        ![인사이트를 보여주는 메뉴 모음 아이콘](media/service-insights/pbi-autoinsights-tile.png)
