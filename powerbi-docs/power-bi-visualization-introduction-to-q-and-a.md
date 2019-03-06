@@ -34,7 +34,7 @@ ms.locfileid: "54279254"
 1. **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.  보고서의 소유자가 아닌 경우 편집용 보기에서 보고서를 여는 옵션이 없습니다.
    
     ![보고서 편집 단추](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
-4. 영역형 차트를 선택하고 **필드** 창의 설정을 검토합니다.  보고서 작성자는 세 가지 값(**Time > FiscalMonth**, **Sales > Last Year Sales**, **Sales >This Year Sales >값**)을 선택하고 **축** 및 **값**에서 구성하여 이 차트를 작성했습니다.
+4. 영역형 차트를 선택하고 **필드** 창의 설정을 검토합니다.  보고서 작성자는 세 가지 값(**시간 > 회계 월**, **영업 > 올해 판매액**, **영업 >지난해 판매액 >값**)을 선택하고 **축** 및 **값** 웰에서 구성하여 이 차트를 작성했습니다.
    
     ![시각화 창](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
 
