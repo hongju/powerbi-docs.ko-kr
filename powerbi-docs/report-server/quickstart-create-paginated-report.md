@@ -1,6 +1,6 @@
 ---
 title: Power BI Report Server에 페이지를 매긴 보고서 만들기
-description: 몇 가지 간단한 단계를 거쳐 Power BI Report Server에 페이지가 매겨진 보고서를 만드는 방법을 알아봅니다.
+description: 몇 가지 간단한 단계를 거쳐 Power BI Report Server에 페이지를 매긴 보고서를 만드는 방법을 알아봅니다.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
@@ -17,18 +17,18 @@ ms.lasthandoff: 02/16/2019
 ms.locfileid: "56324671"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server에 페이지를 매긴 보고서 만들기
-이름에서 알 수 있듯이 여러 페이지에서 페이지가 매겨진 보고서를 실행할 수 있습니다. 고정된 형식으로 만들어졌으며 정확한 사용자 지정을 제공합니다. 페이지가 매겨진 보고서는 .rdl 파일입니다.
+이름에서 알 수 있듯이 여러 페이지에서 페이지를 매긴 보고서를 실행할 수 있습니다. 고정된 형식으로 만들어졌으며 정확한 사용자 지정을 제공합니다. 페이지를 매긴 보고서는 .rdl 파일입니다.
 
-SSRS(SQL Server Reporting Services) 웹 포털의 경우와 마찬가지로 Power BI Report Server 웹 포털에서 페이지가 매겨진 보고서를 저장하고 관리할 수 있습니다. SSDT(SQL Server Data Tools)의 보고서 작성기 또는 보고서 디자이너에서 만들고 편집한 다음 웹 포털에 게시합니다. 그런 다음 조직의 보고서 판독기는 해당 모바일 디바이스의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
+SSRS(SQL Server Reporting Services) 웹 포털의 경우와 마찬가지로 Power BI Report Server 웹 포털에서 페이지를 매긴 보고서를 저장하고 관리할 수 있습니다. SSDT(SQL Server Data Tools)의 보고서 작성기 또는 보고서 디자이너에서 만들고 편집한 다음 웹 포털에 게시합니다. 그런 다음 조직의 보고서 판독기는 해당 모바일 디바이스의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
 
 ![Power BI Report Server 페이지가 매겨진 보고서](media/quickstart-create-paginated-report/reportserver-paginated-report.png)
 
-보고서 작성기나 보고서 디자이너에서 페이지가 매겨진 보고서를 만든 경우 Power BI Report Server에 페이지가 매겨진 보고서를 만들 준비가 되었습니다. 그렇지 않은 경우 작업을 시작하는 빠른 단계는 다음과 같습니다.
+보고서 작성기나 보고서 디자이너에서 페이지를 매긴 보고서를 만든 경우 Power BI Report Server에 페이지를 매긴 보고서를 만들 준비가 되었습니다. 그렇지 않은 경우 작업을 시작하는 빠른 단계는 다음과 같습니다.
 
 ## <a name="step-1-install-and-start-report-builder"></a>1단계: 보고서 작성기 설치 및 시작
 SSRS 서버에 보고서를 만들기 위해 보고서 작성기를 이미 설치했을 수 있습니다. Power BI Report Server에 보고서를 만들기 위해 동일한 버전 이상의 보고서 작성기를 사용할 수 있습니다. 설치하지 않은 경우 프로세스가 쉽습니다.
 
-1. Power BI Report Server 웹 포털에서 **새로 만들기** > **페이지가 매겨진 보고서**를 선택합니다.
+1. Power BI Report Server 웹 포털에서 **새로 만들기** > **페이지를 매긴 보고서**를 선택합니다.
    
     ![새 페이지가 매겨진 보고서 메뉴](media/quickstart-create-paginated-report/reportserver-new-paginated-report-menu.png)
    
@@ -49,7 +49,7 @@ SSRS 서버에 보고서를 만들기 위해 보고서 작성기를 이미 설�
 ## <a name="step-2-go-through-the-chart-wizard"></a>2단계: 차트 마법사 설명
 차트 마법사는 보고서에서 시각화를 만드는 기본 단계를 설명합니다.
 
-페이지가 매겨진 보고서는 Microsoft SQL Server와 Microsoft Azure SQL Database 및 Oracle, Hyperion 등과 같은 다양한 데이터 소스에 연결할 수 있습니다. [페이지가 매겨진 보고서에서 지원하는 데이터 소스](connect-data-sources.md)에 대해 참고하세요.
+페이지를 매긴 보고서는 Microsoft SQL Server와 Microsoft Azure SQL Database 및 Oracle, Hyperion 등과 같은 다양한 데이터 소스에 연결할 수 있습니다. [페이지를 매긴 보고서에서 지원하는 데이터 소스](connect-data-sources.md)를 참고하세요.
 
 차트 마법사의 첫 번째 페이지, **데이터 세트 선택**에서 데이터 세트를 만들거나 서버에 대한 공유 데이터 세트를 선택할 수 있습니다. *데이터 세트*는 외부 데이터 원본에 대한 쿼리에서 보고서 데이터를 반환합니다.
 
