@@ -23,12 +23,12 @@ ms.locfileid: "56324234"
 ## <a name="add-or-view-comments"></a>주석 추가 또는 보기
 
 1. 보고서 서버에서 페이지가 매겨진 보고서 또는 Power BI 보고서를 엽니다.
-2. 오른쪽 위 모퉁이에서 **주석**을 선택합니다.
+2. 오른쪽 위 모퉁이에서 **설명**을 선택합니다.
 
     ![주석 선택](media/add-comments/report-server-web-portal-comments-button.png)
 
     주석 창에서 기존 주석을 볼 수 있습니다.
-3. 주석을 작성한 다음 **주석 게시**를 선택합니다.
+3. 주석을 작성한 다음 **댓글 게시**를 선택합니다.
 
     ![주석 게시](media/add-comments/report-server-web-portal-comments-pane.png)
 
