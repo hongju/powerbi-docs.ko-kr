@@ -8,18 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 02/28/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892393"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014142"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
 
-이 문서에서는 조직에 대한 Power BI 프리미엄 용량(P1-P3)을 구입하는 방법을 설명합니다. Office 365 관리 센터에서 Power BI Premium 용량을 구매하고 Power BI 관리 포털에서 [용량을 관리](service-admin-premium-manage.md)합니다. 최신 가격 책정 및 계획 정보는 [Power BI 가격 책정 페이지](https://powerbi.microsoft.com/pricing/) 및 [Power BI Premium 계산기](https://powerbi.microsoft.com/calculator/)를 참조하세요.
+> [!NOTE]
+> 이 문서는 현재 새로운 기능을 설명하고, 세부 사항을 제공하며 가독성을 향상시키기 위해 업데이트되고 있습니다. 
+
+이 문서에서는 조직에 대한 Power BI 프리미엄 용량(P1-P3)을 구입하는 방법을 설명합니다. Office 365 관리 센터에서 Power BI Premium 용량을 구매하고 Power BI 관리 포털에서 용량을 관리합니다. 최신 가격 책정 및 계획 정보는 [Power BI 가격 책정 페이지](https://powerbi.microsoft.com/pricing/) 및 [Power BI Premium 계산기](https://powerbi.microsoft.com/calculator/)를 참조하세요.
 
 조직에서 Power BI Premium을 사용하더라도 콘텐츠 작성자는 여전히 Power BI Pro 라이선스가 필요합니다. 조직을 위한 Power BI Pro 라이선스를 하나 이상 구입하세요.
 

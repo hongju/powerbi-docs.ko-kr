@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 03/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d388812985ce30b5692a385fc44e3cf7fc49161f
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892347"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226092"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI의 셀프 서비스 데이터 준비(미리 보기)
 
@@ -75,9 +75,7 @@ Power BI는 조직의 Azure Data Lake Storage 계정에 저장된 공통 데이�
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Power BI Premium의 데이터 흐름 기능
 
-데이터 흐름 기능 및 워크로드가 Power BI Premium 구독에서 작동하려면 해당 프리미엄 용량의 데이터 흐름 워크로드가 켜져 있어야 합니다. [Power BI Premium이란](service-premium.md) 문서에서 Power BI Premium에 대해 자세히 알아볼 수 있습니다. 
-
-다음 표에는 Power BI Pro 계정을 사용하는 경우의 데이터 흐름 기능 및 해당 용량이 Power BI Premium을 사용하는 경우와 비교하여 설명되어 있습니다.
+데이터 흐름 기능 및 워크로드가 Power BI Premium 구독에서 작동하려면 해당 프리미엄 용량의 데이터 흐름 워크로드가 켜져 있어야 합니다. 다음 표에는 Power BI Pro 계정을 사용하는 경우의 데이터 흐름 기능 및 해당 용량이 Power BI Premium을 사용하는 경우와 비교하여 설명되어 있습니다.
 
 
 |데이터 흐름 기능 | Power BI Pro |   Power BI Premium |
@@ -95,7 +93,7 @@ Power BI는 조직의 Azure Data Lake Storage 계정에 저장된 공통 데이�
 |데이터 흐름 연결된 엔터티| |        +|
 |표준화된 스키마/공통 데이터 모델에 대한 기본 제공 지원|  +|  +|
 
-Premium 용량에서 데이터 흐름 워크로드를 활성화하는 방법을 알아보려면 Power BI Premium의 [워크로드 구성](service-admin-premium-manage.md#configure-workloads) 문서를 참조하세요. 데이터 흐름 워크로드는 현재 다중 지역 용량에서 사용할 수 없습니다.
+Premium 용량에서 데이터 흐름 워크로드를 활성화하는 방법을 알아보려면 [프리미엄 용량 워크로드 구성](service-admin-premium-workloads.md)을 참조하세요. 데이터 흐름 워크로드는 현재 다중 지역 용량에서 사용할 수 없습니다.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Power BI의 빅 데이터용 셀프 서비스 데이터 준비에 대한 요약
 이 문서의 앞에 설명된 것처럼 **데이터 흐름**을 사용하여 비즈니스 데이터를 더 효율적으로 제어하고 더 빠르게 인사이트를 얻을 수 있는 여러 시나리오와 예제가 있습니다. 공통 데이터 모델에 의해 정의된 표준 데이터 모델(스키마)을 사용하면 데이터 흐름이 중요한 비즈니스 데이터를 가져와 매우 짧은 기간 동안 BI 인사이트를 모델링하고 만들기를 위한 데이터를 준비할 수 있습니다. 이전에는 이러한 인사이트 만들기에 몇 달 또는 그 이상의 시간이 걸렸습니다. 

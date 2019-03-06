@@ -27,7 +27,7 @@ Power BI ***대시보드***는 시각화를 통해 스토리를 알려주는 흔
 
 ## <a name="dashboard-basics"></a>대시보드 기본 사항 
 
-대시보드에 표시되는 시각화를 *타일*이라고 합니다. *pin* 타일을 보고서에서 대시보드로 가져옵니다. Power BI를 처음 접하는 경우 [Power BI 기본 개념](service-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
+대시보드에 표시되는 시각화를 *타일*이라고 합니다. 보고서에서 대시보드로 타일을 고정할 수 있습니다. Power BI를 처음 접하는 경우 [Power BI 기본 개념](service-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
 
 > [!IMPORTANT]
 > 대시 보드를 만들려면 [Power BI Pro](service-free-vs-pro.md) 라이선스가 필요합니다.

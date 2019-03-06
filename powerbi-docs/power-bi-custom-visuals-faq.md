@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: c33ec747af514611df0ef00832acb785f04c40f1
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892324"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014165"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI 사용자 지정 시각적 개체에 대한 질문과 대답
 
@@ -99,7 +99,7 @@ ms.locfileid: "56892324"
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>추가 구매 조건이 있는 시각적 개체란?
 
-추가 구매 조건이 있는 시각적 개체는 마켓플레이스의 IAP(앱 내 구매) 추가 기능과 비슷하며, 이러한 추가 구매에는  **추가 구매가 필요할 수도 있음**이라는 가격 태그가 있습니다.
+추가 구매 조건이 있는 시각적 개체는 마켓플레이스의 IAP(앱 내 구매) 추가 기능과 비슷하며, 이러한 추가 구매에는 **추가 구매가 필요할 수도 있음**이라는 가격 태그가 있습니다.
 
 IAP 사용자 지정 시각적 개체는 평가판으로 다운로드할 수 있는 사용자 지정 시각적 개체입니다. 마켓플레이스에서 사용자 지정 시각적 개체를 다운로드하는 경우 사용자는 아무 비용도 추가로 지불하지 않습니다. IAP 시각적 개체는 고급 기능에 대한 앱 내 구매 옵션을 제공합니다.  
 
