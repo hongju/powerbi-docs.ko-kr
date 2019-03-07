@@ -8,18 +8,18 @@ featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286685"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014464"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 시각화를 위한 팁과 힌트
-Power BI는 Bing 지도와 통합되어 기본 지도 좌표를 제공(지오코딩이라는 프로세스)하므로 지도를 쉽게 만들 수 있습니다. 이와 함께 알고리즘을 사용하여 올바른 위치를 식별하지만, 경우에 따라 추측하기도 합니다. Power BI가 자체적으로 지도 시각화를 만들 수 없는 경우 Bing 지도의 도움말을 등록합니다. 
+Power BI는 Bing 지도와 통합되어 기본 지도 좌표를 제공(지오코딩이라는 프로세스)하므로 지도를 쉽게 만들 수 있습니다. 이와 함께 알고리즘을 사용하여 올바른 위치를 식별하지만, 경우에 따라 추측하기도 합니다. Power BI가 자체적으로 지도 시각화를 만들 수 없는 경우 Bing Maps의 도움말을 등록합니다. 
 
 사용자 또는 사용자의 관리자는 지오코딩에 URL Bing을 사용할 수 있도록 방화벽을 업데이트해야 할 수 있습니다.  이러한 URL은 다음과 같습니다.
 * https://dev.virtualearth.net/REST/V1/Locations
@@ -31,8 +31,8 @@ Power BI는 Bing 지도와 통합되어 기본 지도 좌표를 제공(지오코
 ## <a name="what-is-sent-to-bing-maps"></a>Bing 지도로 무엇이 전송됩니까?
 Power BI 서비스 및 Power BI Desktop은 지도 시각화를 만드는 데 필요한 지역 데이터를 Bing에 전송합니다. 여기에는 **위치**, **위도** 및 **경도** 버킷의 데이터와 **보고서 수준**, **페이지 수준** 또는 **시각적 수준** 필터 버킷 중 하나의 지역 필드가 포함될 수 있습니다. 전달되는 내용은 지도 형식에 따라 달라집니다. 자세히 알아보려면 [Bing 지도 개인 정보](https://go.microsoft.com/fwlink/?LinkID=248686)를 참조하세요.
 
-* 지도(거품형 지도)의 경우 위도 및 경도가 제공되면 데이터는 Bing에 전송되지 않습니다. 그렇지 않은 경우 위치(및 필터) 버킷의 데이터가 Bing에 전송됩니다.     
-* 등치 지역도는 위도와 경도가 제공되더라도 위치 버킷에 필드가 필요합니다. 위치, 위도 또는 경도 버킷에 있는 모든 데이터가 Bing에 전송됩니다.
+* 지도(거품형 지도)의 경우 위도 및 경도가 제공되면 데이터는 Bing에 전송되지 않습니다. 그렇지 않은 경우 **위치**(및 필터) 버킷의 데이터가 Bing에 전송됩니다.     
+* 등치 지역도는 위도와 경도가 제공되더라도 **위치** 버킷에 필드가 필요합니다. **위치**, **위도** 또는 **경도** 버킷에 있는 모든 데이터가 Bing에 전송됩니다.
   
     아래 예에서 **공급 업체** 필드가 지오코딩에 사용되었으므로 모든 공급 업체 데이터가 Bing에 전송됩니다. **크기** 및 **색 채도** 버킷의 데이터는 Bing에 전송되지 않습니다.
   

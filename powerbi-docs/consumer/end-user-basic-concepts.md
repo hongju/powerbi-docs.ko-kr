@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 994645f2ca52c992b8d61590bc02d9f9f63891ce
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: db9f6218d0657946f04b7589a15be99270cf7030
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662263"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196462"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI 서비스 ***소비자를*** 위한 기본 개념
 
@@ -88,6 +88,10 @@ _______________________________________________________
 * 해당 데이터 세트의 시각화가 여러 대시보드에 표시될 수 있습니다.
   
   ![데이터 세트 M:1 관계](media/end-user-basic-concepts/drawing2.png)
+
+또한 작업 영역에서 콘텐츠(보고서, 대시보드)를 만드는 데 다른 작업 영역의 데이터 세트를 사용할 수 있습니다. 이러한 데이터 세트는 참조 데이터 세트를 사용하여 표시됩니다. 
+
+![링크 아이콘이 포함된 데이터베이스](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 다음 단원(시각화)에서 계속.
 __________________________________________________________

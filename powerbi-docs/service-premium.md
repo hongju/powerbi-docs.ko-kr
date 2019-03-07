@@ -8,19 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/15/2019
+ms.date: 02/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: a048f589b19acd1a7c38a5b81cf781d1e76b7b5b
-ms.sourcegitcommit: 187d20180d9bae5a2ec53748cede9e7301e0343e
+ms.openlocfilehash: cb9280f47f1f2d28ce6fabda2dbc173fbdc837ac
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "56725343"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226138"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium이란?
 
-Microsoft Power BI Premium은 조직에 대해 Power BI 서비스를 실행하는 전용 리소스를 제공합니다. 더욱 신뢰할 수 있는 성능을 제공하고 더 큰 데이터 볼륨을 사용하도록 설정합니다. 또한 Premium을 통해 콘텐츠 소비자를 위한 사용자별 Pro 라이선스를 구입할 필요 없이 광범위하게 콘텐츠를 배포할 수 있습니다.  
+> [!NOTE]
+> 이 문서는 현재 새로운 기능을 설명하고, 세부 사항을 제공하며 가독성을 향상시키기 위해 업데이트되고 있습니다. 최신 정보는 [Power BI Premium 용량 배포 및 관리](whitepaper-powerbi-premium-deployment.md)를 참조하세요.
+
+Power BI Premium은 조직에 대해 Power BI 서비스를 실행하는 전용 리소스를 제공합니다. 더욱 신뢰할 수 있는 성능을 제공하고 더 큰 데이터 볼륨을 사용하도록 설정합니다. 또한 Premium을 통해 콘텐츠 소비자를 위한 사용자별 Pro 라이선스를 구입할 필요 없이 광범위하게 콘텐츠를 배포할 수 있습니다.  
 
 ## <a name="premium-capacity-and-shared-capacity"></a>프리미엄 용량 및 공유 용량
 
@@ -79,9 +82,7 @@ Power BI 프리미엄은 서로 다른 v-코어 용량으로 노드 구성에서
 
 ## <a name="workloads-in-premium-capacity"></a>프리미엄 용량에서 워크로드
 
-Power BI의 워크로드를 사용자에게 제공할 수 있는 많은 서비스 중 하나로 생각해 보세요. 기본적으로 **Power BI Premium** 및 **Power BI Embedded**의 용량은 클라우드에서 실행 중인 Power BI 쿼리와 연결된 워크로드만 지원합니다.
-
-이제 다음 두 가지 추가 워크로드의 미리 보기를 지원합니다. **페이지를 매긴 보고서** 및 **데이터 흐름**. 이러한 워크로드는 Power BI 관리 포털에서 또는 Power BI REST API를 통해 사용하도록 설정합니다. 다양한 워크로드가 서로 영향을 미치는 방식을 제어할 수 있도록 각 워크로드가 이용하는 최대 메모리를 설정할 수도 있습니다. 자세한 내용은 [워크로드 구성](service-admin-premium-manage.md#configure-workloads)을 참조하세요.
+기본적으로 **Power BI Premium** 및 **Power BI Embedded**의 용량은 클라우드에서 실행 중인 Power BI 쿼리와 연결된 워크로드만 지원합니다. 프리미엄은 또한 **AI**, **데이터 흐름** 및 **페이지를 매긴 보고서**에 대한 추가 워크로드를 지원합니다. 이러한 워크로드는 Power BI 관리 포털에서 또는 Power BI REST API를 통해 사용하도록 설정합니다. 다양한 워크로드가 서로 영향을 미치는 방식을 제어할 수 있도록 각 워크로드가 이용하는 최대 메모리를 설정할 수도 있습니다. 자세한 내용은 [워크로드 구성](service-admin-premium-workloads.md)을 참조하세요.
 
 ### <a name="default-memory-settings"></a>기본 메모리 설정
 
@@ -114,10 +115,10 @@ Power BI Premium에는 조직의 Power BI Report Server를 온-프레미스에�
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI Premium FAQ](service-premium-faq.md)
-[Power BI Premium 구매 방법](service-admin-premium-purchase.md)
-[Power BI Premium 관리](service-admin-premium-manage.md)
-[Microsoft Power BI Premium 백서](https://aka.ms/pbipremiumwhitepaper)
-[Power BI Enterprise 배포 계획 백서](https://aka.ms/pbienterprisedeploy)
+[Power BI Premium 용량 배포 및 관리](whitepaper-powerbi-premium-deployment.md)   
+[Power BI Premium 구매 방법](service-admin-premium-purchase.md)   
+[Power BI 프리미엄 FAQ](service-premium-faq.md)   
+
+
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

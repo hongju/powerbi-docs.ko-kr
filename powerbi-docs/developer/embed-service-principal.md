@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248910"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014418"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI(미리 보기)를 포함하는 서비스 주체
 
@@ -165,7 +165,7 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 
 * 서비스 주체는 [새 앱 작업 영역](../service-create-the-new-workspaces.md)에서만 작동합니다.
 * 서비스 주체 사용 시 **내 작업 영역**이 지원되지 않습니다.
-* 프로덕션으로 이동 시 [전용 용량](../service-admin-premium-manage.md)이 필요합니다.
+* 프로덕션으로 이동 시 전용 프리미엄 용량이 필요합니다.
 * 서비스 주체를 사용하여 Power BI 포털에 로그인할 수 없습니다.
 * Power BI 관리자 권한은 Power BI 관리 포털의 개발자 설정에서 서비스 주체를 활성화하는 데 필요합니다.
 * 서비스 주체를 사용하여 온-프레미스 데이터 게이트웨이를 설치하거나 관리할 수 없습니다.

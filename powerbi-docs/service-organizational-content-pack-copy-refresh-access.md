@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42e9f69c3cdab945c0f000a0cc2ae4654d9ec9b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296118"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196439"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>조직 콘텐츠 팩: 복사, 새로 고침 및 액세스
 
@@ -36,6 +36,12 @@ ms.locfileid: "54296118"
 2. **저장**을 선택합니다.  
 
 이제 변경할 수 있는 복사본이 있습니다. 아무도 변경 내용을 볼 수 없습니다.
+
+> [!NOTE]
+> 이전에는 콘텐츠 팩을 설치하거나 복사본을 만들 때마다 새 데이터 세트가 작업 영역 콘텐츠 목록에 나타났습니다. 최신 업데이트에서는 새 참조 데이터 세트 아이콘을 사용하여 하나의 항목만 표시하도록 환경이 간소화되었습니다.
+>
+> ![링크 아이콘이 포함된 데이터베이스](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
+> 
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>도와주세요!  콘텐츠 팩에 더 이상 액세스할 수 없습니다.
 여러 가지 이유로 이와 같은 현상이 발생할 수 있습니다.

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: cb4d53166c848bcdb111b667ff413d96da9e72d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f6a17a3e4033d5a97c5ae7744fef955aeed16eeb
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290524"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327737"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 SAML(Security Assertion Markup Language)을 사용합니다.
 
@@ -57,54 +57,7 @@ SAML을 사용하려면 먼저 SAML ID 공급자의 인증서를 생성한 다�
 
     ![ID 공급자 선택](media/service-gateway-sso-saml/select-identity-provider.png)
 
-다음으로, [xmlsec1 도구](http://sgros.blogspot.com/2013/01/signing-xml-document-using-xmlsec1.html)를 사용하여 *SAML 어설션*으로 설정의 유효성을 검사합니다.
-
-1. 아래 어설션을 assertion-template.xml로 저장합니다. \<MyUserId\>를 7단계에서 입력한 Power BI 사용자의 UPN으로 바꿉니다.
-
-    ```xml
-    <?xml version="1.0" encoding="UTF-8" ?>
-    <saml2:Assertion ID="Assertion12345789" IssueInstant="2015-07-16T04:47:49.858Z" Version="2.0" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
-      <saml2:Issuer></saml2:Issuer> 
-      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
-        <SignedInfo>
-          <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
-          <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
-          <Reference URI="">
-            <Transforms>
-              <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
-              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
-            </Transforms>
-            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-            <DigestValue />
-          </Reference>
-        </SignedInfo>
-        <SignatureValue />
-        <KeyInfo>
-          <X509Data />
-        </KeyInfo>
-      </Signature>
-      <saml2:Subject>
-        <saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"><MyUserId></saml2:NameID>
-      </saml2:Subject>
-      <saml2:Conditions NotBefore="2010-01-01T00:00:00Z" NotOnOrAfter="2050-01-01T00:00:00Z"/>
-    </saml2:Assertion>
-    ```
-
-1. 다음 명령을 실행합니다. saltest.key 및 samltest.crt는 1단계에서 생성한 키와 인증서입니다.
-
-    ```
-    xmlsec1 --sign --privkey-pem samltest.key, samltest.crt --output signed.xml assertion-template.xml
-    ```
-
-1. SAP HANA studio에서 SQL 콘솔 창을 열고 다음 명령을 실행합니다. \<SAMLAssertion\>을 이전 단계의 xml 콘텐츠로 바꿉니다.
-
-    ```SQL
-    CONNECT WITH SAML ASSERTION '<SAMLAssertion>'
-    ```
-
-쿼리가 성공하면 SAP HANA SAML SSO 설정이 성공적인 것입니다.
-
-인증서와 ID가 성공적으로 구성되었으므로 인증서를 pfx 형식으로 변환하고 인증서를 사용하도록 게이트웨이 머신을 구성합니다.
+인증서와 ID가 구성되었으므로 인증서를 pfx 형식으로 변환하고 인증서를 사용하도록 게이트웨이 머신을 구성합니다.
 
 1. 다음 명령을 실행하여 인증서를 pfx 형식으로 변환합니다.
 

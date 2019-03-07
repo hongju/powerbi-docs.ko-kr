@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: 812ac76266f8ef3299fa72b575c9ff68d2e75a79
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: a3dbd1229360b641d343c6142b45446f36963803
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216358"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014280"
 ---
 # <a name="certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체
 
@@ -165,6 +165,10 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-ha
 | [CloudScope의 사용자 목록](https://appsource.microsoft.com/product/power-bi-visuals/WA104381426) | |
 | [와플 차트](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049) | [비디오](https://youtu.be/1vRqYUsm3Vk) |
 | [워드 클라우드](https://appsource.microsoft.com/product/power-bi-visuals/WA104380752) | [비디오](https://youtu.be/AblTenl9fqo) |
+
+## <a name="faq"></a>FAQ
+
+시각적 개체에 대한 자세한 내용은 [인증된 시각적 개체에 관한 자주 묻는 질문](power-bi-custom-visuals-faq.md#certified-custom-visuals)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

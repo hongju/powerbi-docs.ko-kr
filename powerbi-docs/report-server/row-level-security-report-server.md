@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 8fe48becd106a91c0a57d145eab4b546985e2ba6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324947"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226207"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Report Server의 RLS(행 수준 보안)
 
@@ -48,7 +48,7 @@ Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성�
 1. Power BI Desktop에서 보고서를 Power BI Report Server에 저장합니다. Power BI Report Server에 최적화된 Power BI Desktop 버전을 사용해야 합니다.
 2. Power BI 보고서 서비스에서 보고서 옆의 줄임표(**...**)를 선택합니다. 
 
-3.  **관리** > **행 수준 보안**을 선택합니다. 
+3. **관리** > **행 수준 보안**을 선택합니다. 
 
      ![행 수준 보안 관리](media/row-level-security-report-server/power-bi-report-server-rls-dialog.png)
 

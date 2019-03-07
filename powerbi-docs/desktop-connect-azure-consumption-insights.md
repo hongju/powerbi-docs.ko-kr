@@ -1,5 +1,5 @@
 ---
-title: Azure Consumption Insights 데이터에 연결(베타)
+title: Power BI Desktop에서 Azure 비용 및 사용량에 연결
 description: Power BI Desktop을 사용하여 쉽게 Azure에 연결 및 소비 및 사용량에 대한 정보 얻기
 author: davidiseminger
 manager: kfile
@@ -11,21 +11,27 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1302ede9c28cc42b3605e55705f07620f2974990
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216059"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327990"
 ---
-# <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop(베타)의 Azure Consumption Insights에 연결
-**Azure Consumption Insights** 커넥터에서 **Power BI Desktop**을 사용하여 Azure에 연결하고 조직의 Azure 서비스 사용에 대한 심층 분석 데이터 및 정보를 가져옵니다. 또한 측정값, 사용자 지정 열, 시각적 개체를 만들어 조직의 Azure 사용에 대해 보고하고 공유할 수 있습니다. **Azure Consumption Insights** 커넥터의 이 릴리스는 베타 상태이며 변경될 수 있습니다.
+# <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure 비용 및 사용량 데이터 분석
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01.png)
+Power BI Desktop에서는 Azure에 연결하여 조직의 Azure 서비스 사용량에 대한 자세한 데이터를 가져올 수 있습니다. 이를 통해 사용자 지정 보고서 및 측정값을 만들어 Azure 지출을 더 잘 이해하고 분석할 수 있습니다.
 
-이 문서에서는 **Azure Consumption Insights** 커넥터를 사용하여 연결하고 필요한 데이터를 가져오는 방법, Azure 엔터프라이즈 커넥터를 사용하여 마이그레이션하는 방법을 알아봅니다. 그러면 **ACI**(Azure Consumption Insights) API 매핑에서 사용할 수 있는 *사용 정보 열*을 매핑할 수 있습니다.
+Power BI는 현재 기업 계약 및 고객 계약 청구 계정에 대한 연결을 지원합니다.
 
-## <a name="connect-to-azure-consumption-insights"></a>Azure Consumption Insights에 연결
+기업 계약 사용자는 Azure Consumption Insights 커넥터를 사용하여 연결해야 합니다. 고객 계약 계정 사용자는 Azure Cost Management 커넥터를 사용하여 연결해야 합니다.
+
+## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights에 연결
+
+Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계정에 연결할 수 있습니다.
+
+이 섹션에서는 연결하여 필요한 데이터를 가져오는 방법, Azure Enterprise Connector를 사용하여 마이그레이션하는 방법을 알아봅니다. 그러면 **ACI**(Azure Consumption Insights) API에서 사용할 수 있는 *사용량 세부 정보 열*의 매핑을 찾을 수 있습니다.
+
 **Azure Consumption Insights** 커넥터를 사용하여 성공적으로 연결하려면 Azure Portal 내에서 엔터프라이즈 기능에 액세스해야 합니다.
 
 **Azure Consumption Insights** 커넥터를 사용하여 연결하려면 **Power BI Desktop**의 **홈** 리본에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **온라인 서비스**를 선택하면 **Microsoft Azure Consumption Insights(베타)** 가 표시됩니다. **연결**을 선택합니다.
@@ -70,7 +76,7 @@ ms.locfileid: "56216059"
 > 
 > 
 
-**부하**를 선택하는 경우 데이터는 **Power BI Desktop**으로 로드됩니다.  커넥터는 테이블의 기본 기간에 따라 데이터를 로드합니다.  기간을 사용자 지정해야 하는 경우 [사용자 지정 쿼리를 설정할 수 있습니다](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
+**부하**를 선택하는 경우 데이터는 **Power BI Desktop**으로 로드됩니다.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
@@ -195,12 +201,77 @@ Azure Portal의 열 및 세부 정보 이름은 API 및 커넥터와 유사하�
 | 저장소 서비스 식별자 |storeServiceIdentifier |저장소 서비스 식별자 |아니요 |
 | StoreServiceIdentifierId | | |예 |
 | 구독 이름 |subscriptionName |구독 이름 |아니요 |
-| 태그 |tags |태그 |아니요 |
+| 태그 |태그 |태그 |아니요 |
 | TagsId | | |예 |
 | 측정 단위 |unitOfMeasure |측정 단위 |아니요 |
 | 연도 | |연도 |아니요 |
 | SubscriptionId |subscriptionId |SubscriptionId |예 |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |아니요 |
+
+## <a name="connect-with-azure-cost-management"></a>Azure Cost Management에 연결
+
+이 섹션에서는 고객 계약 청구 계정에 연결하는 방법을 알아봅니다.
+
+**Azure Cost Management** 커넥터를 사용하여 연결하려면 **Power BI Desktop**의 **홈** 리본에서 **데이터 가져오기**를 선택합니다.  왼쪽에 있는 범주에서 **Azure**를 선택하면 **Azure Cost Management(베타)** 가 표시됩니다. **연결**을 선택합니다.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
+
+나타나는 대화 상자에서 *청구 프로필 ID*를 입력합니다.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-01.png)
+
+사용자의 청구 프로필 ID를 [Azure Portal](https://portal.azure.com)에서 가져올 수 있습니다.  **비용 관리 + 청구**로 이동하고, 청구 계정을 선택한 다음, **청구 프로필** 사이드바를 선택합니다.  청구 프로필을 선택하고 사이드바에서 **속성**을 선택합니다.  청구 프로필 ID를 복사합니다.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-02.png)
+
+Azure 이메일 및 암호를 사용하여 로그인하라는 메시지가 표시됩니다.  인증에 성공하면 다음을 수행할 수 있는 12가지 테이블이 포함된 **탐색기** 창이 표시됩니다.
+
+* **청구 이벤트**: 새 송장, 크레딧 구매 등의 이벤트 로그를 제공합니다.
+* **예산**: 예산 세부 정보를 제공하여 기존 예산 목표 대비 실제 비용 및 사용을 봅니다. 
+* **요금**: Azure 사용량, 시장 요금 및 개별 청구 요금에 대한 월별 요약을 제공합니다.
+* **크레딧 로트**: 제공된 청구 프로필에 대한 Azure 크레딧 로트 구매 세부 정보를 제공합니다.
+* **크레딧 요약**: 제공된 청구 프로필에 대한 크레딧 요약을 제공합니다.
+* **Marketplace**: 사용량 기반 Azure Marketplace 요금을 제공합니다.
+* **가격표**: 제공된 청구 프로필에 대한 미터별 적용 가능한 요율을 제공합니다.
+* **RI 요금**: 지난 24개월 동안 예약 인스턴스와 관련된 요금을 제공합니다.
+* **RI 권장 사항(단일)**: 지난 7일, 30일 또는 60일 동안 단일 구독에서 사용량 추세를 기반으로 예약 인스턴스 구매 권장 사항을 제공합니다.
+* **RI 권장 사항(공유)**: 지난 7일, 30일 또는 60일 동안 모든 구독에서 사용량 추세를 기반으로 예약 인스턴스 구매 권장 사항을 제공합니다.
+* **RI 사용량**: 지난 한 달 동안 기존 예약 인스턴스에 대한 소비 세부 정보를 제공합니다.
+* **사용량 세부 정보**: 지정된 청구 프로필 ID에 대해 사용한 수량 및 예상 요금 내역을 제공합니다.
+
+테이블 옆에 있는 확인란을 선택하여 미리 보기를 확인할 수 있습니다.  해당 이름 옆에 있는 확인란을 선택하고 **로드**를 선택하면 하나 이상의 테이블을 선택할 수 있습니다.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-03.png)
+
+**부하**를 선택하는 경우 데이터는 **Power BI Desktop**으로 로드됩니다.
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+
+선택한 데이터가 로드되면 선택한 테이블 및 필드를 **필드** 창에서 볼 수 있습니다.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
+
+## <a name="writing-custom-queries"></a>사용자 지정 쿼리 작성
+
+개월 수를 사용자 지정하거나 API 버전을 변경하거나 반환된 데이터에 더 고급 논리를 수행하려는 경우 사용자 지정 M 쿼리를 만들 수 있습니다.
+
+**Power BI Desktop**의 **홈** 리본으로 이동하고, **데이터 가져오기**의 드롭다운을 선택한 다음, **빈 쿼리**를 선택합니다.  이 작업은 **쿼리 편집기**에서도 수행할 수 있습니다. 왼쪽에 있는 **쿼리** 창을 마우스 오른쪽 단추로 클릭하고, 나타나는 메뉴에서 **새 쿼리 > 빈 쿼리 메뉴**를 선택하면 됩니다.
+
+**수식 입력줄**에서 다음을 입력합니다. `billingProfileId`를 실제 ID로 바꾸고, “charges”를 유효한 테이블 이름(위에서 나열)으로 바꾸어 입력합니다.
+
+```
+let
+    Source = AzureCostManagement.Tables(billingProfileId, [ numberOfMonths = 3 ]),
+    charges = Source{[Key="charges"]}[Data]
+in
+    charges
+```
+
+`numberOfMonths`를 1과 36 사이 값으로 수정하는 것 외에도 다음을 입력할 수 있습니다.
+
+* `apiVersion`을 입력하여 쿼리가 호출하는 API의 버전을 사용자 지정합니다.
+* RI 권장 사항(단일 또는 공유)에 대한 `lookbackWindow`를 입력하여 권장 사항을 생성하는 창을 수정합니다(유효한 옵션: 7, 30 일 또는 60일).
+
 
 ## <a name="next-steps"></a>다음 단계
 Power BI Desktop을 사용하여 연결할 수 있는 모든 종류의 데이터가 있습니다. 데이터 원본에 대한 자세한 내용은 다음 리소스를 확인하세요.
