@@ -44,10 +44,10 @@ Power BI 서비스(Power BI Desktop 아님)에 로그인하고 Power BI 서비�
 2. 이 보고서와 연결된 데이터 세트는 **Contoso Sales**입니다.
    
     ![Contoso Sales 데이터 세트](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. 데이터 세트 이름 오른쪽에 있는 **줄임표(...) &gt; 설정**을 선택합니다.  
+3. 데이터 세트 이름 오른쪽에 있는 **생략 부호(...) &gt; 설정**을 선택합니다.  
    
     ![설정 선택](media/service-cortana-enable/power-bi-settings-cortana.png)
-4. **질문 및 답변과 Cortana** > **Cortana가 이 데이터 세트에 액세스할 수 있도록 허용합니다** > **적용**을 선택합니다.
+4. **Q&amp;A 및 Cortana** > **Cortana가 이 데이터 세트에 액세스할 수 있도록 허용** > **적용**을 선택합니다.
    
    ![Cortana 액세스 데이터 세트](media/service-cortana-enable/power-bi-cortana-enable-new.png)
    
