@@ -37,7 +37,7 @@ Power BI는 새 작업 영역 환경을 미리 보기 상태로 소개합니다.
    
      ![앱 작업 영역 만들기](media/service-create-the-new-workspaces/power-bi-create-app-workspace.png)
 
-2. **개선된 작업 영역을 미리 보기**에서 **지금 사용해 보기**를 선택합니다.
+2. **개선된 작업 영역을 미리 보기**에서 **지금 시도**를 선택합니다.
    
      ![개선된 작업 영역 미리 보기](media/service-create-the-new-workspaces/power-bi-preview-improved-workspaces.png)
 
@@ -63,7 +63,7 @@ Power BI는 새 작업 영역 환경을 미리 보기 상태로 소개합니다.
 
 1. **액세스**를 선택합니다.
 
-1. 보안 그룹, 배포 목록, Office 365 그룹 또는 개인을 이러한 작업 영역에 멤버, 기여자 또는 관리자로 추가합니다. 다양한 역할에 대한 설명은 [새 작업 영역의 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
+1. 보안 그룹, 배포 목록, Office 365 그룹 또는 개인을 이러한 작업 영역에 구성원, 참가자 또는 관리자로 추가합니다. 다양한 역할에 대한 설명은 [새 작업 영역의 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
 
     ![작업 영역 추가 멤버, 관리자, 기여자](media/service-create-the-new-workspaces/power-bi-access-add-members.png)
 
