@@ -1,5 +1,5 @@
 ---
-title: Power BI 게이트웨이란?
+title: 온-프레미스 데이터 게이트웨이란 무엇입니까?
 description: Power BI의 데이터 게이트웨이에 대한 기본 사항을 알아봅니다.
 author: mgblythe
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: f1ae47dcb7c9281db018952d619691607d331003
+ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324487"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57461652"
 ---
-# <a name="what-are-power-bi-gateways"></a>Power BI 게이트웨이란?
+# <a name="what-are-on-premises-data-gateways"></a>온-프레미스 데이터 게이트웨이란 무엇입니까?
 
 Power BI 게이트웨이는 온-프레미스 네트워크 내에 설치하는 소프트웨어로서, 이 게이트웨이를 통해 해당 네트워크의 데이터에 액세스할 수 있습니다. 연결 요청을 수신 대기하고 사용자의 요청이 특정 기준에 부합할 때만 액세스를 부여하는 게이트키퍼와 유사합니다. 이를 통해 조직에서는 데이터베이스와 기타 데이터 원본을 온-프레미스 네트워크에 유지하면서도 Power BI 보고서 및 대시보드에서 해당 온-프레미스 데이터를 안전하게 사용할 수 있습니다.
 
