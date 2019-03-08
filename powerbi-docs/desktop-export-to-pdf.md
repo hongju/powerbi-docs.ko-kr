@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7b835231356ad14ab434b86a2d1f99aa7212358d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 2f64973650edd951a9a780090426afba3e8471f5
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215645"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555582"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>보고서를 Power BI Desktop에서 PDF로 내보내기
-**Power BI Desktop**에서 PDF 파일로 보고서를 내보내고 따라서 해당 PDF에서 보고서를 쉽게 공유하거나 인쇄할 수 있습니다.
+**Power BI Desktop** 또는 Power BI 서비스에서 PDF 파일로 보고서를 내보내고 따라서 해당 PDF에서 보고서를 쉽게 공유하거나 인쇄할 수 있습니다.
 
 ![PDF로 내보내기](media/desktop-export-to-pdf/export-to-pdf_01.png)
 
@@ -35,7 +35,6 @@ ms.locfileid: "56215645"
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 **PDF로 내보내기** 기능에서 유의해야 하는 몇 가지 고려 사항이 있습니다.
 
-* **PDF로 내보내기** 기능은 **Power BI Desktop**에서만 사용할 수 있고 현재 **Power BI 서비스**에서 사용할 수 없습니다.
 * 기능은 사용자 지정 시각적 개체를 내보내지만 보고서에 적용할 수 있는 배경 화면을 내보내지 *않습니다*.
 
 배경 화면을 PDF로 내보내지지 않으므로 어두운 배경 무늬를 사용하는 보고서에 특별히 주의해야 합니다. 배경 화면을 보고서와 함께 내보낼 수 없기 때문에, 어두운 배경 화면을 사용하기 위해 보고서의 텍스트를 밝은 색이나 흰색으로 설정한 경우, PDF로 내보내는 과정에서 텍스트를 식별할 수 없게 됩니다. 

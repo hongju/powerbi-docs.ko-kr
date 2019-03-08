@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: f6a17a3e4033d5a97c5ae7744fef955aeed16eeb
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327737"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555656"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 SAML(Security Assertion Markup Language)을 사용합니다.
 
@@ -38,6 +38,8 @@ SAML을 사용하려면 먼저 SAML ID 공급자의 인증서를 생성한 다�
     ```
 
 1. SAP HANA Studio에서 SAP HANA 서버를 마우스 오른쪽 단추로 클릭한 다음, **보안** > **보안 콘솔 열기** > **SAML ID 공급자** > **OpenSSL 암호화 라이브러리**로 이동합니다.
+
+    OpenSSL 대신 SAP 암호화 라이브러리(CommonCryptoLib 또는 sapcrypto라고도 함)를 사용하여 이러한 설정 단계를 완료할 수도 있습니다. 자세한 내용은 공식 SAP 설명서를 참조하세요.
 
 1. **가져오기**를 선택하고 samltest.crt로 이동하여 가져옵니다.
 
@@ -121,6 +123,37 @@ SAML을 사용하려면 먼저 SAML ID 공급자의 인증서를 생성한 다�
 이제 Power BI에서 **게이트웨이 관리** 페이지를 사용하여 데이터 원본을 구성하고, **고급 설정**에서 SSO를 사용하도록 설정할 수 있습니다. 그런 다음, 해당 데이터 원본에 보고서 및 데이터 세트 바인딩을 게시할 수 있습니다.
 
 ![고급 설정](media/service-gateway-sso-saml/advanced-settings.png)
+
+## <a name="troubleshooting"></a>문제 해결
+
+SSO를 구성한 후 Power BI 포털에 다음 오류가 표시될 수 있습니다. "제공된 자격 증명을 SapHana 원본에 사용할 수 없습니다." 이 오류는 SAML 자격 증명이 SAP HANA에 의해 거부되었음을 나타냅니다.
+
+인증 추적은 SAP HANA의 자격 증명 문제를 해결하기 위한 자세한 정보를 제공합니다. 다음 단계에 따라 SAP HANA 서버에 대한 추적을 구성합니다.
+
+1. SAP HANA 서버에서 다음 쿼리를 실행하여 인증 추적을 켭니다.
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') set ('trace', 'authentication') = 'debug' with reconfigure 
+    ```
+
+1. 직면한 문제를 재현합니다.
+
+1. HANA Studio에서 관리 콘솔을 열고 **진단 파일** 탭으로 이동합니다.
+
+1. 최신 indexserver 추적을 열고 SAMLAuthenticator.cpp를 검색합니다.
+
+    다음 예제와 같은 근본 원인을 나타내는 자세한 오류 메시지를 찾아야 합니다.
+
+    ```
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815797 d Authentication   SAMLAuthenticator.cpp(00091) : Element '{urn:oasis:names:tc:SAML:2.0:assertion}Assertion', attribute 'ID': '123123123123123' is not a valid value of the atomic type 'xs:ID'.
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815914 i Authentication   SAMLAuthenticator.cpp(00403) : No valid SAML Assertion or SAML Protocol detected
+    ```
+
+1. 문제 해결이 완료되면 다음 쿼리를 실행하여 인증 추적을 끕니다.
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') UNSET ('trace', 'authentication');
+    ```
 
 ## <a name="next-steps"></a>다음 단계
 

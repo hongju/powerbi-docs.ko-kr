@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop의 스토리지 모드 사용(미리 보기)
+title: Power BI Desktop의 스토리지 모드 사용
 description: 스토리지 모드를 사용하여 Power BI Desktop에서 데이터가 보고서용으로 메모리 내에 캐시되는지 여부 제어
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279185"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555861"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop의 스토리지 모드(미리 보기)
+# <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop의 스토리지 모드
 
 Microsoft Power BI Desktop에서는 테이블의 ‘스토리지 모드’를 지정할 수 있습니다. ‘스토리지 모드’를 사용하면 Power BI Desktop이 보고서에 대한 메모리 내 테이블 데이터를 캐시할지 여부를 제어할 수 있습니다. 
 
@@ -27,7 +27,7 @@ Microsoft Power BI Desktop에서는 테이블의 ‘스토리지 모드’를 �
 
 * **쿼리 성능**: 사용자가 Power BI 보고서에서 시각적 개체를 조작할 때 DAX(Data Analysis Expressions) 쿼리가 데이터 세트에 제출됩니다. 스토리지 모드를 제대로 설정하여 데이터를 메모리에 캐시하면 보고서의 쿼리 성능과 대화형 작업이 향상될 수 있습니다.
 
-* **대규모 데이터 세트**: 캐시되지 않은 테이블은 캐싱에 메모리를 이용하지 않습니다. 너무 크거나 비용이 많이 드는 대규모 데이터 세트에 대한 대화형 분석을 메모리에 완전히 캐시할 수 있습니다. 캐시할 테이블과 캐시하지 않을 테이블을 선택할 수 있습니다.
+* **대규모 데이터 세트**: 캐시되지 않은 테이블은 캐싱에 메모리를 이용하지 않습니다. 너무 크거나 비용이 많이 드는 큰 데이터 세트에 대한 대화형 분석을 메모리에 완전히 캐시할 수 있습니다. 캐시할 테이블과 캐시하지 않을 테이블을 선택할 수 있습니다.
 
 * **데이터 새로 고침 최적화**: 캐시되지 않은 테이블을 새로 고칠 필요가 없습니다. 서비스 수준 계약 및 비즈니스 요구 사항을 충족하는 데 필요한 데이터만 캐시하여 새로 고침 시간을 줄일 수 있습니다.
 
@@ -37,9 +37,9 @@ Microsoft Power BI Desktop에서는 테이블의 ‘스토리지 모드’를 �
 
 Power BI Desktop의 스토리지 모드 설정은 다음 세 가지 관련 기능 중 하나입니다.
 
-* **복합 모델**: 보고서에 DirectQuery 연결 또는 가져오기를 비롯한 두 개 이상의 데이터 연결을 다양한 조합으로 포함할 수 있습니다. 자세한 내용은 [Power BI Desktop의 복합 모델(미리 보기)](desktop-composite-models.md)을 참조하세요.
+* **복합 모델**: 보고서에 DirectQuery 연결 또는 가져오기를 비롯한 두 개 이상의 데이터 연결을 다양한 조합으로 포함할 수 있습니다. 자세한 내용은 [Power BI Desktop의 복합 모델](desktop-composite-models.md)을 참조하세요.
 
-* **다 대 다 관계**: ‘복합 모델’을 사용하면 테이블 간에 ‘다 대 다 관계’를 설정할 수 있습니다. ‘다 대 다 관계’는 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계를 설정하기 위해 새 테이블만 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)를 참조하세요.
+* **다 대 다 관계**: ‘복합 모델’을 사용하면 테이블 간에 ‘다 대 다 관계’를 설정할 수 있습니다. ‘다 대 다 관계’는 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계를 설정하기 위해 새 테이블만 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md)를 참조하세요.
 
 * **스토리지 모드**: 이제 백 엔드 데이터 원본에 대한 쿼리가 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 스토리지 모드는 이 문서에서 더 자세히 설명합니다.
 
@@ -127,13 +127,13 @@ Power BI Desktop의 진단 포트에 **SQL 프로파일러**를 연결하면 다
 ![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> 이 동작은 캐시된 테이블과 캐시되지 않은 테이블을 결합할 때 [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)와 다릅니다.
+> 이 동작은 캐시된 테이블과 캐시되지 않은 테이블을 결합할 때 [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md)와 다릅니다.
 
 ## <a name="caches-should-be-kept-in-sync"></a>캐시는 동기화되어야 합니다.
 
 이전 섹션에 표시된 쿼리는 **이중** 테이블이 때때로 캐시를 적중하고 때때로 캐시를 적중하지 않음을 보여 줍니다. 따라서 캐시가 오래된 경우 다른 값이 반환될 수 있습니다. 예를 들어 쿼리 실행은 캐시된 값과 일치하도록 DirectQuery 결과를 필터링하여 데이터 문제를 마스크하려고 시도하지 않습니다. 데이터 흐름을 알고 있어야 하며 이에 따라 디자인해야 합니다. 필요한 경우 원본에서 이러한 경우를 처리하도록 설정된 방법이 있습니다.
 
-*이중* 스토리지 모드는 성능 최적화입니다. 이 모드는 비즈니스 요구 사항을 충족하는 기능을 손상하지 않는 방식으로만 사용해야 합니다. 대체 동작의 경우 [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md) 문서에 설명된 방법을 사용하는 것이 좋습니다.
+*이중* 스토리지 모드는 성능 최적화입니다. 이 모드는 비즈니스 요구 사항을 충족하는 기능을 손상하지 않는 방식으로만 사용해야 합니다. 대체 동작의 경우 [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md) 문서에 설명된 방법을 사용하는 것이 좋습니다.
 
 ## <a name="data-view"></a>데이터 보기
 데이터 집합에 있는 하나 이상 테이블의 스토리지 모드가 **가져오기** 또는 **이중**으로 설정된 경우 **데이터 보기** 탭이 표시됩니다.
@@ -162,7 +162,7 @@ DirectQuery를 사용하여 이러한 다차원 원본에 연결하는 경우 �
 ## <a name="next-steps"></a>다음 단계
 
 복합 모델 및 DirectQuery에 대한 자세한 내용은 다음 문서를 참조하세요.
-* [Power BI Desktop의 복합 모델(미리 보기)](desktop-composite-models.md)
-* [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)
+* [Power BI Desktop의 복합 모델](desktop-composite-models.md)
+* [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md)
 * [Power BI의 DirectQuery 사용](desktop-directquery-about.md)
 * [Power BI의 DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)

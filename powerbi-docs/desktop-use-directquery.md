@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5aaa50aff2302742d6845c9cb16b0fc36ea2677
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276785"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555674"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery 사용
 **Power BI Desktop**을 사용하여 데이터 원본에 연결할 때 항상 데이터의 복사본을 **Power BI Desktop**으로 가져올 수 있습니다. 일부 데이터 원본의 경우 다른 방법을 사용할 수 있습니다. **DirectQuery**를 사용하여 데이터 원본에 직접 연결합니다.
@@ -48,7 +48,7 @@ ms.locfileid: "54276785"
 ## <a name="limitations-of-directquery"></a>DirectQuery의 제한 사항
 현재 **DirectQuery**를 사용하는 데 몇 가지 제한 사항이 있습니다.
 
-* 모든 테이블은 단일 데이터베이스에서 가져와야 합니다.
+* [복합 모델](desktop-composite-models.md)을 사용하지 않는 한, 모든 테이블은 단일 데이터베이스에서 가져와야 합니다.
 * **쿼리 편집기** 쿼리가 너무 복잡하면 오류가 발생합니다. 오류를 수정하려면 **쿼리 편집기**에서 문제가 되는 단계를 삭제하거나, **DirectQuery**를 사용하지 않고 데이터를 *가져옵니다*. SAP Business Warehouse와 같은 다차원 원본의 경우 **쿼리 편집기**가 없습니다.
 * 관계 필터링은 양방향이 아닌 단일 방향으로 제한됩니다(미리 보기 기능으로 **DirectQuery**에 대한 양방향 교차 필터링을 사용하도록 설정하는 것은 가능). SAP Business Warehouse와 같은 다차원 원본의 경우 모델에 정의된 관계가 없습니다.
 * 시간 인텔리전스 기능은 **DirectQuery**에서 사용할 수 없습니다. 예를 들어 날짜 열의 특별한 처리(예: 년, 분기, 월, 일 등)는 **DirectQuery** 모드에서 지원되지 않습니다.
