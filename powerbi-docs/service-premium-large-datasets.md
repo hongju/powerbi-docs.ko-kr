@@ -1,5 +1,5 @@
 ---
-title: 대형 데이터 세트를 위한 Power BI 프리미엄 지원
+title: 큰 데이터 세트를 위한 Power BI 프리미엄 지원
 description: Power BI 프리미엄은 이제 최대 10GB의 데이터 세트를 지원합니다.
 author: jocaplan
 manager: kfile
