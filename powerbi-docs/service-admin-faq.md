@@ -60,9 +60,9 @@ ms.locfileid: "55430285"
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>사용자가 Power BI에 등록하려면 어떻게 합니까?
 
-관리자는 [Power BI 웹 사이트](https://powerbi.microsoft.com) 또는 Office 365 관리 센터의 [구매 서비스](https://admin.microsoft.com/AdminPortal/Home#/catalog) 페이지를 통해 Power BI에 가입할 수 있습니다. 관리자가 Power BI에 등록할 때 액세스 권한이 있어야 하는 사용자에게 사용자 라이선스를 할당할 수 있습니다.
+관리자는 [Power BI 웹 사이트](https://powerbi.microsoft.com) 또는 Office 365 관리 센터의 [서비스 구매](https://admin.microsoft.com/AdminPortal/Home#/catalog) 페이지를 통해 Power BI에 가입할 수 있습니다. 관리자가 Power BI에 등록할 때 액세스 권한이 있어야 하는 사용자에게 사용자 라이선스를 할당할 수 있습니다.
 
-또한 조직의 개별 사용자는 [Power BI 웹 사이트](https://powerbi.microsoft.com)를 통해 Power BI에 등록할 수 있습니다. 조직의 사용자가 Power BI에 등록할 때 해당 사용자에게 Power BI 라이선스가 자동으로 할당됩니다. 자세한 내용은 [Signing up for Power BI as an individual](service-self-service-signup-for-power-bi.md)(Power BI에 개별 가입) 및 [조직의 Power BI 라이선스 부여](service-admin-licensing-organization.md)를 참조하세요.
+또한 조직의 개별 사용자는 [Power BI 웹 사이트](https://powerbi.microsoft.com)를 통해 Power BI에 등록할 수 있습니다. 조직의 사용자가 Power BI에 등록할 때 해당 사용자에게 Power BI 라이선스가 자동으로 할당됩니다. 자세한 내용은 [Power BI에 개별 가입](service-self-service-signup-for-power-bi.md) 및 [조직의 Power BI 라이선스 부여](service-admin-licensing-organization.md)를 참조하세요.
 
 ### <a name="how-do-individual-users-in-my-organization-sign-up"></a>개별 사용자가 조직에 등록하려면 어떻게 합니까?
 
