@@ -850,6 +850,8 @@ items:
         href: whitepaper-powerbi-security.md
       - name: Power BI Premium 배포
         href: whitepaper-powerbi-premium-deployment.md
+      - name: Azure Active Directory B2B를 사용하여 외부에서 Power BI 배포
+        href: whitepaper-azure-b2b-power-bi.md
 - name: 개발자용 Power BI
   items:
   - name: 개발자는 Power BI로 무엇을 할 수 있나요
@@ -1254,7 +1256,7 @@ items:
         href: service-premium-large-datasets.md
       - name: 증분 새로 고침
         href: service-premium-incremental-refresh.md
-      - name: 다중 지역 지원(미리 보기)
+      - name: 다중 지역 지원
         href: service-admin-premium-multi-geo.md
       - name: Power BI 프리미엄 FAQ
         href: service-premium-faq.md
@@ -1313,9 +1315,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: b6d9e25d9b4eb357038c5daa56df1b4d3f4d9e78
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 745db3e8002feaa9728a746167e585c62a4420a4
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014326"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580269"
