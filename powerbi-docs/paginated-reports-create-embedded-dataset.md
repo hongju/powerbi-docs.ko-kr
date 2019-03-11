@@ -24,9 +24,9 @@ ms.locfileid: "56324556"
   
 ## <a name="create-an-embedded-dataset"></a>포함된 데이터 세트 만들기
   
-1. 보고서 작성기의 보고서 데이터 창에서 **새로 만들기** > **데이터 세트**를 선택합니다.
+1. 보고서 작성기의 보고서 데이터 창에서 **새로 만들기** > **데이터 집합**을 선택합니다.
 
-1. **데이터 세트 속성** 대화 상자의 **쿼리** 탭에서 데이터 세트에 이름을 지정합니다. 포함된 데이터 원본이 **데이터 원본** 상자에 이미 있거나 **새로 만들기**를 선택하여 다른 포함된 데이터 원본을 만들 수 있습니다.
+1. **데이터 집합 속성** 대화 상자의 **쿼리** 탭에서 데이터 세트에 이름을 지정합니다. 포함된 데이터 원본이 **데이터 원본** 상자에 이미 있거나 **새로 만들기**를 선택하여 다른 포함된 데이터 원본을 만들 수 있습니다.
  
    ![새 데이터 세트](media/paginated-reports-create-embedded-dataset/power-bi-paginated-new-dataset.png)  
 
@@ -56,7 +56,7 @@ ms.locfileid: "56324556"
  
 ## <a name="next-steps"></a>다음 단계 
 
-- [What are paginated reports in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md)(Power BI Premium의 페이지를 매긴 보고서란?(미리 보기))  
-- [자습서: Create a paginated report and upload it to the Power BI service](paginated-reports-quickstart-aw.md)(자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드)
-- [Publish a paginated report to the Power BI service](paginated-reports-save-to-power-bi-service.md)(Power BI 서비스에 페이지를 매긴 보고서 게시)
+- [Power BI Premium의 페이지를 매긴 보고서란?(미리 보기)](paginated-reports-report-builder-power-bi.md)  
+- [자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드](paginated-reports-quickstart-aw.md)
+- [Power BI 서비스에 페이지를 매긴 보고서 게시](paginated-reports-save-to-power-bi-service.md)
 
