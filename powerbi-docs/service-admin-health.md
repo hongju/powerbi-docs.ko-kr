@@ -27,7 +27,7 @@ Office 365 관리 센터는 서비스 상태에 대한 현재 및 기록 정보�
 
     ![서비스 상태 타일](media/service-admin-health/service-health-tile.png)
 
-1. 현재 목록에서 **N 공지** 또는 **N 인시던트**를 선택하고 결과를 검토합니다. 아래 그래픽에는 세 개의 활성 공지 중 하나가 표시됩니다.
+1. 현재 목록에서 **N 권고** 또는 **N 인시던트**를 선택하고 결과를 검토합니다. 아래 그래픽에는 세 개의 활성 권고 중 하나가 표시됩니다.
 
     ![활성 공지](media/service-admin-health/active-advisories.png)
 
