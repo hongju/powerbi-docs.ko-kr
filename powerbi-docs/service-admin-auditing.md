@@ -58,9 +58,9 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 다음 단계를 수행하여 결과를 Power BI 활동으로만 제한합니다. 활동 목록은 이 문서의 뒷부분에 나오는 [Power BI에서 감사되는 활동 목록](#list-of-activities-audited-by-power-bi)을 참조하세요.
 
-1. **Audit log search**(감사 로그 검색) 페이지의 **검색** 아래에서 **활동**에 해당하는 드롭다운을 선택합니다.
+1. **감사 로그 검색** 페이지의 **검색** 아래에서 **활동**에 해당하는 드롭다운을 선택합니다.
 
-2. **Power BI activities**(Power BI 활동)를 선택합니다.
+2. **Power BI 활동**을 선택합니다.
 
    ![감사 로그 검색](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
@@ -113,7 +113,7 @@ Power BI 감사 로그를 csv 파일로 내보내려면 다음 단계를 수행�
 
 1. **결과 내보내기**를 선택합니다.
 
-1. **Save loaded results**(로드된 결과 저장) 또는 **Download all results**(모든 결과 다운로드)를 선택합니다.
+1. **로드된 결과 저장** 또는 **모든 결과 다운로드**를 선택합니다.
 
     ![결과 내보내기](media/service-admin-auditing/export-auditing-results.png)
 
