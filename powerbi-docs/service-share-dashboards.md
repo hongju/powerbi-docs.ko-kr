@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a4f10253619393ffd9807b1e33730a4dd37a47ff
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277391"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580246"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. Power BI는 [대시보드 및 보고서를 공동 작업하고 배포하는 여러 가지 다른 방법](service-how-to-collaborate-distribute-dashboards-reports.md)도 제공합니다.
@@ -98,13 +98,15 @@ Amanda가 회사 내부 및 외부의 동료와 대시보드를 공유하는 과
 
 로그인하면 일반적인 Power BI 포털이 아닌, 왼쪽 탐색 창이 없는 브라우저 창에 공유 대시보드 또는 보고서가 표시됩니다. 나중에 이 대시보드 또는 보고서에 액세스하려면 링크를 책갈피에 추가해야 합니다.
 
-이 대시보드 또는 보고서의 어떤 내용도 편집할 수 없습니다. 차트를 조작하고 보고서의 필터 또는 슬라이서를 변경할 수 있지만 변경 내용을 저장할 수는 없습니다.
+이 대시보드 또는 보고서의 어떤 내용도 편집할 수 없습니다. 차트를 조작하고 보고서의 필터 또는 슬라이서를 변경할 수 있지만 변경 내용을 저장할 수는 없습니다. 
 
 직접적인 수신자만 공유 대시보드 또는 보고서를 볼 수 있습니다. 예를 들어, Vicki@contoso.com으로 전자 메일을 보낸 경우 Vicki만 대시보드를 볼 수 있습니다. 다른 사용자는 링크가 있더라도 대시보드를 볼 수 없으며, Vicki는 동일한 메일 주소를 사용하여 해당 대시보드에 액세스해야 합니다. 다른 메일 주소로 등록한 경우에는 대시보드에 액세스할 수 없습니다.
 
 역할 또는 행 수준 보안이 온-프레미스 Analysis Services 테이블 형식 모델에서 구현된 경우 조직 외부 사용자는 데이터를 전혀 볼 수 없습니다.
 
 Power BI 모바일 앱에서 조직 외부의 사람들에게 링크를 보낼 경우, 링크를 클릭하면 대시보드는 Power BI 모바일 앱이 아닌 브라우저에서 열립니다.
+
+게스트 사용자가 [외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](service-admin-portal.md#export-and-sharing-settings)을 사용하도록 설정한 경우 기본 소비 환경만 적용되지 않습니다. [자세히 알아보기](service-admin-azure-ad-b2b.md)
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 다음은 대시보드 및 보고서 공유에 관해 주의해야 할 점입니다.

@@ -30,7 +30,7 @@ Premium 구독이 만료되면 30일 동안 용량에 대한 전체 액세스 �
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Power BI 프리미엄 P1로 새 테넌트 만들기
 
-기존 테넌트가 없어 새로 하나를 만들려면 Power BI 프리미엄도 동시에 구매할 수 있습니다. 다음 링크를 통해 새 테넌트를 만드는 과정을 안내받고 Power BI Premium을 구매할 수 있습니다: [Power BI Premium P1 제품](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). 테넌트를 만들면 자동으로 해당 테넌트에 대한 Office 365 글로벌 관리자 역할을 할당받게 됩니다.
+기존 테넌트가 없어 새로 하나를 만들려면 Power BI 프리미엄도 동시에 구입할 수 있습니다. 다음 링크를 통해 새 테넌트를 만드는 과정을 안내받고 Power BI Premium을 구매할 수 있습니다. [Power BI Premium P1 제품](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). 테넌트를 만들면 자동으로 해당 테넌트에 대한 Office 365 글로벌 관리자 역할을 할당받게 됩니다.
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>기존 조직에 대한 Power BI 프리미엄 용량 구매
 

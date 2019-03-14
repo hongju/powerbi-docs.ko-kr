@@ -1,20 +1,20 @@
 ---
 title: Power BI 사용자 지정 시각적 개체 개발
 description: Power BI 사용자 지정 시각적 개체를 개발하는 방법에 대한 자습서
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: aab20c4056310e1e8b737b23e07450b0e5d4959c
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 9edb234e36ee980e148482f0a86d390252404c1e
+ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249324"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "57695176"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>자습서: Power BI 사용자 지정 시각적 개체 개발
 
@@ -204,6 +204,9 @@ Power BI Desktop 보고서에서 카드는 Circle Card가 되도록 수정됩니
     pbiviz new CircleCard
     ```
     ![새 CircleCard 결과](media/custom-visual-develop-tutorial/new-circle-card-result.png)
+
+    > [!Note]
+    > 프롬프트의 현재 위치에서 새 프로젝트를 만듭니다.
 
 4. 프로젝트 폴더로 이동합니다.
 

@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium에 대한 Multi-Geo 지원(미리 보기)
+title: Power BI Premium에 대한 Multi-Geo 지원
 description: Power BI 테넌트의 홈 지역이 아닌 다른 지역에 있는 데이터 센터에 콘텐츠를 배포하는 방법을 알아봅니다.
 author: minewiskan
 ms.author: owend
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bdbcb949ffe29efc4170391774da0863568e97e8
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794676"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57571982"
 ---
-# <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium에 대한 Multi-Geo 지원(미리 보기)
+# <a name="multi-geo-support-for-power-bi-premium"></a>Power BI Premium에 대한 Multi-Geo 지원
 
 다중 지역은 다국적 고객이 지역별, 산업별 또는 조직별 데이터 보존 요구 사항을 해결하는 데 도움이 되는 Power BI Premium 기능입니다. Power BI Premium 고객은 Power BI 테넌트의 홈 지역이 아닌 다른 지역에 있는 데이터 센터에 콘텐츠를 배포할 수 있습니다. 지역(지리)은 둘 이상의 지역을 포함할 수 있습니다. 예를 들어 미국은 지역이고 미국 중서부 및 미국 중남부는 미국에 있는 지역입니다. 다음 지역에 콘텐츠를 배포할 수 있습니다.
 
@@ -33,7 +33,7 @@ ms.locfileid: "55794676"
 
 Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 정부용)에는 다중 지역을 사용할 수 없습니다.
 
-이제 Power BI Embedded에서도 Multi-Geo를 사용할 수 있습니다. [Power BI Embedded(미리 보기)의 Multi-Geo 지원](developer/embedded-multi-geo.md)에서 자세한 내용을 확인해 보세요.
+이제 Power BI Embedded에서도 Multi-Geo를 사용할 수 있습니다. [Power BI Embedded의 Multi-Geo 지원](developer/embedded-multi-geo.md)에서 자세히 알아보세요.
 
 ## <a name="using-multi-geo"></a>다중 지역 사용
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014648"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757349"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -192,6 +192,13 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 
 ![보고서 인쇄](media/service-admin-portal/powerbi-admin-print-report.png)
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용
+Azure B2B 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습니다. [자세히 알아보기](service-admin-azure-ad-b2b.md)
+
+다음 이미지는 외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용하는 옵션을 보여줍니다.
+
+![외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
 ## <a name="content-pack-and-app-settings"></a>콘텐츠 팩 및 앱 설정
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>콘텐츠 팩과 앱을 전체 조직에 게시
@@ -243,10 +250,45 @@ Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리�
 > [!NOTE]
 > 이 설정은 전체 조직에 적용하거나 특정 그룹으로 제한할 수 있습니다.
 
+
+Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사용하여 조직의 배포된 컴퓨터에서 사용자 지정 시각화 개체를 비활성화할 수 있도록 지원합니다.
+
+<table>
+<tr><th>특성</th><th>값</th>
+</tr>
+<td>key</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableCustomVisuals</td>
+</tr>
+</table>
+
+1의 값(십진수)을 사용하면 Power BI에서 사용자 지정 시각적 개체를 사용할 수 있습니다(기본값).
+
+0의 값(십진수)을 사용하면 Power BI에서 사용자 지정 시각적 개체를 사용할 수 있습니다.
+
 ### <a name="allow-only-certified-visuals"></a>인증된 시각적 개체만 허용
 
 "사용자 지정 시각적 개체 추가 및 사용" 설정으로 표시된 사용자 지정 시각적 개체를 추가하고 사용할 수 있는 권한이 부여된 조직의 사용자는 [인증된 사용자 지정 시각적 개체](https://go.microsoft.com/fwlink/?linkid=2002010)만 사용할 수 있습니다(인증되지 않은 시각적 개체는 차단되고 사용 시 오류 메시지가 표시됨). 
 
+
+Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사용하여 조직의 배포된 컴퓨터에서 인증되지 않은 사용자 지정 시각화 개체를 비활성화할 수 있도록 지원합니다.
+
+<table>
+<tr><th>특성</th><th>값</th>
+</tr>
+<td>key</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableUncertifiedVisuals</td>
+</tr>
+</table>
+
+1의 값(십진수)을 사용하면 Power BI에서 인증되지 않은 사용자 지정 시각적 개체를 사용할 수 있습니다(기본값).
+
+0의 값(십진수)은 Power BI에서 인증되지 않은 사용자 지정 시각적 개체를 비활성화합니다(이 옵션은 [인증된 사용자 지정 시각적 개체](https://go.microsoft.com/fwlink/?linkid=2002010)만 사용할 수 있음).
 
 ## <a name="r-visuals-settings"></a>R 시각적 개체 설정
 

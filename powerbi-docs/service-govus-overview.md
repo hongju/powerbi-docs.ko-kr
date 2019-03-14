@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292064"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580039"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -54,7 +54,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 ## <a name="limitations-of-power-bi-us-government"></a>Power BI 미국 정부 기관의 제한 사항
 **Power BI 서비스** 상용 버전에서 사용할 수 있는 기능 중 일부는 미국 정부 기관 고객용 **Power BI 서비스**에서 사용할 수 *없습니다*. 미국 정부 기관 고객이 이러한 기능을 사용할 수 있도록 Power BI 팀에서 적극적으로 노력하고 있으며, 이러한 기능을 사용할 수 있게 되면 이 문서를 업데이트할 것입니다.
 
-* **SharePoint Online에 포함** - Power BI 웹 파트를 사용하여 SharePoint Online에 콘텐츠를 포함할 수 없습니다.
+* **SharePoint Online에 포함** - Power BI 웹 파트를 사용하여 SharePoint Online에 콘텐츠를 포함할 수 없습니다. 그러나 Secure embed는 [*Embed* 웹 파트](https://docs.microsoft.com/power-bi/service-embed-secure)를 사용하여 작동합니다. 예외 목록에 *app.powerbigov.us*를 추가해야 합니다. 이 작업은 [SharePoint 페이지에 콘텐츠 포함 허용 또는 제한](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b) 문서의 지침에 따라 수행할 수 있습니다.
 * **Power BI 미국 정부**는 **Pro** 라이선스로만 제공됩니다. 관리자 포털(또는 사용자)에서 실행되는 Power BI (무료) 라이선스에 대한 참조는 상용 Power BI 서비스 클라우드에서 실행됩니다.
 * **감사** - 이제 2018년 6월에는 Office 365 보안 및 규정 준수 포털을 통해 감사를 사용할 수 있습니다.
 * **Cortana의 Power BI 콘텐츠** - Power BI 결과는 Cortana 검색 결과에 표시되지 않습니다. Cortana 검색 결과에는 Power BI 콘텐츠(대시보드, 보고서, 앱)에 대한 결과와 특정 키워드에 대한 Cortana 최적화 보고서 페이지를 보여주는 결과가 포함됩니다.

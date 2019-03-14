@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555942"
+---
 Power BI를 통해 완전히 다른 데이터 원본에서 제공하는 테이블을 비롯하여 여러 테이블 간에 관계를 만들 수 있습니다. Power BI Desktop의 **관계** 보기에서 모든 데이터 모델에 대한 이러한 관계를 볼 수 있습니다.
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_1.png)
@@ -7,7 +15,7 @@ DAX에는 설정된 관계가 있는 테이블과 상호 작용할 수 있도록
 
 DAX 함수를 사용하여 열의 값을 반환하거나 관계의 모든 행을 반환할 수 있습니다.
 
-예를 들어 **TABLE** 함수는 관계를 따르고 열 값을 반환하는 반면, **RELATEDTABLE**은 관계를 따르고 관계된 행만을 포함하도록 필터링된 모든 테이블을 반환합니다.
+예를 들어 **RELATED** 함수는 관계를 따르고 열 값을 반환하는 반면, **RELATEDTABLE**은 관계를 따르고 관계된 행만을 포함하도록 필터링된 모든 테이블을 반환합니다.
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_2.png)
 

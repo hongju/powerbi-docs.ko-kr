@@ -1,5 +1,5 @@
 ---
-title: Power BI Embedded(미리 보기)에 대한 Multi-Geo 지원
+title: Power BI Embedded에 대한 Multi-Geo 지원
 description: Power BI Embedded의 홈 지역이 아닌 다른 지역에 있는 데이터 센터에 콘텐츠를 배포하는 방법을 알아봅니다.
 author: markingmyname
 ms.author: maghan
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762424"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57572028"
 ---
-# <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Power BI Embedded(미리 보기)에 대한 Multi-Geo 지원
+# <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded에 대한 Multi-Geo 지원
 
-**Power BI Embedded(미리 보기)에 대한 Multi-Geo 지원**은 Power BI Embedded를 사용하여 애플리케이션을 빌드해 앱에 분석 기능을 포함하는 ISV와 조직이 이제 전 세계 여러 지역에서 데이터를 배포할 수 있음을 의미합니다.
+**Power BI Embedded에 대한 Multi-Geo 지원**은 Power BI Embedded를 사용하여 애플리케이션을 빌드해 앱에 분석 기능을 포함하는 ISV와 조직이 이제 전 세계 여러 지역에서 데이터를 배포할 수 있음을 의미합니다.
 
 이제 **Power BI Embedded**를 사용하는 고객은 [Power BI Premium에서 Multi-Geo를 사용하여 지원](../service-admin-premium-Multi-Geo.md)하는 것과 동일한 기능 및 제한 사항에 따라 **Multi-Geo** 옵션을 사용하여 **A 용량**을 설정할 수 있습니다.
 

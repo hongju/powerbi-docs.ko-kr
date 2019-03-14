@@ -55,7 +55,7 @@ Power BI Premium은 용량 *초과 커밋*의 이점을 제공합니다. 예를 
 
 ### <a name="workloads"></a>워크로드
 
-기본적으로 **Power BI Premium** 및 **Power BI Embedded**의 용량은 클라우드에서 실행 중인 Power BI 쿼리와 연결된 워크로드만 지원합니다. 이제 다음 두 가지 추가 워크로드의 미리 보기를 지원합니다:**페이지를 매긴 보고서** 및 **데이터 흐름**. 사용하도록 설정하면 이러한 워크로드가 용량의 메모리 사용량에 영향을 줄 수 있습니다. 
+기본적으로 **Power BI Premium** 및 **Power BI Embedded**의 용량은 클라우드에서 실행 중인 Power BI 쿼리와 연결된 워크로드만 지원합니다. 이제 다음 두 가지 추가 워크로드의 미리 보기를 지원합니다. **페이지를 매긴 보고서** 및 **데이터 흐름**. 사용하도록 설정하면 이러한 워크로드가 용량의 메모리 사용량에 영향을 줄 수 있습니다. 
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>프리미엄 용량의 CPU 리소스 관리
 

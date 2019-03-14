@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 03/11/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5b9bec67fef672d219b11bf3b3750959e72410b6
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 0baab138ee98d2ec96bc9f47e6e727525a57ed3e
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226069"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757249"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>프리미엄 용량에서 워크로드 구성
 
@@ -23,7 +23,7 @@ ms.locfileid: "57226069"
 
 ## <a name="configure-workloads"></a>워크로드 구성
 
-[데이터 흐름](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) 및 [페이지를 매긴 보고서](paginated-reports-save-to-power-bi-service.md)에 대해 추가 워크로드를 사용하도록 설정하고 구성할 수 있습니다. 이러한 워크로드에 대한 기본 메모리 값은 SKU에 사용 가능한 용량 노드를 기반으로 합니다. 최대 메모리 설정은 누적되지 않습니다. 지정된 최댓값까지의 메모리는 데이터 흐름에 대해 동적으로 할당되지만, 페이지를 매긴 보고서에 대해서는 정적으로 할당됩니다. 
+AI, [데이터 흐름](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) 및 [페이지를 매긴 보고서](paginated-reports-save-to-power-bi-service.md)에 대해 추가 워크로드를 사용하도록 설정하고 구성할 수 있습니다. 이러한 워크로드에 대한 기본 메모리 값은 SKU에 사용 가능한 용량 노드를 기반으로 합니다. 최대 메모리 설정은 누적되지 않습니다. 지정된 최댓값까지의 메모리는 AI 및 데이터 흐름에 대해 동적으로 할당되지만, 페이지를 매긴 보고서에 대해서는 정적으로 할당됩니다. 
 
 ### <a name="to-configure-workloads-in-the-power-bi-admin-portal"></a>Power BI 관리 포털에서 워크로드를 구성하려면
 

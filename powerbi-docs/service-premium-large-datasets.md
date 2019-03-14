@@ -17,7 +17,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/07/2019
 ms.locfileid: "55794821"
 ---
-# <a name="power-bi-premium-support-for-large-datasets"></a>대형 데이터 세트를 위한 Power BI 프리미엄 지원
+# <a name="power-bi-premium-support-for-large-datasets"></a>큰 데이터 세트를 위한 Power BI 프리미엄 지원
 
 Power BI 프리미엄은 최대 10GB 크기의 Power BI Desktop(.pbix) 파일 업로드를 지원합니다. 업로드한 후에는 데이터 세트 크기를 최대 12GB까지 새로 고칠 수 있습니다. 큰 데이터 세트를 사용하려면 프리미엄 용량에 할당된 작업 영역에 게시합니다.
  

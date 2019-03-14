@@ -61,4 +61,4 @@ ms.locfileid: "56324395"
 ## <a name="next-steps"></a>다음 단계
 
 - [Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트 만들기](paginated-reports-create-embedded-dataset.md)
-- [What are paginated reports in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md)(Power BI Premium의 페이지를 매긴 보고서란?(미리 보기))
+- [Power BI Premium의 페이지를 매긴 보고서란? (미리 보기)](paginated-reports-report-builder-power-bi.md)

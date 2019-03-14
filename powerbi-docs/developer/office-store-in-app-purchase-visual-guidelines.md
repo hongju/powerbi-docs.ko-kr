@@ -1,30 +1,34 @@
 ---
-title: 추가 구매가 필요할 수도 있음 - Power BI 시각적 개체 지침
+title: Power BI 시각적 개체 지침
 description: 다른 사람이 구매를 통해 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 AppSource에 게시하는 방법을 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.openlocfilehash: 92d4320026164e523297cbe48ee87ce33d9ab2f7
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.date: 03/10/2019
+ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826586"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757303"
 ---
-# <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>추가 구매 시 Power BI 시각적 개체에 대한 지침
+# <a name="guidelines-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 지침
 
-최근까지 Marketplace(AppSource)에서는 무료인 Power BI 시각적 개체만 허용했습니다. 이 정책이 변경되었으므로 “추가 구매가 필요할 수도 있음” 가격표가 있는 시각적 개체도 AppSource에 제출할 수 있습니다. 
+## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>추가 구매 시 Power BI 시각적 개체에 대한 지침
+
+최근까지 Marketplace(AppSource)에서는 무료인 Power BI 시각적 개체만 허용했습니다. 이 정책이 변경(12월 18일)되었으므로 "추가 구매가 필요할 수도 있음" 가격표가 있는 시각적 개체도 AppSource에 제출할 수 있습니다. 
 
 “추가 구매가 필요할 수도 있음” 시각적 개체는 Office 스토어의 IAP(앱에서 바로 구매) 추가 기능과 유사합니다. 개발자는 이러한 시각적 개체를 AppSource 팀이 승인하고 이 개체가 인증 요구 사항을 준수하는지 확인한 후 인증을 위해 이 개체를 제출할 수도 있습니다. 요구 사항에 대한 자세한 내용은 [인증된 사용자 지정 시각적 개체](../power-bi-custom-visuals-certified.md)를 참조하세요.
 
 > [!NOTE]
-> * 시각적 개체 인증을 받으려면 외부 서비스나 리소스에 액세스해서는 안됩니다.
-> * 모든 무료 시각적 개체는 이전에 제공하던 무료 기능을 그대로 유지해야 합니다. 기존 무료 기능 외에도 선택적 고급 유료 기능을 추가할 수 있습니다. 고급 기능을 갖춘 IAP 시각적 개체를 새 시각적 개체로 제출하고 이전 무료 버전을 업데이트하지 않는 것이 좋습니다.
+> 시각적 개체 인증을 받으려면 외부 서비스나 리소스에 액세스해서는 안됩니다.
+
+>[!IMPORTANT]  
+> 무료로 시각적 개체를 "추가 구매가 필요할 수 있음"으로 업데이트하는 경우, 사용자는 업데이트 전과 동일한 수준의 무료 기능을 받아야 합니다. 기존 무료 기능 외에도 선택적 고급 유료 기능을 추가할 수 있습니다. 고급 기능을 갖춘 IAP 시각적 개체를 새 시각적 개체로 제출하고 이전 무료 버전을 업데이트하지 않는 것이 좋습니다.
 
 
 ## <a name="what-changed-in-the-submission-process"></a>제출 프로세스는 어떻게 변경되었나요?
@@ -33,19 +37,19 @@ ms.locfileid: "56826586"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>IAP 기능이 포함된 Power BI 시각적 개체란?
 
-IAP 시각적 개체는 무료 기능을 제공하는 무료 시각적 개체입니다. 일부 고급 기능도 포함하기도 하며, 이 기능을 작동하면 추가 요금이 부과될 수 있습니다. 시각적 개체의 설명에서 개발자는 작동을 위해 추가 구매가 필요한 기능이 있으면 사용자에게 알려야 합니다. 현재 Microsoft는 앱 및 추가 기능 구매를 지원하는 네이티브 API를 제공하지 않습니다.
+IAP 시각적 개체는 **무료 기능**을 제공하는 **무료** 시각적 개체입니다. 일부 고급 기능도 포함하기도 하며, 이 기능을 작동하면 추가 요금이 부과될 수 있습니다. 시각적 개체의 설명에서 개발자는 작동을 위해 추가 구매가 필요한 기능이 있으면 사용자에게 알려야 합니다. 현재 Microsoft는 앱 및 추가 기능 구매를 지원하는 네이티브 API를 제공하지 않습니다.
 
 개발자는 이러한 구매를 위해 타사 결제 시스템을 사용할 수 있습니다. 자세한 내용은 [our store policy](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)(스토어 정책)를 참조하세요.
 
 > [!NOTE]
-> 무료 기능에서는 워터마크를 사용할 수 없습니다. 고급 유료 기능이 유효한 라이선스 없이 사용되는 경우, 개발자가 팝업 창 또는 워터마크를 표시할 수 있습니다.  
+> 무료 기능 또는 무료 시각적 개체에서는 워터마크를 사용할 수 없습니다. 워터마크는 유효한 라이선스 없이 사용되는 유료 기능에만 사용할 수 있습니다. 유효한 라이선스 없이 고급 유료 기능을 사용하는 경우 모든 라이선스가 관련 정보가 있는 팝업 창을 표시하는 것이 좋습니다.  
 
 ## <a name="logo-guidelines"></a>로고 지침
 
 이 섹션에서는 로고 및 로고 유형을 시각적 개체에 추가하는 방법을 설명합니다.
 
-> [!NOTE]
-> 로고는 편집 모드에서만 허용됩니다. 보기 모드에서는 로고를 표시할 수 없습니다.
+> [!IMPORTANT]
+> 로고는 **편집 모드에서만** 허용됩니다. 보기 모드에서는 로고를 표시할 수 **없습니다**.
 
 ![정의](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
 
