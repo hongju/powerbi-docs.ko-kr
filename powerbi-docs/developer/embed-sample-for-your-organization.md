@@ -25,8 +25,8 @@ ms.locfileid: "56249439"
 
 이 자습서에서는 다음 작업에 대해 학습합니다.
 > [!div class="checklist"]
-> * Azure에서 애플리케이션을 등록합니다.
-> * 애플리케이션에 Power BI 보고서를 포함합니다.
+> * Azure에서 응용프로그램을 등록합니다.
+> * 조직의 애플리케이션에 Power BI 보고서를 포함합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -39,15 +39,15 @@ ms.locfileid: "56249439"
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>임베디드 분석 개발 환경 설정
 
-애플리케이션으로 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 포함을 허용하도록 설정되었는지 확인합니다. 설치의 일부로 다음 작업 중 하나를 수행합니다.
+조직의 애플리케이션에 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 포함을 허용하도록 설정되었는지 확인합니다. 설치의 일부로 다음 작업 중 하나를 수행합니다.
 
-* [포함 설치 도구](https://aka.ms/embedsetup/UserOwnsData)를 진행하여 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다.
+* [포함 설정 도구](https://aka.ms/embedsetup/UserOwnsData)를 진행하여 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다.
 
 * 환경을 수동으로 설치하도록 선택하는 경우 다음 섹션의 단계를 수행합니다.
 
-### <a name="register-an-application-in-azure-active-directory"></a>Azure Active Directory에서 애플리케이션 등록
+### <a name="register-an-application-in-azure-active-directory"></a>Azure Active Directory에서 응용프로그램 등록
 
-애플리케이션에서 Power BI REST API에 액세스할 수 있도록 하려면 Azure Active Directory에 애플리케이션을 등록합니다. 그러면 애플리케이션에 대한 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
+애플리케이션에서 Power BI REST API에 액세스할 수 있도록 하려면 Azure Active Directory에 응용프로그램을 등록합니다. 그러면 응용프로그램에 대한 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
 
 1. [Microsoft Power BI API 약관](https://powerbi.microsoft.com/api-terms)에 동의합니다.
 
@@ -55,19 +55,19 @@ ms.locfileid: "56249439"
 
     ![Azure 대시보드](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-3. 왼쪽 탐색 창에서 **모든 서비스**를 선택하고 **앱 등록**을 선택합니다. 그런 다음, **새 애플리케이션 등록**을 선택합니다.
+3. 왼쪽 탐색 창에서 **모든 서비스**를 선택하고 **앱 등록**을 선택합니다. 그런 다음, **새 응용프로그램 등록**을 선택합니다.
 
     ![앱 등록 검색](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)<br>
 
     ![새 앱 등록](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. 메시지에 따라 새 애플리케이션을 만듭니다. **사용자 소유 데이터**의 경우 **애플리케이션 유형**으로 **웹앱/API**를 사용합니다. Azure AD에서 토큰 응답을 반환하는 데 사용하는 **로그온 URL**을 제공합니다. 사용하는 애플리케이션에 대한 값을 입력합니다. 예를 들면, `http://localhost:13526/`과 같습니다.
+4. 메시지에 따라 새 응용프로그램을 만듭니다. **사용자 소유 데이터**의 경우 **응용프로그램 유형**으로 **웹앱/API**를 사용합니다. Azure AD에서 토큰 응답을 반환하는 데 사용하는 **로그온 URL**을 제공합니다. 사용하는 애플리케이션에 대한 값을 입력합니다. 예를 들면, `http://localhost:13526/`과 같습니다.
 
     ![앱 만들기](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
-### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Azure Active Directory 내 애플리케이션에 권한 적용
+### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Azure Active Directory 내에서 응용프로그램에 권한 적용
 
-앱 등록 페이지에 제공된 것 외에도 애플리케이션에 대한 권한을 사용하도록 설정합니다. 권한을 사용하도록 설정하려면 전역 관리자 계정으로 로그인합니다.
+앱 등록 페이지에 제공된 것 외에도 응용프로그램에 대한 권한을 사용하도록 설정합니다. 권한을 사용하도록 설정하려면 전역 관리자 계정으로 로그인합니다.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory 포털 사용
 
@@ -163,7 +163,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
     ![Cloud.config 파일](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    Azure의 **애플리케이션 ID**를 사용하여 **ApplicationID** 정보를 입력합니다. **ApplicationID**는 애플리케이션에서 권한을 요청 중인 사용자에게 애플리케이션을 인식시키는 데 사용됩니다.
+    Azure의 **응용프로그램 ID**를 사용하여 **ApplicationID** 정보를 입력합니다. **ApplicationID**는 응용프로그램에서 권한을 요청 중인 사용자에게 응용프로그램을 인식시키는 데 사용됩니다.
 
     **ApplicationID**를 가져오려면 다음 단계를 수행합니다.
 
@@ -175,11 +175,11 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
        ![앱 등록 검색](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    3. **ApplicationID**를 사용해야 하는 애플리케이션을 선택합니다.
+    3. **ApplicationID**를 사용해야 하는 응용프로그램을 선택합니다.
 
        ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    4. GUID로 나열된 **애플리케이션 ID**가 표시되어야 합니다. 이 **애플리케이션 ID**를 애플리케이션의 **ApplicationID**로 사용합니다.
+    4. GUID로 나열된 **응용프로그램 ID**가 표시되어야 합니다. 이 **응용프로그램 ID**를 응용프로그램의 **ApplicationID**로 사용합니다.
 
         ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
@@ -195,7 +195,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
        ![앱 등록 검색](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    3. **ApplicationSecret**을 사용해야 하는 애플리케이션을 선택합니다.
+    3. **ApplicationSecret**을 사용해야 하는 응용프로그램을 선택합니다.
 
        ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
@@ -207,7 +207,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
        ![키 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    6. **설명** 상자에 이름을 입력하고 지속 기간을 선택합니다. 그런 다음, **저장**을 선택하여 애플리케이션의 **값**을 가져옵니다. 키 값을 저장한 후 **키** 창을 닫으면 값 필드가 숨김으로만 표시됩니다. 이때는 키 값을 검색할 수 없습니다. 키 값을 분실한 경우 Azure Portal에서 새 키 값을 만듭니다.
+    6. **설명** 상자에 이름을 입력하고 지속 기간을 선택합니다. 그런 다음, **저장**을 선택하여 응용프로그램의 **값**을 가져옵니다. 키 값을 저장한 후 **키** 창을 닫으면 값 필드가 숨김으로만 표시됩니다. 이때는 키 값을 검색할 수 없습니다. 키 값을 분실한 경우 Azure Portal에서 새 키 값을 만듭니다.
 
           ![키 값](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
