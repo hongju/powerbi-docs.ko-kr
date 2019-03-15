@@ -53,11 +53,11 @@ Power BI Pro 라이선스를 구매하려면 다음 단계를 수행합니다.
 
     ![Power BI 구독](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
 
-5. 원하는 구독에서 줄임표(**. . .**)를 마우스로 가리키고 **지금 구입**을 선택합니다.
+5. 원하는 구독에서 줄임표(**. . .**)를 마우스로 가리키고 **지금 구매**를 선택합니다.
 
     ![지금 구입](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 
-6. 청구에서 원하는 대로 **월정액** 또는 **1년 결재**를 선택합니다.
+6. 청구에서 원하는 대로 **매월 결제** 또는 **1년 결제**를 선택합니다.
 
 7. **원하는 사용자 수**에서 원하는 라이선스 수를 입력한 다음, **지금 확인**을 선택하여 트랜잭션을 완료합니다.
 

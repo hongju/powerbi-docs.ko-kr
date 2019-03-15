@@ -49,7 +49,7 @@ Power BI Pro 또는 Power BI Premium에 대한 구독을 구매하려면 파트�
 
 ## <a name="sign-up-for-a-free-trial"></a>무료 평가판 가입
 
-Power BI Pro 무료 평가판에 가입할 수 있습니다. 평가판 기간이 끝날 때 Power BI Pro를 구매하지 않아도 Power BI의 많은 기능을 제공하는 무료 라이선스가 계속 유지됩니다. 자세한 내용은 [라이선스 유형별 Power 기능](service-features-license-type.md)을 참조하세요.
+Power BI Pro 무료 평가판에 가입할 수 있습니다. 평가판 기간이 끝날 때 Power BI Pro를 구매하지 않아도 Power BI의 많은 기능을 제공하는 무료 라이선스가 계속 유지됩니다. 자세한 내용은 [라이선스 유형별 Power BI 기능](service-features-license-type.md)을 참조하세요.
 
 ### <a name="enable-ad-hoc-subscriptions"></a>임시 구독 사용
 
@@ -57,7 +57,7 @@ Power BI Pro 무료 평가판에 가입할 수 있습니다. 평가판 기간이
 
 ![죄송합니다 이미지](media/service-admin-syndication-partner/sorry.png)
 
-애드혹 구독을 사용하도록 설정하려면 파트너에게 연락하여 애드혹 구독을 설정해 달라고 요청할 수 있습니다. 테넌트 관리자이고 Azure Active Directory PowerShell 명령을 사용하는 방법을 알고 있는 경우 직접 임시 구독을 사용하도록 설정할 수 있습니다. [그래프용 Azure Active Directory PowerShell](/powershell/azure/active-directory/install-adv2/)
+임시 구독을 사용하도록 설정하려면 파트너에게 연락하여 임시 구독을 설정해 달라고 요청할 수 있습니다. 테넌트 관리자이고 Azure Active Directory PowerShell 명령을 사용하는 방법을 알고 있는 경우 직접 임시 구독을 사용하도록 설정할 수 있습니다. [그래프용 Azure Active Directory PowerShell](/powershell/azure/active-directory/install-adv2/)
 
 1. Office 365 자격 증명을 사용하여 Azure Active Directory에 로그인합니다. 아래 스크립트의 첫 번째 줄은 사용자 자격 증명을 입력하라는 메시지를 표시합니다. 두 번째 행은 Azure Active Directory에 연결합니다.
 

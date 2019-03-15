@@ -95,7 +95,7 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
 
 1. [Office 365 관리 센터](https://portal.office.com/admin/default.aspx)로 이동합니다.
 
-1. 왼쪽 탐색 창에서 **청구** > **구독**을 선택
+1. 왼쪽 탐색 창에서 **청구** > **구독**을 선택합니다.
 
 1. 오른쪽에서 **구독 추가 +** 를 선택합니다.
 
@@ -119,7 +119,7 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
 
 관리자는 AAD(Azure Active Directory)를 통해 개인 사용자 등록을 사용하거나 사용하지 않도록 선택할 수 있습니다. 본 문서의 이 섹션에서는 PowerShell 명령으로 등록을 관리하는 방법을 보여 줍니다. Azure PowerShell에 대한 자세한 내용은 [Azure PowerShell 개요](/powershell/azure/overview)를 참조하세요.
 
-등록을 제어하는 AAD 설정은 **AllowAdHocSubscriptions**입니다. 대부분의 테넌트에서 이는 *true*로 설정되며 이는 사용 가능함을 의미합니다. 파트너를 통해 Power BI를 획득한 경우 *false*로 설정되어 있을 수 있는데, 이는 사용 안 함을 의미합니다. 설정을 *true*에서 *false*로 변경하면 조직의 새 사용자 개별 등록이 차단됩니다. 설정 변경 이전에 Power BI를 등록한 사용자 경우 등록한 라이선스가 유지됩니다.
+등록을 제어하는 AAD 설정은 **AllowAdHocSubscriptions**입니다. 대부분의 테넌트에서 이는 *true*로 설정되며 이는 사용 가능함을 의미합니다. 파트너를 통해 Power BI를 획득한 경우 *false*로 설정되어 있을 수 있는데, 이는 사용 안 함을 의미합니다. 설정을 *true*에서 *false*로 변경하면 조직의 새 사용자 개별 등록이 차단됩니다. 설정 변경 이전에 Power BI를 등록한 사용자의 경우 등록한 라이선스가 유지됩니다.
 
 1. Office 365 자격 증명을 사용하여 Azure Active Directory에 로그인합니다. 다음 PowerShell 스크립트의 첫 번째 행은 사용자 자격 증명을 입력하라는 메시지를 표시합니다. 두 번째 행은 Azure Active Directory에 연결합니다.
 
