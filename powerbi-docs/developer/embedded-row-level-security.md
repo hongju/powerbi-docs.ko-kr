@@ -47,14 +47,14 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 
 이 스키마에서 기억해야 할 몇 가지 사항은 다음과 같습입니다.
 
-* **총 판매액**과 같은 모든 측정값 **영업** 팩트 테이블에 저장됩니다.
-* 관련 추가 차원 테이블에는 **항목**, **시간**, **스토리지** 및 **구역**이라는 네 가지 항목이 있습니다.
-* 관계선의 화살표는 필터가 테이블 간에 이동할 수 있는 방식을 나타냅니다. 예를 들어, 필터가 **시간[날짜]** 에 배치되면 현재 스키마에서는 **영업** 테이블에 있는 값만을 필터링합니다. 관계선에 있는 모든 화살표가 다른 방향이 아닌 판매 테이블을 가리키기 때문에 다른 테이블은 이 필터의 영향을 받지 않습니다.
-* **구역** 테이블은 각 지역에 있는 관리자를 나타냅니다.
+* **Total Sales**과 같은 모든 측정값 **Sales** 팩트 테이블에 저장됩니다.
+* 관련 추가 차원 테이블에는 **Item**, **Time**, **Store** 및 **District**이라는 네 가지 항목이 있습니다.
+* 관계선의 화살표는 필터가 테이블 간에 이동할 수 있는 방식을 나타냅니다. 예를 들어, 필터가 **Time[Date]** 에 배치되면 현재 스키마에서는 **Sales** 테이블에 있는 값만을 필터링합니다. 관계선에 있는 모든 화살표가 다른 방향이 아닌 판매 테이블을 가리키기 때문에 다른 테이블은 이 필터의 영향을 받지 않습니다.
+* **District** 테이블은 각 지역에 있는 관리자를 나타냅니다.
   
     ![구역 테이블 내의 행](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
-이 스키마에 따라 **구역** 테이블의 **구역 관리자** 열에 필터를 적용하는 경우 및 해당 필터가 보고서를 보는 사용자와 일치하는 경우 해당 필터는 **스토리지** 및 **영업** 테이블을 필터링하여 해당 지역 관리자에게 데이터를 표시합니다.
+이 스키마에 따라 **District** 테이블의 **District Manager** 열에 필터를 적용하는 경우 및 해당 필터가 보고서를 보는 사용자와 일치하는 경우 해당 필터는 **Store** 및 **Sales** 테이블을 필터링하여 해당 지역 관리자에게 데이터를 표시합니다.
 
 방법은 다음과 같습니다.
 
@@ -64,7 +64,7 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 2. **관리자**라는 새 역할을 만듭니다.
 
     ![새 역할 만들기](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. **구역** 테이블에서 다음의 DAX 식을 입력합니다. **[구역 관리자] = USERNAME()**
+3. **District** 테이블에서 다음의 DAX 식을 입력합니다. **[District Manager] = USERNAME()**
 
     ![RLS 규칙의 DAX 문](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
 4. 규칙이 작동하는지 확인하려면 **모델링** 탭에서 **역할로 보기**를 선택하고 앞서 만든 **관리자** 역할과 함께 **다른 사용자**를 선택합니다. **AndrewMa**를 사용자로 입력합니다.
@@ -73,13 +73,13 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 
     보고서에 **AndrewMa**로 로그인한 경우처럼 데이터가 표시됩니다.
 
-필터링을 적용하면 여기에서 수행한 방식으로 **구역**, **저장소** 및 **영업** 테이블에서 모든 레코드를 필터링합니다. 그러나 **영업**과 **시간** 간 관계의 필터 방향으로 인해 **영업**과 **항목** 및 **항목**과 **시간** 테이블이 필터링되지 않습니다. 양방향 교차 필터링에 대한 자세한 내용은 [SQL Server Analysis Services 2016 및 Power BI Desktop에서 양방향 교차 필터링](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) 백서를 다운로드합니다.
+필터링을 적용하면 여기에서 수행한 방식으로 **District**, **Store** 및 **Sales** 테이블에서 모든 레코드를 필터링합니다. 그러나 **Sales**와 **Time** 간 관계의 필터 방향으로 인해 **Sales**와 **Item** 및 **Item**과 **Time** 테이블이 필터링되지 않습니다. 양방향 교차 필터링에 대한 자세한 내용은 [SQL Server Analysis Services 2016 및 Power BI Desktop에서 양방향 교차 필터링](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) 백서를 다운로드합니다.
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>포함된 토큰에 사용자 및 역할 적용
 
-이제 Power BI Desktop 역할을 구성했으므로 역할을 활용하기 위해 애플리케이션에 필요한 몇 가지 작업이 있습니다.
+이제 Power BI Desktop 역할을 구성했으므로 역할을 활용하기 위해 응용 프로그램에 필요한 몇 가지 작업이 있습니다.
 
-사용자가 애플리케이션에 의해 인증되고 권한을 부여 받고 포함된 토큰을 사용하여 특정 Power BI Embedded 보고서에 대한 사용자 액세스 권한을 부여합니다. Power BI Embedded에는 사용자에 대한 특정 정보가 없습니다. RLS가 작동하려면 ID 양식에서 포함 토큰의 일부로 몇 가지 추가 컨텍스트를 통과해야 합니다. [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API를 사용하여 ID를 전달할 수 있습니다.
+사용자가 응용 프로그램에 의해 인증되고 권한을 부여 받고 포함된 토큰을 사용하여 특정 Power BI Embedded 보고서에 대한 사용자 액세스 권한을 부여합니다. Power BI Embedded에는 사용자에 대한 특정 정보가 없습니다. RLS가 작동하려면 ID 양식에서 포함 토큰의 일부로 몇 가지 추가 컨텍스트를 통과해야 합니다. [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API를 사용하여 ID를 전달할 수 있습니다.
 
 API는 관련 데이터 세트가 표시된 ID 목록을 수락합니다. RLS를 실행하려면 ID의 일부로 다음 내용을 전달해야 합니다.
 
