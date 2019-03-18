@@ -107,7 +107,7 @@ Power BI Pro 라이선스를 구매하려면 다음 단계를 수행합니다.
 
     ![라이선스 - 모든 제품](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-03.png)
 
-5. **할당**을 선택하여 Power BI Pro 라이선스를 추가 사용자 계정에 추가합니다.
+5. **할당**을 선택하여 Power BI Pro 라이선스를 추가 사용자 계정에 할당합니다.
 
     ![라이선스 할당](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-04.png)
 
