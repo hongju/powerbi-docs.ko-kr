@@ -1,6 +1,6 @@
 ---
 title: Power BI를 포함하는 서비스 주체
-description: Power BI 콘텐츠 포함에 사용하기 위해 서비스 주체를 사용하여 Azure Active Directory 내에서 애플리케이션을 등록하는 방법을 알아봅니다.
+description: Power BI 콘텐츠 포함에 사용하기 위해 서비스 주체를 사용하여 Azure Active Directory 내에서 응용 프로그램을 등록하는 방법을 알아봅니다.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -18,32 +18,32 @@ ms.locfileid: "57014418"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI(미리 보기)를 포함하는 서비스 주체
 
-**서비스 주체**를 사용하면 Power BI 콘텐츠를 애플리케이션에 포함하고 **앱 전용** 토큰을 사용하여 Power BI와 함께 자동화를 사용할 수 있습니다. 서비스 주체는 **Power BI Embedded**를 사용하거나 **Power BI 작업 및 프로세스를 자동화**할 때 유용합니다.
+**서비스 주체**를 사용하면 Power BI 콘텐츠를 응용 프로그램에 포함하고 **앱 전용** 토큰을 사용하여 Power BI와 함께 자동화를 사용할 수 있습니다. 서비스 주체는 **Power BI Embedded**를 사용하거나 **Power BI 작업 및 프로세스를 자동화**할 때 유용합니다.
 
-Power BI Embedded를 사용할 경우 서비스 주체를 사용할 때 이점이 있습니다. 주요 이점은 애플리케이션을 인증하기 위해 마스터 계정(로그인하기 위한 사용자 이름 및 암호에 불과한 Power BI Pro 라이선스)이 필요하지 않다는 것입니다. 서비스 주체는 애플리케이션 ID와 애플리케이션 비밀을 사용하여 애플리케이션을 인증합니다.
+Power BI Embedded를 사용할 경우 서비스 주체를 사용할 때 이점이 있습니다. 주요 이점은 응용 프로그램을 인증하기 위해 마스터 계정(로그인하기 위한 사용자 이름 및 암호에 불과한 Power BI Pro 라이선스)이 필요하지 않다는 것입니다. 서비스 주체는 응용 프로그램 ID와 응용 프로그램 암호를 사용하여 응용 프로그램을 인증합니다.
 
 Power BI 작업을 자동화하는 작업을 할 때는 서비스 주체를 처리하고 관리하는 방법을 스크립팅하여 크기를 조정할 수도 있습니다.
 
-## <a name="application-and-service-principal-relationship"></a>애플리케이션 및 서비스 주체 관계
+## <a name="application-and-service-principal-relationship"></a>응용 프로그램 및 서비스 주체 관계
 
-Azure AD 테넌트를 보호하는 리소스에 액세스하기 위해 액세스가 필요한 엔터티가 보안 주체를 나타냅니다. 이 작업은 사용자(사용자 주체)와 애플리케이션(서비스 주체) 모두에 적용됩니다.
+Azure AD 테넌트를 보호하는 리소스에 액세스하기 위해 액세스가 필요한 엔터티가 보안 주체를 나타냅니다. 이 작업은 사용자(사용자 주체)와 응용 프로그램(서비스 주체) 모두에 적용됩니다.
 
-보안 주체는 Azure AD 테넌트의 사용자와 애플리케이션에 대한 액세스 정책 및 사용 권한을 정의합니다. 이 액세스 정책은 로그인 시 사용자 및 애플리케이션 인증과 리소스 액세스 시 권한 부여와 같은 핵심 기능을 사용할 수 있습니다. 자세한 내용은 [AAD(Azure Active Directory)](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)의 애플리케이션 및 서비스 주체를 참조하세요.
+보안 주체는 Azure AD 테넌트의 사용자와 응용 프로그램에 대한 액세스 정책 및 사용 권한을 정의합니다. 이 액세스 정책은 로그인 시 사용자 및 응용 프로그램 인증과 리소스 액세스 시 권한 부여와 같은 핵심 기능을 사용할 수 있습니다. 자세한 내용은 [AAD(Azure Active Directory)](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)의 응용 프로그램 및 서비스 주체를 참조하세요.
 
-Azure Portal에 Azure AD 애플리케이션을 등록할 때 두 개의 개체가 Azure AD 테넌트에 생성됩니다.
+Azure Portal에 Azure AD 응용 프로그램을 등록할 때 두 개의 개체가 Azure AD 테넌트에 생성됩니다.
 
-* [애플리케이션 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#application-object)
+* [응용 프로그램 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#application-object)
 * [서비스 주체 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)
 
-애플리케이션 개체를 모두 테넌트에서 사용하기 위한 애플리케이션의 *글로벌* 표현으로, 서비스 주체 개체를 특정 테넌트에서 사용하기 위한 *로컬* 표현으로 간주합니다.
+응용 프로그램 개체를 모두 테넌트에서 사용하기 위한 응용 프로그램의 *글로벌* 표현으로, 서비스 주체 개체를 특정 테넌트에서 사용하기 위한 *로컬* 표현으로 간주합니다.
 
-애플리케이션 개체는 해당 서비스 주체 개체를 만드는 데 사용하기 위해 공통 및 기본 속성이 *파생*되는 템플릿 역할을 제공합니다.
+응용 프로그램 개체는 해당 서비스 주체 개체를 만드는 데 사용하기 위해 공통 및 기본 속성이 *파생*되는 템플릿 역할을 제공합니다.
 
-애플리케이션이 사용되는 테넌트별로 서비스 주체가 필요하며, 이를 통해 테넌트가 보안을 유지하는 로그인 및 액세스에 대한 ID를 설정할 수 있습니다. 단일 테넌트 애플리케이션에는 애플리케이션 등록 시 사용하기 위해 만들어지고 동의한 하나의 서비스 주체(해당 홈 테넌트에 있음)만 있습니다.
+응용 프로그램이 사용되는 테넌트별로 서비스 주체가 필요하며, 이를 통해 테넌트가 보안을 유지하는 로그인 및 액세스에 대한 ID를 설정할 수 있습니다. 단일 테넌트 응용 프로그램에는 응용 프로그램 등록 시 사용하기 위해 만들어지고 동의한 하나의 서비스 주체(해당 홈 테넌트에 있음)만 있습니다.
 
 ## <a name="service-principal-with-power-bi-embedded"></a>Power BI Embedded를 포함하는 서비스 주체
 
-서비스 주체를 사용하면 애플리케이션 ID와 애플리케이션 비밀을 사용하여 애플리케이션의 마스터 계정 정보를 마스킹할 수 있습니다. 더 이상 인증을 위해 애플리케이션에 마스터 계정을 하드 코딩할 필요가 없습니다.
+서비스 주체를 사용하면 응용 프로그램 ID와 응용 프로그램 암호를 사용하여 응용 프로그램의 마스터 계정 정보를 마스킹할 수 있습니다. 더 이상 인증을 위해 응용 프로그램에 마스터 계정을 하드 코딩할 필요가 없습니다.
 
 **Power BI API** 및 **Power BI .NET SDK**는 이제 서비스 주체를 사용하여 호출을 지원하므로 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 서비스 주체와 함께 사용할 수 있습니다. 예를 들어 작업 영역 만들기, 작업 영역에서 사용자 추가 또는 제거, 작업 영역으로 콘텐츠 가져오기와 같은 작업 영역을 변경할 수 있습니다.
 
@@ -68,9 +68,9 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
 
 기존 마스터 계정 사용과 달리 서비스 주체(앱 전용 토큰)를 사용하려면 몇 가지 다른 항목을 설정해야 합니다. 서비스 주체(앱 전용 토큰)로 시작하려면 적합한 환경을 설정해야 합니다.
 
-1. AAD(Azure Active Directory)에 [서버 쪽 웹 애플리케이션을 등록](register-app.md)하여 Power BI와 함께 사용합니다. 애플리케이션을 등록한 후 애플리케이션 ID, 애플리케이션 비밀 및 서비스 주체 개체 ID를 캡처하여 Power BI 콘텐츠에 액세스할 수 있습니다. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)을 사용하여 서비스 주체를 만들 수 있습니다.
+1. AAD(Azure Active Directory)에 [서버 사이드 웹 애플리케이션을 등록](register-app.md)하여 Power BI와 함께 사용합니다. 응용 프로그램을 등록한 후 응용 프로그램 ID, 응용 프로그램 암호 및 서비스 주체 개체 ID를 캡처하여 Power BI 콘텐츠에 액세스할 수 있습니다. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)을 사용하여 서비스 주체를 만들 수 있습니다.
 
-    다음은 새 Azure Active Directory 애플리케이션을 만드는 샘플 스크립트입니다.
+    다음은 새 Azure Active Directory 응용 프로그램을 만드는 샘플 스크립트입니다.
 
     ```powershell
     # The app id - $app.appid
@@ -91,11 +91,11 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
     ```
 
    > [!Important]
-   > 서비스 주체를 Power BI와 함께 사용하도록 설정하면 애플리케이션의 AD 사용 권한이 더 이상 적용되지 않습니다. 애플리케이션 사용 권한은 Power BI 관리 포털을 통해 관리됩니다.
+   > 서비스 주체를 Power BI와 함께 사용하도록 설정하면 응용 프로그램의 AD 사용 권한이 더 이상 적용되지 않습니다. 응용 프로그램 사용 권한은 Power BI 관리 포털을 통해 관리됩니다.
 
-2. [AAD(Azure Active Directory)의 보안 그룹](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)을 만들고, 사용자가 만든 애플리케이션을 해당 보안 그룹에 추가합니다. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)을 사용하여 AAD 보안 그룹을 만들 수 있습니다.
+2. [AAD(Azure Active Directory)의 보안 그룹](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)을 만들고, 사용자가 만든 응용 프로그램을 해당 보안 그룹에 추가합니다. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)을 사용하여 AAD 보안 그룹을 만들 수 있습니다.
 
-    아래는 새 보안 그룹을 만들고 해당 보안 그룹에 애플리케이션을 추가하는 샘플 스크립트입니다.
+    아래는 새 보안 그룹을 만들고 해당 보안 그룹에 응용 프로그램을 추가하는 샘플 스크립트입니다.
 
     ```powershell
     # Required to sign in as a tenant admin
@@ -144,7 +144,7 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 
 1. Azure Portal에 새 앱 등록을 만듭니다.  
 
-2. 그런 다음, **로컬 디렉터리의 관리되는 애플리케이션**에서 만든 애플리케이션의 이름을 선택합니다.
+2. 그런 다음, **로컬 디렉터리의 관리되는 응용 프로그램**에서 만든 응용 프로그램의 이름을 선택합니다.
 
    ![로컬 디렉터리의 관리형 애플리케이션](media/embed-service-principal/managed-application-in-local-directory.png)
 
