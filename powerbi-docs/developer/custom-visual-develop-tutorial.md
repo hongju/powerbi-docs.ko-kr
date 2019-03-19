@@ -8,13 +8,13 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: 9edb234e36ee980e148482f0a86d390252404c1e
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
+ms.date: 03/15/2019
+ms.openlocfilehash: 4efb4e2c02671671d42d9f66c1f9f57ee028c9a1
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695176"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174682"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>자습서: Power BI 사용자 지정 시각적 개체 개발
 
@@ -285,7 +285,7 @@ PowerShell에서 실행 중인 사용자 지정 시각적 개체를 중지하려
 이제 텍스트가 포함된 원을 표시하는 사용자 지정 시각적 개체를 개발할 수 있습니다.
 
 > [!Note]
-> 이 자습서의 많은 텍스트 항목은 [여기](https://github.com/uve/circlecard)에서 복사할 수 있습니다.
+> 이 자습서의 많은 텍스트 항목은 [여기](https://github.com/Microsoft/powerbi-visuals-circlecard)에서 복사할 수 있습니다.
 
 1. PowerShell에 **D3 라이브러리**를 설치하려면 아래 명령을 입력합니다.
 

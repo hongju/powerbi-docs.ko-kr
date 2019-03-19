@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2ee381cae5bd0c0ed1e6a8cab1cd33361a05814f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 7b84b967a9e6228258027302fc2e4ad4df5b0073
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324832"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174778"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>페이지를 매긴 보고서의 보고서 디자인 뷰 살펴보기(미리 보기)
 
@@ -22,12 +22,12 @@ ms.locfileid: "56324832"
 
 ![보고서 작성기 보고서 디자인 뷰](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
-1. [보고서 데이터 창](#report-data-pane) 
-2. [보고서 디자인 화면](#report-design-surface)  
-3. [매개 변수 창](#parameters-pane) 
-4. [속성 창](#properties-pane) 
-5. [그룹화 창](#grouping-pane) 
-6. [현재 보고서 상태 표시줄](#current-report-status-bar)  
+1. [보고서 데이터 창](#1-report-data-pane) 
+2. [보고서 디자인 화면](#2-report-design-surface)  
+3. [매개 변수 창](#3-parameters-pane) 
+4. [속성 창](#4-properties-pane) 
+5. [그룹화 창](#5-grouping-pane) 
+6. [현재 보고서 상태 표시줄](#6-current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1 [보고서 데이터] 창  
  [보고서 데이터] 창에서 보고서 레이아웃을 디자인하기 전에 보고서에 필요한 보고서 데이터와 보고서 리소스를 정의합니다. 예를 들어 데이터 원본, 데이터 세트, 계산 필드, 보고서 매개 변수 및 이미지를 [보고서 데이터] 창에 추가할 수 있습니다.  
@@ -109,7 +109,7 @@ ms.locfileid: "56324832"
 
 ## <a name="next-steps"></a>다음 단계
 
-[What are paginated reports in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md)(Power BI Premium의 페이지를 매긴 보고서란?(미리 보기)) 
+[Power BI Premium의 페이지를 매긴 보고서란? (미리 보기)](paginated-reports-report-builder-power-bi.md) 
 
   
   

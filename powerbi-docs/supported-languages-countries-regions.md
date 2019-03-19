@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 98c637692b3c31e598a11c3039b60be3dec61348
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a593a918c59452c922f6061189ad6c2885478aad
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281186"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174870"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI에 지원되는 언어 및 국가/지역
 
@@ -120,7 +120,7 @@ Power BI Desktop을 얻는 방법은 두 가지입니다. 다운로드하거나 
 
 * [Windows 스토어에서 Power BI Desktop을 설치](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store)하면 모든 언어가 설치되고 Windows 기본 언어에 해당하는 언어가 표시됩니다.
 * [Power BI Desktop을 다운로드](#choose-a-language-when-you-download-power-bi-desktop)할 때 언어를 선택합니다. 
-* 특정 보고서를 위한 [데이터를 가져올 때 사용할 로캘을 선택](#choose-the-locale-to-be-used-when-importing-data-into-power-bi-desktop)할 수도 있습니다. 
+* 특정 보고서를 위한 [데이터를 가져올 때 사용할 로캘을 선택](#choose-the-locale-for-importing-data-into-power-bi-desktop)할 수도 있습니다.
 
 ### <a name="choose-a-language-for-power-bi-desktop-installed-from-the-windows-store"></a>Windows 스토어에서 설치된 Power BI Desktop의 언어 선택
 1. Windows 스토어에서 [Power BI Desktop을 설치](http://aka.ms/pbidesktopstore)합니다.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 145ef2da33e0d596f03f75c76aaa99e90f58c4c2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288523"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174571"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI 앱 작업 영역에서 공동 작업
 Power BI 앱 작업 영역은 동료들과 대시보드, 보고서 및 데이터 세트를 공동 작업하여 *앱*을 만들기에 적합합니다. 공동 작업은 Power BI의 작업 영역에서 그치지 않습니다. Office 365는 비즈니스용 OneDrive에서 파일 공유, Exchange에서 대화, 공유 일정, 작업 등과 같은 다른 그룹 서비스를 제공합니다. [Office 365의 그룹](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)에 대해 자세히 알아보세요.
@@ -49,7 +49,7 @@ Office 365에서 공동 작업은 Power BI의 앱 작업 영역에서 시작됩�
 2. 이 메뉴에서 몇 가지 방법으로 그룹과 공동 작업할 수 있습니다. 
    
    * [Office 365의 그룹과 대화](service-collaborate-power-bi-workspace.md#have-a-group-conversation-in-office-365)합니다.
-   * 앱의 그룹 작업 영역 일정에서 [이벤트를 예약](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-group-workspace-calendar)합니다.
+   * 앱의 그룹 작업 영역 일정에서 [이벤트를 예약](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-apps-group-workspace-calendar)합니다.
    
    처음으로 Office 365에서 앱의 그룹 작업 영역으로 이동하는 경우 시간이 걸릴 수 있습니다. 15-30분을 기다린 다음 브라우저를 새로 고칩니다.
 

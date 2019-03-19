@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275321"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174594"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에 최적화된 보고서 만들기
-휴대폰 또는 태블릿의 모바일 앱에서 편리하게 볼 수 있도록 보고서를 만들 수 있습니다. 휴대폰 및 태블릿을 위해 세로 버전의 보고서를 만들면 됩니다. 휴대폰 및 태블릿에서 편리하게 볼 수 있도록 Power BI Desktop과 Power BI 서비스에서 시각적 개체를 재배치하거나 크기를 조정하는 등 보고서를 조정할 수 있습니다. 시각적 개체를 모두 포함하지 않아도 됩니다. 또한 휴대폰에서 볼 수 있도록 크기를 적절히 조정하는 [*반응형* 시각적 개체](#optimize-a-visual-for-any-size) 및 [반응형 슬라이서](#enhance-slicers-to-to-work-well-in-phone-reports)를 만들 수 있습니다. 보고서에 필터를 추가한 경우, 해당 필터가 최적화된 보고서에 자동으로 나타납니다. 보고서 구독자는 해당 필터를 확인하고 해당 필터로 보고서를 필터링할 수 있습니다.
+휴대폰 또는 태블릿의 모바일 앱에서 편리하게 볼 수 있도록 보고서를 만들 수 있습니다. 휴대폰 및 태블릿을 위해 세로 버전의 보고서를 만들면 됩니다. 휴대폰 및 태블릿에서 편리하게 볼 수 있도록 Power BI Desktop과 Power BI 서비스에서 시각적 개체를 재배치하거나 크기를 조정하는 등 보고서를 조정할 수 있습니다. 시각적 개체를 모두 포함하지 않아도 됩니다. 또한 휴대폰에서 볼 수 있도록 크기를 적절히 조정하는 [*반응형* 시각적 개체](#optimize-a-visual-for-any-size) 및 [반응형 슬라이서](#enhance-slicers-to-work-well-in-phone-reports)를 만들 수 있습니다. 보고서에 필터를 추가한 경우, 해당 필터가 최적화된 보고서에 자동으로 나타납니다. 보고서 구독자는 해당 필터를 확인하고 해당 필터로 보고서를 필터링할 수 있습니다.
 
 ![휴대폰에 최적화된 보고서](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 

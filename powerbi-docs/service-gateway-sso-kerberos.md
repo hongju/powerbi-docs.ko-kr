@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2183596a66526ced7cfa4a298420972b63a87ca
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226253"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174985"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용
 
@@ -60,7 +60,7 @@ Kerberos 제한 위임이 올바르게 작동하려면 서비스 계정의 *SPN(
 
 ![서비스 계정의 스크린샷](media/service-gateway-sso-kerberos/service-account.png)
 
-Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azure Active Directory) 인스턴스가 이미 로컬 Active Directory 인스턴스(Azure AD DirSync/Connect 사용)와 동기화된 상태가 아닌 경우 도메인 계정으로 실행해야 합니다. 도메인 계정으로 전환하려면 이 문서의 뒷부분에 나오는 [게이트웨이를 도메인 계정으로 전환](#switching-the-gateway-to-a-domain-account)을 참조하세요.
+Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azure Active Directory) 인스턴스가 이미 로컬 Active Directory 인스턴스(Azure AD DirSync/Connect 사용)와 동기화된 상태가 아닌 경우 도메인 계정으로 실행해야 합니다. 도메인 계정으로 전환하려면 이 문서의 뒷부분에 나오는 [게이트웨이를 도메인 계정으로 전환](#switch-the-gateway-to-a-domain-account)을 참조하세요.
 
 > [!NOTE]
 > Azure AD Connect가 구성되고 사용자 계정이 동기화된 경우 게이트웨이 서비스는 런타임 시 로컬 Azure AD 조회를 수행하지 않아도 됩니다. 게이트웨이 서비스에 대해 로컬 서비스 SID(도메인 계정 요구 대신)를 사용할 수 있습니다. 이 문서에 간략히 나온 Kerberos 제한 위임 구성 단계는 해당 구성과 동일합니다. 도메인 계정 대신 Azure AD에서 게이트웨이의 컴퓨터 개체에 간단히 적용됩니다.
@@ -188,7 +188,7 @@ SAP HANA를 사용 중인 경우 약간의 성능 개선 효과를 볼 수 있�
 
 ## <a name="configure-sap-bw-for-sso"></a>SSO용 SAP BW 구성
 
-Kerberos가 게이트웨이에서 어떻게 작동하는지 이해했으므로 SAP BW(SAP Business Warehouse)용 SSO를 구성할 수 있습니다. 다음 단계에서는 이 문서의 앞 부분에서 설명한 것처럼 이미 [Kerberos 제한된 위임이 준비](#preparing-for-kerberos-constrained-delegation)되어 있다고 가정합니다.
+Kerberos가 게이트웨이에서 어떻게 작동하는지 이해했으므로 SAP BW(SAP Business Warehouse)용 SSO를 구성할 수 있습니다. 다음 단계에서는 이 문서의 앞 부분에서 설명한 것처럼 이미 [Kerberos 제한된 위임이 준비](#prepare-for-kerberos-constrained-delegation)되어 있다고 가정합니다.
 
 이 가이드에서는 가능한 한 포괄적으로 설명하려고 합니다. 이러한 단계 중 일부를 이미 완료한 경우에는 건너뛸 수 있습니다. 예를 들어 SAP BW 서버의 서비스 사용자를 이미 만들고 해당 사용자에게 SPN을 매핑했거나, 이미 `gsskrb5` 라이브러리를 설치했을 수도 있습니다.
 
@@ -356,7 +356,7 @@ Azure AD Connect를 구성하지 않은 경우 Azure AD 사용자에게 매핑�
 
 ### <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service"></a>Power BI 서비스에 새 SAP BW 애플리케이션 서버 데이터 원본 추가
 
-이 문서의 앞 부분에 나온 [보고서 실행](#running-a-power-bi-report)에 대한 지침에 따라 게이트웨이에 SAP BW 데이터 원본을 추가합니다.
+이 문서의 앞 부분에 나온 [보고서 실행](#run-a-power-bi-report)에 대한 지침에 따라 게이트웨이에 SAP BW 데이터 원본을 추가합니다.
 
 1. Power BI Desktop에서 SAP BW 서버에 로그인할 때 입력하는 애플리케이션 서버의 **호스트 이름**, **시스템 번호** 및 **클라이언트 ID**를 데이터 원본 구성 창에 입력합니다. **인증 방법**에 대해서는 **Windows**를 선택합니다.
 
