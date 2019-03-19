@@ -214,7 +214,7 @@ RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데�
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>응용 프로그램 ID 및 서비스 주체 개체 ID를 사용하는 시기는?
 
-**[응용 프로그램 ID](embed-sample-for-customers.md#application-id)** 는 인증을 위해 응용 프로그램 ID를 전달할 때 액세스 토큰을 만드는 데 사용됩니다.
+**[응용 프로그램 ID](embed-sample-for-customers.md#application-id)**는 인증을 위해 응용 프로그램 ID를 전달할 때 액세스 토큰을 만드는 데 사용됩니다.
 
 작업을 위해 서비스 주체를 참조하거나 변경하려면 **[서비스 주체 개체 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)** 를 사용합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
 
