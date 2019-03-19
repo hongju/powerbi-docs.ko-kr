@@ -25,7 +25,7 @@ ms.locfileid: "57757464"
 
 이 자습서에서는 다음 작업에 대해 학습합니다.
 > [!div class="checklist"]
-> * Azure에서 애플리케이션을 등록합니다.
+> * Azure에서 응용 프로그램을 등록합니다.
 > * Power BI 테넌트를 사용하여 애플리케이션에 Power BI 보고서를 포함합니다.
 
 ## <a name="prerequisites"></a>필수 조건
