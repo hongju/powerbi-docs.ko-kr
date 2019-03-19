@@ -51,7 +51,7 @@ Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션�
      애플리케이션 또는 각 고객에 대해 새 테넌트를 만들도록 결정한 경우 [Azure Active Directory 테넌트 만들기](create-an-azure-active-directory-tenant.md) 또는 [Azure Active Directory 테넌트를 가져오는 방법](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)을 참조하세요.
 2. 응용 프로그램 "마스터" 계정으로 작동할 이 새 테넌트 내에서 사용자를 만듭니다. 해당 계정은 Power BI에 등록해야 하며 할당된 Power BI Pro 라이선스가 있어야 합니다.
 
-## <a name="accounts-within-azure-ad"></a>Azure AD 에서 계정
+## <a name="accounts-within-azure-ad"></a>Azure AD 내 계정
 
 다음 계정은 테넌트 내에 있어야 합니다.
 
