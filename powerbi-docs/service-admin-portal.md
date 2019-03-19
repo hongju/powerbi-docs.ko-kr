@@ -89,7 +89,7 @@ Office 365 관리 센터에서 Power BI 사용자, 그룹 및 관리자를 관�
 
 ## <a name="audit-logs"></a>감사 로그
 
-Office 365 Security & Compliance 센터에서 Power BI 감사 로그를 관리합니다. **감사 로그** 탭은 테넌트의 Security & Compliance 센터에 대한 링크를 제공합니다. [자세히 알아보기](service-admin-auditing.md)
+Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니다. **감사 로그** 탭은 테넌트의 보안 및 준수 센터에 대한 링크를 제공합니다. [자세히 알아보기](service-admin-auditing.md)
 
 감사 로그를 사용하려면 [**내부 활동 감사 및 규정 준수를 위해 감사 로그 만들기**](#create-audit-logs-for-internal-activity-auditing-and-compliance) 설정이 사용하도록 설정되어 있는지 확인합니다.
 
