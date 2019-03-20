@@ -20,7 +20,7 @@ ms.locfileid: "55762378"
 
 Power BI 콘텐츠 포함에 사용하기 위해 Azure AD(Azure Active Directory) 내에서 응용 프로그램을 등록하는 방법에 대해 알아봅니다.
 
-Azure AD에 응용 프로그램을 등록하면 애플리케이션에서 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 액세스할 수 있습니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
+Azure AD에 응용 프로그램을 등록하면 응용 프로그램에서 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 액세스할 수 있습니다. 응용 프로그램을 등록하면 응용 프로그램의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
 
 > [!IMPORTANT]
 > Power BI 앱을 등록하려면 먼저 [Azure Active Directory 테넌트 및 조직 사용자](create-an-azure-active-directory-tenant.md)가 있어야 합니다. 테넌트의 사용자를 Power BI에 아직 등록하지 않은 경우 앱 등록이 성공적으로 완료되지 않습니다.
@@ -29,7 +29,7 @@ Azure AD에 응용 프로그램을 등록하면 애플리케이션에서 [Power 
 
 ## <a name="register-with-the-power-bi-application-registration-tool"></a>Power BI 응용 프로그램 등록 도구를 사용하여 등록
 
-응용 프로그램을 **Azure Active Directory**에 등록하여 응용 프로그램의 ID를 설정하고 Power BI REST 리소스에 대한 사용 권한을 지정하세요. 콘솔 앱 또는 웹 사이트와 같은 애플리케이션을 등록하는 경우 애플리케이션이 사용 권한을 요청한 사용자에게 자신을 식별하기 위해 사용하는 ID를 받습니다.
+응용 프로그램을 **Azure Active Directory**에 등록하여 응용 프로그램의 ID를 설정하고 Power BI REST 리소스에 대한 사용 권한을 지정하세요. 콘솔 앱 또는 웹 사이트와 같은 응용 프로그램을 등록하는 경우 응용 프로그램이 사용 권한을 요청한 사용자에게 자신을 식별하기 위해 사용하는 ID를 받습니다.
 
 Power BI 앱 등록 도구를 사용하여 응용 프로그램을 등록하는 방법은 다음과 같습니다.
 
@@ -71,7 +71,7 @@ Power BI 앱 등록 도구를 사용하여 응용 프로그램을 등록하는 �
 |--------|-----------------------------|
 | ![기본 성공](media/register-app/register-app-new-design-success-native.png) | ![서버 사이드 웹앱 성공](media/register-app/register-app-new-design-success-server-side-web-app.png) |
 
-이제 등록된 응용 프로그램을 사용자 지정 애플리케이션의 일부로 사용하여 Power BI 서비스 및 Power BI Embedded 애플리케이션과 상호 작용할 수 있습니다.
+이제 등록된 응용 프로그램을 사용자 지정 응용 프로그램의 일부로 사용하여 Power BI 서비스 및 Power BI Embedded 응용 프로그램과 상호 작용할 수 있습니다.
 
 ## <a name="register-with-the-azure-portal"></a>Azure Portal에 등록
 
