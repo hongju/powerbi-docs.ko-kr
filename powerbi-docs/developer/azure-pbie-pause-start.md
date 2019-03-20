@@ -74,7 +74,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 ## <a name="next-steps"></a>다음 단계
 
-크기를 확장 또는 축소하려는 경우 참조 [Power BI Embedded 용량 크기 조정](azure-pbie-scale-capacity.md)을 참조하세요.
+크기를 확장 또는 축소하려는 경우 [Power BI Embedded 용량 크기 조정](azure-pbie-scale-capacity.md)을 참조하세요.
 
 애플리케이션 내에서 Power BI 콘텐츠를 포함하려면 [Power BI 대시보드, 보고서 및 타일 포함 방법](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/)을 참조하세요.
 
