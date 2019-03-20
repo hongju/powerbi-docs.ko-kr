@@ -48,7 +48,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 그러나 환경을 수동으로 설정하도록 선택하면 아래를 계속할 수 있습니다.
 
-### <a name="register-an-application-in-azure-active-directory"></a>Azure Active Directory에서 애플리케이션 등록
+### <a name="register-an-application-in-azure-active-directory"></a>Azure Active Directory에서 응용 프로그램 등록
 
 Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 애플리케이션에서 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
 
@@ -138,7 +138,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
     ![앱 등록 검색](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-3. **ApplicationSecret**을 사용해야 하는 애플리케이션을 선택합니다.
+3. **ApplicationSecret**을 사용해야 하는 응용 프로그램을 선택합니다.
 
     ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
@@ -150,7 +150,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
     ![키 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-6. **설명** 상자에 이름을 입력하고 지속 기간을 선택합니다. 그런 다음, **저장**을 선택하여 애플리케이션의 **값**을 가져옵니다. 키 값을 저장한 후 **키** 창을 닫으면 값 필드가 숨김으로만 표시됩니다. 이때는 키 값을 검색할 수 없습니다. 키 값을 분실한 경우 Azure Portal에서 새 키 값을 만듭니다.
+6. **설명** 상자에 이름을 입력하고 지속 기간을 선택합니다. 그런 다음, **저장**을 선택하여 응용 프로그램의 **값**을 가져옵니다. 키 값을 저장한 후 **키** 창을 닫으면 값 필드가 숨김으로만 표시됩니다. 이때는 키 값을 검색할 수 없습니다. 키 값을 분실한 경우 Azure Portal에서 새 키 값을 만듭니다.
 
     ![키 값](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
