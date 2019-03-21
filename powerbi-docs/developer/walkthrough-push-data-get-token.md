@@ -37,7 +37,7 @@ ms.locfileid: "56216565"
 
      b. **패키지 관리자 콘솔**에서 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612를 입력합니다.
 3. 아래 코드를 class Program {...}에 추가합니다.
-4. "{ClientID}"는 앱을 등록할 때 가져온 **클라이언트 ID** 로 바꿉니다. [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)을 참조하세요.
+4. "{ClientID}"는 앱을 등록할 때 가져온 **응용 프로그램 ID** 로 바꿉니다. [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)을 참조하세요.
 5. Microsoft.IdentityModel.Clients.ActiveDirectory 패키지를 설치한 후 **using Microsoft.IdentityModel.Clients.ActiveDirectory;** 를 Program.cs에 추가합니다.
 6. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. 토큰 문자열이 콘솔 창에 표시됩니다.
 
