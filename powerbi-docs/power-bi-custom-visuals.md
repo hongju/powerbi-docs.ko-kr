@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI의 사용자 지정 시각적 개체
 description: Power BI의 사용자 지정 시각화
 author: sranins
@@ -159,7 +159,7 @@ Power BI 인증 시각적 개체는 품질에 대해 추가로 엄격한 테스�
 
 6. '.pbiviz' 파일을 저장한 다음, Power BI를 엽니다.
 
-7. ‘.pbiviz’ 파일을 보고서로 가져옵니다. 위의 [파일에서 사용자 지정 시각적 개체 가져오기](#import-a-custom-visual-from-a-file) 섹션을 참조하세요.
+7. '.pbiviz' 파일을 보고서로 가져오기 합니다.(위의 [파일에서 사용자 지정 시각적 개체 가져오기](#import-a-custom-visuals-from-a-file) 섹션 참조)
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
