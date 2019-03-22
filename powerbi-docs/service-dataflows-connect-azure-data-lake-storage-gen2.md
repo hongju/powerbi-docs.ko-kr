@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426726"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174755"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)
 
@@ -65,7 +65,7 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 
 그런 다음, 만들어진 스토리지 계정에서 Power BI 서비스에 독자 역할을 부여해야 합니다. 기본 제공 역할이므로 단계는 간단합니다. 
 
-[보안 주체에 역할 할당](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal) 문서의 단계를 따릅니다.
+[기본 제공 RBAC 역할 할당](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)의 단계를 따르세요.
 
 **역할 할당 추가** 창에서 Power BI 서비스에 할당할 **독자** 역할을 선택합니다. 그런 다음, 검색을 사용하여 **Power BI 서비스**를 찾습니다. 다음 이미지는 Power BI 서비스에 할당된 **독자** 역할을 보여 줍니다.
 
@@ -150,6 +150,9 @@ Azure Portal에서 Azure Data Lake Storage Gen2 계정을 설정하면 계정이
 6. **연결**을 선택합니다.
 
 이러한 단계가 성공적으로 완료되면 Azure Data Lake Storage Gen2 계정이 Power BI에 연결됩니다. 
+
+> [!NOTE]
+> Power BI 관리 포털에서 Azure Data Lake Storage Gen2에 대한 연결을 구성하려면 전역 관리자 권한이 있어야 합니다. 하지만 전역 관리자는 관리 포털에서 외부 스토리지를 연결할 수 없습니다.  
 
 그런 다음, 조직의 사용자가 데이터 흐름 정의 및 데이터 스토리지에 이 스토리지 계정을 사용할 수 있도록 해당 작업 영역을 구성할 수 있어야 합니다. 다음 섹션에서 이 작업을 수행해 보겠습니다. 
 

@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430307"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174939"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서의 사용 메트릭 모니터링
 
@@ -47,7 +47,7 @@ ms.locfileid: "55430307"
 
 사용 메트릭 보고서는 **최근**, **작업 영역**, **즐겨찾기** 또는 기타 내용 목록에 나타나지 않습니다. 앱에 추가할 수 없습니다. 사용 메트릭 보고서에서 타일을 대시보드에 고정하는 경우 해당 대시보드를 앱 또는 콘텐츠 팩에 추가할 수 없습니다.
 
-보고서 데이터를 자세히 살펴보거나 데이터 세트에 대한 자신만의 보고서를 작성하려면 **다른 이름으로 저장**을 사용합니다([완전한 기능의 Power BI 보고서로 사용 메트릭 저장](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)) 참조).
+보고서 데이터를 자세히 살펴보거나 데이터 세트에 대한 자신만의 보고서를 작성하려면 **다른 이름으로 저장**을 사용합니다([완전한 기능을 갖춘 Power BI 보고서로 사용 메트릭 보고서 저장](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize) 참조).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>대시보드 또는 보고서에 대한 사용 메트릭 보고서 열기
 

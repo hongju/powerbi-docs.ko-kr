@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: da5394c0d1e63619229542b914ae7fd4deed7447
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223746"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174893"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -137,7 +137,7 @@ Power BI에서는 조직 계정에 등록해야 합니다. MSA(Microsoft 계정)
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 솔루션에 포함된 PBI Embedded 전용 용량 역할이란?
 
-[솔루션의 수준을 프로덕션으로 승격](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)하려면 Power BI 콘텐츠(애플리케이션에서 사용 중인 앱 작업 영역)를 Power BI Embedded(A SKU) 용량에 할당해야 합니다.
+[솔루션을 프로덕션으로 승격](embed-sample-for-customers.md#move-to-production)하려면 애플리케이션에서 사용 중인 Power BI 콘텐츠(앱 작업 영역)를 Power BI Embedded(SKU) 용량에 할당해야 합니다.
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>PBI Embedded를 사용 가능한 Azure 지역은 어디인가요?
 
@@ -167,7 +167,7 @@ AAD 토큰을 가져오려면 [Azure Active Directory 인증 라이브러리](ht
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>내 애플리케이션은 사용자 인증에 이미 AAD를 사용합니다. "사용자 소유 데이터" 시나리오에서 Power BI에 인증할 때 이 ID를 사용하려면 어떻게 하나요?
 
-흐름 대신 표준 OAuth입니다(https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api). 애플리케이션은 필수 범위에서 Power BI 서비스에 대한 사용 권한이 필요하도록 구성되어야 합니다. 또한 앱에 사용자 토큰을 만들면 사용자 액세스 토큰을 사용하여 ADAL API AcquireTokenAsync에 간단히 호출하고 Power BI 리소스 URL을 리소스 ID로 지정합니다. 수행 방법을 보여주는 코드 조각은 아래를 참조하세요.
+표준 OAuth On-Behalf-Of 흐름입니다(<https://docs.microsoft.com/azure/active-directory/develop/web-api>). 필요한 범위를 사용하여 Power BI 서비스에 대한 권한을 요청하도록 애플리케이션을 구성해야 합니다. 앱에 대한 사용자 토큰이 있으면 간단히 사용자 액세스 토큰을 사용하여 ADAL API AcquireTokenAsync를 호출하고 Power BI 리소스 URL을 리소스 ID로 지정합니다. 이 작업을 수행할 수 있는 방법을 보여 주는 다음 코드 조각을 참조하세요.
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -206,15 +206,15 @@ RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데�
 
 ### <a name="how-do-i-manage-permissions-for-service-principals-with-power-bi"></a>Power BI를 사용하여 서비스 주체에 대한 사용 권한을 관리하려면 어떻게 해야 하나요?
 
-[서비스 주체](embed-service-principal.md)를 Power BI와 함께 사용하도록 설정하면 응용 프로그램의 AD 사용 권한이 더 이상 적용되지 않습니다. 응용 프로그램 사용 권한은 Power BI 관리 포털을 통해 관리됩니다.
+[서비스 주체](embed-service-principal.md)를 Power BI와 함께 사용하도록 설정하면 애플리케이션의 AD 사용 권한이 더 이상 적용되지 않습니다. 애플리케이션 사용 권한은 Power BI 관리 포털을 통해 관리됩니다.
 
 서비스 주체는 해당 보안 그룹의 모든 Power BI 테넌트 설정에 대한 사용 권한을 상속받습니다. 사용 권한을 제한하려면 서비스 주체에 대한 전용 보안 그룹을 만들고, 사용하도록 설정된 해당 Power BI 설정에 대한 '특정 보안 그룹 제외' 목록에 이를 추가합니다.
 
 이 경우는 서비스 주체를 **관리자**로 새 작업 영역에 추가할 때 중요합니다. 이 작업은 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 또는 Power BI 서비스를 통해 관리할 수 있습니다.
 
-### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>응용 프로그램 ID 및 서비스 주체 개체 ID를 사용하는 시기는?
+### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>애플리케이션 ID 및 서비스 주체 개체 ID를 사용하는 시기는?
 
-**[응용 프로그램 ID](embed-sample-for-customers.md#application-id)**는 인증을 위해 응용 프로그램 ID를 전달할 때 액세스 토큰을 만드는 데 사용됩니다.
+**[애플리케이션 ID](embed-sample-for-customers.md#application-id)** 는 인증을 위해 애플리케이션 ID를 전달할 때 액세스 토큰을 만드는 데 사용됩니다.
 
 작업을 위해 서비스 주체를 참조하거나 변경하려면 **[서비스 주체 개체 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)** 를 사용합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
 
@@ -342,9 +342,9 @@ Power BI Embedded는 일부 [소버린 클라우드](embed-sample-for-customers-
 
 **조직에 대한 콘텐츠 포함** 환경을 사용하는 경우 *PowerBI-Developer-Samples.zip* 파일을 저장하고 압축을 풉니다. 그런 다음, *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 폴더를 열고, *pbi-saas-embed-report.sln* 파일을 실행합니다.
 
-### <a name="how-can-i-edit-my-registered-application"></a>등록된 응용 프로그램을 편집할 수 있는 방법
+### <a name="how-can-i-edit-my-registered-application"></a>등록된 애플리케이션을 편집할 수 있는 방법
 
-[여기](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)에서 AAD 등록 응용 프로그램을 편집하는 방법을 알아볼 수 있습니다.
+Azure AD에 등록된 애플리케이션을 편집하는 방법을 알아보려면 [빠른 시작: Azure Active Directory에서 애플리케이션 업데이트](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)를 참조하세요.
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>내 Power BI 사용자 프로필 또는 데이터를 편집할 수 있는 방법
 

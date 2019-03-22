@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 24701392b6cfa3400ed96be8a496791d250204d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291168"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980407"
 ---
 # <a name="using-auditing-within-your-organization"></a>조직 내에서 감사 사용
 
@@ -56,11 +56,11 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 ## <a name="search-only-power-bi-activities"></a>Power BI 활동만 검색
 
-다음 단계를 수행하여 결과를 Power BI 활동으로만 제한합니다. 활동 목록은 이 문서의 뒷부분에 나오는 [Power BI에서 감사되는 활동 목록](#list-of-activities-audited-by-power-bi)을 참조하세요.
+다음 단계를 수행하여 결과를 Power BI 활동으로만 제한합니다. 활동 목록은 이 문서의 뒷부분에 나오는 [Power BI에서 감사하는 활동](#activities-audited-by-power-bi) 목록을 참조하세요.
 
-1. **감사 로그 검색** 페이지의 **검색** 아래에서 **활동**에 해당하는 드롭다운을 선택합니다.
+1. **Audit log search**(감사 로그 검색) 페이지의 **검색** 아래에서 **활동**에 해당하는 드롭다운을 선택합니다.
 
-2. **Power BI 활동**을 선택합니다.
+2. **Power BI activities**(Power BI 활동)를 선택합니다.
 
    ![감사 로그 검색](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
@@ -113,7 +113,7 @@ Power BI 감사 로그를 csv 파일로 내보내려면 다음 단계를 수행�
 
 1. **결과 내보내기**를 선택합니다.
 
-1. **로드된 결과 저장** 또는 **모든 결과 다운로드**를 선택합니다.
+1. **Save loaded results**(로드된 결과 저장) 또는 **Download all results**(모든 결과 다운로드)를 선택합니다.
 
     ![결과 내보내기](media/service-admin-auditing/export-auditing-results.png)
 

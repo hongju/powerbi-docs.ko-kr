@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430996"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964712"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -22,13 +22,19 @@ ms.locfileid: "55430996"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
+**소비재 상품 제조업체와 판매점의 상생 실현**
+<br>작성자: Liz McCreesh
+<br>[지금 등록](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 >[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>주요 웹 세미나
 
 인기 있는 주문형 웹 세미나 시작
+
+**Power BI와 최신 BI 및 엔터프라이즈 BI의 미래**
+<br>작성자: Arun Ulag 및 Amir Netz
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
 
 **Power BI 시작하기**
 <br>작성자: Miguel Martinez
@@ -46,13 +52,9 @@ ms.locfileid: "55430996"
 <br>작성자: Cory Hrncirik 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI: 제대로 된 분석**
-<br>작성자: Gohul Shanmugalingam
-<br>[등록 및 지금 보기](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**Power BI 데이터 시각적 개체 만들기:  코어 차트 유형 및 이를 사용하는 방법**
-<br>작성자: Miranda Li
-<br>[등록 및 지금 보기](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+**Power BI JavaScript API를 사용하여 애플리케이션 성능 강화**
+<br>작성자: Nimrod Shalit
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
 **Power BI, Excel 및 Office 365: 엔터프라이즈 데이터 최적화**
 <br>작성자: Olaf Hubel 및 Miguel Martinez
@@ -62,10 +64,6 @@ ms.locfileid: "55430996"
 <br>작성자: Miranda Li
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Microsoft Flow 및 PowerApps의 전체 경제적 영향**
-<br>Jonathan Lipsitz, Enrique Plaza Garcia 제공
-<br>[등록 및 지금 보기](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
-
 >[커뮤니티 전문가들이 제공하는 Power BI 주문형 웹 세미나 라이브러리 탐색하기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
 ## <a name="on-demand-webinars"></a>주문형 웹 세미나
@@ -74,9 +72,25 @@ ms.locfileid: "55430996"
 
 ### <a name="getting-started"></a>시작
 
+**Power BI, PowerApps 및 Microsoft Flow를 통해 일상적인 비즈니스 프로세스 자동화**
+<br>작성자: Wim Coorevits 및 Enrique Plaza Garcia
+<br>[등록 및 지금 보기](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
+
+**Power BI: 제대로 된 분석**
+<br>작성자: Gohul Shanmugalingam
+<br>[등록 및 지금 보기](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Power BI 데이터 시각적 개체 만들기:  코어 차트 유형 및 이를 사용하는 방법**
+<br>작성자: Miranda Li
+<br>[등록 및 지금 보기](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
 **시각적으로 멋진 Power BI 보고서를 만드는 방법**
 <br>작성자: Charles Sterling
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Microsoft Flow 및 PowerApps의 전체 경제적 영향**
+<br>Jonathan Lipsitz, Enrique Plaza Garcia 제공
+<br>[등록 및 지금 보기](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 **함께 사용하면 더욱 강력한 성능: Excel 사용자가 Power BI로부터 얻을 수 있는 5가지 장점**
 <br>작성자: Carlos Otero 및 Miguel Martinez
@@ -100,6 +114,10 @@ ms.locfileid: "55430996"
 
 ### <a name="partners"></a>파트너 ###
 
+**Power BI로 고객 데이터를 활용하여 판매점의 성공 실현**
+<br>작성자: Hitachi Solutions의 Angad Soni
+<br>[등록 및 지금 보기](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+
 **환자 결과와 수익성을 둘 다 개선하는 입증된 의료 솔루션**
 <br>작성자: US Medical IT의 Stephen Cracknell 및 Stuart Macanliss
 <br>[등록 및 지금 보기](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
@@ -111,6 +129,10 @@ ms.locfileid: "55430996"
 **영업 및 서비스를 위한 응용 인텔리전스**
 <br>작성자: Avanade의 Ed Bobrin
 <br>[등록 및 지금 보기](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
+
+**성공하는 트렌드 큐레이터의 5가지 습관 - Rohit Bhargava**
+<br>작성자: Non-Obvious의 Rohit Bhargava
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **제조업체: 디지털 변신은 진행 중 - 분석을 활용하여 리더십을 유지하고 수익성 극대화**
 <br>작성자: Blue Margin의 Jon Thompson 및 Elgin Fastener Group의 Jim Pastor

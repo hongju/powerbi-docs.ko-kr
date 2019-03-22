@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223838"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174824"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
@@ -290,7 +290,7 @@ AADSTS50079 오류가 발생하는 경우: 사용자가 다단계 인증을 사�
 
 웹 서버 애플리케이션에 지정된 리디렉션 URL이 샘플의 URL과 다르기 때문에 이 오류가 발생합니다. 샘플 애플리케이션을 등록하려면 리디렉션 URL로 `http://localhost:13526/`을 사용합니다.
 
-등록된 애플리케이션을 편집하려면 애플리케이션에서 웹 API에 대한 액세스 권한을 제공할 수 있도록 [AAD 등록 애플리케이션](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)을 편집하는 방법을 알아봅니다.
+등록된 애플리케이션을 편집하려는 경우 애플리케이션이 웹 API에 대한 액세스 권한을 제공할 수 있도록 [Azure AD에 등록된 애플리케이션을 업데이트](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)하는 방법을 알아봅니다.
 
 Power BI 사용자 프로필 또는 데이터를 편집하려는 경우 [Power BI 데이터](https://docs.microsoft.com/power-bi/service-basic-concepts)를 편집하는 방법을 알아봅니다.
 

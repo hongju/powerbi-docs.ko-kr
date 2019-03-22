@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4331878aee591f9e3939c0bb1c239eca160ee61d
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223654"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220911"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Power BI의 데이터 흐름 간에 엔터티 연결(미리 보기)
 
@@ -81,6 +81,7 @@ Power BI 서비스의 **엔터티 추가** 메뉴 항목에서 **연결된 엔�
 * 참조 홉은 최대 다섯 개입니다.
 * 연결된 엔터티의 순환 종속성은 허용되지 않습니다.
 * 데이터 흐름은 [새 Power BI 작업 영역](service-create-the-new-workspaces.md)에 상주해야 합니다.
+* 온-프레미스 데이터 원본에서 해당 데이터를 가져오는 일반 엔터티를 사용하여 연결된 엔터티를 조인할 수 없습니다.
 
 
 ## <a name="next-steps"></a>다음 단계

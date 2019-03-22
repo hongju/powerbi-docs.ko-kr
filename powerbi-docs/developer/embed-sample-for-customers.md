@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3e8a4f443a6784020467ef1cf3a918ef5410b209
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757418"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174962"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서: 고객의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -214,7 +214,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 이 특성은 [서비스 주체](embed-service-principal.md) AuthenticationType에 대해서만 필요합니다.
 
-**테넌트** 정보를 Azure 테넌트 ID로 입력합니다. Power BI 서비스에 로그인하거나 Powershell을 사용할 때 [Azure AD 포털](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id#use-the-azure-ad-portal)에서 이 정보를 가져올 수 있습니다.
+**테넌트** 정보를 Azure 테넌트 ID로 입력합니다. Power BI 서비스에 로그인하거나 Powershell을 사용할 때 [Azure AD 관리 센터](/onedrive/find-your-office-365-tenant-id)에서 이 정보를 가져올 수 있습니다.
 
 ### <a name="run-the-application"></a>애플리케이션 실행
 
@@ -304,7 +304,7 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 
 보고서에 대한 보기와 함께 **EmbedConfig** 모델 및 **TileEmbedConfig** 모델을 사용하는 샘플은 다음과 같습니다.
 
-*보고서, 대시보드 또는 타일에 대한 보기를 추가하는 샘플은 [샘플 애플리케이션](#embed-your-content-within-a-sample-application)의 Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml 또는 Views\Home\Embedtile.cshtml 파일 내에서 사용 가능합니다.*
+보고서, 대시보드 또는 타일에 대한 보기를 추가하는 샘플은 [애플리케이션 예제](#embed-content-using-the-sample-application)의 *Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml 또는 Views\Home\Embedtile.cshtml* 파일 내에서 사용 가능합니다.
 
 ```javascript
 <script src="~/scripts/powerbi.js"></script>

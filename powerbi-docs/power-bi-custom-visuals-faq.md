@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d17a5875569f29da41d62ca61efcbdae3b9242e9
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757326"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980361"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI 사용자 지정 시각적 개체에 대한 질문과 대답
 
@@ -23,7 +23,7 @@ ms.locfileid: "57757326"
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>관리자가 조직의 사용자 지정 시각적 개체를 관리하려면 어떻게 하나요?
 
-관리 포털의 “조직의 사용자 지정 시각적 개체” 탭 아래에서 관리자는 [엔터프라이즈의 모든 조직 사용자 지정 시각적 개체를 보고 관리](https://docs.microsoft.com/power-bi/service-admin-portal#organization-visuals)(추가, 사용하거나 사용하지 않도록 설정 및 삭제)할 수 있습니다.
+관리 포털에 있는 “조직의 사용자 지정 시각적 개체” 탭 아래에서 관리자는 [엔터프라이즈에 있는 조직의 사용자 지정 시각적 개체를 모두 보고 관리](service-admin-portal.md#organizational-visuals)(추가, 사용, 사용 안 함, 삭제)할 수 있습니다.
 이러한 시각적 개체는 더 이상 이메일 또는 공유 폴더를 통해 공유할 필요가 없습니다. 조직의 리포지토리에 배포되면 조직의 사용자가 쉽게 찾을 수 있고 Power BI Desktop 또는 서비스에서 조직의 사용자 지정 시각적 개체를 자신의 보고서로 직접 가져올 수 있습니다. 조직의 사용자 지정 시각적 개체는 *내 조직* 탭 아래에 있는 Desktop 및 서비스의 기본 제공 상점에서 찾을 수 있습니다. 관리자가 새로운 조직의 사용자 지정 시각적 개체 버전을 업로드하면 조직의 모든 사용자가 동일한 업데이트된 버전을 가져옵니다. 이러한 시각적 개체를 사용하는 모든 보고서가 자동으로 업데이트되므로 보고서 작성자는 이러한 시각적 개체의 새 버전을 가져오기 위해 해당 보고서에서 시각적 개체를 삭제할 필요가 없습니다. 업데이트 메커니즘은 Marketplace 시각적 개체와 유사합니다.
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>관리자가 사용자 지정 시각적 개체를 공용 마켓플레이스에서 조직 상점으로 업로드하는 경우 공급업체가 공용 마켓플레이스에서 시각적 개체를 업데이트하면 해당 시각적 개체가 자동으로 업데이트되나요?

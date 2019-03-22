@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277805"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220957"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Power BI Premium의 계산된 엔터티 사용(미리 보기)
 
@@ -79,7 +79,9 @@ Power BI Premium 용량에서 작업 영역을 제거하면 연결된 데이터 
 
 조직의 Azure Data Lake Storage Gen2 계정에서 특별히 만든 데이터 흐름을 사용할 때 연결된 엔터티와 계산된 엔터티는 해당 엔터티가 동일한 스토리지 계정에 있을 경우에만 제대로 작동합니다. 자세한 내용은 [데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)](service-dataflows-connect-azure-data-lake-storage-gen2.md)을 참조하세요.
 
-또한 연결된 엔터티는 CDM 폴더에서 만들어진 데이터 흐름에 사용할 수 없습니다. [CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)](service-dataflows-add-cdm-folder.md)를 참조하세요.
+연결된 엔터티는 CDM(Common Data Model) 폴더에서 만들어진 데이터 흐름에 사용할 수 없습니다. 자세한 내용은 [CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)](service-dataflows-add-cdm-folder.md)를 참조하세요.
+
+모범 사례로, 온-프레미스 및 클라우드 데이터에 의해 조인된 데이터에서 계산을 수행하는 경우 이러한 계산을 수행할 새 엔터티를 만듭니다. 그러면 두 원본의 데이터를 쿼리하는 엔터티 및 레이크 내 변환을 수행하는 엔터티와 같이 계산에 기존 엔터티를 사용하는 것보다 더 나은 환경을 제공합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
