@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 3a5a84bdb22996fc3b773a861a85e82985cd036c
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964712"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220980"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -39,6 +39,10 @@ ms.locfileid: "57964712"
 **Power BI 시작하기**
 <br>작성자: Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
+
+**Power BI Mobile 앱 시작**
+<br>작성자: Maya Shenhav
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html?LCID=EN-US)
 
 **20분 안에 Power BI 대시보드에 대해 자세히 알아보기**
 <br>작성자: Miguel Martinez
