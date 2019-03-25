@@ -57,7 +57,7 @@ ms.locfileid: "57757326"
 
 ### <a name="what-are-certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체란?
 
-인증된 사용자 지정 시각적 개체는 특정 [지정된](power-bi-custom-visuals-certified.md) 코드 요구 사항 및 Power BI 팀의 테스트를 충족하는 [마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)의 시각적 개체입니다.  수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스할 수 없는지 확인하기 위해 설계되었습니다. 그러나 Microsoft는 타사 사용자 지정 시각적 개체의 작성자가 아니며, 이러한 시각적 개체의 기능을 확인하기 위해 작성자에게 직접 연락하는 것이 좋습니다.
+인증된 사용자 지정 시각적 개체는 특정 [지정된](power-bi-custom-visuals-certified.md) 코드 요구 사항 및 Power BI 팀의 테스트를 충족하는 [마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)의 시각적 개체입니다. 수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스할 수 없는지 확인하기 위해 설계되었습니다. 그러나 Microsoft는 타사 사용자 지정 시각적 개체의 작성자가 아니며, 이러한 시각적 개체의 기능을 확인하기 위해서는 작성자에게 직접 연락하는 것이 좋습니다.
 
 ### <a name="what-tests-are-done-during-the-certification-process"></a>인증 프로세스 중 수행되는 테스트는 무엇인가요?
 
