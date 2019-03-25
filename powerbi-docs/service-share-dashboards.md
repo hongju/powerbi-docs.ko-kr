@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 61aedc6c6bce52b172a92b938f9a2f278c841d6f
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580246"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964758"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. Power BI는 [대시보드 및 보고서를 공동 작업하고 배포하는 여러 가지 다른 방법](service-how-to-collaborate-distribute-dashboards-reports.md)도 제공합니다.
@@ -38,12 +38,18 @@ Amanda가 회사 내부 및 외부의 동료와 대시보드를 공유하는 과
 
 1. 대시보드 또는 보고서 목록이나 열린 대시보드 또는 보고서에서 **공유** ![공유 아이콘](media/service-share-dashboards/power-bi-share-icon.png)을 선택합니다.
 
-1. 맨 위 상자에서 개인에 대한 전체 메일 주소, 메일 그룹 또는 보안 그룹을 입력합니다. 동적 메일 그룹과 공유할 수 없습니다. 
+2. 맨 위 상자에서 개인에 대한 전체 메일 주소, 메일 그룹 또는 보안 그룹을 입력합니다. 동적 메일 그룹과 공유할 수 없습니다. 
    
    주소가 조직 외부에 있는 사용자와 공유할 수 있지만 경고가 표시됩니다.
    
    ![외부에서 공유에 대한 경고](media/service-share-dashboards/power-bi-share-dialog-warning.png) 
  
+   >[!NOTE]
+   >입력란에서는 최대 100명의 사용자 또는 그룹이 지원됩니다. 많은 수의 사용자와 공유해야 하는 경우 사용자 그룹과 공유하거나 여러 번 공유할 수 있습니다.
+   > 
+   > 
+
+
 3. 원하는 경우 메시지를 추가합니다. 선택 사항입니다.
 4. 동료가 사용자의 콘텐츠를 다른 사람과 공유할 수 있도록 하려면 **수신자가 대시보드/보고서를 공유하도록 허용**을 선택합니다.
    
@@ -119,6 +125,7 @@ Power BI 모바일 앱에서 조직 외부의 사람들에게 링크를 보낼 �
 * 사용자와 동일한 메일 도메인을 가진 동료 및 도메인은 다르지만 동일한 테넌트 내에 등록된 동료는 다른 사용자요 대시보드를 다시 공유할 수 있습니다. 예를 들어 contoso.com 및 contoso2.com 도메인이 동일한 테넌트에 등록되어 있다고 가정합니다. 이메일 주소가 konrads@contoso.com인 경우, 사용자가 공유 권한을 부여하기만 하면 ravali@contoso.com 및 gustav@contoso2.com 모두 공유할 수 있습니다.
 * 동료가 특정 대시보드 또는 보고서에 이미 액세스할 수 있고 사용자가 해당 대시보드 또는 보고서에 있는 경우 URL을 복사하여 직접 링크를 보낼 수 있습니다. 예를 들어: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * 마찬가지로 동료가 특정 대시보드에 대한 액세스 권한을 가진 경우 [기본 보고서에 대한 직접 링크를 전송](service-share-reports.md)할 수 있습니다. 
+* 단일 공유 작업에서는 최대 100명의 사용자 또는 그룹과 공유할 수 있습니다. 그러나 한 항목에 대한 액세스 권한을 500명이 넘는 사용자에게 부여할 수 있습니다. 이를 위해 개별적으로 사용자를 지정하여 여러 번 공유할 수도 있고 모든 사용자가 포함된 하나의 사용자 그룹과 공유할 수도 있습니다.
 
 ## <a name="troubleshoot-sharing"></a>공유 문제 해결
 

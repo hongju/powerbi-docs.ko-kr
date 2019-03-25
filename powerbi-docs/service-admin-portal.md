@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: d592cca246b7d8bf348a9cdd889b6d8ba0e248c1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757349"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980384"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -42,9 +42,9 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 * [사용자](#users)
 * [감사 로그](#audit-logs)
 * [테넌트 설정](#tenant-settings)
-* [프리미엄 설정](#premium-settings)
+* [용량 설정](#capacity-settings)
 * [embed 태그](#embed-codes)
-* [조직의 시각적 개체](#organization-visuals)
+* [조직의 시각적 개체](#organizational-visuals)
 
 ## <a name="usage-metrics"></a>사용 메트릭
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7264ef7b1057f64d6eb51ccc77cbec2a74be6d0e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2122ce9bd6eb850a51a06188ca1c10faf78f4bb1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283992"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964666"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이에 대한 프록시 설정 구성
 작업 환경은 인터넷에 액세스하도록 프록시를 통과해야 합니다. 온-프레미스 데이터 게이트웨이가 서비스에 연결되지 못하도록 할 수 있습니다.
@@ -46,24 +46,41 @@ superuser.com의 다음 게시물은 네트워크에 프록시가 있는지 확�
 ## <a name="configuring-proxy-settings"></a>프록시 설정 구성
 기본 프록시 구성은 다음입니다.
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true" />
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true" />
+</system.net>
+```
+
 
 기본 구성은 Windows 인증과 함께 작동합니다. 프록시가 다른 형식의 인증을 사용하는 경우 설정을 변경해야 합니다. 확실하지 않은 경우 네트워크 관리자에게 문의해야 합니다. 기본 프록시 인증은 권장되지 않으며, 기본 프록시 인증을 사용하려고 하면 게이트웨이가 제대로 구성되지 않는 프록시 인증 오류가 발생할 수 있습니다. 이 문제를 해결하려면 더 강력한 프록시 인증 메커니즘을 사용하세요.
 
 기본 자격 증명을 사용하는 것 외에도 <proxy> 요소를 추가하여 프록시 서버 설정을 자세히 정의할 수 있습니다. 예를 들어 온-프레미스 데이터 게이트웨이가 bypassonlocal 매개 변수를 false로 설정하여 로컬 리소스에 대해서도 프록시를 사용하도록 지정할 수 있습니다. 그러면 프록시 로그 파일의 온-프레미스 데이터 게이트웨이에서 발생한 모든 https 요청을 추적하려는 경우 상황의 문제를 해결하는 데 도움이 됩니다. 다음 샘플 구성은 모든 IP 주소가 192.168.1.10인 특정 프록시를 통해 요청이 이동하도록 지정합니다.
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true">
-            <proxy  
-                autoDetect="false"  
-                proxyaddress="http://192.168.1.10:3128"  
-                bypassonlocal="false"  
-                usesystemdefault="true"
-            />  
-        </defaultProxy>
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true">
+        <proxy  
+            autoDetect="false"  
+            proxyaddress="http://192.168.1.10:3128"  
+            bypassonlocal="false"  
+            usesystemdefault="true"
+        />  
+    </defaultProxy>
+</system.net>
+```
+
+또한, 게이트웨이에서 프록시를 통해 클라우드 데이터 원본에 연결하려면 *C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe* 파일을 업데이트합니다. 파일에서 아래 콘텐츠가 포함되도록 `<configurations>` 섹션을 확장하고 `proxyaddress` 특성을 프록시 정보로 업데이트합니다. 다음 예제에서는 IP 주소가 192.168.1.10인 특정 프록시를 통해 모든 클라우드 요청을 라우팅합니다.
+
+```
+<configuration>
+<system.net>
+    <defaultProxy useDefaultCredentials="true" enabled="true">
+    <proxy proxyaddress=""http://192.168.1.10:3128" bypassonlocal="true" />
+    </defaultProxy>
+</system.net>
+</configuration>
+```
 
 .NET 구성 파일에 대한 프록시 요소의 구성에 대해 자세히 알아보려면 [defaultProxy 요소(네트워크 설정)](https://msdn.microsoft.com/library/kd3cf2ex.aspx)를 참조하세요.
 

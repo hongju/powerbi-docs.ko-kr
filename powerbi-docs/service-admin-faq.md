@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430285"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980430"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -84,7 +84,7 @@ ms.locfileid: "55430285"
 
 관리자로서 사용자가 기존 Office 365 테넌트에 가입하지 못하게 하기 위해 실행할 수 있는 단계가 있습니다. 액세스를 차단하면 사용자의 가입 시도가 실패하며 사용자는 자기 조직의 관리자에게 문의하도록 이동됩니다. 자동 라이선스 배포(예: 학생, 교수 및 교직원을 위한 교육용 Office 365를 통해)를 이미 사용하지 않도록 설정한 경우 프로세스를 반복할 필요가 없습니다.
 
-다음 PowerShell 스크립트를 사용하여 새 사용자가 관리형 테넌트에 가입하지 못하도록 합니다. [PowerShell에 대해 자세히 알아보기](#basic-powershell-information)
+다음 PowerShell 스크립트를 사용하여 새 사용자가 관리형 테넌트에 가입하지 못하도록 합니다. [PowerShell에 대해 자세히 알아보세요][1].
 
 ```powershell
 $msolcred = get-credential
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>사용자가 내 기존 Office 365 테넌트에 가입하도록 허용하려면 어떻게 합니까?
 
-다음 PowerShell 스크립트를 사용하면 새 사용자가 관리형 테넌트에 가입할 수 있습니다. [PowerShell에 대해 자세히 알아보기](#basic-powershell-information)
+다음 PowerShell 스크립트를 사용하면 새 사용자가 관리형 테넌트에 가입할 수 있습니다. [PowerShell에 대해 자세히 알아보세요][1].
 
 ```powershell
 $msolcred = get-credential
@@ -109,7 +109,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>내가 테넌트에 블록을 가지고 있는지 여부를 확인하려면 어떻게 합니까?
 
-다음 PowerShell 스크립트를 사용하여 설정을 확인합니다. *AllowEmailVerifiedUsers*는 false여야 합니다. [PowerShell에 대해 자세히 알아보기](#basic-powershell-information)
+다음 PowerShell 스크립트를 사용하여 설정을 확인합니다. *AllowEmailVerifiedUsers*는 false여야 합니다. [PowerShell에 대해 자세히 알아보세요][1].
 
 ```powershell
 $msolcred = get-credential
@@ -122,7 +122,7 @@ Get-MsolCompanyInformation | fl allow*
 
 이를 제어하는 Azure AD 설정은 **AllowAdHocSubscriptions**입니다. 대부분의 테넌트는 이 설정이 true로 설정되며 이는 사용 가능함을 의미합니다. 파트너를 통해 Power BI를 획득한 경우 false로 설정되어 있을 수 있는데, 이는 사용 안 함을 의미합니다.
 
-다음 PowerShell 스크립트를 사용하여 임시 구독을 사용하지 않도록 설정합니다. [PowerShell에 대해 자세히 알아보기](#basic-powershell-information)
+다음 PowerShell 스크립트를 사용하여 임시 구독을 사용하지 않도록 설정합니다. [PowerShell에 대해 자세히 알아보세요][1].
 
 1. Office 365 자격 증명을 사용하여 Azure Active Directory에 로그인합니다. 다음 PowerShell 스크립트의 첫 번째 행은 사용자 자격 증명을 입력하라는 메시지를 표시합니다. 두 번째 행은 Azure Active Directory에 연결합니다.
 
@@ -270,3 +270,5 @@ Power BI는 Azure Active Directory와 같은 Azure 서비스를 기초로 하는
 [Office 365 그룹 관리](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+
+[1]: https://docs.microsoft.com/powershell/scripting/overview

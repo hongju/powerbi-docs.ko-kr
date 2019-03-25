@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI의 사용자 지정 시각적 개체
 description: Power BI의 사용자 지정 시각화
 author: sranins
@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d467839582abb3c66c8bf5a57d1f3c5f7b83d354
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
+ms.openlocfilehash: ed61d865756748ccd4e60f54de4a4b1b9adcef8d
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695039"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980338"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI의 사용자 지정 시각적 개체
 
@@ -159,7 +159,7 @@ Power BI 인증 시각적 개체는 품질에 대해 추가로 엄격한 테스�
 
 6. '.pbiviz' 파일을 저장한 다음, Power BI를 엽니다.
 
-7. '.pbiviz' 파일을 보고서로 내보내기(위의 [파일에서 사용자 지정 시각적 개체 가져오기](#import-a-custom-visuals-from-a-file) 섹션 참조)
+7. '.pbiviz' 파일을 보고서로 가져오기 합니다.(위의 [파일에서 사용자 지정 시각적 개체 가져오기](#import-a-custom-visuals-from-a-file) 섹션 참조)
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 

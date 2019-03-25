@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014142"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964850"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
 
@@ -95,13 +95,15 @@ Office 365 관리 센터 내에서 구독을 취소할 수 있습니다. 프리�
 
 1. 정보를 자세히 읽고 계속하려면 **구독 취소**를 선택합니다.
 
+### <a name="when-canceling-or-your-license-expires"></a>구독을 취소하거나 라이선스가 만료되는 경우
+
+프리미엄 구독을 취소하거나 용량 라이선스가 만료되는 경우 구독 취소 또는 라이선스 만료 날짜로부터 30일 동안 프리미엄 용량에 계속 액세스할 수 있습니다. 30일 후에는 프리미엄 용량 또는 해당 작업 영역에 더 이상 액세스할 수 없습니다.
+
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI 가격 책정 페이지](https://powerbi.microsoft.com/pricing/)
-[Power BI Premium 계산기](https://powerbi.microsoft.com/calculator/)
-[Power BI Premium이란?](service-premium.md)
-[Power BI Premium FAQ](service-premium-faq.md)
-[Microsoft Power BI Premium 백서](https://aka.ms/pbipremiumwhitepaper)
-[Power BI Enterprise 배포 계획 백서](https://aka.ms/pbienterprisedeploy)
+[Power BI 가격 책정 페이지](https://powerbi.microsoft.com/pricing/)   
+[Power BI Premium 계산기](https://powerbi.microsoft.com/calculator/)   
+[Power BI Premium FAQ](service-premium-faq.md)   
+[Power BI 엔터프라이즈 배포 계획 백서](https://aka.ms/pbienterprisedeploy)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

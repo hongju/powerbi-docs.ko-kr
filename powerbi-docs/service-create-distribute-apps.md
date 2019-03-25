@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 051609c59e155cb6d5c2a982483a7e6d2d91a665
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294068"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964689"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 게시
 
@@ -121,6 +121,11 @@ Power BI에서 관련 대시보드 및 보고서 컬렉션을 사용하여 *앱*
 
 ## <a name="unpublish-an-app"></a>앱 게시 취소
 앱 작업 영역의 모든 멤버는 앱 게시를 취소할 수 있습니다.
+
+>[!NOTE]
+>앱 게시를 취소하면 앱 사용자의 사용자 지정 정보가 손실됩니다. 모든 개인 책갈피, 의견 또는 앱의 콘텐츠와 연결된 구독이 손실됩니다. 앱을 제거해야 할 경우에만 앱 게시를 취소합니다.
+> 
+> 
 
 * 앱 작업 영역의 오른쪽 위 모서리 > 줄임표(**...**)에서 **앱 게시 취소**를 선택합니다..
   
