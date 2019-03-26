@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 03/10/2019
-ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58175474"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430303"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 지침
 
@@ -29,7 +29,6 @@ ms.locfileid: "58175474"
 
 >[!IMPORTANT]  
 > 무료로 시각적 개체를 "추가 구매가 필요할 수 있음"으로 업데이트하는 경우, 사용자는 업데이트 전과 동일한 수준의 무료 기능을 받아야 합니다. 기존 무료 기능 외에도 선택적 고급 유료 기능을 추가할 수 있습니다. 고급 기능을 갖춘 IAP 시각적 개체를 새 시각적 개체로 제출하고 이전 무료 버전을 업데이트하지 않는 것이 좋습니다.
-
 
 ## <a name="what-changed-in-the-submission-process"></a>제출 프로세스는 어떻게 변경되었나요?
 
@@ -51,17 +50,17 @@ IAP 시각적 개체는 **무료 기능**을 제공하는 **무료** 시각적 �
 > [!IMPORTANT]
 > 로고는 **편집 모드에서만** 허용됩니다. 보기 모드에서는 로고를 표시할 수 **없습니다**.
 
-![정의](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
+![정의](media/guidelines-powerbi-visuals/definitions.png)
 
-![염두할 점](media/office-store-in-app-purchase-visual-guidelines/things-to-keep-in-mind.png)
+![염두할 점](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
 
-![피해야 할 사항](media/office-store-in-app-purchase-visual-guidelines/things-to-avoid.png)
+![피해야 할 사항](media/guidelines-powerbi-visuals/things-to-avoid.png)
 
-![크기 및 형식](media/office-store-in-app-purchase-visual-guidelines/size-and-format.png)
+![크기 및 형식](media/guidelines-powerbi-visuals/size-and-format.png)
 
-![여백 및 크기 조정](media/office-store-in-app-purchase-visual-guidelines/margins-and-sizes.png)
+![여백 및 크기 조정](media/guidelines-powerbi-visuals/margins-and-sizes.png)
 
-![편집 모드](media/office-store-in-app-purchase-visual-guidelines/logos-in-edit-mode.png)
+![편집 모드](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>모범 사례
 

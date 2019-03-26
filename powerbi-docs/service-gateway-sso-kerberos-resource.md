@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226115"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383363"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 리소스 기반 Kerberos 사용
 
@@ -23,7 +23,7 @@ ms.locfileid: "57226115"
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>리소스 기반 Kerberos 제한 위임 준비
 
-Kerberos 제한 위임을 적절하게 작동하려면 SPN(’서비스 사용자 이름’) 및 서비스 계정의 위임 설정을 포함한 여러 개의 항목을 구성해야 합니다.
+Kerberos 제한 위임을 적절하게 작동하려면 SPN(’서비스 사용자 이름’) 및 서비스 계정의 위임 설정을 포함한 여러 개의 항목을 구성해야 합니다. 
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>필수 구성 요소 1: 운영 체제 요구 사항
 
@@ -105,8 +105,8 @@ Azure AD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우
 1. 명령 프롬프트를 열고 **PBIEgwTestBack 엔드** 도메인의 도메인 컨트롤러에서 다음 명령을 실행하여 백 엔드 서비스 계정의 Msds-allowedtoactonbehalfofotheridentity 특성을 업데이트합니다.
 
     ```powershell
-    $c=get-adgroupResourceDelGroup
-    set-aduser **SQLService** -principalsAllowedToDelegateToAccount$c
+    $c = Get-ADGroup ResourceDelGroup
+    Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
 1. **Active Directory 사용자 및 컴퓨터**의 백 엔드 서비스 계정 속성에서 “특성 편집기” 탭에 업데이트가 반영되었는지 확인할 수 있습니다.
