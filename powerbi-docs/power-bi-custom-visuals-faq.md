@@ -45,7 +45,7 @@ ms.locfileid: "57980361"
 
 * 더 이상 메일 또는 공유 폴더를 통해 시각적 개체 파일을 공유할 필요가 없습니다! 한 곳에서 로그인한 모든 멤버에게 표시됩니다.
 
-* 보안 및 지원 가능성이 제공됩니다. 새로운 조직의 사용자 지정 시각적 개체 버전이 Marketplace 시각적 개체와 비슷하게 모든 보고서에서 자동으로 업데이트됩니다.
+* 보안 및 지원 가능성이 제공됩니다. 새로운 조직의 사용자 지정 시각적 개체 버전이 마켓플레이스 시각적 개체와 비슷하게 모든 보고서에서 자동으로 업데이트됩니다.
 
 * 조직의 사용자 지정 시각적 개체를 사용하는 조직의 사용자는 조직의 보안 요소인 조직의 사용자 지정 시각적 개체를 보고 사용하려면 로그인해야 합니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "57980361"
 
 ### <a name="what-are-certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체란?
 
-인증된 사용자 지정 시각적 개체는 특정 [지정된](power-bi-custom-visuals-certified.md) 코드 요구 사항 및 Power BI 팀의 테스트를 충족하는 [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)의 시각적 개체입니다.  수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스할 수 없는지 확인하기 위해 설계되었습니다. 그러나 Microsoft는 타사 사용자 지정 시각적 개체의 작성자가 아니며, 이러한 시각적 개체의 기능을 확인하기 위해 작성자에게 직접 연락하는 것이 좋습니다.
+인증된 사용자 지정 시각적 개체는 특정 [지정된](power-bi-custom-visuals-certified.md) 코드 요구 사항 및 Power BI 팀의 테스트를 충족하는 [마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)의 시각적 개체입니다.  수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스할 수 없는지 확인하기 위해 설계되었습니다. 그러나 Microsoft는 타사 사용자 지정 시각적 개체의 작성자가 아니며, 이러한 시각적 개체의 기능을 확인하기 위해서는 작성자에게 직접 연락하는 것이 좋습니다.
 
 ### <a name="what-tests-are-done-during-the-certification-process"></a>인증 프로세스 중 수행되는 테스트는 무엇인가요?
 
@@ -77,7 +77,7 @@ ms.locfileid: "57980361"
 
 아니요, 공개적으로 코드를 공유할 필요가 없습니다. 그러나 시각적 개체 코드를 확인하기 위한 읽기 권한을 제공해야 합니다. 예: GitHub의 개인 리포지토리.
  
-### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>[Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 시각적 개체를 [게시](https://docs.microsoft.com/power-bi/developer/office-store)하여 인증해야 하나요?
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>[마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 시각적 개체를 [게시](https://docs.microsoft.com/power-bi/developer/office-store)하여 인증해야 하나요?
 
 예. 마켓플레이스에 시각적 개체를 먼저 게시하는 것은 인증을 위한 의무 요구 사항입니다.
 사용자 지정 시각적 개체를 인증하려면 서버에 있어야 합니다. 개인 시각적 개체는 인증할 수 없습니다.

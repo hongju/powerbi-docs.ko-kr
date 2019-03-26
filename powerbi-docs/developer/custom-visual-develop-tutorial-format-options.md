@@ -30,7 +30,7 @@ ms.locfileid: "57695153"
 
 1. **Power BI**에서 **페이지 서식**을 선택합니다.
 
-    ‘이 시각적 데이터에 대해 서식 옵션을 사용할 수 없습니다.’라는 메시지가 표시됩니다.
+    ‘이 시각적 개체에 대해 서식 옵션을 사용할 수 없습니다.’라는 메시지가 표시됩니다.
 
     ![서식 페인트 브러시](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
