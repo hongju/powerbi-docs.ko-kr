@@ -30,7 +30,7 @@ ms.locfileid: "57695153"
 
 1. **Power BI**에서 **페이지 서식**을 선택합니다.
 
-    ‘이 시각적 개체에 대해 서식 옵션을 사용할 수 없습니다.’라는 메시지가 표시됩니다.
+    ‘이 시각적 데이터에 대해 서식 옵션을 사용할 수 없습니다.’라는 메시지가 표시됩니다.
 
     ![서식 페인트 브러시](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
@@ -239,7 +239,7 @@ ms.locfileid: "57695153"
 
 1. **Power BI Desktop**을 열고  *샘플 데이터 세트*을 사용하여 새 보고서를 생성합니다.
 
-2. **‘시각화’** 창에서 **줄임표**를 선택한 다음, **파일에서 가져오기**를 선택합니다.
+2. **‘시각화’** 창에서 **줄임표**를 선택한 다음, 파일에서 **가져오기**를 선택합니다.
 
     ![데스크톱에 사용자 지정 시각적 개체 추가](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
