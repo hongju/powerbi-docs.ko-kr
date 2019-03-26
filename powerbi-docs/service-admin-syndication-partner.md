@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: f1244535259de2a5b5726d295a64229a0f92f02b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 635a64c08056e82539d33904d4cce60d4cfc00cd
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296464"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382941"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Office 365 파트너 구독에 Power BI를 추가할 수 없음
 
@@ -33,9 +33,9 @@ Power BI Pro 또는 Power BI Premium에 대한 구독을 구매하려면 파트�
 
 ## <a name="purchase-from-microsoft-or-another-channel"></a>Microsoft 또는 다른 채널에서 구매
 
-파트너와 관계에 따라 Microsoft 또는 다른 파트너로부터 직접 Power BI를 구매할 수 있습니다. Office 365 관리 포털에서 Power BI 구독을 추가할 수 있는지 확인할 수 있습니다(전역 관리자 또는 청구 관리자 역할의 멤버 자격 필요).
+파트너와 관계에 따라 Microsoft 또는 다른 파트너로부터 직접 Power BI를 구매할 수 있습니다. Microsoft 365 관리 센터에서 Power BI 구독을 추가할 수 있는지 확인할 수 있습니다(전역 관리자 또는 청구 관리자 역할의 멤버 자격 필요).
 
-1. [Office 365 관리 포털](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
+1. [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
 
 1. 왼쪽 메뉴에서 **청구**를 엽니다.
 
