@@ -33,7 +33,7 @@ ms.locfileid: "54406595"
 2. 기존 텍스트를 선택하거나 하이퍼링크로 사용할 새 텍스트를 추가합니다.
    
    ![텍스트 상자에서 텍스트 선택](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
-3. 하이퍼링크 아이콘 선택 ![하이퍼링크 아이콘](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png).
+3. 하이퍼링크 아이콘 ![하이퍼링크 아이콘](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png)을 .
 4. 하이퍼링크 필드에서 URL을 입력하거나 붙여넣고 **완료**를 선택합니다.
    
    ![하이퍼링크 필드에 URL 입력 또는 붙여넣기](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
