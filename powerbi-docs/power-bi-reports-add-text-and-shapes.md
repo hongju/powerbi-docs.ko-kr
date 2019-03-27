@@ -35,7 +35,7 @@ Will이 Power BI Desktop을 사용하여 [보고서에 정적 이미지를 추�
 2. 텍스트 상자에 텍스트를 입력하고 필요에 따라 글꼴 서식, 색 및 텍스트 맞춤을 입력합니다. 
    
    ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
-3. 텍스트 상자를 배치하려면 위쪽에 회색 영역을 선택하고 끕니다. 텍스트 상자의 크기를 조정하려면 개요 핸들을 선택하여 끕니다. 
+3. 텍스트 상자를 배치하려면 위쪽에 회색 영역을 선택하고 끕니다. 텍스트 상자의 크기를 조정하려면 크기  핸들을 선택하여 끕니다. 
    
    ![](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
 
