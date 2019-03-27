@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: abc45f3c32ee5db81f71295268db85bfce23aafd
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174893"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430441"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -274,9 +274,9 @@ Power BI Embedded는 Power BI 포털을 사용하여 포함된 콘텐츠를 관�
 
 Power BI Embedded는 Azure의 일부이기 때문에 [Azure에 등록할 때 받은 $200 크레딧](https://azure.microsoft.com/free/)으로 서비스를 사용할 수 있습니다.
 
-### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>소버린 클라우드(미국 정부, 독일, 중국)에 Power BI Embedded를 사용할 수 있나요?
+### <a name="is-power-bi-embedded-available-for-national-clouds-us-government-germany-china"></a>내셔널 클라우드(미국 정부, 독일, 중국)에 Power BI Embedded를 사용할 수 있나요?
 
-Power BI Embedded는 일부 [소버린 클라우드](embed-sample-for-customers-sovereign-clouds.md)에 사용할 수 있습니다. 아직 중국 클라우드에는 사용할 수 **없습니다**.
+Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-national-clouds.md)에서도 사용할 수 있습니다.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>교육 기관 및 비영리 단체도 Power BI Embedded를 사용할 수 있나요?
 

@@ -1,6 +1,6 @@
 ---
 title: Power BI 관리 포털
-description: 관리 포털을 통해 조직에서 Power BI의 테넌트 관리를 사용할 수 있습니다. 사용 메트릭, Office 365 관리 센터 액세스 및 설정 등과 같은 항목을 포함하고 있습니다.
+description: 관리 포털을 통해 조직에서 Power BI의 테넌트 관리를 사용할 수 있습니다. 사용 메트릭, Microsoft 365 관리 센터에 대한 액세스 및 설정과 같은 항목을 포함하고 있습니다.
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d592cca246b7d8bf348a9cdd889b6d8ba0e248c1
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 2b5e65ff8e9f603dad0e0537ba52e7da799bf177
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980384"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383557"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
-관리 포털을 통해 조직의 Power BI ‘테넌트’를 관리할 수 있습니다. 포털에는 사용 메트릭, Office 365 관리 센터 액세스 및 설정 등과 같은 항목이 포함되어 있습니다.
+관리 포털을 통해 조직의 Power BI ‘테넌트’를 관리할 수 있습니다. 포털에는 사용 메트릭, Microsoft 365 관리 센터에 대한 액세스 및 설정과 같은 항목이 포함되어 있습니다.
 
 전체 관리 포털은 Office 365의 전역 관리자이거나 Power BI 서비스 관리자 역할에 할당된 모든 사용자가 액세스할 수 있습니다. 이러한 역할 중 하나를 할당받지 않은 경우에는 포털에 **용량 설정**만 표시됩니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요.
 
@@ -83,9 +83,9 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 ## <a name="users"></a>사용자
 
-Office 365 관리 센터에서 Power BI 사용자, 그룹 및 관리자를 관리합니다. **사용자** 탭은 테넌트의 관리 센터에 대한 링크를 제공합니다.
+Microsoft 365 관리 센터에서 Power BI 사용자, 그룹 및 관리자를 관리합니다. **사용자** 탭은 테넌트의 관리 센터에 대한 링크를 제공합니다.
 
-![O365 관리 센터로 이동](media/service-admin-portal/powerbi-admin-manage-users.png)
+![Microsoft 365 관리 센터로 이동](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>감사 로그
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fbb303a85895c08d0dc04630a12076a279e2586f
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794939"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383340"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI 프리미엄 FAQ
 
@@ -66,7 +66,7 @@ Power BI Premium은 가상 코어 수에 따라 구입할 수 있습니다. 가�
 Power BI 프리미엄은 연간 약정으로 월별 요금이 청구됩니다.
 
 **Power BI Premium은 어떻게 구입할 수 있습니까?**  
-Power BI Premium은 Office 365 관리 센터에서 사용할 수 있습니다. 자세한 내용은 [Power BI 프리미엄 구매 방법](service-admin-premium-purchase.md)을 참조하세요. 자세한 내용은 Microsoft 영업 담당자에게 문의하세요.
+Power BI Premium은 Microsoft 365 관리 센터에서 사용할 수 있습니다. 자세한 내용은 [Power BI 프리미엄 구매 방법](service-admin-premium-purchase.md)을 참조하세요. 자세한 내용은 Microsoft 영업 담당자에게 문의하세요.
 
 **나에게 필요한 Power BI 프리미엄 용량은 어떻게 알 수 있습니까?**  
 이 [비용 계산기](https://powerbi.microsoft.com/calculator/)를 사용하여 필요한 Power BI 프리미엄 용량을 예측해 보세요.

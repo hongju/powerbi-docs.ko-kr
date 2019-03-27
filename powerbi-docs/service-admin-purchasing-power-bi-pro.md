@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 76288ca77f184b27b5839377190a1708c69567af
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430697"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383089"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Power BI Pro 라이선스 구매 및 할당
 
@@ -33,9 +33,9 @@ Azure에서 라이선스를 할당하려면 Power BI에서 Active Directory 조�
 
 Power BI Pro 라이선스를 구매하려면 다음 단계를 수행합니다.
 
-1. [Office 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)를 엽니다.
+1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)를 엽니다.
 
-2. 왼쪽 탐색 창에서 **청구** > **구독**을 선택
+2. 왼쪽 탐색 창에서 **청구** > **구독**을 선택합니다.
 
     ![탐색 창](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
 
@@ -71,7 +71,7 @@ Power BI Pro 라이선스를 구매하려면 다음 단계를 수행합니다.
 
 다음 단계를 수행하여 개별 사용자 계정에 Power BI Pro 라이선스를 할당합니다.
 
-1. [Office 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)를 엽니다.
+1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)를 엽니다.
 
 2. 왼쪽 탐색 창에서 **사용자**를 확장하고 **활성 사용자**를 선택합니다.
 
@@ -107,7 +107,7 @@ Power BI Pro 라이선스를 구매하려면 다음 단계를 수행합니다.
 
     ![라이선스 - 모든 제품](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-03.png)
 
-5. **할당**을 선택하여 Power BI Pro 라이선스를 추가 사용자 계정에 할당합니다.
+5. **할당**을 선택하여 Power BI Pro 라이선스를 추가 사용자 계정에 추가합니다.
 
     ![라이선스 할당](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-04.png)
 

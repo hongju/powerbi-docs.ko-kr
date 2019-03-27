@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249117"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306300"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서의 내게 필요한 옵션
 Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 상호 작용할 수 있도록 하는 기능이 있습니다. 이러한 기능에는 키보드 또는 화면 판독기를 사용하여 보고서를 이용하고 탭 키로 페이지에 있는 다양한 개체에 포커스를 이동하며 시각적 개체에 표식을 세밀하게 사용하는 기능이 있습니다.
@@ -137,6 +137,13 @@ Windows에서 고대비 모드를 사용하면 선택한 설정 및 팔레트가
 | :------------------- | :------------------- |
 | 시각적 메뉴로 포커스 이동 | Alt + Shift + F10 |
 | 데이터 표시 | Alt + Shift + F11  |
+| 시각적 개체 입력 | Ctrl + 오른쪽 화살표 |
+| 레이어 입력 | 입력 |
+| 레이어 또는 시각적 개체 종료 | Esc |
+| 데이터 요소 선택 또는 선택 취소 | 입력 또는 공백 |
+| 다중 선택 | Ctrl + Enter 또는 Ctrl + 스페이스바 |
+| 마우스 오른쪽 클릭 | <ul><li>Windows 키보드: Windows 팝업 키+F10.  Windows 팝업 키는 왼쪽 Alt 키와 왼쪽 화살표 키 사이에 있습니다.</li><li>다른 키보드: Shift + F10</li></ul> |
+| 선택 영역 지우기 | Ctrl + Shift + C |
 
 ### <a name="pane-navigation"></a>창 탐색
 | 수행할 작업           | 누르기                |

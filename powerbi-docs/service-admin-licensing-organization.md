@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65889d1082cee75ed56edc67ece9c99b5f344a6e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430224"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383241"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>조직의 Power BI 라이선스 부여
 
@@ -35,7 +35,7 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
 
 조직 내 개인은 Power BI Pro 평가판에 등록할 수 있습니다. 자세한 내용은 [Power BI에 개인으로 가입](service-self-service-signup-for-power-bi.md)을 참조하세요.
 
-이 제품 내 Power BI Pro 평가판을 사용하는 사용자는 Office 365 관리 포털에서 Power BI Pro 평가판 사용자로 표시되지 않고 Power BI 무료 사용자로 표시됩니다. 그러나 Power BI의 스토리지 관리 페이지에는 Power BI Pro 평가판 사용자로 표시됩니다.
+이 제품 내 Power BI Pro 평가판을 사용하는 사용자는 Microsoft 365 관리 센터에서 Power BI Pro 평가판 사용자로 표시되지 않고 Power BI 무료 사용자로 표시됩니다. 그러나 Power BI의 스토리지 관리 페이지에는 Power BI Pro 평가판 사용자로 표시됩니다.
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>조직용 Power BI Pro 평가판
 
@@ -47,7 +47,7 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
 
 * 조직 평가판은 테넌트당 1개로 제한됩니다. 이는 이미 다른 사용자가 Power BI Pro 평가판을 테넌트에 적용한 경우에 이 평가판을 다시 구할 수 없다는 것을 의미합니다. 이와 관련하여 도움이 필요한 경우 [Office 365 청구 지원](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671)에 문의하세요.
 
-1. [Office 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)로 이동합니다.
+1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)로 이동합니다.
 
 1. 왼쪽 탐색 창에서 **청구**, **구독**을 차례로 선택합니다.
 
@@ -71,7 +71,7 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
 
 조직 내의 사용자는 두 가지 방법으로 Power BI 무료 라이선스에 액세스할 수 있습니다.
 
-* Office 365 관리 포털 내에서 Power BI 라이선스를 할당할 수 있습니다.
+* Microsoft 365 관리 센터 내에서 Power BI 라이선스를 할당할 수 있습니다.
 
 * 사용자가 [Power BI Pro 평가판에 등록](service-self-service-signup-for-power-bi.md)하고 평가판이 만료되면 무료 라이선스가 할당됩니다.
 
@@ -81,7 +81,7 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
 
 라이선스의 이러한 차단은 처음으로 누군가 개별로 Power BI에 가입한 후에 사용할 수 있습니다. 그 과정에서 이 라이선스 차단은 조직과 연결되고 라이선스는 등록하는 사용자에게 할당됩니다.
 
-1. Office 365 관리 센터의 **청구** > **라이선스**에서 **무제한**을 확인합니다.
+1. Microsoft 365 관리 센터의 **청구** > **라이선스**에서 **무제한**을 확인합니다.
 
     ![무제한 무료 라이선스 차단](media/service-admin-licensing-organization/unlimited-licenses.png)
 
@@ -93,7 +93,7 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
 
 무제한 Power BI(무료) 라이선스 차단을 사용할 수 없고 개별 등록을 하지 않으려면 다음 절차를 수행하세요.
 
-1. [Office 365 관리 센터](https://portal.office.com/admin/default.aspx)로 이동합니다.
+1. [Microsoft 365 관리 센터](https://portal.office.com/admin/default.aspx)로 이동합니다.
 
 1. 왼쪽 탐색 창에서 **청구** > **구독**을 선택합니다.
 

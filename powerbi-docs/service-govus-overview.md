@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: d846a50ab87fe7d9f20034892e25dedde043f9ee
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580039"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430257"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -39,7 +39,7 @@ ms.locfileid: "57580039"
 * Azure SQL 및 Power BI용 Blob Storage 둘 다에서 모든 데이터 암호화
 * [콘텐츠 팩](service-connect-to-services.md)을 사용하여 서비스에 연결
 
-## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>정부 서비스와 공용 Azure 클라우드 서비스 간의 연결 
+## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>정부와 글로벌 Azure 클라우드 서비스 간의 연결 
 
 Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트는 클라우드 관련 인스턴스에 대한 방화벽 규칙을 열 수 있지만, 클라우드 간 네트워킹은 이와 다르며 서비스 간 통신을 위한 특정 방화벽 규칙을 열어야 합니다. Power BI 고객이고 액세스해야 하는 공용 클라우드에 기존 SQL 인스턴스를 갖고 있는 경우 다음 데이터 센터에 대해 SQL에서 Azure Government 클라우드 IP 공간에 대한 특정 방화벽 규칙을 열어야 합니다.
 
@@ -93,7 +93,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-**질문:** 내 계정이 여러 개의 소버린 클라우드에서 프로비전됩니다. **Power BI Desktop**을 사용할 때 어떤 클라우드에 연결할 것인지 선택하려면 어떻게 해야 합니까?
+**질문:** 내 계정이 둘 이상의 내셔널 클라우드에서 프로비저닝됩니다. **Power BI Desktop**을 사용할 때 어떤 클라우드에 연결할 것인지 선택하려면 어떻게 해야 합니까?
 
 **답변:** **Power BI Desktop**의 2018년 7월 릴리스부터 **Power BI Desktop**에 로그인할 때 사용할 클라우드를 선택할 수 있습니다.
 

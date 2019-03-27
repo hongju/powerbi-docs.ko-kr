@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: b24bde73c4f0e5f30c8baad7910fe9d9d924c3dc
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: a27a6f9ce1eac861415a8231eb50ec898900202e
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226161"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430349"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -166,7 +166,7 @@ SharePoint에서 보고서를 보는 사용자에게 **Power BI Pro 라이선스
 
 * Internet Explorer 10을 사용하는 경우 문제가 발생할 수 있습니다. [Power BI](consumer/end-user-browsers.md) 및 [Office 365](https://products.office.com/office-system-requirements#Browsers-section)에 대한 브라우저 지원을 보면 됩니다.
 
-* [소버린 클라우드](https://powerbi.microsoft.com/clouds/)에서는 Power BI 웹 파트를 사용할 수 없습니다.
+* [내셔널 클라우드](https://powerbi.microsoft.com/clouds/)에서는 Power BI 웹 파트를 사용할 수 없습니다.
 
 * 클래식 SharePoint Server는 이 웹 파트에서 지원되지 않습니다.
 
