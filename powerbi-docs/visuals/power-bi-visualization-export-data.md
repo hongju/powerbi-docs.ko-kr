@@ -56,7 +56,6 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 .xlsx 
 
    ![](media/power-bi-visualization-export-data/power-bi-export-data2.png)
 5. Power BI 온라인에서 시각화에 집계가 있는 경우(한 예로, **개수**를 *평균*, *합계* 또는 *최소*로 변경한 경우) 다음 두 가지 옵션이 있습니다. **요약된 데이터** 및 **기본 데이터**. Power BI Desktop에서는 **요약된 데이터**에 대한 옵션만 사용할 수 있습니다. 집계 이해를 위한 도움은 [Power BI의 집계](../service-aggregates.md)를 참조하세요.
-
     ![](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 6. **요약된 데이터** > **내보내기**를 선택하고 .xlsx 또는.csv 중 하나를 선택합니다. Power BI 데이터를 내보냅니다.  시각화에 필터를 적용한 경우 내보낸 데이터는 필터링으로 내보냅니다. **내보내기**를 선택하면 브라우저에서 파일을 저장할 것인지 묻는 메시지를 표시 합니다. 저장한 후 Excel에서 파일을 엽니다.
 
