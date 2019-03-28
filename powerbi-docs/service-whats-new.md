@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216864"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383718"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
@@ -346,7 +346,7 @@ ms.locfileid: "56216864"
 
 ***관리 포털***
 
-* O365 관리 센터에 대한 링크를 사용하여 간편한 사용자 관리
+* Microsoft 365 관리 센터에 대한 링크를 통해 간편한 사용자 관리
 * 웹에 게시하지 않도록 설정하는 기능
 * 사용자가 전체 조직에 콘텐츠 팩을 게시하지 않도록 방지
 * 외부 사용자에게 콘텐츠 공유하지 않도록 설정하는 기능
@@ -508,7 +508,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 * Power BI 설명서에 대한 새 사이트 로컬화
 * 보고서에 대한 로드 시간 개선
 * 보고서 전용 변경 내용으로 조직 콘텐츠 팩 업데이트
-* Office 365 관리자 포털에서 Power BI 상태
+* Microsoft 365 관리 센터의 Power BI 상태
 * 테이블, 행렬 및 카드에서 KPI 및 이미지
 
 세부 정보는 [Power BI 블로그](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)를 방문합니다.

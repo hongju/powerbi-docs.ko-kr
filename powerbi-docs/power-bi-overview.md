@@ -44,10 +44,10 @@ Power BI 사용 방법은 프로젝트 또는 팀에서 사용자의 역할에 �
 **Power BI Desktop**을 사용하여 팀을 위해 고객 참여 통계 관련 보고서를 작성할 수도 있습니다. 서비스의 실시간 대시보드에서 재고 및 제조 진행 상황을 볼 수도 있습니다. Power BI 사용 방법은 상황에 가장 적합한 Power BI 도구나 서비스가 무엇이냐에 따라 다를 수 있습니다. 상황에 맞게 Power BI의 각 부분을 사용할 수 있어서 매우 유연하고 매력적입니다.
 
 역할과 관련된 문서를 살펴보세요.
-- [***‘디자이너용’***](desktop-what-is-desktop.md)Power BI
-- [***‘소비자’***](consumer/end-user-consumer.md)용 Power BI
-- [***‘개발자’***](developer/what-can-you-do.md)용 Power BI
-- [***‘관리자용’***](service-admin-administering-power-bi-in-your-organization.md)Power BI
+- [***‘디자이너용’***](desktop-what-is-desktop.md) Power BI
+- [***‘소비자용’***](consumer/end-user-consumer.md) Power BI
+- [***‘개발자용’***](developer/what-can-you-do.md) Power BI
+- [***‘관리자용’***](service-admin-administering-power-bi-in-your-organization.md) Power BI
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI의 작업 흐름
 Power BI의 일반적인 작업 흐름은 먼저 데이터 원본에 연결하고 **Power BI Desktop**에서 보고서를 빌드합니다. 그런 다음 **Power BI Desktop**에서 이 보고서를 **Power BI 서비스**에 게시하고 공유하여 최종 사용자가 **서비스** 및 **모바일 디바이스**에서 보고서를 보고 조작할 수 있도록 합니다.

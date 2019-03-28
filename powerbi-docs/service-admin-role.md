@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e4cd85e0e5b4f10ead772875434bce3bd0973505
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287568"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382811"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Power BI 서비스 관리자 역할 이해
 
@@ -25,23 +25,23 @@ ms.locfileid: "54287568"
 
 Power BI 관리 포털에 액세스해야 하는 사용자에게 전체 Office 365 관리 액세스 권한을 부여하지 않고 Power BI 서비스 관리자 역할을 할당할 수 있습니다.
 
-Office 365 사용자 관리 관리자는 Office 365 관리 센터에서 또는 PowerShell 스크립트를 사용하여 Power BI 서비스 관리자 역할에 사용자를 할당합니다. 사용자가 할당되면 [Power BI 관리 포털](service-admin-portal.md)에 액세스할 수 있습니다. 여기서 테넌트 전체 사용 메트릭에 액세스하고 Power BI 기능의 테넌트 전체 사용을 제어할 수 있습니다.
+Office 365 사용자 관리 관리자는 Microsoft 365 관리 센터에서 또는 PowerShell 스크립트를 사용하여 Power BI 서비스 관리자 역할에 사용자를 할당합니다. 사용자가 할당되면 [Power BI 관리 포털](service-admin-portal.md)에 액세스할 수 있습니다. 여기서 테넌트 전체 사용 메트릭에 액세스하고 Power BI 기능의 테넌트 전체 사용을 제어할 수 있습니다.
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
 Power BI 서비스 관리자 역할은 다음 기능을 제공하지 않습니다.
 
-* Office 365 관리 센터 내에서 사용자와 라이선스를 수정하는 기능,
+* Microsoft 365 관리 센터 내에서 사용자와 라이선스를 수정하는 기능,
 
 * 감사 로그 액세스. 자세한 내용은 [조직 내에서 감사 사용](service-admin-auditing.md)을 참조하세요.
 
 ## <a name="assign-users-to-the-admin-role-in-office-365"></a>Office 365에서 관리자 역할에 사용자 할당
 
-Office 365 관리 센터에서 Power BI 관리자 역할에 사용자를 할당하려면 다음 단계를 수행합니다.
+Microsoft 365 관리 센터에서 Power BI 관리자 역할에 사용자를 할당하려면 다음 단계를 수행합니다.
 
-1. Office 365 관리 센터에서 **사용자** > **활성 사용자**를 선택합니다.
+1. Microsoft 365 관리 센터에서 **사용자** > **활성 사용자**를 선택합니다.
 
-    ![Office 365 관리 센터](media/service-admin-role/powerbi-admin-users.png)
+    ![Microsoft 365 관리 센터](media/service-admin-role/powerbi-admin-users.png)
 
 1. 역할을 할당하려는 사용자를 선택합니다.
 

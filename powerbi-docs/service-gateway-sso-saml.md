@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555656"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306507"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 SAML(Security Assertion Markup Language)을 사용합니다.
 
@@ -27,23 +27,43 @@ SAML([Security Assertion Markup Language](https://www.onelogin.com/pages/saml))�
 
 [Kerberos](service-gateway-sso-kerberos.md)에 추가 데이터 원본이 지원됩니다.
 
+HANA의 경우 SAML SSO 연결을 설정하기 전에 암호화를 사용하는 것이 **매우** 좋습니다(즉, 암호화된 연결을 허용하도록 HANA 서버를 구성하고 HANA 서버와 통신할 때 암호화를 사용하도록 게이트웨이를 구성해야 함). HANA ODBC 드라이버는 기본적으로 SAML 어설션을 암호화할 수 **없으며**, 암호화가 설정되지 않으면 서명된 SAML 어설션이 게이트웨이에서 "명확히" HANA 서버로 전송되고 제3자에 의한 인터셉션 및 재사용에 취약합니다.
+
 ## <a name="configuring-the-gateway-and-data-source"></a>게이트웨이 및 데이터 원본 구성
 
-SAML을 사용하려면 먼저 SAML ID 공급자의 인증서를 생성한 다음, Power BI 사용자를 ID에 매핑합니다.
+SAML을 사용하려면 SSO를 활성화하려는 HANA 서버와 이 시나리오에서 SAML ID 공급자(IdP) 역할을 하는 게이트웨이 간에 트러스트 관계를 설정해야 합니다. 게이트웨이 IdP의 x509 인증서를 HANA 서버 트러스트 저장소로 가져오거나 HANA 서버에서 신뢰하는 루트 CA(인증 기관)가 서명한 게이트웨이의 X509 인증서를 가져오는 등 이 관계를 설정하는 여러 가지 방법이 있습니다. 이 가이드에서는 후자의 방법을 설명하지만, 더 편리한 경우 다른 방법을 사용할 수도 있습니다.
 
-1. 인증서를 생성합니다. *일반 이름*을 작성할 때 SAP HANA 서버의 FQDN을 사용하세요. 인증서는 365일 후 만료됩니다.
+또한 이 가이드에서는 HANA 서버의 암호화 공급자로 OpenSSL을 사용하지만, OpenSSL 대신 SAP 암호화 라이브러리(CommonCryptoLib 또는 sapcrypto라고도 함)를 사용하여 트러스트 관계를 설정하는 설치 단계를 완료할 수도 있습니다. 자세한 내용은 공식 SAP 설명서를 참조하세요.
 
-    ```
-    openssl req -newkey rsa:2048 -nodes -keyout samltest.key -x509 -days 365 -out samltest.crt
-    ```
+다음 단계에서는 HANA 서버에서 신뢰하는 루트 CA를 사용하여 게이트웨이 IdP의 X509 인증서에 서명하여 HANA 서버와 게이트웨이 IdP 간의 트러스트 관계를 설정하는 방법을 설명합니다.
+
+1. 루트 CA의 X509 인증서 및 개인 키를 만듭니다. 예를 들어 루트 CA의 X509 인증서 및 개인 키를 .pem 형식으로 만들려면 다음을 수행합니다.
+
+```
+openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
+```
+
+HANA 서버에서 방금 만든 루트 CA가 서명한 인증서를 신뢰하도록 HANA 서버의 트러스트 저장소에 인증서(예: CA_Cert.pem)를 추가합니다. HANA 서버의 트러스트 저장소 위치는 **ssltruststore** 구성 설정을 검사하여 찾을 수 있습니다. OpenSSL을 구성하는 방법을 다루는 SAP 설명서를 준수했다면 HANA 서버는 재사용할 수 있는 루트 CA를 이미 신뢰했을 수 있습니다. 자세한 내용은 [SAP HANA Studio용 개방 SSL을 SAP HANA Server에 구성하는 방법을 참조](https://archive.sap.com/documents/docs/DOC-39571)하세요. SAML SSO를 활성화할 HANA 서버가 여러 개 있는 경우, 각 서버가 이 루트 CA를 신뢰하는지 확인합니다.
+
+1. 게이트웨이 IdP의 X509 인증서를 만듭니다. 예를 들어 1년간 유효한 인증서 서명 요청(IdP_Req.pem) 및 개인 키(IdP_Key.pem)를 만들려면 다음 명령을 실행합니다.
+
+```
+ openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+```
+
+
+신뢰할 수 있도록 HANA 서버를 구성한 경우 루트 CA를 사용하여 인증서 서명 요청에 서명합니다. 예를 들어 CA_Cert.pem 및 CA_Key.pem(루트 CA의 인증서 및 키)을 사용하여 IdP_Req.pem에 서명하려면 다음 명령을 실행합니다.
+
+  ```
+openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
+```
+결과 IdP 인증서는 1년간 유효합니다(-days 옵션 참조). 이제 HANA Studio에서 IdP의 인증서를 가져와 새 SAML ID 공급자를 만듭니다.
 
 1. SAP HANA Studio에서 SAP HANA 서버를 마우스 오른쪽 단추로 클릭한 다음, **보안** > **보안 콘솔 열기** > **SAML ID 공급자** > **OpenSSL 암호화 라이브러리**로 이동합니다.
 
-    OpenSSL 대신 SAP 암호화 라이브러리(CommonCryptoLib 또는 sapcrypto라고도 함)를 사용하여 이러한 설정 단계를 완료할 수도 있습니다. 자세한 내용은 공식 SAP 설명서를 참조하세요.
-
-1. **가져오기**를 선택하고 samltest.crt로 이동하여 가져옵니다.
-
     ![ID 공급자](media/service-gateway-sso-saml/identity-providers.png)
+
+1. **가져오기**를 선택하고 IdP_Cert.pem으로 이동하여 가져옵니다.
 
 1. SAP HANA Studio에서 **보안** 폴더를 선택합니다.
 
@@ -61,10 +81,10 @@ SAML을 사용하려면 먼저 SAML ID 공급자의 인증서를 생성한 다�
 
 인증서와 ID가 구성되었으므로 인증서를 pfx 형식으로 변환하고 인증서를 사용하도록 게이트웨이 머신을 구성합니다.
 
-1. 다음 명령을 실행하여 인증서를 pfx 형식으로 변환합니다.
+1. 다음 명령을 실행하여 인증서를 pfx 형식으로 변환합니다. 이 명령은 "root"를 pfx 파일의 암호로 설정합니다.
 
     ```
-    openssl pkcs12 -inkey samltest.key -in samltest.crt -export -out samltest.pfx
+    openssl pkcs12 -export -out samltest.pfx -in IdP_Cert.pem -inkey IdP_Key.pem -passin pass:root -passout pass:root
     ```
 
 1. 게이트웨이 머신에 pfx 파일을 복사합니다.

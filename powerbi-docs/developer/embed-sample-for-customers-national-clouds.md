@@ -1,6 +1,6 @@
 ---
-title: 정부 및 소버린 클라우드용 애플리케이션에 Power BI 콘텐츠를 포함하기 위한 임베디드 분석
-description: 고객의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
+title: 정부 및 내셔널용 애플리케이션에 Power BI 콘텐츠를 포함하기 위한 임베디드 분석
+description: 고객의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 정부 및 내셔널 클라우드용 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -10,20 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 51ea85be275be3dbac014392e2d8b3b65c0c4d82
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: c1148a8f4fe6c9c3751f7d315cf0e7d14e404486
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216220"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430899"
 ---
-# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>자습서: 소버린 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>자습서: 내셔널 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
 
-소버린 클라우드용 비즈니스 프로세스 애플리케이션 내에 분석 콘텐츠를 포함하는 방법을 알아봅니다. Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서, 대시보드 또는 타일을 웹 애플리케이션에 포함할 수 있습니다.
+내셔널 클라우드용 비즈니스 프로세스 애플리케이션 내에 분석 콘텐츠를 포함하는 방법을 알아봅니다. Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서, 대시보드 또는 타일을 웹 애플리케이션에 포함할 수 있습니다.
 
-Power BI는 소버린(개인용) 클라우드도 지원합니다.
+Power BI는 [내셔널 클라우드](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud)도 지원합니다.
 
-다른 소버린 클라우드는 다음과 같습니다.
+다른 내셔널 클라우드는 다음과 같습니다.
 
 * 미국 GCC(정부 커뮤니티 클라우드)
 
@@ -37,7 +37,7 @@ Power BI는 소버린(개인용) 클라우드도 지원합니다.
 
 ![포함된 대시보드](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-이 연습을 시작하려면 **Power BI 계정**이 필요합니다. 계정을 설정하지 않은 경우 정부 또는 국가의 유형에 따라 적절한 소버린 클라우드를 선택할 수 있습니다. [미국 정부 Power BI 계정](../service-govus-signup.md), [독일 클라우드용 Power BI 계정](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) 또는 [중국 클라우드용 Power BI 계정](http://www.21vbluecloud.com/powerbi/)에 등록할 수 있습니다.
+이 연습을 시작하려면 **Power BI 계정**이 필요합니다. 계정을 설정하지 않은 경우 정부 또는 국가의 유형에 따라 적절한 내셔널 클라우드를 선택할 수 있습니다. [미국 정부 Power BI 계정](../service-govus-signup.md), [독일 클라우드용 Power BI 계정](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) 또는 [중국 클라우드용 Power BI 계정](http://www.21vbluecloud.com/powerbi/)에 등록할 수 있습니다.
 
 > [!NOTE]
 > 대신 조직의 대시보드를 포함하려고 하십니까? [조직의 앱에 대시보드 통합](integrate-dashboard.md)을 참조하세요.
@@ -46,11 +46,15 @@ Power BI는 소버린(개인용) 클라우드도 지원합니다.
 
 ## <a name="download-the-sample"></a>샘플 다운로드
 
-이 문서는 GitHub의 [앱 소유 데이터 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)에 사용된 코드를 보여줍니다. 이 연습을 따라 하기 위해 샘플을 다운로드할 수 있습니다.
+이 문서는 GitHub의 [앱 소유 데이터 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)에 사용된 코드를 보여줍니다. 이 연습을 따라 하기 위해 샘플을 다운로드할 수 있습니다. 
 
-![앱 소유 데이터 샘플](media/embed-sample-for-customers-sovereign-clouds/embed-sample-for-customers-026.png)
+![앱 소유 데이터 샘플](media/embed-sample-for-customers-national-clouds/embed-sample-for-customers-026.png)
 
 * GCC(정부 커뮤니티 클라우드):
+
+    > [!Note]
+    > GCC 계정은 P 및 EM 용량만을 지원합니다.
+
 1. GCCCloud.config 콘텐츠로 Cloud.config 파일을 덮어씁니다.
 
 2. Web.config 파일에서 applicationId(네이티브 앱 applicationId), workspaceId, 사용자(마스터 사용자) 및 암호를 업데이트합니다.
@@ -65,6 +69,7 @@ Power BI는 소버린(개인용) 클라우드도 지원합니다.
 ```
 
 * DoDCON(군용 계약업체):
+
 1. TBCloud.config 콘텐츠로 Cloud.config 파일을 덮어씁니다.
 
 2. Web.config 파일에서 applicationId(네이티브 앱 applicationId), workspaceId, 사용자(마스터 사용자) 및 암호를 업데이트합니다.
@@ -79,6 +84,7 @@ Power BI는 소버린(개인용) 클라우드도 지원합니다.
 ```
 
 * DoD(군대):
+
 1. PFCloud.config 콘텐츠로 Cloud.config 파일을 덮어씁니다.
 
 2. Web.config 파일에서 applicationId(네이티브 앱 applicationId), workspaceId, 사용자(마스터 사용자) 및 암호를 업데이트합니다.
@@ -93,6 +99,7 @@ Power BI는 소버린(개인용) 클라우드도 지원합니다.
 ```
 
 * 독일 클라우드용 Power BI 매개 변수
+
 1. Cloud.config 파일을 독일 클라우드용 Power BI 콘텐츠로 덮어씁니다.
 
 2. Web.config 파일에서 applicationId(네이티브 앱 applicationId), workspaceId, 사용자(마스터 사용자) 및 암호를 업데이트합니다.
@@ -107,6 +114,7 @@ Power BI는 소버린(개인용) 클라우드도 지원합니다.
 ```
 
 * 중국 클라우드용 Power BI 매개 변수
+
 1. Cloud.config 파일을 [중국 클라우드용 Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) 콘텐츠로 덮어씁니다.
 
 2. Web.config 파일에서 applicationId(네이티브 앱 applicationId), workspaceId, 사용자(마스터 사용자) 및 암호를 업데이트합니다.
@@ -122,33 +130,33 @@ Power BI는 소버린(개인용) 클라우드도 지원합니다.
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>1단계 - Azure AD에 앱 등록
 
-REST API 호출을 실행하려면 Azure AD를 사용해 애플리케이션을 등록합니다. 자세한 내용은 [Power BI 콘텐츠를 포함하려면 Azure AD 앱 등록](register-app.md)을 참조하세요. 소버린 클라우드 소속이 서로 다르기 때문에 애플리케이션을 등록하기 위한 개별 URL이 있습니다.
+REST API 호출을 실행하려면 Azure AD를 사용해 애플리케이션을 등록합니다. 자세한 내용은 [Power BI 콘텐츠를 포함하려면 Azure AD 앱 등록](register-app.md)을 참조하세요. 내셔널 클라우드 소속이 서로 다르기 때문에 애플리케이션을 등록하기 위한 개별 URL이 있습니다.
 
-* GCC(정부 커뮤니티 클라우드) - https://app.powerbigov.us/apps 
+* GCC(정부 커뮤니티 클라우드) - ```https://app.powerbigov.us/apps```
 
-* DoDCON(군용 계약업체) - https://app.high.powerbigov.us/apps 
+* DoDCON(군용 계약업체) - ```https://app.high.powerbigov.us/apps```
 
-* DoD(군대) - https://app.mil.powerbigov.us/apps
+* DoD(군대) - ```https://app.mil.powerbigov.us/apps```
 
-* 독일 클라우드용 Power BI - https://app.powerbi.de/apps
+* 독일 클라우드용 Power BI - ```https://app.powerbi.de/apps```
 
-* 중국 클라우드용 Power BI - https://app.powerbi.cn/apps
+* 중국 클라우드용 Power BI - ```https://app.powerbi.cn/apps```
 
 [고객에 대한 콘텐츠 포함 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)을 다운로드했다면 Azure AD에서 샘플이 인증을 받을 수 있도록 얻은 **applicationId**를 사용합니다. 샘플을 구성하려면 *web.config* 파일에서 **applicationId**를 변경합니다.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>2 단계-Azure AD로 액세스 토큰 가져오기
 
-애플리케이션 내에서 Azure AD에서 **액세스 토큰**을 가져와야 Power BI REST API로 호출할 수 있습니다. 자세한 내용은 [사용자를 인증하고 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기](get-azuread-access-token.md)를 참조하세요. 소버린 클라우드 소속이 서로 다르기 때문에 애플리케이션에 대한 액세스 토큰을 얻기 위한 개별 URL이 있습니다.
+애플리케이션 내에서 Azure AD에서 **액세스 토큰**을 가져와야 Power BI REST API로 호출할 수 있습니다. 자세한 내용은 [사용자를 인증하고 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기](get-azuread-access-token.md)를 참조하세요. 내셔널 클라우드 소속이 서로 다르기 때문에 애플리케이션에 대한 액세스 토큰을 가져오기 위한 개별 URL이 있습니다.
 
-* GCC(정부 커뮤니티 클라우드) - https://login.microsoftonline.com
+* GCC(정부 커뮤니티 클라우드) - ```https://login.microsoftonline.com```
 
-* DoDCON(군용 계약업체) - http://login.microsoftonline.us
+* DoDCON(군용 계약업체) - ```http://login.microsoftonline.us```
 
-* DoD(군대) - https://login.microsoftonline.us
+* DoD(군대) - ```https://login.microsoftonline.us```
 
-* 독일 클라우드용 Power BI - https://login.microsoftonline.de
+* 독일 클라우드용 Power BI - ```https://login.microsoftonline.de```
 
-* 중국 클라우드용 Power BI - https://login.chinacloudapi.cn
+* 중국 클라우드용 Power BI - ```https://login.chinacloudapi.cn```
 
 **Controllers\HomeController.cs** 파일의 각 콘텐츠 항목 작업 내에서 이러한 액세스 토큰 예제를 볼 수 있습니다.
 
@@ -236,7 +244,7 @@ JavaScript API를 사용하여 포함 토큰을 생성할 수 있습니다. 포�
 
 샘플은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)의 **Controllers\HomeController.cs** 내에서 찾을 수 있습니다.
 
-이는 **EmbedConfig** 및 **TileEmbedConfig**에 대한 클래스가 생성되었음을 의미합니다. 샘플은 **Models\EmbedConfig.cs** 및 **Models\TileEmbedConfig.cs** 내에서 찾아볼 수 있습니다.
+**EmbedConfig** 및 **TileEmbedConfig**에 대한 클래스가 만들어집니다. 샘플은 **Models\EmbedConfig.cs** 및 **Models\TileEmbedConfig.cs** 내에서 찾아볼 수 있습니다.
 
 #### <a name="reports"></a>보고서
 
@@ -436,7 +444,5 @@ JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드
 * [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md)
 
 고려 사항 및 제한 사항
-
-* 이제 GCC 계정은 P 및 EM 용량만을 지원합니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

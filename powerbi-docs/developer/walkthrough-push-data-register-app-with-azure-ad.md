@@ -29,7 +29,7 @@ Azure AD에 앱을 등록하는 단계는 다음과 같습니다.
 ## <a name="register-an-app-in-azure-ad"></a>Azure AD에 앱 등록
 
 1. dev.powerbi.com/apps로 이동합니다.
-2. **Sign in with your existing account(기존 계정으로 로그인)** 을 클릭하고 Power BI 계정에 로그인합니다.
+2. **Sign in with your existing account(기존 계정으로 로그인)** 를 클릭하고 Power BI 계정에 로그인합니다.
 3. **앱 이름**을 "Sample push data app"과 같이 입력합니다.
 4. **앱 유형**에서 **네이티브 앱**을 선택합니다.
 5. **https://login.live.com/oauth20_desktop.srf** 같은 **URL 리디렉션**을 입력합니다. **네이티브 클라이언트 앱**의 경우 리디렉션 URI는 인증할 특정 애플리케이션에 대한 더 자세한 정보를 **Azure AD** 에 제공합니다. 클라이언트 앱의 표준 URI는 https://login.live.com/oauth20_desktop.srf입니다.

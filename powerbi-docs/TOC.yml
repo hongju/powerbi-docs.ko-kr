@@ -436,6 +436,8 @@ items:
       items:
       - name: 도움을 받을 수 있는 10가지 팁
         href: service-tips-for-finding-help.md
+      - name: Power BI 지원 옵션
+        href: service-support-options.md
       - name: 라이선싱 특수 사례
         items:
         - name: Extended Pro 평가판 활성화
@@ -880,8 +882,8 @@ items:
         href: developer/embed-sample-for-customers.md
       - name: 조직용 콘텐츠 포함
         href: developer/embed-sample-for-your-organization.md
-      - name: 소버린 클라우드용 콘텐츠 포함
-        href: developer/embed-sample-for-customers-sovereign-clouds.md
+      - name: 국내 클라우드용 콘텐츠 포함
+        href: developer/embed-sample-for-customers-national-clouds.md
     - name: 개념
       items:
       - name: 성능 모범 사례
@@ -904,7 +906,7 @@ items:
         href: developer/embed-from-apps.md
       - name: Azure Active Directory 테넌트 만들기
         href: developer/create-an-azure-active-directory-tenant.md
-      - name: 애플리케이션 등록
+      - name: 응용 프로그램 등록
         href: developer/register-app.md
       - name: Azure AD 액세스 토큰 가져오기
         href: developer/get-azuread-access-token.md
@@ -983,7 +985,7 @@ items:
       - name: Power BI의 조직을 위한 사용자 지정 시각적 개체
         href: power-bi-custom-visuals-organization.md
       - name: Power BI 시각적 개체에 대한 지침
-        href: developer/office-store-in-app-purchase-visual-guidelines.md
+        href: developer/guidelines-powerbi-visuals.md
       - name: 사용자 지정 시각적 개체 FAQ
         href: power-bi-custom-visuals-faq.md
       - name: 기능 사용
@@ -1325,9 +1327,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
-ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
+ms.openlocfilehash: 9c5c6c85422fa9094e28d6e84d3ef6b861a3a324
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "57964919"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473893"

@@ -65,7 +65,7 @@ Contoso의 프로젝트 관리자인 Jeff에게는 북서부 직원이 담긴 �
 많은 분석 문제를 해결하기 위해 DAX가 있는 계산된 테이블을 사용할 수 있습니다. 여기서는 계산된 테이블에 대한 간략한 소개만 제공했습니다. 계산된 테이블 작업을 시작할 때는 다음과 같은 여러 공통 DAX 테이블 함수가 유용할 수 있습니다.
 
 * DISTINCT
-* 값
+* VALUES
 * CROSSJOIN
 * UNION
 * NATURALINNERJOIN

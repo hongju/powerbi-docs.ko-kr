@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 54bdc0cb3490cf2149f2fda51939c201cd51518f
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980430"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383442"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -60,7 +60,7 @@ ms.locfileid: "57980430"
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>사용자가 Power BI에 등록하려면 어떻게 합니까?
 
-관리자는 [Power BI 웹 사이트](https://powerbi.microsoft.com) 또는 Office 365 관리 센터의 [서비스 구매](https://admin.microsoft.com/AdminPortal/Home#/catalog) 페이지를 통해 Power BI에 가입할 수 있습니다. 관리자가 Power BI에 등록할 때 액세스 권한이 있어야 하는 사용자에게 사용자 라이선스를 할당할 수 있습니다.
+관리자는 [Power BI 웹 사이트](https://powerbi.microsoft.com) 또는 Microsoft 365 관리 센터의 [서비스 구매](https://admin.microsoft.com/AdminPortal/Home#/catalog) 페이지를 통해 Power BI에 가입할 수 있습니다. 관리자가 Power BI에 등록할 때 액세스 권한이 있어야 하는 사용자에게 사용자 라이선스를 할당할 수 있습니다.
 
 또한 조직의 개별 사용자는 [Power BI 웹 사이트](https://powerbi.microsoft.com)를 통해 Power BI에 등록할 수 있습니다. 조직의 사용자가 Power BI에 등록할 때 해당 사용자에게 Power BI 라이선스가 자동으로 할당됩니다. 자세한 내용은 [Power BI에 개별 가입](service-self-service-signup-for-power-bi.md) 및 [조직의 Power BI 라이선스 부여](service-admin-licensing-organization.md)를 참조하세요.
 
@@ -169,7 +169,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-do-we-manage-power-bi"></a>Power BI를 어떻게 관리합니까?
 
-Power BI는 사용 통계를 볼 수 있는 관리 포털, 사용자 및 그룹을 관리하는 Office 365 관리 센터에 대한 링크, 그리고 테넌트 전체 설정을 제어하는 기능을 제공합니다.
+Power BI는 사용 통계를 볼 수 있는 관리 포털을 제공하며, 사용자 및 그룹을 관리하는 Microsoft 365 관리 센터에 대한 링크를 제공하고, 테넌트 전체 설정을 제어할 수 있는 기능을 제공합니다.
 
 Power BI 관리 포털에 액세스하려면 계정이 Office 365 또는 Azure Active Directory 내에서 **전역 관리자**로 표시되거나 Power BI 서비스 관리자 역할이 할당되어야 합니다. 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md) 및 [Power BI 관리 포털](service-admin-portal.md)을 참조하세요.
 
@@ -196,7 +196,7 @@ Power BI 관리 포털에 액세스하려면 계정이 Office 365 또는 Azure A
 
 사용자가 Power BI에 가입했지만 Power BI에 더 이상 액세스하지 않으려는 경우 해당 사용자에 대한 Power BI 라이선스를 제거할 수 있습니다.
 
-1. [Office 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
+1. [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
 
 1. 왼쪽 탐색 모음에서 **사용자** > **활성 사용자**를 선택합니다.
 
@@ -214,7 +214,7 @@ Power BI 관리 포털에 액세스하려면 계정이 Office 365 또는 Azure A
 
 이 프로그램의 일부로 테넌트에 가입한 사용자에 대해서는 관리 대시보드의 활성 사용자 창에서 필터링할 수 있는 고유한 라이선스가 할당됩니다. 이 새 보기를 만들려면 다음 단계를 수행합니다.
 
-1. [Office 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
+1. [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
 
 1. 왼쪽 탐색 모음에서 **사용자** > **활성 사용자**를 선택합니다.
 
@@ -232,7 +232,7 @@ Power BI 관리 포털에 액세스하려면 계정이 Office 365 또는 Azure A
 
 암호 재설정 요청의 증가를 경험할 수 있습니다. 이 프로세스에 대한 자세한 내용은 [사용자의 암호 재설정](/office365/admin/add-users/reset-passwords)을 참조하세요.
 
-Office 365 관리 센터에서 표준 프로세스를 통해 테넌트에서 사용자를 제거할 수 있습니다. 그러나 사용자가 조직에 활성 메일 주소를 여전히 가지고 있는 경우 관리자가 모든 사용자가 가입하지 못하게 차단하지 않는 한 해당 사용자가 다시 가입할 수 있습니다.
+Microsoft 365 관리 센터에서 표준 프로세스를 통해 테넌트에서 사용자를 제거할 수 있습니다. 그러나 사용자가 조직에 활성 메일 주소를 여전히 가지고 있는 경우 관리자가 모든 사용자가 가입하지 못하게 차단하지 않는 한 해당 사용자가 다시 가입할 수 있습니다.
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>내 Power BI 테넌트는 어디에 있습니까?
 

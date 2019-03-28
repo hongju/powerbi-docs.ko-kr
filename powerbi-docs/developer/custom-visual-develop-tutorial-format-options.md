@@ -28,15 +28,15 @@ ms.locfileid: "57695153"
 
 ## <a name="adding-formatting-options"></a>서식 옵션 추가
 
-1. **Power BI**에서 **서식 페이지**를 선택합니다.
+1. **Power BI**에서 **페이지 서식**을 선택합니다.
 
-    ‘이 시각적 데이터에 대해 서식 옵션을 사용할 수 없습니다.’라는 메시지가 표시됩니다.
+    ‘이 시각적 개체에 대해 서식 옵션을 사용할 수 없습니다.’라는 메시지가 표시됩니다.
 
     ![서식 페인트 브러시](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. **Visual Studio Code**에서 *capabilities.json* 파일을 엽니다.
 
-3. **dataViewMappings** 배열 앞에 **개체**를 추가합니다(줄 8 뒤).
+3. **dataViewMappings** 배열 앞에 **objects**를 추가합니다(줄 8 뒤).
 
     ```json
     "objects": {},
@@ -52,7 +52,7 @@ ms.locfileid: "57695153"
 
     ![서식 옵션 보기](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
-6. **제목** 옵션을 ‘끄기’로 설정합니다. 시각적 개체가 왼쪽 위 모서리에 측정값 이름이 표시하지 않는지 확인합니다.
+6. **제목** 옵션을 ‘끄기’로 설정합니다. 시각적 개체가 왼쪽 위 모서리에 측정값 이름을 표시하지 않는지 확인합니다.
 
     ![타일 옵션이 꺼져 있음](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
@@ -237,7 +237,7 @@ ms.locfileid: "57695153"
 
 이제 Power BI Desktop 보고서를 열고 Circle Card 사용자 지정 시각적 개체를 가져올 수 있습니다.
 
-1. **Power BI Desktop**을 열고 모든 *샘플 데이터 세트*를 사용하여 새 보고서 만들기
+1. **Power BI Desktop**을 열고  *샘플 데이터 세트*을 사용하여 새 보고서를 생성합니다.
 
 2. **‘시각화’** 창에서 **줄임표**를 선택한 다음, 파일에서 **가져오기**를 선택합니다.
 

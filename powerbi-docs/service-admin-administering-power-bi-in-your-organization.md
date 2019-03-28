@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d00e6f2a972e6e41d4d9badc51e30a13a6dc98cc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 214a8a3ce0fd647cecd9855b48589cef02bf01c8
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430128"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383317"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 관리란?
 
@@ -71,7 +71,7 @@ Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하
 | **도구** | **일반 작업** |
 | --- | --- |
 | Power BI 관리 포털 |<ul><li>프리미엄 용량 취득 및 사용</li><li>서비스 품질 보장</li><li>비즈니스 데이터 분류 관리</li><li>콘텐츠 게시 및 공유 정책 적용 지원</li><li>작업 영역 관리<br><li>사용자 지정 시각적 개체 게시</li><li>다른 애플리케이션에 Power BI를 포함하는 데 사용되는 코드 확인</li><li>데이터 액세스 및 기타 문제 해결</li></ul>|
-| Office 365 관리 센터 |<ul><li>사용자 등록 관리</li><li>Pro 라이선스 구매 및 할당</li><li>사용자가 Power BI에 액세스하지 못하도록 차단</li></ul>|
+| Microsoft 365 관리 센터 |<ul><li>사용자 등록 관리</li><li>Pro 라이선스 구매 및 할당</li><li>사용자가 Power BI에 액세스하지 못하도록 차단</li></ul>|
 | Office 365 보안 및 준수 센터 |<ul><li>이벤트 감사 검토 및 관리</li></ul>|
 | Azure Portal의 AAD(Azure Active Directory) |<ul><li>AAD를 통해 Power BI 리소스에 대한 조건부 액세스 구성</li><li>Power BI Embedded 용량 프로비전</li></ul>|
 | PowerShell cmdlet |<ul><li>스크립트를 통해 Power BI의 작업 영역 및 기타 측면 관리</li></ul>|

@@ -24,7 +24,7 @@ ms.locfileid: "57980361"
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>관리자가 조직의 사용자 지정 시각적 개체를 관리하려면 어떻게 하나요?
 
 관리 포털에 있는 “조직의 사용자 지정 시각적 개체” 탭 아래에서 관리자는 [엔터프라이즈에 있는 조직의 사용자 지정 시각적 개체를 모두 보고 관리](service-admin-portal.md#organizational-visuals)(추가, 사용, 사용 안 함, 삭제)할 수 있습니다.
-이러한 시각적 개체는 더 이상 이메일 또는 공유 폴더를 통해 공유할 필요가 없습니다. 조직의 리포지토리에 배포되면 조직의 사용자가 쉽게 찾을 수 있고 Power BI Desktop 또는 서비스에서 조직의 사용자 지정 시각적 개체를 자신의 보고서로 직접 가져올 수 있습니다. 조직의 사용자 지정 시각적 개체는 *내 조직* 탭 아래에 있는 Desktop 및 서비스의 기본 제공 상점에서 찾을 수 있습니다. 관리자가 새로운 조직의 사용자 지정 시각적 개체 버전을 업로드하면 조직의 모든 사용자가 동일한 업데이트된 버전을 가져옵니다. 이러한 시각적 개체를 사용하는 모든 보고서가 자동으로 업데이트되므로 보고서 작성자는 이러한 시각적 개체의 새 버전을 가져오기 위해 해당 보고서에서 시각적 개체를 삭제할 필요가 없습니다. 업데이트 메커니즘은 Marketplace 시각적 개체와 유사합니다.
+이러한 시각적 개체는 더 이상 이메일 또는 공유 폴더를 통해 공유할 필요가 없습니다. 조직의 리포지토리에 배포되면 조직의 사용자가 쉽게 찾을 수 있고 Power BI Desktop 또는 서비스에서 조직의 사용자 지정 시각적 개체를 자신의 보고서로 직접 가져올 수 있습니다. 조직의 사용자 지정 시각적 개체는 *내 조직* 탭 아래에 있는 Desktop 및 서비스의 기본 제공 상점에서 찾을 수 있습니다. 관리자가 새로운 조직의 사용자 지정 시각적 개체 버전을 업로드하면 조직의 모든 사용자가 동일한 업데이트된 버전을 가져옵니다. 이러한 시각적 개체를 사용하는 모든 보고서가 자동으로 업데이트되므로 보고서 작성자는 이러한 시각적 개체의 새 버전을 가져오기 위해 해당 보고서에서 시각적 개체를 삭제할 필요가 없습니다. 업데이트 메커니즘은 마켓플레이스 시각적 개체와 유사합니다.
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>관리자가 사용자 지정 시각적 개체를 공용 마켓플레이스에서 조직 상점으로 업로드하는 경우 공급업체가 공용 마켓플레이스에서 시각적 개체를 업데이트하면 해당 시각적 개체가 자동으로 업데이트되나요?
 
@@ -37,7 +37,7 @@ ms.locfileid: "57980361"
   
 ### <a name="if-the-administrator-disables-custom-visuals-from-the-admin-portal-tenant-settings-do-users-still-have-access-to-the-organizational-custom-visuals"></a>관리자가 관리 포털(테넌트 설정)에서 사용자 지정 시각적 개체를 사용하지 않도록 설정한 경우에도 사용자가 여전히 조직의 사용자 지정 시각적 개체에 액세스할 수 있나요?
 
-예. 관리자가 관리 포털에서 사용자 지정 시각적 개체를 사용하지 않도록 설정해도 조직의 저장소에 영향을 주지 않습니다. 일부 조직은 사용자 지정 시각적 개체를 사용하지 않도록 설정하고 Power BI 관리자가 가져오고 조직의 저장소에 업로드한 엄선한 시각적 개체만 사용하도록 설정합니다. 관리 포털에서 사용자 지정 시각적 개체를 사용하지 않도록 설정해도 Power BI Desktop에는 적용되지 않습니다. Desktop 사용자는 여전히 공용 마켓플레이스의 사용자 지정 시각적 개체를 자신의 보고서에 추가하고 사용할 수 있습니다. 그러나 이러한 공개 사용자 지정 시각적 개체는 Power BI 서비스에 게시되면 렌더링을 중지하고 적절한 오류를 표시합니다. Power BI 서비스를 사용하는 경우 공용 마켓플레이스에서 사용자 지정 시각적 개체를 가져올 수 없습니다. 관리 포털의 사용자 지정 시각적 개체 설정이 Power BI 서비스에 적용되므로 조직의 저장소에 있는 시각적 개체만 가져올 수 있습니다.
+예. 관리자가 관리 포털에서 사용자 지정 시각적 개체를 사용하지 않도록 설정해도 조직의 저장소에 영향을 주지 않습니다. 일부 조직은 사용자 지정 시각적 개체를 사용하지 않도록 설정하고 Power BI 관리자가 가져오고 조직의 저장소에 업로드한 엄선한 시각적 개체만 사용하도록 설정합니다. 관리 포털에서 사용자 지정 시각적 개체를 사용하지 않도록 설정해도 Power BI Desktop에는 적용되지 않습니다. Power BI Desktop 사용자는 여전히 공용 마켓플레이스의 사용자 지정 시각적 개체를 자신의 보고서에 추가하고 사용할 수 있습니다. 그러나 이러한 공개 사용자 지정 시각적 개체는 Power BI 서비스에 게시되면 렌더링을 중지하고 적절한 오류를 표시합니다. Power BI 서비스를 사용하는 경우 공용 마켓플레이스에서 사용자 지정 시각적 개체를 가져올 수 없습니다. 관리 포털의 사용자 지정 시각적 개체 설정이 Power BI 서비스에 적용되므로 조직의 저장소에 있는 시각적 개체만 가져올 수 있습니다.
 
 ### <a name="why-does-the-organizational-store-and-organizational-custom-visuals-make-a-great-enterprise-solution"></a>조직의 상점 및 조직의 사용자 지정 시각적 개체가 훌륭한 엔터프라이즈 솔루션을 만드는 이유는 무엇인가요?
 
@@ -45,7 +45,7 @@ ms.locfileid: "57980361"
 
 * 더 이상 메일 또는 공유 폴더를 통해 시각적 개체 파일을 공유할 필요가 없습니다! 한 곳에서 로그인한 모든 멤버에게 표시됩니다.
 
-* 보안 및 지원 가능성이 제공됩니다. 새로운 조직의 사용자 지정 시각적 개체 버전이 Marketplace 시각적 개체와 비슷하게 모든 보고서에서 자동으로 업데이트됩니다.
+* 보안 및 지원 가능성이 제공됩니다. 새로운 조직의 사용자 지정 시각적 개체 버전이 마켓플레이스 시각적 개체와 비슷하게 모든 보고서에서 자동으로 업데이트됩니다.
 
 * 조직의 사용자 지정 시각적 개체를 사용하는 조직의 사용자는 조직의 보안 요소인 조직의 사용자 지정 시각적 개체를 보고 사용하려면 로그인해야 합니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "57980361"
 
 ### <a name="what-are-certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체란?
 
-인증된 사용자 지정 시각적 개체는 특정 [지정된](power-bi-custom-visuals-certified.md) 코드 요구 사항 및 Power BI 팀의 테스트를 충족하는 [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)의 시각적 개체입니다.  수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스할 수 없는지 확인하기 위해 설계되었습니다. 그러나 Microsoft는 타사 사용자 지정 시각적 개체의 작성자가 아니며, 이러한 시각적 개체의 기능을 확인하기 위해 작성자에게 직접 연락하는 것이 좋습니다.
+인증된 사용자 지정 시각적 개체는 특정 [지정된](power-bi-custom-visuals-certified.md) 코드 요구 사항 및 Power BI 팀의 테스트를 충족하는 [마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)의 시각적 개체입니다.  수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스할 수 없는지 확인하기 위해 설계되었습니다. 그러나 Microsoft는 타사 사용자 지정 시각적 개체의 작성자가 아니며, 이러한 시각적 개체의 기능을 확인하기 위해서는 작성자에게 직접 연락하는 것이 좋습니다.
 
 ### <a name="what-tests-are-done-during-the-certification-process"></a>인증 프로세스 중 수행되는 테스트는 무엇인가요?
 
@@ -65,7 +65,7 @@ ms.locfileid: "57980361"
  
 ### <a name="do-you-certify-visuals-every-submission"></a>제출할 때마다 시각적 개체를 인증하나요?
 
-예. 인증된 시각적 개체의 새 버전이 Marketplace에 제출될 때마다 시각적 개체의 버전 업데이트는 동일한 인증 확인 하에 진행됩니다.
+예. 인증된 시각적 개체의 새 버전이 마켓플레이스에 제출될 때마다 시각적 개체의 버전 업데이트는 동일한 인증 확인 하에 진행됩니다.
 
 개발자를 위한 참고: 인증된 시각적 개체의 버전 업데이트를 제출하는 경우 [첫 번째 인증 요청](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification)으로 별도의 이메일을 보낼 필요가 없습니다. 버전 업데이트의 인증은 자동으로 이루어지며 거부를 유발하는 모든 위반에는 수정해야 할 사항을 설명하는 이메일이 발송됩니다. 
 
@@ -77,9 +77,9 @@ ms.locfileid: "57980361"
 
 아니요, 공개적으로 코드를 공유할 필요가 없습니다. 그러나 시각적 개체 코드를 확인하기 위한 읽기 권한을 제공해야 합니다. 예: GitHub의 개인 리포지토리.
  
-### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>[Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 시각적 개체를 [게시](https://docs.microsoft.com/power-bi/developer/office-store)하여 인증해야 하나요?
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>[마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 시각적 개체를 [게시](https://docs.microsoft.com/power-bi/developer/office-store)하여 인증해야 하나요?
 
-예. Marketplace에 시각적 개체를 먼저 게시하는 것은 인증을 위한 의무 요구 사항입니다.
+예. 마켓플레이스에 시각적 개체를 먼저 게시하는 것은 인증을 위한 의무 요구 사항입니다.
 사용자 지정 시각적 개체를 인증하려면 서버에 있어야 합니다. 개인 시각적 개체는 인증할 수 없습니다.
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>내 시각적 개체를 인증하는 데 얼마나 걸리나요?
