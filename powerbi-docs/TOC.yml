@@ -436,6 +436,8 @@ items:
       items:
       - name: 도움을 받을 수 있는 10가지 팁
         href: service-tips-for-finding-help.md
+      - name: Power BI 지원 옵션
+        href: service-support-options.md
       - name: 라이선싱 특수 사례
         items:
         - name: Extended Pro 평가판 활성화
@@ -1325,9 +1327,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 4bef8b089403856b84eafc59a00b31ad5f0c00c2
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
+ms.openlocfilehash: 9c5c6c85422fa9094e28d6e84d3ef6b861a3a324
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430418"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473893"
