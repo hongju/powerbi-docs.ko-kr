@@ -922,8 +922,6 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Azure에서 용량 일시 중지 및 시작
           href: developer/azure-pbie-pause-start.md
-      - name: 문제 해결
-        items:
         - name: 포함된 애플리케이션 문제 해결
           href: developer/embedded-troubleshoot.md
       - name: 작업 영역 컬렉션에서 마이그레이션
@@ -1270,6 +1268,8 @@ items:
         href: service-premium-incremental-refresh.md
       - name: 다중 지역 지원
         href: service-admin-premium-multi-geo.md
+      - name: 클라이언트 애플리케이션 및 도구를 사용하여 데이터 세트에 연결
+        href: service-premium-connect-tools.md
       - name: Power BI 프리미엄 FAQ
         href: service-premium-faq.md
     - name: Office 365의 관리 역할
@@ -1327,9 +1327,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 9c5c6c85422fa9094e28d6e84d3ef6b861a3a324
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
+ms.openlocfilehash: 3259c3fe3bc8756355dd75324a84dd0322bfef3a
+ms.sourcegitcommit: c98fe18c52cd06a52b12aa9aa09d58e8a406542a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473893"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58563669"
