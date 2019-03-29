@@ -36,7 +36,7 @@ Azure AD에 앱을 등록하는 단계는 다음과 같습니다.
 6. **액세스할 API 선택**에서 **모든 데이터 세트 읽기 및 쓰기**를 선택합니다. 모든 Power BI 앱 사용 권한은 [Power BI 사용 권한](power-bi-permissions.md)을 참조하세요.
 7. **앱 등록**을 클릭하고 생성된 **클라이언트 ID** 를 저장합니다. **클라이언트 ID** 는 Azure AD의 앱을 식별합니다.
 
-**Power BI에 애플리케이션 등록** 페이지가 다음과 같이 표시됩니다.
+**Power BI에 응용 프로그램 등록** 페이지가 다음과 같이 표시됩니다.
 
 ![앱 등록](media/walkthrough-push-data-register-app-with-azure-ad/powerbi-developer-sample-register-app.png)
 
