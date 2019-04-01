@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c268bd370f32d2089b3b80c7cf4317df33e67280
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306484"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473732"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>보고서를 Power BI에서 PDF로 내보내기
 Power BI를 사용하면 보고서를 PDF 형식으로 게시하고 Power BI 보고서를 기반으로 문서를 쉽게 만들 수 있습니다. **PDF로 내보낼** 때 Power BI 보고서의 각 페이지는 PDF 문서에 개별 페이지가 됩니다.
@@ -67,6 +67,8 @@ Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다.
 * 배경 이미지를 포함하는 보고서에서 PDF로 내보낼 때 페이지 배경의 "일반" 또는 "채우기" 옵션을 사용할 경우 내보내기에서 왜곡된 이미지가 표시될 수 있습니다.  최상의 결과를 얻으려면 "맞춤" 옵션을 사용하여 내보낸 문서에서 문제를 방지하는 것이 좋습니다.
 
 * Power BI 서비스는 PDF 내보내기에 대한 언어로 Power BI 언어 설정을 사용합니다. 언어 기본 설정을 보거나 설정하려면 톱니바퀴 아이콘 > **설정** > **일반** > **언어**를 선택합니다.
+
+* 현재 내보내기에서 "현재 값"을 선택하는 경우에 URL 필터가 적용되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [보고서 인쇄](end-user-print.md)

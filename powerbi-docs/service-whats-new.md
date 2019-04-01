@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383718"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489594"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
@@ -32,12 +32,21 @@ ms.locfileid: "58383718"
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 
-## <a name="february-2019"></a>2019년 2월
-* [용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)의 워크로드 및 활성 데이터 세트 크기 메트릭.
-* PDF 및 주문형 이메일 구독(service-report-subscribe.md)으로 내보냅니다.
-* 관리 포털의 대량 작업입니다.
+## <a name="march-2019"></a>2019년 3월
+* Power BI Premium에서 여러 지역 일반 가용성
+* Azure B2B에서 Power BI 콘텐츠 편집 및 관리 지원
 
 ## <a name="previous-months-2019"></a>이전 달(2019년)
+### <a name="february-2019"></a>2019년 2월
+* [용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)의 워크로드 및 활성 데이터 세트 크기 메트릭.
+* Power BI 보고서에서 PDF로 내보내기
+* [주문형 이메일 구독](service-report-subscribe.md)
+* 관리 포털의 대량 작업입니다.
+* PPT 및 PDF에서 필터링된 내보내기
+* 관리 포털에서 [도움말 및 지원 설정](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/)
+* [데이터 흐름](service-dataflows-overview.md)에 대한 데이터 계보 환경
+* 관리 포털에서 인증된 사용자 지정 시각적 개체 설정
+
 ### <a name="january-2019"></a>2019년 1월
 * 내부 포털 또는 웹 사이트의 [보안 Power BI 보고서 포함](service-embed-secure.md).
 * [데이터 흐름](service-dataflows-overview.md) 편집기를 새 커넥터로 업데이트하고 네이티브 SQL 쿼리 및 파워 쿼리 온라인 변환을 지원합니다.
