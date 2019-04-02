@@ -64,7 +64,7 @@ Power BI에는 데이터 요소와 값을 비교하기 위한 시각적 안내�
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_4.png)
 
-**서식** 리본을 사용하면 여러 가지 다양한 방식으로 시각적 개체를 정렬할 수 있으므로 시각적 요소가 페이지에서 가장 잘 보이고 작동하는 맞춤 모양으로 표시됩니다.
+**형식** 리본을 사용하면 여러 가지 다양한 방식으로 시각적 개체를 정렬할 수 있으므로 시각적 요소가 페이지에서 가장 잘 보이고 작동하는 맞춤 모양으로 표시됩니다.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_5.png)
 
