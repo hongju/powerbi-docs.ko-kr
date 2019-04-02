@@ -27,7 +27,7 @@ Power BI에서 하나 이상의 시각화가 있는 보고서를 열거나 [새 
 * 시각화의 영역을 선택(마우스 왼쪽 단추로 클릭)하고 새 위치로 끕니다.
 
 ## <a name="resize-the-visualization"></a>시각화 크기 조정
-* 시각화를 선택하여 테두리를 표시하고 어두운 프레임 핸들을 클릭하고 끌어 크기를 조정합니다.  
+* 시각화를 선택하여 테두리를 표시하고 크기 조절 핸들을 클릭하고 끌어 크기를 조정합니다.  
   ![](media/power-bi-visualization-move-and-resize/untitled.gif)
 
 ## <a name="select-focus-mode-to-see-more-detail"></a>자세한 내용을 알아보려면 포커스 모드를 선택합니다.
