@@ -1,6 +1,6 @@
 ---
 title: Office 365에서 Power BI 서비스 상태 추적
-description: Office 365 관리 센터에서 현재 및 기록 서비스 상태를 보는 방법을 알아봅니다.
+description: Microsoft 365 관리 센터에서 현재 및 기록 서비스 상태를 보는 방법을 알아봅니다.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: afb579c3163fac5da8b3a14f2f2b974d64213098
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4ab0fe4e3398a37da34af02282a847f316f3f727
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296437"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383156"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Office 365에서 Power BI 서비스 상태 추적
 
-Office 365 관리 센터는 서비스 상태에 대한 현재 및 기록 정보를 비롯하여 Power BI 관리자를 위한 중요한 도구를 제공합니다. 이 정보에 액세스하려면 다음 역할 중 하나여야 합니다. Power BI 서비스 관리자 또는 Office 365 전역 관리자. 역할에 대한 자세한 내용은 [Power BI와 관련된 관리자 역할](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)을 참조하세요.
+Microsoft 365 관리 센터는 서비스 상태에 대한 현재 및 기록 정보를 비롯하여 Power BI 관리자를 위한 중요한 도구를 제공합니다. 이 정보에 액세스하려면 다음 역할 중 하나여야 합니다. Power BI 서비스 관리자 또는 Office 365 전역 관리자. 역할에 대한 자세한 내용은 [Power BI와 관련된 관리자 역할](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)을 참조하세요.
 
-1. [Office 365 관리 센터](https://portal.office.com/adminportal)에 로그인합니다.
+1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal)에 로그인합니다.
 
 1. **서비스 상태** 타일을 선택합니다.
 

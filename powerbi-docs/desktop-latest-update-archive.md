@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/13/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 48ea3d5e60c6f6a079be1d7040266817fdf5b97b
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 536e433540d371838b027e06f857609024e213f3
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964988"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430487"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -119,7 +119,7 @@ ms.locfileid: "57964988"
 
 ## <a name="december-2018-update-2655313501"></a>2018년 12월 업데이트(2.65.5313.501)
 
-12월 업데이트는 고객의 머리 속에서 달콤한 춤을 추게 하거나 적어도 알사탕처럼 강력한 데이터 기반 시각적 개체를 만들 수 있게 합니다. 
+12월 업데이트를 통해 고객이 만족할 수 있는 매력적이고 강력한 데이터 기반 시각적 개체를 만들었습니다. 
 
 이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
@@ -558,7 +558,7 @@ ms.locfileid: "57964988"
 
 ### <a name="other"></a>기타
 
-* 소버린 클라우드 선택기 [[비디오]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+* 내셔널 클라우드 선택기 [[비디오]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
 
 > [!NOTE]
@@ -2225,7 +2225,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 -   크기 조정 가능한 탐색기 대화 상자
 
--   탐색기에서 항목을 다중 선택하는 기능(Ctrl+클릭, Shift+클릭 등)
+-   탐색기에서 항목을 다중 선택하는 기능(CTRL+클릭, SHIFT+클릭 등)
 
 **쿼리 편집기 개선:**
 
@@ -2250,7 +2250,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 이 업데이트에는 다음과 같은 기능이 추가되었습니다.
 
--   **새 데이터 커넥터**: appFigures, Quickbooks Online, Zendesk, Github, Twilio 및 SweetIQ
+-   **새 데이터 커넥터**: appFigures, Quickbooks Online, Zendesk, GitHub, Twilio 및 SweetIQ.
 
 -   **새 변환**: [텍스트 열]에서 첫 번째 문자/마지막 문자/문자 범위를 추출하는 기능, [쿼리 병합] 대화 상자에 있는 조인 유형을 지정하는 옵션, [구분 기호로 열 분할] 대화 상자에서 인용 스타일을 사용자 지정하는 기능
 

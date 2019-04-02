@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
-ms.openlocfilehash: eb5befbfc5e96867f0f4cf27eafd62829fb488f4
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: ec03ba86fdbf57a9898b127aae9b76990837b5ba
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762148"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473847"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI에서 사용할 Azure Active Directory 테넌트 만들기
 
@@ -28,7 +28,7 @@ Azure AD 테넌트가 있다면 애플리케이션을 정의하고 애플리케�
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Azure Active Directory 테넌트 만들기
 
-Power BI를 사용자 지정 애플리케이션에 통합하기 위해서는 Azure AD 내에서 애플리케이션을 정의해야 합니다. 이렇게 하려면 Azure AD 내에 디렉터리가 필요합니다. 바로 테넌트입니다. 조직에서 Power BI 또는 Office 365를 사용하지 않아 아직 테넌트가 없는 경우 [만들어야 합니다](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). 애플리케이션을 조직의 테넌트와 혼합하여 사용하지 않으려는 경우에도 테넌트를 만들어야 할 수 있습니다. 이렇게 하면 격리된 상태를 유지할 수 있습니다.
+Power BI를 사용자 지정 애플리케이션에 통합하기 위해서는 Azure AD 내에서 애플리케이션을 정의해야 합니다. 이렇게 하려면 Azure AD 내에 디렉터리가 필요합니다. 바로 테넌트입니다. 조직에서 Power BI 또는 Office 365를 사용하지 않아서 아직 테넌트가 없는 경우 [만들어야 합니다](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). 애플리케이션을 조직의 테넌트와 혼합하여 사용하지 않으려는 경우에도 테넌트를 만들어야 할 수 있습니다. 이렇게 하면 격리된 상태를 유지할 수 있습니다.
 
 또는 테스트 용도로 테넌트를 만들려고 할 수 있습니다.
 

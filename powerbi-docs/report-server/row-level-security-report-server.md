@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226207"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489571"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Report Server의 RLS(행 수준 보안)
 
@@ -28,11 +28,11 @@ Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성�
 
 기본적으로 행 수준 보안 필터링은 관계가 단방향 또는 양방향으로 설정되었는지 여부에 관계없이 단방향 필터를 사용합니다. 행 수준 보안을 사용하여 양방향 교차 필터를 수동으로 활성화할 수 있습니다.
 
-- 관계를 선택하고  **양방향으로 보안 필터 적용** 확인란을 선택합니다. 
+- 관계를 선택하고 **양방향으로 보안 필터 적용** 확인란을 선택합니다. 
 
     ![보안 필터 적용](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-사용자 이름 또는 로그인 ID를 기반으로 하는  [동적 행 수준 보안](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)을 구현할 때 이 상자를 선택합니다. 
+사용자 이름 또는 로그인 ID를 기반으로 하는 [동적 행 수준 보안](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)을 구현할 때 이 상자를 선택합니다. 
 
 자세한 내용은 [Power BI Desktop에서 DirectQuery를 사용하여 양방향 교차 필터링](../desktop-bidirectional-filtering.md) 및 [테이블 형식 BI 의미 체계 모델 보안](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) 기술 백서를 참조하세요.
 
@@ -46,7 +46,7 @@ Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성�
  보고서에 필요한 역할이 없으면 Power BI Desktop에서 보고서를 열고 역할을 추가 또는 수정한 다음, Power BI Report Server에 다시 저장해야 합니다. 
 
 1. Power BI Desktop에서 보고서를 Power BI Report Server에 저장합니다. Power BI Report Server에 최적화된 Power BI Desktop 버전을 사용해야 합니다.
-2. Power BI 보고서 서비스에서 보고서 옆의 줄임표(**...**)를 선택합니다. 
+2. Power BI 보고서 서비스에서 보고서 옆에 있는 줄임표(**...**)를 선택합니다. 
 
 3. **관리** > **행 수준 보안**을 선택합니다. 
 
@@ -85,7 +85,7 @@ Power BI Report Server에서 사용자 지정 인증을 사용하는 경우 사�
 
 사용자 이름() DAX 함수를 사용하여 보고서를 작성한 사용자는 통합 보안이 있는 DirectQuery를 사용할 때를 제외하고 UPN(사용자 계정 이름)이 반환되는 새 동작을 알 수 있습니다.  해당 시나리오에서는 RLS가 준수되지 않으므로 해당 시나리오의 동작은 변경되지 않습니다.
 
-Power BI Desktop으로 생성된 데이터 세트에서만 RLS를 정의할 수 있습니다. Excel로 만든 데이터 세트에 RLS를 사용하려면 먼저 파일을 Power BI Desktop(PBIX) 파일로 변환해야 합니다. [Excel 파일 변환](../desktop-import-excel-workbooks.md)에 대해 자세히 알아봅니다.
+Power BI Desktop으로 생성된 데이터 세트에서만 RLS를 정의할 수 있습니다. Excel로 만든 데이터 세트에 RLS를 사용하려면 먼저 파일을 Power BI Desktop(PBIX) 파일로 변환해야 합니다. [Excel 파일 변환](../desktop-import-excel-workbooks.md)에 대해 자세히 알아봅니다.
 
 저장된 자격 증명을 사용하는 추출, 변환, 로드(ETL) 및 DirectQuery 연결만 지원됩니다. 통합 인증을 사용하는 Analysis Services 및 DirectQuery 연결에 대한 라이브 연결은 데이터 원본에서 처리됩니다. 
 

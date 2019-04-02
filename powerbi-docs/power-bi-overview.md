@@ -45,8 +45,8 @@ Power BI 사용 방법은 프로젝트 또는 팀에서 사용자의 역할에 �
 
 역할과 관련된 문서를 살펴보세요.
 - [***‘디자이너용’***](desktop-what-is-desktop.md) Power BI
-- [***‘소비자’***](consumer/end-user-consumer.md)용 Power BI
-- [***‘개발자’***](developer/what-can-you-do.md)용 Power BI
+- [***‘소비자용’***](consumer/end-user-consumer.md) Power BI
+- [***‘개발자용’***](developer/what-can-you-do.md) Power BI
 - [***‘관리자용’***](service-admin-administering-power-bi-in-your-organization.md) Power BI
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI의 작업 흐름

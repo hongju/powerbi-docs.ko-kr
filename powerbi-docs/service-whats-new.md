@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216864"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489594"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
@@ -32,12 +32,21 @@ ms.locfileid: "56216864"
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 
-## <a name="february-2019"></a>2019년 2월
-* [용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)의 워크로드 및 활성 데이터 세트 크기 메트릭.
-* PDF 및 주문형 이메일 구독(service-report-subscribe.md)으로 내보냅니다.
-* 관리 포털의 대량 작업입니다.
+## <a name="march-2019"></a>2019년 3월
+* Power BI Premium에서 여러 지역 일반 가용성
+* Azure B2B에서 Power BI 콘텐츠 편집 및 관리 지원
 
 ## <a name="previous-months-2019"></a>이전 달(2019년)
+### <a name="february-2019"></a>2019년 2월
+* [용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)의 워크로드 및 활성 데이터 세트 크기 메트릭.
+* Power BI 보고서에서 PDF로 내보내기
+* [주문형 이메일 구독](service-report-subscribe.md)
+* 관리 포털의 대량 작업입니다.
+* PPT 및 PDF에서 필터링된 내보내기
+* 관리 포털에서 [도움말 및 지원 설정](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/)
+* [데이터 흐름](service-dataflows-overview.md)에 대한 데이터 계보 환경
+* 관리 포털에서 인증된 사용자 지정 시각적 개체 설정
+
 ### <a name="january-2019"></a>2019년 1월
 * 내부 포털 또는 웹 사이트의 [보안 Power BI 보고서 포함](service-embed-secure.md).
 * [데이터 흐름](service-dataflows-overview.md) 편집기를 새 커넥터로 업데이트하고 네이티브 SQL 쿼리 및 파워 쿼리 온라인 변환을 지원합니다.
@@ -346,7 +355,7 @@ ms.locfileid: "56216864"
 
 ***관리 포털***
 
-* O365 관리 센터에 대한 링크를 사용하여 간편한 사용자 관리
+* Microsoft 365 관리 센터에 대한 링크를 통해 간편한 사용자 관리
 * 웹에 게시하지 않도록 설정하는 기능
 * 사용자가 전체 조직에 콘텐츠 팩을 게시하지 않도록 방지
 * 외부 사용자에게 콘텐츠 공유하지 않도록 설정하는 기능
@@ -508,7 +517,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 * Power BI 설명서에 대한 새 사이트 로컬화
 * 보고서에 대한 로드 시간 개선
 * 보고서 전용 변경 내용으로 조직 콘텐츠 팩 업데이트
-* Office 365 관리자 포털에서 Power BI 상태
+* Microsoft 365 관리 센터의 Power BI 상태
 * 테이블, 행렬 및 카드에서 KPI 및 이미지
 
 세부 정보는 [Power BI 블로그](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)를 방문합니다.

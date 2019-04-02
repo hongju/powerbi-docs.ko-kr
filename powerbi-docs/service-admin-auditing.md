@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 27776b251734d025e4dcde9f525f321008647455
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980407"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383488"
 ---
 # <a name="using-auditing-within-your-organization"></a>조직 내에서 감사 사용
 
@@ -34,7 +34,7 @@ Office 365 보안 및 준수 센터에서 감사하거나 PowerShell을 사용�
 
     관리자가 아닌 계정에 감사 로그 액세스 권한을 부여하려면 해당 사용자를 이러한 역할 그룹의 구성원으로 추가해야 합니다. 또는 Exchange 관리 센터에서 사용자 지정 역할 그룹을 만들고 이 그룹에 감사 로그 또는 보기 전용 감사 로그 역할을 할당한 다음 액세스 권한이 필요한 계정을 새로 만든 역할 그룹에 추가하는 방법도 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
 
-    Office 365 관리 센터에서 Exchange 관리 센터에 액세스할 수 없는 경우, https://outlook.office365.com/ecp로 이동한 다음 자격 증명을 사용하여 로그인하세요.
+    Microsoft 365 관리 센터에서 Exchange 관리 센터에 액세스할 수 없는 경우, https://outlook.office365.com/ecp로 이동하고 자격 증명을 사용하여 로그인하세요.
 
 * 감사 로그에 대한 액세스 권한이 있지만 전역 관리자 또는 Power BI 서비스 관리자가 아닌 경우 Power BI 관리 포털에 대한 액세스 권한이 없습니다. 이 경우에는 [Office 365 보안 및 준수 센터](https://sip.protection.office.com/#/unifiedauditlog)로 직접 연결되는 링크를 사용해야 합니다.
 
@@ -50,9 +50,9 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 1. **감사 로그**를 선택합니다.
 
-1. **O365 관리 센터로 이동**을 선택합니다.
+1. **Microsoft 365 관리 센터로 이동**을 선택합니다.
 
-   ![O365 관리 센터로 이동](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Microsoft 365 관리 센터로 이동](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>Power BI 활동만 검색
 
@@ -214,7 +214,7 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 | Power BI 데이터 원본 인계됨                   | TakeOverDatasource                          |                                          |
 | Power BI 데이터 세트 인계됨                        | TakeOverDataset                             |                                          |
 | Power BI 앱 게시 취소됨                          | UnpublishApp                                |                                          |
-| 용량 리소스 거버넌스 설정 업데이트      | UpdateCapacityResourceGovernanceSettings    | 현재 Office 365 관리 포털에 없음 |
+| 용량 리소스 거버넌스 설정 업데이트      | UpdateCapacityResourceGovernanceSettings    | 현재 Microsoft 365 관리 센터에 없음 |
 | 용량 관리자 업데이트됨                            | UpdateCapacityAdmins                        |                                          |
 | 용량 표시 이름 업데이트됨                     | UpdateCapacityDisplayName                   |                                          |
 | 조직의 Power BI 설정 업데이트됨          | UpdatedAdminFeatureSwitch                   |                                          |

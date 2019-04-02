@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: fa7d10403ca6bd8dc94729b7b4fd631475a3671e
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325017"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383419"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>온-프레미스 데이터 게이트웨이 심층 분석
 조직의 사용자는 온-프레미스 데이터(이미 액세스 권한이 있는)에 액세스할 수 있지만 그러한 사용자가 온-프레미스 데이터 원본에 연결할 수 있기 전에 온-프레미스 데이터 게이트웨이를 설치하고 구성해야 합니다. 게이트웨이를 사용하면 클라우드의 사용자로부터 온-프레미스 데이터 원본으로, 다시 클라우드로 빠르고 안전하게 백그라운드에서 통신할 수 있습니다.
@@ -77,7 +77,7 @@ Analysis Services 라이브 연결을 사용할 예정인 경우 로컬 Active D
 
 1. Azure Active Directory에 계정을 수동으로 추가할 수 있습니다.
    
-   Azure 포털 또는 Office 365 관리 포털 내에 계정을 만들 수 있으며 계정 이름은 로컬 Active Directory 계정의 UPN과 일치합니다.
+   Azure Prtal 또는 Microsoft 365 관리 센터 내에 계정을 만들 수 있으며 계정 이름은 로컬 Active Directory 계정의 UPN과 일치합니다.
 2. [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) 도구를 사용하여 로컬 계정을 Azure Active Directory 테넌트와 동기화할 수 있습니다.
    
    Azure AD Connect 도구는 암호 해시 동기화, 통과 인증 및 페더레이션을 비롯한 인증 설정 및 디렉터리 동기화를 위한 옵션을 제공합니다. 테넌트 관리자 또는 로컬 도메인 관리자가 아닌 경우 IT 관리자에게 이 내용이 구성되었는지 문의해야 합니다.
