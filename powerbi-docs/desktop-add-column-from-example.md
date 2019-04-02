@@ -31,7 +31,7 @@ ms.locfileid: "54281945"
 **예제의 열 추가** 기능을 사용하는 것은 쉽고 간편합니다. 다음 몇 개 섹션에서는 이 기능이 얼마나 쉬운지 알아봅니다.
 
 ## <a name="use-query-editor-to-add-a-new-column-from-examples"></a>쿼리 편집기를 사용하여 예제의 새 열 추가
-예제의 새 열을 만들려면 **쿼리 편집기**를 시작합니다. **Power BI Desktop**의 **홈** 리본에서 **쿼리 편집**을 선택하여 이 작업을 수행할 수 있습니다.
+예제의 새 열을 만들려면 **쿼리 편집기**를 시작합니다. **Power BI Desktop**의 리본 메뉴 **홈** 탭에서 **쿼리 편집**을 선택하여 이 작업을 수행할 수 있습니다.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
@@ -177,4 +177,4 @@ ms.locfileid: "54281945"
 
 * **일반**
   
-  * 조건부 열
+	* 조건부 열
