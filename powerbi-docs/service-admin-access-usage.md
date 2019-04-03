@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/31/2018
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 26cf9b10d2a7bfffca151fe36cd45626487b6eef
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 8186cebfce23ab5cb73862541213260a80182230
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383649"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872481"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>로그인한 Power BI 사용자 찾기
 
@@ -68,5 +68,5 @@ csv 파일 다운로드 또는 PowerShell 사용의 두 가지 옵션으로 로�
 
 [조직 내에서 감사 사용](service-admin-auditing.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문하기](https://community.powerbi.com/)
 
