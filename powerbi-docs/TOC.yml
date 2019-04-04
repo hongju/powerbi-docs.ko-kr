@@ -500,8 +500,10 @@ items:
         href: refresh-excel-file-local-drive.md
       - name: Excel 통합 문서의 데이터 세트 새로 고침 - 클라우드
         href: refresh-excel-file-onedrive.md
-      - name: OneDrive에 있는 .csv 파일에서 만든 데이터 세트 새로 고침
+      - name: OneDrive에 있는 .csv 파일에서 데이터 세트 새로 고침
         href: refresh-csv-file-onedrive.md
+      - name: Power BI Premium의 쿼리 캐싱
+        href: power-bi-query-caching.md
       - name: 새로 고침 시나리오 문제 해결
         href: refresh-troubleshooting-refresh-scenarios.md
     - name: 대시보드
@@ -1343,9 +1345,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: acffbdf5b7a4951baae0dc6a4afc624371da560b
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
+ms.openlocfilehash: 9790d4bc855411ed54ce12123d03f5ef731d4689
+ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872596"
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "58914216"
