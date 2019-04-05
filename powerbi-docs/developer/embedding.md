@@ -1,6 +1,6 @@
 ---
 title: Power BI를 사용한 임베디드 분석
-description: Power BI는 대시보드 및 보고서에 대한 임베디드 분석을 사용하기 위한 API를 애플리케이션에 제공합니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 PaaS 환경과 SaaS 환경에 둘 다 Power BI와 함께 포함하는 방법을 자세히 알아봅니다.
+description: Power BI는 대시보드 및 보고서에 대한 임베디드 분석을 사용하기 위한 API를 애플리케이션에 제공합니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 PaaS 환경과 SaaS 환경 모두에 Power BI와 함께 포함하는 방법을 자세히 알아봅니다.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,14 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
+helpviewer_keywords:
+- embedded analytics
+- embedding
+- Power BI embedding
+- app owns data
+- user owns data
+- Power BI APIs
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: ca159fb8cea26f4c707aabc99d9fa2c308a32e1a
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 0a4b43bd02697472a0bbdf16171ba655fc014dbc
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762447"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872711"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI를 사용한 임베디드 분석
 
@@ -42,7 +49,7 @@ Power BI 라이선스가 없는 고객 및 사용자의 경우 조직 또는 고
 
 **조직에 대한 콘텐츠를 포함하면** Power BI 서비스를 확장할 수 있습니다. 조직에 포함하려면 애플리케이션 사용자가 콘텐츠를 보고자 할 때 Power BI 서비스에 로그인해야 합니다. 조직 내 사용자가 로그인하면 본인이 소유하거나 Power BI 서비스에서 사용자가 공유한 대시보드 및 보고서에만 액세스할 수 있습니다.
 
-*조직에 대한 콘텐츠 포함의 예제에는 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams 통합(관리자 권한 필요)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 및 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)와 같은 내부 애플리케이션이 포함됩니다.*
+*조직에서 콘텐츠를 포함하는 예제에는 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams 통합(관리자 권한 필요)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 및 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)와 같은 내부 애플리케이션이 포함됩니다.*
 
 조직에 대한 콘텐츠를 포함하는 경우 아래 항목을 참조하세요.
 
@@ -82,12 +89,12 @@ Power BI Embedded를 사용하는 개발자는 시각적 개체 및 분석을 �
 이제 Power BI 콘텐츠를 애플리케이션에 포함하거나 고객에 대한 Power BI 콘텐츠를 포함할 수 있습니다.
 
 > [!div class="nextstepaction"]
-> [조직에 포함](embed-sample-for-your-organization.md)
+> [조직에 대한 콘텐츠 포함](embed-sample-for-your-organization.md)
 
 > [!div class="nextstepaction"]
-> [Power BI Embedded란?](azure-pbie-what-is-power-bi-embedded.md)
+> [Power BI Embedded는 무엇입니까?](azure-pbie-what-is-power-bi-embedded.md)
 
 > [!div class="nextstepaction"]
 >[고객에 대한 콘텐츠 포함](embed-sample-for-customers.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문하기](http://community.powerbi.com/)

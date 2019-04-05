@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 02/05/2019
-ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.date: 03/29/2019
+ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014418"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872550"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI(미리 보기)를 포함하는 서비스 주체
 
@@ -111,13 +111,15 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
 3. Power BI 관리자는 Power BI 관리 포털의 **개발자 설정**에서 서비스 주체를 활성화해야 합니다. Azure AD에서 만든 보안 그룹을 **개발자 설정**의 **특정 보안 그룹** 섹션에 추가합니다.
 
    > [!Important]
-   > 서비스 주체는 해당 보안 그룹의 모든 Power BI 테넌트 설정에 대한 사용 권한을 상속받습니다. 사용 권한을 제한하려면 서비스 주체에 대한 전용 보안 그룹을 만들고, 활성화된 해당 Power BI 설정에 대한 '특정 보안 그룹 제외' 목록에 이를 추가합니다.
+   > 서비스 주체는 전체 조직에 대해 설정되거나 서비스 주체가 그룹의 일부로 포함된 보안 그룹에 대해 설정되는 모든 테넌트 설정에 액세스할 수 있습니다. 특정 테넌트 설정에 대한 서비스 주체 액세스 권한을 제한하려면 특정 보안 그룹에 대한 액세스 권한만을 허용하거나 서비스 주체에 대해 전용 보안 그룹을 만들고 제외시킵니다.
 
     ![관리 포털](media/embed-service-principal/admin-portal.png)
 
 4. [Power BI 환경](embed-sample-for-customers.md#set-up-your-power-bi-environment)을 설정합니다.
 
 5. 생성한 새 작업 영역에 서비스 주체를 **관리자**로 추가합니다. 이 작업은 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 또는 Power BI 서비스를 통해 관리할 수 있습니다.
+
+    ![작업 영역에 서비스 주체 추가](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. 이제 샘플 애플리케이션 내에서 또는 자체 애플리케이션 내에서 콘텐츠를 포함하도록 선택합니다.
 
@@ -171,6 +173,7 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 * 서비스 주체를 사용하여 온-프레미스 데이터 게이트웨이를 설치하거나 관리할 수 없습니다.
 * [조직에 포함](embed-sample-for-your-organization.md) 애플리케이션은 서비스 주체를 사용할 수 없습니다.
 * [데이터 흐름](../service-dataflows-overview.md) 관리는 지원되지 않습니다.
+* 서비스 주체는 관리 API를 지원하지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
