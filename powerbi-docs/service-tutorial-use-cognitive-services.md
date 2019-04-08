@@ -29,7 +29,7 @@ Cognitive Services 변환은 [데이터 흐름을 위한 셀프 서비스 데이
 > [!div class="checklist"]
 > * 데이터 흐름으로 데이터 가져오기
 > * 데이터 흐름에 있는 텍스트 열의 감정 점수 매기기 및 핵심 구 추출
-> * Power BI Desktop의 결과에 연결
+> * Power BI Desktop에서 결과에 연결
 
 
 ## <a name="prerequisites"></a>필수 조건
@@ -57,7 +57,7 @@ URL [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
-위쪽 리본에서 **Transform Table**(테이블 변환)을 선택하고 **첫 행을 헤더로 사용**을 선택합니다. 이제 데이터를 텍스트 분석에 사용할 준비가 되었습니다. 고객 의견 열에서 감정 점수 매기기 및 핵심 구 추출을 사용할 수 있습니다.
+위쪽 리본에서 **테이블 변환**을 선택하고 **첫 행을 머리글로 사용**을 선택합니다. 이제 데이터를 텍스트 분석에 사용할 준비가 되었습니다. 고객 의견 열에서 감정 점수 매기기 및 핵심 구 추출을 사용할 수 있습니다.
 
 파워 쿼리 편집기에서 **AI 인사이트**를 선택합니다.
 
