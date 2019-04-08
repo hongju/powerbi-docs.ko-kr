@@ -596,11 +596,11 @@ items:
         href: service-insights-optimize.md
     - name: Power BI에서 공동 작업
       items:
+      - name: 새 작업 영역 만들기
+        href: service-create-the-new-workspaces.md
       - name: 앱 작업 영역 만들기
         href: service-create-workspaces.md
-      - name: 새 작업 영역 만들기(미리 보기)
-        href: service-create-the-new-workspaces.md
-      - name: 앱 만들기 및 공유
+      - name: 작업 영역에서 앱 게시
         href: service-create-distribute-apps.md
       - name: 작업 영역에서 데이터 스토리지 관리
         href: service-admin-manage-your-data-storage-in-power-bi.md
@@ -882,18 +882,6 @@ items:
         href: developer/embedding.md
       - name: Azure의 Power BI Embedded란?
         href: developer/azure-pbie-what-is-power-bi-embedded.md
-    - name: 빠른 시작
-      items:
-      - name: Azure에서 용량 관리
-        items:
-        - name: Azure에서 용량 만들기
-          href: developer/azure-pbie-create-capacity.md
-        - name: Azure에서 Multi-Geo를 사용하여 용량 만들기
-          href: developer/embedded-multi-geo.md
-        - name: Azure에서 용량 확장
-          href: developer/azure-pbie-scale-capacity.md
-        - name: Azure에서 용량 일시 중지 및 시작
-          href: developer/azure-pbie-pause-start.md
     - name: 자습서
       items:
       - name: 고객용 콘텐츠 포함
@@ -930,6 +918,8 @@ items:
         href: developer/get-azuread-access-token.md
       - name: Q&A 포함
         href: developer/qanda.md
+      - name: 포함된 애플리케이션 문제 해결
+        href: developer/embedded-troubleshoot.md
       - name: Azure에서 용량 관리
         items:
         - name: Azure에서 용량 만들기
@@ -940,8 +930,6 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Azure에서 용량 일시 중지 및 시작
           href: developer/azure-pbie-pause-start.md
-        - name: 포함된 애플리케이션 문제 해결
-          href: developer/embedded-troubleshoot.md
       - name: 작업 영역 컬렉션에서 마이그레이션
         items:
         - name: Power BI 작업 영역 컬렉션에서 마이그레이션하는 방법
@@ -1048,8 +1036,6 @@ items:
       items:
       - name: 데이터 세트에 데이터 푸시
         href: developer/walkthrough-push-data.md
-      - name: Azure AD에 앱 등록
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
       - name: 인증 액세스 토큰 가져오기
         href: developer/walkthrough-push-data-get-token.md
       - name: 데이터 세트 만들기
@@ -1345,9 +1331,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 9790d4bc855411ed54ce12123d03f5ef731d4689
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
+ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
+ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914216"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59053441"
