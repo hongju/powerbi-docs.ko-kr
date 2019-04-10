@@ -48,7 +48,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 ![Azure Portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-모델을 게시하는 데 사용한 Azure 구독을 선택하고 **액세스 제어(IAM)** 를 선택합니다. 다음으로, **역할 할당 추가**, **읽기 권한자** 역할, Power BI 사용자를 차례로 선택합니다. 완료되면 **저장**을 선택합니다. 아래 이미지에서는 해당 선택 내용을 보여 줍니다.
+모델을 게시하는 데 사용한 Azure 구독을 선택하고 **액세스 제어(IAM)** 를 선택합니다. 다음으로, **역할 할당 추가**, **독자** 역할, Power BI 사용자를 차례로 선택합니다. 완료되면 **저장**을 선택합니다. 아래 이미지에서는 해당 선택 내용을 보여 줍니다.
 
 ![Azure Portal 액세스 제어](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
@@ -84,7 +84,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 ![새 엔터티 추가](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_06.png)
 
-**Text/CSV 파일**을 데이터 원본으로 선택합니다.
+**텍스트/CSV 파일**을 데이터 원본으로 선택합니다.
 
 ![데이터 원본 선택](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_07.png)
 
@@ -94,15 +94,15 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 ![데이터 원본에 연결](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
-파워 쿼리 편집기는 CSV 파일의 데이터에 대한 미리 보기를 보여 줍니다. 명령 리본에서 **Transform Table**(테이블 변환)을 선택하고 **첫 행을 헤더로 사용**을 선택합니다. 오른쪽의 **Applied steps**(적용 단계) 창에 _승격된 헤더_ 쿼리 단계가 추가됩니다. 오른쪽 창을 사용하여 쿼리 이름을 _자동차 가격 책정_ 같은 친근한 이름으로 바꿀 수도 있습니다.
+파워 쿼리 편집기는 CSV 파일의 데이터에 대한 미리 보기를 보여 줍니다. 명령 리본에서 **테이블 변환**을 선택하고 **첫 행을 머리글로 사용**을 선택합니다.  오른쪽의 **적용된 단계** 창에 _승격된 헤더_ 쿼리 단계가 추가됩니다. 오른쪽 창을 사용하여 쿼리 이름을 _자동차 가격 책정_ 같은 친근한 이름으로 바꿀 수도 있습니다.
 
 ![Azure Portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
-원본 데이터 세트에 ‘?’로 설정된 알 수 없는 값이 있습니다.  이러한 값을 정리하도록 ‘?’를 ‘0’으로 바꿔 간단하게 나중에 오류가 발생하는 것을 방지할 수 있습니다.  이 작업을 수행하려면 열 헤더에서 해당 이름을 클릭하여 *normalized-losses*, *bore*, *stroke*, *compression-ratio*, *horsepower*, *peak-rpm* 및 *price* 열을 선택하고, 'Transform columns'(열 변환)를 클릭하고, '값 바꾸기'를 선택합니다.  ‘?’를 ‘0’으로 바꿉니다.
+원본 데이터 세트에 ‘?’로 설정된 알 수 없는 값이 있습니다.  이러한 값을 정리하도록 ‘?’를 ‘0’으로 바꿔 나중에 오류가 발생하는 것을 간단하게 방지할 수 있습니다.  이 작업을 수행하려면 열 머리글에서 해당 이름을 클릭하여 *normalized-losses*, *bore*, *stroke*, *compression-ratio*, *horsepower*, *peak-rpm* 및 *price* 열을 선택하고, '열 변환'을 클릭하고, '값 바꾸기'를 선택합니다.  ‘?’를 ‘0’으로 바꿉니다.
 
 ![값 바꾸기](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_10.png)
 
-Text/CSV 원본의 테이블에 있는 모든 열은 텍스트 열로 처리됩니다.  그런 다음, 숫자 열을 올바른 데이터 형식으로 변경해야 합니다.  이 작업은 파워 쿼리에서 열 헤더의 데이터 형식 기호를 클릭하여 수행할 수 있습니다.  해당 열을 다음 형식으로 변경합니다.
+텍스트/CSV 원본의 테이블에 있는 모든 열은 텍스트 열로 처리됩니다.  그런 다음, 숫자 열을 올바른 데이터 형식으로 변경해야 합니다.  이 작업은 파워 쿼리에서 열 머리글의 데이터 형식 기호를 클릭하여 수행할 수 있습니다.  해당 열을 다음 형식으로 변경합니다.
 
 - **정수**: symboling, normalized-losses, curb-weight, engine-size, horsepower, peak-rpm, city-mpg, highway-mpg, price
 - **10진수**: wheel-base, length, width, height, bore, stroke, compression-ratio
@@ -135,7 +135,7 @@ _자동차 가격 예측_에 대한 Azure ML 모델에 액세스하려면 예측
 
 ![편집](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_16.png)
 
-리본에서 **AI 인사이트** 단추를 선택하고 왼쪽 탐색 메뉴의 **Azure Machine Learning 모델** 폴더를 선택합니다. 
+리본에서 **AI 인사이트** 단추를 선택하고 왼쪽 탐색 메뉴의 _Azure Machine Learning 모델_ 폴더를 선택합니다.
 
 액세스 권한이 부여된 Azure ML 모델이 *AzureML* 접두사가 포함된 파워 쿼리 함수로 나열됩니다.  _AutomobilePricePrediction_ 모델에 해당하는 함수를 클릭하면 이 모델의 웹 서비스용 매개 변수가 함수 매개 변수로 나열됩니다.
 
@@ -157,7 +157,7 @@ _자동차 가격 예측_ 모델의 경우 입력 매개 변수는 다음과 같
 
 Azure ML 모델 출력 미리 보기를 엔터티 테이블에 새 열로 표시하려면 **호출**을 선택합니다. 모델 호출을 쿼리의 적용 단계로 표시할 수도 있습니다.
 
-모델 출력은 출력 열에 레코드로 표시됩니다. 이 열을 확장하여 별도의 열에 개별 출력 매개 변수를 생성할 수 있습니다. 여기서는 자동차 예측 가격이 포함된 _점수가 매겨진 레이블_에만 관심이 있습니다.  따라서 나머지를 선택 취소하고 **확인**을 선택합니다.
+모델 출력은 출력 열에 레코드로 표시됩니다. 이 열을 확장하여 별도의 열에 개별 출력 매개 변수를 생성할 수 있습니다. 여기서는 자동차 예측 가격이 포함된 _Scored Labels_에만 관심이 있습니다.  따라서 나머지를 선택 취소하고 **확인**을 선택합니다.
 
 ![모델 출력](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_18.png)
 
