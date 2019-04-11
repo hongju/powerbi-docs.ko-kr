@@ -240,6 +240,8 @@ items:
         href: desktop-what-if.md
       - name: 드릴스루 사용
         href: desktop-drillthrough.md
+      - name: 교차 보고서 드릴스루 사용
+        href: desktop-cross-report-drill-through.md
       - name: 상대 날짜 슬라이서 및 필터 사용
         href: visuals/desktop-slicer-filter-date-range.md
       - name: 그룹화 및 범주화 사용
@@ -278,6 +280,8 @@ items:
         href: power-bi-hyperlinks-in-tables.md
       - name: 조건부 테이블 서식 지정
         href: desktop-conditional-table-formatting.md
+      - name: 조건부 식 기반 제목 서식 지정
+        href: desktop-conditional-format-visual-titles.md
       - name: Power BI Desktop의 열 기준 정렬
         href: desktop-sort-by-column.md
       - name: 모바일 앱에 최적화된 보고서 만들기
@@ -1331,9 +1335,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 보안
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
-ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
+ms.openlocfilehash: 5943c0bb07142be76241c2d4ed415920c99bc382
+ms.sourcegitcommit: 42892c281c7b1682a02efb3613fc1a75530c4830
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "59053441"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59479291"
