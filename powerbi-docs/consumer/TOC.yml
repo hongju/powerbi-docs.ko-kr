@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: 일반적인 작업
       items:
+      - name: Excel로 데이터 내보내기
+        href: end-user-export.md
       - name: 콘텐츠 소유자 및 마지막으로 새로 고침 날짜 찾기
         href: end-user-fresh.md
       - name: 초점 및 전체 화면 모드를 사용하여 콘텐츠를 확대하는 다양한 방법
@@ -137,6 +139,8 @@ items:
         href: mobile/mobile-tiles-in-the-mobile-apps.md
       - name: 모바일 앱의 즐겨찾기
         href: mobile/mobile-apps-favorites.md
+      - name: 모바일 앱(전화 전용)에서 보고서 상호 작용 구성
+        href: mobile/mobile-app-single-tap.md
       - name: Power BI Mobile Apps에서 데이터 경고 설정
         href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
       - name: Power BI 모바일 앱에서 알림 가져오기
@@ -175,6 +179,8 @@ items:
         href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: 휴대폰에 최적화된 보고서 보기
         href: mobile/mobile-apps-view-phone-report.md
+      - name: 외부 조직에서 콘텐츠에 액세스
+        href: mobile/mobile-apps-b2b.md
       - name: 휴대폰에서 Power BI QR 코드 스캔
         href: mobile/mobile-apps-qr-code.md
       - name: 모바일 앱에서 주석 달기 및 공유
@@ -195,9 +201,9 @@ items:
     items:
     - name: 모바일 앱에서 지원되는 언어
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 6f9f080de3711a6a1a28f49da0298a67932d87e5
+ms.sourcegitcommit: c0add3d749f7e714e23824a742e105e694e4c129
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248979"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59430285"
