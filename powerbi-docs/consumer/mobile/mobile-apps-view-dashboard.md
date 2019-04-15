@@ -179,7 +179,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
     ![이동 경로](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-on-your-windows-10-phone"></a>Windows 10 휴대폰에서 가로 모드로 대시보드 보기
-또한 바로 전화를 돌려서 대시보드를 가로 모드로 볼 수 있습니다. 대시보드 레이아웃이 일련의 타일에서 전체 대시보드 보기로 변경됩니다. 대시보드의 모든 타일이 Power BI 서비스에서 볼 때처럼 배치됩니다.
+또한 바로 휴대폰을 돌려서 대시보드를 가로 모드로 볼 수 있습니다. 대시보드 레이아웃이 일련의 타일에서 전체 대시보드 보기로 변경됩니다. 대시보드의 모든 타일이 Power BI 서비스에서 볼 때처럼 배치됩니다.
 
 ![대시보드 가로 모드](./media/mobile-apps-view-dashboard/pbi_iph_landscape.png)
 
