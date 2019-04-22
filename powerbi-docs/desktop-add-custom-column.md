@@ -25,7 +25,7 @@ ms.locfileid: "54287189"
 사용자 지정 열을 만드는 작업은 **쿼리 편집기**에서 만든 쿼리에 대한 또 다른 **적용된 단계**입니다. 즉, 언제든지 변경하거나, 이전 또는 이후로 이동하거나, 수정할 수 있습니다.
 
 ## <a name="use-query-editor-to-add-a-new-custom-column"></a>쿼리 편집기를 사용하여 새 사용자 지정 열 추가
-새 사용자 지정 열을 만들려면 **쿼리 편집기**를 실행합니다. **Power BI Desktop**의 **홈** 리본에서 **쿼리 편집**을 선택하여 이 작업을 수행할 수 있습니다.
+새 사용자 지정 열을 만들려면 **쿼리 편집기**를 실행합니다. **Power BI Desktop**의 리본 메뉴 **홈** 탭에서 **쿼리 편집**을 선택하여 이 작업을 수행할 수 있습니다.
 
 ![](media/desktop-add-custom-column/add-column-from-example_02.png)
 

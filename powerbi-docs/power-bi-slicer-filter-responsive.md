@@ -47,7 +47,7 @@ ms.locfileid: "54288109"
 
 이 단계는 쉽습니다. 
 
-1. **형식** 탭의 **일반** 섹션에 있는 **방향** 바로 아래에서 **반응형**을 **켜기**로 밉니다.  
+1. **서식** 탭의 **일반** 섹션에 있는 **방향** 바로 아래에서 **반응형**을 **켜기**로 밉니다.  
 
     ![슬라이서가 이제 반응함](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 
