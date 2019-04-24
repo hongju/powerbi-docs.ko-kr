@@ -22,11 +22,11 @@ ms.locfileid: "54279346"
 
 ![데이터 흐름에 연결](media/desktop-connect-dataflows/connect-dataflows_01.png)
 
-**Power BI 데이터 흐름(베타)** 커넥터를 사용하면 Power BI 서비스의 데이터 흐름을 통해 만든 엔터티에 연결할 수 있습니다. 
+**Power BI 데이터 흐름** 커넥터를 사용하면 Power BI 서비스의 데이터 흐름을 통해 만든 엔터티에 연결할 수 있습니다. 
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-이 베타 버전의 **Power BI 데이터 흐름 커넥터**를 사용하려면 최신 버전의 **Power BI Desktop**을 실행해야 합니다. [Power BI Desktop](desktop-get-the-desktop.md)은 언제든지 다운로드하고 컴퓨터에 설치하여 가장 최신 버전인지 확인할 수 있습니다.  
+이 버전의 **Power BI 데이터 흐름 커넥터**를 사용하려면 최신 버전의 **Power BI Desktop**을 실행해야 합니다. [Power BI Desktop](desktop-get-the-desktop.md)은 언제든지 다운로드하고 컴퓨터에 설치하여 가장 최신 버전인지 확인할 수 있습니다.  
 
 > [!NOTE]
 > 이전 버전의 Power BI 데이터 흐름 커넥터에서는 .MEZ 파일을 다운로드하여 폴더에 저장해야 했습니다. 현재 버전의 **Power BI Desktop**에는 Power BI 데이터 흐름 커넥터가 포함되어 있으므로 해당 파일이 더 이상 필요하지 않으며 커넥터에 포함된 버전과 충돌을 일으킬 수 있습니다. .MEZ 파일을 폴더에 수동으로 저장한 경우 충돌을 방지하도록 **문서 > Power BI Desktop > 사용자 지정 커넥터** 폴더에서 다운로드한 .MEZ 파일을 삭제*해야* 합니다. 
