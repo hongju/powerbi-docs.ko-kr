@@ -1,6 +1,6 @@
 ---
 title: Power BI 서비스 - 소비자를 위한 기본 개념
-description: Power BI 서비스 앱, 작업 영역, 대시보드, 보고서, 데이터 집합 및 통합 문서입니다.
+description: Power BI 서비스 앱, 작업 영역, 대시보드, 보고서, 데이터 세트 및 통합 문서입니다.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
