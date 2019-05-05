@@ -87,7 +87,7 @@ URL [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments
 
 Power BI Desktop을 엽니다. 홈 리본에서 **데이터 가져오기**를 선택합니다.
 
-Power BI 섹션의 **Power BI 데이터 흐름(베타**)으로 이동하여 **연결**을 선택합니다.
+Power BI 섹션의 **Power BI 데이터 흐름**으로 이동하여 **연결**을 선택합니다.
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
@@ -147,19 +147,9 @@ in
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
-이미지 태그 지정 함수를 선택하고 열 필드에 _[이진]_, 문화권 정보 필드 _en_을 입력합니다. 
-
-> [!NOTE]
-> 현재는 드롭다운을 사용하여 열을 선택할 수 없습니다. 이 문제는 비공개 미리 보기 기간에 최대한 신속하게 해결될 것입니다.
+이미지 태그 지정 함수를 선택하고 열 필드에 _‘[이진]’_, 문화권 정보 필드 _‘en’_을 입력합니다. 
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_20.png)
-
-함수 편집기에서 열 이름을 묶는 따옴표를 제거합니다. 
-
-> [!NOTE]
-> 따옴표 제거는 임시 해결 방법이며 미리 보기 기간에 가능한 한 빠르게 해결될 것입니다.
-
-![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_21.png)
 
 함수는 쉼표로 구분된 형식의 태그와 json 레코드가 둘 다 포함된 레코드를 반환합니다. 확장 단추를 선택하여 둘 다 또는 둘 중 하나를 테이블에 열로 추가합니다.
 
