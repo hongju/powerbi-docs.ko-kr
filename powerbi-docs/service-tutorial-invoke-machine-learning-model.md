@@ -62,7 +62,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 이 단계에서는 Azure ML 모델을 사용하여 점수를 매길 데이터가 CSV 형식으로 있다고 가정합니다.  **자동차 가격 책정 실험**을 사용하여 Machine Learning Studio에서 모델을 만든 경우 아래 링크의 데이터 세트를 공유합니다.
 
-* [Azure Learning Studio 샘플 모델](https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
+* [Azure Learning Studio 샘플 모델](https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv)
 
 ### <a name="create-a-dataflow"></a>데이터 흐름 만들기
 
@@ -90,19 +90,19 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 다음 화면에는 데이터 원본에 연결할지 묻는 메시지가 표시됩니다. Azure ML 모델을 만드는 데 사용한 데이터에 대한 링크를 붙여넣습니다. _자동차 가격 책정_ 데이터를 사용한 경우 다음 링크를 **파일 경로 또는 URL** 상자에 붙여넣고 **다음**을 누릅니다.
 
-`https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv`
+`https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
 
 ![데이터 원본에 연결](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
-파워 쿼리 편집기는 CSV 파일의 데이터에 대한 미리 보기를 보여 줍니다. 명령 리본에서 **테이블 변환**을 선택하고 **첫 행을 머리글로 사용**을 선택합니다. 오른쪽의 **적용된 단계** 창에 _승격된 헤더_ 쿼리 단계가 추가됩니다. 오른쪽 창을 사용하여 쿼리 이름을 _자동차 가격 책정_ 같은 친근한 이름으로 바꿀 수도 있습니다.
+파워 쿼리 편집기는 CSV 파일의 데이터에 대한 미리 보기를 보여 줍니다. 명령 리본에서 **테이블 변환**을 선택하고 **첫 행을 머리글로 사용**을 선택합니다.  오른쪽의 **적용된 단계** 창에 _승격된 헤더_ 쿼리 단계가 추가됩니다. 오른쪽 창을 사용하여 쿼리 이름을 _자동차 가격 책정_ 같은 친근한 이름으로 바꿀 수도 있습니다.
 
 ![Azure Portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
-원본 데이터 세트에 ‘?’로 설정된 알 수 없는 값이 있습니다. 이러한 값을 정리하도록 ‘?’를 ‘0’으로 바꿔 나중에 오류가 발생하는 것을 간단하게 방지할 수 있습니다. 이 작업을 수행하려면 열 머리글에서 해당 이름을 클릭하여 *normalized-losses*, *bore*, *stroke*, *compression-ratio*, *horsepower*, *peak-rpm* 및 *price* 열을 선택하고, '열 변환'을 클릭하고, '값 바꾸기'를 선택합니다. ‘?’를 ‘0’으로 바꿉니다.
+원본 데이터 세트에 ‘?’로 설정된 알 수 없는 값이 있습니다.  이러한 값을 정리하도록 ‘?’를 ‘0’으로 바꿔 나중에 오류가 발생하는 것을 간단하게 방지할 수 있습니다.  이 작업을 수행하려면 열 머리글에서 해당 이름을 클릭하여 *normalized-losses*, *bore*, *stroke*, *compression-ratio*, *horsepower*, *peak-rpm* 및 *price* 열을 선택하고, '열 변환'을 클릭하고, '값 바꾸기'를 선택합니다.  ‘?’를 ‘0’으로 바꿉니다.
 
 ![값 바꾸기](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_10.png)
 
-텍스트/CSV 원본의 테이블에 있는 모든 열은 텍스트 열로 처리됩니다. 그런 다음, 숫자 열을 올바른 데이터 형식으로 변경해야 합니다. 이 작업은 파워 쿼리에서 열 머리글의 데이터 형식 기호를 클릭하여 수행할 수 있습니다. 해당 열을 다음 형식으로 변경합니다.
+텍스트/CSV 원본의 테이블에 있는 모든 열은 텍스트 열로 처리됩니다.  그런 다음, 숫자 열을 올바른 데이터 형식으로 변경해야 합니다.  이 작업은 파워 쿼리에서 열 머리글의 데이터 형식 기호를 클릭하여 수행할 수 있습니다.  해당 열을 다음 형식으로 변경합니다.
 
 - **정수**: symboling, normalized-losses, curb-weight, engine-size, horsepower, peak-rpm, city-mpg, highway-mpg, price
 - **10진수**: wheel-base, length, width, height, bore, stroke, compression-ratio
@@ -157,11 +157,11 @@ _자동차 가격 예측_ 모델의 경우 입력 매개 변수는 다음과 같
 
 Azure ML 모델 출력 미리 보기를 엔터티 테이블에 새 열로 표시하려면 **호출**을 선택합니다. 모델 호출을 쿼리의 적용 단계로 표시할 수도 있습니다.
 
-모델 출력은 출력 열에 레코드로 표시됩니다. 이 열을 확장하여 별도의 열에 개별 출력 매개 변수를 생성할 수 있습니다. 여기서는 자동차 예측 가격이 포함된 _Scored Labels_ 에만 관심이 있습니다. 따라서 나머지를 선택 취소하고 **확인**을 선택합니다.
+모델 출력은 출력 열에 레코드로 표시됩니다. 이 열을 확장하여 별도의 열에 개별 출력 매개 변수를 생성할 수 있습니다. 여기서는 자동차 예측 가격이 포함된 _Scored Labels_에만 관심이 있습니다.  따라서 나머지를 선택 취소하고 **확인**을 선택합니다.
 
 ![모델 출력](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_18.png)
 
-그러면 _Scored Labels_ 열에 Azure ML 모델의 가격 예측이 표시됩니다.
+그러면 _*Scored Labels*_ 열에 Azure ML 모델의 가격 예측이 표시됩니다.
 
 ![점수가 매겨진 레이블](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_19.png)
 
