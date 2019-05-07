@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/07/2019
+ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: 5af870bfd3cb6f9c925dd3d6268d0a1cb54df09b
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: c0cc6b19e69ebe6400d25b77c15cf577d765c415
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "65201181"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI용 백서
 
@@ -24,12 +24,12 @@ ms.locfileid: "57580016"
 | --- | --- | --- |
 | [Power BI 및 데이터 흐름](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| 이 백서에서는 데이터 흐름의 기술 정보를 자세히 설명하고 데이터 흐름의 특징 및 기능의 기반이 되는 역량과 이니셔티브를 설명합니다. | 2018년 11월 |
 | [Microsoft Power BI 프리미엄](https://aka.ms/pbipremiumwhitepaper) |시작될 때의 모습과 확대 방식 등, Power BI 프리미엄을 설명합니다. | 2017년 10월 |
-| [Power BI Premium 계획 및 배포](https://aka.ms/Premium-Capacity-Planning-Deployment)| 이 문서는 잘 정의된 워크로드를 위한 프리미엄 용량을 계획하고 배포하기 위한 지침과 모범 사례를 제공합니다.| 2017년 11월 |
+| [Power BI Premium 계획 및 배포](whitepaper-powerbi-premium-deployment.md)| 이 문서는 잘 정의된 워크로드를 위한 프리미엄 용량을 계획하고 배포하기 위한 지침과 모범 사례를 제공합니다.| 2019년 3월 |
 | [Power BI 프리미엄을 사용한 Embedded Analytics에 대한 용량 계획](https://aka.ms/pbiewhitepaper) |이 문서는 앱 개발자/ISV에게 해당 비즈니스에 대한 가장 적절한 용량을 결정하기 위한 지침을 제공합니다. | 2017년 10월 |
 | [Power BI Enterprise 배포 계획](https://go.microsoft.com/fwlink/?linkid=2057861) |이는 원활하게 작동하고 안전한 조직 Power BI 배포에 대한 고려 사항을 간략히 설명한 기술 백서입니다. | 2018년 7월 |
 | [Power BI 보고서 서버에 대한 용량 계획 지침](report-server/capacity-planning.md) |이 문서는 보고서 서버에 대한 다양한 워크로드의 다양한 부하 테스트 실행 결과를 공유하여 Power BI 보고서 서버의 용량 계획에 대한 지침을 제공하려고 합니다. | 2018년 3월 |
 | [보안](service-admin-power-bi-security.md) |Power BI 내 보안에 대한 자세한 설명을 제공합니다. | 2019년 3월 |
-| [Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포](whitepaper-azure-b2b-power-bi.md)|이 문서에서는 AAD B2B(Azure Active Directory Business-to-business)의 통합을 사용하여 콘텐츠를 조직 외부 사용자에게 배포하는 방법을 간략히 설명합니다.| 2018년 3월 |
+| [Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포](whitepaper-azure-b2b-power-bi.md)|이 문서에서는 AAD B2B(Azure Active Directory Business-to-business)의 통합을 사용하여 콘텐츠를 조직 외부 사용자에게 배포하는 방법을 간략히 설명합니다.| 2019년 3월 |
 | [Power BI를 사용한 고급 분석](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |예측 분석, 사용자 지정 시각화, R 통합 및 데이터 분석 식을 비롯한 Power BI의 고급 분석 기능을 설명합니다. | 2017년 2월 |
 | [보고서 및 시각적 개체에 대한 디자인 모범 사례](visuals/power-bi-visualization-best-practices.md) |Power BI 보고서 디자인에 대한 모범 사례를 제공합니다. | 2018년 6월 |
 | [양방향 필터링](desktop-bidirectional-filtering.md) |Power BI Desktop에서 양방향 교차 필터링에 대해 설명합니다(이 백서에서는 SQL Server Analysis Services 2016에 대해서도 다루며 둘 다 동작은 동일합니다). | 2018년 7월 |
