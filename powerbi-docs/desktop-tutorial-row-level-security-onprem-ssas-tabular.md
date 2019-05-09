@@ -107,7 +107,7 @@ ms.locfileid: "54292640"
 7. 이 보고서를 간단하게 유지하므로 지금 더 많은 열을 추가하지 않습니다. 좀 더 의미 있는 데이터 표현을 위해 시각화를 **도넛형 차트**로 변경합니다.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
-8. 보고서가 준비되면 Power BI 포털에 직접 게시할 수 있습니다. **Power BI Desktop**의 **홈** 리본에서 **게시**를 선택합니다.
+8. 보고서가 준비되면 Power BI 포털에 직접 게시할 수 있습니다. **Power BI Desktop**의 리본 메뉴 **홈** 탭에서 **게시**를 선택합니다.
 
 ## <a name="task-5-creating-and-sharing-a-dashboard"></a>작업 5: 대시보드 만들기 및 공유
 1. 보고서를 만들고 **Power BI Desktop**에서 **게시**를 클릭했으므로 보고서는 **Power BI** 서비스에 게시됩니다. 이제 서비스 중이므로 이전 단계에서 만든 예제를 사용하여 모델 보안 시나리오를 설명할 수 있습니다.
