@@ -112,21 +112,21 @@ Will이 몇 가지 다른 ArcGIS 지도 시각화를 만드는 것을 지켜본 
 
 ## <a name="features-overview"></a>기능 개요
 ### <a name="base-maps"></a>기본 지도
-4개 기본 지도, 즉 진한 회색 캔버스, 연한 회색 캔버스, OpenStreetMap 및 거리 지도가 제공됩니다.  거리는 ArcGIS의 표준 기본 지도입니다.
+4개 기본 지도, 즉 진한 회색 캔버스, 연한 회색 캔버스, OpenStreetMap 및 도로 지도가 제공됩니다.  도로는 ArcGIS의 표준 기본 지도입니다.
 
 기본 지도를 적용하려면 작업 창에서 선택합니다.
 
 ![](media/power-bi-visualization-arcgis/power-bi-esri-base-maps-new.png)
 
 ### <a name="location-type"></a>위치 유형
-Power BI용 ArgGIS Maps는 자동으로 가장 적절한 방법을 감지하여 지도에 데이터를 표시합니다. 데이터를 표시하려면 요소 또는 경계에서 선택합니다. 위치 유형 옵션을 사용하면 이러한 선택을 자세히 조정할 수 있습니다.
+Power BI용 ArgGIS Maps는 자동으로 가장 적절한 방법을 감지하여 지도에 데이터를 표시합니다. 데이터를 표시하려면 포인트 또는 경계에서 선택합니다. 위치 유형 옵션을 사용하면 이러한 선택을 자세히 조정할 수 있습니다.
 
 ![](media/power-bi-visualization-arcgis/power-bi-esri-location-types-new.png)
 
 **경계**는 표준 지리적 값이 데이터에 포함된 경우에만 작동됩니다. Esri는 지도에 표시할 도형을 자동으로 해석합니다. 표준 지리적 값에는 국가, 지방, 우편 번호 등이 포함됩니다. 하지만 지오코딩과 마찬가지로 Power BI에서도 기본적으로 경계인 필드인지 또는 데이터에 적합한 경계를 가지고 있는지를 자동으로 감지할 수 없습니다.  
 
 ### <a name="map-theme"></a>지도 테마
-4 개 지도 테마가 제공됩니다. 위치에 바인딩한 필드에 기반하여 위치 전용 및 크기 테마가 자동으로 선택되고 Power BI 필드 창에서 **크기** 버킷에 추가됩니다. 여기서는 **열 지도**로 변경하기 위해 **크기**를 사용하겠습니다.  
+4 개 지도 테마가 제공됩니다. 위치에 바인딩한 필드에 기반하여 위치 전용 및 크기 테마가 자동으로 선택되고 Power BI 필드 창에서 **크기** 버킷에 추가됩니다. 여기서는 **열 지도(히트 맵)**로 변경하기 위해 **크기**를 사용하겠습니다.  
 
 ![](media/power-bi-visualization-arcgis/power-bi-esri-map-theme-new.png)
 
