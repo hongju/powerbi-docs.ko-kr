@@ -27,11 +27,11 @@ Power BI Desktop에서는 열의 [지리 데이터 범주](desktop-data-categori
 > 
 
 ## <a name="identify-geographic-data-in-your-report"></a>보고서에서 지리적 데이터 식별
-1. Power BI Desktop에서 데이터 보기로 전환 ![데이터 보기 아이콘](media/desktop-mobile-geofiltering/pbi_desktop_data_icon.png).
+1. Power BI Desktop에서 데이터( ![데이터 보기 아이콘](media/desktop-mobile-geofiltering/pbi_desktop_data_icon.png)) 보기로 전환합니다.
 2. 지리적 데이터(예: City 열)로 열을 선택합니다.
    
     ![City 열](media/desktop-mobile-geofiltering/power-bi-desktop-geo-column.png)
-3. **모델링** 탭에서 **데이터 범주**, 올바른 범주(이 예에서는 **City**)를 선택합니다.
+3. **모델링** 탭에서 **데이터 범주**의 올바른 범주(이 예에서는 **City**)를 선택합니다.
    
     ![데이터 범주 상자](media/desktop-mobile-geofiltering/power-bi-desktop-geo-category.png)
 4. 이 모델의 다른 필드에 대한 지리적 데이터 범주 설정을 계속합니다. 
@@ -42,7 +42,7 @@ Power BI Desktop에서는 열의 [지리 데이터 범주](desktop-data-categori
    > 
 
 ## <a name="create-visuals-with-your-geographic-data"></a>지리적 데이터를 사용하여 시각적 개체 만들기
-1. 보고서 보기로 전환 ![보고서 보기 아이콘](media/desktop-mobile-geofiltering/power-bi-desktop-report-icon.png)하고 데이터의 지리적 필드를 사용하는 시각적 개체를 만듭니다. 
+1. 보고서 보기( ![보고서 보기 아이콘](media/desktop-mobile-geofiltering/power-bi-desktop-report-icon.png))로 전환하고 데이터의 지리적 필드를 사용하는 시각적 개체를 만듭니다. 
    
     ![지도 있는 보고서](media/desktop-mobile-geofiltering/power-bi-desktop-geo-report.png)
    
