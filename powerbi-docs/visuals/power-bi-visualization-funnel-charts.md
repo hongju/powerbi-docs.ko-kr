@@ -55,7 +55,7 @@ ms.locfileid: "54289627"
 
 이러한 지침에서는 영업 기회 분석 샘플을 사용합니다. 이를 수행하려면 Power BI 서비스(app.powerbi.com) 또는 Power BI Desktop에 대한 [샘플을 다운로드](../sample-datasets.md)합니다.   
 
-1. 빈 보고서 페이지에서 시작하고 **SalesStage** \> **영업 단계** 필드를 선택합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
+1. 빈 보고서 페이지에서 시작하고 **SalesStage** \> **Sales Stage** 필드를 선택합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
    
     ![판매 단계 선택](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [차트를 깔때기로 변환](power-bi-report-change-visualization-type.md)합니다. **Sales Stage** 가 **그룹** 에 있습니다. 
