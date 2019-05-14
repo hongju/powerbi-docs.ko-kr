@@ -41,7 +41,7 @@ ms.locfileid: "54420789"
 
 **Power BI Desktop**을 사용하면 다양한 형식의 데이터에 연결할 수 있습니다. Microsoft Excel 파일과 같은 기본 데이터 원본에 연결할 수 있고 Salesforce, Microsoft Dynamics, Azure Blob Storage 등의 모든 데이터 종류를 포함하는 온라인 서비스에 연결할 수 있습니다.
 
-데이터에 연결하려면 **홈** 리본에서 **데이터 가져오기**를 선택합니다.
+데이터에 연결하려면 리본 메뉴 **홈** 탭에서 **데이터 가져오기**를 선택합니다.
 
 ![데이터 가져오기](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
