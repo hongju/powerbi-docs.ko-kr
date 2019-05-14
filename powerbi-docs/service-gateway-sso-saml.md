@@ -10,18 +10,18 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
+ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306507"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "65533694"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 SAML(Security Assertion Markup Language)을 사용합니다.
 
 SAML([Security Assertion Markup Language](https://www.onelogin.com/pages/saml))을 사용하여 원활한 Single Sign-On 연결을 구현합니다. SSO를 사용하도록 설정하면 Power BI 보고서 및 대시보드가 온-프레미스 원본의 데이터를 손쉽게 새로 고칠 수 있습니다.
 
-## <a name="supported-data-sources"></a>지원되는 데이터 원본
+## <a name="supported-data-sources"></a>지원 되는 데이터 원본
 
 현재 SAML을 사용하는 SAP HANA가 지원됩니다. SAML을 사용하는 SAP HANA에 Single Sign-On을 설정하고 구성하는 방법에 대한 자세한 내용은 SAP HANA 설명서의 [BI 플랫폼에서 HANA로 SAML SSO 연결](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA) 항목을 참조하세요.
 
@@ -75,7 +75,7 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
     ![SAML 구성](media/service-gateway-sso-saml/configure-saml.png)
 
-1. 2단계에서 만든 ID 공급자를 선택합니다. **외부 ID**에 Power BI 사용자의 UPN을 입력한 다음, **추가**를 선택합니다.
+1. 2단계에서 만든 ID 공급자를 선택합니다. 에 대 한 **외부 Id**Power BI 사용자의 UPN (일반적으로 전자 메일 주소는 사용자가 Power BI에 로그인)를 입력 하 고 선택 **추가**합니다. Note ADUserNameReplacementProperty 구성 옵션을 사용 하 여 게이트웨이 구성한 경우 Power BI 사용자의 원래 UPN는 대체 하는 값을 입력 해야 합니다. 예를 들어 SAMAccountName을는 ADUserNameReplacementProperty를 설정 하면 사용자의 SAMAccountName을 입력 해야 합니다.
 
     ![ID 공급자 선택](media/service-gateway-sso-saml/select-identity-provider.png)
 
@@ -179,7 +179,7 @@ SSO를 구성한 후 Power BI 포털에 다음 오류가 표시될 수 있습니
 
 **온-프레미스 데이터 게이트웨이** 및 **DirectQuery**에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
-* [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)
+* [On-premises data gateway (온-프레미스 데이터 게이트웨이)](service-gateway-onprem.md)
 * [Power BI의 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
 * [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)
