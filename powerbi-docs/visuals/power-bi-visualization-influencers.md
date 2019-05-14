@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.component: powerbi-service
+ms.component: powerbi-visuals
 ms.topic: tutorial
 ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1f55a12e306af8a28e297e9feab2f2c0ae0cd60b
-ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
+ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57461675"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426795"
 ---
 # <a name="key-influencers-visualization"></a>주요 영향 요인 시각화
 주요 영향 요인 시각적 개체는 관심 있는 메트릭을 구동하는 요소를 이해하도록 도와줍니다. 데이터를 분석하고 중요한 요소의 순위를 정하며 이를 주요 요인으로 표시합니다. 예를 들어 직원 전직률(변동)에 영향을 미치는 요인을 알아내는 데 관심이 있습니다. 한 가지 요소는 고용 계약 기간일 수도 있고 또 다른 요소는 직원 연령일 수도 있습니다. 
@@ -72,7 +72,7 @@ ms.locfileid: "57461675"
     - 구독 유형 
     - 회사 규모 
     - 테마     
-4. 부정적인 등급에 관심이 있으므로 **등급에 영향을 주는 항목**에 대한 드롭다운에서 **낮음**을 선택합니다.  
+4. 부정적인 등급에 관심이 있으므로 **등급에 영향을 주는 요인**에 대한 드롭다운에서 **낮음**을 선택합니다.  
 
     ![드롭다운에서 낮음을 선택합니다.](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
 
@@ -268,7 +268,7 @@ AI 시각화는 범주 분석에 최적화되어 있습니다(예: 이탈이 ‘
 
 시각화는 모든 설명 요소를 함께 평가합니다. 이는 요소 자체가 영향 요인이 될 수 있지만, 다른 요소와 비교될 때 영향 요인이 아닐 수 있다는 것을 의미합니다. 침실과 집 크기를 설명 요소로서 주택 가격을 높이는 것으로 분석한다고 가정해 보겠습니다. 
 - 그 자체로 더 많은 침실이 주택 가격을 높이는 것이 될 수 있습니다. 
-- 분석에 집 크기를 포함한다는 것은 이제 집 크기를 일정하게 유지하면서 침실에 분석 대상을 살펴본다는 의미합니다. 
+- 분석에 집 크기를 포함한다는 것은 이제 집 크기를 일정하게 유지하면서 침실을 살펴본다는 것을 의미합니다. 
 - 집의 크기를 1500sq로 고정하는 경우 침실의 수를 계속 늘려도 주택 가격은 급격히 상승할 가능성은 낮습니다. 침실은 집 크기를 고려하기 전 만큼 중요한 요소가 아닐 수 있기 때문입니다. 
 
 

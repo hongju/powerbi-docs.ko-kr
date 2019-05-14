@@ -50,7 +50,7 @@ ms.locfileid: "54285763"
 ![파워 쿼리 편집기](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
    
 >[!NOTE]
->Power BI Desktop의 **홈** 리본에서 **쿼리 편집** > **쿼리 편집**을 선택하거나, **보고서 보기**에서 쿼리 옆에 있는 **추가 옵션**을 마우스 오른쪽 단추로 클릭하거나 선택하고 **쿼리 편집**을 선택하여 **파워 쿼리 편집기**를 열 수도 있습니다.
+>Power BI Desktop의 리본 메뉴 **홈** 리본에서 **쿼리 편집** > **쿼리 편집**을 선택하거나, **보고서 보기**에서 쿼리 옆에 있는 **추가 옵션**을 마우스 오른쪽 단추로 클릭하거나 선택하고 **쿼리 편집**을 선택하여 **파워 쿼리 편집기**를 열 수도 있습니다.
 
 ## <a name="clean-up-the-products-columns"></a>제품 열 정리
 

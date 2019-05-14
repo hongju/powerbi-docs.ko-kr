@@ -43,7 +43,9 @@ Power BI Desktop의 **쿼리 편집기** 에서는 오른쪽 클릭 메뉴와 �
 
 웹 데이터 원본에 연결하여 찾은 [Power BI Desktop 시작](desktop-getting-started.md)의 은퇴 데이터를 사용하여 요구 사항에 맞게 데이터를 셰이핑하겠습니다.
 
+
 먼저 사용자 지정 열을 추가하여 같은 요소인 모든 데이터를 기반으로 순위를 계산하고 이 순위를 기존 열 ‘순위’와 비교해 보겠습니다. 리본 메뉴 **열 추가** 탭에서 **사용자 지정 열** 단추를 가리키는 화살표를 사용하여 사용자 지정 열을 추가할 수 있습니다.
+
 
 ![](media/desktop-shape-and-combine-data/shapecombine_customcolumn.png)
 
