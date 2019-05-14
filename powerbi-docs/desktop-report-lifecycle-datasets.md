@@ -54,7 +54,7 @@ Anna가 자신의 보고서를 만들면(그리고 이를 기반으로 데이터
 **Power BI 서비스 라이브 연결**이 얼마나 유용한지, 보고서 수명 주기 관리를 위한 모범 사례로 활용하는 방법을 알았으므로, 이제 Anna의 훌륭한 보고서(및 데이터 세트)부터 Power BI 작업 영역에서 팀 구성원이 사용할 수 있는 공유 데이터 세트까지 과정을 살펴보겠습니다.
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>Power BI 보고서 및 데이터 세트 게시
-**Power BI 서비스 라이브 연결**을 사용하여 보고서 수명 주기를 관리하는 첫 번째 단계는 팀 구성원이 사용하려는 보고서(및 데이터 세트)를 보유하는 것입니다. 따라서 Anna는 먼저 **Power BI Destkop**에서 자신의 보고서를 **게시**해야 합니다. Power BI Desktop의 **홈** 리본에서 **게시**를 선택하여 이 작업을 수행합니다.
+**Power BI 서비스 라이브 연결**을 사용하여 보고서 수명 주기를 관리하는 첫 번째 단계는 팀 구성원이 사용하려는 보고서(및 데이터 세트)를 보유하는 것입니다. 따라서 Anna는 먼저 **Power BI Destkop**에서 자신의 보고서를 **게시**해야 합니다. Power BI Desktop의 리본 메뉴 **홈** 탭에서 **게시**를 선택하여 이 작업을 수행합니다.
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
@@ -77,7 +77,7 @@ Anna가 자신의 보고서를 만들면(그리고 이를 기반으로 데이터
 다음으로, 보고서(및 데이터 세트)가 게시된 작업 영역에 대한 액세스 권한이 있는 다른 팀 구성원이 데이터 세트에 연결하여 자신의 고유한 보고서를 작성하는 방법을 알아보겠습니다.
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>게시된 데이터 세트에 Power BI 서비스 라이브 연결 설정
-게시된 보고서에 연결을 설정하고 게시된 데이터 세트를 토대로 사용자 고유의 보고서를 만들려면 **Power BI Desktop**의 **홈** 리본에서 **데이터 가져오기**를 선택하고 **Power BI 데이터 집합**을 선택합니다. **데이터 가져오기 > Power BI > Power BI 데이터 집합**에서도 선택할 수 있습니다.
+게시된 보고서에 연결을 설정하고 게시된 데이터 세트를 토대로 사용자 고유의 보고서를 만들려면 **Power BI Desktop**의 리본 메뉴 **홈** 리본에서 **데이터 가져오기**를 선택하고 **Power BI 데이터 집합**을 선택합니다. **데이터 가져오기 > Power BI > Power BI 데이터 집합**에서도 선택할 수 있습니다.
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_08.png)
 
