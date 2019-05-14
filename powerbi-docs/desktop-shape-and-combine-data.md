@@ -77,7 +77,7 @@ Power BI Desktop의 **쿼리 편집기** 에서는 오른쪽 클릭 메뉴와 �
 * ‘데이터 바꾸기’ - 특정 값을 바꾸는 방법 및 **적용된 단계**를 삽입할 필요성을 강조 표시합니다.
 * ‘테이블 이름 변경’ – **Table 0**은 유용한 설명자가 아니지만 간단하게 변경할 수 있습니다.
 
-**Cost of living** 열을 제거하려면 다음 그림과 같이 해당 열을 선택하고 리본  **홈** 탭을 선택한 다음, **열 제거**를 선택하면 됩니다.
+**Cost of living** 열을 제거하려면 다음 그림과 같이 해당 열을 선택하고 리본의 **홈** 탭을 선택한 다음, **열 제거**를 선택하면 됩니다.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
