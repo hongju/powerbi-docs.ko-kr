@@ -112,7 +112,7 @@ Will이 몇 가지 다른 ArcGIS 지도 시각화를 만드는 것을 지켜본 
 
 ## <a name="features-overview"></a>기능 개요
 ### <a name="base-maps"></a>기본 지도
-4개 기본 지도, 즉 진한 회색 캔버스, 연한 회색 캔버스, OpenStreetMap 및 도로 지도가 제공됩니다.  도로는 ArcGIS의 표준 기본 지도입니다.
+4개의 기본 지도, 즉 진한 회색 캔버스, 연한 회색 캔버스, OpenStreetMap 및 도로 지도가 제공됩니다. 도로는 ArcGIS의 표준 기본 지도입니다.
 
 기본 지도를 적용하려면 작업 창에서 선택합니다.
 
