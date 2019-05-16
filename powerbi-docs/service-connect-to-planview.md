@@ -52,7 +52,7 @@ Power BI용 Planview Enterprise 콘텐츠 팩을 사용하여 리소스를 시�
 ## <a name="system-requirements"></a>시스템 요구 사항
 Power BI로 Planview Enterprise 데이터를 가져오려면 역할에 사용할 수 있는 보고 포털 뷰어가 있는 Planview Enterprise 사용자여야 합니다. 아래의 추가 요구 사항을 참조하세요.
 
-이 절차에서는 Power BI 계정을 사용하여 Microsoft Power BI 홈 페이지에 이미 로그인했다고 가정합니다. Power BI 계정이 없는 경우 [powerbi.com](https://powerbi.microsoft.com/get-started/)으로 이동하여  **Power BI - 클라우드 공동 작업 및 공유**에서 **무료 체험**을 선택합니다. 그런 다음, **데이터 가져오기**를 클릭합니다.
+이 절차에서는 Power BI 계정을 사용하여 Microsoft Power BI 홈 페이지에 이미 로그인했다고 가정합니다. Power BI 계정이 없는 경우 [powerbi.com](https://powerbi.microsoft.com/get-started/)으로 이동하여  **Power BI - 클라우드 협업 및 공유**에서 **무료 체험**을 선택합니다. 그런 다음, **데이터 가져오기**를 클릭합니다.
 
 ## <a name="next-steps"></a>다음 단계:
 

@@ -36,7 +36,7 @@ Power BI Desktop에서 Power BI 보고서를 만들고 게시합니다.
 iOS용 Power BI 앱은 iOS 10 이상이 설치된 iPhone 5 이상에서 실행할 수 있습니다. iOS 10 이상이 설치된 iPad 또는 iPod Touch에서도 실행할 수 있습니다. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI 서비스에 등록
-등록하지 않은 경우 [powerbi.com](https://powerbi.microsoft.com/get-started/)으로 이동하여 **Power BI - 클라우드 공동 작업 및 공유**에서 **무료 체험**을 선택합니다.
+등록하지 않은 경우 [powerbi.com](https://powerbi.microsoft.com/get-started/)으로 이동하여 **Power BI - 클라우드 협업 및 공유**에서 **무료 체험**을 선택합니다.
 
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 앱 시작

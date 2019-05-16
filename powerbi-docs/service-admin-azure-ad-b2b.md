@@ -55,7 +55,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 1. **초대**를 선택합니다.
 
-여러 명의 게스트 사용자를 초대하려면 PowerShell을 사용합니다. 자세한 내용은 [Azure AD B2B 공동 작업 코드 및 PowerShell 샘플](/azure/active-directory/b2b/code-samples/)을 참조하세요.
+여러 명의 게스트 사용자를 초대하려면 PowerShell을 사용합니다. 자세한 내용은 [Azure AD B2B 협업 코드 및 PowerShell 샘플](/azure/active-directory/b2b/code-samples/)을 참조하세요.
 
 게스트 사용자는 받은 이메일 초대에서 **시작**을 선택해야 합니다. 그러면 게스트 사용자가 테넌트에 추가됩니다.
 
@@ -137,4 +137,4 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 행 수준 보안 작동 방식 등을 포함한 자세한 내용은 다음 백서를 참조하세요. [Azure AD B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포](https://aka.ms/powerbi-b2b-whitepaper).
 
-Azure AD B2B에 대한 자세한 내용은 [Azure AD B2B 공동 작업이란?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/)을 참조하세요.
+Azure AD B2B에 대한 자세한 내용은 [Azure AD B2B 협업이란?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/)을 참조하세요.

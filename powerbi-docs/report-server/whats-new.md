@@ -341,7 +341,7 @@ Power BI Report Server는 이제 새 Power BI 테이블 및 행렬 시각적 개
   * 사용자 지정 시각적 개체에 대한 지원
   * 앞으로 더 많은 데이터 원본을 사용하여 **Analysis Services 라이브 연결**에 대해 지원합니다.
   * Power BI Report Server에서 호스팅되는 Power BI 보고서를 표시하도록 업데이트된 Power BI 모바일 앱
-* 주석을 사용하여 보고서에서 공동 작업 향상
+* 주석을 사용하여 보고서에서 협업 향상
 
 ## <a name="next-steps"></a>다음 단계
 
