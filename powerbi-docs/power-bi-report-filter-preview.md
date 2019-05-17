@@ -37,7 +37,7 @@ ms.locfileid: "56298825"
 
 ## <a name="turn-on-the-new-filter-experience"></a>새 필터 환경 설정 
 
-Power BI Desktop에서 새 환경을 사용하도록 설정합니다. 그런 다음, 보고서나 Power BI 서비스(https://app.powerbi.com))에서 필터를 수정할 수 있습니다. 이 새 필터 환경은 미리 보기로 제공되므로 먼저 Power BI Desktop에서 사용하도록 설정해야 합니다. Power BI 서비스에서 보고서를 만들어 시작하면 새 필터를 사용할 수 없습니다.
+Power BI Desktop에서 새 환경을 사용하도록 설정합니다. 그런 다음, 보고서나 Power BI 서비스(https://app.powerbi.com)에서 필터를 수정할 수 있습니다. 이 새 필터 환경은 미리 보기로 제공되므로 먼저 Power BI Desktop에서 사용하도록 설정해야 합니다. Power BI 서비스에서 보고서를 만들어 시작하면 새 필터를 사용할 수 없습니다.
 
 ### <a name="turn-on-new-filters-for-all-new-reports"></a>모든 새 보고서에 대해 새 필터 설정
 
