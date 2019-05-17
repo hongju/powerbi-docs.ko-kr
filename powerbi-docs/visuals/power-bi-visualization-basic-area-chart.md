@@ -52,7 +52,7 @@ ms.locfileid: "54276126"
 
    ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  **시간\> 월**을 선택하여 **축** 웰에 추가합니다.   
+   c.  **시간\> 월**을 선택하여 **축** 영역에 추가합니다.   
    ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    d.  월별 차트를 표시하려면 줄임표(시각적 개체의 오른쪽 위 모서리)를 선택 하고 **월별 정렬**을 선택합니다. 정렬 순서를 변경하려면 줄임표를 다시 선택하고 **오름차순 정렬** 또는 **내림차순 정렬**을 선택합니다.
