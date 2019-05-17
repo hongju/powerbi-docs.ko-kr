@@ -48,11 +48,11 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 3. 새 보고서 페이지를 추가합니다.
 4. 올해의 판매액 및 총 수익을 월별로 표시하는 세로 막대형 차트를 만듭니다.
 
-    a.  필드 창에서 **Sales** \> **This Year Sales** > **Values**을 선택합니다.
+    a. 필드 창에서 **Sales** \> **This Year Sales** > **Values**를 선택합니다.
 
     b.  **Sales** \> **Gross Margin This Year**을 **값** 영역에 끌어다 놓습니다.
 
-    c.  **Date** \> **FiscalMonth**을 선택하여 **축** 영역에 추가합니다.
+    c. **Date** \> **FiscalMonth**를 선택하여 **축** 영역에 추가합니다.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. 시각화의 오른쪽 위 모서리에 있는 줄임표(...)를 선택하고 **정렬 기준 > FiscalMonth**를 선택합니다. 정렬 순서를 변경하려면 줄임표를 다시 선택하고 **오름차순 정렬** 또는 **내림차순 정렬**을 선택합니다.
@@ -60,7 +60,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 6. 세로 막대형 차트를 콤보 차트로 변환합니다. 사용 가능한 두 가지 콤보 차트는 다음과 같습니다. **꺾은선형 및 누적 세로 막대형** 및 **꺾은선형 및 묶은 세로 막대형**. 세로 막대형 차트를 선택한 상태로 **시각화** 창에서 **꺾은선형 및 묶은 세로 막대형 차트**를 선택합니다.
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
-7. **필드** 창에서 **Sales** \> **Last Year Sales**을 **꺾은선형 값** 버킷으로 끌어다 놓습니다.
+7. **필드** 창에서 **Sales** \> **Last Year Sales**를 **꺾은선형 값** 버킷으로 끌어다 놓습니다.
 
    ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 
@@ -71,17 +71,17 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 ## <a name="create-a-combo-chart-with-two-axes"></a>두 개의 축이 있는 콤보 차트 만들기
 이 작업에서는 총 수익과 매출을 비교하겠습니다.
 
-1. **월별** **Gross Margin Last Year(%)** 을 추적하는 새로운 꺾은선형 차트를 만듭니다. **월별** 및 **오름차순** 기준으로 정렬하려면 줄임표를 선택합니다.  
+1. **월별** **Gross Margin Last Year(%)**을 추적하는 새로운 꺾은선형 차트를 만듭니다. **월별** 및 **오름차순** 기준으로 정렬하려면 줄임표를 선택합니다. 
 1월에는 GM%가 35%였고, 4월에 45% 고점에 도달했으며, 7월에 감소하고, 8월에 다시 고점에 도달했습니다. 작년과 금년의 매출 패턴이 유사할까요?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
-2. **This Year Sales > Value** 및 **Last Year Sales**를 꺾은선형 차트에 추가합니다. **Gross Margin Last Year(%)** 의 눈금은 **Sales** 눈금보다 훨씬 작기 때문에 비교하기가 어렵습니다.      
+1. **월별** **Gross Margin Last Year(%)** 을 추적하는 새로운 꺾은선형 차트를 만듭니다. **월별** 및 **오름차순** 기준으로 정렬하려면 줄임표를 선택합니다.   
 
    ![](media/power-bi-visualization-combo-chart/flatline_new.png)
 3. 보다 쉽게 읽고 해석 가능한 시각적 개체를 만들려면 꺾은선형 차트를 꺾은선형 및 누적 세로 막대형 차트로 변환합니다.
 
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. **Gross Margin Last Year(%)** 을 **세로 막대 값**에서 **꺾은선형 값**으로 끌어다 놓습니다. Power BI가 두 개의 축을 만들기 때문에 데이터 세트의 크기를 다르게 조정할 수 있습니다. 왼쪽은 판매액(달러)을 측정하고, 오른쪽은 백분율을 측정합니다. 질문에 대한 답변이 표시됩니다. 유사한 패턴이 확인됩니다.
+4. **Gross Margin Last Year(%)**을 **세로 막대 값**에서 **꺾은선형 값**으로 끌어다 놓습니다. Power BI가 두 개의 축을 만들기 때문에 데이터 세트의 크기를 다르게 조정할 수 있습니다. 왼쪽은 판매액(달러)을 측정하고, 오른쪽은 백분율을 측정합니다. 질문에 대한 답변이 보입니다. 즉, 유사한 패턴이 확인됩니다.
 
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
