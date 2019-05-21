@@ -26,7 +26,7 @@ Power BI Desktop에서 **Snowflake** 컴퓨팅 웨어하우스에 연결하고 P
 > 
 
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Snowflake 컴퓨팅 웨어하우스에 연결
-**Snowflake** 컴퓨팅 웨어하우스에 연결하려면 Power BI Desktop의 **홈** 리본 메뉴에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **데이터베이스**를 선택하면 **Snowflake**가 표시됩니다.
+**Snowflake** 컴퓨팅 웨어하우스에 연결하려면 Power BI Desktop의 리본 메뉴 **홈** 탭에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **데이터베이스**를 선택하면 **Snowflake**가 표시됩니다.
 
 ![](media/desktop-connect-snowflake/connect_snowflake_2b.png)
 
