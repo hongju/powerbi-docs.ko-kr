@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 79789e4a90167e440f859e73048e5972d2a5aacb
+ms.sourcegitcommit: 2df541facab8a1621953e91dbbee18c7d4e9a3c3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "64863637"
+---
 ## <a name="sign-in-account"></a>로그인 계정
 
 사용자는 회사 또는 학교 계정으로 로그인합니다. 이 계정은 **조직 계정**입니다. Office 365 제품에 로그인하였고 실제 직장 전자 메일을 입력하지 않은 경우 nancy@contoso.onmicrosoft.com처럼 보일 수 있습니다. 계정은 AAD(Azure Active Directory)의 테넌트 내에 저장됩니다. 대부분의 경우에서 AAD 계정의 UPN은 전자 메일 주소와 일치합니다.
@@ -15,29 +23,31 @@
 
 게이트웨이는 Azure 서비스 버스에 대한 아웃바운드 연결을 만듭니다. 아웃바운드 포트에서 통신합니다. TCP 443(기본값), 5671, 5672, 9350~9354.  게이트웨이에는 인바운드 포트가 필요하지 않습니다.
 
-방화벽에, 데이터 영역에 대한, IP 주소 허용 목록을 작성하는 것이 좋습니다. 매주 업데이트되는 [Microsoft Azure 데이터 센터 IP 목록](https://www.microsoft.com/download/details.aspx?id=41653)을 다운로드할 수 있습니다. 게이트웨이는 정규화된 도메인 이름(FQDN)과 함께 IP 주소를 사용하여 Azure Service Bus와 통신합니다. 게이트웨이가 HTTPS를 사용하여 통신하도록 강제 적용하는 경우 엄격하게 FQDN만을 사용하며 IP 주소를 사용하여 통신이 발생하지 않습니다.
+방화벽에, 데이터 영역에 대한, IP 주소 허용 목록을 작성하는 것이 좋습니다. 매주 업데이트되는 [Microsoft Azure 데이터 센터 IP 목록](https://www.microsoft.com/download/details.aspx?id=41653)을 다운로드할 수 있습니다. 또는 온-프레미스 데이터 게이트웨이 애플리케이션에서 [네트워크 포트 테스트](../service-gateway-onprem-tshoot.md#network-ports-test)를 수행하여 필요한 포트 목록을 얻을 수 있습니다. 게이트웨이는 정규화된 도메인 이름(FQDN)과 함께 IP 주소를 사용하여 Azure Service Bus와 통신합니다. 게이트웨이가 HTTPS를 사용하여 통신하도록 강제 적용하는 경우 엄격하게 FQDN만을 사용하며 IP 주소를 사용하여 통신이 발생하지 않습니다.
+
 
 > [!NOTE]
 > Azure 데이터 센터 IP 목록에 나열되는 IP 주소는 CIDR 표기법 형식입니다. 예를 들어, 10.0.0.0/24는 10.0.0.0에서 10.0.0.24까지를 의미하지 않습니다. [CIDR 표기법](http://whatismyipaddress.com/cidr)에 대해 자세히 알아보세요.
 
 게이트웨이에 사용되는 정규화된 도메인 이름의 목록입니다.
 
-| 도메인 이름 | 아웃바운드 포트 | 설명 |
-| --- | --- | --- |
-| *.download.microsoft.com |80 |설치 프로그램을 다운로드하는 데 사용하는 HTTP입니다. |
-| *.powerbi.com |443 |HTTPS |
-| *.analysis.windows.net |443 |HTTPS |
-| *.login.windows.net |443 |HTTPS |
-| *.servicebus.windows.net |5671-5672 |AMQP(고급 메시지 큐 프로토콜) |
-| *.servicebus.windows.net |443, 9350-9354 |TCP를 통한 서비스 버스 릴레이의 수신기(액세스 제어 토큰 획득에는 443 필요) |
-| *.frontend.clouddatahub.net |443 |HTTPS |
-| *.core.windows.net |443 |HTTPS |
-| login.microsoftonline.com |443 |HTTPS |
-| *.msftncsi.com |443 |게이트웨이를 Power BI 서비스에 연결할 수 없는 경우 인터넷 연결을 테스트하는 데 사용합니다. |
-| *.microsoftonline-p.com |443 |구성에 따라 인증에 사용됩니다. |
+| 도메인 이름 | 아웃바운드 포트 | 설명 |  |
+|-----------------------------|----------------|--------------------------------------------------------------------------------------------------------------------|---|
+| *.download.microsoft.com | 80 | 설치 관리자를 다운로드하는 데 사용됩니다. 데이터 게이트웨이 앱에서 버전 및 게이트웨이 영역을 확인하는 데에도 사용됩니다. |  |
+| *.powerbi.com | 443 | 관련 Power BI 클러스터를 식별하는 데 사용됩니다. |  |
+| *.analysis.windows.net | 443 | 관련 Power BI 클러스터를 식별하는 데 사용됩니다. |  |
+| *.login.windows.net | 443 | Azure Active Directory/OAuth2에 데이터 게이트웨이 앱을 인증하는 데 사용됩니다. |  |
+| *.servicebus.windows.net | 5671-5672 | AMQP(고급 메시지 큐 프로토콜)에 사용됩니다. |  |
+| *.servicebus.windows.net | 443, 9350-9354 | TCP를 통한 Service Bus 릴레이의 수신기에서 사용됩니다(액세스 제어 토큰 획득에는 443 필요). |  |
+| *.frontend.clouddatahub.net | 443 | 사용 되지 않음 - 더 이상 필요하지 않습니다. 나중에 문서에서 제거될 예정입니다. |  |
+| *.core.windows.net | 443 | Power BI의 데이터 흐름에서 Azure Data Lake에 데이터를 쓰는 데 사용됩니다. |  |
+| login.microsoftonline.com | 443 | Azure Active Directory/OAuth2에 데이터 게이트웨이 앱을 인증하는 데 사용됩니다. |  |
+| *.msftncsi.com | 443 | 인터넷 연결 및 Power BI 서비스가 게이트웨이에 연결할 수 있는지 여부를 테스트하는 데 사용됩니다. |  |
+| *.microsoftonline-p.com | 443 | Azure Active Directory/OAuth2에 데이터 게이트웨이 앱을 인증하는 데 사용됩니다. |  |
+| | |
 
 > [!NOTE]
-> Visualstudio.com 또는 visualstudioonline.com으로 향하는 트래픽은 App Insights용이며 게이트웨이가 작동하는 데는 필요하지 않습니다.
+> 게이트웨이가 설치 및 등록되고 나면 Azure 서비스 버스(위의 servicebus.windows.net)에 필요한 포트/IP는 필수 포트/IP뿐입니다. 온-프레미스 데이터 게이트웨이 애플리케이션에서 [네트워크 포트 테스트](../service-gateway-onprem-tshoot.md#network-ports-test)를 수행하여 필요한 포트 목록을 얻을 수 있습니다.
 
 ## <a name="forcing-https-communication-with-azure-service-bus"></a>HTTPS가 Azure Service Bus와 통신하도록 강제 적용
 
