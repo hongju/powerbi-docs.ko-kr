@@ -21,7 +21,7 @@ ms.locfileid: "56216245"
 **Power BI Desktop**에서 **Amazon Redshift** 데이터베이스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다.
 
 ## <a name="connect-to-an-amazon-redshift-database"></a>Amazon Redshift 데이터베이스에 연결
-**Amazon Redshift** 데이터베이스에 연결하려면 Power BI Desktop의 리본 메뉴 **홈** 탭에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **데이터베이스**를 선택하면 **Amazon Redshift**가 표시됩니다.
+**Amazon Redshift** 데이터베이스에 연결하려면 Power BI Desktop의 **홈** 리본에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **데이터베이스**를 선택하면 **Amazon Redshift**가 표시됩니다.
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
