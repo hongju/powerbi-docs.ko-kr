@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f50ab78ff6a96beb127376ff9a8b1c7396dd2cc5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282880"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514574"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Excel에서 분석 문제 해결
 Excel에서 분석을 사용할 때 예기치 않은 결과를 얻거나 기능이 예상대로 작동하지 않는 경우가 있을 수 있습니다. 이 페이지에서는 Excel에서 분석을 사용할 때 일반적인 문제에 대한 해결 방법을 제공합니다.

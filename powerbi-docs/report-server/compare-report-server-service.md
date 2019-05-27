@@ -2,20 +2,20 @@
 title: Power BI Report Server 및 Power BI 서비스 비교
 description: 이 문서에서는 Power BI Report Server와 Power BI 서비스의 기능을 비교합니다.
 keywords: ''
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 02/06/2019
-ms.openlocfilehash: ba10e13062e4071e5afcc5d395836c96ed1401fd
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.date: 05/22/2019
+ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327921"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187693"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -38,7 +38,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 앱을 사용하여 보고서 그룹 배포 | 아니요 | 예 | [대시보드 및 보고서로 앱 생성 및 게시](../service-create-distribute-apps.md) |
 | 콘텐츠 팩 | 아니요 | 예 | [조직 콘텐츠 팩: 소개](../service-organizational-content-pack-introduction.md) |
 | Salesforce와 같은 서비스에 연결 | 예 | 예 | Power BI 서비스의 콘텐츠 팩과 함께 [사용하는 서비스에 연결](../service-connect-to-services.md)합니다. Power BI Report Server에서 인증된 커넥터를 사용하여 서비스에 연결합니다. 자세한 내용은 [Power BI Report Server에서 Power BI 보고서 데이터 원본](data-sources.md)을 참조하세요. |
-| 질문 및 답변 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop의 질문 및 답변](../consumer/end-user-q-and-a.md) 
+| 질문 및 답변 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop의 질문 및 답변](../power-bi-tutorial-q-and-a.md) 
 | 신속한 정보 활용 | 아니요 | 예 | [Power BI를 사용하여 데이터 인사이트를 자동으로 생성](../consumer/end-user-insights.md) |
 | Excel에서 분석 | 아니요 | 예 | [Excel에서 분석](../service-analyze-in-excel.md) 
 | 페이지가 매겨진 보고서 | 예 | 예 | 프리미엄 용량에서 [Power BI 서비스에서 페이지를 매긴 보고서를 미리 보기로 사용할 수 있음](../paginated-reports-report-builder-power-bi.md) |

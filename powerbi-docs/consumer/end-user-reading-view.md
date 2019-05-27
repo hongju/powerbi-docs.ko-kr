@@ -12,23 +12,24 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2018
+ms.date: 05/13/2019
 ms.author: mihart
-ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: babdcebcdbc45ce3f7f737785ca4becab50cb3be
+ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280124"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65608270"
 ---
-<!-- once the sample aps are live, change this so consumers can follow along -->
+<!-- once the sample apps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>빠른 시작: ***소비자***의 Power BI 기능 알아보기
 이 빠른 시작에서는 Power BI를 조작하여 데이터 기반 비즈니스 인사이트를 검색하는 방법을 알아봅니다. 이 문서에서는 자세한 내용을 제공하는 대신 Power BI **소비자**가 사용할 수 있는 다양한 작업을 빠르게 둘러볼 수 있습니다.
 
 아직 Power BI에 등록하지 않은 경우 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ## <a name="prerequisites"></a>필수 조건
-- Power BI 서비스(app.powerbi.com) <!-- app from AppSource -->
+- Power BI 서비스(app.powerbi.com)
+<!-- app from AppSource -->
 
 ## <a name="reading-view"></a>읽기용 보기
 읽기용 보기는 보고서 ‘소비자’의 Power BI 서비스에서 사용할 수 있습니다. 동료가 보고서를 공유해주면 읽기용 보기를 사용하여 보고서를 탐색 및 조작할 수 있습니다. 
@@ -61,7 +62,7 @@ Power BI에서 ‘앱’은 관련 대시보드 및 보고서와 함께 모두 �
 ### <a name="subscribe-to-a-dashboard-or-report"></a>대시보드(또는 보고서) 구독
 대시보드를 모니터링하기 위해 Power BI를 열 필요가 없습니다.  대신에 구독하면 Power BI가 설정된 일정에 따라 해당 대시보드의 스냅숏을 메일로 보내 줍니다. 
 
-![구독 아이콘 선택](./media/end-user-subscribe/power-bi-subscribe-orientation.png).
+![구독 아이콘 선택](./media/end-user-subscribe/power-bi-subscribe-orientation.png)을 선택합니다.
 
 
 1. 상단의 메뉴 모음에서 **구독**을 선택하거나 봉투 아이콘 ![구독 아이콘](./media/end-user-subscribe/power-bi-icon-envelope.png)을 선택합니다.
@@ -77,7 +78,7 @@ Power BI에서 ‘앱’은 관련 대시보드 및 보고서와 함께 모두 �
     보고서 페이지를 새로 고치면 데이터 세트가 새로 고쳐지지 않습니다. 데이터 세트 소유자만 데이터 세트를 수동으로 새로 고칠 수 있습니다. 기본 데이터 세트의 이름을 검색하려면 맨 위 메뉴 모음에서 **관련 항목 보기**를 선택합니다.
 
 ### <a name="view-related-content"></a>관련 콘텐츠 보기
-**관련 콘텐츠** 창은 Power BI 서비스 콘텐츠(대시보드, 보고서 및 데이터 집합)가 서로 어떻게 연결되어 있는지를 보여 줍니다. 창에 관련 콘텐츠가 표시될 뿐만 아니라 콘텐츠에 대한 작업을 수행하고 관련 콘텐츠 간을 쉽게 탐색할 수 있습니다.
+**관련 콘텐츠** 창은 Power BI 서비스 콘텐츠(대시보드, 보고서 및 데이터 세트)가 서로 어떻게 연결되어 있는지를 보여 줍니다. 창에 관련 콘텐츠가 표시될 뿐만 아니라 콘텐츠에 대한 작업을 수행하고 관련 콘텐츠 간을 쉽게 탐색할 수 있습니다.
 
 대시보드 또는 보고서의 위쪽 메뉴 모음에서 **관련 항목 보기**를 선택합니다.
 
@@ -185,7 +186,7 @@ Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구�
 1. Power BI 서비스에서 보고서를 열고 시각적 개체를 선택합니다.  
 2. 시각적 개체 뒤에 데이터를 표시하려면 줄임표(...)를 선택하고 **데이터 표시**를 선택합니다.
    
-   ![데이터 표시 선택](./media/end-user-show-data/power-bi-show-data2.png)
+   ![데이터 표시 선택](./media/end-user-show-data/power-bi-explore-show-data.png)
 
 이는 **소비자**가 Power BI 서비스로 수행할 수 있는 몇 가지 작업의 빠른 개요였습니다.  
 

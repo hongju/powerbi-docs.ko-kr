@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 39942e0ef2bd068d2d87709bbbc6b53bf7c81f44
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9f6139376a713c85500a2e6bd430d5ee52f5b7ad
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284705"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514896"
 ---
 # <a name="power-bi-videos"></a>Power BI 동영상
 Power BI에 대한 YouTube 채널을 제공합니다. Power BI에 익숙하지 않다면 [채널](https://www.youtube.com/user/mspowerbi/videos)을 방문할 수 있으며 [Power BI 재생 목록으로 데이터 분석 및 시각화](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)부터 시작하는 것이 좋습니다.

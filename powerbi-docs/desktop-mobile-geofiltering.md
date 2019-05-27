@@ -27,7 +27,7 @@ Power BI Desktop에서는 열의 [지리 데이터 범주](desktop-data-categori
 > 
 
 ## <a name="identify-geographic-data-in-your-report"></a>보고서에서 지리적 데이터 식별
-1. Power BI Desktop에서 데이터 보기(![데이터 보기 아이콘](media/desktop-mobile-geofiltering/pbi_desktop_data_icon.png))로 전환합니다.
+1. Power BI Desktop에서 데이터 보기( ![데이터 보기 아이콘](media/desktop-mobile-geofiltering/pbi_desktop_data_icon.png))로 전환합니다.
 2. 지리적 데이터(예: City 열)로 열을 선택합니다.
    
     ![City 열](media/desktop-mobile-geofiltering/power-bi-desktop-geo-column.png)

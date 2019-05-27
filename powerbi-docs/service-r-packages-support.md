@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e74b0399ffdf2b5ca79eecb6451ccd676c1095db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 86432033359b24dbae81f9ff5ec1bceb3ea1a2e6
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296716"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514842"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 서비스의 R 패키지
 강력한 [R 프로그래밍 언어](https://www.r-project.org/)를 사용하여 Power BI 서비스에서 시각적 개체를 만들 수 있습니다. 많은 R 패키지가 Power BI 서비스에서 지원되며(및 더 많은 패키지가 항상 지원되고 있음) 일부 패키지는 지원되지 않습니다.
@@ -870,7 +870,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |TraMineR| 2.0-7| https://cran.r-project.org/web/packages/TraMineR/index.html |
 |번역| 3.4.1| NA|
 |tree| 1.0-37| https://cran.r-project.org/web/packages/tree/index.html |
-|트리맵| 2.4-2| https://cran.r-project.org/web/packages/treemap/index.html |
+|treemap| 2.4-2| https://cran.r-project.org/web/packages/treemap/index.html |
 |trimcluster| 0.1-2| https://cran.r-project.org/web/packages/trimcluster/index.html |
 |truncnorm| 1.0-7| https://cran.r-project.org/web/packages/truncnorm/index.html |
 |TSA|1.01| https://cran.r-project.org/web/packages/TSA/index.html |
