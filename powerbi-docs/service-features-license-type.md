@@ -11,12 +11,12 @@ ms.date: 12/06/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 15a2e292aee04ed915611204e62a19d2836aa827
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6f44f4b382dacf3850cc5b3aa67f712a607468a6
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "65554436"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>라이선스 유형별 Power BI 서비스 기능
 
@@ -35,14 +35,14 @@ ms.locfileid: "54274861"
 | 앱 |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 | 전자 메일 구독 |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 | 포함된 API 및 컨트롤 |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
-| **공동 작업** | | |
+| **협업** | | |
 | 피어-투-피어 공유 |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 | 앱 작업 영역 |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 | Excel에서 분석, Power BI Desktop에서 분석 |![사용할 수 없는 기능](media/features-license-type/not-available.png) |![사용 가능한 기능](media/features-license-type/available.png) |
 
 ## <a name="next-steps"></a>다음 단계
 
-Power BI Premium을 자세히 알아보고 싶으면 [Power BI Premium이란?](service-premium.md)을 참조하세요.
+Power BI Premium을 자세히 알아보고 싶으면 [Power BI Premium이란?](service-premium-what-is.md)을 참조하세요.
 
 Power BI에 등록하여 시작하려면 [Power BI에 개별 등록](service-self-service-signup-for-power-bi.md)을 참조하세요.
 
