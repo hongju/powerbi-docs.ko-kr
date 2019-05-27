@@ -1,20 +1,21 @@
 ---
 title: Power BI를 포함하는 서비스 주체
 description: Power BI 콘텐츠 포함에 사용하기 위해 서비스 주체를 사용하여 Azure Active Directory 내에서 응용 프로그램을 등록하는 방법을 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
-ms.subservice: power-bi-developer
+ms.service: powerbi
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
+ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
+ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872550"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65710527"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI(미리 보기)를 포함하는 서비스 주체
 
@@ -148,7 +149,7 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 
 2. 그런 다음, **로컬 디렉터리의 관리되는 응용 프로그램**에서 만든 응용 프로그램의 이름을 선택합니다.
 
-   ![로컬 디렉터리의 관리형 애플리케이션](media/embed-service-principal/managed-application-in-local-directory.png)
+   ![로컬 디렉터리의 관리되는 애플리케이션](media/embed-service-principal/managed-application-in-local-directory.png)
 
     > [!Note]
     > 위의 이미지에서 개체 ID는 서비스 주체와 함께 사용되는 것이 아닙니다.

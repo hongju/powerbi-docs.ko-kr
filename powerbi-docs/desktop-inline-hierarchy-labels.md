@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f854177e146478c9038d7ec696a8d4ca7facd486
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8762be72353aa779281d721ac8038b6e3dd16aa2
+ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293781"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65454247"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Power BI Desktop에서 인라인 계층 구조 레이블 사용
 **Power BI Desktop**은 계층적 드릴링을 개선하기 위한 두 기능 중 첫 번째 기능인 **인라인 계층 구조 레이블**의 사용을 지원합니다. 현재 개발 중인 두 번째 기능은 중첩된 계층 구조 레이블을 사용하는 기능입니다(자주 업데이트되니 기다려 주세요).   

@@ -1,27 +1,25 @@
 ---
 title: 관리 개요, Power BI Report Server
 description: 이 아티클은 Power BI, 모바일 및 페이지가 매겨진 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리 개요입니다.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/24/2018
-ms.author: maghan
-ms.openlocfilehash: 745db7ea9c1a702389f2afae4408024ddb54b734
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 05/22/2019
+ms.author: maggies
+ms.openlocfilehash: c670c78b03a1cd3fd6ce1ad3aeaa0003ce794eec
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288086"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187366"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>관리 개요, Power BI Report Server
 이 아티클은 Power BI, 모바일 및 페이지가 매겨진 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리 개요입니다. 이 문서에서는 Power BI Report Server를 계획, 배포 및 관리하는 개념을 소개하고 추가 정보 링크를 제공합니다.
 
 ![](media/admin-handbook-overview/admin-handbook.png)
-
-
 
 ## <a name="installing-and-migration"></a>설치 및 마이그레이션
 사용하기 시작하려면 Power BI Report Server를 설치해야 합니다. 이 작업을 처리하는 방법을 설명하는 아티클이 있습니다.

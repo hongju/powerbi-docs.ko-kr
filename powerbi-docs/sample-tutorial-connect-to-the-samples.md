@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
+ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275551"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65625068"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI 서비스의 샘플에 연결
 
@@ -78,7 +78,7 @@ ms.locfileid: "54275551"
     ![일치하는 시각적 개체를 강조 표시한 보고서 페이지](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > 타일이 [Power BI 질문 및 답변](consumer/end-user-q-and-a.md)을 사용하여 생성된 경우 질문 및 답변 페이지가 대신 열립니다. 타일이 [Excel에서 고정](service-dashboard-pin-tile-from-excel.md)된 경우 Excel Online이 Power BI 내에서 열립니다.
+   > 타일이 [Power BI 질문 및 답변](power-bi-tutorial-q-and-a.md)을 사용하여 생성된 경우 질문 및 답변 페이지가 대신 열립니다. 타일이 [Excel에서 고정](service-dashboard-pin-tile-from-excel.md)된 경우 Excel Online이 Power BI 내에서 열립니다.
    > 
    > 
 1. **데이터 세트** 탭으로 돌아가면 데이터 세트를 살펴볼 수 있는 몇 가지 옵션이 있습니다.  Power BI Desktop 또는 Excel에서처럼 데이터 집합을 열고 모든 행과 열을 볼 수는 없습니다.  동료와 콘텐츠 팩을 공유 하는 사람은 일반적으로 동료에게 데이터에 대한 직접 액세스 권한을 제공하고자 하는 것이 아니라 유용한 정보를 공유하고자 합니다. 그렇다고 데이터 세트를 탐색할 수 없다는 의미는 아닙니다.  
@@ -103,7 +103,7 @@ ms.locfileid: "54275551"
 
 1. 보고서 뷰에서 파일이 열립니다. 보고서 편집기 하단에 탭이 4개 있나요? 이는 이 보고서에 페이지가 4개 있다는 의미이며, 현재 “새 상점” 페이지가 선택되어 있습니다. 
 
-    ![아래쪽 탭 및 강조 표시된 새 상점 클로즈업](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
+    ![아래쪽 탭 및 강조 표시된 새 상점 클로즈업](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png)을 선택합니다.
 
 3. 보고서 편집기에 대해 자세히 살펴보려면 [보고서 편집기 둘러보기](service-the-report-editor-take-a-tour.md)를 참조하세요.
 
@@ -129,11 +129,9 @@ Desktop에서 샘플 PBIX 파일을 열면 Power BI가 실제로 해당 데이�
 
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 기본 개념](consumer/end-user-basic-concepts.md)
 
-[Power BI 서비스의 샘플](sample-datasets.md)
-
-[Power BI용 데이터 원본](service-get-data.md)
+- [Power BI 기본 개념](consumer/end-user-basic-concepts.md)
+- [Power BI 서비스의 샘플](sample-datasets.md)
+- [Power BI용 데이터 원본](service-get-data.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
-

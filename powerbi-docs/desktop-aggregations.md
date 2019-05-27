@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: cd9a68d10e0da0aaa883dae1a3979eff6a6b4ce6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
+ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290731"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65239578"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop의 집계(미리 보기)
 
-Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데이터에 대한 대화형 분석을 수행할 수 있습니다. **집계**는 의사 결정에서 대규모 데이터 세트의 잠금을 해제하는 비용을 크게 줄일 수 있습니다.
+Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데이터에 대한 대화형 분석을 수행할 수 있습니다. **집계**는 의사 결정에서 큰 데이터 세트의 잠금을 해제하는 비용을 크게 줄일 수 있습니다.
 
 ![Microsoft Power BI Desktop의 집계](media/desktop-aggregations/aggregations_07.jpg)
 

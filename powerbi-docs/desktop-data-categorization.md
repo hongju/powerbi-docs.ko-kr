@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 92191c96409a3a75ad44f8d3472805a3e98da7dd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5b6bbf7a203d8e87d129b6336be4f4531ae34107
+ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275712"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65454500"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop의 데이터 분류
 **Power BI Desktop**에서는 열의 데이터 범주를 지정하여 시각화에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다.
