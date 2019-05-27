@@ -1,20 +1,20 @@
 ---
 title: Power BI Embedded 마이그레이션 도구
 description: 이 마이그레이션 도구는 Power BI Embedded Azure 서비스(PaaS)에서 Power BI 서비스(SaaS)로 보고서를 복사하는 데 사용할 수 있습니다.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216381"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61272252"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 마이그레이션 도구
 
@@ -272,7 +272,7 @@ DirectQuery 보고서에 대한 연결 문자열을 업데이트해야 합니다
 
 [Power BI에 포함](embedding.md)  
 [Power BI Embedded 작업 영역 컬렉션 콘텐츠를 Power BI으로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md)  
-[Power BI 프리미엄이란?](../service-premium.md)  
+[Power BI 프리미엄이란?](../service-premium-what-is.md)  
 [JavaScript API Git 리포지토리](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 리포지토리](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 포함 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

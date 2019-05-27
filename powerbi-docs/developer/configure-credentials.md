@@ -1,20 +1,20 @@
 ---
 title: Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성
 description: 자동화를 위해 Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하는 방법
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/25/2019
-ms.openlocfilehash: 2b4e2f5a4e95b412459dd8fe8d497966e541b389
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56893126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61380184"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성
 
@@ -54,7 +54,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
 
 ### <a name="expired-on-premises-data-source-credentials-flow"></a>만료된 온-프레미스 데이터 원본 자격 증명 흐름
 
-1. [이전 시나리오에서 1단계와 2단계를 수행합니다](#configure-credential-flow-for-data-sources).
+1. [이전 시나리오에서 1단계와 2단계를 수행합니다](#configure-a-credential-flow-for-data-sources).
 
 2. [게이트웨이 가져오기](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways)를 호출하여 게이트웨이 공용 키를 검색합니다.
 

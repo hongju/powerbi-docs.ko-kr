@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 323391268e930d3b7b2926590f3377b850b65624
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 64957fa71249c551b4f69b619a12baf03fae6b06
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282589"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513712"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop의 DAX 기본 사항
 이 문서는 Power BI Desktop을 처음 사용하는 사용자를 위한 것입니다. 여기서는 DAX(Data Analysis Expressions)를 사용하여 여러 가지 기본 계산 및 데이터 분석 문제를 해결하는 방법에 대해 신속하고 간략하게 소개합니다. 또한 일부 기본 개념, 완료할 수 있는 일련의 작업 및 지금까지 학습한 내용을 테스트할 수 있는 몇 가지 퀴즈를 검토합니다. 이 문서를 완료하면 DAX의 가장 중요한 기본 개념을 제대로 이해하고 있어야 합니다.
@@ -83,9 +83,9 @@ DAX 수식을 이해하려는 경우 매일 생각하고 말하는 언어로 각
 ### <a name="task-create-a-measure-formula"></a>작업: 측정값 수식 만들기
 이 작업을 완료하려면 Contoso Sales Sample Power BI Desktop 파일을 열어야 합니다.
     
-1. 보고서 뷰의 필드 목록에서 **Sales** 테이블을 마우스 오른쪽 단추로 클릭한 다음 **새 측정값**을 클릭합니다.
+1. 보고서 뷰의 필드 목록에서 **판매액** 테이블을 마우스 오른쪽 단추로 클릭한 다음 **새 측정값**을 클릭합니다.
     
-2. 수식 입력줄에서 새 측정값 이름 **Previous Quarter Sales**을 입력하여 **측정값**을 대체합니다.
+2. 수식 입력줄에서 새 측정값 이름 **이전 분기 판매액**을 입력하여 **측정값**을 대체합니다.
     
 3. 등호 다음에 처음 몇 개의 문자 **CAL**을 입력한 다음, 사용할 함수를 두 번 클릭합니다. 이 수식에서는 **CALCULATE** 함수를 사용하려고 합니다.
 

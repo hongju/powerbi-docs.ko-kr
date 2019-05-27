@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 1099cf8a7e26d46d871134239502dc918a88a316
-ms.sourcegitcommit: e02a7a7ab538553deb519403aa0e4fb87cc95e1c
+ms.openlocfilehash: e75810d18b39619d249c3acd9a9140b3d19d5f35
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "65202768"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051555"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 보안 백서
 
@@ -316,7 +316,7 @@ Power BI에서 데이터 무결성 모니터링을 제공하는 방법은 다음
 
 ## <a name="user-authentication-to-data-sources"></a>데이터 원본에 대한 사용자 인증
 
-사용자는 각 데이터 원본을 사용하여 로그인에 기반한 연결을 설정하고 이러한 자격 증명을 사용하여 데이터에 액세스합니다. 그러면 사용자가 기본 데이터를 기반으로 하여 쿼리, 대시보드 및 보고서를 만들 수 있습니다.
+각 데이터 원본을 사용 하 여 사용자 로그인에 따라 연결을 설정 하 고 해당 자격 증명을 사용 하 여 데이터에 액세스. 그러면 사용자가 기본 데이터를 기반으로 하여 쿼리, 대시보드 및 보고서를 만들 수 있습니다.
 
 사용자가 쿼리, 대시보드, 보고서 또는 시각화를 공유하면 해당 데이터 및 이러한 시각화에 대한 액세스는 기본 데이터 원본의 RLS(역할 수준 보안) 지원 여부에 따라 달라집니다.
 

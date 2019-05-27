@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3337efa6bf7c1f3eafe389d28f083df377543bc5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 188669525a210afc516cc9740d5d7e7c5682ea93
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279944"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514729"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Power BI Desktop에서 R 스크립트 실행
 **Power BI Desktop**에서 직접 R 스크립트를 실행하고 결과인 데이터 세트를 Power BI Desktop 데이터 모델로 가져올 수 있습니다.

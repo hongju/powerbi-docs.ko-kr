@@ -1,8 +1,8 @@
 ---
 title: Power BI 프리미엄 FAQ
 description: Power BI 프리미엄 제품에 대한 질문과 대답 목록을 찾아보세요.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
+ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383340"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65565373"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI 프리미엄 FAQ
 
-이 문서에서는 Power BI Premium에 대해 자주 묻는 질문을 다룹니다. 개요를 보려면 [Power BI Premium이란?](service-premium.md)을 참조하세요.
+이 문서에서는 Power BI Premium에 대해 자주 묻는 질문을 다룹니다. 개요를 보려면 [Power BI Premium이란?](service-premium-what-is.md)을 참조하세요.
 
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
@@ -84,7 +84,7 @@ Power BI 프리미엄을 사용하면 클라우드의 조직 프로비전에서 
 
 **다음 단계**
 
-[Power BI Premium이란?](service-premium.md)
+[Power BI Premium이란?](service-premium-what-is.md)
 [Power BI Premium 릴리스 정보](service-premium-release-notes.md)
 [Microsoft Power BI Premium 백서](https://aka.ms/pbipremiumwhitepaper)
 [Power BI Enterprise 배포 계획 백서](https://aka.ms/pbienterprisedeploy)

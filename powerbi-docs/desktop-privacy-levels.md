@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b3815e6783b612ff52aeb015fdd3b3669b6a2a51
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4c522a9e6c40f4164ee82675c40c3110b174d017
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282976"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513926"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 개인 정보 수준
 **Power BI Desktop**에서, 개인 정보 수준은 특정 데이터 원본이 다른 데이터 원본과 격리되는 정도를 정의하는 격리 수준을 지정합니다. 제한적인 격리 수준은 데이터 원본 간에 교환 되는 정보를 차단하지만 기능이 감소되고 성능이 영향을 받을 수 있습니다.

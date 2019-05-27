@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c1a4ba0a89f84cb0fce205373f1d0f00cc1479ac
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 969dc53f97156724d6c2b6b7dd6036b3fe8310aa
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278583"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514420"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R을 사용하여 Power BI 시각적 개체 만들기
 **Power BI Desktop**에서 **R**을 사용하면 데이터를 시각화할 수 있습니다.
@@ -78,7 +78,7 @@ R 설치를 지정하면 R 시각적 개체 만들기를 시작할 준비가 되
    
    다음과 같은 이벤트가 발생하면 **Power BI Desktop**에서 시각적 개체를 다시 그립니다.
    
-   * **R 스크립트 편집기** 제목 표시줄에서 **스크립트 실행**을 선택할 때
+   * **R 스크립트 편집기** 제목 표시줄에서 **실행**을 선택할 때
    * 데이터 새로 고침, 필터링 또는 강조 표시로 인해 데이터가 변경될 때마다
 
      다음 이미지는 상관 관계 그림 코드의 예를 보여주고, 다양한 자동차의 특성 간 상관 관계를 그림으로 표시합니다.
