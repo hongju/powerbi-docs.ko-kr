@@ -1,20 +1,20 @@
 ---
 title: Power BI Embedded에서 콘텐츠 마이그레이션을 위한 코드 조각
 description: 다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: c3357b89ef02d29c0518b12780339d8612c75387
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61269232"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션에서 콘텐츠 마이그레이션을 위한 코드 조각
 
@@ -234,7 +234,7 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 [Power BI에 포함](embedding.md)  
 [Power BI Embedded 작업 영역 컬렉션 콘텐츠를 Power BI으로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md)  
 [Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embedding-content.md)  
-[Power BI 프리미엄이란?](../service-premium.md)  
+[Power BI 프리미엄이란?](../service-premium-what-is.md)  
 [JavaScript API Git 리포지토리](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 리포지토리](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 포함 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

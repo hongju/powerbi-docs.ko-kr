@@ -1,7 +1,7 @@
 ---
 title: 보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터 입력(미리 보기)
 description: 이 문서에서는 보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터를 입력하는 방법을 볼 수 있습니다.
-author: markingmyname
+author: maggiesMSFT
 ms.author: maggies
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61424465"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터 입력(미리 보기) - Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "56324993"
 ## <a name="prerequisites"></a>필수 조건
 
 - 페이지를 매긴 보고서에 직접 데이터를 입력하려면 [Microsoft 다운로드 센터에서 보고서 작성기](https://www.microsoft.com/download/details.aspx?id=53613)의 새 버전을 설치합니다. 
-- 페이지를 매긴 보고서를 Power BI 서비스에 저장하려면 [Power BI Pro 계정](service-self-service-signup-for-power-bi.md)이 필요하고 [Power BI Premium 용량](service-premium.md)의 작업 영역에 대한 액세스 권한을 작성해야 합니다.
+- 페이지를 매긴 보고서를 Power BI 서비스에 저장하려면 [Power BI Pro 계정](service-self-service-signup-for-power-bi.md)이 필요하고 [Power BI Premium 용량](service-premium-what-is.md)의 작업 영역에 대한 액세스 권한을 작성해야 합니다.
 - 보고서 서버에 페이지를 매긴 보고서를 저장하려면 [RsReportServer.config 파일 편집](#upload-the-paginated-report-to-a-report-server)에 대한 사용 권한이 필요합니다.
 
 ## <a name="get-started"></a>시작
@@ -98,5 +98,5 @@ Power BI Report Server, SQL Server Reporting Services 2016 또는 2017 보고서
 
 ## <a name="next-steps"></a>다음 단계
 
-- [What are paginated reports in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md)(Power BI Premium의 페이지를 매긴 보고서란?(미리 보기))
+- [Power BI Premium의 페이지를 매긴 보고서란? (미리 보기)](paginated-reports-report-builder-power-bi.md)
 - [Power BI Report Server란?](report-server/get-started.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
+ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225963"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65941442"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Power BI Desktop에서 다 대 다 카디널리티와의 관계
 
@@ -25,7 +25,7 @@ Power BI Desktop의 *다 대 다 카디널리티와의 관계*를 사용하면 *
 
 Power BI Desktop의 *다 대 다 카디널리티와의 관계* 기능은 다음 세 가지 관련 기능 중 하나입니다.
 
-* **복합 모델**: 보고서에 DirectQuery 연결 또는 가져오기를 비롯한 두 개 이상의 데이터 연결을 다양한 조합으로 포함할 수 있습니다. 자세한 내용은 [Power BI Desktop의 복합 모델(미리 보기)](desktop-composite-models.md)을 참조하세요.
+* **복합 모델**: 보고서에 DirectQuery 연결 또는 가져오기를 비롯한 두 개 이상의 데이터 연결을 다양한 조합으로 포함할 수 있습니다. 자세한 내용은 [Power BI Desktop의 복합 모델](desktop-composite-models.md)을 참조하세요.
 
 * **다 대 다 카디널리티와의 관계**: *복합 모델*을 사용하면 테이블 간에 *다 대 다 카디널리티와의 관계*를 설정할 수 있습니다. 이 방법은 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계를 설정하기 위해 새 테이블만 도입하는 것과 같은 이전 해결 방법을 제거합니다. 이 기능은 이 문서에서 더 자세히 설명합니다.
 
@@ -157,7 +157,7 @@ DirectQuery를 사용하여 이러한 다차원 원본에 연결하는 경우 �
 ## <a name="next-steps"></a>다음 단계
 
 복합 모델 및 DirectQuery에 대한 자세한 내용은 다음 문서를 참조하세요.
-* [Power BI Desktop의 복합 모델(미리 보기)](desktop-composite-models.md)
-* [Power BI Desktop의 저장소 모드(미리 보기)](desktop-storage-mode.md)
+* [Power BI Desktop의 복합 모델](desktop-composite-models.md)
+* [Power BI Desktop의 스토리지 모드(미리 보기)](desktop-storage-mode.md)
 * [Power BI Desktop에서 DirectQuery 사용](desktop-directquery-about.md)
 * [Power BI Desktop의 DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
