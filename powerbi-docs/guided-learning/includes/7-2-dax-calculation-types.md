@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 6ed1690ec77880467007200c30038d185c98d6c2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273615"
+---
 DAX를 사용하여 만들 수 있는 두 가지 기본 계산이 있습니다.
 
 * **계산 열**
