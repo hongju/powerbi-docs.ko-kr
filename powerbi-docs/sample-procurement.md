@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287351"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61233860"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 조달 분석 샘플: 둘러보기
 
@@ -72,9 +72,9 @@ ms.locfileid: "54287351"
 다음 몇 가지 사항을 참고하세요.
 
 * **Total Invoice by Month and Category**(월별 및 범주별 전체 송장) 꺾은선형 차트: **Direct**(직접) 범주의 지출은 상당히 일관되며 **Logistics**(물류)는 12월 지출이 가장 높고 **Other**(기타)는 2월이 가장 높습니다.
-* **Total Invoice by Country/Region**(국가/지역별 전체 송장) 지도: 대부분의 지출은 미국에서 일어났습니다.
+* **Total Invoice by Country/Region**(국가/지역별 전체 송장) 지도: 지출 대부분이 미국에 있는 경우
 * **Total Invoice by Sub Category**(하위 범주별 전체 송장) 세로 막대형 차트: **Hardware**(하드웨어) 및 **Indirect Goods & Services**(간접 상품 및 서비스)가 가장 큰 지출 범주입니다.
-* Total Invoice by Tier(계층별 전체 송장) 막대형 차트: 대부분의 비즈니스는 계층 1(상위 10개) 공급업체를 통해 이루어집니다. 때문에 공급업체 관계 관리에 도움이 됩니다.
+* Total Invoice by Tier(계층별 전체 송장) 막대형 차트: 대부분의 비즈니스는 계층 1 (상위 10) 공급 업체와 이루어집니다. 때문에 공급업체 관계 관리에 도움이 됩니다.
 
 ## <a name="spending-in-mexico"></a>멕시코에서의 지출
 멕시코의 지출 영역을 살펴보겠습니다.

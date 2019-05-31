@@ -1,21 +1,21 @@
 ---
 title: 조직용 애플리케이션에 Power BI 콘텐츠를 포함하기 위한 임베디드 분석
 description: 조직의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 03/12/2019
-ms.openlocfilehash: 34d7ec423f3d4cb0f7487c78eff68c580ff0489e
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757464"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61355523"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서: 조직의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -42,17 +42,17 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>임베디드 분석 개발 환경 설정
 
-애플리케이션으로 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 Power BI에 포함을 허용하도록 설정해야 합니다.
+응용 프로그램에 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 Power BI에 포함을 허용하도록 설정해야 합니다.
 
-[포함 설치 도구](https://aka.ms/embedsetup/UserOwnsData)를 통해 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다.
+[포함 설정 도구](https://aka.ms/embedsetup/UserOwnsData)를 통해 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다.
 
 그러나 환경을 수동으로 설정하도록 선택하면 아래를 계속할 수 있습니다.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Azure Active Directory에서 응용 프로그램 등록
 
-Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 애플리케이션에서 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
+Azure Active Directory로 [응용 프로그램을 등록](register-app.md)하여 응용 프로그램에서 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 응용 프로그램을 등록하면 응용 프로그램의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
 
-**서버 쪽 웹 애플리케이션** 앱 등록 작업을 진행해야 합니다. 서버 쪽 웹 애플리케이션을 등록하여 애플리케이션 비밀을 만듭니다.
+**서버 쪽 웹 애플리케이션** 앱 등록 작업을 진행해야 합니다. 서버 사이드 웹 애플리케이션을 등록하여 응용 프로그램 암호를 만듭니다.
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
 
@@ -108,7 +108,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
 ### <a name="application-id"></a>애플리케이션 ID
 
-**Azure**의 **애플리케이션 ID**를 사용하여 **applicationId** 정보를 입력합니다. **applicationId**는 애플리케이션에서 권한을 요청 중인 사용자에게 애플리케이션을 인식시키는 데 사용됩니다.
+**Azure**의 **애플리케이션 ID**를 사용하여 **applicationId** 정보를 입력합니다. **applicationId**는 응용 프로그램에서 권한을 요청 중인 사용자에게 응용 프로그램을 인식시키는 데 사용됩니다.
 
 **applicationId**를 가져오려면 다음 단계를 수행합니다.
 
@@ -116,17 +116,17 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
 2. 왼쪽 탐색 창에서 **모든 서비스**를 선택하고 **앱 등록**을 선택합니다.
 
-    ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+3. **applicationId**가 필요한 응용 프로그램을 선택합니다.
 
-3. **applicationId**가 필요한 애플리케이션을 선택합니다.
+    ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-    ![앱 선택](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+4. GUID로 나열된 **응용 프로그램 ID**가 있습니다. 이 **응용 프로그램 ID**를 애플리케이션의 **applicationId**로 사용합니다.
 
-4. GUID로 나열된 **애플리케이션 ID**가 있습니다. 이 **애플리케이션 ID**를 애플리케이션의 **applicationId**로 사용합니다.
+    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+### <a name="application-secret"></a>응용 프로그램 암호
 
-### <a name="application-secret"></a>애플리케이션 비밀
+이 특성은 [서비스 주체](embed-service-principal.md) AuthenticationType에 대해서만 필요합니다.
 
 **Azure**의 **앱 등록** 섹션에 있는 **키** 섹션에서 **ApplicationSecret** 정보를 입력합니다.  이 특성은 [서비스 주체](embed-service-principal.md)를 사용할 때 작동합니다.
 
@@ -136,23 +136,17 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
 2. 왼쪽 탐색 창에서 **모든 서비스**를 선택한 다음, **앱 등록**을 선택합니다.
 
-    ![앱 등록 검색](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+3. **ApplicationSecret**을 사용해야 하는 애플리케이션을 선택합니다.
 
-3. **ApplicationSecret**을 사용해야 하는 응용 프로그램을 선택합니다.
+    ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-    ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+4. 선택 **인증서 및 비밀** 아래에서 **관리**합니다.
 
-4. **설정**을 선택합니다.
+5. 선택 **새 클라이언트 암호**합니다.
 
-    ![설정 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+6. **설명** 상자에 이름을 입력하고 지속 기간을 선택합니다. 그런 다음, **저장**을 선택하여 애플리케이션의 **값**을 가져옵니다. 키 값을 저장한 후 **키** 창을 닫으면 값 필드가 숨김으로만 표시됩니다. 이때는 키 값을 검색할 수 없습니다. 키 값을 분실한 경우 Azure Portal에서 새 키 값을 만듭니다.
 
-5. **키**를 선택합니다.
-
-    ![키 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
-
-6. **설명** 상자에 이름을 입력하고 지속 기간을 선택합니다. 그런 다음, **저장**을 선택하여 응용 프로그램의 **값**을 가져옵니다. 키 값을 저장한 후 **키** 창을 닫으면 값 필드가 숨김으로만 표시됩니다. 이때는 키 값을 검색할 수 없습니다. 키 값을 분실한 경우 Azure Portal에서 새 키 값을 만듭니다.
-
-    ![키 값](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![키 값](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
 
 ### <a name="workspace-id"></a>작업 영역 ID
 
@@ -190,9 +184,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 조직 테넌트 내에 포함하거나 게스트 사용자와 함께 포함할 수 있는 URL을 사용하여 **AADAuthorityUrl** 정보를 입력합니다.
 
-조직 테넌트에 포함된 경우 URL(*https://login.microsoftonline.com/common/oauth2/authorize*)을 사용하세요.
+조직 테넌트에 포함된 경우 URL( *https://login.microsoftonline.com/common/oauth2/authorize* )을 사용하세요.
 
-게스트에 포함된 경우 *report-owner-tenant-id*를 대체하여 보고서 소유자의 테넌트 ID를 추가하는 URL(*https://login.microsoftonline.com/report-owner-tenant-id*)을 사용하세요.
+게스트에 포함된 경우 *report-owner-tenant-id*를 대체하여 보고서 소유자의 테넌트 ID를 추가하는 URL( *https://login.microsoftonline.com/report-owner-tenant-id* )을 사용하세요.
 
 ### <a name="run-the-application"></a>애플리케이션 실행
 
@@ -400,7 +394,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>전용 용량 만들기
 
-전용 용량을 만들면 앱 작업 영역의 콘텐츠 전용 리소스의 혜택을 활용할 수 있습니다. [Power BI Premium](../service-premium.md)을 사용하여 전용 용량을 만들 수 있습니다.
+전용 용량을 만들면 앱 작업 영역의 콘텐츠 전용 리소스의 혜택을 활용할 수 있습니다. [Power BI Premium](../service-premium-what-is.md)을 사용하여 전용 용량을 만들 수 있습니다.
 
 다음 표에서는 [Microsoft Office 365](../service-admin-premium-purchase.md) 내에서 사용할 수 있는 Power BI Premium SKU를 나열합니다.
 

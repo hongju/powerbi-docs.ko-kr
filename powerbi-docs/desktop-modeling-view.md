@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop에서 모델링 보기 사용(미리 보기)
+title: Power BI Desktop의 모델링 뷰를 사용 합니다.
 description: 모델링 보기를 사용하여 Power BI Desktop에서 복잡한 데이터 세트를 시각적 형식으로 보기
 author: davidiseminger
 manager: kfile
@@ -7,30 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ccb78c8d22fdb7b9fecbb202dca488c44d36a15d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 1fdb6058a6306f63f53c770812f85ccd9f9113ea
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216312"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941349"
 ---
-# <a name="modeling-view-in-power-bi-desktop-preview"></a>Power BI Desktop의 모델링 보기(미리 보기)
+# <a name="modeling-view-in-power-bi-desktop"></a>Power BI Desktop의 모델링 보기
 
-**Power BI Desktop**의 **모델링 보기**를 사용하면 테이블이 많이 포함된 복잡한 데이터 세트를 보고 작업할 수 있습니다. 모델링 보기로 다음을 수행할 수 있습니다.
+**Power BI Desktop**의 **모델링 보기**를 사용하면 테이블이 많이 포함된 복잡한 데이터 세트를 보고 작업할 수 있습니다.
 
-
-## <a name="enabling-the-modeling-view-preview-feature"></a>모델링 보기 미리 보기 기능 사용
-
-모델링 보기 기능은 미리 보기 상태이며 **Power BI Desktop**에서 사용하도록 설정해야 합니다. 모델링 보기를 사용하도록 설정하려면 다음 이미지에 표시된 것처럼 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 다음, **모델링 보기** 확인란을 선택합니다.
-
-![Power BI Desktop에서 모델링 보기 미리 보기 기능 사용](media/desktop-modeling-view/modeling-view_01.png)
-
-미리 보기 기능을 사용하도록 설정하려면 **Power BI Desktop**을 다시 시작해야 한다는 메시지가 표시됩니다. 
-
-![Power BI Desktop을 다시 시작하여 미리 보기 기능을 사용하도록 설정](media/desktop-modeling-view/modeling-view_01b.png)
 
 ## <a name="using-modeling-view"></a>모델링 보기 사용
 
@@ -66,9 +56,9 @@ ms.locfileid: "56216312"
 다음 문서에서는 데이터 모델을 자세히 설명하고 DirectQuery도 자세히 설명합니다.
 
 * [Power BI Desktop의 집계(미리 보기)](desktop-aggregations.md)
-* [Power BI Desktop의 복합 모델(미리 보기)](desktop-composite-models.md)
+* [Power BI Desktop의 복합 모델](desktop-composite-models.md)
 * [Power BI Desktop의 스토리지 모드(미리 보기)](desktop-storage-mode.md)
-* [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)
+* [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md)
 
 
 DirectQuery 문서:

@@ -1,20 +1,20 @@
 ---
 title: Power BI 데이터 세트 속성
 description: Power BI 데이터 세트 API의 속성에 대한 자세한 내용
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: d272914fc41c8bd4abc78ae36a46de9e53817c81
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248933"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61386296"
 ---
 # <a name="dataset-properties"></a>데이터 세트 속성
 
@@ -31,7 +31,7 @@ id     |  Guid       | 데이터 세트용 시스템 전체 범위 고유 식별
 name     | String        | 데이터 세트의 사용자 정의 이름입니다.        | False        | True        
 tables     | Table[]        | 테이블의 컬렉션입니다.        |  False       | False        
 relationships     | Relationship[]        | 테이블 간 관계의 컬렉션입니다.        | False        |  False  
-defaultMode     | String        | 데이터 세트가 "Push", "Streaming", "PushStreaming"의 값으로 푸시되거나, 스트림되거나 둘 다 되는지 여부를 결정합니다.         | False        |  False
+defaultMode     | String        | 여부를 데이터 집합은 푸시 되거나, 스트림, 결정 또는 "푸시" 및 "스트리밍."의 값을 사용 하 여 둘 다         | False        |  False
 
 ## <a name="table"></a>테이블
 

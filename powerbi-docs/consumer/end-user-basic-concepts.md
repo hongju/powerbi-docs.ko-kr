@@ -1,6 +1,6 @@
 ---
 title: Power BI 서비스 - 소비자를 위한 기본 개념
-description: Power BI 서비스 앱, 작업 영역, 대시보드, 보고서, 데이터 세트 및 통합 문서입니다.
+description: Power BI 서비스 앱, 작업 영역, 대시보드, 보고서, 데이터 집합 및 통합 문서입니다.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 8172934357c24516a40a670c68e008521bd4d82d
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580108"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61051619"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI 서비스 ***소비자를*** 위한 기본 개념
 
@@ -104,7 +104,7 @@ Power BI에서 볼 수 있는 시각화로는 폭포, 리본, 트리맵, 원형,
 
    ![8가지 샘플 시각적 개체](media/end-user-basic-concepts/power-bi-visuals.png)
 
-시각화는 커뮤니티에서도 제공되며, 이를 *사용자 지정 시각적 개체*라고 합니다. 인식할 수 없는 시각적 개체가 포함된 보고서를 받은 경우 사용자 지정 시각적 개체일 가능성이 높습니다. 사용자 지정 시각적 개체를 해석하는 데 도움이 필요하면 <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->보고서 이름 또는 대시보드 *설계자*를 조회하고 해당 설계자에게 문의하세요.
+시각화는 커뮤니티에서도 제공되며, 이를 *사용자 지정 시각적 개체*라고 합니다. 인식할 수 없는 시각적 개체가 포함된 보고서를 받은 경우 사용자 지정 시각적 개체일 가능성이 높습니다. 사용자 지정 시각적 개체를 해석 하는 데 도움이 필요한 경우 <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->보고서 또는 대시보드 이름을 조회할 *디자이너* 님에 게 문의 하 고 있습니다.
 
 보고서의 **한 가지** 시각화...
 

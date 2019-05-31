@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383241"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099826"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>조직의 Power BI 라이선스 부여
 
@@ -27,9 +27,15 @@ ms.locfileid: "58383241"
 
 관리자는 Power BI Pro 라이선스를 구입 및 할당할 수 있으며 조직의 Power BI Pro 평가판에 등록할 수 있습니다. 개인 역시 Power BI Pro 평가판에 등록할 수 있습니다.
 
-### <a name="purchasing-power-bi-pro"></a>Power BI Pro 구매
+### <a name="purchase-power-bi-pro"></a>Power BI Pro 구매
 
 Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파트너를 통해 구매합니다. 라이선스를 구입한 후에는 개별 사용자에게 할당합니다. 자세한 내용은 [Power BI Pro 라이선스 구매 및 할당](service-admin-purchasing-power-bi-pro.md)을 참조하세요.
+
+### <a name="power-bi-pro-license-expiration"></a>Power BI Pro 라이선스가 만료
+
+Power BI Pro 라이선스가 만료된 후 유예 기간이 있습니다. 볼륨 라이선스 구입에 포함된 라이선스의 경우 유예 기간은 90일입니다. 라이선스를 직접 구입한 경우 유예 기간은 30일입니다.
+
+Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한 내용은 [Office 365 비즈니스 구독에 대 한 종료 되 면 내 데이터 및 액세스 되나요?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)합니다.
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>개인용 Power BI Pro 평가판
 
@@ -57,7 +63,7 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
 
    ![구독 추가](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-06.png)
 
-1. **다른 계획**에서 Power BI Pro에 대한 줄임표(**. . .**)를 마우스로 가리키고 **무료 평가판 시작**을 선택합니다.
+1. **다른 계획**에서 Power BI Pro에 대한 줄임표( **. . .** )를 마우스로 가리키고 **무료 평가판 시작**을 선택합니다.
 
    ![평가판 시작](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-07.png) 
 
@@ -99,7 +105,7 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
 
 1. 오른쪽에서 **구독 추가 +** 를 선택합니다.
 
-1. **다른 계획**에서 Power BI(무료)에 대한 줄임표(**. . .**)를 마우스로 가리키고 **지금 구매**를 선택합니다.
+1. **다른 계획**에서 Power BI(무료)에 대한 줄임표( **. . .** )를 마우스로 가리키고 **지금 구매**를 선택합니다.
 
     ![지금 구입 - Power BI(무료)](media/service-admin-licensing-organization/buy-powerbi-free.png)
 
@@ -128,12 +134,12 @@ Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파
      connect-msolservice -credential $msolcred
     ```
 
-   ![Azure Active Directory 로그인](media/service-admin-licensing-organization/aad-signin.png)
+   ![Azure Active Directory 로그인](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. 로그인하면 다음 명령을 실행하여 테넌트가 현재 구성되어 있는 방법을 확인합니다.
+1. 로그인하면 다음 명령을 실행하여 테넌트가 현재 구성되어 있는 방법을 확인합니다. ('Fl' 아래 'l', 숫자 1이 아닌 문자는 note).
 
     ```powershell
-     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
+     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 
     ```
 1. 다음 명령을 실행해 **AllowAdHocSubscriptions**를 사용하거나($true) 사용하지 않도록($false) 지정합니다.
 

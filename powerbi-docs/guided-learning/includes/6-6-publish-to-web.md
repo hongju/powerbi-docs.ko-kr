@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: eeb063707e9a81b3d3551dd4e79e9da01bfe7178
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256315"
+---
 이 단원에서는 간단히 몇 단계를 거쳐 웹 페이지에 Power BI 보고서를 공유하거나 전자 메일을 통해 공유하는 방법을 설명합니다. Power BI의 이 기능은 **웹에 게시**라고 하며 쉽게 사용하고 관리할 수 있습니다.
 
 Power BI에서 공유하려는 보고서를 선택하여 캔버스에 보고서가 표시됩니다. 그런 다음 메뉴에서 **파일 > 웹에 게시**를 선택합니다.

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8e5755f632a0cfab8b0b4bc79871c96ee9e2aeef
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263853"
+---
 Power BI에 대한 **단계별 학습** 과정의 **데이터 탐색** 단원을 시작하겠습니다. Power BI Desktop 및 데이터를 가져오고 시각화하는 방법을 알았으므로 Power BI 서비스에서 데이터를 탐색할 준비가 되었습니다.
 
 ![](media/4-0-intro-power-bi-service/4-0_2.png)

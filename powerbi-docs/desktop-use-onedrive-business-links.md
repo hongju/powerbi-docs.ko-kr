@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 8597904e2753f198b3f99cdcad6062d756b734a0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513793"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
@@ -44,7 +44,7 @@ Power BI Desktop에서 방금 클립보드에 복사한 링크를 사용할 수 
 2. 링크를 **웹** 대화 상자에 붙여 넣습니다(아직 확인을 선택하지 **마세요**).
    
     ![](media/desktop-use-onedrive-business-links/odb-links_05.png)
-3. 링크 끝에 *?web=1* 문자열이 있는 것을 확인할 수 있습니다. **확인**을 선택하기 **전에** 이 웹 URL 문자열을 제거해야 **Power BI Desktop**에서 해당 파일을 제대로 탐색합니다.
+3. 링크 끝에 *?web=1* 문자열이 있는 것을 확인할 수 있습니다. **확인**을 선택하기 **전에** 이 웹 URL 문자열을 제거해야 **Power BI Desktop**에서 해당 파일을 제대로 탐색합니다. 
 4. **Power BI Desktop**에서 자격 증명을 묻는 메시지가 표시되면 **Windows**(온-프레미스 SharePoint 사이트인 경우) 또는 **조직 계정**(Office 365 또는 비즈니스용 OneDrive 사이트인 경우) 중 하나를 선택합니다.
    
    ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
@@ -52,7 +52,7 @@ Power BI Desktop에서 방금 클립보드에 복사한 링크를 사용할 수 
 테이블, 시트 및 Excel 통합 문서에 있는 범위 목록을 선택할 수 있는 **탐색기** 창이 나타납니다. 여기에서 다른 Excel 파일처럼 비즈니스용 OneDrive 파일을 사용하고 다른 데이터 원본에서 수행한 것처럼 보고서를 만들어 데이터 세트에서 사용할 수 있습니다.
 
 > [!NOTE]
-> Power BI 서비스에서 **비즈니스용 OneDrive** 파일을 데이터 원본으로 사용하려면 해당 파일에 대해 **서비스 새로 고침**을 사용하여 새로 고침 설정 구성 시 **OAuth2**를 **인증 방법**으로 선택하세요. 그러지 않으면 연결하거나 새로 고칠 때 오류가 발생할 수 있습니다(예: ‘데이터 원본 자격 증명을 업데이트하지 못했습니다.’). 인증 방법으로 **OAuth2** 메서드를 선택하여 해당 자격 증명 오류를 해결합니다.
+> Power BI 서비스에서 **비즈니스용 OneDrive** 파일을 데이터 원본으로 사용하려면 해당 파일에 대해 **서비스 새로 고침**을 사용하여 새로 고침 설정 구성 시 **OAuth2**를 **인증 방법**으로 선택하세요. 그러지 않으면 연결하거나 새로 고칠 때 오류가 발생할 수 있습니다(예: ‘데이터 원본 자격 증명을 업데이트하지 못했습니다.’).  인증 방법으로 **OAuth2** 메서드를 선택하여 해당 자격 증명 오류를 해결합니다.
 > 
 > 
 

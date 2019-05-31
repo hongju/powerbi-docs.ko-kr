@@ -1,20 +1,20 @@
 ---
 title: 포함된 애플리케이션 문제 해결
 description: 이 문서에서는 Power BI 콘텐츠를 포함할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174824"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770481"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
@@ -109,7 +109,7 @@ GenerateToken 호출 전에 애플리케이션의 백 엔드가 인증 토큰을
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 또는 AADSTS50053으로 인증하지 못했습니다.
 
-**_(AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다.)_**
+** _(AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다.)_ **
 
 Power BI Embedded를 사용하고 Azure AD 직접 인증을 활용하는 경우 다음과 같은 로그인 메시지를 받습니다. ***오류: unauthorized_client, error_description:AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다.*** 이는 2018년 6월 14일부터 직접 인증이 기본적으로 더 이상 사용되지 않기 때문입니다.
 
@@ -161,7 +161,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: 권한 부여에는 관리자 권한이 필요합니다.
 
-**_증상:_**<br>
+**_증상:_ **<br>
 관리자가 아닌 사용자가 동의를 허용하면서 애플리케이션에 처음으로 로그인하려고 하면 다음 오류 중 하나를 받습니다.
 
 * ConsentTest에는 관리자만이 부여할 수 있는 조직의 리소스에 액세스하는 사용 권한이 필요합니다. 사용하기 전에 이 앱에 대한 권한을 부여하도록 관리자에게 요청하세요.
@@ -171,10 +171,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 관리 사용자는 성공적으로 로그인하고 동의를 허용할 수 있습니다.
 
-**_근본 원인:_**<br>
+**_근본 원인:_ **<br>
 사용자 동의는 테넌트에 대해 사용되지 않습니다.
 
-**_몇 가지 수정은 가능합니다._**
+**_몇 가지 수정은 가능합니다._ **
 
 *전체 테넌트(모든 사용자, 모든 애플리케이션)에 대해 사용자 동의 사용*
 
@@ -185,6 +185,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 관리자가 전체 테넌트 또는 특정 사용자에게 애플리케이션에 대한 *권한을 부여*합니다.
 
+### <a name="cs1061-error"></a>오류 CS1061
+
+다운로드 [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) 발생 하는 경우는 "'AuthenticationContext' 'AcquireToken' 및 없습니다 액세스할 수 있는 'AcquireToken' 형식의 첫 번째 인수를 허용 하는 것에 대 한 정의가 없습니다 ' AuthenticationContext' 찾을 수 없습니다 (사용 하는 누락 된 지시문 또는 어셈블리 참조가?) "오류입니다.
+
 ## <a name="data-sources"></a>데이터 원본
 
 ### <a name="isv-wants-to-have-different-credentials-for-the-same-data-source"></a>ISV에서 동일한 데이터 원본에 대해 서로 다른 자격 증명을 사용하려고 함
@@ -193,7 +197,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ## <a name="troubleshoot-your-embedded-application-with-the-ierror-object"></a>IError 개체를 사용하여 포함된 애플리케이션 문제 해결
 
-[**JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)에서 ‘오류’ 이벤트에 의해 반환된 **IError 개체**를 사용하여 애플리케이션을 디버그하고 오류의 원인을 더 잘 알아보세요.
+[**JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)에서 ‘오류’ 이벤트에 의해 반환된 **IError 개체**를 사용하여 애플리케이션을 디버그하고 오류의 원인을 더 잘 알아보세요. 
 
 IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는 적절한 일반 오류 테이블을 확인해야 합니다. **IError 속성**을 테이블의 속성과 비교하여 가능한 실패 원인을 찾아보세요.
 

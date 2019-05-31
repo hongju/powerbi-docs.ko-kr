@@ -11,11 +11,11 @@ ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6d8471833dac99aa3c54b40f5839e65edfaa03de
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008974"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61164640"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Power BI로 Microsoft Dynamics NAV에 연결
 Power BI를 사용하면 Microsoft Dynamics NAV에 대한 정보를 쉽게 파악할 수 있습니다. Power BI는 영업 및 재무를 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 사용하여 앱을 구축합니다. Power BI는 데이터가 검색되는 원본 테이블(이 경우에 영업 및 재무 데이터)에 대한 사용 권한이 필요합니다. 요구 사항에 대한 자세한 내용은 아래에 나와 있습니다. 앱을 설치한 후 Power BI 서비스([https://powerbi.com](https://powerbi.com)) 및 Power BI 모바일 앱에서 대시보드 및 보고서를 볼 수 있습니다. 
@@ -85,7 +85,7 @@ Microsoft Dynamics NAV URL 입력 후에 이 오류가 표시되면 다음 요�
 로그인하기 위해 Microsoft Dynamics NAV 자격 증명을 사용한 후에 "로그인 실패" 오류가 발생하는 경우 다음 중 하나의 문제일 수 있습니다.
 
 * 사용 중인 계정은 계정에서 Microsoft Dynamics NAV 데이터를 검색할 권한이 없습니다. 관리자 계정인지 확인하고 다시 시도하세요.
-* 연결하려는 Dynamics NAV 인스턴스에는 유효한 SSL 인증서가 없습니다. 이 경우 보다 자세한 오류 메시지가 표시됩니다.("신뢰할 수 있는 SSL 관계를 설정할 수 없음")  자체 서명 인증서는 지원되지 않습니다.
+* 연결하려는 Dynamics NAV 인스턴스에는 유효한 SSL 인증서가 없습니다. 이 경우 보다 자세한 오류 메시지가 표시됩니다.("신뢰할 수 있는 SSL 관계를 설정할 수 없음") 자체 서명 인증서는 지원되지 않습니다.
 
 **"Oops"**  
 인증 대화 상자를 전달한 후에 "Oops" 오류 대화 상자가 표시되면 콘텐츠 팩에 대한 데이터를 로드하는 동안 Power BI에 문제가 발생합니다.

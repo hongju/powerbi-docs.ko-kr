@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b42efb2c9237baf85a71be12cfaf61da189601d4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257069"
+---
 가져온 데이터에는 추가 정보이거나 해당 데이터를 다른 열에서 이미 사용할 수 있기 때문에 보고 및 시각화 작업에 실제로 필요하지 않은 필드가 포함되어 있는 경우가 종종 있습니다. Power BI Desktop에는 데이터를 최적화하여 보고서 및 시각적 개체를 만들고 공유된 보고서를 보는 데 보다 유용하게 해주는 도구가 있습니다.
 
 ## <a name="hiding-fields"></a>필드 숨기기

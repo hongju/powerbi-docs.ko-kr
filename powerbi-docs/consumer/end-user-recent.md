@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661463"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61054912"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Power BI 서비스의 **최근** 콘텐츠
 최근 콘텐츠란 사용자가 Power BI 서비스에서 방문한 마지막 항목입니다(최대 20개).  여기에는 대시보드, 보고서, 앱 및 모든 작업 영역의 통합 문서가 포함됩니다.
@@ -37,7 +37,7 @@ Amanda가 Power BI 서비스 **최근** 콘텐츠 목록을 채우는 방법을 
 
 ![모든 최근 콘텐츠 표시](./media/end-user-recent/power-bi-recent-list.png)
 
-여기에서 개별 [**대시보드**](end-user-dashboards.md), [**보고서**](end-user-reports.md) 및 **통합 문서** 탭, 그리고 앱<!--[**Apps**](end-user-apps.md)--> 화면에서 하는 것처럼 콘텐츠와 상호 작용할 수 있습니다.
+여기에서 상호 작용할 수 있습니다 콘텐츠 개별 하듯이 [ **대시보드**](end-user-dashboards.md)하십시오 [ **보고서**](end-user-reports.md), 및  **통합 문서** 탭 및 앱 <!--[**Apps**](end-user-apps.md)--> 화면입니다.
 
 ## <a name="next-steps"></a>다음 단계
 <!--[Power BI service Apps](end-user-apps.md)-->

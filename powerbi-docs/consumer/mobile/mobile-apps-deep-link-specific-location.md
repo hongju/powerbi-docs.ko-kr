@@ -7,101 +7,110 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ccb3b390b0654c7dc850cf66a7f0c9a7ec02f910
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278403"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64906520"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
-모든 모바일 플랫폼에서 Power BI 모바일 앱(예: iOS, Android 디바이스 및 Windows 10) 내에 특정 위치(*딥 링크*)에 연결하려면 URI(Uniform Resource Identifier)를 만들고 사용할 수 있습니다.
+링크를 사용 하 여 Power BI에서 특정 항목에 직접 액세스할 수 있습니다. 보고서, 대시보드 및 타일입니다.
 
-URI 링크는 대시보드, 타일 및 보고서를 직접 가리킬 수 있습니다.
+Power BI 모바일에서 링크를 사용 하는 방법은 주로 두 개의 시나리오가 있습니다. 
 
-딥 링크의 대상은 URI의 형식을 결정합니다. 다른 위치로 딥 링크를 만들려면 다음 단계를 수행합니다. 
-
-## <a name="open-the-power-bi-mobile-app"></a>Power BI 모바일 앱 열기
-이 URI를 사용하여 모든 디바이스에서 Power BI 모바일 앱 열기
-
-    mspbi://app/
+* Power BI에서 열려는 **앱 외부에서**, 및 특정 콘텐츠 (앱/보고서/대시보드)를 방문 합니다. 이것이 일반적으로 통합 시나리오를 다른 앱에서 Power BI Mobile을 열려고 할 때입니다. 
+* 하 **이동** Power BI 내에서. 이것이 일반적으로 Power BI에서 사용자 지정 탐색을 만들려는 경우입니다.
 
 
-## <a name="open-to-a-specific-dashboard"></a>특정 대시보드 열기
-이 URI는 특정 대시보드로 Power BI 모바일 앱을 엽니다.
+## <a name="use-links-from-outside-of-power-bi"></a>Power BI 외부에서 사용 하 여 링크
+앱에서 열 수를 확인 하려는 Power BI 앱 외부에서 링크를 사용 하면 장치에서 다음 사용자가 설치 하도록 제공 하는 앱이 설치 되지 경우. 정확 하 게 지원 하기 위해 특별 링크 형식을 만들었습니다. 이 링크 형식에는 장치 앱을 사용 하는 링크를 열려면을 가져오려고 스토어로 이동 하 여 사용자는 제공할 앱을 장치에 설치 되어 있지 않으면, 있는지 확인 하십시오.
 
-    mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
+다음 링크를 시작할지  
+```html
+https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
+```
 
-36자의 대시보드 개체 ID를 찾으려면 Power BI 서비스 (https://powerbi.com) 의 특정 대시보드로 이동합니다. 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
+> [!IMPORTANT]
+> 경우 콘텐츠는 정부, 중국 등과 같은 특수 한 데이터 센터에서 호스팅됩니다. 링크와 같은 올바른 Power BI 주소를 사용 하 여 시작 해야 `app.powerbigov.us` 또는 `app.powerbi.cn`합니다.   
+>
 
-`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
-대시보드가 내 작업 영역 아닌 그룹에 있다면 대시보드 ID 앞이나 뒤에 `&GroupObjectId=<36-character-group-id>`을(를) 추가합니다. 예를 들어 
+합니다 **쿼리 매개 변수** 됩니다.
+* **작업** (필수) OpenApp = / OpenDashboard / OpenTile / OpenReport
+* **appId** = 보고서 또는 앱의 일부인 대시보드를 열려는 경우 
+* **groupObjectId** = 작업 영역 (내 작업 영역에 없습니다)의 일부인 대시보드 또는 보고서를 열려는 경우
+* **dashboardObjectId** 대시보드 개체 ID (작업이 OpenDashboard 또는 OpenTile) =
+* **reportObjectId** = 보고서 개체 ID (작업 OpenReport 경우)
+* **tileObjectId** = 타일 개체 ID (작업 OpenTile 경우)
+* **reportPage** = (동작은 OpenReport) 하는 경우 특정 보고서 섹션을 열려고 할 경우
+* **ctid** = 항목 조직 ID (B2B 시나리오에 대 한 관련이 있습니다. 이 경우 생략할 수 있습니다 사용자의 조직에 속하는 항목).
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+**예제:**
 
-두 가지 사이에 앰퍼샌드(&)를 참조하세요.
+* 앱 열기 링크 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenApp&appId=appidguid&ctid=organizationid
+  ```
 
-## <a name="open-to-a-specific-tile-in-focus"></a>포커스에서 특정 타일에 열기
-이 URI는 Power BI 모바일 앱에서 포커스에 특정 타일을 엽니다.
+* 앱의 일부인 대시보드 열기 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
+  ```
 
-    mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
+* 작업 영역에 포함 된 보고서 열기
+  ```html
+  https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
+  ```
 
-36자의 대시보드 및 타일 개체 ID를 찾으려면 Power BI 서비스 (https://powerbi.com) 의 특정 대시보드로 이동하여 포커스 모드에서 타일을 엽니다. 예를 들어 다음 URL에서 강조 표시된 섹션을 참조하세요.
+### <a name="how-to-get-the-right-link-format"></a>오른쪽 링크 형식을 가져오는 방법
 
-`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
+#### <a name="links-of-apps-and-items-in-app"></a>앱 및 앱에서 항목의 링크
 
-이 타일에 대한 URI은 다음과 같습니다.
+에 대 한 **보고서, 앱 및 앱의 일부인 대시보드**, 링크를 가져오는 가장 쉬운 방법은 앱 작업 영역으로 이동 하 고 "앱 업데이트"를 선택 하는 것입니다. 이 "앱에 게시 하는 방법" 환경을 열고 액세스 탭에서 찾을 수 있습니다는 **링크** 섹션입니다. 직접 액세스 하 고 섹션에는 앱 목록이 표시 됩니다 하 고 모든 해당 콘텐츠를 연결 하는 확장을 사용할 수 있습니다.
 
-    mspbi://app/OpenTile?DashboardObjectId=3784f99f-b460-4d5e-b86c-b6d8f7ec54b7&TileObjectId=565f9740-5131-4648-87f2-f79c4cf9c5f5
+![Power BI 앱 링크를 게시 ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
-두 가지 사이에 앰퍼샌드(&)를 참조하세요.
+#### <a name="links-of-items-not-in-app"></a>앱에 없는 항목의 링크 
 
-대시보드가 내 작업 영역 아닌 그룹에 있는 경우 `&GroupObjectId=<36-character-group-id>`을(를) 추가하세요.
+보고서 및 대시보드를 앱의 일부분이 아닌 항목 URL에서 Id를 추출 해야 합니다.
 
-## <a name="open-to-a-specific-report"></a>특정 보고서에 열기
-이 URI는 Power BI 모바일 앱에서 특정 보고서를 엽니다.
+예를 들어, 36 자의 찾으려는 **대시보드** 개체 ID, Power BI 서비스의 특정 대시보드로 이동 
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
+```html
+https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
+```
 
-36자의 보고서 개체 ID를 찾으려면 Power BI 서비스 (https://powerbi.com) 의 특정 보고서로 이동합니다. 예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
+36 자의 찾으려고 **보고서** 개체 ID, Power BI 서비스에서 특정 보고서로 이동 합니다.
+이 "내 작업 영역"에서 보고서의 예
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
+```
+위의 URL도 포함 됩니다. 특정 보고서 페이지 **"ReportSection3"** 합니다.
 
-보고서가 내 작업 영역이 아닌 그룹에 있다면 보고서 ID 앞이나 뒤에 `&GroupObjectId=<36-character-group-id>`를 추가합니다. 예를 들어 
+이것이 (없습니다: 내 작업 영역) 작업 영역에서 보고서의 예
 
-mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+```html
+https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
+```
 
-두 가지 사이에 앰퍼샌드(&)를 참조하세요.
+## <a name="use-links-inside-power-bi"></a>Power BI 내에서 링크를 사용 합니다.
 
-## <a name="open-to-a-specific-report-page"></a>특정 보고서 페이지에 열기
-이 URI는 Power BI 모바일 앱에서 특정 보고서 페이지를 엽니다.
+Power BI 서비스에서와 똑같이 모바일 앱에서 Power BI 내에서 링크가 작동 합니다.
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
+다른 Power BI 항목을 가리키는 보고서에 링크를 추가 하려는 경우 브라우저 주소 표시줄에서 해당 항목 URL만 복사할 수 있습니다. 에 대해 자세히 알아보세요 [보고서에서 텍스트 상자에 하이퍼링크를 추가 하는 방법을](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)합니다.
 
-보고서 페이지는 "ReportSection"(뒤에 숫자가 따라옴)이라고 합니다. 다시 말해 Power BI 서비스 (https://powerbi.com) 의 보고서를 열고 특정 보고서 페이지로 이동합니다. 
+## <a name="use-report-url-with-filter"></a>필터로 사용 하 여 보고서 URL
+Power BI 서비스와 동일 하지만, Power BI 모바일 앱도 지원 필터 쿼리 매개 변수를 포함 하는 보고서 URL입니다. Power BI 모바일 앱에서 보고서를 열 수 있으며 특정 상태로 필터링 수 있습니다. 예를 들어이 URL이 판매 보고서 열리고 지역별 필터링
 
-예를 들어 이 URL의 강조 표시된 섹션을 참조합니다.
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
+```
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
-
-## <a name="open-in-full-screen-mode"></a>전체 화면 모드로 열기
-굵게 표시된 매개 변수를 추가하여 전체 화면 모드로 특정 보고서를 엽니다.
-
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>**&openFullScreen=true**
-
-예: 
-
-mspbi://app/OpenReport?ReportObjectId=500217de-50f0-4af1-b345-b81027224033&openFullScreen=true
-
-## <a name="add-context-optional"></a>컨텍스트 추가(선택 사항)
-문자열에 컨텍스트를 추가할 수도 있습니다. 그런 다음 문의해야 하는 경우 해당 컨텍스트를 사용하여 데이터를 앱으로 필터링할 수 있습니다. 링크에 `&context=<app-name>`을 추가합니다.
-
-예를 들어 이 URL의 강조 표시된 섹션을 참조합니다. 
-
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
+자세한 내용은 [쿼리 매개 변수 필터를 작성 하는 방법을 보고](https://docs.microsoft.com/power-bi/service-url-filters)합니다.
 
 ## <a name="next-steps"></a>다음 단계
 사용자 의견은 나중에 구현할 사항을 결정하는 데 도움이 됩니다. 따라서 Power BI 모바일 앱에서 참조하고자 하는 다른 기능에 대해 꼭 투표해주세요. 

@@ -11,11 +11,11 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7390f029144e5cb37830921071ad5c2c678b2d4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275482"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61285735"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Python을 사용하여 Power BI 시각적 개체 만들기
 **Power BI Desktop**에서 **Python**을 사용하면 데이터를 시각화할 수 있습니다.
@@ -48,7 +48,7 @@ Python 설치를 지정하면 Python 시각적 개체 만들기를 시작할 준
     **필드**에서 추가된 필드만 Python 스크립트에 사용할 수 있습니다. **Power BI Desktop Python 스크립트 편집기**에서 Python 스크립트 작업을 수행하면서 새 필드를 추가하거나 **필드**에서 불필요한 필드를 제거할 수 있습니다. **Power BI Desktop**에서는 추가하거나 제거한 필드를 자동으로 감지합니다.
    
    > [!NOTE]
-   > Python 시각적 개체의 기본 집계 유형은 ‘요약 안 함’입니다.
+   > Python 시각적 개체의 기본 집계 유형은 ‘요약 안 함’입니다. 
    > 
    > 
    

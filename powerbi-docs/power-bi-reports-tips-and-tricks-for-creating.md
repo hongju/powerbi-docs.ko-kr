@@ -11,14 +11,14 @@ ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
 ms.openlocfilehash: d88a455b5448b92d86719251bfada6bd807a4c91
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223815"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60973620"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop 및 Power BI 서비스에서 보고서를 만들기 위한 팁과 힌트
-데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop, Power BI 서비스 ‘및’ 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다.
+데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop, Power BI 서비스 ‘및’ 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다. 
 
 ## <a name="power-bi-desktop"></a>Power BI Desktop
 
@@ -165,7 +165,7 @@ DAX는 Power BI Desktop의 계산 수식 언어입니다.  DAX는 BI 분석에 �
 
 [DAX 리소스 센터](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
-## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 ‘및’ Power BI Desktop
+## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 ‘및’ Power BI Desktop 
 
 ### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>백서 읽기: [Power BI 보고서 디자인 원칙](visuals/power-bi-visualization-best-practices.md)
 이 문서는 Power BI에서 보고서를 디자인하는 모범 사례를 제공합니다. 계획 단계를 시작으로 보고서와 페이지 및 보고서를 구성하는 개별적인 시각적 개체에 적용할 수 있는 디자인 원칙을 설명합니다. 이러한 모범 사례의 대다수는 대시보드 디자인에도 적용됩니다.

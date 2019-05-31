@@ -3,19 +3,19 @@ title: Power BI Premium의 증분 새로 고침
 description: Power BI Premium 서비스에서 매우 큰 데이터 세트를 사용하는 방법을 알아봅니다.
 author: christianwade
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 05/10/2019
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: caa350274b7af62078098d9ef7730046f6e14627
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
-ms.translationtype: HT
+ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225986"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65536137"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium의 증분 새로 고침
 
@@ -160,3 +160,7 @@ let
 in
     #"Filtered Rows"
 ```
+
+## <a name="limitations"></a>제한 사항
+
+현재, [복합 모델](desktop-composite-models.md), SQL, Oracle에 증분 새로 고침은 지원 및 Teradata 데이터 원본만 합니다.

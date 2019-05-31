@@ -12,11 +12,11 @@ ms.date: 11/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 3d197da63be256825efc44c9e97988648d049efa
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430743"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61067537"
 ---
 # <a name="kpi-visuals"></a>KPI 시각적 개체
 KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률의 정도를 알리는 시각적 신호입니다. KPI에 대한 자세한 내용은 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)를 참조하세요.
@@ -34,7 +34,7 @@ KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률�
 * 목표에 대한 거리 측정(초과 또는 미만 정도)   
 
 ## <a name="kpi-requirements"></a>KPI 요구 사항
-KPI(핵심 성과 지표)는 특정 측정값을 기반으로 하며 정의된 대상에 대한 현재 값 및 메트릭의 상태를 평가할 수 있도록 디자인되었습니다. 따라서 KPI 시각적 개체는 값 및 ‘대상’ 측정값 또는 값 및 ‘임계값’이나 ‘목표’로 계산되는 ‘기본’ 측정값이 필요합니다.
+KPI(핵심 성과 지표)는 특정 측정값을 기반으로 하며 정의된 대상에 대한 현재 값 및 메트릭의 상태를 평가할 수 있도록 디자인되었습니다. 따라서 KPI 시각적 개체는 값 및 ‘대상’ 측정값 또는 값 및 ‘임계값’이나 ‘목표’로 계산되는 ‘기본’ 측정값이 필요합니다.    
 
 현재 KPI 데이터 세트에는 KPI에 대한 목표 값이 포함되어야 합니다. 데이터 세트에 포함되어 있지 않다면 목표가 들어 있는 Excel 시트를 데이터 모델 또는 PBIX 파일에 추가함으로써 목표를 생성할 수 있습니다.
 
@@ -69,7 +69,7 @@ KPI(핵심 성과 지표)는 특정 측정값을 기반으로 하며 정의된 �
 KPI는 Power BI 서비스 및 모바일 디바이스에서도 사용할 수 있으므로 비즈니스 하트비트에 항상 연결된 상태로 유지됩니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-* KPI가 위와 다르게 표시되는 경우 fiscalmonth별로 정렬해야 할 수 있습니다. KPI에는 정렬 옵션이 없으므로, 시각적 개체를 KPI로 변환하기 ‘전’에 fiscalmonth별로 정렬해야 합니다.
+* KPI가 위와 다르게 표시되는 경우 fiscalmonth별로 정렬해야 할 수 있습니다. KPI에는 정렬 옵션이 없으므로, 시각적 개체를 KPI로 변환하기 ‘전’에 fiscalmonth별로 정렬해야 합니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

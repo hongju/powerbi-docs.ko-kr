@@ -11,11 +11,11 @@ ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
 ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980361"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977205"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI 사용자 지정 시각적 개체에 대한 질문과 대답
 
@@ -149,7 +149,7 @@ IAP 사용자 지정 시각적 개체를 사용하고 있거나 이미 가지고
 
 ### <a name="how-to-get-support"></a>지원을 받으려면 어떻게 하나요?
 
-질문, 의견 또는 문제가 있으면 언제든지 사용자 지정 시각적 개체 지원 팀 *pbicvsupport@microsoft.com* 에 문의하세요.  
+질문, 의견 또는 문제가 있으면 언제든지 사용자 지정 시각적 개체 지원 팀 *pbicvsupport@microsoft.com*  에 문의하세요.  
 
 ## <a name="next-steps"></a>다음 단계
 

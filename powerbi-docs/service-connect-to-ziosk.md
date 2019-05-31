@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d22f67f52d0abe0621e244874def845c7d25c15b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008790"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138534"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Power BI로 Ziosk Survey Analytics에 연결
 Power BI용 Ziosk Survey Analytics 콘텐츠 팩은 Ziosk 태블릿이 있는 레스토랑에 일, 위치, 직원별 구분을 포함하여 Ziosk 설문 조사 데이터에서 제공하는 정보에 최상의 액세스를 제공합니다.

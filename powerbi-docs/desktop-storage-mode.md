@@ -11,15 +11,15 @@ ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555861"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61364367"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop의 스토리지 모드
 
-Microsoft Power BI Desktop에서는 테이블의 ‘스토리지 모드’를 지정할 수 있습니다. ‘스토리지 모드’를 사용하면 Power BI Desktop이 보고서에 대한 메모리 내 테이블 데이터를 캐시할지 여부를 제어할 수 있습니다. 
+Microsoft Power BI Desktop에서는 테이블의 ‘스토리지 모드’를 지정할 수 있습니다.  ‘스토리지 모드’를 사용하면 Power BI Desktop이 보고서에 대한 메모리 내 테이블 데이터를 캐시할지 여부를 제어할 수 있습니다.  
 
 ![Power BI Desktop의 스토리지 모드](media/desktop-storage-mode/storage-mode_01.png)
 
@@ -39,7 +39,7 @@ Power BI Desktop의 스토리지 모드 설정은 다음 세 가지 관련 기�
 
 * **복합 모델**: 보고서에 DirectQuery 연결 또는 가져오기를 비롯한 두 개 이상의 데이터 연결을 다양한 조합으로 포함할 수 있습니다. 자세한 내용은 [Power BI Desktop의 복합 모델](desktop-composite-models.md)을 참조하세요.
 
-* **다 대 다 관계**: ‘복합 모델’을 사용하면 테이블 간에 ‘다 대 다 관계’를 설정할 수 있습니다. ‘다 대 다 관계’는 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계를 설정하기 위해 새 테이블만 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md)를 참조하세요.
+* **다 대 다 관계**: ‘복합 모델’을 사용하면 테이블 간에 ‘다 대 다 관계’를 설정할 수 있습니다.   ‘다 대 다 관계’는 테이블의 고유한 값에 대한 요구 사항을 제거합니다.  또한 관계를 설정하기 위해 새 테이블만 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md)를 참조하세요.
 
 * **스토리지 모드**: 이제 백 엔드 데이터 원본에 대한 쿼리가 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 스토리지 모드는 이 문서에서 더 자세히 설명합니다.
 
@@ -118,7 +118,7 @@ Power BI Desktop의 진단 포트에 **SQL 프로파일러**를 연결하면 다
 
 ![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode_06.png)
 
-다음 쿼리는 **DirectQuery** 모드인 *Sales* 테이블의 열만 참조합니다. 따라서 캐시를 적중하지 ‘않아야’ 합니다.
+다음 쿼리는 **DirectQuery** 모드인 *Sales* 테이블의 열만 참조합니다. 따라서 캐시를 적중하지 ‘않아야’ 합니다. 
 
 ![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode_07.png)
 
@@ -136,7 +136,7 @@ Power BI Desktop의 진단 포트에 **SQL 프로파일러**를 연결하면 다
 *이중* 스토리지 모드는 성능 최적화입니다. 이 모드는 비즈니스 요구 사항을 충족하는 기능을 손상하지 않는 방식으로만 사용해야 합니다. 대체 동작의 경우 [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md) 문서에 설명된 방법을 사용하는 것이 좋습니다.
 
 ## <a name="data-view"></a>데이터 보기
-데이터 집합에 있는 하나 이상 테이블의 스토리지 모드가 **가져오기** 또는 **이중**으로 설정된 경우 **데이터 보기** 탭이 표시됩니다.
+데이터 세트에 있는 하나 이상 테이블의 스토리지 모드가 **가져오기** 또는 **이중**으로 설정된 경우 **데이터 보기** 탭이 표시됩니다.
 
 ![Power BI Desktop의 데이터 보기](media/desktop-storage-mode/storage-mode_09.png)
 

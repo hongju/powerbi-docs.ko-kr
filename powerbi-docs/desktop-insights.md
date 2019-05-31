@@ -12,11 +12,11 @@ ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892255"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61297333"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Power BI Desktop에서 인사이트를 사용하여 시각적 개체에서 보이는 증가 및 감소 정보 설명(미리 보기)
 
@@ -26,7 +26,7 @@ ms.locfileid: "56892255"
 
 ![증가 및 감소 정보가 있는 시각적 개체](media/desktop-insights/insights_01a.png)
 
-**Power BI Desktop**을 통해 차트에서 증가 및 감소를 설명하고, 차트에서 배포 요소를 확인하고, 데이터에 대한 빠르고 자동화된 통찰력 있는 분석을 가져올 수 있습니다. 단순히 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 감소에 대해 설명하세요.**(또는 이전 표시줄이 낮은 경우 증가)를 선택하거나 **분석 > 이 분포가 다른 경우 찾기**를 선택하면 인사이트가 사용하기 쉬운 창에 제공됩니다.
+**Power BI Desktop**을 통해 차트에서 증가 및 감소를 설명하고, 차트에서 배포 요소를 확인하고, 데이터에 대한 빠르고 자동화된 통찰력 있는 분석을 가져올 수 있습니다. 단순히 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 감소에 대해 설명하세요.** (또는 이전 표시줄이 낮은 경우 증가)를 선택하거나 **분석 > 이 분포가 다른 경우 찾기**를 선택하면 인사이트가 사용하기 쉬운 창에 제공됩니다.
 
 ![시각적 개체에 나타나는 인사이트](media/desktop-insights/insights_01.png)
 
@@ -37,7 +37,7 @@ ms.locfileid: "56892255"
 
 
 ## <a name="using-insights"></a>정보 사용
-인사이트를 사용하여 차트에 보이는 증가 또는 감소 정보를 설명하려면 가로 막대형 차트 또는 꺾은선형 차트에서 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 증가에 대해 설명하세요.**(또는 모든 정보가 이전 데이터 요소의 변경 내용을 기반으로 하므로 *‘감소 설명’*)을 선택합니다.
+인사이트를 사용하여 차트에 보이는 증가 또는 감소 정보를 설명하려면 가로 막대형 차트 또는 꺾은선형 차트에서 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 증가에 대해 설명하세요.** (또는 모든 정보가 이전 데이터 요소의 변경 내용을 기반으로 하므로 *‘감소 설명’* )을 선택합니다.
 
 ![인사이트 표시 메뉴](media/desktop-insights/insights_02.png)
 

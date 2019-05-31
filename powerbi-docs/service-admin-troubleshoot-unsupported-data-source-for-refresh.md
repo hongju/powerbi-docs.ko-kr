@@ -3,7 +3,7 @@ title: 새로 고침을 지원하지 않는 데이터 소스 문제 해결
 description: 새로 고침을 지원하지 않는 데이터 소스 문제 해결
 author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
@@ -11,19 +11,19 @@ ms.date: 12/06/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 340c3fe2dc18fadb6be0ac47556547e6131833bc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bd0ea66b8caf32e3244ed4e5eef648100fc5169e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280404"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61188098"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>새로 고침을 지원하지 않는 데이터 소스 문제 해결
 예약 새로 고침에 대해 데이터 세트를 구성할 때 오류가 발생할 수 있습니다.
 
         You cannot schedule refresh for this dataset because it gets data from sources that currently don’t support refresh.
 
-이러한 오류는 Power BI Desktop에서 사용한 데이터 원본이 새로 고침을 지원하지 않을 때 발생합니다.  사용 중인 데이터 원본을 찾아 [Power BI에서 데이터 새로 고침](refresh-data.md)의 지원되는 데이터 원본 목록과 비교해야 합니다. 
+이러한 오류는 Power BI Desktop에서 사용한 데이터 원본이 새로 고침을 지원하지 않을 때 발생합니다. 사용 중인 데이터 원본을 찾아 [Power BI에서 데이터 새로 고침](refresh-data.md)의 지원되는 데이터 원본 목록과 비교해야 합니다. 
 
 ## <a name="find-the-data-source"></a>데이터 원본 찾기
 어떤 데이터 원본을 사용했는지 잘 모를 경우 Power BI Desktop에서 다음 단계를  통해 찾을 수 있습니다.  
@@ -41,7 +41,7 @@ ms.locfileid: "54280404"
 ## <a name="next-steps"></a>다음 단계
 [데이터 새로 고침](refresh-data.md)  
 [Power BI 게이트웨이 - 개인](service-gateway-personal-mode.md)  
-[온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
+[On-premises data gateway (온-프레미스 데이터 게이트웨이)](service-gateway-onprem.md)  
 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 [Power BI 게이트웨이 - 개인 문제 해결](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

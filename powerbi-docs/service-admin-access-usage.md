@@ -1,36 +1,36 @@
 ---
 title: 로그인한 Power BI 사용자 찾기
-description: 현재 테넌트 관리자이며 Power BI에 로그인했던 사람이 누구인지 알고자 하는 경우 Azure Active Directory 액세스 및 사용 보고서를 사용하여 표시 여부를 얻을 수 있습니다.
+description: 테 넌 트 관리자는 Power BI에 로그인 하는 확인 하려면 하는 경우 한 가시성을 얻고 Azure Active Directory 액세스 및 사용 보고서를 사용할 수 있습니다.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 12a15360efbff62c40f5bd1098886ee046661e4f
-ms.sourcegitcommit: 5222bc6a8336acc77c8e22db57ea6a7bf7daea57
-ms.translationtype: HT
+ms.openlocfilehash: e513607dd89aee15f10145cf62bd461621cc12c0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59290745"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64906742"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>로그인한 Power BI 사용자 찾기
 
-현재 테넌트 관리자이며 Power BI에 로그인했던 사람이 누구인지 알고자 하는 경우 [Azure Active Directory 액세스 및 사용 보고서](/azure/active-directory/reports-monitoring/concept-sign-ins)를 사용하여 정보를 파악할 수 있습니다.
+테 넌 트 관리자를 사용 하 여 Power BI에 로그인 하는 보려는 경우 합니다 [Azure Active Directory 액세스 및 사용 보고서](/azure/active-directory/reports-monitoring/concept-sign-ins) 가시성을 얻고 있습니다.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1AVgh9w9VM8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 작업 보고서는 유용한 정보를 제공하지만, 각 사용자가 가지고 있는 라이선스 유형을 식별하지는 않습니다. 라이선스를 보려면 Microsoft 365 관리 센터를 사용합니다.
+> 합니다 **로그인** 보고서는 유용한 정보를 제공 하지만 형식의 각 사용자에 게 라이선스를 식별 하지 않습니다. 라이선스를 보려면 Microsoft 365 관리 센터를 사용합니다.
 
 ## <a name="requirements"></a>요구 사항
 
 모든 사용자(비관리자 포함)는 자신의 로그인에 대한 보고서를 볼 수 있지만, 모든 사용자에 대한 보고서를 보려면 다음 요구 사항을 충족해야 합니다.
 
-* 테넌트는 Azure AD Premium 라이선스와 연결되어 있어야 합니다.
+* 테 넌 트에 연결 된 Azure Active Directory Premium 라이선스가 있어야 합니다.
 
 * 다음 역할 중 하나여야 합니다. 전역 관리자, 보안 관리자 또는 보안 읽기 권한자.
 
@@ -42,31 +42,32 @@ ms.locfileid: "59290745"
 
 1. **모니터링**에서 **로그인**을 선택합니다.
    
-    ![Azure AD 로그인](media/service-admin-access-usage/azure-portal-sign-ins.png)
+    ![강조 표시 된 Azure Active Directory 및 로그인 옵션을 사용 하 여 Azure UI의 스크린샷.](media/service-admin-access-usage/azure-portal-sign-ins.png)
 
 1. **Microsoft Power BI** 또는 **Power BI Gateway** 중 하나로 애플리케이션을 필터링하고 **적용**을 선택합니다.
 
-    **Microsoft Power BI**는 서비스에 관련된 로그인 활동을 필터링하지만, **Power BI Gateway**는 온-프레미스 데이터 게이트웨이에 관련된 로그인 활동을 필터링합니다.
+    **Microsoft Power BI** 반면 로그인 활동에 대 한 필터는 서비스와 관련 **Power BI Gateway** 로그인 활동에 특정 한 온-프레미스 데이터 게이트웨이 필터입니다.
    
-    ![로그인 필터링](media/service-admin-access-usage/sign-in-filter.png)
+    ![강조 표시 하는 응용 프로그램 필드를 사용 하 여 로그인 필터 스크린샷.](media/service-admin-access-usage/sign-in-filter.png)
 
 ## <a name="export-the-data"></a>데이터 내보내기
 
-csv 파일 다운로드 또는 PowerShell 사용의 두 가지 옵션으로 로그인 데이터를 내보낼 수 있습니다. 로그인 보고서의 맨 위에서 다음 옵션 중 하나를 선택합니다.
+할 수 있습니다 [로그인 보고서 다운로드](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) 두 형식 중 하나로: CSV 파일 또는 JSON 파일입니다.
 
-* **다운로드** - 현재 필터링된 데이터의 csv 파일을 다운로드합니다.
+![다운로드 단추 스크린샷입니다.](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
-* **스크립트** - 현재 필터링된 데이터의 PowerShell 스크립트를 다운로드합니다. 필요에 따라 스크립트에서 필터를 업데이트할 수 있습니다.
+맨 위에 있는 **로그인** 보고서를 선택 **다운로드** 다음 옵션 중 하나를 선택 합니다.
 
-![csv 파일 또는 스크립트 다운로드](media/service-admin-access-usage/download-sign-in-data-csv.png)
+* **CSV** 현재 필터링된 된 데이터에 대 한 CSV 파일을 다운로드 합니다.
+
+* **JSON** 현재 필터링된 된 데이터에 대 한 JSON 파일을 다운로드 합니다.
 
 ## <a name="data-retention"></a>데이터 보존
 
-로그인 관련 데이터는 최대 30일 동안 사용할 수 있습니다. 자세한 내용은 [Azure Active Directory 보고서 보존 정책](/azure/active-directory/reports-monitoring/reference-reports-data-retention)을 참조하세요.
+로그인 관련 데이터는 최대 30일 동안 사용할 수 있습니다. 자세한 내용은 참조 하세요. [Azure Active Directory 보고서 보존 정책](/azure/active-directory/reports-monitoring/reference-reports-data-retention)합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 [조직 내에서 감사 사용](service-admin-auditing.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문하기](https://community.powerbi.com/)
-
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

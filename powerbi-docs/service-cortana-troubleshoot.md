@@ -8,26 +8,23 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249048"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375226"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI용 Cortana 문제 해결
-이 문서는 시리즈의 일부입니다. 아직 읽지 않은 경우 다음 세 개의 문서를 읽는 것이 좋습니다.
+이 문서는 시리즈의 일부입니다. 
 
-**문서 1**: [Power BI 대시보드 및 보고서 검색을 위해 Cortana와 Power BI가 함께 작동하는 방식 이해](service-cortana-intro.md)
+> [!IMPORTANT]
+> Power BI에서 Cortana 통합 되지 않습니다. 6 월 11부터 Cortana는 더 이상 작동 하지 모든 대시보드 및 보고서에 대 한 합니다.
 
-**문서 2**: [보고서 검색: Cortana - Power BI - Windows 통합 활성화](service-cortana-enable.md)
-
-**문서 3**: [보고서 검색: 특수 ‘Cortana 대답 카드’ 만들기](service-cortana-answer-cards.md)
-
-Cortana를 Power BI와 통합하는 데 여전히 문제가 있는 경우 제대로 찾아 오셨습니다. 아래 단계를 수행하여 문제를 진단하고 해결합니다.
+데 Cortana가 Power BI와 통합 하는 데 문제가 있는 경우 적절 한 위치를 찾아 오셨습니다. 아래 단계를 수행하여 문제를 진단하고 해결합니다.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Cortana가 내 Power BI 보고서 또는 대시보드에서 답변을 찾지 않는 이유는 무엇입니까?
 1. Power BI 계정이 있습니까?  그렇지 않으면 [평가판에 등록하세요](https://powerbi.microsoft.com/get-started/).

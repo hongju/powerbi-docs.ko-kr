@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8762be72353aa779281d721ac8038b6e3dd16aa2
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454247"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Power BI Desktop에서 인라인 계층 구조 레이블 사용
@@ -51,7 +51,7 @@ ms.locfileid: "65454247"
 
 ![비공식 계층 구조의 차트](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-**다음 수준으로 확장**을 선택하면 계층 구조 레이블의 인라인 표시와 함께 다음 수준을 보여줍니다. 기본적으로, 인라인 계층 구조는 측정값(이 경우 **수량**)을 기준으로 정렬됩니다. 인라인 계층 레이블이 사용하도록 설정된 경우 오른쪽 위에 있는 줄임표(**...**)를 선택한 후 다음 이미지에 나와 있는 것처럼 **ProductName ShipCountry로 정렬**을 선택하여 계층 구조를 기준으로 이 데이터를 정렬하도록 선택할 수도 있습니다.
+**다음 수준으로 확장**을 선택하면 계층 구조 레이블의 인라인 표시와 함께 다음 수준을 보여줍니다. 기본적으로, 인라인 계층 구조는 측정값(이 경우 **수량**)을 기준으로 정렬됩니다. 인라인 계층 레이블이 사용하도록 설정된 경우 오른쪽 위에 있는 줄임표( **...** )를 선택한 후 다음 이미지에 나와 있는 것처럼 **ProductName ShipCountry로 정렬**을 선택하여 계층 구조를 기준으로 이 데이터를 정렬하도록 선택할 수도 있습니다.
 
 ![기본적으로 정렬된 비공식 계층 구조가 있는 차트](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 
@@ -65,14 +65,14 @@ ms.locfileid: "65454247"
 > 
 
 ## <a name="troubleshooting"></a>문제 해결
-시각적 개체가 확장된 인라인 계층 구조 수준 상태에 빠질 수 있습니다. 경우에 따라 일부 시각적 개체가 확장된 모드에서 움직이지 않을 수 있으며 이 경우 드릴업이 작동하지 않습니다. 다음 단계를 수행한 경우 이러한 현상이 발생할 수 있습니다(이에 대한 해결 방법은 이 단계 아래에 나와 있음).
+시각적 개체가 확장된 인라인 계층 구조 수준 상태에 빠질 수 있습니다. 경우에 따라 일부 시각적 개체가 확장된 모드에서 움직이지 않을 수 있으며 이 경우 드릴업이 작동하지 않습니다. 다음 단계를 수행한 경우 이러한 현상이 발생할 수 있습니다(이에 대한 해결 방법은 이 단계 아래에 나와 있음). 
 
 시각적 개체가 확장된 상태에서 움직이지 않도록 할 수 있는 단계
 
 1. **인라인 계층 구조 레이블** 기능을 사용하도록 설정합니다.
 2. 일부 시각적 개체를 계층 구조로 만듭니다.
 3. 그런 다음 **모두 확장**하고 파일을 저장합니다.
-4. **인라인 계층 구조 레이블** 기능을 사용하지 않도록 설정하고 Power BI Desktop을 다시 시작합니다.
+4. **인라인 계층 구조 레이블** 기능을 사용하지 않도록 설정하고 Power BI Desktop을 다시 시작합니다. 
 5. 파일을 다시 엽니다.
 
 이러한 단계를 수행하고 시각적 개체가 확장된 모드에서 움직이지 않으면 다음을 수행하여 문제를 해결할 수 있습니다.

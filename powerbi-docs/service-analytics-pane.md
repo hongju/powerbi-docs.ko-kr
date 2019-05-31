@@ -11,15 +11,15 @@ ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: ce99539e1804746970eae20dc9396f0f0536afea
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223700"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61184109"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 시각적 개체에 대한 동적 참조 선 만들기
 
-**Power BI 서비스**의 **분석** 창에서 시각적 개체에 동적 참조 선을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다.
+**Power BI 서비스**의 **분석** 창에서 시각적 개체에 동적 참조 선을 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다. 
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
 
@@ -77,7 +77,7 @@ ms.locfileid: "56223700"
 * 묶은 세로 막대형 차트
 * 묶은 가로 막대형 차트
 
-다음 시각적 개체는 **분석** 창에서 상수 선만 사용할 수 있습니다.
+다음 시각적 개체는 **분석** 창에서 상수 선만 사용할 수 있습니다. 
 
 * 누적 영역형
 * 누적 가로 막대형
@@ -85,7 +85,7 @@ ms.locfileid: "56223700"
 * 100% 기준 누적 가로 막대형
 * 100% 기준 누적 세로 막대형
 
-다음 시각적 개체에서는 현재 추세선이 유일한 옵션입니다.
+다음 시각적 개체에서는 현재 추세선이 유일한 옵션입니다. 
 
 * 비 누적 꺾은선형
 * 묶은 세로 막대형 차트

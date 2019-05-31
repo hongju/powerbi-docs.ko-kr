@@ -11,11 +11,11 @@ ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292985"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61239612"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI용 공급업체 품질 분석 샘플: 둘러보기
 
@@ -156,7 +156,7 @@ ms.locfileid: "54292985"
     ![](media/sample-supplier-quality/supplier14.png)  
 
     이러한 결함 수량이 증가하면서 가동 중지 시간(분)도 동일하게 증가되었는지 알아보겠습니다.  
-2. 질문 상자에서 "월별, 연도별 총 가동 중지 시간(분) 꺾은선형 차트"를 입력합니다.  
+2. 질문 상자에서 "월별, 연도별 총 가동 중지 시간(분) 꺽은선형 차트"를 입력합니다.  
 
    ![](media/sample-supplier-quality/supplier15.png)
 

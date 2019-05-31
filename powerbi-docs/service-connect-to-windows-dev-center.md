@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 81498dff9c70deaf8135faf244db96509b1cf18d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008836"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61163974"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Power BI로 Windows 개발자 센터에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 Windows 개발자 센터 앱을 탐색하고 모니터링합니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다.

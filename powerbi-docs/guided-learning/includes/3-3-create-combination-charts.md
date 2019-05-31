@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: c7af7eb4a75ebe22416dba74a40c2edcf00c1194
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397776"
+---
 수익과 단위처럼 눈금이 완전히 다른 두 측정값을 시각화하려는 경우 서로 다른 축 눈금으로 선과 막대를 표시하는 **혼합형 차트**가 매우 유용합니다. Power BI는 기본적으로 널리 사용되는 **꺾은선형** 및 **누적 세로 막대형** 차트를 포함하여 다양한 유형의 혼합형 차트를 지원합니다.
 
 ![](media/3-3-create-combination-charts/3-3_1.png)

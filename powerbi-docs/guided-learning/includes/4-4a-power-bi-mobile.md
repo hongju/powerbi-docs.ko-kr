@@ -1,4 +1,12 @@
-이동 중에 데이터를 추적하려는 경우 Power BI의 iOS, Android 및 Windows 디바이스용 모바일 응용 프로그램 중 하나를 사용할 수 있습니다.
+---
+ms.openlocfilehash: 3548f02e91c6ebc5a2ea985777cdaceda9661185
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256287"
+---
+이동 중에 데이터를 추적하려는 경우 Power BI의 iOS, Android 및 Windows 장치용 모바일 애플리케이션 중 하나를 사용할 수 있습니다.
 
 Power BI 앱을 사용할 경우 먼저 Power BI 서비스 계정 정보를 사용하여 계정에 로그인합니다. Windows 모바일 디바이스(이 예제의 경우 태블릿)의 로그인은 다음과 같습니다.
 

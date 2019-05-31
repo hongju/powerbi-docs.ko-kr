@@ -11,11 +11,11 @@ ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
 ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285763"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61368563"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>자습서: Excel 및 OData 피드의 판매 데이터 결합
 
@@ -208,7 +208,7 @@ Power BI Desktop 보고서 보기에서 다양한 시각화를 만들어 데이�
    
 2. **필드** 창의 **Products**에서 **ProductName**을 선택하거나 차트로 끌어오면 주문한 각 제품의 수량이 표시됩니다. 
    
-3. 가장 많은 주문부터 가장 적은 주문 순서로 제품을 정렬하려면 시각화의 오른쪽 위에 있는 **추가 옵션** 줄임표(**...**)를 선택한 다음, **내림차순 정렬, 정렬기준 &gt; Quantity**를 선택합니다.
+3. 가장 많은 주문부터 가장 적은 주문 순서로 제품을 정렬하려면 시각화의 오른쪽 위에 있는 **추가 옵션** 줄임표( **...** )를 선택한 다음, **내림차순 정렬, 정렬기준 &gt; Quantity**를 선택합니다.
    
 4. 차트의 모서리에 있는 핸들을 사용하여 더 많은 제품 이름이 표시되도록 차트를 확대합니다. 
    

@@ -1,20 +1,20 @@
 ---
 title: 인증 액세스 토큰 가져오기
 description: 데이터 푸시 연습 - 인증 액세스 토큰 가져오기
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 0840d01a53a8d1f2c19ef1d5d263bf9a3d2d8f81
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216565"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710368"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2단계: 인증 액세스 토큰 가져오기
 
@@ -27,13 +27,11 @@ ms.locfileid: "56216565"
 ## <a name="get-an-authentication-access-token"></a>인증 액세스 토큰 가져오기
 
 > **참고**: 시작하기 전에 [데이터 세트에 데이터 푸시](walkthrough-push-data.md)의 이전 단계를 수행해야 합니다.
-> 
-> 
 
-1. Visual Studio 2015에서 **콘솔 애플리케이션** 프로젝트를 만듭니다.
-2. [.NET NuGet 패키지용 Azure AD 인증 라이브러리](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)를 설치합니다. .NET 앱에서 인증 보안 토큰을 가져오려면 이 패키지를 사용합니다. 패키지를 설치하는 방법은 다음과 같습니다.
+1. Visual Studio 2015 이상에서 만들기를 **콘솔 응용 프로그램** 프로젝트입니다.
+2. [.NET NuGet 패키지용 Azure AD 인증 라이브러리](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)를 설치합니다. .NET 앱에서 인증 보안 토큰을 가져오려면 이 패키지를 사용합니다. 패키지를 설치하는 방법은 다음과 같습니다.
 
-     a. Visual Studio 2015에서 **도구** > **NuGet 패키지 관리자** > **패키지 관리자 콘솔**을 선택합니다.
+     a. Visual studio 2015 이상 **도구가** > **NuGet 패키지 관리자** > **패키지 관리자 콘솔**합니다.
 
      b. **패키지 관리자 콘솔**에서 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612를 입력합니다.
 3. 아래 코드를 class Program {...}에 추가합니다.
@@ -152,7 +150,7 @@ namespace walkthrough_push_data
             string resourceUri = "https://analysis.windows.net/powerbi/api";
 
             //OAuth2 authority Uri
-            string authorityUri = "https://login.microsoftonline.net/common/";
+            string authorityUri = "https://login.microsoftonline.com/common/";
 
             //Get access token:
             // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 711e0252cddcc78437e03a82d91c67441cfc3a55
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513509"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
@@ -31,12 +31,12 @@ ms.locfileid: "65513509"
 * 하나 이상의 보고서 페이지에서 시각적 개체 모음인 보고서 만들기
 * **Power BI 서비스**를 사용하여 다른 사용자와 보고서 공유
 
-해당 작업을 담당하는 사용자는 종종 ‘데이터 분석가’(‘분석가’라고도 함) 또는 비즈니스 인텔리전스 전문가(‘보고서 작성자’라고도 함)로 간주합니다. 그러나 자신을 분석가나 보고서 작성자로 간주하지 않는 많은 사용자는 **Power BI Desktop**을 사용하여 매력적인 보고서를 만들거나 다양한 원본에서 데이터를 끌어오고 동료 및 조직과 공유할 수 있는 데이터 모델을 빌드합니다.
+해당 작업을 담당하는 사용자는 종종 ‘데이터 분석가’(‘분석가’라고도 함) 또는 비즈니스 인텔리전스 전문가(‘보고서 작성자’라고도 함)로 간주합니다.    그러나 자신을 분석가나 보고서 작성자로 간주하지 않는 많은 사용자는 **Power BI Desktop**을 사용하여 매력적인 보고서를 만들거나 다양한 원본에서 데이터를 끌어오고 동료 및 조직과 공유할 수 있는 데이터 모델을 빌드합니다.
 
 **Power BI Desktop**을 통해 여러 원본의 데이터를 사용하여 조직의 다른 사용자와 공유할 수 있는 통합 보고서인 복잡하고 시각적으로 풍부한 보고서를 만들 수 있습니다. 
 
 ## <a name="connect-to-data"></a>데이터에 연결
-**Power BI Desktop**을 시작하기 위한 첫 번째 단계는 데이터에 연결하는 것입니다. **Power BI Desktop**에서 연결할 수 있는 다양한 데이터 원본이 있습니다.  데이터에 연결하려면 **홈** 리본을 선택한 다음, **데이터 가져오기 > 추가**를 선택합니다. 다음 이미지에는 Power BI Desktop이 연결할 수 있는 여러 범주를 보여주는 **데이터 가져오기** 창이 표시됩니다.
+**Power BI Desktop**을 시작하기 위한 첫 번째 단계는 데이터에 연결하는 것입니다. **Power BI Desktop**에서 연결할 수 있는 다양한 데이터 원본이 있습니다. 데이터에 연결하려면 **홈** 리본을 선택한 다음, **데이터 가져오기 > 추가**를 선택합니다. 다음 이미지에는 Power BI Desktop이 연결할 수 있는 여러 범주를 보여주는 **데이터 가져오기** 창이 표시됩니다.
 
 ![Power BI Desktop에서 데이터 가져오기](media/desktop-what-is-desktop/what-is-desktop_02.png)
 
@@ -62,7 +62,7 @@ Power BI Desktop에서 기본 제공 **쿼리 편집기**를 사용하여 데이
 
 ## <a name="create-visuals"></a>시각적 개체 만들기 
 
-데이터 모델이 있는 경우 ‘필드’를 보고서 캔버스로 끌어 ‘시각적 개체’를 만들 수 있습니다. ‘시각적 개체’는 모델의 데이터를 그래픽으로 표현한 것입니다. 다음 시각적 개체는 단순 세로 막대형 차트를 표시합니다. 
+데이터 모델이 있는 경우 ‘필드’를 보고서 캔버스로 끌어 ‘시각적 개체’를 만들 수 있습니다.   ‘시각적 개체’는 모델의 데이터를 그래픽으로 표현한 것입니다.  다음 시각적 개체는 단순 세로 막대형 차트를 표시합니다. 
 
 ![Power BI Desktop의 시각적 개체](media/desktop-what-is-desktop/what-is-desktop_04.png)
 
@@ -72,7 +72,7 @@ Power BI Desktop에서 선택할 수 있는 다양한 유형의 시각적 개체
 
 ## <a name="create-reports"></a>보고서 만들기
 
-Power BI Desktop에서 모델을 만드는 데 사용한 데이터의 다양한 측면을 보여주는 시각적 개체 모음을 만들려고 하는 경우가 더 많습니다. 하나의 Power BI Desktop 파일에 있는 시각적 개체 모음을 ‘보고서’라고 합니다. Excel 파일이 하나 이상의 워크시트를 포함하는 것처럼 보고서는 하나 이상의 페이지를 포함할 수 있습니다. 다음 이미지에는 개요(이미지 아래쪽 근처에 표시되는 탭)라는 Power BI Desktop 보고서의 첫 번째 페이지가 표시됩니다. 이 보고서에는 10개의 페이지가 있습니다.
+Power BI Desktop에서 모델을 만드는 데 사용한 데이터의 다양한 측면을 보여주는 시각적 개체 모음을 만들려고 하는 경우가 더 많습니다. 하나의 Power BI Desktop 파일에 있는 시각적 개체 모음을 ‘보고서’라고 합니다.  Excel 파일이 하나 이상의 워크시트를 포함하는 것처럼 보고서는 하나 이상의 페이지를 포함할 수 있습니다. 다음 이미지에는 개요(이미지 아래쪽 근처에 표시되는 탭)라는 Power BI Desktop 보고서의 첫 번째 페이지가 표시됩니다. 이 보고서에는 10개의 페이지가 있습니다.
 
 ![10개 페이지가 있는 Power BI Desktop 보고서](media/desktop-what-is-desktop/what-is-desktop_01.png)
 

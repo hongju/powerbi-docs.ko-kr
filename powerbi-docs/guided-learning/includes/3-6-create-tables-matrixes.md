@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 867e528c43126ae9073c0113905d59a835c46a96
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397611"
+---
 다양한 차트 외에 Power BI Desktop은 테이블 형식의 시각화도 지원합니다. 실제로 범주 필드 또는 텍스트 필드를 보고서 캔버스로 끌어오면 기본적으로 결과 테이블이 생성됩니다. 테이블을 위와 아래로 스크롤할 수 있으며 초기에는 사전순으로 정렬됩니다.
 
 ![](media/3-6-create-tables-matrixes/3-6_1.png)

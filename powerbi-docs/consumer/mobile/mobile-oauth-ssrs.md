@@ -1,20 +1,20 @@
 ---
 title: OAuth를 사용하여 Power BI Report Server 및 SSRS에 연결
 description: SQL Server Reporting Services 2016 이상에 연결하기 위해 Power BI 모바일 앱에서 OAuth 인증을 지원하도록 환경을 구성하는 방법을 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: 6e0b1c5d4a067925e4898cf23968cc14fd3f8fd6
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383626"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770358"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth를 사용하여 Power BI Report Server 및 SSRS에 연결
 
@@ -25,7 +25,7 @@ Power BI Report Server 및 SQL Server Reporting Services 2016 이상에 연결�
 OAuth를 통해 Power BI Report Server 및 Reporting Services에 연결하여 모바일 보고서 또는 KPI를 표시할 수 있습니다. Windows Server 2016은 웹 애플리케이션 프록시(WAP) 역할에 향상된 기능을 제공하여 이러한 형식의 인증을 허용합니다.
 
    > [!NOTE]
-   > 인증하기 위해 WAP를 사용하여 Power BI Report Server에서 호스트되는 Power BI 보고서를 보는 작업은 현재 공식적으로 지원되지 않습니다.
+   > Power BI Report Server에서 호스트 되는 Power BI 보고서를 보는 WAP를 사용 하 여 인증 하는 현재 지원 iOS 앱에만 합니다. Android 앱이이 시간에 공식적으로 지원 되지 않습니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -97,7 +97,7 @@ AD FS 관리 화면 내에서 Power BI 모바일 앱에 대한 정보가 포함�
 
 4. 추가하는 애플리케이션의 **이름**을 제공합니다. 
 
-5. **클라이언트 ID**가 자동으로 생성되는 반면 iOS 및 Android에 대해 484d54fc-b481-4eee-9505-0258a1913020을 입력합니다.
+5. **클라이언트 ID**가 자동으로 생성되는 반면 iOS 및 Android에 대해 484d54fc-b481-4eee-9505-0258a1913020을 입력합니다. 
 
 6. 다음 **리디렉션 URL**을 추가하려고 합니다.
 
@@ -118,7 +118,7 @@ AD FS 관리 화면 내에서 Power BI 모바일 앱에 대한 정보가 포함�
    > [!NOTE]
    > 이 URL은 대/소문자를 구분합니다.
 
-   *https://<url to report server>/reports*
+   *https://< 보고서 서버 url > /*
 
    ![ADFS 애플리케이션 그룹 마법사 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. **다음**을 선택합니다.
@@ -191,7 +191,7 @@ Active Directory 내의 WAP 서버 컴퓨터 계정에서 제한된 위임을 �
 보고서 액세스 관리 콘솔 내에서 애플리케이션을 게시하는 동안 PowerShell 통해 애플리케이션을 만들고자 합니다. 애플리케이션을 추가하는 명령은 다음과 같습니다.
 
 ```powershell
-Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
+Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
 | 매개 변수 | 주석 |

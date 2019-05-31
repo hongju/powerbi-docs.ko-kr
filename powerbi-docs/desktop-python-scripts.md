@@ -11,11 +11,11 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fcfbf4fb7be34739364fba176b28ea42934d5562
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216036"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61283966"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop에서 Python 스크립트 실행
 **Power BI Desktop**에서 직접 Python 스크립트를 실행하고 결과 데이터 세트를 Power BI Desktop 데이터 모델로 가져올 수 있습니다.
@@ -44,7 +44,7 @@ Power BI Desktop에서 Python 스크립트를 준비하고 실행하는 경우 �
 * Pandas 데이터 프레임만 가져와서 Power BI로 가져오려는 데이터가 데이터 프레임에 표시되는지 확인
 * 30분 이상 실행하는 Python 스크립트는 시간이 초과됨
 * 사용자 입력을 기다리는 등의 Python 스크립트의 대화형 호출은 스크립트의 실행을 중지함
-* Python 스크립트 내에서 작업 디렉터리를 설정할 때, 작업 디렉터리에 ‘반드시’ 상대 경로가 아닌 전체 경로를 정의해야 합니다.
+* Python 스크립트 내에서 작업 디렉터리를 설정할 때, 작업 디렉터리에 ‘반드시’ 상대 경로가 아닌 전체 경로를 정의해야 합니다. 
 * 중첩 테이블(테이블의 테이블)은 현재 지원되지 않습니다. 
 
 ### <a name="run-your-python-script-and-import-data"></a>Python 스크립트 실행 및 데이터 가져오기

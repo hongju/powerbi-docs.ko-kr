@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d2ba689be99955c649930c1ee4b203b67577619c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397756"
+---
 차트 또는 시각적 개체에 사용된 색을 수정하려는 경우가 자주 있습니다. Power BI에서는 색이 표시되는 방식에 대한 다양한 제어 옵션을 제공합니다. 시작하려면 **시각화** 창에서 시각적 개체를 선택한 다음 **그림판** 아이콘을 클릭합니다.
 
 ![](media/3-9a-modifying-colors/3-9a_1.png)

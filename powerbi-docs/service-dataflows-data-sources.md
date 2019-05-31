@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 81449d7a07bec3c142930573154ecd13a0ceff49
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324924"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61141397"
 ---
-# <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Power BI 데이터 흐름에 대한 데이터 원본에 연결(미리 보기)
+# <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI 데이터 흐름에 대 한 데이터 원본에 연결
 
 Power BI 데이터 흐름을 사용하면 다양한 데이터 원본에 연결하여 새 데이터 흐름을 만들거나 기존 데이터 흐름에 새 엔터티를 추가할 수 있습니다.
 
 이 문서에서는 데이터 흐름을 만들거나 추가하는 데 사용할 수 있는 많은 데이터 원본이 나열되어 있으며, 이러한 데이터 원본을 사용하여 데이터 흐름을 만드는 방법을 설명합니다.
 
-데이터 흐름을 만들고 사용하는 방법에 대한 개요는 [Power BI에서 데이터 흐름 만들기 및 사용(미리 보기)](service-dataflows-create-use.md)을 참조하세요.
+만들기 및 데이터 흐름을 사용 하는 방법의 개요를 참조 하세요 [를 만들고 Power BI에서 데이터 흐름을 사용 하 여](service-dataflows-create-use.md)입니다.
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>데이터 원본에서 데이터 흐름 만들기
 
@@ -93,7 +93,7 @@ Power BI 데이터 흐름을 사용하면 다양한 데이터 원본에 연결�
 **온라인 서비스** 범주에는 데이터 흐름에 대해 다음과 같은 사용 가능한 데이터 연결이 포함됩니다.
 
 * Amazon Redshift
-* Common Data Service for Apps
+* 앱용 Common Data Service
 * Microsoft Exchange Online
 * Salesforce 개체
 * Salesforce 보고서
@@ -176,11 +176,11 @@ Power BI 데이터 흐름에서 데이터 원본에 연결하는 데 필요한 �
 
 이 문서에서는 데이터 흐름을 위해 연결할 수 있는 데이터 원본을 보여줍니다. 다음 문서에서는 데이터 흐름의 공통 사용 시나리오에 대해 자세히 설명합니다. 
 
-* [Power BI의 셀프 서비스 데이터 준비(미리 보기)](service-dataflows-overview.md)
+* [Power BI의 셀프 서비스 데이터 준비](service-dataflows-overview.md)
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
-* [Power BI Premium의 계산된 엔터티 사용(미리 보기)](service-dataflows-computed-entities-premium.md)
-* [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)](service-dataflows-developer-resources.md)
+* [Power BI 프리미엄에 계산 된 엔터티를 사용 하 여](service-dataflows-computed-entities-premium.md)
+* [데이터 흐름을 사용 하 여 온-프레미스 데이터 원본](service-dataflows-on-premises-gateways.md)
+* [Power BI 데이터 흐름에 대 한 개발자 리소스](service-dataflows-developer-resources.md)
 * [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)
 
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.

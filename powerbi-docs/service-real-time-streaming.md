@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514314"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI에서 실시간 스트리밍
@@ -157,7 +157,7 @@ Power BI에서 사용하고 시각화할 수 있는 실시간 스트리밍 데�
 
 ![](media/service-real-time-streaming/real-time-streaming_5.png)
 
-이 데이터 스트림을 통해 전송되는 데이터를 Power BI에 저장하려는 경우 기록 데이터 분석을 활성화하고 수집된 데이터 스트림에 대한 보고서 작성 및 분석을 수행할 수 있습니다. [API에 대해 자세히 알아볼](https://docs.microsoft.com/rest/api/power-bi/) 수도 있습니다.
+이 데이터 스트림을 통해 전송되는 데이터를 Power BI에 저장하려는 경우 기록 데이터 분석을 활성화하고 수집된 데이터 스트림에 대한 보고서 작성 및 분석을 수행할 수 있습니다.  [API에 대해 자세히 알아볼](https://docs.microsoft.com/rest/api/power-bi/) 수도 있습니다.
 
 데이터 스트림을 성공적으로 만들면 응용 프로그램이 *POST* 요청을 사용하여 데이터를 사용자가 만든 Power BI **스트리밍 데이터** 데이터 집합으로 푸시하도록 호출할 수 있는 REST API URL 엔드포인트가 제공됩니다.
 

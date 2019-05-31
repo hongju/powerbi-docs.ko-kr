@@ -1,20 +1,20 @@
 ---
 title: Power BI Embedded 콘텐츠에서 행 수준 보안 사용
 description: 애플리케이션 내에서 Power BI 콘텐츠를 포함하는 데 필요한 단계에 대해 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: fdc4e90c65ef02f7416ffce9a41b0b2ed028abc8
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.date: 03/27/2019
+ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57328013"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61354148"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded를 사용하는 행 수준 보안
 
@@ -98,7 +98,7 @@ var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view
 var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(GroupId, report.Id, generateTokenRequestParameters);
 ```
 
-받는 사람
+to
 
 ```csharp
 var generateTokenRequestParameters = new GenerateTokenRequest("View", null, identities: new List<EffectiveIdentity> { new EffectiveIdentity(username: "username", roles: new List<string> { "roleA", "roleB" }, datasets: new List<string> { "datasetId" }) });
@@ -214,6 +214,8 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
     ![PBI 보고서 샘플](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
 7. Power BI API를 통해 애플리케이션에서 CustomData 기능을 사용합니다.  사용자 지정 데이터 기능을 사용하여 토큰을 생성할 때 사용자 이름이 필요합니다. 사용자 이름은 마스터 사용자의 UPN과 같아야 합니다. 마스터 사용자는 생성한 역할의 구성원이어야 합니다. 역할을 지정하지 않으면 마스터 사용자가 구성원인 모든 역할이 RLS 평가에 사용됩니다.
+
+    사용 하 여 작업 하는 경우는 [서비스 주체](embed-service-principal.md), 마스터 계정 사용 하는 대신 위의 단계를 수행 해야 합니다. 생성 하는 embed 토큰을 사용 합니다 [서비스 주체 개체 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) 사용자 이름으로 합니다.
 
     > [!Note]
     > 애플리케이션을 프로덕션에 배포할 준비가 되면 마스터 사용자 계정 필드 또는 옵션이 최종 사용자에게 표시되지 않아야 합니다.

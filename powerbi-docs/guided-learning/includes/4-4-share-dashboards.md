@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6755233733c4500865615c28850793aae7972d9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263826"
+---
 Power BI를 통해 데이터를 찾고, 데이터 모델에 수집하고, 이 데이터를 사용하여 보고서 및 시각화를 작성하는 방법은 이미 살펴보았습니다. 또한 이러한 보고서를 Power BI 서비스에 게시하고 시간에 따른 정보를 모니터링하는 데 도움이 되는 대시보드를 만드는 방법도 살펴보았습니다. 이 모든 기능은 조직의 다른 사람과 정보를 공유할 때 훨씬 더 강력합니다. 다행히 대시보드를 쉽게 공유할 수 있습니다.
 
 대시보드를 공유하려면 Power BI 서비스에서 대시보드를 열고 오른쪽 위에 있는 **공유** 링크를 선택합니다.

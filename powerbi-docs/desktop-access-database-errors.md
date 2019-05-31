@@ -12,14 +12,14 @@ ms.date: 05/06/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 6e504d472e4fabb5c336f36e1bef50ae4920ef17
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239771"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Power BI Desktop에서 액세스 및 .XLS 파일 가져오기 문제 해결
-**Power BI Desktop**에서 **Access 데이터베이스** 및 초기 버전의 **Excel 통합 문서**(Excel 97-2003 형식의 .XLS 파일)는 모두 ‘Access 데이터베이스 엔진’을 사용합니다. 액세스 데이터베이스 엔진이 제대로 작동하는 것을 방해할 수 있는 세 가지 일반적인 상황이 있습니다.
+**Power BI Desktop**에서 **Access 데이터베이스** 및 초기 버전의 **Excel 통합 문서**(Excel 97-2003 형식의 .XLS 파일)는 모두 ‘Access 데이터베이스 엔진’을 사용합니다.  액세스 데이터베이스 엔진이 제대로 작동하는 것을 방해할 수 있는 세 가지 일반적인 상황이 있습니다.
 
 ## <a name="situation-1-no-access-database-engine-installed"></a>상황 1: 설치된 Access 데이터베이스 엔진 없음
 Power BI Desktop 오류 메시지가 Access 데이터베이스 엔진이 설치되지 않았다고 나타내는 경우 Access 데이터베이스 엔진 버전을 Power BI Desktop 버전과 일치하는 32비트 또는 64비트 버전으로 설치해야 합니다. [다운로드 페이지](http://www.microsoft.com/download/details.aspx?id=13255)에서 Access 데이터베이스 엔진을 설치할 수 있습니다.

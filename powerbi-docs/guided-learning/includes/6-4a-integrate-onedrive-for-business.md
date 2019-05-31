@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 6ce1c53fa1206f7cc828bfcdb26f5f4cd9d3c524
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256273"
+---
 이전 문서에서는 조직에서 Power BI에 있는 콘텐츠를 쉽게 관리하고 공동 작업을 수행할 수 있도록 그룹을 만드는 방법을 살펴보았습니다. Power BI/Office 365 그룹을 사용하여 **비즈니스용 OneDrive**를 통해 공동 작업 및 공유할 수도 있습니다.
 
 비즈니스용 OneDrive를 Power BI 콘텐츠 소스로 사용하면 버전 기록과 같은 여러 가지 유용한 도구에 액세스할 수 있습니다. 또한 비즈니스용 OneDrive 내에서 Office 365 그룹과 파일을 공유하여 액세스를 제공하고 여러 사람이 동일한 Power BI 또는 Excel 파일에서 작업하도록 허용할 수 있습니다.

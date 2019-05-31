@@ -11,11 +11,11 @@ ms.date: 12/03/2018
 ms.author: mblythe
 LocalizationGroup: Get started
 ms.openlocfilehash: b524f1b995a3eb67147a16617f3451f5e2cae44b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289535"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61165906"
 ---
 # <a name="extended-pro-trial-activation"></a>Extended Pro 평가판 활성화
 
@@ -40,7 +40,7 @@ ms.locfileid: "54289535"
 
 * 2016년 5월 3일부터 2017년 5월 2일 사이에 활성화된 Power BI 무료 사용자는 Extended Pro 평가판에 대한 자격이 있었습니다.
 
-* 사용자가 ‘60일 제품 내 Pro 평가판’을 이전에 사용하였거나 현재 사용 중이라면 Extended Pro 평가판에 대한 자격이 있었습니다.
+* 사용자가 ‘60일 제품 내 Pro 평가판’을 이전에 사용하였거나 현재 사용 중이라면 Extended Pro 평가판에 대한 자격이 있었습니다. 
 
 > [!NOTE]
 > Power BI Pro 또는 Office 365 내 Power BI Pro 평가판 구독에서 할당된 라이선스가 있는 사용자는 이 제안에서 제외되었습니다.

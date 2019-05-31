@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 74d45bf5fcaf51c29d1f1818b3d14d85d73ff086
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397656"
+---
 이 문서에서는 새 가로 막대형 차트, 원형 차트 및 트리맵을 만들고 이를 보고서에 맞게 사용자 지정하는 방법을 알아봅니다.
 
 Power BI Desktop에서 새 시각화를 만드는 방법에는 두 가지 방법이 있습니다.

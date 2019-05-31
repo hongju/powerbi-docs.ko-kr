@@ -11,15 +11,15 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514552"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>자습서: Power BI Desktop에서 계산 열 만들기
 
-분석 중인 데이터에 원하는 결과를 얻는 데 필요한 특정 필드가 없는 경우도 있습니다. 이때 ‘계산 열’이 사용됩니다. 계산 열은 DAX(Data Analysis Expressions) 수식을 사용하여 다른 몇 개 열에서 텍스트 값을 결합하는 것부터 다른 값에서 숫자 값을 계산하는 것까지 열의 값을 정의합니다. 예를 들어 데이터에 **City** 및 **State** 필드가 포함되어 있지만 “Miami, FL”과 같이 하나의 **Location** 필드에 두 필드를 모두 포함하려 한다고 가정합니다. 계산된 열은 바로 이런 용도로 사용됩니다.
+분석 중인 데이터에 원하는 결과를 얻는 데 필요한 특정 필드가 없는 경우도 있습니다. 이때 ‘계산 열’이 사용됩니다.  계산 열은 DAX(Data Analysis Expressions) 수식을 사용하여 다른 몇 개 열에서 텍스트 값을 결합하는 것부터 다른 값에서 숫자 값을 계산하는 것까지 열의 값을 정의합니다. 예를 들어 데이터에 **City** 및 **State** 필드가 포함되어 있지만 “Miami, FL”과 같이 하나의 **Location** 필드에 두 필드를 모두 포함하려 한다고 가정합니다. 계산된 열은 바로 이런 용도로 사용됩니다.
 
 계산 열과 [측정값](desktop-tutorial-create-measures.md)은 모두 DAX 수식을 기반으로 한다는 점에서 비슷하지만 사용하는 방식이 다릅니다. 측정값은 다른 필드를 기준으로 결과 값을 계산하기 위해 시각화의 **값** 영역에 주로 사용됩니다. 계산 열을 시각화의 행, 축, 범례 및 그룹 영역에서 새 **필드**로 사용합니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "65514552"
     
     ![수식 입력줄](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-2.  기본적으로 새 계산 열의 이름은 열로 지정됩니다. 이름을 바꾸지 않으면 추가하는 새 열의 이름이 열 2, 열 3 등으로 지정됩니다. 열을 더 쉽게 확인할 수 있게 하려면 **열** 이름은 수식 입력줄에서 이미 강조 표시되어 있으므로 **ProductFullCategory**를 입력하여 이름을 바꾼 다음, 등호(**=**)를 입력합니다.
+2.  기본적으로 새 계산 열의 이름은 열로 지정됩니다. 이름을 바꾸지 않으면 추가하는 새 열의 이름이 열 2, 열 3 등으로 지정됩니다. 열을 더 쉽게 확인할 수 있게 하려면 **열** 이름은 수식 입력줄에서 이미 강조 표시되어 있으므로 **ProductFullCategory**를 입력하여 이름을 바꾼 다음, 등호( **=** )를 입력합니다.
     
 3.  새 열의 값을 ProductCategory 이름으로 시작하려고 합니다. 이 열은 다르지만 관련된 테이블에 있으므로 [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 함수를 사용하여 가져올 수 있습니다.
     
@@ -61,14 +61,14 @@ ms.locfileid: "65514552"
     > [!TIP]
     > 경우에 따라 Power BI Desktop에서 닫는 괄호를 자동으로 추가하지만 구문 오류는 닫는 괄호가 누락되거나 잘못 배치되어 발생하는 경우가 가장 많습니다.
     
-4. 새 값에서 ProductCategory 및 ProductSubcategory를 구별하는 데 대시 및 공백을 사용하려 하므로 첫 번째 식의 닫는 괄호 뒤에 공백, 앰퍼샌드(**&**), 큰따옴표(**"**), 공백, 대시(**-**), 다른 공백, 다른 큰따옴표 및 다른 앰퍼샌드를 입력합니다. 이제 수식이 다음과 같이 표시됩니다.
+4. 새 값에서 ProductCategory 및 ProductSubcategory를 구별하는 데 대시 및 공백을 사용하려 하므로 첫 번째 식의 닫는 괄호 뒤에 공백, 앰퍼샌드( **&** ), 큰따옴표( **"** ), 공백, 대시( **-** ), 다른 공백, 다른 큰따옴표 및 다른 앰퍼샌드를 입력합니다. 이제 수식이 다음과 같이 표시됩니다.
     
     `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
     
     > [!TIP]
     > 추가 공간이 필요한 경우 수식 입력줄의 오른쪽에 있는 아래쪽 펼침 단추를 선택하여 수식 편집기를 확장합니다. 편집기에서 **Alt+Enter**를 눌러 한 줄 아래로 이동하고 **Tab** 키를 눌러 항목을 이동합니다.
     
-5.  여는 대괄호(**[**)를 입력한 다음, **[ProductSubcategory]** 열을 선택하여 수식을 마칩니다. 
+5.  여는 대괄호( **[** )를 입력한 다음, **[ProductSubcategory]** 열을 선택하여 수식을 마칩니다. 
     
     ![ProductSubcategory 선택](media/desktop-tutorial-create-calculated-columns/create6.png)
     
@@ -110,11 +110,11 @@ Contoso Sales Sample에는 활성 및 비활성 매장에 대한 판매 데이�
     
     ![Status 선택](media/desktop-tutorial-create-calculated-columns/if2.png)
     
-4.  **[Status]** 바로 뒤에 **="On"** 를 입력한 다음, 쉼표(**,**)를 입력하여 인수를 종료합니다. 도구 설명에서는 결과가 TRUE일 때 반환할 값을 추가해야 한다고 제안합니다.
+4.  **[Status]** 바로 뒤에 **="On"** 를 입력한 다음, 쉼표( **,** )를 입력하여 인수를 종료합니다. 도구 설명에서는 결과가 TRUE일 때 반환할 값을 추가해야 한다고 제안합니다.
     
     ![TRUE 값 추가](media/desktop-tutorial-create-calculated-columns/if3.png)
     
-5.  매장의 상태가 “On”인 경우 매장 이름을 표시하려고 합니다. 여는 대괄호(**[**)를 입력하고 **[StoreName]** 열을 선택한 다음, 다른 쉼표를 입력합니다. 도구 설명에서는 결과가 FALSE일 때 반환할 값을 추가해야 한다고 나타냅니다. 
+5.  매장의 상태가 “On”인 경우 매장 이름을 표시하려고 합니다. 여는 대괄호( **[** )를 입력하고 **[StoreName]** 열을 선택한 다음, 다른 쉼표를 입력합니다. 도구 설명에서는 결과가 FALSE일 때 반환할 값을 추가해야 한다고 나타냅니다. 
     
     ![FALSE 값 추가](media/desktop-tutorial-create-calculated-columns/if4.png)
     

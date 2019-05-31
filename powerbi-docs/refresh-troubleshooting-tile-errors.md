@@ -1,22 +1,22 @@
 ---
 title: 타일 오류 문제 해결
 description: 타일이 Power BI에서 새로 고쳐질 때 발생할 수 있는 일반적인 오류
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bfb6178908a9d6a4bcfe81f8d3d9771ac5b12b9d
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.openlocfilehash: c1df7e6293db703922f37c3f28546bb296d1a46a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086635"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66050984"
 ---
 # <a name="troubleshooting-tile-errors"></a>타일 오류 문제 해결
 다음은 설명이 있는 타일에 발생할 수 있는 일반적인 오류입니다.
@@ -64,6 +64,17 @@ Power BI 관리자가 조직 또는 보안 그룹에 대한 사용자 지정 시
 **이 시각적 개체에 대한 데이터를 검색할 수 없습니다. 나중에 다시 시도하세요.**
 
 일반적으로 일시적인 문제가 있습니다. 나중에 다시 시도해도 이 메시지가 계속 표시되면 지원팀에 문의하세요.
+
+**타일 계속 single sign-on (SSO)을 사용 하도록 설정한 후 필터링 되지 않은 데이터를 표시 합니다.**
+
+이 기본 데이터 집합은 온-프레미스 데이터 게이트웨이 통해 Analysis services 라이브 연결 또는 DirectQuery 모드를 사용 하도록 구성 된 경우 발생할 수 있습니다. 이 경우 타일 계속 다음 타일 새로 고침 만료 될 때까지 데이터 원본에 대해 SSO를 활성화 한 후 필터링 되지 않은 데이터를 표시 합니다. 다음 타일 새로 고침에 그 구성에 따라 Power BI는 SSO를 사용 하 고 타일에는 사용자 id에 따라 필터링 된 데이터를 표시 합니다. 
+
+필터링된 된 데이터를 즉시 확인 하려는 경우 대시보드의 오른쪽 위에 있는 줄임표 (...)를 선택 하 고 선택 하 여 타일 새로 고침을 강제로 수 있습니다 **대시보드 타일 새로 고침**합니다.
+
+데이터 집합 소유자는 타일 새로 고침 빈도 변경 하 고 타일 새로 고침을 가속화 하는 데 15 분으로 설정 합니다. Power BI 서비스의 오른쪽 위 모서리에서 기어 아이콘을 선택한 다음 선택 **설정을**합니다. 에 **설정** 페이지에서 선택 합니다 **데이터 집합** 탭. 확장 **예약 된 캐시 새로 고침** 변경할 **새로 고침 빈도**합니다. Power BI는 다음 타일 새로 고침을 수행한 후 원래 새로 고침 빈도를 구성 재설정 해야 합니다.
+
+> [!NOTE]
+> 합니다 **예약 된 캐시 새로 고침** 섹션은 DirectQuery/LiveConnection 모드에서 데이터 집합에 사용할 수만 있습니다. 데이터 집합 가져오기 모드에서는 다음 예약 된 데이터 새로 고침 중의 타일은 자동으로 새로 고쳐집니다 때문에 별도 타일 새로 고침을 필요 하지 않습니다.
 
 ## <a name="contact-support"></a>지원 문의
 문제가 여전히 발생하는 경우 더 자세히 조사하기 위해 [지원팀에 문의](https://support.powerbi.com)합니다.

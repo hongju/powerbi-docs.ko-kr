@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3e89344ef1298864b485f465b28c56397a7e1511
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61194092"
+---
 ## <a name="using-the-username-or-userprincipalname-dax-function"></a>username() 또는 userprincipalname() DAX 함수 사용
 데이터 세트 내에서 DAX 함수 *username()* 또는 *userprincipalname()* 을 사용할 수 있습니다. Power BI Desktop의 식 내에서 사용할 수 있습니다. 모델을 게시하면 Power BI 서비스 내에서 사용됩니다.
 

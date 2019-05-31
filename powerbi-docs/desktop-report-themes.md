@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215738"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60989331"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
 **보고서 테마**를 사용하여 회사 색, 계절 색 또는 기타 색 테마와 같은 색 테마를 전체 보고서에 적용할 수 있습니다. **보고서 테마**를 적용할 때 보고서의 모든 시각적 개체는 선택한 테마의 색을 사용합니다. 몇 가지 예외가 적용되며 이 문서의 뒷부분에서 설명합니다.
@@ -24,21 +24,7 @@ ms.locfileid: "56215738"
 
 **보고서 테마**를 적용할 경우 기본 구조를 사용하는 JSON 파일이 필요합니다. 그런 다음, 이 JSON 파일을 Power BI Desktop으로 가져와서 보고서에 적용할 수 있습니다. JSON 파일 구조 및 가져오는 프로세스는 빠르고 간편합니다(단추 몇 번 클릭이면 됨).
 
-**Power BI Desktop**의 2017년 9월 버전부터 JSON 파일을 사용하여 더 많은 보고서 테마 요소를 정의할 수 있습니다. 거의 모든 요소를 사용자 지정 및 표준화할 수도 있습니다. 사용자 지정하려면 **서식** 창에서 수동으로 조정하는 JSON 파일을 사용합니다. 2017년 9월 릴리스(이상)의 목표는 보고서 모양과 느낌을 세부적인 수준으로 완전히 제어하는 것입니다.
-
-### <a name="enable-report-themes"></a>보고서 테마 사용하도록 설정
-**Power BI Desktop**의 2018년 8월 버전부터 보고서 테마는 일반 공급되며, 사용하도록 설정할 필요가 없습니다. 
-
-이전 버전의 **Power BI Desktop**을 사용하는 경우 다음 단계를 수행하여 미리 보기 기능으로 사용할 수 있습니다. 
-
-1. **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택합니다. 
-2. 그런 다음, **사용자 지정 보고서 테마** 옆에 있는 확인란을 선택합니다. 
-
-선택한 후에는 **Power BI Desktop**을 다시 시작해야 합니다.
-
-![사용자 지정 보고서 테마](media/desktop-report-themes/report-themes_2.png)
-
-[Power BI Desktop 가져오기](desktop-get-the-desktop.md)의 링크에서 가져올 수 있는 **Power BI Desktop**의 최신 버전으로 업그레이드하는 것이 좋습니다. 
+거의 모든 요소를 사용자 지정 및 표준화할 수도 있습니다. 사용자 지정하려면 **서식** 창에서 수동으로 조정하는 JSON 파일을 사용합니다. 목표는 보고서 모양과 느낌을 세부적인 수준으로 하는 방법에 대 한 모든 권한을 제공 하는 것입니다.
 
 ## <a name="how-report-themes-work"></a>보고서 테마 작동 방법
 보고서 테마를 Power BI Desktop 보고서에 적용하려면 사용 가능한 기본 제공 보고서 테마 중에서 선택하거나 사용자 지정 테마를 가져옵니다.
@@ -113,7 +99,7 @@ JSON 파일에는 다음과 같은 필수 줄이 있습니다.
 
 여기에서 선택한 색에 대한 고유한 색 16진수 코드를 입력할 수 있습니다.
 
-**Power BI Desktop**의 2017년 9월 버전부터는 JSON 파일이 훨씬 더 정교해질 수 있습니다. JSON 파일에서 조정하려는 서식만 정의하고 JSON 파일에 ‘지정되지 않은’ 항목은 간단히 Power BI 기본 설정으로 되돌아갑니다. 
+JSON 파일에서 조정하려는 서식만 정의하고 JSON 파일에 ‘지정되지 않은’ 항목은 간단히 Power BI 기본 설정으로 되돌아갑니다. 
 
 JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모든 차트가 12라는 글꼴 크기를 사용하거나 특정 시각적 개체가 특정 글꼴 제품군을 사용하도록 지정할 수 있습니다. 또는 특정 차트 종류의 데이터 레이블을 끌 수 있습니다.
 
@@ -230,7 +216,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 | gauge |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
-| image |
+| 이미지 |
 | KPI |
 | lineChart |
 | lineClusteredColumnComboChart |

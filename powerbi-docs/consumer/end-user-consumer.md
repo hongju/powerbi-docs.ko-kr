@@ -11,15 +11,15 @@ ms.date: 01/22/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: a4bdf9cdf56f9e7297973e1d1ce27ceb7c6447a7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56663049"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048101"
 ---
 <!-- fold this topic into existing topics -->
 # <a name="power-bi-for-consumers"></a>소비자용 Power BI
-Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. ‘최종 사용자’ 또는 ‘소비자’는 동료로부터 대시보드, 보고서 및 앱을 받는 사람입니다. 비즈니스 의사 결정을 위해 ***‘Power BI 서비스’*** 에서 이 콘텐츠를 검토하고 조작합니다.
+Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. ‘최종 사용자’ 또는 ‘소비자’는 동료로부터 대시보드, 보고서 및 앱을 받는 사람입니다.   비즈니스 의사 결정을 위해 ***‘Power BI 서비스’*** 에서 이 콘텐츠를 검토하고 조작합니다.
 
 ![Power BI 대시보드](media/end-user-consumer/power-bi-service.png)
 
@@ -31,8 +31,8 @@ Power BI를 처음 사용하는 경우 [Power BI 개요](../power-bi-overview.md
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI ‘소비자’에 대한 용어 및 개념](end-user-basic-concepts.md)
+[Power BI ‘소비자’에 대한 용어 및 개념](end-user-basic-concepts.md) 
 
 <!-- [Get started guide for *consumers*] -->
-[Power BI 서비스 사용 시작](../service-get-started.md)
+[Power BI 서비스를 사용 하 여 시작](../service-get-started.md)
 

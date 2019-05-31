@@ -1,75 +1,75 @@
 ---
-title: 소비자를 위한 Power BI의 시각화 유형
-description: Power BI 서비스의 시각화 유형
+title: 소비자에 대 한 Power BI에서 시각적 개체 유형
+description: Power BI 서비스에서 시각적 개체 유형
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/21/2019
+ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: ea86970565717d5dae8db865a65765f2c8245bad
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: acee7e78a19986a0f83e13836ba6d77f7c35fdce
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662391"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65711516"
 ---
-# <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
-시각화는 보고서, 대시보드, 앱 및 Q&A에서 찾을 수 있습니다. 이러한 시각화 유형 중 일부는 Power BI와 함께 패키지로 제공되며, 일부는 *사용자 지정 시각적 개체*입니다. 사용자 지정 시각적 개체는 Power BI 외부에서 생성되며, *보고서 디자이너*가 Power BI 보고서, 대시보드 및 앱에 추가할 수 있습니다. 
+# <a name="visual-types-in-power-bi"></a>Power BI에서 시각적 개체 유형
+보고서, 대시보드, 앱 및 q&a에서 시각적 개체를 찾을 수 있습니다. 이러한 시각적 개체 유형 중 일부는 Power BI를 사용 하 여 패키지 되며 일부가 *사용자 지정 시각적 개체*합니다. 사용자 지정 시각적 개체는 Power BI 외부에서 생성되며, *보고서 디자이너*가 Power BI 보고서, 대시보드 및 앱에 추가할 수 있습니다. 
 
-이 문서는 Power BI와 함께 패키지로 제공되는 시각화의 개요입니다.  이는 가장 자주 접하게 되는 시각화입니다. 
+이 문서는 Power BI를 사용 하 여 패키지 된 시각적 개체의 개요입니다.  이 가장 자주 발생 하는 시각적 개체입니다. 
 
 > [!NOTE]
 > 사용자 지정 시각적 개체에 대해 알아보려면 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)의 **Power BI 시각적 개체** 섹션에서 이를 검색합니다. 각 시각적 개체마다 설명, 작성자 정보, 스크린샷 또는 비디오를 찾을 수 있습니다. 
 
-## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI에서 사용할 수 있는 시각화 목록
-이러한 모든 시각화는 Power BI 앱, 대시보드, 보고서 및 [Q&A에 지정](#qna)에서 찾을 수 있습니다. 시각화와 상호 작용하는 방법을 알아보려면 [보고서, 대시보드 및 앱의 시각화와 상호 작용](end-user-visualizations.md)을 참조하세요.
+## <a name="list-of-visuals-available-in-power-bi"></a>Power BI에서 사용할 수 있는 시각적 개체의 목록
+이러한 시각적 개체의 모든 Power BI 앱에서 대시보드, 보고서에서 찾을 수 있습니다 하 고 [질문 및 답변에 지정 된](end-user-q-and-a.md)합니다. 시각적 개체 상호 작용 하는 방법에 알아보려면 참조 [보고서, 대시보드 및 앱의 시각적 개체와 상호 작용](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>영역형 차트: 기본(겹침) 및 누적
-![영역 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
+![영역 차트](media/end-user-visual-type/basic-area-map-small.png)
 
 기본 영역 차트는 축과 선 사이의 영역이 채워진 꺾은선형 차트를 기반으로 합니다. 영역형 차트는 시간에 따른 변경 크기를 강조하며 추세 간의 총 가치에 주목하도록 하는 데 사용할 수 있습니다. 예를 들어, 시간에 따른 수익을 나타내는 데이터를 영역형 차트에 그려 총 수익을 강조할 수 있습니다.
 
 ### <a name="bar-and-column-charts"></a>가로 막대형 및 세로 막대형 차트
-![세로 막대형 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
+![세로 막대형 차트](media/end-user-visual-type/pbi-nancy-viz-bar.png)
 
- ![가로 막대형 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
+ ![가로 막대형 차트](media/end-user-visual-type/pbi-nancy-viz-col.png)
 
 여러 범주의 특정 값을 살펴보는 데는 가로 막대형 차트가 표준입니다.
 
 ### <a name="cards-single-number"></a>카드: 단일 숫자
-![단일 숫자 카드](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
+![단일 숫자 카드](media/end-user-visual-type/pbi-nancy-viz-card.png)
 
 단일 숫자 카드는 단일 팩트, 단일 데이터 포인트를 표시합니다. Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율, 총 영업 기회와 같이 한 가지 가장 중요한 숫자만 추적하려는 경우가 있습니다.  
 
 ### <a name="cards-multi-row"></a>카드: 여러 행
-![여러 행 카드](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
+![여러 행 카드](media/end-user-visual-type/multi-row-card.png)
 
 여러 행 카드는 행마다 하나 이상의 데이터 포인트를 표시합니다.
 
 
 ### <a name="combo-charts"></a>콤보 차트
-![콤보 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
+![콤보 차트](media/end-user-visual-type/combo-small.png)
 
 콤보 차트는 세로 막대형 차트와 꺾은선형 차트를 결합합니다. 두 개의 차트를 하나로 결합하면 데이터를 더 빠르게 비교할 수 있습니다. 콤보 차트는 하나 또는 두 개의 Y축이 있을 수 있으므로 신중히 검토해야 합니다. 
 
 다음과 같은 경우 콤보 차트를 사용하는 것이 좋습니다.
 - X축이 동일한 꺾은선형 차트와 세로 막대형 차트가 있는 경우
 - 여러 값 범위와 여러 측정값을 비교하는 경우
-- 두 측정값 간의 상관관계를 하나의 시각화에 보여주는 경우
+- 하나의 시각적 개체에 두 측정값 간의 상관 관계를 보여 줍니다.
 - 하나의 측정값이 다른 측정값으로 정의된 목표를 충족하는지 확인하는 경우
 - 캔버스 공간을 절약하려는 경우
 
 ### <a name="doughnut-charts"></a>도넛형 차트
-![도넛형 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
+![도넛형 차트](media/end-user-visual-type/donut-small.png)
 
 도넛형 차트는 원형 차트와 비슷합니다.  이 차트는 전체에 대한 부분의 관계를 보여 줍니다. 가운데가 비어 있고 레이블 또는 아이콘이 들어갈 공간이 있다는 점만 다릅니다.
 
 ### <a name="funnel-charts"></a>깔대기형 차트
-![깔데기형 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
+![깔데기형 차트](media/end-user-visual-type/pbi-nancy-viz-funnel.png)
 
 깔대기형은 단계와 항목이 한 단계에서 다음 단계로 순차적으로 흐르는 프로세스를 시각화하는 데 도움이 됩니다.  한 가지 예는 잠재 고객으로 시작하여 구매 이행으로 끝나는 영업 프로세스입니다.
 
@@ -86,7 +86,7 @@ ms.locfileid: "56662391"
 - 클릭 광고/마케팅 캠페인의 진행률 및 성공 여부를 추적하려는 경우
 
 ### <a name="gauge-charts"></a>계기 차트
-![계기 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
+![계기 차트](media/end-user-visual-type/gauge-m.png)
 
 방사형 계기 차트는 원호 형태로 목표/KPI에 대한 진행률을 측정하는 단일 값을 표시합니다. 목표 또는 목표값은 선(바늘)으로 표시됩니다. 목표에 대한 진행률은 음영으로 표시됩니다. 진행률은 나타내는 값은 호의 내부에 굵게 표시됩니다. 모든 가능한 값은 최소(맨 왼쪽 값)에서 최대 (맨 오른쪽 값)까지 호를 따라 균등하게 분배됩니다.
 
@@ -99,14 +99,14 @@ ms.locfileid: "56662391"
 - 빠르게 훑어보고 이해할 수 있는 정보 표시
 
  ### <a name="key-influencers-chart"></a>주요 영향 요인 차트
-![주요 영향 요인](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
+![주요 영향 요인](media/end-user-visual-type/power-bi-influencer.png)
 
 주요 영향 요인 차트는 선택한 결과 또는 값에 대한 주요 기여자를 표시합니다.
 
 주요 영향 요인을 통해 주요 메트릭에 영향을 주는 요인을 이해하도록 도울 수 있습니다. 예: *두 번째 주문하는 고객에게 영향을 주는 요인*또는*지난 6월 매출이 높은 이유* 
 
 ### <a name="kpis"></a>KPI
-![KPI](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
+![KPI](media/end-user-visual-type/power-bi-kpi.png)
 
 KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률의 정도를 알리는 시각적 신호입니다. 
 
@@ -115,42 +115,42 @@ KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률�
 - 목표에 대한 거리 측정(초과 또는 미만 정도)
 
 ### <a name="line-charts"></a>꺽은선형 차트
-![꺾은선형 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
+![꺾은선형 차트](media/end-user-visual-type/pbi-nancy-viz-line.png)
 
 꺾은선형 차트는 일반적으로 시간 경과에 따른 전체 값의 전체적인 모양을 강조합니다.
 
 ### <a name="maps-basic-maps"></a>지도: 기본 지도
-![기본 지도](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
+![기본 지도](media/end-user-visual-type/pbi-nancy-viz-map.png)
 
 기본 지도를 사용하여 공간 위치와 범주 및 정량 정보를 연결합니다.
 
 ### <a name="maps-arcgis-maps"></a>지도: ArcGIS 맵
-![ArcGis 맵](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
+![ArcGis 맵](media/end-user-visual-type/power-bi-esri-map-theme2.png)
 
-ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어서 완전히 새로운 수준으로 매핑합니다. 기본 지도, 위치 유형, 테마, 기호 스타일 및 참조 계층 등 사용 가능한 옵션으로 멋진 정보 제공용 지도 시각화를 만듭니다. 공간 분석과 지도의 신뢰할 수 있는 데이터 계층(인구 조사 데이터 등)의 조합은 시각화에서 데이터의 심도 깊은 이해를 제공합니다.
+ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어서 완전히 새로운 수준으로 매핑합니다. 기본 지도, 위치 유형, 테마, 기호 스타일 및 참조 계층에 대 한 사용 가능한 옵션으로 멋진 정보 제공 용 지도 시각적 개체를 만듭니다. 공간 분석과 지도의 신뢰할 수 있는 데이터 계층 (예: 인구 조사 데이터)의 조합을 시각적 개체에 있는 데이터의 심도 깊은 이해를 전달 합니다.
 
 ### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도
-![등치 지역도](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
+![등치 지역도](media/end-user-visual-type/pbi-nancy-viz-filledmap.png)
 
 등치 지역도는 음영 또는 색조 또는 패턴을 사용하여 특정 값이 특정 지리 또는 지역을 기준으로 어떻게 다른지 표시합니다. 밝게(낮은 빈도/낮음)부터 어둡게(높은 빈도/높음)까지 다양한 음영으로 이러한 상대적 차이를 신속하게 표시합니다.
 
 ### <a name="maps-shape-maps"></a>지도: 도형 맵
-![도형 맵](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+![도형 맵](media/end-user-visual-type/power-bi-shape-map2.png)
 
 도형 맵은 색을 사용하여 맵의 영역을 비교합니다. M\맵 시각적 개체와 달리 도형 맵은 데이터 포인트의 정확한 지리적 위치를 맵에 표시할 수 없습니다. 대신, 색을 다르게 지정하여 맵 영역의 상대 비교를 표시하는 데 주로 사용됩니다.
 
 ### <a name="matrix"></a>행렬
-![행렬](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![행렬](media/end-user-visual-type/matrix.png)
 
 행렬 시각적 개체는 계단형 레이아웃을 지원하는 테이블 시각적 개체의 한 유형(아래 "표" 참조)입니다. 종종 보고서 디자이너는 보고서 및 대시보드에 행렬을 포함하여 사용자가 행렬에서 하나 이상의 요소(행, 열, 셀)를 선택하여 보고서에서 다른 시각적 개체를 교차 강조 표시할 수 있도록 합니다.  
 
 ### <a name="pie-charts"></a>원형 차트
-![원형 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+![원형 차트](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
 원형 차트는 전체에 대한 부분의 관계를 보여줍니다. 
 
 ### <a name="ribbon-chart"></a>리본 차트
-![리본 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+![리본 차트](media/end-user-visual-type/power-bi-ribbon.png)
 
 리본 차트는 가장 높은 순위를 가지는 데이터 범주(가장 큰 값)를 보여줍니다. 리본 차트는 각 기간에 가장 높은 범위(값)가 항상 위쪽에 표시되어 순위 변경 내용을 효과적으로 표시합니다.
 
@@ -159,21 +159,21 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 
 분산형 차트에는 항상 가로 축을 따라 하나의 숫자 데이터 집합을 표시하고 세로 축을 따라 다른 숫자 값 집합을 표시하는 두 개의 값 축이 있습니다. 차트에서 x 및 y 숫자 값의 교차점에 점이 표시되고 이러한 값이 단일 데이터 요소로 결합됩니다. 데이터에 따라 가로 축에 균등 또는 불균등하게 이러한 데이터 요소를 배포할 수 있습니다.
 
-![거품형 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)
+![거품형 차트](media/end-user-visual-type/pbi-nancy-viz-bubble.png)
 
 거품형 차트는 데이터 요소를 거품으로 바꾸고 거품 크기로 데이터의 추가 차원을 나타냅니다.
 
 X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제외하면 점 그림 차트는 거품형 차트 및 분산형 차트와 비슷합니다.
 
 ### <a name="scatter-high-density"></a>분산형-고밀도
-![고밀도 분산형](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+![고밀도 분산형](media/end-user-visual-type/density-scatter.png)
 
-정의에 따르면, 고밀도 데이터를 샘플링하여 상호 작용에 응답하는 시각화를 합리적으로 빠르게 만듭니다. 고밀도 샘플링은 겹치는 지점을 제거하고 데이터 세트의 모든 지점이 시각적 개체에 표시되도록 하는 알고리즘을 사용합니다. 단지 데이터의 대표적인 샘플만 플롯하지 않습니다.  
+기본적으로 비교적 신속 하 게 상호 작용에 응답할 수 있는 시각적 개체를 만들 고밀도 데이터를 샘플링 합니다. 고밀도 샘플링은 겹치는 지점을 제거하고 데이터 세트의 모든 지점이 시각적 개체에 표시되도록 하는 알고리즘을 사용합니다. 단지 데이터의 대표적인 샘플만 플롯하지 않습니다.  
 
 이를 통해 전반적인 데이터 세트에서 중요한 포인트에 대한 응답성, 표현 및 명확한 보존의 최적 조합을 보장할 수 있습니다.
 
 ### <a name="slicers"></a>슬라이서
-![slicer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![slicer](media/end-user-visual-type/pbi-slicer.png)
 
 슬라이서는 페이지의 다른 시각적 개체를 필터링하는 데 사용할 수 있는 독립 실행형 차트입니다. 슬라이서는 다양한 형식(범주, 범위, 날짜 등)으로 제공되며 사용 가능한 값 중 하나, 여러 가지 또는 모두를 선택할 수 있도록 형식을 지정할 수 있습니다. 
 
@@ -184,13 +184,13 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 - 중요한 시각적 개체 옆에 슬라이서를 배치하여 더 집중된 보고서를 만드는 경우
 
 ### <a name="standalone-images"></a>독립 실행형 이미지
-![독립 실행형 이미지](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
+![독립 실행형 이미지](media/end-user-visual-type/pbi-nancy-viz-image.png)
 
 독립 실행형 이미지는 보고서 또는 대시보드에 추가된 그래픽입니다. 
 
 
 ### <a name="tables"></a>테이블
-![테이블 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
+![테이블 차트](media/end-user-visual-type/table-type.png)
 
 테이블은 논리적으로 연속된 행과 열에서 관련된 데이터를 포함하는 표입니다. 머리글과 합계에 대한 행이 포함될 수도 있습니다. 테이블은 단일 범주에 대한 많은 값을 볼 수 있는 정량적 비교와 잘 작동합니다. 예를 들어 이 테이블은 범주에 대한 5개의 서로 다른 측정값을 표시합니다.
 
@@ -200,7 +200,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 - 숫자 데이터를 범주별로 표시
 
 ### <a name="treemaps"></a>트리맵
-![트리맵 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![트리맵 차트](media/end-user-visual-type/pbi-nancy-viz-tree.png)
 
 트리맵은 값을 나타내는 크기와 색이 지정된 사각형으로 구성된 차트입니다.  이 차트는 사각형이 주 사각형 내에 중첩되는 계층 구조 형식일 수 있습니다. 각 사각형 내부의 공간은 측정되는 값을 기반으로 하여 할당됩니다. 사각형은 크기순으로 가장 큰 것이 왼쪽 위, 가장 작은 것이 오른쪽 아래에 정렬됩니다.
 
@@ -213,7 +213,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 - 패턴, 이상값, 가장 중요한 기여자 및 예외를 강조하는 경우
 
 ### <a name="waterfall-charts"></a>폭포 차트
-![폭포 차트](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/waterfallsmall.png)
+![폭포 차트](media/end-user-visual-type/waterfall-small.png)
 
 폭포 차트는 값을 더하거나 뺄 때의 누계를 보여줍니다. 초기 값(예: 순수입)이 일련의 양수 및 음수 변경에 어떻게 영향을 받는지 이해하는 데 유용합니다.
 
@@ -226,13 +226,14 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 - 1년 동안 회사의 시작 및 종료 인력을 나타내기 위해
 - 매달 벌고 쓰는 금액이 얼마인지 그리고 계좌의 잔고가 얼마인지를 시각화하기 위해
 
-## <a name="tell-qa-which-visualization-to-use"></a>질문 및 답변에 사용할 시각화 알리기
-Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에서 시각화 유형을 지정할 수 있습니다.  예:
+## <a name="qna"></a>질문 및 답변 지시는 시각적 개체를 사용 하 여
+Power BI q&a를 사용 하 여 자연어 쿼리를 입력할 때 쿼리에서 시각적 개체 유형을 지정할 수 있습니다.  예:
+
 
 "***시/도별 매출을 트리 맵으로***"
 
-![질문 및 답변 세션](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![질문 및 답변 세션](media/end-user-visual-type/qa-treemap.png)
 
 ## <a name="next-steps"></a>다음 단계
-[보고서, 대시보드 앱의 시각화와 상호 작용](end-user-visualizations.md)    
+[보고서, 대시보드 및 앱의 시각적 개체 상호 작용](end-user-visualizations.md)    
 [sqlbi.com에서 오른쪽 시각적 개체 참조](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220911"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136500"
 ---
-# <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Power BI의 데이터 흐름 간에 엔터티 연결(미리 보기)
+# <a name="link-entities-between-dataflows-in-power-bi"></a>Power BI의 데이터 흐름 간에 엔터티 연결
 
 Power BI의 데이터 흐름을 사용하면 단일 조직 데이터 스토리지 원본을 보유할 수 있으므로 비즈니스 분석가가 데이터를 준비하고 관리하여 조직의 여러 분석 앱 간에 재사용할 수 있습니다. 
 
@@ -29,7 +29,7 @@ Power BI의 데이터 흐름을 사용하면 단일 조직 데이터 스토리�
 
 ## <a name="linked-entity-availability"></a>연결된 엔터티 가용성
 
-연결된 엔터티를 새로 고치려면 [Power BI Premium](service-premium.md) 구독이 필요합니다. 연결된 엔터티는 Power BI Premium 용량에 호스트된 작업 영역의 모든 데이터 흐름에서 사용할 수 있습니다. 원본 데이터 흐름에 대한 제한 사항은 없습니다.
+연결된 엔터티를 새로 고치려면 [Power BI Premium](service-premium-what-is.md) 구독이 필요합니다. 연결된 엔터티는 Power BI Premium 용량에 호스트된 작업 영역의 모든 데이터 흐름에서 사용할 수 있습니다. 원본 데이터 흐름에 대한 제한 사항은 없습니다.
 
 연결된 엔터티는 새 Power BI 작업 영역에서만 제대로 작동합니다. [새 Power BI 작업 영역](service-create-the-new-workspaces.md)에 대해 자세히 알아볼 수 있습니다. 모든 연결된 데이터 흐름이 제대로 작동하려면 새 작업 영역에 있어야 합니다.
 
@@ -88,11 +88,11 @@ Power BI 서비스의 **엔터티 추가** 메뉴 항목에서 **연결된 엔�
 
 다음 문서는 데이터 흐름을 만들거나 데이터 흐름으로 작업하는 데 유용할 수 있습니다. 
 
-* [Power BI의 셀프 서비스 데이터 준비(미리 보기)](service-dataflows-overview.md)
+* [Power BI의 셀프 서비스 데이터 준비](service-dataflows-overview.md)
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
-* [Power BI Premium의 계산된 엔터티 사용(미리 보기)](service-dataflows-computed-entities-premium.md)
-* [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)](service-dataflows-developer-resources.md)
+* [Power BI 프리미엄에 계산 된 엔터티를 사용 하 여](service-dataflows-computed-entities-premium.md)
+* [데이터 흐름을 사용 하 여 온-프레미스 데이터 원본](service-dataflows-on-premises-gateways.md)
+* [Power BI 데이터 흐름에 대 한 개발자 리소스](service-dataflows-developer-resources.md)
 
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)

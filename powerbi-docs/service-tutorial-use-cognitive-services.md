@@ -12,11 +12,11 @@ ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c0c1ea450a4b386644fd1c83e9831e993c2b8e5a
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965997"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61404085"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>자습서: Power BI에서 Cognitive Services 사용
 
@@ -29,7 +29,7 @@ Cognitive Services 변환은 [데이터 흐름을 위한 셀프 서비스 데이
 > [!div class="checklist"]
 > * 데이터 흐름으로 데이터 가져오기
 > * 데이터 흐름에 있는 텍스트 열의 감정 점수 매기기 및 핵심 구 추출
-> * Power BI Desktop에서 결과에 연결
+> * Power BI Desktop의 결과에 연결
 
 
 ## <a name="prerequisites"></a>필수 조건
@@ -57,7 +57,7 @@ URL [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
-위쪽 리본에서 **테이블 변환**을 선택하고 **첫 행을 머리글로 사용**을 선택합니다. 이제 데이터를 텍스트 분석에 사용할 준비가 되었습니다. 고객 의견 열에서 감정 점수 매기기 및 핵심 구 추출을 사용할 수 있습니다.
+위쪽 리본에서 **Transform Table**(테이블 변환)을 선택하고 **첫 행을 헤더로 사용**을 선택합니다. 이제 데이터를 텍스트 분석에 사용할 준비가 되었습니다. 고객 의견 열에서 감정 점수 매기기 및 핵심 구 추출을 사용할 수 있습니다.
 
 파워 쿼리 편집기에서 **AI 인사이트**를 선택합니다.
 
@@ -129,7 +129,7 @@ in
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
 
-자격 증명을 묻는 메시지가 표시되면 ‘익명’을 선택합니다.
+자격 증명을 묻는 메시지가 표시되면 ‘익명’을 선택합니다. 
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
 
@@ -147,7 +147,7 @@ in
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
-이미지 태그 지정 함수를 선택하고 열 필드에 _[이진]_, 문화권 정보 필드 _en_을 입력합니다. 
+이미지 태그 지정 함수를 선택하고 열 필드에 _[이진]_ , 문화권 정보 필드 _en_을 입력합니다. 
 
 > [!NOTE]
 > 현재는 드롭다운을 사용하여 열을 선택할 수 없습니다. 이 문제는 비공개 미리 보기 기간에 최대한 신속하게 해결될 것입니다.

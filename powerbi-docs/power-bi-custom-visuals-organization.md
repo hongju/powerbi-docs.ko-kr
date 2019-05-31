@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 157b20107a5be106ac97e0cb927b1e496e1ba115
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695084"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61421912"
 ---
 # <a name="organizational-custom-visuals-in-power-bi"></a>Power BI의 조직의 사용자 지정 시각적 개체
 

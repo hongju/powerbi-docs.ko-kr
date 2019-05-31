@@ -2,20 +2,20 @@
 title: Azure Portal에서 Power BI Embedded 용량 일시 중지 및 시작| Microsoft Docs
 description: 이 아티클은 Microsoft Azure에서 Power BI Embedded 용량을 일시 중지 및 시작하는 방법을 안내합니다.
 services: power-bi-embedded
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
-ms.openlocfilehash: 9f939c0eae4f7ea1f24eec473549dc00191f1b67
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
-ms.translationtype: HT
+ms.openlocfilehash: 8a02654f264fb83f501679e4e205e08017f083f6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360506"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61387476"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal에서 Power BI Embedded 용량 일시 중지 및 시작
 
@@ -74,7 +74,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 ## <a name="next-steps"></a>다음 단계
 
-크기를 확장 또는 축소하려는 경우 [Power BI Embedded 용량 크기 조정](azure-pbie-scale-capacity.md)을 참조하세요.
+크기를 확장 또는 축소하려는 경우 참조 [Power BI Embedded 용량 크기 조정](azure-pbie-scale-capacity.md)을 참조하세요.
 
 애플리케이션 내에서 Power BI 콘텐츠를 포함하려면 [Power BI 대시보드, 보고서 및 타일 포함 방법](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/)을 참조하세요.
 

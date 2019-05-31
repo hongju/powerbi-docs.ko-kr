@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: ecd58ca21e7fb6c5fb0bc2d3410788e2563efa9b
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454514"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 시작
@@ -114,7 +114,7 @@ Power BI Desktop이 설치되면 계속 확장되는 데이터에 연결할 수 
 Power BI Desktop의 쿼리 편집기에서는 리본 메뉴에서 사용 가능한 작업 외에 오른쪽 클릭 메뉴를 많이 사용합니다. 리본 메뉴의 **변환** 탭에서 선택할 수 있는 옵션은 대부분 항목(예: 열)을 마우스 오른쪽 단추로 클릭하고 나타나는 메뉴에서 선택하여 사용할 수도 있습니다.
 
 ## <a name="shape-data"></a>데이터 모양 지정
-**쿼리 편집기**에서 데이터를 셰이핑하는 경우 **쿼리 편집기**가 데이터를 로드 및 표시할 때 데이터를 조정하는 단계별 지침(**쿼리 편집기**가 자동으로 수행)을 제공합니다. 원래 데이터 원본은 영향을 받지 않습니다. 이 특정 데이터 보기가 조정되거나 셰이핑됩니다.
+**쿼리 편집기**에서 데이터를 셰이핑하는 경우 **쿼리 편집기**가 데이터를 로드 및 표시할 때 데이터를 조정하는 단계별 지침(**쿼리 편집기**가 자동으로 수행)을 제공합니다. 원래 데이터 원본은 영향을 받지 않습니다. 이 특정 데이터 보기가 조정되거나 셰이핑됩니다. 
 
 지정하는 단계(예: 테이블 이름 바꾸기, 데이터 형식 변환 또는 열 삭제)는 **쿼리 편집기**에 의해 기록되고, 이 쿼리가 데이터 소스에 연결할 때마다 데이터가 항상 지정한 방식으로 셰이핑되도록 이러한 단계가 수행됩니다. Power BI Desktop에서 쿼리를 사용할 때마다 또는 **Power BI** 서비스 등에서 공유 쿼리를 사용하는 사용자에 대해 이 프로세스가 발생합니다. 이러한 단계는 **쿼리 설정** 창의 **적용된 단계**아래에 순차적으로 캡처됩니다.
 
@@ -187,9 +187,9 @@ Power BI Desktop의 쿼리 편집기에서는 리본 메뉴에서 사용 가능�
 
 * *열 및 테이블 자체의 이름 바꾸기* – 일반적으로 열 이름을 바꾸는 몇 가지 방법이 있습니다. 원하는 방법을 선택할 수 있습니다.
 
-*StateCodes* 테이블을 셰이핑했으므로 이러한 두 테이블 또는 쿼리를 하나로 결합할 수 있습니다. 이제 테이블이 데이터에 적용한 쿼리의 결과이므로 쿼리라고도 합니다.
+*StateCodes* 테이블을 셰이핑했으므로 이러한 두 테이블 또는 쿼리를 하나로 결합할 수 있습니다. 이제 테이블이 데이터에 적용한 쿼리의 결과이므로 쿼리라고도 합니다. 
 
-쿼리를 결합하는 기본 방법에는 *병합* 및 추가의 두 가지가 있습니다.
+쿼리를 결합하는 기본 방법에는 *병합* 및 추가의 두 가지가 있습니다. 
 
 다른 쿼리에 추가하려는 열이 하나 이상 있는 경우 쿼리를 **병합** 합니다. 기존 쿼리에 추가하려는 데이터 행이 더 있는 경우 쿼리를 **추가** 합니다.
 
@@ -197,7 +197,7 @@ Power BI Desktop의 쿼리 편집기에서는 리본 메뉴에서 사용 가능�
 
  ![](media/desktop-getting-started/shapecombine_mergequeries.png)
 
-**병합** 창이 나타나고, 선택한 테이블에 병합하려는 테이블 및 병합에 사용할 일치하는 열을 선택하라는 메시지가 표시됩니다. *RetirementStats* 테이블(쿼리)에서 State를 선택한 다음 StateCodes 쿼리를 선택합니다. 이 경우에는 다른 쿼리가 하나뿐이므로 쉽지만 여러 데이터 소스에 연결하는 경우 많은 쿼리 중에서 선택해야 합니다. 일치하는 열(RetirementStats의 State 및 StateCodes의 State Name)을 올바르게 선택하면 **병합** 창이 다음과 같이 나타나고 **확인** 단추를 사용할 수 있습니다.
+**병합** 창이 나타나고, 선택한 테이블에 병합하려는 테이블 및 병합에 사용할 일치하는 열을 선택하라는 메시지가 표시됩니다. *RetirementStats* 테이블(쿼리)에서 State를 선택한 다음 StateCodes 쿼리를 선택합니다. 이 경우에는 다른 쿼리가 하나뿐이므로 쉽지만 여러 데이터 소스에 연결하는 경우 많은 쿼리 중에서 선택해야 합니다.   일치하는 열(RetirementStats의 State 및 StateCodes의 State Name)을 올바르게 선택하면 **병합** 창이 다음과 같이 나타나고 **확인** 단추를 사용할 수 있습니다.    
 
  ![](media/desktop-getting-started/shapecombine_merge.png)
 
@@ -235,7 +235,7 @@ Power BI Desktop의 쿼리 편집기에서는 리본 메뉴에서 사용 가능�
 
  ![](media/desktop-getting-started/designer_gsg_collapsepanes.png)
 
-시각화를 만들려면 **필드** 목록에서 **보고서**  필드를 끌면 됩니다. 여기서는 *RetirementStats* 에서 State필드를 끌어 결과를 확인해 보겠습니다.
+시각화를 만들려면 **필드** 목록에서 **보고서**  필드를 끌면 됩니다. 여기서는 *RetirementStats* 에서 State필드를 끌어 결과를 확인해 보겠습니다. 
 
  ![](media/desktop-getting-started/designer_gsg_reportfirstdrag.png)
 
@@ -247,14 +247,14 @@ Power BI Desktop의 쿼리 편집기에서는 리본 메뉴에서 사용 가능�
 
 앞으로 약간 돌아가서 몇 개의 시각화와 몇 개의 새 보고서 페이지가 추가된 후 **보고서** 보기가 어떻게 표시되는지 살펴보겠습니다. 보고서에 대한 자세한 내용은 [Power BI Desktop의 보고서 보기](desktop-report-view.md)를 참조하세요.
 
-첫 번째 보고서 페이지는 Overall rank를 기반으로 하는 데이터 큐브 뷰를 제공합니다. 시각화 중 하나를 선택하면 **필드 및 필터** 창에 선택한 필드 및 시각화 구조( **Shared Axis**, **Column Values**및 **Line Values**에 적용된 필드)가 표시됩니다.
+첫 번째 보고서 페이지는 Overall rank를 기반으로 하는 데이터 큐브 뷰를 제공합니다.  시각화 중 하나를 선택하면 **필드 및 필터** 창에 선택한 필드 및 시각화 구조( **Shared Axis**, **Column Values**및 **Line Values**에 적용된 필드)가 표시됩니다.
 
  ![](media/desktop-getting-started/designer_gsg_report1.png)
 
 이 보고서에는 6개의 **페이지** 가 있고, 각각 데이터의 특정 요소를 시각화합니다.
 
-1. 위에 표시된 첫 번째 페이지는 Overall rank를 기준으로 모든 주를 표시합니다.
-2. 두 번째 페이지는 Overall rank를 기준으로 상위 10개 주에 집중합니다.
+1. 위에 표시된 첫 번째 페이지는 Overall rank를 기준으로 모든 주를 표시합니다. 
+2. 두 번째 페이지는 Overall rank를 기준으로 상위 10개 주에 집중합니다. 
 3. 세 번째 페이지의 경우 주거 비용(및 관련 데이터)의 상위 10개 주가 시각화되어 있습니다.
 4. 네 번째 페이지의 초점은 날씨로, 일조량이 가장 많은 15개 주로 필터링되어 있습니다.
 5. 다섯 번째 페이지에서는 상위 15개 주의 지역 사회 복지가 차트로 작성되고 시각화되어 있습니다.
@@ -313,7 +313,7 @@ Power BI에 로그인하면 방금 전에 로드한 Power BI Desktop 파일이 �
 
 보고서 캔버스 위쪽에서 **보고서 편집** 을 선택하여 **Power BI** 서비스에서 보고서를 변경할 수 있습니다.
 
-보고서를 저장하려면 서비스에서 **파일 \>다른 이름으로 저장**을 선택합니다. **Power BI** 서비스의 보고서에서 모든 종류의 흥미로운 시각적 개체를 만들어 대시보드에 고정할 수 있습니다. **Power BI** 서비스<strong>[의 대시보드에 대한 자세한 내용은 유용한 대시보드를 디자인하기 위한 팁](service-dashboards-design-tips.md)</strong>을 참조하세요.
+보고서를 저장하려면 서비스에서 **파일 \>다른 이름으로 저장**을 선택합니다. **Power BI** 서비스의 보고서에서 모든 종류의 흥미로운 시각적 개체를 만들어 대시보드에 고정할 수 있습니다.  **Power BI** 서비스<strong>[의 대시보드에 대한 자세한 내용은 유용한 대시보드를 디자인하기 위한 팁](service-dashboards-design-tips.md)</strong>을 참조하세요.
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

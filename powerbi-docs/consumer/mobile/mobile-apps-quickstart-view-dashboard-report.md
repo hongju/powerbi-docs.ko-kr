@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
-ms.date: 11/16/2018
+ms.date: 04/18/2019
 ms.author: mshenhav
-ms.openlocfilehash: 9bb6dec4cdb689d2a21812b1dab8ebeb49090542
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279116"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60976117"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>빠른 시작: Power BI 모바일 앱에서 대시보드 및 보고서 살펴보기
 이 빠른 시작에서는 Android 휴대폰에서 Power BI 모바일 앱의 샘플 대시보드 및 보고서를 살펴봅니다. 다른 모바일 앱에서도 따라할 수 있습니다. 
@@ -77,7 +77,7 @@ Android 디바이스에서 샘플을 볼 준비가 되었습니다.
 ## <a name="view-a-dashboard-on-your-android-device"></a>Android 디바이스에서 대시보드 보기
 1. Android 디바이스에서 Power BI 앱을 열고, 브라우저에서 Power BI 서비스에 사용한 것과 동일한 Power BI 계정 자격 증명으로 로그인합니다.
 
-1.  왼쪽 위 모퉁이에서 ![전역 탐색 단추](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-global-nav-button.png).
+1.  왼쪽 위 모퉁이에서 ![전역 탐색 단추](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-global-nav-button.png)을 선택합니다.
 
 2.  **작업 영역** > **내 작업 영역**을 탭합니다.
 

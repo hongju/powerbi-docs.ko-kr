@@ -15,10 +15,10 @@ ms.workload: powerbi
 ms.date: 05/13/2019
 ms.author: mihart
 ms.openlocfilehash: babdcebcdbc45ce3f7f737785ca4becab50cb3be
-ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65608270"
 ---
 <!-- once the sample apps are live, change this so consumers can follow along -->
@@ -32,17 +32,17 @@ ms.locfileid: "65608270"
 <!-- app from AppSource -->
 
 ## <a name="reading-view"></a>읽기용 보기
-읽기용 보기는 보고서 ‘소비자’의 Power BI 서비스에서 사용할 수 있습니다. 동료가 보고서를 공유해주면 읽기용 보기를 사용하여 보고서를 탐색 및 조작할 수 있습니다. 
+읽기용 보기는 보고서 ‘소비자’의 Power BI 서비스에서 사용할 수 있습니다.  동료가 보고서를 공유해주면 읽기용 보기를 사용하여 보고서를 탐색 및 조작할 수 있습니다. 
 
-다른 Power BI 서비스 보고서 모드는 보고서 ‘디자이너’가 사용할 수 있는 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)입니다.  
+다른 Power BI 서비스 보고서 모드는 보고서 ‘디자이너’가 사용할 수 있는 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)입니다.   
 
 읽기용 보기는 대시보드 및 보고서를 탐색하는 강력하고 안전한 방법입니다. 공유된 대시보드와 보고서를 조각화 및 분석하는 동안 기본 데이터 집합은 그대로 유지되고 변경되지 않습니다. 
 
-읽기용 보기에서 페이지의 시각적 개체를 교차 강조 표시 및 교차 필터링하는 등의 작업을 수행할 수 있습니다.  하나의 시각적 개체에서 값을 강조 표시하거나 선택하고 즉시 다른 시각적 개체에 미치는 영향을 확인합니다. 필터 창을 사용하여 보고서 페이지에 필터를 추가하고 수정하며 시각화에 값이 정렬되는 방식을 변경합니다. 이는 Power BI의 몇 가지 ‘소비자’ 기능일 뿐입니다.  이러한 항목 등을 자세히 알아보려면 계속 읽어보세요.
+읽기용 보기에서 페이지의 시각적 개체를 교차 강조 표시 및 교차 필터링하는 등의 작업을 수행할 수 있습니다.  하나의 시각적 개체에서 값을 강조 표시하거나 선택하고 즉시 다른 시각적 개체에 미치는 영향을 확인합니다. 필터 창을 사용하여 보고서 페이지에 필터를 추가하고 수정하며 시각화에 값이 정렬되는 방식을 변경합니다. 이는 Power BI의 몇 가지 ‘소비자’ 기능일 뿐입니다.   이러한 항목 등을 자세히 알아보려면 계속 읽어보세요.
 
  
 ### <a name="view-an-app"></a>앱 보기
-Power BI에서 ‘앱’은 관련 대시보드 및 보고서와 함께 모두 한곳에서 번들로 제공됩니다.
+Power BI에서 ‘앱’은 관련 대시보드 및 보고서와 함께 모두 한곳에서 번들로 제공됩니다. 
 
 1. **앱** ![왼쪽 탐색 창의 앱](./media/end-user-apps/power-bi-apps-bar.png) > **앱 가져오기**를 선택합니다. 
    
@@ -57,7 +57,7 @@ Power BI에서 ‘앱’은 관련 대시보드 및 보고서와 함께 모두 �
 
 ![대시보드](media/end-user-reading-view/power-bi-dashboard.png)
 
-대시보드에 표시되는 시각화를 타일이라고 하며 보고서에서 대시보드에 고정됩니다.
+대시보드에 표시되는 시각화를 타일이라고 하며 보고서에서 대시보드에 고정됩니다.  
 
 ### <a name="subscribe-to-a-dashboard-or-report"></a>대시보드(또는 보고서) 구독
 대시보드를 모니터링하기 위해 Power BI를 열 필요가 없습니다.  대신에 구독하면 Power BI가 설정된 일정에 따라 해당 대시보드의 스냅숏을 메일로 보내 줍니다. 
@@ -90,7 +90,7 @@ Power BI에서 ‘앱’은 관련 대시보드 및 보고서와 함께 모두 �
 ![질문 및 답변](./media/end-user-reading-view/power-bi-qna.png)
 
 ### <a name="favorite-a-dashboard"></a>대시보드를 즐겨찾기에 추가
-콘텐츠를 ‘즐겨찾기’로 만들면 왼쪽 모음에서 콘텐츠에 액세스할 수 있습니다. 왼쪽 탐색 모음은 Power BI의 모든 영역에 표시됩니다. 즐겨찾기는 일반적으로 가장 자주 방문하는 대시보드, 보고서 페이지 및 앱입니다.
+콘텐츠를 ‘즐겨찾기’로 만들면 왼쪽 모음에서 콘텐츠에 액세스할 수 있습니다.  왼쪽 탐색 모음은 Power BI의 모든 영역에 표시됩니다. 즐겨찾기는 일반적으로 가장 자주 방문하는 대시보드, 보고서 페이지 및 앱입니다.
 
 1. 질문 및 답변을 종료하여 대시보드로 돌아갑니다.    
 2. Power BI 서비스의 오른쪽 위 모서리에서 **즐겨찾기**나 별모양 ![별모양 아이콘](./media/end-user-favorite/power-bi-favorite-icon.png) 아이콘을 선택합니다.
@@ -99,9 +99,9 @@ Power BI에서 ‘앱’은 관련 대시보드 및 보고서와 함께 모두 �
 
 
 ### <a name="open-and-view-a-report-and-report-pages"></a>보고서 및 보고서 페이지 열기 및 보기
-보고서는 하나 이상의 시각적 개체 페이지입니다. 보고서는 Power BI ‘보고서 디자이너’가 만들고 직접 또는 [앱](end-user-apps.md)의 일부로 [‘소비자’와 공유](end-user-shared-with-me.md)합니다. 
+보고서는 하나 이상의 시각적 개체 페이지입니다. 보고서는 Power BI ‘보고서 디자이너’가 만들고 직접 또는 [앱](end-user-apps.md)의 일부로 [‘소비자’와 공유](end-user-shared-with-me.md)합니다.   
 
-대시보드에서 보고서를 열 수 있습니다. 대부분의 대시보드 타일은 보고서에서 ‘고정’됩니다. 타일을 선택하면 타일을 만드는 데 사용된 보고서가 열립니다. 
+대시보드에서 보고서를 열 수 있습니다. 대부분의 대시보드 타일은 보고서에서 ‘고정’됩니다.  타일을 선택하면 타일을 만드는 데 사용된 보고서가 열립니다. 
 
 1. 대시보드에서 타일을 선택합니다. 이 예제에서는 “수익” 열 차트 타일을 선택했습니다.
 

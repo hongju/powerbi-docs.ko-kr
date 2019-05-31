@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dffcf8fb3daa7559abd4d3b999ea3a73392d0eb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 7c9d400b196366609caebe9f79bb9a8130a4ad11
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283119"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375186"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop에서 드릴스루 사용
 **Power BI Desktop**의 **드릴스루**를 사용하여 보고서에서 공급업체, 고객 또는 제조업체와 같은 특정 엔터티에 초점을 맞춘 페이지를 만들 수 있습니다. 사용자는 다른 보고서 페이지에서 데이터 요소를 마우스 오른쪽 단추로 클릭할 수 있습니다. 그런 다음, 초점이 맞춰진 페이지로 드릴스루하여 해당 컨텍스트로 필터링되는 세부 정보를 확인할 수 있습니다.
@@ -27,7 +27,7 @@ ms.locfileid: "54283119"
 
     예를 들어 제조업체에 대한 드릴스루를 제공하려고 한다고 가정합니다. 그런 다음, 총 판매액, 배송된 총 단위, 범주별 판매액, 지역별 판매액 등을 보여주는 시각적 개체가 포함된 드릴스루 페이지를 만들 수 있습니다. 이런 방식으로 해당 페이지로 드릴스루하는 경우 시각적 개체는 선택한 제조업체에 따라 다릅니다.
 
-2. 그런 다음, 드릴스루 페이지에 있는 **시각화** 창의 **필드** 섹션에서 드릴스루를 사용하려는 필드를 **드릴스루 필터**에 끌어옵니다.
+2. 그런 다음, 드릴스루 페이지에 있는 **시각화** 창의 **필드** 섹션에서 드릴스루를 사용하려는 필드를 **드릴스루 필터** 웰에 끌어옵니다.
 
     ![드릴스루 웰](media/desktop-drillthrough/drillthrough_02.png)
 
@@ -73,7 +73,7 @@ ms.locfileid: "54283119"
 
 ![드릴스루에 측정값 추가](media/desktop-drillthrough/drillthrough_08.png)
 
-측정값(또는 요약된 숫자 열)을 추가할 때 필드가 시각적 개체의 ‘값’ 영역에서 사용될 때 페이지로 드릴스루할 수 있습니다.
+측정값(또는 요약된 숫자 열)을 추가할 때 필드가 시각적 개체의 ‘값’ 영역에서 사용될 때 페이지로 드릴스루할 수 있습니다. 
 
 보고서에서 **드릴스루**를 사용하기 위한 단계는 여기까지입니다. 드릴스루 필터에 선택한 엔터티 정보의 확장된 보기를 가져오는 것이 좋습니다.
 
@@ -81,5 +81,6 @@ ms.locfileid: "54283119"
 
 다음 문서에도 관심이 있을 수 있습니다.
 
-* [Power BI Desktop에서 슬라이서 사용](visuals/desktop-slicers.md)
+* [Power BI Desktop에서 교차 보고서 드릴스루 사용](desktop-cross-report-drill-through.md)
+* [Power BI Desktop에서 슬라이서 사용](visuals/power-bi-visualization-slicers.md)
 

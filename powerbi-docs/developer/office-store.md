@@ -8,13 +8,13 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 10/30/2018
-ms.openlocfilehash: 2db993a9521b25db28973a5a987edfde4271c5cd
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.date: 3/27/2019
+ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695199"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269817"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource에 사용자 지정 시각적 개체 게시
 
@@ -30,7 +30,7 @@ ms.locfileid: "57695199"
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>사용자 지정 시각적 개체를 제출하기 위한 준비
 
-코딩이 완료되고 [사용자 지정 시각적 개체를 테스트](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)하고 pbiviz 파일로 패키징한 후 제출을 위해 다음 사항도 준비해야 합니다.
+완료 되 면 읽기 우리의 [Power BI 시각적 개체 지침](guidelines-powerbi-visuals.md)코딩, 및 [사용자 지정 시각적 개체 테스트](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) 패키지 하 고 pbiviz 파일로 있어야 다음 준비 제출을 위해.
 
 | 항목 | 필수 | 설명 |
 | --- | --- | --- |
@@ -86,10 +86,10 @@ Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [개발자 센터
 
 5. **일반 정보** 세부 사항을 작성합니다.
 
-   * ‘제출 제목:’ 개발자 센터에서 불려질 제출의 이름입니다.
-   * ‘버전:’ 버전 번호가 추가 기능 앱 패키지에서 자동으로 채워집니다.
-   * ‘릴리스 날짜(UTC):’ 앱을 스토어에 릴리스할 날짜를 선택합니다. 미래의 날짜를 선택하면 해당 날짜가 될 때까지 앱이 스토어에 제공되지 않습니다.
-   * ‘범주:’ 첫 번째 범주는 “데이터 시각화 + BI”라고 자동 입력됩니다. 모든 Power BI 사용자 지정 시각적 개체에 이런 식으로 태그가 지정됩니다. 사용자가 시각적 개체를 손쉽게 검색하는 데 도움을 주기 위해 추가 범주를 2개까지 제공할 수 있습니다.
+   * ‘제출 제목:’  개발자 센터에서 불려질 제출의 이름입니다.
+   * ‘버전:’  버전 번호가 추가 기능 앱 패키지에서 자동으로 채워집니다.
+   * ‘릴리스 날짜(UTC):’  앱을 스토어에 릴리스할 날짜를 선택합니다. 미래의 날짜를 선택하면 해당 날짜가 될 때까지 앱이 스토어에 제공되지 않습니다.
+   * ‘범주:’  첫 번째 범주는 “데이터 시각화 + BI”라고 자동 입력됩니다. 모든 Power BI 사용자 지정 시각적 개체에 이런 식으로 태그가 지정됩니다. 사용자가 시각적 개체를 손쉽게 검색하는 데 도움을 주기 위해 추가 범주를 2개까지 제공할 수 있습니다.
    * *테스팅 메모:* 선택 사항, Microsoft의 테스터에 대한 지침을 제공하려는 경우 입력합니다.
    * *앱에서 암호화를 호출, 지원, 포함 또는 사용합니다.* 를 선택되지 않은 상태로 둡니다.
    * *이 추가 기능을 iPad용 Office 추가 기능 카탈로그에서 제공:* 을 선택되지 않은 상태로 둡니다.
@@ -114,9 +114,9 @@ Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [개발자 센터
 
 10. "설명" 세부 정보를 입력합니다.
 
-    * ‘앱 이름(현재 언어용):’ 상점에 표시될 앱의 제목을 입력합니다.
-    * 짧은 설명: 상점에 표시될 앱에 대한 최대 100자의 짧은 설명을 입력합니다. 이 설명은 로고와 함께 최상위 페이지에 표시됩니다. pbiviz 패키지의 설명을 사용할 수 있습니다.
-    * 긴 설명: 앱 세부 정보 페이지를 통해 고객에게 표시될 앱에 대한 보다 자세한 설명을 입력합니다. 시각적 개체를 오픈 소스로 전환하여 커뮤니티를 통해 향상시키려면 GitHub와 같은 공용 리포지토리에 대한 링크를 여기에 제공합니다.
+    * ‘앱 이름(현재 언어용):’  상점에 표시될 앱의 제목을 입력합니다.
+    * 짧은 설명:  상점에 표시될 앱에 대한 최대 100자의 짧은 설명을 입력합니다. 이 설명은 로고와 함께 최상위 페이지에 표시됩니다. pbiviz 패키지의 설명을 사용할 수 있습니다.
+    * 긴 설명:  앱 세부 정보 페이지를 통해 고객에게 표시될 앱에 대한 보다 자세한 설명을 입력합니다. 시각적 개체를 오픈 소스로 전환하여 커뮤니티를 통해 향상시키려면 GitHub와 같은 공용 리포지토리에 대한 링크를 여기에 제공합니다.
 
 11. 스크린샷을 하나 이상 업로드합니다. 가능한 형식은 png, .jpg, .jpeg 또는 .gif입니다. 정확히 1366px(너비) x 768px(높이)여야 합니다. 파일 크기는 1024KB를 초과할 수 없습니다. *활용도를 높이려면, 각 스크린샷에 표시되는 주요 기능의 가치 제안을 분명히 전달하기 위한 텍스트 거품을 추가합니다.*
 

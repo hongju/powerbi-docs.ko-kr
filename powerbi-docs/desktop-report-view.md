@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514620"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop의 보고서 보기
@@ -82,9 +82,9 @@ Power BI Desktop 보고서에서 시각적 개체를 가져와서 손쉽게 다�
 
     ![숨겨진 페이지가 회색으로 표시됨](media/desktop-report-view/report-view_06.png)
 
-* **Power BI 서비스**에서 보고서를 볼 때 숨겨진 보고서 페이지를 볼 수 ‘없습니다’.
+* **Power BI 서비스**에서 보고서를 볼 때 숨겨진 보고서 페이지를 볼 수 ‘없습니다’. 
 
-* 보고서 페이지 숨기기는 보안 조치가 ‘아닙니다’. 사용자는 페이지에 계속 액세스할 수 있으며, 드릴스루나 기타 방법으로 해당 콘텐츠에 여전히 액세스할 수 있습니다.
+* 보고서 페이지 숨기기는 보안 조치가 ‘아닙니다’.  사용자는 페이지에 계속 액세스할 수 있으며, 드릴스루나 기타 방법으로 해당 콘텐츠에 여전히 액세스할 수 있습니다.
 
 * 보기 모드에서 페이지가 숨겨진 경우, 보기 모드 탐색 화살표가 표시되지 않습니다.
 

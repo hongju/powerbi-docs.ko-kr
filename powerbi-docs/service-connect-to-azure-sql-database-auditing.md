@@ -11,11 +11,11 @@ ms.date: 11/09/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 0d212510fd2856fd509077f35e0f10bb7c5dd4c5
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008748"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181450"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Power BI용 SQL Database 감사 콘텐츠 팩
 
@@ -69,7 +69,7 @@ Power BI용 [SQL Database 감사 콘텐츠 팩](https://app.powerbi.com/getdata/
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI에 대한 데이터 가져오기](service-get-data.md)

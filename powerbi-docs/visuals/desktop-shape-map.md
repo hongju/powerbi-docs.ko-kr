@@ -11,11 +11,11 @@ ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290892"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61394793"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵(미리 보기)
 **도형 맵** 시각적 개체를 만들어 색을 사용하여 맵의 영역을 비교합니다. **맵** 시각적 개체와 달리 **도형 맵**은 데이터 요소의 정확한 지리적 위치를 맵에 표시할 수 없습니다. 대신, 색을 다르게 지정하여 맵 영역의 상대 비교를 표시하는 데 주로 사용됩니다.
@@ -63,12 +63,12 @@ Power BI Desktop에 비어 있는 **도형 맵** 시각적 개체 디자인 캔�
 ## <a name="use-custom-maps"></a>사용자 지정 맵 사용
 **TopoJSON** 형식인 **도형 맵**과 함께 사용자 지정 맵을 사용할 수 있습니다. 맵이 다른 형식인 경우 [**맵 쉐이퍼**](http://mapshaper.org/)와 같은 온라인 도구를 사용하여 *셰이프 파일* 또는 *GeoJSON* 맵을 **TopoJSON** 서식으로 변환할 수 있습니다.
 
-**TopoJSON** 맵 파일을 사용하려면 ShapeMap 시각적 개체를 보고서에 추가하고 일부 데이터를 ‘위치’ 및 ‘색 채도’ 버킷에 추가합니다. 그런 다음, 선택한 **서식** 섹션이 있는 **시각화** 창에서(다음 이미지에 (1)로 표시) **도형** 섹션을 확장하고 **+ 맵 추가**를 선택합니다.
+**TopoJSON** 맵 파일을 사용하려면 ShapeMap 시각적 개체를 보고서에 추가하고 일부 데이터를 ‘위치’ 및 ‘색 채도’ 버킷에 추가합니다.   그런 다음, 선택한 **서식** 섹션이 있는 **시각화** 창에서(다음 이미지에 (1)로 표시) **도형** 섹션을 확장하고 **+ 맵 추가**를 선택합니다.
 
 ![](media/desktop-shape-map/shape-map_6.png)
 
 ## <a name="sample-custom-map"></a>샘플 사용자 지정 맵
-‘미국 연방 검사국’은 소송 및 담당 건수 데이터에 대한 연간 회계 보고서를 릴리스합니다.  해당되는 모든 보고서를 아래 링크에서 확인할 수 있습니다.
+‘미국 연방 검사국’은 소송 및 담당 건수 데이터에 대한 연간 회계 보고서를 릴리스합니다.   해당되는 모든 보고서를 아래 링크에서 확인할 수 있습니다.
 
 https://www.justice.gov/usao/resources/annual-statistical-reports
 

@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216588"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61053497"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI에서 시각화 드릴 모드
 
@@ -43,7 +43,7 @@ Power BI 시각화에 계층 구조가 포함되어 있는 것이 확실한가�
 
 1. Power BI 서비스에서 드릴에는 계층 구조를 포함한 시각화가 필요합니다. 
    
-2. 직접 따라해 보려면 [소매점 분석 샘플을 열고](../sample-datasets.md) **지역**, **도시**, **우편 번호** 및 **이름**(그룹)별로 **올해 총 단위**(값)를 살펴보는 트리 맵을 만듭니다.  트리 맵에는 지역, 도시, 우편 번호 및 도시 이름으로 이루어진 계층 구조가 있습니다. 예를 들면 각 지역에 하나 이상의 도시가 있고 각 도시에 하나 이상의 우편 번호가 있습니다. 기본적으로 지역은 목록에서 첫 번째로 표시되기 때문에 시각화는 지역 데이터만 표시합니다.
+2. 직접 따라해 보려면 [소매점 분석 샘플을 열고](../sample-datasets.md) **지역**, **도시**, **우편 번호** 및 **이름**(그룹)별로 **올해 총 단위**(값)를 살펴보는 트리 맵을 만듭니다.  트리 맵에는 지역, 도시, 우편 번호 및 도시 이름으로 이루어진 계층 구조가 있습니다. 예를 들면 각 지역에 하나 이상의 도시가 있고 각 도시에 하나 이상의 우편 번호가 있습니다. 기본적으로 지역은 목록에서 첫 번째로 표시되기 때문에 시각화는 지역 데이터만 표시합니다. 
    
    !["지역" 선택](media/end-user-drill/power-bi-hierarcy-list.png)
 
@@ -88,7 +88,7 @@ Power BI 시각화에 계층 구조가 포함되어 있는 것이 확실한가�
 
 1. KY와 TN 데이터가 표시된 최상위 수준의 트리 맵에서 시작합니다. 핸들 하나를 선택하고 오른쪽으로 끌어서 트리 맵을 넓힙니다. 
 
-    ![두 개의 주(州)가 표시된 트리 맵](./media/end-user-drill/power-bi-drill-down.png) .
+    ![두 개의 주(州)가 표시된 트리 맵](./media/end-user-drill/power-bi-drill-down.png) 을 선택합니다.
 
 2. ***한 번에 모든 필드***를 드릴다운하려면 시각화 왼쪽 위에 있는 이중 화살표 ![이중 드릴다운 아이콘](./media/end-user-drill/power-bi-drill-icon3.png) 를 선택합니다. 이렇게 하면 트리맵에 켄터키와 테네시의 도시 데이터가 표시됩니다. 
 
@@ -98,7 +98,7 @@ Power BI 시각화에 계층 구조가 포함되어 있는 것이 확실한가�
 
     ![이중 드릴 아이콘](./media/end-user-drill/power-bi-drill-down2.png)
 
-3. 다시 드릴업하려면 시각화 왼쪽 위에 있는 위쪽 화살표를 선택합니다. ![한 수준 위로 드릴업 아이콘](./media/end-user-drill/power-bi-drill-icon5.png).
+3. 다시 드릴업하려면 시각화 왼쪽 위에 있는 위쪽 화살표를 선택합니다. ![한 수준 위로 드릴업 아이콘](./media/end-user-drill/power-bi-drill-icon5.png)을 선택합니다.
 
 
 ## <a name="drill-down-one-field-at-a-time"></a>한 번에 한 필드 드릴다운

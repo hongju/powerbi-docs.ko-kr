@@ -1,4 +1,12 @@
-이 단원에서는 먼저 그룹을 만듭니다. **그룹**은 특정 대시보드, 보고서 및 데이터에 대한 액세스 권한이 있는 사용자 집합을 정의합니다.
+---
+ms.openlocfilehash: e3d62b182f9b142f912a608bee693b7356b1a68d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256260"
+---
+이 단원에서는 먼저 그룹을 만듭니다.  **그룹**은 특정 대시보드, 보고서 및 데이터에 대한 액세스 권한이 있는 사용자 집합을 정의합니다.
 
 Power BI의 그룹은 Office 365의 그룹을 기반으로 하므로 Office 365 그룹을 사용하여 그룹의 전자 메일, 일정 및 문서를 관리하는 경우 Power BI는 동일한 기능을 제공합니다. Power BI에서 그룹을 만드는 경우 실제로는 Office 365 그룹을 만드는 것입니다.
 

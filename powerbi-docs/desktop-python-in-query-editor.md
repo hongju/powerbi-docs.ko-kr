@@ -11,11 +11,11 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56217048"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61286882"
 ---
 # <a name="using-python-in-query-editor"></a>쿼리 편집기에서 Python 사용
 Power BI Desktop **쿼리 편집기**에서 통계학자, 데이터 과학자 및 데이터 분석에 의해 널리 사용되는 프로그래밍 언어인 **Python**을 사용할 수 있습니다. Python을 **쿼리 편집기**에 통합하면 Python을 사용하여 데이터 정리를 수행하고 누락된 데이터, 예측, 클러스터링을 완성하는 작업을 포함하여 데이터 세트에서 고급 데이터 셰이핑 및 분석을 수행할 수 있습니다. **Python**은 강력한 언어이며 **쿼리 편집기**에서 데이터 모델을 준비하고 보고서를 만드는 데 사용될 수 있습니다.
@@ -60,7 +60,7 @@ Power BI Desktop의 **쿼리 편집기**에서 **Python**을 사용하려면 로
 7. **확인**을 선택하면 **쿼리 편집기**에서 데이터 개인 정보 보호에 대한 경고를 표시합니다.
    
    ![](media/desktop-python-in-query-editor/python-in-query-editor-6.png)
-8. Python 스크립트가 Power BI 서비스에서 제대로 작동하려면 모든 데이터 원본이 ‘공용’으로 설정되어야 합니다. 개인 정보 설정 및 해당 구현에 대한 자세한 내용은 [개인 정보 수준](desktop-privacy-levels.md)을 참조하세요.
+8. Python 스크립트가 Power BI 서비스에서 제대로 작동하려면 모든 데이터 원본이 ‘공용’으로 설정되어야 합니다.  개인 정보 설정 및 해당 구현에 대한 자세한 내용은 [개인 정보 수준](desktop-privacy-levels.md)을 참조하세요.
    
    ![](media/desktop-python-in-query-editor/python-in-query-editor-7.png)
    
@@ -87,7 +87,7 @@ Power BI Desktop의 **쿼리 편집기**에서 **Python**을 사용하려면 로
 ## <a name="limitations"></a>제한 사항
 **쿼리 편집기**에서 만든 Python 스크립트를 포함하는 쿼리에는 몇 가지 제한 사항이 있습니다.
 
-* 모든 Python 데이터 원본은 ‘공용’으로 설정되어야 하고 **쿼리 편집기**에서 만든 쿼리의 다른 모든 단계도 공용이어야 합니다. 데이터 원본 설정으로 이동하려면 **Power BI Desktop**에서 **파일 > 옵션 및 설정 > 데이터 원본 설정**을 선택합니다.
+* 모든 Python 데이터 원본은 ‘공용’으로 설정되어야 하고 **쿼리 편집기**에서 만든 쿼리의 다른 모든 단계도 공용이어야 합니다.  데이터 원본 설정으로 이동하려면 **Power BI Desktop**에서 **파일 > 옵션 및 설정 > 데이터 원본 설정**을 선택합니다.
   
   ![](media/desktop-python-in-query-editor/python-in-query-editor-9.png)
   

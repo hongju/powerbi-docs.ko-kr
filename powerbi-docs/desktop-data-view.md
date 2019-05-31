@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c8a96918049f2f1898ab80a9368a8d2f0a8fe53a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286140"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454469"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop의 데이터 보기
 **데이터 보기**는 **Power BI Desktop** 모델의 데이터를 검사, 탐색 및 이해하는 데 도움이 됩니다. **쿼리 편집기**에서 테이블, 열 및 데이터를 보는 것과는 차이가 있습니다. 데이터 뷰에서는 모델에 데이터를 로드한 *후의* 데이터를 보게 됩니다.
@@ -28,7 +28,7 @@ ms.locfileid: "54286140"
 
 1. **데이터 보기 아이콘** – 이 아이콘을 선택하여 데이터 보기로 들어갑니다.
 
-2. **데이터 표** - 선택한 테이블과 그 안의 모든 열 및 행을 표시합니다. **보고서 보기**에서 숨겨진 열은 옅은 회색으로 표시됩니다. 열을 마우스 오른쪽 단추로 클릭하면 옵션이 표시됩니다.
+2. **데이터 표** - 선택한 테이블과 그 안의 모든 열 및 행을 표시합니다. **보고서 보기**에서 숨겨진 열은 옅은 회색으로 표시됩니다. 열 옵션을 마우스 오른쪽 단추로 클릭 수 있습니다.
 
 3. **모델링 리본** – 여기에서 관계를 관리하고, 계산을 만들며, 열의 데이터 형식/포맷/데이터 범주를 변경할 수 있습니다.
 

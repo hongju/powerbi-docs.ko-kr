@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
 ms.openlocfilehash: bc3b6bdab9c0d02b3cc0fe5be4aa1052377e2c88
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275413"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61338405"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Power BI 모바일 앱으로 실제 환경에서 데이터 가져오기
 Power BI 모바일 앱에서는 여러 가지 방법으로 관련된 BI 정보에 실제 세계를 연결할 수 있습니다. 

@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65565277"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
@@ -48,7 +48,7 @@ Premium 구독이 만료되면 30일 동안 용량에 대한 전체 액세스 �
 
 1. **기타 계획** 아래에서 Power BI 프리미엄 제안을 찾습니다. P1~P3, EM3 및 P1(매월)로 나열됩니다.
 
-1. 줄임표(**...**)를 마우스로 가리키고 **지금 구매**를 선택합니다.
+1. 줄임표( **...** )를 마우스로 가리키고 **지금 구매**를 선택합니다.
 
     ![지금 구입](media/service-admin-premium-purchase/premium-purchase.png)
 

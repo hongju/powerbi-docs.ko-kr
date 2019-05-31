@@ -12,16 +12,16 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: b8d742e9238d438775115fd1ee2e287cf0ba0388
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454262"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Power BI Desktop에서 그룹화 및 범주화 사용
 **Power BI Desktop**에서는 시각적 개체를 만들 때 기본 데이터에서 발견되는 값을 기반으로 청크(또는 그룹)로 데이터를 집계합니다. 대개는 좋지만 이러한 청크를 표시하는 방법을 구체화하고자 하는 때가 있을 수 있습니다. 예를 들어 하나의 큰 범주(하나의 *그룹*)에 세 가지 범주의 제품을 배치할 수 있습니다. 또는 균등하게 분할된 923,983달러 대신 1,000,000달러의 bin 크기로 배치된 판매액을 볼 수 있습니다.
 
-Power BI Desktop에서 데이터 요소를 **그룹화**하여 시각적 개체에서 데이터와 추세를 더욱 명확하게 보고 분석하고 탐색할 수 있습니다. ‘범주화’라고 하는 **bin 크기**를 정의하여 의미 있는 방식으로 데이터 시각화를 향상하도록 하는 크기가 같은 그룹에 값을 입력할 수도 있습니다.
+Power BI Desktop에서 데이터 요소를 **그룹화**하여 시각적 개체에서 데이터와 추세를 더욱 명확하게 보고 분석하고 탐색할 수 있습니다. ‘범주화’라고 하는 **bin 크기**를 정의하여 의미 있는 방식으로 데이터 시각화를 향상하도록 하는 크기가 같은 그룹에 값을 입력할 수도 있습니다. 
 
 ## <a name="using-grouping"></a>그룹화 사용
 그룹화를 사용하려면 Ctrl+클릭을 사용하여 시각적 개체의 두 개 이상의 요소를 다중 선택 요소로 선택합니다. 그런 다음, 다중 선택 요소 중 하나를 마우스 오른쪽 단추로 클릭하고 표시되는 메뉴에서 **그룹**을 선택합니다.
@@ -36,7 +36,7 @@ Power BI Desktop에서 데이터 요소를 **그룹화**하여 시각적 개체�
 
 ![](media/desktop-grouping-and-binning/grouping-binning_3.png)
 
-표시되는 **그룹** 창에서 새 그룹을 만들거나 기존 그룹을 수정할 수 있습니다. 또한 **그룹 및 구성원** 상자의 그룹 제목을 두 번 클릭하고 새 이름을 입력하여 그룹의 ‘이름을 바꿀’ 수도 있습니다.
+표시되는 **그룹** 창에서 새 그룹을 만들거나 기존 그룹을 수정할 수 있습니다. 또한 **그룹 및 구성원** 상자의 그룹 제목을 두 번 클릭하고 새 이름을 입력하여 그룹의 ‘이름을 바꿀’ 수도 있습니다. 
 
 그룹으로 모든 종류의 작업을 수행할 수 있습니다. **그룹화되지 않은 값** 목록의 항목을 새 그룹 또는 기존 그룹 중 하나에 추가할 수 있습니다. 새 그룹을 만들려면 **그룹화되지 않은 값** 상자에서 둘 이상의 항목을 선택(Ctrl+클릭 사용)한 다음, 해당 상자 아래쪽의 **그룹** 단추를 클릭합니다.
 
@@ -58,7 +58,7 @@ bin 크기를 적용하려면 **필드**를 마우스 오른쪽 단추로 클릭
 
 ![](media/desktop-grouping-and-binning/grouping-binning_6.png)
 
-**확인**을 선택하면 **필드** 창에 새 필드가 (bins)와 함께 표시됩니다. 그러면 캔버스에 해당 필드를 끌어 놓아 시각적 개체에서 bin 크기를 사용할 수 있습니다.
+**확인**을 선택하면 **필드** 창에 새 필드가 (bins)와 함께 표시됩니다.  그러면 캔버스에 해당 필드를 끌어 놓아 시각적 개체에서 bin 크기를 사용할 수 있습니다.
 
 ![](media/desktop-grouping-and-binning/grouping-binning_7.png)
 

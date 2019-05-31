@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
 ms.openlocfilehash: 49eb11698d05ee8877f78b6b3d4cbbc6ef403e75
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086727"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137091"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI에서 ArcGIS 지도와 상호 작용
 이 토픽은 Power BI 서비스, 데스크톱 또는 모바일에서 ArcGIS 지도를 *사용하는* 사람의 관점에서 작성됩니다. 작성자가 ArcGIS 지도를 사용자와 공유하면 여러 가지 방법으로 해당 지도와 상호 작용할 수 있습니다.  ArcGIS 지도를 작성하는 방법에 대한 자세한 내용은 [Esri에서 제공하는 ArcGIS 지도](../visuals/power-bi-visualization-arcgis.md)를 참조하세요.
@@ -56,7 +56,7 @@ Power BI용 ArcGIS Maps에서는 세 가지 선택 모드를 사용할 수 있�
 ## <a name="interacting-with-an-arcgis-map"></a>ArcGIS 지도와 상호 작용
 사용 가능한 기능은 사용자가 *작성자*(지도를 만든 사람)인지 *소비자*(사용자와 ArcGIS 지도를 공유한 사람)인지에 따라 달라집니다. 소비자로서 ArcGIS 지도와 상호 작용하는 경우(즉, [읽기용 보기](../consumer/end-user-reading-view.md)), 할 수 있는 작업은 다음과 같습니다.
 
-* ‘보기’ 권한을 가진 프리미엄 소비자는 [시각화를 만드는 데 사용되는 데이터를 보고](../consumer/end-user-show-data.md), [구독](../consumer/end-user-subscribe.md)하고, [포커스 모드 및 전체 화면 모드](../consumer/end-user-focus.md)에서 지도를 보고, [관련 콘텐츠를 보고](../consumer/end-user-related.md), ‘보고서 작성자’가 설정한 [필터를 조작](../consumer/end-user-report-filter.md)하고, [보고서를 공유](../service-share-reports.md)할 수 있습니다.
+* ‘보기’ 권한을 가진 프리미엄 소비자는 [시각화를 만드는 데 사용되는 데이터를 보고](../consumer/end-user-show-data.md), [구독](../consumer/end-user-subscribe.md)하고, [포커스 모드 및 전체 화면 모드](../consumer/end-user-focus.md)에서 지도를 보고, [관련 콘텐츠를 보고](../consumer/end-user-related.md), ‘보고서 작성자’가 설정한 [필터를 조작](../consumer/end-user-report-filter.md)하고, [보고서를 공유](../service-share-reports.md)할 수 있습니다.  
 
 * 다른 시각화 형식과 마찬가지로 Power BI **Pro** 소비자는 프리미엄 소비자가 수행할 수 있는 모든 작업을 수행할 뿐 아니라, [기본 데이터를 내보내고](../visuals/power-bi-visualization-export-data.md), [사용 메트릭](../service-usage-metrics.md)을 가져오고, 복사본을 저장하고, [웹에 게시](../service-publish-to-web.md)할 수 있습니다.
 

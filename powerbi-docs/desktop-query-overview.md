@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 56c38a4e42dcdb3fb22e9dc92446c7e963f50e3e
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513564"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop을 사용한 쿼리 개요
@@ -37,7 +37,7 @@ Power BI Desktop은 하나 이상의 데이터 소스, 모양 및 필요에 맞�
 그러나 우선은 **쿼리 편집기**를 살펴보겠습니다.
 
 ## <a name="the-query-editor"></a>Query Editor
-**쿼리 편집기**를 사용하려면 Power BI Desktop의 **홈** 탭에서 **쿼리 편집**을 선택합니다.    
+**쿼리 편집기**를 사용하려면 Power BI Desktop의 **홈** 탭에서 **쿼리 편집**을 선택합니다.  
 
 ![](media/desktop-query-overview/queryoverview_queryview.png)
 
@@ -123,7 +123,7 @@ Power BI Desktop은 하나 이상의 데이터 소스, 모양 및 필요에 맞�
 **고급 편집기** 창에서 코드를 직접 편집할 수 있습니다. 창을 닫으려면 **완료** 또는 **취소** 단추를 선택합니다.  
 
 ## <a name="saving-your-work"></a>작업 내용 저장
-원하는 위치에 쿼리가 있는 경우, Query Editor에서 데이터 모델에 대한 변경 사항을 Power BI Desktop에 적용하도록 설정하고 쿼리 편집기를 닫을 수 있습니다. 이렇게 하려면 쿼리 편집기의 **파일** 메뉴에서 **닫기 및 적용**을 선택합니다.   
+원하는 위치에 쿼리가 있는 경우, Query Editor에서 데이터 모델에 대한 변경 사항을 Power BI Desktop에 적용하도록 설정하고 쿼리 편집기를 닫을 수 있습니다. 이렇게 하려면 쿼리 편집기의 **파일** 메뉴에서 **닫기 및 적용**을 선택합니다.  
 ![](media/desktop-query-overview/queryoverview_closenload.png)
 
 Power BI Desktop은 진행 상태를 대화 상자로 표시합니다.  

@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286407"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978247"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
@@ -71,7 +71,7 @@ ms.locfileid: "54286407"
    * 차트를 눌러서 꺾은선형, 가로 막대형, 열 또는 거품 차트에서 가로 막대를 이동하거나 시각화에서 특정 지점에 대한 값을 봅니다.  
    * 스냅숏 공유 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)을 탭하여 [타일에 주석을 달고 다른 사용자와 공유합니다](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
    * 보고서 열기 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)을 탭하여 모바일 앱에서 [보고서를 봅니다](mobile-reports-in-the-mobile-apps.md).
-3. 경우에 따라 대시보드 작성자는 타일에 대한 링크를 추가합니다. 그러면 세로 줄임표(**...**)를 누를 때 **링크 열기**![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)가 표시됩니다.
+3. 경우에 따라 대시보드 작성자는 타일에 대한 링크를 추가합니다. 그러면 세로 줄임표( **...** )를 누를 때 **링크 열기**![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)가 표시됩니다.
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    

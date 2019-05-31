@@ -1,20 +1,20 @@
 ---
 title: iFrame을 사용하여 보고서 포함
 description: SharePoint Server에서 iFrame으로 Power BI Report Server 보고서 포함
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 05/04/2018
 ms.topic: quickstart
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 4730bef0e7f1fc47a4a59a0129640760714fe2e0
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: ca26770c652c12573bf28e24b218b214bf1196fa
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223332"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769853"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>빠른 시작: SharePoint Server에서 iFrame을 사용하여 Power BI Report Server 보고서 포함
 

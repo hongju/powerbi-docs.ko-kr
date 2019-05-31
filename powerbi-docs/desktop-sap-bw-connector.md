@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: af227d2bcbbba2a27804ec74f14003f54aa89dde
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514686"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop에서 SAP BW Connector 사용
@@ -31,7 +31,7 @@ SAP 고객이 Power BI를 기존 SAP BW(Business Warehouse) 시스템에 연결�
 
 1. 로컬 컴퓨터에 **SAP NetWeaver** 라이브러리를 설치합니다. SAP 관리자 또는 직접 [SAP 소프트웨어 다운로드 센터](https://support.sap.com/swdc)에서 **SAP Netweaver** 라이브러리를 가져올 수 있습니다. **SAP 소프트웨어 다운로드 센터**에서 구조를 자주 변경했기 때문에 해당 사이트를 탐색하기 위한 보다 구체적인 지침을 사용할 수 없습니다. **SAP NetWeaver** 라이브러리는 일반적으로 SAP 클라이언트 도구 설치에도 포함됩니다.
    
-   SAP Note #1025361을 검색하면 최신 버전에 대한 다운로드 위치를 가져올 수 있습니다. **SAP NetWeaver** 라이브러리(32비트 또는 64비트)의 아키텍처가 **Power BI Desktop** 설치와 일치하는지 확인한 후, SAP Note에 따라 **SAP NetWeaver RFC SDK**에 포함된 모든 파일을 설치합니다.
+   SAP Note #1025361을 검색하면 최신 버전에 대한 다운로드 위치를 가져올 수 있습니다.  **SAP NetWeaver** 라이브러리(32비트 또는 64비트)의 아키텍처가 **Power BI Desktop** 설치와 일치하는지 확인한 후, SAP Note에 따라 **SAP NetWeaver RFC SDK**에 포함된 모든 파일을 설치합니다.
 2. **데이터 가져오기** 대화 상자에는 **데이터베이스** 범주에 **SAP Business Warehouse 애플리케이션 서버** 및 **SAP Business Warehouse Message 서버**에 대한 항목이 포함되어 있습니다.
    
    ![SAP의 데이터 옵션 가져오기](media/desktop-sap-bw-connector/sap_bw_2a.png)
@@ -78,9 +78,9 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
 
 또한 **탐색기** 창에서는 다음 작업을 수행할 수 있는 몇 가지 **표시 옵션**이 제공됩니다.
 
-* ***선택한 항목만* 및 *모든 항목*(기본 보기) 표시:** 이 옵션은 선택한 항목의 최종 세트를 확인하는 데 유용합니다. 이 보기에 대한 다른 방법은 *미리 보기* 영역에서 열 이름을 선택하는 것입니다.
+* ***선택한 항목만* 및 *모든 항목*(기본 보기) 표시:** 이 옵션은 선택한 항목의 최종 세트를 확인하는 데 유용합니다. 이 보기에 대한 다른 방법은 *미리 보기* 영역에서 열 이름을 선택하는 것입니다. 
 * **데이터 미리 보기 사용(기본 동작):** 이 대화 상자에서 데이터 미리 보기를 표시할지 여부를 제어할 수도 있습니다. 미리 보기에 대한 데이터를 더 이상 요청하지 않으므로 데이터 미리 보기를 사용하지 않도록 설정하면 서버 호출의 양을 줄일 수 있습니다.
-* **기술 이름:** SAP BW는 큐브 내의 개체에 대한 *기술 이름*의 개념을 지원합니다. 기술 이름을 사용하면 큐브 소유자가 큐브에 해당 개체에 대한 물리적 이름 대신 큐브 개체에 대한 *사용자 식별* 이름을 노출할 수 있습니다.
+* **기술 이름:** SAP BW는 큐브 내의 개체에 대한 *기술 이름*의 개념을 지원합니다. 기술 이름을 사용하면 큐브 소유자가 큐브에 해당 개체에 대한 물리적 이름 대신 큐브 개체에 대한 *사용자 식별* 이름을 노출할 수 있습니다. 
 
 ![탐색기 창](media/desktop-sap-bw-connector/sap_bw_6.png)
 
@@ -170,13 +170,13 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
 
 1. **SAP BW**의 숫자 데이터는 쉼표 대신 소수점을 반환합니다. 예를 들어 1,000,000은 1.000.000으로 반환됩니다.
    
-   **SAP BW**는 *,*(쉼표) 또는 *.*(점)을 소수 구분 기호로 사용하여 소수 데이터를 반환합니다. **Power BI Desktop**에서 사용하는 드라이버는 **SAP BW**에서 사용할 소수 구분 기호를 지정하기 위해 BAPI_USER_GET_DETAIL을 호출합니다. 이 호출은 소수 형식 표기법을 저장하는 *DCPFM* 이라는 필드가 있는 **DEFAULTS**라는 구조를 반환합니다. 다음 세 값 중 하나를 갖습니다.
+   **SAP BW**는 *,* (쉼표) 또는 *.* (점)을 소수 구분 기호로 사용하여 소수 데이터를 반환합니다. **Power BI Desktop**에서 사용하는 드라이버는 **SAP BW**에서 사용할 소수 구분 기호를 지정하기 위해 BAPI_USER_GET_DETAIL을 호출합니다.  이 호출은 소수 형식 표기법을 저장하는 *DCPFM* 이라는 필드가 있는 **DEFAULTS**라는 구조를 반환합니다.  다음 세 값 중 하나를 갖습니다.
    
        ‘ ‘ (space) = Decimal point is comma: N.NNN,NN
        'X' = Decimal point is period: N,NNN.NN
        'Y' = Decimal point is N NNN NNN,NN
    
-   이 문제를 보고한 고객이 특정 사용자(잘못된 데이터를 보여주는 사용자)의 BAPI_USER_GET_DETAIL 호출이 다음과 유사한 오류 메시지와 함께 실패하는 것을 발견했습니다.
+   이 문제를 보고한 고객이 특정 사용자(잘못된 데이터를 보여주는 사용자)의 BAPI_USER_GET_DETAIL 호출이 다음과 유사한 오류 메시지와 함께 실패하는 것을 발견했습니다. 
    
        You are not authorized to display users in group TI:
            <item>
@@ -196,7 +196,7 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
                <SYSTEM>CLNTPW1400</SYSTEM>
            </item>
    
-   이 오류를 해결하려면 사용자가 SAP 관리자에게 BAPI_USER_GET_DETAIL을 실행할 권한을 Power BI의 SAPBW 사용자에게 부여해 달라고 요청해야 합니다. 또한 이 문제 해결 솔루션의 앞 부분에서 설명한 것처럼 사용자에게 필요한 DCPFM 값이 있는지 확인하는 것도 중요합니다. 
+   이 오류를 해결하려면 사용자가 SAP 관리자에게 BAPI_USER_GET_DETAIL을 실행할 권한을 Power BI의 SAPBW 사용자에게 부여해 달라고 요청해야 합니다.  또한 이 문제 해결 솔루션의 앞 부분에서 설명한 것처럼 사용자에게 필요한 DCPFM 값이 있는지 확인하는 것도 중요합니다. 
    
 2. **SAP BEx 쿼리에 대한 연결**
    
@@ -204,7 +204,7 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
    
-3. **탐색** 창은 데이터 미리 보기를 표시하지 않고 대신 ‘개체 참조가 개체의 인스턴스로 설정되지 않음’ 오류 메시지를 제공합니다.
+3. **탐색** 창은 데이터 미리 보기를 표시하지 않고 대신 ‘개체 참조가 개체의 인스턴스로 설정되지 않음’ 오류 메시지를 제공합니다. 
    
    SAP 사용자는 SAP BW의 InfoProviders에서 메타데이터를 가져오고 데이터를 검색하기 위해 특정 BAPI 함수 모듈에 대한 액세스 권한이 필요합니다. 내용은 다음과 같습니다.
    * BAPI_MDPROVIDER_GET_CATALOGS
@@ -217,7 +217,7 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
    * BAPI_MDPROVIDER_GET_VARIABLES
    * BAPI_IOBJ_GETDETAIL
 
-   이 문제를 해결하기 위해 사용자에게 *BAPI_IOBJ_GETDETAIL*뿐만 아니라 다양한 *MDPROVIDER* 모듈에 대한 액세스 권한이 있는지 확인하세요. 이 문제 또는 유사한 문제를 추가로 해결하려면 Power BI Desktop의 ‘옵션’ 내의 ‘진단’ 창에서 ‘추적 사용’을 선택합니다. 추적이 활성화되어 있는 동안 SAP BW에서 데이터를 검색하고 추적 파일에서 자세한 정보를 확인합니다.
+   이 문제를 해결하기 위해 사용자에게 *BAPI_IOBJ_GETDETAIL*뿐만 아니라 다양한 *MDPROVIDER* 모듈에 대한 액세스 권한이 있는지 확인하세요. 이 문제 또는 유사한 문제를 추가로 해결하려면 Power BI Desktop의 ‘옵션’ 내의 ‘진단’ 창에서 ‘추적 사용’을 선택합니다.    추적이 활성화되어 있는 동안 SAP BW에서 데이터를 검색하고 추적 파일에서 자세한 정보를 확인합니다.
 
 ## <a name="sap-bw-connection-support"></a>SAP BW 연결 지원
 

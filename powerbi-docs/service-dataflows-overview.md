@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
-ms.translationtype: HT
+ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226092"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136368"
 ---
-# <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI의 셀프 서비스 데이터 준비(미리 보기)
+# <a name="self-service-data-prep-in-power-bi"></a>Power BI의 셀프 서비스 데이터 준비
 
 데이터 볼륨이 증가함에 따라 잘 구성된 실행 가능 정보로 데이터를 랭글링하는 문제도 증가하고 있습니다. 우리는 시각적 개체, 보고서 및 대시보드를 채워 빠르게 데이터 볼륨을 실행 가능한 인사이트로 전환할 수 있는 분석 준비가 된 데이터가 필요합니다. Power BI의 빅 데이터용 **셀프 서비스 데이터 준비**를 사용하면 몇 번의 클릭만으로 데이터를 Power BI 인사이트로 전환할 수 있습니다.
 
@@ -26,10 +26,6 @@ ms.locfileid: "57226092"
 Power BI는 조직이 여러 원본의 데이터를 통합하고 모델링을 위해 준비하는 데 도움이 되도록 **데이터 흐름**을 도입했습니다. 분석가는 익숙한 셀프 서비스 도구를 사용하여 쉽게 데이터 흐름을 만들 수 있습니다. 데이터 흐름은 데이터 원본 연결, ETL 논리, 새로 고침 일정 등을 정의하여 빅 데이터를 수집, 변환, 통합 및 강화하는 데 사용됩니다. 또한 데이터 흐름의 일부인 새 모델 기반 계산 엔진은 데이터 분석가와 보고서 작성자 모두에게 데이터 준비 프로세스가 더 관리하기 쉽고 결정적이며 덜 번거롭게 해줍니다. 스프레드시트가 영향받는 모든 수식의 재계산을 처리하는 방법과 마찬가지로, 데이터 흐름도 사용자 대신 엔터티 또는 데이터 요소에 대한 변경을 관리하고, 업데이트를 자동화하며, 기본적인 데이터 새로 고침을 위한 논리 검사가 덜 지루하고 시간을 절약할 수 있도록 지원합니다. 데이터 흐름을 사용하면 전에는 데이터 과학자가 감독해야 했으며 완료하는 데 여러 시간 또는 여러 날이 필요했던 작업을 분석가 및 보고서 작성자가 몇 번의 클릭으로 처리할 수 있습니다. 
 
 데이터는 Azure Data Lake Storage Gen2의 [**공통 데이터 모델**](https://docs.microsoft.com/powerapps/common-data-model/overview)에 엔터티로 저장됩니다. 데이터 흐름은 Power BI 서비스를 사용하여 앱 작업 영역에서 만들고 관리합니다.  
-
-> [!NOTE]
-> 데이터 흐름 기능은 미리 보기로 제공되며 일반 공급 전에 변경되고 업데이트될 수 있습니다.
-
  
 **데이터 흐름**은 데이터를 쉽게 빌드, 사용 및 분석할 수 있도록 설계되었으며 Microsoft에서 게시한 표준화된 모듈식 확장 가능 데이터 스키마 컬렉션인 **공통 데이터 모델**을 사용하도록 설계되었습니다. 이 모델을 사용하면 마찰이 거의 없이 데이터 원본에서 Power BI 대시보드로 이동할 수 있습니다.
 
@@ -112,10 +108,10 @@ Premium 용량에서 데이터 흐름 워크로드를 활성화하는 방법을 
 이 문서에는 Power BI의 빅 데이터용 셀프 서비스 데이터 준비에 대한 개요와 이 기능을 사용할 수 있는 여러 방법이 제공되어 있습니다. 다음 문서에서는 데이터 흐름의 공통 사용 시나리오에 대해 자세히 설명합니다. 
 
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
-* [Power BI Premium의 계산된 엔터티 사용(미리 보기)](service-dataflows-computed-entities-premium.md)
-* [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)](service-dataflows-developer-resources.md)
-* [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)
+* [Power BI 프리미엄에 계산 된 엔터티를 사용 하 여](service-dataflows-computed-entities-premium.md)
+* [데이터 흐름을 사용 하 여 온-프레미스 데이터 원본](service-dataflows-on-premises-gateways.md)
+* [Power BI 데이터 흐름에 대 한 개발자 리소스](service-dataflows-developer-resources.md)
+* [데이터 흐름 및 Azure Data Lake 통합](service-dataflows-azure-data-lake-integration.md)
 
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)

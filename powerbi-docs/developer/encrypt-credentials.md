@@ -10,11 +10,11 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/04/2019
 ms.openlocfilehash: 6229d65e7ef28d0c9b6013166cb504cfb976f46d
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892232"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61341738"
 ---
 # <a name="encrypt-credentials"></a>자격 증명 암호화
 

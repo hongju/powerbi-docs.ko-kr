@@ -1,21 +1,21 @@
 ---
 title: 고객용 애플리케이션에 Power BI 콘텐츠를 포함하기 위한 임베디드 분석
 description: 고객의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.topic: tutorial
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 02/05/2019
-ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174962"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710969"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서: 고객의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -26,7 +26,7 @@ ms.locfileid: "58174962"
 이 자습서에서는 다음 작업을 수행하는 방법을 알아봅니다.
 > [!div class="checklist"]
 > * Azure에서 응용 프로그램을 등록합니다.
-> * 고객의 애플리케이션에 Power BI 보고서를 포함합니다.
+> * 조직의 애플리케이션에 Power BI 보고서를 포함합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -192,23 +192,19 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 2. 왼쪽 탐색 창에서 **모든 서비스**를 선택한 다음, **앱 등록**을 선택합니다.
 
-    ![앱 등록 검색](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+    ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
 3. **ApplicationSecret**을 사용해야 하는 응용 프로그램을 선택합니다.
 
-    ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![앱 선택](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
 
-4. **설정**을 선택합니다.
+4. 선택 **인증서 및 비밀** 아래에서 **관리**합니다.
 
-    ![설정 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+5. 선택 **새 클라이언트 비밀**합니다.
 
-5. **키**를 선택합니다.
+6. **설명** 상자에 이름을 입력하고 지속 기간을 선택합니다. 그런 다음, **저장**을 선택하여 애플리케이션의 **값**을 가져옵니다. 키 값을 저장한 후 **키** 창을 닫으면 값 필드가 숨김으로만 표시됩니다. 이때는 키 값을 검색할 수 없습니다. 키 값을 분실한 경우 Azure Portal에서 새 키 값을 만듭니다.
 
-    ![키 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
-
-6. **설명** 상자에 이름을 입력하고 지속 기간을 선택합니다. 그런 다음, **저장**을 선택하여 응용 프로그램의 **값**을 가져옵니다. 키 값을 저장한 후 **키** 창을 닫으면 값 필드가 숨김으로만 표시됩니다. 이때는 키 값을 검색할 수 없습니다. 키 값을 분실한 경우 Azure Portal에서 새 키 값을 만듭니다.
-
-    ![키 값](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![키 값](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
 
 ### <a name="tenant"></a>테넌트
 
@@ -369,7 +365,7 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 | A5 |16개 가상 코어 |8개 코어, 50GB RAM |8개 코어 |초당 60 |
 | A6 |32개 가상 코어 |16개 코어, 100GB RAM |16개 코어 |초당 120 |
 
-**‘SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다.’**
+**‘SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다.’** 
 
 PRO 라이선스가 있는 포함 토큰을 사용하는 것은 개발 테스트용이므로 Power BI 마스터 계정 또는 서비스 주체가 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 환경에 포함하려면 전용 용량이 필요합니다. 전용 용량으로 생성할 수 있는 포함 토큰 수에는 제한이 없습니다. [사용 가능한 기능](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)으로 이동하여 현재 포함된 사용 현황을 백분율로 표시하는 사용 값을 확인합니다. 사용량은 마스터 계정을 기반으로 합니다.
 

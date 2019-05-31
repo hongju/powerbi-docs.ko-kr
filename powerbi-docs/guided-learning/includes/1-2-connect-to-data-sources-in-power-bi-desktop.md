@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f66cc9f911c63703accb348e49133dbf3587d58a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265141"
+---
 **Power BI Desktop**은 온-프레미스 데이터베이스, Excel 통합 문서, 클라우드 서비스 등 모든 범위의 데이터 소스에 연결할 수 있습니다. 현재, GitHub 및 Marketo와 같은 59가지가 넘는 클라우드 서비스에는 특정 커넥터가 있으며 XML, CSV, 텍스트 및 ODBC를 통해 제네릭 소스에 연결할 수 있습니다. Power BI는 웹 사이트 URL에서 직접 테이블 형식의 데이터를 가져옵니다! 하지만 Power BI Desktop을 열고 데이터에 연결하는 첫 과정부터 시작해 보겠습니다.
 
 **Power BI Desktop**을 시작하고 시작 화면을 지나 이동하면 리본의 **홈** 탭에서 데이터 가져오기를 선택할 수 있습니다.

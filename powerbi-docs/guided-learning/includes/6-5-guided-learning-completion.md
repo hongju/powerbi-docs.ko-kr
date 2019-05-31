@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a0510b9f9bc7303d7ed63a5a1c4c7ee9862d7c85
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256244"
+---
 이제 완료되었습니다. **축하합니다!** Power BI에 대한 **단계별 학습** 과정을 완료하셨습니다. Power BI의 기본 요소를 배우고, 해당 소프트웨어 기능 및 요소를 살펴보았으며, 모든 기능 및 요소가 함께 작동하는 방식을 알아보았습니다.
 
 ![](media/6-5-guided-learning-completion/c0a0_2.png)

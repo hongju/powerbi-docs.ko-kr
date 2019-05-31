@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 226fdd59b00dc2daa625f9b1941599d21cc35087
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397631"
+---
 Power BI Desktop을 사용하면 분석 및 통계 분석을 수행하고 R과 통합하여 멋진 시각적 개체를 만들 수 있습니다. 이러한 R 시각화를 Power BI Desktop 보고서 내에서 호스트할 수 있습니다.
 
 **시각화** 창에서 **R 시각적 개체l** 아이콘을 선택한 경우 Power BI는 캔버스에 R 시각적 개체를 호스트할 자리 표시자를 만든 다음 캔버스에서 바로 사용할 수 있도록 R 스크립트 편집기를 제공합니다. R 시각적 개체에 필드를 추가하면 Power BI Desktop에서 R 스크립트 편집기 창에 해당 필드를 추가합니다.

@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 05/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 2b5e65ff8e9f603dad0e0537ba52e7da799bf177
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 6c9d59bbc2c6bf81242166bef4cd7584f52fb633
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383557"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941596"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
-관리 포털을 통해 조직의 Power BI ‘테넌트’를 관리할 수 있습니다. 포털에는 사용 메트릭, Microsoft 365 관리 센터에 대한 액세스 및 설정과 같은 항목이 포함되어 있습니다.
+관리 포털을 통해 조직의 Power BI ‘테넌트’를 관리할 수 있습니다.  포털에는 사용 메트릭, Microsoft 365 관리 센터에 대한 액세스 및 설정과 같은 항목이 포함되어 있습니다.
 
 전체 관리 포털은 Office 365의 전역 관리자이거나 Power BI 서비스 관리자 역할에 할당된 모든 사용자가 액세스할 수 있습니다. 이러한 역할 중 하나를 할당받지 않은 경우에는 포털에 **용량 설정**만 표시됩니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요.
 
@@ -34,7 +34,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
     ![관리 포털에 대한 설정](media/service-admin-portal/powerbi-admin-settings.png)
 
-포털에는 7개의 탭이 있습니다. 이 문서의 나머지 부분에서는 이러한 각 탭에 대한 정보를 제공합니다.
+포털에는 9 개의 탭이 있습니다. 이 문서의 나머지 부분에서는 이러한 각 탭에 대한 정보를 제공합니다.
 
 ![관리 포털 탐색](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -44,7 +44,9 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 * [테넌트 설정](#tenant-settings)
 * [용량 설정](#capacity-settings)
 * [embed 태그](#embed-codes)
-* [조직의 시각적 개체](#organizational-visuals)
+* [조직의 시각적 개체](#organization-visuals)
+* [데이터 흐름 저장소 (미리 보기)](#dataflowStorage)
+* [작업 영역](#workspaces)
 
 ## <a name="usage-metrics"></a>사용 메트릭
 
@@ -126,15 +128,27 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 다음 몇몇 섹션에서는 다양한 형식의 테넌트 설정 개요를 제공합니다.
 
+## <a name="help-and-support-settings"></a>도움말 및 지원 설정
+
+### <a name="publish-get-help-information"></a>"도움말" 정보를 게시 합니다.
+
+조직의 사용자는 내부 지원으로 이동 하 고 Power BI 도움말 메뉴에서 리소스를 지 원하는 수 있습니다. 특히, 이러한 매개 변수 학습, 커뮤니티 및 Get 도움말 메뉴 항목의 동작을 변경 합니다.
+
+도 사용자 라이선스 요청에 대 한 사용자 지정 솔루션에 연결 하는 URL을 지정 하는 것이 가능 합니다. 이 매개 변수는 Power BI Pro 라이선스가 없는 사용자의 개인 저장소 관리 페이지 뿐만 아니라 Power BI Pro 대화 상자에 대 한 업데이트에서 찾을 수 있는 업그레이드 계정 단추의 대상 URL을 사용자 지정 합니다.
+
 ## <a name="workspace-settings"></a>작업 영역 설정
 
-### <a name="create-workspaces-preview"></a>작업 영역 만들기(미리 보기)
+### <a name="create-workspaces"></a>작업 영역 만들기
 
-조직의 사용자는 앱 작업 영역을 만들어 대시보드, 보고서 및 기타 콘텐츠에서 공동 작업할 수 있습니다. [자세히 알아보기](service-create-the-new-workspaces.md)
+관리자를 사용 합니다 **작업 영역을 만들** 조직에서 만들 수 있는 사용자 대시보드, 보고서 및 기타 공동 작업 앱 작업 영역 콘텐츠 표시를 설정 합니다. 에 대해 자세히 알아보세요 [앱 작업 영역](service-create-the-new-workspaces.md)합니다.
+
+관리 포털 테 넌 트의 작업 영역에 대 한 설정의 다른 섹션을 있습니다. 이 섹션 정렬 및 작업 영역 목록이 필터링 및 각 작업 영역에 대 한 세부 정보를 표시할 수 있습니다. 참조 [작업 영역](#workspaces) 세부 정보에 대 한 합니다.
+
+관리 포털에서 조정 하거나 조직에 앱을 배포 하려면 권한이 있는 사용자. 참조 [전체 조직에 콘텐츠 팩과 앱을 게시](#publish-content-packs-and-apps-to-the-entire-organization) 대 한 자세한 내용은이 문서의.
 
 ## <a name="export-and-sharing-settings"></a>내보내기 및 공유 설정
 
-### <a name="share-content-to-external-users"></a>외부 사용자에게 콘텐츠 공유
+### <a name="share-content-with-external-users"></a>외부 사용자와 콘텐츠 공유
 
 조직의 사용자는 조직 외부의 사용자와 대시보드를 공유할 수 있습니다. [자세히 알아보기](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
 
@@ -142,7 +156,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 다음 이미지는 외부 사용자와 공유할 때 표시되는 메시지를 보여 줍니다.
 
-![외부 사용자와 공유](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![외부 사용자와 공유](media/service-admin-portal/powerbi-admin-sharing-external.png)  
 
 ### <a name="publish-to-web"></a>웹에 게시
 
@@ -203,19 +217,19 @@ Azure B2B 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습�
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>콘텐츠 팩과 앱을 전체 조직에 게시
 
-조직의 사용자는 콘텐츠 팩과 앱을 특정 그룹이 아닌 전체 조직에 게시할 수 있습니다. [자세히 알아보기](service-organizational-content-pack-manage-update-delete.md)
+관리자는 사용자가 특정 그룹 보다는 전체 조직 콘텐츠 팩과 앱을 게시할 수 결정이 설정을 사용 합니다. 에 대해 자세히 알아보세요 [앱을 게시](service-create-distribute-apps.md)합니다.
 
 다음 이미지는 콘텐츠 팩을 만들 때 **내 전체 조직** 옵션을 보여 줍니다.
 
 ![조직에 콘텐츠 팩 게시](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-apps"></a>템플릿 앱 만들기
+### <a name="create-template-apps-and-organizational-content-packs"></a>템플릿 앱 및 조직 콘텐츠 팩 만들기
 
-조직의 사용자는 Power BI Desktop에서 빌드된 데이터 세트를 사용하는 템플릿 앱을 만들 수 있습니다. [템플릿 앱](template-content-pack-authoring.md)에 대해 자세히 알아보기
+조직에서 사용자는 Power BI Desktop에서 데이터 소스를 기반으로 하는 데이터 집합을 사용 하는 조직 콘텐츠 팩 및 템플릿 앱 만들 수 있습니다. 에 대해 자세히 알아보세요 [템플릿 앱](template-content-pack-authoring.md)합니다.
 
 ### <a name="push-apps-to-end-users"></a>최종 사용자에게 앱 푸시
 
-사용자는 AppSource에서 설치하지 않고 최종 사용자와 직접 앱을 공유할 수 있습니다. [자세히 알아보기](service-create-distribute-apps.md)
+보고서 작성자를 설치 하지 않고도 최종 사용자와 바로 앱을 공유할 수 [AppSource](https://appsource.microsoft.com)합니다. 에 대해 자세히 알아보세요 [최종 사용자에 게 앱을 자동으로 설치](service-create-distribute-apps.md#automatically-install-apps-for-end-users)합니다.
 
 ## <a name="integration-settings"></a>통합 설정
 
@@ -335,11 +349,18 @@ Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사�
 
 조직 내 사용자는 Power BI 대시보드 및 보고서를 SaaS(Software as a Service) 애플리케이션에 포함할 수 있습니다. 이 설정을 사용하지 않도록 설정하면 사용자는 REST API를 사용하여 Power BI 콘텐츠를 해당 애플리케이션에 포함할 수 없게 됩니다. [자세히 알아보기](developer/embedding.md)
 
-## <a name="dataflow-settings-preview"></a>데이터 흐름 설정(미리 보기)
+### <a name="allow-service-principals-to-use-power-bi-apis"></a>서비스 주체가 Power BI API를 사용하도록 허용
 
-### <a name="create-and-use-dataflows-preview"></a>데이터 흐름 만들기 및 사용(미리 보기)
+Azure Active Directory (Azure AD)에 등록 된 웹 앱에서 로그인된 한 사용자 없이 Power BI Api에 액세스 하도록 할당 된 서비스 주체를 사용 합니다. 앱이 서비스 주체 인증을 사용 하 여 해당 서비스 주체를 허용 하도록 허용 된 보안 그룹에 포함 되어야 합니다. [자세히 알아보기](developer/embed-service-principal.md)
 
-조직의 사용자가 데이터 흐름을 만들고 사용할 수 있습니다. 데이터 흐름 개요는 [Power BI의 셀프 서비스 데이터 준비(미리 보기)](service-dataflows-overview.md)를 참조하세요. 프리미엄 용량에 대한 데이터 흐름을 사용하려면 [워크로드 구성](service-admin-premium-workloads.md)을 참조하세요.
+> [!NOTE]
+> 서비스 주체는 해당 보안 그룹의 모든 Power BI 테넌트 설정에 대한 사용 권한을 상속받습니다. 사용 권한을 제한하려면 서비스 주체에 대한 전용 보안 그룹을 만들고, 사용하도록 설정된 해당 Power BI 설정에 대한 '특정 보안 그룹 제외' 목록에 이를 추가합니다.
+
+## <a name="dataflow-settings"></a>데이터 흐름 설정
+
+### <a name="create-and-use-dataflows"></a>데이터 흐름 만들기 및 사용
+
+조직의 사용자가 데이터 흐름을 만들고 사용할 수 있습니다. 데이터 흐름의 개요를 보려면 [Power BI의 셀프 서비스 데이터 준비](service-dataflows-overview.md)합니다. 프리미엄 용량에 대한 데이터 흐름을 사용하려면 [워크로드 구성](service-admin-premium-workloads.md)을 참조하세요.
 
 > [!NOTE]
 > 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
@@ -350,23 +371,30 @@ Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사�
 
 ![Power BI 관리 포털 템플릿 앱 설정](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
 
-첫 번째 설정인 **템플릿 앱 만들기**는 조직에서 템플릿 앱을 만들 수 있는 사람을 제어합니다. 템플릿 앱 작성자는 AppSource 또는 다른 배포 메서드를 통해 조직 외부의 클라이언트에 배포할 수 있습니다.
+### <a name="create-template-apps-preview"></a>템플릿 앱 만들기(미리 보기)
+
+조직의 사용자가 템플릿 앱을 만들 수 있습니다. 템플릿 앱 작성자 수에 게 배포할의 방식으로 조직 외부의 클라이언트가 [AppSource](https://appsource.microsoft.com) 또는 다른 배포 방법입니다.
 
 ![Power BI 관리 포털, 템플릿 앱 설정 만들기](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
-두 번째 설정인 **템플릿 앱 설치**를 사용하면 AppSource 또는 다른 원본에서 템플릿 앱을 다운로드하여 설치할 수 있는 사람을 제어할 수 있습니다.
+### <a name="install-template-apps-preview"></a>템플릿 앱 (미리 보기)를 설치 합니다.
+
+조직의 사용자가 다운로드 하 고에서 템플릿 앱을 설치할 수 [AppSource](https://appsource.microsoft.com) 또는 다른 원본입니다.
+
+> [!NOTE]
+> 이 설정은 해당 Power BI 계정에 템플릿을 앱을 설치할 수 있는 사용자를 결정 합니다.
 
 ## <a name="capacity-settings"></a>용량 설정
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
-**Power BI Premium** 탭에서는 조직용으로 구매한 Power BI Premium 용량(EM 또는 P SKU)을 관리할 수 있습니다. 조직 내 모든 사용자가 **Power BI Premium** 탭을 볼 수 있으나, ‘용량 관리자’ 또는 할당 권한이 있는 사용자로 할당된 경우에만 탭 내 콘텐츠를 볼 수 있습니다. 사용자에게 권한이 없으면 다음과 같은 메시지가 나타납니다.
+**Power BI Premium** 탭에서는 조직용으로 구매한 Power BI Premium 용량(EM 또는 P SKU)을 관리할 수 있습니다. 조직 내 모든 사용자가 **Power BI Premium** 탭을 볼 수 있으나, ‘용량 관리자’ 또는 할당 권한이 있는 사용자로 할당된 경우에만 탭 내 콘텐츠를 볼 수 있습니다.  사용자에게 권한이 없으면 다음과 같은 메시지가 나타납니다.
 
 ![Premium 설정 액세스 권한 없음](media/service-admin-portal/premium-settings-no-access.png)
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-**Power BI Embedded** 탭에서는 고객용으로 구매한 Power BI Embedded(A SKU) 용량을 확인할 수 있습니다. Azure에서만 A SKU를 구매할 수 있으므로 **Azure Portal**에서 [Azure의 포함된 용량을 관리](developer/azure-pbie-create-capacity.md)할 수 있습니다.
+**Power BI Embedded** 탭에서는 고객용으로 구매한 Power BI Embedded(A SKU) 용량을 확인할 수 있습니다. Azure에서 A Sku를만 구매할 수 있으므로 있습니다 [Azure에서 포함 된 용량을 관리](developer/azure-pbie-create-capacity.md) 에서 **Azure portal**.
 
 Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Embedded란?](developer/azure-pbie-what-is-power-bi-embedded.md)을 참조하세요.
 
@@ -376,9 +404,9 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 ![Power BI 관리 포털 내의 embed 태그](media/service-admin-portal/embed-codes.png)
 
-## <a name="organizational-visuals"></a>조직의 시각적 개체
+## <a name="organizational-visuals">조직의 시각적 개체</a>
 
-**조직의 시각적 개체** 탭에서는 조직 내부에서 사용자 지정 시각적 개체를 배포 및 관리할 수 있습니다. 조직 시각적 개체를 사용하면 조직에서 소유 시각적 개체를 쉽게 배포할 수 있으므로 이후 보고서 작성자가 Power BI Desktop에서 이를 검색하고 보고서로 가져올 수 있습니다. [자세히 알아보기](power-bi-custom-visuals-organization.md)
+**조직 시각적 개체** 탭에서는 조직 내부에서 사용자 지정 시각적 개체를 배포 및 관리할 수 있습니다. 조직 시각적 개체를 사용하면 조직에서 소유 시각적 개체를 쉽게 배포할 수 있으므로 이후 보고서 작성자가 Power BI Desktop에서 이를 검색하고 보고서로 가져올 수 있습니다. [자세히 알아보기](power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > 사용자 지정 시각적 개체에는 보안 또는 개인 정보 관련 위험이 있는 코드가 포함될 수 있습니다. 조직의 리포지토리로 배포하기 전에 사용자 지정 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인해야 합니다.
@@ -436,19 +464,21 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)을 참조하세요.
 
-## <a name="dataflow-storage-preview"></a>데이터 흐름 스토리지(미리 보기)
+## <a name="dataflowStorage">데이터 흐름 저장소 (미리 보기)</a>
 
 기본적으로 Power BI에 사용되는 데이터는 Power BI에서 제공하는 내부 스토리지에 저장됩니다. 데이터 흐름 및 ADLS Gen2(Azure Data Lake Storage Gen2)를 통합하면 조직의 Azure Data Lake Storage Gen2 계정에 데이터 흐름을 저장할 수 있습니다. 자세한 내용은 [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)을 참조하세요.
 
-## <a name="workspaces-preview"></a>작업 영역(미리 보기)
+## <a name="workspaces"></a>작업 영역
 
-관리자는 테넌트에 있는 작업 영역을 볼 수 있습니다. 작업 영역 목록을 정렬 및 필터링하고 각 작업 영역에 대한 세부 정보를 표시할 수 있습니다. 테이블 열은 작업 영역에 대해 [Power BI 관리자 Rest API](/rest/api/power-bi/admin)에서 반환된 속성에 해당합니다. 개인 작업 영역은 **개인 그룹** 형식, 레거시 작업 영역은 **그룹** 형식, 최신 작업 영역은 **작업 영역** 형식입니다. 자세한 내용은 [Power BI에서 새 작업 영역 만들기(미리 보기)](service-create-the-new-workspaces.md)를 참조하세요.
+관리자는 테넌트에 있는 작업 영역을 볼 수 있습니다. 작업 영역 목록을 정렬 및 필터링하고 각 작업 영역에 대한 세부 정보를 표시할 수 있습니다. 반환 되는 속성에 해당 하는 테이블 열을 [Power BI Rest API 관리자](/rest/api/power-bi/admin) 작업 영역에 대 한 합니다. 형식의 개인 영역은 **PersonalGroup**, 형식의 클래식 영역은 **그룹**, 형식의 새 작업 영역 환경 작업 영역 되며 **작업 영역**합니다. 자세한 내용은 [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)합니다.
 
 ![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
 
+
 ## <a name="next-steps"></a>다음 단계
 
-[조직의 Power BI 관리](service-admin-administering-power-bi-in-your-organization.md)  [Power BI 관리 역할 이해](service-admin-role.md)  
+[조직에서 Power BI 관리](service-admin-administering-power-bi-in-your-organization.md)  
+[Power BI 관리자 역할 이해](service-admin-role.md)  
 [조직에서 Power BI 감사](service-admin-auditing.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

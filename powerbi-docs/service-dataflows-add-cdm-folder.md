@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3c5b33b4b056a5d2dfeeffd4c72ea878cf7d79c0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280289"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61160993"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)
 
@@ -25,14 +25,11 @@ Power BI에서 조직의 Azure Data Lake Store Gen2에 저장된 CDM(공통 데�
 
 다음 목록의 설명대로 CDM 폴더에서 데이터 흐름을 만들기 위한 몇 가지 요구 사항이 있습니다.
 
-* CDM 폴더에서 데이터 흐름을 만드는 기능은 [새 작업 영역 환경](service-create-the-new-workspaces.md)에서’만’ 사용할 수 있습니다. 
+* CDM 폴더에서 데이터 흐름을 만드는 기능은 [새 작업 영역 환경](service-create-the-new-workspaces.md)에서’만’ 사용할 수 있습니다.  
 * CDM 폴더를 Power BI에 추가하려면 폴더를 추가하는 사용자에게 [CDM 폴더 및 해당 파일의 권한](https://go.microsoft.com/fwlink/?linkid=2029121)이 있어야 합니다.
 * Power BI에 CDM 폴더의 모든 파일 및 폴더를 추가하려면 이에 대한 읽기 및 실행 권한을 부여 받아야 합니다.
 
 다음 섹션에서는 CDM 폴더에서 데이터 흐름을 만드는 방법을 설명합니다.
-
-> [!NOTE]
-> 데이터 흐름 기능은 미리 보기로 제공되며 일반 공급 전에 변경되고 업데이트될 수 있습니다.
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>CDM 폴더에서 데이터 흐름 만들기
 
@@ -71,7 +68,7 @@ Power BI Desktop:
 
 다음 목록에 설명된 몇 가지 추가 고려 사항도 있습니다.
 
-* CDM 폴더에서 데이터 흐름을 만드는 기능은 [새 작업 영역 환경](service-create-the-new-workspaces.md)에서’만’ 사용할 수 있습니다.
+* CDM 폴더에서 데이터 흐름을 만드는 기능은 [새 작업 영역 환경](service-create-the-new-workspaces.md)에서’만’ 사용할 수 있습니다. 
 * 연결된 엔터티는 CDM 폴더에서 만들어진 데이터 흐름에 사용할 수 없음
 
 
@@ -99,9 +96,9 @@ Power BI Desktop:
 전반적인 데이터 흐름에 대한 내용은 다음 문서를 참조하세요.
 
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
-* [Power BI Premium의 계산된 엔터티 사용(미리 보기)](service-dataflows-computed-entities-premium.md)
-* [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)](service-dataflows-developer-resources.md)
+* [Power BI 프리미엄에 계산 된 엔터티를 사용 하 여](service-dataflows-computed-entities-premium.md)
+* [데이터 흐름을 사용 하 여 온-프레미스 데이터 원본](service-dataflows-on-premises-gateways.md)
+* [Power BI 데이터 흐름에 대 한 개발자 리소스](service-dataflows-developer-resources.md)
 
 Azure Storage에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Azure Storage 보안 가이드](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

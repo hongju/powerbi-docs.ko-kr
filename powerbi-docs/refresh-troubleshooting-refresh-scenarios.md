@@ -1,21 +1,21 @@
 ---
 title: 새로 고침 시나리오 문제 해결
 description: 새로 고침 시나리오 문제 해결
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ce353ec70b933319faaabb0040c0df1a31103a27
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285119"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770531"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>새로 고침 시나리오 문제 해결
 다음에서 Power BI 서비스에서 데이터를 새로 고침할 때 직면할 수 있는 다양한 시나리오에 대한 정보를 찾을 수 있습니다.
@@ -57,6 +57,9 @@ Microsoft는 데이터 로드 프로세스에서 토큰을 새로 고치고 계�
 
 ## <a name="scheduled-refresh-timeout"></a>예약된 새로 고침 제한 시간
 2시간 뒤에 가져온 데이터 세트 제한 시간에 예정된 새로 고침입니다. 이 제한 시간은 **프리미엄** 작업 영역에서 데이터 세트에 대해 5시간으로 증가됩니다. 이 제한이 발생하는 경우 데이터 세트의 크기 또는 복잡성을 줄이거나 데이터 세트를 더 작은 조각으로 나누는 것이 좋습니다.
+
+## <a name="scheduled-refresh-failures"></a>예약 된 새로 고침 실패
+행에 실패할 경우 4 번 예약된 된 새로 고침, Power BI 새로 고침을 사용 하지 않도록 설정 합니다. 기본 문제를 해결 하 고 예약된 된 새로 고침을 다시 설정 합니다.
 
 ## <a name="access-to-the-resource-is-forbidden"></a>리소스에 대한 액세스가 금지되었습니다.  
 이 오류는 캐시된 자격 증명이 만료되는 경우에 발생할 수 있습니다. Power BI에 로그인하고 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true으로 이동하여 인터넷 브라우저 캐시를 지웁니다. 이렇게 하면 자격 증명의 업데이트를 적용합니다. 

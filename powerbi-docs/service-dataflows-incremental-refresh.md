@@ -1,23 +1,23 @@
 ---
 title: Power BI 데이터 흐름에 증분 새로 고침 사용
 description: 데이터 흐름에 대한 증분 새로 고침을 구성하는 방법 알아보기
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
-ms.author: davidi
+ms.date: 04/02/2019
+ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 224fc07fccc2b12b0a28c016f427a4d5f4613290
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293713"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136661"
 ---
-# <a name="using-incremental-refresh-with-power-bi-dataflows-preview"></a>Power BI 데이터 흐름에 증분 새로 고침 사용(미리 보기)
+# <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Power BI 데이터 흐름에 증분 새로 고침 사용
 
 데이터 흐름을 사용하면 Power BI로 대량의 데이터를 가져와 매력적인 보고서와 분석을 만들 수 있습니다. 그러나 새로 고침을 수행할 때마다 원본 데이터의 전체 복사본을 업데이트하는 것이 실용적이지 않은 경우도 있습니다. 이 경우 **증분 새로 고침**이 좋은 대안이 될 수 있습니다. 증분 새로 고침은 데이터 흐름에 다음과 같은 이점을 제공합니다.
 
@@ -27,13 +27,13 @@ ms.locfileid: "54293713"
 
 ![데이터 흐름에 대한 증분 새로 고침](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_03.png)
 
-Power BI 데이터 흐름에 증분 새로 고침을 사용하려면 데이터 흐름이 상주하는 작업 영역이 실행할 [프리미엄 용량](service-premium.md)에 있어야 하며 데이터 흐름으로 수집되는 데이터 원본에 증분 새로 고침이 필터링할 수 있는 ‘날짜/시간’ 필드가 있어야 합니다. 
+Power BI 데이터 흐름에 증분 새로 고침을 사용하려면 데이터 흐름이 상주하는 작업 영역이 실행할 [프리미엄 용량](service-premium-what-is.md)에 있어야 하며 데이터 흐름으로 수집되는 데이터 원본에 증분 새로 고침이 필터링할 수 있는 ‘날짜/시간’ 필드가 있어야 합니다.  
 
 ## <a name="configuring-incremental-refresh-for-dataflows"></a>데이터 흐름에 대한 증분 새로 고침 구성
 
 데이터 흐름에는 여러 엔터티가 포함될 수 있습니다. 증분 새로 고침은 엔터티 수준에서 설정되므로 하나의 데이터 흐름에 완전히 새로 고침되는 엔터티와 증분 새로 고침되는 엔터티가 모두 포함될 수 있습니다.
 
-증분 새로 고침되는 엔터티를 설정하려면 다른 엔터티와 마찬가지로 엔터티를 구성하여 시작합니다. 데이터 흐름 설정에 대한 자세한 내용은 [Power BI의 셀프 서비스 데이터 준비(미리 보기)](service-dataflows-overview.md)를 참조하세요.
+증분 새로 고침되는 엔터티를 설정하려면 다른 엔터티와 마찬가지로 엔터티를 구성하여 시작합니다. 설정 하는 데이터 흐름에 대 한 자세한 내용은 참조 하세요 [Power BI의 셀프 서비스 데이터 준비](service-dataflows-overview.md)합니다.
 
 데이터 흐름을 만들고 저장한 경우 다음 이미지에 표시된 대로 엔터티 보기에서 **증분 새로 고침** 아이콘을 선택합니다.
 
@@ -79,9 +79,9 @@ Power BI 데이터 흐름에 증분 새로 고침을 사용하려면 데이터 �
 
 ## <a name="incremental-refresh-and-linked-versus-computed-entities"></a>증분 새로 고침과 연결된 엔터티 및 계산된 엔터티
 
-‘연결된’ 엔터티의 경우 증분 새로 고침은 원본 엔터티를 업데이트합니다. 연결된 엔터티는 단지 원래 엔터티에 대한 포인터이므로 증분 새로 고침이 연결된 엔터티에 영향을 주지 않습니다. 원본 엔터티를 해당하는 정의된 새로 고침 정책에 따라 새로 고치는 경우 모든 연결된 엔터티는 원본의 데이터를 새로 고치는 것으로 가정합니다.
+‘연결된’ 엔터티의 경우 증분 새로 고침은 원본 엔터티를 업데이트합니다.  연결된 엔터티는 단지 원래 엔터티에 대한 포인터이므로 증분 새로 고침이 연결된 엔터티에 영향을 주지 않습니다. 원본 엔터티를 해당하는 정의된 새로 고침 정책에 따라 새로 고치는 경우 모든 연결된 엔터티는 원본의 데이터를 새로 고치는 것으로 가정합니다.
 
-‘계산된’ 엔터티는 데이터 저장소에서 실행되는 쿼리를 기반으로 하므로 다른 데이터 흐름일 수 있습니다. 따라서 계산된 엔터티는 연결된 엔터티와 동일한 방식으로 작동합니다.
+‘계산된’ 엔터티는 데이터 저장소에서 실행되는 쿼리를 기반으로 하므로 다른 데이터 흐름일 수 있습니다.  따라서 계산된 엔터티는 연결된 엔터티와 동일한 방식으로 작동합니다.
 
 계산된 엔터티와 연결된 엔터티는 유사한 방식으로 작동하므로 두 엔터티의 요구 사항과 구성 단계는 동일합니다. 한 가지 차이점은 계산된 엔터티의 경우 파티션이 빌드되는 방식으로 인해 특정 구성에서는 최적화된 방식으로 증분 새로 고침을 실행할 수 없다는 점입니다. 
 
@@ -105,7 +105,7 @@ Power BI 데이터 흐름에 증분 새로 고침을 사용하려면 데이터 �
 
 데이터 흐름 증분 새로 고침은 실행되는 시간에 따라 달라집니다. 쿼리 필터링은 실행되는 날에 따라 달라집니다.
 
-이러한 종속성을 수용하고 데이터 일관성이 보장되도록 데이터 흐름에 대한 증분 새로 고침에서는 ‘지금 새로 고침’ 시나리오에 대해 다음과 같은 경험적 접근을 구현합니다.
+이러한 종속성을 수용하고 데이터 일관성이 보장되도록 데이터 흐름에 대한 증분 새로 고침에서는 ‘지금 새로 고침’ 시나리오에 대해 다음과 같은 경험적 접근을 구현합니다. 
 
 * 예약된 새로 고침이 시스템에 정의된 경우 - 증분 새로 고침에서 일정 새로 고침의 표준 시간대 설정을 사용합니다. 이렇게 하면 데이터 흐름을 새로 고치는 사용자가 속한 표준 시간대와 상관없이 항상 시스템 정의와 일관됩니다.
 
@@ -129,13 +129,13 @@ Power BI 데이터 흐름에 증분 새로 고침을 사용하려면 데이터 �
 ### <a name="merge-partitions"></a>파티션 병합
 
 이 예에서는 일 파티션이 증분 범위를 벗어나면 자동으로 월 수준으로 병합됩니다. 증분 범위의 파티션이 해당 일만 새로 고치도록 허용하려면 일일 단위로 유지 관리되어야 합니다.
-‘실행 날짜 2016/12/11’이 사용된 새로 고침 작업에서는 11월의 일이 증분 범위를 벗어나므로 11월의 일을 병합합니다.
+‘실행 날짜 2016/12/11’이 사용된 새로 고침 작업에서는 11월의 일이 증분 범위를 벗어나므로 11월의 일을 병합합니다. 
 
 ![데이터 흐름의 파티션 병합](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_04.png)
 
 ### <a name="drop-old-partitions"></a>이전 파티션 삭제
 
-전체 범위를 벗어나는 이전 파티션은 제거됩니다. ‘실행 날짜 2017/1/2’이 사용된 새로 고침 작업에서 2016년 3분기 파티션은 전체 범위를 벗어나므로 2016년 3분기 파티션을 삭제합니다.
+전체 범위를 벗어나는 이전 파티션은 제거됩니다. ‘실행 날짜 2017/1/2’이 사용된 새로 고침 작업에서 2016년 3분기 파티션은 전체 범위를 벗어나므로 2016년 3분기 파티션을 삭제합니다. 
 
 ![데이터 흐름의 이전 파티션 삭제](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_05.png)
 
@@ -143,9 +143,9 @@ Power BI 데이터 흐름에 증분 새로 고침을 사용하려면 데이터 �
 
 이 예에서는 시스템이 오래 지속된 실패로부터 원활하게 복구하는 방법을 시뮬레이션합니다. 데이터 원본 자격 증명이 만료되어 새로 고침이 성공적으로 실행되지 않았으며 이 문제를 해결하는 데 13일이 걸린다고 가정해 보겠습니다. 증분 범위는 단 10일입니다.
 
-‘실행 날짜 2017/1/15’이 사용된 다음 새로 고침 작업이 성공하려면 누락된 13일을 다시 채워 새로 고침을 수행해야 합니다. 이전 9일도 정상 일정에서 새로 고치지 않았으므로 해당 9일도 새로 고쳐야 합니다. 즉, 증분 범위가 10일에서 22일로 증가합니다.
+‘실행 날짜 2017/1/15’이 사용된 다음 새로 고침 작업이 성공하려면 누락된 13일을 다시 채워 새로 고침을 수행해야 합니다.  이전 9일도 정상 일정에서 새로 고치지 않았으므로 해당 9일도 새로 고쳐야 합니다. 즉, 증분 범위가 10일에서 22일로 증가합니다.
 
-‘실행 날짜 2017/1/16’이 사용된 다음 새로 고침 작업은 12월의 일과 2016년 4분기의 월을 병합합니다.
+‘실행 날짜 2017/1/16’이 사용된 다음 새로 고침 작업은 12월의 일과 2016년 4분기의 월을 병합합니다. 
 
 ![데이터 흐름의 오래 지속된 실패로부터 복구](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_06.png)
 
@@ -156,8 +156,8 @@ Power BI 데이터 흐름에 증분 새로 고침을 사용하려면 데이터 �
 
 * [데이터 흐름을 사용하여 셀프 서비스 데이터 준비](service-dataflows-overview.md)
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
-* [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)](service-dataflows-developer-resources.md)
+* [데이터 흐름을 사용 하 여 온-프레미스 데이터 원본](service-dataflows-on-premises-gateways.md)
+* [Power BI 데이터 흐름에 대 한 개발자 리소스](service-dataflows-developer-resources.md)
 
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)

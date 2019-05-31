@@ -9,20 +9,20 @@ featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 05/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83ef4aa17de5edb18bc6b9cff1b50c29596704f7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d470a262bd8a5e6590746fb07889b1230f5cfc25
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292870"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375658"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 보고서의 시각화
 
 시각화(즉, 시각적 개체)는 데이터에서 발견된 정보를 표시합니다. Power BI 보고서에 시각적 개체가 하나 있는 단일 페이지가 포함될 수도 있고 시각적 개체로 가득한 여러 페이지가 포함될 수도 있습니다. Power BI 서비스에서 시각적 개체를 [보고서에서 대시보드에 고정](../service-dashboard-pin-tile-from-report.md)할 수 있습니다.
 
-보고서 *작성자*와 보고서 *소비자*를 구분하는 것이 중요합니다. 보고서를 작성 또는 수정하는 사람이 작성자입니다.  작성자에게는 보고서 및 보고서의 기본 데이터 세트를 편집할 수 있는 권한이 있습니다. 즉, Power BI Desktop에서는 데이터 뷰에서 데이터 세트를 열고 보고서 보기에서 시각적 개체를 만들 수 있습니다. Power BI service 서비스에서는 [편집용 보기](../consumer/end-user-reading-view.md)의 보고서 편집기에서 데이터 세트 또는 보고서를 열 수 있습니다. 보고서 또는 대시보드가 [사용자와 공유](../consumer/end-user-shared-with-me.md)되는 경우 사용자는 보고서 **소비자**입니다. 사용자는 보고서 및 시각적 개체를 보고 상호 작용할 수 있지만 변경 내용을 저장할 수 없습니다.
+보고서 간의 차이점을 확인 해야 *디자이너가* 및 보고서 *소비자* 작성 하거나 보고서를 수정 하는 사용자 경우 디자이너는 합니다.  디자이너는 보고서 및 해당 기본 데이터 집합 편집 권한이 있습니다. 즉, Power BI Desktop에서는 데이터 뷰에서 데이터 세트를 열고 보고서 보기에서 시각적 개체를 만들 수 있습니다. Power BI 서비스에서 즉, 데이터 집합 또는 보고서의 보고서 편집기에서 열면 [편집용 보기](../consumer/end-user-reading-view.md)합니다. 보고서 또는 대시보드가 [사용자와 공유](../consumer/end-user-shared-with-me.md)되는 경우 사용자는 보고서 **소비자**입니다. 보고 보고서 및 시각적 개체와 상호 작용할 수 있지만 주요 변경 내용을 저장할 수 없습니다.
 
 Power BI 시각화 창에서 바로 사용할 수 있는 다양한 시각적 개체 유형이 있습니다.
 
@@ -50,6 +50,11 @@ Power BI 시각화 창에서 바로 사용할 수 있는 다양한 시각적 개
 ## <a name="pin-the-visualization"></a>시각화 고정
 
 Power BI에서 원하는 방식의 시각화가 있는 경우 타일 형태로 [대시보드에 고정](../service-dashboard-pin-tile-from-report.md)할 수 있습니다. 시각화를 고정한 후 보고서에 사용되는 시각화를 변경하면 대시보드의 타일이 변경되지 않습니다. 꺾은선형 차트인 경우 보고서에서 도넛형 차트로 변경하더라도 꺾은선형 차트를 유지합니다.
+
+## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
+- 데이터 원본 필드 (측정값 또는 열)의 수에 따라 시각적 개체는 느린 로드할 수 있습니다.  가독성 및 성능 이유로 모두 10 ~ 20 총 필드에 시각적 개체를 제한 하는 것이 좋습니다. 
+
+- 시각적 개체에 대 한 상한 제한은 100 필드 (측정값 또는 열)입니다. 시각적 개체를 로드 하지 못하는 경우에 필드의 수를 줄입니다.   
 
 ## <a name="next-steps"></a>다음 단계
 

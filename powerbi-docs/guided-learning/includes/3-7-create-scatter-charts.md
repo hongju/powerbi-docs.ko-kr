@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cab4d5f47c7e0518bae3c11b3f298802cb67f6d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397636"
+---
 단위 판매량 및 수익과 같은 두 가지 측정값을 비교하려는 경우에 일반적으로 사용되는 시각화는 분산형 차트입니다.
 
 ![](media/3-7-create-scatter-charts/3-7_1.png)

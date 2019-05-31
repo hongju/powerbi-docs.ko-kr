@@ -10,12 +10,12 @@ ms.date: 03/20/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 5af159c43a5b6e02f66c4c24cde3aaf378797c51
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.openlocfilehash: 192066c34e99ecd4088d2253063bed7f2defd4e6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306438"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978858"
 ---
 # <a name="power-bi-for-report-designers"></a>보고서 디자이너용 Power BI
 
@@ -57,7 +57,7 @@ Power BI 소비자인가요? 환영합니다. [소비자용 Power BI](consumer/p
                                           <h3>Power BI 라이선싱</h3> 
                                           <p></p>
                                                 <a href="service-admin-licensing-organization.md">조직의 Power BI 라이선스 부여</a><br/> 
-                                                <a href="service-premium.md">Power BI Premium: 정의</a> 
+                                                <a href="service-premium-what-is.md">Power BI Premium: 정의</a> 
                                     </div> 
                               </div> 
                         </div> 

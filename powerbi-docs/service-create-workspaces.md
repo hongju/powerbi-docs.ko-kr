@@ -1,36 +1,34 @@
 ---
-title: Power BI에서 동료와 작업 영역 만들기
-description: 조직에 대한 주요 메트릭을 제공하도록 빌드된 작업 영역, 대시보드 및 보고서의 컬렉션을 만드는 방법을 살펴봅니다.
+title: Power BI에서 클래식 작업 영역 만들기
+description: 작업 영역에서 대시보드, 보고서 및 조직에 대 한 주요 메트릭을 제공 하도록 제작 된 페이지 매긴된 보고서의 컬렉션을 만드는 방법에 알아봅니다.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 23c011eded113a0249f5e4a354f909a30bc97148
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: dcf9b8befabfec98fcae154e6276f8e698b3ddc2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277920"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150957"
 ---
-# <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Power BI에서 동료와 작업 영역 만들기
+# <a name="create-classic-workspaces-in-power-bi"></a>Power BI에서 클래식 작업 영역 만들기
 
-Power BI에서 대시보드 및 보고서의 컬렉션을 만들고 구체화하기 위해 동료와 공동 작업하는 공간인 *작업 영역*을 만들 수 있습니다. 그런 다음, 컬렉션을 전체 조직 또는 특정 사용자나 그룹으로 배포할 수 있는 *앱*에 포함합니다. 
+Power BI에서 만들 수 있습니다 *작업 영역*, 작성 하 고 대시보드, 보고서의 컬렉션을 구체화 하는 동료와 공동 작업을 배치 하 고 페이지를 매긴 보고서입니다. 다음으로 컬렉션을 함께 묶을 수 있습니다 *앱* 를 전체 조직 또는 특정 사람 또는 그룹을 배포할 수 있습니다. 
 
-![Power BI 앱](media/service-create-workspaces/power-bi-apps-left-nav.png)
+**알고 계십니까?** Power BI는 이제 새로운 작업 영역 환경을 제공 합니다. 읽기 [새 작업 영역에서 작업을 구성](service-new-workspaces.md) 새 작업 영역에 대 한 세부 정보에 대 한 합니다. 
 
-작업 영역을 만들면 연결된 기본 Office 365 그룹을 만들게 됩니다. 모든 작업 영역 관리는 Office 365에 위치합니다. 동료를 이러한 작업 영역에 구성원 또는 관리자로 추가할 수 있습니다. 작업 영역에 있는 대시보드, 보고서는 물론, 더 광범위한 대상 그룹에 게시할 계획이 있는 기타 문서에 대해 공동 작업할 수 있습니다. 작업 영역에 있는 추가된 모든 사용자에게는 Power BI Pro 라이선스가 필요합니다. 
-
-**알고 계십니까?** Power BI는 새 작업 영역 환경을 미리 보기 상태로 제공합니다. 새 작업 영역에 대한 자세한 내용은 [새 작업 영역에서 작업 구성(미리 보기)](service-new-workspaces.md)을 참조합니다. 
+클래식 작업 영역을 만들면 기본, 연결 된 Office 365 그룹을 만드는 합니다. 모든 작업 영역 관리는 Office 365에 위치합니다. 동료를 이러한 작업 영역에 구성원 또는 관리자로 추가할 수 있습니다. 작업 영역에 있는 대시보드, 보고서는 물론, 더 광범위한 대상 그룹에 게시할 계획이 있는 기타 문서에 대해 공동 작업할 수 있습니다. 작업 영역에 있는 추가된 모든 사용자에게는 Power BI Pro 라이선스가 필요합니다. 
 
 ## <a name="video-apps-and-app-workspaces"></a>비디오: 앱 및 앱 작업 영역
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-an-app-workspace-based-on-an-office-365-group"></a>Office 365 그룹에 따라 앱 작업 영역 만들기
+## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>Office 365 그룹에 따라 클래식 앱 작업 영역 만들기
 
 앱 작업 영역을 만들 때 Office 365 그룹에 기반합니다.
 
@@ -52,6 +50,8 @@ Power BI에서 대시보드 및 보고서의 컬렉션을 만들고 구체화하
 3. 연필 아이콘을 다시 선택한 후 사용하려는 이미지를 찾습니다.
    
      ![연필 아이콘 다시 선택](media/service-create-distribute-apps/power-bi-apps-workspace-edit-group.png)
+
+     이미지는.png,.jpg,.bmp 파일을 수 있습니다. 파일 크기는 3MB로 등록 클 수 있습니다. 
 
 4. **저장**을 선택합니다.
    
@@ -77,9 +77,16 @@ Power BI에서 대시보드 및 보고서의 컬렉션을 만들고 구체화하
 
 ## <a name="distribute-an-app"></a>앱 배포
 
-콘텐츠가 준비되면 게시할 대시보드 및 보고서를 선택한 다음, *앱*으로 게시합니다. 동료는 몇 가지 다른 방법으로 앱을 설치할 수 있습니다. Power BI 관리자가 사용자에게 사용 권한을 부여한 경우 동료의 Power BI 계정에서 해당 앱을 자동으로 설치할 수 있습니다. 그렇지 않으면 Microsoft AppSource에서 해당 앱을 찾아 설치하거나 직접 링크를 보낼 수 있습니다. 업데이트를 자동으로 가져오므로, 데이터 새로 고침 빈도를 조절할 수 있습니다. 자세한 내용은 [Power BI에서 대시보드 및 보고서로 앱 생성 및 게시](service-create-distribute-apps.md)를 참조하세요.
+조직 내에서 대규모 대상에 게 공식 콘텐츠를 배포 하려는 경우에 작업 영역에서 앱을 게시할 수 있습니다.  대시보드 및 보고서를 게시 하려면를 선택 하 고 다음으로 게시 하 콘텐츠가 준비 되 면 프로그램 *앱*합니다. 각 작업 영역에서 하나의 앱을 만들 수 있습니다.
 
-## <a name="power-bi-apps-faq"></a>Power BI 앱 FAQ
+왼쪽된 탐색 영역에서 앱은 이전에 설치한 모든 앱을 보여 줍니다. 동료는 몇 가지 다른 방법으로 앱을 설치할 수 있습니다. 
+- 찾을 수 하며 Microsoft AppSource에서 앱을 설치 합니다.
+- 이러한 직접 링크를 보낼 수 있습니다. 
+- Power BI 관리자가 사용자에게 사용 권한을 부여한 경우 동료의 Power BI 계정에서 해당 앱을 자동으로 설치할 수 있습니다. 
+
+작업 영역에서 업데이트를 게시 한 후 업데이트 된 앱 콘텐츠를 자동으로 표시 하는 사용자. 작업 영역에서 앱 콘텐츠를 사용한 데이터 집합의 새로 고침 일정을 설정 하 여 데이터를 새로 고치는 빈도 제어할 수 있습니다. 참조 [Power BI에서 새 작업 영역에서 앱을 게시할](service-create-distribute-apps.md) 세부 정보에 대 한 합니다.
+
+## <a name="power-bi-classic-apps-faq"></a>Power BI 클래식 앱 FAQ
 
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>앱이 조직 콘텐츠 팩과 다른점
 앱은 조직 콘텐츠 팩이 진화된 것입니다. 조직 콘텐츠 팩이 이미 있는 경우 앱과 함께 계속 작동합니다. 앱 및 콘텐츠 팩에는 몇 가지 주요 차이점이 있습니다. 

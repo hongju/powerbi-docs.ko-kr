@@ -12,11 +12,11 @@ ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
-ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "55971697"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61404890"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI의 보고서 편집기 둘러보기
 
@@ -32,7 +32,7 @@ Power BI 서비스에서 보고서 편집기는 편집용 보기로만 제공됩
 
 Power BI 보고서 편집기는 다음 세 개의 섹션이 있습니다.  
 
-1. **필드**, **시각화** 및 **필터** 창 
+1. **필드**, **시각화** 및 **필터** 창
 2. 위쪽 탐색 모음    
 3. 보고서 캔버스     
 

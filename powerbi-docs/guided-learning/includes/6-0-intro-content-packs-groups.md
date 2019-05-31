@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f81300becc8a79b8a169aebe2ce3c56991c03262
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256259"
+---
 Power BI에 대한 **단계별 학습** 과정의 **게시 및 공유** 단원을 시작하겠습니다.
 
 Excel과 Power BI가 원활하게 함께 작동하는 방식과 보고서 및 대시보드에서 만들 수 있는 시각적 개체에 대한 모든 내용을 배웠으므로 이를 동료 및 친구와 공유하고 싶을 것입니다. Power BI를 사용하면 **게시 및 공유**가 간편합니다.

@@ -11,11 +11,11 @@ ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276103"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140962"
 ---
 # <a name="dashboard-data-classification"></a>대시보드 데이터 분류
 다양한 대시보드가 있기 때문에, 연결하는 데이터 원본에 따라, 데이터의 민감도에 따라 사용자 및 데이터를 공유하는 동료가 서로 다른 수준의 주의를 기울이도록 해야 할 필요성을 느낄 수 있습니다. 회사 외부의 사람과 절대로 공유하거나 인쇄하지 말아야 하는 대시보드가 있는가 하면, 자유롭게 공유할 수 있는 대시보드도 있습니다. 대시보드 데이터 분류를 사용하면, 대시보드를 보는 사람들이 사용해야 할 보안 수준에 대한 인식을 높일 수 있습니다. 콘텐츠를 보는 모든 사람이 데이터 민감도에 대해 동일한 수준의 이해를 갖도록 사내 IT 부서에서 정의한 분류를 사용하여 대시보드에 태그를 지정할 수 있습니다.
@@ -63,7 +63,7 @@ ms.locfileid: "54276103"
 1. 설정 기어(단추)를 선택하고 **관리 포털**을 선택합니다.
    
     ![](media/service-data-classification/admin_portal_in_settings.png)
-2. **테넌트 설정** 탭에서 **대시보드 및 보고서에 대한 데이터 분류**를 켜기로 전환합니다.
+2. **테넌트 설정** 탭에서 **대시보드 및 보고서에 대한 데이터 분류**를 켜기로 전환합니다. 
    
     ![](media/service-data-classification/data_classification_switch_location.png)
 

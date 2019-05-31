@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dda23e6b41613e76d5507d272e792f9f9130f982
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d900d8622f086ef28f39ee050e9e9f1639dfd53d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282244"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61231577"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI 및 Office 365에서 앱 작업 영역 관리
 [Power BI 또는 Office 365에서 앱 작업 영역](service-create-distribute-apps.md)의 작성자나 관리자는 Power BI의 작업 영역에 대한 몇 가지 측면을 관리합니다. Office 365에서 관리하는 기타 측면. 
@@ -36,10 +36,10 @@ ms.locfileid: "54282244"
 * 그룹 전자 메일 주소를 참조하세요.
 * 그룹 삭제.
 
-앱 작업 영역의 관리자 또는 구성원이 되려면 [Power BI Pro 라이선스](service-features-license-type.md)가 필요합니다. 앱 작업 영역이 Power BI 프리미엄 용량에 있는 경우를 제외하고 앱 사용자는 Power BI Pro 라이선스가 필요합니다. 자세한 내용은 [Power BI 프리미엄이란?](service-premium.md)을 참조하세요.
+앱 작업 영역의 관리자 또는 구성원이 되려면 [Power BI Pro 라이선스](service-features-license-type.md)가 필요합니다. 앱 작업 영역이 Power BI 프리미엄 용량에 있는 경우를 제외하고 앱 사용자는 Power BI Pro 라이선스가 필요합니다. 자세한 내용은 [Power BI 프리미엄이란?](service-premium-what-is.md)을 참조하세요.
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Power BI에서 앱 작업 영역 편집
-1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 줄임표(**…**)를 선택한 다음 > **작업 영역 편집**을 선택합니다. 
+1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 줄임표( **…** )를 선택한 다음 > **작업 영역 편집**을 선택합니다. 
    
    ![Power BI에서 작업 영역 편집](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
@@ -53,14 +53,14 @@ ms.locfileid: "54282244"
 3. **저장** 또는 **취소**를 선택합니다.
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Office 365에서 Power BI 앱 작업 영역 속성 편집
-1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 줄임표(**…**)를 선택하고 > **구성원**을 선택합니다. 
+1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 줄임표( **…** )를 선택하고 > **구성원**을 선택합니다. 
    
    ![Power BI에서 작업 영역 편집](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    그러면 그룹의 앱 작업 영역에 대한 Outlook for Office 365 그룹 보기가 열립니다.
    
    회사 계정에 로그인해야 합니다.
-2. 구성원 이름 옆의 줄임표(**...**)를 탭하여 구성원을 관리자로 지정하거나 앱 작업 영역에서 구성원을 삭제합니다. 
+2. 구성원 이름 옆의 줄임표( **...** )를 탭하여 구성원을 관리자로 지정하거나 앱 작업 영역에서 구성원을 삭제합니다. 
    
    ![Office 365에서 그룹 편집](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 

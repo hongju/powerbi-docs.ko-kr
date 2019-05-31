@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514627"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>자습서: Power BI Desktop을 사용하여 웹 페이지 데이터 분석
@@ -127,7 +127,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 의 UEFA 유럽
    ![필드 창](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
 >[!TIP]
 >항상 **파워 쿼리 편집기**로 돌아가서 다음과 같이 쿼리를 편집하고 구체화할 수 있습니다.
->- **필드** 창의 **Euro Cup Winners** 옆에 있는 **추가 옵션** 줄임표(**...**)를 선택하고 드롭다운에서 **쿼리 편집** 을 선택하거나,
+>- **필드** 창의 **Euro Cup Winners** 옆에 있는 **추가 옵션** 줄임표( **...** )를 선택하고 드롭다운에서 **쿼리 편집** 을 선택하거나,
 >- 보고서 보기의 **홈** 리본 탭에 있는**외부 데이터** 그룹에서 **쿼리 편집** > **쿼리 편집**을 선택합니다. 
 
 ## <a name="create-a-visualization"></a>시각화 만들기
@@ -181,7 +181,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 의 UEFA 유럽
 
 >[!TIP]
 >- **데이터 색** 서식 옵션을 사용하여 “Germany” 및 “West Germany”를 같은 색으로 설정할 수 있습니다. 
->- 원형 차트에서 가장 많이 우승한 국가를 함께 그룹화하려면 시각화의 오른쪽 위에 있는 줄임표(**...**)를 선택한 다음, 정렬기준에서 **Count of Country**를 선택합니다. 
+>- 원형 차트에서 가장 많이 우승한 국가를 함께 그룹화하려면 시각화의 오른쪽 위에 있는 줄임표( **...** )를 선택한 다음, 정렬기준에서 **Count of Country**를 선택합니다. 
 
 Power BI Desktop은 다양한 데이터 원본에서 데이터를 가져오고 이 데이터를 풍부한 대화형 방식으로 시각화하기 위해 분석 요구 사항에 맞게 모양을 지정하는 원활한 엔드투엔드 환경을 제공합니다. 보고서가 준비되면 [Power BI로 업로드](desktop-upload-desktop-files.md)하고 보고서에 따라 대시보드를 만든 후 다른 Power BI 사용자와 공유할 수 있습니다.
 

@@ -1,20 +1,20 @@
 ---
 title: Power BI 임베디드 분석을 사용하여 다중 테넌트 관리
 description: 임베디드 분석을 사용하여 다중 테넌트 애플리케이션을 디자인합니다.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.openlocfilehash: 31222828d1a12a5f46fd7c04b3aa32240ff35736
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014257"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61374691"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI 임베디드 분석을 사용하여 다중 테넌트 관리
 
@@ -51,9 +51,9 @@ Power BI Embedded를 사용하여 테넌트 간의 분리를 유지 관리하는
 
 **마스터 사용자** - Power BI에서 SaaS 애플리케이션을 나타내고 Power BI API 호출 시 SaaS 애플리케이션이 사용하는 ID입니다. Power BI Pro 라이선스를 가진 AAD 사용자여야 합니다.
 
-**AAD 애플리케이션 사용자(서비스 주체)** - Power BI에서 SaaS 애플리케이션을 나타내고 Power BI API 호출 시 SaaS 애플리케이션이 사용하는 ID입니다. AAD 웹 애플리케이션이어야 합니다. 인증할 ‘마스터’ 사용자 사용을 Power BI로 대체할 수 있습니다.
+**AAD 애플리케이션 사용자(서비스 주체)** - Power BI에서 SaaS 애플리케이션을 나타내고 Power BI API 호출 시 SaaS 애플리케이션이 사용하는 ID입니다. AAD 웹 애플리케이션이어야 합니다. 인증할 ‘마스터’ 사용자 사용을 Power BI로 대체할 수 있습니다. 
 
-**용량** - Power BI 서비스를 실행하기 위한 전용 리소스 세트입니다. [Power BI Premium 용량](../service-premium.md)은 Power BI를 내부적으로 사용하는 엔터프라이즈 회사에 적합하지만, [Power BI Embedded 용량](azure-pbie-create-capacity.md)은 제3자를 위한 SaaS 애플리케이션을 개발하는 애플리케이션 개발자에게 적합합니다.
+**용량** - Power BI 서비스를 실행하기 위한 전용 리소스 세트입니다. [Power BI Premium 용량](../service-premium-what-is.md)은 Power BI를 내부적으로 사용하는 엔터프라이즈 회사에 적합하지만, [Power BI Embedded 용량](azure-pbie-create-capacity.md)은 제3자를 위한 SaaS 애플리케이션을 개발하는 애플리케이션 개발자에게 적합합니다.
 
 **[Power BI Pro 라이선스](../service-admin-purchasing-power-bi-pro.md)** - 앱 작업 영역에 콘텐츠를 게시하고, 프리미엄 용량 없이 앱을 소비하고, 대시보드를 공유하고, 대시보드 및 보고서를 구독하는 권한을 부여하는 사용자 기반 라이선스입니다.
 
@@ -105,7 +105,7 @@ Power BI Embedded는 Multi-Geo 배포(미리 보기 기능)를 지원합니다. 
 
 ### <a name="cost"></a>비용
 
-[Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/)에는 리소스 기반 구매 모델이 있습니다(예: **Power BI Premium**). 컴퓨팅 성능 및 메모리가 고정된 용량을 하나 이상 구매합니다. 이 용량은 **Power BI Embedded**를 사용할 때 발생하는 주요 비용 항목입니다. 용량을 사용하는 사용자 수에는 제한이 없습니다. 유일한 제한은 용량의 성능입니다. [Power BI Pro 라이선스](../service-admin-licensing-organization.md)는 각 ‘마스터’ 사용자에게 필요하거나 Power BI 포털에 액세스해야 하는 특정 사용자에게 필요합니다.
+[Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/)에는 리소스 기반 구매 모델이 있습니다(예: **Power BI Premium**). 컴퓨팅 성능 및 메모리가 고정된 용량을 하나 이상 구매합니다. 이 용량은 **Power BI Embedded**를 사용할 때 발생하는 주요 비용 항목입니다. 용량을 사용하는 사용자 수에는 제한이 없습니다. 유일한 제한은 용량의 성능입니다. [Power BI Pro 라이선스](../service-admin-licensing-organization.md)는 각 ‘마스터’ 사용자에게 필요하거나 Power BI 포털에 액세스해야 하는 특정 사용자에게 필요합니다. 
 
 라이브 환경 및 사용량을 시뮬레이트하고 용량에 대한 부하 테스트를 실행하여 용량의 예상 부하를 테스트하고 측정하는 것이 좋습니다. Azure 용량 또는 [프리미엄 용량 메트릭 앱](../service-admin-premium-monitor-capacity.md)에서 제공하는 다양한 메트릭을 사용하여 부하와 성능을 측정할 수 있습니다.
 
@@ -119,7 +119,7 @@ Power BI Embedded는 Multi-Geo 배포(미리 보기 기능)를 지원합니다. 
 
 ## <a name="power-bi-workspace-based-isolation"></a>Power BI 작업 영역 기반 격리
 
-Power BI 작업 영역 기반 격리를 통해 SaaS 애플리케이션은 단일 Power BI 테넌트의 여러 테넌트를 지원합니다. 작업 영역 기반 격리는 여러 테넌트가 사용하는 모든 Power BI 콘텐츠를 포함합니다. Power BI 작업 영역 수준에서 여러 작업 영역을 만들어 테넌트를 분리합니다. 각 작업 영역은 해당 테넌트의 관련 데이터 세트, 보고서 및 대시보드를 포함합니다. 또한 각 작업 영역은 해당 테넌트의 데이터에만 연결됩니다. 추가적인 격리가 필요한 경우 각 작업 영역 및 해당 콘텐츠의 ‘마스터’ 사용자 또는 서비스 주체를 만들 수 있습니다.
+Power BI 작업 영역 기반 격리를 통해 SaaS 애플리케이션은 단일 Power BI 테넌트의 여러 테넌트를 지원합니다. 작업 영역 기반 격리는 여러 테넌트가 사용하는 모든 Power BI 콘텐츠를 포함합니다. Power BI 작업 영역 수준에서 여러 작업 영역을 만들어 테넌트를 분리합니다. 각 작업 영역은 해당 테넌트의 관련 데이터 세트, 보고서 및 대시보드를 포함합니다. 또한 각 작업 영역은 해당 테넌트의 데이터에만 연결됩니다. 추가적인 격리가 필요한 경우 각 작업 영역 및 해당 콘텐츠의 ‘마스터’ 사용자 또는 서비스 주체를 만들 수 있습니다. 
 
 ![작업 영역](media/multi-tenant-saas/multi-tenant-saas-workspace.png)
 
@@ -136,15 +136,15 @@ SaaS 애플리케이션 스토리지가 모든 테넌트에 다중 테넌트 데
 
 ### <a name="data-isolation"></a>데이터 격리
 
-이 테넌트 모델의 데이터는 작업 영역 수준에서 분리됩니다. 작업 영역과 테넌트 간에 간단한 매핑을 사용하면 한 테넌트의 사용자가 다른 테넌트의 콘텐츠를 볼 수 없습니다. 단일 ‘마스터’ 사용자를 사용하려면 모든 다른 작업 영역에 대한 액세스 권한이 있어야 합니다. 최종 사용자를 표시할 데이터의 구성은 최종 사용자가 보거나 변경할 수 없는 백 엔드 전용 프로세스인 [포함 토큰 생성](https://docs.microsoft.com/rest/api/power-bi/embedtoken) 중에 정의됩니다.
+이 테넌트 모델의 데이터는 작업 영역 수준에서 분리됩니다. 작업 영역과 테넌트 간에 간단한 매핑을 사용하면 한 테넌트의 사용자가 다른 테넌트의 콘텐츠를 볼 수 없습니다. 단일 ‘마스터’ 사용자를 사용하려면 모든 다른 작업 영역에 대한 액세스 권한이 있어야 합니다.  최종 사용자를 표시할 데이터의 구성은 최종 사용자가 보거나 변경할 수 없는 백 엔드 전용 프로세스인 [포함 토큰 생성](https://docs.microsoft.com/rest/api/power-bi/embedtoken) 중에 정의됩니다.
 
-격리를 더 추가하기 위해 애플리케이션 개발자는 ‘마스터’ 사용자를 정의하거나 여러 작업 영역에 대한 액세스 권한을 가진 단일 ‘마스터’ 사용자나 애플리케이션이 아닌 작업 영역별 애플리케이션을 정의할 수 있습니다. 이 방법으로 사용자 오류나 자격 증명 유출로 인해 여러 고객의 데이터가 노출되지 않도록 할 수 있습니다.
+격리를 더 추가하기 위해 애플리케이션 개발자는 ‘마스터’ 사용자를 정의하거나 여러 작업 영역에 대한 액세스 권한을 가진 단일 ‘마스터’ 사용자나 애플리케이션이 아닌 작업 영역별 애플리케이션을 정의할 수 있습니다.   이 방법으로 사용자 오류나 자격 증명 유출로 인해 여러 고객의 데이터가 노출되지 않도록 할 수 있습니다.
 
 ### <a name="scalability"></a>확장성
 
-이 모델의 한 가지 장점은 데이터를 각 테넌트의 여러 데이터 세트로 분리하면 [단일 데이터 세트의 크기 제한](https://docs.microsoft.com/power-bi/service-premium-large-datasets)(현재는 10GB 용량)이 극복된다는 점입니다. 용량이 오버로드되면 활성 데이터 세트의 메모리를 해제하도록 [미사용 데이터 세트를 제거할 수 있습니다](../service-premium-understand-how-it-works.md). 이 작업은 하나의 대규모 데이터 세트를 사용하여 수행할 수 없습니다. 여러 데이터 세트를 사용하면 필요한 경우 테넌트를 여러 Power BI 용량으로 분리할 수도 있습니다.
+이 모델의 한 가지 장점은 데이터를 각 테넌트의 여러 데이터 세트로 분리하면 [단일 데이터 세트의 크기 제한](https://docs.microsoft.com/power-bi/service-premium-large-datasets)(현재는 10GB 용량)이 극복된다는 점입니다. 용량을 오버 로드 하는 경우 활성 데이터 집합에 대 한 메모리를 사용 하지 않는 데이터 집합을 제거할 수 있습니다 것입니다. 이 작업은 하나의 대규모 데이터 세트를 사용하여 수행할 수 없습니다. 여러 데이터 세트를 사용하면 필요한 경우 테넌트를 여러 Power BI 용량으로 분리할 수도 있습니다.
 
-이러한 장점에도 불구하고 SaaS 애플리케이션이 나중에 도달할 수 있는 규모를 고려해야 합니다. 예를 들어 관리할 수 있는 아티팩트 수에 가까운 제한에 도달할 수 있습니다. 자세한 내용은 이 문서의 뒷부분에서 배포 [제한 사항](#summary-comparison-of-the-different-approaches)을 참조하세요. 사용되는 용량 SKU에 따라 데이터 세트를 조정해야 하는 기준 메모리 크기, [동시에 실행할 수 있는 새로 고침 횟수](../service-premium-understand-how-it-works.md) 및 데이터 새로 고침의 최대 빈도에 대한 제한이 추가됩니다. 수백 또는 수천 개의 데이터 세트를 관리하는 경우 테스트하는 것이 좋습니다. 또한 평균 및 최대 사용 볼륨뿐 아니라, 대규모 데이터 세트가 포함된 특정 테넌트, 또는 다른 테넌트와는 다르게 관리되는 다양한 사용 패턴을 고려하는 것이 좋습니다.
+이러한 장점에도 불구하고 SaaS 애플리케이션이 나중에 도달할 수 있는 규모를 고려해야 합니다. 예를 들어 관리할 수 있는 아티팩트 수에 가까운 제한에 도달할 수 있습니다. 자세한 내용은 이 문서의 뒷부분에서 배포 [제한 사항](#summary-comparison-of-the-different-approaches)을 참조하세요. 용량 SKU에 사용 되는 데이터 집합에 얼마나 많은 새로 고침 및 최대 데이터 새로 고침 주기에서 실행할 수 있습니다 하는 메모리의 크기에 제한이 소개 합니다. 수백 또는 수천 개의 데이터 세트를 관리하는 경우 테스트하는 것이 좋습니다. 또한 평균 및 최대 사용 볼륨뿐 아니라, 대규모 데이터 세트가 포함된 특정 테넌트, 또는 다른 테넌트와는 다르게 관리되는 다양한 사용 패턴을 고려하는 것이 좋습니다.
 
 ### <a name="automation--operational-complexity"></a>자동화 및 운영 복잡성
 
@@ -245,17 +245,17 @@ Power BI에는 RLS 역할 및 규칙을 수정하거나 만들 수 있는 API가
 
 **Power BI 용량 고려 사항 및 제한 사항:**
 
-* 각 용량은 [구매한 SKU](../service-premium.md)에 따라 할당된 메모리 및 V 코어만 사용할 수 있습니다.
-* 각 SKU의 권장 데이터 세트 크기는 [프리미엄 대규모 데이터 세트](../service-premium-large-datasets.md)를 참조하세요.
+* 각 용량은 [구매한 SKU](../service-premium-what-is.md)에 따라 할당된 메모리 및 V 코어만 사용할 수 있습니다.
+* 각 SKU의 권장 데이터 세트 크기는 [프리미엄 대규모 데이터 세트](../service-premium-what-is.md#large-datasets)를 참조하세요.
 * 전용 용량의 최대 데이터 세트 크기는 10GB입니다.
-* 일별 ‘가져오기 모드’ 데이터 세트의 예약된 새로 고침 횟수는 48회입니다.
-* ‘가져오기 모드’ 데이터 세트의 예약된 새로 고침 간 시간은 30분입니다.
-* 용량에서 동시에 실행될 수 있는 새로 고침 횟수는 [리소스 관리 및 최적화](../service-premium-understand-how-it-works.md)를 참조하세요.
+* 일별 ‘가져오기 모드’ 데이터 세트의 예약된 새로 고침 횟수는 48회입니다. 
+* ‘가져오기 모드’ 데이터 세트의 예약된 새로 고침 간 시간은 30분입니다. 
+* 용량에서 동시에 실행될 수 있는 새로 고침 횟수는 [리소스 관리 및 최적화](../service-premium-what-is.md#capacity-nodes)를 참조하세요.
 * 평균 용량 크기 조정 시간은 1~2분 사이입니다. 이 시간 동안 용량을 사용할 수 없습니다. [가동 중지 시간을 피하려면](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script) 스케일 아웃 접근 방식을 사용하는 것이 좋습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 * [Power BI를 사용한 임베디드 분석](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI 프리미엄](../service-premium.md)
+* [Power BI 프리미엄](../service-premium-what-is.md)
 * [행 수준 보안](embedded-row-level-security.md)

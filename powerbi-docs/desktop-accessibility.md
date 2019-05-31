@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.openlocfilehash: 54c842a91684eec1cf60eca4442592500d1bcb11
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306300"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770419"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서의 내게 필요한 옵션
 Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 상호 작용할 수 있도록 하는 기능이 있습니다. 이러한 기능에는 키보드 또는 화면 판독기를 사용하여 보고서를 이용하고 탭 키로 페이지에 있는 다양한 개체에 포커스를 이동하며 시각적 개체에 표식을 세밀하게 사용하는 기능이 있습니다.
@@ -71,7 +71,7 @@ Tab 키를 눌러 슬라이서에서 컨트롤로 이동할 수 있습니다. �
 * 이전 글머리 기호에 따라 정보를 전달하기 위해 색에 의존하지 마세요. 줄 및 분산형 차트에서 셰이프를 사용하는 것 외에도 테이블 및 행렬에 정보를 제공하는 조건부 서식을 사용하지 마세요. 
 * 보고서의 각 시각적 개체에 대한 의도적인 정렬 순서를 선택합니다. 화면 판독기 사용자가 차트 뒤의 데이터를 탐색할 때 시각적 개체와 같은 정렬 순서를 선택합니다.
 * 테마 갤러리에서 고대비 및 색맹인 *테마*를 선택하고 [**테마 설정** 미리 보기 기능](desktop-report-themes.md)을 사용하여 가져옵니다.
-* 보고서의 모든 개체에 대해 *대체 텍스트*를 제공합니다. 이렇게 하면 보고서 사용자는 시각적 개체, 이미지, 셰이프 또는 텍스트 상자를 볼 수 없더라도 시각적 개체와 통신하는 내용을 잘 파악할 수 있습니다. 개체(예: 시각적 개체, 셰이프 등)를 선택하고 **시각화** 창에서 **서식** 섹션을 선택하며 **일반**을 확장한 후 아래로 스크롤하고 **대체 텍스트** 텍스트 상자를 입력하여 **Power BI Desktop** 보고서의 모든 개체에 대해 ‘대체 텍스트’를 제공할 수 있습니다.
+* 보고서의 모든 개체에 대해 *대체 텍스트*를 제공합니다. 이렇게 하면 보고서 사용자는 시각적 개체, 이미지, 셰이프 또는 텍스트 상자를 볼 수 없더라도 시각적 개체와 통신하는 내용을 잘 파악할 수 있습니다. 개체(예: 시각적 개체, 셰이프 등)를 선택하고 **시각화** 창에서 **서식** 섹션을 선택하며 **일반**을 확장한 후 아래로 스크롤하고 **대체 텍스트** 텍스트 상자를 입력하여 **Power BI Desktop** 보고서의 모든 개체에 대해 ‘대체 텍스트’를 제공할 수 있습니다. 
   
   ![보고서에 있는 모든 개체에 대한 대체 텍스트는 시각화 > 서식 > 일반 > 대체 텍스트 상자에서 추가할 수 있습니다.](media/desktop-accessibility/accessibility_02.png)
 * 보고서에서 텍스트와 배경 색 간에 충분한 대비가 되는지 확인합니다. [색 대비 분석기](https://developer.paciellogroup.com/resources/contrastanalyser/)와 같은 여러 도구를 사용하여 보고서 색상을 확인할 수 있습니다. 
@@ -144,6 +144,12 @@ Windows에서 고대비 모드를 사용하면 선택한 설정 및 팔레트가
 | 다중 선택 | Ctrl + Enter 또는 Ctrl + 스페이스바 |
 | 마우스 오른쪽 클릭 | <ul><li>Windows 키보드: Windows 팝업 키+F10.  Windows 팝업 키는 왼쪽 Alt 키와 왼쪽 화살표 키 사이에 있습니다.</li><li>다른 키보드: Shift + F10</li></ul> |
 | 선택 영역 지우기 | Ctrl + Shift + C |
+
+### <a name="table--matrix-navigation"></a>테이블 및 행렬 탐색
+| 수행할 작업           | 누르기                |
+| :------------------- | :------------------- |
+| (모든 영역의 모든 셀)에 걸쳐 / 한 셀 아래로 포커스 이동  | 위쪽 화살표 키 / 아래쪽 화살표 키 |
+| (모든 영역에서 모든 셀)에서 하나의 셀을 마우스 오른쪽 단추로/왼쪽으로 포커스를 이동 합니다.  | 왼쪽된 화살표 키 / 오른쪽 화살표 키 |
 
 ### <a name="pane-navigation"></a>창 탐색
 | 수행할 작업           | 누르기                |

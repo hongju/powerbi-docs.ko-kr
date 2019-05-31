@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 896c415028b99db8662e93b5d709b76520996fef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e461480f53f4a97aeb4282e64a8a03eb8e1418d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275758"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187780"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI의 콤보 차트
 Power BI 콤보 차트는 꺾은선형 차트와 세로 막대형 차트를 결합한 단일 시각화 요소입니다. 2개 차트를 하나로 결합하면 데이터를 더 빠르게 비교할 수 있습니다.
@@ -52,7 +52,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 
     b.  **Sales** \> **Gross Margin This Year**을 **값** 영역에 끌어다 놓습니다.
 
-    c.  **Time** \> **FiscalMonth**를 선택하여 **축** 영역에 추가합니다.
+    c. **Time** \> **FiscalMonth**를 선택하여 **축** 영역에 추가합니다.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. 시각화의 오른쪽 위 모서리에 있는 줄임표(...)를 선택하고 **정렬 기준 > FiscalMonth**를 선택합니다. 정렬 순서를 변경하려면 줄임표를 다시 선택하고 **오름차순 정렬** 또는 **내림차순 정렬**을 선택합니다.
@@ -71,7 +71,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 ## <a name="create-a-combo-chart-with-two-axes"></a>두 개의 축이 있는 콤보 차트 만들기
 이 작업에서는 총 수익과 매출을 비교하겠습니다.
 
-1. **월별** **Gross Margin Last Year(%)** 을 추적하는 새로운 꺾은선형 차트를 만듭니다. **월별** 및 **오름차순** 기준으로 정렬하려면 줄임표를 선택합니다.  
+1. 추적 하는 새로운 꺾은선형 차트를 만듭니다 **작년 % Gross Margin** 하 여 **FiscalMonth**합니다. **월별** 및 **오름차순** 기준으로 정렬하려면 줄임표를 선택합니다.  
 1월에는 GM%가 35%였고, 4월에 45% 고점에 도달했으며, 7월에 감소하고, 8월에 다시 고점에 도달했습니다. 작년과 금년의 매출 패턴이 유사할까요?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
@@ -83,22 +83,22 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
 4. **Gross Margin Last Year(%)** 을 **세로 막대 값**에서 **꺾은선형 값**으로 끌어다 놓습니다. Power BI가 두 개의 축을 만들기 때문에 데이터 세트의 크기를 다르게 조정할 수 있습니다. 왼쪽은 판매액(달러)을 측정하고, 오른쪽은 백분율을 측정합니다. 질문에 대한 답변이 보입니다. 즉, 유사한 패턴이 확인됩니다.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
+   ![](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>축에 제목 추가
 1. 페인트 롤러 아이콘 ![](media/power-bi-visualization-combo-chart/power-bi-paintroller.png)을 선택하여 서식 창을 엽니다.
 2. 아래쪽 화살표를 선택하여 **Y축** 옵션을 확장합니다.
-3. **Y축(열)** 에 대해 **위치**를 **왼쪽**으로 설정하고, **제목**을 **켬**으로 설정하고, **스타일**을 **제목만 표시**로 설정하고, **표시 단위**를 **백만**으로 설정합니다.
+3. 에 대 한 **y 축 (열)** 설정 **위치** 하 **왼쪽**설정 **제목** 에 **에**,  **스타일** 하 **제목만 표시**, 및 **표시 단위** 으로 **수백만**합니다.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-y-axis-column.png)
-4. **Y축(열)** 아래에서 아래로 스크롤하여 **보조 표시**가 **켬**으로 설정되었는지 확인합니다. 이렇게 설정하면 콤보 차트에서 꺾은선형 차트의 서식을 지정할 수 있는 옵션이 표시됩니다.
+   ![](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
+4. 아래 **y 축 (열)** 에 표시 될 때까지 아래로 스크롤하여 **보조 표시**합니다. Y 축에 대 한 많은 옵션 이기 때문에 두 스크롤 막대를 사용 해야 합니다. 보조 표시 섹션에는 콤보 차트의 꺾은선형 차트 서식 지정 옵션이 표시 됩니다.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-show-secondary.png)
+   ![](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
 5. **Y축(선)** 에 대해 **위치**는 그대로 **오른쪽**으로 두고, **제목**을 **켬**으로 설정하고, **스타일**을 **제목만 표시**로 설정합니다.
 
    이제 콤보 차트에 이중 축과 제목이 표시됩니다.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-titles-on.png)
+   ![](media/power-bi-visualization-combo-chart/power-bi-2-titles.png)
 
 6. 차트의 가독성을 높일 수 있도록 필요에 따라 텍스트 글꼴, 크기 및 색을 수정하고 기타 서식 옵션을 설정합니다.
 

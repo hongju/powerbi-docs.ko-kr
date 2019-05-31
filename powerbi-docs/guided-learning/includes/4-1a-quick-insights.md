@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6424f63d992eaa7c8a4a8a5f76765b6aeb6104d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263835"
+---
 Power BI 서비스에서 대시보드, 보고서 또는 데이터 세트를 사용하는 경우 Power BI에서 데이터 정보를 신속하게 활용할 수 있습니다. Power BI의 왼쪽 창에 있는 **데이터 세트** 섹션에서 관심 있는 데이터 세트 옆의 *줄임표*(...)를 선택합니다. 옵션 메뉴가 나타나고 맨 오른쪽에 **빠른 정보 활용**이라는 옵션이 표시됩니다.
 
 ![](media/4-1a-quick-insights/4-1a_1.png)

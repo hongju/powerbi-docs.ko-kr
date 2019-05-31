@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e8b920763ea619fe74af2b71730164183f333a95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265136"
+---
 **Power BI Desktop**에는 모델 및 시각화에 즉시 사용할 수 있도록 데이터를 셰이핑하고 변환하는 강력한 도구인 **쿼리 편집기**가 포함되어 있습니다. 탐색기에서 편집을 선택하면 쿼리 편집기가 시작되고 데이터 소스에서 선택한 테이블 또는 다른 엔터티로 채워집니다.
 
 **홈** 리본의 **쿼리 편집** 단추를 사용하여 **Power BI Desktop**에서 직접 **쿼리 편집기**를 시작할 수도 있습니다.

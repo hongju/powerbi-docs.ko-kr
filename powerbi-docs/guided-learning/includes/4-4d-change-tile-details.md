@@ -1,4 +1,12 @@
-대시보드를 작성한 후에는 Power BI 서비스에서 해당 * 타일을 편집하여 몇 가지 서식을 변경할 수 있습니다.
+---
+ms.openlocfilehash: 8fc17759ea38cc96c69e7639ed25172e782a9d4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263799"
+---
+대시보드를 작성한 후에는 Power BI 서비스에서 해당 * 타일을 편집하여 몇 가지 서식을 변경할 수 있습니다. 
 
 타일을 변경하려면 해당 타일을 가리키고 줄임표(...)를 선택하여 타일을 변경하는 데 사용할 수 있는 아이콘 컬렉션을 표시합니다.
 

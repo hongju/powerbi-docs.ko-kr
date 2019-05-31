@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e3b465648d5b827d1ed53550207879f555c38f9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d690e8fd19ab988192c2aa36053416d2bb3d45c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284107"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61403441"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop 및 Power BI 서비스 비교
 
@@ -26,7 +26,7 @@ Power BI Desktop과 Power BI 서비스를 비교한 벤 다이어그램에서 �
 
 **Power BI Desktop**은 완전한 데이터 분석 및 보고서 작성 도구입니다. 로컬 컴퓨터에 무료 애플리케이션을 설치할 때 다양한 데이터 원본에 연결하여 데이터 모델(모델링이라고도 함)로 결합할 수 있습니다. [Power BI Desktop 시작 가이드](desktop-getting-started.md)가 이 과정을 안내합니다.
 
-**Power BI 서비스**는 팀 및 기업에 대한 간단한 보고서 편집 및 공동 작업을 위한 클라우드 기반의 온라인 서비스입니다. Power BI 서비스의 데이터 원본에도 연결할 수는 있지만 모델링에는 제한이 있습니다. 
+**Power BI 서비스**는 팀 및 기업에 대한 간단한 보고서 편집 및 협업을 위한 클라우드 기반의 온라인 서비스입니다. Power BI 서비스의 데이터 원본에도 연결할 수는 있지만 모델링에는 제한이 있습니다. 
 
 비즈니스 인텔리전스 프로젝트에서 작업하는 대부분의 보고서 디자이너는 **Power BI Desktop**을 사용하여 보고서를 만든 다음, **Power BI 서비스**를 사용하여 다른 사용자와 보고서를 공유합니다.
 
@@ -48,7 +48,7 @@ Power BI Desktop과 서비스의 보고서 편집기는 유사합니다. 다음 
 
 ## <a name="collaborating-in-the-power-bi-service"></a>Power BI 서비스에서 공동 작업
 
-보고서를 만든 후에는 사용자와 동료가 공동 작업을 수행하는 **Power BI 서비스**의 *작업 영역*에 보고서를 저장할 수 있습니다. 해당 보고서 위에 *대시보드*를 빌드합니다. 그런 다음, 해당 대시보드와 보고서를 조직 내외부의 보고서 소비자와 공유합니다. 보고서 소비자는 편집용 보기가 아닌 [읽기용 보기](consumer/end-user-reading-view.md)의 Power BI 서비스에서 봅니다. 소비자는 보고서 작성자에게 제공되는 모든 기능에 액세스할 수 없습니다. 
+보고서를 만든 후에는 사용자와 동료가 공동 작업을 수행하는 **Power BI 서비스**의 *작업 영역*에 보고서를 저장할 수 있습니다. 해당 보고서 위에 *대시보드*를 빌드합니다. 그런 다음, 해당 대시보드와 보고서를 조직 내외부의 보고서 소비자와 공유합니다. 보고서 소비자는 편집용 보기가 아닌 [읽기용 보기](consumer/end-user-reading-view.md)의 Power BI 서비스에서 봅니다. 보고서 작성자가 사용할 수 있는 모든 기능에 액세스할을 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

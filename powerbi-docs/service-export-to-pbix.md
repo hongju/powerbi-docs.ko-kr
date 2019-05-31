@@ -11,14 +11,14 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 5c42b633b3c8746d2e26656eb5310b1f74cb2500
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282014"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61159826"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Power BI 서비스에서 데스크톱에 보고서 내보내기(미리 보기)
-Power BI Desktop에서 보고서를 저장하고 **게시**를 선택하여 Power BI 서비스에 보고서를 내보낼(또는 다운로드할) 수 있습니다. 반대 방향으로도 내보내기할 수 있을 뿐 아니라 Power BI 서비스에서 바탕화면으로 보고서를 다운로드할 수 있습니다. 어느 방향으로든 내보내는 파일의 파일 확장명은 *.pbix*입니다.
+Power BI Desktop에서 보고서를 저장하고 **게시**를 선택하여 Power BI 서비스에 보고서를 내보낼(또는 다운로드할) 수 있습니다.  반대 방향으로도 내보내기할 수 있을 뿐 아니라 Power BI 서비스에서 바탕화면으로 보고서를 다운로드할 수 있습니다. 어느 방향으로든 내보내는 파일의 파일 확장명은 *.pbix*입니다.
 
 이 문서의 뒷부분에서 유의해야 할 몇 가지 제한 사항과 고려 사항을 설명합니다.
 
@@ -53,7 +53,7 @@ Power BI Desktop에서 보고서를 저장하고 **게시**를 선택하여 Powe
 Power BI 서비스에서 *.pbix* 파일의 다운로드(내보내기)와 관련된 몇 가지 중요한 고려 사항 및 제한 사항이 있습니다.
 
 * 파일을 다운로드하려면 보고서에 대한 액세스를 편집해야 합니다.
-* 보고서가 **Power BI Desktop**을 사용하여 만들어지고 **Power BI 서비스**에 ‘게시’되었거나, .pbix 파일이 서비스에 ‘업로드’되었어야 합니다.
+* 보고서가 **Power BI Desktop**을 사용하여 만들어지고 **Power BI 서비스**에 ‘게시’되었거나, .pbix 파일이 서비스에 ‘업로드’되었어야 합니다.  
 * 보고서는 2016년 11월 23일 이후 게시되거나 업데이트되어야 합니다. 보고서를 게시하기 전에는 다운로드되지 않습니다.
 * 이 기능은 콘텐츠 팩을 포함하여 **Power BI 서비스**에서 만든 보고서는 실행하지 않습니다.
 * 다운로드한 파일을 열 때는 항상 최신 버전의 **Power BI Desktop**을 사용해야 합니다. 다운로드한 *.pbix* 파일은 이전 버전의 **Power BI Desktop**에서는 열리지 않을 수 있습니다.

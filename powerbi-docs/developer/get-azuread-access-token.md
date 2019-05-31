@@ -1,26 +1,26 @@
 ---
 title: 사용자를 인증하고 애플리케이션에 대한 Azure AD 액세스 토큰 가져오기
 description: Power BI 콘텐츠를 포함하는 데 사용할 Azure Active Directory에 애플리케이션을 등록하는 방법을 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 7b2249964f2fff26bc68fea19fd0010d8990110b
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762539"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710316"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI 애플리케이션에 대한 Azure AD 액세스 토큰 가져오기
 
 Power BI 애플리케이션에서 사용자를 인증하고 REST API와 함께 사용할 액세스 토큰을 검색할 수 있는 방법을 알아봅니다.
 
-Power BI REST API를 호출할 수 있으려면, Azure Active Directory(Azure AD) **인증 액세스 토큰**(액세스 토큰)이 있어야 합니다. **액세스 토큰**은 앱이 **Power BI** 대시보드, 타일 및 보고서에 액세스하도록 허용하는 데 사용됩니다. Azure Active Directory **액세스 토큰** 흐름에 대해 자세히 알아보려면, [Azure AD 인증 코드 부여 흐름](https://msdn.microsoft.com/library/azure/dn645542.aspx)을 참조하세요.
+Power BI REST API를 호출할 수 있으려면, Azure Active Directory(Azure AD) **인증 액세스 토큰**(액세스 토큰)이 있어야 합니다. **액세스 토큰**은 앱이 **Power BI** 대시보드, 타일 및 보고서에 액세스하도록 허용하는 데 사용됩니다. Azure Active Directory **액세스 토큰** 흐름에 대해 자세히 알아보려면, [Azure AD 인증 코드 부여 흐름](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code)을 참조하세요.
 
 콘텐츠를 포함하는 방법에 따라 액세스 토큰이 다르게 검색됩니다. 이 문서에서는 두 가지 방법이 사용됩니다.
 
@@ -56,7 +56,7 @@ var @params = new NameValueCollection
 
 쿼리 문자열을 생성한 후에 **Azure AD**를 리디렉션하여 **인증 코드**를 가져옵니다.  다음은 **인증 코드** 쿼리 문자열을 생성하고 **Azure AD**에 리디렉션하는 전체 C# 메서드입니다. 인증 코드를 가져온 후 **인증 코드**를 사용하여 **액세스 토큰**을 가져옵니다.
 
-redirect.aspx.cs 내의 [AuthenticationContext.AcquireTokenByAuthorizationCode](https://msdn.microsoft.com/library/azure/dn479531.aspx)가 토큰을 생성하기 위해 호출됩니다.
+redirect.aspx.cs 내의 [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_)가 토큰을 생성하기 위해 호출됩니다.
 
 #### <a name="get-authorization-code"></a>인증 코드 가져오기
 
@@ -89,7 +89,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
     //Redirect authority
     //Authority Uri is an Azure resource that takes a client id to get an Access token
-    // AADAuthorityUri = https://login.microsoftonline.net/common/
+    // AADAuthorityUri = https://login.microsoftonline.com/common/
     string authorityUri = Properties.Settings.Default.AADAuthorityUri;
     var authUri = String.Format("{0}?{1}", authorityUri, queryString);
     Response.Redirect(authUri);
@@ -196,6 +196,10 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
+
+## <a name="troubleshoot"></a>문제 해결
+
+* 다운로드 [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) 발생 하는 경우는 "'AuthenticationContext' 'AcquireToken' 및 없습니다 액세스할 수 있는 'AcquireToken' 형식의 첫 번째 인수를 허용 하는 것에 대 한 정의가 없습니다 ' AuthenticationContext' 찾을 수 없습니다 (사용 하는 누락 된 지시문 또는 어셈블리 참조가?) "오류입니다.
 
 ## <a name="next-steps"></a>다음 단계
 

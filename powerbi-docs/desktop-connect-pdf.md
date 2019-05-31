@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop에서 PDF 파일에 연결(미리 보기)
+title: Power BI Desktop에서 PDF 파일에 연결
 description: Power BI Desktop에서 PDF 파일의 데이터에 쉽게 연결하고 사용합니다.
 author: davidiseminger
 manager: kfile
@@ -7,31 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ff61c4d2cc8ec3570e7eee45b7e43ec81f8f7161
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 0c63a62edfce62a5cee13bef3c68014027313e8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275114"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514046"
 ---
-# <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>Power BI Desktop에서 PDF 파일에 연결(미리 보기)
+# <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>Power BI Desktop에서 PDF 파일에 연결
 Power BI Desktop에서 Power BI Desktop의 다른 데이터 원본처럼 **PDF 파일**에 연결하여 파일에 포함된 데이터를 사용할 수 있습니다.
 
 ![PDF 파일의 데이터에 연결](media/desktop-connect-pdf/connect-pdf_04.png)
 
 다음 섹션에서는 **PDF 파일**에 연결하고, 데이터를 선택하고, 해당 데이터를 **Power BI Desktop**으로 가져오는 방법에 대해 설명합니다.
-
-## <a name="enable-the-pdf-connector"></a>PDF 커넥터 사용
-PDF 커넥터는 **Power BI Desktop**에서 미리 보기로 있으며, 사용하도록 설정해야 합니다. PDF 커넥터를 사용하도록 설정하려면 **파일 > 옵션 및 설정 > 옵션> 미리 보기 기능**을 차례로 선택한 다음, **PDF 파일에서 데이터 가져오기** 옆에 있는 확인란을 선택합니다. 
-
-![옵션 > 미리 보기 기능에서 PDF 커넥터를 사용하도록 설정](media/desktop-connect-pdf/connect-pdf_01.png)
-
-선택한 후에는 **Power BI Desktop**을 다시 시작해야 합니다.
-
-**PDF(베타)** 커넥터를 처음 사용하면 PDF 커넥터가 아직 개발 중이며 나중에 변경될 수 있음을 알려줍니다. 커넥터를 사용하려면 **계속**을 선택합니다.
 
 [Power BI Desktop 가져오기](desktop-get-the-desktop.md)의 링크에서 설치할 수 있는 **Power BI Desktop**의 최신 릴리스로 업그레이드하는 것이 좋습니다. 
 

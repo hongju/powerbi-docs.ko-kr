@@ -10,11 +10,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
 ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695153"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61380147"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>자습서: Power BI 사용자 지정 시각적 개체에 서식 옵션 추가
 
@@ -30,7 +30,7 @@ ms.locfileid: "57695153"
 
 1. **Power BI**에서 **페이지 서식**을 선택합니다.
 
-    ‘이 시각적 개체에 대해 서식 옵션을 사용할 수 없습니다.’라는 메시지가 표시됩니다.
+    ‘이 시각적 개체에 대해 서식 옵션을 사용할 수 없습니다.’라는 메시지가 표시됩니다. 
 
     ![서식 페인트 브러시](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
@@ -52,7 +52,7 @@ ms.locfileid: "57695153"
 
     ![서식 옵션 보기](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
-6. **제목** 옵션을 ‘끄기’로 설정합니다. 시각적 개체가 왼쪽 위 모서리에 측정값 이름을 표시하지 않는지 확인합니다.
+6. **제목** 옵션을 ‘끄기’로 설정합니다.  시각적 개체가 왼쪽 위 모서리에 측정값 이름을 표시하지 않는지 확인합니다.
 
     ![타일 옵션이 꺼져 있음](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
@@ -98,7 +98,7 @@ ms.locfileid: "57695153"
 
 3. **capabilities.json** 파일을 저장합니다.
 
-4. **탐색기 창**의 **src** 폴더 내부에서 **settings.ts**를 선택합니다. 이 파일은 시작 시각적 개체의 설정을 나타냅니다.
+4. **탐색기 창**의 **src** 폴더 내부에서 **settings.ts**를 선택합니다. 이 파일은 시작 시각적 개체의 설정을 나타냅니다. 
 
 5. **settings.ts** 파일에서 두 개의 클래스를 다음 코드로 바꿉니다.
 
@@ -205,13 +205,13 @@ ms.locfileid: "57695153"
 
 4. **description** 속성에 다음 텍스트를 입력합니다.
 
-    ‘원 내부에 서식이 지정된 측정값 표시’
+    ‘원 내부에 서식이 지정된 측정값 표시’ 
 
 5. 선택적으로 **author** 개체에 세부 정보를 입력합니다.
 
 6. **pbiviz.json** 파일을 저장합니다.
 
-7. **assets** 개체에서 문서는 아이콘의 경로를 정의합니다. 아이콘은 **‘시각화’** 창에 표시되는 이미지입니다. *20px x 20px*의 **PNG** 파일이어야 합니다.
+7. **assets** 개체에서 문서는 아이콘의 경로를 정의합니다. 아이콘은 **‘시각화’** 창에 표시되는 이미지입니다.  *20px x 20px*의 **PNG** 파일이어야 합니다.
 
 8. Windows 탐색기에서 icon.png 파일을 복사한 후 붙여넣어 assets 폴더에 있는 기본 파일을 바꿉니다.
 
@@ -239,7 +239,7 @@ ms.locfileid: "57695153"
 
 1. **Power BI Desktop**을 열고  *샘플 데이터 세트*을 사용하여 새 보고서를 생성합니다.
 
-2. **‘시각화’** 창에서 **줄임표**를 선택한 다음, 파일에서 **가져오기**를 선택합니다.
+2. **‘시각화’** 창에서 **줄임표**를 선택한 다음, 파일에서 **가져오기**를 선택합니다. 
 
     ![데스크톱에 사용자 지정 시각적 개체 추가](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
@@ -251,7 +251,7 @@ ms.locfileid: "57695153"
 
 6. 시각적 개체를 성공적으로 가져온 경우 **확인**을 선택합니다.
 
-7. 시각적 개체가 **‘시각화’** 창에 추가되었는지 확인합니다.
+7. 시각적 개체가 **‘시각화’** 창에 추가되었는지 확인합니다. 
 
     ![PBI Desktop 시각적 개체 창에서 보기](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 

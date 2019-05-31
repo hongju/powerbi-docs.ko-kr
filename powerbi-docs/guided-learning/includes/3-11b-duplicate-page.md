@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3aae2092875530ae2f739e3a62cb4408f80c6e5f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397711"
+---
 보고서의 개별 페이지는 특정 방식으로 상호 작용하고 정확한 서식이 있는 여러 시각화로 인해 매우 복잡할 수 있습니다. 보고서를 작성할 때 경우에 따라 두 가지 페이지 항목에 동일한 시각적 개체 및 레이아웃을 사용할 수 있습니다. 예를 들어 총수익에 대한 보고서를 방금 만든 경우 순수익에 대해 거의 동일한 페이지를 원할 수 있습니다.
 
 모든 작업을 다시 만드는 것은 어렵지만 Power BI Desktop을 사용하면 보고서 페이지를 복제하기만 하면 됩니다.

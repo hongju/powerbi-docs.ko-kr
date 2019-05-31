@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514574"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Excel에서 분석 문제 해결
@@ -86,7 +86,7 @@ C:\Users\davidi\Desktop\powerbi-content-pr\articles\media\powerbi-desktop-troubl
 온-프레미스 Analysis Services 데이터에 연결된 데이터 세트에 액세스하려는 경우 오류 메시지가 발생할 수 있습니다. **Excel에서 분석**은 컴퓨터가 **Analysis Services** 서버와 같은 도메인에 있고 계정이 **Analysis Services** 서버에 액세스하는 한 연결 문자열을 사용하여 온-프레미스 **Analysis Services**에서 데이터 세트 및 보고서에 연결하는 것을 지원합니다.
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>피벗 테이블 값 영역으로 아무것도 끌어올 수 없음(측정값 없음)
-**Excel에서 분석**이 외부 OLAP 모델(Excel이 Power BI에 연결되는 방식으로)에 연결되면, 모든 계산이 서버에서 수행되기 때문에 피벗 테이블의 [**측정값**이 외부 모델에 정의되어야 합니다](https://support.microsoft.com/kb/234700). 이것은 로컬 데이터 원본(예: Excel 테이블 또는 **Power BI Desktop**이나 **Power BI 서비스**의 데이터 세트)으로 작업하는 것과 다릅니다. 이런 경우 테이블 형식 모델을 로컬에서 사용할 수 있으며 데이터 모델에 저장되지 않고 동적으로 생성되는 측정값인 [암시적 측정값을 사용할 수 있습니다](https://msdn.microsoft.com/library/gg399077.aspx). 이런 경우 Excel에서의 동작은 **Power BI Desktop** 또는 **Power BI 서비스**에서의 동작과 다릅니다. Power BI에서 측정값으로 처리될 수 있는 데이터에 열이 있을 수 있지만 Excel에서 값(측정값)으로 사용될 수 없습니다.
+**Excel에서 분석**이 외부 OLAP 모델(Excel이 Power BI에 연결되는 방식으로)에 연결되면, 모든 계산이 서버에서 수행되기 때문에 피벗 테이블의 [**측정값**이 외부 모델에 정의되어야 합니다](https://support.microsoft.com/kb/234700).  이것은 로컬 데이터 원본(예: Excel 테이블 또는 **Power BI Desktop**이나 **Power BI 서비스**의 데이터 세트)으로 작업하는 것과 다릅니다. 이런 경우 테이블 형식 모델을 로컬에서 사용할 수 있으며 데이터 모델에 저장되지 않고 동적으로 생성되는 측정값인 [암시적 측정값을 사용할 수 있습니다](https://msdn.microsoft.com/library/gg399077.aspx). 이런 경우 Excel에서의 동작은 **Power BI Desktop** 또는 **Power BI 서비스**에서의 동작과 다릅니다. Power BI에서 측정값으로 처리될 수 있는 데이터에 열이 있을 수 있지만 Excel에서 값(측정값)으로 사용될 수 없습니다.
 
 이 문제를 해결하기 위한 옵션이 몇 가지 있습니다.
 

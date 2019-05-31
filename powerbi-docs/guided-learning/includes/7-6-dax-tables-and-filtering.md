@@ -1,12 +1,12 @@
 ---
 ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555927"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273659"
 ---
-**DAX** 및 Excel 수식 언어 간의 중요한 차이점은 DAX를 사용하여 단일 값으로 제한되는 것이 아니라 식 사이에 전체 테이블을 전달할 수 있다는 점입니다. DAX를 사용하는 경우 한 가지 강력한 효과는 해당 식에서 테이블을 필터링한 다음 필터링된 일련의 값으로 작업할 수 있다는 점입니다.
+**DAX** 및 Excel 수식 언어 간의 중요한 차이점은 DAX를 사용하여 단일 값으로 제한되는 것이 아니라 식 사이에 전체 테이블을 전달할 수 있다는 점입니다.  DAX를 사용하는 경우 한 가지 강력한 효과는 해당 식에서 테이블을 필터링한 다음 필터링된 일련의 값으로 작업할 수 있다는 점입니다.
 
 ![](media/7-6-dax-tables-and-filtering/dax-tables-filtering_1.png)
 
@@ -27,7 +27,7 @@ DAX에는 다음을 포함하여 풍부한 **테이블** 기능이 있습니다.
 
     FILTER (ALL (Table), Condition)
 
-해당 식은 현재 필터 내용을 무시하고 전체 테이블을 필터링합니다.
+해당 식은 현재 필터 내용을 무시하고 전체 테이블을 필터링합니다. 
 
 DISTINCT 함수는 현재 컨텍스트에서도 볼 수 있는 열의 고유 값을 반환합니다. 따라서 위의 DAX 식 예제를 사용하기 위해 해당 식에서 **ALL**을 사용하면 필터를 무시하는 반면 **ALL**을 **DISTINCT**로 대체하면 관찰합니다.
 

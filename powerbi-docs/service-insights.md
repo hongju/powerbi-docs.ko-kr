@@ -13,16 +13,16 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9e1c4a3942c75f41dc105e424685d32badbf3866
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276425"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61238458"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI를 사용하여 데이터 인사이트를 자동으로 생성
 새 데이터 세트가 있고 어디서 시작해야 할지가 확실하지 않은 경우  빠르게 대시보드를 만들어야 하는 경우  놓쳤을 수 있는 정보를 찾으려는 경우
 
-빠른 인사이트를 실행하여 데이터를 기준으로 흥미로운 대화형 시각화를 생성합니다. 빠른 인사이트는 데이터 세트 전체에 대해 실행하거나(빠른 인사이트) 특정 대시보드 타일에 대해 실행할 수 있습니다(지정된 범위의 빠른 인사이트). 인사이트에 대해서도 인사이트를 실행할 수 있습니다.
+빠른 인사이트를 실행하여 데이터를 기준으로 흥미로운 대화형 시각화를 생성합니다. 신속한 정보 활용은 데이터 세트 전체에 대해 실행하거나(신속한 정보 활용) 특정 대시보드 타일에 대해 실행할 수 있습니다(지정된 범위의 신속한 정보 활용). 인사이트에 대해서도 인사이트를 실행할 수 있습니다.
 
 > [!NOTE]
 > 인사이트는 DirectQuery에서 작동되지 않고, Power BI에 업로드한 데이터에서만 작동합니다.
@@ -30,7 +30,7 @@ ms.locfileid: "54276425"
 
 인사이트 기능은 Microsoft Research와의 연계를 통해 개발되는 [고급 분석 알고리즘 집합](service-insight-types.md)의 성장을 기반으로 구축됩니다. 당사는 더 많은 사람들이 새롭고 직관적인 방식으로 각자 데이터의 정보를 활용할 수 있도록 하기 위해 노력할 것입니다.
 
-## <a name="run-quick-insights-on-a-dataset"></a>데이터 세트에서 빠른 인사이트를 실행합니다.
+## <a name="run-quick-insights-on-a-dataset"></a>데이터 세트에서 신속한 정보 활용을 실행합니다.
 Amanda가 데이터 세트에 대한 빠른 인사이트를 실행하고, 정보를 포커스 모드에서 열고, 정보 중 하나를 대시보드에 타일로 고정한 다음, 대시보드 타일에 대한 정보를 얻는 비디오를 시청하세요.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/et_MLSL2sA8" frameborder="0" allowfullscreen></iframe>

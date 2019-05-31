@@ -1,26 +1,26 @@
 ---
 title: Power BI 서비스에서 페이지를 매긴 보고서 보기(미리 보기)
 description: 이 자습서에서는 Power BI 서비스에서 페이지를 매긴 보고서를 보는 방법을 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 99ed2510703aaa442be2ce2ee4b4c7ed7f31e681
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 8a87cb292da1a1fb3f4fc3e14d569ad8c97c60b6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324694"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769681"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>Power BI 서비스에서 페이지를 매긴 보고서 보기(미리 보기)
 
 이 문서에서는 Power BI 서비스에 게시된 페이지를 매긴 보고서를 보는 방법을 알아봅니다. 페이지를 매긴 보고서는 보고서 작성기에서 만들어지고 프리미엄 용량의 작업 영역에 업로드된 보고서입니다. 작업 영역 이름 옆의 다이아몬드 아이콘 ![Power BI Premium 용량 다이아몬드 아이콘](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) 을 찾으세요. 
 
-페이지를 매긴 보고서에는 고유한 아이콘이 있습니다. ![페이지를 매긴 보고서 아이콘](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-icon.png).
+페이지를 매긴 보고서에는 고유한 아이콘이 있습니다. ![페이지를 매긴 보고서 아이콘](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-icon.png)을 선택합니다.
 
 페이지를 매긴 보고서를 다음과 같은 여러 형식으로 내보낼 수도 있습니다. 
 
@@ -55,4 +55,4 @@ ms.locfileid: "56324694"
 
 ## <a name="next-steps"></a>다음 단계
 
-[What are paginated reports in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md)(Power BI Premium의 페이지를 매긴 보고서란?(미리 보기))
+[Power BI Premium의 페이지를 매긴 보고서란? (미리 보기)](paginated-reports-report-builder-power-bi.md)

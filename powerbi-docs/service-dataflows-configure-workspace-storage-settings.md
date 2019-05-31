@@ -1,21 +1,21 @@
 ---
 title: 작업 영역 데이터 흐름 설정 구성
-description: Power BI에서 앱 작업 영역을 구성하여 Azure Data Lake Storage Gen2에 데이터 흐름 정의 및 데이터 파일 저장
+description: Azure Data Lake 저장소 Gen2에서 해당 데이터 흐름 정 및 데이터 파일을 저장 하려면 Power BI에서 앱 작업 영역 구성
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8c17a7b4ad455077d383eaff9b35a5d1004fce11
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223631"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61168551"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>작업 영역 데이터 흐름 설정 구성(미리 보기)
 
@@ -52,9 +52,6 @@ Power BI 서비스에서 새 앱 작업 영역을 만들려면 **작업 영역 >
 ![새 작업 영역의 고급 설정](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
 **저장**을 선택하여 새 작업 영역을 만듭니다. 이제 이 작업 영역에서 만든 모든 새 데이터 흐름은 조직의 Azure Data Lake Storage Gen2 계정에 해당 정의 파일(Model.json 파일) 및 데이터를 저장합니다. 
-
-> [!NOTE]
-> 데이터 흐름 기능은 미리 보기로 제공되며 일반 공급 전에 변경되고 업데이트될 수 있습니다.
 
 ## <a name="update-dataflow-storage-for-an-existing-workspace"></a>기존 작업 영역의 데이터 흐름 스토리지 업데이트
 

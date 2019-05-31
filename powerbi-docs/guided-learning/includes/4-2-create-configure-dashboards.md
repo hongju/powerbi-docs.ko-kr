@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 94ff18339d2eb14faebf124786cab7f9ac66393e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263862"
+---
 Power BI의 **대시보드**는 Power BI 서비스 내에서 생성된 한 페이지로 된 시각화의 컬렉션입니다. Power BI Desktop을 사용하여 작성하고 게시한 보고서의 시각화 또는 Power BI 서비스 자체 내에서 만든 시각화를 **고정**하여 대시보드를 만듭니다. 시각적 개체를 대시보드에 **고정**하는 것은 그림을 벽에 거는 것과 같습니다. 다른 사람이 볼 수 있도록 특정 지점에 시각적 개체를 부착하는 것입니다. 시각적 개체를 고정하려면 Power BI 서비스에서 해당 보고서를 엽니다. 고정하려는 시각적 개체를 마우스로 가리키고 **고정** 아이콘을 선택합니다.
 
 ![](media/4-2-create-configure-dashboards/4-2_1.png)

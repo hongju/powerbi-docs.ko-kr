@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 64957fa71249c551b4f69b619a12baf03fae6b06
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513712"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop의 DAX 기본 사항
@@ -36,7 +36,7 @@ Microsoft Excel에서 수식을 만드는 방법을 이미 잘 알고 있을 수
 DAX를 학습하는 가장 좋은 방법은 몇 가지 기본 수식을 만들어 실제 데이터에 사용하고 그 결과를 직접 확인하는 것입니다. 이 문서의 예제 및 작업에서는 Contoso Sales Sample for Power BI Desktop Preview 파일을 사용합니다. [자습서: Power BI Desktop에서 고유한 측정값 만들기](desktop-tutorial-create-measures.md) 문서에 사용된 것과 동일한 샘플 파일입니다. 다운로드할 [샘플 파일](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)은 다음과 같습니다.
 
 ## <a name="lets-begin"></a>시작하기
-여기서는 다음과 같은 세 가지 기본 개념을 중심으로 DAX를 살펴봅니다. ‘구문’, ‘함수’ 및 ‘컨텍스트’. 물론 DAX에는 다른 중요한 개념도 있지만 이러한 세 가지 개념을 이해하면 DAX 기술을 구축할 최상의 토대가 제공됩니다.
+여기서는 다음과 같은 세 가지 기본 개념을 중심으로 DAX를 살펴봅니다. ‘구문’, ‘함수’ 및 ‘컨텍스트’.    물론 DAX에는 다른 중요한 개념도 있지만 이러한 세 가지 개념을 이해하면 DAX 기술을 구축할 최상의 토대가 제공됩니다.
 
 ### <a name="syntax"></a>구문
 수식을 직접 만들기 전에 DAX 수식 구문에 대해 살펴보겠습니다. 구문에는 수식을 구성하는 요소, 보다 간단히 수식이 작성되는 방법이 포함됩니다. 예를 들어 측정값에 대한 간단한 DAX 수식을 살펴보겠습니다.
@@ -47,7 +47,7 @@ DAX를 학습하는 가장 좋은 방법은 몇 가지 기본 수식을 만들�
 
 **A.** 측정값 이름 **Total Sales**.
 
-**B.** 등호 연산자(**=**)는 수식의 시작을 나타냅니다. 계산되면 결과를 반환합니다.
+**B.** 등호 연산자( **=** )는 수식의 시작을 나타냅니다. 계산되면 결과를 반환합니다.
 
 **C.** DAX 함수 **SUM**은 **Sales[SalesAmount]** 열에 있는 모든 숫자를 더합니다. 함수에 대해서는 나중에 자세히 살펴보겠습니다.
 
@@ -55,7 +55,7 @@ DAX를 학습하는 가장 좋은 방법은 몇 가지 기본 수식을 만들�
 
 **E.** 참조되는 테이블 **Sales**.
 
-**F.** 판매액 테이블에서 참조되는 열 **[SalesAmount]**. 이 인수를 사용하여 SUM 함수는 SUM을 집계할 열을 파악합니다.
+**F.** 판매액 테이블에서 참조되는 열 **[SalesAmount]** . 이 인수를 사용하여 SUM 함수는 SUM을 집계할 열을 파악합니다.
 
 DAX 수식을 이해하려는 경우 매일 생각하고 말하는 언어로 각 요소를 분석하면 도움이 되는 경우가 종종 있습니다. 예를 들어 이 수식을 다음과 같이 읽을 수 있습니다.
 
@@ -93,9 +93,9 @@ DAX 수식을 이해하려는 경우 매일 생각하고 말하는 언어로 각
    
 4. **CALCULATE** 함수의 여는 괄호 **(** 다음에 **SUM**과 다른 여는 괄호 **(** 를 차례로 입력합니다. 이제 SUM 함수에 인수를 전달해야 합니다.
 
-5. **Sal** 입력을 시작한 다음 **Sales[SalesAmount]**, 닫는 괄호 **)** 를 차례로 선택합니다. CALCULATE 함수에 대한 첫 번째 식 인수입니다.
+5. **Sal** 입력을 시작한 다음 **Sales[SalesAmount]** , 닫는 괄호 **)** 를 차례로 선택합니다. CALCULATE 함수에 대한 첫 번째 식 인수입니다.
     
-6. 쉼표(**,**), 공백을 차례로 입력하여 첫 번째 필터를 지정하고 **PREVIOUSQUARTER**를 입력합니다. 이것이 필터가 됩니다.
+6. 쉼표( **,** ), 공백을 차례로 입력하여 첫 번째 필터를 지정하고 **PREVIOUSQUARTER**를 입력합니다. 이것이 필터가 됩니다.
     
    PREVIOUSQUARTER 시간 인텔리전스 함수를 사용하여 이전 분기별로 SUM 결과를 필터링합니다.
     
@@ -176,17 +176,17 @@ DAX에는 다음과 같은 범주의 함수가 포함됩니다. [날짜 및 시�
 
 **A.** 측정값 이름 **Store Sales**.
 
-**B.** 등호 연산자(**=**)는 수식의 시작을 나타냅니다.
+**B.** 등호 연산자( **=** )는 수식의 시작을 나타냅니다.
 
 **C.** **CALCULATE** 함수는 지정된 필터로 수정된 컨텍스트에서 식을 인수로 평가합니다.
 
 **D.** 괄호 **()** 는 하나 이상의 인수를 포함하는 식을 둘러쌉니다.
 
-**E.** 식과 동일한 테이블에 있는 측정값 **[Total Sales]**. Total Sales 측정값에는 =SUM(Sales[SalesAmount]) 수식이 있습니다.
+**E.** 식과 동일한 테이블에 있는 측정값 **[Total Sales]** . Total Sales 측정값에는 =SUM(Sales[SalesAmount]) 수식이 있습니다.
 
-**F.** 쉼표(**,**)는 첫 번째 식 인수를 필터 인수와 구분합니다.
+**F.** 쉼표( **,** )는 첫 번째 식 인수를 필터 인수와 구분합니다.
 
-**G.** 정규화된 참조되는 열 **Channel[ChannelName]**. 바로 행 컨텍스트입니다. 이 열의 각 행은 다음 채널을 지정합니다. Store, Online 등
+**G.** 정규화된 참조되는 열 **Channel[ChannelName]** . 바로 행 컨텍스트입니다. 이 열의 각 행은 다음 채널을 지정합니다. Store, Online 등
 
 **H.** 필터로 사용되는 특정 값 **Store**. 바로 필터 컨텍스트입니다.
 

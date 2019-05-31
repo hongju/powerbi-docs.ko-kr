@@ -11,17 +11,17 @@ ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: d2eeab8241de06f9a4d0e654696173d076e01ad2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292364"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187057"
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI 보관 작업 영역
 
 Power BI를 사용하면 누구나 몇 분 안에 서비스에 가입하고 사용을 시작할 수 있습니다.  나중에 조직의 IT 부서가 조직 내 사용자를 위해 Power BI 관리 인계를 선택할 수 있습니다.  이 인계가 발생하면 조직에서 사용자 및 권한의 중앙 관리를 활용할 수 있습니다. 또한 조직 내 타 서비스에 사용하는 것과 동일한 사용자 이름과 암호를 사용함으로써 능률적인 가입 절차를 활용할 수 있습니다.
 
-IT 부서가 Power BI 관리를 시작하기 전에 사용자가 만든 모든 콘텐츠는 Power BI 보관 작업 영역에 배치되며 [Power BI](https://app.powerbi.com)의 왼쪽 탐색을 통해 액세스할 수 있습니다. 조직의 IT 부서에서 보호 및 관리하는 내 작업 영역에서 새 Power BI 콘텐츠를 만들기 시작해야 합니다.    보관 작업 영역은 그대로 존재하지만 보관 작업 영역의 콘텐츠에 대해 수행할 수 있는 작업에는 제한이 있습니다.  이러한 제한 사항을 제거하려면 보관 작업 영역의 콘텐츠를 IT 부서에서 관리하는 내 작업 영역으로 마이그레이션해야 합니다.
+IT 부서가 Power BI 관리를 시작하기 전에 사용자가 만든 모든 콘텐츠는 Power BI 보관 작업 영역에 배치되며 [Power BI](https://app.powerbi.com)의 왼쪽 탐색을 통해 액세스할 수 있습니다. 조직의 IT 부서에서 보호 및 관리하는 내 작업 영역에서 새 Power BI 콘텐츠를 만들기 시작해야 합니다.  보관 작업 영역은 그대로 존재하지만 보관 작업 영역의 콘텐츠에 대해 수행할 수 있는 작업에는 제한이 있습니다.  이러한 제한 사항을 제거하려면 보관 작업 영역의 콘텐츠를 IT 부서에서 관리하는 내 작업 영역으로 마이그레이션해야 합니다.
 
 ## <a name="restrictions-in-your-archived-workspace"></a>보관 작업 영역의 제한 사항
 
@@ -29,7 +29,7 @@ Power BI는 보관 작업 영역에서 콘텐츠를 삭제하지 않습니다. �
 
 * **비즈니스용 OneDrive**: 보관 작업 영역에 있는 데이터 세트의 경우 더 이상 비즈니스용 OneDrive에서 데이터를 가져오거나 새로 고칠 수 없습니다.  이 원본에 연결하려고 시도하면 경고가 표시됩니다.
 
-* **대시보드 공유**: 보관 작업 영역에서 대시보드를 다른 사용자와 공유할 수 없습니다.  이미 액세스 권한이 있는 모든 사용자는 보관 작업 영역 액세스를 통해 공유 대시보드를 계속 볼 수 있습니다.
+* **대시보드 공유**: 보관 작업 영역에서 다른 사용자와 대시보드를 공유할 수 없습니다.  이미 액세스 권한이 있는 모든 사용자는 보관 작업 영역 액세스를 통해 공유 대시보드를 계속 볼 수 있습니다.
 
 * **그룹 만들기**: 보관 작업 영역에서 그룹을 만들 수 없습니다.
 

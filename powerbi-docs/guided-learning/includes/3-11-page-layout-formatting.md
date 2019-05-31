@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e2745c211dbb9f855bcf90589f0fbbe65857b3a3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397676"
+---
 Power BI Desktop에서는 크기 및 방향과 같은 보고서 페이지의 레이아웃 및 서식을 제어할 수 있습니다.
 
 홈 탭에서 **페이지 뷰** 메뉴를 사용하여 보고서 페이지 크기 조정 방식을 변경할 수 있습니다. 사용 가능한 옵션에는 **페이지에 맞추기**(기본값), **너비에 맞추기** 및 **실제 크기**가 있습니다.

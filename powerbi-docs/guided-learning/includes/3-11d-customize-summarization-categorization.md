@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 1db5f34ce7a08b32b665409322836eba483be927
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397691"
+---
 Power BI에는 모델의 필드에 할당할 수 있는 속성이 있습니다. 이는 보다 명확한 방식으로 데이터를 보고 및 시각화하고 표시하는 데 도움이 됩니다. 예를 들어 숫자 목록의 평균을 구하되, Power BI에서 자동으로 목록의 합계를 구하도록 할 수 있습니다. Power BI를 사용하면 이러한 숫자 목록의 요약 방식을 조정할 수 있습니다.
 
 ## <a name="numeric-control-over-summarization"></a>요약에 대한 숫자 제어

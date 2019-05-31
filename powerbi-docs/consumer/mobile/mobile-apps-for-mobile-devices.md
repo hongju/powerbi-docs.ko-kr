@@ -11,11 +11,11 @@ ms.date: 04/26/2018
 ms.author: mshenhav
 ms.custom: ''
 ms.openlocfilehash: 1e30efc917b7c064bc93e06a09df3d099cd6e7e2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278426"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61046615"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI 모바일 앱이란?
 Power BI는 iOS, Android 및 Windows 10 모바일 디바이스용 모바일 앱 집합을 제공합니다. 모바일 앱에서 클라우드 및 온-프레미스 데이터에 연결하고 이를 조작합니다. 

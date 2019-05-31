@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
 ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281784"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137544"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 디바이스에서 Power BI 모바일 앱 시작
 iPhone, iPad 또는 iPod Touch의 iOS 앱용 Microsoft Power BI는 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기 적절한 데이터를 최신 상태로 유지합니다.  
@@ -61,7 +61,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
    ![Power BI 모바일 샘플](./media/mobile-iphone-app-get-started/power-bi-iphone-powerbi-samples.png)
    
    > [!NOTE]
-   > 일부 기능은 샘플에서 사용할 수 없습니다. 예를 들어 대시보드의 기반이 되는 샘플 보고서는 볼 수 없습니다.  
+   > 일부 기능은 샘플에서 사용할 수 없습니다. 예를 들어 대시보드의 기반이 되는 샘플 보고서는 볼 수 없습니다. 
    > 
    > 
 
@@ -80,7 +80,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 [모바일 앱에서 콘텐츠 찾기](mobile-apps-quickstart-view-dashboard-report.md)에 대해 읽습니다.
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>즐겨찾는 대시보드, KPI 및 보고서 보기
-모바일 앱의 즐겨찾기 페이지에서 Power BI Report Server 및 Reporting Services KPI와 보고서와 함께 즐겨 찾는 모든 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 디바이스에서 액세스할 수 있습니다. 
+모바일 앱의 즐겨찾기 페이지에서 Power BI Report Server 및 Reporting Services KPI와 보고서와 함께 즐겨 찾는 모든 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 디바이스에서 액세스할 수 있습니다.  
 
 * **즐겨찾기**를 누릅니다.
   

@@ -1,18 +1,18 @@
 ---
 title: Power BI 작업 영역 컬렉션 작업 영역 컬렉션 콘텐츠를 Power BI으로 마이그레이션하는 방법
 description: Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션하고 앱에서 포함하기 위한 고급 기능을 활용하는 방법을 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 23907633ec92a172a9cdd392ad62b43d367260b3
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223608"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61270458"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 
@@ -49,7 +49,7 @@ Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션�
    * 각 고객에 대한 별도 테넌트를 사용합니까?
 
      애플리케이션 또는 각 고객에 대해 새 테넌트를 만들도록 결정한 경우 [Azure Active Directory 테넌트 만들기](create-an-azure-active-directory-tenant.md) 또는 [Azure Active Directory 테넌트를 가져오는 방법](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)을 참조하세요.
-2. 응용 프로그램 "마스터" 계정으로 작동할 이 새 테넌트 내에서 사용자를 만듭니다. 해당 계정은 Power BI에 등록해야 하며 할당된 Power BI Pro 라이선스가 있어야 합니다.
+2. 애플리케이션 "마스터" 계정으로 작동할 이 새 테넌트 내에서 사용자를 만듭니다. 해당 계정은 Power BI에 등록해야 하며 할당된 Power BI Pro 라이선스가 있어야 합니다.
 
 ## <a name="accounts-within-azure-ad"></a>Azure AD 내 계정
 
@@ -68,20 +68,20 @@ Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션�
 
 3. 응용 프로그램 *마스터* 사용자 계정 또는 Embedded 계정.
 
-    응용 프로그램 백 엔드는 이 계정에 대한 자격 증명을 저장한 후 Power BI REST API에 사용할 Azure AD 토큰을 획득하기 위해 사용합니다. 이 계정은 응용 프로그램에 대한 임베드 토큰을 생성하는 데 사용됩니다. 또한 이 계정은 포함용으로 만든 앱 작업 영역의 관리자여야 합니다.
+    응용 프로그램 백 엔드는 이 계정에 대한 자격 증명을 저장한 후 Power BI REST API에 사용할 Azure AD 토큰을 획득하기 위해 사용합니다. 이 계정은 애플리케이션에 대한 임베드 토큰을 생성하는 데 사용됩니다. 또한 이 계정은 포함용으로 만든 앱 작업 영역의 관리자여야 합니다.
 
 > [!NOTE]
 > 이는 조직에서 포함의 목적으로 사용할 일반 사용자 계정일 뿐입니다.
 
 ## <a name="app-registration-and-permissions"></a>앱 등록 및 사용 권한
 
-Azure AD 내에서 응용 프로그램을 등록하고 일부 사용 권한을 부여해야 합니다.
+Azure AD 내에서 애플리케이션을 등록하고 일부 사용 권한을 부여해야 합니다.
 
-### <a name="register-an-application"></a>응용 프로그램 등록
+### <a name="register-an-application"></a>애플리케이션 등록
 
 REST API 호출을 실행하려면 Azure AD를 사용해 응용 프로그램을 등록해야 합니다. 여기에는 Azure Portal로 이동하여 Power BI 앱 등록 페이지 외에도 추가 구성을 적용하는 것이 포함됩니다. 자세한 내용은 [포함된 Power BI 콘텐츠에 Azure AD 앱 등록](register-app.md)을 참조하세요.
 
-응용 프로그램 **마스터** 계정을 사용하여 응용 프로그램을 등록해야 합니다.
+애플리케이션 **마스터** 계정을 사용하여 애플리케이션을 등록해야 합니다.
 
 ## <a name="create-app-workspaces-required"></a>앱 작업 영역 만들기(필수)
 
@@ -93,7 +93,7 @@ REST API 호출을 실행하려면 Azure AD를 사용해 응용 프로그램을 
 Power BI 내에서 하나의 앱 작업 영역을 만들려면 Pro 라이센스가 있는 사용자가 필요합니다. 응용 프로그램 작업 영역을 만드는 Power BI 사용자는 기본적으로 해당 작업 영역의 관리자가 됩니다.
 
 > [!NOTE]
-> 응용 프로그램 *마스터* 계정은 작업 영역의 관리자여야 합니다.
+> 애플리케이션 *마스터* 계정은 작업 영역의 관리자여야 합니다.
 
 ## <a name="content-migration"></a>콘텐츠 마이그레이션
 
@@ -131,7 +131,7 @@ Power BI 내에서 하나의 앱 작업 영역을 만들려면 Pro 라이센스�
 3. PBIX를 저장합니다.
 4. SaaS 작업 영역에 PBIX 가져오기를 호출합니다.
 5. POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections를 호출하여 연결 문자열을 업데이트합니다.
-6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources를 호출하여 GW ID 및 데이터 원본 ID를 가져옵니다.
+6. 호출 하 여 GW 및 데이터 원본 식별자를 get https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}를 호출하여 사용자의 자격 증명을 업데이트합니다.
 
 #### <a name="old-dataset--reports"></a>이전 데이터 세트 및 보고서
@@ -200,7 +200,7 @@ Azure 내에서 몇 가지 정리를 수행해야 합니다.
 [Power BI 작업 영역 컬렉션 마이그레이션 도구](migrate-tool.md)  
 [Power BI 작업 영역 컬렉션에서 콘텐츠 마이그레이션을 위한 코드 조각](migrate-code-snippets.md)  
 [Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embedding-content.md)  
-[Power BI 프리미엄이란?](../service-premium.md)  
+[Power BI 프리미엄이란?](../service-premium-what-is.md)  
 [JavaScript API Git 리포지토리](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 리포지토리](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 포함 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

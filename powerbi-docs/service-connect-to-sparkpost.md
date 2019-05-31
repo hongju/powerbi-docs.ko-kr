@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 48cdff67e613093c3ac473b0a505a6f0d57f4f2d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008100"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171619"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Power BI로 SparkPost에 연결
 SparkPost용 Power BI 콘텐츠 팩을 사용하면 SparkPost 계정에서 하나의 통찰력 대시보드에 중요한 데이터 세트를 추출할 수 있습니다. SparkPost 콘텐츠 팩을 사용하여 도메인, 캠페인 및 ISP에 의한 참여를 포함하는 전체 전자 메일 통계를 시각화할 수 있습니다.
@@ -52,7 +52,7 @@ Power BI용 SparkPost 콘텐츠 팩에는 고유한 클릭, 허용된 속도, �
 <a name="FindingParams"></a>
 
 ## <a name="finding-parameters"></a>매개 변수 찾기
-콘텐츠 팩은 SparkPost 계정을 Power BI에 연결하는 데 API 키를 사용합니다. 계정 \> API & SMTP에서 계정에 있는 API 키를 찾을 수 있습니다([여기](https://support.sparkpost.com/customer/portal/articles/1933377-create-api-keys)에 자세한 정보가 있음). `Message Events: Read-only ` 및 `Metrics: Read-only`에 대한 권한이 있는 API 키를 사용하는 것이 좋습니다 
+콘텐츠 팩은 SparkPost 계정을 Power BI에 연결하는 데 API 키를 사용합니다. 계정 \> API & SMTP에서 계정에 있는 API 키를 찾을 수 있습니다([여기](https://support.sparkpost.com/customer/portal/articles/1933377-create-api-keys)에 자세한 정보가 있음). `Message Events: Read-only ` 및 `Metrics: Read-only`에 대한 권한이 있는 API 키를 사용하는 것이 좋습니다
 
 ![](media/service-connect-to-sparkpost/sparkpost1.png)
 

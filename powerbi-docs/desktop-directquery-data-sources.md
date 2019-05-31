@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 04/10/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
-ms.translationtype: HT
+ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826563"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61305458"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI의 DirectQuery에서 지원하는 데이터 원본
 
@@ -24,22 +24,25 @@ ms.locfileid: "56826563"
 다음 데이터 원본은 Power BI에서 DirectQuery를 지원합니다.
 
 * Amazon Redshift
-* Azure HDInsight Spark(베타)
+* AtScale (베타)
+* Azure HDInsight Spark
 * Azure SQL Database
 * Azure SQL Data Warehouse
-* Google BigQuery(베타)
+* Google BigQuery
+* HDInsight 대화형 쿼리
 * IBM DB2 데이터베이스
-* IBM Netezza(베타)
+* IBM Netezza
 * Impala(버전 2.x)
 * Oracle 데이터베이스(버전 12 이상)
+* Oracle Essbase
 * SAP Business Warehouse 애플리케이션 서버
-* SAP Business Warehouse 메시지 서버(베타)
+* SAP Business Warehouse 메시지 서버
 * SAP HANA
 * Snowflake
-* Spark(베타)(버전 0.9 이상)
+* Spark (버전 0.9 이상)
 * SQL Server
 * Teradata 데이터베이스
-* Vertica(베타)
+* Vertica
 
 이름 뒤에 **(베타)** 또는 **(미리 보기)** 가 있는 데이터 원본의 이름은 변경될 수 있으며 프로덕션 용도로 지원되지 않습니다. 또한 **Power BI 서비스**에 보고서를 게시한 후에도 게시된 보고서를 열거나 데이터 세트를 탐색할 때 오류가 발생할 수 있으므로 지원되지 않을 수 있습니다.
 

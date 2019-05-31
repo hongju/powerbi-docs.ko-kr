@@ -1,8 +1,8 @@
 ---
 title: Power BI Premium에 대한 Multi-Geo 지원
 description: Power BI 테넌트의 홈 지역이 아닌 다른 지역에 있는 데이터 센터에 콘텐츠를 배포하는 방법을 알아봅니다.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57571982"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564933"
 ---
-# <a name="multi-geo-support-for-power-bi-premium"></a>Power BI Premium에 대한 Multi-Geo 지원
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI 프리미엄에 대 한 다중 지역 지원 구성
 
 다중 지역은 다국적 고객이 지역별, 산업별 또는 조직별 데이터 보존 요구 사항을 해결하는 데 도움이 되는 Power BI Premium 기능입니다. Power BI Premium 고객은 Power BI 테넌트의 홈 지역이 아닌 다른 지역에 있는 데이터 센터에 콘텐츠를 배포할 수 있습니다. 지역(지리)은 둘 이상의 지역을 포함할 수 있습니다. 예를 들어 미국은 지역이고 미국 중서부 및 미국 중남부는 미국에 있는 지역입니다. 다음 지역에 콘텐츠를 배포할 수 있습니다.
 
@@ -35,7 +35,7 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 
 이제 Power BI Embedded에서도 Multi-Geo를 사용할 수 있습니다. [Power BI Embedded의 Multi-Geo 지원](developer/embedded-multi-geo.md)에서 자세히 알아보세요.
 
-## <a name="using-multi-geo"></a>다중 지역 사용
+## <a name="enable-and-configure"></a>설정 및 구성
 
 새 용량의 경우 드롭다운에서 기본 지역이 아닌 다른 지역을 선택하여 다중 지역을 사용하도록 설정합니다.  각 사용 가능한 용량은 현재 위치한 지역을 표시합니다(예: **미국 중서부**).
 
@@ -98,7 +98,7 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Power BI Premium: 정의](service-premium.md)
+- [Power BI 프리미엄이란?](service-premium-what-is.md)
 - [Power BI Embedded 용량에 대한 Multi-Geo](developer/embedded-multi-geo.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

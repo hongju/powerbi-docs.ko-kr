@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 5cabb57af08ba197c7f70598e988fb3249815ab8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271502"
+---
 이 항목 모음에서는 Power BI에서 업로드 및 탐색하여 기존 Excel 통합 문서 파일을 얼마나 쉽게 활용할 수 있는지 알아보았습니다. 간단한 표가 포함된 Excel 통합 문서 또는 파워 피벗 및 파워 뷰와 같은 Excel의 고급 BI 기능을 사용하여 만든 통합 문서를 업로드할 수 있습니다.
 
 또한 **비즈니스용 OneDrive**에 있는 **Excel** 파일에 연결하고, Power BI의 **자동** 새로 고침 기능을 사용하여 통합 문서를 변경할 때 보고서 및 대시보드를 최신 상태로 유지하는 방법도 살펴보았습니다.

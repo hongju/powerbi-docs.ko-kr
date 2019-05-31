@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: aad02103903837afbb7bbce48ab9607b5dbf62c3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58382811"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099632"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Power BI 서비스 관리자 역할 이해
 
@@ -39,7 +39,7 @@ Power BI 서비스 관리자 역할은 다음 기능을 제공하지 않습니�
 
 Microsoft 365 관리 센터에서 Power BI 관리자 역할에 사용자를 할당하려면 다음 단계를 수행합니다.
 
-1. Microsoft 365 관리 센터에서 **사용자** > **활성 사용자**를 선택합니다.
+1. 에 [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)를 선택 **사용자가** > **활성 사용자**합니다.
 
     ![Microsoft 365 관리 센터](media/service-admin-role/powerbi-admin-users.png)
 
@@ -61,9 +61,14 @@ Microsoft 365 관리 센터에서 Power BI 관리자 역할에 사용자를 할�
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>PowerShell을 사용하여 관리자 역할에 사용자 할당
 
-PowerShell을 사용하여 역할에 사용자를 할당할 수도 있습니다. 사용자는 Azure AD(Azure Active Directory)에서 관리됩니다. Azure AD PowerShell 모듈이 없는 경우 [최신 버전을 다운로드하여 설치](https://www.powershellgallery.com/packages/AzureAD/)합니다.
+PowerShell을 사용하여 역할에 사용자를 할당할 수도 있습니다. 사용자가 Azure Active Directory (Azure AD)에서 관리 됩니다. Azure AD PowerShell 모듈이 없는 경우 [최신 버전을 다운로드하여 설치](https://www.powershellgallery.com/packages/AzureAD/)합니다.
 
-1. 먼저 **Power BI 서비스 관리자** 역할의 **ObjectId**를 가져옵니다. [Get AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole)을 실행하여 **ObjectId**를 가져올 수 있습니다.
+1. 먼저 Azure AD에 연결 합니다.
+   ```
+   PS C:\Windows\system32> Connect-AzureAD
+   ```
+
+1. 둘째, 가져오기의 **ObjectId** 에 대 한 합니다 **Power BI 서비스 관리자** 역할입니다. [Get AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole)을 실행하여 **ObjectId**를 가져올 수 있습니다.
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
@@ -85,7 +90,7 @@ PowerShell을 사용하여 역할에 사용자를 할당할 수도 있습니다.
 1. 그런 다음, 사용자의 **ObjectId**를 가져옵니다. [Get AzureADUser](/powershell/module/azuread/get-azureaduser)를 실행하여 찾을 수 있습니다.
 
     ```
-    PS C:\Windows\system32> Get-AzureADUser -SearchString 'tim@contoso.com'
+    PS C:\Windows\system32> Get-AzureADUser -ObjectId 'tim@contoso.com'
 
     ObjectId                             DisplayName UserPrincipalName      UserType
     --------                             ----------- -----------------      --------

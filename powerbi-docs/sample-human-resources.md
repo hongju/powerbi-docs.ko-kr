@@ -11,11 +11,11 @@ ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 4b36c02abe0ca0bbd2d117559855a69edff370db
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216657"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234105"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI용 인적 자원 샘플 둘러보기
 
@@ -77,7 +77,7 @@ HR 부서는 업종이나 규모가 다른 경우에도 여러 회사에서 동�
 * **연령대별 신규 채용자 수 YoY Var** 폭포 차트에서는 주로 젊은 직원을 채용하고 있음을 알 수 있습니다. 이는 업무가 대체로 파트타임이기 때문입니다.
 * **성별 신규 채용자 수** 원형 차트는 상당히 균등하게 나뉘어 있음을 보여줍니다.
 
-성비가 고르지 않은 지역 등, 다른 정보를 알 수 있나요?  연령, 성별, 지역 및 인종 그룹 간 관계를 살펴보려면 차트에서 다른 연령대 그룹과 성별을 선택하세요.
+성비가 고르지 않은 지역 등, 다른 정보를 알 수 있나요? 연령, 성별, 지역 및 인종 그룹 간 관계를 살펴보려면 차트에서 다른 연령대 그룹과 성별을 선택하세요.
 
 맨 위 탐색 모음에서 대시보드의 이름을 선택하여 대시보드로 돌아갑니다.
 

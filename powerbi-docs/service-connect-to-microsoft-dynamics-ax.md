@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008123"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61174353"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Power BI로 Microsoft Dynamics AX 콘텐츠 팩에 연결
 Microsoft Dynamics AX에는 여러 비즈니스 사용자를 대상으로 하는 세 개의 Power BI 콘텐츠 팩이 있습니다. CFO를 위해 특별히 설계된 재무 성과 콘텐츠 팩은 조직의 회계 실적에 대한 정보에 액세스하도록 해줍니다. 소매 채널 실적 콘텐츠 팩은 소매 및 상용 데이터에서 직접 그리는 방식으로 추세를 예측하고 정보를 파악하는 데 중점을 두는 채널 관리자를 위한 것입니다. 비용 관리는 COO 및 CFO에 대해 설계되고 작업 실적에 대한 세부 정보를 제공합니다.

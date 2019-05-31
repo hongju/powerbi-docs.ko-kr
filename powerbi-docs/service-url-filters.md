@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2019
+ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
-ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
-ms.translationtype: HT
+ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "55648700"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051302"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -43,11 +43,11 @@ URL?filter=***Table***/***Field*** eq '***value***'
 
 ### <a name="reports-in-apps"></a>앱의 보고서
 
-앱의 보고서에 URL 필터를 추가하려는 경우 형식이 약간 다릅니다. 앱의 보고서에 대한 링크에는 URL에 추가되는 쿼리 매개 변수(ctid)가 있습니다. 쿼리 매개 변수는 앰퍼샌드(&)로 구분해야 합니다. 따라서 “?filter=” 대신 “&filter=”(ctid 매개 변수 뒤)에 쿼리를 추가해야 합니다. 
+앱의 보고서에 URL 필터를 추가하려는 경우 형식이 약간 다릅니다. 앱의 보고서에 대한 링크에는 URL에 추가되는 쿼리 매개 변수(ctid)가 있습니다. 앰퍼샌드를 사용 하 여 쿼리 매개 변수를 구분 (&). 유지 "? 필터 =" 하며 앞에 앰퍼샌드 ctid 매개 변수를 URL의 끝으로 이동 (&). 
 
 이 예제와 같습니다.
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*테이블*/*필드* eq '*값*'
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*&'ctid=*ctid*
 
 ### <a name="field-types"></a>필드 형식
 
@@ -83,7 +83,7 @@ North Carolina에 매장이 있다는 것을 맵 시각화(위)에서 확인할 
 
 보고서는 North Carolina에 대해 필터링되며 보고서 페이지에 있는 모든 시각화는 North Carolina에 대한 데이터만 표시합니다.
 
-![](media/service-url-filters/power-bi-report4.png)
+![North Carolina에 대 한 필터링 된 보고서](media/service-url-filters/power-bi-report4.png)
 
 ## <a name="filter-on-multiple-fields"></a>여러 필드 필터링
 
@@ -133,19 +133,19 @@ Power BI URL 필터에는 다음 형식의 숫자가 포함될 수 있습니다.
 
 ### <a name="date-data-types"></a>Date 데이터 형식
 
-Power BI는 **Date** 및 **DateTimeOffset** 데이터 형식에 대해 OData V3 및 V4를 모두 지원합니다.  날짜는 EDM 형식(2019-02-12T00:00:00)을 사용하여 표시되므로 날짜를 YYYY-MM-DD로 지정하면 Power BI에서는 이를 YYYY-MM-DDT00:00:00으로 해석합니다.
+Power BI는 **Date** 및 **DateTimeOffset** 데이터 형식에 대해 OData V3 및 V4를 모두 지원합니다.  EDM 형식을 사용 하 여 날짜가 표시 됩니다 (2019-02-12T00:00:00) 이므로 ' YYYY-월-일 '로 날짜를 지정 하는 경우 Power BI로 해석 ' YYYY-MM-DDT00:00:00'.
 
-이러한 차이점이 중요한 이유는 무엇인가요? 쿼리 문자열 매개 변수 **Table/Date gt 2018-08-03**을 만든다고 가정하겠습니다.  결과에는 2018년 8월 3일이 포함되나요, 아니면 2018년 8월 4일에 시작하나요? Power BI가 쿼리를 **Table/Date gt 2018-08-03T00:00:00**으로 변환하므로 해당 날짜가 **2018-08-03T00:00:00**보다 크다면 결과에는 0이 아닌 시간 부분이 있는 모든 날짜가 포함됩니다.
+이러한 차이점이 중요한 이유는 무엇인가요? 쿼리 문자열 매개 변수를 만든다고 가정해 보겠습니다 **날짜 테이블/gt ' 2018-08-03'** 합니다.  결과에는 2018년 8월 3일이 포함되나요, 아니면 2018년 8월 4일에 시작하나요? Power BI 쿼리를 변환 하므로 **날짜 테이블/gt ' 2018-08-03T00:00:00'** 에 결과 포함 되므로 해당 날짜 보다 클 수는 0이 아닌 시간 부분에 있는 모든 날짜 **' 2018-08-03T00:00:00'** .
 
 ## <a name="special-characters-in-url-filters"></a>URL 필터의 특수 문자
 
-특수 문자 및 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 밑줄과 X로 시작하는 ‘이스케이프 코드’(**_x**) 및 4자리 **유니코드**와 그 뒤에 다른 밑줄을 붙여 해당 특수 문자의 접두사를 지정합니다. 유니코드가 4자 미만인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
+특수 문자 및 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 밑줄과 X로 시작하는 ‘이스케이프 코드’( **_x**) 및 4자리 **유니코드**와 그 뒤에 다른 밑줄을 붙여 해당 특수 문자의 접두사를 지정합니다.  유니코드가 4자 미만인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
 
 |식별자  |유니코드  | Power BI용 코딩  |
 |---------|---------|---------|
 |**테이블 이름**     | 공간은 0x20입니다.        |  Table_x0020_Name       |
 |**Column**@**Number**     |   @은 0x40입니다.     |  Column_x0040_Number       |
-|**[Column]**     |  [ is 0x0058 ]은 0x0050입니다.       |  _x0058_Column_x0050       |
+|**[Column]**     |  [ is 0x0058 ]은 0x0050입니다.       |  _x0058_Column_x0050_       |
 |**Column+Plus**     | +는 0x2B입니다.        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![테이블 시각적 개체 렌더링 특수 문자](media/service-url-filters/power-bi-special-characters1.png)
@@ -177,7 +177,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 * *in* 연산자를 사용하는 경우 *in*의 오른쪽에 있는 값은 괄호로 묶이고 쉼표로 구분된 목록이어야 합니다.    
 * Power BI Report Server에서는 보고서 URL에 보고서 매개 변수를 포함시켜 [보고서 매개 변수를 전달](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)할 수 있습니다. 이러한 URL 매개 변수는 보고서 처리 엔진에 직접 전달되기 때문에 접두사가 붙지 않습니다.
-* 쿼리 문자열 필터링은 [웹에 게시](service-publish-to-web.md)에는 작동하지 않습니다.
+* 쿼리 문자열 필터링 작동 하지 않습니다 [웹에 게시](service-publish-to-web.md) 하거나 [PDF로 내보내는](consumer/end-user-pdf.md)합니다.
 * [SharePoint Online에 보고서 웹 파트 포함](service-embed-report-spo.md)은 URL 필터를 지원하지 않습니다.
 * Javascript 제한 때문에 Long 데이터 형식은 (2^53-1)입니다.
 * 보고서 URL 필터에는 10개 식 제한(AND로 연결된 10개의 필터)이 있습니다.

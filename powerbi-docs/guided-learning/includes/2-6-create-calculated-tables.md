@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a6d283048f0a4d7e282f7d4c608e279ca848dfc9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257154"
+---
 계산 테이블은 전체 범위의 새 모델링 기능을 표현할 수 있는 DAX 내의 함수입니다. 예를 들어 여러 유형의 병합 조인을 수행하거나 함수 수식의 결과에 따라 즉석에서 새 테이블을 만들려는 경우 계산 테이블을 사용하여 이를 수행할 수 있습니다.
 
 계산 테이블을 만들려면 보고서 캔버스의 왼쪽에서 활성화할 수 있는 Power BI Desktop에서 **데이터 뷰**로 이동합니다.

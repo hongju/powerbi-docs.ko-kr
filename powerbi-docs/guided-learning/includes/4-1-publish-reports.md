@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d39f9a6a974e194c38c2f4e9bf69314ff6d0cec2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256288"
+---
 Power BI 서비스에 보고서를 빠르고 쉽게 게시할 수 있습니다.
 
 **Power BI Desktop**에서 보고서 작성을 완료한 후 Power BI Desktop의 **홈** 탭에서 **게시** 단추를 선택하기만 하면 프로세스가 시작됩니다.

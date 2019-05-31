@@ -1,20 +1,20 @@
 ---
 title: Power BI 서비스에 페이지를 매긴 보고서 게시(미리 보기)
 description: 이 자습서에서는 페이지를 매긴 보고서를 로컬 컴퓨터에서 업로드하여 Power BI 서비스에 게시하는 방법을 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174548"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61424117"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Power BI 서비스에 페이지를 매긴 보고서 게시(미리 보기)
 
@@ -26,7 +26,7 @@ ms.locfileid: "58174548"
 
 작업 영역의 이름 옆에 다이아몬드 아이콘 ![Power BI Premium 용량 다이아몬드 아이콘](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) 이 없는 경우 작업 영역을 프리미엄 용량에 추가해야 합니다. 
 
-1. **작업 영역**을 선택하고 작업 영역 이름 옆의 줄임표(**...**), **작업 영역 편집**을 차례로 선택합니다.
+1. **작업 영역**을 선택하고 작업 영역 이름 옆의 줄임표( **...** ), **작업 영역 편집**을 차례로 선택합니다.
 
     ![작업 영역 편집 선택](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 

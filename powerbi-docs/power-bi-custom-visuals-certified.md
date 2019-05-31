@@ -9,13 +9,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/10/2019
-ms.openlocfilehash: a9f8c6248f9754192009e12bab34d3f1427269c2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.date: 05/9/2019
+ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174801"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454555"
 ---
 # <a name="certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체
 
@@ -44,11 +44,34 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-ha
 사용자 지정 시각적 개체 [인증](#certified-custom-visuals)을 받으려면 사용자 지정 시각적 개체가 다음을 준수하는지 확인합니다.  
 
 * Microsoft AppSource가 승인되었습니다. 사용자 지정 시각적 개체는 [마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 있어야 합니다.
-* 사용자 지정 시각적 개체는 API 1.2 이상 버전으로 작성됩니다.
-* Power BI 팀이 검토할 수 있는 코드 리포지토리(예: GitHub를 통해 사용 가능한 사람이 읽을 수 있는 형식의 소스 코드(JavaScript 또는 TypeScript))입니다.
+* 버전 관리를 사용 하 여 사용자 지정 시각적 개체를 쓸지 **API v2.5** 이상.
+* (에 대 한 인스턴스를 사람이 읽을 수 있는 형식에서 소스 코드 (JavaScript 또는 TypeScript) GitHub를 통해 우리에 게 사용할 수 있는) 코드 리포지토리는 Power BI 팀에서 검토할 수 있습니다.
 
     >[!Note]
     > Github에서 코드를 공용으로 공유할 필요는 없습니다.
+* 코드 리포지토리 요구 사항:
+   * 파일의 최소 필수 집합을 포함 해야 합니다.
+      * .gitignore
+      * capabilities.json
+      * pbiviz.json
+      * package.json
+      * package-lock.json
+      * tsconfig.json
+   * Node_modules 폴더를 포함할 수 없습니다 (node_modules.gitingore 파일 추가)
+   * **npm 설치** 명령은 모든 오류를 반환 하지 않아야 합니다.
+   * **npm 감사** 명령 높거나 보통 수준의 모든 경고를 반환 하지 않아야 합니다.
+   * **pbiviz 패키지** 명령은 모든 오류를 반환 하지 않아야 합니다.
+   * 포함 해야 합니다 [Microsoft에서 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib) 재정의 된 구성이 없는 고이 명령은 모든 lint 오류를 반환 하지 않아야 합니다.
+   * 사용자 지정 시각적 개체의 컴파일된 패키지에는 제출된 패키지와 일치 해야 합니다 (두 파일의 md5 해시 같은 이어야 함).
+* 소스 코드 요구 사항:
+   * 시각적 개체를 지원 해야 합니다 [렌더링 이벤트 API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/)합니다.
+   * 임의의/동적 코드 없이 실행 됩니다 (잘못 된: eval (), settimeout() requestAnimationFrame(), setinterval (사용자 입력을 사용 하 여 일부 함수), 실행 중인 사용자 입력/데이터 사용 하 여 안전 하지 않은).
+   * DOM은 안전 하 게 조작 확인 (잘못 된: innerHTML, D3.html (< 일부 사용자/데이터 입력 >)를 DOM을 추가 하기 전에 사용자 입력/데이터에 대 한 삭제 사용
+   * 모든 입력된 데이터에 대 한 브라우저 콘솔에서 javascript 오류/예외가 있는지 확인 하십시오. 사용자가 시각적 개체 실패 해서는 안 되므로 예기치 않은 데이터의 다른 범위를 사용 하 여 시각적 개체를 사용할 수 있습니다. 사용할 수 있습니다 [이 샘플 보고서](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) 테스트 데이터 집합으로 합니다.
+
+* Capabilities.json에서 속성을 변경 하면 기존 사용자의 보고서 중단 되지 않는 있는지 확인 합니다.
+
+* 시각적 개체는 준수 해야 합니다 [Power BI 시각적 개체에 대 한 지침](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases)합니다. **워터 마크 없음 수**입니다.
 
 * 공용 검토 가능한 OSS 구성 요소만(공용 JS 라이브러리 또는 TypeScript는 소스 코드를 검토할 수 있으며 알려진 취약점이 없음) 사용합니다. 상용 구성 요소를 사용하여 사용자 지정 시각적 개체를 확인할 수 없습니다.
 

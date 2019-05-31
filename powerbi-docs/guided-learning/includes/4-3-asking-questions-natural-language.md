@@ -1,6 +1,14 @@
+---
+ms.openlocfilehash: 2a0ec80120e30d8d652eb2bd28461b9f88f7610a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263781"
+---
 Power BI에는 대화 구문과 질문을 사용하여 데이터에 대해 질문할 수 있는 강력한 언어 인식 엔진이 제공됩니다. Power BI를 사용하여 보고서 및 시각화를 작성할 때 간단한 질문을 통해 차트 및 그래프를 만들 수 있습니다.
 
-데이터에 대해 질문하려면 Power BI에서 대시보드를 엽니다. 그러면 화면 위에 표시된 데이터에 대해 질문할 수 있는 입력 상자가 표시됩니다. 이 기능을 질문 및 답변이라고도 하며, 종종 **Q&A**라고도 합니다.
+데이터에 대해 질문하려면 Power BI에서 대시보드를 엽니다. 그러면 화면 위에 표시된 데이터에 대해 질문할 수 있는 입력 상자가 표시됩니다. 이 기능을 질문 및 답변이라고도 하며, 종종 **Q&A**라고도 합니다. 
 
 ![](media/4-3-asking-questions-natural-language/4-3_1.png)
 

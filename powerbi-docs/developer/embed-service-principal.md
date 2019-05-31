@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65710527"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375085"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI(미리 보기)를 포함하는 서비스 주체
 
@@ -120,7 +120,7 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
 
 5. 생성한 새 작업 영역에 서비스 주체를 **관리자**로 추가합니다. 이 작업은 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 또는 Power BI 서비스를 통해 관리할 수 있습니다.
 
-    ![작업 영역에 서비스 주체 추가](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![작업 영역에 서비스 주체를 관리자로 추가](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. 이제 샘플 애플리케이션 내에서 또는 자체 애플리케이션 내에서 콘텐츠를 포함하도록 선택합니다.
 
@@ -174,10 +174,11 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 * 서비스 주체를 사용하여 온-프레미스 데이터 게이트웨이를 설치하거나 관리할 수 없습니다.
 * [조직에 포함](embed-sample-for-your-organization.md) 애플리케이션은 서비스 주체를 사용할 수 없습니다.
 * [데이터 흐름](../service-dataflows-overview.md) 관리는 지원되지 않습니다.
-* 서비스 주체는 관리 API를 지원하지 않습니다.
+* 현재 서비스 주체는 모든 관리 Api를 지원 하지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 * [앱 등록](register-app.md)
 * [고객을 위한 Power BI Embedded](embed-sample-for-customers.md)
 * [Azure Active Directory의 애플리케이션 및 서비스 주체 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [서비스 주체 (미리 보기)를 사용 하 여 온-프레미스 데이터 게이트웨이 사용 하 여 행 수준 보안](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

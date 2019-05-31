@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 3bf974176c7638aa2f1093535e8027ad511deabb
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454216"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>Power BI에서 KPI 가져오기 및 표시
@@ -22,7 +22,7 @@ ms.locfileid: "65454216"
 
 KPI를 가져오고 표시하려면 다음 이 단계를 수행합니다.
 
-1. 파워 피벗 모델 및 KPI를 포함하는 Excel 통합 문서를 시작합니다. 이 연습에서는 KPI라는 통합 문서를 사용합니다.
+1. 파워 피벗 모델 및 KPI를 포함하는 Excel 통합 문서를 시작합니다. 이 연습에서는 KPI라는 통합 문서를 사용합니다. 
 
 1. **파일 -> 가져오기 -> Excel 통합 문서 콘텐츠**를 사용하여 Excel 통합 문서를 Power BI로 가져옵니다. [통합 문서를 가져오는 방법](desktop-import-excel-workbooks.md)을 알아볼 수도 있습니다. 
 

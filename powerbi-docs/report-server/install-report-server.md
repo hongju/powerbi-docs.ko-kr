@@ -1,30 +1,32 @@
 ---
 title: Power BI Report Server 설치
 description: Power BI Report Server를 설치하는 방법을 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/07/2018
-ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014441"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187735"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server 설치
 
 Power BI Report Server를 설치하는 방법을 알아봅니다.
 
- **다운로드** ![다운로드](media/install-report-server/download.png "다운로드")
+## <a name="download-power-bi-report-server"></a>Power BI Report Server 다운로드
 
-Power BI Report Server를 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동하고 **평가판 다운로드**를 선택합니다. 
+[Power BI Report Server 다운로드](https://www.microsoft.com/download/details.aspx?id=56722) Microsoft 다운로드 센터에서.
 
-## <a name="before-you-begin"></a>시작하기 전에
+무료 평가판 버전 이기도합니다. 에 [온-프레미스 Power BI Report Server를 사용 하 여 보고](https://powerbi.microsoft.com/report-server/) 페이지에서 **무료 평가판 다운로드**합니다.
+
+## <a name="before-you-install"></a>설치 하기 전에
 
 Power BI Report Server를 설치하기 전에 [Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항](system-requirements.md)을 검토하는 것이 좋습니다.
 
@@ -32,6 +34,13 @@ Power BI Report Server를 설치하기 전에 [Power BI Report Server를 설치�
  > Power BI Report Server를 RODC(읽기 전용 도메인 컨트롤러)가 있는 환경에 설치할 수 있지만 제대로 작동하려면 Power BI Report Server가 읽기-쓰기 도메인 컨트롤러에 액세스해야 합니다. Power BI Report Server가 RODC에만 액세스할 수 있는 경우 서비스를 관리하려고 할 때 오류가 발생할 수 있습니다.
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI Report Server 제품 키
+
+두 개의 서로 다른 소스에서 Power BI Report Server에 대 한 제품 키를 가져올 수 있습니다.
+
+- Power BI Premium
+- SQL Server Enterprise SA(Software Assurance)
+
+세부 정보를 계속 읽어보세요.
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -66,8 +75,8 @@ Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단�
 
     ![버전 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    그렇지 않은 경우 Power BI 서비스 또는 볼륨 라이선스 서비스 센터에서 획득한 서버에 대한 제품 키를 입력할 수 있습니다. 제품 키를 가져오는 방법에 대한 자세한 내용은 [시작하기 전에](#before-you-begin) 섹션을 참조하세요.
-4. 사용 약관 및 조건을 읽고 동의한 후 **다음**을 선택합니다.
+    그렇지 않은 경우 Power BI 서비스 또는 볼륨 라이선스 서비스 센터에서 가져온 제품 키를 입력 합니다. 제품 키를 확보 하는 방법에 대 한 자세한 내용은 참조는 [를 설치 하기 전에](#before-you-install) 위의 섹션입니다.
+4. 읽기 사용 약관 및 조건에 동의 하 고 선택 **다음**합니다.
 
     ![사용 조건](media/install-report-server/pbireportserver-eula.png)
 5. Report Server 데이터베이스를 저장할 수 있는 데이터베이스 엔진이 있어야 합니다. **다음**을 선택하여 Report Server만을 설치합니다.
@@ -83,7 +92,7 @@ Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단�
 
     ![Report Server 구성](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuring-your-report-server"></a>Report Server 구성
+## <a name="configure-your-report-server"></a>보고서 서버를 구성 합니다.
 
 설치 시에 **Report Server 구성**을 선택하면 Reporting Services 구성 관리자에 표시됩니다. 자세한 내용은 [Reporting Services 구성 관리자](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)를 참조하세요.
 

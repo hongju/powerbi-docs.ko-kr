@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872734"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991050"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -22,6 +22,17 @@ ms.locfileid: "58872734"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="april-2019"></a>2019 년 4 월
+
+### <a name="key-influencers-visual"></a>주요 영향 요인 visual 
+주요 영향 요인 visual 이제 모바일 앱에서 제공 됩니다. 이 시각적 개체를 사용 하면 몇 가지 탭을 사용 하 여 데이터에 대해 키 드라이버의 분석을 수행할 수 있습니다.
+
+### <a name="add-comments-to-report-content-android-and-ios"></a>보고서 내용 (Android 및 iOS)에 주석 추가
+이제 공동 작업 하 고 보고서 페이지 및 시각적 개체에 대 한 피드백을 공유 주석을 사용할 수 있습니다. Power BI 서비스 및 모바일에서 주석 처리 하는 보고서에 대해 자세히 알아보세요 [이 블로그의](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)합니다. 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>전체 화면 모드 (Android 및 iOS)를 사용 하 여 뷰를 최대화
+보고서 머리글 및 바닥글을 제거 하 고 보고서를 보기 위한 최대 공간을 제공 하 여 데이터에 집중 하는 시기를 제어할 수 있는 새 단추를 추가 했습니다.
 
 ## <a name="march-2019"></a>2019년 3월
 
@@ -31,7 +42,20 @@ ms.locfileid: "58872734"
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>슬라이드 쇼를 사용하여 Windows 프레젠테이션 모드 향상(Windows)
 
-[슬라이드 쇼](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)를 사용하면 보고서 페이지를 자동 회전할 수 있는 전체 화면으로 Power BI 보고서를 실행하기 위해 사무실에 있는 공용 디스플레이를 사용할 수 있습니다.  
+사용 하 여 [슬라이드 쇼](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) Power BI 보고서를에서 실행 하려면 자동 전체 화면 회전 보고서 페이지 사이 사무실에 있는 공용 표시를 사용할 수 있습니다.  
+
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>ADFS 및 WAP 구성 (iOS에만 해당)를 통해 PBI RS 보고서를 지 원하는
+
+Power BI 보고서 (PBIX) ADFS 구성을 통해 PBI RS에서 호스트 되는 이제 Power BI iOS 앱에서 액세스할 수 있습니다.
+
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>보고서 시각적 개체를 사용 하 여 단일 누르기 상호 작용을 사용 하도록 설정
+
+하나의 시각적 개체에서 탭, 단추 또는 슬라이서를 지금 바로 해당 데이터와 상호 작용 해야 하므로 보고서 상호 작용을 변경 했습니다. 사용자는이 선택 하 고 상호 작용을 다시 탭에 시각적 개체를 탭 해야 더 이상, 한 번의 터치로 모두 수행 됩니다.
+
+![단일 누르기 상호 작용](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+
+> [!NOTE]
+> 기존 사용자는 앱 설정에서이 동작에 설정 해야 합니다. 자세한 내용은 참조는 [단일 탭 보고서 상호 작용을 구성 하는 방법](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) 문서.
 
 ## <a name="january---february-2019"></a>2019년 1~2월
  
@@ -264,7 +288,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 [2017년 7월 모바일 앱 기능 요약](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)을 읽어보세요.
 
 #### <a name="ios-devices"></a>iOS 디바이스
-**iOS에서 새로운 질문 및 답변 환경(미리 보기)** 이제 단순히 질문에 대한 답변을 받는 대신, 자연어를 사용하여 지정된 범위의 신속한 정보 활용이 가능합니다. 원하는 정보가 확실하지 않더라도 질문 및 답변은 사용자 데이터와 관련된 유용한 정보를 사전에 노출합니다. Microsoft Research 팀과 공동 작업으로 개발된 모바일 기반 새로운 질문 및 답변 환경은 제품 내에서 강력한 기술을 선보입니다. [iOS 모바일 앱의 데이터에 대해 질문하기(자습서)](mobile-apps-ios-qna.md)를 시도해 보세요.
+**iOS에서 새로운 질문 및 답변 환경(미리 보기)** 이제 단순히 질문에 대한 답변을 받는 대신, 자연어를 사용하여 지정된 범위의 신속한 정보 활용이 가능합니다. 원하는 정보가 확실하지 않더라도 질문 및 답변은 사용자 데이터와 관련된 유용한 정보를 사전에 노출합니다. Microsoft Research 팀과 협업으로 개발된 모바일 기반 새로운 질문 및 답변 환경은 제품 내에서 강력한 기술을 선보입니다. [iOS 모바일 앱의 데이터에 대해 질문하기(자습서)](mobile-apps-ios-qna.md)를 시도해 보세요.
 
 ### <a name="responsive-visuals"></a>반응형 시각적 개체
 **휴대폰 보고서 및 대시보드를 위한 반응형 시각적 개체**대시보드 또는 보고서에서 시각적 개체를 *반응형*으로 설정하여 화면 크기와 상관없이 최대 데이터 양 및 정보를 표시하도록 동적으로 변경할 수 있습니다. [반응형 시각적 개체에 대한 블로그](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)를 읽어 보세요.

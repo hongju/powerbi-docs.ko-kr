@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 3a5a84bdb22996fc3b773a861a85e82985cd036c
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220980"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187695"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -22,9 +22,7 @@ ms.locfileid: "58220980"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-**소비재 상품 제조업체와 판매점의 상생 실현**
-<br>작성자: Liz McCreesh
-<br>[지금 등록](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
+아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
 
 >[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -80,6 +78,10 @@ ms.locfileid: "58220980"
 <br>작성자: Wim Coorevits 및 Enrique Plaza Garcia
 <br>[등록 및 지금 보기](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
+**Power BI Embedded 관리 하기 위한 모범 사례는 다중 테 넌 트 배포에 대 한 분석**
+<br>작성자: Nimrod Shalit
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
+
 **Power BI: 제대로 된 분석**
 <br>작성자: Gohul Shanmugalingam
 <br>[등록 및 지금 보기](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
@@ -117,6 +119,10 @@ ms.locfileid: "58220980"
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>파트너 ###
+
+**소비재 상품 제조업체와 판매점의 상생 실현**
+<br>Liz McCreesh Thorogood에서에서
+<br>[등록 및 지금 보기](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **Power BI로 고객 데이터를 활용하여 판매점의 성공 실현**
 <br>작성자: Hitachi Solutions의 Angad Soni

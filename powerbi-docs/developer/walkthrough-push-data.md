@@ -1,26 +1,26 @@
 ---
 title: 데이터 세트에 데이터 푸시
 description: Power BI 데이터 세트에 데이터 푸시
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 642a8e7dd118838b5ea12c8758841ee44a8e6595
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762263"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222152"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI 데이터 세트에 데이터 푸시
 
-Power BI API를 사용하여 데이터를 Power BI 데이터 세트에 푸시할 수 있습니다. 예를 들어 기존 비즈니스 워크플로를 확장하여 키 데이터를 데이터 세트에 푸시하고자 한다고 가정합니다. 여기서는 Product 테이블을 포함하는 Sales Marketing 데이터 세트를 데이터 세트에 푸시하려고 합니다.
+Power BI API를 사용 하면 Power BI 데이터 집합에 데이터를 푸시합니다. 이 문서에서는 살펴보겠습니다 기존 데이터 집합에는 Product 테이블을 포함 하는 Sales Marketing 데이터 집합을 푸시하는 방법.
 
-데이터 세트에 데이터 푸시를 시작하기 전에 Azure AD(Azure Active Directory) 및 [Power BI 계정](create-an-azure-active-directory-tenant.md)이 필요합니다.
+Azure Active Directory (Azure AD)를 시작 하기 전에 해야으로 [Power BI 계정](create-an-azure-active-directory-tenant.md)합니다.
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>데이터 세트에 데이터를 푸시하는 단계
 
@@ -34,7 +34,7 @@ Power BI API를 사용하여 데이터를 Power BI 데이터 세트에 푸시할
 
 ## <a name="power-bi-api-operations-to-push-data"></a>데이터를 푸시하는 Power BI API 작업
 
-Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱이 데이터 세트에 행을 추가하면 대시보드의 타일이 업데이트된 데이터와 함께 자동으로 업데이트됩니다. 데이터를 푸시하려면 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업과 함께 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 사용합니다. 데이터 세트를 찾으려면 [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업을 사용합니다. 이러한 작업에서는 그룹 ID를 전달하여 그룹으로 작업할 수 있습니다. 그룹 ID 목록을 가져오려면 [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) 작업을 사용합니다.
+Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱 데이터 집합에 행을 추가 하면 대시보드 타일을 자동으로 새 데이터로 업데이트 합니다. 데이터를 푸시 하려면 사용 합니다 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) 하 고 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업. 데이터 집합을 찾으려면 다음을 사용 합니다 [데이터 집합 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업 합니다. 이러한 작업에 대 한 그룹을 사용 하 여 작업 그룹 ID를 전달할 수 있습니다. 그룹 ID 목록의 사용 합니다 [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) 작업 합니다.
 
 데이터 세트에 데이터를 푸시하는 작업은 다음과 같습니다.
 
@@ -59,7 +59,7 @@ Power BI에서 데이터 세트를 만들려면 Power BI 서비스에 JSON(JavaS
         ]
     }
 
-여기의 Sales Marketing 데이터 세트 예제에서는 아래 예제와 같은 JSON 문자열을 전달합니다. 이 예제에서 **SalesMarketing**은 데이터 세트의 이름이고 **Product**는 테이블의 이름입니다. 테이블을 정의한 후 테이블 스키마를 정의합니다. **SalesMarketing** 데이터 세트의 경우 테이블 스키마는 다음 열을 포함합니다. ProductID, Manufacturer, Category, Segment, Product 및 IsCompete.
+Sales Marketing 데이터 집합 예제를 아래와 같이 JSON 문자열로 전달 합니다. 이 예에서 **SalesMarketing** 은 데이터 집합 이름, 및 **제품** 테이블 이름입니다. 테이블을 정의한 후 테이블 스키마를 정의할 수 있습니다. **SalesMarketing** 데이터 세트의 경우 테이블 스키마는 다음 열을 포함합니다. ProductID, Manufacturer, Category, Segment, Product 및 IsCompete.
 
 **예제 데이터 세트 개체 JSON**
 
@@ -105,10 +105,10 @@ Power BI 테이블 스키마에는 다음과 같은 데이터 형식을 사용�
 | **데이터 형식** | **제한 사항** |
 | --- | --- |
 | Int64 |Int64.MaxValue 및 Int64.MinValue는 허용되지 않습니다. |
-| Double |Double.MaxValue 및 Double.MinValue 값은 허용되지 않습니다. NaN은 지원되지 않습니다.+Infinity 및 -Infinity는 일부 함수(예: Min, Max)에서 지원되지 않습니다. |
-| 부울 값 |없음 |
-| 날짜/시간 |데이터 로드 동안 일 분수가 포함된 값을 1/300초(3.33ms)의 배수로 양자화합니다. |
-| 문자열 |현재 최대 128K자를 허용합니다. |
+| Double |Double.MaxValue 및 Double.MinValue 값은 허용되지 않습니다. NaN 지원 되지 않습니다. + Infinity 및-Infinity는 일부 함수 (예: Min, Max)에서 지원 되지 않습니다. |
+| Boolean |없음 |
+| Datetime |데이터 로드 동안 일 분수가 1/300 초 (3.33ms)의 배수에 대를 사용 하 여 값 양자화 합니다. |
+| String |현재 최대 128k 자를 허용합니다. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI에 데이터 푸시에 대해 자세히 알아보기
 

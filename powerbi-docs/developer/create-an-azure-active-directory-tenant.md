@@ -1,20 +1,20 @@
 ---
 title: Power BI에서 사용할 Azure Active Directory 테넌트 만들기
 description: Power BI REST API를 사용하여 사용자 지정 애플리케이션에 사용할 새 Azure AD(Azure Active Directory) 테넌트를 만드는 방법을 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
-ms.openlocfilehash: ec03ba86fdbf57a9898b127aae9b76990837b5ba
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
-ms.translationtype: HT
+ms.openlocfilehash: ae3d15cce7c0beb8122542e3768a0ec10ca0a1ae
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473847"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61381694"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI에서 사용할 Azure Active Directory 테넌트 만들기
 
@@ -79,7 +79,7 @@ Power BI를 사용자 지정 애플리케이션에 통합하기 위해서는 Azu
 5. 테넌트의 일반 사용자에 대해 동일한 작업을 다시 수행하려고 합니다. 이것은 마스터 포함 계정에 사용할 수도 있습니다. 현재는 **디렉터리 역할**에 대해 *사용자*로 남겨 둡니다. 암호를 기록해 두어야 합니다. 그런 다음 **만들기**를 선택합니다.
 
     ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
-6. 5단계에서 만든 사용자 계정으로 Power BI에 등록합니다. [powerbi.com](https://powerbi.microsoft.com/get-started/)으로 이동하고 *Power BI - 클라우드 공동 작업 및 공유* 아래에서 **무료 사용해 보기**를 선택하여 이 작업을 수행할 수 있습니다.
+6. 5단계에서 만든 사용자 계정으로 Power BI에 등록합니다. [powerbi.com](https://powerbi.microsoft.com/get-started/)으로 이동하고 *Power BI - 클라우드 협업 및 공유* 아래에서 **무료 사용해 보기**를 선택하여 이 작업을 수행할 수 있습니다.
 
     ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 

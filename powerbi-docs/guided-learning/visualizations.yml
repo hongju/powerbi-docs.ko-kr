@@ -2,7 +2,7 @@
 title: 시각화
 metadata:
   title: 시각화 | Microsoft Power BI
-  description: 시각화는 데이터에 생명을 불어 넣으며 가장 강력하고 놀라운 시각적 표현을 통해 통찰력을 밝힙니다.  이 섹션에서 그 방법을 보여 줍니다.
+  description: 시각화는 데이터에 생명을 불어 넣으며 가장 강력하고 놀라운 시각적 표현을 통해 통찰력을 밝힙니다. 이 섹션에서 그 방법을 보여 줍니다.
   audience: Business User
   level: Beginner
   nextTutorialHref: exploringdata.yml
@@ -15,15 +15,15 @@ metadata:
   ms.date: 05/07/2019
   ms.author: davidi
   ms.openlocfilehash: ac0678f8dc86d8a0b5386f5847796b74b49d868e
-  ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-  ms.translationtype: HT
+  ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+  ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/07/2019
+  ms.lasthandoff: 05/29/2019
   ms.locfileid: "65239943"
 items:
 - durationInMinutes: 1
   content: >
-    시각화는 데이터에 생명을 불어 넣으며 가장 강력하고 놀라운 시각적 표현을 통해 통찰력을 밝힙니다.  **Power BI** 단계별 학습 과정의 이번 단원에서는 시각화 사용 방법을 보여줍니다.
+    시각화는 데이터에 생명을 불어 넣으며 가장 강력하고 놀라운 시각적 표현을 통해 통찰력을 밝힙니다. **Power BI** 단계별 학습 과정의 이번 단원에서는 시각화 사용 방법을 보여줍니다.
 - title: Power BI의 시각적 개체 소개
   durationInMinutes: 2
   content: >

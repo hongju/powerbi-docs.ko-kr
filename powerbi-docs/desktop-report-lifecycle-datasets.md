@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 02beb69148c347847f346c170651ef31ddd1e786
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275574"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60988027"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop에서 Power BI 서비스의 데이터 세트에 연결
 Power BI 서비스에서 공유 데이터 세트에 대한 라이브 연결을 설정하고 동일한 데이터 세트에서 다양한 보고서를 만들 수 있습니다. 즉, Power BI Desktop에서 완벽한 데이터 모델을 만들고 이를 Power BI 서비스에 게시하면 사용자가 동일한 공통 데이터 모델에서 여러 개의 다른 보고서(별도의 .pbix 파일)를 작성할 수 있습니다. 이 기능을 **Power BI 서비스 라이브 연결**이라고 합니다.
@@ -77,9 +77,8 @@ Anna가 자신의 보고서를 만들면(그리고 이를 기반으로 데이터
 다음으로, 보고서(및 데이터 세트)가 게시된 작업 영역에 대한 액세스 권한이 있는 다른 팀 구성원이 데이터 세트에 연결하여 자신의 고유한 보고서를 작성하는 방법을 알아보겠습니다.
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>게시된 데이터 세트에 Power BI 서비스 라이브 연결 설정
-게시된 보고서에 연결을 설정하고 게시된 데이터 세트를 토대로 사용자 고유의 보고서를 만들려면 **Power BI Desktop** 의 **홈** 리본에서 **데이터 가져오기** 를 선택하고 **Power BI 데이터 집합** 을 선택합니다. **데이터 가져오기 > Power BI > Power BI 데이터 집합** 에서도 선택할 수 있습니다.
+게시 된 데이터 집합을 기반으로 고유한 보고서를 만들고 게시 된 보고서에 대 한 연결을 설정, 선택 **데이터 가져오기** 에서 합니다 **홈** 리본에서 **Power BI Desktop** 를 선택 **Power BI** 선택 고 왼쪽된 창에서 **Power BI 데이터 집합**합니다.
 
-![](media/desktop-report-lifecycle-datasets/report-lifecycle_08.png)
 
 Power BI에 로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다. 로그인하면 사용자가 속한 작업 영역과 **Power BI 서비스 라이브 연결**을 설정하려는 데이터 세트가 포함된 작업 영역을 선택할 수 있는 창이 표시됩니다.
 

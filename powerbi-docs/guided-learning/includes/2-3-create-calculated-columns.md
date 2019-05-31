@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fcf73962534ec8f1fda009304768fd43aaa0955a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257108"
+---
 계산 열을 만들면 데이터를 간단하게 보강하고 개선할 수 있습니다. **계산 열**은 둘 이상의 기존 데이터 요소를 변환하거나 결합하는 계산을 정의하여 만드는 새 열입니다. 예를 들어 두 개의 열을 하나로 결합하여 새 열을 만들 수 있습니다.
 
 계산 열을 만드는 한 가지 이유는 관계를 설정하는 데 사용할 수 있는 고유 필드가 없을 때 테이블 간의 관계를 설정하기 위한 것입니다. 관계의 부재는 Power BI Desktop에서 간단한 테이블 시각적 개체를 만들 때 기본 데이터가 다르다는 것을 알면서도 모든 항목에 대해 동일한 값을 가져오는 경우에 명확히 드러납니다.

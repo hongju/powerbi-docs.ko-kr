@@ -11,14 +11,14 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4372f37cf6afc8fe51d6650ddd888bd41d3ea678
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280128"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61394948"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>모든 크기의 Power BI 시각적 개체 최적화
-기본적으로 새 보고서를 만들 때 시각적 개체는 ‘반응형’입니다. 화면 크기와 관계없이 최대 데이터양과 인사이트를 표시하도록 동적으로 변경됩니다. 이전 보고서의 경우에도 동적으로 크기를 조정하도록 시각적 개체를 설정할 수 있습니다.
+기본적으로 새 보고서를 만들 때 시각적 개체는 ‘반응형’입니다.  화면 크기와 관계없이 최대 데이터양과 인사이트를 표시하도록 동적으로 변경됩니다. 이전 보고서의 경우에도 동적으로 크기를 조정하도록 시각적 개체를 설정할 수 있습니다.
 
 시각적 개체 크기가 변경되면, Power BI는 데이터 보기의 우선 순위를 지정합니다. 예를 들어 패딩을 제거하고 범례를 시각적으로 맨 위로 자동으로 이동하여 시각적 개체 크기가 작아져도 정보를 계속 제공할 수 있도록 합니다. 응답성은 휴대폰에 있는 Power BI 모바일 앱의 시각적 개체에 특히 유용합니다.
 
@@ -49,7 +49,7 @@ Power BI 서비스에 있는 이전 보고서의 시각적 개체에 대해 반�
      이제 [이 보고서의 휴대폰 보기를 만들고](../desktop-create-phone-report.md) 이 시각적 개체를 추가하면 적절하게 크기가 조정됩니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 전화 앱에 대해 최적화된 보고서 만들기](../desktop-create-phone-report.md)
+* [Power BI 모바일 앱에 최적화된 보고서 만들기](../desktop-create-phone-report.md)
 * [휴대폰에 대해 최적화된 Power BI 보고서 보기](../consumer/mobile/mobile-apps-view-phone-report.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

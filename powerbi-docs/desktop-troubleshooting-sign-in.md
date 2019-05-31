@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: f81517bf4d7857b5c86b4fd8d801e989abb0399b
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514465"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop에서 로그인 문제 해결
@@ -22,12 +22,12 @@ ms.locfileid: "65514465"
 
 로그인 문제를 일으키는 문제를 확인하기 위한 첫 번째 단계는 관리자에게 문의하고 관리자가 문제의 원인을 확인할 수 있도록 진단 정보를 제공하는 것입니다. 관리자는 로그인 문제와 관련된 문제를 추적하여 다음 중 어떤 오류가 적용되는지 확인할 수 있습니다. 
 
-이러한 문제를 각각 차례로 살펴보겠습니다. 이 문서의 끝부분에는 Power BI Desktop에서 문제 해결을 추적하는 데 도움이 될 수 있는 ‘추적’ 캡처 방법에 대한 설명이 있습니다.
+이러한 문제를 각각 차례로 살펴보겠습니다. 이 문서의 끝부분에는 Power BI Desktop에서 문제 해결을 추적하는 데 도움이 될 수 있는 ‘추적’ 캡처 방법에 대한 설명이 있습니다. 
 
 
 ## <a name="proxy-authentication-required-error"></a>프록시 인증 필요 오류
 
-다음 화면에서는 ‘프록시 인증 필요’ 오류에 대한 예제를 보여줍니다.
+다음 화면에서는 ‘프록시 인증 필요’ 오류에 대한 예제를 보여줍니다. 
 
 ![프록시 인증 오류에 대한 로그인 오류](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in_01.png)
 
@@ -71,7 +71,7 @@ ms.locfileid: "65514465"
 
 2. 그런 다음, 오류를 재현하는 단계를 수행합니다. 이 문제가 발생하면 **Power BI Desktop**은 로컬 컴퓨터에 보관되는 추적 로그에 이벤트를 추가합니다.
 
-3. 로컬 컴퓨터의 Traces 폴더로 이동합니다. 추적을 사용하도록 설정한 **진단**에서 이전 이미지에 ‘크래시 덤프/추적 폴더 열기’로 표시된 링크를 선택하여 해당 폴더를 찾을 수 있습니다. 보통 이 폴더는 로컬 컴퓨터에서 다음 위치에 있습니다.
+3. 로컬 컴퓨터의 Traces 폴더로 이동합니다. 추적을 사용하도록 설정한 **진단**에서 이전 이미지에 ‘크래시 덤프/추적 폴더 열기’로 표시된 링크를 선택하여 해당 폴더를 찾을 수 있습니다.  보통 이 폴더는 로컬 컴퓨터에서 다음 위치에 있습니다.
 
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 

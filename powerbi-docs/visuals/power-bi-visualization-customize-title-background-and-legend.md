@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cce99c8a0e0908ef901408cbb19397fa098bac38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d7a8c1600de65ba39b075d89f3c2d95e0b0c7cde
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289604"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051228"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>시각화 제목, 범례 및 배경 사용자 지정
 이 자습서에서는 시각화를 사용자 지정하는 몇 가지 방법을 알아봅니다.   시각화를 사용자 지정하는 많은 옵션이 있으며 모두에 대해 자세히 알아보기 위한 가장 좋은 방법은 서식 지정 창(페인트 롤러 아이콘 선택)을 탐색하는 것입니다.  시작하기 위해 이 문서는 시각화 제목, 범례 및 배경을 사용자 지정하는 방법을 보여 줍니다.  
 
 일부 시각화는 사용자 지정할 수 없습니다. [전체 목록을 확인](#list)하세요.  
 
-Amanda가 보고서에서 시각화를 사용자 지정하는 비디오를 시청하세요(비디오에서 4시 50분으로 빨리 감기). 그런 다음 고유한 데이터를 사용하여 비디오 아래에 있는 지침을 따라서 직접 시도해 볼 수 있습니다.
+4:50 비디오에서 시각화를 사용자 지정 하는 방법의 데모를 빨리 감기 합니다. 그런 다음 고유한 데이터를 사용하여 비디오 아래에 있는 지침을 따라서 직접 시도해 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 

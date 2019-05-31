@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174939"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61401149"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서의 사용 메트릭 모니터링
 
@@ -159,7 +159,7 @@ Power BI에서 완전한 기능을 갖춘 보고서를 만드는 경우 지난 9
 
 ## <a name="usage-metrics-in-national-clouds"></a>국가별 클라우드의 사용 메트릭
 
-Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. 이러한 클라우드는 서비스 전달, 데이터 주거성, 액세스 및 통제와 관련하여 로컬 규정에 부합하는 고유 모델과 결합된 Power BI 글로벌 버전으로서 동일한 수준의 보안, 개인 정보 보호, 규정 준수 및 투명성을 제공합니다. 지역 규정에 대한 이 고유한 모델로 인해 사용 메트릭을 국가별 클라우드에서 사용할 수 없습니다. 자세한 내용은 [국가별 클라우드](https://powerbi.microsoft.com/clouds/)를 참조하세요.
+Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. 이러한 클라우드 동일한 수준의 보안, 개인 정보 보호, 규정 준수 및 투명도의 현지 규정 서비스 배달, 데이터 상주, 액세스 및 제어에는 고유 모델과 함께 Power BI 글로벌 버전으로 제공 합니다. 지역 규정에 대한 이 고유한 모델로 인해 사용 메트릭을 국가별 클라우드에서 사용할 수 없습니다. 자세한 내용은 [국가별 클라우드](https://powerbi.microsoft.com/clouds/)를 참조하세요.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 

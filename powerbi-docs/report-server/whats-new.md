@@ -1,32 +1,102 @@
 ---
 title: Power BI Report Server의 새로운 기능
 description: Power BI Report Server의 새로운 기능에 대해 알아봅니다. 주요 기능 영역을 설명하고 새 항목이 출시될 때 업데이트됩니다.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/22/2019
-ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662460"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187308"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
-Power BI Report Server의 새로운 기능에 대해 알아봅니다. 이 아티클에서는 주요 기능 영역을 설명하고 새 항목이 릴리스될 때 업데이트됩니다.
-
-Power BI Report Server에 최적화된 Power BI Report Server 및 Power BI Desktop의 최신 버전을 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동합니다.
+Power BI Report Server 및 Power BI Report Server에 최적화 된 Power BI Desktop의 새로운 기능에 대해 알아봅니다. 이 아티클에서는 주요 기능 영역을 설명하고 새 항목이 릴리스될 때 업데이트됩니다.
 
 관련 Power BI “새로운 기능” 정보는 다음을 참조하세요.
 
 * [Power BI 서비스의 새로운 기능](../service-whats-new.md)
 * [Power BI Desktop의 새로운 기능](../desktop-latest-update.md)
 * [Power BI용 모바일 앱의 새로운 기능](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>월 2019: Power BI Report Server에 대 한 power BI Desktop
+
+참조 된 [Power BI Report Server 월 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) 모든 새 기능에 대 한 자세한 내용은 블로그 게시물.
+
+다음은 일부 릴리스의 주요 내용입니다.
+
+### <a name="performance-analyzer"></a>성능 분석기 
+
+보고서가 예상 보다 느리게 실행 되 면 Power BI Desktop에서 성능 분석기를 시도 합니다. 를 시작 하면 보고서에서 수행한 모든 작업에 대 한 정보를 사용 하 여 로그 파일을 만듭니다. 자세한 내용은 합니다 [Performance Analyzer](../desktop-performance-analyzer.md)합니다.
+
+### <a name="new-modeling-view"></a>새 보기를 모델링
+
+Power BI Desktop에서 새 모델링 뷰에서 볼 수 있으며 여러 테이블을 포함 하는 복잡 한 데이터 집합을 사용할 키를 누릅니다. 주요 사항 다이어그램 레이아웃을 여러 개 포함 및 대량 열, 측정값 및 테이블의 편집 합니다. 에 대해 자세히 알아보세요 [모델링이](../desktop-modeling-view.md)합니다.
+
+### <a name="accessible-visual-interaction"></a>액세스할 수 있는 시각적 상호 작용
+
+다양 한 키보드 탐색을 사용 하 여 기본 제공 시각화 개체의 데이터 요소에 대 한 액세스 이제 수 있습니다. 에 대해 자세히 알아보세요 [Power BI 보고서의 내게 필요한 옵션](../desktop-accessibility.md)합니다.
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>조건부 서식 제목 및 웹 URL 작업
+
+Power BI 보고서는 대화형입니다. 보고서에서 제목을 보고서의 현재 상태를 반영 하도록 동적 수는 것이 합리적입니다. 동적 단추, 셰이프 및 이미지의 Url을 확인 하는 동일한 식과 바인딩된 서식을 사용할 수 있습니다. 에 대해 자세히 알아보세요 [타이틀 식 기반](../desktop-conditional-format-visual-titles.md)입니다.
+
+### <a name="cross-highlight-by-axis-labels"></a>축 레이블 별로 교차 강조 표시
+
+시각적 개체의 데이터 요소를 선택 하는 것 처럼 교차 강조 표시는 페이지의 다른 요소에 시각적 개체의 범주 축 레이블을 선택 합니다. 에 대해 자세히 알아보세요 [교차 강조 표시](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)합니다.
+
+### <a name="all-the-new-features"></a>모든 새로운 기능
+
+모든 새 기능 목록은 다음과 같습니다.
+
+### <a name="reporting"></a>보고
+
+- 꺾은선형 차트에서 단일 지점에서 교차 강조 표시 
+- 제목에 자동 줄 바꿈 
+- 기본 시각적 상호 작용 교차 필터링 ¬ 업데이트
+- 시각적 테두리에 대 한 둥근된 모서리 
+- 단일 선택 슬라이서  
+- Bing 지도 대 한 열 지도 지원  
+- 축 레이블 별로 교차 강조 표시  
+- 서식 지정 하는 기본 도구 설명  
+- 정적 웹 URL 단추, 셰이프 및 이미지에 대 한 지원  
+- 페이지 맞춤 옵션   
+- 선택 영역 창 개선  
+- 액세스할 수 있는 시각적 상호 작용  
+- 조건부 시각적 개체 제목 서식 지정  
+- 조건부 단추, 셰이프 및 이미지에 대 한 웹 URL 작업에 대 한 서식
+- 성능 분석기 창
+- 테이블 및 행렬 키보드 탐색
+- 줄 데이터 레이블 위치 제어
+- KPI 시각적 표시기 텍스트 컨트롤 크기 조정
+
+### <a name="analytics"></a>분석
+
+- 이제 날짜를 계층으로 일반 공급 표시  
+
+### <a name="modeling"></a>모델링
+
+- 새 보기 이제 일반 공급을 모델링
+- 새로운 DAX 함수
+- ALLSELECTED DAX 함수를 업데이트 합니다.
+- 새 보고서에 대 한 자동 날짜 테이블을 사용 하지 않도록 설정
+
+## <a name="may-2019-power-bi-report-server"></a>월 2019: Power BI Report Server
+
+### <a name="support-for-trusted-visuals"></a>신뢰할 수 있는 시각적 개체에 대 한 지원
+
+Power BI Report Server를 신뢰할 수 있는 시각적 개체에 대 한 지원을 추가 했습니다. 현재 Mapbox 및 전원 켜기 시각적 개체 지원 됩니다. ESRI, Visio 및 PowerApps 지원 되지 않습니다이 릴리스에 대 한.)
+
+### <a name="improved-security-features"></a>향상 된 보안 기능
+
+**RestrictedResourceMimeTypeForUpload**, html 예를 들어 텍스트 금지 된 mime 형식의 쉼표로 구분 된 목록을 지정 하는 관리자를 사용할 수 있습니다.
 
 ## <a name="january-2019"></a>2019년 1월
 
@@ -36,7 +106,7 @@ Power BI 보고서에서 다음 기능 지원:
 
 [**행렬 행 머리글의 확장 및 축소**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) 가장 많이 요청된 시각적 개체 기능 중 하나인 개별 행 머리글을 확장 및 축소하는 기능을 추가했습니다.
 
-[**.pbix 파일 간에 복사 및 붙여넣기**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) 시각적 개체의 컨텍스트 메뉴에서 또는 표준 Ctrl+C 바로 가기 키를 사용하여 .pbix 파일 간에 시각적 개체를 복사하고 Ctrl+V를 사용하여 다른 보고서에 붙여넣을 수 있습니다.
+[ **.pbix 파일 간에 복사 및 붙여넣기**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) 시각적 개체의 컨텍스트 메뉴에서 또는 표준 Ctrl+C 바로 가기 키를 사용하여 .pbix 파일 간에 시각적 개체를 복사하고 Ctrl+V를 사용하여 다른 보고서에 붙여넣을 수 있습니다.
 
 [**스마트 맞춤 가이드**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) PowerPoint에서 볼 수 있는 것처럼 보고서 페이지에서 개체를 이동할 때 페이지의 모든 항목을 정렬하는 데 도움이 되는 스마트 맞춤 가이드가 표시됩니다. 페이지의 있는 항목을 드래그하거나 크기를 조정할 때마다 스마트 가이드를 볼 수 있습니다. 다른 개체 근처에서 개체를 이동하면 다른 개체와 정렬된 위치로 스냅됩니다.
 

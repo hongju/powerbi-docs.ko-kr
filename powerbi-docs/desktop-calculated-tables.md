@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239478"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop의 계산된 테이블 사용
@@ -24,7 +24,7 @@ ms.locfileid: "65239478"
 
 쿼리의 일부로 만든 테이블과 달리, 보고서 뷰나 데이터 뷰에서 만든 계산된 테이블은 이미 모델에 로드한 데이터를 기반으로 합니다. 예를 들어, 두 테이블을 연결하거나 크로스 조인하려 할 수 있습니다.
 
-일반 테이블처럼 계산된 테이블에는 다른 테이블과의 관계가 있을 수 있습니다. 계산된 테이블의 열에는 데이터 형식, 서식이 있으며 데이터 범주에 속할 수 있습니다. 열에 원하는 대로 이름을 지정하고 다른 필드처럼 보고서 시각화에 추가할 수 있습니다.  데이터를 가져오는 테이블이 새로 고쳐지거나 어떤 식으로든 업데이트되면 계산된 테이블이 다시 계산됩니다.
+일반 테이블처럼 계산된 테이블에는 다른 테이블과의 관계가 있을 수 있습니다. 계산된 테이블의 열에는 데이터 형식, 서식이 있으며 데이터 범주에 속할 수 있습니다. 열에 원하는 대로 이름을 지정하고 다른 필드처럼 보고서 시각화에 추가할 수 있습니다. 데이터를 가져오는 테이블이 새로 고쳐지거나 어떤 식으로든 업데이트되면 계산된 테이블이 다시 계산됩니다.
 
 계산된 테이블은 Power BI Desktop에서와 같이 관계형 데이터 작업에 사용되는 수식 언어인 DAX([Data Analysis Expressions](https://msdn.microsoft.com/library/gg413422.aspx))를 사용하여 결과를 계산합니다. DAX에는 200개가 넘는 함수, 연산자 및 구문 라이브러리가 포함되어 데이터 분석 결과를 계산하는 수식을 만들 때 엄청난 유연성을 제공합니다.
 

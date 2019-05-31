@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 30cd80cbeafe2da4468a0049bfa0c34715bce0d3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051088"
+---
 Power BI에 대한 **단계별 학습**을 시작하겠습니다. 이 자가 진행식 온라인 과정에서는 순차적 방식으로 Power BI를 설명하므로 기초부터 지식을 쌓을 수 있습니다.
 
 이 과정은 개념, 세부 정보 및 예제를 습득하는 데 유용한 논리 흐름을 통해 이해하기 쉬운 부분으로 지침을 제공하도록 구성되어 있습니다. 또한 학습에 도움이 되는 다양한 시각적 개체 및 동영상이 포함되어 있습니다.
@@ -14,7 +22,7 @@ Power BI의 **초보자**인 경우 이 과정을 통해 지식을 계속 쌓을
 **Power BI**는 단순하고 빠르기 때문에 Excel 스프레드시트 또는 로컬 데이터베이스에서 빠른 정보를 생성할 수 있습니다. 하지만 **Power BI**는 강력하면서도 엔터프라이즈급이기 때문에 광범위한 모델링 및 실시간 분석뿐 아니라 사용자 지정 개발에 즉시 사용할 수 있습니다. 따라서 Power BI는 개인 보고서 및 시각화 도구일 수 있으며, 그룹 프로젝트, 사업부 또는 회사 전체의 분석 및 의사 결정 엔진으로 역할도 할 수 있습니다.
 
 ## <a name="the-parts-of-power-bi"></a>Power BI의 요소
-Power BI는 **Power BI Desktop**이라는 Windows 데스크톱 응용 프로그램, **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*), Windows Phone 및 태블릿뿐 아니라 iOS 및 Android 디바이스에서 사용할 수 있는 모바일 Power BI **앱**으로 구성됩니다.
+Power BI는 **Power BI Desktop**이라는 Windows 데스크톱 애플리케이션, **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*), Windows Phone 및 태블릿뿐 아니라 iOS 및 Android 장치에서 사용할 수 있는 모바일 Power BI **앱**으로 구성됩니다.
 
 ![](media/0-0-what-is-power-bi/c0a0_2.png)
 
@@ -23,7 +31,7 @@ Power BI는 **Power BI Desktop**이라는 Windows 데스크톱 응용 프로그�
 ## <a name="how-power-bi-matches-your-role"></a>Power BI와 사용자 역할을 일치시키는 방법
 Power BI 사용 방법은 프로젝트 또는 팀에서 사용자의 역할에 따라 달라질 수 있습니다. 또한 다른 역할을 맡은 사람은 Power BI를 다른 방식으로 사용할 수도 있습니다.
 
-예를 들어 여러분은 주로 **Power BI 서비스**를 사용하지만 많은 숫자를 다루는 비즈니스 보고서를 만드는 동료는 **Power BI Desktop**을 중점적으로 사용하고 여러분이 보는 Power BI 서비스에 Desktop 보고서를 게시할 수 있습니다. 영업을 담당하는 또 다른 동료는 주로 Power BI 전화 앱을 사용하여 자신의 영업 할당량에 대한 진행 상황을 모니터링하고 새로운 영업 리드에 대한 세부 정보를 확인할 수 있습니다.
+예를 들어 여러분은 주로 **Power BI 서비스**를 사용하지만 많은 숫자를 다루는 비즈니스 보고서를 만드는 동료는 **Power BI Desktop**을 중점적으로 사용하고 여러분이 보는 Power BI 서비스에 Desktop 보고서를 게시할 수 있습니다. 및 다른 동료에 게 판매, 수 주로 사용 하 여 Power BI 전화 앱 영업 할당량에 대 한 진행 상황을 모니터링 하 고 새 판매 잠재 고객 세부 정보로 드릴링 하 합니다.
 
 달성하려는 목표 또는 지정된 프로젝트나 작업에서 맡은 역할에 따라 **Power BI**의 각 요소를 서로 다른 시점에 사용할 수 있습니다.
 

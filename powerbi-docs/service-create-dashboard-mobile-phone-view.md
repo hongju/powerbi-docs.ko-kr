@@ -1,5 +1,5 @@
 ---
-title: 휴대폰용 Power BI 대시보드 보기 만들기
+title: 휴대폰-Power BI에 대시보드를 최적화 합니다.
 description: 특히 휴대폰에서 보기 편하도록 Power BI 서비스에서 대시보드의 사용자 지정된 보기를 만드는 방법에 대해 알아보세요.
 author: maggiesMSFT
 manager: kfile
@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd7df8383ad22d273ebf396fc1cf8297f110dde5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288155"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61158263"
 ---
-# <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>휴대폰용으로 최적화된 Power BI 대시보드 보기 만들기
-휴대폰의 Power BI 모바일 앱에서 대시보드를 볼 때 대시보드 타일이 모두 동일한 크기로 하나씩 배치된 것을 확인할 수 있습니다. Power BI 서비스에서 특히 휴대폰에 대해 소유하고 있는 모든 대시보드의 사용자 지정된 보기를 만들 수 있습니다.
+# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>휴대폰-Power BI에 대시보드를 최적화 합니다. 
+휴대폰의 세로 모드에서 대시보드를 볼 때 대시보드 타일이 하나씩 모두 동일한 크기로 배치는 확인할 수 있습니다. Power BI 서비스에서 세로 모드로 휴대폰에 맞게 대시보드를 사용자 지정된 보기를 만들 수 있습니다. 휴대폰을 옆으로 설정 하면 휴대폰 보기를 만든 경우에 서비스에 배치 된 대시보드가 표시 됩니다.
 
-휴대폰을 옆으로 돌리면 휴대폰에 대해 설계된 대로가 아닌 서비스에 배치된 대로 대시보드가 표시됩니다.
+모바일 장치에서 대시보드를 보는 방법은 원합니다? 이 빠른 시작을 시도 [Power BI 모바일 앱에서 대시보드 및 보고서를 탐색](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md) 대신 합니다.
 
 > [!NOTE]
 > 휴대폰 보기를 편집할 때 휴대폰에서 대시보드를 보고 있는 사용자는 실시간으로 변경하는 내용을 볼 수 있습니다. 예를 들어 대시보드 휴대폰 보기의 모든 타일을 고정 해제하는 경우 휴대폰의 대시보드에 갑자기 타일이 없어집니다. 

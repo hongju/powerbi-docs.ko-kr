@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: eb7cba03daee47f6772fc46be50419731b41765e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61194140"
+---
 ## <a name="validate-the-roles-within-power-bi-desktop"></a>Power BI Desktop 내에서 역할 유효성 검사
 역할을 만든 후에 Power BI Desktop 내에서 역할의 결과를 테스트합니다.
 

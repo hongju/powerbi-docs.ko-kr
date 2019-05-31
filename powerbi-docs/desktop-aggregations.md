@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239578"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop의 집계(미리 보기)
@@ -91,9 +91,9 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 ### <a name="strong-vs-weak-relationships"></a>강력 관계 대 약한 관계
 관계를 기반으로 하는 집계 적중은 강력한 관계가 필요합니다.
 
-강력한 관계에는 두 테이블이 모두 ‘단일 원본’에 있는 다음과 같은 조합이 포함됩니다.
+강력한 관계에는 두 테이블이 모두 ‘단일 원본’에 있는 다음과 같은 조합이 포함됩니다. 
 
-| *다 쪽의 테이블 | ‘일’ 쪽의 테이블 |
+| *다 쪽의 테이블 | ‘일’ 쪽의 테이블  |
 | ------------- |----------------------| 
 | 이중          | 이중                 | 
 | 가져오기        | 가져오기 또는 이중       | 

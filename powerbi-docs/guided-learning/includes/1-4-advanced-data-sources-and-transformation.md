@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 9eff90168ea221a269a8b5ded712645cca01cd9f
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54083970"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265075"
 ---
 이 문서에서는 **Power BI Desktop**에 대한 몇 가지 고급 데이터 가져오기 및 정리 기술을 살펴봅니다. **쿼리 편집기**에서 데이터를 셰이핑하고 **Power BI Desktop**으로 가져온 후에는 몇 가지 방법으로 데이터를 확인할 수 있습니다. Power BI Desktop에는 다음 세 가지 보기가 있습니다. **보고서** 보기, **데이터** 보기 및 **관계** 보기. 캔버스 왼쪽 위에 있는 해당 아이콘을 선택하면 각 뷰가 표시됩니다. 다음 그림에는 **보고서** 뷰가 선택되어 있습니다. 아이콘 옆에 있는 노란색 막대는 활성화된 뷰를 나타냅니다.
 
@@ -18,7 +18,7 @@ Power BI Desktop은 모델링 프로세스 중 언제든지 여러 소스의 데
 
 ![](media/1-4-advanced-data-sources-and-transformation/1-4_2.png)
 
-Power BI의 가장 유용한 도구 중 하나는 해당 필터입니다. 예를 들어 열 옆의 드롭다운 화살표를 선택하면 모델에서 값을 제거하는 데 사용할 수 있는 텍스트 필터의 검사 목록이 열립니다.
+Power BI의 가장 유용한 도구 중 하나는 해당 필터입니다.  예를 들어 열 옆의 드롭다운 화살표를 선택하면 모델에서 값을 제거하는 데 사용할 수 있는 텍스트 필터의 검사 목록이 열립니다.
 
 쿼리를 병합하고 추가할 수 있으며, 여러 테이블(또는 폴더에 있는 여러 파일의 데이터)을 원하는 데이터만 포함된 단일 테이블로 전환할 수도 있습니다. **쿼리 추가** 도구를 사용하여 새 테이블의 데이터를 기존 쿼리에 추가할 수 있습니다. Power BI Desktop에서는 쿼리의 열을 일치시키며, 이후 사용자는 필요에 따라 **쿼리 편집기**에서 조정할 수 있습니다.
 

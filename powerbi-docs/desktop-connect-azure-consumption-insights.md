@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.openlocfilehash: 383d28a9e24165b12cda73ee254541a32db4391c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327990"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61325651"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure 비용 및 사용량 데이터 분석
 
@@ -24,7 +24,9 @@ Power BI Desktop에서는 Azure에 연결하여 조직의 Azure 서비스 사용
 
 Power BI는 현재 기업 계약 및 고객 계약 청구 계정에 대한 연결을 지원합니다.
 
-기업 계약 사용자는 Azure Consumption Insights 커넥터를 사용하여 연결해야 합니다. 고객 계약 계정 사용자는 Azure Cost Management 커넥터를 사용하여 연결해야 합니다.
+* **기업 계약** 사용자와 연결 해야 합니다 **Azure Consumption Insights 커넥터**합니다.
+
+* **고객 계약** 사용자와 연결 해야 합니다 **Azure Cost Management 커넥터**합니다.
 
 ## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights에 연결
 
@@ -56,7 +58,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-‘액세스 키’를 제공하고 **연결**을 선택하면 **탐색기** 창이 나타나고 사용할 수 있는 9개의 테이블이 표시됩니다. 
+‘액세스 키’를 제공하고 **연결**을 선택하면 **탐색기** 창이 나타나고 사용할 수 있는 9개의 테이블이 표시됩니다.  
 * **예산**: 예산 세부 정보를 제공하여 기존 예산 목표 대비 실제 비용 및 사용을 봅니다. 
 * **MarketPlace**: 사용량 기반 Azure Marketplace 요금을 제공합니다.
 * **PriceSheets**: 등록에 적용되는 미터별 요금을 제공합니다.
@@ -212,6 +214,11 @@ Azure Portal의 열 및 세부 정보 이름은 API 및 커넥터와 유사하�
 
 이 섹션에서는 고객 계약 청구 계정에 연결하는 방법을 알아봅니다.
 
+> [!NOTE]
+> 현재 Azure Cost Management 커넥터에서 고객을 지원 합니다 **고객 계약**합니다.  **기업 계약** 고객은 Microsoft Azure Consumption Insights 커넥터를 사용 해야 합니다.
+> 
+> 
+
 **Azure Cost Management** 커넥터를 사용하여 연결하려면 **Power BI Desktop**의 **홈** 리본에서 **데이터 가져오기**를 선택합니다.  왼쪽에 있는 범주에서 **Azure**를 선택하면 **Azure Cost Management(베타)** 가 표시됩니다. **연결**을 선택합니다.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
@@ -234,8 +241,8 @@ Azure 이메일 및 암호를 사용하여 로그인하라는 메시지가 표�
 * **Marketplace**: 사용량 기반 Azure Marketplace 요금을 제공합니다.
 * **가격표**: 제공된 청구 프로필에 대한 미터별 적용 가능한 요율을 제공합니다.
 * **RI 요금**: 지난 24개월 동안 예약 인스턴스와 관련된 요금을 제공합니다.
-* **RI 권장 사항(단일)**: 지난 7일, 30일 또는 60일 동안 단일 구독에서 사용량 추세를 기반으로 예약 인스턴스 구매 권장 사항을 제공합니다.
-* **RI 권장 사항(공유)**: 지난 7일, 30일 또는 60일 동안 모든 구독에서 사용량 추세를 기반으로 예약 인스턴스 구매 권장 사항을 제공합니다.
+* **RI 권장 사항(단일)** : 지난 7일, 30일 또는 60일 동안 단일 구독에서 사용량 추세를 기반으로 예약 인스턴스 구매 권장 사항을 제공합니다.
+* **RI 권장 사항(공유)** : 지난 7일, 30일 또는 60일 동안 모든 구독에서 사용량 추세를 기반으로 예약 인스턴스 구매 권장 사항을 제공합니다.
 * **RI 사용량**: 지난 한 달 동안 기존 예약 인스턴스에 대한 소비 세부 정보를 제공합니다.
 * **사용량 세부 정보**: 지정된 청구 프로필 ID에 대해 사용한 수량 및 예상 요금 내역을 제공합니다.
 

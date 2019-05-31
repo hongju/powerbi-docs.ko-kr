@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
 ms.openlocfilehash: c735b5e1abbed0c733ca4414e15fc44b741349d8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287925"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61344119"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 온-프레미스 보고서 서버 보고서 및 KPI 보기
 
@@ -41,7 +41,7 @@ Power BI Report Server 및 SQL Server 2016 Reporting Services(SSRS)에서 Power 
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>서버 연결 없이 모바일 앱에서 샘플 탐색
 Reporting Services 웹 포털에 대한 액세스가 없더라도, Reporting Services 모바일 보고서 및 KPI의 기능을 탐색할 수 있습니다. 
 
-1. 왼쪽 위 모퉁이에서 ![전역 탐색 단추](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) 전역 탐색 단추를 탭한 다음 오른쪽 위에 있는 기어 아이콘을 탭합니다. ![기어 아이콘](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
+1. 왼쪽 위 모퉁이에서 ![전역 탐색 단추](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) 전역 탐색 단추를 탭한 다음 오른쪽 위에 있는 기어 아이콘을 탭합니다. ![기어 아이콘](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png)을 선택합니다.
 2. **Reporting Services 샘플**을 누른 다음 KPI 및 모바일 보고서와 상호 작용할 샘플을 찾아봅니다.
    
    ![Reporting Services 샘플](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
@@ -102,7 +102,7 @@ iOS 모바일 앱에서 Power BI를 보는 경우 IT 관리자는 앱 구성 정
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>Power BI 앱에서 Power BI 보고서 및 KPI 보기
 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting Services 웹 포털에서와 동일한 폴더에 표시됩니다. 
 
-* Power BI 보고서 탭 ![Power BI 보고서 아이콘](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). 그러면 가로 모드로 열리고 Power BI 앱에서 상호 작용할 수 있습니다.
+* Power BI 보고서 탭 ![Power BI 보고서 아이콘](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png)을 선택합니다. 그러면 가로 모드로 열리고 Power BI 앱에서 상호 작용할 수 있습니다.
 
     > [!NOTE]
   > 드릴 다운 및 드릴업은 현재 Power BI Report Server의 Power BI 보고서에서 사용되지 않습니다.

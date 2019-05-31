@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/21/2019
+ms.date: 05/11/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f5572d5b5a8a8d9d652eabce95edc16ea9a2d0c6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 1b5891ce24c43b0a7416cd82cec3e9a10c1989bf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662138"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608352"
 ---
 # <a name="apps-in-power-bi"></a>Power BI의 앱
 ## <a name="what-is-a-power-bi-app"></a>Power BI 앱이란?
@@ -30,7 +30,7 @@ ms.locfileid: "56662138"
 > 앱 기능을 사용하려면 Power BI Pro 라이선스가 필요합니다. <!-- add link to how to figure out your license -->
 
 ## <a name="app-designers-and-app-consumers"></a>앱 ***디자이너*** 및 앱 ***소비자***
-사용자 역할에 따라 자신의 용도에 따라 또는 동료와 공유하기 위해 앱(디자이너)을 만들려는 사람이 있을 수 있습니다. 또는 다른 사용자가 만든 앱(소비자)를 받아 다운로드하는 사람일 수 있습니다. 이 문서는 앱 *소비자*를 위한 것입니다.
+사용자 역할에 따라 앱을 만듭니다 사람도 있을 수 있습니다 (*디자이너*) 직접 사용 하기 위해 또는 동료와 공유 합니다. 또는 수신 하 고 앱을 다운로드 하는 사람이 될 수 있습니다 (*소비자*) 다른 사용자가 만든 합니다. 이 문서는 앱 *소비자*를 위한 것입니다.
 
 ## <a name="advantages-of-apps"></a>앱의 이점
 앱은 Power BI 서비스([https://powerbi.com](https://powerbi.com)) 및 모바일 디바이스에서 쉽게 찾아 설치할 수 있습니다. 앱을 설치한 후에는 다양한 여러 대시보드가 앱, 브라우저 또는 모바일 디바이스에 모두 함께 있기 때문에 그 이름들을 기억할 필요가 없습니다.

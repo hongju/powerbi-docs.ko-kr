@@ -11,11 +11,11 @@ ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 214a8a3ce0fd647cecd9855b48589cef02bf01c8
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383317"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61198227"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 관리란?
 
@@ -25,7 +25,7 @@ Power BI 관리는 거버넌스 정책, 사용 모니터링뿐 아니라 라이�
 
 Power BI는 셀프 서비스 비즈니스 인텔리전스를 위해 설계되었으며 관리자는 Power BI 테넌트의 데이터, 프로세스 및 정책에 대한 보호자입니다. Power BI 관리자는 BI 개발자, 분석가 및 기타 역할을 포함하는 팀의 핵심 구성원입니다. 관리자는 조직을 지원하여 중요한 목표가 충족되었는지 확인할 수 있습니다.
 
-- 사용자에게 ‘실제로’ 필요한 KPI 및 메트릭 이해
+- 사용자에게 ‘실제로’ 필요한 KPI 및 메트릭 이해 
 - IT 주도 회사 보고를 위한 전달 시간 단축
 - Power BI 배포의 채택 및 투자 수익률 증가
 

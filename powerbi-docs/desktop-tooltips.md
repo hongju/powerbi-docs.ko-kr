@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514513"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop의 보고서 페이지에 기반한 도구 설명 만들기
@@ -51,11 +51,11 @@ ms.locfileid: "65514513"
 
 도구 설명 보고서 페이지가 도구 설명으로 작동하려면 더 많은 단계를 완료해야 합니다. 다음 섹션에 설명된 대로 몇 가지 방법으로 도구 설명 페이지를 구성해야 합니다. 
 
-## <a name="configure-your-tooltip-report-page"></a>도구 설명 보고서 페이지 구성 
+## <a name="configure-your-tooltip-report-page"></a>도구 설명 보고서 페이지 구성
 
 도구 설명 보고서 페이지를 만들었으면, **Power BI Desktop**이 도구 설명으로 등록하고, 올바른 시각적 개체 위에 표시하도록 페이지를 구성해야 합니다.
 
-시작하려면 **페이지 정보** 카드에서 **도구 설명** 슬라이더를 **켜기**로 전환하여 페이지를 도구 설명으로 만들어야 합니다.  
+시작하려면 **페이지 정보** 카드에서 **도구 설명** 슬라이더를 **켜기**로 전환하여 페이지를 도구 설명으로 만들어야 합니다. 
 
 ![도구 설명 슬라이더를 전환하여 페이지가 도구 설명임을 나타냅니다.](media/desktop-tooltips/desktop-tooltips_07.png)
 

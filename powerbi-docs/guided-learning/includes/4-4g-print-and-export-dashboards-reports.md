@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 87a55881a9b6551dc9c7814696aa8d8252482a09
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256231"
+---
 다른 사람과 공유할 수 있도록 인쇄된 보고서 또는 대시보드를 가지고 회의에 참석해야 할 경우가 있습니다. Power BI를 사용하면 시각적 개체 인쇄물을 만들 수 있는 몇 가지 방법이 있습니다.
 
 Power BI 서비스에서 오른쪽 위에 있는 줄임표(...)를 선택한 다음 **대시보드 인쇄**를 선택합니다.

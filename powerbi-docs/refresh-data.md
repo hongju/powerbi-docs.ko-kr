@@ -1,21 +1,21 @@
 ---
 title: Power BI에서 데이터 새로 고침
 description: Power BI에서 데이터 새로 고침
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/21/2019
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2f5680df2077a306532165c62367fcc09c517227
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.openlocfilehash: 149f6963cc59c70342bee824579f6ae4c97a16d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892485"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60974366"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI에서 데이터 새로 고침
 항상 최신 데이터를 가져오는 것은 올바른 결정을 내리는 데 중요한 경우가 많습니다. 일부 데이터에 연결하여 업로드하기 위해 Power BI에서 이미 데이터 가져오기를 사용했으며, 일부 보고서와 대시보드를 만들었습니다. 이제, 데이터가 최신이고 가장 좋은 상태임을 확인해야 합니다.
@@ -273,7 +273,7 @@ Power BI에서 Salesforce와 같은 온라인 서비스 공급자에서 데이�
 [새로 고침 문제 해결을 위한 도구](service-gateway-onprem-tshoot.md)  
 [새로 고침 시나리오 문제 해결](refresh-troubleshooting-refresh-scenarios.md)  
 [Power BI 게이트웨이 - 개인](service-gateway-personal-mode.md)  
-[온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
+[On-premises data gateway (온-프레미스 데이터 게이트웨이)](service-gateway-onprem.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cff8e70e43496b264fd0dd549759f939bf90e33f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271525"
+---
 이 항목에서는 먼저 로컬 드라이브에서 간단한 **표**가 포함된 Excel 통합 문서 파일을 Power BI로 가져올 수 있는 방법을 알아봅니다. 그런 다음 보고서를 만들어 Power BI에서 해당 표의 데이터를 탐색하는 방법을 알아봅니다.
 
 ## <a name="make-sure-your-data-is-formatted-as-a-table"></a>데이터 형식이 표로 지정되었는지 확인하세요.

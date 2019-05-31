@@ -11,11 +11,11 @@ ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892416"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61326241"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비롯한 보고서 페이지의 현재 구성된 보기를 캡처하고 저장된 해당 책갈피를 선택하여 나중에 해당 상태로 돌아갈 수 있습니다. 
@@ -64,7 +64,7 @@ Power BI Desktop 2018년 3월 버전부터 책갈피가 일반 공급됩니다.
 
 책갈피를 만들면 **책갈피** 창에서 책갈피를 클릭하여 표시할 수 있습니다. 
 
-각 책갈피가 ‘데이터’ 속성(예: 필터 및 슬라이서), ‘표시’ 속성(예: 추천 및 표시 유형) 및 책갈피를 추가할 때 표시된 페이지를 나타내는 페이지 변경 내용을 적용할지 여부도 선택할 수 있습니다. 이러한 기능은 책갈피를 사용하여 보고서 보기 또는 시각적 개체 간에 전환할 때 유용합니다. 이 경우 데이터 속성을 끄려고 하므로 사용자가 책갈피를 선택하여 보기를 전환할 때 필터가 다시 설정되지 않습니다. 
+각 책갈피가 ‘데이터’ 속성(예: 필터 및 슬라이서), ‘표시’ 속성(예: 추천 및 표시 유형) 및 책갈피를 추가할 때 표시된 페이지를 나타내는 페이지 변경 내용을 적용할지 여부도 선택할 수 있습니다.   이러한 기능은 책갈피를 사용하여 보고서 보기 또는 시각적 개체 간에 전환할 때 경우 유용합니다. 이 경우 데이터 속성을 끄려고 하므로 사용자가 책갈피를 선택하여 보기를 전환할 때 필터가 다시 설정되지 않습니다. 
 
 이렇게 변경하려면 이전 이미지에 표시된 대로 책갈피 이름 옆에 있는 줄임표를 선택하거나, *데이터*, *표시* 및 기타 컨트롤 옆에 있는 확인 표시를 선택 취소합니다. 
 

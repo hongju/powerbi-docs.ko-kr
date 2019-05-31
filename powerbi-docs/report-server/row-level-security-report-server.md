@@ -1,20 +1,20 @@
 ---
 title: Power BI Report Server의 RLS(행 수준 보안)
 description: Power BI Report Server의 RLS(행 수준 보안) 사용에 대해 알아봅니다.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.openlocfilehash: b4a5d11697cff2cae8d137916636907967a7c276
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489571"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769812"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Report Server의 RLS(행 수준 보안)
 
@@ -46,7 +46,7 @@ Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성�
  보고서에 필요한 역할이 없으면 Power BI Desktop에서 보고서를 열고 역할을 추가 또는 수정한 다음, Power BI Report Server에 다시 저장해야 합니다. 
 
 1. Power BI Desktop에서 보고서를 Power BI Report Server에 저장합니다. Power BI Report Server에 최적화된 Power BI Desktop 버전을 사용해야 합니다.
-2. Power BI 보고서 서비스에서 보고서 옆에 있는 줄임표(**...**)를 선택합니다. 
+2. Power BI 보고서 서비스에서 보고서 옆에 있는 줄임표( **...** )를 선택합니다. 
 
 3. **관리** > **행 수준 보안**을 선택합니다. 
 

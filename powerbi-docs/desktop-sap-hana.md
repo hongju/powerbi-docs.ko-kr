@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 7b3a59ae8926ce5e302cfcdecec617d1f3fd107b
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513856"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Power BI Desktop에서 SAP HANA 사용
@@ -25,7 +25,7 @@ Power BI Desktop을 통해 이제 **SAP HANA** 데이터베이스에 액세스�
 
 ![](media/desktop-sap-hana/sap-hana-1.png)
 
-SAP HANA 데이터베이스에 연결할 때 *서버: 포트* 형식으로 서버 이름 및 포트를 지정합니다. - 다음 이미지는 *ServerXYZ* 및 포트 30015 라는 서버를 사용한 예를 보여 줍니다.
+SAP HANA 데이터베이스에 연결할 때 *서버: 포트* 형식으로 서버 이름 및 포트를 지정합니다. - 다음 이미지는 *ServerXYZ* 및 포트 30015 라는 서버를 사용한 예를 보여 줍니다. 
 
 ![](media/desktop-sap-hana/sap-hana-2.png)
 

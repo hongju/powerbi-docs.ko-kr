@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d44e24e1f81ab03e85438ef8e5505c308b01e1d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263790"
+---
 서비스에서 Power BI 대시보드 또는 보고서를 확인할 때 개별 차트 또는 시각화에 포커스를 두는 것이 유용할 때가 있습니다. 두 가지 방법으로 이를 수행할 수 있습니다.
 
 대시보드에서 타일을 가리키면 오른쪽 위에 몇 가지 아이콘 옵션이 표시됩니다. 줄임표(...)를 선택하면 타일에서 수행할 수 있는 작업을 나타내는 아이콘 컬렉션이 표시됩니다.

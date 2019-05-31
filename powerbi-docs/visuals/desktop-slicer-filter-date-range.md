@@ -7,33 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 05/28/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: c29145e4a51821bab284693bc13a508cb9c046c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 3d8057c4d35294dd5e83638b721169e4d54d2adf
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279162"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66374449"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Power BI Desktop에서 상대 날짜 슬라이서 및 필터 사용
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI에서 상대 날짜 슬라이서 및 필터 사용
 **상대 날짜 슬라이서** 또는 **상대 날짜 필터**를 사용하면 데이터 모델의 모든 날짜 열에 시간 기반 필터를 적용할 수 있습니다. 예를 들어 **상대 날짜 슬라이서**를 사용하여 지난 30일(또는 월, 달력 월 등) 이내에 발생한 판매 데이터만 표시할 수 있습니다. 그리고 데이터를 새로 고치면 상대 기간에 적절한 상대 날짜 제약 조건이 자동으로 적용됩니다.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_01.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
 ## <a name="using-the-relative-date-range-slicer"></a>상대 날짜 범위 슬라이서 사용
 다른 슬라이서와 마찬가지로 상대 날짜 슬라이서를 사용할 수 있습니다. 간단히 보고서에 대한 **슬라이서** 시각적 개체를 만든 다음, **필드** 값에 대해 날짜 값을 선택하면 됩니다. 다음 이미지에서는 *OrderDate* 필드가 선택되어 있습니다.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_02.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
 
-**상대 날짜 슬라이서**의 오른쪽 위 모서리에서 캐럿을 선택하면 메뉴가 나타납니다.
+Visual 슬라이서의 오른쪽 위 모서리에서 캔버스 차례로 캐럿에서 슬라이서를 선택 합니다. 시각적 개체에 날짜 데이터가 포함 된 경우 메뉴에 대 한 옵션에 표시 됩니다 **상대**합니다. 
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_03.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
 
 상대 날짜 슬라이서의 경우 *상대*를 선택합니다.
 
-그런 다음, 설정을 선택할 수 있습니다. ‘상대 날짜 슬라이서’의 첫 번째 드롭다운에 대해 다음 선택 항목이 제공됩니다.
+그런 다음, 설정을 선택할 수 있습니다. ‘상대 날짜 슬라이서’의 첫 번째 드롭다운에 대해 다음 선택 항목이 제공됩니다. 
 
 * 마지막
 * 다음
@@ -41,9 +41,9 @@ ms.locfileid: "54279162"
 
 이러한 선택 항목은 다음 이미지에서 보여 줍니다.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_04.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-‘상대 날짜 슬라이서’의 다음(가운데) 설정을 사용하면 숫자를 입력하여 상대 날짜 범위를 정의할 수 있습니다.
+‘상대 날짜 슬라이서’의 다음(가운데) 설정을 사용하면 숫자를 입력하여 상대 날짜 범위를 정의할 수 있습니다. 
 
 세 번째 설정을 사용하여 날짜 측정을 선택할 수 있습니다. 다음 선택 항목이 제공됩니다.
 
@@ -57,24 +57,24 @@ ms.locfileid: "54279162"
 
 이러한 선택 항목은 다음 이미지에서 보여 줍니다.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_05.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
-목록에서 ‘월’을 선택하고 가운데 설정에서 입력 2를 선택하면 다음과 같은 상황이 발생합니다. 오늘이 7월 20일이면 슬라이서로 제한된 시각적 개체에 포함된 데이터는 5월 20일부터 7월 20일(오늘 날짜)까지 지난 2개월 동안의 데이터를 보여줍니다.
+목록에서 ‘월’을 선택하고 가운데 설정에서 입력 2를 선택하면 다음과 같은 상황이 발생합니다. 오늘이 7월 20일이면 슬라이서로 제한된 시각적 개체에 포함된 데이터는 5월 20일부터 7월 20일(오늘 날짜)까지 지난 2개월 동안의 데이터를 보여줍니다. 
 
 이에 비해 *개월(달력)* 을 선택한 경우, 제한된 시각적 개체에서 5월 1일부터 6월 30일(달력상의 최근 두 달)까지의 데이터를 보여 줍니다.
 
 ## <a name="using-the-relative-date-range-filter"></a>상대 날짜 범위 필터 사용
 보고서 페이지 또는 전체 보고서에 대한 상대 날짜 범위 필터를 만들 수도 있습니다. 이렇게 하려면 다음 이미지와 같이 간단히 날짜 필드를 **필드** 창의 **페이지 수준 필터** 또는 **보고서 수준 필터** 영역으로 끌기만 하면 됩니다.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_06.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-06.png)
 
 일단 여기서는 **상대 날짜 슬라이서**를 사용자 지정하는 것과 비슷한 방식으로 상대 날짜 범위를 수정할 수 있습니다. **필터 형식** 드롭다운에서 **상대 날짜 필터링**을 선택합니다.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_07.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-07.png)
 
 **상대 날짜 필터링**이 선택되면 슬라이서와 마찬가지로 가운데에 있는 숫자 상자를 포함하여 수정할 세 개 섹션이 표시됩니다.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_08.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-08.png)
 
 이것이 보고서에서 이러한 상대 날짜 제약 조건을 사용하는 전부입니다.
 

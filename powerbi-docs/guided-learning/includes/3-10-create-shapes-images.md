@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 7415008e3e1faf3aa2665c643523db2e861bfe85
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397596"
+---
 데이터 바인딩된 시각적 개체와 함께 텍스트 상자, 이미지, 도형 등의 정적 요소를 추가하여 보고서의 시각적 디자인을 개선할 수도 있습니다. 시각적 요소를 추가하려면 **홈** 탭에서 **텍스트 상자**, **이미지** 또는 **도형**을 선택합니다.
 
 ![](media/3-10-create-shapes-images/3-10_1.png)

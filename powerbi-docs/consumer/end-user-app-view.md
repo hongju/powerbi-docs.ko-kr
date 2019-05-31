@@ -11,11 +11,11 @@ ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: a0cf919d184946b23cb9ebc4ddfc24e0652c64d7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661849"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61064120"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 이제 [앱에 대한 기본 이해](end-user-apps.md)을 했으므로, 앱을 열고 상호 작용하는 방법에 대해 알아보겠습니다. 
@@ -25,7 +25,7 @@ ms.locfileid: "56661849"
 
 모바일 디바이스의 Power BI에서는 AppSource가 아닌 직접 링크를 통해서만 설치할 수 있습니다. 앱 작성자가 앱을 자동 설치할 경우 앱 목록이 표시됩니다.
 
-## <a name="install-an-app-from-a-direct-link"></a>직접 링크에서 앱 설치 
+## <a name="install-an-app-from-a-direct-link"></a>직접 링크에서 앱 설치
 새 앱을 설치하는 가장 쉬운 방법은 앱 작성자가 이메일로 직접 링크를 받는 것입니다.  
 
 **컴퓨터에서** 

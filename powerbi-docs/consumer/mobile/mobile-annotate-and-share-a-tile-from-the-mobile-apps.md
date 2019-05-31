@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: b3f0232fdf377ba75a31f5057f1e094bf9fac39d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54273596"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61342994"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일, 보고서 또는 시각적 개체에 주석 달기 및 공유
 적용 대상:
@@ -29,7 +29,7 @@ iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 �
 
 *주석이 달린 보고서*
 
-타일, 보고서 또는 시각적 개체의 스냅숏을 사용한 메일에는 Power BI 서비스에 있는 실제 개체에 대한 링크가 포함되어 있습니다([https://powerbi.com](https://powerbi.com)). 사용자에게 Power BI Pro 라이선스가 있거나 콘텐츠가 [프리미엄 용량](../../service-premium.md)에 있고 이미 해당 항목을 공유한 경우 수신자가 링크를 클릭하여 해당 타일, 보고서 또는 시각적 개체로 바로 이동할 수 있습니다. 
+타일, 보고서 또는 시각적 개체의 스냅숏을 사용한 메일에는 Power BI 서비스에 있는 실제 개체에 대한 링크가 포함되어 있습니다([https://powerbi.com](https://powerbi.com)). 사용자에게 Power BI Pro 라이선스가 있거나 콘텐츠가 [프리미엄 용량](../../service-premium-what-is.md)에 있고 이미 해당 항목을 공유한 경우 수신자가 링크를 클릭하여 해당 타일, 보고서 또는 시각적 개체로 바로 이동할 수 있습니다. 
 
 [Windows 10 디바이스용 Power BI 모바일 앱에서 타일을 공유](mobile-windows-10-phone-app-get-started.md)할 수는 있으나 주석을 추가할 수는 없습니다.
 

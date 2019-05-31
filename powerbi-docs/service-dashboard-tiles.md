@@ -12,11 +12,11 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215990"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61139936"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 타일 소개
 
@@ -43,7 +43,7 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
 * [다른 대시보드](service-pin-tile-to-another-dashboard.md)
 * [비즈니스용 OneDrive의 Excel 통합 문서](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher for Excel](publisher-for-excel.md)
-* [신속한 정보 활용](service-insights.md)
+* [Quick Insights (신속한 정보 활용)](service-insights.md)
 * [보고 서비스](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 [타일 추가](service-dashboard-add-widget.md)를 사용하여 대시보드에서 이미지, 텍스트 상자, 동영상, 스트리밍 데이터 및 웹 콘텐츠에 대한 독립 실행형 타일을 직접 만들 수 있습니다.

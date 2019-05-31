@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 0e29076a33a17b6097fd3fbf1db411f97ff45818
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271522"
+---
 Power BI에 대한 **단계별 학습** 과정의 **Power BI 및 Excel** 단원을 시작하겠습니다.
 
 이전에 **Excel**을 사용해 본 적이 있을 것입니다. Excel을 사용하여 보고서를 만들거나 본 적이 있든지 아니면 원형 차트나 다른 시각적 개체를 작성해 보았을 것입니다. 또는 **파워 피벗** 또는 **파워 쿼리**를 사용하여 좀 더 기술적인 솔루션을 작성했을 수도 있을 것입니다. 그렇다면 Power BI에서 자유롭게 통합 문서로 작업할 수 있습니다.

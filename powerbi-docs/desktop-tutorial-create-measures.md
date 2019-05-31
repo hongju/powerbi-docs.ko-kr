@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513870"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>자습서: Power BI Desktop에서 고유한 측정값 만들기
@@ -43,7 +43,7 @@ ms.locfileid: "65513870"
 
 ![국가별 판매액](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
 
-보고서 조작으로 인해 측정값의 결과가 변경되면 측정값의 ‘컨텍스트’에 영향을 준 것입니다. 실제로 보고서 시각화를 조작할 때마다 측정값이 결과를 계산하여 표시하는 컨텍스트가 변경됩니다.
+보고서 조작으로 인해 측정값의 결과가 변경되면 측정값의 ‘컨텍스트’에 영향을 준 것입니다.  실제로 보고서 시각화를 조작할 때마다 측정값이 결과를 계산하여 표시하는 컨텍스트가 변경됩니다.
 
 ## <a name="create-and-use-your-own-measures"></a>고유한 측정값 만들기 및 사용
 
@@ -51,7 +51,7 @@ ms.locfileid: "65513870"
 
 DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 많이 사용합니다. 그러나 DAX의 함수는 관계형 데이터에서 작동하고 보고서를 조작할 때 보다 동적인 계산을 수행하도록 설계되었습니다. 합계 및 평균과 같은 간단한 집계에서 보다 복잡한 통계 및 필터링 함수까지 모든 작업을 수행하는 DAX 함수는 200가지가 넘습니다. DAX에 대해 자세히 알아보는 데 도움이 되는 많은 리소스가 있습니다. 이 자습서를 완료한 후에는 [Power BI Desktop의 DAX 기본 사항](desktop-quickstart-learn-dax-basics.md)을 참조해야 합니다.
 
-고유한 측정값을 만들면 해당 측정값이 선택한 테이블의 필드 목록에 추가되고 이를 ‘모델’ 측정값이라고 합니다. 모델 측정값의 몇 가지 장점은 원하는 대로 이름을 지정하여 쉽게 식별하도록 만들 수 있고, 다른 DAX 식의 인수로 사용할 수 있고, 복잡한 계산을 매우 빠르게 수행하도록 지정할 수 있다는 것입니다.
+고유한 측정값을 만들면 해당 측정값이 선택한 테이블의 필드 목록에 추가되고 이를 ‘모델’ 측정값이라고 합니다.  모델 측정값의 몇 가지 장점은 원하는 대로 이름을 지정하여 쉽게 식별하도록 만들 수 있고, 다른 DAX 식의 인수로 사용할 수 있고, 복잡한 계산을 매우 빠르게 수행하도록 지정할 수 있다는 것입니다.
 
 >[!TIP]
 >Power BI Desktop의 2018년 2월 릴리스부터, 대화 상자에 입력한 내용에 따라 DAX 수식을 자동으로 작성하는 **빠른 측정**으로 많은 일반적인 계산을 사용할 수 있습니다. 이러한 빠르고 강력한 계산은 DAX를 학습하거나 고유한 사용자 지정 측정값을 시드하는 데도 적합합니다. 빠른 측정을 만들거나 탐색하려면 테이블의 **추가 옵션** 목록에서 또는 리본에 있는 [홈] 탭의 **계산**에서 **새 빠른 측정**을 선택합니다. 빠른 측정을 만들고 사용하는 방법에 대한 자세한 내용은 [빠른 측정 사용](desktop-quick-measures.md)을 참조하세요.
@@ -85,7 +85,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
     
     ![열 선택](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    식은 항상 여는 괄호와 닫는 괄호 사이에 나타납니다. 식에는 SUM 함수에 전달할 단일 인수인 SalesAmount 열이 포함됩니다. 목록에 Sales(SalesAmount) 값 하나만 남을 때까지 “SalesAmount”를 입력합니다. 열 이름 앞에 테이블 이름이 오는 경우 열의 ‘정규화된 이름’이라고 합니다. 정규화된 열 이름을 사용하면 수식을 읽기가 더 쉽습니다. 
+    식은 항상 여는 괄호와 닫는 괄호 사이에 나타납니다. 식에는 SUM 함수에 전달할 단일 인수인 SalesAmount 열이 포함됩니다. 목록에 Sales(SalesAmount) 값 하나만 남을 때까지 “SalesAmount”를 입력합니다. 열 이름 앞에 테이블 이름이 오는 경우 열의 ‘정규화된 이름’이라고 합니다.  정규화된 열 이름을 사용하면 수식을 읽기가 더 쉽습니다. 
     
     ![SalesAmount 선택](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
@@ -97,7 +97,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
     
     
 5.  다른 두 열을 빼려면:
-    1. 첫 번째 식의 닫는 괄호 뒤에 공백, 빼기 연산자(**-**) 및 공백을 차례로 입력합니다. 
+    1. 첫 번째 식의 닫는 괄호 뒤에 공백, 빼기 연산자( **-** ) 및 공백을 차례로 입력합니다. 
     2. 다른 SUM 함수를 입력하고 **Sales[DiscountAmount]** 열을 인수로 선택할 수 있을 때까지 “DiscountAmount” 입력을 시작합니다. 닫는 괄호를 추가합니다. 
     3. 공백, 또 다른 빼기 연산자, 공백, 인수로 **Sales[ReturnAmount]** 를 사용하는 또 다른 SUM 함수 및 닫는 괄호를 차례로 입력합니다.
     
@@ -164,11 +164,11 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
     
     ![Net Sales를 사용하는 수식](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     
-    여는 대괄호(**[**)만 입력하여 다른 측정값을 참조할 수도 있습니다. 제안 목록에는 수식에 추가할 측정값만 표시됩니다.
+    여는 대괄호( **[** )만 입력하여 다른 측정값을 참조할 수도 있습니다. 제안 목록에는 수식에 추가할 측정값만 표시됩니다.
     
     ![대괄호는 측정값만 표시함](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
     
-3.  공백, 나누기 연산자(**/**), 다른 공백, SUM 함수를 차례로 입력한 다음, **Quantity**를 입력합니다. 이름에 Quantity가 포함된 모든 열이 제안 목록에 표시됩니다. **Sales[SalesQuantity]** 를 선택하고, 닫는 괄호를 입력하고, Enter 키를 누르거나 확인 표시를 선택하여 수식의 유효성을 검사합니다. 수식이 다음과 같이 표시됩니다.
+3.  공백, 나누기 연산자( **/** ), 다른 공백, SUM 함수를 차례로 입력한 다음, **Quantity**를 입력합니다. 이름에 Quantity가 포함된 모든 열이 제안 목록에 표시됩니다. **Sales[SalesQuantity]** 를 선택하고, 닫는 괄호를 입력하고, Enter 키를 누르거나 확인 표시를 선택하여 수식의 유효성을 검사합니다. 수식이 다음과 같이 표시됩니다.
     
     `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
     

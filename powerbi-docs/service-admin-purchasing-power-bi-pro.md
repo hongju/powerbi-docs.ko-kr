@@ -11,11 +11,11 @@ ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383089"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61188559"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Power BI Pro 라이선스 구매 및 할당
 
@@ -53,7 +53,7 @@ Power BI Pro 라이선스를 구매하려면 다음 단계를 수행합니다.
 
     ![Power BI 구독](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
 
-5. 원하는 구독에서 줄임표(**. . .**)를 마우스로 가리키고 **지금 구매**를 선택합니다.
+5. 원하는 구독에서 줄임표( **. . .** )를 마우스로 가리키고 **지금 구매**를 선택합니다.
 
     ![지금 구입](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 

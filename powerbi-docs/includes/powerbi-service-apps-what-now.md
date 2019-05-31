@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e8bf32c7fe3e180757ab6b03cfa40fe23c3afea9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61164614"
+---
 ### <a name="what-now"></a>다음 단계
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](../consumer/end-user-q-and-a.md)합니다.
 * [타일을 선택](../consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.

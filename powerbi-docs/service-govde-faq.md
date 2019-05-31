@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5c4bf7c1e1abb8fd87b97c48bfa94b57d5481b00
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 16114793b190996b3ef9e800e562dd0caf62089c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295860"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514819"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>독일 클라우드 고객을 위한 Power BI 관련 질문과 대답
 **Power BI 서비스**에는 EU/EFTA(유럽 연합/유럽 자유 무역 계약) 고객을 위해 제공되는 버전이 있는데, 주로 MCD(Microsoft Cloud Deutschland)라고 부릅니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 EU/EFTA 고객과 관련된 것이며 **Power BI 서비스** 상용 버전 또는 정부 고객에게 제공되는 Power BI 서비스와는 별개입니다.
@@ -32,10 +32,10 @@ ms.locfileid: "54295860"
    MCD(Microsoft Cloud Deutschland)라고도 하는 EU/EFTA 고객용 Power BI 서비스는 독일 데이터 센터에서 제공되는 Power BI 서비스가 포함된 EU/EFTA 규격 클라우드입니다. EU/EFTA 클라우드용 Power BI 서비스의 모든 고객 데이터는 독립적인 독일 데이터 트러스티 역할을 하는 T-Systems와 독일 법의 규제를 받는 데이터에 대한 물리적 액세스 권한 및 논리적 액세스 권한을 사용하여 독일에 저장됩니다. EU/EFTA 클라우드용 Power BI 서비스에는 Power BI 서비스 상용 버전의 별도 계정이 필요합니다. [여기](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud)에서 Microsoft Cloud Deutschland에 대해 자세히 알아보세요.
 2. **Power BI 독일 클라우드에 대한 가격 책정 및 등록 정보는 어디에서 확인할 수 있습니까?**
    
-   [Power BI 독일 클라우드 홈 페이지](https://powerbi.microsoft.com/power-bi-germany/)에서 가격 책정 정보를 포함한 많은 정보를 찾을 수 있습니다. 이 페이지에서는 또한 25개의 사용자 라이선스가 포함된 **Power BI Pro 서비스** 30일 평가판 등록 링크도 찾을 수 있습니다. 평가판을 등록할 때 필요에 따라 추가 라이선스를 구매하거나 추가할 수 있습니다. 또한 EA(엔터프라이즈 계약), 정부 및 비영리 기관용 가격도 제공합니다. 자세한 내용은 Microsoft 고객 담당자에게 문의하세요.
+   [Power BI 독일 클라우드 홈 페이지](https://powerbi.microsoft.com/power-bi-germany/)에서 가격 책정 정보를 포함한 많은 정보를 찾을 수 있습니다. 이 페이지에서 찾을 수도 있습니다 신청에 대 한 링크가 **Power BI Pro 서비스** 25 개의 사용자 라이선스를 사용 하 여 30 일 평가판입니다. 평가판을 등록의 일환으로, 옵션을 구입 하거나 필요에 따라 추가 라이선스를 추가 해야 합니다. 또한 EA(엔터프라이즈 계약), 정부 및 비영리 기관용 가격도 제공합니다. 자세한 내용은 Microsoft 고객 담당자에 게 문의 합니다.
 3. **현재 Azure Germany 및/또는 Office 365 Germany 구독에 독일 클라우드 테넌트가 포함되어 있습니다. 기존 테넌트를 사용하여 Power BI Germany에 등록할 수 있습니까?**
    
-   예. 등록 프로세스의 일환으로, 기존 독일 클라우드 테넌트 관리자 계정으로 로그인하고 독일 클라우드에서 기존 테넌트에 Power BI Pro 서비스 라이선스를 추가하는 옵션이 있습니다. 독일 클라우드 테넌트와 사용자 계정은 독일 클라우드용 Power BI 서비스와 다르다는 점을 참고하세요.
+   예. 등록 프로세스의 일환으로, 기존 독일 클라우드 테넌트 관리자 계정으로 로그인하고 독일 클라우드에서 기존 테넌트에 Power BI Pro 서비스 라이선스를 추가하는 옵션이 있습니다. 독일 클라우드 테 넌 트 및 사용자 계정에는 독일 클라우드 용 Power BI 서비스와에서 다릅니다.
 4. **독일 클라우드용 Power BI 서비스에 무료 서비스가 있습니까?**
    
    아니요. 독일 클라우드용 Power BI 서비스에는 무료 라이선스 버전이 제공되지 않습니다. 그러나 Power BI 무료 솔루션으로 비즈니스 요구 사항이 충족된다면 [공용 클라우드의 무료 Power BI 솔루션](https://powerbi.microsoft.com/get-started/)에 등록하는 것이 좋습니다.
@@ -45,7 +45,7 @@ ms.locfileid: "54295860"
    
    * [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
    * [Power BI 모바일](https://powerbi.microsoft.com/mobile/)
-   * [온-프레미스 데이터 게이트웨이](https://powerbi.microsoft.com/gateway/)
+   * [On-premises data gateway (온-프레미스 데이터 게이트웨이)](https://powerbi.microsoft.com/gateway/)
    * [Power BI Publisher for Excel](https://powerbi.microsoft.com/excel-dashboard-publisher/)
 6. **독일 클라우드용 Power BI 서비스의 기능 제한 사항이 있습니까?**
    
@@ -56,7 +56,7 @@ ms.locfileid: "54295860"
    * Power BI Embedded(별도의 ISV 라이선스 요금, 향후 [Microsoft Azure Germany](https://azure.microsoft.com/overview/clouds/germany/)를 통해 제공 예정)
 7. **독일 클라우드용 Power BI 서비스를 내 애플리케이션에서 사용하고 통합하는 방법에 대한 관련 구성 정보를 어디에서 찾을 수 있습니까?**
    
-   [SaaS Embedding 개발자 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)에 독일 및 기타 Power BI 클라우드 관련 구성 정보가 업데이트되었습니다. **Cloud Configs** 폴더에서 클라우드 관련 구성 끝점에 대한 샘플을 확인하세요. 다음 표에는 독일 클라우드 및 상호 참조를 위한 공용 클라우드용 Power BI 서비스의 다양한 구성 끝점이 나와 있습니다.
+   [SaaS Embedding 개발자 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)에 독일 및 기타 Power BI 클라우드 관련 구성 정보가 업데이트되었습니다. 확인 합니다 **Cloud Configs** 클라우드 관련 구성 끝점에 대 한 샘플에는 폴더입니다. 다음 표에는 독일 클라우드 및 상호 참조를 위한 공용 클라우드용 Power BI 서비스의 다양한 구성 끝점이 나와 있습니다.
 
 | **엔드포인트 이름 및/또는 사용법** | **독일 클라우드용 Power BI 서비스 URL** | **공용 클라우드의 해당 URL(상호 참조용)** |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ ms.locfileid: "54295860"
 | Power BI 서비스 리소스 URI |[https://analysis.cloudapi.de/powerbi/api](https://analysis.cloudapi.de/powerbi/api) |[https://analysis.windows.net/powerbi/api](https://analysis.windows.net/powerbi/api) |
 | 사용자 지정 시각적 개체 라이브러리 |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | Power BI용 애플리케이션 등록(Embedded용) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
-| Azure Portal(Embedded용) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
+| Azure portal (Embedded 용) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
 | 커뮤니티 |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |
 
 ## <a name="next-steps"></a>다음 단계
