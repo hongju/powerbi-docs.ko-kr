@@ -7,26 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/07/2019
+ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: cd3a1f94aa4c965327ea3e5bcb7271326aa3514d
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249842"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578557"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>조직에 템플릿 앱 설치 및 배포 - Power BI(미리 보기)
 
-새 Power BI *템플릿 앱*을 사용하면 Power BI 파트너는 코딩이 거의 없거나 전혀 없는 Power BI 앱을 만들고 모든 Power BI 고객에게 배포할 수 있습니다. 이 문서는 Power BI 분석가를 위한 것입니다. Power BI 파트너가 만든 템플릿 앱을 설치, 사용자 지정 및 배포하는 방법을 설명합니다. 직접 배포할 템플릿 앱을 만드는 데 관심이 있는 [Power BI에서 템플릿 앱 만들기](service-template-apps-create.md)를 참조하세요.
+Power BI 분석가 입니까? 따라서이 문서에서는 설치 하는 방법을 설명 하는 경우 *템플릿 앱* Salesforce, Microsoft Dynamics, Google 분석과 같은 비즈니스를 실행 하는 데 서비스 중 많은 부분에 연결 합니다. 대시보드 및 보고서, 조직의 요구에 맞게 수정 하 고으로 동료에 게 배포할 수는 *앱*합니다. 
 
 ![Power BI 앱 설치됨](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-Power BI 파트너가 만든 템플릿 앱을 설치할 때 조직의 요구 사항에 맞게 수정한 다음, 앱으로 동료에게 배포할 수 있습니다.  
+직접 배포할 템플릿 앱을 만드는 데 관심이 있는 [Power BI에서 템플릿 앱 만들기](service-template-apps-create.md)를 참조하세요. Power BI 파트너는 거의 또는 전혀 코딩을 사용 하 여 Power BI 앱을 작성 하 고 Power BI 고객에 게 배포할 수 있습니다. 
 
 ## <a name="prerequisites"></a>필수 조건  
 
-템플릿 앱의 설치, 사용자 지정 및 배포에 대한 요구 사항은 다음과 같습니다.  
+템플릿 앱의 설치, 사용자 지정 및 배포에 대한 요구 사항은 다음과 같습니다. 
 
 - [Power BI pro 라이선스](service-self-service-signup-for-power-bi.md)
 - [Power BI의 기본 개념](service-basic-concepts.md) 숙지
@@ -106,6 +106,6 @@ Power BI 파트너가 만든 템플릿 앱을 설치할 때 조직의 요구 사
 
 
 
-  
+￼ 
 
  
