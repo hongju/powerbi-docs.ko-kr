@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: d5259ba22287a8a2ade3107e4320c39713dcb45e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239756"
@@ -22,10 +22,10 @@ ms.locfileid: "65239756"
 
 ![기본 도구 설명](media/desktop-custom-tooltips/custom-tooltips-1.png)
 
-시각화가 만들어질 때 기본 도구 설명은 데이터 요소 값 및 범주를 표시합니다. 하는 경우가 많은 사용자 지정 도구 설명 정보를 유용 하 고 추가 컨텍스트 및 시각적 개체를 보는 사용자에 대 한 정보를 제공할 수 있습니다. 도구 설명 사용자 지정을 통해 도구 설명의 일부로 표시하는 추가 데이터 요소를 지정할 수 있습니다.
+시각화가 만들어질 때 기본 도구 설명은 데이터 요소 값 및 범주를 표시합니다. 사용자 지정 도구 설명은 시각적 개체를 보는 사용자에게 추가 컨텍스트 및 정보를 제공하여 유용할 수 있습니다. 도구 설명 사용자 지정을 통해 도구 설명의 일부로 표시하는 추가 데이터 요소를 지정할 수 있습니다.
 
 ## <a name="how-to-customize-tooltips"></a>도구 설명을 사용자 지정하는 방법
-사용자 지정된 도구 설명을 만드는 **필드** 웰의 **시각화** 창에 필드를 끌어를 **도구 설명** 버킷, 다음 그림과에서 같이 합니다. 다음 이미지에서 두 개의 필드가 **도구 설명** 버킷에 배치되었습니다.
+사용자 지정 도구 설명을 만드려면, **시각화** 창의 **필드** 웰에서 **도구 설명** 버킷에 필드를 드래그하여 다음 그림과 같이 배치합니다. 다음 이미지에서 두 개의 필드가 **도구 설명** 버킷에 배치되었습니다.
 
 ![도구 설명 필드 추가](media/desktop-custom-tooltips/custom-tooltips-2.png)
 
