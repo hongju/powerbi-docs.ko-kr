@@ -85,7 +85,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 * [도형 맵 데모 .PBIX 파일 사용자 지정](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>맵 데이터 가져오기
-데이터를 모델로 신속하게 가져와 **도형 맵**을 테스트하기 위해서는 이 문서의 끝에 있는 테이블 중 하나를 복사한 후 리본 메뉴 **홈** 탭에서 **데이터 입력**을 선택하면 됩니다.
+데이터를 모델로 신속하게 가져와 **도형 맵** 을 테스트하기 위해서는 이 문서의 끝에 있는 테이블 중 하나를 복사한 후 **홈** 리본에서 **데이터 입력** 을 선택하면 됩니다.
 
 ![](media/desktop-shape-map/shape-map_4.png)
 

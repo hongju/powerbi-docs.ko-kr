@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
+ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324866"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66469780"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Power BI 온-프레미스 게이트웨이 관리
 
@@ -38,26 +38,26 @@ Power BI는 다양한 온-프레미스 데이터 원본을 지원하고 각 데�
 
     ![게이트웨이 관리](media/service-gateway-manage/manage-gateways.png)
 
-2. 게이트웨이 > **데이터 원본 추가**를 선택하거나 게이트웨이 > **데이터 원본 추가**로 이동합니다.
+1. 게이트웨이 > **데이터 원본 추가**를 선택하거나 게이트웨이 > **데이터 원본 추가**로 이동합니다.
 
     ![데이터 원본 추가](media/service-gateway-manage/add-data-source.png)
 
-3. **데이터 원본 유형**을 선택합니다.
+1. **데이터 원본 유형**을 선택합니다.
 
     ![SQL Server 선택](media/service-gateway-manage/select-sql-server.png)
 
 
-4. 데이터 원본에 대한 정보를 입력합니다. 이 예제에서는 **서버**, **데이터베이스** 및 기타 정보입니다.  
+1. 데이터 원본에 대한 정보를 입력합니다. 이 예제에서는 **서버**, **데이터베이스** 및 기타 정보입니다.  
 
     ![데이터 원본 설정](media/service-gateway-manage/data-source-settings.png)
 
-5. SQL Server의 경우 **Windows** 또는 **기본**(SQL 인증)의 **인증 방법**을 선택합니다.  **기본**을 선택하는 경우 데이터 원본에 대한 자격 증명을 입력합니다.
+1. SQL Server의 경우 **Windows** 또는 **기본**(SQL 인증)의 **인증 방법**을 선택합니다.  **기본**을 선택하는 경우 데이터 원본에 대한 자격 증명을 입력합니다.
 
-6. **고급 설정**에서 선택적으로 데이터 원본에 대한 [개인 정보 수준](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 구성합니다([DirectQuery](desktop-directquery-about.md)에 적용되지 않음).
+1. **고급 설정**에서 선택적으로 데이터 원본에 대한 [개인 정보 수준](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 구성합니다([DirectQuery](desktop-directquery-about.md)에 적용되지 않음).
 
     ![고급 설정](media/service-gateway-manage/advanced-settings.png)
 
-7. **추가**를 선택합니다. 프로세스가 성공하면 ‘연결 성공’이 표시됩니다.
+1. **추가**를 선택합니다. 프로세스가 성공하면 ‘연결 성공’이 표시됩니다. 
 
     ![연결 성공](media/service-gateway-manage/connection-successful.png)
 
@@ -121,7 +121,7 @@ Power BI는 다양한 온-프레미스 데이터 원본을 지원하고 각 데�
 
 ## <a name="share-a-gateway"></a>게이트웨이 공유
 
-게이트웨이를 그 자체로는 ‘공유’할 수 없지만, 게이트웨이에 관리자를 추가할 수 있으며, 게이트웨이의 데이터 원본에 사용자를 추가할 수 있습니다. 
+게이트웨이를 그 자체로는 ‘공유’할 수 없지만, 게이트웨이에 관리자를 추가할 수 있으며, 게이트웨이의 데이터 원본에 사용자를 추가할 수 있습니다.  
 
 게이트웨이를 설치한 후에는 기본적으로 해당 게이트웨이의 관리자가 됩니다. 이전에 설명한 것처럼, 다른 사용자를 관리자로 추가할 수 있습니다. 이러한 관리자는 데이터 원본을 추가하고, 구성하고, 게이트웨이를 제거할 수 있습니다.
 
