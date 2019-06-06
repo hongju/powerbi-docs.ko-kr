@@ -83,13 +83,13 @@ Power BI Desktop에서 교차 보고서 드릴스루 기능으로 컨텍스트�
 
 다음 섹션에서는 사용자 관점에서 살펴보겠습니다.
 
-## <a name="cross-report-drillthrough-experience"></a>드릴스루 보고서 간 환경
+## <a name="cross-report-drillthrough-experience"></a>교차 보고서 드릴스루 환경
 
-보고서에 대 한 교차 보고서 드릴스루 경험을 구성할 때 사용 하는 기능을 넣을 수 있습니다.
+보고서에 대한 교차 보고서 드릴스루 경험을 구성할 때 사용할 기능을 넣을 수 있습니다.
 
-Power BI 서비스에서 원본 보고서를 선택 하 고 대상 페이지를 설정할 때 지정한 방식으로 필드를 사용 하는 시각적 개체를 선택 합니다. 다음으로, 선택한 시각적 컨텍스트 메뉴를 열고 데이터 요소를 마우스 오른쪽 단추로 클릭 **드릴스루**합니다.
+Power BI 서비스에서 원본 보고서를 선택한 다음 대상 페이지를 설정할 때 지정한 방법으로 필드를 사용하는 시각적 개체를 선택합니다. 그런 다음 데이터 요소를 마우스 오른쪽 버튼으로 클릭하여 시각적 컨텍스트 메뉴를 열고 **드릴스루**를 선택합니다.
 
-![강조 표시 하는 드릴스루를 사용 하 여 Power BI 서비스에서 원본 보고서의 스크린샷](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
+![강조 표시하는 드릴스루를 사용하여 Power BI 서비스에서 원본 보고서의 스크린샷](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
 
 그런 다음 설정한 해당 대상을 만들 때 처럼 대상 간 보고서 드릴스루 페이지에 결과 표시 됩니다. 결과 드릴스루 설정에 따라 필터링 됩니다.
 
