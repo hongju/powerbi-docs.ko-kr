@@ -12,7 +12,7 @@ ms.date: 05/08/2019
 ms.author: davidi
 ms.openlocfilehash: 41e5ff75e9b6fd48e3101d30999e8d570f34a270
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514057"
@@ -28,7 +28,7 @@ Power BI Desktop의 쿼리 편집기는 Excel 2013의 파워 쿼리 추가 기�
 또한 [수식 참조](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)를 볼 수 있습니다.
 
 ## <a name="data-types-in-query-editor"></a>쿼리 편집기의 데이터 형식
-Power BI Desktop의 쿼리 편집기를 사용하여 데이터를 로드하는 경우 최상의 추측 데이터 형식 검색을 수행합니다. 수식을 사용할 경우 열의 데이터 형식 설정이 유지되지 않는 경우도 있습니다. 다음 작업을 수행한 후 열의 데이터 형식이 올바른지 확인합니다. 쿼리 탭에 처음 데이터를 로드한 경우, 첫 행을 머리글로 사용, 열 추가, 그룹화 기준, 병합, 추가 작업을 수행한 이후 및 처음 데이터 로드를 누르기 이전 단계의 경우 확인이 필요합니다.
+Power BI Desktop의 쿼리 편집기를 사용하여 데이터를 로드하는 경우 최상의 추측 데이터 형식 검색을 수행합니다. 수식을 사용할 경우 열의 데이터 형식 설정이 유지되지 않는 경우도 있습니다. 다음 작업을 수행한 후 열의 데이터 형식이 올바른지 확인합니다.  쿼리 탭에 처음 데이터를 로드한 경우, 첫 행을 머리글로 사용, 열 추가, 그룹화 기준, 병합, 추가 작업을 수행한 이후 및 처음 데이터 로드를 누르기 이전 단계의 경우 확인이 필요합니다.
 
 기억해야 할 한 가지 중요한 사항: 데이터 표의 기울임꼴은 데이터 형식이 올바르게 설정되었음을 의미하지는 않습니다. 단지 데이터가 텍스트로 간주되지 않음을 의미할 뿐입니다.
 
@@ -50,7 +50,7 @@ Power BI Desktop에서 계산 열을 사용하여 참조선을 정의할 수 있
 이 계산 열은 사용된 위치와 관계없이 값 100을 반환합니다. 필드 목록에 새 열이 표시됩니다. 대상 값 계산 열을 꺾은선형 차트에 추가하여 해당 특정 참조선과 모든 계열이 어떻게 관련되는지를 표시합니다. 
 
 ## <a name="sort-by-another-column"></a>다른 열 기준 정렬
-Power BI에서 차트 축이나 슬라이서 또는 필터에 범주(문자열) 값을 사용하는 경우 기본 순서는 사전순입니다. 이 순서를 재정의해야 할 경우, 예를 들어 요일이나 날짜 등을 위해 Power BI Desktop에서 다른 열로 정렬할 수 있습니다. 자세한 내용은 [Power BI Desktop의 열 기준 정렬](desktop-sort-by-column.md)을 참조하세요. 
+Power BI에서 차트 축이나 슬라이서 또는 필터에 범주(문자열) 값을 사용하는 경우 기본 순서는 사전순입니다. 이 순서를 재정의해야 할 경우, 예를 들어 요일이나 날짜 등을 위해 Power BI Desktop에서 다른 열로 정렬할 수 있습니다. 자세한 내용은 [Power BI Desktop의 열 기준 정렬](desktop-sort-by-column.md)을 참조하세요.
 
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Bing에 대한 힌트로 보다 쉽게 지도 만들기
 Power BI는 Bing과 통합되어 기본 지도 좌표를 제공(지오코딩이라는 프로세스)하므로 지도를 쉽게 만들 수 있습니다. Bing에서는 몇 가지 알고리즘과 힌트를 사용하여 올바른 위치를 가져오려고 하지만 이는 최상의 추측일 뿐입니다. 올바른 지오코딩의 가능성을 높이기 위해 다음과 같은 팁을 사용할 수 있습니다.
