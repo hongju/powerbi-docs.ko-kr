@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65941442"
@@ -39,7 +39,9 @@ Power BI Desktop의 *다 대 다 카디널리티와의 관계* 기능은 다음 
 
 ## <a name="use-relationships-with-a-many-many-cardinality"></a>*다 대 다 카디널리티와의 관계* 사용
 
+
 Power BI에서 두 테이블 간 관계를 정의할 때 관계의 카디널리티를 정의해야 합니다. 예를 들어 *ProductSales*와 *Product* 간 관계(*ProductSales[ProductCode]* 및 *Product[ProductCode]* 열 사용)는 ‘다 대 일’로 정의됩니다. 각 제품에 많은 판매 정보가 있고 *Product* 테이블의 열(*ProductCode*)이 고유하므로 이 방식으로 관계를 정의합니다. 관계 카디널리티를 ‘다 대 일’, ‘일 대 다’ 또는 ‘일 대 일’로 정의하는 경우 Power BI가 유효성을 검사하여 사용자가 선택한 카디널리티가 실제 데이터와 일치하는지 확인하는 데 도움이 됩니다.   
+
 
 예를 들어 다음 이미지에서 간단한 모델을 살펴보겠습니다.
 
