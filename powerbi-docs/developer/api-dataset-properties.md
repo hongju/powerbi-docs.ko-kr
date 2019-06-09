@@ -31,7 +31,7 @@ id     |  Guid       | 데이터 세트용 시스템 전체 범위 고유 식별
 name     | String        | 데이터 세트의 사용자 정의 이름입니다.        | False        | True        
 tables     | Table[]        | 테이블의 컬렉션입니다.        |  False       | False        
 relationships     | Relationship[]        | 테이블 간 관계의 컬렉션입니다.        | False        |  False  
-defaultMode     | String        | 여부를 데이터 집합은 푸시 되거나, 스트림, 결정 또는 "푸시" 및 "스트리밍."의 값을 사용 하 여 둘 다         | False        |  False
+defaultMode     | String        | "Push" 및 "Streaming"의 값을 사용하여 데이터 집합이 푸시, 스트림, 또는 둘다 되는지 여부입니다.      | False        |  False
 
 ## <a name="table"></a>테이블
 
