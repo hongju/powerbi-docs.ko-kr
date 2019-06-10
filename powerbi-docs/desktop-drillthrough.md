@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7c9d400b196366609caebe9f79bb9a8130a4ad11
 ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66375186"
@@ -40,7 +40,7 @@ ms.locfileid: "66375186"
 
 1. **홈** 탭에서 **이미지**를 선택합니다. 그런 다음, 이미지를 찾고 드릴스루 페이지에 배치합니다.
 
-2. 드릴스루 페이지에서 새 이미지를 선택합니다. **이미지 서식** 섹션에서 **작업** 슬라이더를 **켜기**로 설정한 후 **유형**을 **뒤로**로 설정합니다. 이제 이미지가 뒤로 단추로 작동합니다.
+2. 드릴스루 페이지에서 새 이미지를 선택합니다. **이미지 서식** 섹션에서 **링크** 슬라이더를 **켜기**로 설정한 후 **형식**을 **뒤로**로 설정합니다. 이제 이미지가 뒤로 단추로 작동합니다.
 
     ![뒤로 이미지 사용](media/desktop-drillthrough/drillthrough_05.png)
 
