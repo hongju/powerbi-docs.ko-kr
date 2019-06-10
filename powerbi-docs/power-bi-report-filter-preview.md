@@ -12,14 +12,13 @@ ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 0a9e4986ae2f686eb8a8fd2d9fa07b169661ce60
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65853486"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI 보고서의 새 필터 환경(미리 보기)
-
-Power BI에서 필터에 새로운 기능 및 새 디자인이 있습니다. 새 필터 환경을 선택하면 필터 창을 보고서의 나머지 부분처럼 보이도록 서식을 지정할 수 있습니다. 필터를 잠그거나 숨길 수 있습니다. 보고서를 디자인할 때 시각화 창에서 이전 필터 창을 더 이상 볼 수 없습니다. 단일 필터 창에서 모든 필터를 편집하고 서식을 지정합니다.
+Power BI에서 필터에 새로운 기능 및 새 디자인이 있습니다. 새 필터 환경을 선택하면 필터 창을 보고서의 나머지 부분처럼 보이도록 서식을 지정할 수 있습니다. 필터를 잠그거나 숨길 수 있습니다. 보고서를 디자인할 때 시각화 창에서 이전 필터 창을 더 이상 볼 수 없습니다. 단일 필터 창에서 모든 필터를 편집하고 서식을 지정합니다. 
 
 ![새 필터 환경](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
 
@@ -28,7 +27,7 @@ Power BI에서 필터에 새로운 기능 및 새 디자인이 있습니다. 새
 
 보고서 디자이너는 다음과 같습니다. 새 단일 필터 창에서 수행할 수 있는 작업
 
-- 필터링할 필드를 추가하고 제거합니다.  
+- 필터링할 필드를 추가하고 제거합니다. 
 - 필터 상태를 변경합니다.
 - 필터 창을 서식을 지정하고 사용자 지정하여 보고서의 일부분으로 느껴지게 합니다.
 - 소비자가 보고서를 열 때 기본적으로 [필터] 창이 열려 있는지 또는 축소되어 있는지 여부를 정의합니다.
