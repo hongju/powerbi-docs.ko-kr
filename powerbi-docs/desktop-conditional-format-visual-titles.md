@@ -23,7 +23,7 @@ Power BI 시각적 개체를 위한 동적 사용자 지정 제목을 만들 수
 
 ![Power BI Desktop 스크린샷 조건부 서식 지정 옵션](media/desktop-conditional-formatting-visual-titles/expression-based-title-01.png)
 
-동적 제목 작성 라고도 *제목 식 기반*, 간단 합니다. 
+식 기반 제목 이라고도 하는 동적 제목을 만드는 일은 간단합니다. 
 
 ## <a name="create-a-field-for-your-title"></a>제목에 대한 필드 만들기
 
@@ -35,7 +35,7 @@ Power BI 시각적 개체를 위한 동적 사용자 지정 제목을 만들 수
 
 ![스크린 샷의 DAX 수식](media/desktop-conditional-formatting-visual-titles/expression-based-title-02.png)
 
-또 다른 예로 사용자의 언어 또는 문화권에 따라 변경 되는 동적 제목을 사용 합니다. 언어별 제목 DAX 측정값에서 사용 하 여 만들 수 있습니다는 `USERCULTURE()` 함수입니다. 이 함수에는 운영 체제 또는 브라우저 설정에 따라 사용자에 대 한 문화권 코드를 반환 합니다. 올바른 변환 된 값을 선택 하려면 다음 DAX switch를 사용할 수 있습니다. 
+또 다른 예는 사용자의 언어 또는 문화권에 따라 변경되는 동적 제목을 사용하는 것입니다. 'USERCULTURE ()' 함수를 사용하여 DAX 측정 값에 언어별 제목을 만들 수 있습니다. 이 함수에는 운영 체제 또는 브라우저 설정에 따라 사용자에 대한 문화권 코드를 반환합니다. 다음 DAX switch 문을 사용하여 올바른 변환 값을 선택할 수 있습니다.
 
 ```
 SWITCH (
