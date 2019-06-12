@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c0c1ea450a4b386644fd1c83e9831e993c2b8e5a
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61404085"
@@ -150,7 +150,7 @@ in
 이미지 태그 지정 함수를 선택하고 열 필드에 _[이진]_ , 문화권 정보 필드 _en_을 입력합니다. 
 
 > [!NOTE]
-> 현재는 드롭다운을 사용하여 열을 선택할 수 없습니다. 이 문제는 비공개 미리 보기 기간에 최대한 신속하게 해결될 것입니다.
+> 현재는 드롭다운을 사용하여 열을 선택할 수 없습니다. 이 문제는 프라이빗 미리 보기 기간에 최대한 신속하게 해결될 것입니다.
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_20.png)
 

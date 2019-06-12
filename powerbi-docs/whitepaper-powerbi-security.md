@@ -338,9 +338,9 @@ Ralph가 공유 대시보드 또는 보고서에 액세스하는 경우 해당 �
 
 ## <a name="power-bi-and-expressroute"></a>Power BI 및 ExpressRoute
 
-Power BI 및 ExpressRoute를 사용하면 인터넷을 거치지 않고 중요한 Power BI 데이터 및 연결 보안을 더 효율적으로 강화할 수 있도록 Power BI에 대한 조직의 사설망 연결을 만들 수 있습니다(또는 ISP의 공동 배치 기능 사용).
+Power BI 및 ExpressRoute를 사용하면 인터넷을 거치지 않고 중요한 Power BI 데이터 및 연결 보안을 더 효율적으로 강화할 수 있도록 Power BI에 대한 조직의 프라이빗 네트워크 연결을 만들 수 있습니다(또는 ISP의 공동 배치 기능 사용).
 
-ExpressRoute는 Azure 데이터 센터(Power BI가 있는 위치)와 온-프레미스 인프라 간의 사설 연결을 만들거나 Azure 데이터 센터와 공동 배치 환경 간의 사설 연결을 만들 수 있게 하는 Azure 서비스입니다. 자세한 내용은 [Power BI 및 ExpressRoute](service-admin-power-bi-expressroute.md) 문서를 참조하세요.
+ExpressRoute는 Azure 데이터 센터(Power BI가 있는 위치)와 온-프레미스 인프라 간의 프라이빗 연결을 만들거나 Azure 데이터 센터와 공동 배치 환경 간의 프라이빗 연결을 만들 수 있게 하는 Azure 서비스입니다. 자세한 내용은 [Power BI 및 ExpressRoute](service-admin-power-bi-expressroute.md) 문서를 참조하세요.
 
 ## <a name="power-bi-mobile"></a>Power BI Mobile
 
@@ -380,7 +380,7 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 
 **Power BI를 사용하는 동안 사용자가 데이터 원본에 연결하고 데이터에 액세스하려면 어떻게 해야 하나요?**
 
-* **Power BI 자격 증명 및 도메인 자격 증명:** 사용자는 이메일 주소를 사용하여 Power BI에 로그인합니다. 사용자가 데이터 리소스에 연결하려고 하면 Power BI는 Power BI 로그인 이메일 주소를 자격 증명으로 전달합니다. 도메인 연결 리소스(온-프레미스 또는 클라우드 기반)의 경우 디렉터리 서비스에서 로그인 이메일을 [UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)(_사용자 계정 이름_)과 대조하여 액세스를 허용할 만큼 충분한 자격 증명이 있는지 확인합니다. 작업 기반 이메일 주소(_david@contoso.com_과 같은 작업 리소스에 로그인하는 데 사용하는 것과 동일한 이메일 주소)를 사용하여 Power BI에 로그인하는 조직의 경우 매핑이 원활하게 수행될 수 있습니다. 작업 기반 이메일 주소(예: _david@contoso.onmicrosoft.com_)를 사용하지 않은 조직의 경우 Power BI 로그인 자격 증명을 사용하여 온-프레미스 리소스에 액세스할 수 있도록 디렉터리 매핑을 설정해야 합니다.
+* **Power BI 자격 증명 및 도메인 자격 증명:** 사용자는 이메일 주소를 사용하여 Power BI에 로그인합니다. 사용자가 데이터 리소스에 연결하려고 하면 Power BI는 Power BI 로그인 이메일 주소를 자격 증명으로 전달합니다. 도메인 연결 리소스(온-프레미스 또는 클라우드 기반)의 경우 디렉터리 서비스에서 로그인 이메일을 [UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)(_사용자 계정 이름_)과 대조하여 액세스를 허용할 만큼 충분한 자격 증명이 있는지 확인합니다. 작업 기반 이메일 주소( _david@contoso.com_ 과 같은 작업 리소스에 로그인하는 데 사용하는 것과 동일한 이메일 주소)를 사용하여 Power BI에 로그인하는 조직의 경우 매핑이 원활하게 수행될 수 있습니다. 작업 기반 이메일 주소(예: _david@contoso.onmicrosoft.com_ )를 사용하지 않은 조직의 경우 Power BI 로그인 자격 증명을 사용하여 온-프레미스 리소스에 액세스할 수 있도록 디렉터리 매핑을 설정해야 합니다.
 
 * **SQL Server Analysis Services 및 Power BI:** 온-프레미스 SQL Server Analysis Services를 사용하는 조직의 경우 Power BI에서 Power BI 온-프레미스 데이터 게이트웨이(이전 섹션에서 참조한 **게이트웨이**)를 제공합니다.  Power BI 온-프레미스 데이터 게이트웨이는 RLS(역할 수준 보안)를 데이터 원본에 적용할 수 있습니다. RLS에 대한 자세한 내용은 이 문서의 앞부분에 있는 **데이터 원본에 대한 사용자 인증**을 참조하세요. [Power BI Gateway](service-gateway-manage.md)에 대한 자세한 문서도 참조할 수 있습니다.
 

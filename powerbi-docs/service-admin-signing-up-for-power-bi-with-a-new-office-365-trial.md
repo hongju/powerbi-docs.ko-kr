@@ -12,7 +12,7 @@ ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: ad049837dff46058cf703d58720129e1e0742555
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61187207"
@@ -29,7 +29,7 @@ ms.locfileid: "61187207"
 
 1. [이 링크를 사용하여](https://app.powerbi.com/signupredirect?pbi_source=web) Power BI에 등록합니다. 메시지가 표시되면 이전 단계의 Office 365에서 선택한 이름과 암호를 사용하여 로그인합니다.
 
-1. 이제 끝났습니다! 완료되면 Power BI로 리디렉션됩니다. 새 계정으로 로그인하는 데 문제가 있는 경우 개인 브라우저 세션을 사용해 보세요.
+1. 이제 끝났습니다! 완료되면 Power BI로 리디렉션됩니다. 새 계정으로 로그인하는 데 문제가 있는 경우 프라이빗 브라우저 세션을 사용해 보세요.
 
 ## <a name="important-considerations"></a>중요 고려 사항
 

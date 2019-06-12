@@ -12,7 +12,7 @@ ms.date: 12/11/2018
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 157b20107a5be106ac97e0cb927b1e496e1ba115
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61421912"
@@ -21,7 +21,7 @@ ms.locfileid: "61421912"
 
 Power BI에서 사용자 지정 시각적 개체를 사용하여 사용자에게 맞는 고유한 유형의 시각적 개체를 만들 수 있습니다. 사용자 지정 시각적 개체는 Power BI에 포함된 수많은 시각적 개체로도 요구 사항이 충족되지 않을 때 개발자가 만듭니다.
 
-일부 조직에서 사용자 지정 시각적 개체는 조직에 고유한 특정 데이터 또는 정보를 전달하는 데 필요하거나, 특별한 데이터 요구 사항이 있거나, 개인 비즈니스 방법을 강조할 수 있기 때문에 훨씬 더 중요합니다. 이러한 조직은 사용자 지정 시각적 개체를 개발하고, 조직에서 공유하고, 적절하게 관리해야 합니다. Power BI 사용자 지정 시각적 개체를 통해 조직은 이러한 작업을 수행할 수 있습니다.
+일부 조직에서 사용자 지정 시각적 개체는 조직에 고유한 특정 데이터 또는 정보를 전달하는 데 필요하거나, 특별한 데이터 요구 사항이 있거나, 프라이빗 비즈니스 방법을 강조할 수 있기 때문에 훨씬 더 중요합니다. 이러한 조직은 사용자 지정 시각적 개체를 개발하고, 조직에서 공유하고, 적절하게 관리해야 합니다. Power BI 사용자 지정 시각적 개체를 통해 조직은 이러한 작업을 수행할 수 있습니다.
 
 다음 이미지는 Power BI에서 조직의 사용자 지정 시각적 개체가 관리자로부터 개발 및 유지 관리를 거쳐 마지막으로 데이터 분석까지 흐르는 프로세스를 보여 줍니다.
 
@@ -50,7 +50,7 @@ Power BI에서 사용자 지정 시각적 개체를 사용하여 사용자에게
 
 최종 사용자:
 
-* 조직의 사용자 지정 시각적 개체는 조직 리포지토리에서 가져온 전용 시각적 개체입니다. 모든 전용 시각적 개체처럼 이 시각적 개체는 [PowerPoint에 내보내거나](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint) 사용자가 [보고서 페이지를 구독](https://docs.microsoft.com/power-bi/consumer/end-user-subscribe)할 때 받은 메일에 표시할 수 있습니다. Marketplace에서 직접 가져온 [인증된 사용자 지정 시각적 개체](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified)만 이러한 기능을 지원합니다.
+* 조직의 사용자 지정 시각적 개체는 조직 리포지토리에서 가져온 프라이빗 시각적 개체입니다. 모든 프라이빗 시각적 개체처럼 이 시각적 개체는 [PowerPoint에 내보내거나](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint) 사용자가 [보고서 페이지를 구독](https://docs.microsoft.com/power-bi/consumer/end-user-subscribe)할 때 받은 메일에 표시할 수 있습니다. Marketplace에서 직접 가져온 [인증된 사용자 지정 시각적 개체](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified)만 이러한 기능을 지원합니다.
 
 * AppSource Marketplace의 GlobeMap 시각적 개체, Visio 시각적 개체, PowerApps 시각적 개체 및 Map box 시각적 개체는 조직 리포지토리를 통해 배포된 경우 렌더링되지 않습니다.
 

@@ -37,7 +37,7 @@ SAML을 사용하려면 SSO를 활성화하려는 HANA 서버와 이 시나리�
 
 다음 단계에서는 HANA 서버에서 신뢰하는 루트 CA를 사용하여 게이트웨이 IdP의 X509 인증서에 서명하여 HANA 서버와 게이트웨이 IdP 간의 트러스트 관계를 설정하는 방법을 설명합니다.
 
-1. 루트 CA의 X509 인증서 및 개인 키를 만듭니다. 예를 들어 루트 CA의 X509 인증서 및 개인 키를 .pem 형식으로 만들려면 다음을 수행합니다.
+1. 루트 CA의 X509 인증서 및 프라이빗 키를 만듭니다. 예를 들어 루트 CA의 X509 인증서 및 프라이빗 키를 .pem 형식으로 만들려면 다음을 수행합니다.
 
 ```
 openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
@@ -45,7 +45,7 @@ openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -o
 
 HANA 서버에서 방금 만든 루트 CA가 서명한 인증서를 신뢰하도록 HANA 서버의 트러스트 저장소에 인증서(예: CA_Cert.pem)를 추가합니다. HANA 서버의 트러스트 저장소 위치는 **ssltruststore** 구성 설정을 검사하여 찾을 수 있습니다. OpenSSL을 구성하는 방법을 다루는 SAP 설명서를 준수했다면 HANA 서버는 재사용할 수 있는 루트 CA를 이미 신뢰했을 수 있습니다. 자세한 내용은 [SAP HANA Studio용 개방 SSL을 SAP HANA Server에 구성하는 방법을 참조](https://archive.sap.com/documents/docs/DOC-39571)하세요. SAML SSO를 활성화할 HANA 서버가 여러 개 있는 경우, 각 서버가 이 루트 CA를 신뢰하는지 확인합니다.
 
-1. 게이트웨이 IdP의 X509 인증서를 만듭니다. 예를 들어 1년간 유효한 인증서 서명 요청(IdP_Req.pem) 및 개인 키(IdP_Key.pem)를 만들려면 다음 명령을 실행합니다.
+1. 게이트웨이 IdP의 X509 인증서를 만듭니다. 예를 들어 1년간 유효한 인증서 서명 요청(IdP_Req.pem) 및 프라이빗 키(IdP_Key.pem)를 만들려면 다음 명령을 실행합니다.
 
 ```
  openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
@@ -99,7 +99,7 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
     ![인증서 가져오기](media/service-gateway-sso-saml/import-certificate.png)
 
-1. 인증서의 개인 키에 게이트웨이 서비스 계정 액세스 권한을 부여합니다.
+1. 인증서의 프라이빗 키에 게이트웨이 서비스 계정 액세스 권한을 부여합니다.
 
     1. 게이트웨이 머신에서 MMC(Microsoft Management Console)를 실행합니다.
 
@@ -115,9 +115,9 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
     1. **인증서** > **개인** > **인증서**를 확장하고 인증서를 찾습니다.
 
-    1. 인증서를 마우스 오른쪽 단추로 클릭하고 **모든 작업** > **개인 키 관리**로 이동합니다.
+    1. 인증서를 마우스 오른쪽 단추로 클릭하고 **모든 작업** > **프라이빗 키 관리**로 이동합니다.
 
-        ![개인 키 관리](media/service-gateway-sso-saml/manage-private-keys.png)
+        ![프라이빗 키 관리](media/service-gateway-sso-saml/manage-private-keys.png)
 
     1. 게이트웨이 서비스 계정을 목록에 추가합니다. 기본적으로 이 계정은 **NT SERVICE\PBIEgwService**입니다. **services.msc**를 실행하여 실행 중인 게이트웨이 서비스를 확인하고, **온-프레미스 데이터 게이트웨이 서비스**를 찾을 수 있습니다.
 

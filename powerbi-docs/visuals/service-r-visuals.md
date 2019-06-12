@@ -12,7 +12,7 @@ ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61389883"
@@ -112,7 +112,7 @@ R 패키지는 잘 정의된 형식으로 결합된 R 함수, 데이터 및 컴�
 R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다.
 
 * 대부분의 경우에 Power BI 서비스에서는 GPL-2, GPL-3, MIT+ 등과 같은 무료 오픈 소스 소프트웨어 라이선스를 포함한 R 패키지를 지원합니다.
-* Power BI 서비스는 CRAN에 게시된 패키지를 지원합니다. 서비스는 개인 또는 사용자 지정 R 패키지를 지원하지 않습니다. 사용자가 Power BI 서비스에서 사용할 수 있는 패키지를 요청하기 전에 CRAN에서 자신의 개인 패키지를 사용할 수 있도록 만드는 것이 좋습니다.
+* Power BI 서비스는 CRAN에 게시된 패키지를 지원합니다. 서비스는 프라이빗 또는 사용자 지정 R 패키지를 지원하지 않습니다. 사용자가 Power BI 서비스에서 사용할 수 있는 패키지를 요청하기 전에 CRAN에서 자신의 프라이빗 패키지를 사용할 수 있도록 만드는 것이 좋습니다.
 * **Power BI Desktop**에는 R 패키지에 대한 두 가지 변형이 있습니다.
   
   * R 시각적 개체의 경우 사용자 지정 R 패키지를 포함한 모든 패키지를 설치할 수 있습니다.
