@@ -1,5 +1,5 @@
 ---
-title: Power BI 서비스에 페이지를 매긴 보고서 게시(미리 보기)
+title: Power BI 서비스에 페이지를 매긴 보고서 게시
 description: 이 자습서에서는 페이지를 매긴 보고서를 로컬 컴퓨터에서 업로드하여 Power BI 서비스에 게시하는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61424117"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839601"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Power BI 서비스에 페이지를 매긴 보고서 게시(미리 보기)
+# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Power BI 서비스에 페이지를 매긴 보고서 게시
 
 이 문서에서는 페이지를 매긴 보고서를 로컬 컴퓨터에서 업로드하여 Power BI 서비스에 게시하는 방법을 알아봅니다. 작업 영역이 프리미엄 용량에 포함된 경우 내 작업 영역 또는 다른 작업 영역에 페이지를 매긴 보고서를 업로드할 수 있습니다. 작업 영역 이름 옆의 다이아몬드 아이콘 ![Power BI Premium 용량 다이아몬드 아이콘](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) 을 찾으세요. 
 
@@ -89,5 +89,5 @@ ms.locfileid: "61424117"
 ## <a name="next-steps"></a>다음 단계
 
 - [Power BI 서비스에서 페이지를 매긴 보고서 보기](paginated-reports-view-power-bi-service.md)
-- [What are paginated reports in Power BI Premium? (미리 보기)](paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium에서 페이지를 매긴 보고서란?](paginated-reports-report-builder-power-bi.md)
 
