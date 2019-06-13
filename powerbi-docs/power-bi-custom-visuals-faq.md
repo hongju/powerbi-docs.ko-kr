@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60977205"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497922"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI 사용자 지정 시각적 개체에 대한 질문과 대답
 
@@ -84,7 +84,7 @@ ms.locfileid: "60977205"
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>내 시각적 개체를 인증하는 데 얼마나 걸리나요?
 
-업데이트된 버전의 경우 최대 2주가 걸릴 수 있습니다. 새로운 제출(첫 번째 인증)의 경우 최대 3주가 걸릴 수 있습니다. 
+업데이트된 버전의 경우 최대 3주가 걸릴 수 있습니다. 새로운 제출(첫 번째 인증)의 경우 최대 4주가 걸릴 수 있습니다. 
 
 ### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>인증 프로세스는 데이터 유출이 발생하지 않음을 보장하나요?
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9a99344438108d2f092220dfa1c66895355aeda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61402988"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721437"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>OneDrive에서 Excel 파일에 연결되는 Power BI 대시보드 공유
 Power BI에서 [비즈니스용 OneDrive의 Excel 통합 문서에 연결](service-excel-workbook-files.md)하고 해당 통합 문서에서 대시보드에 타일을 고정할 수 있습니다. 해당 대시보드를 공유하거나 해당 대시보드를 포함하는 콘텐츠 팩을 만들면 다음과 같이 됩니다.
@@ -56,6 +56,6 @@ Power BI 작업 영역에서 대시보드 공유는 파일이 개인 비즈니�
 
 ## <a name="next-steps"></a>다음 단계
 * [Excel에서 Power BI 대시보드에 타일 고정](service-dashboard-pin-tile-from-excel.md)
-* [Power BI 기본 개념](consumer/end-user-basic-concepts.md)
+* [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

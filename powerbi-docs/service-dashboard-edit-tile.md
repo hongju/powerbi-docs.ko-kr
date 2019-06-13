@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab0cbc7b4c882f08d20fdd00516fafcce96cb773
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c1b6f7434724540a9ad5b579030c3ed54b32abed
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61145003"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720561"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>대시보드 타일 편집 또는 제거
 
@@ -146,7 +146,7 @@ ms.locfileid: "61145003"
 
 [Power BI의 대시보드](consumer/end-user-dashboards.md)
 
-[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
+[Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cd75aebb09c7b6c54c1ff3f68635bfd5033c7f80
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140642"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721471"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>빠르게 Excel 통합 문서에서 멋진 보고서 작성
 상사가 퇴근 전에 최근 판매 실적과 지난 캠페인에 대한 의견이 포함된 보고서를 제출하도록 요구합니다. 하지만 최신 데이터는 다양한 타사 시스템과 노트북의 파일에 있습니다. 이전에는 시각적 개체를 만들고 보고서 형식을 지정하는 데 몇 시간이 걸렸습니다. 걱정이 되기 시작합니다.
@@ -98,6 +98,6 @@ Power BI에 대시보드 공유 페이지가 표시됩니다. 위쪽 영역에 �
 
 * [Power BI 서비스 시작](service-get-started.md)
 * [Power BI Desktop 시작](desktop-getting-started.md)
-* [Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
+* [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4c9e6a925a783d810bc4d097ec18806c3d33d99
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 62bec222a3f948612db63c386e10c0afe9762bb4
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226578"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721412"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI 조직 콘텐츠 팩에 대한 연결 제거
 
@@ -36,6 +36,6 @@ ms.locfileid: "61226578"
 ## <a name="next-steps"></a>다음 단계
 * [조직 콘텐츠 팩 소개](service-organizational-content-pack-introduction.md) 
 * [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md) 
-* [Power BI 기본 개념](consumer/end-user-basic-concepts.md)  
+* [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)  
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
+ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187695"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66453786"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -78,7 +78,7 @@ ms.locfileid: "66187695"
 <br>작성자: Wim Coorevits 및 Enrique Plaza Garcia
 <br>[등록 및 지금 보기](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
-**Power BI Embedded 관리 하기 위한 모범 사례는 다중 테 넌 트 배포에 대 한 분석**
+**다중 테넌트 배포용 Power BI Embedded Analytics 관리를 위한 모범 사례**
 <br>작성자: Nimrod Shalit
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
 
@@ -118,10 +118,11 @@ ms.locfileid: "66187695"
 <br>작성자: Reid Havens
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
-### <a name="partners"></a>파트너 ###
+### <a name="partner-solutions-series"></a>파트너 솔루션 시리즈 ###
+[이 시리즈 보기](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
 
 **소비재 상품 제조업체와 판매점의 상생 실현**
-<br>Liz McCreesh Thorogood에서에서
+<br>Thorogood의 작성자 Liz McCreesh
 <br>[등록 및 지금 보기](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **Power BI로 고객 데이터를 활용하여 판매점의 성공 실현**

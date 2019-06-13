@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375085"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720345"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI(미리 보기)를 포함하는 서비스 주체
 
@@ -120,7 +120,7 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
 
 5. 생성한 새 작업 영역에 서비스 주체를 **관리자**로 추가합니다. 이 작업은 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 또는 Power BI 서비스를 통해 관리할 수 있습니다.
 
-    ![작업 영역에 서비스 주체를 관리자로 추가](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![서비스 주체를 관리자로 작업 영역에 추가](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. 이제 샘플 애플리케이션 내에서 또는 자체 애플리케이션 내에서 콘텐츠를 포함하도록 선택합니다.
 
@@ -168,17 +168,17 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 
 * 서비스 주체는 [새 앱 작업 영역](../service-create-the-new-workspaces.md)에서만 작동합니다.
 * 서비스 주체 사용 시 **내 작업 영역**이 지원되지 않습니다.
-* 프로덕션으로 이동 시 전용 프리미엄 용량이 필요합니다.
+* 프로덕션으로 이동 시 전용 용량이 필요합니다.
 * 서비스 주체를 사용하여 Power BI 포털에 로그인할 수 없습니다.
 * Power BI 관리자 권한은 Power BI 관리 포털의 개발자 설정에서 서비스 주체를 활성화하는 데 필요합니다.
 * 서비스 주체를 사용하여 온-프레미스 데이터 게이트웨이를 설치하거나 관리할 수 없습니다.
 * [조직에 포함](embed-sample-for-your-organization.md) 애플리케이션은 서비스 주체를 사용할 수 없습니다.
 * [데이터 흐름](../service-dataflows-overview.md) 관리는 지원되지 않습니다.
-* 현재 서비스 주체는 모든 관리 Api를 지원 하지 않습니다.
+* 서비스 주체는 현재 모든 관리 API를 지원하지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 * [앱 등록](register-app.md)
 * [고객을 위한 Power BI Embedded](embed-sample-for-customers.md)
 * [Azure Active Directory의 애플리케이션 및 서비스 주체 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [서비스 주체 (미리 보기)를 사용 하 여 온-프레미스 데이터 게이트웨이 사용 하 여 행 수준 보안](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [서비스 주체가 있는 온-프레미스 데이터 게이트웨이를 사용하는 행 수준 보안(미리 보기)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
