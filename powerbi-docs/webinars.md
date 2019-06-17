@@ -1,20 +1,20 @@
 ---
 title: Power BI 웹 세미나
 description: Power BI 웹 세미나
-author: maikelson
+author: v-tatero
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.author: maikelson
-ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
-ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.date: 06/01/2019
+ms.author: v-tatero
+ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66453786"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750976"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -22,7 +22,15 @@ ms.locfileid: "66453786"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
+등록하여 Power BI 전문가 의견을 듣고 라이브 Q&A 세션에 참여하세요.
+
+**Power BI에서 Microsoft 실행: Modern Treasury에서 Power BI 사용**
+<br>저자: Pankaj Gudimella 및 Guru Kirthigavasan
+<br>[6월 25일, 오전 10:00~오전 11:00 PST(태평양 표준시)에 시청 등록](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+
+**Power BI: Workday HR 데이터에서 인사이트를 가져오는 방법**
+<br>저자: Iman Eftekhari, Agile Analytics의 Julia Paton 및 QBE Insurance의 Shahram Karimi
+<br>[6월 27일, 오후 1:30~오후 2:30 PST(태평양 표준시)에 시청 등록](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 >[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -149,7 +157,7 @@ ms.locfileid: "66453786"
 <br>작성자: Blue Margin의 Jon Thompson 및 Elgin Fastener Group의 Jim Pastor
 <br>[등록 및 지금 보기](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
-**새 Power BI 및 data.world 커넥터를 사용하여 공용 또는 개인 데이터 세트 시각화**
+**새 Power BI 및 data.world 커넥터를 사용하여 퍼블릭 또는 프라이빗 데이터 세트 시각화**
 <br>작성자: Patrick McGarry 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 

@@ -703,6 +703,8 @@
               href: service-template-apps-tips.md
             - name: 템플릿 앱 설치 및 배포
               href: service-template-apps-install-distribute.md
+            - name: 'Power BI 템플릿 앱을 업데이트, 삭제 및 추출'
+              href: service-template-update-delete-extract.md
         - name: 문제 해결
           items:
             - name: Power BI 암호를 잊은 경우

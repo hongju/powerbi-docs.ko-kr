@@ -1,5 +1,5 @@
 ---
-title: Power BI에서 Azure Machine Learning 통합(미리 보기)
+title: Power BI에서 Azure Machine Learning 통합
 description: Power BI와 함께 Machine Learning을 사용하는 방법 알아보기
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 10ee974b73372fb2243febdcb4431b5decebdf4b
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448347"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823477"
 ---
-# <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Power BI에서 Azure Machine Learning 통합(미리 보기)
+# <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI에서 Azure Machine Learning 통합
 
 수많은 조직이 비즈니스에 대한 더 나은 인사이트와 예측을 얻기 위해 **Machine Learning** 모델을 사용합니다. 보고서, 대시보드 및 기타 분석에서 이러한 모델의 인사이트를 시각화하고 호출하는 기능은 인사이트를 가장 필요로 하는 비즈니스 사용자에게 인사이트를 전달하는 데 도움이 될 수 있습니다.  이제 Power BI를 사용하여 가리킨 다음 클릭하는 쉬운 동작으로 Azure Machine Learning Service에 호스트된 모델의 인사이트를 간편하게 통합할 수 있습니다.
 
@@ -75,7 +75,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구�
 항목 스크립트를 업데이트하여 스키마 생성을 위한 이러한 지침은 Azure Machine Learning SDK를 사용하여 자동화된 기계 학습 실험을 통해 만든 모델에도 적용해야 합니다.
 
 > [!NOTE]
-> Azure Machine Learning Service 시각적 개체 인터페이스(미리 보기)를 사용하여 만든 모델은 현재 스키마 생성을 지원하지 않지만 이후 릴리스에서는 지원됩니다. 
+> Azure Machine Learning Service 시각적 개체 인터페이스를 사용하여 만든 모델은 현재 스키마 생성을 지원하지 않지만 이후 릴리스에서는 지원됩니다. 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>Power BI에서 Azure ML 모델 호출
 
@@ -107,9 +107,9 @@ Azure ML 모델 출력 미리 보기를 엔터티 테이블에 새 열로 표시
 
 이 문서에서는 Power BI 서비스에 Machine Learning을 통합하는 방법을 간략하게 살펴봤습니다. 관심을 가질 만한 다른 유용한 문서는 다음과 같습니다. 
 
-* [자습서: Power BI에서 Machine Learning Studio 모델 호출(미리 보기)](service-tutorial-invoke-machine-learning-model.md)
+* [자습서: Power BI에서 Machine Learning Studio 모델 호출](service-tutorial-invoke-machine-learning-model.md)
 * [자습서: Power BI에서 Cognitive Services 사용](service-tutorial-use-cognitive-services.md)
-* [Power BI에서 Cognitive Services 사용(미리 보기)](service-cognitive-services.md)
+* [Power BI의 Cognitive Services](service-cognitive-services.md)
 
 데이터 흐름에 대한 자세한 내용은 다음 문서를 참조할 수 있습니다.
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)

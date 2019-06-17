@@ -7,19 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/07/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5e4b41b36dfbf6cca14a348268b96eaad21b00e
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
+ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461859"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66816658"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>작업 영역에서 데이터 세트 사용(미리 보기)
 
 비즈니스 인텔리전스는 협력적인 작업입니다. '진실의 원천'이 될 수 있는 표준화된 데이터 세트를 확립하는 것이 중요합니다. 이러한 표준화된 데이터 세트를 발견하고 다시 사용하는 것이 중요합니다. 조직의 전문가 데이터 모델러가 최적화된 데이터 세트를 만들고 공유할 때 보고서 작성자는 이러한 데이터 세트를 시작하여 정확한 보고서를 빌드할 수 있습니다. 그러면 조직은 의사 결정을 위한 일관된 데이터와 정상 데이터 문화를 얻을 수 있습니다.
+
+![공유 데이터 세트 선택](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
 Power BI를 사용하면 데이터 세트 작성자가 데이터 세트를 쉽게 인증하거나 승격하여 다른 사용자가 데이터 세트를 검색할 수 있습니다. 그런 다음, 보고서 작성자는 Power BI에 있는 모든 위치에서 사용할 수 있는 고품질의 공식 데이터 세트를 찾습니다. 데이터 세트 소유자는 [빌드 권한](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어할 수 있습니다. 테넌트 관리자는 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하도록 새 테넌트 설정을 사용합니다.
 

@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720345"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823306"
 ---
-# <a name="service-principal-with-power-bi-preview"></a>Power BI(미리 보기)를 포함하는 서비스 주체
+# <a name="service-principal-with-power-bi"></a>Power BI를 포함하는 서비스 주체
 
 **서비스 주체**를 사용하면 Power BI 콘텐츠를 응용 프로그램에 포함하고 **앱 전용** 토큰을 사용하여 Power BI와 함께 자동화를 사용할 수 있습니다. 서비스 주체는 **Power BI Embedded**를 사용하거나 **Power BI 작업 및 프로세스를 자동화**할 때 유용합니다.
 
@@ -94,7 +94,7 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
    > [!Important]
    > 서비스 주체를 Power BI와 함께 사용하도록 설정하면 응용 프로그램의 AD 사용 권한이 더 이상 적용되지 않습니다. 응용 프로그램 사용 권한은 Power BI 관리 포털을 통해 관리됩니다.
 
-2. [AAD(Azure Active Directory)의 보안 그룹](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)을 만들고, 사용자가 만든 응용 프로그램을 해당 보안 그룹에 추가합니다. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)을 사용하여 AAD 보안 그룹을 만들 수 있습니다.
+2.  **권장** - [AAD(Azure Active Directory)의 보안 그룹](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)을 만들고, 사용자가 만든 애플리케이션을 해당 보안 그룹에 추가합니다. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)을 사용하여 AAD 보안 그룹을 만들 수 있습니다.
 
     아래는 새 보안 그룹을 만들고 해당 보안 그룹에 응용 프로그램을 추가하는 샘플 스크립트입니다.
 
@@ -109,7 +109,7 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. Power BI 관리자는 Power BI 관리 포털의 **개발자 설정**에서 서비스 주체를 활성화해야 합니다. Azure AD에서 만든 보안 그룹을 **개발자 설정**의 **특정 보안 그룹** 섹션에 추가합니다.
+3. Power BI 관리자는 Power BI 관리 포털의 **개발자 설정**에서 서비스 주체를 활성화해야 합니다. Azure AD에서 만든 보안 그룹을 **개발자 설정**의 특정 보안 그룹 섹션에 추가합니다. 전체 조직에 대한 서비스 주체 액세스를 활성화할 수도 있습니다. 이 경우 2단계는 필요하지 않습니다.
 
    > [!Important]
    > 서비스 주체는 전체 조직에 대해 설정되거나 서비스 주체가 그룹의 일부로 포함된 보안 그룹에 대해 설정되는 모든 테넌트 설정에 액세스할 수 있습니다. 특정 테넌트 설정에 대한 서비스 주체 액세스 권한을 제한하려면 특정 보안 그룹에 대한 액세스 권한만을 허용하거나 서비스 주체에 대해 전용 보안 그룹을 만들고 제외시킵니다.
@@ -181,4 +181,4 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 * [앱 등록](register-app.md)
 * [고객을 위한 Power BI Embedded](embed-sample-for-customers.md)
 * [Azure Active Directory의 애플리케이션 및 서비스 주체 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [서비스 주체가 있는 온-프레미스 데이터 게이트웨이를 사용하는 행 수준 보안(미리 보기)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [서비스 주체가 있는 온-프레미스 데이터 게이트웨이를 사용하는 행 수준 보안](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
