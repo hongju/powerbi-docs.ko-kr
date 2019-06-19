@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375085"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823306"
 ---
-# <a name="service-principal-with-power-bi-preview"></a>Power BI(미리 보기)를 포함하는 서비스 주체
+# <a name="service-principal-with-power-bi"></a>Power BI를 포함하는 서비스 주체
 
 **서비스 주체**를 사용하면 Power BI 콘텐츠를 응용 프로그램에 포함하고 **앱 전용** 토큰을 사용하여 Power BI와 함께 자동화를 사용할 수 있습니다. 서비스 주체는 **Power BI Embedded**를 사용하거나 **Power BI 작업 및 프로세스를 자동화**할 때 유용합니다.
 
@@ -94,7 +94,7 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
    > [!Important]
    > 서비스 주체를 Power BI와 함께 사용하도록 설정하면 응용 프로그램의 AD 사용 권한이 더 이상 적용되지 않습니다. 응용 프로그램 사용 권한은 Power BI 관리 포털을 통해 관리됩니다.
 
-2. [AAD(Azure Active Directory)의 보안 그룹](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)을 만들고, 사용자가 만든 응용 프로그램을 해당 보안 그룹에 추가합니다. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)을 사용하여 AAD 보안 그룹을 만들 수 있습니다.
+2.  **권장** - [AAD(Azure Active Directory)의 보안 그룹](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)을 만들고, 사용자가 만든 애플리케이션을 해당 보안 그룹에 추가합니다. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)을 사용하여 AAD 보안 그룹을 만들 수 있습니다.
 
     아래는 새 보안 그룹을 만들고 해당 보안 그룹에 응용 프로그램을 추가하는 샘플 스크립트입니다.
 
@@ -109,7 +109,7 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. Power BI 관리자는 Power BI 관리 포털의 **개발자 설정**에서 서비스 주체를 활성화해야 합니다. Azure AD에서 만든 보안 그룹을 **개발자 설정**의 **특정 보안 그룹** 섹션에 추가합니다.
+3. Power BI 관리자는 Power BI 관리 포털의 **개발자 설정**에서 서비스 주체를 활성화해야 합니다. Azure AD에서 만든 보안 그룹을 **개발자 설정**의 특정 보안 그룹 섹션에 추가합니다. 전체 조직에 대한 서비스 주체 액세스를 활성화할 수도 있습니다. 이 경우 2단계는 필요하지 않습니다.
 
    > [!Important]
    > 서비스 주체는 전체 조직에 대해 설정되거나 서비스 주체가 그룹의 일부로 포함된 보안 그룹에 대해 설정되는 모든 테넌트 설정에 액세스할 수 있습니다. 특정 테넌트 설정에 대한 서비스 주체 액세스 권한을 제한하려면 특정 보안 그룹에 대한 액세스 권한만을 허용하거나 서비스 주체에 대해 전용 보안 그룹을 만들고 제외시킵니다.
@@ -120,7 +120,7 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
 
 5. 생성한 새 작업 영역에 서비스 주체를 **관리자**로 추가합니다. 이 작업은 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 또는 Power BI 서비스를 통해 관리할 수 있습니다.
 
-    ![작업 영역에 서비스 주체를 관리자로 추가](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![서비스 주체를 관리자로 작업 영역에 추가](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. 이제 샘플 애플리케이션 내에서 또는 자체 애플리케이션 내에서 콘텐츠를 포함하도록 선택합니다.
 
@@ -168,17 +168,17 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 
 * 서비스 주체는 [새 앱 작업 영역](../service-create-the-new-workspaces.md)에서만 작동합니다.
 * 서비스 주체 사용 시 **내 작업 영역**이 지원되지 않습니다.
-* 프로덕션으로 이동 시 전용 프리미엄 용량이 필요합니다.
+* 프로덕션으로 이동 시 전용 용량이 필요합니다.
 * 서비스 주체를 사용하여 Power BI 포털에 로그인할 수 없습니다.
 * Power BI 관리자 권한은 Power BI 관리 포털의 개발자 설정에서 서비스 주체를 활성화하는 데 필요합니다.
 * 서비스 주체를 사용하여 온-프레미스 데이터 게이트웨이를 설치하거나 관리할 수 없습니다.
 * [조직에 포함](embed-sample-for-your-organization.md) 애플리케이션은 서비스 주체를 사용할 수 없습니다.
 * [데이터 흐름](../service-dataflows-overview.md) 관리는 지원되지 않습니다.
-* 현재 서비스 주체는 모든 관리 Api를 지원 하지 않습니다.
+* 서비스 주체는 현재 모든 관리 API를 지원하지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 * [앱 등록](register-app.md)
 * [고객을 위한 Power BI Embedded](embed-sample-for-customers.md)
 * [Azure Active Directory의 애플리케이션 및 서비스 주체 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [서비스 주체 (미리 보기)를 사용 하 여 온-프레미스 데이터 게이트웨이 사용 하 여 행 수준 보안](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [서비스 주체가 있는 온-프레미스 데이터 게이트웨이를 사용하는 행 수준 보안](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

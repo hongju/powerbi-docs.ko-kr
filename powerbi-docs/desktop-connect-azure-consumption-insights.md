@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 383d28a9e24165b12cda73ee254541a32db4391c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4c2ef62dc3ea8aac9c4a0d30ba4dba58e2279490
+ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61325651"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66469827"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure 비용 및 사용량 데이터 분석
 
@@ -24,15 +24,15 @@ Power BI Desktop에서는 Azure에 연결하여 조직의 Azure 서비스 사용
 
 Power BI는 현재 기업 계약 및 고객 계약 청구 계정에 대한 연결을 지원합니다.
 
-* **기업 계약** 사용자와 연결 해야 합니다 **Azure Consumption Insights 커넥터**합니다.
+* **기업 계약** 사용자는 **Azure Consumption Insights 커넥터**를 사용하여 연결해야 합니다.
 
-* **고객 계약** 사용자와 연결 해야 합니다 **Azure Cost Management 커넥터**합니다.
+* **고객 계약** 사용자는 **Azure Cost Management 커넥터**를 사용하여 연결해야 합니다.
 
 ## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights에 연결
 
 Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계정에 연결할 수 있습니다.
 
-이 섹션에서는 연결하여 필요한 데이터를 가져오는 방법, Azure Enterprise Connector를 사용하여 마이그레이션하는 방법을 알아봅니다. 그러면 **ACI**(Azure Consumption Insights) API에서 사용할 수 있는 *사용량 세부 정보 열*의 매핑을 찾을 수 있습니다.
+이 섹션에서는 필요한 데이터를 가져오는 방법, Azure Enterprise Connector를 사용하여 마이그레이션하는 방법을 알아봅니다. 그러면 **ACI**(Azure Consumption Insights) API에서 사용할 수 있는 *사용량 세부 정보 열*의 매핑을 찾을 수 있습니다.
 
 **Azure Consumption Insights** 커넥터를 사용하여 성공적으로 연결하려면 Azure Portal 내에서 엔터프라이즈 기능에 액세스해야 합니다.
 
@@ -45,9 +45,9 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
 * 다음 이미지에 표시된 위치에서 [Azure Enterprise Portal](https://ea.azure.com)의 등록 번호를 가져올 수 있습니다.
-  
+
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
-  
+
   이 버전의 커넥터는 https://ea.azure.com 에서 엔터프라이즈 등록을 지원합니다. 중국 등록은 현재 지원되지 않습니다.
 
 다음으로 연결할 *선택키*를 제공합니다.
@@ -55,11 +55,11 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
 * [Azure Enterprise Portal](https://ea.azure.com)에서 등록을 위한 선택키를 찾을 수 있습니다.
-  
+
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-‘액세스 키’를 제공하고 **연결**을 선택하면 **탐색기** 창이 나타나고 사용할 수 있는 9개의 테이블이 표시됩니다.  
-* **예산**: 예산 세부 정보를 제공하여 기존 예산 목표 대비 실제 비용 및 사용을 봅니다. 
+‘액세스 키’를 제공하고 **연결**을 선택하면 **탐색기** 창이 나타나고 사용할 수 있는 9개의 테이블이 표시됩니다. 
+* **예산**: 예산 세부 정보를 제공하여 기존 예산 목표 대비 실제 비용 및 사용을 봅니다.
 * **MarketPlace**: 사용량 기반 Azure Marketplace 요금을 제공합니다.
 * **PriceSheets**: 등록에 적용되는 미터별 요금을 제공합니다.
 * **RICharges**: 지난 24개월 동안 예약 인스턴스와 관련된 요금을 제공합니다.
@@ -75,8 +75,8 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
 > [!NOTE]
 > *요약* 및 *가격표* 테이블은 등록 수준 API 키에 사용할 수 있습니다. 또한 이러한 테이블의 데이터에는 기본적으로 *사용량* 및 *PriceSheet*의 현재 달의 데이터가 있습니다. *요약* 및 *MarketPlace* 테이블은 현재 월에 제한되지 않습니다.
-> 
-> 
+>
+>
 
 **부하**를 선택하는 경우 데이터는 **Power BI Desktop**으로 로드됩니다.
 
@@ -141,7 +141,7 @@ Azure에는 비어 있는 쿼리를 사용하여 검색할 수 있는 샘플 사
 
 1. 메모장(또는 다른 텍스트 편집기)을 엽니다.
 2. 이동하려는 측정값을 선택하고 *수식* 필드에서 텍스트를 복사하고 메모장에 붙여넣습니다.
-   
+
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. *Query1*을 원래 세부 정보 테이블 이름으로 바꿉니다.
 4. 테이블을 마우스 오른쪽 단추로 클릭하고 **새 측정값**을 선택하여 테이블에 새 측정값 및 사용자 지정 열을 만들고 모두 완료할 때까지 저장소 측정값과 열을 잘라 붙여넣습니다.
@@ -150,7 +150,7 @@ Azure에는 비어 있는 쿼리를 사용하여 검색할 수 있는 샘플 사
 여러 대시보드에는 날짜 테이블 또는 사용자 지정 프로젝트에 사용되는 테이블과 같이 조회나 필터링에 사용되는 추가 테이블이 있습니다. 이러한 관계를 다시 설정하면 대부분의 나머지 문제가 해결됩니다. 방법은 다음과 같습니다.
 
 - **Power BI Desktop**의 **모델링** 탭에서 **관계 관리**를 선택하면 모델 내에서 관계를 관리할 수 있는 창이 표시됩니다. 필요에 따라 테이블을 다시 연결합니다.
-   
+
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>5단계: 시각적 개체 확인 및 필요에 따라 필드 서식 조정
@@ -215,9 +215,9 @@ Azure Portal의 열 및 세부 정보 이름은 API 및 커넥터와 유사하�
 이 섹션에서는 고객 계약 청구 계정에 연결하는 방법을 알아봅니다.
 
 > [!NOTE]
-> 현재 Azure Cost Management 커넥터에서 고객을 지원 합니다 **고객 계약**합니다.  **기업 계약** 고객은 Microsoft Azure Consumption Insights 커넥터를 사용 해야 합니다.
-> 
-> 
+> Azure Cost Management 커넥터는 현재 **고객 계약**에서 고객을 지원합니다.  **기업 계약** 고객은 Microsoft Azure Consumption Insights 커넥터를 사용해야 합니다.
+>
+>
 
 **Azure Cost Management** 커넥터를 사용하여 연결하려면 **Power BI Desktop**의 **홈** 리본에서 **데이터 가져오기**를 선택합니다.  왼쪽에 있는 범주에서 **Azure**를 선택하면 **Azure Cost Management(베타)** 가 표시됩니다. **연결**을 선택합니다.
 
@@ -234,7 +234,7 @@ Azure Portal의 열 및 세부 정보 이름은 API 및 커넥터와 유사하�
 Azure 이메일 및 암호를 사용하여 로그인하라는 메시지가 표시됩니다.  인증에 성공하면 다음을 수행할 수 있는 12가지 테이블이 포함된 **탐색기** 창이 표시됩니다.
 
 * **청구 이벤트**: 새 송장, 크레딧 구매 등의 이벤트 로그를 제공합니다.
-* **예산**: 예산 세부 정보를 제공하여 기존 예산 목표 대비 실제 비용 및 사용을 봅니다. 
+* **예산**: 예산 세부 정보를 제공하여 기존 예산 목표 대비 실제 비용 및 사용을 봅니다.
 * **요금**: Azure 사용량, 시장 요금 및 개별 청구 요금에 대한 월별 요약을 제공합니다.
 * **크레딧 로트**: 제공된 청구 프로필에 대한 Azure 크레딧 로트 구매 세부 정보를 제공합니다.
 * **크레딧 요약**: 제공된 청구 프로필에 대한 크레딧 요약을 제공합니다.
@@ -257,6 +257,8 @@ Azure 이메일 및 암호를 사용하여 로그인하라는 메시지가 표�
 선택한 데이터가 로드되면 선택한 테이블 및 필드를 **필드** 창에서 볼 수 있습니다.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
+
+Azure Consumption Insights 커넥터를 사용하여 Power BI 데스크톱에서 비용 데이터를 검토하는 방법에 대한 [Azure Consumption Insights를 사용하여 Power BI의 지출을 분석하는 방법](https://www.youtube.com/watch?v=QKBMXXrlpEk) 비디오를 시청합니다.
 
 ## <a name="writing-custom-queries"></a>사용자 지정 쿼리 작성
 
@@ -288,4 +290,3 @@ Power BI Desktop을 사용하여 연결할 수 있는 모든 종류의 데이터
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
 * [Power BI Desktop에서 Excel 통합 문서에 연결](desktop-connect-excel.md)   
 * [Power BI Desktop에 데이터 직접 연결](desktop-enter-data-directly-into-desktop.md)   
-

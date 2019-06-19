@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 896e58b95f253c403bf7cd4bc3e1c069b3628f69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770260"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448440"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery를 사용한 Azure SQL Data Warehouse
 
@@ -40,7 +40,7 @@ SQL Data Warehouse 커넥터를 사용할 때
 
 SQL Data Warehouse와 Power BI 간을 이동하는 가장 쉬운 방법은 Azure Portal 내에서 **Power BI에서 열기** 단추를 사용하는 것입니다. 이 단추를 사용하면 Power BI에서 자연스럽게 새 대시보드 만들기를 싲가할 수 있습니다.
 
-1. 시작하려면 Azure Portal에서 SQL Data Warehouse 인스턴스로 이동합니다. 현재 SQL Data Warehouse는 Azure Preview 포털에만 있습니다.
+1. 시작하려면 Azure Portal에서 SQL Data Warehouse 인스턴스로 이동합니다. 현재 SQL Data Warehouse는 Azure Portal에만 있습니다.
 
 2. **Power BI에서 열기** 단추를 클릭합니다.
 
@@ -64,7 +64,7 @@ SQL Data Warehouse는 Power BI 데이터 가져오기 페이지에도 나열됩�
 
 3. **SQL Data Warehouse**\>**연결**을 선택합니다.
 
-    ![Direct 사용 하 여 azure SQL DW에 연결](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+    ![직접 연결을 사용한 Azure SQL DW](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
 4. 연결에 필요한 정보를 입력합니다. 아래의 **매개 변수 찾기** 섹션에는 Azure Portal에서 이 데이터가 배치될 위치를 보여줍니다.
 
@@ -79,20 +79,22 @@ SQL Data Warehouse는 Power BI 데이터 가져오기 페이지에도 나열됩�
 
 5. 별표로 표시된 새 타일 또는 새로 만든 데이터 세트를 선택하여 데이터 세트를 드릴다운합니다. 이 데이터 세트는 데이터베이스와 동일한 이름을 갖습니다.
 
-    ![데이터 집합 2](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
+    ![데이터 세트 2](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
 
 6. 모든 테이블 및 열을 탐색할 수 있습니다. 열을 선택하면 쿼리가 다시 소스로 전송되고 동적으로 시각 효과를 만듭니다. 또한 필터를 다시 데이터 웨어하우스에 대한 쿼리로 변환할 수 있습니다. 이러한 시각 효과를 새 보고서에 저장하고 대시보드에 다시 고정할 수 있습니다.
 
-    ![3 탐색](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+    ![탐색 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>매개 변수 값 찾기
 
-정규화된 서버 이름과 데이터베이스 이름은 Azure Portal에서 확인할 수 있습니다. 현재 SQL Data Warehouse는 Azure Preview 포털에만 있습니다.
+정규화된 서버 이름과 데이터베이스 이름은 Azure Portal에서 확인할 수 있습니다. 현재 SQL Data Warehouse는 Azure Portal에만 있습니다.
 
 ![Azure Portal](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
 > Power BI 테넌트가 Azure SQL Data Warehouse와 동일한 영역에 있는 경우 송신 요금이 청구되지 않습니다. [이 지침](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located)을 사용하여 Power BI 테넌트의 위치를 찾을 수 있습니다.
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>다음 단계
 

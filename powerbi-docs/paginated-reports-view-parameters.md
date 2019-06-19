@@ -1,5 +1,5 @@
 ---
-title: Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 보기(미리 보기)
+title: Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 보기
 description: 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수를 조작하는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: ea186b5fa3bbbe7968c386604066f91b90ec5821
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 100d8b5d25f7d844ea4f44d63a4d2cb9737f57a9
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61422230"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839506"
 ---
-# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 보기(미리 보기)
+# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 보기
 
 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수를 조작하는 방법을 알아봅니다.  보고서 매개 변수는 보고서 데이터를 필터링하는 방법을 제공합니다. 매개 변수는 사용 가능한 값 목록을 제공하며 사용자는 하나 이상의 값을 선택할 수 있습니다. 매개 변수에 기본값이 있는 경우도 있고 보고서를 보려면 먼저 값을 선택해야 하는 경우도 있습니다.  
 

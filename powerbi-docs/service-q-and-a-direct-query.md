@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9836cd88bef5066f61a8ae44eabe7685196e2bed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59c9488def297537cc2ea944f6c0fc4f59ba29ba
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65624936"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720896"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Power BI에서 라이브 연결에 대한 질문 및 답변 사용
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>온-프레미스 데이터 게이트웨이 란 무엇입니까?  라이브 연결이란?
-Power BI의 데이터 세트를 Power BI로 가져올 수 있거나 이에 대한 라이브 연결을 만들 수 있습니다. "온-프레미스"으로 라이브 연결 데이터 집합을 부릅니다. 라이브 연결은 [게이트웨이](service-gateway-onprem.md) 및 데이터를 사용하여 관리되고 라이브 쿼리를 사용하여 앞뒤로 조사가 전송됩니다.
+## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>온-프레미스 데이터 게이트웨이란?  라이브 연결이란?
+Power BI의 데이터 세트를 Power BI로 가져올 수 있거나 이에 대한 라이브 연결을 만들 수 있습니다. 라이브 연결 데이터 세트는 보통 "온-프레미스"라고 합니다. 라이브 연결은 [게이트웨이](service-gateway-onprem.md) 및 데이터를 사용하여 관리되고 라이브 쿼리를 사용하여 앞뒤로 조사가 전송됩니다.
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>온-프레미스 데이터 게이트웨이 데이터 세트에 대한 질문 및 답변
 게이트웨이를 통해 액세스하는 데이터 세트에 대한 질문 및 답변을 사용하려는 경우 먼저 사용하도록 설정해야 합니다.
@@ -33,7 +33,7 @@ Power BI 질문 및 답변은 데이터 원본에서 텍스트 및 스키마 값
 자세한 내용은 다음을 참조하세요.
 
 * [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)란 무엇인가요?
-* [소비자에 대 한 power BI 답변](consumer/end-user-q-and-a.md)
+* [소비자를 위한 Power BI Q&A](consumer/end-user-q-and-a.md)
 
 ## <a name="enable-qa"></a>질문 및 답변 사용
 데이터 게이트웨이를 등록한 후에 Power BI에서 데이터에 연결합니다.  온-프레미스 데이터를 사용하여 대시보드를 만들거나 온-프레미스 데이터를 사용하는 .pbix 파일을 업로드합니다.  또한 사용자와 공유된 대시보드, 보고서 및 데이터 세트에 온-프레미스 데이터가 이미 있을 수 있습니다.
@@ -52,18 +52,18 @@ Power BI 질문 및 답변은 데이터 원본에서 텍스트 및 스키마 값
 온-프레미스 데이터에 대한 질문 및 답변을 사용하면 데이터의 하위 집합이 서비스에 캐시됩니다. 이렇게 하려면 질문 및 답변을 적절한 성능으로 사용하여야 합니다. Power BI는 24자보다 긴 값을 캐싱에서 제외합니다. **이 데이터 세트에 대한 질문 및 답변 켜기** 선택을 취소하여 질문 및 답변을 사용하지 않거나 데이터 세트를 삭제하면 몇 시간 이내에 캐시가 삭제됩니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-기능에 몇 가지 제한이 있습니다.
+기능에는 몇 가지 제한 사항이 있습니다.
 
-* 처음부터 이 기능은 SQL Server 2016 Analysis Services 테이블 형식 데이터 원본에만 사용할 수 있습니다. 기능은 표 형식 데이터에 맞게 최적화됩니다. 질문 및 답변 경험을 아직 지원 되지 않음에 대 한 다차원입니다. 온-프레미스 데이터 게이트웨이에서 지원하는 추가 데이터 원본은 시간이 지나면 출시될 예정입니다.
-* SQL Server Analysis Services에 정의 된 행 수준 보안에 대 한 전체 지원 처음에 사용할 수 없습니다. 질문 및 답변에서 질문을 하는 동안 "자동 완성" 질문 입력 수 표시 문자열 값을 사용자에 액세스할을 수 없습니다. 그러나 모델에 정의된 RLS는 보고서 및 차트 시각적 개체를 고려하므로 기본 숫자 데이터가 노출되지 않습니다. 이 동작을 제어하는 옵션은 향후 업데이트에서 출시될 예정입니다.
-* 개체 수준 보안 (OLS) 지원 되지 않습니다. 질문 및 답변에서 개체 수준 보안을 준수 하지 않습니다 하 고 테이블 또는 열 이름에 대 한 액세스 권한이 없는 사용자에 게 노출할 수 있습니다. 데이터 값이 적절하게 보호되는지 확인하려면 RLS를 사용하도록 설정해야 합니다. 
-* 라이브 연결은 온-프레미스 데이터 게이트웨이를 통해서만 지원됩니다. 결과적으로 개인 게이트웨이 사용 하 여이 사용할 수 없습니다.
+* 처음부터 이 기능은 SQL Server 2016 Analysis Services 테이블 형식 데이터 원본에만 사용할 수 있습니다. 기능은 표 형식 데이터에 맞게 최적화됩니다. Q&A 환경에는 아직 다차원이 지원되지 않습니다. 온-프레미스 데이터 게이트웨이에서 지원하는 추가 데이터 원본은 시간이 지나면 출시될 예정입니다.
+* SQL Server Analysis Services에 정의된 행 수준 보안에 대한 완벽한 지원은 처음부터 지원되지 않습니다. Q&A에서 질문하는 동안 입력하는 질문의 “자동 완성”은 사용자가 액세스할 수 없는 문자열 값을 나타낼 수 있습니다. 그러나 모델에 정의된 RLS는 보고서 및 차트 시각적 개체를 고려하므로 기본 숫자 데이터가 노출되지 않습니다. 이 동작을 제어하는 옵션은 향후 업데이트에서 출시될 예정입니다.
+* OLS(개체 수준 보안)가 지원되지 않습니다. Q&A는 개체 수준 보안을 고려하지 않고 테이블 또는 열 이름을 액세스 권한이 없는 사용자에게 노출할 수 있습니다. 데이터 값이 적절하게 보호되는지 확인하려면 RLS를 사용하도록 설정해야 합니다. 
+* 라이브 연결은 온-프레미스 데이터 게이트웨이를 통해서만 지원됩니다. 결과적으로, 개인 게이트웨이와 함께 사용할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 - [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
 - [데이터 원본 관리 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-- [Power BI: 기본 개념](consumer/end-user-basic-concepts.md)  
+- [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)  
 - [Power BI 질문 및 답변 개요](consumer/end-user-q-and-a.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

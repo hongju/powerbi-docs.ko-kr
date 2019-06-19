@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: da5a36454e52891df7906b444b29b4df2db44d7f
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226121"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721180"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI의 조직 콘텐츠 팩 소개
 > [!NOTE]
@@ -75,6 +75,6 @@ AppSource에서 전체 조직, 배포 또는 보안 그룹 및 [사용자가 속
 ## <a name="next-steps"></a>다음 단계
 * [조직 콘텐츠 팩 만들기 및 게시](service-organizational-content-pack-create-and-publish.md)
 * [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md) 
-* [Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
+* [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 

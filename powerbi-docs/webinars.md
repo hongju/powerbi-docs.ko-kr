@@ -1,20 +1,20 @@
 ---
 title: Power BI 웹 세미나
 description: Power BI 웹 세미나
-author: maikelson
+author: v-tatero
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.author: maikelson
-ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/01/2019
+ms.author: v-tatero
+ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187695"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750976"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -22,7 +22,15 @@ ms.locfileid: "66187695"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
+등록하여 Power BI 전문가 의견을 듣고 라이브 Q&A 세션에 참여하세요.
+
+**Power BI에서 Microsoft 실행: Modern Treasury에서 Power BI 사용**
+<br>저자: Pankaj Gudimella 및 Guru Kirthigavasan
+<br>[6월 25일, 오전 10:00~오전 11:00 PST(태평양 표준시)에 시청 등록](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+
+**Power BI: Workday HR 데이터에서 인사이트를 가져오는 방법**
+<br>저자: Iman Eftekhari, Agile Analytics의 Julia Paton 및 QBE Insurance의 Shahram Karimi
+<br>[6월 27일, 오후 1:30~오후 2:30 PST(태평양 표준시)에 시청 등록](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 >[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -78,7 +86,7 @@ ms.locfileid: "66187695"
 <br>작성자: Wim Coorevits 및 Enrique Plaza Garcia
 <br>[등록 및 지금 보기](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
-**Power BI Embedded 관리 하기 위한 모범 사례는 다중 테 넌 트 배포에 대 한 분석**
+**다중 테넌트 배포용 Power BI Embedded Analytics 관리를 위한 모범 사례**
 <br>작성자: Nimrod Shalit
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
 
@@ -118,10 +126,11 @@ ms.locfileid: "66187695"
 <br>작성자: Reid Havens
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
-### <a name="partners"></a>파트너 ###
+### <a name="partner-solutions-series"></a>파트너 솔루션 시리즈 ###
+[이 시리즈 보기](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
 
 **소비재 상품 제조업체와 판매점의 상생 실현**
-<br>Liz McCreesh Thorogood에서에서
+<br>Thorogood의 작성자 Liz McCreesh
 <br>[등록 및 지금 보기](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **Power BI로 고객 데이터를 활용하여 판매점의 성공 실현**
@@ -148,7 +157,7 @@ ms.locfileid: "66187695"
 <br>작성자: Blue Margin의 Jon Thompson 및 Elgin Fastener Group의 Jim Pastor
 <br>[등록 및 지금 보기](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
-**새 Power BI 및 data.world 커넥터를 사용하여 공용 또는 개인 데이터 세트 시각화**
+**새 Power BI 및 data.world 커넥터를 사용하여 퍼블릭 또는 프라이빗 데이터 세트 시각화**
 <br>작성자: Patrick McGarry 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 

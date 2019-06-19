@@ -11,7 +11,7 @@ ms.date: 06/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 443615a64bee1f4723450c6c8cc3c49feb81989c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61374068"
@@ -93,7 +93,7 @@ iPhone 및 Android용 [Power BI 모바일 앱을 사용하여 QR 코드를 스�
 홀로그램 보기에 대한 몇 가지 제한 사항과 고려 사항은 다음과 같습니다.
 
 - 교차 필터링 또는 강조 표시가 표시되지 않는 경우 Windows 클래식 보기에서 설정할 수 있습니다.
-- 고정된 대시보드 및 보고서 보기는 비공개입니다. 현재 공유 환경을 지원하지 않습니다.
+- 고정된 대시보드 및 보고서 보기는 프라이빗입니다. 현재 공유 환경을 지원하지 않습니다.
 - 대시보드 및 보고서는 데이터가 변경될 때 45초마다 새로 고칩니다.
 
 

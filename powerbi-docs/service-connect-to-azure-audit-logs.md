@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 85872b43e984a1cf9c08500bb03f6ed50baef31e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 005913bc6af73f9b20db3cff7d12733f721eef3a
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61178924"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720599"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI로 Azure Audit Logs에 연결
 Azure Audit Logs 콘텐츠 팩을 사용하면 감사 로그에 저장된 정보를 분석 및 시각화할 수 있습니다. Power BI는 데이터를 검색하고, 기본 대시보드를 구성한 다음 해당 데이터를 기준으로 보고서를 만듭니다.
@@ -60,8 +60,8 @@ Azure 감사 로그 콘텐츠 팩을 사용하려면 Azure Portal에서 감사 �
 ## <a name="finding-parameters"></a>매개 변수 찾기
 두 가지 간단한 방법으로 구독 ID를 찾을 수 있습니다.
 
-1. [https://portal.azure.com](https://portal.azure.com) -&gt;찾아보기 -&gt; 구독 -&gt; 구독 ID에서
-2. [https://manage.windowsazure.com](https://manage.windowsazure.com) -&gt;설정-&gt; 구독 ID에서
+1. [https://portal.azure.com](https://portal.azure.com ) -&gt; 찾아보기 -&gt; 구독 -&gt; 구독 ID에서
+2. [https://manage.windowsazure.com](https://manage.windowsazure.com ) -&gt; 설정-&gt; 구독 ID에서
 
 구독 ID는 숫자와 문자의 긴 집합으로, 위 \#4단계의 예와 유사합니다. 
 
@@ -70,5 +70,5 @@ Azure 감사 로그 콘텐츠 팩을 사용하려면 Azure Portal에서 감사 �
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](power-bi-overview.md)  
-[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)  
+[Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)  
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a113cf75ae238b19cdc54b03ffc049bdcdfb8368
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0e523707caa38c808c777eb29bb8dcbdc6af5ebf
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150334"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721219"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>멋진 Power BI 대시보드를 디자인하기 위한 팁
 이제 대시보드를 만들고 일부 타일을 추가했으므로 모양과 기능을 개선하는 방법을 살펴보겠습니다. 일반적으로 여기에는 가장 중요한 정보를 돋보이게 하고 깔끔하며 군더더기 없이 만드는 것이 포함됩니다.
@@ -81,5 +81,5 @@ Microsoft의 수석 프로그램 관리자이며 Power BI 대시보드 전문가
 
 ## <a name="next-steps"></a>다음 단계
 [보고서에서 대시보드 만들기](service-dashboard-create.md)  
-[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)  
+[Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

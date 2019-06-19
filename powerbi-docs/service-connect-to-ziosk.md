@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d22f67f52d0abe0621e244874def845c7d25c15b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 51cd08959b0d8ee58a5f121f9ff3269fa8e76511
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61138534"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720423"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Power BI로 Ziosk Survey Analytics에 연결
 Power BI용 Ziosk Survey Analytics 콘텐츠 팩은 Ziosk 태블릿이 있는 레스토랑에 일, 위치, 직원별 구분을 포함하여 Ziosk 설문 조사 데이터에서 제공하는 정보에 최상의 액세스를 제공합니다.
@@ -73,5 +73,5 @@ Power BI용 [Ziosk Survey Analytics 콘텐츠 팩](https://app.powerbi.com/getda
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](power-bi-overview.md)
 
-[Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
+[Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 

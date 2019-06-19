@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 5c42b633b3c8746d2e26656eb5310b1f74cb2500
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 296970466505f01ae9ad11f994fe2008563f4884
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61159826"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720211"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Power BI 서비스에서 데스크톱에 보고서 내보내기(미리 보기)
 Power BI Desktop에서 보고서를 저장하고 **게시**를 선택하여 Power BI 서비스에 보고서를 내보낼(또는 다운로드할) 수 있습니다.  반대 방향으로도 내보내기할 수 있을 뿐 아니라 Power BI 서비스에서 바탕화면으로 보고서를 다운로드할 수 있습니다. 어느 방향으로든 내보내는 파일의 파일 확장명은 *.pbix*입니다.
@@ -68,7 +68,7 @@ Power BI 서비스에서 *.pbix* 파일의 다운로드(내보내기)와 관련�
 또한 여기에 **Power BI 서비스**를 사용 방법을 학습하는 데 도움이 되는 몇 가지 추가 문서가 나와 있습니다.
 
 * [Power BI의 보고서](consumer/end-user-reports.md)
-* [Power BI - 기본 개념](consumer/end-user-basic-concepts.md)
+* [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 
 **Power BI Desktop**을 설치하면 다음 콘텐츠는 빠르게 시작하고 실행하는 데 도움을 줄 수 있습니다.
 

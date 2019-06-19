@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f03f4933566a8c18510ef0ce07b71db61ecfa8fd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770606"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448413"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery를 사용한 Azure SQL Database
 
@@ -42,28 +42,15 @@ DirectQuery를 사용할 경우 보고서 뷰에서 데이터를 탐색할 때 �
 
 DirectQuery를 사용하여 Azure SQL Database에 연결하려면 Power BI Desktop을 사용해야 합니다. 이 방법은 유연성 및 기능을 추가로 제공합니다. Power BI Desktop를 사용하여 만든 보고서는 Power BI 서비스에 게시할 수 있습니다. Power BI Desktop 내에서 [DirectQuery를 사용하는 Azure SQL Database](desktop-use-directquery.md)에 연결하는 방법에 대해 자세히 확인할 수 있습니다.
 
-## <a name="single-sign-on"></a>Single Sign-On
-
-서비스에 Azure SQL DirectQuery 데이터 세트를 게시한 후 Azure AD(Azure Active Directory) OAuth2를 통해 최종 사용자의 SSO(Single Sign-On)를 활성화할 수 있습니다.
-
-SSO를 활성화하려면 데이터 세트에 대한 설정으로 이동하여 **데이터 원본** 탭을 열고 SSO 확인란을 선택합니다.
-
-![Azure SQL DQ 대화 상자 구성](media/service-azure-sql-database-with-direct-connect/sso-dialog.png)
-
-SSO 옵션이 활성화되어 있고 사용자가 데이터 원본을 기반으로 작성된 보고서에 액세스하면 Power BI가 Azure SQL 데이터베이스에 대한 쿼리에 인증된 Azure AD 자격 증명을 보냅니다. 그러면 Power BI가 데이터 원본 수준에서 구성된 보안 설정을 준수할 수 있습니다.
-
-SSO 옵션은 이 데이터 원본을 사용하는 모든 데이터 세트에 적용됩니다. 가져오기 시나리오에 사용되는 인증 방법에는 영향을 주지 않습니다.
-
-> [!Note]
-> Azure MFA(Multi-Factor Authentication)는 지원되지 않습니다. Azure SQL DirectQuery와 함께 SSO를 사용하려는 사용자는 MFA에서 제외해야 합니다.
-
 ## <a name="finding-parameter-values"></a>매개 변수 값 찾기
 
 정규화된 서버 이름과 데이터베이스 이름은 Azure Portal에서 확인할 수 있습니다.
 
 ![새 Azure 포트 업데이트](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
-![Azure portal 업데이트](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
+![Azure Portal 업데이트](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>다음 단계
 

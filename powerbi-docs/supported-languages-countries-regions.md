@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 02fbe26fc4d0c8be0439ca656151ef7712d201b6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61399106"
@@ -166,7 +166,7 @@ Power BI Desktop 애플리케이션의 언어를 설정할 수 있을 뿐만 아
 모델 언어를 설정하는 방법은 다음과 같습니다.
 
 1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**으로 이동합니다.
-2. **글로벌** 아래에서 **국가별 설정**을 선택합니다.
+2. **전역** 아래에서 **국가별 설정**을 선택합니다.
 3. **모델 언어** 상자에서 다른 언어를 선택합니다. 
 
     ![Power BI Desktop에서 모델 언어 설정](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)

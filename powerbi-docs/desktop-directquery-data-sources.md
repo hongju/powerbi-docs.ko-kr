@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/10/2019
+ms.date: 05/31/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dae93a2555101a42f072158f8536319783b3f973
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61305458"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809118"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI의 DirectQuery에서 지원하는 데이터 원본
 
@@ -24,10 +24,11 @@ ms.locfileid: "61305458"
 다음 데이터 원본은 Power BI에서 DirectQuery를 지원합니다.
 
 * Amazon Redshift
-* AtScale (베타)
+* AtScale(베타)
+* Azure Data Explorer
 * Azure HDInsight Spark
-* Azure SQL Database
-* Azure SQL Data Warehouse
+* [Azure SQL Database](service-azure-sql-database-with-direct-connect.md)
+* [Azure SQL Data Warehouse](service-azure-sql-data-warehouse-with-direct-connect.md)
 * Google BigQuery
 * HDInsight 대화형 쿼리
 * IBM DB2 데이터베이스
@@ -39,7 +40,7 @@ ms.locfileid: "61305458"
 * SAP Business Warehouse 메시지 서버
 * SAP HANA
 * Snowflake
-* Spark (버전 0.9 이상)
+* Spark(버전 0.9 이상)
 * SQL Server
 * Teradata 데이터베이스
 * Vertica
@@ -57,22 +58,39 @@ ms.locfileid: "61305458"
 
 | 소스 | 게이트웨이 필요 여부 |
 | --- | --- |
-| SQL Server |예 |
+| Amazon Redshift |아니요 |
+| Azure HDInsight Spark(베타) |아니요 |
 | Azure SQL Database |아니요 |
 | Azure SQL Data Warehouse |아니요 |
-| SAP HANA |예 |
-| Oracle 데이터베이스 |예 |
-| Teradata 데이터베이스 |예 |
-| Amazon Redshift |아니요 |
-| Impala(버전 2.x) |예 |
-| Snowflake |예 |
-| Spark(베타), 버전 0.9 이상 |예 |
-| Azure HDInsight Spark(베타) |아니요 |
+| Google BigQuery |아니요 |
 | IBM Netezza |예 |
+| Impala(버전 2.x) |예 |
+| Oracle 데이터베이스 |예 |
 | SAP Business Warehouse 애플리케이션 서버 |예 |
 | SAP Business Warehouse 메시지 서버 |**Power BI 서비스**에서는 아직 지원되지 않음 |
-| Google BigQuery |아니요 |
+| SAP HANA |예 |
+| Snowflake |예 |
+| Spark(베타), 버전 0.9 이상 |예 |
+| SQL Server |예 |
+| Teradata 데이터베이스 |예 |
 
+## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 원본의 SSO(Single Sign-On)
+
+SSO 옵션이 활성화되어 있고 사용자가 데이터 원본을 기반으로 작성된 보고서에 액세스하면 Power BI는 쿼리에 인증된 Azure AD 자격 증명을 기본 데이터 원본으로 보냅니다. 그러면 Power BI가 데이터 원본 수준에서 구성된 보안 설정을 준수할 수 있습니다.
+
+SSO 옵션은 이 데이터 원본을 사용하는 모든 데이터 세트에 적용됩니다. 가져오기 시나리오에 사용되는 인증 방법에는 영향을 주지 않습니다. 다음 데이터 원본은 DirectQuery를 통한 연결에 대해 SSO를 지원합니다.
+
+- Azure SQL Database
+- Azure SQL Data Warehouse
+- Impala
+- SAP HANA
+- SAP BW
+- Spark
+- SQL Server
+- Teradata
+
+> [!Note]
+> Azure MFA(Multi-Factor Authentication)는 지원되지 않습니다. DirectQuery와 함께 SSO를 사용하려는 사용자는 MFA에서 제외해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 DirectQuery에 대한 자세한 내용은 다음 리소스를 참조하세요.
