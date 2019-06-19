@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 02fbe26fc4d0c8be0439ca656151ef7712d201b6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61399106"
