@@ -147,7 +147,7 @@ in
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
-이미지 태그 지정 함수를 선택하고 열 필드에 _[Binary]_ , 문화권 정보 필드 _en_ 을 입력합니다. 
+이미지 태그 지정 함수를 선택하고 열 필드에 _[Binary]_ , 문화권 정보 필드 _en_을 입력합니다. 
 
 > [!NOTE]
 > 현재는 드롭다운을 사용하여 열을 선택할 수 없습니다. 이 문제는 비공개 미리 보기 기간에 최대한 신속하게 해결될 것입니다.
