@@ -12,7 +12,7 @@ ms.date: 03/12/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65565277"
@@ -42,7 +42,7 @@ Premium 구독이 만료되면 30일 동안 용량에 대한 전체 액세스 �
 
     ![Office 365 앱 선택](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    또는 Microsoft 365 관리 센터로 이동할 수 있습니다. https://portal.office.com으로 이동하여 **관리자**를 선택하면 도달할 수 있습니다.
+    또는 Microsoft 365 관리 센터로 이동할 수 있습니다. [https://portal.office.com](https://portal.office.com ) 으로 이동하여 **관리자**를 선택하면 도달할 수 있습니다.
 
 1. **청구** > **서비스 구매**를 선택합니다.
 
