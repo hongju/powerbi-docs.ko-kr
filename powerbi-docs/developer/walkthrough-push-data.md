@@ -18,9 +18,9 @@ ms.locfileid: "66222152"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI 데이터 세트에 데이터 푸시
 
-Power BI API를 사용하여 Power BI 데이터 세트에 데이터를 푸시합니다. 이 문서에서는 기존 데이터 집합으로 Product 테이블을 포함 하는 Sales Marketing 데이터 집합을 푸시하는 방법을 살펴보겠습니다.
+Power BI API를 사용하여 Power BI 데이터 세트에 데이터를 푸시합니다. 이 문서에서는 Product 테이블을 포함하는 Sales Marketing 데이터 세트를 기존 데이터 세트로 푸시하는 방법을 살펴보겠습니다.
 
-시작 하기 전에, Azure Active Directory (Azure AD)와 [Power BI 계정](create-an-azure-active-directory-tenant.md)이 필요합니다.
+시작하기 전에, Azure Active Directory(Azure AD)와 [Power BI 계정](create-an-azure-active-directory-tenant.md)이 필요합니다.
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>데이터 세트에 데이터를 푸시하는 단계
 
@@ -34,7 +34,7 @@ Power BI API를 사용하여 Power BI 데이터 세트에 데이터를 푸시합
 
 ## <a name="power-bi-api-operations-to-push-data"></a>데이터를 푸시하는 Power BI API 작업
 
-Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱이 데이터 세트에 행을 추가하면, 대시보드 타일은 자동으로 새 데이터로 업데이트 합니다. 데이터를 푸시 하려면 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)와 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 사용합니다. 데이터 세트를 찾으려면, [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업을 사용합니다. 이러한 작업에 대한 그룹을 사용하여 작업 하기 위해 그룹 ID를 전달할 수 있습니다. 그룹 ID 목록을 얻기 위해서, [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) 작업을 사용합니다.
+Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱이 데이터 세트에 행을 추가하면, 대시보드 타일은 자동으로 새 데이터로 업데이트됩니다. 데이터를 푸시하려면 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)와 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 사용합니다. 데이터 세트를 찾으려면, [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업을 사용합니다. 이러한 작업에 대한 그룹을 사용하여 작업하기 위해 그룹 ID를 전달할 수 있습니다. 그룹 ID 목록을 얻기 위해서는, [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) 작업을 사용합니다.
 
 데이터 세트에 데이터를 푸시하는 작업은 다음과 같습니다.
 
@@ -59,7 +59,7 @@ Power BI에서 데이터 세트를 만들려면 Power BI 서비스에 JSON(JavaS
         ]
     }
 
-Sales Marketing 데이터 세트 예제의 경우 아래와 같이 JSON 문자열로 전달 합니다. 이 예에서 **SalesMarketing** 은 데이터 세트 이름이며 **Product**은 테이블 이름입니다. 테이블을 정의한 후 테이블 스키마를 정의할 수 있습니다. **SalesMarketing** 데이터 세트의 경우 테이블 스키마는 다음 열을 포함합니다. ProductID, Manufacturer, Category, Segment, Product 및 IsCompete.
+Sales Marketing 데이터 세트 예제의 경우 아래와 같이 JSON 문자열로 전달합니다. 이 예에서 **SalesMarketing**은 데이터 세트 이름이며 **Product**은 테이블 이름입니다. 테이블을 정의한 후 테이블 스키마를 정의할 수 있습니다. **SalesMarketing** 데이터 세트의 경우 테이블 스키마는 다음 열을 포함합니다. ProductID, Manufacturer, Category, Segment, Product 및 IsCompete.
 
 **예제 데이터 세트 개체 JSON**
 
