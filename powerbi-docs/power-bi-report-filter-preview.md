@@ -18,6 +18,7 @@ ms.lasthandoff: 05/29/2019
 ms.locfileid: "65853486"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI 보고서의 새 필터 환경(미리 보기)
+
 Power BI에서 필터에 새로운 기능 및 새 디자인이 있습니다. 새 필터 환경을 선택하면 필터 창을 보고서의 나머지 부분처럼 보이도록 서식을 지정할 수 있습니다. 필터를 잠그거나 숨길 수 있습니다. 보고서를 디자인할 때 시각화 창에서 이전 필터 창을 더 이상 볼 수 없습니다. 단일 필터 창에서 모든 필터를 편집하고 서식을 지정합니다. 
 
 ![새 필터 환경](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
@@ -41,7 +42,7 @@ Power BI에서 필터에 새로운 기능 및 새 디자인이 있습니다. 새
 
 ## <a name="turn-on-the-new-filter-experience"></a>새 필터 환경 설정 
 
-Power BI Desktop에서 새 환경을 사용하도록 설정합니다. 그런 다음, 보고서나 Power BI 서비스(https://app.powerbi.com))에서 필터를 수정할 수 있습니다. 이 새 필터 환경은 미리 보기로 제공되므로 먼저 Power BI Desktop에서 사용하도록 설정해야 합니다. Power BI 서비스에서 보고서를 만들어 시작하면 새 필터를 사용할 수 없습니다.
+Power BI Desktop에서 새 환경을 사용하도록 설정합니다. 그런 다음, 보고서나 Power BI 서비스(https://app.powerbi.com) )에서 필터를 수정할 수 있습니다. 이 새 필터 환경은 미리 보기로 제공되므로 먼저 Power BI Desktop에서 사용하도록 설정해야 합니다. Power BI 서비스에서 보고서를 만들어 시작하면 새 필터를 사용할 수 없습니다.
 
 ### <a name="turn-on-new-filters-for-all-new-reports"></a>모든 새 보고서에 대해 새 필터 설정
 
@@ -225,7 +226,7 @@ Power BI Desktop을 다시 시작한 후에는 사용자가 만드는 모든 새
 ![필터 창 내게 필요한 옵션](media/power-bi-report-filter-preview/power-bi-filter-accessible.png)
 
 ## <a name="rename-filters"></a>필터 이름 바꾸기
-필터 창에서 편집할 때 제목을 두 번 클릭하여 편집합니다. 이름을 변경하는 것은 최종 사용자가 더 잘 이해할 수 있도록 필터 카드를 업데이트하려는 경우에 유용합니다. 필터 카드의 이름을 변경해도 필드 목록의 필드 표시 이름은 변경되지 않습니다. 필터 카드에 사용된 표시 이름만 변경됩니다.
+필터 창에서 편집할 때 제목을 두 번 클릭하여 편집합니다. 이름을 변경하는 것은 최종 사용자가 더 잘 이해할 수 있도록 필터 카드를 업데이트하려는 경우에 유용합니다. 필터 카드의 이름을 변경해도 필드 목록의 필드 표시 이름은 변경*되지* 않습니다. 필터 카드에 사용된 표시 이름만 변경됩니다.
 
 ![필터 이름 바꾸기](media/power-bi-report-filter-preview/power-bi-filter-rename.png)
 
