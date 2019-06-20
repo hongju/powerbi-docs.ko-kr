@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d62ad0624a19666e4ac1e59927df9eade6e4df33
+ms.sourcegitcommit: 8054aa9622d97b196ef6cd087fd9e1d8dad3d9de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750976"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "67144925"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -141,17 +141,9 @@ ms.locfileid: "66750976"
 <br>작성자: US Medical IT의 Stephen Cracknell 및 Stuart Macanliss
 <br>[등록 및 지금 보기](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**위치 인텔리전스를 사용하여 BI 강화**
-<br>작성: Esri의 Scott Ball 및 Microsoft의 Enrique Plaza
-<br>[등록 및 지금 보기](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
-
 **영업 및 서비스를 위한 응용 인텔리전스**
 <br>작성자: Avanade의 Ed Bobrin
 <br>[등록 및 지금 보기](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
-**성공하는 트렌드 큐레이터의 5가지 습관 - Rohit Bhargava**
-<br>작성자: Non-Obvious의 Rohit Bhargava
-<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **제조업체: 디지털 변신은 진행 중 - 분석을 활용하여 리더십을 유지하고 수익성 극대화**
 <br>작성자: Blue Margin의 Jon Thompson 및 Elgin Fastener Group의 Jim Pastor
@@ -160,6 +152,14 @@ ms.locfileid: "66750976"
 **새 Power BI 및 data.world 커넥터를 사용하여 퍼블릭 또는 프라이빗 데이터 세트 시각화**
 <br>작성자: Patrick McGarry 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
+**위치 인텔리전스를 사용하여 BI 강화**
+<br>작성: Esri의 Scott Ball 및 Microsoft의 Enrique Plaza
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
+
+**성공하는 트렌드 큐레이터의 5가지 습관 - Rohit Bhargava**
+<br>작성자: Non-Obvious의 Rohit Bhargava
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 ### <a name="community"></a>커뮤니티 ###
 
