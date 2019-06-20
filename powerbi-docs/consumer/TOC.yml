@@ -106,6 +106,8 @@
       items:
         - name: 용어집 및 용어
           href: end-user-glossary.md
+        - name: 질문과 대답
+          href: end-user-faq.md
         - name: 지원되는 브라우저
           href: end-user-browsers.md
         - name: Power BI에서 지원되는 신속한 정보 활용 유형
