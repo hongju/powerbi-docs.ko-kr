@@ -11,7 +11,7 @@ ms.date: 03/20/2018
 ms.author: mshenhav
 ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61274651"
@@ -25,7 +25,7 @@ ms.locfileid: "61274651"
 
 [Power BI Pro 라이선스](../../service-features-license-type.md)를 사용하면 Power BI 모바일 앱에서 링크를 공유하여 다른 사용자가 대시보드 및 보고서를 보도록 초대할 수 있습니다. 회사 메일 계정을 사용하거나 사용하지 않고 조직 내외부에서 다른 사용자와 공유할 수 있습니다. 다른 사용자도 Power BI Pro 라이선스가 필요합니다. 또는 콘텐츠가 [프리미엄 용량](../../service-premium-what-is.md)에 있어야 합니다.
 
-iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일, 보고서 또는 시각화 개체의 스냅숏에 주석을 달고 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)할 수 있습니다. 
+iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일, 보고서 또는 시각화 개체의 스냅샷에 주석을 달고 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)할 수 있습니다. 
 
 ## <a name="share-from-your-iphone"></a>iPhone에서 공유
 1. 대시보드 또는 보고서 아래쪽의 작업 표시줄에서 **공유** 아이콘 ![공유 아이콘](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png)을 누릅니다.

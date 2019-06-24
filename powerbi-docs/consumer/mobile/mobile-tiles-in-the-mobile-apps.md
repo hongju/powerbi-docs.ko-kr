@@ -1,6 +1,6 @@
 ---
 title: Power BI 모바일 앱에서 타일 탐색
-description: 타일은 데이터의 라이브 스냅숏이며 대시보드에 고정됩니다. Power BI 모바일 앱에 있는 타일과 상호 작용하는 방법에 대해 알아봅니다.
+description: 타일은 데이터의 라이브 스냅샷이며 대시보드에 고정됩니다. Power BI 모바일 앱에 있는 타일과 상호 작용하는 방법에 대해 알아봅니다.
 author: mshenhav
 manager: kfile
 ms.reviewer: ''
@@ -11,7 +11,7 @@ ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "60978247"
@@ -23,7 +23,7 @@ ms.locfileid: "60978247"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
-타일은 데이터의 라이브 스냅숏이며 대시보드에 고정됩니다. 값은 데이터 변경에 따라 변경됩니다. **[Power BI 서비스에서 대시보드에 타일을 추가합니다](../end-user-tiles.md).** 
+타일은 데이터의 라이브 스냅샷이며 대시보드에 고정됩니다. 값은 데이터 변경에 따라 변경됩니다. **[Power BI 서비스에서 대시보드에 타일을 추가합니다](../end-user-tiles.md).** 
 
 그런 다음 Power BI 모바일 앱에서 포커스 모드로 타일을 열고 상호 작용합니다. Bing 및 R에 기반한 타일을 포함하여 모든 종류의 시각적 개체로 타일을 열 수 있습니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "60978247"
     포커스 모드에서는 다음 작업을 수행할 수 있습니다.
    
    * 차트를 눌러서 꺾은선형, 가로 막대형, 열 또는 거품 차트에서 가로 막대를 이동하거나 시각화에서 특정 지점에 대한 값을 봅니다.  
-   * 스냅숏 공유 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)을 탭하여 [타일에 주석을 달고 다른 사용자와 공유합니다](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
+   * 스냅샷 공유 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)을 탭하여 [타일에 주석을 달고 다른 사용자와 공유합니다](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
    * 보고서 열기 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)을 탭하여 모바일 앱에서 [보고서를 봅니다](mobile-reports-in-the-mobile-apps.md).
 3. 경우에 따라 대시보드 작성자는 타일에 대한 링크를 추가합니다. 그러면 세로 줄임표( **...** )를 누를 때 **링크 열기**![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)가 표시됩니다.
    
@@ -116,7 +116,7 @@ ms.locfileid: "60978247"
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   스냅숏 공유 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png)을 탭하여 다른 사람과 [타일을 공유](mobile-windows-10-phone-app-get-started.md)합니다.   
+   스냅샷 공유 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png)을 탭하여 다른 사람과 [타일을 공유](mobile-windows-10-phone-app-get-started.md)합니다.   
    
    보고서 열기 아이콘 ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)을 탭하여 타일의 기반이 되는 [보고서를 봅니다](mobile-reports-in-the-mobile-apps.md). 
 4. 뒤로 화살표 또는 뒤로 단추를 탭하여 타일을 닫고 대시보드로 돌아갑니다.

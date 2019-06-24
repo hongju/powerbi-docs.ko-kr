@@ -12,7 +12,7 @@ ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61059858"
@@ -79,7 +79,7 @@ ms.locfileid: "61059858"
 
 
 ## <a name="subscribe-to-see-changes"></a>변경 내용을 확인하기 위해 구독
-최신 상태를 유지하는 또 다른 방법은 보고서 또는 대시보드를 구독하는 것입니다. 로그인하거나 보고서나 대시보드를 여는 대신 설정한 일정에 따라 스냅숏을 보내도록 Power BI에 지시합니다.  자세한 내용은 [대시보드 및 보고서 구독](end-user-subscribe.md)을 참조하세요.
+최신 상태를 유지하는 또 다른 방법은 보고서 또는 대시보드를 구독하는 것입니다. 로그인하거나 보고서나 대시보드를 여는 대신 설정한 일정에 따라 스냅샷을 보내도록 Power BI에 지시합니다.  자세한 내용은 [대시보드 및 보고서 구독](end-user-subscribe.md)을 참조하세요.
 
 ## <a name="set-data-alerts"></a>데이터 경고 설정
 데이터가 설정한 한도 이상 또는 초과로 변경되는 경우 알림을 받으시겠습니까? [데이터 경고 만들기](end-user-alerts.md).  데이터 경고를 사용하면 최신 상태를 유지하기가 쉽습니다. 데이터 경고를 사용하면 보고서의 값이 특정 임계값을 통과하는 경우 이메일을 보내도록 Power BI에 지시할 수 있습니다.  예를 들어 인벤토리가 25단위 미만으로 떨어질 경우 또는 판매가 목표를 초과하는 경우  
