@@ -12,7 +12,7 @@ ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1fc8decc70ade009a7c4236686cfe9cf72adb54d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61161717"
@@ -23,7 +23,7 @@ Power BI를 사용하면 SQL Sentry를 통해 수집한 성능 데이터를 쉽�
 Power BI용 [SQL Sentry 콘텐츠 팩](https://app.powerbi.com/groups/me/getdata/services/sql-sentry)에 연결합니다.
 
 >[!NOTE]
->연결하려면 http://cloud.sqlsentry.com에 연결하는 데 사용하는 SQL Sentry 계정에 대한 액세스 권한과 모니터링할 데이터베이스 ID가 필요합니다.  데이터베이스 ID를 찾을 위치에 대한 지침이 아래에 나와 있습니다.
+>연결하려면 [http://cloud.sqlsentry.com](http://cloud.sqlsentry.com )에 연결하는 데 사용하는 SQL Sentry 계정에 대한 액세스 권한과 모니터링할 데이터베이스 ID가 필요합니다.  데이터베이스 ID를 찾을 위치에 대한 지침이 아래에 나와 있습니다.
 
 ## <a name="how-to-connect"></a>연결 방법
 1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.
