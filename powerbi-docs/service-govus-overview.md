@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 9cf3eea99813d315c72f3210f3938deae94505b0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 554a5de238af650ab4009669d55a2fadedd4a29f
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61234532"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809128"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.

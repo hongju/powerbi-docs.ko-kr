@@ -1,21 +1,21 @@
 ---
 title: Power BI Premium의 증분 새로 고침
 description: Power BI Premium 서비스에서 매우 큰 데이터 세트를 사용하는 방법을 알아봅니다.
-author: christianwade
+author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/10/2019
-ms.author: chwade
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ee5ec87e04517ce93589b371e97116acbcb02e87
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65536137"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408575"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium의 증분 새로 고침
 
@@ -41,7 +41,7 @@ ms.locfileid: "65536137"
 
 #### <a name="rangestart-and-rangeend-parameters"></a>RangeStart 및 RangeEnd 매개 변수
 
-증분 새로 고침의 경우 예약된 대/소문자 구분 이름 **RangeStart** 및 **RangeEnd**가 포함된 파워 쿼리 날짜/시간 매개 변수를 사용하여 데이터 세트를 필터링합니다. 이러한 매개 변수는 Power BI Desktop으로 가져온 데이터를 필터링하고, Power BI 서비스에 게시된 데이터를 범위에 동적으로 분할하는 데 사용됩니다. 매개 변수 값은 각 파티션에 대해 필터링하기 위한 서비스로 대체됩니다. 일단 게시되면 Power BI 서비스에서 매개 변수 값이 자동으로 재정의됩니다. 따라서 서비스의 데이터 세트 설정에서 이를 설정할 필요가 없습니다. 일단 게시되면 Power BI 서비스에서 매개 변수 값이 자동으로 재정의됩니다. 
+증분 새로 고침의 경우 예약된 대/소문자 구분 이름 **RangeStart** 및 **RangeEnd**가 포함된 파워 쿼리 날짜/시간 매개 변수를 사용하여 데이터 세트를 필터링합니다. 이러한 매개 변수는 Power BI Desktop으로 가져온 데이터를 필터링하고, Power BI 서비스에 게시된 데이터를 범위에 동적으로 분할하는 데 사용됩니다. 매개 변수 값은 각 파티션에 대해 필터링하기 위한 서비스로 대체됩니다. 따라서 서비스의 데이터 세트 설정에서 이를 설정할 필요가 없습니다. 일단 게시되면 Power BI 서비스에서 매개 변수 값이 자동으로 재정의됩니다.
 
 매개 변수를 기본값으로 정의하려면 파워 쿼리 편집기에서 **매개 변수 관리**를 선택합니다.
 
@@ -163,4 +163,4 @@ in
 
 ## <a name="limitations"></a>제한 사항
 
-현재, [복합 모델](desktop-composite-models.md), SQL, Oracle에 증분 새로 고침은 지원 및 Teradata 데이터 원본만 합니다.
+현재 [복합 모델](desktop-composite-models.md)의 경우 SQL, Oracle 및 Teradata 데이터 원본에 대해서만 증분 업데이트가 지원됩니다.

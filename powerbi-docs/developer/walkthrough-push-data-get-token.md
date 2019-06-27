@@ -8,42 +8,49 @@ ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 05/29/2019
+ms.openlocfilehash: 5cb741d194d787014fec39f963e19d04de59a668
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710368"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809084"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2단계: 인증 액세스 토큰 가져오기
 
-이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
+이 문서는 시리즈 [Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md)의 두 번째 단계입니다.
 
-데이터 세트에 데이터 푸시의 **1단계**인 [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)에서는 Azure AD에 클라이언트 앱을 등록했습니다. 이 단계에서는 인증 액세스 토큰을 가져옵니다. Power BI 앱이 **Azure AD** 와 통합되어 보안 로그인 및 앱에 대한 권한 부여를 제공합니다. 토큰을 사용하여 **Azure AD** 에 인증하고 Power BI 리소스에 액세스할 수 있습니다.
-
-인증 액세스 토큰을 가져오는 방법은 다음과 같습니다.
+1단계에서 [Azure AD에 클라이언트 앱을 등록했습니다](walkthrough-push-data-register-app-with-azure-ad.md). 이 단계에서는 인증 액세스 토큰을 가져옵니다. Power BI 앱이 Azure Active Directory와 통합되어 앱에 보안 로그인 및 앱에 권한 부여를 제공합니다. 앱은 토큰을 사용하여 Azure AD에 인증하고 Power BI 리소스에 액세스합니다.
 
 ## <a name="get-an-authentication-access-token"></a>인증 액세스 토큰 가져오기
 
-> **참고**: 시작하기 전에 [데이터 세트에 데이터 푸시](walkthrough-push-data.md)의 이전 단계를 수행해야 합니다.
+시작하기 전에 [Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md) 시리즈에서 [이전 단계](walkthrough-push-data-register-app-with-azure-ad.md)를 완료했는지 확인합니다. 
 
-1. Visual Studio 2015 이상에서 만들기를 **콘솔 응용 프로그램** 프로젝트입니다.
-2. [.NET NuGet 패키지용 Azure AD 인증 라이브러리](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)를 설치합니다. .NET 앱에서 인증 보안 토큰을 가져오려면 이 패키지를 사용합니다. 패키지를 설치하는 방법은 다음과 같습니다.
+이 프로시저를 수행하려면 Visual Studio 2015 이상이 필요합니다.
 
-     a. Visual studio 2015 이상 **도구가** > **NuGet 패키지 관리자** > **패키지 관리자 콘솔**합니다.
+1. Visual Studio에서 새 C# **콘솔 애플리케이션** 프로젝트를 만듭니다.
 
-     b. **패키지 관리자 콘솔**에서 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612를 입력합니다.
-3. 아래 코드를 class Program {...}에 추가합니다.
-4. "{ClientID}"는 앱을 등록할 때 가져온 **클라이언트 ID** 로 바꿉니다. [Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)을 참조하세요.
-5. Microsoft.IdentityModel.Clients.ActiveDirectory 패키지를 설치한 후 **using Microsoft.IdentityModel.Clients.ActiveDirectory;** 를 Program.cs에 추가합니다.
-6. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. 토큰 문자열이 콘솔 창에 표시됩니다.
+2. [.NET NuGet 패키지용 Azure AD 인증 라이브러리](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)를 설치합니다. .Net 앱에서 인증 보안 토큰을 가져오려면 이 패키지가 필요합니다. 
+
+     a. **도구** > **NuGet 패키지 관리자** > **패키지 관리자 콘솔**을 선택합니다.
+
+     b. **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**를 입력합니다.
+
+     c. Program.cs에 `using Microsoft.IdentityModel.Clients.ActiveDirectory;`를 추가합니다.
+
+3. 이 단계 다음에 나열된 샘플 코드를 Program.cs에 추가합니다.
+
+4. 앱을 등록할 때 [이전 시리즈 문서](walkthrough-push-data-register-app-with-azure-ad.md)에서 가져온 **클라이언트 ID**가 있는 "{ClientID}"로 바꿉니다.
+
+5. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. 
+
+   토큰 문자열이 콘솔 창에 나타나야 합니다.
 
 **인증 보안 토큰을 가져오는 샘플 코드**
 
 Program {...}에 이 코드를 추가합니다.
 
-* 작업을 호출하는 토큰 변수:
+* 작업을 호출하는 토큰 변수: 
   
   ```csharp
   private static string token = string.Empty;
@@ -104,13 +111,10 @@ Program {...}에 이 코드를 추가합니다.
        #endregion
 ```
 
-인증 토큰을 가져온 후에는 원하는 Power BI 작업을 호출할 수 있습니다. 다음 단계에서는 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업을 호출하여 대시보드에 데이터를 푸시할 데이터 세트를 만드는 방법을 보여 줍니다.
+인증 토큰을 가져온 후에는 원하는 Power BI 작업을 호출할 수 있습니다.
 
-다음 단계에서는 [Power BI에서 데이터 세트를 만드는](walkthrough-push-data-create-dataset.md) 방법을 보여 줍니다.
+이 시리즈의 다음 문서에서는 [Power BI에서 데이터 세트를 만드는](walkthrough-push-data-create-dataset.md) 방법을 보여 줍니다.
 
-다음은 [전체 코드 목록](#code)입니다.
-
-<a name="code"/>
 
 ## <a name="complete-code-listing"></a>전체 코드 목록
 
@@ -175,14 +179,13 @@ namespace walkthrough_push_data
 }
 ```
 
-[다음 단계 >](walkthrough-push-data-create-dataset.md)
+
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI에서 데이터 세트 만들기](walkthrough-push-data-create-dataset.md)  
-[Azure AD에 앱 등록](walkthrough-push-data-register-app-with-azure-ad.md)  
-[.NET NuGet 패키지용 Azure AD 인증 라이브러리](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
-[Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md)  
+[이 시리즈의 다음 문서 > Power BI에서 데이터 세트 만들기](walkthrough-push-data-create-dataset.md)
+
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  
+[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
+
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

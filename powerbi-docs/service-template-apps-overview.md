@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578525"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751092"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>Power BI 템플릿 앱이란? (미리 보기)
 
@@ -24,10 +24,10 @@ ms.locfileid: "64578525"
 
 고객이 자신의 계정으로 연결하고 인스턴스화할 수 있는 템플릿 앱을 빌드합니다. 도메인 전문가는 비즈니스 사용자가 쉽게 사용할 수 있는 방식으로 데이터의 잠금을 해제할 수 있습니다.  
 
-템플릿 앱을 클라우드 파트너 포털에 제출합니다. 그런 다음, 이 앱은 Power BI 앱 갤러리(app.powerbi.com/getdata/services) 및 Microsoft AppSource(appsource.microsoft.com)에서 공개적으로 사용할 수 있게 됩니다. 공용 템플릿 앱 생성 환경 살펴봅니다 다음과 같습니다.  
+템플릿 앱을 Cloud 파트너 포털에 제출합니다. 그런 다음, 이 앱은 Power BI 앱 갤러리(app.powerbi.com/getdata/services) 및 Microsoft AppSource(appsource.microsoft.com)에서 공개적으로 사용할 수 있게 됩니다. 다음은 공용 템플릿 앱 생성 환경을 개괄적으로 살펴봅니다.  
 
 ## <a name="process"></a>프로세스
-개발 및 템플릿 앱을 제출 하는 일반적인 프로세스는 몇 가지 단계가 포함 됩니다. 일부 단계는 동시에 둘 이상의 작업을 포함할 수 있습니다.
+템플릿 앱을 개발하고 제출하는 일반적인 프로세스는 여러 단계로 구성됩니다. 일부 단계는 동시에 둘 이상의 작업을 포함할 수 있습니다.
 
 
 | 단계 | Power BI Desktop |  |Power BI 서비스  |  |Cloud 파트너 포털  |

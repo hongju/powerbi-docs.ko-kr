@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: d8cebda3ad0db9fba48804fb8d2dd029c1c07f8d
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174985"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809265"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용
 
@@ -195,9 +195,7 @@ Kerberos가 게이트웨이에서 어떻게 작동하는지 이해했으므로 S
 ### <a name="set-up-gsskrb5-on-client-machines-and-the-sap-bw-server"></a>클라이언트 머신 및 SAP BW 서버에 gsskrb5 설정
 
 > [!NOTE]
-> `gsskrb5`는 SAP에서 더 이상 적극적으로 지원되지 않습니다. 자세한 내용은 [SAP 참고 352295](https://launchpad.support.sap.com/#/notes/352295)를 참조하세요. 또한 `gsskrb5`는 데이터 게이트웨이에서 SAP BW Message Server로의 SSO 연결을 허용하지 않습니다. SAP BW Application Server에 대한 연결만 가능합니다.
-
-게이트웨이를 통해 SSO 연결을 완료하려면 클라이언트 및 서버에서 모두 `gsskrb5`를 사용 중이어야 합니다. 공용 암호화 라이브러리(sapcrypto)는 현재 지원되지 않습니다.
+> `gsskrb5`는 SAP에서 더 이상 적극적으로 지원되지 않습니다. 자세한 내용은 [SAP 참고 352295](https://launchpad.support.sap.com/#/notes/352295)를 참조하세요. 또한 `gsskrb5`는 데이터 게이트웨이에서 SAP BW Message Server로의 SSO 연결을 허용하지 않습니다. SAP BW Application Server에 대한 연결만 가능합니다. 게이트웨이를 통해 SSO 연결을 완료하려면 클라이언트 및 서버에서 모두 `gsskrb5`를 사용 중이어야 합니다. 이제 SAP BW용 공용 암호화 라이브러리(sapcrypto)를 지원합니다.
 
 1. [SAP 노트 2115486](https://launchpad.support.sap.com/)에서 `gsskrb5` - `gx64krb5`를 다운로드합니다(SAP s-user 필요). gsskrb5.dll 및 gx64krb5.dll의 버전이 1.0.11.x 이상인지 확인합니다.
 
@@ -398,7 +396,7 @@ Azure AD Connect를 구성하지 않은 경우 Azure AD 사용자에게 매핑�
 
 **온-프레미스 데이터 게이트웨이** 및 **DirectQuery**에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
-* [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)
+* [On-premises data gateway (온-프레미스 데이터 게이트웨이)](service-gateway-onprem.md)
 * [Power BI의 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
 * [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)

@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
-ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
-ms.translationtype: MT
+ms.openlocfilehash: f06632e80bad8796ded3e3616836832967435b24
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66051154"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809255"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI에 대한 데이터 게이트웨이 배포 지침
 
-이 문서는 네트워크 환경에서 데이터 게이트웨이를 배포하기 위한 고려 사항 및 지침을 제공합니다. **게이트웨이**는 사설 온-프레미스 네트워크에 상주하는 데이터가 차후 Power BI 등의 클라우드 서비스에서 사용될 수 있게 데이터 액세스를 용이하게 하는 소프트웨어입니다. 이 문서는 배포를 안내하고 **온-프레미스 데이터 게이트웨이** 설정에 대한 지침을 제공합니다.
+이 문서는 네트워크 환경에서 데이터 게이트웨이를 배포하기 위한 고려 사항 및 지침을 제공합니다. **게이트웨이**는 프라이빗 온-프레미스 네트워크에 상주하는 데이터가 차후 Power BI 등의 클라우드 서비스에서 사용될 수 있게 데이터 액세스를 용이하게 하는 소프트웨어입니다. 이 문서는 배포를 안내하고 **온-프레미스 데이터 게이트웨이** 설정에 대한 지침을 제공합니다.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
@@ -42,7 +42,7 @@ ms.locfileid: "66051154"
 ### <a name="connection-type"></a>연결 유형
 **Power BI**는 다음 두 가지 유형의 연결을 제공합니다. **DirectQuery** 및 **가져오기**. 모든 데이터 원본은 두 연결 유형을 모두 제공하지 않으며 보안 요구 사항, 성능, 데이터 제한 사항 및 데이터 모델 크기와 같은 많은 이유는 하나를 선택하는 데 원인이 될 수 있습니다. [온-프레미스 데이터 게이트웨이 문서](service-gateway-onprem.md)의 *사용 가능한 데이터 원본 유형 목록* 섹션에서 연결 유형 및 지원되는 데이터 원본에 대해 자세히 알아볼 수 있습니다.
 
-어떤 유형의 연결, 사용에 따라 게이트웨이 사용량은 달라질 수 있습니다. 예를 들어 가능할 때마다 **DirectQuery** 데이터 원본을 **예약된 새로 고침** 데이터 원본에서 분리하려고 시도해야 합니다(다른 보고서에 있고 구분될 수 있다고 가정). 수천 개의에서 게이트웨이 방지 이렇게 **DirectQuery** , 회사의 기본 대시보드에 사용 되는 대규모 데이터 모델의 아침의 예약 된 새로 고침으로 동시에 대기 중인 요청입니다. 다음은 각각에 대해 고려해야 할 사항입니다.
+사용되는 연결 유형에 따라 게이트웨이 사용량이 다를 수 있습니다. 예를 들어 가능할 때마다 **DirectQuery** 데이터 원본을 **예약된 새로 고침** 데이터 원본에서 분리하려고 시도해야 합니다(다른 보고서에 있고 구분될 수 있다고 가정). 이렇게 하면 회사의 기본 대시보드에 사용되는 대형 데이터 모델의 아침의 예약된 새로 고침처럼 게이트웨이에 수천 개의 **DirectQuery** 요청이 동시에 대기하는 것을 방지합니다. 다음은 각각에 대해 고려해야 할 사항입니다.
 
 * **예약된 새로 고침**의 경우: 쿼리 크기 및 하루당 발생하는 새로 고침 수에 따라 권장되는 최소 하드웨어 요구 사항 간의 상태를 유지하거나 더 높은 성능 컴퓨터로 업그레이드하도록 선택할 수 있습니다. 지정된 쿼리가 폴딩되지 않거나 게이트웨이 컴퓨터에 변환이 발생하는 경우 게이트웨이 컴퓨터는 사용 가능한 더 많은 RAM을 가짐으로써 혜택을 받습니다.
 * **DirectQuery**의 경우: 사용자가 보고서를 열거나 데이터를 볼 때마다 쿼리가 전송됩니다. 따라서 데이터에 동시에 액세스하는 1,000명 이상의 사용자를 예상하는 경우 컴퓨터에 강력하고 가능한 하드웨어 구성 요소가 있는지 확인합니다. 더 많은 CPU 코어는 **DirectQuery** 연결에 대한 더 나은 처리량을 가져옵니다.
@@ -104,14 +104,34 @@ ms.locfileid: "66051154"
 
 게이트웨이에는 인바운드 포트가 필요하지 *않습니다*. 모든 필수 포트는 위 목록에 나와 있습니다.
 
-방화벽에, 데이터 영역에 대한, IP 주소 허용 목록을 작성하는 것이 좋습니다. [Microsoft Azure 데이터 센터 IP 목록](https://www.microsoft.com/download/details.aspx?id=41653)에 있는 IP 주소의 목록을 다운로드할 수 있습니다. 해당 목록은 매주 업데이트됩니다. 게이트웨이는 정규화된 도메인 이름(FQDN)과 함께 특정 IP 주소를 사용하여 **Azure Service Bus**와 통신합니다. 게이트웨이가 HTTPS를 사용하여 통신하도록 강제 적용하는 경우 게이트웨이는 엄격하게 FQDN만을 사용하며 IP 주소를 사용하여 통신이 발생하지 않습니다.
+방화벽에서 데이터 영역의 허용 목록에 IP 주소를 추가하는 것이 좋습니다. [Microsoft Azure 데이터 센터 IP 목록](https://www.microsoft.com/download/details.aspx?id=41653)에 있는 IP 주소의 목록을 다운로드할 수 있습니다. 해당 목록은 매주 업데이트됩니다. 게이트웨이는 정규화된 도메인 이름(FQDN)과 함께 특정 IP 주소를 사용하여 **Azure Service Bus**와 통신합니다. 게이트웨이가 HTTPS를 사용하여 통신하도록 강제 적용하는 경우 게이트웨이는 엄격하게 FQDN만을 사용하며 IP 주소를 사용하여 통신이 발생하지 않습니다.
 
 #### <a name="forcing-https-communication-with-azure-service-bus"></a>HTTPS가 Azure Service Bus와 통신하도록 강제 적용
-게이트웨이가 직접 TCP 대신 HTTPS를 사용하여 **Azure Service Bus**와 통신하도록 강제할 수 있습니다. 이렇게 하면 성능이 약간 저하됩니다. 또한 게이트웨이의 사용자 인터페이스를 사용하여 HTTPS를 사용하여 게이트웨이가 **Azure Service Bus**와 통신하도록 강제할 수도 있습니다(게이트웨이의 2017년 3월 릴리스 시작).
 
-이를 위해 게이트웨이에서 **네트워크**를 선택한 다음 **Azure Service Bus 연결 모드**를 **설정**으로 전환합니다.
+게이트웨이가 직접 TCP 대신 HTTPS를 사용하여 Azure Service Bus와 통신하도록 강제할 수 있습니다.
 
-![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_04.png)
+> [!NOTE]
+> 2019년 6월 릴리스부터 Azure Service Bus의 권장 사항에 따라 새로운 설치(업데이트 아님)는 TCP 대신 HTTPS로 기본 설정됩니다.
+
+HTTPS를 통해 통신을 강제하려면 이 단락 바로 다음에 나오는 코드 조각에 표시된 것과 같이 `AutoDetect`에서 `Https`로 값을 변경하여 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 파일을 수정합니다. 해당 파일은(기본적으로)  C:\Program Files\온-프레미스 데이터 게이트웨이 에 있습니다.
+
+```xml
+<setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
+    <value>Https</value>
+</setting>
+```
+
+*ServiceBusSystemConnectivityModeString* 매개 변수의 값은 대/소문자를 구분합니다. 유효한 값은 *AutoDetect* 및 *Https*입니다.
+
+또는 게이트웨이가 게이트웨이 사용자 인터페이스를 사용하여 이 동작을 채택하도록 강제 적용할 수 있습니다. 게이트웨이 사용자 인터페이스에서 **네트워크**를 선택한 다음 **Azure Service Bus 연결 모드**를 **설정**으로 전환합니다.
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
+
+변경한 후에 **적용**(변경을 할 때만 표시되는 단추)을 선택하면 변경이 적용되도록 *게이트웨이Windows 서비스* 가 자동으로 다시 시작됩니다.
+
+나중에 참조하려면 **서비스 설정**을 선택한 다음 *지금 다시 시작*을 선택하여 사용자 인터페이스 대화 상자에서 *게이트웨이 Windows 서비스* 를 다시 시작할 수 있습니다.
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ### <a name="additional-guidance"></a>추가 지침
 이 섹션에서는 게이트웨이 배포 및 관리에 대한 추가 지침을 제공합니다.
