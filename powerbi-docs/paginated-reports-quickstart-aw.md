@@ -18,7 +18,7 @@ ms.locfileid: "60989911"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드(미리 보기)
 
-이 자습서에서는 사용자가 샘플 Azure SQL Database에 연결합니다. 그런 다음 Power BI 보고서 작성기에서 마법사를 사용하여 여러 페이지에 래핑하는 테이블을 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다. Power BI 서비스의 페이지를 매긴 보고서는 현재 미리 보기로 제공되고 있습니다.
+이 자습서에서 사용자는 샘플 Azure SQL Database에 연결합니다. 그런 다음 Power BI 보고서 작성기에서 마법사를 사용하여 여러 페이지에 걸쳐 있는 테이블을 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다. Power BI 서비스의 페이지를 매긴 보고서는 현재 미리 보기로 제공되고 있습니다.
 
 ![Power BI 서비스의 페이지를 매긴 보고서](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -37,14 +37,14 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 페이지를 매긴 보고서를 만드는 데 필요한 필수 조건은 다음과 같습니다.
 
-- [Power BI 보고서 작성기는 Microsoft 다운로드 센터에서](https://go.microsoft.com/fwlink/?linkid=2086513) 설치 합니다. 
+- [Power BI 보고서 작성기는 Microsoft 다운로드 센터에서](https://go.microsoft.com/fwlink/?linkid=2086513) 설치합니다. 
 
 - 빠른 시작 [Azure Portal에서 Azure SQL Database 샘플 만들기](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)를 따릅니다. **개요** 탭에 있는 **서버 이름** 상자의 값을 복사하여 저장합니다. Azure에서 만든 사용자 이름과 암호를 기억하세요.
 
 Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필요한 필수 조건은 다음과 같습니다.
 
 - [Power BI Pro 라이선스](service-admin-power-bi-pro-in-your-organization.md)가 있어야 합니다.
-- [Power BI Premium 용량](service-premium-what-is.md)으로 서비스에 앱 작업 영역이 있어야 합니다. 작업 영역 이름 옆에는 다이아몬드 아이콘(![Premium 다이아몬드 아이콘](media/paginated-reports-quickstart-aw/premium-diamond.png))이 있습니다.
+- [Power BI Premium 용량](service-premium-what-is.md)으로 서비스에 앱 작업 영역이 있어야 합니다. 해당 용량의 작업 영역 이름 옆에는 다이아몬드 아이콘(![Premium 다이아몬드 아이콘](media/paginated-reports-quickstart-aw/premium-diamond.png))이 있습니다.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>마법사를 사용하여 행렬 만들기
   
@@ -123,7 +123,7 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 
 18. **다음**을 선택합니다. 
 
-19. **데이터 집합 선택** 페이지에서 방금 만든 데이터 세트를 > **다음**을 선택합니다.
+19. **데이터 집합 선택** 페이지에서 방금 만든 데이터 세트를 선택하고 > **다음**을 선택합니다.
 
     ![데이터 세트 선택](media/paginated-reports-quickstart-aw/power-bi-paginated-choose-dataset.png)
 
@@ -161,7 +161,7 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 
     실제 데이터 값은 아직 표시되지 않습니다. 해당 값을 보려면 보고서를 실행해야 합니다.
 
-4. 속성 창에서 선택한 행렬은 Tablix1이라고 합니다. 보고서 작성기의 ‘테이블릭스’는 행과 열로 데이터를 표시하는 데이터 영역입니다.  테이블이거나 행렬입니다.
+4. 속성 창에서 선택한 행렬은 Tablix1이라고 합니다. 보고서 작성기의 ‘테이블릭스’는 행과 열로 데이터를 표시하는 데이터 영역입니다. 테이블이거나 행렬입니다.
 
 5. 그룹화 창에는 마법사에서 만든 다음 세 개의 행 그룹이 표시됩니다. 
 
