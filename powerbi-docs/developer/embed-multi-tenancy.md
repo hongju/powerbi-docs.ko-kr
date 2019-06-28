@@ -6,15 +6,15 @@ ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
-ms.subservice: powerbi - developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 31222828d1a12a5f46fd7c04b3aa32240ff35736
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 56b417cb60f7c149b926f4307be0a50b33c278d6
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61374691"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751030"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI 임베디드 분석을 사용하여 다중 테넌트 관리
 
@@ -142,9 +142,9 @@ SaaS 애플리케이션 스토리지가 모든 테넌트에 다중 테넌트 데
 
 ### <a name="scalability"></a>확장성
 
-이 모델의 한 가지 장점은 데이터를 각 테넌트의 여러 데이터 세트로 분리하면 [단일 데이터 세트의 크기 제한](https://docs.microsoft.com/power-bi/service-premium-large-datasets)(현재는 10GB 용량)이 극복된다는 점입니다. 용량을 오버 로드 하는 경우 활성 데이터 집합에 대 한 메모리를 사용 하지 않는 데이터 집합을 제거할 수 있습니다 것입니다. 이 작업은 하나의 대규모 데이터 세트를 사용하여 수행할 수 없습니다. 여러 데이터 세트를 사용하면 필요한 경우 테넌트를 여러 Power BI 용량으로 분리할 수도 있습니다.
+이 모델의 한 가지 장점은 데이터를 각 테넌트의 여러 데이터 세트로 분리하면 [단일 데이터 세트의 크기 제한](https://docs.microsoft.com/power-bi/service-premium-large-datasets)(현재는 10GB 용량)이 극복된다는 점입니다. 용량이 오버로드되면 활성 데이터 세트의 메모리를 해제하도록 미사용 데이터 세트를 제거할 수 있습니다. 이 작업은 하나의 대규모 데이터 세트를 사용하여 수행할 수 없습니다. 여러 데이터 세트를 사용하면 필요한 경우 테넌트를 여러 Power BI 용량으로 분리할 수도 있습니다.
 
-이러한 장점에도 불구하고 SaaS 애플리케이션이 나중에 도달할 수 있는 규모를 고려해야 합니다. 예를 들어 관리할 수 있는 아티팩트 수에 가까운 제한에 도달할 수 있습니다. 자세한 내용은 이 문서의 뒷부분에서 배포 [제한 사항](#summary-comparison-of-the-different-approaches)을 참조하세요. 용량 SKU에 사용 되는 데이터 집합에 얼마나 많은 새로 고침 및 최대 데이터 새로 고침 주기에서 실행할 수 있습니다 하는 메모리의 크기에 제한이 소개 합니다. 수백 또는 수천 개의 데이터 세트를 관리하는 경우 테스트하는 것이 좋습니다. 또한 평균 및 최대 사용 볼륨뿐 아니라, 대규모 데이터 세트가 포함된 특정 테넌트, 또는 다른 테넌트와는 다르게 관리되는 다양한 사용 패턴을 고려하는 것이 좋습니다.
+이러한 장점에도 불구하고 SaaS 애플리케이션이 나중에 도달할 수 있는 규모를 고려해야 합니다. 예를 들어 관리할 수 있는 아티팩트 수에 가까운 제한에 도달할 수 있습니다. 자세한 내용은 이 문서의 뒷부분에서 배포 [제한 사항](#summary-comparison-of-the-different-approaches)을 참조하세요. 사용되는 용량 SKU에 따라 데이터 세트를 조정해야 하는 기준 메모리 크기, 동시에 실행할 수 있는 새로 고침 횟수 및 데이터 새로 고침의 최대 빈도에 대한 제한이 추가됩니다. 수백 또는 수천 개의 데이터 세트를 관리하는 경우 테스트하는 것이 좋습니다. 또한 평균 및 최대 사용 볼륨뿐 아니라, 대규모 데이터 세트가 포함된 특정 테넌트, 또는 다른 테넌트와는 다르게 관리되는 다양한 사용 패턴을 고려하는 것이 좋습니다.
 
 ### <a name="automation--operational-complexity"></a>자동화 및 운영 복잡성
 

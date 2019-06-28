@@ -1,5 +1,5 @@
 ---
-title: Power BI 페이지를 매긴 보고서의 포함된 데이터 세트 만들기(미리 보기)
+title: Power BI 페이지를 매긴 보고서의 포함된 데이터 세트 만들기
 description: 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트를 포함된 데이터 원본을 기반으로 만드는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
-ms.openlocfilehash: 3e095da10e9f96c7ec0f10ffbb94995d44effab4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cf41b404385139561a97f1d5b081ae1c48ff2885
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423734"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839037"
 ---
-# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트 만들기(미리 보기)
+# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트 만들기
 
-이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트를 포함된 데이터 원본을 기반으로 만드는 방법을 알아봅니다. 포함된 데이터 세트는 해당 보고서에 사용할 수 있도록 하나의 페이지를 매긴 보고서에 있습니다. 현재 Power BI 서비스에 게시된 페이지를 매긴 보고서에는 포함된 데이터 세트 및 포함된 데이터 원본이 필요합니다. 포함 된 데이터 원본 및 데이터 집합에서에서 만든 Power BI 보고서 작성기에서 보고서를 만드는 동안. 
+이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트를 포함된 데이터 원본을 기반으로 만드는 방법을 알아봅니다. 포함된 데이터 세트는 해당 보고서에 사용할 수 있도록 하나의 페이지를 매긴 보고서에 있습니다. 현재 Power BI 서비스에 게시된 페이지를 매긴 보고서에는 포함된 데이터 세트 및 포함된 데이터 원본이 필요합니다. 보고서를 만드는 동안 Power BI 보고서 작성기에서 포함된 데이터 원본 및 데이터 세트를 만듭니다. 
 
 데이터 세트를 만들려면 먼저 데이터 원본을 만들어야 합니다. 방법을 알아보려면 Power BI 서비스에서 [페이지를 매긴 보고서의 포함된 데이터 원본](paginated-reports-embedded-data-source.md)을 참조하세요.
   
 ## <a name="create-an-embedded-dataset"></a>포함된 데이터 세트 만들기
   
-1. Power BI 보고서 작성기에서 보고서 데이터 창에서 선택 **새로 만들기** > **Dataset**합니다.
+1. Power BI 보고서 작성기의 보고서 데이터 창에서 **새로 만들기** > **데이터 세트**를 선택합니다.
 
 1. **데이터 집합 속성** 대화 상자의 **쿼리** 탭에서 데이터 세트에 이름을 지정합니다. 포함된 데이터 원본이 **데이터 원본** 상자에 이미 있거나 **새로 만들기**를 선택하여 다른 포함된 데이터 원본을 만들 수 있습니다.
  
@@ -56,7 +56,7 @@ ms.locfileid: "61423734"
  
 ## <a name="next-steps"></a>다음 단계 
 
-- [Power BI Premium의 페이지를 매긴 보고서란? (미리 보기)](paginated-reports-report-builder-power-bi.md)  
+- [Power BI Premium에서 페이지를 매긴 보고서란?](paginated-reports-report-builder-power-bi.md)  
 - [자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드](paginated-reports-quickstart-aw.md)
 - [Power BI 서비스에 페이지를 매긴 보고서 게시](paginated-reports-save-to-power-bi-service.md)
 

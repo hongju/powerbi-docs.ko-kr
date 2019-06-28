@@ -26,7 +26,7 @@ Power BI에서 앱을 만들어 관련 대시보드 및 보고서를 모두 한�
 
 2. Power BI 서비스에서 원하는 보고서를 엽니다.
 
-3. **파일** > **SharePoint Online에 포함**으로 이동하고 보고서 embedURL을 가져옵니다. embedURL 샘플은 아래 스냅숏에 표시됩니다. 또는 GetReports/GetReport REST API를 호출하고 해당 보고서 embedURL 필드를 응답에서 추출할 수 있습니다. 앱이 사용자 작업 영역에서 인스턴스화되었기 때문에 REST 호출에서 URL의 일부로 작업 영역 식별자를 포함하면 안 됩니다.
+3. **파일** > **SharePoint Online에 포함**으로 이동하고 보고서 embedURL을 가져옵니다. embedURL 샘플은 아래 스냅샷에 표시됩니다. 또는 GetReports/GetReport REST API를 호출하고 해당 보고서 embedURL 필드를 응답에서 추출할 수 있습니다. 앱이 사용자 작업 영역에서 인스턴스화되었기 때문에 REST 호출에서 URL의 일부로 작업 영역 식별자를 포함하면 안 됩니다.
 
     ![앱에서 포함](media/embed-from-apps/embed-from-app.png)
 

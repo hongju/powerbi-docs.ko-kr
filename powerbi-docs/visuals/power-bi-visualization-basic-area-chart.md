@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61393245"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839864"
 ---
 # <a name="basic-area-chart"></a>기본 영역형 차트
-기본 영역형 차트(즉, 계층화된 영역형 차트)는 꺾은선형 차트를 기반으로 합니다. 축과 선 사이의 영역이 볼륨을 나타내는 색으로 채워집니다. 
+기본 영역형 차트(계층화된 영역형 차트라고도 함)는 꺾은선형 차트를 기반으로 합니다. 축과 선 사이의 영역이 볼륨을 나타내는 색으로 채워집니다. 
 
 영역형 차트는 시간에 따른 변경 크기를 강조하며 추세 간의 총 가치에 주목하도록 하는 데 사용할 수 있습니다. 예를 들어, 시간에 따른 수익을 나타내는 데이터를 영역형 차트에 그려 총 수익을 강조할 수 있습니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "61393245"
  
 
 1. "소매 분석 샘플" 대시보드에서 **Total Stores** 타일을 선택하여 "소매 분석 샘플" 보고서를 엽니다.
-2. **보고서 편집** 을 선택하여 편집 보기에서 보고서를 엽니다.
+2. **편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
 3. 보고서 맨 아래에서 노란색 더하기 아이콘(+)을 선택하여 새 보고서 페이지를 추가합니다.
 4. 올해 판매액과 지난 해 판매액을 월별로 보여주는 영역형 차트를 만듭니다.
    

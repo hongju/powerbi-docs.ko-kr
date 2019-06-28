@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: d62ad0624a19666e4ac1e59927df9eade6e4df33
-ms.sourcegitcommit: 8054aa9622d97b196ef6cd087fd9e1d8dad3d9de
+ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "67144925"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389550"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -23,10 +23,6 @@ ms.locfileid: "67144925"
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
 등록하여 Power BI 전문가 의견을 듣고 라이브 Q&A 세션에 참여하세요.
-
-**Power BI에서 Microsoft 실행: Modern Treasury에서 Power BI 사용**
-<br>저자: Pankaj Gudimella 및 Guru Kirthigavasan
-<br>[6월 25일, 오전 10:00~오전 11:00 PST(태평양 표준시)에 시청 등록](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI: Workday HR 데이터에서 인사이트를 가져오는 방법**
 <br>저자: Iman Eftekhari, Agile Analytics의 Julia Paton 및 QBE Insurance의 Shahram Karimi
@@ -61,6 +57,10 @@ ms.locfileid: "67144925"
 **Power BI에서 실행되는 Microsoft – 재무 계획 및 분석 용이**
 <br>작성자: Cory Hrncirik 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI에서 Microsoft 실행: Modern Treasury에서 Power BI 사용**
+<br>저자: Pankaj Gudimella 및 Guru Kirthigavasan
+<br>[등록 및 지금 보기](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI JavaScript API를 사용하여 애플리케이션 성능 강화**
 <br>작성자: Nimrod Shalit

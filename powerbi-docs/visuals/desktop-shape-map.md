@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394793"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839396"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵(미리 보기)
 **도형 맵** 시각적 개체를 만들어 색을 사용하여 맵의 영역을 비교합니다. **맵** 시각적 개체와 달리 **도형 맵**은 데이터 요소의 정확한 지리적 위치를 맵에 표시할 수 없습니다. 대신, 색을 다르게 지정하여 맵 영역의 상대 비교를 표시하는 데 주로 사용됩니다.
@@ -27,15 +27,15 @@ ms.locfileid: "61394793"
 
 **도형 맵** 시각적 개체는 미리 보기 상태이며 Power BI Desktop에서 사용하도록 설정해야 합니다. **도형 맵**을 사용하도록 설정하려면 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 후 **도형 맵 시각화** 확인란을 선택합니다. 선택한 후에는 Power BI Desktop을 다시 시작해야 합니다.
 
-![](media/desktop-shape-map/shape-map_1a.png)
+![도형 맵 미리 보기 기능 사용](media/desktop-shape-map/power-bi-preview-features.png)
 
-**도형 맵**이 사용하도록 설정된 후에는**시각화** 창에서 **도형 맵** 컨트롤을 클릭합니다.
+**도형 맵**이 활성화되면 **시각화** 창에서 **도형 맵** 아이콘을 선택합니다.
 
-![](media/desktop-shape-map/shape-map_2.png)
+![도형 맵에 대한 템플릿 선택](media/desktop-shape-map/power-bi-shape-map-template2.png)
 
 Power BI Desktop에 비어 있는 **도형 맵** 시각적 개체 디자인 캔버스가 만들어집니다.
 
-![](media/desktop-shape-map/shape-map_3.png)
+![빈 도형 맵이 캔버스에 표시됩니다.](media/desktop-shape-map/shape-map-3.png)
 
 다음 단계를 수행하여 **도형 맵**을 만듭니다.
 
@@ -46,26 +46,23 @@ Power BI Desktop에 비어 있는 **도형 맵** 시각적 개체 디자인 캔�
    > 
    > 
 
-   ![](media/desktop-shape-map/shape-map_3a.png)
+   ![도형 맵 빌드](media/desktop-shape-map/shape-map-3a.png)
 2. **서식** 설정 창에서 **도형**을 확장하고 **표준 맵** 드롭다운에서 선택하여 데이터를 표시합니다. 이 시점에는 다음 이미지와 같이 렌더링이 나타납니다.
 
-   ![](media/desktop-shape-map/shape-map_3b.png)
+   ![서식 창을 열고 셰이프를 선택합니다.](media/desktop-shape-map/shape-map-3b-new.png)
 
    > [!NOTE]
    > 이 문서의 끝에 있는 **지역 키** 섹션은 **도형 맵** 시각적 개체를 테스트하는 데 사용할 수 있는 맵 지역 키가 포함된 테이블의 컬렉션입니다.
    > 
    > 
-3. **서식** 설정 창에서 맵 프로젝션, 확대/축소 설정 및 데이터 요소의 색을 수정할 수 있습니다. 확대/축소 설정도 수정할 수 있습니다. 예를 들어 색을 변경하고 최댓값 및 최솟값 등을 설정할 수 있습니다.
-
-   ![](media/desktop-shape-map/shape-map_3d.png)
-4. **범례** 버킷에 범주 데이터 열을 추가하고 범주에 따라 맵 지역을 분류할 수도 있습니다.
+3. 그런 다음, **기본 색**, **확대/축소** 등과 같은 서식 지정 옵션을 사용하여 맵을 수정할 수 있습니다. 또한 **범례** 버킷에 범주 데이터 열을 추가하고 범주에 따라 맵 지역을 분류할 수도 있습니다.
 
 ## <a name="use-custom-maps"></a>사용자 지정 맵 사용
 **TopoJSON** 형식인 **도형 맵**과 함께 사용자 지정 맵을 사용할 수 있습니다. 맵이 다른 형식인 경우 [**맵 쉐이퍼**](http://mapshaper.org/)와 같은 온라인 도구를 사용하여 *셰이프 파일* 또는 *GeoJSON* 맵을 **TopoJSON** 서식으로 변환할 수 있습니다.
 
 **TopoJSON** 맵 파일을 사용하려면 ShapeMap 시각적 개체를 보고서에 추가하고 일부 데이터를 ‘위치’ 및 ‘색 채도’ 버킷에 추가합니다.   그런 다음, 선택한 **서식** 섹션이 있는 **시각화** 창에서(다음 이미지에 (1)로 표시) **도형** 섹션을 확장하고 **+ 맵 추가**를 선택합니다.
 
-![](media/desktop-shape-map/shape-map_6.png)
+![서식 창을 열고 맵 추가를 선택합니다.](media/desktop-shape-map/shape-map-6-new.png)
 
 ## <a name="sample-custom-map"></a>샘플 사용자 지정 맵
 ‘미국 연방 검사국’은 소송 및 담당 건수 데이터에 대한 연간 회계 보고서를 릴리스합니다.   해당되는 모든 보고서를 아래 링크에서 확인할 수 있습니다.
@@ -74,24 +71,24 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 상태가 여러 구역으로 나눌 수 있으므로 사용자 지정 도형 맵을 사용해야 합니다.  그런 다음, 미국 사법 구역의 **TopoJSON** 맵을 **Power BI Desktop**으로 가져와서 연간 회계 구역 검사 데이터를 시각화할 수 있습니다.  아래 이미지에서는 이 맵의 예제를 표시합니다.
 
-![](media/desktop-shape-map/shape-map_7a.png)
+![사용자 지정 도형 맵](media/desktop-shape-map/shape-map-7a.png)
 
 개별 상태 맵을 사용하여 흥미로운 작업을 수행할 수 있고 포함된 구역에 따라 세부 정보를 표시할 수 있습니다. 
 
-![](media/desktop-shape-map/shape-map_7b.png)
+![텍사스 도형 맵](media/desktop-shape-map/shape-map-7b.png)
 
 이 데이터 세트 및 시각화를 실험하려는 경우 다음 링크를 사용하여 이 보고서를 생성하는 데 사용된 원본 PBIX 파일을 다운로드할 수 있습니다.
 
 * [도형 맵 데모 .PBIX 파일 사용자 지정](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>맵 데이터 가져오기
-데이터를 모델로 신속하게 가져와 **도형 맵** 을 테스트하기 위해서는 이 문서의 끝에 있는 테이블 중 하나를 복사한 후 **홈** 리본에서 **데이터 입력** 을 선택하면 됩니다.
+데이터를 모델로 신속하게 가져와 **도형 맵**을 테스트하기 위해서는 이 문서의 끝에 있는 테이블 중 하나를 복사한 후 리본 메뉴 **홈** 탭에서 **데이터 입력**을 선택하면 됩니다.
 
-![](media/desktop-shape-map/shape-map_4.png)
+![데스크톱에서 데이터 입력을 선택합니다.](media/desktop-shape-map/shape-map-4-new.png)
 
 데이터에 여러 열이 있는 경우 Excel과 같은 편집기를 사용하여 데이터를 붙여넣은 다음, 각 데이터 열을 개별적으로 복사해야 합니다. 그러면 데이터를 Power BI Desktop 붙여넣을 수 있습니다. 맨 위 행이 헤더로 자동으로 식별됩니다.
 
-![](media/desktop-shape-map/shape-map_5.png)
+![테이블 창 만들기](media/desktop-shape-map/shape-map-5.png)
 
 Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 값을 추가하여 새 행을 입력할 수 있습니다. 완료한 후 **로드**를 선택하면 테이블이 Power BI Desktop에 대한 데이터 모델에 추가됩니다.
 

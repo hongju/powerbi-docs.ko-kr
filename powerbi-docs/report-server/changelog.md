@@ -1,7 +1,7 @@
 ---
 title: Power BI 보고서 서버에 대한 변경 로그
 description: Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에 대한 버그 픽스와 새 항목을 나열합니다.
-ms.author: jtarquino
+ms.author: jaimeta
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: bb25bfb9b3278ef5eccfd54436a6de430d17677d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65990614"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751119"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -22,34 +22,34 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
 새로운 기능에 대한 자세한 내용은 [Power BI 보고서 서버의 새로운 기능](whats-new.md)을 참조하세요. 
 
-## <a name="may-2019"></a>2019 년 5 월
+## <a name="may-2019"></a>2019년 5월
 
 - **Power BI Report Server**          
-    - *버전 1.5.7074.36177 (15.0.1102.371 빌드), 릴리스: 2019 년 5 월 21 일*
+    - *버전 1.5.7074.36177(빌드 15.0.1102.371), 릴리스 날짜: 2019년 5월 21일*
         - 버그 픽스
             - 페이지가 매겨진 보고서
-                - 항상 pdf 글꼴 포함을 사용 하도록 수정 합니다.
-                - 쿠키 보안으로 https를 통해 전송 설정 수정
-                - Pop 사용 하 여 문제 해결 스크립트 오류로 인해 ups
-                - Android 휴대폰에서 모바일 앱을 사용 하 여 표시 된 문제에 대 한 수정
-                - 회계 연도 시작에 관계 없이 올바른 주 번호를 표시할 모바일 보고서 시간 탐색기에 대 한 수정
-                - 추가 'RestrictedResourceMimeTypeForUpload' 차단 하는 구성 가능한 속성을 지정 하는 관리자에 대 한 mime 형식
+                - 항상 pdf 글꼴 포함을 사용하도록 수정했습니다.
+                - https를 통해 전송된 쿠키를 보안으로 설정하도록 수정
+                - 스크립트 오류로 인한 팝업 문제 해결
+                - Android 휴대폰에서 모바일 앱 표시 문제 수정
+                - 회계 연도 시작과 관계없이 올바른 주 번호를 표시하도록 모바일 보고서 시간 탐색기 수정
+                - 관리자가 금지된 mime 형식을 지정할 수 있도록 'RestrictedResourceMimeTypeForUpload' 구성 가능한 속성 추가
          - 기능
-            - PBIRS 신뢰할 수 있는 시각적 개체에 대 한 지원 추가
+            - PBIRS에 신뢰할 수 있는 시각적 개체 지원 추가
 
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
-    - *‘버전: 2.69.5467.1801 (월 2019), 릴리스: 2019 년 5 월 21 일*
+    - *‘버전: 2.69.5467.1801(2019년 5월) 릴리스 날짜: 2019년 5월 21일*
         - 버그 수정
-            - 자격 증명의 재 돌입 PBIRS에 PBIX 업로드 하는 동안 하지 못하도록 수정
-            - 파일 이름에는 #을 사용 하 여 문서를 열어 수정
-            - 쉽게 PBIRS 선택 창에서 탐색 링크 추가
-            - 뒤로 단추를 표시 하려면 경고 visual 메시지 표시 PBIRS에서 고대비 모드를 수정 합니다.
-            - 선택 창에 UI 수정 캔버스 크기 조정 합니다.
+            - PBIRS에 PBIX를 업로드하는 동안 자격 증명을 다시 입력하지 않도록 수정
+            - 파일 이름에 #을 사용하여 문서 열기 수정
+            - PBIRS 선택 창에서 뒤로 이동하기 위한 쉬운 링크 추가
+            - PBIRS의 고대비 모드를 수정하여 뒤로 단추를 표시하고 경고 시각적 개체 메시지를 표시합니다.
+            - UI를 선택 창, 캔버스 크기 조정으로 수정합니다.
 
 ## <a name="january-2019"></a>2019년 1월
 
 - **Power BI Report Server**          
-    - *버전 1.4.7024.16477 (15.0.1102.299 빌드), 릴리스: 2019 년 3 월 28 일*
+    - *버전 1.4.7024.16477(빌드 15.0.1102.299), 릴리스 날짜: 2019년 3월 28일*
         - 버그 픽스
             - Power BI 보고서
                 - SAP Hana 및 SAP BW에서 직접 쿼리를 사용할 때 기본 자격 증명 관련 문제 해결

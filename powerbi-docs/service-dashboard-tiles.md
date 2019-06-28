@@ -13,14 +13,14 @@ ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61139936"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 타일 소개
 
-타일은 대시보드에 고정된 데이터에 대한 스냅숏입니다. 타일은 보고서, 데이터 세트, 대시보드, Q&A 상자, Excel 및 SSRS(SQL Server Reporting Services) 보고서 등에서 만들 수 있습니다.  이 스크린샷은 대시보드에 고정된 여러 타일을 보여 줍니다.
+타일은 대시보드에 고정된 데이터에 대한 스냅샷입니다. 타일은 보고서, 데이터 세트, 대시보드, Q&A 상자, Excel 및 SSRS(SQL Server Reporting Services) 보고서 등에서 만들 수 있습니다.  이 스크린샷은 대시보드에 고정된 여러 타일을 보여 줍니다.
 
 ![Power BI 대시보드](media/service-dashboard-tiles/power-bi-dashboard.png)
 
