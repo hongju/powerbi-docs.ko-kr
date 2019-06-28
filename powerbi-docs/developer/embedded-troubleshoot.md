@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770481"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823324"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
@@ -80,6 +80,7 @@ Azure Portal 또는 Power BI 앱 등록 페이지 내에서 표시되는 오류 
 * Azure AD 인증 토큰이 만료되었습니다.
 * 인증된 사용자가 그룹(앱 작업 영역)의 멤버가 아닙니다.
 * 인증된 사용자가 그룹(앱 작업 영역)의 관리자가 아닙니다.
+* 인증된 사용자에게 권한이 없습니다. 사용 권한은 [refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions)를 사용하여 업데이트할 수 있습니다.
 * 권한 부여 헤더가 올바르게 표시되지 않을 수 있습니다. 오타가 없는지 확인합니다.
 
 GenerateToken 호출 전에 애플리케이션의 백 엔드가 인증 토큰을 새로 고침해야 할 수 있습니다.
@@ -185,9 +186,9 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 관리자가 전체 테넌트 또는 특정 사용자에게 애플리케이션에 대한 *권한을 부여*합니다.
 
-### <a name="cs1061-error"></a>오류 CS1061
+### <a name="cs1061-error"></a>CS1061 오류
 
-다운로드 [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) 발생 하는 경우는 "'AuthenticationContext' 'AcquireToken' 및 없습니다 액세스할 수 있는 'AcquireToken' 형식의 첫 번째 인수를 허용 하는 것에 대 한 정의가 없습니다 ' AuthenticationContext' 찾을 수 없습니다 (사용 하는 누락 된 지시문 또는 어셈블리 참조가?) "오류입니다.
+"'AuthenticationContext'에는 'AcquireToken'에 대한 정의가 없고 'AuthenticationContext' 형식의 첫 번째 인수를 수락하는 액세스 가능한 'AcquireToken'을 찾을 수 없음(using 지시문이나 어셈블리 참조가 누락되었나요?)" 오류가 발생한 경우 [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)를 다운로드합니다.
 
 ## <a name="data-sources"></a>데이터 원본
 

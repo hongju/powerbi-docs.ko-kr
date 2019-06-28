@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0a80a75765d6e25f42163953e28b544171e8fdb2
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514574"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408330"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Excel에서 분석 문제 해결
+
 Excel에서 분석을 사용할 때 예기치 않은 결과를 얻거나 기능이 예상대로 작동하지 않는 경우가 있을 수 있습니다. 이 페이지에서는 Excel에서 분석을 사용할 때 일반적인 문제에 대한 해결 방법을 제공합니다.
 
 > [!NOTE]
@@ -57,8 +58,6 @@ Excel 라이브러리는 비트 수준 측면에서 Windows 버전과 일치해�
 Excel OLE DB 공급자 클라이언트 라이브러리가 최신 상태이면 다음과 같은 대화 상자가 표시됩니다.
 
 ![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
-
-C:\Users\davidi\Desktop\powerbi-content-pr\articles\media\powerbi-desktop-troubleshooting-analyze-in-excel
 
 또는 컴퓨터에 있는 버전보다 최신 버전을 설치하는 경우 다음 대화 상자가 나타납니다.
 

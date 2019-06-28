@@ -13,13 +13,13 @@ ms.author: davidi
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514325"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Excel용 Power BI 게시자
-Microsoft의 **Power BI publisher for Excel**을 사용하면 피벗 테이블, 차트 및 범위와 같은 Excel의 가장 중요한 정보를 스냅숏으로 나타낸 후 Power BI의 대시보드에 고정할 수 있습니다.
+Microsoft의 **Power BI publisher for Excel**을 사용하면 피벗 테이블, 차트 및 범위와 같은 Excel의 가장 중요한 정보를 스냅샷으로 나타낸 후 Power BI의 대시보드에 고정할 수 있습니다.
 
 ![](media/publisher-for-excel/pbi_excel_publisher_pinobj_dashboard.png)
 
@@ -27,7 +27,7 @@ Microsoft의 **Power BI publisher for Excel**을 사용하면 피벗 테이블, 
 
 고정할 수 없는 항목: 파워 뷰 시트에서 3D 맵 또는 시각화는 고정할 수 없습니다. 고정할 수 있는 요소도 있지만 슬라이서 또는 시간 표시 막대 필터 등은 고정할 수 없습니다.
 
-Excel의 요소를 고정하면 새 타일이 Power BI의 기존 또는 새 대시보드에 추가됩니다. 새 타일은 스냅숏이므로 동적이 아니지만 여전히 업데이트할 수 있습니다. 예를 들어 이미 고정된 피벗 테이블 또는 차트를 변경하면 Power BI의 대시보드 타일은 자동으로 업데이트되지 않지만 **핀 관리자**를 사용하여 고정된 요소를 업데이트할 수 있습니다. **핀 관리자**에 대해서는 다음 섹션에서 자세히 알아보겠습니다.
+Excel의 요소를 고정하면 새 타일이 Power BI의 기존 또는 새 대시보드에 추가됩니다. 새 타일은 스냅샷이므로 동적이 아니지만 여전히 업데이트할 수 있습니다. 예를 들어 이미 고정된 피벗 테이블 또는 차트를 변경하면 Power BI의 대시보드 타일은 자동으로 업데이트되지 않지만 **핀 관리자**를 사용하여 고정된 요소를 업데이트할 수 있습니다. **핀 관리자**에 대해서는 다음 섹션에서 자세히 알아보겠습니다.
 
 ## <a name="download-and-install"></a>다운로드 및 설치
 Excel용 Power BI 게시자는 데스크톱 버전의 Microsoft Excel 2007 이상에서 다운로드하고 설치할 수 있는 추가 기능입니다.
@@ -41,7 +41,7 @@ Excel용 Power BI 게시자는 데스크톱 버전의 Microsoft Excel 2007 이�
 **Power BI publisher for Excel** 추가 기능은 기본적으로 사용되도록 설정되어 있지만 특정 이유로 인해 Excel에서 Power BI 리본 탭이 보이지 않을 경우 직접 사용하도록 설정해야 합니다. **파일** > **옵션** > **추가 기능** > **COM 추가 기능**을 클릭합니다. **Microsoft Power BI Publisher for Excel**을 선택합니다.
 
 ## <a name="pin-a-range-to-a-dashboard"></a>대시보드에 범위 고정
-워크시트에서 셀 범위를 선택하고 Power BI에서 기존 또는 새 대시보드의 해당 범위까지 스냅숏을 고정할 수 있습니다. 여러 개의 대시보드에 동일한 스냅숏을 고정할 수도 있습니다.
+워크시트에서 셀 범위를 선택하고 Power BI에서 기존 또는 새 대시보드의 해당 범위까지 스냅샷을 고정할 수 있습니다. 여러 개의 대시보드에 동일한 스냅샷을 고정할 수도 있습니다.
 
 시작하려면 Power BI에 로그인되어 있는지 확인해야 합니다.
 

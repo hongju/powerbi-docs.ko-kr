@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991050"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67038905"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -23,16 +23,45 @@ ms.locfileid: "65991050"
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
 
-## <a name="april-2019"></a>2019 년 4 월
+## <a name="may-2019"></a>2019년 5월
 
-### <a name="key-influencers-visual"></a>주요 영향 요인 visual 
-주요 영향 요인 visual 이제 모바일 앱에서 제공 됩니다. 이 시각적 개체를 사용 하면 몇 가지 탭을 사용 하 여 데이터에 대해 키 드라이버의 분석을 수행할 수 있습니다.
+### <a name="siri-shortcuts-support-ios"></a>Siri 바로 가기 지원(iOS)
+사용자는 Power BI 보고서 및 대시보드에 Siri 바로 가기를 만든 다음, Siri 음성 인터페이스에서 직접 열 수 있습니다. [Power BI iOS 앱에서 Siri 바로 가기를 사용하는 방법을 참조하세요](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/).
 
-### <a name="add-comments-to-report-content-android-and-ios"></a>보고서 내용 (Android 및 iOS)에 주석 추가
-이제 공동 작업 하 고 보고서 페이지 및 시각적 개체에 대 한 피드백을 공유 주석을 사용할 수 있습니다. Power BI 서비스 및 모바일에서 주석 처리 하는 보고서에 대해 자세히 알아보세요 [이 블로그의](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)합니다. 
+### <a name="device-search-ios"></a>디바이스 검색(iOS)
+iOS 디바이스 검색(스포트라이트)과 Power BI 연결 iPhone 또는 iPad에서 콘텐츠 검색은 이제 Power BI 항목도 포함합니다. 사용자가 디바이스 기본 검색을 사용하는 경우 Power BI 보고서, 대시보드, 앱, 작업 영역 및 검색 조건과 일치하는 사용자도 결과에 나열됩니다. [자세한 내용은 블로그 게시물을 방문하세요](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/).
 
-### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>전체 화면 모드 (Android 및 iOS)를 사용 하 여 뷰를 최대화
-보고서 머리글 및 바닥글을 제거 하 고 보고서를 보기 위한 최대 공간을 제공 하 여 데이터에 집중 하는 시기를 제어할 수 있는 새 단추를 추가 했습니다.
+
+### <a name="single-tap-report-interaction---ga"></a>단일 탭 보고서 상호 작용 - GA
+
+단일 탭은 이제 GA이며 새 사용자에 대한 기본 터치 상호 작용이 됩니다. 사용자는 여전히 앱 설정에서 이를 해제하고 두 번 탭할 수 있습니다.
+
+### <a name="enhanced-conditional-access-protection-ios-android"></a>향상된 조건부 액세스 보호(iOS, Android)
+
+앱 정책이 적용되기 전에 Power BI에 대한 액세스를 제한하여 보안을 강화하도록 AAD [새 앱 보호 기반 조건부 액세스 기능](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)과 통합했습니다.
+
+### <a name="device-protection-ios"></a>디바이스 보호(iOS)
+
+사용자는 디바이스 기본 제공 보호를 사용하여 Power BI에 대한 액세스를 위해 Face ID, Touch ID 또는 암호를 요청하여 Power BI를 보호할 수 있습니다. 이는 앱 설정을 사용하여 사용자 뿐만 아니라 Intune 및 다른 MDM 도구를 사용하여 관리자가 제어할 수 있습니다. [자세히 알아봅니다](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access).
+
+### <a name="one-page-report-slideshow-windows"></a>한 페이지 보고서 슬라이드 쇼(Windows)
+
+슬라이드 쇼에서 한 페이지 보고서에 대한 자동 새로 고침을 지원합니다. 따라서 보고서의 밑줄 데이터 원본이 업데이트되면 이를 선택하고 페이지에서 데이터를 업데이트합니다.
+
+
+## <a name="april-2019"></a>2019년 4월
+
+### <a name="key-influencers-visual"></a>주요 영향 요인 시각적 개체 
+
+주요 영향 요인 시각적 개체가 이제 모바일 앱에서 제공됩니다. 이 시각적 개체를 통해 몇 가지 탭을 사용하여 데이터에 대한 키 드라이버의 분석을 수행할 수 있습니다.
+
+### <a name="add-comments-to-report-content-android-and-ios"></a>보고서 콘텐츠에 주석 추가(Android 및 iOS)
+
+이제 주석을 사용하여 협업하고 보고서 페이지 및 시각적 개체에 대한 피드백을 공유할 수 있습니다. [이 블로그에서](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) Power BI 서비스 및 모바일에서 보고서 주석 처리에 대해 자세히 알아보세요. 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>전체 화면 모드를 사용하여 뷰 최대화(Android 및 iOS)
+
+보고서 머리글 및 바닥글을 제거하고 보고서를 보기 위한 최대 공간을 제공하여 데이터에 집중하는 시기를 제어할 수 있는 새 단추를 추가했습니다.
 
 ## <a name="march-2019"></a>2019년 3월
 
@@ -42,20 +71,20 @@ ms.locfileid: "65991050"
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>슬라이드 쇼를 사용하여 Windows 프레젠테이션 모드 향상(Windows)
 
-사용 하 여 [슬라이드 쇼](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) Power BI 보고서를에서 실행 하려면 자동 전체 화면 회전 보고서 페이지 사이 사무실에 있는 공용 표시를 사용할 수 있습니다.  
+[슬라이드 쇼](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)를 사용하면 보고서 페이지를 자동 회전할 수 있는 전체 화면으로 Power BI 보고서를 실행하기 위해 사무실에 있는 공용 디스플레이를 사용할 수 있습니다.  
 
-### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>ADFS 및 WAP 구성 (iOS에만 해당)를 통해 PBI RS 보고서를 지 원하는
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>ADFS 및 WAP 구성을 통해 PBI-RS 보고서 지원(iOS에만 해당)
 
-Power BI 보고서 (PBIX) ADFS 구성을 통해 PBI RS에서 호스트 되는 이제 Power BI iOS 앱에서 액세스할 수 있습니다.
+이제 Power BI iOS 앱에서 ADFS 구성을 통해 PBI-RS에서 호스팅되는 Power BI 보고서(PBIX)에 액세스할 수 있습니다.
 
-### <a name="enabling-single-tap-interaction-with-report-visuals"></a>보고서 시각적 개체를 사용 하 여 단일 누르기 상호 작용을 사용 하도록 설정
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>보고서 시각적 개체를 사용하여 단일 탭 상호 작용 활성화
 
-하나의 시각적 개체에서 탭, 단추 또는 슬라이서를 지금 바로 해당 데이터와 상호 작용 해야 하므로 보고서 상호 작용을 변경 했습니다. 사용자는이 선택 하 고 상호 작용을 다시 탭에 시각적 개체를 탭 해야 더 이상, 한 번의 터치로 모두 수행 됩니다.
+보고서 상호 작용을 변경했으므로 해당 데이터와 즉시 상호 작용하기 위해 시각적 개체, 단추 또는 슬라이서에서 한 번의 탭만 필요합니다. 사용자는 더 이상 시각적 개체를 선택하기 위해 탭하고 상호 작용하기 위해 다시 탭할 필요가 없습니다. 단일 탭으로 이를 모두 수행합니다.
 
-![단일 누르기 상호 작용](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+![단일 탭 상호 작용](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> 기존 사용자는 앱 설정에서이 동작에 설정 해야 합니다. 자세한 내용은 참조는 [단일 탭 보고서 상호 작용을 구성 하는 방법](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) 문서.
+> 기존 사용자는 앱 설정에서 이 동작을 설정해야 합니다. 자세한 내용은 [단일 탭 보고서 상호 작용을 구성하는 방법](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) 문서를 참조하세요.
 
 ## <a name="january---february-2019"></a>2019년 1~2월
  
@@ -352,7 +381,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 #### <a name="ios-devices"></a>iOS 디바이스
 **질문 및 답변 미리 보기로 데이터에 대해 질문하기** 
 
-질문 및 답변을 사용하여 데이터에 관해 직접 질문을 하면 Power BI에서 답변을 제공합니다. 질문 및 답변은 이미 [http://powerbi.com](http://powerbi.com) 의 Power BI 서비스입니다. 이제 [iPhone 또는 iPad의 모바일 앱에서도 사용 가능](mobile-apps-ios-qna.md)합니다.
+질문 및 답변을 사용하여 데이터에 관해 직접 질문을 하면 Power BI에서 답변을 제공합니다. 질문 및 답변은 이미 [http://powerbi.com](http://powerbi.com ) 의 Power BI 서비스입니다. 이제 [iPhone 또는 iPad의 모바일 앱에서도 사용 가능](mobile-apps-ios-qna.md)합니다.
 
 **둘 이상의 SSRS 서버에 연결** 
 

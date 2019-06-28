@@ -1,43 +1,43 @@
 ---
-title: 자동 조직에 대 한 포함 하는 경우 Power BI 앱 설치
-description: 조직에 대 한 포함 하는 경우 설치 Power BI 앱을 자동 하는 방법에 알아봅니다.
+title: 조직에 포함할 때 Power BI 앱 자동 설치
+description: 조직에 포함할 때 Power BI 앱을 자동 설치하는 방법을 알아봅니다.
 ms.subservice: powerbi-developer
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
-ms.topic: how-to
+ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: bb9ba5531c2a23f15ccbf98261e246ab7080aecb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 50040731ec5602dc38d9d323fe916e4e2e239d27
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61376228"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751053"
 ---
-# <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>조직에 대 한 포함 하는 경우 Power BI 앱 자동 설치
+# <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>조직에 포함할 때 Power BI 앱 자동 설치
 
-앱에서 콘텐츠를 포함 하는 포함 하는 사용자에 게 해야 합니다 [앱에 대 한 액세스](../service-create-distribute-apps.md)합니다. 앱 사용자에 대 한 설치 된 경우 원활 하 게 작동을 포함 합니다. 자세한 내용은 [앱에서 대시보드 또는 보고서 포함](embed-from-apps.md)합니다. 모든 앱이 될 수 있는 PowerBI.com에서 정의 하는 것이 불가능 [자동으로 설치](https://powerbi.microsoft.com/blog/automatically-install-apps/)합니다. 그러나이 이렇게 테 넌 트 수준에서 수행 되 고 모든 앱에 적용 됩니다.
+앱에서 콘텐츠를 포함하려면 포함하려는 사용자가 [앱에 액세스](../service-create-distribute-apps.md)해야 합니다. 앱이 사용자용으로 설치되면 임베딩이 원활하게 작동합니다. 자세한 내용은 [앱에서 보고서 또는 대시보드 포함](embed-from-apps.md)을 참조하세요. PowerBI.com에서 모든 앱을 [자동으로 설치](https://powerbi.microsoft.com/blog/automatically-install-apps/)할 수 있음을 정의할 수 있습니다. 그러나 이 작업은 테넌트 수준에서 수행되고 모든 앱에 적용됩니다.
 
-## <a name="auto-install-app-on-embedding"></a>포함에 대 한 앱을 자동으로 설치 합니다.
+## <a name="auto-install-app-on-embedding"></a>포함 시 앱 자동 설치
 
-사용자가 앱에 액세스할 경우 앱 설치 되지 않은 실패를 포함 합니다. 앱에서 포함 하는 경우 이러한 오류를 방지할 수 있습니다, 포함 되 면 앱의 자동 설치를 허용할 수 있습니다. 이 작업을 자동으로 설치 됩니다 포함 하는 사용자가 앱 설치 되지 않은 경우를 의미 합니다. 따라서 콘텐츠 가져옵니다 포함 즉시 사용자에 대 한 원활한 환경을 생성 합니다.
+사용자가 앱에 액세스할 수 있지만 앱이 설치되지 않으면 포함이 실패합니다. 따라서 앱에서 포함할 때 이러한 오류를 방지할 수 있으며, 포함 시 앱의 자동 설치를 허용할 수 있습니다. 이 작업은 사용자가 포함하려는 앱이 설치되어 있지 않으면 자동으로 설치됨을 의미합니다. 따라서 원하는 콘텐츠가 즉시 포함되어 사용자에게 원활한 환경을 제공합니다.
 
-## <a name="embed-for-power-bi-users-user-owns-data"></a>Power BI 사용자 (사용자 소유 데이터) 포함
+## <a name="embed-for-power-bi-users-user-owns-data"></a>Power BI 사용자(사용자 소유 데이터)를 위한 포함
 
-사용자에 게 앱의 자동 설치를 허용 하려면 ' 콘텐츠 만들기 ' 권한이 응용 프로그램을 지정 해야 하면 [응용 프로그램을 등록](register-app.md#register-with-the-power-bi-application-registration-tool), 이미 앱을 등록 하는 경우 추가 합니다.
+사용자에게 앱의 자동 설치를 허용하려면 [애플리케이션을 등록](register-app.md#register-with-the-power-bi-application-registration-tool)할 때 애플리케이션에 '콘텐츠 만들기' 권한을 부여하거나 이미 앱을 등록한 경우 추가해야 합니다.
 
-![콘텐츠를 만드는 앱 등록](media/embed-auto-install-app/register-app-create-content.png)
+![앱 등록으로 콘텐츠 생성](media/embed-auto-install-app/register-app-create-content.png)
 
-다음으로 embed URL에서 앱 ID를 제공 해야 합니다. 앱 ID를 제공 하려면 앱 작성자는 먼저 해야 앱을 설치한 다음 지원 되는 중 하나를 사용 하 여 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 호출 [보고서 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) 하거나 [대시보드 가져오기](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)합니다. 그런 다음 앱 작성자는 REST API 응답에서 embed Url을 사용 해야 합니다. 앱에서 콘텐츠를 하는 경우 앱 ID URL에 나타납니다.  Embed URL를 설정한 후에 정기적으로 포함 하려면 사용할 수 있습니다.
+그런 다음, 포함 URL에 앱 ID를 제공해야 합니다. 앱 ID를 제공하려면 앱 작성자가 먼저 앱을 설치한 다음, 지원되는 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 호출([보고서 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) 또는 [대시보드 가져오기](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)) 중 하나를 사용해야 합니다. 그런 다음, 앱 작성자는 REST API 응답에서 포함 Url을 가져와야 합니다. 앱에서 가져온 콘텐츠인 경우 URL에 앱 ID가 나타납니다.  포함 URL을 설정한 후에는 이를 사용하여 정기적으로 포함할 수 있습니다.
 
 ## <a name="secure-embed"></a>보안 포함
 
-앱의 자동 설치를 사용 하려면 앱 작성자는 먼저 앱을 설치 하 고 PowerBI.com에서 앱에 보고서로 이동 하 고 일반적인 방식으로 링크를 가져올 이동 해야 합니다. 링크를 사용할 수 있는 앱에 대 한 액세스를 사용 하 여 다른 모든 사용자는 보고서를 포함할 수 있습니다.
+앱의 자동 설치를 사용하려면 앱 작성자는 먼저 앱을 설치한 다음, PowerBI.com의 앱으로 이동하여 보고서를 탐색하고 일반적인 방식으로 링크를 가져와야 합니다. 링크를 사용할 수 있는 앱에 대한 액세스 권한이 있는 다른 모든 사용자는 보고서를 포함할 수 있습니다.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-* 이 시나리오에 대 한 대시보드와 보고서만 포함할 수 있습니다.
+* 이 시나리오에 대한 보고서와 대시보드만 포함할 수 있습니다.
 
-* 이 기능은 현재 지원 되지 않습니다 앱 소유 데이터 시나리오를 포함 하는 SharePoint에 대 한.
+* 이 기능은 현재 앱 소유 데이터 및 SharePoint 포함 시나리오에서 지원되지 않습니다.

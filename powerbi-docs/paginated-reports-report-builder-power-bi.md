@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium의 페이지를 매긴 보고서란? (미리 보기)
+title: Power BI Premium의 페이지를 매긴 보고서란?
 description: 페이지를 매긴 보고서는 SQL Server Reporting Services의 표준 보고서 형식과 함께 이제 Power BI 서비스에서 사용할 수 있습니다. 이러한 보고서를 인쇄 또는 공유할 수 있습니다. 보고서 레이아웃을 정확하게 제어할 수 있습니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,41 +8,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/20/2019
-ms.openlocfilehash: 8da24bb8f7d3b8d507dbb6792556004083b673fe
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: f7cf5091c60a6a916b24d6170eae96b3c1ee64dc
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991061"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839647"
 ---
-# <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Power BI Premium의 페이지를 매긴 보고서란? (미리 보기)
+# <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium의 페이지를 매긴 보고서란?(미리 보기)
 
 페이지를 매긴 보고서는 SQL Server Reporting Services의 표준 보고서 형식과 함께 이제 Power BI 서비스에서 사용할 수 있습니다. 이러한 보고서를 인쇄 또는 공유할 수 있습니다. 이러한 보고서가 “페이지를 매긴” 보고서로 불리는 이유는 페이지에 적합하게 형식 지정되어 있기 때문입니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다. 보고서 페이지 레이아웃을 정확하게 제어할 수 있기 때문에 “pixel perfect”라고도 합니다. 페이지를 매긴 보고서는 SQL Server Reporting Services의 RDL 보고서 기술을 기반으로 합니다. 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 독립 실행형 도구입니다. 
 
 페이지를 매긴 보고서에는 여러 페이지가 있을 수 있습니다. 예를 들어 이 보고서에는 563페이지가 있습니다. 각 페이지는 청구서당 한 페이지가 정확하게 배치되고 머리글과 바닥글이 반복됩니다.
 
-![Power BI 서비스의 페이지를 매긴 보고서](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+![페이지를 매긴](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-보고서 작성기에서 보고서를 미리 본 후 Power BI 서비스, http://app.powerbi.com 에 게시할 수 있습니다. 서비스에 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 작업 영역이 Power BI Premium 용량에 포함된 경우 내 작업 영역 또는 앱 작업 영역에서 페이지를 매긴 보고서를 게시하고 공유할 수 있습니다. 또한 Power BI 관리자는 Power BI 관리 포털에서 페이지를 매긴 보고서를 사용하도록 설정해야 합니다. 
+![Power BI 서비스의 페이지를 매긴 보고서](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+
+보고서 작성기에서 보고서를 미리 본 후 Power BI 서비스, http://app.powerbi.com 에 게시할 수 있습니다. 서비스에 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 작업 영역이 Power BI Premium 용량에 포함된 경우 내 작업 영역 또는 앱 작업 영역에서 페이지를 매긴 보고서를 게시하고 공유할 수 있습니다. 또한 Power BI 관리자는 Power BI 관리 포털의 [프리미엄 용량 섹션](service-admin-premium-workloads.md#paginated-reports-preview)에서 페이지를 매긴 보고서를 사용하도록 설정해야 합니다. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Power BI 보고서 작성기에서 보고서 만들기
 
-페이지 매긴된 보고서에는 고유한 디자인 도구인 Power BI 보고서 작성기. Power BI Report Server 또는 SQL Server Reporting Services (SSRS)에 대 한 페이지 매긴된 보고서를 만들려면 이전에 사용한 도구와 동일한 기반을 공유 하는 새 도구입니다. 실제로 SSRS 2016 및 2017 또는 Power BI Report Server 온-프레미스용으로 만드는 페이지를 매긴 보고서는 Power BI 서비스와 호환됩니다. Power BI 서비스는 이전 버전과의 호환성을 유지 관리하므로 보고서를 앞으로 이동할 수 있고 이전 버전의 페이지를 매긴 보고서를 업그레이드할 수 있습니다. 일부 보고서 기능은 시작 시 사용할 수 없습니다. 자세한 내용은 이 문서의 [제한 사항 및 고려 사항](#limitations-and-considerations)을 참조하세요.
+페이지를 매긴 보고서에는 고유한 디자인 도구인 Power BI 보고서 작성기가 있습니다. Power BI Report Server 또는 SQL Server Reporting Services (SSRS)에 대한 페이지를 매긴 보고서를 만들기 위해 이전에 사용한 도구와 동일한 기반을 공유하는 새 도구입니다. 실제로 SSRS 2016 및 2017 또는 Power BI Report Server 온-프레미스용으로 만드는 페이지를 매긴 보고서는 Power BI 서비스와 호환됩니다. Power BI 서비스는 이전 버전과의 호환성을 유지 관리하므로 보고서를 향상시킬 수 있고 이전 버전의 페이지를 매긴 보고서를 업그레이드할 수 있습니다. 일부 보고서 기능은 시작 시 사용할 수 없습니다. 자세한 내용은 이 문서의 [제한 사항 및 고려 사항](#limitations-and-considerations)을 참조하세요.
      
 ## <a name="report-from-a-variety-of-data-sources"></a>다양한 데이터 원본의 보고서
 
-하나의 페이지를 매긴 보고서에 다양하고 많은 데이터 원본이 포함될 수 있습니다. Power BI 보고서와 달리, 이 보고서에는 기본 데이터 모델이 없습니다. Power BI 서비스의 페이지를 매긴 보고서 초기 릴리스의 경우 보고서 자체에 포함된 데이터 원본 및 데이터 세트를 만듭니다. 지금은 공유 데이터 원본 또는 공유 데이터 세트를 사용할 수 없습니다. 로컬 컴퓨터의 보고서 작성기에서 보고서를 만듭니다. 보고서가 온-프레미스 데이터에 연결되면 보고서를 Power BI 서비스에 업로드한 후 게이트웨이를 만들고 데이터 연결을 리디렉션해야 합니다. 다음은 데이터 원본에 연결할 수 있습니다.
+하나의 페이지를 매긴 보고서에 다양하고 많은 데이터 원본이 포함될 수 있습니다. Power BI 보고서와 달리, 이 보고서에는 기본 데이터 모델이 없습니다. Power BI 서비스의 페이지를 매긴 보고서 초기 릴리스의 경우 보고서 자체에 포함된 데이터 원본 및 데이터 세트를 만듭니다. 지금은 공유 데이터 원본 또는 공유 데이터 세트를 사용할 수 없습니다. 로컬 컴퓨터의 보고서 작성기에서 보고서를 만듭니다. 보고서가 온-프레미스 데이터에 연결되면 보고서를 Power BI 서비스에 업로드한 후 게이트웨이를 만들고 데이터 연결을 리디렉션해야 합니다. 현재 연결할 수 있는 데이터 원본은 다음과 같습니다.
 
 - Azure SQL Database 및 Data Warehouse
-- (SSO)를 통해 azure Analysis Services
+- Azure Analysis Services(SSO를 통해)
 - 게이트웨이를 통해 SQL Server
 - 게이트웨이를 통해 SQL Server Analysis Services
-- Power BI 프리미엄 데이터 집합
+- Power BI Premium 데이터 세트
 - Oracle
 - Teradata
- 
-추가 데이터 원본이 미리 보기 기간 중에 제공될 예정입니다.
+- 추가되는 추가 소스
 
 ## <a name="design-your-report"></a>보고서 디자인  
 
@@ -67,11 +68,11 @@ ms.locfileid: "65991061"
 ## <a name="view-your-paginated-report"></a>페이지를 매긴 보고서 보기
 브라우저의 Power BI 서비스 및 Power BI 모바일 앱에서 페이지를 매긴 보고서를 볼 수 있습니다. Power BI 서비스에서 보고서를 HTML, MHTML, PDF, XML, CSV, TIFF, Word 및 Excel과 같은 여러 형식으로 내보낼 수 있습니다. 다른 사용자와 공유할 수도 있습니다.  
 
-## <a name="create-a-subscription-to-your-report"></a>보고서에 대 한 구독 만들기
+## <a name="create-a-subscription-to-your-report"></a>보고서에 대한 구독 만들기
 
-이제 Power BI 서비스에서 페이지 매긴된 보고서에 대 한 직접 및 다른 사용자에 대 한 전자 메일 구독을 설정할 수 있습니다. 일반적으로 프로세스는 Power BI 서비스에서 보고서 및 대시보드 구독와 같습니다. 구독을 설정 하면 선택 전자 메일 수신 빈도: 매일, 매주 또는 시간입니다. 구독에는 전체 보고서 출력의 PDF 첨부 파일을 포함합니다.
+이제 Power BI 서비스에서 페이지를 매긴 보고서에 대한 이메일 구독을 자신과 다른 사용자에게 설정할 수 있습니다. 일반적으로 프로세스는 Power BI 서비스의 보고서 및 대시보드에 구독하는 것과 같습니다. 구독 설정 시 이메일 수신 빈도(매일, 매주 또는 매시간)를 선택합니다. 구독에는 전체 보고서 출력의 PDF 첨부 파일이 포함되어 있습니다.
 
-자세한 내용은 문서를 참조 [자신과 다른 사람이 Power BI 서비스에서 페이지 매긴된 보고서를 구독할](paginated-reports-subscriptions.md)합니다. 
+자세한 내용은 문서 [Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독](paginated-reports-subscriptions.md)을 참조하세요. 
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
@@ -85,7 +86,7 @@ ms.locfileid: "65991061"
  
 ## <a name="next-steps"></a>다음 단계
 
-- [Microsoft 다운로드 센터에서 Power BI 보고서 작성기를 설치 합니다.](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Microsoft 다운로드 센터에서 Power BI 보고서 작성기 설치](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [자습서: 페이지를 매긴 보고서 만들기](paginated-reports-quickstart-aw.md)
 - [페이지를 매긴 보고서에 직접 데이터 입력](paginated-reports-enter-data.md)
 

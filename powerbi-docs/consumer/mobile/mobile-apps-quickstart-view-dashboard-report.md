@@ -11,7 +11,7 @@ ms.date: 04/18/2019
 ms.author: mshenhav
 ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "60976117"
@@ -125,9 +125,9 @@ Android 디바이스에서 샘플을 볼 준비가 되었습니다.
 
 1. 해당 메일 주소를 입력하고 원하는 경우 메시지를 추가합니다.  
 
-    ![스냅숏 및 링크가 포함된 새 메일 메시지](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-send-snapshot.png)
+    ![스냅샷 및 링크가 포함된 새 메일 메시지](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-send-snapshot.png)
 
-    이 스냅숏을 조직 내부 또는 외부의 모든 사용자와 공유할 수 있습니다. 조직 내부에 있고 자체 Power BI 계정을 가지고 있는 사용자는 소매점 분석 샘플 보고서도 열 수 있습니다.
+    이 스냅샷을 조직 내부 또는 외부의 모든 사용자와 공유할 수 있습니다. 조직 내부에 있고 자체 Power BI 계정을 가지고 있는 사용자는 소매점 분석 샘플 보고서도 열 수 있습니다.
 
 ## <a name="clean-up-resources"></a>리소스 정리
 
