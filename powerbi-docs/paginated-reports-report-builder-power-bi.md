@@ -28,14 +28,14 @@ ms.locfileid: "65991061"
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Power BI 보고서 작성기에서 보고서 만들기
 
-페이지를 매긴 보고서에는 고유한 디자인 도구인 Power BI 보고서 작성기가 있습니다. Power BI Report Server 또는 SQL Server Reporting Services (SSRS)에 대한 페이지를 매긴 보고서를 만들기 위해 이전에 사용한 도구와 동일한 기반을 공유 하는 새 도구입니다. 실제로 SSRS 2016 및 2017 또는 Power BI Report Server 온-프레미스용으로 만드는 페이지를 매긴 보고서는 Power BI 서비스와 호환됩니다. Power BI 서비스는 이전 버전과의 호환성을 유지 관리하므로 보고서를 앞으로 이동할 수 있고 이전 버전의 페이지를 매긴 보고서를 업그레이드할 수 있습니다. 일부 보고서 기능은 시작 시 사용할 수 없습니다. 자세한 내용은 이 문서의 [제한 사항 및 고려 사항](#limitations-and-considerations)을 참조하세요.
+페이지를 매긴 보고서에는 고유한 디자인 도구인 Power BI 보고서 작성기가 있습니다. Power BI Report Server 또는 SQL Server Reporting Services (SSRS)에 대한 페이지를 매긴 보고서를 만들기 위해 이전에 사용한 도구와 동일한 기반을 공유하는 새 도구입니다. 실제로 SSRS 2016 및 2017 또는 Power BI Report Server 온-프레미스용으로 만드는 페이지를 매긴 보고서는 Power BI 서비스와 호환됩니다. Power BI 서비스는 이전 버전과의 호환성을 유지 관리하므로 보고서를 향상시킬 수 있고 이전 버전의 페이지를 매긴 보고서를 업그레이드할 수 있습니다. 일부 보고서 기능은 시작 시 사용할 수 없습니다. 자세한 내용은 이 문서의 [제한 사항 및 고려 사항](#limitations-and-considerations)을 참조하세요.
      
 ## <a name="report-from-a-variety-of-data-sources"></a>다양한 데이터 원본의 보고서
 
 하나의 페이지를 매긴 보고서에 다양하고 많은 데이터 원본이 포함될 수 있습니다. Power BI 보고서와 달리, 이 보고서에는 기본 데이터 모델이 없습니다. Power BI 서비스의 페이지를 매긴 보고서 초기 릴리스의 경우 보고서 자체에 포함된 데이터 원본 및 데이터 세트를 만듭니다. 지금은 공유 데이터 원본 또는 공유 데이터 세트를 사용할 수 없습니다. 로컬 컴퓨터의 보고서 작성기에서 보고서를 만듭니다. 보고서가 온-프레미스 데이터에 연결되면 보고서를 Power BI 서비스에 업로드한 후 게이트웨이를 만들고 데이터 연결을 리디렉션해야 합니다. 다음은 데이터 원본에 연결할 수 있습니다.
 
 - Azure SQL Database 및 Data Warehouse
-- (SSO)를 통해 Azure Analysis Services
+- Azure Analysis Services(SSO를 통해)
 - 게이트웨이를 통해 SQL Server
 - 게이트웨이를 통해 SQL Server Analysis Services
 - Power BI 프리미엄 데이터 집합
@@ -69,15 +69,15 @@ ms.locfileid: "65991061"
 
 ## <a name="create-a-subscription-to-your-report"></a>보고서에 대한 구독 만들기
 
-이제 Power BI 서비스에서 페이지를 매긴 보고서에 대한 직접 및 다른 사용자에 대한 전자 메일 구독을 설정할 수 있습니다. 일반적으로 프로세스는 Power BI 서비스에서 보고서 및 대시보드 구독과 같습니다. 구독을 설정 하면 전자 메일 수신 빈도를 선택할 수 있습니다: 매일, 매주 또는 시간. 구독에는 전체 보고서 출력의 PDF 첨부 파일을 포함합니다.
+이제 Power BI 서비스에서 페이지를 매긴 보고서에 대한 나 또는 다른 사용자의 전자 메일 구독을 설정할 수 있습니다. 일반적으로 프로세스는 Power BI 서비스에서의 보고서 및 대시보드 구독과 같습니다. 구독을 설정하면 전자 메일 수신 빈도를 선택할 수 있습니다: 매일, 매주 또는 매시간. 구독에는 전체 보고서 출력의 PDF 첨부 파일이 포함됩니다.
 
-자세한 내용은 [자신과 다른 사람이 Power BI 서비스에서 페이지를 매긴 보고서 구독](paginated-reports-subscriptions.md) 문서를 참조합니다. 
+자세한 내용은 [자신 및 다른 사람이 Power BI 서비스에서 페이지를 매긴 보고서 구독하기](paginated-reports-subscriptions.md) 문서를 참조합니다.
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
 초기 릴리스에서 지원되지 않는 몇 가지 다른 기능은 다음과 같습니다.
 
-- 보고서 페이지 또는 시각적 개체를 Power BI 대시보드에 고정. 사용자는 여전히 Power BI Report Server 또는 Reporting Services 보고서 서버의 온-프레미스 페이지를 매긴 보고서에서 Power BI 대시보드에 시각화를 고정할 수 있습니다. 자세한 내용은 [Power BI 대시보드에 Reporting Services 항목 고정](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)을 참조하세요.
+- 보고서 페이지 또는 시각적 개체를 Power BI 대시보드에 고정. 사용자는 여전히 Power BI Report Server 또는 Reporting Services 보고서 서버의 온-프레미스 페이지를 매긴 보고서에서 Power BI 대시보드로 시각화를 고정할 수 있습니다. 자세한 내용은 [Power BI 대시보드에 Reporting Services 항목 고정](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)을 참조하세요.
 - 문서 구조 및 단추 표시/숨기기와 같은 대화형 기능.
 - 하위 보고서 및 드릴스루 보고서.
 - 공유 데이터 원본 및 공유 데이터 세트.
