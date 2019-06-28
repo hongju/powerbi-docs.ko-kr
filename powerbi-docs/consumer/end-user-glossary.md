@@ -6,15 +6,15 @@ ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: resource
+ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
-ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66412892"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751012"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다. 
@@ -142,7 +142,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 ## <a name="h"></a>H
 **high-density visuals (고밀도 시각적 개체)** Power BI로 렌더링할 수 있는 것보다 더 많은 데이터 요소를 포함하는 시각적 개체입니다. Power BI는 데이터를 샘플링하여 셰이프 및 이상값을 보여 줍니다.
 
-**홈** 기본 Power BI 서비스 사용자에 대 한 보존 기간을 방문 합니다. 아무 것도 수정 하지 않습니다. 호출할 수 있습니다 Power BI 홈 또는 홈 하기만 하면 됩니다.
+**홈** Power BI 서비스 사용자의 기본 방문 시기입니다. 아무것도 수정하지 않습니다. Power BI 홈 또는 간단히 홈이라고 하면 됩니다.
 
 ## <a name="i"></a>I
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
-ms.openlocfilehash: 8cee670028da828e052d8fe30c594882555c5d53
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 52863ea4bd666547a9c63b3add1d2d9c0626adc7
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770165"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839694"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Report Server 업그레이드
 
@@ -31,21 +31,21 @@ Power BI Report Server 및 Report Server에 최적화된 Power BI Desktop을 다
 
 ### <a name="backing-up-the-encryption-keys"></a>암호화 키 백업
 
-처음으로 보고서 서버 설치를 구성 하면 암호화 키를 백업 해야 합니다. 또한 서비스 계정의 id를 변경 하거나 컴퓨터 이름을 바꾸고 언제 든 지 키를 백업 해야 합니다. 자세한 내용은 [Reporting Services 암호화 키 백업 및 복원](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys)을 참조하세요.
+처음으로 보고서 서버 설치를 구성하는 경우 암호화 키를 백업해야 합니다. 또한 서비스 계정의 ID를 변경하거나 컴퓨터 이름을 바꿀 때는 항상 키를 백업해야 합니다. 자세한 내용은 [Reporting Services 암호화 키 백업 및 복원](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys)을 참조하세요.
 
 ### <a name="backing-up-the-report-server-databases"></a>보고서 서버 데이터베이스 백업
 
-보고서 서버는 상태 비저장 서버이므로 모든 애플리케이션 데이터는 SQL Server 데이터베이스 엔진 인스턴스에서 실행되는 **reportserver** 및 **reportservertempdb** 데이터베이스에 저장됩니다. 백업할 수 있습니다 합니다 **reportserver** 및 **reportservertempdb** 지원 되는 방법 중 하나를 사용 하 여 SQL Server 데이터베이스를 백업 합니다. 보고서 서버 데이터베이스에 적용되는 권장 사항은 다음과 같습니다.
+보고서 서버는 상태 비저장 서버이므로 모든 애플리케이션 데이터는 SQL Server 데이터베이스 엔진 인스턴스에서 실행되는 **reportserver** 및 **reportservertempdb** 데이터베이스에 저장됩니다. SQL Server 데이터베이스 백업에 지원되는 방법 중 하나를 사용하여 **reportserver** 및 **reportservertempdb** 데이터베이스를 백업할 수 있습니다. 보고서 서버 데이터베이스에 적용되는 권장 사항은 다음과 같습니다.
 
-* 백업 하기 위해 전체 복구 모델을 사용 합니다 **reportserver** 데이터베이스입니다.
-* 백업 하기 위해 단순 복구 모델을 사용 합니다 **reportservertempdb** 데이터베이스입니다.
-* 각 데이터베이스에 서로 다른 백업 일정을 사용할 수 있습니다. 백업 하는 유일한 이유는 **reportservertempdb** 하드웨어 오류가 발생 하는 경우 다시 만들 필요가 없도록 하는 것입니다. 하드웨어 오류 시 **reportservertempdb**의 데이터는 복구하지 않아도 되지만 테이블 구조는 필요합니다. **reportservertempdb**가 손실된 경우 복구하는 유일한 방법은 보고서 서버 데이터베이스를 다시 만드는 것입니다. **reportservertempdb**를 다시 만들 때는 주 보고서 서버 데이터베이스와 같은 이름을 지정해야 합니다.
+* 전체 복구 모델을 사용하여 **reportserver** 데이터베이스를 백업합니다.
+* 단순 복구 모델을 사용하여 **reportservertempdb** 데이터베이스를 백업합니다.
+* 각 데이터베이스에 서로 다른 백업 일정을 사용할 수 있습니다. **reportservertempdb**를 백업하는 유일한 이유는 하드웨어 오류가 발생할 경우 다시 만들 필요가 없도록 하는 것입니다. 하드웨어 오류 시 **reportservertempdb**의 데이터는 복구하지 않아도 되지만 테이블 구조는 필요합니다. **reportservertempdb**가 손실된 경우 복구하는 유일한 방법은 보고서 서버 데이터베이스를 다시 만드는 것입니다. **reportservertempdb**를 다시 만들 때는 주 보고서 서버 데이터베이스와 같은 이름을 지정해야 합니다.
 
 SQL Server 관계형 데이터베이스의 백업 및 복구에 대한 자세한 내용은 [SQL Server Databases 백업 및 복원](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases)을 참조하세요.
 
 ### <a name="backing-up-the-configuration-files"></a>구성 파일 백업
 
-Power BI Report Server는 구성 파일을 사용하여 애플리케이션 설정을 저장합니다. 서버를 처음 구성할 때와 모든 사용자 지정 확장 프로그램을 배포한 후이 파일을 백업 해야 합니다. 백업할 파일은 다음과 같습니다.
+Power BI Report Server는 구성 파일을 사용하여 애플리케이션 설정을 저장합니다. 서버를 처음 구성할 때와 사용자 지정 확장 프로그램을 배포한 후에 파일을 백업해야 합니다. 백업할 파일은 다음과 같습니다.
 
 * config.json
 * RSHostingService.exe.config

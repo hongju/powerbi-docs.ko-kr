@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 1b6b74682f1c74ab78f27be857dbec42efa29347
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454184"
@@ -55,7 +55,7 @@ Power BI Desktop은 Excel에서 일반적으로 *개체*라고 하는 다음 요
 | --- | --- |
 | Power Query 쿼리 |Excel에서 모든 Power Query 쿼리는 Power BI Desktop의 쿼리로 변환됩니다. Excel 통합 문서에 정의된 쿼리 그룹이 있다면 동일한 구성이 Power BI Desktop에 복제됩니다. Excel에서 “연결 만들기만"으로 설정되지 않았다면 모든 쿼리가 로드됩니다. 로드 동작은 Power BI Desktop에서 **쿼리 편집기** 의 **홈** 탭에서 **속성** 대화 상자를 통해 사용자 지정할 수 있습니다. |
 | 파워 피벗 외부 데이터 연결 |모든 파워 피벗 외부 데이터 연결은 Power BI Desktop의 쿼리로 변환됩니다. |
-| 연결된 테이블 또는 현재 통합 문서 테이블 |Excel의 통합 문서 테이블이 데이터 모델에 연결되었거나 쿼리(M에서 *From Table* 또는 *Excel.CurrentWorkbook()* 함수 사용)에 연결된 경우 다음 옵션이 제시됩니다. <ol><li>Power BI Desktop 파일에 테이블을 가져옵니다. 이 테이블은 데이터의 일회성 스냅숏으로, 이후에는 Power BI Desktop의 테이블에서 데이터를 편집할 수 없습니다. 이 옵션을 사용하여 만들어진 테이블에는 1백만 자(총계, 모든 열 머리글 및 셀 결합)의 크기 제한이 있습니다.</li><li>원래 통합 문서와의 연결을 유지합니다. 또는 원래의 Excel 통합 문서와의 연결을 유지하고, Power BI Desktop에서 Excel 통합 문서에 대해 만든 다른 쿼리와 마찬가지로 Power BI Desktop이 새로 고칠 때마다 이 테이블에서 최신 콘텐츠를 검색하도록 할 수 있습니다.</li></ul> |
+| 연결된 테이블 또는 현재 통합 문서 테이블 |Excel의 통합 문서 테이블이 데이터 모델에 연결되었거나 쿼리(M에서 *From Table* 또는 *Excel.CurrentWorkbook()* 함수 사용)에 연결된 경우 다음 옵션이 제시됩니다. <ol><li>Power BI Desktop 파일에 테이블을 가져옵니다. 이 테이블은 데이터의 일회성 스냅샷으로, 이후에는 Power BI Desktop의 테이블에서 데이터를 편집할 수 없습니다. 이 옵션을 사용하여 만들어진 테이블에는 1백만 자(총계, 모든 열 머리글 및 셀 결합)의 크기 제한이 있습니다.</li><li>원래 통합 문서와의 연결을 유지합니다. 또는 원래의 Excel 통합 문서와의 연결을 유지하고, Power BI Desktop에서 Excel 통합 문서에 대해 만든 다른 쿼리와 마찬가지로 Power BI Desktop이 새로 고칠 때마다 이 테이블에서 최신 콘텐츠를 검색하도록 할 수 있습니다.</li></ul> |
 | 데이터 모델 계산 열, 측정값, KPI, 데이터 범주 및 관계 |이러한 데이터 모델 개체는 Power BI Desktop에서 상응하는 개체로 변환됩니다. Power BI Desktop에는 사용할 수 없는 특정 데이터 범주가 있습니다(예: **이미지**). 이 경우 문제의 열에 대해 데이터 범주 정보가 재설정됩니다. |
 | Power View 워크시트 |Excel에서 각 Power View 워크시트에 대해 새 보고서 페이지가 생성됩니다. 이러한 보고서 페이지의 순서와 이름은 원래의 Excel 통합 문서와 일치합니다. |
 

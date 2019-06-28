@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d2a4e168b49ef0d9c3b656c91001ae9306dfe42d
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: cc2c9cbc15240e3dc4d46c7f02ef0b0d82bb36f8
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375026"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823437"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -34,10 +34,9 @@ ms.locfileid: "66375026"
 
 다음 섹션은 이전 달들의 **Power BI Desktop**에 대한 업데이트를 설명합니다.
 
+## <a name="may-2019-update-26954671251"></a>2019년 5월 업데이트(2.69.5467.1251)
 
-## <a name="april-2019-update-2685432361"></a>2019 년 4 월 업데이트 (2.68.5432.361)
-
-4 월 업데이트 프로그램 단계에서 비 일에 spring을 배치 하는 업데이트의 전체를 압축 되었습니다. 
+5월 업데이트는 매혹적인 새 기능과 화려하고 아름다운 시각적 개체로 가득한 화분을 가지고 훌륭한 보고서의 정원에서 꽃을 피웠습니다. 
 
 이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
@@ -53,40 +52,118 @@ ms.locfileid: "66375026"
 이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
 
 ### <a name="reporting"></a>보고
-* 필터 창 [[비디오]](https://youtu.be/vih35kSrEHU?t=9)[[문서]](power-bi-report-filter-preview.md)[[블로그]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
-* 시각적 개체 제목에 대 한 조건부 서식 [[비디오]](https://youtu.be/vih35kSrEHU?t=254)[[문서]](desktop-conditional-format-visual-titles.md)[[블로그]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicTitles)
-* 조건부 서식에 대 한 웹 URL 작업 단추, 셰이프 및 이미지에 대 한 [[비디오]](https://youtu.be/vih35kSrEHU?t=439)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicURLs)
+* 성능 분석기 창 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=10) [[문서]](desktop-performance-analyzer.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#perfAnalyzer) 
+* 필터 창 개선(미리 보기) [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=377) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#filterPane)
+* 테이블 및 행렬 키보드 탐색 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=518) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#accessibility)
+* 줄 데이터 레이블 위치 컨트롤 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=572) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dataLabels)
+* KPI 시각적 개체 표시기 텍스트 크기 컨트롤 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=664) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#kpi)
 
 
 ### <a name="analytics"></a>분석
-* 보고서에서 드릴스루 [[비디오]](https://youtu.be/vih35kSrEHU?t=567)[[문서]](desktop-cross-report-drill-through.md)[[블로그]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#drillthrough) 
-* 주요 영향 요인 visual 숫자 대상에 대 한 연속 분석 지원 [[비디오]](https://youtu.be/vih35kSrEHU?t=753)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#keyInfluencers) 
-* 일반적으로 사용할 수 있는 Python 지원을 [[비디오]](https://youtu.be/vih35kSrEHU?t=889)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#python) 
-* 질문 및 답변에서 조건에 일치 하는 부분 동의어 [[비디오]](https://youtu.be/vih35kSrEHU?t=912)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#partialMatching) 
+* 주요 영향 요인 시각적 개체 개선(미리 보기) [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=717) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#keyInfluencers) 
+    * 범주화 지원 
+    * 서식 지정 옵션
+    * 모바일 지원
 
 
 ### <a name="modeling"></a>모델링
-* 새 DAX 함수-ALLCROSSFILTERED [[비디오]](https://youtu.be/vih35kSrEHU?t=970)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
+* 새 보고서에 대한 자동 날짜 테이블 사용 안 함 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=984) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#autoDate) 
+* ALLSELECTED DAX 함수 업데이트 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=1080) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dax) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
-* 새 사용자 지정 시각적 개체를 하나의 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#rainbowGauge) 
+
+### <a name="visuals"></a>시각적 개체
+* Power BI용 ArcGIS 맵 업데이트 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=1093) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#esri) 
+* 6개의 새로운 사용자 지정 시각적 개체 및 업데이트 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=1199) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
 
 
 ### <a name="data-connectivity"></a>데이터 연결
-* Power BI 데이터 흐름이 커넥터 이제 일반 공급 [[비디오]](https://youtu.be/vih35kSrEHU?t=983)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dataflows) 
-* Oracle Essbase 커넥터에서 이제 DirectQuery를 지원 하 고는 일반 공급 [[비디오]](https://youtu.be/vih35kSrEHU?t=1011)[[블로그]   ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#oracleEssbase) 
-* PDF 커넥터 이제 일반 공급 [[비디오]](https://youtu.be/vih35kSrEHU?t=1042)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#pdf) 
-* 예제 별 웹 커넥터-자동 테이블 유추 [[비디오]](https://youtu.be/vih35kSrEHU?t=1089)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#webByExample) 
-* 아이리스 커넥터 intersystems [[비디오]](https://youtu.be/vih35kSrEHU?t=1186)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intersystemsIRIS) 
-* Indexima 커넥터 [[비디오]](https://youtu.be/vih35kSrEHU?t=1215)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#indexima) 
-* Luminis InformationGrid 커넥터 [[비디오]](https://youtu.be/vih35kSrEHU?t=1236)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#luminisInformationGrid) 
-* Solver BI360 커넥터 [[비디오]](https://youtu.be/vih35kSrEHU?t=1255)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#solverBI360) 
-* Paxata 커넥터 [[비디오]](https://youtu.be/vih35kSrEHU?t=1268)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paxata) 
+* Essbase 커넥터 - 네이티브 쿼리(MDX) 지원 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=2518) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#essbase) 
+* Intune Data Warehouse 커넥터 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=2538) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#intune) 
+* Tenforce 커넥터 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=2560) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#tenforce) 
+* Roamler 커넥터 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=2596) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#roamler) 
+
+
+### <a name="other"></a>기타
+* Power BI Desktop에 대한 자동 쿼리 취소 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#queryCancellation) 
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O8GlHDz8xUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+조직에 필요한 경우 이전 버전의 Power BI Desktop을 다운로드할 수도 있습니다. 이전 버전보다는 최신 버전의 Power BI Desktop을 사용하는 것이 좋습니다. 모든 이전 버전에는 다음과 같은 제한이 있습니다.
+
+* Power BI Desktop의 이전 릴리스에는 서비스가 제공되지 않으므로 최신 기능 및 업데이트를 사용하려면 항상 최신 릴리스를 사용해야 합니다.
+* Power BI Desktop의 최신 릴리스에서 만들거나 저장한 파일을 이전 버전의 Power BI Desktop에서 열지 못할 수 있습니다. 
+* Power BI Desktop의 최신 릴리스에서 저장한 보고서를 로드할 때 경고가 표시되어 이전 버전에 해당 보고서를 저장하는 경우 새 기능과 관련된 정보가 모두 손실됩니다.
+* Power BI Desktop의 영어 버전만 보관됩니다.
+
+이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
+
+* [Power BI Desktop 2019년 5월 버전 - 32비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
+* [Power BI Desktop 2019년 5월 버전 - 64비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
+
+
+## <a name="april-2019-update-2685432361"></a>2019년 4월 업데이트(2.68.5432.361)
+
+4월 업데이트는 매우 기대하셨던 업데이트로 가득 차 있습니다. 
+
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+
+각 업데이트 옆의 링크는 다음을 의미합니다.
+
+* 기능을 설명하는 경우 **[비디오]** 에서 발췌된 내용이 새 브라우저 탭에서 재생됩니다.
+* 일부 기능에는 세부 사항을 제공하는 **[문서]** 가 있습니다.
+* 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+
+처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+
+이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
+
+### <a name="reporting"></a>보고
+* 필터 창 개선 [[비디오]](https://youtu.be/vih35kSrEHU?t=9) [[문서]](power-bi-report-filter-preview.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
+* 시각적 개체 제목용 조건부 서식 지정 [[비디오]](https://youtu.be/vih35kSrEHU?t=254) [[문서]](desktop-conditional-format-visual-titles.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicTitles)
+* 단추, 셰이프 및 이미지에 대한 웹 URL 작업의 조건부 서식 지정 [[비디오]](https://youtu.be/vih35kSrEHU?t=439) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicURLs)
+
+
+### <a name="analytics"></a>분석
+* 보고서 전체에서 드릴스루 [[비디오]](https://youtu.be/vih35kSrEHU?t=567) [[문서]](desktop-cross-report-drill-through.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#drillthrough) 
+* 이제 주요 영향 시각적 개체를 통해 숫자 대상에 대한 연속 분석 지원 [[비디오]](https://youtu.be/vih35kSrEHU?t=753) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#keyInfluencers) 
+* 일반적으로 Python 지원을 사용할 수 없음 [[비디오]](https://youtu.be/vih35kSrEHU?t=889) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#python) 
+* Q&A의 용어에 대한 부분 동의어 일치 [[비디오]](https://youtu.be/vih35kSrEHU?t=912) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#partialMatching) 
+
+
+### <a name="modeling"></a>모델링
+* 새 DAX 함수 - ALLCROSSFILTERED [[비디오]](https://youtu.be/vih35kSrEHU?t=970) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
+
+### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+* 하나의 새로운 사용자 지정 시각적 개체 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#rainbowGauge) 
+
+
+### <a name="data-connectivity"></a>데이터 연결
+* 현재 일반적으로 사용 가능한 Power BI 데이터 흐름 커넥터 [[비디오]](https://youtu.be/vih35kSrEHU?t=983) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dataflows) 
+* Oracle Essbase 커넥터는 이제 DirectQuery를 지원하며 일반적으로 사용 가능 [[비디오]](https://youtu.be/vih35kSrEHU?t=1011) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#oracleEssbase) 
+* 현재 사용 가능한 PDF 커넥터 [[비디오]](https://youtu.be/vih35kSrEHU?t=1042) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#pdf) 
+* 예제별 웹 커넥터 - 자동 테이블 유추 [[비디오]](https://youtu.be/vih35kSrEHU?t=1089) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#webByExample) 
+* Intersystems IRIS 커넥터 [[비디오]](https://youtu.be/vih35kSrEHU?t=1186) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intersystemsIRIS) 
+* Indexima 커넥터 [[비디오]](https://youtu.be/vih35kSrEHU?t=1215) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#indexima) 
+* Luminis InformationGrid 커넥터 [[비디오]](https://youtu.be/vih35kSrEHU?t=1236) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#luminisInformationGrid) 
+* Solver BI360 커넥터 [[비디오]](https://youtu.be/vih35kSrEHU?t=1255) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#solverBI360) 
+* Paxata 커넥터 [[비디오]](https://youtu.be/vih35kSrEHU?t=1268) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paxata) 
 
 ### <a name="data-preparation"></a>데이터 준비
-* 데이터 프로 파일링 기능 향상 및 일반 공급 [[비디오]](https://youtu.be/vih35kSrEHU?t=1299)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#profiling) 
-* 유사 항목 병합 성능 향상 및 일반 공급 [[비디오]](https://youtu.be/vih35kSrEHU?t=1447)[[블로그]   ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#fuzzyMerge) 
-* M Intellisense 수식 입력줄에 사용자 지정 열 대화 상자에서 지원 되며 일반 공급 [[비디오]](https://youtu.be/vih35kSrEHU?t=1491)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intellisense) 
+* 데이터 프로파일링 기능 향상 및 일반 가용성 [[비디오]](https://youtu.be/vih35kSrEHU?t=1299) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#profiling) 
+* 유사 항목 병합 성능 향상 및 일반 가용성 [[비디오]](https://youtu.be/vih35kSrEHU?t=1447) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#fuzzyMerge) 
+* M Intellisense는 수식 입력줄 및 사용자 지정 열 대화 상자에서 지원되며 일반적으로 사용 가능 [[비디오]](https://youtu.be/vih35kSrEHU?t=1491) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intellisense) 
 
 ### <a name="other"></a>기타
 * Power BI 페이지를 매긴 보고서 작성기 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
@@ -116,13 +193,13 @@ ms.locfileid: "66375026"
 
 이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
 
-* [2019 년 4 월 버전의 Power BI Desktop-32 비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
-* [2019 년 4 월 버전의 Power BI Desktop-64 비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
+* [Power BI Desktop 2019년 4월 버전 - 32비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
+* [Power BI Desktop 2019년 4월 버전 - 64비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
 
 
-## <a name="march-2019-update-2675404581"></a>2019 년 3 월 업데이트 (2.67.5404.581)
+## <a name="march-2019-update-2675404581"></a>2019년 3월 업데이트(2.67.5404.581)
 
-3 월 업데이트는 매력적이 고 유용한 업데이트의 전체를 압축 된 바랍니다 이러한 개선 기능을 통해 네-잎 클로버를 찾는 것으로 운이 좋은 것으로 생각 될 수 있습니다. 
+3월 업데이트는 매력적이고 유용한 업데이트로 가득하며, 이러한 향상된 기능으로 네 잎 클로버를 찾은 것처럼 행운이라고 느끼게 되기를 바랍니다. 
 
 이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
@@ -156,7 +233,7 @@ ms.locfileid: "66375026"
 
 
 ### <a name="modeling"></a>모델링
-* 새 모델링이 이제 일반 공급 [[비디오]](https://youtu.be/rBPGH6eYlT0?t=417)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
+* 현재 일반적으로 사용 가능한 새 모델링 보기 [[비디오]](https://youtu.be/rBPGH6eYlT0?t=417) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
 * 새 DAX 함수 [[비디오]](https://youtu.be/rBPGH6eYlT0?t=560)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#DAX) 
 
 ### <a name="custom-visuals"></a>사용자 지정 시각적 개체
@@ -195,11 +272,11 @@ ms.locfileid: "66375026"
 
 이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
 
-* [2019 년 3 월 버전의 Power BI Desktop-32 비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03.msi)
-* [2019 년 3 월 버전의 Power BI Desktop-64 비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03_x64.msi)
+* [Power BI Desktop 2019년 3월 버전 - 32비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03.msi)
+* [Power BI Desktop 2019년 3월 버전 - 64비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03_x64.msi)
 
 
-## <a name="february-2019-update-26653761681"></a>2019 년 2 월 업데이트 (2.66.5376.1681)
+## <a name="february-2019-update-26653761681"></a>2019년 2월 업데이트(2.66.5376.1681)
 
 고객들은 2월 업데이트를 통해 크게 향상된 새 데이터 커넥터와 기능, 분석을 모두 아주 좋아해 주셨습니다. 마치 초콜릿 상자처럼 앞으로 무엇을 얻게 될지는 아무도 모르지만, 올해 2월 업데이트를 통해 얻게 된 모든 변화는 아주 놀라운 것이었습니다. 
 
@@ -281,7 +358,7 @@ ms.locfileid: "66375026"
 2019년 1월에는 Power BI Desktop 릴리스가 없었습니다. 모두가 즐거운 명절을 맞아 친구 및 가족과 함께 시간을 보내느라 바쁘게 지냈습니다. 
 
 
-## <a name="december-2018-update-2655313621"></a>2018 년 12 월 업데이트 (2.65.5313.621)
+## <a name="december-2018-update-2655313621"></a>2018년 12월 업데이트(2.65.5313.621)
 
 12월 업데이트를 통해 고객이 만족할 수 있는 매력적이고 강력한 데이터 기반 시각적 개체를 만들었습니다. 
 
@@ -368,7 +445,7 @@ ms.locfileid: "66375026"
 * [Power BI Desktop 2018년 12월 버전 - 64비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-12_x64.msi)
 
 
-## <a name="november-2018-update-2645285582"></a>2018 년 11 월 업데이트 (2.64.5285.582)
+## <a name="november-2018-update-2645285582"></a>2018년 11월 업데이트(2.64.5285.582)
 
 11월 업데이트는 새로운 특징과 기능을 다양하게 제공했습니다. 이제 데이터 및 분석 애호가 가족과 함께 앉아서 뜨거운 감자를 전달하고 업데이트의 향연에 참여해 보세요. 
 
@@ -400,7 +477,7 @@ ms.locfileid: "66375026"
 
 ### <a name="data-connectivity"></a>데이터 연결
 
-* Azure 개발자 작업 Server 커넥터 [[비디오]](https://youtu.be/1xsXXoyTxfk?t=2641)[[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
+* Azure  Developer Operations Server 커넥터 [[비디오]](https://youtu.be/1xsXXoyTxfk?t=2641) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
 * Start Page 및 End Page 매개 변수에 대한 PDF 커넥터 지원  [[비디오]](https://youtu.be/1xsXXoyTxfk?t=2667)   [[문서]](desktop-connect-pdf.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
 * 개선된 Azure Consumption Insights 커넥터  [[비디오]](https://youtu.be/1xsXXoyTxfk?t=2704)  [[문서]](desktop-connect-azure-consumption-insights.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
 
@@ -1710,7 +1787,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 -   추가 함수 호출 열 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   확장 및 집계 열 - *더 많이 로드하기* 값에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   새 변환-테이블 열 목록으로 변환할 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
--   등록 키에 대 한 지원- *스마트 입력* 드롭 다운 메뉴에서 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+-   키보드 사용 - 드롭 다운 메뉴에서 *스마트 입력*에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 
 
 ### <a name="other-improvements"></a>기타 개선 기능
@@ -2554,7 +2631,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
   -   테이블 확장/축소
   -   필드 숨기기/숨기기 취소
   -   최적화된 레이아웃(간격, 여백 및 글꼴)
-- 보고서 페이지 탐색-키 탑 지원
+- 보고서 페이지 탐색 - 키보드 사용 지원
 - 다양한 버그 수정
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>

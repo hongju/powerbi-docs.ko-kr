@@ -1,5 +1,5 @@
 ---
-title: 페이지를 매긴 보고서의 보고서 디자인 뷰 살펴보기(미리 보기)
+title: 페이지를 매긴 보고서의 보고서 디자인 뷰 살펴보기
 description: 보고서 작성기의 보고서 디자인 뷰는 Power BI 서비스에 게시할 수 있는 페이지를 매긴 보고서를 만들기 위한 디자인 공간입니다.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 76c12cf411f49fda9f9fe042a6d1aafa457bf914
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423368"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839536"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>페이지를 매긴 보고서의 보고서 디자인 뷰 살펴보기(미리 보기)
+# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>페이지를 매긴 보고서의 보고서 디자인 뷰 살펴보기
 
-Power BI 보고서 작성기에서 보고서 디자인 뷰는 Power BI 서비스에 게시할 수 있는 페이지 매긴된 보고서를 만들기 위한 디자인 공간입니다. 디자인 화면은 보고서 작성기의 가운데에 있고 그 주위에 리본 및 창이 있습니다. 디자인 화면에서 보고서 항목을 추가하고 구성할 수 있습니다. 이 문서에서는 보고서 리소스를 추가, 선택 및 구성하고 보고서 항목 속성을 변경하는 데 사용하는 창에 대해 설명합니다.  
+Power BI 보고서 작성기에서 보고서 디자인 뷰는 Power BI 서비스에 게시할 수 있는 페이지를 매긴 보고서를 만들기 위한 디자인 공간입니다. 디자인 화면은 보고서 작성기의 가운데에 있고 그 주위에 리본 및 창이 있습니다. 디자인 화면에서 보고서 항목을 추가하고 구성할 수 있습니다. 이 문서에서는 보고서 리소스를 추가, 선택 및 구성하고 보고서 항목 속성을 변경하는 데 사용하는 창에 대해 설명합니다.  
 
 ![보고서 작성기 보고서 디자인 뷰](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
@@ -109,7 +109,7 @@ Power BI 보고서 작성기에서 보고서 디자인 뷰는 Power BI 서비스
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI Premium의 페이지를 매긴 보고서란? (미리 보기)](paginated-reports-report-builder-power-bi.md) 
+[Power BI Premium에서 페이지를 매긴 보고서란?](paginated-reports-report-builder-power-bi.md) 
 
   
   

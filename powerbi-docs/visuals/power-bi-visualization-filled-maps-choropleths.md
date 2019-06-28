@@ -8,20 +8,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ef03a562351b8f4487e4822ef28b89009ee5cbb4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2fa8fa5248ee1e4330804205b2cedb64021b1913
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61145427"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839814"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI의 등치 지역도(단계구분도)
 등치 지역도는 음영 또는 색조 또는 패턴을 사용하여 특정 값이 특정 지리 또는 지역을 기준으로 어떻게 다른지 표시합니다.  밝게(낮은 빈도/낮음)부터 어둡게(높은 빈도/높음)까지 다양한 음영으로 이러한 상대적 차이를 신속하게 표시합니다.    
 
-![미국 맵](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
+![미국 맵](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Bing에 전달되는 내용
 Power BI는 Bing과 통합되어 기본 맵 좌표를 제공합니다(지오코딩이라는 프로세스). Power BI 서비스 또는 Power BI Desktop에서 맵 시각화를 만드는 경우 **위치**, **위도** 및 **경도** 버킷의 데이터(해당 시각화를 만드는 데 사용되는)가 Bing에 전송됩니다.
@@ -55,10 +55,11 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>데이터를 가져오고 보고서에 새 빈 페이지 추가
-1. 사용자 고유의 등치 지역도를 만들려면 Power BI에 로그인하고 **데이터 가져오기 \> 샘플 \> 영업 및 마케팅 \> 연결**을 선택하여 [영업 및 마케팅 샘플을 다운로드](../sample-datasets.md)합니다.
-2. 성공 메시지가 나타나면 메시지를 닫고 **보고서** 탭을 선택합니다. 그런 다음, **영업 및 마케팅 샘플**을 선택하여 보고서를 엽니다.
+1. 사용자 고유의 등치 지역도를 만들려면 Power BI에 로그인하고 **데이터 가져오기 \> 샘플 \> 영업 및 마케팅 \> 연결**을 선택하여 [영업 및 마케팅 샘플을 다운로드](../sample-datasets.md)합니다. 또는 appsource.com에서 **Power BI 판매 및 마케팅** 앱을 가져옵니다. 
 
-   ![보고서 콘텐츠 목록](media/power-bi-visualization-filled-maps-choropleths/power-bi-content-reports2.png)
+2. 영업 및 마케팅 보고서를 엽니다.
+
+   ![영업 및 마케팅 보고서 열기](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
 3. Power BI가 보고서를 엽니다. **보고서 편집**을 선택하여 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
 
 4. 보고서 캔버스 맨 아래에 있는 노란색 더하기 기호를 선택하여 새 페이지를 추가합니다.
@@ -123,13 +124,13 @@ Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 �
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 지도 데이터는 모호해질 수 있습니다.  예를 들어 프랑스 파리가 있지만 텍사스 파리도 있습니다. 지리적 데이터는 구/군 이름 또는 시/도 이름별로 별도의 열에 저장될 것입니다. 따라서 Bing은 이 파리가 어디에 있는 파리인지 알려줄 수 없습니다. Power BI에는 데이터 세트에 위도 및 경도 데이터가 이미 있는 경우 지도 데이터를 명확하게 만들기 위한 특별한 필드가 있습니다. 위도 데이터가 포함된 필드를 시각화 \> 위도 영역으로 끌어다 놓기만 하면 됩니다.  경도 데이터의 경우에도 마찬가지입니다.    
 
-![시각화 및 필드 창](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
+![시각화 및 필드 창](media/power-bi-visualization-filled-maps-choropleths/pbi-latitude.png)
 
 Power BI Desktop의 데이터 세트를 편집할 수 있는 권한이 있는 경우 지도 모호성을 해결하는 도움말은 이 비디오를 시청하세요.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Co2z9b-s_yM" frameborder="0" allowfullscreen></iframe>
 
-위도 및 경도 데이터에 액세스할 수 없는 경우 [이 지침을 따라 데이터 세트를 업데이트하세요](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
+위도 및 경도 데이터에 액세스할 수 없지만 데이터 세트에 대한 편집 액세스 권한이 있는 경우 [이 지침을 따라 데이터 세트를 업데이트하세요](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 
 지도 시각화에 대한 자세한 도움말은 [지도 시각화를 위한 팁과 힌트](../power-bi-map-tips-and-tricks.md)를 참조하세요.
 

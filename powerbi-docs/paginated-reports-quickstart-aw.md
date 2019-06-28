@@ -1,5 +1,5 @@
 ---
-title: '자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드(미리 보기)'
+title: '자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드'
 description: 이 자습서에서는 사용자가 샘플 Azure SQL Database에 연결합니다. 그런 다음, 보고서 작성기에서 마법사를 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: e7baff9a6427578266e08e7bde91be664e46edb9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60989911"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839738"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드(미리 보기)
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드
+
 
 이 자습서에서 사용자는 샘플 Azure SQL Database에 연결합니다. 그런 다음 Power BI 보고서 작성기에서 마법사를 사용하여 여러 페이지에 걸쳐 있는 테이블을 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다. Power BI 서비스의 페이지를 매긴 보고서는 현재 미리 보기로 제공되고 있습니다.
+
 
 ![Power BI 서비스의 페이지를 매긴 보고서](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -26,7 +28,9 @@ ms.locfileid: "60989911"
 
 > [!div class="checklist"]
 > * Azure 샘플 데이터베이스를 만듭니다.
+
 > * 마법사를 사용하여 Power BI 보고서 작성기에서 행렬을 만듭니다.
+
 > * 각 페이지에 제목, 페이지 번호, 열 제목이 포함되도록 보고서 형식을 지정합니다.
 > * 통화 형식을 지정합니다.
 > * Power BI 서비스에 보고서를 업로드합니다.
@@ -37,7 +41,9 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 페이지를 매긴 보고서를 만드는 데 필요한 필수 조건은 다음과 같습니다.
 
+
 - [Power BI 보고서 작성기는 Microsoft 다운로드 센터에서](https://go.microsoft.com/fwlink/?linkid=2086513) 설치합니다. 
+
 
 - 빠른 시작 [Azure Portal에서 Azure SQL Database 샘플 만들기](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)를 따릅니다. **개요** 탭에 있는 **서버 이름** 상자의 값을 복사하여 저장합니다. Azure에서 만든 사용자 이름과 암호를 기억하세요.
 
@@ -48,7 +54,7 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 
 ## <a name="create-the-matrix-with-a-wizard"></a>마법사를 사용하여 행렬 만들기
   
-1.  컴퓨터에서 Power BI 보고서 작성기를 시작 합니다.  
+1.  컴퓨터에서 Power BI Report Builder를 시작합니다.  
   
      **시작** 대화 상자가 열립니다.  
   
@@ -161,7 +167,9 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 
     실제 데이터 값은 아직 표시되지 않습니다. 해당 값을 보려면 보고서를 실행해야 합니다.
 
+
 4. 속성 창에서 선택한 행렬은 Tablix1이라고 합니다. 보고서 작성기의 ‘테이블릭스’는 행과 열로 데이터를 표시하는 데이터 영역입니다. 테이블이거나 행렬입니다.
+
 
 5. 그룹화 창에는 마법사에서 만든 다음 세 개의 행 그룹이 표시됩니다. 
 
@@ -287,7 +295,7 @@ Power BI 서비스에 보고서를 게시하기 전에 한 가지 더 형식 지
 
 페이지를 매긴 보고서를 만들었으므로 이제 Power BI 서비스에 이 보고서를 업로드합니다.
 
-1. 왼쪽 탐색의 Power BI 서비스(http://app.powerbi.com)에서 **작업 영역** > **앱 작업 영역 만들기**를 선택합니다.
+1. 왼쪽 탐색의 Power BI 서비스(http://app.powerbi.com) 에서 **작업 영역** > **앱 작업 영역 만들기**를 선택합니다.
 
 2. 작업 영역 이름을 **Azure AW** 또는 다른 고유한 이름으로 지정합니다. 지금까지는 사용자가 유일한 구성원입니다. 
 
@@ -329,5 +337,5 @@ Power BI 서비스에 보고서를 게시하기 전에 한 가지 더 형식 지
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI Premium의 페이지를 매긴 보고서란? (미리 보기)](paginated-reports-report-builder-power-bi.md)
+[Power BI Premium에서 페이지를 매긴 보고서란?](paginated-reports-report-builder-power-bi.md)
 
