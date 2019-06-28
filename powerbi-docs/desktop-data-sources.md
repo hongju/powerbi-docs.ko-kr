@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853433"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823546"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 소스
 Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 있습니다. 이 페이지의 맨 아래에는 사용 가능한 데이터 소스의 전체 목록이 있습니다.
@@ -24,7 +24,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 ![Power BI Desktop에서 데이터 가져오기](media/desktop-data-sources/data-sources_01.png)
 
-**자세히…** 선택 메뉴에서 **자세히...** 를 선택하면**데이터 가져오기** 창이 표시됩니다. **데이터 가져오기** **아이콘 단추**를 직접 선택하여 **데이터 가져오기** 창을 표시할 수도 있습니다(**가장 일반적** 메뉴 무시).
+**가장 일반적** 메뉴에서 **자세히...** 를 선택하면 **데이터 가져오기** 창이 표시됩니다. **데이터 가져오기** **아이콘 단추**를 직접 선택하여 **데이터 가져오기** 창을 표시할 수도 있습니다(**가장 일반적** 메뉴 무시).
 
 ![데이터 단추 가져오기](media/desktop-data-sources/data-sources_02.png)
 
@@ -84,8 +84,8 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * BI 커넥터
 * Dremio
 * Exasol
-* Indexima (베타)
-* InterSystems 아이리스 (베타)
+* Indexima(베타)
+* InterSystems IRIS(베타)
 * Jethro(베타)
 * Kyligence 엔터프라이즈(베타)
 * MarkLogic(베타)
@@ -118,8 +118,8 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Azure HDInsight(HDFS)
 * Azure HDInsight Spark
 * HDInsight 대화형 쿼리
-* Azure 데이터 탐색기 (Kusto)
-* Azure Cost Management (베타)
+* Azure Data Explorer(Kusto)
+* Azure Cost Management(베타)
 
 다음 그림은 **Azure** 에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
@@ -133,7 +133,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central(온-프레미스)
-* 앱용 Common Data Service(베타)
+* Common Data Service
 * Microsoft Azure Consumption Insights(베타)
 * Azure DevOps(베타)
 * Azure DevOps Server(베타)
@@ -161,8 +161,11 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Webtrends(베타)
 * Zendesk(베타)
 * Emigo 데이터 원본(베타)
-* IndustrialAppStore (베타)
+* Entersoft Business Suite(베타)
+* 산업 앱 스토어
+* Intune Data Warehouse(베타)
 * Microsoft Graph 보안(베타)
+* 빠른 자료
 * TeamDesk(베타)
 
 다음 그림은 **온라인 서비스**에 대한 **데이터 가져오기** 창을 보여 줍니다.
@@ -182,15 +185,14 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Python 스크립트
 * ODBC
 * OLE DB
-* BI360-예산 및 재무 보고 (베타)
+* BI360 - 예산 및 재무 보고(베타)
 * Denado
-* 정보 표 (베타)
+* 정보 표(베타)
 * Paxata 
 * QubolePresto(베타)
-* 빠른 자료(베타)
-* Roamler (베타)
+* Roamler(베타)
 * SurveyMonkey(베타)
-* Tenforce (베타)
+* Tenforce(스마트) 목록(베타)
 * 직원 차원(베타)
 * 빈 쿼리
 
