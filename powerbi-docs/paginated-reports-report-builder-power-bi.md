@@ -30,14 +30,14 @@ ms.locfileid: "66839647"
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Power BI 보고서 작성기에서 보고서 만들기
 
-페이지를 매긴 보고서에는 고유한 디자인 도구인 Power BI 보고서 작성기가 있습니다. Power BI Report Server 또는 SSRS(SQL Server Reporting Services)에 대한 페이지를 매긴 보고서를 만드는 데 이전에 사용한 도구와 동일한 기반을 공유하는 새 도구입니다. 실제로 SSRS 2016 및 2017 또는 Power BI Report Server 온-프레미스용으로 만드는 페이지를 매긴 보고서는 Power BI 서비스와 호환됩니다. Power BI 서비스는 이전 버전과의 호환성을 유지 관리하므로 보고서를 앞으로 이동할 수 있고 이전 버전의 페이지를 매긴 보고서를 업그레이드할 수 있습니다. 일부 보고서 기능은 시작 시 사용할 수 없습니다. 자세한 내용은 이 문서의 [제한 사항 및 고려 사항](#limitations-and-considerations)을 참조하세요.
+페이지를 매긴 보고서에는 고유한 디자인 도구인 Power BI 보고서 작성기가 있습니다. Power BI Report Server 또는 SQL Server Reporting Services (SSRS)에 대한 페이지를 매긴 보고서를 만들기 위해 이전에 사용한 도구와 동일한 기반을 공유하는 새 도구입니다. 실제로 SSRS 2016 및 2017 또는 Power BI Report Server 온-프레미스용으로 만드는 페이지를 매긴 보고서는 Power BI 서비스와 호환됩니다. Power BI 서비스는 이전 버전과의 호환성을 유지 관리하므로 보고서를 향상시킬 수 있고 이전 버전의 페이지를 매긴 보고서를 업그레이드할 수 있습니다. 일부 보고서 기능은 시작 시 사용할 수 없습니다. 자세한 내용은 이 문서의 [제한 사항 및 고려 사항](#limitations-and-considerations)을 참조하세요.
      
 ## <a name="report-from-a-variety-of-data-sources"></a>다양한 데이터 원본의 보고서
 
 하나의 페이지를 매긴 보고서에 다양하고 많은 데이터 원본이 포함될 수 있습니다. Power BI 보고서와 달리, 이 보고서에는 기본 데이터 모델이 없습니다. Power BI 서비스의 페이지를 매긴 보고서 초기 릴리스의 경우 보고서 자체에 포함된 데이터 원본 및 데이터 세트를 만듭니다. 지금은 공유 데이터 원본 또는 공유 데이터 세트를 사용할 수 없습니다. 로컬 컴퓨터의 보고서 작성기에서 보고서를 만듭니다. 보고서가 온-프레미스 데이터에 연결되면 보고서를 Power BI 서비스에 업로드한 후 게이트웨이를 만들고 데이터 연결을 리디렉션해야 합니다. 현재 연결할 수 있는 데이터 원본은 다음과 같습니다.
 
 - Azure SQL Database 및 Data Warehouse
-- Azure Analysis Services(SSO 사용)
+- Azure Analysis Services(SSO를 통해)
 - 게이트웨이를 통해 SQL Server
 - 게이트웨이를 통해 SQL Server Analysis Services
 - Power BI Premium 데이터 세트
