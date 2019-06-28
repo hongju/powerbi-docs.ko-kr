@@ -78,7 +78,7 @@ ms.locfileid: "66839647"
 
 초기 릴리스에서 지원되지 않는 몇 가지 다른 기능은 다음과 같습니다.
 
-- 보고서 페이지 또는 시각적 개체를 Power BI 대시보드에 고정. Power BI Report Server 또는 Reporting Services 보고서 서버의 온-프레미스 페이지를 매긴 보고서에서 Power BI 대시보드에 시각화를 고정할 수 있습니다. 자세한 내용은 [Power BI 대시보드에 Reporting Services 항목 고정](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)을 참조하세요.
+- 보고서 페이지 또는 시각적 개체를 Power BI 대시보드에 고정. 사용자는 여전히 Power BI Report Server 또는 Reporting Services 보고서 서버의 온-프레미스 페이지를 매긴 보고서에서 Power BI 대시보드로 시각화를 고정할 수 있습니다. 자세한 내용은 [Power BI 대시보드에 Reporting Services 항목 고정](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)을 참조하세요.
 - 문서 구조 및 단추 표시/숨기기와 같은 대화형 기능.
 - 하위 보고서 및 드릴스루 보고서.
 - 공유 데이터 원본 및 공유 데이터 세트.

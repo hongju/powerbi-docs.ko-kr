@@ -44,7 +44,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필요한 필수 조건은 다음과 같습니다.
 
 - [Power BI Pro 라이선스](service-admin-power-bi-pro-in-your-organization.md)가 있어야 합니다.
-- [Power BI Premium 용량](service-premium-what-is.md)에 서비스에 대한 앱 작업 영역이 있어야 합니다. 작업 영역 이름 옆에는 다이아몬드 아이콘(![Premium 다이아몬드 아이콘](media/paginated-reports-quickstart-aw/premium-diamond.png))이 있습니다.
+- [Power BI Premium 용량](service-premium-what-is.md)으로 서비스에 앱 작업 영역이 있어야 합니다. 해당 용량의 작업 영역 이름 옆에는 다이아몬드 아이콘(![Premium 다이아몬드 아이콘](media/paginated-reports-quickstart-aw/premium-diamond.png))이 있습니다.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>마법사를 사용하여 행렬 만들기
   
@@ -161,7 +161,7 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 
     실제 데이터 값은 아직 표시되지 않습니다. 해당 값을 보려면 보고서를 실행해야 합니다.
 
-4. 속성 창에서 선택한 행렬은 테이블릭스1이라고 합니다. 보고서 작성기의 ‘테이블릭스’는 행과 열로 데이터를 표시하는 데이터 영역입니다.  테이블이거나 행렬입니다.
+4. 속성 창에서 선택한 행렬은 Tablix1이라고 합니다. 보고서 작성기의 ‘테이블릭스’는 행과 열로 데이터를 표시하는 데이터 영역입니다.  테이블이거나 행렬입니다.
 
 5. 그룹화 창에는 마법사에서 만든 다음 세 개의 행 그룹이 표시됩니다. 
 
