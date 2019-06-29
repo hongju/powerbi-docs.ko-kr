@@ -112,7 +112,7 @@ PowerShell을 사용하여 메트릭 및 진단 로깅을 사용하도록 설정
 |    Query End    |    추적이 시작된 후 모든 쿼리 종료 이벤트를 기록합니다.    |
 |    Vertipaq Query End    |    추적이 시작된 후 모든 VertiPaq SE 쿼리 종료 이벤트를 기록합니다.    |
 |    Audit Logout    |    추적이 시작된 후 엔진 이벤트의 모든 연결 끊기를 기록합니다.    |
-|    오류    |    추적이 시작된 후 모든 엔진 오류 이벤트를 기록합니다.    |
+|    Error    |    추적이 시작된 후 모든 엔진 오류 이벤트를 기록합니다.    |
 
 <br>
 <br>
@@ -131,13 +131,13 @@ PowerShell을 사용하여 메트릭 및 진단 로깅을 사용하도록 설정
 | ObjectPath | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527.Model.SalesLT Customer | 개체 경로입니다. 개체의 부모로 시작되는 쉼표로 구분된 부모 목록입니다. |
 | ObjectReference | <Object><Table>SalesLT Customer</Table><Model>Model</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | 개체 참조입니다. 개체를 설명하는 태그를 사용하여 모든 부모에 대해 XML로 인코딩됩니다. |
 | EndTime | 2018-04-06T18:30:11.9137358Z | 이벤트가 끝난 시간입니다. |
-| 기간 | 0 | 이벤트에서 사용한 시간(밀리초)입니다. |
+| Duration | 0 | 이벤트에서 사용한 시간(밀리초)입니다. |
 | SessionType | 사용자 | 세션 유형(작업을 발생시킨 엔터티)입니다. |
 | ProgressTotal | 0 | 총 진행률입니다. |
 | IntegerData | 0 | 정수 데이터입니다. |
 | Severity | 0 | 예외의 심각도입니다. |
-| 성공 | 1 | 1 = 성공. 0 = 실패. (예를 들어 1은 사용 권한 확인이 성공했음을 의미하고, 0은 확인이 실패했음을 의미합니다.) |
-| 오류 | 0 | 지정된 이벤트의 오류 번호입니다. |
+| Success | 1 | 1 = 성공. 0 = 실패. (예를 들어 1은 사용 권한 확인이 성공했음을 의미하고, 0은 확인이 실패했음을 의미합니다.) |
+| Error | 0 | 지정된 이벤트의 오류 번호입니다. |
 | TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes): 850 6800] | 이벤트와 관련된 텍스트 데이터입니다. |
 | ConnectionID | 3 | 고유한 연결 ID입니다. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | 사용자의 명령문이 실행 중인 데이터 세트의 ID입니다. |
