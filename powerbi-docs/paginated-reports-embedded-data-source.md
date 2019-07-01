@@ -9,18 +9,20 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
+ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66838946"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67345496"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 원본 만들기
 
 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 원본을 만들고 수정하는 방법을 알아봅니다. 단일 보고서에 포함된 데이터 원본을 정의하고 해당 보고서에서만 사용합니다. 현재 Power BI 서비스에 게시된 페이지를 매긴 보고서에는 포함된 데이터 세트 및 포함된 데이터 원본이 필요하며 이 보고서를 다음 데이터 원본에 연결할 수 있습니다.
 
-- Azure SQL Database 및 Data Warehouse
+- Azure Analysis Services
+- 라이브 데이터에 
+- Azure SQL Data Warehouse
 - SQL Server
 - SQL Server Analysis Services
 - Oracle 
@@ -28,7 +30,6 @@ ms.locfileid: "66838946"
 
 다음 데이터 원본에 대해 [SQL Server Analysis Services 연결](service-premium-connect-tools.md) 옵션을 사용합니다.
 
-- Azure Analysis Services
 - Power BI Premium 데이터 세트
 
 페이지를 매긴 보고서는 [Power BI 게이트웨이](service-gateway-getting-started.md)를 통해 온-프레미스 데이터 원본에 연결됩니다. 보고서를 Power BI 서비스에 게시한 후 게이트웨이를 설정합니다.
@@ -66,6 +67,30 @@ ms.locfileid: "66838946"
 5.  **확인**을 선택합니다.  
   
      데이터 원본은 [보고서 데이터] 창에 표시됩니다.  
+     
+## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
+
+Power BI 데이터 세트에 연결하는 페이지를 매긴 보고서는 Power BI의 공유 데이터 세트에 대한 규칙을 따르며 몇 가지 사소한 변경 사항이 있습니다.  사용자가 Power BI 데이터 세트를 사용하여 페이지를 매긴 보고서를 올바르게 보고, RLS(행 수준 보안)를 활성화하여 시청자에게 적용하려면 다음 규칙을 따르십시오.
+
+### <a name="classic-apps-and-app-workspaces"></a>클래식 앱 및 앱 작업 영역
+
+- 데이터 세트와 동일한 작업 영역의 .rdl(동일한 소유자): 지원됨
+- 데이터 세트와 다른 작업 영역의 .rdl(동일한 소유자): 지원됨
+- 공유 .rdl: 데이터 세트 수준에서 보고서를 보는 각 사용자에 대해 할당된 빌드 권한이 필요합니다.
+- 공유 앱: 데이터 세트 수준에서 보고서를 보는 각 사용자에 대해 할당된 빌드 권한이 필요합니다.
+- 데이터 세트와 동일한 작업 영역의 .rdl(다른 사용자): 지원됨
+- 데이터 세트와 다른 작업 영역의 .rdl(다른 사용자): 데이터 세트 수준에서 보고서를 보는 각 사용자에 대해 할당된 빌드 권한이 필요합니다.
+- 역할 수준 보안: 데이터 세트 수준에서 보고서를 보는 각 사용자에 대해 할당된 빌드 권한이 있어야 강제 적용할 수 있습니다.
+
+### <a name="new-experience-apps-and-app-workspaces"></a>새 환경 앱 및 앱 작업 영역
+
+- 데이터 세트와 동일한 작업 영역의 .rdl: 지원됨
+- 데이터 세트와 다른 작업 영역의 .rdl(동일한 소유자): 지원됨
+- 공유 .rdl: 데이터 세트 수준에서 보고서를 보는 각 사용자에 대해 할당된 빌드 권한이 필요합니다.
+- 공유 앱: 데이터 세트 수준에서 보고서를 보는 각 사용자에 대해 할당된 빌드 권한이 필요합니다.
+- 데이터 세트와 동일한 작업 영역의 .rdl(다른 사용자) - 지원됨
+- 데이터 세트와 다른 작업 영역의 .rdl(다른 사용자): 데이터 세트 수준에서 보고서를 보는 각 사용자에 대해 할당된 빌드 권한이 필요합니다.
+- 역할 수준 보안: 데이터 세트 수준에서 보고서를 보는 각 사용자에 대해 할당된 빌드 권한이 있어야 강제 적용할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

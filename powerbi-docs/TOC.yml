@@ -417,50 +417,46 @@
           href: service-whats-new.md
         - name: 기본 개념
           items:
-            - name: 디자이너에 대한 기본 개념
+            - name: Power BI 서비스 이해
               href: service-basic-concepts.md
-            - name: Power BI의 데이터 종류
-              href: service-get-data.md
             - name: 보고서 편집기 둘러보기
               href: service-the-report-editor-take-a-tour.md
-        - name: Power BI의 워크플로
+            - name: Power BI 데이터 원본
+              href: service-get-data.md
+            - name: Power BI에서 데이터 새로 고침
+              href: refresh-data.md
+        - name: Power BI에서 공동 작업
           items:
             - name: 작업 구성
               href: service-new-workspaces.md
-            - name: 작업 공유 방법
+            - name: 작업 공유
               href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: 데이터를 최신 상태로 유지
-              href: refresh-data.md
-            - name: 모니터링 사용 현황
+            - name: Power BI 사용 현황 모니터링
               href: service-usage-metrics.md
         - name: 라이선싱
           items:
-            - name: 셀프 서비스 등록
+            - name: Power BI에 등록
               href: service-self-service-signup-for-power-bi.md
-            - name: 조직의 라이선싱
+            - name: Power BI 라이선스 관리
               href: service-admin-licensing-organization.md
             - name: 라이선스 유형별 기능
               href: service-features-license-type.md
-        - name: 자세한 개념
+            - name: 미국 정부용 Power BI
+              href: service-govus-overview.md
+            - name: 독일 클라우드 고객을 위한 FAQ
+              href: service-govde-faq.md
+        - name: 도움 및 지원받기
           items:
-            - name: 도움을 받을 수 있는 10가지 팁
-              href: service-tips-for-finding-help.md
             - name: Power BI 지원 옵션
               href: service-support-options.md
-            - name: 라이선싱 특수 사례
-              items:
-                - name: Extended Pro 평가판 활성화
-                  href: service-extended-pro-trial.md
-                - name: 미국 정부용 Power BI
-                  href: service-govus-overview.md
-                - name: 독일 클라우드 고객을 위한 FAQ
-                  href: service-govde-faq.md
-            - name: 기타
-              items:
-                - name: Microsoft Flow 및 Power BI
-                  href: service-flow-integration.md
-                - name: 타사 앱 시작
-                  href: service-power-bi-get-started-third-party-apps.md
+            - name: 도움을 받을 수 있는 10가지 팁
+              href: service-tips-for-finding-help.md
+        - name: Power BI 확장
+          items:
+            - name: Microsoft Flow 및 Power BI
+              href: service-flow-integration.md
+            - name: 타사 앱 사용
+              href: service-power-bi-get-started-third-party-apps.md
     - name: 방법
       items:
         - name: 파일에서 데이터 가져오기
@@ -859,14 +855,12 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 콘텐츠 팩에 대한 연결 제거
                   href: service-organizational-content-pack-disconnect.md
+        - name: 참조
+          items:
+            - name: 지원되는 언어 및 국가/지역
+          href: supported-languages-countries-regions.md
     - name: 리소스
       items:
-        - name: 비디오
-          href: videos.md
-        - name: 웹 세미나
-          href: webinars.md
-        - name: 지원되는 언어 및 국가/지역
-          href: supported-languages-countries-regions.md
         - name: 백서
           items:
             - name: 백서 개요
@@ -877,6 +871,10 @@
               href: whitepaper-powerbi-premium-deployment.md
             - name: Azure Active Directory B2B를 사용하여 외부에서 Power BI 배포
               href: whitepaper-azure-b2b-power-bi.md
+        - name: 비디오
+          href: videos.md
+        - name: 웹 세미나
+          href: webinars.md
 - name: Power BI Premium
   items:
     - name: 개요

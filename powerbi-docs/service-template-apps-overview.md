@@ -1,22 +1,22 @@
 ---
-title: Power BI 템플릿 앱이란? (미리 보기)
+title: Power BI 템플릿 앱이란?
 description: 이 문서는 Power BI 템플릿 앱 프로그램의 개요입니다. 코딩이 거의 없거나 전혀 없는 Power BI 앱을 빌드하고 Power BI 고객에게 배포하는 방법을 알아봅니다.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/26/2019
-ms.author: maggies
-ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/24/2019
+ms.author: tebercov
+ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751092"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408206"
 ---
-# <a name="what-are-power-bi-template-apps-preview"></a>Power BI 템플릿 앱이란? (미리 보기)
+# <a name="what-are-power-bi-template-apps"></a>Power BI 템플릿 앱이란?
 
 새 Power BI *템플릿 앱*을 사용하면 Power BI 파트너는 코딩이 거의 없거나 전혀 없는 Power BI 앱을 만들고 모든 Power BI 고객에게 배포할 수 있습니다.  이 문서는 Power BI 템플릿 앱 프로그램의 개요입니다.
 
@@ -37,7 +37,7 @@ ms.locfileid: "66751092"
 | **3개** | |  | 테스트 패키지를 Power BI 테넌트 외부의 유효성 검사를 위한 사전 프로덕션으로 승격하고 AppSource에 제출합니다.  |  | 사전 프로덕션 패키지를 사용하여 Power BI 템플릿 앱 제안을 만들고 유효성 검사 프로세스를 시작합니다. |
 | **4개** | |  | 사전 프로덕션 패키지를 프로덕션으로 승격 |  | 라이브로 전환 |
 
-## <a name="requirements"></a>요구 사항
+## <a name="before-you-begin"></a>시작하기 전에
 
 템플릿 앱을 만들려면 템플릿 앱을 만들 수 있는 권한이 있어야 합니다. 자세한 내용은 Power BI 관리 포털, 템플릿 앱 설정을 참조하세요. 
 
@@ -66,9 +66,11 @@ ms.locfileid: "66751092"
 
 ## <a name="requirements"></a>요구 사항
 
-템플릿 앱을 만들려면 템플릿 앱을 만들 수 있는 권한이 있어야 합니다. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings-preview)을 참조하세요. 
+템플릿 앱을 만들려면 템플릿 앱을 만들 수 있는 권한이 있어야 합니다. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings)을 참조하세요. 
 
 템플릿 앱을 Power BI 서비스 및 AppSource에 게시하려면 [Cloud Marketplace 게시자가 되기](https://docs.microsoft.com/azure/marketplace/become-publisher) 위한 요구 사항을 충족해야 합니다.
+ > [!NOTE] 
+ > 템플릿 앱 제출은 [Cloud 파트너 포털](https://cloudpartner.azure.com)에서 관리합니다. 동일한 Microsoft 개발자 센터 등록 계정을 사용하여 로그인합니다. AppSource 제품에는 Microsoft 계정이 하나만 있어야 합니다. 계정은 개별 서비스나 제품에 특정되어서는 안됩니다.
 
 ## <a name="tips"></a>팁 
 
@@ -78,7 +80,7 @@ ms.locfileid: "66751092"
 - 별도의 고유한 시나리오에 대해 둘 이상의 템플릿 앱을 제공하는 것을 고려하세요. 
 - 예를 들어 설치 관리자에 의한 사용자 지정 연결 및 매개 변수 구성을 지원하는 데이터 사용자 지정을 활성화합니다.
 
-자세한 제안 사항은 [Power BI(미리 보기)에서 템플릿 앱 작성 팁](service-template-apps-tips.md)을 참조하세요.
+자세한 제안 사항은 [Power BI에서 템플릿 앱 작성 팁](service-template-apps-tips.md)을 참조하세요.
 
 ## <a name="support"></a>지원
 개발 중 지원을 받으려면 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)를 사용하세요. 이 사이트를 적극적으로 모니터링하고 관리합니다. 고객 인시던트에서 해당 팀에 연락하는 방법을 신속하게 찾을 수 있습니다.

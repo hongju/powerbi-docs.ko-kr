@@ -1,22 +1,22 @@
 ---
-title: Power BI(미리 보기)에서 템플릿 앱 만들기
+title: Power BI에서 템플릿 앱 만들기
 description: 모든 Power BI 고객에게 배포할 수 있는 템플릿 앱을 Power BI에서 만드는 방법입니다.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/22/2019
-ms.author: maggies
-ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751198"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264554"
 ---
-# <a name="create-a-template-app-in-power-bi-preview"></a>Power BI(미리 보기)에서 템플릿 앱 만들기
+# <a name="create-a-template-app-in-power-bi"></a>Power BI에서 템플릿 앱 만들기
 
 새 Power BI *템플릿 앱*을 사용하면 Power BI 파트너는 코딩이 거의 없거나 전혀 없는 Power BI 앱을 만들고 모든 Power BI 고객에게 배포할 수 있습니다.  이 문서에서 Power BI 템플릿 앱을 만드는 단계별 지침이 포함되어 있습니다.
 
@@ -31,20 +31,7 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
 - [Power BI pro 라이선스](service-self-service-signup-for-power-bi.md)
 - [Power BI Desktop 설치](desktop-get-the-desktop.md)(선택 사항)
 - [Power BI의 기본 개념](service-basic-concepts.md) 숙지
-- 템플릿 앱을 만들 수 있는 권한입니다. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings-preview)을 참조하세요.
-
-## <a name="enable-app-developer-mode"></a>앱 개발자 모드 사용
-
-다른 Power BI 테넌트에 배포할 수 있는 템플릿 앱을 만들려면 앱 개발자 모드에 있어야 합니다. 그렇지 않으면 자신의 조직에서 Power BI 소비자를 위한 앱을 만들고 있을 뿐입니다.
-
-1. 브라우저에서 Power BI 서비스를 엽니다.
-2. **설정** > **일반** > **개발자** > **템플릿 앱 개발 모드 사용**으로 이동합니다.
-
-    ![템플릿 앱 사용](media/service-template-apps-create/power-bi-dev-template-app.png)
-
-    해당 옵션이 표시되지 않으면 Power BI 관리자에게 문의하여 관리 포털에서 [템플릿 앱 개발에 대한 권한](service-admin-portal.md#template-apps-settings-preview)을 부여합니다.
-
-3. **적용**을 선택합니다.
+- 템플릿 앱을 공개적으로 공유할 수 있는 권한 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings)을 참조하세요.
 
 ## <a name="create-the-template-app-workspace"></a>템플릿 앱 작업 영역 만들기
 
@@ -54,9 +41,9 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
 
     ![앱 작업 영역 만들기](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. **앱 작업 영역 만들기**의 **개선된 작업 영역 미리 보기**에서 **지금 사용해 보기**를 선택합니다.
+2. **앱 작업 영역 만들기**에서 **새로 업그레이드**를 선택합니다.
 
-    ![새 작업 영역 시도](media/service-template-apps-create/power-bi-try-now-new-workspace.png)
+    ![새 작업 영역 시도](media/service-template-apps-create/power-bi-upgrade-new.png)
 
 3. 앱 작업 영역에 대한 이름, 설명(선택 사항) 및 로고 이미지(선택 사항)를 입력합니다.
 
@@ -70,13 +57,13 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
 
 ## <a name="create-the-content-in-your-template-app"></a>템플릿 앱의 콘텐츠 만들기
 
-일반 Power BI 앱 작업 영역과 마찬가지로, 다음 단계는 작업 영역에 콘텐츠를 만드는 것입니다.  템플릿 앱의 이 미리 보기 버전에서는 데이터 세트 한 개, 보고서 한 개, 대시보드 한 개의 각 유형별로 최대 한 개만 지원합니다.
+일반 Power BI 앱 작업 영역과 마찬가지로, 다음 단계는 작업 영역에 콘텐츠를 만드는 것입니다.  
 
 - 앱 작업 영역에서 [Power BI 콘텐츠를 만듭니다](power-bi-creator-landing.md).
 
 파워 쿼리에서 매개 변수를 사용하는 경우, 매개 변수가 잘 정의된 형식(예: 텍스트)인지 확인합니다. Any 및 Binary 형식은 지원되지 않습니다.
 
-[Power BI(미리 보기)에서 템플릿 앱 작성 팁](service-template-apps-tips.md)에는 템플릿 앱에 대한 보고서와 대시보드를 만들 때 고려해야 할 제안 사항이 있습니다.
+[Power BI에서 템플릿 앱 작성 팁](service-template-apps-tips.md)에는 템플릿 앱에 대한 보고서와 대시보드를 만들 때 고려해야 할 제안 사항이 있습니다.
 
 ## <a name="create-the-test-template-app"></a>테스트 템플릿 앱 만들기
 
@@ -151,7 +138,7 @@ URL은 릴리스 단계 간을 전환할 때 변경되지 않습니다. 승격�
 
 2. **앱 만들기**를 선택합니다.
 
-    위의 **테스트 템플릿 앱 만들기**에서 테스트 앱을 만드는 경우 **테스트** 옆의 노란색 점이 이미 입력되어 있으므로 여기서 **앱 만들기**를 선택할 필요가 없습니다. 이를 선택하면 템플릿 앱 만들기 프로세스로 돌아갑니다.
+    위의 **테스트 템플릿 앱 만들기**에서 태스트 앱을 만드는 경우 **테스트** 옆의 노란색 점이 이미 입력되어 있으므로 여기서 **앱 만들기**를 선택할 필요가 없습니다. 이를 선택하면 템플릿 앱 만들기 프로세스로 돌아갑니다.
 
 3. **링크 가져오기**를 선택합니다.
 
@@ -174,10 +161,10 @@ URL은 릴리스 단계 간을 전환할 때 변경되지 않습니다. 승격�
 10. 테넌트 외부 테스트에 대한 사전 프로덕션으로 앱을 승격할 준비가 되었으면 **릴리스 관리** 창으로 돌아가서 **앱 승격**을 선택합니다. 
 
     ![사전 프로덕션으로 앱 승격](media/service-template-apps-create/power-bi-template-app-promote.png)
-
     >[!NOTE]
     > 앱이 승격되는 경우 조직 외부에서 공개적으로 사용할 수 있게 됩니다.
 
+    해당 옵션이 표시되지 않으면 Power BI 관리자에게 문의하여 관리 포털에서 [템플릿 앱 개발에 대한 권한](service-admin-portal.md#template-apps-settings)을 부여합니다.
 11. **승격**을 선택하여 선택 사항을 확인합니다.
 12. 테스트를 위해 이 새 URL을 복사하여 테넌트 외부에서 공유합니다. 이 링크는 또한 [새 Cloud 파트너 포털 제품](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer)을 만들어 AppSource에 앱을 배포하는 프로세스를 시작하기 위해 제출하는 링크입니다. Cloud 파트너 포털에 대한 사전 프로덕션 링크만 제출합니다. 앱이 승격되고 AppSource에 게시되었다는 알림을 받은 후에만 이 패키지를 Power BI의 프로덕션으로 승격할 수 있습니다.
 13. AppSource를 통해 프로덕션 또는 공유할 준비가 되면 **Release Management** 창으로 돌아가서 **사전 프로덕션** 옆의 **앱 승격**을 선택합니다.
@@ -188,25 +175,6 @@ URL은 릴리스 단계 간을 전환할 때 변경되지 않습니다. 승격�
     ![프로덕션 중인 앱](media/service-template-apps-create/power-bi-template-app-production.png)
 
 전 세계 수천 명의 Power BI 사용자가 앱을 널리 이용할 수 있도록 AppSource에 제출하는 것이 좋습니다. 자세한 내용은 [Power BI 애플리케이션 제안](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)을 참조하세요.
-
-## <a name="update-your-app"></a>앱 업데이트
-
-이제 앱이 프로덕션 중이므로, 프로덕션 중인 앱을 중단하지 않고 테스트 단계에서 다시 시작할 수 있습니다.
-
-1. **릴리스 관리** 창에서 **앱 만들기**를 선택합니다.
-2. 앱 만들기 프로세스로 돌아갑니다.
-3. **브랜딩**, **콘텐츠**, **제어** 및 **액세스**를 설정한 후 **앱 만들기**를 다시 선택합니다.
-4. **닫기**를 선택하고 **릴리스 관리**로 돌아갑니다.
-
-   이제 두 가지 버전이 있습니다. 프로덕션 중인 또는 테스트 중인 버전입니다.
-
-    ![템플릿 앱의 두 가지 버전](media/service-template-apps-create/power-bi-template-app-2-versions.png)
-
-5. 테넌트 외부 테스트에 대한 사전 프로덕션으로 앱을 승격할 준비가 되었으면 릴리스 관리 창으로 돌아가서 **테스트** 옆의 **앱 승격**을 선택합니다.
-6. 링크가 이제 활성화됩니다. [Power BI 앱 제품 업데이트](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)의 단계를 따라 Cloud 파트너 포털에 다시 제출합니다.
-
->[!NOTE]
->앱이 Cloud 파트너 포털에서 승인되고 게시한 후에만 프로덕션 단계로 앱을 승격합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

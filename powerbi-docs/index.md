@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.author: maggies
 author: maggiesMSFT
 ms.topic: hub-page
-ms:date: 05/10/2019
-ms.openlocfilehash: cebaf83edd2fab39502c7b2953922dec0446c8bc
-ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
+ms:date: 06/10/2019
+ms.openlocfilehash: e1a6700f2f266cffb788f4d8b0f10be88f79e643
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "65533667"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264458"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -38,7 +38,7 @@ ms.locfileid: "65533667"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>소비자용 Power BI</h3>
-                                                    <p>Power BI를 시작할까요? Power BI를 구성하는 다양한 제품 및 서비스와 이를 통해 수행할 수 있는 작업을 알아봅니다.</p>
+                                                    <p>비즈니스 의사 결정을 내리는 데 다른 사람이 만든 보고서와 대시보드를 사용하십니까? 소비자용 Power BI 서비스에 대해 알아보세요.</p>
                                                 </div>
                                             </div>
                                         </div>
