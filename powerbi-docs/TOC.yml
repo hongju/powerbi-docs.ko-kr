@@ -231,6 +231,8 @@
               href: desktop-bookmarks.md
             - name: 보고서 테마 사용
               href: desktop-report-themes.md
+            - name: 필터 종류
+              href: power-bi-report-filter-types.md
             - name: 새 필터 환경 체험
               href: power-bi-report-filter-preview.md
             - name: 빠른 측정 사용
@@ -523,8 +525,6 @@
               href: refresh-csv-file-onedrive.md
             - name: Power BI Premium의 쿼리 캐싱
               href: power-bi-query-caching.md
-            - name: 새로 고침 시나리오 문제 해결
-              href: refresh-troubleshooting-refresh-scenarios.md
         - name: 대시보드
           items:
             - name: 대시보드 소개
@@ -705,6 +705,8 @@
           items:
             - name: Power BI 암호를 잊은 경우
               href: service-admin-forgot-your-password.md
+            - name: 로그인에 문제가 있나요?
+              href: power-bi-cannot-sign-in.md
             - name: Power BI에 대한 추가 진단 정보 캡처
               href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
             - name: Power BI에 대한 대체 이메일 주소
@@ -713,26 +715,26 @@
               href: service-admin-how-to-use-the-same-account-as-azure.md
             - name: Office 365 전용 - 알려진 문제
               href: service-admin-office-365-dedicated-known-issues.md
-            - name: Cortana 문제 해결
-              href: service-cortana-troubleshoot.md
-            - name: Excel에서 분석 문제 해결
-              href: desktop-troubleshooting-analyze-in-excel.md
-            - name: 온-프레미스 데이터 게이트웨이 문제 해결
-              href: service-gateway-onprem-tshoot.md
-            - name: Power BI Gateway – Personal 문제 해결
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
-            - name: 새로 고침을 지원하지 않는 데이터 소스 문제 해결
+            - name: 새로 고침 시나리오 문제 해결
+              href: refresh-troubleshooting-refresh-scenarios.md
+            - name: 새로 고침을 지원하지 않는 데이터 원본 문제 해결
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
             - name: Azure SQL Database에 대해 예약된 새로 고침의 문제 해결
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-            - name: '오류: Excel 통합 문서에서 데이터를 찾을 수 없음'
-              href: service-admin-troubleshoot-excel-workbook-data.md
             - name: 타일 오류 문제 해결
               href: refresh-troubleshooting-tile-errors.md
+            - name: 온-프레미스 데이터 게이트웨이 문제 해결
+              href: service-gateway-onprem-tshoot.md
+            - name: Power BI 게이트웨이 -개인 문제 해결
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: Excel에서 분석 문제 해결
+              href: desktop-troubleshooting-analyze-in-excel.md
+            - name: '오류: Excel 통합 문서에서 데이터를 찾을 수 없음'
+              href: service-admin-troubleshoot-excel-workbook-data.md
+            - name: Cortana 문제 해결
+              href: service-cortana-troubleshoot.md
             - name: 새로 고침에 실패한 경우 Xero 콘텐츠 팩 자격 증명을 새로 고치는 방법
               href: service-refresh-xero-credentials.md
-            - name: 로그인에 문제가 있나요
-              href: power-bi-cannot-sign-in.md
         - name: 기타 작업
           items:
             - name: Power BI 내에서 콘텐츠 이름 바꾸기
@@ -855,9 +857,9 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 콘텐츠 팩에 대한 연결 제거
                   href: service-organizational-content-pack-disconnect.md
-        - name: 참조
-          items:
-            - name: 지원되는 언어 및 국가/지역
+    - name: 참조
+      items:
+        - name: 지원되는 언어 및 국가/지역
           href: supported-languages-countries-regions.md
     - name: 리소스
       items:
