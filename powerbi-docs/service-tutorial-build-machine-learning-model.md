@@ -1,5 +1,5 @@
 ---
-title: '자습서: Power BI (미리 보기)에서 Machine Learning 모델 빌드'
+title: '자습서: Power BI에서 Machine Learning 모델 빌드(미리 보기)'
 description: 이 자습서에서는 Power BI에서 기계 학습 모델을 빌드합니다.
 author: davidiseminger
 manager: kfile
@@ -18,7 +18,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61407201"
 ---
-# <a name="tutorial-build-a-machine-learning-model-in-power-bi-preview"></a>자습서: Power BI (미리 보기)에서 Machine Learning 모델 빌드
+# <a name="tutorial-build-a-machine-learning-model-in-power-bi-preview"></a>자습서: Power BI에서 Machine Learning 모델 빌드(미리 보기)
 
 이 자습서에서는 Power BI에서 이진 예측 모델을 만들고 적용하기 위해 **Machine Learning 자동화**를 사용합니다. 자습서는 Power BI 데이터 흐름 생성 및 Power BI에서 직접 기계 학습 모델의 학습 및 검증을 위해 데이터 흐름에 정의된 엔터티를 사용하기 위한 지침을 포함합니다. 그런 다음 예측을 생성하기 위해 점수 매기기에 해당 모델을 사용합니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "61407201"
 
 데이터 흐름에 엔터티를 만들려면 Power BI 서비스에 로그인하고, AI 미리 보기가 사용 설정되어 있는 전용 용량의 작업 영역으로 이동합니다.
 
-작업 영역에 아직 없는 경우 선택 하 여 하나를 만들 수 있습니다 **작업 영역** 선택한 Power BI 서비스 왼쪽된 탐색 메뉴에서 **앱 작업 영역 만들기** 패널의 맨 아래에 표시 됩니다. 작업 영역 정보를 입력 하려면 오른쪽에 패널이 열립니다. 작업 영역 이름을 입력 하 고 선택 **고급**합니다. 작업 영역 라디오 단추를 사용 하는 전용 용량을 사용 하는 고 켜져 AI 미리 보기에는 전용된 용량 인스턴스를에 할당 되어 있는지 확인 합니다. 그런 다음, **저장**을 선택합니다.
+작업 영역이 아직 없는 경우,  Power BI 서비스의 왼쪽 탐색 메뉴에서 **작업 영역**을 선택하고 패널의 맨 아래에 표시되는 **앱 작업 영역 만들기**를 선택하여 작업 영역을 만들수 있습니다. 작업 영역 정보를 입력하기 위해 오른쪽에 패널이 열립니다. 작업 영역 이름을 입력하고 **고급**을 선택합니다. 작업 영역이 전용 용량을 사용하도록 라디오 단추를 사용하고 AI 미리 보기가 켜져 있는 전용 용량 인스턴스에 할당되었는지 확인한 다음, **저장**을 선택합니다.
 
 ![작업 영역 만들기](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-01.png)
 
@@ -67,7 +67,7 @@ ms.locfileid: "61407201"
 
 ![선택한 텍스트/CSF 파일](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-05.png)
 
-에 **데이터 원본에 연결** 다음 표시 되는, 다음 링크를 붙여 넣습니다 합니다 *online_shoppers_intention.csv* 에 **파일 경로 또는 URL** 상자를 선택한 다음  **다음**합니다.
+다음에 표시되는 **데이터 원본에 연결**에서, *online_shoppers_intention.csv*에 대한 다음 링크를 **파일 경로 또는 URL** 상자에 붙여 넣은 다음, **다음**을 선택합니다.
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv`
 
@@ -79,8 +79,8 @@ ms.locfileid: "61407201"
 
 이 데이터 집합에서 특성 데이터 형식 중 일부는 **파워 쿼리**에서 문자열로 해석되지만 _숫자_ 이거나 _부울_ 입니다. 아래에 나열된 열을 다음 형식으로 변경하려면 각 열 머리글의 맨 위에 있는 특성 형식 아이콘을 선택합니다.
 
-* **10 진수:** Administrative_Duration; Informational_Duration; ProductRelated_Duration; BounceRates; ExitRates; PageValues; SpecialDay
-* **True/False.** 주말; 수익
+* **10 진수:** Administrative_Duration, Informational_Duration, ProductRelated_Duration, BounceRates, ExitRates, PageValues, SpecialDay
+* **True/False:** Weekend, Revenue
 
 ![데이터 형식 변경](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-08.png)
 
