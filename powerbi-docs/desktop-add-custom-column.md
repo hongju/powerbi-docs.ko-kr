@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2412fe72d62549277001b64121ecf9db2ea5502
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: MT
+ms.openlocfilehash: 5633370259662141296550aa3d5d2343ac4fedaa
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65239557"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408565"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop에서 사용자 지정 열 추가
 **Power BI Desktop**에서 **쿼리 편집기**를 사용하여 새 사용자 지정 데이터 열을 모델에 쉽게 추가할 수 있습니다. 사용자 지정 열을 정의하는 [M 수식](https://msdn.microsoft.com/library/mt270235.aspx)을 만들 수 있는 간편한 단추를 사용하여 사용자 지정 열을 만들거나 이름을 바꿀 수 있습니다. M 수식에는 [포괄적인 함수 참조 콘텐츠 집합](https://msdn.microsoft.com/library/mt779182.aspx)이 있습니다. 
@@ -68,6 +68,5 @@ ms.locfileid: "65239557"
 **쿼리 편집기**에 제공한 예제를 기준으로 열을 만드는 등 사용자 지정 열을 만드는 다른 방법도 있습니다. 예제로 사용자 지정 열을 만드는 방법에 자세한 내용은 다음 문서를 참조하세요.
 
 * [Power BI Desktop에서 예제로 열 추가](desktop-add-column-from-example.md)
-* [M 수식 언어 소개](https://msdn.microsoft.com/library/mt270235.aspx)
-* [M 함수 참조](https://msdn.microsoft.com/library/mt779182.aspx)  
+* [파워 쿼리 M 참조](/powerquery-m/power-query-m-reference)  
 

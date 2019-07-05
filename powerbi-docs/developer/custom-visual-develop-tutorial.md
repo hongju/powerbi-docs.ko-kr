@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61383619"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161227"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>자습서: Power BI 사용자 지정 시각적 개체 개발
 
@@ -73,21 +73,15 @@ Power BI Desktop 보고서에서 카드는 Circle Card가 되도록 수정됩니
 
 #### <a name="windows"></a>Windows
 
-1. 인증서를 만들려면 다음 명령을 입력합니다.
-
-    ```powershell
-    pbiviz --create-cert
-    ```
-
-  ‘암호’를 생성하는 결과를 반환합니다.  이 경우 *암호*는 **_15105661266553327_** 입니다.
-
-  ![PowerShell을 통해 만들어진 인증서](media/custom-visual-develop-tutorial/cert-create.png)
-
-2. 이제 인증서를 설치해야 합니다. 인증서를 설치하려면 다음 명령을 입력합니다.
+1. 인증서를 만들고 설치하려면 다음 명령을 입력합니다.
 
     ```powershell
     pbiviz --install-cert
     ```
+
+  ‘암호’를 생성하는 결과를 반환합니다.  이 경우 ‘암호’는 **_15105661266553327_** 이고, 인증서 가져오기 마법사를 시작합니다. 
+
+  ![PowerShell을 통해 만들어진 인증서](media/custom-visual-develop-tutorial/cert-create.png)
 
 3. 인증서 가져오기 마법사에서 저장소 위치가 현재 사용자로 설정되어 있는지 확인합니다. 그러고 나서 ‘다음’을 선택합니다. 
 
@@ -95,7 +89,7 @@ Power BI Desktop 보고서에서 카드는 Circle Card가 되도록 수정됩니
 
 4. **가져올 파일** 단계에서 ‘다음’을 선택합니다. 
 
-5. **개인 키 보호** 단계에서 [암호] 상자에 인증서 만들기에서 받은 암호를 붙여넣습니다.  이 경우 해당 암호는 **_15105661266553327_** 입니다.
+5. **프라이빗 키 보호** 단계에서 [암호] 상자에 인증서 만들기에서 받은 암호를 붙여넣습니다.  이 경우 해당 암호는 **_15105661266553327_** 입니다.
 
       ![암호 복사](media/custom-visual-develop-tutorial/cert-install-wizard-show-passphrase.png)
 
@@ -559,14 +553,14 @@ PowerShell에서 실행 중인 사용자 지정 시각적 개체를 중지하려
 
     이 문은 쉽게 액세스할 수 있도록 변수에 *dataView*를 할당하고 *dataView* 개체를 참조하는 변수를 선언합니다.
 
-2. 에 **업데이트** 메서드를 대체 **.text("Value")** 다음을 사용 하 여 합니다.
+2. **update** 메서드에서 **.text(“Value”)** 를 다음으로 바꿉니다.
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![textValue 바꾸기](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. 에 **업데이트** 메서드를 대체 **.text("Label")** 다음을 사용 하 여 합니다.
+3. **update** 메서드에서 **.text(“Label”)** 를 다음으로 바꿉니다.
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)

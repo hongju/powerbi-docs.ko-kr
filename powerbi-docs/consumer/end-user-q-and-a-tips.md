@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 97beaa749855d29f0ac559776a99f4be851489fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048137"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408188"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A에서 질문하기 위한 팁
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A에서 인식하는 단어 및 용어
 이 페이지에 안내되지 않은 키워드도 있습니다.  Power BI가 키워드를 인식하는지 확인하는 가장 좋은 방법은 질문 상자에 입력하여 테스트하는 것입니다.  회색으로 표시되는 단어 또는 용어는 Power BI가 인식하지 못하는 것입니다.
 
-아래 목록은 현재 시제를 사용하지만 대부분의 경우에서 모든 시제가 인식됩니다. 예를 들어 “is”는 **are**, **was**, **were**, **will be**, **have**, **has**, **had**, **will have**, **has got**, **do**, **does**, **did**를 포함합니다.  그리고 “sort”는 **sorted**와 **sorting**을 포함합니다.  PowerBI는 단어의 단수와 복수를 모두 인식하고 포함합니다. 
+아래 목록은 현재 시제를 사용하지만 대부분의 경우에서 모든 시제가 인식됩니다. 예를 들어 “is”는 **are**, **was**, **were**, **will be**, **have**, **has**, **had**, **will have**, **has got**, **do**, **does**, **did**를 포함합니다.  그리고 “sort”는 **sorted**와 **sorting**을 포함합니다.  Power BI는 단어의 단수와 복수도 모두 인식하고 포함합니다. 
 
 > [!NOTE]
 > Q&amp;A는 [iPads, iPhones, iPod Touch 디바이스에서 iOS용 Microsoft Power BI 앱](mobile/mobile-apps-ios-qna.md)에서도 사용할 수 있습니다.
@@ -41,7 +41,7 @@ ms.locfileid: "61048137"
 |     |         |         |
 |**접속사**     |  and, or, each of, with, versus, &, and, but, nor, along with, in addition to       |         
 |          |         |
-|**축약**     |  질문 및 답변은 거의 모든 축약어를 인식합니다. 직접 시도해 보세요.  몇 가지 예: didn’t, haven’t, he’d, he’s, isn’t, it’s, she’ll, they’d, weren’t, where’ll, who’s, won’t, wouldn’t          |
+|**축약**     |  질문 및 답변은 거의 모든 축약어를 인식합니다. 직접 시도해 보세요.  몇 가지 예: didn’t, haven’t, he’d, he’s, isn’t, it’s, she’ll, they’d, weren’t, who’s, won’t, wouldn’t          |
 |        |         |
 |**날짜**     |       Power BI는 대부분의 날짜 용어(day, week, month, year, quarter, decade 등) 및 다양한 형식으로 작성된 날짜(아래 참조)를 인식합니다. Power BI는 다음 키워드도 인식합니다. MonthName, Days 1-31, decade. 예: January 3rd of 1995, January 3rd 1995, jan 03 1995, 3 Jan 1995, the 3rd of January, January 1995, 1995 January, 1995-01, 01/1995, names of months         |
 |        |         |
@@ -62,27 +62,27 @@ ms.locfileid: "61048137"
 |**범위**     |      greater, more, larger, above, over, >, less, smaller, fewer, below, under, <,  at least, no less than, >=, at most, no more than, <=, in, between, in the range of, from, later, earlier, sooner, after, on, at, later than, after, since, starting with, starting from, ending with           |
 |        |         |
 **시간**  |am, pm, o'clock, noon, midnight, hour, minute, second, hh:mm:ss  |
-|  |  예: 10 pm, 10:35 pm, 10:35:15 pm, 10 oclock, noon, midnight, hour, minute, second.  |
+|  |  예: 10 pm, 10:35 pm, 10:35:15 pm, 10 o clock, noon, midnight, hour, minute, second.  |
 |  |  |
 |**상위 N개**     |     (순서, 순위): top, bottom, highest, lowest, first, last, next, earliest, newest, oldest, latest, most recent, next            |
 |        |         |
-|**시각적 개체 유형**     |  모든 시각적 개체 유형은 Power BI 네이티브 유형입니다.  시각화 창에서 옵션인 경우 질문에 포함할 수 있습니다.  이에 대한 예외는 시각화 창에 수동으로 추가한 [사용자 지정 시각적 개체](../power-bi-custom-visuals.md)입니다.  |
+|**시각적 개체 유형**     |  모든 시각적 개체 유형은 Power BI 네이티브 유형입니다.  시각화 창에서 옵션인 경우 질문에 포함할 수 있습니다.  이 규칙에 대한 예외는 시각화 창에 수동으로 추가한 [사용자 지정 시각적 개체](../power-bi-custom-visuals.md)입니다.  |
 |  |  예: 가로 막대형 차트로 월별 및 총 판매액별 구역 보기               |
 |        |         |
 |**Wh(관계, 정규화된)**  | when, where, which, who, whom, how many, how much, how many times, how often, how frequently, amount, number, quantity, how long, what                |
 
 ## <a name="qa-helps-you-phrase-the-question"></a>Q&A를 통해 질문 구 작성
-질문 및 답변은 사용자가 입력하는 질문을 이해하고 답변하기 위해 최선을 다합니다. 이 작업을 위해 여러 가지 방법이 사용됩니다. 이러한 모든 방법에서 작업을 전체 또는 부분적으로 적용하거나 적용하지 않을 수 있습니다. 질문을 입력할 때 Q&A는 다음을 수행합니다.
+질문 및 답변은 사용자가 입력하는 질문을 이해하고 답변하기 위해 최선을 다합니다. 여러 가지 방법으로 이해하려고 합니다. 이러한 모든 내용에서 작업을 전체 또는 부분적으로 적용하거나 적용하지 않을 수 있습니다. 질문을 입력할 때 Q&A는 다음을 수행합니다.
 
-* 자동으로 단어와 질문을 완성합니다. 인식된 단어의 자동 완성, 이전에 사용된 질문 중 유효한 응답을 반환했던 질문 등과 같은 다양한 전략이 사용됩니다. 둘 이상의 자동 완성 옵션을 사용할 수 있는 경우 드롭다운 목록에 표시됩니다.
+* 자동으로 단어와 질문을 완성합니다. 인식된 단어의 자동 완성, 저장된 질문, 이전에 사용된 질문 중 유효한 응답을 반환했던 질문 등과 같은 다양한 전략이 사용됩니다. 둘 이상의 자동 완성 옵션을 사용할 수 있는 경우 드롭다운 목록에 표시됩니다.
 * 철자를 수정합니다.
-* 시각화 형태로 답변의 미리 보기를 제공합니다. 질문을 입력 및 편집하면 시각화가 업데이트됩니다(Enter 키를 누를 때까지 기다리지 않음).
+* 시각적 개체의 형태로 답변의 미리 보기를 제공합니다. 질문을 입력 및 편집하면 시각적 개체가 업데이트됩니다(Enter 키를 누를 때까지 기다리지 않음).
 * 커서를 다시 질문 상자에 두면 기본 데이터 세트에서 대체 용어를 추천합니다.
 * 기본 데이터 세트의 데이터를 기반으로 하여 질문을 다시 작성합니다. 질문 및 답변은 사용자가 사용한 단어를 기본 데이터 세트에서 동의어로 대체합니다. 사용자는 이렇게 대체된 문장을 보고 질문과 답변이 질문을 이해했는지 아닌지를 확인할 수 있습니다. 
 * 이해하지 못한 단어를 흐리게 표시합니다.
 
 ## <a name="dont-stop-now"></a>추가 기능
-Q&A가 결과를 표시한 후에도 계속 대화를 진행하세요. 시각화 및 Q&A의 대화형 기능을 사용하여 더 많은 정보를 얻을 수 있습니다.
+Q&A가 결과를 표시한 후에도 계속 대화를 진행하세요. 시각적 개체 및 질문 및 답변의 대화형 기능을 사용하여 더 많은 인사이트를 얻을 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI의 Q&A](end-user-q-and-a.md)로 돌아가기  
