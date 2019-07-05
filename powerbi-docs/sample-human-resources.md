@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: ae2e4dcfe1fdcd88c3e6ff9e4942afdedf9d126b
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: 762a28d2340a691316b1aaf26b7ce62d45cc7496
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349474"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418738"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI용 인적 자원 샘플 둘러보기
 
-## <a name="overview-of-the-human-resources-sample"></a>인적 자원 샘플 개요
 인적 자원 샘플 콘텐츠 팩에는 인사 관리 부서용 대시보드, 보고서 및 데이터 세트가 포함되어 있습니다. 이 샘플에서 인사 관리 부서는 업종이나 규모가 다른 경우에도 여러 회사에서 동일한 보고 모델을 갖습니다. 이 샘플에서는 신규 채용자, 근무 중인 직원, 퇴사 직원을 살펴봅니다. 채용 전략의 추세를 파악하기 위해 노력합니다. 주요 목표는 다음을 이해하는 것입니다.
 
 * 채용자
@@ -159,7 +158,7 @@ ms.locfileid: "67349474"
 
    잘못된 여성 채용의 대부분이 30세 미만임을 알 수 있습니다.
 
+## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
 이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기**를 선택할 수 있습니다.
 
-## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
 이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 HR 데이터 정보를 확인하는 데 도움이 되었기를 바랍니다. 이제 사용자 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 더 자세히 알아보려면 [Power BI 서비스 시작하기](service-get-started.md)를 참조하세요.
