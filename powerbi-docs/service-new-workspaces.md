@@ -1,5 +1,5 @@
 ---
-title: 새 작업 영역에서 작업 구성 - Power BI
+title: Power BI의 새 작업 영역에서 작업 구성
 description: 조직에 대한 주요 메트릭을 제공하도록 빌드된 대시보드 및 보고서의 컬렉션인 새 작업 영역에 대해 알아봅니다.
 author: maggiesMSFT
 manager: kfile
@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 06/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 419cd2137b8924f153009843d6f60db594219059
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345537"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418680"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI의 새 작업 영역에서 작업 구성
 
@@ -135,7 +135,7 @@ Power BI는 작업 영역 액세스 권한을 가지도록 구성된 사용자 �
 - 멤버는 다시 공유할 수 있거나 없습니다. 기여자 역할에서 대체됩니다.
 - 읽기 전용 작업 영역: 사용자에게 작업 영역에 대한 읽기 전용 액세스 권한을 부여하는 대신 보기 권한자 역할에 사용자를 할당합니다. 그러면 작업 영역의 콘텐츠에 유사한 읽기 전용 액세스 권한을 허용합니다.
 - Pro 라이선스가 없는 사용자는 사용자에게 보기 권한자 역할만 있더라도 작업 영역이 Power BI Premium 용량에 있으면 작업 영역에 액세스할 수 있습니다.
-- 보기 권한자 역할이 있는 사용자가 데이터를 내보낼 수 있도록 하려면 작업 영역의 데이터 세트에 대한 빌드 권한이 있는지 확인합니다.
+- 보기 권한자 역할이 있는 사용자가 데이터를 내보낼 수 있도록 하려면 작업 영역의 데이터 세트에 대한 빌드 권한이 있는지 확인합니다. [데이터 세트 빌드 권한](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)에 대해 자세히 알아보세요.
 - **작업 영역 나가기** 단추가 없습니다.
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
