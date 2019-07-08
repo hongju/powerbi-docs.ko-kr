@@ -27,7 +27,7 @@ ms.locfileid: "66374449"
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
 
-Visual 슬라이서의 오른쪽 위 모서리에서 캔버스 차례로 캐럿에서 슬라이서를 선택 합니다. 시각적 개체에 날짜 데이터가 포함 된 경우 메뉴에 대 한 옵션에 표시 됩니다 **상대**합니다. 
+캔버스의 슬라이서를 선택한 다음 슬라이서 시각적 개체의 오른쪽 위 모서리의 캐럿에서 슬라이서를 선택 합니다. 시각적 개체에 날짜 데이터가 포함된 경우, 메뉴는 **상대** 옵션을 표시합니다. 
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
 
