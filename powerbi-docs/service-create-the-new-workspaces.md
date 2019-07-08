@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: d0c0781ea5d3864f1cf3627cd42d53cca632102d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61142074"
@@ -28,43 +28,43 @@ Power BI는 새로운 작업 영역 환경을 소개 합니다. 작업 영역은
 - 작업 영역에서 더 유연한 사용 권한 관리에 대해 세분화된 작업 영역 역할을 사용합니다.
 
 > [!NOTE]
-> 작업 영역에서 콘텐츠를 검색 하는 Power BI Pro 사용자에 대 한 행 수준 보안 (RLS)을 적용 하기 위해 계속 사용할 [클래식 작업 영역](service-create-workspaces.md)합니다. 선택 된 **멤버는 Power BI 콘텐츠를 볼 수만** 옵션입니다. 또는 해당 사용자에 게 Power BI 앱을 게시 하거나 공유 콘텐츠 배포를 사용 합니다. 곧 출시 예정인 뷰어 역할이 새 작업 영역 환경 작업 영역에서 나중에이 시나리오를 사용 하도록 설정 됩니다.
+> 작업 영역에서 콘텐츠를 검색하는 Power BI Pro 사용자에 대한 행 수준 보안(RLS)을 적용하려면 [클래식 작업 영역](service-create-workspaces.md)을 계속 사용할 수 있습니다. **구성원은 Power BI 콘텐츠를 보기만 할 수 있습니다** 옵션을 선택합니다. 또는 해당 사용자에게 Power BI 앱을 게시하거나 콘텐츠 배포하기 위해 공유를 사용합니다. 곧 출시 예정인 뷰어 역할이 새 작업 영역 환경 작업 영역에서 나중에 이 시나리오를 사용하도록 설정하게 됩니다.
 
 자세한 배경 정보를 참조 하세요. 합니다 [새 작업 영역](service-new-workspaces.md) 문서.
 
 ## <a name="create-one-of-the-new-app-workspaces"></a>새로운 앱 작업 영역 중 하나 만들기
 
-1. 웹 작업 영역을 만들어 시작합니다. **작업 영역** > **앱 작업 영역 만들기**를 선택합니다.
+1. 앱 작업 영역을 만들어 시작합니다. **작업 영역** > **앱 작업 영역 만들기**를 선택합니다.
    
      ![앱 작업 영역 만들기](media/service-create-the-new-workspaces/power-bi-create-app-workspace.png)
 
-2. 자동으로 만들 업그레이드 된 작업 영역을 선택 하지 않는 한 **classic로 되돌릴**합니다.
+2. **클래식으로 되돌리기**를 선택하지 않는 한 자동으로 업그레이드된 작업 영역을 만들게 됩니다.
    
      ![새 작업 영역 환경](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     선택 하는 경우 **classic로 되돌릴**, Office 365 그룹에 따라 작업 영역을 만듭니다. 필요한 경우이 옵션을 사용 합니다 **멤버는 Power BI 콘텐츠를 볼 수만** 작업 영역 구성원에 대 한 행 수준 보안 (RLS)를 적용 하는 옵션.
+     **클래식으로 되돌리기**를 선택하는 경우, Office 365 그룹을 기반으로 작업 영역을 만듭니다. 작업 영역 구성원에 대해 행 수준 보안(RLS)을 적용하기 위해 **구성원은 Power BI 콘텐츠를 보기만 할 수 있습니다** 옵션이 필요한 경우 이 옵션을 사용합니다.
 
 2. 작업 영역에 이름을 지정합니다. 이름을 사용할 수 없으면 고유 이름으로 표시 되도록 편집 합니다.
    
-     작업 영역에 대 한 앱 작업 영역으로 동일한 이름 및 아이콘 해야 합니다.
+     작업 영역에 대한 앱은 작업 영역과 동일한 이름 및 아이콘을 가지게 됩니다.
    
-1. 다음은 몇 가지 선택 항목에 작업 영역에 대해 설정할 수 있습니다.
+1. 다음 몇 가지 선택 항목을 작업 영역에 대해 설정할 수 있습니다.
 
-    업로드를 **작업 영역 이미지**합니다. 파일은.png 또는.jpg 형식 수 있습니다. 파일 크기는 45KB 보다 작은 수입니다.
+    **작업 영역 이미지**를 업로드합니다. 파일은.png 또는.jpg 형식일 수 있습니다. 파일 크기는 45KB보다 작아야 합니다.
     
-    [추가 된 **연락처 목록**](#workspace-contact-list)합니다. 기본적으로 작업 영역 관리자 연락처는 합니다. 
+    [**연락처 목록**을 추가합니다](#workspace-contact-list). 기본적으로 작업 영역 관리자의 연락처입니다. 
     
-    [지정 된 **작업 영역 OneDrive** ](#workspace-onedrive) URL이 아닌는 기존 Office 365 그룹의 이름을 입력 하 여 합니다. 이제이 작업 영역 해당 Office 365 그룹의 파일 저장소 위치를 사용할 수 있습니다. 
+    URL이 아닌 기존 Office 365 그룹의 이름을 입력하여 [**작업 영역 OneDrive**를 지정합니다](#workspace-onedrive). 이제 이 작업 영역은 해당 Office 365 그룹의 파일 저장소 위치를 사용할 수 있습니다. 
 
     ![OneDrive 위치를 지정 합니다.](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
-    작업 영역을 할당 하는 **전용 용량**의 **Premium** 탭을 선택 **전용 용량**합니다.
+    작업 영역을 **전용 용량**에 할당하려면 **프리미엄** 탭에서 **전용 용량**을 선택합니다.
      
     ![전용 용량](media/service-create-the-new-workspaces/power-bi-workspace-premium.png)
 
 1. **저장**을 선택합니다.
 
-    Power BI는 작업 영역을 만들고 엽니다. 구성원으로 속해 있는 작업 영역 목록에서 볼 수 있습니다. 
+    Power BI가 작업 영역을 만들고 엽니다. 사용자가 구성원으로 속해 있는 작업 영역 목록에서 해당 작업 영역을 볼 수 있습니다. 
 
 ## <a name="workspace-contact-list"></a>작업 영역 연락처 목록
 
