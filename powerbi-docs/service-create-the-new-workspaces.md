@@ -1,6 +1,6 @@
 ---
 title: Power BI-새 작업 영역 만들기
-description: 새 작업 영역에서 대시보드, 보고서 및 조직에 대 한 주요 메트릭을 제공 하도록 제작 된 페이지 매긴된 보고서의 컬렉션을 만드는 방법에 알아봅니다.
+description: 조직에 대한 주요 메트릭을 제공하도록 제작된 대시보드, 보고서 및 페이지를 매긴 보고서의 컬렉션인 새 작업 영역을 만드는 방법에 알아봅니다.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
@@ -19,7 +19,7 @@ ms.locfileid: "61142074"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI에서 새 작업 영역 만들기
 
-Power BI는 새로운 작업 영역 환경을 소개 합니다. 작업 영역은 여전히 대시보드, 보고서 및 페이지가 매겨진된 보고서의 컬렉션을 만들고 동료와 공동 작업 하는 위치입니다. 해당 컬렉션에 번들로 다음을 *앱* 을 전체 조직 또는 특정 사용자 또는 그룹에 배포 합니다. 
+Power BI는 새로운 작업 영역 환경을 소개합니다. 작업 영역은 여전히 동료와 공동 작업하여 대시보드, 보고서 및 페이지를 매긴 보고서의 컬렉션을 만드는 곳입니다. 그런 다음 해당 컬렉션을 *앱*으로 묶어 전체 조직 또는 특정 사용자 또는 그룹에 배포할 수 있습니다. 
 
 다른 점은 다음과 같습니다. 새 작업 영역에서 다음을 수행할 수 있습니다.
 
@@ -140,7 +140,7 @@ OneDrive 위치를 구성한 후에 작업 영역에서 몇 가지 서로 다른
 
 ## <a name="give-access-to-your-workspace"></a>작업 영역에 액세스 제공
 
-1. 작업 영역 콘텐츠 목록에서 관리자 이므로 표시 새 작업을 **액세스**합니다.
+1. 작업 영역 콘텐츠 목록에서, 관리자이므로 새 작업 **액세스**를 볼 수 있습니다.
 
     ![작업 영역 콘텐츠 목록](media/service-create-the-new-workspaces/power-bi-workspace-content-list.png)
 
@@ -155,12 +155,12 @@ OneDrive 위치를 구성한 후에 작업 영역에서 몇 가지 서로 다른
 
 ## <a name="distribute-an-app"></a>앱 배포
 
-조직 내에서 대규모 대상에 게 공식 콘텐츠를 배포 하려는 경우에 작업 영역에서 앱을 게시할 수 있습니다.  대시보드 및 보고서를 게시 하려면를 선택 하 고 다음으로 게시 하 콘텐츠가 준비 되 면 프로그램 *앱*합니다. 각 작업 영역에서 하나의 앱을 만들 수 있습니다.
+조직 내에서 대규모 대상에게 공식 콘텐츠를 배포하려는 경우, 작업 영역에서 앱을 게시할 수 있습니다.  콘텐츠가 준비되면, 게시하기 원하는 대시보드 및 보고서를 선택한 다음, *앱*으로 게시합니다. 각 작업 영역에서 하나의 앱을 만들 수 있습니다.
 
-에 대 한 읽기 [새 작업 영역에서 앱 게시](service-create-distribute-apps.md)
+[새 작업 영역에서 앱 게시](service-create-distribute-apps.md)에 대해 알아봅니다.
 
 ## <a name="next-steps"></a>다음 단계
-* 에 대 한 읽기 [Power BI에서 새 작업 영역 환경에서 작업 구성](service-new-workspaces.md)
+* [Power BI의 새 작업 영역 환경에서 작업 구성](service-new-workspaces.md)에 대해 읽기
 * [클래식 작업 영역 만들기](service-create-workspaces.md)
-* [Power BI에서 새 작업 영역에서 앱 게시](service-create-distribute-apps.md)
+* [Power BI의 새 작업 영역에서 앱 게시](service-create-distribute-apps.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
