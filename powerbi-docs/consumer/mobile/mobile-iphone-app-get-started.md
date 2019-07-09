@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137544"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67499003"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 디바이스에서 Power BI 모바일 앱 시작
 iPhone, iPad 또는 iPod Touch의 iOS 앱용 Microsoft Power BI는 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기 적절한 데이터를 최신 상태로 유지합니다.  
@@ -33,7 +33,7 @@ Power BI Desktop에서 Power BI 보고서를 만들고 게시합니다.
 ## <a name="download-the-app"></a>앱 다운로드
 [iOS 앱 다운로드]Apple 앱 스토어에서 iPhone, iPad 또는 iPod Touch로 (http://go.microsoft.com/fwlink/?LinkId=522062 "iOS 앱을 다운로드")합니다.
 
-iOS용 Power BI 앱은 iOS 10 이상이 설치된 iPhone 5 이상에서 실행할 수 있습니다. iOS 10 이상이 설치된 iPad 또는 iPod Touch에서도 실행할 수 있습니다. 
+iOS 11 이상을 실행하는 모든 디바이스에서 iOS용 Power BI 앱을 실행할 수 있습니다. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI 서비스에 등록
 등록하지 않은 경우 [powerbi.com](https://powerbi.microsoft.com/get-started/)으로 이동하여 **Power BI - 클라우드 협업 및 공유**에서 **무료 체험**을 선택합니다.
