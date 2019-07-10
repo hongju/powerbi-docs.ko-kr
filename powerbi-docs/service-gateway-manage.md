@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
-ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
-ms.translationtype: MT
+ms.openlocfilehash: 8acc0e403c983de79657cd01a7aa7f458bfb01ad
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66469780"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559060"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Power BI 온-프레미스 게이트웨이 관리
 
@@ -31,6 +31,8 @@ ms.locfileid: "66469780"
 
 Power BI는 다양한 온-프레미스 데이터 원본을 지원하고 각 데이터 원본에는 고유한 요구 사항이 있습니다. 단일 데이터 원본이나 여러 데이터 원본에 게이트웨이를 사용할 수 있습니다. 이 예제에서는 SQL Server를 데이터 원본으로 추가하는 방법을 보여주지만 단계는 다른 데이터 원본의 경우와 비슷합니다.
 
+> [!NOTE]
+> 이제 게이트웨이 관리자는 동일한 소스에 연결된 여러 개의 데이터 원본을 생성하여 각각 서로 다른 자격 증명을 가지고 있으며, 액세스 수준에 따라 각 데이터 원본에 사용자를 추가할 수 있습니다.
 
 ### <a name="add-a-data-source"></a>데이터 소스 추가
 
@@ -53,6 +55,11 @@ Power BI는 다양한 온-프레미스 데이터 원본을 지원하고 각 데�
 
 1. SQL Server의 경우 **Windows** 또는 **기본**(SQL 인증)의 **인증 방법**을 선택합니다.  **기본**을 선택하는 경우 데이터 원본에 대한 자격 증명을 입력합니다.
 
+1. 현재 이 데이터 원본을 사용할 수 없거나 속도가 느린 경우 **테스트 연결 건너뛰기**를 선택합니다. 그렇지 않으면 데이터 원본 만들기가 실패할 수 있습니다.
+
+    > [!NOTE]
+    > 테스트 연결 건너뛰기는 Analysis Services에서 지원되지 않습니다.
+
 1. **고급 설정**에서 선택적으로 데이터 원본에 대한 [개인 정보 수준](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 구성합니다([DirectQuery](desktop-directquery-about.md)에 적용되지 않음).
 
     ![고급 설정](media/service-gateway-manage/advanced-settings.png)
@@ -74,7 +81,7 @@ Power BI는 다양한 온-프레미스 데이터 원본을 지원하고 각 데�
 
 ## <a name="manage-users-and-administrators"></a>사용자 및 관리자 관리
 
-게이트웨이에 데이터 원본을 추가한 후 사용자와 보안 그룹에게 특정 데이터 원본(전체 게이트웨이가 아님)에 대한 액세스 권한을 부여합니다. 데이터 원본 사용자 목록은 데이터 원본의 데이터를 포함하는 보고서를 게시할 수 있는 사용자만 제어합니다. 보고서 소유자는 대시보드, 콘텐츠 팩 또는 앱을 만든 다음, 이를 다른 사용자와 공유할 수 있습니다.
+게이트웨이에 데이터 원본을 추가한 후 사용자 및 이메일 사용 보안 그룹에 특정 데이터 원본(전체 게이트웨이가 아님)에 대한 액세스 권한을 부여합니다. 데이터 원본 사용자 목록은 데이터 원본의 데이터를 포함하는 보고서를 게시할 수 있는 사용자만 제어합니다. 보고서 소유자는 대시보드, 콘텐츠 팩 또는 앱을 만든 다음, 이를 다른 사용자와 공유할 수 있습니다.
 
 사용자 및 보안 그룹에게 게이트웨이에 대한 관리 권한을 부여할 수도 있습니다.
 
@@ -98,14 +105,14 @@ Power BI는 다양한 온-프레미스 데이터 원본을 지원하고 각 데�
 
 ### <a name="remove-users-from-a-data-source"></a>데이터 원본에서 사용자 제거
 
-데이터 원본에 대한 **사용자** 탭에서 이 데이터 원본을 사용하는 사용자 및 보안 그룹을 제거할 수 있습니다.
+데이터 원본에 대한 **사용자** 탭에서 이 데이터 원본을 사용하는 사용자 및 이메일 사용 보안 그룹을 제거할 수 있습니다.
 
 ![사용자 제거](media/service-gateway-manage/remove-user.png)
 
 
 ### <a name="add-and-remove-administrators"></a>관리자 추가 및 제거
 
-게이트웨이에 대한 **관리자** 탭에서 게이트웨이를 관리할 수 있는 사용자(또는 보안 그룹)를 추가 및 제거합니다.
+게이트웨이에 대한 **관리자** 탭에서 게이트웨이를 관리할 수 있는 사용자(또는 이메일 사용 보안 그룹)를 추가 및 제거합니다.
 
 ![관리자 탭](media/service-gateway-manage/administrators-tab.png)
 

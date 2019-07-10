@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1a1cb84d889b5f4df4ec53ee9a2a53b95a5daf8a
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61144126"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67533178"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>대시보드에 이미지, 텍스트, 비디오 등 추가
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -119,7 +119,7 @@ ms.locfileid: "61144126"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
-* 이 코드는 트윗을 포함하고, **AFK** 팟캐스트, **@GuyInACubeTwitter 페이지**, **팔로우**, **#analytics**, **댓글**, **리트윗** 및 **좋아요**에 대한 링크를 대시보드의 개별 링크로 유지합니다.  타일 자체를 선택하면 Twitter의 팟캐스트로 이동됩니다.
+* 이 코드는 트윗을 포함하고, **AFK** 팟캐스트, **\@GuyInACube의 Twitter 페이지**, **팔로우**, **#analytics**, **댓글**, **리트윗** 및 **좋아요**에 대한 링크를 대시보드의 개별 링크로 유지합니다.  타일 자체를 선택하면 Twitter의 팟캐스트로 이동됩니다.
   
   ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">

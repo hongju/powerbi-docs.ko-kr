@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/10/2019
+ms.date: 07/03/2019
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: ee5ec87e04517ce93589b371e97116acbcb02e87
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: c743f56de101cb63db2357acf869aba80162c181
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408575"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559043"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium의 증분 새로 고침
 
@@ -163,4 +163,4 @@ in
 
 ## <a name="limitations"></a>제한 사항
 
-현재 [복합 모델](desktop-composite-models.md)의 경우 SQL, Oracle 및 Teradata 데이터 원본에 대해서만 증분 업데이트가 지원됩니다.
+현재 [복합 모델](desktop-composite-models.md)의 경우 SQL Server, Azure SQL Database, SQL Data Warehouse, Oracle 및 Teradata 데이터 원본에 대해서만 증분 업데이트가 지원됩니다.

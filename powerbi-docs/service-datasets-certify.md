@@ -38,7 +38,7 @@ ms.locfileid: "66461330"
 1. 테넌트 관리자가 데이터 세트를 인증할 수 사람으로 지명한 경우 데이터 세트에 대한 **설정**의 **Endorsement** 섹션에 있는 **인증** 옵션을 사용할 수 있습니다. **인증**을 선택합니다.
 1. **적용**을 선택합니다.
 
-테넌트 관리자 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하는 방법에 대해 자세히 알아봅니다.
+테넌트 관리자가 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하는 방법에 대해 자세히 알아봅니다.
 
 ## <a name="next-steps"></a>다음 단계
 

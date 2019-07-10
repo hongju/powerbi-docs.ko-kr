@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67038905"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558992"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -22,6 +22,15 @@ ms.locfileid: "67038905"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="june-2019"></a>2019년 6월
+
+### <a name="barcode-scanning-is-now-available-in-android"></a>이제 Android에서 바코드 스캔을 사용할 수 있습니다.
+이제 Android(휴대폰 및 태블릿)에서 Power BI 앱을 사용하여 스캔한 값으로 필터링된 관련된 Power BI 보고서를 표시하기 위해 저장소에서 제품 또는 선반에 인쇄된 바코드를 스캔할 수 있습니다. [바코드를 사용하여 데이터 필터링](mobile-apps-scan-barcode-iphone.md)에 대한 추가 정보입니다.
+
+### <a name="supporting-pbix-reports-hosted-in-pbi-rs-over-adfs-configuration-ios-android"></a>ADFS 구성(iOS, Android)을 통해 PBI-RS에서 호스팅되는 PBIX 보고서 지원
+
+ADFS 구성을 통해 PBI-RS에서 호스팅되는 Power BI 보고서(PBIX)는 이제 Power BI 모바일 앱에서도 액세스할 수 있습니다.
 
 ## <a name="may-2019"></a>2019년 5월
 
@@ -632,7 +641,7 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 
 [Windows 10 Phone에서 보고서](mobile-reports-in-the-mobile-apps.md)를 봅니다.
 
-[Windows 10 모바일 대시보드에서 인사이트](mobile-tiles-in-the-mobile-apps.md)에 더 신속하게 접근: 타일 스냅숏을 공유하거나 대시보드에서 직접 보고서를 엽니다.
+[Windows 10 모바일 대시보드에서 인사이트](mobile-tiles-in-the-mobile-apps.md)에 더 신속하게 접근: 타일 스냅샷을 공유하거나 대시보드에서 직접 보고서를 엽니다.
 
 ### <a name="january-2016"></a>2016년 1월
 모든 1월 개선 사항은 2015년 12월에 출시된 새로운 [Windows 10 Phone용 Power BI 앱](mobile-windows-10-phone-app-get-started.md)에 이미 있습니다. 현재 모바일 디바이스에 사용할 다른 Power BI 앱에 롤아웃하고 있습니다. 이러한 향상된 기능에 대한 자세한 내용은 블로그 게시물을 읽어보세요.

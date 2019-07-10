@@ -30,8 +30,8 @@ ms.locfileid: "61407201"
 > * 입력된 데이터를 사용하여 데이터 흐름 만들기
 > * 기계 학습 모델 생성 및 학습
 > * 모델 유효성 검사 보고서 검토
-> * 모델을 데이터 흐름 엔터티에 적용
-> * Power BI 보고서에서 모델의 점수가 매겨진 출력을 사용
+> * 데이터 흐름 엔터티에 모델 적용
+> * Power BI 보고서에서 모델의 점수가 매겨진 출력 사용
 
 ## <a name="create-a-dataflow-with-the-input-data"></a>입력된 데이터를 사용하여 데이터 흐름 만들기
 
@@ -41,13 +41,13 @@ ms.locfileid: "61407201"
 
 데이터 흐름을 만드는 첫 번째 단계는 데이터 원본을 준비하는 것입니다. 여기에서는 그 중 일부는 구매에서 끝나는 온라인 세션 집합에서 기계 학습 데이터 집합을 사용합니다. 데이터 집합은 모델 학습을 위해 사용할 이러한 세션에 대한 특성 집합을 포함합니다.
 
-데이터 집합은 UC Irvine 웹 사이트에서 다운로드할 수 있습니다. 또한 이 자습서의 목적을 위해 다음 링크에서 사용할 수 있습니다: [online_shoppers_intention.csv](https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv)
+데이터 집합은 UC Irvine 웹 사이트에서 다운로드할 수 있습니다.  또한 이 자습서의 목적을 위해 다음 링크에서 사용할 수 있습니다: [online_shoppers_intention.csv](https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv)
 
 ### <a name="create-the-entities"></a>엔터티 만들기
 
 데이터 흐름에 엔터티를 만들려면 Power BI 서비스에 로그인하고, AI 미리 보기가 사용 설정되어 있는 전용 용량의 작업 영역으로 이동합니다.
 
-작업 영역이 아직 없는 경우, Power BI 서비스의 왼쪽 탐색 메뉴에서 **작업 영역**을 선택하고 패널의 맨 아래에 표시되는 **앱 작업 영역 만들기**를 선택하여 작업 영역을 만들수 있습니다. 작업 영역 정보를 입력하기 위해 오른쪽에 패널이 열립니다. 작업 영역 이름을 입력하고 **고급**을 선택합니다. 작업 영역이 전용 용량을 사용하도록 라디오 단추를 사용하고 AI 미리 보기가 켜져 있는 전용 용량 인스턴스에 할당되었는지 확인한 다음, **저장**을 선택합니다.
+작업 영역이 아직 없는 경우,  Power BI 서비스의 왼쪽 탐색 메뉴에서 **작업 영역**을 선택하고 패널의 맨 아래에 표시되는 **앱 작업 영역 만들기**를 선택하여 작업 영역을 만들수 있습니다. 작업 영역 정보를 입력하기 위해 오른쪽에 패널이 열립니다. 작업 영역 이름을 입력하고 **고급**을 선택합니다. 작업 영역이 전용 용량을 사용하도록 라디오 단추를 사용하고 AI 미리 보기가 켜져 있는 전용 용량 인스턴스에 할당되었는지 확인한 다음, **저장**을 선택합니다.
 
 ![작업 영역 만들기](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-01.png)
 
@@ -124,7 +124,7 @@ ms.locfileid: "61407201"
 
 ![다음 확인란을 선택 합니다.](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-15.png)
 
-마지막 단계에서 이 모델에 대한 이름 및 모델 유효성 검사의 결과를 요약하는 자동으로 생성된 보고서에 사용할 결과에 대한 친숙한 레이블을 제공해야 합니다. 여기서는 모델 이름을 _Purchase Intent Prediction_으로 지정하고, _Purchase_ 및 _No-Purchase_로 true 및 false 레이블을 지정합니다. 그런 다음, **저장**을 선택합니다.
+마지막 단계에서 이 모델에 대한 이름 및 모델 유효성 검사의 결과를 요약하는 자동으로 생성된 보고서에 사용할 결과에 대한 친숙한 레이블을 제공해야 합니다. 여기서는 모델 이름을 _Purchase Intent Prediction_으로 지정하고,  _Purchase_ 및 _No-Purchase_로 true 및 false 레이블을 지정합니다. 그런 다음, **저장**을 선택합니다.
 
 ![모델 저장](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-16.png)
 
@@ -132,7 +132,7 @@ ms.locfileid: "61407201"
 
 ![지금 새로 고침](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-17.png)
 
-기록 데이터를 샘플링 및 정규화하고, 데이터 집합을 *Purchase Intent Prediction Training Data*와 *Purchase Intent Prediction Testing Data* 두 개의 새 엔터티로 분할하여 학습 프로세스가 시작됩니다.
+기록 데이터를 샘플링 및 정규화하고, 데이터 집합을 *Purchase Intent Prediction Training Data*와 *Purchase Intent Prediction Testing Data*  두 개의 새 엔터티로 분할하여 학습 프로세스가 시작됩니다.
 
 데이터 집합의 크기에 따라 학습 프로세스는 몇 분에서 몇 시간이 걸릴 수 있습니다. 이 시점에서는, 데이터 흐름의 **기계 학습 모델** 탭에서 모델을 확인할 수 있습니다. _준비_ 상태는 모델이 큐에 대기 중이거나 학습 중임을 나타냅니다.
 
@@ -193,7 +193,7 @@ ms.locfileid: "61407201"
 * 입력된 데이터를 사용하여 데이터 흐름 만들기
 * 기계 학습 모델 생성 및 학습
 * 모델 유효성 검사 보고서 검토
-* 모델을 데이터 흐름 엔터티에 적용
-* Power BI 보고서에서 모델의 점수가 매겨진 출력을 사용
+* 데이터 흐름 엔터티에 모델 적용
+* Power BI 보고서에서 모델의 점수가 매겨진 출력 사용
 
 Power BI의 Machine Learning 자동화에 대한 자세한 내용은 [Power BI의 자동화된 Machine Learning(미리 보기)](service-machine-learning-automated.md)을 참조합니다.

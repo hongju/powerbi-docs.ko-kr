@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: dcf9b8befabfec98fcae154e6276f8e698b3ddc2
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61150957"
@@ -20,6 +20,7 @@ ms.locfileid: "61150957"
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI에서 클래식 작업 영역 만들기
 
 Power BI에서 동료와 공동 작업하여 대시보드, 보고서, 페이지를 매긴 보고서의 컬렉션을 생성하고 구체화할 수 있는 공간인 *작업 영역*을 만들 수 있습니다. 그런 다음 컬렉션을 *앱*으로 함께 묶어 전체 조직 또는 특정 사람 또는 그룹에 배포할 수 있습니다. 
+
 
 **알고 계십니까?** Power BI는 이제 새로운 작업 영역 환경을 제공하며 이는 이제 기본값으로 제공됩니다. 새 작업 영역에 대한 세부 정보는 [새 작업 영역에서 작업 구성](service-new-workspaces.md)을 참조합니다. 
 
@@ -77,9 +78,11 @@ Power BI에서 동료와 공동 작업하여 대시보드, 보고서, 페이지�
 
 ## <a name="distribute-an-app"></a>앱 배포
 
+
 조직 내에서 대규모 대상에게 공식 콘텐츠를 배포하려는 경우에 작업 영역에서 앱을 게시할 수 있습니다. 콘텐츠가 준비되면, 게시할 대시보드 및 보고서를 선택한 다음 *앱*으로 게시합니다. 각 작업 영역에서 하나의 앱을 만들 수 있습니다.
 
 왼쪽 탐색 영역에서 앱은 이전에 설치한 모든 앱을 보여 줍니다. 동료는 몇 가지 다른 방법으로 앱을 설치할 수 있습니다. 
+
 - Microsoft AppSource에서 앱을 찾고 설치합니다.
 - 이러한 직접 링크를 보낼 수 있습니다. 
 - Power BI 관리자가 사용자에게 사용 권한을 부여한 경우 동료의 Power BI 계정에서 해당 앱을 자동으로 설치할 수 있습니다. 
@@ -94,7 +97,9 @@ Power BI에서 동료와 공동 작업하여 대시보드, 보고서, 페이지�
 * 비즈니스 사용자가 콘텐츠 팩을 설치한 후에는 그룹화된 ID를 잃게 됩니다. 그저 다른 대시보드 및 보고서가 혼재된 대시보드 및 보고서 목록일 뿐입니다. 한편으로, 앱은 설치 후에도 그룹화와 ID를 유지합니다. 이 그룹화를 통해 비즈니스 사용자는 시간이 지나도 계속 해당 앱으로 쉽게 이동할 수 있습니다.
 * 어떠한 작업 영역에서도 여러 콘텐츠 팩을 만들 수 있지만 앱은 해당 작업 영역과 일대일 관계를 맺습니다. 
 * 시간이 지나면 조직 콘텐츠 팩의 사용을 중단할 계획이므로, 지금부터 앱을 만드는 것이 좋습니다.  
+
 * 새 작업 영역 환경 미리 보기를 사용하여 조직 콘텐츠 팩의 사용을 중단하는 첫 번째 조치를 취합니다. 미리 보기 작업 영역에서 해당 조직 콘텐츠 팩을 사용하거나 만들 수 없습니다.
+
 
 [기존 앱 작업 영역과 새 앱 작업 영역의 차이점은?](service-new-workspaces.md#how-are-the-new-workspaces-different-from-current-workspaces)를 참조하여 둘을 비교합니다. 
 

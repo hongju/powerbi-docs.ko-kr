@@ -1,6 +1,6 @@
 ---
-title: 보고서 및 대시보드에 사용자 자신과 다른 사용자 구독
-description: 본인과 동료가 Power BI 보고서 또는 대시보드의 이메일 스냅숏을 구독하는 방법에 대해 알아보세요.
+title: 직접 보고서 및 대시보드 구독
+description: 본인이 Power BI 보고서 및 대시보드의 메일 스냅샷을 구독하는 방법에 대해 알아보세요.
 author: mihart
 ms.author: mihart
 manager: kvivek
@@ -9,19 +9,19 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/11/2019
+ms.date: 06/26/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d452b036c7890d59e27df328ae12ad7f5b3b8dbb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 85976d191fba627b75f8b415acc312817d11ed34
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497955"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408511"
 ---
-# <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Power BI 서비스에서 보고서 또는 대시보드 구독 
+# <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI 서비스에서 보고서 또는 대시보드 구독 
 가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서 스냅샷을 이메일로 받은 편지함에 보냅니다. 매일, 매주 또는 데이터 새로 고침될 때 Power BI에게 이메일 수신 빈도를 알려줍니다. Power BI가 이메일을 보내거나 지금 실행되도록 특정 시간을 설정할 수도 있습니다.  
 
-메일 및 스냅숏은 Power BI 설정에 설정된 언어를 사용합니다([Power BI에 지원되는 언어 및 국가/지역](../supported-languages-countries-regions.md) 참조). 언어가 정의되지 않은 경우 Power BI는 현재 브라우저의 로캘 설정에 따른 언어를 사용합니다. 언어 기본 설정을 보거나 설정하려면 기어 아이콘 ![기어 아이콘](./media/end-user-subscribe/power-bi-settings-icon.png) > **설정 > 일반 > 언어**를 선택합니다. 
+메일 및 스냅샷은 Power BI 설정에 설정된 언어를 사용합니다([Power BI에 지원되는 언어 및 국가/지역](../supported-languages-countries-regions.md) 참조). 언어가 정의되지 않은 경우 Power BI는 현재 브라우저의 로캘 설정에 따른 언어를 사용합니다. 언어 기본 설정을 보거나 설정하려면 기어 아이콘 ![기어 아이콘](./media/end-user-subscribe/power-bi-settings-icon.png) > **설정 > 일반 > 언어**를 선택합니다. 
 
 ![언어 드롭다운](./media/end-user-subscribe/power-bi-language.png)
 
@@ -29,7 +29,7 @@ ms.locfileid: "66497955"
 
 
 ## <a name="requirements"></a>요구 사항
-구독 **만들기**는 Power BI Pro의 기능입니다.   
+자신에 대한 구독을 **만들려면** Power BI Pro 라이선스가 필요합니다. 프리미엄 작업 영역이나 앱에서 콘텐츠를 보는 사용자는 Power BI Pro 라이선스가 없어도 해당 위치에 있는 콘텐츠를 구독할 수 있습니다. **다른 사람을 구독**시키는 기능은 대시보드 소유자만 사용할 수 있습니다. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>대시보드 또는 보고서에 대한 구독 페이지
 대시보드 또는 보고서 구독 여부와 관계없이 프로세스는 유사합니다. 동일한 단추를 사용하면 Power BI 서비스 대시보드 및 보고서를 구독할 수 있습니다.
@@ -41,17 +41,15 @@ ms.locfileid: "66497955"
    
    ![구독 아이콘](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-   ![구독 창](./media/end-user-subscribe/power-bi-emails-newer.png)
+   ![구독 창](./media/end-user-subscribe/power-bi-emails-newest.png)
     
     대시보드에 있는 **구독**을 선택하면 왼쪽 화면이 나타납니다. 보고서 페이지에 있는 **구독**을 선택하면 오르쪽 화면이 나타납니다. 보고서에서 여러 페이지를 구독하려면 **다른 구독 추가**를 선택하고, 다른 페이지를 선택합니다. 
 
 4. 노란색 슬라이더를 사용하여 구독을 설정하거나 해제합니다.  슬라이더를 Off로 설정해도 구독이 삭제되지 않습니다. 구독을 삭제하려면 휴지통 아이콘을 선택합니다.
 
-4. 이메일 주소는 **구독** 필드에 자동으로 추가됩니다. 조직의 다른 사용자를 구독하려면 여기에 해당 이메일 주소도 추가합니다. 
+5. 선택적으로, 제목과 메일 메시지 세부 정보를 추가합니다. 
 
-5. 선택적으로 메일 메시지 세부 사항을 추가하세요. 
-
-5. 구독에 대해 **빈도**를 선택합니다.  매일, 매주 또는 데이터 새로 고침 후(매일)를 선택할 수 있습니다.  특정 요일에만 구독 이메일을 받으려면 **매주**를 선택하고 수신할 요일을 선택합니다.  예를 들어 평일에만 구독 이메일을 받으려면 빈도에 대해 **매주**를 선택하고 토요일 및 일요일의 확인란을 선택 취소합니다.   
+5. 구독에 대해 **빈도**를 선택합니다.  매일, 매주 또는 데이터 새로 고침 후(매일)를 선택할 수 있습니다.  특정 요일에만 구독 이메일을 받으려면 **매주**를 선택하고 수신할 요일을 선택합니다.  예를 들어 평일에만 구독 메일을 받으려면 빈도에 대해 **매주**를 선택하고 토요일 및 일요일의 확인란을 선택 취소합니다.   
 
 6. 빈도에 대해 매일 또는 매주를 선택하고 구독에 대해 **예약** **시간**을 입력하여 이메일이 전송되는 시간을 예약합니다.  이번에는 구독 작업이 시작될 때입니다. 특정 시나리오에서 이메일이 받은 편지함으로 전달되기 전까지 몇 분이 걸릴 수 있습니다.    
 
@@ -59,9 +57,9 @@ ms.locfileid: "66497955"
 
 8. 구독을 검토하고 테스트하려면 **지금 실행**을 선택합니다.  바로 이메일을 보내드립니다. 
 
-8. 모든 항목이 양호하면 **저장 후 닫기**를 선택하여 구독을 저장합니다. 구독한 동료는 설정한 일정에 따라 대시보드 또는 보고서의 이메일과 스냅샷을 받게 됩니다. 빈도가 **데이터 새로 고침 후**로 설정된 모든 구독은 첫 번째 예약된 새로 고침 이후에만 이메일을 보냅니다.
+8. 모든 항목이 양호하면 **저장 후 닫기**를 선택하여 구독을 저장합니다. 설정한 일정에 따라 대시보드 또는 보고서의 스냅샷과 메일을 받게 됩니다. 빈도가 **데이터 새로 고침 후**로 설정된 모든 구독은 첫 번째 예약된 새로 고침 이후에만 이메일을 보냅니다.
    
-   ![대시보드의 이메일 스냅숏](media/end-user-subscribe/power-bi-subscribe-email.png)
+   ![대시보드의 이메일 스냅샷](media/end-user-subscribe/power-bi-subscribe-email.png)
    
     보고서 페이지를 새로 고치면 데이터 세트가 새로 고쳐지지 않습니다. 데이터 세트 소유자만 데이터 세트를 수동으로 새로 고칠 수 있습니다. 기본 데이터 세트의 소유자 이름을 검색하려면 맨 위 메뉴 모음에서 **관련 항목 보기**를 선택하거나 원래 구독 이메일을 찾습니다.
    
