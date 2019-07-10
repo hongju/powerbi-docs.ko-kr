@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770358"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559072"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth를 사용하여 Power BI Report Server 및 SSRS에 연결
 
@@ -25,7 +25,7 @@ Power BI Report Server 및 SQL Server Reporting Services 2016 이상에 연결�
 OAuth를 통해 Power BI Report Server 및 Reporting Services에 연결하여 모바일 보고서 또는 KPI를 표시할 수 있습니다. Windows Server 2016은 웹 애플리케이션 프록시(WAP) 역할에 향상된 기능을 제공하여 이러한 형식의 인증을 허용합니다.
 
    > [!NOTE]
-   > Power BI Report Server에서 호스트 되는 Power BI 보고서를 보는 WAP를 사용 하 여 인증 하는 현재 지원 iOS 앱에만 합니다. Android 앱이이 시간에 공식적으로 지원 되지 않습니다.
+   > 인증을 위해 WAP를 사용하여 Power BI Report Server에서 호스팅되는 Power BI 보고서 보기는 이제 iOS 및 Android 앱에서 지원됩니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -63,7 +63,7 @@ SPN은 Kerberos 인증을 사용하는 서비스에 대한 고유한 식별자�
 
 ### <a name="enabling-negotiate-authentication"></a>협상 인증 사용
 
-Kerberos 인증을 사용하는 보고서 서버를 사용하려면 보고서 서버의 인증 유형이 RSWindowsNegotiate이 되도록 구성해야 합니다. 이 작업은 rsreportserver.config 파일 내에서 수행됩니다.
+Kerberos 인증을 사용하는 보고서 서버를 사용하려면 보고서 서버의 인증 유형이 RSWindowsNegotiate이 되도록 구성해야 합니다. rsreportserver.config 파일 내에서 이 작업을 수행합니다.
 
 ```xml
 <AuthenticationTypes>  
@@ -81,7 +81,7 @@ Kerberos 인증을 사용하는 보고서 서버를 사용하려면 보고서 �
 
 ### <a name="create-an-application-group"></a>애플리케이션 그룹 만들기
 
-AD FS 관리 화면 내에서 Power BI 모바일 앱에 대한 정보가 포함된 Reporting Services의 애플리케이션 그룹을 만들려고 합니다.
+AD FS 관리 화면 내에 Power BI 모바일 앱에 대한 정보가 포함된 Reporting Services의 애플리케이션 그룹을 만들려고 합니다.
 
 다음 단계를 통해 애플리케이션 그룹을 만들 수 있습니다.
 
@@ -113,12 +113,12 @@ AD FS 관리 화면 내에서 Power BI 모바일 앱에 대한 정보가 포함�
    ![ADFS 애플리케이션 그룹 마법사 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
 7. **다음**을 선택합니다.
 
-8. 보고서 서버에 대한 URL을 제공합니다. 웹 애플리케이션 프록시에 도달하는 외부 URL입니다. 다음과 같은 형식이어야 합니다.
+8. 보고서 서버에 대한 URL을 제공합니다. URL은 웹 애플리케이션 프록시에 도달하는 외부 URL입니다. 다음과 같은 형식이어야 합니다.
 
    > [!NOTE]
    > 이 URL은 대/소문자를 구분합니다.
 
-   *https://< 보고서 서버 url > /*
+   *https://< 보고서 서버 url >/reports*
 
    ![ADFS 애플리케이션 그룹 마법사 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. **다음**을 선택합니다.
@@ -239,7 +239,7 @@ Multi-Factor Authentication을 사용하여 사용자 환경에 대한 추가 �
 
 ## <a name="troubleshooting"></a>문제 해결
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>SSRS 서버에 로그인하는 데 실패했습니다라는 오류를 받았습니다. 서버 구성을 확인하세요.
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>SSRS 서버에 로그인하는 데 실패했습니다라는 오류를 받았습니다. 서버 구성을 확인합니다.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

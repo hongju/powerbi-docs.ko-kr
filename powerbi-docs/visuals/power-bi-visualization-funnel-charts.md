@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61068001"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161114"
 ---
 # <a name="funnel-charts"></a>깔대기형 차트
 깔때기형 차트는 순차적으로 연결된 단계가 있는 선형 프로세스를 시각화하는 데 도움이 됩니다. 예를 들어 다음 단계를 통해 고객을 추적하는 영업 깔때기가 있습니다. 잠재 고객 \> 적격 잠재 고객 \> 예측 \> 계약 \> 닫기.  깔때기의 모양은 추적 중인 프로세스의 상태를 한눈에 보여줍니다.
@@ -53,7 +53,7 @@ ms.locfileid: "61068001"
 
 이제 영업 단계 각각에 있는 기회의 수를 보여 주는 고유한 깔때기형 차트를 만듭니다.
 
-이러한 지침에서는 영업 기회 분석 샘플을 사용합니다. 이를 수행하려면 Power BI 서비스(app.powerbi.com) 또는 Power BI Desktop에 대한 [샘플을 다운로드](../sample-datasets.md)합니다.   
+이러한 지침에서는 영업 기회 분석 샘플을 사용합니다. 과정을 따르려면 Power BI 서비스(app.powerbi.com) 또는 Power BI Desktop에 대한 [샘플을 다운로드](../sample-datasets.md)합니다.   
 
 1. 빈 보고서 페이지에서 시작하고 **SalesStage** \> **Sales Stage** 필드를 선택합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
    
@@ -61,7 +61,7 @@ ms.locfileid: "61068001"
 2. [차트를 깔때기로 변환](power-bi-report-change-visualization-type.md)합니다. **Sales Stage** 가 **그룹** 에 있습니다. 
 3. **필드** 창에서 **팩트** \> **기회 수**를 선택합니다.
    
-    ![깔때기형 차트 빌드](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![깔때기형 차트 빌드](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. 막대를 마우스로 가리키면 다양한 정보가 표시됩니다.
    
    * 단계의 이름

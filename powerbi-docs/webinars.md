@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: ec50369715efdd7bcb9ab764a3240acceb72508e
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389550"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418650"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -22,11 +22,7 @@ ms.locfileid: "67389550"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-등록하여 Power BI 전문가 의견을 듣고 라이브 Q&A 세션에 참여하세요.
-
-**Power BI: Workday HR 데이터에서 인사이트를 가져오는 방법**
-<br>저자: Iman Eftekhari, Agile Analytics의 Julia Paton 및 QBE Insurance의 Shahram Karimi
-<br>[6월 27일, 오후 1:30~오후 2:30 PST(태평양 표준시)에 시청 등록](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
 
 >[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -128,6 +124,10 @@ ms.locfileid: "67389550"
 
 ### <a name="partner-solutions-series"></a>파트너 솔루션 시리즈 ###
 [이 시리즈 보기](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
+
+**Power BI: Workday HR 데이터에서 인사이트를 가져오는 방법**
+<br>저자: Iman Eftekhari, Agile Analytics의 Julia Paton 및 QBE Insurance의 Shahram Karimi
+<br>[등록 및 지금 보기](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 **소비재 상품 제조업체와 판매점의 상생 실현**
 <br>Thorogood의 작성자 Liz McCreesh

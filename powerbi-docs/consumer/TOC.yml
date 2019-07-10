@@ -174,6 +174,8 @@
               href: mobile/mobile-apps-qr-code.md
             - name: 모바일 앱에서 주석 달기 및 공유
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+            - name: iPhone에서 앱의 바코드 스캔
+              href: mobile/mobile-apps-scan-barcode-iphone.md
         - name: iOS
           items:
             - name: iOS 앱 시작
@@ -188,8 +190,6 @@
               href: mobile/mobile-apps-iOS-search-integration.md
             - name: Power BI Apple Watch 앱
               href: mobile/mobile-apple-watch.md
-            - name: iPhone에서 앱의 바코드 스캔
-              href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: 모바일 디바이스 관리를 사용하여 구성
               href: mobile/mobile-app-configuration.md
         - name: Android 디바이스

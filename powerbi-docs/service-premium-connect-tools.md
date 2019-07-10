@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/18/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b671d2f55135312fb529d4b4b30af3941c525a26
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
+ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448310"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67235055"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>클라이언트 애플리케이션 및 도구를 사용하여 데이터 세트에 연결(미리 보기)
 
@@ -36,7 +36,7 @@ Power BI Premium은 클라이언트 애플리케이션과 작업 영역 및 데�
 
 이러한 도구는 Power BI Premium 작업 영역 및 데이터 세트에 대한 읽기 전용 액세스를 지원합니다.
 
-**SSMS(SQL Server Management Studio)** - DAX, MDX, XMLA 및 TraceEvent 쿼리를 지원합니다. 18\.0 버전이 필요합니다. [여기서](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) 다운로드합니다. 
+**SSMS(SQL Server Management Studio)** - DAX, MDX, XMLA 및 TraceEvent 쿼리를 지원합니다. 18.0 버전이 필요합니다. [여기서](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) 다운로드합니다. 
 
 **SQL Server Profiler** - SSMS 18.0(미리 보기)에 포함된 이 도구는 서버 이벤트 추적 및 디버깅을 제공합니다. 각 이벤트에 대한 데이터를 캡처하고 파일이나 테이블에 저장하여 나중에 분석할 수 있습니다. 공식적으로 SQL Server용으로 사용되지 않지만 Profiler는 SSMS에 계속 포함되며 Analysis Services 및 현재 Power BI Premium에 대한 지원을 계속합니다. 자세한 내용은 [SQL Server Profiler](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler)를 참조하세요.
 
@@ -101,6 +101,10 @@ SQL Server Profiler와 같은 일부 도구는 *초기 카탈로그*를 지정�
 
 - Power BI 데이터 세트에 라이브 연결이 포함된 데이터 세트.
 
+### <a name="roles-and-role-memberships"></a>역할 및 역할 멤버 자격
+
+현재 모델 역할 및 역할 멤버 자격은 검색할 수 없거나 XMLA 엔드포인트를 사용하여 표시되지 않습니다.
+
 ## <a name="audit-logs"></a>감사 로그 
 
 클라이언트 애플리케이션 및 도구가 작업 영역에 연결되면 XMLA 엔드포인트를 통한 액세스는 **GetWorkspaces** 작업 아래의 Power BI 감사 로그에 기록됩니다. 자세한 내용은 [Power BI 감사](service-admin-auditing.md)를 참조하세요.
@@ -109,7 +113,7 @@ SQL Server Profiler와 같은 일부 도구는 *초기 카탈로그*를 지정�
 
 [Analysis Services 참조](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
-[SQL Server Analysis Services 표 형식 프로토콜](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
+[SQL Server Analysis Services 테이블 형식 프로토콜](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
 [동적 관리 뷰(DMV)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   
 
 

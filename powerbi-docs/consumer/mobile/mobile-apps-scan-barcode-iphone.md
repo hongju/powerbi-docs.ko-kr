@@ -1,5 +1,5 @@
 ---
-title: Power BI 모바일 앱에서 iPhone으로 바코드 스캔
+title: Power BI 모바일 앱에서 바코드 스캔
 description: 실제 세계에서 바코드를 스캔하여 Power BI 모바일 앱에 있는 필터링된 BI 정보에 직접 이동합니다.
 author: mshenhav
 manager: kfile
@@ -9,21 +9,28 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 3fd2d4888f76490a01c0742e68e6820c7055326e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 432b65f8d7f461ac1942cf8996f9cc67e756fc7f
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137329"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559018"
 ---
-# <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>Power BI 모바일 앱에서 iPhone으로 바코드 스캔
+# <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Power BI 모바일 앱에서 디바이스로 바코드 스캔
 실제 세계에서 바코드를 스캔하여 Power BI 모바일 앱에 있는 필터링된 BI 정보에 직접 이동합니다.
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+적용 대상:
+
+| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
+|:--- |:--- |
+| iPhone | Android(휴대폰, 태블릿) | 
 
 동료가 [보고서 Power BI Desktop에 바코드 필드의 태그를 지정](../../desktop-mobile-barcodes.md)하고 보고서를 공유했다고 가정합니다. 
 
-iPhone의 Power BI 앱에서 스캐너를 사용하여 제품 바코드를 스캔할 때 해당 바코드가 있는 보고서(또는 보고서 목록)을 확인합니다. iPhone에서 해당 보고서를 열고 해당 바코드를 필터링할 수 있습니다.
+![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+디바이스의 Power BI 앱에서 스캐너를 사용하여 제품 바코드를 스캔할 때 해당 바코드가 있는 보고서(또는 보고서 목록)를 확인합니다. 해당 바코드로 필터링된 보고서를 열 수 있습니다.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Power BI 스캐너를 사용하여 바코드 스캔
 1. Power BI 모바일 앱의 왼쪽 위에 있는 기본 탐색 메뉴 ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png)를 엽니다. 
@@ -34,10 +41,10 @@ iPhone의 Power BI 앱에서 스캐너를 사용하여 제품 바코드를 스�
 4. 제품에 대한 바코드에 스캐너를 가리킵니다. 
    
     해당 바코드와 연결된 보고서의 목록이 표시됩니다.
-5. iPhone에서 열려는 보고서 이름을 누르면 자동으로 해당 바코드 필터링됩니다.
+5. 디바이스에서 열려는 보고서 이름을 누르면 자동으로 해당 바코드 필터링됩니다.
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>보고서에 있는 동안 다른 바코드로 필터링
-iPhone에서 바코드로 필터링된 보고서를 보는 동안 다른 바코드로 동일한 보고서를 필터링하려고 할 수 있습니다.
+디바이스에서 바코드로 필터링된 보고서를 보는 동안 다른 바코드로 동일한 보고서를 필터링하려고 할 수 있습니다.
 
 * 바코드 아이콘에 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png) 필터가 있으면 필터가 활성화되고 보고서는 이미 바코드로 필터링됩니다. 
 * 아이콘에 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png) 필터가 없으면 필터가 활성화되지 않고 보고서는 바코드로 필터링되지 않습니다. 

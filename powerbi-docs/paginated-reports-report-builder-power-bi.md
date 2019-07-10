@@ -20,7 +20,7 @@ ms.locfileid: "66839647"
 
 페이지를 매긴 보고서는 SQL Server Reporting Services의 표준 보고서 형식과 함께 이제 Power BI 서비스에서 사용할 수 있습니다. 이러한 보고서를 인쇄 또는 공유할 수 있습니다. 이러한 보고서가 “페이지를 매긴” 보고서로 불리는 이유는 페이지에 적합하게 형식 지정되어 있기 때문입니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다. 보고서 페이지 레이아웃을 정확하게 제어할 수 있기 때문에 “pixel perfect”라고도 합니다. 페이지를 매긴 보고서는 SQL Server Reporting Services의 RDL 보고서 기술을 기반으로 합니다. 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 독립 실행형 도구입니다. 
 
-페이지를 매긴 보고서에는 여러 페이지가 있을 수 있습니다. 예를 들어 이 보고서에는 563페이지가 있습니다. 각 페이지는 청구서 당 한 페이지가 정확하게 배치되고 머리글과 바닥글이 반복됩니다.
+페이지를 매긴 보고서에는 여러 페이지가 있을 수 있습니다. 예를 들어 이 보고서에는 563페이지가 있습니다. 각 페이지는 청구서당 한 페이지가 정확하게 배치되고 머리글과 바닥글이 반복됩니다.
 
 ![페이지를 매긴](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
@@ -70,11 +70,9 @@ ms.locfileid: "66839647"
 
 ## <a name="create-a-subscription-to-your-report"></a>보고서에 대한 구독 만들기
 
-
 이제 Power BI 서비스에서 페이지를 매긴 보고서에 대한 나 또는 다른 사용자의 전자 메일 구독을 설정할 수 있습니다. 일반적으로 프로세스는 Power BI 서비스에서의 보고서 및 대시보드 구독과 같습니다. 구독을 설정하면 전자 메일 수신 빈도를 선택할 수 있습니다: 매일, 매주 또는 매시간. 구독에는 전체 보고서 출력의 PDF 첨부 파일이 포함됩니다.
 
-자세한 내용은 [자신 및 다른 사람이 Power BI 서비스에서 페이지를 매긴 보고서 구독하기](paginated-reports-subscriptions.md) 문서를 참조합니다.
-
+자세한 내용은 [자신 및 다른 사람이 Power BI 서비스에서 페이지를 매긴 보고서 구독하기](paginated-reports-subscriptions.md) 문서를 참조합니다. 
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 

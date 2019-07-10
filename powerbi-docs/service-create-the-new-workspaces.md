@@ -12,14 +12,16 @@ ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: d0c0781ea5d3864f1cf3627cd42d53cca632102d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61142074"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI에서 새 작업 영역 만들기
 
+
 Power BI는 새로운 작업 영역 환경을 소개합니다. 작업 영역은 여전히 동료와 공동 작업하여 대시보드, 보고서 및 페이지를 매긴 보고서의 컬렉션을 만드는 곳입니다. 그런 다음 해당 컬렉션을 *앱*으로 묶어 전체 조직 또는 특정 사용자 또는 그룹에 배포할 수 있습니다.
+
 
 다른 점은 다음과 같습니다. 새 작업 영역에서 다음을 수행할 수 있습니다.
 
@@ -64,7 +66,9 @@ Power BI는 새로운 작업 영역 환경을 소개합니다. 작업 영역은 
 
 1. **저장**을 선택합니다.
 
+
     Power BI가 작업 영역을 만들고 엽니다. 사용자가 구성원으로 속해 있는 작업 영역 목록에서 해당 작업 영역을 볼 수 있습니다.
+
 
 ## <a name="workspace-contact-list"></a>작업 영역 연락처 목록
 
@@ -89,7 +93,9 @@ Power BI는 Office 365 그룹 멤버 자격을 사용하여 작업 영역 액세
 
 1. 두 가지 방법 중 하나로 새 **작업 영역 OneDrive** 설정을 액세스합니다.
 
+
     처음 만드는 경우 **작업 영역 만들기** 창에서 설정을 액세스합니다.
+
 
     왼쪽 탐색 창에서 **작업 영역** 옆 화살표를 선택, 작업 영역 이름 옆의 줄임표 (...) > **작업 영역 설정**을 선택합니다. **설정** 창이 열립니다.
 
@@ -121,7 +127,9 @@ OneDrive 위치를 구성한 후에 작업 영역에서 몇 가지 서로 다른
 
 새 작업 영역 환경 작업 영역을 만든 후, 콘텐츠를 추가할 차례입니다. 콘텐츠를 추가하는 것은 클래식 및 새 작업 영역에서 비슷합니다. 만들기 단추를 사용하거나 데이터 가져오기를 사용하여 작업 영역에 콘텐츠를 추가합니다.
 
+
 1.  새 작업 영역에 대한 **시작** 화면에서 콘텐츠를 추가할 수 있습니다. 
+
 
     ![새 작업 영역 시작 화면](media/service-create-the-new-workspaces/power-bi-workspace-welcome-screen.png)
 
@@ -155,7 +163,9 @@ OneDrive 위치를 구성한 후에 작업 영역에서 몇 가지 서로 다른
 
 ## <a name="distribute-an-app"></a>앱 배포
 
+
 조직 내에서 대규모 대상에게 공식 콘텐츠를 배포하려는 경우, 작업 영역에서 앱을 게시할 수 있습니다. 콘텐츠가 준비되면, 게시하기 원하는 대시보드 및 보고서를 선택한 다음, *앱*으로 게시합니다. 각 작업 영역에서 하나의 앱을 만들 수 있습니다.
+
 
 [새 작업 영역에서 앱 게시](service-create-distribute-apps.md)에 대해 알아봅니다.
 

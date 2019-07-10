@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: e7b2f03d561faa7df582b4ad5a975d09d617f98f
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498076"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264628"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 보고서 및 대시보드에 자신과 다른 사용자 구독
 
@@ -28,8 +28,12 @@ Power BI 서비스에만 구독을 만들 수 있습니다. 보고서 페이지 
 
 ## <a name="requirements"></a>요구 사항
 
-- 구독 **만들기**는 Power BI Pro의 기능입니다.
-- 직접 구독을 만들려면 콘텐츠(대시보드 또는 보고서)에 대한 편집 권한이 필요하지 않지만 다른 사용자를 위해 구독 권한을 만들려면 편집 권한이 있어야 합니다. 
+구독을 **만들려면** 다음을 수행합니다.
+
+- Power BI Pro 라이선스가 있는 사용자
+- 프리미엄 작업 영역이나 앱에서 콘텐츠를 보는 사용자는 Power BI Pro 라이선스가 없어도 해당 위치에 있는 콘텐츠를 구독할 수 있습니다.
+
+직접 구독을 만들려면 콘텐츠(대시보드 또는 보고서)에 대한 편집 권한이 필요하지 않지만 다른 사용자를 위해 구독 권한을 만들려면 편집 권한이 있어야 합니다. 
 
 ## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>대시보드, 보고서 페이지 또는 페이지가 매겨진 보고서 구독
 
@@ -87,7 +91,6 @@ Pro 라이선스가 만료되거나 소유자가 대시보드 또는 보고서�
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 
 * 25개가 넘는 고정된 타일 또는 4개의 고정된 라이브 보고서 페이지가 있는 대시보드는 사용자에게 전송된 구독 이메일에 완벽하게 렌더링되지 않을 수 있습니다.  이러한 타일 수를 넘는 대시보드에 대한 구독은 차단되지 않습니다. 그러나 문제가 발생하면 지원되지 않는 것으로 간주됩니다. 지원되는 범위 내에서 적절하게 수정하는 것이 좋습니다.
-* 이번에는 구독 작업이 시작될 때입니다. 특정 시나리오에서 이메일이 받은 편지함으로 전달될 때까지 몇 분이 걸릴 수 있습니다.
 * 드문 경우지만 이메일 구독이 받는 사람에게 전달되는 데 15분 이상 걸릴 수 있습니다. 이 경우 데이터 새로 고침 및 이메일 구독을 다른 시간에 실행하여 적절하게 전달되도록 할 것을 권장합니다. 문제가 지속되면 Power BI 지원에 문의하세요.
 * 대시보드 이메일 구독의 경우 타일에 RLS(행 수준 보안)가 적용되면 해당 타일은 표시되지 않습니다.  
 * 보고서 이메일 구독의 경우 데이터 세트가 RLS를 사용하면 직접 구독을 만들 수 있습니다. RLS(행 수준 보안)가 적용되는 보고서에 다른 사용자를 구독할 수 없습니다.
