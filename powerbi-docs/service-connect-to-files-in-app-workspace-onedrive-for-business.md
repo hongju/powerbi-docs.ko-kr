@@ -17,7 +17,7 @@ ms.lasthandoff: 05/29/2019
 ms.locfileid: "61174993"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Power BI 앱 작업 영역에 대해 OneDrive에 저장된 파일에 연결
-[Power BI에서 앱 작업 영역을 만들었으므로](service-create-distribute-apps.md) Power BI 앱 작업 영역에 대한 비즈니스용 OneDrive에 Excel, CSV, Power BI Desktop 파일을 저장할 수 있습니다. OneDrive에 저장한 파일 업데이트를 계속할 수 있습니다. 이러한 업데이트는 Power BI 보고서와 대시보드에 파일을 기반으로 자동으로 반영 됩니다. 
+[Power BI에서 앱 작업 영역을 만들었으므로](service-create-distribute-apps.md) Power BI 앱 작업 영역에 대한 비즈니스용 OneDrive에 Excel, CSV, Power BI Desktop 파일을 저장할 수 있습니다. OneDrive에 저장한 파일은 계속 업데이트할 수 있습니다. 이러한 업데이트는 해당 파일에 기반하여 Power BI 보고서와 대시보드에 자동으로 반영됩니다. 
 
 > [!NOTE]
 > 새 작업 영역 환경은 Power BI 작업 영역 및 Office 365 그룹 간의 관계를 변경합니다. 새 작업 영역 중 하나를 만들 때마다 Office 365 그룹을 자동으로 만들지 않습니다. [새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조합니다.
@@ -48,7 +48,7 @@ ms.locfileid: "61174993"
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Excel 파일을 데이터 세트 또는 Excel 온라인 통합 문서로 가져오기
 이제 앱 작업 영역에 대한 비즈니스용 OneDrive에 파일이 있으므로 선택할 수 있는 사항이 있습니다. 다음을 할 수 있습니다. 
 
-* [데이터 집합으로 Excel 통합 문서에서 데이터를 가져오기](service-get-data-from-files.md)합니다. 그런 다음 데이터를 사용하여 웹 브라우저에서 및 모바일 장치에서 볼 수 있는 보고서와 대시보드를 생성합니다.
+* [데이터 집합으로 Excel 통합 문서에서 데이터를 가져오기](service-get-data-from-files.md)합니다. 그런 다음 데이터를 사용하여 웹 브라우저 및 모바일 장치에서 볼 수 있는 보고서와 대시보드를 생성합니다.
 * 또는 [Power BI에서 전체 Excel 통합 문서에 연결하고](service-excel-workbook-files.md) Excel Online에 표시된 대로 정확하게 표시합니다.
 
 ### <a name="import-or-connect-to-the-files-in-your-app-workspace"></a>앱 작업 영역의 파일 가져오기 또는 연결
@@ -64,7 +64,7 @@ ms.locfileid: "61174993"
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. 원하는 파일을 선택하고 **연결**을 선택합니다.
    
-    이 시점에서, [Excel 통합 문서에서 데이터를 가져오기](service-get-data-from-files.md), 또는 [전체 Excel 통합 문서에 연결](service-excel-workbook-files.md)할지 결정합니다.
+    이 시점에서, [Excel 통합 문서에서 데이터 가져오기](service-get-data-from-files.md), 또는 [전체 Excel 통합 문서에 연결](service-excel-workbook-files.md) 중 결정합니다.
 6. **가져오기** 또는 **연결**을 선택합니다.
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
