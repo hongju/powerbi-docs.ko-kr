@@ -33,7 +33,7 @@ ms.locfileid: "66461790"
 
 ## <a name="provide-a-link-for-the-certification-process"></a>인증 프로세스에 대한 링크 제한
 
-테넌트 관리자로서 **Endorsement** 설정 페이지에서 **자세히 알아보기** 링크에 대한 URL을 제공할 수 있습니다.  이 링크는 인증 프로세스에 대한 설명서로 이동할 수 있습니다. **자세히 알아보기** 링크의 대상을 제공하지 않은 경우 기본적으로 [데이터 세트 인증](service-datasets-certify.md) 문서를 가리킵니다.
+테넌트 관리자로서 **보증** 설정 페이지에서 **자세한 정보** 링크에 대한 URL을 제공할 수 있습니다.  이 링크는 인증 프로세스에 대한 설명서로 이동할 수 있습니다. **자세한 정보** 링크의 대상을 제공하지 않은 경우 기본적으로 [데이터 세트 인증](service-datasets-certify.md) 문서를 가리킵니다.
 
 ![데이터 세트 인증 자세히 알아보기](media/service-datasets-certify-promote/power-bi-dataset-learn-more-certification.png)
 

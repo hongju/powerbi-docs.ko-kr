@@ -9,14 +9,14 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
+ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448413"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "67468137"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery를 사용한 Azure SQL Database
 
@@ -29,8 +29,8 @@ DirectQuery를 사용할 경우 보고서 뷰에서 데이터를 탐색할 때 �
 * 연결 시 정규화된 서버 이름을 지정합니다(자세한 내용은 아래 참조).
 * 데이터베이스에 대한 방화벽 규칙이 "[Azure 서비스에 대한 액세스 허용](https://msdn.microsoft.com/library/azure/ee621782.aspx)"으로 구성되었는지 확인합니다.
 * 열 선택 또는 필터 추가와 같은 모든 작업은 쿼리를 다시 데이터베이스로 보냅니다.
-* 1시간마다 타일이 새로 고쳐집니다(새로 고침을 예약할 필요가 없음). 연결하는 경우 고급 설정에서 조정될 수 있습니다.
-* DirectQuery 데이터 세트에 대해 질문 및 답변을 사용할 수 없습니다.
+* 1시간마다 타일이 새로 고쳐집니다(새로 고침을 예약할 필요가 없음). 연결할 때 고급 설정에서 새로 고침 빈도를 조정할 수 있습니다.
+* DirectQuery 데이터 세트에 질문 및 답변을 사용할 수 없습니다.
 * 스키마 변경 내용은 자동으로 선택되지 않습니다.
 
 이러한 제한 사항 및 참고는 환경이 계속 향상됨에 따라 변경될 수 있습니다. 연결 단계는 아래에서 자세히 설명합니다.
@@ -42,11 +42,11 @@ DirectQuery를 사용할 경우 보고서 뷰에서 데이터를 탐색할 때 �
 
 DirectQuery를 사용하여 Azure SQL Database에 연결하려면 Power BI Desktop을 사용해야 합니다. 이 방법은 유연성 및 기능을 추가로 제공합니다. Power BI Desktop를 사용하여 만든 보고서는 Power BI 서비스에 게시할 수 있습니다. Power BI Desktop 내에서 [DirectQuery를 사용하는 Azure SQL Database](desktop-use-directquery.md)에 연결하는 방법에 대해 자세히 확인할 수 있습니다.
 
-## <a name="finding-parameter-values"></a>매개 변수 값 찾기
+## <a name="find-parameter-values"></a>매개 변수 값 찾기
 
-정규화된 서버 이름과 데이터베이스 이름은 Azure Portal에서 확인할 수 있습니다.
+정규화된 서버 이름과 데이터베이스 이름은 Azure Portal에서 찾을 수 있습니다.
 
-![새 Azure 포트 업데이트](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
+![새 Azure Portal 업데이트](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
 ![Azure Portal 업데이트](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
 
@@ -58,4 +58,4 @@ DirectQuery를 사용하여 Azure SQL Database에 연결하려면 Power BI Deskt
 * [Power BI란?](power-bi-overview.md)  
 * [Power BI에 대한 데이터 가져오기](service-get-data.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티 사용해 보기](http://community.powerbi.com/)

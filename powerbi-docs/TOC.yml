@@ -683,9 +683,9 @@
               href: service-machine-learning-automated.md
         - name: Power BI의 페이지를 매긴 보고서
           items:
-            - name: 페이지를 매긴 보고서 보기(미리 보기)
+            - name: 페이지를 매긴 보고서 보기
               href: paginated-reports-view-power-bi-service.md
-            - name: 매개 변수와 상호 작용(미리 보기)
+            - name: 매개 변수와 상호 작용
               href: paginated-reports-view-parameters.md
             - name: 직접 또는 다른 사용자 구독
               href: paginated-reports-subscriptions.md

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 2e0fc8ae6a6d2b01121ffb1c52c29652af21f21e
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839396"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67533091"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵(미리 보기)
 **도형 맵** 시각적 개체를 만들어 색을 사용하여 맵의 영역을 비교합니다. **맵** 시각적 개체와 달리 **도형 맵**은 데이터 요소의 정확한 지리적 위치를 맵에 표시할 수 없습니다. 대신, 색을 다르게 지정하여 맵 영역의 상대 비교를 표시하는 데 주로 사용됩니다.
@@ -108,11 +108,12 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 * **도형 맵** 시각적 개체는 최대 1,000개의 데이터 요소를 표시합니다.
 
 ## <a name="region-keys"></a>지역 키
+
 이 미리 보기 릴리스에서는 다음 **지역 키**를 사용하여 **도형 맵**을 테스트합니다.
 
 ### <a name="australia-states"></a>오스트레일리아: 시/도
 
-| `id` | `abbr` | `iso` | `name` | `postal` |
+| id | abbr | iso | name | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -125,7 +126,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="austria-states"></a>오스트리아: 시/도
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -139,7 +140,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="brazil-states"></a>브라질: 시/도
 
-| `id` |
+| id |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -175,7 +176,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="canada-provinces"></a>캐나다: 시/도
 
-| `id` | `iso` | `name` | `postal` |
+| id | iso | name | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -193,7 +194,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="france-regions"></a>프랑스: 지역
 
-| `id` | `name` | `name-en` |
+| id | name | name-en |
 | --- | --- | --- |
 | Alsace |Alsace |Alsace |
 | Rhone-Alpes |Rhône-Alpes |Rhone-Alpes |
@@ -220,7 +221,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="germany-states"></a>독일: 시/도
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
 | de-th |DE-TH |Thüringen |Thuringia |TH |
@@ -241,7 +242,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="ireland-counties"></a>아일랜드: 지방
 
-| `id` |
+| id |
 | --- |
 | Wicklow |
 | Wexford |
@@ -272,7 +273,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="italy-regions"></a>이탈리아: 지역
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley |VD |
@@ -297,7 +298,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="mexico-states"></a>멕시코: 시/도
 
-| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
+| id | abreviatura | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -334,7 +335,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="netherlands-provinces"></a>네덜란드: 시/도
 
-| `id` | `iso` | `name` | `name-en` |
+| id | iso | name | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -351,7 +352,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="uk-countries"></a>영국: 국가
 
-| `id` | `iso` | `name` |
+| id | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Scotland |
@@ -360,7 +361,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="usa-states"></a>미국: 시/도
 
-| `id` | `name` | `postal` |
+| id | name | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -415,6 +416,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | us-wa |Washington |WA |
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI의 행렬 시각적 개체](desktop-matrix-visual.md)
 
-[Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI의 행렬 시각적 개체](desktop-matrix-visual.md)
+
+* [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
