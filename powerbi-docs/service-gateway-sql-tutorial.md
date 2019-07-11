@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468359"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596627"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>온-프레미스 SQL Server 데이터베이스에서 데이터 새로 고침
 
@@ -35,7 +35,7 @@ ms.locfileid: "67468359"
 
 - 아직 없는 경우, 시작하기 전에 [Power BI 평가판](https://app.powerbi.com/signupredirect?pbi_source=web)에 등록합니다.
 - 로컬 컴퓨터에 [Power BI Desktop을 설치](https://powerbi.microsoft.com/desktop/)합니다.
-- 로컬 컴퓨터에 [SQL Server를 설치](/sql/database-engine/install-windows/install-sql-server)하고 [백업에서 샘플 데이터베이스]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak))를 복원합니다. AdventureWorks에 대한 자세한 내용은 [AdventureWorks 설치 및 구성](/sql/samples/adventureworks-install-configure)을 참조하세요.
+- 로컬 컴퓨터에 [SQL Server를 설치](/sql/database-engine/install-windows/install-sql-server)하고 [백업에서 샘플 데이터베이스](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)를 복원합니다. AdventureWorks에 대한 자세한 내용은 [AdventureWorks 설치 및 구성](/sql/samples/adventureworks-install-configure)을 참조하세요.
 - SQL Server와 동일한 로컬 컴퓨터(프로덕션에서는 일반적으로 다른 컴퓨터가 됨)에 [온-프레미스 데이터 게이트웨이를 설치](service-gateway-install.md)합니다.
 
 > [!NOTE]
