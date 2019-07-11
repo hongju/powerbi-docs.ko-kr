@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 31c1cd7a8455232fdaa3bb3d391fb93e87ad5062
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e0b2036192ace4404816f5ba64ad07569949452e
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61404395"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596579"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>자습서: Power BI에서 Machine Learning Studio 모델 호출(미리 보기)
 
@@ -62,7 +62,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 이 단계에서는 Azure ML 모델을 사용하여 점수를 매길 데이터가 CSV 형식으로 있다고 가정합니다.  **자동차 가격 책정 실험**을 사용하여 Machine Learning Studio에서 모델을 만든 경우 아래 링크의 데이터 세트를 공유합니다.
 
-* [Azure Learning Studio 샘플 모델](https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv)
+* [Azure Learning Studio 샘플 모델](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
 ### <a name="create-a-dataflow"></a>데이터 흐름 만들기
 
