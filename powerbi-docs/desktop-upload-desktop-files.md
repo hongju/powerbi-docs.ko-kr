@@ -44,7 +44,7 @@ ms.locfileid: "65513814"
 ## <a name="re-publish-or-replace-a-dataset-published-from-power-bi-desktop"></a>Power BI Desktop에서 게시된 데이터 세트의 다시 게시 또는 대체
 **Power BI Desktop** 파일을 게시할 때는 **Power BI Desktop**에서 만든 데이터 세트 및 모든 보고서가 Power BI 사이트에 업로드됩니다. **Power BI Desktop** 파일을 다시 게시할 때는 Power BI 사이트의 데이터 세트가 **Power BI Desktop** 파일에서 업데이트된 데이터 세트로 대체됩니다.
 
-이 작업은 모두 간단 하지만 알아야 할 것이 몇 가지 있습니다:
+이 작업은 모두 간단하지만 알아야 할 것이 몇 가지 있습니다.
 
 * 이미 Power BI에 **Power BI Desktop** 파일과 동일한 이름의 데이터 세트가 두 개 이상 있을 경우, 게시에 실패할 수 있습니다. Power BI에 동일한 이름의 데이터 세트가 하나뿐인지 확인하세요. 파일의 이름을 변경하고 파일과 동일한 이름의 새 데이터 세트를 게시, 생성할 수도 있습니다.
 * 열 또는 측정값의 이름을 변경하거나 삭제하는 경우, Power BI에서 해당 필드에 갖고 있던 모든 시각화가 손상될 수 있습니다. 
