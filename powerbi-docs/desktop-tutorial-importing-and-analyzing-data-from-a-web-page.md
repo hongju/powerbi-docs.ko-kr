@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514627"
@@ -29,7 +29,7 @@ ms.locfileid: "65514627"
 
 ## <a name="connect-to-a-web-data-source"></a>웹 데이터 원본에 연결
 
-http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 의 UEFA 유럽 축구 선수권 대회 Wikipedia 페이지에 있는 Results 테이블에서 UEFA 우승팀 데이터를 가져올 수 있습니다. 
+[http://en.wikipedia.org/wiki/UEFA_European_Football_Championship](http://en.wikipedia.org/wiki/UEFA_European_Football_Championship ) 의 UEFA 유럽 축구 선수권 대회 Wikipedia 페이지에 있는 Results 테이블에서 UEFA 우승팀 데이터를 가져올 수 있습니다. 
 
 ![Wikipedia Results 테이블](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
