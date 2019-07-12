@@ -25,7 +25,7 @@ Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율
 ## <a name="create-a-card-using-the-report-editor"></a>보고서 편집기를 사용하여 카드 만들기
 이 지침은 소매점 분석 샘플을 사용합니다. 이를 수행하려면 Power BI 서비스(app.powerbi.com) 또는 Power BI Desktop에 대한 [샘플을 다운로드](../sample-datasets.md)합니다.   
 
-1. 빈 보고서 페이지에서 시작하고 **Store** \> **Open Store Count** 필드를 선택합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 열어야 합니다.
+1. 빈 보고서 페이지에서 시작하고 **매장** \> **오픈 매장 수** 필드를 선택합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 열어야 합니다.
 
     Power BI에서 하나의 숫자가 포함된 열 차트를 만듭니다.
 
@@ -60,7 +60,7 @@ Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율
 > [!TIP]
 > Power BI 서비스 보고서의 편집용 보기에서 상단 메뉴 모음에 있는 **질문하기**를 선택합니다. Power BI Desktop 보고서에서 보고서의 빈 공간을 찾아 두 번 클릭하여 질문 상자를 엽니다.
 
-2. 예를 들어 질문 상자에 "number of opportunities"를 입력합니다.
+2. 예를 들어 질문 상자에 "영업 기회 수"를 입력합니다.
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a.png)
 
@@ -98,7 +98,7 @@ Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율
 
     ![진한 파랑이 선택됨](media/power-bi-visualization-card/power-bi-card-format-2.png)
 
-4. **배경**을 확장하고 슬라이더를 설정으로 이동합니다. 이제 배경색과 투명도를 변경할 수 있습니다.
+4. **배경**을 확장하고 슬라이더를 설정으로 이동합니다.  이제 배경색과 투명도를 변경할 수 있습니다.
 
     ![슬라이더가 켜짐으로 설정됨](media/power-bi-visualization-card/power-bi-format-color-2.png)
 

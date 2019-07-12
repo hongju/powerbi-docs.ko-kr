@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: f67f73dd66da7f1d3e8d84a3373a15d20f81645e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513814"
@@ -28,7 +28,7 @@ ms.locfileid: "65513814"
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Power BI Desktop 데이터 세트 및 보고서를 게시하려면
-1. Power BI Desktop에서 **파일** \> **게시** \> **Power BI에 게시**를 선택하거나 리본에서 **게시**를 클릭합니다.  
+1. Power BI Desktop에서 **파일** \> **게시** \> **Power BI에 게시** 누르거나 **게시** 에 리본입니다.  
 
    ![게시 단추](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
