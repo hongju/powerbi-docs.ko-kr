@@ -193,13 +193,13 @@ Power BI Embedded A4 SKU는 P1 SKU, A5 = P2 및 A6 = P3과 같습니다. 대형 
 
 자세한 내용은 [Power BI Premium의 증분 새로 고침](service-premium-incremental-refresh.md)을 참조하세요.
 
-## <a name="paginated-reports"></a>페이지가 매겨진 보고서
+## <a name="paginated-reports"></a>페이지를 매간 보고서
 
-P1-P3 및 A4_A6 SKU에서 지원되는 페이지가 매겨진 보고서는 SQL Server Reporting Services의 RDL(Report Definition Language) 기술을 기반으로 합니다. RDL 기술을 기반으로 하지만, Power BI Premium에도 포함된 온-프레미스에 설치할 수 있는 다운로드 가능한 보고 플랫폼인 Power BI Report Server와는 다릅니다. 페이지가 매겨진 보고서는 인쇄하거나 공유할 수 있는 페이지에 잘 맞도록 형식이 지정됩니다. 테이블이 여러 페이지에 걸쳐 있더라도 데이터는 테이블에 표시됩니다. 무료 [**Power BI 보고서 작성기**](https://go.microsoft.com/fwlink/?linkid=2086513) Windows Desktop 애플리케이션을 사용하여 사용자가 페이지가 매겨진 보고서를 작성하여 서비스에 게시합니다.
+P1-P3 및 A4_A6 SKU에서 지원되는 페이지를 매긴 보고서는 SQL Server Reporting Services의 RDL(Report Definition Language) 기술을 기반으로 합니다. RDL 기술을 기반으로 하지만, Power BI Premium에도 포함된 온-프레미스에 설치할 수 있는 다운로드 가능한 보고 플랫폼인 Power BI Report Server와는 다릅니다. 페이지를 매긴 보고서는 인쇄하거나 공유할 수 있는 페이지에 잘 맞도록 형식이 지정됩니다. 테이블이 여러 페이지에 걸쳐 있더라도 데이터는 테이블에 표시됩니다. 무료 [**Power BI 보고서 작성기**](https://go.microsoft.com/fwlink/?linkid=2086513) Windows Desktop 애플리케이션을 사용하여 사용자가 페이지를 매긴 보고서를 작성하여 서비스에 게시합니다.
 
-Power BI Premium에서 페이지가 매겨진 보고서는 관리 포털을 사용하여 용량을 활성화해야 하는 워크로드입니다. 용량 관리자는 용량 전체 메모리 리소스의 백분율로 메모리 양을 활성화한 다음, 지정할 수 있습니다. 다른 유형의 워크로드와 달리 프리미엄은 용량 내 포함된 공간에서 페이지가 매겨진 보고서를 실행합니다. 워크로드가 활성 상태인지 여부와 관계없이 이 공간에 지정하는 최대 메모리가 사용됩니다. 기본값은 20%입니다. 
+Power BI Premium에서 페이지를 매긴 보고서는 관리 포털을 사용하여 용량을 활성화해야 하는 워크로드입니다. 용량 관리자는 용량 전체 메모리 리소스의 백분율로 메모리 양을 활성화한 다음, 지정할 수 있습니다. 다른 유형의 워크로드와 달리 프리미엄은 용량 내 포함된 공간에서 페이지를 매긴 보고서를 실행합니다. 워크로드가 활성 상태인지 여부와 관계없이 이 공간에 지정하는 최대 메모리가 사용됩니다. 기본값은 20%입니다. 
 
-자세한 내용은 [Power BI Premium의 페이지가 매겨진 보고서](paginated-reports-report-builder-power-bi.md)를 참조하세요. 페이지가 매겨진 보고서 워크로드를 사용하도록 설정하는 방법에 대한 자세한 내용은 [워크로드 구성](service-admin-premium-workloads.md)을 참조하세요.
+자세한 내용은 [Power BI Premium의 페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md)를 참조하세요. 페이지를 매긴 보고서 워크로드를 사용하도록 설정하는 방법에 대한 자세한 내용은 [워크로드 구성](service-admin-premium-workloads.md)을 참조하세요.
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
  
