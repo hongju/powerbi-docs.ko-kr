@@ -193,7 +193,7 @@ Power BI Embedded A4 SKU는 P1 SKU, A5 = P2 및 A6 = P3과 같습니다. 대형 
 
 자세한 내용은 [Power BI Premium의 증분 새로 고침](service-premium-incremental-refresh.md)을 참조하세요.
 
-## <a name="paginated-reports"></a>페이지를 매간 보고서
+## <a name="paginated-reports"></a>페이지를 매긴 보고서
 
 P1-P3 및 A4_A6 SKU에서 지원되는 페이지를 매긴 보고서는 SQL Server Reporting Services의 RDL(Report Definition Language) 기술을 기반으로 합니다. RDL 기술을 기반으로 하지만, Power BI Premium에도 포함된 온-프레미스에 설치할 수 있는 다운로드 가능한 보고 플랫폼인 Power BI Report Server와는 다릅니다. 페이지를 매긴 보고서는 인쇄하거나 공유할 수 있는 페이지에 잘 맞도록 형식이 지정됩니다. 테이블이 여러 페이지에 걸쳐 있더라도 데이터는 테이블에 표시됩니다. 무료 [**Power BI 보고서 작성기**](https://go.microsoft.com/fwlink/?linkid=2086513) Windows Desktop 애플리케이션을 사용하여 사용자가 페이지를 매긴 보고서를 작성하여 서비스에 게시합니다.
 
