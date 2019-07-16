@@ -24,7 +24,7 @@ ms.locfileid: "61147036"
 
 [이제 Flow를 사용하여 시작합니다.](https://flow.microsoft.com/documentation/getting-started)
 
-Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 메일을 전송 하는 흐름을 만드는 것을 감시합니다. 그런 다음 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
+Power BI 경고가 트리거될 때 Sirui가 동료에게 자세한 전자 메일을 전송하는 흐름을 만드는 것을 시청합니다. 그런 다음 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
