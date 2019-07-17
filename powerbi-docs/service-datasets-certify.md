@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e790afee5b57b73a756ca3c1afd564b00e778186
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461330"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567331"
 ---
 # <a name="certify-datasets-preview"></a>데이터 세트 인증(미리 보기)
 
@@ -23,22 +23,22 @@ ms.locfileid: "66461330"
 
 이제 Power BI 사용자는 다양한 데이터 세트에 액세스할 수 있으므로 엔터프라이즈는 신뢰할 수 있는 고품질 데이터 세트로 안내해야 합니다. Power BI에서는 데이터 세트를 *보증*하는 두 가지 방법을 제공합니다.
 
-- **승격**: 데이터 세트 소유자는 광범위하게 사용할 수 있게 되면 자신의 데이터 세트를 승격할 수 있습니다. 세부 정보는 [데이터 세트 승격](service-datasets-promote.md)을 참조하세요.
-- **인증**: 데이터 세트 소유자는 승격된 데이터 세트의 인증을 요청할 수 있습니다. **데이터 세트 인증** 테넌트 관리자 설정에 정의된 선택된 사용자 그룹이 인증할 데이터 세트를 결정합니다.
+- **승격**: 데이터 세트 소유자는 광범위하게 사용할 수 있게 되면 자신의 데이터 세트를 승격할 수 있습니다. 세부 정보는 [데이터 세트 승격](service-datasets-promote.md)을 참조하세요. 
+- **인증**: 데이터 세트 소유자는 승격된 데이터 세트의 인증을 요청할 수 있습니다. **데이터 세트 인증** 테넌트 관리자 설정에 정의된 선택된 사용자 그룹이 인증할 데이터 세트를 결정합니다. 데이터 세트 검색 중에 데이터 세트를 인증한 사용자의 이름이 도구 설명에 표시됩니다. **인증됨** 레이블 위에 마우스를 갖다 대면 이름을 확인할 수 있습니다.
 
 ## <a name="certify-a-dataset"></a>데이터 세트 인증
 
-테넌트 관리자는 **보증** 설정 페이지에서 **자세한 정보** 링크에 대한 URL을 제공할 수 있습니다. 인증 프로세스에 대한 설명서에 연결할 수 있습니다. **자세한 정보** 링크의 대상을 제공하지 않은 경우 기본적으로 이 문서를 가리킵니다.
+테넌트 관리자는 **보증** 설정 페이지에서 **자세한 정보** 링크에 대한 URL을 제공할 수 있습니다.  인증 프로세스에 대한 설명서에 연결할 수 있습니다. **자세한 정보** 링크의 대상을 제공하지 않은 경우 기본적으로 이 문서를 가리킵니다.
 
 ![데이터 세트 인증 자세히 알아보기](media/service-datasets-certify-promote/power-bi-dataset-learn-more-certification.png)
 
 데이터 세트를 인증할 수 있는 사람을 지명하는 것은 분명히 큰 책임입니다. 데이터 세트 작성자가 데이터 세트 인증에 대해 연락하는 경우 이는 검색 프로세스의 시작입니다. 데이터 세트의 인증이 만족스러우면 마지막 단계를 따릅니다.
 
-1. 데이터 세트 소유자는 데이터 세트가 있는 작업 영역에 대한 구성원 권한을 제공해야 합니다.
+1. 데이터 세트 소유자는 데이터 세트가 있는 작업 영역에 대한 멤버 권한을 제공해야 합니다.
 1. 테넌트 관리자가 데이터 세트를 인증할 수 있는 사람으로 지명한 경우 데이터 세트에 대한 **설정**의 **보증** 섹션에 있는 **인증됨** 옵션을 사용할 수 있습니다. **인증됨**을 선택합니다.
 1. **적용**을 선택합니다.
 
-테넌트 관리자가 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하는 방법에 대해 자세히 알아봅니다.
+테넌트 관리자 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하는 방법에 대해 자세히 알아봅니다.
 
 ## <a name="next-steps"></a>다음 단계
 

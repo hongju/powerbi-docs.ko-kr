@@ -7,15 +7,15 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/20/2019
+ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: eea93888cf3a8ea5c7ca7b6eb9389cbabc79dc9c
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 75fa566b4b60e9f15e1641a49ea3c5ffa95420a9
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418727"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791901"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 IT 지출 분석 샘플: 둘러보기
 
@@ -23,17 +23,21 @@ IT 지출 분석 샘플 콘텐츠 팩에는 IT 부서의 계획된 비용 대 �
 
 ![IT 지출 분석 샘플 대시보드](media/sample-it-spend/it1.png)
 
-이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여 주는 시리즈의 일부입니다. 익명화된 [obviEnce](http://www.obvience.com/)에 의해 실제 데이터로 생성되었습니다. 데이터는 콘텐츠 팩/앱, .pbix Power BI Desktop 파일 또는 Excel 통합 문서 등의 여러 형식으로 사용할 수 있습니다. [Power BI용 샘플](sample-datasets.md)을 참조하세요. 
+이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여 주는 시리즈의 일부입니다. 익명화된 [obviEnce](http://www.obvience.com/)에 의해 실제 데이터로 생성되었습니다. 데이터는 콘텐츠 팩, .pbix Power BI Desktop 파일 또는 Excel 통합 문서 등 여러 형식으로 사용할 수 있습니다. [Power BI용 샘플](sample-datasets.md)을 참조하세요. 
 
-이 자습서에서는 Power BI 서비스 및 IT 지출 분석 샘플 콘텐츠 팩을 사용합니다. 보고서 환경은 비슷하므로 Power BI Desktop과 샘플 .pbix 파일을 사용하여 따라 할 수도 있습니다.
+이 자습서에서는 Power BI 서비스의 IT 지출 분석 샘플 콘텐츠 팩을 살펴봅니다. Power BI Desktop 및 Power BI 서비스의 보고서 환경은 비슷하므로 Power BI Desktop에서 샘플 .pbix 파일을 사용하여 이 자습서를 따라 해도 좋습니다. 
 
-## <a name="prerequisites"></a>필수 조건
+Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 있습니다. Power BI Pro 라이선스가 없다면 샘플을 Power BI 서비스의 내 작업 영역에 저장하면 됩니다. 
+
+## <a name="get-the-sample"></a>샘플 가져오기
 
  이 샘플을 사용하려면 먼저 샘플을 [콘텐츠 팩](#get-the-content-pack-for-this-sample), [.pbix 파일](#get-the-pbix-file-for-this-sample) 또는 [Excel 통합 문서](#get-the-excel-workbook-for-this-sample)로 다운로드해야 합니다.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>이 샘플의 콘텐츠 팩 가져오기
 
 1. Power BI 서비스(app.powerbi.com)를 열고 로그인한 다음, 샘플을 저장할 작업 영역을 엽니다.
+
+   Power BI Pro 라이선스가 없다면 샘플을 내 작업 영역에 저장하면 됩니다.
 
 2. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
    
@@ -126,4 +130,4 @@ IT 지출 분석 샘플 콘텐츠 팩에는 IT 부서의 계획된 비용 대 �
 ## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
 이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기**를 선택할 수 있습니다.
 
-이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 IT 지출 데이터를 파악하는 방법을 확인하는 데 도움이 되었기를 바랍니다. 이제 사용자 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 더 자세히 알아보려면 [Power BI 서비스 시작하기](service-get-started.md)를 참조하세요.
+이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 샘플 데이터를 파악하는 방법을 확인하는 데 도움이 되었기를 바랍니다. 이제 사용자 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 더 자세히 알아보려면 [Power BI 서비스 시작하기](service-get-started.md)를 참조하세요.

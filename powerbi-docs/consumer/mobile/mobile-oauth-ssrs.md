@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/07/2018
-ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.date: 07/03/2019
+ms.openlocfilehash: 7067d4c7fdc3fc328db417e5d6733569ecc7be01
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559072"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567793"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth를 사용하여 Power BI Report Server 및 SSRS에 연결
 
 Power BI Report Server 및 SQL Server Reporting Services 2016 이상에 연결하기 위해 Power BI 모바일 앱에서 OAuth 인증을 지원하도록 환경을 구성하는 방법을 알아봅니다.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
+![서버에 연결](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
 OAuth를 통해 Power BI Report Server 및 Reporting Services에 연결하여 모바일 보고서 또는 KPI를 표시할 수 있습니다. Windows Server 2016은 웹 애플리케이션 프록시(WAP) 역할에 향상된 기능을 제공하여 이러한 형식의 인증을 허용합니다.
 
@@ -118,7 +118,7 @@ AD FS 관리 화면 내에 Power BI 모바일 앱에 대한 정보가 포함된 
    > [!NOTE]
    > 이 URL은 대/소문자를 구분합니다.
 
-   *https://< 보고서 서버 url >/reports*
+   *https://< report server url >/*
 
    ![ADFS 애플리케이션 그룹 마법사 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. **다음**을 선택합니다.
@@ -209,7 +209,7 @@ WAP 애플리케이션을 추가한 후에 IntegratedWindowsAuthentication을 �
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
 ```
 
-![](media/mobile-oauth-ssrs/wap-application-id.png)
+![애플리케이션 그룹 추가](media/mobile-oauth-ssrs/wap-application-id.png)
 
 WAP 애플리케이션의 ID를 사용하여 BackendServerAuthenticationMode를 설정하려면 다음 명령을 실행합니다.
 
@@ -217,21 +217,19 @@ WAP 애플리케이션의 ID를 사용하여 BackendServerAuthenticationMode를 
 Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -BackendServerAuthenticationMode IntegratedWindowsAuthentication
 ```
 
-![](media/mobile-oauth-ssrs/wap-application-backendauth.png)
+![애플리케이션 그룹 추가 마법사](media/mobile-oauth-ssrs/wap-application-backendauth.png)
 
 ## <a name="connecting-with-the-power-bi-mobile-app"></a>Power BI 모바일 앱과 연결
 
 Power BI 모바일 앱 내에서 Reporting Services 인스턴스에 연결하려고 합니다. 그렇게 하려면 WAP 애플리케이션에 대한 **외부 URL**을 제공합니다.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
+![서버 주소 입력](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
 
 **연결**을 선택하면 ADFS 로그인 페이지로 이동합니다. 도메인에 대한 유효한 자격 증명을 입력합니다.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
+![ADFS에 로그인](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 **로그인**을 선택한 후에 Reporting Services 서버의 요소가 표시됩니다.
-
-![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
@@ -239,9 +237,9 @@ Multi-Factor Authentication을 사용하여 사용자 환경에 대한 추가 �
 
 ## <a name="troubleshooting"></a>문제 해결
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>SSRS 서버에 로그인하는 데 실패했습니다라는 오류를 받았습니다. 서버 구성을 확인합니다.
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server"></a>“SSRS 서버에 로그인하지 못했습니다”라는 오류를 받았습니다.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
+![“SSRS 서버에 로그인하지 못했습니다” 오류](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
 요청이 수행한 정도를 확인하기 위해 모바일 디바이스에 대한 프록시 역할을 하도록 [Fiddler](http://www.telerik.com/fiddler)를 설정할 수 있습니다. 전화 디바이스에 Fiddler 프록시를 사용하려면 Fiddler를 실행하는 컴퓨터에 [iOS 및 Android용 CertMaker](http://www.telerik.com/fiddler/add-ons)를 설정해야 합니다. Fiddler에 대한 Telerik의 추가 기능입니다.
 
