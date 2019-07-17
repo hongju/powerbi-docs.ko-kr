@@ -7,15 +7,15 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/20/2019
+ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 333403ca74c5c5a13c94cbd41100915c7260e304
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418772"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67792003"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI용 고객 수익성 샘플 둘러보기
 
@@ -23,17 +23,21 @@ ms.locfileid: "67418772"
 
 ![고객 수익성 샘플에 대한 대시보드](media/sample-customer-profitability/power-bi-dash.png)
 
-이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여주는 시리즈의 일부입니다. 익명화된 [obviEnce](http://www.obvience.com/)에 의해 실제 데이터로 생성되었습니다. 데이터는 콘텐츠 팩/앱, .pbix Power BI Desktop 파일 또는 Excel 통합 문서 등의 여러 형식으로 사용할 수 있습니다. [Power BI용 샘플](sample-datasets.md)을 참조하세요. 
+이 샘플은 비즈니스 중심 데이터, 보고서 및 대시보드가 포함된 Power BI를 사용하는 방법을 보여주는 시리즈의 일부입니다. 익명화된 [obviEnce](http://www.obvience.com/)에 의해 실제 데이터로 생성되었습니다. 데이터는 콘텐츠 팩, .pbix Power BI Desktop 파일 또는 Excel 통합 문서 등 여러 형식으로 사용할 수 있습니다. [Power BI용 샘플](sample-datasets.md)을 참조하세요. 
 
-이 자습서에서는 Power BI 서비스 및 고객 수익성 샘플 콘텐츠 팩을 사용합니다. 보고서 환경은 비슷하므로 Power BI Desktop과 샘플 .pbix 파일을 사용하여 따라 할 수도 있습니다. 
+이 자습서에서는 Power BI 서비스의 고객 수익성 샘플 콘텐츠 팩을 살펴봅니다. Power BI Desktop 및 Power BI 서비스의 보고서 환경은 비슷하므로 Power BI Desktop에서 샘플 .pbix 파일을 사용하여 이 자습서를 따라 해도 좋습니다. 
 
-## <a name="prerequisites"></a>필수 조건
+Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 있습니다. Power BI Pro 라이선스가 없다면 샘플을 Power BI 서비스의 내 작업 영역에 저장하면 됩니다. 
+
+## <a name="get-the-sample"></a>샘플 가져오기
 
 이 샘플을 사용하려면 먼저 샘플을 [콘텐츠 팩](#get-the-content-pack-for-this-sample), [.pbix 파일](#get-the-pbix-file-for-this-sample) 또는 [Excel 통합 문서](#get-the-excel-workbook-for-this-sample)로 다운로드해야 합니다.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>이 샘플의 콘텐츠 팩 가져오기
 
 1. Power BI 서비스(app.powerbi.com)를 열고 로그인한 다음, 샘플을 저장할 작업 영역을 엽니다.
+
+   Power BI Pro 라이선스가 없다면 샘플을 내 작업 영역에 저장하면 됩니다.
 
 2. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
 
@@ -135,8 +139,8 @@ ms.locfileid: "67418772"
 1. 왼쪽의 **Executive** 슬라이서에서 Andrew의 이름을 선택하여 Andrew에 대한 데이터만 표시하도록 보고서 페이지를 필터링합니다.
 
    * 간략히 KPI를 보려면 Andrew의 **수익 상태(연간 총액)** 를 확인합니다. 녹색이므로 성과가 좋다는 의미입니다.
-   * **월 및 경영진별 예산 대비 수익 % 분산** 차트는 2월의 부진을 제외하고는 Andrew가 전반적으로 잘하고 있다는 것을 보여줍니다. 그의 주요 지역은 동부 지역이며, 고객 49곳과 7가지 제품 중 5가지를 취급합니다. 그의 GM%는 가장 높거나 낮지 않습니다.
-   * **월별 RevenueTY 및 예산 대비 수익 % 분산** 차트는 꾸준하고 지속적인 수익을 보여줍니다. 하지만 지역 트리맵에서 **중부**에 대한 사각형을 선택하여 필터링하면 Andrew는 3월에 인디애나에서만 수익이 있는 것을 알 수 있습니다. 의도적인 상황인가요? 아니면 살펴봐야 하는 상황인가요?
+   * **Revenue % Variance to Budget by Month and Executive**(월 및 경영진별 예산 대비 수익 % 분산) 차트는 2월의 부진을 제외하고는 Andrew가 잘하고 있다는 것을 보여줍니다. 그의 주요 지역은 동부 지역이며, 고객 49곳과 7가지 제품 중 5가지를 취급합니다. 그의 GM%는 가장 높거나 낮지 않습니다.
+   * **월별 RevenueTY 및 예산 대비 수익 % 분산** 차트는 꾸준하고 지속적인 수익을 보여줍니다. 하지만 지역 트리맵에서 **중부**에 대한 사각형을 선택하여 필터링하면 Andrew는 3월에 인디애나에서만 수익이 있는 것을 알 수 있습니다. 이 추세가 의도적인 상황인가요? 아니면 살펴봐야 하는 상황인가요?
 
 2. 이제 Valery를 봅시다. **Executive** 슬라이서에서 Valery의 이름을 선택하여 그녀에 대한 데이터만 표시하도록 보고서 페이지를 필터링합니다. 
 
@@ -205,5 +209,5 @@ ms.locfileid: "67418772"
 ## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
 이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기**를 선택할 수 있습니다.
 
-이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 고객 데이터를 파악하는 방법을 확인하는 데 도움이 되었기를 바랍니다. 이제 사용자 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 더 자세히 알아보려면 [Power BI 서비스 시작하기](service-get-started.md)를 참조하세요.
+이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 샘플 데이터를 파악하는 방법을 확인하는 데 도움이 되었기를 바랍니다. 이제 사용자 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 더 자세히 알아보려면 [Power BI 서비스 시작하기](service-get-started.md)를 참조하세요.
 

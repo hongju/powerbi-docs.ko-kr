@@ -63,7 +63,7 @@ ReportType 필드에는 Power BI 보고서가 아닌 페이지를 매긴 보고�
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>페이지를 매긴 보고서를 만들고 게시하려면 Pro 라이선스가 필요한가요?
 
-작업 영역이 프리미엄 용량에 포함된 경우 Pro 라이선스 없이 내 작업 영역에 페이지를 매긴 보고서를 업로드할 수 있습니다.  다른 작업 영역의 경우 콘텐츠를 작성하고 게시하려면 Pro 라이선스가 있어야 합니다. Pro 라이선스가 없어도 Power BI 보고서 작성기를 다운로드하여 사용하는 것이 좋지만, 해당 라이선스 없이 만드는 페이지를 보고서는 게시할 수 없습니다. 
+작업 영역이 프리미엄 용량에 포함된 경우 Pro 라이선스 없이 내 작업 영역에 페이지를 매긴 보고서를 업로드할 수 있습니다.  다른 작업 영역의 경우 콘텐츠를 작성하고 게시하려면 Pro 라이선스가 있어야 합니다. Pro 라이선스가 없어도 Power BI 보고서 작성기를 다운로드하여 사용할 것을 권장하지만 Pro 라이선스가 없으면 생성한 페이지를 매긴 보고서를 게시할 수 없습니다. 
 
 ### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>작업 영역에 페이지를 매긴 보고서가 있는데 페이지를 매긴 보고서 워크로드가 꺼져 있는 경우 어떻게 하나요?
 
@@ -85,13 +85,13 @@ ReportType 필드에는 Power BI 보고서가 아닌 페이지를 매긴 보고�
 
 Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니다.  여러 영업 사원이 특정 지역/산업/고객에 대해 동일한 보고서의 데이터를 분할하여 수치가 어떻게 변경되는지 확인하려는 영업 보고서로는 Power BI 보고서가 가장 적합합니다.
 
-### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>설명서에 따르면 Power BI 보고서 작성기가 기본 제작 도구입니다. SQL Server Data Tools에서 Power BI용 페이지를 매긴 보고서를 만들 수 있나요?
+### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>설명서는 Power BI 보고서 작성기가 기본 작성 도구라고 표시됩니다. Power BI용 SQL Server Data Tools에서 페이지를 매긴 보고서를 만들 수 있나요?
 
 예. 하지만 Power BI 서비스에서는 한 번에 하나의 항목만 업로드할 수 있으므로 작성자가 SSDT(SQL Server Data Tools)와 함께 사용하는 시나리오 중 다수는 아직 지원되지 않습니다. 이 FAQ 뒷부분에 제공된 [지원되지 않는 기능의 전체 목록](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)을 참조하세요.  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>지원되는 보고서 작성기 버전은 무엇인가요?
 
-최근에 Power BI 서비스의 페이지를 매긴 보고서용 기본 제작 도구로 Power BI 보고서 작성기를 릴리스했습니다. [Microsoft 다운로드 센터에서 Power BI 보고서 작성기](https://go.microsoft.com/fwlink/?linkid=2086513)를 설치합니다.
+최근에 페이지를 매긴 보고서를 위한 Power BI 서비스의 기본 제작 도구로 Power BI 보고서 작성기를 출시했습니다. [Power BI 보고서 작성기는 Microsoft 다운로드 센터에서](https://go.microsoft.com/fwlink/?linkid=2086513) 설치합니다.
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>SQL Server Reporting Services에 저장한 기존 보고서를 Power BI로 이동하려면 어떻게 해야 하나요?
 
@@ -170,7 +170,7 @@ SaaS 포함은 6월 한 달간 지원됩니다.  Microsoft는 기존 Power BI AP
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Power BI 앱을 통해 내 페이지를 매긴 보고서 콘텐츠를 공유할 수 있나요?
 
-예. 페이지 번호를 매긴 보고서는 v1 및 v2 작업 영역에서 앱과 함께 배포되도록 지원됩니다. 
+예, v1과 v2 모두 작업 영역에서 페이지를 매긴 보고서를 앱으로 배포하는 것을 지원됩니다. 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>보고서 타일을 대시보드에 고정하는 기능과 같이, Power BI의 다른 보고서 관련 기능이 페이지를 매긴 보고서에서도 작동하나요?
 

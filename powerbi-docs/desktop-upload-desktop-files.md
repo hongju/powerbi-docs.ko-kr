@@ -28,7 +28,7 @@ ms.locfileid: "65513814"
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Power BI Desktop 데이터 세트 및 보고서를 게시하려면
-1. Power BI Desktop에서 **파일** \> **게시** \> **Power BI에 게시** 누르거나 **게시** 에 리본입니다.  
+1. Power BI Desktop에서 **파일** \> **게시** \> **Power BI에 게시**를 선택하거나 리본에서 **게시**를 클릭합니다.  
 
    ![게시 단추](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
