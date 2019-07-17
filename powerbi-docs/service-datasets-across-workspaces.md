@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 17a8e1c9e0d46a56d6b6ff3e46c0fda6da8ffe12
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816658"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567841"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>작업 영역에서 데이터 세트 사용(미리 보기)
 
@@ -23,13 +23,13 @@ ms.locfileid: "66816658"
 
 ![공유 데이터 세트 선택](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-Power BI를 사용하면 데이터 세트 작성자가 데이터 세트를 쉽게 인증하거나 승격하여 다른 사용자가 데이터 세트를 검색할 수 있습니다. 그런 다음, 보고서 작성자는 Power BI에 있는 모든 위치에서 사용할 수 있는 고품질의 공식 데이터 세트를 찾습니다. 데이터 세트 소유자는 [빌드 권한](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어할 수 있습니다. 테넌트 관리자는 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하도록 새 테넌트 설정을 사용합니다.
+Power BI에서는 다른 사람이 데이터 세트를 검색할 수 있도록 데이터 세트 작성자가 데이터 세트를 *인증* 또는 *승격*할 수 있습니다. 이렇게 하면 보고서 작성자는 어느 데이터 세트가 공식적이고 품질이 높은지 알 수 있으며, Power BI에서 보고서를 작성할 때 해당 데이터 세트를 사용할 수 있습니다. 데이터 세트 소유자는 [빌드 권한](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어할 수 있습니다. 테넌트 관리자는 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하도록 새 테넌트 설정을 사용합니다.
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>데이터 세트 공유 및 새 작업 영역 환경
 
 여러 작업 영역의 데이터 세트를 기반으로 보고서를 빌드하고 보고서를 다른 작업 영역에 복사하는 작업은 [새 작업 영역 환경](service-create-the-new-workspaces.md)과 밀접하게 결합되어 있습니다.
 
-- 이 서비스의 새 작업 영역 환경에서 데이터 세트 카탈로그를 열면 데이터 세트 카탈로그는 내 작업 영역 및 새 작업 영역 내에 있는 데이터 세트를 보여줍니다. 
+- 이 서비스의 새 작업 영역 환경에서 데이터 세트 카탈로그를 열면 데이터 세트 카탈로그에 내 작업 영역 및 새 작업 영역 환경 내에 있는 데이터 세트가 표시됩니다. 
 - 클래식 작업 영역에서 데이터 세트 카탈로그를 열면 해당 작업 영역의 데이터 세트만 볼 수 있고 다른 작업 영역의 데이터 세트는 표시되지 않습니다.
 - 데스크톱에서 데이터 세트가 새 환경 작업 영역에 있는 한 Live Connect 보고서를 다른 작업 영역에 게시할 수 있습니다.
 - 작업 영역 간에 보고서를 복사할 때 대상 작업 영역은 새 환경 작업 영역이어야 합니다.

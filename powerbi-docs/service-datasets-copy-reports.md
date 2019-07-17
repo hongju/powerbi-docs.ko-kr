@@ -7,21 +7,19 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 507af4de9d57d2d54fe3e28bca8b1aff7da5cf30
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461468"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567410"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>다른 작업 영역에서 보고서 복사(미리 보기)
 
-한 작업 영역에서 보고서를 복사하여 다른 작업 영역에 저장하는 방법에 대해 알아봅니다. 그런 다음, 시각적 개체 및 기타 요소를 추가하거나 삭제하여 해당 보고서를 수정할 수 있습니다.
-
-작업 영역이나 앱에서 원하는 보고서를 찾으면 복사본을 만든 다음, 필요에 맞게 수정할 수 있습니다. 데이터 모델 만들기에 대해 걱정할 필요가 없습니다. 사용자를 위해 이미 생성되어 있습니다. 그리고 기존 보고서를 수정하는 것이 처음부터 시작하는 것보다 훨씬 쉽습니다.
+작업 영역이나 앱에서 원하는 보고서를 찾으면 복사본을 만든 다음 다른 작업 영역에 저장할 수 있습니다. 그런 다음, 시각적 개체 및 기타 요소를 추가하거나 삭제하여 해당 보고서를 수정할 수 있습니다. 데이터 모델 만들기에 대해 걱정할 필요가 없습니다. 사용자를 위해 이미 생성되어 있습니다. 그리고 기존 보고서를 수정하는 것이 처음부터 시작하는 것보다 훨씬 쉽습니다. 그러나 새 작업 영역에서는 보고서의 복사본을 앱에서 게시할 수 없습니다. ‘작업 영역에서 데이터 세트 사용’ 문서에서 그 밖의 [고려 사항 및 제한 사항](service-datasets-across-workspaces.md#considerations-and-limitations) 목록을 참조하세요.
 
 ## <a name="save-a-copy-of-a-report"></a>보고서 복사본 저장
 
@@ -61,6 +59,21 @@ ms.locfileid: "66461468"
 1. **관련 콘텐츠** 대화 상자에 모든 관련 항목이 표시됩니다. 이 목록에서 데이터 세트는 다른 것처럼 보입니다. 다른 작업 영역에 있는지 알 수 없습니다. 이 문제는 알려져 있습니다.
  
     ![관련 콘텐츠 대화 상자](media/service-datasets-copy-reports/power-bi-dataset-related.png)
+
+## <a name="delete-a-report-and-its-shared-dataset"></a>보고서 및 관련 공유 데이터 세트 삭제
+
+작업 영역에서 보고서와 관련 공유 데이터 세트가 더 이상 필요하지 않아질 수 있습니다.
+
+1. 보고서를 삭제합니다. 작업 영역의 보고서 목록에서 **삭제** 아이콘을 선택합니다.
+
+    ![보고서 삭제 아이콘](media/service-datasets-across-workspaces/power-bi-datasets-delete-report.png)
+
+2. 데이터 세트 목록에서, 공유 데이터 세트에 **삭제** 아이콘이 없는 것을 볼 수 있습니다. 페이지를 새로 고치거나 다른 페이지로 이동한 다음 다시 돌아옵니다. 이렇게 하면 데이터 세트가 사라진 것을 볼 수 있습니다. 사라지지 않았다면 **관련 항목 보기**를 확인합니다. 데이터 세트가 작업 영역의 다른 테이블과 관련이 있을 수 있습니다.
+
+    ![상위 메뉴 모음에서 관련 항목 보기 아이콘을](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+
+    > [!NOTE]
+    > 이 작업 영역에서 공유 데이터 세트를 삭제하면 데이터 세트 자체가 삭제되는 것이 아니라 데이터 세트에 대한 참조가 삭제되는 것입니다.
 
 
 ## <a name="next-steps"></a>다음 단계

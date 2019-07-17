@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 06/27/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 992524d3467ebe9bb130b3c61476301ab2bc563c
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409182"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67568125"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -50,7 +50,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 ## <a name="usage-metrics"></a>사용 메트릭
 
-**사용 메트릭**을 통해 조직의 Power BI 사용을 모니터링할 수 있습니다. 또한 조직을 위한 Power BI 내에서 가장 활발한 사용자 및 그룹이 누구인지 확인하는 기능을 제공합니다.
+**사용 메트릭**을 통해 조직의 Power BI 사용을 모니터링할 수 있습니다. 또한 조직을 위한 Power BI 내에서 가장 활발한 사용자 및 그룹이 누구인지 확인하는 기능을 제공합니다. 
 
 > [!NOTE]
 > 대시보드에 처음 액세스할 때 또는 대시보드를 오랫동안 보지 않았다가 다시 방문한 후 대시보드를 로드하는 동안 로드 중 화면이 표시될 수 있습니다.
@@ -82,6 +82,40 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 두 번째 섹션은 동일한 유형의 정보를 보여 주지만 그룹을 기반으로 합니다. 여기에서는 조직에서 가장 활발한 그룹 및 해당 그룹이 사용 중인 콘텐츠의 종류를 확인할 수 있습니다.
 
 이 정보를 사용하여 조직의 사용자가 Power BI를 사용하는 방법을 실제로 파악할 수 있으며 조직에서 매우 활발한 사용자 및 그룹을 인식할 수 있습니다.
+
+## <a name="control-usage-metrics"></a>사용 메트릭 제어
+
+사용 메트릭 보고서는 Power BI 또는 Office 365 관리자에서 켜거나 끌 수 있는 기능입니다. 관리자는 사용 메트릭에 액세스할 수 있는 사용자를 세부적으로 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에 대해 **켬**으로 설정되어 있습니다.
+
+관리자는 콘텐츠 작성자가 사용 메트릭에서 사용자별 데이터를 볼 수 있는지 여부도 설정할 수 있습니다. 
+
+보고서에 대한 자세한 내용은 [Power BI 대시보드 및 보고서의 사용 메트릭 모니터링](service-usage-metrics.md)을 참조하세요.
+
+### <a name="usage-metrics-for-content-creators"></a>콘텐츠 작성자용 사용 메트릭
+
+1. 관리 포털에서 **테넌트 설정** > **콘텐츠 작성자용 사용 메트릭**을 선택합니다.
+
+    ![관리 포털 테넌트 설정 사용 메트릭](media/service-admin-portal/power-bi-admin-usage-metrics.png)
+
+1. 사용 메트릭을 활성화(또는 비활성화)하고 **적용**을 클릭합니다.
+
+    ![설정된 사용 메트릭](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+
+
+### <a name="per-user-data-in-usage-metrics"></a>사용 메트릭의 사용자별 데이터
+
+기본적으로 사용자별 데이터는 사용 메트릭에서 활성화되어 있고 메트릭 보고서에는 콘텐츠 소비자 계정 정보가 포함됩니다. 일부 또는 모든 사용자에게 이 정보를 포함하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정합니다. 그러면 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
+
+![사용자별 사용 데이터](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
+
+### <a name="delete-all-existing-usage-metrics-content"></a>모든 기존 사용 메트릭 콘텐츠 삭제
+
+조직 전체의 사용 메트릭을 비활성화할 때, 관리자는 다음 옵션 중 하나 또는 둘 모두를 선택할 수 있습니다.
+
+- **기존 사용 메트릭 콘텐츠 모두 삭제** 옵션을 사용하여 사용 메트릭 보고서 및 데이터 세트를 사용하여 빌드한 기존 보고서 및 대시보드 타일을 모두 삭제합니다. 이 옵션은 이미 사용 메트릭을 사용 중일 수도 있는 조직의 모든 사용자에게서 사용 메트릭 데이터에 대한 모든 액세스를 제거합니다. 
+- **현재 사용 메트릭 콘텐츠의 모든 기존 사용자별 데이터 삭제** 이 옵션은 이미 사용 메트릭을 사용 중인 사용자를 포함하여 조직의 모든 사용자에게서 사용자별 데이터에 대한 액세스를 모두 제거합니다. 
+
+기존 사용 메트릭과 사용자별 메트릭 콘텐츠의 삭제는 되돌릴 수 없으므로 조심해야 합니다.
 
 ## <a name="users"></a>사용자
 
@@ -285,7 +319,7 @@ Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사�
 
 1의 값(십진수)을 사용하면 Power BI에서 사용자 지정 시각적 개체를 사용할 수 있습니다(기본값).
 
-0의 값(십진수)을 사용하면 Power BI에서 사용자 지정 시각적 개체를 사용할 수 있습니다.
+0의 값(십진수)을 사용하면 Power BI에서 사용자 지정 시각적 개체를 사용할 수 없습니다.
 
 ### <a name="allow-only-certified-visuals"></a>인증된 시각적 개체만 허용
 
