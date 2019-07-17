@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408349"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791818"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI에서 템플릿 앱 작성 팁
 
@@ -126,6 +126,7 @@ Power BI Desktop에서 [매개 변수](https://powerbi.microsoft.com/blog/deep-d
 
 * 설치 프로그램이 앱이 수행할 수 있는 기능을 이해하는 데 도움을 줄 수 있는 관련성 있는 샘플 데이터가 포함된 템플릿 앱을 만들어야 합니다(빈 보고서 및 대시보드는 승인되지 않음).
 템플릿 앱은 샘플 데이터 전용 앱을 지원하므로, 정적 앱 확인란을 선택해야 합니다. [자세히 알아보기](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* 일반적으로, AppSource에서는 중요한 기능이 있는 애플리케이션만 일반용으로 승인됩니다. 샘플 데이터 콘텐츠만 포함하는 애플리케이션은 지침과 통계 값 중 하나를 가져야 합니다.
 * 데이터에 연결하는 데 필요한 자격 증명 및 매개 변수가 포함된 지침을 유효성 검사 팀이 준수하도록 합니다.
 * 애플리케이션에는 Power BI 및 제공하는 CPP에 앱 아이콘이 있어야 합니다. [자세히 알아보기](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * 랜딩 페이지를 구성합니다. [자세히 알아보기](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)

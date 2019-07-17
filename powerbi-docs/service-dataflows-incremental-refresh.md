@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7e9d8779480eb7a00dacfc9fc52fc81987629e7b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136661"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791925"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Power BI 데이터 흐름에 증분 새로 고침 사용
 
@@ -33,7 +33,7 @@ Power BI 데이터 흐름에 증분 새로 고침을 사용하려면 데이터 �
 
 데이터 흐름에는 여러 엔터티가 포함될 수 있습니다. 증분 새로 고침은 엔터티 수준에서 설정되므로 하나의 데이터 흐름에 완전히 새로 고침되는 엔터티와 증분 새로 고침되는 엔터티가 모두 포함될 수 있습니다.
 
-증분 새로 고침되는 엔터티를 설정하려면 다른 엔터티와 마찬가지로 엔터티를 구성하여 시작합니다. 설정 하는 데이터 흐름에 대 한 자세한 내용은 참조 하세요 [Power BI의 셀프 서비스 데이터 준비](service-dataflows-overview.md)합니다.
+증분 새로 고침되는 엔터티를 설정하려면 다른 엔터티와 마찬가지로 엔터티를 구성하여 시작합니다. 데이터 흐름 설정에 대한 자세한 내용은 [Power BI의 셀프 서비스 데이터 준비](service-dataflows-overview.md)를 참조하세요.
 
 데이터 흐름을 만들고 저장한 경우 다음 이미지에 표시된 대로 엔터티 보기에서 **증분 새로 고침** 아이콘을 선택합니다.
 
@@ -156,8 +156,8 @@ Power BI 데이터 흐름에 증분 새로 고침을 사용하려면 데이터 �
 
 * [데이터 흐름을 사용하여 셀프 서비스 데이터 준비](service-dataflows-overview.md)
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
-* [데이터 흐름을 사용 하 여 온-프레미스 데이터 원본](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 대 한 개발자 리소스](service-dataflows-developer-resources.md)
+* [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용](service-dataflows-on-premises-gateways.md)
+* [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스](service-dataflows-developer-resources.md)
 
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)
