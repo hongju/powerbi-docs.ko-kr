@@ -75,7 +75,7 @@ KPI 데이터 세트에는 KPI에 대한 목표 값이 포함되어야 합니다
 
     ![KPI 아이콘이 호출된 시각화 창의 스크린샷](media/power-bi-visualization-kpi/power-bi-kpi-template.png)
 
-1. 목표를 추가하려면 **지난해 총 단위**를 **목표 대상** 필드로 끌어옵니다.
+1. 목표를 추가하려면 **지난해 총 단위**를 **대상 목표** 필드로 끌어옵니다.
 
     ![완료된 KPI 시각적 개체 및 값이 표시된 필드 창이 있는 스크린샷](media/power-bi-visualization-kpi/power-bi-kpi-done.png)
 

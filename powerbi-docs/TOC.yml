@@ -723,10 +723,6 @@
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 타일 오류 문제 해결
               href: refresh-troubleshooting-tile-errors.md
-            - name: 온-프레미스 데이터 게이트웨이 문제 해결
-              href: service-gateway-onprem-tshoot.md
-            - name: Power BI 게이트웨이 -개인 문제 해결
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Excel에서 분석 문제 해결
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: '오류: Excel 통합 문서에서 데이터를 찾을 수 없음'
@@ -1279,38 +1275,38 @@
   items:
     - name: 개요
       items:
-        - name: Power BI 게이트웨이란?
-          href: service-gateway-getting-started.md
-    - name: 자습서
-      items:
-        - name: SQL Server 데이터에 연결
-          href: service-gateway-sql-tutorial.md
+        - name: 온-프레미스 데이터 게이트웨이란?
+          href: service-gateway-onprem.md
     - name: 개념
       items:
         - name: 데이터 게이트웨이 배포 지침
           href: service-gateway-deployment-guidance.md
         - name: 온-프레미스 데이터 게이트웨이 FAQ
-          href: service-gateway-onprem-faq.md
+          href: service-gateway-power-bi-faq.md
     - name: 방법
       items:
-        - name: 게이트웨이 설치
-          href: service-gateway-install.md
-        - name: 게이트웨이 관리
-          href: service-gateway-manage.md
-        - name: 게이트웨이 성능 모니터링
-          href: service-gateway-performance-monitoring.md
-        - name: 엔터프라이즈 데이터 원본 관리 - Analysis Services
-          href: service-gateway-enterprise-manage-ssas.md
-        - name: 엔터프라이즈 데이터 원본 관리 - SAP HANA
-          href: service-gateway-enterprise-manage-sap.md
-        - name: 엔터프라이즈 데이터 소스 관리 - SQL
-          href: service-gateway-enterprise-manage-sql.md
-        - name: 데이터 원본 관리 - Oracle
-          href: service-gateway-onprem-manage-oracle.md
-        - name: 엔터프라이즈 데이터 원본 관리 - 가져오기/예약된 새로 고침
-          href: service-gateway-enterprise-manage-scheduled-refresh.md
-        - name: 온-프레미스 및 클라우드 데이터 원본 병합
-          href: service-gateway-mashup-on-premises-cloud.md
+        - name: 온-프레미스 데이터 게이트웨이 심층 분석
+          href: service-gateway-onprem-indepth.md
+        - name: 온-프레미스 데이터 게이트웨이(개인 모드)
+          href: service-gateway-personal-mode.md
+        - name: 사용자 및 관리자 관리
+          href: service-gateway-manage-admins.md
+        - name: 데이터 원본 관리
+          items:
+            - name: 데이터 원본 관리
+              href: service-gateway-data-sources.md
+            - name: 엔터프라이즈 데이터 원본 관리 - Analysis Services
+              href: service-gateway-enterprise-manage-ssas.md
+            - name: 엔터프라이즈 데이터 원본 관리 - SAP HANA
+              href: service-gateway-enterprise-manage-sap.md
+            - name: 엔터프라이즈 데이터 소스 관리 - SQL
+              href: service-gateway-enterprise-manage-sql.md
+            - name: 데이터 원본 관리 - Oracle
+              href: service-gateway-onprem-manage-oracle.md
+            - name: 엔터프라이즈 데이터 원본 관리 - 가져오기/예약된 새로 고침
+              href: service-gateway-enterprise-manage-scheduled-refresh.md
+            - name: 온-프레미스 및 클라우드 데이터 원본 병합
+              href: service-gateway-mashup-on-premises-cloud.md
         - name: SSO(Single Sign-On) 사용
           items:
             - name: SSO(Single Sign-On) - 개요
@@ -1321,24 +1317,16 @@
               href: service-gateway-sso-kerberos-resource.md
             - name: SSO(Single Sign-On) - SAML
               href: service-gateway-sso-saml.md
-        - name: 프록시 설정 구성
-          href: service-gateway-proxy.md
-        - name: 온-프레미스 데이터 게이트웨이를 위한 고가용성 클러스터
-          href: service-gateway-high-availability-clusters.md
-        - name: 온-프레미스 데이터 게이트웨이
-          href: service-gateway-onprem.md
-        - name: 온-프레미스 데이터 게이트웨이 심층 분석
-          href: service-gateway-onprem-indepth.md
-        - name: 온-프레미스 데이터 게이트웨이(개인 모드)
-          href: service-gateway-personal-mode.md
-        - name: 사용자 지정 커넥터
-          href: service-gateway-custom-connectors.md
-        - name: 온-프레미스 데이터 게이트웨이 문제 해결
+        - name: 게이트웨이 문제 해결
           href: service-gateway-onprem-tshoot.md
+        - name: 게이트웨이 문제 해결(개인 모드)
+          href: service-admin-troubleshooting-power-bi-personal-gateway.md
+        - name: 사용자 지정 커넥터 사용
+          href: service-gateway-custom-connectors.md
     - name: 리소스
       items:
         - name: 월별 게이트웨이 업데이트
-          href: service-gateway-monthly-updates.md
+          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
 - name: 관리
   items:
     - name: 개요
