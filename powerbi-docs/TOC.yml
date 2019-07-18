@@ -1289,8 +1289,6 @@
           href: service-gateway-onprem-indepth.md
         - name: 온-프레미스 데이터 게이트웨이(개인 모드)
           href: service-gateway-personal-mode.md
-        - name: 사용자 및 관리자 관리
-          href: service-gateway-manage-admins.md
         - name: 데이터 원본 관리
           items:
             - name: 데이터 원본 관리
