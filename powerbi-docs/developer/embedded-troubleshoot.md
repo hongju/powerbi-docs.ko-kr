@@ -110,7 +110,7 @@ GenerateToken 호출 전에 애플리케이션의 백 엔드가 인증 토큰을
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 또는 AADSTS50053으로 인증하지 못했습니다.
 
-** _(AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다.)_ **
+** _(AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다.)_**
 
 Power BI Embedded를 사용하고 Azure AD 직접 인증을 활용하는 경우 다음과 같은 로그인 메시지를 받습니다. ***오류: unauthorized_client, error_description:AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다.*** 이는 2018년 6월 14일부터 직접 인증이 기본적으로 더 이상 사용되지 않기 때문입니다.
 
@@ -162,7 +162,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: 권한 부여에는 관리자 권한이 필요합니다.
 
-**_증상:_ **<br>
+**_증상:_**<br>
 관리자가 아닌 사용자가 동의를 허용하면서 애플리케이션에 처음으로 로그인하려고 하면 다음 오류 중 하나를 받습니다.
 
 * ConsentTest에는 관리자만이 부여할 수 있는 조직의 리소스에 액세스하는 사용 권한이 필요합니다. 사용하기 전에 이 앱에 대한 권한을 부여하도록 관리자에게 요청하세요.
@@ -172,10 +172,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 관리 사용자는 성공적으로 로그인하고 동의를 허용할 수 있습니다.
 
-**_근본 원인:_ **<br>
+**_근본 원인:_**<br>
 사용자 동의는 테넌트에 대해 사용되지 않습니다.
 
-**_몇 가지 수정은 가능합니다._ **
+**_몇 가지 수정은 가능합니다._**
 
 *전체 테넌트(모든 사용자, 모든 애플리케이션)에 대해 사용자 동의 사용*
 
