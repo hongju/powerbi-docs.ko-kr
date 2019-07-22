@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 68e21e14227aff538c56951249edbddc249d68eb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
+ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497965"
+ms.lasthandoff: 07/20/2019
+ms.locfileid: "68362739"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>앱을 사용하여 프리미엄 용량 모니터링
 
@@ -41,7 +41,7 @@ ms.locfileid: "66497965"
 
 프리미엄 용량 메트릭 앱을 마지막으로 새로 고친 시간을 확인하려면 **설정** > **데이터 세트** > **Power BI Premium 용량 메트릭** > **새로 고침 기록**을 클릭합니다. 
 
-![설정의 새로 고침 기록](media/settings-refresh-history.png)
+![설정의 새로 고침 기록](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
 마지막 새로 고침이 표시되거나 **새로 고침 기록**을 클릭하여 예약 및 요청 시 새로 고침을 확인합니다.
 

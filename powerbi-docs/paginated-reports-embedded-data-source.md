@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: 83e3ffbae43d25e89cf52077acaa731cdee9b502
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345496"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270841"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 원본 만들기
 
@@ -32,7 +32,7 @@ ms.locfileid: "67345496"
 
 - Power BI Premium 데이터 세트
 
-페이지를 매긴 보고서는 [Power BI 게이트웨이](service-gateway-getting-started.md)를 통해 온-프레미스 데이터 원본에 연결됩니다. 보고서를 Power BI 서비스에 게시한 후 게이트웨이를 설정합니다.
+페이지를 매긴 보고서는 [Power BI 게이트웨이](service-gateway-onprem.md)를 통해 온-프레미스 데이터 원본에 연결됩니다. 보고서를 Power BI 서비스에 게시한 후 게이트웨이를 설정합니다.
 
 자세한 내용은 [Power BI 보고서 작성기의 보고서 데이터](report-builder-data.md)를 참조하세요.
 
