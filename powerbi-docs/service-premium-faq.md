@@ -41,7 +41,7 @@ Power BI 프리미엄은 용량 기반 라이선스인 반면, Power BI Pro는 �
 * 사용자 지정된 보기의 편집 및 저장
 * 개인 대시보드 만들기(새 대시보드에 고정)
 * Excel 또는 Power BI Desktop에서 데이터 분석
-* Excel Online 지원과 공유
+* Excel Web App 지원과 공유
 * 대시보드 공유 및 Office 365 그룹과 공동 작업
 * Microsoft 팀과 함께 콘텐츠 통합
 
@@ -49,7 +49,7 @@ Power BI 프리미엄은 용량 기반 라이선스인 반면, Power BI Pro는 �
 예. Power BI Pro는 보고서를 게시하고, 대시보드를 공유하고, 작업 영역에서 동료와 공동 작업을 수행하며, 기타 관련된 작업을 수행하기 위해 필요합니다. 프리미엄 용량의 콘텐츠를 소비하기 위해 Power BI Pro가 필요하지는 않습니다.
 
 **Power BI Pro 및 Power BI 프리미엄이 최신 BI에 대해 조직에서 어떻게 작동하는지에 관한 시나리오를 간략히 알려줄 수 있습니까?**  
-다음 예제에 고객이 Power BI Pro와 Power BI 프리미엄의 조합을 사용하여 어떻게 BI 요구를 충족하는지에 대해 간략히 나와 있습니다.
+다음 예제에 고객이 Power BI Pro와 Power BI 프리미엄의 조합을 어떻게 사용하여 BI 요구를 충족할 수 있는지에 대해 간략히 나와 있습니다.
 
 | 시나리오 1 | 시나리오 2 | 시나리오 3 | 시나리오 4 |
 | --- | --- | --- | --- |
@@ -66,7 +66,7 @@ Power BI 프리미엄은 가상 코어 수에 따라 구입할 수 있습니다.
 Power BI 프리미엄은 연간 약정으로 월별 요금이 청구됩니다.
 
 **Power BI 프리미엄은 어떻게 구입할 수 있습니까?**  
-Power BI 프리미엄은 Microsoft 365 관리 센터에서 사용할 수 있습니다. 자세한 내용은 [Power BI 프리미엄 구매 방법](service-admin-premium-purchase.md)을 참조하세요. 자세한 내용은 Microsoft 영업 담당자에게 문의하세요.
+Power BI 프리미엄은 Microsoft 365 관리 센터에서 사용할 수 있습니다. 자세한 내용은 [Power BI 프리미엄 구매 방법](service-admin-premium-purchase.md)을 참조하세요. 또는 자세한 내용에 대해 Microsoft 영업 담당자에게 문의하세요.
 
 **나에게 필요한 Power BI 프리미엄 용량은 어떻게 알 수 있습니까?**  
 이 [비용 계산기](https://powerbi.microsoft.com/calculator/)를 사용하여 필요한 Power BI 프리미엄 용량을 예측해 보세요.
@@ -76,7 +76,7 @@ Power BI 프리미엄은 Power BI Pro에 추가된 기능으로 제공됩니다.
 
 **Power BI Report Server란 무엇입니까? Power BI를 온-프레미스에서 사용할 수 있다는 의미입니까?**
 
-Power BI Report Server는 대화형 Power BI 보고서 및 페이지가 매겨진 보고서를 조직의 방화벽 경계 내에 완전히 배포 및 분포할 수 있는 온-프레미스 서버입니다. Power BI Report Server는 Power BI 프리미엄을 통해 또는 Software Assurance와 함께 SQL Server Enterprise Edition을 사용하는 고객의 혜택으로 사용할 수 있습니다. 자세한 내용은 Microsoft 영업 담당자에게 문의하세요.
+Power BI Report Server는 대화형 Power BI 보고서 및 페이지가 매겨진 보고서를 조직의 방화벽 경계 내에 완전히 배포 및 분포할 수 있는 온-프레미스 서버입니다. Power BI Report Server는 Power BI 프리미엄을 통해 또는 Software Assurance와 함께 SQL Server Enterprise Edition을 사용하는 고객의 고객 혜택으로 사용할 수 있습니다. 자세한 내용은 Microsoft 영업 담당자에게 문의하세요.	
 
 Power BI 프리미엄을 사용하면 클라우드의 조직 프로비전에서 동일한 수의 가상 코어를 Power BI Report Server를 통해 온-프레미스로 배포할 수 있습니다. 용량을 분할할 필요가 없습니다. 조직은 클라우드에서 Power BI를 선택하거나 Power BI Report Server를 통해 온-프레미스에서 보고서를 유지하고, 원하는 대로 클라우드로 이동합니다.
 
