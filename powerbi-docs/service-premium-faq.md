@@ -56,7 +56,7 @@ Power BI 프리미엄은 용량 기반 라이선스인 반면, Power BI Pro는 �
 | 조직 또는 부서는 모든 직원이 대시보드를 공유하고 임시 분석을 수행하며 보고서를 게시하는 등 셀프 서비스 BI를 갖고 서로 공동 작업을 하길 원합니다. | 조직 또는 부서에 BI 콘텐츠의 소비만 필요한 사용자뿐 아니라 셀프 서비스 BI 및 협업이 필요한 사용자 조합이 있습니다. | 조직 또는 부서에 보고서를 온-프레미스로 유지하기 위한 요구 사항과 더불어 셀프 서비스 BI 및 협업이 필요한 사용자가 있습니다. | 재무 부서는 수입 알림에 앞서 여러 대규모 데이터 세트를 분석하는 데 적극 노력하고 있으며, 워크로드를 관리하기 위해 제한 없는 단독 용량을 필요로 합니다. |
 | **해결 방법:**<br/><br/>1. 모든 사용자를 위한 Power BI Pro<br/><br/>2. Power BI Premium을 추가하여 기회를 늘려 보세요. 추가 시나리오를 참조하세요. |**해결 방법:**<br/><br/>1. 셀프 서비스 BI 및 협업이 필요한 사용자를 위한 Power BI Pro<br/><br/>2. 소비만 필요한 사용자에게 BI 콘텐츠를 배포할 수 있도록 Power BI 프리미엄 추가 |**해결 방법:**<br/><br/>1. 셀프 서비스 BI 및 협업이 필요한 사용자를 위한 Power BI Pro<br/><br/>2. 보고서를 온-프레미스로 게시하고 적절히 클라우드로 이동할 수 있도록 Power BI 프리미엄 추가 |**해결 방법:**<br/><br/>1. 재무 부서의 모든 사용자를 위한 Power BI Pro<br/><br/>2. 재무팀이 독점 사용할 수 있는 규모가 더 크고 더 나은 성능을 제공하는 클라우드의 전용 리소스를 위한 Power BI 프리미엄 추가 |
 
-**Power BI Premium의 비용은 얼마입니까? SKU를 얼마나 사용할 수 있습니까?**  
+**Power BI 프리미엄의 비용은 얼마입니까? SKU를 얼마나 사용할 수 있습니까?**  
 Power BI 프리미엄은 가상 코어 수에 따라 구입할 수 있습니다. 가격은 [Power BI 가격 책정 페이지](https://powerbi.microsoft.com/pricing/)에서 확인할 수 있습니다. 노드 및 v 코어에 자세한 내용은 [Microsoft Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)를 참조하세요. 또한 이 [계산기](https://powerbi.microsoft.com/calculator/)를 사용하여 필요한 프리미엄 용량을 예측해 보세요.
 
 **“용량”이란 무엇을 의미합니까?**  
@@ -84,9 +84,9 @@ Power BI 프리미엄을 사용하면 클라우드의 조직 프로비전에서 
 
 **다음 단계**
 
-[Power BI Premium이란?](service-premium-what-is.md)
-[Power BI Premium 릴리스 정보](service-premium-release-notes.md)
-[Microsoft Power BI Premium 백서](https://aka.ms/pbipremiumwhitepaper)
+[Power BI 프리미엄이란?](service-premium-what-is.md)
+[Power BI 프리미엄 릴리스 정보](service-premium-release-notes.md)
+[Microsoft Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)
 [Power BI Enterprise 배포 계획 백서](https://aka.ms/pbienterprisedeploy)
 [확장된 Pro 평가판 활성화](service-extended-pro-trial.md)
 [Power BI Embedded FAQ](developer/embedded-faq.md)
