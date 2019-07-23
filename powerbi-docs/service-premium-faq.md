@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 프리미엄 FAQ
 description: Power BI 프리미엄 제품에 대한 질문과 대답 목록을 찾아보세요.
 author: mgblythe
@@ -76,7 +76,7 @@ Power BI 프리미엄은 Power BI Pro에 추가된 기능으로 제공됩니다.
 
 **Power BI Report Server란 무엇입니까? Power BI를 온-프레미스에서 사용할 수 있다는 의미입니까?**
 
-Power BI Report Server는 대화형 Power BI 보고서 및 페이지가 매겨진 보고서를 조직의 방화벽 경계 내에 완전히 배포 및 분포할 수 있는 온-프레미스 서버입니다. Power BI Report Server는 Power BI 프리미엄을 통해 또는 Software Assurance와 함께 SQL Server Enterprise Edition을 사용하는 고객의 고객 혜택으로 사용할 수 있습니다. 또는 자세한 내용에 대해 Microsoft 영업 담당자에게 문의하세요.
+Power BI Report Server는 대화형 Power BI 보고서 및 페이지가 매겨진 보고서를 조직의 방화벽 경계 내에 완전히 배포 및 분포할 수 있는 온-프레미스 서버입니다. Power BI Report Server는 Power BI 프리미엄을 통해 또는 Software Assurance와 함께 SQL Server Enterprise Edition을 사용하는 고객의 고객 혜택으로 사용할 수 있습니다. 자세한 내용은 Microsoft 영업 담당자에게 문의하세요.	
 
 Power BI 프리미엄을 사용하면 클라우드의 조직 프로비전에서 동일한 수의 가상 코어를 Power BI Report Server를 통해 온-프레미스로 배포할 수 있습니다. 용량을 분할할 필요가 없습니다. 조직은 클라우드에서 Power BI를 선택하거나 Power BI Report Server를 통해 온-프레미스에서 보고서를 유지하고, 원하는 대로 클라우드로 이동합니다.
 
