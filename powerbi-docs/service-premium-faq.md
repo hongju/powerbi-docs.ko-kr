@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 프리미엄 FAQ
 description: Power BI 프리미엄 제품에 대한 질문과 대답 목록을 찾아보세요.
 author: mgblythe
@@ -12,7 +12,7 @@ ms.date: 02/05/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65565373"

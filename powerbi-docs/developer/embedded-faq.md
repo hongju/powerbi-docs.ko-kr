@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 1bee1b31b5e264ec8cd092a90484fc20866db0b3
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: af3c22197e4d6783787bd72c9cf010bf6db64bc1
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823356"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270967"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -95,7 +95,7 @@ Power BI Embedded는 개발자가 임베디드 분석 솔루션을 만드는 데
 
 * [Power BI 관리 포털](../service-admin-portal.md#power-bi-embedded) 사용
 
-* Power BI에서 [메트릭 앱](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) 다운로드
+* Power BI에서 [메트릭 앱](https://docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) 다운로드
 
 * [Azure 진단 로깅](azure-pbie-diag-logs.md) 사용
 

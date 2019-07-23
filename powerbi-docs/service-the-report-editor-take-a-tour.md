@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 37337d7b544bcad5c1f357b00eb73d7af6c6da7d
+ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61404890"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68342233"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI의 보고서 편집기 둘러보기
 
@@ -97,7 +97,7 @@ Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조선을 �
 
 ![새 필터 환경](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
 
-[새 필터 환경](power-bi-report-filter-preview.md)을 자세히 알아보세요.
+[새 필터 환경](power-bi-report-filter.md)을 자세히 알아보세요.
 
 - - -
 ## <a name="the-fields-pane"></a>필드 창

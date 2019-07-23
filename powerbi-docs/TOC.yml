@@ -55,7 +55,7 @@
           href: desktop-latest-update.md
         - name: Power BI Desktop의 모델링 보기
           href: desktop-modeling-view.md
-        - name: Power BI Desktop의 집계(미리 보기)
+        - name: Power BI Desktop의 집계
           href: desktop-aggregations.md
         - name: Power BI Desktop의 복합 모델
           href: desktop-composite-models.md
@@ -234,7 +234,7 @@
             - name: 필터 종류
               href: power-bi-report-filter-types.md
             - name: 새 필터 환경 체험
-              href: power-bi-report-filter-preview.md
+              href: power-bi-report-filter.md
             - name: 빠른 측정 사용
               href: desktop-quick-measures.md
             - name: What if 매개 변수 사용
@@ -453,6 +453,8 @@
               href: service-support-options.md
             - name: 도움을 받을 수 있는 10가지 팁
               href: service-tips-for-finding-help.md
+            - name: 서비스 중단 알림
+              href: service-interruption-notifications.md
         - name: Power BI 확장
           items:
             - name: Microsoft Flow 및 Power BI
@@ -685,6 +687,8 @@
           items:
             - name: 페이지를 매긴 보고서 보기
               href: paginated-reports-view-power-bi-service.md
+            - name: 지원되는 데이터 원본
+              href: paginated-reports-data-sources.md
             - name: 매개 변수와 상호 작용
               href: paginated-reports-view-parameters.md
             - name: 직접 또는 다른 사용자 구독
