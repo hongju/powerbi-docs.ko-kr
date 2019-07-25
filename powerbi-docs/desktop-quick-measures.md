@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4c37f3bb8f84c6ab40dceb3327f2b244559e9170
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513982"
@@ -93,7 +93,7 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-**값** 필드 영역을 마우스 오른쪽 단추로 클릭하고 **새 빠른 측정**을 선택하면, ‘계산’으로 ‘범주별 평균’을 선택한 후 ‘기준 값’으로 ‘SalesAmount의 합계’를 선택하고 오른쪽 창의 ‘필드’ 상자에서 왼쪽의 ‘범주’ 상자로 해당 필드를 끌어서 *SalesAmount*를 지정할 수 있습니다.      
+**값** 필드 영역을 마우스 오른쪽 단추로 클릭하고 **새 빠른 측정**을 선택하면, ‘계산’으로 ‘범주별 평균’을 선택한 후 ‘기준 값’으로 ‘SalesAmount의 합계’를 선택하고 오른쪽 창의 ‘필드’ 상자에서 왼쪽의 ‘범주’ 상자로 해당 필드를 끌어서 *SalesAmount*를 지정할 수 있습니다.
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 
@@ -109,7 +109,7 @@ SSAS(SQL Server Analysis Services) 라이브 연결을 사용하는 경우 일�
 
 ![](media/desktop-quick-measures/quick-measures_08.png)
 
-두 번째로, **빠른 측정**이 데이터 모델의 **필드** 영역에 표시되며 다른 시각적 개체에 대한 모델의 다른 필드처럼 사용할 수 있습니다. 다음 이미지에서는 **빠른 측정**으로 생성된 새 필드를 사용하여 신속한 **세로 막대형 차트** 시각적 개체가 생성되었습니다.
+두 번째로, **빠른 측정**이 데이터 모델의 **필드** 영역에 표시되며 다른 시각적 개체에 대한 모델의 다른 필드처럼 사용할 수 있습니다. 다음 이미지에서는 **빠른 측정**으로 생성된 새 필드를 사용하여 신속한 **가로 막대형 차트** 시각적 개체가 생성되었습니다.
 
 ![](media/desktop-quick-measures/quick-measures_09.png)
 

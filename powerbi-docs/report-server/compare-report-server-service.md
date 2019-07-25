@@ -12,7 +12,7 @@ ms.custom: mvc
 ms.date: 05/22/2019
 ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66187693"
