@@ -73,7 +73,7 @@
           href: desktop-data-source-prerequisites.md
         - name: Power BI의 다차원 모델의 기본 멤버
           href: desktop-default-member-multidimensional-models.md
-        - name: 사용자 지정 시각적 개체 FAQ
+        - name: 시각적 개체 FAQ
           href: power-bi-custom-visuals-faq.md
     - name: 방법
       items:
@@ -1067,48 +1067,70 @@
       items:
         - name: 개요
           items:
-            - name: Power BI의 사용자 지정 시각적 개체
+            - name: Power BI의 시각적 개체
               href: power-bi-custom-visuals.md
         - name: 자습서
           items:
-            - name: Power BI 사용자 지정 시각적 개체 개발
+            - name: Power BI의 시각적 개체 개발
               href: developer/custom-visual-develop-tutorial.md
-            - name: 서식 옵션 추가
+            - name: 서식 지정 옵션 추가
               href: developer/custom-visual-develop-tutorial-format-options.md
+            - name: 시각적 개체 프로젝트를 위한 단위 테스트 추가
+              href: developer/visuals/unit-tests-introduction.md
         - name: 개념
           items:
-            - name: Power BI의 조직을 위한 사용자 지정 시각적 개체
+            - name: Power BI의 조직을 위한 시각적 개체
               href: power-bi-custom-visuals-organization.md
             - name: Power BI 시각적 개체에 대한 지침
               href: developer/guidelines-powerbi-visuals.md
-            - name: 사용자 지정 시각적 개체 FAQ
+            - name: 시각적 개체 FAQ
               href: power-bi-custom-visuals-faq.md
             - name: 기능 사용
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/'
+              href: developer/visuals/capabilities.md
             - name: 데이터 보기 매핑
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/dataviewmappings/'
+              href: developer/visuals/dataview-mappings.md
             - name: 개체 및 속성
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/'
+              href: developer/visuals/objects-properties.md
             - name: 고급 편집 모드
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/advanced-edit-mode/'
-            - name: 버전이 있는 API 가이드로 마이그레이션
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/migrating-to-versioned-api-guide/'
+              href: developer/visuals/advanced-edit-mode.md
         - name: 방법
           items:
-            - name: 사용자 지정 시각적 개체 인증 받기
+            - name: 시각적 개체 인증받기
               href: power-bi-custom-visuals-certified.md
             - name: AppSource에 사용자 지정 시각적 개체 게시
               href: developer/office-store.md
             - name: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
               href: desktop-r-powered-custom-visuals.md
-            - name: 문제 해결
-              items:
-                - name: 사용자 지정 시각적 개체 개발 문제 해결
-                  href: power-bi-custom-visuals-troubleshoot.md
+            - name: 시각적 개체 상호 작용
+              href: developer/visuals/visuals-interactions.md
+            - name: 시각적 개체 도구 설명 추가
+              href: developer/visuals/add-tooltips.md
+            - name: 분석 창 추가
+              href: developer/visuals/analytics-pane.md
+            - name: 시각적 개체 필터링
+              href: developer/visuals/filter-api.md
+            - name: 더 많은 데이터 가져오기
+              href: developer/visuals/fetch-more-data.md
+            - name: 책갈피 추가 지원
+              href: developer/visuals/bookmarks-support.md
+            - name: 시각적 개체의 데이터 강조 표시
+              href: developer/visuals/highlight.md
+            - name: 고대비 모드 지원 추가
+              href: developer/visuals/high-contrast-support.md
+            - name: 슬라이서 동기화 사용
+              href: developer/visuals/enable-sync-slicers.md
+            - name: Power BI 시각적 개체 문제 해결
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: 참조
           items:
-            - name: API
-              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+            - name: 방문 페이지
+              href: developer/visuals/landing-page.md
+            - name: 시작 URL
+              href: developer/visuals/launch-url.md
+            - name: 이벤트 렌더링
+              href: developer/visuals/event-service.md
+            - name: 정렬
+              href: developer/visuals/sort-options.md
         - name: 리소스
           items:
             - name: 개발자 센터
@@ -1117,6 +1139,8 @@
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
             - name: 사용자 지정 시각적 Git 리포지토리
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+            - name: SSL 인증서를 만드는 중
+              href: developer/visuals/create-ssl-certificate.md
     - name: 자동화
       items:
         - name: 개요
