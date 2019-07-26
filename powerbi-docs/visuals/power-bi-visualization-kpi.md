@@ -1,4 +1,4 @@
----
+﻿---
 title: KPI(핵심 성과 지표) 시각적 개체
 description: Power BI에서 KPI(핵심 성과 지표) 시각적 개체 만들기
 author: mihart

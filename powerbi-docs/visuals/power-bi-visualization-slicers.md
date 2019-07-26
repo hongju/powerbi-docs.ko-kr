@@ -1,4 +1,4 @@
----
+﻿---
 title: 자습서 - Power BI의 슬라이서
 description: Power BI의 슬라이서
 author: v-thepet
@@ -13,7 +13,7 @@ ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f5eed81a5750bebb4df968a09cd1fcfd2aa069d1
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710830"
