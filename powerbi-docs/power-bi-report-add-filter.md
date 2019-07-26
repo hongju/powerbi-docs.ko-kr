@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 7cd2c7acbec9b8d21aeb78cbb159df2a46b12564
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 903883290def07ee6467dbebab1c7b31dec80b74
+ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409782"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68342185"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI의 보고서에 필터 추가
 
 이 문서에서는 Power BI의 보고서에 페이지 필터, 시각화 필터, 보고서 필터 또는 드릴스루 필터를 추가하는 방법을 설명합니다. 이 문서의 예제는 Power BI 서비스에 있습니다. 단계는 Power BI Desktop과 거의 동일합니다.
 
-**알고 계십니까?** Power BI에는 현재 미리 보기로 제공되는 새 필터 환경이 있습니다. [Power BI 보고서의 새 필터 환경](power-bi-report-filter-preview.md)에 대해 자세히 알아보세요.
+**알고 계십니까?** Power BI에는 현재 미리 보기로 제공되는 새 필터 환경이 있습니다. [Power BI 보고서의 새 필터 환경](power-bi-report-filter.md)에 대해 자세히 알아보세요.
 
 ![새 필터 환경](media/power-bi-report-add-filter/power-bi-filter-reading.png)
 

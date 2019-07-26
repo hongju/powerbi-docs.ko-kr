@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710408"
@@ -311,7 +311,7 @@ Program.cs에 이 코드를 추가합니다.
     }
 ```
 
-위의 코드에서 ** _//첫 번째 ID를 가져오도록_** 지정했지만 올바른 방법은 이름으로 데이터 집합을 검색하는 것입니다.
+위의 코드에서 **_//첫 번째 ID를 가져오도록_** 지정했지만 올바른 방법은 이름으로 데이터 집합을 검색하는 것입니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 대시보드에 데이터 푸시](walkthrough-push-data.md)  

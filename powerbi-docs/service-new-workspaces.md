@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI의 새 작업 영역에서 작업 구성
 description: 조직에 대한 주요 메트릭을 제공하도록 빌드된 대시보드 및 보고서의 컬렉션인 새 작업 영역에 대해 알아봅니다.
 author: maggiesMSFT
