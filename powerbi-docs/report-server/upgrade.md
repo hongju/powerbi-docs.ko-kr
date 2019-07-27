@@ -69,13 +69,13 @@ Power BI Report Server를 간단히 업그레이드할 수 있습니다. 몇 가
 
     ![사용권 계약](media/upgrade/reportserver-upgrade-eula.png "사용권 계약")
 
-4. 성공적으로 업그레이드한 후에 **Report Server 구성**을 선택하여 Reporting Services 구성 관리자를 시작하거나 **닫기**를 선택하여 설치 관리자를 종료합니다.
+4. 성공적으로 업그레이드한 후에 **보고서 서버 구성**을 선택하여 Reporting Services 구성 관리자를 시작하거나 **닫기**를 선택하여 설치 관리자를 종료합니다.
 
     ![업그레이드 구성](media/upgrade/reportserver-upgrade-configure.png)
 
 ## <a name="upgrade-power-bi-desktop"></a>Power BI Desktop 업그레이드
 
-보고서 서버를 업그레이드한 후, 모든 Power BI 보고서 작성자가 서버와 일치하는 Power BI Report Server용으로 최적화된 Power BI Desktop 버전으로 업그레이드되었는지 확인하려고 합니다.
+보고서 서버를 업그레이드한 후, 모든 Power BI 보고서 작성자가 서버와 일치하는 Power BI Report Server용으로 최적화된 Power BI Desktop 버전으로 업그레이드되었는지 확인하십시오.
 
 ## <a name="next-steps"></a>다음 단계
 
