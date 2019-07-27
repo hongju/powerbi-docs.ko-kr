@@ -19,7 +19,7 @@ ms.lasthandoff: 06/17/2019
 ms.locfileid: "67161114"
 ---
 # <a name="funnel-charts"></a>깔대기형 차트
-깔때기형 차트는 순차적으로 연결된 단계가 있는 선형 프로세스를 시각화하는 데 도움이 됩니다. 예를 들어 다음 단계를 통해 고객을 추적하는 영업 깔때기가 있습니다. 잠재 고객 \> 적격 잠재 고객 \> 예측 \> 계약 \> 닫기.  깔때기의 모양은 추적 중인 프로세스의 상태를 한눈에 보여줍니다.
+깔때기형 차트는 순차적으로 연결된 단계가 있는 선형 프로세스를 시각화하는데 도움이 됩니다. 예를 들어 다음 단계를 통해 고객을 추적하는 영업 깔때기가 있습니다: 잠재 고객 \> 적격 잠재 고객 \> 예측 \> 계약 \> 닫기.  깔때기의 모양은 추적 중인 프로세스의 상태를 한눈에 보여줍니다.
 
 각 깔때기 단계는 합계의 백분율을 나타냅니다. 따라서 대부분의 경우 깔때기형 차트는 깔때기 모양으로, 첫 단계가 가장 크고 뒤로 갈수록 점점 작아집니다.  서양배 모양의 깔때기도 유용합니다. 프로세스의 문제를 식별할 수 있기 때문입니다.  하지만 일반적으로 첫 번째 단계인 "유입" 단계가 가장 큽니다.
 
@@ -53,13 +53,13 @@ ms.locfileid: "67161114"
 
 이제 영업 단계 각각에 있는 기회의 수를 보여 주는 고유한 깔때기형 차트를 만듭니다.
 
-이러한 지침에서는 영업 기회 분석 샘플을 사용합니다. 과정을 따르려면 Power BI 서비스(app.powerbi.com) 또는 Power BI Desktop에 대한 [샘플을 다운로드](../sample-datasets.md)합니다.   
+이러한 지침에서는 기회 분석 샘플을 사용합니다. 과정을 따르려면 Power BI 서비스(app.powerbi.com) 또는 Power BI Desktop에 대한 [샘플을 다운로드](../sample-datasets.md)합니다.   
 
 1. 빈 보고서 페이지에서 시작하고 **SalesStage** \> **Sales Stage** 필드를 선택합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
    
     ![판매 단계 선택](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
-2. [차트를 깔때기로 변환](power-bi-report-change-visualization-type.md)합니다. **Sales Stage** 가 **그룹** 에 있습니다. 
-3. **필드** 창에서 **팩트** \> **기회 수**를 선택합니다.
+2. [차트를 깔때기로 변환](power-bi-report-change-visualization-type.md)합니다. **Sales Stage**가 **그룹**에 있습니다. 
+3. **필드** 창에서 **Face** \> **Opportunity Count**를 선택합니다.
    
     ![깔때기형 차트 빌드](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. 막대를 마우스로 가리키면 다양한 정보가 표시됩니다.
@@ -76,9 +76,9 @@ ms.locfileid: "67161114"
 ## <a name="highlighting-and-cross-filtering"></a>강조 표시 및 교차 필터링
 필터 창 사용 방법에 대한 자세한 내용은 [보고서에 필터 추가](../power-bi-report-add-filter.md)를 참조하세요.
 
-보고서 페이지에서 다른 시각화 요소를 교차 필터링하는 등치 지역도에서 막대를 강조 표시하고 그 반대의 경우도 마찬가지입니다. 계속 수행하려면 깔때기형 차트를 포함하는 보고서 페이지에 몇 가지 시각적 개체를 추가합니다.
+보고서 페이지에서 다른 시각화 요소를 교차 필터링하는 깔때기에서 막대를 강조 표시하고 그 반대의 경우도 마찬가지입니다. 계속 수행하려면 깔때기형 차트를 포함하는 보고서 페이지에 몇 가지 시각적 개체를 추가합니다.
 
-1. 깔때기에서 **제안** 막대를 선택합니다. 이는 페이지의 다른 시각화 요소를 상호 간에 강조 표시합니다. Ctrl 키를 사용하면 여러 개를 선택할 수 있습니다.
+1. 깔때기에서 **Proposal** 막대를 선택합니다. 이는 페이지의 다른 시각화 요소를 상호 간에 강조 표시합니다. Ctrl 키를 사용하면 여러 개를 선택할 수 있습니다.
    
    ![시각적 개체 상호 작용을 보여 주는 짧은 비디오](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
 2. 시각적 개체를 상호 간에 강조 표시하고 필터링하는 방법에 대한 기본 설정을 설정하려면 [Power BI에서 시각적 상호 작용](../service-reports-visual-interactions.md)을 참조하세요.
@@ -90,7 +90,7 @@ ms.locfileid: "67161114"
    
    ![질문 상자 및 깔때기형](media/power-bi-visualization-funnel-charts/power-bi-qna.png)
    
-2. Power BI에서 여러분이 선호하는 시각화 유형을 알 수 있도록 "깔때기형"으로 추가해야 합니다.
+2. Power BI에서 여러분이 선호하는 시각화 유형을 알 수 있도록 "as funnel"을 추가해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
