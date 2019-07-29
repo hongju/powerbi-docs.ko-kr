@@ -933,6 +933,8 @@
           href: report-builder-planning-report.md
         - name: 보고서 작성기 데이터
           href: report-builder-data.md
+        - name: Power BI 공유 데이터 세트 사용
+          href: report-builder-shared-datasets.md
         - name: 디자인 팁
           href: report-builder-design-tips.md
         - name: '테이블, 행렬, 목록'
