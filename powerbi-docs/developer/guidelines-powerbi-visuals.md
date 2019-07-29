@@ -8,15 +8,41 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 03/10/2019
-ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/16/2019
+ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61342771"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271200"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 지침
+다른 사용자가 검색 및 사용하도록 AppSource에 시각적 개체를 [게시](https://docs.microsoft.com/power-bi/developer/office-store)하기 전에 지침에 따라 사용자에게 적합한 환경을 만들어야 합니다. 
+
+## <a name="context-menu"></a>상황에 맞는 메뉴
+상황에 맞는 메뉴는 사용자가 시각적 개체를 가리킬 때 표시되는 마우스 오른쪽 클릭 메뉴입니다.
+모든 Power BI 시각적 개체를 통해 상황에 맞는 메뉴에서 통합된 환경을 제공할 수 있습니다. 상황에 맞는 메뉴를 추가하는 방법에 대해 알아보려면 [이 문서](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md)를 확인하세요.
+
+
+## <a name="logo-guidelines"></a>로고 지침
+
+이 섹션에서는 로고 및 로고 유형을 시각적 개체에 추가하는 방법을 설명합니다.
+
+> [!IMPORTANT]
+> 로고는 *편집 모드에서만* 허용됩니다. 보기 모드에서는 로고를 표시할 수 *없습니다*.
+
+![정의](media/guidelines-powerbi-visuals/definitions.png)
+
+![염두할 점](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+
+![피해야 할 사항](media/guidelines-powerbi-visuals/things-to-avoid.png)
+
+![크기 및 형식](media/guidelines-powerbi-visuals/size-and-format.png)
+
+![여백 및 크기 조정](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+
+![편집 모드](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+
 
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>추가 구매 시 Power BI 시각적 개체에 대한 지침
 
@@ -36,31 +62,13 @@ ms.locfileid: "61342771"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>IAP 기능이 포함된 Power BI 시각적 개체란?
 
-IAP 시각적 개체는 **무료 기능**을 제공하는 **무료** 시각적 개체입니다. 일부 고급 기능도 포함하기도 하며, 이 기능을 작동하면 추가 요금이 부과될 수 있습니다. 시각적 개체의 설명에서 개발자는 작동을 위해 추가 구매가 필요한 기능이 있으면 사용자에게 알려야 합니다. 현재 Microsoft는 앱 및 추가 기능 구매를 지원하는 네이티브 API를 제공하지 않습니다.
+IAP 시각적 개체는 *무료 기능*을 제공하는 *무료* 시각적 개체입니다. 일부 고급 기능도 포함하기도 하며, 이 기능을 작동하면 추가 요금이 부과될 수 있습니다. 시각적 개체의 설명에서 개발자는 작동을 위해 추가 구매가 필요한 기능이 있으면 사용자에게 알려야 합니다. 현재 Microsoft는 앱 및 추가 기능 구매를 지원하는 네이티브 API를 제공하지 않습니다.
 
 개발자는 이러한 구매를 위해 타사 결제 시스템을 사용할 수 있습니다. 자세한 내용은 [our store policy](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)(스토어 정책)를 참조하세요.
 
 > [!NOTE]
 > 무료 기능 또는 무료 시각적 개체에서는 워터마크를 사용할 수 없습니다. 워터마크는 유효한 라이선스 없이 사용되는 유료 기능에만 사용할 수 있습니다. 유효한 라이선스 없이 고급 유료 기능을 사용하는 경우 모든 라이선스가 관련 정보가 있는 팝업 창을 표시하는 것이 좋습니다.  
 
-## <a name="logo-guidelines"></a>로고 지침
-
-이 섹션에서는 로고 및 로고 유형을 시각적 개체에 추가하는 방법을 설명합니다.
-
-> [!IMPORTANT]
-> 로고는 **편집 모드에서만** 허용됩니다. 보기 모드에서는 로고를 표시할 수 **없습니다**.
-
-![정의](media/guidelines-powerbi-visuals/definitions.png)
-
-![염두할 점](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
-
-![피해야 할 사항](media/guidelines-powerbi-visuals/things-to-avoid.png)
-
-![크기 및 형식](media/guidelines-powerbi-visuals/size-and-format.png)
-
-![여백 및 크기 조정](media/guidelines-powerbi-visuals/margins-and-sizes.png)
-
-![편집 모드](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>모범 사례
 
