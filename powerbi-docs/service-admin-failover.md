@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b3fa7fd07a4c7f1992623871ed408b959582a125
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61196914"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270598"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ
 
@@ -65,7 +65,7 @@ Power BI 지원 페이지에 알림이 게시됩니다([https://powerbi.microsof
 조직에서 사용하는 Power BI 솔루션에 다음 요소 중 하나가 포함되어 있는 경우, 솔루션의 고가용성 유지를 보장하기 위해 몇 가지 작업을 수행해야 합니다.
 
 - 조직에서 Power BI Premium을 사용하는 경우 프리미엄 용량이 배포의 로드 요구 사항을 충족시킬 수 있는 크기인지 확인해야 합니다.  [Power BI Premium 계획 및 배포 백서](https://aka.ms/Premium-Capacity-Planning-Deployment) 및 [Power BI Premium 용량 메트릭 앱](service-admin-premium-monitor-capacity.md)을 통해 이 요구 사항을 계획하고 충족할 수 있습니다. 정기적으로 새로운 기능을 메트릭 앱과 Power BI의 관리 포털에 추가하여 도움을 줍니다.
-- 조직에서 Power BI 온-프레미스 게이트웨이를 사용하여 온-프레미스 데이터 원본에 액세스하는 경우, 고가용성을 지원하려면 [이 문서에 설명된 대로](service-gateway-high-availability-clusters.md) 게이트웨이를 설정해야 합니다. 가져오기 모드에서 보고서를 새로 고치거나 DirectQuery 또는 Live Connect를 사용하여 데이터 또는 데이터 모델에 액세스하는 경우 이 지침을 따릅니다.
+- 조직에서 온-프레미스 데이터 게이트웨이를 사용하여 온-프레미스 데이터 원본에 액세스하는 경우, 고가용성을 지원하려면 [이 문서에 설명된 대로](/data-integration/gateway/service-gateway-high-availability-clusters) 게이트웨이를 설정해야 합니다. 가져오기 모드에서 보고서를 새로 고치거나 DirectQuery 또는 Live Connect를 사용하여 데이터 또는 데이터 모델에 액세스하는 경우 이 지침을 따릅니다.
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>장애 조치(failover) 모드에 있을 때 게이트웨이가 작동하나요?
 

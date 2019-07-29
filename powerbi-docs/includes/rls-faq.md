@@ -1,14 +1,14 @@
 ---
 ms.openlocfilehash: b05b5b0b5212f39b9b47cb63e2fc8522fff2f8e3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61194071"
 ---
 ## <a name="faq"></a>FAQ
 **질문:** 경우에 어떻게 Power BI 서비스에서 역할 및 데이터 집합에 대 한 규칙을 이전에 만든가 있나요? 아무 작업도 수행하지 않아도 계속 작동합니까?  
-**답변:** 아니요. 시각적 개체가 제대로 렌더링되지 않습니다. Power BI Desktop 내 역할 및 규칙을 다시 만든 다음, Power BI 서비스에 게시해야 합니다.
+**답변:** 아니요. 시각적 개체가 제대로 렌더링되지 않습니다. Power BI Desktop에서 역할 및 규칙을 다시 만든 다음, Power BI 서비스에 게시해야 합니다.
 
 **질문:** Analysis Services 데이터 원본에 대해 이러한 역할을 만들 수 있나요?  
 **답변:** 데이터를 Power BI Desktop으로 가져온 경우 사용할 수 있습니다. 라이브 연결을 사용하는 경우 Power BI 서비스 내에서 RLS를 구성할 수 없습니다. 이것은 Analysis Services 모델 온-프레미스 내에서 정의됩니다.
