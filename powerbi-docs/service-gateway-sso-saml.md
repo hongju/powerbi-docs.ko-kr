@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 03/05/2019
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
-ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
+ms.openlocfilehash: b1d84e9de9ae6d6fd8306fce4865977a8d273652
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "65533694"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289941"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 SAML(Security Assertion Markup Language)을 사용합니다.
 
 SAML([Security Assertion Markup Language](https://www.onelogin.com/pages/saml))을 사용하여 원활한 Single Sign-On 연결을 구현합니다. SSO를 사용하도록 설정하면 Power BI 보고서 및 대시보드가 온-프레미스 원본의 데이터를 손쉽게 새로 고칠 수 있습니다.
 
-## <a name="supported-data-sources"></a>지원 되는 데이터 원본
+## <a name="supported-data-sources"></a>지원되는 데이터 원본
 
 현재 SAML을 사용하는 SAP HANA가 지원됩니다. SAML을 사용하는 SAP HANA에 Single Sign-On을 설정하고 구성하는 방법에 대한 자세한 내용은 SAP HANA 설명서의 [BI 플랫폼에서 HANA로 SAML SSO 연결](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA) 항목을 참조하세요.
 
@@ -39,24 +39,25 @@ SAML을 사용하려면 SSO를 활성화하려는 HANA 서버와 이 시나리�
 
 1. 루트 CA의 X509 인증서 및 프라이빗 키를 만듭니다. 예를 들어 루트 CA의 X509 인증서 및 프라이빗 키를 .pem 형식으로 만들려면 다음을 수행합니다.
 
-```
-openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
-```
+   ```
+   openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
+   ```
+  루트 CA의 인증서가 제대로 보호되는지 확인합니다. 제3자가 이 인증서를 획득할 경우 HANA 서버에 대한 무단 액세스를 얻는 데 사용할 수 있습니다. 
 
-HANA 서버에서 방금 만든 루트 CA가 서명한 인증서를 신뢰하도록 HANA 서버의 트러스트 저장소에 인증서(예: CA_Cert.pem)를 추가합니다. HANA 서버의 트러스트 저장소 위치는 **ssltruststore** 구성 설정을 검사하여 찾을 수 있습니다. OpenSSL을 구성하는 방법을 다루는 SAP 설명서를 준수했다면 HANA 서버는 재사용할 수 있는 루트 CA를 이미 신뢰했을 수 있습니다. 자세한 내용은 [SAP HANA Studio용 개방 SSL을 SAP HANA Server에 구성하는 방법을 참조](https://archive.sap.com/documents/docs/DOC-39571)하세요. SAML SSO를 활성화할 HANA 서버가 여러 개 있는 경우, 각 서버가 이 루트 CA를 신뢰하는지 확인합니다.
+  HANA 서버에서 방금 만든 루트 CA가 서명한 인증서를 신뢰하도록 HANA 서버의 트러스트 저장소에 인증서(예: CA_Cert.pem)를 추가합니다. HANA 서버의 트러스트 저장소 위치는 **ssltruststore** 구성 설정을 검사하여 찾을 수 있습니다. OpenSSL을 구성하는 방법을 다루는 SAP 설명서를 준수했다면 HANA 서버는 재사용할 수 있는 루트 CA를 이미 신뢰했을 수 있습니다. 자세한 내용은 [How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571)(SAP HANA Studio용 Open SSL을 SAP HANA Server에 구성하는 방법)를 참조하세요. SAML SSO를 활성화할 HANA 서버가 여러 개 있는 경우, 각 서버가 이 루트 CA를 신뢰하는지 확인합니다.
 
 1. 게이트웨이 IdP의 X509 인증서를 만듭니다. 예를 들어 1년간 유효한 인증서 서명 요청(IdP_Req.pem) 및 프라이빗 키(IdP_Key.pem)를 만들려면 다음 명령을 실행합니다.
 
-```
- openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
-```
+   ```
+   openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+   ```
 
+   신뢰할 수 있도록 HANA 서버를 구성한 경우 루트 CA를 사용하여 인증서 서명 요청에 서명합니다. 예를 들어 CA_Cert.pem 및 CA_Key.pem(루트 CA의 인증서 및 키)을 사용하여 IdP_Req.pem에 서명하려면 다음 명령을 실행합니다.
 
-신뢰할 수 있도록 HANA 서버를 구성한 경우 루트 CA를 사용하여 인증서 서명 요청에 서명합니다. 예를 들어 CA_Cert.pem 및 CA_Key.pem(루트 CA의 인증서 및 키)을 사용하여 IdP_Req.pem에 서명하려면 다음 명령을 실행합니다.
+   ```
+   openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
+   ```
 
-  ```
-openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
-```
 결과 IdP 인증서는 1년간 유효합니다(-days 옵션 참조). 이제 HANA Studio에서 IdP의 인증서를 가져와 새 SAML ID 공급자를 만듭니다.
 
 1. SAP HANA Studio에서 SAP HANA 서버를 마우스 오른쪽 단추로 클릭한 다음, **보안** > **보안 콘솔 열기** > **SAML ID 공급자** > **OpenSSL 암호화 라이브러리**로 이동합니다.
@@ -75,11 +76,11 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
     ![SAML 구성](media/service-gateway-sso-saml/configure-saml.png)
 
-1. 2단계에서 만든 ID 공급자를 선택합니다. 에 대 한 **외부 Id**Power BI 사용자의 UPN (일반적으로 전자 메일 주소는 사용자가 Power BI에 로그인)를 입력 하 고 선택 **추가**합니다. Note ADUserNameReplacementProperty 구성 옵션을 사용 하 여 게이트웨이 구성한 경우 Power BI 사용자의 원래 UPN는 대체 하는 값을 입력 해야 합니다. 예를 들어 SAMAccountName을는 ADUserNameReplacementProperty를 설정 하면 사용자의 SAMAccountName을 입력 해야 합니다.
+1. 2단계에서 만든 ID 공급자를 선택합니다. **외부 ID**에 Power BI 사용자의 UPN(일반적으로 사용자가 Power BI에 로그인하는 데 사용하는 메일 주소)을 입력한 다음, **추가**를 선택합니다. *ADUserNameReplacementProperty* 구성 옵션을 사용하도록 게이트웨이를 구성한 경우에는 Power BI 사용자의 원래 UPN을 대체할 값을 입력해야 합니다. 예를 들어 *ADUserNameReplacementProperty*를 **SAMAccountName**으로 설정하는 경우 사용자의 **SAMAccountName**을 입력해야 합니다.
 
     ![ID 공급자 선택](media/service-gateway-sso-saml/select-identity-provider.png)
 
-인증서와 ID가 구성되었으므로 인증서를 pfx 형식으로 변환하고 인증서를 사용하도록 게이트웨이 머신을 구성합니다.
+게이트웨이의 인증서와 ID가 구성되었으므로 인증서를 pfx 형식으로 변환하고 인증서를 사용하도록 게이트웨이 머신을 구성합니다.
 
 1. 다음 명령을 실행하여 인증서를 pfx 형식으로 변환합니다. 이 명령은 "root"를 pfx 파일의 암호로 설정합니다.
 
@@ -119,7 +120,7 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
         ![프라이빗 키 관리](media/service-gateway-sso-saml/manage-private-keys.png)
 
-    1. 게이트웨이 서비스 계정을 목록에 추가합니다. 기본적으로 이 계정은 **NT SERVICE\PBIEgwService**입니다. **services.msc**를 실행하여 실행 중인 게이트웨이 서비스를 확인하고, **온-프레미스 데이터 게이트웨이 서비스**를 찾을 수 있습니다.
+    1. 게이트웨이 서비스 계정을 목록에 추가합니다. 기본적으로 이 계정은 **NT SERVICE\PBIEgwService**입니다. **services.msc**를 실행하고 **온-프레미스 데이터 게이트웨이 서비스**를 찾아 게이트웨이 서비스를 실행 중인 계정을 확인할 수 있습니다.
 
         ![게이트웨이 서비스](media/service-gateway-sso-saml/gateway-service.png)
 
@@ -148,7 +149,7 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
 SSO를 구성한 후 Power BI 포털에 다음 오류가 표시될 수 있습니다. "제공된 자격 증명을 SapHana 원본에 사용할 수 없습니다." 이 오류는 SAML 자격 증명이 SAP HANA에 의해 거부되었음을 나타냅니다.
 
-인증 추적은 SAP HANA의 자격 증명 문제를 해결하기 위한 자세한 정보를 제공합니다. 다음 단계에 따라 SAP HANA 서버에 대한 추적을 구성합니다.
+서버 쪽 인증 추적은 SAP HANA의 자격 증명 문제를 해결하기 위한 자세한 정보를 제공합니다. 다음 단계에 따라 SAP HANA 서버에 대한 추적을 구성합니다.
 
 1. SAP HANA 서버에서 다음 쿼리를 실행하여 인증 추적을 켭니다.
 
@@ -179,7 +180,7 @@ SSO를 구성한 후 Power BI 포털에 다음 오류가 표시될 수 있습니
 
 **온-프레미스 데이터 게이트웨이** 및 **DirectQuery**에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
-* [On-premises data gateway (온-프레미스 데이터 게이트웨이)](service-gateway-onprem.md)
+* [온-프레미스 데이터 게이트웨이란?](/data-integration/gateway/service-gateway-getting-started)
 * [Power BI의 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
 * [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)

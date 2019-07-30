@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: d8cebda3ad0db9fba48804fb8d2dd029c1c07f8d
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 1a0ec90d3f6a1de5a542da7ee98f956dfcef67b1
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809265"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325141"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용
 
@@ -60,7 +60,7 @@ Kerberos 제한 위임이 올바르게 작동하려면 서비스 계정의 *SPN(
 
 ![서비스 계정의 스크린샷](media/service-gateway-sso-kerberos/service-account.png)
 
-Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azure Active Directory) 인스턴스가 이미 로컬 Active Directory 인스턴스(Azure AD DirSync/Connect 사용)와 동기화된 상태가 아닌 경우 도메인 계정으로 실행해야 합니다. 도메인 계정으로 전환하려면 이 문서의 뒷부분에 나오는 [게이트웨이를 도메인 계정으로 전환](#switch-the-gateway-to-a-domain-account)을 참조하세요.
+Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azure Active Directory) 인스턴스가 이미 로컬 Active Directory 인스턴스(Azure AD DirSync/Connect 사용)와 동기화된 상태가 아닌 경우 도메인 계정으로 실행해야 합니다. 도메인 계정으로 전환하려면 [게이트웨이 서비스 계정 변경](/data-integration/gateway/service-gateway-service-account)을 참조하세요.
 
 > [!NOTE]
 > Azure AD Connect가 구성되고 사용자 계정이 동기화된 경우 게이트웨이 서비스는 런타임 시 로컬 Azure AD 조회를 수행하지 않아도 됩니다. 게이트웨이 서비스에 대해 로컬 서비스 SID(도메인 계정 요구 대신)를 사용할 수 있습니다. 이 문서에 간략히 나온 Kerberos 제한 위임 구성 단계는 해당 구성과 동일합니다. 도메인 계정 대신 Azure AD에서 게이트웨이의 컴퓨터 개체에 간단히 적용됩니다.
@@ -99,7 +99,7 @@ Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azu
 
 프로토콜 전송을 사용하여 Kerberos 제한 위임을 구성해야 합니다. 제한된 위임을 사용하여 위임하려고 하는 서비스를 노출해야 합니다. 예를 들어, SQL Server 또는 SAP HANA 서버만 게이트웨이 서비스 계정에서 위임 호출을 수락합니다.
 
-이 섹션에서는 기본 데이터 원본에 대해 이미 SPN을 구성했다고 가정합니다(예: SQL Server, SAP HANA, Teradata 및 Spark). 이러한 데이터 원본 서버 SPN을 구성하는 방법을 알아보려면 해당 데이터베이스 서버에 대한 기술 설명서를 참조하세요. 또한 [앱에 필요한 SPN은?](https://blogs.msdn.microsoft.com/psssql/2010/06/23/my-kerberos-checklist/) 블로그 게시물을 참조할 수도 있습니다.
+이 섹션에서는 기본 데이터 원본에 대해 이미 SPN을 구성했다고 가정합니다(예: SQL Server, SAP HANA, Teradata 및 Spark). 이러한 데이터 원본 서버 SPN을 구성하는 방법을 알아보려면 해당 데이터베이스 서버에 대한 기술 설명서를 참조하세요. 또한 [My Kerberos Checklist](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160)(내 Kerberos 검사 목록) 블로그 게시물에서 *What SPN does your app require?* (앱에 필요한 SPN은?) 제목을 참조할 수도 있습니다.
 
 다음 단계에서는 SQL Server를 실행 중인 데이터베이스 서버와 게이트웨이 머신이라는 두 머신을 사용하여 온-프레미스 환경을 가정합니다. 이 예에서는 다음과 같은 설정 및 이름을 가정합니다.
 
@@ -118,21 +118,21 @@ Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azu
 
 4. **지정한 서비스에 대한 위임용으로만 이 컴퓨터 신뢰** > **모든 인증 프로토콜 사용**을 차례로 선택합니다.
 
-6. **이 계정이 위임된 자격 증명을 표시할 수 있는 서비스**에서 **추가**를 선택합니다.
+5. **이 계정이 위임된 자격 증명을 표시할 수 있는 서비스**에서 **추가**를 선택합니다.
 
-7. 새 대화 상자에서 **사용자 또는 컴퓨터**를 선택합니다.
+6. 새 대화 상자에서 **사용자 또는 컴퓨터**를 선택합니다.
 
-8. SQL Server 데이터 원본(**PBIEgwTest\SQLService**)에 대한 서비스 계정을 입력하고 **확인**을 선택합니다.
+7. 데이터 원본의 서비스 계정을 입력합니다. 예를 들어 SQL Server 데이터 원본에 **PBIEgwTest\SQLService**와 같은 서비스 계정이 있을 수 있습니다. 계정이 추가되면 **확인**을 선택합니다.
 
-9. 데이터베이스 서버에 대해 만든 SPN을 선택합니다. 예제에서 SPN은 **MSSQLSvc**로 시작합니다. 데이터베이스 서비스에 대해 FQDN 및 NetBIOS SPN 모두를 추가한 경우 둘 다 선택합니다. 하나만 표시될 수도 있습니다.
+8. 데이터베이스 서버에 대해 만든 SPN을 선택합니다. 예제에서 SPN은 **MSSQLSvc**로 시작합니다. 데이터베이스 서비스에 대해 FQDN 및 NetBIOS SPN 모두를 추가한 경우 둘 다 선택합니다. 하나만 표시될 수도 있습니다.
 
-10. **확인**을 선택합니다. 이제 목록에서 SPN이 표시됩니다.
+9. **확인**을 선택합니다. 이제 목록에서 SPN이 표시됩니다.
 
     경우에 따라 **확장됨**을 선택하여 FQDN과 NetBIOS SPN을 모두 표시할 수 있습니다. **확장됨**을 선택한 경우 대화 상자는 다음과 유사하게 표시됩니다. **확인**을 선택합니다.
 
     ![게이트웨이 커넥터 속성 대화 상자의 스크린샷](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
 
-마지막으로, 게이트웨이 서비스(예제에서 **PBIEgwTestGW**)를 실행 중인 머신에서 게이트웨이 서비스 계정은 로컬 정책 **인증 후 클라이언트 가장**을 부여해야 합니다. 로컬 그룹 정책 편집기(**gpedit**)를 사용하여 이를 수행하고 확인할 수 있습니다.
+마지막으로, 게이트웨이 서비스(예제에서 **PBIEgwTestGW**)를 실행 중인 머신에서 게이트웨이 서비스 계정은 로컬 정책 **인증 후 클라이언트 가장** 및 **운영 체제의 일부로 작동(SeTcbPrivilege)** 을 부여해야 합니다. 로컬 그룹 정책 편집기(**gpedit**)를 사용하여 이 구성을 수행하고 확인할 수 있습니다.
 
 1. 게이트웨이 머신에서 *gpedit.msc*를 실행합니다.
 
@@ -170,40 +170,26 @@ SAP HANA를 사용 중인 경우 약간의 성능 개선 효과를 볼 수 있�
 
 이 구성은 대부분의 경우에서 작동합니다. 그러나 Kerberos를 사용하는 경우 환경에 따라 서로 다른 구성이 있을 수 있습니다. 보고서가 여전히 로드되지 않는 경우 추가 조사를 위해 도메인 관리자에게 문의해야 합니다.
 
-## <a name="switch-the-gateway-to-a-domain-account"></a>도메인 계정으로 게이트웨이 전환
-
-필요한 경우 **온-프레미스 데이터 게이트웨이** 사용자 인터페이스를 사용하여 도메인 계정으로 실행되도록 로컬 서비스 계정에서 게이트웨이를 전환할 수 있습니다. 방법은 다음과 같습니다.
-
-1. **온-프레미스 데이터 게이트웨이** 구성 도구를 엽니다.
-
-   ![게이트웨이 데스크톱 앱을 시작하는 옵션의 스크린샷](media/service-gateway-sso-kerberos/gateway-desktop-app.png)
-
-2. 기본 페이지에서 **로그인** 단추를 선택하고 Power BI 계정으로 로그인합니다.
-
-3. 로그인을 완료한 후 **서비스 설정** 탭을 선택합니다.
-
-4. **계정 변경**을 선택하여 단계별 연습을 시작합니다.
-
-   ![계정 변경 옵션이 강조 표시된 온-프레미스 데이터 게이트웨이 데스크톱 앱의 스크린샷](media/service-gateway-sso-kerberos/change-account.png)
-
 ## <a name="configure-sap-bw-for-sso"></a>SSO용 SAP BW 구성
 
 Kerberos가 게이트웨이에서 어떻게 작동하는지 이해했으므로 SAP BW(SAP Business Warehouse)용 SSO를 구성할 수 있습니다. 다음 단계에서는 이 문서의 앞 부분에서 설명한 것처럼 이미 [Kerberos 제한된 위임이 준비](#prepare-for-kerberos-constrained-delegation)되어 있다고 가정합니다.
 
 이 가이드에서는 가능한 한 포괄적으로 설명하려고 합니다. 이러한 단계 중 일부를 이미 완료한 경우에는 건너뛸 수 있습니다. 예를 들어 SAP BW 서버의 서비스 사용자를 이미 만들고 해당 사용자에게 SPN을 매핑했거나, 이미 `gsskrb5` 라이브러리를 설치했을 수도 있습니다.
 
-### <a name="set-up-gsskrb5-on-client-machines-and-the-sap-bw-server"></a>클라이언트 머신 및 SAP BW 서버에 gsskrb5 설정
+### <a name="set-up-gsskrb5gx64krb5-on-client-machines-and-the-sap-bw-server"></a>클라이언트 머신 및 SAP BW 서버에 gsskrb5/gx64krb5 설정
 
 > [!NOTE]
-> `gsskrb5`는 SAP에서 더 이상 적극적으로 지원되지 않습니다. 자세한 내용은 [SAP 참고 352295](https://launchpad.support.sap.com/#/notes/352295)를 참조하세요. 또한 `gsskrb5`는 데이터 게이트웨이에서 SAP BW Message Server로의 SSO 연결을 허용하지 않습니다. SAP BW Application Server에 대한 연결만 가능합니다. 게이트웨이를 통해 SSO 연결을 완료하려면 클라이언트 및 서버에서 모두 `gsskrb5`를 사용 중이어야 합니다. 이제 SAP BW용 공용 암호화 라이브러리(sapcrypto)를 지원합니다.
+> `gsskrb5/gx64krb5`는 SAP에서 더 이상 적극적으로 지원되지 않습니다. 자세한 내용은 [SAP 참고 352295](https://launchpad.support.sap.com/#/notes/352295)를 참조하세요. 또한 `gsskrb5/gx64krb5`는 데이터 게이트웨이에서 SAP BW Message Server로의 SSO 연결을 허용하지 않습니다. SAP BW Application Server에 대한 연결만 가능합니다. 이제 sapcrypto/CommonCryptoLib를 설치 프로세스를 간소화하는 SNC 라이브러리로 사용할 수 있습니다. 
 
-1. [SAP 노트 2115486](https://launchpad.support.sap.com/)에서 `gsskrb5` - `gx64krb5`를 다운로드합니다(SAP s-user 필요). gsskrb5.dll 및 gx64krb5.dll의 버전이 1.0.11.x 이상인지 확인합니다.
+게이트웨이를 통해 SSO 연결을 완료하려면 클라이언트 및 서버에서 모두 `gsskrb5`를 사용 중이어야 합니다.
+
+1. [SAP 노트 2115486](https://launchpad.support.sap.com/)(SAP s-user 필요)에서 원하는 비트 수에 따라 `gsskrb5` 또는 `gx64krb5`를 다운로드합니다. 1\.0.11.x 버전 이상이 있는지 확인합니다.
 
 1. 게이트웨이 인스턴스에서 액세스할 수 있는(SAP 로그온을 사용하여 SSO 연결을 테스트하려는 경우 SAP GUI에서도 액세스 가능) 게이트웨이 머신의 특정 위치에 라이브러리를 저장합니다.
 
 1. SAP BW 서버에서 액세스할 수 있는 위치에 있는 SAP BW 서버 머신에 다른 사본을 저장합니다.
 
-1. 클라이언트 및 서버 머신에서 각각 gsskrb5.dll 및 gx64krb5.dll의 위치를 가리키도록 `SNC\_LIB` 및 `SNC\_LIB\_64` 환경 변수를 설정합니다.
+1. 클라이언트 또는 서버 머신에서 각각 gsskrb5.dll 및 gx64krb5.dll의 위치를 가리키도록 `SNC_LIB` 또는 `SNC_LIB_64` 환경 변수를 설정합니다. 이 라이브러리 중 하나만 필요합니다.
 
 ### <a name="create-a-sap-bw-service-user-and-enable-snc-communication"></a>SAP BW 서비스 사용자 만들기 및 SNC 통신 활성화
 
@@ -262,7 +248,7 @@ SAP BW 애플리케이션 서버 사용자에 Active Directory 사용자를 매�
 
     ![SAP BW 사용자 유지 관리 화면의 스크린샷](media/service-gateway-sso-kerberos/user-maintenance.png)
 
-1. **SNC** 탭을 선택합니다. SNC 이름 입력란에 p:\<Active Directory 사용자\>@\<도메인\>을 입력합니다. Active Directory 사용자의 UPN 앞에 와야 하는 p:라는 필수 항목에 유의하세요. 지정하는 Active Directory 사용자는 SAP BW 애플리케이션 서버에 대한 SSO 액세스를 활성화하려는 개인이나 조직에 속해 있어야 합니다. 예를 들어 [testuser@TESTDOMAIN.COM](mailto:testuser@TESTDOMAIN.COM) 사용자에 대한 SSO 액세스를 허용하려면 p:testuser@TESTDOMAIN.COM을 입력합니다.
+1. **SNC** 탭을 선택합니다. SNC 이름 입력란에 p:\<Active Directory 사용자\>@\<도메인\>을 입력합니다. Active Directory 사용자의 UPN 앞에 와야 하는 p:라는 필수 항목에 유의하세요. 지정하는 Active Directory 사용자는 SAP BW 애플리케이션 서버에 대한 SSO 액세스를 활성화하려는 개인이나 조직에 속해 있어야 합니다. 예를 들어 사용자 testuser\@TESTDOMAIN.COM에 대해 SSO 액세스를 사용하도록 설정하려면 p:testuser@TESTDOMAIN.COM을 입력합니다.
 
     ![SAP BW 유지 관리 사용자 화면의 스크린샷](media/service-gateway-sso-kerberos/maintain-users.png)
 
@@ -290,17 +276,17 @@ SAP BW 애플리케이션 서버 사용자에 Active Directory 사용자를 매�
 
 문제가 발생하는 경우 다음 단계를 따라 SAP 로그온에서 gsskrb5 설치 및 SSO 연결 문제를 해결하세요.
 
-- 서버 로그(서버 머신의 …work\dev\_w0)를 gsskrb5 설정 단계를 완료할 때 발생하는 오류를 해결하는 데 도움이 될 수 있습니다. 특히 프로필 매개 변수가 변경된 후 SAP BW 서버가 시작되지 않을 경우 유용합니다.
+* 서버 로그(서버 머신의 …work\dev\_w0)를 gsskrb5 설정 단계를 완료할 때 발생하는 오류를 해결하는 데 도움이 될 수 있습니다. 특히 프로필 매개 변수가 변경된 후 SAP BW 서버가 시작되지 않을 경우 유용합니다.
 
-- 로그온 실패로 인해 SAP BW 서비스를 시작할 수 없는 경우 SAP BW “start-as” 사용자를 설정할 때 잘못된 암호를 제공한 것일 수 있습니다. Active Directory 환경의 머신에 SAP BW 서비스 사용자로 로그인하여 암호를 확인합니다.
+* 로그온 실패로 인해 SAP BW 서비스를 시작할 수 없는 경우 SAP BW “start-as” 사용자를 설정할 때 잘못된 암호를 제공한 것일 수 있습니다. Active Directory 환경의 머신에 SAP BW 서비스 사용자로 로그인하여 암호를 확인합니다.
 
-- 서버 시작을 방해하는 SQL 자격 증명 관련 오류가 표시되면 서비스 사용자에게 SAP BW 데이터베이스에 대한 액세스 권한을 부여했는지 확인하세요.
+* 서버 시작을 방해하는 SQL 자격 증명 관련 오류가 표시되면 서비스 사용자에게 SAP BW 데이터베이스에 대한 액세스 권한을 부여했는지 확인하세요.
 
-- “(GSS-API) 알 수 없거나 연결할 수 없는 대상이 지정되었습니다.”라는 메시지가 표시될 수도 있습니다. 이는 일반적으로 잘못된 SNC 이름을 지정했음을 의미합니다. 클라이언트 애플리케이션에서는 서비스 사용자의 UPN보다는 “p:CN=”이 아닌 “p:”만 사용해야 합니다.
+* “(GSS-API) 알 수 없거나 연결할 수 없는 대상이 지정되었습니다.”라는 메시지가 표시될 수도 있습니다. 이는 일반적으로 잘못된 SNC 이름을 지정했음을 의미합니다. 클라이언트 애플리케이션에서는 서비스 사용자의 UPN보다는 “p:CN=”이 아닌 “p:”만 사용해야 합니다.
 
-- “(GSS-API) 잘못된 이름이 제공되었습니다.”라는 메시지가 표시될 수도 있습니다. 서버의 SNC ID 프로필 매개 변수 값에 “p:”가 있는지 확인합니다.
+* “(GSS-API) 잘못된 이름이 제공되었습니다.”라는 메시지가 표시될 수도 있습니다. 서버의 SNC ID 프로필 매개 변수 값에 “p:”가 있는지 확인합니다.
 
-- “(SNC 오류) 지정된 모듈을 찾지 못했습니다.”라는 메시지가 표시될 수도 있습니다. 이는 일반적으로 액세스하는 데 높은 권한(관리자 권한)이 필요한 위치에 `gsskrb5.dll/gx64krb5.dll`을 배치한 것이 원인입니다.
+* “(SNC 오류) 지정된 모듈을 찾지 못했습니다.”라는 메시지가 표시될 수도 있습니다. 이는 일반적으로 액세스하는 데 높은 권한(관리자 권한)이 필요한 위치에 `gsskrb5.dll/gx64krb5.dll`을 배치한 것이 원인입니다.
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>게이트웨이 머신에 레지스트리 항목 추가
 
@@ -356,13 +342,13 @@ Azure AD Connect를 구성하지 않은 경우 Azure AD 사용자에게 매핑�
 
 이 문서의 앞 부분에 나온 [보고서 실행](#run-a-power-bi-report)에 대한 지침에 따라 게이트웨이에 SAP BW 데이터 원본을 추가합니다.
 
-1. Power BI Desktop에서 SAP BW 서버에 로그인할 때 입력하는 애플리케이션 서버의 **호스트 이름**, **시스템 번호** 및 **클라이언트 ID**를 데이터 원본 구성 창에 입력합니다. **인증 방법**에 대해서는 **Windows**를 선택합니다.
+1. Power BI Desktop에서 SAP BW 서버에 로그인할 때 입력하는 애플리케이션 서버의 **호스트 이름**, **시스템 번호** 및 **클라이언트 ID**를 데이터 원본 구성 창에 입력합니다.
 
 1. **SNC 파트너 이름** 필드에 p: \<SAP BW 서비스 사용자에 매핑한 SPN\>을 입력합니다. 예를 들어 SPN이 SAP/BWServiceUser@MYDOMAIN.COM인 경우 **SNC 파트너 이름** 필드에 p:SAP/BWServiceUser@MYDOMAIN.COM을 입력해야 합니다.
 
-1. SNC 라이브러리의 경우 **SNC\_LIB** 또는 **SNC\_LIB\_64**를 선택합니다.
+1. SNC 라이브러리의 경우 **SNC_LIB** 또는 **SNC_LIB_64**를 선택합니다. 32비트 시나리오에는 **SNC_LIB**를 사용하고 64비트 시나리오에는 **SNC_LIB_64**를 사용합니다. 이 환경 변수가 비트 수에 따라 각각 gsskrb5.dll 또는 gx64krb5.dll을 가리키는지 확인합니다.
 
-1. **사용자 이름** 및 **암호**는 SSO를 사용하여 SAP BW 서버에 로그인하는 권한이 있는 Active Directory 사용자의 사용자 이름 및 암호여야 합니다. 즉, 이러한 값은 SU01 트랜잭션을 통해 SAP BW 사용자에 매핑된 Active Directory 사용자에 속해야 합니다. 이러한 자격 증명은 **DirectQuery 쿼리에 Kerberos를 통해 SSO 사용** 상자가 선택 해제되어 있는 경우에만 사용됩니다.
+1. **인증 방법**에 대해 **Windows**를 선택한 경우 **사용자 이름** 및 **암호**는 SSO를 사용하여 SAP BW 서버에 로그인하는 권한이 있는 Active Directory 사용자의 사용자 이름 및 암호여야 합니다. 즉, 이러한 값은 SU01 트랜잭션을 통해 SAP BW 사용자에 매핑된 Active Directory 사용자에 속해야 합니다. **기본**을 선택한 경우 **사용자 이름** 및 **암호**를 각각 SAP BW 사용자의 이름 및 암호로 설정해야 합니다. 이러한 자격 증명은 **DirectQuery 쿼리에 Kerberos를 통해 SSO 사용** 상자가 선택 해제되어 있는 경우에만 사용됩니다.
 
 1. **DirectQuery 쿼리에 Kerberos를 통해 SSO 사용** 상자를 선택하고 **적용**을 선택합니다. 테스트 연결이 실패할 경우 이전의 설정 및 구성 단계가 올바르게 완료되었는지 확인합니다.
 
@@ -396,7 +382,7 @@ Azure AD Connect를 구성하지 않은 경우 Azure AD 사용자에게 매핑�
 
 **온-프레미스 데이터 게이트웨이** 및 **DirectQuery**에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
-* [On-premises data gateway (온-프레미스 데이터 게이트웨이)](service-gateway-onprem.md)
+* [온-프레미스 데이터 게이트웨이란?](/data-integration/gateway/service-gateway-getting-started)
 * [Power BI의 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
 * [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)

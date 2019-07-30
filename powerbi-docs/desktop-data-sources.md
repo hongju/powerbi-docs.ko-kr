@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823546"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324834"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 소스
 Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 있습니다. 이 페이지의 맨 아래에는 사용 가능한 데이터 소스의 전체 목록이 있습니다.
@@ -114,6 +114,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB(베타)
+* Azure Data Lake Storage Gen2(베타)
 * Azure Data Lake Storage Gen1
 * Azure HDInsight(HDFS)
 * Azure HDInsight Spark
@@ -167,6 +168,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Microsoft Graph 보안(베타)
 * 빠른 자료
 * TeamDesk(베타)
+* Dynamics 365 Customer Insights(베타)
 
 다음 그림은 **온라인 서비스**에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
