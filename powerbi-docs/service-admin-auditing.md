@@ -13,7 +13,7 @@ ms.custom: seodec18
 LocalizationGroup: Administration
 ms.openlocfilehash: 559ff45974274420e2545228720000359d5fe971
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64906893"
@@ -22,9 +22,9 @@ ms.locfileid: "64906893"
 
 Power BI의 어떤 항목에 어떤 작업을 수행 되는 알고 있으면 테 넌 트 조직 규정 준수 및 레코드 관리와 같은 해당 요구 사항을 충족 하는 데 중요할 수 있습니다. Power BI 감사 "보고서 보기" 및 "대시보드 보기"와 같은 사용자가 수행 하는 동작은 감사를 사용 합니다. 사용 권한을 감사할 감사를 사용할 수 없습니다.
 
-Office 365 보안 및 준수 센터에서 감사하거나 PowerShell을 사용합니다. 감사는 Exchange Online 기능에 의해 수행됩니다. 이 기능은 Power BI를 지원하도록 자동으로 프로비전됩니다.
+Office 365 보안 및 준수 센터 또는 PowerShell을 사용하여 감사합니다. 감사는 Exchange Online 기능에 의해 수행됩니다. 이 기능은 Power BI를 지원하도록 자동으로 프로비전됩니다.
 
-날짜 범위, 사용자, 대시보드, 보고서, 데이터 집합 및 작업 형식에서 감사 데이터를 필터링 할 수 있습니다. 오프 라인에서 분석 하는 csv (쉼표로 구분 된 값) 파일의 활동에에서도 다운로드할 수 있습니다.
+날짜 범위, 사용자, 대시보드, 보고서, 데이터 집합 및 작업 유형으로 감사 데이터를 필터링할 수 있습니다. 오프라인에서 분석하기 위해 csv(쉼표로 구분된 값) 파일로 활동을 다운로드할 수도 있습니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -34,7 +34,7 @@ Office 365 보안 및 준수 센터에서 감사하거나 PowerShell을 사용�
 
     감사 로그에 대 한 액세스를 사용 하 여 관리자가 아닌 계정에 제공 하려면 이러한 역할 그룹 중 하나의 구성원으로 사용자를 추가 해야 합니다. 작업을 수행 하려는 경우 다른 방법으로 Exchange 관리 센터에서 사용자 지정 역할 그룹 만들기,이 그룹에 감사 로그 또는 감사 로그 보기 전용 역할을 할당 및 그런 다음 관리자가 아닌 계정에 새 역할 그룹을 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
 
-    Microsoft 365 관리 센터에서 Exchange 관리 센터에 액세스할 수 없는 경우, https://outlook.office365.com/ecp로 이동하고 자격 증명을 사용하여 로그인하세요.
+    Microsoft 365 관리 센터에서 Exchange 관리 센터에 액세스할 수 없는 경우, https://outlook.office365.com/ecp 로 이동하고 자격 증명을 사용하여 로그인하세요.
 
 * 감사 로그에 대 한 액세스를 갖지만 전역 관리자 또는 Power BI 서비스 관리자 아닌 경우 Power BI 관리 포털에 액세스할 수 없습니다. 이 경우에는 [Office 365 보안 및 준수 센터](https://sip.protection.office.com/#/unifiedauditlog)로 직접 연결되는 링크를 사용해야 합니다.
 
