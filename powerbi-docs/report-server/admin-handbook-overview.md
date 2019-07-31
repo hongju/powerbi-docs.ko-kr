@@ -1,6 +1,6 @@
 ---
 title: 관리 개요, Power BI Report Server
-description: 이 아티클은 Power BI, 모바일 및 페이지를 매긴 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리 개요입니다.
+description: 이 문서는 Power BI, 모바일 및 페이지를 매긴 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리에 대한 개요를 제공합니다.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -17,7 +17,7 @@ ms.lasthandoff: 05/29/2019
 ms.locfileid: "66187366"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>관리 개요, Power BI Report Server
-이 아티클은 Power BI, 모바일 및 페이지를 매긴 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리 개요입니다. 이 문서에서는 Power BI Report Server를 계획, 배포 및 관리하는 개념을 소개하고 추가 정보 링크를 제공합니다.
+이 문서는 Power BI, 모바일 및 페이지를 매긴 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리에 대한 개요를 제공합니다. 이 문서에서는 Power BI Report Server의 계획, 배포 및 관리 개념을 소개하고 추가 정보 링크를 제공합니다.
 
 ![](media/admin-handbook-overview/admin-handbook.png)
 
