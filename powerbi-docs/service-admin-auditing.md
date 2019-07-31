@@ -227,10 +227,10 @@ Power BI는 다음 활동을 감사합니다.
 | Power BI 폴더 액세스가 업데이트됨                    | UpdateFolderAccess                          |                                          |
 | Power BI 게이트웨이 데이터 원본 자격 증명 업데이트됨  | UpdateDatasourceCredentials                 |                                          |
 | Power BI 대시보드가 조회됨                         | ViewDashboard                               |                                          |
-| Power BI 데이터 흐름 표시됨                          | ViewDataflow                                |                                          |
-| Power BI 보고서 표시됨                            | ViewReport                                  |                                          |
-| Power BI 타일 표시됨                              | ViewTile                                    |                                          |
-| Power BI 사용 메트릭 표시됨                     | ViewUsageMetrics                            |                                          |
+| Power BI 데이터 흐름이 조회됨                          | ViewDataflow                                |                                          |
+| Power BI 보고서가 조회됨                            | ViewReport                                  |                                          |
+| Power BI 타일이 조회됨                              | ViewTile                                    |                                          |
+| Power BI 사용 메트릭이 조회됨                     | ViewUsageMetrics                            |                                          |
 |                                                   |                                             |                                          |
 
 ## <a name="next-steps"></a>다음 단계
