@@ -947,6 +947,8 @@
           href: report-builder-expressions.md
         - name: 식 예제
           href: report-builder-expression-examples.md
+        - name: 보고서 페이지 매김
+          href: paginated-reports-pagination.md
         - name: 보고서 미리 보기
           href: report-builder-previewing-reports.md
         - name: 페이지를 매긴 보고서 FAQ
