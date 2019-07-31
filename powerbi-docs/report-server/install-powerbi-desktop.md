@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.openlocfilehash: 54713c9c978554521d68aeb7b4c25d681ddb3d69
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66187420"
@@ -30,7 +30,7 @@ Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유�
 
     ![웹 포털에서 Power BI Desktop 다운로드](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    하거나 직접 이동할 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (최적화 됨-2019 년 5 월 Power BI Report Server 용)는 Microsoft 다운로드 센터에서.
+    또는 Microsoft 다운로드 센터의 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723)(Power BI Report Server를 위해 최적화됨 - 2019년 5월)으로 직접 이동합니다.
 
 2. 다운로드 센터 페이지에서 **다운로드**를 선택합니다.
 
@@ -64,7 +64,7 @@ Power BI Report Server 내에서 Power BI 보고서를 편집 하거나 웹 포�
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-Power BI Report Server, Power BI 서비스(http://app.powerbi.com)) 및 Power BI 모바일 앱의 Power BI 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
+Power BI Report Server, Power BI 서비스(http://app.powerbi.com) ) 및 Power BI 모바일 앱의 Power BI 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
 
 ### <a name="in-a-browser"></a>브라우저에서
 
