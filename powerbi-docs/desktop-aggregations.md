@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop에서 집계 사용(미리 보기)
+title: Power BI Desktop에서 집계 사용
 description: Power BI Desktop에서 빅 데이터에 대한 대화형 분석을 수행합니다.
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239578"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325183"
 ---
-# <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop의 집계(미리 보기)
+# <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop의 집계
 
 Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데이터에 대한 대화형 분석을 수행할 수 있습니다. **집계**는 의사 결정에서 큰 데이터 세트의 잠금을 해제하는 비용을 크게 줄일 수 있습니다.
 
@@ -36,16 +36,6 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 집계는 데이터 웨어하우스 및 데이터 마트, Hadoop 기반 빅 데이터 원본과 같은 차원 모델을 나타내는 데이터 원본과 함께 사용됩니다. 이 문서에서는 각 유형의 데이터 원본에 대한 Power BI의 일반적인 모델링 차이점에 대해 설명합니다.
 
 모든 Power BI 가져오기 및 다차원이 아닌 DirectQuery 원본은 집계와 함께 작동합니다.
-
-## <a name="enabling-the-aggregations-preview-feature"></a>집계 미리 보기 기능 사용
-
-**집계** 기능은 미리 보기로 있으며, **Power BI Desktop**에서 사용하도록 설정해야 합니다. **집계**를 사용하도록 설정하려면 **파일 > 옵션 및 설정 > 옵션> 미리 보기 기능**을 차례로 선택한 다음, **복합 모델**과 **집계 관리** 확인란을 선택합니다. 
-
-![미리 보기 기능 사용](media/desktop-aggregations/aggregations_01.jpg)
-
-기능을 사용하려면 **Power BI Desktop**을 다시 시작해야 합니다.
-
-![변경 내용을 적용하려면 다시 시작 필요](media/desktop-composite-models/composite-models_03.png)
 
 ## <a name="aggregations-based-on-relationships"></a>관계 기반 집계
 
@@ -103,8 +93,10 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 
 관계에 의존하지 않는 *cross-source* 집계 적중의 경우 아래의 group-by 열 기반 집계 섹션을 참조하세요.
 
-### <a name="aggregation-table-is-hidden"></a>집계 테이블이 숨겨져 있음
-**Sales Agg** 테이블은 숨겨져 있습니다. 집계 테이블은 항상 데이터 세트의 소비자로부터 숨겨져 있어야 합니다. 소비자 및 쿼리는 집계 테이블이 아닌 세부 정보 테이블을 참조하며, 심지어는 집계 테이블이 있는지도 인식할 필요가 없습니다.
+### <a name="aggregation-tables-are-not-addressable"></a>집계 테이블에 주소를 지정할 수 없음
+데이터 세트에 대한 읽기 전용 액세스 권한이 있는 사용자는 집계 테이블을 쿼리할 수 없습니다. 따라서 RLS와 함께 사용하는 경우 보안 문제가 방지됩니다. 소비자 및 쿼리는 집계 테이블이 아닌 세부 정보 테이블을 참조하며, 심지어는 집계 테이블이 있는지도 인식할 필요가 없습니다.
+
+이와 같은 이유로 **Sales Agg** 테이블을 숨겨야 합니다. 숨겨지지 않은 경우 [집계 관리] 대화 상자에서 [모두 적용] 단추를 클릭하면 해당 테이블이 숨김으로 설정됩니다.
 
 ### <a name="manage-aggregations-dialog"></a>집계 관리 대화 상자
 다음으로 집계를 정의합니다. 테이블을 마우스 오른쪽 단추로 클릭하여 **Sales Agg** 테이블에 대한 **집계 관리** 상황에 맞는 메뉴를 선택합니다.
@@ -136,11 +128,7 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 * 선택한 세부 정보 열에는 Count 및 테이블 행 수 계산 요약 함수를 제외하고는 집계 열과 동일한 데이터 형식이 있어야 합니다. Count 및 테이블 행 수 계산은 정수 집계 열에 대해서만 제공되며, 일치하는 데이터 형식은 필요하지 않습니다.
 * 셋 이상의 테이블이 포함된 연결 집계는 허용되지 않습니다. 예를 들어 **테이블 C**를 참조하는 집계가 있는 **테이블 B**를 참조하는 **테이블 A**에는 집계를 설정할 수 없습니다.
 * 두 항목에서 동일한 요약 함수를 사용하고 동일한 세부 정보 테이블/열을 참조하는 중복 집계는 허용되지 않습니다.
-
-**집계**에 대한 이 공개 미리 보기 동안에 적용되는 유효성 검사도 다음과 같습니다. 일반 공급을 릴리스할 때는 이러한 유효성 검사가 제거될 예정입니다.
-
-* RLS(행 수준 보안)에는 집계를 사용할 수 없습니다. *공개 미리 보기 제한입니다.*
-* 세부 정보 테이블은 [가져오기]가 아닌 DirectQuery여야 합니다. *공개 미리 보기 제한입니다.*
+* 세부 정보 테이블은 [가져오기]가 아닌 DirectQuery여야 합니다.
 
 대부분의 이러한 유효성 검사는 다음 이미지와 같이 드롭다운 값을 사용하지 않도록 설정하고 도구 설명에 설명 텍스트를 표시함으로써 적용됩니다.
 
@@ -149,6 +137,9 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 ### <a name="group-by-columns"></a>Group By 열
 
 이 예에서 세 개의 GroupBy 항목은 선택 사항입니다. 집계 동작에는 영향을 미치지 않습니다(다음 이미지에 표시된 DISTINCTCOUNT 예제 쿼리 제외). 기본적으로 가독성을 위해 포함됩니다. 이러한 GroupBy 항목이 없는 경우에도 집계는 관계를 기반으로 하여 계속 적중합니다. 이는 관계가 없는 집계를 사용하는 동작과 다르며, 이 문서의 뒷부분에 나오는 빅 데이터 예제에서 다루고 있습니다.
+
+### <a name="inactive-relationships"></a>비활성 관계
+비활성 관계에서 사용되는 참조 키 열로 그룹화하고 집계 적중에 USERELATIONSHIP 함수를 사용하는 기능은 지원되지 않습니다.
 
 ### <a name="detecting-whether-aggregations-are-hit-or-missed-by-queries"></a>쿼리에서 집계가 적중되거나 누락되었는지 검색
 
@@ -191,6 +182,17 @@ AVERAGE 함수는 집계를 통해 이점을 얻을 수 있습니다. AVERAGE가
 
 ![쿼리 예제](media/desktop-aggregations/aggregations-code_07.jpg)
 
+### <a name="rls"></a>RLS
+RLS(행 수준 보안) 식이 제대로 작동하려면 집계 테이블과 세부 정보 테이블을 둘 다 필터링해야 합니다. 예제를 계속 살펴보면, **Geography** 테이블이 **Sales** 테이블 및 **Sales Agg** 테이블에 대한 관계의 필터링 쪽에 있으므로 Geography 테이블에서 RLS 식이 작동합니다. 집계 테이블에 도달하는 쿼리와 도달하지 않는 쿼리에서 RLS가 성공적으로 적용됩니다.
+
+![집계 관리 역할](media/desktop-aggregations/manage-roles.jpg)
+
+**Product** 테이블의 RLS 식은 **Sales** 테이블만 필터링하며 **Sales Agg** 테이블은 필터링하지 않습니다. 이 방법은 권장되지 않습니다. 이 역할을 사용하여 데이터 세트에 액세스하는 사용자가 제출한 쿼리는 집계 적중을 활용하지 않습니다. 집계 테이블은 세부 정보 테이블에 있는 동일한 데이터의 다른 표현이기 때문에 RLS 필터를 적용할 수 없으므로 집계 테이블의 쿼리에 응답하는 것은 안전하지 않습니다.
+
+**Sales Agg** 테이블 자체의 RLS 식은 집계 테이블만 필터링하고 세부 정보 테이블을 필터링하지 않습니다. 이 기능은 허용되지 않습니다.
+
+![집계 관리 역할](media/desktop-aggregations/filter-agg-error.jpg)
+
 ## <a name="aggregations-based-on-group-by-columns"></a>group-by 열 기반 집계 
 
 Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있습니다. 큰 테이블 간의 조인을 방지하기 위해 관계에 의존하지 않는 경우가 많습니다. 대신 차원 특성이 팩트 테이블로 비정규화되는 경우가 많습니다. 이러한 빅 데이터 모델은 group-by 열을 기반으로 하는 **집계**를 사용하여 대화형 분석을 위해 잠금을 해제할 수 있습니다.
@@ -225,6 +227,10 @@ Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있�
 
 ![필터 대화 상자](media/desktop-aggregations/aggregations_12.jpg)
 
+### <a name="rls"></a>RLS
+
+RLS 식이 집계 테이블 또는 세부 정보 테이블을 필터링하거나 둘 다 필터링하는지에 관한 관계를 기반으로 하는 위에서 설명한 집계에 대한 동일한 RLS 규칙이 Group By 열을 기반으로 하는 집계에도 적용됩니다. 집계 테이블의 모든 Group By 열은 세부 정보 테이블에서 처리되므로 예제에서 **Driver Activity** 테이블에 적용된 RLS 식을 사용하여 **Driver Activity Agg** 테이블을 필터링할 수 있습니다. 반면, **Driver Activity Agg** 테이블의 RLS 필터는 허용되지 않으므로 **Driver Activity** 테이블에 적용할 수 없습니다.
+
 ## <a name="aggregation-precedence"></a>집계 우선 순위
 
 집계 우선 순위를 사용하면 단일 하위 쿼리에서 여러 집계 테이블을 고려할 수 있습니다.
@@ -232,8 +238,11 @@ Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있�
 다음 예제를 살펴보겠습니다. 여러 DirectQuery 원본이 포함된 [복합 모델](desktop-composite-models.md)입니다.
 
 * group-by 특성이 적고 낮은 카디널리티이므로 **Driver Activity Agg2** 가져오기 테이블의 세분성은 높습니다. 행 수는 수천 개만큼 적을 수 있으므로 메모리 내 캐시에 쉽게 맞출 수 있습니다. 이러한 특성은 고급 프로필의 경영진 대시보드에서 사용되므로 이러한 특성을 참조하는 쿼리는 최대한 빨리 처리해야 합니다.
-* **Driver Activity Agg** 테이블은 DirectQuery 모드의 중간 집계 테이블입니다. 10억 개의 행이 포함되며, columnstore 인덱스를 사용하여 원본에서 최적화됩니다.
+* **Driver Activity Agg** 테이블은 DirectQuery 모드의 중간 집계 테이블입니다. Azure SQL DW에 10억 개가 넘는 행이 포함되며, columnstore 인덱스를 사용하여 원본에서 최적화됩니다.
 * **Driver Activity** 테이블은 DirectQuery이며, 빅 데이터 시스템에서 제공하는 1조 개가 넘는 IoT 데이터 행을 포함합니다. 제어된 필터 컨텍스트에서 개별 IoT 판독 값을 볼 수 있도록 드릴스루 쿼리를 제공합니다.
+
+> [!NOTE]
+> 세부 정보 테이블에 대한 다른 데이터 원본을 사용하는 DirectQuery 집계 테이블은 집계 테이블이 SQL Server, Azure SQL 또는 Azure SQL DW 원본에서 가져온 경우에만 지원됩니다.
 
 이 모델의 메모리 공간은 비교적 작지만 큰 데이터 세트의 잠금을 해제합니다. 강점을 기반으로 하여 활용하는 아키텍처의 여러 구성 요소에 걸쳐 쿼리 로드를 분산시키므로 분산된 아키텍처를 나타냅니다.
 
@@ -261,8 +270,6 @@ Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있�
 
 ![Sales Agg 집계 테이블](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> 참고: 이 모델에서는 **Date** 테이블이 세부 정보 테이블이므로 집계 관리 대화 상자를 채우려면 이 테이블이 DirectQuery 모드에 있어야 합니다. 이는 일반 공급에서 제거하려는 미리 보기 제한 사항입니다.
-
 ### <a name="query-examples"></a>쿼리 예제
 
 집계 테이블에서 CalendarMonth를 포함하고 일 대 다 관계를 통해 CategoryName에 액세스할 수 있으므로 다음 쿼리는 집계에 적중합니다. **SalesAmount**에 대한 합계 집계가 사용됩니다.
@@ -285,9 +292,9 @@ Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있�
 
 다음 문서에서는 복합 모델을 자세히 설명하고 DirectQuery도 자세히 설명합니다.
 
-* [Power BI Desktop의 복합 모델(미리 보기)](desktop-composite-models.md)
-* [Power BI Desktop의 다 대 다 관계(미리 보기)](desktop-many-to-many-relationships.md)
-* [Power BI Desktop의 스토리지 모드(미리 보기)](desktop-storage-mode.md)
+* [Power BI Desktop의 복합 모델](desktop-composite-models.md)
+* [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md)
+* [Power BI Desktop의 스토리지 모드](desktop-storage-mode.md)
 
 DirectQuery 문서:
 

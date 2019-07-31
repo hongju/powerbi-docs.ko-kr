@@ -1,6 +1,6 @@
 ---
 title: Power BI Report Server의 보고서에 주석 추가
-description: Power BI Report Server 또는 SQL Server Reporting Services 보고서 서버에서 페이지가 매겨진 보고서 또는 Power BI에 주석을 추가하는 방법을 알아봅니다.
+description: Power BI Report Server 또는 SQL Server Reporting Services 보고서 서버에서 페이지를 매긴 보고서 또는 Power BI에 주석을 추가하는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
 manager: kfile
@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 11/15/2018
 ms.openlocfilehash: 87b0c3b1c50c38d69009e28513188362b52549dc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769645"
@@ -22,7 +22,7 @@ ms.locfileid: "64769645"
 
 ## <a name="add-or-view-comments"></a>주석 추가 또는 보기
 
-1. 보고서 서버에서 페이지가 매겨진 보고서 또는 Power BI 보고서를 엽니다.
+1. 보고서 서버에서 페이지를 매긴 보고서 또는 Power BI 보고서를 엽니다.
 2. 오른쪽 위 모퉁이에서 **설명**을 선택합니다.
 
     ![주석 선택](media/add-comments/report-server-web-portal-comments-button.png)

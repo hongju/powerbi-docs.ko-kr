@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 81e079be6c8bec27c006c68eccb3ea1091b813df
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839601"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271211"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Power BI 서비스에 페이지를 매긴 보고서 게시
 
@@ -79,7 +79,7 @@ ms.locfileid: "66839601"
 
    ![페이지를 매긴 보고서 관리](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. 자세한 내용 및 다음 단계를 보려면 Power BI 서비스 문서 [게이트웨이 설치](service-gateway-install.md)를 참조하세요.
+1. 자세한 내용 및 다음 단계를 보려면 Power BI 서비스 문서 [온-프레미스 데이터 게이트웨이란?](service-gateway-onprem.md)을 참조하세요.
 
 ### <a name="gateway-limitations"></a>게이트웨이 제한 사항
 

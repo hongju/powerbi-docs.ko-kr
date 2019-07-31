@@ -8,39 +8,35 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9e91c162c9b748fd0ef122aed8fc7ffee6dba5fc
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
-ms.translationtype: MT
+ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448294"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271864"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI의 게이트웨이 SSO(Single Sign-On) 개요
 
-온-프레미스 데이터 게이트웨이를 Kerberos 제한된 위임 또는 SAML(Security Assertion Markup Language)로 구성하여 Power BI 보고서 및 대시보드를 온-프레미스 데이터에서 업데이트할 수 있도록 하는 원활한 Single Sign-On 연결을 가져올 수 있습니다. 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 원본에 연결하는 데 사용하는 DirectQuery를 사용하는 SSO를 용이하게 합니다.
+온-프레미스 데이터 게이트웨이를 Kerberos 제한 위임 또는 SAML(Security Assertion Markup Language)로 구성하여 원활한 Single Sign-On 연결을 얻어 Power BI 보고서 및 대시보드를 온-프레미스 데이터에서 업데이트할 수 있습니다. 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 원본에 연결하는 데 사용하는 DirectQuery를 통한 SSO 연결을 도와줍니다.
 
 현재 다음 데이터 원본이 지원됩니다.
 
 * SQL Server([Kerberos](service-gateway-sso-kerberos.md))
-* SAP HANA([Kerberos](service-gateway-sso-kerberos.md) 및 [SAML](service-gateway-sso-saml.md)
+* SAP HANA([Kerberos](service-gateway-sso-kerberos.md) 및 [SAML](service-gateway-sso-saml.md))
 * SAP BW([Kerberos](service-gateway-sso-kerberos.md))
 * Teradata([Kerberos](service-gateway-sso-kerberos.md))
 * Spark([Kerberos](service-gateway-sso-kerberos.md))
 * Impala([Kerberos](service-gateway-sso-kerberos.md))
-* SSO에 대 한 가능한 이기도 [다른 데이터 원본](desktop-directquery-data-sources.md#single-sign-on-sso-for-directquery-sources) 데이터 게이트웨이 사용 하지 않고
 
-사용자가 Power BI 서비스에서 DirectQuery 보고서와 상호 작용하는 경우 각 교차 필터, 조각, 정렬 및 보고서 편집 작업은 기본 온-프레미스 데이터 원본에 대해 라이브를 실행하는 쿼리에서 발생할 수 있습니다.  SSO가 데이터 원본에 대해 구성된 경우 쿼리는 Power BI와 상호 작용하는 사용자의 ID에서 실행합니다(즉, 웹 환경 또는 Power BI 모바일 앱을 통해). 따라서 각 사용자는 구성된 Single Sign-On으로 기본 데이터 원본에서 사용 권한이 있는 데이터를 정확하게 보며, 서로 다른 사용자 간에는 공유 데이터 캐싱이 없습니다.
+사용자가 Power BI 서비스에서 DirectQuery 보고서와 상호 작용하는 경우 각 교차 필터, 조각, 정렬 및 보고서 편집 작업은 기본 온-프레미스 데이터 원본에 대해 라이브를 실행하는 쿼리에서 발생할 수 있습니다. SSO가 데이터 원본에 대해 구성된 경우 쿼리는 Power BI와 상호 작용하는 사용자의 ID에서 실행합니다(즉, 웹 환경 또는 Power BI 모바일 앱을 통해). 따라서 각 사용자는 구성된 Single Sign-On으로 기본 데이터 원본에서 사용 권한이 있는 데이터를 정확하게 보며, 서로 다른 사용자 간에는 공유 데이터 캐싱이 없습니다.
 
 ## <a name="query-steps-when-running-sso"></a>SSO를 실행하는 경우 쿼리 단계
 
 SSO로 실행하는 쿼리는 다음 다이어그램에 나와 있는 것처럼 세 단계로 구성됩니다.
 
 ![SSO 쿼리 단계](media/service-gateway-sso-overview/sso-query-steps.png)
-
-> [!NOTE]
-> Oracle에 대한 SSO이 아직 활성화되지 않었지만 개발 및 출시 예정입니다.
 
 이러한 단계에 대한 자세한 내용은 다음과 같습니다.
 
@@ -59,4 +55,5 @@ SSO로 실행하는 쿼리는 다음 다이어그램에 나와 있는 것처럼 
 SSO의 기초를 이해했으므로 Kerberos 및 SAML에 대한 자세한 정보를 읽어 보세요.
 
 * [SSO(Single Sign-On) - Kerberos](service-gateway-sso-kerberos.md)
+* [SSO(Single Sign-On) - Kerberos - 리소스 기반](service-gateway-sso-kerberos-resource.md)
 * [SSO(Single Sign-On) - SAML](service-gateway-sso-saml.md)

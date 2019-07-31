@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
+ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67558992"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68230177"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -22,6 +22,18 @@ ms.locfileid: "67558992"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="july-2019"></a>2019년 7월
+
+### <a name="report-page-tooltips"></a>보고서 페이지 도구 설명
+
+이제 모바일 앱에서 보고서를 볼 때 보고서 페이지 도구 설명이 지원됩니다. 보고서 도구 설명이 연결된 시각적 개체를 누르고 있으면 표시됩니다.  
+
+![보고서 캔버스 도구 설명](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
+
+> [!NOTE]
+> 보고서 도구 설명은 640픽셀 크기 및 320 뷰포트보다 큰 디바이스에서 지원됩니다. 더 작은 디바이스는 기본 도구 설명을 사용합니다.
+
 
 ## <a name="june-2019"></a>2019년 6월
 

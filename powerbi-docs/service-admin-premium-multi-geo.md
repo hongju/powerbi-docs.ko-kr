@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fcef4b7bc9feaee0912a8e0e9ea8098d52c66e3a
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564933"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289823"
 ---
-# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI 프리미엄에 대 한 다중 지역 지원 구성
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium에 대한 Multi-Geo 지원 구성
 
 다중 지역은 다국적 고객이 지역별, 산업별 또는 조직별 데이터 보존 요구 사항을 해결하는 데 도움이 되는 Power BI Premium 기능입니다. Power BI Premium 고객은 Power BI 테넌트의 홈 지역이 아닌 다른 지역에 있는 데이터 센터에 콘텐츠를 배포할 수 있습니다. 지역(지리)은 둘 이상의 지역을 포함할 수 있습니다. 예를 들어 미국은 지역이고 미국 중서부 및 미국 중남부는 미국에 있는 지역입니다. 다음 지역에 콘텐츠를 배포할 수 있습니다.
 
@@ -35,7 +35,7 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 
 이제 Power BI Embedded에서도 Multi-Geo를 사용할 수 있습니다. [Power BI Embedded의 Multi-Geo 지원](developer/embedded-multi-geo.md)에서 자세히 알아보세요.
 
-## <a name="enable-and-configure"></a>설정 및 구성
+## <a name="enable-and-configure"></a>사용 및 구성
 
 새 용량의 경우 드롭다운에서 기본 지역이 아닌 다른 지역을 선택하여 다중 지역을 사용하도록 설정합니다.  각 사용 가능한 용량은 현재 위치한 지역을 표시합니다(예: **미국 중서부**).
 
@@ -65,7 +65,7 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 - Excel 통합 문서
 - 대시보드/보고서 메타데이터: 타일 이름, 타일 쿼리 등
 - 게이트웨이 쿼리 또는 예약된 새로 고침 작업에 대한 서비스 버스
-- 권한
+- 사용 권한
 - 데이터 세트 자격 증명
 
 ## <a name="view-capacity-regions"></a>용량 지역 보기
@@ -94,7 +94,7 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 - 원격 지역에 저장된 캐시된 쿼리는 해당 지역에 남아 있습니다. 그러나 전송 중인 다른 데이터는 여러 지역 간에 이동할 수 있습니다.
 - 다중 지역 환경에서 데이터를 한 지역에서 다른 지역으로 이동하면 원본 데이터는 최대 30일 동안 데이터 이동이 시작된 지역에 남아 있을 수 있습니다. 해당 기간에 최종 사용자는 데이터에 액세스할 수 없습니다. 데이터가 이 지역에서 제거되고 30일 기간 동안 삭제됩니다.
 - 일반적으로 다중 지역을 사용해도 성능이 향상되지 않습니다. 보고서 및 대시보드 로드에는 메타데이터의 홈 지역에 대한 요청이 포함됩니다.
-- 지금 [데이터 흐름](service-dataflows-overview.md) 기능(미리 보기)이 다중 지역에서 지원되지 않습니다.
+- 현재는 [데이터 흐름](service-dataflows-overview.md) 기능이 Multi-GEO에서 지원되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
