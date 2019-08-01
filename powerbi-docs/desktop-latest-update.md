@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 07/15/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8833f9f4cc4bea23d2070ce19fe34f9400d6bac4
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 33b14b8e89a1ba4433896634b7f48a1fcfb6f80e
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823248"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324588"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>최신 Power BI Desktop 업데이트의 새로운 기능 
 
-## <a name="june-2019-update-2705494561"></a>2019년 6월 업데이트(2.70.5494.561)
+## <a name="july-2019-update-2715523641"></a>2019년 7월 업데이트(2.71.5523.641)
 
-6월 업데이트는 Power BI Desktop을 위한 상쾌하고 밝은 새로운 색 구성표와 다양한 개선 사항을 제공하여 보고서를 더욱 훌륭하게 만듭니다. 
+7월 업데이트에는 Power BI Desktop의 다양하고 새로운 기능이 제공됩니다. 
 
 이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
@@ -37,54 +37,41 @@ ms.locfileid: "66823248"
 이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
 
 ### <a name="reporting"></a>보고
-* 업데이트된 창 디자인 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=8) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
-* 슬라이서용 시각적 개체 수준 필터 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=116) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#slicerFilters)
-* 성능 분석기 창에 대한 정렬 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=237) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#perfAnalyzer)
-* 서식 지정 옵션에 대한 업데이트 조건부 서식 지정 업데이트 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=311) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#conditionalFormatting)
-* 시각적 개체 헤더 도구 설명 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=530) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#headerTooltips)
-* 테이블 및 행렬 총 레이블 사용자 지정 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=722) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#totalLabels)
-* 계층 슬라이서용 동기화 슬라이서 지원 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=859) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#syncSlicer)
-* 시각적 개체 간에 일관된 글꼴 크기 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=962) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#fontSizes)
+* 테이블 및 행렬의 아이콘 세트 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=11)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#iconSets) 
+* 규칙을 통한 조건부 서식의 백분율 지원  [[비디오]](https://youtu.be/l7OMRUF9UYg?t=445)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#percentRules)
+* 이제 새 필터 창이 일반 공급됨 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=543)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#filterPane)
+* 분산형 차트에서 재생 축을 사용할 경우 데이터 색 지원 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=610)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#playAxis)
+* 상대 날짜 및 드롭다운 슬라이서를 사용할 경우 성능 개선 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=669)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#slicers)
 
 
 ### <a name="analytics"></a>분석
-* 주요 영향 요인 시각적 개체 업데이트(미리 보기) [[비디오]](https://youtu.be/7k-nP38uHyQ?t=1064) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#keyInfluencers) 
-    * Power BI 데이터 세트에 실시간 연결 기능을 갖춘 주요 영향 요인
-    * 주요 영향 요인 내게 필요한 옵션
-    * 클라우드 RLS 지원
-* 집계 관리 대화 상자 내게 필요한 옵션 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=1213) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#aggregationsAccessibility) 
-
-### <a name="modeling"></a>모델링
-* 새 == DAX 비교 연산자 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=1267) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
+* 주요 영향 요인 시각적 개체 개수(미리 보기) [[비디오]](https://youtu.be/l7OMRUF9UYg?t=760)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#keyInfluencers) 
+* 집계 개선 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=870)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#aggregations) 
 
 
 ### <a name="visuals"></a>시각적 개체
-* 개인 설정된 시각화 창(미리 보기) [[비디오]](https://youtu.be/7k-nP38uHyQ?t=1349) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
-* 3개의 새로운 사용자 지정 시각적 개체 및 업데이트 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=1391) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
+* 이제 PowerApps 시각적 개체가 인증됨 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=894)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#powerapps) 
+* 3개의 새로운 사용자 지정 시각적 개체 및 업데이트 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=932) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
 
 
 ### <a name="data-connectivity"></a>데이터 연결
-* 공유 및 인증된 데이터 세트에 연결 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=1739) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#sharedCertifiedDatasets) 
-* Common Data Service 커넥터는 이제 일반적으로 사용 가능[[비디오]](https://youtu.be/7k-nP38uHyQ?t=1807) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cds) 
-* Azure Data Explorer 커넥터는 이제 일반적으로 사용 가능[[비디오]](https://youtu.be/7k-nP38uHyQ?t=1823) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#azureDataExplorer) 
-* Cosmos DB 커넥터에 대한 개선 사항 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=1835) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cosmosDB)
-* Entersoft 데이터 커넥터 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=1851) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#entersoft) 
+* Azure Data Lake Storage Gen2 커넥터(베타) [[비디오]](https://youtu.be/l7OMRUF9UYg?t=1203)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#azureDataLake) 
+* Dynamics 365 Customer Insights 커넥터 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=1250)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#customerInsights) 
 
 
 ### <a name="data-preparation"></a>데이터 준비
-* M Intellisense의 향상된 기능 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=1866)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#intellisense) 
+* 새 변환: 위치로 열 분할 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=1321)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#splitColumn) 
 
 
 > [!NOTE]
 > [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
 
-이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
 다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7k-nP38uHyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l7OMRUF9UYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.

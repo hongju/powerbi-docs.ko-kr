@@ -8,6 +8,8 @@
           href: end-user-consumer.md
         - name: Power BI 소비자에 대한 기본 개념 및 용어
           href: end-user-basic-concepts.md
+        - name: ‘새 디자인’ 탐색
+          href: ../service-new-look.md
     - name: 빠른 시작
       items:
         - name: Power BI에서 원하는 방법 찾기

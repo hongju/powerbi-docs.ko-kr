@@ -11,7 +11,7 @@ ms.date: 11/01/2017
 ms.author: mblythe
 ms.openlocfilehash: f502ae89eb4c413dd900077272dbed5a4a9c4c6f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61219775"
@@ -28,7 +28,7 @@ Power BI 보고서에서 데이터를 새로 고치려면 예약된 새로 고�
    
     ![Power BI 보고서 상황에 맞는 메뉴에서 관리 선택](media/configure-scheduled-refresh/manage-power-bi-report.png)
 2. 왼쪽 메뉴에서 **데이터 원본** 탭을 선택합니다.
-3. 표시되는 각 데이터 원본의 경우 해당 데이터 원본에 연결할 때 사용할 인증 유형을 선택합니다. 적절 한 자격 증명을 입력합니다.
+3. 표시되는 각 데이터 원본의 경우 해당 데이터 원본에 연결할 때 사용할 인증 유형을 선택합니다. 적절한 자격 증명을 입력합니다.
    
     ![보고서 관리 화면에서 데이터 원본 자격 증명](media/configure-scheduled-refresh/data-source-credentials.png)
 
@@ -39,10 +39,10 @@ Power BI 보고서에서 데이터를 새로 고치려면 예약된 새로 고�
    
     ![Power BI 보고서 상황에 맞는 메뉴에서 관리 선택](media/configure-scheduled-refresh/manage-power-bi-report.png)
 2. 왼쪽 메뉴에서 **예약된 새로 고침** 탭을 선택합니다.
-3. **예약된 새로 고침** 페이지에서 **새 예정된 새로 고침 계획**을 선택합니다.
+3. **예약된 새로 고침** 페이지에서 **새 예약된 새로 고침 계획**을 선택합니다.
    
     ![새 예약된 새로 고침 계획](media/configure-scheduled-refresh/new-scheduled-refresh-plan.png)
-4. **새 예정된 새로 고침 계획** 페이지에서 설명을 입력하고 데이터 모델을 새로 고치려는 시점에 대한 일정을 설정합니다.
+4. **새 예약된 새로 고침 계획** 페이지에서 설명을 입력하고 데이터 모델을 새로 고치려는 시점에 대한 일정을 설정합니다.
 5. 완료되면 **예약된 새로 고침 계획 만들기**를 선택합니다.
    
     ![예약된 새로 고침 계획 만들기](media/configure-scheduled-refresh/create-scheduled-refresh-plan.png)

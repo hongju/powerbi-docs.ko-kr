@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 05/24/2019
-ms.openlocfilehash: 472606fcb3b823cdcb722c9d8d6421d0ec652d24
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.date: 07/15/2019
+ms.openlocfilehash: 2d48892450bbf6ab09a4bc88cd2be9a58bbdc863
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839552"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307077"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독 
 
@@ -26,15 +26,15 @@ ms.locfileid: "66839552"
 
 - 대시보드 또는 Power BI 보고서에 대한 구독과 달리 사용자 구독에는 전체 보고서 출력의 첨부 파일이 포함되어 있습니다.  다음과 같은 첨부 파일 유형이 지원됩니다. PDF, PowerPoint 프레젠테이션(PPTX), Excel 통합 문서(XLSX), Word 문서(DOCX), CSV 파일 및 XML.
 
-- 이메일 본문에는 보고서의 미리 보기 이미지가 없습니다.  보고서 첫 페이지의 이미지를 선택 항목으로 가질 계획입니다. 
+- 메일 본문에 보고서의 미리 보기 이미지를 포함할 수 있습니다.  이는 선택 사항이며, 선택한 첨부 파일 형식에 따라 첨부된 보고서의 첫 페이지와 약간 다를 수 있습니다. 
 
 - 최대 보고서 첨부 파일 크기는 25MB입니다. 
 
 - Azure Analysis Services 또는 Power BI 데이터 세트를 비롯하여 현재 지원되는 모든 데이터 원본에 연결된 페이지를 매긴 보고서에 대해 다른 사용자도 구독할 수 있습니다. 현재 SQL Server Reporting Services에서와 마찬가지로 보고서 첨부 파일도 사용 권한에 따라 데이터를 반영한다는 점에 유의합니다. 
 
-- 보고서 페이지 구독은 보고서 이름과 연결됩니다.  
+- 보고서에 대해 현재 선택된 매개 변수나 기본 매개 변수를 사용하여 메일 구독을 보낼 수 있습니다.  보고서에 대해 만드는 각 구독의 매개 변수 값을 서로 다르게 설정할 수 있습니다. 
 
-- 이메일 구독은 보고서의 기본 매개 변수 값과 함께 보내집니다. 
+- 보고서 작성자가 식 기반 매개 변수를 설정하는 경우(예: 기본값은 항상 오늘 날짜임) 구독은 이 매개 변수를 기본값으로 사용합니다. 다른 매개 변수 값을 변경하고 현재 값을 사용하도록 선택할 수 있지만, 이 값도 명시적으로 변경하는 경우가 아니면 구독은 식 기반 매개 변수를 사용합니다.
 
 - 페이지를 매긴 보고서가 있는 빈도에 대한 **데이터 새로 고침 후** 옵션이 없습니다. 기본 데이터 원본에서 항상 최신 값을 가져옵니다. 
 
