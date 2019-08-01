@@ -1,5 +1,5 @@
 ---
-title: Power BI의 사용자 지정 시각적 개체
+title: Power BI의 시각적 개체
 description: Power BI의 사용자 지정 시각화
 author: sranins
 ms.author: rasala
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23436fb8e21e1be3a863986a773d7d969da65122
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 68048968bf6a3f85f2bc24e55fd1288073be1d56
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498034"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415416"
 ---
-# <a name="custom-visuals-in-power-bi"></a>Power BI의 사용자 지정 시각적 개체
+# <a name="visuals-in-power-bi"></a>Power BI의 시각적 개체
 
 Power BI 보고서를 만들거나 편집할 때 다양한 유형의 시각적 개체를 사용할 수 있습니다. 이러한 시각적 개체에 대한 아이콘은 **시각화** 창에 표시됩니다. 이러한 시각적 개체는 [Power BI Desktop](https://powerbi.microsoft.com/desktop/)을 다운로드하거나 [Power BI 서비스](https://app.powerbi.com)를 열 때 사전 패키지 형태로 제공됩니다.
 
