@@ -7,24 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7b863af882604be8c2c59fd21f26cd8441f9e170
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
+ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54272654"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68352184"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>온-프레미스 및 클라우드 데이터 원본 병합 또는 추가
 
-온-프레미스 데이터 게이트웨이를 사용하여 동일한 쿼리에서 온-프레미스 및 클라우드 데이터 원본을 병합하거나 추가할 수 있습니다. 이것은 별도의 쿼리를 사용하지 않고 여러 소스의 데이터를 매시업하려고 할 때 유용합니다.
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
+
+온-프레미스 데이터 게이트웨이를 사용하여 동일한 쿼리에서 온-프레미스 및 클라우드 데이터 원본을 병합하거나 추가할 수 있습니다. 이것은 별도의 쿼리를 사용하지 않고 여러 소스의 데이터를 결합하려고 할 때 유용합니다.
+
+>[!NOTE]
+>이 문서는 클라우드 및 온-프레미스 데이터 원본이 단일 쿼리에서 병합 또는 추가되는 데이터 세트에만 적용됩니다. 한 쿼리는 온-프레미스에 연결되고 다른 쿼리는 클라우드 데이터 원본에 연결된 개별 쿼리를 포함하는 데이터 세트의 경우 클라우드 데이터 원본을 사용하는 쿼리는 게이트웨이를 사용하여 실행되지 않습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
-- 로컬 컴퓨터에 [게이트웨이가 설치되었습니다](service-gateway-install.md).
+- 로컬 컴퓨터에 [게이트웨이가 설치되었습니다](/data-integration/gateway/service-gateway-install).
 - 온-프레미스 및 클라우드 데이터 원본을 결합하는 쿼리가 포함된 Power BI Desktop 파일입니다.
+
+>[!NOTE]
+>클라우드 데이터 원본에 액세스하려면 게이트웨이에서 해당 데이터 원본에 액세스할 수 있는지 확인해야 합니다.
 
 1. Power BI 서비스의 오른쪽 위 모서리에서 기어 아이콘 ![설정 기어 아이콘](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **게이트웨이 관리**를 선택합니다.
 
@@ -46,10 +54,11 @@ ms.locfileid: "54272654"
 
    - **데이터 원본 자격 증명**에서 필요에 따라 클라우드 데이터 원본 자격 증명을 편집합니다.
 
+    클라우드 및 온-프레미스 데이터 원본의 프라이버시 수준이 둘 다 조인을 안전하게 처리하도록 제대로 설정되었는지 확인합니다.
+
      ![데이터 세트 설정](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
 7. 클라우드 자격 증명을 설정하면 이제 **지금 새로 고침** 옵션을 사용하여 데이터 세트를 새로 고치거나 정기적으로 새로 고치도록 예약할 수 있습니다.
-
 
 ## <a name="next-steps"></a>다음 단계
 

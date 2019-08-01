@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 01/08/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 6dc530305634b44415ddccb9c42952c0bfbe2e5f
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383363"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271918"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 리소스 기반 Kerberos 사용
 
@@ -31,7 +31,7 @@ Windows Server 2012 R2 또는 Windows Server 2012 이상을 실행하는 도메�
 
 ### <a name="prerequisite-2-install-and-configure-the-on-premises-data-gateway"></a>필수 구성 요소 2: 온-프레미스 데이터 게이트웨이 설치 및 구성
 
-이번 온-프레미스 데이터 게이트웨이 릴리스는 현재 위치 업그레이드 및 기존 게이트웨이의 ‘설정 적용’을 지원합니다.
+온-프레미스 데이터 게이트웨이는 현재 위치 업그레이드 및 기존 게이트웨이의 _설정 적용_을 지원합니다.
 
 ### <a name="prerequisite-3-run-the-gateway-windows-service-as-a-domain-account"></a>필수 구성 요소 3: 도메인 계정으로 게이트웨이 Windows 서비스 실행
 
@@ -39,7 +39,7 @@ Windows Server 2012 R2 또는 Windows Server 2012 이상을 실행하는 도메�
 
 ![도메인 계정](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-**Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD가 이미 로컬 Active Directory(Azure AD DirSync/Connect 사용)와 동기화되지 않는 한 도메인 계정으로 실행해야 합니다. 계정을 도메인 계정으로 전환해야 하는 경우 [게이트웨이를 도메인 계정으로 전환](service-gateway-sso-kerberos.md)을 참조하세요.
+**Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD가 이미 로컬 Active Directory(Azure AD DirSync/Connect 사용)와 동기화되지 않는 한 도메인 계정으로 실행해야 합니다. 계정을 도메인 계정으로 전환해야 하는 경우 [게이트웨이 서비스 계정 변경](/data-integration/gateway/service-gateway-service-account)을 참조하세요.
 
 Azure AD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우 게이트웨이 서비스는 런타임 시 로컬 AD 조회를 수행하지 않아도 됩니다. 게이트웨이 서비스에 대해 로컬 서비스 SID(도메인 계정 요구 대신)를 사용할 수 있습니다. 이 아티클에서 간략히 설명한 Kerberos 제한된 위임 구성 단계는 해당 구성과 동일합니다(도메인 계정 대신 Active Directory의 게이트웨이 컴퓨터 개체에 간단히 적용됨).
 
@@ -51,9 +51,9 @@ Azure AD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우
 
 시스템을 제대로 구성하려면 다음 두 항목을 구성하거나 유효성을 검사해야 합니다.
 
-1. 필요한 경우 게이트웨이 서비스 도메인 계정에 대한 SPN을 구성합니다.
+* 필요한 경우 게이트웨이 서비스 도메인 계정에 대한 SPN을 구성합니다.
 
-1. 게이트웨이 서비스 도메인 계정에서 위임 설정을 구성합니다.
+* 게이트웨이 서비스 도메인 계정에서 위임 설정을 구성합니다.
 
 두 개의 구성 단계를 수행하기 위한 도메인 관리자여야 합니다.
 
@@ -61,7 +61,7 @@ Azure AD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우
 
 ### <a name="configure-an-spn-for-the-gateway-service-account"></a>게이트웨이 서비스 계정에 대해 SPN 구성
 
-먼저 게이트웨이 서비스 계정으로 사용된 도메인 계정에 대해 SPN이 이미 만들어졌는지 확인합니다. 다음 단계를 따릅니다.
+먼저 다음 단계에 따라 게이트웨이 서비스 계정으로 사용된 도메인 계정에 대해 SPN이 이미 만들어졌는지 확인합니다.
 
 1. 도메인 관리자로 **Active Directory 사용자 및 컴퓨터**를 시작합니다.
 
@@ -69,7 +69,7 @@ Azure AD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우
 
 1. 검색 결과에서 게이트웨이 서비스 계정을 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 
-1. **위임** 탭을 **속성** 대화 상자에서 볼 수 있는 경우 SPN이 이미 만들어졌으며 위임 설정 구성에 대한 다음 하위 섹션으로 바로 이동할 수 있습니다.
+1. **위임** 탭을 **속성** 대화 상자에서 볼 수 있는 경우 SPN이 이미 만들어졌으며 [위임 설정 구성](#configure-delegation-settings)에 대한 다음 하위 섹션으로 바로 이동할 수 있습니다.
 
     **속성** 대화 상자 **위임** 탭이 없는 경우 해당 계정에서 **위임** 탭을 추가하는 SPN을 수동으로 만들 수 있습니다(위임 설정을 구성하는 가장 쉬운 방법임). SPN 만들기는 Windows와 함께 제공되는 [setspn 도구](https://technet.microsoft.com/library/cc731241.aspx)를 사용하여 수행할 수 있습니다(SPN을 만드는 도메인 관리자 권한 필요).
 
@@ -83,10 +83,10 @@ Azure AD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우
 
 다음 단계에서는 SQL Server를 실행 중인 데이터베이스 서버와 게이트웨이 머신이라는 두 머신이 여러 도메인에 있는 온-프레미스 환경을 가정합니다. 이 예제에서는 다음과 같은 설정 및 이름을 가정합니다.
 
-- 게이트웨이 머신 이름: **PBIEgwTestGW**
-- 게이트웨이 서비스 계정: **PBIEgwTestFrontEnd\GatewaySvc**(계정 표시 이름: 게이트웨이 커넥터)
-- SQL Server 데이터 원본 머신 이름: **PBIEgwTestSQL**
-- SQL Server 데이터 원본 서비스 계정: **PBIEgwTestBackEnd\SQLService**
+* 게이트웨이 머신 이름: **PBIEgwTestGW**
+* 게이트웨이 서비스 계정: **PBIEgwTestFrontEnd\GatewaySvc**(계정 표시 이름: 게이트웨이 커넥터)
+* SQL Server 데이터 원본 머신 이름: **PBIEgwTestSQL**
+* SQL Server 데이터 원본 서비스 계정: **PBIEgwTestBackEnd\SQLService**
 
 해당 예제 이름 및 설정이 제공된 경우 다음 구성 단계를 사용합니다.
 
@@ -102,7 +102,7 @@ Azure AD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우
 
     ![그룹 속성](media/service-gateway-sso-kerberos-resource/group-properties.png)
 
-1. 명령 프롬프트를 열고 **PBIEgwTestBack 엔드** 도메인의 도메인 컨트롤러에서 다음 명령을 실행하여 백 엔드 서비스 계정의 Msds-allowedtoactonbehalfofotheridentity 특성을 업데이트합니다.
+1. 명령 프롬프트를 열고 **PBIEgwTestBack-end** 도메인의 도메인 컨트롤러에서 다음 명령을 실행하여 백 엔드 서비스 계정의 msDS-AllowedToActOnBehalfOfOtherIdentity 특성을 업데이트합니다.
 
     ```powershell
     $c = Get-ADGroup ResourceDelGroup
@@ -123,7 +123,7 @@ Azure AD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우
 
     ![클라이언트 가장](media/service-gateway-sso-kerberos-resource/impersonate-client.png)
 
-1. **인증 후 클라이언트 가장**의 **속성**을 마우스 오른쪽 단추로 클릭하고 열고 계정의 목록을 확인합니다. 게이트웨이 서비스 계정을 포함해야 합니다(**PBIEgwTestFront-end****\GatewaySvc**).
+1. **인증 후 클라이언트 가장**의 **속성**을 마우스 오른쪽 단추로 클릭하고 열고 계정의 목록을 확인합니다. 게이트웨이 서비스 계정을 포함해야 합니다(**PBIEgwTestFront-end** **\GatewaySvc**).
 
 1. **사용자 권한 할당** 아래의 정책 목록에서 **운영 체제의 일부로 작동(SeTcbPrivilege)** 을 선택합니다. 게이트웨이 서비스 계정이 계정 목록에도 포함되어 있는지 확인합니다.
 
@@ -141,8 +141,8 @@ Azure AD DirSync/Connect가 구성되고 사용자 계정이 동기화된 경우
 
 **온-프레미스 데이터 게이트웨이** 및 **DirectQuery**에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
-- [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)
-- [Power BI의 DirectQuery](desktop-directquery-about.md)
-- [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
-- [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)
-- [DirectQuery 및 SAP HANA](desktop-directquery-sap-hana.md)
+* [온-프레미스 데이터 게이트웨이란?](/data-integration/gateway/service-gateway-onprem.md)
+* [Power BI의 DirectQuery](desktop-directquery-about.md)
+* [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
+* [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)
+* [DirectQuery 및 SAP HANA](desktop-directquery-sap-hana.md)

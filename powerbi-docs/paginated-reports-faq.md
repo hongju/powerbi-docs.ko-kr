@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/18/2019
-ms.openlocfilehash: 10ac6ed9f49241103d03f2667ccc8db5d619db6c
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.date: 07/15/2019
+ms.openlocfilehash: 10135e0fa725cd4093802cd1416cab302174e21d
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345521"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270791"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
 
@@ -119,10 +119,10 @@ Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니�
 
 다음 데이터 원본을 지원합니다. 
 
-- Power BI Premium 데이터 세트
+- Power BI 데이터 세트(SSO(Single Sign-On)를 통해)
 - Azure Analysis Services(SSO(Single Sign-On) 및 oAuth를 통해)
 - Azure SQL Data Warehouse
-- Azure SQL Database(사용자 이름/암호 및 oAuth)
+- Azure SQL Database(사용자 이름/암호, SSO 및 oAuth)
 - SQL Server*
 - SSAS(SQL Server Analysis Services) 테이블 형식(DAX) 및 다차원(MDX) 모델* 
 - Oracle* 
@@ -134,11 +134,11 @@ Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니�
 
 ### <a name="what-authentication-methods-do-you-support"></a>지원되는 인증 방법은 무엇인가요?
 
-Azure Analysis Services와 Power BI Premium 데이터 원본에 대한 SSO를 지원하며 Azure SQL Database에 대한 oAuth 및 SSO를 지원합니다.  기타 데이터 원본의 경우 현재는 포털 또는 게이트웨이에 사용자 이름 및 암호를 데이터 원본과 함께 저장해야 합니다.  
+Azure Analysis Services, Azure SQL Database 및 Power BI 데이터 원본에 대해 SSO를 지원합니다.  Azure SQL Database 및 Azure Analysis Services에 대해 OAuth도 지원합니다.  기타 데이터 원본의 경우 현재는 포털 또는 게이트웨이에 사용자 이름 및 암호를 데이터 원본과 함께 저장해야 합니다.  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>내 페이지를 매긴 보고서의 데이터 원본으로 Power BI 데이터 세트를 사용할 수 있나요?
 
-예. 페이지를 매긴 보고서의 데이터 원본으로 Power BI Premium 데이터 세트를 지원합니다.
+예. 페이지를 매긴 보고서의 데이터 원본으로 Power BI 데이터 세트를 지원합니다.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>게이트웨이를 통해 저장 프로시저를 사용할 수 있나요?
 
@@ -179,10 +179,6 @@ SaaS 포함은 6월 한 달간 지원됩니다.  Microsoft는 기존 Power BI AP
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>SSRS 고객이 기존 보고서 및 자산을 Power BI로 이동할 수 있도록 마이그레이션 도구가 계획되어 있나요?
 
 현재 콘텐츠를 자동으로 Power BI로 이동할 수 있는 옵션을 평가하고 있지만, GA 상태가 될 때까지 이 옵션은 사용할 수 없습니다.
-
-### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>페이지를 매긴 보고서와 Power BI 보고서를 단일 제작 도구로 둘 다 만들 수 있나요?
-
-이 시나리오를 사용하도록 설정하는 방법을 살펴보았지만 지금은 플랜에 이 시나리오가 포함되지 않습니다.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서에 대한 보고서 뷰어 컨트롤이 있나요?
 

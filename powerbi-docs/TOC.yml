@@ -165,6 +165,8 @@
               href: desktop-connect-azure-consumption-insights.md
             - name: Power BI Desktop에서 SAP HANA 사용
               href: desktop-sap-hana.md
+            - name: SAP HANA에 대한 암호화 사용
+              href: desktop-sap-hana-encryption.md
             - name: Power BI Desktop의 Analysis Services 테이블 형식 데이터
               href: desktop-analysis-services-tabular-data.md
             - name: Power BI Desktop에서 DirectQuery 사용
@@ -933,6 +935,8 @@
           href: report-builder-planning-report.md
         - name: 보고서 작성기 데이터
           href: report-builder-data.md
+        - name: Power BI 공유 데이터 세트 사용
+          href: report-builder-shared-datasets.md
         - name: 디자인 팁
           href: report-builder-design-tips.md
         - name: '테이블, 행렬, 목록'
@@ -943,6 +947,8 @@
           href: report-builder-expressions.md
         - name: 식 예제
           href: report-builder-expression-examples.md
+        - name: 보고서 페이지 매김
+          href: paginated-reports-pagination.md
         - name: 보고서 미리 보기
           href: report-builder-previewing-reports.md
         - name: 페이지를 매긴 보고서 FAQ

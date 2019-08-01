@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
-ms.date: 05/03/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596627"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307389"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>온-프레미스 SQL Server 데이터베이스에서 데이터 새로 고침
 
@@ -36,7 +36,7 @@ ms.locfileid: "67596627"
 - 아직 없는 경우, 시작하기 전에 [Power BI 평가판](https://app.powerbi.com/signupredirect?pbi_source=web)에 등록합니다.
 - 로컬 컴퓨터에 [Power BI Desktop을 설치](https://powerbi.microsoft.com/desktop/)합니다.
 - 로컬 컴퓨터에 [SQL Server를 설치](/sql/database-engine/install-windows/install-sql-server)하고 [백업에서 샘플 데이터베이스](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)를 복원합니다. AdventureWorks에 대한 자세한 내용은 [AdventureWorks 설치 및 구성](/sql/samples/adventureworks-install-configure)을 참조하세요.
-- SQL Server와 동일한 로컬 컴퓨터(프로덕션에서는 일반적으로 다른 컴퓨터가 됨)에 [온-프레미스 데이터 게이트웨이를 설치](service-gateway-install.md)합니다.
+- SQL Server와 동일한 로컬 컴퓨터(프로덕션에서는 일반적으로 다른 컴퓨터가 됨)에 [온-프레미스 데이터 게이트웨이를 설치](service-gateway-onprem.md)합니다.
 
 > [!NOTE]
 > 게이트웨이 관리자가 아니고 직접 게이트웨이를 설치하지 않으려는 경우 조직의 게이트웨이 관리자에게 문의하세요. 데이터 세트를 SQL Server 데이터베이스에 연결하는 데 필요한 데이터 원본 정의를 만들 수 있습니다.
@@ -202,6 +202,6 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 이 자습서에서는 온-프레미스 SQL Server 데이터베이스에서 Power BI 데이터 세트로 데이터를 가져오는 방법과 Power BI에서 이 데이터 세트를 사용하는 보고서와 대시보드를 업데이트된 상태로 유지하기 위해 예약 및 주문형 방식으로 이 데이터 세트를 새로 고치는 방법에 대해 살펴보았습니다. 이제 Power BI에서 데이터 게이트웨이 및 데이터 원본을 관리하는 방법에 대해 자세히 알아볼 수 있습니다. Power BI에서 데이터 새로 고침 개념 문서를 검토하는 것도 좋은 방법일 수 있습니다.
 
-- [Power BI 온-프레미스 게이트웨이 관리](service-gateway-manage.md)
+- [온-프레미스 데이터 게이트웨이 관리](/data-integration/gateway/service-gateway-manage)
 - [데이터 원본 관리 - 가져오기/예약된 새로 고침](service-gateway-enterprise-manage-scheduled-refresh.md)
 - [Power BI에서 데이터 새로 고침](refresh-data.md)
