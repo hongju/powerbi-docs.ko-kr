@@ -23,7 +23,7 @@ ms.locfileid: "64769640"
 
 Power BI Report Server를 다운로드하고 SQL Server Enterprise Software Assurance 계약에 동의합니다. 또는 Power BI 프리미엄을 구입합니다. 프로덕션 환경에 서버를 설치하려면 제품 키가 필요합니다. 제품 키는 어디에 있습니까? 
 
-제품 키 구매한 제품에 따라 두 위치 중 한 곳에 있습니다.
+제품 키는 구매한 제품에 따라 두 위치 중 한 곳에 있습니다.
 
 ## <a name="purchased-power-bi-premium"></a>구매한 Power BI 프리미엄
 Power BI Premium을 구입한 경우 Power BI 관리자 포털의 **용량 설정** 탭 내에서 Power BI Report Server 제품 키에 대한 액세스를 갖습니다. 전역 관리자 또는 Power BI 서비스 관리자 역할에 할당된 사용자만 사용 가능합니다.
