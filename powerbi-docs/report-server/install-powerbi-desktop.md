@@ -30,7 +30,7 @@ Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유�
 
     ![웹 포털에서 Power BI Desktop 다운로드](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    또는 Microsoft 다운로드 센터의 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (최적화 됨-2019 년 5 월 Power BI Report Server 용)으로 직접 이동합니다.
+    또는 Microsoft 다운로드 센터의 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723)(Power BI Report Server를 위해 최적화됨 - 2019년 5월)으로 직접 이동합니다.
 
 2. 다운로드 센터 페이지에서 **다운로드**를 선택합니다.
 
@@ -68,7 +68,7 @@ Power BI Report Server, Power BI 서비스(http://app.powerbi.com)) 및 Power BI
 
 ### <a name="in-a-browser"></a>브라우저에서
 
-Power BI Report Server 보고서는 사용자 지정 시각적 개체를 포함하여 거의 모든 시각화를 지원 합니다. Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
+Power BI Report Server 보고서는 사용자 지정 시각적 개체를 포함하여 거의 모든 시각화를 지원합니다. Power BI Report Server 보고서는 다음 항목은 지원하지 않습니다.
 
 * R 시각적 개체
 * ArcGIS 맵
