@@ -84,9 +84,9 @@ Power BI 외부의 사용자 또는 서비스는 대체 권한 부여 방식을 
 전반적인 데이터 흐름에 대한 내용은 다음 문서를 참조하세요.
 
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
-* [Power BI 프리미엄에 계산 된 엔터티를 사용 하 여](service-dataflows-computed-entities-premium.md)
-* [데이터 흐름을 사용 하 여 온-프레미스 데이터 원본](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 대 한 개발자 리소스](service-dataflows-developer-resources.md)
+* [Power BI Premium의 계산된 엔터티 사용](service-dataflows-computed-entities-premium.md)
+* [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용](service-dataflows-on-premises-gateways.md)
+* [Power BI 데이터 흐름에 대한 개발자 리소스](service-dataflows-developer-resources.md)
 
 Azure Storage에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Azure Storage 보안 가이드](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
