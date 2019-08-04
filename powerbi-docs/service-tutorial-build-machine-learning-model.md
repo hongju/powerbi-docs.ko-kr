@@ -124,7 +124,7 @@ ms.locfileid: "61407201"
 
 ![다음 확인란을 선택 합니다.](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-15.png)
 
-마지막 단계에서 이 모델에 대한 이름 및 모델 유효성 검사의 결과를 요약하는 자동으로 생성된 보고서에 사용할 결과에 대한 친숙한 레이블을 제공해야 합니다. 여기서는 모델 이름을 _Purchase Intent Prediction_으로 지정하고,  _Purchase_ 및 _No-Purchase_로 true 및 false 레이블을 지정합니다. 그런 다음, **저장**을 선택합니다.
+마지막 단계에서 이 모델에 대한 이름 및 모델 유효성 검사의 결과를 요약하는 자동으로 생성된 보고서에 사용할 결과에 대한 친숙한 레이블을 제공해야 합니다. 여기서는 모델 이름을 _Purchase Intent Prediction_ 으로 지정하고,  _Purchase_ 및 _No-Purchase_ 로 true 및 false 레이블을 지정합니다. 그런 다음, **저장**을 선택합니다.
 
 ![모델 저장](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-16.png)
 
