@@ -20,7 +20,7 @@ ms.locfileid: "67596579"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>자습서: Power BI에서 Machine Learning Studio 모델 호출(미리 보기)
 
-이 자습서에서는 **Azure Machine Learning Studio** 모델의 인사이트를 Power BI에 통합하는 연습을 합니다. 이 자습서는 Power BI 사용자에게 Azure ML 모델에 액세스 권한을 부여하고, 데이터 흐름을 만들고, Azure ML 모델의 인사이트를 데이터 흐름에 적용하는 데 도움이 되는 지침을 포함하고 있습니다. Azure ML 모델을 처음 만드는 데 도움이 되는 빠른 시작 가이드도 참조합니다.
+이 자습서에서는 **Azure Machine Learning Studio** 모델의 인사이트를 Power BI에 통합하는 연습을 합니다. 이 자습서는 Power BI 사용자에게 Azure ML 모델에 액세스 권한을 부여하고, 데이터 흐름을 만들고, Azure ML 모델의 인사이트를 데이터 흐름에 적용하는데 도움이 되는 지침을 포함하고 있습니다. Azure ML 모델을 처음 만드는데 도움이 되는 빠른 시작 가이드도 참조합니다.
 
 이 자습서에서 설명하는 단계는 다음과 같습니다.
 
@@ -127,7 +127,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 ## <a name="apply-insights-from-your-azure-ml-model"></a>Azure ML 모델의 인사이트 적용
 
-_자동차 가격 예측_에 대한 Azure ML 모델에 액세스하려면 예측 가격을 추가할 _자동차 가격 책정_ 엔터티를 편집합니다.
+_자동차 가격 예측_ 에 대한 Azure ML 모델에 액세스하려면 예측 가격을 추가할 _자동차 가격 책정_ 엔터티를 편집합니다.
 
 ![엔터티 편집](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_15.png)
 
@@ -157,7 +157,7 @@ _자동차 가격 예측_ 모델의 경우 입력 매개 변수는 다음과 같
 
 Azure ML 모델 출력 미리 보기를 엔터티 테이블에 새 열로 표시하려면 **호출**을 선택합니다. 모델 호출을 쿼리의 적용 단계로 표시할 수도 있습니다.
 
-모델 출력은 출력 열에 레코드로 표시됩니다. 이 열을 확장하여 별도의 열에 개별 출력 매개 변수를 생성할 수 있습니다. 여기서는 자동차 예측 가격이 포함된 _Scored Labels_에만 관심이 있습니다.  따라서 나머지를 선택 취소하고 **확인**을 선택합니다.
+모델 출력은 출력 열에 레코드로 표시됩니다. 이 열을 확장하여 별도의 열에 개별 출력 매개 변수를 생성할 수 있습니다. 여기서는 자동차 예측 가격이 포함된 _Scored Labels_ 에만 관심이 있습니다.  따라서 나머지를 선택 취소하고 **확인**을 선택합니다.
 
 ![모델 출력](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_18.png)
 
