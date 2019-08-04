@@ -39,10 +39,10 @@ Power BI 테넌트의 위치와 해당 위치를 선택하는 방법에 대해 �
 
 ![국가 선택](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
-Power BI 테 넌 트에 대 한 데이터가 저장 된 결정 사항을에 가장 가까운 데이터 영역을 선택 합니다.
+Power BI는 선택한 항목에서 가장 가까운 데이터 영역을 선택하여, 테넌트에 대한 데이터가 저장될 위치를 결정합니다.
 
 > [!IMPORTANT]
-> 테 넌 트를 만든 후에 선택 항목을 변경할 수 없습니다.
+> 테넌트를 만든 후에는 선택 항목을 변경할 수 없습니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 
