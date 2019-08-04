@@ -1,5 +1,5 @@
 ---
-title: '자습서: Power BI를 사용 하 여 GitHub 리포지토리에 연결'
+title: '자습서: Power BI를 사용하여 GitHub 리포지토리에 연결'
 description: 이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI에서 대시보드와 보고서를 자동으로 만듭니다.
 author: maggiesMSFT
 manager: kfile
@@ -18,8 +18,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64578602"
 ---
-# <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>자습서: Power BI를 사용 하 여 GitHub 리포지토리에 연결
-이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI에서 대시보드와 보고서를 자동으로 만듭니다. Power BI 콘텐츠 공용 저장소에 연결 (라고도 *리포지토리*) 다음과 같은 질문에 대 한 답변을 표시: 얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여한 사람은 누구인가요? 어떤 요일이 가장 많이 기여하는가요? 및 다른 질문을 추가 합니다. 
+# <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>자습서: Power BI를 사용하여 GitHub 리포지토리에 연결
+이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI에서 대시보드와 보고서를 자동으로 만듭니다. Power BI 콘텐츠 공용 저장소에(*리포지토리* 라고도 하는) 연결하여 다음과 같은 질문에 대한 답변을 볼 수 있습니다: 얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여한 사람은 누구인가요? 어떤 요일이 가장 많이 기여하는가요? 및 다른 질문을 추가 합니다. 
 
 ![Power BI의 GitHub 보고서](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -34,13 +34,13 @@ ms.locfileid: "64578602"
 > * GitHub 데이터를 사용하여 대시보드 및 보고서 보기
 > * 앱을 삭제하여 리소스 정리
 
-아직 Power BI에 등록하지 않은 경우 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
+아직 Power BI에 등록하지 않은 경우, 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ## <a name="prerequisites"></a>필수 조건
 
 이 자습서를 완료하려면 GitHub 계정이 필요합니다. 아직 GitHub 계정이 없으면 다음을 수행합니다. 
 
-- 등록 된 [GitHub 계정](https://docs.microsoft.com/contribute/get-started-setup-github)합니다.
+- [GitHub 계정](https://docs.microsoft.com/contribute/get-started-setup-github)을 등록합니다.
 
 
 ## <a name="how-to-connect"></a>연결 방법
@@ -49,13 +49,13 @@ ms.locfileid: "64578602"
    
    ![Power BI 앱 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. 선택 **앱**, 형식 **GitHub** 검색 상자에 > **지금**합니다.
+3. **앱**을 선택하고, 검색 상자에 **GitHub** 를 입력하고 > **지금 받기** 합니다.
    
    ![Power BI - GitHub 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
-4. **Power BI 앱이 설치?** 선택 **설치**합니다.
-5. **새 앱이 준비**를 선택 **앱으로 이동**합니다.
-6. **새 앱을 시작 하세요**를 선택 **데이터 연결**합니다.
+4. **이 Power BI 앱을 설치하겠습니까?**에서 **설치**를 선택합니다.
+5. **새 앱의 준비가 완료됨**에서 **앱으로 이동**을 선택합니다.
+6. **새 앱 시작**에서 **데이터 연결**을 선택합니다.
 
     ![새 앱 시작](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
 
@@ -63,30 +63,30 @@ ms.locfileid: "64578602"
    
     ![Power BI - GitHub 리포지토리 이름](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
-5. 만든 GitHub 자격 증명을 입력합니다. 브라우저에서 GitHub에 이미 로그인되어 있으면 Power BI에서 이 단계를 건너뛸 수 있습니다. 
+8. 만든 GitHub 자격 증명을 입력합니다. 브라우저에서 GitHub에 이미 로그인되어 있으면 Power BI에서 이 단계를 건너뛸 수 있습니다. 
 
-6. 에 대 한 **인증 방법을**, 유지 **oAuth2** 선택한 \> **로그인**합니다.
+9. **인증 방법**에 대해서는, 선택된 **oAuth2**를 유지하고 \> **로그인**합니다.
 
-7. GitHub 인증 화면을 따릅니다. GitHub 데이터에 대한 Power BI 권한을 부여합니다.
+10. GitHub 인증 화면을 따릅니다. GitHub 데이터에 대한 Power BI 권한을 부여합니다.
    
-   이제 Power BI에서 GitHub와 연결하고 데이터에 연결할 수 있습니다.  하루에 한 번 데이터가 새로 고쳐집니다.
+   이제 Power BI에서 GitHub와 연결하고 데이터에 연결할 수 있습니다. 하루에 한 번 데이터가 새로 고쳐집니다.
 
-8. Power BI가 데이터를 가져오면 새 GitHub 작업 영역의 내용을 표시 합니다. 
-9. 왼쪽된 탐색 모음에서 작업 영역 이름 옆의 화살표를 선택 합니다. 작업 영역 대시보드 및 보고서를 포함 하는 것이 표시 됩니다. 
+11. Power BI가 데이터를 가져오면 새 GitHub 작업 영역의 내용을 표시 합니다. 
+12. 왼쪽 탐색 모음에서 작업 영역 이름 옆의 화살표를 선택 합니다. 대시보드 및 보고서를 포함 하는 작업영역이 표시 됩니다. 
 
     ![왼쪽된 탐색 창의 앱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. 대시보드 이름 옆의 줄임표 (...) > **이름 바꾸기** > 형식 **GitHub 대시보드**합니다.
+13. 대시보드 이름 옆의 줄임표 (...) > **이름 바꾸기** > **GitHub 대시보드**를 입력합니다.
  
     ![Power BI - GitHub 타일](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
-8. 글로벌 탐색 아이콘을 선택하여 왼쪽 탐색 영역을 최소화하면 더 많은 공간을 확보할 수 있습니다.
+14. 글로벌 탐색 아이콘을 선택하여 왼쪽 탐색 영역을 최소화하면 더 많은 공간을 확보할 수 있습니다.
 
     ![전역 탐색 아이콘](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
-10. GitHub 대시보드를 선택 합니다.
+15. GitHub 대시보드를 선택 합니다.
     
-    GitHub 대시보드에 표시 되는 값 다를 수 있으므로 라이브 데이터를 포함 합니다.
+    GitHub 대시보드는 라이브 데이터를 포함하므로 표시 되는 값이 다를 수 있습니다.
 
     ![Power BI - GitHub 대시보드](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
 
