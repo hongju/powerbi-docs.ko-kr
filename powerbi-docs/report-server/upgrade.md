@@ -75,7 +75,7 @@ Power BI Report Server를 간단히 업그레이드할 수 있습니다. 몇 가
 
 ## <a name="upgrade-power-bi-desktop"></a>Power BI Desktop 업그레이드
 
-보고서 서버를 업그레이드한 후, 모든 Power BI 보고서 작성자가 서버와 일치하는 Power BI Report Server용으로 최적화된 Power BI Desktop 버전으로 업그레이드되었는지 확인하십시오.
+보고서 서버를 업그레이드한 후, 모든 Power BI 보고서 작성자가 서버와 일치하는 Power BI Report Server용으로 최적화된 Power BI Desktop 버전으로 업그레이드되었는지 확인합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
