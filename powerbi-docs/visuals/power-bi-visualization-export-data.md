@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d001c75d006838f46ce40a8f81bad0a9a058b148
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299433"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523351"
 ---
 # <a name="export-data-from-visualizations"></a>시각화에서 데이터 내보내기
 
@@ -150,9 +150,9 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
 
 - 시각적 개체에서 데이터를 내보내려면 [기본 데이터 세트에 대한 빌드 권한](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets)이 있어야 합니다.
 
--  **Power BI Desktop** 및 **Power BI 서비스**가 *.csv* 파일로 내보낼 수 있는 최대 행 수는 30,000개입니다.
+-  **Power BI Desktop** 및 **Power BI 서비스**가 **가져오기 모드 보고서**에서 *.csv* 파일로 내보낼 수 있는 최대 행 수는 30,000개입니다.
 
-- 애플리케이션이 *.xlsx* 파일로 내보낼 수 있는 최대 행 수는 150,000개입니다.
+- 애플리케이션이 **가져오기 모드 보고서**에서 *.xlsx* 파일로 내보낼 수 있는 최대 행 수는 150,000개입니다.
 
 - 다음과 같은 경우 ‘기본 데이터’를 사용한 내보내기가 작동하지 않습니다. 
 
@@ -166,7 +166,7 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
 
 - 시각화 Power BI에 대한 ‘데이터가 없는 항목 표시’ 옵션을 사용하도록 설정한 경우 ‘기본 데이터’를 사용한 내보내기가 작동하지 않습니다.  
 
-- DirectQuery를 사용하는 경우 Power BI가 내보낼 수 있는 데이터의 최대 크기는 16MB입니다. 의도하지 않게 최대 행 수보다 적게 내보낼 수도 있습니다. 다음과 같은 경우에 해당할 수 있습니다.
+- DirectQuery를 사용하는 경우 Power BI에서 내보낼 수 있는 데이터의 최대 크기는 압축되지 않은 16MB 데이터입니다. 의도하지 않게 최대 행 수보다 적게 내보낼 수도 있습니다. 다음과 같은 경우에 해당할 수 있습니다.
 
     - 많은 열이 있는 경우
 

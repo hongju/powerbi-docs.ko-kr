@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61160993"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522761"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)
 
@@ -76,7 +76,7 @@ Power BI Desktop:
 
 1.  Anna는 새 앱 작업 영역을 만들고 CDM 폴더의 데이터 흐름을 저장하도록 구성합니다.
 2.  Anna가 만든 작업 영역의 구성원인 Ben은 Power BI Desktop 및 데이터 흐름 커넥터를 사용하여 Anna가 만든 데이터 흐름에서 데이터를 가져오려고 합니다.
-3.  Ben은 Data Lake에서 데이터 흐름 CDM 폴더의 권한 있는 사용자로 추가되지 않았으므로 오류가 발생합니다.
+3.  Ben은 Data Lake의 데이터 흐름 CDM 폴더에 대한 권한 있는 사용자로 추가되지 않았으므로 오류가 발생합니다.
 
     ![데이터 흐름을 사용하는 중 오류 발생](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
@@ -96,9 +96,9 @@ Power BI Desktop:
 전반적인 데이터 흐름에 대한 내용은 다음 문서를 참조하세요.
 
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
-* [Power BI 프리미엄에 계산 된 엔터티를 사용 하 여](service-dataflows-computed-entities-premium.md)
-* [데이터 흐름을 사용 하 여 온-프레미스 데이터 원본](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 대 한 개발자 리소스](service-dataflows-developer-resources.md)
+* [Power BI Premium의 계산된 엔터티 사용](service-dataflows-computed-entities-premium.md)
+* [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용](service-dataflows-on-premises-gateways.md)
+* [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스](service-dataflows-developer-resources.md)
 
 Azure Storage에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Azure Storage 보안 가이드](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

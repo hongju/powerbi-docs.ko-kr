@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
-ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
+ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67498968"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68391124"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 보기)
 
@@ -45,6 +45,9 @@ BYOK는 PBIX 파일과 연결된 데이터 세트에만 적용되며 타일 및 
 
 1. 래핑 및 래핑 해제 권한이 있는 4096비트 길이의 RSA 키를 만듭니다(또는 같은 형식의 기존 키를 사용).
 
+    > [!IMPORTANT]
+    > Power BI BYOK는 4096비트 길이의 RSA 키만 지원합니다.
+
 1. 권장: 키 자격 증명 모음에 일시 삭제(_soft delete_) 옵션을 사용하도록 설정되어 있는지 확인합니다.
 
 ### <a name="add-the-service-principal"></a>서비스 주체 추가
@@ -52,6 +55,9 @@ BYOK는 PBIX 파일과 연결된 데이터 세트에만 적용되며 타일 및 
 1. Azure Portal 키 자격 증명 모음의 **액세스 정책**에서 **새로 추가**를 선택합니다.
 
 1. **주체 선택**에서 Microsoft.Azure.AnalysisServices를 검색하여 선택합니다.
+
+    > [!NOTE]
+    > “Microsoft.Azure.AnalysisServices”를 찾을 수 없는 경우 Azure Key Vault와 연결된 Azure 구독에 Power BI 리소스가 연결되지 않았을 수 있습니다. 대신, 다음 문자열을 검색해 보세요. 00000009-0000-0000-c000-000000000000.
 
 1. **키 권한**에서 **키 래핑 해제**와 **키 래핑**을 선택합니다.
 

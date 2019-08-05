@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: cd75aebb09c7b6c54c1ff3f68635bfd5033c7f80
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d613085e47477500390ac6111887df89a802ea0b
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721471"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522866"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>빠르게 Excel 통합 문서에서 멋진 보고서 작성
 상사가 퇴근 전에 최근 판매 실적과 지난 캠페인에 대한 의견이 포함된 보고서를 제출하도록 요구합니다. 하지만 최신 데이터는 다양한 타사 시스템과 노트북의 파일에 있습니다. 이전에는 시각적 개체를 만들고 보고서 형식을 지정하는 데 몇 시간이 걸렸습니다. 걱정이 되기 시작합니다.
@@ -71,7 +71,7 @@ Excel 통합 문서 표 데이터가 필드 창에 나타납니다. 표 이름 �
 > 
 > 
 
-상사가 수익성이 가장 높은 국가를 알고 싶어 하는 경우 맵 시각화를 활용해 보세요. 캔버스에서 빈 영역을 선택하고 필드 창에서 **국가** 및 **수익** 필드를 차례로 끌어옵니다. Power BI가 각 위치의 상대 수익을 나타내는 거품이 포함된 맵 시각적 개체를 만듭니다.
+상사가 수익성이 가장 높은 국가를 알고 싶어 하는 경우 지도 시각화를 활용해 보세요. 캔버스에서 빈 영역을 선택하고 필드 창에서 **국가** 및 **수익** 필드를 차례로 끌어옵니다. Power BI가 각 위치의 상대 수익을 나타내는 거품이 포함된 맵 시각적 개체를 만듭니다.
 
 ![보고서 편집기의 맵 시각적 개체](media/service-from-excel-to-stunning-report/pbi_report_map-new.png)
 

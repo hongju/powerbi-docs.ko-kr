@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 4395884dfbc7ef5ebfb0df34e416d69ee553ebd3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514148"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523205"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop의 측정값
 
@@ -41,21 +41,21 @@ ms.locfileid: "65514148"
 DAX 수식은 Excel 수식과 매우 유사합니다. DAX에는 DATE, SUM 및 LEFT와 같이 Excel과 동일한 함수도 많습니다. 그러나 DAX의 함수는 Power BI Desktop에서처럼 관계형 데이터에서 작동합니다.
 
 ## <a name="lets-look-at-an-example"></a>예를 살펴보겠습니다.
-Jan은 Contoso의 판매 관리자입니다. Jan은 다음 회계 연도의 대리점 판매 예상액을 제공해달라는 요청을 받았습니다. 따라서 작년의 판매액을 기준으로 예측하기로 결정하고 다음 6개월 동안 예정된 다양한 프로모션의 결과로 판매액이 연간 6% 증가할 것으로 판단합니다.
+Jan은 Contoso의 판매 관리자입니다. Jan은 다음 회계 연도의 재판매인 판매 예상액을 제공해달라는 요청을 받았습니다. 따라서 작년의 판매액을 기준으로 예측하기로 결정하고 다음 6개월 동안 예정된 다양한 프로모션의 결과로 판매액이 연간 6% 증가할 것으로 판단합니다.
 
-Jan은 예상액을 보고하기 위해 작년의 판매 데이터를 Power BI Desktop으로 가져옵니다. Reseller Sales 테이블에서SalesAmount 필드를 찾습니다. 가져온 데이터에 작년의 판매액만 포함되어 있으므로 Jan은 SalesAmount 필드의 이름을 Last Years Sales로 바꿉니다. 그런 다음, Last Years Sales를 보고서 캔버스 위로 끌어옵니다. 해당 필드가 차트 시각화에서 작년의 모든 대리점 판매액의 합계인 단일 값으로 나타납니다.
+Jan은 예상액을 보고하기 위해 작년의 판매 데이터를 Power BI Desktop으로 가져옵니다. Jan은 Reseller Sales 테이블에서 SalesAmount 필드를 찾습니다. 가져온 데이터에 작년의 판매액만 포함되어 있으므로 Jan은 SalesAmount 필드의 이름을 Last Years Sales로 바꿉니다. 그런 다음, Last Years Sales를 보고서 캔버스로 끌어옵니다. 해당 필드가 차트 시각화에서 작년의 모든 대리점 판매액의 합계인 단일 값으로 나타납니다.
 
-Jan은 계산을 직접 지정하지 않은 경우에도 자동으로 입력된다는 것을 알게 됩니다. Power BI Desktop에서 Last Years Sales의 값을 모두 합하여 측정값을 직접 만들었습니다.
+Jan은 계산을 지정하지 않았지만 계산이 자동으로 제공되었음을 확인합니다. Power BI Desktop에서 Last Years Sales의 값을 모두 합하여 측정값을 직접 만들었습니다.
 
-그러나 Jan은 내년의 판매 예상액을 계산하는 측정값이 필요하며, 이 값은 6% 예상 증가를 고려하여 작년의 판매액에 1.06을 곱한 값을 기준으로 합니다. 이 계산을 위해 직접 측정값을 만듭니다. 새 측정값 기능을 사용하여 새 측정값을 만들고 다음과 같은 DAX 수식을 입력합니다.
+그러나 Jan은 내년의 판매 예상액을 계산하는 측정값이 필요하며, 이 값은 6% 예상 증가를 고려하여 작년의 판매액에 1.06을 곱한 값을 기준으로 합니다. 이 계산을 위해 Jan은 고유한 측정값을 만듭니다. 새 측정값 기능을 사용하여 새 측정값을 만들고, 다음과 같은 DAX 수식을 입력합니다.
 
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 
-그런 다음 새로운 Projected Sales 측정값을 차트로 끌어 놓습니다.
+그런 다음, 새로운 Projected Sales 측정값을 차트로 끌어옵니다.
 
 ![](media/desktop-measures/measuresinpbid_lastyearsales.png)
 
-이제 Jan은 최소한의 노력으로 신속하게 예상 판매량을 계산하는 측정값을 얻었습니다. 특정 대리점을 필터링하거나 다른 필드를 보고서에 추가하여 예상액을 추가로 분석할 수 있습니다.
+이제 Jan은 최소한의 노력으로 신속하게 예상 판매량을 계산하는 측정값을 얻었습니다. Jan은 특정 재판매인을 필터링하거나 보고서에 다른 필드를 추가하여 예상액을 추가로 분석할 수 있습니다.
 
 ## <a name="data-categories-for-measures"></a>측정값에 대한 데이터 범주
 

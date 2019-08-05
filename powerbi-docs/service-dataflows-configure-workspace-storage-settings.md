@@ -1,6 +1,6 @@
 ---
 title: 작업 영역 데이터 흐름 설정 구성
-description: Azure Data Lake 저장소 Gen2에서 해당 데이터 흐름 정 및 데이터 파일을 저장 하려면 Power BI에서 앱 작업 영역 구성
+description: Power BI에서 앱 작업 영역을 구성하여 Azure Data Lake Storage Gen2에 데이터 흐름 정의 및 데이터 파일 저장
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61168551"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523510"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>작업 영역 데이터 흐름 설정 구성(미리 보기)
 
@@ -105,7 +105,7 @@ Power BI Pro, Premium 및 Embedded 작업 영역:
 
 1.  Anna는 새 앱 작업 영역을 만들고 조직의 Data Lake에 데이터 흐름을 저장하도록 구성합니다.
 2.  Anna가 만든 작업 영역의 구성원인 Ben은 Power BI Desktop 및 데이터 흐름 커넥터를 사용하여 Anna가 만든 데이터 흐름에서 데이터를 가져오려고 합니다.
-3.  Ben은 Data Lake에서 데이터 흐름 CDM 폴더의 권한 있는 사용자로 추가되지 않았으므로 오류가 발생합니다.
+3.  Ben은 Data Lake의 데이터 흐름 CDM 폴더에 대한 권한 있는 사용자로 추가되지 않았으므로 오류가 발생합니다.
 
     ![데이터 흐름을 사용하는 중 오류 발생](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 

@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/08/2018
-ms.openlocfilehash: 063ab8083c3091a7a41ca30e9045ce3a791112d2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/23/2019
+ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770018"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415359"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항
 
@@ -50,6 +50,7 @@ ms.locfileid: "64770018"
 
 Power BI Report Server는 Report Server를 작동하는 데 필요한 핵심 설정을 구성하는 기본값을 설치합니다. 다음 요구 사항을 포함합니다.
 
+* Power BI Report Server에 대해 지원되는 언어 - 영어, 독일어, 스페인어, 일본어, 이탈리아어, 프랑스어, 러시아어, 중국어 간체, 중국어 번체, 포르투갈어(브라질), 한국어
 * 설치한 이후 및 Report Server 데이터베이스를 구성하기 전에 SQL Server 데이터베이스 엔진을 사용할 수 있어야 합니다. 데이터베이스 엔진 인스턴스는 Reporting Services 구성 관리자가 만들 Report Server 데이터베이스를 호스팅합니다. 데이터베이스 엔진은 실제 설치 환경에 필요하지 않습니다.
 * [SQL Server 버전에서 지원되는 Reporting Services 기능](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)에서는 SQL Server 버전 간의 차이점을 설명합니다.
 * 설치 프로그램을 실행하는 사용자 계정은 로컬 관리자 그룹의 멤버여야 합니다.
