@@ -96,7 +96,7 @@ Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단�
 
 설치 시에 **보고서 서버 구성**을 선택하면 Reporting Services 구성 관리자에 표시됩니다. 자세한 내용은 [Reporting Services 구성 관리자](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)를 참조하세요.
 
-[Report Server 데이터베이스를 만들어서](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) Reporting Services의 초기 구성을 완료해야 합니다. 이 단계를 완료하기 위해 SQL Server 데이터베이스 서버가 필요합니다.
+[Report Server 데이터베이스를 만들어서](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) Reporting Services의 초기 구성을 완료해야 합니다. 이 단계를 완료하기 위해서는 SQL Server 데이터베이스 서버가 필요합니다.
 
 ### <a name="creating-a-database-on-a-different-server"></a>다른 서버에 데이터베이스 만들기
 
