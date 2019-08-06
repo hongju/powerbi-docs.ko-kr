@@ -85,8 +85,8 @@ Power BI Premium 용량에서 작업 영역을 제거하면 연결된 데이터 
 
 * [데이터 흐름을 사용하여 셀프 서비스 데이터 준비](service-dataflows-overview.md)
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
-* [데이터 흐름을 사용 하 여 온-프레미스 데이터 원본](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 대 한 개발자 리소스](service-dataflows-developer-resources.md)
+* [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용](service-dataflows-on-premises-gateways.md)
+* [Power BI 데이터 흐름에 대한 개발자 리소스](service-dataflows-developer-resources.md)
 * [작업 영역 데이터 흐름 설정 구성(미리 보기)](service-dataflows-configure-workspace-storage-settings.md)
 * [CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)](service-dataflows-add-cdm-folder.md)
 * [데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
