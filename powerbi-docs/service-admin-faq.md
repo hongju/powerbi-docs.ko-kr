@@ -174,7 +174,7 @@ Power BI는 사용 통계를 볼 수 있는 관리 포털, 사용자와 그룹�
 
 Power BI 관리 포털을 사용하려면 Office 365 또는 Azure Active Directory 내에서 사용자 계정을 **전역 관리자**로 표시하거나, 누군가가 Power BI 서비스 관리자 역할을 사용자 계정에 할당해야 합니다. 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md) 및 [Power BI 관리 포털](service-admin-portal.md)을 참조하세요.
 
-### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Microsoft에서 내 사용자를 위해 만든 테넌트를 관리하는 프로세스는 무엇입니까?
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Microsoft에서 사용자를 위해 만든 테넌트를 관리하는 프로세스는 무엇입니까?
 
 셀프 서비스 사용자가 Azure AD를 사용하는 클라우드 서비스에 가입하면 서비스에서 사용자의 메일 도메인에 따라 비관리형 Azure AD 디렉터리에 추가합니다. ‘관리자 인수’로 알려진 프로세스를 사용하여 다른 사람이 만든 테넌트를 클레임하고 관리할 수 있습니다.  수행하는 인수 유형은 도메인과 연결된 기존 관리형 테넌트가 있는지 여부에 따라 다릅니다.
 
