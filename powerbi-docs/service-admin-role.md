@@ -12,7 +12,7 @@ ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: aad02103903837afbb7bbce48ab9607b5dbf62c3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65099632"
@@ -39,7 +39,7 @@ Power BI 서비스 관리자 역할은 다음 기능을 제공하지 않습니�
 
 Microsoft 365 관리 센터에서 Power BI 관리자 역할에 사용자를 할당하려면 다음 단계를 수행합니다.
 
-1. 에 [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)를 선택 **사용자가** > **활성 사용자**합니다.
+1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)에서 **사용자** > **활성 사용자**를 선택합니다.
 
     ![Microsoft 365 관리 센터](media/service-admin-role/powerbi-admin-users.png)
 
@@ -68,7 +68,7 @@ PowerShell을 사용하여 역할에 사용자를 할당할 수도 있습니다.
    PS C:\Windows\system32> Connect-AzureAD
    ```
 
-1. 둘째, 가져오기의 **ObjectId** 에 대 한 합니다 **Power BI 서비스 관리자** 역할입니다. [Get AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole)을 실행하여 **ObjectId**를 가져올 수 있습니다.
+1. 둘째, **Power BI 서비스 관리자** 역할에 대한 **ObjectId**를 가져옵니다. [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole)을 실행하여 **ObjectId**를 가져올 수 있습니다.
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole

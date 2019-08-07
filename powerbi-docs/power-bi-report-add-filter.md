@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 903883290def07ee6467dbebab1c7b31dec80b74
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: dcc273dd6bf356d9149086b38b9126e721fe63a2
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342185"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380254"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI의 보고서에 필터 추가
 
@@ -76,6 +76,8 @@ Power BI에서는 수동과 자동, 드릴스루 및 통과 등 다양한 종류
     시각적 개체가 바뀌면서 새 필터가 반영됩니다. 필터와 함께 보고서를 저장할 경우 보고서 구독자는 시작 문자로 필터링된 시각적 개체를 볼 수 있고 읽기용 보기에서 필터를 조작하여 값을 선택하거나 지울 수 있습니다.
      
     ![필터링된 시각적 개체](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    
+    시각적 개체에서 사용된 필드에 필터를 사용하고 해당 필드가 집계(예: 합계, 평균 또는 개수)된 경우 각 데이터 요소의 ‘집계된’ 값을 필터링하게 됩니다.  따라서 위에서 **올해 판매액 > 500000**인 시각적 개체를 필터링하도록 요청하면 **13 - Charleston Fashion Direct** 데이터 요소만 결과에 표시됩니다. [모델 측정값](desktop-measures.md) 필터는 항상 데이터 요소의 집계된 값에 적용됩니다.
 
 ### <a name="filter-with-a-field-thats-not-in-the-visual"></a>시각적 개체에 없는 필드를 사용하여 필터링
 
@@ -94,6 +96,8 @@ Power BI에서는 수동과 자동, 드릴스루 및 통과 등 다양한 종류
     ![필터링된 시각적 개체](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     필터와 함께 보고서를 저장할 경우 보고서 구독자는 읽기용 보기에서 **지역 관리자** 필터를 조작하여 값을 선택하거나 지울 수 있습니다.
+    
+    ‘숫자 열’을 필터 창으로 끌어 시각적 개체 수준 필터를 만드는 경우 ‘기본 데이터 행’에 필터가 적용됩니다.   예를 들어 **UnitCost** 필드에 필터를 추가하고 **UnitCost** > 20으로 설정하면 시각적 개체에 표시된 데이터 요소의 총 단위 비용과 관계없이 단위 비용이 20보다 큰 제품 행의 데이터만 표시됩니다.
 
 ## <a name="add-a-filter-to-an-entire-page"></a>전체 페이지에 필터 추가
 
@@ -158,10 +162,6 @@ Power BI 서비스 및 Power BI Desktop의 드릴스루를 사용하여 공급 �
 1. 뒤로 화살표를 선택하여 이전 보고서 페이지로 돌아갑니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-
-- 시각적 수준 필터 및 페이지 수준 필터에서 서로 다른 결과를 반환할 수 있는 경우가 있습니다.  예를 들어 시각적 수준 필터를 추가하는 경우 Power BI는 집계된 결과를 필터링합니다.  기본 집계는 Sum이지만 [집계 형식을 변경](service-aggregates.md)할 수 있습니다.  
-
-    그러면 페이지 수준 필터를 추가하는 경우 Power BI는 집계하지 않고 필터링합니다.  한 페이지에 각각 다른 집계 형식을 활용할 수 있는 많은 시각적 개체가 포함될 수 있기 때문에 집계하지 않습니다.  따라서 각 데이터 행에 필터가 적용됩니다.
 
 - 필드 창이 표시되지 않으면 보고서 [편집용 보기](service-interact-with-a-report-in-editing-view.md)에 있는지 확인하십시오.    
 - 필터를 많이 변경하고 보고서 작성자 기본 설정으로 되돌리려는 경우 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다.

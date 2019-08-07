@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1a0ec90d3f6a1de5a542da7ee98f956dfcef67b1
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325141"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624051"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용
 
@@ -170,9 +170,96 @@ SAP HANA를 사용 중인 경우 약간의 성능 개선 효과를 볼 수 있�
 
 이 구성은 대부분의 경우에서 작동합니다. 그러나 Kerberos를 사용하는 경우 환경에 따라 서로 다른 구성이 있을 수 있습니다. 보고서가 여전히 로드되지 않는 경우 추가 조사를 위해 도메인 관리자에게 문의해야 합니다.
 
-## <a name="configure-sap-bw-for-sso"></a>SSO용 SAP BW 구성
+## <a name="configure-sap-bw-for-sso-using-commoncryptolib"></a>CommonCryptoLib를 사용하여 SSO에 대해 SAP BW 구성
 
 Kerberos가 게이트웨이에서 어떻게 작동하는지 이해했으므로 SAP BW(SAP Business Warehouse)용 SSO를 구성할 수 있습니다. 다음 단계에서는 이 문서의 앞 부분에서 설명한 것처럼 이미 [Kerberos 제한된 위임이 준비](#prepare-for-kerberos-constrained-delegation)되어 있다고 가정합니다.
+
+> [!NOTE]
+> 이 지침은 SAP BW **애플리케이션** 서버의 SSO 설정에 적용됩니다. Microsoft는 현재 SAP BW **메시지** 서버에 대한 SSO 연결을 지원하지 않습니다.
+
+1. BW 서버가 Kerberos SSO에 대해 올바르게 구성되었는지 확인합니다. 올바르게 구성된 경우 SSO를 통해 SAP GUI와 같은 SAP 도구를 사용하여 BW 서버에 액세스할 수 있어야 합니다. 설정 단계에 대한 자세한 내용은 [SAP Single Sign-On: Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/)(Kerberos/SPNEGO를 사용하여 인증)을 참조하세요. BW 서버가 CommonCryptoLib를 SNC 라이브러리로 사용하고 “CN=”으로 시작하는 SNC 이름(예: “CN = BW1”)이 있어야 합니다. SNC 이름 요구 사항에 대한 자세한 내용은 [SNC Parameters for Kerberos Configuration](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html)(Kerberos 구성의 SNC 매개 변수)(snc/identity/as 매개 변수)를 참조하세요.
+
+1. 아직 수행하지 않은 경우 [Kerberos 제한 위임 준비](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos#prepare-for-kerberos-constrained-delegation) 단계를 완료합니다. 게이트웨이 서비스 사용자가 Active Directory 환경에서 BW 애플리케이션 서버를 대표하는 서비스 사용자에게 위임된 자격 증명을 제공하도록 구성되었는지 확인합니다.
+
+1. 아직 수행하지 않은 경우 게이트웨이가 설치된 컴퓨터에 [SAP .NET Connector](https://support.sap.com/en/product/connectors/msnet.html) x64 버전을 설치합니다. Power BI Desktop에서 BW 서버에 연결을 시도하여 구성 요소가 설치되었는지 확인할 수 있습니다. 2\.0 구현을 사용하여 연결할 수 없는 경우 .NET Connector가 설치되지 않은 것입니다.
+
+1. 게이트웨이가 설치된 컴퓨터에 SAP SLC(보안 로그인 클라이언트)가 실행되고 있지 않은지 확인합니다. SLC는 SSO를 위해 Kerberos를 사용하는 게이트웨이 기능을 방해할 수 있는 방식으로 Kerberos 티켓을 캐시합니다. SLC가 설치된 경우 제거하거나 SAP 보안 로그인 클라이언트를 종료합니다. 시스템 트레이에서 아이콘을 마우스 오른쪽 단추로 클릭하고 로그아웃 및 종료를 선택한 다음, 게이트웨이를 사용하여 SSO 연결을 시도하면 됩니다. Windows Server 머신에서는 SLC를 사용할 수 없습니다. 자세한 내용은 [SAP Note 2780475](https://launchpad.support.sap.com/#/notes/2780475)(s-user가 필요함)를 참조하세요.
+
+    ![SAP 보안 로그인 클라이언트](media/service-gateway-sso-kerberos/sap-secure-login-client.png)
+
+    SLC를 제거하거나 **로그아웃** 및 **종료**를 선택하는 경우 cmd 창을 열고 `klist purge`를 입력하여 캐시된 Kerberos 티켓을 모두 지운 다음, 게이트웨이를 통해 SSO 연결을 시도합니다.
+
+1. SAP 실행 패드에서 CommonCryptoLib(sapcrypto.dll) 버전 **8.5.25 이상**을 다운로드하고 게이트웨이 머신의 폴더에 복사합니다. sapcrypto.dll을 복사한 디렉터리에 다음 내용이 포함된 sapcrypto.ini라는 파일을 만듭니다.
+
+    ```
+    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ```
+
+    .ini 파일에는 CommonCryptoLib가 게이트웨이 시나리오에서 SSO를 사용하도록 설정하는 데 필요한 구성 정보가 포함되어 있습니다.
+
+    > [!NOTE]
+    > 두 파일을 동일한 위치에 저장해야 합니다. 즉, _/path/to/sapcrypto/_ 에 sapcrypto.ini와 sapcrypto.dll을 모두 포함해야 합니다.
+
+    서비스 사용자가 가장할 게이트웨이 서비스 사용자와 AD(Active Directory) 사용자 모두에게 두 파일에 대한 읽기 및 실행 권한이 있어야 합니다. 인증된 사용자 그룹에 .ini 및 .dll 파일 권한을 모두 부여하는 것이 좋습니다. 테스트를 위해 게이트웨이 서비스 사용자와 가장된 사용자 모두에게 이러한 사용 권한을 명시적으로 부여할 수도 있습니다. 아래 스크린샷에서는 인증된 사용자 그룹에 sapcrypto.dll에 대한 **읽기 &amp; 실행** 권한을 부여했습니다.
+
+    ![인증된 사용자](media/service-gateway-sso-kerberos/authenticated-users.png)
+
+1. SAP Business Warehouse Server 데이터 원본이 없는 경우 Power BI 서비스의 **게이트웨이 관리** 페이지에서 데이터 원본을 추가합니다. SSO 연결을 통과시킬 게이트웨이와 연결된 BW 데이터 원본이 이미 있는 경우 편집할 준비를 합니다.
+
+    **SNC 라이브러리**에서 **SNC\_LIB 또는 SNC\_LIB\_64 환경 변수** 또는 **사용자 지정**을 선택합니다. **SNC\_LIB** 옵션을 선택하는 경우 게이트웨이 머신의 SNC\_LIB\_64 환경 변수 값을 게이트웨이 머신에 있는 sapcrypto.dll 복사본의 절대 경로(예: C:\Users\Test\Desktop\sapcrypto.dll)로 설정해야 합니다. **사용자 지정**을 선택하는 경우 **게이트웨이 관리** 페이지에 표시되는 사용자 지정 SNC 라이브러리 경로 필드에 sapcrypto.dll의 절대 경로를 붙여넣습니다.
+
+    **고급 설정**에서 **DirectQuery 쿼리에 Kerberos를 통한 SSO 사용** 확인란이 선택되었는지 확인합니다. 입력한 사용자 이름은 BW 서버에 연결할 수 있는 권한만 있으면 되고, 주로 데이터 원본 연결을 만든 후 테스트하는 데 사용됩니다. 이 사용자는 가져오기 기반 데이터 세트에서 만든 보고서(있는 경우)를 새로 고치는 데에도 사용됩니다. **기본** 인증을 선택하는 경우 BW 사용자를 제공해야 합니다. **Windows** 인증을 선택하는 경우 SAP GUI의 SU01 트랜잭션을 통해 BW 사용자에 매핑된 Windows Active Directory 사용자를 지정해야 합니다. 나머지 필드(**시스템 번호 **,** 클라이언트 ID **,** SNC 파트너 이름** 등)는 SSO를 통해 BW 서버에 연결하기 위해 Power BI Desktop에 입력하는 정보와 일치해야 합니다. **적용**을 선택하고 연결 테스트에 성공했는지 확인합니다.
+
+    ![인증 방법](media/service-gateway-sso-kerberos/authentication-method.png)
+
+1. CCL\_PROFILE 시스템 환경 변수를 만들고 sapcrypto.ini로 설정합니다.
+
+    ![CCL\_PROFILE 시스템 환경 변수](media/service-gateway-sso-kerberos/ccl-profile-variable.png)
+
+    sapcrypto .dll 및 .ini 파일은 동일한 위치에 있어야 합니다. sapcrypto.ini가 바탕 화면에 있는 위의 예제에서는 sapcrypto.dll도 바탕 화면에 있어야 합니다.
+
+1. 게이트웨이 서비스를 다시 시작합니다.
+
+    ![게이트웨이 서비스 다시 시작](media/service-gateway-sso-kerberos/restart-gateway-service.png)
+
+1. Power BI Desktop에서 **DirectQuery 기반** BW 보고서를 게시합니다. 이 보고서는 Power BI 서비스에 로그인하는 AAD(Azure Active Directory) 사용자에 매핑된 BW 사용자가 액세스할 수 있는 데이터를 사용해야 합니다. 새로 고침이 작동하는 방식 때문에 가져오기 대신 DirectQuery를 사용해야 합니다. 가져오기 기반 보고서를 새로 고치는 경우 게이트웨이는 BW 데이터 원본을 만들 때 **사용자 이름** 및 **암호** 필드에 입력한 자격 증명을 사용합니다. 즉, Kerberos SSO가 사용되지 **않습니다**. 또한 게시할 때 여러 게이트웨이가 있는 경우 BW SSO에 대해 구성한 게이트웨이를 선택해야 합니다. Power BI 서비스에서 이제 보고서를 새로 고치거나, 게시된 데이터 세트를 토대로 새 보고서를 만들 수 있습니다.
+
+### <a name="troubleshooting"></a>문제 해결
+
+Power BI 서비스에서 보고서를 새로 고칠 수 없는 경우 게이트웨이 추적, CPIC 추적 및 CommonCryptoLib 추적을 사용하여 문제를 진단할 수 있습니다. CPIC 추적 및 CommonCryptoLib는 SAP 제품이므로 Microsoft에서 직접적인 지원을 제공할 수 없습니다. BW에 대한 SSO 액세스 권한을 부여 받은 Active Directory 사용자의 경우 일부 Active Directory 구성에서는 사용자가 게이트웨이가 설치된 머신의 Administrators 그룹 구성원이어야 할 수도 있습니다.
+
+1. **게이트웨이 로그:** 문제를 재현하고 [게이트웨이 앱](https://docs.microsoft.com/data-integration/gateway/service-gateway-app)을 연 다음, **진단** 탭으로 이동하여 **로그 내보내기**를 선택합니다.
+
+    ![게이트웨이 로그 내보내기](media/service-gateway-sso-kerberos/export-gateway-logs.png)
+
+1. **CPIC 추적:** CPIC 추적을 사용하도록 설정하려면 두 가지 환경 변수 CPIC\_TRACE 및 CPIC\_TRACE\_DIR을 설정합니다. 첫 번째 변수는 추적 수준을 설정하고, 두 번째 변수는 추적 파일 디렉터리를 설정합니다. 이 디렉터리는 인증된 사용자 그룹의 구성원이 쓸 수 있는 위치여야 합니다. CPIC\_TRACE를 3으로 설정하고, CPIC\_TRACE\_DIR을 추적하려는 파일이 기록된 디렉터리로 설정합니다.
+
+    ![CPIC 추적](media/service-gateway-sso-kerberos/cpic-tracing.png)
+
+    문제를 재현하고 CPIC\_TRACE\_DIR에 추적 파일이 있는지 확인합니다.
+
+1. **CommonCryptoLib 추적:** 앞서 만든 sapcrypto.ini 파일에 다음 두 줄을 추가하여 CommonCryptoLib 추적을 켭니다.
+
+    ```
+    ccl/trace/level=5
+    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ```
+
+    _ccl/trace/directory_ 옵션을 인증된 사용자 그룹의 구성원이 쓸 수 있는 위치로 변경해야 합니다. 또는 새 .ini 파일을 만들어 이 동작을 변경합니다. sapcrypto.ini 및 sapcrypto.dll과 동일한 디렉터리에 다음 내용이 포함된 sectrace.ini라는 파일을 만듭니다.  DIRECTORY 옵션을 인증된 사용자가 쓸 수 있는 머신의 위치로 바꿉니다.
+
+    ```
+    LEVEL = 5
+    
+    DIRECTORY = \\<drive\\>:\logs\sectrace
+    ```
+
+    이제 문제를 재현하고 DIRECTORY가 가리키는 위치에 추적 파일이 있는지 확인합니다. 작업이 완료되면 CPIC 및 CCL 추적을 꺼야 합니다.
+
+    CommonCryptoLib 추적에 대한 자세한 내용은 [SAP Note 2491573](https://launchpad.support.sap.com/#/notes/2491573)(s-user가 필요함)을 참조하세요.
+
+## <a name="configure-sap-bw-for-sso-using-gsskrb5gx64krb5"></a>gsskrb5/gx64krb5를 사용하여 SSO에 대해 SAP BW 구성
+
+CommonCryptoLib를 SNC 라이브러리로 사용할 수 없는 경우 gsskrb5/gx64krb5를 대신 사용할 수 있습니다. 그러나 설정 단계가 훨씬 더 복잡하며, SAP는 gsskrb5에 대한 지원을 더 이상 제공하지 않습니다.
 
 이 가이드에서는 가능한 한 포괄적으로 설명하려고 합니다. 이러한 단계 중 일부를 이미 완료한 경우에는 건너뛸 수 있습니다. 예를 들어 SAP BW 서버의 서비스 사용자를 이미 만들고 해당 사용자에게 SPN을 매핑했거나, 이미 `gsskrb5` 라이브러리를 설치했을 수도 있습니다.
 
@@ -382,7 +469,7 @@ Azure AD Connect를 구성하지 않은 경우 Azure AD 사용자에게 매핑�
 
 **온-프레미스 데이터 게이트웨이** 및 **DirectQuery**에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
-* [온-프레미스 데이터 게이트웨이란?](/data-integration/gateway/service-gateway-getting-started)
+* [온-프레미스 데이터 게이트웨이란?](/data-integration/gateway/service-gateway-onprem)
 * [Power BI의 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
 * [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)

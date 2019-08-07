@@ -42,7 +42,7 @@ Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유�
 
 1. 설치 관리자를 다운로드 한 후 Power BI Desktop (2019 년 5 월) 설치 마법사를 실행 합니다.
 
-2. 설치가 끝나면 선택 **Power BI Desktop 시작**합니다.
+2. 설치가 끝나면 **Power BI Desktop 시작**을 선택합니다.
 
     그러면 자동으로 시작되어 사용할 준비가 됩니다.
 
@@ -68,7 +68,7 @@ Power BI Report Server, Power BI 서비스(http://app.powerbi.com) ) 및 Power B
 
 ### <a name="in-a-browser"></a>브라우저에서
 
-Power BI Report Server 보고서는 사용자 지정 시각적 개체를 포함 하 여 거의 모든 시각화를 지원 합니다. Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
+Power BI Report Server 보고서는 사용자 지정 시각적 개체를 포함하여 거의 모든 시각화를 지원합니다. Power BI Report Server 보고서는 다음 항목은 지원하지 않습니다.
 
 * R 시각적 개체
 * ArcGIS 맵
@@ -93,13 +93,13 @@ Power BI Report Server 보고서는 Power BI 모바일 앱에서 다음과 같�
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>이전 버전의 Power BI Report Server에 대한 Power BI Desktop
 
-보고서 서버가 이전 버전이면 해당 버전의 Power BI Desktop이 필요합니다. 이전 버전을 다운로드 하는 링크는 다음과 같습니다.
+보고서 서버가 이전 버전이면 해당 버전의 Power BI Desktop이 필요합니다. 이전 버전을 다운로드하는 링크는 다음과 같습니다.
 
 - Microsoft Power BI Desktop ([-2019 년 1 월 Power BI Report Server에 대 한 액세스에 최적화 된](https://go.microsoft.com/fwlink/?linkid=2055039))
 
 ## <a name="next-steps"></a>다음 단계
 
-Power BI Desktop을 설치했으므로 Power BI 보고서를 작성하기 시작할 수 있습니다.
+Power BI Desktop을 설치했으므로 Power BI 보고서 작성을 시작할 수 있습니다.
 
 [Power BI Report Server용 Power BI 보고서 만들기](quickstart-create-powerbi-report.md)  
 [Power BI Report Server란?](get-started.md)

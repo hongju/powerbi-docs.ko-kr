@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
-ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.openlocfilehash: 1e836dd9fe4be1c0267a0ba4008c2455cf59e2e2
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67498968"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665393"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 보기)
 
@@ -45,6 +45,9 @@ BYOK는 PBIX 파일과 연결된 데이터 세트에만 적용되며 타일 및 
 
 1. 래핑 및 래핑 해제 권한이 있는 4096비트 길이의 RSA 키를 만듭니다(또는 같은 형식의 기존 키를 사용).
 
+    > [!IMPORTANT]
+    > Power BI BYOK는 4096비트 길이의 RSA 키만 지원합니다.
+
 1. 권장: 키 자격 증명 모음에 일시 삭제(_soft delete_) 옵션을 사용하도록 설정되어 있는지 확인합니다.
 
 ### <a name="add-the-service-principal"></a>서비스 주체 추가
@@ -53,11 +56,17 @@ BYOK는 PBIX 파일과 연결된 데이터 세트에만 적용되며 타일 및 
 
 1. **주체 선택**에서 Microsoft.Azure.AnalysisServices를 검색하여 선택합니다.
 
+    > [!NOTE]
+    > “Microsoft.Azure.AnalysisServices”를 찾을 수 없는 경우 Azure Key Vault와 연결된 Azure 구독에 Power BI 리소스가 연결되지 않았을 수 있습니다. 대신, 다음 문자열을 검색해 보세요. 00000009-0000-0000-c000-000000000000.
+
 1. **키 권한**에서 **키 래핑 해제**와 **키 래핑**을 선택합니다.
 
     ![PBIX 파일 구성 요소](media/service-encryption-byok/service-principal.png)
 
 1. **확인**과 **저장**을 차례로 선택합니다.
+
+> [!NOTE]
+> Futurem의 데이터에 대한 Power BI 액세스를 취소하려면 Azure Key Vault에서 이 서비스 사용자에 대한 액세스 권한을 제거합니다.
 
 ### <a name="create-an-rsa-key"></a>RSA 키 만들기
 

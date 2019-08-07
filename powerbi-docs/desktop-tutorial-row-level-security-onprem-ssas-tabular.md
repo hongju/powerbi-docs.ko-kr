@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28fe39788dab6f22845d3ffcb7115fb1da5cb268
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826665"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523230"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
 
@@ -144,7 +144,7 @@ ms.locfileid: "66826665"
    
    **판매 관리자**로서의 역할에서 Sumit은 다른 모든 판매 지역의 데이터를 볼 수 있습니다. Sumit은 이 보고서(이전 작업 단계에서 만든 보고서)를 만들고 Power BI 서비스에 게시합니다.
    
-   보고서를 게시하면 해당 보고서를 기반으로 Power BI 서비스에 **TabularDynamicSec**이라는 대시보드를 만듭니다. 다음 그림에서 Sumit은 모든 판매 지역에 해당하는 데이터를 볼 수 있습니다.
+   Sumit가 보고서를 게시한 후 다음 단계는 해당 보고서를 기준으로 Power BI 서비스에서 **TabularDynamicSec**라는 대시보드를 만드는 것입니다. 다음 그림에서 Sumit은 모든 판매 지역에 해당하는 데이터를 볼 수 있습니다.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 
@@ -154,7 +154,7 @@ ms.locfileid: "66826665"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_dashboard.png)
 
-3. Jon Doe가 **Power BI** 서비스에 로그인하고 Sumit이 만든 공유 대시보드를 볼 때 Jon Doe는 그의 지역의 판매**만** 봐야 합니다. 
+3. Jon Doe가 **Power BI** 서비스에 로그인하고 Sumit이 만든 공유 대시보드를 볼 때 해당 지역의 판매액**만** 표시되어야 합니다. 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0efbcf61eea82dd1db016917c7fa7c53e06c8a66
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a26cd6d654f9378d9fa09ae46b64762213b26089
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61407612"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522979"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 서비스의 데이터 경고
 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 경고를 설정합니다. 
@@ -33,7 +33,7 @@ Power BI Pro 라이선스가 있는 경우 또는 [프리미엄 용량](service-
 > 
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>Power BI 서비스에서 데이터 경고 설정
-Amanda가 대시보드의 타일에 일부 경고를 추가하는 과정을 시청합니다. 그런 다음 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
+Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 봅니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 

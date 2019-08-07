@@ -1,6 +1,6 @@
 ---
-title: Power BI의 조직의 사용자 지정 시각적 개체
-description: Power BI에서 조직의 사용자 지정 시각적 개체 사용, 관리 및 만들기
+title: Power BI의 조직 시각적 개체
+description: Power BI에서 조직의 시각적 개체 사용, 관리 및 만들기
 author: sranins
 ms.author: rasala
 manager: kfile
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 157b20107a5be106ac97e0cb927b1e496e1ba115
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9775b7cd1eb936019051ae952bc270924061daaa
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421912"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415345"
 ---
-# <a name="organizational-custom-visuals-in-power-bi"></a>Power BI의 조직의 사용자 지정 시각적 개체
+# <a name="organizational-visuals-in-power-bi"></a>Power BI의 조직 시각적 개체
 
 Power BI에서 사용자 지정 시각적 개체를 사용하여 사용자에게 맞는 고유한 유형의 시각적 개체를 만들 수 있습니다. 사용자 지정 시각적 개체는 Power BI에 포함된 수많은 시각적 개체로도 요구 사항이 충족되지 않을 때 개발자가 만듭니다.
 

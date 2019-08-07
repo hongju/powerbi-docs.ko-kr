@@ -12,7 +12,7 @@ ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65099826"
@@ -109,7 +109,7 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
     ![지금 구입 - Power BI(무료)](media/service-admin-licensing-organization/buy-powerbi-free.png)
 
-1. 추가하려는 라이선스의 수를 입력하고 **지금 확인** 또는 **카트에 추가**를 선택합니다.
+1. 추가하려는 라이선스의 수를 입력하고 **지금 결제** 또는 **카트에 추가**를 선택합니다.
 
 1. 체크 아웃 흐름에서 필요한 정보를 입력합니다.
 
@@ -136,7 +136,7 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
    ![Azure Active Directory 로그인](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. 로그인하면 다음 명령을 실행하여 테넌트가 현재 구성되어 있는 방법을 확인합니다. ('Fl' 아래 'l', 숫자 1이 아닌 문자는 note).
+1. 로그인하면 다음 명령을 실행하여 테넌트의 현재 구성을 확인합니다. (아래의 'fl'은 숫자 1이 아닌 문자 'l'임에 유의하세요).
 
     ```powershell
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 

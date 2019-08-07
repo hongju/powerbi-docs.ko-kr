@@ -12,7 +12,7 @@ ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 06b7ba4bfc68358887af28bd2595b442df90d334
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710497"
@@ -29,7 +29,9 @@ Power BI 테넌트의 위치와 해당 위치를 선택하는 방법에 대해 �
 
 1. Power BI 서비스의 맨 위 메뉴에서 도움말( **?** )을 선택한 후 **Power BI 정보**를 선택합니다.
 
+
 1. **데이터 저장 위치** 옆에 있는 값을 확인합니다. 이것이 테넌트가 위치한 지역입니다. 작업 영역에 대해 다른 지역에서 전용 용량을 사용하지 않는 경우, 데이터가 저장된 영역이기도 합니다.
+
 
     ![데이터 영역](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 
