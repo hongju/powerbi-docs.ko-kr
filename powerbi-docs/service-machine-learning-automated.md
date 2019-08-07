@@ -1,6 +1,6 @@
 ---
 title: Power BI에서 Machine Learning 자동화(미리 보기)
-description: Power BI에서 Machine Learning 자동화 된 (AutoML)를 사용 하는 방법 알아보기
+description: Power BI에서 자동화된 Machine Learning (AutoML)을 사용 하는 방법 알아보기
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -19,11 +19,11 @@ ms.locfileid: "61236823"
 ---
 # <a name="automated-machine-learning-in-power-bi-preview"></a>Power BI에서 Machine Learning 자동화(미리 보기)
 
-자동화 용 기계 학습 (AutoML) 데이터 흐름에는 비즈니스 분석가가 학습, 유효성 검사 및 Power BI에서 직접 Machine Learning 모델을 호출할 수 있습니다. 분석가 모델 학습에 대 한 입력된 데이터를 지정 하는 데이터 흐름을 사용할 수 있는 새 기계 학습 모델을 만드는 간단한 환경을 포함 합니다. 서비스 자동으로 가장 관련성이 높은 기능 추출, 적절 한 알고리즘 선택 및 튜닝 및 기계 학습 모델의 유효성을 검사 합니다. 모델을 학습 한 후 Power BI는 분석가 게는 결과 성능을 설명 하는 유효성 검사의 결과 포함 하는 보고서를 자동으로 생성 합니다. 모델은 데이터 흐름 내에서 모든 새로운 또는 업데이트 된 데이터에 대해 호출할 수 있습니다.
+ 데이터 흐름을 위한 자동화된 기계 학습 (AutoML)을 통해 비즈니스 분석가가 Power BI에서 직접 Machine Learning 모델을 학습, 유효성 검사 및 호출할 수 있습니다. 분석가들이 그들의 데이터 흐름을 사용하여 모델을 학습시키기 위한 입력 데이털르 지정할 수 있는 새로은 ML 모델을 만드는 간단한 환경을 포함 합니다. 서비스는 자동으로 가장 관련성이 높은 기능 추출, 적절한 알고리즘 선택 및 튜닝 그리고 ML 모델의 유효성을 검사 합니다. 모델을 학습 한 후, Power BI는 분석가에게 결과와 성능을 설명 하는 유효성 검사의 결과를 포함 하는 보고서를 자동으로 생성 합니다. 모델은 데이터 흐름 내에서 모든 새로운 또는 업데이트된 데이터에 대해 호출할 수 있습니다.
 
 ![Machine learning 화면](media/service-machine-learning-automated/automated-machine-learning-power-bi-01.png)
 
-자동화 된 machine learning은 Power BI Premium 및 포함 된 용량에서 호스트 되는 데이터 흐름에서 사용할 수 있습니다. 이 미리 보기에서 AutoML를 사용 하면 이진 예측, 분류 및 회귀 모델에 대 한 기계 학습 모델을 학습할 수 있습니다.
+자동화된 기계 학습은 Power BI Premium 및 Embedded 용량에서 호스트 되는 데이터 흐름에서만 사용할 수 있습니다. 이 미리 보기에서, AutoML을 사용하면  이진 예측, 분류 및 회귀 모델에 대한 기계 학습 모델을 학습할 수 있습니다.
 
 ## <a name="working-with-automl"></a>AutoML 사용
 
