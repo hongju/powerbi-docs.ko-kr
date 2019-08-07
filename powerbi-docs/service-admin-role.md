@@ -68,7 +68,7 @@ PowerShell을 사용하여 역할에 사용자를 할당할 수도 있습니다.
    PS C:\Windows\system32> Connect-AzureAD
    ```
 
-1. 둘째, **Power BI 서비스 관리자** 역할에 대한 **ObjectId**를 가져옵니다. [Get AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole)을 실행하여 **ObjectId**를 가져올 수 있습니다.
+1. 둘째, **Power BI 서비스 관리자** 역할에 대한 **ObjectId**를 가져옵니다. [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole)을 실행하여 **ObjectId**를 가져올 수 있습니다.
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
