@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1e836dd9fe4be1c0267a0ba4008c2455cf59e2e2
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391124"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665393"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 보기)
 
@@ -64,6 +64,9 @@ BYOK는 PBIX 파일과 연결된 데이터 세트에만 적용되며 타일 및 
     ![PBIX 파일 구성 요소](media/service-encryption-byok/service-principal.png)
 
 1. **확인**과 **저장**을 차례로 선택합니다.
+
+> [!NOTE]
+> Futurem의 데이터에 대한 Power BI 액세스를 취소하려면 Azure Key Vault에서 이 서비스 사용자에 대한 액세스 권한을 제거합니다.
 
 ### <a name="create-an-rsa-key"></a>RSA 키 만들기
 

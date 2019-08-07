@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2019
+ms.date: 07/25/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 1d1371fa63af51f50a631739e4b2eed5550dc7ee
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523335"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623898"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -53,9 +53,9 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 필드 형식은 숫자, 날짜/시간 또는 문자열일 수 있고 사용된 형식은 데이터 세트에서 설정된 형식과 일치해야 합니다.  예를 들어 날짜로 설정된 데이터 세트 열에서 날짜/시간 또는 숫자 값을 찾으려는 경우(예: Table/StringColumn eq 1) “string” 형식의 테이블 열을 지정하는 작업은 작동하지 않습니다.
 
-* **문자열**은 'manager name'과 같이 작은따옴표로 묶여야 합니다.
-* **숫자**에는 특별한 서식 지정이 필요하지 않습니다.
-* **날짜 및 시간**은 작은따옴표로 묶여야 합니다. OData v3에서는 datetime이라는 단어 앞에 와야 하지만 OData v4에서는 datetime이 필요하지 않습니다.
+* **문자열**은 ‘manager name’과 같이 작은따옴표로 묶여야 합니다.
+* **숫자**에는 특별한 서식 지정이 필요하지 않습니다. 자세한 내용은 이 문서의 [숫자 데이터 형식](#numeric-data-types)을 참조하세요.
+* **날짜 및 시간** 이 문서의 [Date 데이터 형식](#date-data-types)을 참조하세요. 
 
 여전히 혼동되는 경우 계속 읽어 보고 자세히 분석합니다.  
 
@@ -133,9 +133,17 @@ Power BI URL 필터에는 다음 형식의 숫자가 포함될 수 있습니다.
 
 ### <a name="date-data-types"></a>Date 데이터 형식
 
-Power BI는 **Date** 및 **DateTimeOffset** 데이터 형식에 대해 OData V3 및 V4를 모두 지원합니다.  날짜는 EDM 형식(2019-02-12T00:00:00)을 사용하여 표시되므로 날짜를 ‘YYYY-MM-DD’로 지정하면 Power BI에서 ‘YYYY-MM-DDT00:00:00’으로 해석합니다.
+Power BI는 **Date** 및 **DateTimeOffset** 데이터 형식에 대해 OData V3 및 V4를 모두 지원합니다. OData V3의 경우 날짜는 작은따옴표로 묶여야 하고 앞에 단어 datetime이 와야 합니다. OData V4에서는 작은따옴표와 단어 datetime이 필요하지 않습니다. 
+  
+Dates는 EDM 서식을 사용하여 표시됩니다(2019-02-12T00:00:00). ‘YYYY-MM-DD’로 날짜를 지정하면 Power BI에서는 ‘YYYY-MM-DDT00:00:00’과 같이 해석합니다. 월과 일이 두 자리 숫자(MM 및 DD)인지 확인합니다.
 
-이러한 차이점이 중요한 이유는 무엇인가요? 쿼리 문자열 매개 변수 **Table/Date gt ‘2018-08-03’** 을 만든다고 가정하겠습니다.  결과에는 2018년 8월 3일이 포함되나요, 아니면 2018년 8월 4일에 시작하나요? Power BI가 쿼리를 **Table/Date gt ‘2018-08-03T00:00:00’** 으로 변환하므로 해당 날짜가 **‘2018-08-03T00:00:00’** 보다 크다면 결과에는 0이 아닌 시간 부분이 있는 모든 날짜가 포함됩니다.
+이러한 차이점이 중요한 이유는 무엇인가요? 쿼리 문자열 매개 변수 **Table/Date gt ‘2018-08-03’** 을 만든다고 가정하겠습니다.  결과에는 2018년 8월 3일이 포함되나요, 아니면 2018년 8월 4일에 시작하나요? Power BI에서는 쿼리를 **Table/Date gt ‘2018-08-03T00:00:00’** 으로 변환합니다. 이러한 날짜는 **‘2018-08-03T00:00:00’** 보다 크므로 시간 부분이 0이 아닌 모든 날짜가 결과에 포함됩니다.
+
+V3와 V4 사이에는 다른 점이 있습니다. OData V3는 날짜를 지원하지 않고 날짜/시간만 지원합니다. 따라서 V3 형식을 사용하는 경우 전체 날짜 시간으로 정규화해야 합니다. “datetime’2019-05-20’” 같은 날짜 리터럴은 V3 표기법에서 지원되지 않습니다. 하지만 V4 표기법에서는 “2019-05-20”으로만 쓸 수 있습니다. 다음은 V3 및 V4의 두 가지 동일한 필터 쿼리입니다.
+
+- OData V4 형식: filter=Table/Date gt 2019-05-20
+- OData V3 형식: filter=Table/Date gt datetime’2019-05-20T00:00:00’
+
 
 ## <a name="special-characters-in-url-filters"></a>URL 필터의 특수 문자
 

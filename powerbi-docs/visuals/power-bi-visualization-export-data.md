@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 07/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 21fa3c5c3907e8c1aa4d40bd3e6332c77ff62b98
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523351"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730071"
 ---
 # <a name="export-data-from-visualizations"></a>시각화에서 데이터 내보내기
 
@@ -79,6 +79,8 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
     ![요약된 데이터, xlsx 및 내보내기 옵션이 호출된 데이터 내보내기의 스크린샷](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
     시각화에 필터를 적용한 경우 내보낸 데이터는 필터링된 상태로 내보냅니다. **내보내기**를 선택하면 브라우저에서 파일을 저장할 것인지 묻는 메시지를 표시 합니다. 저장한 후 Excel에서 파일을 엽니다.
+    
+    시각적 개체의 현재 드릴 수준에 사용되는 데이터뿐 아니라 계층 구조에 사용되는 모든 데이터를 내보냅니다. 예를 들어 시각화가 최상위 수준에서 드릴다운되지 않은 경우 내보낸 데이터에는 현재 드릴된 수준에서 시각적 개체를 만드는 데 사용된 데이터뿐 아니라 계층 구조의 모든 데이터가 포함됩니다.
 
     **요약된 데이터**: 해당 시각적 개체에 표시되는 내용에 대한 데이터를 내보내려면 이 옵션을 선택합니다.  이 형식의 내보내기에서는 시각적 개체를 만들도록 선택한 데이터(열 및 측정값)만을 보여줍니다.  시각적 개체에 집계가 있는 경우 집계된 데이터를 내보냅니다. 예를 들어 4개의 막대를 보여 주는 막대형 차트가 있는 경우 4개의 데이터 행을 얻게 됩니다. 요약된 데이터는 *.xlsx* 및 *.csv*로 사용할 수 있습니다.
 
@@ -92,6 +94,8 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
     > 보고서 설정에 따라 기본 데이터를 내보내는 옵션이 없을 수도 있습니다.
 
     시각화에 필터를 적용한 경우 내보낸 데이터는 필터링된 상태로 내보냅니다. **내보내기**를 선택하면 브라우저에서 파일을 저장할 것인지 묻는 메시지를 표시 합니다. 저장한 후 Excel에서 파일을 엽니다.
+    
+    시각적 개체의 현재 드릴 수준에 사용되는 데이터뿐 아니라 계층 구조에 사용되는 모든 데이터를 내보냅니다. 예를 들어 시각화가 최상위 수준에서 드릴다운되지 않은 경우 내보낸 데이터에는 현재 드릴된 수준에서 시각적 개체를 만드는 데 사용된 데이터뿐 아니라 계층 구조의 모든 데이터가 포함됩니다.
 
     >[!WARNING]
     >기본 데이터 내보내기를 사용하면 사용자가 모든 세부 데이터 즉, 데이터의 모든 열을 확인할 수 있습니다. Power BI 서비스 관리자는 조직에 대해 이 기능을 끌 수 있습니다. 데이터 세트 소유자인 경우 Desktop 또는 Power BI 서비스에서 **필드** 목록에 표시되지 않도록 전용 열을 **숨김**으로 설정할 수 있습니다.
