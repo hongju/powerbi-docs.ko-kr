@@ -25,7 +25,7 @@ Microsoft 365 관리 센터는 Power BI 관리자를 위한 중요한 도구를 
 
 * Office 365 전역 관리자
 
-역할에 대 한 자세한 내용은 참조 하세요. [Power BI와 관련 된 관리자 역할](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)입니다.
+역할에 대한 자세한 내용은 [Power BI와 관련된 관리자 역할](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)을 참조하세요.
 
 1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal)에 로그인합니다.
 
