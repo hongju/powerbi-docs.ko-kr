@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/27/2019
+ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 6a1ce47d7af41df51b7c439240f3e9db0dd28397
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67568125"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757731"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -133,7 +133,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 **테넌트 설정** 탭에서는 조직에서 사용할 수 있는 기능에 대한 세분화된 제어를 제공합니다. 중요한 데이터에 대한 우려가 있는 경우 일부 기능은 사용자의 조직에 적합하지 않을 수 있거나 특정 기능을 특정 그룹만 사용할 수 있도록 할 수 있습니다.
 
-다음 이미지는 **테넌트 설정** 탭의 처음 두 섹션을 보여 줍니다.
+다음 이미지에서는 **테넌트 설정** 탭의 여러 설정을 보여 줍니다.
 
 ![테넌트 설정](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -169,6 +169,10 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 조직의 사용자는 Power BI 도움말 메뉴에서 내부 도움말 및 지원 리소스로 이동할 수 있습니다. 특히 이러한 매개 변수는 학습, 커뮤니티 및 도움말 보기 메뉴 항목을 변경합니다.
 
 또한 라이선스 요청에 대한 사용자 지정 솔루션으로 사용자를 안내하는 URL을 지정할 수도 있습니다. 이 매개 변수는 Power BI Pro 라이선스가 없는 사용자가 Power BI Pro로 업데이트 대화 상자 및 개인 스토리지 관리 페이지에서 찾을 수 있는 계정 업그레이드 단추의 대상 URL을 사용자 지정합니다.
+
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>서비스 중단 또는 인시던트에 대한 메일 알림 받기
+
+이 테넌트가 서비스 중단 또는 인시던트의 영향을 받는 경우 메일 사용이 가능한 보안 그룹이 메일 알림을 받습니다. [서비스 중단 알림](service-interruption-notifications.md)에 대해 자세히 알아보세요.
 
 ## <a name="workspace-settings"></a>작업 영역 설정
 
@@ -319,7 +323,7 @@ Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사�
 
 1의 값(십진수)을 사용하면 Power BI에서 사용자 지정 시각적 개체를 사용할 수 있습니다(기본값).
 
-0의 값(십진수)을 사용하면 Power BI에서 사용자 지정 시각적 개체를 사용할 수 없습니다.
+0의 값(십진수)을 사용하면 Power BI에서 사용자 지정 시각적 개체를 사용할 수 있습니다.
 
 ### <a name="allow-only-certified-visuals"></a>인증된 시각적 개체만 허용
 
@@ -371,7 +375,7 @@ Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사�
 
 콘텐츠 사용자에 대한 사용 메트릭에는 콘텐츠에 액세스하는 사용자의 표시 이름 및 이메일 주소가 노출됩니다. [자세히 알아보기](service-usage-metrics.md)
 
-사용자별 데이터는 기본적으로 사용 메트릭에 사용되도록 설정되고, 콘텐츠 생성자 계정 정보는 메트릭 보고서에 포함됩니다. 일부 또는 모든 사용자에게 이 정보를 포함하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정합니다. 그러면 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
+사용자별 데이터는 기본적으로 사용 메트릭에 사용되도록 설정되고, 콘텐츠 생성자 계정 정보는 메트릭 보고서에 포함됩니다. 모든 사용자에 대해 이 정보를 수집하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정할 수 있습니다. 그러면 제외된 사용자에 대한 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
 
 ## <a name="dashboard-settings"></a>대시보드 설정
 

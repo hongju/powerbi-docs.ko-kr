@@ -12,7 +12,7 @@ ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: a285c6188e8b9298702645e28ad686e33147c3a9
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65101047"
@@ -42,6 +42,7 @@ Power BI를 더 이상 사용하지 않으려면 Power BI 계정을 닫을 수 �
     ![동의 함 옵션을 사용 하 여 계정 닫기 확인 대화 상자 스크린샷 호출 합니다.](media/service-admin-closing-your-account/close-account-settings-4.png)
 
     Power BI 계정을 닫았다는 확인 메시지가 표시됩니다. 필요한 경우 여기에서 계정을 다시 열 수 있습니다.	
+
 
     ![스크린샷은 계정이 닫힌 것 대화 합니다.](media/service-admin-closing-your-account/close-account-settings-5.png)
 

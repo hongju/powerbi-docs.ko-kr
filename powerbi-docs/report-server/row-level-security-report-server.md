@@ -20,7 +20,9 @@ ms.locfileid: "64769812"
 
 Power BI Report Server를 사용하는 RLS(행 수준 보안)를 설정하면 지정된 사용자의 데이터 액세스를 제한할 수 있습니다. 필터는 행 수준에서 데이터 액세스를 제한하고 역할 내에서 필터를 정의할 수 있습니다.  Power BI Report Server에서 기본 권한을 사용하는 경우, Power BI 보고서에 대한 게시자 또는 콘텐츠 관리자 권한이 있는 사용자는 해당 보고서의 역할에 멤버를 할당할 수 있습니다.    
 
-Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성합니다. SQL Server와 같이 DirectQuery를 사용하는 보고서에서 RLS를 구성할 수도 있습니다.  DirectQuery 연결에서 보고서 읽기 권한자에 대한 통합 인증을 사용하는 경우에는 RLS가 준수되지 않는다는 점을 명심하세요. Analysis Services 라이브 연결의 경우 온-프레미스 모델에서 행 수준 보안을 구성합니다. 라이브 연결 데이터 세트에는 보안 옵션이 표시되지 않습니다. 
+
+Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성합니다. SQL Server와 같이 DirectQuery를 사용하는 보고서에서 RLS를 구성할 수도 있습니다. DirectQuery 연결에서 보고서 읽기 권한자에 대한 통합 인증을 사용하는 경우에는 RLS가 준수되지 않는다는 점을 명심하세요. Analysis Services 라이브 연결의 경우 온-프레미스 모델에서 행 수준 보안을 구성합니다. 라이브 연결 데이터 세트에는 보안 옵션이 표시되지 않습니다. 
+
 
 [!INCLUDE [rls-desktop-define-roles](../includes/rls-desktop-define-roles.md)]
 
@@ -28,7 +30,7 @@ Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성�
 
 기본적으로 행 수준 보안 필터링은 관계가 단방향 또는 양방향으로 설정되었는지 여부에 관계없이 단방향 필터를 사용합니다. 행 수준 보안을 사용하여 양방향 교차 필터를 수동으로 활성화할 수 있습니다.
 
-- 관계를 선택하고 **양방향으로 보안 필터 적용** 확인란을 선택합니다. 
+- 관계를 선택하고 **양방향으로 보안 필터 적용** 확인란을 선택합니다.
 
     ![보안 필터 적용](media/row-level-security-report-server/rls-apply-security-filter.png)
 
@@ -73,7 +75,7 @@ Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성�
 
 데이터 세트 내에서 DAX 함수 username() 또는 userprincipalname()을 사용할 수 있습니다. Power BI Desktop의 식 내에서 사용할 수 있습니다. 모델을 게시할 때 Power BI Report Server에서 모델을 사용합니다.
 
-Power BI Desktop 내에서 사용자 이름()은 DOMAIN\User 형식으로 사용자를 반환하고 userprincipalname()은 user@contoso.com 형식으로 사용자를 반환합니다.
+Power BI Desktop 내에서 username()은 DOMAIN\User 형식으로 사용자를 반환하고 userprincipalname()은 user@contoso.com 형식으로 사용자를 반환합니다.
 
 Power BI Report Server 내에서 username()과 userprincipalname() 둘 다 이메일 주소와 유사한 사용자의 UPN(사용자 계정 이름)을 반환합니다.
 
@@ -92,7 +94,7 @@ Power BI Desktop으로 생성된 데이터 세트에서만 RLS를 정의할 수 
 DirectQuery와 함께 통합 보안을 사용하는 경우 다음과 같은 사항을 사용자에게 알릴 수 있습니다.
 - RLS가 비활성화되고 모든 데이터가 반환됩니다.
 - 사용자는 해당 역할 할당을 업데이트할 수 없으며, RLS 관리 페이지에서 오류가 발생합니다.
-- DAX 사용자 이름 함수의 경우 계속해서 사용자 이름을 DOMAIN\USER로 수신합니다. 
+- DAX username 함수의 경우 계속해서 사용자 이름을 DOMAIN\USER로 수신합니다. 
 
 보고서 작성자는 보고서를 업로드한 후 그에 따라 역할을 할당할 때까지 Power BI Report Server의 보고서 데이터를 볼 수 있는 액세스 권한이 없습니다. 
 

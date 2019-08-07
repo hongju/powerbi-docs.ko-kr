@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
-ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
+ms.openlocfilehash: e5a4e862c89d08b4e277cb4abae934f3fd47141e
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68352184"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757630"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>온-프레미스 및 클라우드 데이터 원본 병합 또는 추가
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-온-프레미스 데이터 게이트웨이를 사용하여 동일한 쿼리에서 온-프레미스 및 클라우드 데이터 원본을 병합하거나 추가할 수 있습니다. 이것은 별도의 쿼리를 사용하지 않고 여러 소스의 데이터를 결합하려고 할 때 유용합니다.
+온-프레미스 데이터 게이트웨이를 사용하여 동일한 쿼리에서 온-프레미스 및 클라우드 데이터 원본을 병합하거나 추가할 수 있습니다. 이 솔루션은 별도의 쿼리를 사용하지 않고 여러 원본의 데이터를 결합하려는 경우에 유용합니다.
 
 >[!NOTE]
->이 문서는 클라우드 및 온-프레미스 데이터 원본이 단일 쿼리에서 병합 또는 추가되는 데이터 세트에만 적용됩니다. 한 쿼리는 온-프레미스에 연결되고 다른 쿼리는 클라우드 데이터 원본에 연결된 개별 쿼리를 포함하는 데이터 세트의 경우 클라우드 데이터 원본을 사용하는 쿼리는 게이트웨이를 사용하여 실행되지 않습니다.
+>이 문서는 클라우드 및 온-프레미스 데이터 원본이 단일 쿼리에서 병합 또는 추가되는 데이터 세트에만 적용됩니다. 한 쿼리는 온-프레미스 데이터 원본에 연결되고 다른 쿼리는 클라우드 데이터 원본에 연결된 개별 쿼리를 포함하는 데이터 세트의 경우 게이트웨이에서 클라우드 데이터 원본에 대한 쿼리를 실행하지 않습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -51,15 +51,14 @@ ms.locfileid: "68352184"
 6. 새 데이터 세트의 **데이터 세트 설정** 페이지에서 다음을 수행합니다.
 
    - 온-프레미스 원본의 경우 이 데이터 원본과 연결된 게이트웨이를 선택합니다.
-
    - **데이터 원본 자격 증명**에서 필요에 따라 클라우드 데이터 원본 자격 증명을 편집합니다.
 
     클라우드 및 온-프레미스 데이터 원본의 프라이버시 수준이 둘 다 조인을 안전하게 처리하도록 제대로 설정되었는지 확인합니다.
 
      ![데이터 세트 설정](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-7. 클라우드 자격 증명을 설정하면 이제 **지금 새로 고침** 옵션을 사용하여 데이터 세트를 새로 고치거나 정기적으로 새로 고치도록 예약할 수 있습니다.
+7. 클라우드 자격 증명이 설정되었으면 이제 **지금 새로 고침** 옵션을 사용하여 데이터 세트를 새로 고칠 수 있습니다. 또는 정기적으로 새로 고치도록 예약할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-게이트웨이에 대해 데이터 새로 고침에 대한 자세한 내용은 [예약된 새로 고침을 위해 데이터 원본 사용](service-gateway-enterprise-manage-scheduled-refresh.md#using-the-data-source-for-scheduled-refresh)을 참조하세요.
+게이트웨이에 대해 데이터 새로 고침에 대한 자세한 내용은 [예약된 새로 고침을 위해 데이터 원본 사용](service-gateway-enterprise-manage-scheduled-refresh.md#use-the-data-source-for-scheduled-refresh)을 참조하세요.

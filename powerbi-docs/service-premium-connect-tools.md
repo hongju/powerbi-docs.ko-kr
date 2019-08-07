@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
-ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
+ms.openlocfilehash: 4c39cf5a60786f7cc1748155ce7004254d40ad00
+ms.sourcegitcommit: ebac79f8c2871d4a7e54c1e99ce6d2409345b060
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67235055"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68475628"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>클라이언트 애플리케이션 및 도구를 사용하여 데이터 세트에 연결(미리 보기)
 
-Power BI Premium 작업 영역 및 데이터 세트는 Microsoft 및 타사 클라이언트 애플리케이션 및 도구에서 *읽기 전용* 연결을 지원합니다. 
+Power BI Premium 작업 영역 및 데이터 세트는 Microsoft 및 타사 클라이언트 애플리케이션 및 도구에서 *읽기 전용* 연결을 지원합니다. 기본적으로 연결이 사용됩니다.
 
 > [!NOTE]
 > 이 문서는 Power BI Premium 작업 영역 및 데이터 세트에 대한 읽기 전용 연결만을 소개하기 위한 것입니다. 프로그래밍 기능, 도구 및 애플리케이션, 아키텍처 및 작업 영역과 데이터 세트 관리에 대한 자세한 정보를 제공하기 것은 *아닙니다*. 여기에 설명된 주제는 Analysis Services 테이블 형식 모델 데이터베이스 아키텍처 및 관리에 대한 확실한 이해를 필요로 합니다.
@@ -105,6 +105,10 @@ SQL Server Profiler와 같은 일부 도구는 *초기 카탈로그*를 지정�
 
 현재 모델 역할 및 역할 멤버 자격은 검색할 수 없거나 XMLA 엔드포인트를 사용하여 표시되지 않습니다.
 
+## <a name="disable-connectivity"></a>연결 사용 안 함
+
+기본적으로 데이터 세트 워크로드에서 XMLA 엔드포인트 연결이 사용됩니다. [워크로드 설정](service-admin-premium-workloads.md#workload-settings)에서 연결을 사용하지 않도록 설정할 수 있습니다.
+
 ## <a name="audit-logs"></a>감사 로그 
 
 클라이언트 애플리케이션 및 도구가 작업 영역에 연결되면 XMLA 엔드포인트를 통한 액세스는 **GetWorkspaces** 작업 아래의 Power BI 감사 로그에 기록됩니다. 자세한 내용은 [Power BI 감사](service-admin-auditing.md)를 참조하세요.
@@ -113,7 +117,7 @@ SQL Server Profiler와 같은 일부 도구는 *초기 카탈로그*를 지정�
 
 [Analysis Services 참조](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
-[SQL Server Analysis Services 테이블 형식 프로토콜](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
+[SQL Server Analysis Services 표 형식 프로토콜](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
 [동적 관리 뷰(DMV)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   
 
 

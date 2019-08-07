@@ -1,5 +1,5 @@
 ---
-title: Power BI 사용자 지정 시각적 개체 개발
+title: Power BI 시각적 개체 개발
 description: Power BI 사용자 지정 시각적 개체를 개발하는 방법에 대한 자습서
 author: sranins
 ms.author: rasala
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161227"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415423"
 ---
-# <a name="tutorial-developing-a-power-bi-custom-visual"></a>자습서: Power BI 사용자 지정 시각적 개체 개발
+# <a name="tutorial-developing-a-power-bi-visual"></a>자습서: Power BI 시각적 개체 개발
 
 이제 개발자가 사용자 지정 시각적 개체를 Power BI에 쉽게 추가하여 대시보드 및 보고서에서 사용할 수 있습니다. 개발자를 돕기 위해 모든 시각화 관련 코드를 GitHub에 게시했습니다.
 
@@ -79,35 +79,35 @@ Power BI Desktop 보고서에서 카드는 Circle Card가 되도록 수정됩니
     pbiviz --install-cert
     ```
 
-  ‘암호’를 생성하는 결과를 반환합니다.  이 경우 ‘암호’는 **_15105661266553327_** 이고, 인증서 가져오기 마법사를 시작합니다. 
+    ‘암호’를 생성하는 결과를 반환합니다.  이 경우 *암호*는 **_15105661266553327_** 입니다. 또한 인증서 가져오기 마법사를 시작합니다.
 
-  ![PowerShell을 통해 만들어진 인증서](media/custom-visual-develop-tutorial/cert-create.png)
+    ![PowerShell을 통해 만들어진 인증서](media/custom-visual-develop-tutorial/cert-create.png)
 
-3. 인증서 가져오기 마법사에서 저장소 위치가 현재 사용자로 설정되어 있는지 확인합니다. 그러고 나서 ‘다음’을 선택합니다. 
+2. 인증서 가져오기 마법사에서 저장소 위치가 현재 사용자로 설정되어 있는지 확인합니다. 그러고 나서 ‘다음’을 선택합니다. 
 
       ![인증서 설치](media/custom-visual-develop-tutorial/install-cert-PowerShell.png)
 
-4. **가져올 파일** 단계에서 ‘다음’을 선택합니다. 
+3. **가져올 파일** 단계에서 ‘다음’을 선택합니다. 
 
-5. **프라이빗 키 보호** 단계에서 [암호] 상자에 인증서 만들기에서 받은 암호를 붙여넣습니다.  이 경우 해당 암호는 **_15105661266553327_** 입니다.
+4. **프라이빗 키 보호** 단계에서 [암호] 상자에 인증서 만들기에서 받은 암호를 붙여넣습니다.  이 경우 해당 암호는 **_15105661266553327_** 입니다.
 
       ![암호 복사](media/custom-visual-develop-tutorial/cert-install-wizard-show-passphrase.png)
 
-6. **인증서 저장소** 단계에서 **모든 인증서를 다음 저장소에 저장**을 선택합니다. 그런 다음, ‘찾아보기’를 선택합니다. 
+5. **인증서 저장소** 단계에서 **모든 인증서를 다음 저장소에 저장**을 선택합니다. 그런 다음, ‘찾아보기’를 선택합니다. 
 
       ![다음 저장소의 모든 인증서](media/custom-visual-develop-tutorial/all-certs-in-the-following-store.png)
 
-7. **인증서 저장소 선택** 창에서 **신뢰할 수 있는 루트 인증 기관**을 선택한 다음, ‘확인’을 선택합니다.  그런 다음, **인증서 저장소** 화면에서 ‘다음’을 선택합니다. 
+6. **인증서 저장소 선택** 창에서 **신뢰할 수 있는 루트 인증 기관**을 선택한 다음, ‘확인’을 선택합니다.  그런 다음, **인증서 저장소** 화면에서 ‘다음’을 선택합니다. 
 
       ![신뢰할 수 있는 루트 인증서](media/custom-visual-develop-tutorial/trusted-root-cert.png)
 
-8. 가져오기를 완료하려면 **마침**을 선택합니다.
+7. 가져오기를 완료하려면 **마침**을 선택합니다.
 
-9. 보안 경고가 표시되면 **예**를 선택합니다.
+8. 보안 경고가 표시되면 **예**를 선택합니다.
 
     ![보안 경고](media/custom-visual-develop-tutorial/cert-security-warning.png)
 
-10. 가져오기에 성공했다는 알림이 표시되면 **확인**을 선택합니다.
+9. 가져오기에 성공했다는 알림이 표시되면 **확인**을 선택합니다.
 
     ![인증서 가져오기 성공](media/custom-visual-develop-tutorial/cert-import-successful.png)
 
