@@ -136,7 +136,7 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
    ![Azure Active Directory 로그인](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. 로그인하면 다음 명령을 실행하여 테넌트가 현재 구성되어 있는 방법을 확인합니다. (아래의 'fl'은 숫자 1이 아닌 문자 'l'를 사용한다는 점에 유의하세요).
+1. 로그인하면 다음 명령을 실행하여 테넌트의 현재 구성을 확인합니다. (아래의 'fl'은 숫자 1이 아닌 문자 'l'임에 유의하세요).
 
     ```powershell
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 
