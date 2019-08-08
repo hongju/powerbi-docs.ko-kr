@@ -27,19 +27,19 @@ ms.locfileid: "61236823"
 
 ## <a name="working-with-automl"></a>AutoML 사용
 
-[Power BI 데이터 흐름이](service-dataflows-overview.md) 빅 데이터에 대 한 셀프 서비스 데이터 준비를 제공 합니다. AutoML를 사용 하면 Power BI 내에서 바로 기계 학습 모델을 빌드하기 위한 데이터 준비 작업을 활용할 수 있습니다.
+[Power BI 데이터 흐름](service-dataflows-overview.md)은 빅 데이터에 대한 셀프 서비스 데이터 준비를 제공 합니다. AutoML를 사용 하면 Power BI 내에서 바로 기계 학습 모델을 빌드하기 위한 데이터 준비 작업을 활용할 수 있습니다.
 
-AutoML Power BI에서 바로 Power BI 기술을 사용 하 여 데이터 분석가가 데이터 흐름을 사용 하 여 간소화 된 환경 사용 하 여 기계 학습 모델 빌드를 수 있습니다. 대부분의 데이터 과학 ML 모델 생성 원리는 생성 된 모델에 높은 품질 및 ML 모델을 만드는 데 프로세스에 대 한 전체 정보를 제공 하는 표시 되도록 guardrails를 사용 하 여 Power BI에서 자동화 됩니다.
+Power BI에서 AutoML을 통해 데이터 분석가는 데이터 흐름을 사용하여 Power BI 기술만 사용하여 단순화된 경험으로 기계 학습 모델을 빌드할 수 있습니다.  ML 모델 생성의 이면에 있는 대부분의 데이터 과학은 Power BI에 의해 자동화되며, 생산된 모델이 높은 품질 및 ML 모델을 생성하는데 사용된 프로세스로 완전한 통찰력을 제공하기 위한 가시성을 제공하는 가드레일이 있습니다.
 
-AutoML 생성을 지원할 **이진 예측**를 **분류**, 및 **회귀** 데이터 흐름에 대 한 모델입니다. 이들은 자신이 다른 관찰의 결과 예측 하는 과거 관측의 알려진된 결과에서 배운 것을 의미 하는 감독된 기계 학습 모델의 형식입니다. AutoML 모델을 학습 하는 것에 대 한 입력된 데이터 집합에 있는 레코드 집합이 **레이블이 지정 된** 알려진된 결과 사용 하 여 합니다.
+AutoML은 데이터 흐름에 대한 **이진 예측**, **분류** 및 **회귀** 모델의 생성을 지원합니다. 이들은 과거 관찰의 알려진 결과에서 학습하여 다른 관찰의 결과를 예측하는 것을 의미하는 지도 기계 학습 모델의 유형입니다. AutoML 모델을 학습 하는 것에 대한 입력 데이터 집합은 알려진 결과를 사용하여 **레이블이 지정된** 레코드 집합입니다.
 
-AutoML Power BI에서 통합 [ML 자동화](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) 에서 합니다 [Azure Machine Learning 서비스](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) ML 모델을 만들려면. 그러나 Power BI에서 AutoML를 사용 하려면 Azure 구독이 필요는 없습니다. 교육 및 ML 모델을 호스팅하는 프로세스는 Power BI 서비스에서 완전히 관리 됩니다.
+Power BI에서 AutoML은 ML 모델을 만들기 위해 [Azure Machine Learning 서비스](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)에서 [자동화된 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)을 통합합니다. 그러나 Power BI에서 AutoML를 사용하기 위해 Azure 구독이 필요하지는 않습니다. ML 모델을 학습하고 호스팅하는 프로세스는 Power BI 서비스에서 완전히 관리 됩니다.
 
-ML 모델을 학습 한 후 AutoML 가능성이 기계 학습 모델의 성능을 설명 하는 Power BI 보고서를 자동으로 생성 합니다. AutoML 모델에서 반환 된 예측에 영향을 주는 입력 간의 주요 영향 요인의 강조 표시 하 여 explainability를 강조 합니다. 보고서에는 기계 학습 모델 유형에 따라 모델에 대 한 주요 메트릭도 포함 됩니다.
+ML 모델을 학습 한 후, AutoML은 ML 모델의 가능한 성능을 설명 하는 Power BI 보고서를 자동으로 생성 합니다. AutoML 모델은 반환된 예측에 영향을 주는 입력 중 주요 영향 요인을 강조 표시하여 설명 가능성을 강조 합니다. 보고서에는 ML 모델 유형에 따라 모델에 대한 주요 메트릭도 포함 됩니다.
 
-생성된 된 보고서의 다른 페이지 모델을 학습 정보 통계 요약을 표시 합니다. 통계 요약은 표준 데이터 과학 모델에 대 한 성능 측정값을 참조 하는 사용자에 게 유용 합니다. 교육 세부 정보에 연결 된 모델링 매개 변수를 사용 하 여 모델을 만들기 위해 실행 된 모든 반복 요약 되어 있습니다. 각 입력 기계 학습 모델을 만드는 데 사용 된는 하는 방법을 설명 합니다.
+생성된 보고서의 다른 페이지는 모델의 통계 요약과 학습 상세 정보를 표시 합니다. 통계 요약은 모델에 대한 성능의 표준 데이터 과학 측정을 보려고 하는 사용자에게 유용 합니다. 학습 상세 정보는 모델을 만들기 위해 실행된 모든 반복이 관련된 모델링 매개 변수와 함께 요약되어 있습니다. 또한 ML 모델을 생성하기 위해 각 입력이 사용된 방법을 설명합니다.
 
-다음 점수 매기기에 대 한 데이터에 기계 학습 모델을 적용할 수 있습니다. 데이터 흐름을 새로 고칠 때 기계 학습 모델의 예측 데이터에 자동으로 적용 됩니다. Power BI에는 기계 학습 모델을 생성 하는 각 특정 예측 점수에 대 한 개별화 된 설명이 포함 됩니다.
+그런 다음 ML 모델을 데이터에 적용하여 점수를 매길 수 있습니다. 데이터 흐름을 새로 고칠 때, ML 모델의 예측은 데이터에 자동으로 적용 됩니다. Power BI에는 ML 모델을 생성하는 각 특정 예측 점수에 대한 개별화된 설명이 포함 됩니다.
 
 ## <a name="creating-a-machine-learning-model"></a>기계 학습 모델 만들기
 
