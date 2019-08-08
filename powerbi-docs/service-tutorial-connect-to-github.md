@@ -34,13 +34,13 @@ ms.locfileid: "64578602"
 > * GitHub 데이터를 사용하여 대시보드 및 보고서 보기
 > * 앱을 삭제하여 리소스 정리
 
-아직 Power BI에 등록하지 않은 경우 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
+아직 Power BI에 등록하지 않은 경우, 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ## <a name="prerequisites"></a>필수 조건
 
 이 자습서를 완료하려면 GitHub 계정이 필요합니다. 아직 GitHub 계정이 없으면 다음을 수행합니다. 
 
-- 등록 된 [GitHub 계정](https://docs.microsoft.com/contribute/get-started-setup-github)합니다.
+- [GitHub 계정](https://docs.microsoft.com/contribute/get-started-setup-github)을 등록합니다.
 
 
 ## <a name="how-to-connect"></a>연결 방법
