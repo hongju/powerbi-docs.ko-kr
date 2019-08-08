@@ -18,13 +18,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65100198"
 ---
-# <a name="capture-additional-diagnostic-information-for-power-bi"></a>Power BI에 대 한 추가 진단 정보 캡처
+# <a name="capture-additional-diagnostic-information-for-power-bi"></a>Power BI에 대한 추가 진단 정보 캡처
 
 이 문서에서는 수동으로 Power BI 웹 클라이언트에서 추가적인 진단 정보를 수집 하기 위한 지침을 제공 합니다.
 
-1. 이동할 [Power BI](https://app.powerbi.com) Microsoft Edge 또는 Internet Explorer를 사용 하 여 합니다.
+1. Microsoft Edge 또는 Internet Explorer를 사용하여 [Power BI](https://app.powerbi.com)로 이동합니다.
 
-1. 키를 눌러 **F12** Microsoft Edge 개발자 도구를 엽니다.
+1. **F12** 키를 눌러 Microsoft Edge 개발자 도구를 엽니다.
 
    ![Microsoft Edge 개발자 스크린 샷 도구 요소 탭입니다.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 
@@ -34,11 +34,11 @@ ms.locfileid: "65100198"
 
     다음을 할 수 있습니다.
 
-    * 창 내에서 찾아 발생할 수 있는 문제를 재현 합니다.
+    * 창 내에서 탐색하여 발생할 수 있는 문제를 재현 합니다.
 
-    * 표시 / 숨기기 개발자 도구 창 세션 중 언제 든 지 F12 키를 눌러 합니다.
+    * F12 키를 눌러 세션 중 언제든지 개발자 도구 창을 표시 / 숨기기 합니다.
 
-1. 세션 프로 파일링을 중지 하려면에 빨간색 사각형을 선택할 수는 **네트워크** 개발자 탭 도구 영역입니다.
+1. 세션 프로 파일링을 중지 하려면, 개발자 도구 영역의 **네트워크** 탭에서 빨간색 사각형을 선택합니다.
 
    ![중지 단추에서 호출 하 여 Microsoft Edge 개발자 스크린 샷 도구 네트워크 탭 합니다.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 
@@ -48,15 +48,15 @@ ms.locfileid: "65100198"
 
 1. 파일 이름을 제공하고 HAR 파일을 저장합니다.
 
-    HAR 파일 브라우저 창과 Power BI 포함 사이의 네트워크 요청에 대 한 모든 정보가 포함 됩니다.
+    HAR 파일은 브라우저 창과 Power BI 사이의 네트워크 요청에 대한 모든 정보가 포함 됩니다.
 
-    * 각 요청에 대 한 작업 Id입니다.
+    * 각 요청에 대한 작업 Id입니다.
 
-    * 각 요청에 대 한 정확한 타임 스탬프입니다.
+    * 각 요청에 대한 정확한 타임 스탬프입니다.
 
-    * 오류 정보가 클라이언트에 반환 합니다.
+    * 클라이언트에 반환된 오류 정보입니다.
 
-    이 추적에는 화면에 표시되는 시각 효과를 입력하기 위해 사용된 데이터도 포함됩니다.
+    이 추적에는 화면에 표시되는 시각 효과를 채우기 위해 사용된 데이터도 포함됩니다.
 
 1. HAR 파일을 제공하여 검토를 지원할 수 있습니다.
 
