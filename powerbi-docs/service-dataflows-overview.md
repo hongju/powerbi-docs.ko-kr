@@ -108,9 +108,9 @@ Premium 용량에서 데이터 흐름 워크로드를 활성화하는 방법을 
 이 문서에는 Power BI의 빅 데이터용 셀프 서비스 데이터 준비에 대한 개요와 이 기능을 사용할 수 있는 여러 방법이 제공되어 있습니다. 다음 문서에서는 데이터 흐름의 공통 사용 시나리오에 대해 자세히 설명합니다. 
 
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
-* [Power BI 프리미엄에 계산 된 엔터티를 사용 하 여](service-dataflows-computed-entities-premium.md)
-* [데이터 흐름을 사용 하 여 온-프레미스 데이터 원본](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 대 한 개발자 리소스](service-dataflows-developer-resources.md)
+* [Power BI Premium의 계산된 엔터티 사용](service-dataflows-computed-entities-premium.md)
+* [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용](service-dataflows-on-premises-gateways.md)
+* [Power BI 데이터 흐름에 대한 개발자 리소스](service-dataflows-developer-resources.md)
 * [데이터 흐름 및 Azure Data Lake 통합](service-dataflows-azure-data-lake-integration.md)
 
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.
