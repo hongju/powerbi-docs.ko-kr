@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271200"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380223"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 지침
 다른 사용자가 검색 및 사용하도록 AppSource에 시각적 개체를 [게시](https://docs.microsoft.com/power-bi/developer/office-store)하기 전에 지침에 따라 사용자에게 적합한 환경을 만들어야 합니다. 
@@ -26,7 +26,7 @@ ms.locfileid: "68271200"
 
 ## <a name="logo-guidelines"></a>로고 지침
 
-이 섹션에서는 로고 및 로고 유형을 시각적 개체에 추가하는 방법을 설명합니다.
+이 섹션에서는 로고 및 로고 유형을 시각적 개체에 추가하는 방법을 설명합니다. 로고는 필수가 아닙니다. 추가된 경우 다음 지침을 따라야 합니다. 
 
 > [!IMPORTANT]
 > 로고는 *편집 모드에서만* 허용됩니다. 보기 모드에서는 로고를 표시할 수 *없습니다*.

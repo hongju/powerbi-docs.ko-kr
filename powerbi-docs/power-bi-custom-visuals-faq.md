@@ -1,5 +1,5 @@
 ---
-title: Power BI 사용자 지정 시각적 개체에 대한 질문과 대답
+title: Power BI 시각적 개체에 대해 자주 묻는 질문
 description: Power BI 사용자 지정 시각적 개체에 대한 질문과 대답 목록을 찾아보세요.
 author: sranins
 ms.author: rasala
@@ -10,16 +10,18 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 58fa65abfa2d2cff5e02b34fe8db8aa10b36ee14
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497922"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415394"
 ---
-# <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI 사용자 지정 시각적 개체에 대한 질문과 대답
+# <a name="frequently-asked-questions-about-power-bi-visuals"></a>Power BI 시각적 개체에 대해 자주 묻는 질문
 
 ## <a name="organizational-custom-visuals"></a>조직의 사용자 지정 시각적 개체
+
+관리 포털을 통해 조직의 Power BI 시각적 개체를 관리할 수 있습니다.
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>관리자가 조직의 사용자 지정 시각적 개체를 관리하려면 어떻게 하나요?
 
@@ -75,12 +77,12 @@ ms.locfileid: "66497922"
  
 ### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>인증 프로세스에 제출하려면 공용 리포지토리에서 내 코드를 공유해야 하나요?
 
-아니요, 공개적으로 코드를 공유할 필요가 없습니다. 그러나 시각적 개체 코드를 확인하기 위한 읽기 권한을 제공해야 합니다. 예: GitHub의 개인 리포지토리.
+아니요, 공개적으로 코드를 공유할 필요가 없습니다. 그러나 시각적 개체 코드를 확인하기 위한 읽기 권한을 제공해야 합니다. 예: GitHub의 프라이빗 리포지토리.
  
 ### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>[마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 시각적 개체를 [게시](https://docs.microsoft.com/power-bi/developer/office-store)하여 인증해야 하나요?
 
 예. 마켓플레이스에 시각적 개체를 먼저 게시하는 것은 인증을 위한 의무 요구 사항입니다.
-사용자 지정 시각적 개체를 인증하려면 서버에 있어야 합니다. 개인 시각적 개체는 인증할 수 없습니다.
+사용자 지정 시각적 개체를 인증하려면 서버에 있어야 합니다. 프라이빗 시각적 개체는 인증할 수 없습니다.
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>내 시각적 개체를 인증하는 데 얼마나 걸리나요?
 

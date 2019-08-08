@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 07/25/2019
 ms.author: mblythe
-ms.openlocfilehash: 0bb78e29cc3e9b9792d5916050179703281aa01a
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: a33ace000917311cbd060c853e0122034a396ae2
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68366752"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501746"
 ---
 # <a name="service-interruption-notifications"></a>서비스 중단 알림
 
@@ -28,10 +28,10 @@ ms.locfileid: "68366752"
 - 모델 새로 고침 안정성
 - 쿼리 새로 고침 안정성
 
-인시던트가 해결되면 후속 메일을 받게 됩니다.
+이러한 알림의 예로 사용자가 보고서 열기, 데이터 세트 새로 고침, 쿼리 실행 등의 작업에서 지연 증가를 경험하는 경우를 들 수 있습니다. 인시던트가 해결되면 후속 메일을 받게 됩니다.
 
 > [!NOTE]
-> 이 기능은 현재 Power BI Premium의 전용 용량에만 사용할 수 있습니다. 공유 용량에는 사용할 수 없습니다.
+> 이 기능은 현재 Power BI Premium의 전용 용량에만 사용할 수 있습니다. 공유 용량이나 포함된 용량에는 사용할 수 없습니다.
 
 ## <a name="enable-notifications"></a>알림 사용
 

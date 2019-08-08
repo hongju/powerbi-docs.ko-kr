@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 641d1ac2c1bbcb9d143afdc04652b4c12b6e775f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239478"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522226"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop의 계산된 테이블 사용
 계산된 테이블을 사용하면 새 테이블을 모델에 추가할 수 있습니다. 그러나 값을 쿼리하고 데이터 소스에서 새 테이블의 열로 로드하는 대신 테이블 값을 정의하는 DAX(Data Analysis Expressions) 수식을 만듭니다. Power BI Desktop에서 보고서 뷰나 데이터 뷰의 새 테이블 기능을 사용하여 계산된 열이 생성됩니다.
@@ -39,7 +39,7 @@ Contoso의 프로젝트 관리자인 Jeff에게는 북서부 직원이 담긴 �
 
  ![](media/desktop-calculated-tables/calctables_swempl.png)
 
-계산된 테이블을 사용하면 두 테이블을 간편하게 하나로 합칠 수 있습니다. 제프는 계산된 테이블을 보고서 뷰나 데이터 뷰로 볼 수 있지만, 새 계산된 테이블을 즉시 볼 수 있는 데이터 뷰가 약간 더 편리합니다.
+계산된 테이블을 사용하면 두 테이블을 간편하게 하나로 합칠 수 있습니다. Jeff는 보고서 뷰나 데이터 뷰에서 계산 테이블을 만들 수 있지만, 새 계산 테이블을 즉시 볼 수 있는 데이터 뷰가 약간 더 편리합니다.
 
 **데이터 뷰**의 **모델링** 탭에서 **새 테이블**을 클릭합니다. 수식 입력줄이 표시됩니다.
 
@@ -53,7 +53,7 @@ Contoso의 프로젝트 관리자인 Jeff에게는 북서부 직원이 담긴 �
 
  ![](media/desktop-calculated-tables/calctables_westregionempl.png)
 
-제프의 새 서부 지역 직원 테이블은 필드 목록의 다른 테이블과 똑같이 표시됩니다. 다른 테이블에서처럼 다른 테이블과의 관계를 만들고, 계산된 열과 측정치를 추가하고, 필드를 보고서에 추가할 수 있습니다.
+제프의 새 서부 지역 직원 테이블은 필드 목록의 다른 테이블과 똑같이 표시됩니다. Jeff는 다른 모든 테이블처럼 다른 테이블과의 관계를 만들고, 계산 열과 측정값을 추가하고, 해당 필드를 보고서에 추가할 수도 있습니다.
 
  ![](media/desktop-calculated-tables/calctables_fieldlist.png)
 
