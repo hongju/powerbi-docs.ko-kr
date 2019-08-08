@@ -54,8 +54,8 @@ ms.locfileid: "64578602"
    ![Power BI - GitHub 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
 4. **Power BI 앱이 설치?** 선택 **설치**합니다.
-5. **새 앱이 준비**를 선택 **앱으로 이동**합니다.
-6. **새 앱을 시작 하세요**를 선택 **데이터 연결**합니다.
+5. **새 앱의 준비가 완료됨**에서 **앱으로 이동**을 선택합니다.
+6. **새 앱 시작**에서 **데이터 연결**을 선택합니다.
 
     ![새 앱 시작](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
 
@@ -71,8 +71,8 @@ ms.locfileid: "64578602"
    
    이제 Power BI에서 GitHub와 연결하고 데이터에 연결할 수 있습니다.  하루에 한 번 데이터가 새로 고쳐집니다.
 
-8. Power BI가 데이터를 가져오면 새 GitHub 작업 영역의 내용을 표시 합니다. 
-9. 왼쪽된 탐색 모음에서 작업 영역 이름 옆의 화살표를 선택 합니다. 작업 영역 대시보드 및 보고서를 포함 하는 것이 표시 됩니다. 
+8. Power BI가 데이터를 가져오면 새 GitHub 작업 영역의 내용을 표시합니다. 
+9. 왼쪽 탐색 모음에서 작업 영역 이름 옆의 화살표를 선택합니다. 대시보드 및 보고서를 포함하는 작업 영역이 표시됩니다. 
 
     ![왼쪽된 탐색 창의 앱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
@@ -84,9 +84,9 @@ ms.locfileid: "64578602"
 
     ![전역 탐색 아이콘](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
-10. GitHub 대시보드를 선택 합니다.
+10. GitHub 대시보드를 선택합니다.
     
-    GitHub 대시보드에 표시 되는 값 다를 수 있으므로 라이브 데이터를 포함 합니다.
+    GitHub 대시보드는 라이브 데이터를 포함하므로 표시되는 값이 다를 수 있습니다.
 
     ![Power BI - GitHub 대시보드](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
 

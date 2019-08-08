@@ -12,7 +12,7 @@ ms.author: mblythe
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 855fae9f23527c47802eef6dac2ded5ffcc8b786
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710332"
@@ -23,7 +23,7 @@ ms.locfileid: "65710332"
 
 <https://passwordreset.microsoftonline.com>
 
-계정이 암호 재설정을 위해 설정이 되어 있지 않다는 메시지를 확인하는 경우, Office 365 관리자에게 문의합니다. 무료 평가판을 사용하는 경우, 관리자는 조직에서 첫 번째로 등록한 사용자입니다.
+암호 재설정, Office 365 관리자에 게 문의 계정에 대해 설정 되지 경우 무료 평가판을 사용 하는 경우 관리자는 등록 한 조직에서 첫 번째 사용자입니다.
 
 여전히 계정을 액세스하는 데 문제가 발생하면, 암호 재설정을 위해 지원 팀에 연락해 볼 수 있습니다.
 
