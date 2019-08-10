@@ -1,6 +1,6 @@
 ---
 title: Office 365 전용 고객 - 알려진 문제
-description: Office 365 전용 고객 지원 - 알려진 문제 이 항목에서는 Office 365 전용 고객과 관련된 문제를 설명합니다. 여기에는 베니티 도메인을 사용하는 iPhone 앱뿐만 아니라 그룹 기능에 대한 제한 사항도 포함되어 있습니다.
+description: Office 365 전용 고객 지원 - 알려진 문제. 이 항목에서는 Office 365 전용 고객과 관련된 문제를 설명합니다. 여기에는 베니티 도메인을 사용하는 iPhone 앱뿐만 아니라 그룹 기능에 대한 제한 사항도 포함되어 있습니다.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -22,7 +22,7 @@ ms.locfileid: "61187842"
 이제 Power BI에서 Office 365 전용 고객을 지원합니다.  O365 전용 고객인 경우 테넌트의 계정으로 로그인하여 Power BI를 사용할 수 있습니다. 현재 두 가지 알려진 문제가 있습니다.
 
 ## <a name="groups"></a>그룹
-그룹 상황별 메뉴에서 **멤버** 또는 **달력** 을 선택할 경우 대신 메일 앱으로 리디렉션됩니다.  **파일** 및 **대화** 는 예상대로 작동합니다.
+그룹 컨텍스트 메뉴에서 **멤버** 또는 **달력**을 선택할 경우 대신 메일 앱으로 리디렉션됩니다. **파일** 및 **대화**는 예상대로 작동합니다.
 
 ![Power BI의 그룹](media/service-admin-office-365-dedicated-known-issues/group-menu.png)
 
