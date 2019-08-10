@@ -38,7 +38,7 @@ ms.locfileid: "65100198"
 
     * F12 키를 눌러 세션 중 언제든지 개발자 도구 창을 표시하거나 숨깁니다.
 
-1. 세션 프로 파일링을 중지 하려면에 빨간색 사각형을 선택할 수는 **네트워크** 개발자 탭 도구 영역입니다.
+1. 세션 프로파일링을 중지하려면, 개발자 도구 영역의 **네트워크** 탭에서 빨간색 사각형을 선택합니다.
 
    ![중지 단추에서 호출 하 여 Microsoft Edge 개발자 스크린 샷 도구 네트워크 탭 합니다.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 
