@@ -94,9 +94,9 @@ ms.locfileid: "64578602"
 
 ## <a name="ask-a-question"></a>질문하기
 
-1. **데이터에 대해 질문하기**에 커서를 놓습니다. Power BI는 **시작할 질문**을 제공합니다. 
+1. **데이터에 대해 질문하기**에 커서를 놓습니다. Power BI는 **시작하기 위한 질문**을 제공합니다. 
 
-1. **how many users are there**를 선택합니다.
+1. **how many users are there**을 선택합니다.
  
     ![얼마나 많은 사용자가 사항이](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
@@ -107,7 +107,7 @@ ms.locfileid: "64578602"
     ![사용자 당 얼마나 많은 끌어오기 요청 사항이](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
 
 
-13. 그런 다음 대시보드를 고정 하려면 핀을 선택하고 **질문및 답변 종료**합니다.
+13. 그런 다음 대시보드에 고정하려면 핀을 선택하고 **질문 및 답변을 종료**합니다.
 
 ## <a name="view-the-github-report"></a>GitHub 보고서 보기 
 
@@ -115,7 +115,7 @@ ms.locfileid: "64578602"
 
     ![월 세로 막대형 차트에서 끌어오기 요청](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
 
-2. **Total pull requests by user** 차트에서 사용자 이름을 선택 합니다. 이 예제에서는 해당 시간의 대부분은 2 월에 있었다는 것을 확인합니다.
+2. **Total pull requests by user** 차트에서 사용자 이름을 선택합니다. 이 예제에서는 해당 시간의 대부분이 2월에 해당한다는 것을 볼 수 있습니다.
 
     ![Power BI - GitHub 보고서(강조 표시)](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-cross-filter-total-prs.png)
 
@@ -123,7 +123,7 @@ ms.locfileid: "64578602"
  
     ![Power BI - GitHub 보고서 펀치 카드](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 
-    분명히 화요일 오후 3 시는 사람들이 그들의 작업을 체크 인할 때 *커밋*에 대한 가장 일반적인 시간 및 요일입니다.
+    분명히 화요일 오후 3시는 사람들이 작업을 체크인할 때 *커밋*에 대한 가장 일반적인 시간 및 요일입니다.
 
 ## <a name="clean-up-resources"></a>리소스 정리
 
