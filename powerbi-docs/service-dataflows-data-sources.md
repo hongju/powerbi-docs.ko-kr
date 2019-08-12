@@ -23,7 +23,7 @@ Power BI 데이터 흐름을 사용하면 다양한 데이터 원본에 연결�
 
 이 문서에서는 데이터 흐름을 만들거나 추가하는 데 사용할 수 있는 많은 데이터 원본이 나열되어 있으며, 이러한 데이터 원본을 사용하여 데이터 흐름을 만드는 방법을 설명합니다.
 
-데이터 흐름을 만들고 사용 하는 방법의 개요에 대해서는, [Power BI에서 데이터 흐름을 만들고 사용](service-dataflows-create-use.md)을 참조 하세요.
+데이터 흐름을 만들고 사용하는 방법의 개요에 대해서는, [Power BI에서 데이터 흐름을 만들고 사용](service-dataflows-create-use.md)을 참조하세요.
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>데이터 원본에서 데이터 흐름 만들기
 
