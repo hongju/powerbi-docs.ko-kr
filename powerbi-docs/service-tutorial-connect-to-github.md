@@ -19,7 +19,7 @@ ms.lasthandoff: 05/29/2019
 ms.locfileid: "64578602"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>자습서: Power BI를 사용하여 GitHub 리포지토리에 연결
-이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI에서 대시보드와 보고서를 자동으로 만듭니다. Power BI 콘텐츠 공용 저장소에(*리포지토리* 라고도 하는) 연결하여 다음과 같은 질문에 대한 답변을 볼 수 있습니다: 얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여한 사람은 누구인가요? 어떤 요일이 가장 많이 기여하는가요? 및 다른 질문을 추가 합니다. 
+이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다. Power BI 콘텐츠 공용 저장소(*리포지토리*라고도 하는)에 연결하여 다음과 같은 질문에 대한 답변을 볼 수 있습니다: 얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여하는 사람은 누구인가요? 어떤 요일에 기여가 가장 많은가요? 그리고 기타 질문들이 있습니다. 
 
 ![Power BI의 GitHub 보고서](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -49,7 +49,7 @@ ms.locfileid: "64578602"
    
    ![Power BI 앱 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. **앱**을 선택하고, 검색 상자에 **GitHub** 를 입력하고 > **지금 받기** 합니다.
+3. **앱**을 선택하고, 검색 상자에 **GitHub**를 입력하고 > **지금 받기** 합니다.
    
    ![Power BI - GitHub 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
@@ -71,8 +71,8 @@ ms.locfileid: "64578602"
    
    이제 Power BI에서 GitHub와 연결하고 데이터에 연결할 수 있습니다. 하루에 한 번 데이터가 새로 고쳐집니다.
 
-11. Power BI가 데이터를 가져오면 새 GitHub 작업 영역의 내용을 표시 합니다. 
-12. 왼쪽 탐색 모음에서 작업 영역 이름 옆의 화살표를 선택 합니다. 대시보드 및 보고서를 포함 하는 작업영역이 표시 됩니다. 
+11. Power BI가 데이터를 가져오면 새 GitHub 작업 영역의 내용을 표시합니다. 
+12. 왼쪽 탐색 모음에서 작업 영역 이름 옆의 화살표를 선택합니다. 대시보드 및 보고서를 포함하는 작업 영역이 표시됩니다.
 
     ![왼쪽된 탐색 창의 앱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
@@ -84,7 +84,7 @@ ms.locfileid: "64578602"
 
     ![전역 탐색 아이콘](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
-15. GitHub 대시보드를 선택 합니다.
+15. GitHub 대시보드를 선택합니다.
     
     GitHub 대시보드는 라이브 데이터를 포함하므로 표시 되는 값이 다를 수 있습니다.
 
