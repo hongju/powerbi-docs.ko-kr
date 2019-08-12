@@ -20,7 +20,7 @@ ms.locfileid: "61187171"
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Power BI 및 Azure에서 동일한 계정 사용
 Power BI와 Azure 모두의 사용자인 경우 암호를 두 번 입력할 필요 없이 두 서비스에 같은 로그인을 사용하고자 할 수 있습니다.
 
-Power BI는 직장 또는 학교 메일 주소와 연결된 조직 계정으로 로그인합니다. Azure는 Microsoft 계정이나 조직 계정을 사용하여 로그인합니다.
+Power BI는 직장 또는 학교 이메일 주소와 연결된 조직 계정으로 로그인합니다. Azure는 Microsoft 계정이나 조직 계정을 사용하여 로그인합니다.
 
 Azure 및 Power BI 모두에 동일한 로그인을 사용하려면 조직 계정을 사용하여 Azure에 로그인합니다.
 
