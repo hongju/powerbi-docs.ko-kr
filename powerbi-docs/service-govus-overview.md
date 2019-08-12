@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 554a5de238af650ab4009669d55a2fadedd4a29f
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809128"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590454"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -41,15 +41,14 @@ ms.locfileid: "66809128"
 
 ## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>정부와 글로벌 Azure 클라우드 서비스 간의 연결 
 
-Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트는 클라우드 관련 인스턴스에 대한 방화벽 규칙을 열 수 있지만, 클라우드 간 네트워킹은 이와 다르며 서비스 간 통신을 위한 특정 방화벽 규칙을 열어야 합니다. Power BI 고객이고 액세스해야 하는 공용 클라우드에 기존 SQL 인스턴스를 갖고 있는 경우 다음 데이터 센터에 대해 SQL에서 Azure Government 클라우드 IP 공간에 대한 특정 방화벽 규칙을 열어야 합니다.
+Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트는 클라우드 관련 인스턴스에 대한 방화벽 규칙을 열 수 있지만, 클라우드 간 네트워킹은 이와 다르며 서비스 간 통신을 위한 특정 방화벽 규칙을 열어야 합니다. Power BI 고객이고 액세스해야 하는 퍼블릭 클라우드에 기존 SQL 인스턴스를 갖고 있는 경우 다음 데이터 센터에 대해 SQL에서 Azure Government 클라우드 IP 공간에 대한 특정 방화벽 규칙을 열어야 합니다.
 
 * USGov 아이오와
 * USGov 버지니아
 * USGov 텍사스
 * USGov 애리조나
 
-공용 클라우드에서 IP 공간을 사용할 수 있지만, 정부 클라우드의 경우 위에 나열된 데이터 센터의 IP 범위를 요청하는 Azure 지원 티켓을 개설해야 합니다. 
-
+퍼블릭 클라우드에서 IP 공간을 사용할 수 있습니다. 정부 클라우드에 대한 최신 정보는 다운로드 가능한 [Azure 정부 서비스 문서](https://www.microsoft.com/download/details.aspx?id=57063)를 참조하세요.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Power BI 미국 정부 기관의 제한 사항
 **Power BI 서비스** 상용 버전에서 사용할 수 있는 기능 중 일부는 미국 정부 기관 고객용 **Power BI 서비스**에서 사용할 수 *없습니다*. 미국 정부 기관 고객이 이러한 기능을 사용할 수 있도록 Power BI 팀에서 적극적으로 노력하고 있으며, 이러한 기능을 사용할 수 있게 되면 이 문서를 업데이트할 것입니다.

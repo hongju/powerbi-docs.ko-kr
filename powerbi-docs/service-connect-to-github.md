@@ -7,38 +7,38 @@ ms.reviewer: sarinas
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/26/2019
+ms.date: 07/21/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b0f2bd53f1d8b82b70072446723c2ca3723eeacd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f8091892f38f498c8072720ad1a93b0c4b07442b
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65608420"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380251"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Power BI로 GitHub에 연결
-이 문서에서는 Power BI 템플릿 앱을 사용 하 여 GitHub 계정에서 데이터를 끌어오는 안내 합니다. 템플릿 앱 대시보드, 보고서, 집합 및 GitHub 데이터를 탐색할 수 있도록 데이터 집합을 사용 하 여 작업 영역을 생성 합니다. Power BI 용 GitHub 앱은 GitHub 리포지토리에 참여, 문제, 끌어오기 요청 및 활성 사용자 데이터를 사용 하 여 리포지토리 라고도에 대 한 정보를 보여 줍니다.
+이 문서에서는 Power BI 템플릿 앱을 사용하여 GitHub 계정에서 데이터를 가져오는 과정을 안내합니다. 템플릿 앱은 대시보드, 보고서 세트 및 데이터 세트로 구성되고 GitHub 데이터를 탐색할 수 있게 해주는 작업 영역을 생성합니다. Power BI용 GitHub 앱은 기여, 이슈, 끌어오기 요청 및 활성 사용자와 관련된 데이터가 포함된 GitHub 리포지토리(리포라고도 함)의 인사이트를 표시합니다.
 
-템플릿 앱을 설치한 후에 대시보드 및 보고서를 변경할 수 있습니다. 그런 다음 조직의 동료에 게 앱으로 배포할 수 있습니다.
+템플릿 앱을 설치한 후에 대시보드와 보고서를 변경할 수 있습니다. 그런 다음, 조직의 동료에게 앱으로 배포할 수 있습니다.
 
-에 연결 합니다 [GitHub 템플릿 앱](https://app.powerbi.com/getdata/services/github) 자세히 또는 합니다 [GitHub 통합](https://powerbi.microsoft.com/integrations/github) Power BI를 사용 하 여 합니다.
+[GitHub 템플릿 앱](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)에 연결하거나 Power BI와 [GitHub 통합](https://powerbi.microsoft.com/integrations/github)에 대해 자세히 알아보세요.
 
-시도할 수도 있습니다는 [GitHub 자습서](service-tutorial-connect-to-github.md)합니다. Power BI 설명서에 대 한 공용 리포지토리에 대 한 실제 GitHub 데이터를 설치합니다.
+[GitHub 자습서](service-tutorial-connect-to-github.md)를 살펴볼 수도 있습니다. 이 자습서는 Power BI 설명서의 공용 리포지토리에 대한 실제 GitHub 데이터를 설치합니다.
 
 >[!NOTE]
->템플릿 앱 리포지토리에 액세스할 수 있는 GitHub 계정이 필요 합니다. 요구 사항에 대한 자세한 내용은 아래에 나와 있습니다.
+>템플릿 앱을 사용하려면 리포지토리 액세스 권한이 있는 GitHub 계정이 필요합니다. 요구 사항에 대한 자세한 내용은 아래에 나와 있습니다.
 
 ## <a name="how-to-connect"></a>연결 방법
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
    
-3. 선택 **GitHub** \> **지금**합니다.
-4. **Power BI 앱이 설치?** 선택 **설치**합니다.
-4. 에 **앱** 창 합니다 **GitHub** 타일입니다.
+3. **GitHub** \> **지금 받기**를 선택합니다.
+4. **이 Power BI 앱을 설치하시겠습니까?** 에서 **설치**를 선택합니다.
+4. **앱** 창에서 **GitHub** 타일을 선택합니다.
 
     ![Power BI - GitHub 타일](media/service-connect-to-github/power-bi-github-tile.png)
 
-6. **새 앱을 시작 하세요**를 선택 **데이터 연결**합니다.
+6. **새 앱 시작**에서 **데이터 연결**을 선택합니다.
 
     ![새 앱 시작](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
 
@@ -46,49 +46,49 @@ ms.locfileid: "65608420"
    
     ![Power BI - GitHub 리포지토리 이름](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
-5. (이 단계 건너뛸 수 있음 브라우저가 이미 로그인 하는 경우) GitHub 자격 증명을 입력 합니다. 
+5. GitHub 자격 증명을 입력합니다(브라우저를 사용하여 이미 로그인한 경우 이 단계를 건너뛸 수 있음). 
 6. **인증 방법**에 대해 **oAuth2** \> **로그인**을 선택합니다. 
-7. GitHub 인증 화면을 따릅니다. Power BI 템플릿 앱 권한이 GitHub 데이터에 대 한 GitHub에 권한을 부여 합니다.
+7. GitHub 인증 화면을 따릅니다. Power BI용 GitHub 템플릿 앱에 GitHub 데이터 사용 권한을 부여합니다.
    
    ![Power BI GitHub 권한 부여](media/service-connect-to-github/github_authorize.png)
    
-    Power BI는 GitHub 및 데이터에 연결합니다.  하루에 한 번 데이터가 새로 고쳐집니다. Power BI가 데이터를 가져오면 새 GitHub 작업 영역의 내용을 표시 합니다.
+    Power BI는 GitHub 및 데이터에 연결됩니다.  하루에 한 번 데이터가 새로 고쳐집니다. Power BI가 데이터를 가져오면 새 GitHub 작업 영역의 콘텐츠가 표시됩니다.
 
-## <a name="modify-and-distribute-your-app"></a>수정, 앱 배포
+## <a name="modify-and-distribute-your-app"></a>앱 수정 및 배포
 
-GitHub 템플릿 앱을 설치 했습니다. 즉, GitHub 앱 작업 영역도 만들었습니다. 작업 영역에서 보고서 및 대시보드를 다음으로 배포를 *앱* 조직의 동료에 게 합니다. 
+GitHub 템플릿 앱을 설치했습니다. 즉, GitHub 앱 작업 영역도 만들었습니다. 작업 영역에서 보고서와 대시보드를 변경한 다음, 조직의 동료에게 ‘앱’으로 배포할 수 있습니다.  
 
-1. 왼쪽된 탐색 모음에서 작업 영역 이름 옆의 화살표를 선택 합니다. 작업 영역 대시보드 및 보고서를 포함 하는 것이 표시 됩니다.
+1. 왼쪽 탐색 모음에서 작업 영역 이름 옆에 있는 화살표를 선택합니다. 작업 영역에 대시보드 및 보고서가 포함되어 있는 것을 확인할 수 있습니다.
 
-    ![왼쪽된 탐색 창의 앱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+    ![왼쪽 탐색 창의 앱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-8. 새 선택 [GitHub 대시보드](https://powerbi.microsoft.com/integrations/github)합니다.    
-    ![Power BI에서 GitHub 대시보드](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
+8. 새 [GitHub 대시보드](https://powerbi.microsoft.com/integrations/github)를 선택합니다.    
+    ![Power BI의 GitHub 대시보드](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
 
-3. 왼쪽된 탐색 모음에서 새 GitHub 작업 영역의 모든 콘텐츠를 보려면 선택 **작업 영역** > **GitHub**합니다.
+3. 새 GitHub 작업 영역의 모든 콘텐츠를 보려면 왼쪽 탐색 모음에서 **작업 영역** > **GitHub**를 선택합니다.
  
-   ![왼쪽된 탐색 창에서 GitHub 작업 영역](media/service-connect-to-github/power-bi-github-left-nav.png)
+   ![왼쪽 탐색 창의 GitHub 작업 영역](media/service-connect-to-github/power-bi-github-left-nav.png)
 
-    이 보기에는 작업 영역 콘텐츠 목록입니다. 오른쪽 위 모서리에 표시 **앱 업데이트**합니다. 동료에 게 앱을 배포할 준비가 있는 경우 시작할 수 있습니다. 
+    이 보기는 작업 영역의 콘텐츠 목록입니다. 오른쪽 위에 **앱 업데이트**가 표시됩니다. 동료에게 앱을 배포할 준비가 되었으면 여기서 시작합니다. 
 
     ![GitHub 콘텐츠 목록](media/service-connect-to-github/power-bi-github-content-list.png)
 
-2. 선택 **보고서** 하 고 **데이터 집합** 작업 영역에서 다른 요소를 확인 합니다.
+2. **보고서** 및 **데이터 세트**를 선택하여 작업 영역의 다른 요소를 확인합니다.
 
-    읽어보세요 [앱 배포](service-create-distribute-apps.md) 동료에 게 합니다.
+    동료에게 [앱을 배포](service-create-distribute-apps.md)하는 방법을 참조하세요.
 
-## <a name="whats-included-in-the-app"></a>앱에는 무엇이 포함
+## <a name="whats-included-in-the-app"></a>앱에 포함된 내용
 Power BI의 GitHub에서 다음 데이터를 사용할 수 있습니다.     
 
 | 표 이름 | 설명 |
 | --- | --- |
-| 참여 |참여 표는 총 추가, 삭제 및 수를 주별로 집계 참가자가 만든 커밋을 제공 합니다. 상위 100개의 참가자가 포함됩니다. |
-| 문제 |선택한 리포지토리에 대한 모든 문제를 나열하며 문제가 닫힐 때까지의 총 시간과 평균 시간, 열린 총 문제 수, 닫힌 총 문제 수와 같은 계산을 포함합니다. 리포지토리에 문제가 없으면 이 표는 비어 있습니다. |
-| 끌어오기 요청 |이 표에는 리포지토리에 대한 모든 끌어오기 요청과 요청을 끌어온 사용자가 포함됩니다. 또한 얼마나 많은 열고, 닫힌 총 끌어오기 요청에 관련 된 계산이, 요청을 끌어오는 데 걸린 기간 및 끌어오기 요청의 평균 소요 포함 합니다. 리포지토리에 문제가 없으면 이 표는 비어 있습니다. |
-| 사용자 |이 표에서 GitHub 사용자 또는 참여, 문제를 제출 하거나 선택한 리포지토리에 대 한 끌어오기 요청을 해결 않은 참가자의 목록을 제공 합니다. |
+| 기여 |기여 테이블은 기여자가 작성한 총 추가, 삭제 및 커밋 수를 주별로 집계하여 제공합니다. 상위 100개의 기여자가 포함됩니다. |
+| 이슈 |선택한 리포지토리에 대한 모든 이슈를 나열하며 이슈가 닫힐 때까지의 총 시간과 평균 시간, 열린 총 이슈 수, 닫힌 총 이슈 수와 같은 계산을 포함합니다. 리포지토리에 이슈가 없으면 이 표는 비어 있습니다. |
+| 끌어오기 요청 |이 표에는 리포지토리에 대한 모든 끌어오기 요청과 요청을 끌어온 사용자가 포함됩니다. 또한 열린 끌어오기 요청 수, 닫힌 끌어오기 요청 수 및 총 끌어오기 요청 수, 요청을 끌어오는 데 걸린 시간, 끌어오기 요청의 평균 소요 시간과 관련된 계산이 포함됩니다. 리포지토리에 이슈가 없으면 이 표는 비어 있습니다. |
+| 사용자 |이 테이블에서는 선택한 리포지토리와 관련하여 기여했거나, 이슈를 보고했거나, 끌어오기 요청을 해결한 GitHub 사용자 또는 기여자 목록을 제공합니다. |
 | 중요 시점 |선택한 리포지토리에 대한 모든 중요 시점이 포함됩니다. |
-| DateTable |이 테이블에서 현재 및 과거 연도의 날짜 GitHub 데이터를 분석할 수 있도록 하는 날짜를 포함 합니다. |
-| ContributionPunchCard |이 표를 선택한 리포지토리에 대한 참여 펀치 카드로 사용할 수 있습니다. 요일 및 시간별로 커밋이 표시됩니다. 이 표는 모델의 다른 표에 연결되어 있지 않습니다. |
+| DateTable |이 테이블에는 GitHub 데이터를 날짜별로 분석할 수 있도록 오늘 이후의 날짜와 과거 연도의 날짜가 포함됩니다. |
+| ContributionPunchCard |이 표를 선택한 리포지토리에 대한 기여 펀치 카드로 사용할 수 있습니다. 요일 및 시간별로 커밋이 표시됩니다. 이 표는 모델의 다른 표에 연결되어 있지 않습니다. |
 | RepoDetails |이 표에서는 선택한 리포지토리에 대한 세부 정보를 제공합니다. |
 
 ## <a name="system-requirements"></a>시스템 요구 사항
@@ -97,7 +97,7 @@ Power BI의 GitHub에서 다음 데이터를 사용할 수 있습니다.
 * 데이터를 끌어오고 새로 고치는 데 사용할 수 있는 충분한 API 호출.  
 
 ### <a name="de-authorize-power-bi"></a>Power BI 권한 부여 취소
-GitHub 리포지토리에 연결할 권한을 Power BI에서 GitHub에서 액세스를 해지할 수 있습니다. 이 참조 하세요 [GitHub 도움말](https://help.github.com/articles/keeping-your-ssh-keys-and-application-access-tokens-safe/#reviewing-your-authorized-applications-oauth) 세부 정보에 대 한 항목입니다.
+Power BI가 GitHub 리포지토리에 연결할 수 없도록 권한 부여를 취소하려면 GitHub에서 액세스를 철회할 수 있습니다. 자세한 내용은 [GitHub 도움말](https://help.github.com/articles/keeping-your-ssh-keys-and-application-access-tokens-safe/#reviewing-your-authorized-applications-oauth) 항목을 참조하세요.
 
 <a name="FindingParams"></a>
 ## <a name="finding-parameters"></a>매개 변수 찾기
@@ -112,13 +112,13 @@ GitHub의 리포지토리 자체를 보면 소유자와 리포지토리를 확�
 ## <a name="troubleshooting"></a>문제 해결
 필요한 경우 GitHub 자격 증명을 확인할 수 있습니다.  
 
-1. 다른 브라우저 창에서 GitHub 웹 사이트로 이동 하 고 GitHub에 로그인 합니다. GitHub 사이트의 오른쪽 위에서 로그인한 상태를 확인할 수 있습니다.    
+1. 다른 브라우저 창에서 GitHub 웹 사이트로 이동한 다음, GitHub에 로그인합니다. GitHub 사이트의 오른쪽 위에서 로그인한 상태를 확인할 수 있습니다.    
 2. GitHub에서 Power BI를 통해 액세스하려는 리포지토리의 URL로 이동합니다. 예: https://github.com/dotnet/corefx.  
 3. Power BI로 돌아와서 GitHub에 연결을 시도합니다. GitHub 구성 대화 상자에서 동일한 리포지토리의 리포지토리 이름과 리포지토리 소유자를 사용합니다.  
 
 ## <a name="next-steps"></a>다음 단계
 
-* [자습서: Power BI를 사용 하 여 GitHub 리포지토리에 연결](service-tutorial-connect-to-github.md)
+* [자습서: Power BI를 사용하여 GitHub 리포지토리에 연결](service-tutorial-connect-to-github.md)
 * [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)
 * [Power BI에서 앱 설치 및 사용](consumer/end-user-apps.md)
 * [외부 서비스용 Power BI 앱에 연결](service-connect-to-services.md)

@@ -13,7 +13,7 @@ ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 3aeb1fc16ae200399125a2366a8993d45aad34c4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64578602"
@@ -53,13 +53,14 @@ ms.locfileid: "64578602"
    
    ![Power BI - GitHub 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
+
 4. **이 Power BI 앱을 설치하겠습니까?**에서 **설치**를 선택합니다.
 5. **새 앱의 준비가 완료됨**에서 **앱으로 이동**을 선택합니다.
 6. **새 앱 시작**에서 **데이터 연결**을 선택합니다.
 
     ![새 앱 시작](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
 
-7. 리포지토리의 리포지토리 이름과 리포지토리 소유자를 입력합니다. 이 리포지토리에 대한 URL은 https://github.com/MicrosoftDocs/powerbi-docs이므로 **리포지토리 소유자**는 **MicrosoftDocs**이고 **리포지토리**는 **powerbi-docs**입니다. 
+7. 리포지토리의 리포지토리 이름과 리포지토리 소유자를 입력합니다. 이 리포지토리에 대한 URL은 https://github.com/MicrosoftDocs/powerbi-docs 이므로 **리포지토리 소유자**는 **MicrosoftDocs**이고 **리포지토리**는 **powerbi-docs**입니다. 
    
     ![Power BI - GitHub 리포지토리 이름](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
@@ -71,8 +72,10 @@ ms.locfileid: "64578602"
    
    이제 Power BI에서 GitHub와 연결하고 데이터에 연결할 수 있습니다. 하루에 한 번 데이터가 새로 고쳐집니다.
 
+
 11. Power BI가 데이터를 가져오면 새 GitHub 작업 영역의 내용을 표시합니다. 
 12. 왼쪽 탐색 모음에서 작업 영역 이름 옆의 화살표를 선택합니다. 대시보드 및 보고서를 포함하는 작업 영역이 표시됩니다.
+
 
     ![왼쪽된 탐색 창의 앱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
@@ -84,9 +87,11 @@ ms.locfileid: "64578602"
 
     ![전역 탐색 아이콘](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
+
 15. GitHub 대시보드를 선택합니다.
     
     GitHub 대시보드는 라이브 데이터를 포함하므로 표시 되는 값이 다를 수 있습니다.
+
 
     ![Power BI - GitHub 대시보드](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
 
@@ -94,13 +99,13 @@ ms.locfileid: "64578602"
 
 ## <a name="ask-a-question"></a>질문하기
 
-1. 에 커서를 놓습니다 **데이터에 대 한 질문**합니다. Power BI 제품 **시작 하는 질문**합니다. 
+1. **데이터에 대해 질문하기**에 커서를 놓습니다. Power BI는 **시작하기 위한 질문**을 제공합니다. 
 
-1. 선택 **얼마나 많은 사용자가 사항이**합니다.
+1. **how many users are there**을 선택합니다.
  
     ![얼마나 많은 사용자가 사항이](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
-13. 사이 **횟수** 및 **사용자 사항이**, 형식 **끌어오기 요청 당**합니다. 
+13. **how many** 및 **users are there** 사이에, **pull requests per**를 입력합니다. 
 
      Power BI는 사용자 당 끌어오기 요청 수를 보여 주는 가로 막대형 차트를 만듭니다.
 
@@ -111,19 +116,19 @@ ms.locfileid: "64578602"
 
 ## <a name="view-the-github-report"></a>GitHub 보고서 보기 
 
-1. GitHub 대시보드를 선택 세로 막대형 차트 **월별 끌어오기 요청** 관련된 보고서를 엽니다.
+1. GitHub 대시보드에서, **Pull Requests by Month** 세로 막대형 차트를 선택하여 관련된 보고서를 엽니다.
 
     ![월 세로 막대형 차트에서 끌어오기 요청](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
 
-2. 사용자 이름을 선택 합니다 **사용자가 전체 끌어오기 요청** 차트입니다. 이 예제에서는 2 월에 해당 시간의 대부분은을 참조 합니다.
+2. **Total pull requests by user** 차트에서 사용자 이름을 선택합니다. 이 예제에서는 해당 시간의 대부분이 2월에 해당한다는 것을 볼 수 있습니다.
 
     ![Power BI - GitHub 보고서(강조 표시)](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-cross-filter-total-prs.png)
 
-3. **펀치 카드** 탭을 선택하여 보고서의 다음 페이지를 표시합니다. 
+3. **Punch Card** 탭을 선택하여 보고서의 다음 페이지를 표시합니다. 
  
     ![Power BI - GitHub 보고서 펀치 카드](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 
-    가장 일반적인 시간 및 요일에 대 한 화요일 오후 3 시의 분명히 *커밋합니다*회사에서 사용자를 확인 하는 경우.
+    분명히 화요일 오후 3시는 사람들이 작업을 체크인할 때 *커밋*에 대한 가장 일반적인 시간 및 요일입니다.
 
 ## <a name="clean-up-resources"></a>리소스 정리
 

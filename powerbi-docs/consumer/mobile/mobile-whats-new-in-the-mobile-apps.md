@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230177"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665426"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -649,8 +649,6 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 [Android 휴대폰에서 가로 모드](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone)로 대시보드를 봅니다. 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Windows 10 디바이스용 Power BI 앱
-[Windows 10 휴대폰에서 가로 모드](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device)로 대시보드를 봅니다.
-
 [Windows 10 Phone에서 보고서](mobile-reports-in-the-mobile-apps.md)를 봅니다.
 
 [Windows 10 모바일 대시보드에서 인사이트](mobile-tiles-in-the-mobile-apps.md)에 더 신속하게 접근: 타일 스냅샷을 공유하거나 대시보드에서 직접 보고서를 엽니다.

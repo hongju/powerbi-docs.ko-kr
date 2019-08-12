@@ -59,7 +59,7 @@ ms.locfileid: "67161114"
    
     ![판매 단계 선택](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [차트를 깔때기로 변환](power-bi-report-change-visualization-type.md)합니다. **Sales Stage**가 **그룹**에 있습니다. 
-3. **필드** 창에서 **팩트** \> **기회 수**를 선택합니다.
+3. **필드** 창에서 **Fact** \>**Opportunity Count**를 선택합니다.
    
     ![깔때기형 차트 빌드](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. 막대를 마우스로 가리키면 다양한 정보가 표시됩니다.
@@ -76,7 +76,7 @@ ms.locfileid: "67161114"
 ## <a name="highlighting-and-cross-filtering"></a>강조 표시 및 교차 필터링
 필터 창 사용 방법에 대한 자세한 내용은 [보고서에 필터 추가](../power-bi-report-add-filter.md)를 참조하세요.
 
-보고서 페이지에서 다른 시각화 요소를 교차 필터링하는 등치 지역도에서 막대를 강조 표시하고 그 반대의 경우도 마찬가지입니다. 계속 수행하려면 깔때기형 차트를 포함하는 보고서 페이지에 몇 가지 시각적 개체를 추가합니다.
+깔때기에서 막대를 강조 표시하면 보고서 페이지의 다른 시각화 요소를 교차 필터링하며 그 반대의 경우도 마찬가지입니다. 계속 수행하려면 깔때기형 차트를 포함하는 보고서 페이지에 몇 가지 시각적 개체를 추가합니다.
 
 1. 깔때기에서 **Proposal** 막대를 선택합니다. 이는 페이지의 다른 시각화 요소를 상호 간에 강조 표시합니다. Ctrl 키를 사용하면 여러 개를 선택할 수 있습니다.
    

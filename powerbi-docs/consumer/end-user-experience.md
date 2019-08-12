@@ -12,16 +12,16 @@ ms.topic: quickstart
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 86c8297c9a55f2b59e7c01390ff15bb3b2d4bf2e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: af7f2f0ca5407694b13f0b053ff347f883c8c983
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61049408"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523031"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>빠른 시작 - Power BI 서비스 살펴보기
 
-이제 Power BI의 기본 사항을 알아보았으므로 **Power BI 서비스**를 살펴보겠습니다. 앞에서 언급했듯이 팀 구성원은 **Power BI Desktop**에서 모든 시간을 보내면서 데이터를 결합하고 다른 사람을 위한 보고서를 만들 수 있습니다. 그러나 다른 한편으로는 Power BI 서비스에서 모든 시간을 보내면서 다른 사람이 만든 콘텐츠를 보고 상호 작용(**소비** 경험)할 수도 있습니다. 이 빠른 시작에서는 샘플 데이터를 가져오고, 해당 데이터를 사용하여 Power BI 서비스에 대해 알아봅니다. 
+이제 Power BI의 기본 사항을 알아보았으므로 **Power BI 서비스**를 살펴보겠습니다. 앞서 언급했듯이 특정 팀원이 **Power BI Desktop**에서 모든 시간을 보내면서 데이터를 결합하고 다른 사용자를 위한 보고서를 만들 수 있습니다. 그러나 다른 한편으로는 Power BI 서비스에서 모든 시간을 보내면서 다른 사람이 만든 콘텐츠를 보고 상호 작용(**소비** 경험)할 수도 있습니다. 이 빠른 시작에서는 샘플 데이터를 가져오고, 해당 데이터를 사용하여 Power BI 서비스에 대해 알아봅니다. 
  
 ## <a name="prerequisites"></a>필수 조건
 
@@ -61,7 +61,7 @@ Power BI 서비스 탐색 경험을 안내하는 Amanda를 봅니다.  그런 �
 
 ![작업 영역의 짧은 비디오](./media/end-user-experience/nav.gif)
 
-이러한 탭(*콘텐츠 보기*라고 함)에는 콘텐츠에 대한 정보와 해당 콘텐츠로 수행할 수 있는 작업이 표시됩니다.  예를 들어 [대시보드] 탭에서 대시보드 열기, 검색, 정렬 작업 등을 수행할 수 있습니다.
+이러한 탭(‘콘텐츠 보기’라고 함)에는 콘텐츠 정보와 해당 콘텐츠로 수행할 수 있는 작업이 표시됩니다.   예를 들어 [대시보드] 탭에서 대시보드 열기, 검색, 정렬 작업 등을 수행할 수 있습니다.
 
 ![대시보드 탭](./media/end-user-experience/power-bi-dashboard-tab.png)
 

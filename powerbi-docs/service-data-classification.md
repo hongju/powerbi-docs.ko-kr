@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e687c72ae058f56ca4f528783c5e2326d82db6bb
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140962"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523143"
 ---
 # <a name="dashboard-data-classification"></a>대시보드 데이터 분류
 다양한 대시보드가 있기 때문에, 연결하는 데이터 원본에 따라, 데이터의 민감도에 따라 사용자 및 데이터를 공유하는 동료가 서로 다른 수준의 주의를 기울이도록 해야 할 필요성을 느낄 수 있습니다. 회사 외부의 사람과 절대로 공유하거나 인쇄하지 말아야 하는 대시보드가 있는가 하면, 자유롭게 공유할 수 있는 대시보드도 있습니다. 대시보드 데이터 분류를 사용하면, 대시보드를 보는 사람들이 사용해야 할 보안 수준에 대한 인식을 높일 수 있습니다. 콘텐츠를 보는 모든 사람이 데이터 민감도에 대해 동일한 수준의 이해를 갖도록 사내 IT 부서에서 정의한 분류를 사용하여 대시보드에 태그를 지정할 수 있습니다.
@@ -45,7 +45,7 @@ ms.locfileid: "61140962"
 ## <a name="setting-a-dashboards-classification"></a>대시보드의 분류 설정
 회사에 데이터 분류를 사용하도록 설정되어 있으면, 모든 대시보드가 기본 분류 유형으로 시작되며, 대시보드 소유자는 대시보드 보안 수준에 맞게 분류를 변경할 수 있습니다.
 
-분류 유형을 변경하려면, 다음을 수행합니다.
+분류 유형을 변경하려면 다음을 수행합니다.
 
 1. 대시보드 이름 옆의 **줄임표(...)** 를 선택하고 **설정**을 선택하여 대시보드 설정으로 이동합니다.
    
@@ -58,7 +58,7 @@ ms.locfileid: "61140962"
 변경 내용을 적용한 후에, 대시보드를 다시 로드하면 대시보드를 공유한 모든 이에게 업데이트된 내용이 표시됩니다.
 
 ## <a name="working-with-data-classification-tags-as-an-admin"></a>관리자의 데이터 분류 태그 작업
-데이터 분류는 조직의 전역 관리자에 의해 설정됩니다. 데이터 분류를 사용하도록 설정하려면, 다음을 수행합니다.
+데이터 분류는 조직의 전역 관리자에 의해 설정됩니다. 데이터 분류를 사용하려면 다음을 수행합니다.
 
 1. 설정 기어(단추)를 선택하고 **관리 포털**을 선택합니다.
    
@@ -79,7 +79,7 @@ ms.locfileid: "61140962"
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 
-이 시점에, 모든 대시보드에 기본 분류가 할당되고, 대시보드 소유자가 자신의 콘텐츠에 적합한 유형으로 분류 유형을 업데이트할 수 있게 됩니다. 나중에 이 곳에 돌아와서 분류 유형을 추가하거나 제거하거나 기본값을 변경할 수 있습니다.  
+이 시점에는 모든 대시보드에 기본 분류가 할당됩니다. 이제 대시보드 소유자가 분류 유형을 해당 콘텐츠에 적합한 유형으로 업데이트할 수 있습니다. 나중에 이 곳에 돌아와서 분류 유형을 추가하거나 제거하거나 기본값을 변경할 수 있습니다.  
 
 > [!NOTE]
 > 변경을 위해 다시 돌아오는 경우 기억해야 할 중요한 내용이 몇 가지 있습니다.

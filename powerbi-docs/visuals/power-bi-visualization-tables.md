@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0525d448d5337c2c1613d8bc8f6d332a05b13e3
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409238"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867200"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드의 테이블
 
@@ -36,9 +36,6 @@ ms.locfileid: "67409238"
 
 * 숫자 데이터를 범주별로 표시
 
-> [!NOTE]
-> 테이블에 너무 많은 값이 있으면 행렬로 전환 및/또는 드릴다운을 사용하는 것이 좋습니다. 테이블에 표시되는 최대 데이터 요소는 3,500입니다.
-
 ## <a name="prerequisites"></a>필수 조건
 
 * Power BI 서비스 또는 Power BI Desktop
@@ -47,7 +44,7 @@ ms.locfileid: "67409238"
 
 ## <a name="get-the-retail-analysis-sample-report"></a>소매점 분석 샘플 보고서 가져오기
 
-이 지침은 소매 분석 샘플을 사용합니다. 시각화를 만들려면 데이터 세트 및 보고서에 대한 편집 권한이 필요합니다. 다행히 Power BI 샘플은 모두 편집 가능합니다. 누군가가 공유해 준 보고서에서 시각화를 만들 수 없습니다. 과정을 따르려면 [소매점 분석 샘플 보고서](../sample-datasets.md)를 획득합니다.
+이 지침은 소매점 분석 샘플을 사용합니다. 시각화를 만들려면 데이터 세트 및 보고서에 대한 편집 권한이 필요합니다. 다행히 Power BI 샘플은 모두 편집 가능합니다. 누군가가 공유해 준 보고서에서 시각화를 만들 수 없습니다. 과정을 따르려면 [소매점 분석 샘플 보고서](../sample-datasets.md)를 획득합니다.
 
 **소매 분석 샘플** 데이터 세트를 가져온 후 시작할 수 있습니다.
 

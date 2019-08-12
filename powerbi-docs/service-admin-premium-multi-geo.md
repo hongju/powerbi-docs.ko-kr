@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fcef4b7bc9feaee0912a8e0e9ea8098d52c66e3a
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: f29ce1ce05db80378eee81293d92484fb4f58f45
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289823"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665405"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium에 대한 Multi-Geo 지원 구성
 
@@ -30,6 +30,7 @@ ms.locfileid: "68289823"
 - 인도
 - 아시아 태평양
 - 오스트레일리아
+- 아프리카
 
 Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 정부용)에는 다중 지역을 사용할 수 없습니다.
 
