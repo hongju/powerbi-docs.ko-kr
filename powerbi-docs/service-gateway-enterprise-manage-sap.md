@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b61d794701d18fd25ab9acb5d5208ae289376eb6
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: a09388e8b22131c9b82771385b69142b18e3cc84
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271773"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730020"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>데이터 원본 관리 - SAP HANA
 
@@ -32,7 +32,7 @@ ms.locfileid: "68271773"
 SAP HANA 데이터 원본 형식을 선택한 후 데이터 원본에 대한 **서버**, **사용자 이름** 및 **암호** 정보를 입력합니다.
 
 > [!NOTE]
-> 데이터 소스에 대한 모든 쿼리는 이러한 자격 증명을 사용하여 실행됩니다. 자격 증명을 저장하는 방법에 대한 자세한 내용은 [클라우드에 암호화된 자격 증명 저장](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud)을 참조하세요.
+> 데이터 소스에 대한 모든 쿼리는 이러한 자격 증명을 사용하여 실행됩니다. 자격 증명을 저장하는 방법에 대한 자세한 내용은 [클라우드에 암호화된 자격 증명 저장](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)을 참조하세요.
 
 ![데이터 원본 설정 입력](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 

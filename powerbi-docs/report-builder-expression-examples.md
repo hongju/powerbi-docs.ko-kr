@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: db0ea02237a2279c26f2c47cecd3bae794a5cba4
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840306"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624137"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 보고서 작성기의 식 예제
 식은 Power BI 페이지를 매긴 보고서 작성기의 페이지를 매긴 보고서에 자주 사용되어 보고서의 내용과 모양을 제어합니다. 식은 Microsoft Visual Basic으로 작성되며, 기본 제공 함수, 사용자 지정 코드, 보고서와 그룹 변수 및 사용자 정의 변수를 사용할 수 있습니다. 식은 같은 등호(=)로 시작합니다.   
@@ -40,7 +40,7 @@ ms.locfileid: "66840306"
 ##  <a name="VisualBasicFunctions"></a> Visual Basic 함수  
  Visual Basic 함수를 사용하여 텍스트 상자에 표시되거나 보고서의 매개 변수, 속성 또는 다른 영역에 사용되는 데이터를 조작할 수 있습니다. 이 섹션에서는 이러한 함수 중 일부를 보여 주는 예제를 제공합니다. 자세한 내용은 MSDN의 [Visual Basic 런타임 라이브러리 멤버](https://go.microsoft.com/fwlink/?LinkId=198941)를 참조하세요.  
   
- .NET Framework는 특정 날짜 형식과 같은 다양한 사용자 지정 형식 옵션을 제공합니다. 자세한 내용은 MSDN의 [형식 지정 유형](https://go.microsoft.com/fwlink/?LinkId=112024)을 참조하세요.  
+ .NET Framework는 특정 날짜 형식과 같은 다양한 사용자 지정 형식 옵션을 제공합니다. 자세한 내용은 [형식 유형](/dotnet/standard/base-types/formatting-types)을 참조하세요.  
   
 ### <a name="math-functions"></a>수식 함수  
   
