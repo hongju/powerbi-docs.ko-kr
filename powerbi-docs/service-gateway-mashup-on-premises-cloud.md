@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1a2415ba840a1b88f4c7a215a520d0cc88f70e49
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: e5a4e862c89d08b4e277cb4abae934f3fd47141e
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462198"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757630"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>온-프레미스 및 클라우드 데이터 원본 병합 또는 추가
 
@@ -61,4 +61,4 @@ ms.locfileid: "68462198"
 
 ## <a name="next-steps"></a>다음 단계
 
-게이트웨이에 대해 데이터 새로 고침에 대한 자세한 내용은 [예약된 새로 고침을 위해 데이터 원본 사용](service-gateway-enterprise-manage-scheduled-refresh.md#using-the-data-source-for-scheduled-refresh)을 참조하세요.
+게이트웨이에 대해 데이터 새로 고침에 대한 자세한 내용은 [예약된 새로 고침을 위해 데이터 원본 사용](service-gateway-enterprise-manage-scheduled-refresh.md#use-the-data-source-for-scheduled-refresh)을 참조하세요.

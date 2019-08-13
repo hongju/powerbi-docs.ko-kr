@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7d716c79146a0d53d261dba514aacb8787ca2fa3
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67300945"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523733"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>보고서 및 시각적 효과에 대한 디자인 모범 사례
 
@@ -825,9 +825,9 @@ Power BI는 다양한 기본 시각적 개체를 제공합니다. Microsoft와 P
 
 * [Data Visualization 101: Bar Charts](http://blog.newscred.com/article/data-visualization-101-bar-charts)(데이터 시각화 101: 가로 막대형 차트)
 
-* [Data Visualization Catalog: Bar Chart](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)(데이터 시각화 카탈로그: 가로 막대형 차트)
+* [Data Visualization Catalog: 가로 막대형 차트](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
 
-* [Data Visualization Catalog: Multi-set Bar Chart](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)(데이터 시각화 카탈로그: 다중 집합 가로 막대형 차트)
+* [Data Visualization Catalog: 다중 집합 가로 막대형 차트](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
 
 ### <a name="stacked-bar-and-column-charts"></a>누적 가로 막대형 및 세로 막대형 차트
 
@@ -857,7 +857,7 @@ Power BI는 다양한 기본 시각적 개체를 제공합니다. Microsoft와 P
 
 * Few는 다음과 같이 언급했습니다.
 
-    > “...누적 가로 막대형 차트의 세그먼트는 비교하기가 어렵습니다. 세그먼트를 나란히 정렬했고 모두가 같은 기준선에서 위쪽으로 증가한다면 높이를 비교하는 것이 쉬울 수 있지만 서로 누적된 경우에는 비교하기가 어렵습니다. 또, 월별로 (수익이) 변화하는 것을 보기는 꽤 쉽지만 다른 (범주의) (수익이) 변화하는 것을 보기는 매우 어렵습니다.” 
+    > *“...누적 가로 막대형 차트의 세그먼트는 비교하기가 어렵습니다. 세그먼트를 나란히 정렬했고 모두가 같은 기준선에서 위쪽으로 증가한다면 높이를 비교하는 것이 쉬울 수 있지만 서로 누적된 경우에는 비교하기가 어렵습니다. 또, 월별로 (수익이) 변화하는 것을 보기는 꽤 쉽지만 다른 (범주의) (수익이) 변화하는 것을 보기는 매우 어렵습니다*.
 
 * 100% 누적 차트는 백분율을 사용하는 경우에 매우 적합합니다. 아래 예제에서는 팀별 범주 분포를 볼 수 있습니다. 백분율은 상대적이며 패턴을 한눈에 보는 것이 가능합니다. Everton의 수익은 주로 방송(70% 이상)에서 발생하지만 PSG의 경우 방송에서 발생하는 수익은 20%뿐입니다. 가로로 표시하도록 선택하면 팀 레이블을 표시하기 쉽고 수익 유형의 영향을 보기 쉽습니다.
 
@@ -961,7 +961,7 @@ Power BI에서는 세로 막대형 차트와 꺾은선형 차트를 콤보 차�
 
 * 분산형 및 거품형 차트는 스토리를 전달하기에 매우 좋습니다. 하지만 데이터를 탐색하는 경우에는 그다지 유용하지 않습니다. 이와 관련하여 Stephen Few는 다음과 같이 언급합니다.
 
-    > “이러한 접근 방식의 강점은 스토리 전달에 사용되는 경우에 발휘됩니다. Rosling이 이야기를 하는 동안 차트에서는 계속 거품이 움직이고, 값이 변화하고, 보여주고 싶은 부분을 가리키면서 정보가 살아있는 것을 볼 수 있습니다. 하지만 애니메이션 거품형 차트 자체는 데이터를 탐색하고 그에 대한 이해를 제공하는 데는 훨씬 덜 효과적입니다. 아마도 Rosling은 새로운 스토리를 찾아내기 위해서가 아니라 이미 알려진 스토리를 말하기 위해 이런 방법을 사용한 것 같습니다. 거품이 계속해서 움직이면 한 번에 두 개 이상의 거품에 주의를 기울일 수 없기 때문에 무슨 이야기를 하는지 알아내기 위해 애니메이션을 계속 다시 실행해야 합니다. 거품이 움직인 전체 경로를 볼 수 있도록 선택한 거품에 자취를 추가할 수 있지만 여러 개의 거품에 자취를 사용하면 차트는 곧 너무 혼잡해질 것입니다. 꼭 말하고 싶은 내용은 이런 방식은 탐색 및 분석용 정보를 표시하기에는 좋은 방법이 아니라는 점입니다.” 
+    > *“이러한 접근 방식의 강점은 스토리 전달에 사용되는 경우에 발휘됩니다. Rosling이 이야기를 하는 동안 차트에서는 계속 거품이 움직이고, 값이 변화하고, 보여주고 싶은 부분을 가리키면서 정보가 살아있는 것을 볼 수 있습니다. 하지만 애니메이션 거품형 차트 자체는 데이터를 탐색하고 그에 대한 이해를 제공하는 데는 훨씬 덜 효과적입니다. 아마도 Rosling은 새로운 스토리를 찾아내기 위해서가 아니라 이미 알려진 스토리를 말하기 위해 이런 방법을 사용한 것 같습니다. 거품이 계속해서 움직이면 한 번에 두 개 이상의 거품에 주의를 기울일 수 없기 때문에 무슨 이야기를 하는지 알아내기 위해 애니메이션을 계속 다시 실행해야 합니다. 거품이 움직인 전체 경로를 볼 수 있도록 선택한 거품에 자취를 추가할 수 있지만 여러 개의 거품에 자취를 사용하면 차트는 곧 너무 혼잡해질 것입니다. 꼭 말하고 싶은 내용은 이런 방식은 탐색 및 분석용 정보를 표시하기에는 좋은 방법이 아니라는 점입니다.*
 
 * 스토리 전달에 도움이 되도록 X축 및 Y축 레이블을 추가합니다. 특히 거품형 차트의 경우 사용되는 구성 요소가 많기 때문에 시각적 개체를 이해하는 데 레이블이 도움이 됩니다.
 
@@ -1007,7 +1007,7 @@ Power BI에서는 세로 막대형 차트와 꺾은선형 차트를 콤보 차�
 
 일반적으로 가로 막대형, 세로 막대형 및 꺾은선형 차트가 대부분의 용도에 적합합니다. 원형 차트와 도넛형 차트는 제대로 해석하기 어렵다는 사실은 잘 알려져 있습니다. 실제로 데이터를 왜곡하기도 합니다. 가능한 경우 사용을 피하는 것이 좋습니다. Stephen Few의 [Save the Pies for Dessert](https://www.perceptualedge.com/articles/08-21-07.pdf)(디저트를 위한 파이(원형) 저장)에는 이에 관한 역사와 위험성이 훌륭하게 저술되어 있습니다.
 
-원형 차트가 유용할 수 있는 경우 즉, 전체와 부분을 비교하는 경우에 대한 설명이 있습니다. 100% 기준 누적 가로 막대형 차트보다 더 유용한 경우는 드뭅니다.
+Stephen은 원형 차트가 유용할 수 있는 경우, 즉 전체와 부분의 관계를 비교하는 경우를 설명합니다. 100% 기준 누적 가로 막대형 차트보다 더 유용한 경우는 드뭅니다.
 
 [Darkhorse Analytics 사이트](http://www.darkhorseanalytics.com/blog/salvaging-the-pie)에서 원형 차트에 관한 재미있는 다른 문서(및 애니메이션)를 찾을 수 있습니다.
 
@@ -1037,4 +1037,4 @@ KPI는 값, 상태, 목표, 목표와의 차이 및 추세를 같은 크기의 �
 
 ### <a name="book-recommendations"></a>권장 도서
 
-요즘은 팀에서 시각 디자인 기법에 대한 지식을 새롭게 하도록 공부하기 좋은 책이 많이 있습니다. Stephen Few의 *Information Dashboard Design*은 필독 도서입니다. 그가 저술한 *Show Me the Numbers* 및 *Now You See It*이라는 책에는 내용이 매우 자세하고 심층적으로 다루어져 있습니다. Few를 비롯한 여러 사람들에게 영감을 준 Edward R. Tufte가 저술한 The Visual Display of Quantitative Information 은 이 분야의 고전으로 통합니다.  Tufte는 Visual Explanations, Envisioning Information 그리고 Beautiful Evidence 라는 책도 저술했습니다.    Andy Kirk의 신간 도서 *Data Visualization: A Handbook for Data Driven Design* 역시 대단히 유용합니다. 그 외 추천할만한 작가로는 Lachlan James, William McKnight, Boris Evelson(Forrester), Darkhorse Analytics 등이 있습니다.
+요즘은 팀에서 시각 디자인 기법에 대한 지식을 새롭게 하도록 공부하기 좋은 책이 많이 있습니다. Stephen Few의 *Information Dashboard Design*은 필독 도서입니다. 또한 *Show Me the Numbers* 및 *Now You See It*이라는 책에는 내용이 매우 자세하고 심층적으로 다루어져 있습니다. Few를 비롯한 여러 사람들에게 영감을 준 Edward R. Tufte가 저술한 The Visual Display of Quantitative Information 은 이 분야의 고전으로 통합니다.  Tufte는 Visual Explanations, Envisioning Information 그리고 Beautiful Evidence 라는 책도 저술했습니다.    Andy Kirk의 신간 도서 *Data Visualization: A Handbook for Data Driven Design* 역시 대단히 유용합니다. 그 외 추천할만한 작가로는 Lachlan James, William McKnight, Boris Evelson(Forrester), Darkhorse Analytics 등이 있습니다.

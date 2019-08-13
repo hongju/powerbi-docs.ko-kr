@@ -629,7 +629,7 @@
               href: service-admin-manage-your-data-storage-in-power-bi.md
             - name: 그룹의 OneDrive의 파일에 연결
               href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-            - name: 그룹 작업 영역에서 공동 작업
+            - name: 클래식 작업 영역에서 공동 작업
               href: service-collaborate-power-bi-workspace.md
             - name: Power BI 및 Office 365에서 그룹 관리
               href: service-manage-app-workspace-in-power-bi-and-office-365.md

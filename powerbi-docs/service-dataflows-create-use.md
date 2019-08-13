@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61143947"
@@ -21,7 +21,7 @@ ms.locfileid: "61143947"
 
 **Power BI**에서 사용할 수 있는 고급 데이터 준비를 통해 데이터 흐름이라는 데이터 컬렉션을 만들고, 이 데이터 흐름을 사용하여 다양한 원본의 비즈니스 데이터와 연결하고, 데이터를 정리하고 변환한 후 Power BI 스토리지로 로드할 수 있습니다.
 
-**데이터 흐름**은 Power BI 서비스의 앱 작업 영역에서 만들고 관리하는 ‘엔터티’(엔터티는 테이블과 유사함) 컬렉션입니다.  데이터 흐름이 만들어진 작업 영역에서 직접 데이터 흐름의 엔터티를 추가 및 편집할 수 있고 데이터 새로 고침 일정도 관리할 수 있습니다.
+**데이터 흐름**은 Power BI 서비스의 앱 작업 영역에서 만들고 관리하는 ‘엔터티’(엔터티는 테이블과 유사함) 컬렉션입니다. 데이터 흐름이 만들어진 작업 영역에서 직접 데이터 흐름의 엔터티를 추가 및 편집할 수 있고 데이터 새로 고침 일정도 관리할 수 있습니다.
 
 데이터 흐름을 만들면 **Power BI Desktop** 및 **Power BI 서비스**를 사용하여 Power BI 데이터 흐름에 지정하는 데이터를 기반으로 한 데이터 세트, 보고서, 대시보드 및 앱을 만들 수 있으므로 비즈니스 활동에 대한 인사이트를 얻을 수 있습니다.
 
@@ -42,7 +42,7 @@ ms.locfileid: "61143947"
 
 데이터 흐름 만들 수 있는 **앱 작업 영역**에 있는 경우 캔버스 오른쪽 상단 모서리에 **+ 만들기** 단추가 나타납니다. **+ 만들기** 단추를 선택하고 드롭다운 목록에서 **데이터 흐름**을 선택합니다. 
 
-데이터 흐름에는 ‘한 명의 소유자’만 있으며, 소유자는 데이터 흐름을 만든 사람입니다.  소유자만 데이터 흐름을 편집할 수 있습니다. 데이터 흐름이 만들어진 앱 작업 영역에 대한 읽기 또는 쓰기 권한이 있는 **앱 작업 영역**의 모든 구성원은 이 문서의 뒷부분에 설명된 대로 **Power BI Desktop** 내에서 데이터 흐름에 연결할 수 있습니다.
+데이터 흐름에는 ‘한 명의 소유자’만 있으며, 소유자는 데이터 흐름을 만든 사람입니다. 소유자만 데이터 흐름을 편집할 수 있습니다. 데이터 흐름이 만들어진 앱 작업 영역에 대한 읽기 또는 쓰기 권한이 있는 **앱 작업 영역**의 모든 구성원은 이 문서의 뒷부분에 설명된 대로 **Power BI Desktop** 내에서 데이터 흐름에 연결할 수 있습니다.
 
 ![데이터 흐름을 만드는 Power BI 서비스의 + 만들기 단추](media/service-dataflows-create-use/dataflows-create-use_03a.png)
 
@@ -115,7 +115,7 @@ Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 �
 
 ![Power BI 서비스에서 데이터 흐름 관리](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
-이전 이미지의 ‘Dynamics 데이터 흐름’ 항목은 이전 섹션에서 만든 데이터 흐름입니다.  새로 고침을 예약하려면 다음 이미지에 표시된 대로 **작업** 섹션에서 **새로 고침 예약** 아이콘을 선택합니다. 
+이전 이미지의 ‘Dynamics 데이터 흐름’ 항목은 이전 섹션에서 만든 데이터 흐름입니다. 새로 고침을 예약하려면 다음 이미지에 표시된 대로 **작업** 섹션에서 **새로 고침 예약** 아이콘을 선택합니다. 
 
 ![작업 섹션의 새로 고침 예약 단추](media/service-dataflows-create-use/dataflows-create-use_13.png)
 
@@ -153,7 +153,7 @@ Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 �
 
 * **SharePoint 커넥터** - 하위 폴더 또는 문서가 없는 SharePoint 사이트 루트 주소를 제공해야 합니다. 예를 들어 다음과 유사한 링크를 사용하세요. https://microsoft.sharepoint.com/teams/ObjectModel/ 
 
-* **JSON 파일 커넥터** - 현재 기본 인증만 사용하여 JSON 파일에 연결할 수 있습니다.  URL 내에서 자격 증명을 입력하여 JSON 파일에 연결(예: https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg..)하는 작업은 현재 지원되지 **않습니다**.  
+* **JSON 파일 커넥터** - 현재 기본 인증만 사용하여 JSON 파일에 연결할 수 있습니다.  URL 내에서 자격 증명을 입력하여 JSON 파일에 연결(예: https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. )하는 작업은 현재 지원되지 **않습니다**.  
 
 * **Azure SQL Data Warehouse** - 데이터 흐름은 현재 Azure SQL Data Warehouse에서 AAD(Azure Active Directory) 인증을 지원하지 않습니다. 이 시나리오에서 기본 인증을 사용하세요.
 
@@ -162,9 +162,9 @@ Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 �
 이 문서에는 고유한 **데이터 흐름**을 만들고 이 데이터 흐름을 활용하여 **Power BI Desktop**의 데이터 세트 및 보고서를 만들 수 있는 방법이 설명되어 있습니다. 다음 문서는 데이터 흐름을 사용하는 경우에 대한 자세한 정보 및 시나리오를 참조하는 데 유용합니다.
 
 * [데이터 흐름을 사용하여 셀프 서비스 데이터 준비](service-dataflows-overview.md)
-* [Power BI 프리미엄에 계산 된 엔터티를 사용 하 여](service-dataflows-computed-entities-premium.md)
-* [데이터 흐름을 사용 하 여 온-프레미스 데이터 원본](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 대 한 개발자 리소스](service-dataflows-developer-resources.md)
+* [Power BI Premium의 계산된 엔터티 사용](service-dataflows-computed-entities-premium.md)
+* [Power BI Premium의 계산된 엔터티 사용](service-dataflows-on-premises-gateways.md)
+* [Power BI 데이터 흐름에 대한 개발자 리소스](service-dataflows-developer-resources.md)
 * [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.

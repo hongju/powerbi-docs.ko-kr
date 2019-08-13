@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 16114793b190996b3ef9e800e562dd0caf62089c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514819"
@@ -38,7 +38,7 @@ ms.locfileid: "65514819"
    예. 등록 프로세스의 일환으로, 기존 독일 클라우드 테넌트 관리자 계정으로 로그인하고 독일 클라우드에서 기존 테넌트에 Power BI Pro 서비스 라이선스를 추가하는 옵션이 있습니다. 독일 클라우드 테 넌 트 및 사용자 계정에는 독일 클라우드 용 Power BI 서비스와에서 다릅니다.
 4. **독일 클라우드용 Power BI 서비스에 무료 서비스가 있습니까?**
    
-   아니요. 독일 클라우드용 Power BI 서비스에는 무료 라이선스 버전이 제공되지 않습니다. 그러나 Power BI 무료 솔루션으로 비즈니스 요구 사항이 충족된다면 [공용 클라우드의 무료 Power BI 솔루션](https://powerbi.microsoft.com/get-started/)에 등록하는 것이 좋습니다.
+   아니요. 독일 클라우드용 Power BI 서비스에는 무료 라이선스 버전이 제공되지 않습니다. 그러나 Power BI 무료 솔루션으로 비즈니스 요구 사항이 충족된다면 [퍼블릭 클라우드의 무료 Power BI 솔루션](https://powerbi.microsoft.com/get-started/)에 등록하는 것이 좋습니다.
 5. **독일 클라우드용 Power BI 서비스에 Power BI Desktop, Power BI Mobile, 온-프레미스 데이터 게이트웨이 및 Publisher for Excel을 사용할 수 있나요?**
    
    예. Power BI 클라이언트 제품은 독일 클라우드용 Power BI 서비스와 원활하게 작동하도록 업데이트되었습니다. 독일 클라우드용 Power BI 서비스에서 동일한 클라이언트 제품의 사용을 시작하려면 독일 클라우드용 Power BI 서비스 계정으로 로그인하세요. 다음 위치에서 클라이언트 제품의 최신 버전을 다운로드할 수 있습니다.
@@ -56,7 +56,7 @@ ms.locfileid: "65514819"
    * Power BI Embedded(별도의 ISV 라이선스 요금, 향후 [Microsoft Azure Germany](https://azure.microsoft.com/overview/clouds/germany/)를 통해 제공 예정)
 7. **독일 클라우드용 Power BI 서비스를 내 애플리케이션에서 사용하고 통합하는 방법에 대한 관련 구성 정보를 어디에서 찾을 수 있습니까?**
    
-   [SaaS Embedding 개발자 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)에 독일 및 기타 Power BI 클라우드 관련 구성 정보가 업데이트되었습니다. 확인 합니다 **Cloud Configs** 클라우드 관련 구성 끝점에 대 한 샘플에는 폴더입니다. 다음 표에는 독일 클라우드 및 상호 참조를 위한 공용 클라우드용 Power BI 서비스의 다양한 구성 끝점이 나와 있습니다.
+   [SaaS Embedding 개발자 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)에 독일 및 기타 Power BI 클라우드 관련 구성 정보가 업데이트되었습니다. 확인 합니다 **Cloud Configs** 클라우드 관련 구성 끝점에 대 한 샘플에는 폴더입니다. 다음 표에는 독일 클라우드 및 상호 참조를 위한 퍼블릭 클라우드용 Power BI 서비스의 다양한 구성 끝점이 나와 있습니다.
 
 | **엔드포인트 이름 및/또는 사용법** | **독일 클라우드용 Power BI 서비스 URL** | **공용 클라우드의 해당 URL(상호 참조용)** |
 | --- | --- | --- |

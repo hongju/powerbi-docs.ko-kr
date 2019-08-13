@@ -7,25 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523205"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730180"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop의 측정값
 
 **Power BI Desktop**에서는 몇 번의 클릭만으로 데이터에 대한 정보를 만들 수 있습니다. 그러나 가장 중요한 질문에 답변하는 데 필요한 모든 정보가 해당 데이터에 포함되지 않은 경우도 있습니다. 이러한 경우 측정값을 사용하면 도움이 될 수 있습니다.
 
-측정값은 가장 일반적인 데이터 분석에서 사용됩니다. 예를 들어 합계, 평균, 최솟값/최댓값, 개수 또는 사용자가 DAX 수식을 사용하여 직접 만든 고급 계산이 있습니다. 측정값의 계산된 결과는 보고서 조작에 대한 응답으로 항상 변경되어 빠른 동적 임시 데이터 탐색이 가능합니다. 측정값에 대해 좀 더 자세히 살펴보겠습니다.
+측정값은 가장 일반적인 데이터 분석에서 사용됩니다. [요약 및 범주](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16) 동영상에 설명된 대로 합계, 평균, 최소값, 최댓값, 개수 등과 같은 간단한 요약을 필드를 통해 설정할 수 있습니다. DAX 수식을 사용하여 직접 고급 계산을 직접 작성할 수 있습니다. 측정값의 계산된 결과는 보고서 조작에 대한 응답으로 항상 변경되어 빠른 동적 임시 데이터 탐색이 가능합니다. 측정값에 대해 좀 더 자세히 살펴보겠습니다.
 
 ## <a name="understanding-measures"></a>측정값 이해
 
-**Power BI Desktop**에서 측정값은 **보고서 보기** 또는 **데이터 보기**에서 만들고 사용합니다. 사용자가 직접 만든 측정값은 계산기 아이콘과 함께 필드 목록에 나타납니다. 측정값에 원하는 대로 이름을 지정하고 다른 모든 필드처럼 새 시각화나 기존 시각화에 추가할 수 있습니다.
+**Power BI Desktop**에서 측정값은 **보고서 보기** 또는 **데이터 뷰**에서 만들고 표시합니다. 사용자가 직접 만든 측정값은 계산기 아이콘과 함께 필드 목록에 나타납니다. 측정값에 원하는 대로 이름을 지정하고 다른 모든 필드처럼 새 시각화나 기존 시각화에 추가할 수 있습니다.
 
 ![](media/desktop-measures/measuresinpbid_measinfieldlist.png)
 
@@ -64,6 +64,25 @@ Jan은 계산을 지정하지 않았지만 계산이 자동으로 제공되었�
 무엇보다도 측정값을 사용하여 동적으로 URL을 만들고 데이터 범주를 웹 URL로 표시할 수 있습니다. 
 
 측정값을 웹 URL로 표시하는 테이블을 만들고 선택에 따라 만든 URL을 클릭할 수 있습니다. [URL 필터 매개 변수](service-url-filters.md)를 사용하여 다른 Power BI 보고서에 연결하려고 할 때 특히 유용합니다.
+
+
+## <a name="organizing-your-measures"></a>측정값 구성
+
+측정값에는 필드 목록에서 찾을 위치를 정의하는 *홈* 테이블이 있습니다. 모델의 테이블에서 위치를 선택하여 해당 위치를 변경할 수 있습니다.
+
+![측정값에 대한 테이블 선택](media/desktop-measures/measures-03.png)
+
+테이블의 필드를 *표시 폴더*로 구성할 수도 있습니다. Power BI Desktop 창의 왼쪽에서 **모델 뷰**를 선택한 다음 캔버스에 표시되는 사용 가능한 필드 목록에서 이동할 필드를 선택합니다. 속성 창에 **표시 폴더**에 대한 텍스트 상자가 나타납니다. **표시 폴더** 필드에 이름을 입력하면 폴더가 생성되고 선택한 필드가 해당 폴더로 이동합니다.
+
+![측정값에 사용할 필드 만들기](media/desktop-measures/measures-04.gif)
+
+백슬래시 문자를 사용하여 하위 폴더를 만들 수 있습니다. 예를 들어 *Finance\Currencies*는 *Finance* 폴더를 만들고 그 안에 *Currencies* 폴더를 만듭니다.
+
+세미콜론으로 폴더 이름을 구분하여 여러 폴더에 필드를 표시할 수 있습니다. 예를 들어 *Products\Names;Departments*는 *Departments* 폴더와 *Products* 폴더 내 *Names* 폴더에 필드를 표시합니다.
+
+마지막으로 **필드 목록**의 맨 위에 항상 표시되는 측정값만 포함하는 특수 테이블을 만들 수 있습니다. 이렇게 하려면 열이 하나만 있는 테이블을 만듭니다. **데이터 입력**을 사용하여 해당 테이블을 만들 수 있습니다. 그런 다음 측정값을 해당 테이블로 이동합니다. 마지막으로 만든 열(테이블 아님)을 숨깁니다. Power BI Desktop을 올바르게 표시하려면 **필드 목록**의 맨 위에 있는 펼침 단추를 클릭하여 **필드 목록**을 닫았다가 다시 열어야 합니다.
+
+![측정값을 구성하고 필드 목록의 맨 위에 유지](media/desktop-measures/measures-05.png)
 
 ## <a name="learn-more"></a>자세한 정보
 여기서는 측정값에 대해 간략하게 소개만 했지만 직접 만드는 방법을 알아보는 데 도움이 되는 추가 정보가 제공됩니다. 샘플 파일을 다운로드하여 더 많은 측정값을 만드는 방법에 대한 단계별 학습을 진행할 수 있는 [자습서: Power BI Desktop에서 고유한 측정값 만들기](desktop-tutorial-create-measures.md)를 참조하세요.  

@@ -11,7 +11,7 @@ ms.date: 3/5/2018
 ms.author: pashah
 ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "60976740"
@@ -35,7 +35,7 @@ Power BI Report Server에 대해 두 가지 유형의 워크로드를 실행했�
 각 실행에서 가장 많이 사용되는 리소스는 CPU였습니다. 이로 인해 Power BI Report Server에 대한 코어 수를 늘리면 메모리 또는 하드 디스크 공간의 크기를 늘리는 경우보다 시스템의 안정성이 향상됩니다. 
 
 ## <a name="test-methodology"></a>테스트 방법론
-사용된 테스트 토폴로지는 특정 벤더의 물리적 하드웨어가 아니라 Microsoft Azure Virtual Machines에 기반했습니다. 모든 컴퓨터는 미국 지역에서 호스팅되었습니다. 온-프레미스 및 공용 클라우드 모두에서 하드웨어 가상화의 일반적인 추세를 반영합니다. 
+사용된 테스트 토폴로지는 특정 벤더의 물리적 하드웨어가 아니라 Microsoft Azure Virtual Machines에 기반했습니다. 모든 컴퓨터는 미국 지역에서 호스팅되었습니다. 온-프레미스 및 퍼블릭 클라우드 모두에서 하드웨어 가상화의 일반적인 추세를 반영합니다. 
 
 ### <a name="power-bi-report-server-topology"></a>Power BI Report Server 토폴로지
 Power BI Report Server 배포는 다음과 같은 가상 컴퓨터의로 구성되었습니다.
@@ -114,7 +114,7 @@ Microsoft에는 여러 팀이 사용한 Power BI Report Server의 프로덕션 �
 ### <a name="1-topology"></a>1 토폴로지
 **1.1 Power BI Report Server 토폴로지**
 
-다양한 구성에서 Power BI Report Server 동작에만 초점을 맞추려면 (Power BI Report Server를 호스팅하는 컴퓨터를 제외한) 컴퓨터의 각 형식에 대한 VM 구성이 수정되었습니다. 각 컴퓨터는 Premium Storage 디스크에서 2세대(v2) D 시리즈 컴퓨터에 따라 프로비전되었습니다. https://azure.microsoft.com/pricing/details/virtual-machines/windows/의 “일반적인 용도” 섹션에서 각 VM 크기에 대한 자세한 정보를 확인할 수 있습니다.
+다양한 구성에서 Power BI Report Server 동작에만 초점을 맞추려면 (Power BI Report Server를 호스팅하는 컴퓨터를 제외한) 컴퓨터의 각 형식에 대한 VM 구성이 수정되었습니다. 각 컴퓨터는 Premium Storage 디스크에서 2세대(v2) D 시리즈 컴퓨터에 따라 프로비전되었습니다. https://azure.microsoft.com/pricing/details/virtual-machines/windows/ 의 “일반적인 용도” 섹션에서 각 VM 크기에 대한 자세한 정보를 확인할 수 있습니다.
 
 | 가상 컴퓨터 형식 | 프로세서 | 메모리 | Azure VM 크기 |
 | --- | --- | --- | --- |
@@ -124,7 +124,7 @@ Microsoft에는 여러 팀이 사용한 Power BI Report Server의 프로덕션 �
 
 **1.2 Power BI Report Server Virtual Machine 구성** 
 
-Power BI Report Server를 호스팅하는 Virtual Machine에 다른 구성의 프로세서 및 메모리가 사용되었습니다. 다른 VM과 달리 이 컴퓨터는 Premium Storage 디스크에서 3세대(v3) D 시리즈 컴퓨터에 따라 프로비전되었습니다. https://azure.microsoft.com/pricing/details/virtual-machines/windows/의 “일반적인 용도” 섹션에서 이 VM 크기에 대한 자세한 정보를 확인할 수 있습니다.
+Power BI Report Server를 호스팅하는 Virtual Machine에 다른 구성의 프로세서 및 메모리가 사용되었습니다. 다른 VM과 달리 이 컴퓨터는 Premium Storage 디스크에서 3세대(v3) D 시리즈 컴퓨터에 따라 프로비전되었습니다. https://azure.microsoft.com/pricing/details/virtual-machines/windows/ 의 “일반적인 용도” 섹션에서 이 VM 크기에 대한 자세한 정보를 확인할 수 있습니다.
 
 | 가상 컴퓨터 | 프로세서 | 메모리 | Azure VM 크기 |
 | --- | --- | --- | --- |
@@ -134,11 +134,11 @@ Power BI Report Server를 호스팅하는 Virtual Machine에 다른 구성의 �
 ### <a name="2-run-the-loadtest-tool"></a>2 LoadTest 도구 실행
 Power BI Report Server의 Microsoft Azure 배포에 대해 Reporting Services LoadTest 도구를 실행하려는 경우 다음 단계를 수행합니다.
 
-1. GitHub(https://github.com/Microsoft/Reporting-Services-LoadTest))에서 Reporting Services LoadTest 프로젝트를 복제합니다.
+1. GitHub(https://github.com/Microsoft/Reporting-Services-LoadTest) )에서 Reporting Services LoadTest 프로젝트를 복제합니다.
 2. 프로젝트 디렉터리에서 RSLoadTests.sln이라는 솔루션 파일을 찾을 수 있습니다. Visual Studio 2015 이상에서 이 파일을 엽니다.
 3. Microsoft Azure에서 Power BI Report Server 배포에 대해 이 도구를 실행할지 아니면 Power BI Report Server 배포에 대해 이 도구를 실행할지를 결정합니다. 고유한 배포에 대해 실행하려는 경우 5단계로 이동합니다.
-4. https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure의 지침에 따라 Azure에서 Power BI Report Server 환경을 만듭니다.
-5. 환경 배포를 완료하면 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution의 지침에 따라 테스트를 실행합니다.
+4. https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure 의 지침에 따라 Azure에서 Power BI Report Server 환경을 만듭니다.
+5. 환경 배포를 완료하면 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution 의 지침에 따라 테스트를 실행합니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

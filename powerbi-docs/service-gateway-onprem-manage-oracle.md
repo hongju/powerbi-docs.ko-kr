@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: af3ebd421a82448ce8a3f13661801ffc1d0051e0
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e3e51bf13a904e46552529d9131dbbb4665cb7d
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271461"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730247"
 ---
 # <a name="manage-your-data-source---oracle"></a>데이터 원본 관리 - Oracle
 
@@ -73,7 +73,7 @@ Oracle 데이터 원본 형식을 선택한 후 **서버** 및 **데이터베이
 또한 **인증 방법**을 선택해야 합니다.  인증 방법은 **Windows** 또는 **기본**입니다.  Windows 인증 대신 Oracle 내에서 만든 계정을 사용하려는 경우 **기본**을 선택합니다. 그런 다음 이 데이터 소스에 사용할 자격 증명을 입력합니다.
 
 > [!NOTE]
-> 데이터 소스에 대한 모든 쿼리는 이러한 자격 증명을 사용하여 실행됩니다. 자격 증명을 저장하는 방법에 대한 자세한 내용은 [클라우드에 암호화된 자격 증명 저장](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud)을 참조하세요.
+> 데이터 소스에 대한 모든 쿼리는 이러한 자격 증명을 사용하여 실행됩니다. 자격 증명을 저장하는 방법에 대한 자세한 내용은 [클라우드에 암호화된 자격 증명 저장](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)을 참조하세요.
 
 ![데이터 원본 설정 입력](media/service-gateway-onprem-manage-oracle/data-source-oracle2.png)
 
