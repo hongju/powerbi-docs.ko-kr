@@ -236,45 +236,45 @@ Power BI를 레이블이 지정 되는 알려진된 결과 사용 하 여 부울
 
 ## <a name="regression-models"></a>회귀 모델
 
-회귀 모델, 지급 청구서를 지불 수를 날짜 가능성이 있는 receivable 청구서의 크기를 판매 거래, 계정의 수명 값에서 실현 될 가능성이 수익과 같은 값을 예측 하는 데는 등입니다.
+회귀 모델은 판매 거래에서 실현될 가능성이 있는 수익, 계정의 평생 가치, 지불할 가능성이 있는 수취할 있는 송장의 금액, 송장을 지불할 수 있는 날짜 등과 같은 값을 예측하는데 사용됩니다.
 
-회귀 모델의 출력은 예측 된 값입니다.
+회귀 모델의 출력은 예측된 값입니다.
 
 ### <a name="training-a-regression-model"></a>회귀 모델 학습
 
-회귀 모델에 대 한 학습 데이터를 포함 하는 입력된 엔터티 지난 알려진된 결과 값을 식별 하는 기록 결과 필드로 숫자 필드가 있어야 합니다.
+회귀 모델의 학습 데이터를 포함 하는 입력 엔터티는 과거 알려진 결과로 식별하는 기록 결과 필드로 숫자 필드를 가지고 있어야 합니다.
 
 필수 조건:
 
-* 회귀 모델에 대 한 100 개 행 기록 데이터의 최소 필요
+* 회귀 모델에 대한 기록 데이터의 최소 100 개 행 필요
 
-생성 프로세스에 회귀 모델을 따르는 동일한 단계 섹션에서 설명한 다른 AutoML 모델 **ML 모델 입력 구성** 위에 있습니다.
+회귀 모델에 대한 생성 프로세스는 위의 **ML 모델 입력 구성** 섹션에서 설명한 다른 AutoML 모델과 동일한 단계를 따릅니다.
 
 ### <a name="regression-model-report"></a>회귀 모델 보고서
 
-다른 AutoML 모델 보고서를 같은 회귀 보고서는 홀드 아웃 테스트 데이터에 모델을 적용의 결과 기반으로 합니다.
+다른 AutoML 모델 보고서처럼, 회귀 보고서는 홀드 아웃 테스트 데이터에 모델을 적용한 결과를 기반으로 합니다.
 
-모델 보고서는 실제 값으로 예측된 값을 비교 하는 차트를 포함 합니다. 이 차트, 대각선 거리는 예측에 오류를 나타냅니다.
+모델 보고서는 실제 값으로 예측된 값을 비교 하는 차트를 포함 합니다. 이 차트에서, 대각선으로부터의 거리는 예측의 오류를 나타냅니다.
 
-나머지 오류 차트 홀드 아웃 테스트 데이터 집합의 다른 값에 대 한 평균 오차 백분율의 분포를 보여 줍니다. 가로 축에는 해당 범위의 빈도 또는 값의 개수를 보여 주는 거품 크기를 사용 하 여 그룹에 대 한 실제 값의 평균을 나타냅니다. 세로 축에는 평균 잔여 오류입니다.
+잔차 오류 차트는 홀드 아웃 테스트 데이터 집합의 다른 값에 대한 평균 오차 백분율의 분포를 보여 줍니다. 가로 축에는 그룹의 실제 값의 평균을 나타내며, 버블의 크기는 해당 범위의 값의 빈도 또는 값의 개수를 나타냅니다. 세로 축은 평균 잔차 오류입니다.
 
 ![나머지 오류 차트](media/service-machine-learning-automated/automated-machine-learning-power-bi-15.png)
 
-회귀 모델 보고서도 포함 되어 있습니다 다른 모델 유형에 대 한 보고서와 같은 학습 세부 정보 페이지 섹션에 설명 된 대로 **AutoML 모델 보고서** 위에 있습니다.
+회귀 모델 보고서에는 이 문서의 앞부분에 있는 **AutoML 모델 보고서** 섹션에 설명된 대로, 다른 모델 유형에 대한 페이지와 유사한 학습 세부 정보 페이지도 포함됩니다.
 
-### <a name="applying-a-regression-model"></a>회귀 모델을 적용합니다.
+### <a name="applying-a-regression-model"></a>회귀 모델 적용
 
-회귀 ML 모델을 적용 하려면 입력된 데이터 및 출력 열 이름 접두사를 사용 하 여 엔터티를 지정 해야 합니다.
+회귀 ML 모델을 적용하려면, 입력 데이터 및 출력 열 이름 접두사를 사용하여 엔터티를 지정 해야 합니다.
 
 ![회귀를 적용 합니다.](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-회귀 모델에 적용 되 면 두 개의 출력 열 풍부한 출력 엔터티에 추가 합니다. 이들은 합니다 **PredictionValue**, 및 **PredictionExplanation**합니다. 열 이름은 엔터티의 모델에 적용 될 때 지정 된 접두사가 있습니다.
+회귀 모델에 적용되면, 두 개의 출력 열이 enriched 출력 엔터티에 추가됩니다. 이들은 **PredictionValue** 및 **PredictionExplanation** 입니다. 엔터티의 열 이름은 모델에 적용될 때 지정된 접두사가 있습니다.
 
-합니다 **PredictionValue** 열 입력된 필드를 기반으로 레코드에 대 한 예측된 값을 포함 합니다. **PredictionExplanation** 열에 입력된 기능에는 특정 영향 사용 하 여 설명 합니다 **PredictionValue**합니다. 입력 기능 가중치를 JSON 형식 컬렉션입니다.
+**PredictionValue** 열은 입력 필드를 기반으로 레코드에 대한 예측된 값을 포함합니다. **PredictionExplanation** 열에는 입력 기능이 **PredictionValue**에 미치는 특정 영향과 함께 설명이 포함됩니다. 이것은 입력 기능의 가중치의 JSON 형식 컬렉션입니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-이 문서에서는 Power BI 서비스에서 데이터 흐름에 대 한 자동화 된 Machine Learning의 개요를 제공 합니다. 다음 문서도 유용할 수 있습니다.
+이 문서에서는 Power BI 서비스에서 데이터 흐름에 대한 자동화된 Machine Learning의 개요를 제공 합니다. 다음 문서도 유용할 수 있습니다.
 
 * [자습서: Power BI (미리 보기)에서 Machine Learning 모델 빌드](service-tutorial-build-machine-learning-model.md)
 * [자습서: Power BI에서 Cognitive Services 사용](service-tutorial-use-cognitive-services.md)
@@ -284,9 +284,9 @@ Power BI를 레이블이 지정 되는 알려진된 결과 사용 하 여 부울
 
 데이터 흐름에 대한 자세한 내용은 다음 문서를 참조할 수 있습니다.
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
-* [Power BI 프리미엄에 계산 된 엔터티를 사용 하 여](service-dataflows-computed-entities-premium.md)
-* [데이터 흐름을 사용 하 여 온-프레미스 데이터 원본](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 대 한 개발자 리소스](service-dataflows-developer-resources.md)
+* [Power BI Premium의 계산된 엔터티 사용](service-dataflows-computed-entities-premium.md)
+* [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용](service-dataflows-on-premises-gateways.md)
+* [Power BI 데이터 흐름에 대한 개발자 리소스](service-dataflows-developer-resources.md)
 * [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)
 
 
