@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a5b6b89984064101b683532cbfb77ae5540c307
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730258"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867065"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>온-프레미스 데이터 게이트웨이 FAQ - Power BI
 
@@ -23,9 +23,9 @@ ms.locfileid: "68730258"
 
 ## <a name="power-bi"></a>Power BI
 
-**질문:** 개인 게이트웨이를 업그레이드해야 하나요? 
+**질문:** 온-프레미스 데이터 게이트웨이(개인 모드)를 업그레이드해야 하나요?
 
-**답변:** 아니요. Power BI용 개인 게이트웨이를 계속 사용할 수 있습니다.
+**답변:** 아니요. Power BI용 게이트웨이(개인 모드)를 계속 사용할 수 있습니다.
 
 **질문:** 게이트웨이를 설치하고 Power BI 서비스에서 관리하는 데 필요한 특별한 권한이 있나요?
 
@@ -41,7 +41,7 @@ ms.locfileid: "68730258"
 
 **질문:** 내 Oracle 서버에 연결할 수 없는 이유는 무엇인가요? 
 
-**답변:** Oracle 서버에 연결하기 위해 Oracle 클라이언트를 설치하고 적절한 서버 정보로 tnsnames.ora 파일을 구성해야 할 수 있습니다. 게이트웨이 외부의 별도 설치입니다. 자세한 내용은 [Oracle 클라이언트 설치](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client)를 참조하세요.
+**답변:** Oracle 서버에 연결하기 위해 Oracle 클라이언트를 설치하고 적절한 서버 정보로 tnsnames.ora 파일을 구성해야 할 수 있습니다. 게이트웨이 외부의 별도 설치입니다. 자세한 내용은 [Oracle 클라이언트 설치](service-gateway-onprem-manage-oracle.md#install-the-oracle-client)를 참조하세요.
 
 **질문:** Azure ExpressRoute에서 게이트웨이가 작동하나요? 
 
