@@ -1,6 +1,6 @@
 ---
 title: 조직용 애플리케이션에 Power BI 콘텐츠를 포함하기 위한 임베디드 분석
-description: 조직의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
+description: 조직의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서(Power BI 또는 페이지 매김), 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -9,24 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/29/2019
+ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61355523"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808236"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서: 조직의 애플리케이션에 Power BI 콘텐츠 포함
 
-**Power BI**를 통해 사용자 소유 데이터를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **사용자 소유 데이터**를 사용하면 애플리케이션에서 Power BI 서비스를 확장할 수 있으므로 임베디드 분석을 사용할 수 있습니다. 이 자습서는 보고서를 애플리케이션에 통합하는 방법을 보여 줍니다. Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 조직의 애플리케이션에 포함합니다.
+**Power BI**에서 사용자 소유 데이터를 사용하여 애플리케이션에 보고서(Power BI 또는 페이지 매김), 대시보드 또는 타일을 포함할 수 있습니다. **사용자 소유 데이터**를 사용하면 애플리케이션에서 Power BI 서비스를 확장할 수 있으므로 임베디드 분석을 사용할 수 있습니다. 이 자습서는 보고서(Power BI 또는 페이지 매김)를 애플리케이션에 통합하는 방법을 보여 줍니다. Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 조직의 애플리케이션에 포함합니다.
 
 ![Power BI 포함 보고서](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 이 자습서에서는 다음 작업에 대해 학습합니다.
 > [!div class="checklist"]
-> * Azure에서 응용 프로그램을 등록합니다.
-> * Power BI 테넌트를 사용하여 애플리케이션에 Power BI 보고서를 포함합니다.
+> * Azure에서 애플리케이션을 등록합니다.
+> * Power BI 테넌트를 사용하여 애플리케이션에 Power BI 또는 페이지를 매긴 보고서를 포함합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -35,6 +35,7 @@ ms.locfileid: "61355523"
 * [Power BI Pro 계정](../service-self-service-signup-for-power-bi.md).
 * [Microsoft Azure](https://azure.microsoft.com/) 구독.
 * 고유한 [Azure Active Directory 테넌트 ](create-an-azure-active-directory-tenant.md) 설정이 필요합니다.
+* 페이지를 매긴 보고서를 포함하려면 최소 A4/P1 용량이 필요합니다. [페이지를 매긴 보고서에 필요한 크기의 프리미엄 용량은 무엇인가요?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)를 확인하세요.
 
 아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
 
@@ -44,11 +45,11 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 응용 프로그램에 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 Power BI에 포함을 허용하도록 설정해야 합니다.
 
-[포함 설정 도구](https://aka.ms/embedsetup/UserOwnsData)를 통해 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다.
+[포함 설정 도구](https://aka.ms/embedsetup/UserOwnsData)를 통해 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다. 페이지를 매긴 보고서를 포함하는 경우, 만든 앱 작업 영역에 A4/P1 용량 이상을 할당해야 합니다.
 
-그러나 환경을 수동으로 설정하도록 선택하면 아래를 계속할 수 있습니다.
+환경을 수동으로 설정하도록 선택하면 아래를 계속할 수 있습니다.
 
-### <a name="register-an-application-in-azure-active-directory"></a>Azure Active Directory에서 응용 프로그램 등록
+### <a name="register-an-application-in-azure-active-directory"></a>Azure Active Directory에서 애플리케이션 등록
 
 Azure Active Directory로 [응용 프로그램을 등록](register-app.md)하여 응용 프로그램에서 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 응용 프로그램을 등록하면 응용 프로그램의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
 
@@ -60,7 +61,7 @@ Azure Active Directory로 [응용 프로그램을 등록](register-app.md)하여
 
 고객의 보고서, 대시보드 또는 타일을 포함하는 경우 콘텐츠를 앱 작업 영역 내에 배치해야 합니다. 설정할 수 있는 작업 영역에는 [기존 작업 영역](../service-create-workspaces.md) 또는 [새 작업 영역](../service-create-the-new-workspaces.md)이 있습니다.
 
-### <a name="create-and-publish-your-reports"></a>보고서 만들기 및 게시
+### <a name="create-and-publish-your-power-bi-reports"></a>Power BI 보고서 만들기 및 게시
 
 Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있습니다. 그런 후 해당 보고서를 앱 작업 영역에 게시할 수 있습니다. 보고서를 게시하는 최종 사용자는 앱 작업 영역에 게시하기 위해 Power BI Pro 라이선스가 필요합니다.
 
@@ -79,7 +80,11 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
     이제 Power BI 서비스에서 온라인으로 보고서를 볼 수 있습니다.
 
    ![Power BI Desktop 보고서 보기](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
+   
+### <a name="create-and-publish-your-paginated-reports"></a>페이지가 매겨진 보고서 만들기 및 게시
 
+[Power BI 보고서 작성기](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)를 사용하여 페이지를 매긴 보고서를 만들 수 있습니다. 그런 다음 A4/P1 이상의 용량에 할당된 앱 작업 영역에 [보고서를 업로드](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)할 수 있습니다. 보고서를 업로드하는 최종 사용자는 앱 작업 영역에 게시할 수 있는 Power BI Pro 라이선스가 있어야 합니다.
+   
 ## <a name="embed-your-content-by-using-the-sample-application"></a>샘플 애플리케이션을 사용하여 콘텐츠 포함
 
 이 샘플은 간단한 데모용으로 의도적으로 유지됩니다.
@@ -124,30 +129,6 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
-### <a name="application-secret"></a>응용 프로그램 암호
-
-이 특성은 [서비스 주체](embed-service-principal.md) AuthenticationType에 대해서만 필요합니다.
-
-**Azure**의 **앱 등록** 섹션에 있는 **키** 섹션에서 **ApplicationSecret** 정보를 입력합니다.  이 특성은 [서비스 주체](embed-service-principal.md)를 사용할 때 작동합니다.
-
-**ApplicationSecret**을 가져오려면 다음 단계를 수행합니다.
-
-1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
-
-2. 왼쪽 탐색 창에서 **모든 서비스**를 선택한 다음, **앱 등록**을 선택합니다.
-
-3. **ApplicationSecret**을 사용해야 하는 애플리케이션을 선택합니다.
-
-    ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
-
-4. 선택 **인증서 및 비밀** 아래에서 **관리**합니다.
-
-5. 선택 **새 클라이언트 암호**합니다.
-
-6. **설명** 상자에 이름을 입력하고 지속 기간을 선택합니다. 그런 다음, **저장**을 선택하여 애플리케이션의 **값**을 가져옵니다. 키 값을 저장한 후 **키** 창을 닫으면 값 필드가 숨김으로만 표시됩니다. 이때는 키 값을 검색할 수 없습니다. 키 값을 분실한 경우 Azure Portal에서 새 키 값을 만듭니다.
-
-    ![키 값](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
-
 ### <a name="workspace-id"></a>작업 영역 ID
 
 Power BI의 앱 작업 영역(그룹) GUID를 사용하여 **workspaceId** 정보를 입력합니다. Power BI 서비스에 로그인하거나 Powershell을 사용할 때 URL에서 이 정보를 가져올 수 있습니다.
@@ -168,9 +149,17 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 
 Power BI의 보고서 GUID를 사용하여 **reportId** 정보를 입력합니다. Power BI 서비스에 로그인하거나 Powershell을 사용할 때 URL에서 이 정보를 가져올 수 있습니다.
 
-URL <br>
+Power BI 보고서 URL <br>
 
-![reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+![PBI reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+
+페이지를 매긴 보고서 URL <br>
+
+
+
+페이지를 매긴 보고서 URL<br>
+
+![페이지를 매긴 reportId](media/embed-sample-for-your-organization/paginated-reports-url.png)
 
 Powershell <br>
 
@@ -214,7 +203,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ### <a name="get-a-report"></a>보고서 가져오기
 
-Power BI 보고서를 가져오려면, Power BI 보고서 목록을 가져오는 [보고서 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) 작업을 사용합니다. 보고서 목록에서 보고서 ID를 가져올 수 있습니다.
+Power BI 또는 페이지를 매긴 보고서를 가져오려면, Power BI 및 페이지를 매긴 보고서 목록을 가져오는 [보고서 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) 작업을 사용합니다. 보고서 목록에서 보고서 ID를 가져올 수 있습니다.
 
 ### <a name="get-reports-by-using-an-access-token"></a>액세스 토큰을 사용하여 보고서 가져오기
 
@@ -275,6 +264,7 @@ public class PBIReports
 public class PBIReport
 {
     public string id { get; set; }
+    public string reportType { get; set }
     public string name { get; set; }
     public string webUrl { get; set; }
     public string embedUrl { get; set; }
@@ -394,7 +384,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>전용 용량 만들기
 
-전용 용량을 만들면 앱 작업 영역의 콘텐츠 전용 리소스의 혜택을 활용할 수 있습니다. [Power BI Premium](../service-premium-what-is.md)을 사용하여 전용 용량을 만들 수 있습니다.
+전용 용량을 만들면 앱 작업 영역의 콘텐츠 전용 리소스의 혜택을 활용할 수 있습니다. 페이지를 매긴 보고서의 경우 최소 A4/P1 용량을 사용하여 앱 작업 영역을 백업해야 합니다. [Power BI Premium](../service-premium-what-is.md)을 사용하여 전용 용량을 만들 수 있습니다.
 
 다음 표에서는 [Microsoft Office 365](../service-admin-premium-purchase.md) 내에서 사용할 수 있는 Power BI Premium SKU를 나열합니다.
 
@@ -435,7 +425,7 @@ function updateEmbedReport() {
 
 ## <a name="next-steps"></a>다음 단계
 
-이 자습서에서는 Power BI 조직 계정을 사용하여 애플리케이션에 Power BI 콘텐츠를 포함하는 방법을 배웠습니다. 이제 앱을 사용하여 Power BI 콘텐츠를 애플리케이션에 포함할 수 있습니다. 고객을 위해 Power BI 콘텐츠를 포함할 수도 있습니다.
+이 자습서에서는 Power BI 조직 계정을 사용하여 애플리케이션에 Power BI 콘텐츠를 포함하는 방법을 배웠습니다. 이제 앱을 사용하여 Power BI 콘텐츠를 애플리케이션에 포함할 수 있습니다. 또한 고객의 Power BI 콘텐츠를 포함하도록 시도할 수 있습니다(페이지를 매긴 보고서를 포함하는 용도로는 아직 지원되지 않음).
 
 > [!div class="nextstepaction"]
 > [앱에서 포함](embed-from-apps.md)

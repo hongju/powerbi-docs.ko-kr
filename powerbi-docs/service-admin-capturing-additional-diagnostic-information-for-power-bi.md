@@ -13,7 +13,7 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 710fb4cdcf9efb051434966d47c2eaced17ac9ba
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65100198"
@@ -56,7 +56,9 @@ ms.locfileid: "65100198"
 
     * 클라이언트에 반환된 오류 정보입니다.
 
+
     이 추적에는 화면에 표시되는 시각적 개체를 채우기 위해 사용된 데이터도 포함됩니다.	
+
 
 1. HAR 파일을 제공하여 검토를 지원할 수 있습니다.
 
