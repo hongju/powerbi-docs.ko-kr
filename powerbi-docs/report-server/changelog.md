@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
+ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751119"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68940913"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -45,6 +45,10 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
             - PBIRS 선택 창에서 뒤로 이동하기 위한 쉬운 링크 추가
             - PBIRS의 고대비 모드를 수정하여 뒤로 단추를 표시하고 경고 시각적 개체 메시지를 표시합니다.
             - UI를 선택 창, 캔버스 크기 조정으로 수정합니다.
+
+    - *‘버전: 2.69.5467.5201(2019년 5월), 릴리스 날짜: 2019년 7월 30일*
+        - 버그 수정
+            - 잘못된 원격 분석 로깅 수정
 
 ## <a name="january-2019"></a>2019년 1월
 
@@ -93,8 +97,11 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
         - Power BI Report Server를 제거한 후에도 바로 가기 및 고정된 아이콘이 남아 있음
         - 검은색 아이콘에 검은색 텍스트를 제공하는 메뉴를 시작하도록 고정 중인 Power BI Report Server 수정
 
-    - *‘버전: 2.65.5313.1421(2019년 1월) 릴리스 날짜: 2019년 1월 22일*
-        - Power BI Report Server에서 연결에 필요한 변경 내용 포함(2019년 1월)  
+    - *‘버전: 2.65.5313.1421(2019년 1월) 릴리스 날짜: 2019년 1월 22일*(새 빌드 및 새 버전)
+        - Power BI Report Server에서 연결에 필요한 변경 내용 포함(2019년 1월) 
+    - *‘버전: 2.65.5313.5141(2019년 1월), 릴리스 날짜: 2019년 7월 31일*(새 빌드 및 새 버전)
+        - 버그 수정
+            - 잘못된 원격 분석 로깅 수정
 
 ## <a name="august-2018"></a>2018년 8월
 
@@ -117,7 +124,10 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
     - *‘버전: 2.61.5192.641(2018년 8월), 릴리스 날짜: 2018년 8월 15일’*
         - Power BI Report Server에서 연결에 필요한 변경 내용 포함(2018년 8월)         
-        
+    - *‘버전: 2.61.5192.7701(2018년 8월), 릴리스 날짜: 2019년 8월 8일*(새 빌드 및 새 버전)
+        - 버그 수정
+            - 잘못된 원격 분석 로깅 수정
+            
 ## <a name="march-2018"></a>2018년 3월
 
 - **Power BI Report Server**
@@ -178,7 +188,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
     - *‘버전 1.1.6530.30789(빌드 14.0.600.437), 릴리스 날짜: 2017년 11월 17일’*
         - 버그 픽스
             - 기본 인증 시나리오에 대한 수정 
-            - 포털의 구독, 캐시 새로 고침 계획 및 기록 스냅 샷의 일정 페이지에서 평일을 수정할 수 없는 문제 해결
+            - 포털의 구독, 캐시 새로 고침 계획 및 기록 스냅샷의 일정 페이지에서 평일을 수정할 수 없는 문제 해결
             - 페이지가 매겨진 보고서(RDL)의 경우 CanGrow 속성이 false로 설정된 텍스트 상자에 식이 있는 경우 색상과 글꼴이 제대로 표시되지 않는 값이 생기는 문제 해결
             - PBIX(Power BI 보고서)의 경우 꺾은선형 차트에 범례를 추가하면 빈 시각적 개체가 렌더링되는 문제 해결
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: fcad10a77ad531562443470296c9d712b2aa9724
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324810"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757604"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery 사용
 **Power BI Desktop**을 사용하여 데이터 원본에 연결할 때 항상 데이터의 복사본을 **Power BI Desktop**으로 가져올 수 있습니다. 일부 데이터 원본의 경우 다른 방법을 사용할 수 있습니다. **DirectQuery**를 사용하여 데이터 원본에 직접 연결합니다.
@@ -62,10 +62,9 @@ ms.locfileid: "68324810"
   
   원본 데이터베이스에 대한 로드는 게시된 보고서를 사용하는 Power BI 사용자의 수에 따라 고려해야 합니다. *행 수준 보안*(RLS) 사용도 또한 중요한 영향을 줄 수 있으며 여러 사용자에서 공유되는 비 RLS 대시보드 타일은 데이터베이스에 대한 단일 쿼리를 가져오지만 대시보드 타일에 대한 RLS 사용은 일반적으로 *사용자당* 하나의 쿼리가 필요한 타일의 새로 고침을 의미하므로 원본 데이터베이스에 부하가 크게 증가하고 성능에 잠재적인 영향을 줍니다.
   
-  Power BI는 최대한 효율적으로 쿼리를 만듭니다. 그러나 특정 상황에서 생성된 쿼리는 실패하는 새로 고침을 방지하는 데 효율성이 충분하지 않습니다. 이러한 상황의 한 예는 생성된 쿼리가 백 엔드 데이터 원본에서 과도하게 많은 수의 행(백만 개 이상)을 검색하는 경우입니다. 이 경우 다음 오류가 발생합니다.
+  Power BI는 최대한 효율적으로 쿼리를 만듭니다. 그러나 특정 상황에서 생성된 쿼리는 실패하는 새로 고침을 방지하는 데 효율성이 충분하지 않습니다. 이러한 상황의 한 예는 생성된 쿼리가 백 엔드 데이터 원본에서 과도하게 많은 수의 행을 검색하는 경우입니다. 이때는 다음 오류가 발생합니다.
   
       The resultset of a query to external data source has exceeded
-      the maximum allowed size of '1000000' rows.
   
   이 상황은 집계 옵션이 *요약하지 않음*으로 설정된 매우 높은 카디널리티 열을 포함하는 간단한 차트로 발생할 수 있습니다. 시각적 개체는 백만 개 아래의 카디널리티를 가진 열이 있거나 적절한 필터가 적용되어야 합니다.
 * **보안** - 게시된 보고서를 사용하는 모든 사용자는 Power BI 서비스에 게시 후 입력한 자격 증명을 사용하여 백 엔드 데이터 원본에 연결합니다. 가져온 데이터와 같은 상황입니다. 모든 사용자는 백 엔드 원본에 정의된 모든 보안 규칙에 관계 없이 동일한 데이터를 봅니다. DirectQuery 원본으로 구현된 사용자별 보안을 원하는 고객은 RLS를 사용해야 합니다. [RLS에 대해 자세히 알아보세요](service-admin-rls.md).

@@ -593,6 +593,8 @@
               href: service-export-to-pbix.md
             - name: URL의 매개 변수를 사용하여 보고서 필터링
               href: service-url-filters.md
+            - name: SAP 변수 편집
+              href: service-edit-sap-variables.md
             - name: 빠르고 신뢰할 수 있는 보고서 빌드 모범 사례
               href: power-bi-reports-performance.md
         - name: 데이터에 대해 질문하기
