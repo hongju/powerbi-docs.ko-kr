@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b1d84e9de9ae6d6fd8306fce4865977a8d273652
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: a240d84b20f63542c33bb7cbbb9a9c97af7db2f7
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289941"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757689"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 SAML(Security Assertion Markup Language)을 사용합니다.
 
@@ -33,7 +33,7 @@ HANA의 경우 SAML SSO 연결을 설정하기 전에 암호화를 사용하는 
 
 SAML을 사용하려면 SSO를 활성화하려는 HANA 서버와 이 시나리오에서 SAML ID 공급자(IdP) 역할을 하는 게이트웨이 간에 트러스트 관계를 설정해야 합니다. 게이트웨이 IdP의 x509 인증서를 HANA 서버 트러스트 저장소로 가져오거나 HANA 서버에서 신뢰하는 루트 CA(인증 기관)가 서명한 게이트웨이의 X509 인증서를 가져오는 등 이 관계를 설정하는 여러 가지 방법이 있습니다. 이 가이드에서는 후자의 방법을 설명하지만, 더 편리한 경우 다른 방법을 사용할 수도 있습니다.
 
-또한 이 가이드에서는 HANA 서버의 암호화 공급자로 OpenSSL을 사용하지만, OpenSSL 대신 SAP 암호화 라이브러리(CommonCryptoLib 또는 sapcrypto라고도 함)를 사용하여 트러스트 관계를 설정하는 설치 단계를 완료할 수도 있습니다. 자세한 내용은 공식 SAP 설명서를 참조하세요.
+또한 이 가이드에서는 HANA 서버의 암호화 공급자로 OpenSSL을 사용하지만, OpenSSL 대신 SAP 암호화 라이브러리(CommonCryptoLib 또는 sapcrypto라고도 함)를 사용하여 트러스트 관계를 설정하는 설치 단계를 완료하도록 SAP에서 권장합니다. 자세한 내용은 공식 SAP 설명서를 참조하세요.
 
 다음 단계에서는 HANA 서버에서 신뢰하는 루트 CA를 사용하여 게이트웨이 IdP의 X509 인증서에 서명하여 HANA 서버와 게이트웨이 IdP 간의 트러스트 관계를 설정하는 방법을 설명합니다.
 
@@ -180,7 +180,7 @@ SSO를 구성한 후 Power BI 포털에 다음 오류가 표시될 수 있습니
 
 **온-프레미스 데이터 게이트웨이** 및 **DirectQuery**에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
-* [온-프레미스 데이터 게이트웨이란?](/data-integration/gateway/service-gateway-getting-started)
+* [온-프레미스 데이터 게이트웨이란?](/data-integration/gateway/service-gateway-onprem)
 * [Power BI의 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
 * [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)
