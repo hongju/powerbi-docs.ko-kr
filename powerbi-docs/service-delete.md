@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 087fe859c7b1a8ca732619866d492f143ff413c9
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61157671"
@@ -29,7 +29,7 @@ ms.locfileid: "61157671"
 
 ### <a name="to-delete-a-dashboard"></a>대시보드를 삭제하려면
 1. 작업 영역에서 **대시보드** 탭을 선택합니다.
-2. 삭제할 대시보드를 찾은 후 삭제 아이콘 을 선택합니다. ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png)을 선택합니다.
+2. 삭제할 대시보드를 찾은 후 삭제 아이콘 ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png)을 선택합니다.
 
     ![비디오](media/service-delete/power-bi-delete-dash.gif)
 
@@ -38,7 +38,7 @@ ms.locfileid: "61157671"
 
 ### <a name="to-delete-a-report"></a>보고서를 삭제하려면
 1. 내 작업 영역에서 **보고서** 탭을 선택합니다.
-2. 삭제할 보고서를 찾은 후 삭제 아이콘을 선택합니다.   ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png)을 선택합니다.   
+2. 삭제할 보고서를 찾은 후 삭제 아이콘   ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png)을 선택합니다.   
 
     ![작업 영역의 보고서 탭](media/service-delete/power-bi-delete-reportnew.png)
 3. 삭제를 확인합니다.
