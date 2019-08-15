@@ -57,7 +57,7 @@ ms.locfileid: "61157671"
 
 ### <a name="to-delete-a-workbook"></a>통합 문서를 삭제하려면
 1. 내 작업 영역에서 **통합 문서** 탭을 선택합니다.
-2. 삭제할 통합 문서를 찾은 후 삭제 아이콘을 선택합니다. ![삭제 아이콘](media/service-delete/power-bi-delete-report2.png) 아이콘.
+2. 삭제할 통합 문서를 찾은 후 삭제 아이콘 ![삭제 아이콘](media/service-delete/power-bi-delete-report2.png) 을 선택합니다.
 
     ![통합 문서 탭](media/service-delete/power-bi-delete-workbooknew.png)
 3. 삭제를 확인합니다.
