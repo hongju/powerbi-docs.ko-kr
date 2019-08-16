@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665543"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808236"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서: 조직의 애플리케이션에 Power BI 콘텐츠 포함
 
