@@ -1289,6 +1289,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: 원격으로 모바일 앱 액세스 구성
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: Azure AD를 사용하여 원격 모바일 액세스
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Excel 통합 문서 호스트
               href: report-server/excel-oos.md
     - name: 참조
@@ -1424,3 +1426,7 @@
           href: service-admin-governance.md
         - name: Power BI 보안
           href: service-admin-power-bi-security.md
+- name: 지침
+  items:
+    - name: 별모양 스키마란?
+      href: guidance/star-schema.md
