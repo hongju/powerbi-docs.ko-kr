@@ -14,12 +14,12 @@ ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: c6da58ff5902a95c0e032cd4ed30a6ef0cae1e55
 ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66374986"
 ---
-# <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>즐겨 찾는 대시보드, 보고서 및 Power BI 서비스의 앱
+# <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Power BI 서비스의 즐겨 찾는 대시보드, 보고서 및 앱
 하는 경우 콘텐츠를 *즐겨 찾는*에서 신속 하 게 액세스할 수 합니다 **즐겨찾기** 콘텐츠 목록에서 **Power BI 홈**  >   **즐겨찾기 frequents 및**합니다.  즐겨찾기는 일반적으로 가장 많이 방문 하 고 노란색 별표를 사용 하 여 식별 됩니다.
 
    ![즐겨찾기 아이콘으로 바뀝니다](./media/end-user-favorite/power-bi-favorite-nav.png)

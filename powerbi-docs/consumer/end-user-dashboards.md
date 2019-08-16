@@ -13,7 +13,7 @@ ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65608344"
@@ -24,7 +24,7 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 
 ![대시보드](media/end-user-dashboards/power-bi-dashboard2.png)
 
-시각화를 대시보드에 표시 라고 *타일* 되며 *고정* 보고서에서 대시보드로 *디자이너*합니다. 대부분의 경우, 타일을 선택 하면 보고서 페이지에 시각화가 만들어진 합니다. Power BI를 처음 접하는 경우 [Power BI 기본 개념](end-user-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
+대시보드에 표시되는 시각화를 *타일*이라고 하며, 보고서 *디자이너*가 대시보드에 *고정*합니다. 대부분의 경우, 타일을 선택하면 시각화가 생성된 보고서 페이지로 이동합니다. Power BI를 처음 접하는 경우 [Power BI 기본 개념](end-user-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
 
 > [!NOTE]
 > 대시보드를 [모바일 디바이스에서 보고 공유](mobile/mobile-apps-view-dashboard.md)할 수 있습니다.
@@ -41,8 +41,8 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 
 대시보드는 단순한 예쁜 그림이;를 하지 않습니다. 대화형 및 기본 데이터가 변경 되 면 타일이 업데이트 합니다.
 
-## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>대시보드 및 Power BI ***소비자*** 보고서
-대개 보고서는 시각화로 채워진 캔버스이므로 대시보드와 혼동됩니다. 하지만 Power BI 소비자 관점과의 몇 가지 주요한 차이점이 있습니다. 
+## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Power BI ***소비자***를 위한 대시보드와 보고서 비교
+대개 보고서는 시각화로 채워진 캔버스이므로 대시보드와 혼동됩니다. 하지만 Power BI 소비자 관점과의 몇 가지 주요한 차이점이 있습니다.
 
 | **기능** | **대시보드** | **보고서** |
 | --- | --- | --- |
@@ -50,12 +50,12 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 | 데이터 소스 |대시보드당 보고서 및 데이터 세트 모두 하나 이상 |보고서당 단일 데이터 세트 |
 | 필터링 |필터링 또는 조각화 불가능 |필터링, 강조 표시 및 조각화를 위한 다양한 방법 |
 | 경고 설정 |특정 조건이 충족되는 경우 전자 메일 경고를 만들 수 있음 |아니요 |
-| 추천 |한 대시보드를 “주천” 대시보드로 설정할 수 있음 |추천 보고서를 만들 수 없음 |
+| 주요 |한 대시보드를 “주요” 대시보드로 설정할 수 있음 |주요 보고서를 만들 수 없음 |
 | 기본 데이터 세트 테이블 및 필드를 볼 수 있음 |아니요. 데이터를 내보낼 수 있지만 대시보드 자체에서 테이블 및 필드를 볼 수 없음 |예. 데이터 세트 테이블 및 필드와 값을 볼 수 있습니다. |
 
 
 ## <a name="dashboard-creators-and-dashboard-consumers"></a>대시보드 작성자 및 대시보드 소비자
-Power BI ***소비자***는 작성자의 대시보드를 받습니다.  이 항목에서 계속 대시보드에 대해 알아봅니다.
+Power BI ***소비자***는 작성자의 대시보드를 받습니다. 이 항목에서 계속 대시보드에 대해 알아봅니다.
 
 * [대시보드 보기](end-user-dashboard-open.md)
 * [대시보드 타일](end-user-tiles.md)과 선택할 경우 어떻게 되는지 알아보세요.
