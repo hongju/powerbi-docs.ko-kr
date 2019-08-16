@@ -42,26 +42,26 @@ ms.locfileid: "66374986"
 
 ## <a name="add-an-app-as-a-favorite"></a>앱을 *즐겨찾기*로 추가
 
-1. 탐색 창에서 선택 **앱**합니다.
+1. 탐색 창에서 **앱**을 선택합니다.
 
    ![대시보드](./media/end-user-favorite/power-bi-favorite-apps.png)
 
-2. 앱을 마우스로 가리키면 세부 정보가 표시됩니다.  별모양 선택 ![별모양 아이콘](./media/end-user-favorite/power-bi-favorite-icon.png)  즐겨찾기로 설정할 아이콘
+2. 앱을 마우스로 가리키면 세부 정보가 표시됩니다.  즐겨찾기로 설정하기 위해 별 모양 ![별 모양 아이콘](./media/end-user-favorite/power-bi-favorite-icon.png)  아이콘을 선택합니다.
    
    ![앱 마우스로 가리키기](./media/end-user-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>*즐겨찾기* 작업
-1. 즐겨찾기에 액세스 하려면 오른쪽의 플라이 아웃 화살표를 선택 **즐겨찾기**합니다.  여기에서 즐겨찾기를 선택하여 열 수 있습니다. 즐겨찾기 5개만 나열됩니다(사전순). 5 개 있는 경우 선택할 **모두 보기** 콘텐츠 즐겨찾기를 엽니다 (아래 #2 참조)을 나열 합니다. 
+1. 즐겨찾기에 액세스하려면 **즐겨찾기**의 오른쪽의 플라이 아웃 화살표를 선택합니다.  여기에서 즐겨찾기를 선택하여 열 수 있습니다. 즐겨찾기 5개만 나열됩니다(사전 순). 5개 이상 있는 경우, **모두 보기**를 선택하여 즐겨찾기 콘텐츠 목록을 엽니다(아래 #2 참조). 
    
    ![즐겨찾기 플라이아웃](./media/end-user-favorite/power-bi-favorite-flyout.png)
-2. 보려는 **모든** 탐색 창에서 즐겨찾기 선택 추가한 콘텐츠 **즐겨찾기** 하거나 즐겨찾기 ![별 모양 아이콘](./media/end-user-favorite/power-bi-favorites-icon.png) 아이콘입니다.  
+2. 즐겨찾기로 추가한 **모든** 콘텐츠를 보려면, 탐색 창에서 **즐겨찾기** 또는 즐겨찾기 ![별 모양 아이콘](./media/end-user-favorite/power-bi-favorites-icon.png) 아이콘을 선택합니다.  
    
     ![즐겨찾기 창](./media/end-user-favorite/power-bi-favorites-screen.png)
    
    여기에서 열기, 소유자 식별, 동료와 공유 등의 작업을 수행할 수 있습니다.
 
-## <a name="unfavorite-content"></a>즐겨찾기에서 제거된 콘텐츠
-이제 보고서를 예전만큼 자주 사용하지 않나요?  즐겨찾기에서 제거할 수 있습니다. 즐겨찾기에서 제거하면 콘텐츠는 즐겨찾기 목록에서 제거되지만 Power BI에서는 제거되지 않습니다.
+## <a name="unfavorite-content"></a>콘텐츠를 즐겨찾기에서 제거
+이제 보고서를 예전만큼 자주 사용하지 않나요?  즐겨찾기에서 제거할 수 있습니다. 즐겨찾기에서 제거하면 해당 콘텐츠는 즐겨찾기 목록에서 제거되지만 Power BI에서는 제거되지 않습니다.
 
 1. 왼쪽 탐색 창에서 **즐겨찾기**를 선택하여 **즐겨찾기** 화면을 엽니다.
    
@@ -73,7 +73,7 @@ ms.locfileid: "66374986"
 > 
 > 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
-현재, 앱을 즐겨찾기에 추가 하 고이 자동으로 즐겨찾기 모든 보고서 및 해당 앱에 대 한 대시보드를 수 있습니다. 개별 앱 즐겨 찾는 보고서 또는 대시보드는 것이 불가능합니다. 
+현재, 앱을 즐겨찾기에 추가하면 자동으로 앱의 모든 보고서 및 대시보드가 즐겨찾기로 설정됩니다. 개별 앱 보고서 또는 대시보드를 즐겨찾기로 설정하는 것은 불가능합니다. 
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI - 기본 개념](end-user-basic-concepts.md)
