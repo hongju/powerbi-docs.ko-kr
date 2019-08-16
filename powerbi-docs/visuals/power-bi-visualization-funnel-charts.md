@@ -59,7 +59,7 @@ ms.locfileid: "67161114"
    
     ![판매 단계 선택](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [차트를 깔때기로 변환](power-bi-report-change-visualization-type.md)합니다. **Sales Stage**가 **그룹**에 있습니다. 
-3. **필드** 창에서 **팩트** \> **기회 수**를 선택합니다.
+3. **필드** 창에서 **Fact** \>**Opportunity Count**를 선택합니다.
    
     ![깔때기형 차트 빌드](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. 막대를 마우스로 가리키면 다양한 정보가 표시됩니다.
