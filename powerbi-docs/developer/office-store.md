@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269817"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623799"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource에 사용자 지정 시각적 개체 게시
 
@@ -22,7 +22,7 @@ ms.locfileid: "61269817"
 
 사용자 지정 시각적 개체를 만든 후에는 다른 사람이 검색하고 사용할 수 있도록 AppSource에 게시할 수 있습니다. 이렇게 하려면 몇 가지 준비가 필요합니다. 사용자 지정 시각적 개체를 만드는 방법에 대한 자세한 내용은 [Power BI 사용자 지정 시각적 개체 개발](custom-visual-develop-tutorial.md)을 참조하세요.
 
-   ![Office 스토어](media/office-store/AppSource_01.jpg)
+   ![Office 스토어](media/office-store/appsource-01.png)
 
 ## <a name="what-is-appsource"></a>AppSource란?
 
@@ -30,7 +30,7 @@ ms.locfileid: "61269817"
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>사용자 지정 시각적 개체를 제출하기 위한 준비
 
-완료 되 면 읽기 우리의 [Power BI 시각적 개체 지침](guidelines-powerbi-visuals.md)코딩, 및 [사용자 지정 시각적 개체 테스트](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) 패키지 하 고 pbiviz 파일로 있어야 다음 준비 제출을 위해.
+[Power BI 시각적 개체 지침](guidelines-powerbi-visuals.md)을 읽고 코딩과 [사용자 지정 시각적 개체 테스트](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)를 완료하고 pbiviz 파일에 패키징한 경우 제출을 위해 다음 사항도 준비해야 합니다.
 
 | 항목 | 필수 | 설명 |
 | --- | --- | --- |

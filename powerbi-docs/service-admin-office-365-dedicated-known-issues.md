@@ -13,7 +13,7 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 9461609b7ecaa674d3ef4d01482752a78071dbe2
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61187842"
@@ -22,7 +22,7 @@ ms.locfileid: "61187842"
 이제 Power BI에서 Office 365 전용 고객을 지원합니다.  O365 전용 고객인 경우 테넌트의 계정으로 로그인하여 Power BI를 사용할 수 있습니다. 현재 두 가지 알려진 문제가 있습니다.
 
 ## <a name="groups"></a>그룹
-그룹 상황별 메뉴에서 **멤버** 또는 **달력** 을 선택할 경우 대신 메일 앱으로 리디렉션됩니다.  **파일** 및 **대화** 는 예상대로 작동합니다.
+그룹 컨텍스트 메뉴에서 **멤버** 또는 **달력**을 선택할 경우 대신 메일 앱으로 리디렉션됩니다.  **파일** 및 **대화**는 예상대로 작동합니다.
 
 ![Power BI의 그룹](media/service-admin-office-365-dedicated-known-issues/group-menu.png)
 

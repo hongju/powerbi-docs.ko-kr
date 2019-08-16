@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140612"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665498"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
 적용 대상:
 
-| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10 디바이스](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
-| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android 휴대폰](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android 태블릿](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[Windows 10 디바이스](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
+| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android 휴대폰](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android 태블릿](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |
 
 대시보드는 귀사의 수명 주기 및 프로세스로 통하는 포털입니다. 대시보드는 비즈니스의 현재 상태를 한 곳에서 모니터링하는 개요입니다.
 
@@ -95,7 +95,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
    * 타일과 [상호작용하려면 해당 타일을 탭합니다](mobile-tiles-in-the-mobile-apps.md).
    * 타일 뒤의 [보고서 열기](mobile-reports-in-the-mobile-apps.md).
    * [다른 사람을 초대하여 대시보드를 봅니다](mobile-share-dashboard-from-the-mobile-apps.md).
-   * 타일의 [스냅숏에 주석을 달고 공유합니다](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
+   * 타일의 [스냅샷에 주석 달기 및 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 5. 내 작업 영역으로 돌아가려면 왼쪽 위 모서리의 대시보드 이름을 탭한 다음 **내 작업 영역**을 탭합니다.
    
    ![이동 경로](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
@@ -145,45 +145,6 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
     ![이동 경로](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     “손가락 모으기” 제스처로 대시보드의 다른 영역을 확대/축소하고 이동하여 탐색할 수 있습니다. 그리고 여전히 [타일을 탭](mobile-tiles-in-the-mobile-apps.md)하여 타일을 포커스 모드로 열고 데이터를 조작할 수 있습니다.
-
-## <a name="view-dashboards-on-your-windows-10-device"></a>Windows 10 디바이스에서 대시보드 보기
-1. Windows 10 디바이스에서 Power BI 앱을 열고 로그인합니다.
-   
-   먼저 [앱을 다운로드](http://go.microsoft.com/fwlink/?LinkID=526478)해야 하나요?
-2. 대시보드를 열려면 누릅니다.   
-   
-   ![대시보드 홈](./media/mobile-apps-view-dashboard/power-bi-windows-10-device-dashboard-home.png)
-   
-   * 검은색 별표는 즐겨찾기 대시보드임을 나타냅니다. 
-   * 각 대시보드 이름 아래의 표기(이 예의 경우 **MBI**)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../service-data-classification.md)를 참조하세요.
-   
-   Windows 10 Phone에서는 Power BI 대시보드가 약간 다르게 보입니다. 모든 타일이 동일한 너비로 나타나며, 위에서 아래로 하나씩 정렬됩니다.
-   
-   ![대시보드 세로 모드 보기](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-0928.png)
-   
-    휴대폰을 옆으로 설정하여 휴대폰에서 가로 모드로 볼 수도 있습니다.
-   
-   > [!TIP]
-   > 대시보드 소유자인 경우 [Power BI 서비스에서 세로 모드로 휴대폰에 맞게 대시보드 보기를 만들](../../service-create-dashboard-mobile-phone-view.md) 수 있습니다. 
-   > 
-   > 
-3. 대시보드에서 다음을 수행할 수 있습니다.
-   
-   * 타일을 열고 상호 작용하려면 [해당 타일을 누릅니다](mobile-tiles-in-the-mobile-apps.md).
-   * **전체 화면** 아이콘 ![전체 화면 아이콘](./media/mobile-apps-view-dashboard/power-bi-windows-10-full-screen-icon.png)을 탭하여 PowerPoint의 **슬라이드 쇼** 보기와 같은 테두리 또는 메뉴 없이 Power BI 대시보드를 표시합니다.
-   * **초대** 아이콘 ![초대 아이콘](./media/mobile-apps-view-dashboard/pbi_andr_inviteicon.png)을 탭하여 동료와 [대시보드를 공유](mobile-share-dashboard-from-the-mobile-apps.md)합니다.
-   * 별 ![즐겨찾기 별](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png)을 탭하여 [대시보드를 즐겨찾기로 만듭니다](mobile-apps-favorites.md).
-   * **시작 화면에 고정** 아이콘을 탭하여 [대시보드를 Windows 시작 화면에 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)합니다. 
-4. 대시보드 홈 페이지로 돌아가려면 대시보드 이름을 탭하여 이동 경로를 연 다음 **내 작업 영역**을 탭합니다.
-   
-    ![이동 경로](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-breadcrumb.png)
-
-### <a name="view-dashboards-in-landscape-mode-on-your-windows-10-phone"></a>Windows 10 휴대폰에서 가로 모드로 대시보드 보기
-또한 바로 휴대폰을 돌려서 대시보드를 가로 모드로 볼 수 있습니다. 대시보드 레이아웃이 일련의 타일에서 전체 대시보드 보기로 변경됩니다. 대시보드의 모든 타일이 Power BI 서비스에서 볼 때처럼 배치됩니다.
-
-![대시보드 가로 모드](./media/mobile-apps-view-dashboard/pbi_iph_landscape.png)
-
-“손가락 모으기” 제스처로 대시보드의 다른 영역을 확대/축소하고 이동하여 탐색할 수 있습니다. 그리고 여전히 [타일을 탭](mobile-tiles-in-the-mobile-apps.md)하여 타일을 포커스 모드로 열고 데이터를 조작할 수 있습니다.
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Power BI 서비스에서 대시보드 휴대폰 보기 만들기
 대시보드 소유자인 경우 *Power BI 서비스에서* 세로 모드로 휴대폰에 맞게 대시보드 보기를 만들 수 있습니다. 

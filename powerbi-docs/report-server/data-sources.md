@@ -9,17 +9,17 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: 6e3bed0cf8dda765722c0076086f59a91f1f380d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770801"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808222"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 데이터 원본
 Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다. DirectQuery 또는 SQL Server Analysis Services에 대한 라이브 연결을 사용하여 데이터를 가져오거나 데이터를 직접 쿼리할 수 있습니다.
 
-이러한 데이터 원본은 Power BI Report Server 내에서 사용되는 Power BI 보고서에 적용됩니다. 페이지를 매긴 보고서(.rdl)로 지원되는 데이터 원본에 대한 자세한 내용은 [Reporting Services에서 지원되는 데이터 원본](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)을 참조하세요.
+이러한 데이터 원본은 Power BI Report Server 내에서 사용되는 Power BI 보고서에 적용됩니다. 페이지가 매겨진 보고서(.rdl)로 지원되는 데이터 원본에 대한 자세한 내용은 [Reporting Services에서 지원되는 데이터 원본](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)을 참조하세요.
 
 > [!IMPORTANT]
 > Power BI Desktop 보고서의 모든 데이터 원본은 예약된 새로 고침 구성을 지원해야 합니다.
@@ -202,7 +202,7 @@ Power BI Report Server는 DirectQuery를 위한 OAuth 기반 인증을 지원하
 | Azure SQL Database |아니요 |아니요 |예 |아니요 |아니요 |
 | Azure SQL Data Warehouse |아니요 |아니요 |예 |아니요 |아니요 |
 | Oracle 데이터베이스 |아니요 |아니요 |예 |예 |예 |
-| SAP Business Warehouse 서버 |아니요 |아니요 |예 |아니요 |예 |
+| SAP Business Warehouse 서버 |아니요 |아니요 |예 |아니요 |아니요 |
 | SAP HANA 데이터베이스 |아니요 |아니요 |예 |예 |아니요 |
 | Teradata 데이터베이스 |아니요 |아니요 |예 |예 |예 |
 
