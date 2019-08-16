@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: c039b00ced1bf62c8be72d218177d04a9fd3accf
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: e1dfda3c759d225019cc50d36cfe746976bd797a
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532586"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867078"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Power BI Desktop에서 상대 날짜 슬라이서 및 필터 사용
 
@@ -25,13 +25,11 @@ ms.locfileid: "67532586"
 
 ## <a name="use-the-relative-date-range-slicer"></a>상대 날짜 범위 슬라이서 사용
 
-
-캔버스의 슬라이서를 선택한 다음 슬라이서 시각적 개체의 오른쪽 위 모서리의 캐럿을 선택합니다. 시각적 개체에 날짜 데이터가 포함된 경우, 메뉴는 **상대** 옵션을 표시합니다.
-
+다른 슬라이서와 마찬가지로 상대 날짜 슬라이서를 사용할 수 있습니다. 보고서에 대한 **슬라이서** 시각적 개체를 만든 다음, **필드** 값에 대해 날짜 값을 선택합니다. 다음 이미지에서는 *OrderDate* 필드를 선택했습니다.
 
 ![슬라이서 시각적 개체 아이콘과 필드을 가리키는 화살표가 있는 시각화 창의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
 
-캔버스에서 슬라이서를 선택한 다음, 슬라이서 시각적 개체의 오른쪽 위 모서리에 있는 캐럿을 선택합니다. 시각적 개체에 날짜 데이터가 있는 경우 메뉴에 **상대**에 대한 옵션이 표시됩니다.
+캔버스에서 슬라이서를 선택한 다음, 슬라이서 시각적 개체의 오른쪽 위 모서리에 있는 캐럿을 선택합니다. 시각적 개체에 날짜 데이터가 있는 경우 메뉴에 **Relative**에 대한 옵션이 표시됩니다.
 
 ![캐럿 주위에 호출과 Relative를 가리키는 화살표가 있는 슬라이서 시각적 개체의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
 
@@ -77,9 +75,9 @@ ms.locfileid: "67532586"
 
 * 슬라이서에 의해 제한된 시각적 개체에 포함된 데이터는 이전 두 달 동안의 데이터를 보여줍니다.
 
-* 5월 20일부터 7월 20일까지(오늘 날짜)
+* 5월 21일부터 7월 20일까지(오늘 날짜)
 
-이에 비해 *개월(달력)*을 선택한 경우, 제한된 시각적 개체는 5월 1일부터 6월 30일(달력상의 최근 두 달)까지의 데이터를 보여줍니다.
+이에 비해 *개월(달력)* 을 선택한 경우, 제한된 시각적 개체는 5월 1일부터 6월 30일(달력상의 최근 두 달)까지의 데이터를 보여줍니다.
 
 ## <a name="using-the-relative-date-range-filter"></a>상대 날짜 범위 필터 사용
 
