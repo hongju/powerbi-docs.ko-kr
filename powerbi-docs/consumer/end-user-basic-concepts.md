@@ -215,6 +215,6 @@ _______________________________________________________
 
 - [소비자를 위해 특별히 작성된 Power BI 개요](end-user-consumer.md) 읽기
 
-- Will이 Power BI 서비스의 기본 개념을 검토하고 간략한 둘러보기를 제공하는 동영상을 보세요.
+- Will이 기본 개념을 검토하고 Power BI 서비스의 간략한 둘러보기를 제공하는 동영상을 시청해보세요.
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>

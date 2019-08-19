@@ -270,7 +270,7 @@ Power BI를 레이블이 지정 되는 알려진된 결과 사용 하 여 부울
 
 회귀 모델에 적용 되 면 두 개의 출력 열 풍부한 출력 엔터티에 추가 합니다. 이들은 합니다 **PredictionValue**, 및 **PredictionExplanation**합니다. 엔터티의 열 이름에는 모델이 적용될 때 지정된 접두사가 있습니다.
 
-합니다 **PredictionValue** 열 입력된 필드를 기반으로 레코드에 대 한 예측된 값을 포함 합니다. **PredictionExplanation** 열에 입력된 기능에는 특정 영향 사용 하 여 설명 합니다 **PredictionValue**합니다. 입력 기능 가중치를 JSON 형식 컬렉션입니다.
+**PredictionValue** 열은 입력 필드를 기반으로 하는 레코드에 대한 예측된 값을 포함합니다. **PredictionExplanation** 열에는 입력 기능이 **PredictionValue**에 미치는 특정 영향에 대한 설명이 포함됩니다. 이것은 입력 기능의 가중치의 JSON 형식 컬렉션입니다.
 
 ## <a name="next-steps"></a>다음 단계
 
