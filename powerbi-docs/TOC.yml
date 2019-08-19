@@ -53,6 +53,8 @@
       items:
         - name: 최신 Power BI Desktop 업데이트의 새로운 기능
           href: desktop-latest-update.md
+        - name: Power BI Desktop에서 시각적 개체 그룹화
+          href: desktop-grouping-visuals.md
         - name: Power BI Desktop의 모델링 보기
           href: desktop-modeling-view.md
         - name: Power BI Desktop의 집계
@@ -113,7 +115,7 @@
               href: desktop-data-sources.md
             - name: 예를 통해 웹 페이지에 연결(미리 보기)
               href: desktop-connect-to-web-by-example.md
-            - name: Power BI 서비스의 데이터 집합에 연결
+            - name: Power BI 서비스의 데이터 세트에 연결
               href: desktop-report-lifecycle-datasets.md
             - name: Power BI Desktop에 Excel 통합 문서 가져오기
               href: desktop-import-excel-workbooks.md
@@ -489,7 +491,7 @@
           items:
             - name: 작업 영역에서 데이터 세트 사용
               href: service-datasets-across-workspaces.md
-            - name: 데이터 세트 생성 및 공유(미리 보기)
+            - name: 데이터 집합 공유(미리 보기)
               href: service-datasets-build-permissions.md
             - name: 데이터 세트를 기반으로 보고서 만들기
               href: service-datasets-discover-across-workspaces.md
@@ -1430,3 +1432,5 @@
   items:
     - name: 별모양 스키마란?
       href: guidance/star-schema.md
+    - name: 데이터 모델 크기 줄이기
+      href: guidance/import-modeling-data-reduction.md
