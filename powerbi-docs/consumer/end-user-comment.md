@@ -1,6 +1,6 @@
 ---
-title: 대시보드 및 보고서에 주석 추가
-description: 이 문서에서는 대시보드, 보고서 또는 시각적 개체에 주석을 추가하는 방법과 주석을 사용하여 공동 작업자와 대화하는 방법을 보여 줍니다.
+title: From the context of this page, '댓글' in suggested translation for 'comment' is more appropriate.
+description: 이 문서에서는 대시보드, 보고서 또는 시각적 개체에 댓글을 추가하는 방법과 댓글을 사용하여 공동 작업자와 대화하는 방법을 보여 줍니다.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -19,44 +19,44 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 07/26/2019
 ms.locfileid: "68522788"
 ---
-# <a name="add-comments-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 주석 추가
-개별 주석을 추가하거나 동료와 대시보드 또는 보고서에 관한 대화를 시작합니다. **주석** 기능은 *소비자*가 다른 사용자와 공동 작업할 수 있는 방법 중 하나입니다. 
+# <a name="add-comments-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 댓글 추가
+개별 댓글을 추가하거나 동료와 대시보드 또는 보고서에 관한 대화를 시작합니다. **댓글** 기능은 *소비자*가 다른 사용자와 공동 작업할 수 있는 방법 중 하나입니다. 
 
 ![댓글 비디오](media/end-user-comment/comment.gif)
 
-## <a name="how-to-use-the-comments-feature"></a>주석 기능 사용 방법
-전체 대시보드, 대시보드의 개별 시각적 개체, 보고서 페이지 및 보고서 페이지의 개별 시각적 개체에 주석을 추가할 수 있습니다. 일반 주석이나 특정 동료를 대상으로 하는 주석을 추가합니다.  
+## <a name="how-to-use-the-comments-feature"></a>의견 기능 사용 방법
+전체 대시보드, 대시보드의 개별 시각적 개체, 보고서 페이지 및 보고서 페이지의 개별 시각적 개체에 댓글을 추가할 수 있습니다. 일반 댓글이나 특정 동료를 대상으로 하는 댓글을 추가합니다.  
 
-보고서에 주석을 추가할 때 Power BI는 현재 필터 및 슬라이서 값을 캡처합니다. 즉, 주석을 선택하거나 응답하면 보고서 페이지 또는 보고서 시각적 개체가 변경되어 주석을 처음 추가할 때 활성화된 필터 및 슬라이서 선택 항목을 표시할 수 있습니다.  
+보고서에 댓글을 추가할 때 Power BI는 현재 필터 및 슬라이서 값을 캡처합니다. 즉, 댓글을 선택하거나 응답하면 보고서 페이지 또는 보고서 시각적 개체가 변경되어 댓글을 처음 추가할 때 활성화된 필터 및 슬라이서 선택 항목을 표시할 수 있습니다.  
 
 ![필터가 있는 보고서 동영상](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
 
 이 기능이 왜 중요할까요? 동료가 팀과 공유하려는 흥미로운 인사이트를 표시하는 필터를 적용했다고 가정한다면, 해당 필터를 선택하지 않을 경우 주석이 적합하지 않을 수 있습니다. 
 
-### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 일반 주석 추가
-대시보드 또는 보고서에 주석을 추가하는 프로세스는 비슷합니다. 이 예제에서는 대시보드를 사용합니다. 
+### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 일반 댓글 추가
+대시보드 또는 보고서에 댓글을 추가하는 프로세스는 비슷합니다. 이 예제에서는 대시보드를 사용합니다. 
 
-1. Power BI 대시보드 또는 보고서를 열고 **주석** 아이콘을 선택합니다. 이렇게 하면 주석 대화 상자가 열립니다.
+1. Power BI 대시보드 또는 보고서를 열고 **댓글** 아이콘을 선택합니다. 이렇게 하면 댓글 대화 상자가 열립니다.
 
     ![주석 아이콘](media/end-user-comment/power-bi-comment-icon.png)
 
-    여기서는 대시보드 작성자가 이미 일반 주석을 추가한 것을 볼 수 있습니다.  이 대시보드에 대한 액세스 권한이 있는 사용자는 누구나 이 주석을 볼 수 있습니다.
+    여기서는 대시보드 작성자가 이미 일반 댓글을 추가한 것을 볼 수 있습니다.  이 대시보드에 대한 액세스 권한이 있는 사용자는 누구나 이 댓글을 볼 수 있습니다.
 
     ![주석 아이콘](media/end-user-comment/power-bi-dash-comment.png)
 
-2. 응답하려면 **회신**을 선택하고 응답을 입력한 다음, **게시물**을 선택합니다.  
+2. 응답하려면 **회신**을 선택하고 응답을 입력한 다음, **게시**를 선택합니다.  
 
     ![주석 회신 아이콘](media/end-user-comment/power-bi-comment-reply.png)
 
-    기본적으로 Power BI는 주석 스레드를 시작한 동료(이 경우 Aaron F)에게 응답을 보냅니다. 
+    기본적으로 Power BI는 댓글 스레드를 시작한 동료(이 경우 Aaron F)에게 응답을 보냅니다. 
 
     ![응답 주석](media/end-user-comment/power-bi-response.png)
 
- 3. 기존 스레드의 일부가 아닌 주석을 추가하려면 위쪽 텍스트 필드에 주석을 입력합니다.
+ 3. 기존 스레드의 일부가 아닌 댓글을 추가하려면 위쪽 텍스트 필드에 댓글을 입력합니다.
 
     ![주석 회신 아이콘](media/end-user-comment/power-bi-new-comment.png)
 
-    이 대시보드에 대한 주석은 이제 다음과 같습니다.
+    이 대시보드에 대한 댓글은 이제 다음과 같습니다.
 
     ![주석 대화](media/end-user-comment/power-bi-comment-conversation.png)
 

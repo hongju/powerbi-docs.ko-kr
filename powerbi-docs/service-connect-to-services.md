@@ -63,11 +63,11 @@ Power BI가 서비스에 먼저 연결하는 동안, 대시보드에 빈 타일 
 ## <a name="suggesting-services"></a>서비스 제안
 Power BI 앱에 제안하려는 서비스를 사용하나요? [Power BI 지원](https://support.powerbi.com/forums/265200-power-bi) 페이지로 이동하여 의견을 알려 주세요.
 
-직접 배포할 템플릿 앱을 만드는 데 관심이 있는 [Power BI에서 템플릿 앱 만들기](service-template-apps-create.md)를 참조하세요. Power BI 파트너는 거의 또는 전혀 코딩을 사용 하 여 Power BI 앱을 작성 하 고 Power BI 고객에 게 배포할 수 있습니다. 
+직접 배포할 템플릿 앱을 만드는 데 관심이 있으면, [Power BI에서 템플릿 앱 만들기](service-template-apps-create.md)를 참조하세요. Power BI 파트너는 거의 또는 전혀 코딩 없이 Power BI 앱을 작성하고 Power BI 고객에게 배포할 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
-* [동료에 게 앱 배포](service-create-distribute-apps.md)
+* [동료에게 앱 배포](service-create-distribute-apps.md)
 * [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 
