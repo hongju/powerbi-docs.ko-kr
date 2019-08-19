@@ -85,7 +85,7 @@ Power BI에서 ‘앱’은 관련 대시보드 및 보고서와 함께 모두 �
 ![관련 콘텐츠](./media/end-user-reading-view/power-bi-view-related-dashboard.png)
 
 ### <a name="use-qa-to-ask-questions-using-natural-language"></a>질문 및 답변을 사용하여 자연어 사용에 대해 질문하기
-경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. 질문 및 답변 상자는 대시보드의 위쪽에서 사용할 수 있습니다. “show me count of large opportunities by sales stage as a funnel.”를 예로 들 수 있습니다. 
+경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. 질문 및 답변 상자는 대시보드의 위쪽에서 사용할 수 있습니다. “show me count of large opportunities by sales stage as a funnel.”을 예로 들 수 있습니다. 
 
 ![질문 및 답변](./media/end-user-reading-view/power-bi-qna.png)
 
