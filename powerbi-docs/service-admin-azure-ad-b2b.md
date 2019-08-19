@@ -99,7 +99,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 ## <a name="guest-users-who-can-edit-and-manage-content"></a>콘텐츠를 편집하고 관리할 수 있는 게스트 사용자 
 
-[외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 기능을 사용하는 경우, 지정된 게스트 사용자는 조직의 Power BI에 액세스하고 권한이 있는 모든 콘텐츠를 볼 수 있습니다. 이들은 홈에 액세스하고, 작업 영역을 찾아보고, 앱을 설치하고, 액세스 목록에서 앱이 어디에 있는지 살펴보고, 작업 영역에 콘텐츠를 제공할 수 있습니다. 또 새로운 작업 영역 환경을 사용하는 작업 영역의 관리자를 만들거나 관리자가 될 수 있습니다. 몇 가지 제한 사항이 적용됩니다. 고려 사항 및 제한 사항 섹션 목록에는 이러한 제한 사항을 확인할 수 있습니다.
+[외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 기능을 사용하는 경우, 지정된 게스트 사용자는 조직의 Power BI에 액세스하고 권한이 있는 모든 콘텐츠를 볼 수 있습니다. 지정된 게스트 사용자는 홈에 액세스하고, 작업 영역을 찾아보며, 앱을 설치하고, 액세스 목록에서 앱이 어디에 있는지 살펴보거나 작업 영역에 콘텐츠를 제공할 수 있습니다. 또 새로운 작업 영역 환경을 사용하는 작업 영역의 관리자를 만들거나 관리자가 될 수 있습니다. 몇 가지 제한 사항이 적용됩니다. 고려 사항 및 제한 사항 섹션 목록에는 이러한 제한 사항을 확인할 수 있습니다.
  
 이러한 사용자가 Power BI에 로그인할 수 있도록 지원하려면 테넌트 URL을 제공하세요. 테넌트 URL을 찾으려면 이 단계를 수행합니다.
 
@@ -111,13 +111,13 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-* 기본적으로 외부 Azure AD B2B에서는 게스트 권한이 콘텐츠 소비로만 제한됩니다. 외부 Azure AD B2B 게스트는 앱, 대시보드, 보고서를 보고, 데이터를 내보내고, 대시보드 및 보고서에 대한 메일 구독을 만들 수 있습니다. 작업 영역에 액세스하거나 자신의 콘텐츠를 게시할 수는 없습니다. 단, [외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 기능을 통해 액세스를 얻은 게스트 사용자에게는 이 제한 사항은 적용되지 않습니다.
+* 기본적으로 외부 Azure AD B2B에서는 게스트 권한이 콘텐츠 소비로만 제한됩니다. 외부 Azure AD B2B 게스트는 앱, 대시보드, 보고서를 보고, 데이터를 내보내며, 대시보드 및 보고서에 대한 전자 메일 구독을 만들 수 있습니다. 작업 영역에 액세스하거나 자신의 콘텐츠를 게시할 수는 없습니다. 그러나 [외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 기능을 통해 액세스를 얻은 게스트 사용자에게는 이 제한 사항이 적용되지 않습니다.
 
 * [외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 기능을 통해 액세스가 부여된 게스트 사용자의 경우 일부 환경을 사용할 수 없습니다. 보고서를 업데이트하거나 게시하려면 데이터 가져오기 등의 Power BI 서비스 웹 UI를 사용하여 Power BI Desktop 파일을 업로드해야 합니다.  다음 환경은 지원되지 않습니다.
     * Power BI Desktop에서 Power BI 서비스에 직접 게시
     * 게스트 사용자는 Power BI Desktop을 사용하여 Power BI 서비스의 서비스 데이터 세트에 연결할 수 없습니다.
     * Office 365 그룹에 연결된 클래식 작업 영역:
-        * 게스트 사용자는 이들 작업 영역의 관리자를 만들거나 관리자가 될 수 없습니다.
+        * 게스트 사용자는 이러한 작업 영역의 관리자를 만들거나 관리자가 될 수 없습니다.
         * 게스트 사용자는 멤버가 될 수 있습니다.
     * 작업 영역 액세스 목록 임시 초대 전송이 지원되지 않습니다.
     * 게스트 사용자에게는 Power BI Publisher for Excel이 지원되지 않습니다.
