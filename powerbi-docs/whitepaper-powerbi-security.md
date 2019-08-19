@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2019
+ms.date: 08/15/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: dd656f81cb0fdb32f9637f969ef538e263e20053
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 1ae51620a51c0dc76cd50bd85fc09aa2bfc8e026
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271998"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561038"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 보안 백서
 
@@ -100,17 +100,16 @@ Power BI 테넌트는 국가(또는 지역)와 가장 가까운 것으로 간주
 
 ### <a name="multiple-geographies-multi-geo"></a>여러 지리적 위치(다중 지역)
 
-일부 조직에서는 비즈니스 요구 사항에 따라 여러 지리적 위치 또는 지역에 Power BI가 있어야 합니다. 예를 들어 미국에 Power BI 테넌트가 있지만 호주와 같은 다른 지리적 영역에서 비즈니스를 수행할 수도 있으며, 이 원격 지역에서 유지할 Power BI 서비스와 데이터가 필요합니다.  한 지역에 테넌트가 있는 조직은 2018년 하반기부터 제대로 프로비전되면 다른 지역의 Power BI 리소스에 액세스할 수도 있습니다. 이 기능은 편의상 이 문서 전체에서 참조하기 위해 **다중 지역**이라고 합니다.
+일부 조직에서는 비즈니스 요구 사항에 따라 여러 지리적 위치 또는 지역에 Power BI가 있어야 합니다. 예를 들어 비즈니스에는 미국의 Power BI 테 넌 트가 있지만 오스트레일리아와 같은 다른 지역에서 비즈니스를 수행할 수 있으며, 지역 규정을 준수 하기 위해 해당 원격 지역에서 특정 Power BI 데이터를 유지 해야 할 수도 있습니다. 2018의 두 번째 절반부터, 한 지리에서 홈 테 넌 트가 있는 조직은 다른 지리에 있는 Power BI 리소스를 프로 비전 하 고 액세스할 수도 있습니다. 이 기능은 편의상 이 문서 전체에서 참조하기 위해 **다중 지역**이라고 합니다.
 
-이 문서 전체에서 명확히 설명되는 여러 지역에서 작업할 때 명심해야 할 기술적 의미가 있습니다. 중요한 고려 사항은 다음과 같습니다.
+다중 지역 정보에 대 한 최신 및 기본 문서는 [Power BI Premium에 대 한 다중 지역 지원 구성](service-admin-premium-multi-geo.md) 문서를 참조 하세요. 
 
-- 원격 지역에 저장한 캐시된 쿼리는 해당 지역에서 그대로 유지되고 있지만, 전송 중인 다른 데이터는 여러 지리적 위치 간에 이동할 수 있습니다.
-- 원격 지역에서 PBIX 또는 XLSX 파일 형식으로 있으며 Power BI에 게시된 보고서는 Power BI의 Azure Blob 스토리지에 복사본 또는 섀도 복사본으로 저장되는 경우가 있으며, 이 경우 데이터는 Azure SSE(스토리지 서비스 암호화)를 사용하여 암호화됩니다.
-- 다중 지역 환경에서 데이터를 한 지역에서 다른 지역으로 이동하는 경우 데이터가 이동된 지역의 가비지 수집이 7~10일 내에 수행되고, 이때 원래 지역에서 이동한 데이터의 복사본이 삭제됩니다.
+서로 다른 지역에서 작업할 때 지역 법률 및 규정의 맥락에서 평가 해야 하는 기술 세부 정보는 여러 가지가 있습니다. 이러한 세부 정보는 다음과 같습니다.
 
-다음 이미지에서는 다중 지역 환경에서 원격 지역에 제공된 Power BI 서비스가 클라이언트의 원격 Power BI 구독 가상 머신에 대한 연결이 설정된 **Power BI 백 엔드** 클러스터를 통해 라우팅되는 방법을 보여줍니다.
-
-![다중 지역](media/whitepaper-powerbi-security/powerbi-security-whitepaper_07.png)
+- 원격 쿼리 실행 계층은 원격 용량 지역에서 호스트 되어 데이터 모델, 캐시 및 대부분의 데이터 처리가 원격 용량 지역에 남아 있도록 합니다. [Power BI Premium에 대 한 다중 지역](service-admin-premium-multi-geo.md) 문서에 자세히 설명 된 몇 가지 예외가 있습니다.
+- 캐시 된 쿼리 텍스트와 원격 지역에 저장 된 해당 결과는 미사용 지역에 그대로 남아 있지만 전송 중인 다른 데이터는 여러 지역 간에 앞뒤로 이동할 수 있습니다.
+- Power BI 서비스 다중 지역 용량에 게시 (업로드) 된 .PBIX 또는 .XLSX 파일은 복사본이 Power BI의 테 넌 트 지역에 있는 Azure Blob storage에 일시적으로 저장 될 수 있습니다. 이러한 상황에서 데이터는 SSE (Azure Storage 서비스 암호화)를 사용 하 여 암호화 되 고, 파일 콘텐츠 처리 및 원격 지역으로의 전송이 완료 되는 즉시 가비지 수집을 위해 복사본이 예약 됩니다. 
+- 다중 지역 환경의 지역 간에 데이터를 이동 하는 경우 원본 지역의 데이터 인스턴스가 7-30 일 이내에 삭제 됩니다. 
 
 ### <a name="datacenters-and-locales"></a>데이터 센터 및 로캘
 
@@ -316,7 +315,7 @@ Power BI에서 데이터 무결성 모니터링을 제공하는 방법은 다음
 
 ## <a name="user-authentication-to-data-sources"></a>데이터 원본에 대한 사용자 인증
 
-각 데이터 원본을 사용 하 여 사용자 로그인에 따라 연결을 설정 하 고 해당 자격 증명을 사용 하 여 데이터에 액세스. 그러면 사용자가 기본 데이터를 기반으로 하여 쿼리, 대시보드 및 보고서를 만들 수 있습니다.
+각 데이터 원본을 사용 하 여 사용자는 로그인을 기반으로 연결을 설정 하 고 해당 자격 증명을 사용 하 여 데이터에 액세스 합니다. 그러면 사용자가 기본 데이터를 기반으로 하여 쿼리, 대시보드 및 보고서를 만들 수 있습니다.
 
 사용자가 쿼리, 대시보드, 보고서 또는 시각화를 공유하면 해당 데이터 및 이러한 시각화에 대한 액세스는 기본 데이터 원본의 RLS(역할 수준 보안) 지원 여부에 따라 달라집니다.
 
@@ -382,7 +381,7 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 
 * **Power BI 자격 증명 및 도메인 자격 증명:** 사용자는 이메일 주소를 사용하여 Power BI에 로그인합니다. 사용자가 데이터 리소스에 연결하려고 하면 Power BI는 Power BI 로그인 이메일 주소를 자격 증명으로 전달합니다. 도메인 연결 리소스(온-프레미스 또는 클라우드 기반)의 경우 디렉터리 서비스에서 로그인 이메일을 [UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)(_사용자 계정 이름_)과 대조하여 액세스를 허용할 만큼 충분한 자격 증명이 있는지 확인합니다. 작업 기반 이메일 주소( _david@contoso.com_ 과 같은 작업 리소스에 로그인하는 데 사용하는 것과 동일한 이메일 주소)를 사용하여 Power BI에 로그인하는 조직의 경우 매핑이 원활하게 수행될 수 있습니다. 작업 기반 이메일 주소(예: _david@contoso.onmicrosoft.com_ )를 사용하지 않은 조직의 경우 Power BI 로그인 자격 증명을 사용하여 온-프레미스 리소스에 액세스할 수 있도록 디렉터리 매핑을 설정해야 합니다.
 
-* **SQL Server Analysis Services 및 Power BI:** 온-프레미스 SQL Server Analysis Services를 사용하는 조직의 경우 Power BI에서 Power BI 온-프레미스 데이터 게이트웨이(이전 섹션에서 참조한 **게이트웨이**)를 제공합니다.  Power BI 온-프레미스 데이터 게이트웨이는 RLS(역할 수준 보안)를 데이터 원본에 적용할 수 있습니다. RLS에 대한 자세한 내용은 이 문서의 앞부분에 있는 **데이터 원본에 대한 사용자 인증**을 참조하세요. 게이트웨이에 대 한 자세한 내용은 참조 하세요. [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)합니다.
+* **SQL Server Analysis Services 및 Power BI:** 온-프레미스 SQL Server Analysis Services를 사용하는 조직의 경우 Power BI에서 Power BI 온-프레미스 데이터 게이트웨이(이전 섹션에서 참조한 **게이트웨이**)를 제공합니다.  Power BI 온-프레미스 데이터 게이트웨이는 RLS(역할 수준 보안)를 데이터 원본에 적용할 수 있습니다. RLS에 대한 자세한 내용은 이 문서의 앞부분에 있는 **데이터 원본에 대한 사용자 인증**을 참조하세요. 게이트웨이에 대 한 자세한 내용은 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)를 참조 하세요.
 
   또한 조직에서 Kerberos를 **SSO(Single Sign-On)** 에 사용하고 Power BI에서 SQL Server, SAP HANA 및 Teradata와 같은 온-프레미스 데이터 원본에 원활하게 연결할 수 있습니다. 자세한 내용과 특정 구성 요구 사항은 [**Power BI에서 온-프레미스 데이터 원본으로의 SSO에 Kerberos 사용**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)을 참조하세요.
 
@@ -426,11 +425,11 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 
 **온-프레미스 데이터 게이트웨이를 사용하는 경우 복구 키의 사용 방법과 저장 위치는 어떻게 되나요? 보안 자격 증명 관리는 어떻나요?**
 
-* 게이트웨이 설치 및 구성 중에 관리자가 게이트웨이 **복구 키**를 입력합니다. 있는지 **복구 키** 강력한 생성 하는 데 사용 됩니다 **AES** 대칭 키입니다. **RSA** 비대칭 키를 동시에 만들 수도 있습니다.
+* 게이트웨이 설치 및 구성 중에 관리자가 게이트웨이 **복구 키**를 입력합니다. 이 **복구 키는** 강력한 **AES** 대칭 키를 생성 하는 데 사용 됩니다. **RSA** 비대칭 키도 동시에 생성 됩니다.
 
     생성된 키(**RSA** 및 **AES**)는 로컬 머신에 있는 파일에 저장됩니다. 이 파일도 암호화됩니다. 파일의 내용은 특정 Windows 머신에서만 암호 해독할 수 있으며, 특정 게이트웨이 서비스 계정에서만 해독할 수 있습니다.
 
-    사용자가 Power BI 서비스 UI에서 데이터 원본 자격 증명을 입력하면 자격 증명이 브라우저의 공개 키를 사용하여 암호화됩니다. 게이트웨이는 RSA 개인 키를 사용 하 여 자격 증명의 암호를 해독 하 고 다시 데이터를 Power BI 서비스에 저장 되기 전에 AES 대칭 키를 사용 하 여 암호화 합니다. 이 프로세스를 통해 Power BI 서비스는 암호화되지 않은 데이터에 액세스할 수 없게 됩니다.
+    사용자가 Power BI 서비스 UI에서 데이터 원본 자격 증명을 입력하면 자격 증명이 브라우저의 공개 키를 사용하여 암호화됩니다. 게이트웨이는 RSA 개인 키를 사용 하 여 자격 증명을 해독 하 고 데이터를 Power BI 서비스에 저장 하기 전에 AES 대칭 키로 다시 암호화 합니다. 이 프로세스를 통해 Power BI 서비스는 암호화되지 않은 데이터에 액세스할 수 없게 됩니다.
 
 **온-프레미스 데이터 게이트웨이에서 사용하는 통신 프로토콜은 무엇이며, 어떻게 보호되나요?**
 
@@ -438,7 +437,7 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 
   - **AMQP 1.0 – TCP + TLS**: 이 프로토콜을 사용하려면 나가는 통신을 위해 443, 5671-5672 및 9350-9354 포트를 열어야 합니다. 통신 오버헤드가 낮으므로 이 프로토콜이 선호됩니다.
 
-  - **HTTPS – WebSockets over HTTPS + TLS**: 이 프로토콜은 443 포트만 사용합니다. WebSocket은 단일 HTTP CONNECT 메시지를 통해 시작됩니다. 채널이 설정되면 통신은 기본적으로 TCP + TLS입니다. 에 설명 된 설정을 수정 하 여이 프로토콜을 사용 하도록 게이트웨이 강제할 수 있습니다 합니다 [온-프레미스 게이트웨이 문서](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus)합니다.
+  - **HTTPS – WebSockets over HTTPS + TLS**: 이 프로토콜은 443 포트만 사용합니다. WebSocket은 단일 HTTP CONNECT 메시지를 통해 시작됩니다. 채널이 설정되면 통신은 기본적으로 TCP + TLS입니다. [온-프레미스 게이트웨이 문서](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus)에 설명 된 설정을 수정 하 여 게이트웨이가이 프로토콜을 사용 하도록 강제할 수 있습니다.
 
 **Power BI에서 Azure CDN의 역할은 무엇인가요?**
 
