@@ -1,6 +1,6 @@
 ---
-title: 시각적 개체를 만드는 데 사용한 데이터 표시
-description: 이 문서에서는 Power BI 소비자가 시각적 개체를 만드는 데 사용되는 데이터를 어떻게 "볼 수 있는지" 설명합니다.
+title: 시각적 개체를 만드는데 사용한 데이터 표시
+description: 이 문서에서는 Power BI 소비자가 시각적 개체를 만드는데 사용되는 데이터를 어떻게 "볼 수 있는지" 설명합니다.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -18,13 +18,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65608012"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visual"></a>시각적 개체를 만드는 데 사용한 데이터 표시
+# <a name="show-the-data-that-was-used-to-create-the-visual"></a>시각적 개체를 만드는데 사용한 데이터 표시
 
-Power BI 시각적 개체는 기본 데이터 집합의 데이터를 사용 하 여 생성 됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. 선택 하면 **데이터 표시**, 아래 (또는 옆에) 데이터를 표시 하는 Power BI 시각적 개체입니다.
+Power BI 시각적 개체는 기본 데이터 집합의 데이터를 사용하여 생성 됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. **데이터 표시**를 선택하면, Power BI는 시각적 개체 아래 (또는 옆에)에 데이터를 표시합니다.
 
 
 1. Power BI 서비스에서 [보고서를 열고](end-user-report-open.md) 시각적 개체를 선택 합니다.  
-2. 시각적 개체 뒤에 데이터를 표시하려면 줄임표(...)를 선택하고 **데이터 표시**를 선택합니다.
+2. 시각적 개체 뒤의 데이터를 표시하려면 줄임표(...)를 선택하고 **데이터 표시**를 선택합니다.
    
    ![데이터 표시 선택](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
 3. 기본적으로 데이터는 시각적 개체 아래에 표시됩니다.
