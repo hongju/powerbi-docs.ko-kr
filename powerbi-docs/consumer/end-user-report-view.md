@@ -43,7 +43,7 @@ ms.locfileid: "67532428"
 
    ![페이지에 맞추기로 설정된 보고서의 스크린샷.](media/end-user-report-view/power-bi-fit-to-width.png)
 
-- 다음 4개의 **고대비 색** 중에서 선택할 수도 있습니다: 고대비 #1, 고대비 #2, 고대비 검정 및 고대비 흰색. 시각 장애가 있는 사용자가 보고서를 더 잘 볼 수 있도록 사용할 수 있는 접근성 기능입니다:
+- 다음 4개의 **고대비 색** 중에서 선택할 수도 있습니다: 고대비 #1, 고대비 #2, 고대비 검정 및 고대비 흰색. 시각 장애가 있는 사용자가 보고서를 더 잘 볼 수 있도록 사용할 수 있는 접근성 기능입니다.
 
     ![고대비 #1로 설정된 보고서의 스크린샷. ](media/end-user-report-view/power-bi-high-contrast-1.png)![고대비 #2로 설정된 보고서의 스크린샷.](media/end-user-report-view/power-bi-high-contrast-2.png)
     ![고대비 검정으로 설정된 보고서의 스크린샷. ](media/end-user-report-view/power-bi-high-contrast-black.png)![고대비 흰색으로 설정된 보고서의 스크린샷.](media/end-user-report-view/power-bi-high-contrast-white.png)
