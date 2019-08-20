@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
+ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729806"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68940913"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
@@ -124,7 +124,10 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
     - *‘버전: 2.61.5192.641(2018년 8월), 릴리스 날짜: 2018년 8월 15일’*
         - Power BI Report Server에서 연결에 필요한 변경 내용 포함(2018년 8월)         
-        
+    - *‘버전: 2.61.5192.7701(2018년 8월), 릴리스 날짜: 2019년 8월 8일*(새 빌드 및 새 버전)
+        - 버그 수정
+            - 잘못된 원격 분석 로깅 수정
+            
 ## <a name="march-2018"></a>2018년 3월
 
 - **Power BI Report Server**

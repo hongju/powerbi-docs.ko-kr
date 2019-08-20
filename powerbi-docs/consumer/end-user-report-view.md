@@ -43,12 +43,12 @@ ms.locfileid: "67532428"
 
    ![페이지에 맞추기로 설정된 보고서의 스크린샷.](media/end-user-report-view/power-bi-fit-to-width.png)
 
-- 다음 4개의 **고대비 색** 중에서 선택할 수도 있습니다. 고대비 #1, 고대비 #2, 고대비 검정 및 고대비 흰색. 시각 장애가 있는 사용자가 보고서를 더 잘 볼 수 있도록 사용할 수 있는 내게 필요한 옵션 기능:
+- 다음 4개의 **고대비 색** 중에서 선택할 수도 있습니다: 고대비 #1, 고대비 #2, 고대비 검정 및 고대비 흰색. 시각 장애가 있는 사용자가 보고서를 더 잘 볼 수 있도록 사용할 수 있는 접근성 기능입니다.
 
     ![고대비 #1로 설정된 보고서의 스크린샷. ](media/end-user-report-view/power-bi-high-contrast-1.png)![고대비 #2로 설정된 보고서의 스크린샷.](media/end-user-report-view/power-bi-high-contrast-2.png)
     ![고대비 검정으로 설정된 보고서의 스크린샷. ](media/end-user-report-view/power-bi-high-contrast-black.png)![고대비 흰색으로 설정된 보고서의 스크린샷.](media/end-user-report-view/power-bi-high-contrast-white.png)
 
-- 마지막 옵션인 **전체 화면**은 메뉴 모음 및 헤더 없이 보고서 페이지를 표시합니다. 전체 화면은 세부 정보를 보기 어려운 작은 화면에 적합할 수 있습니다.  전체 화면은 사용자가 볼 수 있지만 상호 작용하지 않도록 대형 화면에 보고서 페이지를 프로젝션할 때 적합할 수 있습니다.  
+- 마지막 옵션인 **전체 화면**은 메뉴 모음 및 머리글 없이 보고서 페이지를 표시합니다. 전체 화면은 세부 정보를 보기 어려운 작은 화면에 적합할 수 있습니다. 전체 화면은 사용자가 볼 수 있지만 상호 작용하지 않도록 대형 화면에 보고서 페이지를 프로젝션할 때 적합할 수 있습니다.  
 
     ![보고서에 전체 화면 표시](media/end-user-report-view/power-bi-full-screen.png)
 

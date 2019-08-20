@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 02fbe26fc4d0c8be0439ca656151ef7712d201b6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1c4a16d0dbe22a154dacfd296bfedab8acb97e81
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61399106"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867121"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI에 지원되는 언어 및 국가/지역
 
-이 문서는 지원 되는 언어 및 국가/지역 Power BI 서비스, Power BI Desktop 및 Power BI 설명서를 나열합니다.
+이 문서에서는 Power BI 서비스, Power BI Desktop 및 Power BI 설명서에서 지원하는 언어 및 국가/지역 목록을 나열합니다.
 
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Power BI를 사용할 수 있는 국가 및 지역
 Power BI를 사용할 수 있는 국가 및 지역 목록은 [국제 지원 가용성 목록](https://products.office.com/business/international-availability)을 참조하세요. 
@@ -73,11 +73,11 @@ Power BI를 사용할 수 있는 국가 및 지역 목록은 [국제 지원 가�
 * 베트남어-Tiếng Việt
 
 ### <a name="whats-translated"></a>번역 내용
-Power BI 메뉴, 단추, 메시지 및 언어를 환경의 다른 요소를 변환합니다.
+Power BI는 메뉴, 단추, 메시지 및 기타 환경 요소를 해당 언어로 번역합니다. 자동으로 생성된 제목, 필터, 도구 설명 등의 보고서 콘텐츠는 번역되지만 데이터는 자동으로 번역되지 않습니다. 히브리어와 같이 오른쪽에서 왼쪽으로 쓰기 언어를 사용하는 경우 보고서 내에서 시각적 개체의 레이아웃이 변경되지 않습니다.
 
 이번에 몇 가지 기능은 영어로만 제공됩니다.
 
-* 대시보드 및 보고서는 Power BI Microsoft Dynamics CRM, Google Analytics, Salesforce와 같은 서비스에 연결할 때 만듭니다. 여전히 자신의 언어로 사용자 고유의 대시보드 및 보고서를 만들 수 있습니다.
+* Microsoft Dynamics CRM, Google 분석, Salesforce 등의 서비스에 연결할 때 Power BI에서 생성되는 대시보드 및 보고서 사용자 언어로 자신만의 대시보드 및 보고서를 작성할 수도 있습니다.
 * 질문과 대답을 통한 데이터 탐색
 
 추가된 기능이 기타 언어로 제공될 수 있도록 노력하겠습니다. 
@@ -134,15 +134,20 @@ Power BI Desktop을 얻는 방법은 두 가지입니다. 다운로드하거나 
    
      다음에 Power BI Desktop을 시작하면 기본값으로 설정한 언어가 사용됩니다. 
 
+기본값을 재정의하고 Windows 언어 이외의 언어로 Power BI Desktop을 사용하려면 다음을 수행합니다.
+1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**으로 이동합니다.
+2. **전역 설정** 아래에서 **국가별 설정**을 선택합니다.
+3. **애플리케이션 언어** 상자에서 다른 로캘을 선택합니다. 
+
+Power BI Desktop의 언어 지원은 애플리케이션 언어 드롭다운에서 표시되는 언어로 제한됩니다.
+
 ### <a name="choose-a-language-when-you-download-power-bi-desktop"></a>Power BI Desktop을 다운로드할 때 언어 선택
-Power BI Desktop용으로 선택한 언어는 보고서의 숫자 및 날짜 표시 형식에 영향을 미칩니다. 
+Power BI Desktop 설치 관리자의 .msi 버전을 사용하는 경우 다운로드할 때 언어를 설정합니다. [Power BI Desktop 다운로드](https://www.microsoft.com/en-us/download/details.aspx?id=45331) 페이지에서 언어를 선택합니다. 
 
-* [Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 때 언어를 선택합니다. 
-
-Power BI Desktop에서 언어를 변경하려면 다운로드 페이지로 돌아가서 다른 언어로 다운로드하십시오.
+이 방법으로 설치한 경우 Power BI Desktop에서 언어를 변경하려면 다운로드 페이지로 돌아가서 다른 언어로 다운로드합니다.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Power BI Desktop으로 데이터를 가져올 때 사용할 로캘 선택
-Power BI Desktop을 다운로드하든 Windows 스토어에서 설치하든 특정 보고서에 대한 로캘을 Power BI Desktop 버전의 로캘이 아닌 다른 로캘로 선택할 수 있습니다. 데이터에서 가져온 때 방식으로 데이터를 해석 하는 로캘의 변경은 원본, 예를 들어 "3/4/2017" 3 월 또는 년 3 월 4로 해석 되는 여부입니다. 
+Power BI Desktop을 다운로드하든 Windows 스토어에서 설치하든 특정 보고서에 대한 로캘을 Power BI Desktop 버전의 로캘이 아닌 다른 로캘로 선택할 수 있습니다. 로캘에 따라 데이터 원본에서 데이터를 가져올 때 데이터가 해석되는 방식이 변경됩니다(예: “3/4/2017”이 4월 3일 또는 3월 4일로 해석될지 여부). 
 
 1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**으로 이동합니다.
 2. **현재 파일**에서 **국가별 설정**을 선택합니다.
@@ -166,7 +171,7 @@ Power BI Desktop 애플리케이션의 언어를 설정할 수 있을 뿐만 아
 모델 언어를 설정하는 방법은 다음과 같습니다.
 
 1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**으로 이동합니다.
-2. **전역** 아래에서 **국가별 설정**을 선택합니다.
+2. **글로벌** 아래에서 **국가별 설정**을 선택합니다.
 3. **모델 언어** 상자에서 다른 언어를 선택합니다. 
 
     ![Power BI Desktop에서 모델 언어 설정](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)

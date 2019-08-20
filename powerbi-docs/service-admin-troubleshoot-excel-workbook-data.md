@@ -38,7 +38,7 @@ Power BI로 Excel 통합 문서를 가져오면 다음과 같은 오류가 표�
 
 ## <a name="details"></a>세부 정보
 ### <a name="cause"></a>원인
-Excel에서 셀 범위를 벗어난 **표** 를 만들어 데이터를 더 쉽게 정렬하고, 필터링하며, 서식을 지정할 수 있습니다.
+Excel에서 셀 범위를 벗어난 **표**를 만들어 데이터를 더 쉽게 정렬하고, 필터링하며, 서식을 지정할 수 있습니다.
 
 Excel 통합 문서를 가져오면 Power BI에서 이러한 표를 찾아 데이터 세트로 가져옵니다. 표를 찾지 못하는 경우 이 오류 메시지가 표시됩니다.
 
@@ -54,7 +54,7 @@ Excel 통합 문서를 가져오면 Power BI에서 이러한 표를 찾아 데�
 3. 리본의 **삽입** 탭에서 **표**를 클릭합니다. 또는 바로 가기로 **Ctrl+T**를 누릅니다.
    
     ![테이블 삽입](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-3.png)
-4. 다음과 같은 대화 상자가 표시됩니다. **머리글 포함** 이 선택되어 있는지 확인하고 **확인**을 선택합니다.
+4. 다음과 같은 대화 상자가 표시됩니다. **머리글 포함**이 선택되어 있는지 확인하고 **확인**을 선택합니다.
    
     ![테이블 만들기](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-create-table.png)
 5. 이제 데이터의 서식이 표로 지정됩니다.
