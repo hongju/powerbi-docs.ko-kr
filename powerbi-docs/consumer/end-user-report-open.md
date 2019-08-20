@@ -12,15 +12,15 @@ ms.date: 5/06/2018
 ms.author: mihart
 ms.openlocfilehash: cda8ec807873f0d6cda09dce90f0d8a823ce50ee
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65609109"
 ---
 # <a name="view-a-report-in-power-bi-service-for-consumers"></a>*소비자*에 대한 Power BI 서비스의 보고서 보기
-보고서는 하나 이상의 시각적 개체 페이지입니다. Power BI에서 보고서가 생성 됩니다 *디자이너* 및 [사용 하 여 공유 *소비자* 직접](end-user-shared-with-me.md) 의 일부로 [앱](end-user-apps.md)합니다. 
+보고서는 시각적 개체로 이루어진 하나 이상의 페이지입니다. Power BI *디자이너*가 보고서를 생성하며 [직접 *소비자*에게 공유](end-user-shared-with-me.md)하거나 [앱](end-user-apps.md)의 일부로 공유합니다. 
 
-여러 가지 다른 방법으로 보고서를 열려면 및 두 개를 살펴보겠습니다: 집에서 열고 대시보드에서 엽니다. 
+보고서를 여는 여러 가지 방법이 있으며 두 가지를 살펴보겠습니다: 홈에서 열기 및 대시보드에서 열기입니다. 
 
 <!-- add art-->
 
@@ -31,15 +31,15 @@ ms.locfileid: "65609109"
    ![홈페이지](./media/end-user-report-open/power-bi-home.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>사용자와 공유된 보고서 열기
-Power BI *디자이너* 와 직접 보고서를 공유할 수 있습니다. 이 이렇게 공유 되는 콘텐츠 표시는 **공유한** 표시줄에 프로그램 nav에 컨테이너를 **공유한** 홈 캔버스의 섹션입니다.
+Power BI *디자이너*는 직접 보고서를 공유할 수 있습니다. 이런 방식으로 공유되는 콘텐츠는 탐색 모음에서 **공유한 항목** 컨테이너와 홈 캔버스의 **공유한 항목** 섹션에서 나타납니다.
 
 1. Power BI 서비스 (app.powerbi.com)를 엽니다.
 
-2. 탐색 모음에서 선택 **홈** 홈 캔버스를 표시 합니다.  
+2. 탐색 모음에서, **홈**을 선택하여 홈 캔버스를 표시합니다.  
 
    ![홈 캔버스](./media/end-user-report-open/power-bi-select-home-new.png)
    
-3. **공유한 항목**이 표시될 때까지 아래로 스크롤합니다. 보고서 아이콘 ![보고서 아이콘](./media/end-user-report-open/power-bi-report-icon.png)을 찾습니다. 한 대시보드 및 보고서 라는 것이 스크린샷에 *영업 및 마케팅 샘플*합니다. 
+3. **공유한 항목**이 표시될 때까지 아래로 스크롤합니다. 보고서 아이콘 ![보고서 아이콘](./media/end-user-report-open/power-bi-report-icon.png)을 찾습니다. 이 스크린 샷에는 *영업 및 마케팅 샘플*이라는 하나의 대시보드 및 하나의 보고서가 있습니다. 
    
    ![홈페이지의 공유한 항목 섹션](./media/end-user-report-open/power-bi-shared-new.png)
 
@@ -47,7 +47,7 @@ Power BI *디자이너* 와 직접 보고서를 공유할 수 있습니다. 이 
 
    ![보고서 페이지](./media/end-user-report-open/power-bi-filter-pane.png)
 
-5. 왼쪽에 있는 탭을 확인 합니다.  각 탭은 보고서 ‘페이지’를 나타냅니다.  현재는 *성장 기회* 페이지를 엽니다. 선택 된 *YTD 범주* 대신 해당 보고서 페이지를 열려면 탭 합니다. 
+5. 왼쪽에 있는 탭을 확인합니다.  각 탭은 보고서 ‘페이지’를 나타냅니다. 현재 *성장 기회* 페이지가 열려 있습니다. 대신 해당 보고서 페이지를 열려면 *YTD 범주* 탭을 선택합니다. 
 
    ![보고서 페이지 탭](./media/end-user-report-open/power-bi-tab-new.png)
 
@@ -73,7 +73,7 @@ Power BI *디자이너* 와 직접 보고서를 공유할 수 있습니다. 이 
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>대시보드에서 보고서 열기
-대시보드에서 보고서를 열 수 있습니다. 대부분의 대시보드 타일은 보고서에서 ‘고정’됩니다.  타일을 선택하면 타일을 만드는 데 사용된 보고서가 열립니다. 
+대시보드에서 보고서를 열 수 있습니다. 대부분의 대시보드 타일은 보고서에서 ‘고정’됩니다. 타일을 선택하면 타일을 만드는 데 사용된 보고서가 열립니다. 
 
 1. 대시보드에서 타일을 선택합니다. 이 예에서는 "총 단위 YTD..." 열 차트 타일을 선택했습니다.
 
