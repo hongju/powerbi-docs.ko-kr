@@ -55,6 +55,8 @@
           href: desktop-latest-update.md
         - name: Power BI Desktop에서 시각적 개체 그룹화
           href: desktop-grouping-visuals.md
+        - name: Power BI Desktop에서 템플릿 사용
+          href: desktop-templates.md
         - name: Power BI Desktop의 모델링 보기
           href: desktop-modeling-view.md
         - name: Power BI Desktop의 집계
