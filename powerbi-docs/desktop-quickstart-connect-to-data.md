@@ -28,7 +28,7 @@ ms.locfileid: "65514445"
 ## <a name="prerequisites"></a>필수 조건
 
 이 문서의 단계를 완료하려면 다음이 필요합니다.
-* 로컬 컴퓨터에서 실행되는 무료 애플리케이션인 **Power BI Desktop**을 다운로드하여 설치합니다. 직접 [**Power BI Desktop**을 다운로드](https://powerbi.microsoft.com/desktop)하거나 [**Microsoft 저장소**](http://aka.ms/pbidesktopstore)에서 가져올 수 있습니다.
+* 로컬 컴퓨터에서 실행되는 무료 애플리케이션인 **Power BI Desktop**을 다운로드하여 설치합니다. 직접 [**Power BI Desktop**을 다운로드](https://powerbi.microsoft.com/desktop)하거나 [**Microsoft Store**](http://aka.ms/pbidesktopstore)에서 가져올 수 있습니다.
 * [이 샘플 Excel 통합 문서를 다운로드](http://go.microsoft.com/fwlink/?LinkID=521962)하고 Excel 파일을 저장할 수 있는 *C:\PBID-qs*라는 폴더를 만듭니다. 이 빠른 시작의 후속 단계에서는 이 폴더가 다운로드한 Excel 통합 문서의 파일 위치라고 가정합니다.
 
 ## <a name="launch-power-bi-desktop"></a>Power BI Desktop 시작
