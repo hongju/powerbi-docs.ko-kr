@@ -23,9 +23,9 @@ ms.locfileid: "65513684"
 
 ## <a name="connect-to-a-facebook-page"></a>Facebook 페이지에 연결
 
-이 자습서에서는 [Microsoft Power BI Facebook 페이지](https://www.facebook.com/microsoftbi)( *https://www.facebook.com/microsoftbi* )의 데이터를 사용합니다. 개인 Facebook 계정을 제외하고 이 페이지에 연결하여 데이터를 가져오는 데는 특별한 자격 증명이 필요하지 않습니다.
+이 자습서에서는 [Microsoft Power BI Facebook 페이지](https://www.facebook.com/microsoftbi)( *https://www.facebook.com/microsoftbi* )의 데이터를 사용합니다. 개인 Facebook 계정을 제외하고 이 페이지에 연결하고 데이터를 가져오기 위해 특별한 자격 증명이 필요하지 않습니다.
 
-1. Power BI Desktop을 열고 **시작** 대화 상자에서 **데이터 가져오기**를 선택하거나, **홈** 리본 메뉴의 **데이터 가져오기**를 선택한 다음, **자세히...** 를 선택합니다.
+1. Power BI Desktop을 열고 **시작** 대화 상자에서 **데이터 가져오기**를 선택하거나, **홈** 리본 메뉴의 **데이터 가져오기**를 선택한 다음, **추가...** 를 선택합니다.
    
 2. **데이터 가져오기** 대화 상자의 **온라인 서비스** 그룹에서 **Facebook**을 선택한 다음, **연결**을 선택합니다.
    
