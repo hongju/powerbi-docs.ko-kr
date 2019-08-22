@@ -1,5 +1,5 @@
 ---
-title: 소비자에 대 한 Power BI에서 시각적 개체 유형
+title: 소비자를 위한 Power BI의 시각적 개체 유형
 description: Power BI 서비스에서 시각적 개체 유형
 author: mihart
 manager: kvivek
@@ -12,7 +12,7 @@ ms.author: mihart
 LocalizationGroup: Consumer
 ms.openlocfilehash: acee7e78a19986a0f83e13836ba6d77f7c35fdce
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65711516"
