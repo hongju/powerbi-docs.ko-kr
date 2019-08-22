@@ -19,7 +19,7 @@ ms.locfileid: "65533589"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop의 복합 모델 사용
 
-이전에 Power BI Desktop에서 다른 데이터 연결은-보고서에서 DirectQuery를 사용 하는 경우 여부 DirectQuery 또는 가져오기-허용 된 해당 보고서에 대 한 합니다. 복합 모델을 사용하면 해당 제한이 제거됩니다. 보고서에는 둘 이상의 DirectQuery 또는 가져오기 데이터 연결의 데이터 연결이 선택한 조합으로 원활하게 포함될 수 있습니다.
+이전에 Power BI Desktop에서는 보고서에서 DirectQuery를 사용할 때 해당 보고서에 대해 DirectQuery 또는 가져오기 등 다른 데이터 연결은 허용되지 않았습니다. 복합 모델을 사용하면 해당 제한이 제거됩니다. 보고서에는 둘 이상의 DirectQuery 또는 가져오기 데이터 연결의 데이터 연결이 선택한 조합으로 원활하게 포함될 수 있습니다.
 
 ![Power BI Desktop의 복합 모델](media/desktop-composite-models/composite-models_01.png)
 
@@ -170,7 +170,7 @@ DirectQuery를 사용할 때는 주로 사용자에게 좋은 환경을 제공�
 
 이 릴리스의 복합 모델에는 몇 가지 제한이 제공합니다.
 
-현재 [증분 새로 고침](service-premium-incremental-refresh.md) 만 SQL, Oracle 및 Teradata 데이터 원본에 연결 하는 복합 모델에 대 한 지원 됩니다.
+현재 SQL, Oracle 및 Teradata 데이터 원본에 연결 하는 복합 모델에서만 [증분 새로 고침](service-premium-incremental-refresh.md)이 지원됩니다.
 
 다음 Live Connect(다차원) 원본은 복합 모델과 함께 사용할 수 없습니다.
 
