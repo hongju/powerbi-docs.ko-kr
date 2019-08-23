@@ -13,7 +13,7 @@ ms.author: mihart
 LocalizationGroup: Consumers
 ms.openlocfilehash: d4384db8e05a69b138e76377e7c7b845867fa881
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61063848"
@@ -45,7 +45,7 @@ ms.locfileid: "61063848"
 ## <a name="from-a-visual-in-a-report"></a>보고서에서 시각적 개체에서
 .Csv 또는.xlsx (Excel)으로 보고서에서 시각적 개체에서 데이터를 내보낼 수 형식입니다. 
 
-1. 대시보드에서 기본 보고서를 열고 타일을 선택 합니다.  이 예제에서는 선택 하겠습니다 동일한 시각적 위와 *총 단위 YTD Var %* 합니다. 
+1. 대시보드에서, 기본 보고서를 열기 위해 타일을 선택합니다.  이 예제에서는 위와 동일한 시각적 개체로 *총 단위 YTD Var %* 를 선택하겠습니다. 
 
     ![](media/end-user-export/power-bi-export-report.png)
 
