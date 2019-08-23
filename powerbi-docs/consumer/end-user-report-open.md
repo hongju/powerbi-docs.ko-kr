@@ -90,11 +90,11 @@ Power BI *디자이너*는 직접 보고서를 공유할 수 있습니다. 이�
 ##  <a name="still-more-ways-to-open-a-report"></a>보고서를 열 수 있는 기타 방법
 Power BI 서비스 탐색 편안 익숙해지면 가장 적합 한 워크플로 파악 됩니다. 보고서에 액세스하는 몇 가지 다른 방법:
 - 사용 하 여 막대 nav **즐겨찾기** 및 **최근 항목**    
-- [관련 항목 보기](end-user-related.md) 사용    
+- [관련 항목 보기](end-user-related.md) 를 사용    
 - 누군가가 [사용자와 공유](../service-share-reports.md)하거나 [경고를 설정](end-user-alerts.md)할 때 메일을 통해    
 - [알림 센터](end-user-notification-center.md)를 통해    
 - 기타
 
 ## <a name="next-steps"></a>다음 단계
-[보고서와 상호 작용하는 여러 가지 방법](end-user-reading-view.md)이 있습니다.  보고서 캔버스에 있는 각 탭을 선택 하 여 탐색을 시작 합니다.
+[보고서와 상호 작용하는 여러 가지 방법](end-user-reading-view.md)이 있습니다.  보고서 캔버스에 있는 각 탭을 선택하 여 탐색을 시작 합니다.
 

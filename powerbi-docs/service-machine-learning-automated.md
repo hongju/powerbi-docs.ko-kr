@@ -228,9 +228,9 @@ Power BI를 레이블이 지정 되는 알려진된 결과 사용 하 여 부울
 
 분류 ML 모델을 적용하려면, 입력 데이터 및 출력 열 이름 접두사를 가진 엔터티를 지정해야 합니다.
 
-분류 모델을 적용 하면 3 개의 출력 열 풍부한 출력 엔터티에 추가 합니다. 이들은 합니다 **PredictionScore**를 **PredictionClass** 하 고 **PredictionExplanation**합니다. 엔터티의 열 이름에는 모델이 적용될 때 지정된 접두사가 있습니다.
+분류 모델을 적용하면, 3개의 출력 열이 enriched 출력 엔터티에 추가됩니다. 이들은 **PredictionScore**, **PredictionClass** 및 **PredictionExplanation**입니다. 엔터티의 열 이름에는 모델이 적용될 때 지정된 접두사가 있습니다.
 
-합니다 **PredictionClass** 레코드에 대해 가장 가능성이 높은 예측된 클래스를 포함 하는 열입니다. 합니다 **PredictionScore** 열 목록이 가능한 각 클래스에 대 한 레코드에 대 한 확률 점수입니다.
+**PredictionClass** 열에는 레코드에 대해 가장 가능성이 높은 예측된 클래스가 포함됩니다. **PredictionScore** 열에는 각 가능한 클래스의 레코드에 대한 확률 점수 목록이 포함됩니다.
 
 **PredictionExplanation** 열에는 입력 기능이 **PredictionScore**에 미치는 특정 영향에 대한 설명이 포함됩니다. 이것은 예측에 대한 입력 기능의 가중치의 JSON 형식 컬렉션입니다.
 
