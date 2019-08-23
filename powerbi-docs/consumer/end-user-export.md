@@ -19,21 +19,21 @@ ms.lasthandoff: 05/29/2019
 ms.locfileid: "61063848"
 ---
 # <a name="export-data-from-visual"></a>시각적 데이터 내보내기
-시각적 개체를 만드는 데 사용 되는 데이터를 보려면 싶다면 [Power BI에서 해당 데이터를 표시할 수 있습니다](end-user-show-data.md) 또는 Excel로 데이터 내보내기. 데이터를 내보낼 옵션을 특정 형식 또는 특정 라이선스 필요 및 콘텐츠 사용 권한을 편집 합니다. 를 내보낼 수 없는 경우 Power BI 관리자에 게 문의 하십시오. 
+시각적 개체를 만드는 데 사용된 데이터를 보려면, Excel로 데이터를 내보내기하거나 [Power BI에서 해당 데이터를 표시할 수 있습니다](end-user-show-data.md). 데이터를 내보내는 옵션에는 특정 형식 또는 라이선스와 콘텐츠에 대한 편집 권한이 있어야 합니다. 내보낼 수 없는 경우, Power BI 관리자에게 문의하십시오. 
 
-## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Power BI 대시보드에서 시각적 개체에서
+## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Power BI 대시보드의 시각적 개체에서
 
-1. Power BI 대시보드를 시작 합니다. 여기에서 대시보드를 사용 하는 것은 ***마케팅 및 판매 샘플*** 앱. 할 수 있습니다 [AppSource.com에서이 앱을 다운로드할](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282)합니다.
+1. Power BI 대시보드를 시작합니다. 여기에서는 ***마케팅 및 판매 샘플*** 앱의 대시보드를 사용합니다. [AppSource.com에서 이 앱을 다운로드](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282)할 수 있습니다 .
 
     ![](media/end-user-export/power-bi-dashboard.png)
 
-2. 줄임표 (...)를 표시 하려면 시각적 개체 위에 놓고 동작 메뉴를 표시 하려면 클릭 합니다.
+2. 줄임표(...)를 표시하려면 시각적 개체 위에 마우스를 놓고 동작 메뉴를 표시하도록 클릭합니다.
 
     ![](media/end-user-export/power-bi-dashboard-export-visual.png)
 
-3. 선택 **Excel로 내보내기**합니다.
+3. **Excel로 내보내기**를 선택합니다.
 
-4. 이후에 사용 중인 브라우저에 따라 달라 집니다. 파일 또는 월에 저장 하 라는 메시지가 있습니다 브라우저의 맨 아래에서 내보낸된 파일에 대 한 링크를 참조 하세요. 
+4. 사용 중인 브라우저에 따라 다음 작업이 달라집니다. 파일을 저장하라는 메시지가 나타나거나 브라우저의 맨 아래에서 내보낸 파일에 대한 링크를 확인할 수 있습니다. 
 
     ![](media/end-user-export/power-bi-export-browser.png)
 
@@ -42,10 +42,10 @@ ms.locfileid: "61063848"
     ![](media/end-user-export/power-bi-excel.png)
 
 
-## <a name="from-a-visual-in-a-report"></a>보고서에서 시각적 개체에서
-.Csv 또는.xlsx (Excel)으로 보고서에서 시각적 개체에서 데이터를 내보낼 수 형식입니다. 
+## <a name="from-a-visual-in-a-report"></a>보고서의 시각적 개체에서
+.csv 또는.xlsx(Excel) 형식으로 보고서의 시각적 개체에서 데이터를 내보낼 수 있습니다. 
 
-1. 대시보드에서, 기본 보고서를 열기 위해 타일을 선택합니다.  이 예제에서는 위와 동일한 시각적 개체로 *총 단위 YTD Var %* 를 선택하겠습니다. 
+1. 대시보드에서 기본 보고서를 열고 타일을 선택 합니다.  이 예제에서는 선택 하겠습니다 동일한 시각적 위와 *총 단위 YTD Var %* 합니다. 
 
     ![](media/end-user-export/power-bi-export-report.png)
 
@@ -69,7 +69,7 @@ ms.locfileid: "61063848"
 
     ![](media/end-user-export/power-bi-export-report3.png)
 
-5. 이후에 사용 중인 브라우저에 따라 달라 집니다. 파일 또는 월에 저장 하 라는 메시지가 있습니다 브라우저의 맨 아래에서 내보낸된 파일에 대 한 링크를 참조 하세요. 
+5. 사용 중인 브라우저에 따라 다음 작업이 달라집니다. 파일을 저장하라는 메시지가 나타나거나 브라우저의 맨 아래에서 내보낸 파일에 대한 링크를 확인할 수 있습니다. 
 
     ![](media/end-user-export/power-bi-export-edge.png)
 
