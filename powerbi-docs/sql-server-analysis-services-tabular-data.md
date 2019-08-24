@@ -13,7 +13,7 @@ ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769921"
@@ -45,7 +45,7 @@ Power BI에서는 두 가지 방법으로 라이브 SQL Server Analysis Services
 
 5. 연결하려는 모델을 선택합니다. 테이블 형식 또는 다차원일 수 있습니다.
 
-모델에 연결하면 Power BI 사이트의 **내 작업 영역/데이터 집합**에 나타납니다. 그룹 작업 영역으로 전환된 경우 데이터 세트는 그룹 내에 표시됩니다.
+모델에 연결하면 Power BI 사이트의 **내 작업 영역/데이터 세트**에 나타납니다. 그룹 작업 영역으로 전환된 경우 데이터 세트는 그룹 내에 표시됩니다.
 
 ![데이터 집합에 연결](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 

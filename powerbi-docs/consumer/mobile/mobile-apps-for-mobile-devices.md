@@ -12,7 +12,7 @@ ms.author: mshenhav
 ms.custom: ''
 ms.openlocfilehash: 1e30efc917b7c064bc93e06a09df3d099cd6e7e2
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61046615"
@@ -35,7 +35,7 @@ Power BI Desktop에서 보고서를 만듭니다. 대시보드를 만들고 Powe
 | [![Windows 디바이스](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../desktop-getting-started.md) |Windows 10용 Power BI 모바일 앱은 Windows 10 휴대폰을 포함하는 모든 Windows 10 디바이스에서 실행됩니다. 다른 모바일 앱의 많은 기능과 함께 Windows 10용 Power BI 모바일 앱은 특별한 기능을 제공합니다. 예를 들어 Power BI 모바일 앱에서 [Power BI 대시보드를 Windows 10 시작 화면에 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)할 수 있습니다. 또한 Windows 10용 Power BI 모바일 앱 및 [Surface Hub에서 프레젠테이션 모드로 Power BI를 실행](mobile-windows-10-app-presentation-mode.md)할 수 있습니다. <br/>[Windows 10 디바이스용 Power BI 모바일 앱](mobile-windows-10-phone-app-get-started.md)을 시작합니다. |
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에 대한 Enterprise 지원
-조직에서 Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱을 포함한 장치 및 애플리케이션을 관리할 수 있습니다.
+조직에서 Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱을 포함한 디바이스 및 애플리케이션을 관리할 수 있습니다.
 
 Microsoft Intune을 사용하면 액세스 핀이 필요하고, 애플리케이션에서 데이터를 처리하는 방법을 제어하며, 앱을 사용하지 않을 때 애플리케이션 데이터를 암호화하는 것과 같은 항목을 조직에서 제어할 수 있습니다.
 

@@ -698,7 +698,7 @@ Power BI 팀은 여러 주요 추가 기능과 업데이트를 포함하여 2015
 * 향상된 차트 데이터 용량
 
 #### <a name="ios-and-android-mobile-apps"></a>iOS 및 Android 모바일 앱
-* 기업에서는 이제 장치 및 애플리케이션을 관리하도록 [Microsoft Intune로 iOS 및 Android 용 Power BI 모바일 앱을 구성](../../service-admin-mobile-intune.md)할 수 있습니다.
+* 기업에서는 이제 디바이스 및 애플리케이션을 관리하도록 [Microsoft Intune로 iOS 및 Android 용 Power BI 모바일 앱을 구성](../../service-admin-mobile-intune.md)할 수 있습니다.
 
 #### <a name="iphone-mobile-app"></a>iPhone 모바일 앱
 * iPhone에서 직접 [대시보드에 그림 타일을 추가](mobile-iphone-app-get-started.md)합니다.

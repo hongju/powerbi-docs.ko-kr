@@ -19,7 +19,7 @@ ms.locfileid: "65710933"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune으로 모바일 앱 구성
 
-Microsoft Intune을 사용하여 조직에서는 장치 및 애플리케이션을 관리할 수 있습니다. iOS 및 Android용 Power BI 모바일 응용 프로그램은 Intune과 통합됩니다. 이 통합을 통해 디바이스에서 응용 프로그램을 관리하고 보안을 제어할 수 있습니다. 구성 정책을 통해 액세스 핀 요구, 응용 프로그램에서 데이터가 처리되는 방식, 앱이 사용되고 있지 않을 때 응용 프로그램 데이터를 암호화하는 것과 같은 항목을 제어할 수 있습니다.
+Microsoft Intune을 사용하여 조직에서는 디바이스 및 애플리케이션을 관리할 수 있습니다. iOS 및 Android용 Power BI 모바일 애플리케이션은 Intune과 통합됩니다. 이 통합을 통해 디바이스에서 애플리케이션을 관리하고 보안을 제어할 수 있습니다. 구성 정책을 통해 액세스 핀 요구, 애플리케이션에서 데이터가 처리되는 방식, 앱이 사용되고 있지 않을 때 애플리케이션 데이터를 암호화하는 것과 같은 항목을 제어할 수 있습니다.
 
 ## <a name="general-mobile-device-management-configuration"></a>일반 모바일 디바이스 관리 구성
 
@@ -34,7 +34,7 @@ Microsoft Intune은 Office 365 내에서 MDM(모바일 디바이스 관리)과 �
 
 Intune 내에서 애플리케이션을 만들기 전에 앱의 URL을 가져와야 합니다. iOS의 경우에는 iTunes에서 가져옵니다. Android의 경우 Power BI 모바일 페이지에서 가져올 수 있습니다.
 
-응용 프로그램을 만들 때 필요하므로 URL을 저장해 둡니다.
+애플리케이션을 만들 때 필요하므로 URL을 저장해 둡니다.
 
 ### <a name="get-ios-url"></a>iOS URL 가져오기
 
@@ -74,7 +74,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 ## <a name="step-3-create-the-application"></a>3단계: 애플리케이션 만들기
 
-애플리케이션은 배포를 위해 Intune에 저장되는 참조 또는 패키지입니다. 응용 프로그램을 만들고 Google Play 또는 iTunes에서 가져온 앱 URL을 참조해야 합니다.
+애플리케이션은 배포를 위해 Intune에 저장되는 참조 또는 패키지입니다. 애플리케이션을 만들고 Google Play 또는 iTunes에서 가져온 앱 URL을 참조해야 합니다.
 
 애플리케이션을 만들거나 정책을 먼저 만들 수 있습니다. 추가되는 순서는 중요하지 않습니다. 배포 단계를 위해 둘 다 필요합니다.
 

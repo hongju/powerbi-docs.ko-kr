@@ -12,7 +12,7 @@ ms.custom: seodec18
 ms.date: 04/02/2019
 ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710969"
@@ -25,7 +25,7 @@ ms.locfileid: "65710969"
 
 이 자습서에서는 다음 작업을 수행하는 방법을 알아봅니다.
 > [!div class="checklist"]
-> * Azure에서 응용 프로그램을 등록합니다.
+> * Azure에서 애플리케이션을 등록합니다.
 > * 조직의 애플리케이션에 Power BI 보고서를 포함합니다.
 
 ## <a name="prerequisites"></a>필수 조건
@@ -42,17 +42,17 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>임베디드 분석 개발 환경 설정
 
-응용 프로그램에 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 Power BI에 포함을 허용하도록 설정해야 합니다.
+애플리케이션에 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 Power BI에 포함을 허용하도록 설정해야 합니다.
 
 [포함 설정 도구](https://aka.ms/embedsetup/AppOwnsData)를 통해 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다.
 
 그러나 환경을 수동으로 설정하도록 선택하면 아래를 계속할 수 있습니다.
 
-### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure AD(Azure Active Directory)에서 응용 프로그램 등록
+### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure AD(Azure Active Directory)에서 애플리케이션 등록
 
-Azure Active Directory로 [응용 프로그램을 등록](register-app.md)하여 응용 프로그램에서 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 응용 프로그램을 등록하면 응용 프로그램의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다. 마스터 계정 또는 [서비스 주체](embed-service-principal.md)를 사용할지에 따라 응용 프로그램 등록을 시작하는 방법을 결정합니다.
+Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 애플리케이션에서 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다. 마스터 계정 또는 [서비스 주체](embed-service-principal.md)를 사용할지에 따라 애플리케이션 등록을 시작하는 방법을 결정합니다.
 
-취하는 메서드에 따라 Azure에 등록하는 응용 프로그램 유형에 영향을 줍니다.
+취하는 메서드에 따라 Azure에 등록하는 애플리케이션 유형에 영향을 줍니다.
 
 마스터 계정을 사용하여 진행하는 경우 **네이티브** 앱 등록으로 진행합니다. 비대화형 로그인으로 작업 중이므로 기본 앱을 사용합니다.
 
@@ -113,7 +113,7 @@ Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음
 
     ![웹 구성 파일](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-### <a name="application-id"></a>응용 프로그램 ID
+### <a name="application-id"></a>애플리케이션 ID
 
 이 특성은 AuthenticationTypes(마스터 계정 및 [서비스 주체](embed-service-principal.md)) 모두에 필요합니다.
 
@@ -131,7 +131,7 @@ Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음
 
     ![앱 선택](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-4. GUID로 나열된 **응용 프로그램 ID**가 있습니다. 이 **응용 프로그램 ID**를 애플리케이션의 **applicationId**로 사용합니다.
+4. GUID로 나열된 **애플리케이션 ID**가 있습니다. 이 **응용 프로그램 ID**를 애플리케이션의 **applicationId**로 사용합니다.
 
     ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
@@ -180,7 +180,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 * Power BI 마스터 계정으로 **pbiUsername**을 입력합니다.
 * Power BI 마스터 사용자 계정의 암호로 **pbiPassword**를 입력합니다.
 
-### <a name="application-secret"></a>응용 프로그램 암호
+### <a name="application-secret"></a>애플리케이션 암호
 
 이 특성은 [서비스 주체](embed-service-principal.md) AuthenticationType에 대해서만 필요합니다.
 
@@ -230,7 +230,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 콘텐츠를 포함하는 단계는 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 사용하여 수행되지만 이 문서에 설명된 예제 코드는 **.NET SDK**를 사용하여 만듭니다.
 
-애플리케이션 내에서 고객을 포함시키려면 **Azure AD**에서 마스터 계정에 대한 **액세스 토큰** 또는 [서비스 주체](embed-service-principal.md)를 가져와야 합니다. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 호출하기 전에 Power BI 응용 프로그램에 대한 [Azure AD 액세스 토큰](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)을 가져와야 합니다.
+애플리케이션 내에서 고객을 포함시키려면 **Azure AD**에서 마스터 계정에 대한 **액세스 토큰** 또는 [서비스 주체](embed-service-principal.md)를 가져와야 합니다. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 호출하기 전에 Power BI 애플리케이션에 대한 [Azure AD 액세스 토큰](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)을 가져와야 합니다.
 
 **액세스 토큰**을 사용하여 Power BI 클라이언트를 만들려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)와 상호 작용할 수 있는 Power BI 클라이언트 개체를 만들 수 있습니다. ***Microsoft.Rest.TokenCredentials*** 개체로 **AccessToken**을 래핑하여 Power BI 클라이언트 개체를 만듭니다.
 
@@ -365,7 +365,7 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 | A5 |16개 가상 코어 |8개 코어, 50GB RAM |8개 코어 |초당 60 |
 | A6 |32개 가상 코어 |16개 코어, 100GB RAM |16개 코어 |초당 120 |
 
-**‘SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다.’** 
+**‘SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다.’**
 
 PRO 라이선스가 있는 포함 토큰을 사용하는 것은 개발 테스트용이므로 Power BI 마스터 계정 또는 서비스 주체가 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 환경에 포함하려면 전용 용량이 필요합니다. 전용 용량으로 생성할 수 있는 포함 토큰 수에는 제한이 없습니다. [사용 가능한 기능](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)으로 이동하여 현재 포함된 사용 현황을 백분율로 표시하는 사용 값을 확인합니다. 사용량은 마스터 계정을 기반으로 합니다.
 
