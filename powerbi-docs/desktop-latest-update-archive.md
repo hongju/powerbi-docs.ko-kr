@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/29/2019
+ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 80bb78d6074fde907fe6b2d3bbb835cdc5e82976
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: c2af7db67c637ca795bd501609d05d317d2a3e00
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623855"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023459"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -33,6 +33,76 @@ ms.locfileid: "68623855"
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
 다음 섹션은 이전 달들의 **Power BI Desktop**에 대한 업데이트를 설명합니다.
+
+## <a name="july-2019-update-2715523641"></a>2019년 7월 업데이트(2.71.5523.641)
+
+7월 업데이트에는 Power BI Desktop의 다양한 새로운 기능이 제공되었습니다. 
+
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+
+각 업데이트 옆의 링크는 다음을 의미합니다.
+
+* 기능을 설명하는 경우 **[비디오]** 에서 발췌된 내용이 새 브라우저 탭에서 재생됩니다.
+* 일부 기능에는 세부 사항을 제공하는 **[문서]** 가 있습니다.
+* 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+
+처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+
+이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
+
+### <a name="reporting"></a>보고
+* 테이블 및 행렬의 아이콘 세트 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=11)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#iconSets) 
+* 규칙을 통한 조건부 서식의 백분율 지원  [[비디오]](https://youtu.be/l7OMRUF9UYg?t=445)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#percentRules)
+* 이제 새 필터 창이 일반 공급됨 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=543)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#filterPane)
+* 분산형 차트에서 재생 축을 사용할 경우 데이터 색 지원 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=610)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#playAxis)
+* 상대 날짜 및 드롭다운 슬라이서를 사용할 경우 성능 개선 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=669)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#slicers)
+
+
+### <a name="analytics"></a>분석
+* 주요 영향 요인 시각적 개체 개수(미리 보기) [[비디오]](https://youtu.be/l7OMRUF9UYg?t=760)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#keyInfluencers) 
+* 집계 개선 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=870)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#aggregations) 
+
+
+### <a name="visuals"></a>시각적 개체
+* 이제 PowerApps 시각적 개체가 인증됨 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=894)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#powerapps) 
+* 3개의 새로운 사용자 지정 시각적 개체 및 업데이트 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=932) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
+
+
+### <a name="data-connectivity"></a>데이터 연결
+* Azure Data Lake Storage Gen2 커넥터(베타) [[비디오]](https://youtu.be/l7OMRUF9UYg?t=1203)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#azureDataLake) 
+* Dynamics 365 Customer Insights 커넥터 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=1250)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#customerInsights) 
+
+
+### <a name="data-preparation"></a>데이터 준비
+* 새 변환: 위치로 열 분할 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=1321)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#splitColumn) 
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l7OMRUF9UYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+
+조직에 필요한 경우 이전 버전의 Power BI Desktop을 다운로드할 수도 있습니다. 이전 버전보다는 최신 버전의 Power BI Desktop을 사용하는 것이 좋습니다. 모든 이전 버전에는 다음과 같은 제한이 있습니다.
+
+* Power BI Desktop의 이전 릴리스에는 서비스가 제공되지 않으므로 최신 기능 및 업데이트를 사용하려면 항상 최신 릴리스를 사용해야 합니다.
+* Power BI Desktop의 최신 릴리스에서 만들거나 저장한 파일을 이전 버전의 Power BI Desktop에서 열지 못할 수 있습니다. 
+* Power BI Desktop의 최신 릴리스에서 저장한 보고서를 로드할 때 경고가 표시되어 이전 버전에 해당 보고서를 저장하는 경우 새 기능과 관련된 정보가 모두 손실됩니다.
+* Power BI Desktop의 영어 버전만 보관됩니다.
+
+이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
+
+* [Power BI Desktop 2019년 7월 버전 - 32비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
+* [Power BI Desktop 2019년 7월 버전 - 64비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
 
 
 ## <a name="june-2019-update-2705494561"></a>2019년 6월 업데이트(2.70.5494.561)
@@ -1019,7 +1089,7 @@ ms.locfileid: "68623855"
 
 * DirectQuery 성능 개선  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=32m24s)  [[문서]](desktop-directquery-about.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * 열기 및 저장 성능 개선  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=33m40s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
-* ‘데이터가 없는 항목 표시’ 개선   [[비디오]](https://youtu.be/KeVB5RwMzJo?t=34m6s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
+* ‘데이터가 없는 항목 표시’ 개선  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=34m6s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
 * 향후 **Power BI 서비스** 기능에 대한 지속적인 필터링 제어  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=34m56s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
 
 
@@ -1743,7 +1813,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 ### <a name="query-editing-improvements"></a>쿼리 편집 개선
 
--   **함수 호출** 대화 상자에서  테이블 매개 변수에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#invokeFunction) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=18m12s)
+-   **함수 호출** 대화 상자에서 테이블 매개 변수에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#invokeFunction) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=18m12s)
 
 ### <a name="other-improvements"></a>기타 개선 기능
 
@@ -1908,7 +1978,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 -   쿼리 편집기에서 **R** 스크립트 사용 [[문서]](desktop-r-in-query-editor.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
 -   쿼리 매개 변수 향상된 기능:
-    -   매개 변수에  허용된 값 으로 쿼리 출력 나열 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
+    -   매개 변수에 허용된 값 으로 쿼리 출력 나열 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
 -   기존 사용자 정의 함수 덮어쓰기 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
 
 
@@ -2116,7 +2186,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
     -   연도로 기간 값 변환
     -   복제본 보관
 -   쿼리 편집기 미리 보기에서 공백 및 줄 바꿈에 지원
--   **로캘로 형식 변경** 대화 상자에서  샘플 입력 값에 대한 힌트 포함
+-   **로캘로 형식 변경** 대화 상자에서 샘플 입력 값에 대한 힌트 포함
 -   **탐색기** 창에 대한 기능 향상:
     -   ODBC 원본에 대한 탐색 계층 구조에 스키마 정보 추가
     -   **탐색기**에서 미리 보기를 사용하지 않도록 설정하는 기능
@@ -2146,7 +2216,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 ### <a name="report-view"></a>보고서 보기:
 
--   시각적 개체 이면의 데이터(  데이터를 CSV로 내보내기포함)를 참조하세요.
+-   시각적 개체 이면의 데이터( 데이터를 CSV로 내보내기포함)를 참조하세요.
 -   맵 개선 사항 - 위도/경도만 사용하여 맵 작성
 -   KPI 소비 릴리스 지원(SSAS MD에 대한 탐색 계층 지원 및 KPI 추세 포함)
 -   SSAS 검색 모드: **필드** 창에서 폴더 **표시** 지원

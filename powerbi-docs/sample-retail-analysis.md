@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5391fee3c5a05d1c34cac4f3a097a0577ce5d191
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462388"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68962229"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 소매점 분석 샘플: 둘러보기
 
@@ -72,7 +72,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
    ![체인별 올해 판매액 차트](media/sample-retail-analysis/retail3.png)  
 
-   **Total Sales Variance %** (총 판매액 차이 %) 거품형 차트의 결과를 확인합니다.
+   **Total Sales Variance %**(총 판매액 차이 %) 거품형 차트의 결과를 확인합니다.
 
    ![총 판매액 차이 % 차트](media/sample-retail-analysis/pbi_sample_retanlbubbles.png)  
 
@@ -92,10 +92,10 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Power BI 질문 및 답변을 사용하여 만든 타일 검토
 보다 자세히 살펴보겠습니다.
 
-1. 질문을 ‘this year sales **by district**’로 변경합니다. 결과를 확인합니다. 질문 및 답변이 답변을 가로 막대형 차트에 자동으로 배치하며 다른 구를 제안합니다.
+1. 질문을 ‘**구역별** 올해 판매액’으로 변경합니다. 결과를 확인합니다. 질문 및 답변이 답변을 가로 막대형 차트에 자동으로 배치하며 다른 구를 제안합니다.
 
    ![질문 및 답변의 구역별 올해 판매액](media/sample-retail-analysis/retail8.png)
-2. 이번에는 질문을 ‘this year sales **by zip and chain**’으로 변경합니다.
+2. 이번에는 질문을 ‘**우편 번호 및 체인별** 올해 판매액’으로 변경합니다.
 
    질문을 입력함에 따라 Power BI가 질문에 답변하고 적절한 차트를 표시하는 것을 볼 수 있습니다.
 3. 더 많은 질문을 입력하여 어떤 결과를 얻을 수 있는지 살펴봅니다.

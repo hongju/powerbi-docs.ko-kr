@@ -7,19 +7,22 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567410"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530621"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>다른 작업 영역에서 보고서 복사(미리 보기)
 
-작업 영역이나 앱에서 원하는 보고서를 찾으면 복사본을 만든 다음 다른 작업 영역에 저장할 수 있습니다. 그런 다음, 시각적 개체 및 기타 요소를 추가하거나 삭제하여 해당 보고서를 수정할 수 있습니다. 데이터 모델 만들기에 대해 걱정할 필요가 없습니다. 사용자를 위해 이미 생성되어 있습니다. 그리고 기존 보고서를 수정하는 것이 처음부터 시작하는 것보다 훨씬 쉽습니다. 그러나 새 작업 영역에서는 보고서의 복사본을 앱에서 게시할 수 없습니다. ‘작업 영역에서 데이터 세트 사용’ 문서에서 그 밖의 [고려 사항 및 제한 사항](service-datasets-across-workspaces.md#considerations-and-limitations) 목록을 참조하세요.
+작업 영역이나 앱에서 원하는 보고서를 찾은 경우, 복사본을 만들고 다른 작업 영역에 저장할 수 있습니다. 그런 다음, 시각적 개체 및 기타 요소를 추가하거나 삭제하여 보고서의 복사본을 수정할 수 있습니다. 데이터 모델 만들기에 대해 걱정할 필요가 없습니다. 사용자를 위해 이미 생성되어 있습니다. 그리고 기존 보고서를 수정하는 것이 처음부터 시작하는 것보다 훨씬 쉽습니다. 그러나 새 작업 영역에서 앱을 만들 때 앱에 보고서 복사본을 게시할 수 없는 경우도 있습니다. 자세한 내용은 [“작업 영역에서 데이터 세트 사용” 문서의 고려 사항 및 제한 사항](service-datasets-across-workspaces.md#considerations-and-limitations)을 참조하세요.
+
+> [!NOTE]
+> 복사본을 만들려면, 원본 보고서가 프리미엄 용량의 작업 영역에 있는 경우에도 Pro 라이선스가 필요합니다.
 
 ## <a name="save-a-copy-of-a-report"></a>보고서 복사본 저장
 
