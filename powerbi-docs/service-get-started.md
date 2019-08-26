@@ -45,13 +45,13 @@ Power BI Desktop에 대한 도움말 찾고 있는 경우 [Power BI Desktop 시�
 > [!TIP]
 > 대신 무료 자가 진행식 교육 과정을 더 선호합니까? [EdX에서 데이터 분석 및 시각화 코스에 등록](http://aka.ms/edxpbi)합니다.
 
-[YouTube 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)을 방문합니다. 시작하는 데 도움이 되는 유용한 동영상은 ‘Power BI 서비스 소개’입니다.
+[YouTube 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)을 방문합니다. 시작하는 데 도움이 되는 유용한 동영상은 ‘Power BI 서비스 소개’입니다. 
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
 ## <a name="what-is-the-power-bi-service"></a>Power BI 서비스란?
-Microsoft Power BI 서비스는 Power BI 온라인 또는 app.powerbi.com이라고도 합니다. Power BI는 중요한 정보를 최신 상태로 유지하는 데 도움이 됩니다. Power BI 서비스를 사용하면 *대시보드*를 통해 비즈니스의 상태를 파악할 수 있습니다. 대시보드에 표시된 ‘타일’을 선택하여 ‘보고서’를 열고 자세히 살펴볼 수 있습니다. 여러 *데이터 세트*에 연결하여 관련 데이터를 모두 한 곳으로 가져옵니다. Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우 [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)을 참조하세요.
+Microsoft Power BI 서비스는 Power BI 온라인 또는 app.powerbi.com이라고도 합니다. Power BI는 중요한 정보를 최신 상태로 유지하는 데 도움이 됩니다. Power BI 서비스를 사용하면 *대시보드*를 통해 비즈니스의 상태를 파악할 수 있습니다. 대시보드에 표시된 ‘타일’을 선택하여 ‘보고서’를 열고 자세히 살펴볼 수 있습니다.   여러 *데이터 세트*에 연결하여 관련 데이터를 모두 한 곳으로 가져옵니다. Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우 [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)을 참조하세요.
 
 Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시보드를 만들어 어디서나 최신 정보를 받고 다른 사람과 통찰력을 공유할 수 있습니다.  Salesforce와 같은 SaaS 애플리케이션에 대한 구독이 있는 경우  먼저 Salesforce에 연결하여 해당 데이터에서 자동으로 대시보드를 생성하거나 [다른 모든 SaaS 앱을 체크 아웃](service-get-data.md)합니다. 조직의 구성원인 경우 [앱](service-create-distribute-apps.md)이 자신에게 게시되었는지 확인합니다.
 
@@ -89,7 +89,7 @@ Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시�
 
     ![읽기용 보기 옵션](media/service-get-started/power-bi-editing-view.png)
 
-    편집용 보기에서는 자신이 보고서의 ‘소유자’이므로 보고서를 만들고 수정할 수 있습니다. 즉, 사용자가 ‘작성자’입니다. 동료와 보고서를 공유하는 경우, 동료는 ‘소비자’이므로 읽기용 보기에서 보고서를 조작할 수만 있습니다. [읽기용 보기 및 편집용 보기](consumer/end-user-reading-view.md)에 대해 자세히 알아보세요.
+    편집용 보기에서는 자신이 보고서의 ‘소유자’이므로 보고서를 만들고 수정할 수 있습니다.  즉, 사용자가 ‘작성자’입니다.  동료와 보고서를 공유하는 경우, 동료는 ‘소비자’이므로 읽기용 보기에서 보고서를 조작할 수만 있습니다.  [읽기용 보기 및 편집용 보기](consumer/end-user-reading-view.md)에 대해 자세히 알아보세요.
     
     [둘러보기](service-the-report-editor-take-a-tour.md)를 통해 보고서 편집기를 살펴볼 수 있습니다.
  
@@ -111,11 +111,11 @@ Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시�
    
    ![고정 아이콘](media/service-get-started/pinnew.png)
 
-4. 이 보고서는 새로운 항목이므로, 먼저 저장해야 시각화를 대시보드에 고정할 수 있다는 메시지가 표시됩니다. 보고서에 이름(예: ‘기간별 매출’)을 지정하고 **저장 후 계속**을 선택합니다. 
+4. 이 보고서는 새로운 항목이므로, 먼저 저장해야 시각화를 대시보드에 고정할 수 있다는 메시지가 표시됩니다. 보고서에 이름(예: ‘기간별 매출’)을 지정하고 **저장 후 계속**을 선택합니다.  
    
    ![보고서 저장 대화 상자](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
-5. 새 대시보드에 꺾은선형 차트를 고정하고 이름을 ‘자습서용 재무 샘플’로 지정합니다. 
+5. 새 대시보드에 꺾은선형 차트를 고정하고 이름을 ‘자습서용 재무 샘플’로 지정합니다.  
    
    ![보고서 이름 지정](media/service-get-started/power-bi-pin.png)
    
@@ -132,7 +132,7 @@ Excel 또는 CSV 파일에 중요한 데이터가 있는 경우 Power BI 대시�
 8. 대시보드에서 새 타일을 선택하여 보고서로 돌아갑니다. Power BI가 읽기용 보기에서 보고서 편집기로 돌아갑니다. 편집용 보기로 다시 전환하려면, 위쪽 탐색 모음에서 **보고서 편집**을 선택합니다. 편집용 보기에서 타일을 계속 탐색하고 고정할 수 있습니다. 
 
 ## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>3단계:  질문 및 답변 탐색 계속(자연어 쿼리)
-1. 데이터의 빠른 탐색을 위해 질문 및 답변 상자에 질문을 합니다. 질문 및 답변의 질문 상자는 대시보드 맨 위(**데이터에 대해 질문하기**)와 보고서의 위쪽 탐색 모음(**질문하기**)에 있습니다. 예를 들어 질문 및 답변 상자에 ‘어떤 세그먼트에서 가장 많은 수익을 냈나요’라고 입력합니다.
+1. 데이터의 빠른 탐색을 위해 질문 및 답변 상자에 질문을 합니다. 질문 및 답변의 질문 상자는 대시보드 맨 위(**데이터에 대해 질문하기**)와 보고서의 위쪽 탐색 모음(**질문하기**)에 있습니다. 예를 들어 *what segment had the most revenue*라고 입력해 보세요.
    
    ![질문 및 답변 캔버스](media/service-get-started/powerbi-qna.png)
 

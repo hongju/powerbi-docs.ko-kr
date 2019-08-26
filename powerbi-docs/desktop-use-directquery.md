@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcad10a77ad531562443470296c9d712b2aa9724
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757604"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654776"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery 사용
 **Power BI Desktop**을 사용하여 데이터 원본에 연결할 때 항상 데이터의 복사본을 **Power BI Desktop**으로 가져올 수 있습니다. 일부 데이터 원본의 경우 다른 방법을 사용할 수 있습니다. **DirectQuery**를 사용하여 데이터 원본에 직접 연결합니다.
@@ -49,10 +49,13 @@ ms.locfileid: "68757604"
 현재 **DirectQuery**를 사용하는 데 몇 가지 제한 사항이 있습니다.
 
 * [복합 모델](desktop-composite-models.md)을 사용하지 않는 한, 모든 테이블은 단일 데이터베이스에서 가져와야 합니다.
+
 * **쿼리 편집기** 쿼리가 너무 복잡하면 오류가 발생합니다. 오류를 수정하려면 **쿼리 편집기**에서 문제가 되는 단계를 삭제하거나, **DirectQuery**를 사용하지 않고 데이터를 *가져옵니다*. SAP Business Warehouse와 같은 다차원 원본의 경우 **쿼리 편집기**가 없습니다.
-* 관계 필터링은 양방향이 아닌 단일 방향으로 제한됩니다(**DirectQuery**에 대한 양방향 교차 필터링을 사용하도록 설정하는 것은 가능). SAP Business Warehouse와 같은 다차원 원본의 경우 모델에 정의된 관계가 없습니다.
+
 * 시간 인텔리전스 기능은 **DirectQuery**에서 사용할 수 없습니다. 예를 들어 날짜 열의 특별한 처리(예: 년, 분기, 월, 일 등)는 **DirectQuery** 모드에서 지원되지 않습니다.
+
 * 기본 데이터 원본에 전송된 쿼리의 성능이 적절한지 확인하기 위해 측정값에서 허용되는 DAX 식에 제한 사항이 적용됩니다.
+
 * **DirectQuery**를 사용하는 경우 데이터 반환에 대한 백만 행 제한이 있습니다. 이 제한은 반환된 행에만 영향을 주고 **DirectQuery**를 사용하여 반환된 데이터 세트를 만드는 데 사용되는 집계 또는 계산에 영향을 주지 않습니다. 예를 들어 Power BI에 반환된 데이터가 백만 행보다 작은 데이터 소스에 실행되는 쿼리를 사용해 천만 행을 집계하여 **DirectQuery**를 사용해 Power BI에 해당 집계 결과를 정확하게 반환할 수 있습니다. **DirectQuery**에서 백만 행 이상이 반환된다면 Power BI는 오류를 반환합니다.
 
 ## <a name="important-considerations-when-using-directquery"></a>DirectQuery를 사용하는 경우 중요 고려 사항

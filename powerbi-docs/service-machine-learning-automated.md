@@ -186,7 +186,7 @@ Power BI를 레이블이 지정 되는 알려진된 결과 사용 하 여 부울
 
 ![예측 입력](media/service-machine-learning-automated/automated-machine-learning-power-bi-12.png)
 
-이진 예측 모델을 적용될 때, enriched 출력 엔터티에 세 개의 출력 열이 추가됩니다. 이들은 **PredictionScore**, **PredictionOutcome** 및 **PredictionExplanation**입니다. 엔터티의 열 이름에는 모델이 적용될 때 지정된 접두사가 있습니다.
+이진 예측 모델을 적용될 때, enriched 출력 엔터티에 세 개의 출력 열이 추가됩니다. 이들은 **PredictionScore**, **PredictionOutcome** 및 **PredictionExplanation**입니다. 엔터티의 열 이름에는 모델에 적용될 때 지정된 접두사가 있습니다.
 
 **PredictionOutcome** 열에는 예측된 결과 레이블이 포함됩니다. 임계값을 초과할 확률을 가진 레코드는 결과를 달성할 가능이 있는 것으로 예측되며, 그 아래의 레코드는 결과를 달성할 가능성이 없는 것으로 예측됩니다.
 
@@ -228,7 +228,7 @@ Power BI를 레이블이 지정 되는 알려진된 결과 사용 하 여 부울
 
 분류 ML 모델을 적용하려면, 입력 데이터 및 출력 열 이름 접두사를 가진 엔터티를 지정해야 합니다.
 
-분류 모델을 적용하면, 3개의 출력 열이 enriched 출력 엔터티에 추가됩니다. 이들은 **PredictionScore**, **PredictionClass** 및 **PredictionExplanation**입니다. 엔터티의 열 이름에는 모델이 적용될 때 지정된 접두사가 있습니다.
+분류 모델을 적용하면, 3개의 출력 열이 enriched 출력 엔터티에 추가됩니다. 이들은 **PredictionScore**, **PredictionClass** 및 **PredictionExplanation**입니다. 엔터티의 열 이름에는 모델에 적용될 때 지정된 접두사가 있습니다.
 
 **PredictionClass** 열에는 레코드에 대해 가장 가능성이 높은 예측된 클래스가 포함됩니다. **PredictionScore** 열에는 각 가능한 클래스의 레코드에 대한 확률 점수 목록이 포함됩니다.
 
@@ -268,7 +268,7 @@ Power BI를 레이블이 지정 되는 알려진된 결과 사용 하 여 부울
 
 ![회귀를 적용 합니다.](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-회귀 모델에 적용 되 면 두 개의 출력 열 풍부한 출력 엔터티에 추가 합니다. 이들은 합니다 **PredictionValue**, 및 **PredictionExplanation**합니다. 엔터티의 열 이름에는 모델이 적용될 때 지정된 접두사가 있습니다.
+회귀 모델이 적용되면, 두 개의 출력 열이 enriched 출력 엔터티에 추가됩니다. 이들은 **PredictionValue** 및 **PredictionExplanation**입니다. 엔터티의 열 이름에는 모델에 적용될 때 지정된 접두사가 있습니다.
 
 **PredictionValue** 열은 입력 필드를 기반으로 하는 레코드에 대한 예측된 값을 포함합니다. **PredictionExplanation** 열에는 입력 기능이 **PredictionValue**에 미치는 특정 영향에 대한 설명이 포함됩니다. 이것은 입력 기능의 가중치의 JSON 형식 컬렉션입니다.
 

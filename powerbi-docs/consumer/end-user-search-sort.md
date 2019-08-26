@@ -13,7 +13,7 @@ ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 2f8c2468b56db190f9e794ed2d81ce86449a970d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61048249"
@@ -23,7 +23,7 @@ Power BI 서비스에서 콘텐츠를 탐색하는 방법은 여러 가지가 �
 
 ## <a name="navigation-within-workspaces"></a>작업 영역 내에서 탐색
 
-일반적으로 Power BI 소비자는 작업 영역이  한 개(**내 작업 영역**)만 있습니다. Microsoft 샘플을 다운로드하거나 고유한 콘텐츠를 생성하거나 다운로드한 경우에만 **내 작업 영역**에 콘텐츠가 포함됩니다.  
+일반적으로 Power BI 소비자는 작업 영역이 한 개(**내 작업 영역**)만 있습니다. Microsoft 샘플을 다운로드하거나 고유한 콘텐츠를 생성하거나 다운로드한 경우에만 **내 작업 영역**에 콘텐츠가 포함됩니다.  
 
 **내 작업 영역** 내에서 Power BI 서비스는 대시보드, 보고서, 통합 문서 및 데이터 세트와 같은 유형별로 콘텐츠를 구분합니다. 작업 영역을 선택하면 이 조직이 표시됩니다. 이 예제에서 **내 작업 영역**에는 대시보드 한 개, 보고서 두 개, 데이터 세트 두 개가 포함되어 있고, 통합 문서는 포함되어 있지 않습니다.
 
@@ -42,7 +42,7 @@ ________________________________________
 - **앱**을 선택하여 앱을 찾을 수 있습니다.
 - **홈**은 가장 중요한 콘텐츠와 제안된 콘텐츠 및 학습 소스의 단일 페이지 보기입니다.
 
-또한 콘텐츠에 [즐겨 찾기](end-user-favorite.md) 및 [주요](end-user-featured.md) 태그를 지정할 수 있습니다. 자주 볼 것으로 예상하는 하나의 대시보드를 선택하고 이를 *주요* 대시보드로 설정합니다. Power BI 서비스를 열 때마다 추천 대시보드가 먼저 표시됩니다. 자주 방문하는 여러 대시보드 및 앱이 있나요? 이들을 즐겨찾기로 설정하면 왼쪽 탐색 표시줄에서 항상 사용할 수 있습니다.
+또한 콘텐츠에 [즐겨 찾기](end-user-favorite.md) 및 [주요](end-user-featured.md) 태그를 지정할 수 있습니다. 자주 볼 것으로 예상하는 하나의 대시보드를 선택하고 이를 *주요* 대시보드로 설정합니다. Power BI 서비스를 열 때마다 주요 대시보드가 먼저 표시됩니다. 자주 방문하는 여러 대시보드 및 앱이 있나요? 이들을 즐겨찾기로 설정하면 왼쪽 탐색 표시줄에서 항상 사용할 수 있습니다.
 
 ![즐겨찾기 플라이아웃](./media/end-user-search-sort/power-bi-favorite-flyout.png)을 선택합니다.
 

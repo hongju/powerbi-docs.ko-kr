@@ -11,7 +11,7 @@ ms.date: 04/24/2019
 ms.author: mshenhav
 ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64906520"
@@ -19,16 +19,16 @@ ms.locfileid: "64906520"
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
 링크를 사용 하 여 Power BI에서 특정 항목에 직접 액세스할 수 있습니다. 보고서, 대시보드 및 타일입니다.
 
-Power BI 모바일에서 링크를 사용 하는 방법은 주로 두 개의 시나리오가 있습니다. 
+Power BI 모바일에서 링크를 사용하는 방법에는 주로 두 개의 시나리오가 있습니다. 
 
-* Power BI에서 열려는 **앱 외부에서**, 및 특정 콘텐츠 (앱/보고서/대시보드)를 방문 합니다. 이것이 일반적으로 통합 시나리오를 다른 앱에서 Power BI Mobile을 열려고 할 때입니다. 
-* 하 **이동** Power BI 내에서. 이것이 일반적으로 Power BI에서 사용자 지정 탐색을 만들려는 경우입니다.
+* **앱 외부에서** Power BI를 열고 특정 콘텐츠(앱/보고서/대시보드)를 방문합니다. 이것은 일반적으로 다른 앱에서 Power BI Mobile을 열려고 할 때의 통합 시나리오입니다. 
+* Power BI 내부에서 **탐색**합니다. 이것은 일반적으로 Power BI에서 사용자 지정 탐색을 만들려는 경우입니다.
 
 
-## <a name="use-links-from-outside-of-power-bi"></a>Power BI 외부에서 사용 하 여 링크
-앱에서 열 수를 확인 하려는 Power BI 앱 외부에서 링크를 사용 하면 장치에서 다음 사용자가 설치 하도록 제공 하는 앱이 설치 되지 경우. 정확 하 게 지원 하기 위해 특별 링크 형식을 만들었습니다. 이 링크 형식에는 장치 앱을 사용 하는 링크를 열려면을 가져오려고 스토어로 이동 하 여 사용자는 제공할 앱을 장치에 설치 되어 있지 않으면, 있는지 확인 하십시오.
+## <a name="use-links-from-outside-of-power-bi"></a>Power BI 외부에서 링크 사용
+Power BI 앱 외부에서 링크를 사용하는 경우, 앱에서 링크를 열 것인지 확인하고, 앱이 장치에 설치되어 있지 않으면 사용자에게 링크를 설치하도록 제안합니다. 정확하게 지원하기 위해 특별 링크 형식을 만들었습니다. 이 링크 형식은 장치가 앱을 사용하여 링크를 열고 있는지 확인하고, 앱이 장치에 설치되어 있지 않으면 사용자에게 앱을 받기 위해 스토어로 이동하도록 제안합니다.
 
-다음 링크를 시작할지  
+링크는 다음과 같이 시작되어야 합니다.  
 ```html
 https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 ```
@@ -38,15 +38,15 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 >
 
 
-합니다 **쿼리 매개 변수** 됩니다.
-* **작업** (필수) OpenApp = / OpenDashboard / OpenTile / OpenReport
-* **appId** = 보고서 또는 앱의 일부인 대시보드를 열려는 경우 
-* **groupObjectId** = 작업 영역 (내 작업 영역에 없습니다)의 일부인 대시보드 또는 보고서를 열려는 경우
-* **dashboardObjectId** 대시보드 개체 ID (작업이 OpenDashboard 또는 OpenTile) =
-* **reportObjectId** = 보고서 개체 ID (작업 OpenReport 경우)
-* **tileObjectId** = 타일 개체 ID (작업 OpenTile 경우)
-* **reportPage** = (동작은 OpenReport) 하는 경우 특정 보고서 섹션을 열려고 할 경우
-* **ctid** = 항목 조직 ID (B2B 시나리오에 대 한 관련이 있습니다. 이 경우 생략할 수 있습니다 사용자의 조직에 속하는 항목).
+**쿼리 매개 변수**는 다음과 같습니다.
+* **action**(필수) = OpenApp / OpenDashboard / OpenTile / OpenReport
+* **appId** = 앱의 일부인 보고서 또는 대시보드를 열려는 경우 
+* **groupObjectId** = 작업 영역(내 작업 영역은 아님)의 일부인 대시보드 또는 보고서를 열려는 경우
+* **dashboardObjectId** = 대시보드 개체 ID (작업이 OpenDashboard 또는 OpenTile인 경우)
+* **reportObjectId** = 보고서 개체 ID (작업이 OpenReport인 경우)
+* **tileObjectId** = 타일 개체 ID (작업이 OpenTile인 경우)
+* **reportPage** = 특정 보고서 섹션을 열려고 할 경우 (작업이 OpenReport인 경우)
+* **ctid** = 항목 조직 ID (B2B 시나리오와 관련됩니다. 사용자의 조직에 속하는 항목인 경우 생략할 수 있습니다).
 
 **예제:**
 
@@ -60,7 +60,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
   https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
   ```
 
-* 작업 영역에 포함 된 보고서 열기
+* 작업 영역에 포함된 보고서 열기
   ```html
   https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
   ```
@@ -75,9 +75,9 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 #### <a name="links-of-items-not-in-app"></a>앱에 없는 항목의 링크 
 
-보고서 및 대시보드를 앱의 일부분이 아닌 항목 URL에서 Id를 추출 해야 합니다.
+앱의 일부분이 아닌 보고서 및 대시보드에 대해서는 항목 URL에서 ID를 추출해야 합니다.
 
-예를 들어, 36 자의 찾으려는 **대시보드** 개체 ID, Power BI 서비스의 특정 대시보드로 이동 
+예를 들어, 36자의 **대시보드** 개체 ID를 찾으려면, Power BI 서비스의 특정 대시보드로 이동합니다. 
 
 ```html
 https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
@@ -91,26 +91,26 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 ```
 위의 URL도 포함 됩니다. 특정 보고서 페이지 **"ReportSection3"** 합니다.
 
-이것이 (없습니다: 내 작업 영역) 작업 영역에서 보고서의 예
+다음은 작업 영역(내 작업 영역 아님)의 보고서 예제입니다.
 
 ```html
 https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
 ```
 
-## <a name="use-links-inside-power-bi"></a>Power BI 내에서 링크를 사용 합니다.
+## <a name="use-links-inside-power-bi"></a>Power BI 내부에서 링크 사용
 
-Power BI 서비스에서와 똑같이 모바일 앱에서 Power BI 내에서 링크가 작동 합니다.
+Power BI 내부의 링크는 Power BI 서비스에서와 똑같이 모바일 앱에서 작동합니다.
 
-다른 Power BI 항목을 가리키는 보고서에 링크를 추가 하려는 경우 브라우저 주소 표시줄에서 해당 항목 URL만 복사할 수 있습니다. 에 대해 자세히 알아보세요 [보고서에서 텍스트 상자에 하이퍼링크를 추가 하는 방법을](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)합니다.
+다른 Power BI 항목을 가리키는 보고서에 링크를 추가하려는 경우, 브라우저 주소 표시줄에서 해당 항목 URL만 복사할 수 있습니다. [보고서에서 텍스트 상자에 하이퍼링크를 추가하는 방법](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)에 대해 자세히 알아보세요.
 
-## <a name="use-report-url-with-filter"></a>필터로 사용 하 여 보고서 URL
-Power BI 서비스와 동일 하지만, Power BI 모바일 앱도 지원 필터 쿼리 매개 변수를 포함 하는 보고서 URL입니다. Power BI 모바일 앱에서 보고서를 열 수 있으며 특정 상태로 필터링 수 있습니다. 예를 들어이 URL이 판매 보고서 열리고 지역별 필터링
+## <a name="use-report-url-with-filter"></a>필터와 함께 보고서 URL 사용
+Power BI 서비스와 동일하게, Power BI 모바일 앱도 필터 쿼리 매개 변수를 포함하는 보고서 URL을 지원합니다. Power BI 모바일 앱에서 보고서를 열 수 있으며 특정 상태로 필터링할 수 있습니다. 예를 들어, 이 URL은 판매 보고서를 열고 지역별로 필터링합니다.
 
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
 ```
 
-자세한 내용은 [쿼리 매개 변수 필터를 작성 하는 방법을 보고](https://docs.microsoft.com/power-bi/service-url-filters)합니다.
+[보고서를 필터링하기 위해 쿼리 매개 변수 필터를 작성하는 방법](https://docs.microsoft.com/power-bi/service-url-filters)에 대해 자세히 알아보세요.
 
 ## <a name="next-steps"></a>다음 단계
 사용자 의견은 나중에 구현할 사항을 결정하는 데 도움이 됩니다. 따라서 Power BI 모바일 앱에서 참조하고자 하는 다른 기능에 대해 꼭 투표해주세요. 
