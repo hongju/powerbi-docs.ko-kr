@@ -44,7 +44,7 @@ ms.locfileid: "67299138"
 
     ![단일 열이 포함된 열 차트의 스크린샷](media/power-bi-report-add-visualizations-i/pbi_onecolchart.png)
 
-    또는 **Name** 또는 **Product**와 같은 범주 필드부터 시작합니다. Power BI에서 테이블이 생성되고 이 필드가 **Values** 웰에 추가됩니다.
+    또는 **Name** 또는 **Product**와 같은 범주 필드부터 시작합니다. Power BI에서 테이블이 생성되고 이 필드가 **값** 섹션에 추가됩니다.
 
     ![Product, 범주를 차례로 선택하여 표를 만드는 사람의 GIF](media/power-bi-report-add-visualizations-i/pbi_agif_createchart3.gif)
 
@@ -52,11 +52,11 @@ ms.locfileid: "67299138"
 
     ![지도 시각화의 스크린샷](media/power-bi-report-add-visualizations-i/power-bi-map.png)
 
-1. 시각화를 만든 다음 해당 형식을 변경합니다. **Product** > **Category**를 선택한 후 **Product** > **Count of Product**를 선택하여 둘 다 **Values** 웰에 추가합니다.
+1. 시각화를 만든 다음 해당 형식을 변경합니다. **Product** > **Category**를 선택한 후 **Product** > **Count of Product**를 선택하여 둘 다 **값** 섹선에 추가합니다.
 
    ![Values 웰이 호출되는 필드 창의 스크린샷](media/power-bi-report-add-visualizations-i/part1table1.png)
 
-1. **누적 세로 막대형 차트** 아이콘을 선택하여 세로 막대형 차트에 대한 시각화를 변경합니다.
+1. **누적 세로 막대형 차트** 아이콘을 선택하여 세로 막대형 차트로 시각화를 변경합니다.
 
    ![누적 세로 막대형 차트 아이콘이 호출된 시각화 창의 스크린샷](media/power-bi-report-add-visualizations-i/part1converttocolumn.png)
 
@@ -70,7 +70,7 @@ ms.locfileid: "67299138"
 
 * [2부: Power BI 보고서에 시각화 추가](power-bi-report-add-visualizations-ii.md)로 계속 진행합니다.
 
-* 보고서에서 [시각화로 조작](../consumer/end-user-reading-view.md)합니다.
+* 보고서에서 [시각화와 상호 작용](../consumer/end-user-reading-view.md)합니다.
 
 * [시각화로 더 많은 작업을 할 수 있습니다](power-bi-report-visualizations.md).
 
