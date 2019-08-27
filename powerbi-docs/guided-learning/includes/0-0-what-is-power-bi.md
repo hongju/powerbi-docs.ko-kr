@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 30cd80cbeafe2da4468a0049bfa0c34715bce0d3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66051088"
@@ -22,7 +22,7 @@ Power BI의 **초보자**인 경우 이 과정을 통해 지식을 계속 쌓을
 **Power BI**는 단순하고 빠르기 때문에 Excel 스프레드시트 또는 로컬 데이터베이스에서 빠른 정보를 생성할 수 있습니다. 하지만 **Power BI**는 강력하면서도 엔터프라이즈급이기 때문에 광범위한 모델링 및 실시간 분석뿐 아니라 사용자 지정 개발에 즉시 사용할 수 있습니다. 따라서 Power BI는 개인 보고서 및 시각화 도구일 수 있으며, 그룹 프로젝트, 사업부 또는 회사 전체의 분석 및 의사 결정 엔진으로 역할도 할 수 있습니다.
 
 ## <a name="the-parts-of-power-bi"></a>Power BI의 요소
-Power BI는 **Power BI Desktop**이라는 Windows 데스크톱 애플리케이션, **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*), Windows Phone 및 태블릿뿐 아니라 iOS 및 Android 장치에서 사용할 수 있는 모바일 Power BI **앱**으로 구성됩니다.
+Power BI는 **Power BI Desktop**이라는 Windows 데스크톱 애플리케이션, **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*), Windows Phone 및 태블릿뿐 아니라 iOS 및 Android 디바이스에서 사용할 수 있는 모바일 Power BI **앱**으로 구성됩니다.
 
 ![](media/0-0-what-is-power-bi/c0a0_2.png)
 

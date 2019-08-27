@@ -12,7 +12,7 @@ ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 81498dff9c70deaf8135faf244db96509b1cf18d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61163974"
@@ -51,7 +51,7 @@ Power BI용 [Windows 개발자 센터 콘텐츠 팩](https://app.powerbi.com/get
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용
 개발자 센터 Power BI 콘텐츠 팩에는 앱 및 IAP 합병, 등급, 검토 및 앱 상태에 대한 분석 데이터가 포함됩니다. 데이터는 최근 3개월로 제한되고 변동되는 기간이므로 포함되는 날짜는 데이터 세트를 새로 고치면 업데이트됩니다.

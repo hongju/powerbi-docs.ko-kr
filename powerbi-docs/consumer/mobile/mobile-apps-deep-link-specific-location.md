@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
 description: Power BI 모바일 앱에서 URI(Uniform Resource Identifier)를 사용하여 특정 대시보드, 타일 또는 보고서에 대한 딥 링크를 만드는 방법에 대해 알아봅니다.
 author: mshenhav
@@ -11,7 +11,7 @@ ms.date: 04/24/2019
 ms.author: mshenhav
 ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64906520"
@@ -22,7 +22,7 @@ ms.locfileid: "64906520"
 Power BI 모바일에서 링크를 사용하는 방법에는 주로 두 개의 시나리오가 있습니다. 
 
 * **앱 외부에서** Power BI를 열고 특정 콘텐츠(앱/보고서/대시보드)를 방문합니다. 이것은 일반적으로 다른 앱에서 Power BI Mobile을 열려고 할 때의 통합 시나리오입니다. 
-* Power BI 내부에서 **탐색**합니다. 이것은 일반적으로 Power BI에서 사용자 지정 탐색을 만들려는 경우입니다. 
+* Power BI 내부에서 **탐색**합니다. 이것은 일반적으로 Power BI에서 사용자 지정 탐색을 만들려는 경우입니다.
 * Power BI 내부에서 **탐색**합니다. 이것은 일반적으로 Power BI에서 사용자 지정 탐색을 만들려는 경우입니다.
 
 
@@ -42,7 +42,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 * **action**(필수) = OpenApp / OpenDashboard / OpenTile / OpenReport
 * **appId** = 앱의 일부인 보고서 또는 대시보드를 열려는 경우 
 * **groupObjectId** = 작업 영역(내 작업 영역은 아님)의 일부인 대시보드 또는 보고서를 열려는 경우
-* **dashboardObjectId** = 대시보드 개체 ID (작업이 OpenDashboard 또는 OpenTile인 경우) 
+* **dashboardObjectId** = 대시보드 개체 ID (작업이 OpenDashboard 또는 OpenTile인 경우)
 * **reportObjectId** = 보고서 개체 ID (작업이 OpenReport인 경우)
 * **tileObjectId** = 타일 개체 ID (작업이 OpenTile인 경우)
 * **reportPage** = 특정 보고서 섹션을 열려고 할 경우 (작업이 OpenReport인 경우)
@@ -77,7 +77,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 앱의 일부분이 아닌 보고서 및 대시보드에 대해서는 항목 URL에서 ID를 추출해야 합니다.
 
-예를 들어, 36자의 **대시보드** 개체 ID를 찾으려면, Power BI 서비스의 특정 대시보드로 이동합니다.   
+예를 들어, 36자의 **대시보드** 개체 ID를 찾으려면, Power BI 서비스의 특정 대시보드로 이동합니다. 
 
 ```html
 https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
@@ -103,7 +103,7 @@ Power BI 내부의 링크는 Power BI 서비스에서와 똑같이 모바일 앱
 
 다른 Power BI 항목을 가리키는 보고서에 링크를 추가하려는 경우, 브라우저 주소 표시줄에서 해당 항목 URL만 복사할 수 있습니다. [보고서에서 텍스트 상자에 하이퍼링크를 추가하는 방법](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)에 대해 자세히 알아보세요.
 
-## <a name="use-report-url-with-filter"></a>필터와 함께 보고서 URL 사용 
+## <a name="use-report-url-with-filter"></a>필터와 함께 보고서 URL 사용
 Power BI 서비스와 동일하게, Power BI 모바일 앱도 필터 쿼리 매개 변수를 포함하는 보고서 URL을 지원합니다. Power BI 모바일 앱에서 보고서를 열 수 있으며 특정 상태로 필터링할 수 있습니다. 예를 들어, 이 URL은 판매 보고서를 열고 지역별로 필터링합니다.
 
 ## <a name="use-report-url-with-filter"></a>필터와 함께 보고서 URL 사용

@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2019
+ms.date: 08/15/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 30552ee407460856fd1548073f0b3046ab508115
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567461"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530533"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서의 사용 메트릭 모니터링
 
@@ -41,20 +41,7 @@ Power BI 서비스에서는 사용 메트릭 보고서를 실행할 수만 있�
 - 특정 대시보드 또는 보고서에 대한 사용 메트릭에 액세스하려면 해당 대시보드 또는 보고서에 대한 편집 권한이 있어야 합니다.
 - Power BI 관리자가 콘텐츠 작성자에 대해 사용 메트릭을 사용 설정해 두었어야 합니다. Power BI 관리자가 사용 메트릭에서 사용자별 데이터 수집을 사용 설정해 두었을 수도 있습니다. [관리 포털에서 이러한 옵션을 사용하도록 설정](service-admin-portal.md#control-usage-metrics)하는 방법을 알아보세요. 
 
-## <a name="about-the-usage-metrics-report"></a>사용 메트릭 보고서 정보
-
-**사용 메트릭** 또는 대시보드나 보고서 옆의 ![사용 메트릭 아이콘](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)을 선택하면 Power BI에서는 해당 콘텐츠에 대한 최근 90일 동안의 사용 메트릭을 사용하여 미리 작성된 보고서를 생성합니다.  이 보고서는 이미 익숙한 Power BI 보고서와 비슷합니다. 최종 사용자가 액세스를 부여받은 방법(웹 또는 모바일 앱 등을 통해 액세스했는지 여부)에 따라 조각화할 수 있습니다. 대시보드 및 보고서를 확대하면 사용 메트릭 보고서도 확대되며 매일 새 데이터로 업데이트됩니다.  
-
-사용 메트릭 보고서는 **최근**, **작업 영역**, **즐겨찾기** 또는 기타 콘텐츠 목록에 표시되지 않으며, 앱에 추가할 수 없습니다. 사용 메트릭 보고서에서 타일을 대시보드에 고정할 경우 해당 대시보드를 앱에 추가할 수 없습니다.
-
-보고서 데이터를 자세히 살펴보거나 기본 데이터 세트를 바탕으로 자체 보고서를 작성하려면 두 가지 옵션을 사용할 수 있습니다. 
-
-- Power BI 서비스에서 보고서의 복사본을 만듭니다. 자세한 내용은 이 문서의 [사용 메트릭 보고서의 복사본 저장](#save-a-copy-of-the-usage-metrics-report) 섹션을 참조하세요.
-- Power BI Desktop에서 데이터 세트에 연결합니다. 자세한 내용은 [Establish a connection to a published dataset](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset)(게시된 데이터 세트에 대해 연결 설정)를 참조하세요.
-
-    ![사용 보고서 데이터 세트에 연결](media/service-usage-metrics/power-bi-usage-dataset.png)
-
-## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>대시보드 또는 보고서에 대한 사용 메트릭 보고서 열기
+## <a name="view-a-usage-metrics-report"></a>사용 메트릭 보고서 보기
 
 1. 대시보드 또는 보고서를 포함하는 작업 영역에서 시작합니다.
 2. 작업 영역 콘텐츠 목록 또는 대시보드나 보고서 자체에서 **사용 메트릭** ![사용 메트릭 아이콘](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)에 대한 아이콘을 선택합니다.
@@ -82,6 +69,18 @@ Power BI 서비스에서는 사용 메트릭 보고서를 실행할 수만 있�
 
 ![보고서 사용 메트릭 보고서](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
+## <a name="about-the-usage-metrics-report"></a>사용 메트릭 보고서 정보
+
+**사용 메트릭** 또는 대시보드나 보고서 옆의 ![사용 메트릭 아이콘](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)을 선택하면 Power BI에서는 해당 콘텐츠에 대한 최근 90일 동안의 사용 메트릭을 사용하여 미리 작성된 보고서를 생성합니다.  이 보고서는 이미 익숙한 Power BI 보고서와 비슷합니다. 최종 사용자가 액세스를 부여받은 방법(웹 또는 모바일 앱 등을 통해 액세스했는지 여부)에 따라 조각화할 수 있습니다. 대시보드 및 보고서를 확대하면 사용 메트릭 보고서도 확대되며 매일 새 데이터로 업데이트됩니다.  
+
+사용 메트릭 보고서는 **최근**, **작업 영역**, **즐겨찾기** 또는 기타 콘텐츠 목록에 표시되지 않으며, 앱에 추가할 수 없습니다. 사용 메트릭 보고서에서 타일을 대시보드에 고정할 경우 해당 대시보드를 앱에 추가할 수 없습니다.
+
+보고서 데이터를 자세히 살펴보거나 기본 데이터 세트를 바탕으로 자체 보고서를 작성하려면 두 가지 옵션을 사용할 수 있습니다. 
+
+- Power BI 서비스에서 보고서의 복사본을 만듭니다. 자세한 내용은 이 문서의 [사용 메트릭 보고서의 복사본 저장](#save-a-copy-of-the-usage-metrics-report) 섹션을 참조하세요.
+- Power BI Desktop에서 데이터 세트에 연결합니다. 모든 작업 영역에서 데이터 세트의 이름은 “보고서 사용 메트릭 모델”입니다. 자세한 내용은 [Establish a connection to a published dataset](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset)(게시된 데이터 세트에 대해 연결 설정)를 참조하세요.
+
+    ![사용 보고서 데이터 세트에 연결](media/service-usage-metrics/power-bi-usage-dataset.png)
 
 ## <a name="which-metrics-are-reported"></a>보고되는 메트릭은 무엇인가요?
 
@@ -105,7 +104,7 @@ Power BI 서비스에서는 사용 메트릭 보고서를 실행할 수만 있�
 
 **다른 이름으로 저장**을 사용하여, 사용 메트릭 보고서를 필요에 따라 사용자 지정할 수 있는 일반 Power BI 보고서로 변환할 수 있습니다. Power BI Desktop을 사용하여 기본 데이터 세트를 바탕으로 사용자 지정 사용 메트릭 보고서를 작성할 수도 있습니다. 자세한 내용은 [Establish a connection to a published dataset](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset)(게시된 데이터 세트에 대해 연결 설정)를 참조하세요.
 
-기본 데이터 세트에 작업 영역의 모든 대시보드 또는 보고서에 대한 사용 정보가 포함되는 것이 가장 좋습니다. 그러면 더 많은 가능성이 지원됩니다. 예를 들어 사용에 따라 작업 영역에서 모든 대시보드를 비교하는 보고서를 만들 수 있습니다. 또는 해당 앱 내에 배포된 모든 콘텐츠의 사용량을 집계하여 Power BI 앱에 대한 사용 메트릭 대시보드를 만들 수도 있습니다.  이 문서의 [페이지 수준 필터 제거](#remove-the-filter-to-see-all-workspace-usage-metrics) 섹션을 참조하세요.
+기본 데이터 세트에 작업 영역의 모든 대시보드 또는 보고서에 대한 사용 정보가 포함되는 것이 가장 좋습니다. 그러면 더 많은 가능성이 지원됩니다. 예를 들어 사용에 따라 작업 영역에서 모든 대시보드를 비교하는 보고서를 만들 수 있습니다. 또는 해당 앱 내에 배포된 모든 콘텐츠의 사용량을 집계하여 Power BI 앱에 대한 사용 메트릭 대시보드를 만들 수도 있습니다.  이 문서의 뒷부분에서 필터를 제거하고 [작업 영역의 모든 사용 메트릭을 확인](#see-all-workspace-usage-metrics)하는 방법을 참조하세요.
 
 ### <a name="create-a-copy-of-the-usage-report"></a>사용 보고서의 복사본 만들기
 
@@ -121,7 +120,7 @@ Power BI 서비스에서는 사용 메트릭 보고서를 실행할 수만 있�
 
     ![보고서 탭](media/service-usage-metrics/power-bi-new-report.png)
 
-## <a name="remove-the-filter-to-see-all-workspace-usage-metrics"></a>필터를 제거하여 *모든* 작업 영역 사용 메트릭 보기
+## <a name="see-all-workspace-usage-metrics"></a>‘모든’ 작업 영역 사용 메트릭 보기
 
 작업 영역의 모든 대시보드 또는 모든 보고서에 대한 메트릭을 보려면 필터를 제거해야 합니다. 보고서는 기본적으로 해당 보고서를 만드는 데 사용한 대시보드 또는 보고서의 메트릭만 표시하도록 필터링되어 있습니다.
 
@@ -169,7 +168,7 @@ Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. �
 
 **Q:**    사용 메트릭은 포함된 대시보드 및 보고서에서 보기를 캡처하나요?
 
-**A:**    현재 사용 메트릭은 포함된 대시보드, 보고서 및 [웹에 게시](service-publish-to-web.md) 흐름에 대한 사용 캡처를 지원하지 않습니다.          이 경우 기존 웹 분석 플랫폼을 사용하여 호스팅 앱 또는 포털에 대한 사용량을 추적하는 것이 좋습니다.
+**A:**    현재 사용 메트릭은 포함된 대시보드, 보고서 및 [웹에 게시](service-publish-to-web.md) 흐름의 사용 캡처를 지원하지 않습니다. 이 경우 기존 웹 분석 플랫폼을 사용하여 호스팅 앱 또는 포털에 대한 사용량을 추적하는 것이 좋습니다.
 
 **Q:**    모든 콘텐츠에서 사용 메트릭을 전혀 실행할 수 없습니다.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 서비스에서 인쇄
 description: Power BI 서비스에서 대시보드, 타일 또는 보고서 페이지를 인쇄합니다.
 author: mihart
@@ -14,7 +14,7 @@ ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 02aed3d69ee5d6ce344138a57853bd0b2a06036b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65608553"

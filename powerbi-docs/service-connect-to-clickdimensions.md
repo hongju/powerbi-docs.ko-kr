@@ -12,7 +12,7 @@ ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: e7db66dfb79cd0348967369d92e7b13c698d8f71
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61180788"
@@ -47,7 +47,7 @@ Power BI용 [ClickDimensions 콘텐츠 팩](https://app.powerbi.com/getdata/serv
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 집합을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="system-requirements"></a>시스템 요구 사항
 Power BI 콘텐츠 팩에 연결하려면 사용자 계정에 해당하는 데이터 센터를 제공하고 ClickDimensions 계정으로 로그인해야 합니다. 제공되는 데이터 센터가 확실하지 않은 경우 관리자를 확인하세요.

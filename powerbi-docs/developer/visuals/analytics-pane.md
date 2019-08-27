@@ -65,7 +65,7 @@ API v2.5.0을 사용하는 사용자 지정 시각적 개체는 **분석 창**�
 
 다른 모든 속성도 서식 개체와 동일한 방식으로 정의할 수 있습니다. 개체 열거형은 **서식 창**과 정확히 동일하게 수행됩니다.
 
-‘알려진 제한 사항 및 문제’****
+***‘알려진 제한 사항 및 문제’***
 
   1. 다중 인스턴스는 아직 지원되지 않습니다. 개체에 static 이외의 [selector](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/#selector)(즉, “selector”: null)를 사용할 수 없으며, 사용자 지정 시각적 개체에 카드의 여러 사용자 정의 인스턴스를 사용할 수 없습니다.
   2. `integer` 형식의 속성이 올바르게 표시되지 않습니다. 해결 방법으로, `numeric` 형식을 대신 사용합니다.

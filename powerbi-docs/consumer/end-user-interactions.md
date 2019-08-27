@@ -1,4 +1,4 @@
----
+﻿---
 title: 보고서에서 시각적 개체가 조작되는 방식 이해
 description: 보고서 페이지에서 시각적 개체가 상호 작용하는 방법을 설명하는 Power BI 최종 사용자를 위한 설명서입니다.
 author: mihart
@@ -13,7 +13,7 @@ ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 7148a52d7c7475fbe685f83b1e1cc325521460db
 ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/30/2019
 ms.locfileid: "66413155"
@@ -31,10 +31,10 @@ Power BI의 뛰어난 기능 중 하나는 보고서 페이지의 모든 시각�
 
 [필터링 및 강조 표시 정보](../power-bi-reports-filters-and-highlighting.md)를 참조하세요. 
 
-페이지의 시각적 개체가 상호 작용하는 방법은 보고서 ‘디자이너’에 의해 설정됩니다.  디자이너는 시각적 개체 상호 작용을 설정하거나 끄고, 기본 교차 필터링, 크로스 강조 표시 및 드릴링 동작을 변경할 수 있는 옵션이 있습니다. 
+페이지의 시각적 개체가 상호 작용하는 방법은 보고서 ‘디자이너’에 의해 설정됩니다. 디자이너는 시각적 개체 상호 작용을 설정하거나 끄고, 기본 교차 필터링, 크로스 강조 표시 및 드릴링 동작을 변경할 수 있는 옵션이 있습니다. 
   
 > [!NOTE]
-> *교차 필터* 및 *교차 강조 표시* 용어는 **필터** 창에서 시각화를 필터링하고 강조 표시할 때 나타나는 동작과 여기서 설명하는 동작을 구분하는 데 사용됩니다.
+> *교차 필터* 및 *교차 강조 표시* 용어는 **필터** 창에서 시각화를 필터링하고 강조 표시할 때 나타나는 동작과 여기서 설명하는 동작을 구분하는 데 사용됩니다.  
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 - 보고서에 [드릴링](../power-bi-visualization-drill-down.md)을 지원하는 시각화가 있을 경우, 기본적으로 하나의 시각화의 드릴링은 보고서 페이지의 다른 시각화 요소에 영향을 주지 않습니다.     

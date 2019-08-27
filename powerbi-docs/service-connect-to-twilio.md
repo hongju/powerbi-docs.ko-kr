@@ -12,7 +12,7 @@ ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 4537f2845d89361cf06bc93a6a9c435275d9464d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61171482"
@@ -44,7 +44,7 @@ Power BI용 [Twilio 콘텐츠 팩](https://app.powerbi.com/getdata/services/twil
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용
 지난 30일간의 모든 통화 및 메시지 트랜잭션에 대한 세부 정보. 이 데이터에 대해 모든 종류의 분석 및 집계를 수행할 수 있습니다.

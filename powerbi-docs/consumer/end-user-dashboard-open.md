@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 대시보드 보기
 description: 대시보드는 Power BI 서비스의 핵심 기능입니다. 대시보드를 열고 보는 방법을 알아보세요.
 author: mihart
@@ -13,7 +13,7 @@ ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: cd0b680265d526ecf7adbf4db8c54b77535eadf8
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65608447"

@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 00ff6a901ef4056e15ccc0087f0783826b1a64b2
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61309007"
@@ -20,7 +20,7 @@ ms.locfileid: "61309007"
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop의 데이터 형식
 이 문서에서는 Power BI Desktop 및 DAX(Data Analysis Expressions)에서 지원하는 데이터 형식을 설명합니다. 
 
-데이터를 로드할 때 Power BI Desktop은 원본 열의 데이터 형식을 더 효율적인 저장, 계산 및 데이터 시각화를 지원할 수 있는 데이터 형식으로 변환하려 합니다. 예를 들어 Excel에서 가져오는 값 열에 소수 자릿수 값이 없는 경우, Power BI Desktop은 데이터의 전체 열을 정수 저장에 더 적합한 한정수 데이터 형식으로 변환합니다.
+데이터를 로드할 때 Power BI Desktop은 원본 열의 데이터 형식을 더 효율적인 스토리지, 계산 및 데이터 시각화를 지원할 수 있는 데이터 형식으로 변환하려 합니다. 예를 들어 Excel에서 가져오는 값 열에 소수 자릿수 값이 없는 경우, Power BI Desktop은 데이터의 전체 열을 정수 저장에 더 적합한 한정수 데이터 형식으로 변환합니다.
 
 일부 DAX 함수에는 특정 데이터 형식 요구 사항이 있기 때문에 이 개념은 중요합니다. 많은 경우 DAX는 암시적으로 데이터 형식을 변환하나 그렇지 않은 경우도 일부 존재합니다.  예를 들어, DAX 함수에서 날짜 데이터 형식이 필요한데 열의 데이터 형식은 텍스트인 경우 DAX 함수가 제대로 작동하지 않습니다.  따라서 열에 정확한 데이터 형식을 확보하는 것이 중요하면서 유용합니다. 암시적 변환은 이 문서의 뒷부분에서 설명합니다.
 

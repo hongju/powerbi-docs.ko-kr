@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 253ecbad775a2f4aa7dd1974c534fdcaa222676c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514445"
@@ -51,7 +51,7 @@ ms.locfileid: "65514445"
 
 이 파일은 Excel 파일이므로 **데이터 가져오기** 창에서 **Excel**을 선택한 다음, **연결** 단추를 선택합니다.
 
-연결할 Excel 파일의 위치를 제공하라는 메시지가 표시됩니다. 다운로드한 파일을 ‘재무 샘플’이라고 하므로 해당 파일을 선택한 다음, **열기**를 선택합니다. 
+연결할 Excel 파일의 위치를 제공하라는 메시지가 표시됩니다. 다운로드한 파일을 ‘재무 샘플’이라고 하므로 해당 파일을 선택한 다음, **열기**를 선택합니다.
 
 ![데이터 가져오기](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
 

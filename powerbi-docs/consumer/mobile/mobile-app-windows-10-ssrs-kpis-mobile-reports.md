@@ -11,7 +11,7 @@ ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: 98c76fd5903a44c8cc1ef5b175f235f1ec4382e9
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61340844"
@@ -27,7 +27,7 @@ SQL Server 2016 Enterprise Edition 모바일 보고서 게시자를 사용하여
 그런 다음 Windows 10용 Power BI 모바일 앱에서, 폴더에 정리되어 있거나 즐겨찾기에 모아놓은 모바일 보고서와 KPI를 봅니다. 
 
 > [!NOTE]
-> 디바이스에서 Windows 10이 실행되고 있어야 합니다. RAM 1GB, 내부 스토리지 8GB 이상인 장치에서 앱이 최적으로 작동합니다.
+> 디바이스에서 Windows 10이 실행되고 있어야 합니다. RAM 1GB, 내부 스토리지 8GB 이상인 디바이스에서 앱이 최적으로 작동합니다.
 > 
 > 
 

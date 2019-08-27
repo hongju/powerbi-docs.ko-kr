@@ -13,7 +13,7 @@ ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 2f8c2468b56db190f9e794ed2d81ce86449a970d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61048249"
@@ -23,7 +23,7 @@ Power BI 서비스에서 콘텐츠를 탐색하는 방법은 여러 가지가 �
 
 ## <a name="navigation-within-workspaces"></a>작업 영역 내에서 탐색
 
-일반적으로 Power BI 소비자는 작업 영역이  한 개(**내 작업 영역**)만 있습니다. Microsoft 샘플을 다운로드하거나 고유한 콘텐츠를 생성하거나 다운로드한 경우에만 **내 작업 영역**에 콘텐츠가 포함됩니다.  
+일반적으로 Power BI 소비자는 작업 영역이 한 개(**내 작업 영역**)만 있습니다. Microsoft 샘플을 다운로드하거나 고유한 콘텐츠를 생성하거나 다운로드한 경우에만 **내 작업 영역**에 콘텐츠가 포함됩니다.  
 
 **내 작업 영역** 내에서 Power BI 서비스는 대시보드, 보고서, 통합 문서 및 데이터 세트와 같은 유형별로 콘텐츠를 구분합니다. 작업 영역을 선택하면 이 조직이 표시됩니다. 이 예제에서 **내 작업 영역**에는 대시보드 한 개, 보고서 두 개, 데이터 세트 두 개가 포함되어 있고, 통합 문서는 포함되어 있지 않습니다.
 

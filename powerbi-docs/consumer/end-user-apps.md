@@ -13,7 +13,7 @@ ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1b5891ce24c43b0a7416cd82cec3e9a10c1989bf
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65608352"

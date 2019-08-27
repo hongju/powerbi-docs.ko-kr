@@ -1,4 +1,4 @@
----
+﻿---
 title: 대시보드는 무엇이고, 여는 방법은 무엇인가요?
 description: 대시보드는 Power BI 서비스의 핵심 기능입니다.
 author: mihart
@@ -13,7 +13,7 @@ ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65608344"
@@ -42,7 +42,7 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 대시보드는 단순히 예쁜 그림이 아닙니다. 대화형이며 기본 데이터가 변경되면 타일이 업데이트됩니다.
 
 ## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Power BI ***소비자***를 위한 대시보드와 보고서 비교
-대개 보고서는 시각화로 채워진 캔버스이므로 대시보드와 혼동됩니다. 하지만 Power BI 소비자 관점과의 몇 가지 주요한 차이점이 있습니다. 
+대개 보고서는 시각화로 채워진 캔버스이므로 대시보드와 혼동됩니다. 하지만 Power BI 소비자 관점과의 몇 가지 주요한 차이점이 있습니다.
 
 | **기능** | **대시보드** | **보고서** |
 | --- | --- | --- |
@@ -55,7 +55,7 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 
 
 ## <a name="dashboard-creators-and-dashboard-consumers"></a>대시보드 작성자 및 대시보드 소비자
-Power BI ***소비자***는 작성자의 대시보드를 받습니다.  이 항목에서 계속 대시보드에 대해 알아봅니다.
+Power BI ***소비자***는 작성자의 대시보드를 받습니다. 이 항목에서 계속 대시보드에 대해 알아봅니다.
 
 * [대시보드 보기](end-user-dashboard-open.md)
 * [대시보드 타일](end-user-tiles.md)과 선택할 경우 어떻게 되는지 알아보세요.
