@@ -1426,3 +1426,5 @@
       href: guidance/star-schema.md
     - name: 데이터 모델 크기 줄이기
       href: guidance/import-modeling-data-reduction.md
+    - name: 나누기 함수 및 나누기 연산자(/)
+      href: guidance/dax-divide-function-operator.md

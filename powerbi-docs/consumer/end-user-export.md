@@ -74,7 +74,7 @@ ms.locfileid: "61063848"
     ![](media/end-user-export/power-bi-export-edge.png)
 
 
-7. Excel에서 파일을 엽니다. 대시보드에서 동일한 시각적 개체에서 내보낸 데이터를 내보낸 데이터의 양을 비교 합니다. 이 내보내기에 다른 점은 **기본 데이터**입니다. 
+7. Excel에서 파일을 엽니다. 대시보드에서 동일한 시각적 개체에서 내보낸 데이터와 내보낸 데이터의 양을 비교합니다. 이 내보내기에서 다른 점은 **기본 데이터**가 포함되어 있다는 것입니다. 
 
     ![](media/end-user-export/power-bi-underlying.png)
 
