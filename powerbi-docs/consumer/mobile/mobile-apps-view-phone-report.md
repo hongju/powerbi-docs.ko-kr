@@ -11,7 +11,7 @@ ms.date: 04/22/2019
 ms.author: mshenhav
 ms.openlocfilehash: 79ca47f83bb39ab9d6df141b5a26dcb54e00c72c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65100961"
@@ -34,13 +34,13 @@ ms.locfileid: "65100961"
 
 Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고서에서 여전히 작동합니다. 다음의 경우 무엇을 할 수 있는지에 관해 자세히 알아봅니다.
 
-* [Iphone의 보고서](mobile-reports-in-the-mobile-apps.md). 
+* [Iphone 상의 보고서](mobile-reports-in-the-mobile-apps.md). 
 * [안드로이드 휴대폰 상의 보고서](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="filter-the-report-page-on-a-phone"></a>휴대폰에서 보고서 페이지 필터링
 휴대폰에 최적화된 보고서에 정의된 필터가 있는 경우 휴대폰에서 보고서를 볼 때 해당 필터를 사용할 수 있습니다. 웹의 보고서에서 필터링되는 값으로 필터링된 보고서가 휴대폰에서 열립니다. 페이지에 활성 필터가 있다는 메시지가 표시됩니다. 휴대폰에서 필터를 변경할 수 있습니다.
 
-1. 페이지의 아래에서 필터 아이콘 ![휴대폰 필터 아이콘](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png)을 탭합니다. 
+1. 페이지의 아래에서 필터 아이콘 ![휴대폰 필터 아이콘](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) 을 탭합니다. 
 2. 기본 또는 고급 필터링을 사용하여 원하는 결과를 확인합니다.
    
     ![휴대폰 BI 휴대폰 보고서 고급 필터](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
@@ -81,8 +81,8 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 
 드릴 다운의 몇 가지 종류가 있습니다.
 
-### <a name="drill-down-on-a-value"></a>값에서 드릴 다운
-1. 시각적 개체에서 데이터 요소를 길게 탭(탭하고 누르기) 합니다.
+### <a name="drill-down-on-a-value"></a>값에 대해 드릴 다운
+1. 시각적 개체에서 데이터 요소를 길게 탭합니다(탭하고 누르기).
 2. 도구 설명이 나타나고, 계층 구조가 정의된 경우 도구 설명의 바닥글은 드릴 다운 및 드릴 업 화살표를 표시합니다.
 3. 드릴 다운에 대한 아래쪽 화살표를 탭합니다.
 
@@ -96,7 +96,7 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
     ![포커스 모드로 확장](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     이 예제에서 막대는 시/도 값을 보여줍니다.
-2. 왼쪽 아래에서 탐색 아이콘 ![탐색 아이콘](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png)을 탭합니다.
+2. 왼쪽 아래에서 탐색 아이콘 ![탐색 아이콘](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) 을 탭합니다.
    
     ![탐색 모드](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-mode.png)
 3. **다음 수준 표시** 또는 **다음 수준으로 확장**을 누릅니다.
@@ -115,15 +115,15 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 
 ## <a name="drill-through-from-a-value"></a>값에서 드릴스루
 드릴 스루는 다른 보고서 페이지를 사용하여 보고서 페이지에서 값을 연결합니다. 데이터 요소에서 다른 보고서 페이지로 드릴 스루하는 경우, 데이터 요소 값은 드릴 스루된 페이지를 필터링하기 위해 사용되거나 선택된 데이터의 컨텍스트에 있을 것입니다.
-보고서 작성자는 보고서를 만들 때 [드릴스루를 정의](https://docs.microsoft.com/power-bi/desktop-drillthrough)할 수 있습니다.
+보고서 작성자는 보고서를 만들 때 [드릴 스루를 정의](https://docs.microsoft.com/power-bi/desktop-drillthrough)할 수 있습니다.
 
-1. 시각적 개체에서 데이터 요소를 길게 탭(탭하고 누르기) 합니다.
-2. 도구 설명이 나타나고 드릴스루가 정의된 경우, 도구 설명의 바닥글은 드릴스루 화살표를 표시합니다.
-3. 드릴스루에 대한 화살표를 탭 합니다.
+1. 시각적 개체에서 데이터 요소를 길게 탭합니다(탭하고 누르기).
+2. 도구 설명이 나타나고, 드릴 스루가 정의된 경우 도구 설명의 바닥글은 드릴 스루 화살표를 표시합니다.
+3. 드릴 스루에 대한 화살표를 탭합니다.
 
     ![드릴스루를 탭 합니다.](././media/mobile-apps-view-phone-report/report-drill-through1.png)
 
-4. 드릴스루할 보고서 페이지를 선택합니다.
+4. 드릴 스루할 보고서 페이지를 선택합니다.
 
     ![보고서 페이지를 선택 합니다.](././media/mobile-apps-view-phone-report/report-drill-through2.png)
 
