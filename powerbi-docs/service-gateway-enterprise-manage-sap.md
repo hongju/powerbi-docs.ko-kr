@@ -1,4 +1,4 @@
----
+﻿---
 title: 데이터 원본 관리 - SAP HANA
 description: 해당 게이트웨이에 속한 온-프레미스 데이터 게이트웨이 및 데이터 원본을 관리하는 방법입니다. 이 문서는 SAP HANA 관련이 있습니다.
 author: mgblythe

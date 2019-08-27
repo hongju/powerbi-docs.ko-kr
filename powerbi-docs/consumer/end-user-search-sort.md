@@ -44,7 +44,7 @@ ________________________________________
 
 또한 콘텐츠에 [즐겨 찾기](end-user-favorite.md) 및 [주요](end-user-featured.md) 태그를 지정할 수 있습니다. 자주 볼 것으로 예상하는 하나의 대시보드를 선택하고 이를 *주요* 대시보드로 설정합니다. Power BI 서비스를 열 때마다 주요 대시보드가 먼저 표시됩니다. 자주 방문하는 여러 대시보드 및 앱이 있나요? 이들을 즐겨찾기로 설정하면 왼쪽 탐색 표시줄에서 항상 사용할 수 있습니다.
 
-![즐겨찾기 플라이아웃](./media/end-user-search-sort/power-bi-favorite-flyout.png)을 선택합니다.
+![즐겨찾기 플라이아웃](./media/end-user-search-sort/power-bi-favorite-flyout.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결

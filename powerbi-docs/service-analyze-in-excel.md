@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI용 Excel에서 분석
 description: Excel에서 Power BI 데이터 세트를 분석하는 방법 알아보기
 author: davidiseminger

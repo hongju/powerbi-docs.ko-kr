@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 대시보드 보기
 description: 대시보드는 Power BI 서비스의 핵심 기능입니다. 대시보드를 열고 보는 방법을 알아보세요.
 author: mihart
@@ -24,7 +24,7 @@ Power BI *소비자*는 대시보드를 보는 데 많은 시간을 할애합니
 ![대시보드](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
 
-The amount of information in both translations are about the same; however, given the context, suggested translation is more appropriate.
+대시보드를 공유하고 공유한 대시보드를 보기 위해서는 Power BI Pro가 필요합니다.
 
 ## <a name="open-a-dashboard"></a>대시보드 열기
 
@@ -32,7 +32,7 @@ The amount of information in both translations are about the same; however, give
 
 |              |         |
 |------------|--------------------------------|
-|![대시보드 아이콘](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Power BI 서비스의 여러 위치에서 대시보드를 열 수 있습니다. <br> 이 대시보드 아이콘을 찾아보세요. 대시보드를 식별하면 <br>쉽게 열수 있고, 선택하기만 하면 대시보드가 채워집니다. <br>Power BI 캔버스입니다. |
+|![대시보드 아이콘](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Power BI 서비스의 여러 위치에서 대시보드를 열 수 있습니다. <br> 이 대시보드 아이콘을 찾아보세요. 대시보드를 식별하면 <br>쉽게 열 수 있으며, 대시보드를 선택하면 Power BI 캔버스에 대시보드가 채워집니다. |
 |                    |          |
 
 

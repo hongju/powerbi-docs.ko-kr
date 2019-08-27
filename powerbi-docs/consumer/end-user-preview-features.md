@@ -1,4 +1,4 @@
----
+﻿---
 title: 미리 보기 기능용 옵트인
 description: 미리 보기에 있는 Power BI 기능을 설정/해제하는 방법
 author: mihart

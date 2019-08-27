@@ -1,4 +1,4 @@
----
+﻿---
 title: 대시보드는 무엇이고, 여는 방법은 무엇인가요?
 description: 대시보드는 Power BI 서비스의 핵심 기능입니다.
 author: mihart

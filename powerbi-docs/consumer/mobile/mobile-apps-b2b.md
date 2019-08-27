@@ -1,4 +1,4 @@
----
+﻿---
 title: 외부 게스트 사용자로 Power BI 콘텐츠 보기(Azure AD B2B)
 description: Power BI Mobile 앱을 사용하여 외부 조직에서 자신과 공유된 콘텐츠를 볼 수 있습니다.
 author: mshenhav

@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI에서 Machine Learning 자동화(미리 보기)
 description: Power BI에서 자동화된 Machine Learning(AutoML)을 사용하는 방법 알아보기
 author: davidiseminger

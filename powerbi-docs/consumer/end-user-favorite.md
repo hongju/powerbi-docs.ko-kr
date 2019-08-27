@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 서비스의 즐겨찾기(대시보드, 보고서, 앱)
 description: Power BI 서비스에서 대시보드, 보고서, 앱을 즐겨찾기에 추가하는 방법에 대한 설명서
 author: mihart
@@ -20,23 +20,23 @@ ms.lasthandoff: 05/29/2019
 ms.locfileid: "66374986"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Power BI 서비스의 즐겨 찾는 대시보드, 보고서 및 앱
-하는 경우 콘텐츠를 *즐겨 찾는*에서 신속 하 게 액세스할 수 합니다 **즐겨찾기** 콘텐츠 목록에서 **Power BI 홈**  >   **즐겨찾기 frequents 및**합니다.  즐겨찾기는 일반적으로 가장 많이 방문 하 고 노란색 별표를 사용 하 여 식별 됩니다.
+콘텐츠를 *즐겨찾기*로 만드는 경우, **즐겨찾기** 콘텐츠 목록과 **Power BI 홈** > **즐겨찾기 + 자주 사용하는 항목**에서 신속하게 액세스할 수 있습니다. 즐겨찾기는 일반적으로 가장 많이 방문한 콘텐츠로서 노란색 별표를 사용하여 식별됩니다.
 
    ![즐겨찾기 아이콘으로 바뀝니다](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![즐겨찾기 아이콘으로 바뀝니다](./media/end-user-favorite/power-bi-home.png)
 
-단일 대시보드를 선택할 수도 있습니다는 [대시보드를 추천](end-user-featured.md) Power BI 서비스에서.
+Power BI 서비스에서 [주요 대시보드](end-user-featured.md)로 단일 대시보드를 선택할 수도 있습니다.
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>대시보드 또는 보고서를 *즐겨찾기*로 추가
 
-1. 자주 사용하는 대시보드 또는 보고서를 엽니다. 공유한 콘텐츠도 *즐겨찾기*가 될 수 있습니다.
+1. 자주 사용하는 대시보드 또는 보고서를 엽니다. 공유받은 콘텐츠도 *즐겨찾기*가 될 수 있습니다.
 
-2. Power BI 서비스의 위쪽 리본에서 선택 **즐겨 찾는** 나 별 ![별 모양 아이콘](./media/end-user-favorite/power-bi-favorite-icon.png) 아이콘입니다.
+2. Power BI 서비스의 위쪽 리본에서 **즐겨찾기**나 별 ![별 모양 아이콘](./media/end-user-favorite/power-bi-favorite-icon.png) 아이콘을 선택합니다.
    
    ![즐겨찾기 아이콘으로 바뀝니다](./media/end-user-favorite/powerbi-dashboard-favorite.png)
    
-   또한 자주 사용 하면 대시보드 또는 보고서를 어디에서 나 공유한 홈, 최근 항목, 앱, 공유 등 별 모양 아이콘을 표시 합니다. 
+   또한 홈, 최근 항목, 앱, 공유 등 별 모양 아이콘이 보이는 곳 어디에서나 대시보드 또는 보고서를 즐겨찾기 할 수 있습니다. 
    
    ![노란색 별이 포함된 대시보드 탭](./media/end-user-favorite/power-bi-recent.png)
 

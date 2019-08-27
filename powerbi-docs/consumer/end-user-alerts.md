@@ -89,10 +89,10 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 ### <a name="from-the-tile-itself"></a>타일 자체에서
 1. 타일에 대한 경고를 변경하거나 제거하려면, 종 모양 아이콘 ![경고 아이콘](media/end-user-alerts/power-bi-bell-icon.png)을 선택하여 **경고 관리** 창을 다시 엽니다. 해당 타일에 설정해 놓은 모든 경고가 표시됩니다.
    
-    ![경고 관리 창](media/end-user-alerts/powerbi-see-alerts.png)을 선택합니다.
+    ![경고 관리 창](media/end-user-alerts/powerbi-see-alerts.png)
 2. 경고를 수정하려면, 경고 이름 왼쪽에 있는 화살표를 선택합니다.
    
-    ![경고 이름 옆에 있는 화살표](media/end-user-alerts/powerbi-see-alerts-arrow.png)을 선택합니다.
+    ![경고 이름 옆에 있는 화살표](media/end-user-alerts/powerbi-see-alerts-arrow.png)
 3. 경고를 삭제하려면, 경고 이름 오른쪽에 있는 쓰레기통을 선택합니다.
    
       ![선택된 휴지통 아이콘](media/end-user-alerts/powerbi-see-alerts-delete.png)
@@ -100,7 +100,7 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 ### <a name="from-the-power-bi-settings-menu"></a>Power BI 설정 메뉴에서
 1. Power BI 메뉴 모음에서 기어 아이콘을 선택합니다.
    
-    ![기어 아이콘](media/end-user-alerts/powerbi-gear-icon.png)을 선택합니다.
+    ![기어 아이콘](media/end-user-alerts/powerbi-gear-icon.png)
 2. **설정**에서 **경고**를 선택합니다.
    
     ![설정 창의 경고 탭](media/end-user-alerts/powerbi-alert-settings.png)
