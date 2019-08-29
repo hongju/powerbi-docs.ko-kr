@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dee2ff4376242883d30f606e687184c0dde43ffe
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523482"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621250"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)
 
@@ -177,6 +177,7 @@ Azure Portal에서 Azure Data Lake Storage Gen2 계정을 설정했으면, **Pow
 * 기본적으로 Azure Data Lake Storage Gen2에 저장된 데이터 흐름의 소유자만 해당 데이터에 액세스할 수 있습니다. Azure에 저장된 데이터 흐름의 권한을 추가 사용자에게 부여하려면 데이터 흐름의 CDM 폴더에 사용자를 추가해야 합니다. 
 * 동일한 스토리지 계정에 저장된 경우에만 연결된 엔터티를 사용하여 데이터 흐름을 만들 수 있습니다.
 * Power BI 공유 용량의 온-프레미스 데이터 원본은 조직의 Data Lake에 저장된 데이터 흐름에서 지원되지 않습니다.
+* 스냅숏은 ADLS Gen 2에서 자동으로 삭제되지 않습니다. 공간을 확보하려면 Azure 함수를 만들어 이전 스냅숏을 주기적으로 정리할 수 있습니다.
 
 이 섹션에 설명된 대로 몇 가지 알려진 문제도 있습니다.
 

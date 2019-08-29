@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4778fd8beb1faa30562bcf3dcca6d78bfac5dac4
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61188559"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654810"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Power BI Pro 라이선스 구매 및 할당
 
-Power BI Pro는 콘텐츠를 공유하고 다른 Pro 사용자와 공동으로 작업하는 기능을 포함하여 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 라이선스입니다. Pro 사용자만 앱 작업 영역에서 콘텐츠를 게시 및 사용하고, 대시보드를 공유하고, 대시보드 및 보고서를 구독할 수 있습니다. 자세한 내용은 [라이선스 유형별 Power BI 기능](service-features-license-type.md)을 참조하세요.
+Power BI Pro는 콘텐츠를 공유하고 다른 Pro 사용자와 공동으로 작업하는 기능을 포함하여 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 라이선스입니다. Pro 사용자만 앱 작업 영역으로 콘텐츠를 게시하고, 대시보드를 공유하며, 대시보드 및 보고서를 구독할 수 있습니다. 자세한 내용은 [라이선스 유형별 Power BI 기능](service-features-license-type.md)을 참조하세요.
 
 이 문서에서는 먼저 Office 365에서 Power BI Pro 라이선스를 구매하는 방법을 설명합니다. 그런 다음, 개별 사용자에게 라이선스를 할당하는 두 가지 옵션인 Office 365 및 Azure를 설명합니다. 둘 중 한 가지 옵션을 선택합니다.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 75e5a6387574c6cc4a9620955a3e7c15479830c2
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391259"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621305"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI용 공급업체 품질 분석 샘플: 둘러보기
 
@@ -144,7 +144,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
     2013년보다 2014년에 원자재 결함이 더 많았습니다.  
 
     ![질문 및 답변 질문: 자재 유형, 연도, 전체 결함 수량 표시](media/sample-supplier-quality/supplier12.png)  
-6. 다음에는 질문을 *자재 유형, 연도, 총 **가동 중지 시간(분)***으로 변경합니다.  
+6. 다음으로 질문을 _자재 유형, 연도, 총 **가동 중지 시간(분)** 으로 변경합니다_.  
 
    ![질문 및 답변 질문: 자재 유형, 연도 및 총 가동 중지 시간(분) 표시](media/sample-supplier-quality/supplier13.png)
 

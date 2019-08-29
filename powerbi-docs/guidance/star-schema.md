@@ -9,14 +9,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: df8a7b2f8564c8862a5c2db3177df42640ce295d
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: bb8c0582e08d8e1e05c78c30df0b59bd89aafbd0
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68996062"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985781"
 ---
-# <a name="understand-a-star-schema-and-the-importance-for-power-bi"></a>별모양 스키마 및 Power BI에서의 중요성 이해
+# <a name="understand-star-schema-and-the-importance-for-power-bi"></a>별모양 스키마 및 Power BI에서의 중요성 이해
 
 이 문서는 Power BI Desktop 데이터 모델러를 대상으로 합니다. 별모양 스키마 디자인과 성능 및 유용성에 최적화된 Power BI 데이터 모델 개발과의 관련성을 설명합니다.
 
@@ -66,7 +66,7 @@ Power BI 모델에 적용할 수 있는, 별모양 스키마 디자인과 관련
 
 별모양 스키마 디자인에서 **측정값**은 요약할 값을 저장하는 팩트 테이블 열입니다.
 
-Power BI 모델의 **측정값** 정의는 다르지만 비슷합니다. 요약을 수행하는, [DAX(Data Analysis Expressions)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference)로 작성된 수식입니다. 측정값 식은 SUM, MIN, MAX, AVERAGE 등의 DAX 집계 함수를 활용하여 쿼리 시간에 스칼라 값 결과를 생성하는 경우가 많습니다(값은 모델에 저장되지 않음). 측정값 식은 간단한 열 집계부터 필터 컨텍스트 및/또는 관계 전파를 재정의하는 복잡한 수식까지 다양할 수 있습니다. 자세한 내용은 [Power BI Desktop의 DAX 기본 사항](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) 문서를 참조하세요. 자세한 정보 링크?
+Power BI 모델의 **측정값** 정의는 다르지만 비슷합니다. 요약을 수행하는, [DAX(Data Analysis Expressions)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference)로 작성된 수식입니다. 측정값 식은 SUM, MIN, MAX, AVERAGE 등의 DAX 집계 함수를 활용하여 쿼리 시간에 스칼라 값 결과를 생성하는 경우가 많습니다(값은 모델에 저장되지 않음). 측정값 식은 간단한 열 집계부터 필터 컨텍스트 및/또는 관계 전파를 재정의하는 더 복잡한 수식까지 다양할 수 있습니다. 자세한 내용은 [Power BI Desktop의 DAX 기본 사항](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) 문서를 참조하세요.
 
 Power BI 모델은 요약을 수행하는 다른 방법을 지원한다는 점을 이해하는 것이 중요합니다. 모든 열과 일반적으로 숫자 열은 보고서 시각적 개체 또는 질문 및 답변을 통해 요약할 수 있습니다. 대부분의 경우 측정값을 만들 필요가 없기 때문에 이 기능은 모델 개발자의 편의를 위한 것입니다. 예를 들어 가능한 각 집계 유형에 사용할 측정값을 만들 필요 없이 여러 가지 방법(sum, count, average, median, min, max 등)으로 Adventure Works 재판매인 판매 **Sales Amount** 열을 요약할 수 있습니다.
 

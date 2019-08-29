@@ -10,25 +10,25 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
+ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68362739"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "70008109"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>앱을 사용하여 프리미엄 용량 모니터링
 
 용량 모니터링은 프리미엄 용량 리소스를 최대한 활용하는 방법에 대한 합리적인 결정을 하는 데 필수적입니다. 관리 포털 또는 **Power BI Premium 용량 메트릭** 앱으로 용량을 모니터링할 수 있습니다. 이 문서에서는 프리미엄 용량 메트릭 앱 사용을 설명합니다. 앱은 용량이 수행되는 방법에 대해 가장 심층적인 정보를 제공합니다. 지난 7일 동안의 평균 사용 메트릭의 상위 수준 개요의 경우 관리 포털을 사용할 수 있습니다. 포털에서 모니터링하는 방법에 대한 자세한 내용은 [관리 포털에서 프리미엄 용량 모니터링](service-admin-premium-monitor-portal.md)을 참조하세요.
 
-앱은 새로운 기능과 역량을 사용하여 정기적으로 업데이트됩니다. 최신 버전을 실행하고 있는지 확인합니다. 이전 버전의 앱이 이미 설치되어 있는 경우 앱에서 삭제한 다음, CTRL+F5를 눌러 새로 고치는 것이 가장 좋습니다. 
+앱은 새로운 기능과 역량을 사용하여 정기적으로 업데이트됩니다. 최신 버전을 실행하고 있는지 확인합니다. 이전 버전의 앱이 이미 설치되어 있는 경우 앱에서 삭제한 다음, CTRL+F5를 눌러 새로 고치는 것이 가장 좋습니다.
 
 ## <a name="install-the-app"></a>앱 설치
 
 [프리미엄 용량 메트릭 앱](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)으로 바로 이동하거나 Power BI에서 다른 앱을 설치하는 것처럼 설치할 수 있습니다.
 
+1. Power BI에서 **앱**을 클릭합니다.
 
-1. Power BI에서 **앱**을 클릭합니다.   
     ![앱으로 이동](media/service-admin-premium-monitor-capacity/apps.png)
 
 2. 오른쪽에서 **앱 가져오기**를 클릭합니다.
@@ -245,7 +245,7 @@ ms.locfileid: "68362739"
 | **보고서 섹션** | **메트릭** |
 | --- | --- |
 | CPU 사용량 |  총 CPU 용량의 백분율로 작업별 소비량입니다. 지난 7일 동안 시간별로 표시됩니다. |
-| 메모리 사용량 |  작업 제한(점선)와 중첩된 작업(실선)에 의한 GB의 메모리 소비량입니다. 지난 7일 동안 시간별로 표시됩니다. |
+| 메모리 사용량 |  시간 동안 작업 제한(점선)과 중첩된 작업(실선)에 의한 GB의 최대 메모리 소비량입니다. 지난 7일 동안 시간별로 표시됩니다. |
 |  |  |
 
 ### <a name="ids-and-info"></a>ID 및 정보

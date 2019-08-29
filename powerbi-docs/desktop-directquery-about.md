@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/22/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 591a837bb085ba901316e672112b568923995718
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590550"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654767"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI의 DirectQuery 사용
 **Power BI Desktop** 또는 **Power BI 서비스**를 사용하는 경우 모든 종류의 다양한 데이터 원본에 연결할 수 있으며 이러한 데이터를 여러 가지 방법으로 연결할 수 있습니다. 데이터를 가져오는 가장 일반적인 방법인 Power BI로 데이터를 *가져오거나* **DirectQuery**로 알려진 원래의 원본 리포지토리에 있는 데이터에 직접 연결할 수 있습니다. 이 문서에서는 **DirectQuery**와 그 기능에 대해 설명합니다.
@@ -140,11 +140,8 @@ Power BI는 다음과 같이 다양한 데이터 원본에 연결됩니다.
 * **계산 열 제한:** 계산 열은 내부 행으로 제한되며, 마찬가지로 집계 함수를 사용하지 않고 동일한 테이블에 있는 다른 열의 값만 참조할 수 있습니다. 또한 허용되는 DAX 스칼라 함수(예: LEFT())는 기본 원본에 간단히 푸시될 수 있는 함수로 제한되므로 원본의 정확한 기능에 따라 달라집니다. 지원되지 않는 함수는 계산 열에 대해 DAX를 작성할 때 자동 완성에 나열되지 않으며, 사용되는 경우 오류가 발생합니다.
 * **부모-자식 DAX 함수 지원 안 함:** DirectQuery 모델에서는 DAX PATH() 함수 집합을 사용할 수 없습니다. 이 집합에서는 일반적으로 부모-자식 구조(예: 계정 차트 또는 직원 계층)를 처리합니다.
 * **계산 테이블 지원 안 함:** DAX 식을 사용하여 계산 테이블을 정의하는 기능은 DirectQuery 모드에서 지원되지 않습니다.
-* **단일 방향으로 관계 필터링 제한:** DirectQuery를 사용하는 경우 관계에 대한 교차 필터링 방향을 “양방향”으로 설정할 수 없습니다. 예를 들어 아래의 세 개 테이블을 사용하면 각 고객[성별]을 보여 주는 시각적 개체와 각 개체에서 구매한 제품[범주]의 수를 작성할 수 없습니다. 이러한 양방향 필터링의 사용에 대해서는 [이 자세한 백서](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)에서 설명하고 있습니다. 이 백서에서는 SQL Server Analysis Services의 컨텍스트에서 예제를 제공하지만 기본적인 사항은 Power BI에도 동일하게 적용됩니다.
-  
-  ![](media/desktop-directquery-about/directquery-about_01.png)
-  
-  다시 말하자면 성능상의 영향으로 인해 제한 사항이 적용됩니다. 이러한 제한 사항 중 특히 중요한 적용 중 하나는 보고서의 일부로 행 수준 보안을 정의하는 경우입니다. 일반적인 패턴은 사용자와 액세스 권한이 있는 엔터티 간에 다대다 관계를 갖고 이를 적용하는 데 양방향 필터링을 사용해야 한다는 것입니다. 그러나 DirectQuery 모델에 양방향 필터링을 사용하면 성능에 나쁜 영향을 주지 않도록 신중하게 주의하여 사용해야 합니다.  
+* **관계 필터링:** 양방향 필터링의 사용에 대해서는 [이 자세한 백서](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)에서 설명하고 있습니다. 이 백서에서는 SQL Server Analysis Services와 관련된 예제를 제공하지만 기본적인 사항은 Power BI에도 동일하게 적용됩니다.
+
 * **클러스터링 없음:** DirectQuery를 사용하는 경우 클러스터링 기능을 사용하여 그룹을 자동으로 찾을 수 없습니다.
 
 ### <a name="reporting-limitations"></a>보고 제한 사항

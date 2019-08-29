@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/16/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0af278171a00c792e466bbd0e21a3efb5ffa8962
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 93b3be374707b3e49f87d0875795d160f4530410
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389738"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655018"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 R 시각적 개체 만들기
 Power BI 서비스는 R 스크립트를 사용하여 만든 시각적 개체 보기 및 상호 작용을 지원합니다. 일반적으로 *R 시각적 개체* 라고 하는 R 스크립트를 사용하여 만든 시각적 개체는 R의 풍부한 분석 및 시각화 기능을 사용하여 예측과 같은 고급 데이터 셰이핑 및 분석을 제공할 수 있습니다.
 
 > [!NOTE]
-> [R 프로그래밍 언어](https://www.r-project.org/)는 프로그래밍 언어 중 통계학자, 데이터 과학자 및 비즈니스 분석가에 의해 가장 널리 사용되는 언어입니다. R 언어는 널리 사용되는 R 사용자 그룹과 함께 7,000개 이상의 추가 기능 패키지를 제공하는 오픈 소스 커뮤니티를 보유합니다. Power BI 서비스에 배포된 R 버전은 *Revolution R Open 3.2.2입니다.*
+> [R 프로그래밍 언어](https://www.r-project.org/)는 프로그래밍 언어 중 통계학자, 데이터 과학자 및 비즈니스 분석가에 의해 가장 널리 사용되는 언어입니다. R 언어는 널리 사용되는 R 사용자 그룹과 함께 7,000개 이상의 추가 기능 패키지를 제공하는 오픈 소스 커뮤니티를 보유합니다. Power BI 서비스에 배포된 R 버전은 *Microsoft R 3.4.4입니다.*
 > 
 > 
 

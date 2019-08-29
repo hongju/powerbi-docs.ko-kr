@@ -1,5 +1,5 @@
 ---
-title: Power BI 서비스의 ‘새 디자인’ 탐색
+title: Power BI 서비스의 ‘새 디자인’
 description: Power BI 서비스(app.powerbi.com)의 모양이 새롭게 변경되었습니다. 이 문서에서는 새 디자인을 사용하여 보고서를 탐색하는 방법을 설명합니다.
 author: maggiesMSFT
 manager: kfile
@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: aa7de324e77b8f2b1c58e558c0814df97d997631
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471310"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654940"
 ---
-# <a name="navigate-the-new-look-of-the-power-bi-service"></a>Power BI 서비스의 ‘새 디자인’ 탐색
+# <a name="the-new-look-of-the-power-bi-service"></a>Power BI 서비스의 ‘새 디자인’
 
-Power BI 서비스의 모양이 새롭게 변경되었습니다. 보고서를 더 쉽게 볼 수 있습니다. 새 디자인은 더 간단하고 다른 친숙한 Microsoft 제품과 비슷하게 빌드된 최신 환경입니다. Power BI 서비스 전체를 밝은 색 테마로 전환하고 아이콘을 업데이트하여 보고서 내용을 주요 포커스 지점으로 만들었습니다. 다음은 새 디자인에서 변경된 내용의 개요입니다. 자세한 내용은 번호를 매긴 섹션을 참조하세요.
+Power BI 서비스(app.powerbi.com)의 디자인이 보고서를 더욱 편리하게 보고 조작할 수 있도록 변경되었습니다. 새 디자인은 더 간단하고 다른 친숙한 Microsoft 제품과 비슷하게 빌드된 최신 환경입니다. Power BI 서비스 전체를 밝은 색 테마로 전환하고 아이콘을 업데이트하여 보고서 내용을 주요 포커스 지점으로 만들었습니다. 다음은 새 디자인에서 변경된 내용의 개요입니다. 자세한 내용은 번호를 매긴 섹션을 참조하세요.
 
 ![새 디자인의 변경 내용 개요](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -31,11 +31,11 @@ Power BI 서비스의 모양이 새롭게 변경되었습니다. 보고서를 �
 
 ## <a name="1-opt-in-to-the-new-look"></a>1. 새 디자인 옵트인(opt in)
 
-Power BI 서비스 사용자는 새 디자인을 옵트인(opt in)할 수 있습니다. **새 디자인 해제**를 **새 디자인 설정**으로 밀기만 하면 됩니다.
+Power BI 서비스 사용자는 새 디자인을 옵트인(opt in)할 수 있습니다. **새 디자인 사용 안 함**을 **새 디자인 사용**으로 밀기만 하면 됩니다.
 
 ![새 디자인 옵트인(opt in)](media/service-new-look/power-bi-new-look-off.png)
 
-이전 디자인으로 되돌려야 하는 경우 오른쪽 위에 있는 줄임표 메뉴를 선택합니다.
+이전 디자인으로 돌아가야 하는 경우 다시 밀어서 ![새 디자인 사용](media/service-new-look/power-bi-new-look-toggle-on.png)을 **해제**하면 됩니다. 표시되지 않는 경우 오른쪽 위 모서리에 있는 줄임표 메뉴를 선택합니다.
 
 ![새 디자인 옵트아웃(opt out)](media/service-new-look/power-bi-new-look-on.png)
 
@@ -82,7 +82,7 @@ Power BI 서비스 사용자는 새 디자인을 옵트인(opt in)할 수 있습
 
 ## <a name="no-changes-to-edit-mode"></a>편집 모드는 변경되지 않음 
 
-작성 환경은 Desktop의 작성 환경과 비슷하게 그대로 유지되었습니다. 새 디자인 변경 내용은 읽기용 보기에만 적용됩니다.
+작성 환경은 Desktop의 환경과 유사하도록 유지되었습니다. 새 디자인 변경 내용은 읽기용 보기에만 적용됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

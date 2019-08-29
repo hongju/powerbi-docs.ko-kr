@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/09/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f3d67d0b57f2f04a31d99fb36476871c164aad4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65533589"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654574"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop의 복합 모델 사용
 
-이전에 Power BI Desktop에서 다른 데이터 연결은-보고서에서 DirectQuery를 사용 하는 경우 여부 DirectQuery 또는 가져오기-허용 된 해당 보고서에 대 한 합니다. 복합 모델을 사용하면 해당 제한이 제거됩니다. 보고서에는 둘 이상의 DirectQuery 또는 가져오기 데이터 연결의 데이터 연결이 선택한 조합으로 원활하게 포함될 수 있습니다.
+보고서에서 DirectQuery를 사용한 경우 이전에 Power BI Desktop에서는 DirectQuery 또는 가져오기인지 여부와 관계없이 해당 보고서에 대해 다른 데이터 연결이 허용되지 않습니다. 복합 모델을 사용하면 해당 제한이 제거됩니다. 보고서에는 둘 이상의 DirectQuery 또는 가져오기 데이터 연결의 데이터 연결이 선택한 조합으로 원활하게 포함될 수 있습니다.
 
 ![Power BI Desktop의 복합 모델](media/desktop-composite-models/composite-models_01.png)
 
@@ -39,7 +39,7 @@ Power BI Desktop의 복합 모델 기능은 다음 세 가지 관련 기능으�
 * 데이터를 가져오는 가장 일반적인 방법인 Power BI로 데이터를 가져옵니다.
 * DirectQuery를 사용하여 원래의 원본 리포지토리에 있는 데이터에 직접 연결합니다. DirectQuery에 대한 자세한 정보는 [Power BI의 DirectQuery 사용](desktop-directquery-about.md)을 참조하세요.
 
-DirectQuery를 사용 하는 경우 *복합 모델* Power BI 모델을 만들 수 있도록 (단일 등 *.pbix* Power BI Desktop 파일)는 다음 중 하나 또는 모두를 수행 하는:
+DirectQuery를 사용하는 경우 *복합 모델*을 이용하면 다음 중 하나 또는 둘 다를 수행하는 Power BI 모델(예: 단일 *.pbix* Power BI Desktop 파일)을 만들 수 있습니다.
 
 * 하나 이상의 DirectQuery 원본의 데이터를 결합합니다.
 * DirectQuery 원본의 데이터와 가져오기 데이터를 결합합니다.
@@ -100,7 +100,7 @@ DirectQuery를 사용하는 대신 데이터 웨어하우스에서 해당 판매
 
 ![필드 창](media/desktop-composite-models/composite-models_11.png)
 
-일반적인 사례를 표시 하는 다음 예제는 *차원* -같은 테이블 *제품* 또는 *고객* -는 다른 곳에서 가져온 몇 가지 추가 데이터를 사용 하 여 확장 됩니다. 테이블에 DirectQuery를 사용하여 다양한 원본에 연결할 수도 있습니다. 예제를 계속 진행하기 위해 *Country* 및 *Period*별 *Sales Targets*가 별도의 부서별 데이터베이스에 저장된다고 가정합니다. 일반적으로 다음 이미지와 같이 *GetData*를 사용하여 해당 데이터에 연결할 수 있습니다. 
+다음 예제는 *제품* 또는 *고객*과 같이 다른 곳에서 가져온 일부 추가 데이터로 확장되는 *차원* 테이블의 일반적인 경우를 표시합니다. 테이블에 DirectQuery를 사용하여 다양한 원본에 연결할 수도 있습니다. 예제를 계속 진행하기 위해 *Country* 및 *Period*별 *Sales Targets*가 별도의 부서별 데이터베이스에 저장된다고 가정합니다. 일반적으로 다음 이미지와 같이 *GetData*를 사용하여 해당 데이터에 연결할 수 있습니다. 
 
 ![탐색기 창](media/desktop-composite-models/composite-models_12.png)
 
@@ -125,6 +125,9 @@ DirectQuery를 사용하는 대신 데이터 웨어하우스에서 해당 판매
 DirectQuery 및 일부 가져오기 테이블의 일부 테이블을 포함하는 Power BI Desktop 파일( *.pbix* 파일)의 경우 상태 표시줄에 **혼합**이라는 스토리지 모드가 표시됩니다. 상태 표시줄에서 해당 용어를 클릭하여 모든 테이블을 가져오기로 쉽게 전환할 수 있습니다.
 
 저장 모드에 대한 자세한 내용은 [Power BI Desktop의 스토리지 모드(미리 보기)](desktop-storage-mode.md)를 참조하세요.  
+
+> [!NOTE]
+> Power BI Desktop 및 Power BI 서비스에서 *혼합* 스토리지 모드를 사용할 수 있습니다.
 
 ## <a name="calculated-tables"></a>계산된 테이블
 
@@ -152,7 +155,7 @@ DirectQuery를 사용하는 모델에 계산된 테이블을 추가할 수 있�
 
 DirectQuery를 사용할 때는 주로 사용자에게 좋은 환경을 제공할 충분한 리소스가 백 엔드 원본에 있는지 확인하기 위해 항상 성능을 고려해야 합니다. 좋은 환경이란 시각적 개체가 5초 이내의 새로 고쳐진다는 것을 의미합니다. 또한 [Power BI의 DirectQuery 사용](desktop-directquery-about.md) 문서에서 성능 조언을 따라야 합니다. 
 
-복합 모델을 사용하면 추가 성능 고려 사항이 추가됩니다. 단일 시각적 개체 종종 두 번째 소스에서 하나의 쿼리에서 결과 전달 하는 여러 원본에 쿼리를 전송 될 수 있습니다. 이 상황에서는 다음과 같은 실행 형식이 발생할 수 있습니다.
+복합 모델을 사용하면 추가 성능 고려 사항이 추가됩니다. 단일 시각적 개체는 여러 원본에 쿼리를 보낼 수 있으며, 이는 한 쿼리에서 두 번째 원본으로 결과를 전달하는 경우가 많습니다. 이 상황에서는 다음과 같은 실행 형식이 발생할 수 있습니다.
 
 * **많은 리터럴 값을 포함하는 SQL 쿼리**: 예를 들어, 선택한 ‘제품 관리자’ 집합의 총 ‘판매액’을 요청하는 시각적 개체는 먼저 해당 제품 관리자가 관리하는 ‘제품’을 찾아야 합니다.    이 순서는 시각적 개체에서 *WHERE* 절에 모든 제품 ID가 포함된 SQL 쿼리를 보내기 전에 수행해야 합니다.
 
@@ -160,7 +163,7 @@ DirectQuery를 사용할 때는 주로 사용자에게 좋은 환경을 제공�
 
 * **여러 SQL 쿼리, 값별로 그룹당 하나**: 집계에서 **DistinctCount**를 사용하고 다른 원본의 열로 그룹화할 때 외부 원본이 그룹을 정의하는 많은 리터럴 값의 효율적인 전달을 지원하지 않는 경우 값별로 그룹당 하나의 SQL 쿼리를 보내야 합니다. 
 
-   예를 들어 *제품 관리자*(스프레드시트에서 가져온)에서 *CustomerAccountNumber*(SQL Server 테이블에서)의 개별 개수를 요청하는 시각적 개체는 SQL Server에서 전송되는 쿼리에서 *Product Managers* 테이블의 세부 정보를 전달해야 합니다. 다른 원본(예: Redshift)에서는 이 작업을 수행할 수 없습니다. 대신, 올 것 당 SQL 쿼리가 전송 *Sales Manager* -이 시점에서 쿼리가 실패, 실질적인 제한까지 합니다. 
+   예를 들어 *제품 관리자*(스프레드시트에서 가져온)에서 *CustomerAccountNumber*(SQL Server 테이블에서)의 개별 개수를 요청하는 시각적 개체는 SQL Server에서 전송되는 쿼리에서 *Product Managers* 테이블의 세부 정보를 전달해야 합니다. 다른 원본(예: Redshift)에서는 이 작업을 수행할 수 없습니다. 대신 *판매 관리자*당 하나의 SQL 쿼리가 전송됩니다(쿼리가 실패하는 실제적인 제한까지). 
 
 이러한 각각의 사례에는 성능에 대한 고유한 의미가 있으며 정확한 세부 정보는 각 데이터 원본에 따라 달라집니다. 두 원본을 조인하는 관계에 사용되는 열의 카디널리티가 낮게(수천 개) 유지되지만 성능에 영향을 미치지 않아야 합니다. 이 카디널리티가 증가함에 따라 결과 성능에 미치는 영향에 더 많은 주의를 기울여야 합니다. 이 지침을 좋은 규칙으로 적용합니다. 
 
@@ -168,9 +171,9 @@ DirectQuery를 사용할 때는 주로 사용자에게 좋은 환경을 제공�
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
-이 릴리스의 복합 모델에는 몇 가지 제한이 제공합니다.
+복합 모델의 이 릴리스에는 몇 가지 제한 사항이 있습니다.
 
-현재 [증분 새로 고침](service-premium-incremental-refresh.md) 만 SQL, Oracle 및 Teradata 데이터 원본에 연결 하는 복합 모델에 대 한 지원 됩니다.
+현재 SQL, Oracle 및 Teradata 데이터 원본에 연결하는 복합 모델에 대해서만 [증분 새로 고침](service-premium-incremental-refresh.md)이 지원됩니다.
 
 다음 Live Connect(다차원) 원본은 복합 모델과 함께 사용할 수 없습니다.
 
@@ -188,7 +191,7 @@ DirectQuery를 사용하여 이러한 다차원 원본에 연결하는 경우 �
 
 복합 모델 및 DirectQuery에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md)
-* [Power BI Desktop의 저장소 모드](desktop-storage-mode.md)
+* [Power BI Desktop의 스토리지 모드](desktop-storage-mode.md)
 * [Power BI의 DirectQuery 사용](desktop-directquery-about.md)
 * [Power BI의 DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
 

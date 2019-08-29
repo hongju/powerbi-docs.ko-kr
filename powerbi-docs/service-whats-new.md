@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/28/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06ba5835a568b7158a204ea6676e92844d40414d
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375277"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655045"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -30,32 +30,32 @@ ms.locfileid: "66375277"
 * [Microsoft Power BI(YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>2019 년 5 월
-* [사용자 지정 탐색](service-create-distribute-apps.md) Power BI 앱에 대 한 합니다.
-* 추가 첨부 파일 형식 (PPTX, XLSX, DOCX, CSV, XML) 전자 메일 구독 페이지 매긴된 보고서 내에서 사용할 수 있습니다.
+## <a name="may-2019"></a>2019년 5월
+* Power BI 앱의 [사용자 지정 검색](service-create-distribute-apps.md).
+* 페이지를 매긴 보고서 내에서 메일 구독에 사용할 수 있는 추가 첨부 파일 유형(PPTX, XLSX, DOCX, CSV, XML)입니다.
 
 ## <a name="previous-months-2019"></a>이전 달(2019년)
-### <a name="april-2019"></a>2019 년 4 월
-* Power BI의 일반 공급 [데이터 흐름](service-dataflows-overview.md)합니다.
-* 새 작업 영역 환경의 일반 공급 됩니다.
-* 프랑스 및 한국에서 새 Power BI 영역입니다.
-* 답변 대시보드에 대 한 경험을 업데이트 합니다.
-* 내에서 Azure Analysis Services에 대 한 지원을 [페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md)합니다.
-* 페이지 매긴된 보고서를 Power BI 앱에서 지원 합니다.
-* [전자 메일 구독과](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) 페이지 매긴된 보고서에 대 한 PDF 첨부 파일을 사용 하 여 합니다.
-* Power BI 프리미엄 요약 및 작업 메트릭을 관리 포털에서 지원
-* [캐시 된 쿼리](power-bi-query-caching.md) Power BI Premium에서 사용할 수 있습니다.
-* 일반 공급 [Power BI 홈](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/)합니다.
+### <a name="april-2019"></a>2019년 4월
+* Power BI [데이터 흐름](service-dataflows-overview.md)의 일반 공급.
+* 새 작업 영역 환경의 일반 공급입니다.
+* 프랑스 및 대한민국의 새 Power BI 지역.
+* 업데이트된 질문 및 답변 대시보드 환경.
+* [페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md) 내에서 Azure Analysis Services 지원.
+* Power BI 앱에서 지원되는 페이지를 매긴 보고서.
+* 페이지를 매긴 보고서용 PDF 첨부 파일이 포함된 [이메일 구독](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/).
+* 관리 포털에서 지원되는 Power BI Premium 요약 및 워크로드 메트릭
+* Power BI Premium에서 사용할 수 있는 [쿼리 캐싱](power-bi-query-caching.md).
+* [Power BI 홈](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/)의 일반 공급.
 
 ### <a name="march-2019"></a>2019년 3월
 * Power BI Premium에서 여러 지역 일반 가용성
 * Azure B2B에서 Power BI 콘텐츠 편집 및 관리 지원
-* 읽기 전용의 공개 미리 보기 [XMLA 끝점](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)합니다.
+* 읽기 전용 [XMLA 엔드포인트](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)의 공개 미리 보기.
 
 ### <a name="february-2019"></a>2019년 2월
 * [용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)의 워크로드 및 활성 데이터 세트 크기 메트릭.
 * Power BI 보고서에서 PDF로 내보내기
-* [주문형으로 전자 메일 구독](service-report-subscribe.md)합니다.
+* [주문형 이메일 구독](service-report-subscribe.md).
 * 관리 포털의 대량 작업입니다.
 * PPT 및 PDF에서 필터링된 내보내기
 * 관리 포털에서 [도움말 및 지원 설정](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/)
@@ -87,8 +87,8 @@ ms.locfileid: "66375277"
 
 ### <a name="september-2018"></a>2018년 9월
 * Power BI 서비스에 [언급된 대시보드](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)
-* 공개 미리 보기 [Power BI 홈 및 전체 검색](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)합니다.
-* 수 [쿼리 모니터링](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) 에 [용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)합니다.
+* [Power BI 홈 및 글로벌 검색](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)의 공개 미리 보기.
+* [용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)의 [모니터링 쿼리](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)를 위한 기능.
 
 ### <a name="august-2018"></a>2018년 8월
 * Power BI Premium용[용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
@@ -292,7 +292,7 @@ ms.locfileid: "66375277"
 
 ***엔터프라이즈***
 
-* [Express 경로](service-admin-power-bi-expressroute.md): Power BI에 대한 관리되는 개인 연결을 설정하는 데 사용합니다.
+* [ExpressRoute](service-admin-power-bi-expressroute.md): Power BI에 대한 관리되는 프라이빗 연결을 설정하는 데 사용합니다.
 * [RLS에 대한 콘텐츠 팩 지원](service-admin-rls.md)(미리 보기): RLS가 콘텐츠 팩의 일부로 배포된 해당 대시보드와 보고서에 정의된 경우 해당 콘텐츠 팩에 보안 규칙을 적용합니다.
 
 ***대시보드***
@@ -302,7 +302,7 @@ ms.locfileid: "66375277"
 ***Excel에서 분석***
 
 * 모든 사용자가 사용 가능한 [Excel에서 분석](service-analyze-in-excel.md): Excel에서 Power BI 데이터 모델에 액세스하는 기능은 할당된 라이선스에 상관 없이 모든 사용자에게 확장되었습니다.
-* 다중 사용자 계정 환경 개선: 둘 이상의 Power BI 사용자 계정이 있는 경우 더 쉽게 로그인합니다.
+* 다중 사용자 계정 환경 개선: 둘 이상의 Power BI 사용자 계정이 있는 경우 더 쉽게 로그인할 수 있습니다.
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)하세요.
 
@@ -346,11 +346,11 @@ ms.locfileid: "66375277"
 
 * 전체 화면 모드: 먼저 전체 화면 모드를 종료하지 않고 인쇄
 * 전체 화면 모드: 타일을 확장하여 전체 캔버스를 채우고 **너비에 맞춤**을 선택하여 남는 공백 제거
-* 타일 흐름을 사용하여 캔버스의 왼쪽 위 모퉁이에 타일을 자동으로 맞춥니다.
+* 타일 흐름을 사용하여 캔버스의 왼쪽 위 모서리에 타일을 자동으로 맞춥니다.
 
 ***Quick Insights (신속한 정보 활용)***
 
-* 추세 및 상관 관계 정보에는 이제 데이터에서 패턴을 쉽게 수행할 수 있도록 추세 선이 있습니다.
+* 추세 및 상관 관계 인사이트에는 데이터의 패턴을 쉽게 확인할 수 있도록 하는 추세선이 제공됩니다.
 
 ***질문 및 답변***
 
@@ -371,7 +371,7 @@ ms.locfileid: "66375277"
 ***관리 포털***
 
 * Microsoft 365 관리 센터에 대한 링크를 통해 간편한 사용자 관리
-* 웹에 게시하지 않도록 설정하는 기능
+* 웹에 게시를 사용하지 않도록 설정하는 기능
 * 사용자가 전체 조직에 콘텐츠 팩을 게시하지 않도록 방지
 * 외부 사용자에게 콘텐츠 공유하지 않도록 설정하는 기능
 
@@ -620,12 +620,8 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 * Webtrends는 회사가 고객 데이터의 특성을 파악하여 디지털 마케팅이 성공하도록 도와줍니다. 사용자는 웹, 소셜 네트워크, 모바일 및 SharePoint 채널에 걸쳐 방문자 여행에 대한 정보를 관찰하고, 분석하여 제공할 수 있습니다. [Webtrends 콘텐츠 팩](http://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx) 출시로 사용자는 Webtrends 분석 데이터를 모니터링, 분석 및 시각화하는 데 Power BI를 사용할 수 있게 되었습니다. Power BI용 Webtrends 콘텐츠 팩의 [도움말 페이지](service-connect-to-webtrends.md)에서 자세히 알아보세요.
 * 질문과 대답으로 시작하는 것이 훨씬 간단합니다. 질문과 대답 텍스트 상자에 커서를 배치하는 순간 즉시 데이터와 관련된 질문 및 주요 메트릭 목록이 표시됩니다.  기본적으로, 드롭다운 목록에서 대시보드에 이미 고정된 타일과 데이터 세트에 있는 각 테이블에 대한 항목에 대한 질문을 볼 수 있습니다.
-* 기본적으로 표시하는 동적 캔버스 크기는 브라우저 창 크기에 맞게 최적의 차원으로 모든 보고서 항목을 렌더링합니다. 가로 세로 비율을 고정하거나 다른 방식으로 보고서를 맞추려는 경우 페이지에 맞추기, 너비에 맞추기, 실제 크기 등의 세 가지 옵션을 지원합니다.
+* 기본적으로 표시하는 동적 캔버스 크기는 브라우저 창 크기에 맞게 최적의 차원으로 모든 보고서 항목을 렌더링합니다. 가로 세로 비율을 고정하거나 다른 방식으로 보고서를 맞추려는 경우 사용할 수 있는 세 가지 옵션을 추가로 지원합니다. 페이지에 맞추기, 너비에 맞추기 및 실제 크기에 맞추기.
 * 또한 보유할 수 있는 데이터 세트 및 보고서 수의 제한을 늘렸습니다. 현재 Power BI 계정에서 최대 200개의 데이터 세트와 각 데이터 세트에 대해 200개의 보고서를 보유할 수 있습니다.
-
-**2015년 8월 25일**
-
-* Power BI를 사용하여 [Adobe Analytics 데이터를 모니터링하고 탐색하며 시각화](http://blogs.msdn.com/b/powerbi/archive/2015/08/25/exploring-your-adobe-analytics-data-in-power-bi.aspx)할 수 있게 되었습니다. 기본 제공 콘텐츠 팩으로 즉시 연결하여 데이터로부터 정보를 검색할 수 있습니다. 자세한 내용은 [Power BI용 Adobe Analytics 콘텐츠 팩 도움말 페이지](service-connect-to-adobe-analytics.md)를 방문하세요.
 
 **2015년 8월 18일**
 
@@ -680,11 +676,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 6월 16일**
 
-* SweetIQ를 사용하면 위치를 제공함으로써 쉽게 로컬 목록을 추적하고 로컬 검색 에코 시스템의 데이터를 검토할 수 있습니다. Power BI를 사용하면 SweetIQ 데이터로부터 빌드된 [기본 제공된 콘텐츠](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx)를 제공하여 해당 데이터를 분석하고 모니터링할 수 있습니다. 시작 방법에 대한 자세한 내용은 Power BI용 SweetIQ 콘텐츠 팩 [도움말 페이지](service-connect-to-sweetiq.md)를 참조하세요.
-
-**2015년 6월 9일**
-
-* Power BI를 통해 [MailChimp API](http://blogs.msdn.com/b/powerbi/archive/2015/06/09/user-power-bi-to-monitor-and-visualize-your-mailchimp-data.aspx)를 사용하여 해당 데이터를 모니터링하고 탐색하여 분석을 위해 기본 제공된 일련의 콘텐츠를 제공합니다. 대시보드, 보고서 및 MailChimp 시나리오에 대해 큐레이트된 데이터 세트를 통해 요일별 상위 캠페인의 총 열린 수 등의 데이터를 쉽게 액세스할 수 있습니다. 시작 방법에 대한 자세한 내용은 Power BI용 MailChimp 콘텐츠 팩 [설명서](service-connect-to-mailchimp.md)를 참조하세요.
+* SweetIQ를 사용하면 위치를 제공함으로써 쉽게 로컬 목록을 추적하고 로컬 검색 에코시스템의 데이터를 검토할 수 있습니다. Power BI를 사용하면 SweetIQ 데이터로부터 빌드된 [기본 제공된 콘텐츠](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx)를 제공하여 해당 데이터를 분석하고 모니터링할 수 있습니다. 시작 방법에 대한 자세한 내용은 Power BI용 SweetIQ 콘텐츠 팩 [도움말 페이지](service-connect-to-sweetiq.md)를 참조하세요.
 
 **2015년 6월 2일**
 
@@ -697,7 +689,6 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 5월 13일**
 
-* Power BI의 최신 업데이트를 사용하면 일련의 기본 제공된 보고서와 사용자 지정된 대시보드와 **SQL 데이터베이스 감사** 에 의해 기록된 데이터에 연결할 수 있습니다. 이 콘텐츠 팩은 보고를 위해 생성된 데이터 세트를 기반으로 의심스러운 이벤트, 비정상적인 활동 및 추세를 쉽게 찾을 수 있습니다. [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/05/14/monitor-your-azure-sql-database-auditing-activity-with-power-bi.aspx) 및 [설명서](service-connect-to-azure-sql-database-auditing.md)에서 자세히 알아보세요.
 * **Azure SQL 데이터베이스**에 저장된 데이터에 직접 연결할 수 있습니다. 쿼리를 동적으로 생성하여 원본으로 보내어 데이터베이스를 통해 직접 대화형 보고서를 만들 수 있습니다. 자세한 내용은 [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx) 및 [설명서](service-azure-sql-database-with-direct-connect.md)에 나와 있습니다.
 
 **2015년 5월 7일**
@@ -714,7 +705,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 4월 15일**
 
-* 이제 새 콘텐츠 팩을 사용하여 **Google 분석** 데이터를 시각화 및 탐색할 수 있습니다! Google 분석 콘텐츠 팩을 사용하면 대시보드, 보고서 및 데이터 세트를 가져와 지난 6개월 동안 사이트의 사용에 대한 이해력을 넓힐 수 있습니다. 읽어보세요 [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)합니다.
+* 이제 새 콘텐츠 팩을 사용하여 **Google 분석** 데이터를 시각화 및 탐색할 수 있습니다! Google 분석 콘텐츠 팩을 사용하면 대시보드, 보고서 및 데이터 세트를 가져와 지난 6개월 동안 사이트의 사용에 대한 이해력을 넓힐 수 있습니다. [블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)을 읽을 수 있습니다.
 * 이제 질문 및 답변 및 보고서의 KPI 및 이미지가 포함된 **모든 카드를 고정**할 수 있습니다.
 * 이제 쿼리의 끝에 'as card'라는 문구를 사용하여 **질문 및 답변에서 카드**를 사용할 수 있습니다.
 

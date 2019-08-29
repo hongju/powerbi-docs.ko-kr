@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7965751740384c5a5f1cc663389a559e0c1bd1c0
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e28306532714369830df46304aa4a1ebff67bd8f
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69563669"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985641"
 ---
 # <a name="using-templates-in-power-bi-desktop"></a>Power BI Desktop에서 템플릿 사용
 
@@ -70,7 +70,10 @@ Power BI 보고서 템플릿을 사용하려면 Power BI Desktop에서 템플릿
 이제 끝났습니다! Power BI Desktop에서 간편하게 보고서 템플릿을 만들고 사용함으로써, 매력적인 레이아웃 및 기타 보고서 측면을 쉽게 재현하고 다른 사용자와 공유할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. 해당 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.
+**쿼리 매개 변수**:
+* [Power BI Desktop에서 쿼리 매개 변수를 사용하는 방법](https://docs.microsoft.com/power-query/power-query-query-parameters)에 관해 자세히 알아보고 싶을 수 있습니다.
+
+또한, Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. 해당 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
 * [Power BI Desktop이란?](desktop-what-is-desktop.md)
 * [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)

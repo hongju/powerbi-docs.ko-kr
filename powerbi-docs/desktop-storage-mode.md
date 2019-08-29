@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61364367"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654744"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop의 스토리지 모드
 
@@ -62,6 +62,10 @@ Power BI Desktop의 스토리지 모드 설정은 다음 세 가지 관련 기�
 * **이중**: 이중 테이블은 Power BI 데이터 세트에 제출된 쿼리의 컨텍스트에 따라 캐시되거나 캐시되지 않은 상태로 작동할 수 있습니다. 경우에 따라 캐시된 데이터의 쿼리를 수행합니다. 데이터 원본에 대한 주문형 쿼리를 실행하여 쿼리를 수행하는 경우도 있습니다.
 
 테이블을 **가져오기**로 변경하는 작업은 *실행 취소*할 수 없습니다. 이 속성을 다시 DirectQuery 또는 이중으로 변경할 수는 없습니다.
+
+> [!NOTE]
+> Power BI Desktop 및 Power BI 서비스에서 *듀얼* 스토리지 모드를 사용할 수 있습니다.
+
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>DirectQuery 및 이중 테이블에 대한 제약 조건
 

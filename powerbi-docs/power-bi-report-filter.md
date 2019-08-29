@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 148f4881f78b5bba9b6936f5688ba6aaea3a0145
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68346367"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654427"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI 보고서의 새 필터 환경
 
@@ -48,6 +48,10 @@ Power BI의 필터에 새 기능과 새 디자인이 있습니다. 새 필터 �
 3. **필터링 환경** 아래 **업데이트된 필터 창을 사용하고 이 보고서의 시각적 개체 머리글에 필터 표시**를 선택합니다.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>서비스에서 기존 보고서에 대해 새 필터 켜기
+
+**새 디자인**을 Power BI 서비스 ![새 디자인 설정](media/power-bi-report-filter/power-bi-new-look-on.png)에서 설정하면, 새 필터 환경이 자동으로 켜집니다. [Power BI 서비스의 새 디자인](service-new-look.md)에 대해 자세히 알아보세요.
+
+새 디자인을 설정하지 않은 경우에도 다음 단계에 따라 새 필터 환경을 계속 볼 수 있습니다.
 
 1. Power BI 서비스의 작업 영역 콘텐츠 목록에서 **보고서** 탭을 선택합니다.
 2. 사용하도록 설정하려는 보고서를 찾고 해당 보고서의 **설정** 아이콘 ![보고서 설정 아이콘](media/power-bi-report-filter/power-bi-settings-icon.png)을 선택합니다.
@@ -121,15 +125,13 @@ Power BI의 필터에 새 기능과 새 디자인이 있습니다. 새 필터 �
 1. 보고서에서 보고서 자체를 클릭하거나 배경(‘배경 화면’)을 클릭하고 **시각화** 창에서 **서식**을 선택합니다.  
     보고서 페이지, 배경 화면, 필터 창 및 필터 카드에 서식을 지정하는 옵션이 표시됩니다.
 
-    ![서식 아이콘 선택](media/power-bi-report-filter/power-bi-filter-format.png)    
-
 1. **필터 창**을 확장하여 배경, 아이콘 및 왼쪽 테두리의 색을 설정하여 보고서 페이지를 보완합니다.
 
-    ![필터 창 확장](media/power-bi-report-filter/power-bi-filter-format-pane-font.png)
+    ![필터 창 확장](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. **필터 카드**를 확장하여 **사용 가능** 및 **적용됨** 색과 테두리를 설정합니다. 사용 가능한 카드와 적용된 카드의 색을 다르게 만들면 적용되는 필터가 명확해집니다. 
   
-    ![필터 카드 확장](media/power-bi-report-filter/power-bi-filter-format-card-font.png)
+    ![필터 카드 확장](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filter-pane"></a>필터 창에 대한 테마 설정
 이제 필터 창의 기본 설정을 테마 파일로 수정할 수 있습니다. 시작하는 데 활용할 샘플 테마 코드 조각은 다음과 같습니다.
@@ -224,7 +226,7 @@ Power BI의 필터에 새 기능과 새 디자인이 있습니다. 새 필터 �
 
 ## <a name="restrict-changes-to-filter-type"></a>변경을 필터 유형으로 제한
 
-보고서 설정의 필터링 환경 섹션에서 사용자가 필터 유형을 변경할 수 있는지 여부를 제어하는 옵션이 있습니다.
+보고서 설정의 필터링 환경 섹션에는 사용자가 필터 유형을 변경할 수 있는지 여부를 제어하는 옵션이 있습니다.
 
 ![필터 유형 변경 제한](media/power-bi-report-filter/power-bi-filter-restrict-change.png)
 

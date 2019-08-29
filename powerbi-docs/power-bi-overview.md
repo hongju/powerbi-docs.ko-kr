@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 05/30/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d6c9eb47d5f88a2d835c1ba6835e871b0c64bf1c
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 0e12d110708c955e0c63e11f7578523222375448
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324782"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654968"
 ---
 # <a name="what-is-power-bi"></a>Power BI란?
 **Power BI**는 관련 없는 데이터 소스를 시각적으로 몰입도가 뛰어나고 일관된 대화형 정보로 변환하는 소프트웨어 서비스, 앱 및 커넥터의 컬렉션입니다. 데이터는 Excel 스프레드시트이거나 클라우드 기반 및 온-프레미스 하이브리드 데이터 웨어하우스의 컬렉션일 수 있습니다. Power BI를 사용하면 쉽게 데이터 원본에 연결하고, 중요한 항목을 시각화 및 검색하고, 원하는 모든 사람과 공유할 수 있습니다.
@@ -25,11 +25,11 @@ Power BI는 단순하고 빠르기 때문에 Excel 스프레드시트 또는 로
 
 ## <a name="the-parts-of-power-bi"></a>Power BI의 요소
 Power BI는 다음으로 구성됩니다. 
-- **Power BI Desktop**이라는 Windows 데스크톱 애플리케이션
-- **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*) 서비스 
-- Windows, iOS 및 Android 디바이스용 Power BI **모바일 앱**
+- **Power BI Desktop**이라는 Windows 데스크톱 애플리케이션.
+- **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*) 서비스. 
+- Windows, iOS 및 Android 디바이스용 Power BI **모바일 앱**.
 
-![Power BI Desktop, 서비스, 모바일](media/power-bi-overview/power-bi-blocks.png)
+![Power BI Desktop, 서비스, 모바일](media/power-bi-overview/power-bi-overview-blocks.png)
 
 이 세 가지 요소(&mdash;Power BI Desktop, 서비스 및 모바일 앱&mdash;)는 직원들이 자신 또는 자신의 역할에 가장 효과적으로 비즈니스 인사이트를 생성, 공유, 소비하도록 설계되었습니다.
 
