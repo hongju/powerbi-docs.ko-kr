@@ -80,7 +80,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 | **Summaries** | 잔액, 새 구매, Azure Marketplace 서비스 요금, 조정, 초과분 요금의 월별 요약입니다. |
 | **UsageDetails** | 소비된 수량 분석 및 예상 등록 요금입니다. |
 
-테이블 옆에 있는 확인란을 선택하여 미리 보기를 확인할 수 있습니다. 해당 이름 옆에 있는 확인란을 선택하여 하나 이상의 테이블을 선택한 다음 **부하**를 선택할 수 있습니다.
+테이블 옆에 있는 확인란을 선택하여 미리 보기를 확인할 수 있습니다. 해당 이름 옆에 있는 확인란을 선택하여 하나 이상의 테이블을 선택한 다음 **로드**를 선택할 수 있습니다.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
@@ -191,29 +191,29 @@ Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하
 | AcccountOwnerId |accountOwnerEmail |AccountOwnerId |아니요 |
 | AdditionalInfo |additionalInfo |AdditionalInfo |아니요 |
 | AdditionalInfold | | |예 |
-| 사용한 수량 |consumedQuantity |사용한 수량 |아니요 |
-| 사용한 서비스 |consumedService |사용한 서비스 |아니요 |
+| Consumed Quantity |consumedQuantity |사용한 수량 |아니요 |
+| Consumed Service |consumedService |사용한 서비스 |아니요 |
 | ConsumedServiceId |consumedServiceId | |예 |
-| 비용 |cost |ExtendedCost |아니요 |
-| 비용 센터 |costCenter |비용 센터 |아니요 |
-| 날짜 |날짜 |날짜 |아니요 |
-| 일 | |일 |아니요 |
+| Cost |cost |ExtendedCost |아니요 |
+| Cost Center |costCenter |비용 센터 |아니요 |
+| Date |date |날짜 |아니요 |
+| Day | |일 |아니요 |
 | DepartmentName |departmentName |부서 이름 |아니요 |
 | DepartmentID |departmentId | |예 |
 | Instance ID | | |예 |
 | InstanceId |instanceId |Instance ID |아니요 |
-| 위치 | | |예 |
-| 미터 범주 |meterCategory |미터 범주 |아니요 |
-| 미터 ID | | |예 |
-| 미터 이름 |meterName |미터 이름 |아니요 |
-| 미터 지역 |meterRegion |미터 지역 |아니요 |
-| 미터 하위 범주 |meterSubCategory |미터 하위 범주 |아니요 |
+| Location | | |예 |
+| Meter Category |meterCategory |미터 범주 |아니요 |
+| Meter ID | | |예 |
+| Meter Name |meterName |미터 이름 |아니요 |
+| Meter Region |meterRegion |미터 지역 |아니요 |
+| Meter Sub-Category |meterSubCategory |미터 하위 범주 |아니요 |
 | MeterId |meterId |미터 ID |아니요 |
-| 월 | |월 |아니요 |
-| 제품 |제품 |제품 |아니요 |
+| Month | |월 |아니요 |
+| Product |product |제품 |아니요 |
 | ProductId |productId | |예 |
-| 리소스 그룹 |resourceGroup |리소스 그룹 |아니요 |
-| 리소스 위치 |resourceLocation |리소스 위치 |아니요 |
+| Resource Group |resourceGroup |리소스 그룹 |아니요 |
+| Resource Location |resourceLocation |리소스 위치 |아니요 |
 | ResourceGroupId | | |예 |
 | ResourceLocationId |resourceLocationId | |예 |
 | ResourceRate |resourceRate |ResourceRate |아니요 |
@@ -222,13 +222,13 @@ Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하
 | ServiceInfo1Id | | |예 |
 | ServiceInfo2 |serviceInfo2 |ServiceInfo2 |아니요 |
 | ServiceInfo2Id | | |예 |
-| 저장소 서비스 식별자 |storeServiceIdentifier |저장소 서비스 식별자 |아니요 |
+| Store Service Identifier |storeServiceIdentifier |저장소 서비스 식별자 |아니요 |
 | StoreServiceIdentifierId | | |예 |
-| 구독 이름 |subscriptionName |구독 이름 |아니요 |
-| 태그 |태그 |태그 |아니요 |
+| Subscription Name |subscriptionName |구독 이름 |아니요 |
+| Tags |tags |태그 |아니요 |
 | TagsId | | |예 |
-| 측정 단위 |unitOfMeasure |측정 단위 |아니요 |
-| 연도 | |연도 |아니요 |
+| Unit Of Measure |unitOfMeasure |측정 단위 |아니요 |
+| Year | |연도 |아니요 |
 | SubscriptionId |subscriptionId |SubscriptionId |예 |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |아니요 |
 
