@@ -12,14 +12,14 @@ ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514552"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>자습서: Power BI Desktop에서 계산 열 만들기
 
-분석 중인 데이터에 원하는 결과를 얻는 데 필요한 특정 필드가 없는 경우도 있습니다. 이때 ‘계산 열’이 사용됩니다.  계산 열은 DAX(Data Analysis Expressions) 수식을 사용하여 다른 몇 개 열에서 텍스트 값을 결합하는 것부터 다른 값에서 숫자 값을 계산하는 것까지 열의 값을 정의합니다. 예를 들어 데이터에 **City** 및 **State** 필드가 포함되어 있지만 “Miami, FL”과 같이 하나의 **Location** 필드에 두 필드를 모두 포함하려 한다고 가정합니다. 계산된 열은 바로 이런 용도로 사용됩니다.
+분석 중인 데이터에 원하는 결과를 얻는 데 필요한 특정 필드가 없는 경우도 있습니다. 이때 ‘계산 열’이 사용됩니다. 계산 열은 DAX(Data Analysis Expressions) 수식을 사용하여 다른 몇 개 열에서 텍스트 값을 결합하는 것부터 다른 값에서 숫자 값을 계산하는 것까지 열의 값을 정의합니다. 예를 들어 데이터에 **City** 및 **State** 필드가 포함되어 있지만 “Miami, FL”과 같이 하나의 **Location** 필드에 두 필드를 모두 포함하려 한다고 가정합니다. 계산된 열은 바로 이런 용도로 사용됩니다.
 
 계산 열과 [측정값](desktop-tutorial-create-measures.md)은 모두 DAX 수식을 기반으로 한다는 점에서 비슷하지만 사용하는 방식이 다릅니다. 측정값은 다른 필드를 기준으로 결과 값을 계산하기 위해 시각화의 **값** 영역에 주로 사용됩니다. 계산 열은 시각화의 행, 축, 범례 및 그룹 영역에서 새 **필드**로 사용합니다.
 

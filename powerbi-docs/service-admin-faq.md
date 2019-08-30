@@ -1,6 +1,6 @@
 ---
 title: Power BI 관리 - 질문과 대답(FAQ)
-description: Power BI 가입, 테넌트 관리 및 기타 관리 작업에 대해 자주 묻는 질문과 답변을 알아봅니다.
+description: Power BI 등록, 테넌트 관리 및 기타 관리 작업에 대해 자주 묻는 질문에 대한 답변을 알아봅니다.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -23,14 +23,14 @@ ms.locfileid: "69490319"
 
 ## <a name="whats-in-this-article"></a>이 문서의 내용
 
-### <a name="sign-up-for-power-bi-section"></a>Power BI 가입 섹션
+### <a name="sign-up-for-power-bi-section"></a>Power BI 등록 섹션
 
 * [PowerShell 사용](#using-powershell)
 * [사용자가 Power BI에 등록하려면 어떻게 합니까?](#how-do-users-sign-up-for-power-bi)
 * [개별 사용자가 조직에 등록하려면 어떻게 합니까?](#how-do-individual-users-in-my-organization-sign-up)
 * [사용자가 내 기존 Office 365 테넌트에 가입하지 못하게 하려면 어떻게 합니까?](#how-can-i-prevent-users-from-joining-my-existing-office-365-tenant)
 * [사용자가 내 기존 Office 365 테넌트에 가입하도록 허용하려면 어떻게 합니까?](#how-can-i-allow-users-to-join-my-existing-office-365-tenant)
-* [테넌트에 블록이 있는지 여부를 확인하려면 어떻게 하나요?](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
+* [테넌트에 가입이 차단되어 있는지 확인하려면 어떻게 해야 하나요?](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
 * [기존 사용자가 Power BI 사용을 시작하지 못하게 하려면 어떻게 합니까?](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
 * [기존 사용자가 Power BI에 등록하도록 허용하려면 어떻게 합니까?](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)
 
@@ -39,7 +39,7 @@ ms.locfileid: "69490319"
 * [현재 조직의 사용자에 대한 ID를 관리하는 방법이 어떻게 달라집니까?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Power BI를 어떻게 관리합니까?](#how-do-we-manage-power-bi)
 * [여러 도메인이 있는 경우 사용자가 추가되는 Office 365 테넌트를 제어할 수 있나요?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
-* [이미 등록된 사용자에 대한 Power BI를 삭제하려면 어떻게 합니까?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
+* [이미 등록된 사용자의 Power BI를 제거하려면 어떻게 하나요?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [새 사용자가 내 테넌트에 가입한 경우 어떻게 알 수 있습니까?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [추가로 준비할 사항이 있나요?](#are-there-any-additional-things-i-should-prepare-for)
 * [내 Power BI 테넌트는 어디에 있습니까?](#where-is-my-power-bi-tenant-located)
@@ -180,7 +180,7 @@ Power BI 관리 포털을 사용하려면 Office 365 또는 Azure Active Directo
 > [!IMPORTANT]
 > 사용자를 만든 후 테넌트 간에 사용자를 이동하는 자동화된 지원 메커니즘은 없습니다. 단일 Office 365 테넌트에 도메인 추가에 대해 알아보려면 [Office 365에 사용자 및 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.
 
-### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>이미 등록된 사용자에 대한 Power BI를 삭제하려면 어떻게 합니까?
+### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>이미 등록된 사용자의 Power BI를 제거하려면 어떻게 하나요?
 
 사용자가 Power BI에 가입했지만 Power BI에 더 이상 액세스하지 않으려는 경우 해당 사용자에 대한 Power BI 라이선스를 제거할 수 있습니다.
 
