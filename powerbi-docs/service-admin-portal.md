@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6a1ce47d7af41df51b7c439240f3e9db0dd28397
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757731"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655141"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -188,7 +188,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ### <a name="share-content-with-external-users"></a>외부 사용자와 콘텐츠 공유
 
-조직의 사용자는 조직 외부의 사용자와 대시보드를 공유할 수 있습니다. [자세히 알아보기](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
+조직의 사용자는 조직 외부의 사용자와 대시보드를 공유할 수 있습니다. [외부 공유](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)에 관해 자세히 알아보세요.
 
 ![외부 사용자 설정](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -373,7 +373,7 @@ Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사�
 
 ### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>콘텐츠 작성자에 대한 사용 메트릭의 사용자별 데이터
 
-콘텐츠 사용자에 대한 사용 메트릭에는 콘텐츠에 액세스하는 사용자의 표시 이름 및 이메일 주소가 노출됩니다. [자세히 알아보기](service-usage-metrics.md)
+콘텐츠 사용자에 대한 사용 메트릭에는 콘텐츠에 액세스하는 사용자의 표시 이름 및 메일 주소가 노출됩니다. [자세히 알아보기](service-usage-metrics.md)
 
 사용자별 데이터는 기본적으로 사용 메트릭에 사용되도록 설정되고, 콘텐츠 생성자 계정 정보는 메트릭 보고서에 포함됩니다. 모든 사용자에 대해 이 정보를 수집하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정할 수 있습니다. 그러면 제외된 사용자에 대한 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
 

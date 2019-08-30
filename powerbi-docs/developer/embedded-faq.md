@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: af3c22197e4d6783787bd72c9cf010bf6db64bc1
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 62b5498558b2c89a23e2ed2caf3dacdf343d3a79
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270967"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490347"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -66,9 +66,10 @@ Power BI Embedded는 개발자가 임베디드 분석 솔루션을 만드는 데
 
 | 특정 | Power BI Embedded | Power BI Premium 용량 | Power BI Premium 용량 |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | (A SKU) | (EM SKU) | (P SKU) |
-| Power BI 앱 작업 영역의 아티팩트 포함 | Azure 용량 | Office 365 용량 | Office 365 용량 |
-| Embedded 애플리케이션에서 Power BI 보고서 사용 | 예 | 예 | 예 |
+|   | A SKU-Azure 용량 | EM SKU-O365 용량 | P SKU-O365 용량 |
+| Power BI 앱 작업 영역의 아티팩트 포함 | 예 | 예 | 예 |
+| 포함된 애플리케이션에서 Power BI 보고서 사용 - SaaS | 아니요 | 예 | 예 |
+| 포함된 애플리케이션에서 Power BI 보고서 사용 - PaaS | 예 | 예 | 예 |
 | SharePoint에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
 | Dynamics에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
 | Teams에서 Power BI 보고서 사용(모바일 앱 제외) | 아니요 | 예 | 예 |
@@ -122,7 +123,7 @@ Power BI Embedded는 개발자가 임베디드 분석 솔루션을 만드는 데
 
 PBI 포털을 사용하여 PBI 테넌트 지역을 찾을 수 있습니다.
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Power BI 정보
+[https://app.powerbi.com/](https://app.powerbi.com/) > ? > Power BI 정보
 
 ![Power BI 정보](media/embedded-faq/about-01.png)
 ![테넌트 지역](media/embedded-faq/tenant-location-01.png)
@@ -202,7 +203,7 @@ PowerBI.com을 사용하여 Power BI Embedded 용량에 작업 영역을 할당/
 
 ### <a name="what-content-pack-data-types-can-you-embed"></a>어떤 콘텐츠 팩 데이터 형식을 포함할 수 있나요?
 
-콘텐츠 팩 데이터 세트에서 만든 **대시보드** 및 **타일**은 포함할 수 없습니다.  단, 콘텐츠 팩 데이터 세트에서 만든 **보고서**는 포함할 수 있습니다. 
+콘텐츠 팩 데이터 세트에서 만든 **대시보드** 및 **타일**은 포함할 수 없습니다. 단, 콘텐츠 팩 데이터 세트에서 만든 **보고서**는 포함할 수 있습니다.
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>RLS(행 수준 보안)를 사용하는 것과 JavaScript 필터를 사용하는 차이는 무엇인가요?
 
@@ -216,15 +217,15 @@ RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데�
 
 ### <a name="how-do-i-manage-permissions-for-service-principals-with-power-bi"></a>Power BI를 사용하여 서비스 주체에 대한 사용 권한을 관리하려면 어떻게 해야 하나요?
 
-[서비스 주체](embed-service-principal.md)가 Power BI를 사용하도록 설정하면 애플리케이션의 AD 사용 권한이 더 이상 적용되지 않습니다. 응용 프로그램 사용 권한은 Power BI 관리 포털을 통해 관리됩니다.
+[서비스 주체](embed-service-principal.md)가 Power BI를 사용하도록 설정하면 애플리케이션의 AD 사용 권한이 더 이상 적용되지 않습니다. 애플리케이션 사용 권한은 Power BI 관리 포털을 통해 관리됩니다.
 
 서비스 주체는 해당 보안 그룹의 모든 Power BI 테넌트 설정에 대한 사용 권한을 상속받습니다. 사용 권한을 제한하려면 서비스 주체에 대한 전용 보안 그룹을 만들어서, 활성화된 해당 Power BI 설정에 대한 **특정 보안 그룹 제외** 목록에 추가합니다.
 
 이 경우는 서비스 주체를 **관리자**로 새 작업 영역에 추가할 때 중요합니다. 이 작업은 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 또는 Power BI 서비스를 통해 관리할 수 있습니다.
 
-### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>응용 프로그램 ID 및 서비스 주체 개체 ID를 사용하는 시기는?
+### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>애플리케이션 ID 및 서비스 주체 개체 ID를 사용하는 시기는?
 
-**[응용 프로그램 ID](embed-sample-for-customers.md#application-id)** 는 인증을 위해 응용 프로그램 ID를 전달할 때 액세스 토큰을 만드는 데 사용됩니다.
+**[애플리케이션 ID](embed-sample-for-customers.md#application-id)** 는 인증을 위해 애플리케이션 ID를 전달할 때 액세스 토큰을 만드는 데 사용됩니다.
 
 작업을 위해 서비스 주체를 참조하거나 변경하려면 **[서비스 주체 개체 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)** 를 사용합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
 
@@ -296,11 +297,11 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
 
 ### <a name="what-is-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션이란?
 
-**Power BI 작업 영역 컬렉션**( **Power BI Embedded** 버전 1)은 **Power BI 작업 영역 컬렉션** Azure 리소스에 기반한 솔루션입니다. 이 솔루션을 사용하면 애플리케이션을 Power BI에 대해 인증하는 데 **Power BI 작업 영역 컬렉션** 솔루션의 Power BI 콘텐츠, 전용 API 및 작업 영역 컬렉션 키를 사용하는 고객의 **Power BI Embedded** 애플리케이션을 만들 수 있습니다.
+**Power BI 작업 영역 컬렉션**(** Power BI Embedded** 버전 1)은 **Power BI 작업 영역 컬렉션** Azure 리소스에 기반한 솔루션입니다. 이 솔루션을 사용하면 애플리케이션을 Power BI에 대해 인증하는 데 **Power BI 작업 영역 컬렉션** 솔루션의 Power BI 콘텐츠, 전용 API 및 작업 영역 컬렉션 키를 사용하는 고객의 **Power BI Embedded** 애플리케이션을 만들 수 있습니다.
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션할 수 있나요?
 
-1. 마이그레이션 도구를 사용하여 **Power BI 작업 영역 컬렉션** 콘텐츠를 Power BI - https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration 에 복제할 수 있습니다.
+1. 마이그레이션 도구를 사용하여 **Power BI 작업 영역 컬렉션** 콘텐츠를 Power BI - https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration에 복제할 수 있습니다.
 
 2. Power BI 콘텐츠를 사용하는 **Power BI Embedded** 애플리케이션 POC를 시작합니다.
 
@@ -351,7 +352,7 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
 
 **조직에 대한 콘텐츠 포함** 환경을 사용하는 경우 *PowerBI-Developer-Samples.zip* 파일을 저장하고 압축을 풉니다. 그런 다음, *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 폴더를 열고, *pbi-saas-embed-report.sln* 파일을 실행합니다.
 
-### <a name="how-can-i-edit-my-registered-application"></a>등록된 응용 프로그램을 편집할 수 있는 방법
+### <a name="how-can-i-edit-my-registered-application"></a>등록된 애플리케이션을 편집할 수 있는 방법
 
 Azure AD에 등록된 애플리케이션을 편집하는 방법을 알아보려면 [빠른 시작: Azure Active Directory에서 애플리케이션 업데이트](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)를 참조하세요.
 

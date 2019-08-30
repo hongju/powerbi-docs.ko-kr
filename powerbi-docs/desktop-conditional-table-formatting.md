@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222276"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561066"
 ---
 # <a name="conditional-formatting-in-tables"></a>테이블에서 조건부 서식 지정 
 테이블에 조건부 서식을 사용하면 셀 값을 기반으로 하거나 다른 값 또는 필드를 기반으로 하여 그라데이션 색을 사용하는 등 사용자 지정된 셀 색을 지정할 수 있습니다. 데이터 막대를 사용하여 셀 값을 표시할 수도 있습니다. 
@@ -130,11 +130,17 @@ ms.locfileid: "66222276"
 
 상상력 및 DAX를 사용하여 더 다양한 변형을 만들 수 있습니다.
 
-CSS 색 사양에 나열 된 값 중 하나를 사용할 수 있습니다 [ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/) 색 시각적 개체:
-* 3, 6 개월 또는 8 자리 16 진수 코드 예: #3E4AFF 합니다. 코드의 시작 부분에 # 기호를 포함 해야 합니다. "3E4AFF"는 허용 되지 않습니다. 
-* RGB 또는 RGBA (234, 234, 234, 0.5) 예를 들어 RGBA 값
-* HSL 또는 HSLA 값 예: HSLA (예: 123, 75%, 75%, 0.5)
-* 색 이름을 SkyBlue, 녹색 PeachPuff 예: 
+[https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/)의 CSS 색 사양에 나열된 값 중 하나를 사용하여 시각적 개체의 색을 지정할 수 있습니다.
+* 3자리, 6자리 또는 8자리 16진수 코드(예: #3E4AFF). 코드의 시작 부분에 # 기호를 포함해야 합니다. “3E4AFF”는 허용되지 않습니다. 
+* RGB 또는 RGBA 값(예: RGBA(234, 234, 234, 0.5))
+* HSL 또는 HSLA 값(예: HSLA(123, 75%, 75%, 0.5))
+* 색 이름(예: Green, SkyBlue, PeachPuff) 
+
+## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
+조건부 테이블 형식으로 작업하는 경우 유의해야 하는 몇 가지 고려 사항이 있습니다.
+
+* 조건부 서식은 **행렬** 시각적 개체의 값에만 적용되고, 소계 또는 총합계에는 적용되지 않습니다. 
+
 
 ## <a name="next-steps"></a>다음 단계
 자세한 내용은 다음 아티클을 참조하세요.  

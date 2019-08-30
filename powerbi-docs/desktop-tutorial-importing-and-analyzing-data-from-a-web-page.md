@@ -29,7 +29,7 @@ ms.locfileid: "65514627"
 
 ## <a name="connect-to-a-web-data-source"></a>웹 데이터 원본에 연결
 
-[http://en.wikipedia.org/wiki/UEFA_European_Football_Championship](http://en.wikipedia.org/wiki/UEFA_European_Football_Championship ) 의 UEFA 유럽 축구 선수권 대회 Wikipedia 페이지에 있는 Results 테이블에서 UEFA 우승팀 데이터를 가져올 수 있습니다. 
+[http://en.wikipedia.org/wiki/UEFA_European_Football_Championship](http://en.wikipedia.org/wiki/UEFA_European_Football_Championship )의 UEFA 유럽 축구 선수권 대회 Wikipedia 페이지에 있는 Results 테이블에서 UEFA 우승팀 데이터를 가져올 수 있습니다. 
 
 ![Wikipedia Results 테이블](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -37,7 +37,7 @@ ms.locfileid: "65514627"
 
 데이터를 가져오려면:
 
-1. Power BI Desktop 리본 메뉴의 **홈** 탭 **외부 데이터** 그룹의 **데이터 가져오기** 를 클릭한 후 **웹**을 선택합니다.
+1. Power BI Desktop 리본 메뉴의 **홈** 탭 **외부 데이터** 그룹의 **데이터 가져오기**를 클릭한 후 **웹**을 선택합니다.
    
    ![리본에서 데이터 가져오기](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web3.png) 
    
@@ -128,7 +128,7 @@ ms.locfileid: "65514627"
 >[!TIP]
 >항상 **파워 쿼리 편집기**로 돌아가서 다음과 같이 쿼리를 편집하고 구체화할 수 있습니다.
 >- **필드** 창의 **Euro Cup Winners** 옆에 있는 **추가 옵션** 줄임표( **...** )를 선택하고 드롭다운에서 **쿼리 편집** 을 선택하거나,
->- 보고서 보기의 **홈** 리본 탭에 있는**외부 데이터** 그룹에서 **쿼리 편집** > **쿼리 편집**을 선택합니다. 
+>- 보고서 보기의 **홈** 리본 탭에 있는 **외부 데이터** 그룹에서 **쿼리 편집** > **쿼리 편집**을 선택합니다. 
 
 ## <a name="create-a-visualization"></a>시각화 만들기
 

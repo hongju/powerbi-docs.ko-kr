@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/15/2018
+ms.date: 08/08/2019
 ms.author: maggies
-ms.openlocfilehash: 27b3aad6f1a96c069f56ed68823b71b38115a98a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7727157a9227a5340fccf0af129d87f69edd8c72
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770639"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994808"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한 구성
 
@@ -63,8 +63,10 @@ Intune을 사용하여 구성 정책 설정하는 예제는 다음과 같습니�
 이제 보고서 서버에 저장된 KPI 및 Power BI 보고서를 확인하고 상호 작용할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[관리자 개요](admin-handbook-overview.md)  
-[Power BI Report Server 설치](install-report-server.md)  
+
+- [Azure AD 애플리케이션 프록시를 사용하여 Power BI Mobile에 대한 원격 액세스 설정](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+- [관리자 개요](admin-handbook-overview.md)  
+- [Power BI Report Server 설치](install-report-server.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

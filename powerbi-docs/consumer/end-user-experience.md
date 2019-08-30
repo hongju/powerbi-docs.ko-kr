@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 서비스 살펴보기
 description: Power BI 탐색 환경 개요
 author: mihart
@@ -43,7 +43,7 @@ Power BI 서비스 둘러보기에서 사용할 샘플 데이터를 가져오겠
 
     ![대시보드](media/end-user-experience/power-bi-dashboard.png)
 
-Amanda가 여러분에게 Power BI 서비스 탐색 환경을 안내하는 것을 시청해 보세요. 그런 다음 비디오 아래에 있는 단계별 지침을 따라서 직접 탐색해 볼 수 있습니다.
+Amanda가 여러분에게 Power BI 서비스 탐색 환경을 안내하는 것을 시청해 보세요.  그런 다음 비디오 아래에 있는 단계별 지침을 따라서 직접 탐색해 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 

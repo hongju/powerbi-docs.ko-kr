@@ -20,9 +20,7 @@ ms.locfileid: "64769812"
 
 Power BI Report Server를 사용하는 RLS(행 수준 보안)를 설정하면 지정된 사용자의 데이터 액세스를 제한할 수 있습니다. 필터는 행 수준에서 데이터 액세스를 제한하고 역할 내에서 필터를 정의할 수 있습니다.  Power BI Report Server에서 기본 권한을 사용하는 경우, Power BI 보고서에 대한 게시자 또는 콘텐츠 관리자 권한이 있는 사용자는 해당 보고서의 역할에 멤버를 할당할 수 있습니다.    
 
-
-Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성합니다. SQL Server와 같이 DirectQuery를 사용하는 보고서에서 RLS를 구성할 수도 있습니다. DirectQuery 연결에서 보고서 읽기 권한자에 대한 통합 인증을 사용하는 경우에는 RLS가 준수되지 않는다는 점을 명심하세요. Analysis Services 라이브 연결의 경우 온-프레미스 모델에서 행 수준 보안을 구성합니다. 라이브 연결 데이터 세트에는 보안 옵션이 표시되지 않습니다. 
-
+Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성합니다. SQL Server와 같이 DirectQuery를 사용하는 보고서에서 RLS를 구성할 수도 있습니다.  DirectQuery 연결에서 보고서 읽기 권한자에 대한 통합 인증을 사용하는 경우에는 RLS가 준수되지 않는다는 점을 명심하세요. Analysis Services 라이브 연결의 경우 온-프레미스 모델에서 행 수준 보안을 구성합니다. 라이브 연결 데이터 세트에는 보안 옵션이 표시되지 않습니다. 
 
 [!INCLUDE [rls-desktop-define-roles](../includes/rls-desktop-define-roles.md)]
 
@@ -30,7 +28,7 @@ Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성�
 
 기본적으로 행 수준 보안 필터링은 관계가 단방향 또는 양방향으로 설정되었는지 여부에 관계없이 단방향 필터를 사용합니다. 행 수준 보안을 사용하여 양방향 교차 필터를 수동으로 활성화할 수 있습니다.
 
-- 관계를 선택하고 **양방향으로 보안 필터 적용** 확인란을 선택합니다.
+- 관계를 선택하고 **양방향으로 보안 필터 적용** 확인란을 선택합니다. 
 
     ![보안 필터 적용](media/row-level-security-report-server/rls-apply-security-filter.png)
 

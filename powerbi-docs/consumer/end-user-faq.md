@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0e63025c4e8a07e9cd22c82ca7e605042fa65be0
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 5efdb98e0722add361f3b333f773fc03c6ea50a9
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264307"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654134"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 
@@ -29,7 +29,7 @@ Power BI 서비스는 모든 사용자가 데이터에 대한 폭넓은 이해�
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro와 Power BI Premium의 차이점은 무엇인가요?
 
-Power BI Pro는 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 라이선스입니다. 콘텐츠를 공유하고 다른 Pro 사용자와 협업할 수도 있습니다. Pro 사용자만 앱 작업 영역에서 콘텐츠를 게시 및 사용하고, 대시보드를 공유하고, 대시보드 및 보고서를 구독할 수 있습니다.
+Power BI Pro는 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 라이선스입니다. 콘텐츠를 공유하고 다른 Pro 사용자와 협업할 수도 있습니다. Pro 사용자만 앱 작업 영역으로 콘텐츠를 게시하고, 대시보드를 공유하며, 대시보드 및 보고서를 구독할 수 있습니다.
 
 Power BI Premium은 보다 일관된 성능을 제공할 수 있는 전용 용량을 제공합니다. Power BI에서 더 큰 데이터 볼륨도 지원합니다. 개별 사용자의 경우, 프리미엄을 통해 Pro 사용자별 콘텐츠를 광범위하게 배포할 수 있으며 콘텐츠를 보는 수신자에게 사용자별 라이선스를 요구하지 않습니다.
 

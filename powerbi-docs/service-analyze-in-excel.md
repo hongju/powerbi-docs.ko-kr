@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI용 Excel에서 분석
 description: Excel에서 Power BI 데이터 세트를 분석하는 방법 알아보기
 author: davidiseminger
@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Reports
 ms.openlocfilehash: 7ccbfee788bbada580c02544a4af4b1b25c1a169
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514215"
@@ -25,10 +25,10 @@ Excel을 사용하여 Power BI에 있는 데이터 세트를 살펴보고 상호
 **Excel에서 분석**을 사용하려면 몇 가지 요구 사항이 있습니다.
 
 * **Excel에서 분석**은 Microsoft Excel 2010 SP1 이상에 지원됩니다.
-* Excel 피벗 테이블은 숫자 필드의 집계를 끌어서 놓도록 지원하지 않습니다. Power BI에서 데이터 세트는 _미리 정의된 측정값을 가지고 있어야 합니다._
+* Excel 피벗 테이블은 숫자 필드의 집계를 끌어서 놓도록 지원하지 않습니다. Power BI에서 데이터 세트는 *미리 정의된 측정값을 가지고 있어야 합니다.*
 * 일부 조직에서는 Excel에 필수 **Excel에서 분석** 업데이트 설치를 막는 그룹 정책 규칙이 있을 수 있습니다. 업데이트를 설치할 수 없는 경우 관리자에게 확인합니다.
 * **Excel에서 분석**에서는 데이터 세트가 Power BI Premium에 위치하거나 사용자에게 Power BI Pro 라이선스가 필요합니다. 라이선스 유형 간 기능의 차이점에 대해 학습하려면 [라이선스 유형별 Power BI 기능](service-features-license-type.md)을 살펴보세요. 
-* 기본 데이터 집합에 대한 읽기 권한이 있는 사용자는 Excel에서 분석을 통해 데이터 세트에 연결할 수 있습니다. 사용자는 여러 가지 방법으로 사용 권한을 얻을 수 있습니다(데이터 세트를 포함하는 작업 영역의 멤버이거나, 해당 데이터 세트를 사용하는 사용자와 공유된 보고서 또는 대시보드가 있거나 해당 데이터 세트를 포함하는 앱에 대한 사용 권한이 있는 경우).
+* 기본 데이터 집합에 대한 읽기 권한이 있는 사용자는 Excel에서 분석을 통해 데이터 세트에 연결할 수 있습니다.  사용자는 여러 가지 방법으로 사용 권한을 얻을 수 있습니다(데이터 세트를 포함하는 작업 영역의 멤버이거나, 해당 데이터 세트를 사용하는 사용자와 공유된 보고서 또는 대시보드가 있거나 해당 데이터 세트를 포함하는 앱에 대한 사용 권한이 있는 경우).
 
 ## <a name="how-does-it-work"></a>어떻게 작동합니까?
 **Power BI**의 데이터 세트나 보고서와 연결된 줄임표 메뉴(...)에서 **Excel에서 분석**을 선택하면, Power BI에서 .ODC 파일을 만들고 브라우저에서 컴퓨터로 다운로드합니다.

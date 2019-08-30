@@ -97,7 +97,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 자세한 내용은 [Power BI 모바일 앱의 즐겨찾기](mobile-apps-favorites.md)를 읽어보세요.
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에 대한 Enterprise 지원
-조직에서 Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱을 포함한 장치 및 애플리케이션을 관리할 수 있습니다.
+조직에서 Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱을 포함한 디바이스 및 애플리케이션을 관리할 수 있습니다.
 
 Microsoft Intune을 사용하면 액세스 핀이 필요하고, 애플리케이션에서 데이터를 처리하는 방법을 제어하며, 앱을 사용하지 않을 때 애플리케이션 데이터를 암호화하는 것과 같은 항목을 조직에서 제어할 수 있습니다.
 

@@ -76,7 +76,7 @@ ms.locfileid: "68867185"
 
     ![왼쪽 탐색 창의 앱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. 대시보드 이름 옆에 있는 줄임표(...)를 선택하고 **이름 바꾸기**를 선택한다 음 **GitHub 대시보드**를 입력합니다.
+10. 대시보드 이름 옆의 줄임표 (...) > **이름 바꾸기** > **GitHub 대시보드**를 입력합니다.
  
     ![Power BI - GitHub 타일](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 

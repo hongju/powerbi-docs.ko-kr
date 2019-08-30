@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI에서 사용하는 서비스에 연결
 description: Salesforce, Microsoft Dynamics CRM, Google 분석과 같은 비즈니스를 운영하는 데 사용하는 다양한 서비스에 연결합니다.
 author: maggiesMSFT
@@ -11,7 +11,7 @@ ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 53abb5f82b75773817c72b53dd3e522cb4ccc63e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64578742"
@@ -23,7 +23,7 @@ Power BI를 사용하여, 비즈니스를 운영하기 위해  Salesforce, Micro
 
 ![AppSource 앱](media/service-connect-to-services/overview.png)
 
-앱을 설치한 후, Power BI 서비스([https://app.powerbi.com](https://app.powerbi.com))에서 앱 및 작업 영역에서 대시보드 및 보고서를 볼 수 있습니다. 또한 Power BI 모바일 앱에서 보고서와 대시보드를 볼 수 있습니다. 작업 영역에서, 대시보드 및 보고서를 조직의 요구에 맞게 수정한 다음 동료에게 *앱*으로 배포할 수 있습니다.
+앱을 설치한 후, Power BI 서비스([https://app.powerbi.com](https://app.powerbi.com))에서 앱 및 작업 영역에서 대시보드 및 보고서를 볼 수 있습니다. 또한 Power BI 모바일 앱에서 보고서와 대시보드를 볼 수 있습니다. 작업 영역에서, 대시보드 및 보고서를 조직의 요구에 맞게 수정한 다음 동료에게 *앱*으로 배포할 수 있습니다. 
 
 ![Power BI 모바일 앱의 Google 웹로그 분석 앱](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
@@ -69,5 +69,5 @@ Power BI 앱에 제안하려는 서비스를 사용하나요? [Power BI 지원](
 * [동료에게 앱 배포](service-create-distribute-apps.md)
 * [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)
 * 궁금한 점이 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

@@ -21,7 +21,7 @@ ms.locfileid: "68523300"
 
 Power BI 보안에 대한 자세한 설명은 [Power BI 보안 백서를 참조](whitepaper-powerbi-security.md)하세요.
 
-Power BI 서비스는 Microsoft 클라우드 컴퓨팅 인프라 및 플랫폼인 **Azure**를 기반으로 합니다. Power BI 서비스 아키텍처는 **WFE(웹 프런트 엔드)** 클러스터 및 **백엔드** 클러스터 등, 두 클러스터를 기반으로 합니다. WFE 클러스터는 Power BI 서비스에 대한 최초 연결과 인증을 관리하며, 인증 후에는 백엔드가 이후의 모든 사용자 상호 작용을 처리합니다. Power BI는 AAD(Azure Active Directory)를 사용하여 사용자 ID를 저장 및 관리하며 각각 Azure BLOB와 Azure SQL Database를 사용하여 데이터 및 메타 데이터 저장을 관리합니다.
+Power BI 서비스는 Microsoft 클라우드 컴퓨팅 인프라 및 플랫폼인 **Azure**를 기반으로 합니다. Power BI 서비스 아키텍처는 **WFE(웹 프런트 엔드)** 클러스터 및 **백엔드** 클러스터 등, 두 클러스터를 기반으로 합니다. WFE 클러스터는 Power BI 서비스에 대한 최초 연결과 인증을 관리하며, 인증 후에는 백엔드가 이후의 모든 사용자 상호 작용을 처리합니다. Power BI는 AAD(Azure Active Directory)를 사용하여 사용자 ID를 스토리지 및 관리하며 각각 Azure BLOB와 Azure SQL Database를 사용하여 데이터 및 메타 데이터 스토리지을 관리합니다.
 
 ## <a name="power-bi-architecture"></a>Power BI 아키텍처
 
@@ -31,7 +31,7 @@ Power BI 서비스는 Microsoft 클라우드 컴퓨팅 인프라 및 플랫폼�
 
 ![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
-**백엔드** 클러스터는 인증된 클라이언트가 Power BI 서비스와 상호 작용하는 방식입니다. **백엔드** 클러스터는 시각화, 사용자 대시보드, 데이터 집합, 보고서, 데이터 저장소, 데이터 연결, 데이터 새로 고침 및 기타 Power BI 서비스의 상호 작용 측면을 관리합니다. **게이트웨이 역할** 은 사용자 요청과 Power BI 서비스 간의 게이트웨이로 작동합니다. 사용자는 **게이트웨이 역할**이외의 역활과 직접적인 상호 작용이 없습니다. 결과적으로 **Azure API Management**는 **게이트웨이 역할**을 처리합니다.
+**백엔드** 클러스터는 인증된 클라이언트가 Power BI 서비스와 상호 작용하는 방식입니다. **백엔드** 클러스터는 시각화, 사용자 대시보드, 데이터 세트, 보고서, 데이터 스토리지, 데이터 연결, 데이터 새로 고침 및 기타 Power BI 서비스의 상호 작용 측면을 관리합니다. **게이트웨이 역할** 은 사용자 요청과 Power BI 서비스 간의 게이트웨이로 작동합니다. 사용자는 **게이트웨이 역할**이외의 역활과 직접적인 상호 작용이 없습니다. 결과적으로 **Azure API Management**는 **게이트웨이 역할**을 처리합니다.
 
 ![](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 

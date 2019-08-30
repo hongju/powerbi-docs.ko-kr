@@ -53,6 +53,10 @@
       items:
         - name: 최신 Power BI Desktop 업데이트의 새로운 기능
           href: desktop-latest-update.md
+        - name: Power BI Desktop에서 시각적 개체 그룹화
+          href: desktop-grouping-visuals.md
+        - name: Power BI Desktop에서 템플릿 사용
+          href: desktop-templates.md
         - name: Power BI Desktop의 모델링 보기
           href: desktop-modeling-view.md
         - name: Power BI Desktop의 집계
@@ -113,7 +117,7 @@
               href: desktop-data-sources.md
             - name: 예를 통해 웹 페이지에 연결(미리 보기)
               href: desktop-connect-to-web-by-example.md
-            - name: Power BI 서비스의 데이터 집합에 연결
+            - name: Power BI 서비스의 데이터 세트에 연결
               href: desktop-report-lifecycle-datasets.md
             - name: Power BI Desktop에 Excel 통합 문서 가져오기
               href: desktop-import-excel-workbooks.md
@@ -489,7 +493,7 @@
           items:
             - name: 작업 영역에서 데이터 세트 사용
               href: service-datasets-across-workspaces.md
-            - name: 데이터 세트 생성 및 공유(미리 보기)
+            - name: 데이터 집합 공유(미리 보기)
               href: service-datasets-build-permissions.md
             - name: 데이터 세트를 기반으로 보고서 만들기
               href: service-datasets-discover-across-workspaces.md
@@ -753,8 +757,6 @@
                   href: service-connect-to-services.md
                 - name: Acumatica
                   href: service-connect-to-acumatica.md
-                - name: Adobe Analytics
-                  href: service-connect-to-adobe-analytics.md
                 - name: Alpine Metrics Sales Predictions
                   href: service-connect-to-alpine-metrics.md
                 - name: appFigures
@@ -785,8 +787,6 @@
                   href: service-connect-to-intelliboard.md
                 - name: Lithium
                   href: service-connect-to-lithium.md
-                - name: MailChimp
-                  href: service-connect-to-mailchimp.md
                 - name: Mandrill
                   href: service-connect-to-mandrill.md
                 - name: Marketo
@@ -817,10 +817,6 @@
                   href: service-connect-to-servicenow.md
                 - name: Smartsheet
                   href: service-connect-to-smartsheet.md
-                - name: SparkPost
-                  href: service-connect-to-sparkpost.md
-                - name: SQL Database 감사
-                  href: service-connect-to-azure-sql-database-auditing.md
                 - name: SQL Sentry
                   href: service-connect-to-sql-sentry.md
                 - name: Stripe
@@ -847,8 +843,6 @@
                   href: service-connect-to-zendesk.md
                 - name: Ziosk
                   href: service-connect-to-ziosk.md
-                - name: Zuora
-                  href: service-connect-to-zuora.md
             - name: 조직 콘텐츠 팩
               items:
                 - name: 조직 콘텐츠 팩 소개
@@ -1289,6 +1283,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: 원격으로 모바일 앱 액세스 구성
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: Azure AD를 사용하여 원격 모바일 액세스
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Excel 통합 문서 호스트
               href: report-server/excel-oos.md
     - name: 참조
@@ -1424,3 +1420,11 @@
           href: service-admin-governance.md
         - name: Power BI 보안
           href: service-admin-power-bi-security.md
+- name: 지침
+  items:
+    - name: 별모양 스키마란?
+      href: guidance/star-schema.md
+    - name: 데이터 모델 크기 줄이기
+      href: guidance/import-modeling-data-reduction.md
+    - name: 나누기 함수 및 나누기 연산자(/)
+      href: guidance/dax-divide-function-operator.md

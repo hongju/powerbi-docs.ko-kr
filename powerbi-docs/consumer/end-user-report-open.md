@@ -1,4 +1,4 @@
----
+﻿---
 title: 보고서 보기
 description: 이 항목에서는 Power BI 소비자와 최종 사용자가 Power BI 보고서를 열고 보아야 하는 내용을 표시합니다.
 author: mihart
@@ -12,7 +12,7 @@ ms.date: 5/06/2018
 ms.author: mihart
 ms.openlocfilehash: cda8ec807873f0d6cda09dce90f0d8a823ce50ee
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65609109"
@@ -47,7 +47,7 @@ Power BI *디자이너*는 직접 보고서를 공유할 수 있습니다. 이�
 
    ![보고서 페이지](./media/end-user-report-open/power-bi-filter-pane.png)
 
-5. 왼쪽에 있는 탭을 확인합니다. 각 탭은 보고서 ‘페이지’를 나타냅니다. 현재 *성장 기회* 페이지가 열려 있습니다. 대신 해당 보고서 페이지를 열려면 *YTD 범주* 탭을 선택합니다. 
+5. 왼쪽에 있는 탭을 확인합니다.  각 탭은 보고서 ‘페이지’를 나타냅니다. 현재 *성장 기회* 페이지가 열려 있습니다. 대신 해당 보고서 페이지를 열려면 *YTD 범주* 탭을 선택합니다. 
 
    ![보고서 페이지 탭](./media/end-user-report-open/power-bi-tab-new.png)
 
@@ -73,7 +73,7 @@ Power BI *디자이너*는 직접 보고서를 공유할 수 있습니다. 이�
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>대시보드에서 보고서 열기
-대시보드에서 보고서를 열 수 있습니다. 대부분의 대시보드 타일은 보고서에서 ‘고정’됩니다.  타일을 선택하면 타일을 만드는 데 사용된 보고서가 열립니다. 
+대시보드에서 보고서를 열 수 있습니다. 대부분의 대시보드 타일은 보고서에서 ‘고정’됩니다. 타일을 선택하면 타일을 만드는 데 사용된 보고서가 열립니다. 
 
 1. 대시보드에서 타일을 선택합니다. 이 예에서는 "총 단위 YTD..." 열 차트 타일을 선택했습니다.
 
@@ -90,11 +90,11 @@ Power BI *디자이너*는 직접 보고서를 공유할 수 있습니다. 이�
 ##  <a name="still-more-ways-to-open-a-report"></a>보고서를 열 수 있는 기타 방법
 Power BI 서비스를 보다 더 편안하게 탐색할 수 있게 되면, 자신에게 가장 적합한 워크플로를 파악할 수 있게 됩니다. 보고서에 액세스하는 몇 가지 다른 방법은 다음과 같습니다.
 - **즐겨찾기** 및 **최근 항목**을 사용하여 탐색 모음에서    
-- [관련 항목 보기](end-user-related.md)를 사용    
+- [관련 항목 보기](end-user-related.md) 를 사용    
 - 누군가가 [사용자와 공유](../service-share-reports.md)하거나 [경고를 설정](end-user-alerts.md)할 때 메일을 통해    
 - [알림 센터](end-user-notification-center.md)를 통해    
 - 기타
 
 ## <a name="next-steps"></a>다음 단계
-[보고서와 상호 작용하는 여러 가지 방법](end-user-reading-view.md)이 있습니다. 보고서 캔버스에 있는 각 탭을 선택하여 탐색을 시작합니다.
+[보고서와 상호 작용하는 여러 가지 방법](end-user-reading-view.md)이 있습니다.  보고서 캔버스에 있는 각 탭을 선택하 여 탐색을 시작 합니다.
 

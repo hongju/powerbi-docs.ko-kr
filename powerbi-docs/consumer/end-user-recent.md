@@ -14,7 +14,7 @@ ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61054912"
@@ -37,7 +37,7 @@ Amanda가 Power BI 서비스 **최근** 콘텐츠 목록을 채우는 방법을 
 
 ![모든 최근 콘텐츠 표시](./media/end-user-recent/power-bi-recent-list.png)
 
-여기에서 상호 작용할 수 있습니다 콘텐츠 개별 하듯이 [ **대시보드**](end-user-dashboards.md)하십시오 [ **보고서**](end-user-reports.md), 및  **통합 문서** 탭 및 앱 <!--[**Apps**](end-user-apps.md)--> 화면입니다.
+여기에서 개별 [ **대시보드**](end-user-dashboards.md), [ **보고서**](end-user-reports.md), **통합 문서** 탭 및 앱 <!--[**Apps**](end-user-apps.md)--> 화면에서처럼 콘텐츠와 상호 작용할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 <!--[Power BI service Apps](end-user-apps.md)-->

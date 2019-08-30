@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 서비스를 열었을 때 표시되는 대시보드 선택
 description: Power BI 서비스에서 주요 대시보드를 만드는 방법에 대한 설명서
 author: mihart
@@ -14,7 +14,7 @@ ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65608589"
@@ -25,7 +25,7 @@ ms.locfileid: "65608589"
 
 ![추천으로 설정 아이콘](./media/end-user-featured/power-bi-dropdown.png)
 
-대시보드를 *주요* 대시보드로 선택하는 경우, Power BI 서비스를 열 때마다 해당 대시보드가 표시된 상태로 열립니다. 
+대시보드를 *주요* 대시보드로 선택하는 경우, Power BI 서비스를 열 때마다 해당 대시보드가 표시된 상태로 열립니다.  
 
 또한 몇 가지 대시보드를 선택하고 *즐겨찾기*로 설정할 수도 있습니다. [대시보드 즐겨찾기](end-user-favorite.md)를 참조하세요.
 

@@ -13,7 +13,7 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 0c22d005044c0ebddc242eb35908e26689fee597
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61186897"

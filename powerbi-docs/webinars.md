@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: ec50369715efdd7bcb9ab764a3240acceb72508e
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 5a5dca5c3fb4b3b375d3fbb603703e8aaaf91c6c
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418650"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023428"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -22,7 +22,9 @@ ms.locfileid: "67418650"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
+**Dynamics 365 Finance and Operations와 함께 Power BI 사용**
+<br>작성자: Kevin Horlock
+<br>[9월 11일 시청 등록](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
 
 >[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

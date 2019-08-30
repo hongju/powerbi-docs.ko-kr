@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b4e134ef6f8da43a1856c8a5458c8c09b2c42b5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 7917edc17bd93d96c22641b14c4c70bfe3222e10
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522169"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621263"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Power BI Desktop의 식 기반 제목
 
@@ -57,7 +57,7 @@ SWITCH (
 
 필드를 선택하고 적용하려면 **시각화** 창으로 이동합니다. **서식** 영역에서 **제목**을 선택하여 시각적 개체의 제목 옵션을 표시합니다. 
 
-**제목 텍스트**를 마우스 오른쪽 단추로 클릭하면 상황에 맞는 메뉴가 나타나며, 여기서 ***fx*조건부 서식 지정**을 선택할 수 있습니다. 해당 메뉴 항목을 선택하면 **제목 텍스트** 대화 상자가 나타납니다. 
+**제목 텍스트**를 마우스 오른쪽 단추로 클릭하면 상황에 맞는 메뉴가 나타나며, 여기서 **<em>fx</em>조건부 서식 지정**을 선택할 수 있습니다. 해당 메뉴 항목을 선택하면 **제목 텍스트** 대화 상자가 나타납니다. 
 
 ![제목 텍스트 대화 상자 스크린샷](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 

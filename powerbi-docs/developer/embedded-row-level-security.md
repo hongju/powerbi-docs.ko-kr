@@ -77,9 +77,9 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>포함된 토큰에 사용자 및 역할 적용
 
-이제 Power BI Desktop 역할을 구성했으므로 역할을 활용하기 위해 응용 프로그램에 필요한 몇 가지 작업이 있습니다.
+이제 Power BI Desktop 역할을 구성했으므로 역할을 활용하기 위해 애플리케이션에 필요한 몇 가지 작업이 있습니다.
 
-사용자가 응용 프로그램에 의해 인증되고 권한을 부여 받고 포함된 토큰을 사용하여 특정 Power BI Embedded 보고서에 대한 사용자 액세스 권한을 부여합니다. Power BI Embedded에는 사용자에 대한 특정 정보가 없습니다. RLS가 작동하려면 ID 양식에서 포함 토큰의 일부로 몇 가지 추가 컨텍스트를 통과해야 합니다. [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API를 사용하여 ID를 전달할 수 있습니다.
+사용자가 애플리케이션에 의해 인증되고 권한을 부여 받고 포함된 토큰을 사용하여 특정 Power BI Embedded 보고서에 대한 사용자 액세스 권한을 부여합니다. Power BI Embedded에는 사용자에 대한 특정 정보가 없습니다. RLS가 작동하려면 ID 양식에서 포함 토큰의 일부로 몇 가지 추가 컨텍스트를 통과해야 합니다. [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API를 사용하여 ID를 전달할 수 있습니다.
 
 API는 관련 데이터 세트가 표시된 ID 목록을 수락합니다. RLS를 실행하려면 ID의 일부로 다음 내용을 전달해야 합니다.
 
