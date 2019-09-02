@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e7db66dfb79cd0348967369d92e7b13c698d8f71
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 98be77e2cfe53e535dd322317246549a6b4324a4
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61180788"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185968"
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>Power BI로 ClickDimensions에 연결
 Power BI용 ClickDimensions 콘텐츠 팩은 Power BI에서 ClickDimensions 마케팅 데이터를 활용하여 판매 및 마케팅 노력이 성공할 수 있도록 관리팀에 추가적인 정보를 제공합니다. Power BI 대시보드 및 보고서에서 전자 메일 상호 작용, 웹 방문 및 형식 전송을 시각화하고 분석합니다.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Power BI용 [ClickDimensions 콘텐츠 팩](https://app.powerbi.com/getdata/services/click-dimensions)에 연결합니다.
 

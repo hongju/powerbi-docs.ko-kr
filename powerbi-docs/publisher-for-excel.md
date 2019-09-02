@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 4e9efa729b9dc4ac645bc8d3ff7df92cafc929e4
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514325"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200981"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Excel용 Power BI 게시자
 Microsoft의 **Power BI publisher for Excel**을 사용하면 피벗 테이블, 차트 및 범위와 같은 Excel의 가장 중요한 정보를 스냅샷으로 나타낸 후 Power BI의 대시보드에 고정할 수 있습니다.
@@ -32,7 +32,7 @@ Excel의 요소를 고정하면 새 타일이 Power BI의 기존 또는 새 대�
 ## <a name="download-and-install"></a>다운로드 및 설치
 Excel용 Power BI 게시자는 데스크톱 버전의 Microsoft Excel 2007 이상에서 다운로드하고 설치할 수 있는 추가 기능입니다.
 
-[Excel용 Power BI 게시자 다운로드](http://go.microsoft.com/fwlink/?LinkId=715729)
+[Excel용 Power BI 게시자 다운로드](https://www.microsoft.com/download/details.aspx?id=50729)
 
 게시자가 설치되면 Excel에 새 **Power BI** 리본이 표시됩니다. 여기에서 Power BI에 로그인(또는 로그아웃)하고, 대시보드에 요소를 고정하고, 이미 고정된 요소를 관리할 수 있습니다.
 

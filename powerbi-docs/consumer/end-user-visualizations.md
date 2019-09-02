@@ -54,6 +54,6 @@ ms.locfileid: "67161093"
 | [Excel로 내보냅니다.](end-user-export.md) | 예 | 예 | 아니요|
 
 ## <a name="next-steps"></a>다음 단계
-[소비자에 대한 기본 개념](end-user-basic-concepts.md)으로 돌아가기  
+[소비자에 대한 기본 개념](end-user-basic-concepts.md)으로 돌아가기    
 [시각적 개체를 선택하여 보고서 열기](end-user-report-open.md)    
 [Power BI에서 사용할 수 있는 시각적 개체 유형](end-user-visual-type.md)

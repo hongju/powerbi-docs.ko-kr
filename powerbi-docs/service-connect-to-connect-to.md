@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 49ac1f917a5f3095c1dbc13c644061859389fe74
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: aab2d62265300787f99116aade7ec16aaf1b0f86
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61174773"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185594"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Power BI로 comScore Digital Analytix에 연결
 Power BI 콘텐츠 팩을 사용하여 Power BI에서 comScore Digital Analytix 데이터를 보고 탐색합니다. 하루에 한 번 자동으로 데이터가 새로 고쳐집니다.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [Power BI용 comScore 콘텐츠 팩](https://app.powerbi.com/getdata/services/comscore)에 연결합니다.
 
