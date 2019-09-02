@@ -216,7 +216,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 | gauge |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
-| 이미지 |
+| image |
 | KPI |
 | lineChart |
 | lineClusteredColumnComboChart |
