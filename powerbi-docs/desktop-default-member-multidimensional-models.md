@@ -12,18 +12,18 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 01b0cdf70c985169d474a130ed4ad846ad708963
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61308843"
 ---
 # <a name="default-member-in-multidimensional-models-in-power-bi"></a>Power BI의 다차원 모델의 기본 멤버
 
-Power BI에서 다차원 모델에 연결하고 해당 모델 내에 모든 종류의 데이터를 시각화하는 보고서를 만들 수 있습니다. 다차원 모델을 사용하는 경우 Power BI는 ‘기본 멤버’로 정의되는 열을 기준으로 데이터 처리 방법에 규칙을 적용합니다.  
+Power BI에서 다차원 모델에 연결하고 해당 모델 내에 모든 종류의 데이터를 시각화하는 보고서를 만들 수 있습니다. 다차원 모델을 사용하는 경우 Power BI는 ‘기본 멤버’로 정의되는 열을 기준으로 데이터 처리 방법에 규칙을 적용합니다. 
 
 다차원 모델을 사용하는 경우 Power BI는 **DefaultMember**를 포함하는 열이 사용되는 위치를 기준으로 모델의 데이터를 처리합니다. *DefaultMember* 특성은 다차원 모델에서 특정 열에 대한 CSDL(개념 스키마 정의 언어)로 설정됩니다. [특성 속성 문서](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017)에서 기본 멤버에 대해 자세히 알아볼 수 있습니다. DAX 쿼리를 실행하는 경우 모델에 지정된 기본 멤버가 자동으로 적용됩니다.
 
-이 문서에서는 ‘기본 멤버’가 있는 위치를 기준으로 다차원 모델을 사용하는 다양한 상황에서 Power BI의 작동 방식을 설명했습니다.  
+이 문서에서는 ‘기본 멤버’가 있는 위치를 기준으로 다차원 모델을 사용하는 다양한 상황에서 Power BI의 작동 방식을 설명했습니다. 
 
 ## <a name="working-with-filter-cards"></a>필터 카드 작업
 
@@ -40,17 +40,17 @@ Power BI에서 다차원 모델에 연결하고 해당 모델 내에 모든 종�
 
 ## <a name="grouping-behavior"></a>그룹화 동작
 
-Power BI에서는 ‘기본 멤버’를 포함하는 열에서 시각적 개체를 그룹화할 때마다 Power BI가 해당 열의 ‘기본 멤버’와 해당 특성 관계 경로를 지웁니다.   따라서 기본값만이 아닌 모든 값이 시각적 개체에 표시됩니다.
+Power BI에서는 ‘기본 멤버’를 포함하는 열에서 시각적 개체를 그룹화할 때마다 Power BI가 해당 열의 ‘기본 멤버’와 해당 특성 관계 경로를 지웁니다. 따라서 기본값만이 아닌 모든 값이 시각적 개체에 표시됩니다.
 
 ## <a name="attribute-relationship-paths-arps"></a>ARP(특성 관계 경로)
 
-ARP(특성 관계 경로)는 ‘기본 멤버’에 강력한 기능을 제공하지만 일정 정도의 복잡성을 추가하기도 합니다.  ARP를 발견하면 Power BI는 ARP 경로를 따라 다른 열의 추가 기본 멤버를 지움으로써 시각적 개체 데이터를 일관되고 정확하게 처리합니다.
+ARP(특성 관계 경로)는 ‘기본 멤버’에 강력한 기능을 제공하지만 일정 정도의 복잡성을 추가하기도 합니다. ARP를 발견하면 Power BI는 ARP 경로를 따라 다른 열의 추가 기본 멤버를 지움으로써 시각적 개체 데이터를 일관되고 정확하게 처리합니다.
 
 이 동작을 분명히 설명하는 예를 살펴보겠습니다. ARP의 다음 구성을 고려하세요.
 
 ![다차원 모델의 ARP](media/desktop-default-member-multidimensional-models/default-members_01.png)
 
-이제 해당 열에 다음 ‘기본 멤버’가 설정되어 있다고 가정해 봅니다. 
+이제 해당 열에 다음 ‘기본 멤버’가 설정되어 있다고 가정해 봅니다.
 
 * City > Seattle
 * State > WA
