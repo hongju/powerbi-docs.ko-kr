@@ -29,7 +29,7 @@ ms.locfileid: "68867078"
 
 ![슬라이서 시각적 개체 아이콘과 필드을 가리키는 화살표가 있는 시각화 창의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
 
-캔버스에서 슬라이서를 선택한 다음, 슬라이서 시각적 개체의 오른쪽 위 모서리에 있는 캐럿을 선택합니다. 시각적 개체에 날짜 데이터가 있는 경우 메뉴에 **Relative**에 대한 옵션이 표시됩니다.
+캔버스에서 슬라이서를 선택한 다음, 슬라이서 시각적 개체의 오른쪽 위 모서리에 있는 캐럿을 선택합니다. 시각적 개체에 날짜 데이터가 있는 경우 메뉴에 **상대**에 대한 옵션이 표시됩니다.
 
 ![캐럿 주위에 호출과 Relative를 가리키는 화살표가 있는 슬라이서 시각적 개체의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
 
