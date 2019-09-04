@@ -77,7 +77,7 @@ ms.locfileid: "69490319"
     조직에서 Power BI를 활용하는 데 필요한 관리 작업은 없습니다. 서비스는 새 클라우드 전용 사용자 디렉터리에 사용자를 추가합니다. 테넌트 관리자로 인수하여 관리할 수도 있습니다. 테넌트 관리자로 인수하여 관리하도록 선택할 수도 있습니다.
 
 > [!IMPORTANT]
-> 조직에 여러 전자 메일 도메인이 있고 모든 전자 메일 주소 확장을 같은 테넌트에 두려는 경우, 사용자가 등록하기 전에 모든 전자 메일 주소 도메인을 Azure Active Directory 테넌트에 추가합니다. 사용자를 만든 후에는 테넌트에서 사용자를 이동하는 지원되는 자동화된 메커니즘이 없습니다. 이 프로세스에 대한 자세한 내용은 이 문서의 뒷부분에 있는 [여러 도메인이 있는 경우 사용자가 추가되는 Office 365 테넌트를 제어할 수 있나요?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to) 및 [Office 365에 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.
+> 조직에 여러 전자 메일 도메인이 있고 모든 전자 메일 주소 확장을 같은 테넌트에 두려는 경우, 사용자가 등록하기 전에 모든 전자 메일 주소 도메인을 Azure Active Directory 테넌트에 추가합니다. 사용자를 만든 후에는 테넌트에서 사용자를 이동하는 지원되는 자동화된 메커니즘이 없습니다. 이 프로세스에 대한 자세한 내용은 이 문서의 뒷부분에 있는 [여러 도메인이 있는 경우, 사용자가 추가되는 Office 365 테넌트를 제어할 수 있습니까?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to) 및 [Office 365에 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.
 
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-office-365-tenant"></a>사용자가 내 기존 Office 365 테넌트에 가입하지 못하게 하려면 어떻게 합니까?
 
@@ -171,11 +171,11 @@ Get-MsolCompanyInformation | fl allow*
 
 Power BI는 사용 통계를 볼 수 있고, 사용자 및 그룹을 관리하기 위한 Microsoft 365 관리 센터에 대한 링크를 제공하고 테넌트 전체 설정을 제어하는 기능을 제공하는 관리 포털을 제공합니다.
 
-Power BI 관리 포털을 사용하려면, Office 365 또는 Azure Active Directory 내에서 **전역 관리자**로 해당 계정을 표시하거나 해당 계정에 Power BI 서비스 관리자 역할을 할당해야 합니다.  자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)와 [Power BI 관리 포털](service-admin-portal.md)을 참조합니다.
+Power BI 관리 포털을 사용하려면, Office 365 또는 Azure Active Directory 내에서 **전역 관리자**로 해당 계정을 표시하거나 해당 계정에 Power BI 서비스 관리자 역할을 할당해야 합니다. 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)와 [Power BI 관리 포털](service-admin-portal.md)을 참조합니다.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>여러 도메인이 있는 경우 사용자가 추가되는 Office 365 테넌트를 제어할 수 있나요?
 
-사용자가 아무 작업도 하지 않는다면, 서비스는 각 사용자 전자 메일 도메인 및 하위 도메인에 대한 테넌트를 만듭니다. 모든 사용자가 자신의 전자 메일 주소 확장명에 관계 없이 동일한 테넌트에 포함되도록 하려면: 미리 대상 테넌트를 만들거나 기존 테넌트를 사용합니다. 그런 다음 해당 테넌트 내에서 통합하기 원하는 모든 기존 도메인 및 하위 도메인을 추가합니다.  해당 도메인 및 하위 도메인으로 끝나는 전자 메일 주소를 사용하는 모든 사용자는 등록할 때 자동으로 대상 테넌트에 가입됩니다.
+사용자가 아무 작업도 하지 않는다면, 서비스는 각 사용자 전자 메일 도메인 및 하위 도메인에 대한 테넌트를 만듭니다. 모든 사용자가 자신의 전자 메일 주소 확장명에 관계 없이 동일한 테넌트에 포함되도록 하려면: 미리 대상 테넌트를 만들거나 기존 테넌트를 사용합니다. 그런 다음 해당 테넌트 내에서 통합하기 원하는 모든 기존 도메인 및 하위 도메인을 추가합니다. 해당 도메인 및 하위 도메인으로 끝나는 전자 메일 주소를 사용하는 모든 사용자는 등록할 때 자동으로 대상 테넌트에 가입됩니다.
 
 > [!IMPORTANT]
 > 사용자를 만든 후 테넌트 간에 사용자를 이동하는 자동화된 지원 메커니즘은 없습니다. 단일 Office 365 테넌트에 도메인을 추가하는 것에 대해 알아보려면 [Office 365에 사용자 및 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.
