@@ -1,6 +1,6 @@
 ---
-title: '자습서: Power BI를 사용하여 GitHub 리포지토리에 연결'
-description: 이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI에서 대시보드와 보고서를 자동으로 만듭니다.
+title: '자습서:  Power BI를 사용하여 GitHub 리포지토리에 연결'
+description: 이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: SarinaJoan
@@ -19,7 +19,7 @@ ms.lasthandoff: 08/09/2019
 ms.locfileid: "68867185"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>자습서: Power BI를 사용하여 GitHub 리포지토리에 연결
-이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI에서 대시보드와 보고서를 자동으로 만듭니다. Power BI 콘텐츠 공용 리포지토리(*repo*라고도 함)에 연결하여 다음 질문에 대한 답을 확인할 수 있습니다. 얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여한 사람은 누구인가요? 어떤 요일이 가장 많이 기여하는가요? 기타 질문 
+이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다. ower BI 콘텐츠 공용 저장소(*리포지토리*라고도 하는)에 연결하여 다음과 같은 질문에 대한 답변을 볼 수 있습니다:  얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여하는 사람은 누구인가요? 어떤 요일에 기여가 가장 많은가요? 그리고 기타 질문들이 있습니다. 
 
 ![Power BI의 GitHub 보고서](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -49,11 +49,11 @@ ms.locfileid: "68867185"
    
    ![Power BI 앱 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. **앱**을 선택하고 검색 창에 **GitHub**를 입력하고 **지금 가져오기**를 선택합니다.
+3. **앱**을 선택하고, 검색 상자에 **GitHub**를 입력하고 > **지금 받기** 합니다.
    
    ![Power BI - GitHub 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
-4. **이 Power BI 앱을 설치하시겠습니까?** 에서 **설치**를 선택합니다.
+4. **이 Power BI 앱을 설치하겠습니까?** 에서 **설치**를 선택합니다.
 5. **새 앱이 준비되었습니다.** 가 표시되면 **앱으로 이동**을 선택합니다.
 6. **새 앱 시작**에서 **데이터**를 선택합니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "68867185"
 
 5. 만든 GitHub 자격 증명을 입력합니다. 브라우저에서 GitHub에 이미 로그인되어 있으면 Power BI에서 이 단계를 건너뛸 수 있습니다. 
 
-6. **인증 방법**에 대해 **oAuth2** \> **로그인**을 선택한 상태로 유지합니다.
+6. **인증 방법**에 대해서는, 선택된 **oAuth2**를 유지하고 \> **로그인**합니다.
 
 7. GitHub 인증 화면을 따릅니다. GitHub 데이터에 대한 Power BI 권한을 부여합니다.
    

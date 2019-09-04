@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 08/29/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dae93a2555101a42f072158f8536319783b3f973
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809118"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159961"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI의 DirectQuery에서 지원하는 데이터 원본
 
@@ -34,6 +34,7 @@ ms.locfileid: "66809118"
 * IBM DB2 데이터베이스
 * IBM Netezza
 * Impala(버전 2.x)
+* MarkLogic
 * Oracle 데이터베이스(버전 12 이상)
 * Oracle Essbase
 * SAP Business Warehouse 애플리케이션 서버

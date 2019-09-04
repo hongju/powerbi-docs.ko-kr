@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/21/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f40ed1b3950ace0b3cb362a22670e98c3ef83112
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: 1932848cb2f8ad7d75e841870265cc22308467c2
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985683"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200884"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Power BI Desktop에서 SAP HANA 사용
 Power BI Desktop을 통해 이제 **SAP HANA** 데이터베이스에 액세스할 수 있습니다. **SAP HANA**를 사용하려면 Power BI Desktop **SAP HANA** 데이터 연결이 제대로 작동하기 위해 로컬 클라이언트 컴퓨터에 SAP HANA ODBC 드라이버를 설치해야 합니다. [SAP 소프트웨어 다운로드 센터](https://support.sap.com/swdc)에서 SAP HANA ODBC 드라이버를 다운로드할 수 있습니다. 여기서 Windows용 SAP HANA CLIENT를 검색해 보세요. **SAP 소프트웨어 다운로드 센터**에서 구조를 자주 변경했기 때문에 해당 사이트를 탐색하기 위한 보다 구체적인 지침을 사용할 수 없습니다.
@@ -25,9 +25,7 @@ Power BI Desktop을 통해 이제 **SAP HANA** 데이터베이스에 액세스�
 
 ![](media/desktop-sap-hana/sap-hana-1.png)
 
-SAP HANA 데이터베이스에 연결할 때 *서버: 포트* 형식으로 서버 이름 및 포트를 지정합니다. - 다음 이미지는 *ServerXYZ* 및 포트 30015 라는 서버를 사용한 예를 보여 줍니다. 
-
-![](media/desktop-sap-hana/sap-hana-2.png)
+SAP HANA 데이터베이스에 연결할 때 서버 이름을 지정합니다. 그런 다음, 드롭다운 및 입력 상자에서 포트를 지정합니다.
 
 이 릴리스에서는 [DirectQuery](desktop-directquery-sap-hana.md) 모드의 **SAP HANA**가 Power BI Desktop과 Power BI 서비스에서 지원되므로 DirectQuery 모드에서 **SAP HANA**를 사용하는 보고서를 Power BI 서비스에 게시하고 업로드할 수 있습니다. DirectQuery 모드에서 **SAP HANA** 를 사용하지 않는 경우에도 Power BI 서비스에 보고서를 게시하고 업로드할 수 있습니다.
 

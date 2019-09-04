@@ -171,11 +171,11 @@ Get-MsolCompanyInformation | fl allow*
 
 Power BI는 사용 통계를 볼 수 있고, 사용자 및 그룹을 관리하기 위한 Microsoft 365 관리 센터에 대한 링크를 제공하고 테넌트 전체 설정을 제어하는 기능을 제공하는 관리 포털을 제공합니다.
 
-Power BI 관리 포털을 사용하려면, Office 365 또는 Azure Active Directory 내에서 **전역 관리자**로 해당 계정을 표시하거나 해당 계정에 Power BI 서비스 관리자 역할을 할당해야 합니다. 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)와 [Power BI 관리 포털](service-admin-portal.md)을 참조합니다.
+Power BI 관리 포털을 사용하려면, Office 365 또는 Azure Active Directory 내에서 **전역 관리자**로 해당 계정을 표시하거나 해당 계정에 Power BI 서비스 관리자 역할을 할당해야 합니다.  자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)와 [Power BI 관리 포털](service-admin-portal.md)을 참조합니다.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>여러 도메인이 있는 경우 사용자가 추가되는 Office 365 테넌트를 제어할 수 있나요?
 
-사용자가 아무 작업도 하지 않는다면, 서비스는 각 사용자 전자 메일 도메인 및 하위 도메인에 대한 테넌트를 만듭니다. 모든 사용자가 자신의 전자 메일 주소 확장명에 관계 없이 동일한 테넌트에 포함되도록 하려면: 미리 대상 테넌트를 만들거나 기존 테넌트를 사용합니다. 그런 다음 해당 테넌트 내에서 통합하기 원하는 모든 기존 도메인 및 하위 도메인을 추가합니다. 해당 도메인 및 하위 도메인으로 끝나는 전자 메일 주소를 사용하는 모든 사용자는 등록할 때 자동으로 대상 테넌트에 가입됩니다.
+사용자가 아무 작업도 하지 않는다면, 서비스는 각 사용자 전자 메일 도메인 및 하위 도메인에 대한 테넌트를 만듭니다. 모든 사용자가 자신의 전자 메일 주소 확장명에 관계 없이 동일한 테넌트에 포함되도록 하려면: 미리 대상 테넌트를 만들거나 기존 테넌트를 사용합니다. 그런 다음 해당 테넌트 내에서 통합하기 원하는 모든 기존 도메인 및 하위 도메인을 추가합니다.  해당 도메인 및 하위 도메인으로 끝나는 전자 메일 주소를 사용하는 모든 사용자는 등록할 때 자동으로 대상 테넌트에 가입됩니다.
 
 > [!IMPORTANT]
 > 사용자를 만든 후 테넌트 간에 사용자를 이동하는 자동화된 지원 메커니즘은 없습니다. 단일 Office 365 테넌트에 도메인을 추가하는 것에 대해 알아보려면 [Office 365에 사용자 및 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.
@@ -194,13 +194,13 @@ Power BI 관리 포털을 사용하려면, Office 365 또는 Azure Active Direct
 
 1. 사용자 세부 정보 페이지의 **제품 라이선스** 옆에 있는 **편집**을 선택합니다.
 
-1. 계정에 적용한 라이선스에 따라 **Power BI(무료)** 또는 **Power BI Pro**를 **끄기**로 설정합니다.
+1. 해당 계정에 어떤 라이선스를 적용했는지에 따라 **Power BI(무료)** 또는 **Power BI Pro** 설정을 **해제**합니다.
 
 1. **저장**을 선택합니다.
 
 ### <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>새 사용자가 내 테넌트에 가입한 경우 어떻게 알 수 있습니까?
 
-이 프로그램의 일부로 테넌트에 가입한 사용자에게는 관리 대시보드의 활성 사용자 창에서 필터링할 수 있는 고유 라이선스가 할당됩니다. 이 새 보기를 만들려면 다음 단계를 수행합니다.
+이 프로그램의 일부로 테넌트에 가입한 사용자에게 관리 대시보드의 활성 사용자 창 내에서 필터링할 수 있는 고유 라이선스를 할당합니다. 이 새 보기를 만들려면 다음 단계를 수행합니다.
 
 1. [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
 
@@ -220,7 +220,7 @@ Power BI 관리 포털을 사용하려면, Office 365 또는 Azure Active Direct
 
 암호 재설정 요청의 증가를 경험할 수 있습니다. 이 프로세스에 대한 자세한 내용은 [사용자의 암호 재설정](/office365/admin/add-users/reset-passwords)을 참조하세요.
 
-Microsoft 365 관리 센터에서 표준 프로세스를 통해 테넌트에서 사용자를 제거할 수 있습니다. 그러나 사용자가 조직에 활성 메일 주소를 여전히 가지고 있는 경우 관리자가 모든 사용자가 가입하지 못하게 차단하지 않는 한 해당 사용자가 다시 가입할 수 있습니다.
+Microsoft 365 관리 센터에서 표준 프로세스를 통해 테넌트에서 사용자를 제거할 수 있습니다. 그러나 사용자가 조직의 활성 메일 주소를 여전히 가지고 있는 경우, 관리자가 모든 사용자가 가입하지 못하게 차단하지 않는 한 해당 사용자가 다시 가입할 수 있습니다.
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>내 Power BI 테넌트는 어디에 있습니까?
 
@@ -228,11 +228,11 @@ Power BI 테넌트가 있는 데이터 영역에 대한 자세한 내용은 [내
 
 ### <a name="what-is-the-power-bi-sla"></a>Power BI Service Level Agreement(서비스 수준 약정)란?
 
-Power BI SLA(서비스 수준 약정)에 대한 자세한 내용은 Microsoft 라이선스 웹 사이트의 **라이선스** 섹션에서 [사용 조건 및 설명서](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 문서를 참조하세요.
+Power BI SLA(서비스 수준 계약)에 대한 정보는 Microsoft 라이선스 웹 사이트의 **라이선스** 섹션의 [라이선싱 조건 및 설명서](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 문서를 참조하세요.
 
 ### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Power BI는 고가용성 및 장애 조치(failover)를 어떻게 처리하나요?
 
-고가용성 및 장애 조치(failover)에 대한 자세한 내용은 [Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ](service-admin-failover.md)를 참조하세요.
+고가용성 및 장애 조치에 대한 정보는 [Power BI 고가용성, 장애 조치 및 재해 복구 FAQ](service-admin-failover.md)를 참조하세요.
 
 ## <a name="security-in-power-bi"></a>Power BI의 보안
 
@@ -242,7 +242,7 @@ Power BI 준수에 대해 자세히 알아보려면 [Microsoft 보안 센터](ht
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI에서 보안은 어떻게 작동합니까?
 
-Microsoft는 Azure Active Directory와 같은 Azure 서비스를 토대로 빌드되는 Office 365를 토대로 Power BI를 빌드했습니다. Power BI 아키텍처 개요는 [Power BI 보안](service-admin-power-bi-security.md)을 참조하세요.
+Microsoft는 Azure Active Directory와 같은 Azure 서비스에 구축된 Office 365를 기반으로 Power BI를 구축했습니다. Power BI 아키텍처 개요는 [Power BI 보안](service-admin-power-bi-security.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

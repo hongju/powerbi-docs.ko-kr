@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 80eb366015de3822b9c8c455f1ee386a34e1f457
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561009"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160194"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure 비용 및 사용량 데이터 분석
 
@@ -27,6 +27,10 @@ Power BI는 현재 기업 계약 및 고객 계약 청구 계정에 대한 연�
 * **기업계약** 사용자는 **Azure Consumption Insights 커넥터**(아래)를 사용해서 연결해야 합니다.
 
 * **고객 계약** 사용자는 [**Azure Cost Management 커넥터**](#connect-with-azure-cost-management)를 사용해서 연결해야 합니다.
+
+> [!NOTE]
+> Azure Cost Management 커넥터를 사용하는 기업계약 고객이며 Cost Management 블레이드에 ‘청구 프로필 ID’가 표시되지 않으면 최신 상거래 플랫폼에 있지 않은 것입니다. 이러한 경우 ‘청구 프로필’ ID 대신 EA 등록 번호를 요청하는 Azure Consumption Insights 커넥터를 사용합니다.
+
 
 ## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights에 연결
 
