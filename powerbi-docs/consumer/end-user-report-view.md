@@ -1,4 +1,4 @@
-﻿---
+---
 title: 보고서 페이지의 표시 크기 및 비율 변경
 description: Power BI 보고서에서 페이지에 대한 표시 설정을 변경합니다.
 author: mihart

@@ -62,7 +62,7 @@ Power BI에서 ‘앱’은 관련 대시보드 및 보고서와 함께 모두 �
 ### <a name="subscribe-to-a-dashboard-or-report"></a>대시보드(또는 보고서) 구독
 대시보드를 모니터링하기 위해 Power BI를 열 필요가 없습니다.  대신에 구독하면 Power BI가 설정된 일정에 따라 해당 대시보드의 스냅샷을 메일로 보내 줍니다. 
 
-![구독 아이콘 선택](./media/end-user-subscribe/power-bi-subscribe-orientation.png)
+![구독 아이콘 선택](./media/end-user-subscribe/power-bi-subscribe-orientation.png).
 
 
 1. 상단의 메뉴 모음에서 **구독**을 선택하거나 봉투 아이콘 ![구독 아이콘](./media/end-user-subscribe/power-bi-icon-envelope.png)을 선택합니다.
