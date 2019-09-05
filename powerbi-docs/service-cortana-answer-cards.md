@@ -21,7 +21,7 @@ ms.locfileid: "66375236"
 Power BI의 전체 기능을 사용하여 Cortana 질문에 답변하도록 특별히 설계된 *Cortana 답변 페이지*(*Cortana 답변 카드*라고도 함)라는 특수한 보고서 페이지를 만듭니다.
 
 > [!IMPORTANT]
-> Power BI에서 Cortana 통합 되지 않습니다. 6 월 11부터 Cortana는 더 이상 작동 하지 모든 대시보드 및 보고서에 대 한 합니다.
+> Power BI에서 Cortana 통합은 사용되지 않습니다. 6 월 11부터 Cortana는 더 이상 모든 대시보드 및 보고서에 작동하지않을 것입니다.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
