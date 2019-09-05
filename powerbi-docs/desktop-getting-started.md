@@ -48,7 +48,7 @@ Power BI Desktop을 사용하여 *데이터에 연결* (일반적으로 여러 �
 
 Power BI Desktop은 비즈니스 인텔리전스 리포지토리 및 보고서의 분산되고 단절된 까다로운 디자인 및 작성 프로세스를 중앙 집중화, 단순화 및 간소화합니다.
 
-이제 본격적으로 Power BI Designer를 설명하겠습니다.
+이제 본격적으로 Power BI Desktop을 설명하겠습니다.
 
 
 
