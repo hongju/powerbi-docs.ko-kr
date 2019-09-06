@@ -1,9 +1,9 @@
 ---
 title: Power BI를 사용한 임베디드 분석
 description: Power BI는 대시보드 및 보고서에 대한 임베디드 분석을 사용하기 위한 API를 애플리케이션에 제공합니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 PaaS 환경과 SaaS 환경 모두에 Power BI와 함께 포함하는 방법을 자세히 알아봅니다.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
@@ -17,12 +17,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 8154370a78f418148381c201ba0c2bd50d8ae021
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: d2e52ff986bb2bba0caf5168c5038bb55011144a
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497909"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391523"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI를 사용한 임베디드 분석
 
