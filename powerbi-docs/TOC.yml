@@ -403,6 +403,8 @@
       items:
         - name: Power BI란?
           href: power-bi-overview.md
+        - name: Power BI 서비스란?
+          href: power-bi-service-overview.md
         - name: Power BI Desktop 및 서비스 비교
           href: service-service-vs-desktop.md
     - name: 자습서
