@@ -52,7 +52,7 @@ Power BI Desktop에는 사용할 수 있는 *모든 종류*의 데이터 원본�
 
 ![](media/desktop-connect-to-data/designer_gsg_changedatatype.png)
 
-**쿼리 설정**에서 **적용된 단계**는 수행된 변경 내용을 반영합니다. 데이터를 추가로 변경하는 경우 쿼리가 이러한 변경 내용을 **적용된 단계** 섹션에 기록하며, 필요에 따라 조정, 다시 방문, 다시 정렬 또는 삭제할 수 있습니다.
+**쿼리 설정**에서 **적용된 단계**는 수행된 변경 내용을 반영합니다. 데이터를 추가로 변경하는 경우 쿼리 편집기는 이러한 변경 내용을 **적용된 단계** 섹션에 기록하며, 필요에 따라 조정, 다시 방문, 다시 정렬 또는 삭제할 수 있습니다.
 
 ![](media/desktop-connect-to-data/designer_gsg_appliedsteps_changedtype.png)
 
