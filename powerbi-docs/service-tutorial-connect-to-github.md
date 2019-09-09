@@ -107,7 +107,7 @@ ms.locfileid: "68867185"
     ![포함된 사용자별 끌어오기 요청 수](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
 
 
-13. 대시보드에 고정할 핀을 선택한 다음 **질문 및 답변 종료**를 선택합니다.
+13. 그런 다음 대시보드에 고정하려면 핀을 선택하고 **질문 및 답변을 종료**합니다.
 
 ## <a name="view-the-github-report"></a>GitHub 보고서 보기 
 

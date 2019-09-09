@@ -55,7 +55,7 @@ ms.locfileid: "70160398"
 ![파워 쿼리 편집기](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
    
 >[!NOTE]
->Power BI Desktop의 리본 메뉴 **홈**리본에서 **쿼리 편집**  >  **쿼리 편집**을 선택하거나, **보고서 보기**에서 쿼리 옆에 있는 **추가 옵션**을 마우스 오른쪽 단추로 클릭하거나 선택하고 **쿼리 편집**을 선택하여 **파워 쿼리 편집기**를 열 수도 있습니다.
+>Power BI Desktop의 리본 메뉴 **홈** 리본에서 **쿼리 편집** > **쿼리 편집**을 선택하거나, **보고서 보기**에서 쿼리 옆에 있는 **추가 옵션**을 마우스 오른쪽 단추로 클릭하거나 선택하고 **쿼리 편집**을 선택하여 **파워 쿼리 편집기**를 열 수도 있습니다.
 
 ## <a name="clean-up-the-products-columns"></a>제품 열 정리
 
@@ -89,7 +89,7 @@ ms.locfileid: "70160398"
 
 ## <a name="expand-the-order-data"></a>주문 데이터 확장
 
-관계형 데이터베이스 또는 Northwind OData 피드와 같은 여러 테이블이 있는 데이터 원본에 연결할 때 테이블 참조를 사용하여 쿼리를 빌드할 수 있습니다. **Orders** 테이블에는 여러 관련 테이블에 대한 참조가 있습니다. **확장** 작업을 사용하여 관련 **Order_Details** 테이블의 **ProductID**, **UnitPrice**, **Quantity** 열을 제목(**Orders**) 테이블에 추가할 수 있습니다. 
+관계형 데이터베이스 또는 Northwind OData 피드와 같은 여러 테이블이 있는 데이터 원본에 연결할 때 테이블 참조를 사용하여 쿼리를 빌드할 수 있습니다. **Orders** 테이블에는 여러 관련 테이블에 대한 참조가 있습니다. **확장** 작업을 사용하여 관련된 **Order_Details** 테이블의 **ProductID**, **UnitPrice**, **Quantity** 열을 주제(**Orders**) 테이블에 추가할 수 있습니다. 
 
 1. **Order_Details** 열이 보일 때까지 **Orders** 테이블에서 오른쪽으로 스크롤합니다. 여기에는 데이터가 아닌 다른 테이블에 대한 참조가 포함되어 있습니다.
    

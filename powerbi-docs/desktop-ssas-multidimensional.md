@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: b089c3e51ce80fdb776455519f2569ee8fa24572
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160227"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751646"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop에서 SSAS 다차원 모델에 연결
 Power BI Desktop을 통해 일반적으로 **SSAS MD**라고 하는 **SSAS 다차원 모델**에 액세스할 수 있습니다.
@@ -87,7 +87,7 @@ Power BI Desktop을 통해 일반적으로 **SSAS MD**라고 하는 **SSAS 다�
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop에서 지원되는 SSAS MD의 기능
 다음은 Power BI Desktop에서 지원되는 SSAS MD 기능입니다.
 
-* 다음 요소의 사용량 과금은 **SSAS MD**의 이 릴리스에서 지원됩니다(이러한 기능에 대해 [자세한 내용](https://msdn.microsoft.com/library/jj969574.aspx)을 얻을 수 있음).
+* 다음 요소의 사용량 과금은 **SSAS MD**의 이 릴리스에서 지원됩니다(이러한 기능에 대해 [자세한 내용](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014)을 얻을 수 있음).
   * 표시 폴더
   * KPI 추세
   * 기본 멤버
