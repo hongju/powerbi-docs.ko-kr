@@ -32,7 +32,7 @@ ms.locfileid: "65514703"
 이 기능을 사용하려면 로컬 컴퓨터에 **R IDE**를 설치해야 합니다. **Power BI Desktop**은 R 엔진을 포함하거나, 배포하거나, 설치하지 않기 때문에 로컬 컴퓨터에 **R**을 별도로 설치해야 합니다. 다음 옵션과 함께 어떤 R IDE를 사용할 것인지 선택할 수 있습니다.
 
 * [Revolution Open 다운로드 페이지](https://mran.revolutionanalytics.com/download/)나 [CRAN Repository](https://cran.r-project.org/bin/windows/base/)같이 무료로 사용할 수 있는 대다수의 R IDE 중에서 선호하는 것을 선택하여 설치할 수 있습니다.
-* **Power BI Desktop**는 또한 [*R Tools for Visual Studio*](https://beta.visualstudio.com/vs/rtvs/) 편집기를 사용하여 [R Studio](https://www.rstudio.com/) 및 **Visual Studio 2015** 지원합니다.
+* **Power BI Desktop**는 또한 [*R Tools for Visual Studio*](https://beta.visualstudio.com/vs/rtvs/) 편집기를 사용하여 [R Studio](https://www.rstudio.com/) 및 **Visual Studio 2015**를 지원합니다.
 * 또한 다른 R IDE를 설치하고 **Power BI Desktop**에서 다음 중 하나를 수행하여 **R IDE**를 시작할 수 있습니다.
   
   * **R** 파일을 **Power BI Desktop**을 시작하려는 외부 IDE와 연결할 수 있습니다.
