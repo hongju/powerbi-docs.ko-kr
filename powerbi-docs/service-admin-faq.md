@@ -218,15 +218,15 @@ Power BI 관리 포털을 사용하려면, Office 365 또는 Azure Active Direct
 
 ### <a name="are-there-any-additional-things-i-should-prepare-for"></a>추가로 준비할 사항이 있나요?
 
-암호 재설정 요청의 증가를 경험할 수 있습니다. 이 프로세스에 대한 자세한 내용은 [사용자의 암호 재설정](/office365/admin/add-users/reset-passwords)을 참조하세요.
+암호 재설정 요청이 증가할 수 있습니다. 이 프로세스에 대한 자세한 내용은 [사용자 암호 재설정](/office365/admin/add-users/reset-passwords)을 참조하세요.
 
 Microsoft 365 관리 센터에서 표준 프로세스를 통해 테넌트에서 사용자를 제거할 수 있습니다. 그러나 사용자가 조직의 활성 메일 주소를 여전히 가지고 있는 경우, 관리자가 모든 사용자가 가입하지 못하게 차단하지 않는 한 해당 사용자가 다시 가입할 수 있습니다.
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>내 Power BI 테넌트는 어디에 있습니까?
 
-Power BI 테넌트가 있는 데이터 영역에 대한 자세한 내용은 [내 Power BI 테넌트는 어디에 있나요?](service-admin-where-is-my-tenant-located.md)를 참조하세요.
+Power BI 테넌트의 데이터 영역에 대한 자세한 내용은 [내 Power BI 테넌트는 어디에 있습니까?](service-admin-where-is-my-tenant-located.md)를 참조하세요.
 
-### <a name="what-is-the-power-bi-sla"></a>Power BI Service Level Agreement(서비스 수준 약정)란?
+### <a name="what-is-the-power-bi-sla"></a>Power BI Service Level Agreement(서비스 수준 계약)란?
 
 Power BI SLA(서비스 수준 계약)에 대한 정보는 Microsoft 라이선스 웹 사이트의 **라이선스** 섹션의 [라이선싱 조건 및 설명서](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 문서를 참조하세요.
 
