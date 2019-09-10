@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 07/15/2019
-ms.openlocfilehash: 2e59499b93f4d1b4879cdec5b807f863a80718aa
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.date: 09/04/2019
+ms.openlocfilehash: 2be953c31ba3090e83e58f8e5626bb83e249556e
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665364"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302703"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
 
@@ -26,11 +26,11 @@ ms.locfileid: "68665364"
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>페이지를 매긴 보고서에 필요한 크기의 프리미엄 용량은 무엇인가요?
 
-페이지를 매긴 보고서 워크로드는 P1 - P3 SKU에서 사용할 수 있습니다.  A4 - A6 SKU에서 SaaS 포함 시나리오에도 사용할 수 있습니다.
+페이지를 매긴 보고서 워크로드는 P1 - P3 SKU에서 사용할 수 있습니다.  임베디드 또는 테스트/개발 시나리오를 위해 A4 – A6 SKU와 함께 사용할 수도 있습니다.
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>내 용량의 페이지를 매긴 보고서에 지정할 수 있는 최대 메모리 임계값은 얼마인가요?
 
-2019년 6월 말까지 이 워크로드에 대해 최대 100% 메모리를 사용할 수 있습니다. 
+이 워크로드에 최대 100%의 메모리를 사용할 수 있습니다.
 
 ### <a name="how-does-user-access-work-for-paginated-reports"></a>페이지를 매긴 보고서에 대한 사용자 액세스는 어떻게 이루어지나요?
 
@@ -152,7 +152,7 @@ Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, .CSV, XML 및 MHTML�
 
 예. 인쇄는 새롭고 향상된 인쇄 미리 보기 환경을 포함하여 페이지를 매긴 보고서에 사용할 수 있습니다. 
 
-### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>페이지를 매긴 보고서에 대해 메일 구독을 사용할 수 있나요?
+### <a name="are-e-mail-subscriptions-available-for-paginated-reports"></a>페이지를 매긴 보고서를 메일 구독을 통해 받아볼 수 있나요?
 
 예. 메일 구독은 페이지를 매긴 보고서에서 완전 지원되며 6가지 파일 형식 및 매개 변수 값을 지원합니다.
 
@@ -166,7 +166,7 @@ SaaS 포함은 이미 지원됩니다. PaaS 포함은 현재 지원되지 않습
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Power BI 보고서에서 페이지를 매긴 보고서로 드릴스루할 수 있나요?
 
-아직 드릴스루할 수 없으나 이 시나리오는 당연히 지원할 계획입니다.
+예, 페이지를 매긴 보고서와 URL 매개 변수를 함께 사용하여 수행할 수 있습니다.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Power BI 앱을 통해 내 페이지를 매긴 보고서 콘텐츠를 공유할 수 있나요?
 

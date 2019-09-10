@@ -325,7 +325,7 @@ Power BI Desktop이 자동으로 관계를 만들 때 두 테이블 간에 둘 �
 
  ![](media/desktop-create-and-manage-relationships/candmrel_managerelactive.png)
 
-이제 EmployeeRole의 Role 및 Employee 필드와 ProjectTickets의 Hours 필드를 보고서 캔버스의 테이블 시각화에서 사용하는 보고서를 만들면, 프로젝트 스폰서만 프로젝트 티켓을 열었기 때문에 프로젝트 스폰서만 보이게 될 것입니다.
+이제 EmployeeRole의 Role 및 Employee 필드와 ProjectTickets의 Hours 필드를 보고서 캔버스의 테이블 시각화에서 사용하는 보고서를 만들면, Project Sponsor만 프로젝트 티켓을 열었기 때문에 Project Sponsor만 보이게 될 것입니다.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_repcrossfilteractive.png)
 
