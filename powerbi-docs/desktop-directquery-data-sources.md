@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159961"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302654"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI의 DirectQuery에서 지원하는 데이터 원본
 
@@ -29,14 +29,16 @@ ms.locfileid: "70159961"
 * Azure HDInsight Spark
 * [Azure SQL Database](service-azure-sql-database-with-direct-connect.md)
 * [Azure SQL Data Warehouse](service-azure-sql-data-warehouse-with-direct-connect.md)
+* Denodo
 * Google BigQuery
 * HDInsight 대화형 쿼리
-* IBM DB2 데이터베이스
+* IBM DB2(Microsoft 공급자)
 * IBM Netezza
 * Impala(버전 2.x)
 * MarkLogic
 * Oracle 데이터베이스(버전 12 이상)
 * Oracle Essbase
+* PostgreSQL
 * SAP Business Warehouse 애플리케이션 서버
 * SAP Business Warehouse 메시지 서버
 * SAP HANA
@@ -65,15 +67,24 @@ ms.locfileid: "70159961"
 | Azure SQL Data Warehouse |아니요 |
 | Google BigQuery |아니요 |
 | IBM Netezza |예 |
+| IBM DB2(IBM 공급자) |예 |
+| IBM DB2(Microsoft 공급자) |아니요 |
+| IBM Informix 데이터베이스 |아니요 |
 | Impala(버전 2.x) |예 |
+| MySQL |예 |
+| ODBC |예 |
 | Oracle 데이터베이스 |예 |
+| PostgreSQL |예 |
 | SAP Business Warehouse 애플리케이션 서버 |예 |
 | SAP Business Warehouse 메시지 서버 |**Power BI 서비스**에서는 아직 지원되지 않음 |
 | SAP HANA |예 |
 | Snowflake |예 |
 | Spark(베타), 버전 0.9 이상 |예 |
 | SQL Server |예 |
+| Sybase |예 |
 | Teradata 데이터베이스 |예 |
+| Vertica |예 |
+
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 원본의 SSO(Single Sign-On)
 

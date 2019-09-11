@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/04/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e742ba0686a3b7cfc2d7dab878ff71b6d17cd13a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 609b0d1a30c065227e3700b2a3a2ee284b76a8b0
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513524"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391446"
 ---
 # <a name="power-bi-desktop-videos"></a>Power BI Desktop 동영상
 [Power BI에 대한 YouTube 채널](http://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p)을 제공합니다.
@@ -26,11 +26,7 @@ ms.locfileid: "65513524"
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe> 
   
-- Power BI Desktop을 사용하여 [멋진 보고서를 만드는 방법](https://www.youtube.com/watch?v=ByIUx-HmQbw)을 알아보세요.
+- Power BI Desktop을 사용하여 [멋진 보고서를 작성하는 방법](https://www.youtube.com/watch?v=ByIUx-HmQbw)과 파워 쿼리 편집기를 사용하여 가져오기, 모양 변경, 변환 등의 작업을 하는 방법을 알아봅니다.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>  
   
-- Power BI Desktop에서 [쿼리 편집기를 사용하여 데이터를 가져오고 다시 셰이핑하며 변환](https://www.youtube.com/watch?v=ByIUx-HmQbw)하는 방법을 이해하세요.
-  
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe>
-

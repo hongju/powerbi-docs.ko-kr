@@ -1,6 +1,6 @@
 ---
-title: 단위 테스트 소개
-description: Power BI 시각적 개체 프로젝트의 단위 테스트를 작성하는 방법
+title: Power BI 시각적 개체 프로젝트의 단위 테스트 소개
+description: 이 문서에서는 Power BI 시각적 개체 프로젝트의 단위 테스트를 작성하는 방법을 설명합니다.
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,31 +9,29 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 4b16eaad9b541bf6e5d8df49ffda99d9bbd5bbf2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424542"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236725"
 ---
-# <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>자습서: Power BI Visual 프로젝트의 단위 테스트 추가
+# <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>자습서:  Power BI 시각적 개체 프로젝트의 단위 테스트 추가
 
-이 자습서에서는 Power BI 시각적 개체의 단위 테스트를 작성하기 위한 기본 사항을 설명합니다.
+이 문서에서는 다음 방법을 포함하여 Power BI 시각적 개체의 단위 테스트를 작성하기 위한 기본 사항을 설명합니다.
 
-이 자습서에서는 다음을 고려합니다.
-
-* Test Runner karma.js, 테스트 프레임워크 - jasmine.js를 사용하는 방법
+* Karma JavaScript Test Runner 테스트 프레임워크, Jasmine을 설정하는 방법
 * powerbi-visuals-utils-testutils 패키지를 사용하는 방법
-* 일련의 모의 및 모조 테스트를 통해 Power BI 시각적 개체의 단위 테스트를 간소화하는 방법
+* 모의 및 모조 테스트를 사용하여 Power BI 시각적 개체의 단위 테스트를 간소화하는 방법
 
 ## <a name="prerequisites"></a>필수 조건
 
-* Power BI 시각적 개체 프로젝트
-* 구성된 Node.JS 환경
+* 설치된 Power BI 시각적 개체 프로젝트
+* 구성된 Node.js 환경
 
-## <a name="install-and-configure-karmajs-and-jasmine"></a>karma.js와 jasmine 설치 및 구성
+## <a name="install-and-configure-the-karma-javascript-test-runner-and-jasmine"></a>Karma JavaScript Test Runner와 Jasmine 설치 및 구성
 
-`devDependencies` 섹션의 package.json에 필수 라이브러리를 추가합니다.
+*package.json* 파일의 `devDependencies` 섹션에 필요한 라이브러리를 추가합니다.
 
 ```json
 "@babel/polyfill": "^7.2.5",
@@ -67,19 +65,19 @@ ms.locfileid: "68424542"
 "webpack": "4.26.0"
 ```
 
-패키지에 대한 자세한 내용은 아래 설명을 참조하세요.
+패키지에 대한 자세한 내용은 설명을 참조하세요.
 
-`package.json`을 저장하고, 명령줄의 `package.json` 위치에서 다음을 실행합니다.
+*package.json* 파일을 저장하고, `package.json` 위치에서 다음 명령을 실행합니다.
 
 ```cmd
 npm install
 ```
 
-패키지 관리자가 `package.json`에 추가된 새 패키지를 모두 설치합니다.
+패키지 관리자가 *package.json*에 추가된 새 패키지를 모두 설치합니다.
 
-단위 테스트를 실행하기 위해 Test Runner 및 `webpack` config를 구성해야 합니다. 구성 샘플은 다음과 같습니다.
+단위 테스트를 실행하려면 Test Runner 및 `webpack` config를 구성합니다.
 
-`test.webpack.config.js` 샘플:
+다음 코드는 *test.webpack.config.js* 파일의 샘플입니다.
 
 ```typescript
 const path = require('path');
@@ -147,7 +145,7 @@ module.exports = {
 };
 ```
 
-`karma.conf.ts` 샘플
+다음 코드는 *karma.conf.ts* 파일의 샘플입니다.
 
 ```typescript
 "use strict";
@@ -250,31 +248,29 @@ module.exports = (config: Config) => {
 };
 ```
 
-필요한 경우 이 구성을 수정할 수 있습니다.
+필요한 경우, 이 구성을 수정할 수 있습니다.
 
-`karma.conf.js`의 일부 설정:
+*karma.conf.js*의 코드에는 다음 변수가 포함되어 있습니다.
 
-* `recursivePathToTests` 변수는 테스트 코드의 위치를 찾습니다.
+* `recursivePathToTests`: 테스트 코드를 찾습니다.
 
-* `srcRecursivePath` 변수는 컴파일 후 출력 JS 코드를 찾습니다.
+* `srcRecursivePath`: 컴파일 후에 출력 JavaScript 코드를 찾습니다.
 
-* `srcCssRecursivePath` 변수는 스타일이 포함된 더 작은 파일을 컴파일한 후 출력 CSS를 찾습니다.
+* `srcCssRecursivePath`: 스타일이 포함된 LESS 파일을 컴파일한 후에 출력 CSS를 찾습니다.
 
-* `srcOriginalRecursivePath` 변수는 시각적 개체의 소스 코드를 찾습니다.
+* `srcOriginalRecursivePath`: 시각적 개체의 원본 코드를 찾습니다.
 
-* `coverageFolder` 변수는 검사 보고서가 생성되는 위치를 결정합니다.
+* `coverageFolder`: 검사 보고서를 만들 위치를 결정합니다.
 
-구성의 일부 속성:
+구성 파일에는 다음 속성이 포함되어 있습니다.
 
-* `singleRun: true` - CI 시스템에서 테스트가 실행됩니다. 한 번만 실행하면 됩니다.
-테스트를 디버그하기 위해 `false`로 변경할 수 있습니다. Karma는 브라우저를 계속 실행하고, 디버깅용 콘솔을 사용하도록 허용합니다.
+* `singleRun: true`: 테스트가 CI(연속 통합) 시스템에서 실행되거나, 한 번 실행할 수 있습니다. 테스트를 디버그하기 위해 이 설정을 *false*로 변경할 수 있습니다. Karma는 디버깅에 콘솔을 사용할 수 있도록 브라우저를 계속 실행합니다.
 
-* `files: [...]` - 이 배열에서는 브라우저에 로드할 파일을 설정할 수 있습니다.
-일반적으로 소스 파일, 테스트 사례, 라이브러리(jasmine, 테스트 유틸리티)가 있습니다. 필요한 경우 다른 파일을 목록에 추가할 수 있습니다.
+* `files: [...]`: 이 배열에서는 브라우저에 로드할 파일을 지정할 수 있습니다. 일반적으로 원본 파일, 테스트 사례, 라이브러리(Jasmine, 테스트 유틸리티)가 있습니다. 필요에 따라 목록에 다른 파일을 추가할 수 있습니다.
 
-* `preprocessors` - 이 구성 섹션에서는 단위 테스트를 실행하기 전에 실행되는 작업을 구성합니다. typescript를 JS로 미리 컴파일, 소스 맵 파일 준비, 코드 검사 보고서 생성이 있습니다. 테스트를 디버그하기 위해 `coverage`를 사용하지 않도록 설정할 수 있습니다. 검사는 테스트 검사 코드를 검사하기 위해 추가 코드를 생성하므로 테스트 디버깅이 복잡해집니다.
+* `preprocessors`: 이 섹션에서는 단위 테스트를 실행하기 전에 실행되는 작업을 구성합니다. 이러한 작업은 typescript를 JavaScript로 미리 컴파일하고, 원본 맵 파일을 준비하며, 코드 검사 보고서를 생성합니다. 테스트를 디버그할 때 `coverage`를 사용하지 않도록 설정할 수 있습니다. 검사 시 테스트 검사 코드를 검사하기 위한 추가 코드가 생성되므로 테스트 디버깅이 복잡해집니다.
 
-**karma.js [설명서](https://karma-runner.github.io/1.0/config/configuration-file.html)에서 찾을 수 있는 모든 구성 설명**
+모든 Karma 구성에 대한 설명은 [Karma 구성 파일](https://karma-runner.github.io/1.0/config/configuration-file.html) 페이지를 참조하세요.
 
 편의상, 테스트 명령을 `scripts`에 추가할 수 있습니다.
 
@@ -294,13 +290,13 @@ module.exports = (config: Config) => {
 
 이제 단위 테스트 작성을 시작할 준비가 되었습니다.
 
-## <a name="simple-unit-test-for-check-dom-element-of-the-visual"></a>시각적 개체의 DOM 요소를 검사하기 위한 간단한 단위 테스트
+## <a name="check-the-dom-element-of-the-visual"></a>시각적 개체의 DOM 요소 검사
 
-시각적 개체를 테스트하려면 시각적 개체 인스턴스를 만들어야 합니다.
+시각적 개체를 테스트하려면, 먼저 시각적 개체 인스턴스를 만듭니다.
 
-### <a name="creating-visual-instance-builder"></a>시각적 인스턴스 작성기 만들기
+### <a name="create-a-visual-instance-builder"></a>시각적 개체 인스턴스 작성기 만들기
 
-다음 코드를 사용하여 `test` 폴더에 `visualBuilder.ts` 파일을 추가합니다.
+다음 코드를 사용하여 *test* 폴더에 *visualBuilder.ts* 파일을 추가합니다.
 
 ```typescript
 import {
@@ -329,13 +325,13 @@ export class BarChartBuilder extends VisualBuilderBase<VisualClass> {
 }
 ```
 
-시각적 개체의 인스턴스를 만들기 위한 `build` 메서드가 있습니다. `mainElement`는 시각적 개체의 “root” DOM 요소 인스턴스를 반환하는 get 메서드입니다. getter는 선택 사항이지만 단위 테스트를 보다 쉽게 작성할 수 있게 해줍니다.
+시각적 개체의 인스턴스를 만들기 위한 `build` 메서드가 있습니다. `mainElement`는 시각적 개체의 “root” DOM(문서 개체 모델) 요소 인스턴스를 반환하는 get 메서드입니다. getter는 선택 사항이지만, 단위 테스트를 보다 쉽게 작성할 수 있게 해줍니다.
 
-이제 시각적 개체 인스턴스 작성기가 준비되었습니다. 테스트 사례를 작성해 보겠습니다. 시각적 개체를 표시할 때 생성되는 SVG 요소를 검사하는 테스트 사례입니다.
+이제 시각적 개체 인스턴스 빌드가 있습니다. 테스트 사례를 작성해 보겠습니다. 이 테스트 사례는 시각적 개체를 표시할 때 생성되는 SVG 요소를 검사합니다.
 
-### <a name="creating-typescript-file-to-write-test-cases"></a>테스트 사례를 작성하기 위한 typescript 파일 만들기
+### <a name="create-a-typescript-file-to-write-test-cases"></a>테스트 사례를 작성하기 위한 typescript 파일 만들기
 
-다음 코드를 사용하여 테스트 사례의 `visualTest.ts` 파일을 추가합니다.
+다음 코드를 사용하여 테스트 사례의 *visualTest.ts* 파일을 추가합니다.
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -362,40 +358,36 @@ describe("BarChart", () => {
 });
 ```
 
-다음 몇 가지 메서드를 호출하고 있습니다.
+다음 몇 가지 메서드가 호출됩니다.
 
-* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe) 메서드는 테스트 사례를 설명합니다. jasmine 프레임워크 컨텍스트에서는 일반적으로 도구 모음 또는 사양 그룹이라고 합니다.
+* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe): 테스트 사례를 설명합니다. Jasmine 프레임워크 컨텍스트에서는 일반적으로 도구 모음 또는 사양 그룹을 설명합니다.
 
-* `beforeEach` 메서드는 [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) 메서드 내에서 정의된 각 `it` 메서드 호출 전에 호출됩니다.
+* `beforeEach`: [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) 메서드에서 정의된 각 `it` 메서드 호출 전에 호출됩니다.
 
-* `it`은 단일 사양을 정의합니다. [`it`](https://jasmine.github.io/api/2.6/global.html#it) 메서드에는 하나 이상의 `expectations`가 포함되어야 합니다.
+* [`it`](https://jasmine.github.io/api/2.6/global.html#it): 단일 사양을 정의합니다. `it` 메서드에는 하나 이상의 `expectations`가 포함되어야 합니다.
 
-* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect) 메서드는 사양의 기대치를 만듭니다. 모든 기대치를 오류 없이 통과하면 사양이 성공합니다.
+* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect): 사양의 기대치를 만듭니다. 모든 기대치를 오류 없이 통과하면 사양이 성공합니다.
 
-* `toBeInDOM`은 선택기 메서드 중 하나입니다. exists 선택기에 대한 자세한 내용은 jasmine 프레임워크 [설명서](https://jasmine.github.io/api/2.6/matchers.html)에서 확인할 수 있습니다.
+* `toBeInDOM`: ‘선택기’ 메서드 중 하나입니다.  선택기에 대한 자세한 내용은 [Jasmine Namespace: matchers](https://jasmine.github.io/api/2.6/matchers.html)(Jasmine 네임스페이스: 선택기)를 참조하세요.
 
-**jasmine 프레임워크에 대한 자세한 내용은 공식 [설명서](https://jasmine.github.io/)를 참조하세요.**
-
-그런 다음, 명령줄 도구에서 명령을 입력하여 단위 테스트를 실행할 수 있습니다.
-
-이 테스트는 시각적 개체의 루트 SVG 요소가 생성되었는지 확인합니다.
+Jasmine에 대한 자세한 내용은 [Jasmine 프레임워크 문서](https://jasmine.github.io/) 페이지를 참조하세요.
 
 ### <a name="launch-unit-tests"></a>단위 테스트 시작
 
-단위 테스트를 실행하기 위해 명령줄 도구에서 다음 명령을 입력할 수 있습니다.
+이 테스트는 시각적 개체의 루트 SVG 요소가 생성되었는지 확인합니다. 단위 테스트를 실행하려면 명령줄 도구에서 다음 명령을 입력합니다.
 
 ```cmd
 npm run test
 ```
 
-`karma.js`는 Chrome 브라우저를 실행하고 테스트 사례를 실행합니다.
+`karma.js`가 Chrome 브라우저에서 테스트 사례를 실행합니다.
 
-![Chrome에서 시작된 KarmaJS](./media/karmajs-chrome.png)
+![Chrome에서 열린 Karma JavaScript](./media/karmajs-chrome.png)
 
 > [!NOTE]
 > Google Chrome을 로컬에 설치해야 합니다.
 
-명령줄에 다음과 같은 출력이 표시됩니다.
+명령줄 창에 다음 출력이 표시됩니다.
 
 ```cmd
 > karma start
@@ -418,7 +410,7 @@ Lines        : 20.85% ( 44/211 )
 
 ### <a name="how-to-add-static-data-for-unit-tests"></a>단위 테스트의 정적 데이터를 추가하는 방법
 
-`test` 폴더에 `visualData.ts` 파일을 만듭니다. 다음 코드를 사용합니다.
+다음 코드를 사용하여 *test* 폴더에 *visualData.ts* 파일을 만듭니다.
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -458,19 +450,19 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 }
 ```
 
-`SampleBarChartDataBuilder` 클래스는 `TestDataViewBuilder`를 확장하고 추상 메서드 `getDataView`를 구현합니다.
+`SampleBarChartDataBuilder` 클래스는 `TestDataViewBuilder`를 확장하고, 추상 메서드 `getDataView`를 구현합니다.
 
-데이터 필드 버킷에 데이터를 넣으면 Power BI는 해당 데이터에 따른 범주 `dataview` 개체를 생성합니다.
+데이터 필드 버킷에 데이터를 넣으면 Power BI는 해당 데이터를 기반으로 하는 범주 `dataview` 개체를 생성합니다.
 
-![필드 버킷](./media/fields-buckets.png)
+![데이터 필드 버킷](./media/fields-buckets.png)
 
-단위 테스트에는 이 기능을 재현할 Power BI 핵심 함수가 없습니다. 그러나 정적 데이터를 범주 `dataview`에 매핑해야 합니다. `TestDataViewBuilder` 클래스는 이 작업에 도움이 됩니다.
+단위 테스트에는 데이터를 재현할 Power BI 핵심 함수가 없습니다. 그러나 정적 데이터를 범주 `dataview`에 매핑해야 합니다. `TestDataViewBuilder` 클래스가 매핑 작업에 도움이 될 수 있습니다.
 
-[DataViewMapping에 대한 자세한 정보](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)
+데이터 뷰 매핑에 대한 자세한 내용은 [DataViewMappings](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)를 참조하세요.
 
-`getDataView` 메서드에서 데이터를 사용하여 `createCategoricalDataViewBuilder` 메서드를 호출하기만 하면 됩니다.
+`getDataView` 메서드에서 데이터를 사용하여 `createCategoricalDataViewBuilder` 메서드를 호출합니다.
 
-`sampleBarChart` 시각적 개체의 [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2)에 dataRoles 및 dataViewMapping 개체가 있습니다.
+`sampleBarChart` 시각적 개체의 [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) 파일에는 dataRoles 및 dataViewMapping 개체가 있습니다.
 
 ```json
 "dataRoles": [
@@ -555,7 +547,7 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 public valuesCategory: string[] = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 ```
 
-`this.valuesMeasure`는 각 범주의 측정값 배열입니다. 예제:
+`this.valuesMeasure`는 각 범주의 측정값 배열입니다.
 
 ```ts
 public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 376074.57, 814724.34, 570921.34];
@@ -563,7 +555,7 @@ public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 37
 
 이제 단위 테스트에서 `SampleBarChartDataBuilder` 클래스를 사용할 수 있습니다.
 
-`ValueType` 클래스는 `powerbi-visuals-utils-testutils` 패키지에서 정의됩니다. 또한 `createCategoricalDataViewBuilder` 메서드에는 `lodash` 라이브러리가 필요합니다.
+`ValueType` 클래스는 powerbi-visuals-utils-testutils 패키지에 정의되어 있습니다. 또한 `createCategoricalDataViewBuilder` 메서드에는 `lodash` 라이브러리가 필요합니다.
 
 종속성에 이러한 패키지를 추가합니다.
 
@@ -603,27 +595,25 @@ Lines        : 52.83% ( 112/212 )
 ================================================================================
 ```
 
-또한 Chrome 브라우저가 시작되고 시각적 개체가 표시됩니다.
+시각적 개체가 다음과 같이 Chrome 브라우저에서 열립니다.
 
 ![Chrome에서 UT 시작됨](./media/karmajs-chrome-ut-runned.png)
 
-검사 요약이 증가한 것에 유의합니다. `coverage\index.html`을 열어 현재 코드 검사에 대해 자세히 알아보세요.
+요약을 통해 검사가 증가한 것을 알 수 있습니다. 현재 코드 검사에 대한 자세한 내용을 보려면 `coverage\index.html`을 엽니다.
 
 ![UT 검사 인덱스](./media/code-coverage-index.png)
 
-또는 `src` 폴더 범위에서 다음과 같이 표시됩니다.
+또는 `src` 폴더의 범위를 확인합니다.
 
 ![src 폴더 검사](./media/code-coverage-src-folder.png)
 
-파일 범위에서 소스 코드를 살펴볼 수 있습니다. 단위 테스트를 실행하는 동안 코드가 실행되지 않은 경우 `Coverage` 유틸리티는 행 배경을 빨간색으로 표시합니다.
+파일 범위에서 원본 코드를 살펴볼 수 있습니다. `Coverage` 유틸리티는 단위 테스트 중 특정 코드가 실행되지 않을 경우 해당 행을 빨간색으로 강조 표시합니다.
 
 ![visual.ts 파일의 코드 검사](./media/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
-> 하지만 코드 검사가 시각적 개체의 적절한 기능 검사를 의미하지는 않습니다. 하나의 간단한 단위 테스트가 `src\visual.ts` 검사의 96% 이상을 제공했습니다.
+> 코드 검사가 시각적 개체의 적절한 기능 검사를 의미하는 것은 아닙니다. 하나의 간단한 단위 테스트가 `src\visual.ts` 검사의 96% 이상을 제공합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-시각적 개체가 준비되었으면, 시각적 개체를 게시에 제출할 수 있습니다.
-
-[시각적 개체를 AppSource에 게시하는 방법에 대한 자세한 정보](../office-store.md)
+시각적 개체가 준비되면 게시를 위해 제출할 수 있습니다. 자세한 내용은 [AppSource에 사용자 지정 시각적 개체 게시](../office-store.md)를 참조하세요.

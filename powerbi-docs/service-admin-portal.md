@@ -48,7 +48,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 * [데이터 흐름 스토리지(미리 보기)](#dataflowStorage)
 * [작업 영역](#workspaces)
 
-## <a name="usage-metrics"></a>사용 메트릭
+## <a name="usage-metrics"></a>사용 현황 메트릭
 
 **사용 메트릭**을 통해 조직의 Power BI 사용을 모니터링할 수 있습니다. 또한 조직을 위한 Power BI 내에서 가장 활발한 사용자 및 그룹이 누구인지 확인하는 기능을 제공합니다. 
 
@@ -106,7 +106,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 기본적으로 사용자별 데이터는 사용 메트릭에서 활성화되어 있고 메트릭 보고서에는 콘텐츠 소비자 계정 정보가 포함됩니다. 일부 또는 모든 사용자에게 이 정보를 포함하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정합니다. 그러면 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
 
-![사용자별 사용 데이터](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
+![사용자별 사용량 현황 데이터](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
 
 ### <a name="delete-all-existing-usage-metrics-content"></a>모든 기존 사용 메트릭 콘텐츠 삭제
 
