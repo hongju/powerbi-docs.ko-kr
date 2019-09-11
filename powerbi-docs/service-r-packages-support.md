@@ -303,7 +303,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |foreign|0.8-69|https://cran.r-project.org/web/packages/foreign/index.html|
 |formatR|1.5|https://cran.r-project.org/web/packages/formatR/index.html|
 |formattable|0.2.0.1|https://cran.r-project.org/web/packages/formattable/index.html|
-|수식|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
+|Formula|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
 |fpc|2.1-11|https://cran.r-project.org/web/packages/fpc/index.html|
 |fracdiff|1.4-2|https://cran.r-project.org/web/packages/fracdiff/index.html|
 |fTrading|3042.79|https://cran.r-project.org/web/packages/fTrading/index.html|
@@ -374,7 +374,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |gower|0.1.2|https://cran.r-project.org/web/packages/gower/index.html|
 |GPArotation|2014.11-1|https://cran.r-project.org/web/packages/GPArotation/index.html|
 |gplots|3.0.1|https://cran.r-project.org/web/packages/gplots/index.html|
-|그래픽|3.4.4|NA|
+|graphics|3.4.4|NA|
 |grDevices|3.4.4|NA|
 |grid|3.4.4|NA|
 |gridBase|0.4-7|https://cran.r-project.org/web/packages/gridBase/index.html|
@@ -907,7 +907,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |tools|3.4.4|NA|
 |topicmodels|0.2-7|https://cran.r-project.org/web/packages/topicmodels/index.html|
 |TraMineR|2.0-8|https://cran.r-project.org/web/packages/TraMineR/index.html|
-|번역|3.4.4|NA|
+|translations|3.4.4|NA|
 |tree|1.0-39|https://cran.r-project.org/web/packages/tree/index.html|
 |treemap|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
 |trelliscopejs|0.1.18|https://cran.r-project.org/web/packages/trelliscopejs/index.html|
