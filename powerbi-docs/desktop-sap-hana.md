@@ -27,13 +27,13 @@ Power BI Desktop을 통해 이제 **SAP HANA** 데이터베이스에 액세스�
 
 SAP HANA 데이터베이스에 연결할 때 서버 이름을 지정합니다. 그런 다음, 드롭다운 및 입력 상자에서 포트를 지정합니다.
 
-이 릴리스에서는 [DirectQuery](desktop-directquery-sap-hana.md) 모드의 **SAP HANA**가 Power BI Desktop과 Power BI 서비스에서 지원되므로 DirectQuery 모드에서 **SAP HANA**를 사용하는 보고서를 Power BI 서비스에 게시하고 업로드할 수 있습니다. DirectQuery 모드에서 **SAP HANA** 를 사용하지 않는 경우에도 Power BI 서비스에 보고서를 게시하고 업로드할 수 있습니다.
+이 릴리스에서는 [DirectQuery](desktop-directquery-sap-hana.md) 모드의 **SAP HANA**가 Power BI Desktop과 Power BI 서비스에서 지원되므로 DirectQuery 모드에서 **SAP HANA**를 사용하는 보고서를 Power BI 서비스에 게시하고 업로드할 수 있습니다. DirectQuery 모드에서 **SAP HANA**를 사용하지 않는 경우에도 Power BI 서비스에 보고서를 게시하고 업로드할 수 있습니다.
 
 ## <a name="supported-features-for-sap-hana"></a>SAP HANA에 대해 지원되는 기능
 이 릴리스에는 다음 목록에 표시된 것처럼 여러 가지 **SAP HANA**용 기능이 있습니다.
 
-* **SAP HANA** 용 Power BI 커넥터에서는 SAP ODBC 드라이버를 사용하여 가장 적합한 사용자 환경을 제공합니다.
-* **SAP HANA** 는 DirectQuery 및 가져오기 옵션을 모두 지원합니다.
+* **SAP HANA**용 Power BI 커넥터에서는 SAP ODBC 드라이버를 사용하여 가장 적합한 사용자 환경을 제공합니다.
+* **SAP HANA**는 DirectQuery 및 가져오기 옵션을 모두 지원합니다.
 * Power BI는 HANA 정보 모델(예: 분석 및 계산 뷰)을 지원하고 최적화된 탐색을 제공합니다.
 * **SAP HANA**를 사용하면 직접 SQL 기능을 사용하여 행 및 열 테이블을 연결할 수도 있습니다.
 * HANA 모델에 대해 최적화된 탐색 포함
