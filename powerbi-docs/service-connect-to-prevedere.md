@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e15333af4e2fb8508f76517b193ca4351c2782c7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8abf93b30b976aea1d0164238d173abe1be260e8
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61149659"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185370"
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>Power BI로 Prevedere에 연결
 배타적이고 중요한 재무 정보에 액세스하여 향후 비즈니스를 사전에 자신 있게 향상시킵니다.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Power BI용 [Prevedere 콘텐츠 팩](https://app.powerbi.com/getdata/services/prevedere)에 연결합니다.
 
@@ -47,7 +49,7 @@ Power BI용 [Prevedere 콘텐츠 팩](https://app.powerbi.com/getdata/services/p
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 세트을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용
 콘텐츠 팩에는 소매 예측, 예측 모델, 선행 지표 및 기타에 대한 정보가 들어 있습니다.

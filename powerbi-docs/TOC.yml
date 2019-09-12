@@ -403,6 +403,8 @@
       items:
         - name: Power BI란?
           href: power-bi-overview.md
+        - name: Power BI 서비스란?
+          href: power-bi-service-overview.md
         - name: Power BI Desktop 및 서비스 비교
           href: service-service-vs-desktop.md
     - name: 자습서
@@ -939,8 +941,8 @@
           href: report-builder-tables-matrices-lists.md
         - name: 매개 변수
           href: report-builder-parameters.md
-        - name: 식
-          href: report-builder-expressions.md
+        - name: 페이지를 매긴 보고서의 URL 매개 변수
+          href: report-builder-url-parameters.md
         - name: 식 예제
           href: report-builder-expression-examples.md
         - name: 보고서 페이지 매김
@@ -959,6 +961,8 @@
           href: paginated-reports-create-embedded-dataset.md
         - name: 매개 변수 만들기
           href: paginated-reports-parameters.md
+        - name: URL에 보고서 매개 변수 전달
+          href: report-builder-url-pass-parameters.md
         - name: 페이지를 매긴 보고서 게시
           href: paginated-reports-save-to-power-bi-service.md
 - name: 개발자용 Power BI
@@ -1356,7 +1360,7 @@
     - name: 리소스
       items:
         - name: 월별 게이트웨이 업데이트
-          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
+          href: /data-integration/gateway/service-gateway-monthly-updates
 - name: 관리
   items:
     - name: 개요

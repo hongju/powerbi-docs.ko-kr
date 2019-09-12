@@ -7,57 +7,98 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 08/29/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: a0cf919d184946b23cb9ebc4ddfc24e0652c64d7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fde61f2411fb04897cc23f24639dc373a98e6edd
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61064120"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185117"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 이제 [앱에 대한 기본 이해](end-user-apps.md)을 했으므로, 앱을 열고 상호 작용하는 방법에 대해 알아보겠습니다. 
 
 ## <a name="ways-to-get-a-new-app"></a>새 앱을 가져오는 방법
-새 앱을 가져오는 방법에는 몇 가지가 있습니다. 보고서 디자이너 동료는 Power BI 계정에 자동으로 앱을 설치하거나 앱에 직접 링크를 보낼 수 있습니다. 또한 AppSource로 회사 내부 및 외부에서 사용할 수 있는 앱을 검색할 수 있습니다. 
+새 앱을 가져오는 방법에는 몇 가지가 있습니다. 보고서 디자이너 동료는 Power BI 계정에 자동으로 앱을 설치하거나 앱에 직접 링크를 보낼 수 있습니다. 또한 AppSource로 가서 회사 내부 및 외부의 앱 디자이너가 제공하는 앱을 검색할 수 있습니다. 
 
-모바일 디바이스의 Power BI에서는 AppSource가 아닌 직접 링크를 통해서만 설치할 수 있습니다. 앱 작성자가 앱을 자동 설치할 경우 앱 목록이 표시됩니다.
+모바일 디바이스의 Power BI에서는 AppSource가 아닌 직접 링크를 통해서만 설치할 수 있습니다. 앱 설계자가 앱을 자동 설치할 경우 앱 목록이 표시됩니다.
 
-## <a name="install-an-app-from-a-direct-link"></a>직접 링크에서 앱 설치
-새 앱을 설치하는 가장 쉬운 방법은 앱 작성자가 이메일로 직접 링크를 받는 것입니다.  
+## <a name="install-an-app-from-a-direct-link"></a>직접 링크에서 앱 설치 
+새 앱을 설치하는 가장 쉬운 방법은 앱 디자이너가 메일로 직접 링크를 받는 것입니다.  
 
 **컴퓨터에서** 
 
-이메일의 링크를 선택하면 Power BI 서비스([https://powerbi.com](https://powerbi.com))가 브라우저에서 열립니다. 앱을 설치하겠다고 확인하면 Power BI가 앱 방문 페이지로 열립니다.
+메일의 링크를 선택하면 Power BI 서비스([https://powerbi.com](https://powerbi.com))가 브라우저에서 앱을 엽니다. 
 
-![Power BI 서비스의 앱 방문 페이지](./media/end-user-app-view/power-bi-app-landing-page-opportunity-480.png)
+![Power BI 서비스의 앱 방문 페이지](./media/end-user-app-view/power-bi-app-from-link.png)
 
 **iOS 또는 Android 모바일 디바이스에서** 
 
-모바일 디바이스에서 메일의 링크를 선택하면 앱이 자동으로 설치되어 모바일 앱에서 앱 콘텐츠 목록을 엽니다. 
+모바일 디바이스에서 메일의 링크를 선택하면 앱이 자동으로 설치되어 모바일 앱으로 열립니다. 먼저 로그인해야 할 수 있습니다. 
 
-![모바일 디바이스의 앱 콘텐츠 목록](./media/end-user-app-view/power-bi-app-index-it-spend-360.png)
+![모바일 디바이스의 앱 콘텐츠 목록](./media/end-user-app-view/power-bi-ios.png)
 
 ## <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource에서 앱 가져오기
 Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스할 수 있는 앱(즉, 앱 작성자가 귀하에게 권한을 부여했거나 모든 사용자에게 부여한 앱)만 표시됩니다.
 
-1. **앱** ![왼쪽 탐색 창의 앱](./media/end-user-apps/power-bi-apps-bar.png) > **앱 가져오기**를 선택합니다. 
+1. **앱**  > **앱 가져오기**를 선택합니다. 
    
-     ![앱 가져오기 아이콘](./media/end-user-app-view/power-bi-get-apps.png)
+    ![앱 가져오기 아이콘](./media/end-user-app-view/power-bi-get-app2.png)    
 2. AppSource의 **내 조직**에서 검색하여 결과 범위를 좁힌 후 찾고자 하는 앱을 찾을 수 있습니다.
    
-     ![내 조직의 AppSource에서](./media/end-user-app-view/power-bi-appsource-my-org.png)
+    ![내 조직의 AppSource에서](./media/end-user-app-view/power-bi-opportunity-app.png)
 3. **지금 가져오기**를 선택하여 앱 콘텐츠 목록에 추가합니다. 
 
-## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>앱에서 대시보드 및 보고서와 상호 작용
-이제 앱에서 대시보드 및 보고서의 데이터를 탐색할 수 있습니다. 필터링, 강조 표시, 정렬 및 드릴다운과 같은 모든 표준 Power BI 상호 작용에 액세스할 수 있습니다. 보고서의 테이블 또는 다른 시각적 개체에서 [데이터를 Excel로 내보낼](end-user-export-data.md) 수도 있습니다. [Power BI에서 보고서와 상호 작용](end-user-reading-view.md)을 읽어 보세요. 
+## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Microsoft AppSource 웹 사이트(https://appsource.microsoft.com))에서 앱을 가져옵니다.
+이 예제에서는 Microsoft 샘플 앱 중 하나를 엽니다. AppSource에서 비즈니스 운영에 사용하는 다양한 서비스용 앱을 찾을 수 있습니다.  Salesforce, Microsoft Dynamics, Google 애널리틱스, GitHub, Zendesk, Marketo 등의 서비스가 있습니다. 자세한 내용은 [Power BI를 통해 사용 중인 서비스용 앱](../service-connect-to-services.md)을 참조하세요. 
 
-![Power BI 시각적 개체에서 데이터 내보내기](./media/end-user-app-view/power-bi-service-export-data-visual.png)
+1. 브라우저에서 https://appsource.microsoft.com을 열고 **Power BI 앱**을 선택합니다.
+
+    ![Power BI 앱이 선택된 AppSource 웹 사이트  ](./media/end-user-apps/power-bi-appsource.png)
+
+
+2. **모두 보기**를 선택하여 현재 AppSource에서 사용할 수 있는 모든 Power BI 앱 목록을 표시합니다. **Microsoft 샘플 - 영업 및 마케팅**이라는 앱을 스크롤하거나 검색합니다.
+
+    ![Power BI 영업 및 마케팅 앱이 강조 표시된 AppSource 웹 사이트  ](./media/end-user-apps/power-bi-appsource-samples.png)
+
+3. **지금 받기**를 선택하고 사용 약관에 동의합니다.
+
+    ![AppSource 웹 사이트 사용 약관 ](./media/end-user-apps/power-bi-permission.png)
+
+
+4. 이 앱을 설치할 것인지 확인합니다.
+
+    ![이 앱을 설치하시겠습니까?  ](./media/end-user-apps/power-bi-app-install.png)
+
+5. 앱이 설치되면 Power BI 서비스에 성공 메시지가 표시됩니다. **앱으로 이동**을 선택하여 앱을 엽니다. 디자이너가 앱을 만든 방법에 따라, 앱 대시보드 또는 앱 보고서가 표시됩니다.
+
+    ![앱을 설치함 ](./media/end-user-apps/power-bi-app-ready.png)
+
+    **앱**을 선택하고 **영업 및 마케팅**을 선택하여 앱 콘텐츠 목록에서 직접 앱을 열 수도 있습니다.
+
+    ![Power BI의 앱](./media/end-user-apps/power-bi-apps.png)
+
+
+6. 새 앱을 탐색할지 또는 사용자 지정하고 공유할지를 선택합니다. Microsoft 샘플 앱을 선택했으므로 먼저 살펴보겠습니다. 
+
+    ![샘플 데이터로 탐색](./media/end-user-apps/power-bi-explore.png)
+
+7.  새 앱이 대시보드를 사용하여 열립니다. 앱 *디자이너*가 대신 보고서로 열리도록 앱을 설정했을 수 있습니다.  
+
+    ![샘플 데이터로 탐색](./media/end-user-apps/power-bi-new-app.png)
+
+
+
+
+## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>앱에서 대시보드 및 보고서와 상호 작용
+앱을 구성하는 대시보드 및 보고서에서 데이터를 잠시 살펴보세요. 필터링, 강조 표시, 정렬 및 드릴다운과 같은 모든 표준 Power BI 상호 작용에 액세스할 수 있습니다.  대시보드와 보고서 간의 차이점이 약간 혼동되시나요?  [대시보드에 대한 문서](end-user-dashboards.md) 및 [보고서에 대한 문서](end-user-reports.md)를 읽어보세요.  
+
+
 
 
 ## <a name="next-steps"></a>다음 단계
-* [외부 서비스용 Power BI 앱](end-user-connect-to-services.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-
+* [앱 개요로 돌아가기](end-user-apps.md)
+* [Power BI 보고서 보기](end-user-report-open.md)
+* [콘텐츠를 공유하는 다른 방법](end-user-shared-with-me.md)

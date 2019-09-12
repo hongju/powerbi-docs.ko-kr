@@ -129,7 +129,7 @@ in
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
 
-자격 증명을 묻는 메시지가 표시되면 ‘익명’을 선택합니다. 
+자격 증명을 묻는 메시지가 표시되면 ‘익명’을 선택합니다.
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
 

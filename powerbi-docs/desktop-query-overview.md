@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 56c38a4e42dcdb3fb22e9dc92446c7e963f50e3e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513564"
@@ -36,7 +36,7 @@ Power BI Desktop은 하나 이상의 데이터 소스, 모양 및 필요에 맞�
 
 그러나 우선은 **쿼리 편집기**를 살펴보겠습니다.
 
-## <a name="the-query-editor"></a>Query Editor
+## <a name="the-query-editor"></a>쿼리 편집기
 **쿼리 편집기**를 사용하려면 Power BI Desktop의 **홈** 탭에서 **쿼리 편집**을 선택합니다.  
 
 ![](media/desktop-query-overview/queryoverview_queryview.png)
@@ -117,19 +117,19 @@ Power BI Desktop은 하나 이상의 데이터 소스, 모양 및 필요에 맞�
 ![](media/desktop-query-overview/queryoverview_querysettings_rename.png)
 
 ## <a name="the-advanced-editor"></a>고급 편집기
-각 단계에서 쿼리가 만드는 코드를 확인하거나 사용자 고유의 모양 지정 코드를 만들려는 경우 **고급 편집기**를 사용할 수 있습니다. 고급 편집기를 시작하려면 리본 메뉴에서 **보기** 를 선택한 다음 **고급 편집기**를 선택합니다. 기존 쿼리 코드를 보여 주는 창이 나타납니다.  
+각 단계에서 쿼리가 만드는 코드를 확인하거나 사용자 고유의 모양 지정 코드를 만들려는 경우 **고급 편집기**를 사용할 수 있습니다. 고급 편집기를 시작하려면 리본 메뉴에서 **보기**를 선택한 다음 **고급 편집기**를 선택합니다. 기존 쿼리 코드를 보여 주는 창이 나타납니다.  
 ![](media/desktop-query-overview/queryoverview_advancededitor.png)
 
 **고급 편집기** 창에서 코드를 직접 편집할 수 있습니다. 창을 닫으려면 **완료** 또는 **취소** 단추를 선택합니다.  
 
 ## <a name="saving-your-work"></a>작업 내용 저장
-원하는 위치에 쿼리가 있는 경우, Query Editor에서 데이터 모델에 대한 변경 사항을 Power BI Desktop에 적용하도록 설정하고 쿼리 편집기를 닫을 수 있습니다. 이렇게 하려면 쿼리 편집기의 **파일** 메뉴에서 **닫기 및 적용**을 선택합니다.  
+원하는 위치에 쿼리가 있는 경우, 쿼리 편집기에서 데이터 모델에 대한 변경 사항을 Power BI Desktop에 적용하도록 설정하고 쿼리 편집기를 닫을 수 있습니다. 이렇게 하려면 쿼리 편집기의 **파일** 메뉴에서 **닫기 및 적용**을 선택합니다.  
 ![](media/desktop-query-overview/queryoverview_closenload.png)
 
 Power BI Desktop은 진행 상태를 대화 상자로 표시합니다.  
 ![](media/desktop-query-overview/queryoverview_loading.png)
 
-쿼리가 원하는 위치에 배치된 후 또는 단순히 작업 내용을 저장하려는 경우 Power BI Desktop가 .pbix 파일 형식으로 작업을 저장할 수 있습니다.
+쿼리가 원하는 위치에 배치된 후 또는 단순히 작업 내용을 저장하려는 경우 Power BI Desktop은 .pbix 파일 형식으로 작업을 저장할 수 있습니다.
 
 작업을 저장하려면 다음 이미지와 같이 **파일 \> 저장**(또는 **파일 \> 다른 이름으로 저장**)을 선택합니다.  
 ![](media/desktop-query-overview/queryoverview_savework.png)

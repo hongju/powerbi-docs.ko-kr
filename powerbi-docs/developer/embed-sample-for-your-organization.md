@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490381"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237394"
 ---
-# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서: 조직의 애플리케이션에 Power BI 콘텐츠 포함
+# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 Power BI 콘텐츠 포함
 
 **Power BI**에서 사용자 소유 데이터를 사용하여 애플리케이션에 보고서(Power BI 또는 페이지 매김), 대시보드 또는 타일을 포함할 수 있습니다. **사용자 소유 데이터**를 사용하면 애플리케이션에서 Power BI 서비스를 확장할 수 있으므로 임베디드 분석을 사용할 수 있습니다. 이 자습서는 보고서(Power BI 또는 페이지 매김)를 애플리케이션에 통합하는 방법을 보여 줍니다. Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 조직의 애플리케이션에 포함합니다.
 
@@ -104,7 +104,6 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
     | 필드 |
     |--------------------|
     | **[애플리케이션 ID](#application-id)** |
-    | **[애플리케이션 비밀](#application-secret)** |
     | **[작업 영역 ID](#workspace-id)** |
     | **[보고서 ID](#report-id)** |
     | **[AADAuthorityUrl](#aadauthorityurl)** |
@@ -170,9 +169,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 조직 테넌트 내에 포함하거나 게스트 사용자와 함께 포함할 수 있는 URL을 사용하여 **AADAuthorityUrl** 정보를 입력합니다.
 
-조직 테넌트에 포함된 경우 URL(*https://login.microsoftonline.com/common/oauth2/authorize*)을 사용하세요.
+조직 테넌트에 포함된 경우 URL( *https://login.microsoftonline.com/common/oauth2/authorize* )을 사용하세요.
 
-게스트에 포함된 경우 *report-owner-tenant-id*를 대체하여 보고서 소유자의 테넌트 ID를 추가하는 URL(*https://login.microsoftonline.com/report-owner-tenant-id*)을 사용하세요.
+게스트에 포함된 경우 *report-owner-tenant-id*를 대체하여 보고서 소유자의 테넌트 ID를 추가하는 URL( *https://login.microsoftonline.com/report-owner-tenant-id* )을 사용하세요.
 
 ### <a name="run-the-application"></a>애플리케이션 실행
 

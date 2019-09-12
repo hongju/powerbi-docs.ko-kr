@@ -1,5 +1,5 @@
-﻿---
-title: 대시보드 및 보고서에 댓글 추가
+---
+title: From the context of this page, '댓글' in suggested translation for 'comment' is more appropriate.
 description: 이 문서에서는 대시보드, 보고서 또는 시각적 개체에 댓글을 추가하는 방법과 댓글을 사용하여 공동 작업자와 대화하는 방법을 보여 줍니다.
 author: mihart
 manager: kvivek
@@ -40,7 +40,7 @@ ms.locfileid: "68522788"
 
     ![주석 아이콘](media/end-user-comment/power-bi-comment-icon.png)
 
-    여기서는 대시보드 작성자가 이미 일반 댓글을 추가한 것을 볼 수 있습니다. 이 대시보드에 대한 액세스 권한이 있는 사용자는 누구나 이 댓글을 볼 수 있습니다.
+    여기서는 대시보드 작성자가 이미 일반 댓글을 추가한 것을 볼 수 있습니다.  이 대시보드에 대한 액세스 권한이 있는 사용자는 누구나 이 댓글을 볼 수 있습니다.
 
     ![주석 아이콘](media/end-user-comment/power-bi-dash-comment.png)
 
@@ -85,7 +85,7 @@ ms.locfileid: "68522788"
 5. **닫기**를 선택하여 대시보드 또는 보고서로 돌아갑니다.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>@ 기호를 사용하여 동료의 주의 유도
-대시보드, 보고서, 타일 또는 시각적 개체 댓글을 만드는지와 관계없이 “\@” 기호를 사용하여 동료의 주의를 끕니다. “\@” 기호를 입력하면 Power BI는 조직에서 개인을 검색하고 선택할 수 있는 드롭다운을 엽니다. "\@" 기호로 나타나는 확인된 이름은 파란색 글꼴로 표시됩니다. 
+대시보드, 보고서, 타일 또는 시각적 개체 댓글을 만드는지와 관계없이 “\@” 기호를 사용하여 동료의 주의를 끕니다.  “\@” 기호를 입력하면 Power BI는 조직에서 개인을 검색하고 선택할 수 있는 드롭다운을 엽니다. "\@" 기호로 나타나는 확인된 이름은 파란색 글꼴로 표시됩니다. 
 
 다음은 시각화 ‘디자이너’와 나누는 대화입니다.  @ 기호를 사용하여 댓글을 보도록 유도합니다. 이 댓글이 나에게 쓴 것인지 알고 있습니다. Power BI에서 이 앱 대시보드를 열고 머리글에서 **댓글**을 선택합니다. **댓글** 창에 대화가 표시됩니다.
 
@@ -94,5 +94,5 @@ ms.locfileid: "68522788"
 
 
 ## <a name="next-steps"></a>다음 단계
-[소비자를 위한 시각화 개체](end-user-visualizations.md)로 돌아가기  
+[소비자를 위한 시각화 개체](end-user-visualizations.md)로 돌아가기    
 <!--[Select a visualization to open a report](end-user-open-report.md)-->

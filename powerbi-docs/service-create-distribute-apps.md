@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed3a65e25694c23e1852a554742e0f8a6e6ff668
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530592"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751568"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI에 앱 게시
 
@@ -127,7 +127,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 앱 탐색에 링크를 추가하고 콘텐츠 영역 옵션을 선택하는 경우:
 * 링크가 포함될 수 있는지 확인합니다. 일부 서비스는 Power BI와 같은 타사 사이트에서 해당 콘텐츠를 포함하는 것을 차단합니다.
 * 다른 작업 영역에서 대시보드 또는 보고서와 같은 Power BI 서비스 콘텐츠를 포함하는 것은 지원되지 않습니다. 
-* 온-프레미스 배포의 기본 포함 URL 콘텐츠를 통해 Power BI Report Server 콘텐츠를 포함합니다. [Power BI 보고서 서버 URL 만들기](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#creating-the-power-bi-report-server-report-url)의 단계들을 수행하여 URL을 가져옵니다. 일반 인증 규칙이 적용되므로 콘텐츠를 보려면 온-프레미스 서버에 대한 VPN 연결이 필요합니다. 
+* 온-프레미스 배포의 기본 포함 URL 콘텐츠를 통해 Power BI Report Server 콘텐츠를 포함합니다. [Power BI 보고서 서버 URL 만들기](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url)의 단계들을 수행하여 URL을 가져옵니다. 일반 인증 규칙이 적용되므로 콘텐츠를 보려면 온-프레미스 서버에 대한 VPN 연결이 필요합니다. 
 * 포함된 콘텐츠의 맨 위에 해당 콘텐츠가 Power BI에 없음을 나타내는 보안 경고가 표시됩니다.
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 데이터 원본 관리 - SAP HANA
 description: 해당 게이트웨이에 속한 온-프레미스 데이터 게이트웨이 및 데이터 원본을 관리하는 방법입니다. 이 문서는 SAP HANA 관련이 있습니다.
 author: mgblythe
@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 07/16/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2458c99192779c0597c38ea9f3a3baf23f4e1dd2
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: b3e1ea53abeff39609515b0b615f9e000432e9c6
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832490"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70303170"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>데이터 원본 관리 - SAP HANA
 
@@ -42,7 +42,7 @@ SAP HANA 데이터 원본 형식을 선택한 후 데이터 원본에 대한 **�
 
 ### <a name="advanced-settings"></a>고급 설정
 
-필요한 경우 데이터 원본의 프라이버시 수준을 구성할 수 있습니다. 이 설정을 통해 데이터가 결합하는 방식을 제어합니다. 예약된 새로 고침에만 사용됩니다. 개인 정보 수준 설정은 DirectQuery에 적용되지 않습니다. 데이터 원본의 프라이버시 수준에 대한 자세한 내용은 [프라이버시 수준(파워 쿼리)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 참조하세요.
+필요한 경우 데이터 원본의 프라이버시 수준을 구성할 수 있습니다. 이 설정은 데이터가 결합하는 방식을 제어합니다. 예약된 새로 고침에만 사용됩니다. DirectQuery에는 적용되지 않습니다. 데이터 원본의 프라이버시 수준에 대한 자세한 내용은 [프라이버시 수준(파워 쿼리)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 참조하세요.
 
 ![프라이버시 수준 설정](media/service-gateway-enterprise-manage-sap/datasourcesettings9.png)
 
