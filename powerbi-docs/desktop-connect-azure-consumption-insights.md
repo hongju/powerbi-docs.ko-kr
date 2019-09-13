@@ -195,33 +195,29 @@ Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하
 | AcccountOwnerId |accountOwnerEmail |AccountOwnerId |아니요 |
 | AdditionalInfo |additionalInfo |AdditionalInfo |아니요 |
 | AdditionalInfold | | |예 |
-
-| Consumed Quantity |consumedQuantity |사용한 수량 |아니요 |
-| Consumed Service |consumedService |사용한 서비스 |아니요 |
+| Consumed Quantity |consumedQuantity |Consumed Quantity |아니요 |
+| Consumed Service |consumedService |Consumed Service |아니요 |
 | ConsumedServiceId |consumedServiceId | |예 |
 | Cost |cost |ExtendedCost |아니요 |
-| Cost Center |costCenter |비용 센터 |아니요 |
-| Date |date |날짜 |아니요 |
-| Day | |일 |아니요 |
-
+| Cost Center |costCenter |Cost Center |아니요 |
+| Date |date |Date |아니요 |
+| Day | |Day |아니요 |
 | DepartmentName |departmentName |부서 이름 |아니요 |
 | DepartmentID |departmentId | |예 |
 | Instance ID | | |예 |
 | InstanceId |instanceId |Instance ID |아니요 |
 | Location | | |예 |
-
-| Meter Category |meterCategory |미터 범주 |아니요 |
+| Meter Category |meterCategory |Meter Category |아니요 |
 | Meter ID | | |예 |
-| Meter Name |meterName |미터 이름 |아니요 |
-| Meter Region |meterRegion |미터 지역 |아니요 |
-| Meter Sub-Category |meterSubCategory |미터 하위 범주 |아니요 |
-| MeterId |meterId |미터 ID |아니요 |
-| Month | |월 |아니요 |
-| Product |product |제품 |아니요 |
+| Meter Name |meterName |Meter Name |아니요 |
+| Meter Region |meterRegion |Meter Region |아니요 |
+| Meter Sub-Category |meterSubCategory |Meter Sub-Category |아니요 |
+| MeterId |meterId |Meter ID |아니요 |
+| Month | |Month |아니요 |
+| Product |product |Product |아니요 |
 | ProductId |productId | |예 |
-| Resource Group |resourceGroup |리소스 그룹 |아니요 |
-| Resource Location |resourceLocation |리소스 위치 |아니요 |
-
+| Resource Group |resourceGroup |Resource Group |아니요 |
+| Resource Location |resourceLocation |Resource Location |아니요 |
 | ResourceGroupId | | |예 |
 | ResourceLocationId |resourceLocationId | |예 |
 | ResourceRate |resourceRate |ResourceRate |아니요 |
@@ -230,15 +226,13 @@ Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하
 | ServiceInfo1Id | | |예 |
 | ServiceInfo2 |serviceInfo2 |ServiceInfo2 |아니요 |
 | ServiceInfo2Id | | |예 |
-
-| Store Service Identifier |storeServiceIdentifier |저장소 서비스 식별자 |아니요 |
+| Store Service Identifier |storeServiceIdentifier |Store Service Identifier |아니요 |
 | StoreServiceIdentifierId | | |예 |
-| Subscription Name |subscriptionName |구독 이름 |아니요 |
-| Tags |tags |태그 |아니요 |
-
+| Subscription Name |subscriptionName |Subscription Name |아니요 |
+| Tags |tags |Tags |아니요 |
 | TagsId | | |예 |
-| Unit Of Measure |unitOfMeasure |측정 단위 |아니요 |
-| Year | |연도 |아니요 |
+| Unit Of Measure |unitOfMeasure |Unit Of Measure |아니요 |
+| Year | |Year |아니요 |
 | SubscriptionId |subscriptionId |SubscriptionId |예 |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |아니요 |
 
