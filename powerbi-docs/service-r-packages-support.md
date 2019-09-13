@@ -24,7 +24,7 @@ ms.locfileid: "69654185"
 다음 섹션에서는 Power BI에서 지원되고, 지원되지 않는 알파벳 순서로 정렬된 R 패키지의 테이블을 제공합니다. Power BI에서 R에 대한 자세한 내용은 [R 시각적 개체](visuals/service-r-visuals.md) 문서를 참조하세요.
 
 ## <a name="request-support-for-a-new-r-package"></a>새 R 패키지에 대한 지원 요청
-**Power BI 서비스**에 지원되는 R 패키지는 **지원 패키지**라는 다음 섹션에서 찾을 수 있습니다. 해당 목록에 없는 R 패키지의 지원을 요청하려는 경우 [Power BI 피드백 팀의 R](mailto:rinpbifb@microsoft.com)으로 요청을 포함한 전자 메일을 보낼 수 있습니다.
+**Power BI 서비스**에 지원되는 R 패키지는 **지원 패키지**라는 다음 섹션에서 찾을 수 있습니다. 해당 목록에 없는 R 패키지의 지원을 요청하려는 경우 [Power BI의 R 피드백 팀](mailto:rinpbifb@microsoft.com)으로 요청을 포함한 전자 메일을 보낼 수 있습니다.
 
 ## <a name="requirements-and-limitations-of-r-packages"></a>R 패키지의 요구 사항 및 제한 사항
 R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다.
