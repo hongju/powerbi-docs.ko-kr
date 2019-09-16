@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8d95ab3675fdced31641a8abbffa31ed0a6643c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5563bec1bc68d8e0dd5749a124c405c4383003db
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61179315"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186019"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Power BI로 Azure Mobile Engagement에 연결
 Power BI Azure Mobile Engagement 콘텐츠 팩을 사용하면 앱 데이터를 신속하게 파악할 수 있습니다.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Power BI용 [Azure Mobile Engagement 콘텐츠 팩](https://app.powerbi.com/groups/me/getdata/services/azme)에 연결합니다.
 

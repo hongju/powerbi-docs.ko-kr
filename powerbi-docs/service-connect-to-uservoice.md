@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a12f2821108c5becaf054680e4395295f0979f0b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 18b346f4b6e8712d9eec2d2d8a46fdd130844acf
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61171602"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70184597"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Power BI로 UserVoice에 연결
 Power BI 및 UserVoice 콘텐츠 팩에서 UserVoice 데이터 추적 및 탐색이 쉽습니다. Power BI는 티켓, 제안 및 만족도를 포함하여 데이터를 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 작성합니다.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Power BI용 [UserVoice 콘텐츠 팩](https://app.powerbi.com/getdata/services/uservoice)에 연결합니다.
 

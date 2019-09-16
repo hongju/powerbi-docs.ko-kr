@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cccbfb6bbe43e70ebcea94322923f7600d58aca8
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590502"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160338"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop에서 Power BI 서비스의 데이터 세트에 연결
 Power BI 서비스에서 공유 데이터 세트에 대한 라이브 연결을 설정하고 동일한 데이터 세트에서 다양한 보고서를 만들 수 있습니다. 즉 Power BI Desktop에서 완벽한 데이터 모델을 만들고, Power BI 서비스에 게시할 수 있습니다. 그런 다음, 다른 사용자와 동일한 해당 공통 데이터 모델에서 여러 다양한 보고서(별도 .pbix 파일)를 만들고, 다른 작업 영역에 저장할 수 있습니다. 이 기능을 **Power BI 서비스 라이브 연결**이라고 합니다.
@@ -108,4 +108,5 @@ Power BI에 로그인하지 않은 경우 로그인하라는 메시지가 표시
 * 콘텐츠 팩의 경우 **Power BI 서비스**에 대해 .pbix 보고서 및 데이터 세트를 공유하기 위해 팩을 사용하기 전에 먼저 복사본을 만들어야 합니다.
 * 내 조직에서 복사된 콘텐츠 팩의 경우 서비스에서 생성된 보고서 및/또는 라이브 연결을 사용하여 콘텐츠 팩을 복사하는 과정에서 생성된 보고서를 바꿀 수 없습니다.  그렇게 하려고 하면 파일의 이름을 바꾸고 게시할지 묻는 경고 메시지가 표시됩니다. 이 경우에 게시된 활성 연결 보고서만 바꿀 수 있습니다.
 * **Power BI 서비스**에서 공유 데이터 세트를 삭제하면 **Power BI Desktop**에서 해당 데이터 세트에 더 이상 액세스할 수 없습니다.
+* Power BI 서비스의 데이터 세트를 공유하는 보고서는 Power BI REST API를 사용하여 자동화된 배포를 지원하지 않습니다.
 

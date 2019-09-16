@@ -7,18 +7,21 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 66dcbd76d76de04675204674626c2942aef515fa
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61172812"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200990"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI로 Marketo에 연결
 Power BI용 Marketo 콘텐츠 팩을 사용하면 잠재 고객 및 해당 활동과 관련된 데이터로 Marketo 계정을 파악할 수 있습니다. 이 연결을 만들면 데이터가 검색되고, 해당 데이터를 기반으로 하여 대시보드 및 관련 보고서가 자동으로 제공됩니다.
+
+>[!IMPORTANT]
+>2019년 9월 4일에 이 콘텐츠 팩이 사용 중단될 예정입니다. 이 콘텐츠 팩을 그 이전에 설치한 경우 계속 작동하지만 그 후에는 새로 설치할 수 없습니다. 템플릿 앱은 서비스 콘텐츠 팩을 대체합니다.
 
 Power BI용 [Marketo 콘텐츠 팩](https://app.powerbi.com/getdata/services/marketo)에 연결합니다.
 
@@ -51,7 +54,7 @@ Power BI용 [Marketo 콘텐츠 팩](https://app.powerbi.com/getdata/services/mar
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 세트을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용
 다음 데이터는 활동이 오늘과 1년 전 사이에 발생한 Power BI의 Marketo에서 제공됩니다.

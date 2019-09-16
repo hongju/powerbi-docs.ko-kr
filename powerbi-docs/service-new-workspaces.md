@@ -7,19 +7,19 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530488"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750897"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI의 새 작업 영역에서 작업 구성
 
- ‘작업 영역’은 동료와 협업하여 대시보드, 보고서 및 페이지를 매긴 보고서의 컬렉션을 만드는 공간입니다. 새 작업 영역 환경을 사용하면 콘텐츠에 대한 액세스를 더 잘 관리할 수 있습니다. 이 문서에서는 새 작업 영역에 대해 설명하고 클래식 작업 영역과 어떻게 다른지 설명합니다.  클래식 작업 영역과 마찬가지로 새 작업 영역을 사용하여 앱을 만들고 배포합니다. [새 작업 영역 환경을 만드는](service-create-the-new-workspaces.md) 방법에 대해 읽어보세요.
+ ‘작업 영역’은 동료와 협업하여 대시보드, 보고서 및 페이지를 매긴 보고서의 컬렉션을 만드는 공간입니다.  새 작업 영역 환경을 사용하면 콘텐츠에 대한 액세스를 더 잘 관리할 수 있습니다. 이 문서에서는 새 작업 영역에 대해 설명하고 클래식 작업 영역과 어떻게 다른지 설명합니다.  클래식 작업 영역과 마찬가지로 새 작업 영역을 사용하여 앱을 만들고 배포합니다. [새 작업 영역 환경을 만드는](service-create-the-new-workspaces.md) 방법에 대해 읽어보세요.
 
 새 작업 영역 환경이 GA(일반 공급)에 도달했으며 이제 기본 작업 영역입니다. 계속해서 Office 365 그룹을 기반으로 [클래식 작업 영역](service-create-workspaces.md)을 만들고 사용할 수 있습니다. 
 
@@ -61,7 +61,7 @@ Power BI 관리 포털에서 [작업 영역 목록을 사용할 수 있습니다
 
 사용자 그룹에 역할을 할당하면 그룹의 개인은 콘텐츠에 대한 액세스 권한을 갖습니다. 사용자 그룹을 중첩하는 경우 포함된 모든 사용자에게는 사용 권한이 있습니다.
 
-다음은 관리자, 구성원, 참가자, 뷰어 등 네 가지 역할의 기능입니다.
+다음은 관리자, 구성원, 참가자, 뷰어 등 네 가지 역할의 기능입니다. 마지막을 제외한 모든 기능에는 Power BI Pro 라이선스가 필요합니다.
 
 |기능   | 관리자  | 구성원  | 참가자  | 뷰어 |
 |---|---|---|---|---|
@@ -73,9 +73,9 @@ Power BI 관리 포털에서 [작업 영역 목록을 사용할 수 있습니다
 | 다른 사용자가 항목을 다시 공유하도록 허용 |  X | X  |   |   |
 | 작업 영역에서 콘텐츠 만들기, 편집 및 삭제  |  X | X  | X  |   |
 | 작업 영역에 보고서 게시, 콘텐츠 삭제  |  X | X  | X  |   |
-| 항목 보기 |  X | X  | X  | X  |
 | 이 작업 영역의 데이터 세트를 기반으로 하여 다른 작업 영역에 보고서 만들기 |  X | X  | X  | X <sup>1</sup>  |
 | 보고서 복사 | X | X | X | X <sup>1</sup> |
+| 항목 보기 및 상호 작용 |  X | X  | X  | X  |
 
 **1** Power BI Pro 라이선스 및 [데이터 세트 빌드 권한](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)이 필요합니다. 
  

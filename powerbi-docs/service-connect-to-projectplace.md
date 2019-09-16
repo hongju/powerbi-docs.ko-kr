@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8827f7dc500ff23e69577ac67b43480d8633f5ef
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: cd478abbac94c6b8aaf5aaa087dbfa4840e05fd7
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721267"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70184529"
 ---
 # <a name="connect-to-projectplace-by-planview-with-power-bi"></a>Power BI로 Projectplace by Planview에 연결
 Projectplace by Planview 콘텐츠 팩을 사용하여 Power BI에서 공동 작업 프로젝트 데이터를 완전히 새로운 방식으로 시각화할 수 있습니다. Projectplace 로그인 자격 증명을 사용하여 키 프로젝트 통계를 확인하며 가장 활발하고 생산적인 팀 구성원들을 찾고 Projectplace 계정의 프로젝트에서 위험할 가능성이 있는 카드 및 활동을 식별합니다. 또한 기본 대시보드 및 보고서를 확장하여 가장 중요한 통찰력을 얻을 수 있습니다.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [Power BI에서 Projectplace 콘텐츠 팩에 연결](https://app.powerbi.com/getdata/services/projectplace)
 

@@ -1,20 +1,20 @@
 ---
-title: 별모양 스키마란 무엇이며 Power BI에 필요한 이유는 무엇인가요?
+title: 별모양 스키마 및 Power BI에서의 중요성 이해
 description: 별모양 스키마와 성능 및 유용성에 최적화된 Power BI 데이터 모델 개발과의 관련성을 이해합니다.
-author: guyinacube
+author: peter-myers
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/05/2019
+ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bb8c0582e08d8e1e05c78c30df0b59bd89aafbd0
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: f44c83613f874aec84a389ac5034ebde193467c2
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985781"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70840615"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>별모양 스키마 및 Power BI에서의 중요성 이해
 

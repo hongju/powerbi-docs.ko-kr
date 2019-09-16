@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2cf6b351c00d89ad6e87b6bc95661dab57078bac
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e6c63d93c876377da7a5d36e814431dfda8665c3
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61151886"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185787"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Power BI로 VMob에 연결
 Power BI 및 VMob 콘텐츠 팩에서 VMob 데이터 추적 및 탐색이 쉽습니다. Power BI는 다음 데이터를 검색합니다. 전체 시간 및 지난 30일에 대한 사용자 통계, 지난 30일에 대한 정품 KPI 및 지난 30일 동안의 캠페인 성능.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Power BI용 [VMob 콘텐츠 팩](https://app.powerbi.com/getdata/services/vmob)에 연결합니다.
 

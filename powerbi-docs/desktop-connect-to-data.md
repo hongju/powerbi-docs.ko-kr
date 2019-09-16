@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0a582eb5c160685784c6db497353f92d2dd3d2cf
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514085"
@@ -21,12 +21,12 @@ ms.locfileid: "65514085"
 # <a name="connect-to-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터에 연결
 Power BI Desktop을 사용하면 계속 확장되는 데이터에 쉽게 연결할 수 있습니다. Power BI Desktop이 없는 경우 여기서 [다운로드](http://go.microsoft.com/fwlink/?LinkID=521662)하여 설치할 수 있습니다.
 
-Power BI Desktop에는 사용할 수 있는 *모든 종류*의 데이터 소스가 있습니다. 다음 그림은 **파일** 리본을 선택한 다음 **데이터 가져오기\>추가...** 를 선택하여 데이터에 연결하는 방법을 보여 줍니다.
+Power BI Desktop에는 사용할 수 있는 *모든 종류*의 데이터 원본이 있습니다. 다음 그림은 **파일** 리본을 선택한 다음 **데이터 가져오기\>추가...** 를 선택하여 데이터에 연결하는 방법을 보여 줍니다.
 
 ![](media/desktop-connect-to-data/getdatavid_smallv2.gif)
 
 ## <a name="example-of-connecting-to-data"></a>데이터에 연결하는 방법 예제
-이 예제에서는 **웹** 데이터 소스에 연결합니다.
+이 예제에서는 **웹** 데이터 원본에 연결합니다.
 
 은퇴를 계획 중이며, 많은 햇빛과 세금 및 의료 보험 혜택이 있는 곳에서 거주하려 한다고 가정해 보세요. 또는 데이터 분석가이며 고객에게 유용한 정보를 제공하려 한다고 가정해 보세요. 예를 들어 비옷을 만드는 클라이언트가 강우량이 *많은* 지역에서 매출 목표를 정하도록 도울 수 있습니다.
 
@@ -42,7 +42,7 @@ Power BI Desktop에는 사용할 수 있는 *모든 종류*의 데이터 소스�
 
 ![](media/desktop-connect-to-data/datasources_fromnavigatordialog.png)
 
-이때 창의 아래쪽에서 **편집** 을 선택하여 테이블을 로드하기 전에 쿼리를 편집하거나 테이블을 로드할 수 있습니다.
+이때 창의 아래쪽에서 **편집**을 선택하여 테이블을 로드하기 전에 쿼리를 편집하거나 테이블을 로드할 수 있습니다.
 
 **편집**을 선택하면 테이블이 로드되고 쿼리 편집기가 실행됩니다. **쿼리 설정** 창이 표시됩니다(표시되지 않는 경우 리본 메뉴 **보기** 탭을 선택한 다음 **표시\> 쿼리 설정**을 선택하여 **쿼리 설정** 창을 표시할 수 있음). 표시되는 모양은 다음과 같습니다.
 
@@ -52,7 +52,7 @@ Power BI Desktop에는 사용할 수 있는 *모든 종류*의 데이터 소스�
 
 ![](media/desktop-connect-to-data/designer_gsg_changedatatype.png)
 
-**쿼리 설정**에서 **적용된 단계** 는 수행된 변경 내용을 반영합니다. 데이터를 추가로 변경하는 경우 쿼리가 이러한 변경 내용을 **적용된 단계** 섹션에 기록하며, 필요에 따라 조정, 다시 방문, 다시 정렬 또는 삭제할 수 있습니다.
+**쿼리 설정**에서 **적용된 단계**는 수행된 변경 내용을 반영합니다. 데이터를 추가로 변경하는 경우 쿼리 편집기는 이러한 변경 내용을 **적용된 단계** 섹션에 기록하며, 필요에 따라 조정, 다시 방문, 다시 정렬 또는 삭제할 수 있습니다.
 
 ![](media/desktop-connect-to-data/designer_gsg_appliedsteps_changedtype.png)
 

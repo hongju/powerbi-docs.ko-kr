@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/26/2018
 ms.author: mshenhav
 ms.custom: ''
-ms.openlocfilehash: 7f81dc1c33cf1c7cc48dfddecce81f43fd3146c4
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 40dd5a0ed03a7d6bd258de39bb9c29dcd7390cd9
+ms.sourcegitcommit: 2b340946ed5f1deedeace4071845e1720ea155c9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654293"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "70064674"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI 모바일 앱이란?
 Power BI는 iOS, Android 및 Windows 10 모바일 디바이스용 모바일 앱 집합을 제공합니다. 모바일 앱에서 클라우드 및 온-프레미스 데이터에 연결하고 이를 조작합니다. 
@@ -23,6 +23,10 @@ Power BI는 iOS, Android 및 Windows 10 모바일 디바이스용 모바일 앱 
 ![모바일 디바이스의 Power BI](./media/mobile-apps-for-mobile-devices/power-bi-mobile-apps-all-up.png)
 
 Power BI Desktop에서 보고서를 만듭니다. 대시보드를 만들고 Power BI 보고서 서비스([https://powerbi.com](https://powerbi.com))에서 대시보드 및 보고서를 봅니다. [Power BI Report Server](../../report-server/get-started.md)에서 온-프레미스 Power BI 보고서를 봅니다. 이러한 모든 보고서 및 대시보드는 온-프레미스에 있든, 클라우드에 있든 관계없이 Power BI 모바일 앱에서 사용할 수 있습니다. iOS(iPad, iPhone, iPod Touch 또는 Apple Watch), Android 휴대폰 또는 태블릿, Windows 10 디바이스 등의 모바일 디바이스에서 보고서 및 대시보드를 보고 조작해 보세요.
+
+### <a name="get-the-app-from-the-application-store"></a>애플리케이션 스토어에서 앱 받기 
+
+[![App Store의 Power BI로 이동](./media/mobile-apps-for-mobile-devices/mobile-apps-app-store.png)](https://go.microsoft.com/fwlink/?LinkId=526218&clcid=0x409) [![Google Play의 Power BI로 이동](./media/mobile-apps-for-mobile-devices/mobile-apps-google-play.png)](https://go.microsoft.com/fwlink/?LinkId=544867&clcid=0x409) [![Window 스토어의 Power BI로 이동](./media/mobile-apps-for-mobile-devices/mobile-apps-windows-store.png)](https://go.microsoft.com/fwlink/?LinkId=526478&clcid=0x409)
 
 ## <a name="mobile-apps-for-different-devices"></a>다양한 디바이스의 모바일 앱
 
@@ -33,10 +37,6 @@ Power BI Desktop에서 보고서를 만듭니다. 대시보드를 만들고 Powe
 | [![Android 휴대폰](media/mobile-apps-for-mobile-devices/android-phone-logo-50-px.png)](mobile-android-app-get-started.md) |**Android 휴대폰**용 Power BI 모바일 앱에서는 휴대 가능한 Power BI를 통해 비즈니스 정보에 대한 터치 기반의 최신 모바일 액세스 권한을 제공합니다. [지리적 위치 기준으로 보고서를 필터링](mobile-apps-geographic-filtering.md)할 수 있습니다. [Android 휴대폰을 사용하여 QR 코드를 스캔](mobile-apps-qr-code.md)하고 Power BI 대시보드 또는 보고서로 바로 이동할 수 있습니다. <br/>[Android용 Power BI 모바일 앱](mobile-android-app-get-started.md)을 시작합니다. |
 | [![Android 태블릿](./media/mobile-apps-for-mobile-devices/android-tablet-logo-50-px.png)](mobile-android-app-get-started.md) |다양한 **Android 태블릿**에서 실행되는 이 모바일 앱은 비즈니스 정보에 대한 최신의 터치 기반 모바일 액세스를 제공합니다. Android 태블릿에서 Power BI 모바일 앱은 Power BI 서비스에 대해 서식이 지정된 방식으로 대시보드 및 보고서를 표시합니다. 즐겨 찾는 Power BI Report Server, Reporting Services KPI 및 보고서와 함께 신속하게 가져올 수 있도록 [즐겨 찾는 대시보드 및 보고서를 표시](mobile-apps-favorites.md)할 수 있습니다. <br/>[Android용 Power BI 모바일 앱](mobile-android-app-get-started.md)을 시작합니다. |
 | [![Windows 디바이스](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../desktop-getting-started.md) |Windows 10용 Power BI 모바일 앱은 Windows 10 휴대폰을 포함하는 모든 Windows 10 디바이스에서 실행됩니다. 다른 모바일 앱의 많은 기능과 함께 Windows 10용 Power BI 모바일 앱은 특별한 기능을 제공합니다. 예를 들어 Power BI 모바일 앱에서 [Power BI 대시보드를 Windows 10 시작 화면에 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)할 수 있습니다. 또한 Windows 10용 Power BI 모바일 앱 및 [Surface Hub에서 프레젠테이션 모드로 Power BI를 실행](mobile-windows-10-app-presentation-mode.md)할 수 있습니다. <br/>[Windows 10 디바이스용 Power BI 모바일 앱](mobile-windows-10-phone-app-get-started.md)을 시작합니다. ||| 
-
-### <a name="get-the-app-from-the-application-store"></a>애플리케이션 스토어에서 앱 받기 
-
-[![App Store의 Power BI로 이동](./media/mobile-apps-for-mobile-devices/mobile-apps-app-store.png)](https://go.microsoft.com/fwlink/?LinkId=526218&clcid=0x409) [![Google Play의 Power BI로 이동](./media/mobile-apps-for-mobile-devices/mobile-apps-google-play.png)](https://go.microsoft.com/fwlink/?LinkId=544867&clcid=0x409) [![Window 스토어의 Power BI로 이동](./media/mobile-apps-for-mobile-devices/mobile-apps-windows-store.png)](https://go.microsoft.com/fwlink/?LinkId=526478&clcid=0x409)
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에 대한 Enterprise 지원
 조직에서 Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱을 포함한 디바이스 및 애플리케이션을 관리할 수 있습니다.

@@ -1,26 +1,28 @@
 ---
-title: Power BI로 Circuit ID에 연결
-description: Power BI용 Circuit ID
+title: Power BI로 회로 ID에 연결
+description: Power BI용 회로 ID
 author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c8c17fe5349486d9583b8f44ccee1af36e86c761
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3c8ef3e522c9f20ff9602d29670ccaf28cd92048
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61181021"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185946"
 ---
-# <a name="connect-to-circuit-id-with-power-bi"></a>Power BI로 Circuit ID에 연결
-Power BI를 사용하면 Circuit ID에서 통신 데이터를 쉽게 분석할 수 있습니다. Power BI는 데이터를 검색한 다음, 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다. 연결을 만든 후, 데이터를 탐색하고 요구에 맞게 대시보드를 사용자 지정할 수 있습니다. 매일 자동으로 데이터가 새로 고쳐집니다.
+# <a name="connect-to-circuit-id-with-power-bi"></a>Power BI로 회로 ID에 연결
+Power BI를 사용하면 회로 ID에서 통신 데이터를 쉽게 분석할 수 있습니다. Power BI는 데이터를 검색한 다음 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다. 연결을 만든 후 데이터를 탐색하고 요구에 맞게 대시보드를 사용자 지정할 수 있습니다. 매일 자동으로 데이터가 새로 고쳐집니다.
 
-Power BI용 [Circuit ID 콘텐츠 팩](https://app.powerbi.com/getdata/services/circuitid)에 연결합니다.
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
+
+Power BI용 [회로 ID 콘텐츠 팩](https://app.powerbi.com/getdata/services/circuitid)에 연결합니다.
 
 ## <a name="how-to-connect"></a>연결 방법
 1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.

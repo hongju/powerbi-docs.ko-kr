@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67ca5a4c8014dc295f3ffc458eca3dc5496282a
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 14e57f5b19fe4dccea9aa47d21c959eaf93a45ae
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307258"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185702"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서의 내게 필요한 옵션
 Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 상호 작용할 수 있도록 하는 기능이 있습니다. 이러한 기능에는 키보드 또는 화면 판독기를 사용하여 보고서를 이용하고 탭 키로 페이지에 있는 다양한 개체에 포커스를 이동하며 시각적 개체에 표식을 세밀하게 사용하는 기능이 있습니다.
@@ -75,6 +75,9 @@ Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 �
 * 보고서의 모든 개체에 대체 텍스트를 제공합니다. 이렇게 하면 보고서 소비자가 시각적 개체를 사용하여 주고받으려는 내용을 잘 파악할 수 있습니다. 시각적 개체, 이미지, 셰이프 또는 텍스트 상자를 볼 수 없더라도 도움이 됩니다. 개체(예: 시각적 개체, 셰이프 등)를 선택하여 **Power BI Desktop** 보고서의 모든 개체에 대해 대체 텍스트를 제공하고 **시각화** 창에서 **형식** 섹션을 선택할 수 있습니다. 그런 다음, **일반**을 확장하고 아래쪽으로 스크롤하여 **대체 텍스트** 텍스트 상자를 입력합니다.
   
   ![보고서에 있는 모든 개체에 대한 대체 텍스트는 시각화 > 서식 > 일반 > 대체 텍스트 상자에서 추가할 수 있습니다.](media/desktop-accessibility/accessibility-02.png)
+  
+  예를 들어, 시각적 개체에 적용된 필터를 반영하는 식으로 대체 텍스트를 동적으로 변경할 수도 있습니다. 시각적 개체 제목에 대해서도 동일하게 식을 설정합니다. [시각적 개체 제목용 조건부 서식 지정](desktop-conditional-format-visual-titles.md)
+  
 * 보고서에서 텍스트와 배경 색 간에 충분한 대비가 되는지 확인합니다. [색 대비 분석기](https://developer.paciellogroup.com/resources/contrastanalyser/)와 같은 여러 도구를 사용하여 보고서 색상을 확인할 수 있습니다. 
 * 쉽게 읽을 수 있는 텍스트 크기와 글꼴을 사용합니다. 작은 텍스트 크기 또는 읽기 어려울 수 있는 글꼴은 필요한 옵션에 도움이 되지 않습니다.
 * 모든 시각적 개체에는 제목, 축 레이블 및 데이터 레이블이 포함됩니다.
