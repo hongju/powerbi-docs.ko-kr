@@ -1,6 +1,6 @@
 ---
 title: Office 365 전용 고객 - 알려진 문제
-description: Office 365 전용 고객 지원 - 알려진 문제 이 항목에서는 Office 365 전용 고객과 관련된 문제를 설명합니다. 여기에는 베니티 도메인을 사용하는 iPhone 앱뿐만 아니라 그룹 기능에 대한 제한 사항도 포함되어 있습니다.
+description: Office 365 전용 고객 지원 - 알려진 문제. 이 항목에서는 Office 365 전용 고객과 관련된 문제를 설명합니다. 여기에는 베니티 도메인을 사용하는 iPhone 앱뿐만 아니라 그룹 기능에 대한 제한 사항도 포함되어 있습니다.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''

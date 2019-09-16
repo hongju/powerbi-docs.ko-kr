@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: efea81ab0a65b336e01c7a69af2189e31ae5d9f8
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 7440fb6dfcd181b6b1164260626cd0bfa7cda991
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721178"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185422"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Power BI로 Mandrill에 연결
 Power BI 콘텐츠 팩은 Mandrill 계정에서 데이터를 끌어오고 데이터를 탐색할 수 있게 해주는 대시보드, 일련의 보고서 및 데이터 세트를 생성합니다. Mandrill의 분석을 사용하여 뉴스레터 또는 마케팅 캠페인을 신속하게 파악할 수 있습니다. 데이터가 매일 새로 고쳐지도록 설정되어 모니터링하는 데이터를 최신 상태를 유지합니다.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [Power BI용 Mandrill 콘텐츠 팩](http://app.powerbi.com/getdata/services/mandrill)에 연결합니다.
 

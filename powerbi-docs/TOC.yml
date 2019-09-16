@@ -113,7 +113,7 @@
           href: desktop-show-items-no-data.md
         - name: 데이터에 연결
           items:
-            - name: Power BI Desktop의 데이터 소스
+            - name: Power BI Desktop의 데이터 원본
               href: desktop-data-sources.md
             - name: 예를 통해 웹 페이지에 연결(미리 보기)
               href: desktop-connect-to-web-by-example.md
@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: 테이블에서 하이퍼링크
               href: power-bi-hyperlinks-in-tables.md
+            - name: 사용자 지정 형식 문자열
+              href: desktop-custom-format-strings.md
             - name: 조건부 테이블 서식 지정
               href: desktop-conditional-table-formatting.md
             - name: 조건부 식 기반 제목 서식 지정
@@ -403,6 +405,8 @@
       items:
         - name: Power BI란?
           href: power-bi-overview.md
+        - name: Power BI 서비스란?
+          href: power-bi-service-overview.md
         - name: Power BI Desktop 및 서비스 비교
           href: service-service-vs-desktop.md
     - name: 자습서
@@ -673,6 +677,8 @@
               href: service-dataflows-linked-entities.md
             - name: 데이터 흐름에 증분 새로 고침 사용
               href: service-dataflows-incremental-refresh.md
+            - name: 데이터 흐름에 관한 모범 사례
+              href: service-dataflows-best-practices.md
             - name: 데이터 흐름에 사용할 수 있는 개발자 리소스
               href: service-dataflows-developer-resources.md
             - name: Power BI Desktop에서 데이터 흐름에 연결
@@ -713,6 +719,8 @@
               href: service-template-apps-install-distribute.md
             - name: 'Power BI 템플릿 앱을 업데이트, 삭제 및 추출'
               href: service-template-update-delete-extract.md
+            - name: 템플릿 앱 샘플
+              href: service-template-apps-samples.md
         - name: 문제 해결
           items:
             - name: Power BI 암호를 잊은 경우
@@ -939,8 +947,8 @@
           href: report-builder-tables-matrices-lists.md
         - name: 매개 변수
           href: report-builder-parameters.md
-        - name: 식
-          href: report-builder-expressions.md
+        - name: 페이지를 매긴 보고서의 URL 매개 변수
+          href: report-builder-url-parameters.md
         - name: 식 예제
           href: report-builder-expression-examples.md
         - name: 보고서 페이지 매김
@@ -959,6 +967,8 @@
           href: paginated-reports-create-embedded-dataset.md
         - name: 매개 변수 만들기
           href: paginated-reports-parameters.md
+        - name: URL에 보고서 매개 변수 전달
+          href: report-builder-url-pass-parameters.md
         - name: 페이지를 매긴 보고서 게시
           href: paginated-reports-save-to-power-bi-service.md
 - name: 개발자용 Power BI
@@ -1356,7 +1366,7 @@
     - name: 리소스
       items:
         - name: 월별 게이트웨이 업데이트
-          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
+          href: /data-integration/gateway/service-gateway-monthly-updates
 - name: 관리
   items:
     - name: 개요

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 08/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c2af7db67c637ca795bd501609d05d317d2a3e00
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: a7061597df08e82f3128b6fc85ed2841569922c4
+ms.sourcegitcommit: 2b340946ed5f1deedeace4071845e1720ea155c9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023459"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "70064630"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -492,19 +492,6 @@ ms.locfileid: "69023459"
 
 > [!NOTE]
 > [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
-
-
-조직에 필요한 경우 이전 버전의 Power BI Desktop을 다운로드할 수도 있습니다. 이전 버전보다는 최신 버전의 Power BI Desktop을 사용하는 것이 좋습니다. 모든 이전 버전에는 다음과 같은 제한이 있습니다.
-
-* Power BI Desktop의 이전 릴리스에는 서비스가 제공되지 않으므로 최신 기능 및 업데이트를 사용하려면 항상 최신 릴리스를 사용해야 합니다.
-* Power BI Desktop의 최신 릴리스에서 만들거나 저장한 파일을 이전 버전의 Power BI Desktop에서 열지 못할 수 있습니다. 
-* Power BI Desktop의 최신 릴리스에서 저장한 보고서를 로드할 때 경고가 표시되어 이전 버전에 해당 보고서를 저장하는 경우 새 기능과 관련된 정보가 모두 손실됩니다.
-* Power BI Desktop의 영어 버전만 보관됩니다.
-
-이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
-
-* [Power BI Desktop 2019년 2월 버전 - 32비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-02.msi)
-* [Power BI Desktop 2019년 2월 버전 - 64비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-02_x64.msi)
 
 
 ## <a name="january-2019-update"></a>2019년 1월 업데이트
@@ -1089,7 +1076,7 @@ ms.locfileid: "69023459"
 
 * DirectQuery 성능 개선  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=32m24s)  [[문서]](desktop-directquery-about.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * 열기 및 저장 성능 개선  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=33m40s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
-* ‘데이터가 없는 항목 표시’ 개선  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=34m6s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
+* ‘데이터가 없는 항목 표시’ 개선   [[비디오]](https://youtu.be/KeVB5RwMzJo?t=34m6s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
 * 향후 **Power BI 서비스** 기능에 대한 지속적인 필터링 제어  [[비디오]](https://youtu.be/KeVB5RwMzJo?t=34m56s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
 
 
@@ -1813,7 +1800,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 ### <a name="query-editing-improvements"></a>쿼리 편집 개선
 
--   **함수 호출** 대화 상자에서 테이블 매개 변수에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#invokeFunction) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=18m12s)
+-   **함수 호출** 대화 상자에서  테이블 매개 변수에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#invokeFunction) [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=18m12s)
 
 ### <a name="other-improvements"></a>기타 개선 기능
 
@@ -1978,7 +1965,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 -   쿼리 편집기에서 **R** 스크립트 사용 [[문서]](desktop-r-in-query-editor.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
 -   쿼리 매개 변수 향상된 기능:
-    -   매개 변수에 허용된 값 으로 쿼리 출력 나열 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
+    -   매개 변수에  허용된 값 으로 쿼리 출력 나열 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
 -   기존 사용자 정의 함수 덮어쓰기 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
 
 
@@ -2186,7 +2173,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
     -   연도로 기간 값 변환
     -   복제본 보관
 -   쿼리 편집기 미리 보기에서 공백 및 줄 바꿈에 지원
--   **로캘로 형식 변경** 대화 상자에서 샘플 입력 값에 대한 힌트 포함
+-   **로캘로 형식 변경** 대화 상자에서  샘플 입력 값에 대한 힌트 포함
 -   **탐색기** 창에 대한 기능 향상:
     -   ODBC 원본에 대한 탐색 계층 구조에 스키마 정보 추가
     -   **탐색기**에서 미리 보기를 사용하지 않도록 설정하는 기능
@@ -2216,7 +2203,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 ### <a name="report-view"></a>보고서 보기:
 
--   시각적 개체 이면의 데이터( 데이터를 CSV로 내보내기포함)를 참조하세요.
+-   시각적 개체 이면의 데이터(  데이터를 CSV로 내보내기포함)를 참조하세요.
 -   맵 개선 사항 - 위도/경도만 사용하여 맵 작성
 -   KPI 소비 릴리스 지원(SSAS MD에 대한 탐색 계층 지원 및 KPI 추세 포함)
 -   SSAS 검색 모드: **필드** 창에서 폴더 **표시** 지원

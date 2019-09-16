@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2a19cc832f7e03acfd224c6ab2409016ce8da770
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 07ba5c79245e4c87acee90c2c7c6a48df7a2d0e0
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61179807"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186107"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Power BI로 appFigures에 연결
 Power BI 및 appFigures 콘텐츠 팩을 사용하면 앱에 대한 중요한 통계를 쉽게 추적할 수 있습니다. Power BI는 앱 판매, 다운로드 및 광고 통계를 포함하여 데이터를 검색한 다음 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [appFigures 콘텐츠 팩](https://app.powerbi.com/getdata/services/appfigures)에 연결하거나 Power BI와 [appFigures 통합](https://powerbi.microsoft.com/integrations/appfigures)에 대해 자세히 알아보세요.
 
@@ -49,7 +51,7 @@ Power BI 및 appFigures 콘텐츠 팩을 사용하면 앱에 대한 중요한 �
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 세트을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용
 Power BI의 appFigures에서 다음 데이터를 사용할 수 있습니다.

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: d18e61343496eef63dee29afae0a9e95fb382848
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497992"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "70987013"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -137,7 +137,7 @@ Power BI의 **웹에 게시** 옵션을 사용하면 모든 디바이스에서 �
 - 보고서 수준 DAX 측정값을 포함하는 보고서.
 - Single Sign-On 데이터 쿼리 모델.
 - [보안 기밀 또는 소유 정보](#publish-to-web-from-power-bi).
-- **포함** 옵션에 제공되는 자동 인증 기능은 Power BI JavaScript API에서 작동하지 않습니다. Power BI JavaScript API의 경우 포함에 대해 [사용자 소유 데이터](developer/embed-sample-for-your-organization.md) 접근 방식을 사용합니다. [사용자 소유 데이터](developer/embed-sample-for-your-organization.md)에 대해 자세히 알아보세요.
+- **포함** 옵션에 제공되는 자동 인증 기능은 Power BI JavaScript API에서 작동하지 않습니다. Power BI JavaScript API의 경우 포함에 대해 [사용자 소유 데이터](developer/embed-sample-for-your-organization.md) 접근 방식을 사용합니다.
 
 ## <a name="tenant-setting"></a>테넌트 설정
 

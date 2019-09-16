@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 9f5e2715af5b3fd898d3c7f0486c8b75463a1c42
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70008109"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030185"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>앱을 사용하여 프리미엄 용량 모니터링
 
@@ -244,7 +244,7 @@ ms.locfileid: "70008109"
 
 | **보고서 섹션** | **메트릭** |
 | --- | --- |
-| CPU 사용량 |  총 CPU 용량의 백분율로 작업별 소비량입니다. 지난 7일 동안 시간별로 표시됩니다. |
+| CPU 사용량 |  1시간 동안의 워크로드별 최대 CPU 사용량을 총 CPU 용량의 백분율로 나타낸 것입니다. 지난 7일 동안 시간별로 표시됩니다. |
 | 메모리 사용량 |  시간 동안 작업 제한(점선)과 중첩된 작업(실선)에 의한 GB의 최대 메모리 소비량입니다. 지난 7일 동안 시간별로 표시됩니다. |
 |  |  |
 

@@ -12,7 +12,7 @@ ms.topic: conceptual
 ms.date: 09/28/2017
 ms.openlocfilehash: 8a02654f264fb83f501679e4e205e08017f083f6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61387476"
@@ -50,7 +50,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 ## <a name="start-your-capacity"></a>용량 시작
 
-용량을 시작하여 사용을 재개합니다. 용량을 시작하면 청구도 재개됩니다.
+용량을 시작하여 사용을 다시 시작합니다. 용량을 시작하면 청구도 재개됩니다.
 
 1. [Azure Portal](https://portal.azure.com/)에 로그인합니다.
 

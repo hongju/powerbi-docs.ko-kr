@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 5bae8983df58353ea57e073defb001795976591b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523733"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751701"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>보고서 및 시각적 효과에 대한 디자인 모범 사례
 
@@ -823,7 +823,7 @@ Power BI는 다양한 기본 시각적 개체를 제공합니다. Microsoft와 P
 
 가로 막대형 차트 및 세로 막대형 차트에 대한 자세한 내용:
 
-* [Data Visualization 101: Bar Charts](http://blog.newscred.com/article/data-visualization-101-bar-charts)(데이터 시각화 101: 가로 막대형 차트)
+* [Data Visualization 101: Bar Charts](https://insights.newscred.com/data-visualization-101-bar-charts/)(데이터 시각화 101: 가로 막대형 차트)
 
 * [Data Visualization Catalog: 가로 막대형 차트](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
 
@@ -1023,7 +1023,7 @@ Stephen은 원형 차트가 유용할 수 있는 경우, 즉 전체와 부분의
 
 KPI는 값, 상태, 목표, 목표와의 차이 및 추세를 같은 크기의 공간에 표시합니다. 목표를 달성하지 못하면 녹색이 빨간색으로 변하고 데이터가 중간 목표를 달성하면 노란색이 될 수도 있습니다. 계기보다 훨씬 쉽게 읽고 해석할 수 있습니다.
 
-자세한 내용은 다음을 참조하세요.
+자세한 내용은
 
 * [Power BI의 방사형 계기 차트](power-bi-visualization-radial-gauge-charts.md)
 

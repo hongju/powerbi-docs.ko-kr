@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 41b390190f8ce3c071f790edcdf86f0e3bd4a0c2
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: c24a508652b147b6fc684039d2965f9935b624c0
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721317"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186041"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Power BI로 AT Internet Bridge에 연결
 AT Internet을 사용하면 해당 통합 디지털 분석 플랫폼인 Analytics Suite를 통해 데이터에서 즉시 값을 추출할 수 있습니다. Power BI용 AT Internet Bridge 콘텐츠 팩에는 사이트에 대한 방문 횟수, 원본, 지역화 및 디바이스와 관련된 데이터가 포함됩니다.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Power BI용 [AT Internet Bridge 콘텐츠 팩](https://app.powerbi.com/getdata/services/at-internet-bridge)에 연결합니다.
 
@@ -47,7 +49,7 @@ Power BI용 [AT Internet Bridge 콘텐츠 팩](https://app.powerbi.com/getdata/s
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 세트을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용
 이 콘텐츠 팩에는 다음 테이블에 있는 지난 45일 동안의 데이터가 들어 있습니다.  

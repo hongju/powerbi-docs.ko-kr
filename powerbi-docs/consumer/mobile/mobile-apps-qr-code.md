@@ -1,7 +1,7 @@
 ---
 title: 모바일 디바이스에서 Power BI QR 코드 스캔
 description: Power BI의 QR 코드는 실제 세계의 모든 항목을 iPhone 및 Android 디바이스용 Power BI 모바일 앱에서 관련된 BI 정보에 연결할 수 있습니다.
-author: mshenhav
+author: KesemSharabi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8b994dfd44a999b877a906571027f5fcb55d9924
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60972975"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236755"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>모바일 디바이스에서 Power BI QR 코드 스캔
 적용 대상:
@@ -35,7 +35,7 @@ Power BI 앱에서 스캐너 또는 휴대폰에 설치된 다른 스캐너를 �
 > [혼합 현실용 Power BI 앱을 사용하여 보고서 QR 코드를 스캔](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)할 수도 있습니다.
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Power BI 스캐너를 사용하여 iPhone에서 Power BI QR 코드 스캔
-1. Power BI 모바일 앱에서 왼쪽 위의 전역 탐색 메뉴 ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png)를 엽니다. 
+1. Power BI 모바일 앱에서 왼쪽 위에 있는 전역 탐색 메뉴 ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png)를 엽니다. 
 2. **스캐너**까지 아래로 스크롤하여 선택합니다. 
    
     ![](media/mobile-apps-qr-code/power-bi-iphone-scanner-menu.png)

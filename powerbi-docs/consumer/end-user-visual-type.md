@@ -1,32 +1,32 @@
 ---
-title: 소비자에 대 한 Power BI에서 시각적 개체 유형
-description: Power BI 서비스에서 시각적 개체 유형
+title: 소비자를 위한 Power BI의 시각적 개체 유형
+description: Power BI 서비스의 시각적 개체 유형
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: acee7e78a19986a0f83e13836ba6d77f7c35fdce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65711516"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302534"
 ---
-# <a name="visual-types-in-power-bi"></a>Power BI에서 시각적 개체 유형
-보고서, 대시보드, 앱 및 q&a에서 시각적 개체를 찾을 수 있습니다. 이러한 시각적 개체 유형 중 일부는 Power BI를 사용 하 여 패키지 되며 일부가 *사용자 지정 시각적 개체*합니다. 사용자 지정 시각적 개체는 Power BI 외부에서 생성되며, *보고서 디자이너*가 Power BI 보고서, 대시보드 및 앱에 추가할 수 있습니다. 
+# <a name="visual-types-in-power-bi"></a>Power BI의 시각적 개체 유형
+시각화 개체는 보고서, 대시보드, 질문 및 답변에서 찾을 수 있습니다. 이러한 시각적 개체 유형 중 일부는 Power BI와 함께 패키지로 제공되고, 일부는 ‘사용자 지정 시각적 개체’입니다.  사용자 지정 시각적 개체는 Power BI 외부에서 ‘보고서 디자이너’가 Power BI 보고서 및 대시보드에 추가할 수 있는 방식으로 생성됩니다.  
 
-이 문서는 Power BI를 사용하여 패키징된 시각적 개체의 개요입니다.  이들은 가장 자주 접하게 될 시각적 개체입니다. 
+이 문서에서는 Power BI 서비스와 함께 패키지로 제공되는 시각적 개체를 간략하게 설명합니다.  자주 사용되는 시각적 개체입니다. 이러한 시각적 개체에 대한 자세한 내용은 [시각적 개체 유형에 대한 Power BI 보고서 ‘디자이너’ 문서](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)를 참조하세요. 
 
 > [!NOTE]
 > 사용자 지정 시각적 개체에 대해 알아보려면 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)의 **Power BI 시각적 개체** 섹션에서 이를 검색합니다. 각 시각적 개체마다 설명, 작성자 정보, 스크린샷 또는 비디오를 찾을 수 있습니다. 
 
-## <a name="list-of-visuals-available-in-power-bi"></a>Power BI에서 사용할 수 있는 시각적 개체의 목록
-모든 이러한 시각적 개체는 Power BI 앱, 대시보드, 보고서에서 확인할 수 있으며 [질문 및 답변에서 지정](end-user-q-and-a.md)할 수 있습니다. 시각적 개체와 상호 작용하는 방법에 대해 알아보려면, [보고서, 대시보드 및 앱의 시각적 개체와 상호 작용](end-user-visualizations.md)을 참조합니다.
+## <a name="list-of-visuals-available-in-power-bi"></a>Power BI에서 사용할 수 있는 시각적 개체 목록
+이러한 모든 시각적 개체는 Power BI 대시보드와 보고서에서 찾을 수 있으며, [질문 및 답변에서 지정](end-user-q-and-a.md)할 수 있습니다. 시각적 개체를 조작하는 방법에 대한 자세한 내용은 [보고서, 대시보드 및 앱에서 시각적 개체 조작](end-user-visualizations.md)을 참조하세요.
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>영역형 차트: 기본(겹침) 및 누적
 ![영역 차트](media/end-user-visual-type/basic-area-map-small.png)
@@ -59,7 +59,7 @@ ms.locfileid: "65711516"
 다음과 같은 경우 콤보 차트를 사용하는 것이 좋습니다.
 - X축이 동일한 꺾은선형 차트와 세로 막대형 차트가 있는 경우
 - 여러 값 범위와 여러 측정값을 비교하는 경우
-- 하나의 시각적 개체에 두 측정값 간의 상관 관계를 보여 줍니다.
+- 두 측정값 간의 상관관계를 하나의 시각적 개체로 보여 주려는 경우
 - 하나의 측정값이 다른 측정값으로 정의된 목표를 충족하는지 확인하는 경우
 - 캔버스 공간을 절약하려는 경우
 
@@ -76,14 +76,6 @@ ms.locfileid: "65711516"
 예를 들어 다음 단계를 통해 고객을 추적하는 영업 깔때기가 있습니다. 잠재 고객 > 적격 잠재 고객 > 예측 > 계약 > 닫기. 깔때기의 모양은 추적 중인 프로세스의 상태를 한눈에 보여줍니다.
 각 깔때기 단계는 합계의 백분율을 나타냅니다. 따라서 대부분의 경우 깔때기형 차트는 깔때기 모양으로, 첫 단계가 가장 크고 뒤로 갈수록 점점 작아집니다. 서양배 모양의 깔때기도 유용합니다. 프로세스의 문제를 식별할 수 있기 때문입니다. 하지만 일반적으로 첫 번째 단계인 "유입" 단계가 가장 큽니다.
 
-다음과 같은 경우 깔때기형 차트를 사용하는 것이 좋습니다.
-- 데이터가 순차적이고 4단계 이상을 통과하는 경우
-- 첫 번째 단계의 "항목" 수가 최종 단계의 숫자보다 클 것으로 예상되는 경우
-- 단계별 잠재적 수익/판매액/거래 등을 계산하려는 경우
-- 변환 및 보존 비율을 계산하고 추적하려는 경우
-- 선형 프로세스의 병목 상태를 표시하려는 경우
-- 장바구니 워크플로를 추적하려는 경우
-- 클릭 광고/마케팅 캠페인의 진행률 및 성공 여부를 추적하려는 경우
 
 ### <a name="gauge-charts"></a>계기 차트
 ![계기 차트](media/end-user-visual-type/gauge-m.png)
@@ -127,7 +119,7 @@ KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률�
 ### <a name="maps-arcgis-maps"></a>지도: ArcGIS 맵
 ![ArcGis 맵](media/end-user-visual-type/power-bi-esri-map-theme2.png)
 
-ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어서 완전히 새로운 수준으로 매핑합니다. 기본 지도, 위치 유형, 테마, 기호 스타일 및 참조 계층에 대 한 사용 가능한 옵션으로 멋진 정보 제공 용 지도 시각적 개체를 만듭니다. 공간 분석과 지도의 신뢰할 수 있는 데이터 계층 (예: 인구 조사 데이터)의 조합을 시각적 개체에 있는 데이터의 심도 깊은 이해를 전달 합니다.
+ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어서 완전히 새로운 수준으로 매핑합니다. 기본 지도, 위치 유형, 테마, 기호 스타일 및 참조 계층에 사용 가능한 옵션으로 멋진 정보 제공용 지도 시각적 개체를 만듭니다. 공간 분석과 지도의 신뢰할 수 있는 데이터 계층(예: 인구 조사 데이터)이 조합되어 시각적 개체에서 데이터에 대한 심도 깊은 지식이 제공됩니다.
 
 ### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도
 ![등치 지역도](media/end-user-visual-type/pbi-nancy-viz-filledmap.png)
@@ -137,7 +129,7 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 ### <a name="maps-shape-maps"></a>지도: 도형 맵
 ![도형 맵](media/end-user-visual-type/power-bi-shape-map2.png)
 
-도형 맵은 색을 사용하여 맵의 영역을 비교합니다. M\맵 시각적 개체와 달리 도형 맵은 데이터 포인트의 정확한 지리적 위치를 맵에 표시할 수 없습니다. 대신, 색을 다르게 지정하여 맵 영역의 상대 비교를 표시하는 데 주로 사용됩니다.
+도형 맵은 색을 사용하여 맵의 영역을 비교합니다. 도형 맵은 데이터 요소의 정확한 지리적 위치를 맵에 표시할 수 없습니다. 대신, 색을 다르게 지정하여 맵 영역의 상대 비교를 표시하는 데 주로 사용됩니다.
 
 ### <a name="matrix"></a>행렬
 ![행렬](media/end-user-visual-type/matrix.png)
@@ -163,12 +155,16 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 
 거품형 차트는 데이터 요소를 거품으로 바꾸고 거품 크기로 데이터의 추가 차원을 나타냅니다.
 
-X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제외하면 점 그림 차트는 거품형 차트 및 분산형 차트와 비슷합니다.
+
+
+X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제외하면 점 그림 차트는 거품형 차트 및 분산형 차트와 비슷합니다. 이 예제에서는 원 대신 정사각형을 사용하고 X축에 판매량을 그립니다.
+
+![점 그림 차트](media/end-user-visual-type/power-bi-dot-plot-squares.png)
 
 ### <a name="scatter-high-density"></a>분산형-고밀도
 ![고밀도 분산형](media/end-user-visual-type/density-scatter.png)
 
-기본적으로 비교적 신속 하 게 상호 작용에 응답할 수 있는 시각적 개체를 만들 고밀도 데이터를 샘플링 합니다. 고밀도 샘플링은 겹치는 지점을 제거하고 데이터 세트의 모든 지점이 시각적 개체에 표시되도록 하는 알고리즘을 사용합니다. 단지 데이터의 대표적인 샘플만 플롯하지 않습니다.  
+정의에 따르면, 고밀도 데이터를 샘플링하여 대화형 작업에 응답하는 시각화 개체를 상당히 빠르게 만듭니다. 고밀도 샘플링은 겹치는 지점을 제거하고 데이터 세트의 모든 지점이 시각적 개체에 표시되도록 하는 알고리즘을 사용합니다. 단지 데이터의 대표적인 샘플만 플롯하지 않습니다.  
 
 이를 통해 전반적인 데이터 세트에서 중요한 포인트에 대한 응답성, 표현 및 명확한 보존의 최적 조합을 보장할 수 있습니다.
 
@@ -220,14 +216,14 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 세로형 막대는 색으로 구분되어 증가 및 감소를 빠르게 구분할 수 있습니다. 중간 값 열이 부동 세로형 막대인 반면, 초기 및 최종 값 세로형 막대는 종종 가로축에서 시작합니다. 이러한 "보기"로 인해, 폭포 차트는 교량 차트라고도 합니다.
 
 다음과 같은 경우 폭포 차트를 사용하는 것이 좋습니다.
-- 시계열 또는 다른 범주에 걸쳐 측정값의 변화가 있는 경우
+- 시간과 범주에 따라 측정값이 변경되는 경우
 - 합계 값에 영향을 주는 주요 변경을 감사하는 경우
 - 다양한 수익원과 총 수익(또는 손실)을 표시하여 회사의 연간 수익을 계산하는 경우
 - 1년 동안 회사의 시작 및 종료 인력을 나타내기 위해
 - 매달 벌고 쓰는 금액이 얼마인지 그리고 계좌의 잔고가 얼마인지를 시각화하기 위해
 
-## <a name="qna"></a>질문 및 답변 지시는 시각적 개체를 사용 하 여
-Power BI q&a를 사용 하 여 자연어 쿼리를 입력할 때 쿼리에서 시각적 개체 유형을 지정할 수 있습니다.  예:
+## <a name="qna"></a>질문 및 답변에 사용할 시각적 개체 알리기
+Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에 시각적 개체 유형을 지정할 수 있습니다.  예:
 
 
 "***시/도별 매출을 트리 맵으로***"
@@ -235,5 +231,5 @@ Power BI q&a를 사용 하 여 자연어 쿼리를 입력할 때 쿼리에서 �
 ![질문 및 답변 세션](media/end-user-visual-type/qa-treemap.png)
 
 ## <a name="next-steps"></a>다음 단계
-[보고서, 대시보드 및 앱의 시각적 개체 상호 작용](end-user-visualizations.md)    
+[보고서, 대시보드 및 앱에서 시각적 개체 조작](end-user-visualizations.md)    
 [sqlbi.com에서 오른쪽 시각적 개체 참조](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

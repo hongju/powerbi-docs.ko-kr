@@ -4,19 +4,18 @@ description: Power BI 보고서에서 차트 정렬 방식 변경
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aa6193045ba1c399eaae1b48bf813738edba99f1
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 98a91b0651e7a357f0ba0462f6ba8734c64ab162
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750851"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302733"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 값을 기준으로 대부분의 시각화를 알파벳순으로 정렬할 수 있습니다. 예를 들어 이 차트는 범주 **매장 이름**을 기준으로 정렬되었습니다.
@@ -31,12 +30,12 @@ Power BI 보고서에서는 차트의 범주 이름 또는 각 범주의 숫자 
    ![정렬 방식 및 오름차순, 내림차순 선택을 보여주는 비디오](media/end-user-change-sort/sort.gif)
 
 > [!NOTE]
-> 일부 시각화는 정렬되지 않습니다. 예를 들어 다음 시각적 개체는 정렬할 수 없습니다. 트리맵, 맵, 등치 지역도, 분산형, Guage, 카드, Multi Row Card, 폭포.
+> 일부 시각화는 정렬되지 않습니다. 예를 들어 트리맵, 지도, 등치 지역도, 분산형, 계기, 카드, 폭포 시각화는 정렬할 수 없습니다.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>정렬 순서에 적용한 변경 내용 저장
-Power BI 보고서에서는 필터, 슬라이서, 정렬 및 기타 데이터 보기 변경 사항을 유지합니다. 따라서 보고서에서 다른 곳으로 이동하고 나중에 돌아오면 변경 내용이 저장됩니다.  변경 내용을 보고서 디자이너 설정으로 다시 되돌리려면 위의 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다. 
+Power BI 보고서에서는 필터, 슬라이서, 정렬 및 기타 데이터 보기 변경 사항을 유지합니다. 따라서 보고서에서 다른 곳으로 이동하고 나중에 돌아오면 변경 내용이 저장됩니다.  변경 내용을 보고서 디자이너 설정으로 다시 되돌리려면 위쪽 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다. 
 
-![영구 정렬](media/end-user-change-sort/power-bi-reset-to-default.png)
+![영구 정렬](media/end-user-change-sort/power-bi-reset.png)
 
 그러나 **기본값으로 다시 설정** 단추가 회색으로 표시되면 보고서 디자이너가 변경 내용을 저장하는 기능을 비활성화했다는 의미입니다.
 

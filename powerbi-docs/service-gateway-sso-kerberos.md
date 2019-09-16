@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5445326f302f5ffef39ab387b3a22a336efb6550
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655183"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391873"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용
 
@@ -377,7 +377,7 @@ SAP BW 애플리케이션 서버 사용자에 Active Directory 사용자를 매�
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>게이트웨이 머신에 레지스트리 항목 추가
 
-게이트웨이가 설치된 머신의 레지스트리에 필요한 레지스트리 항목을 추가합니다. 실행할 명령은 다음과 같습니다.
+Power BI Desktop에서 연결하려는 머신 및 게이트웨이가 설치된 머신의 레지스트리에 필요한 레지스트리 항목을 추가합니다. 실행할 명령은 다음과 같습니다.
 
 1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 

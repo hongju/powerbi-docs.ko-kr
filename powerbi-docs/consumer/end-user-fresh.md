@@ -6,16 +6,16 @@ manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
-ms.topic: overview
+ms.topic: conceptual
 ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61059858"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751650"
 ---
 # <a name="your-content-is-up-to-date"></a>콘텐츠가 최신 상태입니다.
 *소비자*는 *디자이너*가 만들고 사용자와 공유하는 콘텐츠와 상호 작용합니다. 해당 콘텐츠가 최신 상태인지 궁금하거나 콘텐츠가 마지막으로 새로 고침되었는지 알고 싶을 수도 있습니다. 최신 콘텐츠를 사용하고 있다는 것을 알고 있으면 자신감이 생깁니다.  
@@ -82,7 +82,7 @@ ms.locfileid: "61059858"
 최신 상태를 유지하는 또 다른 방법은 보고서 또는 대시보드를 구독하는 것입니다. 로그인하거나 보고서나 대시보드를 여는 대신 설정한 일정에 따라 스냅샷을 보내도록 Power BI에 지시합니다.  자세한 내용은 [대시보드 및 보고서 구독](end-user-subscribe.md)을 참조하세요.
 
 ## <a name="set-data-alerts"></a>데이터 경고 설정
-데이터가 설정한 한도 이상 또는 초과로 변경되는 경우 알림을 받으시겠습니까? [데이터 경고 만들기](end-user-alerts.md).  데이터 경고를 사용하면 최신 상태를 유지하기가 쉽습니다. 데이터 경고를 사용하면 보고서의 값이 특정 임계값을 통과하는 경우 이메일을 보내도록 Power BI에 지시할 수 있습니다.  예를 들어 인벤토리가 25단위 미만으로 떨어질 경우 또는 판매가 목표를 초과하는 경우  
+데이터가 설정한 한도 이상 또는 초과로 변경되는 경우 알림을 받으시겠습니까? [데이터 경고 만들기](end-user-alerts.md).  데이터 경고를 사용하면 최신 상태를 유지하기가 쉽습니다. 데이터 경고를 사용하면 보고서의 값이 특정 임계값을 통과하는 경우 메일을 보내도록 Power BI에 지시할 수 있습니다.  예를 들어 인벤토리가 25단위 미만으로 떨어질 경우 또는 판매가 목표를 초과하는 경우  
 
 ## <a name="next-steps"></a>다음 단계
 [데이터 경고 만들기](end-user-alerts.md)    

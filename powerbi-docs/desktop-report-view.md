@@ -37,12 +37,12 @@ Power BI Desktop에서 처음 데이터를 로드하면 빈 캔버스가 있는 
 
 ![[필드] 창에서 끌어 시각적 개체 추가](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-시각화 형식을 변경하려면 리본 메뉴의 **시각화** 그룹에서 선택하거나, 마우스 오른쪽 단추를 클릭하고 **시각화 형식 변경** 아이콘에서 다른 형식을 선택할 수 있습니다.
+시각화 형식을 변경하려면 리본 메뉴의 **시각화** 그룹에서 선택하거나, 마우스 오른쪽 단추를 클릭하고 **시각화 유형 변경** 아이콘에서 다른 유형을 선택할 수 있습니다.
 
 ![새 시각적 개체를 선택하여 변경](media/desktop-report-view/pbid_reportview_changevis.gif)
 
 > [!TIP]
-> 다양한 시각화 형식으로 실험해 보세요. 시각화가 데이터의 정보를 명확하게 전달하는 것이 중요합니다.
+> 다양한 시각화 유형으로 실험해 보세요. 시각화가 데이터의 정보를 명확하게 전달하는 것이 중요합니다.
 
 보고서에 시작할 빈 페이지가 하나 이상 있습니다. 페이지는 탐색기 창에서 캔버스 바로 왼쪽에 나타납니다. 한 페이지에 모든 종류의 시각화를 추가할 수 있지만 지나치게 많이 사용하지 않는 것이 중요합니다. 한 페이지에 시각화가 너무 많으면 복잡해 보이며 적절한 정보를 찾기 어렵습니다. 보고서에 새 페이지를 추가할 수 있습니다. 리본 메뉴에서 **새 페이지**를 클릭하기만 하면 됩니다.
 
@@ -53,7 +53,7 @@ Power BI Desktop에서 처음 데이터를 로드하면 빈 캔버스가 있는 
 ![보고서에 페이지 추가](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
 
 > [!NOTE]
-> Power BI Desktop에서 보고서 및 시각화를 대시보드에 고정할 수 없습니다. 이렇게 하려면 Power BI 사이트에 [Power BI Desktop에서 게시](desktop-upload-desktop-files.md)해야 합니다.
+> Power BI Desktop에서 보고서 및 시각화를 대시보드에 고정할 수 없습니다. 이렇게 하려면 Power BI 사이트로 [Power BI Desktop에서 게시](desktop-upload-desktop-files.md)해야 합니다.
 
 ## <a name="copy-and-paste-between-reports"></a>보고서 간에 복사 및 붙여넣기
 

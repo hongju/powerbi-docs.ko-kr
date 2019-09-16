@@ -17,7 +17,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65854416"
 ---
-# <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Performance Analyzer를 사용하여 보고서 요소 성능 검사
+# <a name="use-performance-analyzer-to-examine-report-element-performance"></a>성능 분석기를 사용하여 보고서 요소 성능 검사
 
 **Power BI Desktop**에서 시각적 요소와 DAX 수식과 같은 각 보고서 요소가 수행하는 방법을 찾을 수 있습니다. **성능 분석기**를 사용하여, 사용자가 상호 작용하는 경우 각 보고서 요소가 어떻게 수행되는지, 그리고 그 수행의 어떤 측면이 리소스를 가장 많이 사용하는지 측정하는 로그를 기록하고 확인할 수 있습니다.
 
@@ -27,7 +27,7 @@ ms.locfileid: "65854416"
 
 ## <a name="displaying-the-performance-analyzer-pane"></a>성능 분석기 창 표시
 
-**Power BI Desktop** 에서 **보기** 리본을 선택합니다. **보기** 리본의 **표시** 영역에서 성능 분석기 창을 표시하기 위해 **Performance Analyzer** 옆의 확인란을 선택할 수 있습니다.
+**Power BI Desktop**에서 **보기** 리본을 선택합니다. **보기** 리본의 **표시** 영역에서 성능 분석기 창을 표시하기 위해 **성능 분석기** 옆의 확인란을 선택할 수 있습니다.
 
 ![보기 리본에서 선택 성능 분석기](media/desktop-performance-analyzer/performance-analyzer-02.png)
 
