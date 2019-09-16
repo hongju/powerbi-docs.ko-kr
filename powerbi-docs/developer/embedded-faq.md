@@ -123,7 +123,7 @@ Power BI Embedded는 개발자가 임베디드 분석 솔루션을 만드는 데
 
 PBI 포털을 사용하여 PBI 테넌트 지역을 찾을 수 있습니다.
 
-[https://app.powerbi.com/](https://app.powerbi.com/) > ? > Power BI 정보
+[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Power BI 정보
 
 ![Power BI 정보](media/embedded-faq/about-01.png)
 ![테넌트 지역](media/embedded-faq/tenant-location-01.png)
@@ -203,7 +203,7 @@ PowerBI.com을 사용하여 Power BI Embedded 용량에 작업 영역을 할당/
 
 ### <a name="what-content-pack-data-types-can-you-embed"></a>어떤 콘텐츠 팩 데이터 형식을 포함할 수 있나요?
 
-콘텐츠 팩 데이터 세트에서 만든 **대시보드** 및 **타일**은 포함할 수 없습니다. 단, 콘텐츠 팩 데이터 세트에서 만든 **보고서**는 포함할 수 있습니다.
+콘텐츠 팩 데이터 세트에서 만든 **대시보드** 및 **타일**은 포함할 수 없습니다.  단, 콘텐츠 팩 데이터 세트에서 만든 **보고서**는 포함할 수 있습니다. 
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>RLS(행 수준 보안)를 사용하는 것과 JavaScript 필터를 사용하는 차이는 무엇인가요?
 
@@ -297,11 +297,11 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
 
 ### <a name="what-is-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션이란?
 
-**Power BI 작업 영역 컬렉션**(** Power BI Embedded** 버전 1)은 **Power BI 작업 영역 컬렉션** Azure 리소스에 기반한 솔루션입니다. 이 솔루션을 사용하면 애플리케이션을 Power BI에 대해 인증하는 데 **Power BI 작업 영역 컬렉션** 솔루션의 Power BI 콘텐츠, 전용 API 및 작업 영역 컬렉션 키를 사용하는 고객의 **Power BI Embedded** 애플리케이션을 만들 수 있습니다.
+**Power BI 작업 영역 컬렉션**( **Power BI Embedded** 버전 1)은 **Power BI 작업 영역 컬렉션** Azure 리소스에 기반한 솔루션입니다. 이 솔루션을 사용하면 애플리케이션을 Power BI에 대해 인증하는 데 **Power BI 작업 영역 컬렉션** 솔루션의 Power BI 콘텐츠, 전용 API 및 작업 영역 컬렉션 키를 사용하는 고객의 **Power BI Embedded** 애플리케이션을 만들 수 있습니다.
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션할 수 있나요?
 
-1. 마이그레이션 도구를 사용하여 **Power BI 작업 영역 컬렉션** 콘텐츠를 Power BI - https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration에 복제할 수 있습니다.
+1. 마이그레이션 도구를 사용하여 **Power BI 작업 영역 컬렉션** 콘텐츠를 Power BI - https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration 에 복제할 수 있습니다.
 
 2. Power BI 콘텐츠를 사용하는 **Power BI Embedded** 애플리케이션 POC를 시작합니다.
 
