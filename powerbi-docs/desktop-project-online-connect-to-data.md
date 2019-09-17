@@ -30,7 +30,7 @@ Power BI Desktop을 통해 Project Online의 데이터에 연결할 수 있습�
 3. **OData 피드**를 선택하고 **연결**을 선택합니다.
 4. URL 상자의 OData 피드에 대한 주소를 입력하고 확인을 클릭합니다.
    
-   프로젝트 웹 앱 사이트에 대 한 주소와 유사 *https://\<tenantname\>.sharepoint.com/sites/pwa*, OData 피드에 대해 입력할 주소는 *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/projectdata입니다*합니다.
+   프로젝트 웹 앱 사이트 주소가 *https://\<tenantname\>.sharepoint.com/sites/pwa*, 와 유사하다면, OData 피드에 대해 입력할 주소는 *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/projectdata*입니다.
    
    이 예에서는 https://contoso.sharepoint.com/sites/pwa/default.aspx 를 사용합니다.
 5. Power BI Desktop에서 Office 365 계정을 사용하여 인증하라는 메시지가 나타납니다. 조직 계정을 선택하고 자격 증명을 입력합니다.
