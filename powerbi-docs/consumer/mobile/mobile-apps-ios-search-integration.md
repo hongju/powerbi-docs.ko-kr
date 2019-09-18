@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
 ms.openlocfilehash: 8f40781bb15b06f894a53f16d4ec6754d88e6b53
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "66817079"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Power BI Mobile iOS 앱과 iOS 디바이스 검색(스포트라이트) 연결(미리 보기)

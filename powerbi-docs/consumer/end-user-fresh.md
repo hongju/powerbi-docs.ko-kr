@@ -11,10 +11,10 @@ ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70751650"
 ---
 # <a name="your-content-is-up-to-date"></a>콘텐츠가 최신 상태입니다.
@@ -44,7 +44,7 @@ ms.locfileid: "70751650"
     ![하나가 선택된 2개의 앱](media/end-user-fresh/power-bi-app.png)
 
 
-### <a name="shared-with-me"></a>공유한 항목
+### <a name="shared-with-me"></a>공유
 **공유한 항목** 화면에는 콘텐츠 소유자의 이름과 콘텐츠가 공유한 항목의 날짜가 표시됩니다.
 
 ![변경한 날짜와 소유자를 보여주는 공유한 항목 화면](media/end-user-fresh/power-bi-shared-new.png) 

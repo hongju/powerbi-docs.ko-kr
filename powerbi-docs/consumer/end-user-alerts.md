@@ -12,13 +12,13 @@ ms.date: 08/26/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 16639f6e9bf005d04c64fc3ae6a331338efdd5d4
-ms.sourcegitcommit: 2b340946ed5f1deedeace4071845e1720ea155c9
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70064326"
 ---
-# <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>자습서: Power BI 대시보드에서 대시보드 경고 설정
+# <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>자습서:  Power BI 대시보드에서 대시보드 경고 설정
 대시보드의 데이터가 설정해 놓은 한도보다 많이 또는 적게 변경되면 알리도록 경고를 설정합니다. 알림은 계기, KPI 및 카드에 대해 작동합니다. 이 기능은 계속 발전하고 있으므로 [아래의 팁 및 문제 해결 섹션](#tips-and-troubleshooting)을 참조하세요.
 
 ![타일, 카드, KPI](media/end-user-alerts/card-gauge-kpi.png)
@@ -87,10 +87,10 @@ ms.locfileid: "70064326"
 
 1. 타일에 대한 경고를 변경하거나 제거하려면, 종 모양 아이콘 ![경고 아이콘](media/end-user-alerts/power-bi-bell-icon.png)을 선택하여 **경고 관리** 창을 다시 엽니다. 해당 타일에 설정해 놓은 모든 경고가 표시됩니다.
    
-    ![경고 관리 창](media/end-user-alerts/power-bi-manage-alerts.png).
+    ![경고 관리 창](media/end-user-alerts/power-bi-manage-alerts.png)을 선택합니다.
 2. 경고를 수정하려면, 경고 이름 왼쪽에 있는 화살표를 선택합니다.
    
-    ![경고 이름 옆에 있는 화살표](media/end-user-alerts/power-bi-modify-alert.png).
+    ![경고 이름 옆에 있는 화살표](media/end-user-alerts/power-bi-modify-alert.png)을 선택합니다.
 3. 경고를 삭제하려면, 경고 이름 오른쪽에 있는 쓰레기통을 선택합니다.
    
       ![선택된 휴지통 아이콘](media/end-user-alerts/power-bi-alert-delete.png)
@@ -99,7 +99,7 @@ ms.locfileid: "70064326"
 
 1. Power BI 메뉴 모음에서 기어 아이콘을 선택합니다.
    
-    ![기어 아이콘](media/end-user-alerts/powerbi-gear-icon.png).
+    ![기어 아이콘](media/end-user-alerts/powerbi-gear-icon.png)을 선택합니다.
 2. **설정**에서 **경고**를 선택합니다.
    
     ![설정 창의 경고 탭](media/end-user-alerts/power-bi-alert-settings.png)

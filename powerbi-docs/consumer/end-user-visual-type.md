@@ -11,10 +11,10 @@ ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
 ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70302534"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI의 시각적 개체 유형
@@ -131,7 +131,7 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 
 도형 맵은 색을 사용하여 맵의 영역을 비교합니다. 도형 맵은 데이터 요소의 정확한 지리적 위치를 맵에 표시할 수 없습니다. 대신, 색을 다르게 지정하여 맵 영역의 상대 비교를 표시하는 데 주로 사용됩니다.
 
-### <a name="matrix"></a>행렬
+### <a name="matrix"></a>Matrix
 ![행렬](media/end-user-visual-type/matrix.png)
 
 행렬 시각적 개체는 계단형 레이아웃을 지원하는 테이블 시각적 개체의 한 유형(아래 "표" 참조)입니다. 종종 보고서 디자이너는 보고서 및 대시보드에 행렬을 포함하여 사용자가 행렬에서 하나 이상의 요소(행, 열, 셀)를 선택하여 보고서에서 다른 시각적 개체를 교차 강조 표시할 수 있도록 합니다.  

@@ -11,10 +11,10 @@ ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 7c96b8a21cceb571b1dcf3cfe9567760915c5740
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70200738"
 ---
 # <a name="power-bi-for-consumers"></a>소비자용 Power BI
@@ -60,5 +60,5 @@ Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. 최종 
 
 [소비자용 Power BI 서비스 둘러보기](end-user-reading-view.md)    
 [소비자용 Power BI 서비스 교육](https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/)    
-[Power BI ‘소비자’에 대한 용어 및 개념](end-user-basic-concepts.md)    
+[Power BI ‘소비자’에 대한 용어 및 개념](end-user-basic-concepts.md)     
 

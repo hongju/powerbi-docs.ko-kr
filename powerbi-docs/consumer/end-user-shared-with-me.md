@@ -13,14 +13,14 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4a4cbc152784d7536a5aa179769cf753645c932b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61048781"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>나와 공유한 대시보드 및 보고서 표시
-## <a name="shared-with-me"></a>공유한 항목
+## <a name="shared-with-me"></a>공유
 
 동료가 콘텐츠를 공유하는 경우 **공유** 단추를 사용하면 **공유한 항목** 컨테이너에 표시됩니다. 대시보드 또는 보고서는 **공유한 항목**에서만 사용 가능하며, **앱**에서는 사용할 수 없습니다.
 

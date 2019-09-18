@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
 ms.openlocfilehash: c553b921ebeb30b8fb8ec7ba9f7bce74f6c31dee
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67558965"
 ---
 # <a name="configure-report-interaction-to-single-tap-or-double-tap"></a>단일 탭 또는 이중 탭으로 보고서 상호 작용 구성

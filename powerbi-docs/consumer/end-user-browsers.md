@@ -4,19 +4,18 @@ description: Power BI를 지원하는 브라우저 목록보기
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/11/2019
+ms.date: 09/11/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1b47e51ece196d6667363d91f43589c398828ff9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f713ab679f49ca2e3226f9a6c2a7bf9f2588fede
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65608289"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073192"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI에 지원되는 브라우저
 Power BI는 다음 브라우저에서 실행됩니다.
@@ -30,6 +29,7 @@ Power BI는 다음 브라우저에서 실행됩니다.
 이러한 브라우저는 사용할 수 있는 모든 플랫폼에서 지원됩니다.
 
 ### <a name="next-steps"></a>다음 단계
+* [Power BI란?](../power-bi-overview.md)
 * [Power BI 커뮤니티](http://community.powerbi.com/)에 질문하기
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
 

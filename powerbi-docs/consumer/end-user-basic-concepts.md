@@ -13,10 +13,10 @@ ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 2e41a3f5b1d1bd945e1ab4566abed1589b20c148
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67264801"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 서비스 소비자를 위한 기본 개념
@@ -215,6 +215,6 @@ _______________________________________________________
 
 - [소비자를 위해 특별히 작성된 Power BI 개요](end-user-consumer.md) 읽기
 
-- Will이 기본 개념을 검토하고 Power BI 서비스의 간략한 둘러보기를 제공하는 동영상을 시청해보세요.
+- Will이 Power BI 서비스의 기본 개념을 검토하고 간략한 둘러보기를 제공하는 동영상을 보세요.
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>

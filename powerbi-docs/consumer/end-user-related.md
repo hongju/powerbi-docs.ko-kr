@@ -1,4 +1,4 @@
-﻿---
+---
 title: 대시보드, 보고서 및 데이터 세트에서 관련 콘텐츠 보기
 description: 더욱 간편해진 탐색, 대시보드에서 관련 콘텐츠 보기, 보고서 및 데이터 세트
 author: mihart
@@ -13,10 +13,10 @@ ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: abf6052d7cb912f9a8ff33f064b5dc1d44f5ba3e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61050349"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI 서비스에서 관련 콘텐츠 보기
@@ -32,7 +32,7 @@ Power BI에서 보고서는 데이터 세트를 기반으로 작성되고, 보�
 > 
 
 ## <a name="view-related-content-for-a-dashboard"></a>대시보드에 대한 관련 콘텐츠 보기
-Will이 대시보드에 대한 관련 콘텐츠를 보는 것을 설명하는 비디오를 시청합니다. 그런 다음, 비디오 아래의 단계별 지침에 따라 직접 조달 분석 샘플 데이터 세트를 사용해 봅니다.
+보기는 대시보드에 대한 관련 콘텐츠를 봅니다. 그런 다음, 비디오 아래의 단계별 지침에 따라 직접 조달 분석 샘플 데이터 세트를 사용해 봅니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M#t=3m05s" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +41,7 @@ Will이 대시보드에 대한 관련 콘텐츠를 보는 것을 설명하는 �
 
 **방법 1**
 
-작업 영역에서 **대시보드** 탭을 선택한 다음 **관련 항목 보기** 아이콘 ![관련 항목 보기 아이콘](./media/end-user-related/power-bi-view-related-icon-new.png)을 선택합니다.
+작업 영역에서 **대시보드** 탭을 선택한 다음 **관련 항목 보기** 아이콘 ![관련 항목 보기 아이콘](./media/end-user-related/power-bi-view-related-icon-new.png) 을 선택합니다.
 
 ![대시보드 탭](./media/end-user-related/power-bi-view-related-dash-newer.png)
 
@@ -49,7 +49,7 @@ Will이 대시보드에 대한 관련 콘텐츠를 보는 것을 설명하는 �
 
 **방법 2**
 
-대시보드 열기를 사용하여, 상위 메뉴 모음에서   ![상위 메뉴 모음에서 관련 항목 보기 아이콘](./media/end-user-related/power-bi-view-related-new.png) 을 선택합니다.
+대시보드 열기를 사용하여   ![상위 메뉴 모음에서 관련 항목 보기 아이콘을](./media/end-user-related/power-bi-view-related-new.png) 선택합니다.
 
 **관련 콘텐츠** 창이 열립니다. 대시보드에 시각화가 고정되고 관련된 데이터 세트가 있는 모든 보고서가 표시됩니다. 이 대시보드의 경우 서로 다른 3개의 보고서에서 고정된 시각화가 있으며 해당 보고서는 서로 다른 3개의 데이터 세트를 기반으로 합니다.
 
@@ -76,12 +76,12 @@ Will이 대시보드에 대한 관련 콘텐츠를 보는 것을 설명하는 �
 
 ![관련 콘텐츠 창](./media/end-user-related/power-bi-view-related-report.png)
 
-여기에서 관련 콘텐츠에 대해 직접 작업할 수 있습니다. 예를 들어 대시보드 이름을 선택하여 엽니다. 목록에 있는 대시보드에서 아이콘을 선택하여 [다른 사람과 대시보드를 공유](../service-share-dashboards.md)하거나 해당 대시보드의 **설정** 창을 엽니다. 데이터 세트의 경우 [새 보고서 만들기](../service-report-create-new.md), [새로 고침](../refresh-data.md), 이름 바꾸기, [Excel에서 분석](../service-analyze-in-excel.md), [유용한 정보 얻기](end-user-insights.md) 또는 데이터 세트에 대해 **설정** 창 열기에 대한 아이콘을 선택합니다.  
+여기에서 관련 콘텐츠에 대해 직접 작업할 수 있습니다.  예를 들어 대시보드 이름을 선택하여 엽니다.  목록에 있는 대시보드에서 아이콘을 선택하여 [다른 사람과 대시보드를 공유](../service-share-dashboards.md)하거나 해당 대시보드의 **설정** 창을 엽니다. 데이터 세트의 경우 [새 보고서 만들기](../service-report-create-new.md), [새로 고침](../refresh-data.md), 이름 바꾸기, [Excel에서 분석](../service-analyze-in-excel.md), [유용한 정보 얻기](end-user-insights.md) 또는 데이터 세트에 대해 **설정** 창 열기에 대한 아이콘을 선택합니다.  
 
 ## <a name="view-related-content-for-a-dataset"></a>데이터 세트에 대한 관련 콘텐츠 보기
 **관련 콘텐츠** 창을 열려면 데이터 세트에 대해 *보기* 이상의 권한이 있어야 합니다. 이 예제에서는 [조달 분석 샘플](../sample-procurement.md)을 사용합니다.
 
-작업 영역에서 **데이터 세트** 탭을 선택하고 **관련 항목 보기** 아이콘 ![관련 항목 보기 아이콘](./media/end-user-related/power-bi-view-related-icon-new.png)을 찾습니다.
+작업 영역에서 **데이터 세트** 탭을 선택하고 **관련 항목 보기** 아이콘 ![관련 항목 보기 아이콘](./media/end-user-related/power-bi-view-related-icon-new.png) 을 찾습니다.
 
 ![데이터 세트 탭](./media/end-user-related/power-bi-view-related-dataset-newer.png)
 

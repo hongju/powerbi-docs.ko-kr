@@ -11,10 +11,10 @@ ms.date: 08/29/2019
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: fde61f2411fb04897cc23f24639dc373a98e6edd
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70185117"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
@@ -25,7 +25,7 @@ ms.locfileid: "70185117"
 
 모바일 디바이스의 Power BI에서는 AppSource가 아닌 직접 링크를 통해서만 설치할 수 있습니다. 앱 설계자가 앱을 자동 설치할 경우 앱 목록이 표시됩니다.
 
-## <a name="install-an-app-from-a-direct-link"></a>직접 링크에서 앱 설치 
+## <a name="install-an-app-from-a-direct-link"></a>직접 링크에서 앱 설치
 새 앱을 설치하는 가장 쉬운 방법은 앱 디자이너가 메일로 직접 링크를 받는 것입니다.  
 
 **컴퓨터에서** 
@@ -51,10 +51,10 @@ Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스
     ![내 조직의 AppSource에서](./media/end-user-app-view/power-bi-opportunity-app.png)
 3. **지금 가져오기**를 선택하여 앱 콘텐츠 목록에 추가합니다. 
 
-## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Microsoft AppSource 웹 사이트(https://appsource.microsoft.com))에서 앱을 가져옵니다.
+## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Microsoft AppSource 웹 사이트(https://appsource.microsoft.com) )에서 앱을 가져옵니다.
 이 예제에서는 Microsoft 샘플 앱 중 하나를 엽니다. AppSource에서 비즈니스 운영에 사용하는 다양한 서비스용 앱을 찾을 수 있습니다.  Salesforce, Microsoft Dynamics, Google 애널리틱스, GitHub, Zendesk, Marketo 등의 서비스가 있습니다. 자세한 내용은 [Power BI를 통해 사용 중인 서비스용 앱](../service-connect-to-services.md)을 참조하세요. 
 
-1. 브라우저에서 https://appsource.microsoft.com을 열고 **Power BI 앱**을 선택합니다.
+1. 브라우저에서 https://appsource.microsoft.com 을 열고 **Power BI 앱**을 선택합니다.
 
     ![Power BI 앱이 선택된 AppSource 웹 사이트  ](./media/end-user-apps/power-bi-appsource.png)
 
@@ -83,11 +83,11 @@ Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스
 
 6. 새 앱을 탐색할지 또는 사용자 지정하고 공유할지를 선택합니다. Microsoft 샘플 앱을 선택했으므로 먼저 살펴보겠습니다. 
 
-    ![샘플 데이터로 탐색](./media/end-user-apps/power-bi-explore.png)
+    ![샘플 데이터와 함께 탐색](./media/end-user-apps/power-bi-explore.png)
 
 7.  새 앱이 대시보드를 사용하여 열립니다. 앱 *디자이너*가 대신 보고서로 열리도록 앱을 설정했을 수 있습니다.  
 
-    ![샘플 데이터로 탐색](./media/end-user-apps/power-bi-new-app.png)
+    ![샘플 데이터와 함께 탐색](./media/end-user-apps/power-bi-new-app.png)
 
 
 
