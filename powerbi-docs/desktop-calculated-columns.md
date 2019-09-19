@@ -26,7 +26,7 @@ ms.locfileid: "68522194"
 
 ![](media/desktop-calculated-columns/calccolinpbid_fields.png)
 
-계산된 열은 Power BI Designer에서와 같이 관계형 데이터 작업에 사용되는 수식 언어인 DAX([Data Analysis Expressions](https://msdn.microsoft.com/library/gg413422.aspx))를 사용하여 결과를 계산합니다. DAX에는 200개가 넘는 함수, 연산자 및 구문 라이브러리가 포함되어 데이터 분석 결과를 계산하는 수식을 만들 때 엄청난 유연성을 제공합니다. DAX에 대한 자세한 내용은 이 문서의 끝에 있는 자세한 정보 섹션을 참조하세요.
+계산된 열은 Power BI Desktop에서와 같이 관계형 데이터 작업에 사용되는 수식 언어인 DAX([Data Analysis Expressions](https://msdn.microsoft.com/library/gg413422.aspx))를 사용하여 결과를 계산합니다. DAX에는 200개가 넘는 함수, 연산자 및 구문 라이브러리가 포함되어 데이터 분석 결과를 계산하는 수식을 만들 때 엄청난 유연성을 제공합니다. DAX에 대한 자세한 내용은 이 문서의 끝에 있는 자세한 정보 섹션을 참조하세요.
 
 DAX 수식은 Excel 수식과 비슷합니다. 실제로 DAX에는 Excel과 동일한 함수가 대부분 포함되어 있습니다. 그러나 DAX 함수는 Power BI Desktop에서처럼 보고서에서 대화형으로 분리되거나 필터링된 데이터에 대한 작업입니다. 표의 각 행에 대해 다른 수식을 사용할 수 있는 Excel과 달리 새 열에 대한 DAX 수식을 만드는 경우 표의 각 행에 대한 결과를 계산합니다. 기본 데이터가 새로 고쳐지고 값이 변경된 경우와 같이 필요에 따라 열 값이 다시 계산됩니다.
 

@@ -13,10 +13,10 @@ ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 29823a2f1ca7f1448df54282e0ce081310974eb3
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67265274"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI에서 시각화 드릴 모드
@@ -48,7 +48,7 @@ Power BI 시각화에 계층 구조가 포함되어 있는 것이 확실한가�
 
     | 웰 | 필드 |
     | ---- | ----- |
-    | 값 |판매<br>\|\_ Total Units This Year |
+    | 값 |영업<br>\|\_ Total Units This Year |
     | 그룹 | 매장<br>\|\_ Territory<br>\|\_ City<br>\|\_ Postal Code<br>\|\_ Name
 
     트리 맵에는 지역, 도시, 우편번호 및 도시 이름으로 구성된 계층 구조가 있습니다. 예를 들면 각 지역에 하나 이상의 도시가 있고 각 도시에 하나 이상의 우편 번호가 있습니다. 기본적으로 ‘Territory’는 목록에서 첫 번째로 표시되기 때문에 시각화는 지역 데이터만 표시합니다. 
@@ -209,7 +209,7 @@ Power BI를 사용하면 하나 또는 모든 하위 집합을 확장할 수 있
     | 웰 | 필드 |
     | ---- | ----- |
     | 축 | 시간<br>\|\_ Month |
-    | 값 | 판매<br>\|\_ TotalSales |
+    | 값 | 영업<br>\|\_ TotalSales |
 
     축 데이터 필드가 **월**인 경우라도 **축**에서 **연도** 범주를 생성합니다. Power BI가 읽어 온 모든 값에 대한 전체 DateTime 구조를 제공하기 때문입니다. 계층 구조의 맨 위에는 해당 연도에 대한 데이터가 표시됩니다.
 
@@ -225,7 +225,7 @@ Power BI를 사용하면 하나 또는 모든 하위 집합을 확장할 수 있
 
 시각화 외에도 각 보고서에 대해 렌더링된 데이터에 반영되는 계층 구조를 볼 수 있습니다. 오른쪽 위 모서리에서 줄임표를 선택한 후 **데이터 표시**를 선택합니다. 다음 표에서는 단일 월 또는 모든 월에서 드릴다운한 결과를 보여 줍니다.
 
-|확장 모드|연도|분기|월|일|
+|확장 모드|연도|분기|월|Day|
 | --- |:---:|:---:|:---:|---|
 |단일|![단일 연도](./media/end-user-drill/power-bi-hierarchical-year.png)|![단일 분기](media/end-user-drill/power-bi-hierarchical-quarter.png)|![단일 월](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![단일 일](media/end-user-drill/power-bi-hierarchical-one-day.png)|
 |모두|![모든 연도](./media/end-user-drill/power-bi-hierarchical-year.png)|![모든 분기](media/end-user-drill/power-bi-hierarchical-quarter.png)|![모든 월](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![모든 일](media/end-user-drill/power-bi-hierarchical-all-day.png)|
@@ -244,7 +244,7 @@ Power BI를 사용하면 하나 또는 모든 하위 집합을 확장할 수 있
 
     | 웰 | 필드 |
     | ---- | ----- |
-    | 값 |판매<br>\|\_ Total Units This Year |
+    | 값 |영업<br>\|\_ Total Units This Year |
     | 축 | 매장<br>\|\_ Territory<br>\|\_ City - **범례** 웰에서 **축** 웰로 도시를 끌어서 놓아야 할 수 있습니다.<br>\|\_ Postal Code<br>\|\_ Name |
 
     ![Total units this year by territory를 보여 주는 막대형 차트의 스크린샷](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)

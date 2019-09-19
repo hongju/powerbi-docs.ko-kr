@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 99ad06b84b01ce94b3433952cdd031a81c336e04
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454139"
@@ -48,7 +48,9 @@ ms.locfileid: "65454139"
 
 선택한 필터가 적용된 값은 일반 기본색을 사용하여 표시됩니다. 원래 시작 시각적 개체에서 보이는 것처럼 전체 값은 간편하게 비교할 수 있도록 회색으로 표시됩니다. 최대 3개의 필터(이 예에서는 *Touring Bikes*, *Mountain Bikes*, *Road Bikes*)를 포함할 수 있으며, 각 필터를 클릭하여(또는 여러 개 선택하려면 ctrl-클릭 사용) 다른 필터를 선택할 수 있습니다.
 
+
 이 예에서 *총 판매액*과 같이 단순 가산 측정값의 경우 비교는 절대값이 아닌 상대값에 기반하여 이루어집니다. 따라서 Touring Bikes에 대한 판매는 모든 범주에 대한 전체 판매보다 낮지만, 기본적으로 시각적 개체는 bikes의 모든 범주 대 Touring Bikes에 대한 다른 국가에서의 판매 비율 간 비교를 하기 위해 이중 축을 사용합니다. 시각적 개체 아래의 토글을 전환하면 두 값을 같은 축에 표시할 수 있어 절대값을 쉽게 비교할 수 있습니다(다음 이미지 참조).    
+
 
 ![인사이트 사용 시 표시되는 시각적 개체](media/desktop-insights-find-where-different/find-where-different_04.png)
 

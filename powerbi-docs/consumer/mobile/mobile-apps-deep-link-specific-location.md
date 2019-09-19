@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
 description: Power BI 모바일 앱에서 URI(Uniform Resource Identifier)를 사용하여 특정 대시보드, 타일 또는 보고서에 대한 딥 링크를 만드는 방법에 대해 알아봅니다.
 author: mshenhav
@@ -23,7 +23,6 @@ Power BI 모바일에서 링크를 사용하는 방법에는 주로 두 개의 �
 
 * **앱 외부에서** Power BI를 열고 특정 콘텐츠(앱/보고서/대시보드)를 방문합니다. 이것은 일반적으로 다른 앱에서 Power BI Mobile을 열려고 할 때의 통합 시나리오입니다. 
 * Power BI 내부에서 **탐색**합니다. 이것은 일반적으로 Power BI에서 사용자 지정 탐색을 만들려는 경우입니다.
-* Power BI 내부에서 **탐색**합니다. 이것은 일반적으로 Power BI에서 사용자 지정 탐색을 만들려는 경우입니다.
 
 
 ## <a name="use-links-from-outside-of-power-bi"></a>Power BI 외부에서 링크 사용
@@ -35,7 +34,8 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 ```
 
 > [!IMPORTANT]
-> 콘텐츠가 중국 정부 등과 같은 특수한 데이터 센터에서 호스팅되는 경우, 링크는 `app.powerbigov.us` 또는 `app.powerbi.cn`과 같은 올바른 Power BI 주소로 시작되어야 합니다.  
+> 콘텐츠가 중국 정부 등과 같은 특수한 데이터 센터에서 호스팅되는 경우, 링크는 `app.powerbigov.us` 또는 `app.powerbi.cn`과 같은 올바른 Power BI 주소로 시작되어야 합니다.   
+>
 
 
 **쿼리 매개 변수**는 다음과 같습니다.
@@ -84,12 +84,12 @@ https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=
 ```
 
 36자의 **보고서** 개체 ID를 찾으려면, Power BI 서비스의 특정 보고서로 이동합니다.
-다음은 "내 작업 영역"의 보고서 예제입니다.  
+다음은 "내 작업 영역"의 보고서 예제입니다.
 
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
 ```
-또한 위의 URL은 특정 보고서 페이지 **"ReportSection3"**를 포함합니다.
+또한 위의 URL은 특정 보고서 페이지 **"ReportSection3"** 를 포함합니다.
 
 다음은 작업 영역(내 작업 영역 아님)의 보고서 예제입니다.
 
@@ -106,8 +106,6 @@ Power BI 내부의 링크는 Power BI 서비스에서와 똑같이 모바일 앱
 ## <a name="use-report-url-with-filter"></a>필터와 함께 보고서 URL 사용
 Power BI 서비스와 동일하게, Power BI 모바일 앱도 필터 쿼리 매개 변수를 포함하는 보고서 URL을 지원합니다. Power BI 모바일 앱에서 보고서를 열 수 있으며 특정 상태로 필터링할 수 있습니다. 예를 들어, 이 URL은 판매 보고서를 열고 지역별로 필터링합니다.
 
-## <a name="use-report-url-with-filter"></a>필터와 함께 보고서 URL 사용
-Power BI 서비스와 동일 하지만, Power BI 모바일 앱도 필터 쿼리 매개 변수를 포함 하는 보고서 URL을 지원합니다. Power BI 모바일 앱에서 보고서를 열 수 있으며 특정 상태로 필터링할 수 있습니다. 예를 들어, 이 URL은 판매 보고서를 열고 지역별로 필터링합니다.
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
 ```

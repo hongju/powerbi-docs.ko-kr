@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9f5357056c27d6461ad7f7d7fba1daa27a508868
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391159"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750931"
 ---
 # <a name="optimizing-premium-capacities"></a>프리미엄 용량 최적화
 
@@ -257,7 +257,7 @@ Azure 용량에 생성된 작업 영역에 테스트 콘텐츠를 추가하고, 
 
 부하 테스트를 수행하려는 보고서와 용량이 이미 있는 경우 [PowerShell 부하 생성 도구](https://aka.ms/PowerBILoadTestingTool)를 사용하여 부하 테스트를 빠르게 생성합니다. 이 도구를 사용하면 용량에서 시간당 실행할 수 있는 각 보고서의 인스턴스 수를 예측할 수 있습니다. 이 도구를 사용하여 용량의 개별 보고서 렌더링 기능이나 여러 다른 보고서의 병렬 렌더링 기능을 평가할 수 있습니다. 자세한 내용은 [Microsoft Power BI: 프리미엄 용량](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw) 동영상을 참조하세요.
 
-더 복잡한 테스트를 생성하려면 실제 워크로드를 시뮬레이트하는 부하 테스트 애플리케이션을 개발하는 것이 좋습니다. 자세한 내용은 웨비나 [Load Testing Power BI Applications with Visual Studio Load Test](https://blogs.msdn.microsoft.com/charles_sterling/2018/04/04/webinar-load-testing-power-bi-applications-with-visual-studio-load-test/)(Visual Studio 부하 테스트를 사용하여 Power BI 애플리케이션 부하 테스트)를 참조하세요.
+더 복잡한 테스트를 생성하려면 실제 워크로드를 시뮬레이트하는 부하 테스트 애플리케이션을 개발하는 것이 좋습니다. 자세한 내용은 웨비나 [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)(Visual Studio 부하 테스트를 사용하여 Power BI 애플리케이션 부하 테스트)를 참조하세요.
 
 ## <a name="acknowledgements"></a>승인
 

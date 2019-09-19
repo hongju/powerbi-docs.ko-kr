@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 629c53358f757002f2b3dcda468641bbaaa2f4d4
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273659"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70166748"
 ---
 **DAX** 및 Excel 수식 언어 간의 중요한 차이점은 DAX를 사용하여 단일 값으로 제한되는 것이 아니라 식 사이에 전체 테이블을 전달할 수 있다는 점입니다.  DAX를 사용하는 경우 한 가지 강력한 효과는 해당 식에서 테이블을 필터링한 다음 필터링된 일련의 값으로 작업할 수 있다는 점입니다.
 

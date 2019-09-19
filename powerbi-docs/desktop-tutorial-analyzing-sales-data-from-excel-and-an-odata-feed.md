@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 757a2ca5a88e8ee98aa1c460c30e001f14bc6789
-ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66814350"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160398"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>자습서: Excel 및 OData 피드의 판매 데이터 결합
 
@@ -55,7 +55,7 @@ ms.locfileid: "66814350"
 ![파워 쿼리 편집기](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
    
 >[!NOTE]
->Power BI Desktop의 리본 메뉴 **홈** 리본에서 **쿼리 편집**  >  **쿼리 편집**을 선택하거나, **보고서 보기**에서 쿼리 옆에 있는 **추가 옵션**을 마우스 오른쪽 단추로 클릭하거나 선택하고 **쿼리 편집**을 선택하여 **파워 쿼리 편집기**를 열 수도 있습니다.
+>Power BI Desktop의 리본 메뉴 **홈** 리본에서 **쿼리 편집** > **쿼리 편집**을 선택하거나, **보고서 보기**에서 쿼리 옆에 있는 **추가 옵션**을 마우스 오른쪽 단추로 클릭하거나 선택하고 **쿼리 편집**을 선택하여 **파워 쿼리 편집기**를 열 수도 있습니다.
 
 ## <a name="clean-up-the-products-columns"></a>제품 열 정리
 

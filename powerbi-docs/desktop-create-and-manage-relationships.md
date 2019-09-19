@@ -59,7 +59,7 @@ ms.locfileid: "61312707"
 
 **일대일 (1:1)** - 한 테이블의 열은 특정 값의 인스턴스를 하나만 가지며 다른 관련된 테이블은 하나의 특정 값 인스턴스만 가집니다.
 
-**다 대 다 관계**: 복합 모델을 사용 하 여 테이블의 고유 값에 대 한 요구 사항을 제거 하는 테이블 간에 다 대 다 관계를 설정할 수 있습니다. 또한 관계 설정 목적으로만 새 테이블을 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [다 대 다 카디널리티와의 관계](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)를 참조하세요. 
+**다 대 다 관계**: 복합 모델을 사용하여 테이블의 고유 값에 대한 요구 사항을 제거하는, 테이블 간 다 대 다 관계를 설정할 수 있습니다. 또한 관계 설정 목적으로만 새 테이블을 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [다 대 다 카디널리티의 관계](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)를 참조하세요. 
 
 카디널리티를 변경하는 경우에 대한 자세한 내용은 이 아티클의 뒷부분에 있는 추가 옵션 이해 섹션을 참조하세요.
 
@@ -325,7 +325,7 @@ Power BI Desktop이 자동으로 관계를 만들 때 두 테이블 간에 둘 �
 
  ![](media/desktop-create-and-manage-relationships/candmrel_managerelactive.png)
 
-이제 EmployeeRole의 Role 및 Employee 필드와 ProjectTickets의 Hours 필드를 보고서 캔버스의 테이블 시각화에서 사용하는 보고서를 만들면, 프로젝트 스폰서만 프로젝트 티켓을 열었기 때문에 프로젝트 스폰서만 보이게 될 것입니다.
+이제 EmployeeRole의 Role 및 Employee 필드와 ProjectTickets의 Hours 필드를 보고서 캔버스의 테이블 시각화에서 사용하는 보고서를 만들면, Project Sponsor만 프로젝트 티켓을 열었기 때문에 Project Sponsor만 보이게 될 것입니다.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_repcrossfilteractive.png)
 

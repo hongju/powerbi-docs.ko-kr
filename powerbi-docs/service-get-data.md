@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/29/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d6d6ca0b9a1a2ec312a9168aad7a7cc93981e396
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816746"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200962"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 서비스용 데이터 원본
 데이터는 Power BI의 핵심입니다. 여러분이 데이터를 탐색하려 한다고 가정해 봅니다. 여러분은 데이터를 탐색하기 위해 차트와 대시보드를 만들거나 **질문 및 답변**을 통해 질문을 합니다. 여러분의 눈에 보이는 시각화 및 답변의 기본 데이터는 데이터 세트에서 가져옵니다. 그러나 해당 데이터 세트를 어디서 가져오나요? 데이터 세트는 데이터 원본에서 가져옵니다.
@@ -46,13 +46,13 @@ ms.locfileid: "66816746"
 ### <a name="files"></a>파일
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel**( *.xlsx*, *.xlsm*) - Excel은 고유합니다. Excel의 통합 문서는 여러 데이터 형식을 포함할 수 있습니다. 예를 들어 사용자가 직접 워크시트에 입력한 데이터를 포함할 수 있습니다. 사용자가 파워 쿼리를 사용하여 외부 데이터 원본에서 쿼리하고 로드한 데이터를 포함할 수도 있습니다. 파워 쿼리는 Excel 2016 또는 PowerPivot의 **가져오기 및 변환**을 통해 사용할 수 있습니다. 워크시트의 테이블에서 데이터를 가져오거나 데이터 모델에서 데이터를 가져올 수 있습니다. 자세한 내용은 [Power BI용 파일에서 데이터 가져오기](service-get-data-from-files.md)를 참조하세요.
+**Excel** (*.xlsx*, *.xlsm*) - Excel의 통합 문서는 여러 데이터 형식을 포함할 수 있습니다. 예를 들어 사용자가 직접 워크시트에 입력한 데이터를 포함할 수 있습니다. 사용자가 파워 쿼리를 사용하여 외부 데이터 원본에서 쿼리하고 로드한 데이터를 포함할 수도 있습니다. 파워 쿼리는 Excel 2016 또는 PowerPivot의 **가져오기 및 변환**을 통해 사용할 수 있습니다. 워크시트의 테이블에서 데이터를 가져오거나 데이터 모델에서 데이터를 가져올 수 있습니다. 자세한 내용은 [Power BI용 파일에서 데이터 가져오기](service-get-data-from-files.md)를 참조하세요.
 
-**Power BI Desktop**( *.pbix*) - Power BI Desktop을 사용하여 외부 데이터 원본에서 데이터를 쿼리 및 로드하고 보고서를 작성할 수 있습니다. 측정값 및 관계를 사용하여 데이터 모델을 확장하거나 Power BI Desktop 파일을 Power BI 사이트로 가져올 수도 있습니다. Power BI Desktop은 고급 사용자에게 적합합니다. 일반적으로 고급 사용자는 자신의 데이터 원본을 잘 이해하고 있습니다. 데이터 쿼리와 변환, 데이터 모델링 개념도 잘 이해하고 있습니다. 자세한 내용은 [Power BI Desktop에서 데이터에 연결](desktop-connect-to-data.md)을 참조하세요.
+**Power BI Desktop**(*.pbix*) - Power BI Desktop을 사용하여 외부 데이터 원본에서 데이터를 쿼리 및 로드하고 보고서를 작성할 수 있습니다. 측정값 및 관계를 사용하여 데이터 모델을 확장하거나 Power BI Desktop 파일을 Power BI 사이트로 가져올 수도 있습니다. Power BI Desktop은 고급 사용자에게 적합합니다. 일반적으로 고급 사용자는 자신의 데이터 원본을 잘 이해하고 있습니다. 데이터 쿼리와 변환, 데이터 모델링 개념도 잘 이해하고 있습니다. 자세한 내용은 [Power BI Desktop에서 데이터에 연결](desktop-connect-to-data.md)을 참조하세요.
 
-**쉼표로 구분된 값**( *.csv*) - 파일은 데이터 행이 있는 간단한 텍스트 파일입니다. 각 행은 하나 이상의 값을 포함할 수 있으며 쉼표로 구분됩니다. 예를 들어 이름 및 주소 데이터를 포함하는 *.csv*에는 여러 행이 있을 수 있습니다. 각 행에는 이름, 성, 주소, 도시, 시/도 등에 대한 값이 포함될 수 있습니다. 데이터를 *.csv* 파일로 가져올 수는 없지만, Excel 같은 여러 애플리케이션에서 간단한 테이블 데이터를 *.csv* 파일로 저장할 수 있습니다.
+**쉼표로 구분된 값**(*.csv*) - 파일은 데이터 행이 있는 간단한 텍스트 파일입니다. 각 행은 하나 이상의 값을 포함할 수 있으며 쉼표로 구분됩니다. 예를 들어 이름 및 주소 데이터를 포함하는 *.csv*에는 여러 행이 있을 수 있습니다. 각 행에는 이름, 성, 주소, 도시, 시/도 등에 대한 값이 포함될 수 있습니다. 데이터를 *.csv* 파일로 가져올 수는 없지만, Excel 같은 여러 애플리케이션에서 간단한 테이블 데이터를 *.csv* 파일로 저장할 수 있습니다.
 
-XML 테이블( *.xml*) 또는 텍스트 파일( *.txt*) 같은 기타 유형의 파일은 **가져오기 및 변환**을 사용하여 데이터를 쿼리하고, Excel 또는 Power BI Desktop 파일로 변환하고 로드할 수 있습니다. 그런 다음 Excel 또는 Power BI Desktop 파일을 Power BI로 가져올 수 있습니다.
+XML 테이블(*.xml*) 또는 텍스트 파일(*.txt*) 같은 기타 유형의 파일은 **가져오기 및 변환**을 사용하여 데이터를 쿼리하고, Excel 또는 Power BI Desktop 파일로 변환하고 로드할 수 있습니다. 그런 다음 Excel 또는 Power BI Desktop 파일을 Power BI로 가져올 수 있습니다.
 
 파일을 저장하는 위치가 큰 차이를 가져오기도 합니다. 비즈니스용 OneDrive는 최대한의 유연성 및 Power BI와의 통합을 제공합니다. 파일을 로컬 드라이브에 보관해도 괜찮습니다. 하지만 데이터를 새로 고쳐야 하는 경우 몇 가지 추가 단계가 있습니다. 자세한 내용은 아래의 문서 링크를 참조하세요.
 
@@ -102,9 +102,9 @@ Power BI에서는 데이터 세트와 데이터 원본이라는 용어가 자주
 
 서비스에서 콘텐츠 팩을 자동으로 업데이트합니다. 대부분의 경우 하루에 한 번 업데이트됩니다. 수동으로 새로 고칠 수 있지만, 업데이트된 데이터의 표시 여부는 서비스 공급 기업에 따라 달라집니다. 조직 내 사용자가 콘텐츠 팩을 업데이트하는 방법은 사용된 데이터 원본에 따라 달라집니다. 콘텐츠 팩을 만든 사람이 새로 고침을 구성한 방식에 따라서도 달라집니다.
 
-Azure SQL Database, Azure SQL Data Warehouse 및 Azure HDInsight의 Spark는 클라우드의 데이터 원본이므로 고유합니다. 또한 Power BI 서비스가 클라우드에 있기 때문에 Power BI는 **DirectQuery**를 사용하여 실시간으로 데이터 원본에 연결할 수 있습니다. Power BI에 표시되는 항목은 항상 동기화되며 예약된 새로 고침을 설정할 필요가 없습니다.
+Azure SQL Database, Azure SQL Data Warehouse 및 Azure HDInsight의 Spark는 클라우드의 데이터 원본입니다. 또한 Power BI 서비스가 클라우드에 있기 때문에 Power BI는 **DirectQuery**를 사용하여 실시간으로 데이터 원본에 연결할 수 있습니다. Power BI에 표시되는 항목은 항상 동기화되며 예약된 새로 고침을 설정할 필요가 없습니다.
 
-SQL Server Analysis Services는 고유합니다. Power BI에서 이 서비스에 연결할 때 클라우드의 Azure 데이터베이스와 마찬가지로 실시간으로 연결됩니다. 데이터베이스 자체는 조직 내 서버에 있다는 점이 다릅니다. 이 유형의 연결에는 Power BI 게이트웨이가 필요하며, 이 게이트웨이는 IT 부서에서 구성합니다.
+Power BI에서 SQL Server Analysis Services에 연결할 때 클라우드의 Azure 데이터베이스와 마찬가지로 실시간으로 연결됩니다. 데이터베이스 자체는 조직 내 서버에 있다는 점이 다릅니다. 이 유형의 연결에는 Power BI 게이트웨이가 필요하며, 이 게이트웨이는 IT 부서에서 구성합니다.
 
 데이터 새로 고침은 Power BI의 매우 중요한 기능이자, 여기서 다루기에는 너무 구체적입니다. 상세하게 알아보고자 할 경우 [Power BI에서 데이터 새로 고침](refresh-data.md)을 확인하세요.
 

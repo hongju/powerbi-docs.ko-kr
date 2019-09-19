@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3dce16287c9cdcb7882e332e338137f7598b4010
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61315010"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200904"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle 데이터베이스에 연결
 **Power BI Desktop**을 사용하여 Oracle 데이터베이스에 연결하기 위해 Power BI Desktop을 실행하는 컴퓨터에 올바른 Oracle 클라이언트 소프트웨어를 설치해야 합니다. 사용하는 Oracle 클라이언트 소프트웨어는 설치한 Power BI Desktop의 버전(**32비트** 버전 또는 **64비트** 버전)에 따라 달라집니다.
@@ -64,3 +64,5 @@ Microsoft Store에서 Power BI Desktop을 다운로드하면 Oracle 드라이버
 * 대신 https://powerbi.microsoft.com/desktop에서 Power BI Desktop을 다운로드합니다.
 
 * Microsoft Store의 버전을 사용하려는 경우 로컬 컴퓨터에서 oraons.dll을 _12.X.X\client_X_에서 _12.X.X\client_X\bin_로 복사하세요. X는 버전 및 디렉터리 숫자를 나타냅니다.
+
+Oracle 데이터베이스에 연결할 때 Power BI Gateway에 *개체 참조가 설정되지 않음* 오류 메시지가 표시되면 [데이터 원본 관리 - Oracle](service-gateway-onprem-manage-oracle.md) 문서의 지침에 따라 문제를 해결할 수 있습니다.

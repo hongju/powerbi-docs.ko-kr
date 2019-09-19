@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/15/2019
-ms.openlocfilehash: 2d48892450bbf6ab09a4bc88cd2be9a58bbdc863
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.date: 08/29/2019
+ms.openlocfilehash: 4b0ead5697dc94497609ac925a0a46142584f0ba
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307077"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185599"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독 
 
 이제 Power BI 서비스에서 페이지를 매긴 보고서에 대한 이메일 구독을 자신과 다른 사용자에게 설정할 수 있습니다. 일반적으로 프로세스는 [Power BI 서비스의 보고서 및 대시보드에 구독하는 것](service-report-subscribe.md)과 같습니다. 이 문서에서는 차이점과 고려 사항을 설명합니다. 
 
-구독 설정 시 이메일 수신 빈도(매일, 매주 또는 매시간)를 선택합니다. 매일 또는 매주를 선택하면 구독을 실행할 시간을 선택할 수 있습니다. 모든 보고서에 대해 하루 최대 24개의 서로 다른 구독을 설정할 수 있습니다. 
+구독을 설정하면 매일, 매주, 매월 또는 매시간 중에서 메일 수신 빈도를 선택할 수 있습니다. 구독을 실행할 시간을 선택할 수도 있습니다. 모든 보고서에 대해 최대 24개의 서로 다른 구독을 설정할 수 있습니다. 
 
 ## <a name="considerations-for-paginated-report-subscriptions"></a>페이지를 매긴 보고서 구독에 대한 고려 사항 
 

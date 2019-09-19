@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 80eb366015de3822b9c8c455f1ee386a34e1f457
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561009"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160194"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure 비용 및 사용량 데이터 분석
 
@@ -28,11 +28,15 @@ Power BI는 현재 기업 계약 및 고객 계약 청구 계정에 대한 연�
 
 * **고객 계약** 사용자는 [**Azure Cost Management 커넥터**](#connect-with-azure-cost-management)를 사용해서 연결해야 합니다.
 
+> [!NOTE]
+> Azure Cost Management 커넥터를 사용하는 기업계약 고객이며 Cost Management 블레이드에  ‘청구 프로필 ID’가 표시되지 않으면 최신 상거래 플랫폼에 있지 않은 것입니다. 이러한 경우  ‘청구 프로필’ ID 대신 EA 등록 번호를 요청하는 Azure Consumption Insights 커넥터를 사용합니다.
+
+
 ## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights에 연결
 
 Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계정에 연결할 수 있습니다.
 
-이 섹션에서는 Azure 엔터프라이즈 커넥터를 사용해서 마이그레이션해야 하는 데이터를 가져오는 방법을 알아봅니다. **ACI**(Azure Consumption Insights) API에서 사용할 수 있는 ‘사용량 세부 정보 열’ 매핑도 있습니다.
+이 섹션에서는 Azure 엔터프라이즈 커넥터를 사용해서 마이그레이션해야 하는 데이터를 가져오는 방법을 알아봅니다. **ACI**(Azure Consumption Insights) API에서 사용할 수 있는 ‘사용량 세부 정보 열’ 매핑도 있습니다. 
 
 **Azure Consumption Insights** 커넥터를 사용하려면 Azure Portal의 엔터프라이즈 기능에 액세스해야 합니다.
 
@@ -56,7 +60,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
 
-   이 커넥터 버전은 https://ea.azure.com에서 엔터프라이즈 등록을 지원합니다. 중국 등록은 현재 지원되지 않습니다.
+   이 커넥터 버전은 https://ea.azure.com 에서 엔터프라이즈 등록을 지원합니다. 중국 등록은 현재 지원되지 않습니다.
 
    다음으로 연결할 *선택키*를 제공합니다.
 
@@ -66,7 +70,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-‘액세스 키’를 제공하고 **연결**을 선택하면 **탐색기** 창이 나타나고, 사용 가능한 9개 테이블이 표시됩니다.
+‘액세스 키’를 제공하고 **연결**을 선택하면 **탐색기** 창이 나타나고, 사용 가능한 9개 테이블이 표시됩니다. 
 
 | 테이블        | 설명 |
 |------------- | -------------------------------------------------------------|
@@ -80,7 +84,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 | **Summaries** | 잔액, 새 구매, Azure Marketplace 서비스 요금, 조정, 초과분 요금의 월별 요약입니다. |
 | **UsageDetails** | 소비된 수량 분석 및 예상 등록 요금입니다. |
 
-테이블 옆에 있는 확인란을 선택하여 미리 보기를 확인할 수 있습니다. 해당 이름 옆에 있는 확인란을 선택하여 하나 이상의 테이블을 선택한 다음 **부하**를 선택할 수 있습니다.
+테이블 옆에 있는 확인란을 선택하여 미리 보기를 확인할 수 있습니다. 해당 이름 옆에 있는 확인란을 선택하여 하나 이상의 테이블을 선택한 다음 **로드**를 선택할 수 있습니다.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
@@ -127,11 +131,11 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 * 현재 날짜부터 시작하여 개월 수를 정의하려면 *numberOfMonth*를 사용합니다.
   * 1에서 36 사이의 값을 사용합니다. 현재 날짜에서 가져오려는 개월 수를 나타냅니다. 12개월 이하의 데이터를 가져오는 것이 좋습니다. 이 한도는 Power BI 쿼리 가져오기 제약 조건 및 데이터 볼륨 임계값을 방지합니다.
 * 기록 시간 창에서 일정 기간을 정의하려면 *startBillingDataWindow* 및 *endBillingDataWindow*를 사용합니다.
-* ‘startBillingDataWindow’ 또는 ‘endBillingDataWindow’와 함께 ‘numberOfMonth’를 사용하지 않습니다.
+* ‘startBillingDataWindow’ 또는 ‘endBillingDataWindow’와 함께 ‘numberOfMonth’를 사용하지 않습니다.   
 
 ## <a name="migrate-from-the-azure-enterprise-connector"></a>Azure 엔터프라이즈 커넥터에서 마이그레이션
 
-일부 고객이 ‘Azure 엔터프라이즈 커넥터(베타)’를 사용하여 시각적 개체를 만들었습니다. 결국, **Azure Consumption Insights** 커넥터로 바뀔 예정입니다. 새 커넥터에는 다음과 같은 기능과 개선 사항이 있습니다.
+일부 고객이 ‘Azure 엔터프라이즈 커넥터(베타)’를 사용하여 시각적 개체를 만들었습니다.  결국, **Azure Consumption Insights** 커넥터로 바뀔 예정입니다. 새 커넥터에는 다음과 같은 기능과 개선 사항이 있습니다.
 
 * *균형 요약* 및 *Marketplace 구매*에 사용할 수 있는 추가 데이터 원본
 * *startBillingDataWindow* 및 *endBillingDataWindow*와 같은 새 고급 매개 변수
@@ -191,29 +195,29 @@ Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하
 | AcccountOwnerId |accountOwnerEmail |AccountOwnerId |아니요 |
 | AdditionalInfo |additionalInfo |AdditionalInfo |아니요 |
 | AdditionalInfold | | |예 |
-| 사용한 수량 |consumedQuantity |사용한 수량 |아니요 |
-| 사용한 서비스 |consumedService |사용한 서비스 |아니요 |
+| Consumed Quantity |consumedQuantity |Consumed Quantity |아니요 |
+| Consumed Service |consumedService |Consumed Service |아니요 |
 | ConsumedServiceId |consumedServiceId | |예 |
-| 비용 |cost |ExtendedCost |아니요 |
-| 비용 센터 |costCenter |비용 센터 |아니요 |
-| 날짜 |날짜 |날짜 |아니요 |
-| 일 | |일 |아니요 |
+| Cost |cost |ExtendedCost |아니요 |
+| Cost Center |costCenter |Cost Center |아니요 |
+| Date |date |Date |아니요 |
+| Day | |Day |아니요 |
 | DepartmentName |departmentName |부서 이름 |아니요 |
 | DepartmentID |departmentId | |예 |
 | Instance ID | | |예 |
 | InstanceId |instanceId |Instance ID |아니요 |
-| 위치 | | |예 |
-| 미터 범주 |meterCategory |미터 범주 |아니요 |
-| 미터 ID | | |예 |
-| 미터 이름 |meterName |미터 이름 |아니요 |
-| 미터 지역 |meterRegion |미터 지역 |아니요 |
-| 미터 하위 범주 |meterSubCategory |미터 하위 범주 |아니요 |
-| MeterId |meterId |미터 ID |아니요 |
-| 월 | |월 |아니요 |
-| 제품 |제품 |제품 |아니요 |
+| Location | | |예 |
+| Meter Category |meterCategory |Meter Category |아니요 |
+| Meter ID | | |예 |
+| Meter Name |meterName |Meter Name |아니요 |
+| Meter Region |meterRegion |Meter Region |아니요 |
+| Meter Sub-Category |meterSubCategory |Meter Sub-Category |아니요 |
+| MeterId |meterId |Meter ID |아니요 |
+| Month | |Month |아니요 |
+| Product |product |Product |아니요 |
 | ProductId |productId | |예 |
-| 리소스 그룹 |resourceGroup |리소스 그룹 |아니요 |
-| 리소스 위치 |resourceLocation |리소스 위치 |아니요 |
+| Resource Group |resourceGroup |Resource Group |아니요 |
+| Resource Location |resourceLocation |Resource Location |아니요 |
 | ResourceGroupId | | |예 |
 | ResourceLocationId |resourceLocationId | |예 |
 | ResourceRate |resourceRate |ResourceRate |아니요 |
@@ -222,13 +226,13 @@ Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하
 | ServiceInfo1Id | | |예 |
 | ServiceInfo2 |serviceInfo2 |ServiceInfo2 |아니요 |
 | ServiceInfo2Id | | |예 |
-| 저장소 서비스 식별자 |storeServiceIdentifier |저장소 서비스 식별자 |아니요 |
+| Store Service Identifier |storeServiceIdentifier |Store Service Identifier |아니요 |
 | StoreServiceIdentifierId | | |예 |
-| 구독 이름 |subscriptionName |구독 이름 |아니요 |
-| 태그 |태그 |태그 |아니요 |
+| Subscription Name |subscriptionName |Subscription Name |아니요 |
+| Tags |tags |Tags |아니요 |
 | TagsId | | |예 |
-| 측정 단위 |unitOfMeasure |측정 단위 |아니요 |
-| 연도 | |연도 |아니요 |
+| Unit Of Measure |unitOfMeasure |Unit Of Measure |아니요 |
+| Year | |Year |아니요 |
 | SubscriptionId |subscriptionId |SubscriptionId |예 |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |아니요 |
 
