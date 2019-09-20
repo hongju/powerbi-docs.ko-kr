@@ -19,7 +19,7 @@ ms.lasthandoff: 06/05/2019
 ms.locfileid: "66721364"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>테이블에 하이퍼링크 추가
-이 항목에서는 하이퍼링크를 만들어 Power BI Desktop을 사용하는 방법을 배웁니다. 그런 다음, Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가합니다. 
+이 항목에서는 하이퍼링크를 만들어 Power BI Desktop을 사용하는 방법을 배웁니다. 그런 다음, Power BI Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가합니다. 
 
 ![하이퍼링크가 포함된 테이블](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
@@ -34,7 +34,7 @@ ms.locfileid: "66721364"
 하이퍼링크를 추가하는 절차는 가져온 데이터인지 또는 DirectQuery를 사용하여 연결된 데이터인지에 따라 달라집니다. 아래에서는 두 시나리오를 모두 설명합니다.
 
 ### <a name="for-data-imported-into-power-bi"></a>Power BI로 가져온 데이터인 경우
-1. 하이퍼링크가 데이터 세트에서 필드로 존재하지 않는 경우 Desktop을 사용하여 [사용자 지정 열](desktop-common-query-tasks.md)로 추가합니다.
+1. 하이퍼링크가 데이터 세트에서 필드로 존재하지 않는 경우 Power BI Desktop을 사용하여 [사용자 지정 열](desktop-common-query-tasks.md)로 추가합니다.
 2. 데이터 보기에서 열을 선택한 다음 **모델링** 탭에서 **데이터 범주** 드롭다운을 선택합니다.
    
     ![데이터 범주 드롭다운 목록](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
@@ -51,13 +51,13 @@ ms.locfileid: "66721364"
    
     차트를 선택하여 활성화합니다.
 
-    서식 아이콘 선택 ![페인트 롤러 아이콘](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) 을 선택하여 [서식 지정] 탭을 엽니다.
+    서식 아이콘 ![페인트 롤러 아이콘](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)을 선택하여 [서식] 탭을 엽니다.
 
-    **값**을 확장하고 **URL 아이콘**을 찾고 **On 상태로 전환합니다.**
+    **값**을 확장하고 **URL 아이콘**을 찾고 **설정** 상태로 전환합니다.
 
     ![URL 아이콘 설정](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
-1. (선택 사항) [Desktop에서 Power BI 서비스에 보고서를 게시](guided-learning/publishingandsharing.yml?tutorial-step=2)하고 Power BI 서비스에서 보고서를 엽니다. 하이퍼링크도 이 보고서에서 작동됩니다.
+1. (선택 사항) [Power BI Desktop에서 Power BI 서비스에 보고서를 게시](guided-learning/publishingandsharing.yml?tutorial-step=2)하고 Power BI 서비스에서 보고서를 엽니다. 하이퍼링크도 이 보고서에서 작동됩니다.
 
 ### <a name="for-data-connected-with-directquery"></a>DirectQuery와 연결된 데이터인 경우
 새 열은 DirectQuery 모드에서 만들 수 없습니다.  하지만 데이터에 URL이 이미 포함되어 있으면 하이퍼링크로 전환할 수 있습니다.
@@ -65,7 +65,7 @@ ms.locfileid: "66721364"
 1. 보고서 보기에서 URL을 포함하고 있는 필드를 사용하여 테이블을 만듭니다.
 2. 열을 선택한 다음 **모델링** 탭에서 **데이터 범주** 드롭다운을 선택합니다.
 3. **웹 URL**을 선택합니다. 하이퍼링크는 밑줄과 함께 파란색으로 표시됩니다.
-4. (선택 사항) [Desktop에서 Power BI 서비스에 보고서를 게시](guided-learning/publishingandsharing.yml?tutorial-step=2)하고 Power BI 서비스에서 보고서를 엽니다. 하이퍼링크도 이 보고서에서 작동됩니다.
+4. (선택 사항) [Power BI Desktop에서 Power BI 서비스에 보고서를 게시](guided-learning/publishingandsharing.yml?tutorial-step=2)하고 Power BI 서비스에서 보고서를 엽니다. 하이퍼링크도 이 보고서에서 작동됩니다.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>Excel 파워 피벗에서 표 또는 행렬 하이퍼링크 만들기
 Power BI 테이블 및 행렬에 하이퍼링크를 추가하는 다른 방법은 Power BI에서 해당 데이터 세트에 가져오고 연결하기 전에 하이퍼링크를 만드는 것입니다. 이 예제에서는 Excel 통합 문서를 사용합니다.
