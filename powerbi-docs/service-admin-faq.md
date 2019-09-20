@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490319"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877816"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -119,9 +119,9 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>기존 사용자가 Power BI 사용을 시작하지 못하게 하려면 어떻게 합니까?
 
-이를 제어하는 Azure AD 설정은 **AllowAdHocSubscriptions** 입니다. 대부분의 테넌트의 경우 사용을 의미하는 true로 설정되어 있습니다. 파트너를 통해 Power BI를 획득했다면 설정이 false로 지정되어 있을 수 있으며, 이 경우에는 기능을 제어할 수 없습니다.
+이를 제어하는 Azure AD 설정은 **AllowAdHocSubscriptions** 입니다. 대부분의 테넌트의 경우 사용을 의미하는 *true*로 설정되어 있습니다. 파트너를 통해 Power BI를 획득했다면 설정이 *false*로 지정되어 있을 수 있으며, 이 경우에는 기능을 제어할 수 없습니다.
 
-다음 PowerShell 스크립트를 사용하여 임시 구독을 사용하지 않도록 설정합니다. [PowerShell에 대해 자세히 알아보세요][1].
+다음 PowerShell 스크립트를 사용하여 임시 구독을 사용하지 않도록 설정합니다([PowerShell에 대한 자세한 정보][1]).
 
 1. Office 365 자격 증명을 사용하여 Azure Active Directory에 로그인합니다. 다음 PowerShell 스크립트의 첫 번째 행은 사용자 자격 증명을 입력하라는 메시지를 표시합니다. 두 번째 행은 Azure Active Directory에 연결합니다.
 
@@ -145,7 +145,7 @@ Get-MsolCompanyInformation | fl allow*
     ```
 
 > [!NOTE]
-> **AllowAdHocSubscriptions** 플래그를 사용하여 사용자가 Azure Rights Management 서비스에 가입하는 기능을 포함하여 조직의 여러 사용자 기능을 제어할 수 있습니다. 이 플래그를 변경하면 이러한 모든 기능에 영향을 줍니다.
+> **AllowAdHocSubscriptions** 플래그를 사용하여 사용자가 Azure Rights Management 서비스에 가입하는 기능을 포함하여 조직의 여러 사용자 기능을 제어할 수 있습니다. 이 플래그를 변경하면 이러한 모든 기능에 영향을 줍니다. *false*로 설정하면 사용자는 여전히 Pro 평가판에 가입할 수 있습니다.
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>기존 사용자가 Power BI에 등록하도록 허용하려면 어떻게 합니까?
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391737"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903809"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>‘소비자’에 대한 Power BI 서비스의 보고서 보기 
 보고서는 하나 이상의 시각적 개체 페이지입니다. 보고서는 Power BI ‘디자이너’가 만들고 직접 또는 [앱](end-user-apps.md)의 일부로 [소비자와 공유](end-user-shared-with-me.md)합니다.   
@@ -30,7 +30,7 @@ ms.locfileid: "70391737"
    ![홈페이지](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>사용자와 공유된 보고서 열기
-Power BI ‘디자이너’가 메일의 링크를 통해 또는 Power BI 홈에 추가하여 개별 보고서를 직접 사용자와 공유할 수 있습니다.  이 방식으로 공유된 콘텐츠는 탐색 모음에 있는 **공유한 항목** 컨테이너와 홈 캔버스의 **공유한 항목** 섹션에 표시됩니다.
+Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 추가하여 개별 보고서를 직접 사용자와 공유할 수 있습니다.  이 방식으로 공유된 콘텐츠는 탐색 모음에 있는 **공유한 항목** 컨테이너와 홈 캔버스의 **공유한 항목** 섹션에 표시됩니다.
 
 1. Power BI 서비스(app.powerbi.com)를 엽니다.
 
@@ -50,6 +50,12 @@ Power BI ‘디자이너’가 메일의 링크를 통해 또는 Power BI 홈에
 
    ![보고서 페이지 탭](./media/end-user-report-open/power-bi-ytd.png)
 
+6. 오른쪽을 따라 **필터** 창이 표시됩니다. 이 보고서 페이지 또는 전체 보고서에 적용된 필터가 여기에 표시됩니다.
+
+7. 보고서 시각적 개체를 마우스로 가리키면 여러 아이콘과 줄임표(...)가 표시됩니다. 특정 시각적 개체에 적용된 필터를 확인하려면 필터 아이콘을 선택합니다. 여기서는 *롤링 기간 및 지역별 전체 단위* 꺾은선형 차트에 대한 필터 아이콘을 선택했습니다.
+
+   ![보고서 페이지 탭](./media/end-user-report-open/power-bi-visual-filters.png)
+
 6. 이제 전체 보고서 페이지가 표시됩니다. 페이지 표시(확대/축소)를 변경하려면 오른쪽 위에서 보기 드롭다운을 선택하고 **실제 크기**를 선택합니다.
 
    ![확대/축소 변경](./media/end-user-report-open/power-bi-fit-new.png)
@@ -59,15 +65,20 @@ Power BI ‘디자이너’가 메일의 링크를 통해 또는 Power BI 홈에
 ### <a name="open-a-report-that-is-part-of-an-app"></a>앱의 일부인 보고서 열기
 동료 또는 AppSource에서 앱을 받은 경우 홈과 탐색 모음의 **앱** 컨테이너에서 해당 앱을 사용할 수 있습니다. [앱](end-user-apps.md)은 대시보드와 보고서의 번들입니다.
 
+### <a name="prerequisites"></a>필수 조건
+작업을 계속 진행하려면 영업 및 마케팅 앱을 다운로드합니다.
+1. 브라우저에서 appsource.microsoft.com으로 이동합니다.
+1. "영업 및 마케팅"을 검색하고 **Microsoft 샘플 - 영업 및 마케팅**을 선택합니다.
+1. **지금 가져오기** > **계속** > **설치**를 선택하여 앱 컨테이너에 앱을 설치합니다. 
+
+앱 컨테이너 또는 홈에서 앱을 열 수 있습니다.
 1. 탐색 모음에서 **홈**을 선택하여 홈으로 돌아갑니다.
 
 7. **내 앱**이 표시될 때까지 아래로 스크롤합니다.
 
-   ![홈페이지](./media/end-user-report-open/power-bi-my-apps.png)
+   ![홈페이지](./media/end-user-report-open/power-bi-app.png)
 
-8. 앱 중 하나를 선택하여 엽니다. 앱 ‘디자이너’가 설정한 옵션에 따라 앱에서 대시보드나 보고서가 열립니다.  앱을 선택하는 경우:
-    - 보고서를 열면 모두 설정됩니다.
-    - 대시보드를 열고 아래의 ***대시보드에서 보고서 열기***를 참조하세요.
+8. 새 영업 및 마케팅 앱을 선택하여 엽니다. 앱 ‘디자이너’가 설정한 옵션에 따라 앱에서 대시보드나 보고서가 열립니다.  이 앱은 대시보드로 열립니다.  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>대시보드에서 보고서 열기
@@ -94,5 +105,6 @@ Power BI 서비스를 보다 더 편안하게 탐색할 수 있게 되면, 자�
 - 기타
 
 ## <a name="next-steps"></a>다음 단계
-[대시보드 열기 및 보기](end-user-dashboard-open.md)
+[대시보드 열기 및 보기](end-user-dashboard-open.md)    
+[보고서 필터](end-user-report-filter.md)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/26/2019
+ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a7061597df08e82f3128b6fc85ed2841569922c4
-ms.sourcegitcommit: 2b340946ed5f1deedeace4071845e1720ea155c9
+ms.openlocfilehash: b61d0e3515b4efb08cb08a49d9bb339a1fbbb5a3
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "70064630"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903679"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -34,6 +34,75 @@ ms.locfileid: "70064630"
 
 다음 섹션은 이전 달들의 **Power BI Desktop**에 대한 업데이트를 설명합니다.
 
+## <a name="august-2019-update-2715523641"></a>2019년 8월 업데이트(2.71.5523.641)
+
+8월 업데이트에는 Power BI Desktop에서 만들 수 있는 다양한 보고서가 제공되었습니다. 
+
+이제 지원되는 모든 언어를 포함하는 단일 .exe 파일로 제공되는 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+
+각 업데이트 옆의 링크는 다음을 의미합니다.
+
+* 기능을 설명하는 경우 **[비디오]** 에서 발췌된 내용이 새 브라우저 탭에서 재생됩니다.
+* 일부 기능에는 세부 사항을 제공하는 **[문서]** 가 있습니다.
+* 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+
+처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+
+이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
+
+### <a name="reporting"></a>보고
+* 시각적 개체 그룹화 [[동영상]](https://youtu.be/sf4n7VXoQHY?t=10)  [[문서]](desktop-grouping-visuals.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#grouping) 
+* 필터 창 마이그레이션 [[동영상]](https://youtu.be/sf4n7VXoQHY?t=360)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#filterPane)
+* 아이콘의 조건부 서식을 위한 아이콘 스타일 선택 [[동영상]](https://youtu.be/sf4n7VXoQHY?t=509)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#iconStyles)
+* 조건부 서식 경고 [[동영상]](https://youtu.be/sf4n7VXoQHY?t=621)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#conditionalFormatting)
+
+
+### <a name="analytics"></a>분석
+* 주요 인플루언서 시각적 향상, 일반 공급 [[동영상]](https://youtu.be/sf4n7VXoQHY?t=801)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#keyInfluencers) 
+
+
+### <a name="visuals"></a>시각적 개체
+* 새로운 사용자 지정 시각적 개체 및 업데이트 [[동영상]](https://youtu.be/sf4n7VXoQHY?t=956)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
+
+
+### <a name="data-connectivity"></a>데이터 연결
+* SAP HANA HDI 컨테이너 지원 [[동영상]](https://youtu.be/sf4n7VXoQHY?t=1502)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#HDIcontainers) 
+* Power BI 서비스에서 SAP 변수 편집(미리 보기) [[동영상]](https://youtu.be/sf4n7VXoQHY?t=1522)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#SAPvariables)
+* PostgreSQL DirectQuery [[동영상]](https://youtu.be/sf4n7VXoQHY?t=1662)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#postgresql) 
+* MarkLogic 커넥터 출시 [[동영상]](https://youtu.be/sf4n7VXoQHY?t=1678)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#marklogic) 
+* 데이터 가져오기 내의 새 Power Platform 범주 [[동영상]](https://youtu.be/sf4n7VXoQHY?t=1688)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#powerPlatform) 
+
+### <a name="template-apps"></a>템플릿 앱
+* Facebook 페이지 - 기본 분석 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#facebook) 
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sf4n7VXoQHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+조직에 필요한 경우 이전 버전의 Power BI Desktop을 다운로드할 수도 있습니다. 이전 버전보다는 최신 버전의 Power BI Desktop을 사용하는 것이 좋습니다. 모든 이전 버전에는 다음과 같은 제한이 있습니다.
+
+* Power BI Desktop의 이전 릴리스에는 서비스가 제공되지 않으므로 최신 기능 및 업데이트를 사용하려면 항상 최신 릴리스를 사용해야 합니다.
+* Power BI Desktop의 최신 릴리스에서 만들거나 저장한 파일을 이전 버전의 Power BI Desktop에서 열지 못할 수 있습니다. 
+* Power BI Desktop의 최신 릴리스에서 저장한 보고서를 로드할 때 경고가 표시되어 이전 버전에 해당 보고서를 저장하는 경우 새 기능과 관련된 정보가 모두 손실됩니다.
+* Power BI Desktop의 영어 버전만 보관됩니다.
+
+이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
+
+* [Power BI Desktop 2019년 8월 버전 - 32비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
+* [Power BI Desktop 2019년 8월 버전 - 64비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
+
+
 ## <a name="july-2019-update-2715523641"></a>2019년 7월 업데이트(2.71.5523.641)
 
 7월 업데이트에는 Power BI Desktop의 다양한 새로운 기능이 제공되었습니다. 
@@ -49,7 +118,7 @@ ms.locfileid: "70064630"
 
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
-이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
+이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
 
 ### <a name="reporting"></a>보고
 * 테이블 및 행렬의 아이콘 세트 [[비디오]](https://youtu.be/l7OMRUF9UYg?t=11)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#iconSets) 
@@ -120,7 +189,7 @@ ms.locfileid: "70064630"
 
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
-이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
+이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
 
 ### <a name="reporting"></a>보고
 * 업데이트된 창 디자인 [[비디오]](https://youtu.be/7k-nP38uHyQ?t=8) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
@@ -203,7 +272,7 @@ ms.locfileid: "70064630"
 
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
-이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
+이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
 
 ### <a name="reporting"></a>보고
 * 성능 분석기 창 [[비디오]](https://youtu.be/O8GlHDz8xUQ?t=10) [[문서]](desktop-performance-analyzer.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#perfAnalyzer) 
@@ -281,7 +350,7 @@ ms.locfileid: "70064630"
 
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
-이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
+이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
 
 ### <a name="reporting"></a>보고
 * 필터 창 개선 [[비디오]](https://youtu.be/vih35kSrEHU?t=9) [[문서]](power-bi-report-filter.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 

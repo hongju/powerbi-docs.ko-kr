@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e2a970ecbf7b341d4feaba4e90a862841ba8bb17
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560902"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841522"
 ---
 # <a name="use-r-in-query-editor"></a>쿼리 편집기에서 R 사용
 
@@ -84,6 +84,9 @@ ms.locfileid: "69560902"
        output <- dataset
        output$completedValues <- completedData$"SMI missing values"
     ```
+
+    > [!NOTE]
+    > 필터를 적용하여 새 데이터 집합을 제대로 만들려면 *output*이라는 변수를 덮어써야 할 수도 있습니다.
 
 7. **확인**을 선택하면 **쿼리 편집기**에서 데이터 개인 정보 보호에 대한 경고를 표시합니다.
 

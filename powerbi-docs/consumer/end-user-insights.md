@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61049237"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI로 대시보드 타일에서 데이터 인사이트 보기
@@ -59,7 +59,7 @@ ms.locfileid: "61049237"
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 - **인사이트 보기**는 DirectQuery에서 작동되지 않고, Power BI에 업로드된 데이터에서만 작동합니다.
-- **인사이트 보기**는 모든 대시보드 타일 유형에서 작동하지 않습니다. 예를 들어, 사용자 지정 시각적 개체에 대해 사용할 수 없는 경우<!--[custom visuals](end-user-custom-visuals.md)-->
+- **인사이트 보기**는 모든 대시보드 타일 유형에서 작동하지 않습니다. 예를 들면, 사용자 지정 시각적 개체에는 사용할 수 없습니다.<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>다음 단계

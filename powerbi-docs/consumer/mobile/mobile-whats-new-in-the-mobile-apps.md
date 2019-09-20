@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
-ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
+ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "70030176"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841375"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -25,7 +25,15 @@ ms.locfileid: "70030176"
 
 ## <a name="august-2019"></a>2019년 8월
 
-### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Azure AD(Active Directory) 애플리케이션 프록시를 사용한 보안 액세스
+### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Power BI Mobile의 새 모양 소개(미리 보기)(iOS 및 Android)
+
+자주 사용하는 콘텐츠에 빠르게 액세스하는 홈페이지와 앱을 쉽게 탐색할 수 있도록 하는 새로운 탐색 모음을 추가하여 앱을 새로 고치고 새로운 환경을 도입했습니다. 새 환경과 새로 고친 환경을 사용하여 필요할 때 필요한 항목을 더 빠르고 쉽게 찾을 수 있습니다.
+새 모양은 미리 보기 상태이므로 사용하려면 설정해야 합니다.
+[Power BI Mobile의 새 모양](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/)에 대해 자세히 알아보세요.
+
+![Power BI Mobile의 새 모양](./media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-new-look2.gif)
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure AD(Active Directory) 애플리케이션 프록시를 사용한 보안 액세스(iOS 및 Android)
 
 Azure Active Directory 팀과 협력하여 Power BI 모바일 애플리케이션을 AAD(Azure Active Directory) 애플리케이션 프록시와 통합했습니다. 이 구성을 사용하면 복잡한 온-프레미스 구성을 설정하지 않고도 Power BI Mobile 앱에서 엔터프라이즈 경계 내에 호스트되는 보고서 서버에 연결할 수 있습니다. [Power BI Mobile 및 Azure AD 애플리케이션 프록시 통합](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)에 대해 자세히 알아보세요. [Azure AD 애플리케이션 프록시 및 Power BI 구성 방법](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)을 알아보세요.
 
@@ -36,7 +44,7 @@ Azure Active Directory 팀과 협력하여 Power BI 모바일 애플리케이션
 이제 모바일 앱에서 보고서를 볼 때 보고서 페이지 도구 설명이 지원됩니다. 보고서 도구 설명이 연결된 시각적 개체를 누르고 있으면 표시됩니다.  
 
 ![보고서 캔버스 도구 설명](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
-
+ 
 > [!NOTE]
 > 보고서 도구 설명은 640픽셀 크기 및 320 뷰포트보다 큰 디바이스에서 지원됩니다. 더 작은 디바이스는 기본 도구 설명을 사용합니다.
 

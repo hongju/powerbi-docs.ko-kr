@@ -12,19 +12,19 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: cd0b680265d526ecf7adbf4db8c54b77535eadf8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608447"
 ---
 # <a name="view-a-dashboard"></a>대시보드 보기
-Power BI *소비자*는 대시보드를 보는 데 많은 시간을 할애합니다. 대시보드는 기본 보고서 및 데이터 세트에서 특정 정보를 강조 표시하도록 설계되었습니다. 또한 Power BI 소비자는 데이터 기반 비즈니스 의사 결정을 수행하기 위해 추적, 모니터링, 질문 답변, 테스트 등에 해당 정보를 사용합니다.
+Power BI *소비자*는 대시보드를 보는 데 많은 시간을 사용합니다. 대시보드는 기본 보고서 및 데이터 세트에서 특정 정보를 강조 표시하도록 설계되었습니다. 또한 Power BI 소비자는 데이터 기반 비즈니스 의사 결정을 수행하기 위해 추적, 모니터링, 질문에 답변, 테스트 등에 해당 정보를 사용합니다.
 
 ![대시보드](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
 
-The amount of information in both translations are about the same; however, given the context, suggested translation is more appropriate.
+Power BI Pro는 대시보드를 공유하고 공유한 대시보드를 보는 데 필요합니다.
 
 ## <a name="open-a-dashboard"></a>대시보드 열기
 
@@ -32,7 +32,7 @@ The amount of information in both translations are about the same; however, give
 
 |              |         |
 |------------|--------------------------------|
-|![대시보드 아이콘](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Power BI 서비스의 여러 위치에서 대시보드를 열 수 있습니다. <br> 이 대시보드 아이콘을 찾아보세요. 대시보드를 식별하면 <br>쉽게 열 수 있으며, 대시보드를 선택하면 Power BI 캔버스에 <br>대시보드가 채워집니다. |
+|![대시보드 아이콘](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |대시보드는 Power BI 서비스의 여러 위치에서 열 수 있습니다. <br> 이 대시보드 아이콘을 찾아보세요. 대시보드를 식별하면 <br>쉽게 열수 있고, 선택하기만 하면 대시보드가 채워집니다. <br>Power BI 캔버스입니다. |
 |                    |          |
 
 

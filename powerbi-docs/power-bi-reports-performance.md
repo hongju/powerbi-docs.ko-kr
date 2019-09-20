@@ -1,8 +1,8 @@
 ---
 title: Power BI 성능 모범 사례
 description: 이 문서에서는 Power BI에서 빠르고 신뢰할 수 있는 보고서를 빌드하기 위한 지침을 제공합니다.
-author: MarkMcGeeAtAquent
-ms.author: kfile
+author: Bhavik-MSFT
+ms.author: bhmerc
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: bddd653b5ac8b49a38a69ae79baf2f96824444ed
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665332"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841487"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 성능 모범 사례
 
 이 문서에서는 Power BI에서 빠르고 신뢰할 수 있는 보고서를 빌드하기 위한 지침을 제공합니다.  
+
+## <a name="choose-an-appropriate-storage-mode-import-directquery"></a>적절한 스토리지 모드를 Import, DirectQuery 중에서 선택합니다.
+
+대부분의 경우 Import 모드는 열 형식 스토리지를 사용하여 압축되는 로컬 캐시 메모리 내 데이터를 활용하여 가장 빠른 속도를 제공하므로 가장 적합합니다. 또한 Import 모드에서는 전체 DAX 기능을 사용할 수 있습니다. 원본 데이터 볼륨이 너무 커서 Power BI 용량에 맞지 않는 경우 DirectQuery(및 복합 모델)를 고려합니다. DirectQuery는 보고서가 로드될 때마다 원본에서 최신 데이터를 가져와야 하는 경우에도 유용합니다. 이러한 요구 사항이 없고 하루에 몇 번 정도만 업데이트되는 데이터만 필요한 경우(예: 회사 데이터 웨어하우스의 데이터) Import가 권장됩니다. DirectQuery 모드에서 사용자는 원본에서 정확히 동일한 데이터를 가져올 것인지 인식하지 못한 상태에서 보고서를 새로 고치려고 할 수 있습니다.      
 
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>필터를 사용하여 필요한 것만 표시하도록 보고서 시각적 개체를 제한 
 
@@ -57,7 +61,7 @@ DirectQuery 및 라이브 연결을 기반으로 한 Power BI 보고서를 배�
 ## <a name="directquery-best-practices"></a>DirectQuery 모범 사례
 
 다음 섹션에서는 DirectQuery를 통한 연결에 대한 일반적인 모범 사례를 설명합니다.
-  
+
 ### <a name="db-design-guidance"></a>DB 디자인 지침
 
 - 가능하면 계산 열과 측정값을 원본에 밀어 넣습니다. 원본에 가까울수록 성능이 좋아질 가능성이 커집니다.

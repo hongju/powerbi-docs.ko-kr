@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c5a3b2b3e74d636f8d9af75e4c84b7fd61bd2139
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65099826"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877880"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>조직의 Power BI 라이선스 부여
 
@@ -31,11 +31,11 @@ ms.locfileid: "65099826"
 
 Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파트너를 통해 구매합니다. 라이선스를 구입한 후에는 개별 사용자에게 할당합니다. 자세한 내용은 [Power BI Pro 라이선스 구매 및 할당](service-admin-purchasing-power-bi-pro.md)을 참조하세요.
 
-### <a name="power-bi-pro-license-expiration"></a>Power BI Pro 라이선스가 만료
+### <a name="power-bi-pro-license-expiration"></a>Power BI Pro 라이선스 만료
 
 Power BI Pro 라이선스가 만료된 후 유예 기간이 있습니다. 볼륨 라이선스 구입에 포함된 라이선스의 경우 유예 기간은 90일입니다. 라이선스를 직접 구입한 경우 유예 기간은 30일입니다.
 
-Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한 내용은 [Office 365 비즈니스 구독에 대 한 종료 되 면 내 데이터 및 액세스 되나요?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)합니다.
+Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한 내용은 [비즈니스용 Office 365 구독이 종료되면 내 데이터 및 액세스 권한은 어떻게 되나요?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)를 참조하세요.
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>개인용 Power BI Pro 평가판
 
@@ -109,7 +109,7 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
     ![지금 구입 - Power BI(무료)](media/service-admin-licensing-organization/buy-powerbi-free.png)
 
-1. 추가하려는 라이선스의 수를 입력하고 **지금 결제** 또는 **카트에 추가**를 선택합니다.
+1. 추가하려는 라이선스의 수를 입력하고 **지금 확인** 또는 **카트에 추가**를 선택합니다.
 
 1. 체크 아웃 흐름에서 필요한 정보를 입력합니다.
 
@@ -125,7 +125,7 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
 관리자는 AAD(Azure Active Directory)를 통해 개인 사용자 등록을 사용하거나 사용하지 않도록 선택할 수 있습니다. 본 문서의 이 섹션에서는 PowerShell 명령으로 등록을 관리하는 방법을 보여 줍니다. Azure PowerShell에 대한 자세한 내용은 [Azure PowerShell 개요](/powershell/azure/overview)를 참조하세요.
 
-등록을 제어하는 AAD 설정은 **AllowAdHocSubscriptions**입니다. 대부분의 테넌트에서 이는 *true*로 설정되며 이는 사용 가능함을 의미합니다. 파트너를 통해 Power BI를 획득한 경우 *false*로 설정되어 있을 수 있는데, 이는 사용 안 함을 의미합니다. 설정을 *true*에서 *false*로 변경하면 조직의 새 사용자 개별 등록이 차단됩니다. 설정 변경 이전에 Power BI를 등록한 사용자의 경우 등록한 라이선스가 유지됩니다.
+등록을 제어하는 Azure AD 설정은 **AllowAdHocSubscriptions**입니다. 대부분의 테넌트에서 이는 *true*로 설정되며 이는 사용 가능함을 의미합니다. 파트너를 통해 Power BI를 획득한 경우 *false*로 설정되어 있을 수 있는데, 이는 사용 안 함을 의미합니다. 설정을 *true*에서 *false*로 변경하면 조직의 새 사용자 개별 등록이 차단됩니다. 설정 변경 이전에 Power BI를 등록한 사용자의 경우 등록한 라이선스가 유지됩니다. *false*로 설정하면 사용자는 여전히 Pro 평가판에 가입할 수 있습니다.
 
 1. Office 365 자격 증명을 사용하여 Azure Active Directory에 로그인합니다. 다음 PowerShell 스크립트의 첫 번째 행은 사용자 자격 증명을 입력하라는 메시지를 표시합니다. 두 번째 행은 Azure Active Directory에 연결합니다.
 
@@ -136,7 +136,7 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
    ![Azure Active Directory 로그인](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. 로그인하면 다음 명령을 실행하여 테넌트의 현재 구성을 확인합니다. (아래의 'fl'은 숫자 1이 아닌 문자 'l'임에 유의하세요).
+1. 로그인하면 다음 명령을 실행하여 테넌트가 현재 구성되어 있는 방법을 확인합니다. (아래 'fl'은 숫자 1이 아니라 문자 'l'를 사용합니다.)
 
     ```powershell
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 

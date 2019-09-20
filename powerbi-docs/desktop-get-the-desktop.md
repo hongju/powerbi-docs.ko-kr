@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b92bd2917165cd6dc89e0c9f9a94e83d69f1c2a
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e7a96186fe68ed0d70de7a502e81da4f24f4d802
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560855"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903598"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 **Power BI Desktop**을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. **Power BI Desktop**에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다.  **Power BI Desktop**은 무료로 다운로드할 수 있습니다.
@@ -40,9 +40,9 @@ ms.locfileid: "69560855"
 
 어떤 다운로드 방법을 선택하든지, **Power BI Desktop**을 다운로드하면 설치 파일을 실행하라는 메시지가 표시됩니다.
 
-![Power BI Desktop 설치 파일 실행](media/desktop-get-the-desktop/getpbid_3.png)
+![Power BI Desktop 설치 파일 실행](media/desktop-get-the-desktop/download-desktop-exe.png)
 
-2019년 7월 릴리스부터 **Power BI Desktop**은 지원되는 모든 언어를 포함하는 단일 .exe 설치 패키지로 제공됩니다. 32비트 버전과 64비트 버전의 .exe 파일이 있습니다. .msi 패키지는 2019년 9월 릴리스 이후 중단될 예정이며, 그 후에는 .exe 실행 파일을 사용해서 설치해야 합니다. 이 방법을 사용하면 배포, 업데이트 및 설치(특히 관리자의 경우)가 훨씬 쉽고 편리해집니다. 이 문서의 뒷부분에 있는 [설치 중 명령줄 옵션 사용](#using-command-line-options-during-installation) 섹션의 설명과 같이, 명령줄 매개 변수를 사용하여 설치 프로세스를 사용자 지정할 수도 있습니다.
+2019년 7월 릴리스부터 **Power BI Desktop**은 지원되는 모든 언어를 포함하는 단일 .exe 설치 패키지로 제공되었습니다. 32비트 버전과 64비트 버전의 .exe 파일이 있습니다. .msi 패키지는 2019년 9월 릴리스부터 더 이상 지원되지 않고 있으므로 설치를 위해 .exe 실행 파일이 필요합니다. 이 방법을 사용하면 배포, 업데이트 및 설치(특히 관리자의 경우)가 훨씬 쉽고 편리해집니다. 이 문서의 뒷부분에 있는 [설치 중 명령줄 옵션 사용](#using-command-line-options-during-installation) 섹션의 설명과 같이, 명령줄 매개 변수를 사용하여 설치 프로세스를 사용자 지정할 수도 있습니다.
 
 설치 패키지를 시작하면, **Power BI Desktop**이 애플리케이션으로 설치되고 데스크톱에서 실행됩니다.
 
@@ -65,7 +65,7 @@ Microsoft Store에서 **Power BI Desktop** 가져오기에 대한 몇 가지 이
 * **자동 업데이트** - Windows는 제공되는 즉시 최신 버전을 백그라운드에서 자동으로 다운로드하므로, 버전이 항상 최신 상태로 유지됩니다.
 * **필요한 파일만 다운로드** - **Microsoft Store**에서는 각 업데이트에서 변경된 구성 요소만 컴퓨터로 다운로드하므로 각 업데이트에 필요한 파일만 다운로드합니다.
 * **관리자 권한이 필요하지 않음** - 패키지를 직접 다운로드하고 설치하는 경우 설치가 성공적으로 완료되려면 관리자여야 합니다. Microsoft Store에서 **Power BI Desktop**을 가져올 때 관리자 권한은 필요하지 *않습니다*.
-* **IT 롤아웃 활성화** - **Microsoft Store** 버전을 조직의 모든 사용자에게 보다 쉽게 배포하거나 ‘롤아웃’할 수 있으며 **비즈니스용 Microsoft Store**를 통해 **Power BI Desktop**을 제공할 수 있습니다.
+* **IT 롤아웃 활성화** - **Microsoft Store** 버전을 조직의 모든 사용자에게 보다 쉽게 배포하거나 ‘롤아웃’할 수 있으며 **비즈니스용 Microsoft Store**를 통해 **Power BI Desktop**을 제공할 수 있습니다. 
 * **언어 감지** - **Microsoft Store** 버전은 지원되는 언어를 모두 포함하며, 시작할 때마다 컴퓨터에서 사용 중인 언어를 확인합니다. **Power BI Desktop**에서 든 모델의 지역화에 영향을 미칩니다. 예를 들어 기본 제공 날짜 계층 구조는 .pbix 파일을 만들 때 **Power BI Desktop**에서 사용하고 있었던 언어를 일치시킵니다.
 
 Microsoft Store에서 **Power BI Desktop**을 설치할 때 다음과 같은 몇 가지 고려 사항과 제한 사항이 있습니다.
@@ -105,6 +105,27 @@ Microsoft Store에서 **Power BI Desktop**을 설치할 때 다음과 같은 몇
 
 항상 Power BI Desktop 사용 경험이 만족스럽기를 바랍니다. Power BI Desktop 사용에 문제가 발생할 수 있으므로, 이 섹션에는 발생할 수 있는 문제를 해결하기 위한 해결 방법이나 제안 사항이 포함되어 있습니다. 
 
+### <a name="installing-power-bi-desktop-on-remote-machines"></a>원격 컴퓨터에 Power BI Desktop 설치
+
+Windows Installer 파일(.msi 파일)을 필요로 하는 도구를 사용하여 사용자에게 Power BI Desktop을 배포하는 경우 Power BI Desktop 설치 관리자 .exe 파일에서 .msi 파일을 추출할 수 있습니다. WiX 도구 세트와 같은 타사 도구를 사용하여 이 작업을 수행할 수 있습니다.
+
+> [!NOTE]
+> WiX 도구 세트 옵션은 타사 제품이므로 예고 없이 변경될 수 있습니다. 최신 정보는 해당 설명서를 확인하고 지원이 필요한 경우 사용자 메일 목록에 문의하세요.
+
+* Power BI Desktop 설치 관리자를 다운로드한 컴퓨터에서 WiX 웹 사이트 https://wixtoolset.org/ 에서 최신 버전의 WiX 도구 세트를 다운로드하여 설치합니다.
+* 관리자 권한으로 명령줄 창을 열고 WiX 도구 세트를 설치한 폴더로 이동합니다.
+* 다음 명령을 실행합니다. 
+    
+    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
+
+    예를 들어 다음을 실행합니다.
+
+    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
+
+* 출력 폴더에는 .msi 파일을 포함하는 *AttachedContainer*라는 폴더가 포함됩니다.
+
+
+
 
 ### <a name="using-command-line-options-during-installation"></a>설치 중에 명령줄 옵션 사용 
 
@@ -122,6 +143,25 @@ Power BI Desktop을 설치할 때 명령줄 스위치를 사용하여 속성과 
 |-uninstall     |Power BI Desktop 제거         |
 |-repair     |설치 복구(또는 현재 설치되어 있지 않은 경우 설치)         |
 |-package, -update     |Power BI Desktop 설치(-uninstall 또는 -repair를 지정하지 않을 경우 기본값)         |
+
+"PROPERTY = VALUE" 구문으로 지정하는 다음 **구문 매개 변수**를 사용할 수도 있습니다.
+
+
+|매개 변수  |의미  |
+|---------|---------|
+|ACCEPT_EULA     |EULA에 자동으로 동의하려면 값 1이 필요합니다.         |
+|ENABLECXP     |값 1을 지정하면 제품 사용에 대한 원격 분석을 캡처하는 사용자 환경 프로그램에 등록됩니다.         |
+|INSTALLDESKTOPSHORTCUT     |값 1을 지정하면 바탕 화면에 바로 가기가 추가됩니다.         |
+|INSTALLLOCATION     |설치하려는 위치의 파일 경로입니다.         |
+|LANGUAGE     |애플리케이션의 기본 언어를 강제로 적용하는 로캘 코드(예: en-us, de-de, pr-BR)입니다. 언어를 지정하지 않으면 Power BI Desktop은 Windows OS 언어를 표시합니다. 사용자는 이 언어를 옵션 대화 상자에서 변경할 수 있습니다.         |
+|REG_SHOWLEADGENDIALOG     |값 0을 지정하면 Power BI Desktop에 로그인하기 전에 나타나는 대화 상자를 표시하지 않습니다.         |
+
+
+
+
+예를 들어, 다음과 같은 구문을 사용하여 실행하면 사용자 인터페이스 없이 독일어를 사용하여 설치할 수 있습니다. 
+
+```“-quiet LANG=de-DE ACCEPT_EULA=1”```
 
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop의 이전 릴리스 사용 시 문제
@@ -145,8 +185,8 @@ Power BI Desktop의 현재 버전으로 업데이트하면 대개 이 문제가 
 
 특정 화면 해상도 구성을 포함한 특정 상황에 있는 일부 사용자에게는 Power BI Desktop 렌더링 콘텐츠가 큰 검은색 영역과 함께 표시될 수 있습니다. 이 문제의 원인은 일반적으로 Power BI Desktop이 콘텐츠를 표시하는 방법 때문이 아니라 항목 렌더링 방법에 영향을 주는 최근 운영 체제 업데이트 때문입니다. 이와 관계없이 큰 검은색 영역은 멋진 시각적 개체만큼 매력적이지 않으므로 이 문제를 해결하려면 다음 단계를 수행합니다.
 
-1. 시작 키를 누르고 표시되는 검색 창에 ‘흐리게’라는 단어를 입력합니다.
-2. 표시되는 대화 상자에서 다음 옵션을 선택합니다. *Let Windows fix apps that are blurry.*(Windows에서 흐리게 표시되는 앱을 수정하도록 합니다.)
+1. 시작 키를 누르고 표시되는 검색 창에 ‘흐리게’라는 단어를 입력합니다. 
+2. 표시되는 대화 상자에서 다음 옵션을 선택합니다. *Let Windows fix apps that are blurry.* (Windows에서 흐리게 표시되는 앱을 수정하도록 합니다.)
 3. Power BI Desktop을 다시 시작합니다.
 
 이 문제는 후속 Windows 업데이트가 릴리스된 후에 해결될 수 있습니다. 

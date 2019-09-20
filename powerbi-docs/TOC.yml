@@ -1347,13 +1347,21 @@
               href: service-gateway-mashup-on-premises-cloud.md
         - name: SSO(Single Sign-On) 사용
           items:
-            - name: SSO(Single Sign-On) - 개요
+            - name: SSO 개요
               href: service-gateway-sso-overview.md
-            - name: SSO(Single Sign-On) - Kerberos
-              href: service-gateway-sso-kerberos.md
-            - name: SSO(Single Sign-On) - Kerberos - 리소스 기반
-              href: service-gateway-sso-kerberos-resource.md
-            - name: SSO(Single Sign-On) - SAML
+            - name: Kerberos 기반 SSO
+              items:
+                - name: Kerberos 기반 SSO 구성
+                  href: service-gateway-sso-kerberos.md
+                - name: 데이터 원본 관련 구성
+                  items:
+                    - name: SAP HANA
+                      href: service-gateway-sso-kerberos-sap-hana.md
+                    - name: SAP BW-sapcrypto(일반 암호화 라이브러리)
+                      href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                    - name: SAP BW - gx64krb5.dll 및 gsskrb5.dll
+                      href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
+            - name: SAML 기반 SSO
               href: service-gateway-sso-saml.md
         - name: 게이트웨이 문제 해결
           href: service-gateway-onprem-tshoot.md

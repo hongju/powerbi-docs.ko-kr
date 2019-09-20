@@ -2,20 +2,20 @@
 title: “회사 SSL 인증서를 신뢰할 수 없습니다” 수정
 description: Power BI용 Android 앱에 로그인할 때 "회사 SSL 인증서를 신뢰할 수 없기 때문에 인증할 수 없습니다."라는 메시지가 표시될 수 있습니다.
 .": ''
-author: mshenhav
-manager: kfile
+author: paulinbar
+manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 08/28/2019
 ms.author: mshenhav
-ms.openlocfilehash: de103412e21e0d26d20058e2d4e1fb9a8a5449bf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 19bcdf08d4eacff5e080bf1a2f987ea848e4bfb9
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61341354"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70840908"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>“회사 SSL 인증서를 신뢰할 수 없습니다.” 수정 - Power BI
 Microsoft Power BI용 Android 모바일 앱에 로그인할 때 "이 디바이스에서 회사 SSL 인증서를 신뢰할 수 없기 때문에 인증할 수 없습니다."라는 메시지가 표시될 수 있습니다. 회사 IT 관리자에게 문의하세요." 
