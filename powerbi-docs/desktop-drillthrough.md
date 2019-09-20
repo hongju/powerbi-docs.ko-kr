@@ -31,7 +31,7 @@ ms.locfileid: "66375186"
 
     ![드릴스루 웰](media/desktop-drillthrough/drillthrough_02.png)
 
-    필드를 **드릴스루 필터**에 추가하는 경우 **Power BI Desktop**은 *뒤로* 시각적 단추를 자동으로 만듭니다. 이 시각적 개체는 게시된 보고서의 단추가 됩니다. **Power BI 서비스**에서 보고서를 사용 중인 사용자는 이 단추를 사용하여 왔던 보고서 페이지로 돌아갈 수 있습니다.
+    필드를 **드릴스루 필터**에 추가하는 경우 **Power BI Desktop**은 *뒤로* 시각적 단추를 자동으로 만듭니다. 이 시각적 개체는 게시된 보고서의 단추가 됩니다. **Power BI 서비스**에서 보고서를 사용 중인 사용자는 이 단추를 사용하여 이전의 원래 보고서 페이지로 돌아갈 수 있습니다.
 
     ![드릴스루 이미지](media/desktop-drillthrough/drillthrough_03.png)
 
