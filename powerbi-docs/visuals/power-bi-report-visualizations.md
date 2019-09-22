@@ -35,17 +35,17 @@ Power BI 시각화 창에서 바로 사용할 수 있는 다양한 시각적 개
 
 Power BI를 처음 사용하거나 복습이 필요하면, 아래 링크를 사용하여 Power BI 시각화의 기본 사항을 알아봅니다.  또는, 목차(문서의 왼쪽에 있는)를 사용하여 훨씬 더 유용한 정보를 찾아봅니다.
 
-## <a name="add-a-visualization-in-power-bi"></a>Power BI에서 시각화 개체 추가
+## <a name="add-a-visualization-in-power-bi"></a>Power BI에서 시각적 개체 추가
 
 보고서의 페이지에 [시각화를 만듭니다](power-bi-report-add-visualizations-i.md). [사용 가능한 시각화 및 사용 가능한 시각화 자습서의 목록](power-bi-visualization-types-for-reports-and-q-and-a.md)을 찾아봅니다. 
 
-## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>사용자 지정 시각화 개체의 업로드 및 Power BI에서 사용
+## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>사용자 지정 시각적 개체의 업로드 및 Power BI에서 사용
 
-직접 만든 또는 [Microsoft AppSource 커뮤니티 사이트](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)에서 찾은 사용자 지정 시각화를 추가합니다. 창의성이 느껴지나요? 소스 코드를 더 자세히 살펴보고 [개발자 도구](../developer/custom-visual-develop-tutorial.md)를 사용하여 새로운 시각화 유형을 만들고 [커뮤니티에도 공유](../developer/office-store.md)해 주세요. 사용자 지정 시각적 개체를 개발하는 방법을 자세히 알아보려면 [Power BI 사용자 지정 시각적 개체 개발](../developer/custom-visual-develop-tutorial.md)을 참조하세요.
+직접 만든 또는 [Microsoft AppSource 커뮤니티 사이트](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)에서 찾은 사용자 지정 시각적 개체를 추가합니다. 창의성이 느껴지나요? 소스 코드를 더 자세히 살펴보고 [개발자 도구](../developer/custom-visual-develop-tutorial.md)를 사용하여 새로운 시각화 유형을 만들고 [커뮤니티에도 공유](../developer/office-store.md)해 주세요. 사용자 지정 시각적 개체를 개발하는 방법을 자세히 알아보려면 [Power BI 사용자 지정 시각적 개체 개발](../developer/custom-visual-develop-tutorial.md)을 참조하세요.
 
 ## <a name="personalize-your-visualization-pane-preview"></a>시각화 창 개인 설정(미리 보기)
 
-여러 보고서에서 동일한 사용자 지정 시각적 개체를 사용하는 경우 시각화 창에 사용자 지정 시각화를 고정할 수 있습니다. 시각화를 고정하려면 시각적 개체를 마우스 오른쪽 단추로 클릭하여 창에 고정합니다.
+여러 보고서에서 동일한 사용자 지정 시각적 개체를 사용하는 경우 시각화 창에 사용자 지정 시각적 개체를 고정할 수 있습니다. 시각화를 고정하려면 시각적 개체를 마우스 오른쪽 단추로 클릭하여 창에 고정합니다.
 
 ![시각화 창에 고정](media/power-bi-report-visualizations/power-bi-pin-custom-visual-option.png)
 
@@ -55,7 +55,7 @@ Power BI를 처음 사용하거나 복습이 필요하면, 아래 링크를 사�
 
 이 기능은 미리 보기 상태이지만 Power BI Desktop에서는 고정된 시각적 개체만 볼 수 있습니다. 또한 이 기능을 사용하려면 로그인해야 합니다.
 
-## <a name="change-the-visualization-type"></a>시각화 형식 변경
+## <a name="change-the-visualization-type"></a>시각화 유형 변경
 
 [시각화 형식을 변경](power-bi-report-change-visualization-type.md)하여 어떤 것이 데이터와 가장 최적으로 작동하는지 봅니다.
 
