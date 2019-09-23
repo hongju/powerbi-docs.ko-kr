@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: af227d2bcbbba2a27804ec74f14003f54aa89dde
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514686"
@@ -137,7 +137,7 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
 * BasXml 및 BasXmlGzip 모드의 열 접기입니다. 예를 들어 생성된 MDX 쿼리가 40개의 열을 검색하지만 현재 선택 항목에는 10개만 필요한 경우, 이 요청은 서버로 전달되어 더 작은 데이터 세트를 검색합니다.
 
 
-### <a name="changing-existing-reports-to-use-implementation-20"></a>2.0 구현을 사용하기 위해 기존 보고서 변경 
+### <a name="changing-existing-reports-to-use-implementation-20"></a>2\.0 구현을 사용하기 위해 기존 보고서 변경 
 
 **구현 2.0**을 사용하기 위해 기존 보고서를 변경하는 것은 가져오기 모드에만 가능하고 다음 수동 단계를 수행해야 합니다.
 
@@ -225,7 +225,7 @@ MDX 문이 지정되지 않은 경우 서버에서 사용 가능한 큐브 목�
 
 
 
-|제품  |모드  |인증  |커넥터  |SNC 라이브러리  |지원됨  |
+|Product  |모드  |인증  |커넥터  |SNC 라이브러리  |지원됨  |
 |---------|---------|---------|---------|---------|---------|
 |Power BI Desktop     |임의         | 사용자 / 암호  | 애플리케이션 서버 | 해당 없음  | 예  |
 |Power BI Desktop     |임의         | Windows          | 애플리케이션 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |

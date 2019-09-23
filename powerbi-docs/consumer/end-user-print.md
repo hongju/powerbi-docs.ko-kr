@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/13/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 02aed3d69ee5d6ce344138a57853bd0b2a06036b
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608553"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100181"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI 서비스에서 인쇄
 Power BI 서비스에서 전체 대시보드, 대시보드 타일, 보고서 페이지 또는 보고서 시각적 개체를 인쇄합니다. 보고서는 한 번에 한 페이지만 인쇄할 수 있습니다. 전체 보고서를 한 번에 인쇄할 수는 없습니다.
@@ -34,7 +33,7 @@ Power BI 서비스에서 전체 대시보드, 대시보드 타일, 보고서 페
    
 
    
-    ![인쇄 대화 상자](./media/end-user-print/pbi_print_dash_new2.png)
+    ![인쇄 대화 상자](./media/end-user-print/power-bi-print-dash.png)
 
 ## <a name="print-a-dashboard-tile"></a>대시보드 타일 인쇄
 1. 상단 메뉴 모음에서 전체 화면 아이콘 ![전체 화면 아이콘](./media/end-user-print/power-bi-full-screen-icon.png)을 선택하여 [전체 화면 모드](end-user-focus.md)에서 대시보드를 엽니다.

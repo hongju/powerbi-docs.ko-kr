@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61272252"
@@ -159,7 +159,7 @@ ms.locfileid: "61272252"
 * 특정 보고서를 선택하고 **다운로드가 선택됨**을 선택합니다.
 * **모두 다운로드**를 선택합니다.
 
-![다운로드 옵션](media/migrate-tool/migrate-tool-download-options.png)
+![옵션 다운로드](media/migrate-tool/migrate-tool-download-options.png)
 
 다운로드가 성공하면 *완료* 상태가 표시되며 PBIX 파일이 있는 것으로 나타납니다.
 

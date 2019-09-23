@@ -1,6 +1,6 @@
 ---
-title: 시각적 요소를 사용하여 Power BI 보고서 개선
-description: 배경 화면 및 시각적 개체 머리글과 같은 시각적 요소를 사용하여 보고서 개선
+title: 시각적 개체를 사용하여 Power BI 보고서 개선
+description: 배경 화면 및 시각적 머리글과 같은 시각적 요소를 사용하여 보고서 개선
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -17,16 +17,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514067"
 ---
-# <a name="use-visual-elements-to-enhance-power-bi-reports"></a>시각적 요소를 사용하여 Power BI 보고서 개선
+# <a name="use-visual-elements-to-enhance-power-bi-reports"></a>시각적 개체를 사용하여 Power BI 보고서 개선
 
-**Power BI Desktop**을 사용하면 시각화에 배경 화면 및 향상된 시각적 개체 머리글과 같은 시각적 요소를 사용하여 보고서의 모양을 개선할 수 있습니다.
+**Power BI Desktop**을 사용하면 시각화에 배경 화면 및 향상된 시각적 머리글과 같은 시각적 요소를 사용하여 보고서의 모양을 개선할 수 있습니다.
 
 ![배경 화면 및 작은 시각적 머리글을 추가하여 보고서 개선](media/desktop-visual-elements-for-reports/visual-elements-for-reports_01.png)
 
 **Power BI Desktop**의 2018년 7월 릴리스부터 보고서에 사용할 개선 사항을 포함하고 이전보다 훨씬 더 매력적인 분석과 보고서를 만들 수 있습니다. 이 문서에 설명된 개선 사항은 다음과 같습니다. 
 
 * 데이터로 알리려는 스토리의 요소를 배경에서 개선하거나 강조 표시할 수 있도록 보고서에 **배경 화면** 적용
-* 개별 시각화에 향상된 **시각적 개체 머리글**을 사용하여 보고서 캔버스에서 완벽하게 정렬된 시각적 개체를 만듭니다. 
+* 개별 시각화에 향상된 **시각적 머리글**을 사용하여 보고서 캔버스에서 완벽하게 정렬된 시각적 개체를 만듭니다. 
 
 다음 섹션에서는 이러한 개선 사항을 사용하는 방법과 보고서에 이를 적용하는 방법을 설명합니다.
 
@@ -64,7 +64,7 @@ ms.locfileid: "65514067"
 > 배경 화면에 진한 색 배경을 사용하고 텍스트 색을 흰색이나 옅은 색으로 설정하는 경우 **PDF로 내보내기** 기능에는 배경 화면이 포함되지 않으므로 흰색 글꼴을 포함한 내보내기는 내보낸 PDF 파일에 거의 표시되지 않습니다. **PDF로 내보내기**에 대한 자세한 내용은 [PDF로 내보내기](desktop-export-to-pdf.md)를 참조하세요.
 
 
-## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Power BI 보고서에서 향상된 시각적 개체 머리글 사용
+## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Power BI 보고서에서 향상된 시각적 머리글 사용
 
 **Power BI Desktop**의 2018년 7월 릴리스부터 보고서에 있는 시각적 개체의 머리글이 크게 향상되었습니다. 기본 개선 사항은 레이아웃 및 위치 지정의 기본 설정에 따라 위치를 조정할 수 있도록 머리글이 시각적 개체에서 분리되었고 이제 머리글이 시각적 개체 위에서 움직이는 대신 시각적 개체 자체의 내부에 표시된다는 것입니다. 
 
@@ -72,7 +72,7 @@ ms.locfileid: "65514067"
 
 ![이제 시각적 머리글이 시각적 개체 내부에 있거나 이동될 수 있음](media/desktop-visual-elements-for-reports/visual-elements-for-reports_05.png)
 
-시각적 개체에 제목이 없는 경우 머리글은 다음 이미지에 표시된 대로 오른쪽에 맞춰 정렬된 시각적 개체의 맨 위에서 움직입니다. 
+시각적 개체에 제목이 경우 머리글은 다음 이미지에 표시된 대로 오른쪽에 맞춰 정렬된 시각적 개체의 맨 위에서 움직입니다. 
 
 ![제목이 없는 경우 시각적 머리글이 시각적 개체 위에서 움직임](media/desktop-visual-elements-for-reports/visual-elements-for-reports_07.png)
 
@@ -80,20 +80,20 @@ ms.locfileid: "65514067"
 
 ![경계가 보고서의 맨 위인 경우 시각적 머리글은 맨 아래에 맞춰짐](media/desktop-visual-elements-for-reports/visual-elements-for-reports_08.png)
 
-각 시각적 개체에는 **시각화** 창의 **서식** 섹션에 **시각적 개체 머리글**이라는 카드도 있습니다. 해당 카드에서 시각적 개체 머리글에 대한 모든 종류의 특징을 조정할 수 있음
+각 시각적 개체에는 **시각화** 창의 **서식** 섹션에 **시각적 머리글**이라는 카드도 있습니다. 해당 카드에서 시각적 머리글에 대한 모든 종류의 특징을 조정할 수 있음
 
 ![각 시각적 개체는 서식 창에 시각적 머리글 카드가 있음](media/desktop-visual-elements-for-reports/visual-elements-for-reports_09.png)
 
 > [!NOTE]
-> 보고서를 작성하거나 편집하는 동안 토글 표시 여부는 보고서에 영향을 주지 않습니다. 효과를 확인하려면 보고서를 게시하고 읽기 모드로 표시해야 합니다. 이 동작을 사용하면 시각적 개체 머리글에 제공된 많은 옵션(특히 편집하는 동안 문제에 대한 경고를 표시하는 경고 아이콘)이 중요해집니다.
+> 보고서를 작성하거나 편집하는 동안 토글 표시 여부는 보고서에 영향을 주지 않습니다. 효과를 확인하려면 보고서를 게시하고 읽기 모드로 표시해야 합니다. 이 동작을 사용하면 시각적 머리글에 제공된 많은 옵션(특히 편집하는 동안 문제에 대한 경고를 표시하는 경고 아이콘)이 중요해집니다.
 
-**Power BI 서비스**에만 표시되는 보고서의 경우 **내 작업 영역 > 보고서**로 이동한 후 **설정** 아이콘을 선택하여 시각적 개체 머리글의 사용 방식을 조정할 수 있습니다. 여기에서 **설정**을 선택한 보고서에 대한 설정을 확인하고 다음 이미지와 같이 설정을 조정할 수 있습니다.
+**Power BI 서비스**에만 표시되는 보고서의 경우 **내 작업 영역 > 보고서**로 이동한 후 **설정** 아이콘을 선택하여 시각적 머리글의 사용 방식을 조정할 수 있습니다. 여기에서 **설정**을 선택한 보고서에 대한 설정을 확인하고 다음 이미지와 같이 설정을 조정할 수 있습니다.
 
 ![향상된 시각적 머리글을 사용하기 위한 Power BI 서비스의 설정](media/desktop-visual-elements-for-reports/visual-elements-for-reports_10.png)
 
-### <a name="enabling-improved-visual-headers-for-existing-reports"></a>기존 보고서에 향상된 시각적 개체 머리글 사용
+### <a name="enabling-improved-visual-headers-for-existing-reports"></a>기존 보고서에 향상된 시각적 머리글 사용
 
-새 시각적 개체 머리글은 모든 새 보고서의 기본 동작입니다. 기존 보고서의 경우 **파일 > 옵션 및 설정 > 옵션**으로 이동하여 **보고서 설정** 섹션에서 **최신 시각적 개체 머리글과 업데이트된 스타일링 옵션 함께 사용** 확인란을 선택하여 **Power BI Desktop**에서 이 동작을 사용하도록 설정합니다.
+새 시각적 머리글은 모든 새 보고서의 기본 동작입니다. 기존 보고서의 경우 **파일 > 옵션 및 설정 > 옵션**으로 이동하여 **Power BI Desktop**에서 이 동작을 사용하도록 설정한 후 **보고서 설정** 섹션에서 **최신 시각적 머리글과 업데이트된 스타일링 옵션 함께 사용** 확인란을 선택해야 합니다.
 
 ![향상된 시각적 머리글을 사용하려면 기존 보고서에서 옵션 확인란을 선택해야 함](media/desktop-visual-elements-for-reports/visual-elements-for-reports_06.png)
 

@@ -11,12 +11,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730218"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164526"
 ---
 # <a name="manage-data-sources"></a>데이터 원본 관리
 
@@ -123,9 +123,9 @@ OAuth는 온-프레미스 데이터 게이트웨이를 통해 사용자 지정 �
 | **데이터 원본** | **라이브/DirectQuery** | **수동 또는 예약된 새로 고침(사용자 구성)** |
 | --- | --- | --- |
 | Amazon Redshift |예 |예 |
+| Analysis Services |예 |예 |
 | AtScale 큐브 |예 |예 |
 | Azure Active Directory |아니요 |예 |
-| Azure Analysis Services |예 |예 |
 | Azure Blob Storage |아니요 |예 |
 | Azure DevOps Server |아니요 |예 |
 | Azure Table Storage |아니요 |예 |

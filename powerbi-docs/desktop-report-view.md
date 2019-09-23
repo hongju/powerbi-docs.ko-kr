@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514620"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142193"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop의 보고서 보기
 Power BI로 작업한 적이 있다면 데이터에 동적 관점과 통찰력을 제공하는 보고서를 얼마나 쉽게 만들 수 있는지 알고 있을 것입니다. Power BI Desktop에는 Power BI의 고급 기능도 있습니다. Power BI Desktop을 사용하여 고급 쿼리를 만들고, 여러 소스의 데이터를 매시업하고, 테이블 간에 관계를 만드는 등 많은 작업을 할 수 있습니다.
@@ -37,12 +37,12 @@ Power BI Desktop에서 처음 데이터를 로드하면 빈 캔버스가 있는 
 
 ![[필드] 창에서 끌어 시각적 개체 추가](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-시각화 형식을 변경하려면 리본 메뉴의 **시각화** 그룹에서 선택하거나, 마우스 오른쪽 단추를 클릭하고 **시각화 유형 변경** 아이콘에서 다른 유형을 선택할 수 있습니다.
+시각화 형식을 변경하려면 리본 메뉴의 **시각화** 그룹에서 선택하거나, 마우스 오른쪽 단추를 클릭하고 **시각화 형식 변경** 아이콘에서 다른 형식을 선택할 수 있습니다.
 
 ![새 시각적 개체를 선택하여 변경](media/desktop-report-view/pbid_reportview_changevis.gif)
 
 > [!TIP]
-> 다양한 시각화 유형으로 실험해 보세요. 시각화가 데이터의 정보를 명확하게 전달하는 것이 중요합니다.
+> 다양한 시각화 형식으로 실험해 보세요. 시각화가 데이터의 정보를 명확하게 전달하는 것이 중요합니다.
 
 보고서에 시작할 빈 페이지가 하나 이상 있습니다. 페이지는 탐색기 창에서 캔버스 바로 왼쪽에 나타납니다. 한 페이지에 모든 종류의 시각화를 추가할 수 있지만 지나치게 많이 사용하지 않는 것이 중요합니다. 한 페이지에 시각화가 너무 많으면 복잡해 보이며 적절한 정보를 찾기 어렵습니다. 보고서에 새 페이지를 추가할 수 있습니다. 리본 메뉴에서 **새 페이지**를 클릭하기만 하면 됩니다.
 
@@ -53,7 +53,7 @@ Power BI Desktop에서 처음 데이터를 로드하면 빈 캔버스가 있는 
 ![보고서에 페이지 추가](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
 
 > [!NOTE]
-> Power BI Desktop에서 보고서 및 시각화를 대시보드에 고정할 수 없습니다. 이렇게 하려면 Power BI 사이트로 [Power BI Desktop에서 게시](desktop-upload-desktop-files.md)해야 합니다.
+> Power BI Desktop에서 보고서 및 시각화를 대시보드에 고정할 수 없습니다. 이렇게 하려면 Power BI 사이트에 [Power BI Desktop에서 게시](desktop-upload-desktop-files.md)해야 합니다.
 
 ## <a name="copy-and-paste-between-reports"></a>보고서 간에 복사 및 붙여넣기
 
@@ -61,9 +61,11 @@ Power BI Desktop 보고서에서 시각적 개체를 가져와서 손쉽게 다�
 
 시각적 개체 복사 및 붙여넣기 기능은 여러 보고서를 자주 빌드하고 업데이트하는 경우에 유용합니다. 파일 간 복사할 때 서식 창에 명시적으로 설정된 설정 및 서식 적용이 수행되며, 테마에 사용되는 시각적 요소 또는 기본 설정이 대상 보고서의 테마와 일치하도록 자동으로 업데이트됩니다. 따라서 시각적 개체를 원하는 대로 서식을 지정하고 표시하려면 해당 시각적 개체를 복사하고 새 보고서에 붙여넣어 모든 서식 작업을 유지할 수 있습니다.
 
-![시각적 개체 복사/붙여넣기 오류 - 데이터 필드 없음](media/desktop-report-view/report-view_05.png)
+모델의 필드가 다르면 시각적 개체 오류 및 필드 없음에 대한 경고가 표시됩니다. 이 오류는 시각적 개체에서 사용 중인 모델에서 필드를 삭제할 때 표시되는 오류와 비슷합니다. 
 
-모델의 필드가 다르면 시각적 개체 오류 및 필드 없음에 대한 경고가 표시됩니다. 이 오류는 시각적 개체에서 사용 중인 모델에서 필드를 삭제할 때 표시되는 오류와 비슷합니다. 오류를 수정하려면 손상된 필드를 시각적 개체를 붙여넣은 보고서의 모델에서 사용하려는 필드로 바꿉니다. 사용자 지정 시각적 개체를 사용하는 경우 해당 사용자 지정 시각적 개체를 대상 보고서로 가져와야 합니다.
+![시각적 개체 복사/붙여넣기 오류 - 데이터 필드 없음](media/desktop-report-view/report-view_07.png)
+
+오류를 수정하려면 손상된 필드를 시각적 개체를 붙여넣은 보고서의 모델에서 사용하려는 필드로 바꿉니다. 사용자 지정 시각적 개체를 사용하는 경우 해당 사용자 지정 시각적 개체를 대상 보고서로 가져와야 합니다.
 
 
 
