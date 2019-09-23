@@ -384,7 +384,7 @@ tableAccent | 있는 경우 테이블 및 행렬 눈금 윤곽선 색을 재정�
 | gauge |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
-| 이미지 |
+| image |
 | KPI |
 | lineChart |
 | lineClusteredColumnComboChart |

@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 969dc53f97156724d6c2b6b7dd6036b3fe8310aa
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514420"
@@ -24,7 +24,7 @@ ms.locfileid: "65514420"
 **Power BI Desktop**은 **R** 엔진을 포함, 배포 또는 설치하지 않습니다. **Power BI Desktop**에서 R 스크립트를 실행하려면 로컬 컴퓨터에 **R**을 별도로 설치해야 합니다. 여러 위치에서 무료로 [Revolution Open 다운로드 페이지](https://mran.revolutionanalytics.com/download/) 및 [CRAN 리포지토리](https://cran.r-project.org/bin/windows/base/)를 포함하는 **R**을 다운로드 및 설치할 수 있습니다. **Power BI Desktop**의 현재 R 스크립팅 릴리스는 설치 경로에서 공백(공백 문자)뿐만 아니라 유니코드 문자도 지원합니다.
 
 ## <a name="enable-r-visuals"></a>R 시각적 개체를 사용하도록 설정
-R 시각적 개체를 사용하기 위해 **파일 > 옵션 및 설정 > 옵션**을 선택하면 **옵션** 페이지가 나타납니다. 다음 그림과 같이 **옵션** 창의 **R 스크립팅** 섹션에서 로컬에 설치된 R이 지정되었는지 확인합니다. 다음 그림에서 R의 로컬 설치 경로는 **C:\Program Files\Microsoft\R\R-3.2.0**이고 이 경로는 텍스트 상자에 명시적으로 제공됩니다. 표시되는 경로가 **Power BI Desktop**에서 사용할 로컬에 설치된 R을 올바르게 반영하는지 확인합니다.
+R 시각적 개체를 사용하기 위해 **파일 > 옵션 및 설정 > 옵션**을 선택하면 **옵션** 페이지가 나타납니다. 다음 그림과 같이 **옵션** 창의 **R 스크립팅** 섹션에서 로컬에 설치된 R이 지정되었는지 확인합니다. 다음 그림에서 R의 로컬 설치 경로는 **C:\Program Files\R\R-3.2.0**이고 이 경로는 텍스트 상자에 명시적으로 제공됩니다. 표시되는 경로가 **Power BI Desktop**에서 사용할 로컬에 설치된 R을 올바르게 반영하는지 확인합니다.
    
    ![](media/desktop-r-visuals/r-visuals-2.png)
 

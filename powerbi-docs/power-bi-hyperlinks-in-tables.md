@@ -51,9 +51,9 @@ ms.locfileid: "70937051"
    
     차트를 선택하여 활성화합니다.
 
-    서식 아이콘 선택 ![페인트 롤러 아이콘](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) 을 선택하여 [서식 지정] 탭을 엽니다.
+    서식 아이콘 ![페인트 롤러 아이콘](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) 을 선택하여 [서식] 탭을 엽니다.
 
-    **값**을 확장하고 **URL 아이콘**을 찾고 **On 상태로 전환합니다.**
+    **값**을 확장하고 **URL 아이콘**을 찾고 **설정** 상태로 전환합니다.
 
     ![URL 아이콘 설정](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
