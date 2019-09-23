@@ -903,6 +903,8 @@
       items:
         - name: Power BI 프리미엄 구매
           href: service-admin-premium-purchase.md
+        - name: 용량 구성 및 관리
+          href: service-admin-premium-manage.md
         - name: 워크로드 구성
           href: service-admin-premium-workloads.md
         - name: 앱을 사용하여 용량 모니터링
