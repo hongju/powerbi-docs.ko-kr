@@ -18,8 +18,10 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 09/12/2019
 ms.locfileid: "70937051"
 ---
-# <a name="add-hyperlinks-urls-to-a-table"></a>테이블에 하이퍼링크(URL) 추가
-이 항목에서는 테이블에 하이퍼링크(URL)를 추가하는 방법을 배웁니다. Power BI Desktop를 사용하여 테이블 또는 행렬에 하이퍼링크(URL)를 추가합니다. 그런 다음, Power BI Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가할 수 있습니다. 
+
+# <a name="add-hyperlinks-to-a-table"></a>테이블에 하이퍼링크 추가
+이 항목에서는 하이퍼링크를 만들어 Power BI Desktop을 사용하는 방법을 배웁니다. 그런 다음, Power BI Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가합니다. 
+
 
 ![하이퍼링크가 포함된 테이블](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
@@ -51,7 +53,9 @@ ms.locfileid: "70937051"
    
     차트를 선택하여 활성화합니다.
 
-    서식 아이콘 ![페인트 롤러 아이콘](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) 을 선택하여 [서식] 탭을 엽니다.
+
+    서식 아이콘 ![페인트 롤러 아이콘](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)을 선택하여 [서식] 탭을 엽니다.
+
 
     **값**을 확장하고 **URL 아이콘**을 찾고 **설정** 상태로 전환합니다.
 
