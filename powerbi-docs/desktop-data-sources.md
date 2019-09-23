@@ -1,30 +1,30 @@
 ---
-title: Power BI Desktop의 데이터 소스
-description: Power BI Desktop의 데이터 소스
+title: Power BI Desktop의 데이터 원본
+description: Power BI Desktop의 데이터 원본
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: ead5c8f45e102aaeebeed492ecf4646342747fe1
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560877"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142275"
 ---
-# <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 소스
-Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 있습니다. 이 페이지의 맨 아래에는 사용 가능한 데이터 소스의 전체 목록이 있습니다.
+# <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
+Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 있습니다. 이 페이지의 맨 아래에는 사용 가능한 데이터 원본의 전체 목록이 있습니다.
 
 데이터에 연결하려면 리본 메뉴의 **홈**  탭에서 **데이터 가져오기** 를 선택합니다. 아래쪽 화살표 또는 단추의 **데이터 가져오기** 텍스트를 선택하면 다음 이미지의 **가장 일반적** 데이터 형식 메뉴가 표시됩니다.
 
 ![Power BI Desktop에서 데이터 가져오기](media/desktop-data-sources/data-sources-01.png)
 
-**가장 일반적** 메뉴에서 **자세히...** 를 선택하면 **데이터 가져오기** 창이 표시됩니다. **데이터 가져오기** **아이콘 단추**를 직접 선택하여 **데이터 가져오기** 창을 표시할 수도 있습니다(**가장 일반적** 메뉴 무시).
+**자세히…** 선택 **가장 일반적** 메뉴에서 **추가...**를 선택하면**데이터 가져오기** 창이 표시됩니다. **데이터 가져오기** **아이콘 단추**를 직접 선택하여 **데이터 가져오기** 창을 표시할 수도 있습니다(**가장 일반적** 메뉴 무시).
 
 ![데이터 단추 가져오기](media/desktop-data-sources/data-sources-02.png)
 
@@ -34,7 +34,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 > 또한 **Power BI Desktop**에서 ‘베타’ 또는 ‘미리 보기’로 표시된 데이터 원본은 데이터 원본이 GA(일반 공급) 상태가 될 때까지 **Power BI 서비스** 또는 기타 Microsoft 서비스에서 사용하지 못할 수 있습니다.  
 
 ## <a name="data-sources"></a>데이터 원본
-데이터 형식은 다음 범주로 구성됩니다.
+데이터 유형은 다음 범주로 구성됩니다.
 
 * 모두
 * 파일
@@ -44,7 +44,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * 온라인 서비스
 * 기타
 
-**모두** 범주에는 모든 범주의 모든 데이터 연결 형식이 포함됩니다.
+**모두** 범주에는 모든 범주의 모든 데이터 연결 유형이 포함됩니다.
 
 **파일** 범주는 다음과 같은 데이터 연결을 제공합니다.
 
@@ -192,7 +192,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * ODBC
 * OLE DB
 * BI360 - 예산 및 재무 보고(베타)
-* Denado
+* Denodo
 * 정보 표(베타)
 * Paxata 
 * QubolePresto(베타)
@@ -207,10 +207,10 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 ![데이터 가져오기 > 기타](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
-> 지금은 Azure Active Directory를 사용하여 보호되는 사용자 지정 데이터 소스에 연결할 수 없습니다.
+> 지금은 Azure Active Directory를 사용하여 보호되는 사용자 지정 데이터 원본에 연결할 수 없습니다.
 
-## <a name="connecting-to-a-data-source"></a>데이터 소스에 연결
-데이터 소스에 연결하려면 **데이터 가져오기** 창에서 데이터 소스를 선택한 다음 **연결**을 선택합니다. 다음 그림에서는 **기타** 데이터 연결 범주에서 **웹** 이 선택됩니다.
+## <a name="connecting-to-a-data-source"></a>데이터 원본에 연결
+데이터 원본에 연결하려면 **데이터 가져오기** 창에서 데이터 원본을 선택한 다음 **연결**을 선택합니다. 다음 그림에서는 **기타** 데이터 연결 범주에서 **웹**이 선택됩니다.
 
 ![웹에 연결](media/desktop-data-sources/data-sources-08.png)
 

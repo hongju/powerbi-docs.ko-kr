@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 05/22/2019
-ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.date: 09/13/2019
+ms.openlocfilehash: d2c0ab82a3b262a975c461a4414ed7fd3b1bc060
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187693"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075897"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -45,9 +45,9 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | Power BI 모바일 앱 | 예 | 예 | [Power BI 모바일 앱 개요](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS 지도 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop에서 Esri로 ArcGIS 지도 만들기](../visuals/power-bi-visualization-arcgis.md) |
 | Power BI 보고서에 대한 메일 구독 | 아니요 | 예 | Power BI 서비스의 보고서 또는 대시보드에 [자신이나 다른 사용자 구독](../service-report-subscribe.md) |
-| 페이지를 매긴 보고서에 대한 메일 구독 | 예 | 아니요 | [Reporting Services의 메일 전송](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
+| 페이지를 매긴 보고서에 대한 메일 구독 | 예 | 예 | [Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독](../paginated-reports-subscriptions.md)<br><br>[Reporting Services의 메일 전송](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
 | 데이터 경고 | 아니요 | 예 | Power BI 서비스의 [데이터 경고](../service-set-data-alerts.md)
-| 행 수준 보안(RLS) | 예 | 예 | DirectQuery(데이터 원본) 및 가져오기 모드에서 사용 가능 <br>[Power BI 서비스](../service-admin-rls.md)의 행 수준 보안 <br>[Power BI Report Server](row-level-security-report-server.md)의 행 수준 보안 |
+| 행 수준 보안(RLS) | 예 | 예 | DirectQuery(데이터 원본) 및 가져오기 모드에서 사용 가능 <br><br>[Power BI 서비스](../service-admin-rls.md)의 행 수준 보안 <br><br>[Power BI Report Server](row-level-security-report-server.md)의 행 수준 보안 |
 | 전체 화면 모드 | 아니요 | 예 | Power BI 서비스의 [전체 화면 모드](../consumer/end-user-focus.md) |
 | 고급 Office 365 협업 | 아니요 | 예 | Office 365를 사용하여 [앱 작업 영역에서 공동 작업](../service-collaborate-power-bi-workspace.md) |
 | R 시각적 개체 | 아니요 | 예 | Power BI Desktop에서[R 시각적 개체를 만들고](../desktop-r-visuals.md) Power BI 서비스에 게시합니다. R 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다.  |
@@ -57,4 +57,4 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI Report Server 설치](install-report-server.md)  
+[Power BI Report Server 설치](install-report-server.md)

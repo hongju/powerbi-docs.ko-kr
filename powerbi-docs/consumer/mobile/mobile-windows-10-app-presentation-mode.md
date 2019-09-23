@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
 ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61338258"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub 및 Windows 10 디바이스에서 프레젠테이션 모드로 보고서 및 대시보드 보기
@@ -43,7 +43,7 @@ Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화
 1. 뒤로 아이콘 ![뒤로 아이콘을 탭하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 이전 페이지로 돌아갑니다. 아이콘을 길게 탭하면 이동 경로 창이 열려 보고서 또는 대시보드의 폴더로 이동할 수 있습니다.
 2. 잉크 아이콘 ![잉크 아이콘을 사용하면](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) 보고서 페이지에 그리거나 주석을 달 때 색을 선택할 수 있습니다. 
 3. 페이지 아이콘 ![페이지 매김 아이콘을 사용하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 현재 표시하고 있는 보고서 페이지를 바꿉니다.
-4. 재생 아이콘  ![재생 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) 작업 표시줄 숨기기를 앱 보고서 페이지 사이 회전 auto는 슬라이드 쇼를 시작 합니다. 
+4. 재생 아이콘  ![재생 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) 작업 모음을 숨기고 슬라이드 쇼를 시작합니다. 그러면 앱이 보고서 페이지를 자동으로 순환하여 표시합니다. 
 5. 검색 아이콘 ![검색 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) Power BI에서 다른 아티팩트를 찾습니다.
 6. 도구 모음에서 안쪽을 향하는 두 개의 화살표가 있는 아이콘 ![전체 화면 모드 끝내기](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) 프레젠테이션 모드를 종료합니다.
 

@@ -1,6 +1,6 @@
 ---
-title: 방문 페이지
-description: Power BI 시각적 개체에 방문 페이지를 추가하는 방법
+title: Power BI 시각적 개체에 방문 페이지 추가
+description: 이 문서에서는 Power BI 시각적 개체에 방문 페이지를 추가하는 방법을 설명합니다.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 44cc9314b31803c97d3203d4aab846685d8f88fa
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: d15c52134fe3c8638625e50a1374867a4abed3c1
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424887"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236702"
 ---
-# <a name="landing-page"></a>방문 페이지
+# <a name="add-a-landing-page-to-your-power-bi-visuals"></a>Power BI 시각적 개체에 방문 페이지 추가
 
-API 2.3.0을 사용하면 시각적 개체에 방문 페이지를 추가할 수 있습니다. 이렇게 하려면 기능에 `supportsLandingPage`를 추가하고 true로 설정합니다. 그러면 데이터를 추가하기 전에도 시각적 개체가 초기화되고 업데이트되므로(더 이상 워터마크가 표시되지 않음), 데이터가 없는 경우 시각적 개체에 표시할 고유한 방문 페이지를 디자인할 수 있습니다.
+API 2.3.0에서는 Power BI 시각적 개체에 방문 페이지를 추가할 수 있습니다. 기능에 `supportsLandingPage`를 추가하고 true로 설정하면 됩니다. 이 작업을 수행하면 데이터를 추가하기 전에 시각적 개체가 초기화되고 업데이트됩니다. 시각적 개체에 더 이상 워터마크가 표시되지 않으므로, 데이터가 없을 경우 시각적 개체에 표시할 고유한 방문 페이지를 디자인할 수 있습니다.
 
 ```typescript
 export class BarChart implements IVisual {
@@ -57,6 +57,6 @@ export class BarChart implements IVisual {
     }
 ```
 
-샘플
+다음 그림은 예제 방문 페이지를 보여 줍니다.
 
 ![방문 페이지 스크린샷](./media/landing-page.png)

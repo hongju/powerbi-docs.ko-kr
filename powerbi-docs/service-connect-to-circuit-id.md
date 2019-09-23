@@ -31,7 +31,7 @@ Power BI용 [회로 ID 콘텐츠 팩](https://app.powerbi.com/getdata/services/c
 2. **서비스** 상자에서 **가져오기**를 선택합니다.
    
     ![](media/service-connect-to-circuit-id/services.png)
-3. **ID 회로** \> **가져오기**를 선택합니다.
+3. **Circuit ID** \> **가져오기**를 선택합니다.
    
     ![](media/service-connect-to-circuit-id/circuitid.png)
 4. 인증 방법에 대해 기본을 선택하고 사용자 이름 및 암호를 제공합니다. 그런 다음 로그인을 누릅니다.

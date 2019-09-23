@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
 ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61274651"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 또는 보고서 공유
@@ -39,7 +39,7 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    
    받는 사람은 대시보드 또는 보고서의 직접 링크가 포함된 메일 초대를 받게 됩니다. 이 초대는 한 달 후에 만료됩니다. 동료가 브라우저 또는 Power BI 모바일 앱에서 열면 동료의 Power BI 계정에서 **공유한 항목** 섹션에 추가됩니다.
    
-   ![공유한 항목](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![공유](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    [동료와 공유에 대한 참고 사항](../../service-share-dashboards.md)을 자세히 읽어보세요.
 
@@ -69,7 +69,7 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    
    받는 사람은 대시보드 또는 보고서의 직접 링크가 포함된 메일 초대를 받게 됩니다. 이 초대는 한 달 후에 만료됩니다. 동료가 브라우저 또는 Power BI 모바일 앱에서 열면 동료의 Power BI 계정에서 **공유한 항목** 섹션에 추가됩니다.
    
-   ![공유한 항목](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![공유](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    [동료와 공유에 대한 참고 사항](../../service-share-dashboards.md)을 자세히 읽어보세요.
 
@@ -105,7 +105,7 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    
    받는 사람은 대시보드의 직접 링크가 포함된 메일 초대를 받게 됩니다. 이 초대는 한 달 후에 만료됩니다. 동료가 브라우저 또는 Power BI 모바일 앱에서 열면 동료의 Power BI 계정에서 **공유한 항목** 섹션에 추가됩니다.
    
-   ![공유한 항목](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
+   ![공유](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
    
    [동료와 대시보드 공유에 대한 참고 사항](../../service-share-dashboards.md)을 자세히 읽어보세요.
 
@@ -140,12 +140,12 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    
    받는 사람은 대시보드 또는 보고서의 직접 링크가 포함된 메일 초대를 받게 됩니다. 이 초대는 한 달 후에 만료됩니다. 동료가 브라우저 또는 Power BI 모바일 앱에서 열면 동료의 Power BI 계정에서 **공유한 항목** 섹션에 추가됩니다.
    
-   ![공유한 항목](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![공유](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    [동료와 공유에 대한 참고 사항](../../service-share-dashboards.md)을 자세히 읽어보세요.
 
 ## <a name="next-steps"></a>다음 단계
-* [모바일 앱에서 타일, 보고서 또는 시각적 개체의 스냅숏에 주석 달기 및 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
+* [모바일 앱에서 타일, 보고서 또는 시각적 개체의 스냅샷에 주석 달기 및 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Power BI에서 대시보드 또는 보고서 공유](../../service-share-dashboards.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

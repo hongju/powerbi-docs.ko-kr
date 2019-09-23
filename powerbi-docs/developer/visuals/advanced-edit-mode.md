@@ -1,6 +1,6 @@
 ---
-title: 고급 편집 모드
-description: 고급 UI 컨트롤이 있는 Power BI 시각적 개체
+title: Power BI 시각적 개체의 고급 편집 모드
+description: 이 문서에서는 Power BI 시각적 개체에서 고급 UI 컨트롤을 설정하는 방법을 설명합니다.
 author: shaym83
 ms.author: shaym
 manager: rkarlin
@@ -9,51 +9,46 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 625105aed773bce5cf70932f092faf60ea001c2c
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 54cd9d106132979e5ace71a2617a9e2520363176
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425554"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237345"
 ---
-# <a name="advanced-edit-mode"></a>고급 편집 모드
+# <a name="advanced-edit-mode-in-power-bi-visuals"></a>Power BI 시각적 개체의 고급 편집 모드
 
-고급 UI 컨트롤이 필요한 시각적 개체는 고급 편집 모드 지원을 선언할 수 있습니다.
-지원되는 경우 보고서 편집 모드에서 `Edit` 단추가 시각적 개체의 메뉴에 표시됩니다.
-`Edit` 단추를 클릭하면 EditMode가 `Advanced`로 설정됩니다.
-시각적 개체는 EditMode 플래그를 사용하여 해당 UI 컨트롤이 표시되도록 결정할 수 있습니다.
+Power BI 시각적 개체에서 고급 UI 컨트롤이 필요한 경우 고급 편집 모드를 활용할 수 있습니다. 보고서 편집 모드인 경우, **편집** 단추를 선택하여 편집 모드를 **고급**으로 설정합니다. 시각적 개체는 `EditMode` 플래그를 사용하여 이 UI 컨트롤을 표시할지 여부를 결정할 수 있습니다.
 
-기본적으로 시각적 개체는 고급 편집 모드를 지원하지 않습니다.
-다른 동작이 필요한 경우 시각적 개체의 `capabilities.json` 파일에서 `advancedEditModeSupport` 속성을 설정하여 명시적으로 지정해야 합니다.
+기본적으로 시각적 개체는 고급 편집 모드를 지원하지 않습니다. 다른 동작이 필요한 경우, `advancedEditModeSupport` 속성을 설정하여 시각적 개체의 *capabilities.json* 파일에서 이 동작을 명시적으로 지정해야 합니다.
 
 가능한 값은 다음과 같습니다.
 
-- 0 - NotSupported
+- `0` - NotSupported
 
-- 1 - SupportedNoAction
+- `1` - SupportedNoAction
 
-- 2 - SupportedInFocus
+- `2` - SupportedInFocus
 
-## <a name="entering-advanced-edit-mode"></a>고급 편집 모드 시작
+## <a name="enter-advanced-edit-mode"></a>고급 편집 모드 시작
 
-다음과 같은 경우 `Edit` 단추가 표시됩니다.
+**편집** 단추가 표시되는 경우는 다음과 같습니다.
 
- 1 - capabilities.json에서 `advancedEditModeSupport` 속성이 `SupportedNoAction` 또는 `SupportedInFocus`로 설정되었습니다.
+* *capabilities.json* 파일에서 `advancedEditModeSupport` 속성이 `SupportedNoAction` 또는 `SupportedInFocus` 중 하나로 설정되었습니다.
 
- 2 - 시각적 개체가 보고서 편집 모드에서 표시되었습니다.
+* 시각적 개체가 보고서 편집 모드에서 표시되었습니다.
 
-capabilities.json에 `advancedEditModeSupport` 속성이 없거나 `NotSupported`로 설정된 경우에는 ‘Edit’ 단추가 사라집니다.
+*capabilities.json*에 `advancedEditModeSupport` 속성이 없거나 `NotSupported`로 설정된 경우에는 **편집** 단추가 표시되지 않습니다.
 
 ![편집 모드 시작](./media/edit-mode.png)
 
-사용자가 `Edit`를 클릭하면 시각적 개체는 EditMode가 `Advanced`로 설정된 update() 호출을 가져옵니다.
-기능에 설정된 값에 따라 다음 작업이 수행됩니다.
+**편집**을 선택하면, 시각적 개체는 EditMode가 `Advanced`로 설정된 update() 호출을 가져옵니다. *capabilities.json* 파일에 설정된 값에 따라 다음 작업이 수행됩니다.
 
-* `SupportedNoAction` - 호스트에서 추가 작업을 수행하지 않습니다.
-* `SupportedInFocus` - 호스트에서 시각적 개체를 포커스 모드로 표시합니다.
+* `SupportedNoAction`: 호스트에 추가 작업이 필요하지 않습니다.
+* `SupportedInFocus`: 호스트에서 시각적 개체가 포커스 모드로 표시됩니다.
 
-## <a name="exiting-advanced-edit-mode"></a>고급 편집 모드 종료
+## <a name="exit-advanced-edit-mode"></a>고급 편집 모드 종료
 
-다음과 같은 경우 `Back to report` 단추가 표시됩니다.
+**보고서로 돌아가기** 단추가 표시되는 경우는 다음과 같습니다.
 
-1 - capabilities.json에서 `advancedEditModeSupport` 속성이 `SupportedInFocus`로 설정되었습니다.
+* *capabilities.json* 파일에서 `advancedEditModeSupport` 속성이 `SupportedInFocus`로 설정되었습니다.

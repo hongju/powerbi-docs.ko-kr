@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654826"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201020"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 시작
 **Power BI Desktop 시작 가이드**를 시작합니다. 아래의 간단한 안내를 통해 Power BI Desktop의 작동 방법을 파악하고, 이 도구로 수행할 수 있는 작업을 확인하고, 비즈니스 인텔리전스 활동을 강화하는 강력한 데이터 모델을 유용한 보고서와 함께 신속하게 작성할 수 있습니다. 
@@ -105,6 +105,9 @@ Power BI Desktop이 설치되면 계속 확장되는 데이터에 연결할 수 
  ![](media/desktop-getting-started/designer_gsg_editquery.png)
 
 데이터에 연결하는 방법에 대한 자세한 내용은 [Power BI Desktop에서 데이터에 연결](desktop-connect-to-data.md)을 참조하세요.
+
+> [!NOTE]
+> 이 문서에서 참조하는 테이블 데이터는 시간이 지남에 따라 변경될 수 있습니다. 그러므로 수행해야 하는 단계는 다음과 다를 수 있으며, 단계 또는 결과를 조정하는 방법은 독창성이 요구되므로 알아보면 유익할 것입니다. 
 
 다음 섹션에서는 요구 사항에 맞게 데이터를 조정합니다. 연결된 데이터를 조정하는 프로세스를 데이터 *셰이핑* 이라고 합니다.
 

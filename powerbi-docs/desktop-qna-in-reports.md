@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61285040"
@@ -23,9 +23,9 @@ ms.locfileid: "61285040"
 Q&A가 대응이 가능한 수많은 질문을 성공적으로 해석하도록 하려면 Q&A에서 모델에 대한 가정을 만들어야 합니다. 사용자 모델의 구조가 이러한 가정을 하나 이상 만족하지 못하는 경우 모델을 조정해야 합니다. Q&A에 대한 이러한 조정은 질문과 대답의 사용 여부와 상관 없이 Power BI에서 모든 모델에 대해 동일한 최상의 최적화입니다. 
 
 > [!NOTE]
-> 질문 및 답변은 사용할 수 있는 모델을 작업할 때 **가져온** 데이터 또는 ssas 라이브 연결 합니다. DirectQuery 모델을 사용 하는 것이 없습니다.
+> 질문 및 답변은 **가져온** 데이터를 포함하거나 SSAS로 라이브 연결하는 모델을 사용하여 작업할 때만 사용 가능합니다. DirectQuery 모델은 지원되지 않습니다.
 >
-> Windows 10 이전의 Windows 버전을 사용하는 경우 질문 및 답변에는 C 런타임 업데이트가 필요합니다. Windows Update에서 중요 업데이트를 설치해 보거나 Microsoft에서 필수 구성 요소(KB2999226)를 수동으로 설치할 수 있습니다. [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
+> Windows 10 이전의 Windows 버전을 사용하는 경우 질문 및 답변에는 C 런타임 업데이트가 필요합니다. Windows Update에서 중요 업데이트를 설치해 보거나 Microsoft에서 필수 구성 요소(KB2999226)를 수동으로 설치할 수 있습니다. [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows )
 >
 >
 
@@ -62,7 +62,7 @@ Q&A에서 몇 가지 기본 단어 분리 및 복수형 검색을 수행할 수 
 
 ## <a name="fix-incorrect-data-types"></a>잘못된 데이터 형식 수정
 
-가져온 데이터에 잘못된 데이터 형식이 있을 수 있습니다. 특히 ‘문자열’로 가져온 ‘날짜’ 및 ‘번호’ 열은 질문 및 답변에서 날짜 및 숫자로 해석되지 않습니다.    Power BI 모델에서는 올바른 데이터 형식을 선택해야 합니다.
+가져온 데이터에 잘못된 데이터 형식이 있을 수 있습니다. 특히 ‘문자열’로 가져온 ‘날짜’ 및 ‘번호’ 열은 질문 및 답변에서 날짜 및 숫자로 해석되지 않습니다. Power BI 모델에서는 올바른 데이터 형식을 선택해야 합니다.
 
 ![Q&A에 사용할 수 있도록 올바른 데이터 형식 선택](media/desktop-qna-in-reports/desktop-qna_05.png)
 

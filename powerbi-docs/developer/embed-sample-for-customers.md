@@ -1,23 +1,23 @@
 ---
 title: 고객용 애플리케이션에 Power BI 콘텐츠를 포함하기 위한 임베디드 분석
 description: 고객의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
-ms.reviewer: nishalit
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
+ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8fd87174a1f94ac8a6472238164298c47aa5691e
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710969"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391801"
 ---
-# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서: 고객의 애플리케이션에 Power BI 콘텐츠 포함
+# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서:  고객의 애플리케이션에 Power BI 콘텐츠 포함
 
 **Azure의 Power BI Embedded**를 통해 앱 소유 데이터를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **앱 소유 데이터**는 해당 임베디드 분석 플랫폼으로 Power BI를 사용하는 애플리케이션을 갖는 것입니다. **ISV 개발자**는 사용자에게 Power BI 라이선스를 요구하지 않고도 완벽하게 통합된 대화형 애플리케이션에서 보고서, 대시보드 또는 타일을 표시하는 Power BI 콘텐츠를 만들 수 있습니다. 이 자습서에서는 고객을 위해 **Azure의 Power BI Embedded**를 사용하여 Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서를 애플리케이션에 통합하는 방법을 보여줍니다.
 
@@ -198,9 +198,9 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
     ![앱 선택](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
 
-4. 선택 **인증서 및 비밀** 아래에서 **관리**합니다.
+4. **관리** 아래의 **인증서 및 비밀**을 선택합니다.
 
-5. 선택 **새 클라이언트 비밀**합니다.
+5. **새 클라이언트 비밀**을 선택합니다.
 
 6. **설명** 상자에 이름을 입력하고 지속 기간을 선택합니다. 그런 다음, **저장**을 선택하여 애플리케이션의 **값**을 가져옵니다. 키 값을 저장한 후 **키** 창을 닫으면 값 필드가 숨김으로만 표시됩니다. 이때는 키 값을 검색할 수 없습니다. 키 값을 분실한 경우 Azure Portal에서 새 키 값을 만듭니다.
 
@@ -365,7 +365,7 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 | A5 |16개 가상 코어 |8개 코어, 50GB RAM |8개 코어 |초당 60 |
 | A6 |32개 가상 코어 |16개 코어, 100GB RAM |16개 코어 |초당 120 |
 
-**‘SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다.’**
+**‘SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다.’** 
 
 PRO 라이선스가 있는 포함 토큰을 사용하는 것은 개발 테스트용이므로 Power BI 마스터 계정 또는 서비스 주체가 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 환경에 포함하려면 전용 용량이 필요합니다. 전용 용량으로 생성할 수 있는 포함 토큰 수에는 제한이 없습니다. [사용 가능한 기능](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)으로 이동하여 현재 포함된 사용 현황을 백분율로 표시하는 사용 값을 확인합니다. 사용량은 마스터 계정을 기반으로 합니다.
 

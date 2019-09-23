@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621250"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160363"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)
 
@@ -115,19 +115,19 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 
     ![Power 애플리케이션 검색](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. 검색 결과에서 Power BI 서비스 및 파워 쿼리 온라인의 개체 ID를 모두 선택하고 복사합니다. 이후 단계에서 해당 값을 붙여넣도록 준비합니다.
+5. 검색 결과에서 Power BI Premium 서비스 및 파워 쿼리 온라인의 개체 ID를 모두 선택하고 복사합니다. 이후 단계에서 해당 값을 붙여넣도록 준비합니다.
 
-7. 그런 다음, **Azure Storage Explorer**를 사용하여 이전 섹션에서 만든 *powerbi* 파일 시스템으로 이동합니다. [Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)(Azure Storage 탐색기를 사용하여 파일 및 디렉터리 수준 권한 설정)의 [Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)(액세스 관리) 섹션에 있는 지침을 따릅니다.
+6. 그런 다음, **Azure Storage Explorer**를 사용하여 이전 섹션에서 만든 *powerbi* 파일 시스템으로 이동합니다. [Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)(Azure Storage 탐색기를 사용하여 파일 및 디렉터리 수준 권한 설정)의 [Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)(액세스 관리) 섹션에 있는 지침을 따릅니다.
 
-8. 5단계에서 수집한 두 개의 Power BI 개체 ID 각각에 대해 **읽기**, **쓰기**, **실행** 액세스 및 기본 ACL을 *powerbi* 파일 시스템에 할당합니다.
+7. 5단계에서 수집한 두 개의 Power BI Premium 개체 ID 각각에 대해 **읽기**, **쓰기**, **실행** 액세스 및 기본 ACL을 *powerbi* 파일 시스템에 할당합니다.
 
    ![두 개체 ID에 대해 세 개 모두 할당](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. 4단계에서 수집한 파워 쿼리 온라인 개체 ID에 대해 **쓰기**, **실행** 액세스 및 기본 ACL을 *powerbi* 파일 시스템에 할당합니다.
+8. 4단계에서 수집한 파워 쿼리 온라인 개체 ID에 대해 **쓰기**, **실행** 액세스 및 기본 ACL을 *powerbi* 파일 시스템에 할당합니다.
 
    ![다음, 쓰기 및 실행 할당](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-10. 또한 **기타**에 대해 **실행** 액세스 및 기본 ACL을 할당합니다.
+9. 또한 **기타**에 대해 **실행** 액세스 및 기본 ACL을 할당합니다.
 
     ![마지막, 기타에 대해 실행 할당](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 

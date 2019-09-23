@@ -1,29 +1,33 @@
 ---
-title: '자습서: Power BI Desktop을 사용한 Facebook 분석'
-description: '자습서: Power BI Desktop을 사용한 Facebook 분석'
+title: '자습서:  Power BI Desktop을 사용한 Facebook 분석'
+description: '자습서:  Power BI Desktop을 사용한 Facebook 분석'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513684"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841405"
 ---
-# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>자습서: Power BI Desktop을 사용한 Facebook 분석
+# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>자습서:  Power BI Desktop을 사용한 Facebook 분석
 
 이 자습서에서는 Facebook에서 데이터를 가져오고 Power BI Desktop에서 사용하는 방법을 알아봅니다. Power BI Facebook 페이지에 연결하여 이 페이지에서 데이터를 가져오고, 가져온 데이터에 변환을 적용하고, 보고서 시각화에서 데이터를 사용합니다.
 
+> [!WARNING]
+> Facebook 앱 권한 제한으로 인해 이 문서에 설명된 커넥터 기능이 현재 제대로 작동하지 않습니다. 이 기능을 최대한 빨리 되돌리기 위해 Facebook과 공조하고 있습니다.
+
+
 ## <a name="connect-to-a-facebook-page"></a>Facebook 페이지에 연결
 
-이 자습서에서는 [Microsoft Power BI Facebook 페이지](https://www.facebook.com/microsoftbi)( *https://www.facebook.com/microsoftbi* )의 데이터를 사용합니다. 개인 Facebook 계정을 제외하고 이 페이지에 연결하고 데이터를 가져오기 위해 특별한 자격 증명이 필요하지 않습니다.
+이 자습서에서는 [Microsoft Power BI Facebook 페이지](https://www.facebook.com/microsoftbi)( *https://www.facebook.com/microsoftbi* )의 데이터를 사용합니다. 개인 Facebook 계정을 제외하고 이 페이지에 연결하여 데이터를 가져오는 데는 특별한 자격 증명이 필요하지 않습니다.
 
 1. Power BI Desktop을 열고 **시작** 대화 상자에서 **데이터 가져오기**를 선택하거나, **홈** 리본 메뉴의 **데이터 가져오기**를 선택한 다음, **자세히...** 를 선택합니다.
    

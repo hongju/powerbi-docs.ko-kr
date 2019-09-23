@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 278d631e755c4d484db0788b6c58fca9cfce4616
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 218124542570d313c3d5893a6f1d69c75594f33c
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961899"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903770"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI 및 Office 365에서 앱 작업 영역 관리
 
@@ -72,7 +72,7 @@ Office 365용 Outlook에서 직접 앱 작업 영역의 기능을 편집할 수�
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>이미지 추가 및 기타 작업 영역 속성 설정
 
-앱 작업 영역에서 앱을 배포하는 경우, 여기서 추가한 이미지가 앱 이미지가 됩니다. **새 작업 영역 만들기** 문서의 [Office 365 앱 작업 영역에 이미지 추가(선택 사항)](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional) 섹션을 참조하세요.
+앱 작업 영역에서 앱을 배포하는 경우, 여기서 추가한 이미지가 앱 이미지가 됩니다. **새 작업 영역 만들기** 문서의 [Office 365 앱 작업 영역에 이미지 추가](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional)를 참조하세요.
 
 1. 앱 작업 영역의 Office 365용 Outlook 보기에서 **정보** 탭으로 이동하여 **편집**을 선택합니다.
 

@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 00574228fbfa8954b8cfb9cb026a9230eb1bd73e
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816529"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841659"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI에서 작업을 공유하는 방법
 
@@ -31,7 +31,7 @@ ms.locfileid: "66816529"
 
 선택하는 옵션에 상관 없이 콘텐츠를 공유하려면 [Power BI Pro 라이선스](service-features-license-type.md)가 필요하거나 콘텐츠가 [프리미엄 용량](service-premium-what-is.md)에 있어야 합니다. 선택한 옵션에 따라 콘텐츠를 보는 동료에 대해 라이선스 요구 사항이 달라집니다. 다음 섹션에 자세한 내용이 나와 있습니다. 
 
-![Power BI 서비스의 앱](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
+![Power BI 서비스의 앱](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-new-look.png)
 
 *Power BI 서비스의 앱*
 
@@ -41,7 +41,7 @@ ms.locfileid: "66816529"
 
 작업 영역은 동료가 가진 사용 권한을 결정하는 역할을 제공합니다. 해당 역할을 사용하여 전체 작업 영역을 관리하거나 해당 콘텐츠를 편집하고, 해당 콘텐츠를 배포할 수 있는 사용자를 결정할 수 있습니다.
 
-![작업 영역](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![작업 영역](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 기본적으로 콘텐츠를 내 작업 영역에 배치하고 공유할 수 있습니다. 그러나 작업 영역은 콘텐츠의 공동 소유권을 허용하기 때문에 내 작업 영역보다 협업에 더 적합합니다. 사용자 및 전체 팀은 쉽게 업데이트를 수행하거나 다른 사용자에게 액세스 권한을 제공할 수 있습니다. 내 작업 영역은 일회성 또는 개인 콘텐츠에서 개별 사용자에 의해 사용되기에 적합합니다.
 
@@ -57,9 +57,9 @@ Power BI에는 새 작업 영역 환경이 있습니다. 작업 영역의 변경
 
 조직의 광범위한 대상에 대시보드를 배포하려 한다고 가정해 봅시다. 사용자는 동료와 *작업 영역*을 만든 다음, 작업 영역에서 대시보드, 보고서 및 데이터 세트를 만들고 다듬었습니다. 이제 그룹이나 전체 조직에 대해 앱으로 게시할 대시보드 및 보고서를 선택합니다.
 
-![앱 게시 아이콘](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
+![앱 게시 아이콘](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-publish-app.png)
 
-앱은 Power BI 서비스([https://powerbi.com](https://powerbi.com))에서 쉽게 찾아 설치할 수 있습니다. 앱에 대한 직접 링크를 비즈니스 사용자에게 보내거나, 해당 사용자가 AppSource에서 해당 앱을 검색할 수 있습니다. Power BI 관리자가 권한을 부여한 경우 동료의 Power BI 계정에 해당 앱을 자동으로 설치할 수 있습니다. [앱 게시](service-create-distribute-apps.md)에 대해 자세히 알아봅니다.
+앱은 Power BI 서비스([https://app.powerbi.com](https://app.powerbi.com))에서 쉽게 찾아 설치할 수 있습니다. 앱에 대한 직접 링크를 비즈니스 사용자에게 보내거나, 해당 사용자가 AppSource에서 해당 앱을 검색할 수 있습니다. Power BI 관리자가 권한을 부여한 경우 동료의 Power BI 계정에 해당 앱을 자동으로 설치할 수 있습니다. [앱 게시](service-create-distribute-apps.md)에 대해 자세히 알아봅니다.
 
 앱을 설치한 후에 브라우저 또는 모바일 디바이스에서 볼 수 있습니다.
 
@@ -71,13 +71,15 @@ Power BI에는 새 작업 영역 환경이 있습니다. 작업 영역의 변경
 
 사실 일부 사용자는 자신의 보고서에서 고품질의 잘 설계된 데이터 모델을 만드는 데 더 능숙합니다. 아마도 본인이 이에 해당할 수 있습니다. 전체 조직은 동일한 잘 설계된 데이터 모델을 사용하여 이점을 얻을 수 있습니다. *공유 데이터 세트는* 해당 역할을 채웁니다. 모든 사용자가 사용해야 하는 데이터 모델을 사용하여 보고서를 만들 때 해당 보고서를 Power BI 서비스에 저장하고 올바른 사용자에게 사용할 권한을 부여할 수 있습니다. 그런 다음, 데이터 세트에서 해당 보고서를 작성할 수 있습니다. 이런 방식으로 모든 사용자는 자신의 보고서를 동일한 데이터를 기반으로 하며, 동일한 "버전의 사실"을 봅니다.
 
+![공유 데이터 세트 찾기](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-shared-datasets.png)
+
 [공유 데이터 세트 만들기 및 사용](service-datasets-across-workspaces.md)에 대해 자세히 알아봅니다.
 
 ## <a name="share-dashboards-and-reports"></a>대시보드 및 보고서 공유
 
 고유한 내 작업 영역 또는 작업 영역에서 대시보드 및 보고서를 종료했고 다른 사용자가 액세스하도록 하려는 경우를 가정하겠습니다. 한 가지 방법은 공유하는 것입니다.  
 
-![공유 아이콘](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
+![보고서 공유](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
 콘텐츠를 공유하려면 Power BI Pro 라이선스가 필요하고 공유하려는 사람도 동일합니다. 또는 콘텐츠가 [프리미엄 용량](service-premium-what-is.md)의 작업 영역에 있어야 합니다. 대시보드 또는 보고서를 공유할 경우 공유 대상이 대시보드를 보고 상호 작용할 수는 있지만 편집은 불가능합니다. 기본 데이터 세트에 RLS(행 수준 보안)를 적용하지 않는 한 다른 사용자는 귀하가 대시보드 및 보고서에서 확인할 수 있는 동일한 데이터를 봅니다. 허용하는 경우 사용자와 항목을 공유하는 동료는 자신의 동료와도 공유할 수 있습니다. 
 
@@ -91,11 +93,11 @@ iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 �
 
 ![모바일 앱에서 주석 달기 및 공유](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-iphone-annotate.png)
 
-타일, 보고서 또는 시각적 개체의 스냅숏을 공유하고, 수신자는 귀하가 메일을 보낸 바로 그대로를 확인합니다. 메일에는 대시보드 또는 보고서에 대한 링크가 포함되어 있습니다. Power BI Pro 라이선스가 있거나 콘텐츠가 [프리미엄 용량](service-premium-what-is.md)에 있고 이미 다른 사람과 공유했다면 다른 사람이 열 수 있습니다. 타일의 스냅숏은 동일한 메일 도메인의 동료뿐만 아니라 누구에게든 보낼 수 있습니다.
+타일, 보고서 또는 시각적 개체의 스냅샷을 공유하고, 수신자는 귀하가 메일을 보낸 바로 그대로를 확인합니다. 메일에는 대시보드 또는 보고서에 대한 링크가 포함되어 있습니다. Power BI Pro 라이선스가 있거나 콘텐츠가 [프리미엄 용량](service-premium-what-is.md)에 있고 이미 다른 사람과 공유했다면 다른 사람이 열 수 있습니다. 타일의 스냅샷은 동일한 메일 도메인의 동료뿐만 아니라 누구에게든 보낼 수 있습니다.
 
 iOS 및 Android 모바일 앱에서 [타일, 보고서 및 시각적 개체 주석 달기 및 공유](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)에 대해 자세히 알아보세요.
 
-또한 Windows 10 디바이스용 Power BI 앱에서 [타일의 스냅숏을 공유](consumer/mobile/mobile-windows-10-phone-app-get-started.md)할 수 있습니다.
+또한 Windows 10 디바이스용 Power BI 앱에서 [타일의 스냅샷을 공유](consumer/mobile/mobile-windows-10-phone-app-get-started.md)할 수 있습니다.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>PDF 또는 기타 정적 파일로 저장 또는 인쇄
 

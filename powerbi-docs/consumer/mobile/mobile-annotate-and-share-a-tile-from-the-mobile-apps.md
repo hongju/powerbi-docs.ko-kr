@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1f7911007d9629c8990fc15ddf7453bafe0e78f5
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61342994"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841466"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일, 보고서 또는 시각적 개체에 주석 달기 및 공유
 적용 대상:

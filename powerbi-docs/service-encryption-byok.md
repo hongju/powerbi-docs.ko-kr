@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1e836dd9fe4be1c0267a0ba4008c2455cf59e2e2
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 39c6dc8a60be67f8f9e99e01ae1c7249166c5ddb
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665393"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877735"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 보기)
 
@@ -123,11 +123,31 @@ cmdlet은 현재 및 미래 용량에 대한 암호화에 영향을 미치는 �
 > [!IMPORTANT]
 > `-Default`를 지정하면 이 지점부터 테넌트에 생성된 모든 용량이 지정한 키(또는 업데이트된 기본 키)를 사용하여 암호화됩니다. 기본 작업의 실행을 취소할 수 없기 때문에 BYOK를 사용하지 않는 테넌트에 프리미엄 용량을 생성할 수 없게 됩니다.
 
-테넌트에서 BYOK를 사용하도록 설정한 후 [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey)를 사용하여 하나 이상의 Power BI 용량에 대한 암호화 키를 설정합니다.
+테넌트에서 BYOK를 사용하도록 설정한 후 하나 이상의 Power BI 용량에 대한 암호화 키를 설정합니다.
 
-```powershell
-Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
-```
+1. [`Get-PowerBICapacity`](/powershell/module/microsoftpowerbimgmt.capacities/get-powerbicapacity)를 사용하여 다음 단계에 필요한 용량 ID를 가져옵니다.
+
+    ```powershell
+    Get-PowerBICapacity -Scope Individual
+    ```
+
+    이 cmdlet은 다음 출력과 유사한 출력을 반환합니다.
+
+    ```
+    Id              : xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    DisplayName     : Test Capacity
+    Admins          : adam@sometestdomain.com
+    Sku             : P1
+    State           : Active
+    UserAccessRight : Admin
+    Region          : North Central US
+    ```
+
+1. [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey)를 사용하여 암호화 키를 설정합니다.
+
+    ```powershell
+    Set-PowerBICapacityEncryptionKey-CapacityId xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -KeyName 'Contoso Sales'
+    ```
 
 테넌트 전체에서 BYOK를 사용하는 방법을 제어할 수 있습니다. 예를 들어, 단일 용량을 암호화하려면 `-Activate` 또는 `-Default` 없이 `Add-PowerBIEncryptionKey`를 호출합니다. 그런 다음, BYOK를 사용하도록 설정하려는 용량에 대해 `Set-PowerBICapacityEncryptionKey`를 호출합니다.
 

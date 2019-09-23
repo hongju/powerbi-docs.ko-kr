@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514620"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142193"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop의 보고서 보기
 Power BI로 작업한 적이 있다면 데이터에 동적 관점과 통찰력을 제공하는 보고서를 얼마나 쉽게 만들 수 있는지 알고 있을 것입니다. Power BI Desktop에는 Power BI의 고급 기능도 있습니다. Power BI Desktop을 사용하여 고급 쿼리를 만들고, 여러 소스의 데이터를 매시업하고, 테이블 간에 관계를 만드는 등 많은 작업을 할 수 있습니다.
@@ -61,9 +61,11 @@ Power BI Desktop 보고서에서 시각적 개체를 가져와서 손쉽게 다�
 
 시각적 개체 복사 및 붙여넣기 기능은 여러 보고서를 자주 빌드하고 업데이트하는 경우에 유용합니다. 파일 간 복사할 때 서식 창에 명시적으로 설정된 설정 및 서식 적용이 수행되며, 테마에 사용되는 시각적 요소 또는 기본 설정이 대상 보고서의 테마와 일치하도록 자동으로 업데이트됩니다. 따라서 시각적 개체를 원하는 대로 서식을 지정하고 표시하려면 해당 시각적 개체를 복사하고 새 보고서에 붙여넣어 모든 서식 작업을 유지할 수 있습니다.
 
-![시각적 개체 복사/붙여넣기 오류 - 데이터 필드 없음](media/desktop-report-view/report-view_05.png)
+모델의 필드가 다르면 시각적 개체 오류 및 필드 없음에 대한 경고가 표시됩니다. 이 오류는 시각적 개체에서 사용 중인 모델에서 필드를 삭제할 때 표시되는 오류와 비슷합니다. 
 
-모델의 필드가 다르면 시각적 개체 오류 및 필드 없음에 대한 경고가 표시됩니다. 이 오류는 시각적 개체에서 사용 중인 모델에서 필드를 삭제할 때 표시되는 오류와 비슷합니다. 오류를 수정하려면 손상된 필드를 시각적 개체를 붙여넣은 보고서의 모델에서 사용하려는 필드로 바꿉니다. 사용자 지정 시각적 개체를 사용하는 경우 해당 사용자 지정 시각적 개체를 대상 보고서로 가져와야 합니다.
+![시각적 개체 복사/붙여넣기 오류 - 데이터 필드 없음](media/desktop-report-view/report-view_07.png)
+
+오류를 수정하려면 손상된 필드를 시각적 개체를 붙여넣은 보고서의 모델에서 사용하려는 필드로 바꿉니다. 사용자 지정 시각적 개체를 사용하는 경우 해당 사용자 지정 시각적 개체를 대상 보고서로 가져와야 합니다.
 
 
 

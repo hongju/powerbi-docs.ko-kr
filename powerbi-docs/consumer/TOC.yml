@@ -8,6 +8,8 @@
           href: end-user-consumer.md
         - name: Power BI 소비자에 대한 기본 개념 및 용어
           href: end-user-basic-concepts.md
+        - name: 홈 방문 페이지를 사용하여 콘텐츠 찾기
+          href: end-user-home.md
         - name: ‘새 디자인’ 탐색
           href: ../service-new-look.md
     - name: 빠른 시작

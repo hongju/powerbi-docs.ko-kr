@@ -5,19 +5,19 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 04/04/2019
+ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67534698"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903916"
 ---
-1. 먼저 작업 영역을 만듭니다. **작업 영역** > **앱 작업 영역 만들기**를 선택합니다. 
+1. 먼저 작업 영역을 만듭니다. **작업 영역** > **작업 영역 만들기**를 선택합니다. 
    
-     ![앱 작업 영역 만들기](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![작업 영역 만들기](media/powerbi-service-create-app-workspace/power-bi-workspace-create.png)
    
     여기에 사용자와 동료가 협업하는 콘텐츠를 넣습니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "67534698"
    
      ![편집 또는 보기 전용 설정](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
-     콘텐츠를 편집할 수 있도록 앱 작업 영역에 사용자를 추가합니다. 콘텐츠를 보기만 하려면 작업 영역에 추가하지 마십시오. 앱을 게시할 때 해당 사용자를 포함할 수 있습니다.
+     콘텐츠를 편집할 수 있도록 작업 영역에 사용자를 추가합니다. 콘텐츠를 보기만 하려면 작업 영역에 추가하지 마십시오. 앱을 게시할 때 해당 사용자를 포함할 수 있습니다.
 
 5. 작업 영역에 대한 액세스 권한을 원하는 사람의 메일 주소를 추가하고 **추가**를 선택합니다. 개인이 아닌 그룹 별칭은 추가할 수 없습니다.
 
@@ -55,5 +55,5 @@ ms.locfileid: "67534698"
 
 Power BI는 작업 영역을 만들고 엽니다. 구성원으로 속해 있는 작업 영역 목록에 나타납니다. 사용자가 관리자이므로, 줄임표(…)를 선택하여 뒤로 이동한 후 새 구성원을 추가하거나 권한을 변경하여 변경 사항을 적용할 수 있습니다.
 
-![작업 영역 편집](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![작업 영역 편집](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

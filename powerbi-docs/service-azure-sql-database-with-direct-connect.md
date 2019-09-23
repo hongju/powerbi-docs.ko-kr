@@ -9,14 +9,14 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/13/2019
+ms.date: 09/16/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: a80c549ab3aa61e377b657ad426d240a6a485fdd
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468137"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074242"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery를 사용한 Azure SQL Database
 
@@ -27,7 +27,7 @@ DirectQuery를 사용할 경우 보고서 뷰에서 데이터를 탐색할 때 �
 **참고:**
 
 * 연결 시 정규화된 서버 이름을 지정합니다(자세한 내용은 아래 참조).
-* 데이터베이스에 대한 방화벽 규칙이 "[Azure 서비스에 대한 액세스 허용](https://msdn.microsoft.com/library/azure/ee621782.aspx)"으로 구성되었는지 확인합니다.
+* 데이터베이스에 대한 방화벽 규칙이 "[Azure 서비스에 대한 액세스 허용](https://docs.microsoft.com/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)"으로 구성되었는지 확인합니다.
 * 열 선택 또는 필터 추가와 같은 모든 작업은 쿼리를 다시 데이터베이스로 보냅니다.
 * 1시간마다 타일이 새로 고쳐집니다(새로 고침을 예약할 필요가 없음). 연결할 때 고급 설정에서 새로 고침 빈도를 조정할 수 있습니다.
 * DirectQuery 데이터 세트에 질문 및 답변을 사용할 수 없습니다.

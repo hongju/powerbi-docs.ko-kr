@@ -1,30 +1,33 @@
 ---
-title: Power BI에서 보고서 보기
-description: Power BI의 보고서
+title: Power BI 서비스의 보고서
+description: 소비자를 위한 Power BI 서비스의 보고서
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a844ff813435328df63240aa46aff3430117f6e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532153"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903719"
 ---
 # <a name="reports-in-power-bi"></a>Power BI의 보고서
 
-Power BI 보고서는 해당 데이터 세트에서 얻은 다양한 결과 및 인사이트를 나타내는 시각적 개체가 포함된 데이터 세트에 대한 다각적인 데이터 뷰입니다.  보고서에는 단일 시각적 개체 또는 여러 페이지의 시각적 개체가 있을 수 있습니다. 작업 역할에 따라 보고서를 *디자인*하는 사람이 될 수 있습니다. 보고서를 *소비* 또는 사용하는 사람이 될 수도 있습니다.
+Power BI 보고서는 해당 데이터 세트에서 얻은 다양한 결과 및 인사이트를 나타내는 시각적 개체가 포함된 데이터 세트에 대한 다각적인 데이터 뷰입니다.  보고서에는 단일 시각적 개체 또는 여러 페이지의 시각적 개체가 있을 수 있습니다. 작업 역할에 따라 보고서를 *디자인*하는 사람이 될 수 있습니다. 보고서를 *소비* 또는 사용하는 사람이 될 수도 있습니다. 이 문서는 *소비자*를 위한 것입니다.
 
 ![보고서 페이지의 스크린샷.](./media/end-user-reports/power-bi-report.png)
 
-이 보고서에는 4개의 페이지(또는 탭)가 있으며 현재 **감정** 페이지를 보고 있습니다. 이 페이지에는 5가지 시각화 개체와 페이지 제목이 있습니다.
+A. 이 보고서에는 6개의 페이지(또는 탭)가 있으며, 현재 **감정** 페이지를 보고 있습니다.    
+B. 이 페이지에는 5가지 시각화 개체와 페이지 제목이 있습니다.    
+C. ‘필터’ 창에는 모든 보고서 페이지에 적용되는 하나의 필터가 표시됩니다.  필터 창을 축소하려면 화살표( **>** )를 선택합니다.    
+D. Power BI 배너에는 보고서 이름과 마지막 업데이트 날짜가 표시됩니다. 화살표를 선택하여 보고서 소유자의 이름도 표시하는 메뉴를 엽니다.    
+E. 작업 모음에는 이 보고서에서 수행할 수 있는 작업이 포함되어 있습니다.  예를 들어, 주석을 추가하거나, 책갈피를 보거나, 보고서에서 데이터를 내보낼 수 있습니다.  줄임표(...)를 선택하여 추가 보고서 기능 목록을 표시합니다.    
 
 Power BI를 처음 접하는 경우 [Power BI 서비스 소비자를 위한 기본 개념](end-user-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다. 모바일 디바이스에서 보고서를 보고 공유하고 주석을 달 수 있습니다. 자세한 내용은 [Power BI 모바일 앱에서 보고서 탐색](mobile/mobile-reports-in-the-mobile-apps.md)을 참조하세요.
 
@@ -42,6 +45,8 @@ Power BI는 단일 데이터 세트를 기반으로 보고서를 만듭니다. �
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>변경 내용을 저장하거나 기본 설정으로 되돌리기
 
 그렇다고 해서 변경 내용을 저장할 수 없다는 의미는 아닙니다. 변경할 수 있지만 이러한 변경 내용은 콘텐츠의 보기에만 영향을 줍니다. 보고서의 원래 기본 보기로 되돌리려면 **기본값으로 다시 설정**을 선택합니다.
+
+![기본값으로 되돌리기 아이콘 스크린샷](./media/end-user-reports/power-bi-reset.png)
 
 ## <a name="dashboards-versus-reports"></a>대시보드 및 보고서
 
@@ -67,15 +72,14 @@ Power BI는 단일 데이터 세트를 기반으로 보고서를 만듭니다. �
 또는 다른 사람에게서 보고서를 받는 *소비자*일 수 있습니다. 보고서를 이해하고 상호 작용하는 방법에 대해 알아보고자 합니다. 보고서 *소비자*인 경우 다음 링크를 사용할 수 있습니다.
 
 * [Power BI 서비스 둘러보기](end-user-basic-concepts.md)에서 시작하면 보고서와 보고서 도구 위치를 파악할 수 있습니다.
-* [읽기용 보기](end-user-reading-view.md)에서 [보고서를 여는 방법](end-user-report-open.md)과 모든 사용 가능한 상호 작용에 대해 살펴봅니다.
+* [보고서를 여는 방법](end-user-report-open.md)과 [소비자가 사용할 수 있는 모든 상호 작용](end-user-reading-view.md)에 대해 살펴봅니다.
 * [샘플](../sample-tutorial-connect-to-the-samples.md) 중 하나를 둘러보면 보고서에 금방 익숙해 집니다.  
-* 보고서가 사용 중인 데이터 세트와 보고서에서 고정된 타일을 가진 대시보드를 확인하려면 [Power BI의 관련 콘텐츠 보기](end-user-related.md)를 참조하세요.
+* 보고서가 사용 중인 데이터 세트와 보고서(*고정*)의 시각적 개체를 표시하는 대시보드를 확인하려면 [Power BI의 관련 콘텐츠 보기](end-user-related.md)를 참조하세요.
 
 > [!TIP]
 > 여기서 찾고 있는 항목이 없으면 왼쪽의 목차를 사용하여 모든 *보고서* 문서를 탐색합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI란?](../power-bi-overview.md)
-
-[Power BI 서비스 소비자를 위한 기본 개념](end-user-basic-concepts.md)
+[보고서 열기 및 보기](end-user-report-open.md)    
+[Power BI 서비스의 대시보드](end-user-dashboards.md)

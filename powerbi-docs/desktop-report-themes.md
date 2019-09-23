@@ -7,42 +7,53 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0c098baa42e4fdc45b23519856eed824dbab5cad
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 37304f9d23c514c7223b3eca481bf3b7b2258ac4
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023381"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70904419"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
-**보고서 테마**를 사용하여 회사 색, 계절 색, 아이콘 집합 또는 기타 색 테마와 같은 색 테마를 전체 보고서에 적용할 수 있습니다. **보고서 테마**를 적용할 때 보고서의 모든 시각적 개체는 선택한 테마의 색을 사용합니다. 몇 가지 예외가 적용되며 이 문서의 뒷부분에서 설명합니다.
+**보고서 테마**를 사용하여 전체 보고서에 디자인 변경 내용을 적용할 수 있습니다. 예를 들어, 회사 색을 사용하거나 아이콘 세트를 변경하거나 새로운 기본 시각적 서식을 적용할 수 있습니다. **보고서 테마**를 적용하면 보고서의 모든 시각적 개체는 선택한 테마의 색과 서식을 사용합니다. 몇 가지 예외가 적용되며 이 문서의 뒷부분에서 설명합니다.
 
-![보고서 테마](media/desktop-report-themes/report-themes_1.png)
+![보고서 테마](media/desktop-report-themes/report-themes-1a.png)
 
-**보고서 테마**를 적용할 경우 기본 구조를 사용하는 JSON 파일이 필요합니다. 그런 다음, 이 JSON 파일을 Power BI Desktop으로 가져와서 보고서에 적용할 수 있습니다. JSON 파일 구조 및 가져오는 프로세스는 빠르고 간편합니다(단추 몇 번 클릭이면 됨).
+사용자 지정 **보고서 테마**를 적용할 경우 기본 구조를 사용하는 JSON 파일이 필요합니다. 그런 다음, 이 JSON 파일을 Power BI Desktop으로 가져와서 보고서에 적용할 수 있습니다.
 
-거의 모든 요소를 사용자 지정 및 표준화할 수도 있습니다. 사용자 지정하려면 **서식** 창에서 수동으로 조정하는 JSON 파일을 사용합니다. 목표는 보고서 모양과 느낌을 세분화된 수준까지 완전히 제어하는 것입니다.
+**서식** 창에 표시되는 거의 모든 요소를 테마 JSON 파일을 통해 사용자 지정하고 표준화할 수도 있습니다. 목표는 보고서 모양과 느낌을 세분화된 수준까지 완전히 제어하는 것입니다.
 
 ## <a name="how-report-themes-work"></a>보고서 테마 작동 방법
 보고서 테마를 Power BI Desktop 보고서에 적용하려면 사용 가능한 기본 제공 보고서 테마 중에서 선택하거나 사용자 지정 테마를 가져옵니다.
 
 | 기본 제공 보고서 테마 | 기본 색 시퀀스    |
 |------ |---------- |
-| 기본값   | ![#01B8AA](https://placehold.it/20/01B8AA/000000?text=+) ![#374649](https://placehold.it/20/374649/000000?text=+) ![#FD625E](https://placehold.it/20/FD625E/000000?text=+) ![#F2C80F](https://placehold.it/20/F2C80F/000000?text=+) ![#5F6B6D](https://placehold.it/20/5F6B6D/000000?text=+) ![#8AD4EB](https://placehold.it/20/8AD4EB/000000?text=+) ![#FE9666](https://placehold.it/20/FE9666/000000?text=+) ![#A66999](https://placehold.it/20/A66999/000000?text=+)|
-| 도시공원     | ![#73B761](https://placehold.it/20/73B761/000000?text=+) ![#4A588A](https://placehold.it/20/4A588A/000000?text=+) ![#ECC846](https://placehold.it/20/ECC846/000000?text=+) ![#CD4C46](https://placehold.it/20/CD4C46/000000?text=+) ![#71AFE2](https://placehold.it/20/71AFE2/000000?text=+) ![#8D6FD1](https://placehold.it/20/8D6FD1/000000?text=+) ![#EE9E64](https://placehold.it/20/EE9E64/000000?text=+) ![#95DABB](https://placehold.it/20/95DABB/000000?text=+)|
-| 교실     | ![#4A8DDC](https://placehold.it/20/4A8DDC/000000?text=+) ![#4C5D8A](https://placehold.it/20/4C5D8A/000000?text=+) ![#F3C911](https://placehold.it/20/F3C911/000000?text=+) ![#DC5B57](https://placehold.it/20/DC5B57/000000?text=+) ![#33AE81](https://placehold.it/20/33AE81/000000?text=+) ![#95C8F0](https://placehold.it/20/95C8F0/000000?text=+) ![#DD915F](https://placehold.it/20/DD915F/000000?text=+) ![#9A64A0](https://placehold.it/20/9A64A0/000000?text=+)|
-| 색맹 지원   | ![#074650](https://placehold.it/20/074650/000000?text=+) ![#009292](https://placehold.it/20/009292/000000?text=+) ![#FE6DB6](https://placehold.it/20/FE6DB6/000000?text=+) ![#FEB5DA](https://placehold.it/20/FEB5DA/000000?text=+) ![#480091](https://placehold.it/20/480091/000000?text=+) ![#B66DFF](https://placehold.it/20/B66DFF/000000?text=+) ![#B5DAFE](https://placehold.it/20/B5DAFE/000000?text=+) ![#6DB6FF](https://placehold.it/20/6DB6FF/000000?text=+)|
-| 전기  | ![#118DFF](https://placehold.it/20/118DFF/000000?text=+) ![#750985](https://placehold.it/20/750985/000000?text=+) ![#C83D95](https://placehold.it/20/C83D95/000000?text=+) ![#FF985E](https://placehold.it/20/FF985E/000000?text=+) ![#1DD5EE](https://placehold.it/20/1DD5EE/000000?text=+) ![#42F7C0](https://placehold.it/20/42F7C0/000000?text=+) ![#3049AD](https://placehold.it/20/3049AD/000000?text=+) ![#F64F5C](https://placehold.it/20/F64F5C/000000?text=+)|
-| 고대비     | ![#107C10](https://placehold.it/20/107C10/000000?text=+) ![#002050](https://placehold.it/20/002050/000000?text=+) ![#A80000](https://placehold.it/20/A80000/000000?text=+) ![#5C2D91](https://placehold.it/20/5C2D91/000000?text=+) ![#004B50](https://placehold.it/20/004B50/000000?text=+) ![#0078D7](https://placehold.it/20/0078D7/000000?text=+) ![#D83B01](https://placehold.it/20/D83B01/000000?text=+) ![#B4009E](https://placehold.it/20/B4009E/000000?text=+)|
-| 일몰    | ![#B6B0FF](https://placehold.it/20/B6B0FF/000000?text=+) ![#3049AD](https://placehold.it/20/3049AD/000000?text=+) ![#FF994E](https://placehold.it/20/FF994E/000000?text=+) ![#C83D95](https://placehold.it/20/C83D95/000000?text=+) ![#FFBBED](https://placehold.it/20/FFBBED/000000?text=+) ![#42F9F9](https://placehold.it/20/42F9F9/000000?text=+) ![#00B2D9](https://placehold.it/20/00B2D9/000000?text=+) ![#FFD86C](https://placehold.it/20/FFD86C/000000?text=+)|
-| 석양  | ![#F17925](https://placehold.it/20/F17925/000000?text=+) ![#004753](https://placehold.it/20/004753/000000?text=+) ![#CCAA14](https://placehold.it/20/CCAA14/000000?text=+) ![#4B4C4E](https://placehold.it/20/4B4C4E/000000?text=+) ![#D82C20](https://placehold.it/20/D82C20/000000?text=+) ![#A3D0D4](https://placehold.it/20/A3D0D4/000000?text=+) ![#536F18](https://placehold.it/20/536F18/000000?text=+) ![#46ABB0](https://placehold.it/20/46ABB0/000000?text=+)|
+| 기본값   | ![기본값](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+| Highrise  | ![highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+| 경영진     | ![executive](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+| Frontier  | ![frontier](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+| Innovative    | ![innovative](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+| Bloom     | ![bloom](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+| Tidal | ![tidal](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+| Temperature   | ![temperature](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+| Solar | ![solar](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+| Divergent     | ![divergent](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+| Storm     | ![storm](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+| Classic   | ![classic](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+| 도시 공원     | ![도시 공원](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+| 교실     | ![교실](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+| 색맹 지원   | ![색맹 지원](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+| 일렉트로닉  | ![일렉트로닉](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+| 고대비     | ![고대비](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+| 일몰    | ![일몰](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+| 석양  | ![석양](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
 
 사용 가능한 기본 제공 보고서 테마에서 선택하려면 **홈** 리본에서 **테마 전환** 단추를 선택한 다음, 드롭다운 메뉴에서 포함된 테마 중 하나를 선택합니다.
 
-![보고서 테마 선택](media/desktop-report-themes/report-themes_2a.png)
+![보고서 테마 선택](media/desktop-report-themes/report-themes-2a.png)
 
 보고서 테마가 보고서에 적용되고, 진행할 준비가 되었습니다.
 
@@ -50,7 +61,7 @@ ms.locfileid: "69023381"
 
 사용자 지정 보고서 테마를 가져오려면 **홈** 리본에서 **테마 전환** 단추를 선택합니다. 그런 다음, 드롭다운 메뉴에서 **테마 가져오기** 를 선택합니다.
 
-![테마 가져오기](media/desktop-report-themes/report-themes_3.png)
+![테마 가져오기](media/desktop-report-themes/report-themes-3a.png)
 
 사용자를 JSON 테마 파일의 위치로 이동시키는 창이 나타납니다. JSON이 Power BI 보고서 테마 파일 형식이므로 Power BI Desktop은 JSON 파일을 검색합니다. 다음 이미지에서는 몇 개의 휴일 테마 파일이 제공됩니다. 3월의 휴일 테마를 선택하겠습니다.
 
@@ -60,7 +71,7 @@ ms.locfileid: "69023381"
 
 ![테마를 성공적으로 가져옴](media/desktop-report-themes/report-themes_5.png)
 
-이제 테마 파일을 가져왔으므로 단순하고 간단한 JSON 파일 구조를 살펴보겠습니다.
+이제 테마 파일을 가져왔으므로 JSON 파일 구조를 살펴보겠습니다.
 
 ## <a name="structure-of-a-report-theme-json-file"></a>보고서 테마 JSON 파일의 구조
  편집기에서 열린 경우 이전 섹션에서 선택한 기본 JSON 파일(*St Patrick’s Day.json* 파일)이 다음 스크린샷과 같이 표시됩니다.
@@ -73,17 +84,7 @@ JSON 파일에는 다음과 같은 필수 줄이 있습니다.
 
 * **dataColors**: Power BI Desktop 시각적 개체에서 데이터에 사용하는 16진수 색 코드의 목록입니다. 목록에는 색이 원하는 만큼 포함될 수 있습니다.
 
-* **background**, **foreground** 및 **tableAccent**: 다양한 유형의 시각적 개체에 적용되어야 하는 색입니다. 
-  - **foreground**는 텍스트 상자 텍스트, KPI 목표 텍스트, 다중 행 카드 텍스트, 카드 값 텍스트, 계기 설명선 텍스트, 수직 슬라이서 요소 텍스트 및 **테이블** 및 **행렬** 합계 및 값 텍스트에 적용됩니다. 
-  - **background**는 단추 채우기 및 콤보 차트 레이블 배경에 적용됩니다. 적용되는 특정 시각적 개체 스타일에 따라 이러한 색을 사용하는 방법이 달라집니다. 
-  - **테이블** 및 **행렬** 시각적 개체에는 기본적으로 이러한 스타일이 적용됩니다.
-
-**테이블** 또는 **행렬** 시각적 개체에 스타일을 적용하려면 다음 단계를 수행합니다. 
-1. 시각적 개체를 선택합니다. 
-2. 그런 다음, **시각화** 창에서 **서식** 섹션을 선택합니다.
-3. **행렬 스타일**을 확장한 후 **스타일** 드롭다운에서 스타일을 선택합니다.
-
-![스타일 드롭다운](media/desktop-report-themes/report-themes_7.png)
+* **background**, **foreground** 및 **tableAccent**: 여러 색 클래스. 이 문서의 뒷부분에서 색 클래스에 대해 자세히 살펴보겠지만 색 클래스를 사용하면 보고서에서 한 번에 여러 색을 설정할 수 있다는 점을 알아두세요.
 
 다음은 고유한 JSON 파일을 만드는 데 사용할 수 있는 *St Patrick’s Day.json* 파일의 텍스트입니다.
 
@@ -97,9 +98,9 @@ JSON 파일에는 다음과 같은 필수 줄이 있습니다.
     }
 ```
 
-여기에서 선택한 색에 대한 고유한 색 16진수 코드를 입력할 수 있습니다.
+보고서의 기본 색만 조정하려는 경우, 이 파일의 이름 및 16진수 코드만 변경해도 가져올 수 있는 고유한 개인 JSON 파일을 준비할 수 있습니다.
 
-JSON 파일에서 조정하려는 서식만 정의하고 JSON 파일에 ‘지정되지 않은’ 항목은 간단히 Power BI 기본 설정으로 되돌아갑니다.
+JSON 파일에서 조정하려는 서식만 정의하고 JSON 파일에 ‘지정되지 않은’ 항목은 간단히 Power BI 기본 설정으로 되돌아갑니다. 
 
 JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모든 차트가 12라는 글꼴 크기를 사용하거나 특정 시각적 개체가 특정 글꼴 제품군을 사용하도록 지정할 수 있습니다. 또는 특정 차트 종류의 데이터 레이블을 끌 수 있습니다.
 
@@ -116,10 +117,12 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
 
 모두 녹색으로 보이십니까? 해당 색이 가져오고 적용한 **보고서 테마**의 일부이기 때문입니다.
 
-### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>보고서에 보고서 테마 색을 유지하지 않는 경우
-시각적 개체에서 특정 데이터 요소에 사용자 지정 색 집합(또는 개별 색)을 적용한다고 가정합니다. 보고서 테마를 적용하면 이 보고서 테마는 사용자 지정 데이터 요소 색을 ‘재정의하지 않습니다’.
+색상표의 색도 현재 테마를 기준으로 합니다. 예를 들어, 데이터 요소에 대해 맨 위 행의 세 번째 색을 선택했다가 나중에 다른 테마로 변경하는 경우 Microsoft Office에서 테마를 변경할 때와 마찬가지로 해당 데이터 요소의 색이 자동으로 새 테마에 있는 맨 위 행의 세 번째 색으로 업데이트 됩니다.
 
-테마 색 섹션을 사용하여 데이터 요소 색의 색을 수동으로 설정할 수도 있습니다. 새 보고서 테마를 적용할 때 색은 ‘업데이트되지 않습니다’. 새 보고서 테마를 적용할 때 업데이트되도록 기본 색을 다시 가져오려면 **테마 색** 색상표에서 **기본값으로 되돌리기**를 선택합니다.
+### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>보고서에 보고서 테마 색을 유지하지 않는 경우
+색 선택의 사용자 지정 색 옵션을 사용하여 시각적 개체에서 특정 데이터 요소에 사용자 지정 색 집합(또는 개별 색)을 적용해 보겠습니다. 보고서 테마를 적용하면 이 보고서 테마는 사용자 지정 데이터 요소 색을 ‘재정의하지 않습니다’. 
+
+테마 색 섹션을 사용하여 데이터 요소 색의 색을 수동으로 설정할 수도 있습니다. 새 보고서 테마를 적용할 때 색은 ‘업데이트되지 않습니다’.  새 보고서 테마를 적용할 때 업데이트되도록 기본 색을 다시 가져오려면 **기본값으로 되돌리기**를 선택하거나 색 선택의 **테마 색** 색상표에서 색을 선택합니다.
 
 ![기본값으로 되돌리기](media/desktop-report-themes/report-themes_9.png)
 
@@ -140,7 +143,7 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
 
   ![Apothecary.json 테마](media/desktop-report-themes/report-themes_12.png)
 
-* 마지막으로 ‘밸런타인데이’ 테마는 다음과 같습니다.
+* 마지막으로 ‘밸런타인데이’ 테마는 다음과 같습니다. 
 
   ![밸런타인데이 테마](media/desktop-report-themes/report-themes_13.png)
 
@@ -166,13 +169,139 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
 * [High contrast](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)
 
 ## <a name="report-theme-json-file-format"></a>보고서 테마 JSON 파일 서식
-기본 JSON 파일에는 다음과 같은 5줄이 필요합니다.
+가장 기본적인 수준에서 테마 JSON 파일에는 하나의 필수 줄인 **이름**만 있습니다. 
 
-* **name**: 유일한 필수 필드인 테마 이름입니다.
-* **dataColors**: Power BI Desktop 시각적 개체에서 데이터에 사용하는 16진수 색 코드의 목록입니다. 목록에는 색이 원하는 만큼 포함될 수 있습니다.
-* **background**, **foreground** 및 **tableAccent**: 다양한 유형의 시각적 개체에 적용되어야 하는 색입니다. **foreground**은 텍스트 상자 텍스트, KPI 목표 텍스트, 다중 행 카드 텍스트, 카드 값 텍스트, 계기 콜아웃 텍스트, 수직 슬라이서 요소 텍스트 및 **테이블** 및 **행렬** 합계 및 값 텍스트에 적용됩니다. **background**는 단추 채우기 및 콤보 차트 레이블 배경에 적용됩니다. 적용되는 특정 시각적 개체 스타일에 따라 이러한 색을 사용하는 방법이 달라집니다. **테이블** 및 **행렬** 시각적 개체에는 기본적으로 이러한 스타일이 적용됩니다.
+```json
+    {
+        "name": "Custom Theme",
+    }
+```
 
-확장된 JSON 파일 서식을 만들려면 서식을 좀 더 자세하고 세부적으로 제어하여 **visualStyles** 섹션을 JSON 파일에 추가해야 합니다. **visualStyles** 섹션에서 서식 관련 정보를 중첩합니다. **visualStyles** 섹션은 다음 서식과 같이 표시됩니다.
+*이름* 외에 다른 모든 요소는 선택 사항입니다. 즉, 특별히 서식을 지정하려는 속성을 테마 파일에 추가하고 나머지에 대해서는 Power BI의 기본값을 계속 사용할 수 있습니다. 
+
+이름 아래에서 몇 가지 기본 데이터 색 관련 속성을 추가할 수 있습니다. 
+
+
+* **dataColors**: Power BI Desktop 시각적 개체에서 데이터에 사용하는 16진수 색 코드의 목록입니다. 목록에는 색이 원하는 만큼 포함될 수 있습니다. 이 목록의 모든 색을 사용했으나 시각적 개체에 더 많은 색이 필요하면 Power BI의 기본 색상표를 사용하도록 다시 되돌립니다. 
+* **양호, 중립, 나쁨**: 이러한 옵션은 폭포 차트 및 KPI 시각적 개체에서 사용되는 상태 색을 설정합니다.
+* **최대, 중간, 최소, null**: 이러한 색은 조건부 서식 대화 상자에서 다양한 그라데이션 색을 설정합니다.  
+
+이러한 색을 정의하는 기본 테마는 다음과 같습니다.
+
+```json
+    {
+        "name": "Custom Theme",
+          "dataColors": [
+                "#118DFF",
+                "#12239E", 
+                "#E66C37", 
+                "#6B007B", 
+                "#E044A7",
+                "#744EC2", 
+                "#D9B300", 
+                "#D64550",
+                "#197278", 
+                "#1AAB40"
+    ],
+        "good": "#1AAB40",
+        "neutral": "#D9B300",
+        "bad": "#D64554",
+        "maximum": "#118DFF",
+        "center": "#D9B300",
+        "minimum": "#DEEFFF",
+        "null": "#FF7F48"
+    }
+```
+
+다음으로, 다양한 색 클래스를 추가할 수 있습니다. 색 클래스를 사용하면 일반적으로 동일한 색을 사용하는 유사한 시각적 속성을 그룹화하여 보고서 전체의 여러 색을 한 줄로 설정할 수 있습니다. 
+
+다음 표에서는 서식을 지정할 수 있는 6가지 색 클래스를 볼 수 있습니다.
+
+
+|색 클래스  |서식 지정 대상  |
+|---------|---------|
+|전경 | 레이블 배경색(데이터 요소 외부에 있는 경우) <br> 추세선 색 <br>  텍스트 상자 기본 색 <br> 테이블 및 행렬 값 및 합계 글꼴 색 데이터 막대 축 색 <br> 카드 데이터 레이블 <br> 계기 설명선 값 색 <br> KPI 목표 색 <br>  KPI 텍스트 색 <br> 슬라이서 항목 색(포커스 모드인 경우)  <br> 슬라이서 드롭다운 항목 글꼴 색 <br> 슬라이서 숫자 입력 글꼴 색 <br> 슬라이서 머리글 글꼴 색 <br> 분산형 차트 비율 선 색 <br> 꺾은선형 차트 예측 선 색 <br> 지도 지시선 색 <br> 필터 창 및 카드 텍스트 색|
+|foregroundNeutralSecondary |레이블 색  <br> 범례 레이블 색 <br> 축 레이블 색 <br> 테이블 및 행렬 머리글 글꼴 색 <br> 계기 대상 및 대상 지시선 색 <br>  KPI 추세 축 색 <br> 슬라이서 슬라이더 색 <br> 슬라이서 항목 글꼴 색 <br> 슬라이서 윤곽선 색 <br> 꺾은선형 차트 가리킨 색 <br> 여러 행 카드 제목 색 <br> 리본 차트 스트로크 색 <br> 도형 맵 테두리 색 <br> 단추 텍스트 글꼴 색 <br> 단추 아이콘 선 색 <br> 단추 윤곽선 색 |
+| foregroundNeutralTertiary | 범례 흐리게 색 <br> 카드 범주 레이블 색 <br> 여러 행 카드 범주 레이블 색 <br> 여러 행 카드 막대 색 <br> 깔때기형 차트 변환율 스트로크 색 
+| backgroundLight | 축 눈금선 색 <br> 테이블 및 행렬 눈금 색 <br> 슬라이서 머리글 배경색(포커스 모드인 경우)  <br> 여러 행 카드 윤곽선 색  <br> 도형 채우기 색 <br> 계기 원호 배경색 <br> 적용된 필터 카드 배경색 <br> |
+backgroundNeutral | 테이블 및 행렬 눈금 윤곽선 색 <br> 도형 맵 기본 색 <br> 리본 차트 리본 채우기 색(일치하는 계열 옵션이 해제된 경우) |
+배경 | 레이블 배경색(데이터 요소 내에 있는 경우) <br> 슬라이서 드롭다운 항목 배경색  <br> 도넛형 차트 스트로크 색 <br> 트리맵 스트로크 색 <br> 콤보 차트 배경색 <br> 단추 채우기 색 <br> 필터 창 및 사용 가능한 필터 카드 배경색 |
+tableAccent | 있는 경우 테이블 및 행렬 눈금 윤곽선 색을 재정의합니다. |
+
+
+색 클래스를 설정하는 샘플 테마는 다음과 같습니다.
+
+```json
+    {
+        "name": "Custom Theme",
+        "foreground": "#252423",
+          "foregroundNeutralSecondary": "#605E5C",
+          "foregroundNeutralTertiary": "#B3B0AD",
+        "background": "#FFFFFF",
+          "backgroundLight": "#F3F2F1",
+          "backgroundNeutral": "#C8C6C4",
+        "tableAccent": "#118DFF"
+    }
+```
+
+다음으로, JSON 파일에 텍스트 클래스를 추가할 수 있습니다. 텍스트 클래스는 색 클래스와 유사하지만 보고서에서 텍스트 그룹의 글꼴 크기, 색 및 패밀리를 업데이트할 수 있도록 고안되었습니다. 12개의 텍스트 클래스가 있지만 실제로는 보고서의 모든 텍스트 서식을 변경하기 위해 *주 클래스*라는 네 개의 클래스만 설정하면 됩니다. *보조 클래스*로 간주되는 다른 텍스트 클래스는 연결된 기본 클래스에서 해당 속성을 자동으로 상속하거나 파생시킵니다. 주로 보조 클래스는 주 클래스와 비교할 때 텍스트 색의 더 밝은 음영을 파생하거나 비율이 좀 더 크거나 작은 텍스트 크기를 파생시킵니다. 
+
+*레이블* 클래스를 예로 들어 보겠습니다. 레이블 클래스의 기본 서식 지정은 Segoe UI, #252423(진한 회색), 12포인트이며 이 클래스는 테이블 및 행렬의 값에 서식을 지정하는 데 사용됩니다. 일반적으로 테이블 또는 행렬의 합계에는 비슷한 서식이 지정되지만 좀 더 두드러지게 보이도록 굵게 표시되므로 굵게 레이블 클래스를 사용합니다. 그러나 테마 JSON에서 직접 지정할 필요는 없습니다. Power BI에서 이러한 작업을 자동으로 처리합니다. 나중에 레이블을 14포인트 글꼴로 지정하기로 결정하여 테마에서 이와 같이 지정할 경우 레이블 클래스에서 모든 텍스트 서식을 상속하고 그 위에 글꼴 패밀리를 굵게 처리하므로 굵게 레이블 클래스를 업데이트할 필요도 없습니다. 
+
+표 목록에는 다음이 표시됩니다.
+* 네 가지 기본 텍스트 클래스, 서식 지정 대상 및 기본 설정
+* 기본 클래스와 고유하게 비교되는 각 보조 클래스, 서식 지정 대상 및 해당 기본 설정
+
+
+|기본 클래스  |보조 클래스  |JSON의 클래스 이름  |설정  |연결된 시각적 개체  |
+|---------|---------|---------|---------|---------|
+| 설명선   | 해당 없음   | 설명선 | DIN <br> #252423 <br> 45pt |카드 데이터 레이블 <br> KPI 지표|
+|머리글|해당 없음|머리글|Segoe UI Semibold <br> #252423 <br> 12pt |주요 영향 요인 머리글 |
+| 제목 || 제목    |DIN <br> #252423 <br> 12pt |범주 축 제목 <br> 값 축 제목 <br> 여러 행 카드 제목* <br> 슬라이서 머리글|
+|-| 큰 제목 | largeTitle    |14pt   |시각적 개체 제목 |
+|레이블 ||레이블 |맑은 고딕<br>#252423<br>10pt |테이블 및 행렬 열 머리글 <br> 행렬 행 머리글<br>테이블 및 행렬 눈금<br>테이블 및 행렬 값 |
+|-|약간 굵게 |semiboldLabel| Segoe UI Semibold   | 주요 영향 요인 프로필 텍스트
+|-|대형    |largeLabel |12pt   | 여러 행 카드 데이터 레이블 |
+|-|소형    |smallLabel |9pt    |참조선 레이블 * <br>슬라이서 날짜 범위 레이블<br> 슬라이서 숫자 입력 텍스트 스타일<br>슬라이서 검색 상자<br>주요 영향 요인 텍스트|
+|-|밝게    |lightLabel |#605E5C    |범례 텍스트<br>단추 텍스트<br>범주 축 레이블<br>깔때기형 차트 데이터 레이블<br>깔때기형 차트 변환율 레이블<br>계기 대상<br>분산형 차트 범주 레이블<br>슬라이서 항목|
+|-|굵게 |boldLabel  |Segoe UI 굵게  |행렬 부분합<br>행렬 총합계<br>테이블 합계 |
+|-|크게 및 밝게  |largeLightLabel    |#605E5C<br>12pt    |카드 범주 레이블<br>계기 레이블<br>여러 행 카드 범주 레이블 |
+|-|작게 및 밝게  |smallLightLabel    |#605E5C<br>9pt |데이터 레이블<br>값 축 레이블|
+
+
+주 클래스에서 상속하므로 테마 파일의 보조 클래스를 설정할 필요는 없지만 상속 규칙을 원하지 않는 경우(예: 테이블에서 합계를 굵게 표시하지 않으려는 경우) 기본 클래스의 서식을 지정하는 것처럼 테마 파일에서 보조 클래스의 서식을 명시적으로 지정할 수 있습니다.
+
+다음은 기본 텍스트 클래스만 설정하는 예제 테마입니다. 
+
+```json
+    {
+            "name": "Custom Theme",
+          "textClasses": {
+                "callout": {
+                    "fontSize": 45,
+                    "fontFace": "wf_standard-font",
+                    "color": "#252423"
+                },
+                "title": {
+                    "fontSize": 12,
+                    "fontFace": "wf_standard-font",
+                    "color": "#252423"
+                },
+                "header": {
+                    "fontSize": 12,
+                    "fontFace": "Segoe UI Semibold",
+                    "color": "#252423"
+                },
+                "label": {
+                    "fontSize": 10,
+                    "fontFace": "Segoe UI",
+                    "color": "#252423"
+                }
+        }    
+    }
+```
+
+마지막으로, 확장된 JSON 파일 서식을 만들려면 모든 시각적 개체 서식을 좀 더 자세하고 세부적으로 제어하여 **visualStyles** 섹션을 JSON 파일에 추가할 수 있습니다. **visualStyles** 섹션에서 서식 관련 정보를 중첩합니다. **visualStyles** 섹션은 다음 서식과 같이 표시됩니다.
 
     visualStyles: {
         visualName: {
@@ -184,7 +313,52 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
         }
     }
 
-**visualName** 및 **cardName** 섹션의 경우 특정 시각적 개체 및 cardName을 사용합니다. 특정 시각적 개체의 속성이 있는 모든 시각적 개체 또는 카드에 해당 설정을 적용하려면 별표(“\*”)를 사용합니다. 보고서에서 글꼴 크기 또는 특정 글꼴 패밀리와 같은 설정을 전체적으로 적용하려는 경우에도 별표(“\*”)를 사용할 수 있습니다.
+**visualName** 및 **cardName** 섹션의 경우 특정 시각적 개체 및 cardName을 사용합니다. 현재 **styleName**은 항상 별표("*")지만 이후 릴리스에서는 시각적 개체에 대해 다른 스타일을 만들고 이름을 지정할 수 있습니다(테이블 및 행렬 스타일 기능과 유사). **propertyName**은 특정 서식 옵션의 이름이고, **propertyValue**는 해당 서식 지정 옵션을 지정할 위치입니다.  
+
+**visualName** 및 **cardName**의 경우 속성이 있는 모든 시각적 개체 또는 카드에 해당 설정을 적용하려면 특정 시각적 개체 또는 카드 이름 대신, 별표("\*")를 사용할 수 있습니다. 시각적 개체와 카드 이름에 모두에 별표(“\*”)를 사용하는 경우 결과적으로는 모든 시각적 개체의 모든 텍스트에 대해 글꼴 크기 또는 특정 글꼴 패밀리와 같은 설정을 보고서에 전역적으로 적용하게 됩니다.
+
+다음은 시각적 스타일을 통해 몇 가지 속성을 설정하는 예제입니다. 
+
+```json
+{  
+   "name":"Custom Theme",
+   "visualStyles":{  
+      "*":{  
+         "*":{  
+            "*":[{  
+                  "wordWrap":true
+            }],
+            "categoryAxis":[{
+                  "gridlineStyle":"dotted"
+            }],
+            "filterCard":[{  
+                  "$id":"Applied",
+                  "foregroundColor":{"solid":{"color":"#252423"}}
+               },
+               {  
+                  "$id":"Available",
+                  "border":true
+            }]
+         }
+      },
+      "scatterChart":{  
+         "*":{  
+            "bubbles":[{  
+                  "bubbleSize":-10
+            }]
+         }
+      }
+   }
+}
+```
+
+이 예제에서는 다음을 보여 줍니다.
+
+* 모든 위치에서 자동 줄 바꿈 켜기
+* 범주 축이 있는 모든 시각적 개체에 대해 눈금선 스타일을 점선으로 설정
+* 사용 가능한 필터 카드 및 적용된 필터 카드에 일부 서식 설정("$id"을 사용하여 다른 버전의 필터 카드를 설정하는 서식)
+* 분산형 차트의 거품 크기를 -10으로 설정
+
 
 > [!NOTE]
 > 영향을 주려는 서식 요소만 지정해야 합니다. JSON 파일에 포함되지 않은 모든 서식 요소는 기본값 및 설정으로 되돌아갑니다.
@@ -193,12 +367,6 @@ JSON 파일을 만들게 되면 많은 장점이 있습니다. 예를 들어 모
 
 ### <a name="json-file-element-definitions"></a>JSON 파일 요소 정의
 이 섹션의 표에서는 시각적 개체 이름(*visualName*), 카드 이름(*cardName*) 및 JSON 파일을 만드는 데 필요한 열거형을 정의합니다.
-
-*dateTime*을 사용하는 경우 날짜는 시작 시 날짜/시간을 사용하여 작은따옴표로 묶인 ISO 날짜여야 합니다. 예를 들면 다음과 같습니다.
-
-    “datetime’2011-10-05T14:48:00.000Z’”
-
-Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니다."와 같이 큰따옴표로 묶여야 합니다.
 
 | **visualName** |
 | --- |
@@ -216,7 +384,7 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 | gauge |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
-| 이미지 |
+| image |
 | KPI |
 | lineChart |
 | lineClusteredColumnComboChart |
@@ -291,7 +459,20 @@ Booleans은 *true* 또는 *false*여야 합니다. 문자열은 "문자열입니
 | zoom: 확대/축소 |
 
 ### <a name="properties-within-each-card"></a>각 카드 내의 속성
-다음 섹션에서는 각 카드 내에 속성을 정의합니다.
+다음 섹션에서는 각 카드 내의 속성을 정의합니다. 카드 이름 뒤에는 각 속성 이름이 차례로 나옵니다. 각 속성에 대해 서식 지정 창이 표시되는 경우 표시되는 이름, 형식 지정의 수행 작업에 대한 설명 및 형식 지정 옵션 유형. 이 방법을 사용하면 테마 파일에서 사용할 수 있는 값의 종류를 알 수 있습니다. 
+
+**dateTime**을 사용하는 경우 날짜는 시작 시 날짜/시간을 사용하여 작은따옴표로 묶인 ISO 날짜여야 합니다. 예를 들면 다음과 같습니다.
+
+    “datetime’2011-10-05T14:48:00.000Z’”
+
+Booleans은 true 또는 false입니다. 문자열은 "문자열입니다."와 같이 큰따옴표로 묶여야 합니다. 숫자는 따옴표로 묶지 않으며 값 자체입니다.
+
+색은 다음 형식을 사용해야 합니다. 다음 예제에서 "FFFFFF"가 있는 위치에 여기서 사용자 지정 16진수 코드가 표시됩니다.  
+
+    { "solid": { "color": "#FFFFFF" } }
+
+드롭다운 서식 옵션에 가장 일반적으로 사용되는 열거형은 창에 표시되는 옵션(예: 범례 위치의 경우 "RightCenter" 또는 원형 데이터 레이블의 경우 "데이터 값, 총 퍼센트")으로 설정될 수 있습니다. 열거 옵션은 속성 목록 아래에 표시됩니다.
+
 
 ```json
       "general":

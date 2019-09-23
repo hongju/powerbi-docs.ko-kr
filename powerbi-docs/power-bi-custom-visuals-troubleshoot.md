@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.openlocfilehash: cbda8cca80c32056f06788e53540d7f2d6ed972d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61421802"
@@ -22,7 +22,7 @@ ms.locfileid: "61421802"
 
 **Pbiviz 명령어가 없습니다(또는 유사한 오류)**
 
-`pbiviz`를 터미널/명령줄에서 실행하는 경우 도움말 화면이 표시됩니다. 그렇지 않은 경우 개발자 도구가 올바르게 설치되지 않았습니다. 4.0 버전 이상의 NodeJS를 설치했는지 확인합니다.
+`pbiviz`를 터미널/명령줄에서 실행하는 경우 도움말 화면이 표시됩니다. 그렇지 않은 경우 개발자 도구가 올바르게 설치되지 않았습니다. 4\.0 버전 이상의 NodeJS를 설치했는지 확인합니다.
 
 **시각화 탭에 디버그 시각적 개체가 없습니다**
 

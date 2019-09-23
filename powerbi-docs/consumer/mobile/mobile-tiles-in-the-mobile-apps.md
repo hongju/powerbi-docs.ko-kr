@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "60978247"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
@@ -88,7 +88,7 @@ ms.locfileid: "60978247"
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
-    [타일의 스냅숏을 공유](mobile-windows-10-phone-app-get-started.md)합니다.
+    [타일의 스냅샷을 공유](mobile-windows-10-phone-app-get-started.md)합니다.
    
     **보고서 열기** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)를 탭하여 [기본 보고서 봅니다](mobile-reports-in-the-mobile-apps.md).
    

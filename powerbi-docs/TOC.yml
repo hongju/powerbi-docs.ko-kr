@@ -113,7 +113,7 @@
           href: desktop-show-items-no-data.md
         - name: 데이터에 연결
           items:
-            - name: Power BI Desktop의 데이터 소스
+            - name: Power BI Desktop의 데이터 원본
               href: desktop-data-sources.md
             - name: 예를 통해 웹 페이지에 연결(미리 보기)
               href: desktop-connect-to-web-by-example.md
@@ -269,6 +269,8 @@
               href: desktop-inline-hierarchy-labels.md
             - name: 숫자 범위 슬라이서 사용
               href: desktop-slicer-numeric-range.md
+            - name: 상대 날짜 슬라이서 사용
+              href: desktop-slicer-filter-date-range.md
             - name: 크기를 조정할 수 있는 슬라이서 만들기
               href: power-bi-slicer-filter-responsive.md
             - name: Cortana에 대한 사용자 지정 답변 카드 만들기
@@ -283,6 +285,10 @@
               href: service-add-hyperlink-to-text-box.md
             - name: 테이블에서 하이퍼링크
               href: power-bi-hyperlinks-in-tables.md
+            - name: 테이블에 이미지 표시
+              href: power-bi-images-tables.md
+            - name: 사용자 지정 형식 문자열
+              href: desktop-custom-format-strings.md
             - name: 조건부 테이블 서식 지정
               href: desktop-conditional-table-formatting.md
             - name: 조건부 식 기반 제목 서식 지정
@@ -403,6 +409,8 @@
       items:
         - name: Power BI란?
           href: power-bi-overview.md
+        - name: Power BI 서비스란?
+          href: power-bi-service-overview.md
         - name: Power BI Desktop 및 서비스 비교
           href: service-service-vs-desktop.md
     - name: 자습서
@@ -565,8 +573,6 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: 타일에 대한 QR 코드 만들기
               href: service-create-qr-code-for-tile.md
-            - name: 대시보드에 이미지 추가
-              href: service-dashboard-add-image.md
             - name: 대시보드 데이터 분류
               href: service-data-classification.md
             - name: 대시보드 테마
@@ -713,6 +719,8 @@
               href: service-template-apps-install-distribute.md
             - name: 'Power BI 템플릿 앱을 업데이트, 삭제 및 추출'
               href: service-template-update-delete-extract.md
+            - name: 템플릿 앱 샘플
+              href: service-template-apps-samples.md
         - name: 문제 해결
           items:
             - name: Power BI 암호를 잊은 경우
@@ -895,6 +903,8 @@
       items:
         - name: Power BI 프리미엄 구매
           href: service-admin-premium-purchase.md
+        - name: 용량 구성 및 관리
+          href: service-admin-premium-manage.md
         - name: 워크로드 구성
           href: service-admin-premium-workloads.md
         - name: 앱을 사용하여 용량 모니터링
@@ -1341,13 +1351,21 @@
               href: service-gateway-mashup-on-premises-cloud.md
         - name: SSO(Single Sign-On) 사용
           items:
-            - name: SSO(Single Sign-On) - 개요
+            - name: SSO 개요
               href: service-gateway-sso-overview.md
-            - name: SSO(Single Sign-On) - Kerberos
-              href: service-gateway-sso-kerberos.md
-            - name: SSO(Single Sign-On) - Kerberos - 리소스 기반
-              href: service-gateway-sso-kerberos-resource.md
-            - name: SSO(Single Sign-On) - SAML
+            - name: Kerberos 기반 SSO
+              items:
+                - name: Kerberos 기반 SSO 구성
+                  href: service-gateway-sso-kerberos.md
+                - name: 데이터 원본 관련 구성
+                  items:
+                    - name: SAP HANA
+                      href: service-gateway-sso-kerberos-sap-hana.md
+                    - name: SAP BW-sapcrypto(일반 암호화 라이브러리)
+                      href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                    - name: SAP BW - gx64krb5.dll 및 gsskrb5.dll
+                      href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
+            - name: SAML 기반 SSO
               href: service-gateway-sso-saml.md
         - name: 게이트웨이 문제 해결
           href: service-gateway-onprem-tshoot.md
@@ -1358,7 +1376,7 @@
     - name: 리소스
       items:
         - name: 월별 게이트웨이 업데이트
-          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
+          href: /data-integration/gateway/service-gateway-monthly-updates
 - name: 관리
   items:
     - name: 개요
@@ -1424,6 +1442,8 @@
           href: service-admin-power-bi-security.md
 - name: 지침
   items:
+    - name: 데이터 흐름에 관한 모범 사례
+      href: service-dataflows-best-practices.md
     - name: 별모양 스키마란?
       href: guidance/star-schema.md
     - name: 데이터 모델 크기 줄이기

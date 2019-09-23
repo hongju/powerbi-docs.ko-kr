@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
 ms.openlocfilehash: 0a60fe526e83e5220e9b310097c8ba37682a396e
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "68995228"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
@@ -92,7 +92,7 @@ Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 
 ![Power BI 왼쪽 탐색](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>즐겨찾는 대시보드, KPI 및 보고서 보기
-모바일 앱의 즐겨찾기 페이지에서 Reporting Services KPI 및 모바일 보고서와 함께 즐겨 찾는 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 디바이스에서 액세스할 수 있습니다. 
+모바일 앱의 즐겨찾기 페이지에서 Reporting Services KPI 및 모바일 보고서와 함께 즐겨 찾는 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 디바이스에서 액세스할 수 있습니다.  
 
 * **즐겨찾기**를 누릅니다.
   

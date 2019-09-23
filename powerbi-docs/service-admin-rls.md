@@ -8,15 +8,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
-ms.date: 01/02/2018
+ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f26d1d394446653764b8b0f7371a44fc178b01e2
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: 04a8c8a08d885427e9de43b719674fce4ac2ebbd
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490422"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074840"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI를 사용하는 행 수준 보안(RLS)
 
@@ -26,7 +26,7 @@ Power BI Desktop으로 Power BI로 가져온 데이터 모델에 대한 RLS를 �
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
-기본적으로 행 수준 보안 필터링은 관계가 단방향 또는 양방향으로 설정되었는지 여부에 관계없이 단방향 필터를 사용합니다. 관계를 선택하고 **보안 필터 양방향으로 적용** 확인란을 선택하여 행 수준 보안으로 양방향 교차 필터를 수동으로 활성화할 수 있습니다. [동적 행 수준 보안](https://docs.microsoft.com/sql/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)을 구현할 때 이 확인란을 선택해야 하며, 여기서 사용자 이름 또는 로그인 ID를 기반으로 행 수준 보안을 제공합니다.
+기본적으로 행 수준 보안 필터링은 관계가 단방향 또는 양방향으로 설정되었는지 여부에 관계없이 단방향 필터를 사용합니다. 관계를 선택하고 **보안 필터 양방향으로 적용** 확인란을 선택하여 행 수준 보안으로 양방향 교차 필터를 수동으로 활성화할 수 있습니다. 행 수준 보안이 사용자 이름 또는 로그인 ID를 기반으로 하는 서버 수준의 동적 행 수준 보안도 구현한 경우에는 이 확인란을 선택해야 합니다.
 
 자세한 내용은 [Power BI Desktop에서 DirectQuery를 사용하여 양방향 교차 필터링](desktop-bidirectional-filtering.md) 및 [테이블 형식 BI 의미 체계 모델 보안](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) 기술 문서를 참조하세요.
 

@@ -10,22 +10,19 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 82c8bbb5361730b306cacd14dc9598ca12035027
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 81dfc6961ff0c00b609f98e50da3532a230cf26d
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61136166"
 ---
-# <a name="using-dataflows-with-on-premises-data-sources-preview"></a>온-프레미스 데이터 원본으로 만든 데이터 흐름 사용(미리 보기)
+# <a name="using-dataflows-with-on-premises-data-sources"></a>온-프레미스 데이터 원본으로 만든 데이터 흐름 사용
 
 **데이터 흐름**을 사용하면 다양한 원본에서 데이터 컬렉션을 만들고, 데이터를 정리하고 변환한 후 Power BI 스토리지로 로드할 수 있습니다. 데이터 흐름을 만드는 경우 온-프레미스 데이터 원본을 사용할 수도 있습니다. 이 문서에서는 데이터 흐름 만들기와 연결된 요구 사항과 해당 연결을 사용하도록 설정하려면 **엔터프라이즈 게이트웨이**를 어떻게 구성해야 하는지를 명확하게 설명합니다.
 
 ![데이터 흐름 및 게이트웨이](media/service-dataflows-onpremises-gateways/onpremises-gateways_01.png)
 
-> [!NOTE]
-> 데이터 흐름 기능은 미리 보기로 제공되며 일반 공급 전에 변경되고 업데이트될 수 있습니다.
- 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>데이터 흐름에 사용할 엔터프라이즈 게이트웨이 구성
 
 데이터 흐름에서 온-프레미스 데이터 원본을 사용하려면 데이터 흐름을 만드는 사용자에게 **엔터프라이즈 게이트웨이**가 설치되고 구성되어 있어야 합니다. 또한 데이터 흐름을 만드는 사용자가 해당 게이트웨이를 데이터 흐름에 사용하려면 엔터프라이즈 게이트웨이 관리자여야 합니다.
@@ -80,8 +77,8 @@ ms.locfileid: "54276471"
 
 * [데이터 흐름을 사용하여 셀프 서비스 데이터 준비](service-dataflows-overview.md)
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
-* [Power BI Premium의 계산된 엔터티 사용(미리 보기)](service-dataflows-computed-entities-premium.md)
-* [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스(미리 보기)](service-dataflows-developer-resources.md)
+* [Power BI Premium의 계산된 엔터티 사용](service-dataflows-computed-entities-premium.md)
+* [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스](service-dataflows-developer-resources.md)
 
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)
