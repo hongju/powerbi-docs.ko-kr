@@ -41,7 +41,7 @@ Power BI를 처음 사용하거나 복습이 필요하면, 아래 링크를 사�
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>사용자 지정 시각적 개체의 업로드 및 Power BI에서 사용
 
-직접 만든 또는 [Microsoft AppSource 커뮤니티 사이트](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)에서 찾은 사용자 지정 시각적 개체를 추가합니다. 창의성이 느껴지나요? 소스 코드를 더 자세히 살펴보고 [개발자 도구](../developer/custom-visual-develop-tutorial.md)를 사용하여 새로운 시각화 유형을 만들고 [커뮤니티에도 공유](../developer/office-store.md)해 주세요. 사용자 지정 시각적 개체를 개발하는 방법을 자세히 알아보려면 [Power BI 사용자 지정 시각적 개체 개발](../developer/custom-visual-develop-tutorial.md)을 참조하세요.
+직접 만든 또는 [Microsoft AppSource 커뮤니티 사이트](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)에서 찾은 사용자 지정 시각적 개체를 추가합니다. 창의성을 발휘하고 싶으신가요? 소스 코드를 더 자세히 살펴보고 [개발자 도구](../developer/custom-visual-develop-tutorial.md)를 사용하여 새로운 시각적 개체를 만들고 [커뮤니티에도 공유](../developer/office-store.md)해 주세요. 사용자 지정 시각적 개체를 개발하는 방법을 자세히 알아보려면 [Power BI 사용자 지정 시각적 개체 개발](../developer/custom-visual-develop-tutorial.md)을 참조하세요.
 
 ## <a name="personalize-your-visualization-pane-preview"></a>시각화 창 개인 설정(미리 보기)
 
