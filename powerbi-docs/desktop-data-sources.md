@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: ead5c8f45e102aaeebeed492ecf4646342747fe1
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560877"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142275"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 있습니다. 이 페이지의 맨 아래에는 사용 가능한 데이터 원본의 전체 목록이 있습니다.
 
-데이터에 연결하려면 리본 메뉴의 **홈** 탭에서 **데이터 가져오기**를 선택합니다. 아래쪽 화살표 또는 단추의 **데이터 가져오기** 텍스트를 선택하면 다음 이미지의 **가장 일반적** 데이터 형식 메뉴가 표시됩니다.
+데이터에 연결하려면 리본 메뉴의 **홈**  탭에서 **데이터 가져오기** 를 선택합니다. 아래쪽 화살표 또는 단추의 **데이터 가져오기** 텍스트를 선택하면 다음 이미지의 **가장 일반적** 데이터 형식 메뉴가 표시됩니다.
 
 ![Power BI Desktop에서 데이터 가져오기](media/desktop-data-sources/data-sources-01.png)
 
@@ -192,7 +192,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * ODBC
 * OLE DB
 * BI360 - 예산 및 재무 보고(베타)
-* Denado
+* Denodo
 * 정보 표(베타)
 * Paxata 
 * QubolePresto(베타)
@@ -224,7 +224,7 @@ URL 또는 리소스 연결 정보를 입력한 경우 **확인**을 선택합�
 
 **탐색기** 창의 맨 아래에 있는 **로드** 단추를 선택하여 데이터를 로드하거나 **편집** 단추를 선택하여 데이터를 로드하기 전에 쿼리를 편집할 수 있습니다.
 
-Power BI Desktop에서 데이터 소스에 연결하는 데 필요한 작업을 마쳤습니다. 늘어나는 데이터 원본의 목록에서 데이터에 연결을 시도하고 자주 확인하세요. 항상 이 목록에 계속해서 추가합니다.
+Power BI Desktop에서 데이터 소스에 연결하는 데 필요한 작업을 마쳤습니다. 데이터 원본의 성장 목록에서 데이터에 연결을 시도하고 자주 확인하세요. 항상 이 목록에 계속해서 추가합니다.
 
 ## <a name="next-steps"></a>다음 단계
 Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. 해당 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.

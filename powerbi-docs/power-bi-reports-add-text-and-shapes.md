@@ -39,13 +39,13 @@ Power BI Desktop을 사용하여 [보고서에 정적 이미지를 추가](guide
    
    ![위치 텍스트 상자](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
 
-5. 텍스트 상자를 선택한 채로 **시각화** 창에서 서식 지정을 추가합니다. 이 예제에서는 배경 및 테두리에 서식을 지정했습니다. 텍스트 상자의 정확한 크기와 위치를 생성할 수도 있습니다.  
+5. 텍스트 상자를 선택한 채로 **시각화** 창에서 서식을 추가합니다. 이 예제에서는 배경 및 테두리에 서식을 지정했습니다. 텍스트 상자의 정확한 크기와 위치를 생성할 수도 있습니다.  
 
    ![텍스트 상자 서식 지정](media/power-bi-reports-add-text-and-shapes/power-bi-borders.png)
 
 6. 텍스트 상자를 닫으려면 보고서 캔버스에서 빈 공간을 선택합니다. 
 
-7. 고정 아이콘 선택  ![고정 아이콘](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) 텍스트 상자를 대시보드에 고정합니다. 
+7. 고정 아이콘  ![고정 아이콘](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) 을 선택하여 텍스트 상자를 대시보드에 고정합니다. 
 
 ## <a name="add-a-shape-to-a-report"></a>보고서에 셰이프 추가
 1. 보고서 캔버스에서 아무 곳이나 커서를 두고 **셰이프**를 선택합니다.
@@ -53,7 +53,7 @@ Power BI Desktop을 사용하여 [보고서에 정적 이미지를 추가](guide
    ![셰이프 선택](media/power-bi-reports-add-text-and-shapes/power-bi-shapes.png)
 2. 드롭다운 목록에서 셰이프를 선택하여 보고서 캔버스에 추가합니다. 이 예제에서는 화살표를 추가하여 총 판매 분산이 가장 큰 거품을 주목합니다. 
    
-   **셰이프 서식 지정** 창에서 셰이프를 사용자 지정합니다. 이 예제에서는 90도 회전된 진한 빨간색 테두리가 있는 빨간색 화살표를 만들었습니다.
+   **도형 서식** 창에서 셰이프를 사용자 지정합니다. 이 예제에서는 90도 회전된 진한 빨간색 테두리가 있는 빨간색 화살표를 만들었습니다.
    
    ![셰이프 사용자 지정](media/power-bi-reports-add-text-and-shapes/power-bi-arrrow.png)
 3. 셰이프를 배치하려면 위쪽에 회색 영역을 선택하고 끕니다. 셰이프의 크기를 조정하려면 개요 핸들을 선택하여 끕니다. 텍스트 상자에서 셰이프의 정확한 크기와 위치를 생성할 수도 있습니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 대시보드, 보고서, 통합 문서, 데이터 세트 또는 작업 영역 삭제
 description: Power BI에서 거의 모든 요소를 삭제하는 방법을 알아봅니다.
 author: maggiesMSFT
@@ -24,21 +24,21 @@ ms.locfileid: "61157671"
 대시보드를 제거할 수 있습니다. 대시보드를 제거해도 기본 데이터 세트 또는 해당 대시보드와 연결된 보고서가 삭제되지 않습니다.
 
 * 대시보드의 소유자인 경우 대시보드를 제거할 수 있습니다. 동료와 대시보드를 공유한 경우 Power BI 작업 영역에서 대시보드를 제거하면 동료의 Power BI 작업 영역에서 해당 대시보드가 제거됩니다.
-* 대시보드가 공유되지만 더 이상 보고 싶지 않은 경우 제거할 수 있습니다. 대시보드를 제거해도 다른 사람의 Power BI 작업 영역에서는 제거되지 않습니다.
+* 대시보드가 공유되지만 더 이상 보고 싶지 않은 경우 제거할 수 있습니다.  대시보드를 제거해도 다른 사람의 Power BI 작업 영역에서는 제거되지 않습니다.
 * 대시보드가 [조직 콘텐츠 팩](service-organizational-content-pack-disconnect.md)에 포함된 경우 제거하는 유일한 방법은 연결된 데이터 세트를 제거하는 것입니다.
 
 ### <a name="to-delete-a-dashboard"></a>대시보드를 삭제하려면
 1. 작업 영역에서 **대시보드** 탭을 선택합니다.
-2. 삭제할 대시보드를 찾은 후 삭제 아이콘 ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png)을 선택합니다.
+2. 삭제할 대시보드를 찾은 후 삭제 아이콘 을 선택합니다. ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png)을 선택합니다.
 
     ![비디오](media/service-delete/power-bi-delete-dash.gif)
 
 ## <a name="delete-a-report"></a>보고서 삭제
-보고서를 삭제한다고 해서 보고서의 기반이 되는 데이터 세트가 삭제되는 것은 아니므로 염려하지 마세요. 보고서에서 고정한 모든 시각화 역시 안전하며 개별적으로 삭제할 때까지 대시보드에 남아 있습니다.
+보고서를 삭제한다고 해서 보고서의 기반이 되는 데이터 세트가 삭제되는 것은 아니므로 염려하지 마세요.  보고서에서 고정한 모든 시각화 역시 안전하며 개별적으로 삭제할 때까지 대시보드에 남아 있습니다.
 
 ### <a name="to-delete-a-report"></a>보고서를 삭제하려면
 1. 내 작업 영역에서 **보고서** 탭을 선택합니다.
-2. 삭제할 보고서를 찾은 후 삭제 아이콘   ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png)을 선택합니다.   
+2. 삭제할 보고서를 찾은 후 삭제 아이콘을 선택합니다.   ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png)을 선택합니다.   
 
     ![작업 영역의 보고서 탭](media/service-delete/power-bi-delete-reportnew.png)
 3. 삭제를 확인합니다.
@@ -46,7 +46,7 @@ ms.locfileid: "61157671"
    ![보고서 삭제 대화 상자](media/service-delete/power-bi-delete-report.png)
 
    > [!NOTE]
-   > 보고서가 [콘텐츠 팩](service-organizational-content-pack-introduction.md)의 일부인 경우 이 방법으로 삭제할 수 없습니다. [조직 콘텐츠 팩에 대한 연결 제거](service-organizational-content-pack-disconnect.md)를 참조하세요.
+   > 보고서가 [콘텐츠 팩](service-organizational-content-pack-introduction.md)의 일부인 경우 이 방법으로 삭제할 수 없습니다.  [조직 콘텐츠 팩에 대한 연결 제거](service-organizational-content-pack-disconnect.md)를 참조하세요.
    >
    >
 
@@ -57,7 +57,7 @@ ms.locfileid: "61157671"
 
 ### <a name="to-delete-a-workbook"></a>통합 문서를 삭제하려면
 1. 내 작업 영역에서 **통합 문서** 탭을 선택합니다.
-2. 삭제할 통합 문서를 찾은 후 삭제 아이콘 ![삭제 아이콘](media/service-delete/power-bi-delete-report2.png) 을 선택합니다.
+2. 삭제할 통합 문서를 찾은 후 삭제 아이콘을 선택합니다. ![삭제 아이콘](media/service-delete/power-bi-delete-report2.png) 아이콘.
 
     ![통합 문서 탭](media/service-delete/power-bi-delete-workbooknew.png)
 3. 삭제를 확인합니다.
@@ -129,7 +129,7 @@ ms.locfileid: "61157671"
 
    ![앱 선택](media/service-delete/power-bi-delete-app.png)
 
-   실수로 앱을 제거할 경우 복구할 수 있는 몇 가지 옵션이 있습니다. 앱 작성자에게 다시 보내달라고 요청하거나, 앱 링크가 포함된 메일 원본을 찾거나 [알림 센터](service-notification-center.md)를 확인하여 해당 앱에 대한 알림이 목록에 남아 있는지 살펴보거나 [조직의 AppSource](consumer/end-user-apps.md)를 확인할 수 있습니다.
+   실수로 앱을 제거할 경우 복구할 수 있는 몇 가지 옵션이 있습니다.  앱 작성자에게 다시 보내달라고 요청하거나, 앱 링크가 포함된 메일 원본을 찾거나 [알림 센터](service-notification-center.md)를 확인하여 해당 앱에 대한 알림이 목록에 남아 있는지 살펴보거나 [조직의 AppSource](consumer/end-user-apps.md)를 확인할 수 있습니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 이 문서는 Power BI 서비스의 주요 구성 요소를 삭제하는 방법을 소개했습니다. 그러나 Power BI에서 삭제할 수 있는 몇 가지가 더 있습니다.  

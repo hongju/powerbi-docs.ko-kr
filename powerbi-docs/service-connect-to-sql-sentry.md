@@ -23,7 +23,7 @@ Power BI를 사용하면 SQL Sentry를 통해 수집한 성능 데이터를 쉽�
 Power BI용 [SQL Sentry 콘텐츠 팩](https://app.powerbi.com/groups/me/getdata/services/sql-sentry)에 연결합니다.
 
 >[!NOTE]
->연결하려면 [http://cloud.sqlsentry.com](http://cloud.sqlsentry.com )에 연결하는 데 사용하는 SQL Sentry 계정에 대한 액세스 권한과 모니터링할 데이터베이스 ID가 필요합니다.  데이터베이스 ID를 찾을 위치에 대한 지침이 아래에 나와 있습니다.
+>연결하려면 http://cloud.sqlsentry.com 에 연결하는 데 사용하는 SQL Sentry 계정에 대한 액세스 권한과 모니터링할 데이터베이스 ID가 필요합니다.  데이터베이스 ID를 찾을 위치에 대한 지침이 아래에 나와 있습니다.
 
 ## <a name="how-to-connect"></a>연결 방법
 1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.
@@ -61,7 +61,7 @@ Power BI용 [SQL Sentry 콘텐츠 팩](https://app.powerbi.com/groups/me/getdata
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 세트을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용
 Power BI의 SQL Sentry에서 다음 데이터를 사용할 수 있습니다.

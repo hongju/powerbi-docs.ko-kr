@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b1af8c58e24ff1d95b28ea8a024c29ccdcac56b3
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710933"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075629"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune으로 모바일 앱 구성
 
@@ -42,7 +42,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 1. iTunes를 엽니다.
 
-1. Power BI를 검색합니다.
+1. Power BI를 검색합니다. 
 
 1. **iPhone 앱** 및 **iPad 앱** 아래에 **Microsoft Power BI**가 표시되어야 합니다. 어떤 방법을 사용해도 동일한 URL을 얻게 됩니다.
 
@@ -78,21 +78,21 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 애플리케이션을 만들거나 정책을 먼저 만들 수 있습니다. 추가되는 순서는 중요하지 않습니다. 배포 단계를 위해 둘 다 필요합니다.
 
-1. Intune 포털로 이동한 후 왼쪽 메뉴에서 **앱**을 선택합니다.
+1. Intune 포털로 이동한 후 왼쪽 메뉴에서 **앱** 을 선택합니다.
 
 1. **앱 추가**를 선택합니다. 이렇게 하면 **소프트웨어 추가** 애플리케이션이 시작됩니다.
 
 ### <a name="create-for-ios"></a>iOS용으로 만들기
 
-1. 드롭다운에서 **App Store에서 관리되는 iOS 앱**을 선택합니다.
+1. 드롭다운에서 **앱 스토어에서 관리되는 iOS 앱** 을 선택합니다.
 
 1. [1단계](#step-1-get-the-url-for-the-application)에서 가져온 앱 URL을 입력하고 **다음**을 선택합니다.
 
     ![소프트웨어 설정: iOS](media/service-admin-mobile-intune/intune-add-software-ios1.png)
 
-1. **게시자**, **이름** 및 **설명**을 제공합니다. 선택적으로 **아이콘**을 제공할 수도 있습니다. **범주**는 회사 포털 앱에 대한 항목입니다. 완료되면 **다음**을 선택합니다.
+1. **게시자**, **이름** 및 **설명**을 제공합니다. 선택적으로 **아이콘**을 제공할 수도 있습니다. **범주** 는 회사 포털 앱에 대한 항목입니다. 완료되면 **다음**을 선택합니다.
 
-1. **모두**(기본값), **iPad** 또는 **iPhone**중에서 어떤 방식으로 앱을 게시할지 결정할 수 있습니다. 기본적으로 **모두**가 표시되며 두 디바이스 유형에 모두 작동합니다. Power BI 앱은 iPhone 및 iPad에 둘 다 동일한 URL입니다. **다음**을 선택합니다.
+1. **모두** (기본값), **iPad** 또는 **iPhone**중에서 어떤 방식으로 게시할지 결정할 수 있습니다. 기본적으로 **모두** 가 표시되며 두 디바이스 유형에 모두 작동합니다. Power BI 앱은 iPhone 및 iPad에 둘 다 동일한 URL입니다. **다음**을 선택합니다.
 
 1. **업로드**를 선택합니다.
 
@@ -108,7 +108,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
     ![소프트웨어 설정: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
-1. **게시자**, **이름** 및 **설명**을 제공합니다. 선택적으로 **아이콘**을 제공할 수도 있습니다. **범주**는 회사 포털 앱에 대한 항목입니다. 완료되면 **다음**을 선택합니다.
+1. **게시자**, **이름** 및 **설명**을 제공합니다. 선택적으로 **아이콘**을 제공할 수도 있습니다. **범주** 는 회사 포털 앱에 대한 항목입니다. 완료되면 **다음**을 선택합니다.
 
 1. **업로드**를 선택합니다.
 
@@ -128,7 +128,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 1. **그룹 선택** 화면에서 이 앱을 배포하려는 그룹을 선택할 수 있습니다. **다음**을 선택합니다.
 
-1. **배포 작업** 화면에서 이 앱을 배포하려는 방법을 선택할 수 있습니다. **사용 가능한 설치** 또는 **필수 설치**를 선택하면 사용자가 필요할 때 회사 포털에서 해당 앱을 사용하여 설치할 수 있습니다. 선택이 끝나면 **다음**을 선택합니다.
+1. **배포 작업** 화면에서 이 앱을 배포하려는 방법을 선택할 수 있습니다. **사용 가능한 설치**또는 **필수 설치**를 선택하면 사용자가 필요할 때 회사 포털에서 해당 앱을 사용하여 설치할 수 있습니다. 선택이 끝나면 **다음**을 선택합니다.
 
     ![배포 작업](media/service-admin-mobile-intune/intune-deploy-ios2.png)
 
@@ -138,9 +138,9 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 1. **VPN 프로필** 화면에서 조직에 대해 존재하는 정책을 선택할 수 있습니다. 기본값은 **없음**입니다. **다음**을 선택합니다.
 
-1. **모바일 앱 구성** 화면에서 만든 **앱 구성 정책**이 있는 경우 선택합니다. 기본값은 **없음**입니다. 이 항목은 필수 항목이 아닙니다. **마침**을 선택합니다.
+1. **모바일 앱 구성** 화면에서 만든 **앱 구성 정책** 이 있는 경우 선택합니다. 기본값은 **없음**입니다. 이 항목은 필수 항목이 아닙니다. **마침**을 선택합니다.
 
-앱이 배포되면 앱 페이지에서 배포에 대해 **예**가 표시됩니다.
+앱이 배포되면 앱 페이지에서 배포에 대해 **예** 가 표시됩니다.
 
 ### <a name="deploy-for-android"></a>Android용으로 배포
 
@@ -149,7 +149,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
     ![배포 관리](media/service-admin-mobile-intune/intune-deploy-android1.png)
 1. **그룹 선택** 화면에서 이 앱을 배포하려는 그룹을 선택할 수 있습니다. **다음**을 선택합니다.
 
-1. **배포 작업** 화면에서 이 앱을 배포하려는 방법을 선택할 수 있습니다. **사용 가능한 설치** 또는 **필수 설치**를 선택하면 사용자가 필요할 때 회사 포털에서 해당 앱을 사용하여 설치할 수 있습니다. 선택이 끝나면 **다음**을 선택합니다.
+1. **배포 작업** 화면에서 이 앱을 배포하려는 방법을 선택할 수 있습니다. **사용 가능한 설치**또는 **필수 설치**를 선택하면 사용자가 필요할 때 회사 포털에서 해당 앱을 사용하여 설치할 수 있습니다. 선택이 끝나면 **다음**을 선택합니다.
 
     ![배포 작업](media/service-admin-mobile-intune/intune-deploy-android2.png)
 
@@ -157,11 +157,11 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
     ![모바일 앱 관리](media/service-admin-mobile-intune/intune-deploy-android3.png)
 
-앱이 배포되면 앱 페이지에서 배포에 대해 **예**가 표시됩니다.
+앱이 배포되면 앱 페이지에서 배포에 대해 **예** 가 표시됩니다.
 
 ## <a name="step-5-install-the-application-on-a-device"></a>5단계: 디바이스에 애플리케이션 설치
 
-‘회사 포털’ 앱을 통해 애플리케이션을 설치합니다. 회사 포털을 설치하지 않은 경우 iOS 또는 Android 플랫폼의 앱 스토어를 통해 가져올 수 있습니다. 조직의 로그인으로 회사 포털에 로그인합니다.
+‘회사 포털’ 앱을 통해 애플리케이션을 설치합니다.  회사 포털을 설치하지 않은 경우 iOS 또는 Android 플랫폼의 앱 스토어를 통해 가져올 수 있습니다. 조직의 로그인으로 회사 포털에 로그인합니다.
 
 1. 회사 포털 앱을 엽니다.
 
@@ -173,11 +173,11 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
     ![Power BI 앱](media/service-admin-mobile-intune/intune-companyportal2.png)
 
-1. **설치**를 선택합니다.
+1. **설치**을 선택합니다.
 
     ![앱 설치](media/service-admin-mobile-intune/intune-companyportal3.png)
 
-1. iOS에 있는 경우 사용자에게 앱이 푸시됩니다. 푸시 대화 상자에서 **설치**를 선택합니다.
+1. iOS에 있는 경우 사용자에게 앱이 푸시됩니다. 푸시 대화 상자에서 **설치** 를 선택합니다.
 
     ![앱 설치](media/service-admin-mobile-intune/intune-companyportal5.png)
 

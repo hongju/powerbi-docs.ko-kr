@@ -1,5 +1,5 @@
 ---
-title: '자습서: Power BI에서 Cognitive Services 사용(미리 보기)'
+title: '자습서:  Power BI에서 Cognitive Services 사용(미리 보기)'
 description: 이 자습서에서는 Power BI에서 Cognitive Services와 데이터 흐름을 사용합니다.
 author: davidiseminger
 manager: kfile
@@ -18,7 +18,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61404085"
 ---
-# <a name="tutorial-use-cognitive-services-in-power-bi"></a>자습서: Power BI에서 Cognitive Services 사용
+# <a name="tutorial-use-cognitive-services-in-power-bi"></a>자습서:  Power BI에서 Cognitive Services 사용
 
 Power BI를 사용하면 Azure Cognitive Services의 다양한 함수에 액세스하여 데이터 흐름을 위한 셀프 서비스 데이터 준비에서 데이터를 보강할 수 있습니다. 현재 지원되는 서비스는 [감정 분석](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [핵심 구 추출](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [언어 감지](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) 및 [이미지 태그 지정](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images)입니다. 변환은 Power BI 서비스에서 실행되므로 Azure Cognitive Services 구독이 필요하지 않습니다. 이 기능을 사용하려면 Power BI Premium이 필요합니다.
 
@@ -57,7 +57,7 @@ URL [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
-위쪽 리본에서 **테이블 변환**을 선택하고 **첫 행을 머리글로 사용**을 선택합니다. 이제 데이터를 텍스트 분석에 사용할 준비가 되었습니다. 고객 의견 열에서 감정 점수 매기기 및 핵심 구 추출을 사용할 수 있습니다.
+위쪽 리본에서 **Transform Table**(테이블 변환)을 선택하고 **첫 행을 헤더로 사용**을 선택합니다. 이제 데이터를 텍스트 분석에 사용할 준비가 되었습니다. 고객 의견 열에서 감정 점수 매기기 및 핵심 구 추출을 사용할 수 있습니다.
 
 파워 쿼리 편집기에서 **AI 인사이트**를 선택합니다.
 
@@ -129,7 +129,7 @@ in
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
 
-자격 증명을 묻는 메시지가 표시되면 ‘익명’을 선택합니다.
+자격 증명을 묻는 메시지가 표시되면 ‘익명’을 선택합니다. 
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
 
@@ -147,7 +147,7 @@ in
 
 ![데이터 흐름 만들기](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
-이미지 태그 지정 함수를 선택하고 열 필드에 _[Binary]_ , 문화권 정보 필드에 _en_ 을 입력합니다. 
+이미지 태그 지정 함수를 선택하고 열 필드에 _[이진]_ , 문화권 정보 필드 _en_을 입력합니다. 
 
 > [!NOTE]
 > 현재는 드롭다운을 사용하여 열을 선택할 수 없습니다. 이 문제는 프라이빗 미리 보기 기간에 최대한 신속하게 해결될 것입니다.

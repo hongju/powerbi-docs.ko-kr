@@ -51,15 +51,15 @@ Power BI 서비스의 데이터 흐름 제작 도구에서 **엔터티 편집**�
 ### <a name="example-use-cases"></a>사용 사례 예
 계산된 엔터티로 어떤 종류의 변환을 수행할 수 있나요? 스토리지 내 계산을 수행하는 경우 Power BI 또는 M 편집기의 변환 사용자 인터페이스를 사용하여 일반적으로 지정하는 모든 변환이 지원됩니다. 
 
-다음과 같은 예를 고려해 보세요. Dynamics 365 구독의 모든 고객에 대한 원시 데이터가 포함된 ‘계정’ 엔터티가 있습니다. 해당 연도에 매일 다른 계정에서 수행한 지원 통화 데이터가 포함되어 있는 서비스 센터의 *ServiceCalls* 원시 데이터도 있습니다.
+다음과 같은 예를 고려해 보세요. Dynamics 365 구독의 모든 고객에 대한 원시 데이터가 포함된 ‘계정’ 엔터티가 있습니다.  해당 연도에 매일 다른 계정에서 수행한 지원 통화 데이터가 포함되어 있는 서비스 센터의 *ServiceCalls* 원시 데이터도 있습니다.
 
-*ServiceCalls*의 데이터로 ‘계정’ 엔터티를 보강하려 한다고 가정해 보겠습니다. 
+*ServiceCalls*의 데이터로 ‘계정’ 엔터티를 보강하려 한다고 가정해 보겠습니다.  
 
 먼저 ServiceCalls에서 데이터를 집계하여 작년에 각 계정에 대해 수행된 지원 통화 수를 계산해야 합니다. 
 
 ![Power BI Premium의 계산된 엔터티 예](media/service-dataflows-computed-entities-premium/computed-entities-premium_02.png)
 
-다음으로는 ‘계정’ 엔터티를 *ServiceCallsAggregated* 엔터티와 병합하여 보강된 **계정** 테이블을 계산할 것입니다.
+다음으로는 ‘계정’ 엔터티를 *ServiceCallsAggregated* 엔터티와 병합하여 보강된 **계정** 테이블을 계산할 것입니다. 
 
 ![Power BI Premium의 계산된 엔터티 예](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
 
@@ -86,7 +86,7 @@ Power BI Premium 용량에서 작업 영역을 제거하면 연결된 데이터 
 * [데이터 흐름을 사용하여 셀프 서비스 데이터 준비](service-dataflows-overview.md)
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
 * [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 대한 개발자 리소스](service-dataflows-developer-resources.md)
+* [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스](service-dataflows-developer-resources.md)
 * [작업 영역 데이터 흐름 설정 구성(미리 보기)](service-dataflows-configure-workspace-storage-settings.md)
 * [CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)](service-dataflows-add-cdm-folder.md)
 * [데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)](service-dataflows-connect-azure-data-lake-storage-gen2.md)

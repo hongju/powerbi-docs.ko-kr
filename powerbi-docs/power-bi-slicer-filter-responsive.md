@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: fed4119946cb762fb4d9aee3b5300be225a6e379
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61419829"
@@ -34,7 +34,7 @@ ms.locfileid: "61419829"
 
 ## <a name="convert-to-a-horizontal-slicer"></a>가로 슬라이서로 변환
 
-1. 선택한 슬러이서를 사용하여 **시각화** 창에서 **서식** 탭을 선택합니다.
+1. 선택한 슬라이서를 사용하여 **시각화** 창에서 **서식** 탭을 선택합니다.
 2. **일반** 섹션을 확장한 다음 **방향**에서 **가로**를 선택합니다.
 
     ![슬라이서를 가로로 설정](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-2-horizontal.png) 

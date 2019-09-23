@@ -1,6 +1,6 @@
 ---
-title: 테이블에 하이퍼링크 추가
-description: Power BI Desktop을 사용하여 하이퍼링크를 만듭니다. 그런 다음, Power BI Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가합니다.
+title: 테이블에 하이퍼링크(URL) 추가
+description: 이 항목에서는 테이블에 하이퍼링크(URL)를 추가하는 방법을 배웁니다. Power BI Desktop를 사용하여 테이블 또는 행렬에 하이퍼링크(URL)를 추가합니다. 그런 다음, Power BI Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가할 수 있습니다.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,23 +8,25 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/09/2019
+ms.date: 08/30/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 386c52908d54833e350a7b1a6d846f78c7b88c6d
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 58cb009e29c05ce318c5931fb418617e1ef63f4f
+ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721364"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "70937051"
 ---
+
 # <a name="add-hyperlinks-to-a-table"></a>테이블에 하이퍼링크 추가
 이 항목에서는 하이퍼링크를 만들어 Power BI Desktop을 사용하는 방법을 배웁니다. 그런 다음, Power BI Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가합니다. 
+
 
 ![하이퍼링크가 포함된 테이블](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> Power BI 서비스를 사용하여 [대시보드의 타일](service-dashboard-edit-tile.md) 및 [대시보드의 텍스트 상자](service-dashboard-add-widget.md)에 하이퍼링크를 즉시 만들 수 있습니다. Power BI 서비스 및 Power BI Desktop을 사용하여 [보고서의 텍스트 상자](service-add-hyperlink-to-text-box.md)에 하이퍼링크를 즉시 만들 수 있습니다.
+> Power BI 서비스에서 [대시보드의 타일](service-dashboard-edit-tile.md) 및 [대시보드의 텍스트 상자](service-dashboard-add-widget.md)에 하이퍼링크를 즉시 만들 수 있습니다. Power BI 서비스 및 Power BI Desktop에서 [보고서의 텍스트 상자](service-add-hyperlink-to-text-box.md)에 하이퍼링크를 즉시 만들 수 있습니다.
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Power BI Desktop을 사용하여 테이블 또는 행렬에서 하이퍼링크를 만들려면
@@ -51,7 +53,9 @@ ms.locfileid: "66721364"
    
     차트를 선택하여 활성화합니다.
 
+
     서식 아이콘 ![페인트 롤러 아이콘](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)을 선택하여 [서식] 탭을 엽니다.
+
 
     **값**을 확장하고 **URL 아이콘**을 찾고 **설정** 상태로 전환합니다.
 

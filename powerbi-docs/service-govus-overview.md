@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590454"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841635"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -48,7 +48,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 * USGov 텍사스
 * USGov 애리조나
 
-퍼블릭 클라우드에서 IP 공간을 사용할 수 있습니다. 정부 클라우드에 대한 최신 정보는 다운로드 가능한 [Azure 정부 서비스 문서](https://www.microsoft.com/download/details.aspx?id=57063)를 참조하세요.
+퍼블릭 클라우드에서 IP 공간을 사용할 수 있습니다. 정부 클라우드에 대한 최신 정보는 다운로드 가능한 [Azure Government 서비스 문서](https://www.microsoft.com/download/details.aspx?id=57063)를 참조하세요.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Power BI 미국 정부 기관의 제한 사항
 **Power BI 서비스** 상용 버전에서 사용할 수 있는 기능 중 일부는 미국 정부 기관 고객용 **Power BI 서비스**에서 사용할 수 *없습니다*. 미국 정부 기관 고객이 이러한 기능을 사용할 수 있도록 Power BI 팀에서 적극적으로 노력하고 있으며, 이러한 기능을 사용할 수 있게 되면 이 문서를 업데이트할 것입니다.
@@ -85,13 +85,13 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 
 **답변:** 가입(종종 ‘온보딩’이라고 함)은 기존 라이선스 및 구독에 따라 다를 수 있습니다.  자세한 내용은 [미국 정부 기관용 Power BI 등록](service-govus-signup.md) 문서를 참조하세요.
 
-**질문:** 미국 정부 기관용 **Power BI** 연결을 위한 URL은 상업용 **Power BI** URL과 다른가요?
+**질문:** 미국 정부 기관용 **Power BI** 연결을 위한 URL은 상업용 **Power BI** URL과 다른가요? 정부 커뮤니티 클라우드 High(GCC High) 고객을 위한 다른 URL이 있나요?
 
 **답변:** 예. URL이 다릅니다. 다음 표에서는 각각의 URL을 보여 줍니다.
 
-| 상용 버전 URL | 미국 정부 기관 버전 URL |
-| --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+| 상용 버전 URL | 미국 정부 기관 버전 URL | GCC High를 위한 미국 정부 URL |
+| --- | --- | --- |
+| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 **질문:** 내 계정이 둘 이상의 내셔널 클라우드에서 프로비저닝됩니다. **Power BI Desktop**을 사용할 때 어떤 클라우드에 연결할 것인지 선택하려면 어떻게 해야 합니까?
 

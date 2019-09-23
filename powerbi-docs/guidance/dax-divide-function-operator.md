@@ -1,20 +1,20 @@
 ---
 title: 'DAX: 나누기 함수 및 나누기 연산자(/)'
 description: DAX 나누기 함수를 사용할 경우에 대한 지침입니다.
-author: guyinacube
+author: peter-myers
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/05/2019
+ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d22491ee314ebcebd4479c4e57dbfdf7a6a1ffdb
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 7516aaedb886e7b9e0f57ed76f0a7c5e40efbd6d
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70010440"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877851"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: 나누기 함수 및 나누기 연산자(/)
 
@@ -34,15 +34,15 @@ DIVIDE(<numerator>, <denominator> [,<alternateresult>])
 
 나누기 함수는 0으로 나누기 사례를 자동으로 처리하도록 설계되었습니다. 대체 결과가 전달되지 않고 분모가 0이거나 비어 있는 경우 함수는 BLANK를 반환합니다. 대체 결과가 전달된 경우 공백 대신 반환됩니다.
 
-나누기 함수는 식으로 분모 값을 먼저 테스트할 필요가 없기 때문에 편리합니다. 함수는 [IF](/dax/if-function-dax) 함수보다 분모 값을 테스트하는 데에도 더욱 최적화되어 있습니다. 나누기를 사용하면 더욱 간결하고 세련된 식이 생성됩니다.
+나누기 함수는 식으로 분모 값을 먼저 테스트할 필요가 없기 때문에 편리합니다. 함수는 [IF](/dax/if-function-dax) 함수보다 분모 값을 테스트하는 데에도 더욱 최적화되어 있습니다. 0으로 나누기를 확인하는 작업은 비용이 많이 들기 때문에 성능이 크게 향상됩니다. 나누기를 사용하면 더욱 간결하고 세련된 식이 생성됩니다.
 
 ## <a name="example"></a>예제
 
-다음 측정값 식은 안전한 나눗셈을 만들지만 세 개의 DAX 함수를 사용합니다.
+다음 측정값 식은 안전한 나눗셈을 만들지만 4개의 DAX 함수를 사용합니다.
 
 ```dax
 
-=IF(ISBLANK([Sales]) || [Sales] = 0, BLANK(), [Profit] / [Sales])
+=IF(OR(ISBLANK([Sales]), [Sales] == 0), BLANK(), [Profit] / [Sales])
 
 ```
 

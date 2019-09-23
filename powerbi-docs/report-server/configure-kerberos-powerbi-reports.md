@@ -53,7 +53,7 @@ Kerberos 제한 위임이 작동하기 위해 구성해야 하는 몇 가지 항
 1. Report Server 구성 내의 인증 형식
 2. Report Server 서비스 계정의 SPN
 3. Analysis Services 서비스의 SPN
-4. Analysis Services 컴퓨터의 SQL Browser 서비스에 대한 SPN. 명명된 인스턴스 전용입니다.
+4. Analysis Services 컴퓨터의 SQL Browser 서비스에 대한 SPN 명명된 인스턴스 전용입니다.
 5. Report Server서비스 계정의 위임 설정
 
 ## <a name="authentication-type-within-report-server-configuration"></a>Report Server 구성 내의 인증 형식

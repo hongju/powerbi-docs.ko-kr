@@ -12,12 +12,12 @@ ms.custom: seodec18
 ms.date: 02/05/2019
 ms.openlocfilehash: bc6b9cf92966dd9e86e789169b9b8134dbfcb2ba
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61374322"
 ---
-# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>자습서: 내셔널 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>자습서:  내셔널 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
 
 내셔널 클라우드용 비즈니스 프로세스 애플리케이션 내에 분석 콘텐츠를 포함하는 방법을 알아봅니다. Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서, 대시보드 또는 타일을 웹 애플리케이션에 포함할 수 있습니다.
 

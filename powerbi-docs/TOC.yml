@@ -269,6 +269,8 @@
               href: desktop-inline-hierarchy-labels.md
             - name: 숫자 범위 슬라이서 사용
               href: desktop-slicer-numeric-range.md
+            - name: 상대 날짜 슬라이서 사용
+              href: desktop-slicer-filter-date-range.md
             - name: 크기를 조정할 수 있는 슬라이서 만들기
               href: power-bi-slicer-filter-responsive.md
             - name: Cortana에 대한 사용자 지정 답변 카드 만들기
@@ -901,6 +903,8 @@
       items:
         - name: Power BI 프리미엄 구매
           href: service-admin-premium-purchase.md
+        - name: 용량 구성 및 관리
+          href: service-admin-premium-manage.md
         - name: 워크로드 구성
           href: service-admin-premium-workloads.md
         - name: 앱을 사용하여 용량 모니터링
@@ -1347,13 +1351,21 @@
               href: service-gateway-mashup-on-premises-cloud.md
         - name: SSO(Single Sign-On) 사용
           items:
-            - name: SSO(Single Sign-On) - 개요
+            - name: SSO 개요
               href: service-gateway-sso-overview.md
-            - name: SSO(Single Sign-On) - Kerberos
-              href: service-gateway-sso-kerberos.md
-            - name: SSO(Single Sign-On) - Kerberos - 리소스 기반
-              href: service-gateway-sso-kerberos-resource.md
-            - name: SSO(Single Sign-On) - SAML
+            - name: Kerberos 기반 SSO
+              items:
+                - name: Kerberos 기반 SSO 구성
+                  href: service-gateway-sso-kerberos.md
+                - name: 데이터 원본 관련 구성
+                  items:
+                    - name: SAP HANA
+                      href: service-gateway-sso-kerberos-sap-hana.md
+                    - name: SAP BW-sapcrypto(일반 암호화 라이브러리)
+                      href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                    - name: SAP BW - gx64krb5.dll 및 gsskrb5.dll
+                      href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
+            - name: SAML 기반 SSO
               href: service-gateway-sso-saml.md
         - name: 게이트웨이 문제 해결
           href: service-gateway-onprem-tshoot.md

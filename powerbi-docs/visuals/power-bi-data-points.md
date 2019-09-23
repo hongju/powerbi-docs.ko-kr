@@ -12,7 +12,7 @@ ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61276431"
@@ -116,7 +116,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 - 범례, 위도, 경도, 크기: 상위 233개 범례, 상위 15개 위도 및 경고(여기에는 통계 또는 동적 제한이 사용될 수 있음)
 - 위치, 범례, 위도 경도를 집계로(+/-Size): 상위 233개 위치, 상위 15개 범례(여기에는 통계 또는 동적 제한이 사용될 수 있음)
 
-### <a name="matrix"></a>행렬
+### <a name="matrix"></a>Matrix
 - 행: 한 번에 500개 행의 창을 사용하여 가상화
 - 열: 상위 100개 그룹화 열 
 - 값: 여러 값이 데이터 감소 계산에 포함되지 않음

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6ed1690ec77880467007200c30038d185c98d6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f4043a5a8deac0596b58519183988f6ae574458e
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273615"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70847711"
 ---
 DAX를 사용하여 만들 수 있는 두 가지 기본 계산이 있습니다.
 
@@ -26,7 +26,7 @@ DAX를 사용하여 만들 수 있는 두 가지 기본 계산이 있습니다.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_1.png)
 
-테이블 이름을 완전히 생략하거나 열 이름만 사용할 수 있지만 이는 지우기 기능을 작성하는 데 적절하지 않습니다(따라서 DAX 코드 지우기의 경우에도 해당). 열 이름은 항상 대괄호를 포함해야 합니다.
+테이블 이름을 완전히 생략하거나 열 이름만 사용할 수 있지만 이는 지우기 기능을 작성하는 데 적절한 방법이 아닙니다(따라서 DAX 코드 지우기의 경우에도 해당). 열 이름은 항상 대괄호를 포함해야 합니다.
 
 *항상* 다음을 수행하는 모범 사례입니다.
 
@@ -36,7 +36,7 @@ DAX를 사용하여 만들 수 있는 두 가지 기본 계산이 있습니다.
 ## <a name="creating-calculated-columns"></a>계산 열 만들기
 값을 조각화하거나 필터링하려는 경우 또는 테이블의 모든 행을 계산하려는 경우 **계산 열**이 유용합니다.
 
-**모델링** 탭에서 **새 열**을 선택하여 Power BI Desktop에서 계산 열을 만들 수 있습니다. 만든 새 열을 볼 수 있고 **수식 입력줄**이 채워지며 DAX 수식에 대해 준비가 완료되었기 때문에 데이터 보기가 좋습니다(보고서 또는 **관계** 보기 대신).
+**모델링** 탭에서 **새 열**을 선택하여 Power BI Desktop에서 계산 열을 만들 수 있습니다. 만든 새 열을 볼 수 있고 **수식 입력줄**이 채워지며 DAX 수식에 대해 준비가 완료되었기 때문에 **데이터** 보기가 좋습니다(**보고서** 또는 **관계** 보기 대신).
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_2a.png)
 

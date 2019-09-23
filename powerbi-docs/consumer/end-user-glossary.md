@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751012"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903672"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다. 
@@ -33,7 +33,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **alert, alerts (경고)** 설정된 제한에 따른 데이터 변화를 사용자에게 알리는 기능입니다. 보고서 시각적 개체에서 고정된 타일에서 경고를 설정할 수 있습니다. 사용자는 서비스 및 해당 모바일 앱에 대한 경고를 받습니다.
 
-**annotate (주석 달기)** iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 또는 시각화 개체의 스냅숏 사본에 줄, 텍스트 또는 스탬프를 쓰는 것입니다.
+**annotate (주석 달기)** iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 또는 시각화 개체의 스냅샷 사본에 줄, 텍스트 또는 스탬프를 쓰는 것입니다.
 
 **answer card, answer page (대답 카드, 대답 페이지)** Cortana 대답 카드를 참조하세요.
 
@@ -60,14 +60,19 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **calculation (계산)** 수학적 방식으로 크기 또는 수치를 결정하는 것입니다.
 
+**card (카드)** (시각적 개체 유형) Power BI [시각적 유형](end-user-visual-type.md)입니다.
+
+**카드 (card)** (Power BI Home) Power BI Home은 대시보드, 보고서, 앱 등을 나타내는 사각형 및 정사각형 그림을 표시합니다. 이러한 그림을 *카드*라고 합니다.
+
 **certified custom visual (인증된 사용자 지정 시각적 개체)** 요구 사항을 충족하고 엄격한 보안 테스트를 통과한 Power BI 사용자 지정 시각적 개체입니다.
 
 **classification (분류)** 데이터 분류라고도 합니다. 이 옵션은 Power BI 관리자가 대시보드에 필요한 보안 수준에 대한 인식을 높이기 위해 설정할 수 있습니다. 분류 유형은 조직에서 사용자 지정할 수 있습니다.
 
 **connect live (실시간 연결)** SQL Server Analysis Services 데이터 모델에 연결하는 방법입니다. 라이브 연결이라고도 합니다.
 
-**content (콘텐츠)**
+**컨테이너 (container)** 탐색 모음의 영역이 *컨테이너*입니다. 탐색 모음에서 즐겨찾기, 최근, 앱, 공유한 항목, 홈 등에 대한 컨테이너를 찾을 수 있습니다. 
 
+**콘텐츠 (content)** Power BI 서비스의 콘텐츠는 일반적으로 대시보드, 보고서 및 앱입니다. 통합 문서 및 데이터 세트도 포함할 수 있습니다.
 
 **content list (콘텐츠 목록)** 앱의 콘텐츠 인덱스입니다.
 
@@ -109,7 +114,8 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **Editing View (편집용 보기)** 보고서 ‘디자이너’가 보고서를 탐색, 디자인, 작성 및 공유할 수 있는 모드입니다. 
 
-**ellipsis (줄임표)** ...
+**ellipsis (줄임표)** ...    
+줄임표를 선택하면 추가 메뉴 옵션이 표시됩니다.
 
 **embed code (embed 태그)** 인터넷의 공통 표준입니다. Power BI에서 고객은 embed 태그를 생성한 후 복사하여 웹 사이트나 블로그에 보고서 시각적 개체와 같은 콘텐츠를 배치할 수 있습니다.
 
@@ -158,7 +164,8 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 ## <a name="l"></a>L
 
-**left navigation (left nav) (왼쪽 탐색 창(왼쪽 탐색))** Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니다.
+**left navigation (왼쪽 탐색 영역)** 이 영역은 **탐색 막대**로 대체되었지만 일부 설명서에는 계속 나올 수 있습니다.    
+Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니다.
 
 첫 번째 인스턴스: 왼쪽 탐색 창 이후 언급 시 또는 공간 부족 시: 왼쪽 탐색
 
@@ -176,7 +183,11 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **native (네이티브)** 제품에 포함되어 있습니다. 예를 들어, Power BI에는 ‘네이티브’ 시각화 요소 집합이 함께 제공됩니다.  그러나 사용자 지정 시각적 개체 등의 다른 유형을 가져올 수도 있습니다.
 
-**navigation pane (탐색 창)** **왼쪽 탐색 창** 참조
+**left navigation (왼쪽 탐색 영역)** 또는 **nav bar (탐색 막대)** Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니다.
+
+첫 번째 인스턴스: 탐색 막대 이후 언급 시 또는 공간 부족 시: 탐색 막대
+
+**navigation pane (탐색 창)** **탐색 막대** 참조
 
 **notification (알림)** Power BI 알림 센터에서 보낸 메시지입니다.  
 
@@ -281,7 +292,7 @@ Power BI 보고서에 표시되는 결과를 미리 필터링하기 위해 URL�
 
 **Shared with me (공유한 항목)** 다른 Power BI 사용자가 직접 공유한 모든 개별 아티팩트를 포함하는 왼쪽 탐색 창의 컨테이너입니다.
 
-**snapshot (스냅숏)**
+**snapshot (스냅샷)**
 
 
 **SSAS(SQL Server Analysis Services)** 
@@ -291,7 +302,7 @@ Power BI 보고서에 표시되는 결과를 미리 필터링하기 위해 URL�
 **streaming data (스트리밍 데이터)** *실시간 스트리밍* 참조
 
 **subscriptions (구독)** , **Subscribe (구독하기)**  
-보고서 페이지, 앱 및 대시보드를 구독하고 스냅숏이 포함된 메일을 받을 수 있습니다. Power BI Pro 라이선스가 필요합니다.
+보고서 페이지, 앱 및 대시보드를 구독하고 스냅샷이 포함된 메일을 받을 수 있습니다. Power BI Pro 라이선스가 필요합니다.
 
 **summarization (요약)** [Power BI Desktop] 한 열의 값에 적용되는 작업입니다.
 
