@@ -35,7 +35,7 @@ Power BI 테이블 및 행렬의 하이퍼링크에 대한 자세한 내용은 [
    텍스트 상자 메뉴가 나타납니다.
    
    ![텍스트 상자에서 텍스트 선택](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
-3. 텍스트 상자 메뉴 위의 하이퍼링크 아이콘 ![텍스트 상자 메뉴 위](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png)을 선택합니다.
+3. 텍스트 상자 메뉴 위의 하이퍼링크 아이콘 ![텍스트 상자 메뉴 위](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png) 을 선택합니다.
 
    하이퍼링크 필드가 텍스트 상자 메뉴에 표시됩니다.
 
