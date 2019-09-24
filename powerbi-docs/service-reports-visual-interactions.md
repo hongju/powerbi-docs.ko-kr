@@ -41,7 +41,7 @@ ms.locfileid: "61405995"
 
        ![시각적 개체 상호 작용 드롭다운](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
 
-    - Power BI Desktop 에서 **형식 > 상호 작용 편집** 을 선택합니다.
+    - Power BI Desktop 에서 **서식 > 상호 작용 편집** 을 선택합니다.
 
         ![형식 및 상호 작용 선택](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
 
@@ -52,7 +52,7 @@ ms.locfileid: "61405995"
    
    * 시각화를 교차 필터링해야 하는 경우 **필터** 아이콘 ![필터 아이콘](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png)을 선택합니다.
    * 시각화를 교차 강조 표시해야 하는 경우 **강조 표시** 아이콘 ![강조 표시 아이콘](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png)을 선택합니다.
-   * 영향을 미치지 않아야 할 경우 **영향을 주지 않음** 아이콘 ![영향을 주지 않음 아이콘](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png)을 선택합니다.
+   * 영향을 미치지 않아야 할 경우 **없음** 아이콘 ![영향을 주지 않음 아이콘](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png)을 선택합니다.
 
 4. 드릴링 컨트롤을 켜려면 **기타 시각적 개체 드릴 필터링**을 선택합니다.  이제 시각화에서 드릴다운(및 드릴업)하면 보고서 페이지의 다른 시각화가 현재 드릴링 선택을 반영하도록 변경됩니다. 
 
