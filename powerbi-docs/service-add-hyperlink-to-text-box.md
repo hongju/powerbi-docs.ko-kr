@@ -26,7 +26,7 @@ Will Thompson이 텍스트 상자를 만들고 하이퍼링크를 추가합니�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew#t=0m55s" frameborder="0" allowfullscreen></iframe>
 
-Power BI 테이블 및 매트릭스의 하이퍼링크에 대한 자세한 내용은 [테이블에 하이퍼링크 추가](power-bi-hyperlinks-in-tables.md)를 참조하세요. 대시보드에 텍스트 상자를 추가하는 방법에 대한 자세한 내용은 [대시보드에 이미지, 동영상 등 추가](service-dashboard-add-widget.md)를 참조하세요. 
+Power BI 테이블 및 행렬의 하이퍼링크에 대한 자세한 내용은 [테이블에 하이퍼링크 추가](power-bi-hyperlinks-in-tables.md)를 참조하세요. 대시보드에 텍스트 상자를 추가하는 방법에 대한 자세한 내용은 [대시보드에 이미지, 동영상 등 추가](service-dashboard-add-widget.md)를 참조하세요. 
 
 ## <a name="to-add-a-hyperlink-to-a-text-box"></a>텍스트 상자에 하이퍼링크를 추가하려면
 1. 보고서를 열고 [텍스트 상자를 만들고](power-bi-reports-add-text-and-shapes.md) 텍스트를 추가합니다. 
@@ -35,7 +35,7 @@ Power BI 테이블 및 매트릭스의 하이퍼링크에 대한 자세한 내�
    텍스트 상자 메뉴가 나타납니다.
    
    ![텍스트 상자에서 텍스트 선택](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
-3. 하이퍼링크 아이콘 선택 ![텍스트 상자 메뉴 위](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png) 하이퍼링크 아이콘.
+3. 텍스트 상자 메뉴 위의 하이퍼링크 아이콘 ![텍스트 상자 메뉴 위](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png)을 선택합니다.
 
    하이퍼링크 필드가 텍스트 상자 메뉴에 표시됩니다.
 
