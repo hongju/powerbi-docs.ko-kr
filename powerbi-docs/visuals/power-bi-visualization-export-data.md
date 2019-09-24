@@ -22,7 +22,7 @@ ms.locfileid: "68730071"
 
 Power BI가 시각화를 만드는 데 사용하는 데이터를 보려는 경우 [Power BI에서 해당 데이터를 표시할 수 있습니다](service-reports-show-data.md). 해당 데이터를 Excel *.xlsx* 또는 *.csv* 파일로 내보낼 수도 있습니다. 데이터를 내보내는 옵션에는 Pro 또는 Premium 라이선스가 필요하며 데이터 세트 및 보고서에 대한 편집 권한이 필요합니다.
 
-Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx* 파일로 저장하고 Excel에서 여는 것을 지켜봅니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
+Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx* 파일로 저장하고 Excel에서 여는 것을 시청합니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KjheMTGjDXw" frameborder="0" allowfullscreen></iframe>
 
@@ -48,11 +48,11 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
 1. 새로운 **누적 세로 막대형 차트**를 만듭니다.
 
-1. **필드** 창에서 **Location > City** 및 **Invoice > Discount Percent**를 선택합니다.  **Discount Percent**를 **Value** 웰로 이동해야 할 수 있습니다.
+1. **필드** 창에서 **Location > City** 및 **Invoice > Discount Percent**를 선택합니다.  **Discount Percent**를 **값** 영역으로 이동해야 할 수 있습니다.
 
     ![City 및 Count of Discount Percent를 호출하여 빌드되는 시각화의 스크린샷](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 
-1. **할인율**에 대한 집계를 **개수**에서 **평균**으로 변경합니다. **Value** 웰에서 **Discount Percent**(**Count of Discount Percent**로 표시될 수 있음)의 오른쪽에 있는 화살표를 선택하고 **Average**를 선택합니다.
+1. **할인율**에 대한 집계를 **개수**에서 **평균**으로 변경합니다. **값** 영역에서 **Discount Percent**(**Count of Discount Percent**로 표시될 수 있음)의 오른쪽에 있는 화살표를 선택하고 **평균**을 선택합니다.
 
     ![Average 옵션이 호출된 집계 목록의 스크린샷](media/power-bi-visualization-export-data/power-bi-export-data6.png)
 
@@ -98,7 +98,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
     시각적 개체의 현재 드릴 수준에 사용되는 데이터뿐 아니라 계층 구조에 사용되는 모든 데이터를 내보냅니다. 예를 들어 시각화가 최상위 수준에서 드릴다운되지 않은 경우 내보낸 데이터에는 현재 드릴된 수준에서 시각적 개체를 만드는 데 사용된 데이터뿐 아니라 계층 구조의 모든 데이터가 포함됩니다.
 
     >[!WARNING]
-    >기본 데이터 내보내기를 사용하면 사용자가 모든 세부 데이터 즉, 데이터의 모든 열을 확인할 수 있습니다. Power BI 서비스 관리자는 조직에 대해 이 기능을 끌 수 있습니다. 데이터 세트 소유자인 경우 Desktop 또는 Power BI 서비스에서 **필드** 목록에 표시되지 않도록 전용 열을 **숨김**으로 설정할 수 있습니다.
+    >기본 데이터 내보내기를 사용하면 사용자가 모든 세부 데이터 즉, 데이터의 모든 열을 확인할 수 있습니다. Power BI 서비스 관리자는 조직에 대해 이 기능을 끌 수 있습니다. 데이터 세트 소유자인 경우 Power BI 서비스 또는 Desktop에서 **필드** 목록에 표시되지 않도록 전용 열을 **숨김**으로 설정할 수 있습니다.
 
     **기본 데이터**: 모델의 시각적 개체 ***및*** 추가 데이터에서 데이터를 확인하려면 이 옵션을 선택합니다(자세한 내용은 아래 차트 참조). 시각화에 집계가 있으면 *기본 데이터*를 선택하여 집계를 제거합니다. **내보내기**를 선택하면 Power BI가 데이터를 *.xlsx* 파일로 내보내고 브라우저에는 파일을 저장할지 묻는 메시지가 표시됩니다. 저장한 후 Excel에서 파일을 엽니다.
 
@@ -108,7 +108,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
 ## <a name="export-underlying-data-details"></a>기본 데이터 세부 정보 내보내기
 
-**기본 데이터**를 선택하면 표시되는 내용은 달라질 수 있습니다. 이 세부 정보를 이해하려면 관리자 또는 IT 부서의 지원을 받아야 할 수 있습니다. Power BI Desktop 또는 서비스의 보고 보기에서 ‘측정값’은 계산기 아이콘 ![아이콘 표시](media/power-bi-visualization-export-data/power-bi-calculator-icon.png)과 함께 **필드** 목록에 표시됩니다.  Power BI Desktop은 측정값을 만듭니다. Power BI 서비스는 측정값을 만들지 않습니다.
+**기본 데이터**를 선택하면 표시되는 내용은 달라질 수 있습니다. 이 세부 정보를 이해하려면 관리자 또는 IT 부서의 지원을 받아야 할 수 있습니다. Power BI Desktop 또는 서비스의 보고서 보기에서 ‘측정값’은 계산기 아이콘 ![아이콘 표시](media/power-bi-visualization-export-data/power-bi-calculator-icon.png)과 함께 **필드** 목록에 표시됩니다.  Power BI Desktop은 측정값을 만듭니다. Power BI 서비스는 측정값을 만들지 않습니다.
 
 | 시각적 개체 포함 | 내보내기에서 표시되는 내용  |
 |---------------- | ---------------------------|
