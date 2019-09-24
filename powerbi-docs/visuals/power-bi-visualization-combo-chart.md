@@ -58,7 +58,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 
 1. 올해의 판매액 및 매상 총이익을 월별로 표시하는 세로 막대형 차트를 만듭니다.
 
-    1. 필드 창에서 **Sales** \> **This Year Sales** > **Values**를 선택합니다.
+    1. 필드 창에서 **Sales** \> **This Year Sales** > **Value**를 선택합니다.
 
     1. **Sales** \> **Gross Margin This Year**을 **값** 영역에 끌어다 놓습니다.
 
@@ -72,7 +72,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 
     ![꺾은선형 차트 및 묶은 세로 막대형 차트 옵션이 호출된 시각화 창의 스크린샷](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 
-1. **필드** 창에서 **Sales** > **Last Year Sales**를 **꺽은선형 값** 웰로 끌어서 놓습니다.
+1. **필드** 창에서 **Sales** > **Last Year Sales**를 **꺽은선형 값** 영역으로 끌어서 놓습니다.
 
     ![Last Year Sales를 끌어서 놓은 선 값 웰의 스크린샷](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 
@@ -98,7 +98,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 
     ![꺾은선형 차트 및 누적 세로 막대형 차트 옵션이 호출된 시각화 창의 스크린샷](media/power-bi-visualization-combo-chart/converttocombo_new.png)
 
-1. **Gross Margin Last Year(%)** 을 **세로 막대 값**에서 **꺾은선형 값**으로 끌어다 놓습니다.
+1. **Gross Margin Last Year(%)** 을 **열 값**에서 **꺾은선형 값**으로 끌어다 놓습니다.
 
     ![꺾은선형 차트 및 누적 세로 막대형 차트의 스크린샷](media/power-bi-visualization-combo-chart/power-bi-combochart.png)
 
