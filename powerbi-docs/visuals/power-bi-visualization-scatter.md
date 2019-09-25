@@ -99,7 +99,7 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
 1. **자세히**에서 **범례**로 **구역**를 끌어다 놓습니다.
 
-    그러면 Power BI가 Y축에 **총매출 분산 %** 을 그리고 X축에 **평방 미터당 매출**을 그리는 분산형 차트를 표시합니다. 데이터 요소 색은 구역을 나타냅니다. 데이터 요소 색은 구역을 나타냅니다.
+    그러면 Power BI가 Y축에 **총매출 분산 %** 를 그리고 X축에 **평방 미터당 매출**을 그리는 분산형 차트를 표시합니다. 데이터 요소 색은 구역을 나타냅니다. 데이터 요소 색은 구역을 나타냅니다.
 
     ![분산형 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
@@ -107,7 +107,7 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
 ## <a name="create-a-bubble-chart"></a>거품형 차트 만들기
 
-1. **필드** 창에서 **판매량** > **올해 판매액** > **값**을 **크기** 웰로 끌어다 놓습니다. 데이터 요소는 판매 값과 비례하는 볼륨으로 확장합니다.
+1. **필드** 창에서 **판매량** > **올해 판매액** > **값**을 **크기** 영역으로 끌어다 놓습니다. 데이터 요소는 판매 값과 비례하는 볼륨으로 확장합니다.
 
    ![판매 값을 크기 웰에 추가하여 분산형 차트가 거품형 차트가 된 스크린샷](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
@@ -148,7 +148,7 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
 ![하나의 데이터 요소가 있는 분산형 차트의 스크린샷](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-**자세히** 웰에 필드를 추가하여 Power BI에 값을 그룹화하는 방법을 알립니다. 필드는 그리려는 각 지점에 고유해야 합니다. 단순 행 번호 또는 ID 필드가 유효합니다.
+**자세히** 영역에 필드를 추가하여 Power BI에 값을 그룹화하는 방법을 알립니다. 필드는 그리려는 각 지점에 고유해야 합니다. 단순 행 번호 또는 ID 필드가 유효합니다.
 
 ![자세히 웰에 RowNum이 추가된 분산형 차트의 스크린샷](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
@@ -156,7 +156,7 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
 ![자세히 웰에 TempTime이 추가된 분산형 차트의 스크린샷](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
 
-새 필드를 만들려면 [Power BI Desktop 쿼리 편집기를 사용하여 인덱스 열을](../desktop-add-custom-column.md) 데이터 세트에 추가합니다. 그런 다음, 이 열을 시각화의 **자세히** 웰에 추가합니다.
+새 필드를 만들려면 [Power BI Desktop 쿼리 편집기를 사용하여 인덱스 열을](../desktop-add-custom-column.md) 데이터 세트에 추가합니다. 그런 다음, 이 열을 시각화의 **자세히** 영역에 추가합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
