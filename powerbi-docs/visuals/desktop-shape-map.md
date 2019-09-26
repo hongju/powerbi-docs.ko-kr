@@ -86,7 +86,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ![데스크톱에서 데이터 입력을 선택합니다.](media/desktop-shape-map/shape-map-4-new.png)
 
-데이터에 여러 열이 있는 경우 Excel과 같은 편집기를 사용하여 데이터를 붙여넣은 다음, 각 데이터 열을 개별적으로 복사해야 합니다. 그러면 데이터를 Power BI Desktop 붙여넣을 수 있습니다. 맨 위 행이 헤더로 자동으로 식별됩니다.
+데이터에 여러 열이 있는 경우 Excel과 같은 편집기를 사용하여 데이터를 붙여넣은 다음, 각 데이터 열을 개별적으로 복사해야 합니다. 그러면 데이터를 Power BI Desktop에 붙여넣을 수 있습니다. 맨 위 행이 헤더로 자동으로 식별됩니다.
 
 ![테이블 창 만들기](media/desktop-shape-map/shape-map-5.png)
 
@@ -370,14 +370,14 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | us-la |Louisiana |LA |
 | us-ar |Arkansas |AR |
 | us-sc |South Carolina |SC |
-| us-ga |조지아 |GA |
+| us-ga |Georgia |GA |
 | us-ms |Mississippi |MS |
 | us-al |Alabama |AL |
 | us-nm |New Mexico |NM |
 | us-tx |Texas |TX |
 | us-tn |Tennessee |TN |
 | us-nc |North Carolina |NC |
-| us-ok |Oklahoma |확인 |
+| us-ok |Oklahoma |OK |
 | us-az |Arizona |AZ |
 | us-mo |Missouri |MO |
 | us-va |Virginia |VA |
