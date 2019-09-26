@@ -92,6 +92,8 @@
               href: end-user-insights.md
             - name: 미리 보기 기능 설정
               href: end-user-preview-features.md
+            - name: Power BI 서비스에서 알림 가져오기
+              href: end-user-notification-center.md
         - name: 데이터 가져오기
           items:
             - name: Power BI의 앱
