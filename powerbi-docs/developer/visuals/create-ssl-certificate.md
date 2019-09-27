@@ -1,20 +1,20 @@
 ---
 title: SSL 인증서 만들기
 description: 개발자 서버용 인증서를 수동으로 만들기 위한 해결 방법 지침
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 13926603d7a5bfee987439180151d64ef5c456c2
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: c96489e6577f4887d2f22a9e81ea50f46cc9a5a3
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237264"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194426"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL 인증서 만들기
 

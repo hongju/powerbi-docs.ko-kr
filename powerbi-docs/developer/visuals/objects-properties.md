@@ -1,20 +1,20 @@
 ---
 title: Power BI 시각적 개체의 개체 및 속성
 description: 이 문서에서는 Power BI 시각적 개체의 사용자 지정 가능한 속성을 설명합니다.
-author: MrMeison
-ms.author: rasala
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: e15d80af35ff7c56879dab4380d4ae0c9fdd0e8a
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: b2043c6727e4cf8c5c46c4e277b01a9ea04a969b
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236619"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193530"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI 시각적 개체의 개체 및 속성
 

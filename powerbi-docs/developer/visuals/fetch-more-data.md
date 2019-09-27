@@ -1,20 +1,20 @@
 ---
 title: Power BI에서 더 많은 데이터 가져오기
 description: 이 문서에서는 Power BI 시각적 개체에 대해 큰 데이터 세트의 분할된 가져오기를 사용하도록 설정하는 방법을 설명합니다.
-author: AviSander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 7e5ecc0e317a21d10e76e9413926822ac4d6760b
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: b67977abd93b3aa605430dd2d7fb516ca33bd51c
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237149"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194061"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Power BI에서 더 많은 데이터 가져오기
 

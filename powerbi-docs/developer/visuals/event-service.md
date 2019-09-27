@@ -26,7 +26,7 @@ ms.locfileid: "70237155"
 
 프로세스 중에 문제가 발생하면 Power BI 시각적 개체가 렌더링되지 않습니다. 렌더링 프로세스가 완료되지 않았음을 수신기에 알리려면, Power BI 시각적 개체 코드에서 `renderingFailed` 메서드를 호출해야 합니다. 이 메서드는 실패 이유를 나타내는 선택적 문자열도 제공합니다.
 
-## <a name="usage"></a>사용량
+## <a name="usage"></a>사용
 
 ```typescript
 export interface IVisualHost extends extensibility.IVisualHost {

@@ -1,20 +1,20 @@
 ---
 title: Power BI 시각적 개체의 시각적 개체 필터 API
 description: 이 문서에서는 Power BI 시각적 개체가 다른 시각적 개체를 필터링할 수 있는 방법을 설명합니다.
-author: sranins
-ms.author: rasala
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: fc0b21116888c8455d4d7b8efc5c476bfc592483
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 98ebc87cf5a6b7bf8f0b8b88d4ff498edfd5bf9a
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237117"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194041"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI 시각적 개체의 시각적 개체 필터 API
 
