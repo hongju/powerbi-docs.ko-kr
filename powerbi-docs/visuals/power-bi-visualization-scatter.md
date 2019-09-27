@@ -99,7 +99,7 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
 1. **자세히**에서 **범례**로 **구역**를 끌어다 놓습니다.
 
-    그러면 Power BI가 Y축에 **총매출 분산 %** 를 그리고 X축에 **평방 미터당 매출**을 그리는 분산형 차트를 표시합니다. 데이터 요소 색은 구역을 나타냅니다. 데이터 요소 색은 구역을 나타냅니다.
+    그러면 Power BI가 Y축에 **총매출 분산 %**를 그리고 X축에 **평방 미터당 매출**을 그리는 분산형 차트를 표시합니다. 데이터 요소 색은 구역을 나타냅니다. 데이터 요소 색은 구역을 나타냅니다.
 
     ![분산형 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
@@ -156,7 +156,7 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
 ![자세히 웰에 TempTime이 추가된 분산형 차트의 스크린샷](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
 
-새 필드를 만들려면 [Power BI Desktop 쿼리 편집기를 사용하여 인덱스 열을](../desktop-add-custom-column.md) 데이터 세트에 추가합니다. 그런 다음, 이 열을 시각화의 **자세히** 영역에 추가합니다.
+새 필드를 만들려면 데이터 세트에 [Power BI Desktop 쿼리 편집기를 사용하여 인덱스 열을 추가](../desktop-add-custom-column.md)합니다. 그런 다음, 이 열을 시각화의 **자세히** 영역에 추가합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
