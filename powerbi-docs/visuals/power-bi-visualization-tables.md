@@ -70,6 +70,7 @@ ms.locfileid: "68867200"
 
     ![값 웰](media/power-bi-visualization-tables/power-bi-table2.png)
 
+1. 핀 고정 아이콘을 선택하여 테이블을 대시보드에 고정 ![압정](media/power-bi-visualization-tables/pbi_pintile.png) 시각적 개체의 오른쪽 위 모퉁이에서.
 
 ## <a name="format-the-table"></a>테이블 서식 지정
 
