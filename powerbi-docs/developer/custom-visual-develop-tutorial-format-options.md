@@ -1,22 +1,22 @@
 ---
 title: Power BI 사용자 지정 시각적 개체에 서식 옵션 추가
 description: Power BI 사용자 지정 시각적 개체 서식 옵션을 개발하는 방법에 대한 자습서
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5fa14e3aa8a303206d52359d04db05850e096d81
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61380147"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194592"
 ---
-# <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>자습서:  Power BI 사용자 지정 시각적 개체에 서식 옵션 추가
+# <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>자습서:  Power BI 시각적 개체에 서식 옵션 추가
 
 이 자습서에서는 시각적 개체에 공통 속성을 추가하는 방법을 살펴봅니다.
 
@@ -263,4 +263,4 @@ ms.locfileid: "61380147"
 
 ## <a name="next-steps"></a>다음 단계
 
-**AppSource**에 제출하여 다른 사용자가 사용할 새로 개발된 시각적 개체를 나열할 수 있습니다. 이 프로세스에 대한 자세한 내용은 [사용자 지정 시각적 개체를 AppSource에 게시](office-store.md)를 참조하세요.
+**AppSource**에 제출하여 다른 사용자가 사용할 새로 개발된 시각적 개체를 나열할 수 있습니다. 이 프로세스에 대한 자세한 내용은 [Power BI 시각적 개체를 AppSource에 게시](office-store.md)를 참조하세요.

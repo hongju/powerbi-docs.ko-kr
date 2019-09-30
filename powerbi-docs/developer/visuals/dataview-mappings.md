@@ -1,20 +1,20 @@
 ---
 title: Power BI 시각적 개체의 데이터 뷰 매핑 이해
 description: 이 문서에서는 시각적 개체에 전달하기 전에 Power BI에서 데이터를 변환하는 방법을 설명합니다.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237227"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193539"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Power BI 시각적 개체의 데이터 뷰 매핑 이해
 
@@ -283,7 +283,7 @@ Power BI는 단일 `categorical` 매핑을 사용하여 데이터 뷰를 생성�
 
 | 범주별 |  |  | | | |
 |-----|-----|------|------|------|------|
-| | 연도 | 2013 | 2014 | 2015 | 2016 |
+| | Year | 2013 | 2014 | 2015 | 2016 |
 | 국가 | | |
 | 미국 | | x | x | 125 | 100 |
 | 캐나다 | | x | 50 | 200 | x |
@@ -397,7 +397,7 @@ Power BI는 범주 데이터 뷰로 생성합니다. 범주 집합입니다.
 
 다음과 같이 테이블 데이터 뷰를 시각화할 수 있습니다.  
 
-| 국가| 연도 | 판매 |
+| 국가| Year | 판매 |
 |-----|-----|------|
 | 미국 | 2016 | 100 |
 | 미국 | 2015 | 50 |
@@ -618,7 +618,7 @@ Power BI의 핵심 행렬 시각적 개체는 데이터를 테이블로 렌더�
 
 데이터 뷰에 받을 데이터 양을 제어하기 위해 데이터 감소 알고리즘을 적용할 수 있습니다.
 
-기본적으로 모든 사용자 지정 시각적 개체에는 *count*가 1000개 데이터 요소로 설정된 top 데이터 감소 알고리즘이 적용되어 있습니다. *capabilities.json* 파일에서 다음 속성을 설정하는 것과 같습니다.
+기본적으로 모든 Power BI 시각적 개체에는 *count*가 1000개 데이터 요소로 설정된 top 데이터 감소 알고리즘이 적용되어 있습니다. *capabilities.json* 파일에서 다음 속성을 설정하는 것과 같습니다.
 
 ```json
 "dataReductionAlgorithm": {
@@ -628,7 +628,7 @@ Power BI의 핵심 행렬 시각적 개체는 데이터를 테이블로 렌더�
 }
 ```
 
-*count* 값을 최대 30000까지 임의의 정수 값으로 수정할 수 있습니다. R 기반 사용자 지정 시각적 개체는 최대 150000개의 행을 지원할 수 있습니다.
+*count* 값을 최대 30000까지 임의의 정수 값으로 수정할 수 있습니다. R 기반 Power BI 시각적 개체는 최대 150000개의 행을 지원할 수 있습니다.
 
 ## <a name="data-reduction-algorithm-types"></a>데이터 감소 알고리즘 유형
 

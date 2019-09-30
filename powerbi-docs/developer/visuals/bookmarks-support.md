@@ -1,24 +1,24 @@
 ---
 title: Power BI 시각적 개체에 대해 책갈피 지원 추가
 description: Power BI 시각적 개체는 책갈피 전환을 처리할 수 있습니다.
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: c19b67a59d0ecb4cbfbcf5ad8dd18886f440e164
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237286"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194449"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Power BI 시각적 개체에 대해 책갈피 지원 추가
 
-Power BI 보고서 책갈피를 사용하면 구성된 보고서 페이지 뷰, 시각적 개체의 선택 상태 및 필터링 상태를 캡처할 수 있습니다. 그러나 책갈피를 지원하고 변경 내용에 올바르게 대응하려면 사용자 지정 시각적 개체 쪽의 추가 작업이 필요합니다.
+Power BI 보고서 책갈피를 사용하면 구성된 보고서 페이지 뷰, 시각적 개체의 선택 상태 및 필터링 상태를 캡처할 수 있습니다. 그러나 책갈피를 지원하고 변경 내용에 올바르게 대응하려면 Power BI 시각적 개체 쪽의 추가 작업이 필요합니다.
 
 책갈피에 대한 자세한 내용은 [책갈피를 사용하여 Power BI에서 인사이트 및 빌드 스토리 공유](https://docs.microsoft.com/power-bi/desktop-bookmarks)를 참조하세요.
 
@@ -32,7 +32,7 @@ Power BI 보고서 책갈피를 사용하면 구성된 보고서 페이지 뷰, 
 
 2. `SelectionManager` 인스턴스에서 `registerOnSelectCallback`을 사용하려면 시각적 개체 API를 버전 1.11.0으로 업데이트합니다. 이 작업은 `InteractivityService`가 아닌 일반 `SelectionManager`를 사용하는 필터 이외의 시각적 개체에 필요합니다.
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>보고서 책갈피에서 사용자 지정 시각적 개체가 Power BI와 상호 작용하는 방법
+### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>보고서 책갈피에서 Power BI 시각적 개체가 Power BI와 상호 작용하는 방법
 
 다음 시나리오를 살펴봅시다. 각 책갈피에서 다른 선택 상태를 사용하여 보고서 페이지에 여러 개의 책갈피를 만들려고 합니다.
 

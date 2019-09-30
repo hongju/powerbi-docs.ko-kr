@@ -1,26 +1,26 @@
 ---
 title: Power BI 시각적 개체 개발
 description: Power BI 사용자 지정 시각적 개체를 개발하는 방법에 대한 자습서
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5d9ed20435069fa31707d9532141558351ec63ba
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415423"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194479"
 ---
-# <a name="tutorial-developing-a-power-bi-visual"></a>자습서: Power BI 시각적 개체 개발
+# <a name="tutorial-developing-a-power-bi-visual"></a>자습서:  Power BI 시각적 개체 개발
 
-이제 개발자가 사용자 지정 시각적 개체를 Power BI에 쉽게 추가하여 대시보드 및 보고서에서 사용할 수 있습니다. 개발자를 돕기 위해 모든 시각화 관련 코드를 GitHub에 게시했습니다.
+이제 개발자가 Power BI 시각적 개체를 Power BI에 쉽게 추가하여 대시보드 및 보고서에서 사용할 수 있습니다. 개발자를 돕기 위해 모든 시각화 관련 코드를 GitHub에 게시했습니다.
 
-또한 시각화 프레임워크와 함께 테스트 도구 모음 및 도구를 제공하여 커뮤니티에서 고품질의 Power BI용 사용자 지정 시각적 개체를 빌드하도록 지원합니다.
+또한 시각화 프레임워크와 함께 테스트 도구 모음 및 도구를 제공하여 커뮤니티에서 고품질의 Power BI용 Power BI 시각적 개체를 빌드하도록 지원합니다.
 
 이 자습서에서는 원 안에 서식이 지정된 측정값을 표시하기 위해 Circle Card라는 Power BI 사용자 지정 시각적 개체를 개발하는 방법을 보여 줍니다. Circle Card 시각적 개체는 해당 윤곽선의 채우기 색 및 두께를 사용자 지정하도록 지원합니다.
 
