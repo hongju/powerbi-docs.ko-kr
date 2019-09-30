@@ -83,7 +83,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 ## <a name="step-2-create-a-chart-in-a-report"></a>2단계: 보고서에서 차트 만들기
 데이터에 연결되었으므로 탐색을 시작합니다.  관심 있는 항목을 발견했다면 대시보드를 만들어 이를 모니터링하고 시간이 지남에 따라 어떻게 변경되는지 확인할 수 있습니다. 작동 원리를 살펴보겠습니다.
     
-1. 보고서 편집기에서 페이지의 오른쪽에 있는 **필드** 창을 사용하여 시각화를 구축할 수 있습니다. **총 판매량** 및 **날짜** 확인란을 선택합니다.
+1. 보고서 편집기에서 페이지의 오른쪽에 있는 **필드** 창을 사용하여 시각화를 구축할 수 있습니다. **Gross Sales** 및 **Date** 확인란을 선택합니다.
    
    ![필드 목록](media/service-get-started/power-bi-service-fields-pane-selected.png)
 
@@ -138,15 +138,15 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
     > [!NOTE]
     > 제안이 표시되지 않는 경우 **새 질문 및 답변 환경**을 켭니다.
 
-2. 일부 제안은 단일 값을 반환합니다. 예를 들어 **최대 판매**를 선택합니다.
+2. 일부 제안은 단일 값을 반환합니다. 예를 들어 **maximum sale**을 선택합니다.
 
     질문 및 답변에서 답변을 검색하고 *카드* 시각화 형태로 제공합니다.
 
     ![최대 판매 카드](media/service-get-started/power-bi-service-qanda-maximum-sale.png)
 
-3. 고정 아이콘 ![고정 아이콘](media/service-get-started/pbi_pinicon.png) 자습서용 재무 샘플 대시보드에 이 시각화를 표시합니다.
+3. 고정 아이콘 ![고정 아이콘](media/service-get-started/pbi_pinicon.png) 을 선택하여 자습서용 재무 샘플 대시보드에 이 시각화를 표시합니다.
 
-1. **시작할 질문** 목록에서 아래로 스크롤한 다음 **매월 평균 COG**를 선택합니다. 
+1. **시작할 질문** 목록에서 아래로 스크롤한 다음 **average cog for each month**를 선택합니다. 
 
     ![매월 평균 COG](media/service-get-started/power-bi-service-qanda-average-cog.png)
 

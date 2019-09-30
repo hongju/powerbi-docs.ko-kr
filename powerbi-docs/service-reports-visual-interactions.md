@@ -41,7 +41,7 @@ ms.locfileid: "61405995"
 
        ![시각적 개체 상호 작용 드롭다운](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
 
-    - Power BI Desktop 에서 **서식 > 상호 작용 편집** 을 선택합니다.
+    - Power BI Desktop 에서 **형식 > 상호 작용 편집** 을 선택합니다.
 
         ![형식 및 상호 작용 선택](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI에서 타사 커넥터를 신뢰할 수 있는
-description: Power BI에서 서명 된 타사 커넥터를 신뢰 하는 방법
+title: Power BI에서 신뢰하는 타사 커넥터
+description: Power BI에서 서명된 타사 커넥터를 신뢰하는 방법
 author: cpopell
 manager: kfile
 ms.reviewer: ''
@@ -12,24 +12,24 @@ ms.author: gepopell
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 30b7457c6149320c43f24b967a842382821b01b1
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65607780"
 ---
-# <a name="trusting-third-party-connectors"></a>타사 커넥터를 신뢰합니다.
+# <a name="trusting-third-party-connectors"></a>타사 커넥터 신뢰
 
-## <a name="why-do-you-need-trusted-third-party-connectors"></a>신뢰할 수 있는 타사 커넥터는 왜 필요 한가요?
+## <a name="why-do-you-need-trusted-third-party-connectors"></a>신뢰할 수 있는 타사 커넥터가 필요한 이유
 
-Power BI에서 일반적으로 권장 '데이터 확장 프로그램 '보안 수준 되지 Microsoft에서 인증 코드의 로드를 방지 하는 더 높은 수준으로 유지 합니다. 그러나 특정 커넥터-작성, 또는 컨설턴트 또는 Microsoft 인증 경로 외부 공급 업체에서 제공 하는 것을 로드 하려는 많은 경우가 있을 수 있습니다.
+Power BI에서는 일반적으로 Microsoft에서 인증하지 않은 코드의 로드를 방지하는 '데이터 확장 보안' 수준을 더 높은 수준으로 유지할 것을 권장합니다. 그러나 사용자가 작성한 커넥터 또는 Microsoft 인증 경로 외부에 있는 컨설턴트 또는 공급업체에서 제공하는 커넥터를 로드하려는 많은 경우가 있을 수 있습니다.
 
-지정 된 커넥터의 개발자는 인증서를 사용 하 여 로그인 하 고 보안 설정을 낮춰 없이 안전 하 게 로드 하는 데 필요한 정보를 사용 하 여 제공 수 있습니다.
+지정된 커넥터의 개발자는 인증서로 서명하고 보안 설정을 낮추지 않고 안전하게 로드하는 데 필요한 정보를 제공할 수 있습니다.
 
-보안 설정에 대 한 자세한 정보를 알아야 하는 경우에 대 한 읽을 수 있습니다 [여기](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)합니다.
+보안 설정에 대한 자세한 정보를 알아야 하는 경우 [여기](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)를 참고합니다.
 
-## <a name="using-the-registry-to-trust-third-party-connectors"></a>타사 커넥터를 신뢰 하도록 레지스트리를 사용 하 여
+## <a name="using-the-registry-to-trust-third-party-connectors"></a>타사 커넥터를 신뢰하도록 레지스트리 사용
 
-Power BI에서 타사 커넥터 신뢰는 지정 된 레지스트리 값에서 신뢰 하려면 인증서의 지문을 나열 하 여 수행 됩니다. 이 지문을 로드 하려는 커넥터에 인증서의 지문과 일치 하는 경우 Power BI에서 '권장' 보안 수준의 로드 수 있습니다. 
+Power BI에서 타사 커넥터 신뢰는 신뢰하고자 하는 인증서의 지문을 지정된 레지스트리 값에 나열하여 수행됩니다. 이 지문이 로드하려는 커넥터의 인증서의 지문과 일치하는 경우 Power BI의 '권장' 보안 수준에서 로드할 수 있습니다. 
 
 레지스트리 경로 HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Power BI 데스크톱입니다. 경로가 존재 하는지 확인 하거나 만들어야 합니다. 편집 하려면 로컬 컴퓨터 관리 액세스가 필요한 뿐만 아니라 IT 정책에서 기본적으로 제어 하 고이 인해이 위치를 선택 했습니다. 
 
@@ -43,8 +43,8 @@ Power BI에서 타사 커넥터 신뢰는 지정 된 레지스트리 값에서 �
 
  ![신뢰할 수 있는 제 3 자 키를 사용 하 여 power BI 데스크톱 레지스트리 설정](media/desktop-trusted-third-party-connectors/desktoptrustedthird3.png)
 
-지침을 올바르게 수행 했다면 하 여 개발자가 올바른 지문을 지정 된 경우 안전 하 게 연결 된 인증서로 서명 하는 신뢰 커넥터 있어야 이제 합니다.
+지침을 올바르게 수행하고 개발자로부터 올바른 지문을 받은 경우, 이제 관련 인증서로 서명된 커넥터를 안전하게 신뢰할 수 있습니다.
 
 ## <a name="how-to-sign-connectors"></a>커넥터를 서명 하는 방법
 
-파워 쿼리 문서에에 대 한 읽을 수 있습니다 로그온 해야 하는 개발자 또는 커넥터를 만든 경우 [여기](https://docs.microsoft.com/power-query/handlingconnectorsigning)합니다.
+서명해야 하는 커넥터가 있는 경우 또는 개발자가 서명해야 하는 경우, [여기](https://docs.microsoft.com/power-query/handlingconnectorsigning)서 파워 쿼리 문서에 대해 읽을 수 있습니다.

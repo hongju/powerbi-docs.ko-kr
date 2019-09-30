@@ -96,11 +96,11 @@ ms.locfileid: "68867185"
 
 1. **데이터에 대해 질문하기**에 커서를 놓습니다. Power BI는 **시작할 질문**을 제공합니다. 
 
-1. **포함된 사용자 수**를 선택합니다.
+1. **how many users are there**를 선택합니다.
  
     ![포함된 사용자 수](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
-13. **수**와 **포함된 사용자** 사이에 **단위당 끌어오기 요청**을 입력합니다. 
+13. **how many**와 **users are there** 사이에 **pull requests per**를 입력합니다. 
 
      Power BI에서 사용자별 끌어오기 요청 수를 나타내는 가로 막대형 차트를 만듭니다.
 
