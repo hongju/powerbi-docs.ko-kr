@@ -12,14 +12,14 @@ ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
 ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454555"
 ---
 # <a name="certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체
 
-## <a name="what-are-certified-custom-visuals"></a>**_인증된_** 사용자 지정 시각적 개체란 무엇인가요?
+## <a name="what-are-_certified_-custom-visuals"></a>**_인증된_** 사용자 지정 시각적 개체란 무엇인가요?
 
 인증된 사용자 지정 시각적 개체는 **Microsoft Power BI 팀**이 테스트하고 승인한 특정 **지정 코드** 요구 사항을 충족하는 **Marketplace**의 시각적 개체입니다. 사용자 지정 시각적 개체가 인증되면 더 많은 기능을 제공합니다. 예를 들어 [PowerPoint로 내보내기](consumer/end-user-powerpoint.md)할 수 있으며 사용자가 [보고서 페이지를 구독](consumer/end-user-subscribe.md)할 때 받은 이메일에 시각적 개체를 표시할 수 있습니다.
 
@@ -44,34 +44,34 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-ha
 사용자 지정 시각적 개체 [인증](#certified-custom-visuals)을 받으려면 사용자 지정 시각적 개체가 다음을 준수하는지 확인합니다.  
 
 * Microsoft AppSource가 승인되었습니다. 사용자 지정 시각적 개체는 [마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 있어야 합니다.
-* 버전 관리를 사용 하 여 사용자 지정 시각적 개체를 쓸지 **API v2.5** 이상.
-* (에 대 한 인스턴스를 사람이 읽을 수 있는 형식에서 소스 코드 (JavaScript 또는 TypeScript) GitHub를 통해 우리에 게 사용할 수 있는) 코드 리포지토리는 Power BI 팀에서 검토할 수 있습니다.
+* 사용자 지정 시각적 개체는 **API v2.5** 이상 버전으로 작성됩니다.
+* 코드 리포지토리를 Power BI 팀이 검토할 수 있습니다(예를 들어 GitHub를 통해 사람이 읽을 수 있는 형식의 소스 코드(JavaScript 또는 TypeScript)로 제공).
 
     >[!Note]
     > Github에서 코드를 공용으로 공유할 필요는 없습니다.
 * 코드 리포지토리 요구 사항:
-   * 파일의 최소 필수 집합을 포함 해야 합니다.
+   * 필요한 최소한의 파일 집합을 포함해야 합니다.
       * .gitignore
       * capabilities.json
       * pbiviz.json
       * package.json
       * package-lock.json
       * tsconfig.json
-   * Node_modules 폴더를 포함할 수 없습니다 (node_modules.gitingore 파일 추가)
-   * **npm 설치** 명령은 모든 오류를 반환 하지 않아야 합니다.
-   * **npm 감사** 명령 높거나 보통 수준의 모든 경고를 반환 하지 않아야 합니다.
-   * **pbiviz 패키지** 명령은 모든 오류를 반환 하지 않아야 합니다.
-   * 포함 해야 합니다 [Microsoft에서 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib) 재정의 된 구성이 없는 고이 명령은 모든 lint 오류를 반환 하지 않아야 합니다.
-   * 사용자 지정 시각적 개체의 컴파일된 패키지에는 제출된 패키지와 일치 해야 합니다 (두 파일의 md5 해시 같은 이어야 함).
+   * node_modules 폴더를 포함하지 않아야 합니다(.gitingore 파일에 node_modules 추가).
+   * **npm install** 명령이 오류를 반환하지 않아야 합니다.
+   * **npm audit** 명령이 높음 또는 보통 수준의 경고를 반환하지 않아야 합니다.
+   * **pbiviz package** 명령이 오류를 반환하지 않아야 합니다.
+   * 재정의된 구성이 없는 [TSlint from Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib)를 포함해야 하며,이 명령이 어떤 lint 오류도 반환해서는 안 됩니다.
+   * 사용자 지정 시각적 개체의 컴파일된 패키지가 제출된 패키지와 일치해야 합니다(두 파일의 md5 해시가 동일해야 함).
 * 소스 코드 요구 사항:
-   * 시각적 개체를 지원 해야 합니다 [렌더링 이벤트 API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/)합니다.
-   * 임의의/동적 코드 없이 실행 됩니다 (잘못 된: eval (), settimeout() requestAnimationFrame(), setinterval (사용자 입력을 사용 하 여 일부 함수), 실행 중인 사용자 입력/데이터 사용 하 여 안전 하지 않은).
-   * DOM은 안전 하 게 조작 확인 (잘못 된: innerHTML, D3.html (< 일부 사용자/데이터 입력 >)를 DOM을 추가 하기 전에 사용자 입력/데이터에 대 한 삭제 사용
-   * 모든 입력된 데이터에 대 한 브라우저 콘솔에서 javascript 오류/예외가 있는지 확인 하십시오. 사용자가 시각적 개체 실패 해서는 안 되므로 예기치 않은 데이터의 다른 범위를 사용 하 여 시각적 개체를 사용할 수 있습니다. 사용할 수 있습니다 [이 샘플 보고서](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) 테스트 데이터 집합으로 합니다.
+   * 시각적 개체가 [Rendering Events API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/)를 지원해야 합니다.
+   * 임의/동적 코드가 실행되지 않아야 합니다(불량: eval(), 안전하지 않은 사용: settimeout(), requestAnimationFrame(), setinterval(사용자 입력이 있는 일부 함수), 사용자 입력/데이터 실행).
+   * DOM이 안전하게 조작되었는지 확인해야 합니다(불량: innerHTML, D3.html(<일부 사용자/데이터 입력>), DOM에 추가하기 전에 사용자 입력/데이터에 대한 삭제를 사용).
+   * 브라우저 콘솔에 입력 데이터에 대한 javascript 오류/예외가 없어야 합니다. 사용자가 시각적 개체를 예기치 않은 다른 데이터 범위와 함께 사용할 수 있으므로 시각적 개체가 실패하지 않아야 합니다. [이 샘플 보고서](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)를 테스트 데이터 세트로 사용할 수 있습니다.
 
-* Capabilities.json에서 속성을 변경 하면 기존 사용자의 보고서 중단 되지 않는 있는지 확인 합니다.
+* capabilities.json에서 속성을 변경한 경우 이로 인해 기존 사용자의 보고서가 손상되지 않아야 합니다.
 
-* 시각적 개체는 준수 해야 합니다 [Power BI 시각적 개체에 대 한 지침](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases)합니다. **워터 마크 없음 수**입니다.
+* 시각적 개체가 [Power BI 시각적 개체에 대한 지침](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases)을 준수해야 합니다. **워터마크는 허용되지 않습니다**.
 
 * 공용 검토 가능한 OSS 구성 요소만(공용 JS 라이브러리 또는 TypeScript는 소스 코드를 검토할 수 있으며 알려진 취약점이 없음) 사용합니다. 상용 구성 요소를 사용하여 사용자 지정 시각적 개체를 확인할 수 없습니다.
 

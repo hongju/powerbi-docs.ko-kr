@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 80182ae0898ab5c88acb85ce24a55fe615cf2a0b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 589f34db5009a9203ee33c13dc4931e42d68ddcb
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61415652"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076090"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 있는 .CSV 파일에서 만든 데이터 세트 새로 고침
 ## <a name="what-are-the-advantages"></a>장점은 무엇인가요?
@@ -36,7 +36,7 @@ Power BI에서 로그인하는 데 사용한 동일한 계정이 비즈니스용
 
 Microsoft 계정으로 로그인하는 경우 로그인 상태 유지를 선택해야 합니다. Power BI에서 Power BI은 데이터 세트와 업데이트를 동기화할 수 있습니다.
 
-![](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
+![로그인 예](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
 
 Microsoft 계정 자격 증명이 변경되어 Power BI의 데이터 세트와 동기화할 수 없는 OneDrive에서 .csv 파일을 변경한 경우 파일에 연결하고 개인 OneDrive에서 다시 가져와야 합니다.
 

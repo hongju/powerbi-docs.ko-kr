@@ -1,21 +1,21 @@
 ---
 title: Power BI를 포함하는 서비스 주체
 description: Power BI 콘텐츠 포함에 사용하기 위해 서비스 주체를 사용하여 Azure Active Directory 내에서 애플리케이션을 등록하는 방법을 알아봅니다.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823306"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073097"
 ---
 # <a name="service-principal-with-power-bi"></a>Power BI를 포함하는 서비스 주체
 
@@ -67,7 +67,7 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
 
 ## <a name="get-started-with-a-service-principal"></a>서비스 주체로 시작
 
-기존 마스터 계정 사용과 달리 서비스 주체(앱 전용 토큰)를 사용하려면 몇 가지 다른 항목을 설정해야 합니다. 서비스 주체(앱 전용 토큰)로 시작하려면 적합한 환경을 설정해야 합니다.
+기존의 마스터 계정 사용과 달리 서비스 주체(앱 전용 토큰)를 사용하려면 몇 가지 다른 항목을 설정해야 합니다. 서비스 주체(앱 전용 토큰)로 시작하려면 적합한 환경을 설정해야 합니다.
 
 1. AAD(Azure Active Directory)에 [서버 사이드 웹 애플리케이션을 등록](register-app.md)하여 Power BI와 함께 사용합니다. 애플리케이션을 등록한 후 애플리케이션 ID, 애플리케이션 암호 및 서비스 주체 개체 ID를 캡처하여 Power BI 콘텐츠에 액세스할 수 있습니다. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)을 사용하여 서비스 주체를 만들 수 있습니다.
 

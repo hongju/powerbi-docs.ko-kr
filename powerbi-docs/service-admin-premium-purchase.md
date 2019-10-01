@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565277"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175229"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
 
@@ -42,7 +42,7 @@ Premium 구독이 만료되면 30일 동안 용량에 대한 전체 액세스 �
 
     ![Office 365 앱 선택](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    또는 Microsoft 365 관리 센터로 이동할 수 있습니다. [https://portal.office.com](https://portal.office.com ) 으로 이동하여 **관리자**를 선택하면 도달할 수 있습니다.
+    또는 Microsoft 365 관리 센터로 이동할 수 있습니다. https://portal.office.com 으로 이동하여 **관리자**를 선택하면 도달할 수 있습니다.
 
 1. **청구** > **서비스 구매**를 선택합니다.
 
@@ -101,9 +101,10 @@ Microsoft 365 관리 센터 내에서 구독을 취소할 수 있습니다. 프�
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI 가격 책정 페이지](https://powerbi.microsoft.com/pricing/)   
-[Power BI Premium 계산기](https://powerbi.microsoft.com/calculator/)   
-[Power BI Premium FAQ](service-premium-faq.md)   
+[Power BI Premium에서 용량 구성 및 관리](service-admin-premium-manage.md)\
+[Power BI 가격 책정 페이지](https://powerbi.microsoft.com/pricing/)\
+[Power BI Premium 계산기](https://powerbi.microsoft.com/calculator/)\
+[Power BI Premium FAQ](service-premium-faq.md)\
 [Power BI 엔터프라이즈 배포 계획 백서](https://aka.ms/pbienterprisedeploy)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

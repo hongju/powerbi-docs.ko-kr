@@ -1,6 +1,6 @@
 ---
-title: 온-프레미스 데이터 원본의 SSO(Single Sign-On)에 SAML 사용
-description: SAML(Security Assertion Markup Language)을 사용하여 Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)를 사용하도록 게이트웨이를 구성합니다.
+title: 온-프레미스 데이터 원본에 대한 SSO에 SAML 사용
+description: SAML(Security Assertion Markup Language)을 사용하여 Power BI에서 온-프레미스 데이터 원본으로 SSO를 사용하도록 게이트웨이를 구성합니다.
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -8,16 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 09/16/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a240d84b20f63542c33bb7cbbb9a9c97af7db2f7
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 75641468b52d4174779b9ddd03ed7aab27b6c5d0
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757689"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100411"
 ---
-# <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 SAML(Security Assertion Markup Language)을 사용합니다.
+# <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO에 SAML(Security Assertion Markup Language)을 사용합니다.
 
 SAML([Security Assertion Markup Language](https://www.onelogin.com/pages/saml))을 사용하여 원활한 Single Sign-On 연결을 구현합니다. SSO를 사용하도록 설정하면 Power BI 보고서 및 대시보드가 온-프레미스 원본의 데이터를 손쉽게 새로 고칠 수 있습니다.
 
@@ -27,7 +27,7 @@ SAML([Security Assertion Markup Language](https://www.onelogin.com/pages/saml))�
 
 [Kerberos](service-gateway-sso-kerberos.md)에 추가 데이터 원본이 지원됩니다.
 
-HANA의 경우 SAML SSO 연결을 설정하기 전에 암호화를 사용하는 것이 **매우** 좋습니다(즉, 암호화된 연결을 허용하도록 HANA 서버를 구성하고 HANA 서버와 통신할 때 암호화를 사용하도록 게이트웨이를 구성해야 함). HANA ODBC 드라이버는 기본적으로 SAML 어설션을 암호화할 수 **없으며**, 암호화가 설정되지 않으면 서명된 SAML 어설션이 게이트웨이에서 "명확히" HANA 서버로 전송되고 제3자에 의한 인터셉션 및 재사용에 취약합니다.
+HANA의 경우 SAML SSO 연결을 설정하기 전에 암호화를 사용하는 것이 **매우** 좋습니다(즉, 암호화된 연결을 허용하도록 HANA 서버를 구성하고 HANA 서버와 통신할 때 암호화를 사용하도록 게이트웨이를 구성해야 함). HANA ODBC 드라이버는 기본적으로 SAML 어설션을 암호화할 수 **없으며**, 암호화가 설정되지 않으면 서명된 SAML 어설션이 게이트웨이에서 "명확히" HANA 서버로 전송되고 제3자에 의한 인터셉션 및 재사용에 취약합니다. OpenSSL 라이브러리를 사용하여 HANA에 대한 암호화를 사용하도록 설정하는 방법에 대한 지침은 [SAP HANA에 대한 암호화 사용](/power-bi/desktop-sap-hana-encryption)을 참조하세요.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>게이트웨이 및 데이터 원본 구성
 
@@ -35,16 +35,17 @@ SAML을 사용하려면 SSO를 활성화하려는 HANA 서버와 이 시나리�
 
 또한 이 가이드에서는 HANA 서버의 암호화 공급자로 OpenSSL을 사용하지만, OpenSSL 대신 SAP 암호화 라이브러리(CommonCryptoLib 또는 sapcrypto라고도 함)를 사용하여 트러스트 관계를 설정하는 설치 단계를 완료하도록 SAP에서 권장합니다. 자세한 내용은 공식 SAP 설명서를 참조하세요.
 
-다음 단계에서는 HANA 서버에서 신뢰하는 루트 CA를 사용하여 게이트웨이 IdP의 X509 인증서에 서명하여 HANA 서버와 게이트웨이 IdP 간의 트러스트 관계를 설정하는 방법을 설명합니다.
+다음 단계에서는 HANA 서버에서 신뢰하는 루트 CA를 사용하여 게이트웨이 IdP의 X509 인증서에 서명하여 HANA 서버와 게이트웨이 IdP 간의 트러스트 관계를 설정하는 방법을 설명합니다. 이 루트 CA를 만듭니다.
 
 1. 루트 CA의 X509 인증서 및 프라이빗 키를 만듭니다. 예를 들어 루트 CA의 X509 인증서 및 프라이빗 키를 .pem 형식으로 만들려면 다음을 수행합니다.
 
    ```
    openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
    ```
-  루트 CA의 인증서가 제대로 보호되는지 확인합니다. 제3자가 이 인증서를 획득할 경우 HANA 서버에 대한 무단 액세스를 얻는 데 사용할 수 있습니다. 
 
-  HANA 서버에서 방금 만든 루트 CA가 서명한 인증서를 신뢰하도록 HANA 서버의 트러스트 저장소에 인증서(예: CA_Cert.pem)를 추가합니다. HANA 서버의 트러스트 저장소 위치는 **ssltruststore** 구성 설정을 검사하여 찾을 수 있습니다. OpenSSL을 구성하는 방법을 다루는 SAP 설명서를 준수했다면 HANA 서버는 재사용할 수 있는 루트 CA를 이미 신뢰했을 수 있습니다. 자세한 내용은 [How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571)(SAP HANA Studio용 Open SSL을 SAP HANA Server에 구성하는 방법)를 참조하세요. SAML SSO를 활성화할 HANA 서버가 여러 개 있는 경우, 각 서버가 이 루트 CA를 신뢰하는지 확인합니다.
+    루트 CA의 인증서가 제대로 보호되는지 확인합니다. 제3자가 이 인증서를 획득할 경우 HANA 서버에 대한 무단 액세스를 얻는 데 사용할 수 있습니다. 
+
+    HANA 서버에서 방금 만든 루트 CA가 서명한 인증서를 신뢰하도록 HANA 서버의 트러스트 저장소에 인증서(예: CA_Cert.pem)를 추가합니다. HANA 서버의 트러스트 저장소 위치는 **ssltruststore** 구성 설정을 검사하여 찾을 수 있습니다. OpenSSL을 구성하는 방법을 다루는 SAP 설명서를 준수했다면 HANA 서버는 재사용할 수 있는 루트 CA를 이미 신뢰했을 수 있습니다. 자세한 내용은 [How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571)(SAP HANA Studio용 Open SSL을 SAP HANA Server에 구성하는 방법)를 참조하세요. SAML SSO를 활성화할 HANA 서버가 여러 개 있는 경우, 각 서버가 이 루트 CA를 신뢰하는지 확인합니다.
 
 1. 게이트웨이 IdP의 X509 인증서를 만듭니다. 예를 들어 1년간 유효한 인증서 서명 요청(IdP_Req.pem) 및 프라이빗 키(IdP_Key.pem)를 만들려면 다음 명령을 실행합니다.
 
@@ -131,17 +132,18 @@ SAML을 사용하려면 SSO를 활성화하려는 HANA 서버와 이 시나리�
     ```powershell
     Get-ChildItem -path cert:\LocalMachine\My
     ```
+
 1. 만든 인증서의 지문을 복사합니다.
 
 1. 게이트웨이 디렉터리(기본값: C:\Program Files\On-premises data gateway)로 이동합니다.
 
-1. PowerBI.DataMovement.Pipeline.GatewayCore.dll.config를 열고 \*SapHanaSAMLCertThumbprint\* 섹션을 찾습니다. 복사한 지문에 붙여 넣습니다.
+1. PowerBI.DataMovement.Pipeline.GatewayCore.dll.config를 열고 *SapHanaSAMLCertThumbprint* 섹션을 찾습니다. 복사한 지문에 붙여 넣습니다.
 
 1. 게이트웨이 서비스를 다시 시작합니다.
 
 ## <a name="running-a-power-bi-report"></a>Power BI 보고서 실행
 
-이제 Power BI에서 **게이트웨이 관리** 페이지를 사용하여 데이터 원본을 구성하고, **고급 설정**에서 SSO를 사용하도록 설정할 수 있습니다. 그런 다음, 해당 데이터 원본에 보고서 및 데이터 세트 바인딩을 게시할 수 있습니다.
+이제 Power BI에서 **게이트웨이 관리** 페이지를 사용하여 SAP HANA 데이터 원본을 구성하고, **고급 설정**에서 SSO를 사용하도록 설정할 수 있습니다. 그런 다음, 해당 데이터 원본에 보고서 및 데이터 세트 바인딩을 게시할 수 있습니다.
 
 ![고급 설정](media/service-gateway-sso-saml/advanced-settings.png)
 

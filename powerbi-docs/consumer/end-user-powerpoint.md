@@ -3,20 +3,19 @@ title: 보고서를 Power BI에서 PowerPoint로 내보내기
 description: Power BI 보고서를 PowerPoint로 내보내는 방법을 알아봅니다.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9a798afead16174f66fadba87c795d5377747e93
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61063916"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141443"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>보고서를 Power BI에서 PowerPoint로 내보내기
 Power BI를 사용하여 보고서를 **Microsoft PowerPoint**에 게시하고 Power BI 보고서에 따라 슬라이드 모음을 쉽게 만들 수 있습니다. **PowerPoint로 내보내는** 경우 다음이 발생합니다.
@@ -29,27 +28,24 @@ Power BI를 사용하여 보고서를 **Microsoft PowerPoint**에 게시하고 P
 **Power BI 보고서**를 **PowerPoint**로 빠르게 내보낼 수 있습니다. 다음 섹션에서 설명하는 단계를 수행합니다.
 
 ## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>Power BI 보고서를 PowerPoint로 내보내는 방법
-Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다. **홈** 페이지, **앱** 또는 왼쪽 탐색 창의 다른 섹션에서 보고서를 선택할 수도 있습니다.
+Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다. **홈** 페이지, **앱** 또는 왼쪽 탐색 막대의 다른 컨테이너에서 보고서를 선택할 수도 있습니다.
 
-![메뉴 모음에서 파일, PowerPoint로 내보내기를 선택합니다.](media/end-user-powerpoint/power-bi-publish.png)
+PowerPoint로 내보내려는 보고서가 캔버스에 표시되면 메뉴 모음에서 **내보내기 > PowerPoint**를 선택합니다.
 
-PowerPoint로 내보내려는 보고서가 캔버스에 표시되면 Power BI 서비스의 메뉴 모음에서 **파일 > PowerPoint로 내보내기**를 선택합니다.
+![메뉴 모음에서 내보내기 선택](media/end-user-powerpoint/power-bi-export.png)
 
-![왼쪽의 탐색 모음과 선택한 내 작업 영역, 선택된 파일 드롭 다운](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
    
-**현재 보기** 또는 **기본 보기**를 선택할 수 있는 옵션이 있는 팝업이 표시됩니다.  **현재 보기**는 슬라이서 및 필터 값에 대한 활성 변경 내용을 포함하는 현재 상태의 보고서를 내보냅니다.  대부분의 사용자는 이 옵션을 선택합니다.  또는 **기본 보기**를 선택하면 보고서가 원래 상태(작성자가 공유한 대로)로 내보내지고 원래 상태로 변경한 내용이 반영되지 않습니다.
+**현재 값** 또는 **기본 값**을 선택할 수 있는 옵션이 있는 팝업이 표시됩니다.  **현재 값**은 슬라이서 및 필터 값에 대한 활성 변경 내용을 포함하는 현재 상태의 보고서를 내보냅니다.  대부분의 사용자는 이 옵션을 선택합니다.  또는 **기본 값**을 선택하면 보고서가 원래 상태(작성자가 공유한 대로)로 내보내지고 원래 상태로 변경한 내용이 반영되지 않습니다.
+
+![내보낼 항목 선택](media/end-user-powerpoint/power-bi-current-values.png)
     
-또한 보고서의 숨겨진 탭을 내보낼지 여부를 선택하는 확인란이 있습니다.  브라우저에서 표시되는 보고서 탭만 내보내려면 이 상자를 선택하면 됩니다.  모든 숨겨진 탭을 내보내기의 일부로 제공하려면 이를 선택 취소 상태로 둡니다.  확인란이 회색으로 표시되면 보고서에 숨겨진 탭이 없습니다.  선택 항목을 만든 후 **내보내기**를 클릭하여 계속 진행합니다.
+또한 보고서의 숨겨진 탭을 내보낼지 여부를 선택하는 확인란이 있습니다.  브라우저에서 표시되는 보고서 탭만 내보내려면 이 상자를 선택하면 됩니다.  모든 숨겨진 탭을 내보내기의 일부로 제공하려면 이를 선택 취소 상태로 둡니다.  확인란이 회색으로 표시되면 보고서에 숨겨진 탭이 없습니다.  선택 항목을 만든 후 **내보내기**를 선택하여 계속 진행합니다.
 
 보고서를 PowerPoint로 내보내는 Power BI 서비스 브라우저 창의 상단 오른쪽 모서리에 알림 배너가 표시됩니다. 이 작업은 몇 분 정도 걸릴 수 있으며 보고서를 내보내는 동안 Power BI에서 계속 작업할 수 있습니다.
 
-![PowerPoint로 내보내기 진행 중 알림](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
+![PowerPoint로 내보내기 진행 중 알림](media/end-user-powerpoint/power-bi-export-progress.png)
 
-작업이 완료되면 알림 배너가 변경되어 Power BI 서비스가 내보내기 프로세스를 완료했음을 알려줍니다.
-
-![성공 메시지 표시 중](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
-
-브라우저가 다운로드한 파일을 표시하면 파일을 사용할 수 있습니다. 다음 이미지에서는 브라우저 창 하단의 다운로드 배너로 표시됩니다.
+작업이 완료되면 알림 배너가 변경되어 Power BI 서비스가 내보내기 프로세스를 완료했음을 알려줍니다. 브라우저가 다운로드한 파일을 표시하면 파일을 사용할 수 있습니다. 다음 이미지에서는 브라우저 창 하단의 다운로드 배너로 표시됩니다.
 
 ![화면 맨 아래에 있는 브라우저 알림을 가리키는 화살표](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
 

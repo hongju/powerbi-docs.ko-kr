@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 09/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655141"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175251"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -38,7 +38,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 ![관리 포털 탐색](media/service-admin-portal/powerbi-admin-landing-page.png)
 
-* [사용 메트릭](#usage-metrics)
+* [사용량 현황 메트릭](#usage-metrics)
 * [사용자](#users)
 * [감사 로그](#audit-logs)
 * [테넌트 설정](#tenant-settings)
@@ -47,6 +47,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 * [조직의 시각적 개체](#organizational-visuals)
 * [데이터 흐름 스토리지(미리 보기)](#dataflowStorage)
 * [작업 영역](#workspaces)
+* [사용자 지정 브랜딩](#custom-branding)
 
 ## <a name="usage-metrics"></a>사용 현황 메트릭
 
@@ -522,7 +523,22 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 ![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
 
+## <a name="custom-branding"></a>사용자 지정 브랜딩
 
+관리자는 전체 조직에 대한 Power BI의 모양을 사용자 지정할 수 있습니다. 현재 세 가지 기본 옵션이 있습니다.
+
+![사용자 지정 브랜딩 옵션](media/service-admin-portal/power-bi-custom-branding.png)
+
+* **로고 업로드**: 최상의 결과를 위해 200 x 30 픽셀 이상의 .png(10KB 이하)로 저장된 로고를 업로드합니다.
+
+* **커버 이미지 업로드**: 최상의 결과를 위해 1920 x 160 픽셀 이상의 .jpg 또는 .png(1MB 이하)로 저장된 커버 이미지를 업로드합니다.
+
+* **색 테마 선택**: 16진수 #, RGB, 값 또는 제공된 팔레트를 기준으로 테마를 선택할 수 있습니다.
+
+
+자세한 내용은 [조직에 대한 사용자 지정 브랜딩](http://aka.ms/orgBranding)을 참조하세요.
+
+![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>다음 단계
 
 [조직에서 Power BI 관리](service-admin-administering-power-bi-in-your-organization.md)  

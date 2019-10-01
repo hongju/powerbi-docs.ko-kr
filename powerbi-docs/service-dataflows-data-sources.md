@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81449d7a07bec3c142930573154ecd13a0ceff49
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d2ba4809ce5c6664350ec81b57b6fc717a13879f
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61141397"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164564"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI 데이터 흐름에 대한 데이터 원본에 연결
 
@@ -23,7 +23,7 @@ Power BI 데이터 흐름을 사용하면 다양한 데이터 원본에 연결�
 
 이 문서에서는 데이터 흐름을 만들거나 추가하는 데 사용할 수 있는 많은 데이터 원본이 나열되어 있으며, 이러한 데이터 원본을 사용하여 데이터 흐름을 만드는 방법을 설명합니다.
 
-데이터 흐름을 만들고 사용하는 방법의 개요에 대해서는, [Power BI에서 데이터 흐름을 만들고 사용](service-dataflows-create-use.md)을 참조하세요.
+데이터 흐름을 만들고 사용하는 방법에 대한 개요는 [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)을 참조하세요.
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>데이터 원본에서 데이터 흐름 만들기
 
@@ -156,7 +156,6 @@ Power BI 데이터 흐름 사용자 인터페이스에 표시되지 않지만 �
 
 다음 목록은 M 쿼리를 복사하여 빈 쿼리에 붙여넣어 현재 사용할 수 있는 커넥터를 보여줍니다.
 
-* SAP Business Warehouse 
 * Azure 분석 서비스
 * Adobe Analytics
 * ODBC
@@ -180,7 +179,7 @@ Power BI 데이터 흐름에서 데이터 원본에 연결하는 데 필요한 �
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
 * [Power BI Premium의 계산된 엔터티 사용](service-dataflows-computed-entities-premium.md)
 * [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 대한 개발자 리소스](service-dataflows-developer-resources.md)
+* [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스](service-dataflows-developer-resources.md)
 * [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)
 
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.
