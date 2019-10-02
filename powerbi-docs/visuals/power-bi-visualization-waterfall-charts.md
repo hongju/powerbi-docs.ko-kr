@@ -84,7 +84,7 @@ ms.locfileid: "67409124"
 
     조금 더 세부적으로 들어가 월간 편차의 가장 큰 요인을 살펴봅니다.
 
-1. **매장** > **지역**을 **분석 결과** 영역으로 끕니다.
+1. **매장** > **지역**을 **분석 결과** 버킷으로 끕니다.
 
     ![분석 버킷의 매장 표시](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
