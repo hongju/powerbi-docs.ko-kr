@@ -7,47 +7,54 @@ ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/08/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70751650"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141705"
 ---
 # <a name="your-content-is-up-to-date"></a>콘텐츠가 최신 상태입니다.
 *소비자*는 *디자이너*가 만들고 사용자와 공유하는 콘텐츠와 상호 작용합니다. 해당 콘텐츠가 최신 상태인지 궁금하거나 콘텐츠가 마지막으로 새로 고침되었는지 알고 싶을 수도 있습니다. 최신 콘텐츠를 사용하고 있다는 것을 알고 있으면 자신감이 생깁니다.  
  
-![Power BI 대시보드](media/end-user-consumer/power-bi-service.png)
+![Power BI 대시보드](media/end-user-fresh/power-bi-dashboards.png)
 
 
 최신 데이터를 사용하고 있는지 확인하는 것이 올바른 결정을 내리는 데 중요한 경우가 많습니다. 최신 콘텐츠를 사용하고 있는지 확인하기 위해 무엇을 해야 하나요? 대부분의 경우, 아무 작업도 수행할 필요가 없습니다. 사용자와 공유된 앱은 앱 디자이너가 설정한 일정에 따라 자동으로 새로 고침되고 업데이트됩니다. 사용자와 공유한 대시보드와 보고서도 마찬가지로 디자이너는 수동으로 또는 자동 새로 고침 일정을 사용하여 콘텐츠를 최신 상태로 유지합니다.  
 
 데이터 새로 고침에 대한 질문이 있으면 디자이너에게 문의하세요.
 
-## <a name="how-to-locate-the-name-of-the-designer"></a>디자이너의 이름을 찾는 방법
+## <a name="how-to-locate-the-name-of-the-designer-or-owner"></a>디자이너 또는 소유자의 이름을 찾는 방법
+
+### <a name="dashboard-or-report"></a>대시보드 또는 보고서
+
+소유자 이름은 대시보드 및 보고서의 제목 표시줄에서 확인할 수 있습니다. **소유자**를 포함하여 추가 세부 정보를 표시하려면 보고서 또는 대시보드 이름을 선택합니다.
+
+![Power BI 대시보드 소유자](media/end-user-fresh/power-bi-owner.png)
+
 
 ### <a name="apps"></a>앱
 
-앱 화면에는 디자이너 이름과 앱을 만든 날짜가 모두 표시됩니다.  
+앱 화면에는 디자이너 이름과 앱을 업데이트한 날짜가 모두 표시됩니다.  
 
 1. 왼쪽 탐색 창에서 **앱**을 선택합니다.
 
-    ![왼쪽 탐색 창](media/end-user-fresh/power-bi-nav-apps.png)
+    ![왼쪽 탐색 창](media/end-user-fresh/power-bi-nav-app.png)
 
-    각 앱의 경우 제목과 만든 날짜가 표시됩니다. 
 
-2. 앱 위에 마우스를 가리키면 앱 디자이너의 이름도 표시됩니다. 
+
+2. 앱을 마우스로 가리켜 제목, 업데이트 날짜 및 디자이너 이름을 표시합니다. 
 
     ![하나가 선택된 2개의 앱](media/end-user-fresh/power-bi-app.png)
 
 
-### <a name="shared-with-me"></a>공유
-**공유한 항목** 화면에는 콘텐츠 소유자의 이름과 콘텐츠가 공유한 항목의 날짜가 표시됩니다.
+### <a name="shared-with-me"></a>공유한 항목
+**공유한 항목** 화면에는 콘텐츠 소유자의 이름과 마지막으로 콘텐츠를 공유한 날짜가 표시됩니다.
 
-![변경한 날짜와 소유자를 보여주는 공유한 항목 화면](media/end-user-fresh/power-bi-shared-new.png) 
+![변경한 날짜와 소유자를 보여주는 공유한 항목 화면](media/end-user-fresh/power-bi-share.png) 
 
 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>마지막 새로 고침 날짜를 조회하는 방법
@@ -58,24 +65,24 @@ ms.locfileid: "70751650"
 
 1. 대시보드 타일에서 줄임표(...)를 선택하고 **포커스 모드로 열기**를 선택합니다.
 
-    ![줄임표를 선택한 후 나타나는 메뉴](media/end-user-fresh/power-bi-focus.png)
+    ![줄임표를 선택한 후 나타나는 메뉴](media/end-user-fresh/power-bi-focus-mode.png)
 
 2. 마지막 새로 고침 날짜는 오른쪽 위 모서리에 표시됩니다. 표시되지 않으면 브라우저를 확장하여 더 넓게 만듭니다. 
 
     ![마지막 새로 고침을 표시하는 넓은 브라우저](media/end-user-fresh/power-bi-last-refresh2.png)
 
-### <a name="from-dashboards-and-reports"></a>대시보드 및 보고서에서
-마지막 새로 고침 날짜를 조회하는 또 다른 방법은 **관련 항목 보기**를 사용하는 것입니다.  **관련 항목 보기**는 Power BI 위 메뉴 모음에서 사용할 수 있습니다.
+### <a name="dashboards-and-reports"></a>대시보드 및 보고서
+마지막 새로 고침 날짜를 조회하는 또 다른 방법은 **관련 항목 보기**를 사용하는 것입니다.  Power BI 상단 메뉴 모음에서 줄임표(...)를 선택하여 **관련 항목 보기**를 사용할 수 있습니다.
 
-![메뉴에서 관련 항목 보기 선택](media/end-user-fresh/power-bi-view-related.png)
+![메뉴에서 관련 항목 보기 선택](media/end-user-fresh/power-bi-view-related-dropdown.png)
 
 **관련 콘텐츠** 창에는 대시보드 또는 보고서의 기본 데이터 세트에 대한 마지막 새로 고침 정보가 표시됩니다.
 
-![Power BI 대시보드](media/end-user-fresh/power-bi-last-refresh.png)
+![Power BI 대시보드](media/end-user-fresh/power-bi-refresh.png)
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>디자이너가 앱을 삭제하면 어떻게 되나요?
 
-디자이너가 앱을 삭제하면 해당 앱과 연결된 대시보드와 보고서가 Power BI 작업 영역에서도 자동으로 제거됩니다. 이러한 대시보드 및 보고서는 더 이상 사용할 수 없으며 앱이 탐색 창에 표시되지 않습니다.
+디자이너가 앱을 삭제하면 해당 앱과 연결된 대시보드와 보고서가 Power BI 작업 영역에서도 자동으로 제거됩니다. 더 이상 사용할 수 없으며 앱이 앱 컨테이너 또는 탐색 모음의 다른 위치에 표시되지 않습니다.
 
 
 ## <a name="subscribe-to-see-changes"></a>변경 내용을 확인하기 위해 구독

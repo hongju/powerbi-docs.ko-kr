@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808222"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71401826"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 데이터 원본
 Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다. DirectQuery 또는 SQL Server Analysis Services에 대한 라이브 연결을 사용하여 데이터를 가져오거나 데이터를 직접 쿼리할 수 있습니다.
@@ -71,7 +71,7 @@ Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데
 | SharePoint Online 목록 |예 |아니요 |아니요 |
 | Snowflake |예 |아니요 |아니요 |
 | Sybase 데이터베이스 |예 |예 |아니요 |
-| Teradata 데이터베이스 |예 |예 |예 |
+| Teradata |예 |예 |예 |
 | 텍스트/CSV |예 |예 |아니요 |
 | 웹 |예 |예 |아니요 |
 | XML |예 |예 |아니요 |

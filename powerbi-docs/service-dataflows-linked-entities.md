@@ -92,7 +92,7 @@ Power BI 서비스의 **엔터티 추가** 메뉴 항목에서 **연결된 엔�
 * [Power BI에서 데이터 흐름 만들기 및 사용](service-dataflows-create-use.md)
 * [Power BI Premium의 계산된 엔터티 사용](service-dataflows-computed-entities-premium.md)
 * [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용](service-dataflows-on-premises-gateways.md)
-* [Power BI 데이터 흐름에 대한 개발자 리소스](service-dataflows-developer-resources.md)
+* [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스](service-dataflows-developer-resources.md)
 
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)

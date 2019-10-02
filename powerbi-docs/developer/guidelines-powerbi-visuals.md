@@ -1,20 +1,20 @@
 ---
 title: Power BI 시각적 개체 지침
 description: 다른 사람이 구매를 통해 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 AppSource에 게시하는 방법을 알아봅니다.
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: 71752a635c69e6712befbb00e942189fa4dacc36
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380223"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327726"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 지침
 다른 사용자가 검색 및 사용하도록 AppSource에 시각적 개체를 [게시](https://docs.microsoft.com/power-bi/developer/office-store)하기 전에 지침에 따라 사용자에게 적합한 환경을 만들어야 합니다. 
@@ -25,11 +25,14 @@ ms.locfileid: "68380223"
 
 
 ## <a name="logo-guidelines"></a>로고 지침
+> [!NOTE]
+> 이 아티클의 단어 로고는 아래 그림에 설명된 대로 영리 회사 아이콘을 나타냅니다. 
 
-이 섹션에서는 로고 및 로고 유형을 시각적 개체에 추가하는 방법을 설명합니다. 로고는 필수가 아닙니다. 추가된 경우 다음 지침을 따라야 합니다. 
+이 섹션에서는 로고를 Power BI 시각적 개체에 추가하는 방법을 설명합니다. 로고는 필수가 아닙니다. 추가된 경우 다음 지침을 따라야 합니다. 
 
 > [!IMPORTANT]
 > 로고는 *편집 모드에서만* 허용됩니다. 보기 모드에서는 로고를 표시할 수 *없습니다*.
+
 
 ![정의](media/guidelines-powerbi-visuals/definitions.png)
 
@@ -44,11 +47,13 @@ ms.locfileid: "68380223"
 ![편집 모드](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 
+읽기 모드에서 정보 아이콘(있는 경우)은 위의 로고의 색, 크기 및 위치를 따라야 합니다.
+
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>추가 구매 시 Power BI 시각적 개체에 대한 지침
 
 최근까지 Marketplace(AppSource)에서는 무료인 Power BI 시각적 개체만 허용했습니다. 이 정책이 변경(12월 18일)되었으므로 "추가 구매가 필요할 수도 있음" 가격표가 있는 시각적 개체도 AppSource에 제출할 수 있습니다. 
 
-“추가 구매가 필요할 수도 있음” 시각적 개체는 Office 스토어의 IAP(앱에서 바로 구매) 추가 기능과 유사합니다. 개발자는 이러한 시각적 개체를 AppSource 팀이 승인하고 이 개체가 인증 요구 사항을 준수하는지 확인한 후 인증을 위해 이 개체를 제출할 수도 있습니다. 요구 사항에 대한 자세한 내용은 [인증된 사용자 지정 시각적 개체](../power-bi-custom-visuals-certified.md)를 참조하세요.
+“추가 구매가 필요할 수도 있음” 시각적 개체는 Office 스토어의 IAP(앱에서 바로 구매) 추가 기능과 유사합니다. 개발자는 이러한 시각적 개체를 AppSource 팀이 승인하고 이 개체가 인증 요구 사항을 준수하는지 확인한 후 인증을 위해 이 개체를 제출할 수도 있습니다. 요구 사항에 대한 자세한 내용은 [인증된 Power BI 시각적 개체](../power-bi-custom-visuals-certified.md)를 참조하세요.
 
 > [!NOTE]
 > 시각적 개체 인증을 받으려면 외부 서비스나 리소스에 액세스해서는 안됩니다.

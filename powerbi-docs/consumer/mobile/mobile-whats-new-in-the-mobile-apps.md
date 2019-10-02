@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: e74bdacc1b8ee40ec6628337e9e78528e8fdee29
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841375"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164498"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -81,7 +81,7 @@ iOS 디바이스 검색(스포트라이트)과 Power BI 연결 iPhone 또는 iPa
 
 ### <a name="one-page-report-slideshow-windows"></a>한 페이지 보고서 슬라이드 쇼(Windows)
 
-슬라이드 쇼에서 한 페이지 보고서에 대한 자동 새로 고침을 지원합니다. 따라서 보고서의 밑줄 데이터 원본이 업데이트되면 이를 선택하고 페이지에서 데이터를 업데이트합니다.
+슬라이드 쇼에서 한 페이지 보고서에 대한 자동 새로 고침을 지원합니다. 따라서 보고서의 기본 데이터 원본이 업데이트되면 이를 선택하고 페이지에서 데이터를 업데이트합니다.
 
 
 ## <a name="april-2019"></a>2019년 4월

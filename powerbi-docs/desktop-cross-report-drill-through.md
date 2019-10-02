@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e735d45a7a49c4a0365e35d5bb95957c6145f934
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6424180dde3dac0d6d2b66c8a9303810b6aa0dc6
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903767"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100090"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Power BI Desktop에서 교차 보고서 드릴스루 사용
 
@@ -32,7 +32,7 @@ Power BI Desktop의 교차 보고서 드릴스루 기능을 사용하여 한 보
 
 
 > [!NOTE]
-> *내 작업 영역* 내에서 공유되며 *[공유한 항목](service-share-dashboards.md#share-a-dashboard-or-report)* 으로 표시되는 보고서는 원래 공유된 작업 영역에서만 액세스할 수 있습니다. 
+> Power BI Desktop의 교차 보고서 드릴스루 기능을 사용하여 한 보고서에서 다른 보고서로 상황별로 이동할 수 있습니다. 보고서가 Power BI 서비스의 동일한 작업 영역 또는 앱 내에 있는 경우에만 적용됩니다. *내 작업 영역* 내에서 개별적으로 공유되는 보고서([공유한 보고서](service-share-dashboards.md#share-a-dashboard-or-report))에 액세스하는 경우에는 적용할 수 없습니다. 대신 원래 공유된 작업 영역에서 보고서에 액세스해야 합니다.
 
 
 ## <a name="enable-cross-report-drillthrough"></a>교차 보고서 드릴스루 사용
@@ -114,9 +114,7 @@ Power BI 서비스에서 원본 보고서를 선택한 다음, 대상 페이지�
 * 페이지의 슬라이서 및 동기화 슬라이서
 * URL 매개 변수
 
-
-드릴스루에 대한 대상 보고서에 랜딩할 때 Power BI는 필드 이름 및 테이블 이름과 정확히 일치하는 문자열을 찾은 필드에 대해서만 필터를 적용합니다. Power BI는 대상 보고서에서 고정 필터를 적용하지 않습니다. 그러나 기본 개인 책갈피가 있는 경우 이를 적용합니다. 예를 들어 기본 개인 책갈피에 *국가 = 미국*에 대한 보고서 수준 필터가 포함된 경우, Power BI는 원본 시각적 개체에서 필터 컨텍스트를 적용하기 전에 먼저 해당 필터를 적용합니다. 
-
+드릴스루의 대상 보고서를 방문하면 Power BI는 정확한 문자열이 필드 이름 및 테이블 이름과 일치한다고 확인한 필드에 대해서만 필터를 적용합니다. Power BI는 대상 보고서의 고정 필터를 적용하지 않습니다. 그러나 기본 개인 책갈피가 있는 경우 이 책갈피를 적용합니다. 예를 들어, 기본 개인 책갈피가 *Country = US*에 대한 보고서 수준 필터를 포함하는 경우 Power BI는 원본 시각적 개체의 필터 컨텍스트를 적용하기 전에 해당 필터를 먼저 적용합니다. 
 
 교차 보고서 드릴스루의 경우 Power BI는 필터 컨텍스트를 대상 보고서의 모든 표준 페이지로 전달합니다. 도구 설명 페이지가 도구 설명을 호출하는 원본 시각적 개체를 기준으로 필터링되기 때문에 Power BI는 도구 설명 페이지에 대한 필터 컨텍스트를 전달하지 않습니다.
 

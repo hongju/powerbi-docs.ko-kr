@@ -4,24 +4,23 @@ description: 소비자용 Power BI의 대시보드 타일에 대한 모든 정�
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a341dda238996db4953fa7c68d7053034ca40b8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 7e6d10a7a06c94c6bc00b06d38194dde461720be
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61050262"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142096"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
-타일은 *설계자*가 대시보드에 고정한 데이터에 대한 스냅샷입니다. 타일은 보고서, 데이터 세트, 대시보드, 질문 및 답변의 질문하기 상자, Excel 및 SSRS(SQL Server Reporting Services) 등에서 만들 수 있습니다.  이 스크린샷은 대시보드에 고정된 여러 타일을 보여 줍니다.
+타일은 *설계자*가 대시보드에 고정한 데이터에 대한 스냅샷입니다. *디자이너*는 보고서, 데이터 세트, 대시보드, 질문 및 답변의 질문하기 상자, Excel, SSRS(SQL Server Reporting Services) 등에서 타일을 만들 수 있습니다.  이 스크린샷은 대시보드에 고정된 여러 타일을 보여 줍니다.
 
-![Power BI 대시보드](./media/end-user-tiles/power-bi-dashboard.png)
+![Power BI 대시보드](./media/end-user-tiles/power-bi-dash.png)
 
 
 *설계자*는 **타일 추가**를 사용하여 보고서에 고정된 타일 외에 다른 독립 실행형 타일을 대시보드에 직접 추가할 수 있습니다. 독립 실행형 타일에는 텍스트 상자, 이미지, 동영상, 스트리밍 데이터 및 웹 콘텐츠가 포함됩니다.
@@ -38,15 +37,15 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
 
     - 질문 및 답변을 사용하여 만든 타일
    
-        ![줄임표 아이콘](./media/end-user-tiles/power-bi-menu1.png)
+        ![줄임표 아이콘](./media/end-user-tiles/power-bi-options-1.png)
 
     - 통합 문서에서 만든 타일
    
-        ![줄임표 아이콘](./media/end-user-tiles/power-bi-menu2.png)
+        ![줄임표 아이콘](./media/end-user-tiles/power-bi-options-2.png)
 
     - 보고서에서 만든 타일
    
-        ![줄임표 아이콘](./media/end-user-tiles/power-bi-menu3.png)
+        ![줄임표 아이콘](./media/end-user-tiles/power-bi-options-3.png)
    
     여기에서 다음과 같은 작업을 할 수 있습니다.
    
@@ -56,9 +55,12 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
    
 
    * [이 타일을 만드는 데 사용된 통합 문서 열기](end-user-reports.md) ![워크시트 아이콘](./media/end-user-tiles/power-bi-open-worksheet.png)  
-    * [포커스 모드로 타일 보기](end-user-focus.md) ![포커스 아이콘](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [정보 실행](end-user-insights.md) ![정보 아이콘](./media/end-user-tiles/power-bi-insights.png)
-    * [댓글을 추가하고 토론 시작](end-user-comment.md)  ![댓글 아이콘](./media/end-user-tiles/comment-icons.png)
+   * [포커스 모드로 타일 보기](end-user-focus.md) ![포커스 아이콘](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [인사이트 보기 ](end-user-insights.md) ![인사이트 아이콘](./media/end-user-tiles/power-bi-insights.png)
+   * [댓글을 추가하고 토론 시작](end-user-comment.md)  ![댓글 아이콘](./media/end-user-tiles/comment-icons.png)
+   * [대시보드 타일에 설정된 경고 관리](end-user-alerts.md)  ![경고 아이콘](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Excel에서 데이터 열기](end-user-export.md)  ![내보내기 아이콘](./media/end-user-tiles/power-bi-export-icon.png)
+
 
 3. 동작 메뉴를 닫으려면 캔버스의 빈 영역을 선택합니다.
 

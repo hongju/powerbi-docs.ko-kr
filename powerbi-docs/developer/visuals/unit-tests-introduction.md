@@ -1,20 +1,20 @@
 ---
 title: Power BI 시각적 개체 프로젝트의 단위 테스트 소개
 description: 이 문서에서는 Power BI 시각적 개체 프로젝트의 단위 테스트를 작성하는 방법을 설명합니다.
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236725"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192464"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>자습서:  Power BI 시각적 개체 프로젝트의 단위 테스트 추가
 
@@ -616,4 +616,4 @@ Lines        : 52.83% ( 112/212 )
 
 ## <a name="next-steps"></a>다음 단계
 
-시각적 개체가 준비되면 게시를 위해 제출할 수 있습니다. 자세한 내용은 [AppSource에 사용자 지정 시각적 개체 게시](../office-store.md)를 참조하세요.
+시각적 개체가 준비되면 게시를 위해 제출할 수 있습니다. 자세한 내용은 [AppSource에 Power BI 시각적 개체 게시](../office-store.md)를 참조하세요.

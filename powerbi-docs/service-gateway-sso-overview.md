@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271864"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100375"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI의 게이트웨이 SSO(Single Sign-On) 개요
 
-온-프레미스 데이터 게이트웨이를 Kerberos 제한 위임 또는 SAML(Security Assertion Markup Language)로 구성하여 원활한 Single Sign-On 연결을 얻어 Power BI 보고서 및 대시보드를 온-프레미스 데이터에서 업데이트할 수 있습니다. 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 원본에 연결하는 데 사용하는 DirectQuery를 통한 SSO 연결을 도와줍니다.
+온-프레미스 데이터 게이트웨이를 Kerberos 제한 위임 또는 SAML(Security Assertion Markup Language)로 구성하여 원활한 Single Sign-On 연결을 얻어 Power BI 보고서 및 대시보드를 온-프레미스 데이터에서 실시간으로 업데이트할 수 있습니다. 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 원본에 연결하는 데 사용하는 DirectQuery를 통한 SSO 연결을 지원합니다.
 
 현재 다음 데이터 원본이 지원됩니다.
 
@@ -52,8 +52,7 @@ SSO로 실행하는 쿼리는 다음 다이어그램에 나와 있는 것처럼 
 
 ## <a name="next-steps"></a>다음 단계
 
-SSO의 기초를 이해했으므로 Kerberos 및 SAML에 대한 자세한 정보를 읽어 보세요.
+이제 게이트웨이를 통한 SSO의 기초를 이해했으므로 Kerberos 및 SAML에 대한 자세한 정보를 읽어 보세요.
 
 * [SSO(Single Sign-On) - Kerberos](service-gateway-sso-kerberos.md)
-* [SSO(Single Sign-On) - Kerberos - 리소스 기반](service-gateway-sso-kerberos-resource.md)
 * [SSO(Single Sign-On) - SAML](service-gateway-sso-saml.md)

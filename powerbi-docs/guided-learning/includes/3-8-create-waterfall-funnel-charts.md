@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 78e5ba4edc84e7dabef17d608c938adc4693145d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61397616"
@@ -14,7 +14,7 @@ ms.locfileid: "61397616"
 
 ![](media/3-8-create-waterfall-funnel-charts/3-8_2.png)
 
-폭포만 두 가지 버킷: *범주* 하 고 *Y 축*합니다. *년* 과 같은 시간 기반 필드를 *범주* 버킷으로 끌어 오고 추적할 값을 *Y축* 버킷으로 끌어 옵니다. 값이 증가한 기간은 기본적으로 녹색으로 표시되고, 값이 감소한 기간은 빨간색으로 표시됩ㄴ니다.
+폭포에는 다음의 두 개 버킷 옵션이 있습니다. *범주* 및 *Y축*. *년* 과 같은 시간 기반 필드를 *범주* 버킷으로 끌어 오고 추적할 값을 *Y축* 버킷으로 끌어 옵니다. 값이 증가한 기간은 기본적으로 녹색으로 표시되고, 값이 감소한 기간은 빨간색으로 표시됩ㄴ니다.
 
 **깔때기형 차트**는 일반적으로 영업 파이프라인 또는 웹 사이트 유지 노력 등 특정 프로세스의 변경 내용을 표시하는 데 사용됩니다.
 

@@ -56,7 +56,7 @@ ms.locfileid: "67409124"
 
 월별 매출 편차(실제 매출과 예상 매출의 편차)를 표시하는 폭포 차트를 만들겠습니다.
 
-1. **내 작업 영역**에서 **데이터 세트** > **보고서 만들기**을 선택합니다.
+1. **내 작업 영역**에서 **데이터 세트** > **보고서 만들기**를 선택합니다.
 
     ![데이터 세트 > 보고서 만들기의 스크린샷](media/power-bi-visualization-waterfall-charts/power-bi-create-a-report.png)
 
@@ -70,7 +70,7 @@ ms.locfileid: "67409124"
 
     ![시각화 템플릿](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 
-1. **시간** > **FiscalMonth**를 선택하여 **범주** 웰에 추가합니다.
+1. **시간** > **FiscalMonth**를 선택하여 **범주** 영역에 추가합니다.
 
     ![폭포](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 

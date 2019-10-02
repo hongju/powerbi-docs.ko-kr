@@ -1442,11 +1442,13 @@
           href: service-admin-power-bi-security.md
 - name: 지침
   items:
-    - name: 데이터 흐름에 관한 모범 사례
-      href: service-dataflows-best-practices.md
+    - name: 개요
+      href: guidance/overview.md
     - name: 별모양 스키마란?
       href: guidance/star-schema.md
     - name: 데이터 모델 크기 줄이기
       href: guidance/import-modeling-data-reduction.md
     - name: 나누기 함수 및 나누기 연산자(/)
       href: guidance/dax-divide-function-operator.md
+    - name: 데이터 흐름에 관한 모범 사례
+      href: service-dataflows-best-practices.md

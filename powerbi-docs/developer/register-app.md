@@ -53,7 +53,7 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
     ![앱 유형](media/register-app/register-app-new-design-app-type.png)
 
-5. 애플리케이션 유형으로 **서버 쪽 웹 애플리케이션**을 선택한 경우 **홈 페이지 URL** 및 **리디렉션 URL**에 대한 값을 계속 입력합니다. 합니다 **리디렉션 URL** 임의의 올바른 URL을 사용 하 여 작동 하 고 사용자가 만든 응용 프로그램을 사용 하 여 일치 해야 합니다. **네이티브**를 선택한 경우 6단계를 계속 진행합니다.
+5. 애플리케이션 유형으로 **서버 쪽 웹 애플리케이션**을 선택한 경우 **홈 페이지 URL** 및 **리디렉션 URL**에 대한 값을 계속 입력합니다. **리디렉션 URL**은 임의의 올바른 URL로 작동하며 사용자가 만든 애플리케이션과 일치해야 합니다. **네이티브**를 선택한 경우 6단계를 계속 진행합니다.
 
 6. 애플리케이션에 필요한 Power BI API를 선택합니다. Power BI 액세스 권한에 대한 자세한 내용은 [Power BI 사용 권한](power-bi-permissions.md)을 참조하세요. 그런 다음, **등록**을 선택합니다.
 
@@ -62,7 +62,7 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
     > [!Important]
     > 서비스 주체를 Power BI와 함께 사용하도록 설정하면 Azure Active Directory 사용 권한이 더 이상 적용되지 않습니다. 사용 권한은 Power BI 관리 포털을 통해 관리됩니다.
 
-7. 선택 하면 **네이티브** 응용 프로그램 형식에 대 한 다음 다음 제공 됩니다는 **APPLICATION-ID**합니다. 애플리케이션 유형으로 **서버 쪽 웹앱**을 선택하면 **애플리케이션 ID**와 **애플리케이션 비밀**을 받게 됩니다.
+7. 애플리케이션 유형으로 **네이티브**를 선택하면 **애플리케이션 ID**가 제공됩니다. 애플리케이션 유형으로 **서버 쪽 웹앱**을 선택하면 **애플리케이션 ID**와 **애플리케이션 비밀**을 받게 됩니다.
 
     > [!Note]
     > **애플리케이션 ID**는 나중에 필요한 경우 Azure Portal에서 검색할 수 있습니다. **애플리케이션 비밀**을 분실한 경우 Azure Portal 내에서 새로 만들어야 합니다.
@@ -83,11 +83,11 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 3. 페이지의 오른쪽 위에서 사용자 계정을 선택하여 Azure AD 테넌트를 선택합니다.
 
-4. 왼쪽 탐색 창에서로 이동 **모든 서비스**를 선택 **앱 등록** 선택한 후 **새 등록**합니다.
+4. 왼쪽 탐색 창에서 **모든 서비스**로 이동하고, **앱 등록**을 선택한 다음, **새 등록**을 선택합니다.
 
 5. 메시지에 따라 새 애플리케이션을 만듭니다.
 
-   Azure Active Directory에서 응용 프로그램을 등록 하는 방법에 대 한 자세한 내용은 참조 하세요. [Azure Active Directory를 사용 하 여 앱을 등록 합니다.](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)
+   Azure Active Directory에 애플리케이션을 등록하는 방법에 대한 자세한 내용은 [Azure Active Directory에 앱 등록](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)을 참조하세요.
 
 ## <a name="how-to-get-the-application-id"></a>애플리케이션 ID를 가져오는 방법
 
@@ -101,27 +101,27 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 앱 등록 페이지에서 제공하는 권한 외에도 애플리케이션에 대한 추가 권한을 사용하도록 설정합니다. Azure AD 포털을 통해, 또는 프로그래밍 방식으로 이 작업을 수행할 수 있습니다.
 
-포함에 사용된 ‘마스터’ 계정 또는 전역 관리자 계정 중 하나를 사용하여 로그인할 수 있습니다.
+포함에 사용된 ‘마스터’ 계정 또는 전역 관리자 계정 중 하나를 사용하여 로그인할 수 있습니다. 
 
 ### <a name="using-the-azure-ad-portal"></a>Azure AD 포털 사용
 
 1. Azure Portal 내에서 [앱 등록](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade)으로 이동한 후 포함에 사용할 앱을 선택합니다.
 
-2. 선택 **API 사용 권한** 아래에서 **관리**합니다.
+2. **관리**에서 **API 권한**을 선택합니다.
 
-3. 내 **API 사용 권한**를 선택 **권한을 추가**을 선택한 후 **Power BI 서비스**합니다.
+3. **API 권한**에서 **권한 추가**를 선택하고 **Power BI 서비스**를 선택합니다.
 
     ![앱 사용 권한 03](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
 
-4. 필요한 특정 사용 권한 선택 **위임 된 권한**합니다. 선택 항목을 저장하려면 하나씩 선택합니다. 완료되면 **저장**을 선택합니다.
+4. **위임된 권한**에서 필요한 특정 권한을 선택합니다. 선택 항목을 저장하려면 하나씩 선택합니다. 완료되면 **저장**을 선택합니다.
 
-5. 선택 **허가 동의**합니다.
+5. **동의 허용**을 선택합니다.
 
-    **부여 동의** 에 대 한 작업이 필요 합니다 *마스터 계정* Azure AD에서 동의 확인 메시지가 표시 되지 않도록 하려면. 이 작업을 수행하는 계정이 전역 관리자인 경우, 조직 내 모든 사용자에게 이 애플리케이션에 대한 권한을 부여합니다. 이 작업을 수행하는 계정이 *마스터 계정*이고 글로벌 관리자가 아닌 경우, 이 애플리케이션의 *마스터 계정*에만 권한을 부여합니다.
+    Azure AD에서 동의하도록 요구하는 메시지가 표시되지 않게 하려면 *마스터 계정*에 **동의 허용** 작업이 필요합니다. 이 작업을 수행하는 계정이 전역 관리자인 경우, 조직 내 모든 사용자에게 이 애플리케이션에 대한 권한을 부여합니다. 이 작업을 수행하는 계정이 *마스터 계정*이고 글로벌 관리자가 아닌 경우, 이 애플리케이션의 *마스터 계정*에만 권한을 부여합니다.
 
 ### <a name="applying-permissions-programmatically"></a>프로그래밍 방식으로 권한 적용
 
-1. 테넌트 내에서 기존 서비스 주체(사용자)를 가져와야 합니다. 작업을 수행 하는 방법에 대 한 자세한 내용은 [servicePrincipal](https://docs.microsoft.com/graph/api/resources/serviceprincipal?view=graph-rest-beta)합니다.
+1. 테넌트 내에서 기존 서비스 주체(사용자)를 가져와야 합니다. 이 작업을 수행하는 방법에 대한 자세한 내용은 [servicePrincipal](https://docs.microsoft.com/graph/api/resources/serviceprincipal?view=graph-rest-beta)을 참조하세요.
 
     {ID} 없이 *Get servicePrincipal* API를 호출하면 테넌트 내의 모든 서비스 주체를 가져옵니다.
 
@@ -176,8 +176,8 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
    **consentType**의 값은 **AllPrincipals** 또는 **Principal** 중 하나를 제공할 수 있습니다.
 
-   * **AllPrincipals** 만 사용할 수는 테 넌 트 관리자가 테 넌 트의 모든 사용자의 권한을 부여 합니다.
-   * **주** 특정 사용자에 대 한 사용 권한을 부여 하는 데 사용 됩니다. 이 경우 요청 본문에 추가 속성을 추가해야 합니다(*principalId = {User_ObjectId}* ).
+   * **AllPrincipals**는 테넌트 관리자가 테넌트의 모든 사용자에게 권한을 부여하는 데만 사용할 수 있습니다.
+   * **Principal**은 특정 사용자에게 권한을 부여하는 데 사용됩니다. 이 경우 요청 본문에 추가 속성을 추가해야 합니다(*principalId = {User_ObjectId}* ).
 
    비대화형 로그인을 수행할 때 불가능한 Azure AD의 동의 요청을 피하기 위해 마스터 계정에 *사용 권한을 부여*해야 합니다.
 

@@ -3,20 +3,19 @@ title: 대시보드는 무엇이고, 여는 방법은 무엇인가요?
 description: 대시보드는 Power BI 서비스의 핵심 기능입니다.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cad6aeeb156534052241d5183a575b222736230a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608344"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141940"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI 서비스 소비자에 대한 대시보드
 
@@ -54,8 +53,8 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 | 기본 데이터 세트 테이블 및 필드를 볼 수 있음 |아니요. 데이터를 내보낼 수 있지만 대시보드 자체에서 테이블 및 필드를 볼 수 없음 |예. 데이터 세트 테이블 및 필드와 값을 볼 수 있습니다. |
 
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>대시보드 작성자 및 대시보드 소비자
-Power BI ***소비자***는 작성자의 대시보드를 받습니다.  이 항목에서 계속 대시보드에 대해 알아봅니다.
+## <a name="dashboard-designers-and-dashboard-consumers"></a>대시보드 디자이너 및 대시보드 소비자
+Power BI ***소비자***는 *디자이너*로부터 대시보드를 받습니다. 이 항목에서 계속 대시보드에 대해 알아봅니다.
 
 * [대시보드 보기](end-user-dashboard-open.md)
 * [대시보드 타일](end-user-tiles.md)과 선택할 경우 어떻게 되는지 알아보세요.

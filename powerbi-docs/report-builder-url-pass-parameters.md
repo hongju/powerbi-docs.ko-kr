@@ -9,16 +9,16 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: add2f82594d83d1e1f177bfad5045c2e0a34ba84
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: f7f1b777e7c4e54dbdcfb1757fe4df274624a580
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189372"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075995"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서에 대한 URL에 보고서 매개 변수 전달 
 
-보고서 매개 변수를 페이지를 매긴 보고서 URL에 포함하여 보고서에 전달할 수 있습니다. 모든 쿼리 매개 변수에는 해당하는 보고서 매개 변수가 있을 수 있습니다. 따라서 해당 보고서 매개 변수를 전달하여 보고서에 쿼리 매개 변수를 전달합니다. Power BI가 URL에서 인식할 수 있도록 매개 변수 이름 앞에 접두사로  `rp:`를 붙여야 합니다. 
+보고서 매개 변수를 페이지를 매긴 보고서 URL에 포함하여 보고서에 전달할 수 있습니다. 모든 쿼리 매개 변수에는 해당하는 보고서 매개 변수가 있을 수 있습니다. 따라서 해당 보고서 매개 변수를 전달하여 보고서에 쿼리 매개 변수를 전달합니다. Power BI가 URL에서 인식할 수 있도록 매개 변수 이름 앞에 접두사로 `rp:`를 붙여야 합니다. 
 
 보고서 매개 변수는 대/소문자를 구분하고 다음과 같은 특수 문자를 사용합니다. 
 
@@ -63,7 +63,7 @@ rp:SalesOrderNumber:isnull=true
 부울 값을 전달하려면 false에 대해 0, true에 대해 1을 사용합니다. 부동 소수점 값을 전달하려면 서버 로캘의 소수 구분 기호를 포함합니다.
 
 > [!NOTE]
-> 보고서에 기본값이 있는 보고서 매개 변수가 포함되어 있고  **Prompt**  속성이  **false**(즉 보고서 관리자에서 **Prompt User** 속성을 선택하지 않음)이면 URL 내에서 해당 보고서 매개 변수에 대한 값을 전달할 수 없습니다. 이를 통해 관리자는 최종 사용자가 특정 보고서 매개 변수의 값을 추가하거나 수정하지 못하게 할 수 있습니다.
+> 보고서에 기본값이 있는 보고서 매개 변수가 포함되어 있고 **Prompt** 속성이 **false**(즉 보고서 관리자에서 **Prompt User** 속성을 선택하지 않음)이면 URL 내에서 해당 보고서 매개 변수에 대한 값을 전달할 수 없습니다. 이를 통해 관리자는 최종 사용자가 특정 보고서 매개 변수의 값을 추가하거나 수정하지 못하게 할 수 있습니다.
 
 ## <a name="additional-examples"></a>추가 예제 
 
@@ -73,7 +73,7 @@ rp:SalesOrderNumber:isnull=true
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:Salesperson=Tie+Bear&rp:Salesperson=Mickey 
 ```
 
-다음 URL 예제는 기본 모드 보고서 서버에 대해 값이 “7/1/2005”인 단일 매개 변수 of SellStartDate with를 전달합니다.
+다음 URL 예제는 기본 모드 보고서 서버에 대해 값이 “7/1/2005”인 단일 매개 변수 SellStartDate를 전달합니다.
 
 ```
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:SellStartDate=7/1/2005

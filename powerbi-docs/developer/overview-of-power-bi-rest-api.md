@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 03/25/2019
 ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61269451"
@@ -24,9 +24,9 @@ Power BI REST API를 사용하면 보고서, 데이터 세트 및 작업 영역�
 
 다음은 Power BI API로 수행할 수 있는 몇 가지 작업입니다.
 
-| **자세한 내용은** | **이 정보를 참조 합니다.** |
+| **자세히 알아보려면** | **이 정보를 참조하세요.** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Power BI 사용자 및 Power BI 비사용자를 위한 보고서, 대시보드 및 타일을 포함합니다. | [Power BI 대시보드, 보고서 및 타일을 포함 하는 방법 ](embedding-content.md) |
+| Power BI 사용자 및 Power BI 비사용자를 위한 보고서, 대시보드 및 타일을 포함합니다. | [Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embedding-content.md) |
 | Power BI 개체에서 관리 작업을 수행합니다. | [Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/) |
 | 기존 비즈니스 워크플로를 확장하여 키 데이터를 Power BI 대시보드에 푸시 | [대시보드에 데이터 푸시 ](walkthrough-push-data.md) |
 | Power BI에 인증. | [Power BI에 인증 ](get-azuread-access-token.md) |
@@ -38,7 +38,7 @@ Power BI REST API를 사용하면 보고서, 데이터 세트 및 작업 영역�
 
 | 도구 | 설명 |  |  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [실습 도구](https://microsoft.github.io/PowerBI-JavaScript/demo) | Power BI JavaScript API를 사용하는 전체 예제를 사용해보세요. 이 도구로 다양한 유형의 Power BI Embedded 샘플을 빠르게 재생할 수도 있습니다. |  |  |
+| [플레이그라운드 도구](https://microsoft.github.io/PowerBI-JavaScript/demo) | Power BI JavaScript API를 사용하는 전체 예제를 사용해보세요. 이 도구로 다양한 유형의 Power BI Embedded 샘플을 빠르게 재생할 수도 있습니다. |  |  |
 | [Power BI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | Power BI JavaScript API에 대한 자세한 내용을 알아보려면 |  |  |
 | [Postman](https://www.getpostman.com/) | 요청을 실행하고, 테스트하고, 디버그하고, 모니터링하고, 자동화된 테스트 등을 실행합니다. |
 

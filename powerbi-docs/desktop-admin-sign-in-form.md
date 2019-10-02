@@ -11,7 +11,7 @@ ms.date: 04/15/2019
 ms.author: davidi
 ms.openlocfilehash: 5c31277b640b16882bef5c5f2cd9c56b441ede82
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61329899"
@@ -27,7 +27,7 @@ Power BI Desktop이 처음 시작되면 로그인 양식이 표시됩니다. 계
 Key: HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop
 valueName: ShowLeadGenDialog
 ```
-또한 일부 고객의 해당 구성에 따라 성공적으로 실행 되었는지 하는 다음 키를 시도할 수 있습니다.
+구성에 따라 일부 고객에게 성공한 다음 키를 사용해 볼 수도 있습니다.
 
 ```
 Key: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Microsoft Power BI Desktop
