@@ -19,7 +19,7 @@ ms.lasthandoff: 08/09/2019
 ms.locfileid: "68867185"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>자습서: Power BI를 사용하여 GitHub 리포지토리에 연결
-이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다. ower BI 콘텐츠 공용 저장소(*리포지토리*라고도 하는)에 연결하여 다음과 같은 질문에 대한 답변을 볼 수 있습니다:  얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여하는 사람은 누구인가요? 어떤 요일에 기여가 가장 많은가요? 그리고 기타 질문들이 있습니다. 
+이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다. Power BI 콘텐츠 공용 저장소(*리포지토리*라고도 하는)에 연결하여 다음과 같은 질문에 대한 답변을 볼 수 있습니다:  얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여하는 사람은 누구인가요? 어떤 요일에 기여가 가장 많은가요? 그리고 기타 질문들이 있습니다. 
 
 ![Power BI의 GitHub 보고서](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -96,11 +96,11 @@ ms.locfileid: "68867185"
 
 1. **데이터에 대해 질문하기**에 커서를 놓습니다. Power BI는 **시작할 질문**을 제공합니다. 
 
-1. **포함된 사용자 수**를 선택합니다.
+1. **how many users are there**를 선택합니다.
  
     ![포함된 사용자 수](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
-13. **수**와 **포함된 사용자** 사이에 **단위당 끌어오기 요청**을 입력합니다. 
+13. **how many**와 **users are there** 사이에 **pull requests per**를 입력합니다. 
 
      Power BI에서 사용자별 끌어오기 요청 수를 나타내는 가로 막대형 차트를 만듭니다.
 

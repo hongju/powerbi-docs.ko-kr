@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/16/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 258dd735c5ba97122d9e93f888e65cf2030f01eb
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530471"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074120"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>작업 영역의 데이터 세트 소개(미리 보기)
 
@@ -23,7 +23,7 @@ ms.locfileid: "69530471"
 
 ![공유 데이터 세트 선택](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어할 수 있습니다. 데이터 세트 작성자는 다른 사람이 데이터 세트를 검색할 수 있도록 데이터 세트를 ‘인증’ 또는 ‘승격’할 수도 있습니다. 이렇게 하면 보고서 작성자는 어느 데이터 세트가 공식적이고 품질이 높은지 알 수 있으며, Power BI에서 보고서를 작성할 때 해당 데이터 세트를 사용할 수 있습니다. 테넌트 관리자는 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하도록 새 테넌트 설정을 사용합니다.
+Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어할 수 있습니다. 데이터 세트 작성자는 다른 사람이 데이터 세트를 검색할 수 있도록 데이터 세트를 ‘인증’ 또는 ‘승격’할 수도 있습니다.   이렇게 하면 보고서 작성자는 어느 데이터 세트가 공식적이고 품질이 높은지 알 수 있으며, Power BI에서 보고서를 작성할 때 해당 데이터 세트를 사용할 수 있습니다. 테넌트 관리자는 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하도록 새 테넌트 설정을 사용합니다.
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>데이터 세트 공유 및 새 작업 영역 환경
 
@@ -55,6 +55,7 @@ Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-bu
 공유 데이터 세트 기능을 기반으로 빌드된 특정 기능과 환경은 기존 시나리오에 따라 라이선스가 부여됩니다. 예:
 
 - 일반적으로 공유 데이터 세트의 검색 및 연결은 누구나 사용할 수 있습니다. 그러나 Pro 라이선스가 없는 사용자는 내 작업 영역에 있는 데이터 세트에만 연결할 수 있습니다.
+- Pro 라이선스가 없는 사용자는 두 작업 영역(콘텐츠를 포함하는 작업 영역과 데이터 세트를 포함하는 작업 영역)이 모두 Premium 용량으로 호스트되는 경우 공유 데이터 집합을 기반으로 하는 보고서 및 대시보드를 사용할 수 있습니다.
 - Power BI Desktop에서 Pro 라이선스가 없는 사용자는 내 작업 영역의 데이터 세트만 볼 수 있습니다.
 - 작업 영역 간에 보고서를 복사하려면 Pro 라이선스가 필요합니다.
 - 앱에서 보고서를 복사하려면 조직 콘텐츠 팩에 필요한 것과 같은 Pro 라이선스가 필요합니다.
@@ -66,7 +67,7 @@ Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-bu
 - 작업 영역 B의 데이터 세트를 기반으로 하는 보고서를 작업 영역 A에서 만든다고 가정합니다. 작업 영역 A의 앱을 만들 때 작업 영역 B의 구성원이기도 한 경우에만 해당 보고서를 작업 영역 A 앱에 포함할 수 있습니다.
 - 클래식 작업 영역에서 데이터 세트 검색 환경은 해당 작업 영역의 데이터 세트만 보여줍니다.
 - 공유 데이터 세트를 기반으로 하는 보고서를 추가하려면 데이터 세트 작업 영역의 멤버여야 합니다. 이는 알려진 문제입니다.
-- 공유 데이터 세트를 기반으로 하는 보고서의 경우 “웹에 게시”가 작동하지 않습니다. 이는 의도적인 것입니다.
+- 의도적으로, 공유 데이터 세트를 기반으로 하는 보고서의 경우 “웹에 게시”가 작동하지 않습니다.
 - 두 사람이 공유 데이터 세트에 액세스하는 작업 영역의 멤버인 경우, 둘 중 한명만 작업 영역에서 관련 데이터 세트를 볼 수 있습니다. 데이터 세트에 대한 읽기 이상의 액세스 권한이 있는 사용자만 공유 데이터 세트를 볼 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계

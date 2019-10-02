@@ -13,7 +13,7 @@ ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: ff962335b573c6dd2a03ae5ab4633c1042a77059
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64770784"
@@ -200,7 +200,7 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
 
 ![아이콘 단추](media/service-basic-concepts/power-bi-icons.png)
 
-### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5. **대시보드 제목** (탐색 경로 또는 이동 경로)
+### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5. **대시보드 제목**(탐색 경로. 즉, 이동 경로)
 활성 상태인 작업 영역과 대시보드를 파악하는 것이 항상 쉬운 일은 아니므로 Power BI에서는 자동으로 탐색 경로를 생성합니다.  이 예에서는 작업 영역(내 작업 영역) 및 대시보드 제목(소매점 분석 샘플)이 보입니다.  보고서를 열면 탐색 경로의 끝에 보고서의 이름이 추가될 것입니다.  경로의 각 섹션은 활성 하이퍼링크입니다.  
 
 대시보드 제목 다음에 나오는 "C" 아이콘을 주목하세요. 이 대시보드에는 "기밀"이라는 [데이터 분류 태그](service-data-classification.md)가 있습니다. 이 태그는 데이터의 민감도 및 보안 수준을 식별합니다. 관리자가 데이터 분류를 설정한 경우 모든 대시보드에는 기본 태그 집합이 있습니다. 대시보드 소유자는 대시보드의 적절한 보안 수준에 맞게 태그를 변경해야 합니다.

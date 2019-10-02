@@ -76,7 +76,7 @@ Power BI에는 데이터 요소와 값을 비교하기 위한 시각적 안내�
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_7.png)
 
-또한 보고서 캔버스 전체에서 시각적 개체를 수직 또는 수평으로 균등하게 맞출 수 있습니다. **형식** 리본에서 **균등 맞춤** 단추를 사용만 하면 됩니다.
+또한 보고서 캔버스 전체에서 시각적 개체를 수직 또는 수평으로 균등하게 맞출 수 있습니다. **서식** 리본에서 **균등 맞춤** 단추를 사용만 하면 됩니다.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_8.png)
 

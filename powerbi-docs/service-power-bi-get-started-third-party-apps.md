@@ -9,18 +9,18 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.cunstom: ''
-ms.date: 08/10/2017
+ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 11afe27ffbca295eec67fd07731cc646bcca56dc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3de0b5473c6d00013bdf109f262dc0577c3bf290
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769710"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073509"
 ---
 # <a name="get-started-with-third-party-apps"></a>타사 앱 시작
 
-Power BI를 통해 Microsoft 이외의 회사 또는 개인이 빌드한 앱을 사용할 수 있습니다. 예를 들어, 사용자 지정 빌드된 웹 응용 프로그램에 Power BI 타일을 통합 하는 타사 앱을 사용할 수 있습니다. 해당 응용 프로그램에 부여 하 라는 메시지가 표시 된 타사 앱을 사용 하면 Power BI 계정 및 리소스에 특정 사용 권한이 있습니다. 알고 있고 신뢰할 수 있는 애플리케이션에만 사용 권한을 부여해야 합니다. 언제든지 애플리케이션에 대한 사용 권한을 해지할 수 있습니다. [타사 앱 사용 권한 해지](#revoke)를 참조하세요.
+Power BI를 통해 Microsoft 이외의 회사 또는 개인이 빌드한 앱을 사용할 수 있습니다. 예를 들어 사용자 지정 작성된 웹 애플리케이션에 Power BI 타일을 통합하는 타사 앱을 사용할 수 있습니다. 타사 앱을 사용할 경우 Power BI 계정 및 리소스에 대한 특정 사용 권한을 해당 애플리케이션에 부여해야 합니다. 알고 있고 신뢰할 수 있는 애플리케이션에만 사용 권한을 부여해야 합니다. 언제든지 애플리케이션에 대한 사용 권한을 해지할 수 있습니다. [타사 앱 사용 권한 해지](#revoke)를 참조하세요.
 
 애플리케이션에서 요청할 수 있는 액세스 유형은 다음과 같습니다.
 
@@ -49,13 +49,13 @@ Power BI를 통해 Microsoft 이외의 회사 또는 개인이 빌드한 앱을 
 
 ## <a name="revoke-third-party-app-permissions"></a>타사 앱 사용 권한 해지
 
-Office 365 내 앱 사이트로 이동 하 여 타사 앱에 대 한 사용 권한을 취소 합니다.
+Office 365 내 앱 사이트로 이동하여 타사 앱에 대한 사용 권한을 취소합니다.
 
-에 **Office 365 내 앱** 사이트에서 타사 사용 권한을 취소 하는 방법은 다음과 같습니다.
+**Office 365 내 앱** 사이트에서 타사 사용 권한을 취소하는 방법은 다음과 같습니다.
 
 1. [Office 365 내 앱 사이트](https://portal.office.com/myapps)로 이동합니다.
 
-2. 에 **My apps** 페이지에서 타사 앱을 찾습니다.
+2. **내 앱** 페이지에서 타사 앱을 찾습니다.
 
 3. 앱 타일을 마우스로 가리키고 **(...)** 단추를 클릭하고 **제거**를 클릭합니다.
 

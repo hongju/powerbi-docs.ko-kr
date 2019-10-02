@@ -1,5 +1,5 @@
 ---
-title: '자습서: VM에서 Power BI Report Server 탐색'
+title: '자습서:  VM에서 Power BI Report Server 탐색'
 description: 이 자습서에서는 Power BI Report Server가 이미 설치된 가상 머신을 만들고 웹 포털을 탐색합니다.
 author: maggiesMSFT
 manager: kfile
@@ -11,12 +11,12 @@ ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65240029"
 ---
-# <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>자습서: VM에서 Power BI Report Server 웹 포털 탐색
+# <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>자습서:  VM에서 Power BI Report Server 웹 포털 탐색
 이 자습서에서는 샘플 Power BI 및 페이지를 매긴 보고서와 KPI를 표시, 편집 및 관리해 볼 수 있도록 Power BI Report Server가 이미 설치된 Azure 가상 머신을 만듭니다.
 
 ![보고서 서버 웹 포털](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm-no-numbers.png)
@@ -37,7 +37,7 @@ ms.locfileid: "65240029"
 
 다행히 Power BI 팀은 Power BI Report Server가 설치되어 제공되는 VM을 만들었습니다.
 
-1. Azure Marketplace에서 Power BI Report Server를 선택 합니다. 이 링크가 직접 열립니다. [Power BI Report Server](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview)합니다.  
+1. Azure Marketplace에서 Power BI Report Server를 선택합니다. 다음 링크를 통해 바로 열립니다. [Power BI Report Server](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview).  
 
 2. **지금 받기**를 선택합니다.
 3. 공급자의 사용 약관 및 개인 정보 취급 방침에 동의하려면 **계속**을 선택합니다.
@@ -46,13 +46,13 @@ ms.locfileid: "65240029"
 
     ![Power BI Report Server VM 만들기](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
 
-5. **1 단계의 기본 사항**에 대 한 **VM 이름**, 호출할 **reportservervm**합니다.
+5. **1단계 기본 내용**에서 **VM 이름**으로 **reportservervm**을 지정합니다.
 
-    Power BI 보고서 서버 VM 이름 대시를 포함할 수 없습니다.
+    Power BI Report Server VM 이름에는 대시를 포함할 수 없습니다.
 
 5. 사용자 이름 및 암호를 만듭니다.
 
-6. 에 대 한 **리소스 그룹**를 선택 **새로 만들기**를 호출 하 고 **reportserverresourcegroup** > **확인**합니다.
+6. **리소스 그룹**에서 **새로 만들기**를 선택하고 이름으로 **reportserverresourcegroup** > **확인**을 선택합니다.
 
     이 자습서를 두 번 이상 진행하는 경우 두 번째에는 리소스 그룹에 다른 이름을 지정해야 합니다. 하나의 구독에 동일한 리소스 그룹 이름을 두 번 사용할 수 없습니다. 
 
@@ -60,15 +60,15 @@ ms.locfileid: "65240029"
 
 7. 다른 기본값을 유지한 다음, **확인**을 선택합니다.
 
-8. **단계 2 설정**, 기본값을 그대로 유지 > **확인**합니다.
+8. **2단계 설정**에서 기본값을 유지한 다음 **확인**을 선택합니다.
  
-    합니다 **SQL Storage 계정** 하 고 **진단 저장소 계정** 값도 고유 해야 합니다. 이 자습서를 통해 두 번 이상 이동 하는 경우 다른 이름을 지정 해야 합니다.
+    **SQL 스토리지 계정** 및 **진단 스토리지 계정** 값도 고유해야 합니다. 자습서를 두 번 이상 실행하는 경우 다른 이름을 지정해야 합니다.
 
-9. **단계 3 요약**, 선택 항목 검토 > **확인**합니다.
+9. **3단계 요약**에서 선택 항목을 검토한 다음 **확인**을 선택합니다.
 
-10. **단계 4 구입**, 사용자 및 개인정보 처리 방침 약관을 검토할 > **만들기**합니다.
+10. **4단계 구매**에서 사용자 약관 및 개인 정보 취급 방침을 검토한 다음 **만들기**를 선택합니다.
 
-    합니다 **Power BI Report Server에 대 한 배포 제출 중** 프로세스는 몇 분 정도 걸릴 수 있습니다.
+    **Power BI Report Server에 대한 배포 제출** 프로세스에 몇 분이 걸릴 수 있습니다.
 
 ## <a name="connect-to-your-virtual-machine"></a>가상 머신에 연결
 
@@ -84,13 +84,13 @@ ms.locfileid: "65240029"
 
     ![가상 머신에 연결](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
-5. 에 **가상 컴퓨터에 연결** 기본값을 그대로 유지 하 고 선택 하는 창 **RDP 파일 다운로드**합니다.
+5. **가상 머신에 연결** 창에서 기본값을 유지하고 **RDP 파일 다운로드**를 선택합니다.
 
-1. 에 **원격 데스크톱 연결** 대화 상자에서 **Connect**합니다.
+1. **원격 데스크톱 연결** 대화 상자에서 **연결**을 선택합니다.
 
 6. VM에 대해 만든 이름 및 암호를 입력한 다음, **확인**을 선택합니다.
 
-7. 다음 대화 상자 표시 **원격 컴퓨터의 id를 식별할 수 없는**합니다. **예**를 선택합니다.
+7. 다음 대화 상자에 **원격 컴퓨터의 ID를 식별할 수 없음**으로 표시됩니다. **예**를 선택합니다.
 
    새 VM이 열립니다.
 
@@ -104,7 +104,7 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 |---------|---------|
 |![숫자 1](media/tutorial-explore-report-server-web-portal/number-1.png) | 샘플 Power BI(.PBIX) 보고서 |
 |![숫자 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Power BI Report Server 설명서에 대한 링크 |
-|![숫자 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Power BI Report Server (2019 년 1 월)에 대 한 액세스에 최적화 된 Power BI Desktop 시작 |
+|![숫자 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Power BI Report Server에 최적화된 Power BI Desktop 시작(2019년 1월) |
 |![숫자 4](media/tutorial-explore-report-server-web-portal/number-4.png) | 브라우저에서 Power BI Report Server 웹 포털 열기 |
 |![숫자 5](media/tutorial-explore-report-server-web-portal/number-5.png) | 페이지를 매긴(.RDL) 보고서를 만들기 위한 SQL Server Data Tools 시작 |
 
@@ -163,7 +163,7 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 
 1. **허용**을 선택하여 이 웹 사이트가 컴퓨터에서 프로그램을 열도록 허용합니다. 
 
-     보고서가 Power BI Desktop에서 열립니다. 위쪽 막대에서 "Power BI Desktop (2019 년 1 월)"에서 이름을 note 합니다. Power BI Report Server에 최적화된 버전입니다.
+     보고서가 Power BI Desktop에서 열립니다. 위쪽 막대에서 이름 “Power BI Desktop(2019년 1월)”을 확인합니다. Power BI Report Server에 최적화된 버전입니다.
 
     VM에 설치된 Power BI Desktop의 버전을 사용합니다. 도메인 간 이동하여 보고서를 업로드할 수 없습니다.
 

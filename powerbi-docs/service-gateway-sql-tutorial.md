@@ -187,7 +187,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
     ![새로 고침 기록 링크](./media/service-gateway-sql-tutorial/refresh-history-link.png)
 
-4. **예약** 탭에서 해당 **시작** 과 **종료** 시간 및 Power BI가 새로 고침을 성공적으로 수행했음을 나타내는 **완료됨**의**상태**로 이전 예약 및 주문형 새로 고침을 확인합니다. 새로 고침이 실패한 경우 오류 메시지를 보고 오류 세부 정보를 살펴볼 수 있습니다.
+4. **예약** 탭에서 해당 **시작**과 **종료** 시간 및 Power BI가 새로 고침을 성공적으로 수행했음을 나타내는 **완료됨**의 **상태**로 이전 예약 및 요청 시 새로 고침을 확인합니다. 새로 고침이 실패한 경우 오류 메시지를 보고 오류 세부 정보를 살펴볼 수 있습니다.
 
     ![기록 세부 정보 새로 고침](./media/service-gateway-sql-tutorial/refresh-history-details.png)
 
@@ -196,11 +196,11 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 ## <a name="clean-up-resources"></a>리소스 정리
 
-샘플 데이터를 더 이상 사용하지 않으려면 데이터베이스를 SSMS(SQL Server Management Studio)에서 삭제합니다. SQL Server 데이터 원본을 사용하지 않으려면 데이터 게이트웨이에서 데이터 원본을 제거합니다. 또한 이 자습서를 완료할 용도로 설치하는 경우에만 데이터 게이트웨이를 제거하는 것이 좋습니다. AdventureWorksProducts.pbix 파일을 업로드할 때 Power BI에서 만든AdventureWorksProducts 데이터 세트 및 AdventureWorksProducts 보고서를 삭제해야 합니다.
+샘플 데이터를 더 이상 사용하지 않으려면 데이터베이스를 SSMS(SQL Server Management Studio)에서 삭제합니다. SQL Server 데이터 원본을 사용하지 않으려면 데이터 게이트웨이에서 데이터 원본을 제거합니다. 또한 이 자습서를 완료할 용도로 설치하는 경우에만 데이터 게이트웨이를 제거하는 것이 좋습니다. AdventureWorksProducts.pbix 파일을 업로드할 때 Power BI에서 만든 AdventureWorksProducts 데이터 세트 및 AdventureWorksProducts 보고서를 삭제해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-이 자습서에서는 온-프레미스 SQL Server 데이터베이스에서 Power BI 데이터 세트로 데이터를 가져오는 방법과 Power BI에서 이 데이터 세트를 사용하는 보고서와 대시보드를 업데이트된 상태로 유지하기 위해 예약 및 주문형 방식으로 이 데이터 세트를 새로 고치는 방법에 대해 살펴보았습니다. 이제 Power BI에서 데이터 게이트웨이 및 데이터 원본을 관리하는 방법에 대해 자세히 알아볼 수 있습니다. Power BI에서 데이터 새로 고침 개념 문서를 검토하는 것도 좋은 방법일 수 있습니다.
+이 자습서에서는 온-프레미스 SQL Server 데이터베이스에서 Power BI 데이터 세트로 데이터를 가져오는 방법과 Power BI에서 이 데이터 세트를 사용하는 보고서와 대시보드를 업데이트된 상태로 유지하기 위해 예약 및 요청 방식으로 이 데이터 세트를 새로 고치는 방법에 대해 살펴보았습니다. 이제 Power BI에서 데이터 게이트웨이 및 데이터 원본을 관리하는 방법에 대해 자세히 알아볼 수 있습니다. Power BI에서 데이터 새로 고침 개념 문서를 검토하는 것도 좋은 방법일 수 있습니다.
 
 - [온-프레미스 데이터 게이트웨이 관리](/data-integration/gateway/service-gateway-manage)
 - [데이터 원본 관리 - 가져오기/예약된 새로 고침](service-gateway-enterprise-manage-scheduled-refresh.md)

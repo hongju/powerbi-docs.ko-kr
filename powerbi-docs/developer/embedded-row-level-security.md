@@ -1,20 +1,20 @@
 ---
 title: Power BI Embedded 콘텐츠에서 행 수준 보안 사용
 description: 애플리케이션 내에서 Power BI 콘텐츠를 포함하는 데 필요한 단계에 대해 알아봅니다.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 7c58d4a5ce94a8659c85606dc2cbce1b4fc615f5
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 2e7100db05b6ace0e4d530964f645e120387a8b2
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596558"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073359"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded를 사용하는 행 수준 보안
 
@@ -26,7 +26,7 @@ ms.locfileid: "67596558"
 
 ![행 수준 보안과 관련된 항목입니다.](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
-RLS를 활용하려면 세 가지 주요 개념인 사용자, 역할 및 규칙을 이해해야 합니다. 각각에 대해 좀 더 자세히 살펴보겠습니다.
+RLS를 활용하려면 세 가지 주요 개념인 사용자, 역할 및 규칙을 이해해야 합니다. 이러한 개념에 대해 좀 더 자세히 살펴보겠습니다.
 
 **사용자** – 아티팩트(대시보드, 타일, 보고서 또는 데이터 세트)를 보는 최종 사용자입니다. 사용자는 Power BI Embedded에서 포함된 토큰에 있는 사용자 이름 속성에 의해 식별됩니다.
 
@@ -77,7 +77,7 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>포함된 토큰에 사용자 및 역할 적용
 
-이제 Power BI Desktop 역할을 구성했으므로 역할을 활용하기 위해 애플리케이션에 필요한 몇 가지 작업이 있습니다.
+이제 Power BI Desktop 역할을 구성했으므로 역할을 활용하기 위해 애플리케이션에서 몇 가지 작업을 수행해야 합니다.
 
 사용자가 애플리케이션에 의해 인증되고 권한을 부여 받고 포함된 토큰을 사용하여 특정 Power BI Embedded 보고서에 대한 사용자 액세스 권한을 부여합니다. Power BI Embedded에는 사용자에 대한 특정 정보가 없습니다. RLS가 작동하려면 ID 양식에서 포함 토큰의 일부로 몇 가지 추가 컨텍스트를 통과해야 합니다. [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API를 사용하여 ID를 전달할 수 있습니다.
 

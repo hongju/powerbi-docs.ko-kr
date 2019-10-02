@@ -8,24 +8,24 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f50fa577cace62adadd0dfc29216445c6c8f269
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 10586d0fa685bb947b27a5c243117596517bdb52
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454346"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142239"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Power BI Desktop에 데이터 직접 연결
 Power BI Desktop에서는 데이터를 직접 입력하고 보고서 및 시각화에 해당 데이터를 사용할 수 있습니다. 예를 들어 통합 문서 또는 웹 페이지의 일부를 복사한 후 Power BI Desktop에 붙여넣을 수 있습니다.
 
-데이터를 직접 입력하려면 **홈** 리본에서 **데이터 입력**을 선택합니다.
+새 테이블 형식으로 Power BI Desktop에 직접 데이터를 입력하려면 **홈** 리본에서 **데이터 입력**을 선택합니다.
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
 
-Power BI Desktop에서는 적절한 경우 모든 원본에서 데이터를 로드할 때처럼 데이터에 대해 사소한 변환을 시도할 수 있습니다. 예를 들어 다음의 경우 데이터의 첫 번째 행을 머리글로 승격합니다.
+Power BI Desktop에서는 적절한 경우 어떤 원본에서 데이터를 로드할 때처럼 데이터에 대해 사소한 변환을 시도할 수 있습니다. 예를 들어 다음 경우에 데이터의 첫 번째 행을 헤더로 승격합니다.
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_2.png)
 

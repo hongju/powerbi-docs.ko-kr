@@ -1,6 +1,6 @@
 ---
-title: '오류: Excel 통합 문서에서 모든 데이터를 찾을 수 없습니다.'
-description: '오류: Excel 통합 문서에서 모든 데이터를 찾을 수 없습니다.'
+title: '오류: Excel 통합 문서에서 데이터를 찾을 수 없음'
+description: '오류: Excel 통합 문서에서 데이터를 찾을 수 없음'
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -18,14 +18,14 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65101405"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>오류: Excel 통합 문서에서 모든 데이터를 찾을 수 없습니다.
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>오류: Excel 통합 문서에서 데이터를 찾을 수 없음
 
 >[!NOTE]  
 >이 아티클은 Excel 2007 이상에 적용됩니다.
 
 Power BI로 Excel 통합 문서를 가져오면 다음과 같은 오류가 표시될 수 있습니다.
 
-*오류: 테이블 형식으로 데이터를 찾을 수 없습니다. 가져오려는 Excel에서 Power BI 서비스에 데이터를 테이블로 서식 지정 해야 합니다. Ctrl + T 누릅니다 테이블에서 원하는 모든 데이터를 선택 합니다.*
+*오류: 테이블로 서식이 지정된 데이터를 찾을 수 없습니다. Excel에서 Power BI 서비스로 가져오려면 데이터를 테이블로 서식 지정해야 합니다. 테이블에서 원하는 데이터를 모두 선택하고 Ctrl+T를 누릅니다.*
 
 ![통합 문서에서 데이터를 찾을 수 없습니다.](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 
@@ -38,7 +38,7 @@ Power BI로 Excel 통합 문서를 가져오면 다음과 같은 오류가 표�
 
 ## <a name="details"></a>세부 정보
 ### <a name="cause"></a>원인
-Excel에서 셀 범위를 벗어난 **표**를 만들어 데이터를 더 쉽게 정렬하고, 필터링하며, 서식을 지정할 수 있습니다.
+Excel에서 셀 범위를 벗어난 **표** 를 만들어 데이터를 더 쉽게 정렬하고, 필터링하며, 서식을 지정할 수 있습니다.
 
 Excel 통합 문서를 가져오면 Power BI에서 이러한 표를 찾아 데이터 세트로 가져옵니다. 표를 찾지 못하는 경우 이 오류 메시지가 표시됩니다.
 
@@ -54,7 +54,7 @@ Excel 통합 문서를 가져오면 Power BI에서 이러한 표를 찾아 데�
 3. 리본의 **삽입** 탭에서 **표**를 클릭합니다. 또는 바로 가기로 **Ctrl+T**를 누릅니다.
    
     ![테이블 삽입](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-3.png)
-4. 다음과 같은 대화 상자가 표시됩니다. **머리글 포함**이 선택되어 있는지 확인하고 **확인**을 선택합니다.
+4. 다음과 같은 대화 상자가 표시됩니다. **머리글 포함** 이 선택되어 있는지 확인하고 **확인**을 선택합니다.
    
     ![테이블 만들기](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-create-table.png)
 5. 이제 데이터의 서식이 표로 지정됩니다.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 4ec7a67b861a747f9f8f654ab9fb3fa5c2951af3
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877816"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175195"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -38,7 +38,8 @@ ms.locfileid: "70877816"
 
 * [현재 조직의 사용자에 대한 ID를 관리하는 방법이 어떻게 달라집니까?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Power BI를 어떻게 관리합니까?](#how-do-we-manage-power-bi)
-* [여러 도메인이 있는 경우, 사용자가 추가되는 Office 365 테넌트를 제어할 수 있습니까?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
+* [Microsoft에서 사용자를 위해 만든 테넌트를 관리하는 프로세스는 무엇입니까?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
+* [여러 도메인이 있는 경우 사용자가 추가되는 Office 365 테넌트를 제어할 수 있나요?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [이미 등록된 사용자의 Power BI를 제거하려면 어떻게 하나요?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [새 사용자가 내 테넌트에 가입한 경우 어떻게 알 수 있습니까?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [추가로 준비해야 할 것이 있나요?](#are-there-any-additional-things-i-should-prepare-for)
@@ -171,7 +172,15 @@ Get-MsolCompanyInformation | fl allow*
 
 Power BI는 사용 통계를 볼 수 있고, 사용자 및 그룹을 관리하기 위한 Microsoft 365 관리 센터에 대한 링크를 제공하고 테넌트 전체 설정을 제어하는 기능을 제공하는 관리 포털을 제공합니다.
 
-Power BI 관리 포털을 사용하려면, Office 365 또는 Azure Active Directory 내에서 **전역 관리자**로 해당 계정을 표시하거나 해당 계정에 Power BI 서비스 관리자 역할을 할당해야 합니다. 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)와 [Power BI 관리 포털](service-admin-portal.md)을 참조합니다.
+Power BI 관리 포털을 사용하려면, Office 365 또는 Azure Active Directory 내에서 **전역 관리자**로 해당 계정을 표시하거나 해당 계정에 Power BI 서비스 관리자 역할을 할당해야 합니다. 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md) 및 [Power BI 관리 포털](service-admin-portal.md)을 참조하세요.
+
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Microsoft에서 사용자를 위해 만든 테넌트를 관리하는 프로세스는 무엇입니까?
+
+셀프 서비스 사용자가 Azure AD를 사용하는 클라우드 서비스에 가입하면 서비스에서 사용자의 메일 도메인에 따라 비관리형 Azure AD 디렉터리에 추가합니다. ‘관리자 인수’로 알려진 프로세스를 사용하여 다른 사람이 만든 테넌트를 클레임하고 관리할 수 있습니다.  자세한 내용은 [Azure Active Directory에서 관리자로 비관리형 디렉터리 인수](/azure/active-directory/users-groups-roles/domains-admin-takeover)를 참조하세요. 수행하는 인수 유형은 도메인과 연결된 기존 관리형 테넌트가 있는지 여부에 따라 다릅니다.
+
+* Power BI는 내부 관리자 인수를 지원합니다. 관리되지 않는 Azure 디렉터리의 _내부_ 관리자 인수를 수행하는 경우 새 관리자가 관리되지 않는 디렉터리의 전역 관리자로 추가됩니다. 어떤 사용자, 도메인 또는 서비스 계획도 새 관리자가 관리하는 다른 디렉터리로 마이그레이션되지 않습니다.
+
+* Power BI에서는 외부 관리자 인수를 더 이상 지원하지 않습니다. 관리되지 않는 Azure 디렉터리의 _외부_ 관리자 인수를 수행하는 경우 관리되지 않는 디렉터리의 DNS 도메인 이름이 새 관리자가 관리하는 Azure 디렉터리에 추가됩니다. 도메인 이름을 추가하면 사용자가 중단 없이 서비스에 계속 액세스할 수 있도록 관리되는 Azure 디렉터리에서 사용자와 리소스 간 매핑이 만들어집니다.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>여러 도메인이 있는 경우 사용자가 추가되는 Office 365 테넌트를 제어할 수 있나요?
 

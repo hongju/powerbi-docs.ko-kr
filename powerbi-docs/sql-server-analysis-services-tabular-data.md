@@ -31,15 +31,15 @@ Power BI에서는 두 가지 방법으로 라이브 SQL Server Analysis Services
 
 1. **내 작업 영역**에서 **데이터 가져오기**를 선택합니다. 사용 가능한 경우에 그룹 작업 영역으로 변경할 수도 있습니다.
 
-   ![데이터 단추 가져오기에 연결](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+   ![연결하여 데이터 가져오기 단추](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
 2. **데이터베이스 및 기타**를 선택합니다.
 
-   ![데이터 1에 연결](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
+   ![연결하여 데이터 가져오기 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
 3. **SQL Server Analysis Services** > **연결**을 선택합니다.
 
-   ![데이터 2에 연결](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
+   ![연결하여 데이터 가져오기 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 
 4. 서버를 선택합니다. 여기에 나열된 서버가 보이지 않으면 게이트웨이 및 데이터 원본이 구성되지 않았거나 계정이 게이트웨이에서 데이터 원본의 **사용자** 탭에 나열되지 않은 것입니다. 관리자에 게 문의하세요.
 
@@ -47,7 +47,7 @@ Power BI에서는 두 가지 방법으로 라이브 SQL Server Analysis Services
 
 모델에 연결하면 Power BI 사이트의 **내 작업 영역/데이터 세트**에 나타납니다. 그룹 작업 영역으로 전환된 경우 데이터 세트는 그룹 내에 표시됩니다.
 
-![데이터 집합에 연결](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
+![데이터 세트에 연결](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
 ## <a name="dashboard-tiles"></a>대시보드 타일
 

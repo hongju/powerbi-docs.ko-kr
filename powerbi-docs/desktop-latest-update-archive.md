@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b61d0e3515b4efb08cb08a49d9bb339a1fbbb5a3
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 0dcc5e3aac4b43a6975a9faa5dd23faa2888b324
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903679"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142208"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -34,7 +34,7 @@ ms.locfileid: "70903679"
 
 다음 섹션은 이전 달들의 **Power BI Desktop**에 대한 업데이트를 설명합니다.
 
-## <a name="august-2019-update-2715523641"></a>2019년 8월 업데이트(2.71.5523.641)
+## <a name="august-2019-update-2725556801"></a>2019년 8월 업데이트(2.72.5556.801)
 
 8월 업데이트에는 Power BI Desktop에서 만들 수 있는 다양한 보고서가 제공되었습니다. 
 

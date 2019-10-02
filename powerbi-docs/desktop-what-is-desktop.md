@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 711e0252cddcc78437e03a82d91c67441cfc3a55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513509"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141967"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
 
@@ -32,6 +32,16 @@ ms.locfileid: "65513509"
 * **Power BI 서비스**를 사용하여 다른 사용자와 보고서 공유
 
 해당 작업을 담당하는 사용자는 종종 ‘데이터 분석가’(‘분석가’라고도 함) 또는 비즈니스 인텔리전스 전문가(‘보고서 작성자’라고도 함)로 간주합니다.    그러나 자신을 분석가나 보고서 작성자로 간주하지 않는 많은 사용자는 **Power BI Desktop**을 사용하여 매력적인 보고서를 만들거나 다양한 원본에서 데이터를 끌어오고 동료 및 조직과 공유할 수 있는 데이터 모델을 빌드합니다.
+
+Power BI Desktop에는 캔버스의 왼쪽에 표시되는 세 가지 뷰가 있습니다. 각 뷰는 표시되는 순서에 따라 다음과 같습니다.
+* **보고서 뷰** - 보고서 및 시각적 개체를 만들고 대부분의 작성 시간이 소요되는 뷰입니다.
+* **데이터 뷰** - 여기에서 보고서와 연결된 데이터 모델에 사용되는 테이블, 측정값 및 기타 데이터를 확인하고 보고서 모델에서 최상으로 사용하기 위해 데이터를 변환할 수 있습니다.
+* **모델 뷰** - 이 뷰에서는 데이터 모델에서 테이블 간 관계를 확인하 고 관리합니다.
+
+다음 이미지는 캔버스의 왼쪽에 표시되는 세 가지 뷰를 보여줍니다.
+
+![다른 보기](media/desktop-what-is-desktop/what-is-desktop-07.png)
+
 
 **Power BI Desktop**을 통해 여러 원본의 데이터를 사용하여 조직의 다른 사용자와 공유할 수 있는 통합 보고서인 복잡하고 시각적으로 풍부한 보고서를 만들 수 있습니다. 
 

@@ -5,22 +5,21 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5251bf34d7467c2727cdac83c6f6f9faf59aa888
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608589"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141336"
 ---
-# <a name="featured-dashboards-in-power-bi-service"></a>Power BI 서비스의 주요 대시보드
-## <a name="create-a-featured-dashboard"></a>추천 대시보드 만들기
+# <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 주요 대시보드
+## <a name="create-a-featured-dashboard"></a>주요 대시보드 만들기
 사용자 중 상당수는 자주 방문하는 대시보드가 있을 것입니다.  비즈니스를 운영하는 데 사용하는 대시보드 혹은 다른 여러 대시보드 및 보고서의 타일 집합체를 포함하는 대시보드가 여기에 해당될 수 있습니다.
 
 ![추천으로 설정 아이콘](./media/end-user-featured/power-bi-dropdown.png)
@@ -52,7 +51,7 @@ Amanda가 추천 대시보드를 만드는 과정을 시청하고 비디오 아�
 1. 위의 1 및 2단계를 따릅니다.
    
     ![주요 대시보드 변경 창](./media/end-user-featured/power-bi-change-feature.png)
-2. **주요 대시보드로 설정**을 선택합니다. 대시보드를 추천하지 않더라도 작업 영역에서 제거하지는 않습니다.  
+2. **주요 대시보드로 설정**을 선택합니다. 주요 대시보드에서 해제하더라도 Power BI에서 제거하지는 않습니다.  
    
     ![성공 메시지](./media/end-user-featured/power-bi-unfeature-new.png)
 
