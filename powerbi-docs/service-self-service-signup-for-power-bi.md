@@ -19,15 +19,15 @@ ms.locfileid: "65710784"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>Power BI에 개별 등록
 
-Power BI는 개인 보고서 및 시각화 도구일 수 있으며, 그룹 프로젝트, 사업부 또는 회사 전체의 분석 및 의사 결정 엔진으로의 역할도 담당할 수 있습니다. 이 문서에서는 개별으로 Power BI Pro 평가판에 등록 하는 방법에 설명 합니다. Power BI 관리자 인 경우 참조 [조직에서 Power BI 라이선스](service-admin-licensing-organization.md)합니다.
+Power BI는 개인 보고서 및 시각화 도구일 수 있으며, 그룹 프로젝트, 사업부 또는 회사 전체의 분석 및 의사 결정 엔진으로서의 역할도 담당할 수 있습니다. 이 문서에서는 개인으로 Power BI Pro 평가판에 등록하는 방법에 대해 설명합니다. Power BI 관리자인 경우, [조직에서 Power BI 라이선싱](service-admin-licensing-organization.md)을 참조합니다.
 
 ![Power BI 대시보드](media/service-self-service-signup-for-power-bi/dashboard.png)
 
 ## <a name="supported-email-addresses"></a>지원되는 이메일 주소
 
-등록 프로세스를 시작 하기 전에 반드시 어떤 형식의 Power BI에서 사용할 수 있는 전자 메일 주소에 알아봅니다.
+등록 프로세스를 시작하기 전에 반드시 Power BI에서 사용할 수 있는 전자 메일 주소의 유형을 알아보는 것이 중요합니다.
 
-* Power BI는 등록할 회사 또는 학교 이메일 주소가 필요합니다. 소비자 메일 서비스나 전자 통신 공급자가 제공 하는 전자 메일 주소를 사용 하 여 서명할 수 없습니다. Outlook.com, hotmail.com, gmail.com 등이 포함 됩니다.
+* Power BI에 등록하려면 회사 또는 학교 이메일 주소를 사용해야 합니다. 소비자 이메일 서비스나 전자 통신 공급자가 제공하는 이메일 주소를 사용하여 등록할 수 없습니다. 여기에는 Outlook.com, hotmail.com, gmail.com 등이 포함됩니다.
 
 * 등록한 후에는 [게스트 사용자를 초대](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)하여 개인 계정을 포함한 모든 이메일 주소로 Power BI 콘텐츠를 볼 수 있습니다.
 
@@ -35,7 +35,7 @@ Power BI는 개인 보고서 및 시각화 도구일 수 있으며, 그룹 프�
 
 ## <a name="sign-up-for-a-trial"></a>평가판 등록
 
-다음 단계에 따라 Power BI Pro 평가판에 등록합니다. 다음 섹션을 참조 하세요 [평가판 만료](#trial-expiration)를이 평가판이 만료 된 경우에 옵션에 알아봅니다.
+다음 단계에 따라 Power BI Pro 평가판에 등록합니다. 이 평가판이 만료될 때 사용할 수 있는 옵션에 대한 자세한 내용은 다음 섹션인 [평가판 만료](#trial-expiration)를 참조합니다.
 
 1. Power BI의 [등록 페이지](https://signup.microsoft.com/signup?sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235)로 이동하세요.
 
@@ -43,11 +43,11 @@ Power BI는 개인 보고서 및 시각화 도구일 수 있으며, 그룹 프�
 
     ![시작](media/service-self-service-signup-for-power-bi/get-started.png)
 
-1. 이와 같은 메시지를 받게 되 면 확인 코드를 수신 하 고이 절차에서는 다음 단계를 계속 옵션을 선택 합니다.
+1. 이와 같은 메시지를 받게 되면 확인 코드 수신 옵션을 선택한 다음, 이 절차의 다음 단계를 계속 진행합니다.
 
     ![로봇이 아님을 증명](media/service-self-service-signup-for-power-bi/prove-robot.png)
 
-    이와 같은 메시지를 받게 되 면 로그인 하 고 Power BI를 사용 하는 단계를 완료 합니다.
+    이와 같은 메시지를 받게 되면 로그인하고 Power BI를 사용하기 위한 단계를 완료합니다.
 
     ![기존 계정](media/service-self-service-signup-for-power-bi/existing-account.png)
 
@@ -55,7 +55,7 @@ Power BI는 개인 보고서 및 시각화 도구일 수 있으며, 그룹 프�
 
     ![등록](media/service-self-service-signup-for-power-bi/sign-up.png)
 
-1. 다음과 같은 메시지에 대 한 전자 메일을 확인 합니다.
+1. 다음과 같은 메시지가 있는지 이메일을 확인합니다.
 
     ![이메일 확인](media/service-self-service-signup-for-power-bi/email-verification.png)
 
@@ -63,13 +63,13 @@ Power BI는 개인 보고서 및 시각화 도구일 수 있으며, 그룹 프�
 
     ![계정 만들기](media/service-self-service-signup-for-power-bi/create-account.png)
 
-1. 로 이동 하 되 [Power BI 로그인 페이지](https://powerbi.microsoft.com/landing/signin/), Power BI를 사용 하 여 시작할 수 있습니다.
+1. [Power BI 로그인 페이지](https://powerbi.microsoft.com/landing/signin/)로 이동하게 되면, Power BI 사용을 시작할 수 있습니다.
 
     ![기존 계정](media/service-self-service-signup-for-power-bi/welcome-screen.png)
 
 ## <a name="trial-expiration"></a>평가판 만료
 
-Power BI Pro 평가판 만료 될 때 Power BI (무료) 라이선스 사용자 라이선스 변경 합니다. 이러한 상황이 발생 한 후 Power BI Pro 라이선스를 필요로 하는 기능에 대 한 액세스를 더 이상. 자세한 내용은 [라이선스 유형별 기능](service-features-license-type.md)을 참조하세요.
+Power BI Pro 평가판이 만료될 때, Power BI (무료) 라이선스로 사용자 라이선스가 변경됩니다. 이러한 상황이 발생한 후에는, Power BI Pro 라이선스를 필요로 하는 기능에 더 이상 액세스할 수 없습니다. 자세한 내용은 [라이선스 유형별 기능](service-features-license-type.md)을 참조하세요.
 
 Power BI (무료) 라이선스가 충분 한 경우에 다른 작업을 수행할 필요가 없습니다. Power BI Pro 기능을 활용 하려면 Power BI Pro 라이선스를 구입 하는 방법에 대 한 IT 관리자에 게 문의 합니다.
 
