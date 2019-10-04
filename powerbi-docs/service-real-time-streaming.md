@@ -83,7 +83,7 @@ Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Power BI REST API를 사용하여 데이터 푸시
 **Power BI REST API**는 데이터를 만들고 **푸시** 데이터 세트 및 **스트리밍** 데이터 세트로 전송하는 데 사용할 수 있습니다. Power BI REST API를 사용하여 데이터 세트를 만드는 경우 *defaultMode* 플래그에서 데이터 세트가 푸시인지 스트리밍인지 여부를 지정합니다. *defaultMode* 플래그가 설정되어 있지 않은 경우 데이터 세트는 **푸시** 데이터 세트로 기본 설정됩니다.
 
-*defaultMode* 값이 *pushStreaming*으로 설정되어 있는 경우 데이터 세트는 모두 **푸시***및***스트리밍** 데이터 세트이며 두 데이터 세트 형식의 이점을 모두 제공합니다. 
+*defaultMode* 값이 *pushStreaming*으로 설정되어 있는 경우 데이터 세트는 모두 **푸시** *및* **스트리밍** 데이터 세트이며 두 데이터 세트 형식의 이점을 모두 제공합니다. 
 
 > [!NOTE]
 > *defaultMode* 플래그를 *pushStreaming*으로 설정한 상태로 데이터 세트를 사용할 때, 요청이 **스트리밍** 데이터 세트에 대해 15Kb 크기 제한을 초과하되 **푸시** 데이터 세트의 16MB 크기 제한보다는 작은 경우 요청은 성공하고 데이터가 푸시 데이터 세트에서 업데이트됩니다. 그러나 모든 스트리밍 타일은 일시적으로 실패하게 됩니다.
@@ -109,7 +109,7 @@ Power BI 서비스에서는 다음 이미지에 나와 있는 것처럼 **API** 
 > 
 
 ### <a name="using-azure-stream-analytics-to-push-data"></a>Azure Stream Analytics를 사용하여 데이터를 푸시
-Power BI를 **Azure Stream Analytics**(ASA) 내 출력으로 추가한 다음, 그러한 데이터 스트림을 실시간으로 Power BI 서비스에서 시각화할 수 있습니다. 이 섹션에서는 그러한 프로세스가 어떻게 일어나는지에 대해 기술적인 세부 정보를 설명합니다.
+Power BI를 **Azure Stream Analytics**(ASA)의 출력으로 추가한 다음, 그러한 데이터 스트림을 실시간으로 Power BI 서비스에서 시각화할 수 있습니다. 이 섹션에서는 그러한 프로세스가 어떻게 일어나는지에 대해 기술적인 세부 정보를 설명합니다.
 
 Azure Stream Analytics는 *defaultMode*를 *pushStreaming*으로 설정한 상태에서(*defaultMode*에 대한 정보는 이 문서의 이전 섹션 참조) Power BI REST API를 사용하여 Power BI에 출력 데이터 스트림을 만듭니다. 그러면 **푸시**와  **스트리밍**의 장점을 모두 이용할 수 있는 데이터 세트를 얻을 수 있습니다. 데이터 세트를 만드는 동안 Azure Stream Analytics는 또한 **retentionPolicy* 플래그를 *basicFIFO*로 설정하는데, 이 설정을 사용하면 데이터베이스는 푸시 데이터 세트가 200,000개 행을 저장하도록 지원하며 이후 한도에 도달하면 행은 선입 선출(FIFO) 방식으로 삭제됩니다.
 
@@ -173,7 +173,7 @@ Power BI와 **PubNub** 스트리밍의 통합을 통해 낮은 지연율 **PubNu
 > 
 > 
 
-**PubNub** 데이터 스트림은 종종 고용량이며 원래 형태로 스토리지 및 기록 분석에 항상 적합하지 않습니다. PubNub 데이터의 기록 분석에 대해 Power BI를 사용하려면 원시 PubNub 스트림을 집계하고 Power BI로 보내야 합니다. 작업을 수행하는 한 가지 방법은 인 [Azure 스트림 분석](https://azure.microsoft.com/services/stream-analytics/)을 사용하는 것입니다.
+**PubNub** 데이터 스트림은 종종 고용량이며 원래 형태로 스토리지 및 기록 분석에 항상 적합하지 않습니다. PubNub 데이터의 기록 분석에 대해 Power BI를 사용하려면 원시 PubNub 스트림을 집계하고 Power BI로 보내야 합니다. 작업을 수행하는 한 가지 방법은 [Azure 스트림 분석](https://azure.microsoft.com/services/stream-analytics/)을 사용하는 것입니다.
 
 ## <a name="example-of-using-real-time-streaming-in-power-bi"></a>Power BI에서 실시간 스트리밍 사용의 예
 Power BI에서 실시간 스트리밍이 작동되는 방법에 대한 간단한 예는 다음과 같습니다. 이 샘플을 따라 실시간 스트리밍의 값을 볼 수 있습니다.
