@@ -39,7 +39,7 @@ Amanda가 Power BI 보고서에서 시각적 개체 및 이미지를 고정하�
 
 이제 Power BI 샘플 보고서 중 하나를 사용하여 고유한 대시보드를 만듭니다.
 
-1. 보고서에서 고정하려는 시각적 개체를 마우스로 가리키고 고정 아이콘을 선택합니다. ![고정 아이콘](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png). Power BI에서 **대시보드에 고정** 화면이 열립니다.
+1. 보고서에서 고정하려는 시각적 개체를 마우스로 가리키고 고정 아이콘 ![고정 아이콘](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png)을 선택합니다. Power BI에서 **대시보드에 고정** 화면이 열립니다.
    
      ![대시보드에 고정 창](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. 기존 대시보드에 고정할지 또는 새 대시보드에 고정할지를 선택합니다.
