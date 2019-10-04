@@ -37,7 +37,7 @@ Power BI에서는 Excel 2007 이상에서 만들어진 통합 문서 가져오�
 > 
 
 ### <a name="workbooks-with-connections-to-external-data-sources"></a>외부 데이터 소스에 연결된 통합 문서
-Excel을 사용하여 외부 데이터 원본에 연결할 경우 통합 문서가 Power BI에 있으면 해당 연결된 데이터 원본에서 데이터에 기반하여 보고서와 대시보드를 만들 수 있습니다. 또한, 예약된 새로 고침을 설정하여 데이터 원본에 바로 자동 연결하고 업데이트를 받을 수도 있습니다. 더 이상 Excel의 데이터 리본에서 수동으로 새로 고침할 필요가 없습니다. 해당 데이터 원본의 데이터에 기반한 보고서의 모든 시각화와 대시보드의 타일이 자동으로 업데이트됩니다. 자세한 내용은 [Power BI에서 데이터 새로 고침](refresh-data.md)을 참조하십시오.
+Excel을 사용하여 외부 데이터 원본에 연결할 경우 통합 문서가 Power BI에 있으면 해당 연결된 데이터 원본에서 데이터에 기반하여 보고서와 대시보드를 만들 수 있습니다. 또한, 예약된 새로 고침을 설정하여 데이터 원본에 바로 자동 연결하고 업데이트를 받을 수도 있습니다. 더 이상 Excel의 데이터 리본에서 수동으로 새로 고침할 필요가 없습니다. 해당 데이터 원본의 데이터에 기반한 보고서의 모든 시각화와 대시보드의 타일이 자동으로 업데이트됩니다. 자세한 내용은 [Power BI에서 데이터 새로 고침](refresh-data.md)을 참조하세요.
 
 ### <a name="workbooks-with-power-view-sheets-pivottables-and-charts"></a>파워 뷰 시트, 피벗 테이블 및 차트 포함 문서
 Power BI에서 파워 뷰 시트와 피벗 테이블 및 차트가 어떻게 나타나는지 또는 나타나지 않을지는 통합 문서가 저장된 위치와 Power BI로 가져오기 위해 선택한 방식에 따라 달라집니다. 아래에서 더 자세히 다루겠습니다.
@@ -59,7 +59,7 @@ Power BI에 사용할 통합 문서를 준비하는 방법에 대해 자세히 �
 
 **SharePoint 팀 사이트** – Power BI Desktop 파일을 SharePoint 팀 사이트에 저장하는 것은 비즈니스용 OneDrive에 저장하는 것과 상당히 같습니다. 가장 큰 차이점은 Power BI에서 파일에 연결하는 방법입니다. URL을 지정하거나 루트 폴더에 연결할 수 있습니다.
 
-## <a name="one-excel-workbook--two-ways-to-use-it"></a>하나의 Excel 통합 문서로 두 가지 사용 방법
+## <a name="one-excel-workbook--two-ways-to-use-it"></a>하나의 Excel 통합 문서 - 두 가지 사용 방법
 통합 문서 파일을 **OneDrive**에 저장하는 경우 Power BI에서 데이터를 탐색할 수 있는 여러 방법이 있습니다.
 
 ![](media/service-excel-workbook-files/excel_import_connect.png)
