@@ -187,7 +187,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
     ![새로 고침 기록 링크](./media/service-gateway-sql-tutorial/refresh-history-link.png)
 
-4. **예약** 탭에서 해당 **시작**과 **종료** 시간 및 Power BI가 새로 고침을 성공적으로 수행했음을 나타내는 **완료됨**의 **상태**로 이전 예약 및 요청 시 새로 고침을 확인합니다. 새로 고침이 실패한 경우 오류 메시지를 보고 오류 세부 정보를 살펴볼 수 있습니다.
+4. **예약** 탭에서 해당 **시작**과 **종료** 시간 및 Power BI가 새로 고침을 성공적으로 수행했음을 나타내는 **완료됨**의**상태**로 이전 예약 및 요청 시 새로 고침을 확인합니다. 새로 고침이 실패한 경우 오류 메시지를 보고 오류 세부 정보를 살펴볼 수 있습니다.
 
     ![기록 세부 정보 새로 고침](./media/service-gateway-sql-tutorial/refresh-history-details.png)
 

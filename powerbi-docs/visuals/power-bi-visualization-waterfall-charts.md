@@ -72,7 +72,7 @@ ms.locfileid: "71191407"
 
     ![시각화 템플릿](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. **시간** > **FiscalMonth**를 선택하여 **범주** 웰에 추가합니다.
+1. **시간** > **FiscalMonth**를 선택하여 **범주** 영역에 추가합니다.
 
     ![폭포](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 
