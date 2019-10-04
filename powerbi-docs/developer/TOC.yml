@@ -1,0 +1,240 @@
+- name: 개발자용 Power BI
+  items:
+    - name: 개요
+      expanded: true
+      items:
+        - name: 개발자는 Power BI로 무엇을 할 수 있나요
+          href: what-can-you-do.md
+    - name: Power BI 시각적 개체
+      expanded: true
+      items:
+        - name: 개요
+          items:
+            - name: Power BI의 시각적 개체
+              href: ../power-bi-custom-visuals.md
+        - name: 자습서
+          items:
+            - name: Power BI의 시각적 개체 개발
+              href: custom-visual-develop-tutorial.md
+            - name: 서식 지정 옵션 추가
+              href: custom-visual-develop-tutorial-format-options.md
+            - name: 시각적 개체 프로젝트를 위한 단위 테스트 추가
+              href: visuals/unit-tests-introduction.md
+        - name: 개념
+          items:
+            - name: Power BI의 조직을 위한 시각적 개체
+              href: ../power-bi-custom-visuals-organization.md
+            - name: Power BI 시각적 개체에 대한 지침
+              href: guidelines-powerbi-visuals.md
+            - name: 시각적 개체 FAQ
+              href: ../power-bi-custom-visuals-faq.md
+            - name: 기능 사용
+              href: visuals/capabilities.md
+            - name: 데이터 보기 매핑
+              href: visuals/dataview-mappings.md
+            - name: 개체 및 속성
+              href: visuals/objects-properties.md
+            - name: 고급 편집 모드
+              href: visuals/advanced-edit-mode.md
+        - name: 방법
+          items:
+            - name: 시각적 개체 인증받기
+              href: ../power-bi-custom-visuals-certified.md
+            - name: AppSource에 사용자 지정 시각적 개체 게시
+              href: office-store.md
+            - name: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
+              href: ../desktop-r-powered-custom-visuals.md
+            - name: 시각적 개체 상호 작용
+              href: visuals/visuals-interactions.md
+            - name: 시각적 개체 도구 설명 추가
+              href: visuals/add-tooltips.md
+            - name: 분석 창 추가
+              href: visuals/analytics-pane.md
+            - name: 시각적 개체 필터링
+              href: visuals/filter-api.md
+            - name: 더 많은 데이터 가져오기
+              href: visuals/fetch-more-data.md
+            - name: 책갈피 추가 지원
+              href: visuals/bookmarks-support.md
+            - name: 시각적 개체의 데이터 강조 표시
+              href: visuals/highlight.md
+            - name: 고대비 모드 지원 추가
+              href: visuals/high-contrast-support.md
+            - name: 슬라이서 동기화 사용
+              href: visuals/enable-sync-slicers.md
+            - name: Power BI 시각적 개체 문제 해결
+              href: ../power-bi-custom-visuals-troubleshoot.md
+        - name: 참조
+          items:
+            - name: 방문 페이지
+              href: visuals/landing-page.md
+            - name: 시작 URL
+              href: visuals/launch-url.md
+            - name: 이벤트 렌더링
+              href: visuals/event-service.md
+            - name: 정렬
+              href: visuals/sort-options.md
+        - name: 리소스
+          items:
+            - name: 개발자 센터
+              href: 'https://powerbi.microsoft.com/developers/'
+            - name: 샘플
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: 사용자 지정 시각적 Git 리포지토리
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+            - name: SSL 인증서를 만드는 중
+              href: visuals/create-ssl-certificate.md
+    - name: 분석 내장
+      expanded: true
+      items:
+        - name: 개요
+          items:
+            - name: Power BI에 포함이란?
+              href: embedding.md
+            - name: Azure의 Power BI Embedded란?
+              href: azure-pbie-what-is-power-bi-embedded.md
+        - name: 자습서
+          items:
+            - name: 고객용 콘텐츠 포함
+              href: embed-sample-for-customers.md
+            - name: 조직용 콘텐츠 포함
+              href: embed-sample-for-your-organization.md
+            - name: 국내 클라우드용 콘텐츠 포함
+              href: embed-sample-for-customers-national-clouds.md
+        - name: 개념
+          items:
+            - name: 성능 모범 사례
+              href: embedded-performance-best-practices.md
+            - name: 서비스 사용자
+              href: embed-service-principal.md
+            - name: 행 수준 보안
+              href: embedded-row-level-security.md
+            - name: 다중 테넌트 관리
+              href: embed-multi-tenancy.md
+            - name: Power BI Embedded에 대한 Azure 진단 로깅
+              href: azure-pbie-diag-logs.md
+            - name: 포함 FAQ
+              href: embedded-faq.md
+            - name: Power BI 사용 권한
+              href: power-bi-permissions.md
+        - name: 방법
+          items:
+            - name: 앱에서 포함
+              href: embed-from-apps.md
+            - name: 앱 자동 설치
+              href: embed-auto-install-app.md
+            - name: Azure Active Directory 테넌트 만들기
+              href: create-an-azure-active-directory-tenant.md
+            - name: 애플리케이션 등록
+              href: register-app.md
+            - name: Azure AD 액세스 토큰 가져오기
+              href: get-azuread-access-token.md
+            - name: Q&A 포함
+              href: qanda.md
+            - name: 포함된 애플리케이션 문제 해결
+              href: embedded-troubleshoot.md
+            - name: Azure에서 용량 관리
+              items:
+                - name: Azure에서 용량 만들기
+                  href: azure-pbie-create-capacity.md
+                - name: Azure에서 Multi-Geo를 사용하여 용량 만들기
+                  href: embedded-multi-geo.md
+                - name: Azure에서 용량 확장
+                  href: azure-pbie-scale-capacity.md
+                - name: Azure에서 용량 일시 중지 및 시작
+                  href: azure-pbie-pause-start.md
+            - name: 작업 영역 컬렉션에서 마이그레이션
+              items:
+                - name: Power BI 작업 영역 컬렉션에서 마이그레이션하는 방법
+                  href: migrate-from-powerbi-embedded.md
+                - name: 마이그레이션 도구
+                  href: migrate-tool.md
+                - name: 마이그레이션 코드 조각
+                  href: migrate-code-snippets.md
+        - name: 참조
+          items:
+            - name: API
+              items:
+                - name: Azure Resource Management REST API
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: Power BI REST API
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+                - name: Power BI REST API 참조
+                  href: rest-api-reference.md
+            - name: .NET SDK 다운로드
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: 앱에 사용자 지정 레이아웃 포함
+              href: embedded-custom-layout.md
+        - name: 리소스
+          items:
+            - name: 개발자 센터
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 포함 설정 도구
+              href: 'https://aka.ms/embedsetup'
+            - name: JavaScript Playground 샘플
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: Power BI JavaScript wiki
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: JavaScript Git 리포지토리
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Power BI C# Git 리포지토리'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: 샘플
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: Power BI 커뮤니티
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: 스택 오버플로
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: 자동화
+      expanded: true
+      items:
+        - name: 개요
+          items:
+            - name: Power BI API로 무엇을 할 수 있나요?
+              href: overview-of-power-bi-rest-api.md
+        - name: 자습서
+          items:
+            - name: 데이터 세트에 데이터 푸시
+              href: walkthrough-push-data.md
+            - name: 인증 액세스 토큰 가져오기
+              href: walkthrough-push-data-get-token.md
+            - name: 데이터 세트 만들기
+              href: walkthrough-push-data-create-dataset.md
+            - name: 행을 추가할 데이터 세트 가져오기
+              href: walkthrough-push-data-get-datasets.md
+            - name: 테이블에 행 추가
+              href: walkthrough-push-data-add-rows.md
+        - name: 개념
+          items:
+            - name: 실시간 데이터에 대한 자동 보존 정책
+              href: api-automatic-retention-policy-for-real-time-data.md
+            - name: 데이터 푸시
+              items:
+                - name: Power BI REST API 제한 사항
+                  href: api-rest-api-limitations.md
+                - name: 데이터 세트 속성
+                  href: api-dataset-properties.md
+                - name: 데이터 모델 버전 관리
+                  href: api-data-model-versioning.md
+        - name: 방법
+          items:
+            - name: 자격 증명 구성
+              href: configure-credentials.md
+            - name: 자격 증명 암호화
+              href: encrypt-credentials.md
+        - name: 참조
+          items:
+            - name: REST API
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: Power BI REST API 참조
+              href: rest-api-reference.md
+            - name: 전체 코드 목록
+              href: walkthrough-push-data-complete-code.md
+        - name: 리소스
+          items:
+            - name: 개발자 센터
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Power BI C# Git 리포지토리'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: .NET SDK 다운로드
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'

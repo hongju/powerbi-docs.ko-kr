@@ -697,6 +697,8 @@
               href: service-cognitive-services.md
             - name: Power BI에서 Machine Learning 자동화(미리 보기)
               href: service-machine-learning-automated.md
+        - name: 데이터 계보
+          href: service-data-lineage.md
         - name: Power BI의 페이지를 매긴 보고서
           items:
             - name: 페이지를 매긴 보고서 보기
@@ -867,6 +869,8 @@
       items:
         - name: 지원되는 언어 및 국가/지역
           href: supported-languages-countries-regions.md
+        - name: 지원되는 브라우저
+          href: power-bi-browsers.md
     - name: 리소스
       items:
         - name: 백서
