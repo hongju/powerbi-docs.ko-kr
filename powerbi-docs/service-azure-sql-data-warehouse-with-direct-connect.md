@@ -38,7 +38,7 @@ SQL Data Warehouse 커넥터를 사용할 때
 > [!Important]
 > Azure SQL Data Warehouse에 대한 연결이 향상되었습니다.  Azure SQL Data Warehouse 데이터 원본에 연결하는 최상의 환경을 위해 Power BI Desktop을 사용합니다.  모델 및 보고서를 빌드하면 Power BI 서비스에 게시할 수 있습니다.  Power BI 서비스에서 Azure SQL Data Warehouse에 대한 직접 커넥터는 이제 사용되지 않습니다.
 
-SQL Data Warehouse와 Power BI 간을 이동하는 가장 쉬운 방법은 Azure Portal 내에서 **Power BI에서 열기** 단추를 사용하는 것입니다. 이 단추를 사용하면 Power BI에서 자연스럽게 새 대시보드 만들기를 싲가할 수 있습니다.
+SQL Data Warehouse와 Power BI 간을 이동하는 가장 쉬운 방법은 Azure Portal 내에서 **Power BI에서 열기** 단추를 사용하는 것입니다. 이 단추를 사용하면 Power BI에서 자연스럽게 새 대시보드 만들기를 시작할 수 있습니다.
 
 1. 시작하려면 Azure Portal에서 SQL Data Warehouse 인스턴스로 이동합니다. 현재 SQL Data Warehouse는 Azure Portal에만 있습니다.
 
@@ -54,7 +54,7 @@ SQL Data Warehouse와 Power BI 간을 이동하는 가장 쉬운 방법은 Azure
 
 SQL Data Warehouse는 Power BI 데이터 가져오기 페이지에도 나열됩니다. 
 
-1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.  
+1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기**를 선택합니다.  
 
     ![데이터 단추 가져오기](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
