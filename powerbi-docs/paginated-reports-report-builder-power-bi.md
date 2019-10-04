@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/06/2019
-ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.date: 09/24/2019
+ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985728"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305691"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium의 페이지를 매긴 보고서란?(미리 보기)
 
@@ -36,14 +36,13 @@ ms.locfileid: "69985728"
 
 하나의 페이지를 매긴 보고서에 다양하고 많은 데이터 원본이 포함될 수 있습니다. Power BI 보고서와 달리, 이 보고서에는 기본 데이터 모델이 없습니다. Power BI 서비스의 페이지를 매긴 보고서 초기 릴리스의 경우 보고서 자체에 포함된 데이터 원본 및 데이터 세트를 만듭니다. 지금은 공유 데이터 원본 또는 공유 데이터 세트를 사용할 수 없습니다. 로컬 컴퓨터의 보고서 작성기에서 보고서를 만듭니다. 보고서가 온-프레미스 데이터에 연결되면 보고서를 Power BI 서비스에 업로드한 후 게이트웨이를 만들고 데이터 연결을 리디렉션해야 합니다. 현재 연결할 수 있는 데이터 원본은 다음과 같습니다.
 
-- Azure SQL Database 및 Data Warehouse
+- Azure SQL Database와 데이터 웨어하우스(기본 및 oAuth를 통해)
 - Azure Analysis Services(SSO를 통해)
 - 게이트웨이를 통해 SQL Server
 - 게이트웨이를 통해 SQL Server Analysis Services
-- Power BI Premium 데이터 세트
+- Power BI 데이터 세트
 - Oracle
 - Teradata
-- 추가되는 추가 소스
 
 ## <a name="design-your-report"></a>보고서 디자인  
 
@@ -79,10 +78,10 @@ ms.locfileid: "69985728"
 초기 릴리스에서 지원되지 않는 몇 가지 다른 기능은 다음과 같습니다.
 
 - 보고서 페이지 또는 시각적 개체를 Power BI 대시보드에 고정. 사용자는 여전히 Power BI Report Server 또는 Reporting Services 보고서 서버의 온-프레미스 페이지를 매긴 보고서에서 Power BI 대시보드로 시각화를 고정할 수 있습니다. 자세한 내용은 [Power BI 대시보드에 Reporting Services 항목 고정](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)을 참조하세요.
-- 문서 구조 및 단추 표시/숨기기와 같은 대화형 기능.
-- 하위 보고서 및 드릴스루 보고서.
+- 문서 구조.
+- 하위 보고서 및 드릴스루 보고서.  단, 드릴스루 시나리오를 위해서는 URL 매개 변수를 페이지를 매긴 보고서와 함께 사용할 수 있습니다.
 - 공유 데이터 원본 및 공유 데이터 세트.
-- Power BI 보고서의 시각적 개체.
+
  
 ## <a name="next-steps"></a>다음 단계
 

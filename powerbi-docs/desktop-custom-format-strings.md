@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a81aa47fb7945b2fd76d03a6bdde7712304bdc
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: fffb0479865439759167635efcae1799452c4c6f
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919472"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305726"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop에서 사용자 지정 형식 문자열 사용
 
@@ -148,13 +148,14 @@ ms.locfileid: "70919472"
 | ( **E- E+ e- e+** ) | 지수 형식. 형식 식에서 E-, E+, e- 또는 e+ 오른쪽에 한 자리 이상의 자리 표시자(**0** 또는 **#** )가 포함되어 있으면 숫자는 지수 형식으로 표시되고 E 또는 e가 숫자와 지수 사이에 삽입됩니다. 오른쪽의 숫자 자리 표시자의 수는 지수의 자릿수를 결정합니다. 음수 지수 옆에 빼기 기호를 추가하려면 E- 또는 e-를 사용합니다. 음수 지수 옆에 빼기 기호를, 양수 지수 옆에 더하기 기호를 추가하려면 E+ 또는 e+를 사용합니다. |
 | **- + $**  ( ) | 리터럴 문자를 표시합니다. 나열된 문자 이외의 문자를 표시하려면 앞에 백슬래시(\))를 사용하거나 큰따옴표(&quot; &quot;)로 묶습니다. |
 | ( * *\** ) | 형식 문자열에서 다음 문자를 표시합니다. 리터럴 문자와 같이 특별한 의미가 있는 문자를 표시하려면 앞에 백슬래시(\)를 사용합니다. 백슬래시 자체는 표시되지 않습니다. 백슬래시를 사용하는 것은 다음 문자를 큰따옴표로 묶는 것과 같습니다. 백슬래시를 표시하려면 백슬래시를 두 개(\\) 사용합니다. 리터럴 문자로 표시될 수 있는 문자의 예는 날짜 형식 및 시간 형식 문자(a, c, d, h, m, n, p, q, s, t, w, y, /, :), 숫자 형식 문자(#, 0, %, E, e, 쉼표 및 마침표), 문자열 형식 문자(@, &amp;, \&lt;, \&gt;, !)입니다. |
-| (&quot;ABC&quot;) | 문자열을 큰따옴표(&quot; &quot;)로 묶어 표시합니다. 코드 내에서 문자열을 **format**에 포함하려면 **Chr(34)** 을 사용하여 텍스트를 묶어야 합니다(34는 따옴표(&quot;)에 해당하는 문자 코드임). |
+| (&quot;ABC&quot;) | 문자열을 큰따옴표(&quot; &quot;)로 묶어 표시합니다. |
 
 
 ## <a name="next-steps"></a>다음 단계
 다음 문서에도 관심이 있을 수 있습니다.
 
 * [VBA 형식 문자열](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [Power BI Desktop의 측정값](desktop-measures.md)
+* [Power BI Desktop의 데이터 형식](desktop-data-types.md)
 * [테이블에서 조건부 서식 지정](desktop-conditional-table-formatting.md)
-* [Power BI Desktop의 식 기반 제목](desktop-conditional-format-visual-titles.md)
 

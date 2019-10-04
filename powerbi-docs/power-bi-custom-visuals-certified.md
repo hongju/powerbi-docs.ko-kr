@@ -1,47 +1,47 @@
 ---
-title: 인증된 Power BI 사용자 지정 시각화 개체
-description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스. 이미 인증된 사용자 지정 시각적 개체 목록.
-author: sranins
-ms.author: rasala
-manager: kfile
+title: 인증된 Power BI Power BI 시각적 개체
+description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스. 이미 인증된 Power BI 시각적 개체 목록.
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d806a0ed35a6e8270a154708279faacefeb6e510
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454555"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195699"
 ---
-# <a name="certified-custom-visuals"></a>인증된 사용자 지정 시각적 개체
+# <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
-## <a name="what-are-_certified_-custom-visuals"></a>**_인증된_** 사용자 지정 시각적 개체란 무엇인가요?
+## <a name="what-are-_certified_-power-bi-visuals"></a>**_인증된_** Power BI 시각적 개체란 무엇인가요?
 
-인증된 사용자 지정 시각적 개체는 **Microsoft Power BI 팀**이 테스트하고 승인한 특정 **지정 코드** 요구 사항을 충족하는 **Marketplace**의 시각적 개체입니다. 사용자 지정 시각적 개체가 인증되면 더 많은 기능을 제공합니다. 예를 들어 [PowerPoint로 내보내기](consumer/end-user-powerpoint.md)할 수 있으며 사용자가 [보고서 페이지를 구독](consumer/end-user-subscribe.md)할 때 받은 이메일에 시각적 개체를 표시할 수 있습니다.
+인증된 Power BI 시각적 개체는 **Microsoft Power BI 팀**이 테스트하고 승인한 특정 **지정 코드** 요구 사항을 충족하는 **Marketplace**의 시각적 개체입니다. 사용자 지정 시각적 개체가 인증되면 더 많은 기능을 제공합니다. 예를 들어 [PowerPoint로 내보내기](consumer/end-user-powerpoint.md)할 수 있으며 사용자가 [보고서 페이지를 구독](consumer/end-user-subscribe.md)할 때 받은 이메일에 시각적 개체를 표시할 수 있습니다.
 
-**인증된 사용자 지정 시각적 개체**는 [표준 사용자 지정 시각적 개체](power-bi-custom-visuals.md)처럼 사용됩니다. 인증된 사용자 지정 시각적 개체는 **Power BI 서비스**, **Power BI Desktop 보고서**에 추가할 수 있으며 **Power BI 모바일** 및 **Power BI Embedded**로 볼 수 있습니다.
+**인증된 Power BI 시각적 개체**는 [표준 Power BI 시각적 개체](power-bi-custom-visuals.md)처럼 사용됩니다. 인증된 Power BI 시각적 개체는 **Power BI 서비스** 및 **Power BI Desktop 보고서**에 추가할 수 있으며 **Power BI 모바일** 및 **Power BI Embedded**로 볼 수 있습니다.
 
-수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스할 수 없는지 확인하기 위해 설계되었습니다. **Microsoft**는 타사 사용자 지정 시각적 개체의 작성자가 *아니며*, 이러한 시각적 개체의 기능을 확인하기 위해 작성자에게 직접 연락하는 것이 좋습니다.
+수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스할 수 없는지 확인하기 위해 설계되었습니다. **Microsoft**는 타사 Power BI 시각적 개체의 작성자가 *아니며*, 이러한 시각적 개체의 기능을 확인하기 위해 작성자에게 직접 연락하는 것이 좋습니다.
 
 인증 프로세스는 선택적 프로세스이며 마켓플레이스에서 해당 시각적 개체가 인증되기를 원하는지 여부는 개발자에게 달려있습니다.  
 
-**인증되지 않은 사용자 지정 시각적 개체**는 반드시 안전하지 않은 시각적 개체를 의미하지는 않습니다. 일부 시각적 개체는 [인증 요구 사항](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) 중 하나 이상을 준수하지 않았기 때문에 인증되지 않았습니다. 예를 들어 맵 시각적 개체와 같은 외부 서비스에 연결하거나 상용 라이브러리를 사용하여 시각적 개체에 연결할 수 있습니다.
+**인증되지 않은 Power BI 시각적 개체**가 반드시 안전하지 않은 시각적 개체를 의미하는 것은 아닙니다. 일부 시각적 개체는 [인증 요구 사항](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) 중 하나 이상을 준수하지 않았기 때문에 인증되지 않았습니다. 예를 들어 맵 시각적 개체와 같은 외부 서비스에 연결하거나 상용 라이브러리를 사용하여 시각적 개체에 연결할 수 있습니다.
 
 웹 개발자로서 고유한 시각화를 만들고  **[Microsoft AppSource](https://appsource.microsoft.com)** 에 추가하는 데 관심이 있나요?  **[자세한 내용은 Power BI 사용자 지정 시각적 개체 개발](developer/custom-visual-develop-tutorial.md)** 을 참조하세요.
 
-## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI 인증된 사용자 지정 시각적 개체 제거
+## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Power BI 인증된 Power BI 시각적 개체 제거
 
-Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-have-been-certified)에서 시각적 개체를 제거할 수 있습니다.
+Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-have-been-certified)에서 시각적 개체를 제거할 수 있습니다.
 
 ## <a name="getting-a-custom-visualcertified"></a>사용자 지정 시각적 개체 인증 받기
 
 ### <a name="certification-requirements"></a>인증 요구 사항
 
-사용자 지정 시각적 개체 [인증](#certified-custom-visuals)을 받으려면 사용자 지정 시각적 개체가 다음을 준수하는지 확인합니다.  
+사용자 지정 시각적 개체 [인증](#get-a-power-bi-visual-certified)을 받으려면 사용자 지정 시각적 개체가 다음을 준수하는지 확인합니다.  
 
 * Microsoft AppSource가 승인되었습니다. 사용자 지정 시각적 개체는 [마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 있어야 합니다.
 * 사용자 지정 시각적 개체는 **API v2.5** 이상 버전으로 작성됩니다.
@@ -84,15 +84,15 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-ha
 
 인증을 위해 사용자 지정 시각적 개체를 제출하려면:
 
-1. Power BI 사용자 지정 시각적 개체 지원 팀에 이메일을 보냅니다(pbicvsupport@microsoft.com). 전자 메일에는 다음 정보를 포함합니다.
+1. Power BI Power BI 시각적 개체 지원팀(pbicvsupport@microsoft.com)에 메일을 보냅니다. 전자 메일에는 다음 정보를 포함합니다.
     * 제목: 시각적 개체 인증 요청
     * 사람이 읽을 수 있는 소스 코드가 호스팅되는 GitHub 리포지토리에 연결
     * [요구 사항 준수](#certification-requirements)
     * 코드 검토 통과
 
-2. Microsoft 사용자 지정 시각적 개체 팀은 사용자 지정 시각적 개체가 인증되어 [인증된 목록](#list-of-custom-visuals-that-have-been-certified)에 추가되거나 수정해야 하는 문제에 대한 보고서와 함께 거부될 때 사용자에게 알립니다. 개발자는 Microsoft와의 통신을 열어 두고 필요한 경우 인증된 시각적 개체를 업데이트하는 것을 담당합니다.
+2. Microsoft Power BI 시각적 개체 팀은 사용자 지정 시각적 개체가 인증되어 [인증된 목록](#list-of-power-bi-visuals-that-have-been-certified)에 추가되거나 수정해야 하는 문제에 대한 보고서와 함께 거부될 때 사용자에게 알립니다. 개발자는 Microsoft와의 통신을 열어 두고 필요한 경우 인증된 시각적 개체를 업데이트하는 것을 담당합니다.
 
-## <a name="list-of-custom-visuals-that-have-been-certified"></a>인증된 사용자 지정 시각적 개체의 목록
+## <a name="list-of-power-bi-visuals-that-have-been-certified"></a>인증된 Power BI 시각적 개체 목록
 
 | AppSource에 연결 | 비디오에 연결 |
 | --- | --- |
@@ -192,7 +192,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-ha
 
 ## <a name="faq"></a>FAQ
 
-시각적 개체에 대한 자세한 내용은 [인증된 시각적 개체에 관한 자주 묻는 질문](power-bi-custom-visuals-faq.md#certified-custom-visuals)을 참조하세요.
+시각적 개체에 대한 자세한 내용은 [인증된 시각적 개체에 관한 자주 묻는 질문](#get-a-power-bi-visual-certified)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -200,6 +200,6 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-custom-visuals-that-ha
 * [YouTube에서 Microsoft의 사용자 지정 시각적 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Power BI의 시각화](visuals/power-bi-report-visualizations.md)  
 * [Power BI의 사용자 지정 시각화](power-bi-custom-visuals.md)  
-* [Microsoft AppSource에 사용자 지정 시각적 개체 게시](developer/office-store.md)  
+* [Microsoft AppSource에 Power BI 시각적 개체 게시하기](developer/office-store.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

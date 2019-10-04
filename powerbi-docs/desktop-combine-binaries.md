@@ -7,37 +7,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f43bb105f7e17ce453e96c6eff875349efd45cb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b4c7cb484b296ccab395e18eb2b0089ffd5c7
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239617"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327815"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Power BI Desktop에서 파일(이진) 병합
-**Power BI Desktop**에 데이터를 가져오기 위한 한 가지 강력한 접근 방식은 동일한 스키마의 여러 파일을 단일 논리 테이블로 결합하는 것입니다. 이 문서에서 설명한 대로 **Power BI Desktop**의 2016년 11월 릴리스(와 이후 버전)는 편리하며, 일반적인 접근 방식이 보다 편리해지고 확장되었습니다.
+**Power BI Desktop**에 데이터를 가져오기 위한 한 가지 강력한 접근 방식은 동일한 스키마의 여러 파일을 단일 논리 테이블로 결합하는 것입니다. 이 편리하고 널리 사용되는 방법은 이 문서에서 설명하는 바와 같이 더 편리해지고 더 확장되었습니다.
 
 동일한 폴더에서 파일을 병합하는 프로세스를 시작하려면 **데이터 가져오기 > 파일 > 폴더**를 선택합니다.
 
 ![](media/desktop-combine-binaries/combine-binaries_1.png)
 
-## <a name="previous-combine-files-binaries-behavior"></a>이전 파일(이진) 병합 동작
-**Power BI Desktop**의 2016년 11월 릴리스 이전에는 이 기능을 **이진 조합**이라고 했고 특정 파일 형식을 **이진 조합** 변환과 결합할 수 있었지만 다음과 같은 제한 사항이 있었습니다.
 
-* 파일을 단일 테이블에 결합하기 전에는 각 개별 파일에 대해 변환을 고려하지 않았습니다. 따라서 편집 과정의 하나로 자주 파일을 결합하고 행을 필터링하여 헤더 값을 필터링해야 합니다. 
-* **이진 파일 결합** 변환은 *텍스트* 또는 *CSV* 파일에서만 가능하고 Excel 통합 문서, JSON 파일 등 지원되는 다른 파일 형식에서는 불가능합니다.
-
-**이진 조합** 작업의 보다 직관적인 작업에 대한 고객의 요구에 따라 변환은 향상되고 **파일 병합**으로 이름이 변경되었습니다.
-
-## <a name="current-combine-files-behavior"></a>현재 파일 병합 동작
-이제 **Power BI Desktop**은 **파일(이진) 병합**을 보다 효과적으로 처리합니다. **쿼리 편집기**의 **홈** 리본 탭에서 또는 열 자체에서 **파일 병합**을 선택하여 시작합니다.
+## <a name="combine-files-behavior"></a>파일 병합 동작
+**쿼리 편집기**의 **홈** 리본 탭에서 또는 열 자체에서 **파일 병합**을 선택하여 **파일(바이너리)을 병합**할 수 있습니다.
 
 ![](media/desktop-combine-binaries/combine-binaries_2a.png)
 
-**파일 병합** 변환은 이제 다음과 같이 동작합니다.
+**파일 병합** 변환은 다음과 같이 동작합니다.
 
 * **파일 병합** 변환에서는 입력된 각각의 파일을 분석하고 ‘텍스트’, ‘Excel 통합 문서’ 또는 ‘JSON’ 파일 등 사용할 올바른 파일 형식을 결정합니다.   
 * 변환을 사용하면 첫째 파일, 예를 들어 추출할 Excel 통합 문서에서 특정 개체를 선택할 수 있습니다. 
@@ -51,7 +44,11 @@ ms.locfileid: "65239617"
     
     ![](media/desktop-combine-binaries/combine-binaries_4.png)
 
-**파일 병합**의 새 동작으로, 지정된 폴더 내 모든 파일의 파일 형식 및 구조가 동일(예: 동일한 열)하다면 해당 파일을 쉽게 병합할 수 있습니다.
+> [!NOTE]
+> Excel 통합 문서의 선택 범위는 병합된 바이너리의 동작에 영향을 줍니다. 예를 들어, 특정 워크시트를 선택하여 해당 워크시트를 병합하거나 루트를 선택하여 전체 파일을 병합할 수 있습니다. 폴더를 선택하면 해당 폴더에 있는 파일들이 병합됩니다. 
+
+
+**파일 병합**의 동작으로, 지정된 폴더 내 모든 파일의 파일 형식 및 구조가 동일(예: 동일한 열)하다면 해당 파일을 쉽게 병합할 수 있습니다.
 
 또한 추가 ‘함수 쿼리’ 단계를 수정하거나 만들 걱정을 하지 않고도 자동으로 생성된 ‘exemplar 쿼리’를 수정하여 추가 변환이나 추출 단계를 손쉽게 적용할 수 있습니다.   ‘exemplar 쿼리’의 모든 변경 내용은 연결된 ‘함수 쿼리’에서 자동으로 생성됩니다.  
 

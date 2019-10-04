@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
+ms.date: 09/26/2019
 ms.author: maggies
-ms.openlocfilehash: 2401064f1f7f3be63c23d72e79987784e1ec7049
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ec1aab13955a4c34861a3f0d8dd39b6c77607696
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187516"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325655"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server용 Power BI 보고서 만들기
-Power BI 서비스(https://powerbi.com) 에서 클라우드에 Power BI 보고서를 저장할 수 있는 것과 마찬가지로 Power BI Report Server 웹 포털에서 온-프레미스 Power BI 보고서를 저장하고 관리할 수 있습니다. Power BI Desktop에서 보고서를 만들고 편집하고 웹 포털에 게시합니다. 그런 다음 조직의 보고서 판독기는 모바일 디바이스의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
+Power BI 서비스 (https://powerbi.com) 에서 클라우드에 Power BI 보고서를 저장할 수 있는 것과 마찬가지로 Power BI Report Server 웹 포털에서 Power BI 보고서 온-프레미스를 저장하고 관리할 수 있습니다. Power BI Desktop에서 보고서를 만들고 편집하고 웹 포털에 게시합니다. 그런 다음 조직의 보고서 판독기는 모바일 디바이스의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
 
 ![웹 포털의 Power BI 보고서](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
@@ -31,7 +31,7 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
 
     ![웹 포털에서 Power BI Desktop 다운로드](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    또는 Microsoft 다운로드 센터의 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723)(Power BI Report Server를 위해 최적화됨 - 2019년 5월)으로 직접 이동합니다.
+    또는 [Power BI Report Server](https://powerbi.microsoft.com/report-server/) 홈페이지로 이동하고 **고급 다운로드 옵션**을 선택합니다.
 
 2. 다운로드 센터 페이지에서 **다운로드**를 선택합니다.
 
@@ -41,13 +41,13 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
 
     - **PBIDesktopRS_x64.msi**(64비트 버전).
 
-4. 설치 관리자를 다운로드 한 후 Power BI Desktop (2019 년 5 월) 설치 마법사를 실행 합니다.
+4. 설치 프로그램을 다운로드한 후에는 Power BI Desktop(2019년 9월) 설치 마법사를 실행합니다.
 
 2. 설치가 끝나면 **지금 Power BI Desktop 시작**을 선택합니다.
    
-    그러면 자동으로 시작되어 사용할 준비가 됩니다. 제목 표시줄에 "Power BI Desktop(2019년 5월)"이 표시되면 올바른 버전임을 알 수 있습니다.
+    그러면 자동으로 시작되어 사용할 준비가 됩니다. 제목 표시줄에 **Power BI Desktop(2019년 9월)** 이라고 표시되면 올바른 버전이 준비된 것입니다.
 
-    ![Power BI Desktop 2019 년 5 월 버전](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2019.png)
+    ![Power BI Desktop 2019년 9월](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-sept-2019.png)
 
 3. Power BI Desktop에 익숙하지 않은 경우 시작 화면에서 비디오를 시청하는 것이 좋습니다.
    
@@ -61,7 +61,7 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
     또는 **홈** 탭에서 **데이터 가져오기**를 선택합니다.
 2. 데이터 원본을 선택합니다. 이 예제에서는 **Analysis Services**입니다.
    
-    ![데이터 원본 선택](media/quickstart-create-powerbi-report/report-server-get-data-ssas.png)
+    ![데이터 원본 선택](media/quickstart-create-powerbi-report/power-bi-report-server-get-data-ssas.png)
 3. **서버** 및 선택적으로 **데이터베이스**를 입력합니다. **라이브 연결** > **확인**을 선택했는지 확인합니다.
    
     ![서버 이름](media/quickstart-create-powerbi-report/report-server-ssas-server-name.png)

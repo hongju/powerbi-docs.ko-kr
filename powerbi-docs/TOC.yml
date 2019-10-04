@@ -873,16 +873,6 @@
           href: power-bi-browsers.md
     - name: 리소스
       items:
-        - name: 백서
-          items:
-            - name: 백서 개요
-              href: whitepapers.md
-            - name: Power BI 보안 백서
-              href: whitepaper-powerbi-security.md
-            - name: Power BI Premium 배포
-              href: whitepaper-powerbi-premium-deployment.md
-            - name: Azure Active Directory B2B를 사용하여 외부에서 Power BI 배포
-              href: whitepaper-azure-b2b-power-bi.md
         - name: 비디오
           href: videos.md
         - name: 웹 세미나
@@ -1456,3 +1446,13 @@
       href: guidance/dax-divide-function-operator.md
     - name: 데이터 흐름에 관한 모범 사례
       href: service-dataflows-best-practices.md
+    - name: 백서
+      items:
+        - name: 백서 개요
+          href: whitepapers.md
+        - name: Power BI 보안 백서
+          href: whitepaper-powerbi-security.md
+        - name: Power BI Premium 배포
+          href: whitepaper-powerbi-premium-deployment.md
+        - name: Azure Active Directory B2B를 사용하여 외부에서 Power BI 배포
+          href: whitepaper-azure-b2b-power-bi.md

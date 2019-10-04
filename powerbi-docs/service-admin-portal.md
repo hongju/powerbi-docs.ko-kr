@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/20/2019
+ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175251"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305889"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -522,6 +522,15 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 관리자는 테넌트에 있는 작업 영역을 볼 수 있습니다. 작업 영역 목록을 정렬 및 필터링하고 각 작업 영역에 대한 세부 정보를 표시할 수 있습니다. 테이블 열은 작업 영역에 대해 [Power BI 관리자 Rest API](/rest/api/power-bi/admin)에서 반환된 속성에 해당합니다. 개인 작업 영역은 **개인 그룹** 형식, 클래식 작업 영역은 **그룹**형식, 새 작업 영역 환경은 **작업 영역** 형식입니다. 자세한 내용은 [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
 
 ![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
+
+**작업 영역** 탭에 각 작업 영역의 *상태*가 표시됩니다. 다음 표에서 각 상태의 자세한 의미를 확인할 수 있습니다.
+
+|주  |설명  |
+|---------|---------|
+| 활성 | 일반 작업 영역입니다. 사용량이나 콘텐츠에 대한 정보는 알 수 없으며, 작업 영역 자체가 ‘일반’ 작업 영역이라는 사실만 알 수 있습니다. |
+| 분리됨 | 관리 사용자가 없는 작업 영역입니다. |
+| 삭제됨 | 삭제된 작업 영역입니다. 필요한 경우 작업 영역을 복원할 수 있도록 복원에 필요한 메타데이터가 유지됩니다. |
+| 제거 중 | 현재 삭제가 진행 중이지만 아직 완전히 삭제되지 않은 작업 영역입니다. 사용자는 ‘제거 중’으로 항목을 이동하고 궁극적으로 ‘삭제됨’으로 이동하여 작업 영역을 삭제할 수 있습니다. |
 
 ## <a name="custom-branding"></a>사용자 지정 브랜딩
 

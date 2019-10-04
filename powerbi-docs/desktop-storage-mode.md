@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: bf69b2e4c25597eba980137e5ef8b2feb2f4d103
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841295"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327711"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop의 스토리지 모드
 
 Microsoft Power BI Desktop에서는 테이블의 ‘스토리지 모드’를 지정할 수 있습니다.  ‘스토리지 모드’를 사용하면 Power BI Desktop이 보고서에 대한 메모리 내 테이블 데이터를 캐시할지 여부를 제어할 수 있습니다.  
 
-![Power BI Desktop의 스토리지 모드](media/desktop-storage-mode/storage-mode_01.png)
+![Power BI Desktop의 스토리지 모드](media/desktop-storage-mode/storage-mode-01.png)
 
 스토리지 모드를 설정하면 많은 이점이 제공됩니다. 모델에서 각 테이블의 스토리지 모드를 개별적으로 설정할 수 있습니다. 이 작업을 수행하면 다음과 같은 이점을 제공하는 단일 데이터 세트를 사용할 수 있습니다.
 
@@ -48,13 +48,10 @@ Power BI Desktop의 스토리지 모드 설정은 다음 세 가지 관련 기�
 
 ## <a name="use-the-storage-mode-property"></a>스토리지 모드 속성 사용
 
-스토리지 모드는 모델의 각 테이블에서 설정할 수 있는 속성입니다. 스토리지 모드를 설정하려면 **필드** 창에서 설정할 속성이 포함된 테이블을 마우스 오른쪽 단추로 클릭한 다음, **속성**을 선택합니다.
+스토리지 모드는 모델의 각 테이블에서 설정할 수 있는 속성입니다. 스토리지 모드를 설정하거나 현재 설정을 보려면 **모델** 보기에서 그 속성을 보거나 설정하려는 테이블을 선택하고 **속성** 창을 선택한 다음 **고급** 섹션을 확장하고 **스토리지 모드** 드롭다운을 확장합니다.
 
-![상황에 맞는 메뉴의 속성 명령](media/desktop-storage-mode/storage-mode_02.png)
+![상황에 맞는 메뉴의 속성 명령](media/desktop-storage-mode/storage-mode-02.png)
 
-현재 속성은 테이블의 **필드 속성** 창에 있는 **스토리지 모드** 드롭다운 목록에 표시됩니다. 여기서 현재 스토리지 모드를 보거나 수정할 수 있습니다.
-
-![테이블의 스토리지 모드 설정](media/desktop-storage-mode/storage-mode_03.png)
 
 스토리지 모드에는 다음 세 가지 값이 있습니다.
 
@@ -77,11 +74,11 @@ Power BI Desktop의 스토리지 모드 설정은 다음 세 가지 관련 기�
 ## <a name="propagation-of-dual"></a>이중 전파
 가져오기 및 DirectQuery를 지원하는 단일 원본에서 모든 테이블을 가져오는 경우 다음 간단한 모델을 사용하는 것이 좋습니다.
 
-![스토리지 모드에 대한 예제 관계 보기](media/desktop-storage-mode/storage-mode_04.png)
+![스토리지 모드에 대한 예제 관계 보기](media/desktop-storage-mode/storage-mode-04.png)
 
 처음에 이 모델의 모든 테이블이 DirectQuery라고 가정해 봅니다. *SurveyResponse* 테이블의 **스토리지 모드**를 가져오기로 변경하면 다음 경고 창이 표시됩니다.
 
-![스토리지 모드 경고 창](media/desktop-storage-mode/storage-mode_05.png)
+![스토리지 모드 경고 창](media/desktop-storage-mode/storage-mode-05.png)
 
 데이터 세트의 약한 관계 수를 줄이고 성능을 향상하기 위해 차원 테이블(*Customer*, *Geography*, *Date*)을 **이중**으로 설정할 수 있습니다. 약한 관계에는 일반적으로 원본 시스템에 조인 논리를 밀어 넣을 수 없는 DirectQuery 테이블이 하나 이상 포함됩니다. **이중** 테이블이 DirectQuery 또는 가져오기로 작동할 수 있다는 사실은 이를 방지하는 데 도움이 됩니다.
 
@@ -123,15 +120,15 @@ Power BI Desktop의 진단 포트에 **SQL 프로파일러**를 연결하면 다
 
 이전 예제를 계속하여, 다음 쿼리는 **이중** 모드인 *Date* 테이블의 열만 참조합니다. 따라서 쿼리는 캐시를 적중해야 합니다.
 
-![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode_06.png)
+![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode-06.png)
 
 다음 쿼리는 **DirectQuery** 모드인 *Sales* 테이블의 열만 참조합니다. 따라서 캐시를 적중하지 ‘않아야’ 합니다. 
 
-![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode_07.png)
+![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode-07.png)
 
 다음 쿼리는 두 열을 결합하므로 흥미롭습니다. 이 쿼리는 캐시를 적중하지 않습니다. 초기에는 캐시에서 *CalendarYear* 값을 검색하고 원본에서 *SalesAmount* 값을 검색한 후 결과를 결합할 것으로 기대할 수 있지만, 이 방법은 SUM/GROUP BY 작업을 원본 시스템에 제출하는 것보다 덜 효율적입니다. 작업이 원본으로 푸시다운된 경우 반환되는 행 수가 훨씬 더 적을 수 있습니다. 
 
-![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode_08.png)
+![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > 이 동작은 캐시된 테이블과 캐시되지 않은 테이블을 결합할 때 [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md)와 다릅니다.
@@ -145,7 +142,7 @@ Power BI Desktop의 진단 포트에 **SQL 프로파일러**를 연결하면 다
 ## <a name="data-view"></a>데이터 보기
 데이터 세트에 있는 하나 이상 테이블의 스토리지 모드가 **가져오기** 또는 **이중**으로 설정된 경우 **데이터 보기** 탭이 표시됩니다.
 
-![Power BI Desktop의 데이터 보기](media/desktop-storage-mode/storage-mode_09.png)
+![Power BI Desktop의 데이터 보기](media/desktop-storage-mode/storage-mode-03.png)
 
 **데이터 보기**에서 선택한 경우 **이중** 및 **가져오기** 테이블에 캐시된 데이터가 표시됩니다. DirectQuery 테이블에 데이터가 표시되지 않고 DirectQuery 테이블의 상태를 표시할 수 없다는 메시지가 표시됩니다.
 

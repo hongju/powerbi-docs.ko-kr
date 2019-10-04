@@ -1,6 +1,6 @@
 ---
 title: Power BI 관리자 역할 이해
-description: Power BI 서비스 내에서 가져온 데이터 세트 및 DirectQuery에 대한 행 수준 보안을 구성하는 방법입니다.
+description: 이 문서에서는 Power BI 서비스 관리자 역할과 조직에서 관리자 역할을 사용하는 방법을 설명합니다.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,18 +10,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2185d7a9c91ed014cf0bed29d6393be0e40556a8
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074506"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256433"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Power BI 서비스 관리자 역할 이해
 
 조직에서 Power BI 서비스 관리자 역할을 사용하는 방법을 알아봅니다. 이 역할의 사용자는 Power BI 테넌트 및 해당 관리 기능(라이선싱 제외)을 완전히 제어합니다.
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/PQRbdJgEm3k?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Power BI 관리 포털에 액세스해야 하는 사용자에게 전체 Office 365 관리 액세스 권한을 부여하지 않고 Power BI 서비스 관리자 역할을 할당할 수 있습니다.
 

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e48713315b23cf322b635f1650374251b639e4f
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61194116"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71409372"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Power BI Desktop의 역할 및 규칙 정의
 Power BI Desktop 내에서 역할 및 규칙을 정의할 수 있습니다. Power BI에 게시할 때 역할 정의도 게시됩니다.
@@ -35,8 +35,14 @@ Power BI Desktop 내에서 역할 및 규칙을 정의할 수 있습니다. Powe
    
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 8. DAX 식을 만든 후 식의 유효성을 검사하기 위해 식 상자 위에 확인란을 선택할 수 있습니다.
-   
+      
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
+   
+   > [!NOTE]
+   > 이 식 상자에서는 보통 세미콜론 구분자를 사용하는 로캘(예: 프랑스, 독일)에서도 쉼표를 사용하여 DAX 함수 인수를 구분합니다. 
+   >
+   >
+   
 9. **저장**을 선택합니다.
 
 Power BI Desktop 내에서는 사용자를 역할에 할당할 수 없습니다. Power BI 서비스에 할당합니다. *username()* 또는 *userprincipalname()* DAX 함수를 사용하고 적절한 관계를 구성하여 Power BI Desktop 내에서 동적 보안을 사용할 수 있습니다. 

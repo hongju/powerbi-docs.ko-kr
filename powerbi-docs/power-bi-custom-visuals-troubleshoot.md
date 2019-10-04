@@ -1,22 +1,22 @@
 ---
-title: Power BI 사용자 지정 시각적 개체를 개발하는 방법 문제 해결
+title: Power BI Power BI 시각적 개체를 개발하는 방법 문제 해결
 description: 이 문서에서는 사용자 지정 Power BI 시각적 개체를 개발하거나 만들 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: cbda8cca80c32056f06788e53540d7f2d6ed972d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 4d863ff921df2a5cfb5233d85679f2277542bb44
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421802"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195363"
 ---
-# <a name="troubleshoot-power-bi-custom-visuals"></a>Power BI 사용자 지정 시각적 개체 문제 해결
+# <a name="troubleshoot-power-bi-power-bi-visuals"></a>Power BI Power BI 시각적 개체 문제 해결
 
 ## <a name="debug"></a>디버그
 
@@ -39,8 +39,8 @@ ms.locfileid: "61421802"
 
 시각적 개체 프로젝트의 루트에 있는 터미널 명령줄에서 `pbiviz start` 명령으로 시각적 개체 서버를 실행합니다. 서버가 실행 중이 아닌 경우 SSL 인증서가 올바르게 설치되지 않았을 수도 있습니다.
 
-질문, 의견 또는 문제가 있으면 언제든지 사용자 지정 시각적 개체 지원 팀 *pbicvsupport@microsoft.com*  에 문의하세요.
+질문, 의견 또는 문제가 있으면 언제든지 Power BI 시각적 개체 지원 팀 *pbicvsupport@microsoft.com*  에 문의하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
-자세한 내용은 [Power BI 사용자 지정 시각적 개체에 대한 질문과 대답](power-bi-custom-visuals-faq.md#organizational-custom-visuals)을 참조하세요.
+자세한 내용은 [Power BI Power BI 시각적 개체에 대한 질문과 대답](power-bi-custom-visuals-faq.md#organizational-visuals)을 참조하세요.

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264554"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195393"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI에서 템플릿 앱 만들기
 
@@ -47,7 +47,7 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
 
 3. 앱 작업 영역에 대한 이름, 설명(선택 사항) 및 로고 이미지(선택 사항)를 입력합니다.
 
-4. **템플릿 앱 개발**을 선택합니다.
+4. **고급** 섹션을 확장하고 **템플릿 앱 개발**을 선택합니다.
 
     ![템플릿 앱 개발](media/service-template-apps-create/power-bi-template-app-develop.png)
 
@@ -84,11 +84,13 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
     - 앱 로고(45K 파일 크기 제한, 1:1 가로 세로 비율, .png .jpg .jpeg 형식)
     - 앱 테마 색
 
-    **콘텐츠**
+    **탐색**
 
-    **앱 방문 페이지:** 앱의 방문 페이지가 될 보고서 또는 대시보드를 정의합니다. 적합한 인상을 주는 방문 페이지를 사용합니다.
+    앱의 왼쪽 탐색 창을 정의할 수 있는 **새 탐색 작성기**를 활성화합니다(자세한 내용은 이 문서의 [탐색 환경 디자인](service-create-distribute-apps.md#design-the-navigation-experience) 참조).
 
-    ![콘텐츠](media/service-template-apps-create/power-bi-create-content.png)
+   ![앱 방문 페이지 설정](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+    
+    **앱 방문 페이지:** 탐색 작성기에서 옵트아웃할 경우에는 앱 방문 페이지를 선택할 수 있습니다. 보고서 또는 대시보드를 앱의 방문 페이지로 정의합니다. 올바른 권한을 부여하는 방문 페이지를 사용합니다.
 
     **컨트롤**
 
@@ -107,7 +109,6 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
     - **값**: 기본 매개 변수 값입니다.
     - **필수**: 설치 관리자가 사용자별 매개 변수를 입력하도록 하는 데 사용합니다.
     - **잠금**: 잠금은 설치 관리자가 매개 변수를 업데이트하는 것을 방지합니다.
-    - **정적**: 앱이 샘플 데이터*만* 포함하는 경우에 활성화합니다. **정적**을 선택하는 경우 설치 마법사는 사용자에게 데이터 원본을 연결하도록 요청하지 않습니다.
 
     **액세스** 테스트 단계에서 앱을 설치하고 테스트할 수 있는 조직의 다른 사용자를 결정합니다. 걱정하지 마세요. 항상 다시 돌아와서 이 설정을 나중에 변경할 수 있습니다(설정은 배포된 템플릿 앱의 액세스에 영향을 미치지 않음).
 

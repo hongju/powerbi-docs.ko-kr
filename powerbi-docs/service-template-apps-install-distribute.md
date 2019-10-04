@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264518"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195307"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>조직에 템플릿 앱 설치 및 배포 - Power BI
 
@@ -82,7 +82,7 @@ Power BI 분석가인가요? 따라서 이 문서에서는 Salesforce, Microsoft
    >[!NOTE]
    >AppSource에 나열되지 않은 템플릿 앱을 설치하려면 관리자 사용 권한으로 요청해야 합니다. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings)을 참조하세요.
 
-## <a name="update-and-distribute-the-app"></a>앱 업데이트 및 배포
+## <a name="customize-and-publish-the-app"></a>앱 사용자 지정 및 게시
 
 조직용 앱을 업데이트하면 게시할 준비가 된 것입니다. 이 단계는 다른 모든 앱을 게시하는 경우와 동일합니다.
 
@@ -94,7 +94,7 @@ Power BI 분석가인가요? 따라서 이 문서에서는 Salesforce, Microsoft
 
    ![앱 설명 및 색 설정](media/service-template-apps-install-distribute/power-bi-install-app-details.png)
 
-3. **콘텐츠**에서 대시보드 또는 보고서 중 하나의 방문 페이지를 선택할 수 있습니다.
+3. **탐색**에서 앱에 대해 새 탐색 작성기를 사용하거나 대시보드와 보고서 중 하나를 방문 페이지로 선택할 수 있습니다. 자세한 내용은 [Design the navigation experience](service-create-distribute-apps.md#design-the-navigation-experience)(탐색 환경 설계)를 참조하세요.
 
    ![앱 방문 페이지 설정](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
 
@@ -106,14 +106,31 @@ Power BI 분석가인가요? 따라서 이 문서에서는 Salesforce, Microsoft
 
 6. 성공적으로 게시된 후에 링크를 복사하여 액세스 권한이 있는 사용자와 공유할 수 있습니다. 서로 공유한 경우 AppSource의 **내 조직** 탭에서도 볼 수 있습니다.
 
-## <a name="next-steps"></a>다음 단계 
+## <a name="update-a-template-app"></a>템플릿 앱 업데이트
+
+템플릿 앱 작성자는 AppSource 또는 직접 링크를 통해 템플릿 앱의 새 버전을 릴리스할 수 있습니다. 이렇게 하면 사용자가 동일한 버전 또는 새로운 버전으로 템플릿 앱을 다시 설치할 때 앱을 업데이트할 수 있습니다.
+
+  >[!NOTE]
+  >새 버전을 설치하면 보고서와 대시보드의 변경 사항이 덮어 쓰입니다. 업데이트된 보고서와 대시보드를 유지하려면 다른 이름으로 저장하거나 다른 위치에 저장한 후 설치하면 됩니다.
+
+- **기존 버전 덮어쓰기:** 템플릿 앱의 업데이트된 버전으로 기존 작업 영역을 덮어씁니다.
+
+   ![템플릿 앱 업데이트](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+
+- **새 작업 영역에 설치:** 작업 영역과 앱의 새 버전을 설치합니다. 설치가 완료되면 다시 구성해야 합니다.
+
+### <a name="overwrite-behavior"></a>덮어쓰기 동작
+
+* 덮어쓰기를 수행하면 앱이 아닌 ‘작업 영역’ 내부의 보고서, 대시보드 및 데이터 세트가 업데이트됩니다  . 덮어쓰기를 수행해도 앱 탐색, 설정 및 권한은 변경되지 않습니다.
+* 작업 영역을 업데이트한 후에는 ‘앱을 업데이트’하여 작업 영역의 변경 사항을 조직 앱에 적용해야 합니다  .
+* 덮어쓰기를 수행해도 구성된 매개 변수와 인증은 유지됩니다. 업데이트 후에는 자동 데이터 세트 새로 고침이 시작됩니다. 그동안 조직 앱, 보고서 및 대시보드는 ‘샘플 데이터’ 환경을 보여줍니다  .
+  ![샘플 데이터](media/service-template-apps-install-distribute/power-bi-sample-data.png)
+* 덮어쓰기를 수행하면 새로 고침이 완료되기 전까지 항상 샘플 데이터가 표시됩니다. 템플릿 앱 작성자가 데이터 세트 또는 매개 변수를 변경해도 작업 영역 및 앱의 사용자는 계속해서 샘플 데이터 환경을 보게 됩니다  .
+* 덮어쓰기가 수행되어도 사용자가 작업 영역에 추가한 새 *보고서*와 대시보드는 삭제되지 않고, 원래 보고서와 대시보드가 원래 작성자가 적용한 변경 사항으로 덮어쓰기 됩니다.
+
+>[!IMPORTANT]
+>덮어쓰기를 수행한 후에는 [앱을 업데이트](#customize-and-publish-the-app)하여 조직 앱 사용자를 위해 보고서와 대시보드에 변경 사항을 적용해야 합니다.
+
+## <a name="next-steps"></a>다음 단계
 
 [Power BI에서 동료와 작업 영역 만들기](service-create-workspaces.md)
-
-
-
-
-
-  
-
- 

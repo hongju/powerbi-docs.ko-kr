@@ -1,37 +1,37 @@
 ---
-title: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
-description: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
-author: sranins
-ms.author: rasala
-manager: kfile
+title: Power BI에서 R 지원 Power BI 시각적 개체 사용
+description: Power BI에서 R 지원 Power BI 시각적 개체 사용
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: d79164ea5b66fe003f913742436a817d76d798e0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b5f8677b3207122831e3d2cae6c07aa5bbcb9983
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61278653"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194601"
 ---
-# <a name="use-r-powered-custom-visuals-in-power-bi"></a>Power BI에서 R 지원 사용자 지정 시각적 개체 사용
+# <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI에서 R 지원 Power BI 시각적 개체 사용
 
-**Power BI Desktop** 및 **Power BI 서비스**에서는 R 지원 사용자 지정 시각적 개체를 R에 대한 지식 없이 R 스크립팅하지 않고 사용할 수 있습니다. 그러면 직접 R을 학습하거나 프로그래밍하지 않고도 R 시각적 개체 및 R 스크립트의 분석 및 시각적 기능을 활용할 수 있습니다.
+**Power BI Desktop** 및 **Power BI 서비스**에서는 R에 대한 지식이 없고 R 스크립팅을 사용하지 않아도 R 지원 Power BI 시각적 개체를 사용할 수 있습니다. 그러면 직접 R을 학습하거나 프로그래밍하지 않고도 R 시각적 개체 및 R 스크립트의 분석 및 시각적 기능을 활용할 수 있습니다.
 
-R 지원 사용자 지정 시각적 개체를 사용하려면 먼저 Power BI **사용자 지정 시각적 개체**의 [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 갤러리에서 사용하려는 R 사용자 지정 시각적 개체를 선택하고 다운로드합니다.
+R 지원 Power BI 시각적 개체를 사용하려면 먼저 Power BI의 **Power BI 시각적 개체** [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 갤러리에서 사용하려는 R 사용자 지정 시각적 개체를 선택하고 다운로드합니다.
 
 ![R 시각적 개체 1a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
 다음 섹션은 **Power BI Desktop**에서 R 지원 시각적 개체를 선택, 로드 및 사용하는 방법에 대해 설명합니다.
 
-## <a name="use-r-custom-visuals"></a>R 사용자 지정 시각적 개체 사용
+## <a name="use-r-power-bi-visuals"></a>R Power BI 시각적 개체 사용
 
-R 지원 사용자 지정 시각적 개체를 사용하려면 **사용자 지정 시각적 개체** 라이브러리에서 각 시각적 개체를 다운로드한 다음, **Power BI Desktop**에 있는 다른 유형의 시각적 개체처럼 시각적 개체를 사용합니다. 사용자 지정 시각적 개체를 가져오는 방법에는 두 가지가 있습니다. 온라인 **AppSource** 사이트에서 다운로드하거나 **Power BI Desktop**에서 찾아서 가져올 수 있습니다. 
+R 지원 Power BI 시각적 개체를 사용하려면 **Power BI 시각적 개체** 라이브러리에서 각 시각적 개체를 다운로드한 다음, **Power BI Desktop**에 있는 다른 유형의 시각적 개체처럼 이 시각적 개체를 사용합니다. Power BI 시각적 개체를 가져오는 방법에는 두 가지가 있습니다. 하나는 온라인 **AppSource** 사이트에서 다운로드하는 것이고, 다른 하나는 **Power BI Desktop** 내에서 찾아서 가져오는 것입니다. 
 
-### <a name="get-custom-visuals-from-appsource"></a>AppSource에서 사용자 지정 시각적 개체 가져오기
+### <a name="get-power-bi-visuals-from-appsource"></a>AppSource에서 Power BI 시각적 개체 가져오기
 
 다음은 온라인 **AppSource** 사이트에서 시각적 개체를 찾아서 선택하는 단계입니다.
 
@@ -50,7 +50,7 @@ R 지원 사용자 지정 시각적 개체를 사용하려면 **사용자 지정
 
    ![R 시각적 개체 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
 
-   **Power BI 서비스**에서 R 지원 사용자 지정 시각적 개체를 사용하기 위해 R을 설치할 필요가 없습니다. 단, **Power BI Desktop**에서 R 지원 사용자 지정 시각적 개체를 사용하려는 경우 로컬 컴퓨터에 R을 *반드시* 설치해야 합니다. R은 다음 위치에서 다운로드할 수 있습니다.
+   **Power BI 서비스**에서 R 지원 Power BI 시각적 개체를 사용하기 위해 R을 설치할 필요가 없습니다. 단, **Power BI Desktop**에서 R 지원 Power BI 시각적 개체를 사용하려면 로컬 머신에 R을 *반드시* 설치해야 합니다. R은 다음 위치에서 다운로드할 수 있습니다.
 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
@@ -79,25 +79,25 @@ R 지원 사용자 지정 시각적 개체를 사용하려면 **사용자 지정
 
     새 시각적 개체가 항상 추가되고 있기 때문에 라이브러리를 자주 확인합니다.
 
-### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>**Power BI Desktop** 내에서 사용자 지정 시각적 개체 가져오기
+### <a name="get-power-bi-visuals-from-within-power-bi-desktop"></a>**Power BI Desktop** 내에서 Power BI 시각적 개체 가져오기
 
-1. **Power BI Desktop** 내에서 사용자 지정 시각적 개체도 가져올 수 있습니다. **Power BI Desktop**에서 **시각화** 창의 줄임표(...)를 클릭하고 **마켓플레이스에서 가져오기**를 선택합니다.
+1. **Power BI Desktop** 내에서 Power BI 시각적 개체를 가져올 수도 있습니다. **Power BI Desktop**에서 **시각화** 창의 줄임표(...)를 클릭하고 **마켓플레이스에서 가져오기**를 선택합니다.
 
    ![R 시각적 개체 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
-2. 이렇게 하면 **Power BI 시각적 개체** 대화 상자가 나타나며, 여기에서 사용 가능한 사용자 지정 시각적 개체를 스크롤하여 원하는 항목을 선택할 수 있습니다. 이름으로 검색하거나 범주를 선택하거나 사용 가능한 시각적 개체를 살펴볼 수 있습니다. 준비가 되면 **추가**를 선택하여 사용자 지정 시각적 개체를 **Power BI Desktop**에 추가합니다.
+2. 이렇게 하면 **Power BI 시각적 개체** 대화 상자가 나타나며, 여기에서 사용 가능한 Power BI 시각적 개체를 스크롤하여 원하는 항목을 선택할 수 있습니다. 이름으로 검색하거나 범주를 선택하거나 사용 가능한 시각적 개체를 살펴볼 수 있습니다. 준비가 되면 **추가**를 선택하여 사용자 지정 시각적 개체를 **Power BI Desktop**에 추가합니다.
 
    ![R 시각적 개체 12](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
-## <a name="contribute-r-powered-custom-visuals"></a>R 지원 사용자 지정 시각적 개체 제공
+## <a name="contribute-r-powered-power-bi-visuals"></a>R 지원 Power BI 시각적 개체 제공
 
-보고서에 사용하기 위해 사용자 고유의 R 시각적 개체를 만드는 경우 **사용자 지정 시각적 개체 갤러리**에 사용자 지정 시각적 개체를 제공하여 전 세계 사용자와 공유할 수 있습니다. 이 작업은 GitHub을 통해 제공하고 다음 위치에서 프로세스를 간략하게 설명합니다.
+보고서에 사용하기 위해 사용자 고유의 R 시각적 개체를 만든 경우, **Power BI 시각적 개체 갤러리**로 사용자 지정 시각적 개체를 제공하여 전 세계 사용자와 공유할 수 있습니다. 이 작업은 GitHub을 통해 제공하고 다음 위치에서 프로세스를 간략하게 설명합니다.
 
-* [R 지원 사용자 지정 시각적 개체 갤러리에 제공](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+* [R 지원 Power BI 시각적 개체 갤러리에 제공](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
-## <a name="troubleshoot-r-powered-custom-visuals"></a>R 지원 사용자 지정 시각적 개체의 문제 해결
+## <a name="troubleshoot-r-powered-power-bi-visuals"></a>R 지원 Power BI 시각적 개체 문제 해결
 
-R 지원 사용자 지정 시각적 개체가 제대로 작동하려면 시각적 개체를 반드시 충족시키는 특정 종속성이 있습니다. R 지원 사용자 지정 시각적 개체가 제대로 실행 또는 로드되지 않으면 문제는 일반적으로 다음 중 하나에 해당됩니다.
+R 지원 Power BI 시각적 개체가 제대로 작동하려면 특정 종속성이 충족되어야 합니다. R 지원 Power BI 시각적 개체가 제대로 실행되거나 로드되지 않는다면 문제는 일반적으로 다음 중 하나에 해당합니다.
 
 * R 엔진이 누락됨
 * 시각적 개체의 기반이 되는 R 스크립트 오류
@@ -150,7 +150,7 @@ Power BI 팀은 사용자에게 도달하기 전에 이러한 문제를 완화�
 
 Power BI의 R에 대한 자세한 내용은 다음을 참조하세요.
 
-* [Power BI 사용자 지정 시각적 개체 갤러리](https://app.powerbi.com/visuals/)
+* [Power BI Power BI 시각적 개체 갤러리](https://app.powerbi.com/visuals/)
 * [Power BI Desktop에서 R 스크립트 실행](desktop-r-scripts.md)
 * [Power BI Desktop에서 R 시각적 개체 만들기](desktop-r-visuals.md)
 * [Power BI로 외부 R IDE 사용](desktop-r-ide.md)

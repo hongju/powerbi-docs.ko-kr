@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 09/26/2019
+ms.openlocfilehash: 26dde078ce0b237779660c44b2843a645e4d1a47
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187308"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325564"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
-Power BI Report Server 및 Power BI Report Server에 최적화 된 Power BI Desktop의 새로운 기능에 대해 알아봅니다. 이 아티클에서는 주요 기능 영역을 설명하고 새 항목이 릴리스될 때 업데이트됩니다.
+Power BI Report Server와 Power BI Report Server에 최적화된 Power BI Desktop의 새로운 기능을 알아봅니다. 이 문서에서는 주요 기능 영역을 설명합니다. 이 문서는 신규 릴리스가 공개될 때마다 업데이트됩니다.
 
 관련 Power BI “새로운 기능” 정보는 다음을 참조하세요.
 
@@ -26,77 +26,132 @@ Power BI Report Server 및 Power BI Report Server에 최적화 된 Power BI Desk
 * [Power BI Desktop의 새로운 기능](../desktop-latest-update.md)
 * [Power BI용 모바일 앱의 새로운 기능](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
-## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>월 2019: Power BI Report Server에 대 한 power BI Desktop
+## <a name="september-2019"></a>2019년 9월
 
-참조 된 [Power BI Report Server 월 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) 모든 새 기능에 대 한 자세한 내용은 블로그 게시물.
+모든 새로운 기능에 대한 자세한 내용은 [Power BI Report Server 2019년 9월](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/) 블로그 게시물을 참조하세요.
 
-다음은 일부 릴리스의 주요 내용입니다.
+Power BI Report Server 2019년 9월 업데이트에는 다양한 Power BI 보고서 기능이 포함되어 있습니다. 다음은 몇 가지 주요 기능입니다.
 
-### <a name="performance-analyzer"></a>성능 분석기 
+- **슬라이서를 위한 시각적 수준 필터** 슬라이서에 시각적 수준 필터를 추가할 수 있습니다. 슬라이서를 위한 시각적 수준 필터는 여타 시각적 수준 필터와 동일하게 작동하되 다른 시각적 개체가 아닌 슬라이서 자체만 필터링합니다. 이 필터는 공백을 필터링할 때나 측정 필터를 사용할 때 유용합니다.
+- **테이블과 행렬을 위한 아이콘 집합** KPI 아이콘을 사용하여 Excel의 아이콘 집합과 마찬가지로 테이블과 행렬에서 다양한 아이콘 집합을 표시하는 규칙을 설정할 수 있습니다.
+- **시각적 개체 그룹화** 시각적 개체, 도형, 텍스트 상자, 이미지 및 단추를 PowerPoint에서와 마찬가지로 보고서 페이지에서 하나로 그룹화할 수 있습니다. 개체를 하나로 그룹화한 후에는 한꺼번에 이동하고 크기를 조정할 수 있습니다. 그룹화를 사용하면 각 페이지에 여러 개의 개체가 있는 보고서를 훨씬 더 쉽게 작업할 수 있습니다.
+- **새로운 기본 테마** 새로운 테마의 JSON 옵션에 어울리도록 보고서에서 사용 가능한 테마가 업데이트되고 새로운 보고서의 기본 테마가 변경되었습니다. 새로운 기본 테마는 Microsoft의 디자인 원칙에 더욱 잘 부합하며 시각적 개체를 위한 디자인 모범 사례를 따릅니다. 
+- **업데이트된 창 디자인** 인터페이스의 많은 부분이 새로 단장되었습니다. 모든 창, 바닥글, 보기 전환기에 더 밝은색이 적용되었고, 간격이 업데이트되었으며, 새로운 아이콘이 도입되었습니다. 이번 새로운 디자인은 전체 인터페이스 새 단장을 위한 첫걸음입니다.
 
-보고서가 예상 보다 느리게 실행 되 면 Power BI Desktop에서 성능 분석기를 시도 합니다. 를 시작 하면 보고서에서 수행한 모든 작업에 대 한 정보를 사용 하 여 로그 파일을 만듭니다. 자세한 내용은 합니다 [Performance Analyzer](../desktop-performance-analyzer.md)합니다.
-
-### <a name="new-modeling-view"></a>새 보기를 모델링
-
-Power BI Desktop에서 새 모델링 뷰에서 볼 수 있으며 여러 테이블을 포함 하는 복잡 한 데이터 집합을 사용할 키를 누릅니다. 주요 사항 다이어그램 레이아웃을 여러 개 포함 및 대량 열, 측정값 및 테이블의 편집 합니다. 에 대해 자세히 알아보세요 [모델링이](../desktop-modeling-view.md)합니다.
-
-### <a name="accessible-visual-interaction"></a>액세스할 수 있는 시각적 상호 작용
-
-다양 한 키보드 탐색을 사용 하 여 기본 제공 시각화 개체의 데이터 요소에 대 한 액세스 이제 수 있습니다. 에 대해 자세히 알아보세요 [Power BI 보고서의 내게 필요한 옵션](../desktop-accessibility.md)합니다.
-
-### <a name="conditional-formatting-titles-and-web-url-actions"></a>조건부 서식 제목 및 웹 URL 작업
-
-Power BI 보고서는 대화형입니다. 보고서에서 제목을 보고서의 현재 상태를 반영 하도록 동적 수는 것이 합리적입니다. 동적 단추, 셰이프 및 이미지의 Url을 확인 하는 동일한 식과 바인딩된 서식을 사용할 수 있습니다. 에 대해 자세히 알아보세요 [타이틀 식 기반](../desktop-conditional-format-visual-titles.md)입니다.
-
-### <a name="cross-highlight-by-axis-labels"></a>축 레이블 별로 교차 강조 표시
-
-시각적 개체의 데이터 요소를 선택 하는 것 처럼 교차 강조 표시는 페이지의 다른 요소에 시각적 개체의 범주 축 레이블을 선택 합니다. 에 대해 자세히 알아보세요 [교차 강조 표시](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)합니다.
-
-### <a name="all-the-new-features"></a>모든 새로운 기능
-
-모든 새 기능 목록은 다음과 같습니다.
+다음은 전체 기능 목록입니다. 
 
 ### <a name="reporting"></a>보고
 
-- 꺾은선형 차트에서 단일 지점에서 교차 강조 표시 
-- 제목에 자동 줄 바꿈 
-- 기본 시각적 상호 작용 교차 필터링 ¬ 업데이트
-- 시각적 테두리에 대 한 둥근된 모서리 
-- 단일 선택 슬라이서  
-- Bing 지도 대 한 열 지도 지원  
-- 축 레이블 별로 교차 강조 표시  
-- 서식 지정 하는 기본 도구 설명  
-- 정적 웹 URL 단추, 셰이프 및 이미지에 대 한 지원  
-- 페이지 맞춤 옵션   
-- 선택 영역 창 개선  
-- 액세스할 수 있는 시각적 상호 작용  
-- 조건부 시각적 개체 제목 서식 지정  
-- 조건부 단추, 셰이프 및 이미지에 대 한 웹 URL 작업에 대 한 서식
-- 성능 분석기 창
-- 테이블 및 행렬 키보드 탐색
-- 줄 데이터 레이블 위치 제어
-- KPI 시각적 표시기 텍스트 컨트롤 크기 조정
+- 업데이트된 창 디자인
+- 슬라이서를 위한 시각적 수준 필터
+- 성능 분석기 창의 정렬
+- 시각적 개체 머리글 도구 설명
+- 테이블과 행렬 총 레이블 사용자 지정
+- 계층 슬라이서를 위한 동기화 슬라이서 지원
+- 시각적 개체 간에 일관된 글꼴 크기
+- 테이블과 행렬의 아이콘 집합
+- 규칙을 통한 조건부 서식의 백분율 지원
+- 이제 새 필터 창이 일반 공급됨
+- 분산형 차트에서 재생 축을 사용할 때 데이터 색 지원
+- 상대 날짜와 드롭다운 슬라이서를 사용할 때 성능 개선
+- 시각적 개체 그룹화
+- 테마의 색 및 텍스트 클래스
+- 새로운 기본 테마
 
 ### <a name="analytics"></a>분석
 
-- 이제 날짜를 계층으로 일반 공급 표시  
+- 사용자 지정 형식 문자열
+- 서식 지정 옵션을 위한 조건부 서식 업데이트
+
+    - 시각적 개체 배경 및 제목 색
+    - 카드 색
+    - 계기 채우기 및 색
+    - 대체 텍스트
+    - 테두리 색
+
+- 조건부 서식 지정 경고
+- 드릴스루 검색 기능 개선
+- 새로운 DAX 식: REMOVEFILTERS 및 CONVERT
+- 새로운 DAX 비교 연산자: ==
+
+### <a name="data-preparation"></a>데이터 준비
+
+- M Intellisense의 향상된 기능
+- 새로운 변환: 위치를 기준으로 열 분할
+- 데이터 프로파일링에서 클립보드로 복사
+
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>2019년 5월 Power BI Report Server를 위한 Power BI Desktop
+
+모든 새로운 기능에 대한 자세한 내용은 [Power BI Report Server 2019년 5월](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) 블로그 게시물을 참조하세요.
+
+다음은 이번 릴리스의 몇 가지 주요 기능입니다.
+
+### <a name="performance-analyzer"></a>성능 분석기 
+
+보고서가 예상보다 느리게 실행된다면 Power BI Desktop에서 성능 분석기를 사용해 보세요. 성능 분석기를 시작하면 사용자가 보고서에서 수행하는 모든 동작에 대한 정보가 담긴 로그 파일이 생성됩니다. [성능 분석기](../desktop-performance-analyzer.md)에 대해 자세히 알아보세요.
+
+### <a name="new-modeling-view"></a>새로운 모델링 보기
+
+Power BI Desktop의 새로운 모델링 보기에서는 테이블이 여러 개 포함된 복잡한 데이터 세트를 보고 작업할 수 있습니다. 여러 다이어그램 레이아웃과 열, 측정값, 테이블의 대량 편집 등의 기능이 추가되었습니다. [모델링 보기](../desktop-modeling-view.md)에 대해 자세히 알아보세요.
+
+### <a name="accessible-visual-interaction"></a>액세스 가능 시각적 개체 조작
+
+이제 키보드 탐색을 사용하여 여러 기본 제공 시각적 개체에서 데이터 요소에 액세스할 수 있습니다. [Power BI 보고서의 액세스 가능 기능](../desktop-accessibility.md)에 대해 자세히 알아보세요.
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>조건부 서식 제목 및 웹 URL 동작
+
+Power BI 보고서는 대화형입니다. 보고서의 타일이 보고서의 현재 상태를 반영하여 동적으로 변경될 것을 기대할 수 있습니다. 동일한 표현식 바인딩 서식 지정을 사용하여 단추, 도형 및 이미지의 URL을 동적으로 만들 수 있습니다. [표현식 기반 제목](../desktop-conditional-format-visual-titles.md)에 대해 자세히 알아보세요.
+
+### <a name="cross-highlight-by-axis-labels"></a>축 레이블별 교차 강조 표시
+
+시각적 개체에서 데이터 요소를 선택하는 것과 마찬가지로 시각적 개체에서 축 범주 레이블을 선택하여 페이지에 있는 다른 요소를 교차 강조 표시합니다. [교차 강조 표시](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)에 대해 자세히 알아보세요.
+
+### <a name="all-the-new-features"></a>모든 새로운 기능
+
+다음은 모든 새로운 기능 목록입니다.
+
+### <a name="reporting"></a>보고
+
+- 꺾은선형 차트의 단일 점에서 교차 강조 표시 
+- 제목에서 자동 줄 바꿈 
+- 기본 시각적 개체 조작을 교차 필터로 업데이트
+- 시각적 개체 테두리의 둥근 모서리 
+- 단일 선택 슬라이서  
+- Bing 지도를 위한 열 지도 지원  
+- 축 레이블별 교차 강조 표시  
+- 기본 도구 설명 서식 지정  
+- 단추, 도형 및 이미지를 위한 정적 웹 URL 지원  
+- 페이지 맞춤 옵션   
+- 선택 창의 향상된 기능  
+- 액세스 가능 시각적 개체 조작  
+- 시각적 개체 제목을 위한 조건부 서식 지정  
+- 단추, 도형 및 이미지의 웹 URL 동작을 위한 조건부 서식 지정
+- 성능 분석기 창
+- 테이블 및 행렬 키보드 탐색
+- 선 데이터 레이블 위치 컨트롤
+- KPI 시각적 개체 표시기 텍스트 크기 컨트롤
+
+### <a name="analytics"></a>분석
+
+- 계층 구조로 날짜 표시가 이제 일반 공급됨  
 
 ### <a name="modeling"></a>모델링
 
-- 새 보기 이제 일반 공급을 모델링
+- 새로운 모델링 보기가 이제 일반 공급됨
 - 새로운 DAX 함수
-- ALLSELECTED DAX 함수를 업데이트 합니다.
-- 새 보고서에 대 한 자동 날짜 테이블을 사용 하지 않도록 설정
+- ALLSELECTED DAX 함수 업데이트
+- 새 보고서에서 자동 날짜 테이블 사용 안 함
 
-## <a name="may-2019-power-bi-report-server"></a>월 2019: Power BI Report Server
+## <a name="may-2019-power-bi-report-server"></a>2019년 5월 Power BI Report Server
 
-### <a name="support-for-trusted-visuals"></a>신뢰할 수 있는 시각적 개체에 대 한 지원
+### <a name="support-for-trusted-visuals"></a>신뢰할 수 있는 시각적 개체에 대한 지원
 
-Power BI Report Server를 신뢰할 수 있는 시각적 개체에 대 한 지원을 추가 했습니다. 현재 Mapbox 및 전원 켜기 시각적 개체 지원 됩니다. ESRI, Visio 및 PowerApps 지원 되지 않습니다이 릴리스에 대 한.)
+Power BI Report Server에 신뢰할 수 있는 시각적 개체에 대한 지원이 추가되었습니다. 현재 Mapbox 및 PowerOn 시각적 개체가 지원됩니다. ESRI, Visio 및 PowerApps는 이 릴리스에서 지원되지 않습니다.)
 
-### <a name="improved-security-features"></a>향상 된 보안 기능
+### <a name="improved-security-features"></a>향상된 보안 기능
 
-**RestrictedResourceMimeTypeForUpload**, html 예를 들어 텍스트 금지 된 mime 형식의 쉼표로 구분 된 목록을 지정 하는 관리자를 사용할 수 있습니다.
+**RestrictedResourceMimeTypeForUpload**. 관리자가 금지된 MIME 형식(예: text/html)의 쉼표로 구분된 목록을 지정하는 데 사용할 수 있습니다.
 
 ## <a name="january-2019"></a>2019년 1월
 

@@ -11,18 +11,20 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 65410dc15600307ba11a2c48db1689be5a458383
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867200"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193276"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드의 테이블
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 테이블은 논리적으로 연속된 행과 열에서 관련된 데이터를 포함하는 표입니다. 머리글과 합계에 대한 행이 포함될 수도 있습니다. 테이블은 단일 범주에 대한 많은 값을 볼 수 있는 정량적 비교와 잘 작동합니다. 예를 들어 이 테이블은 **범주**에 대한 5개의 서로 다른 측정값을 표시합니다.
 
-![범주에 대한 5개의 서로 다른 측정값을 표시하는 테이블의 스크린샷](media/power-bi-visualization-tables/table.png)
+![범주에 대한 5개의 서로 다른 측정값을 표시하는 테이블의 스크린샷](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 
 보고서에서 테이블을 만들고 동일한 보고서 페이지에서 다른 시각적 개체를 포함하는 테이블 내 요소를 상호 강조 표시합니다. 행, 열 및 개별 셀과 상호 강조 표시를 선택할 수 있습니다. 개별 셀 및 여러 셀 선택을 복사하여 다른 애플리케이션에 붙여넣을 수도 있습니다.
 
@@ -36,25 +38,23 @@ ms.locfileid: "68867200"
 
 * 숫자 데이터를 범주별로 표시
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisite"></a>필수 조건
 
-* Power BI 서비스 또는 Power BI Desktop
+이 자습서는 [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
-* 소매점 분석 샘플 보고서
+1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
+   
+2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
 
-## <a name="get-the-retail-analysis-sample-report"></a>소매점 분석 샘플 보고서 가져오기
+1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
-이 지침은 소매점 분석 샘플을 사용합니다. 시각화를 만들려면 데이터 세트 및 보고서에 대한 편집 권한이 필요합니다. 다행히 Power BI 샘플은 모두 편집 가능합니다. 누군가가 공유해 준 보고서에서 시각화를 만들 수 없습니다. 과정을 따르려면 [소매점 분석 샘플 보고서](../sample-datasets.md)를 획득합니다.
+1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
-**소매 분석 샘플** 데이터 세트를 가져온 후 시작할 수 있습니다.
 
 ## <a name="create-a-table"></a>테이블 만들기
 
 문서 시작 부분의 그림에 나온 테이블을 만들어 항목 범주별로 판매 값을 표시합니다.
 
-1. **내 작업 영역**에서 **데이터 세트** > **보고서 만들기**를 선택합니다.
-
-    ![데이터 세트 > 보고서 만들기의 스크린샷](media/power-bi-visualization-tables/power-bi-create-a-report.png)
 
 1. **필드** 창에서 **항목** > **범주**를 선택합니다.
 
@@ -66,17 +66,16 @@ ms.locfileid: "68867200"
 
 1. 그런 다음, **판매량 > 올해 판매액**을 선택하고 세 가지 옵션 **값**, **목표** 및 **상태**를 모두 선택합니다.
 
-1. **시각화** 창에서 **값** 영역을 찾고 이 페이지에서 차트 열의 순서가 첫 번째 이미지와 일치될 때까지 끌어서 놓습니다. **값** 영역은 다음과 같습니다.
+1. **시각화** 창에서 **값**을 잘 찾고 차트 열의 순서가 이 페이지의 첫 번째 이미지와 일치할 때까지 끌어서 값을 선택합니다. 필요한 경우에는 웰에 있는 값을 끌어서 놓습니다. **값** 웰은 다음과 같습니다.
 
     ![값 웰](media/power-bi-visualization-tables/power-bi-table2.png)
 
-1. 핀 고정 아이콘을 선택하여 테이블을 대시보드에 고정 ![압정](media/power-bi-visualization-tables/pbi_pintile.png) 시각적 개체의 오른쪽 위 모퉁이에서.
 
 ## <a name="format-the-table"></a>테이블 서식 지정
 
 테이블을 서식 지정하는 방법에는 여러 가지가 있습니다. 여기서는 몇 가지만 다룹니다. 다른 서식 옵션을 알아보는 좋은 방법은 **서식** 창(페인트 롤러 아이콘 ![페인트 롤러](media/power-bi-visualization-tables/power-bi-format.png))을 열고 살펴보는 것입니다.
 
-* 테이블 눈금의 서식을 지정해 보세요. 여기에서는 파란색 세로 눈금을 추가하고, 행에 공간을 추가하고, 윤곽선과 텍스트 크기를 늘립니다.
+* 테이블 그리드의 서식을 지정해 보세요. 여기에서는 파란색 세로 그리드를 추가하고, 행에 공간을 추가하고, 윤곽선과 텍스트 크기를 늘립니다.
 
     ![그리드 카드](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
 
@@ -100,13 +99,13 @@ ms.locfileid: "68867200"
 
 ### <a name="conditional-formatting"></a>조건부 서식 지정
 
-‘조건부 서식’은 형식의 한 가지 유형입니다.  Power BI는 **시각화** 창의 **값** 영역에 있는 필드에 조건부 서식을 적용합니다.
+‘조건부 서식’은 형식의 한 가지 유형입니다.  Power BI는 **시각화** 창의 **값** 웰에 있는 필드에 조건부 서식을 적용합니다.
 
 테이블에 대한 조건부 서식 지정을 사용하여 그라데이션 색 사용을 포함하는 셀 값을 기반으로 하는 사용자 지정된 셀 배경색 및 글꼴 색을 지정할 수 있습니다.
 
 1. **시각화** 창에서 **필드** 아이콘 ![필드 아이콘](media/power-bi-visualization-tables/power-bi-fields-icon.png)을 선택합니다.
 
-1. 서식을 지정하려는 **값** 영역의 값 옆에 있는 아래쪽 화살표를 선택합니다(또는 필드를 마우스 오른쪽 단추로 클릭).
+1. 서식을 지정하려는 **값** 웰의 값 옆에 있는 아래쪽 화살표를 선택합니다(또는 필드를 마우스 오른쪽 단추로 클릭).
 
     > [!NOTE]
     > 필드에 대한 조건부 서식은 **필드**의 **값** 영역에서만 관리할 수 있습니다.
@@ -170,10 +169,6 @@ ms.locfileid: "68867200"
 1. **복사** > **선택 영역 복사**를 선택합니다.
 
     ![복사 옵션](media/power-bi-visualization-tables/power-bi-copy-selection.png)
-
-    복사본에는 열 및 행 머리글이 포함됩니다.
-
-    ![Excel에 붙여넣기](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>테이블의 열 너비 조정
 

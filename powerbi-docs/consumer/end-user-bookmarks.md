@@ -3,20 +3,18 @@ title: Power BI 서비스 보고서의 책갈피 개요
 description: Power BI 질문 및 답변 자연어 쿼리에 대한 설명서 개요 항목입니다.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/10/2019
+ms.date: 09/22/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 55fafb00135908dc4f82151b96ed04d2cf2568da
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 0b4da978687afbafcc7f0d48b6df220b240a507f
+ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608309"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71207620"
 ---
 # <a name="what-are-bookmarks"></a>책갈피란?
 책갈피는 보고서 페이지에 대해 현재 구성된 보기를 캡처합니다. 여기에는 필터, 슬라이서, 시각적 개체의 상태가 포함됩니다. 책갈피를 선택하면 해당 보기로 이동하게 됩니다. 책갈피에는 두 가지 유형이 있습니다. 하나는 사용자가 직접 만든 것이고, 다른 하나는 보고서 *디자이너*가 만든 것입니다.
@@ -26,15 +24,15 @@ ms.locfileid: "65608309"
 
 책갈피의 컬렉션을 만들고, 원하는 순서로 정렬하고, 이후에 프레젠테이션에서 책갈피를 하나씩 보여주며 유기적인 스토리를 갖는 인사이트를 전달할 수도 있습니다.  
 
-![리본에서 책갈피 창을 선택하여 표시합니다.](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
+![리본에서 책갈피 창을 선택하여 표시합니다.](media/end-user-bookmarks/power-bi-select-bookmark.png)
 
-## <a name="using-bookmarks"></a>책갈피 사용
-책갈피 창을 열려면 메뉴 모음에서 **책갈피**를 선택합니다. 보고서의 원래 게시된 보기로 돌아가려면 **기본값으로 다시 설정**을 선택합니다.
+## <a name="open-bookmarks"></a>책갈피 열기
+책갈피 창을 열려면 메뉴 모음에서 **책갈피** > **더 많은 책갈피 표시**를 선택합니다. 보고서의 원래 게시된 보기로 돌아가려면 **기본값으로 다시 설정**을 선택합니다.
 
 ### <a name="report-bookmarks"></a>보고서 책갈피
-보고서 *디자이너*가 보고서 책갈피를 포함해 둔 경우, **보고서 책갈피** 제목 아래에서 찾을 수 있습니다. 
+보고서 *디자이너*가 보고서 책갈피를 포함해 둔 경우, **보고서 책갈피** 제목 아래에서 찾을 수 있습니다. 이 보고서 페이지에는 B1과 B2라는 두 개의 책갈피가 있습니다. 
 
-![보고서 책갈피를 표시합니다.](media/end-user-bookmarks/power-bi-report-bookmark.png)
+![보고서 책갈피를 표시합니다.](media/end-user-bookmarks/power-bi-report.png)
 
 책갈피를 선택하여 해당 보고서 보기로 변경합니다. 
 
@@ -55,13 +53,13 @@ ms.locfileid: "65608309"
 
 책갈피에 표시하려는 대로 보고서 페이지를 구성합니다. 보고서 페이지 및 시각적 개체가 원하는 대로 정렬되면 **책갈피** 창에서 **추가**를 선택하여 책갈피를 추가합니다. 이 예제에서는 지역 및 날짜에 대해 몇 개의 필터를 추가했습니다. 
 
-![개인 책갈피를 추가합니다.](media/end-user-bookmarks/power-bi-add-personal.png)
+![개인 책갈피를 추가합니다.](media/end-user-bookmarks/power-bi-bookmark-personal.png)
 
-**Power BI**는 책갈피를 만들고 일반 이름 또는 사용자가 입력한 이름으로 설정합니다. 책갈피 이름 옆에 있는 줄임표를 선택하고 표시되는 메뉴에서 작업을 선택하여 책갈피의 *이름을 바꾸*거나 책갈피를 *삭제* 또는 *업데이트*할 수 있습니다.
+**Power BI**는 개인 책갈피를 만들고 일반 이름 또는 사용자가 입력한 이름으로 설정합니다. 책갈피 이름 옆에 있는 줄임표를 선택하고 표시되는 메뉴에서 작업을 선택하여 책갈피의 *이름을 바꾸*거나 책갈피를 *삭제* 또는 *업데이트*할 수 있습니다.
 
 책갈피를 만들면 **책갈피** 창에서 책갈피를 선택하여 표시할 수 있습니다. 
 
-![개인 책갈피를 추가합니다.](media/end-user-bookmarks/power-bi-personal-bookmark.png)
+![개인 책갈피를 추가합니다.](media/end-user-bookmarks/power-bi-bookmark-west.png)
 
 
 <!--
@@ -81,11 +79,11 @@ The order of your bookmarks can become important when you use the **View** featu
 
 **보기** 모드인 경우 알아야 할 몇 가지 기능은 다음과 같습니다.
 
-1. 책갈피의 이름은 캔버스 맨 아래에 표시되는 책갈피 제목 표시줄에 나타납니다.
-2. 책갈피 제목 표시줄에는 다음 또는 이전 책갈피로 이동할 수 있도록 화살표가 있습니다.
-3. **책갈피** 창에서 **종료**를 선택하거나 책갈피 제목 표시줄에서 **X**를 선택하여 **보기** 모드를 종료할 수 있습니다. 
+- 책갈피의 이름은 캔버스 맨 아래에 표시되는 책갈피 제목 표시줄에 나타납니다.
+- 책갈피 제목 표시줄에는 다음 또는 이전 책갈피로 이동할 수 있도록 화살표가 있습니다.
+- **책갈피** 창에서 **종료**를 선택하거나 책갈피 제목 표시줄에서 **X**를 선택하여 **보기** 모드를 종료할 수 있습니다.
 
-![책갈피 슬라이드 쇼](media/end-user-bookmarks/power-bi-bookmark-slideshow.png)
+![책갈피 슬라이드 쇼](media/end-user-bookmarks/power-bi-slideshow.png)
 
 **보기** 모드인 경우 (해당 창에 있는 X를 클릭하여) **책갈피** 창을 닫고 프레젠테이션을 위해 추가 공간을 제공할 수 있습니다. 또한 시각적 개체를 조작하는 경우와 마찬가지로 **보기** 모드인 모든 시각적 개체는 대화형이고 교차 강조 표시에 사용할 수 있습니다. 
 
@@ -154,7 +152,6 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 
 * 대부분의 사용자 지정 시각적 개체는 책갈피에서 잘 작동합니다. 책갈피 및 사용자 지정 시각적 개체 관련 문제가 발생하면 해당 사용자 지정 시각적 개체의 작성자에게 문의하여 시각적 개체에 책갈피 지원을 추가하도록 요청합니다. 
 * 책갈피를 만든 후 보고서 페이지에서 시각적 개체를 추가하는 경우 시각적 개체는 기본 상태로 표시됩니다. 즉, 이전에 책갈피를 만든 페이지에 슬라이서를 도입하는 경우 슬라이서가 해당 기본 상태로 작동합니다.
-* 책갈피를 만든 후에 시각적 개체를 이동하면 책갈피에 반영됩니다. 
 * 일반적으로, 보고서 *디자이너*가 보고서를 업데이트하거나 다시 게시하더라도 책갈피는 영향을 받지 않습니다. 단, 디자이너가 책갈피에서 사용되는 필드를 제거하는 등 보고서에 중요한 변경 사항을 적용한 경우, 다음번에 이 책갈피를 열려고 시도하면 오류 메시지가 표시됩니다. 
 
 <!--

@@ -11,12 +11,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cd12546c91e9f967c8ed4cdd6e4dac9884f73670
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075842"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325451"
 ---
 # <a name="use-auditing-within-your-organization"></a>조직 내에서 감사 사용
 
@@ -130,6 +130,22 @@ $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri ht
 
 Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
+```
+
+## <a name="use-powershell-to-export-audit-logs"></a>PowerShell을 사용하여 감사 로그 내보내기
+
+PowerShell을 사용하여 감사 로그 검색의 결과를 내보낼 수도 있습니다. 다음 예제에서는 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 명령에서 보내고 [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv) cmdlet을 사용하여 결과를 내보내는 방법을 보여 줍니다. 이 스크립트를 실행하려면 [요구 사항](#requirements) 섹션에서 설명하는 것처럼 관리자로부터 적절한 사용 권한을 할당받아야 합니다.
+
+```powershell
+$UserCredential = Get-Credential
+
+$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+
+Import-PSSession $Session
+Search-UnifiedAuditLog -StartDate 9/11/2019 -EndDate 9/15/2019 -RecordType PowerBI -ResultSize 5000 |
+Export-Csv -Path "c:\temp\PowerBIAuditLog.csv" -NoTypeInformation
+
+Remove-PSSession $Session
 ```
 
 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange Online PowerShell에 연결](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/)을 참조하세요. 감사 로그와 함께 PowerShell을 사용하는 또 다른 예는 [Using Power BI audit log and PowerShell to assign Power BI Pro licenses](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/)(Power BI 감사 로그 및 PowerShell을 사용하여 Power BI Pro 라이선스 할당)를 참조하세요.

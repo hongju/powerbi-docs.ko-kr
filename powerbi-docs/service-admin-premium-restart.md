@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 214b9fe48d5254e1bd2d436dd873b3c2d1d35f98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1622e06cd7aa394d384954b393d1e547e87df10a
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564923"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305664"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium 용량 다시 시작
 
@@ -31,7 +31,7 @@ Power BI는 프리미엄 용량 사용자를 이러한 문제로부터 보호하
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>다시 시작 프로세스는 안전한가요? 데이터가 손실되나요?
 
-용량에 저장된 모든 데이터, 정의, 보고서 및 대시보드는 다시 시작한 후에도 완전히 그대로 유지됩니다. 용량을 다시 시작하면 진행 중인 모든 예약 및 임시 새로 고침이 중지됩니다. 서비스가 자동으로 용량을 사용할 수 있는 경우 새로 고침을 다시 시도 하세요. 용량과 상호 작용하는 사용자는 저장하지 않은 작업을 잃게 됩니다. 다시 시작이 완료된 후에 브라우저를 새로 고침해야 합니다.
+용량에 저장된 모든 데이터, 정의, 보고서 및 대시보드는 다시 시작한 후에도 완전히 그대로 유지됩니다. 용량을 다시 시작하면 진행 중인 모든 예약 및 임시 새로 고침이 중지됩니다. 용량을 사용할 수 있게 되면 서비스가 새로 고침을 다시 시도합니다. 용량과 상호 작용하는 사용자는 저장하지 않은 작업을 잃게 됩니다. 다시 시작이 완료된 후에 브라우저를 새로 고침해야 합니다.
 
 ## <a name="how-do-i-restart-a-capacity"></a>용량을 다시 시작하는 방법은?
 

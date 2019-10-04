@@ -5,24 +5,26 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 68e0a7985997a4512fe26812547f12f1b9be648f
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a1cc536e83832ab89b8a0aee8e8f01b9ced35a10
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "68522736"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256354"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI 알림 보기
-알림 센터는 Power BI 환경에 관련된 정보의 순차적 피드입니다. 이를 열고 사용자와 공유된 새 대시보드, 그룹 공간에 대한 변경 사항, Power BI 이벤트 및 회의에 대한 정보, 설정한 경고 등에 대한 메시지를 확인합니다. [Power BI 서비스에서 경고를 설정](../service-set-data-alerts.md)할 수 있으며 Power BI 모바일 앱에서도 설정할 수 있습니다.
+알림 센터는 Power BI 환경에 관련된 정보의 순차적 피드입니다. 알림 센터를 열어서 나와 공유된 새 대시보드, Power BI 이벤트 및 모임에 대한 정보, 내가 설정한 경고 등에 대한 메시지를 볼 수 있습니다. [Power BI 서비스에서 경고를 설정](end-user-alerts.md)할 수 있으며 Power BI 모바일 앱에서도 설정할 수 있습니다.
 
-Amanda가 알림을 검토, 관리 및 응답하는 과정을 봅니다. 그런 다음 비디오 아래에 있는 지침을 따라서 직접 시도해 볼 수 있습니다.
+Amanda가 알림을 검토, 관리 및 응답하는 과정을 봅니다. 그런 다음 비디오 아래에 있는 지침을 따라서 직접 시도해 볼 수 있습니다.    
+
+> [!NOTE]
+> 이 비디오는 Power BI 서비스의 이전 버전을 보여 줍니다. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 
@@ -30,17 +32,16 @@ Amanda가 알림을 검토, 관리 및 응답하는 과정을 봅니다. 그런 
 1. Power BI에 로그인하면 오프라인 상태인 동안 전송된 모든 새 알림이 피드에 추가됩니다. 새로운 알림이 있는 경우 Power BI는 새 항목의 수와 함께 노란색 거품을 표시합니다.
    
    ![새 알림 아이콘](./media/end-user-notification-center/power-bi-new-notification.png)
-2. Power BI 메뉴 모음에서 알림 아이콘을 선택합니다.
+2. Power BI 메뉴 모음에서 **알림** 아이콘을 선택합니다.
    
    ![알림 아이콘이 선택된 상위 메뉴 모음](./media/end-user-notification-center/power-bi-notifications-icon.png)
 3. 알림은 가장 최근 메시지부터 읽지 않은 메시지를 강조하여 표시됩니다. 알림은 곧 삭제하거나 최대 제한인 100개에 도달하지 않는 한 90일 동안 유지됩니다.
    
-   ![알림 센터](./media/end-user-notification-center/power-bi-notifications.png)
+   ![알림 센터](./media/end-user-notification-center/power-bi-notification-center.png)
 4. 알림을 해제하려면 X 아이콘을 선택합니다.
 
 ### <a name="next-steps"></a>다음 단계
-* [Power BI 서비스의 데이터 경고](../service-set-data-alerts.md)
-* [Power BI 데이터 경고에 의해 트리거되는 Microsoft Flow 만들기](../service-flow-integration.md)
+* [Power BI 서비스의 데이터 경고](end-user-alerts.md)
 * [iPhone 앱(iOS용 Power BI)의 데이터 경고 설정](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10용 Power BI 모바일 앱의 데이터 경고 설정](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)

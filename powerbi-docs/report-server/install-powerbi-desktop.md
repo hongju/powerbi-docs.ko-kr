@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 54713c9c978554521d68aeb7b4c25d681ddb3d69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.date: 09/26/2019
+ms.openlocfilehash: bbd9a3884b3b6b0cd235471b0746f605e3872aff
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187420"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325742"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 
@@ -30,26 +30,25 @@ Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유�
 
     ![웹 포털에서 Power BI Desktop 다운로드](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    또는 Microsoft 다운로드 센터의 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723)(Power BI Report Server를 위해 최적화됨 - 2019년 5월)으로 직접 이동합니다.
+    또는 [Power BI Report Server](https://powerbi.microsoft.com/report-server/) 홈페이지로 이동하고 **고급 다운로드 옵션**을 선택합니다.
 
 2. 다운로드 센터 페이지에서 **다운로드**를 선택합니다.
 
 3. 컴퓨터에 따라 다음 중에서 선택합니다. 
 
     - **PBIDesktopRS.msi**(32비트 버전) 또는
-
     - **PBIDesktopRS_x64.msi**(64비트 버전).
 
-1. 설치 관리자를 다운로드 한 후 Power BI Desktop (2019 년 5 월) 설치 마법사를 실행 합니다.
+1. 설치 프로그램을 다운로드한 후에는 Power BI Desktop(2019년 9월) 설치 마법사를 실행합니다.
 
 2. 설치가 끝나면 **Power BI Desktop 시작**을 선택합니다.
 
     그러면 자동으로 시작되어 사용할 준비가 됩니다.
 
 ## <a name="verify-youre-using-the-correct-version"></a>올바른 버전을 사용하는지 확인
-올바른 Power BI Desktop을 사용하는지 쉽게 확인할 수 있습니다. Power BI Desktop 내에서 시작 화면 또는 제목 표시줄을 확인하세요. 제목 표시줄은 릴리스 월과 연도를 표시합니다. 또한 Power BI 로고 색은 역으로 노란색 바탕에 검은색이 아닌 검은색 바탕에 노란색입니다.
+올바른 Power BI Desktop을 사용하는지 쉽게 확인할 수 있습니다. Power BI Desktop 내에서 시작 화면 또는 제목 표시줄을 확인하세요. 제목 표시줄에 **Power BI Desktop(2019년 9월)** 이라고 표시되면 올바른 버전이 준비된 것입니다. 또한 Power BI 로고 색은 역으로 노란색 바탕에 검은색이 아닌 검은색 바탕에 노란색입니다.
 
-![Power BI Report Server에 최적화된 Power BI Desktop의 제목 표시줄](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2019.png)
+![Power BI Desktop 2019년 9월](media/install-powerbi-desktop/power-bi-report-server-desktop-sept-2019.png)
 
 Power BI 서비스용 Power BI Desktop 버전은 제목 표시줄에 월 및 연도가 없습니다.
 
@@ -60,7 +59,7 @@ Power BI Desktop을 설치한 다음, Power BI Report Server에 최적화된 Pow
 
 먼저 사용하려는 버전의 Power BI Desktop을 열 수 있습니다. 그런 다음 Power BI Desktop 내에서 파일을 엽니다.
 
-Power BI Report Server 내에서 Power BI 보고서를 편집 하거나 웹 포털에서 새 Power BI 보고서를 만들려면 항상 Power BI Desktop의 올바른 버전을 엽니다.
+Power BI Report Server 내에서 Power BI 보고서를 편집하거나 웹 포털에서 새 Power BI 보고서를 만들면 항상 올바른 버전의 Power BI Desktop이 열립니다.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
@@ -68,7 +67,7 @@ Power BI Report Server, Power BI 서비스(http://app.powerbi.com) ) 및 Power B
 
 ### <a name="in-a-browser"></a>브라우저에서
 
-Power BI Report Server 보고서는 사용자 지정 시각적 개체를 포함하여 거의 모든 시각화를 지원합니다. Power BI Report Server 보고서는 다음 항목은 지원하지 않습니다.
+Power BI Report Server 보고서는 사용자 지정 시각적 개체를 비롯한 대부분의 시각화를 지원합니다. Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
 
 * R 시각적 개체
 * ArcGIS 맵
@@ -93,13 +92,13 @@ Power BI Report Server 보고서는 Power BI 모바일 앱에서 다음과 같�
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>이전 버전의 Power BI Report Server에 대한 Power BI Desktop
 
-보고서 서버가 이전 버전이면 해당 버전의 Power BI Desktop이 필요합니다. 이전 버전을 다운로드하는 링크는 다음과 같습니다.
+보고서 서버가 이전 버전이면 해당 버전의 Power BI Desktop이 필요합니다. 다음은 이전 버전을 다운로드하기 위한 링크입니다.
 
-- Microsoft Power BI Desktop ([-2019 년 1 월 Power BI Report Server에 대 한 액세스에 최적화 된](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop([Power BI Report Server에 최적화됨 - 2019년 1월](https://go.microsoft.com/fwlink/?linkid=2055039))
 
 ## <a name="next-steps"></a>다음 단계
 
-Power BI Desktop을 설치했으므로 Power BI 보고서 작성을 시작할 수 있습니다.
+Power BI Desktop을 설치했으므로 Power BI 보고서를 작성하기 시작할 수 있습니다.
 
 [Power BI Report Server용 Power BI 보고서 만들기](quickstart-create-powerbi-report.md)  
 [Power BI Report Server란?](get-started.md)

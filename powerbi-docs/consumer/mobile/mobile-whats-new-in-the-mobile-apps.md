@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: e74bdacc1b8ee40ec6628337e9e78528e8fdee29
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: fe8f21bbbd0886b8ff4046f744884e53f8822912
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164498"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327751"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -22,6 +22,13 @@ ms.locfileid: "71164498"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="september-2019"></a>2019년 9월
+
+### <a name="support-for-custom-app-navigation-ios-and-android"></a>사용자 지정 앱 탐색 지원(iOS 및 Android)
+
+사용자 지정 앱 탐색에 대한 지원이 추가되었습니다. 이제 Power BI Mobile에서 앱을 열면 앱 작성자가 빌드한 사용자 지정 탐색 환경을 사용할 수 있게 됩니다. 앱 탐색은 콘텐츠를 기준으로 구성할 수 있으며, 링크 및 축소 가능한 섹션과 같은 새 항목을 포함할 수 있습니다.
+[사용자 지정 탐색](https://powerbi.microsoft.com/en-us/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/)에 대해 자세히 알아보세요.
 
 ## <a name="august-2019"></a>2019년 8월
 

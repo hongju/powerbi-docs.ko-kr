@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4a16d0dbe22a154dacfd296bfedab8acb97e81
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 6e89fa21617add5c3c11ada990f7055d305cebf5
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867121"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256458"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI에 지원되는 언어 및 국가/지역
 
@@ -116,14 +116,14 @@ Power BI는 컴퓨터의 언어 기본 설정에 따라 언어를 검색합니�
    브라우저를 닫았다가 다시 열어서 변경 사항을 확인해야 합니다.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>Power BI Desktop의 언어 또는 로캘 선택
-Power BI Desktop을 얻는 방법은 두 가지입니다. 다운로드하거나 Windows 스토어에서 설치할 수 있습니다.
+Power BI Desktop을 얻는 방법은 두 가지입니다. 독립 실행형 설치 프로그램으로 다운로드하거나 Windows 스토어에서 설치할 수 있습니다.
 
-* [Windows 스토어에서 Power BI Desktop을 설치](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store)하면 모든 언어가 설치되고 Windows 기본 언어에 해당하는 언어가 표시됩니다.
-* [Power BI Desktop을 다운로드](#choose-a-language-when-you-download-power-bi-desktop)할 때 언어를 선택합니다. 
+* Windows 스토어에서 Power BI Desktop을 설치하면 모든 언어가 설치되고 Windows 기본 언어에 해당하는 언어가 표시됩니다.
+* Power BI Desktop을 독립 실행형 설치 프로그램으로 다운로드하면 설치 프로그램을 실행할 때 기본 언어를 선택하게 되고 나중에 변경할 수도 있습니다.
 * 특정 보고서를 위한 [데이터를 가져올 때 사용할 로캘을 선택](#choose-the-locale-for-importing-data-into-power-bi-desktop)할 수도 있습니다.
 
-### <a name="choose-a-language-for-power-bi-desktop-installed-from-the-windows-store"></a>Windows 스토어에서 설치된 Power BI Desktop의 언어 선택
-1. Windows 스토어에서 [Power BI Desktop을 설치](http://aka.ms/pbidesktopstore)합니다.
+### <a name="choose-a-language-for-power-bi-desktop"></a>Power BI Desktop 언어 선택 
+1. Power BI Desktop을 [Windows 스토어에서](http://aka.ms/pbidesktopstore) 설치하거나 [독립 실행형 설치 프로그램](http://aka.ms/pbiSingleInstaller)으로 설치합니다.
 2. 언어를 변경하려면 컴퓨터에서 **Windows 설정**을 검색합니다. 
 3. **시간 및 언어**를 선택합니다.
    
@@ -140,11 +140,6 @@ Power BI Desktop을 얻는 방법은 두 가지입니다. 다운로드하거나 
 3. **애플리케이션 언어** 상자에서 다른 로캘을 선택합니다. 
 
 Power BI Desktop의 언어 지원은 애플리케이션 언어 드롭다운에서 표시되는 언어로 제한됩니다.
-
-### <a name="choose-a-language-when-you-download-power-bi-desktop"></a>Power BI Desktop을 다운로드할 때 언어 선택
-Power BI Desktop 설치 관리자의 .msi 버전을 사용하는 경우 다운로드할 때 언어를 설정합니다. [Power BI Desktop 다운로드](https://www.microsoft.com/en-us/download/details.aspx?id=45331) 페이지에서 언어를 선택합니다. 
-
-이 방법으로 설치한 경우 Power BI Desktop에서 언어를 변경하려면 다운로드 페이지로 돌아가서 다른 언어로 다운로드합니다.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Power BI Desktop으로 데이터를 가져올 때 사용할 로캘 선택
 Power BI Desktop을 다운로드하든 Windows 스토어에서 설치하든 특정 보고서에 대한 로캘을 Power BI Desktop 버전의 로캘이 아닌 다른 로캘로 선택할 수 있습니다. 로캘에 따라 데이터 원본에서 데이터를 가져올 때 데이터가 해석되는 방식이 변경됩니다(예: “3/4/2017”이 4월 3일 또는 3월 4일로 해석될지 여부). 

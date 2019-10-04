@@ -9,18 +9,43 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
-ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
+ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68940913"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325716"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
 
 Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에 대한 버그 픽스와 새 항목을 나열합니다.
 
 새로운 기능에 대한 자세한 내용은 [Power BI 보고서 서버의 새로운 기능](whats-new.md)을 참조하세요. 
+
+## <a name="september-2019"></a>2019년 9월
+
+- **Power BI Report Server**          
+    - *버전 1.6.7206.38019(빌드 15.0.1102.597), 릴리스 날짜: 2019년 9월 26일*
+        - 보안 업데이트
+        - 버그 픽스
+           - 페이지가 매겨진 보고서
+             - IE와 Edge를 사용할 때 발생하는 접근성 문제가 수정되었습니다.
+             - 연결을 테스트할 때 발생하는 SAP HANA 문제가 수정되었습니다.
+             - 메일 주소 목록을 제공할 때 발생하는 문제가 수정되었습니다.
+             - DirectQuery 데이터 원본과 통합 인증을 사용하는 Power BI 보고서 문제가 수정되었습니다.
+             - 스냅샷이 사용 설정된 경우 페이지가 매겨진 보고서가 필터 매개 변수로 렌더링 되도록 수정되었습니다.
+             - 보고서 실행 중에 저장 프로시저가 두 번 실행되는 문제가 수정되었습니다.
+             - 사용자 지정 서비스 계정이 Power BI Report Server를 실행하도록 구성되었을 때 기본 서비스 계정에 SQL Server 로그인 권한이 부여되는 문제가 수정되었습니다.
+             - 일본 표준 시간대에서 새로 고치는 중에 모델에 액세스하는 문제가 수정되었습니다.
+             - 새로 고침 중에 보고서의 새 버전이 업로드될 때 오래된 모델에 대한 문제가 수정되었습니다.
+             - ‘&’ 문자를 포함하는 매개 변수 값이 수정되었습니다.
+         - 프로그래밍 기능
+             - Web API: /PowerBIReports({Id})/DataSources (PATCH)가 연결 문자열 업데이트를 허용하도록 업데이트되었습니다.
+         
+- **Power BI Desktop(Power BI Report Server에 최적화됨)**
+    - *‘버전: 2.73.5586.821(2019년 9월), 릴리스 날짜: 2019년 9월 26일* (신규 빌드 및 신규 버전)
+    - Power BI Report Server와의 연결에 필요한 변경 사항 포함(2019년 9월)
+
 
 ## <a name="may-2019"></a>2019년 5월
 

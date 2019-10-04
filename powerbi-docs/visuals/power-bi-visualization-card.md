@@ -10,102 +10,92 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b3b773d7c28cb4528edb59a92e07874b53fc9c20
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 268b69362f0f8c98ba01fbd0673fc46856d54ba2
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839925"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195562"
 ---
 # <a name="card-visualizations"></a>카드 시각화
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율, 총 영업 기회와 같이 한 가지 가장 중요한 숫자만 추적하려는 경우가 있습니다. 이 시각화 유형을 *카드*라고 합니다. 거의 모든 네이티브 Power BI 시각화와 마찬가지로 카드도 보고서 편집기 또는 질문과 대답을 사용하여 만들 수 있습니다.
 
 ![카드 시각화](media/power-bi-visualization-card/pbi-opptuntiescard.png)
 
-## <a name="create-a-card-using-the-report-editor"></a>보고서 편집기를 사용하여 카드 만들기
-이 지침은 소매점 분석 샘플을 사용합니다. 이를 수행하려면 Power BI 서비스(app.powerbi.com) 또는 Power BI Desktop에 대한 [샘플을 다운로드](../sample-datasets.md)합니다.   
+## <a name="prerequisite"></a>필수 조건
 
-1. 빈 보고서 페이지에서 시작하고 **Store** \> **Open Store Count** 필드를 선택합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 열어야 합니다.
+이 자습서는 [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
+
+1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** \> **열기**를 선택합니다.
+   
+2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
+
+1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+
+1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+
+## <a name="option-1-create-a-card-using-the-report-editor"></a>옵션 1: 보고서 편집기를 사용하여 카드 만들기
+
+카드를 만드는 첫 번째 방법은 Power BI Desktop에서 보고서 편집기를 사용하는 것입니다.
+
+1. 빈 보고서 페이지에서 시작하고 **Store** \> **Open Store Count** 필드를 선택합니다.
 
     Power BI에서 하나의 숫자가 포함된 열 차트를 만듭니다.
 
-   ![](media/power-bi-visualization-card/pbi-rptnumbertilechart.png)
+   ![숫자 타일 차트 예](media/power-bi-visualization-card/pbi-overview-chart.png)
+
 2. 시각화 창에서 카드 아이콘을 선택합니다.
 
-   ![](media/power-bi-visualization-card/power-bi-templates.png)
-6. 시각화를 대시보드에 추가하려면 카드를 마우스로 가리키고 고정 아이콘 ![](media/power-bi-visualization-card/pbi-pintile.png)을 선택합니다.
+   ![숫자 타일 카드 예](media/power-bi-visualization-card/power-bi-card-visualization.png)
 
-   ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
-7. 기존 대시보드 또는 새 대시보드에 타일을 고정합니다.
+이렇게 해서 보고서 편집기를 사용하여 카드를 만들었습니다. 다음은 카드를 만드는 두 번째 방법, 즉 질문 및 답변 질문 상자를 사용하는 방법입니다.
 
-   * 기존 대시보드: 드롭다운에서 대시보드의 이름을 선택합니다.
-   * 새 대시보드: 새 대시보드의 이름을 입력합니다.
-8. **고정**을 선택합니다.
+## <a name="option-2-create-a-card-from-the-qa-question-box"></a>옵션 2: 질문 및 답변 질문 상자에서 카드 만들기
+질문 및 답변 상자는 카드를 만들 때 사용하는 또 다른 옵션입니다. 질문 및 답변 상자는 Power BI Desktop 보고서 보기에서 사용할 수 있습니다.
 
-   오른쪽 위에 나타나는 성공 메시지를 통해 시각화가 타일로 대시보드에 추가되었음을 알 수 있습니다.
+1. 빈 보고서 페이지에서 시작합니다.
 
-   ![](media/power-bi-visualization-card/power-bi-success2.png)
-9. **대시보드로 이동**을 선택합니다. 여기에서 고정된 시각화를 [편집 및 이동](../service-dashboard-edit-tile.md)할 수 있습니다.
+1. 창 가장 위에서 **질문하기** 아이콘을 선택합니다. 
 
+    Power BI가 해당 질문에 대한 카드와 상자를 만들어 줍니다. 
 
-## <a name="create-a-card-from-the-qa-question-box"></a>질문 및 답변 질문 상자에서 카드 만들기
-질문 및 답변 질문 상자는 카드를 만드는 가장 쉬운 방법입니다. 질문 및 답변 질문 상자는 Power BI 서비스의 대시보드 또는 보고서와 데스크톱 보고서 보기에서 사용할 수 있습니다. 다음 단계에서는 Power BI 서비스 대시보드에서 카드를 만드는 방법을 설명합니다. Power BI Desktop에서 Q&A를 사용하여 카드를 만들려면 Desktop 보고서의 Q&A 사용에 대한 [다음 지침을 따릅니다](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA).
+   ![질문하기 아이콘 위치](media/power-bi-visualization-card/power-bi-q-and-a-overview.png)
 
-이 예에서는 [기회 분석 샘플](../sample-opportunity-analysis.md)을 사용합니다.
+2. 예를 들어, 질문 상자에 “티나의 총판매량”을 입력합니다.
 
-1. 대시보드 맨 위에 있는 질문 상자에서 알고 싶은 내용을 입력하기 시작합니다. 
+    질문 상자는 제안 기능과 설명을 통해 질문 과정을 도와주며, 마지막으로 총 수를 표시합니다.  
 
-   ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
+   ![질문 상자 예](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
-> [!TIP]
-> Power BI 서비스 보고서의 편집용 보기에서 상단 메뉴 모음에 있는 **질문하기**를 선택합니다. Power BI Desktop 보고서에서 보고서의 빈 공간을 찾아 두 번 클릭하여 질문 상자를 엽니다.
+   ![질문 방법의 카드 예](media/power-bi-visualization-card/power-bi-q-and-a-card.png)
 
-2. 예를 들어 질문 상자에 "number of opportunities"를 입력합니다.
-
-   ![](media/power-bi-visualization-card/power-bi-q-and-a.png)
-
-   질문 상자는 제안 기능과 설명을 통해 질문 과정을 도와주며, 마지막으로 총 수를 표시합니다.  
-4. 상단 오른쪽 모서리에서 고정 아이콘 ![](media/power-bi-visualization-card/pbi-pintile.png)을 선택하여 카드를 대시보드에 추가합니다.
-
-   ![](media/power-bi-visualization-card/power-bi-pin.png)
-5. 기존 대시보드 또는 새 대시보드에 카드를 타일로 고정합니다.
-
-   * 기존 대시보드: 드롭다운에서 대시보드의 이름을 선택합니다. 현재 작업 영역에 있는 대시보드만 선택할 수 있습니다.
-   * 새 대시보드: 새 대시보드의 이름을 입력합니다. 그러면 현재 작업 영역에 추가됩니다.
-6. **고정**을 선택합니다.
-
-   상단 오른쪽에 나타나는 성공 메시지를 통해 시각화가 타일로 대시보드에 추가되었음을 알 수 있습니다.  
-
-   ![](media/power-bi-visualization-card/power-bi-success2.png)
-7. **대시보드로 이동**을 선택하여 새 타일을 볼 수 있습니다. 여기에서 대시보드의 [타일 이름을 바꾸고, 크기를 조정하고, 하이퍼링크를 추가하고, 타일의 위치를 변경하는 등](../service-dashboard-edit-tile.md)의 작업을 할 수 있습니다.
-
-   ![](media/power-bi-visualization-card/power-bi-pinned-2.png)
-
-
-
+이렇게 해서 질문 및 답변 질문 상자를 사용하여 카드를 만들었습니다. 다음은 필요에 맞게 카드에 서식을 지정하기 위한 단계입니다.
 
 ## <a name="format-a-card"></a>카드 서식 지정
 레이블, 텍스트, 색상 등을 변경하는 다양한 옵션이 있습니다. 옵션을 알아보는 가장 좋은 방법은 카드를 만든 다음, 서식 창을 살펴보는 것입니다. 다음은 사용 가능한 서식 옵션 중 몇 가지입니다. 
 
-서식 창은 보고서에서 카드와 상호 작용할 때 사용할 수 있습니다. 보고서에서 카드를 변경한 경우 카드를 다시 고정하여 대시보드에서 변경 내용을 확인합니다. 
+서식 창은 보고서에서 카드와 상호 작용할 때 사용할 수 있습니다. 
 
 1. 먼저 페인트 롤러 아이콘을 선택하여 서식 창을 엽니다. 
 
     ![페인트 롤러가 윤곽선으로 표시된 카드](media/power-bi-visualization-card/power-bi-format-card-2.png)
+
 2. 카드를 선택한 상태에서 **데이터 레이블**을 확장하고 색, 크기 및 글꼴 패밀리를 변경합니다. 수천 개의 매장이 있는 경우 **표시 단위**를 사용하여 천 단위까지 매장 수를 표시하고 소수 자릿수도 제어할 수 있습니다. 예를 들어 125,832.00 대신 125.8K로 표시합니다.
+
+    ![데이터 서식이 있는 카드 예](media/power-bi-visualization-card/power-bi-card-format-2.png)
 
 3.  **범주 레이블**을 확장하고 색과 크기를 변경합니다.
 
-    ![진한 파랑이 선택됨](media/power-bi-visualization-card/power-bi-card-format-2.png)
+    ![범주가 있는 카드 예](media/power-bi-visualization-card/power-bi-card-format-category.png)
 
 4. **배경**을 확장하고 슬라이더를 설정으로 이동합니다.  이제 배경색과 투명도를 변경할 수 있습니다.
 
     ![슬라이더가 켜짐으로 설정됨](media/power-bi-visualization-card/power-bi-format-color-2.png)
 
 5. 카드가 원하는 대로 정확하게 표시될 때까지 서식 옵션을 계속 살펴봅니다. 
-
-    ![모든 서식 지정이 완료된 카드](media/power-bi-visualization-card/power-bi-formatted-2.png)
-
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 질문 상자가 전혀 표시되지 않으면 시스템 또는 테넌트 관리자에게 문의합니다.    
