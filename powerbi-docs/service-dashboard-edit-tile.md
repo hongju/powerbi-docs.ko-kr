@@ -56,13 +56,13 @@ ms.locfileid: "66720561"
 
     ![더하기 아이콘](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
-4. 필드 창에서 **팩트 > 양**을 선택한 다음 **비즈니스 영역 > 비즈니스 영역**을 선택합니다.
+4. 필드 창에서 **Fact > Amount**을 선택한 다음 **Business Area > Business Area**을 선택합니다.
  
 5. 시각화 창에서 도넛형 차트 아이콘을 선택하여 시각화를 도넛형 차트로 변환합니다.
 
     ![시각화 창](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
 
-5. 핀 고정 아이콘을 선택하고 도넛형 차트를 IT 지출 분석 샘플 대시보드에 고정합니다.
+5. 고정 아이콘을 선택하고 도넛형 차트를 IT 지출 분석 샘플 대시보드에 고정합니다.
 
    ![타일 마우스로 가리키기](media/service-dashboard-edit-tile/power-bi-pin.png)
 
@@ -102,7 +102,7 @@ ms.locfileid: "66720561"
 <a name="rename"></a>
 
 ### <a name="rename-the-tile"></a>타일 이름 바꾸기
-"타일 세부 정보" 창 맨 위에서 **제목**을 **사용한 양**으로 변경합니다.
+"타일 세부 정보" 창 맨 위에서 **제목**을 **사용 금액**으로 변경합니다.
 
 ![타일 세부 정보 창](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
@@ -136,9 +136,9 @@ ms.locfileid: "66720561"
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>타일 삭제
-1. 대시보드에서 타일을 영구적으로 제거하려면 줄임표 드롭다운 메뉴에서 **타일 삭제** ![삭제 아이콘](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)을 선택합니다. 
+1. 대시보드에서 타일을 영구적으로 제거하려면 줄임표 드롭다운 메뉴에서 **타일 삭제**아이콘 ![삭제 아이콘](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)을 선택합니다. 
 
-2. 타일을 삭제해도 기본 시각화는 삭제되지 않습니다. "양" 타일을 선택하여 기본 보고서를 엽니다. 보고서의 마지막 페이지를 열어서 원래 시각화가 보고서에서 삭제되지 않았는지 확인합니다. 
+2. 타일을 삭제해도 기본 시각화는 삭제되지 않습니다. "금액" 타일을 선택하여 기본 보고서를 엽니다. 보고서의 마지막 페이지를 열어서 원래 시각화가 보고서에서 삭제되지 않았는지 확인합니다. 
 
 - - -
 ## <a name="next-steps"></a>다음 단계
