@@ -100,7 +100,7 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 
     ![경고 이름 옆에 있는 화살표](media/service-set-data-alerts/powerbi-see-alerts-arrow.png)
 
-1. 경고를 삭제하려면, 경고 이름 오른쪽에 있는 쓰레기통을 선택합니다.
+1. 경고를 삭제하려면, 경고 이름 오른쪽에 있는 휴지통을 선택합니다.
 
       ![선택된 휴지통 아이콘](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
 
@@ -108,7 +108,7 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 
 1. Power BI 메뉴 모음에서 기어 아이콘을 선택한 다음, **설정**을 선택합니다.
 
-    ![기어 아이콘](media/service-set-data-alerts/powerbi-gear-icon.png)을 선택합니다.
+    ![기어 아이콘](media/service-set-data-alerts/powerbi-gear-icon.png)
 
 1. **설정**에서 **경고**를 선택합니다.
 
