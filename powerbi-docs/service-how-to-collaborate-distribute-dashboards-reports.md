@@ -108,12 +108,12 @@ iOS 및 Android 모바일 앱에서 [타일, 보고서 및 시각적 개체 주�
 ### <a name="embed-in-secure-portals"></a>보안 포털에 포함
 
 Power BI 보고서를 사용자가 볼 것으로 예상되는 포털 또는 웹 사이트에 포함할 수 있습니다.  
-Power BI 서비스의 **SharePoint Online에 포함** 및 **Embed** 옵션을 사용하면 내부 사용자에 대한 보고서를 안전하게 포함할 수 있습니다. 
+Power BI 서비스의 **SharePoint Online에 포함** 및 **포함** 옵션을 사용하면 내부 사용자에 대한 보고서를 안전하게 포함할 수 있습니다. 
 
 - **SharePoint Online에 포함**은 SharePoint Online용 Power BI 웹 파트에서 작동합니다. 보고서가 포함되는 방법에 대한 제어를 사용하여 Single Sign-On 환경을 제공합니다. 
-- **Embed**는 URL 또는 iFrame을 사용하여 포함 콘텐츠를 지원하는 모든 포털 또는 웹 사이트에서 작동합니다. 
+- **포함**은 URL 또는 iFrame을 사용하여 포함 콘텐츠를 지원하는 모든 포털 또는 웹 사이트에서 작동합니다. 
 
-선택하는 옵션에 관계없이 Power BI는 사용자가 콘텐츠를 보기 전에 모든 사용 권한 및 데이터 보안을 적용합니다. 보고서를 보는 사람은 적절한 라이선스가 필요합니다. Power BI의 [SharePoint Online에 포함](service-embed-report-spo.md) 및 [Embed](service-embed-secure.md) 옵션에 대해 자세히 알아봅니다.
+선택하는 옵션에 관계없이 Power BI는 사용자가 콘텐츠를 보기 전에 모든 사용 권한 및 데이터 보안을 적용합니다. 보고서를 보는 사람은 적절한 라이선스가 필요합니다. Power BI의 [SharePoint Online에 포함](service-embed-report-spo.md) 및 [포함](service-embed-secure.md) 옵션에 대해 자세히 알아봅니다.
 
 ### <a name="publish-to-public-web-sites"></a>공용 웹 사이트에 게시
 
