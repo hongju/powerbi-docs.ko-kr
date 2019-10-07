@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751568"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305759"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI에 앱 게시
 
@@ -190,6 +190,13 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 앱 소비자가 앱을 열면, 표준 Power BI 왼쪽 탐색 창 대신 사용자가 만든 탐색이 표시됩니다. 앱 탐색에는 정의한 섹션에서 보고서와 대시보드가 나열됩니다. 또한 보고서 이름이 아니라 각 보고서의 개별 페이지가 나열됩니다.
 
 ![탐색이 있는 앱](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
+앱 게시할 때 주의해야 할 사항:
+
+* 앱의 액세스 목록은 최대 100명의 사용자 또는 그룹을 가질 수 있습니다. 단, 앱에 대한 액세스 권한은 100명이 넘는 사용자에게 제공할 수 있습니다. 이렇게 하려면 원하는 사용자를 모두 포함하는 사용자 그룹을 하나 이상 사용하세요.
+* 새 작업 영역 환경의 경우, 앱 액세스 목록에 추가된 사용자가 작업 영역을 통해 이미 앱에 대한 액세스 권한을 부여받은 경우에는 해당 사용자가 앱 액세스 목록에 표시되지 않습니다.  
+
 
 ## <a name="next-steps"></a>다음 단계
 * [작업 영역 만들기](service-create-workspaces.md)

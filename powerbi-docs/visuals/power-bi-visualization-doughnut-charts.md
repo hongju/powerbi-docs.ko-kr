@@ -40,7 +40,7 @@ ms.locfileid: "71195170"
 
 1. 빈 보고서 페이지에서 시작하고 필드 창에서 **판매액** \> **지난해 판매액**을 선택합니다.  
    
-3. 시각화 창에서 도넛형 차트 아이콘 ![도넛형 차트 아이콘](media/power-bi-visualization-doughnut-charts/power-bi-icon.png)을 선택하여 가로 막대형 차트를 도넛형 차트로 변환합니다. **Values** 영역에 **Last Year Sales**가 없을 경우 끌어다 놓습니다.
+3. 시각화 창에서 도넛형 차트 아이콘 ![도넛형 차트 아이콘](media/power-bi-visualization-doughnut-charts/power-bi-icon.png)을 선택하여 가로 막대형 차트를 도넛형 차트로 변환합니다. **값** 영역에 **Last Year Sales**가 없을 경우 끌어다 놓습니다.
      
    ![도넛형이 선택된 시각화 창](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 

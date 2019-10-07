@@ -18,13 +18,13 @@ ms.lasthandoff: 05/29/2019
 ms.locfileid: "61310788"
 ---
 # <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Power BI 모바일 앱 보고서 최적화
-세로 레이아웃을 만들어 모바일 앱에서 보고서를 보는 환경을 개선할 수 있습니다. Power BI Desktop 및 Power BI 서비스에서는 세로 모드에서 환경을 최적화하기 위해 보고서 시각적 개체를 다시 정렬하고 크기를 조정합니다.  
+세로 레이아웃을 만들어 모바일 앱에서 보고서를 보는 환경을 개선할 수 있습니다. Power BI Desktop 및 Power BI 서비스에서 보고서 시각적 개체를 다시 정렬하고 크기를 조정하여 세로 모드에서 최적의 환경을 경험할 수 있습니다.  
 
 모바일 디바이스에서 보고서를 보는 방법에 대한 정보를 찾고 있나요? 이 빠른 시작 [Power BI 모바일 앱에서 대시보드 및 보고서 살펴보기](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)를 사용해 보세요.
 
 ![휴대폰에 최적화된 보고서](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-또한 어디서든 크기를 적절히 조정하는 [*반응형* 시각적 개체](#optimize-a-visual-for-any-size) 및 [반응형 슬라이서](#enhance-slicers-to-work-well-in-phone-reports)를 만들 수 있습니다. 보고서에 필터를 추가할 경우, 해당 필터가 최적화된 보고서에 자동으로 나타납니다.
+또한 어디서든 크기를 적절히 조정하는 [*반응형* 시각적 개체](#optimize-a-visual-for-any-size)와 [반응형 슬라이서](#enhance-slicers-to-work-well-in-phone-reports)를 만들 수 있습니다. 보고서에 필터를 추가하는 경우 최적화된 보고서에 자동으로 표시됩니다.
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>세로 버전의 보고서 페이지 레이아웃 지정하기
 

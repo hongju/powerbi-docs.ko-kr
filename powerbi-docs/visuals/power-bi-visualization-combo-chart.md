@@ -60,7 +60,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 
 1. 빈 보고서 페이지에서 시작하여 올해의 판매액 및 총 수익을 월별로 표시하는 세로 막대형 차트를 만듭니다.
 
-    a.  필드 창에서 **Sales** \> **This Year Sales** > **Values**를 선택합니다.
+    a.  필드 창에서 **Sales** \> **This Year Sales** > **Value**를 선택합니다.
 
     b.  **Sales** \> **Gross Margin This Year**을 **값** 영역에 끌어다 놓습니다.
 
