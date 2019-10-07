@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/30/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cb009e29c05ce318c5931fb418617e1ef63f4f
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70937051"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715306"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>테이블에 하이퍼링크(URL) 추가
 이 항목에서는 테이블에 하이퍼링크(URL)를 추가하는 방법을 배웁니다. Power BI Desktop를 사용하여 테이블 또는 행렬에 하이퍼링크(URL)를 추가합니다. 그런 다음, Power BI Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가할 수 있습니다. 
@@ -57,7 +57,7 @@ ms.locfileid: "70937051"
 
     ![URL 아이콘 설정](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
-1. (선택 사항) [Power BI Desktop에서 Power BI 서비스에 보고서를 게시](guided-learning/publishingandsharing.yml?tutorial-step=2)하고 Power BI 서비스에서 보고서를 엽니다. 하이퍼링크도 이 보고서에서 작동됩니다.
+1. (선택 사항) [Power BI Desktop에서 Power BI 서비스에 보고서를 게시](/learn/modules/publish-share-power-bi/2-publish-reports)하고 Power BI 서비스에서 보고서를 엽니다. 하이퍼링크도 이 보고서에서 작동됩니다.
 
 ### <a name="for-data-connected-with-directquery"></a>DirectQuery와 연결된 데이터인 경우
 새 열은 DirectQuery 모드에서 만들 수 없습니다.  하지만 데이터에 URL이 이미 포함되어 있으면 하이퍼링크로 전환할 수 있습니다.
@@ -65,7 +65,7 @@ ms.locfileid: "70937051"
 1. 보고서 보기에서 URL을 포함하고 있는 필드를 사용하여 테이블을 만듭니다.
 2. 열을 선택한 다음 **모델링** 탭에서 **데이터 범주** 드롭다운을 선택합니다.
 3. **웹 URL**을 선택합니다. 하이퍼링크는 밑줄과 함께 파란색으로 표시됩니다.
-4. (선택 사항) [Power BI Desktop에서 Power BI 서비스에 보고서를 게시](guided-learning/publishingandsharing.yml?tutorial-step=2)하고 Power BI 서비스에서 보고서를 엽니다. 하이퍼링크도 이 보고서에서 작동됩니다.
+4. (선택 사항) [Power BI Desktop에서 Power BI 서비스에 보고서를 게시](/learn/modules/publish-share-power-bi/2-publish-reports)하고 Power BI 서비스에서 보고서를 엽니다. 하이퍼링크도 이 보고서에서 작동됩니다.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>Excel 파워 피벗에서 표 또는 행렬 하이퍼링크 만들기
 Power BI 테이블 및 행렬에 하이퍼링크를 추가하는 다른 방법은 Power BI에서 해당 데이터 세트에 가져오고 연결하기 전에 하이퍼링크를 만드는 것입니다. 이 예제에서는 Excel 통합 문서를 사용합니다.

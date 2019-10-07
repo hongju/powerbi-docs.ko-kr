@@ -44,7 +44,7 @@ ms.locfileid: "71195170"
      
    ![도넛형이 선택된 시각화 창](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
-4. **항목**\>**범주**를 선택하여 **범례** 영역에 추가합니다. 
+4. **Item**\>**Category**를 선택하여 **범례** 영역에 추가합니다. 
      
     ![필드 창 옆의 도넛형](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 

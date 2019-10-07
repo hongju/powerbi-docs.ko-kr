@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 748594dcf9f71677057b8641e44f1408bebd1b89
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841635"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715340"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -103,7 +103,7 @@ Power BI에서는 모든 종류의 작업을 수행할 수 있습니다. 서비�
 
 * [미국 정부 기관용 Power BI 등록](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI 미국 정부 데모</a>
-* [Power BI 단계별 학습](guided-learning/gettingstarted.yml?tutorial-step=1)
+* [Power BI 단계별 학습](guided-learning/index.md)
 * [Power BI 서비스 시작](service-get-started.md)
 * [Power BI Desktop이란?](desktop-what-is-desktop.md)
 

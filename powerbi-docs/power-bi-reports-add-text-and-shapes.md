@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92f7a89f99f97c8b497406b3ff947cd0fa645e6c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 03157d34e8d3a20ae7b4aadf71a0829d9a88e08d
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720671"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715278"
 ---
 # <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Power BI 보고서의 텍스트 상자 및 셰이프
 Power BI 서비스 및 Power BI Desktop을 사용하여 보고서에 텍스트 상자 및 셰이프를 추가할 수 있습니다. 두 경우 모두 보고서에 대한 편집 권한이 있어야 합니다. Power BI 서비스에서 보고서가 사용자와 공유된 경우에는 편집 권한이 없습니다. 
 
-Power BI Desktop을 사용하여 [보고서에 정적 이미지를 추가](guided-learning/visualizations.yml?tutorial-step=11)하는 과정을 시청한 다음, 아래 단계에 따라 대신 Power BI 서비스를 직접 사용해 보세요.
+Power BI Desktop을 사용하여 [보고서에 정적 이미지를 추가](/learn/modules/visuals-in-power-bi/12-formatting)하는 과정을 시청한 다음, 아래 단계에 따라 대신 Power BI 서비스를 직접 사용해 보세요.
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 
@@ -39,13 +39,13 @@ Power BI Desktop을 사용하여 [보고서에 정적 이미지를 추가](guide
    
    ![위치 텍스트 상자](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
 
-5. 텍스트 상자를 선택한 채로 **시각화** 창에서 서식을 추가합니다. 이 예제에서는 배경 및 테두리에 서식을 지정했습니다. 텍스트 상자의 정확한 크기와 위치를 생성할 수도 있습니다.  
+5. 텍스트 상자를 선택한 채로 **시각화** 창에서 서식 지정을 추가합니다. 이 예제에서는 배경 및 테두리에 서식을 지정했습니다. 텍스트 상자의 정확한 크기와 위치를 생성할 수도 있습니다.  
 
    ![텍스트 상자 서식 지정](media/power-bi-reports-add-text-and-shapes/power-bi-borders.png)
 
 6. 텍스트 상자를 닫으려면 보고서 캔버스에서 빈 공간을 선택합니다. 
 
-7. 고정 아이콘  ![고정 아이콘](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) 을 선택하여 텍스트 상자를 대시보드에 고정합니다. 
+7. 고정 아이콘  ![고정 아이콘](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) 텍스트 상자를 대시보드에 고정합니다. 
 
 ## <a name="add-a-shape-to-a-report"></a>보고서에 셰이프 추가
 1. 보고서 캔버스에서 아무 곳이나 커서를 두고 **셰이프**를 선택합니다.

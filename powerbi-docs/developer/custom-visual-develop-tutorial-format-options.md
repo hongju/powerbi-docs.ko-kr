@@ -4,17 +4,17 @@ description: Power BI 사용자 지정 시각적 개체 서식 옵션을 개발�
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
-ms.reviewer: maghan
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 5fa14e3aa8a303206d52359d04db05850e096d81
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: e5a05a3c0854cbee57a46cadb45dd805e64cd21e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194592"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945307"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>자습서:  Power BI 시각적 개체에 서식 옵션 추가
 

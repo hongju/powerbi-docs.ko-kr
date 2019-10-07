@@ -4,18 +4,18 @@ description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
-ms.reviewer: maghan
+ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: d806a0ed35a6e8270a154708279faacefeb6e510
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 2203e3a9abddb52902c09fdc98665ba013f604ee
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195699"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71946226"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302654"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945194"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI의 DirectQuery에서 지원하는 데이터 원본
 
@@ -45,7 +45,7 @@ ms.locfileid: "70302654"
 * Snowflake
 * Spark(버전 0.9 이상)
 * SQL Server
-* Teradata 데이터베이스
+* Teradata
 * Vertica
 
 이름 뒤에 **(베타)** 또는 **(미리 보기)** 가 있는 데이터 원본의 이름은 변경될 수 있으며 프로덕션 용도로 지원되지 않습니다. 또한 **Power BI 서비스**에 보고서를 게시한 후에도 게시된 보고서를 열거나 데이터 세트를 탐색할 때 오류가 발생할 수 있으므로 지원되지 않을 수 있습니다.
@@ -82,7 +82,7 @@ ms.locfileid: "70302654"
 | Spark(베타), 버전 0.9 이상 |예 |
 | SQL Server |예 |
 | Sybase |예 |
-| Teradata 데이터베이스 |예 |
+| Teradata |예 |
 | Vertica |예 |
 
 

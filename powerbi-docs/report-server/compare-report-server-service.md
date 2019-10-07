@@ -10,12 +10,12 @@ ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: d2c0ab82a3b262a975c461a4414ed7fd3b1bc060
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 104b903e6b7a47b5ce35dc5c0627a43d54c1090a
+ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075897"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "71691240"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -53,6 +53,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | R 시각적 개체 | 아니요 | 예 | Power BI Desktop에서[R 시각적 개체를 만들고](../desktop-r-visuals.md) Power BI 서비스에 게시합니다. R 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다.  |
 | 미리 보기 기능 | 아니요 | 예 | [Power BI 서비스 미리 보기 기능 옵트인](../consumer/end-user-preview-features.md) |
 | 사용자 지정 시각적 개체 | 예 | 예 | [Power BI의 사용자 지정 시각적 개체](../power-bi-custom-visuals.md) |
+| 복합 모델 | 아니요 | 예 |
 | Power BI Desktop | 보고서 서버에 최적화된 버전으로, 보고서 서버로 다운로드할 수 있음 | Power BI 서비스에 최적화된 버전으로, Windows 스토어에서 사용 가능 | [보고서 서버용 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI 서비스용 Power BI Desktop](http://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>다음 단계
