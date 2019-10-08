@@ -1253,7 +1253,7 @@
                       href: service-gateway-sso-kerberos-sap-hana.md
                     - name: SAP BW-sapcrypto(일반 암호화 라이브러리)
                       href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
-                    - name: SAP BW - gx64krb5.dll 및 gsskrb5.dll
+                    - name: SAP BW - gx64krb5.dll
                       href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
             - name: SAML 기반 SSO
               href: service-gateway-sso-saml.md
