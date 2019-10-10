@@ -136,7 +136,7 @@ ms.locfileid: "66720561"
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>타일 삭제
-1. 대시보드에서 타일을 영구적으로 제거하려면 줄임표 드롭다운 메뉴에서 **타일 삭제**아이콘 ![삭제 아이콘](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)을 선택합니다. 
+1. 대시보드에서 타일을 영구적으로 제거하려면 줄임표 드롭다운 메뉴에서 **타일 삭제** 아이콘 ![삭제 아이콘](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)을 선택합니다. 
 
 2. 타일을 삭제해도 기본 시각화는 삭제되지 않습니다. "금액" 타일을 선택하여 기본 보고서를 엽니다. 보고서의 마지막 페이지를 열어서 원래 시각화가 보고서에서 삭제되지 않았는지 확인합니다. 
 
