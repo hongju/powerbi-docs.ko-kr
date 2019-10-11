@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: cfae856cf80027a92fb7d19c27b990aa659d992d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342170"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968742"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Power BI 보고서의 필터 및 강조 표시
  이 문서에서는 Power BI 서비스의 필터링 및 강조 표시를 소개합니다. 환경은 Power BI Desktop과 거의 동일합니다. *필터*는 사용자가 집중하려는 데이터를 제외한 나머지를 모두 제거합니다. ‘강조 표시’는 필터링되지 않습니다.  데이터를 제거하지 않지만 표시되는 데이터의 하위 집합을 강조 표시합니다. 강조 표시되지 않은 데이터는 볼 수 있지만 흐리게 표시됩니다.
@@ -28,7 +28,7 @@ ms.locfileid: "68342170"
 * Power BI Desktop 및 Power BI 서비스의 [편집용 보기에서 사용할 수 있는 필터 및 강조 표시 컨트롤](power-bi-report-add-filter.md)에 대한 자세한 둘러보기. 이 문서에서는 날짜 및 시간, 숫자, 텍스트 등의 필터 형식을 자세히 살펴봅니다. 기본 및 고급 옵션의 차이점에 관해서도 설명합니다.
 * 필터 및 강조 표시가 기본적으로 작동하는 방법을 알아본 후 [페이지 필터 및 상호 강조 표시에서 시각화 방식을 변경](service-reports-visual-interactions.md)하는 방법을 알아봅니다.
 
-**알고 계십니까?** Power BI에는 현재 미리 보기로 제공되는 새 필터 환경이 있습니다. [Power BI 보고서의 새 필터 환경](power-bi-report-filter.md)에 대해 자세히 알아보세요.
+**알고 계십니까?** Power BI에는 새 필터 환경이 있습니다. [Power BI 보고서의 새 필터 환경](power-bi-report-filter.md)에 대해 자세히 알아보세요.
 
 ![새 필터 환경](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 

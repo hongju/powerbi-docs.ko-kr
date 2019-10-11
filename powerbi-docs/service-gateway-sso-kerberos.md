@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9958059fcf0d86323fc95f44f6fcfcb08fe7b52b
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 0fb52262790c6c1935d8152f043f726a9471817d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100503"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71969002"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Power BI 서비스에서 온-프레미스 데이터 원본으로 Kerberos 기반 SSO 구성
 
-[Kerberos 제한 위임](/windows-server/security/kerberos/kerberos-constrained-delegation-overview)을 사용하여 원활한 SSO 연결을 사용하도록 설정합니다. SSO를 사용하도록 설정하면 Power BI 보고서 및 대시보드가 온-프레미스 원본의 데이터를 손쉽게 새로 고칠 수 있습니다.
+[Kerberos 제한 위임](/windows-server/security/kerberos/kerberos-constrained-delegation-overview)을 사용하여 원활한 SSO 연결을 사용하도록 설정합니다. SSO를 사용하도록 설정하면 Power BI 보고서 및 대시보드가 온-프레미스 원본에 구성된 사용자 수준 권한을 준수하면서 원본의 데이터를 손쉽게 새로 고칠 수 있습니다.
 
 Kerberos 제한 위임을 적절하게 작동하려면 _SPN_(서비스 사용자 이름) 및 서비스 계정의 위임 설정을 포함한 여러 개의 항목을 구성해야 합니다.
 
@@ -60,7 +60,7 @@ Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azu
 
     **위임** 탭이 **속성** 대화 상자에 없는 경우에는 해당 계정에서 SPN을 수동으로 만들고 사용하도록 설정할 수 있습니다. Windows와 함께 제공되는 [setspn 도구](https://technet.microsoft.com/library/cc731241.aspx)를 사용합니다(SPN을 만드는 도메인 관리자 권한 필요).
 
-    예를 들어 게이트웨이 서비스 계정이 **Contoso\GatewaySvc**이고 게이트웨이 서비스가 실행되고 있는 머신의 이름이 **MyGatewayMachine**이라고 가정합니다. 게이트웨이 서비스 계정에 대한 SPN을 설정하려면 다음 명령을 실행합니다.
+    예를 들어 게이트웨이 서비스 계정이 **Contoso\GatewaySvc**이고 게이트웨이 서비스가 실행되고 있는 컴퓨터의 이름이 **MyGatewayMachine**이라고 가정합니다. 게이트웨이 서비스 계정에 대한 SPN을 설정하려면 다음 명령을 실행합니다.
 
     ![SPN 명령 세트의 이미지](media/service-gateway-sso-kerberos/set-spn.png)
 
@@ -83,9 +83,9 @@ Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azu
 
 이 섹션에서는 기본 데이터 원본에 대해 이미 SPN을 구성했다고 가정합니다(예: SQL Server, SAP HANA, SAP BW, Teradata 또는 Spark). 이러한 데이터 원본 서버 SPN을 구성하는 방법을 알아보려면 해당 데이터베이스 서버에 대한 기술 설명서를 참조하세요. 또한 [My Kerberos Checklist](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160)(내 Kerberos 검사 목록) 블로그 게시물에서 *What SPN does your app require?* (앱에 필요한 SPN은?) 제목을 참조할 수도 있습니다.
 
-다음 단계에서는 이미 Kerberos 기반 SSO에 대해 구성된 SQL Server를 실행 중인 데이터베이스 서버와 게이트웨이 머신이라는 두 시스템이 있는 온-프레미스 환경을 가정합니다. 데이터 원본이 이미 Kerberos 기반 Single Sign-On에 대해 구성된 경우에는 지원되는 다른 데이터 원본 중 하나에 대해 이 단계를 채택할 수 있습니다. 이 예에서는 다음과 같은 설정 및 이름을 가정합니다.
+다음 단계에서는 이미 Kerberos 기반 SSO에 대해 구성된 SQL Server를 실행 중인 데이터베이스 서버와 게이트웨이 컴퓨터라는 두 컴퓨터가 동일한 도메인에 있는 온-프레미스 환경을 가정합니다. 데이터 원본이 이미 Kerberos 기반 Single Sign-On에 대해 구성된 경우에는 지원되는 다른 데이터 원본 중 하나에 대해 이 단계를 채택할 수 있습니다. 이 예에서는 다음과 같은 설정 및 이름을 가정합니다.
 
-* Active Directory 도메인(Netbios): Contoso
+* Active Directory 도메인(Netbios): **Contoso**
 * 게이트웨이 머신 이름: **MyGatewayMachine**
 * 게이트웨이 서비스 계정: **Contoso\GatewaySvc**
 * SQL Server 데이터 원본 머신 이름: **TestSQLServer**
@@ -105,11 +105,11 @@ Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azu
 
 6. 새 대화 상자에서 **사용자 또는 컴퓨터**를 선택합니다.
 
-7. 데이터 원본의 서비스 계정을 입력합니다. 예를 들어 SQL Server 데이터 원본에 **Contoso\SQLService**와 같은 서비스 계정이 있을 수 있습니다. 계정이 추가되면 **확인**을 선택합니다.
+7. 데이터 원본의 서비스 계정을 입력합니다. 예를 들어 SQL Server 데이터 원본에 **Contoso\SQLService**와 같은 서비스 계정이 있을 수 있습니다. 이 계정에는 데이터 원본에 적절한 SPN이 이미 설정되어 있어야 합니다. 계정이 추가되면 **확인**을 선택합니다.
 
 8. 데이터베이스 서버에 대해 만든 SPN을 선택합니다. 예제에서 SPN은 **MSSQLSvc**로 시작합니다. 데이터베이스 서비스에 대해 FQDN 및 NetBIOS SPN 모두를 추가한 경우 둘 다 선택합니다. 하나만 표시될 수도 있습니다.
 
-9. **확인**을 선택합니다. 이제 목록에서 SPN이 표시됩니다.
+9. **확인**을 선택합니다. 이제 게이트웨이 서비스 계정에서 위임된 자격 증명을 제공할 수 있는 서비스 목록에 SPN이 표시됩니다.
 
     ![게이트웨이 커넥터 속성 대화 상자의 스크린샷](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
 
@@ -124,6 +124,8 @@ Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azu
 
 다음 단계에서는 이미 Kerberos 기반 SSO에 대해 구성된 SQL Server를 실행 중인 데이터베이스 서버와 게이트웨이 머신이라는 두 머신이 서로 다른 도메인에 있는 온-프레미스 환경을 가정합니다. 데이터 원본이 이미 Kerberos 기반 Single Sign-On에 대해 구성된 경우에는 지원되는 다른 데이터 원본 중 하나에 대해 이 단계를 채택할 수 있습니다. 이 예제에서는 다음과 같은 설정 및 이름을 가정합니다.
 
+* Active Directory 프런트 엔드 도메인(Netbios): **ContosoFrontEnd**
+* Active Directory 백 엔드 도메인(Netbios): **ContosoBackEnd**
 * 게이트웨이 머신 이름: **MyGatewayMachine**
 * 게이트웨이 서비스 계정: **ContosoFrontEnd\GatewaySvc**
 * SQL Server 데이터 원본 머신 이름: **TestSQLServer**
@@ -135,22 +137,26 @@ Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azu
 
     ![게이트웨이 커넥터 속성](media/service-gateway-sso-kerberos-resource/gateway-connector-properties.png)
 
-2. **ContosoBackEnd** 도메인의 도메인 컨트롤러에서 **Active Directory 사용자 및 컴퓨터**를 사용하여 위임 설정이 백 엔드 서비스 계정에 적용되지 않도록 합니다. 또한 이 계정의 **msDS-AllowedToActOnBehalfOfOtherIdentity** 특성이 설정되지 않도록 합니다. 다음 그림과 같이 **특성 편집기**에서 이 특성을 찾을 수 있습니다.
+2. **ContosoBackEnd** 도메인의 도메인 컨트롤러에서 **Active Directory 사용자 및 컴퓨터**를 사용하여 위임 설정이 백 엔드 서비스 계정에 적용되지 않도록 합니다.
 
     ![SQL 서비스 속성](media/service-gateway-sso-kerberos-resource/sql-service-properties.png)
 
-3. **ContosoBackEnd** 도메인의 도메인 컨트롤러에서 **Active Directory 사용자 및 컴퓨터**에 그룹을 만듭니다. 다음 그림과 같이 이 그룹에 게이트웨이 서비스 계정을 추가합니다. 이 그림은 _ResourceDelGroup_이라는 새 그룹 및 이 그룹에 추가된 게이트웨이 서비스 계정 **GatewaySvc**를 보여 줍니다.
+3. 또한 이 계정의 **msDS-AllowedToActOnBehalfOfOtherIdentity** 특성이 설정되지 않도록 합니다. 다음 그림과 같이 **특성 편집기**에서 이 특성을 찾을 수 있습니다.
+
+    ![SQL 서비스 특성](media/service-gateway-sso-kerberos-resource/sql-service-attributes.png)
+
+4. **ContosoBackEnd** 도메인의 도메인 컨트롤러에서 **Active Directory 사용자 및 컴퓨터**에 그룹을 만듭니다. 다음 그림과 같이 이 그룹에 게이트웨이 서비스 계정을 추가합니다. 이 그림은 _ResourceDelGroup_이라는 새 그룹 및 이 그룹에 추가된 게이트웨이 서비스 계정 **GatewaySvc**를 보여 줍니다.
 
     ![그룹 속성](media/service-gateway-sso-kerberos-resource/group-properties.png)
 
-4. 명령 프롬프트를 열고 **ContosoBackEnd** 도메인의 도메인 컨트롤러에서 다음 명령을 실행하여 백 엔드 서비스 계정의 **msDS-AllowedToActOnBehalfOfOtherIdentity** 특성을 업데이트합니다.
+5. 명령 프롬프트를 열고 **ContosoBackEnd** 도메인의 도메인 컨트롤러에서 다음 명령을 실행하여 백 엔드 서비스 계정의 **msDS-AllowedToActOnBehalfOfOtherIdentity** 특성을 업데이트합니다.
 
     ```powershell
     $c = Get-ADGroup ResourceDelGroup
     Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
-5. **Active Directory 사용자 및 컴퓨터**의 백 엔드 서비스 계정 속성에서 “특성 편집기” 탭에 업데이트가 반영되었는지 확인할 수 있습니다.
+6. **Active Directory 사용자 및 컴퓨터**의 백 엔드 서비스 계정 속성에서 “특성 편집기” 탭에 업데이트가 반영되었는지 확인할 수 있습니다. 이제 **msDS-AllowedToActOnBehalfOfOtherIdentity**를 설정해야 합니다.
 
 ## <a name="grant-the-gateway-service-account-local-policy-rights-on-the-gateway-machine"></a>게이트웨이 서비스 계정에 게이트웨이 머신에 대한 로컬 정책 권한 부여
 
@@ -158,7 +164,7 @@ Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azu
 
 1. 게이트웨이 머신에서 *gpedit.msc*를 실행합니다.
 
-2. **로컬 컴퓨터 정책** > **컴퓨터 구성** > **Windows 설정** > **보안 설정** > **로컬 정책** > **사용자 권한 할당**으로 이동합니다.
+2. **로컬 컴퓨터 정책** &gt; **컴퓨터 구성** &gt; **Windows 설정** &gt; **보안 설정** &gt; **로컬 정책** &gt; **사용자 권한 할당**으로 이동합니다.
 
     ![로컬 컴퓨터 정책 폴더 구조의 스크린샷](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 
@@ -166,7 +172,7 @@ Kerberos 제한 위임을 활성화하기 위해 게이트웨이는 Azure AD(Azu
 
     ![클라이언트 가장 정책의 스크린샷](media/service-gateway-sso-kerberos/impersonate-client.png)
 
-    마우스 오른쪽 단추로 클릭하고 **속성**을 엽니다. 계정 목록을 확인합니다. 게이트웨이 서비스 계정(**Contoso\GatewaySvc**)을 포함해야 합니다.
+    마우스 오른쪽 단추로 클릭하고 **속성**을 엽니다. 계정 목록을 확인합니다. 게이트웨이 서비스 계정(제한된 위임의 유형에 따라 **Contoso\GatewaySvc** 또는 **ContosoFrontEnd\GatewaySvc**)을 포함해야 합니다.
 
 4. **사용자 권한 할당**의 정책 목록에서 **운영 체제의 일부로 작동(SeTcbPrivilege)** 을 선택합니다. 게이트웨이 서비스 계정이 계정 목록에도 포함되어 있는지 확인합니다.
 
@@ -184,23 +190,23 @@ Azure AD Connect가 구성되지 않은 경우 다음 단계에 따라 Power BI 
 
     ![작업 관리자 서비스 탭의 스크린샷](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-1. Kerberos SSO를 사용하도록 설정하려는 각 Power BI 서비스 사용자에 대해 로컬 Active Directory 사용자(데이터 원본에 대한 SSO 권한을 보유)의 `msDS-cloudExtensionAttribute1` 속성을 Power BI 서비스 사용자의 전체 사용자 이름으로 설정합니다. 예를 들어 Power BI 서비스에 `test@contoso.com`으로 로그인하고 이 사용자를 SSO 권한이 있는 로컬 Active Directory 사용자(`test@LOCALDOMAIN.COM`)로 매핑하려면 `test@LOCALDOMAIN.COM`의 `msDS-cloudExtensionAttribute1` 특성을 `test@contoso.com`으로 설정합니다.
+1. Kerberos SSO를 사용하도록 설정하려는 각 Power BI 서비스 사용자의 경우 로컬 Active Directory 사용자(데이터 원본에 대한 SSO 권한 보유)의 `msDS-cloudExtensionAttribute1` 속성을 Power BI 서비스 사용자의 전체 사용자 이름(UPN)으로 설정합니다. 예를 들어 Power BI 서비스에 `test@contoso.com`으로 로그인하고 이 사용자를 SSO 권한이 있는 로컬 Active Directory 사용자(`test@LOCALDOMAIN.COM`)로 매핑하려면 `test@LOCALDOMAIN.COM`의 `msDS-cloudExtensionAttribute1` 특성을 `test@contoso.com`으로 설정합니다.
 
-Active Directory 사용자 및 컴퓨터 MMC(Microsoft Management Console) 스냅인을 사용하여 `msDS-cloudExtensionAttribute1` 속성을 설정할 수 있습니다.
-
-1. 도메인 관리자로 Active Directory 사용자 및 컴퓨터 MMC 스냅인을 시작합니다.
-
-1. 도메인을 마우스 오른쪽 단추로 클릭하고, 찾기를 선택한 후, 매핑할 로컬 Active Directory 사용자의 계정 이름을 입력합니다.
-
-1. **특성 편집기** 탭을 선택합니다.
-
-    `msDS-cloudExtensionAttribute1` 속성을 찾아 두 번 클릭합니다. Power BI 서비스에 로그인하는 데 사용할 사용자의 전체 사용자 이름으로 값을 설정합니다.
-
-1. **확인**을 선택합니다.
-
-    ![문자열 특성 편집기 대화 상자의 스크린샷](media/service-gateway-sso-kerberos/edit-attribute.png)
-
-1. **적용**을 선택합니다. **값** 열에 올바른 값이 설정되었는지 확인합니다.
+    Active Directory 사용자 및 컴퓨터 MMC(Microsoft Management Console) 스냅인을 사용하여 `msDS-cloudExtensionAttribute1` 속성을 설정할 수 있습니다.
+    
+    1. 도메인 관리자로 Active Directory 사용자 및 컴퓨터를 시작합니다.
+    
+    1. 도메인을 마우스 오른쪽 단추로 클릭하고, 찾기를 선택한 후, 매핑할 로컬 Active Directory 사용자의 계정 이름을 입력합니다.
+    
+    1. **특성 편집기** 탭을 선택합니다.
+    
+        `msDS-cloudExtensionAttribute1` 속성을 찾아 두 번 클릭합니다. Power BI 서비스에 로그인하는 데 사용할 사용자의 전체 사용자 이름(UPN)으로 값을 설정합니다.
+    
+    1. **확인**을 선택합니다.
+    
+        ![문자열 특성 편집기 대화 상자의 스크린샷](media/service-gateway-sso-kerberos/edit-attribute.png)
+    
+    1. **적용**을 선택합니다. **값** 열에 올바른 값이 설정되었는지 확인합니다.
 
 ## <a name="complete-data-source-specific-configuration-steps"></a>데이터 원본 관련 구성 단계 완료
 
@@ -211,19 +217,19 @@ SAP HANA 및 SAP BW에는 이러한 데이터 원본에 대한 게이트웨이�
 
 ## <a name="run-a-power-bi-report"></a>Power BI 보고서 실행
 
-모든 구성 단계를 완료한 후 Power BI에서 **게이트웨이 관리** 페이지를 사용하여 SSO에 대해 사용할 데이터 원본을 구성할 수 있습니다. 게이트웨이가 여러 개인 경우 Kerberos SSO에 대해 구성한 게이트웨이를 선택해야 합니다. 그런 다음 데이터 원본에 대한 **고급 설정**에서 "DirectQuery 쿼리에 Kerberos를 통한 SSO 사용"이 선택되어 있는지 확인합니다.
+모든 구성 단계를 완료한 후 Power BI에서 **게이트웨이 관리** 페이지를 사용하여 SSO에 대해 사용할 데이터 원본을 구성할 수 있습니다. 게이트웨이가 여러 개인 경우 Kerberos SSO에 대해 구성한 게이트웨이를 선택해야 합니다. 그런 다음 데이터 원본에 대한 **고급 설정**에서 **DirectQuery 쿼리에 Kerberos를 통한 SSO 사용**이 선택되어 있는지 확인합니다.
 
 ![고급 설정 옵션의 스크린샷](media/service-gateway-sso-kerberos/advanced-settings.png)
 
  Power BI Desktop에서 **DirectQuery 기반** 보고서를 게시합니다. 이 보고서는 Power BI 서비스에 로그인하는 (Azure) Active Directory 사용자에 매핑된 사용자가 액세스할 수 있는 데이터를 사용해야 합니다. 새로 고침이 작동하는 방식 때문에 가져오기 대신 DirectQuery를 사용해야 합니다. 가져오기 기반 보고서를 새로 고치는 경우 게이트웨이는 데이터 원본을 만들 때 **사용자 이름** 및 **암호** 필드에 입력한 자격 증명을 사용합니다. 즉, Kerberos SSO가 사용되지 **않습니다**. 또한 게시할 때 여러 게이트웨이가 있는 경우 SSO에 대해 구성한 게이트웨이를 선택해야 합니다. Power BI 서비스에서 이제 보고서를 새로 고치거나, 게시된 데이터 세트를 토대로 새 보고서를 만들 수 있습니다.
 
-이 구성은 대부분의 경우에서 작동합니다. 그러나 Kerberos를 사용하는 경우 환경에 따라 서로 다른 구성이 있을 수 있습니다. 보고서가 여전히 로드되지 않는 경우 추가 조사를 위해 도메인 관리자에게 문의해야 합니다. 데이터 원본이 SAP BW인 경우 [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) 및 [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting)에 대한 데이터 원본 관련 구성 페이지의 문제 해결 섹션을 참조할 수도 있습니다.
+이 구성은 대부분의 경우에서 작동합니다. 그러나 Kerberos를 사용하는 경우 환경에 따라 서로 다른 구성이 있을 수 있습니다. 보고서가 여전히 로드되지 않는 경우 추가 조사를 위해 도메인 관리자에게 문의해야 합니다. 데이터 원본이 SAP BW인 경우 선택한 SNC 라이브러리에 따라 [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) 및 [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting)에 대한 데이터 원본 관련 구성 페이지의 문제 해결 섹션을 참조할 수도 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 **온-프레미스 데이터 게이트웨이** 및 **DirectQuery**에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
-* [온-프레미스 데이터 게이트웨이란?](/data-integration/gateway/service-gateway-getting-started)
+* [온-프레미스 데이터 게이트웨이란?](/data-integration/gateway/service-gateway-onprem)
 * [Power BI의 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
 * [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)

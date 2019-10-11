@@ -1,4 +1,4 @@
-﻿---
+---
 title: KPI(핵심 성과 지표) 시각적 개체
 description: Power BI에서 KPI(핵심 성과 지표) 시각적 개체 만들기
 author: mihart
@@ -11,19 +11,24 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8fa39c7cc57e24f0c19e1a484c0e925bfeec94f7
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389659"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715236"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>KPI(핵심 성과 지표) 시각적 개체
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률의 정도를 알리는 시각적 신호입니다. KPI에 대한 자세한 내용은 [PowerPivot의 KPI(핵심 성과 지표)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))를 참조하세요.
 
 Will이 단일 메트릭 시각적 개체: 계기, 카드 및 KPI를 만드는 방법을 보여 주는 과정을 봅니다.
-
+   > [!NOTE]
+   > 이 비디오에서는 이전 버전의 Power BI Desktop을 사용합니다.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>KPI를 사용하는 경우
@@ -42,19 +47,19 @@ KPI 데이터 세트에는 KPI에 대한 목표 값이 포함되어야 합니다
 
 ## <a name="prerequisites"></a>필수 조건
 
-아직 Power BI에 등록하지 않은 경우 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
+이 자습서는 [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
-* [Power BI Desktop](https://powerbi.microsoft.com/get-started/) - 무료입니다!
+1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
+   
+2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
 
-* [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+
+1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 ## <a name="how-to-create-a-kpi"></a>KPI를 만드는 방법
 
-방법을 알아보려면 Power BI Desktop에서 [소매점 분석 .PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 엽니다. 판매 목표에 대해 만든 진행률을 측정하는 KPI를 만듭니다.
-
-1. 보고서 뷰 ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)에서 **소매점 분석 샘플**을 엽니다.
-
-1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+이 예에서는 판매 목표에 대해 만든 진행률을 측정하는 KPI를 만듭니다.
 
 1. **필드** 창에서 **판매량 > 금년 총 단위**를 선택합니다.  이 값이 지표가 됩니다.
 
@@ -75,7 +80,7 @@ KPI 데이터 세트에는 KPI에 대한 목표 값이 포함되어야 합니다
 
     ![KPI 아이콘이 호출된 시각화 창의 스크린샷](media/power-bi-visualization-kpi/power-bi-kpi-template.png)
 
-1. 목표를 추가하려면 **지난해 총 단위**를 **대상 목표** 필드로 끌어옵니다.
+1. 목표를 추가하려면 **지난해 총 단위**를 **목표 대상** 필드로 끌어옵니다.
 
     ![완료된 KPI 시각적 개체 및 값이 표시된 필드 창이 있는 스크린샷](media/power-bi-visualization-kpi/power-bi-kpi-done.png)
 
@@ -87,7 +92,7 @@ KPI 데이터 세트에는 KPI에 대한 목표 값이 포함되어야 합니다
 
     * **목표** - **켜기**로 설정된 경우 시각적 개체는 목표 및 목표에서의 거리를 백분율로 표시합니다.
 
-    * **색 구분 > 방향** - 일부 KPI의 경우 ‘높은’ 값이 더 낫고 일부는 ‘낮은’ 값이 더 낫다고 간주됩니다. 예를 들어 수입 및 대기 시간이 있습니다. 일반적으로 수입 값이 높은 것은 대기 시간이 높은 것보다 더 낫습니다. **높은 값이 양호**를 선택하고 필요할 경우 색 설정을 변경합니다.
+    * **색 구분 > 방향** - 일부 KPI의 경우 *높은* 값이 더 낫고 일부는 *낮은* 값이 더 낫다고 간주됩니다. 예를 들어 수입 및 대기 시간이 있습니다. 일반적으로 수입 값이 높은 것은 대기 시간이 높은 것보다 더 낫습니다. **높은 값이 양호**를 선택하고 필요할 경우 색 설정을 변경합니다.
 
 KPI는 Power BI 서비스 및 모바일 디바이스에서도 사용할 수 있습니다. 따라서, 비즈니스의 중심에 항상 연결되어 최신 상황을 확인할 수 있습니다.
 

@@ -1,0 +1,61 @@
+### YamlMime:Landing
+title: 관리자용 Power BI
+summary: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+metadata:
+  title: 관리자용 Power BI
+  description: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-service
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/04/2019
+  ms.openlocfilehash: 8209cc755b33887c533e9f90b9b1cd7a5021490e
+  ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 10/10/2019
+  ms.locfileid: "72245653"
+landingContent:
+- title: 관리자용 Power BI 정보
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI 관리란?
+      url: ../service-admin-administering-power-bi-in-your-organization.md
+  - linkListType: concept
+    links:
+    - text: Office 365의 관리 역할
+      url: ../service-admin-role.md
+- title: 시작
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 조직에 대한 라이선싱
+      url: ../service-admin-licensing-organization.md
+    - text: 관리 포털 사용
+      url: ../service-admin-portal.md
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI Pro 구매
+      url: ../service-admin-purchasing-power-bi-pro.md
+    - text: Office 365 평가판으로 등록
+      url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+    - text: Office 365 파트너와 함께 Power BI 추가
+      url: ../service-admin-syndication-partner.md
+- title: 테넌트
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 내 테넌트는 어디에 있나요?
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: 로그인한 사용자 찾기
+      url: ../service-admin-access-usage.md
+    - text: Power BI 감사
+      url: ../service-admin-auditing.md
+    - text: 서비스 상태 추적
+      url: ../service-admin-health.md
+    - text: Power BI 계정 닫기
+      url: ../service-admin-closing-your-account.md

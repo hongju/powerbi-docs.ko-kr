@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d5ada41ef4941f14118b777e37e731337a5282d0
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730180"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715393"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop의 측정값
 
 **Power BI Desktop**에서는 몇 번의 클릭만으로 데이터에 대한 정보를 만들 수 있습니다. 그러나 가장 중요한 질문에 답변하는 데 필요한 모든 정보가 해당 데이터에 포함되지 않은 경우도 있습니다. 이러한 경우 측정값을 사용하면 도움이 될 수 있습니다.
 
-측정값은 가장 일반적인 데이터 분석에서 사용됩니다. [요약 및 범주](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16) 동영상에 설명된 대로 합계, 평균, 최소값, 최댓값, 개수 등과 같은 간단한 요약을 필드를 통해 설정할 수 있습니다. DAX 수식을 사용하여 직접 고급 계산을 직접 작성할 수 있습니다. 측정값의 계산된 결과는 보고서 조작에 대한 응답으로 항상 변경되어 빠른 동적 임시 데이터 탐색이 가능합니다. 측정값에 대해 좀 더 자세히 살펴보겠습니다.
+측정값은 가장 일반적인 데이터 분석에서 사용됩니다. 합계, 평균, 최솟값, 최댓값, 개수 등의 간단한 요약을 필드를 통해 설정할 수 있습니다. 측정값의 계산된 결과는 보고서 조작에 대한 응답으로 항상 변경되어 빠른 동적 임시 데이터 탐색이 가능합니다. 측정값에 대해 좀 더 자세히 살펴보겠습니다. 자세한 내용은 [계산 측정값 만들기](/learn/modules/model-data-power-bi/4b-create-calculated-measures)를 참조하세요.
 
 ## <a name="understanding-measures"></a>측정값 이해
 
-**Power BI Desktop**에서 측정값은 **보고서 보기** 또는 **데이터 보기**에서 만들고 표시합니다. 사용자가 직접 만든 측정값은 계산기 아이콘과 함께 필드 목록에 나타납니다. 측정값에 원하는 대로 이름을 지정하고 다른 모든 필드처럼 새 시각화나 기존 시각화에 추가할 수 있습니다.
+**Power BI Desktop**에서 측정값은 **보고서 보기** 또는 **데이터 뷰**에서 만들고 표시합니다. 사용자가 직접 만든 측정값은 계산기 아이콘과 함께 필드 목록에 나타납니다. 측정값에 원하는 대로 이름을 지정하고 다른 모든 필드처럼 새 시각화나 기존 시각화에 추가할 수 있습니다.
 
 ![](media/desktop-measures/measuresinpbid_measinfieldlist.png)
 

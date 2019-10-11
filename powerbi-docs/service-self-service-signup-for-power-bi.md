@@ -31,7 +31,7 @@ Power BI는 개인 보고서 및 시각화 도구일 수 있으며, 그룹 프�
 
 * 등록한 후에는 [게스트 사용자를 초대](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)하여 개인 계정을 포함한 모든 이메일 주소로 Power BI 콘텐츠를 볼 수 있습니다.
 
-* .gov 또는 .mil 주소로 Power BI에 등록할 수 있지만 다른 프로세스가 필요합니다. 자세한 내용은 참조 하세요. [Power BI 서비스에서 미국 정부 기관 등록](service-govus-signup.md)합니다.
+* .gov 또는 .mil 주소로 Power BI에 등록할 수 있지만 별도의 프로세스가 필요합니다. 자세한 내용은 [Power BI 서비스에서 미국 정부 기관 등록](service-govus-signup.md)을 참조하세요.
 
 ## <a name="sign-up-for-a-trial"></a>평가판 등록
 

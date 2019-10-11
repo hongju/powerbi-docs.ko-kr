@@ -56,7 +56,7 @@ ms.locfileid: "66720561"
 
     ![더하기 아이콘](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
-4. 필드 창에서 **Fact > Amount**을 선택한 다음 **Business Area > Business Area**을 선택합니다.
+4. 필드 창에서 **팩트 > 양**을 선택한 다음 **비즈니스 영역 > 비즈니스 영역**을 선택합니다.
  
 5. 시각화 창에서 도넛형 차트 아이콘을 선택하여 시각화를 도넛형 차트로 변환합니다.
 
