@@ -54,7 +54,7 @@ ms.locfileid: "67161210"
 ![콤보 차트](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
->콤보 차트는 세로 막대형 차트와 꺾은선형 차트를 결합합니다. *꺾은선형 및 누적 세로 막대형* 과 꺾은선형 및 묶은 세로 막대형중에서 선택합니다. 
+>콤보 차트는 세로 막대형 차트와 꺾은선형 차트를 결합합니다. *꺾은선형 및 누적 세로 막대형* 과 꺾은선형 및 묶은 세로 막대형 중에서 선택합니다. 
 
 자세한 내용은 [Power BI의 콤보 차트](power-bi-visualization-combo-chart.md)를 참조하세요.
 
@@ -139,7 +139,7 @@ ms.locfileid: "67161210"
 >[!TIP]
 >테이블은 두 개의 차원을 지원하지만 행렬을 사용하면 여러 차원에 걸쳐(계단형 레이아웃 지원) 데이터를 유의미하게 표시하기가 더 쉽습니다. 행렬이 자동으로 데이터를 집계하고 드릴다운을 활성화합니다. 
 
-자세한 내용은 [Matrix visuals in Power BI](desktop-matrix-visual.md)(Power BI의 매트릭스 시각적 개체)를 참조하세요.
+자세한 내용은 [Power BI의 매트릭스 시각적 개체](desktop-matrix-visual.md)를 참조하세요.
 
 ### <a name="pie-charts"></a>원형 차트
 ![원형 차트](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
@@ -177,7 +177,7 @@ ms.locfileid: "67161210"
 >[!TIP]
 >시각적 개체에 데이터 요소가 너무 많으면 시각적 개체가 다운될 수 있으므로, 정교한 샘플링 알고리즘을 사용하여 시각화의 정확성을 보장하세요.
 
-자세한 내용은 [High Density Scatter charts in Power BI](desktop-high-density-scatter-charts.md)(Power BI의 고밀도 분산형 차트)를 참조하세요.
+자세한 내용은 [Power BI의 고밀도 분산형 차트](desktop-high-density-scatter-charts.md)를 참조하세요.
 
 ### <a name="slicers"></a>슬라이서
 ![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
@@ -216,10 +216,10 @@ ms.locfileid: "67161210"
 ## <a name="tell-qa-which-visualization-to-use"></a>질문 및 답변에 사용할 시각화 알리기
 Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에서 시각화 유형을 지정할 수 있습니다.  예:
 
-"***시/도별 매출을 트리 맵으로***"
+"***sales by state as a treemap***"
 
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 시각화](power-bi-report-visualizations.md)    
-[sqlbi.com에서 오른쪽 시각적 개체 참조](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[sqlbi.com에서 올바른 시각적 개체 참조](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
