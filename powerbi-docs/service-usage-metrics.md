@@ -120,7 +120,7 @@ Power BI 서비스에서는 사용 메트릭 보고서를 실행할 수만 있�
 
     ![보고서 탭](media/service-usage-metrics/power-bi-new-report.png)
 
-## <a name="see-all-workspace-usage-metrics"></a>작업 영역 사용 메트릭 ‘모두’ 보기
+## <a name="see-all-workspace-usage-metrics"></a>‘모든’ 작업 영역 사용 메트릭 보기 
 
 작업 영역의 모든 대시보드 또는 모든 보고서에 대한 메트릭을 보려면 필터를 제거해야 합니다. 보고서는 기본적으로 해당 보고서를 만드는 데 사용한 대시보드 또는 보고서의 메트릭만 표시하도록 필터링되어 있습니다.
 
