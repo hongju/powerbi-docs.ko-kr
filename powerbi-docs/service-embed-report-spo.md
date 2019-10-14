@@ -60,7 +60,7 @@ SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 
 
     ![SP 새 웹 파트](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
-3. **앱 보고서**를 선택합니다.
+3. **보고서 추가**를 선택합니다.
 
     ![SP 새 보고서](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)  
 
@@ -74,7 +74,7 @@ SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 
 
 ## <a name="grant-access-to-reports"></a>보고서에 액세스 권한 부여
 
-SharePoint Online에 보고서를 포함한다는 해서 사용자에게 보고서를 볼 수 있는 권한이 자동으로 부여되지 않으므로 Power BI에서 보기 권한을 설정해야 합니다.
+SharePoint Online에 보고서를 포함해도 사용자에게 보고서를 볼 수 있는 권한이 자동으로 부여되지 않으므로 Power BI에서 보기 권한을 설정해야 합니다.
 
 > [!IMPORTANT]
 > Power BI 서비스 내에서 보고서를 볼 수 있는 사람이 누구인지 확인하고 목록에 없는 사람에게 액세스 권한을 부여합니다.
