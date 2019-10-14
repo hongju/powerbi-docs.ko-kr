@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2019
+ms.date: 09/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: cfae856cf80027a92fb7d19c27b990aa659d992d
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 1d4a48f9116f76136b40f3f22df7ffa68f75a74b
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968742"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020549"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Power BI 보고서의 필터 및 강조 표시
  이 문서에서는 Power BI 서비스의 필터링 및 강조 표시를 소개합니다. 환경은 Power BI Desktop과 거의 동일합니다. *필터*는 사용자가 집중하려는 데이터를 제외한 나머지를 모두 제거합니다. ‘강조 표시’는 필터링되지 않습니다.  데이터를 제거하지 않지만 표시되는 데이터의 하위 집합을 강조 표시합니다. 강조 표시되지 않은 데이터는 볼 수 있지만 흐리게 표시됩니다.
