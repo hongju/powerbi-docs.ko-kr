@@ -51,7 +51,9 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 ### <a name="field-types"></a>필드 형식
 
+
 필드 형식은 숫자, 날짜/시간 또는 문자열일 수 있고 사용된 형식은 데이터 세트에서 설정된 형식과 일치해야 합니다. 예를 들어 날짜로 설정된 데이터 세트 열에서 날짜/시간 또는 숫자 값을 찾으려는 경우(예: Table/StringColumn eq 1) “문자열” 형식의 테이블 열을 지정하는 작업은 작동하지 않습니다.
+
 
 * **문자열**은 ‘manager name’과 같이 작은따옴표로 묶여야 합니다.
 * **숫자**에는 특별한 서식 지정이 필요하지 않습니다. 자세한 내용은 이 문서의 [숫자 데이터 형식](#numeric-data-types)을 참조하세요.
@@ -109,12 +111,14 @@ Power BI는 **and** 외에도 많은 연산자를 지원합니다. 아래 표에
 |---------|---------|---------|---------|---------|---------|
 |**and**     | 그리고 |  예      | 예 |  예|  product/price le 200 and price gt 3.5 |
 |**eq**     | 같음 |  예      | 예   |  예       | Address/City eq 'Redmond' |
+
 |**ne**     | 같지 않음 |   예      | 예  | 예        |  Address/City ne 'London' |
 |**ge**     |  크거나 같음       | 아니요 | 예 |예 |  product/price ge 10
 |**gt**     | 보다 큼        |아니요 | 예 | 예  | product/price gt 20
 |**le**     |   작거나 같음      | 아니요 | 예 | 예  | product/price le 100
 |**lt**     |  보다 작음       | 아니요 | 예 | 예 |  product/price lt 20
 |**in\*\***     |  포함       | 예 | 예 |  예 | Student/Age in (27, 29)
+
 
 
 \*\* **in**을 사용하는 경우 **in**의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록 또는 컬렉션을 반환하는 단일 식일 수 있습니다.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6e89fa21617add5c3c11ada990f7055d305cebf5
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: efb2ee5ef0ed09cbca1a2bebf6ab3a0f8908efb8
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256458"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968671"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI에 지원되는 언어 및 국가/지역
 
@@ -121,6 +121,9 @@ Power BI Desktop을 얻는 방법은 두 가지입니다. 독립 실행형 설�
 * Windows 스토어에서 Power BI Desktop을 설치하면 모든 언어가 설치되고 Windows 기본 언어에 해당하는 언어가 표시됩니다.
 * Power BI Desktop을 독립 실행형 설치 프로그램으로 다운로드하면 설치 프로그램을 실행할 때 기본 언어를 선택하게 되고 나중에 변경할 수도 있습니다.
 * 특정 보고서를 위한 [데이터를 가져올 때 사용할 로캘을 선택](#choose-the-locale-for-importing-data-into-power-bi-desktop)할 수도 있습니다.
+
+> [!NOTE]
+> Power BI Report Server에 최적화된 Power BI Desktop 버전을 설치하는 경우 다운로드할 때 언어를 선택합니다. 자세한 내용은 [Power BI Report Server에 최적화된 Power BI Desktop 설치](report-server/install-powerbi-desktop.md)를 참조하세요.
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Power BI Desktop 언어 선택 
 1. Power BI Desktop을 [Windows 스토어에서](http://aka.ms/pbidesktopstore) 설치하거나 [독립 실행형 설치 프로그램](http://aka.ms/pbiSingleInstaller)으로 설치합니다.
