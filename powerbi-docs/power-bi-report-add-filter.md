@@ -89,7 +89,7 @@ Power BI에서는 수동과 자동, 드릴스루 및 통과 등 다양한 종류
      
     ![필터 창에 필드 추가](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
-    **지역 관리자**는 시각화 자체에 ‘추가되는 것이 아닙니다’.  시각화는 여전히 **StoreNumberName** 축과 **올해 판매** 값으로 구성됩니다.  
+    **구역 관리자**는 시각화 자체에 ‘추가되는 것이 아닙니다’.  시각화는 여전히 **StoreNumberName** 축과 **올해 판매** 값으로 구성됩니다.  
      
     ![필드가 시각적 개체에 없음](media/power-bi-report-add-filter/power-bi-visualization.png)
 
