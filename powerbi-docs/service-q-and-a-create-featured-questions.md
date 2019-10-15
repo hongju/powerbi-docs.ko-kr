@@ -29,16 +29,16 @@ ms.locfileid: "66721127"
 
 이 아티클에서는 [소매 분석 판매 샘플](sample-datasets.md)을 사용합니다. 다음 단계별 지침에 따라 직접 데이터 세트를 살펴보세요.
 
-1. 대시보드에서 질문 및 답변의 질문 상자를 선택합니다.   질문과 대답은 데이터 세트에 나타나는 용어 목록을 표시하여 도움을 주고 있습니다.
+1. 대시보드에서 질문 및 답변의 질문 상자를 선택합니다. 질문과 대답은 데이터 세트에 나타나는 용어 목록을 표시하여 도움을 주고 있습니다.
 2. 이 목록에 추가하려면 Power BI의 오른쪽 위 모서리에서 톱니 바퀴형 아이콘을 선택합니다.  
    ![기어 아이콘](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. **설정**&gt;**데이터 세트**&gt;**Retail Analysis Sample**&gt;**질문 및 답변 추천 질문**을 선택합니다.  
 4. **질문 추가**를 선택합니다.
    
    ![설정 메뉴](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
-5. 텍스트 상자에 질문을 입력하고 **적용**을 선택합니다.   필요에 따라 **질문 추가**를 선택하여 다른 질문을 추가합니다.  
+5. 텍스트 상자에 질문을 입력하고 **적용**을 선택합니다. 필요에 따라 **질문 추가**를 선택하여 다른 질문을 추가합니다.  
    ![추천 질문 및 답변 질문 창](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
-6. 소매점 분석 샘플을 위해 Power BI 대시보드로 이동하고 질문 및 답변 질문하기 상자에 커서를 놓습니다.   
+6. 소매점 분석 샘플을 위해 Power BI 대시보드로 이동하고 질문 및 답변의 질문 상자에 커서를 놓습니다.   
    ![주요 질문이 있는 Q&A 질문 상자](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
 7. 새 추천 질문인 **Sales by territory as a map**가 목록에서 첫 번째에 있습니다. 선택합니다.  
 8. 등치 지역도 시각화로 답변이 표시됩니다.  
