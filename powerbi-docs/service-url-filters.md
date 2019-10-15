@@ -51,11 +51,11 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 ### <a name="field-types"></a>필드 형식
 
-필드 형식은 숫자, 날짜/시간 또는 문자열일 수 있고 사용된 형식은 데이터 세트에서 설정된 형식과 일치해야 합니다.  예를 들어 날짜로 설정된 데이터 세트 열에서 날짜/시간 또는 숫자 값을 찾으려는 경우(예: Table/StringColumn eq 1) “string” 형식의 테이블 열을 지정하는 작업은 작동하지 않습니다.
+ㅍ필드 형식은 숫자, 날짜/시간 또는 문자열일 수 있고 사용된 형식은 데이터 세트에서 설정된 형식과 일치해야 합니다.  예를 들어 날짜로 설정된 데이터 세트 열에서 날짜/시간 또는 숫자 값을 찾으려는 경우(예: Table/StringColumn eq 1) “문자열” 형식의 테이블 열을 지정하는 작업은 작동하지 않습니다.
 
 * **문자열**은 ‘manager name’과 같이 작은따옴표로 묶여야 합니다.
 * **숫자**에는 특별한 서식 지정이 필요하지 않습니다. 자세한 내용은 이 문서의 [숫자 데이터 형식](#numeric-data-types)을 참조하세요.
-* **날짜 및 시간** 이 문서의 [Date 데이터 형식](#date-data-types)을 참조하세요. 
+* **날짜 및 시간** 이 문서의 [날짜 데이터 형식](#date-data-types)을 참조하세요. 
 
 여전히 혼동되는 경우 계속 읽어 보고 자세히 분석합니다.  
 
@@ -107,8 +107,8 @@ Power BI는 **and** 외에도 많은 연산자를 지원합니다. 아래 표에
 
 |연산자  | 정의 | 문자열  | 숫자 | 날짜 |  예제|
 |---------|---------|---------|---------|---------|---------|
-|**and**     | 및 |  예      | 예 |  예|  제품/가격 le 200 및 가격 gt 3.5 |
-|**eq**     | 같음 |  예      | 예   |  예       | 주소/도시 eq 'Redmond' |
+|**and**     | 그리고 |  예      | 예 |  예|  product/price le 200 and price gt 3.5 |
+|**eq**     | 같음 |  예      | 예   |  예       | Address/City eq 'Redmond' |
 |**ne**     | 같지 않음 |   예      | 예  | 예        |  주소/도시 ne 'London' |
 |**ge**     |  크거나 같음       | 아니요 | 예 |예 |  제품/가격 ge 10
 |**gt**     | 보다 큼        |아니요 | 예 | 예  | 제품/가격 gt 20
@@ -165,7 +165,7 @@ Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![테이블 시
 
 여러 값을 필터링하는 한 가지 방법은 두 필드를 하나의 값으로 연결하는 계산된 열을 만드는 것입니다. 그런 다음 해당 값을 필터링할 수 있습니다.
 
-예를 들어 다음과 같은 두 개의 필드가 있습니다. 지역 및 체인. Power BI Desktop에서 TerritoryChain이라는 [새 계산된 열](desktop-tutorial-create-calculated-columns.md)(필드)을 만듭니다. **필드** 이름에는 공백을 포함할 수 없다는 점에 유의하세요. 다음은 해당 열에 대한 DAX 수식입니다
+예를 들어 다음과 같은 두 개의 필드가 있습니다. Territory 및 Chain. Power BI Desktop에서 TerritoryChain이라는 [새 계산된 열](desktop-tutorial-create-calculated-columns.md)(필드)을 만듭니다. **필드** 이름에는 공백을 포함할 수 없다는 점에 유의하세요. 다음은 해당 열에 대한 DAX 수식입니다
 
 TerritoryChain = [Territory] & " - " & [Chain]
 

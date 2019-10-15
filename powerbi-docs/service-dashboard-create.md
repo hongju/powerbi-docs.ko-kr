@@ -20,7 +20,7 @@ ms.locfileid: "68624264"
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>보고서에서 Power BI 대시보드 만들기
 지금까지 [Power BI의 대시보드 소개](service-dashboards.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 다양한 방법으로 대시보드를 만들 수 있습니다. 예를 들어 보고서의 데이터 세트에서 처음부터 또는 기존 대시보드를 복제하여 대시보드를 만들 수 있습니다.  
 
-처음 시작할 때에는 부담스러울 수 있으므로, 이미 빌드된 보고서에서 시각적 개체를 고정하는 쉽고 빠르게 대시보드를 만들어 시작합니다. 
+처음 시작할 때에는 부담스러울 수 있으므로, 이미 빌드된 보고서의 시각적 개체를 고정하여 쉽고 빠르게 대시보드를 만들어 시작합니다. 
 
 이 빠른 시작을 완료한 후에는 다음을 이해하는 것이 좋습니다.
 - 대시보드와 보고서 간의 관계
@@ -34,7 +34,7 @@ ms.locfileid: "68624264"
 ![대시보드](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
-> 대시보드는 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. Power BI 모바일에서는 대시보드를 만들 수 없지만 [보고 공유](consumer/mobile/mobile-apps-view-dashboard.md)할 수는 있습니다.
+> 대시보드는 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. Power BI 모바일에서는 대시보드를 만들 수 없지만 [보기 및 공유](consumer/mobile/mobile-apps-view-dashboard.md)할 수는 있습니다.
 >
 > 
 
@@ -79,7 +79,7 @@ Power BI 샘플 데이터 세트 중 하나를 가져오고 이를 사용하여 
 4. 새 대시보드를 만들고 있으므로 **새 대시보드**에 대한 옵션을 선택하고 이름을 지정합니다.
 
     ![대시보드에 고정 대화 상자](media/service-dashboard-create/power-bi-pin-tile.png)
-5. **핀 고정**을 선택하면, Power BI에서 현재 작업 영역에 새 대시보드를 만듭니다. **대시보드에 고정됨** 메시지가 나타나면 **대시보드로 이동**을 선택합니다. 보고서를 저장할지 묻는 메시지가 표시되면 **저장**을 선택합니다.
+5. **고정**을 선택하면, Power BI에서 현재 작업 영역에 새 대시보드를 만듭니다. **대시보드에 고정됨** 메시지가 나타나면 **대시보드로 이동**을 선택합니다. 보고서를 저장할지 묻는 메시지가 표시되면 **저장**을 선택합니다.
 
     ![성공 메시지](media/service-dashboard-create/power-bi-pin-success.png)
 
@@ -91,13 +91,13 @@ Power BI 샘플 데이터 세트 중 하나를 가져오고 이를 사용하여 
    ![대시보드에 고정 대화 상자](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>전체 보고서 페이지를 대시보드에 고정
-시각적 개체를 한 번에 하나씩 고정하는 대신, [전체 보고서 페이지를 ‘라이브 타일’로 고정할 수 있습니다](service-dashboard-pin-live-tile-from-report.md).  이를 수행해 보겠습니다.
+시각적 개체를 한 번에 하나씩 고정하는 대신, [전체 보고서 페이지를 ‘라이브 타일’로 고정할 수 있습니다](service-dashboard-pin-live-tile-from-report.md). 이를 수행해 보겠습니다.
 
 1. 보고서 편집기에서 **지출 개요** 탭을 선택하여 보고서의 두 번째 페이지를 엽니다.
 
    ![보고서 탭](media/service-dashboard-create/power-bi-page-tab.png)
 
-2. 대시보드에서 보고서의 모든 시각적 개체를 표시합니다. 메뉴 모음의 오른쪽 위 모서리에서 **라이브 고정 페이지**를 선택합니다. 대시보드에서 페이지를 새로 고칠 때마다 라이브 페이지 타일이 업데이트됩니다.
+2. 대시보드에서 보고서의 모든 시각적 개체를 표시합니다. 메뉴 모음의 오른쪽 위 모서리에서 **라이브 페이지 고정**을 선택합니다. 대시보드에서 페이지를 새로 고칠 때마다 라이브 페이지 타일이 업데이트됩니다.
 
    ![보고서 편집기의 오른쪽 위](media/service-dashboard-create/power-bi-pin-live.png)
 

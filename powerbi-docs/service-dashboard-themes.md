@@ -30,7 +30,9 @@ ms.locfileid: "61143702"
 
 
 ## <a name="how-dashboard-themes-work"></a>대시보드 테마 작동 방식
+
 시작하려면 직접 만들었고(또는 편집 권한이 있고) 사용자 지정하려는 대시보드를 엽니다. 줄임표(...)를 선택하고 **대시보드 테마**를 선택합니다.
+
 
 ![대시보드 테마 옵션](media/service-dashboard-themes/power-bi-dashboard-theme.png)
 

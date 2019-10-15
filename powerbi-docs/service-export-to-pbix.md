@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994820"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715175"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI 서비스에서 Power BI Desktop으로 보고서 다운로드(미리 보기)
-Power BI Desktop에서 로컬 컴퓨터의 보고서(*.pbix* 파일)를 Power BI 서비스에 게시할 수 있습니다. Power BI 보고서는 다른 방향으로도 이동할 수 있습니다. Power BI 서비스에서 Power BI Desktop으로 보고서를 다운로드할 수 있습니다. 두 경우 모두, Power BI 보고서의 확장명은 .pbix입니다.
+Power BI Desktop에서 로컬 컴퓨터의 보고서( *.pbix* 파일)를 Power BI 서비스에 게시할 수 있습니다. Power BI 보고서는 다른 방향으로도 이동할 수 있습니다. Power BI 서비스에서 Power BI Desktop으로 보고서를 다운로드할 수 있습니다. 두 경우 모두, Power BI 보고서의 확장명은 .pbix입니다.
 
 이 문서의 뒷부분에서 유의해야 할 몇 가지 제한 사항과 고려 사항을 설명합니다.
 
@@ -26,7 +26,7 @@ Power BI Desktop에서 로컬 컴퓨터의 보고서(*.pbix* 파일)를 Power BI
 
 ## <a name="download-the-report-as-a-pbix-file"></a>.pbix 파일로 보고서 다운로드
 
-2016년 11월 23일 이후에 [Power BI Desktop에서 생성](guided-learning/publishingandsharing.yml?tutorial-step=2)되고 업데이트된 보고서만 다운로드할 수 있습니다. 보고서가 그전에 만들어진 경우에는 Power BI 서비스의 **보고서 다운로드** 메뉴 옵션이 회색으로 표시됩니다.
+2016년 11월 23일 이후에 [Power BI Desktop에서 생성](/learn/modules/publish-share-power-bi/2-publish-reports)되고 업데이트된 보고서만 다운로드할 수 있습니다. 보고서가 그전에 만들어진 경우에는 Power BI 서비스의 **보고서 다운로드** 메뉴 옵션이 회색으로 표시됩니다.
 
 .Pbix 파일을 다운로드하려면 다음 단계를 따르세요.
 
@@ -50,7 +50,7 @@ Power BI Desktop에서 로컬 컴퓨터의 보고서(*.pbix* 파일)를 Power BI
 Power BI 서비스에서 .pbix 파일을 다운로드하는 경우와 관련된 몇 가지 중요한 고려 사항 및 제한 사항이 있습니다.
 
 * 파일을 다운로드하려면 보고서의 액세스 권한을 편집해야 합니다.
-* 보고서가 Power BI Desktop에서 생성되어 Power BI 서비스에 ‘게시’되었거나, .pbix 파일이 Power BI 서비스에 ‘업로드’된 상태여야 합니다.
+* 보고서가 Power BI Desktop에서 생성되어 Power BI 서비스에 ‘게시’되었거나, .pbix 파일이 Power BI 서비스에 ‘업로드’된 상태여야 합니다.  
 * 보고서는 2016년 11월 23일 이후 게시되거나 업데이트되어야 합니다. 이전에 게시된 보고서는 다운로드할 수 없습니다.
 * 원래 Power BI 서비스에서 만든 보고서 및 콘텐츠 팩에는 이 기능이 적용되지 않습니다.
 * 다운로드한 파일을 열 때는 항상 최신 버전의 Power BI Desktop을 사용합니다. 이전 버전의 Power BI Desktop에서는 다운로드한 .pbix 파일이 열리지 않을 수도 있습니다.

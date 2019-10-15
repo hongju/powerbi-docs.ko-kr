@@ -54,7 +54,7 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 그러나 일부 
 1. 대시보드에 고정하려는 셀을 강조 표시합니다.
    
     ![Excel 통합 문서에서 셀 선택](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
-2. 고정 선택 ![고정 아이콘](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) 아이콘. 
+2. 고정 아이콘 ![고정 아이콘](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) 을 선택합니다. 
 3. 기존 대시보드 또는 새 대시보드에 타일을 고정합니다. 
    
    * 기존 대시보드: 드롭다운에서 대시보드의 이름을 선택합니다.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9a7baa8284d90242584aa529fb66bc6446402924
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61401257"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715445"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁
 Power BI를 사용하면서 "즉각적인" 도움이 필요한 경우 Power BI 질문에 대한 답변을 받지 못해 실망하거나 어려움을 겪은 적이 있나요? 
@@ -45,7 +45,7 @@ Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.
 ## <a name="6-attend-training"></a>6 참여 교육
 이용할 수 있는 교육 옵션은 직접 실습 교육에서 짧은 비디오까지 거의 무한대로 제공됩니다.
 
-* Power BI 사이트의 [단계별 학습](guided-learning/gettingstarted.yml?tutorial-step=1).
+* Power BI 사이트의 [단계별 학습](guided-learning/index.md).
 * Power BI 사이트에서 [무료 Power BI 웹 세미나](webinars.md), 라이브 및 주문형.
 
 다음과 같은 추가 온라인 옵션을 찾아볼 수 있습니다.

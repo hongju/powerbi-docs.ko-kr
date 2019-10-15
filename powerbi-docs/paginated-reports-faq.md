@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 09/04/2019
-ms.openlocfilehash: 6ab7338029118ab6478ad345776e2b9f13c34123
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.date: 10/04/2019
+ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751522"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968485"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
 
@@ -117,12 +117,13 @@ Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니�
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>페이지를 매긴 보고서에 대해 현재 지원되는 데이터 원본은 무엇인가요?
 
-다음 데이터 원본을 지원합니다. 
+다음 데이터 원본을 지원합니다. - 
 
 - Power BI 데이터 세트(SSO(Single Sign-On)를 통해)
 - Azure Analysis Services(SSO(Single Sign-On) 및 oAuth를 통해)
 - Azure SQL Data Warehouse
 - Azure SQL Database(사용자 이름/암호, SSO 및 oAuth)
+- Azure SQL Managed Instance(공용 엔드포인트를 통해)(사용자 이름/암호)
 - SQL Server*
 - SSAS(SQL Server Analysis Services) 테이블 형식(DAX) 및 다차원(MDX) 모델* 
 - Oracle* 

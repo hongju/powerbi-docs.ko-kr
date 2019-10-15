@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f44c83613f874aec84a389ac5034ebde193467c2
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 4af7a6305ace9113e912f0ad1527064c505f0ca8
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840615"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715500"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>별모양 스키마 및 Power BI에서의 중요성 이해
 
@@ -205,6 +205,6 @@ Power BI 모델에서 판매 주문 번호를 기준으로 필터링하거나 �
 별모양 스키마 디자인 또는 Power BI 모델 디자인에 대한 자세한 내용은 다음 문서를 참조하세요.
 
 - [차원 모델링 Wikipedia 문서](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Power BI Desktop에서 관계 만들기 및 관리](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)
-- [Power BI Desktop의 다대다 카디널리티를 사용한 관계](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)
-- [단계별 학습 환경 모델링](https://docs.microsoft.com/power-bi/guided-learning/modeling)
+- [Power BI Desktop에서 관계 만들기 및 관리](../desktop-create-and-manage-relationships.md)
+- [Power BI Desktop의 다대다 카디널리티를 사용한 관계](../desktop-many-to-many-relationships.md)
+- [단계별 학습 환경 모델링](/learn/modules/model-data-power-bi/)

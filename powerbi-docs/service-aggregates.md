@@ -44,7 +44,7 @@ Power BI에서 시각화를 만들 때, 서비스는 일부 범주별 필드에 
 
 ![필드 목록이 호출된 Power BI 스크린샷](media/service-aggregates/power-bi-aggregate-fields.png)
 
-## <a name="why-dont-aggregates-work-the-way-i-want-them-to"></a>내가 원하는 방식으로 작업을 집계되지 않는 이유는 무엇입니까?
+## <a name="why-dont-aggregates-work-the-way-i-want-them-to"></a>내가 원하는 방식으로 작업이 집계되지 않는 이유는 무엇입니까?
 
 Power BI 서비스의 집계 방식이 모호해 보일 수 있습니다. Power BI에서 숫자 필드의 집계를 변경할 수 없는 경우도 있습니다. 또는 연도와 같은 필드를 집계하지 않고, 발생 횟수만 계산하려는 경우가 있습니다.
 
@@ -133,7 +133,7 @@ Power BI 서비스의 집계 방식이 모호해 보일 수 있습니다. Power 
 
 숫자가 아닌 필드도 집계할 수 있습니다. 예를 들어 제품 이름 필드가 있는 경우 이를 값으로 추가한 다음 **개수**, **고유 개수**, **첫 번째** 또는 **마지막**으로 설정할 수 있습니다.
 
-1. **제품** 필드를 **값** 웰로 끕니다. **값** 웰은 일반적으로 숫자 필드에 사용됩니다. Power BI는 이 필드가 텍스트 필드임을 인식하고 집계를 **요약 안 함**으로 설정한 다음, 단일 열 테이블을 표시합니다.
+1. **제품** 필드를 **값** 영역으로 끕니다. **값** 영역은 일반적으로 숫자 필드에 사용됩니다. Power BI는 이 필드가 텍스트 필드임을 인식하고 집계를 **요약 안 함**으로 설정한 다음, 단일 열 테이블을 표시합니다.
 
    ![값 웰의 제품 필드 스크린샷](media/service-aggregates/power-bi-aggregate-value.png)
 
@@ -145,7 +145,7 @@ Power BI 서비스의 집계 방식이 모호해 보일 수 있습니다. Power 
 
    ![제품 개수 스크린샷](media/service-aggregates/power-bi-aggregate-count-2.png)
 
-1. 같은 필드(이 예제에서는 **제품**)를 **값** 웰로 끌고 기본 집계인 **요약 안 함**을 그대로 두면, Power BI는 제품별로 개수를 분석합니다.
+1. 같은 필드(이 예제에서는 **제품**)를 **값** 영역으로 끌고 기본 집계인 **요약 안 함**을 그대로 두면, Power BI는 제품별로 개수를 분석합니다.
 
    ![제품 및 제품 개수 스크린샷](media/service-aggregates/power-bi-aggregate-final.png)
 

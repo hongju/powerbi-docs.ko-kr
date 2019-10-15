@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71401826"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945828"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 데이터 원본
 Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다. DirectQuery 또는 SQL Server Analysis Services에 대한 라이브 연결을 사용하여 데이터를 가져오거나 데이터를 직접 쿼리할 수 있습니다.
@@ -157,7 +157,7 @@ Power BI Report Server는 모델 새로 고침을 위한 OAuth 기반 인증을 
 | SharePoint Online 목록 |아니요 |아니요 |아니요 |아니요 |
 | Snowflake |아니요 |아니요 |아니요 |아니요 |
 | Sybase 데이터베이스 |아니요 |아니요 |예 |예 |
-| Teradata 데이터베이스 |아니요 |아니요 |예 |예 |
+| Teradata |아니요 |아니요 |예 |예 |
 | appFigures(베타) |아니요 |아니요 |아니요 |아니요 |
 | Azure Analysis Services 데이터베이스(베타) |아니요 |아니요 |아니요 |아니요 |
 | Azure Cosmos DB(베타) |아니요 |아니요 |아니요 |아니요 |
@@ -204,7 +204,7 @@ Power BI Report Server는 DirectQuery를 위한 OAuth 기반 인증을 지원하
 | Oracle 데이터베이스 |아니요 |아니요 |예 |예 |예 |
 | SAP Business Warehouse 서버 |아니요 |아니요 |예 |아니요 |아니요 |
 | SAP HANA 데이터베이스 |아니요 |아니요 |예 |예 |아니요 |
-| Teradata 데이터베이스 |아니요 |아니요 |예 |예 |예 |
+| Teradata |아니요 |아니요 |예 |예 |예 |
 
 
 ## <a name="next-steps"></a>다음 단계

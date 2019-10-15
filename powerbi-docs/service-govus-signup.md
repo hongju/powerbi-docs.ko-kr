@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 28b77cfeda1f84f3643216dba45bef40bd6441ff
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ca9233f6373f8732f0996a09d7fe83ea18431f88
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513230"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715313"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI 서비스에 미국 정부 기관 등록
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -123,7 +123,7 @@ Power BI 무료 라이선스를 실행하는 테넌트의 사용자를 확인하
 Power BI에서는 모든 종류의 작업을 수행할 수 있습니다. 서비스에 등록하는 방법을 보여 주는 문서를 포함하여 자세한 정보 및 학습에 대해서는 다음 리소스를 확인해 보세요.
 
 * [미국 정부 기관용 Power BI 개요](service-govus-overview.md)
-* [Power BI 단계별 학습](guided-learning/gettingstarted.yml?tutorial-step=1)
+* [Power BI 단계별 학습](guided-learning/index.md)
 * [Power BI 서비스 시작](service-get-started.md)
 * [Power BI Desktop이란?](desktop-what-is-desktop.md)
 

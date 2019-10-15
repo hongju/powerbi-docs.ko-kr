@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751568"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305759"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI에 앱 게시
 
@@ -61,7 +61,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
    
      ![앱 탐색](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
-5. **권한**에서 앱에 액세스할 수 있는 사용자와 수행할 수 있는 작업을 결정합니다. 
+5. **사용 권한**에서 앱에 액세스할 수 있는 사용자와 수행할 수 있는 작업을 결정합니다. 
     - [클래식 작업 영역](service-create-workspaces.md): 조직의 모든 사용자, 특정 사용자 또는 AAD(Azure Active Directory) 보안 그룹.
     - [새 환경 작업 영역](service-create-the-new-workspaces.md): 특정 사용자, AAD 보안 그룹, 배포 목록 및 Office 365 그룹. 모든 작업 영역 사용자에게는 앱 작업 영역의 앱에 대한 액세스가 자동으로 부여됩니다.
     - 빌드 권한을 제공하여 앱 사용자가 앱의 기본 데이터 세트에 연결하도록 허용할 수 있습니다. 공유 데이터 세트를 검색하면 이러한 데이터 세트가 표시됩니다. 이 문서에서 [사용자가 앱의 데이터 세트에 연결하도록 허용](#allow-users-to-connect-to-datasets)하는 방법을 자세히 알아보세요.
@@ -97,7 +97,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
  
 3. 작업 영역의 콘텐츠 목록으로 돌아가서 오른쪽 위에 있는 **앱 업데이트**를 선택합니다.
    
-1. 필요한 경우 **설치**, **탐색** 및 **권한**을 업데이트한 다음, **앱 업데이트**를 선택합니다.
+1. 필요한 경우 **설치**, **탐색** 및 **사용 권한**을 업데이트한 다음, **앱 업데이트**를 선택합니다.
    
 해당 앱을 게시한 사람들은 자동으로 업데이트된 버전의 앱을 보게 됩니다. 
 
@@ -136,7 +136,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 관리자가 권한을 제공하는 경우 앱을 자동으로 설치하여 최종 사용자에게 제공할 수 있습니다. 이 푸시 기능을 사용하면 권한이 있는 사용자 또는 그룹에 적절한 앱을 쉽게 배포할 수 있습니다. 최종 사용자의 앱 콘텐츠 목록에 앱이 자동으로 표시됩니다. Microsoft AppSource에서 찾거나 설치 링크를 따를 필요가 없습니다. Power BI 관리자 포털 문서에서 관리자가 [최종 사용자에게 앱 푸시하기](service-admin-portal.md#push-apps-to-end-users)를 사용 설정하는 방법을 참조하세요.
 
 ### <a name="how-to-push-an-app-automatically-to-end-users"></a>최종 사용자에게 앱을 자동으로 푸시하는 방법
-관리자가 사용 권한을 할당하면 **앱을 자동으로 설치**하는 새로운 옵션이 표시됩니다. 확인란을 선택하고 **앱 게시**(또는 **앱 업데이트**)를 선택하면, 앱이 **액세스** 탭의 앱 **권한** 섹션에 정의된 모든 사용자 또는 그룹으로 푸시됩니다.
+관리자가 사용 권한을 할당하면 **앱을 자동으로 설치**하는 새로운 옵션이 표시됩니다. 확인란을 선택하고 **앱 게시**(또는 **앱 업데이트**)를 선택하면, 앱이 **액세스** 탭의 앱 **사용 권한** 섹션에 정의된 모든 사용자 또는 그룹으로 푸시됩니다.
 
 ![앱 푸시 설정](media/service-create-distribute-apps//power-bi-apps-access.png)
 
@@ -190,6 +190,13 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 앱 소비자가 앱을 열면, 표준 Power BI 왼쪽 탐색 창 대신 사용자가 만든 탐색이 표시됩니다. 앱 탐색에는 정의한 섹션에서 보고서와 대시보드가 나열됩니다. 또한 보고서 이름이 아니라 각 보고서의 개별 페이지가 나열됩니다.
 
 ![탐색이 있는 앱](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
+앱 게시할 때 주의해야 할 사항:
+
+* 앱의 액세스 목록은 최대 100명의 사용자 또는 그룹을 가질 수 있습니다. 단, 앱에 대한 액세스 권한은 100명이 넘는 사용자에게 제공할 수 있습니다. 이렇게 하려면 원하는 사용자를 모두 포함하는 사용자 그룹을 하나 이상 사용하세요.
+* 새 작업 영역 환경의 경우, 앱 액세스 목록에 추가된 사용자가 작업 영역을 통해 이미 앱에 대한 액세스 권한을 부여받은 경우에는 해당 사용자가 앱 액세스 목록에 표시되지 않습니다.  
+
 
 ## <a name="next-steps"></a>다음 단계
 * [작업 영역 만들기](service-create-workspaces.md)

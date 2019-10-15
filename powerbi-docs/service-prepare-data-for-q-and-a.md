@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 7ed8eb8e205c05582d2cfd93030ab056be77912a
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65624979"
@@ -45,7 +45,7 @@ Power BI에서는 질문 및 답변으로 구조화된 데이터를 검색하고
 
 ## <a name="next-steps"></a>다음 단계
 
-- [소비자에 대 한 질문과 대답](consumer/end-user-q-and-a.md)  
+- [소비자에 대한 질문과 대답](consumer/end-user-q-and-a.md)  
 - [대시보드 및 보고서에서 질문 및 답변 사용](power-bi-tutorial-q-and-a.md)
 - [Q&a에 대 한 온-프레미스 데이터 집합 준비](service-q-and-a-direct-query.md)   
 - [Power BI에 대한 데이터 가져오기](service-get-data.md)  
