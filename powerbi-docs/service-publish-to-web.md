@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9824b3340da694c00784f34b0c6245cafbf69383
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "70987013"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239916"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -113,7 +113,7 @@ Power BI의 **웹에 게시** 옵션을 사용하면 모든 디바이스에서 �
 
 ## <a name="updates-to-reports-and-data-refresh"></a>보고서 업데이트 및 데이터 새로 고침
 
-**웹에 게시** embed 태그를 만들고 공유하면 보고서가 변경된 내용으로 업데이트되고 embed 태그 링크가 즉시 활성화됩니다. 링크를 열면 누구나 볼 수 있습니다. 그러나 이 초기 작업 후 보고서 또는 시각적 개체에 대한 업데이트가 사용자에게 표시되기까지 약 1시간이 소요될 수 있습니다. 업데이트를 즉시 사용할 수 있어야 하는 경우 embed 코드를 삭제하고 새로 만들 수 있습니다. 자세한 내용은 이 문서의 뒷부분에 나오는 [**작동 방법**](#howitworks) 섹션을 참조하세요. 
+**웹에 게시** embed 태그를 만들고 공유하면 보고서가 변경된 내용으로 업데이트되고 embed 태그 링크가 즉시 활성화됩니다. 링크를 열면 누구나 볼 수 있습니다. 그러나 이 초기 작업 후 보고서 또는 시각적 개체에 대한 업데이트가 사용자에게 표시되기까지 약 1시간이 소요될 수 있습니다. 자세한 내용은 이 문서의 뒷부분에 나오는 [**작동 방법**](#howitworks) 섹션을 참조하세요. 
 
 ## <a name="data-refresh"></a>데이터 새로 고침
 

@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/01/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4e94781b3a424e894e0f0e2209ec48efb25c5db5
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 9e7bdb0ae2f1e512e3e431cf69395d601cbc7b3f
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71106311"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968543"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-hana"></a>SAP HANA에 대한 SSO(Single Sign-On)에 Kerberos 사용
 
-이 문서에서는 Power BI 서비스로부터 SSO를 사용하도록 SAP HANA 서버를 구성하는 방법을 설명합니다.
+이 문서에서는 Power BI 서비스로부터 SSO를 사용하도록 SAP HANA 데이터 원본을 구성하는 방법을 설명합니다.
 
 > [!NOTE]
 > Kerberos SSO를 사용하는 SAP HANA 기반 보고서를 새로 고치기 전에 [Kerberos SSO 구성](service-gateway-sso-kerberos.md) 단계 이외에 이 문서의 단계를 완료합니다.

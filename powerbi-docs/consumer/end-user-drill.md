@@ -1,131 +1,93 @@
 ---
-title: 시각화에서 드릴다운 및 드릴업하기
-description: 이 문서에서는 Microsoft Power BI 서비스와 Power BI Desktop의 시각화에서 드릴다운하는 방법을 보여 줍니다.
+title: 시각적 개체에서 드릴다운 및 드릴업하기
+description: 이 문서에서는 Microsoft Power BI 서비스의 시각적 개체에서 드릴다운하는 방법을 보여 줍니다.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-featuredvideoid: MNAaHw4PxzE
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 6/17/2019
+ms.date: 10/1/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 29823a2f1ca7f1448df54282e0ce081310974eb3
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: bc6a6557d01ba8145659bb244be8eb5786220665
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67265274"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71944107"
 ---
-# <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI에서 시각화 드릴 모드
+# <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI에서 시각적 개체 드릴 모드
 
-이 문서에서는 Microsoft Power BI 서비스와 Power BI Desktop의 시각화에서 드릴다운하는 방법을 보여 줍니다. Power BI 보고서를 사용하면 여러 데이터 계층 구조에서 데이터에 대한 최대 인사이트를 제공할 수 있습니다. 데이터 요소에서 드릴다운 및 드릴업을 사용하면 데이터의 세부 정보를 살펴볼 수 있습니다. 모바일 디바이스의 작은 폼 팩터에서도 활용할 수 있습니다.
+이 문서에서는 Microsoft Power BI 서비스의 시각적 개체에서 드릴다운하는 방법을 보여 줍니다. 데이터 요소에서 드릴다운 및 드릴업을 사용하면 데이터의 세부 정보를 살펴볼 수 있습니다. 
 
 ## <a name="drill-requires-a-hierarchy"></a>드릴 시 계층 구조 필요
 
-시각화에 계층 구조가 있는 경우 추가 세부 정보를 드릴다운할 수 있습니다. 예를 들어 스포츠, 규칙 및 이벤트로 구성된 계층별로 올림픽 메달 개수를 표시하는 시각화를 할 수 있습니다. 기본적으로 시각화는 체조, 스키, 수상 운동 등 스포츠별로 메달 수를 표시하게 됩니다. 하지만 계층 구조가 있기 때문에 시각화 요소(예: 막대, 선 또는 거품) 중 하나를 선택하면 점점 더 자세한 그림을 표시하게 됩니다. 수영, 다이빙, 수구에 대한 데이터를 보려면 **수상 운동** 요소를 선택합니다.  스프링보드, 플랫폼, 싱크로나이즈드 다이빙 이벤트에 대한 세부 정보를 보려면 **다이빙** 요소를 선택합니다.
+시각적 계층 구조가 있는 경우 추가 세부 정보를 드릴다운할 수 있습니다. 예를 들어 스포츠, 규칙 및 이벤트로 구성된 계층별로 올림픽 메달 개수를 표시하는 시각적 개체를 사용할 수 있습니다. 기본적으로 시각적 개체는 체조, 스키, 수상 운동 등 스포츠별로 메달 수를 표시하게 됩니다. 하지만 계층 구조가 있기 때문에 시각적 요소 중 하나를 선택하면(예: 바, 라인 또는 버블) 점점 더 자세한 그림을 표시하게 됩니다. **수상 운동** 요소를 선택하면 수영, 다이빙, 수구에 대한 데이터가 표시됩니다.  **다이빙** 요소를 선택하면 스프링보드, 플랫폼, 싱크로나이즈드 다이빙 이벤트에 대한 세부 정보가 표시됩니다.
 
-내 보고서에는 계층 구조를 추가할 수 있지만 나에게 공유된 보고서에는 계층 구조를 추가할 수 없습니다.
-Power BI 시각화에 계층 구조가 포함되어 있는 것이 확실한가요? 시각화를 마우스로 가리킵니다. 상단 모서리에서 이러한 드릴 컨트롤이 보이면 시각화에 계층이 있는 것입니다.
+날짜는 독특한 유형의 계층 구조입니다.  보고서 디자이너는 수시로 시각적 개체에 날짜 계층 구조를 추가합니다. 공통 날짜 계층 구조는 연도, 분기, 월, 일 등을 포함합니다. 
 
-![한 수준 드릴다운 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon4.png)  ![드릴다운 켜기 및 끄기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png)  ![한 번에 모든 필드 드릴다운 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon3.png)
-![드릴업 아이콘](./media/end-user-drill/power-bi-drill-icon5.png) ![아래로 확장 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon6.png)  
+## <a name="figure-out-which-visuals-can-be-drilled"></a>드릴할 수 있는 시각적 개체를 파악합니다.
+어떤 Power BI 시각적 개체에 계층 구조가 포함되어 있는지 확실치 않나요? 시각적 개체를 마우스로 가리킵니다. 위쪽에 이러한 드릴 컨트롤이 조합되어 표시되면 시각적 개체에 계층 구조가 포함됩니다.
 
-날짜는 독특한 유형의 계층 구조입니다. 시각화에 날짜 필드를 추가한 경우 Power BI에서 년, 분기, 월 및 일을 포함하는 시간 계층 구조를 자동으로 추가합니다. 자세한 내용은 [시각화 계층 구조 및 드릴다운 동작](../guided-learning/visualizations.yml?tutorial-step=18)을 참조하거나 아래 동영상을 보세요.
+![드릴 아이콘의 스크린샷.](./media/end-user-drill/power-bi-drill-icons.png)  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+## <a name="learn-how-to-drill-down-and-up"></a>드릴다운 및 드릴업하는 방법 알아보기
 
-> [!NOTE]
-> Power BI Desktop을 사용하여 계층 구조를 만드는 방법을 자세히 알아보려면 [계층 구조를 만들고 추가하는 방법](https://youtu.be/q8WDUAiTGeU) 동영상을 보세요.
+이 예에서는 지역, 구/군/시, 우편 번호, 매장 이름으로 구성된 계층 구조를 포함하는 트리 맵을 사용하고 있습니다. 드릴하기 전 트리 맵은 지역에서 올해 판매된 총 단위를 검색합니다. 
 
-## <a name="prerequisites"></a>필수 조건
+![트리 맵 및 해당 필터의 스크린샷.](./media/end-user-drill/power-bi-treemaps.png)  
 
-1. Power BI 서비스 또는 Power BI Desktop의 드릴에 계층 구조를 포함한 시각화가 필요합니다.
 
-1. 과정을 따르려면 [Retail Analysis 샘플](../sample-datasets.md)을 엽니다. 다음과 같이 표시되는 **트리맵** 시각화를 만듭니다.
+### <a name="two-ways-to-access-the-drill-features"></a>드릴 기능에 액세스하는 두 가지 방법
 
-    | 웰 | 필드 |
-    | ---- | ----- |
-    | 값 |영업<br>\|\_ Total Units This Year |
-    | 그룹 | 매장<br>\|\_ Territory<br>\|\_ City<br>\|\_ Postal Code<br>\|\_ Name
+계층 구조를 포함하는 시각적 개체에서 드릴다운, 드릴업 및 확장 기능에 액세스하는 두 가지 방법이 있습니다. 두 방법을 모두 사용해 보고 가장 선호하는 방법을 선택합니다.
 
-    트리 맵에는 지역, 도시, 우편번호 및 도시 이름으로 구성된 계층 구조가 있습니다. 예를 들면 각 지역에 하나 이상의 도시가 있고 각 도시에 하나 이상의 우편 번호가 있습니다. 기본적으로 ‘Territory’는 목록에서 첫 번째로 표시되기 때문에 시각화는 지역 데이터만 표시합니다. 
-
-    ![Territory 필드가 호출된 시각화 창의 스크린샷](media/end-user-drill/power-bi-hierarcy-list.png)
-
-1. 여러 가지 드릴 아이콘이 함께 작동하는 방식을 알아보는 것은 혼동될 수 있습니다. 두 개의 더 작은 지역만 표시하도록 트리맵을 필터링하겠습니다. **KY**와 **TN**이라는 비교적 작은 2개의 지역만 표시되도록 트리 맵을 필터링합니다. 트리맵을 선택하고, **시각적 수준 필터** 아래에서 **영역**을 확장하고, **KY** 및 **TN**을 선택합니다.
-
-    ![KY 및 TN에 대한 필터가 있는 시각화 창의 스크린샷](./media/end-user-drill/power-bi-filter.png)
-
-    이제 트리 맵에 두 개의 영역만이 표시됩니다.
-
-    ![KY 및 TN이 호출된 시각적 개체의 스크린샷](./media/end-user-drill/power-bi-territories.png)
-
-## <a name="three-ways-to-use-the-drill-features"></a>드릴 기능을 사용하는 세 가지 방법
-
-계층 구조를 포함하는 시각화를 위해 드릴다운, 드릴업 및 확장 기능에 액세스하는 몇 가지 옵션이 있습니다. 이 아티클에서는 아래 첫 번째 옵션을 사용하는 방법을 보여줍니다. 드릴다운 및 확장의 기본 사항을 알아보면 세 가지 기능을 모두 사용하는 방법을 알 수 있습니다. 이 기능은 모두 동일한 작업을 수행합니다. 기능을 사용해 보고 가장 선호하는 기능을 선택합니다.
-
-- 시각화를 마우스로 가리켜서 아이콘을 확인하고 사용합니다.  
+- 첫 번째 방법: 시각화를 마우스로 가리켜서 아이콘을 확인하고 사용합니다.  
 
     ![마우스로 가리키기 예제의 스크린샷](./media/end-user-drill/power-bi-hover.png)
 
-- 시각화를 마우스 오른쪽 단추로 클릭하여 메뉴를 표시하고 사용합니다.
+- 두 번째 방법: 시각적 개체를 마우스 오른쪽 단추로 클릭하여 메뉴를 표시하고 사용합니다.
 
     ![마우스 오른쪽 단추 클릭 예제의 스크린샷](./media/end-user-drill/power-bi-drill-menu.png)
 
-- Power BI 메뉴 모음에서 **탐색** 단추를 선택합니다.
 
-   ![드릴 아이콘 및 옵션을 표시하는 탐색을 선택하는 스크린샷](media/end-user-drill/power-bi-explore.png)
 
 ## <a name="drill-pathways"></a>드릴 경로
 
-### <a name="drill-down"></a>드릴다운
+### <a name="drill-down-all-fields-at-once"></a>한 번에 모든 필드 드릴다운
+![드릴다운 아이콘](./media/end-user-drill/power-bi-drill-icon3.png)
 
-시각화를 드릴하는 여러 가지 방법이 있습니다. **드릴다운**을 사용하면 계층 구조에서 다음 수준으로 이동합니다. 예를 들어, **지역** 수준을 살펴볼 때는 먼저 도시 수준으로 드릴다운한 다음, 우편 번호 수준으로 드릴다운하고, 마지막으로 이름 수준으로 드릴다운할 수 있습니다. 경로의 각 단계에서는 새 정보를 보여줍니다.
+시각적 개체를 드릴하는 여러 가지 방법이 있습니다. 드릴다운 아이콘을 선택하면 계층 구조에서 다음 수준으로 이동합니다. 켄터키와 테네시의 **지역** 수준을 찾고 있는 경우 두 주의 구/군/시 수준, 우편 번호 수준, 매장 이름 수준으로 차례로 드릴다운할 수 있습니다. 경로의 각 단계에서는 새 정보를 보여줍니다.
 
 ![드릴 경로를 보여 주는 다이어그램](./media/end-user-drill/power-bi-drill-path.png)
 
-### <a name="expand"></a>확장
+드릴업 아이콘을 ![드릴업 아이콘](./media/end-user-drill/power-bi-drill-icon5.png) "지역별 올해 총 단위"로 돌아갈 때까지 선택합니다.
+
+### <a name="expand-all-fields-at-once"></a>한 번에 모든 필드 확장
+![확장 아이콘](./media/end-user-drill/power-bi-drill-icon6.png)
 
 **확장**은 현재 보기에 추가 계층 수준을 추가합니다. 예를 들어 **지역** 수준을 살펴볼 때는 도시, 우편 번호, 이름을 확장하고 트리맵에 추가할 수 있습니다. 경로의 각 단계에서는 동일한 정보를 표시하고 한 가지 수준의 새로운 정보에 추가합니다.
 
 ![확장 경로를 보여 주는 다이어그램](./media/end-user-drill/power-bi-expand-path.png)
 
-한 번에 한 필드 또는 한 번에 모든 필드에서 드릴다운할지 아니면 확장할지를 선택할 수 있습니다.
+또한 한 번에 한 필드에서 드릴다운할지 아니면 확장할지를 선택할 수 있습니다.
 
-## <a name="drill-down-all-fields-at-once"></a>한 번에 모든 필드 드릴다운
 
-1. KY 및 TN에 대한 데이터를 보여주는 최상위 수준의 트리맵에서 시작합니다. 핸들 중 하나를 선택하고 오른쪽으로 끌어서 트리맵을 넓힙니다.
+### <a name="drill-down-one-field-at-a-time"></a>한 번에 한 필드 드릴다운
 
-    ![KY 및 TN을 보여 주는 트리맵 시각적 개체의 스크린샷](./media/end-user-drill/power-bi-drill-down.png)
-
-1. ‘한 번에 모든 필드’를 드릴다운하려면 시각화 왼쪽 위에 있는 이중 화살표 ![이중 드릴다운 아이콘](./media/end-user-drill/power-bi-drill-icon3.png)를 선택합니다.  이제 트리맵은 켄터키 및 테네시의 도시 데이터를 표시합니다.
-
-    ![도시로 드릴다운을 보여 주는 트리맵 시각적 개체의 스크린샷](./media/end-user-drill/power-bi-drill-down1.png)
-
-1. 우편 번호 수준의 계층으로 한 번 더 드릴다운합니다.
-
-    ![우편 번호로 드릴다운을 보여 주는 트리맵 시각적 개체의 스크린샷](./media/end-user-drill/power-bi-drill-down2.png)
-
-1. 다시 드릴업하려면 시각화 왼쪽 위에 있는 위쪽 화살표를 선택합니다. ![한 수준 드릴업 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon5.png)을 선택합니다.
-
-## <a name="drill-down-one-field-at-a-time"></a>한 번에 한 필드 드릴다운
-
-시각화 자체의 오른쪽 위에 표시되는 드릴다운 아이콘을 사용하는 방법입니다.
 
 1. 드릴다운 아이콘을 선택하여 켭니다. ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png)을 선택합니다.
 
-    이제 **한 번에 한 필드**를 드릴다운하는 옵션이 표시됩니다.
+    이제 시각적 개체 요소를 선택하여 **한 번에 한 필드**를 드릴다운하는 옵션이 표시됩니다. 시각적 요소의 예에는 막대, 거품, 리프가 있습니다.
 
-    ![켜진 드릴다운 켜기/쓰기 아이콘을 가리키는 화살표가 있는 시각적 개체의 스크린샷](media/end-user-drill/power-bi-drill-icon-new.png)
+    ![켜진 드릴다운 켜기/쓰기 아이콘을 가리키는 화살표가 있는 시각적 개체의 스크린샷](media/end-user-drill/power-bi-drill-icon-selected.png)
 
-    드릴다운을 켜지 않은 상태에서 막대, 거품, 리프와 같은 시각화 요소를 선택하면 드릴다운되지 않습니다. 대신에 보고서 페이지에 있는 다른 차트가 교차 필터링됩니다.
+    드릴다운을 켜지 않은 상태에서 막대, 거품, 리프와 같은 시각적 개체 요소를 선택하면 드릴다운되지 않습니다. 대신에 보고서 페이지에 있는 다른 차트가 교차 필터링됩니다.
 
-1. **TN**에 대한 리프를 선택합니다. 이제 트리맵은 상점이 있는 Tennessee의 모든 도시를 표시합니다.
+1. **TN**에 대한 리프를 선택합니다. 이제 트리맵은 상점이 있는 테네시주의 모든 도시와 지역을 표시합니다.
 
-    ![TN에 대한 데이터만 보여 주는 트리맵의 스크린샷](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![TN에 대한 데이터만 보여 주는 트리맵의 스크린샷](media/end-user-drill/power-bi-drill-down-one.png)
 
 1. 현재는 다음을 수행할 수 있습니다.
 
@@ -133,154 +95,57 @@ Power BI 시각화에 계층 구조가 포함되어 있는 것이 확실한가�
 
     1. Tennessee에서 특정 도시를 드릴다운합니다.
 
-    1. 대신 확장합니다(아래 **한 번에 모든 필드 확장** 참조).
+    1. 대신 확장합니다.
 
     한 번에 한 필드 드릴다운을 계속합니다.  **녹스빌, TN**을 선택합니다. 이제 트리맵에는 Knoxville에 있는 상점의 우편 번호가 표시됩니다.
 
-    ![우편 번호 37919를 보여 주는 트리맵의 스크린샷](media/end-user-drill/power-bi-drill-down-one2.png)
+    ![우편 번호 37919를 보여 주는 트리맵의 스크린샷](media/end-user-drill/power-bi-drill-two.png)
 
     드릴다운하고 다시 백업할 때 제목이 바뀌는 것을 인식합니다.
 
-## <a name="expand-all-and-expand-one-field-at-a-time"></a>모두 확장 및 한 번에 한 필드 확장
+### <a name="expand-all-and-expand-one-field-at-a-time"></a>모두 확장 및 한 번에 한 필드 확장
 
-우편 번호만 표시된 트리맵은 그다지 유용하지 않습니다.  따라서 계층 구조에서 한 수준 아래로 확장하겠습니다.  
+우편 번호만 표시된 트리맵은 그다지 유용하지 않습니다.  따라서 계층 구조에서 한 수준 아래로 *확장*하겠습니다.  
 
 1. 트리맵이 활성화되면 *아래로 확장* 아이콘 ![아래로 확장 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon6.png)을 선택합니다. 이렇게 하면 계층 구조의 수준 두 개, 즉 우편 번호와 상점 이름이 표시됩니다.
 
-    ![우편 번호 및 상점 이름을 보여 주는 트리맵의 스크린샷](./media/end-user-drill/power-bi-expand1.png)
+    ![우편 번호 및 상점 이름을 보여 주는 트리맵의 스크린샷](./media/end-user-drill/power-bi-expand-one.png)
 
 1. Tennessee 데이터의 네 가지 계층 구조 수준을 모두 보려면 트리맵의 두 번째 수준인 **Total units this year by territory and city**가 나올 때까지 드릴업 화살표를 선택합니다.
 
-    ![TN에 대한 모든 데이터를 보여 주는 트리맵의 스크린샷](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![TN에 대한 모든 데이터를 보여 주는 트리맵의 스크린샷](media/end-user-drill/power-bi-expand-two.png)
 
-1. 드릴다운이 켜져 있는지 ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png) 확인하고 ‘아래로 확장’ 아이콘 ![아래로 확장 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon6.png)을 선택합니다.  이제 트리맵에 몇 가지 추가 세부 정보가 표시됩니다. 이제 트리맵은 도시 및 주만 표시하는 대신 우편 번호도 보여 줍니다.
+1. 드릴다운이 켜져 있는지 ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png) 확인하고 ‘아래로 확장’ 아이콘 ![아래로 확장 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon6.png)을 선택합니다.  이제 트리맵은 동일한 수의 리프(상자)를 표시하지만 각 리프는 추가 세부 정보를 포함합니다. 이제 트리맵은 도시 및 주만 표시하는 대신 우편 번호도 보여 줍니다.
 
-    ![도시, 주 및 우편 번호를 보여 주는 시각적 개체의 스크린샷](./media/end-user-drill/power-bi-expand-one3.png)
+    ![도시, 주 및 우편 번호를 보여 주는 시각적 개체의 스크린샷](./media/end-user-drill/power-bi-expand-three.png)
 
 1. ‘아래로 확장’ 아이콘을 한 번 더 선택하여 트리맵에 Tennessee의 네 가지 계층 구조 수준을 모두 표시합니다.  리프를 마우스로 가리켜서 더 많은 세부 정보를 봅니다.
 
     ![리프 관련 데이터와 함께 도구 설명을 보여 주는 트리맵의 스크린샷](./media/end-user-drill/power-bi-expand-all.png)
 
-## <a name="drilling-filters-other-visuals"></a>기타 시각적 개체 드릴 필터링
+## <a name="show-the-data-as-you-drill"></a>드릴할 때 데이터 표시
+**데이터 표시**를 사용하여 백그라운드에서 살펴볼 수 있습니다. 드릴하거나 확장할 때마다 **데이터 표시**는 시각적 개체를 빌드하는 데 사용 중인 데이터를 표시합니다. 따라서 시각적 개체를 빌드하기 위해 계층 구조, 드릴 및 확장 작업이 어떻게 연동되는지를 이해할 수 있습니다. 
 
-드릴 모드에서 작업할 때 드릴다운 및 확장이 페이지에서 다른 시각화에 영향을 미치는 방법을 결정할 수 있습니다.
+오른쪽 위 모서리에서 줄임표(...)를 선택한 후 **데이터 표시**를 선택합니다. 
 
-기본적으로 드릴은 보고서의 다른 시각적 개체를 필터링하지 않습니다. Power BI Desktop과 Power BI 서비스에서 이 기능을 사용하도록 설정할 수 있습니다.
+![줄임표 메뉴의 스크린샷.](./media/end-user-drill/power-bi-ellipses.png)
 
-1. Power BI Desktop에서 **형식** 탭을 선택하고, **기타 시각적 개체 드릴 필터링**의 확인란을 선택합니다.
+다음 표는 지역에서 매장 이름으로 모든 필드를 한 번에 드릴다운한 결과를 보여 줍니다.  
 
-    ![Power BI Desktop의 기타 시각적 개체 드릴 필터링 설정을 보여 주는 스크린샷](./media/end-user-drill/power-bi-drill-filters-desktop.png)
 
-1. 이제 계층 구조가 있는 시각화에서 드릴다운(또는 드릴업이나 확장)할 때 해당 작업은 페이지에서 다른 시각적 개체를 필터링합니다.
+![네 가지 수준의 드릴다운에 대한 데이터를 표시하는 스크린샷.](./media/end-user-drill/power-bi-show-data.png)
 
-    ![Desktop의 결과 스크린샷](./media/end-user-drill/power-bi-drill-filters.png)
+**구/군/시**, **우편 번호** 및 **이름**에 대한 합계는 동일합니다. 하지만 항상 그렇지는 않습니다.  이 데이터의 경우 각 우편 번호와 각 구/군/시에는 매장이 하나만 있습니다.  
 
-    ![데스크톱의 또 다른 결과 스크린샷](./media/end-user-drill/power-bi-drill-filters2.png)
 
-> [!NOTE]
-> Power BI 서비스에서 이 기능을 사용하려면 위쪽 메뉴 모음에서 **시각적 개체 상호 작용** > **기타 시각적 개체 드릴 필터링**을 선택합니다.
->
-> ![Power BI 서비스의 기타 시각적 개체 드릴 필터링 설정을 보여 주는 스크린샷](./media/end-user-drill/power-bi-drill-filters-service.png)
-
-## <a name="learn-about-the-hierarchy-axis-and-hierarchy-group"></a>계층 구조 축 및 계층 구조 그룹에 대한 자세한 정보
-
-계층 구조 축 및 계층 구조 그룹을 보려는 데이터의 세분성을 늘리거나 줄이는 데 사용할 수 있는 메커니즘으로 생각할 수 있습니다. 범주 및 하위 범주로 구성할 수 있는 데이터는 날짜 및 시간을 비롯한 계층 구조를 포함하는 것으로 한정됩니다.
-
-**축** 웰 또는 **그룹** 웰 중 하나에 추가할 하나 이상의 데이터 필드를 선택하여 계층 구조를 포함하도록 Power BI에서 시각화를 만들 수 있습니다. 그런 다음, **값** 웰에서 데이터 필드로 검사할 데이터를 추가합니다. ‘드릴 모드’ 아이콘이 시각화의 왼쪽 위 및 오른쪽 위 모서리에 표시되는 경우 데이터가 계층적인지 알 수 있습니다. 
-
-기본적으로 두 가지 형식의 계층적 데이터를 고려하는 것이 좋습니다.
-
-- 날짜 및 시간 데이터 - 날짜/시간 데이터 형식을 포함한 데이터 필드가 있으면 계층적 데이터입니다. Power BI는 데이터 필드에 대한 계층 구조를 자동으로 만듭니다. [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx) 구조로 값을 구문 분석할 수 있습니다. **축** 또는 **그룹**에 날짜/시간 필드를 하나 추가하기만 하면 됩니다.
-
-- 범주 데이터 - Power BI가 하위 컬렉션을 포함하는 컬렉션에서 데이터를 파생시키거나 공통 값을 공유하는 데이터 행을 포함하고 있다면 계층적 데이터가 있는 것입니다.
-
-Power BI를 사용하면 하나 또는 모든 하위 집합을 확장할 수 있습니다. 데이터를 드릴다운하여 각 수준에서 단일 하위 집합을 보거나, 드릴다운하여 동시에 각 수준에서 모든 하위 집합을 볼 수 있습니다. 예를 들어 계층 구조를 따라서 특정 연도에 대해 드릴다운하거나 각 연도 대한 모든 결과를 확인할 수 있습니다.
-
-동일한 방법으로 드릴업할 수도 있습니다.
-
-다음 섹션에서는 가장 높은 보기, 중간 보기 및 가장 낮은 보기에서 드릴다운을 설명합니다.
-
-### <a name="hierarchical-data-and-time-data"></a>계층적 데이터 및 시간 데이터
-
-예를 들어
-
-1. [Retail Analysis 샘플](../sample-datasets.md)을 사용하여 과정을 따르고 다음과 같은 누적 세로 막대형 차트 시각화를 만듭니다.
-
-    | 웰 | 필드 |
-    | ---- | ----- |
-    | 축 | 시간<br>\|\_ Month |
-    | 값 | 영업<br>\|\_ TotalSales |
-
-    축 데이터 필드가 **월**인 경우라도 **축**에서 **연도** 범주를 생성합니다. Power BI가 읽어 온 모든 값에 대한 전체 DateTime 구조를 제공하기 때문입니다. 계층 구조의 맨 위에는 해당 연도에 대한 데이터가 표시됩니다.
-
-    ![연도별로 그룹화된 데이터를 보여 주는 단일 막대의 스크린샷](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
-
-1. 드릴다운 모드가 켜진 상태에서 차트의 막대를 선택하여 계층 구조의 한 수준 아래로 이동합니다. 분기의 데이터에 세 개의 막대 차트가 사용할 수 있다고 표시됩니다.
-
-1. 그런 다음, 왼쪽 상단 아이콘에서 **계층 구조의 한 수준 아래로 모두 확장**을 선택합니다.
-
-1. 이 작업을 한 번 더 수행하여 계층 구조의 가장 낮은 수준으로 이동하면 각 월에 대한 결과가 표시됩니다.
-
-    ![월별 막대를 보여 주는 막대형 차트의 스크린샷](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
-
-시각화 외에도 각 보고서에 대해 렌더링된 데이터에 반영되는 계층 구조를 볼 수 있습니다. 오른쪽 위 모서리에서 줄임표를 선택한 후 **데이터 표시**를 선택합니다. 다음 표에서는 단일 월 또는 모든 월에서 드릴다운한 결과를 보여 줍니다.
-
-|확장 모드|연도|분기|월|Day|
-| --- |:---:|:---:|:---:|---|
-|단일|![단일 연도](./media/end-user-drill/power-bi-hierarchical-year.png)|![단일 분기](media/end-user-drill/power-bi-hierarchical-quarter.png)|![단일 월](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![단일 일](media/end-user-drill/power-bi-hierarchical-one-day.png)|
-|모두|![모든 연도](./media/end-user-drill/power-bi-hierarchical-year.png)|![모든 분기](media/end-user-drill/power-bi-hierarchical-quarter.png)|![모든 월](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![모든 일](media/end-user-drill/power-bi-hierarchical-all-day.png)|
-
-데이터는 **Quarter** 및 **Year** 보고서에 대해 동일합니다. **Values**에 지정된 세부 정보 수준으로 드릴다운한 후에 단일 보고서를 보다 구체적으로 만드는 방법 및 “모든 월” 보고서에 추가 데이터를 포함하는 방법을 확인할 수 있습니다.
-
-### <a name="hierarchical-category-data"></a>계층적 범주 데이터
-
-컬렉션 및 하위 컬렉션에서 모델링된 데이터는 계층 구조를 갖습니다.
-
-위치 데이터가 좋은 예입니다. 열이 국가, 주, 도시 및 우편 번호인 데이터 원본에 있는 테이블을 가정합니다. 동일한 국가, 주 및 도시를 공유하는 데이터는 계층적입니다.
-
-예를 들어
-
-1. [Retail Analysis 샘플](../sample-datasets.md)을 사용하여 과정을 따릅니다. 다음과 같은 누적 세로 막대형 차트 시각화를 만듭니다.
-
-    | 웰 | 필드 |
-    | ---- | ----- |
-    | 값 |영업<br>\|\_ Total Units This Year |
-    | 축 | 매장<br>\|\_ Territory<br>\|\_ City - **범례** 웰에서 **축** 웰로 도시를 끌어서 놓아야 할 수 있습니다.<br>\|\_ Postal Code<br>\|\_ Name |
-
-    ![Total units this year by territory를 보여 주는 막대형 차트의 스크린샷](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
-
-1. 드릴다운 모드가 켜진 상태에서 왼쪽 위 아이콘 중에 **계층 구조의 한 수준 아래로 모두 확장**을 세 번 선택합니다.
-
-    Territory, City 및 Postal Code에 대한 결과를 표시하는 계층 구조의 최하위 수준에 있어야 합니다.
-
-    ![계층 구조의 최하위 수준인 가장 많은 세부 정보를 보여 주는 막대형 차트의 스크린샷](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
-
-시각화 외에도 각 보고서에 대해 렌더링된 데이터에 반영되는 계층 구조를 볼 수 있습니다. 오른쪽 위 모서리에서 줄임표를 선택한 후 **데이터 표시**를 선택합니다. 다음 표에서는 단일 지역 또는 모든 지역을 드릴다운한 결과를 보여 줍니다.
-
-| 확장 모드|지역|도시|우편 번호|이름|
-| ---|:---:|:---:|:---:|---|
-|단일|![단일 지역](./media/end-user-drill/power-bi-hierarchical-territory.png)|![단일 도시](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![단일 우편 번호](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![단일 이름](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|모두|![모든 지역](./media/end-user-drill/power-bi-hierarchical-territory.png)|![모든 도시](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![모든 우편 번호](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![모든 이름](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
-
- 드릴다운하면 **단일** 보고서를 보다 구체적으로 만드는 방법 및 **모든** 지역 보고서에 추가 데이터를 포함하는 방법을 확인할 수 있습니다.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
+기본적으로 드릴은 보고서의 다른 시각적 개체를 필터링하지 않습니다. 그러나 보고서 디자이너는 이 기본 동작을 변경할 수 있습니다. 드릴하는 동안 페이지의 다른 시각적 개체가 교차 필터링되거나 교차 강조 표시되는지 확인합니다.
 
-시각화에 날짜 필드를 추가하여 계층을 만들지 않는 경우 날짜 필드는 실제로 날짜로 저장되지 않을 수 있습니다. 데이터 세트를 소유한 경우:
-
-1. Power BI Desktop의 ‘데이터’ 보기에서 엽니다. 
-
-1. 날짜가 있는 열을 선택합니다.
-
-1. **모델링** 탭에서 **데이터 형식**을 **날짜** 또는 **날짜/시간**으로 변경합니다.
-
-![오른쪽 위 모서리에서 데이터 형식을 볼 수 있는 데이터 보기 선택의 스크린샷](media/end-user-drill/power-bi-change-data-type2.png)
-
-보고서를 사용자와 공유하는 경우 변경을 요청하려면 소유자에 게 문의합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI 보고서의 시각화](../visuals/power-bi-report-visualizations.md)
+[Power BI 보고서의 시각적 개체](../visuals/power-bi-report-visualizations.md)
 
 [Power BI 보고서](end-user-reports.md)
 
