@@ -20,7 +20,7 @@ ms.locfileid: "66375300"
 Windows 10 디바이스에서 Cortana를 사용하여 중요한 비즈니스 관련 질문에 대한 답변을 즉시 확인하세요. Power BI와 통합하면 Cortana는 Power BI 대시보드 및 보고서에서 직접 주요 정보를 검색할 수 있습니다. Windows 10 2015년 11월 이상 버전, Cortana, Power BI 및 하나 이상의 데이터 세트에 대한 액세스만 있으면 됩니다.
 
 > [!IMPORTANT]
-> Power BI에서 Cortana 통합은 되지 않습니다. 6월 11부터 Cortana는 모든 대시보드 및 보고서에 대해 더 이상 작동 하지 않습니다.
+> Power BI에서 Cortana 통합은 되지 않습니다. 6월 11일부터 Cortana는 모든 대시보드 및 보고서에 대해 더 이상 작동하지 않습니다.
 
 ![Cortana 검색 필드](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
@@ -62,8 +62,8 @@ Cortana가 답변을 찾도록 질문에는 최소 2개 단어가 있어야 합�
 대시보드에 두 단어 이상의 제목이 있을 때, 검색 결과 최소 두 단어와 일치하거나 소유자 이름과 함께 단어 중 하나와 일치하는 경우 Cortana는 해당 대시보드를 반환하기만 합니다. “Customer Profitability Sample(고객 수익성 샘플)”이라는 대시보드의 경우 다음과 같습니다. 
 
 * "show me customer"는 Power BI 대시보드 결과를 반환하지 *않습니다*.   
-* "show me customer profitability","customer p","customer s","profitability sample","michele hart sample","show customer profitability sample" 및 "show me customer p"과 같은 발언은 Power BI 결과를 반환 *합니다*.
-* "powerbi"라는 단어를 추가하는 것은 필요한 단어 중 하나로 계산되므로, "powerbi sample"은 Power BI 결과를 반환 *합니다*. 
+* "show me customer profitability","customer p","customer s","profitability sample","michele hart sample","show customer profitability sample" 및 "show me customer p"와 같은 발언은 Power BI 결과를 반환*합니다*.
+* "powerbi"라는 단어를 추가하는 것은 필요한 단어 중 하나로 계산되므로, "powerbi sample"은 Power BI 결과를 반환*합니다*.
   
     ![최소한 2개 단어를 사용하여 Cortana 검색](media/service-cortana-intro/power-bi-cortana-2-words.png)
 
@@ -115,7 +115,7 @@ Cortana에서 질문하는 경우 Power BI는 Cortana용으로 특별히 디자�
    * 예를 들어 한 시각화 요소를 선택하여 답변 카드의 다른 시각화 요소를 교차 필터링 및 강조 표시합니다.
      
      ![](media/service-cortana-intro/power-bi-cortana-filtered-new.png)
-   * 또는 자연어를 사용하여 결과를 필터링합니다.  예를 들어 “Cortana stores for Lindseys”을 질문하면 Lindseys 체인에 대한 데이터만 표시하도록 필터링된 카드를 확인할 수 있습니다.
+   * 또는 자연어를 사용하여 결과를 필터링합니다. 예를 들어 “Lindseys에 대한 Cortana 매장”을 질문하면 Lindseys 체인에 대한 데이터만 표시하도록 필터링된 카드를 확인할 수 있습니다.
      
      ![Cortana에서 교차 필터](media/service-cortana-intro/power-bi-cortana-filtered-2.png "Cortana에서 교차 필터")
 7. 계속 탐색하세요. Cortana 창 아래쪽으로 스크롤하고 **Power BI에서 열기**를 선택합니다.
@@ -125,7 +125,7 @@ Cortana에서 질문하는 경우 Power BI는 Cortana용으로 특별히 디자�
      ![Cortana에서 보고서 열기](media/service-cortana-intro/power-bi-cortana-open2.png "Cortana 검색에서 열리는 Cortana 대답 카드")
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-* Cortana는 [Power BI에 대한 사용이 설정](service-cortana-enable.md)되어 있지 않는 Cortana 카드에는 액세스 할 수 없습니다.
+* Cortana는 [Power BI에 대한 사용이 설정](service-cortana-enable.md)되어 있지 않는 Cortana 카드에는 액세스할 수 없습니다.
 * Cortana가 아직도 Power BI와 함께 작동하지 않나요?  [Cortana 문제 해결사](service-cortana-troubleshoot.md)를 사용해 보세요.
 * Power BI용 Cortana는 현재 영어로만 제공됩니다.
 * Power BI에 대한 Cortana는 Windows 모바일 디바이스에서만 사용할 수 있습니다.
