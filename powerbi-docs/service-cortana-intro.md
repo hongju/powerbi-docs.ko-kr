@@ -1,5 +1,5 @@
 ---
-title: Cortana를 사용 하 여 보고서 및 Power BI 대시보드 찾기 및 보기를
+title: Cortana를 사용하여 Power BI 보고서와 대시보드 찾기 및 보기
 description: Power BI와 함께 Cortana를 사용하여 데이터에서 답변을 가져올 수 있습니다. 현재 보고서 및 대시보드는 작동합니다.
 author: maggiesMSFT
 manager: kfile
@@ -16,16 +16,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66375300"
 ---
-# <a name="find-and-view-your-power-bi-data-with-cortana-for-power-bi"></a>찾기 및 Power BI 용 Cortana와 Power BI 데이터 보기
+# <a name="find-and-view-your-power-bi-data-with-cortana-for-power-bi"></a>Power BI용 Cortana를 사용하여 Power BI 데이터 찾기 및 보기
 Windows 10 디바이스에서 Cortana를 사용하여 중요한 비즈니스 관련 질문에 대한 답변을 즉시 확인하세요. Power BI와 통합하면 Cortana는 Power BI 대시보드 및 보고서에서 직접 주요 정보를 검색할 수 있습니다. Windows 10 2015년 11월 이상 버전, Cortana, Power BI 및 하나 이상의 데이터 세트에 대한 액세스만 있으면 됩니다.
 
 > [!IMPORTANT]
-> Power BI에서 Cortana 통합 되지 않습니다. 6 월 11부터 Cortana는 더 이상 작동 하지 모든 대시보드 및 보고서에 대 한 합니다.
+> Power BI에서 Cortana 통합은 되지 않습니다. 6월 11일부터 Cortana는 모든 대시보드 및 보고서에 대해 더 이상 작동하지 않습니다.
 
 ![Cortana 검색 필드](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>Windows 10에 대한 새 Cortana *대시보드* 검색 환경 미리 보기
-잠시 동안 [Cortana를 사용하여 특정 형식의 보고서 페이지를 검색할](service-cortana-answer-cards.md) 수 있습니다. 이제 **새로운 환경**이 추가되었습니다. 바로 대시보드를 검색할 수 있는 기능입니다. 사용해 보기 및 [Power BI Ideas에서 피드백을 보내주세요](https://ideas.powerbi.com/forums/265200-power-bi)합니다. 최종적으로 *새로운 환경*이 확장되어 보고서에 대한 Cortana 검색이 포함될 것입니다.  새 환경의 주요 이점 중 하나는 Cortana를 활성화하거나 Windows 10을 구성하는 등 특별한 설정이 필요 없다는 점입니다. 알아서 작동합니다.
+잠시 동안 [Cortana를 사용하여 특정 형식의 보고서 페이지를 검색할](service-cortana-answer-cards.md) 수 있습니다. 이제 **새로운 환경**이 추가되었습니다. 바로 대시보드를 검색할 수 있는 기능입니다. 사용해 보고 [Power BI Ideas에서 피드백을 보내주세요](https://ideas.powerbi.com/forums/265200-power-bi). 최종적으로 *새로운 환경*이 확장되어 보고서에 대한 Cortana 검색이 포함될 것입니다.  새 환경의 주요 이점 중 하나는 Cortana를 활성화하거나 Windows 10을 구성하는 등 특별한 설정이 필요 없다는 점입니다. 알아서 작동합니다.
 
 > [!NOTE]
 > “알아서 작동”하지 않으면 도움을 받을 수 있는 [문제 해결 문서](service-cortana-troubleshoot.md)를 참조하세요.
@@ -37,7 +37,7 @@ Windows 10 디바이스에서 Cortana를 사용하여 중요한 비즈니스 관
 두 Cortana 환경은-나란히 존재할 수 있습니다.
 
 ## <a name="cortana-for-power-bi-documentation"></a>Power BI에 대한 Cortana 설명서
-네 개의 문서를 설정 하 고 Power BI 용 Cortana를 사용 하 여 과정을 안내 합니다.
+네 개의 문서에서 Power BI용 Cortana를 설정하고 사용하는 방법을 안내합니다.
 
 **문서 1**(이 문서): Cortana와 Power BI가 함께 작동하는 방식 이해
 
