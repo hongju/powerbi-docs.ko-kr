@@ -18,7 +18,7 @@ ms.locfileid: "65625367"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI Q&A를 사용하여 데이터 탐색 및 시각적 개체 만들기
 
-경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. Power BI의 질문 및 답변 기능을 통해 직접 데이터를 탐색할 수 있습니다. 이 문서의 첫 번째 부분에서 Power BI 서비스의 대시보드에서 질문 및 답변을 사용하는 방법을 보여 줍니다. 두 번째 부분에서는 Power BI 서비스 또는 Power BI Desktop에서 보고서를 만들 때 질문 및 답변으로 수행할 수 있는 작업을 보여 줍니다. 자세한 배경 정보는 [소비자에 대 한 질문과 답변](consumer/end-user-q-and-a.md) 문서를 참조 하세요. 
+경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. Power BI의 질문 및 답변 기능을 통해 직접 데이터를 탐색할 수 있습니다. 이 문서의 첫 번째 부분에서 Power BI 서비스의 대시보드에서 질문 및 답변을 사용하는 방법을 보여 줍니다. 두 번째 부분에서는 Power BI 서비스 또는 Power BI Desktop에서 보고서를 만들 때 질문 및 답변으로 수행할 수 있는 작업을 보여 줍니다. 자세한 배경 정보는 [소비자에 대한 질문과 답변](consumer/end-user-q-and-a.md) 문서를 참조하세요. 
 
 [Power BI 모바일 앱에서 Q&A](consumer/mobile/mobile-apps-ios-qna.md)와 [Power BI Embedded에서의 질문 및 답변](developer/qanda.md)은 별도 문서에 나와 있습니다. 
 
@@ -28,7 +28,7 @@ ms.locfileid: "65625367"
 
 ## <a name="part-1-use-qa-on-a-dashboard-in-the-power-bi-service"></a>1부: Power BI 서비스의 대시보드에서 질문 및 답변 사용
 
-Power BI 서비스 (app.powerbi.com)에서 대시보드는 이러한 데이터 집합에 포함된 데이터에 대한 질문을 할 수 있도록, 하나 이상의 데이터 집합에서 고정 한 타일을 포함 합니다. 대시보드를 만드는 데 사용된 보고서 및 데이터 집합을 보려면 메뉴 모음에서 **관련 항목 보기**를 선택합니다.
+Power BI 서비스(app.powerbi.com)에서 대시보드는 이러한 데이터 집합에 포함된 데이터에 대한 질문을 할 수 있도록, 하나 이상의 데이터 집합에서 고정한 타일을 포함합니다. 대시보드를 만드는 데 사용된 보고서 및 데이터 집합을 보려면 메뉴 모음에서 **관련 항목 보기**를 선택합니다.
 
 ![관련된 보고서 및 데이터 집합 보기](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
@@ -46,9 +46,9 @@ Power BI 서비스 (app.powerbi.com)에서 대시보드는 이러한 데이터 �
 
    ![질문 및 답변 추천된 질문](media/power-bi-tutorial-q-and-a/power-bi-qna-suggested-questions.png)
 
-   작 지점으로 이러한 질문 중 하나를 선택하고 특정 답을 찾기 위해 질문을 더욱 구체화할 수 있습니다. 또는 테이블 이름을 사용하여 새 질문을 입력할 수 있습니다.
+   시작 지점으로 이러한 질문 중 하나를 선택하고 특정 답을 찾기 위해 질문을 더욱 구체화할 수 있습니다. 또는 테이블 이름을 사용하여 새 질문을 입력할 수 있습니다.
 
-2. 질문의 목록에서 선택 하거나 사용자 고유의 질문을 입력하고 드롭다운 제안에서 선택 합니다.
+2. 질문의 목록에서 선택하거나 사용자 고유의 질문을 입력하고 드롭다운 제안에서 선택합니다.
 
    ![목록에서 질문을 선택 합니다.](media/power-bi-tutorial-q-and-a/power-bi-qna-select-a-question-how-many-stores.png)
 
@@ -60,13 +60,13 @@ Power BI 서비스 (app.powerbi.com)에서 대시보드는 이러한 데이터 �
 
    ![질문 및 답변 가로 막대형 차트로 상태별 개수 저장](media/power-bi-tutorial-q-and-a/power-bi-qna-stores-by-state-bar-chart.png)
 
-1. 질문을 입력하면, Power BI는 해당 대시보드에 타일이 있는 데이터 세트를 사용하여 가장 적합한 답변을 찾습니다. 모든 타일이 *datasetA*에 있는 경우 답변은 *datasetA*에서 제공됩니다. *datasetA*와 *datasetB*에 타일이 있는 경우, 질문 및 답변은 이러한 두 데이터 집합에서 가장 적합한 답변을 검색 합니다.
+1. 질문을 입력하면, Power BI는 해당 대시보드에 타일이 있는 데이터 세트를 사용하여 가장 적합한 답변을 찾습니다. 모든 타일이 *datasetA*에 있는 경우 답변은 *datasetA*에서 제공됩니다. *datasetA*와 *datasetB*에 타일이 있는 경우, 질문 및 답변은 이러한 두 데이터 집합에서 가장 적합한 답변을 검색합니다.
 
    > [!TIP]
-   > *datasetA*에 타일이 하나만 있는 경우 대시보드에서 제거하면 질문 및 답변에서 datasetA 에 더 이상 액세스할 수 없으므로 주의해야 합니다.
+   > *datasetA*에 타일이 하나만 있는 경우 대시보드에서 제거하면 질문 및 답변에서 datasetA에 더 이상 액세스할 수 없으므로 주의해야 합니다.
    >
 
-5. 결과에 만족하면, 시각화 오른쪽 위 모서리에서 고정 아이콘을 선택하여 대시보드를 고정 합니다. 대시보드를 사용자와 공유하거나 앱의 일부인 경우, 고정할 수 없습니다.
+5. 결과에 만족하면, 시각화 오른쪽 위 모서리에서 고정 아이콘을 선택하여 대시보드를 고정합니다. 대시보드를 사용자와 공유하거나 앱의 일부인 경우, 고정할 수 없습니다.
 
    ![Q&a는 시각적 개체 고정](media/power-bi-tutorial-q-and-a/power-bi-qna-pin-visual.png)
 
@@ -78,7 +78,7 @@ Power BI 서비스 (app.powerbi.com)에서 대시보드는 이러한 데이터 �
 
 보고서에서 질문 및 답변을 사용하려면, 보고서와 기본 데이터 집합에 대한 편집 권한이 있어야 합니다. [소비자에 대한 질문 및 답변](consumer/end-user-q-and-a.md) 문서에서, *작성자* 시나리오를 참조합니다. 대신 사용자와 공유한 보고서를 *소비*하는 중이라면, 질문 및 답변을 사용할 수 없습니다.
 
-1. 편집용 보기 (Power BI 서비스) 또는 보고서 보기 (Power BI Desktop)에서 보고서를 열고 메뉴 모음에서 **질문하기**를 선택합니다.
+1. 편집용 보기(Power BI 서비스) 또는 보고서 보기(Power BI Desktop)에서 보고서를 열고 메뉴 모음에서 **질문하기**를 선택합니다.
 
     **Power BI Desktop**    
     ![Power BI Desktop의 질문 선택](media/power-bi-tutorial-q-and-a/power-bi-desktop-question.png)
