@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2de6d79971e59879e65d2e3cf652caf156d80cf
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70904046"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715520"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI에서 새 작업 영역 만들기
 
@@ -28,7 +28,7 @@ Power BI는 새 작업 영역 환경을 소개합니다. 작업 영역은 여전
 - 작업 영역에서 더 유연한 사용 권한 관리에 대해 세분화된 작업 영역 역할을 사용합니다.
 
 > [!NOTE]
-> 작업 영역에서 콘텐츠를 검색하는 Power BI Pro 사용자를 위해 RLS(행 수준 보안)를 적용하려면 [클래식 작업 영역](service-create-workspaces.md)을 계속 사용합니다. **구성원은 Power BI 콘텐츠를 보기만 할 수 있습니다.** 옵션을 선택합니다. 또는 해당 사용자에게 Power BI 앱을 게시하거나 공유를 통해 콘텐츠를 배포합니다. 향후 보기 권한자 역할이 부여되면 나중에 새 작업 영역의 환경 작업 영역에서 이 시나리오가 허용됩니다.
+> 작업 영역에서 콘텐츠를 검색하는 Power BI Pro 사용자를 위해 RLS(행 수준 보안)를 적용하려면 사용자에게 뷰어 역할을 할당합니다.
 
 자세한 배경 정보는 [새 작업 영역](service-new-workspaces.md) 문서를 참조하세요.
 
@@ -42,7 +42,7 @@ Power BI는 새 작업 영역 환경을 소개합니다. 작업 영역은 여전
    
      ![새 작업 영역 환경](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     **클래식으로 되돌리기**를 선택하는 경우 Office 365 그룹을 기준으로 작업 영역이 생성됩니다. 작업 영역 구성원에 대해 RLS(행 수준 보안)을 적용하기 위해 **구성원은 Power BI 콘텐츠를 보기만 할 수 있습니다.** 옵션이 필요한 경우 이 옵션을 사용합니다.
+     **클래식으로 되돌리기**를 선택하는 경우 [Office 365 그룹을 기준으로 작업 영역](service-create-workspaces.md)이 생성됩니다. 
 
 2. 작업 영역에 이름을 지정합니다. 이름을 사용할 수 없는 경우 편집하여 고유한 이름을 입력합니다.
    

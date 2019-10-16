@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2ebbc277f2a269ebaf2d1bdb99f1aa800576b466
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70936496"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715545"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>보고서에서 테이블, 행렬 또는 슬라이서에 이미지 표시
 
@@ -44,7 +44,7 @@ ms.locfileid: "70936496"
 
 ## <a name="next-steps"></a>다음 단계
 
-[보고서에 정적 도형, 텍스트 상자 및 이미지 추가](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=11)
+[페이지 레이아웃 및 서식 지정](/learn/modules/visuals-in-power-bi/12-formatting)
 
 [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 

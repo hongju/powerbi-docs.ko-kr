@@ -15,9 +15,9 @@
         - name: 자습서
           items:
             - name: Power BI의 시각적 개체 개발
-              href: custom-visual-develop-tutorial.md
+              href: visuals/custom-visual-develop-tutorial.md
             - name: 서식 지정 옵션 추가
-              href: custom-visual-develop-tutorial-format-options.md
+              href: visuals/custom-visual-develop-tutorial-format-options.md
             - name: 시각적 개체 프로젝트를 위한 단위 테스트 추가
               href: visuals/unit-tests-introduction.md
         - name: 개념

@@ -1,22 +1,21 @@
 ---
-title: 보고서 소비자용 Power BI
-description: Power BI를 시작할까요? Power BI의 기능을 알아보고 Power BI 소비자 또는 최종 사용자로 이 기능을 통해 할 수 있는 작업을 확인하세요.
+title: 소비자용 Power BI
+description: Power BI를 시작할까요? Power BI 서비스의 기능을 알아보고 Power BI 소비자 또는 최종 사용자로 이 기능을 통해 할 수 있는 작업을 확인하세요.
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 09/11/2019
+ms.date: 10/01/2019
 ms.author: mihart
 layout: HubPage
-ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: d43d1072c9eafa71d336f71e22ac2d6d68144558
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: ec123c29bc6cf942c096ffb78b8bfab10be3bc14
+ms.sourcegitcommit: e371690159f69a72410abc97ff1c2a2bb9c841f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073392"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "71829628"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -105,7 +104,8 @@ ms.locfileid: "71073392"
                                                 <p><a href="/power-bi/consumer/end-user-experience" data-linktype="absolute-path">탐색 - 신속하게 필요한 콘텐츠 찾기</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-q-and-a" data-linktype="absolute-path">Q&amp;A - 자연어를 사용하여 질문하기</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-report-filter" data-linktype="absolute-path">필터 및 슬라이서와 상호 작용</a></p>
-                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">Power B에 표시되는 시각적 개체 유형에 대해 알아보기</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">시각적 개체 유형에 대해 알아보기</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-app-marketing" data-linktype="absolute-path">샘플 앱 다운로드</a></p>
                                             </div>
                                         </div>
                                     </div>

@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
-ms.openlocfilehash: bbd9a3884b3b6b0cd235471b0746f605e3872aff
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/03/2019
+ms.openlocfilehash: a97c8125af46eae193f6c592d0b3c1153ae9b50c
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325742"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968639"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 
-Power BI Report Server에 대한 Power BI 보고서를 만들려면 Power BI Report Server에 최적화된 Power BI Desktop을 다운로드하여 설치해야 합니다. 이 릴리스는 Power BI 서비스와 함께 사용되는 Power BI Desktop과 다릅니다. 예를 들어 Power BI 서비스용 Power BI Desktop 버전은 릴리스된 후에만 Power BI Report Server 버전에서 사용할 수 있는 미리 보기 기능을 포함합니다. 이 릴리스를 사용하면 보고서 서버가 알려진 버전의 보고서 및 모델과 상호 작용할 수 있습니다. 
+Power BI Report Server에 대한 Power BI 보고서를 만들려면 Power BI Report Server에 최적화된 Power BI Desktop 버전을 다운로드하여 설치해야 합니다. 이 릴리스는 Power BI 서비스와 함께 사용되는 Power BI Desktop과 다릅니다. 예를 들어 Power BI 서비스용 Power BI Desktop 버전은 일반에 공급된 후에만 Power BI Report Server 버전에서 사용할 수 있는 미리 보기 기능을 포함합니다. 이 릴리스를 사용하면 보고서 서버가 알려진 버전의 보고서 및 모델과 상호 작용할 수 있습니다. 
 
 다행스럽게도 Power BI Desktop 및 Power BI Report Server에 최적화된 Power BI Desktop을 같은 컴퓨터에 모두 설치할 수 있습니다.
 
@@ -32,7 +32,7 @@ Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유�
 
     또는 [Power BI Report Server](https://powerbi.microsoft.com/report-server/) 홈페이지로 이동하고 **고급 다운로드 옵션**을 선택합니다.
 
-2. 다운로드 센터 페이지에서 **다운로드**를 선택합니다.
+2. 다운로드 센터 페이지에서 언어를 선택한 다음 **다운로드**를 선택합니다.
 
 3. 컴퓨터에 따라 다음 중에서 선택합니다. 
 
@@ -65,7 +65,11 @@ Power BI Report Server 내에서 Power BI 보고서를 편집하거나 웹 포�
 
 Power BI Report Server, Power BI 서비스(http://app.powerbi.com) ) 및 Power BI 모바일 앱의 Power BI 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
 
-### <a name="in-a-browser"></a>브라우저에서
+### <a name="selecting-a-language"></a>언어 선택
+
+Power BI Report Server에 최적화된 Power BI Desktop의 경우 앱을 설치할 때 언어를 선택합니다. 이후에는 변경할 수 없지만 다른 언어로 된 버전을 설치할 수 있습니다.
+
+### <a name="report-visuals-in-a-browser"></a>브라우저의 보고서 시각적 개체
 
 Power BI Report Server 보고서는 사용자 지정 시각적 개체를 비롯한 대부분의 시각화를 지원합니다. Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
 
@@ -74,7 +78,7 @@ Power BI Report Server 보고서는 사용자 지정 시각적 개체를 비롯�
 * 현재 위치
 * Power BI Desktop 미리 보기 기능
 
-### <a name="in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서
+### <a name="reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 보고서
 
 Power BI Report Server 보고서는 [Power BI 모바일 앱](../consumer/mobile/mobile-apps-for-mobile-devices.md)에서 다음을 비롯한 모든 기본 기능을 지원합니다.
 

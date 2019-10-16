@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 580b387f8c763b0457bd32a71bfbccd90d4040a3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65625198"
@@ -50,6 +50,7 @@ Q&A를 사용하여 이 꺾은선형 차트를 만드는 방법은 무엇인가�
    ![질문 및 답변 채워진된 영역형 차트](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-filled-chart.png)
 
 4. 대시보드로 차트를 고정하려면, 오른쪽 위 모서리의 고정 아이콘 ![고정 아이콘](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png)을 선택합니다.
+
 
 ## <a name="create-a-visual-in-the-report-editor"></a>보고서 편집기에서 시각적 개체 만들기
 

@@ -3,20 +3,19 @@ title: Power BI에서 최종 사용자에게 자주 묻는 질문
 description: Power BI 서비스 및 Power BI 모바일 앱에 대해 자주 묻는 질문과 대답 목록을 찾습니다.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 6/17/2019
+ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5efdb98e0722add361f3b333f773fc03c6ea50a9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: bf3e7b790788c8ce21b222a083a853b06185acc0
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654134"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943335"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 
@@ -33,27 +32,17 @@ Power BI Pro는 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스�
 
 Power BI Premium은 보다 일관된 성능을 제공할 수 있는 전용 용량을 제공합니다. Power BI에서 더 큰 데이터 볼륨도 지원합니다. 개별 사용자의 경우, 프리미엄을 통해 Pro 사용자별 콘텐츠를 광범위하게 배포할 수 있으며 콘텐츠를 보는 수신자에게 사용자별 라이선스를 요구하지 않습니다.
 
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>내 Power BI Pro 라이선스가 만료될 경우 어떻게 됩니까?
-
-Power BI Pro 라이선스가 만료된 후 유예 기간이 있습니다. 볼륨 라이선스 구입에 포함된 라이선스의 경우 유예 기간은 90일입니다. 라이선스를 직접 구입한 경우 유예 기간은 30일입니다.
-
-Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한 내용은 [비즈니스용 Office 365 구독이 종료되면 내 데이터 및 액세스 권한은 어떻게 되나요?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)를 참조하세요.
-
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI 프리미엄에 대한 질문이 있다면?
 
 Power BI 프리미엄 관련된 질문은 [Power BI 프리미엄 FAQ](../service-premium-faq.md)를 참조하세요.
 
-## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>내 조직에서 Power BI 계정을 가진 사용자를 찾으려면 어떻게 하나요?
-
-Power BI에 대한 Azure Active Directory 통합 애플리케이션 보고서를 보면 조직 내의 활성 사용자를 확인할 수 있습니다. Azure AD 보고서에는 각 사용자의 라이선스 유형이 나와 있지 않습니다. Power BI에 로그인한 사용자가 누구이며 언제 로그인하였는지만 보고됩니다. 자세한 내용은 [로그인한 Power BI 사용자 찾기](../service-admin-access-usage.md)를 참조하세요.
-
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
 
-Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료 애플리케이션입니다. Power BI Desktop은 Power BI 서비스와 긴밀하게 작동합니다.  데이터 과학자, 관리자 및 개발자는 Power BI Desktop을 사용하여 보고서를 생성하고, 여러분과 같은 Power BI 서비스 사용자에게 제공합니다. [Power BI Desktop이란?](../desktop-what-is-desktop.md)에 대해 자세히 알아봅니다.
+Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료 애플리케이션입니다. Power BI Desktop은 Power BI 서비스와 긴밀하게 작동합니다.  데이터 과학자, 관리자 및 개발자는 Power BI Desktop을 사용하여 보고서를 생성하고, 여러분과 같은 Power BI 서비스 *소비자*에게 제공합니다. [Power BI Desktop이란?](../desktop-what-is-desktop.md)에 대해 자세히 알아봅니다.
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service"></a>Power BI 서비스를 사용하려면 무엇이 필요한가요?
 
-웹 브라우저와 회사 메일 주소만 있으면 됩니다. *.gov* 및 *.mil* 메일 주소로 가입할 수 있습니다. 자세한 내용은 [Power BI 서비스에 미국 정부 기관 등록](../service-govus-signup.md)을 참조하세요.
+웹 브라우저와 회사 메일 주소만 있으면 됩니다. *.gov* 및 *.mil* 메일 주소로 가입할 수도 있습니다. 자세한 내용은 [Power BI 서비스에 미국 정부 기관 등록](../service-govus-signup.md)을 참조하세요.
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>회사 메일을 사용하여 등록해야 하는 이유는 무엇인가요?
 
@@ -88,7 +77,7 @@ Power BI 서비스를 무료로 사용하려면 웹 브라우저와 메일만 �
 * [Power BI 블로그](http://blogs.msdn.com/b/powerbi/)
 * [웹 세미나](../webinars.md)
 * [YouTube 채널](https://www.youtube.com/user/mspowerbi)의 시작하기 비디오
-* [Power BI 시작](../service-get-started.md) 문서
+* [*소비자*](power-bi-consumer-landing.md) 아티클로 Power BI 시작하기
 * [커뮤니티 가입](https://community.powerbi.com/) 및 질문하기
 * 더 많은 제안은 [도움을 받을 수 있는 10가지 팁](../service-tips-for-finding-help.md)을 참조하세요.
 
@@ -126,6 +115,7 @@ Power BI Pro 라이선스를 직접 구입하거나 [www.powerbi.com](http://www
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI란?](../power-bi-overview.md)
+* [Power BI 소비자란?](end-user-consumer.md)
+* [소비자는 Power BI를 어떻게 사용하나요?](end-user-reading-view.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
