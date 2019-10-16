@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750897"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715204"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI의 새 작업 영역에서 작업 구성
 
@@ -24,7 +24,7 @@ ms.locfileid: "70750897"
 새 작업 영역 환경이 GA(일반 공급)에 도달했으며 이제 기본 작업 영역입니다. 계속해서 Office 365 그룹을 기반으로 [클래식 작업 영역](service-create-workspaces.md)을 만들고 사용할 수 있습니다. 
 
 > [!NOTE]
-> 작업 영역에서 콘텐츠를 찾아보는 사용자에 대한 RLS(행 수준 보안)를 적용하려면 뷰어 역할을 사용합니다. 테넌트에서 뷰어 역할을 사용할 수 없으면 계속해서 [클래식 작업 영역](service-create-workspaces.md)을 사용하고 **구성원은 Power BI 콘텐츠를 보기만 할 수 있습니다** 옵션을 선택합니다. 또는 해당 사용자에게 Power BI 앱을 게시하거나 공유를 통해 콘텐츠를 배포합니다.
+> 작업 영역에서 콘텐츠를 찾아보는 사용자에 대한 RLS(행 수준 보안)를 적용하려면 뷰어 역할을 사용합니다. 작업 영역에 대한 액세스 권한을 부여하지 않고 RLS를 적용하려면 Power BI 앱을 해당 사용자에게 게시하거나 공유를 사용하여 콘텐츠를 배포합니다.
 
 새 작업 영역을 사용하면 다음을 수행할 수 있습니다.
 
@@ -73,11 +73,14 @@ Power BI 관리 포털에서 [작업 영역 목록을 사용할 수 있습니다
 | 다른 사용자가 항목을 다시 공유하도록 허용 |  X | X  |   |   |
 | 작업 영역에서 콘텐츠 만들기, 편집 및 삭제  |  X | X  | X  |   |
 | 작업 영역에 보고서 게시, 콘텐츠 삭제  |  X | X  | X  |   |
-| 이 작업 영역의 데이터 세트를 기반으로 하여 다른 작업 영역에 보고서 만들기 |  X | X  | X  | X <sup>1</sup>  |
-| 보고서 복사 | X | X | X | X <sup>1</sup> |
+| 이 작업 영역의 데이터 세트를 기반으로 하여 다른 작업 영역에 보고서 만들기 |  X | X  | X  |   |
+| 보고서 복사 | X | X | X |  |
 | 항목 보기 및 상호 작용 |  X | X  | X  | X  |
 
-**1** Power BI Pro 라이선스 및 [데이터 세트 빌드 권한](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)이 필요합니다. 
+> [!NOTE]
+>보고서를 복사하고 이 작업 영역의 데이터 세트를 기반으로 하는 다른 작업 영역에서 보고서를 만들려면 사용자가 추가 조건을 충족해야 합니다.
+>- Power BI Pro 라이선스가 있어야 합니다. 
+>- 데이터 세트에 대한 빌드 권한이 필요합니다. 이 작업 영역의 데이터 세트에서 관리자, 멤버 및 기여자 역할이 있는 사용자는 작업 영역 역할을 통해 빌드 권한을 보유합니다.
  
 ## <a name="licensing"></a>라이선싱
 공유된 용량의 작업 영역에 추가하는 모든 사용자는 Power BI Pro 라이선스가 필요합니다. 작업 영역에서 이러한 사용자는 물론, 더 광범위한 대상 그룹이나 조직 전체에 게시할 계획이 있는 대시보드, 보고서에 대해 공동 작업을 수행할 수 있습니다. 

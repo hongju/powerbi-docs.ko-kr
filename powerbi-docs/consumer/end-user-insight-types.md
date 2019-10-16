@@ -4,23 +4,25 @@ description: Power BI를 사용한 신속한 정보 활용 및 정보 보기.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/23/2019
+ms.date: 10/2/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 991dd7bb94e79a21c8e4ec877093b81d2ed9b285
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 507d49ba6cdb894667bf66f8f35c5c325b9ff25e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327772"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943916"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI에서 지원되는 정보의 유형
+
+Power BI 서비스는 대시보드 또는 보고서에서 인사이트를 자동으로 찾을 수 있습니다.
+
 ## <a name="how-does-insights-work"></a>정보는 어떻게 작동하나요?
-Power BI는 흥미로운 정보를 검색하기 위해 복잡한 알고리즘을 적용하는 동시에 데이터 세트의 여러 하위 세트를 신속하게 검색합니다. Power BI는 할당된 시간 내에 가능한 한 많은 데이터 세트를 검색합니다.
+Power BI는 데이터 세트의 다른 하위 집합을 빠르게 검색합니다. 검색 시 Power BI는 정교한 알고리즘을 적용하여 관심을 가질 가능성이 높은 인사이트를 검색합니다. Power BI는 할당된 시간 내에 가능한 한 많은 데이터 세트를 검색합니다.
 
 데이터 세트 또는 대시보드 타일에 대한 검색을 실행할 수 있습니다.   
 
@@ -74,8 +76,6 @@ Power BI는 흥미로운 정보를 검색하기 위해 복잡한 알고리즘을
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 정보](end-user-insights.md)
-
-데이터 세트의 소유자인 경우 [정보를 위해 최적화](../service-insights-optimize.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
 
