@@ -11,7 +11,7 @@ ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: c6fd8967a49515af4d0614653b3d7550c335052f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65625367"
@@ -60,7 +60,9 @@ Power BI 서비스(app.powerbi.com)에서 대시보드는 이러한 데이터 �
 
    ![질문 및 답변 가로 막대형 차트로 상태별 개수 저장](media/power-bi-tutorial-q-and-a/power-bi-qna-stores-by-state-bar-chart.png)
 
+
 1. 질문을 입력하면, Power BI는 해당 대시보드에 타일이 있는 데이터 세트를 사용하여 가장 적합한 답변을 찾습니다. 모든 타일이 *datasetA*에 있는 경우 답변은 *datasetA*에서 제공됩니다. *datasetA*와 *datasetB*에 타일이 있는 경우, 질문 및 답변은 이러한 두 데이터 집합에서 가장 적합한 답변을 검색합니다.
+
 
    > [!TIP]
    > *datasetA*에 타일이 하나만 있는 경우 대시보드에서 제거하면 질문 및 답변에서 datasetA에 더 이상 액세스할 수 없으므로 주의해야 합니다.
