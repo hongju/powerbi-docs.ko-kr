@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 7d53acc0dc8c669026665347de9593fa1df84c62
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715520"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020119"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI에서 새 작업 영역 만들기
 
@@ -68,7 +68,7 @@ Power BI는 새 작업 영역 환경을 소개합니다. 작업 영역은 여전
 
 ## <a name="workspace-contact-list"></a>작업 영역 연락처 목록
 
-새 작업 영역 연락처 목록을 사용하면 작업 영역에서 발생하는 문제에 대한 알림을 받는 사용자를 지정할 수 있습니다. 기본적으로 작업 영역 관리자로 지정된 사용자 또는 그룹은 알림을 받지만 목록을 사용자 지정할 수 있습니다. 연락처 목록에 나열된 사용자 또는 그룹은 UI(사용자 인터페이스)에 표시되어 사용자가 작업 영역에 관련된 도움말을 확인할 수 있습니다.
+작업 영역에서 발생하는 문제에 대한 알림을 받을 사용자를 지정할 수 있습니다. 기본적으로 작업 영역 관리자로 지정된 사용자 또는 그룹은 알림을 받지만, *연락처 목록*에 사용자 또는 그룹을 추가하여 목록을 사용자 지정할 수 있습니다. 연락처 목록에 포함된 사용자 또는 그룹은 UI(사용자 인터페이스)에 나열되어 사용자가 작업 영역에 관련된 도움말을 확인할 수 있습니다.
 
 1. 다음 두 가지 방법 중 하나로 **연락처 목록** 설정에 액세스합니다.
 
@@ -79,6 +79,9 @@ Power BI는 새 작업 영역 환경을 소개합니다. 작업 영역은 여전
     ![작업 영역 설정](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
 2. **고급** >  **연락처 목록**에서 기본값인 **작업 영역 관리자**를 그대로 적용하거나 고유한 **특정 사용자 또는 그룹** 목록을 추가합니다. 
+
+    ![작업 영역 연락처](media/service-create-the-new-workspaces/power-bi-workspace-contacts.png)
+
 3. **저장**을 선택합니다.
 
 ## <a name="workspace-onedrive"></a>작업 영역 OneDrive
@@ -103,34 +106,15 @@ Power BI는 작업 영역 액세스 권한을 가지도록 구성된 사용자 �
 
 ### <a name="access-the-workspace-onedrive-location"></a>작업 영역 OneDrive 위치에 액세스
 
-OneDrive 위치를 구성한 후 다음과 같은 작업 영역의 몇 가지 다른 위치에서 OneDrive 위치로 이동할 수 있습니다.
+OneDrive 위치를 구성한 후에는 Power BI 서비스에서 다른 데이터 원본으로 이동하는 것과 동일한 방법으로 가져올 수 있습니다.
 
-- **작업 영역** > *작업 영역 이름* > 줄임표( **...** ) 메뉴 > **파일**을 선택합니다. 
+1. 왼쪽 탐색 창에서 **데이터 가져오기**를 선택한 다음, **파일** 상자에서 **가져오기**를 선택합니다.
 
-    ![작업 영역 파일 위치](media/service-new-workspaces/power-bi-new-workspace-files.png)
+    ![데이터 가져오기, 파일 가져오기](media/service-create-the-new-workspaces/power-bi-get-data-files.png)
 
-- 작업 영역의 오른쪽 위 모서리에 있는 줄임표( **...** ) 메뉴 > **파일**을 선택합니다.
-
-    ![작업 영역 파일 위치](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
-    
-- **데이터 가져오기** > **파일** 환경에서 **Onedrive – 비즈니스** 항목은 사용자의 고유한 비즈니스용 OneDrive입니다. 두 번째 OneDrive는 추가한 OneDrive입니다.
+1.  **Onedrive – 비즈니스** 항목은 사용자의 고유한 비즈니스용 OneDrive입니다. 두 번째 OneDrive는 추가한 OneDrive입니다.
 
     ![작업 영역 파일 위치 - 데이터 가져오기](media/service-create-the-new-workspaces/power-bi-new-workspace-get-data-onedrive.png)
-
-## <a name="add-content-to-your-workspace"></a>작업 영역에 콘텐츠 추가
-
-새 작업 영역 환경 작업 영역을 만들면 콘텐츠를 추가할 수 있습니다. 콘텐츠 추가는 새 작업 영역과 클래식 작업 영역에서 비슷합니다. 만들기 단추를 사용하거나 데이터 가져오기를 사용하여 작업 영역에 콘텐츠를 추가합니다.
-
-1. 새 작업 영역에 대한 **시작** 화면에서 데이터를 추가할 수 있습니다. 
-
-    ![새 작업 영역 시작 화면](media/service-create-the-new-workspaces/power-bi-workspace-get-data.png)
-
-1. 예를 들어 **샘플** > **고객 수익성 샘플**을 선택합니다.
-
-> [!NOTE]
-> 조직 콘텐츠 팩 또는 타사 콘텐츠 팩은 새 작업 영역에 추가할 수 없습니다. 이전에 사용한 많은 타사 콘텐츠 팩에 앱을 사용할 수 있습니다. 콘텐츠 팩을 계속 사용해야 하는 경우 클래식 작업 영역을 사용합니다. 콘텐츠 팩은 더 이상 사용되지 않으므로 앱을 대신 사용하는 것이 좋습니다.
-
-작업 영역에서 콘텐츠 목록의 콘텐츠를 볼 때 작업 영역의 이름이 소유자로 나열됩니다.
 
 ### <a name="connecting-to-third-party-services-in-new-workspaces"></a>새 작업 영역에서 타사 서비스에 연결
 
@@ -142,9 +126,7 @@ OneDrive 위치를 구성한 후 다음과 같은 작업 영역의 몇 가지 �
 
 1. 작업 영역 콘텐츠 목록에서 관리자는 새 작업(**액세스**)을 볼 수 있습니다.
 
-    ![작업 영역 콘텐츠 목록](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
-
-1. **액세스**를 선택합니다.
+    ![작업 영역 콘텐츠 목록](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
 1. 보안 그룹, 배포 목록, Office 365 그룹 또는 개인을 이러한 작업 영역에 구성원, 참가자 또는 관리자로 추가합니다. 다양한 역할에 대한 설명은 [새 작업 영역의 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
 

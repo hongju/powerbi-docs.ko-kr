@@ -1,25 +1,25 @@
 ---
 title: 보고서 디자이너용 Power BI
-description: Power BI에서 데이터에 연결하고, 쿼리를 디자인하고, 보고서 및 대시보드를 만드나요? 사용자 고유의 앱을 만드는 개발자 또는 Power BI 관리자인가요?
+description: Power BI에서 데이터에 연결하고, 쿼리를 디자인하고, 보고서 및 대시보드를 만드나요? Power BI 관리자인가요?
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
-ms.date: 03/20/2019
+ms.date: 10/07/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 2ec8f0813807e2b92983398a74a02d46e6d4f280
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271779"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239890"
 ---
 # <a name="power-bi-for-report-designers"></a>보고서 디자이너용 Power BI
 
-Power BI에서 데이터에 연결하고, 쿼리를 디자인하고, 보고서 및 대시보드를 만드나요? 사용자 고유의 앱을 만드는 개발자인가요? Power BI를 관리하나요? 이러한 리소스는 익숙해지는 데 도움이 됩니다. 환영합니다.
+Power BI에서 데이터에 연결하고, 쿼리를 디자인하고, 보고서 및 대시보드를 만드나요? Power BI를 관리하나요? 이러한 리소스는 익숙해지는 데 도움이 됩니다. 환영합니다.
 
 Power BI 소비자인가요? 환영합니다. [소비자용 Power BI](consumer/power-bi-consumer-landing.md)로 시작하는 것이 좋습니다.
 
@@ -157,46 +157,6 @@ Power BI 소비자인가요? 환영합니다. [소비자용 Power BI](consumer/p
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">공동 작업하고 공유하려면 어떻게 해야 하나요?</a><br/>
                                                 <a href="service-create-workspaces.md">Power BI 서비스의 앱 작업 영역</a> 
-                                    </div> 
-                              </div> 
-                        </div> 
-                  </div> 
-            </li>
-            <li> 
-                  <div class="cardSize"> 
-                        <div class="cardPadding"> 
-                              <div class="card"> 
-                                    <div class="cardImageOuter">
-                                          <div class="cardImage">
-                                                <img alt="Develop for Power BI" src="media/power-bi-creator-landing/power-bi-designer-develop-power-bi.svg" data-linktype="relative-path">
-                                          </div>
-                                    </div>
-                                    <div class="cardText"> 
-                                          <h3>Power BI에 대한 개발</h3> 
-                                          <p></p>
-                                                <a href="developer/embedding.md">Power BI에 포함</a><br/> 
-                                                <a href="developer/custom-visual-develop-tutorial.md">사용자 지정 시각적 개체 개발</a><br/> 
-                                                <a href="https://docs.microsoft.com/rest/api/power-bi">Power BI REST API</a>
-                                    </div> 
-                              </div> 
-                        </div> 
-                  </div> 
-            </li>
-            <li> 
-                  <div class="cardSize"> 
-                        <div class="cardPadding"> 
-                              <div class="card"> 
-                                    <div class="cardImageOuter">
-                                          <div class="cardImage">
-                                                <img alt="Administer Power BI" src="media/power-bi-creator-landing/power-bi-designer-administer-power-bi.svg" data-linktype="relative-path">
-                                          </div>
-                                    </div>
-                                    <div class="cardText"> 
-                                          <h3>Power BI 관리</h3> 
-                                          <p></p>
-                                                <a href="service-admin-administering-power-bi-in-your-organization.md">Power BI 관리란?</a><br/> 
-                                                <a href="service-admin-purchasing-power-bi-pro.md">Power BI Pro 라이선스 구매</a><br/>
-                                                <a href="service-admin-reference.md">PowerShell cmdlet, REST API 및 .NET SDK</a>
                                     </div> 
                               </div> 
                         </div> 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c60c3c29bbf87d7a5e18838dac0baa6157de6437
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530621"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020832"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>다른 작업 영역에서 보고서 복사(미리 보기)
 
@@ -32,7 +32,7 @@ ms.locfileid: "69530621"
 
     ![보고서 복사본 저장](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
-    보고서가 새 작업 영역에 있고 [빌드 권한**을 가지고 있는 경우에만** 복사본 저장](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) 아이콘이 표시됩니다. 작업 영역에 대한 액세스 권한이 있더라도 데이터 세트에 대한 별도 권한이 있어야 합니다.
+    보고서가 새 환경 작업 영역에 있고 [빌드 권한](service-datasets-build-permissions.md)을 가지고 있는 경우에만 **복사본 저장** 아이콘이 표시됩니다. 작업 영역에 대한 액세스 권한이 있더라도 데이터 세트에 대한 빌드 권한이 있어야 합니다.
 
 3. **이 보고서의 복사본 저장**에서 보고서 이름을 지정하고 대상 작업 영역을 선택합니다.
 
