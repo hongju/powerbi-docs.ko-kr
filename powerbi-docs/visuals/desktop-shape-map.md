@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1d07c678b02f77689d24d067ca58a4e28ac70cb0
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 6543263c0e6c3395479169e8b02034e4a9c78f7b
+ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623920"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72164045"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵(미리 보기)
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 **도형 맵** 시각적 개체를 만들어 색을 사용하여 맵의 영역을 비교합니다. **맵** 시각적 개체와 달리 **도형 맵**은 데이터 요소의 정확한 지리적 위치를 맵에 표시할 수 없습니다. 대신, 색을 다르게 지정하여 맵 영역의 상대 비교를 표시하는 데 주로 사용됩니다.
 
 **도형 맵** 시각적 개체는 사용자가 만들 수 있는 사용자 지정 맵을 사용하는 매력적인 기능이 있는 ESRI/TopoJSON 맵을 기반으로 합니다. 사용자 지정 맵의 예로는 지리적, 좌석 배치, 평면도 등이 있습니다. 사용자 지정 맵을 사용하는 기능은 **도형 맵**의 이 미리 보기 버전에서 사용할 수 없습니다.
@@ -113,7 +116,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="australia-states"></a>오스트레일리아: 시/도
 
-| id | abbr | iso | name | postal |
+| ID | abbr | iso | name | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -126,7 +129,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="austria-states"></a>오스트리아: 시/도
 
-| id | iso | name | name-en | postal |
+| ID | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -140,7 +143,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="brazil-states"></a>브라질: 시/도
 
-| id |
+| ID |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -176,7 +179,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="canada-provinces"></a>캐나다: 시/도
 
-| id | iso | name | postal |
+| ID | iso | name | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -194,7 +197,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="france-regions"></a>프랑스: 지역
 
-| id | name | name-en |
+| ID | 이름 | name-en |
 | --- | --- | --- |
 | Alsace |Alsace |Alsace |
 | Rhone-Alpes |Rhône-Alpes |Rhone-Alpes |
@@ -221,7 +224,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="germany-states"></a>독일: 시/도
 
-| id | iso | name | name-en | postal |
+| ID | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
 | de-th |DE-TH |Thüringen |Thuringia |TH |
@@ -242,7 +245,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="ireland-counties"></a>아일랜드: 지방
 
-| id |
+| ID |
 | --- |
 | Wicklow |
 | Wexford |
@@ -273,7 +276,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="italy-regions"></a>이탈리아: 지역
 
-| id | iso | name | name-en | postal |
+| ID | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley |VD |
@@ -298,7 +301,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="mexico-states"></a>멕시코: 시/도
 
-| id | abreviatura | iso | name | name-en | postal |
+| ID | abreviatura | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -335,7 +338,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="netherlands-provinces"></a>네덜란드: 시/도
 
-| id | iso | name | name-en |
+| ID | iso | name | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -352,7 +355,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="uk-countries"></a>영국: 국가
 
-| id | iso | name |
+| ID | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Scotland |
@@ -361,7 +364,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="usa-states"></a>미국: 시/도
 
-| id | name | postal |
+| ID | 이름 | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305759"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020228"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI에 앱 게시
 
@@ -30,7 +30,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 - 직접 링크를 보낼 수 있습니다.
 - Power BI 관리자가 사용자에게 사용 권한을 부여한 경우 동료의 Power BI 계정에서 해당 앱을 자동으로 설치할 수 있습니다.
 
-고유의 기본 제공 탐색 기능을 사용하여 앱을 만들 수 있으므로 사용자는 자신의 콘텐츠를 쉽게 찾을 수 있습니다. 앱의 콘텐츠를 수정할 수 없습니다. Power BI 서비스 또는 모바일 앱 중 하나인 데이터 필터링, 강조 표시 및 정렬에서 이 서비스와 상호 작용할 수 있습니다. 업데이트를 자동으로 가져오므로, 데이터 새로 고침 빈도를 조절할 수 있습니다. 기본 데이터 세트에 연결하고 앱에서 보고서 복사본을 만들 수 있는 빌드 권한을 부여할 수도 있습니다. [빌드 권한](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)에 대해 자세히 알아봅니다.
+고유의 기본 제공 탐색 기능을 사용하여 앱을 만들 수 있으므로 사용자는 자신의 콘텐츠를 쉽게 찾을 수 있습니다. 앱의 콘텐츠를 수정할 수 없습니다. Power BI 서비스 또는 모바일 앱 중 하나인 데이터 필터링, 강조 표시 및 정렬에서 이 서비스와 상호 작용할 수 있습니다. 업데이트를 자동으로 가져오므로, 데이터 새로 고침 빈도를 조절할 수 있습니다. 기본 데이터 세트에 연결하고 앱에서 보고서 복사본을 만들 수 있는 빌드 권한을 부여할 수도 있습니다. [빌드 권한](service-datasets-build-permissions.md)에 대해 자세히 알아봅니다.
 
 ## <a name="licenses-for-apps"></a>앱에 대한 라이선스
 앱을 만들거나 업데이트하려면 Power BI Pro 라이선스가 필요합니다. 앱 *소비자*의 경우 두 가지 옵션이 있습니다.
@@ -136,7 +136,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 관리자가 권한을 제공하는 경우 앱을 자동으로 설치하여 최종 사용자에게 제공할 수 있습니다. 이 푸시 기능을 사용하면 권한이 있는 사용자 또는 그룹에 적절한 앱을 쉽게 배포할 수 있습니다. 최종 사용자의 앱 콘텐츠 목록에 앱이 자동으로 표시됩니다. Microsoft AppSource에서 찾거나 설치 링크를 따를 필요가 없습니다. Power BI 관리자 포털 문서에서 관리자가 [최종 사용자에게 앱 푸시하기](service-admin-portal.md#push-apps-to-end-users)를 사용 설정하는 방법을 참조하세요.
 
 ### <a name="how-to-push-an-app-automatically-to-end-users"></a>최종 사용자에게 앱을 자동으로 푸시하는 방법
-관리자가 사용 권한을 할당하면 **앱을 자동으로 설치**하는 새로운 옵션이 표시됩니다. 확인란을 선택하고 **앱 게시**(또는 **앱 업데이트**)를 선택하면, 앱이 **액세스** 탭의 앱 **사용 권한** 섹션에 정의된 모든 사용자 또는 그룹으로 푸시됩니다.
+관리자가 사용 권한을 할당하면 **앱을 자동으로 설치**하는 새로운 옵션이 표시됩니다. 확인란을 선택하고 **앱 게시**(또는 **앱 업데이트**)를 선택하면, 앱이 **액세스** 탭의 앱 **권한** 섹션에 정의된 모든 사용자 또는 그룹으로 푸시됩니다.
 
 ![앱 푸시 설정](media/service-create-distribute-apps//power-bi-apps-access.png)
 
@@ -166,7 +166,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 - Power BI Desktop 및 Power BI 서비스의 데이터 가져오기 환경에서 데이터 세트를 검색합니다.
 - 이러한 데이터 세트를 기반으로 하여 보고서와 대시보드를 만듭니다.
 
-이 옵션의 선택을 취소하면 앱에 추가하는 새 사용자에게 빌드 권한이 부여되지 않습니다. 그러나 기본 데이터 세트에 대한 기존 앱 사용자의 사용 권한은 변경되지 않습니다. 빌드 권한을 더 이상 보유하지 않아야 하는 앱 사용자로부터 빌드 권한을 수동으로 제거할 수 있습니다. [빌드 권한](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)에 대해 자세히 알아봅니다.
+이 옵션의 선택을 취소하면 앱에 추가하는 새 사용자에게 빌드 권한이 부여되지 않습니다. 그러나 기본 데이터 세트에 대한 기존 앱 사용자의 사용 권한은 변경되지 않습니다. 빌드 권한을 더 이상 보유하지 않아야 하는 앱 사용자로부터 빌드 권한을 수동으로 제거할 수 있습니다. [빌드 권한](service-datasets-build-permissions.md)에 대해 자세히 알아봅니다.
 
 ## <a name="allow-users-to-copy-reports"></a>사용자가 보고서를 복사하도록 허용
 

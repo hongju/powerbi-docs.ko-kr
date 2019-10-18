@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d48214cffcc17da9c105f7277b721c03946d5c2
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961818"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020658"
 ---
-# <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>자습서: Power BI 조직 콘텐츠 팩 만들기 및 게시
+# <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>자습서:  Power BI 조직 콘텐츠 팩 만들기 및 게시
 
 이 자습서에서는 조직 콘텐츠 팩을 만들고, 특정 그룹에 액세스 권한을 부여하며, Power BI에서 조직의 콘텐츠 팩 라이브러리에 게시합니다.
 
@@ -26,7 +26,7 @@ ms.locfileid: "68961818"
 조직 콘텐츠 팩을 만들려면 귀하와 귀하의 동료를 위한 [Power BI Pro 계정](https://powerbi.microsoft.com/pricing)이 필요합니다.
 
 > [!NOTE]
-> 새 작업 영역 환경 미리 보기에서 조직 콘텐츠 팩을 만들거나 설치할 수 없습니다. 아직 시작하지 않은 경우, 이제 콘텐츠 팩을 앱으로 업그레이드하세요. [새 작업 영역 환경에 대해 자세히](service-create-the-new-workspaces.md) 알아봅니다.
+> 새 작업 영역 환경에서 조직 콘텐츠 팩을 만들거나 설치할 수 없습니다. 아직 시작하지 않은 경우, 이제 콘텐츠 팩을 앱으로 업그레이드하세요. [새 작업 영역 환경에 대해 자세히](service-create-the-new-workspaces.md) 알아봅니다.
 
 ## <a name="create-and-publish-a-content-pack"></a>콘텐츠 팩 만들기 및 게시
 

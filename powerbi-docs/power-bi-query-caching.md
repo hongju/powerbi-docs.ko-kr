@@ -2,20 +2,20 @@
 title: Power BI Premium의 쿼리 캐싱
 description: Power BI Premium의 쿼리 캐싱
 author: KesemSharabi
-ms.author: maggies
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/16/2019
+ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 489069df43d2c09f6f5551987a61353e095aff7a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6e68f515581d62b544f1c6b17144e73ea709a62d
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076170"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020522"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Power BI Premium/Embedded의 쿼리 캐싱
 
@@ -26,13 +26,13 @@ Power BI Premium 또는 Power BI Embedded를 사용하는 조직은 *쿼리 캐�
 
 캐시된 쿼리 결과는 사용자 및 데이터 세트 컨텍스트에 지정되고 항상 보안 규칙을 준수합니다. 현재 서비스에서는 표시되는 초기 페이지에 대한 쿼리 캐싱만을 수행합니다. 즉, 보고서와 상호 작용할 때 쿼리는 캐시되지 않습니다. 쿼리 캐시는 [개인 책갈피](consumer/end-user-bookmarks.md#personal-bookmarks) 및 [영구 필터](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)를 고려하므로 맞춤형 보고서에서 생성된 쿼리는 캐시됩니다. 쿼리가 캐시되면 동일한 쿼리를 통해 구동되는 [대시보드 타일](service-dashboard-tiles.md)에도 도움이 됩니다. 데이터 세트에 자주 액세스하여 자주 새로 고칠 필요가 없는 경우에 특히 성능에 도움이 됩니다. 쿼리 캐싱은 쿼리의 전체 수를 줄여서 Premium/Embedded 용량에서 부하를 줄일 수도 있습니다.
 
-Power BI 서비스에 있는 데이터 세트의 **설정** 페이지에서 쿼리 캐싱 동작을 제어할 수 있습니다. 가능한 두 가지 설정은 다음과 같습니다.
+Power BI 서비스에 있는 데이터 세트의 **설정** 페이지에서 쿼리 캐싱 동작을 제어할 수 있습니다. 세 가지 설정이 있습니다.
 
+- **용량 기본값**: 쿼리 캐싱 해제
 - **끄기**: 이 데이터 세트에서 쿼리 캐싱을 사용하지 않습니다.
-
 - **켜기**: 이 데이터 세트에서 쿼리 캐싱을 사용합니다.
 
-![쿼리 캐싱 대화 상자](media/power-bi-query-caching/power-bi-query-caching.png)
+    ![쿼리 캐싱 대화 상자](media/power-bi-query-caching/power-bi-query-3-options.png)
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 

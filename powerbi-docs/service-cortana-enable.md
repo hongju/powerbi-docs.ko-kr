@@ -11,7 +11,7 @@ ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
 ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66375149"
@@ -20,7 +20,7 @@ ms.locfileid: "66375149"
 지금까지 [Cortana 및 Power BI 소개](service-cortana-intro.md)에 대해 읽으셨습니다(그러지 않은 경우 먼저 읽은 후 다시 돌아오세요). 이제 직접 사용해 볼 수 있습니다.  Cortana에서 자연어로 질문하고 Power BI ***보고서***에 저장된 데이터에서 답변을 찾으려면 몇 가지 요구 사항을 충족해야 합니다. 특히 다음을 수행해야 합니다.
 
 > [!IMPORTANT]
-> Power BI에서 Cortana 통합 되지 않습니다. 6 월 11부터 Cortana는 더 이상 작동 하지 모든 대시보드 및 보고서에 대 한 합니다.
+> Power BI에서 Cortana 통합은 되지 않습니다. 6월 11일부터 Cortana는 모든 대시보드 및 보고서에 대해 더 이상 작동하지 않습니다.
 
 Power BI 서비스에서
 

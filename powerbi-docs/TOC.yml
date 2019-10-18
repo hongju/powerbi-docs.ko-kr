@@ -165,6 +165,8 @@
               href: desktop-connect-to-web.md
             - name: Power BI Desktop에서 Snowflake Computing 웨어하우스에 연결
               href: desktop-connect-snowflake.md
+            - name: Azure Cost Management 데이터에 연결
+              href: desktop-connect-azure-cost-management.md
             - name: Azure Consumption Insights 데이터에 연결
               href: desktop-connect-azure-consumption-insights.md
             - name: Power BI Desktop에서 SAP HANA 사용
@@ -175,8 +177,6 @@
               href: desktop-analysis-services-tabular-data.md
             - name: Power BI Desktop에서 DirectQuery 사용
               href: desktop-use-directquery.md
-            - name: Oracle 및 Teradata용 DirectQuery
-              href: desktop-directquery-for-oracle-teradata.md
             - name: DirectQuery 및 SAP BW(Business Warehouse)
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery 및 SAP HANA
@@ -217,6 +217,8 @@
               href: desktop-import-and-display-kpis.md
         - name: 보고서 만들기
           items:
+            - name: Power BI Desktop의 자동 페이지 새로 고침(미리 보기)
+              href: desktop-automatic-page-refresh.md
             - name: Power BI Desktop에서 성능 분석기 사용
               href: desktop-performance-analyzer.md
             - name: 보고서에 대한 시각적 요소

@@ -21,7 +21,7 @@ ms.locfileid: "70903916"
    
     여기에 사용자와 동료가 협업하는 콘텐츠를 넣습니다.
 
-2. **업그레이드된 작업 영역을 만드는 중** 배너에서 **클래스로 되돌리기**를 클릭합니다. 
+2. **업그레이드된 작업 영역을 만드는 중** 배너에서 **클래식으로 되돌리기**를 클릭합니다. 
 
     ![클래식 작업 영역으로 되돌리기 옵션](media/powerbi-service-create-app-workspace/power-bi-revert-classic-workspace.png)
 
@@ -31,11 +31,11 @@ ms.locfileid: "70903916"
    
      ![작업 영역 이름 지정](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-name.png)
 
-3. 설정할 몇 가지 옵션이 있습니다. **공개**를 선택할 경우 조직의 누구나 작업 영역에 있는 것을 볼 수 있습니다. **프라이빗**은 작업 영역의 구성원만 콘텐츠를 볼 수 있음을 의미합니다.
+3. 설정할 몇 가지 옵션이 있습니다. **공개**를 선택할 경우 조직의 누구나 작업 영역에 있는 것을 볼 수 있습니다. **비공개**는 작업 영역의 구성원만 콘텐츠를 볼 수 있음을 의미합니다.
    
      ![프라이빗 또는 퍼블릭 설정](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-private-public.png)
    
-    그룹을 만든 후에 퍼블릭/프라이빗 설정을 변경할 수 없습니다.
+    그룹을 만든 후에 공개/비공개 설정을 변경할 수 없습니다.
 
 4. 또한, 구성원이 **편집**할 수 있거나 **보기 전용** 액세스 권한을 가질지 선택할 수도 있습니다.
    

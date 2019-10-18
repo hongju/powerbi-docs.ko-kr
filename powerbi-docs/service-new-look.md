@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654940"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239953"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 서비스의 ‘새 디자인’
 
-Power BI 서비스(app.powerbi.com)의 디자인이 보고서를 더욱 편리하게 보고 조작할 수 있도록 변경되었습니다. 새 디자인은 더 간단하고 다른 친숙한 Microsoft 제품과 비슷하게 빌드된 최신 환경입니다. Power BI 서비스 전체를 밝은 색 테마로 전환하고 아이콘을 업데이트하여 보고서 내용을 주요 포커스 지점으로 만들었습니다. 다음은 새 디자인에서 변경된 내용의 개요입니다. 자세한 내용은 번호를 매긴 섹션을 참조하세요.
+Power BI 서비스(app.powerbi.com)의 디자인이 보고서를 더욱 편리하게 보고 조작할 수 있도록 변경되었습니다. 새 디자인은 더 간단하고 다른 친숙한 Microsoft 제품과 비슷하게 빌드되었습니다. Power BI 서비스 전체를 밝은 색 테마로 전환하고 아이콘을 업데이트하여 보고서 내용을 주요 포커스 지점으로 만들었습니다. 다음은 새 디자인에서 변경된 내용의 개요입니다. 자세한 내용은 번호를 매긴 섹션을 참조하세요.
 
 ![새 디자인의 변경 내용 개요](media/service-new-look/power-bi-new-look-changes.png)
+
+특정 작업을 찾으십니까? [‘새 디자인’: 작업이 어디로 이동했나요?](service-new-look-where-actions.md)를 참조하세요.
 
 ## <a name="quick-tour-of-the-changes"></a>변경 내용 둘러보기
 
@@ -31,7 +33,7 @@ Power BI 서비스(app.powerbi.com)의 디자인이 보고서를 더욱 편리�
 
 ## <a name="1-opt-in-to-the-new-look"></a>1. 새 디자인 옵트인(opt in)
 
-Power BI 서비스 사용자는 새 디자인을 옵트인(opt in)할 수 있습니다. **새 디자인 해제**를 **새 디자인 설정**으로 밀기만 하면 됩니다.
+Power BI 서비스 사용자는 새 디자인을 옵트인(opt in)할 수 있습니다. **새 디자인 사용 안 함**을 **새 디자인 사용**으로 밀기만 하면 됩니다.
 
 ![새 디자인 옵트인(opt in)](media/service-new-look/power-bi-new-look-off.png)
 
@@ -70,7 +72,7 @@ Power BI 서비스 사용자는 새 디자인을 옵트인(opt in)할 수 있습
 
 ## <a name="6-new-filter-experience"></a>6. 새 필터 환경
 
-새 디자인에서는 적용된 필터 보기, 새 필터 창 등의 최근 업데이트를 기본적으로 사용할 수 있습니다. 보고서 디자이너는 새 필터 환경으로 업그레이드되지 않았지만, 새 필터 창이 표시됩니다.
+새 디자인에서는 적용된 필터 보기, 새 필터 창 등의 최근 업데이트를 기본적으로 사용할 수 있습니다. 보고서 디자이너가 새 필터 환경으로 업그레이드되지 않았지만, 새 필터 창이 표시됩니다.
 
 ![필터 재확인](media/service-new-look/power-bi-new-look-filters.png)
 

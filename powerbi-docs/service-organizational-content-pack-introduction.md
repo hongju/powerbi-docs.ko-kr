@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b9c308e0593ac207e323df5b78619f0279f95594
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: e54750d928918fd77c2bf93577cf1d3d0634ca97
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523451"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020605"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI의 조직 콘텐츠 팩 소개
 > [!NOTE]
-> 조직 콘텐츠 팩을 만들 수 없거나 새 작업 영역 환경 미리 보기에 설치할 수 없습니다. 아직 시작하지 않은 경우 이제 콘텐츠 팩을 앱으로 업그레이드하세요. [새 작업 영역 환경에 대해 자세히](service-create-the-new-workspaces.md) 알아봅니다.
+> 조직 콘텐츠 팩을 만들 수 없거나 새 작업 영역 환경에 설치할 수 없습니다. 아직 시작하지 않은 경우 이제 콘텐츠 팩을 앱으로 업그레이드하세요. [새 작업 영역 환경에 대해 자세히](service-create-the-new-workspaces.md) 알아봅니다.
 > 
 
 팀으로 보내는 메일로 보고서를 정기적으로 배포하나요? 대신 이 방법을 사용해 보세요. 대시보드, 보고서, Excel 통합 문서 및 데이터 세트를 패키지하여 *조직 콘텐츠 팩*으로 팀에 게시합니다. 만든 콘텐츠 팩은 팀이 쉽게 찾을 수 있습니다. 즉, 모두 AppSource에 있습니다. 콘텐츠 팩은 Power BI의 일부이기 때문에 대화형 데이터 탐색, 새로운 시각적 개체, 질문 및 답변, 다른 데이터 원본과의 통합, 데이터 새로 고침 등 Power BI의 기능을 모두 활용할 수 있습니다.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/17/2019
+ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7ee083de9800b55c4f7d998a113c1a63df112b7b
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 269b495a41f193c6a2ba02fa75f171c3b5789689
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624026"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72019594"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 소개
 
@@ -27,10 +27,7 @@ Power BI *대시보드*는 시각화를 통해 스토리를 알려주는 흔히 
 
 ## <a name="dashboard-basics"></a>대시보드 기본 사항 
 
-대시보드에 표시되는 시각화를 *타일*이라고 합니다. 보고서에서 대시보드로 타일을 고정할 수 있습니다. Power BI를 처음 사용하는 경우 [Power BI 서비스 디자이너를 위한 기본 개념](service-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
-
-> [!IMPORTANT]
-> 대시 보드를 만들려면 [Power BI Pro](service-free-vs-pro.md) 라이선스가 필요합니다.
+대시보드에 표시되는 시각화를 *타일*이라고 합니다. *pin* 타일을 보고서에서 대시보드로 가져옵니다. Power BI를 처음 사용하는 경우 [Power BI 서비스 디자이너를 위한 기본 개념](service-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
 
 대시보드의 시각적 개체는 보고서에 원본이 있으며 각 보고서는 데이터 세트를 기반으로 합니다. 대시보드를 생각하는 한 가지 방법은 기본 보고서와 데이터 세트로 들어가는 입구로 여기는 것입니다. 시각화를 선택하면 해당 시각화를 기반으로 하는 보고서(및 데이터 세트)로 이동합니다.
 
@@ -40,6 +37,13 @@ Power BI *대시보드*는 시각화를 통해 스토리를 알려주는 흔히 
 대시보드는 비즈니스를 모니터링하고 가장 중요한 모든 메트릭을 한 눈에 볼 수 있는 훌륭한 방법입니다. 대시보드의 시각적 개체는 하나 또는 여러 개의 기본 데이터 세트 또는 기본 보고서에서 제공될 수 있습니다. 대시보드는 온-프레미스 및 클라우드 데이터를 결합하여 데이터의 현재 위치에 관계없이 통합된 보기를 제공합니다.
 
 대시보드는 단지 깔끔한 사진이 아닙니다. 고도의 대화형이며 기본 데이터가 변경되면 타일이 업데이트됩니다.
+
+## <a name="who-can-create-a-dashboard"></a>대시보드는 누가 만들 수 있나요?
+대시보드를 만드는 기능은 *작성자* 기능으로 간주되며 보고서에 대한 편집 권한이 필요합니다. 편집 권한은 보고서 작성자와 작성자가 액세스 권한을 부여하는 동료들에게 제공됩니다. 예를 들어 David가 workspaceABC에서 보고서를 만들고 해당 작업 영역의 구성원으로 사용자를 추가하는 경우, David와 사용자는 둘 다 편집 권한이 있습니다. 반면, 보고서가 사용자와 직접 공유되거나 [Power BI 앱](service-create-distribute-apps.md)의 일부로서 공유되는 경우 사용자가 보고서를 *소비*하는 것입니다. 타일을 대시보드에 고정하지 못할 수 있습니다. 
+
+> [!IMPORTANT]
+> 작업 영역에서 대시보드를 만들려면 [Power BI Pro](service-free-vs-pro.md) 라이선스가 필요합니다. 자신의 내 작업 영역에서는 Power BI Pro 라이선스 없이 대시보드를 만들 수 있습니다.
+
 
 ## <a name="dashboards-versus-reports"></a>대시보드 및 보고서
 [보고서](service-reports.md) 및 대시보드는 시각화로 채워진 캔버스이기 때문에 둘 다 비슷해 보입니다. 그러나 다음 표에 표시된 바와 같은 주요 차이점이 있습니다.

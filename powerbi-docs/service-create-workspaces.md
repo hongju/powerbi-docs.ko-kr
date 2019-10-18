@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5385512e534d866a2474fd4e3def10f45d52a1a0
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903956"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020251"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI에서 클래식 작업 영역 만들기
 
@@ -90,11 +90,11 @@ Power BI에서 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉�
 * 비즈니스 사용자가 콘텐츠 팩을 설치한 후에는 그룹화된 ID를 잃게 됩니다. 그저 다른 대시보드 및 보고서가 혼재된 대시보드 및 보고서 목록일 뿐입니다. 한편으로, 앱은 설치 후에도 그룹화와 ID를 유지합니다. 이 그룹화를 통해 비즈니스 사용자는 시간이 지나도 계속 해당 앱으로 쉽게 이동할 수 있습니다.
 * 어떠한 작업 영역에서도 여러 콘텐츠 팩을 만들 수 있지만 앱은 해당 작업 영역과 일대일 관계를 맺습니다. 
 * 시간이 지나면 조직 콘텐츠 팩의 사용을 중단할 계획이므로, 지금부터 앱을 만드는 것이 좋습니다.  
-* 새 작업 영역 환경 미리 보기를 사용하여 조직 콘텐츠 팩의 사용을 중단하는 첫 번째 조치를 취합니다. 미리 보기 작업 영역에서 해당 앱을 사용하거나 만들 수 없습니다.
+* 새 작업 영역 환경을 사용하여 조직 콘텐츠 팩의 사용을 중단하는 첫 번째 조치를 취합니다. 새 작업 영역에서 해당 앱을 사용하거나 만들 수 없습니다.
 
 두 작업 영역을 비교하려면 [기존 작업 영역과 새로운 작업 영역의 차이점](service-new-workspaces.md#how-the-new-workspaces-are-different)을 참조하세요. 
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 앱 설치 및 사용](service-create-distribute-apps.md)
-- [새 작업 영역 만들기(미리 보기)](service-create-the-new-workspaces.md)
+- [새 작업 영역 만들기](service-create-the-new-workspaces.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)

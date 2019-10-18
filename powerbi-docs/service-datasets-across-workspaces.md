@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074120"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020782"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>작업 영역의 데이터 세트 소개(미리 보기)
 
@@ -23,7 +23,7 @@ ms.locfileid: "71074120"
 
 ![공유 데이터 세트 선택](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어할 수 있습니다. 데이터 세트 작성자는 다른 사람이 데이터 세트를 검색할 수 있도록 데이터 세트를 ‘인증’ 또는 ‘승격’할 수도 있습니다.   이렇게 하면 보고서 작성자는 어느 데이터 세트가 공식적이고 품질이 높은지 알 수 있으며, Power BI에서 보고서를 작성할 때 해당 데이터 세트를 사용할 수 있습니다. 테넌트 관리자는 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하도록 새 테넌트 설정을 사용합니다.
+Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-build-permissions.md)을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어할 수 있습니다. 데이터 세트 작성자는 다른 사람이 데이터 세트를 검색할 수 있도록 데이터 세트를 ‘인증’ 또는 ‘승격’할 수도 있습니다.   이렇게 하면 보고서 작성자는 어느 데이터 세트가 공식적이고 품질이 높은지 알 수 있으며, Power BI에서 보고서를 작성할 때 해당 데이터 세트를 사용할 수 있습니다. 테넌트 관리자는 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하도록 새 테넌트 설정을 사용합니다.
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>데이터 세트 공유 및 새 작업 영역 환경
 
@@ -44,7 +44,7 @@ Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-bu
 
 ## <a name="build-permission-for-datasets"></a>데이터 세트 빌드 권한
 
-데이터 세트 작성자는 빌드 권한 유형을 사용하여 조직에서 데이터 세트를 토대로 새 콘텐츠를 작성할 수 있는 사람을 결정할 수 있습니다. 빌드 권한이 있는 사용자는 Excel에서 분석, XMLA 및 내보내기를 통해 Excel 시트와 같은 Power BI 외부의 데이터 세트를 토대로 새 콘텐츠를 작성할 수도 있습니다. [빌드 권한](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)에 대해 자세히 알아봅니다.
+데이터 세트 작성자는 빌드 권한 유형을 사용하여 조직에서 데이터 세트를 토대로 새 콘텐츠를 작성할 수 있는 사람을 결정할 수 있습니다. 빌드 권한이 있는 사용자는 Excel에서 분석, XMLA 및 내보내기를 통해 Excel 시트와 같은 Power BI 외부의 데이터 세트를 토대로 새 콘텐츠를 작성할 수도 있습니다. [빌드 권한](service-datasets-build-permissions.md)에 대해 자세히 알아봅니다.
 
 ## <a name="promotion-and-certification"></a>승격 및 인증
 
@@ -54,19 +54,17 @@ Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-bu
 
 공유 데이터 세트 기능을 기반으로 빌드된 특정 기능과 환경은 기존 시나리오에 따라 라이선스가 부여됩니다. 예:
 
-- 일반적으로 공유 데이터 세트의 검색 및 연결은 누구나 사용할 수 있습니다. 그러나 Pro 라이선스가 없는 사용자는 내 작업 영역에 있는 데이터 세트에만 연결할 수 있습니다.
-- Pro 라이선스가 없는 사용자는 두 작업 영역(콘텐츠를 포함하는 작업 영역과 데이터 세트를 포함하는 작업 영역)이 모두 Premium 용량으로 호스트되는 경우 공유 데이터 집합을 기반으로 하는 보고서 및 대시보드를 사용할 수 있습니다.
-- Power BI Desktop에서 Pro 라이선스가 없는 사용자는 내 작업 영역의 데이터 세트만 볼 수 있습니다.
+- 일반적으로 공유 데이터 세트를 검색하고 연결하는 기능은 누구나 사용할 수 있습니다. 프리미엄으로 제한되는 기능이 아닙니다.
+- Pro 라이선스가 없는 사용자는 해당 데이터 세트가 사용자의 내 작업 영역 또는 프리미엄 지원 작업 영역에 있는 경우 보고서 작성을 위해 작업 영역에서 데이터 세트를 사용할 수 있습니다. Power BI Desktop 또는 Power BI 서비스에서 보고서를 작성하든 관계없이 동일한 라이선스 제한이 적용됩니다.
 - 작업 영역 간에 보고서를 복사하려면 Pro 라이선스가 필요합니다.
 - 앱에서 보고서를 복사하려면 조직 콘텐츠 팩에 필요한 것과 같은 Pro 라이선스가 필요합니다.
 - 데이터 세트를 승격 및 인증하려면 Pro 라이선스가 필요합니다.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
+- 앱 게시자는 대상 그룹에게 앱 작업 영역 외부의 데이터 세트에 대한 액세스 권한이 있는지 확인해야 합니다. 그렇지 않으면 사용자가 앱과 상호 작용할 때 문제가 발생할 수 있습니다. 데이터 세트 액세스 권한이 없으면 보고서가 열리지 않으며 대시보드 타일이 잠금 상태로 표시됩니다. 또한 탐색의 첫 번째 항목이 데이터 세트 액세스 권한이 없는 보고서인 경우 사용자가 앱을 열 수 없습니다.
 - 다른 작업 영역에서 데이터 세트 위에 보고서를 빌드하려면 양 끝에 새 작업 영역 환경이 있어야 합니다. 보고서는 새 작업 영역 환경에 있어야 하고 데이터 세트도 새 작업 영역 환경에 있어야 합니다.
-- 작업 영역 B의 데이터 세트를 기반으로 하는 보고서를 작업 영역 A에서 만든다고 가정합니다. 작업 영역 A의 앱을 만들 때 작업 영역 B의 구성원이기도 한 경우에만 해당 보고서를 작업 영역 A 앱에 포함할 수 있습니다.
 - 클래식 작업 영역에서 데이터 세트 검색 환경은 해당 작업 영역의 데이터 세트만 보여줍니다.
-- 공유 데이터 세트를 기반으로 하는 보고서를 추가하려면 데이터 세트 작업 영역의 멤버여야 합니다. 이는 알려진 문제입니다.
 - 의도적으로, 공유 데이터 세트를 기반으로 하는 보고서의 경우 “웹에 게시”가 작동하지 않습니다.
 - 두 사람이 공유 데이터 세트에 액세스하는 작업 영역의 멤버인 경우, 둘 중 한명만 작업 영역에서 관련 데이터 세트를 볼 수 있습니다. 데이터 세트에 대한 읽기 이상의 액세스 권한이 있는 사용자만 공유 데이터 세트를 볼 수 있습니다. 
 
