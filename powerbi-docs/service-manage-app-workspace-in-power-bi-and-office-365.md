@@ -19,7 +19,7 @@ ms.locfileid: "72020765"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI 및 Office 365에서 앱 작업 영역 관리
 
-[Power BI 또는 Office 365에서 앱 작업 영역](service-create-distribute-apps.md)의 작성자나 관리자는 Power BI의 작업 영역에 대한 몇 가지 측면을 관리합니다. Office 365에서 관리하는 기타 측면.
+[Power BI 또는 Office 365에서 앱 작업 영역](service-create-distribute-apps.md)의 작성자나 관리자는 Power BI의 작업 영역에 대한 몇 가지 측면을 관리합니다. 다른 측면은 Office 365에서 관리합니다.
 
 > [!NOTE]
 > 새 작업 영역 환경에서 Power BI 작업 영역과 Office 365 그룹 간의 관계를 변경합니다. 새 작업 영역 중 하나를 만들 때마다 Office 365 그룹을 자동으로 만드는 것은 아닙니다. [새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
@@ -32,10 +32,10 @@ ms.locfileid: "72020765"
 
 **Office 365**에서 다음을 수행할 수 있습니다.
 
-* 구성원을 소유자로 설정하는 등, 앱 작업 영역의 그룹 구성원을 추가 또는 제거합니다.
-* 그룹 이름, 이미지, 설명 및 기타 설정을 편집합니다.
-* 그룹 전자 메일 주소를 참조하세요.
-* 그룹 삭제.
+* 구성원을 소유자로 설정하는 등, 앱 작업 영역의 그룹 구성원 추가 또는 제거
+* 그룹 이름, 이미지, 설명 및 기타 설정 편집
+* 그룹 전자 메일 주소 참조
+* 그룹 삭제
 
 앱 작업 영역의 관리자 또는 구성원이 되려면 [Power BI Pro 라이선스](service-features-license-type.md)가 필요합니다. 앱 작업 영역이 Power BI 프리미엄 용량에 있는 경우를 제외하고 앱 사용자는 Power BI Pro 라이선스가 필요합니다. 자세한 내용은 [Power BI 프리미엄이란?](service-premium-what-is.md)을 참조하세요.
 
