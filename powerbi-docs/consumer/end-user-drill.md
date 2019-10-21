@@ -7,17 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/1/2019
+ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bc6a6557d01ba8145659bb244be8eb5786220665
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944107"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589503"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI에서 시각적 개체 드릴 모드
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 이 문서에서는 Microsoft Power BI 서비스의 시각적 개체에서 드릴다운하는 방법을 보여 줍니다. 데이터 요소에서 드릴다운 및 드릴업을 사용하면 데이터의 세부 정보를 살펴볼 수 있습니다. 
 
@@ -77,7 +79,7 @@ ms.locfileid: "71944107"
 ### <a name="drill-down-one-field-at-a-time"></a>한 번에 한 필드 드릴다운
 
 
-1. 드릴다운 아이콘을 선택하여 켭니다. ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png)을 선택합니다.
+1. 드릴다운 아이콘을 선택하여 켭니다. ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png).
 
     이제 시각적 개체 요소를 선택하여 **한 번에 한 필드**를 드릴다운하는 옵션이 표시됩니다. 시각적 요소의 예에는 막대, 거품, 리프가 있습니다.
 

@@ -8,17 +8,20 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/11/2019
+ms.date: 10/11/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 6aec9f569f657c58eb1dc0b807bbceefc62ab01a
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 80033cafbe66303a1d6f55bba61f7d19449dc45b
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943867"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589519"
 ---
 # <a name="export-data-from-a-visual"></a>시각적 개체에서 데이터 내보내기
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 시각적 개체를 만드는 데 사용되는 데이터를 보려는 경우 [Power BI에서 해당 데이터를 표시](end-user-show-data.md)하거나 해당 데이터를 Excel에 내보낼 수 있습니다. 데이터를 내보내는 옵션에는 특정 형식이나 라이선스가 필요하며 콘텐츠에 대한 편집 권한이 필요합니다. 내보낼 수 없는 경우 Power BI 관리자에게 문의하세요. 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Power BI 대시보드의 시각화 개체에서

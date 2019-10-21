@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/01/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aabc58e34e5ba61f44673905450c8feb8d6ace47
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 91ae7fbbba8b9ba63e8b429c8b2ef3a3adb1c95e
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532224"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307163"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 보고서의 시각화
 
@@ -28,7 +28,7 @@ Power BI 시각화 창에서 바로 사용할 수 있는 다양한 시각적 개
 
 ![](media/power-bi-report-visualizations/power-bi-templates.png)
 
-더 많은 선택 옵션을 보려면 [Microsoft AppSource 커뮤니티 사이트](https://appsource.microsoft.com)를 방문하여 Microsoft와 커뮤니티에서 제공하는 [사용자 지정 시각적 개체](../developer/custom-visual-develop-tutorial.md)를 찾아서 [다운로드](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)하세요.
+더 많은 선택 옵션을 보려면 [Microsoft AppSource 커뮤니티 사이트](https://appsource.microsoft.com)를 방문하여 Microsoft와 커뮤니티에서 제공하는 [사용자 지정 시각적 개체](../developer/visuals/custom-visual-develop-tutorial.md)를 찾아서 [다운로드](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)하세요.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -41,11 +41,11 @@ Power BI를 처음 사용하거나 복습이 필요하면, 아래 링크를 사�
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>사용자 지정 시각적 개체의 업로드 및 Power BI에서 사용
 
-직접 만든 또는 [Microsoft AppSource 커뮤니티 사이트](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)에서 찾은 사용자 지정 시각적 개체를 추가합니다. 창의성을 발휘하고 싶으신가요? 소스 코드를 더 자세히 살펴보고 [개발자 도구](../developer/custom-visual-develop-tutorial.md)를 사용하여 새로운 시각적 개체를 만들고 [커뮤니티에도 공유](../developer/office-store.md)해 주세요. 사용자 지정 시각적 개체를 개발하는 방법을 자세히 알아보려면 [Power BI 사용자 지정 시각적 개체 개발](../developer/custom-visual-develop-tutorial.md)을 참조하세요.
+직접 만든 또는 [Microsoft AppSource 커뮤니티 사이트](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)에서 찾은 사용자 지정 시각적 개체를 추가합니다. 창의성을 발휘하고 싶으신가요? 소스 코드를 더 자세히 살펴보고 [개발자 도구](../developer/visuals/custom-visual-develop-tutorial.md)를 사용하여 새로운 시각적 개체를 만들고 [커뮤니티에도 공유](../developer/office-store.md)해 주세요. 사용자 지정 시각적 개체를 개발하는 방법을 자세히 알아보려면 [Power BI 사용자 지정 시각적 개체 개발](../developer/visuals/custom-visual-develop-tutorial.md)을 참조하세요.
 
 ## <a name="personalize-your-visualization-pane-preview"></a>시각화 창 개인 설정(미리 보기)
 
-여러 보고서에서 동일한 사용자 지정 시각적 개체를 사용하는 경우 시각화 창에 사용자 지정 시각적 개체를 고정할 수 있습니다. 시각화를 고정하려면 시각적 개체를 마우스 오른쪽 단추로 클릭하여 창에 고정합니다.
+여러 보고서에서 동일한 사용자 지정 시각적 개체를 사용하는 경우 시각화 창에 사용자 지정 시각화를 고정할 수 있습니다. 시각화를 고정하려면 시각적 개체를 마우스 오른쪽 단추로 클릭하여 창에 고정합니다.
 
 ![시각화 창에 고정](media/power-bi-report-visualizations/power-bi-pin-custom-visual-option.png)
 

@@ -6,17 +6,20 @@ manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/22/2019
+ms.date: 10/18/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0b4da978687afbafcc7f0d48b6df220b240a507f
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: 5383b06bbc40953ea9f4322562190b6a7b29db14
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207620"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589434"
 ---
 # <a name="what-are-bookmarks"></a>책갈피란?
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 책갈피는 보고서 페이지에 대해 현재 구성된 보기를 캡처합니다. 여기에는 필터, 슬라이서, 시각적 개체의 상태가 포함됩니다. 책갈피를 선택하면 해당 보기로 이동하게 됩니다. 책갈피에는 두 가지 유형이 있습니다. 하나는 사용자가 직접 만든 것이고, 다른 하나는 보고서 *디자이너*가 만든 것입니다.
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 

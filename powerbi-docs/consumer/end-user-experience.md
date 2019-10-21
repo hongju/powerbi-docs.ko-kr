@@ -9,17 +9,19 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 12/06/2018
+ms.date: 10/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: af7f2f0ca5407694b13f0b053ff347f883c8c983
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "68523031"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589447"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>빠른 시작 - Power BI 서비스 살펴보기
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 이제 Power BI의 기본 사항을 알아보았으므로 **Power BI 서비스**를 살펴보겠습니다. 앞서 언급했듯이 특정 팀원이 **Power BI Desktop**에서 모든 시간을 보내면서 데이터를 결합하고 다른 사용자를 위한 보고서를 만들 수 있습니다. 그러나 다른 한편으로는 Power BI 서비스에서 모든 시간을 보내면서 다른 사람이 만든 콘텐츠를 보고 상호 작용(**소비** 경험)할 수도 있습니다. 이 빠른 시작에서는 샘플 데이터를 가져오고, 해당 데이터를 사용하여 Power BI 서비스에 대해 알아봅니다. 
  

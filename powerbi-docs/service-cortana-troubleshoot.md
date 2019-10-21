@@ -7,16 +7,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: cb0870bf6f1cdca3cb1f95dc516f5f9124422327
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 678910000a0062836004b208cb401774c9eb2a9a
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523382"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72542875"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI용 Cortana 문제 해결
 이 문서는 시리즈의 일부입니다. 

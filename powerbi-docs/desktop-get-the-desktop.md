@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e7a96186fe68ed0d70de7a502e81da4f24f4d802
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 7c99b00427ffe742511c0029da79b6ebde02d916
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903598"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511681"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 **Power BI Desktop**을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. **Power BI Desktop**에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다.  **Power BI Desktop**은 무료로 다운로드할 수 있습니다.
@@ -105,28 +105,6 @@ Microsoft Store에서 **Power BI Desktop**을 설치할 때 다음과 같은 몇
 
 항상 Power BI Desktop 사용 경험이 만족스럽기를 바랍니다. Power BI Desktop 사용에 문제가 발생할 수 있으므로, 이 섹션에는 발생할 수 있는 문제를 해결하기 위한 해결 방법이나 제안 사항이 포함되어 있습니다. 
 
-### <a name="installing-power-bi-desktop-on-remote-machines"></a>원격 컴퓨터에 Power BI Desktop 설치
-
-Windows Installer 파일(.msi 파일)을 필요로 하는 도구를 사용하여 사용자에게 Power BI Desktop을 배포하는 경우 Power BI Desktop 설치 관리자 .exe 파일에서 .msi 파일을 추출할 수 있습니다. WiX 도구 세트와 같은 타사 도구를 사용하여 이 작업을 수행할 수 있습니다.
-
-> [!NOTE]
-> WiX 도구 세트 옵션은 타사 제품이므로 예고 없이 변경될 수 있습니다. 최신 정보는 해당 설명서를 확인하고 지원이 필요한 경우 사용자 메일 목록에 문의하세요.
-
-* Power BI Desktop 설치 관리자를 다운로드한 컴퓨터에서 WiX 웹 사이트 https://wixtoolset.org/ 에서 최신 버전의 WiX 도구 세트를 다운로드하여 설치합니다.
-* 관리자 권한으로 명령줄 창을 열고 WiX 도구 세트를 설치한 폴더로 이동합니다.
-* 다음 명령을 실행합니다. 
-    
-    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
-
-    예를 들어 다음을 실행합니다.
-
-    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
-
-* 출력 폴더에는 .msi 파일을 포함하는 *AttachedContainer*라는 폴더가 포함됩니다.
-
-
-
-
 ### <a name="using-command-line-options-during-installation"></a>설치 중에 명령줄 옵션 사용 
 
 Power BI Desktop을 설치할 때 명령줄 스위치를 사용하여 속성과 옵션을 설정할 수 있습니다. 이 기능은 조직 전체의 Power BI Desktop 설치를 관리하거나 지원하는 관리자에게 특히 유용합니다. 이러한 옵션은 .msi 설치와 .exe 설치에 모두 적용됩니다. 
@@ -146,7 +124,6 @@ Power BI Desktop을 설치할 때 명령줄 스위치를 사용하여 속성과 
 
 "PROPERTY = VALUE" 구문으로 지정하는 다음 **구문 매개 변수**를 사용할 수도 있습니다.
 
-
 |매개 변수  |의미  |
 |---------|---------|
 |ACCEPT_EULA     |EULA에 자동으로 동의하려면 값 1이 필요합니다.         |
@@ -156,12 +133,28 @@ Power BI Desktop을 설치할 때 명령줄 스위치를 사용하여 속성과 
 |LANGUAGE     |애플리케이션의 기본 언어를 강제로 적용하는 로캘 코드(예: en-us, de-de, pr-BR)입니다. 언어를 지정하지 않으면 Power BI Desktop은 Windows OS 언어를 표시합니다. 사용자는 이 언어를 옵션 대화 상자에서 변경할 수 있습니다.         |
 |REG_SHOWLEADGENDIALOG     |값 0을 지정하면 Power BI Desktop에 로그인하기 전에 나타나는 대화 상자를 표시하지 않습니다.         |
 
-
-
-
 예를 들어, 다음과 같은 구문을 사용하여 실행하면 사용자 인터페이스 없이 독일어를 사용하여 설치할 수 있습니다. 
 
 ```“-quiet LANG=de-DE ACCEPT_EULA=1”```
+
+### <a name="installing-power-bi-desktop-on-remote-machines"></a>원격 컴퓨터에 Power BI Desktop 설치
+
+Windows Installer 파일(.msi 파일)을 필요로 하는 도구를 사용하여 사용자에게 Power BI Desktop을 배포하는 경우 Power BI Desktop 설치 관리자 .exe 파일에서 .msi 파일을 추출할 수 있습니다. WiX 도구 세트와 같은 타사 도구를 사용하여 이 작업을 수행할 수 있습니다.
+
+> [!NOTE]
+> WiX 도구 세트 옵션은 타사 제품이므로 예고 없이 변경될 수 있습니다. 최신 정보는 해당 설명서를 확인하고 지원이 필요한 경우 사용자 메일 목록에 문의하세요.
+
+* Power BI Desktop 설치 관리자를 다운로드한 컴퓨터에서 WiX 웹 사이트 https://wixtoolset.org/ 에서 최신 버전의 WiX 도구 세트를 다운로드하여 설치합니다.
+* 관리자 권한으로 명령줄 창을 열고 WiX 도구 세트를 설치한 폴더로 이동합니다.
+* 다음 명령을 실행합니다. 
+    
+    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
+
+    예를 들어 다음을 실행합니다.
+
+    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
+
+* 출력 폴더에는 .msi 파일을 포함하는 *AttachedContainer*라는 폴더가 포함됩니다.
 
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop의 이전 릴리스 사용 시 문제

@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 12/06/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bd0ea66b8caf32e3244ed4e5eef648100fc5169e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 32c42f21eafa7118ed3977340517aeebe8c4219b
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61188098"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72542905"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>새로 고침을 지원하지 않는 데이터 소스 문제 해결
 예약 새로 고침에 대해 데이터 세트를 구성할 때 오류가 발생할 수 있습니다.

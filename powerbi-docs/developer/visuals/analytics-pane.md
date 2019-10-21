@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: 67f9bc793b78d2019875b8165ea71fa712fd9d23
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 0782ea63a9833c220e4d96886d79d42af643e111
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193691"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307601"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Power BI 시각적 개체의 분석 창
 
@@ -26,7 +26,7 @@ ms.locfileid: "71193691"
 
 ## <a name="manage-the-analytics-pane"></a>분석 창 관리
 
-[**서식** 창](https://docs.microsoft.com/power-bi/developer/custom-visual-develop-tutorial-format-options)에서 속성을 관리하는 것과 동일한 방법으로, 시각적 개체의 *capabilities.json* 파일에서 개체를 정의하여 **분석** 창을 관리합니다. 
+[**서식** 창](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options)에서 속성을 관리하는 것과 동일한 방법으로, 시각적 개체의 *capabilities.json* 파일에서 개체를 정의하여 **분석** 창을 관리합니다.
 
 **분석** 창의 차이점은 다음과 같습니다.
 
