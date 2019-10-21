@@ -47,7 +47,7 @@ Power BI 미국 정부에 로그인한 후에 영업 또는 지원 담당자가 
 >Office 정부 클라우드에 등록하지 않으려는 경우 영업 담당자에게 문의하세요.
 >
 
-2. Office 평가판을 Office G3을 선택하고 양식을 작성합니다.
+2. Office G3을 선택하고  Office 평가판 양식을 작성합니다.
 3. Office 클라우드 고객의 경우 "기존 Office 정부 클라우드 고객"에 대한 다음 단계를 계속 진행합니다.
 
 ### <a name="existing-office-government-cloud-customers"></a>기존 Office 정부 클라우드 고객
@@ -66,7 +66,7 @@ Power BI 미국 정부에 로그인한 후에 영업 또는 지원 담당자가 
 6. 사용자를 계정에 할당합니다.
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. [https://app.powerbigov.us](https://app.powerbigov.us)에서 미국 정부 기관 고객용 **Power BI 서비스**에 로그인
+7. [https://app.powerbigov.us](https://app.powerbigov.us)에서 미국 정부 기관 고객용 **Power BI 서비스**에 로그인합니다.
 
 ## <a name="additional-signup-information"></a>추가 등록 정보
 다음은 다양한 라이선스 마이그레이션 사례에서 **Power BI 미국 정부 기관**에 등록하는 것에 대한 자세한 내용입니다.
@@ -75,7 +75,7 @@ Power BI 미국 정부에 로그인한 후에 영업 또는 지원 담당자가 
 * Billing > Purchase Service > Power BI Pro Gov를 클릭하여 적용하고 평가판이 아닌 구매를 선택합니다.
 * 필수 항목을 입력하고 라이선스를 얻습니다.
 * Power BI Pro 평가판을 제거하거나 이전 라이선스를 제거하고 사용자에게 새로 할당합니다.
-* [https://app.powerbigov.us](https://app.powerbigov.us)에 로그인
+* [https://app.powerbigov.us](https://app.powerbigov.us)에 로그인합니다.
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>대리점 Power BI 평가판에서 Pro 고객으로 온보딩
 **Billing > Subscriptions**으로 이동하고 **Power BI Pro for Government** 구독을 선택합니다. 다음이 표시됩니다.
