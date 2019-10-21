@@ -30,7 +30,7 @@ ms.locfileid: "61188098"
 
 1. Power BI Desktop에서 **보고서** 창에 있는지 확인합니다.  
    ![데스크톱 보고서 창](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
-2. 리본 메뉴에서 **쿼리 편집**을 선택합니다.  
+2. 리본 메뉴에서 **쿼리 편집** 을 선택합니다.  
    ![쿼리 편집](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
 3. **고급 편집기**를 선택합니다.  
    ![고급 편집기](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
