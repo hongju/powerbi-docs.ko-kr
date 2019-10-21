@@ -34,9 +34,9 @@ ms.locfileid: "72542905"
    ![쿼리 편집](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
 3. **고급 편집기**를 선택합니다.  
    ![고급 편집기](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
-4. 원본에 대해 나열된 공급자를 메모해 둡니다. 이 예제에서는 공급자가 ActiveDirectory입니다.  
+4. 원본에 대해 나열된 공급자를 메모해 둡니다.  이 예제에서는 공급자가 ActiveDirectory입니다.  
    ![데이터 원본 공급자](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
-5. [Power BI에서 데이터 새로 고침](refresh-data.md)에 있는 지원되는 데이터 원본 복록과 해당 공급자를 비교합니다. Active Directory가 새로 고침이 지원되는 데이터 원본이 아님을 알 수 있습니다.  
+5. [Power BI에서 데이터 새로 고침](refresh-data.md)에 있는 지원되는 데이터 원본 복록과 해당 공급자를 비교합니다.  Active Directory가 새로 고침이 지원되는 데이터 원본이 아님을 알 수 있습니다.  
 
 ## <a name="next-steps"></a>다음 단계
 [데이터 새로 고침](refresh-data.md)  
