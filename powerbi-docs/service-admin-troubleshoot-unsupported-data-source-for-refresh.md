@@ -26,7 +26,7 @@ ms.locfileid: "72542905"
 이러한 오류는 Power BI Desktop에서 사용한 데이터 원본이 새로 고침을 지원하지 않을 때 발생합니다. 사용 중인 데이터 원본을 찾아 [Power BI에서 데이터 새로 고침](refresh-data.md)의 지원되는 데이터 원본 목록과 비교해야 합니다. 
 
 ## <a name="find-the-data-source"></a>데이터 원본 찾기
-어떤 데이터 원본을 사용했는지 잘 모를 경우 Power BI Desktop에서 다음 단계를  통해 찾을 수 있습니다.  
+어떤 데이터 원본을 사용했는지 잘 모를 경우 Power BI Desktop에서 다음 단계를 통해 찾을 수 있습니다.  
 
 1. Power BI Desktop에서 **보고서** 창에 있는지 확인합니다.  
    ![데스크톱 보고서 창](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
@@ -34,9 +34,9 @@ ms.locfileid: "72542905"
    ![쿼리 편집](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
 3. **고급 편집기**를 선택합니다.  
    ![고급 편집기](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
-4. 원본에 대해 나열된 공급자를 메모해 둡니다.  이 예제에서는 공급자가 ActiveDirectory입니다.  
+4. 원본에 대해 나열된 공급자를 메모해 둡니다. 이 예제에서는 공급자가 ActiveDirectory입니다.  
    ![데이터 원본 공급자](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
-5. [Power BI에서 데이터 새로 고침](refresh-data.md)에 있는 지원되는 데이터 원본 복록과 해당 공급자를 비교합니다.  Active Directory가 새로 고침이 지원되는 데이터 원본이 아님을 알 수 있습니다.  
+5. [Power BI에서 데이터 새로 고침](refresh-data.md)에 있는 지원되는 데이터 원본 복록과 해당 공급자를 비교합니다. Active Directory가 새로 고침이 지원되는 데이터 원본이 아님을 알 수 있습니다.  
 
 ## <a name="next-steps"></a>다음 단계
 [데이터 새로 고침](refresh-data.md)  
