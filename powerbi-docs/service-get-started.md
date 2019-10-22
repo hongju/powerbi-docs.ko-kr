@@ -144,7 +144,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
     ![최대 판매 카드](media/service-get-started/power-bi-service-qanda-maximum-sale.png)
 
-3. 고정 아이콘 ![고정 아이콘](media/service-get-started/pbi_pinicon.png)을 선택하여 자습서용 재무 샘플 대시보드에 이 시각화를 표시합니다.
+3. 고정 아이콘 ![고정 아이콘](media/service-get-started/pbi_pinicon.png) 을 선택하여 자습서용 재무 샘플 대시보드에 이 시각화를 표시합니다.
 
 1. **시작할 질문** 목록에서 아래로 스크롤한 다음 **average cog for each month**를 선택합니다. 
 
@@ -152,7 +152,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
 1. **자습서용 재무 샘플** 대시보드에 가로 막대형 차트를 고정합니다.
 
-1. 질문 및 답변 상자의 *월별* 뒤에 커서를 배치하고 *as line*을 입력합니다. **line chart(시각화 유형)**를 선택합니다. 
+1. 질문 및 답변 상자의 *월별* 뒤에 커서를 배치하고 *꺾은선형*을 입력합니다. **꺾은선형(시각화 유형)** 을 선택합니다. 
 
     ![꺾은선형 시각화 차트](media/service-get-started/power-bi-service-qanda-as-line.png)
 
