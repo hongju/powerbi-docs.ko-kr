@@ -16,7 +16,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/30/2019
 ms.locfileid: "70185599"
 ---
-# <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독 
+# <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서에 자신과 다른 사용자 구독 
 
 이제 Power BI 서비스에서 페이지를 매긴 보고서에 대한 이메일 구독을 자신과 다른 사용자에게 설정할 수 있습니다. 일반적으로 프로세스는 [Power BI 서비스의 보고서 및 대시보드에 구독하는 것](service-report-subscribe.md)과 같습니다. 이 문서에서는 차이점과 고려 사항을 설명합니다. 
 
