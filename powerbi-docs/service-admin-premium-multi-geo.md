@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium에 대한 Multi-Geo 지원
+title: Power BI Premium에 대한 다중 지역 지원
 description: Power BI 테넌트의 홈 지역이 아닌 다른 지역에 있는 데이터 센터에 콘텐츠를 배포하는 방법을 알아봅니다.
 author: mgblythe
 ms.author: mblythe
@@ -17,7 +17,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 07/30/2019
 ms.locfileid: "68665405"
 ---
-# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium에 대한 Multi-Geo 지원 구성
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium에 대한 다중 지역 지원 구성
 
 다중 지역은 다국적 고객이 지역별, 산업별 또는 조직별 데이터 보존 요구 사항을 해결하는 데 도움이 되는 Power BI Premium 기능입니다. Power BI Premium 고객은 Power BI 테넌트의 홈 지역이 아닌 다른 지역에 있는 데이터 센터에 콘텐츠를 배포할 수 있습니다. 지역(지리)은 둘 이상의 지역을 포함할 수 있습니다. 예를 들어 미국은 지역이고 미국 중서부 및 미국 중남부는 미국에 있는 지역입니다. 다음 지역에 콘텐츠를 배포할 수 있습니다.
 
@@ -34,7 +34,7 @@ ms.locfileid: "68665405"
 
 Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 정부용)에는 다중 지역을 사용할 수 없습니다.
 
-이제 Power BI Embedded에서도 Multi-Geo를 사용할 수 있습니다. [Power BI Embedded의 Multi-Geo 지원](developer/embedded-multi-geo.md)에서 자세히 알아보세요.
+이제 Power BI Embedded에서도 다중 지역을 사용할 수 있습니다. [Power BI Embedded의 다중 지역 지원](developer/embedded-multi-geo.md)에서 자세히 알아보세요.
 
 ## <a name="enable-and-configure"></a>사용 및 구성
 
@@ -95,11 +95,11 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 - 원격 지역에 저장된 캐시된 쿼리는 해당 지역에 남아 있습니다. 그러나 전송 중인 다른 데이터는 여러 지역 간에 이동할 수 있습니다.
 - 다중 지역 환경에서 데이터를 한 지역에서 다른 지역으로 이동하면 원본 데이터는 최대 30일 동안 데이터 이동이 시작된 지역에 남아 있을 수 있습니다. 해당 기간에 최종 사용자는 데이터에 액세스할 수 없습니다. 데이터가 이 지역에서 제거되고 30일 기간 동안 삭제됩니다.
 - 일반적으로 다중 지역을 사용해도 성능이 향상되지 않습니다. 보고서 및 대시보드 로드에는 메타데이터의 홈 지역에 대한 요청이 포함됩니다.
-- 현재는 [데이터 흐름](service-dataflows-overview.md) 기능이 Multi-GEO에서 지원되지 않습니다.
+- 현재는 [데이터 흐름](service-dataflows-overview.md) 기능이 다중 지역에서 지원되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 - [Power BI 프리미엄이란?](service-premium-what-is.md)
-- [Power BI Embedded 용량에 대한 Multi-Geo](developer/embedded-multi-geo.md)
+- [Power BI Embedded 용량에 대한 다중 지역](developer/embedded-multi-geo.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
