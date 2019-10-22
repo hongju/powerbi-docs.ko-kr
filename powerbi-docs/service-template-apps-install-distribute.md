@@ -22,7 +22,7 @@ Power BI 분석가인가요? 따라서 이 문서에서는 Salesforce, Microsoft
 
 ![Power BI 앱 설치됨](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-직접 배포할 템플릿 앱을 만드는 데 관심이 있는 [Power BI에서 템플릿 앱 만들기](service-template-apps-create.md)를 참조하세요. Power BI 파트너는 코딩이 거의 없거나 전혀 없는 Power BI 앱을 빌드하여 고객에게 배포할 수 있습니다. 
+직접 배포할 템플릿 앱을 만드는 데 관심이 있는 경우, [Power BI에서 템플릿 앱 만들기](service-template-apps-create.md)를 참조하세요. Power BI 파트너는 코딩이 거의 없거나 전혀 없는 Power BI 앱을 빌드하여 고객에게 배포할 수 있습니다. 
 
 ## <a name="prerequisites"></a>필수 조건  
 
