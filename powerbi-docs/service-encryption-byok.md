@@ -175,7 +175,7 @@ Power BI는 테넌트에서 BYOK를 관리할 수 있는 추가 cmdlet을 제공
 
     암호화는 용량 수준에서 사용하도록 설정되지만 암호화 상태는 지정된 작업 영역에 대한 데이터 세트 수준에서 가져옵니다.
 
-- 암화화에 사용되는 키 버전을 전환(또는 _회전_)하려면 [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey)를 사용합니다. cmdlet은 단지 키 `-Name`에 대한 `-KeyVaultKeyUri`를 업데이트합니다.
+- 암호화에 사용되는 키 버전을 전환(또는 _회전_)하려면 [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey)를 사용합니다. cmdlet은 단지 키 `-Name`에 대한 `-KeyVaultKeyUri`를 업데이트합니다.
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
