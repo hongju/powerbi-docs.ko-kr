@@ -41,7 +41,7 @@ Cortana를 Power BI와 통합하는 데 문제가 있는 경우 제대로 찾아
    * 단어 "powerbi"를 추가하면 2개의 필수 단어 중 하나로 계산되어 "powerbi sales(powerbi 매출)"는 Power BI 결과를 반환하게 *됩니다*.
 5. 보고서 또는 대시보드에 대한 액세스 또는 편집 사용 권한이 있습니까? 보고서의 경우 검색하려는 콘텐츠에 [대답 카드](service-cortana-answer-cards.md)가 있는지 확인합니다.  대시보드의 경우 검색하려는 콘텐츠가 **공유한 항목**, 앱 작업 영역 또는 **내 작업 영역**에 있는지 확인합니다. 문제를 파악하는 데 유용한 [문제 해결 도구를 사용](#try-the-cortana-troubleshooting-tool)하세요.
 6. 모바일 디바이스를 사용하고 있습니까?  현재 Windows 모바일 디바이스에서의 Power BI와 Cortana 통합만 지원됩니다.
-7. Cortana가 영어에 대해 구성되어 있습니까?  현재 Cortana-Power BI 통합은 영어만을 지원합니다. Cortana를 열고 톱니 아이콘을 선택하여 설정을 표시합니다. **Cortana 언어**까지 아래로 스크롤하고 영어 옵션 중 하나로 설정되어 있는지 확인합니다.
+7. Cortana가 영어에 대해 구성되어 있습니까?  현재 Cortana-Power BI 통합은 영어만을 지원합니다. Cortana를 열고 톱니 모양 아이콘을 선택하여 설정을 표시합니다. **Cortana 언어**까지 아래로 스크롤하고 영어 옵션 중 하나로 설정되어 있는지 확인합니다.
 
    ![Cortana 언어 설정](media/service-cortana-troubleshoot/power-bi-cortana-language.png)
 8. Cortana에 대해 활성화한 보고서가 100개 이상입니까?  Cortana는 최대 총 100개만을 검색합니다.  보고서가 포함되어 있는지 확인하려면 Cortana가 내 작업 영역을 처음으로 검색하므로 **내 작업 영역**으로 이동하거나 복사합니다.
@@ -83,7 +83,7 @@ Cortana를 Power BI와 통합하는 데 문제가 있는 경우 제대로 찾아
 
    ![Utterance 필드의 Cortana 매장](media/service-cortana-troubleshoot/power-bi-utterance.png)
 
-   결과를 얻었으므로 이제 Cortana**가** Power BI에서 사용하도록 설정된 것을 알 수 있습니다. 문제를 Windows 쪽 또는 Cortana 언어 설정의 문제 항목 또는 Cortana에 대해 활성화된 100개 이상의 데이터 세트를 갖는 것으로 좁힙니다.
+   결과를 얻었으므로 이제 Cortana가 Power BI에서 사용하도록 설정**된** 것을 알 수 있습니다. 문제를 Windows 쪽 또는 Cortana 언어 설정의 문제 항목 또는 Cortana에 대해 활성화된 100개 이상의 데이터 세트를 갖는 것으로 좁힙니다.
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>대시보드에서 대답을 검색하는 데 문제가 있습니까?
 사용자와 공유된 대시보드를 찾고 있나요?  Power BI > **공유한 항목**을 열고 대시보드의 이름을 찾습니다.  그런 다음, 해당 이름을 **Utterances** 필드에 입력합니다.
