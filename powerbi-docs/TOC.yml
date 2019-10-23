@@ -353,6 +353,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: 행렬 시각적 개체
               href: visuals/desktop-matrix-visual.md
+            - name: Q&A 시각적 개체
+              href: visuals/power-bi-visualization-q-and-a.md
             - name: Power BI에서 R 스크립트를 사용하여 고급 분석 및 시각화 만들기
               href: visuals/service-r-visuals.md
             - name: Power BI의 방사형 계기 차트
@@ -375,6 +377,22 @@
               href: visuals/power-bi-visualization-waterfall-charts.md
             - name: 동적 참조 줄 만들기
               href: service-analytics-pane.md
+        - name: 자연어
+          items:
+            - name: Q&A 소개
+              href: natural-language/q-and-a-intro.md
+            - name: Q&A 시각적 개체
+              href: visuals/power-bi-visualization-q-and-a.md
+            - name: Q&A 도구 소개
+              href: natural-language/q-and-a-tooling-intro.md
+            - name: Q&A 도구 교육 Q&A
+              href: natural-language/q-and-a-tooling-teach-q-and-a.md
+            - name: Q&A 도구 고급
+              href: natural-language/q-and-a-tooling-advanced.md
+            - name: Q&A 모범 사례
+              href: natural-language/q-and-a-best-practices.md
+            - name: Q&A 제한 사항
+              href: natural-language/q-and-a-limitations.md
         - name: 문제 해결
           items:
             - name: Power BI Desktop 및 파워 쿼리에서 Access 데이터베이스 및 Excel 스프레드시트 가져오기 문제 해결
