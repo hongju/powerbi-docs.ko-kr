@@ -18,7 +18,7 @@ ms.locfileid: "65625367"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI q&a를 사용 하 여 데이터 탐색 및 시각적 개체 만들기
 
-경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. Power BI의 질문 및 답변 기능을 사용 하면 자신만의 데이터를 탐색할 수 있습니다.  이 문서의 첫 번째 부분에서 Power BI 서비스에서 대시보드 질문 및 답변 사용 되는 방법을 보여 줍니다. 두 번째 부분에서는 수행할 수 있는 질문 및 답변을 사용 하 여 Power BI 서비스 또는 Power BI Desktop에서 보고서를 만들 때를 보여 줍니다. 자세한 배경 정보를 참조 하세요. 합니다 [소비자에 대 한 q&a](consumer/end-user-q-and-a.md) 문서. 
+경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. ower BI의 질문 및 답변 기능을 통해 직접 데이터를 탐색할 수 있습니다.  이 문서의 첫 번째 부분에서 Power BI 서비스의 대시보드에서 질문 및 답변을 사용하는 방법을 보여 줍니다. 두 번째 부분에서는 Power BI 서비스 또는 Power BI Desktop에서 보고서를 만들 때 질문 및 답변으로 수행할 수 있는 작업을 보여 줍니다. 자세한 배경 정보는 [소비자에 대한 질문과 답변](consumer/end-user-q-and-a.md) 문서를 참조하세요. 
 
 [Power BI 모바일 앱에서 q&a](consumer/mobile/mobile-apps-ios-qna.md) 하 고 [질문 및 답변과 Power BI Embedded](developer/qanda.md) 별도 문서에 나와 있습니다. 
 
