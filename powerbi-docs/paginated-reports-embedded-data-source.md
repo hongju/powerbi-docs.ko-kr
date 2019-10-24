@@ -21,7 +21,7 @@ ms.locfileid: "72020809"
 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 원본을 만들고 수정하는 방법을 알아봅니다. 단일 보고서에 포함된 데이터 원본을 정의하고 해당 보고서에서만 사용합니다. 현재 Power BI 서비스에 게시된 페이지를 매긴 보고서에는 포함된 데이터 세트 및 포함된 데이터 원본이 필요하며 이 보고서를 다음 데이터 원본에 연결할 수 있습니다.
 
 - Azure Analysis Services
-- 라이브 데이터에 
+- Azure SQL Database 
 - Azure SQL Data Warehouse
 - SQL Server
 - SQL Server Analysis Services
