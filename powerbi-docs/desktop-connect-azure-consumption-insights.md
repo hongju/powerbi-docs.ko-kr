@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop에서 Azure 비용 및 사용량 데이터 분석
+title: Power BI Desktop에서 Azure Consumption Insights 데이터에 연결
 description: Power BI Desktop을 사용하여 쉽게 Azure에 연결 및 소비 및 사용량에 대한 정보 얻기
 author: davidiseminger
 manager: kfile
@@ -8,29 +8,22 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 44a9e361a1f5031963ba5ce33ee44c7b21f5459b
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160194"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307539"
 ---
-# <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure 비용 및 사용량 데이터 분석
+# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Consumption Insights 데이터에 연결
 
-Power BI Desktop을 사용하여 Azure에 연결하고, 조직의 Azure 서비스 사용량에 대한 자세한 데이터를 가져올 수 있습니다. 이 데이터를 통해 사용자 지정 보고서 및 측정값을 만들어 Azure 지출을 더 잘 이해하고 분석할 수 있습니다.
-
-Power BI는 현재 기업 계약 및 고객 계약 청구 계정에 대한 연결을 지원합니다.
-
-* **기업계약** 사용자는 **Azure Consumption Insights 커넥터**(아래)를 사용해서 연결해야 합니다.
-
-* **고객 계약** 사용자는 [**Azure Cost Management 커넥터**](#connect-with-azure-cost-management)를 사용해서 연결해야 합니다.
+Power BI Desktop을 사용하여 Azure에 연결하고, 조직의 Azure 서비스 사용량에 대한 자세한 데이터를 가져올 수 있습니다. 이 데이터를 통해 사용자 지정 보고서 및 측정값을 만들어 Azure 소비를 더 잘 이해하고 분석할 수 있습니다.
 
 > [!NOTE]
-> Azure Cost Management 커넥터를 사용하는 기업계약 고객이며 Cost Management 블레이드에  ‘청구 프로필 ID’가 표시되지 않으면 최신 상거래 플랫폼에 있지 않은 것입니다. 이러한 경우  ‘청구 프로필’ ID 대신 EA 등록 번호를 요청하는 Azure Consumption Insights 커넥터를 사용합니다.
-
+> Microsoft Azure Consumption Insights(베타)는 제한적으로 지원됩니다. 새로운 기능으로는 [Power BI용 Azure Cost Management](desktop-connect-azure-cost-management.md) 커넥터를 사용합니다.
 
 ## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights에 연결
 
@@ -236,112 +229,12 @@ Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하
 | SubscriptionId |subscriptionId |SubscriptionId |예 |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |아니요 |
 
-## <a name="connect-with-azure-cost-management"></a>Azure Cost Management에 연결
-
-이 섹션에서는 고객 계약 청구 계정에 연결하는 방법을 알아봅니다.
-
-> [!NOTE]
-> Azure Cost Management 커넥터는 현재 **고객 계약**에서 고객을 지원합니다.  **기업 계약** 고객은 Microsoft Azure Consumption Insights 커넥터를 사용해야 합니다.
->
->
-
-**Power BI Desktop**에서 **Azure Cost Management** 커넥터를 사용하려면 다음을 수행합니다.
-
-1. **홈** 리본에서 **데이터 가져오기**를 선택합니다.
-
-1. 왼쪽 범주에서 **Azure**를 선택합니다.
-
-1. 오른쪽에서 **Azure Cost Management(베타)** 를 선택합니다.
-
-1. **연결**을 선택합니다.
-
-
-   ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
-
-   표시되는 대화 상자에서 **청구 프로필 ID**를 입력합니다.
-
-   ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-01.png)
-
-[Azure Portal](https://portal.azure.com)에서 ID를 확인할 수 있습니다.
-
-1. **Cost Management + 청구**로 이동합니다.
-
-1. 청구 계정을 선택합니다.
-
-1. 사이드바에서 **청구 프로필**을 선택합니다.
-
-1. 청구 프로필을 선택합니다.
-
-1. 사이드바에서 **속성**을 선택합니다.
-
-1. 청구 프로필 ID를 복사합니다.
-
-   ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-02.png)
-
-   Azure 메일 및 암호를 사용하여 로그인하라는 메시지가 표시됩니다.  인증에 성공하면 사용 가능한 12개 테이블이 포함된 **탐색기** 창이 표시됩니다.
-
-| 테이블        | 설명 |
-|-------------------- | -------------------------------------------------------------|
-| **청구 이벤트** | 새 송장, 크레딧 구매 등의 이벤트 로그입니다. |
-| **Budgets** | 기존 예산 목표 대비 실제 비용 또는 사용량을 보기 위한 예산 정보입니다. |
-| **요금** | Azure 사용량, 마켓플레이스 요금 및 개별 청구 요금의 월별 요약입니다. |
-| **크레딧 로트** | 제공된 청구 프로필에 대한 Azure 크레딧 로트 구매 정보입니다. |
-| **크레딧 요약** | 제공된 청구 프로필에 대한 크레딧 요약입니다. |
-| **마켓플레이스** | 사용량 기반 Azure Marketplace 요금입니다. |
-| **Pricesheets** | 제공된 청구 프로필에 적용 가능한 미터 요율입니다. |
-| **RI 요금** | 지난 24개월 동안 예약 인스턴스와 관련된 요금입니다. |
-| **RI 권장 사항(단일)** | 지난 7일, 30일 또는 60일 동안의 단일 구독 사용량 추세를 기반으로 하는 예약 인스턴스 구매 권장 사항입니다. |
-| **RI 권장 사항(공유)** | 지난 7일, 30일 또는 60일 동안의 모든 구독 사용량 추세를 기반으로 하는 예약 인스턴스 구매 권장 사항입니다. |
-| **RI 사용량** | 지난 한 달 동안의 기존 예약 인스턴스 소비 정보입니다. |
-| **사용량 세부 정보** | 지정된 청구 프로필 ID에 대해 사용한 수량 및 예상 요금 내역입니다. |
-
-테이블 확인란을 선택하여 미리 보기를 확인할 수 있습니다.  해당 이름 옆에 있는 확인란을 선택하고 **로드**를 선택하면 하나 이상의 테이블을 선택할 수 있습니다.
-
-![](media/desktop-connect-azure-consumption-insights/azure-cost-management-03.png)
-
-**로드**를 선택하면, 데이터가 **Power BI Desktop**에 로드됩니다.
-
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
-
-선택한 데이터가 로드되면 선택한 테이블 및 필드를 **필드** 창에서 볼 수 있습니다.
-
-![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
-
-[Azure Consumption Insights를 사용하여 Power BI의 지출을 분석하는 방법](https://www.youtube.com/watch?v=QKBMXXrlpEk)을 시청하세요. 이 동영상은 Azure Consumption Insights 커넥터를 사용하여 Power BI Desktop의 비용 데이터를 검토하는 방법을 설명합니다.
-
-## <a name="writing-custom-queries"></a>사용자 지정 쿼리 작성
-
-사용자 지정 [M 쿼리](/powerquery-m/power-query-m-reference)를 만들어 개월 수를 사용자 지정하거나, API 버전을 변경하거나, 반환된 데이터에 대해 고급 논리를 수행할 수 있습니다.
-
-**Power BI Desktop**에서 다음을 수행합니다.
-
-1. **홈** 리본을 선택합니다.
-2. **데이터 가져오기** > **빈 쿼리**를 선택합니다.
-
-또는 **쿼리 편집기**에서 다음을 수행합니다.
-
-1. 왼쪽 **쿼리** 창에서 마우스 오른쪽 단추를 클릭합니다.
-2. 표시되는 메뉴에서 **새 쿼리 > 빈 메뉴**를 선택합니다.
-
-**수식 입력줄**에서 다음을 입력합니다. `billingProfileId`를 실제 ID로 바꾸고, “charges”를 유효한 테이블 이름(위에서 나열)으로 바꾸어 입력합니다.
-
-```
-let
-    Source = AzureCostManagement.Tables(billingProfileId, [ numberOfMonths = 3 ]),
-    charges = Source{[Key="charges"]}[Data]
-in
-    charges
-```
-
-`numberOfMonths`를 1과 36 사이의 값으로 수정하는 것 외에도 다음을 입력할 수 있습니다.
-
-* `apiVersion`을 입력하여 쿼리가 호출하는 API 버전을 사용자 지정합니다.
-* RI 권장 사항(단일 또는 공유)에 대한 `lookbackWindow`를 입력하여 권장 사항을 생성하는 창을 수정합니다(유효한 옵션: 7일, 30일 또는 60일).
 
 ## <a name="next-steps"></a>다음 단계
 
 Power BI Desktop을 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 자세한 내용은 다음 아티클을 참조하세요.
 
+* [Power BI Desktop에서 Azure Cost Management 데이터에 연결](desktop-connect-azure-cost-management.md)
 * [Power BI Desktop이란?](desktop-what-is-desktop.md)
 * [Power BI Desktop의 데이터 원본](desktop-data-sources.md)
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)

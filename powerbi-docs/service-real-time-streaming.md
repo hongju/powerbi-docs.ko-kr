@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f88d1e0458e6a1b3abe20c0b4dd889c037ede612
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514314"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307352"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI에서 실시간 스트리밍
 Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스트리밍하고 대시보드를 업데이트할 수 있습니다. Power BI에서 만들 수 있는 시각적 개체 또는 대시보드를 실시간 데이터 및 시각적 개체를 표시하고 업데이트하도록 만들 수도 있습니다. 스트리밍 데이터의 디바이스 및 원본은 팩터리 센서, 소셜 미디어 원본, 서비스 사용 메트릭 및 시간이 중요한 데이터가 수집되거나 전송되는 모든 것일 수 있습니다.
@@ -235,6 +235,13 @@ Power BI에서 실시간 스트리밍이 작동되는 방법에 대한 간단한
 4. Azure Stream Analytics 쿼리가 명확하게 Power BI 출력으로 출력합니까? (INTO 키워드 사용)
 5. Azure Stream Analytics 작업에 이를 통해 흐르는 데이터가 있습니까? 데이터 세트는 전송되는 데이터가 있는 경우에만 만들어집니다.
 6. Azure Stream Analytics 로그를 살펴보아 경고 또는 오류가 있는지 확인할 수 있습니까?
+
+## <a name="automatic-page-refresh"></a>자동 페이지 새로 고침
+
+자동 페이지 새로 고침은 보고서 페이지 수준에서 작동하며, 보고서 작성자는 페이지를 사용 중인 경우에만 활성화되는 페이지의 시각적 개체에 대한 새로 고침 간격을 설정할 수 있습니다. 자동 페이지 새로 고침은 DirectQuery 데이터 원본에 대해서만 사용할 수 있습니다. 최소 새로 고침 간격은 보고서가 게시된 작업 영역 유형과 프리미엄 작업 영역에 대한 용량 관리 설정에 따라 달라집니다.
+
+자동 페이지 새로 고침에 대한 자세한 내용은 [자동 페이지 새로 고침](desktop-automatic-page-refresh.md) 문서를 참조하세요.
+
 
 ## <a name="next-steps"></a>다음 단계
 다음은 Power BI의 실시간 스트리밍으로 작업하는 경우 유용한 몇 가지 링크입니다.

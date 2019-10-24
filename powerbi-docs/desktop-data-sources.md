@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 417238550f68a1c244bab33b8343712f02242eae
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945273"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307846"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 있습니다. 이 페이지의 맨 아래에는 사용 가능한 데이터 원본의 전체 목록이 있습니다.
@@ -225,6 +225,201 @@ URL 또는 리소스 연결 정보를 입력한 경우 **확인**을 선택합�
 **탐색기** 창의 맨 아래에 있는 **로드** 단추를 선택하여 데이터를 로드하거나 **편집** 단추를 선택하여 데이터를 로드하기 전에 쿼리를 편집할 수 있습니다.
 
 Power BI Desktop에서 데이터 소스에 연결하는 데 필요한 작업을 마쳤습니다. 데이터 원본의 성장 목록에서 데이터에 연결을 시도하고 자주 확인하세요. 항상 이 목록에 계속해서 추가합니다.
+
+## <a name="using-pbids-files-to-get-data"></a>PBIDS 파일을 사용하여 데이터 가져오기
+
+PBIDS 파일은 특정 구조가 있는 Power BI Desktop 파일이며, Power BI 데이터 원본 파일임을 식별하기 위한 PBIDS 확장명이 있습니다.
+
+조직의 보고서 작성자를 위한 **데이터 가져오기** 환경을 간소화하기 위해 PBIDS 파일을 만들 수 있습니다. 새 보고서 작성자를 위해 PBIDS 파일의 사용이 용이하도록, 관리자는 일반적으로 사용되는 연결용으로 이러한 파일을 만드는 것이 좋습니다. 
+
+작성자가 PBIDS 파일을 열 때, Power BI Desktop이 열리고 사용자에게 인증을 위해 자격 증명을 입력하라는 메시지를 표시하고 파일에 지정되어 있는 데이터 원본에 연결합니다. 탐색 대화 상자가 나타나면, 사용자가 해당 데이터 원본에서 테이블을 선택하여 모델에 로드해야 합니다. PBIDS 파일에서 지정되지 않은 경우 사용자가 데이터베이스를 선택해야 할 수도 있습니다. 
+
+그 시점부터는, 사용자가 시각화를 작성하기 시작하거나 *최근 sourcesU를 다시 방문하여 새 테이블 집합을 모델에 로드할 수 있습니다. 
+
+현재 PBIDS 파일은 한 파일의 단일 데이터 원본만 지원합니다. 둘 이상의 데이터 원본을 지정하면 오류가 발생합니다. 
+
+.PBIDS 파일을 생성하려면 관리자가 단일 연결에 필요한 입력을 지정해야 하며, **DirectQuery** 또는 **가져오기**로 연결 모드를 지정할 수 있습니다. 파일에 **모드**가 없거나 비어있는 경우, Power BI Desktop에서 파일을 여는 사용자에게 DirectQuery 또는 가져오기를 선택하라는 메시지가 표시됩니다. 
+
+### <a name="pbids-file-examples"></a>PBIDS 파일 예제
+
+이 섹션에서는 일반적으로 사용되는 데이터 원본의 몇 가지 예를 제공합니다. .PBIDS 파일 형식은 Power BI Desktop에서도 지원되는 데이터 연결만 지원합니다. 단, Live Connect 및 빈 쿼리의 경우는 예외입니다. 
+
+.PBIDS 파일은 인증 정보와 테이블 및 스키마 정보를 포함하지 *않습니다*.  
+
+다음은 .PBIDS 파일에 대한 몇 가지 일반적인 예이며, 완전하거나 포괄적이지는 않습니다. 다른 데이터 원본에 대해서는 [프로토콜 및 주소 정보를 위한 데이터 원본 참조(DSR) 서식](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification)을 참조할 수 있습니다.
+
+이러한 예는 편의를 위한 것으로, 포괄적이지 않으며 지원되는 모든 커넥터를 DSR 서식에 포함하지는 않습니다. 관리자 또는 조직은 이러한 예를 자체의 고유한 데이터 원본 파일을 만들고 지원할 수 있는 가이드로 사용하여 자체의 고유한 데이터 원본을 만들 수 있습니다. 
+
+
+**Azure AS**
+```
+{ 
+    "version": "0.1", 
+    "connections": [ 
+    { 
+        "details": { 
+        "protocol": "analysis-services", 
+        "address": { 
+            "server": "server-here" 
+        }, 
+        } 
+    } 
+    ] 
+}
+```
+
+
+ 
+
+**폴더**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "folder", 
+        "address": { 
+            "path": "folder-path-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+
+**OData**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "odata", 
+        "address": { 
+            "url": "URL-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+**SAP BW**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sap-bw-olap", 
+        "address": { 
+          "server": "server-name-here", 
+          "systemNumber": "system-number-here", 
+          "clientId": "client-id-here" 
+        }, 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+**SAP Hana**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sap-hana-sql", 
+        "address": { 
+          "server": "server-name-here:port-here" 
+        }, 
+      } 
+    } 
+  ] 
+} 
+```
+
+**SharePoint 목록**
+
+URL은 사이트 내의 목록이 아니라 SharePoint 사이트 자체를 가리켜야 합니다. 사용자는 해당 사이트에서 목록을 하나 이상 선택할 수 있는 탐색기를 가져옵니다(이러한 목록은 각각 모델에서 테이블이 됩니다). 
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sharepoint-list", 
+        "address": { 
+          "url": "URL-here" 
+        }, 
+       } 
+    } 
+  ] 
+} 
+```
+ 
+ 
+**SQL Server**
+```
+{ 
+  “version”: “0.1”, 
+  “connections”: [ 
+    { 
+      “details”: { 
+        “protocol”: “tds”, 
+        “address”: { 
+          “server”: “server-name-here”, 
+          “database”: “db-name-here (optional)” 
+        } 
+      }, 
+      “options”: {}, 
+      “mode”: “DirectQuery” 
+    } 
+  ] 
+} 
+} 
+```
+ 
+
+**텍스트 파일**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "file", 
+        "address": { 
+            "path": "path-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+
+**웹**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "http", 
+        "address": { 
+            "url": "URL-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+
+
 
 ## <a name="next-steps"></a>다음 단계
 Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. 해당 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.

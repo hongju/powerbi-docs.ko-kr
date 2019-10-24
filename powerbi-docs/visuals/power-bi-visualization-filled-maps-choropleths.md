@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299340"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544414"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI의 등치 지역도(단계구분도)
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 등치 지역도는 음영 또는 색조 또는 패턴을 사용하여 특정 값이 특정 지리 또는 지역을 기준으로 어떻게 다른지 표시합니다.  밝게(낮은 빈도/낮음)부터 어둡게(높은 빈도/높음)까지 다양한 음영으로 이러한 상대적 차이를 신속하게 표시합니다.    
 
 ![미국 맵](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
@@ -44,27 +47,24 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
 * 지리적 위치 분포에 대한 개요를 확인하려는 경우
 
 ### <a name="prerequisites"></a>필수 조건
-- Power BI 서비스 또는 Power BI Desktop
-- 영업 및 마케팅 샘플
+이 자습서는 [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)을 사용합니다.
+1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
+   
+2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
 
-작업을 수행하기 위해 자습서에서는 Power BI Desktop이 아니라 Power BI 서비스를 사용합니다.
+1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+
+1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+
 
 ## <a name="create-a-basic-filled-map"></a>기본 등치 지역도 만들기
 이 비디오에서 Kim은 기본 지도를 만들고 등치 지역도로 변환합니다.
+   > [!NOTE]
+   > 이 동영상에서는 이전 버전의 Power BI Desktop을 사용합니다.
+   > 
+   > 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
-
-### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>데이터를 가져오고 보고서에 새 빈 페이지 추가
-1. 사용자 고유의 등치 지역도를 만들려면 Power BI에 로그인하고 **데이터 가져오기 \> 샘플 \> 영업 및 마케팅 \> 연결**을 선택하여 [영업 및 마케팅 샘플을 다운로드](../sample-datasets.md)합니다. 또는 appsource.com에서 **Power BI 판매 및 마케팅** 앱을 가져옵니다. 
-
-2. 영업 및 마케팅 보고서를 엽니다.
-
-   ![영업 및 마케팅 보고서 열기](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
-3. Power BI가 보고서를 엽니다. **보고서 편집**을 선택하여 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
-
-4. 보고서 캔버스 맨 아래에 있는 노란색 더하기 기호를 선택하여 새 페이지를 추가합니다.
-
-    ![보고서 탭](media/power-bi-visualization-filled-maps-choropleths/power-bi-new-page.png)
 
 ### <a name="create-a-filled-map"></a>등치 지역도 만들기
 1. 필드 창에서 **Geo** \> **State** 필드를 선택합니다.    
@@ -75,9 +75,9 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
    ![등치 지역도의 아이콘을 강조 표시한 템플릿](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 3. 미국 대륙만 표시하려면 지도를 필터링하세요.
 
-   a.  시각화 창 아래쪽에서 **필터** 영역을 찾습니다.
+   a.  시각화 창 왼쪽에서 **필터** 창을 찾습니다. 최소화된 경우 확장
 
-   b.  **State** 를 마우스로 가리키고 확장 펼침 단추를 클릭합니다.  
+   b.  **State**를 마우스로 가리키고 확장 펼침 버튼을 선택합니다.  
    ![상태(모두)를 보여주는 시각적 수준 필터](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  **모두** 옆에 확인 표시를 표시하고 **AK**옆에 있는 확인 표시를 제거합니다.
@@ -95,7 +95,7 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
 
     ![감정이 선택된 기본 색 창](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
 
-7. 등치 지역도는 녹색과 빨간색으로 채워지며, 빨간색은 낮은 인지 수를 나타내고 녹색은 더 높고 더 긍정적인 인지를 나타냅니다.  추가 세부 정보를 표시하려면 도구 설명으로 필드를 끌어다 놓습니다.  여기에서 **Sentiment Gap**를 추가하고, Idaho(ID)의 상태를 강조 표시하고, 감정 차이가 6으로 낮음을 확인합니다.
+7. 등치 지역도는 녹색과 빨간색으로 채워지며, 빨간색은 낮은 인지 수를 나타내고 녹색은 더 높고 더 긍정적인 인지를 나타냅니다.  추가 세부 정보를 표시하려면 도구 설명으로 필드를 끌어다 놓습니다.  여기에서 **감정 차이**를 추가하고, Idaho(ID)의 상태를 강조 표시하고, 감정 차이가 6으로 낮음을 확인합니다.
    ![Idaho 도구 설명을 표시하는 등치 지역도](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
 
 10. [보고서를 저장합니다](../service-report-save.md).
@@ -115,11 +115,11 @@ Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 �
 
     ![Sentiment 탭이 선택됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. 페이지의 시각화를 이동하고 크기를 조정하여 일부 공간을 만든 다음, CTRL-V를 사용하여 이전 보고서의 등치 지역도를 붙여넣습니다.
+4. 페이지의 시각화를 이동하고 크기를 조정하여 일부 공간을 만든 다음, CTRL-V를 사용하여 이전 보고서의 등치 지역도를 붙여넣습니다. (다음의 이미지를 참고하세요)
 
    ![등치 지역도가 Sentiment 페이지에 추가됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. 등치 지역도에서 시/도를 선택합니다.  이는 페이지의 다른 시각화 요소를 강조 표시합니다. 예를 들어 **Texas**를 선택하면 Sentiment가 74이고 Texas가 Central District \#23에 있음이 표시됩니다.   
+5. 등치 지역도에서 시/도를 선택합니다.  이는 페이지의 다른 시각화 요소를 교차 강조 및 교차 필터링합니다. 예를 들어 **Texas**를 선택하면 Sentiment가 75이고 Texas가 Central District #23에 있음이 표시됩니다.   
    ![텍사스 선택됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
 2. VanArsdel - Sentiment by Month 꺾은선형 차트에서 데이터 요소를 선택합니다. 이는 등치 지역도를 필터링하여 경쟁 대상이 아닌 VanArsdel에 대한 감정 데이터를 표시합니다.  
    ![새 음영](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)

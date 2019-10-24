@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: bd14437b0833d4c24c37ebeca6524948465bdb1f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561066"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544003"
 ---
 # <a name="conditional-formatting-in-tables"></a>테이블에서 조건부 서식 지정 
 테이블에 조건부 서식을 사용하면 셀 값을 기반으로 하거나 다른 값 또는 필드를 기반으로 하여 그라데이션 색을 사용하는 등 사용자 지정된 셀 색을 지정할 수 있습니다. 데이터 막대를 사용하여 셀 값을 표시할 수도 있습니다. 
@@ -140,6 +140,9 @@ ms.locfileid: "69561066"
 조건부 테이블 형식으로 작업하는 경우 유의해야 하는 몇 가지 고려 사항이 있습니다.
 
 * 조건부 서식은 **행렬** 시각적 개체의 값에만 적용되고, 소계 또는 총합계에는 적용되지 않습니다. 
+* 조건부 서식은 **전체** 행에 적용되지 않습니다
+* 그룹화가 없는 테이블은 조건부 서식을 지원하지 않는 단일 행으로 표시됩니다.
+* 자동 최대/최소 값 또는 백분율 규칙의 규칙 기반 서식 지정에 그라데이션 형식을 사용하는 경우, 데이터가 NaN 값을 포함하면 조건부 서식을 적용할 수 없습니다. NaN은 ‘Not a number(숫자가 아님)’라는 의미이며, 나누기 오류에 의해 가장 흔히 발생합니다. 이 오류를 피하기 위해 [DIVIDE() DAX 함수](https://docs.microsoft.com/dax/divide-function-dax)를 사용할 수 있습니다.
 
 
 ## <a name="next-steps"></a>다음 단계

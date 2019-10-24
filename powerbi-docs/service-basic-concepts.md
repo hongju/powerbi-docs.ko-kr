@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ff962335b573c6dd2a03ae5ab4633c1042a77059
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770784"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543017"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 서비스의 디자이너를 위한 기본 개념
 
@@ -33,10 +33,11 @@ ms.locfileid: "64770784"
 3. Power BI 홈 단추
 4. 아이콘 단추(설정, 도움말 및 피드백 포함)
 5. 검색 상자
-6. 즐겨 찾는 대시보드의 타일
-7. 자주 사용하는 대시보드 및 보고서
+6. 자주 사용하는 대시보드, 보고서 및 작업 영역
+7. 최근의 대시보드, 보고서 및 작업 영역
+8. 사용자 작업 영역
 
-보고서 및 대시보드의 최종 사용자도 브라우저에서 Power BI 서비스를 열면 시작 환경이 같습니다.
+사용자와 보고서 및 대시보드의 최종 사용자도 브라우저에서 Power BI 서비스를 열면 시작 환경이 같습니다.
 
 이러한 기능은 나중에 자세히 살펴보고 먼저 몇 가지 Power BI 개념에 대해 검토해 보겠습니다. 또는 이 비디오를 먼저 시청하면 좋습니다.  이 비디오에서는 Power BI 서비스의 기본 개념을 검토하고 간략한 둘러보기를 제공합니다.
 
@@ -164,7 +165,7 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
   ![탐색 창](media/service-basic-concepts/power-bi-navigation.png)
 
 * **데이터 가져오기**를 선택하여 [Power BI에 데이터 세트, 보고서 및 대시보드를 추가](service-get-data.md)합니다.
-* 이 아이콘으로 탐색 창 확장 및 축소 ![탐색 창 아이콘](media/service-basic-concepts/expand-icon.png)을 선택합니다.
+* 이 아이콘으로 탐색 창 확장 및 축소 ![탐색 창 아이콘](media/service-basic-concepts/expand-icon.png).
 * **즐겨찾기**를 선택하여 즐겨 찾는 콘텐츠를 열거나 관리합니다.
 * **최근**을 선택하여 가장 최근에 방문한 콘텐츠를 보고 엽니다.
 * **앱**을 선택하여 앱을 보거나, 열거나, 삭제합니다.
@@ -195,8 +196,8 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
 
 질문 입력을 시작하는 즉시 질문 및 답변 페이지로 이동합니다. 입력할 때 질문 및 답변을 사용하면 적절하게 질문을 하고 고쳐 말하기, 자동 채우기, 제안 등으로 최상의 답변을 찾을 수 있습니다. 원하는 시각화(답변)가 있으면 대시보드에 고정합니다. 자세한 내용은 [Power BI의 질문 및 답변](power-bi-q-and-a.md)을 참조하세요.
 
-### <a name="4-icon-buttons"></a>4. **아이콘 단추**
-오른쪽 위에 있는 아이콘은 설정, 알림, 다운로드, 도움말 보기 및 Power BI 팀에 피드백 제공을 위한 리소스입니다. 이중 화살표를 선택하여 **전체 화면** 모드에서 대시보드를 엽니다.  
+### <a name="4-icons-in-the-black-header-bar"></a>4. **검정 머리글 표시줄 아이콘**
+오른쪽 위에 있는 아이콘은 설정, 알림, 다운로드, 도움말 보기, **새로운 디자인** 켜기 혹은 끄기 및 Power BI 팀에 피드백 제공을 위한 리소스입니다.  
 
 ![아이콘 단추](media/service-basic-concepts/power-bi-icons.png)
 
@@ -217,8 +218,8 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
 
    ![서비스의 “Power BI”](media/service-basic-concepts/version-new.png)
 
-### <a name="8-labeled-icon-buttons"></a>8. **레이블이 지정된 아이콘 단추**
-이 화면 영역에는 콘텐츠와 상호 작용하는 데 사용되는 추가 옵션이 제공됩니다(이 경우 대시보드와 상호 작용).  여기 보이는 레이블이 지정된 아이콘 외에도 줄임표를 선택하면 대시보드를 복제, 인쇄 및 새로 고침하는 옵션이 표시됩니다.
+### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8. **회색 메뉴 모음에서 레이블이 지정된 아이콘**
+이 화면 영역에는 콘텐츠와 상호 작용하는 데 사용되는 추가 옵션이 제공됩니다(이 경우 대시보드와 상호 작용).  여기 보이는 레이블이 지정된 아이콘 외에도 **옵션 더 보기 (...)** 를 선택하면 대시보드를 복제, 인쇄 및 새로 고침하는 옵션 등이 표시됩니다.
 
    ![레이블이 지정된 아이콘 단추](media/service-basic-concepts/power-bi-labeled-icons.png)
 

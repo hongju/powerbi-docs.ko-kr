@@ -1,6 +1,6 @@
 ---
 title: 주요 영향 요인 시각화 자습서
-description: "자습서: Power BI에서 주요 영향 요인 시각화 만들기'"
+description: "자습서:  Power BI에서 주요 영향 요인 시각화 만들기'"
 author: mihart
 manager: kvivek
 ms.reviewer: juluczni
@@ -10,14 +10,17 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995277"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544072"
 ---
 # <a name="key-influencers-visualization"></a>주요 영향 요인 시각화
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 주요 영향 요인 시각적 개체는 관심 있는 메트릭을 유도하는 요소를 이해하는 데 도움이 됩니다. 데이터를 분석하고 중요한 요소의 순위를 정하며 이를 주요 요인으로 표시합니다. 예를 들어 이직률이라고도 하는 직원 전직률에 영향을 주는 요소를 파악하려고 한다고 가정해 보세요. 한 가지 요소는 고용 계약 기간일 수도 있고, 또 다른 요소는 직원의 연령일 수도 있습니다. 
  
 ## <a name="when-to-use-key-influencers"></a>주요 영향 요인을 사용하는 경우 
@@ -49,6 +52,10 @@ ms.locfileid: "68995277"
  
 먼저 이 동영상을 시청하여 범주 메트릭으로 주요 영향 요인 시각적 개체를 만드는 방법을 알아본 후에 다음 단계를 수행하여 만들어 보세요. 
 
+   > [!NOTE]
+   > 이 비디오에서는 이전 버전의 Power BI Desktop을 사용합니다.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 제품 관리자는 잠재 고객이 클라우드 서비스에 대해 부정적인 리뷰를 남길 수 있는 요소를 파악하려고 합니다. 계속 진행하려면 Power BI Desktop에서 [custom feedback.PBIX 파일](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)을 엽니다. [Power BI 서비스 또는 Power BI Desktop에 대한 고객 피드백 Excel 파일](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)을 다운로드할 수도 있습니다. 
@@ -137,7 +144,7 @@ ms.locfileid: "68995277"
 
 경우에 따라 연속형 요소가 자동으로 범주 요소로 바뀐 것을 발견할 수도 있습니다. 변수 간의 관계가 선형이 아님을 알게 되었기 때문입니다. 따라서 위의 예제와 같이 관계가 단순히 증가 또는 감소한다고 설명할 수는 없습니다.
 
-상관 관계 테스트를 실행하여 영향 요인이 대상과 관련해서 얼마나 선형인지를 확인합니다. 대상이 연속형이면 Pearsons 상관 관계를 실행하고, 대상이 범주이면 Point Biserial 상관 관계 테스트를 실행합니다. 관계가 충분히 선형이 아님을 발견하면 감독된 범주화를 수행하고 최대 5개의 bin을 생성합니다. 가장 적합한 bin을 파악하기 위해 분석되는 대상과 설명 요소 간의 관계를 확인하는 감독된 범주화 방법을 사용합니다.
+상관 관계 테스트를 실행하여 영향 요인이 대상과 관련해서 얼마나 선형인지를 확인합니다. 대상이 연속형이면 Pearson 상관 관계를 실행하고, 대상이 범주이면 Point Biserial 상관 관계 테스트를 실행합니다. 관계가 충분히 선형이 아님을 발견하면 감독된 범주화를 수행하고 최대 5개의 bin을 생성합니다. 가장 적합한 bin을 파악하기 위해 분석되는 대상과 설명 요소 간의 관계를 확인하는 감독된 범주화 방법을 사용합니다.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>측정값 및 집계를 주요 영향 요인으로 해석 
  
@@ -245,13 +252,13 @@ ms.locfileid: "68995277"
 
 ![측정값 테이블](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
-이 분석은 매우 요약되어 있으므로, 회귀 모델이 학습할 수 있는 데이터 패턴을 찾기 어렵습니다. 더 나은 결과를 얻으려면 자세한 수준에서 분석을 실행해야 합니다. 주택 수준에서 주택 가격을 분석하려면 **ID** 필드를 분석에 명시적으로 추가해야 합니다. 하지만 주택 ID를 영향 요인으로 간주하지는 않으려고 합니다. 주택 ID가 증가함에 따라 주택 가격이 상승함을 아는 것은 유용하지 않습니다. 이 경우에는 **확장 기준** 필드 옵션이 유용합니다. **확장 기준**을 사용하여 새 영향 요인을 찾지 않고 분석 수준을 설정하는 데 사용할 필드를 추가할 수 있습니다.
+이 분석은 매우 요약되어 있으므로, 회귀 모델이 학습할 수 있는 데이터 패턴을 찾기 어렵습니다. 더 나은 결과를 얻으려면 자세한 수준에서 분석을 실행해야 합니다. 주택 수준에서 주택 가격을 분석하려면 **ID** 필드를 분석에 명시적으로 추가해야 합니다. 하지만 주택 ID를 영향 요인으로 간주하지는 않으려고 합니다. 주택 ID가 증가함에 따라 주택 가격이 상승함을 아는 것은 유용하지 않습니다. 이 경우에는 **확장 기준** 필드 웰 옵션이 유용합니다. **확장 기준**을 사용하여 새 인플루언서를 찾지 않고 분석 수준을 설정하는 데 사용할 필드를 추가할 수 있습니다.
 
 **확장 기준**에 **ID**를 추가하면 시각화가 어떻게 표시되는지 살펴보겠습니다. 측정값을 평가할 수준을 정의한 후의 영향 요인 해석은 [요약되지 않은 숫자 열](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)의 경우와 동일합니다.
 
 ![측정값 테이블](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
-주요 영향 요인 시각화를 사용하여 측정값을 분석하는 방법을 자세히 알아보려면 다음 자습서를 시청하세요.
+주요 인플루언서 시각화를 사용하여 측정값을 분석하는 방법을 자세히 알아보려면 다음 자습서를 시청하세요.
 
 <iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

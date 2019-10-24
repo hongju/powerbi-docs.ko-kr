@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 44534f2adbc4f1f39a0c65e11d646fd8fd67be71
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944813"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307663"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>AppSource에 Power BI 시각적 개체 게시하기
 
 다른 사람이 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 AppSource에 게시하는 방법을 알아봅니다.
 
-사용자 지정 시각적 개체를 만든 후에는 다른 사람이 검색하고 사용할 수 있도록 AppSource에 게시할 수 있습니다. 이렇게 하려면 몇 가지 준비가 필요합니다. 사용자 지정 시각적 개체를 만드는 방법에 대한 자세한 내용은 [Power BI 사용자 지정 시각적 개체 개발](custom-visual-develop-tutorial.md)을 참조하세요.
+사용자 지정 시각적 개체를 만든 후에는 다른 사람이 검색하고 사용할 수 있도록 AppSource에 게시할 수 있습니다. 이렇게 하려면 몇 가지 준비가 필요합니다. 사용자 지정 시각적 개체를 만드는 방법에 대한 자세한 내용은 [Power BI 사용자 지정 시각적 개체 개발](visuals/custom-visual-develop-tutorial.md)을 참조하세요.
 
    ![Office 스토어](media/office-store/appsource-01.png)
 
@@ -147,7 +147,7 @@ Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [개발자 센터
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI 사용자 지정 시각적 개체 개발](custom-visual-develop-tutorial.md)  
+[Power BI 사용자 지정 시각적 개체 개발](visuals/custom-visual-develop-tutorial.md)  
 [Power BI의 시각화](../visuals/power-bi-report-visualizations.md)  
 [Power BI의 사용자 지정 시각화](../power-bi-custom-visuals.md)  
 [*인증된* 사용자 지정 시각적 개체 가져오기](../power-bi-custom-visuals-certified.md)

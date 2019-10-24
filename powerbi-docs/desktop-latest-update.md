@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 646372dbba995a359b732e46a8689cb295565c1f
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 0ccd89bfa868569f6547c67d3673d0afd664d6a7
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903545"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307702"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>최신 Power BI Desktop 업데이트의 새로운 기능 
 
 
-## <a name="september-2019-update-2735586561"></a>2019년 9월 업데이트(2.73.5586.561)
+## <a name="october-2019-update-2745619621"></a>2019년 10월 업데이트(2.74.5619.621)
 
-9월 업데이트를 신나게 학교로 돌아올 때로 비유할 수 있습니다. 새로 배워야 할 내용, 여름 동안 그리웠던 친구들의 업데이트, 알게 된 정보를 더 개선된 향후 보고서에 적용할 기회라고 표현할 수 있습니다. 
+당사의 10월 업데이트는 펌킨패치 행사만큼 재미있고, 유령의 저택을 둘러보는 것보다 더 흥미롭습니다. 
 
 이제 지원되는 모든 언어를 포함하는 단일 .exe 파일로 제공되는 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
@@ -42,46 +42,57 @@ ms.locfileid: "70903545"
 이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
 
 ### <a name="reporting"></a>보고
-* 테마의 색 및 텍스트 클래스 [[비디오]](https://youtu.be/neq0THnRJzo?t=11)  [[문서]](desktop-report-themes.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#themeJSON) 
-* 새 기본 테마 [[비디오]](https://youtu.be/neq0THnRJzo?t=334)  [[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#newThemes)
-* 개인 설정된 시각화 창 개선(미리 보기) [[비디오]](https://youtu.be/neq0THnRJzo?t=601)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#vizPane)
+* DirectQuery [[동영상]](https://youtu.be/A8A9baUQsXQ?t=12) [[문서]](desktop-automatic-page-refresh.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#automaticPageRefresh)의 자동 페이지 새로 고침 
+
 
 
 ### <a name="analytics"></a>분석
-* 사용자 지정 형식 문자열 [[비디오]](https://youtu.be/neq0THnRJzo?t=731)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#customFormatStrings) 
-* 더 많은 시각적 서식 지정 옵션에 대한 업데이트 조건부 서식 지정 [[비디오]](https://youtu.be/neq0THnRJzo?t=813)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#conditionalFormatting) 
-* 드릴스루 검색 기능 개선 [[비디오]](https://youtu.be/neq0THnRJzo?t=959)  [[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#drillThrough) 
-* 새로운 DAX 식: REMOVEFILTERS 및 CONVERT [[비디오]](https://youtu.be/neq0THnRJzo?t=1048)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#dax) 
+* 새로운 질문 및 답변 시각적 개체 [[동영상]](https://youtu.be/A8A9baUQsXQ?t=144) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaVisual) 
+* 질문 및 답변 [[동영상]](https://youtu.be/A8A9baUQsXQ?t=144) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#improvedExperience)를 위한 개선된 사용자 환경 
+    * 향상된 드롭다운 컨트롤
+    * 빨강 및 파랑 밑줄
+    * 시각적 결과 개선
+* 질문 및 답변 [[동영상]](https://youtu.be/A8A9baUQsXQ?t=322) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#nlImprovements)를 위한 자연어 개선 
+    * Office/Bing 사전과의 통합
+    * 측정값 테이블에 대한 지원 및 테이블 이름 및 모호성에 대한 더욱 효과적인 처리
+* 질문 및 답변 도구(미리 보기) [[동영상]](https://youtu.be/A8A9baUQsXQ?t=376) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaTooling) 
+    * 질문 검토
+    * 질문 및 답변 학습
+    * 모든 변경 내용 검토
+* RLS [[동영상]](https://youtu.be/A8A9baUQsXQ?t=480) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#supportAS)를 포함하여 SSAS 및 Azure AS에 대한 지원 
 
 
 ### <a name="visuals"></a>시각적 개체
-* 이제 PowerApps 시각적 개체 사용 가능 [[비디오]](https://youtu.be/neq0THnRJzo?t=1063)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#powerApps) 
-
+* PowerApps 시각적 개체는 이제 기본적으로 [[동영상]](https://youtu.be/A8A9baUQsXQ?t=505) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#powerApps)에 포함됨 
+* 새 xViz 시각적 개체[[동영상]](https://youtu.be/A8A9baUQsXQ?t=538)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#xViz) 
 
 ### <a name="data-connectivity"></a>데이터 연결
-* ostgreSQL 커넥터 개능 개선 [[비디오]](https://youtu.be/neq0THnRJzo?t=1112)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#postgreSQL) 
+* Sagra Emigo 커넥터는 일반적으로 사용 가능 [[동영상]](https://youtu.be/A8A9baUQsXQ?t=778) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#sagraEmigo) 
+* Azure Cost Management 커넥터 업데이트 [[동영상]](https://youtu.be/A8A9baUQsXQ?t=805) [[문서]](desktop-connect-azure-cost-management.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#azureCostManagement) 
+* 새 작업 공간 분석 커넥터 [[동영상]](https://youtu.be/A8A9baUQsXQ?t=830) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#workplaceAnalytics) 
+
 
 ### <a name="data-preparation"></a>데이터 준비
-* 데이터 프로파일링에서 클립보드로 복사 [[비디오]](https://youtu.be/neq0THnRJzo?t=1146)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#copyProfiling) 
+* 쿼리 진단 [[동영상]](https://youtu.be/A8A9baUQsXQ?t=907) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#queryDiagnostics) 
+* 데이터 프로파일링 기능 향상 [[동영상]](https://youtu.be/A8A9baUQsXQ?t=953) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#dataProfiling) 
 
 
 ### <a name="template-apps"></a>템플릿 앱
-* Google Analytics 보고서 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#googleAnalytics) 
+* 프로젝트 웹앱   [[동영상]](https://youtu.be/A8A9baUQsXQ?t=850) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#projectWebApp) 
 
 ### <a name="other"></a>기타
-* 다차원 모델의 성능 개선 [[비디오]](https://youtu.be/neq0THnRJzo?t=1208)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfMultiDiminsional) 
-* DirectQuery 모델의 쿼리 성능 개선 [[비디오]](https://youtu.be/neq0THnRJzo?t=1272)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfDirectQuery) https://youtu.be/neq0THnRJzo?t=1208
+* 새 파일 형식: .PBIDS [[동영상]](https://youtu.be/A8A9baUQsXQ?t=2455) [[문서]](desktop-data-sources.md#pbids-file-examples) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#pbids) 
+* 모델링 작업의 성능 향상 [[동영상]](https://youtu.be/A8A9baUQsXQ?t=2583) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#performance) 
 
 > [!NOTE]
 > [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
 
-이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
 다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/neq0THnRJzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A8A9baUQsXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.

@@ -1,5 +1,5 @@
 ---
-title: Power BI 보고서 서버에 대한 변경 로그
+title: Power BI Report Server에 대한 변경 로그
 description: Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에 대한 버그 픽스와 새 항목을 나열합니다.
 ms.author: jaimeta
 author: jtarquino
@@ -8,15 +8,15 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/31/2018
-ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/09/2019
+ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325716"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259971"
 ---
-# <a name="changelog-for-power-bi-report-server"></a>Power BI 보고서 서버에 대한 변경 로그
+# <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server에 대한 변경 로그
 
 Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에 대한 버그 픽스와 새 항목을 나열합니다.
 
@@ -24,12 +24,19 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
 ## <a name="september-2019"></a>2019년 9월
 
-- **Power BI Report Server**          
+- **Power BI Report Server**
+    - *‘버전: 1.6.7221.30698(빌드 15.0.1102.620), 릴리스 날짜: 2019년 10월 9일*
+        - 버그 수정
+            - 텍스트 필터 사용자 지정 시각적 개체 수정.
+            - 드롭다운 슬라이서의 성능 수정.
+            - 원격 분석에서 Strip PII 수정.
+          - 대/소문자를 구분하지 않도록 URL 수정.
+             
     - *버전 1.6.7206.38019(빌드 15.0.1102.597), 릴리스 날짜: 2019년 9월 26일*
         - 보안 업데이트
-        - 버그 픽스
-           - 페이지가 매겨진 보고서
-             - IE와 Edge를 사용할 때 발생하는 접근성 문제가 수정되었습니다.
+        - 버그 수정
+           - 페이지를 매긴 보고서
+             - Internet Explorer와 Microsoft Edge를 사용할 때 발생하는 접근성 문제 수정.
              - 연결을 테스트할 때 발생하는 SAP HANA 문제가 수정되었습니다.
              - 메일 주소 목록을 제공할 때 발생하는 문제가 수정되었습니다.
              - DirectQuery 데이터 원본과 통합 인증을 사용하는 Power BI 보고서 문제가 수정되었습니다.
@@ -43,10 +50,17 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
              - Web API: /PowerBIReports({Id})/DataSources (PATCH)가 연결 문자열 업데이트를 허용하도록 업데이트되었습니다.
          
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
+
+    - *‘버전: 2.73.5586.1241(2019년 9월), 릴리스 날짜: 2019년 10월 9일*
+        - 버그 수정
+            - 텍스트 필터 사용자 지정 시각적 개체 수정.
+            - 드롭다운 슬라이서의 성능 수정.
+            - 원격 분석에서 Strip PII 수정.
+            
     - *‘버전: 2.73.5586.821(2019년 9월), 릴리스 날짜: 2019년 9월 26일* (신규 빌드 및 신규 버전)
-    - Power BI Report Server와의 연결에 필요한 변경 사항 포함(2019년 9월)
+        - Power BI Report Server와의 연결에 필요한 변경 사항 포함(2019년 9월)
 
-
+    
 ## <a name="may-2019"></a>2019년 5월
 
 - **Power BI Report Server**          

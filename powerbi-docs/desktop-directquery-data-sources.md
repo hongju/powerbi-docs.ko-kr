@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 10/16/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a9e8d2aaab7c0b3ed1daea32486260d09bc6f6a2
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945194"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511642"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI의 DirectQuery에서 지원하는 데이터 원본
 
@@ -76,7 +76,7 @@ ms.locfileid: "71945194"
 | Oracle 데이터베이스 |예 |
 | PostgreSQL |예 |
 | SAP Business Warehouse 애플리케이션 서버 |예 |
-| SAP Business Warehouse 메시지 서버 |**Power BI 서비스**에서는 아직 지원되지 않음 |
+| SAP Business Warehouse 메시지 서버 |예 |
 | SAP HANA |예 |
 | Snowflake |예 |
 | Spark(베타), 버전 0.9 이상 |예 |
@@ -97,6 +97,7 @@ SSO 옵션은 이 데이터 원본을 사용하는 모든 데이터 세트에 �
 - Impala
 - SAP HANA
 - SAP BW
+- SAP BW 메시지 서버(미리 보기)
 - Spark
 - SQL Server
 - Teradata

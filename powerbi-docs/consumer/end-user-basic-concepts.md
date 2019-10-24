@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/17/2019
+ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2e41a3f5b1d1bd945e1ab4566abed1589b20c148
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 2b9fd3fc971d2cf73aabb2033d3a64565333bc67
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67264801"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543742"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 서비스 소비자를 위한 기본 개념
 
-이 문서에서는 독자가 [Power BI 개요](../power-bi-overview.md)를 이미 읽었고, 자신을 Power BI ***소비자***로 인식하고 있다고 가정합니다. 소비자는 동료로부터 대시보드 및 보고서와 같은 Power BI 콘텐츠를 받습니다. 소비자는 웹 사이트 기반 버전의 Power BI인 Power BI 서비스를 사용합니다.
+이 문서에서는 독자가 [Power BI 개요](../power-bi-overview.md)를 이미 읽었고 자신을 [Power BI ***소비자***](end-user-consumer.md)로 인식하고 있다고 가정합니다. 소비자는 동료로부터 대시보드 및 보고서와 같은 Power BI 콘텐츠를 받습니다. 소비자는 웹 사이트 기반 버전의 Power BI인 Power BI 서비스를 사용합니다.
 
 분명히 “Power BI Desktop” 또는 “Desktop”이라는 용어를 들어 보았을 것입니다. 이는 대시보드와 보고서를 빌드하고 소비자와 공유하는 ‘디자이너’가 사용하는 독립 실행형 도구입니다.  다른 Power BI 도구가 있다는 것을 알고 있어야 합니다. 소비자는 Power BI 서비스만 사용하게 됩니다. 이 문서는 Power BI 서비스에만 적용됩니다.
 
@@ -35,7 +35,7 @@ ms.locfileid: "67264801"
 
 시작하려면 브라우저를 열고 **app.powerbi.com**을 입력합니다. Power BI 서비스를 처음 열면 다음과 같은 내용이 표시됩니다.
 
-![Power BI 서비스 시작 화면의 스크린샷](media/end-user-basic-concepts/power-bi-open.png)
+![Power BI 서비스 시작 화면의 스크린샷](media/end-user-basic-concepts/power-bi-home.png)
 
 Power BI를 사용할 때는 웹 사이트를 열 때마다 표시되는 내용을 개인 설정할 수 있습니다. 예를 들어, Power BI가 **홈**페이지를 여는 것을 선호하는 사람도 있고, 즐겨찾기 대시보드에 먼저 표시되는 것을 선호하는 사람도 있습니다. 이처럼 환경을 개인 설정하는 자세한 방법은 다음 문서에서 확인할 수 있습니다.
 
@@ -87,9 +87,9 @@ _______________________________________________________
 
 디자이너가 소비자와 앱을 공유하면 소비자는 디자이너가 앱에 포함한 데이터 세트를 확인할 수 있습니다.
 
-![캔버스에서 선택된 앱과 데이터 세트 섹션을 가리키는 화살표를 보여 주는 Power BI 사용자 인터페이스의 스크린샷](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![캔버스에서 데이터 세트 섹션을 가리키는 화살표와 Power BI 사용자 인터페이스의 스크린샷.](media/end-user-basic-concepts/power-bi-dataset-lists.png)
 
-데이터 세트에서...
+하나의 데이터 세트...
 
 - 보고서 디자이너가 사용하여 대시보드와 보고서를 만드는 데 반복해서 사용할 수 있습니다.
 
@@ -98,10 +98,6 @@ _______________________________________________________
 - 단일 데이터 세트의 시각적 개체가 다양한 대시보드에 표시될 수 있습니다.
 
   ![다 대 일 관계가 있는 데이터 세트를 보여 주는 그래픽](media/end-user-basic-concepts/drawing2.png)
-
-또한 디자이너는 다른 작업 영역의 데이터 세트를 사용하여 해당 작업 영역에서 콘텐츠(보고서, 대시보드)를 만들 수 있습니다. Power BI는 참조된 데이터 세트 아이콘을 사용하여 이 데이터 세트를 표시합니다.
-
-![링크 아이콘이 있는 데이터베이스의 스크린샷](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 다음 단원(시각화)에서 계속.
 
@@ -131,11 +127,11 @@ _______________________________________________________
 
 Power BI 보고서는 시각화, 그래픽 및 텍스트로 이루어진 하나 이상의 페이지입니다. 보고서의 모든 시각화는 단일 데이터 세트에서 제공합니다. *설계자*는 [*읽기 보기*에서 보고서와 상호 작용하는](end-user-reading-view.md) *소비자*와 보고서를 공유합니다.
 
-![탭이 있는 보고서의 스크린샷](media/end-user-basic-concepts/power-bi-report2.png)
+![탭이 있는 보고서의 스크린샷](media/end-user-basic-concepts/power-bi-report.png)
 
 단일 보고서...
 
-- 여러 대시보드에 연결할 수 있습니다. 해당 보고서에 고정된 타일이 여러 대시보드에 나타날 수 있습니다.
+- 여러 대시보드에 연결할 수 있습니다(보고서에 고정된 타일이 여러 대시보드에 나타날 수 있습니다).
 
 - 데이터 세트 하나의 데이터만 사용하여 만들 수 있습니다.  
 
@@ -151,7 +147,7 @@ _______________________________________________________
 
   ![샘플 대시보드의 스크린샷](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-타일은 *설계자*가 보고서에서 대시보드 등으로 *고정*하는 시각적 개체의 렌더링입니다. 고정된 각 타일에는 Power BI가 데이터 세트에서 만들고 대시보드에 고정한 [시각화](end-user-visualizations.md)가 표시됩니다. 또한 타일에는 전체 보고서 페이지가 포함될 수 있으며, 라이브 스트리밍 데이터 또는 동영상도 포함될 수 있습니다. ‘디자이너’가 대시보드에 타일을 추가할 수 있는 여러 가지 방법이 있습니다.  이 개요 문서에서 다루기엔 너무 많습니다. 자세히 알아보려면 [Power BI의 대시보드 타일](end-user-tiles.md)을 참조하세요.
+타일은 *설계자*가 보고서에서 대시보드 등으로 *고정*하는 시각적 개체의 렌더링입니다. 고정된 각 타일에는 디자이너가 데이터 세트에서 만들고 대시보드에 고정한 [시각화](end-user-visualizations.md)가 표시됩니다. 또한 타일에는 전체 보고서 페이지가 포함될 수 있으며, 라이브 스트리밍 데이터 또는 동영상도 포함될 수 있습니다. ‘디자이너’가 대시보드에 타일을 추가할 수 있는 여러 가지 방법이 있습니다.  이 개요 문서에서 다루기엔 너무 많습니다. 자세히 알아보려면 [Power BI의 대시보드 타일](end-user-tiles.md)을 참조하세요.
 
 소비자는 대시보드를 편집할 수 없습니다. 하지만 주석을 추가하고, 관련 데이터를 보고, 즐겨찾기로 설정하고, 구독하는 등의 작업은 가능합니다.
 
@@ -183,7 +179,7 @@ _______________________________________________________
 
 이러한 대시보드 및 보고서 컬렉션은 관련 콘텐츠를 단일 패키지로 정리합니다. Power BI *설계자*는 이를 빌드하고 개인, 그룹, 전체 조직 또는 대중과 공유합니다. 소비자는 자신이 동료와 동일한 데이터(단일 버전의 진실한 정보)로 작업하고 있음을 확신할 수 있습니다.
 
-![Power BI의 왼쪽 창에서 선택된 앱의 스크린샷](media/end-user-basic-concepts/power-bi-app.png)
+![Power BI의 왼쪽 창에서 선택된 앱의 스크린샷](media/end-user-basic-concepts/power-bi-apps.png)
 
 앱은 [Power BI 서비스](https://powerbi.com) 및 모바일 디바이스에서 쉽게 찾아 설치할 수 있습니다. 앱을 설치한 후에는 다양한 여러 대시보드의 이름을 기억할 필요가 없습니다. 여러 대시보드가 모두 앱, 브라우저 또는 모바일 디바이스에 함께 있습니다.
 

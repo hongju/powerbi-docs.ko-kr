@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 1ccf5dd3a84bbbaca7019f8943cf0ab974e4bd06
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: b43408ef91e79d9489480d795329f2e80d0bb1be
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944883"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307740"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -33,6 +33,83 @@ ms.locfileid: "71944883"
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
 다음 섹션은 이전 달들의 **Power BI Desktop**에 대한 업데이트를 설명합니다.
+
+## <a name="september-2019-update-2735586561"></a>2019년 9월 업데이트(2.73.5586.561)
+
+9월 업데이트를 신나게 학교로 돌아올 때로 비유할 수 있습니다. 새로 배워야 할 내용, 여름 동안 그리웠던 친구들의 업데이트, 알게 된 정보를 더 개선된 향후 보고서에 적용할 기회라고 표현할 수 있습니다. 
+
+이제 지원되는 모든 언어를 포함하는 단일 .exe 파일로 제공되는 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+
+> [!IMPORTANT]
+> 2019년 9월 릴리스부터 Power BI Desktop은 지원되는 모든 언어를 포함하는 단일 .exe 파일로만 릴리스됩니다. .msi 버전은 더 이상 릴리스되지 않습니다.
+
+
+각 업데이트 옆의 링크는 다음을 의미합니다.
+
+* 기능을 설명하는 경우 **[비디오]** 에서 발췌된 내용이 새 브라우저 탭에서 재생됩니다.
+* 일부 기능에는 세부 사항을 제공하는 **[문서]** 가 있습니다.
+* 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+
+처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+
+이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
+
+### <a name="reporting"></a>보고
+* 테마의 색 및 텍스트 클래스 [[비디오]](https://youtu.be/neq0THnRJzo?t=11)  [[문서]](desktop-report-themes.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#themeJSON) 
+* 새 기본 테마 [[비디오]](https://youtu.be/neq0THnRJzo?t=334)  [[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#newThemes)
+* 개인 설정된 시각화 창 개선(미리 보기) [[비디오]](https://youtu.be/neq0THnRJzo?t=601)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#vizPane)
+
+
+### <a name="analytics"></a>분석
+* 사용자 지정 형식 문자열 [[비디오]](https://youtu.be/neq0THnRJzo?t=731)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#customFormatStrings) 
+* 더 많은 시각적 서식 지정 옵션에 대한 업데이트 조건부 서식 지정 [[비디오]](https://youtu.be/neq0THnRJzo?t=813)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#conditionalFormatting) 
+* 드릴스루 검색 기능 개선 [[비디오]](https://youtu.be/neq0THnRJzo?t=959)  [[블로그]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#drillThrough) 
+* 새로운 DAX 식: REMOVEFILTERS 및 CONVERT [[비디오]](https://youtu.be/neq0THnRJzo?t=1048)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#dax) 
+
+
+### <a name="visuals"></a>시각적 개체
+* 이제 PowerApps 시각적 개체 사용 가능 [[비디오]](https://youtu.be/neq0THnRJzo?t=1063)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#powerApps) 
+
+
+### <a name="data-connectivity"></a>데이터 연결
+* ostgreSQL 커넥터 개능 개선 [[비디오]](https://youtu.be/neq0THnRJzo?t=1112)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#postgreSQL) 
+
+### <a name="data-preparation"></a>데이터 준비
+* 데이터 프로파일링에서 클립보드로 복사 [[비디오]](https://youtu.be/neq0THnRJzo?t=1146)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#copyProfiling) 
+
+
+### <a name="template-apps"></a>템플릿 앱
+* Google Analytics 보고서 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#googleAnalytics) 
+
+### <a name="other"></a>기타
+* 다차원 모델의 성능 개선 [[비디오]](https://youtu.be/neq0THnRJzo?t=1208)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfMultiDiminsional) 
+* DirectQuery 모델의 쿼리 성능 개선 [[비디오]](https://youtu.be/neq0THnRJzo?t=1272)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfDirectQuery) https://youtu.be/neq0THnRJzo?t=1208
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 모든 데이터 원본을 확인](desktop-data-sources.md)할 수도 있습니다. 이 목록은 항상 업데이트되므로 자주 확인하세요.
+
+이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
+
+다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/neq0THnRJzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
+
+조직에 필요한 경우 이전 버전의 Power BI Desktop을 다운로드할 수도 있습니다. 이전 버전보다는 최신 버전의 Power BI Desktop을 사용하는 것이 좋습니다. 모든 이전 버전에는 다음과 같은 제한이 있습니다.
+
+* Power BI Desktop의 이전 릴리스에는 서비스가 제공되지 않으므로 최신 기능 및 업데이트를 사용하려면 항상 최신 릴리스를 사용해야 합니다.
+* Power BI Desktop의 최신 릴리스에서 만들거나 저장한 파일을 이전 버전의 Power BI Desktop에서 열지 못할 수 있습니다. 
+* Power BI Desktop의 최신 릴리스에서 저장한 보고서를 로드할 때 경고가 표시되어 이전 버전에 해당 보고서를 저장하는 경우 새 기능과 관련된 정보가 모두 손실됩니다.
+* Power BI Desktop의 영어 버전만 보관됩니다.
+
+이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
+
+* [Power BI Desktop 2019년 9월 버전 - 32비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09.msi)
+* [Power BI Desktop 2019년 9월 버전 - 64비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09_x64.msi)
+
 
 ## <a name="august-2019-update-2725556801"></a>2019년 8월 업데이트(2.72.5556.801)
 
@@ -485,18 +562,6 @@ ms.locfileid: "71944883"
 > [!NOTE]
 > [Power BI 서비스의 새로운 기능](service-whats-new.md)과 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)에 대해서도 알아보세요.
 
-
-조직에 필요한 경우 이전 버전의 Power BI Desktop을 다운로드할 수도 있습니다. 이전 버전보다는 최신 버전의 Power BI Desktop을 사용하는 것이 좋습니다. 모든 이전 버전에는 다음과 같은 제한이 있습니다.
-
-* Power BI Desktop의 이전 릴리스에는 서비스가 제공되지 않으므로 최신 기능 및 업데이트를 사용하려면 항상 최신 릴리스를 사용해야 합니다.
-* Power BI Desktop의 최신 릴리스에서 만들거나 저장한 파일을 이전 버전의 Power BI Desktop에서 열지 못할 수 있습니다. 
-* Power BI Desktop의 최신 릴리스에서 저장한 보고서를 로드할 때 경고가 표시되어 이전 버전에 해당 보고서를 저장하는 경우 새 기능과 관련된 정보가 모두 손실됩니다.
-* Power BI Desktop의 영어 버전만 보관됩니다.
-
-이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
-
-* [Power BI Desktop 2019년 3월 버전 - 32비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03.msi)
-* [Power BI Desktop 2019년 3월 버전 - 64비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03_x64.msi)
 
 
 ## <a name="february-2019-update-26653761681"></a>2019년 2월 업데이트(2.66.5376.1681)

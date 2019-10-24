@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968916"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307394"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>프리미엄 용량에서 워크로드 구성
 
@@ -70,6 +70,8 @@ AI 워크로드를 통해 Power BI에서 인식 서비스 및 자동화된 기�
 | **최대 결과 행 집합 수** | DAX 쿼리에서 반환되는 행의 최대 수입니다. 기본값은 -1(제한 없음)이며, 허용 범위는 100000~2147483647입니다. |
 | **쿼리 메모리 한도(%)** | 쿼리 또는 DAX 측정값에서 임시 결과에 사용할 수 있는 사용 가능한 메모리의 최대 비율입니다. |
 | **쿼리 제한 시간(초)** | 쿼리 시간이 초과되기 전까지의 최대 시간입니다. 기본값은 3600초(1시간)입니다. 값이 0이면 쿼리가 시간 초과되지 않도록 지정됩니다. |
+| **자동 페이지 새로 고침(미리 보기)** | 프리미엄 작업 영역이 자동 페이지 새로 고침을 사용하여 보고서를 포함할 수 있도록 토글을 설정/해제합니다. |
+| **최소 새로 고침 간격** | 자동 페이지 새로 고침이 설정된 경우 페이지 새로 고침 간격에 허용되는 최소 간격. 기본값은 5분이고 허용되는 최소값은 1초입니다. |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>최대 중간 행 집합 수
@@ -112,6 +114,19 @@ AI 워크로드를 통해 Power BI에서 인식 서비스 및 자동화된 기�
 전체 쿼리의 총 실행 시간은 75분이지만 모든 개별 쿼리가 실행되는 데 20분 미만이 걸리므로 설정 제한에 도달하지 않습니다.
 
 Power BI 보고서에서는 용량에 대한 각 쿼리에 훨씬 적은 시간 제한을 사용하여 이 기본값을 재정의합니다. 각 쿼리의 시간 제한은 일반적으로 약 3분입니다.
+
+#### <a name="automatic-page-refresh-preview"></a>자동 페이지 새로 고침(미리 보기)
+
+자동 페이지 새로 고침을 사용하도록 설정하면 프리미엄 용량의 사용자가 DirectQuery 원본에 대해 정의된 간격으로 보고서의 페이지를 새로 고칠 수 있습니다. 용량 관리자로서 사용자는 다음을 수행할 수 있습니다:
+
+1.  자동 페이지 새로 고침 설정 및 해제
+2.  최소 새로 고침 간격 설정
+
+다음 이미지는 자동 새로 고침 간격 설정의 위치를 보여줍니다:
+
+![자동 새로 고침 간격에 대한 관리자 설정](media/service-admin-premium-workloads/automatic-refresh-interval.png)
+
+자동 페이지 새로 고침을 통해 만든 쿼리는 데이터 원본으로 직접 이동하므로 조직에서 자동 페이지 새로 고침을 허용하는 경우 해당 원본에 대 한 안정성과 부하를 고려하는 것이 중요합니다. 
 
 ### <a name="dataflows"></a>데이터 흐름
 
@@ -180,6 +195,7 @@ Power BI 보고서에서는 용량에 대한 각 쿼리에 훨씬 적은 시간 
 
 [Power BI Premium 용량 최적화](service-premium-capacity-optimize.md)     
 [데이터 흐름을 사용한 Power BI의 셀프 서비스 데이터 준비](service-dataflows-overview.md)   
-[Power BI Premium에서 페이지를 매긴 보고서란?](paginated-reports-report-builder-power-bi.md)   
+[Power BI Premium에서 페이지 수를 매긴 보고서란 무엇입니까?](paginated-reports-report-builder-power-bi.md)   
+[Power BI Desktop에서의 자동 페이지 새로 고침(미리 보기)](desktop-automatic-page-refresh.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 문의](http://community.powerbi.com/)

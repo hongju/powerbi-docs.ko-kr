@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325026"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307931"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI에서 데이터 새로 고침
 
@@ -309,6 +309,13 @@ Power BI는 새로 고침이 실패하는 경우뿐만 아니라 서비스가 �
 > [!NOTE]
 > 데이터 세트 설정에서 새로 고침 기록을 표시하는 링크를 찾을 수 있습니다. 새로 고침 기록은 [Power BI REST API](/rest/api/power-bi/datasets/getrefreshhistoryingroup)를 사용하여 프로그래밍 방식으로 검색할 수도 있습니다. 사용자 지정 솔루션을 사용하면 여러 데이터 세트의 새로 고침 기록을 중앙 집중식으로 모니터링할 수 있습니다.
 
+## <a name="automatic-page-refresh"></a>자동 페이지 새로 고침
+
+자동 페이지 새로 고침은 보고서 페이지 수준에서 작동하며, 보고서 작성자는 페이지를 사용 중인 경우에만 활성화되는 페이지의 시각적 개체에 대한 새로 고침 간격을 설정할 수 있습니다. 자동 페이지 새로 고침은 DirectQuery 데이터 원본에 대해서만 사용할 수 있습니다. 최소 새로 고침 간격은 보고서가 게시된 작업 영역 유형과 프리미엄 작업 영역에 대한 용량 관리 설정에 따라 달라집니다.
+
+자동 페이지 새로 고침에 대한 자세한 내용은 [자동 페이지 새로 고침](desktop-automatic-page-refresh.md) 문서를 참조하세요.
+
+
 ## <a name="best-practices"></a>모범 사례
 
 데이터 세트의 새로 고침 기록을 정기적으로 확인하는 것은 보고서 및 대시보드에서 현재 데이터를 사용하도록 보장하기 위해 채택할 수 있는 가장 중요한 모범 사례 중 하나입니다. 문제가 검색되면 해당 문제를 즉시 해결하고, 필요한 경우 데이터 원본 소유자 및 게이트웨이 관리자에게 후속 조치를 수행하도록 요청합니다.
@@ -324,6 +331,7 @@ Power BI는 새로 고침이 실패하는 경우뿐만 아니라 서비스가 �
 - 신뢰할 수 있는 엔터프라이즈 데이터 게이트웨이 배포를 사용하여 데이터 세트를 온-프레미스 데이터 원본에 연결합니다. 게이트웨이를 사용할 수 없거나 게이트웨이가 오버로드된 경우와 같이 게이트웨이 관련 새로 고침 실패가 발생하면 게이트웨이 관리자에게 후속 조치를 문의하여 게이트웨이를 기존 클러스터에 추가하거나 새 클러스터를 배포합니다(강화/규모 확장).
 - 예약된 새로 고침 동안의 데이터 가져 오기에서 각 사용자 상호 작용을 통해 데이터 원본을 쿼리하는 DirectQuery/LiveConnect 데이터 세트 외에도 보고서 및 대시보드의 성능에 영향을 주지 않도록 가져오기 데이터 세트 및 DirectQuery/LiveConnect 데이터 세트에 별도의 데이터 게이트웨이를 사용합니다.
 - Power BI에서 새로 고침 실패 알림을 사서함에 보낼 수 있는지 확인합니다. 스팸 필터는 이메일 메시지를 차단하거나 즉시 알 수 없는 별도의 폴더로 이동할 수 있습니다.
+
 
 ## <a name="next-steps"></a>다음 단계
 

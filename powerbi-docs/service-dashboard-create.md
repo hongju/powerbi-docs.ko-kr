@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020318"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543444"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>보고서에서 Power BI 대시보드 만들기
 지금까지 [Power BI의 대시보드 소개](service-dashboards.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 다양한 방법으로 대시보드를 만들 수 있습니다. 예를 들어 보고서의 데이터 세트에서 처음부터 또는 기존 대시보드를 복제하여 대시보드를 만들 수 있습니다.  
@@ -68,12 +68,12 @@ Amanda가 보고서에서 시각화를 핀 고정하여 새 대시보드를 만�
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>보고서를 열고 타일을 대시보드에 고정
 1. 동일한 작업 영역에서 **보고서** 탭을 선택한 다음 **조달 분석 샘플**을 선택하여 보고서를 엽니다.
 
-    ![보고서 탭](media/service-dashboard-create/power-bi-reports.png) 보고서가 읽기용 보기에 열립니다. 아래쪽에 다음 두 탭이 있습니다. **할인 분석** 및 **지출 개요**. 각 탭은 보고서의 페이지를 나타냅니다.
+    ![보고서 탭](media/service-dashboard-create/power-bi-reports.png) 보고서가 읽기용 보기에 열립니다. 왼쪽에 다음 두 탭이 있습니다. **할인 분석** 및 **지출 개요**. 각 탭은 보고서의 페이지를 나타냅니다.
 
-2. **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
+2. **추가 옵션(...)**  > **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
 
     ![읽기용 보기의 보고서](media/service-dashboard-create/power-bi-reading-view.png)
-3. 시각화 위로 마우스를 가져 가면 사용할 수 있는 옵션이 표시됩니다. 시각적 개체를 대시보드에 추가하려면 고정 아이콘 선택 ![고정 아이콘](media/service-dashboard-create/power-bi-pin-icon.png)을 선택합니다.
+3. 시각화 위로 마우스를 가져 가면 사용할 수 있는 옵션이 표시됩니다. 시각적 개체를 대시보드에 추가하려면 고정 아이콘 선택 ![고정 아이콘](media/service-dashboard-create/power-bi-pin-icon.png).
 
     ![타일을 마우스로 가리키기](media/service-dashboard-create/power-bi-hover.png)
 4. 새 대시보드를 만들고 있으므로 **새 대시보드**에 대한 옵션을 선택하고 이름을 지정합니다.

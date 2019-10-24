@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: be2304e655adadf20f5d33f46840c5a0cb82aa9f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968796"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544973"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI의 보고서에 필터 추가
 
@@ -51,11 +51,12 @@ Power BI에서는 수동과 자동, 드릴스루 및 통과 등 다양한 종류
 * 시각화에서 이미 사용 중인 필드를 필터링합니다.
 * 시각화에서 사용하고 있지 않은 필드를 식별하고 **시각적 수준 필터** 버킷에 직접 해당 필드를 추가합니다.
 
-이 절차에서는 소매점 분석 샘플을 사용합니다. 이 경우 이 샘플을 다운로드하고 설명을 따라 진행합니다. [소매점 분석 샘플](sample-retail-analysis.md)을 다운로드합니다.
+
+이 절차에서는 소매점 분석 샘플을 사용합니다. 이 경우 이 샘플을 다운로드하고 설명을 따라 진행합니다. [소매점 분석 샘플](sample-retail-analysis.md#get-the-content-pack-for-this-sample) 콘텐츠 팩을 다운로드합니다.
 
 ### <a name="filter-the-fields-in-the-visual"></a>시각적 개체에서 필드 필터링
 
-1. **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
+1. **추가 옵션(...)**  > **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
    
    ![보고서 편집 단추](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
@@ -85,7 +86,7 @@ Power BI에서는 수동과 자동, 드릴스루 및 통과 등 다양한 종류
 
 이제 새 필드를 시각화의 시각적 수준 필터로 추가하겠습니다.
    
-1. [필드] 창에서 새 시각적 수준 필터로 추가하려는 필드를 선택하고 **시각적 수준 필터 영역**으로 끌어 놓습니다.  이 예제에서는 **구역 관리자**를 **시각적 수준 필터** 버킷으로 끌어놓고, **an**을 검색하고, 해당하는 3명의 관리자를 선택합니다. 
+1. [필드] 창에서 새 시각적 수준 필터로 추가하려는 필드를 선택하고 **시각적 수준 필터 영역**으로 끌어 놓습니다.  이 예제에서는 **구역 관리자**를 **시각적 수준 필터** 버킷으로 끌어놓고, **an**을 검색하고, 해당하는 3명의 관리자를 선택합니다.
      
     ![필터 창에 필드 추가](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -105,7 +106,9 @@ Power BI에서는 수동과 자동, 드릴스루 및 통과 등 다양한 종류
 
 전체 페이지를 필터링하는 페이지 수준 필터를 추가할 수도 있습니다.
 
-1. **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
+1. Power BI 서비스에서 소매점 분석 보고서를 연 다음 **지역 월별 판매** 페이지로 이동 합니다. 
+
+2. **...**  > **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
    
    ![보고서 편집 단추](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. 시각화와 필터 창 및 필드 창을 엽니다(이미 열리지 않은 경우).
@@ -122,19 +125,21 @@ Power BI에서는 수동과 자동, 드릴스루 및 통과 등 다양한 종류
 Power BI 서비스 및 Power BI Desktop의 드릴스루를 사용하여 공급 업체, 고객 또는 제조업체와 같이 특정 엔터티에 초점을 맞춘 *대상* 보고서 페이지를 만들 수 있습니다. 이제 다른 보고서 페이지에서 사용자는 초점을 맞춘 페이지에 대한 해당 엔터티 및 드릴스루의 데이터 요소를 마우스 오른쪽 단추로 클릭할 수 있습니다.
 
 ### <a name="create-a-drillthrough-filter"></a>드릴스루 필터 만들기
-과정을 따르려면 [고객 수익성 샘플](sample-customer-profitability.md)을 다운로드합니다. 경영진 비즈니스 영역에 초점을 두는 페이지를 원하는 경우를 가정해 봅니다.
+과정을 따르려면 [고객 수익성 샘플](sample-customer-profitability.md#get-the-content-pack-for-this-sample)을 다운로드합니다. 경영진 비즈니스 영역에 초점을 두는 페이지를 원하는 경우를 가정해 봅니다.
 
-1. **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
+1. Power BI 서비스에서 소매점 분석 보고서를 연 다음 **지역 월별 판매** 페이지로 이동합니다.
+
+2. **추가 옵션(...)**  > **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
    
    ![보고서 편집 단추](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 1. 보고서에 새 페이지를 추가하고 이름을 **팀 경영진**으로 지정합니다. 이 페이지는 드릴스루 *대상*이 됩니다.
 2. 팀 경영진의 비즈니스 영역에 대한 주요 메트릭을 추적하는 시각화를 추가합니다.    
-3. 드릴스루 필터 웰에 **경영진 > 경영진 이름**을 추가합니다.    
+3. **경영진** 테이블에서 **경영진**을 드릴스루 필터로 드래그합니다.    
    
     ![드릴스루 필터에 값 추가](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
    
-    Power BI는 보고서 페이지에 뒤로 화살표를 추가합니다.  뒤로 화살표를 선택하면 사용자는 *원본* 보고서 페이지(드릴스루로 선택했을 때 있었던 페이지)로 돌아갑니다. 뒤로 화살표는 읽기용 보기에서만 작동합니다.
+    Power BI는 보고서 페이지에 뒤로 화살표를 추가합니다.  뒤로 화살표를 선택하면 사용자는 *원본* 보고서 페이지(드릴스루로 선택했을 때 있었던 페이지)로 돌아갑니다. 편집용 보기에서 Ctrl 키를 누른 채 뒤로 가기 화살표를 선택합니다.
    
      ![뒤로 화살표](media/power-bi-report-add-filter/power-bi-back-arrow.png)
 
@@ -145,7 +150,7 @@ Power BI 서비스 및 Power BI Desktop의 드릴스루를 사용하여 공급 �
 2. 사용자가 Andrew Ma이며 사용자의 데이터에 대해서만 필터링된 팀 경영진 보고서 페이지를 보려고 한다고 가정합니다.  왼쪽 위 영역 차트에서 녹색 데이터 요소를 마우스 오른쪽 단추로 클릭하여 드릴스루 메뉴 옵션을 엽니다.
    
     ![드릴스루 동작 시작](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. **드릴스루 > 팀 경영진**을 선택하여 **팀 경영진**이라는 보고서 페이지로 드릴스루합니다. 페이지가 필터링되어 마우스 오른쪽 단추로 클릭한 데이터 요소에 대한 정보를 표시합니다. 이 경우 Andrew Ma입니다. 드릴스루 필터 영역에 있는 필드만이 드릴스루 보고서 페이지에 전달됩니다.  
+3. **드릴스루 > 팀 경영진**을 선택하여 **팀 경영진**이라는 보고서 페이지로 드릴스루합니다. 페이지가 필터링되어 마우스 오른쪽 단추로 클릭한 데이터 요소에 대한 정보를 표시합니다. 이 경우 Andrew Ma입니다. 원본 페이지의 모든 필터가 드릴스루 보고서 페이지에 적용됩니다.  
    
     ![드릴스루 동작 선택](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 

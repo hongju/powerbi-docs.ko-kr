@@ -129,6 +129,8 @@
               href: register-app.md
             - name: Azure AD 액세스 토큰 가져오기
               href: get-azuread-access-token.md
+            - name: 동적 바인딩
+              href: embed-dynamic-binding.md
             - name: Q&A 포함
               href: qanda.md
             - name: 포함된 애플리케이션 문제 해결
