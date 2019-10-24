@@ -38,7 +38,7 @@ ms.locfileid: "61157671"
 
 ### <a name="to-delete-a-report"></a>보고서를 삭제하려면
 1. 내 작업 영역에서 **보고서** 탭을 선택합니다.
-2. 삭제할 보고서를 찾은 후 삭제 아이콘 ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png)을 선택합니다.   
+2. 삭제할 보고서를 찾은 후 삭제 아이콘   ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png)을 선택합니다.   
 
     ![작업 영역의 보고서 탭](media/service-delete/power-bi-delete-reportnew.png)
 3. 삭제를 확인합니다.

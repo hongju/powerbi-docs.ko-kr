@@ -1,5 +1,5 @@
 ---
-title: Power BI의 q&a에서 잘 작동 하는 Excel 데이터를 확인 합니다.
+title: Power BI의 Q&A로 Excel 데이터가 잘 작동하게 합니다.
 description: Power BI의 질문 및 답변에서 데이터가 잘 작동하게 만드는 방법
 author: maggiesMSFT
 manager: kfile
@@ -17,7 +17,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65624979"
 ---
-# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Power BI의 q&a에서 잘 작동 하는 Excel 데이터를 확인 합니다.
+# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Power BI의 Q&A로 Excel 데이터가 잘 작동하게 합니다.
 데이터 모델을 만들거나 Power BI에 사용할 Excel 통합 문서를 작성하는 사람이라면 다음을 확인하세요.
 
 Power BI에서는 질문 및 답변으로 구조화된 데이터를 검색하고 질문에 맞는 시각화를 선택할 수 있으므로 매우 유용한 도구입니다.   
