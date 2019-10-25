@@ -443,7 +443,7 @@
           href: service-tutorial-use-cognitive-services.md
         - name: Machine Learning 통합
           href: service-tutorial-invoke-machine-learning-model.md
-        - name: Machine Learning 모델 빌드(미리 보기)
+        - name: Machine Learning 모델 빌드
           href: service-tutorial-build-machine-learning-model.md
         - name: SQL Server에서 데이터 새로 고침
           href: service-gateway-sql-tutorial.md
@@ -717,7 +717,7 @@
               href: service-machine-learning-integration.md
             - name: Power BI에서 Cognitive Services 사용
               href: service-cognitive-services.md
-            - name: Power BI에서 Machine Learning 자동화(미리 보기)
+            - name: Power BI의 자동화된 Machine Learning
               href: service-machine-learning-automated.md
         - name: 데이터 계보
           href: service-data-lineage.md
@@ -1161,6 +1161,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: 나누기 함수 및 나누기 연산자(/)
       href: guidance/dax-divide-function-operator.md
+    - name: 쿼리 폴딩의 중요도
+      href: guidance/power-query-folding.md
     - name: 오류 함수를 적절하게 사용
       href: guidance/dax-error-functions.md
     - name: 데이터 흐름에 관한 모범 사례
