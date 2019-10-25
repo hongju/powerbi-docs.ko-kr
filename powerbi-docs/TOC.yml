@@ -211,8 +211,6 @@
               href: desktop-calculated-tables.md
             - name: Power BI Desktop의 측정값
               href: desktop-measures.md
-            - name: 질문 및 답변 언어 스키마 편집
-              href: power-bi-q-and-a-linguistic-schema.md
             - name: KPI 가져오기 및 표시(미리 보기)
               href: desktop-import-and-display-kpis.md
         - name: 보고서 만들기
@@ -227,8 +225,6 @@
               href: desktop-tooltips.md
             - name: PDF로 내보내기 및 보고서 인쇄
               href: desktop-export-to-pdf.md
-            - name: Power BI Desktop의 Q&A
-              href: desktop-qna-in-reports.md
             - name: Power BI Desktop의 분석 창
               href: desktop-analytics-pane.md
             - name: 인사이트를 사용하여 증가와 감소 설명
