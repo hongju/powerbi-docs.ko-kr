@@ -55,7 +55,7 @@ Power BI Report Server는 Report Server를 작동하는 데 필요한 핵심 설
 * [SQL Server 버전에서 지원되는 Reporting Services 기능](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)에서는 SQL Server 버전 간의 차이점을 설명합니다.
 * 설치 프로그램을 실행하는 사용자 계정은 로컬 관리자 그룹의 멤버여야 합니다.
 * Reporting Services 구성 관리자를 실행하는 사용자 계정에는 보고서 서버 데이터베이스를 호스트하는 데이터베이스 엔진 인스턴스에 있는 데이터베이스에 액세스하고 해당 데이터베이스를 만들 권한이 있어야 합니다.
-* 설치 마법사는 기본값을 사용하여 Report Server와 웹 포털에 대한 액세스를 제공하는 URL을 예약할 수 있어야 합니다. 기본값은 **ReportServer** 및 **보고서**에 있는 포트 80, 강력한 와일드 카드 및 가상 디렉터리 이름입니다.
+* 설치 마법사는 기본값을 사용하여 Report Server와 웹 포털에 대한 액세스를 제공하는 URL을 예약할 수 있어야 합니다. 기본값은 포트 80, 강력한 와일드 카드 및 **ReportServer** 및 **Reports** 형식의 가상 디렉터리 이름입니다.
 
 ## <a name="read-only-domain-controller-rodc"></a>RODC(읽기 전용 도메인 컨트롤러)
 
