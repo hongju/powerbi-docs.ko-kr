@@ -56,7 +56,7 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
 ## <a name="step-2-select-a-data-source"></a>2단계: 데이터 원본 선택
 다양한 데이터 원본에 연결할 수 있습니다. [데이터 소스에 연결](connect-data-sources.md)하는 방법에 대해 자세히 알아봅니다.
 
-1. 시작 화면 에서 **데이터 가져오기**를 선택합니다.
+1. 시작 화면에서 **데이터 가져오기**를 선택합니다.
    
     또는 **홈** 탭에서 **데이터 가져오기**를 선택합니다.
 2. 데이터 원본을 선택합니다. 이 예제에서는 **Analysis Services**입니다.
@@ -85,7 +85,7 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
 ## <a name="step-4-save-your-report-to-the-report-server"></a>4단계: Report Server에 보고서 저장
 보고서가 준비되면 2단계에서 선택한 Power BI Report Server에 저장합니다.
 
-1. **파일** 메뉴에서 **다음 이름으로 저장** > **Power BI Report Server**을 선택합니다.
+1. **파일** 메뉴에서 **다음 이름으로 저장** > **Power BI Report Server**를 선택합니다.
    
     ![보고서 서버에 저장](media/quickstart-create-powerbi-report/report-server-save-as-powerbi-report-server.png)
 2. 이제 웹 포털에서 볼 수 있습니다.
