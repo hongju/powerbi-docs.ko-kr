@@ -1,6 +1,6 @@
 ---
 title: 개발자 안내서 개요, Power BI Report Server
-description: Power BI, 모바일, 페이지가 매겨진 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 개발자 안내서를 시작합니다.
+description: Power BI, 모바일, 페이지를 매긴 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 개발자 안내서를 시작합니다.
 author: maggiesMSFT
 ms.author: maggies
 manager: kfile
@@ -18,7 +18,7 @@ ms.locfileid: "64769945"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>개발자 안내서 개요, Power BI Report Server
 
-Power BI, 모바일, 페이지가 매겨진 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 개발자 안내서를 시작합니다.
+Power BI, 모바일, 페이지를 매긴 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 개발자 안내서를 시작합니다.
 
 ![관리자 안내서](media/developer-handbook-overview/admin-handbook.png)
 
@@ -30,7 +30,7 @@ URL에 쿼리 문자열 매개 변수 `?rs:Embed=true`를 추가하여 Power BI 
 
 ### <a name="report-viewer-control"></a>보고서 뷰어 컨트롤
 
-페이지가 매겨진 보고서에서 보고서 뷰어 컨트롤을 활용할 수 있습니다. 이를 통해 .NET 창 또는 웹 애플리케이션 내에 컨트롤을 배치할 수 있습니다. 자세한 내용은 [보고서 뷰어 컨트롤 시작](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
+페이지를 매긴 보고서에서 보고서 뷰어 컨트롤을 활용할 수 있습니다. 이를 통해 .NET 창 또는 웹 애플리케이션 내에 컨트롤을 배치할 수 있습니다. 자세한 내용은 [보고서 뷰어 컨트롤 시작](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
 
 ## <a name="apis"></a>API
 
@@ -53,7 +53,7 @@ Power BI Report Server를 조작하는 몇 가지 API 옵션이 있습니다. �
 
 * 데이터 처리 확장
 * 배달 확장
-* 페이지가 매겨진 보고서의 확장 렌더링
+* 페이지를 매긴 보고서의 확장 렌더링
 * 보안 확장
 
 자세한 내용은 [확장 라이브러리](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library)을 참조하세요.
