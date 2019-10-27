@@ -126,7 +126,7 @@ Power BI Report Server에서 자세한 정보 로깅을 사용하는 것은 SQL 
 
 1. `<install directory>\PBIRS\ReportServer\bin\ReportingServicesService.exe.config` 엽니다.
 2. `<system.diagnostics>` 아래에서 **DefaultTraceSwitch**를 **4**로 변경합니다.
-3. `<RStrace>` 아래에서 **구성 요소**를 **모두:4**로 변경합니다. 
+3. `<RStrace>` 아래에서 **Components**를 **all:4**로 변경합니다. 
 
 ### <a name="executionlog"></a>ExecutionLog
 Power BI 보고서가 렌더링되거나 새로 고침 예약 계획이 실행될 때마다 새 항목이 데이터베이스의 실행 로그에 추가됩니다. 이 항목은 보고서 서버 카탈로그 데이터베이스 내의 **ExecutionLog3** 보기에서 사용할 수 있습니다.
@@ -148,7 +148,7 @@ Power BI 보고서에 대한 실행 로그 항목은 다른 보고서 유형의 
 문제 진단을 위해 Analysis Services를 수정하거나 메모리 제한을 조정하려는 경우가 있을 수 있습니다.
 
 > [!IMPORTANT]
-> 이러한 설정은 보고서 서버를 업그레이드하는 언제든지 다시 설정됩니다. 변경 내용의 복사본을 유지하고 필요한 경우 다시 적용해야 합니다.
+> 이러한 설정은 보고서 서버를 업그레이드할 때마다 다시 설정됩니다. 변경 내용의 복사본을 유지하고 필요한 경우 다시 적용해야 합니다.
 > 
 > 
 
