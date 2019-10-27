@@ -17,7 +17,7 @@ ms.lasthandoff: 05/29/2019
 ms.locfileid: "64770140"
 ---
 # <a name="manage-content-in-the-web-portal"></a>웹 포털에서 콘텐츠 관리 
-Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지가 매겨진 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치입니다.
+Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지를 매긴 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치입니다.
 
 ![보고서 서버 웹 포털](media/getting-around/report-server-web-portal.png)
 
@@ -46,7 +46,7 @@ Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지가 매겨진
    
    * KPI
    * 모바일 보고서
-   * 페이지가 매겨진 보고서
+   * 페이지를 매긴 보고서
    * Power BI Desktop 보고서
    * Excel 통합 문서
    * 데이터 세트
@@ -54,7 +54,7 @@ Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지가 매겨진
    * 리소스
 
 ## <a name="manage-items-in-the-web-portal"></a>웹 포털에서 항목 관리
-Power BI Report Server에서는 웹 포털에 저장한 항목을 세부적으로 제어할 수 있습니다. 예를 들어, 개별로 페이지가 매겨진 보고서에서 구독, 캐싱, 스냅샷 및 보안을 설정할 수 있습니다.
+Power BI Report Server에서는 웹 포털에 저장한 항목을 세부적으로 제어할 수 있습니다. 예를 들어, 개별로 페이지를 매긴 보고서에서 구독, 캐싱, 스냅샷 및 보안을 설정할 수 있습니다.
 
 1. 항목의 오른쪽 위 모서리에서 줄임표(...)를 선택하고 **관리**를 선택합니다.
    
