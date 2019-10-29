@@ -138,7 +138,7 @@ Power BI 보고서와 보고서 작성기 보고서의 데이터를 동일하게
 
     ![보고서 디자인 보기](media/report-builder-shared-datasets/power-bi-report-builder-design-view.png)
 
-1. **제목을 추가하려면 클릭하십시오.** 를 선택하고 제목을 추가합니다.
+1. **제목을 추가하려면 클릭**을 선택하고 제목을 추가합니다.
 
 1. **실행**을 선택하여 보고서를 미리 봅니다.
 
