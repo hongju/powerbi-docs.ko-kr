@@ -1,4 +1,6 @@
-- name: Power BI 관리
+- name: Power BI 관리자 설명서
+  href: index.yml
+  expanded: true
   items:
     - name: 개요
       expanded: true
@@ -8,7 +10,7 @@
     - name: 개념
       expanded: true
       items:
-        - name: Office 365의 관리 역할
+        - name: Microsoft 365의 관리 역할
           href: ../service-admin-role.md
         - name: 질문과 대답(FAQ)
           href: ../service-admin-faq.md
@@ -22,9 +24,9 @@
               href: ../service-admin-licensing-organization.md
             - name: Power BI Pro 구매
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Office 365 평가판으로 등록
+            - name: Microsoft 365 평가판으로 등록
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: Office 365 파트너와 함께 Power BI 추가
+            - name: Microsoft 365 파트너를 통해 Power BI 추가
               href: ../service-admin-syndication-partner.md
         - name: 관리 포털 사용
           href: ../service-admin-portal.md
@@ -32,19 +34,19 @@
           href: ../service-admin-where-is-my-tenant-located.md
         - name: 로그인한 사용자 찾기
           href: ../service-admin-access-usage.md
-        - name: Power BI 감사
+        - name: 감사
           href: ../service-admin-auditing.md
         - name: 서비스 상태 추적
           href: ../service-admin-health.md
-        - name: Power BI 계정 닫기
+        - name: 계정 닫기
           href: ../service-admin-closing-your-account.md
-        - name: Power BI 및 ExpressRoute
+        - name: ExpressRoute
           href: ../service-admin-power-bi-expressroute.md
         - name: Azure AD B2B 사용
           href: ../service-admin-azure-ad-b2b.md
-        - name: Power BI를 사용하는 행 수준 보안
+        - name: 행 수준 보안
           href: ../service-admin-rls.md
-        - name: Power BI 보관 작업 영역
+        - name: 보관된 작업 영역
           href: ../service-admin-power-bi-archived-workspace.md
         - name: Intune으로 모바일 앱 구성
           href: ../service-admin-mobile-intune.md

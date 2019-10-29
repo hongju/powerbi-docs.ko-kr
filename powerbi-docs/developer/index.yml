@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: 개발자를 위한 Power BI 설명서
+title: Power BI 개발자 설명서
 summary: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
 metadata:
-  title: 개발자용 Power BI
+  title: Power BI 개발자 설명서
   description: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
   services: powerbi
   ms.service: powerbi
@@ -11,49 +11,49 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/02/2019
-  ms.openlocfilehash: 04cbb872183f589ad37e39c0dd132a1a17662ce4
-  ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+  ms.date: 10/25/2019
+  ms.openlocfilehash: ac0d2e2955846d7b67e94af923b41c8b5f476996
+  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 10/14/2019
-  ms.locfileid: "72307640"
+  ms.lasthandoff: 10/26/2019
+  ms.locfileid: "72959540"
 landingContent:
 - title: 개발자용 Power BI 정보
   linkLists:
   - linkListType: overview
     links:
-    - text: 개발자는 Power BI로 무엇을 할 수 있나요
+    - text: 개발자가 수행할 수 있는 작업
       url: what-can-you-do.md
     - text: Power BI의 시각적 개체
       url: ../power-bi-custom-visuals.md
-    - text: Power BI에 포함이란?
+    - text: 포함 항목
       url: embedding.md
     - text: Power BI API란?
       url: overview-of-power-bi-rest-api.md
   - linkListType: reference
     links:
-    - text: Power BI 개발자 센터
+    - text: 개발자 센터
       url: https://powerbi.microsoft.com/developers/
-    - text: Power BI 개발자 샘플
+    - text: 개발자 샘플
       url: https://github.com/Microsoft/PowerBI-Developer-Samples
-    - text: Power BI JavaScript wiki
+    - text: JavaScript Wiki
       url: https://github.com/Microsoft/powerbi-javascript/wiki
-    - text: Power BI REST API
+    - text: REST API
       url: https://docs.microsoft.com/rest/api/power-bi/
     - text: Azure Resource Manager(ARM) REST API
       url: https://docs.microsoft.com/rest/api/power-bi-embedded/
-- title: Power BI 시각적 개체
+- title: 시각적 개체
   linkLists:
   - linkListType: tutorial
     links:
-    - text: Power BI의 시각적 개체 개발
+    - text: 시각적 개체 개발
       url: visuals/custom-visual-develop-tutorial.md
   - linkListType: concept
     links:
-    - text: Power BI 시각적 개체 FAQ
+    - text: 시각적 개체 FAQ
       url: ../power-bi-custom-visuals-faq.md
-    - text: Power BI 시각적 개체에 대한 지침
+    - text: 시각적 개체에 대한 지침
       url: guidelines-powerbi-visuals.md
     - text: 시각적 개체의 고급 편집 모드
       url: /advanced-edit-mode.md
@@ -79,7 +79,7 @@ landingContent:
       url: embed-multi-tenancy.md
     - text: 임베디드 FAQ
       url: embedded-faq.md
-    - text: Power BI 사용 권한
+    - text: 권한
       url: power-bi-permissions.md
   - linkListType: how-to-guide
     links:
@@ -89,5 +89,5 @@ landingContent:
       url: create-an-azure-active-directory-tenant.md
     - text: Azure AD 액세스 토큰 가져오기
       url: get-azuread-access-token.md
-    - text: Power BI Embedded의 질문 및 답변
+    - text: Power BI Embedded의 Q&A 기능
       url: qanda.md

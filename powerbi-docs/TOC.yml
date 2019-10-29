@@ -1047,6 +1047,8 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: OData 피드로 공유 데이터 세트에 액세스
               href: report-server/access-dataset-odata.md
+            - name: PowerShell을 사용하여 데이터 원본 연결 문자열 변경
+              href: report-server/connect-data-source-apis.md
             - name: 예약된 새로 고침 구성
               href: report-server/configure-scheduled-refresh.md
             - name: 보고서에 메모 추가

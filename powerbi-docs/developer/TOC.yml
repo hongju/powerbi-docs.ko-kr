@@ -1,4 +1,5 @@
-- name: 개발자용 Power BI
+- name: Power BI 개발자 설명서
+  href: index.yml
   items:
     - name: 개요
       expanded: true
