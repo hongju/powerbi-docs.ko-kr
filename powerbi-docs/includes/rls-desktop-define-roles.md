@@ -11,7 +11,7 @@ Power BI Desktop 내에서 역할 및 규칙을 정의할 수 있습니다. Powe
 
 보안 역할을 정의하려면 다음 단계를 수행합니다.
 
-1. Power BI Desktop 보고서에 데이터를 가져 오거나 DirectQuery 연결을 구성합니다.
+1. Power BI Desktop 보고서에 데이터를 가져오거나 DirectQuery 연결을 구성합니다.
    
    > [!NOTE]
    > Analysis Services 라이브 연결을 위해 Power BI Desktop 내에서 역할을 정의할 수 없습니다. Analysis Services 모델 내에서 이를 수행해야 합니다.
@@ -45,5 +45,5 @@ Power BI Desktop 내에서 역할 및 규칙을 정의할 수 있습니다. Powe
    
 9. **저장**을 선택합니다.
 
-Power BI Desktop 내에서는 사용자를 역할에 할당할 수 없습니다. Power BI 서비스에 할당합니다. *username()* 또는 *userprincipalname()* DAX 함수를 사용하고 적절한 관계를 구성하여 Power BI Desktop 내에서 동적 보안을 사용할 수 있습니다. 
+Power BI Desktop 내에서는 사용자를 역할에 할당할 수 없습니다. Power BI 서비스에서 할당합니다. *username()* 또는 *userprincipalname()* DAX 함수를 사용하고 적절한 관계를 구성하여 Power BI Desktop 내에서 동적 보안을 사용할 수 있습니다. 
 
