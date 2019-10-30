@@ -30,7 +30,7 @@ ms.locfileid: "68271211"
 
     ![작업 영역 편집 선택](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
-1. **작업 영역 편집** 대화 상자에서 **고급**을 확장하고 **전용 용량**을 **켜기**로 밉니다.
+1. **작업 영역 편집** 대화 상자에서 **고급**을 확장하고 **전용 용량**을 **설정**으로 변경합니다.
 
     ![전용 용량 선택](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace-dialog.png)
 
