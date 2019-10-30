@@ -91,7 +91,7 @@ Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니�
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>지원되는 보고서 작성기 버전은 무엇인가요?
 
-최근에 페이지를 매긴 보고서를 위한 Power BI 서비스의 기본 제작 도구로 Power BI 보고서 작성기를 출시했습니다. [Power BI 보고서 작성기는 Microsoft 다운로드 센터에서](https://go.microsoft.com/fwlink/?linkid=2086513) 설치합니다.
+최근에 페이지를 매긴 보고서를 위한 Power BI 서비스의 기본 제작 도구로 Power BI 보고서 작성기를 출시했습니다. [Power BI 보고서 작성기는 Microsoft 다운로드 센터에서](https://go.microsoft.com/fwlink/?linkid=2086513) 설치할 수 있습니다.
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>SQL Server Reporting Services에 저장한 기존 보고서를 Power BI로 이동하려면 어떻게 해야 하나요?
 
@@ -99,7 +99,7 @@ Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니�
 
 ### <a name="can-i-open-reports-and-publish-directly-to-the-service"></a>보고서를 열어서 서비스에 직접 게시할 수 있나요?
 
-예. 최근에 보고서를 열어서 Power BI 보고서 작성기에서 서비스에 직접 게시할 수 있도록 지원을 추가했습니다.
+예. 보고서를 열어서 Power BI 보고서 작성기에서 서비스에 직접 게시할 수 있도록 최근에 지원을 추가했습니다.
 
 ### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>Power BI에서 아직 지원되지 않는 SSRS의 페이지를 매긴 보고서 기능은 무엇인가요?
 
@@ -108,7 +108,7 @@ Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니�
 - 공유 데이터 원본
 - 공유 데이터 세트
 - 하위 보고서
-- 다른 보고서로 드릴스루 및 클릭 광고
+- 다른 보고서로 드릴스루 및 클릭스루
 - 연결된 보고서
 - Bing 지도 계층
 - 사용자 지정 글꼴
