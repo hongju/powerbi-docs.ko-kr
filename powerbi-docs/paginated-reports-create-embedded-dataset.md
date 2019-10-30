@@ -1,6 +1,6 @@
 ---
 title: Power BI 페이지를 매긴 보고서의 포함된 데이터 세트 만들기
-description: 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트를 포함된 데이터 원본을 기반으로 만드는 방법을 알아봅니다.
+description: 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 원본을 기반으로 포함된 데이터 세트를 만드는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
 manager: kfile
