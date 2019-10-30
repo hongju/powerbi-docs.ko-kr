@@ -32,7 +32,7 @@ Power BI Report Server를 설치, 업그레이드 또는 마이그레이션하�
 [Power BI Report Server 설치](install-report-server.md)
 
 ### <a name="migration"></a>마이그레이션
-SQL Server Reporting Services를 현재 위치 업그레이드할 수 없습니다. Power BI Report Server를 만들려는 기존 SQL Server Reporting Services 인스턴스가 있는 경우 마이그레이션해야 합니다. 다른 이유로 마이그레이션을 수행할 수도 있습니다. 자세한 내용은 마이그레이션 문서를 검토합니다.
+SQL Server Reporting Services를 in-place 업그레이드할 수 없습니다. Power BI Report Server를 만들려는 기존 SQL Server Reporting Services 인스턴스가 있는 경우 마이그레이션해야 합니다. 다른 이유로 마이그레이션을 수행할 수도 있습니다. 자세한 내용은 마이그레이션 문서를 검토합니다.
 
 [Report Server 설치 마이그레이션](migrate-report-server.md)
 
