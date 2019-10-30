@@ -46,7 +46,7 @@ ms.locfileid: "65240029"
 
     ![Power BI Report Server VM 만들기](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
 
-5. **1단계 기본 내용**에서 **VM 이름**으로 **reportservervm**을 지정합니다.
+5. **1단계 기본 사항**에서 **VM 이름**으로 **reportservervm**을 지정합니다.
 
     Power BI Report Server VM 이름에는 대시를 포함할 수 없습니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "65240029"
 
 1. Azure 왼쪽 탐색 창에서 **가상 머신**을 선택합니다. 
 
-2. **이름으로 필터링** 상자에 “보고서”를 입력합니다. 
+2. **이름으로 필터링** 상자에 “report”를 입력합니다. 
 
 3. 이름이 **REPORTSERVERVM**인 VM을 선택합니다.
 
@@ -125,10 +125,10 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 ## <a name="tag-your-favorites"></a>즐겨찾기 태그 지정
 즐겨찾기에 추가하려는 보고서 및 KPI를 태그로 지정할 수 있습니다. 웹 포털 및 Power BI 모바일 앱 모두에서 단일 즐겨찾기 폴더에 수집되기 때문에 쉽게 찾을 수 있습니다. 
 
-1. **Profit Margin** KPI > **즐겨찾기에 추가**의 오른쪽 위 모서리에서 줄임표( **…** )를 선택합니다.
+1. **이익율** KPI의 오른쪽 위 모서리에서 줄임표( **…** ) > **즐겨찾기에 추가**를 선택합니다.
    
     ![즐겨찾기에 추가](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
-2. 웹 포털의 즐겨찾기 페이지에서 다른 즐겨찾기와 함께 보려는 **즐겨찾기**를 웹 포털 리본에서 선택합니다.
+2. 웹 포털의 즐겨찾기 페이지에서 다른 즐겨찾기와 함께 보려면 웹 포털 리본에서 **즐겨찾기**를 선택합니다.
    
     ![즐겨찾기 보기](media/tutorial-explore-report-server-web-portal/power-bi-report-server-favorites.png)
 
@@ -177,7 +177,7 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 
     ![브라우저 새로 고침 아이콘](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-refresh.png)
 
-8. 오른쪽의 **필터** 창을 확장하여 추가한 **직업** 필터를 확인합니다. **전문가**를 선택합니다.
+8. 오른쪽의 **필터** 창을 확장하여 추가한 **Occupation** 필터를 확인합니다. **Professional**를 선택합니다.
 
     ![필터링된 Power BI 보고서](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-filtered.png)
 
@@ -189,7 +189,7 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 
 ### <a name="manage-a-paginated-report"></a>페이지를 매긴 보고서 관리
 
-1. **페이지를 매긴 보고서** 아래 웹 포털에서 **판매 주문** > **관리** 옆에 있는 줄임표(...)를 선택합니다.
+1. **페이지를 매긴 보고서** 아래 웹 포털에서 **판매 주문** 옆에 있는 줄임표(...) > **관리**를 선택합니다.
 
 1. **매개 변수**를 선택하고 **SalesOrderNumber**의 기본값을 **SO50689**로 변경하고  >  **적용**을 선택합니다.
 
@@ -219,7 +219,7 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 
 보고서 작성기에서 페이지를 매긴 보고서를 편집할 수 있고 브라우저에서 바로 보고서 작성기를 시작할 수 있습니다.
 
-1. 웹 포털에서 **판매 주문** > **보고서 작성기에서 편집** 옆에 있는 줄임표(...)를 선택합니다.
+1. 웹 포털에서 **판매 주문** 옆에 있는 줄임표(...) > **보고서 작성기에서 편집**을 선택합니다.
 
 1. **허용**을 선택하여 이 웹 사이트가 컴퓨터에서 프로그램을 열도록 허용합니다.
 
@@ -239,7 +239,7 @@ Power BI Report Server의 Excel Online에서 Excel 통합 문서를 보고 조�
 
 1. Excel 통합 문서 **Office Liquidation Sale.xlsx**를 선택합니다. 자격 증명을 요청하는 메시지가 표시될 수 있습니다. **취소**를 선택합니다. 
     웹 포털에서 열립니다.
-1. 슬라이서에서 **어플라이언스**를 선택합니다.
+1. 슬라이서에서 **Appliance**를 선택합니다.
 
     ![웹 포털의 Excel Online](media/tutorial-explore-report-server-web-portal/power-bi-report-server-excel-online.png)
 
