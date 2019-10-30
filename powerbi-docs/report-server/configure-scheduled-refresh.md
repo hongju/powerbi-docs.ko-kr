@@ -28,7 +28,7 @@ Power BI 보고서에서 데이터를 새로 고치려면 예약된 새로 고�
    
     ![Power BI 보고서 상황에 맞는 메뉴에서 관리 선택](media/configure-scheduled-refresh/manage-power-bi-report.png)
 2. 왼쪽 메뉴에서 **데이터 원본** 탭을 선택합니다.
-3. 표시되는 각 데이터 원본의 경우 해당 데이터 원본에 연결할 때 사용할 인증 유형을 선택합니다. 적절 한 자격 증명을 입력합니다.
+3. 표시되는 각 데이터 원본의 경우 해당 데이터 원본에 연결할 때 사용할 인증 유형을 선택합니다. 적절한 자격 증명을 입력합니다.
    
     ![보고서 관리 화면에서 데이터 원본 자격 증명](media/configure-scheduled-refresh/data-source-credentials.png)
 
