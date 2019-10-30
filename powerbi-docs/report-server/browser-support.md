@@ -1,6 +1,6 @@
 ---
 title: Power BI Report Server에 대한 브라우저 지원
-description: Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다.
+description: Power BI Report Server 및 보고서 뷰어 컨트롤을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -17,7 +17,7 @@ ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769757"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI Report Server에 대한 브라우저 지원
-Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다.
+Power BI Report Server 및 보고서 뷰어 컨트롤을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다.
 
 ## <a name="browser-requirements-for-the-web-portal"></a>웹 포털에 대한 브라우저 요구 사항
 다음은 웹 포털에 지원되는 브라우저의 현재 목록입니다.
@@ -49,8 +49,8 @@ Power BI Report Server 및 Report Viewer Controls을 관리하고 보기 위해 
   
   **(+)** 최신 공개 릴리스 버전
 
-## <a name="browser-requirements-for-the-report-viewer-web-control-2015"></a>Report Viewer 웹 컨트롤(2015)에 대한 브라우저 요구 사항
-다음은 Report Viewer 웹 컨트롤에 지원되는 브라우저의 현재 목록입니다. Report Viewer는 웹 포털에서 보고서 보기를 지원합니다.
+## <a name="browser-requirements-for-the-report-viewer-web-control-2015"></a>보고서 뷰어 웹 컨트롤(2015)에 대한 브라우저 요구 사항
+다음은 보고서 뷰어 웹 컨트롤에 지원되는 브라우저의 현재 목록입니다. 보고서 뷰어는 웹 포털에서 보고서 보기를 지원합니다.
 
 **Microsoft Windows**  
 *Windows 7, 8.1, 10; Windows Server 2008 R2, 2012, 2012 R2*
@@ -96,8 +96,8 @@ Your browser does not support scripts or has been configured to not allow script
 > 
 > 
 
-## <a name="browser-support-for-report-viewer-web-server-controls-in-visual-studio"></a>Visual Studio에서 Report Viewer 웹 서버 컨트롤에 대한 브라우저 지원
-Report Viewer 웹 서버 컨트롤은 ASP.NET 웹 애플리케이션에서 보고서 기능을 포함하는 데 사용됩니다. Report Viewer 컨트롤을 가져오는 방법에 대한 자세한 내용은 [Report Viewer 컨트롤을 사용하여 Reporting Services 통합 - 시작](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
+## <a name="browser-support-for-report-viewer-web-server-controls-in-visual-studio"></a>Visual Studio에서 보고서 뷰어 웹 서버 컨트롤에 대한 브라우저 지원
+보고서 뷰어 웹 서버 컨트롤은 ASP.NET 웹 애플리케이션에서 보고서 기능을 포함하는 데 사용됩니다. 보고서 뷰어 컨트롤을 가져오는 방법에 대한 자세한 내용은 [보고서 뷰어 컨트롤을 사용하여 Reporting Services 통합 - 시작](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
 
 스크립트 지원을 사용하는 브라우저를 사용합니다. 브라우저에서 스크립트를 실행할 수 없는 경우 보고서를 볼 수 없습니다.
 
