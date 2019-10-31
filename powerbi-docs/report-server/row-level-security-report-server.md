@@ -73,7 +73,7 @@ Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성�
 
 데이터 세트 내에서 DAX 함수 username() 또는 userprincipalname()을 사용할 수 있습니다. Power BI Desktop의 식 내에서 사용할 수 있습니다. 모델을 게시할 때 Power BI Report Server에서 모델을 사용합니다.
 
-Power BI Desktop 내에서 username()은 DOMAIN\User 형식으로 사용자를 반환하고 userprincipalname()은 user@contoso.com 형식으로 사용자를 반환합니다.
+Power BI Desktop 내에서 사용자 이름()은 DOMAIN\User 형식으로 사용자를 반환하고 userprincipalname()은 user@contoso.com 형식으로 사용자를 반환합니다.
 
 Power BI Report Server 내에서 username()과 userprincipalname() 둘 다 이메일 주소와 유사한 사용자의 UPN(사용자 계정 이름)을 반환합니다.
 
