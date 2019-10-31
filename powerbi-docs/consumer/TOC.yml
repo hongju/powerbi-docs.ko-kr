@@ -48,6 +48,8 @@
               href: end-user-report-open.md
             - name: 보고서 표시 방식 변경
               href: end-user-report-view.md
+            - name: 시각적 개체에서 정렬 순서 변경
+              href: end-user-change-sort.md
             - name: 보고서에서 필터 사용
               href: end-user-report-filter.md
             - name: 보고서 시각적 개체가 서로 교차 필터링되는 방식 알아보기
