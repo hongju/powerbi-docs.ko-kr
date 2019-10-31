@@ -20,7 +20,7 @@ ms.locfileid: "70751537"
 
 Power BI Report Server를 사용하는 RLS(행 수준 보안)를 설정하면 지정된 사용자의 데이터 액세스를 제한할 수 있습니다. 필터는 행 수준에서 데이터 액세스를 제한하고 역할 내에서 필터를 정의할 수 있습니다.  Power BI Report Server에서 기본 권한을 사용하는 경우, Power BI 보고서에 대한 게시자 또는 콘텐츠 관리자 권한이 있는 사용자는 해당 보고서의 역할에 멤버를 할당할 수 있습니다.    
 
-Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성합니다. SQL Server와 같이 DirectQuery를 사용하는 보고서에서 RLS를 구성할 수도 있습니다.  DirectQuery 연결에서 보고서 readers에 대한 통합 인증을 사용하는 경우에는 RLS가 준수되지 않는다는 점을 명심하세요. Analysis Services 라이브 연결의 경우 온-프레미스 모델에서 행 수준 보안을 구성합니다. 라이브 연결 데이터 세트에는 보안 옵션이 표시되지 않습니다. 
+Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성합니다. SQL Server와 같이 DirectQuery를 사용하는 보고서에서 RLS를 구성할 수도 있습니다.  DirectQuery 연결에서 보고서 읽기 사용자에 대한 통합 인증을 사용하는 경우에는 RLS가 준수되지 않는다는 점을 명심하세요. Analysis Services 라이브 연결의 경우 온-프레미스 모델에서 행 수준 보안을 구성합니다. 라이브 연결 데이터 세트에는 보안 옵션이 표시되지 않습니다. 
 
 [!INCLUDE [rls-desktop-define-roles](../includes/rls-desktop-define-roles.md)]
 
@@ -41,7 +41,7 @@ Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성�
 
 ## <a name="add-members-to-roles"></a>역할에 멤버 추가 
 
-보고서를 Power BI Report Server에 저장한 후에는 보안을 관리하고 서버에 멤버를 추가 또는 제거합니다. 보고서에 대한 게시자 또는 콘텐츠 관리자 권한이 있는 사용자만 사용 가능한 행 수준 보안 옵션이 있으면 회색으로 표시되지 않습니다.
+보고서를 Power BI Report Server에 저장한 후에는 보안을 관리하고 서버에 멤버를 추가 또는 제거합니다. 보고서에 대한 게시자 또는 콘텐츠 관리자 권한이 있는 사용자만 사용 가능한 행 수준 보안 옵션이 있으며 회색으로 표시되지 않습니다.
 
  보고서에 필요한 역할이 없으면 Power BI Desktop에서 보고서를 열고 역할을 추가 또는 수정한 다음, Power BI Report Server에 다시 저장해야 합니다. 
 
@@ -69,13 +69,13 @@ Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성�
     ![멤버 삭제](media/row-level-security-report-server/power-bi-report-server-delete-members.png)
 
 
-## <a name="username-and-userprincipalname"></a>사용자 이름() 및 userprincipalname()
+## <a name="username-and-userprincipalname"></a>username() 및 userprincipalname()
 
-데이터 세트 내에서 DAX 함수 사용자 이름() 또는 userprincipalname()을 사용할 수 있습니다. Power BI Desktop의 식 내에서 사용할 수 있습니다. 모델을 게시할 때 Power BI Report Server에서 모델을 사용합니다.
+데이터 세트 내에서 DAX 함수 username() 또는 userprincipalname()을 사용할 수 있습니다. Power BI Desktop의 식 내에서 사용할 수 있습니다. 모델을 게시할 때 Power BI Report Server에서 모델을 사용합니다.
 
-Power BI Desktop 내에서 사용자 이름()은 DOMAIN\User 형식으로 사용자를 반환하고 userprincipalname()은 user@contoso.com 형식으로 사용자를 반환합니다.
+Power BI Desktop 내에서 username()은 DOMAIN\User 형식으로 사용자를 반환하고 userprincipalname()은 user@contoso.com 형식으로 사용자를 반환합니다.
 
-Power BI Report Server 내에서 사용자 이름()과 userprincipalname() 둘 다 이메일 주소와 유사한 사용자의 UPN(사용자 계정 이름)을 반환합니다.
+Power BI Report Server 내에서 username()과 userprincipalname() 둘 다 이메일 주소와 유사한 사용자의 UPN(사용자 계정 이름)을 반환합니다.
 
 Power BI Report Server에서 사용자 지정 인증을 사용하는 경우 사용자에 대해 설정한 사용자 이름 형식을 반환합니다.  
 
@@ -83,7 +83,7 @@ Power BI Report Server에서 사용자 지정 인증을 사용하는 경우 사�
 
 다음은 Power BI 모델의 행 수준 보안에 대한 현재 제한 사항입니다. 
 
-사용자 이름() DAX 함수를 사용하여 보고서를 작성한 사용자는 통합 보안이 있는 DirectQuery를 사용할 때를 제외하고 UPN(사용자 계정 이름)이 반환되는 새 동작을 알 수 있습니다.  해당 시나리오에서는 RLS가 준수되지 않으므로 해당 시나리오의 동작은 변경되지 않습니다.
+username() DAX 함수를 사용하여 보고서를 작성한 사용자는 통합 보안이 있는 DirectQuery를 사용할 때를 제외하고 UPN(사용자 계정 이름)이 반환되는 새 동작을 알 수 있습니다.  해당 시나리오에서는 RLS가 준수되지 않으므로 해당 시나리오의 동작은 변경되지 않습니다.
 
 Power BI Desktop으로 생성된 데이터 세트에서만 RLS를 정의할 수 있습니다. Excel로 만든 데이터 세트에 RLS를 사용하려면 먼저 파일을 Power BI Desktop(PBIX) 파일로 변환해야 합니다. [Excel 파일 변환](../desktop-import-excel-workbooks.md)에 대해 자세히 알아봅니다.
 
