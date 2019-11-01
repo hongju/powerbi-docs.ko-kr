@@ -31,7 +31,7 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
 - [Power BI pro 라이선스](service-self-service-signup-for-power-bi.md)
 - [Power BI Desktop 설치](desktop-get-the-desktop.md)(선택 사항)
 - [Power BI의 기본 개념](service-basic-concepts.md) 숙지
-- 템플릿 앱을 공개적으로 공유할 수 있는 권한. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings)을 참조하세요.
+- 템플릿 앱을 공개적으로 공유할 수 있는 권한. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings) 을 참조하세요.
 
 ## <a name="create-the-template-app-workspace"></a>템플릿 앱 작업 영역 만들기
 
