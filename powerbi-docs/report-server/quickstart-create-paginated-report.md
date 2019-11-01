@@ -61,7 +61,7 @@ SSRS 서버에 보고서를 만들기 위해 보고서 작성기를 이미 설�
 2. 이 경우에는 차트 유형에서 가로 막대형 차트를 선택합니다.
    
     ![차트 마법사: 차트 종류](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
-3. **범주**, **시리즈** 및 **값** 상자에 끌어 놓아서 필드를 정렬합니다.
+3. **범주**, **계열** 및 **값** 상자에 끌어 놓아서 필드를 정렬합니다.
    
     ![차트 마법사: 필드 정렬](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
 4. **다음** > **마침**을 선택합니다.
