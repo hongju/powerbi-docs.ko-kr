@@ -415,10 +415,20 @@
           href: desktop-latest-update-archive.md
         - name: Power BI Desktop 웃는 얼굴 보내기 개인정보처리방침
           href: desktop-send-smile-privacy-statement.md
-        - name: Power BI 보고서의 접근성
-          href: desktop-accessibility.md
         - name: Power BI Desktop 로그인 양식 관리
           href: desktop-admin-sign-in-form.md
+        - name: 내게 필요한 옵션
+          items:
+            - name: Power BI의 접근성 개요
+              href: desktop-accessibility-overview.md
+            - name: 액세스 가능한 Power BI 보고서 만들기
+              href: desktop-accessibility-creating-reports.md
+            - name: 접근성 도구를 사용하여 Power BI 보고서 사용
+              href: desktop-accessibility-consuming-tools.md
+            - name: 접근성 도구를 사용하여 Power BI 보고서 만들기
+              href: desktop-accessibility-creating-tools.md
+            - name: Power BI 보고서에 대한 접근성 바로 가기 키
+              href: desktop-accessibility-keyboard-shortcuts.md
 - name: Power BI 서비스
   items:
     - name: 개요
