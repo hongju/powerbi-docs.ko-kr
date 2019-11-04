@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c2f6564c83c7234b626686a6fe4c76f65b354e58
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 9a02c642d0b5d766b22b3b8c3853da2d4d773cbd
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185528"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060550"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Power BI로 Lithium에 연결
 
@@ -61,7 +61,7 @@ Power BI용 [Lithium 콘텐츠 팩](https://app.powerbi.com/getdata/services/lit
 Lithium 콘텐츠 팩을 사용하려면 Lithium community v15.9 이상이 필요합니다. Lithium 관리자에게 문의하여 확인하세요.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI란?](power-bi-overview.md)
+[Power BI란?](fundamentals/power-bi-overview.md)
 
 [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 

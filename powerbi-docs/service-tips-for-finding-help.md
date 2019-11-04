@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7baa8284d90242584aa529fb66bc6446402924
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715445"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060317"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁
 Power BI를 사용하면서 "즉각적인" 도움이 필요한 경우 Power BI 질문에 대한 답변을 받지 못해 실망하거나 어려움을 겪은 적이 있나요? 
@@ -69,6 +69,6 @@ Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.
 예를 들어, 대시보드를 보안 그룹과 공유할 수 있는지 궁금한 경우가 있습니다. 이러한 질문에 대해 답변하려면 공유 대화 상자로 이동하여 보안 그룹을 추가해봅니다. 어느 쪽이든 테스트해본 다음 답변할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI란?](power-bi-overview.md)
+* [Power BI란?](fundamentals/power-bi-overview.md)
 * [Power BI 커뮤니티](http://community.powerbi.com/)에 질문하기
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.

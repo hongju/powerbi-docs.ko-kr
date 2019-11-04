@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: e02d50a7990eb90405d6a864fe294fee8e946e10
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: 851a87e22174be6084ea5cf0c0c9b1e0c89464ef
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70936256"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060875"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -237,7 +237,7 @@ ms.locfileid: "70936256"
 
 - [Microsoft Data Insights Summit 2017 주문형 세션](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
-- [Power BI란?](power-bi-overview.md)
+- [Power BI란?](fundamentals/power-bi-overview.md)
 
 - [@MSPowerBI Twitter](https://twitter.com/mspowerbi)에서 팔로우
 

@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a4d8b094fe10b674d315b1982e1dc34148ba6d1d
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70775743"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060869"
 ---
 # <a name="what-is-the-power-bi-service"></a>Power BI 서비스란?
 **Power BI**는 사용자와 비즈니스에 가장 효과적인 방식으로 비즈니스 인사이트를 만들고 공유하고 사용할 수 있도록 하는 함께 작동하는 소프트웨어 서비스, 앱 및 커넥터의 컬렉션입니다. Microsoft Power BI *서비스*(app.powerbi.com)는 Power BI 온라인이라고 하며, Power BI의 SaaS(*Software as a Service*)입니다. Power BI 서비스를 사용하면 *대시보드*를 통해 비즈니스의 상태를 파악할 수 있습니다. 대시보드에 표시된 *타일*을 선택하여 *보고서*를 열고 자세히 살펴볼 수 있습니다. 대시보드 및 보고서는 모든 관련 데이터를 한 장소에 가져오는 *데이터 세트*와 연결합니다. 
@@ -26,7 +26,7 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우 [Power 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-Power BI의 다른 주요 구성 요소는 Windows 데스크톱 애플리케이션 **Power BI Desktop**과 Windows, iOS 및 Android 디바이스용 Power BI **모바일 앱**입니다. 사용자와 사용자의 동료는 이러한 세 가지 요소&mdash;Power BI Desktop, 서비스 및 모바일 앱&mdash;을 사용하여 비즈니스 인사이트를 만들고 공유하며 사용할 수 있습니다. 개요는 [Power BI란?](power-bi-overview.md)을 참조하세요.
+Power BI의 다른 주요 구성 요소는 Windows 데스크톱 애플리케이션 **Power BI Desktop**과 Windows, iOS 및 Android 디바이스용 Power BI **모바일 앱**입니다. 사용자와 사용자의 동료는 이러한 세 가지 요소&mdash;Power BI Desktop, 서비스 및 모바일 앱&mdash;을 사용하여 비즈니스 인사이트를 만들고 공유하며 사용할 수 있습니다. 개요는 [Power BI란?](fundamentals/power-bi-overview.md)을 참조하세요.
 
 ## <a name="creating-reports-in-the-service"></a>서비스에서 보고서 만들기
 일반적인 Power BI 워크플로에서는 Power BI Desktop에서 보고서를 작성한 다음 Power BI 서비스에 게시하는 것부터 시작합니다.  

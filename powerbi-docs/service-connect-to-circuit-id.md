@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3c8ef3e522c9f20ff9602d29670ccaf28cd92048
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 843d7769685c8ad960d4a4bc496bb7f8180da3da
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185946"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060579"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Power BI로 회로 ID에 연결
 Power BI를 사용하면 회로 ID에서 통신 데이터를 쉽게 분석할 수 있습니다. Power BI는 데이터를 검색한 다음 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다. 연결을 만든 후 데이터를 탐색하고 요구에 맞게 대시보드를 사용자 지정할 수 있습니다. 매일 자동으로 데이터가 새로 고쳐집니다.
@@ -49,7 +49,7 @@ Power BI용 [회로 ID 콘텐츠 팩](https://app.powerbi.com/getdata/services/c
 * 데이터 세트을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI란?](power-bi-overview.md)
+[Power BI란?](fundamentals/power-bi-overview.md)
 
 [Power BI에 대한 데이터 가져오기](service-get-data.md)
 

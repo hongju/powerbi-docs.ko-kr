@@ -71,6 +71,8 @@
               href: visuals/landing-page.md
             - name: 시작 URL
               href: visuals/launch-url.md
+            - name: 로컬 스토리지 API
+              href: visuals/local-storage.md
             - name: 이벤트 렌더링
               href: visuals/event-service.md
             - name: 정렬

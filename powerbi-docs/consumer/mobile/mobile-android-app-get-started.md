@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: c5d6549c449c77cea709783b1634318e12fc2e52
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61350957"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060284"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 디바이스에서 Power BI 모바일 앱 시작
 Microsoft Power BI용 Android 앱은 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 
@@ -23,7 +23,7 @@ Microsoft Power BI용 Android 앱은 Power BI, Power BI Report Server 및 Report
 
 Power BI Desktop에서 Power BI 보고서를 만들고 게시합니다.
 
-* [보고서를 Power BI 서비스에 게시](../../power-bi-overview.md)하고 대시보드를 만듭니다.
+* [보고서를 Power BI 서비스에 게시](../../fundamentals/power-bi-overview.md)하고 대시보드를 만듭니다.
 * [온-프레미스 보고서를 Power BI Report Server로 게시합니다](../../report-server/quickstart-create-powerbi-report.md).
 
 온-프레미스 또는 클라우드에 있는지와 상관없이 Android용 Power BI 앱에서 대시보드 및 보고서를 조작합니다.
@@ -136,7 +136,7 @@ Power BI의 대시보드 및 보고서와 Power BI Report Server 또는 Reportin
 
 ### <a name="see-also"></a>참고 항목
 * Android 앱 스토어에서 [Android 앱 다운로드](http://go.microsoft.com/fwlink/?LinkID=544867)
-* [Power BI란?](../../power-bi-overview.md)
+* [Power BI란?](../../fundamentals/power-bi-overview.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 
 

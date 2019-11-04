@@ -395,6 +395,8 @@
               href: desktop-access-database-errors.md
             - name: Power BI Desktop을 시작할 때 발생하는 문제 해결
               href: desktop-error-launching-desktop.md
+            - name: Power BI Desktop의 DirectQuery 모델 문제 해결
+              href: desktop-directquery-troubleshoot.md
     - name: 참조
       items:
         - name: Power BI Desktop의 데이터 형식
@@ -661,7 +663,7 @@
           items:
             - name: 새 작업 영역 만들기
               href: service-create-the-new-workspaces.md
-            - name: 앱 작업 영역 만들기
+            - name: 작업 영역 만들기
               href: service-create-workspaces.md
             - name: 작업 영역에서 앱 게시
               href: service-create-distribute-apps.md
@@ -1175,6 +1177,8 @@
       href: guidance/dax-error-functions.md
     - name: 데이터 흐름에 관한 모범 사례
       href: service-dataflows-best-practices.md
+    - name: Power BI Desktop의 DirectQuery 모델 지침
+      href: guidance/directquery-model-guidance.md
     - name: 백서
       items:
         - name: 백서 개요

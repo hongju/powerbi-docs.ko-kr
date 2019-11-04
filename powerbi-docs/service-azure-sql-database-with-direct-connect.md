@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a80c549ab3aa61e377b657ad426d240a6a485fdd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: f2d175896876bd6ea6f76b58b0eda0e5100dcfe1
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074242"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060897"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery를 사용한 Azure SQL Database
 
@@ -55,7 +55,7 @@ DirectQuery를 사용하여 Azure SQL Database에 연결하려면 Power BI Deskt
 ## <a name="next-steps"></a>다음 단계
 
 * [Power BI Desktop에서 DirectQuery 사용](desktop-use-directquery.md)  
-* [Power BI란?](power-bi-overview.md)  
+* [Power BI란?](fundamentals/power-bi-overview.md)  
 * [Power BI에 대한 데이터 가져오기](service-get-data.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티 사용해 보기](http://community.powerbi.com/)

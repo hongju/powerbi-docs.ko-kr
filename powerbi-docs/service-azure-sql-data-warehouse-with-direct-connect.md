@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: aaeda4c2f7c50e41d9b149e33ba49f5eba76eba8
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448440"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060703"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery를 사용한 Azure SQL Data Warehouse
 
@@ -98,7 +98,7 @@ SQL Data Warehouse는 Power BI 데이터 가져오기 페이지에도 나열됩�
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI란?](power-bi-overview.md)  
+* [Power BI란?](fundamentals/power-bi-overview.md)  
 * [Power BI에 대한 데이터 가져오기](service-get-data.md)  
 * [Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1fc8decc70ade009a7c4236686cfe9cf72adb54d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 52ca0405c17339580a971162d13cb4ba67f05979
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61161717"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060517"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Power BI로 SQL Sentry에 연결
 Power BI를 사용하면 SQL Sentry를 통해 수집한 성능 데이터를 쉽게 분석할 수 있습니다. Power BI는 데이터를 검색한 다음 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다.
@@ -93,7 +93,7 @@ Power BI의 SQL Sentry에서 다음 데이터를 사용할 수 있습니다.
 <https://cloud.sqlsentry.com>에 동기화 중인 SQL Sentry 데이터베이스의 소유자가 아닌 경우 관리자에게 연락하여 수집된 데이터를 볼 수 있는 권한이 있는지 확인하세요.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI란?](power-bi-overview.md)
+[Power BI란?](fundamentals/power-bi-overview.md)
 
 [Power BI에 대한 데이터 가져오기](service-get-data.md)
 

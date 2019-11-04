@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b43408ef91e79d9489480d795329f2e80d0bb1be
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307740"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429714"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -107,8 +107,8 @@ ms.locfileid: "72307740"
 
 이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
 
-* [Power BI Desktop 2019년 9월 버전 - 32비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09.msi)
-* [Power BI Desktop 2019년 9월 버전 - 64비트](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09_x64.msi)
+* [Power BI Desktop 2019년 9월 버전 - 32비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09.exe)
+* [Power BI Desktop 2019년 9월 버전 - 64비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09_x64.exe)
 
 
 ## <a name="august-2019-update-2725556801"></a>2019년 8월 업데이트(2.72.5556.801)
@@ -767,7 +767,7 @@ ms.locfileid: "72307740"
 ### <a name="reporting"></a>보고
 
 * 필터 카드 [[비디오]](https://youtu.be/cT3L2VzgBRU?t=56) [[문서]](power-bi-reports-filters-and-highlighting.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search)에서 검색 
-* 제작 환경에 대한 내게 필요한 옵션 개선 [[비디오]](https://youtu.be/cT3L2VzgBRU?t=118)  [[문서]](desktop-accessibility.md#arranging-items-in-field-buckets)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
+* 제작 환경에 대한 내게 필요한 옵션 개선 [[비디오]](https://youtu.be/cT3L2VzgBRU?t=118)  [[문서]](desktop-accessibility-overview.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
 * ArcGIS Map의 성능 개선 [[비디오]](https://youtu.be/cT3L2VzgBRU?t=333)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
@@ -980,7 +980,7 @@ ms.locfileid: "72307740"
 
 ### <a name="reporting"></a>보고
 
-* 보고서에 고대비 지원  [[비디오]](https://youtu.be/4VpGtWSrssE?t=13s)  [[문서]](desktop-accessibility.md#high-contrast-support-for-reports)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* 보고서에 고대비 지원  [[비디오]](https://youtu.be/4VpGtWSrssE?t=13s)  [[문서]](desktop-accessibility-overview.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
 * 도넛 반지름 제어  [[비디오]](https://youtu.be/4VpGtWSrssE?t=6m1s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
 * 파이 및 도넛 세부 레이블 위치 제어  [[비디오]](https://youtu.be/4VpGtWSrssE?t=7m19s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
 * 콤보 차트에서 각 측정값에 대해 별도로 데이터 레이블 서식 지정  [[비디오]](https://youtu.be/4VpGtWSrssE?t=9m29s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 

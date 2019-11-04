@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72021040"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431522"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Power BI 보고서 작성기에서 공유 데이터 세트 사용
 
@@ -99,7 +99,7 @@ Power BI 보고서와 보고서 작성기 보고서의 데이터를 동일하게
 
     ![쿼리 결과](media/report-builder-shared-datasets/power-bi-report-builder-query-results.png)
 
-1. **확인**을 선택합니다. 
+1. **확인**을 선택합니다.
 
     **데이터 세트 속성** 대화 상자의 **쿼리** 창에 쿼리가 표시됩니다.
 

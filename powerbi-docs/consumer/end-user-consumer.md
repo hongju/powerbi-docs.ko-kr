@@ -7,17 +7,17 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 08/21/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7c96b8a21cceb571b1dcf3cfe9567760915c5740
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 8b1876d0990cc21d854ac96329e5ab4a5632f22d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70200738"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430276"
 ---
-# <a name="power-bi-for-consumers"></a>소비자용 Power BI
+# <a name="the-power-bi-service-for-consumers"></a>소비자용 Power BI 서비스
 
 우리는 비즈니스 의사 결정이 의견이 아닌 사실을 기준으로 하는 데이터 문화권에 살고 있습니다. 이러한 결정을 내리기 위해서는 데이터가 필요하며 동료들도 도움을 줄 수 있을 것입니다.     
  
