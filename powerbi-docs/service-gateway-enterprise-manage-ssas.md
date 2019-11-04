@@ -28,9 +28,9 @@ Analysis Services에 대한 라이브 연결을 설정하는 방법에 대한 �
 > [!NOTE]
 > Analysis Services 데이터 원본이 있으면 Analysis Services 서버와 동일한 포리스트/도메인에 조인된 컴퓨터에 게이트웨이를 설치해야 합니다.
 
-## <a name="add-a-data-source"></a>데이터 소스 추가
+## <a name="add-a-data-source"></a>데이터 원본 추가
 
-데이터 원본을 추가하는 방법에 대한 자세한 내용은 [데이터 원본 추가](service-gateway-data-sources.md#add-a-data-source)를 참조하세요. 다차원 또는 테이블 형식 서버에 연결하는 경우 **데이터 원본 형식**으로 **Analysis Services**를 선택합니다.
+데이터 원본을 추가하는 방법에 대한 자세한 내용은 [데이터 원본 추가](service-gateway-data-sources.md#add-a-data-source)를 참조하세요. 다차원 또는 테이블 형식 서버에 연결하는 경우 **데이터 원본 유형**으로 **Analysis Services**를 선택합니다.
 
 ![Analysis Services 데이터 원본 추가](media/service-gateway-enterprise-manage-ssas/datasourcesettings2-ssas.png)
 
@@ -172,7 +172,7 @@ Active Directory 조회를 수행하도록 게이트웨이를 구성하려면 �
 
 ### <a name="test-a-mapping-rule"></a>매핑 규칙 테스트
 
-대체될 원래 이름을 검증하려면 **원래 이름**의 값을 입력합니다. **테스트 규칙**을 선택합니다.
+대체될 원래 이름을 검증하려면 **원래 이름**의 값을 입력합니다. **규칙 테스트**를 선택합니다.
 
 ![매핑 규칙 테스트](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-test-mapping-rule.png)
 
