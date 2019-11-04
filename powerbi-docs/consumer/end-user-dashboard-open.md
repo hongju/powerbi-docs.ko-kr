@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b8d604b8872bae14bc2ffeeb16b56b1b3a98e056
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 629db8e4706bfb42f3f1b3ad65b8a57577d7ee21
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141372"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716379"
 ---
 # <a name="view-a-dashboard"></a>대시보드 보기
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Power BI *소비자*는 대시보드를 보는 데 많은 시간을 사용합니다. 대시보드는 기본 보고서 및 데이터 세트에서 특정 정보를 강조 표시하도록 설계되었습니다. 또한 Power BI 소비자는 데이터 기반 비즈니스 의사 결정을 수행하기 위해 추적, 모니터링, 질문에 답변, 테스트 등에 해당 정보를 사용합니다.
 
 ![대시보드](media/end-user-dashboard-open/power-bi-new-dash-new.png)

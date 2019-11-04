@@ -11,15 +11,16 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d50ed2c06c81514fa6fb129ca3691ec56b8116b9
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 0f7926e536ba80549e8a6e1cdce5a7cf609efaba
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256230"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716699"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>나와 공유한 대시보드 및 보고서 표시
 
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 동료가 콘텐츠를 공유하는 경우 **공유** 단추를 사용하면 **공유한 항목** 컨테이너에 표시됩니다. 대시보드 또는 보고서는 **공유한 항목**에서만 사용 가능하며, **앱**에서는 사용할 수 없습니다.
 
@@ -43,8 +44,8 @@ Amanda가 **공유한 항목** 콘텐츠 목록을 설명하고 목록을 탐색
 ### <a name="actions-available-from-the-shared-with-me-container"></a>**공유한 항목** 컨테이너에서 사용 가능한 작업
 사용 가능한 동작은 콘텐츠 *디자이너*가 할당한 설정에 따라 달라집니다. 옵션에는 다음이 포함될 수 있습니다.
 * 별 아이콘을 선택하여 [대시보드 또는 보고서를 즐겨찾기에 추가](end-user-favorite.md) ![별 아이콘](./media/end-user-shared-with-me/power-bi-star-icon.png)
-* 대시보드 또는 보고서 제거  ![휴지통 아이콘](./media/end-user-shared-with-me/power-bi-delete-icon.png)을 선택합니다.
-* 일부 대시보드 및 보고서는 다시 공유할 수 있음  ![공유 아이콘](./media/end-user-shared-with-me/power-bi-share-icon-new.png)을 선택합니다.
+* 대시보드 또는 보고서 제거  ![휴지통 아이콘](./media/end-user-shared-with-me/power-bi-delete-icon.png).
+* 일부 대시보드 및 보고서는 다시 공유할 수 있음  ![공유 아이콘](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
 * [Excel에서 보고서 열기](end-user-export.md) ![Excel로 내보내기 아이콘](./media/end-user-shared-with-me/power-bi-excel.png) 
 * Power BI가 데이터에서 찾은 [인사이트 보기](end-user-insights.md) ![인사이트 아이콘](./media/end-user-shared-with-me/power-bi-insights.png)
   

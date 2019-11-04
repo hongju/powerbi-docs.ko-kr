@@ -7,17 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/24/2019
+ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: fb4bffe36c24f83d81501554edffa0bb3ae5a3c0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b92060847dbdd100f33ca590cbedc7866fbe252d
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70391537"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716685"
 ---
 # <a name="change-the-display-of-a-report-page"></a>보고서 페이지의 표시 변경
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 사용자는 다양한 디바이스에서 여러 화면 크기 및 가로 세로 비율로 볼 수 있습니다. 필요에 맞게 보고서 페이지가 표시되는 방식을 변경합니다.
 
