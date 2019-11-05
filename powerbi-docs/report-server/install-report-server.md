@@ -88,13 +88,13 @@ Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단�
 
     기본 경로는 C:\Program Files\Microsoft Power BI Report Server입니다.
 
-7. 성공적으로 설치한 후에 **Report Server 구성**을 선택하여 Reporting Services 구성 관리자를 시작합니다.
+7. 성공적으로 설치한 후에 **보고서 서버 구성**을 선택하여 Reporting Services 구성 관리자를 시작합니다.
 
     ![Report Server 구성](media/install-report-server/pbireportserver-configure.png)
 
 ## <a name="configure-your-report-server"></a>보고서 서버 구성
 
-설치 시에 **보고서 서버 구성**을 선택하면 Reporting Services 구성 관리자에 표시됩니다. 자세한 내용은 [Reporting Services 구성 관리자](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)를 참조하세요.
+설치 시에 **보고서 서버 구성**을 선택하면 Reporting Services 구성 관리자가 표시됩니다. 자세한 내용은 [Reporting Services 구성 관리자](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)를 참조하세요.
 
 [Report Server 데이터베이스를 만들어서](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) Reporting Services의 초기 구성을 완료해야 합니다. 이 단계를 완료하기 위해서는 SQL Server 데이터베이스 서버가 필요합니다.
 
@@ -127,7 +127,7 @@ URL 예약은 접두사, 호스트 이름, 포트 및 가상 디렉터리로 구
 | 부분 | 설명 |
 | --- | --- |
 | 접두사 |기본 접두사는 HTTP입니다. 이전에 SSL(Secure Sockets Layer) 인증서를 설치한 경우 설치 마법사에서는 HTTPS 접두사를 사용하는 URL 예약을 만들려고 합니다. |
-| 호스트 이름 |기본 호스트 이름은 강력한 와일드 카드(+)입니다. Report Server가 `http://<computername>/reportserver`, `http://localhost/reportserver` 또는`http://<IPAddress>/reportserver.`을 비롯하여 컴퓨터로 확인되는 호스트 이름에 지정된 포트에서 HTTP 요청을 수락하도록 지정합니다. |
+| 호스트 이름 |기본 호스트 이름은 강력한 와일드 카드(+)입니다. Report Server가 `http://<computername>/reportserver`, `http://localhost/reportserver` 또는`http://<IPAddress>/reportserver`을 비롯하여 컴퓨터로 확인되는 호스트 이름에 지정된 포트에서 HTTP 요청을 수락하도록 지정합니다. |
 | 포트 |기본 포트는 80입니다. 포트 80이 아닌 포트를 사용하는 경우 브라우저 창에서 웹 포털을 열 때 명시적으로 URL에 추가해야 합니다. |
 | 가상 디렉터리 |기본적으로 가상 디렉터리는 Report Server 웹 서비스 및 웹 포털의 보고서에서 ReportServer라는 형식으로 만들어집니다. Report Server 웹 서비스의 경우 기본 가상 디렉터리는 **reportserver**입니다. 웹 포털의 경우 기본 가상 디렉터리는 **reports**입니다. |
 
