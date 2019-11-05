@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 7500b5b5ff7f3eabde730b527c16fb6fe2570b89
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 0227072818b7c09463b47ba896c782ded1e7f248
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523535"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432405"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B를 사용 하 여 외부 게스트 사용자에 게 Power BI 콘텐츠 배포
 
 **요약:** 이는 Azure Active Directory B2b (Azure AD B2B)의 통합을 사용 하 여 조직 외부 사용자에 게 콘텐츠를 배포 하는 방법을 설명 하는 기술 백서입니다.
 
-**작성기** Lukasz Pawlowski, Kasper de Jonge
+**작성자:** Lukasz Pawlowski, Kasper de Jonge
 
 **기술 검토자:** Adam Wilson, Sheng Liu, Qian Liang, Sergei Gundorov, Jacob Grimm, Adam Saxton, Maya Shenhav, Nimrod Shalit, Elisabeth Olson
 
@@ -39,7 +39,7 @@ Power BI는 조직 외부의 게스트 사용자에 게 Power BI 콘텐츠를 �
 > [!NOTE]
 > 이 백서 전체에서 azure AD로 Azure Active Directory 하 고 비즈니스를 Azure AD B2B로 Azure Active Directory 하는 것을 말합니다.
 
-## <a name="scenarios"></a>시나리오
+## <a name="scenarios"></a>에서는
 
 Contoso는 자동차 제조업체 이며, 제조 작업을 실행 하는 데 필요한 모든 구성 요소, 자료 및 서비스를 제공 하는 다양 한 공급 업체와 함께 작동 합니다. Contoso는 공급망의 공급망을 간소화 하 고 Power BI를 사용 하 여 공급망의 주요 성능 메트릭을 모니터링 하려고 합니다. Contoso는 안전 하 고 관리 가능한 방식으로 외부 공급망 파트너 분석과 공유 하려고 합니다.
 
@@ -97,7 +97,7 @@ Power BI 앱을 사용 하면 Contoso가 해당 공급 업체에 대 한 BI 포�
 
 Contoso가 하도급 업자 또는 공급자와 계속 작업 하는 경우 외부 엔지니어가 Contoso 분석가와 긴밀 하 게 협력 해야 합니다. Power BI은 사용자가 사용할 수 있는 콘텐츠를 전달 하는 데 도움이 되는 여러 공동 작업 기능을 제공 합니다. 대시보드 주석 달기 (및 곧 보고서 주석 달기)를 사용 하면 사용자가 보고 있는 데이터 요소를 설명 하 고 보고서 작성자와 통신 하 여 질문을 할 수 있습니다.
 
-현재 외부 게스트 사용자는 의견을 두고 회신을 읽어 주석에 참여할 수 있습니다. 그러나 내부 사용자와는 달리 게스트 사용자는이 @mentioned 될 수 없으며 주석을 수신 했다는 알림을 받을 수 없습니다. 게스트 사용자는 작성 시 Power BI 내에서 구독 기능을 사용할 수 없습니다. 향후 릴리스에서는 이러한 제한이 리프트 되 고, 게스트 사용자가 주석을 달 @mentions 때 전자 메일을 받거나 Power BI 콘텐츠에 대 한 링크를 포함 하는 전자 메일에 구독이 배달 될 때 전자 메일을 받게 됩니다.
+현재 외부 게스트 사용자는 의견을 두고 회신을 읽어 주석에 참여할 수 있습니다. 그러나 내부 사용자와는 달리 게스트 사용자는 @mentioned 수 없으며 주석을 수신 했다는 알림이 수신 되지 않습니다. 게스트 사용자는 작성 시 Power BI 내에서 구독 기능을 사용할 수 없습니다. 예정 된 릴리스에서는 이러한 제한이 리프트 되 고, 게스트 사용자는 의견이 @mentions 때 전자 메일을 받거나 Power BI 내용에 대 한 링크가 포함 된 전자 메일에 구독이 배달 될 때 전자 메일을 받게 됩니다.
 
 ### <a name="access-content-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 콘텐츠 액세스
 
@@ -202,7 +202,7 @@ Contoso는 한 공급 업체에 대 한 radiator 안정성 보고서를 만들�
 ![여러 파트너에 게 배포](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_10.png)
 
 
-조직에서 표준화 된 데이터 및 정보를 많은 외부 사용자/조직에 배포 해야 하는 경우 Power BI Apps 시나리오의 임시 또는 계획 된 공유를 사용 하 여 포괄적인 개발 비용 없이 BI 포털을 신속 하 게 빌드할 수 있습니다. Power BI 앱을 사용 하 여 이러한 포털을 빌드하는 프로세스는 사례 연구에 설명 되어 있습니다. Power BI + Azure AD B2B를 사용 하 여 BI 포털 빌드 –이 문서의 뒷부분에서 단계별 지침을 참조 하세요.
+조직에서 표준화 된 데이터 및 정보를 많은 외부 사용자/조직에 배포 해야 하는 경우 Power BI Apps 시나리오의 임시 또는 계획 된 공유를 사용 하 여 포괄적인 개발 비용 없이 BI 포털을 신속 하 게 빌드할 수 있습니다. Power BI 앱을 사용 하 여 이러한 포털을 빌드하는 프로세스는 사례 연구: Power BI + Azure AD B2B를 사용 하 여 BI 포털 빌드-이 문서 뒷부분에 나오는 단계별 지침을 설명 합니다.
 
 이 경우의 일반적인 변형은 특히 Power BI와 함께 Azure B2C를 사용 하려는 경우 조직이 소비자와 정보를 공유 하려고 하는 경우입니다. Power BI는 기본적으로 Azure B2C을 지원 하지 않습니다. 이 사례에 대 한 옵션을 평가 하는 경우이 문서의 뒷부분에 나오는 일반적인 대체 방법 섹션에서 대체 옵션 2를 사용 하는 것이 좋습니다.
 
@@ -217,9 +217,9 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에 게 BI 포털에 대 
 
     Contoso에 대 한 첫 번째 작업은 Power BI에서 해당 BI 포털을 만드는 것입니다. Contoso의 BI 포털은 여러 내부 및 게스트 사용자가 사용할 수 있도록 하는 용도의 빌드된 대시보드 및 보고서의 컬렉션으로 구성 됩니다. Power BI에서이 작업을 수행 하는 데 권장 되는 방법은 Power BI 앱을 빌드하는 것입니다. [Power BI에서 앱](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)에 대해 자세히 알아보세요.
 
-- Contoso의 BI 팀은 Power BI에서 앱 작업 영역을 만듭니다.
+- Contoso의 BI 팀은 Power BI에 작업 영역을 만듭니다.
 
-    ![앱 작업 영역](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![환경이](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - 작업 영역에 다른 작성자 추가
@@ -232,7 +232,7 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에 게 BI 포털에 대 
     ![작업 영역 내에서 콘텐츠 만들기](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_14.png)
 
 
-    이제 앱 작업 영역에서 콘텐츠를 만들었으므로 Contoso는 파트너 조직의 게스트 사용자에 게이 콘텐츠를 사용 하도록 초대할 준비가 되었습니다.
+    이제 콘텐츠를 작업 영역에 만들었으므로 Contoso는 파트너 조직에서 게스트 사용자를 초대 하 여이 콘텐츠를 사용할 준비가 되었습니다.
 
 2. 게스트 사용자 초대
 
@@ -315,11 +315,11 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에 게 BI 포털에 대 
 
     일반적으로 개별 보고서와 대시보드를 기존 포털에 포함 해야 합니다. 이를 통해 예제에 표시 된 많은 기술을 다시 사용할 수도 있습니다. 그러나 이러한 상황에서는 작업 영역에서 보고서 또는 대시보드를 직접 포함 하는 것이 더 쉬울 수 있습니다. 사용자에 게 보안 권한을 초대 하 고 할당 하는 프로세스는 동일 하 게 유지 됩니다.
 
-## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>내부적으로 다음을 수행 합니다. Supplier1에서 어떻게 Contoso 테 넌 트의 Power BI 콘텐츠에 액세스할 수 있나요?
+## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>Supplier1에서 어떻게 루시가 Contoso 테 넌 트의 콘텐츠 Power BI에 액세스할 수 있나요?
 
 Contoso가 파트너 조직의 게스트 사용자에 게 Power BI 콘텐츠를 원활 하 게 배포할 수 있는 방법을 살펴보았으므로 이제 이러한 방식이 내부적으로 작동 하는 방식을 살펴보겠습니다.
 
-Contoso가 해당 [lucy@supplier1.com](mailto:lucy@supplier1.com) 디렉터리에 초대 되 면 azure ad는와 contoso [Lucy@supplier1.com](mailto:Lucy@supplier1.com) azure ad 테 넌 트 간에 링크를 만듭니다. 이 링크를 통해 Azure AD는 Lucy@supplier1.com Contoso 테 넌 트의 콘텐츠에 액세스할 수 있음을 알 수 있습니다.
+Contoso가 해당 디렉터리에 [lucy@supplier1.com](mailto:lucy@supplier1.com) 초대 되 면 azure ad는 [Lucy@supplier1.com](mailto:Lucy@supplier1.com) 와 contoso Azure ad 테 넌 트 간에 링크를 만듭니다. 이 링크를 통해 Azure AD는 Lucy@supplier1.com Contoso 테 넌 트의 콘텐츠에 액세스할 수 있음을 알 수 있습니다.
 
 루시가 Contoso의 Power BI 앱에 액세스 하려고 하면 Azure AD는 루시가 contoso 테 넌 트에 액세스할 수 있는지 확인 한 다음,이를 통해 Azure에서 Contoso 테 넌 트의 콘텐츠에 액세스 하도록 인증 되었음을 나타내는 토큰을 Power BI 제공 합니다. Power BI는이 토큰을 사용 하 여 루시가 Contoso의 Power BI 앱에 액세스할 수 있도록 권한을 부여 하 고 확인 합니다.
 
@@ -337,9 +337,9 @@ Azure AD 계정이 외부 파티의 Azure AD에서 사용 되거나 생성 되�
 Contoso는 공급자 및 파트너 조직의 게스트 사용자에 게 Power BI 콘텐츠에 대 한 액세스를 허가 하는 세 가지 방법 중 하나를 선택할 수 있습니다.
 
 > [!NOTE]
-> _Azure AD B2B's 무료 계층은 Azure AD B2B와 Power BI를 사용 하기에 충분 합니다. 동적 그룹과 같은 일부 고급 Azure AD B2B 기능을 위해서는 추가 라이선스가 필요 합니다. 추가 정보는 Azure AD B2B 설명서를 참조 하세요._ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> Azure _Ad B2B's 무료 계층은 AZURE AD B2B와 Power BI를 사용 하기에 충분 합니다. 동적 그룹과 같은 일부 고급 Azure AD B2B 기능을 위해서는 추가 라이선스가 필요 합니다. 추가 정보는 Azure AD B2B 설명서를 참조 하세요._ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
-### <a name="approach-1-contoso-uses-power-bi-premium"></a>방법 1: Contoso는 Power BI Premium을 사용 합니다.
+### <a name="approach-1-contoso-uses-power-bi-premium"></a>방법 1: Contoso에서 Power BI Premium 사용
 
 이 접근 방식을 사용 하 여 Contoso는 용량 Power BI Premium를 구매 하 고 해당 BI 포털 콘텐츠를이 용량에 할당 합니다. 이렇게 하면 파트너 조직의 게스트 사용자가 Power BI 라이선스 없이 Contoso의 Power BI 앱에 액세스할 수 있습니다.
 
@@ -355,7 +355,7 @@ Contoso는 공급자 및 파트너 조직의 게스트 사용자에 게 Power BI
 이 접근 방식을 사용 하는 Contoso는 파트너 조직의 게스트 사용자에 게 pro 라이선스를 할당 합니다 .이는 Contoso의 Microsoft 365 관리 센터에서 수행할 수 있습니다. 이를 통해 파트너 조직의 게스트 사용자는 라이선스를 구입 하지 않고도 Contoso의 Power BI 앱에 액세스할 수 있습니다. 이는 조직이 아직 Power BI를 채택 하지 않은 외부 사용자와 공유 하는 데 적합할 수 있습니다.
 
 > [!NOTE]
-> _Contoso의 pro 라이선스는 Contoso 테 넌 트의 콘텐츠에 액세스 하는 경우에만 게스트 사용자에 게 적용 됩니다. Pro 라이선스를 사용 하면 Power BI Premium 용량이 아닌 콘텐츠에 액세스할 수 있습니다. 그러나 Pro 라이선스가 있는 외부 사용자는 기본적으로 소비 전용 환경으로 제한 됩니다. 이 내용은_ _이 문서의 뒷부분에_ 나오는 _외부 사용자가 Power BI에서 콘텐츠를 편집 하 고 관리할 수 있도록 설정_ 섹션에 설명 된 방법을 사용 하 여 변경할 수 있습니다.
+> Contoso의 pro 라이선스는 Contoso 테 넌 트의 콘텐츠에 액세스 하는 경우에만 게스트 사용자에 게 적용 됩니다. Pro 라이선스를 사용 하면 Power BI Premium 용량이 아닌 콘텐츠에 액세스할 수 있습니다. 그러나 Pro 라이선스가 있는 외부 사용자는 기본적으로 소비 전용 환경으로 제한 됩니다. 이 내용은이 문서의 뒷부분에 나오는 _외부 사용자가 Power BI에서 콘텐츠를 편집 하 고 관리할 수 있도록 설정_ 섹션에 설명 된 방법을 사용 하 여 변경할 수 있습니다.
 
 ![라이선스 정보](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_25.png)
 
@@ -365,7 +365,7 @@ Contoso는 공급자 및 파트너 조직의 게스트 사용자에 게 Power BI
 이 방법을 사용 하는 경우 공급자 1은 루시에 Power BI Pro 라이선스를 할당 합니다. 그런 다음이 라이선스를 사용 하 여 Contoso의 Power BI 앱에 액세스할 수 있습니다. 루시는 외부 Power BI 환경에 액세스할 때 자체 조직의 Pro 라이선스를 사용할 수 있기 때문에이 접근 방식을 byol (사용자 _라이선스 가져오기_ )이 라고도 합니다. 두 조직 모두 Power BI를 사용 하는 경우 전체 분석 솔루션에 대 한 유용한 라이선스를 제공 하며 외부 사용자에 게 라이선스를 할당 하는 오버 헤드를 최소화 합니다.
 
 > [!NOTE]
-> _공급자 1에서 루시에 게 제공 되는 pro 라이선스는 루시가 게스트 사용자 인 모든 Power BI 테 넌 트에 적용 됩니다. Pro 라이선스를 사용 하면 Power BI Premium 용량이 아닌 콘텐츠에 액세스할 수 있습니다. 그러나 Pro 라이선스가 있는 외부 사용자는 기본적으로 소비 전용 환경으로 제한 됩니다. 이 내용은_ _이 문서의 뒷부분에_ 나오는 _외부 사용자가 Power BI에서 콘텐츠를 편집 하 고 관리할 수 있도록 설정_ 섹션에 설명 된 방법을 사용 하 여 변경할 수 있습니다.
+> 공급자 1에서 루시에 게 제공 되는 pro 라이선스는 루시가 게스트 사용자 인 모든 Power BI 테 넌 트에 적용 됩니다. Pro 라이선스를 사용 하면 Power BI Premium 용량이 아닌 콘텐츠에 액세스할 수 있습니다. 그러나 Pro 라이선스가 있는 외부 사용자는 기본적으로 소비 전용 환경으로 제한 됩니다. 이 내용은이 문서의 뒷부분에 나오는 _외부 사용자가 Power BI에서 콘텐츠를 편집 하 고 관리할 수 있도록 설정_ 섹션에 설명 된 방법을 사용 하 여 변경할 수 있습니다.
 
 ![Pro 라이선스 요구 사항](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_26.png)
 
@@ -460,7 +460,7 @@ Power BI는 Contoso에서 온 [-프레미스 데이터 게이트웨이](https://
 > [!NOTE]
 > 게이트웨이를 설치 하 여 Power BI 테 넌 트에 연결 하는 경우 테 넌 트 내에서 만든 사용자를 사용 해야 합니다. 외부 사용자는 게이트웨이를 설치 하 고 테 넌 트에 연결할 수 없습니다.
 
-외부 사용자의 경우 외부 사용자가 일반적으로 온-프레미스 AD에 알려지지 않기 때문에이 방법이 더 복잡할 수 있습니다. 이에 대 한 해결 방법은 [데이터 원본 관리-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)에 설명 된 대로 Contoso 관리자가 외부 사용자 이름을 내부 사용자 이름에 매핑하는 것을 허용 하 여 해결 방법을 제공 합니다. Power BI 예를 들어 [lucy@supplier1.com](mailto:lucy@supplier1.com) ,를 [루시\_supplier1\_com #EXT@contoso.com](mailto:lucy_supplier1_com)에 매핑할 수 있습니다.
+외부 사용자의 경우 외부 사용자가 일반적으로 온-프레미스 AD에 알려지지 않기 때문에이 방법이 더 복잡할 수 있습니다. 이에 대 한 해결 방법은 [데이터 원본 관리-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)에 설명 된 대로 Contoso 관리자가 외부 사용자 이름을 내부 사용자 이름에 매핑하는 것을 허용 하 여 해결 방법을 제공 합니다. Power BI 예를 들어 [lucy@supplier1.com](mailto:lucy@supplier1.com) [\_supplier1\_com #EXT@contoso.com](mailto:lucy_supplier1_com)에 매핑될 수 있습니다.
 
 ![사용자 이름 매핑](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_40.png)
 
@@ -471,11 +471,11 @@ Power BI는 Contoso에서 온 [-프레미스 데이터 게이트웨이](https://
 Contoso는 이전에 Power BI 콘텐츠를 조직 간 편집 및 관리 섹션에서 설명한 대로 외부 사용자가 조직 내에서 콘텐츠를 제공할 수 있도록 허용할 수 있습니다.
 
 > [!NOTE]
-> 조직의 Power BI 내에서 콘텐츠를 편집 하 고 관리 하려면 사용자는 내 작업 영역 이외의 작업 영역에서 Power BI Pro 라이선스를 보유 해야 합니다. 사용자는 _이 문서의 The_ Licensing__section_ 에 설명 된 대로 Pro 라이선스를 얻을 수 있습니다.
+> 조직의 Power BI 내에서 콘텐츠를 편집 하 고 관리 하려면 사용자는 내 작업 영역 이외의 작업 영역에서 Power BI Pro 라이선스를 보유 해야 합니다. 사용자는이 문서의 _라이선스_ 섹션에서 설명 하는 대로 Pro 라이선스를 얻을 수 있습니다.
 
 Power BI 관리 포털은 테 넌 트 설정에서 **외부 게스트 사용자가 조직에서 콘텐츠를 편집 하 고 관리할 수 있도록 허용** 설정을 제공 합니다. 기본적으로이 설정은 사용 안 함으로 설정 됩니다. 즉, 외부 사용자는 기본적으로 제한 된 읽기 전용 환경을 가져옵니다. 이 설정은 Azure AD에서 UserType가 게스트로 설정 된 사용자에 게 적용 됩니다. 다음 표에서는 UserType에 따라 사용자가 경험 하는 동작과 설정을 구성 하는 방법에 대해 설명 합니다.
 
-| **Azure AD의 사용자 유형** | **외부 게스트 사용자가 콘텐츠를 편집 및 관리 하도록 허용 설정** | **동작** |
+| **Azure AD의 사용자 유형** | **외부 게스트 사용자가 콘텐츠를 편집 및 관리 하도록 허용 설정** | **행동** |
 | --- | --- | --- |
 | 게스트 | 사용자에 대해 사용 안 함 (기본값) | 항목 소비 전용 보기입니다. 게스트 사용자에 게 전송 된 URL을 통해 볼 때 보고서, 대시보드 및 앱에 대 한 읽기 전용 액세스를 허용 합니다. Power BI Mobile 앱은 게스트 사용자에 게 읽기 전용 보기를 제공 합니다. |
 | 게스트 | 사용자에 대해 사용 | 외부 사용자는 일부 기능을 사용할 수 없지만 전체 Power BI 환경에 액세스할 수 있습니다. 외부 사용자는 포함 된 테 넌 트 정보와 함께 Power BI 서비스 URL을 사용 하 여 Power BI에 로그인 해야 합니다. 사용자는 홈 환경, 내 작업 영역 및 사용 권한을 기반으로 콘텐츠를 검색 하 고, 보고, 만들 수 있습니다. </br></br> Power BI Mobile 앱은 게스트 사용자에 게 읽기 전용 보기를 제공 합니다. |
@@ -491,7 +491,7 @@ Power BI 관리 포털에서 설정은 다음 그림에 표시 됩니다.
 
 이러한 사용자가 Power BI에 로그인 할 수 있도록 테 넌 트 URL을 제공 합니다. 테넌트 URL을 찾으려면 이 단계를 수행합니다.
 
-1. Power BI 서비스의 상단 메뉴에서 도움말을 선택 합니다. )를 **Power BI**합니다.
+1. Power BI 서비스의 상단 메뉴에서 **도움말을 선택** 합니다. )를 **Power BI**합니다.
 2. **테 넌 트 URL**옆에 있는 값을 찾습니다. 게스트 사용자와 공유할 수 있는 테 넌 트 URL입니다.
 
     ![테넌트 URL](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
@@ -505,14 +505,14 @@ Power BI 관리 포털에서 설정은 다음 그림에 표시 됩니다.
 
 - Power BI Desktop에서 Power BI 서비스에 직접 게시
 - 게스트 사용자는 Power BI Desktop를 사용하여 Power BI 서비스의 서비스 데이터 세트에 연결할 수 없습니다.
-- Office 365 그룹에 연결된 클래식 작업 영역: 게스트 사용자는 이들 작업 영역의 관리자를 만들거나 관리자가 될 수 없습니다. 이들은 구성원이 될 수 있습니다.
+- Office 365 그룹에 연결 된 클래식 작업 영역: 게스트 사용자는 이러한 작업 영역을 만들거나 관리자가 될 수 없습니다. 이들은 구성원이 될 수 있습니다.
 - 작업 영역 액세스 목록 임시 초대 전송이 지원되지 않습니다
 - 게스트 사용자에게는 Power BI Publisher for Excel이 지원되지 않습니다
 - 게스트 사용자는 Power BI Gateway를 설치하여 조직에 연결할 수 없습니다
 - 게스트 사용자는 전체 조직에 게시된 앱을 설치할 수 없습니다
 - 게스트 사용자는 조직 컨텐츠 팩을 사용, 생성, 업데이트 또는 설치할 수 없습니다
 - 게스트 사용자는 Excel의 분석을 사용할 수 없습니다
-- 게스트 사용자 @mentioned 에 게는 주석을 추가할 수 없습니다 .이 기능은 예정 된 릴리스에 추가 될 예정입니다.
+- 게스트 사용자는 주석으로 @mentioned 수 없습니다 .이 기능은 예정 된 릴리스에 추가 될 예정입니다.
 - 게스트 사용자는 구독을 사용할 수 없습니다 .이 기능은 예정 된 릴리스에 추가 될 예정입니다.
 - 이 기능을 사용하는 게스트 사용자는 회사 또는 학교 계정이 있어야 합니다. 개인 계정을 사용 하는 게스트 사용자는 로그인 제한으로 인해 더 많은 제한이 발생 합니다.
 
@@ -621,7 +621,7 @@ Contoso의 또 다른 옵션은 사용자 지정 인증 ([' 앱 소유 데이터
 
 **초대 받은 파트너가 페더레이션을 사용 하 여 자신의 온-프레미스 인증을 추가 하는 경우 B2B 공동 작업은 어떻게 작동 하나요?**
 
-파트너에 게 온-프레미스 인증 인프라에 페더레이션된 Azure AD 테 넌 트가 있는 경우 온-프레미스 SSO (single sign-on)가 자동으로 달성 됩니다. 파트너에 게 Azure AD 테 넌 트가 없는 경우 새 사용자에 대해 Azure AD 계정을 만들 수 있습니다.
+파트너에 게 온-프레미스 인증 인프라로 페더레이션된 Azure AD 테 넌 트가 있는 경우 온-프레미스 SSO (Single Sign-On)가 자동으로 실현 됩니다. 파트너에 게 Azure AD 테 넌 트가 없는 경우 새 사용자에 대해 Azure AD 계정을 만들 수 있습니다.
 
 **게스트 사용자를 소비자 전자 메일 계정으로 초대할 수 있나요?**
 
