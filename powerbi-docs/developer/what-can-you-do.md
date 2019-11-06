@@ -34,7 +34,7 @@ Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드
 
 ![PBIE 샘플](media/what-can-you-do/what-can-you-do-02.png)
 
-Power BI와 함께 포함하는 방법에 대한 자세한 내용은 [Power BI와 함께 포함](embedding.md)을 참조하세요.
+Power BI에 포함하는 방법에 대한 자세한 내용은 [Power BI에 포함](embedding.md)을 참조하세요.
 
 ## <a name="developing-custom-visuals"></a>사용자 지정 시각적 개체 개발
 
