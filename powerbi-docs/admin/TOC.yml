@@ -44,6 +44,14 @@
           href: ../service-admin-power-bi-expressroute.md
         - name: Azure AD B2B 사용
           href: ../service-admin-azure-ad-b2b.md
+        - name: 데이터 보호
+          items:
+            - name: 데이터 보호 개요
+              href: service-security-data-protection-overview.md
+            - name: 데이터 민감도 레이블 사용
+              href: service-security-enable-data-sensitivity-labels.md
+            - name: Power BI에서 Microsoft Cloud App Security 사용
+              href: service-security-using-microsoft-cloud-app-security-controls.md
         - name: 행 수준 보안
           href: ../service-admin-rls.md
         - name: 보관된 작업 영역

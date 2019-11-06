@@ -102,6 +102,8 @@
               href: embed-sample-for-customers.md
             - name: 조직용 콘텐츠 포함
               href: embed-sample-for-your-organization.md
+            - name: 고객을 위해 페이지를 매긴 보고서 포함
+              href: embed-paginated-reports-customers.md
             - name: 국내 클라우드용 콘텐츠 포함
               href: embed-sample-for-customers-national-clouds.md
         - name: 개념
@@ -112,6 +114,8 @@
               href: embed-service-principal.md
             - name: 행 수준 보안
               href: embedded-row-level-security.md
+            - name: 페이지를 매긴 보고서 행 수준 보안
+              href: paginated-reports-row-level-security.md
             - name: 다중 테넌트 관리
               href: embed-multi-tenancy.md
             - name: Power BI Embedded에 대한 Azure 진단 로깅
