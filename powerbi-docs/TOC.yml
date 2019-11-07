@@ -327,7 +327,9 @@
               href: visuals/power-bi-map-tips-and-tricks.md
             - name: X축 및 Y축 속성 사용자 지정
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: ArcGIS 맵
+            - name: ArcGIS Maps for Power BI 시각적 개체 만들기
+              href: visuals/power-bi-visualizations-arcgis.md
+            - name: ArcGIS Maps for Power BI 시각적 개체와 상호 작용
               href: visuals/power-bi-visualization-arcgis.md
             - name: 기본 영역형 차트
               href: visuals/power-bi-visualization-basic-area-chart.md
@@ -727,6 +729,12 @@
               href: service-cognitive-services.md
             - name: Power BI의 자동화된 Machine Learning
               href: service-machine-learning-automated.md
+        - name: 데이터 보호
+          items:
+            - name: 데이터 보호 개요
+              href: admin/service-security-data-protection-overview.md
+            - name: 민감도 레이블 적용
+              href: designer/service-security-apply-data-sensitivity-labels.md
         - name: 데이터 계보
           href: service-data-lineage.md
         - name: Power BI의 페이지를 매긴 보고서
@@ -929,6 +937,8 @@
           href: service-admin-premium-monitor-portal.md
         - name: 증분 새로 고침 구성
           href: service-premium-incremental-refresh.md
+        - name: 큰 모델 구성 (미리 보기)
+          href: service-premium-large-models.md
         - name: 다중 지역 구성
           href: service-admin-premium-multi-geo.md
         - name: 사용자 고유의 암호화 키 가져오기
@@ -1099,6 +1109,8 @@
       items:
         - name: 용량 계획 백서
           href: report-server/capacity-planning.md
+        - name: PDF 렌더링 확장 프로그램 적합성
+          href: report-server/rendering-extension-support.md
 - name: 게이트웨이
   items:
     - name: 개요
