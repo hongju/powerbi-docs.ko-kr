@@ -143,7 +143,7 @@ Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [개발자 센터
 
 ## <a name="certify-your-visual"></a>시각적 개체 인증
 
-시각적 개체를 만든 후 인증된 시각적 개체를 선택적으로 얻을 수 있습니다. 즉, Power BI 서비스 내에서 실행할 수 있으며, PowerPoint로 내보내는 것처럼 서비스의 다른 기능과 함께 사용할 수 있습니다. 자세한 내용은 [*인증된*사용자 지정 시각적 개체 가져오기](../power-bi-custom-visuals-certified.md)를 참조하세요.
+시각적 개체를 만든 후 인증된 시각적 개체를 선택적으로 얻을 수 있습니다. 즉, Power BI 서비스 내에서 실행할 수 있으며, PowerPoint로 내보내는 것처럼 서비스의 다른 기능과 함께 사용할 수 있습니다. 자세한 내용은 [*인증된* 사용자 지정 시각적 개체 가져오기](../power-bi-custom-visuals-certified.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
