@@ -53,6 +53,8 @@
       items:
         - name: 최신 Power BI Desktop 업데이트의 새로운 기능
           href: desktop-latest-update.md
+        - name: Power BI Desktop의 모델 관계
+          href: desktop-relationships-understand.md
         - name: Power BI Desktop에서 시각적 개체 그룹화
           href: desktop-grouping-visuals.md
         - name: Power BI Desktop에서 템플릿 사용
@@ -303,8 +305,6 @@
           items:
             - name: Power BI의 시각화
               href: visuals/power-bi-report-visualizations.md
-            - name: 시각화 모범 사례
-              href: visuals/power-bi-visualization-best-practices.md
             - name: 보고서에서 시각화 유형 변경
               href: visuals/power-bi-report-change-visualization-type.md
             - name: 시각적 개체 유형별 데이터 요소 한도
@@ -817,12 +817,6 @@
                   href: service-connect-to-azure-audit-logs.md
                 - name: Azure Mobile Engagement
                   href: service-connect-to-azure-mobile.md
-                - name: Microsoft Azure Consumption Insights
-                  href: service-connect-to-azure-consumption-insights.md
-                - name: Azure Search
-                  href: service-connect-to-azure-search.md
-                - name: 회로 ID
-                  href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
                   href: service-connect-to-clickdimensions.md
                 - name: comScore Digital Analytix
@@ -837,12 +831,6 @@
                   href: service-connect-to-lithium.md
                 - name: Mandrill
                   href: service-connect-to-mandrill.md
-                - name: Microsoft Dynamics AX
-                  href: service-connect-to-microsoft-dynamics-ax.md
-                - name: Microsoft Dynamics CRM
-                  href: service-connect-to-microsoft-dynamics-crm.md
-                - name: Microsoft Dynamics NAV
-                  href: service-connect-to-microsoft-dynamics-nav.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
                 - name: Prevedere
@@ -861,18 +849,12 @@
                   href: service-connect-to-smartsheet.md
                 - name: SQL Sentry
                   href: service-connect-to-sql-sentry.md
-                - name: Stripe
-                  href: service-connect-to-stripe.md
                 - name: SweetIQ
                   href: service-connect-to-sweetiq.md
                 - name: Troux
                   href: service-connect-to-troux.md
                 - name: Twilio
                   href: service-connect-to-twilio.md
-                - name: tyGraph
-                  href: service-connect-to-tygraph.md
-                - name: UserVoice
-                  href: service-connect-to-uservoice.md
                 - name: VMob
                   href: service-connect-to-vmob.md
                 - name: Windows 개발자 센터
@@ -881,8 +863,6 @@
                   href: service-connect-to-xero.md
                 - name: Zendesk
                   href: service-connect-to-zendesk.md
-                - name: Ziosk
-                  href: service-connect-to-ziosk.md
             - name: 조직 콘텐츠 팩
               items:
                 - name: 조직 콘텐츠 팩 소개
