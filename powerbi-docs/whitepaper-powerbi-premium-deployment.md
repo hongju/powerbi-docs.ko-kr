@@ -3,19 +3,19 @@ title: Power BI Premium 용량 배포 및 관리
 description: Power BI Premium의 가능성을 이해 하 고 확장 가능한 솔루션을 디자인, 배포, 모니터링 및 문제 해결 하는 방법을 알아봅니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: eecbc43f26cebc12884ae6c5143a815f6e310ce5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432355"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73786338"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium 용량 배포 및 관리
 
@@ -407,9 +407,9 @@ Power BI 서비스 관리자와 Office 365 전역 관리자는 Premium 용량을
 
 |                     | EM3                      | P1                       | P2                      | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| 페이지를 매긴 보고서 | 해당 없음 | 기본값 20%, 최소값 10% | 기본값 20%, 최솟값 5% | 기본값 20%, 최솟값 2.5% |
+| 페이지를 매긴 보고서 | 해당 없음 | 기본값 20%, 최솟값 10% | 기본값 20%, 최솟값 5% | 기본값 20%, 최솟값 2.5% |
 | 데이터 흐름 | 기본값 20%, 최솟값 8%  | 기본값 20%, 최솟값 4%  | 기본값 20%, 최솟값 2% | 기본값 20%, 최솟값 1%  |
-| AI | 해당 없음 | 기본값 20%, 최소값 20%  | 기본값 20%, 최소값 10% | 기본값 20%, 최솟값 5%  |
+| AI | 해당 없음 | 기본값 20%, 최소값 20%  | 기본값 20%, 최솟값 10% | 기본값 20%, 최솟값 5%  |
 | | | | | |
 
 프리미엄 용량을 삭제 하는 것은 가능 하며 작업 영역 및 콘텐츠가 삭제 되지 않습니다. 대신 할당 된 작업 영역을 공유 용량으로 이동 합니다. 프리미엄 용량이 다른 지역에 생성 되 면 작업 영역이 홈 지역의 공유 용량으로 이동 됩니다.

@@ -2,19 +2,19 @@
 title: Power BI용 백서
 description: 백서를 통해 Power BI 항목을 보다 자세히 탐색할 수 있습니다.
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
-ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
+ms.openlocfilehash: e88e6753df091fb7f046d475df59fa4344da5d98
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/07/2019
-ms.locfileid: "73710776"
+ms.locfileid: "73787312"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI용 백서
 
@@ -34,9 +34,9 @@ ms.locfileid: "73710776"
 | [양방향 필터링](desktop-bidirectional-filtering.md) |Power BI Desktop에서 양방향 교차 필터링에 대해 설명합니다(이 백서에서는 SQL Server Analysis Services 2016에 대해서도 다루며 둘 다 동작은 동일합니다). | 2018년 7월 |
 | [SQL Server 2016 Analysis Services의 DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |SQL Server 2016에서 DirectQuery는 획기적으로 향상된 속도 및 성능을 제공하도록 다시 설계되었지만 이해하고 구현하기가 더 복잡해졌습니다. | 2017년 1월 |
 | [Power BI 및 SAP BW](https://aka.ms/powerbiandsapbw)| 이 아티클에서는 SAP 고객이 Power BI를 기존 SAP BW(비즈니스 웨어하우스) 시스템에 연결하여 활용하는 방법에 대해 설명합니다.| 2018년 2월 |
-| [테이블 형식 BI 의미 체계 모델 보안](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |이 문서에서는 테이블 형식 BI 의미 체계 및 Power BI의 보안 모델을 소개합니다. 네트워크 보안 컨텍스트에서 작동하는 모델에 연결하기 위해 역할을 만들고, 동적 보안을 구현하고, 가장 설정을 구성하고, 역할을 관리하고, 메서드를 선택하는 방법을 알아봅니다. | 2016년 4월 |
+| [테이블 형식 BI 의미 체계 모델 보안](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |이 문서에서는 테이블 형식 BI 의미 체계 및 Power BI의 보안 모델을 소개합니다. 네트워크 보안 컨텍스트에서 작동하는 모델에 연결하기 위해 역할을 만들고, 동적 보안을 구현하고, 가장 설정을 구성하고, 역할을 관리하고, 메서드를 선택하는 방법을 알아봅니다. | 2016년 4월 |
 | [Power BI 및 GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| 이 링크를 통해 Microsoft Power BI GDPR 백서를 비롯한 Service Trust Portal의 백서 목록으로 이동합니다. | 2018년 4월 |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
