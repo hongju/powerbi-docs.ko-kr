@@ -23,13 +23,13 @@ ms.locfileid: "70303170"
 
 [온-프레미스 데이터 게이트웨이를 설치](/data-integration/gateway/service-gateway-install)한 후에는 게이트웨이와 함께 사용할 수 있는 [데이터 원본을 추가](service-gateway-data-sources.md#add-a-data-source)해야 합니다. 이 문서에서는 예약된 새로 고침 또는 DirectQuery에 사용되는 게이트웨이 및 SAP HANA 데이터 원본으로 작업하는 방법을 살펴봅니다.
 
-## <a name="add-a-data-source"></a>데이터 소스 추가
+## <a name="add-a-data-source"></a>데이터 원본 추가
 
-데이터 원본을 추가하는 방법에 대한 자세한 내용은 [데이터 원본 추가](service-gateway-data-sources.md#add-a-data-source)를 참조하세요. **데이터 원본 형식**에서 **SAP HANA**를 선택합니다.
+데이터 원본을 추가하는 방법에 대한 자세한 내용은 [데이터 원본 추가](service-gateway-data-sources.md#add-a-data-source)를 참조하세요. **데이터 원본 유형**에서 **SAP HANA**를 선택합니다.
 
 ![SAP HANA 데이터 원본 추가](media/service-gateway-enterprise-manage-sap/datasourcesettings2-sap.png)
 
-SAP HANA 데이터 원본 형식을 선택한 후 데이터 원본에 대한 **서버**, **사용자 이름** 및 **암호** 정보를 입력합니다.
+SAP HANA 데이터 원본 유형을 선택한 후 데이터 원본에 대한 **서버**, **사용자 이름** 및 **암호** 정보를 입력합니다.
 
 > [!NOTE]
 > 데이터 소스에 대한 모든 쿼리는 이러한 자격 증명을 사용하여 실행됩니다. 자격 증명을 저장하는 방법에 대한 자세한 내용은 [클라우드에 암호화된 자격 증명 저장](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)을 참조하세요.
