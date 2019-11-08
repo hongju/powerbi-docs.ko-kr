@@ -96,7 +96,7 @@ OpenSSL 유틸리티가 시스템에 이미 설치되어 있으면, 다음 명�
 openssl req -x509 -newkey rsa:4096 -keyout PowerBICustomVisualTest_private.key -out PowerBICustomVisualTest_public.crt -days 365
 ```
 
-일반적으로 다음 중 하나를 실행하여 PowerBI 시각적 개체 도구의 웹 서버 인증서를 찾을 수 있습니다.
+일반적으로 다음 중 하나를 실행하여 Power BI 시각적 개체 도구의 웹 서버 인증서를 찾을 수 있습니다.
 
 * 전역 도구 인스턴스의 경우:
 
