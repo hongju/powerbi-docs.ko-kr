@@ -3,19 +3,18 @@ title: Power BI Premium 용량 배포 및 관리
 description: Power BI Premium의 가능성을 이해 하 고 확장 가능한 솔루션을 디자인, 배포, 모니터링 및 문제 해결 하는 방법을 알아봅니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 3ccd4af0f00e132c8bc0bd29a9ff23f89b13a15f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73786338"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880600"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium 용량 배포 및 관리
 
@@ -834,7 +833,7 @@ Power BI Premium 용량을 배포 하 고 관리 하기 위해 관리자 및 모
 
 ## <a name="end-notes"></a>끝 메모
 
-<a name="endnote-01"></a>\[1\]이 기술 문서에서는 Power BI 클라우드 서비스 에서만 지원 되는 Power BI Premium에 대해 설명 하므로 Power BI Report Server을 설치 하는 데 필요한 라이선스는에 포함 되어 있다는 점을 제외 하 고는 범위에 포함 되지 않습니다. 일부 Power BI Premium Sku입니다.
+<a name="endnote-01"></a>\[1\]이 기술 문서에서는 Power BI 클라우드 서비스 에서만 지원 되는 Power BI Premium에 대해 설명 하므로 Power BI Report Server을 설치 하는 데 필요한 라이선스가 일부 Power BI Report Server Sku에 포함 된다는 것을 제외 하 고 Power BI Premium 범위에 있지 않습니다.
 
 <a name="endnote-02"></a>\[2\] 응용 프로그램 사용자를 대신 하 여 콘텐츠를 포함 하는 데 사용 되는 클라우드 서비스로 Power BI PaaS (Platform as a Service)입니다. 이러한 유형의 포함은 다른 두 제품을 사용 하 여 구현할 수 있으며, 그 중 하나는 Power BI Premium입니다.
 
