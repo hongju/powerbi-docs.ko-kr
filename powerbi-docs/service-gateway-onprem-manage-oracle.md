@@ -62,9 +62,9 @@ CONTOSO =
   )
 ```
 
-## <a name="add-a-data-source"></a>데이터 소스 추가
+## <a name="add-a-data-source"></a>데이터 원본 추가
 
-데이터 원본을 추가하는 방법에 대한 자세한 내용은 [데이터 원본 추가](service-gateway-data-sources.md#add-a-data-source)를 참조하세요. **데이터 원본 형식**에서 **Oracle**을 선택합니다.
+데이터 원본을 추가하는 방법에 대한 자세한 내용은 [데이터 원본 추가](service-gateway-data-sources.md#add-a-data-source)를 참조하세요. **데이터 원본 유형**에서 **Oracle**을 선택합니다.
 
 ![Oracle 데이터 원본 추가](media/service-gateway-onprem-manage-oracle/data-source-oracle.png)
 
