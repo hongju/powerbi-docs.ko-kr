@@ -81,7 +81,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
    ![Power BI Desktop 보고서 보기](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
    
-### <a name="create-and-publish-your-paginated-reports"></a>페이지가 매겨진 보고서 만들기 및 게시
+### <a name="create-and-publish-your-paginated-reports"></a>페이지를 매긴 보고서 만들기 및 게시
 
 [Power BI 보고서 작성기](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)를 사용하여 페이지를 매긴 보고서를 만들 수 있습니다. 그런 다음, P1 이상의 용량에 할당된 앱 작업 영역에 [보고서를 업로드](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)할 수 있습니다. 보고서를 업로드하는 최종 사용자는 앱 작업 영역에 게시할 수 있는 Power BI Pro 라이선스가 있어야 합니다.
    
@@ -207,7 +207,7 @@ Power BI 또는 페이지를 매긴 보고서를 가져오려면, Power BI 및 �
 
 REST API를 호출하려면 *권한 부여* 헤더를 *Bearer {access token}* 형식으로 포함해야 합니다.
 
-#### <a name="get-reports-with-the-rest-api"></a>REST API를 사용 하 여 보고서 가져오기
+#### <a name="get-reports-with-the-rest-api"></a>REST API를 사용하여 보고서 가져오기
 
 다음 코드 샘플은 REST API로 보고서를 검색하는 방법을 보여줍니다.
 
