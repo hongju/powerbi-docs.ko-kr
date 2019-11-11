@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 5c2b254f20bd1eba97840a464a1b554cc4fe1238
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f22c12ec0ad5bd413f3658704132143c878df1aa
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273592"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799998"
 ---
 **변수**를 사용하는 작업은 DAX 식의 매우 강력한 요소입니다.
 
@@ -18,7 +18,7 @@ DAX 식의 어디서든 다음 구문을 사용하여 변수를 정의할 수 �
 
 DAX 식에서 변수를 참조할 때마다 Power BI는 사용자의 정의에 따라 해당 값을 다시 계산해야 합니다. 따라서 함수에서 변수를 반복하지 않는 것이 좋습니다.
 
-> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)의 비디오 콘텐츠 출처
+> [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax)의 비디오 콘텐츠 출처
 > 
 > 
 

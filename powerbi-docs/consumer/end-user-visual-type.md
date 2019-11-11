@@ -2,7 +2,6 @@
 title: 소비자를 위한 Power BI의 시각적 개체 유형
 description: Power BI 서비스의 시각적 개체 유형
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302534"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861318"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI의 시각적 개체 유형
 시각화 개체는 보고서, 대시보드, 질문 및 답변에서 찾을 수 있습니다. 이러한 시각적 개체 유형 중 일부는 Power BI와 함께 패키지로 제공되고, 일부는 ‘사용자 지정 시각적 개체’입니다.  사용자 지정 시각적 개체는 Power BI 외부에서 ‘보고서 디자이너’가 Power BI 보고서 및 대시보드에 추가할 수 있는 방식으로 생성됩니다.  
@@ -226,10 +225,10 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에 시각적 개체 유형을 지정할 수 있습니다.  예:
 
 
-"***시/도별 매출을 트리 맵으로***"
+"***sales by state as a treemap***"
 
 ![질문 및 답변 세션](media/end-user-visual-type/qa-treemap.png)
 
 ## <a name="next-steps"></a>다음 단계
 [보고서, 대시보드 및 앱에서 시각적 개체 조작](end-user-visualizations.md)    
-[sqlbi.com에서 오른쪽 시각적 개체 참조](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[sqlbi.com에서 올바른 시각적 개체 참조](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

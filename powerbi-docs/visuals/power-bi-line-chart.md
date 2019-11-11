@@ -2,7 +2,6 @@
 title: Power BI의 꺾은선형 차트
 description: Power BI의 꺾은선형 차트
 author: mihart
-manager: kvivek
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4b2c7c237393fd0a8e76b7ca27987c479b5c411d
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408608"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871073"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI의 꺾은선형 차트
 꺾은선형 차트는 점으로 표시되고 직선으로 연결되는 일련의 데이터 요소입니다. 꺾은선형 차트에는 하나 이상의 선이 있을 수 있습니다. 꺾은선형 차트에는 X축과 Y축이 있습니다. 

@@ -2,7 +2,6 @@
 title: Power BI에서 리본 차트 사용
 description: Power BI Desktop에서 리본 차트 만들기 및 사용
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e6044f3a2cfdbfc40d0497ebde25780336dc1dc4
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 1cee814b5013ece3a847aeb3660f1257c69be125
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715493"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871152"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Power BI에서 리본 차트 사용
 
@@ -27,7 +26,7 @@ ms.locfileid: "71715493"
 
 ## <a name="prerequisites"></a>필수 조건
 
-이 자습서는 [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
+이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
 1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
    

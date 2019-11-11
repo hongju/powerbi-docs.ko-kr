@@ -2,7 +2,6 @@
 title: Power BI 앱이란?
 description: Power BI에서 앱을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다.
 author: mihart
-manager: kvivek
 ms.reviewer: lukaszp
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: deca8a60a006d942fc8b38ed232e0215d94c2d9a
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 784c0ed368a12951220ccf719c70ac7d8d3db040
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717135"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851014"
 ---
 # <a name="apps-in-power-bi"></a>Power BI의 앱
 
