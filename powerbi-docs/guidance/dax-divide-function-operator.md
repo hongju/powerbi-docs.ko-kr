@@ -2,19 +2,18 @@
 title: 'DAX: 나누기 함수 및 나누기 연산자(/)'
 description: DAX 나누기 함수를 사용할 경우에 대한 지침입니다.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7516aaedb886e7b9e0f57ed76f0a7c5e40efbd6d
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: c96518bb8de7f323b51a7e1e3f34f9d9bf056c79
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877851"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875378"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: 나누기 함수 및 나누기 연산자(/)
 

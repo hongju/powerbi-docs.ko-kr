@@ -3,18 +3,17 @@ title: 테이블에 행 추가
 description: 데이터 푸시 연습 - Power BI 테이블에 행 추가
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 39bf8ec92fba25c6097cf663bdb6572705938a42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710408"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879846"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5단계: Power BI 테이블에 행 추가
 
@@ -317,4 +316,4 @@ Program.cs에 이 코드를 추가합니다.
 [Power BI 대시보드에 데이터 푸시](walkthrough-push-data.md)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
 [Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

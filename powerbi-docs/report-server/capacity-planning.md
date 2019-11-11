@@ -2,19 +2,18 @@
 title: Power BI Report Server에 대한 용량 계획 지침
 description: 이 문서는 워크로드의 다양한 부하 테스트 실행 결과를 공유하여 Power BI 보고서 서버의 용량 계획에 대한 지침을 제공합니다.
 author: parthsha
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 3631c814876c5fbb14fa2bab376b212137858b2a
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: c286e921c47b46c20cd73d4b32146093adc74d7f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946126"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860136"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server에 대한 용량 계획 지침
 Power BI Report Server는 셀프 서비스 BI 및 엔터프라이즈 보고 솔루션으로써 고객이 방화벽을 넘어 온-프레미스에 배포할 수 있습니다. 이 기능은 SQL Server Reporting Services의 온-프레미스 서버 플랫폼과 Power BI Desktop의 대화형 보고 기능을 결합했습니다. 기업 내에서 분석 및 보고 사용량이 지나치게 증가하면 엔터프라이즈 사용자의 기본 사항에 맞게 조정하는 데 필요한 하드웨어 인프라 및 소프트웨어 라이선스를 위한 예산 편성이 어려울 수 있습니다. 이 문서는 보고서 서버에 대한 다양한 워크로드의 다양한 부하 테스트 실행 결과를 공유하여 Power BI 보고서 서버의 용량 계획에 대한 지침을 제공하려고 합니다. 조직의 보고서, 쿼리 및 사용 패턴이 광범위하게 다른 반면 사용되는 실제 테스트 및 실행되는 방법에 대한 자세한 설명 등 이 문서에 표시되는 결과는 Power BI Report Server를 배포하는 초기 단계 계획 프로세스에 있는 모든 사용자에게 참조 사항으로 제공됩니다.

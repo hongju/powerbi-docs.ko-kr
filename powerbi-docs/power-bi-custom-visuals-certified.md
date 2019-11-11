@@ -3,19 +3,18 @@ title: 인증된 Power BI Power BI 시각적 개체
 description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스. 이미 인증된 Power BI 시각적 개체 목록.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8b119f0f3b0dfb67dc2f9cb1dfd6f19d72593d66
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021350"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874572"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
@@ -202,4 +201,4 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 * [Power BI의 사용자 지정 시각화](power-bi-custom-visuals.md)  
 * [Microsoft AppSource에 Power BI 시각적 개체 게시하기](developer/office-store.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

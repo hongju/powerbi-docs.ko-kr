@@ -2,7 +2,6 @@
 title: Excel에서 Power BI 대시보드에 타일을 고정하는 방법
 description: 비즈니스용 OneDrive의 Excel에서 Power BI 대시보드에 타일 고정 범위, 차트, 표 고정
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 273cfbd86573a5eceaf9705ac19b0f7928b59176
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139209"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877422"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel에서 Power BI 대시보드에 타일 고정
 Excel 통합 문서에서 타일을 고정하려면 해당 통합 문서를 Power BI 서비스(app.powerbi.com)에 연결합니다. 통합 문서를 기본적으로 연결하면 해당 통합 문서의 연결된 읽기 전용 버전을 Power BI 서비스로 가져오고 범위를 대시보드에 고정할 수 있습니다. 전체 워크시트를 대시보드에 고정할 수도 있습니다.  
 통합 문서를 사용자와 공유하는 경우 소유자에 의해 고정된 타일을 볼 수 있지만 모든 대시보드 타일을 직접 만들 수 없습니다. 
 
-Excel과 Power BI를 함께 작동하는 방법에 대한 자세한 정보는 [Excel 통합 문서 파일에서 데이터 가져오기](http://go.microsoft.com/fwlink/?LinkID=521962)를 참조하세요.
+Excel과 Power BI를 함께 작동하는 방법에 대한 자세한 정보는 [Excel 통합 문서 파일에서 데이터 가져오기](https://go.microsoft.com/fwlink/?LinkID=521962)를 참조하세요.
 
 Will이 Excel 통합 문서에서 데이터를 가져오고 통합 문서에 연결하는 몇 가지 방법을 시청합니다.
 
@@ -81,12 +80,12 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 그러나 일부 
  ![비디오](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-지원되지 않는 기능: Power BI는 Excel Services를 사용하여 통합 문서 타일을 검색합니다. 따라서 Excel의 일부 기능은 Excel Services REST API에서 지원되지 않으므로 Power BI의 타일에 표시되지 않습니다. 예: 스파크라인, 아이콘 집합 조건부 서식 및 시간 슬라이서. 지원되지 않는 기능의 전체 목록은 [Excel Services REST API에서 지원되지 않는 기능](http://msdn.microsoft.com/library/office/ff394477.aspx)을 참조하세요.
+지원되지 않는 기능: Power BI는 Excel Services를 사용하여 통합 문서 타일을 검색합니다. 따라서 Excel의 일부 기능은 Excel Services REST API에서 지원되지 않으므로 Power BI의 타일에 표시되지 않습니다. 예: 스파크라인, 아이콘 집합 조건부 서식 및 시간 슬라이서. 지원되지 않는 기능의 전체 목록은 [Excel Services REST API에서 지원되지 않는 기능](https://msdn.microsoft.com/library/office/ff394477.aspx)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 [Excel 통합 문서에 대한 링크가 있는 대시보드 공유](service-share-dashboard-that-links-to-excel-onedrive.md)
 
 [Excel 통합 문서에서 데이터 가져오기](service-excel-workbook-files.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

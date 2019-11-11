@@ -2,7 +2,6 @@
 title: Power BI Desktop에서 도구 설명 사용자 지정
 description: 끌어서 놓기를 사용하여 시각적 개체에 대한 사용자 지정 도구 설명 만들기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5259ba22287a8a2ade3107e4320c39713dcb45e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: efbae4250b7b3cab18892cf519bfac5da3a88e1b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239756"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868661"
 ---
 # <a name="customizing-tooltips-in-power-bi-desktop"></a>Power BI Desktop에서 도구 설명 사용자 지정
 도구 설명은 시각적 개체의 데이터 요소에 대한 자세한 컨텍스트 정보 및 세부 정보를 제공하는 세련된 방법입니다. 다음 이미지는 Power BI Desktop에서 차트에 적용되는 도구 설명을 보여 줍니다.

@@ -2,7 +2,6 @@
 title: 작업 영역에서 데이터 세트 사용 제어(미리 보기) - Power BI
 description: Power BI 테넌트의 정보 흐름을 제한하는 방법을 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363bf9b107722b3993ed7ac43138c73da03f410a
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d1ad29bebc148d9f30e8d22240dd149787251a0a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461790"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872576"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces-preview"></a>작업 영역에서 데이터 세트 사용 제어(미리 보기)
 
@@ -40,4 +39,4 @@ ms.locfileid: "66461790"
 ## <a name="next-steps"></a>다음 단계
 
 - [작업 영역에서 데이터 세트 사용(미리 보기)](service-datasets-across-workspaces.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

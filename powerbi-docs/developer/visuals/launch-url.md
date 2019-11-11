@@ -3,18 +3,17 @@ title: 시작 URL 만들기
 description: 이 문서에서는 Power BI 시각적 개체를 사용하여 새 탭에서 URL을 여는 방법을 설명합니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 7dff03f0ad192e0598c677d41709447fbdc0688d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307331"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879935"
 ---
 # <a name="create-a-launch-url"></a>시작 URL 만들기
 
@@ -31,12 +30,12 @@ ms.locfileid: "72307331"
 `host.launchUrl()` API 호출을 사용하고 대상 URL을 문자열 인수로 전달합니다.
 
 ```typescript
-this.host.launchUrl('http://some.link.net');
+this.host.launchUrl('https://some.link.net');
 ```
 
 ## <a name="restrictions"></a>제한 사항
 
-* 절대 경로만 사용하고, 상대 경로를 사용하지 않습니다. 예를 들어 `http://some.link.net/subfolder/page.html`과 같은 절대 경로를 사용합니다. 상대 경로 `/page.html`은 열리지 않습니다.
+* 절대 경로만 사용하고, 상대 경로를 사용하지 않습니다. 예를 들어 `https://some.link.net/subfolder/page.html`과 같은 절대 경로를 사용합니다. 상대 경로 `/page.html`은 열리지 않습니다.
 
 * 현재는 *HTTP* 및 *HTTPS* 프로토콜만 지원됩니다. *FTP*, *MAILTO* 등을 사용하지 않습니다.
 

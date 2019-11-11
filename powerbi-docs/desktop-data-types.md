@@ -2,7 +2,6 @@
 title: Power BI Desktop의 데이터 형식
 description: Power BI Desktop의 데이터 형식
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391784"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868532"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop의 데이터 형식
 이 문서에서는 Power BI Desktop 및 DAX(Data Analysis Expressions)에서 지원하는 데이터 형식을 설명합니다. 
@@ -71,7 +70,7 @@ Power BI Desktop은 쿼리 보기에서 5가지, 보고서 보기 및 모델에�
 **True/False** -True 또는 False의 부울 값입니다.
 
 ### <a name="blanksnulls-type"></a>공백/Null 형식
-**공백** - SQL null을 표현 및 대체하는 DAX의 데이터 형식입니다. [BLANK](http://msdn.microsoft.com/library/ee634820.aspx) 함수를 사용하여 공백을 만들고 [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 논리 함수를 사용하여 공백을 테스트할 수 있습니다.
+**공백** - SQL null을 표현 및 대체하는 DAX의 데이터 형식입니다. [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) 함수를 사용하여 공백을 만들고 [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 논리 함수를 사용하여 공백을 테스트할 수 있습니다.
 
 ### <a name="table-data-type"></a>테이블 데이터 형식
 DAX는 집계, 시간 인텔리전스 계산 등과 같이 다양한 함수에서 테이블 데이터 형식을 사용합니다. 어떤 함수에는 테이블에 대한 참조가 필요하고 어떤 함수는 다른 함수에 대한 입력으로 사용할 수 있게 테이블을 반환합니다. 입력으로 테이블이 필요한 여러 함수에서 테이블을 평가하는 식을 지정할 수 있습니다. 어떤 함수에서는 기본 테이블에 대한 참조가 필요합니다. 특정 함수의 요구 사항에 대한 정보는 [DAX 함수 참조](https://msdn.microsoft.com/library/ee634396.aspx)에서 확인하세요.

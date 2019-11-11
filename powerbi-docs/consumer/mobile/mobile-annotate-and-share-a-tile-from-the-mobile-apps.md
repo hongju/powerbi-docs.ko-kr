@@ -2,19 +2,18 @@
 title: Power BI 모바일 앱에 주석 달기 및 공유
 description: 'iOS 및 Android용 Microsoft Power BI 모바일 앱의 타일, 보고서 및 시각화 개체에 주석을 달고 공유하는 방법에 대해 알아보세요. '
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 1f7911007d9629c8990fc15ddf7453bafe0e78f5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 013cbc58a8404fa803a14c73b1668be1215cf642
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841466"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879489"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일, 보고서 또는 시각적 개체에 주석 달기 및 공유
 적용 대상:
@@ -74,5 +73,5 @@ iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 �
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 모바일 앱에서 대시보드 공유](mobile-share-dashboard-from-the-mobile-apps.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Power BI Desktop에서 보고서 테마 사용
 description: 사용자 지정 색상표를 사용하고 Power BI Desktop에서 전체 보고서에 적용하는 방법을 알아봅니다
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64be68398ffa2ab8323307b45b5bff09ec511090
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: c97316b0509f7d243befa5cfe5310aa0f5826335
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327845"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880005"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
 **보고서 테마**를 사용하여 전체 보고서에 디자인 변경 내용을 적용할 수 있습니다. 예를 들어, 회사 색을 사용하거나 아이콘 세트를 변경하거나 새로운 기본 시각적 서식을 적용할 수 있습니다. **보고서 테마**를 적용하면 보고서의 모든 시각적 개체는 선택한 테마의 색과 서식을 사용합니다. 몇 가지 예외가 적용되며 이 문서의 뒷부분에서 설명합니다.
@@ -429,7 +428,7 @@ tableAccent | 있는 경우 테이블 및 행렬 눈금 윤곽선 색을 재정�
 | items: 항목 |
 | labels: 데이터 레이블 |
 | legend: 범례 |
-| lineStyles: 셰이프 |
+| lineStyles: 도형 |
 | mapControls: 지도 컨트롤 |
 | mapStyles: 지도 스타일 |
 | numericInputStyle: 숫자 입력 |

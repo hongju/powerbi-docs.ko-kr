@@ -2,19 +2,18 @@
 title: Power BI Report Server에 대한 브라우저 지원
 description: Power BI Report Server 및 보고서 뷰어 컨트롤을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 5a2ca653a06efbde161899602536b05c8f6ab666
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769757"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874300"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI Report Server에 대한 브라우저 지원
 Power BI Report Server 및 보고서 뷰어 컨트롤을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다.
@@ -115,7 +114,7 @@ Your browser does not support scripts or has been configured to not allow script
 [관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SSDT(SQL Server Data Tools) 다운로드](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

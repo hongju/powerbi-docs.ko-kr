@@ -2,7 +2,6 @@
 title: Power BI의 책갈피 사용
 description: Power BI Desktop에서 책갈피를 사용하여 보고서에서 보기 및 설정을 저장하고 스토리 모양의 프리젠테이션을 작성할 수 있습니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b25c09e7dc24445b5ad2ba5263542bc62891b28f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61326241"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876698"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 Power BI에서 **책갈피**를 사용하여 시각적 개체의 상태를 비롯한 보고서 페이지의 현재 구성된 보기를 캡처하고 저장된 해당 책갈피를 선택하여 나중에 해당 상태로 돌아갈 수 있습니다. 

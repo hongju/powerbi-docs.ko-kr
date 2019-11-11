@@ -2,7 +2,6 @@
 title: Power BI 보고서의 페이지 표시 설정
 description: 보고서의 페이지 표시 설정 및 페이지 보기 설정
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 97df2d6910f0215bd01875c88ea5d81d5dcc2c7c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720839"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875134"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 보고서의 페이지 표시 설정
 보고서 레이아웃 픽셀을 완벽하게 유지하는 것이 어렵다는 것을 알고 있습니다. 화면에 표시된 보고서의 가로 세로 비율과 크기는 보는 사람마다 다르기 때문에 어려울 때도 있습니다. 
@@ -80,5 +79,5 @@ Power BI 서비스에서 보고서를 열고 상단 왼쪽 메뉴 모음에서 *
 
 [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

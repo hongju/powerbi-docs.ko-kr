@@ -2,7 +2,6 @@
 title: 보고서의 테이블 또는 행렬에 이미지 표시
 description: Power BI Desktop에서 이미지에 대한 하이퍼링크가 있는 열을 만듭니다. 그런 다음, Power BI Desktop 또는 Power BI 서비스에서 이미지를 표시할 보고서 테이블, 행렬, 슬라이서 또는 여러 행 카드에 해당 하이퍼링크를 추가합니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715545"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874475"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>보고서에서 테이블, 행렬 또는 슬라이서에 이미지 표시
 
@@ -48,5 +47,5 @@ ms.locfileid: "71715545"
 
 [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

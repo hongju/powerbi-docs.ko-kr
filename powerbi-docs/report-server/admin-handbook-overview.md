@@ -1,23 +1,22 @@
 ---
 title: 관리 개요, Power BI Report Server
-description: 이 문서는 Power BI, 모바일 및 페이지를 매긴 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리에 대한 개요를 제공합니다.
+description: 이 아티클은 Power BI, 모바일 및 페이지가 매겨진 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리 개요입니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: c670c78b03a1cd3fd6ce1ad3aeaa0003ce794eec
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187366"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860218"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>관리 개요, Power BI Report Server
-이 문서는 Power BI, 모바일 및 페이지를 매긴 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리에 대한 개요를 제공합니다. 이 문서에서는 Power BI Report Server를 계획, 배포 및 관리하는 개념을 소개하고 추가 정보 링크를 제공합니다.
+이 아티클은 Power BI, 모바일 및 페이지가 매겨진 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리 개요입니다. 이 문서에서는 Power BI Report Server를 계획, 배포 및 관리하는 개념을 소개하고 추가 정보 링크를 제공합니다.
 
 ![](media/admin-handbook-overview/admin-handbook.png)
 
@@ -32,7 +31,7 @@ Power BI Report Server를 설치, 업그레이드 또는 마이그레이션하�
 [Power BI Report Server 설치](install-report-server.md)
 
 ### <a name="migration"></a>마이그레이션
-SQL Server Reporting Services를 in-place 업그레이드할 수 없습니다. Power BI Report Server를 만들려는 기존 SQL Server Reporting Services 인스턴스가 있는 경우 마이그레이션해야 합니다. 다른 이유로 마이그레이션을 수행할 수도 있습니다. 자세한 내용은 마이그레이션 문서를 검토합니다.
+SQL Server Reporting Services를 현재 위치 업그레이드할 수 없습니다. Power BI Report Server를 만들려는 기존 SQL Server Reporting Services 인스턴스가 있는 경우 마이그레이션해야 합니다. 다른 이유로 마이그레이션을 수행할 수도 있습니다. 자세한 내용은 마이그레이션 문서를 검토합니다.
 
 [Report Server 설치 마이그레이션](migrate-report-server.md)
 
@@ -49,7 +48,7 @@ Report Server를 구성할 때 여러 가지 옵션이 있습니다. SSL을 사�
 [보고서 서버 제품 키 확인](find-product-key.md)  
 [Power BI Report Server에 최적화된 Power BI Desktop 설치](install-powerbi-desktop.md)  
 [보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SSDT(SQL Server Data Tools) 다운로드](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

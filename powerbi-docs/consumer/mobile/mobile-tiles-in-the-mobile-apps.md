@@ -2,19 +2,18 @@
 title: Power BI 모바일 앱에서 타일 탐색
 description: 타일은 데이터의 라이브 스냅샷이며 대시보드에 고정됩니다. Power BI 모바일 앱에 있는 타일과 상호 작용하는 방법에 대해 알아봅니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 87c223c8ef0be0eac81bb672bde10023dcf79d71
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059776"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870051"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
@@ -123,5 +122,5 @@ ms.locfileid: "73059776"
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI란?](../../fundamentals/power-bi-overview.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 
