@@ -2,7 +2,6 @@
 title: Power BI 서비스에서 영업 및 마케팅 앱 설치 및 사용
 description: Power BI에서 앱을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다. AppSource에서 영업 및 마케팅 앱을 설치합니다.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/02/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: aaab001653fbcc0d887b8cd252dc49687e703c3e
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: e15c19402c032d84c77f1e6e61e7afb6b49856fb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944667"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851149"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Power BI 서비스에서 샘플 영업 및 마케팅 앱 설치 및 사용
 [Power BI 콘텐츠를 가져오는 기본적인 방법을 이해](end-user-app-view.md)했으므로 이제 Microsoft AppSource(appsource.com)에서 마케팅 및 영업 앱을 다운로드해 보겠습니다. 
