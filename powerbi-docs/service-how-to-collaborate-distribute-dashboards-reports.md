@@ -3,19 +3,18 @@ title: Power BI에서 작업을 공유하는 방법
 description: Power BI에서는 다양한 방법으로 대시보드, 보고서, 타일 및 앱을 공동 작업하고 공유할 수 있습니다. 각 방법마다 장점을 갖고 있습니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841659"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881335"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI에서 작업을 공유하는 방법
 
@@ -135,4 +134,4 @@ Power BI 서비스의 **SharePoint Online에 포함** 및 **포함** 옵션을 �
 
 의견이 있으신가요? 제안 사항이 있으시면 [Power BI 커뮤니티 사이트](https://community.powerbi.com/)를 방문하세요.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

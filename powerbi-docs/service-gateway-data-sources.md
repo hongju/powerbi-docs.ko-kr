@@ -2,7 +2,6 @@
 title: 데이터 원본 관리
 description: Power BI에서 데이터 원본을 관리하는 방법을 알아봅니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -11,12 +10,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164526"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881772"
 ---
 # <a name="manage-data-sources"></a>데이터 원본 관리
 
@@ -26,7 +25,7 @@ Power BI는 다양한 온-프레미스 데이터 원본을 지원하고 각 데�
 
 API를 사용하여 대부분의 데이터 원본 관리 작업을 수행할 수도 있습니다. 자세한 내용은 [Rest API(게이트웨이)](/rest/api/power-bi/gateways)를 참조하세요.
 
-## <a name="add-a-data-source"></a>데이터 소스 추가
+## <a name="add-a-data-source"></a>데이터 원본 추가
 
 1. Power BI 서비스의 오른쪽 위 모서리에서 기어 아이콘 ![설정 기어 아이콘](media/service-gateway-data-sources/icon-gear.png) > **게이트웨이 관리**를 선택합니다.
 
@@ -178,4 +177,4 @@ OAuth는 온-프레미스 데이터 게이트웨이를 통해 사용자 지정 �
 * [데이터 원본 관리 - 가져오기/예약된 새로 고침](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [데이터 게이트웨이 배포 지침](service-gateway-deployment-guidance.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)를 사용해 보세요.
+궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)를 사용해 보세요.

@@ -3,19 +3,18 @@ title: 온-프레미스 데이터 게이트웨이에서 사용자 지정 데이�
 description: 온-프레미스 데이터 게이트웨이에서 사용자 지정 데이터 커넥터를 사용할 수 있습니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c0ef172115dba05deb02d724b663742a2e71c13
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: c76c8fdb635db7724ffeb1a5140e9095c9b2eff5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832536"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881761"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이에서 사용자 지정 데이터 커넥터 사용
 
@@ -23,7 +22,7 @@ ms.locfileid: "68832536"
 
 Power BI용 데이터 커넥터를 사용하면 애플리케이션, 서비스 또는 데이터 원본의 데이터에 연결하고 액세스할 수 있습니다. 사용자 지정 데이터 커넥터를 개발하고 Power BI Desktop에서 사용할 수 있습니다.
 
-Power BI용 사용자 지정 데이터 커넥터를 개발하는 방법에 대한 자세한 내용은 [데이터 커넥터 SDK GitHub 페이지](http://aka.ms/dataconnectors)를 참조하세요. 이 사이트에는 Power BI 및 파워 쿼리에 대한 시작 방법을 설명하는 정보와 샘플이 포함되어 있습니다.
+Power BI용 사용자 지정 데이터 커넥터를 개발하는 방법에 대한 자세한 내용은 [데이터 커넥터 SDK GitHub 페이지](https://aka.ms/dataconnectors)를 참조하세요. 이 사이트에는 Power BI 및 파워 쿼리에 대한 시작 방법을 설명하는 정보와 샘플이 포함되어 있습니다.
 
 사용자 지정 데이터 커넥터를 사용하는 Power BI Desktop에서 보고서를 빌드할 때 온-프레미스 데이터 게이트웨이를 사용하여 Power BI 서비스의 해당 보고서를 새로 고칠 수 있습니다.
 
@@ -58,4 +57,4 @@ Power BI용 사용자 지정 데이터 커넥터를 개발하는 방법에 대�
 * [온-프레미스 데이터 게이트웨이에 대한 프록시 설정 구성](/data-integration/gateway/service-gateway-proxy)
 * [Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)에 대해 Kerberos 사용](service-gateway-sso-kerberos.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)에 질문합니다.
+궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)에 질문합니다.

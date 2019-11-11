@@ -3,25 +3,24 @@ title: Power BI 프리미엄 FAQ
 description: Power BI 프리미엄 제품에 대한 질문과 대답 목록을 찾아보세요.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f7d23c291e77ebacd3ed19a14ed7ce2921da5673
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 31335f01bd91355587634afbde9a10df5689226b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073323"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881180"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI 프리미엄 FAQ
 
 이 문서에서는 Power BI Premium에 대해 자주 묻는 질문을 다룹니다. 개요를 보려면 [Power BI Premium이란?](service-premium-what-is.md)을 참조하세요.
 
-* 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
+* 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](https://community.powerbi.com/).
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
 
 **Power BI 프리미엄이란?**  

@@ -2,7 +2,6 @@
 title: Power BI Desktop의 수식 편집기
 description: Power BI Desktop에서 DAX 수식 만들기 및 편집
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 429d6986d690e584c5a81d6663f4388b708e1380
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f36b0a92d09330b4efec078ae5bc767fed434393
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454448"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867631"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Power BI Desktop의 수식 편집기
 

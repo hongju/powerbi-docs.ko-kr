@@ -2,7 +2,6 @@
 title: 데이터 원본 관리 - Analysis Services
 description: 해당 게이트웨이에 속한 온-프레미스 데이터 게이트웨이 및 데이터 원본을 관리하는 방법입니다. 다차원 및 테이블 형식 모드의 Analysis Services에 대한 것입니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 02036d8b8fe35729a97a18dc5e058805d089b128
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 646bbc2e1923c3c325fce4c8f745e6b9914133f2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730199"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881668"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>데이터 원본 관리 - Analysis Services
 
@@ -47,7 +46,7 @@ Analysis Services에 대한 라이브 연결을 설정하는 방법에 대한 �
 
 ### <a name="advanced-settings"></a>고급 설정
 
-필요한 경우 데이터 원본의 프라이버시 수준을 구성할 수 있습니다. 이 설정을 통해 데이터가 결합하는 방식을 제어합니다. 예약된 새로 고침에만 사용됩니다. 개인 정보 수준 설정은 라이브 연결에 적용되지 않습니다. 데이터 원본의 프라이버시 수준에 대한 자세한 내용은 [프라이버시 수준(파워 쿼리)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 참조하세요.
+필요한 경우 데이터 원본의 프라이버시 수준을 구성할 수 있습니다. 이 설정은 데이터가 결합하는 방식을 제어합니다. 예정된 새로 고침에만 사용됩니다. 개인 정보 수준 설정은 라이브 연결에 적용되지 않습니다. 데이터 원본의 프라이버시 수준에 대한 자세한 내용은 [프라이버시 수준(파워 쿼리)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 참조하세요.
 
 ![프라이버시 수준 설정](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
 
@@ -172,7 +171,7 @@ Active Directory 조회를 수행하도록 게이트웨이를 구성하려면 �
 
 ### <a name="test-a-mapping-rule"></a>매핑 규칙 테스트
 
-대체될 원래 이름을 검증하려면 **원래 이름**의 값을 입력합니다. **규칙 테스트**를 선택합니다.
+대체될 원래 이름을 검증하려면 **원래 이름**의 값을 입력합니다. **테스트 규칙**을 선택합니다.
 
 ![매핑 규칙 테스트](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-test-mapping-rule.png)
 
@@ -284,5 +283,5 @@ Analysis Services 라이브 연결을 사용하려는 경우 로컬 Active Direc
 * [온-프레미스 데이터 게이트웨이 문제 해결](/data-integration/gateway/service-gateway-tshoot)
 * [게이트웨이 문제 해결 - Power BI](service-gateway-onprem-tshoot.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)를 사용해 보세요.
+궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)를 사용해 보세요.
 

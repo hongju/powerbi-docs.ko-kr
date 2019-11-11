@@ -2,7 +2,6 @@
 title: Power BI의 DirectQuery 사용
 description: Power BI의 DirectQuery 사용에 대한 이해
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d303e20e524ad7ac67882812b6e4f5a1d9b06c33
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 13ca0b53bb1aed2d4323afdc99a97f8b9cfa5567
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305792"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868328"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI의 DirectQuery 사용
 **Power BI Desktop** 또는 **Power BI 서비스**를 사용하는 경우 모든 종류의 다양한 데이터 원본에 연결할 수 있으며 이러한 데이터를 여러 가지 방법으로 연결할 수 있습니다. 데이터를 가져오는 가장 일반적인 방법인 Power BI로 데이터를 *가져오거나* **DirectQuery**로 알려진 원래의 원본 리포지토리에 있는 데이터에 직접 연결할 수 있습니다. 이 문서에서는 **DirectQuery**와 그 기능에 대해 설명합니다.
@@ -32,7 +31,7 @@ ms.locfileid: "71305792"
 
 Power BI에서 제공하는 두 연결 모드, 즉 가져오기 및 DirectQuery를 위한 기능 집합은 시간이 지남에 따라 향상됩니다. 여기서는 가져온 데이터를 사용할 때 더 많은 유연성을 제공하여 더 많은 경우에 가져오기를 사용할 수 있을 뿐만 아니라 DirectQuery 사용 시의 단점 중 일부를 제거할 수도 있습니다. 향상된 기능에 관계 없이 DirectQuery를 사용하는 경우 기본 데이터 원본의 성능은 항상 중요한 고려 사항으로 남아 있습니다. 기본 데이터 원본이 느린 경우 해당 원본에 대해 DirectQuery를 사용하면 실행할 수 없는 상태가 됩니다.
 
-이 문서에서는 SQL Server Analysis Services가 아니라 Power BI에서 사용하는 DirectQuery에 대해 설명합니다. DirectQuery는 **SQL Server Analysis Services**의 기능이기도 하며, 아래에서 설명하는 대부분의 내용이 해당 용도에 적용되지만 중요한 차이점도 있습니다. SQL Server Analysis Services에서 DirectQuery를 사용하는 방법에 대한 자세한 내용은 [SQL Server Analysis Services 2016의 DirectQuery에 대해 자세히 설명하는 백서](http://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf)를 참조하세요.  
+이 문서에서는 SQL Server Analysis Services가 아니라 Power BI에서 사용하는 DirectQuery에 대해 설명합니다. DirectQuery는 **SQL Server Analysis Services**의 기능이기도 하며, 아래에서 설명하는 대부분의 내용이 해당 용도에 적용되지만 중요한 차이점도 있습니다. SQL Server Analysis Services에서 DirectQuery를 사용하는 방법에 대한 자세한 내용은 [SQL Server Analysis Services 2016의 DirectQuery에 대해 자세히 설명하는 백서](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf)를 참조하세요.  
 
 이 문서에서는 **Power BI Desktop**에서 보고서를 만들기 위해 권장되는 DirectQuery 워크플로에 집중하며, **Power BI 서비스**에서 직접 연결하는 방법에 대해서도 설명합니다.
 
@@ -141,7 +140,7 @@ Power BI는 다음과 같이 다양한 데이터 원본에 연결됩니다.
 * **계산 열 제한:** 계산 열은 내부 행으로 제한되며, 마찬가지로 집계 함수를 사용하지 않고 동일한 테이블에 있는 다른 열의 값만 참조할 수 있습니다. 또한 허용되는 DAX 스칼라 함수(예: LEFT())는 기본 원본에 간단히 푸시될 수 있는 함수로 제한되므로 원본의 정확한 기능에 따라 달라집니다. 지원되지 않는 함수는 계산 열에 대해 DAX를 작성할 때 자동 완성에 나열되지 않으며, 사용되는 경우 오류가 발생합니다.
 * **부모-자식 DAX 함수 지원 안 함:** DirectQuery 모델에서는 DAX PATH() 함수 집합을 사용할 수 없습니다. 이 집합에서는 일반적으로 부모-자식 구조(예: 계정 차트 또는 직원 계층)를 처리합니다.
 * **계산 테이블 지원 안 함:** DAX 식을 사용하여 계산 테이블을 정의하는 기능은 DirectQuery 모드에서 지원되지 않습니다.
-* **관계 필터링:** 양방향 필터링의 사용에 대해서는 [이 자세한 백서](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)에서 설명하고 있습니다. 이 백서에서는 SQL Server Analysis Services와 관련된 예제를 제공하지만 기본적인 사항은 Power BI에도 동일하게 적용됩니다.
+* **관계 필터링:** 양방향 필터링의 사용에 대해서는 [이 자세한 백서](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)에서 설명하고 있습니다. 이 백서에서는 SQL Server Analysis Services와 관련된 예제를 제공하지만 기본적인 사항은 Power BI에도 동일하게 적용됩니다.
 
 * **클러스터링 없음:** DirectQuery를 사용하는 경우 클러스터링 기능을 사용하여 그룹을 자동으로 찾을 수 없습니다.
 

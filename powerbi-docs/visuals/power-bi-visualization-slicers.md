@@ -2,7 +2,6 @@
 title: 자습서 - Power BI의 슬라이서
 description: Power BI의 슬라이서
 author: v-thepet
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d400e2013d8f2cb8dda627cda790191fce52503b
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 808f27b94e53d5acf351772ef304f9cc69215007
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775887"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880800"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI의 슬라이서
 
@@ -46,7 +45,7 @@ Power BI 슬라이서에는 다음과 같은 제한 사항이 있습니다.
 
 **구역 관리자별로 데이터를 필터링하는 새 슬라이서 만들기**
 
-이 자습서는 [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
+이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
 1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
    

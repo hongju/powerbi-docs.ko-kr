@@ -2,7 +2,6 @@
 title: 소비자용 Power BI
 description: Power BI를 시작할까요? Power BI 서비스의 기능을 알아보고 Power BI 소비자 또는 최종 사용자로 이 기능을 통해 할 수 있는 작업을 확인하세요.
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
@@ -10,12 +9,12 @@ ms.date: 10/01/2019
 ms.author: mihart
 layout: HubPage
 LocalizationGroup: Get started
-ms.openlocfilehash: ec123c29bc6cf942c096ffb78b8bfab10be3bc14
-ms.sourcegitcommit: e371690159f69a72410abc97ff1c2a2bb9c841f5
+ms.openlocfilehash: ad6f9f0bc231f54c35501be24bb03a47e205a27e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71829628"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876725"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -122,9 +121,9 @@ ms.locfileid: "71829628"
                                             </div>
                                             <div class="cardText">
                                                 <h3>도움말 보기</h3>
-                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Microsoft LEARN의 자기 주도적 학습</a></p>
+                                            <p><a href="https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Microsoft LEARN의 자기 주도적 학습</a></p>
                                                 <p><a href="https://powerbi.microsoft.com/blog/" data-linktype="absolute-path">Power BI 블로그 참고</a></p>
-                                                <p><a href="http://community.powerbi.com/" data-linktype="absolute-path">Power BI 포럼에서 질문하기</a></p>
+                                                <p><a href="https://community.powerbi.com/" data-linktype="absolute-path">Power BI 포럼에서 질문하기</a></p>
                                             </div>
                                         </div>
                                     </div>

@@ -2,7 +2,6 @@
 title: Microsoft Intune으로 모바일 앱 구성
 description: Microsoft Intune으로 Power BI 모바일 앱을 구성하는 방법 여기에는 애플리케이션을 추가 및 배포하는 방법도 포함됩니다. 또한 보안을 제어하기 위한 모바일 애플리케이션 정책을 만드는 방법도 포함됩니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b1af8c58e24ff1d95b28ea8a024c29ccdcac56b3
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: abbbceb6734ecb70469efa198b6e85fce4c3e840
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075629"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857338"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune으로 모바일 앱 구성
 
@@ -191,4 +190,4 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 [모바일 디바이스용 Power BI 앱](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)  
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)  

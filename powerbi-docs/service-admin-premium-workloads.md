@@ -3,19 +3,18 @@ title: Power BI Premium의 워크로드를 구성하는 방법
 description: Power BI Premium 용량의 워크로드를 구성하는 방법을 알아봅니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307394"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856830"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>프리미엄 용량에서 워크로드 구성
 
@@ -198,4 +197,4 @@ Power BI 보고서에서는 용량에 대한 각 쿼리에 훨씬 적은 시간 
 [Power BI Premium에서 페이지 수를 매긴 보고서란 무엇입니까?](paginated-reports-report-builder-power-bi.md)   
 [Power BI Desktop에서의 자동 페이지 새로 고침(미리 보기)](desktop-automatic-page-refresh.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 문의](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 문의](https://community.powerbi.com/)

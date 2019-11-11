@@ -2,7 +2,6 @@
 title: Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침 - 클라우드
 description: OneDrive 또는 SharePoint Online에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 18087514545a2994c021a61aacac02a9f08a4810
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 14377878034a9df614d7885fc6810c3b67f46355
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816510"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874355"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
 
@@ -31,7 +30,7 @@ Power BI 서비스에서 데이터 세트를 새로 고칠 수 있습니다. 데
 
 ## <a name="whats-supported"></a>무엇이 지원되나요?
 
-Power BI에서 **지금 새로 고침** 및 **새로 고침 예약**은 다음 데이터 원본에 연결하고 데이터를 로드하는 데 데이터 가져오기/쿼리 편집기를 사용하는 로컬 드라이브에서 가져온 Power BI Desktop 파일에서 만든 데이터 세트에 지원됩니다.  
+Power BI에서 **지금 새로** 고침 및 **새로 고침 예약**은 다음 데이터 원본에 연결하고 데이터를 로드하는 데 데이터 가져오기/쿼리 편집기를 사용하는 로컬 드라이브에서 가져온 Power BI Desktop 파일에서 만든 데이터 세트에 지원됩니다.  
 
 ### <a name="power-bi-gateway---personal"></a>Power BI 게이트웨이 - 개인
 
@@ -118,5 +117,5 @@ Microsoft 계정 자격 증명이 변경되어 Power BI의 데이터 세트 및 
 - [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)
 - [Power BI 게이트웨이 - 개인 문제 해결](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 
