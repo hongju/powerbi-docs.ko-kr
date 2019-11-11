@@ -3,18 +3,17 @@ title: 자격 증명 암호화
 description: 연습 - 온-프레미스 게이트웨이 데이터 원본에 대한 자격 증명 암호화
 author: mahirdiab
 ms.author: madia
-manager: eligr
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/04/2019
-ms.openlocfilehash: 0952867ef9660a9dab6fc532df055ed619bf47fc
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 4747d548f8b02806c1e7b1359d140b09039e09d8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750908"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863860"
 ---
 # <a name="encrypt-credentials"></a>자격 증명 암호화
 

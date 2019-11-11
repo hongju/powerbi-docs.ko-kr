@@ -2,7 +2,6 @@
 title: Power BI 데이터 흐름에 관한 모범 사례
 description: Power BI 데이터 흐름에 관한 모범 사례
 author: mohaali
-manager: mohaali
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c499a83b87eb15031d75974084468f418a17804a
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 4bbc8b71455d01405854304dd4b889f664ce8575
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142303"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877287"
 ---
 # <a name="dataflows-best-practice"></a>데이터 흐름 모범 사례
 

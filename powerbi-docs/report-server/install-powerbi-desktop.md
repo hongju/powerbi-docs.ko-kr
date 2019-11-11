@@ -3,18 +3,17 @@ title: Power BI Report Server에 최적화된 Power BI Desktop 설치
 description: Power BI Report Server에 최적화된 Power BI Desktop을 설치하는 방법에 대한 자세한 내용
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/03/2019
-ms.openlocfilehash: a97c8125af46eae193f6c592d0b3c1153ae9b50c
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968639"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874108"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 
@@ -55,7 +54,7 @@ Power BI 서비스용 Power BI Desktop 버전은 제목 표시줄에 월 및 연
 ## <a name="file-extension-association"></a>파일 확장명 연결
 동일한 머신에 Power BI Desktop 및 Power BI Report Server에 최적화된 Power BI Desktop을 모두 설치한 경우 가장 최근에 설치된 Power BI Desktop이 .pbix 파일과 연결됩니다. 따라서 .pbix 파일을 두 번 클릭하면 가장 최근에 설치된 Power BI Desktop을 시작합니다.
 
-Power BI Desktop을 설치한 다음, Power BI Report Server에 최적화된 Power BI Desktop을 설치한 경우 기본적으로 Power BI Report Server에 최적화된 Power BI Desktop에 있는 모든 pbix 파일이 열립니다. pbix 파일을 열 때 Power BI Desktop을 시작하도록 기본값으로 설정하려는 경우 [Microsoft Store에서 Power BI Desktop](http://aka.ms/pbidesktopstore)을 다시 설치합니다.
+Power BI Desktop을 설치한 다음, Power BI Report Server에 최적화된 Power BI Desktop을 설치한 경우 기본적으로 Power BI Report Server에 최적화된 Power BI Desktop에 있는 모든 pbix 파일이 열립니다. pbix 파일을 열 때 Power BI Desktop을 시작하도록 기본값으로 설정하려는 경우 [Microsoft Store에서 Power BI Desktop](https://aka.ms/pbidesktopstore)을 다시 설치합니다.
 
 먼저 사용하려는 버전의 Power BI Desktop을 열 수 있습니다. 그런 다음 Power BI Desktop 내에서 파일을 엽니다.
 
@@ -63,7 +62,7 @@ Power BI Report Server 내에서 Power BI 보고서를 편집하거나 웹 포�
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-Power BI Report Server, Power BI 서비스(http://app.powerbi.com) ) 및 Power BI 모바일 앱의 Power BI 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
+Power BI Report Server, Power BI 서비스(https://app.powerbi.com) ) 및 Power BI 모바일 앱의 Power BI 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
 
 ### <a name="selecting-a-language"></a>언어 선택
 

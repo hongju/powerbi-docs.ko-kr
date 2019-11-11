@@ -3,18 +3,17 @@ title: OOS(Office Online Server)를 사용하여 Excel 통합 문서 호스트 -
 description: 웹 포털에서 Power BI 보고서를 보는 것 외에도 Power BI Report Server에서는 OOS(Office Online Server)를 사용하여 Excel 통합 문서를 호스트할 수 있습니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 5585750fcd5e6237f3cb00591cf5841f91393b84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769577"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874103"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>OOS(Office Online Server)를 사용하여 Excel 통합 문서를 호스트하도록 보고서 서버 구성
 
@@ -54,7 +53,7 @@ Office Online 서버를 실행하게 되는 서버에서 이러한 절차를 수
 
 외부 데이터 액세스(예: 파워 피벗)를 사용하는 Excel Online 기능을 사용하려는 경우 Office Online Server가 Windows 기반 인증을 사용하여 액세스하려는 외부 데이터 원본과 함께 사용자의 것과 동일한 Active Directory 포리스트에 있어야 합니다.
 
-1. [VLSC(Volume Licensing Service Center)](http://go.microsoft.com/fwlink/p/?LinkId=256561)에서 Office Online Server를 다운로드합니다. 다운로드는 VLSC 포털에서 이러한 Office 제품 아래에 있습니다. 개발 목적으로 MSDN 구독자 다운로드에서 OOS를 다운로드할 수 있습니다.
+1. [VLSC(Volume Licensing Service Center)](https://go.microsoft.com/fwlink/p/?LinkId=256561)에서 Office Online Server를 다운로드합니다. 다운로드는 VLSC 포털에서 이러한 Office 제품 아래에 있습니다. 개발 목적으로 MSDN 구독자 다운로드에서 OOS를 다운로드할 수 있습니다.
 2. Setup.exe를 실행합니다.
 3. **Microsoft 소프트웨어 사용 조건 읽기** 페이지에서 **동의함**을 선택하고 **계속**을 선택합니다.
 4. **파일 위치 선택** 페이지에서 Office Online Server 파일을 설치할 폴더(C:\Program Files\Microsoft Office Web Apps\*)를 선택하고 **지금 설치**를 선택합니다. 지정한 폴더가 존재하지 않으면 Setup에서 해당 폴더를 만듭니다.
@@ -69,7 +68,7 @@ Office Online 서버 언어 팩을 사용하면 사용자가 웹 기반 Office �
 
 언어 팩을 설치하려면 다음 단계를 수행합니다.
 
-1. [Microsoft 다운로드 센터](http://go.microsoft.com/fwlink/p/?LinkId=798136)에서 Office Online Server 언어 팩을 다운로드합니다.
+1. [Microsoft 다운로드 센터](https://go.microsoft.com/fwlink/p/?LinkId=798136)에서 Office Online Server 언어 팩을 다운로드합니다.
 2. **wacserverlanguagepack.exe**를 실행합니다.
 3. Office Online Server 언어 팩 마법사의 **Microsoft 소프트웨어 사용 조건 읽기** 페이지에서 **동의함**을 선택하고 **계속**을 선택합니다.
 4. Setup에서 Office Online Server 설치를 완료하면 **닫기**를 선택합니다.
@@ -86,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **매개 변수**
 
-* **– InternalURL**은 `http://servername.contoso.com`과 같은 Office Online Server를 실행하는 서버의 FQDN(정규화된 도메인 이름)입니다.
+* **– InternalURL**은 `https://servername.contoso.com`과 같은 Office Online Server를 실행하는 서버의 FQDN(정규화된 도메인 이름)입니다.
 * **–ExternalURL**은 인터넷에서 액세스할 수 있는 FQDN입니다.
 * **–CertificateName**은 인증서의 식별 이름입니다.
 
@@ -95,12 +94,12 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 New-OfficeWebAppsFarm 명령을 사용하여 다음 예제에 나온 대로 단일 서버로 구성된 새 Office Online Server 팜을 만듭니다.
 
 ```powershell
-New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
+New-OfficeWebAppsFarm -InternalURL "https://servername" -AllowHttp
 ```
 
 **매개 변수**
 
-* **–InternalURL**은 `http://servername`과 같은 Office Online Server를 실행하는 서버의 이름입니다.
+* **–InternalURL**은 `https://servername`과 같은 Office Online Server를 실행하는 서버의 이름입니다.
 * **-AllowHttp**는 HTTP를 사용하도록 팜을 구성합니다.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Office Online Server 팜이 성공적으로 만들어졌는지 확인합니다.
@@ -168,7 +167,7 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 ## <a name="configure-power-bi-report-server-to-use-the-oos-server"></a>OOS Server를 사용하도록 Power BI Report Server 구성
 
-**사이트 설정**의 **일반** 페이지에서 OOS 검색 URL을 입력합니다. OOS 검색 URL은 OOS Server를 배포할 때 사용된 *InternalUrl*로, 뒤에 */hosting/discovery*가 옵니다. 예를 들어 HTTP에 대해서는 `http://servername/hosting/discovery`입니다. 또한 HTTPS에 대해서는 `https://server.contoso.com/hosting/discovery`입니다.
+**사이트 설정**의 **일반** 페이지에서 OOS 검색 URL을 입력합니다. OOS 검색 URL은 OOS Server를 배포할 때 사용된 *InternalUrl*로, 뒤에 */hosting/discovery*가 옵니다. 예를 들어 HTTP에 대해서는 `https://servername/hosting/discovery`입니다. 또한 HTTPS에 대해서는 `https://server.contoso.com/hosting/discovery`입니다.
 
 **사이트 설정**으로 이동하려면 오른쪽 위에 있는 **기어 아이콘**을 선택하고 **사이트 설정**을 선택합니다.
 
@@ -187,6 +186,6 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 [관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SSDT(SQL Server Data Tools) 다운로드](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

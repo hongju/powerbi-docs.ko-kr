@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: befe57bd0c3441a44f4db745e3af73bd9afed933
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70391511"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73783556"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Power BI Mobile iOS앱에서 Siri 바로 가기 사용(미리 보기)
 
@@ -66,7 +66,7 @@ Power BI 보고서의 경우 바로 가기를 만들 때 캡처한 페이지로 
 ## <a name="next-steps"></a>다음 단계
 다음을 수행하여 Power BI 모바일 앱에 대해 자세히 알아봅니다. 
 
-* [Power BI iPhone 모바일 앱](http://go.microsoft.com/fwlink/?LinkId=522062) 다운로드
+* [Power BI iPhone 모바일 앱](https://go.microsoft.com/fwlink/?LinkId=522062) 다운로드
 * [Twitter의 @MSPowerBI](https://twitter.com/MSPowerBI) 수행하기
-* [Power BI 커뮤니티](http://community.powerbi.com/)에서 대화에 참여
+* [Power BI 커뮤니티](https://community.powerbi.com/)에서 대화에 참여
 

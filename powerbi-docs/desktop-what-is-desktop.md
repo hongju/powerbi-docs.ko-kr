@@ -2,7 +2,6 @@
 title: Power BI Desktop이란?
 description: Power BI Desktop의 개념과 Power BI Desktop 사용을 시작하는 방법 알아보기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 01e5effcf5f72dd110005815e2ba86c9a6731a70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141967"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865146"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
 
@@ -100,4 +99,4 @@ Power BI Desktop에서 모델을 만드는 데 사용한 데이터의 다양한 
 **Power BI Desktop**을 시작하려면 먼저 애플리케이션을 다운로드하여 설치해야 합니다. **Power BI Desktop**을 가져오는 방법은 두 가지가 있습니다.
 
 * [웹에서 Power BI Desktop 다운로드](desktop-get-the-desktop.md)
-* [Windows 스토어에서 Power BI Desktop 가져오기](http://aka.ms/pbidesktopstore)
+* [Windows 스토어에서 Power BI Desktop 가져오기](https://aka.ms/pbidesktopstore)

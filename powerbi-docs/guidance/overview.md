@@ -2,19 +2,18 @@
 title: Power BI에 대한 지침
 description: 지침 설명서에서는 Power BI를 사용할 때 권장되는 방법을 제공합니다.
 author: guyinacube
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: asaxton
-ms.openlocfilehash: 3e8a4a92ce3a1e5cbc9459732cdd12225ae901e1
-ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
+ms.openlocfilehash: e3aeff47e585d9a54edf46f7001f4686e9a76c3a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "71691254"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875559"
 ---
 # <a name="guidance-for-power-bi"></a>Power BI에 대한 지침
 
@@ -37,6 +36,6 @@ ms.locfileid: "71691254"
 
 | 지침 | 설명 |
 | --- | --- |
-| [데이터 흐름 모범 사례](/service-dataflows-best-practices.md) | Power BI 데이터 흐름 디자인에 대한 모범 사례를 설명합니다. |
+| [데이터 흐름 모범 사례](../service-dataflows-best-practices.md) | Power BI 데이터 흐름 디자인에 대한 모범 사례를 설명합니다. |
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

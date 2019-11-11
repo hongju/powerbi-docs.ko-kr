@@ -2,7 +2,6 @@
 title: Power BI 관리란?
 description: Power BI 거버넌스 정책, 사용 모니터링뿐 아니라 라이선스, 용량 및 조직 리소스의 프로비저닝에 대한 구성을 알아봅니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 779dba9262752a4030eb263002822d0186f3e470
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: d33aad1d52a7074873e4b2bb7f5e2f93e2b8ab0e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075797"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873726"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 관리란?
 
@@ -87,4 +86,4 @@ Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하
 
 [Power BI 관리 FAQ](service-admin-faq.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

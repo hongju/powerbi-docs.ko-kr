@@ -2,7 +2,6 @@
 title: Power BI Desktop에서 집계 사용
 description: Power BI Desktop에서 빅 데이터에 대한 대화형 분석을 수행합니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325183"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876734"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop의 집계
 
@@ -60,7 +59,7 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 ![모델의 집계 테이블](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> **Sales Agg** 테이블은 또 다른 테이블일 뿐이므로 다양한 방법으로 로드할 수 있는 유연성을 제공합니다. 예를 들어 집계는 ETL/ELT 프로세스를 사용하거나 테이블에 대한 [M 식](https://msdn.microsoft.com/query-bi/m/power-query-m-reference)을 통해 원본 데이터베이스에서 수행할 수 있습니다. [Power BI Premium에서 증분 새로 고침](service-premium-incremental-refresh.md)을 사용하는지 여부에 관계없이 [가져오기] 스토리지 모드를 사용하거나, [columnstore 인덱스](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview)를 사용하여 빠르게 쿼리하도록 최적화되는 DirectQuery를 사용할 수 있습니다. 이러한 유연성을 통해 쿼리 로드를 분산시키는 분산된 아키텍처를 가능하게 하여 병목 현상을 방지할 수 있습니다.
+> **Sales Agg** 테이블은 또 다른 테이블일 뿐이므로 다양한 방법으로 로드할 수 있는 유연성을 제공합니다. 예를 들어 집계는 ETL/ELT 프로세스를 사용하거나 테이블에 대한 [M 식](/powerquery-m/power-query-m-function-reference)을 통해 원본 데이터베이스에서 수행할 수 있습니다. [Power BI Premium에서 증분 새로 고침](service-premium-incremental-refresh.md)을 사용하는지 여부에 관계없이 [가져오기] 스토리지 모드를 사용하거나, [columnstore 인덱스](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview)를 사용하여 빠르게 쿼리하도록 최적화되는 DirectQuery를 사용할 수 있습니다. 이러한 유연성을 통해 쿼리 로드를 분산시키는 분산된 아키텍처를 가능하게 하여 병목 현상을 방지할 수 있습니다.
 
 ### <a name="storage-mode"></a>스토리지 모드 
 여기서 사용하고 있는 예를 사용하여 계속 진행하겠습니다. 쿼리 속도를 높이기 위해 **Sales Agg**의 스토리지 모드를 **가져오기**로 설정했습니다.

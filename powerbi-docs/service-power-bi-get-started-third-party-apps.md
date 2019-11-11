@@ -6,21 +6,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 3de0b5473c6d00013bdf109f262dc0577c3bf290
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: a3c060693a218a4c7a9dc5d0dea726c10e07d276
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073509"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871932"
 ---
 # <a name="get-started-with-third-party-apps"></a>타사 앱 시작
 
-Power BI를 통해 Microsoft 이외의 회사 또는 개인이 빌드한 앱을 사용할 수 있습니다. 예를 들어 사용자 지정 작성된 웹 애플리케이션에 Power BI 타일을 통합하는 타사 앱을 사용할 수 있습니다. 타사 앱을 사용할 경우 Power BI 계정 및 리소스에 대한 특정 사용 권한을 해당 애플리케이션에 부여하라는 메시지가 표시됩니다. 알고 있고 신뢰할 수 있는 애플리케이션에만 사용 권한을 부여해야 합니다. 언제든지 애플리케이션에 대한 사용 권한을 해지할 수 있습니다. [타사 앱 사용 권한 해지](#revoke)를 참조하세요.
+Power BI를 통해 Microsoft 이외의 회사 또는 개인이 빌드한 앱을 사용할 수 있습니다. 예를 들어 사용자 지정 작성된 웹 애플리케이션에 Power BI 타일을 통합하는 타사 앱을 사용할 수 있습니다. 타사 앱을 사용할 경우 Power BI 계정 및 리소스에 대한 특정 사용 권한을 해당 애플리케이션에 부여해야 합니다. 알고 있고 신뢰할 수 있는 애플리케이션에만 사용 권한을 부여해야 합니다. 언제든지 애플리케이션에 대한 사용 권한을 해지할 수 있습니다. [타사 앱 사용 권한 해지](#revoke)를 참조하세요.
 
 애플리케이션에서 요청할 수 있는 액세스 유형은 다음과 같습니다.
 

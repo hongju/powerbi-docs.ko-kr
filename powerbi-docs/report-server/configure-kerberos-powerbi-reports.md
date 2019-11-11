@@ -2,19 +2,18 @@
 title: Power BI 보고서를 사용하도록 Kerberos 구성
 description: 분산된 환경의 경우 Power BI 보고서 내에서 사용된 데이터 소스에 Kerberos 인증을 위해 Report Server를 구성하는 방법을 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: 63bf5653ddf17097a44113324011951734f6d13c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770712"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874234"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI 보고서를 사용하도록 Kerberos 구성
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>

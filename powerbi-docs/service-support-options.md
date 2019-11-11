@@ -2,19 +2,18 @@
 title: Power BI Pro 및 Power BI Premium 지원 옵션
 description: 이 문서는 Power BI Pro 및 Power BI Premium의 고객에게 사용 가능한 지원 옵션을 설명합니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: mblythe
-ms.openlocfilehash: df14bf127ed6935f9bec445709153a87088f8af0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305829"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871407"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro 및 Power BI Premium 지원 옵션
 
@@ -55,4 +54,4 @@ Power BI 기능의 전체 개요를 제공합니다. Power BI Desktop 및 Online
 
   - **WorkshopPLUS - 데이터 AI: Power BI를 사용하는 고급 데이터 분석** 이 과정을 통해 BI 자산을 게시하고 소비하기 위해 Power BI Desktop과 같은 도구를 사용하고 클라우드 서비스를 함께 제공하는 Power BI에서 데이터 모델링의 측면에 대한 핵심 원칙을 이해하고 구현하는 기술을 제공합니다. 그런 다음, 보고서 개발의 기본 사항, 사용자 지정 애플리케이션에 콘텐츠를 포함하는 Power BI에 포함된 분석, Power BI에서 데이터 과학 및 개발과 관련된 실시간 대시보드 및 고급 분석에 대해 설명합니다.
 
-세부 정보는 Microsoft 기술 계정 관리자에게 문의하세요. Microsoft 프리미어 지원 계약이 없는 경우 [프리미어 지원](https://support.microsoft.com/en-us/premier)에서 자세히 알아보세요.
+세부 정보는 Microsoft 기술 계정 관리자에게 문의하세요. Microsoft 프리미어 지원 계약이 없는 경우 [프리미어 지원](https://support.microsoft.com/premier)에서 자세히 알아보세요.

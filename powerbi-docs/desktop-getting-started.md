@@ -2,7 +2,6 @@
 title: Power BI Desktop 시작
 description: Power BI Desktop 시작
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e533313e20c4e1f994c2ae3d1e552170aef2cbd2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70201020"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868010"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 시작
 **Power BI Desktop 시작 가이드**를 시작합니다. 아래의 간단한 안내를 통해 Power BI Desktop의 작동 방법을 파악하고, 이 도구로 수행할 수 있는 작업을 확인하고, 비즈니스 인텔리전스 활동을 강화하는 강력한 데이터 모델을 유용한 보고서와 함께 신속하게 작성할 수 있습니다. 
 
-문서보다 동영상을 보려는 경우 간편하게 [시작 동영상을 살펴보세요](desktop-videos.md). 일치하는 샘플 데이터와 함께 동영상을 따라하려는 경우 [이 샘플 Excel 통합 문서를 다운로드](http://go.microsoft.com/fwlink/?LinkID=521962)하면 됩니다.
+문서보다 동영상을 보려는 경우 간편하게 [시작 동영상을 살펴보세요](desktop-videos.md). 일치하는 샘플 데이터와 함께 동영상을 따라하려는 경우 [이 샘플 Excel 통합 문서를 다운로드](https://go.microsoft.com/fwlink/?LinkID=521962)하면 됩니다.
 
 ![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
@@ -88,7 +87,7 @@ Power BI Desktop이 설치되면 계속 확장되는 데이터에 연결할 수 
 
 두 가지 경우 모두 아래의 웹 리소스에서 해당 주제와 관련한 흥미로운 데이터를 참조하세요.
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 **데이터 가져오기 \>웹**을 선택하고 주소를 붙여넣습니다.
 
@@ -158,7 +157,7 @@ Power BI Desktop의 쿼리 편집기에서는 리본 메뉴에서 사용 가능�
 
 다행히 이 작업을 수행하는 다른 공용 데이터 소스가 있지만 은퇴 테이블에 연결하려면 먼저 상당한 모양 지정이 필요합니다. 다음은 주 약어에 대한 웹 리소스입니다.
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+<https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
 **쿼리 편집기**의 리본 메뉴 **홈** 탭에서 **데이터 가져오기 \> 웹**을 선택하고 주소를 입력한 다음 **확인**을 선택하면 **탐색기** 창에 해당 웹 페이지에서 발견된 사항이 표시됩니다.
 

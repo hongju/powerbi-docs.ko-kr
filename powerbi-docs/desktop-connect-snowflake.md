@@ -2,7 +2,6 @@
 title: Power BI Desktop에서 Snowflake Computing 웨어하우스에 연결
 description: Power BI Desktop에서 Snowflake 컴퓨팅 웨어하우스에 쉽게 연결하고 사용합니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c02eda44ec81fe31972055548996ae357bc4c4b9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2bb44498b6123eadffe86c7eb9bfb93bb0db5e14
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513834"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876417"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Power BI Desktop에서 Snowflake에 연결
 Power BI Desktop에서 **Snowflake** 컴퓨팅 웨어하우스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다. 
 
 > [!NOTE]
-> 또한 **Snowflake ODBC 드라이버**를 **Power BI Desktop** 32 비트 또는 64 비트 설치와 일치하는 아키텍처를 사용하여 **Snowflake** 커넥터를 사용하는 컴퓨터에 설치*해야* 합니다. 다음 링크를 따라가서 [해당되는 Snowflake ODBC 드라이버를 다운로드](http://go.microsoft.com/fwlink/?LinkID=823762)합니다.
+> 또한 **Snowflake ODBC 드라이버**를 **Power BI Desktop** 32 비트 또는 64 비트 설치와 일치하는 아키텍처를 사용하여 **Snowflake** 커넥터를 사용하는 컴퓨터에 설치*해야* 합니다. 다음 링크를 따라가서 [해당되는 Snowflake ODBC 드라이버를 다운로드](https://go.microsoft.com/fwlink/?LinkID=823762)합니다.
 > 
 > 
 

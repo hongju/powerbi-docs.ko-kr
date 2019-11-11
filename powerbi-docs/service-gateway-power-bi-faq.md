@@ -2,7 +2,6 @@
 title: 온-프레미스 데이터 게이트웨이 FAQ - Power BI
 description: 이 문서는 Power BI에 대한 온-프레미스 데이터 게이트웨이 FAQ입니다. 이 문서에서는 자주 묻는 질문을 Power BI에서 사용되는 해당 게이트웨이에 대해 하나의 스폿으로 수집합니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867065"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872402"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>온-프레미스 데이터 게이트웨이 FAQ - Power BI
 
@@ -63,7 +62,7 @@ ms.locfileid: "68867065"
 
 **질문:** Windows 인증을 사용하는 내 온-프레미스 서버의 다른 도메인에 있는 컴퓨터에서 게이트웨이를 설치하면 어떻게 되나요? 
 
-**답변:** 보장할 수는 없습니다. 모두 두 도메인 간의 트러스트 관계에 따라 달라집니다. 서로 다른 두 도메인이 트러스트된 도메인 모델에 있는 경우 게이트웨이에서 Analysis Services 서버에 연결하고 유효한 사용자 이름을 확인할 수 있습니다. 그렇지 않은 경우 로그인 오류가 발생할 수 있습니다.
+**답변:** 보장은 없습니다. 모두 두 도메인 간의 트러스트 관계에 따라 달라집니다. 서로 다른 두 도메인이 트러스트된 도메인 모델에 있는 경우 게이트웨이에서 Analysis Services 서버에 연결하고 유효한 사용자 이름을 확인할 수 있습니다. 그렇지 않은 경우 로그인 오류가 발생할 수 있습니다.
 
 **질문:** 온-프레미스 Analysis Services 서버에 전달되는 유효 사용자 이름을 찾으려면 어떻게 하나요? 
 
@@ -73,5 +72,5 @@ ms.locfileid: "68867065"
 
 * [온-프레미스 데이터 게이트웨이 문제 해결](/data-integration/gateway/service-gateway-tshoot)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)를 사용해 보세요.
+궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)를 사용해 보세요.
 

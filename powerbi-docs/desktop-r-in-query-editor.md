@@ -2,7 +2,6 @@
 title: 파워 쿼리 편집기에서 R 사용
 description: 고급 분석을 위해 Power BI Desktop 쿼리 편집기에서 R 사용
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: d2ba33e18701ad147cb38072461804b4528101ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841522"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877937"
 ---
 # <a name="use-r-in-query-editor"></a>쿼리 편집기에서 R 사용
 
@@ -50,7 +49,7 @@ ms.locfileid: "70841522"
 
 **쿼리 편집기**에서 **R**을 사용하는 방법을 보여 주기 위해 .csv 파일에 포함된 예제 주식 시장 데이터 세트를 사용하고 다음 단계를 수행합니다.
 
-1. [**EuStockMarkets_NA.csv** 파일](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)을 다운로드합니다. 파일을 어디에 저장했는지 기억해야 합니다.
+1. [**EuStockMarkets_NA.csv** 파일](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)을 다운로드합니다. 파일을 어디에 저장했는지 기억해야 합니다.
 
 1. **Power BI Desktop**에 파일을 로드합니다. **홈** 리본에서 **데이터 가져오기 > 텍스트/CSV**를 선택합니다.
 
@@ -108,7 +107,7 @@ ms.locfileid: "70841522"
 완성된 모든 시각적 개체를 **Power BI Desktop** .pbix 파일 하나에 저장하고, Power BI 서비스에서 데이터 모델과 해당 R 스크립트를 사용할 수 있습니다.
 
 > [!NOTE]
-> 이러한 단계를 모두 완료하면 [.pbix 파일을 다운로드](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix)할 수 있습니다.
+> 이러한 단계를 모두 완료하면 [.pbix 파일을 다운로드](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix)할 수 있습니다.
 
 .pbix 파일을 Power BI 서비스에 업로드한 후에는 추가 단계를 수행하여 서비스 데이터 새로 고침 및 업데이트된 시각적 개체를 사용하도록 설정해야 합니다.  
 

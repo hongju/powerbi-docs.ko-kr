@@ -3,18 +3,17 @@ title: Power BI 데이터 모델 버전 관리
 description: OData 서비스로 노출되는 데이터 모델
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 6456974e7c05b65eb084d00bb1970d4291a0cf0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3835aabee88b33ba8b053550e4637cb387bace02
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385622"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875957"
 ---
 # <a name="data-model-versioning"></a>데이터 모델 버전 관리
 
@@ -37,7 +36,7 @@ Power BI 데이터 모델 등 OData 서비스에서 노출하는 데이터 모�
   
 서비스는 인증된 사용자에 따라 해당 데이터 모델을 변경***하지 않아야 합니다***. 데이터 모델이 사용자 또는 사용자 그룹에 종속되는 경우 전체 모델을 제한된 권한의 사용자가 볼 수 있는 모델과 비교할 때 이 섹션에 정의된 대로 모든 변경은 안전한 변경이어야 합니다.  
   
-OData 데이터 모델 표준에 대한 자세한 내용은 [OData 버전 4.0 1부: 프로토콜 및 Errata 02](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)를 참조하세요.  
+OData 데이터 모델 표준에 대한 자세한 내용은 [OData 버전 4.0 1부: 프로토콜 및 Errata 02](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목
 [Power BI REST API 개요](https://docs.microsoft.com/rest/api/power-bi/)  

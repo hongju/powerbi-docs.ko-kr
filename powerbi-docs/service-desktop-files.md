@@ -2,7 +2,6 @@
 title: Power BI Desktop 파일에서 데이터 가져오기
 description: Power BI Desktop에서 Power BI로 데이터 및 보고서를 가져오는 방법 알아보기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5e0ad4ed93fac06ace7c8e0569ebb0c2aeac9a87
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ea5e4a4af3f4049ccb9d69fbe95a13dc08a8cf05
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513085"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877098"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Power BI Desktop 파일에서 데이터 가져오기
 ![](media/service-desktop-files/pbid_file_icon.png)

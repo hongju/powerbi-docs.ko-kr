@@ -1,8 +1,7 @@
 ---
-title: '자습서: Power BI Desktop에서 Excel 및 OData 피드의 데이터 결합'
-description: '자습서: Excel 및 OData 피드의 데이터 결합'
+title: '자습서:  Power BI Desktop에서 Excel 및 OData 피드의 데이터 결합'
+description: '자습서:  Excel 및 OData 피드의 데이터 결합'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,14 +9,14 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160398"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866081"
 ---
-# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>자습서: Excel 및 OData 피드의 판매 데이터 결합
+# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>자습서:  Excel 및 OData 피드의 판매 데이터 결합
 
 데이터를 여러 데이터 원본에 두는 것은 일반적입니다. 예를 들어 두 가지 데이터베이스를 하나는 제품 정보용으로, 나머지는 판매 정보용으로 사용할 수 있습니다. **Power BI Desktop**을 사용하면 서로 다른 원본의 데이터를 결합하여 흥미롭고 매력적인 데이터 분석 및 시각화를 만들 수 있습니다. 
 
@@ -35,7 +34,7 @@ ms.locfileid: "70160398"
 
 먼저 Products.xlsx Excel 통합 문서의 제품 데이터를 Power BI Desktop으로 가져옵니다.
 
-1. [Products.xlsx Excel 통합 문서를 다운로드](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)하여 **Products.xlsx**로 저장합니다.
+1. [Products.xlsx Excel 통합 문서를 다운로드](https://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)하여 **Products.xlsx**로 저장합니다.
    
 2. Power BI Desktop 리본의 **홈** 탭에서 **데이터 가져오기** 옆에 있는 드롭다운 화살표를 선택한 다음, **가장 일반적** 드롭다운에서 **Excel**을 선택합니다. 
    
@@ -76,7 +75,7 @@ ms.locfileid: "70160398"
    
    ![OData 가져오기](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
    
-2. **OData 피드** 대화 상자에서 Northwind OData 피드의 URL인 `http://services.odata.org/V3/Northwind/Northwind.svc/`를 붙여넣습니다. **확인**을 선택합니다.
+2. **OData 피드** 대화 상자에서 Northwind OData 피드의 URL인 `https://services.odata.org/V3/Northwind/Northwind.svc/`를 붙여넣습니다. **확인**을 선택합니다.
    
    ![OData 피드 대화 상자](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
    
@@ -89,7 +88,7 @@ ms.locfileid: "70160398"
 
 ## <a name="expand-the-order-data"></a>주문 데이터 확장
 
-관계형 데이터베이스 또는 Northwind OData 피드와 같은 여러 테이블이 있는 데이터 원본에 연결할 때 테이블 참조를 사용하여 쿼리를 빌드할 수 있습니다. **Orders** 테이블에는 여러 관련 테이블에 대한 참조가 있습니다. **확장** 작업을 사용하여 관련된 **Order_Details** 테이블의 **ProductID**, **UnitPrice**, **Quantity** 열을 주제(**Orders**) 테이블에 추가할 수 있습니다. 
+관계형 데이터베이스 또는 Northwind OData 피드와 같은 여러 테이블이 있는 데이터 원본에 연결할 때 테이블 참조를 사용하여 쿼리를 빌드할 수 있습니다. **Orders** 테이블에는 여러 관련 테이블에 대한 참조가 있습니다. **확장** 작업을 사용하여 관련 **Order_Details** 테이블의 **ProductID**, **UnitPrice**, **Quantity** 열을 제목(**Orders**) 테이블에 추가할 수 있습니다. 
 
 1. **Order_Details** 열이 보일 때까지 **Orders** 테이블에서 오른쪽으로 스크롤합니다. 여기에는 데이터가 아닌 다른 테이블에 대한 참조가 포함되어 있습니다.
    
@@ -271,7 +270,7 @@ Power BI Desktop에서 상호 강조 표시하고 서로를 필터링하여 추�
 완료된 보고서는 서로 다른 국가의 주문 정보, 시간대 및 제품을 분석하는 데 도움이 되는 시각적 개체의 Northwind OData 피드 및 Products.xlsx Excel 파일의 데이터를 결합합니다. 보고서가 준비되면 [Power BI 서비스에 업로드](desktop-upload-desktop-files.md)하여 다른 Power BI 사용자와 공유할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [다른 Power BI Desktop 자습서 참고](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop 동영상 시청](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Power BI 포럼 방문](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Power BI 블로그 참고](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [다른 Power BI Desktop 자습서 참고](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Power BI Desktop 동영상 시청](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Power BI 포럼 방문](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Power BI 블로그 참고](https://go.microsoft.com/fwlink/?LinkID=519327)

@@ -6,17 +6,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: Minewiskan
 ms.author: owend
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 00b7c98236f37505fbb0ddec81a45b65bf3e3ee6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769921"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871186"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI의 SQL Server Analysis Services 라이브 데이터
 
@@ -63,4 +62,4 @@ Power BI에서는 두 가지 방법으로 라이브 SQL Server Analysis Services
 * [Analysis Services 데이터 원본 관리](service-gateway-enterprise-manage-ssas.md)  
 * [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

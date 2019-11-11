@@ -2,7 +2,6 @@
 title: Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ
 description: Power BI 서비스가 고가용성을 제공하고 비즈니스 연속성 및 재해 복구를 사용자에게 제공하는 방법을 이해합니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b8f98541b70c3573d9f31b5e59196cd37d322bb3
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: dd2c94b490cdf31bd383c7100b9a1bc372f8e75f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075228"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873673"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ
 
@@ -23,7 +22,7 @@ ms.locfileid: "71075228"
 
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>Power BI에 대해 "고가용성"이 의미하는 것은 무엇인가요?
 
-Power BI는 SaaS(Software as a Service)로 완전 관리형 소프트웨어입니다.  Microsoft는 사용자가 항상 자신의 보고서에 액세스할 수 있도록 인프라 오류에 탄력적으로 대처하도록 설계하고 운영합니다.  서비스는 [99.9% SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)에서 지원됩니다.
+Power BI는 SaaS(Software as a Service)로 완전 관리형 소프트웨어입니다.  Microsoft는 사용자가 항상 자신의 보고서에 액세스할 수 있도록 인프라 오류에 탄력적으로 대처하도록 설계하고 운영합니다.  서비스는 [99.9% SLA](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)에서 지원됩니다.
 
 ## <a name="what-is-a-power-bi-failover"></a>Power BI 장애 조치(failover)란?
 
@@ -50,7 +49,7 @@ Power BI는 비즈니스 연속성을 보장하기 위해 Azure 데이터 센터
 
 ## <a name="how-do-i-know-power-bi-is-now-in-failover-mode"></a>Power BI가 현재 장애 조치(failover) 모드에 있는지 확인하는 방법은?
 
-Power BI 지원 페이지에 알림이 게시됩니다([https://powerbi.microsoft.com/en-us/support/](https://powerbi.microsoft.com/en-us/support/)). 알림에는 게시, 새로 고침, 대시보드 만들기, 대시보드 복제 및 권한 변경을 포함하여 장애 조치(failover) 중에는 사용할 수 없는 주요 작업이 포함됩니다.
+Power BI 지원 페이지에 알림이 게시됩니다([https://powerbi.microsoft.com/support/](https://powerbi.microsoft.com/support/)). 알림에는 게시, 새로 고침, 대시보드 만들기, 대시보드 복제 및 권한 변경을 포함하여 장애 조치(failover) 중에는 사용할 수 없는 주요 작업이 포함됩니다.
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Power BI를 장애 조치(failover)하는 데 얼마나 걸리나요?
 

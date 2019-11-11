@@ -2,7 +2,6 @@
 title: Power BI "소비자"란?
 description: 소비자용 Power BI 개요(최종 사용자 또는 비즈니스 사용자라고도 함)
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b1876d0990cc21d854ac96329e5ab4a5632f22d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430276"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863799"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>소비자용 Power BI 서비스
 
@@ -59,6 +58,6 @@ Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. 최종 
 ## <a name="next-steps"></a>다음 단계
 
 [소비자용 Power BI 서비스 둘러보기](end-user-reading-view.md)    
-[소비자용 Power BI 서비스 교육](https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/)    
+[소비자용 Power BI 서비스 교육](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)    
 [Power BI ‘소비자’에 대한 용어 및 개념](end-user-basic-concepts.md)     
 
