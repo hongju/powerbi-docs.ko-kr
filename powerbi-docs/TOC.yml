@@ -113,6 +113,8 @@
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: Power BI에서 데이터가 없는 항목 표시
           href: desktop-show-items-no-data.md
+        - name: Power BI Desktop의 자동 날짜/시간
+          href: desktop-auto-date-time.md
         - name: 데이터에 연결
           items:
             - name: Power BI Desktop의 데이터 원본
