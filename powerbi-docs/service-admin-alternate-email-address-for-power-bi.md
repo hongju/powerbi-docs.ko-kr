@@ -2,7 +2,6 @@
 title: 대체 이메일 주소 사용
 description: 대체 이메일 주소 사용
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 88432f55fc8cfeefa07b66ea68437bbb23f12531
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6549ec04d8ec47381b4639d15242e909929b52de
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906640"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858082"
 ---
 # <a name="use-an-alternate-email-address"></a>대체 이메일 주소 사용
 
@@ -70,4 +69,4 @@ Power BI는 다음 순서에 따라 사용할 메일을 선택합니다.
 
 1. 위의 조건 중 해당 사항이 없을 경우 Power BI에서 UPN 주소를 사용합니다.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
