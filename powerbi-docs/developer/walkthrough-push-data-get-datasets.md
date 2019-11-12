@@ -19,7 +19,7 @@ ms.locfileid: "73875716"
 
 이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
-데이터 세트에 데이터 푸시의 **3단계**[Power BI에서 데이터 세트 만들기](walkthrough-push-data-create-dataset.md)에서는 [데이터 세트 만들기](https://docs.microsoft.com/rest/api/power-bi/datasets) 작업을 호출하여 Power BI에서 데이터 세트를 만들었습니다. 이 단계에서는 [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업과 Newtonsoft.Json을 사용하여 데이터 세트 ID를 가져옵니다. 4단계의 데이터 세트 ID를 사용하여 데이터 세트에 행을 추가합니다. 
+데이터 세트에 데이터 푸시의 **3단계**인 [Power BI에서 데이터 세트 만들기](walkthrough-push-data-create-dataset.md)에서는 [데이터 세트 만들기](https://docs.microsoft.com/rest/api/power-bi/datasets) 작업을 호출하여 Power BI에서 데이터 세트를 만들었습니다. 이 단계에서는 [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업과 Newtonsoft.Json을 사용하여 데이터 세트 ID를 가져옵니다. 4단계의 데이터 세트 ID를 사용하여 데이터 세트에 행을 추가합니다. 
 
 데이터를 Power BI 데이터 세트로 푸시하려면 데이터 세트의 테이블을 참조해야 합니다. 데이터 세트의 테이블을 참조하려면 먼저 **데이터 세트 ID**를 가져와야 합니다. **데이터 세트 ID**는 [데이터 세트 가져오기](/rest/api/power-bi/datasets/getdatasets) 작업을 사용하여 가져옵니다. **데이터 세트 가져오기** 작업은 Power BI에 있는 모든 데이터 세트의 목록이 포함된 JSON 문자열을 반환합니다. JSON 문자열을 역직렬화하는 데 권장되는 방법은 [Newtonsoft.Json](https://www.newtonsoft.com/json)을 사용하는 것입니다.
 
@@ -36,7 +36,7 @@ ms.locfileid: "73875716"
      b. **패키지 관리자 콘솔**에서 Install-Package Newtonsoft.Json을 입력합니다.
 2. 패키지가 설치되면 **using Newtonsoft.Json;** 을 Program.cs에 추가합니다.
 3. Program.cs에 **데이터 세트 ID**를 가져오는 아래 코드를 추가합니다.
-4. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. 콘솔 창에 **데이터 세트 ID:** 다음에 ID가 표시됩니다.
+4. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. 콘솔 창에 **Dataset ID:** 다음에 ID가 표시됩니다.
 
 **데이터 세트 가져오기 샘플**
 
