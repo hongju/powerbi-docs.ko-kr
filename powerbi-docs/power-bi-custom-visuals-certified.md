@@ -180,14 +180,14 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 | [Thermometer by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380847)(MAQ Software의 Thermometer) | [비디오](https://youtu.be/SPX9mgrAdBc) |
 | [Time Brush Slicer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380798)(시간 브러시 슬라이서) | |
 | [Timeline Slicer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380786)(타임라인 슬라이서) | [비디오](https://youtu.be/ozMtZ4_NZ10) |
-| [CloudScope의 타임라인](https://appsource.microsoft.com/product/power-bi-visuals/WA104381427) | [비디오](https://youtu.be/szNi9YgXFJc) |
-| [토네이도 차트](https://appsource.microsoft.com/product/power-bi-visuals/WA104380768) | [비디오](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
-| [MAQ Software의 거래 차트](https://appsource.microsoft.com/product/power-bi-visuals/WA104380823) | [비디오](https://youtu.be/xhTR6y6J9Ko) |
-| [최종 차이](https://appsource.microsoft.com/product/power-bi-visuals/WA104381140) | [비디오](https://youtu.be/pDYF8iZxERs) |
-| [최고의 폭포 차트](https://appsource.microsoft.com/product/power-bi-visuals/WA104380956) | [비디오](https://youtu.be/0BZsVCQdEkc) |
-| [CloudScope의 사용자 목록](https://appsource.microsoft.com/product/power-bi-visuals/WA104381426) | |
-| [와플 차트](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049) | [비디오](https://youtu.be/1vRqYUsm3Vk) |
-| [워드 클라우드](https://appsource.microsoft.com/product/power-bi-visuals/WA104380752) | [비디오](https://youtu.be/AblTenl9fqo) |
+| [Timeline by CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381427)(CloudScope의 타임라인) | [비디오](https://youtu.be/szNi9YgXFJc) |
+| [Tornado chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380768)(토네이도 차트) | [비디오](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
+| [Trading Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380823)(MAQ Software의 거래 차트) | [비디오](https://youtu.be/xhTR6y6J9Ko) |
+| [Ultimate Variance](https://appsource.microsoft.com/product/power-bi-visuals/WA104381140)(최종 차이) | [비디오](https://youtu.be/pDYF8iZxERs) |
+| [Ultimate Waterfall](https://appsource.microsoft.com/product/power-bi-visuals/WA104380956)(최고의 폭포 차트) | [비디오](https://youtu.be/0BZsVCQdEkc) |
+| [User List by CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381426)(CloudScope의 사용자 목록) | |
+| [Waffle Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049)(와플 차트) | [비디오](https://youtu.be/1vRqYUsm3Vk) |
+| [Word Cloud](https://appsource.microsoft.com/product/power-bi-visuals/WA104380752)(워드 클라우드) | [비디오](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="faq"></a>FAQ
 
@@ -196,7 +196,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 ## <a name="next-steps"></a>다음 단계
 
 * [Power BI 사용자 지정 시각적 개체 개발](developer/visuals/custom-visual-develop-tutorial.md)
-* [YouTube에서 Microsoft의 사용자 지정 시각적 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
+* [Microsoft의 사용자 지정 시각적 개체 YouTube 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Power BI의 시각화](visuals/power-bi-report-visualizations.md)  
 * [Power BI의 사용자 지정 시각화](power-bi-custom-visuals.md)  
 * [Microsoft AppSource에 Power BI 시각적 개체 게시하기](developer/office-store.md)  
