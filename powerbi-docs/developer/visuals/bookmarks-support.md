@@ -179,7 +179,7 @@ if (jsonFilters
 > [!IMPORTANT]
 > 보고서 책갈피 시나리오에서는 시각적 개체가 다른 시각적 개체를 필터링하기 위해 `applyJsonFilter`를 호출하면 안 됩니다. Power BI에서 이미 필터링됩니다.
 
- Timeline Slicer 시각적 개체가 범위 선택기를 해당 데이터 범위로 변경합니다.
+Timeline Slicer 시각적 개체가 범위 선택기를 해당 데이터 범위로 변경합니다.
 
 자세한 내용은 [Timeline Slicer 리포지토리](https://github.com/Microsoft/powerbi-visuals-timeline/commit/606f1152f59f82b5b5a367ff3b117372d129e597?diff=unified#diff-b6ef9a9ac3a3225f8bd0de84bee0a0df)를 참조하세요.
 
