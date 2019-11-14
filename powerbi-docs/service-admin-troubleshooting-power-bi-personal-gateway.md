@@ -121,9 +121,9 @@ Power BI는 현재 ACE OLEDB 공급자를 사용하여 데이터 원본에 대�
    ![새로 고침 기록 정보](media/service-admin-troubleshooting-power-bi-personal-gateway/refresh-history.png)
 
 ### <a name="event-logs"></a>이벤트 로그
-여러 이벤트 로그가 정보를 제공할 수 있습니다. 처음 두 가지인 **데이터 관리 게이트웨이** 및 **PowerBIGateway**는 머신 관리자인 경우에 제공됩니다. 관리자가 아니고 데이터 게이트웨이(개인 모드)를 사용하는 경우는 **응용프로그램** 로그에서 로그 항목을 볼 수 있습니다.
+여러 이벤트 로그가 정보를 제공할 수 있습니다. 처음 두 가지인 **데이터 관리 게이트웨이** 및 **PowerBIGateway**는 머신 관리자인 경우에 제공됩니다. 관리자가 아니고 데이터 게이트웨이(개인 모드)를 사용하는 경우는 **응용 프로그램** 로그에서 로그 항목을 볼 수 있습니다.
 
-**데이터 관리 게이트웨이** 및 **PowerBIGateway** 로그는 **응용프로그램 및 서비스 로그**아래에 표시됩니다.
+**데이터 관리 게이트웨이** 및 **PowerBIGateway** 로그는 **응용 프로그램 및 서비스 로그**아래에 표시됩니다.
 
 ![데이터 관리 게이트웨이 및 PowerBIGateway 로그](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
