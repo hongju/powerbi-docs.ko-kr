@@ -38,7 +38,7 @@ Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 �
 
    ![홈 캔버스](./media/end-user-report-open/power-bi-select-home-new.png)
    
-3. **공유한 항목**이 표시될 때까지 아래로 스크롤합니다. 보고서 아이콘 ![보고서 아이콘](./media/end-user-report-open/power-bi-report-icon.png)을 찾습니다. 이 스크린샷에서는 하나의 대시보드와 *판매 및 마케팅 샘플*이라는 보고서가 있습니다. 
+3. **공유한 항목**이 표시될 때까지 아래로 스크롤합니다. 보고서 아이콘 ![보고서 아이콘](./media/end-user-report-open/power-bi-report-icon.png)을 찾습니다. 이 스크린샷에서는 하나의 대시보드와 *영업 및 마케팅 샘플*이라는 보고서가 있습니다. 
    
    ![홈페이지의 공유한 항목 섹션](./media/end-user-report-open/power-bi-shared-new.png)
 
@@ -46,13 +46,13 @@ Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 �
 
    ![보고서 페이지](./media/end-user-report-open/power-bi-open.png)
 
-5. 왼쪽의 탭을 확인합니다.  각 탭은 보고서 ‘페이지’를 나타냅니다. 현재 *성장 기회* 페이지가 열려 있습니다. *YTD범주* 탭을 선택하여 해당 보고서 페이지를 대신 엽니다. 
+5. 왼쪽의 탭을 확인합니다.  각 탭은 보고서 ‘페이지’를 나타냅니다. 현재 *Growth Opportunity* 페이지가 열려 있습니다. *YTD Category* 탭을 선택하여 해당 보고서 페이지를 대신 엽니다. 
 
    ![보고서 페이지 탭](./media/end-user-report-open/power-bi-ytd.png)
 
 6. 오른쪽을 따라 **필터** 창이 표시됩니다. 이 보고서 페이지 또는 전체 보고서에 적용된 필터가 여기에 표시됩니다.
 
-7. 보고서 시각적 개체를 마우스로 가리키면 여러 아이콘과 줄임표(...)가 표시됩니다. 특정 시각적 개체에 적용된 필터를 확인하려면 필터 아이콘을 선택합니다. 여기서는 *롤링 기간 및 지역별 전체 단위* 꺾은선형 차트에 대한 필터 아이콘을 선택했습니다.
+7. 보고서 시각적 개체를 마우스로 가리키면 여러 아이콘과 줄임표(...)가 표시됩니다. 특정 시각적 개체에 적용된 필터를 확인하려면 필터 아이콘을 선택합니다. 여기서는 *Total units by rolling period and region* 꺾은선형 차트에 대한 필터 아이콘을 선택했습니다.
 
    ![보고서 페이지 탭](./media/end-user-report-open/power-bi-visual-filters.png)
 
@@ -68,7 +68,7 @@ Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 �
 ### <a name="prerequisites"></a>필수 조건
 작업을 계속 진행하려면 영업 및 마케팅 앱을 다운로드합니다.
 1. 브라우저에서 appsource.microsoft.com으로 이동합니다.
-1. "영업 및 마케팅"을 검색하고 **Microsoft 샘플 - 영업 및 마케팅**을 선택합니다.
+1. "Sales and  Marketing"을 검색하고 **Microsoft sample - Sales & Marketing**을 선택합니다.
 1. **지금 가져오기** > **계속** > **설치**를 선택하여 앱 컨테이너에 앱을 설치합니다. 
 
 앱 컨테이너 또는 홈에서 앱을 열 수 있습니다.
@@ -84,11 +84,11 @@ Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 �
 ## <a name="open-a-report-from-a-dashboard"></a>대시보드에서 보고서 열기
 대시보드에서 보고서를 열 수 있습니다. 대부분의 대시보드 [타일](end-user-tiles.md)은 보고서에서 *고정*됩니다. 타일을 선택하면 타일을 만드는 데 사용된 보고서가 열립니다. 
 
-1. 대시보드에서 타일을 선택합니다. 이 예에서는 "총 단위 YTD..." 열 차트 타일을 선택했습니다.
+1. 대시보드에서 타일을 선택합니다. 이 예에서는 "Total Units YTD..." 열 차트 타일을 선택했습니다.
 
     ![타일을 선택한 대시보드](./media/end-user-report-open/power-bi-dashboard.png)
 
-2.  연결된 보고서가 열립니다. "YTD 범주" 페이지에 있는지 확인합니다. 이는 대시보드에서 선택한 열 차트가 포함된 보고서 페이지입니다.
+2.  연결된 보고서가 열립니다. "YTD Category" 페이지에 있는지 확인합니다. 이는 대시보드에서 선택한 열 차트가 포함된 보고서 페이지입니다.
 
     ![읽기용 보기로 보고서 열기](./media/end-user-report-open/power-bi-report-tabs.png)
 
