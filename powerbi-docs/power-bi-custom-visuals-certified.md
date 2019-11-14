@@ -111,7 +111,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 | [Bubble Chart by Akvelon](https://appsource.microsoft.com/product/power-bi-visuals/WA104381340)(Akvelon의 버블 차트) | |
 | [Bullet Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380755)(글머리 기호 차트) | [비디오](https://youtu.be/AOlsFYkfkcw) |
 | [Bullet Chart by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380953)(OKViz에 의한 글머리 기호 차트) | [비디오](https://youtu.be/mtvUNl9bMjA) |
-| [Calendar by Tallan](https://appsource.microsoft.com/product/power-bi-visuals/WA104381146)(Tallan로 달력) | |
+| [Calendar by Tallan](https://appsource.microsoft.com/product/power-bi-visuals/WA104381146)(Tallan 달력) | |
 | [Candlestick by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380952)(OKViz의 원통형) | [비디오](https://youtu.be/nT_18gyRxPo) |
 | [Card with States by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380967)(OKViz에 의한 상태 포함 카드) | |
 | [Chiclet Slicer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380756)(치클릿 슬라이서) | |
@@ -121,7 +121,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 | [Cylindrical Gauge by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380874)(MAQ Software의 원통형 계기) | [비디오](https://youtu.be/DgdoWi7Gcxo) |
 | [Dial Gauge](https://appsource.microsoft.com/product/power-bi-visuals/WA104381184)(다이얼 계기) | |
 | [Dot Plot](https://appsource.microsoft.com/product/power-bi-visuals/WA104380760)(점 그림) | |
-| [Dot Plot by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380949)(OKViz로 점 그림) | [비디오](https://youtu.be/By16pX9KT40) |
+| [Dot Plot by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380949)(OKViz의 점 그림) | [비디오](https://youtu.be/By16pX9KT40) |
 | [Drilldown Cartogram](https://appsource.microsoft.com/product/power-bi-visuals/WA104381045)(드릴다운 Cartogram) | |
 | [Drilldown Choropleth](https://appsource.microsoft.com/product/power-bi-visuals/WA104381044)(드릴다운 Choropleth) | |
 | [Drill-down column chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380857)(드릴다운 세로 막대형 차트) | [비디오](https://youtu.be/lBy2gQQ5YsQ) |
@@ -130,9 +130,9 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 | [Dual KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104380774)(이중 KPI) | |
 | [Dynamic Tooltip by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380983)(MAQ 소프트웨어의 동적 도구 설명) | [비디오](https://youtu.be/Z-tl97BpEr0) |
 | [Enhanced Scatter](https://appsource.microsoft.com/product/power-bi-visuals/WA104380762)(향상된 분산형) | [비디오](https://youtu.be/xCfM0cjM4do) |
-| [Enlighten Aquarium](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112)(Aquarium 지원) | |
-| [Enlighten Slicer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380960)(슬라이서 지원) | |
-| [Enlighten Stack Shuffle](https://appsource.microsoft.com/product/power-bi-visuals/WA104380849)(Stack Shuffle 지원) | |
+| [Enlighten Aquarium](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112)(Enlighten 아쿠아리움) | |
+| [Enlighten Slicer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380960)(Enlighten 슬라이서) | |
+| [Enlighten Stack Shuffle](https://appsource.microsoft.com/product/power-bi-visuals/WA104380849)(Enlighten 스택 셔플) | |
 | [Enlighten Waffle Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380850)(Enlighten 와플 차트) | |
 | [Filter by List by Devscope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381413)(Devscope의 목록을 기준으로 필터) | [비디오](https://youtu.be/RetEWGwBu0I) |
 | [Force-Directed Graph](https://appsource.microsoft.com/product/power-bi-visuals/WA104380764)(Force-Directed 그래프) | [비디오](https://youtu.be/YsTa7uyJ4sg) |
@@ -140,7 +140,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 | [Gantt](https://appsource.microsoft.com/product/power-bi-visuals/WA104380765)(Gantt) | [비디오](https://youtu.be/qJ7s_KrGiUU) |
 | [Gantt Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381364)(MAQ Software의 Gantt 차트) | [비디오](https://youtu.be/vJLV9JRCpI8) |
 | [Globe Data Bars](https://appsource.microsoft.com/product/power-bi-visuals/WA104381344)(지구본 데이터 막대) | |
-| [Grid by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380825)(MAQ 소프트웨어의 그리드) | [비디오](https://youtu.be/VOPoDJgZfOY) |
+| [Grid by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380825)(MAQ Software의 그리드) | [비디오](https://youtu.be/VOPoDJgZfOY) |
 | [Hierarchy Chart by Akvelon](https://appsource.microsoft.com/product/power-bi-visuals/WA104381333)(Akvelon의 계층 구조 차트) | [비디오](https://youtu.be/0ZGzJaq_KT4) |
 | [Histogram Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380776)(히스토그램 차트) | |
 | [Histogram with points by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381032)(MAQ Software의 포인트가 있는 히스토그램) | [비디오](https://youtu.be/-ILF--wExrw) |
@@ -150,7 +150,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 | [Infographic Designer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380898)(인포그래픽 디자이너) | |
 | [KPI Chart by Akvelon](https://appsource.microsoft.com/product/power-bi-visuals/WA104381432)(Akvelon의 KPI 차트) | |
 | [KPI Column by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380996)(MAQ 소프트웨어의 KPI 열) | [비디오](https://youtu.be/rU0xoOlIq1U) |
-| [KPI Grid by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380947)(MAQ 소프트웨어의 KPI 그리드) | [비디오](https://youtu.be/dM4PvZh71V0) |
+| [KPI Grid by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380947)(MAQ Software의 KPI 그리드) | [비디오](https://youtu.be/dM4PvZh71V0) |
 | [KPI Indicator](https://appsource.microsoft.com/product/power-bi-visuals/WA104380832)(KPI 지표) | |
 | [KPI Ticker by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380946)(MAQ 소프트웨어의 KPI 티커) | [비디오](https://youtu.be/cudG4gsZ2V8) |
 | [Linear Gauge by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380821)(MAQ Software의 선형 계기) | [비디오](https://youtu.be/7_jFaM30dkc) |
@@ -170,7 +170,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 | [Scatter Chart by Akvelon](https://appsource.microsoft.com/product/power-bi-visuals/WA104381703)(Akvelon의 분산형 차트) | |
 | [Scroller](https://appsource.microsoft.com/product/power-bi-visuals/WA104381018)(스크롤러) | |
 | [Smart Filter by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380859)(OKViz에 의한 스마트 필터) | [비디오](https://youtu.be/gcJsDDRQq28) |
-| [Sparkline by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910)(OKViz로 스파크라인) | [비디오](https://youtu.be/0m3Vnvso9tY) |
+| [Sparkline by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910)(OKViz의 스파크라인) | [비디오](https://youtu.be/0m3Vnvso9tY) |
 | [Stream Graph](https://appsource.microsoft.com/product/power-bi-visuals/WA104380772)(스트림 그래프) | |
 | [Sunburst](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767)(Sunburst) | |
 | [Synoptic Panel by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380873)(OKViz의 시놉틱 패널) | |
@@ -197,7 +197,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 ## <a name="next-steps"></a>다음 단계
 
 * [Power BI 사용자 지정 시각적 개체 개발](developer/visuals/custom-visual-develop-tutorial.md)
-* [YouTube에서 Microsoft의 사용자 지정 시각적 개체 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
+* [Microsoft의 사용자 지정 시각적 개체 YouTube 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Power BI의 시각화](visuals/power-bi-report-visualizations.md)  
 * [Power BI의 사용자 지정 시각화](power-bi-custom-visuals.md)  
 * [Microsoft AppSource에 Power BI 시각적 개체 게시하기](developer/office-store.md)  
