@@ -2,19 +2,18 @@
 title: Power BI 모바일 앱으로 실제 환경 데이터 가져오기
 description: Power BI 모바일 앱에서는 검색할 필요 없이 관련된 BI 정보에 실제 세계를 연결할 수 있습니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: bc3b6bdab9c0d02b3cc0fe5be4aa1052377e2c88
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cd2ed078a9278657cfa6842298e0a3486737099e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61338405"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870717"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Power BI 모바일 앱으로 실제 환경에서 데이터 가져오기
 Power BI 모바일 앱에서는 여러 가지 방법으로 관련된 BI 정보에 실제 세계를 연결할 수 있습니다. 

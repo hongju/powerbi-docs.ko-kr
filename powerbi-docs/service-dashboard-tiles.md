@@ -2,7 +2,6 @@
 title: Power BI 디자이너용 대시보드 타일 소개
 description: 이 문서에서는 SSRS(SQL Server Reporting Services) 보고서에서 만든 타일을 포함하여 Power BI의 대시보드 타일을 설명합니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994856"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872794"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 타일 소개
 
@@ -99,8 +98,8 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우 [Power 
 - [Power BI 디자이너용 대시보드 소개](service-dashboards.md)  
 - [Power BI에서 데이터 새로 고침](refresh-data.md)
 - [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
-- [Office 문서에 Power BI 타일 통합](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
+- [Office 문서에 Power BI 타일 통합](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Power BI 대시보드에 Reporting Services 항목 고정](https://msdn.microsoft.com/library/mt604784.aspx)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](https://community.powerbi.com/)하세요.
 

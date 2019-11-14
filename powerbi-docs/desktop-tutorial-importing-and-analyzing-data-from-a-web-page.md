@@ -2,7 +2,6 @@
 title: '자습서: 웹 페이지에서 데이터 가져오기 및 분석'
 description: '자습서: Power BI Desktop을 사용하여 웹 페이지에서 데이터 가져오기 및 분석'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514627"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879579"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>자습서: Power BI Desktop을 사용하여 웹 페이지 데이터 분석
 
@@ -29,7 +28,7 @@ ms.locfileid: "65514627"
 
 ## <a name="connect-to-a-web-data-source"></a>웹 데이터 원본에 연결
 
-http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 의 UEFA 유럽 축구 선수권 대회 Wikipedia 페이지에 있는 Results 테이블에서 UEFA 우승팀 데이터를 가져올 수 있습니다. 
+https://en.wikipedia.org/wiki/UEFA_European_Football_Championship 의 UEFA 유럽 축구 선수권 대회 Wikipedia 페이지에 있는 Results 테이블에서 UEFA 우승팀 데이터를 가져올 수 있습니다. 
 
 ![Wikipedia Results 테이블](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -44,7 +43,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 의 UEFA 유럽
    >[!NOTE]
    >**데이터 가져오기** 항목 자체를 선택하거나 Power BI **시작** 대화 상자에서 **데이터 가져오기**를 선택하고 **데이터 가져오기** 대화 상자의 **모두** 또는 **기타** 섹션에서 **웹**을 선택한 다음, **연결**을 선택할 수도 있습니다.
    
-2. **웹에서** 대화 상자의 **URL** 텍스트 상자에 URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship`을 붙여넣은 다음, **확인**을 선택합니다.
+2. **웹에서** 대화 상자의 **URL** 텍스트 상자에 URL `https://en.wikipedia.org/wiki/UEFA_European_Football_Championship`을 붙여넣은 다음, **확인**을 선택합니다.
    
     ![대화 상자에서 데이터 가져오기](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
@@ -172,7 +171,7 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 의 UEFA 유럽
 
 ![서식 지정된 맵 시각화](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web18.png)
    
-### <a name="change-the-visualization-type"></a>시각화 형식 변경
+### <a name="change-the-visualization-type"></a>시각화 유형 변경
 시각화를 선택한 다음, **시각화** 창의 맨 위에서 다른 아이콘을 선택하여 시각화 형식을 변경할 수 있습니다. 예를 들어 해당 국가가 더 이상 세계 지도에 존재하지 않으므로 맵 시각화에는 소비에트 연방 및 체코슬로바키아에 대한 데이터가 없습니다. 트리 맵 또는 원형 차트 같은 다른 시각화 형식은 모든 값을 표시하므로 더욱 정확할 수 있습니다. 
 
 맵을 원형 차트로 변경하려면 맵을 선택한 다음, **시각화** 창에서 **원형 차트** 아이콘을 선택합니다. 
@@ -186,8 +185,8 @@ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 의 UEFA 유럽
 Power BI Desktop은 다양한 데이터 원본에서 데이터를 가져오고 이 데이터를 풍부한 대화형 방식으로 시각화하기 위해 분석 요구 사항에 맞게 모양을 지정하는 원활한 엔드투엔드 환경을 제공합니다. 보고서가 준비되면 [Power BI로 업로드](desktop-upload-desktop-files.md)하고 보고서에 따라 대시보드를 만든 후 다른 Power BI 사용자와 공유할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
-* [다른 Power BI Desktop 자습서 참고](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop 동영상 시청](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Power BI 포럼 방문](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Power BI 블로그 참고](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [다른 Power BI Desktop 자습서 참고](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Power BI Desktop 동영상 시청](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Power BI 포럼 방문](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Power BI 블로그 참고](https://go.microsoft.com/fwlink/?LinkID=519327)
 

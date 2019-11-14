@@ -2,7 +2,6 @@
 title: Power BI에서 KPI 가져오기 및 표시
 description: KPI 가져오기 및 표시
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 3bf974176c7638aa2f1093535e8027ad511deabb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 270d5542bd7856059387e565e4b5ffa90432794c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454216"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867133"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>Power BI에서 KPI 가져오기 및 표시
 **Power BI Desktop**을 사용하면 테이블, 행렬 및 카드에서 KPI를 가져오고 표시할 수 있습니다.

@@ -3,19 +3,18 @@ title: 정부 및 내셔널용 애플리케이션에 Power BI 콘텐츠를 포�
 description: 고객의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 정부 및 내셔널 클라우드용 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: bc6b9cf92966dd9e86e789169b9b8134dbfcb2ba
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 7ede1678dc6cf0e217eb17dcc28f756031467b84
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61374322"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875880"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>자습서:  내셔널 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -37,7 +36,7 @@ Power BI는 [내셔널 클라우드](https://docs.microsoft.com/azure/active-dir
 
 ![포함된 대시보드](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-이 연습을 시작하려면 **Power BI 계정**이 필요합니다. 계정을 설정하지 않은 경우 정부 또는 국가의 유형에 따라 적절한 내셔널 클라우드를 선택할 수 있습니다. [미국 정부 Power BI 계정](../service-govus-signup.md), [독일 클라우드용 Power BI 계정](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) 또는 [중국 클라우드용 Power BI 계정](http://www.21vbluecloud.com/powerbi/)에 등록할 수 있습니다.
+이 연습을 시작하려면 **Power BI 계정**이 필요합니다. 계정을 설정하지 않은 경우 정부 또는 국가의 유형에 따라 적절한 내셔널 클라우드를 선택할 수 있습니다. [미국 정부 Power BI 계정](../service-govus-signup.md), [독일 클라우드용 Power BI 계정](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) 또는 [중국 클라우드용 Power BI 계정](https://www.21vbluecloud.com/powerbi/)에 등록할 수 있습니다.
 
 > [!NOTE]
 > 대신 조직의 대시보드를 포함하려고 하십니까? [조직의 앱에 대시보드 통합](integrate-dashboard.md)을 참조하세요.
@@ -150,7 +149,7 @@ REST API 호출을 실행하려면 Azure AD를 사용해 애플리케이션을 �
 
 * GCC(정부 커뮤니티 클라우드) - ```https://login.microsoftonline.com```
 
-* DoDCON(군용 계약업체) - ```http://login.microsoftonline.us```
+* DoDCON(군용 계약업체) - ```https://login.microsoftonline.us```
 
 * DoD(군대) - ```https://login.microsoftonline.us```
 
@@ -445,4 +444,4 @@ JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드
 
 고려 사항 및 제한 사항
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

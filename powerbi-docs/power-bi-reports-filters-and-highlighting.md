@@ -2,7 +2,6 @@
 title: Power BI 보고서의 필터 및 강조 표시
 description: 필터 및 Power BI 보고서에서 강조 표시 정보
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 53bca7d1c0fd4d8592ec694d67148a7e3ccd46ff
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891872"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877608"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Power BI 보고서의 필터 및 강조 표시
  이 문서에서는 Power BI 서비스의 필터링 및 강조 표시를 소개합니다. 환경은 Power BI Desktop과 거의 동일합니다. *필터*는 사용자가 집중하려는 데이터를 제외한 나머지를 모두 제거합니다. ‘강조 표시’는 필터링되지 않습니다.  데이터를 제거하지 않지만 표시되는 데이터의 하위 집합을 강조 표시합니다. 강조 표시되지 않은 데이터는 볼 수 있지만 흐리게 표시됩니다.
@@ -100,5 +99,5 @@ ms.locfileid: "72891872"
 
 [보고서 시각적 개체가 서로 교차 필터링 및 교차 강조 표시되는 방식 변경](consumer/end-user-interactions.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

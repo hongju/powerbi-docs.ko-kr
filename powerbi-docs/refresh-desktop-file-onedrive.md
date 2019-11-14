@@ -2,7 +2,6 @@
 title: OneDrive 또는 SharePoint Online의 데이터 세트 새로 고침
 description: OneDrive 또는 SharePoint Online에 있는 Power BI Desktop 파일로부터 만들어진 데이터 세트 새로 고침
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/04/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 5d704e32a9e5f85f280e17042ae4eb799058d739
-ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
+ms.openlocfilehash: 1d9e38b94cf3c345df12cb22a0ab3309dff263c2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67123981"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877532"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 저장된 데이터 세트 새로 고침
 OneDrive 또는 SharePoint Online에서 Power BI 서비스로 파일을 가져오면 Power BI Desktop의 작업이 Power BI 서비스와 동기화를 유지할 수 있습니다.
@@ -79,5 +78,5 @@ OneDrive에서 Power BI Desktop 파일의 변경 내용을 저장하고 약 1시
 
 [Power BI 게이트웨이 - 개인 문제 해결](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)에 질문합니다.
+궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)에 질문합니다.
 

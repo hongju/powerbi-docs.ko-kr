@@ -3,19 +3,18 @@ title: 인증된 Power BI Power BI 시각적 개체
 description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스. 이미 인증된 Power BI 시각적 개체 목록.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8b119f0f3b0dfb67dc2f9cb1dfd6f19d72593d66
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021350"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874572"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
@@ -137,7 +136,9 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 | [Filter by List by Devscope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381413)(Devscope의 목록을 기준으로 필터) | [비디오](https://youtu.be/RetEWGwBu0I) |
 | [Force-Directed Graph](https://appsource.microsoft.com/product/power-bi-visuals/WA104380764)(Force-Directed 그래프) | [비디오](https://youtu.be/YsTa7uyJ4sg) |
 | [Funnel with Source by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381334)(MAQ Software의 원본이 포함된 깔때기) | [비디오](https://youtu.be/R_EcimsLI8U) |
+
 | [Gantt](https://appsource.microsoft.com/product/power-bi-visuals/WA104380765)(Gantt) | [비디오](https://youtu.be/qJ7s_KrGiUU) |
+
 | [Gantt Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381364)(MAQ Software의 Gantt 차트) | [비디오](https://youtu.be/vJLV9JRCpI8) |
 | [Globe Data Bars](https://appsource.microsoft.com/product/power-bi-visuals/WA104381344)(지구본 데이터 막대) | |
 | [Grid by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380825)(MAQ Software의 그리드) | [비디오](https://youtu.be/VOPoDJgZfOY) |
@@ -159,7 +160,9 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 | [Multi KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381763)(다중 KPI) | |
 | [Overview by CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381477)(CloudScope의 개요) | |
 | [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/product/power-bi-visuals/WA104380981)(재생 축(동적 슬라이서)) | |
+
 | [Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083)(Power KPI) | [비디오](https://youtu.be/IvfIP3E6-1Q) |
+
 | [Power KPI Matrix](https://appsource.microsoft.com/product/power-bi-visuals/WA104381299)(Power KPI 행렬) | [비디오](https://youtu.be/1enze8pcGzY) |
 | [Pulse Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104381006)(펄스 차트) | [비디오](https://youtu.be/DQWdcQtjDVw) |
 | [Quadrant Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381011)(MAQ Software에 의한 사분면 차트) | [비디오](https://youtu.be/ppBnyhqWNC0) |
@@ -172,7 +175,9 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 | [Smart Filter by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380859)(OKViz에 의한 스마트 필터) | [비디오](https://youtu.be/gcJsDDRQq28) |
 | [Sparkline by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910)(OKViz의 스파크라인) | [비디오](https://youtu.be/0m3Vnvso9tY) |
 | [Stream Graph](https://appsource.microsoft.com/product/power-bi-visuals/WA104380772)(스트림 그래프) | |
+
 | [Sunburst](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767)(Sunburst) | |
+
 | [Synoptic Panel by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380873)(OKViz의 시놉틱 패널) | |
 | [Table Heatmap](https://appsource.microsoft.com/product/power-bi-visuals/WA104380818)(테이블 Heatmap) | |
 | [Tachometer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380937)(속도계) | [비디오](https://youtu.be/C3OXdETbS9o) |
@@ -202,4 +207,4 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 * [Power BI의 사용자 지정 시각화](power-bi-custom-visuals.md)  
 * [Microsoft AppSource에 Power BI 시각적 개체 게시하기](developer/office-store.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

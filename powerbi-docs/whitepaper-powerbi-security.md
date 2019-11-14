@@ -3,19 +3,18 @@ title: Power BI 보안 백서
 description: Power BI 보안 아키텍처 및 구현에 대해 논의하고 설명하는 백서입니다.
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4cb2ae69044b156d5f8a4bd554f8386808fb6b9e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430505"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009828"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 보안 백서
 
@@ -34,13 +33,13 @@ ms.locfileid: "73430505"
 
 **Power BI**는 Microsoft에서 제공하는 온라인 소프트웨어 서비스(_SaaS_ 또는 Software as a Service)로서 셀프 서비스 비즈니스 인텔리전스 대시보드, 보고서, 데이터 세트 및 시각화를 쉽고 빠르게 만들 수 있습니다. Power BI를 사용하면 다양한 데이터 원본에 연결하고, 이러한 연결에서 데이터를 결합하고 구체화한 다음, 다른 사용자와 공유할 수 있는 보고서와 대시보드를 만들 수 있습니다.
 
-Power BI 서비스에는 [Microsoft Online Services 사용 약관](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) 및 [Microsoft Enterprise 개인정보처리방침](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)이 적용됩니다. 데이터 처리 위치는 Microsoft Online Services 사용 약관의 데이터 처리 조항에 나오는 위치를 참조하세요. 규정 준수 정보와 관련하여 [Microsoft Trust Center](https://www.microsoft.com/trustcenter)는 Power BI에 대한 기본 리소스입니다. Power BI 팀은 고객에게 최신의 혁신과 생산성을 제공하기 위해 열심히 노력하고 있습니다. Power BI 현재 [Office 365 준수 프레임 워크](http://go.microsoft.com/fwlink/p/?LinkID=618494)의 계층 D에 있습니다.
+Power BI 서비스에는 [Microsoft Online Services 사용 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) 및 [Microsoft Enterprise 개인정보처리방침](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)이 적용됩니다. 데이터 처리 위치는 Microsoft Online Services 사용 약관의 데이터 처리 조항에 나오는 위치를 참조하세요. 규정 준수 정보와 관련하여 [Microsoft Trust Center](https://www.microsoft.com/trustcenter)는 Power BI에 대한 기본 리소스입니다. Power BI 팀은 고객에게 최신의 혁신과 생산성을 제공하기 위해 열심히 노력하고 있습니다. Power BI 현재 [Office 365 준수 프레임 워크](https://go.microsoft.com/fwlink/p/?LinkID=618494)의 계층 D에 있습니다.
 
 이 문서에서는 Power BI 보안과 관련하여 Power BI 아키텍처를 설명하고, Power BI 에서 사용자를 인증하고 데이터 연결을 설정하는 방법을 설명한 다음, Power BI에서 서비스를 통해 데이터를 저장하고 이동하는 방법에 대해 설명합니다. 마지막 섹션에서는 보안 관련 질문을 전적으로 다루고, 각 질문에 대한 답변을 제공하고 있습니다.
 
 ## <a name="power-bi-architecture"></a>Power BI 아키텍처
 
-**Power BI** 서비스는 Microsoft의 **클라우드 컴퓨팅 플랫폼**인 [Azure](http://azure.microsoft.com/overview/what-is-azure/)를 기반으로 합니다. Power BI는 현재 전 세계의 많은 데이터 센터에 구축되어 있습니다. 이러한 데이터 센터에서 제공하여 지역의 고객이 사용할 수 있는 여러 활성 배포와 각 활성 배포에 대한 백업 역할을 하는 동일한 수의 수동 배포가 있습니다.
+**Power BI** 서비스는 Microsoft의 [클라우드 컴퓨팅 플랫폼](https://azure.microsoft.com/overview/what-is-azure/)인 **Azure**를 기반으로 합니다. Power BI는 현재 전 세계의 많은 데이터 센터에 구축되어 있습니다. 이러한 데이터 센터에서 제공하여 지역의 고객이 사용할 수 있는 여러 활성 배포와 각 활성 배포에 대한 백업 역할을 하는 동일한 수의 수동 배포가 있습니다.
 
 각각의 Power BI 배포는 **WFE(웹 프런트 엔드)** 클러스터와 **백엔드** 클러스터 등, 두 클러스터로 구성됩니다. 다음 이미지에서 보여 주는 이러한 두 클러스터는 이 문서의 나머지 부분에 대한 배경을 제공합니다. 
 
@@ -117,8 +116,8 @@ Power BI는 지역 데이터 센터에서 Power BI 클러스터를 배포하는 
 
 Azure 데이터 센터에 대한 추가 정보를 제공하는 링크는 다음과 같습니다.
 
-- [Azure 지역](http://azure.microsoft.com/regions/) – 전 세계에 걸쳐 있는 Azure의 위치에 대한 정보
-- [지역별 Azure 서비스](http://azure.microsoft.com/regions/#services) – 각 지역의 Microsoft에서 제공하는 Azure 서비스(인프라 서비스 및 플랫폼 서비스 모두)에 대한 전체 목록
+- [Azure 지역](https://azure.microsoft.com/regions/) – 전 세계에 걸쳐 있는 Azure의 위치에 대한 정보
+- [지역별 Azure 서비스](https://azure.microsoft.com/regions/#services) – 각 지역의 Microsoft에서 제공하는 Azure 서비스(인프라 서비스 및 플랫폼 서비스 모두)에 대한 전체 목록
 
 현재는 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)에 설명 된 대로 데이터 센터에서 서비스 되는 특정 지역에서 Power BI 서비스를 사용할 수 있습니다. 다음 링크는 Power BI 데이터 센터의 맵을 보여주며, 지역을 마우스로 가리키면 해당 지역의 데이터를 볼 수 있습니다.
 
@@ -126,7 +125,7 @@ Azure 데이터 센터에 대한 추가 정보를 제공하는 링크는 다음�
 
 또한 Microsoft는 주권국을 위한 데이터 센터도 제공합니다. 내셔널 클라우드의 Power BI 서비스 가용성에 대한 자세한 내용은 [Power BI 내셔널 클라우드](https://powerbi.microsoft.com/clouds/)를 참조하세요.
 
-데이터의 저장 위치와 사용 방법에 대한 자세한 내용은 [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)를 참조하세요. 고객 저장 데이터의 위치에 대한 약정은 **Microsoft Online Services 사용 약관**의 [데이터 처리 조항](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)에 명시되어 있습니다.
+데이터의 저장 위치와 사용 방법에 대한 자세한 내용은 [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)를 참조하세요. 고객 저장 데이터의 위치에 대한 약정은 [Microsoft Online Services 사용 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)의 **데이터 처리 조항**에 명시되어 있습니다.
 
 ## <a name="user-authentication"></a>사용자 인증
 
@@ -136,7 +135,7 @@ Power BI 서비스에 대한 사용자 인증은 사용자의 브라우저와 Po
 
 Power BI 서비스에 대한 사용자 인증 순서는 다음 단계에서 설명한 대로 수행되며, 다음 이미지에 나와 있습니다.
 
-1. 사용자가 주소 표시줄에서 Power BI 주소(예: https://app.powerbi.com)를 입력하거나 Power BI 방문 페이지(_에서_ 로그인 https://powerbi.microsoft.com)을 선택하여 브라우저에서 Power BI 서비스에 대한 연결을 시작합니다. 연결은 TLS 1.2 및 HTTPS를 사용하여 설정되며, 이후 브라우저와 Power BI 서비스 간의 모든 통신에서 HTTPS를 사용합니다. 요청은 **Azure Traffic Manager**로 보내집니다.
+1. 사용자가 주소 표시줄에서 Power BI 주소(예: https://app.powerbi.com) 를 입력하거나 Power BI 방문 페이지(https://powerbi.microsoft.com) 에서 _로그인_을 선택하여 브라우저에서 Power BI 서비스에 대한 연결을 시작합니다. 연결은 TLS 1.2 및 HTTPS를 사용하여 설정되며, 이후 브라우저와 Power BI 서비스 간의 모든 통신에서 HTTPS를 사용합니다. 요청은 **Azure Traffic Manager**로 보내집니다.
 
 2. **Azure Traffic Manager**는 사용자의 DNS 레코드를 확인하여 Power BI가 배포되는 가장 가까운 데이터 센터를 확인하고 사용자를 보내야 하는 WFE 클러스터의 IP 주소를 사용하여 DNS에 응답합니다.
 
@@ -224,7 +223,7 @@ CEK를 암호화하는 데 사용되는 KEK(키 암호화 키)는 미리 정의�
         - 데이터 세트를 새로 고치도록 설정된 경우 자격 증명이 데이터 이동의 Azure SQL Database에서 암호화되어 저장됩니다. 암호화 키는 고객의 인프라에서 게이트웨이를 실행하는 머신에 저장됩니다.
         - 데이터 세트를 새로 고치도록 설정되지 않은 경우 데이터 원본에 대한 자격 증명이 저장되지 않습니다.
 
-1. 데이터
+1. 보기
 
     a. 온-프레미스 및 DirectQuery Analysis Services - Power BI 서비스에 아무 것도 저장되지 않습니다.
 
@@ -301,7 +300,7 @@ Power BI에서 데이터 무결성 모니터링을 제공하는 방법은 다음
     c. 푸시된 데이터 – 없음(해당 없음)
 
     d. ETL – 없음(컴퓨팅 노드에 아무 것도 저장되지 않고 위의 **저장 데이터** 섹션에서 설명한 것과 같음)
-4. 데이터
+4. 보기
 
     일부 데이터 아티팩트는 제한된 기간 동안 컴퓨팅 노드의 디스크에 저장할 수 있습니다.
 
@@ -335,13 +334,7 @@ RLS 및 비 RLS의 데이터 원본을 비교하는 간단한 예를 보여 주�
 
 Ralph가 공유 대시보드 또는 보고서에 액세스하는 경우 해당 역할 수준에 따라 동일한 순서가 수행됩니다.
 
-## <a name="power-bi-and-expressroute"></a>Power BI 및 ExpressRoute
-
-Power BI 및 ExpressRoute를 사용하면 인터넷을 거치지 않고 중요한 Power BI 데이터 및 연결 보안을 더 효율적으로 강화할 수 있도록 Power BI에 대한 조직의 프라이빗 네트워크 연결을 만들 수 있습니다(또는 ISP의 공동 배치 기능 사용).
-
-ExpressRoute는 Azure 데이터 센터(Power BI가 있는 위치)와 온-프레미스 인프라 간의 프라이빗 연결을 만들거나 Azure 데이터 센터와 공동 배치 환경 간의 프라이빗 연결을 만들 수 있게 하는 Azure 서비스입니다. 자세한 내용은 [Power BI 및 ExpressRoute](service-admin-power-bi-expressroute.md) 문서를 참조하세요.
-
-## <a name="power-bi-mobile"></a>Power BI 모바일
+## <a name="power-bi-mobile"></a>Power BI Mobile
 
 Power BI Mobile는 Android, iOS 및 Windows Mobile의 세 가지 기본 모바일 플랫폼용으로 설계 된 앱의 모음입니다. Power BI Mobile 앱에 대한 보안 고려 사항은 다음 두 가지 범주로 구분됩니다.
 
@@ -371,7 +364,7 @@ Power BI Mobile의 데이터 캐시는 2주 동안 또는 앱이 제거되거나
 
 Power BI Mobile 애플리케이션에는 디바이스의 폴더가 표시되지 않습니다. 
 
-Power BI Mobile을 사용할 수 있는 세 가지 플랫폼은 모두 모바일 디바이스와 애플리케이션 관리를 제공하는 소프트웨어 서비스인 Microsoft Intune을 지원합니다. Intune을 사용하도록 설정하고 구성하면 모바일 디바이스의 데이터가 암호화되며 Power BI 애플리케이션 자체는 SD 카드에 설치할 수 없습니다. [Microsoft Intune에 대해 자세히 알아보세요](http://www.microsoft.com/cloud-platform/microsoft-intune).
+Power BI Mobile을 사용할 수 있는 세 가지 플랫폼은 모두 모바일 디바이스와 애플리케이션 관리를 제공하는 소프트웨어 서비스인 Microsoft Intune을 지원합니다. Intune을 사용하도록 설정하고 구성하면 모바일 디바이스의 데이터가 암호화되며 Power BI 애플리케이션 자체는 SD 카드에 설치할 수 없습니다. [Microsoft Intune에 대해 자세히 알아보세요](https://www.microsoft.com/cloud-platform/microsoft-intune).
 
 ## <a name="power-bi-security-questions-and-answers"></a>Power BI 보안 질문 및 답변
 
@@ -379,7 +372,7 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 
 **Power BI를 사용하는 동안 사용자가 데이터 원본에 연결하고 데이터에 액세스하려면 어떻게 해야 하나요?**
 
-* **Power BI 자격 증명 및 도메인 자격 증명:** 사용자가 전자 메일 주소를 사용 하 여 Power BI에 로그인 사용자가 데이터 리소스에 연결 하려고 하면 Power BI Power BI 로그인 전자 메일 주소를 자격 증명으로 전달 합니다. 도메인 연결 리소스(온-프레미스 또는 클라우드 기반)의 경우 디렉터리 서비스에서 로그인 이메일을 _UPN_([사용자 계정 이름](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx))과 대조하여 액세스를 허용할 만큼 충분한 자격 증명이 있는지 확인합니다. 작업 기반 이메일 주소( _david@contoso.com_ 과 같은 작업 리소스에 로그인하는 데 사용하는 것과 동일한 이메일 주소)를 사용하여 Power BI에 로그인하는 조직의 경우 매핑이 원활하게 수행될 수 있습니다. 작업 기반 이메일 주소(예: _david@contoso.onmicrosoft.com_ )를 사용하지 않은 조직의 경우 Power BI 로그인 자격 증명을 사용하여 온-프레미스 리소스에 액세스할 수 있도록 디렉터리 매핑을 설정해야 합니다.
+* **Power BI 자격 증명 및 도메인 자격 증명:** 사용자가 전자 메일 주소를 사용 하 여 Power BI에 로그인 사용자가 데이터 리소스에 연결 하려고 하면 Power BI Power BI 로그인 전자 메일 주소를 자격 증명으로 전달 합니다. 도메인 연결 리소스(온-프레미스 또는 클라우드 기반)의 경우 디렉터리 서비스에서 로그인 이메일을 [UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)(_사용자 계정 이름_)과 대조하여 액세스를 허용할 만큼 충분한 자격 증명이 있는지 확인합니다. 작업 기반 이메일 주소( _david@contoso.com_ 과 같은 작업 리소스에 로그인하는 데 사용하는 것과 동일한 이메일 주소)를 사용하여 Power BI에 로그인하는 조직의 경우 매핑이 원활하게 수행될 수 있습니다. 작업 기반 이메일 주소(예: _david@contoso.onmicrosoft.com_ )를 사용하지 않은 조직의 경우 Power BI 로그인 자격 증명을 사용하여 온-프레미스 리소스에 액세스할 수 있도록 디렉터리 매핑을 설정해야 합니다.
 
 * **SQL Server Analysis Services 및 Power BI:** 온-프레미스 SQL Server Analysis Services를 사용 하는 조직의 경우 Power BI Power BI은 온-프레미스 데이터 게이트웨이 (이전 섹션에서 참조 된 **게이트웨이**)를 제공 합니다.  Power BI 온-프레미스 데이터 게이트웨이는 RLS(역할 수준 보안)를 데이터 원본에 적용할 수 있습니다. RLS에 대한 자세한 내용은 이 문서의 앞부분에 있는 **데이터 원본에 대한 사용자 인증**을 참조하세요. 게이트웨이에 대 한 자세한 내용은 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)를 참조 하세요.
 
@@ -451,7 +444,7 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 
 **정보를 고객 네트워크 외부로 전송하는 다른 Power BI 시각적 개체가 있나요?**
 
-* 예. Bing Maps 및 ESRI 시각적 개체는 Power BI 서비스에서 해당 서비스를 사용하는 시각적 개체에 대한 데이터를 전송합니다. Power BI 외부의 테넌트 트래픽에 대한 자세한 내용은 [**Power BI 및 ExpressRoute**](service-admin-power-bi-expressroute.md)를 참조하세요.
+* 예. Bing Maps 및 ESRI 시각적 개체는 Power BI 서비스에서 해당 서비스를 사용하는 시각적 개체에 대한 데이터를 전송합니다.
 
 **템플릿 앱의 경우 Microsoft에서 항목을 갤러리에 게시하기 전에 템플릿 앱의 보안 또는 개인 정보 보호 평가를 수행하나요?**
 * 아니요. 콘텐츠는 앱 게시자의 책임이고, 템플릿 앱 게시자를 검토하고 신뢰할지 여부를 결정하는 것은 고객의 책임입니다. 
@@ -487,8 +480,7 @@ Power BI에 대한 자세한 내용은 다음 리소스를 참조하세요.
 - [Power BI Desktop 시작](https://support.powerbi.com/knowledgebase/articles/471664)
 - [Power BI REST API - 개요](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API 참조](https://msdn.microsoft.com/library/mt147898.aspx)
-- [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)
-- [Power BI 및 ExpressRoute](service-admin-power-bi-expressroute.md)
+- [On-premises data gateway (온-프레미스 데이터 게이트웨이)](service-gateway-onprem.md)
 - [Power BI 내셔널 클라우드](https://powerbi.microsoft.com/clouds/)
 - [Power BI 프리미엄](https://aka.ms/pbipremiumwhitepaper)
 - [Power BI에서 온-프레미스 데이터 원본으로의 SSO에 Kerberos 사용](service-gateway-sso-overview.md)

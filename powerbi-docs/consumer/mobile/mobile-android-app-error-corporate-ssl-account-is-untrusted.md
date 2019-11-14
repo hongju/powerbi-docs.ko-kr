@@ -3,19 +3,18 @@ title: “회사 SSL 인증서를 신뢰할 수 없습니다” 수정
 description: Power BI용 Android 앱에 로그인할 때 "회사 SSL 인증서를 신뢰할 수 없기 때문에 인증할 수 없습니다."라는 메시지가 표시될 수 있습니다.
 .": ''
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/28/2019
 ms.author: mshenhav
-ms.openlocfilehash: 19bcdf08d4eacff5e080bf1a2f987ea848e4bfb9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cde8a4bbaed9ef10940b7a102d40a8bc6009e9b9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70840908"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879474"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>“회사 SSL 인증서를 신뢰할 수 없습니다.” 수정 - Power BI
 Microsoft Power BI용 Android 모바일 앱에 로그인할 때 "이 디바이스에서 회사 SSL 인증서를 신뢰할 수 없기 때문에 인증할 수 없습니다."라는 메시지가 표시될 수 있습니다. 회사 IT 관리자에게 문의하세요." 
@@ -41,9 +40,9 @@ Microsoft Power BI용 Android 모바일 앱에 로그인할 때 "이 디바이�
 **설정** > **시스템** > **날짜 및 시간**으로 이동하여 확인합니다.
 
 ## <a name="custom-authentication-server"></a>사용자 지정 인증 서버
-사용자 지정 인증 서버를 사용하는 경우 회사 인증 서버의 SSL 인증서가 유효하지 않을 수 있습니다. [이 문서](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce)의 지침에 따라 조직의 IT와 함께 회사 인증 서버 구성을 테스트하세요.
+사용자 지정 인증 서버를 사용하는 경우 회사 인증 서버의 SSL 인증서가 유효하지 않을 수 있습니다. [이 문서](https://support.microsoft.com/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce)의 지침에 따라 조직의 IT와 함께 회사 인증 서버 구성을 테스트하세요.
 
 ## <a name="next-steps"></a>다음 단계
-* Android 앱 스토어에서 [Android 앱 다운로드](http://go.microsoft.com/fwlink/?LinkID=544867)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/) 
+* Android 앱 스토어에서 [Android 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/) 
 

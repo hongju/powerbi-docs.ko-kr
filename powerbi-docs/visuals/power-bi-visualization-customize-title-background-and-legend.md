@@ -2,7 +2,6 @@
 title: Power BI 시각화 서식 지정 시작
 description: 시각화 제목, 배경 및 범례 사용자 지정
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6228ed70dd78ffca6cd3c8803518b2b27674576f
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 011e2b6d3bf5cc998f7db76e96536d2ddab09888
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389773"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880857"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>시각화 제목, 범례 및 배경 사용자 지정
 
@@ -61,7 +60,7 @@ ms.locfileid: "67389773"
 
 1. **글꼴 색**을 주황색으로 변경하고 **배경색**을 노란색으로 변경합니다.
 
-    1. 드롭다운을 선택하고 **테마 색**, **최근에 사용한 색** 또는 **사용자 지정 색**에서 색을 선택합니다.
+    1. 드롭다운을 선택하고 **테마 색**, **최근에 사용한 색**또는 **사용자 지정 색**에서 색을 선택합니다.
 
         ![글꼴 색 및 배경색 옵션의 스크린샷](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
 
@@ -73,7 +72,7 @@ ms.locfileid: "67389773"
 
 1. 텍스트 크기를 **12pt**로 늘립니다.
 
-1. 차트 제목에 대한 마지막 사용자 지정 작업은 시각화의 가운데에 정렬하는 것입니다.
+1. 차트 제목에 대한 마지막으로 사용자 지정 작업은 시각화의 가운데에 정렬하는 것입니다.
 
     ![가운데 옵션이 선택된 맞춤 컨트롤의 스크린샷](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
 
@@ -150,7 +149,7 @@ ms.locfileid: "67389773"
 | KPI | 예 | 예 | 해당 없음 |
 | 선 | 예 | 예 | 예 |
 | 맵 | 예 | 예 | 예 |
-| 행렬 | 예 | 예 | 해당 없음 |
+| Matrix | 예 | 예 | 해당 없음 |
 | 원형 | 예 | 예 | 예 |
 | 분산형 | 예 | 예 | 예 |
 | 슬라이서 | 예 | 예 | 해당 없음 |
@@ -167,4 +166,4 @@ ms.locfileid: "67389773"
 
 - [Power BI 서비스 소비자를 위한 기본 개념](../consumer/end-user-basic-concepts.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

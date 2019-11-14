@@ -3,18 +3,17 @@ title: Power BI 서비스에 페이지를 매긴 보고서 게시
 description: 이 자습서에서는 페이지를 매긴 보고서를 로컬 컴퓨터에서 업로드하여 Power BI 서비스에 게시하는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 81e079be6c8bec27c006c68eccb3ea1091b813df
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 6cf3cd715915b5a6f3aa41e61c01c8b5b0a7d204
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271211"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874754"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Power BI 서비스에 페이지를 매긴 보고서 게시
 

@@ -2,7 +2,6 @@
 title: 데이터 원본 관리 - 가져오기/예약된 새로 고침
 description: 해당 게이트웨이에 속한 온-프레미스 데이터 게이트웨이 및 데이터 원본을 관리하는 방법입니다. 이 문서는 가져오기/예약된 새로 고침에서 사용할 수 있는 데이터 원본과 관련된 내용을 제공합니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3e223fba25386e91354130083f8bacc653b26cee
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 7512257a3abad33babe2a5b6b56f613c7bb1b50f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757646"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881702"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>데이터 원본 관리 - 가져오기/예약된 새로 고침
 
@@ -23,9 +22,9 @@ ms.locfileid: "68757646"
 
 [온-프레미스 데이터 게이트웨이를 설치](/data-integration/gateway/service-gateway-install)한 후에는 게이트웨이와 함께 사용할 수 있는 [데이터 원본을 추가](service-gateway-data-sources.md#add-a-data-source)해야 합니다. 이 문서에서는 DirectQuery 또는 라이브 연결과 다르게 예약된 새로 고침에 사용되는 게이트웨이 및 데이터 원본으로 작업하는 방법을 살펴봅니다.
 
-## <a name="add-a-data-source"></a>데이터 소스 추가
+## <a name="add-a-data-source"></a>데이터 원본 추가
 
-데이터 원본을 추가하는 방법에 대한 자세한 내용은 [데이터 원본 추가](service-gateway-data-sources.md#add-a-data-source)를 참조하세요. 데이터 원본 형식을 선택합니다.
+데이터 원본을 추가하는 방법에 대한 자세한 내용은 [데이터 원본 추가](service-gateway-data-sources.md#add-a-data-source)를 참조하세요. 데이터 원본 유형을 선택합니다.
 
 나열된 모든 데이터 원본 유형을 온-프레미스 데이터 게이트웨이와 함께 예정된 새로 고침에 사용할 수 있습니다. Analysis Services, SQL Server 및 SAP HANA는 예정된 새로 고침 또는 DirectQuery/라이브 연결에 사용될 수 있습니다.
 
@@ -46,7 +45,7 @@ ms.locfileid: "68757646"
 
 ### <a name="advanced-settings"></a>고급 설정
 
-필요한 경우 데이터 원본의 프라이버시 수준을 구성할 수 있습니다. 이 설정을 통해 데이터가 결합하는 방식을 제어합니다. 예정된 새로 고침에만 사용됩니다. 데이터 원본의 프라이버시 수준에 대한 자세한 내용은 [프라이버시 수준(파워 쿼리)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 참조하세요.
+필요한 경우 데이터 원본의 프라이버시 수준을 구성할 수 있습니다. 이 설정은 데이터가 결합하는 방식을 제어합니다. 예정된 새로 고침에만 사용됩니다. 데이터 원본의 프라이버시 수준에 대한 자세한 내용은 [프라이버시 수준(파워 쿼리)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 참조하세요.
 
 ![프라이버시 수준 설정](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings9.png)
 
@@ -75,4 +74,4 @@ OAuth는 온-프레미스 데이터 게이트웨이와 함께 지원되는 인�
 * [온-프레미스 데이터 게이트웨이 문제 해결](/data-integration/gateway/service-gateway-tshoot)
 * [게이트웨이 문제 해결 - Power BI](service-gateway-onprem-tshoot.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)를 사용해 보세요.
+궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)를 사용해 보세요.

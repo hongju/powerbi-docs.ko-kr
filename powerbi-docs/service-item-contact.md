@@ -2,7 +2,6 @@
 title: 보고서 및 대시보드에 대한 연락처 정보 설정
 description: 보고서 및 대시보드에 대한 연락처 정보를 설정하는 방법을 알아봅니다.
 author: LukaszPawlowski-MS
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2010
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b64bc2566be8787ad4bb4916ed8b8c8731a87ed7
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: bb98f7bbb92b72512f880513ec94ccb55d64fc67
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72245495"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872137"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 보고서 및 대시보드에 대한 연락처 정보 설정
 이 문서에서는 Power BI 서비스에서 대시보드 또는 보고서에 대한 연락처 정보를 설정하는 방법을 설명합니다.
@@ -65,4 +64,4 @@ ms.locfileid: "72245495"
 
 ## <a name="next-steps"></a>다음 단계
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Power BI 동영상
 description: Power BI 동영상 및 YouTube 채널 링크입니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 9068c522d2aedf95fc65e9bc4bece04531db478d
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: a33efaf4e0ecd871170873df072f24bf8f824cdc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060322"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871169"
 ---
 # <a name="power-bi-videos"></a>Power BI 동영상
 Power BI에 대한 YouTube 채널을 제공합니다. Power BI에 익숙하지 않다면 [채널](https://www.youtube.com/user/mspowerbi/videos)을 방문할 수 있으며 [Power BI 재생 목록으로 데이터 분석 및 시각화](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)부터 시작하는 것이 좋습니다.
@@ -49,5 +48,5 @@ Power BI에 대한 YouTube 채널을 제공합니다. Power BI에 익숙하지 �
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](fundamentals/power-bi-overview.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

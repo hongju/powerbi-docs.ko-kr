@@ -2,7 +2,6 @@
 title: 쉼표로 구분된 값(.csv) 파일에서 데이터 가져오기
 description: CSV 파일에서 Power BI로 데이터를 가져오는 방법 알아보기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1a150c2cb4eb819b78b2b08a492087eb98bf6363
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a33c8a45f4f32efb0a47df82b8af23d42c281ae9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513328"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855517"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>쉼표로 구분된 값(.csv) 파일에서 데이터 가져오기
 ![](media/service-comma-separated-value-files/csv_icon.png)
 
-쉼표로 구분된 값 파일(또는 .CSV)은 각 값이 쉼표로 구분되어 있는 데이터 열로 구성된 단순한 텍스트 파일입니다. 이러한 유형의 파일은 상대적으로 적은 파일 크기에 매우 많은 양의 데이터를 포함할 수 있어 Power BI에 적합한 데이터 원본입니다. [여기](http://go.microsoft.com/fwlink/?LinkID=619356)에서 샘플 .CSV 파일을 다운로드할 수 있습니다.
+쉼표로 구분된 값 파일(또는 .CSV)은 각 값이 쉼표로 구분되어 있는 데이터 열로 구성된 단순한 텍스트 파일입니다. 이러한 유형의 파일은 상대적으로 적은 파일 크기에 매우 많은 양의 데이터를 포함할 수 있어 Power BI에 적합한 데이터 원본입니다. [여기](https://go.microsoft.com/fwlink/?LinkID=619356)에서 샘플 .CSV 파일을 다운로드할 수 있습니다.
 
 .CSV가 있다면 Power BI 사이트를 사용자가 데이터를 탐색을 시작하고 일부 대시보드를 만들며 다른 사람들과 통찰력을 공유할 수 있는 데이터 세트로 활용할 시간입니다.
 

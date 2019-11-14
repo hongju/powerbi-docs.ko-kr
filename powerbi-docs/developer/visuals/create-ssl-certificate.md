@@ -3,18 +3,17 @@ title: SSL 인증서 만들기
 description: 개발자 서버용 인증서를 수동으로 만들기 위한 해결 방법 지침
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: c96489e6577f4887d2f22a9e81ea50f46cc9a5a3
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: d24135cc55ebc8cdfd2a1279cb2a2a46f8f0bc3e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194426"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880197"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL 인증서 만들기
 
@@ -96,7 +95,7 @@ OpenSSL 유틸리티가 시스템에 이미 설치되어 있으면, 다음 명�
 openssl req -x509 -newkey rsa:4096 -keyout PowerBICustomVisualTest_private.key -out PowerBICustomVisualTest_public.crt -days 365
 ```
 
-일반적으로 다음 중 하나를 실행하여 PowerBI 시각적 개체 도구의 웹 서버 인증서를 찾을 수 있습니다.
+일반적으로 다음 중 하나를 실행하여 Power BI 시각적 개체 도구의 웹 서버 인증서를 찾을 수 있습니다.
 
 * 전역 도구 인스턴스의 경우:
 

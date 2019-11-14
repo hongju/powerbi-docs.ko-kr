@@ -2,18 +2,17 @@
 title: Power BI 모바일 앱의 지리적 위치별 보고서 필터링
 description: 보고서 소유자가 지리적 태그를 설정하는 경우 Microsoft Power BI 모바일 앱에서 지리적 위치에 따라 보고서를 필터링하는 방법을 알아봅니다.
 author: mshenhav
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 9a4950a1d52451764c3c62413bf4ecbd036f06c8
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 1079b624ebab827b41f4da55095028796319fdcd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305767"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870647"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 지리적 위치별 보고서 필터링
 적용 대상:
@@ -32,7 +31,7 @@ ms.locfileid: "71305767"
 ## <a name="filter-your-report-by-your-geographic-location"></a>지리적 위치에 따라 보고서 필터링
 1. 모바일 디바이스의 Power BI 모바일 앱에서 보고서를 엽니다.
 2. 보고서에 지리적 데이터가 있는 경우 Power BI가 사용자의 위치에 액세스할 수 있도록 허용할지 묻는 메시지가 나타납니다. **허용**을 클릭하고 **허용**을 다시 탭합니다.
-3. 압정을 탭합니다. ![압정 아이콘](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-icon.png)을 선택합니다. 보고서의 데이터에 따라 시, 시/도 또는 국가/지역을 필터링할 수 있습니다. 필터는 현재 위치와 일치하는 옵션만을 나열합니다.
+3. 압정을 탭합니다. ![압정 아이콘](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-icon.png). 보고서의 데이터에 따라 시, 시/도 또는 국가/지역을 필터링할 수 있습니다. 필터는 현재 위치와 일치하는 옵션만을 나열합니다.
    
     ![압정 필터](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-map-set-filter.png)
 
@@ -51,5 +50,5 @@ Power BI Desktop에서 [지리적 필터링 설정](../../desktop-mobile-geofilt
 ### <a name="next-steps"></a>다음 단계
 * 모바일 앱으로 [실제 Power BI 데이터에 연결](mobile-apps-data-in-real-world-context.md)
 * [Power BI Desktop의 데이터 분류](../../desktop-data-categorization.md) 
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

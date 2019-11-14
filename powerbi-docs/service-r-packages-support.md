@@ -2,7 +2,6 @@
 title: 지원되는 R 패키지에 대해 알아보기
 description: Power BI에서 지원되고 지원되지 않는 R 패키지
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: edbe565d155f0c0623cfef0417cc3861dc515c15
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 1070cf40fb743fc0d4661bd067b6475ef8dc8217
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654185"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871700"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 서비스의 R 패키지
 강력한 [R 프로그래밍 언어](https://www.r-project.org/)를 사용하여 Power BI 서비스에서 시각적 개체를 만들 수 있습니다. 많은 R 패키지가 Power BI 서비스에서 지원되며(및 더 많은 패키지가 항상 지원되고 있음) 일부 패키지는 지원되지 않습니다.

@@ -2,7 +2,6 @@
 title: 인사이트를 사용하여 시각적 개체에서 증가 및 감소 정보 설명(미리 보기)
 description: Power BI Desktop에서 증가 또는 감소하는 정보 쉽게 파악
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 69b6cd3200627c5b0523fce914eae5899e594c27
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61297333"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867230"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Power BI Desktop에서 인사이트를 사용하여 시각적 개체에서 보이는 증가 및 감소 정보 설명(미리 보기)
 

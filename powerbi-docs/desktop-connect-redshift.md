@@ -2,7 +2,6 @@
 title: Power BI Desktop에서 Amazon Redshift 데이터베이스에 연결
 description: Power BI Desktop에서 Amazon Redshift 데이터베이스에 쉽게 연결하고 사용
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b92935bb9f4b9ad3738151cb2f671af96283f625
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1bf434c2b6d7181e723977d6264df718ee1e5ee5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513615"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878467"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Power BI Desktop에서 Amazon Redshift에 연결
 **Power BI Desktop**에서 **Amazon Redshift** 데이터베이스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다.

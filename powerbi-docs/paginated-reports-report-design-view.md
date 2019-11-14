@@ -3,18 +3,17 @@ title: 페이지를 매긴 보고서의 보고서 디자인 뷰 살펴보기
 description: 보고서 작성기의 보고서 디자인 뷰는 Power BI 서비스에 게시할 수 있는 페이지를 매긴 보고서를 만들기 위한 디자인 공간입니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 6be5121c91d64a4bd9437a1d7d111d10627b8330
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: a77631cbf2438c00a8c05b196837b73b8dc6bb61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751584"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874696"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports"></a>페이지를 매긴 보고서의 보고서 디자인 뷰 살펴보기
 

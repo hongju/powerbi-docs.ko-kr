@@ -1,17 +1,17 @@
 ---
-ms.openlocfilehash: 6366dbe4d7c58b49b4085d80aa690fd6c64fee59
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 3966521d158c244487638be4117f98ea570e1f28
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70847712"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799995"
 ---
 **DAX**를 소개하기 위해 설계된 Power BI **단계별 학습** 섹션을 시작합니다.
 
 **DAX**는 **데이터 분석 식**의 약자로 Power BI 전체에서 사용되는 수식 언어입니다(Power BI 숨은 기능에서도 사용함). 또한 DAX는 Powerpivot과 SSAS 테이블 형식과 같은 Microsoft의 다른 제품에도 있지만 이러한 단계별 학습 항목은 DAX를 사용하는 방법 및 Power BI에서 사용자가 사용할 수 있는 방법에 중점을 둡니다.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX 및 단계별 학습 비디오 시리즈
-이 **단계별 학습** 섹션의 목표는 유명한 DAX 전문가인 [Alberto Ferrari](http://www.sqlbi.com/learning-dax)가 설명한(그리고 경험으로 학습한) DAX에 대해 인지하는 방법, 작동 방법 및 가장 유용한 기능과 같은 DAX 기본 사항 및 기본 항목을 알려주는 것입니다.
+이 **단계별 학습** 섹션의 목표는 유명한 DAX 전문가인 [Alberto Ferrari](https://www.sqlbi.com/learning-dax)가 설명한(그리고 경험으로 학습한) DAX에 대해 인지하는 방법, 작동 방법 및 가장 유용한 기능과 같은 DAX 기본 사항 및 기본 항목을 알려주는 것입니다.
 
 ![Alberto Ferrari의 초상화](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
@@ -30,7 +30,7 @@ DAX는 연산자 오버로드를 사용합니다. 즉 계산에서 데이터 형
 
 특히 Power BI에서 함께 많이 작업할 가능성이 있는 하나의 데이터 형식은 다음과 같습니다. **날짜/시간**. **날짜/시간**은 정수와 소수 부분을 모두 사용하여 부동 소수점 값으로 저장됩니다. 날짜/시간을 1900년 3월 1일 이후의 모든 시간 간격을 계산하기 위해 정확하게 사용할 수 있습니다.
 
-> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)의 비디오 콘텐츠 출처
+> [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)의 비디오 콘텐츠 출처
 > 
 > 
 

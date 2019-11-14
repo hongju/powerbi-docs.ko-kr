@@ -3,18 +3,17 @@ title: Power BI 페이지를 매긴 보고서의 포함된 데이터 세트 만�
 description: 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 원본을 기반으로 포함된 데이터 세트를 만드는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
-ms.openlocfilehash: cf41b404385139561a97f1d5b081ae1c48ff2885
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3ca950f5562998a1591d94ee690b76fee4f3d98f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839037"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874878"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트 만들기
 

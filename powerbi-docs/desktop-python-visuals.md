@@ -2,7 +2,6 @@
 title: Python을 사용하여 Power BI 시각적 개체 만들기
 description: Python을 사용하여 Power BI 시각적 개체 만들기
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: b41a50ae7c4aaf8f70c9d7745ea4767b7644a62f
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303093"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877971"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Python을 사용하여 Power BI 시각적 개체 만들기
 **Power BI Desktop**에서 **Python**을 사용하면 데이터를 시각화할 수 있습니다.
@@ -158,7 +157,7 @@ plt.show()
 * [Matplotlib](https://matplotlib.org/) 웹 사이트의 문서 
 * [Matplotlib Tutorial: A Basic Guide to Use Matplotlib with Python](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/)(Matplotlib 자습서: Python과 함께 Matplotlib를 사용하기 위한 기본 가이드) 
 * [Matplotlib Tutorial – Python Matplotlib Library with Examples](https://www.edureka.co/blog/python-matplotlib-tutorial/)(Matplotlib 자습서 – Python Matplotlib Library 및 예제) 
-* [Pandas API Reference](http://pandas.pydata.org/pandas-docs/stable/reference/index.html)(Pandas API 참조) 
+* [Pandas API Reference](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)(Pandas API 참조) 
 * [Python visualizations in Power BI Service](https://powerbi.microsoft.com/blog/python-visualizations-in-power-bi-service/)(Power BI 서비스의 Python 시각화) 
 * [Using Python Visuals in Power BI](https://www.absentdata.com/how-to-user-python-and-power-bi/)(Power BI에서 Python 시각적 개체 사용)
 

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 06ee6ad7ade46d811c6340d905150c6dd3810c55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273618"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799996"
 ---
 DAX를 사용하면 데이터의 모양을 지정하고 형성하거나 그렇지 않으면 분석하는 데 사용할 수 있는 많은 함수가 있습니다. 이러한 함수는 소수의 범주로 그룹화할 수 있습니다.
 
@@ -97,7 +97,7 @@ DAX는 다음과 같은 **날짜** 함수를 포함합니다.
 
 이러한 함수는 *날짜* 값에서 정보를 추출하고 계산하는 데 유용하지만 날짜 테이블을 사용하는 시간 인텔리전스에 적용되지 않습니다.
 
-> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)의 비디오 콘텐츠 출처
+> [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax)의 비디오 콘텐츠 출처
 > 
 > 
 

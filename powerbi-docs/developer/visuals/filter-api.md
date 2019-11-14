@@ -3,18 +3,17 @@ title: Power BI 시각적 개체의 시각적 개체 필터 API
 description: 이 문서에서는 Power BI 시각적 개체가 다른 시각적 개체를 필터링할 수 있는 방법을 설명합니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 98ebc87cf5a6b7bf8f0b8b88d4ff498edfd5bf9a
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: ee4ac2db9d27129172797db9743790b5175dcd89
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194041"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880069"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI 시각적 개체의 시각적 개체 필터 API
 
@@ -188,7 +187,7 @@ interface ITupleFilter extends IFilter {
 
   이 필터는 다양한 테이블의 열을 처리할 수 있습니다.
 
-* `$schema`는 http://powerbi.com/product/schema#tuple 입니다.
+* `$schema`는 https://powerbi.com/product/schema#tuple 입니다.
 
 * `filterType`은 *FilterType.Tuple*입니다.
 
@@ -240,7 +239,7 @@ let values = [
 ];
 
 let filter: ITupleFilter = {
-    $schema: "http://powerbi.com/product/schema#tuple",
+    $schema: "https://powerbi.com/product/schema#tuple",
     filterType: FilterType.Tuple,
     operator: "In",
     target: target,

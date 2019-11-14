@@ -3,19 +3,18 @@ title: Power BI 성능 모범 사례
 description: 이 문서에서는 Power BI에서 빠르고 신뢰할 수 있는 보고서를 빌드하기 위한 지침을 제공합니다.
 author: Bhavik-MSFT
 ms.author: bhmerc
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 2fd0a3d878641264e84a14579901a9685b0f6e8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841487"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875097"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 성능 모범 사례
 
@@ -23,7 +22,7 @@ ms.locfileid: "70841487"
 
 ## <a name="choose-an-appropriate-storage-mode-import-directquery"></a>적절한 스토리지 모드를 Import, DirectQuery 중에서 선택합니다.
 
-대부분의 경우 가져오기 모드는 열 형식 스토리지를 사용하여 압축되는 로컬 캐시 메모리 내 데이터를 활용하여 가장 빠른 속도를 제공하므로 가장 적합합니다. 또한 가져오기 모드에서는 전체 DAX 기능을 사용할 수 있습니다. 원본 데이터 볼륨이 너무 커서 Power BI 용량에 맞지 않는 경우 DirectQuery(및 복합 모델)를 고려합니다. DirectQuery는 보고서가 로드될 때마다 원본에서 최신 데이터를 가져와야 하는 경우에도 유용합니다. 이러한 요구 사항이 없고 하루에 몇 번 정도만 업데이트되는 데이터만 필요한 경우(예: 회사 데이터 웨어하우스의 데이터) 가져오기 모드가 권장됩니다. DirectQuery 모드에서 사용자는 원본에서 정확히 동일한 데이터를 가져올 것인지 인식하지 못한 상태에서 보고서를 새로 고치려고 할 수 있습니다.      
+대부분의 경우 Import 모드는 열 형식 스토리지를 사용하여 압축되는 로컬 캐시 메모리 내 데이터를 활용하여 가장 빠른 속도를 제공하므로 가장 적합합니다. 또한 Import 모드에서는 전체 DAX 기능을 사용할 수 있습니다. 원본 데이터 볼륨이 너무 커서 Power BI 용량에 맞지 않는 경우 DirectQuery(및 복합 모델)를 고려합니다. DirectQuery는 보고서가 로드될 때마다 원본에서 최신 데이터를 가져와야 하는 경우에도 유용합니다. 이러한 요구 사항이 없고 하루에 몇 번 정도만 업데이트되는 데이터만 필요한 경우(예: 회사 데이터 웨어하우스의 데이터) Import가 권장됩니다. DirectQuery 모드에서 사용자는 원본에서 정확히 동일한 데이터를 가져올 것인지 인식하지 못한 상태에서 보고서를 새로 고치려고 할 수 있습니다.      
 
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>필터를 사용하여 필요한 것만 표시하도록 보고서 시각적 개체를 제한 
 
@@ -152,7 +151,7 @@ SQL 프로파일러를 통해 가장 긴 CPU 시간을 사용하는 쿼리를 �
 
 네트워크 대기 시간은 Power BI 서비스 연결에 대한 요청 및 전달할 응답에 필요한 시간이 늘어나면 보고서 성능에 영향을 줄 수 있습니다. Power BI의 테넌트는 특정 지역에 할당됩니다. powerbi.com으로 이동하고 오른쪽 위에 있는 **?** 를 선택한 다음 **Power BI 정보**를 선택하면 테넌트의 “홈” 영역을 볼 수 있습니다. 테넌트의 사용자가 Power BI 서비스에 액세스하는 경우 해당 요청은 항상 이 영역에 라우팅됩니다. 요청이 Power BI 서비스에 도달하면 서비스에서 추가 요청을 기본 데이터 원본 또는 게이트웨이와 같은 대상으로 보낼 수 있습니다. 또한 네트워크 대기 시간의 영향도 받습니다.
 
-[Azure 속도 테스트](http://azurespeedtest.azurewebsites.net/)와 같은 도구는 클라이언트와 Azure 지역 간의 네트워크 대기 시간을 표시합니다. 일반적으로 네트워크 대기 시간의 영향을 최소화하려면 데이터 원본, 게이트웨이 및 Power BI 클러스터를 최대한 가깝게 유지해야 합니다. 네트워크 대기 시간이 문제가 되는 경우 게이트웨이 및 데이터 원본을 가상 머신에 배치하여 사용자 Power BI 클러스터에 더 가깝게 설치해 보세요.
+[Azure 속도 테스트](https://azurespeedtest.azurewebsites.net/)와 같은 도구는 클라이언트와 Azure 지역 간의 네트워크 대기 시간을 표시합니다. 일반적으로 네트워크 대기 시간의 영향을 최소화하려면 데이터 원본, 게이트웨이 및 Power BI 클러스터를 최대한 가깝게 유지해야 합니다. 네트워크 대기 시간이 문제가 되는 경우 게이트웨이 및 데이터 원본을 가상 머신에 배치하여 사용자 Power BI 클러스터에 더 가깝게 설치해 보세요.
 
 네트워크 대기 시간을 더욱 개선하려면 클라이언트와 Azure 데이터 센터 간에 더 빠르고 더 안정적인 네트워크 연결을 만들 수 있는 [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) 사용을 고려합니다.
 

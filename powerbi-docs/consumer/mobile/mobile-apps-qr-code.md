@@ -2,19 +2,18 @@
 title: 모바일 디바이스에서 Power BI QR 코드 스캔
 description: Power BI의 QR 코드는 실제 세계의 모든 항목을 iPhone 및 Android 디바이스용 Power BI 모바일 앱에서 관련된 BI 정보에 연결할 수 있습니다.
 author: KesemSharabi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ba810bf416a913ddb41ab02c0afe7373e5c107f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236755"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879203"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>모바일 디바이스에서 Power BI QR 코드 스캔
 적용 대상:
@@ -50,7 +49,7 @@ Power BI 앱에서 스캐너 또는 휴대폰에 설치된 다른 스캐너를 �
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>iPhone의 외부 스캐너에서 QR 코드 스캔
 1. 휴대폰에 설치된 스캐너에서 관련 Power BI QR 코드를 스캐너로 가리키면 타일이나 보고서에 즉시 액세스할 수 있습니다. 
-2. Power BI 앱이 설치되어 있지 않으면 iPhone에 [다운로드할 수 있도록 Apple 앱 스토어](http://go.microsoft.com/fwlink/?LinkId=522062)로 리디렉션됩니다.
+2. Power BI 앱이 설치되어 있지 않으면 iPhone에 [다운로드할 수 있도록 Apple 앱 스토어](https://go.microsoft.com/fwlink/?LinkId=522062)로 리디렉션됩니다.
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Power BI 스캐너를 사용하여 Android 디바이스에서 Power BI QR 코드 스캔
 1. Power BI 모바일 앱에서 왼쪽 위의 전역 탐색 단추 ![](media/mobile-apps-qr-code/power-bi-android-global-nav-icon.png)를 엽니다. 
@@ -67,12 +66,12 @@ Power BI 앱에서 스캐너 또는 휴대폰에 설치된 다른 스캐너를 �
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Android 디바이스의 외부 스캐너에서 QR 코드 스캔
 1. Android 디바이스에 설치된 스캐너에서 스캐너를 관련 Power BI QR 코드로 가리키면 타일 또는 보고서에 바로 액세스할 수 있습니다. 
-2. Power BI 앱이 설치되어 있지 않으면 [다운로드할 수 있도록 Google Play](http://go.microsoft.com/fwlink/?LinkID=544867)로 리디렉션됩니다. 
+2. Power BI 앱이 설치되어 있지 않으면 [다운로드할 수 있도록 Google Play](https://go.microsoft.com/fwlink/?LinkID=544867)로 리디렉션됩니다. 
 
 ## <a name="next-steps"></a>다음 단계
 * 모바일 앱으로 [실제 Power BI 데이터에 연결](mobile-apps-data-in-real-world-context.md)
 * [Power BI 서비스에서 타일에 대한 QR 코드 만들기](../../service-create-qr-code-for-tile.md)
 * [Power BI 서비스에서 보고서에 대한 QR 코드 만들기](../../service-create-qr-code-for-report.md)
 * [혼합 현실용 Power BI 앱을 사용하여 QR 코드를 스캔](mobile-mixed-reality-app.md)할 수도 있습니다.
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

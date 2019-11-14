@@ -2,7 +2,6 @@
 title: Cortana에 대한 사용자 지정 Power BI 답변 페이지 만들기
 description: Power BI에서 Cortana에 대한 사용자 지정 답변 페이지 만들기
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: bb0f6febfaee30c3eab3ce8b8aa618eb09c464bf
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.openlocfilehash: 06f155676dffa7b5f87ce61a8b342708793ef2c6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375236"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853735"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI 서비스 또는 Power BI Desktop을 사용하여 Cortana에 대한 사용자 지정 답변 페이지 만들기
 Power BI의 전체 기능을 사용하여 Cortana 질문에 답변하도록 특별히 설계된 *Cortana 답변 페이지*(*Cortana 답변 카드*라고도 함)라는 특수한 보고서 페이지를 만듭니다.
 
 > [!IMPORTANT]
-> Power BI에서 Cortana 통합은 사용되지 않습니다. 6월 11일부터 Cortana는 더 이상 모든 대시보드 및 보고서에 작동하지 않을 것입니다.
+> Cortana 통합은 Power BI에서 더 이상 사용되지 않습니다. 6월 11일부터 Cortana는 더 이상 대시보드 및 보고서에서 작동하지 않습니다.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
@@ -96,5 +95,5 @@ Power BI에 대한 Cortana의 설정 및 사용을 안내하는 4가지 문서�
 
 Cortana가 아직도 Power BI와 함께 작동하지 않나요?  [Cortana 문제 해결사](service-cortana-troubleshoot.md)를 사용해 보세요.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

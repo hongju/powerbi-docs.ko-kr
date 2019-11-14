@@ -3,18 +3,17 @@ title: Power BI Power BI 시각적 개체를 개발하는 방법 문제 해결
 description: 이 문서에서는 사용자 지정 Power BI 시각적 개체를 개발하거나 만들 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: troubleshooting
 ms.date: 11/06/2018
-ms.openlocfilehash: 6fce02a4707d12859286f85073222b498a1a59f4
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d1897c010cb275e1f44077ca00e6448e5ee05ab2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543898"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874524"
 ---
 # <a name="troubleshoot-power-bi-power-bi-visuals"></a>Power BI Power BI 시각적 개체 문제 해결
 

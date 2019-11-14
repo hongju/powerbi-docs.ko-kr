@@ -3,18 +3,17 @@ title: Power BI 페이지를 매긴 보고서의 페이지 매김
 description: 이 문서에서는 Power BI 서비스의 페이지를 매긴 보고서에서 지원되는 데이터 원본 및 Azure SQL Database 데이터 원본에 연결하는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/22/2019
-ms.openlocfilehash: e91d3801cc2293ad22028a95a331d473f41288c0
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: d0f0abe15348d54f24143d69fcd6c0c2b71e9a34
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624843"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874778"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 페이지 매김
 
@@ -90,4 +89,4 @@ ms.locfileid: "68624843"
 
 [Power BI 서비스에서 페이지를 매긴 보고서 보기](paginated-reports-view-power-bi-service.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

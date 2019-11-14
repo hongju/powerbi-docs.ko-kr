@@ -2,7 +2,6 @@
 title: Power BI Desktop의 예제를 통해 웹 페이지에서 데이터 추출
 description: 끌어올 항목의 예제를 제공하여 웹 페이지에서 데이터 추출
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6bf933203f8dc76d4ede2d25683981cbdf6755f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514086"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869048"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>예제를 제공하여 웹 페이지에서 데이터 가져오기
 

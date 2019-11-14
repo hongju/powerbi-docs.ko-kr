@@ -2,7 +2,6 @@
 title: O365 파트너에게 Power BI를 추가할 수 없음
 description: Office 365 신디케이션 파트너에게 Power BI를 추가할 수 없습니다. 신디케이티드 모델은 Office 365에서 사용하는 구매 모델입니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: bb81df81a24046820a82c00915f637ab471eb054
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 558d939582b5ac7ec67d64a9f56305326bc34d03
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074191"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856665"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Office 365 파트너 구독에 Power BI를 추가할 수 없음
 
@@ -84,4 +83,4 @@ Power BI Pro 무료 평가판에 가입할 수 있습니다. 평가판 기간이
 
 [조직의 Power BI 라이선스 부여](service-admin-licensing-organization.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

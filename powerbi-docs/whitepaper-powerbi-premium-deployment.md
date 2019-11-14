@@ -3,19 +3,18 @@ title: Power BI Premium 용량 배포 및 관리
 description: Power BI Premium의 가능성을 이해 하 고 확장 가능한 솔루션을 디자인, 배포, 모니터링 및 문제 해결 하는 방법을 알아봅니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: eecbc43f26cebc12884ae6c5143a815f6e310ce5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3ccd4af0f00e132c8bc0bd29a9ff23f89b13a15f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432355"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880600"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium 용량 배포 및 관리
 
@@ -407,9 +406,9 @@ Power BI 서비스 관리자와 Office 365 전역 관리자는 Premium 용량을
 
 |                     | EM3                      | P1                       | P2                      | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| 페이지를 매긴 보고서 | 해당 없음 | 기본값 20%, 최소값 10% | 기본값 20%, 최솟값 5% | 기본값 20%, 최솟값 2.5% |
+| 페이지를 매긴 보고서 | 해당 없음 | 기본값 20%, 최솟값 10% | 기본값 20%, 최솟값 5% | 기본값 20%, 최솟값 2.5% |
 | 데이터 흐름 | 기본값 20%, 최솟값 8%  | 기본값 20%, 최솟값 4%  | 기본값 20%, 최솟값 2% | 기본값 20%, 최솟값 1%  |
-| AI | 해당 없음 | 기본값 20%, 최소값 20%  | 기본값 20%, 최소값 10% | 기본값 20%, 최솟값 5%  |
+| AI | 해당 없음 | 기본값 20%, 최소값 20%  | 기본값 20%, 최솟값 10% | 기본값 20%, 최솟값 5%  |
 | | | | | |
 
 프리미엄 용량을 삭제 하는 것은 가능 하며 작업 영역 및 콘텐츠가 삭제 되지 않습니다. 대신 할당 된 작업 영역을 공유 용량으로 이동 합니다. 프리미엄 용량이 다른 지역에 생성 되 면 작업 영역이 홈 지역의 공유 용량으로 이동 됩니다.
@@ -834,7 +833,7 @@ Power BI Premium 용량을 배포 하 고 관리 하기 위해 관리자 및 모
 
 ## <a name="end-notes"></a>끝 메모
 
-<a name="endnote-01"></a>\[1\]이 기술 문서에서는 Power BI 클라우드 서비스 에서만 지원 되는 Power BI Premium에 대해 설명 하므로 Power BI Report Server을 설치 하는 데 필요한 라이선스는에 포함 되어 있다는 점을 제외 하 고는 범위에 포함 되지 않습니다. 일부 Power BI Premium Sku입니다.
+<a name="endnote-01"></a>\[1\]이 기술 문서에서는 Power BI 클라우드 서비스 에서만 지원 되는 Power BI Premium에 대해 설명 하므로 Power BI Report Server을 설치 하는 데 필요한 라이선스가 일부 Power BI Report Server Sku에 포함 된다는 것을 제외 하 고 Power BI Premium 범위에 있지 않습니다.
 
 <a name="endnote-02"></a>\[2\] 응용 프로그램 사용자를 대신 하 여 콘텐츠를 포함 하는 데 사용 되는 클라우드 서비스로 Power BI PaaS (Platform as a Service)입니다. 이러한 유형의 포함은 다른 두 제품을 사용 하 여 구현할 수 있으며, 그 중 하나는 Power BI Premium입니다.
 

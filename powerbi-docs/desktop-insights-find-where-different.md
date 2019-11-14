@@ -2,7 +2,6 @@
 title: 인사이트를 사용하여 분포가 다른 곳 찾기(미리 보기)
 description: Power BI Desktop의 차트에서 분포가 다르게 보이는 곳을 찾을 수 있도록 인사이트를 쉽게 파악
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 99ad06b84b01ce94b3433952cdd031a81c336e04
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bb4e177ff813c332c8b60b490ead1f6d97a03935
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454139"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867123"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Power BI Desktop에서 인사이트를 사용하여 분포가 다른 곳 찾기(미리 보기)
 

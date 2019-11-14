@@ -2,7 +2,6 @@
 title: Power BI Desktop을 사용하여 시각적 개체의 데이터 요소 다중 선택
 description: Ctrl+클릭만으로 Power BI Desktop 시각적 개체의 여러 데이터 요소를 선택할 수 있습니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 948ead2cfa551d6342f9bab87b281d9b6d1e15bc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 46072ca4c21857476dea6308a891f261109a2388
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514108"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878040"
 ---
 # <a name="multi-select-data-elements-in-visuals-using-power-bi-desktop"></a>Power BI Desktop을 사용하여 시각적 개체의 데이터 요소 다중 선택
 

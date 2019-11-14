@@ -2,7 +2,6 @@
 title: Microsoft Flow와 Power BI 통합
 description: Power BI 데이터 경고에 의해 트리거되는 Flow를 만드는 방법에 대해 알아봅니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61147036"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881835"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 및 Power BI
 
@@ -112,5 +111,5 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
 * [Power BI 서비스에서 데이터 경고 설정](service-set-data-alerts.md)
 * [iPhone에서 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10용 Power BI 모바일 앱의 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 10/25/2019
-  ms.openlocfilehash: ac0d2e2955846d7b67e94af923b41c8b5f476996
-  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
+  ms.openlocfilehash: c608a6f69e3e9d614b23df7e04561e5fc2b6840b
+  ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 10/26/2019
-  ms.locfileid: "72959540"
+  ms.lasthandoff: 11/07/2019
+  ms.locfileid: "73769791"
 landingContent:
 - title: 개발자용 Power BI 정보
   linkLists:
@@ -56,7 +56,7 @@ landingContent:
     - text: 시각적 개체에 대한 지침
       url: guidelines-powerbi-visuals.md
     - text: 시각적 개체의 고급 편집 모드
-      url: /advanced-edit-mode.md
+      url: visuals/advanced-edit-mode.md
   - linkListType: how-to-guide
     links:
     - text: 시각적 개체 인증받기

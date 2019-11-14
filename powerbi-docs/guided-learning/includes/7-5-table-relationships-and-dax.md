@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 679c3e8c3d94c93899e9dcfae1e57f4b678fb218
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273637"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799994"
 ---
 Power BI를 통해 완전히 다른 데이터 원본에서 제공하는 테이블을 비롯하여 여러 테이블 간에 관계를 만들 수 있습니다. Power BI Desktop의 **관계** 보기에서 모든 데이터 모델에 대한 이러한 관계를 볼 수 있습니다.
 
@@ -23,7 +23,7 @@ DAX 함수를 사용하여 열의 값을 반환하거나 관계의 모든 행을
 
 관계형 함수를 사용하여 여러 테이블의 값을 포함하는 식을 작성할 수 있습니다. DAX는 관계의 체인 길이에 상관없이 이러한 함수를 사용하여 결과를 반환합니다.
 
-> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)의 비디오 콘텐츠 출처
+> [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax)의 비디오 콘텐츠 출처
 > 
 > 
 

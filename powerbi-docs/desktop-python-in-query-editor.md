@@ -2,7 +2,6 @@
 title: Power BI 쿼리 편집기에서 Python 사용
 description: 고급 분석을 위해 Power BI Desktop 쿼리 편집기에서 Python 사용
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61286882"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878037"
 ---
 # <a name="using-python-in-query-editor"></a>쿼리 편집기에서 Python 사용
 Power BI Desktop **쿼리 편집기**에서 통계학자, 데이터 과학자 및 데이터 분석에 의해 널리 사용되는 프로그래밍 언어인 **Python**을 사용할 수 있습니다. Python을 **쿼리 편집기**에 통합하면 Python을 사용하여 데이터 정리를 수행하고 누락된 데이터, 예측, 클러스터링을 완성하는 작업을 포함하여 데이터 세트에서 고급 데이터 셰이핑 및 분석을 수행할 수 있습니다. **Python**은 강력한 언어이며 **쿼리 편집기**에서 데이터 모델을 준비하고 보고서를 만드는 데 사용될 수 있습니다.
@@ -24,7 +23,7 @@ Power BI Desktop **쿼리 편집기**에서 통계학자, 데이터 과학자 �
 Power BI Desktop의 **쿼리 편집기**에서 **Python**을 사용하려면 로컬 머신에 **Python**을 설치해야 합니다. [공식 Python 다운로드 페이지](https://www.python.org/) 및 [Anaconda](https://anaconda.org/anaconda/python/)를 비롯한 여러 위치에서 무료로 **Python**을 다운로드 및 설치할 수 있습니다.
 
 ## <a name="using-python-in-query-editor"></a>쿼리 편집기에서 Python 사용
-**쿼리 편집기**에서 **Python**을 사용하는 방법을 보여 주려면 .CSV 파일 형식의 주식 시장 데이터 세트 예제를 가져오세요. [여기에서 다운로드](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)하여 진행할 수 있습니다. 이 예제에 대한 단계는 다음과 같습니다.
+**쿼리 편집기**에서 **Python**을 사용하는 방법을 보여 주려면 .CSV 파일 형식의 주식 시장 데이터 세트 예제를 가져오세요. [여기에서 다운로드](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)하여 진행할 수 있습니다. 이 예제에 대한 단계는 다음과 같습니다.
 
 1. 먼저 데이터를 **Power BI Desktop**으로 로드합니다. 이 예제에서는 *EuStockMarkets_NA.csv* 파일을 로드하고, **Power BI Desktop**의 **홈** 리본에서 **데이터 가져오기 > CSV**를 선택합니다.
    
@@ -77,7 +76,7 @@ Power BI Desktop의 **쿼리 편집기**에서 **Python**을 사용하려면 로
 해당 시각적 개체 또는 **Power BI Desktop**을 사용하여 만들려는 다른 시각적 개체가 완성되면 **Power BI Desktop** 파일을 저장(.pbix 파일로 저장)한 다음, Power BI 서비스에서 해당 파일의 일부인 Python 스크립트를 포함하여 데이터 모델을 사용할 수 있습니다.
 
 > [!NOTE]
-> 이러한 단계를 완료한 .pbix 파일을 보시겠습니까? 간단한 방법이 있습니다. 이 예제에서 사용한 완료된 **Power BI Desktop** 파일을 [지금 바로](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix) 다운로드할 수 있습니다.
+> 이러한 단계를 완료한 .pbix 파일을 보시겠습니까? 간단한 방법이 있습니다. 이 예제에서 사용한 완료된 **Power BI Desktop** 파일을 [지금 바로](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix) 다운로드할 수 있습니다.
 
 .pbix 파일을 Power BI 서비스에 업로드했으면 (서비스에서) 데이터 새로 고침을 사용하도록 설정하고 서비스에서 시각적 개체가 업데이트될 수 있도록 하기 위해 몇 가지 추가 단계를 수행해야 합니다(시각적 개체가 업데이트되려면 데이터가 Python에 액세스해야 함). 추가 단계는 다음과 같습니다.
 

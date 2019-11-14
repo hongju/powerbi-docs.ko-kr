@@ -2,19 +2,18 @@
 title: iOS 모바일 앱의 "통신 오류" 해결 - Power BI
 description: 이 문서는 다음 메시지가 표시되는 경우 도움이 될 수 있습니다. '통신 오류가 발생했습니다. Wi-Fi 연결의 프록시 설정과 관련된 오류일 수 있습니다.'
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: mshenhav
-ms.openlocfilehash: 9e487f4305b663028714cbe45ab76abaaa4a6db9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 14745d1f2b62845ca0eac549b100bf3e06f8f814
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61135707"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879110"
 ---
 # <a name="fixing-communication-failures-in-ios-mobile-apps---power-bi"></a>iOS 모바일 앱의 "통신 오류" 해결 - Power BI
 
@@ -31,5 +30,5 @@ iPhone 또는 iPad 인터넷 연결에 수동 또는 자동으로 구성된 명�
 iPhone 또는 iPad을 명시적인 HTTP 프록시 설정이 필요하지 않은 다른 연결(즉, HTTP 프록시 끔으로 구성된 연결)로 전환합니다.
 
 ## <a name="other-issues"></a>다른 문제가 있는 경우
-[Power BI 커뮤니티](http://community.powerbi.com/)에 질문합니다.
+[Power BI 커뮤니티](https://community.powerbi.com/)에 질문합니다.
 

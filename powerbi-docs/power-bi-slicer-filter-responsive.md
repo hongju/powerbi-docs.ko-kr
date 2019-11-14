@@ -2,7 +2,6 @@
 title: Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기
 description: 보고서에 맞게 크기를 조정할 수 있는 반응형 슬라이서를 만드는 방법을 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: fed4119946cb762fb4d9aee3b5300be225a6e379
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61419829"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877594"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기
 
@@ -81,4 +80,4 @@ Power BI Desktop에서는 보고서의 각 페이지에 대한 휴대폰 레이�
 ## <a name="next-steps"></a>다음 단계
 
 - [Power BI 서비스의 슬라이서](visuals/power-bi-visualization-slicers.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

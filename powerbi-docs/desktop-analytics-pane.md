@@ -2,7 +2,6 @@
 title: Power BI Desktop의 분석 창 사용
 description: Power BI Desktop에서 시각적 개체에 대한 동적 참조 선 만들기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 861a1d43f023e3ceba17fba90bcbc703e3195c84
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: a3ba6f8faf22d3854ecfcbc40e7931ca887de0f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160182"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876648"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop의 분석 창 사용
 **Power BI Desktop**의 **분석** 창에서 시각적 개체에 동적 *참조 선을* 추가하고, 중요한 추세 또는 통찰력에 대한 포커스를 제공할 수 있습니다. **분석** 창은 Power BI Desktop의 **시각화** 영역에 있습니다.

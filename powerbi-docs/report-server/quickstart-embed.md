@@ -8,13 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: e1787863d2b5db50cdb9a8d09907fbee6623972f
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 195be0766e135dcccc2124a998fb5a32e8703d5b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994987"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875010"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>SharePoint Server에서 iFrame을 사용하여 Power BI Report Server 보고서 포함
 
@@ -51,7 +50,7 @@ URL이 있으면 SharePoint 페이지 내에서 보고서를 호스트할 iFrame
 
    예:
     ``` 
-    http://myserver/reports/powerbi/Sales?rs:embed=true
+    https://myserver/reports/powerbi/Sales?rs:embed=true
     ```
 ## <a name="embed-the-report-in-a-sharepoint-iframe"></a>SharePoint iFrame에 보고서 포함
 
@@ -85,7 +84,7 @@ URL이 있으면 SharePoint 페이지 내에서 보고서를 호스트할 iFrame
 
      예:
      ```html
-     <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
+     <iframe width="800" height="600" src="https://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 
 9. 위쪽 메뉴에서 **페이지**를 선택한 다음, **편집 중지**를 선택합니다.

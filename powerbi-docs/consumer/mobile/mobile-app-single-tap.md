@@ -2,19 +2,18 @@
 title: 단일 탭으로 보고서 상호 작용 구성
 description: 단일 탭 또는 이중 탭으로 보고서 상호 작용을 구성하는 방법에 대해 알아봅니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: c553b921ebeb30b8fb8ec7ba9f7bce74f6c31dee
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4288178f702ff3fbfaa05c943adb0fd7ec12f530
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67558965"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879408"
 ---
 # <a name="configure-report-interaction-to-single-tap-or-double-tap"></a>단일 탭 또는 이중 탭으로 보고서 상호 작용 구성
 적용 대상:
@@ -46,5 +45,5 @@ iOS용 Power BI 앱 버전 18.0과 Android용 112540부터 모든 신규 설치�
 
 ## <a name="next-steps"></a>다음 단계
 * [휴대폰에 최적화된 Power BI 보고서 보기 및 상호 작용](mobile-apps-view-phone-report.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

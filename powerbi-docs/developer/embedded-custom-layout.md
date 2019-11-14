@@ -3,18 +3,17 @@ title: Power BI 포함 콘텐츠를 사용하는 사용자 지정 레이아웃
 description: 애플리케이션에 Power BI 콘텐츠를 포함하는 경우 사용자 지정 레이아웃에 대해 알아봅니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.openlocfilehash: 28d11a30f7998dc63f86b98fd72d18968480e711
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cae661641149554a7ecedabda322eb3b181b7f1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61344177"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875838"
 ---
 # <a name="custom-layouts"></a>사용자 지정 레이아웃
 

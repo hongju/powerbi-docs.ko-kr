@@ -2,7 +2,6 @@
 title: '‘새 디자인’: 작업이 어디로 이동했나요?'
 description: Power BI 서비스(app.powerbi.com)에는 새로운 디자인이 적용되고 많은 작업이 이동했습니다. 이 문서에서는 이전 위치를 새 위치에 매핑하는 표를 제공합니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e10c2757bf843d504e5caafb949e742261c6209d
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 2216fb2b18fd0f35fe9ece25ae2bfeea26672a66
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72245449"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872039"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>‘새 디자인’: 작업이 어디로 이동했나요?
 

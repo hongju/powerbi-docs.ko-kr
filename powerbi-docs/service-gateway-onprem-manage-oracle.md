@@ -2,7 +2,6 @@
 title: 데이터 원본 관리 - Oracle
 description: 해당 게이트웨이에 속한 온-프레미스 데이터 게이트웨이 및 데이터 원본을 관리하는 방법입니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ac116cfb2e3f09ceab6c9f78dba33bc18e847784
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cb7856b0b5ac84684e8d0648b91e45805218cead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832461"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872473"
 ---
 # <a name="manage-your-data-source---oracle"></a>데이터 원본 관리 - Oracle
 
@@ -29,11 +28,11 @@ ms.locfileid: "68832461"
 
 32비트 버전의 Power BI Desktop의 경우 다음 링크를 사용하여 32비트 Oracle 클라이언트를 다운로드 및 설치합니다.
 
-* [Visual Studio(12.1.0.2.4)용 Oracle 개발자 도구와 32비트 ODAC(Oracle Data Access Components)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [Visual Studio(12.1.0.2.4)용 Oracle 개발자 도구와 32비트 ODAC(Oracle Data Access Components)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 64비트 버전의 Power BI Desktop 또는 온-프레미스 데이터 게이트웨이의 경우 다음 링크를 사용하여 64비트 Oracle 클라이언트를 다운로드 및 설치합니다.
 
-* [Windows x64용 64비트 ODAC 12.2c 릴리스 1(12.2.0.1.0)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [Windows x64용 64비트 ODAC 12.2c 릴리스 1(12.2.0.1.0)](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 클라이언트가 설치된 후에 데이터베이스에 대한 적절한 정보로 tnsnames.ora 파일을 구성합니다. Power BI Desktop 및 게이트웨이는 tnsnames.ora 파일에 정의된 net_service_name 외부로 이동합니다. net_service_name을 구성하지 않은 경우 연결할 수 없습니다. tnsnames.ora의 기본 경로는 `[Oracle Home Directory]\Network\Admin\tnsnames.ora`입니다. Tnsnames.ora 파일을 구성하는 방법에 대한 자세한 내용은 [Oracle: Local Naming Parameters (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)(Oracle: 로컬 이름 지정 매개 변수(tnsnames.ora))를 참조하세요.
 
@@ -62,7 +61,7 @@ CONTOSO =
   )
 ```
 
-## <a name="add-a-data-source"></a>데이터 소스 추가
+## <a name="add-a-data-source"></a>데이터 원본 추가
 
 데이터 원본을 추가하는 방법에 대한 자세한 내용은 [데이터 원본 추가](service-gateway-data-sources.md#add-a-data-source)를 참조하세요. **데이터 원본 형식**에서 **Oracle**을 선택합니다.
 
@@ -83,7 +82,7 @@ Oracle 데이터 원본 형식을 선택한 후 **서버** 및 **데이터베이
 
 ### <a name="advanced-settings"></a>고급 설정
 
-필요한 경우 데이터 원본의 프라이버시 수준을 구성할 수 있습니다. 이 설정을 통해 데이터가 결합하는 방식을 제어합니다. 예약된 새로 고침에만 사용됩니다. 개인 정보 수준 설정은 DirectQuery에 적용되지 않습니다. 데이터 원본의 프라이버시 수준에 대한 자세한 내용은 [프라이버시 수준(파워 쿼리)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 참조하세요.
+필요한 경우 데이터 원본의 프라이버시 수준을 구성할 수 있습니다. 이 설정은 데이터가 결합하는 방식을 제어합니다. 예약된 새로 고침에만 사용됩니다. DirectQuery에는 적용되지 않습니다. 데이터 원본의 프라이버시 수준에 대한 자세한 내용은 [프라이버시 수준(파워 쿼리)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 참조하세요.
 
 ![프라이버시 수준 설정](media/service-gateway-onprem-manage-oracle/datasourcesettings9.png)
 
@@ -132,5 +131,5 @@ Oracle 클라이언트가 설치되지 않거나 제대로 구성되지 않은 �
 * [게이트웨이 문제 해결 - Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI 프리미엄](service-premium.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)에 질문합니다.
+궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)에 질문합니다.
 

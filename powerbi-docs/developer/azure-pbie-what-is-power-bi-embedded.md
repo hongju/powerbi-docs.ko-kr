@@ -3,7 +3,6 @@ title: Azure Power BI Embedded 및 임베디드 분석의 정의 | Microsoft Doc
 description: Power BI Embedded는 뛰어난 시각적 개체, 보고서 및 대시보드를 앱에 신속하게 추가할 수 있도록 지원하여 ISV와 개발자가 Power BI 기능을 사용하는 방식을 단순화하기 위한 임베디드 분석 도구로 설계되었습니다. Power BI Embedded를 통해 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: power-bi-embedded
 ms.subservice: ''
@@ -11,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: c74bd97a3323f28ba6d66fad03307f28c1b0c270
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: f04621fdfe7e6055d84fa4d2672c874837ff5ea4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391482"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864928"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Azure의 Power BI Embedded란?
 

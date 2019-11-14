@@ -3,22 +3,21 @@ title: Power BI Report Server에 대한 REST API를 사용하여 개발
 description: REST API는 Power BI Report Server 카탈로그의 개체에 대한 프로그래밍 방식 액세스를 제공합니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 8f35b7a3c19751b4537a49fa8cb30f4347f080ed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770754"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874072"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Power BI Report Server에 대한 REST API를 사용하여 개발
 
-Power BI Report Server는 REST(Representational State Transfer) API를 지원합니다. REST API는 HTTP 작업(메서드)의 집합을 지원하는 서비스 엔드포인트이며, 보고서 서버 내에서 리소스에 대한 액세스 만들기, 검색, 업데이트 또는 삭제를 제공합니다.
+Power BI Report Server는 REST(Representational State Transfer) API를 지원합니다. REST API는 HTTP 작업(메서드)의 집합을 지원하는 서비스 엔드포인트가며, 보고서 서버 내에서 리소스에 대한 액세스 만들기, 검색, 업데이트 또는 삭제를 제공합니다.
 
 REST API는 Power BI Report Server 카탈로그의 개체에 대한 프로그래밍 방식 액세스를 제공합니다. 개체의 예로는 폴더, 보고서, KPI, 데이터 원본, 데이터 세트, 새로 고침 계획, 구독 등이 있습니다. REST API를 사용하여, 예를 들어, 폴더 계층을 탐색하고, 폴더의 내용을 검색하거나 보고서 정의를 다운로드할 수 있습니다. 개체를 만들고, 업데이트하고 삭제할 수도 있습니다. 개체를 사용하는 예로는 보고서 업로드, 새로 고침 계획 실행, 폴더 삭제 등이 있습니다.
 
@@ -41,7 +40,7 @@ REST API 요청/응답 쌍은 5개의 구성 요소로 구분될 수 있습니�
 * URI 및 HTTP 작업을 지원하는 선택적 HTTP **요청 메시지 본문** 필드 예를 들어, POST 작업은 복잡한 매개 변수로 전달되는 MIME 인코딩된 개체를 포함합니다. POST 또는 PUT 작업의 경우 본문에 대한 MIME 인코딩된 유형도 `Content-type` 요청 헤더에서 지정되어야 합니다. 일부 서비스에서는 `application/json`과 같은 특정 MIME 유형을 사용해야 합니다.
 * HTTP **응답 메시지 헤더** 필드:
   
-  * 2xx 성공 코드에서 4xx 또는 5xx 오류 코드에까지 이르는 [HTTP 상태 코드](http://www.w3.org/Protocols/HTTP/HTRESP.html) 또는 API 설명서에 나와 있는 것처럼 서비스 정의된 상태 코드가 반환될 수 있습니다.
+  * 2xx 성공 코드에서 4xx 또는 5xx 오류 코드에까지 이르는 [HTTP 상태 코드](https://www.w3.org/Protocols/HTTP/HTRESP.html) 또는 API 설명서에 나와 있는 것처럼 서비스 정의된 상태 코드가 반환될 수 있습니다.
   * 요청의 응답을 지원하는 데 필요한 선택적 추가 헤더 필드(예: `Content-type` 응답 헤더)
 * 선택적 HTTP **응답 메시지 본문** 필드:
   
@@ -53,7 +52,7 @@ REST API 요청/응답 쌍은 5개의 구성 요소로 구분될 수 있습니�
 
 ## <a name="testing-api-calls"></a>API 호출 테스트
 
-HTTP 요청/응답 메시지를 테스트하는 도구는 [Fiddler](http://www.telerik.com/fiddler)입니다. Fiddler는 HTTP 요청/응답 메시지를 진단하기 쉽게 만들어 REST 요청을 가로챌 수 있는 무료 웹 디버깅 프록시입니다.
+HTTP 요청/응답 메시지를 테스트하는 도구는 [Fiddler](https://www.telerik.com/fiddler)입니다. Fiddler는 HTTP 요청/응답 메시지를 진단하기 쉽게 만들어 REST 요청을 가로챌 수 있는 무료 웹 디버깅 프록시입니다.
 
 ## <a name="next-steps"></a>다음 단계
 

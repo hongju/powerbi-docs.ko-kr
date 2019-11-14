@@ -3,22 +3,21 @@ title: Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 �
 description: 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수를 만드는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: adec7af0032772022a330e3ab25377205de9ace5
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d1f23f52f484ec9e141b4870b50cc1b2758709d9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66838973"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874735"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 만들기
 
-이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수를 만드는 방법을 알아봅니다. 보고서 매개 변수는 보고서 데이터를 선택하고 보고서 프레젠테이션에 변화를 주는 방법을 제공합니다. 사용자가 기본값과 사용 가능한 값 목록을 제공할 수 있으며 보고서 구독자가 선택 항목을 변경할 수 있습니다.  
+이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수를 만드는 방법을 알아봅니다.  보고서 매개 변수는 보고서 데이터를 선택하고 보고서 프레젠테이션에 변화를 주는 방법을 제공합니다. 사용자가 기본값과 사용 가능한 값 목록을 제공할 수 있으며 보고서 구독자가 선택 항목을 변경할 수 있습니다.  
 
 다음 그림에서는 Power BI 보고서 작성기에서 @BuyingGroup, @Customer, @FromDate 및 @ToDate 매개 변수를 가진 보고서에 대한 디자인 뷰를 보여줍니다. 
   
