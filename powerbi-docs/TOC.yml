@@ -119,6 +119,8 @@
           items:
             - name: Power BI Desktop의 데이터 원본
               href: desktop-data-sources.md
+            - name: LinkedIn Sales Navigator에 연결(미리 보기)
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: 예를 통해 웹 페이지에 연결(미리 보기)
               href: desktop-connect-to-web-by-example.md
             - name: Power BI 서비스의 데이터 세트에 연결
@@ -201,6 +203,8 @@
           items:
             - name: 이진 조합
               href: desktop-combine-binaries.md
+            - name: Power BI Desktop에서 AI 인사이트 사용(미리 보기)
+              href: desktop-ai-insights.md
         - name: 데이터 모델링
           items:
             - name: Power BI Desktop의 데이터 분류
@@ -339,6 +343,8 @@
               href: visuals/power-bi-visualization-card.md
             - name: Power BI의 콤보 차트
               href: visuals/power-bi-visualization-combo-chart.md
+            - name: Power BI의 분해 트리(미리 보기)
+              href: visuals/power-bi-visualization-decomposition-tree.md
             - name: Power BI의 도넛형 차트
               href: visuals/power-bi-visualization-doughnut-charts.md
             - name: Power BI의 등치 지역도(코로플레스)
@@ -375,8 +381,6 @@
               href: visuals/power-bi-visualization-treemaps.md
             - name: Power BI의 폭포 차트
               href: visuals/power-bi-visualization-waterfall-charts.md
-            - name: 동적 참조 줄 만들기
-              href: service-analytics-pane.md
         - name: 자연어
           items:
             - name: Q&A 소개
@@ -405,6 +409,8 @@
       items:
         - name: Power BI Desktop의 데이터 형식
           href: desktop-data-types.md
+        - name: Power BI Desktop에서 업데이트된 리본 사용(미리 보기)
+          href: desktop-ribbon.md
         - name: Power BI Desktop의 수식 편집기 바로 가기
           href: desktop-formula-editor.md
         - name: Power BI Desktop 개인 정보 수준
