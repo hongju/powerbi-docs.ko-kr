@@ -12,7 +12,7 @@
         - name: 개요
           items:
             - name: Power BI의 시각적 개체
-              href: ../power-bi-custom-visuals.md
+              href: power-bi-custom-visuals.md
         - name: 자습서
           items:
             - name: Power BI의 시각적 개체 개발
@@ -24,11 +24,11 @@
         - name: 개념
           items:
             - name: Power BI의 조직을 위한 시각적 개체
-              href: ../power-bi-custom-visuals-organization.md
+              href: power-bi-custom-visuals-organization.md
             - name: Power BI 시각적 개체에 대한 지침
               href: guidelines-powerbi-visuals.md
             - name: 시각적 개체 FAQ
-              href: ../power-bi-custom-visuals-faq.md
+              href: power-bi-custom-visuals-faq.md
             - name: 기능 사용
               href: visuals/capabilities.md
             - name: 데이터 보기 매핑
@@ -40,12 +40,12 @@
         - name: 방법
           items:
             - name: 시각적 개체 인증받기
-              href: ../power-bi-custom-visuals-certified.md
+              href: power-bi-custom-visuals-certified.md
             - name: AppSource에 사용자 지정 시각적 개체 게시
               href: office-store.md
             - name: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
-              href: ../desktop-r-powered-custom-visuals.md
-            - name: 시각적 개체 상호 작용 허용
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+            - name: 시각적 개체 상호 작용
               href: visuals/visuals-interactions.md
             - name: 선택 항목 추가
               href: visuals/selection-api.md
@@ -68,9 +68,7 @@
             - name: 슬라이서 동기화 사용
               href: visuals/enable-sync-slicers.md
             - name: Power BI 시각적 개체 문제 해결
-              href: ../power-bi-custom-visuals-troubleshoot.md
-            - name: 새 PowerBI-visuals-tools로 마이그레이션
-              href: visuals/migrate-to-new-tools.md
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: 참조
           items:
             - name: 방문 페이지
