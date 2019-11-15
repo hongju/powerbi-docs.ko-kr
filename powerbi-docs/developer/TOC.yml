@@ -45,8 +45,10 @@
               href: office-store.md
             - name: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
               href: ../desktop-r-powered-custom-visuals.md
-            - name: 시각적 개체 상호 작용
+            - name: 시각적 개체 상호 작용 허용
               href: visuals/visuals-interactions.md
+            - name: 선택 항목 추가
+              href: visuals/selection-api.md
             - name: 시각적 개체 도구 설명 추가
               href: visuals/add-tooltips.md
             - name: 분석 창 추가
@@ -57,6 +59,8 @@
               href: visuals/fetch-more-data.md
             - name: 책갈피 추가 지원
               href: visuals/bookmarks-support.md
+            - name: 상황에 맞는 메뉴 지원 추가
+              href: visuals/context-menu.md
             - name: 시각적 개체의 데이터 강조 표시
               href: visuals/highlight.md
             - name: 고대비 모드 지원 추가
@@ -65,6 +69,8 @@
               href: visuals/enable-sync-slicers.md
             - name: Power BI 시각적 개체 문제 해결
               href: ../power-bi-custom-visuals-troubleshoot.md
+            - name: 새 PowerBI-visuals-tools로 마이그레이션
+              href: visuals/migrate-to-new-tools.md
         - name: 참조
           items:
             - name: 방문 페이지
@@ -77,6 +83,8 @@
               href: visuals/event-service.md
             - name: 정렬
               href: visuals/sort-options.md
+            - name: 대화형 유틸리티
+              href: visuals/utils-interactivity-selections.md
         - name: 리소스
           items:
             - name: 개발자 센터
