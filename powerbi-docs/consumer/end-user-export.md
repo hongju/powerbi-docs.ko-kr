@@ -77,7 +77,7 @@ ms.locfileid: "72589519"
     ![Microsoft Edge 브라우저에 표시되는 내보낸 파일](media/end-user-export/power-bi-export-edge-browser.png)
 
 
-6. Excel에서 파일을 엽니다. 내보낸 데이터의 양과 대시보드의 동일한 시각적 개체에서 내보낸 데이터를 비교합니다. 차이점은 이 내보내기에 **기본 데이터**기 포함된다는 것입니다. 
+6. Excel에서 파일을 엽니다. 내보낸 데이터의 양과 대시보드의 동일한 시각적 개체에서 내보낸 데이터를 비교합니다. 차이점은 이 내보내기에 **기본 데이터**가 포함된다는 것입니다. 
 
     ![샘플 Excel](media/end-user-export/power-bi-underlying.png)
 
