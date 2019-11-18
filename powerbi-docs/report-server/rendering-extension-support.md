@@ -100,13 +100,13 @@ PDF 렌더링 확장 프로그램은 이 문서에서 설명한 대로 PDF/UA를
 
 해당 사항 없음
 
-## <a name="disclaimer"></a>고지 사항
+## <a name="disclaimer"></a>Disclaimer
 
-© 2017 Microsoft Corporation. All rights reserved. 여기에 언급된 실제 회사 및 제품의 이름은 해당 소유자의 상표일 수 있습니다. 이 문서에 포함된 정보는 게시 날짜를 기준으로 현재 논의된 문제에 대한 Microsoft Corporation의 현재 관점을 나타냅니다. Microsoft는 게시 날짜 이후에 제공된 정보의 정확성을 보장하지 않습니다. 해당 정보가 제공되면 Microsoft에서 웹 사이트를 제품의 접근성에 대한 새로운 정보로 정기적으로 업데이트합니다.
+© 2017 Microsoft Corporation. All rights reserved. The names of actual companies and products mentioned herein may be the trademarks of their respective owners. The information contained in this document represents the current view of Microsoft Corporation on the issues discussed as of the date of publication. Microsoft cannot guarantee the accuracy of any information presented after the date of publication. Microsoft regularly updates its websites with new information about the accessibility of products as that information becomes available.
 
-제품을 사용자 지정하면 Microsoft의 이 적합성 선언이 무효화됩니다. 특정 AT 제품의 호환성 사양은 AT(보조 기술) 공급업체에 문의하세요.
+Customization of the product voids this conformance statement from Microsoft. Please consult with Assistive Technology (AT) vendors for compatibility specifications of specific AT products.
 
-이 문서는 정보 제공의 목적으로만 사용됩니다. Microsoft는 이 문서에서 명시적이든 묵시적이든 어떠한 보증도 하지 않습니다.
+This document is for informational purposes only. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, IN THIS DOCUMENT.
 
 
 ## <a name="next-steps"></a>다음 단계
