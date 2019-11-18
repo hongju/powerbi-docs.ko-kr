@@ -80,7 +80,7 @@
         - name: Power BI의 다차원 모델의 기본 멤버
           href: desktop-default-member-multidimensional-models.md
         - name: 시각적 개체 FAQ
-          href: power-bi-custom-visuals-faq.md
+          href: developer/power-bi-custom-visuals-faq.md
     - name: 방법
       items:
         - name: Power BI Desktop 다운로드
@@ -673,6 +673,8 @@
           items:
             - name: 새 작업 영역 만들기
               href: service-create-the-new-workspaces.md
+            - name: 클래식 작업 영역 업그레이드
+              href: designer/service-upgrade-workspaces.md
             - name: 작업 영역 만들기
               href: service-create-workspaces.md
             - name: 작업 영역에서 앱 게시
