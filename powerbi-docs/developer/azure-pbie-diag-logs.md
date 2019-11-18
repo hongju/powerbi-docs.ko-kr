@@ -168,7 +168,7 @@ Log Analytics에서 진단 데이터를 보려면 아래와 같이 관리 영역
 
 ![수집된 모든 데이터](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-all-collected-data.png)
 
-**형식**에서 **AzureDiagnostics**를 선택하고 **적용**을 선택합니다. AzureDiagnostics에는 Engin 이벤트가 포함됩니다. Log Analytics 쿼리는 즉시 만들어집니다.
+**형식**에서 **AzureDiagnostics**를 선택하고 **적용**을 선택합니다. AzureDiagnostics에는 Engine 이벤트가 포함됩니다. Log Analytics 쿼리는 즉시 만들어집니다.
 
 ![Azure Diagnostics](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 

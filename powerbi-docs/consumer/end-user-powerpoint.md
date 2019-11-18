@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 840f2462ea9fc6b2d748b3803445c5ee4b155bdd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 87d9be7a6d82dfc37ba3409b7c5068407671b405
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862907"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099149"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>보고서를 Power BI에서 PowerPoint로 내보내기
 
@@ -77,7 +77,7 @@ Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소�
 **PowerPoint로 내보내기** 기능을 사용할 때 유의해야 할 고려 사항 및 제한 사항이 있습니다.
 
 * R 시각적 개체는 현재 지원되지 않습니다. 이러한 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
-* 인증된 사용자 지정 시각적 개체는 지원됩니다. 사용자 지정 시각적 개체를 인증하는 방법을 비롯한 인증된 사용자 지정 시각적 개체에 대한 자세한 내용은 [사용자 지정 시각적 개체 인증하기](../power-bi-custom-visuals-certified.md)를 참조하세요. 인증되지 않은 사용자 지정 시각적 개체는 지원되지 않습니다. 이러한 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
+* 인증된 사용자 지정 시각적 개체는 지원됩니다. 사용자 지정 시각적 개체를 인증하는 방법을 비롯한 인증된 사용자 지정 시각적 개체에 대한 자세한 내용은 [사용자 지정 시각적 개체 인증하기](../developer/power-bi-custom-visuals-certified.md)를 참조하세요. 인증되지 않은 사용자 지정 시각적 개체는 지원되지 않습니다. 이러한 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
 * 30개 이상의 보고서 페이지를 포함하는 보고서는 현재 내보낼 수 없습니다.
 * 보고서를 PowerPoint로 내보내는 과정은 몇 분 정도 걸릴 수 있으므로 잠시 기다려 주시기 바랍니다. 소요 시간에 영향을 줄 수 있는 요소에는 보고서의 구조, Power BI 서비스의 현재 부하 등이 있습니다.
 * **PowerPoint로 내보내기** 메뉴 항목을 Power BI 서비스에서 사용할 수 없다면 테넌트 관리자가 이 기능을 사용하지 않도록 설정했을 가능성이 큽니다. 자세한 내용은 테넌트 관리자에게 문의하세요.

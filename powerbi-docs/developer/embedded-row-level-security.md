@@ -335,6 +335,6 @@ SSAS(SQL Server Analysis Services) 온-프레미스 라이브 연결 데이터 �
 
 * 이 기능은 Power BI Premium에서만 제한됩니다.
 * 이 기능은 SQL Server 온-프레미스에서 작동하지 않습니다.
-* 이 기능은 Multi-Geo에서 작동하지 않습니다.
+* 이 기능은 다중 지역에서 작동하지 않습니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
