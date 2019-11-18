@@ -2,7 +2,6 @@
 title: Power BI 보고서의 새 필터 환경
 description: Power BI의 필터에 새 기능과 새 디자인이 추가됩니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841271"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875162"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI 보고서의 새 필터 환경
 
@@ -44,7 +43,7 @@ Power BI의 필터에 새 기능과 새 디자인이 있습니다. 새 필터 �
 ### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>Power BI Desktop에서 기존 보고서에 대해 새 필터 켜기
 
 1. 기존 보고서의 Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**을 선택합니다.
-2. 왼쪽 탐색 모음의 **현재 파일** 아래에서 **보고서 설정**을 선택합니다.
+2. 탐색 창의 **현재 파일**에서 **보고서 설정**을 선택합니다.
 3. **필터링 환경** 아래 **업데이트된 필터 창을 사용하고 이 보고서의 시각적 개체 머리글에 필터 표시**를 선택합니다.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>서비스에서 기존 보고서에 대해 새 필터 켜기
@@ -238,5 +237,5 @@ Power BI의 필터에 새 기능과 새 디자인이 있습니다. 새 필터 �
 - [필터 및 보고서에서 강조 표시](power-bi-reports-filters-and-highlighting.md)
 - [Power BI의 다양한 종류의 필터](power-bi-report-filter-types.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

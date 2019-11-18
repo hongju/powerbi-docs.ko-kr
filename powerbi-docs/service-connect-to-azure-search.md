@@ -2,7 +2,6 @@
 title: Power BI로 Azure Search에 연결
 description: Power BI용 Azure Search
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8b7560570af4f1b459cdde8589c0afdb9194e154
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 511fb6674d84cc0d206fdb1807fcb9ebf9e41d30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060924"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873118"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Power BI로 Azure Search에 연결
 Azure Search 트래픽 분석을 사용하면 Azure Search 서비스에 대한 트래픽을 모니터링하고 이해할 수 있습니다. Power BI용 Azure Search 콘텐츠 팩은 지난 30일 동안의 검색, 인덱싱, 서비스 통계 및 대기 시간을 비롯한 검색 데이터를 자세히 제공합니다. 자세한 내용은 [Azure 블로그 게시물](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/)에서 찾을 수 있습니다.
@@ -25,7 +24,7 @@ Azure Search 트래픽 분석을 사용하면 Azure Search 서비스에 대한 �
 [Power BI용 Azure Search 콘텐츠 팩](https://app.powerbi.com/getdata/services/azure-search)에 연결합니다.
 
 ## <a name="how-to-connect"></a>연결 방법
-1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.
+1. 탐색 창의 맨 아래에서 **데이터 가져오기**를 선택합니다.
    
    ![](media/service-connect-to-azure-search/pbi_getdata.png) 
 2. **서비스** 상자에서 **가져오기**를 선택합니다.

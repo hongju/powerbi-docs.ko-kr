@@ -2,20 +2,19 @@
 title: Power BI Desktop에서 도형 맵 사용(미리 보기)
 description: Power BI Desktop에서 도형 맵을 사용하여 지역에 대한 상대 비교 만들기
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amanda
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6543263c0e6c3395479169e8b02034e4a9c78f7b
-ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72164045"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871110"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵(미리 보기)
 
@@ -61,7 +60,7 @@ Power BI Desktop에 비어 있는 **도형 맵** 시각적 개체 디자인 캔�
 3. 그런 다음, **기본 색**, **확대/축소** 등과 같은 서식 지정 옵션을 사용하여 맵을 수정할 수 있습니다. 또한 **범례** 버킷에 범주 데이터 열을 추가하고 범주에 따라 맵 지역을 분류할 수도 있습니다.
 
 ## <a name="use-custom-maps"></a>사용자 지정 맵 사용
-**TopoJSON** 형식인 **도형 맵**과 함께 사용자 지정 맵을 사용할 수 있습니다. 맵이 다른 형식인 경우 [**맵 쉐이퍼**](http://mapshaper.org/)와 같은 온라인 도구를 사용하여 *셰이프 파일* 또는 *GeoJSON* 맵을 **TopoJSON** 서식으로 변환할 수 있습니다.
+**TopoJSON** 형식인 **도형 맵**과 함께 사용자 지정 맵을 사용할 수 있습니다. 맵이 다른 형식인 경우 [**맵 쉐이퍼**](https://mapshaper.org/)와 같은 온라인 도구를 사용하여 *셰이프 파일* 또는 *GeoJSON* 맵을 **TopoJSON** 서식으로 변환할 수 있습니다.
 
 **TopoJSON** 맵 파일을 사용하려면 ShapeMap 시각적 개체를 보고서에 추가하고 일부 데이터를 ‘위치’ 및 ‘색 채도’ 버킷에 추가합니다.   그런 다음, 선택한 **서식** 섹션이 있는 **시각화** 창에서(다음 이미지에 (1)로 표시) **도형** 섹션을 확장하고 **+ 맵 추가**를 선택합니다.
 
@@ -82,7 +81,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 이 데이터 세트 및 시각화를 실험하려는 경우 다음 링크를 사용하여 이 보고서를 생성하는 데 사용된 원본 PBIX 파일을 다운로드할 수 있습니다.
 
-* [도형 맵 데모 .PBIX 파일 사용자 지정](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
+* [도형 맵 데모 .PBIX 파일 사용자 지정](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>맵 데이터 가져오기
 데이터를 모델로 신속하게 가져와 **도형 맵**을 테스트하기 위해서는 이 문서의 끝에 있는 테이블 중 하나를 복사한 후 리본 메뉴 **홈** 탭에서 **데이터 입력**을 선택하면 됩니다.
@@ -108,7 +107,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 * **도형 맵** 시각적 개체는 미리 보기 상태이며 Power BI Desktop에서 사용하도록 설정해야 합니다. **도형 맵**을 사용하도록 설정하려면 **파일 > 옵션 및 설정 > 옵션 > 미리 보기 기능**을 선택한 후 **도형 맵 시각화** 확인란을 선택합니다.
 * 현재는 **범례** 분류가 제대로 작동하려면 **색 채도** 버킷도 설정되어 있어야 합니다.
 * **도형 맵**의 최종 릴리스 버전에는 현재 선택된 맵의 맵 키를 보여주는 사용자 인터페이스가 포함됩니다(최종 릴리스에 대한 날짜 집합은 없지만, **도형 맵**은 미리 보기에 있음). 이 미리 보기 릴리스에서 이 문서의 다음 **지역 키** 섹션에 있는 테이블의 맵 지역 키를 참조할 수 있습니다.
-* **도형 맵** 시각적 개체는 최대 1,000개의 데이터 요소를 표시합니다.
+* **도형 맵** 시각적 개체는 최대 1,500개의 데이터 요소를 표시합니다.
 
 ## <a name="region-keys"></a>지역 키
 

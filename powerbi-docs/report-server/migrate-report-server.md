@@ -3,18 +3,17 @@ title: Report Server 설치 마이그레이션
 description: Power BI Report Server의 인스턴스로 기존 SQL Server Reporting Services 인스턴스를 마이그레이션하는 방법에 대해 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/17/2019
-ms.openlocfilehash: 01c87d425b1ada76e322af411188a4a2717562d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bc3b196313266be64e7a63a66f33ef4020574d2a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770171"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858889"
 ---
 # <a name="migrate-a-report-server-installation"></a>Report Server 설치 마이그레이션
 
@@ -70,10 +69,10 @@ SharePoint 환경에서 Power BI Report Server로 보고서 서버 콘텐츠를 
 Sample Script
 rs.exe
 -i ssrs_migration.rss -e Mgmt2010
--s http://SourceServer/_vti_bin/reportserver
+-s https://SourceServer/_vti_bin/reportserver
 -v st="sites/bi" -v f="Shared Documents“
 -u Domain\User1 -p Password
--v ts=http://TargetServer/reportserver
+-v ts=https://TargetServer/reportserver
 -v tu="Domain\User" -v tp="Password"
 ```
 
@@ -81,7 +80,7 @@ rs.exe
 
 Power BI Report Server에서 마이그레이션하는 작업은 SSRS(기본 모드)에서 마이그레이션하는 작업과 동일한 프로세스입니다.
 
-![Power BI Report Server에서 Power BI Report로 마이그레이션](media/migrate-report-server/migrate-from-pbirs.png "Power BI Report Server에서 Power BI Report Server로 마이그레이션")
+![Power BI Report Server에서 Power BI Report Server로 마이그레이션](media/migrate-report-server/migrate-from-pbirs.png "Power BI Report Server에서 Power BI Report Server로 마이그레이션")
 
 * 데이터베이스, 애플리케이션 및 구성 파일 백업
 * 암호화 키를 백업합니다.

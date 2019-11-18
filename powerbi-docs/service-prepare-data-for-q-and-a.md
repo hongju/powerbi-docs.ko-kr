@@ -1,8 +1,7 @@
 ---
-title: Power BI의 Q&A로 Excel 데이터가 잘 작동하게 합니다.
+title: Power BI의 질문 및 답변에서 Excel 데이터가 잘 작동하도록 설정
 description: Power BI의 질문 및 답변에서 데이터가 잘 작동하게 만드는 방법
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7ed8eb8e205c05582d2cfd93030ab056be77912a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 16d58090a9a7c6e64fbf2ace23fdf342d1768a30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65624979"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881076"
 ---
-# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Power BI의 Q&A로 Excel 데이터가 잘 작동하게 합니다.
+# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Power BI의 질문 및 답변에서 Excel 데이터가 잘 작동하도록 설정
 데이터 모델을 만들거나 Power BI에 사용할 Excel 통합 문서를 작성하는 사람이라면 다음을 확인하세요.
 
 Power BI에서는 질문 및 답변으로 구조화된 데이터를 검색하고 질문에 맞는 시각화를 선택할 수 있으므로 매우 유용한 도구입니다.   
@@ -39,16 +38,16 @@ Power BI에서는 질문 및 답변으로 구조화된 데이터를 검색하고
   
   예를 들어, 판매 데이터를 포함하는 테이블인 경우 테이블을 "Sales"라고 합니다. "Year", "Product", "Sales Rep" 및 "Amount"와 같은 열 이름이 질문 및 답변에서 잘 작동합니다.
 
-* 통합 문서에 파워 피벗 데이터 모델이 있는 경우 더 많은 최적화를 수행할 수 있습니다. 사내 팀의 자연어 전문가가 제공하는 [Power BI 질문 및 답변 이해 2부](http://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx)에 대해 자세히 알아보세요.
+* 통합 문서에 파워 피벗 데이터 모델이 있는 경우 더 많은 최적화를 수행할 수 있습니다. 사내 팀의 자연어 전문가가 제공하는 [Power BI 질문 및 답변 이해 2부](https://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx)에 대해 자세히 알아보세요.
 
 * Power BI Desktop에서 데이터 세트를 열고 새 열을 만들고, 계산된 측정값을 만들고, 필드를 연결하여 고유 값을 만들고, 데이터를 유형별로(예: 날짜, 문자열, 지리, 이미지, URL) 분류합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-- [소비자에 대한 질문과 대답](consumer/end-user-q-and-a.md)  
-- [대시보드 및 보고서에서 질문 및 답변 사용](power-bi-tutorial-q-and-a.md)
-- [Q&a에 대 한 온-프레미스 데이터 집합 준비](service-q-and-a-direct-query.md)   
+- [소비자를 위한 Q&A](consumer/end-user-q-and-a.md)  
+- [대시보드 및 보고서에서 Q&A 사용](power-bi-tutorial-q-and-a.md)
+- [질문 및 답변에 대한 온-프레미스 데이터 세트 준비](service-q-and-a-direct-query.md)   
 - [Power BI에 대한 데이터 가져오기](service-get-data.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

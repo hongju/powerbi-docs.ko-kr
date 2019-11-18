@@ -2,19 +2,18 @@
 title: Power BI 모바일 앱에서 온-프레미스 보고서 및 KPI 보기
 description: SQL Server Reporting Services 및 Power BI Report Server에서 Power BI 모바일 앱은 온-프레미스 비즈니스 정보에 대한 터치 기반 라이브 모바일 액세스를 제공합니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 01ee3cf9be3a0d6b4350925d4ecb9e57b668457a
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 50d44b99d8efea848588ab4c460a469ef6dc780b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060229"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879461"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 온-프레미스 보고서 서버 보고서 및 KPI 보기
 
@@ -67,7 +66,7 @@ Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Serv
 
 1. 서버 주소, 사용자 이름, 암호를 입력합니다. 서버 주소에 대해 다음 형식을 사용합니다.
    
-     `http://<servername>/reports`
+     `https://<servername>/reports`
    
      또는
    
@@ -77,9 +76,9 @@ Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Serv
    
     ![서버에 연결 대화 상자](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (선택 사항) 원하는 경우 **고급 옵션**에서 서버 이름을 지정할 수 있습니다.
-6. 이제 이 예에서 "power bi report server"라고 하는 서버가 왼쪽 탐색 모음에 표시됩니다.
+6. 이제 이 예에서 "power bi report server"라는 서버가 탐색 창에 표시됩니다.
    
-   ![왼쪽 탐색 창에 표시되는 보고서 서버](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
+   ![탐색 창의 보고서 서버](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
 ## <a name="connect-to-an-on-premises-report-server-in-ios"></a>iOS에서 온-프레미스 보고서 서버에 연결
 
@@ -120,18 +119,18 @@ Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting 
 
 * **즐겨찾기**를 누릅니다.
   
-   ![왼쪽 탐색 창의 즐겨찾기](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
+   ![탐색 창의 즐겨찾기](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    웹 포털의 즐겨 찾는 KPI 및 보고서는 Power BI 서비스의 Power BI 대시보드와 함께 이 페이지에 모두 표시됩니다.
   
    ![즐겨찾기 페이지에서 Power BI 보고서 및 대시보드](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>보고서 서버에 대한 연결을 제거합니다.
-1. 왼쪽 탐색 창의 맨 아래에 있는 **설정**을 누릅니다.
+1. 탐색 창의 아래쪽에서 **설정**을 탭합니다.
 2. 연결하지 않으려는 서버 이름을 누릅니다.
 3. **서버 제거**를 탭합니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI란?](../../fundamentals/power-bi-overview.md)  
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

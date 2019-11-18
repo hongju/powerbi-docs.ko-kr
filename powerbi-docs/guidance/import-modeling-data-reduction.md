@@ -2,19 +2,18 @@
 title: 가져오기 모델링을 위한 데이터 축소 방법
 description: 가져오기 모델로 로드되는 데이터를 줄이는 데 도움이 되는 다양한 방법을 이해합니다.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 794ded1bc310cfcecc609f48ee4f0595693ceeb3
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c61a21f400de009815ecb685f989b1cdafbcdb22
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69520183"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875621"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>가져오기 모델링을 위한 데이터 축소 방법
 
@@ -29,7 +28,7 @@ VertiPaq 스토리지 엔진의 효율성에도 불구하고, 모델에 로드�
 - 모델이 작으면 데이터 새로 고침이 빨라지므로 보고 대기 시간이 단축되고, 데이터 세트 새로 고침 처리량이 증가하며, 원본 시스템 및 용량 리소스의 부담이 감소합니다.
 - 테이블 행 수가 적을수록 계산 평가가 빨라지므로 전반적인 쿼리 성능이 향상됩니다.
 
-이 문서에서는 7가지 데이터 축소 방법을 설명합니다. 내용은 다음과 같습니다.
+이 문서에서는 8가지 데이터 축소 방법을 설명합니다. 내용은 다음과 같습니다.
 
 - [불필요한 열 제거](#remove-unnecessary-columns)
 - [불필요한 행 제거](#remove-unnecessary-rows)
@@ -37,6 +36,7 @@ VertiPaq 스토리지 엔진의 효율성에도 불구하고, 모델에 로드�
 - [열 데이터 형식 최적화](#optimize-column-data-types)
 - [사용자 지정 열의 기본 설정](#preference-for-custom-columns)
 - [파워 쿼리의 쿼리 로드 사용 안 함](#disable-power-query-query-load)
+- [자동 날짜/시간 사용 안 함](#disable-auto-datetime)
 - [혼합 모드로 전환](#switch-to-mixed-mode)
 
 ## <a name="remove-unnecessary-columns"></a>불필요한 열 제거
@@ -74,7 +74,7 @@ VertiPaq 스토리지 엔진은 각 열에 대해 개별 데이터 구조를 사
 
 ## <a name="preference-for-custom-columns"></a>사용자 지정 열의 기본 설정
 
-VertiPaq 스토리지 엔진은 일반적인 파워 쿼리 원본 열과 동일한 방식으로 모델 계산 열(DAX에 정의됨)을 저장합니다. 그러나 데이터 구조가 약간 다르게 저장되며, 일반적으로 효율성이 떨어지는 압축을 수행합니다. 또한 모든 파워 쿼리 테이블이 로드된 다음 빌드되므로, 데이터 새로 고침 시간이 늘어날 수 있습니다. 따라서 테이블 열을 파워 쿼리 ‘계산’ 열(M에서 정의됨)이 아닌 다른 ‘계산’ 열로 추가하는 것은 비효율적입니다.
+VertiPaq 스토리지 엔진은 일반적인 파워 쿼리 원본 열과 동일한 방식으로 모델 계산 열(DAX에 정의됨)을 저장합니다. 그러나 데이터 구조가 약간 다르게 저장되며, 일반적으로 효율성이 떨어지는 압축을 수행합니다. 또한 모든 파워 쿼리 테이블이 로드된 다음 빌드되므로, 데이터 새로 고침 시간이 늘어날 수 있습니다. 따라서 테이블 열을 파워 쿼리 ‘계산’ 열(M에서 정의됨)이 아닌 다른 ‘계산’ 열로 추가하는 것은 비효율적입니다.  
 
 파워 쿼리에서 사용자 지정 열을 만드는 것이 좋습니다. 원본이 데이터베이스인 경우 두 가지 방법으로 로드 효율성을 높일 수 있습니다. 공급자의 기본 쿼리 언어를 사용하여 SQL 문에서 계산을 정의하거나, 데이터 원본의 열로 구체화할 수 있습니다.
 
@@ -86,9 +86,13 @@ VertiPaq 스토리지 엔진은 일반적인 파워 쿼리 원본 열과 동일�
 
 ![파워 쿼리의 쿼리에 대해 로드 사용 안 함](media/import-modeling-data-reduction/power-query-disable-query-load.png)
 
+## <a name="disable-auto-datetime"></a>자동 날짜/시간 사용 안 함
+
+Power BI Desktop에는 _자동 날짜/시간_이라는 옵션이 있습니다. 이 옵션을 사용하면 보고서 작성자가 일정 기간에 대한 필터, 그룹화 및 드릴다운을 구성하는 데 도움이 되도록 날짜 열에 대한 숨겨진 자동 날짜/시간 테이블이 생성됩니다. 숨겨진 테이블은 사실 모델의 크기를 늘리는 계산된 테이블입니다. 이 옵션을 사용하는 방법에 대한 지침은 [Power BI Desktop의 자동 날짜/시간](../desktop-auto-date-time.md) 문서를 참조하세요.
+
 ## <a name="switch-to-mixed-mode"></a>혼합 모드로 전환
 
-Power BI Desktop에서 혼합 모드 디자인은 복합 모델을 생성합니다. 기본적으로 ‘각 테이블의’ 스토리지 모드를 결정할 수 있습니다. 따라서 각 테이블의 스토리지 모드 속성을 가져오기 또는 DirectQuery로 설정할 수 있습니다(이중은 또 다른 옵션임).
+Power BI Desktop에서 혼합 모드 디자인은 복합 모델을 생성합니다. 기본적으로 ‘각 테이블의’ 스토리지 모드를 결정할 수 있습니다.  따라서 각 테이블의 스토리지 모드 속성을 가져오기 또는 DirectQuery로 설정할 수 있습니다(이중은 또 다른 옵션임).
 
 모델 크기를 줄이는 효과적인 방법은 큰 팩트 유형 테이블의 스토리지 모드 속성을 DirectQuery로 설정하는 것입니다. 이 디자인 방법은 앞에서 소개한 [그룹화 방법 및 요약](#group-by-and-summarize) 항목과 함께 사용할 때 효과적일 수 있습니다. 예를 들어 요약된 판매 데이터를 사용하여 고성능 “요약” 보고를 구현할 수 있습니다. 드릴스루 페이지는 특정(및 좁은) 필터 컨텍스트에 맞게 세분화된 판매를 표시하여, 상황에 맞는 모든 판매 주문을 표시할 수 있습니다. 이 예제에서는 드릴스루 페이지에 판매 주문 데이터를 검색하기 위한 DirectQuery 테이블 기반의 시각적 개체가 포함됩니다.
 

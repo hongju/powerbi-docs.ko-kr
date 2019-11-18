@@ -2,7 +2,6 @@
 title: 보고서를 PDF로 내보내기
 description: Power BI 보고서를 PDF로 내보내는 방법을 알아봅니다.
 author: mihart
-manager: kvivek
 ms.custom: ''
 ms.reviewer: cmfinlan
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1d6ddcd11118e0eb9894002c5c97edda134d4635
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 376ecd007e774a153b47df75417621d4233cc4ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716980"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862860"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>보고서를 Power BI에서 PDF로 내보내기
 
@@ -25,7 +24,7 @@ ms.locfileid: "72716980"
 Power BI를 사용하면 보고서를 PDF 형식으로 게시하고 Power BI 보고서를 기반으로 문서를 쉽게 만들 수 있습니다. PDF로 내보낼 때 Power BI 보고서의 각 페이지는 PDF 문서에 개별 페이지가 됩니다.
 
 ## <a name="export-your-power-bi-report-to-pdf"></a>Power BI 보고서를 PDF로 내보내기
-Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다. **홈**페이지, **앱** 또는 왼쪽 탐색 창의 여타 컨테이너에서 보고서를 선택할 수도 있습니다.
+Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다. **홈** 페이지, **앱** 또는 탐색 창의 다른 컨테이너에서 보고서를 선택할 수도 있습니다.
 
 1. 메뉴 모음에서 **내보내기** > **PDF**를 선택합니다.
 

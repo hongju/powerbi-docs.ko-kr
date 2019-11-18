@@ -3,17 +3,16 @@ title: Azure의 Power BI Embedded 서비스에 대한 진단 로깅 | Microsoft 
 description: Azure에서 Power BI Embedded 서비스에 대한 진단 로깅을 설정하는 방법을 알아봅니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: 9065feef76050c6a04e1ecf8ec7907b74be4b0ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289861"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875968"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure의 Power BI Embedded에 대한 진단 로깅
 
@@ -29,7 +28,7 @@ ms.locfileid: "68289861"
 
 ### <a name="azure-portal"></a>Azure Portal
 
-1. [Azure Portal](https://portal.azure.com) > Power BI Embedded 리소스에서 왼쪽 탐색에 있는 **진단 로그**를 선택하고 **진단 켜기**를 선택합니다.
+1. [Azure Portal](https://portal.azure.com) > Power BI Embedded 리소스의 탐색 창에서 **진단 로그**를 선택한 다음, **진단 켜기**를 선택합니다.
 
     ![Azure Portal에서 Power BI Embedded에 대한 진단 로깅 켜기](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 
@@ -169,7 +168,7 @@ Log Analytics에서 진단 데이터를 보려면 아래와 같이 관리 영역
 
 ![수집된 모든 데이터](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-all-collected-data.png)
 
-**형식**에서 **AzureDiagnostics**를 선택하고 **적용**을 선택합니다. AzureDiagnostics에는 Engine 이벤트가 포함됩니다. Log Analytics 쿼리는 즉시 만들어집니다.
+**형식**에서 **AzureDiagnostics**를 선택하고 **적용**을 선택합니다. AzureDiagnostics에는 Engin 이벤트가 포함됩니다. Log Analytics 쿼리는 즉시 만들어집니다.
 
 ![Azure Diagnostics](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 
