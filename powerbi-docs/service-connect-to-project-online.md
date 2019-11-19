@@ -41,7 +41,7 @@ Power BI용 [Project Web App 템플릿 앱](https://appsource.microsoft.com/prod
 6. **새 앱 시작**에서 **데이터 연결**을 선택합니다.
    
    ![데이터에 연결](media/service-connect-to-project-online/mproject.png)
-7. **Project Web App URL** 텍스트 상자에서 연결하려는 PWA(Project Web Add)의 URL을 입력합니다.  사용자 지정 도메인이 있는 경우 예제와 달라질 수 있습니다. **PWA 사이트 언어** 텍스트 상자에서 PWA 사이트 언어에 해당하는 번호를 입력합니다. 영어에는 단일 숫자 '1'을 입력하고, 프랑스어에는 '2'를 입력하고, 독일어에는 '3'을 입력하고, 포르투갈어(브라질)에는 '4'를 입력하고, 포르투갈어(포르투갈)에는 '5'를 입력하고 스페인어에는 '6'을 입력합니다. 
+7. **Project Web App URL** 텍스트 상자에서 연결하려는 PWA(Project Web App)의 URL을 입력합니다.  사용자 지정 도메인이 있는 경우 예제와 달라질 수 있습니다. **PWA 사이트 언어** 텍스트 상자에서 PWA 사이트 언어에 해당하는 번호를 입력합니다. 영어에는 단일 숫자 '1'을 입력하고, 프랑스어에는 '2'를 입력하고, 독일어에는 '3'을 입력하고, 포르투갈어(브라질)에는 '4'를 입력하고, 포르투갈어(포르투갈)에는 '5'를 입력하고 스페인어에는 '6'을 입력합니다. 
    
    ![Microsoft Project Online에 연결](media/service-connect-to-project-online/params.png)
 8. 인증 방법에 대해 **oAuth2** \> **로그인**을 선택합니다. 메시지가 표시되면 Project Web App 자격 증명을 입력하고 인증 프로세스를 따릅니다.
