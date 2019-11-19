@@ -23,7 +23,7 @@ Xero는 중소기업을 위해 특별히 설계된 사용이 용이한 온라인
 Power BI용 [Xero 콘텐츠 팩](https://app.powerbi.com/getdata/services/xero)에 연결하거나 [Xero 및 Power BI](https://help.xero.com/Power-BI) 통합에 대해 자세히 알아보세요.
 
 ## <a name="how-to-connect"></a>연결 방법
-1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.
+1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기**를 선택합니다.
    
    ![](media/service-connect-to-xero/getdata.png)
 2. **서비스** 상자에서 **가져오기**를 선택합니다.
@@ -52,7 +52,7 @@ Power BI용 [Xero 콘텐츠 팩](https://app.powerbi.com/getdata/services/xero)�
 * 데이터 세트을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용
-콘텐츠 팩 대시보드에는 다양한 영역을, 이에 대한 자세한 내용이 있는 해당 보고서와 함께 포괄하는 타일 및 메트릭이 포함됩니다.  
+콘텐츠 팩 대시보드에는 다양한 영역을 포함하는 타일 및 메트릭이 포함되며, 이에 대한 자세한 내용은 해당 보고서를 참조하십시오.  
 
 | 영역 | 대시보드 타일 | 보고서 |
 | --- | --- | --- |
