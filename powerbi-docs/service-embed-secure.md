@@ -10,18 +10,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3c6dc26ee1cf806ff85a9452c024e7ccbd210a25
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: d140e39cdd30f5e2078f24c55fda5ea7040e0ad4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867102"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431871"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>보안 포털 또는 웹 사이트에 보고서 포함
 
 Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에 보고서를 쉽고 안전하게 포함할 수 있습니다. 이러한 포털은 **클라우드 기반**이거나 **온-프레미스에 호스트**될 수 있습니다(예: SharePoint 2019). 포함된 보고서는 [RLS(행 수준 보안)](service-admin-rls.md)를 통해 모든 항목 사용 권한 및 데이터 보안을 준수합니다. 이 기능은 URL 또는 iFrame을 허용하는 모든 포털에 대한 코드 없는 포함을 지원합니다. 
 
-**포함** 옵션은 또한 [URL 필터](service-url-filters.md) 및 URL 설정을 지원합니다. 또한 기본 HTML 및 JavaScript 지식을 필요로 하는 로우 코드 접근 방식을 사용하는 포털과 통합할 수 있습니다.
+**포함** 옵션은 또한 [URL 필터](service-url-filters.md) 및 URL 설정을 지원합니다. 또한 기본 HTML 및 JavaScript 지식을 필요로 하는 로우 코드 접근 방식을 사용하는 포털과의 통합할 수 있습니다.
 
 ## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI 보고서를 포털에 **포함**하는 방법
 
@@ -49,7 +49,7 @@ Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에
 
 **포함** 옵션은 자동으로 사용자가 보고서를 볼 수 있도록 허용하지 않습니다. 보기 권한은 Power BI 서비스에서 설정합니다.
 
-Power BI 서비스에서 포함된 보고서를 액세스해야 하는 사용자와 공유할 수 있습니다. Office 365 그룹을 사용하는 경우 앱 작업 영역의 구성원으로 사용자를 나열할 수 있습니다. 자세한 내용은 [Power BI 및 Office 365에서 앱 작업 영역 관리](service-manage-app-workspace-in-power-bi-and-office-365.md) 방법을 참조하세요.
+Power BI 서비스에서 포함된 보고서를 액세스해야 하는 사용자와 공유할 수 있습니다. Office 365 그룹을 사용하는 경우 사용자를 작업 영역의 구성원으로 나열할 수 있습니다. 자세한 내용은 [Power BI 및 Office 365에서 작업 영역을 관리](service-manage-app-workspace-in-power-bi-and-office-365.md)하는 방법을 참조하세요.
 
 ## <a name="licensing"></a>라이선싱
 
@@ -64,7 +64,7 @@ Power BI 서비스에서 포함된 보고서를 액세스해야 하는 사용자
 | pageName  | **pageName** 쿼리 문자열 매개 변수를 사용하여 어떤 보고서 페이지를 열지 설정할 수 있습니다. 아래 그림과 같이 Power BI 서비스에 있는 보고서를 볼 때 보고서 URL의 끝에서 이 값을 확인할 수 있습니다. |  |  |  |
 | URL 필터  | Power BI UI로부터 받은 포함 URL의 [URL 필터](service-url-filters.md)를 사용하여 포함된 내용을 필터링할 수 있습니다. 이러한 방식으로 기본 HTML 및 JavaScript 환경만으로 로우 코드 통합을 빌드할 수 있습니다.  |  |  |  |
 
-## <a name="set-which-page-opens-for-an-embedded-report"></a>포함된 보고서에 대해 열리는 페이지 설정 
+## <a name="set-which-page-opens-for-an-embedded-report"></a>포함된 보고서에 대해 열리는 페이지를 설정합니다. 
 
 Power BI 서비스에 있는 보고서를 볼 때 보고서 URL의 끝에서 **pageName** 값을 확인할 수 있습니다.
 

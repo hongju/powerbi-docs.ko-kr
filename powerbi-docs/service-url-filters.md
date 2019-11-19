@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 389b28a4cadca10445ebaabeebaa109e414496f1
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623898"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891809"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -55,7 +55,7 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 * **문자열**은 ‘manager name’과 같이 작은따옴표로 묶여야 합니다.
 * **숫자**에는 특별한 서식 지정이 필요하지 않습니다. 자세한 내용은 이 문서의 [숫자 데이터 형식](#numeric-data-types)을 참조하세요.
-* **날짜 및 시간** 이 문서의 [날짜 데이터 형식](#date-data-types)을 참조하세요. 
+* **날짜 및 시간** 이 문서의 [Date 데이터 형식](#date-data-types)을 참조하세요. 
 
 여전히 혼동되는 경우 계속 읽어 보고 자세히 분석합니다.  
 
@@ -147,13 +147,13 @@ V3와 V4 사이에는 다른 점이 있습니다. OData V3는 날짜를 지원�
 
 ## <a name="special-characters-in-url-filters"></a>URL 필터의 특수 문자
 
-특수 문자 및 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 밑줄과 X로 시작하는 ‘이스케이프 코드’( **_x**) 및 4자리 **유니코드**와 그 뒤에 다른 밑줄을 붙여 해당 특수 문자의 접두사를 지정합니다.  유니코드가 4자 미만인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
+특수 문자 및 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 밑줄과 X로 시작하는 ‘이스케이프 코드’(**_x**) 및 4자리 **유니코드**와 그 뒤에 다른 밑줄을 붙여 해당 특수 문자의 접두사를 지정합니다. 유니코드가 4자 미만인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
 
 |식별자  |유니코드  | Power BI용 코딩  |
 |---------|---------|---------|
 |**Table Name**     | 공간은 0x20입니다.        |  Table_x0020_Name       |
 |**Column**@**Number**     |   @은 0x40입니다.     |  Column_x0040_Number       |
-|**[Column]**     |  [ is 0x0058 ]은 0x0050입니다.       |  _x0058_Column_x0050_       |
+|**[Column]**     |  [ is 0x005B ]는 0x005D입니다.       |  _x005B_Column_x005D_       |
 |**Column+Plus**     | +는 0x2B입니다.        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![테이블 시각적 개체 렌더링 특수 문자](media/service-url-filters/power-bi-special-characters1.png)

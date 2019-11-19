@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375149"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020488"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Cortana가 Power BI 보고서(및 해당 기본 데이터 세트)에 액세스하도록 설정
 지금까지 [Cortana 및 Power BI 소개](service-cortana-intro.md)에 대해 읽으셨습니다(그러지 않은 경우 먼저 읽은 후 다시 돌아오세요). 이제 직접 사용해 볼 수 있습니다.  Cortana에서 자연어로 질문하고 Power BI ***보고서***에 저장된 데이터에서 답변을 찾으려면 몇 가지 요구 사항을 충족해야 합니다. 특히 다음을 수행해야 합니다.
 
 > [!IMPORTANT]
-> Power BI에서 Cortana 통합은 되지 않습니다. 6월 11일부터 Cortana는 모든 대시보드 및 보고서에 대해 더 이상 작동하지 않습니다.
+> Cortana 통합은 Power BI에서 더 이상 사용되지 않습니다. 6월 11일부터 Cortana는 더 이상 대시보드 및 보고서에서 작동하지 않습니다.
 
 Power BI 서비스에서
 
@@ -42,7 +42,7 @@ Power BI 서비스(Power BI Desktop 아님)에 로그인하고 Power BI 서비�
 2. 이 보고서와 연결된 데이터 세트는 **Contoso Sales**입니다.
    
     ![Contoso Sales 데이터 세트](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. 데이터 세트 이름 오른쪽에 있는 **줄임표(...) &gt; 설정**을 선택합니다.  
+3. 데이터 세트 이름 오른쪽에 있는 **추가 옵션**(...) > 설정**을 선택합니다.  
    
     ![설정 선택](media/service-cortana-enable/power-bi-settings-cortana.png)
 4. **질문 및 답변과 Cortana** > **Cortana가 이 데이터 세트에 액세스할 수 있도록 허용합니다** > **적용**을 선택합니다.

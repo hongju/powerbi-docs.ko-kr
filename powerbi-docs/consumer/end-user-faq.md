@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf3e7b790788c8ce21b222a083a853b06185acc0
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 5166c99a66178fb29ecab3d5ed0a660f694f7a61
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943335"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430045"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 
@@ -24,11 +24,11 @@ ms.locfileid: "71943335"
 
 ## <a name="what-is-the-microsoft-power-bi-service"></a>Microsoft Power BI 서비스란?
 
-Power BI 서비스는 모든 사용자가 데이터에 대한 폭넓은 이해를 바탕으로 더욱 신속하고 보다 효율적으로 데이터를 시각화하고 분석할 수 있는 클라우드 기반의 비즈니스 분석 서비스입니다. 또한 사용하기 쉬운 대시보드, 대화형 보고서, 데이터를 흥미롭게 표현하는 매력적인 시각화를 통해 광범위한 클라우드 기반 및 온-프레미스 데이터에 사용자를 연결합니다. [Power BI](../power-bi-overview.md)에 대해 자세히 알아봅니다.
+Power BI 서비스는 모든 사용자가 데이터에 대한 폭넓은 이해를 바탕으로 더욱 신속하고 보다 효율적으로 데이터를 시각화하고 분석할 수 있는 클라우드 기반의 비즈니스 분석 서비스입니다. 또한 사용하기 쉬운 대시보드, 대화형 보고서, 데이터를 흥미롭게 표현하는 매력적인 시각화를 통해 광범위한 클라우드 기반 및 온-프레미스 데이터에 사용자를 연결합니다. [Power BI](../fundamentals/power-bi-overview.md)에 대해 자세히 알아봅니다.
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro와 Power BI Premium의 차이점은 무엇인가요?
 
-Power BI Pro는 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 라이선스입니다. 콘텐츠를 공유하고 다른 Pro 사용자와 협업할 수도 있습니다. Pro 사용자만 앱 작업 영역으로 콘텐츠를 게시하고, 대시보드를 공유하며, 대시보드 및 보고서를 구독할 수 있습니다.
+Power BI Pro는 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 라이선스입니다. 콘텐츠를 공유하고 다른 Pro 사용자와 협업할 수도 있습니다. Pro 사용자만 작업 영역에 콘텐츠를 게시하고, 대시보드를 공유하며, 대시보드 및 보고서를 구독할 수 있습니다.
 
 Power BI Premium은 보다 일관된 성능을 제공할 수 있는 전용 용량을 제공합니다. Power BI에서 더 큰 데이터 볼륨도 지원합니다. 개별 사용자의 경우, 프리미엄을 통해 Pro 사용자별 콘텐츠를 광범위하게 배포할 수 있으며 콘텐츠를 보는 수신자에게 사용자별 라이선스를 요구하지 않습니다.
 

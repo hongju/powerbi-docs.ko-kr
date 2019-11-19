@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 45c158d15c92b67d945696b6d55ba0b1e4c6d971
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100665"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019932"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 주석 추가
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 개별 주석을 추가하거나 동료와 대시보드 또는 보고서에 관한 대화를 시작합니다. **댓글** 기능은 *소비자*가 다른 사용자와 공동 작업할 수 있는 방법 중 하나입니다. 
 
 ![댓글 비디오](media/end-user-comment/comment.gif)
@@ -64,7 +67,7 @@ ms.locfileid: "71100665"
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>특정 대시보드 또는 보고서 시각적 개체에 주석 추가
 전체 대시보드 또는 전체 보고서 페이지에 주석을 추가하는 것 외에도, 개별 대시보드 타일과 개별 보고서 시각적 개체에 주석을 추가할 수 있습니다. 프로세스는 비슷하며, 이 예제에서는 보고서를 사용합니다.
 
-1. 시각적 개체를 마우스로 가리키고 줄임표(...)를 선택합니다.    
+1. 시각적 개체를 마우스로 가리키고 **추가 옵션**(...)을 선택합니다.    
 2. 드롭다운에서 **댓글 열기**를 선택합니다.
 
     ![댓글 추가가 첫 번째 옵션입니다.](media/end-user-comment/power-bi-report-comment.png)  
@@ -89,7 +92,7 @@ ms.locfileid: "71100665"
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>@ 기호를 사용하여 동료의 주의 유도
 대시보드, 보고서, 타일 또는 시각적 개체 댓글을 만드는지와 관계없이 “\@” 기호를 사용하여 동료의 주의를 끕니다.  “\@” 기호를 입력하면 Power BI는 조직에서 개인을 검색하고 선택할 수 있는 드롭다운을 엽니다. "\@" 기호로 나타나는 확인된 이름은 파란색 글꼴로 표시됩니다. 
 
-다음은 시각화 ‘디자이너’와 나누는 대화입니다.  @ 기호를 사용하여 주석을 보도록 유도합니다. 이 댓글이 나에게 쓴 것인지 알고 있습니다. Power BI에서 이 앱 대시보드를 열고 머리글에서 **댓글**을 선택합니다. **댓글** 창에 대화가 표시됩니다.
+다음은 시각화 ‘디자이너’와 나누는 대화입니다. @ 기호를 사용하여 주석을 보도록 유도합니다. 이 댓글이 나에게 쓴 것인지 알고 있습니다. Power BI에서 이 앱 대시보드를 열고 머리글에서 **댓글**을 선택합니다. **댓글** 창에 대화가 표시됩니다.
 
 ![댓글 멘션 추가](media/end-user-comment/power-bi-comment-convo.png)  
 

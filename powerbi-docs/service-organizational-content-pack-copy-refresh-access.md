@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fa7a7845686fd46e9d58ea138bdddd47a0a097
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019633"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020128"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>조직 콘텐츠 팩: 복사, 새로 고침 및 액세스
 
@@ -30,7 +30,7 @@ ms.locfileid: "72019633"
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>조직 콘텐츠 팩의 복사본 만들기
 다른 사용자가 볼 수 없는 나만의 콘텐츠 팩 복사본을 만들 수 있습니다.
 
-1. 콘텐츠 팩 대시보드 옆에서 줄임표(...) > 복사본 만들기를 선택합니다.
+1. 콘텐츠 팩 대시보드 옆에 있는 **추가 옵션**(...)을 선택한 다음 > 복사본 만들기를 선택합니다.
 
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. **저장**을 선택합니다.  

@@ -1,5 +1,5 @@
 ---
-title: 보고서 및 대시보드에 사용자 자신과 다른 사용자 구독 - Power BI
+title: 보고서 및 대시보드에 사용자 자신과 다른 사용자 구독
 description: Power BI 보고서 페이지, 대시보드 또는 페이지를 매긴 보고서의 스냅샷에 자신과 다른 사용자가 구독하는 방법에 대해 알아보세요.
 author: maggiesMSFT
 manager: kfile
@@ -8,19 +8,19 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e3e22a40b385ab519767eb850617a0506dbfbfd2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073431"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891818"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 보고서 및 대시보드에 자신과 다른 사용자 구독
 
-자신과 동료에게 가장 중요한 보고서 페이지, 대시보드 및 페이지를 매긴 보고서를 구독할 수 있습니다. Power BI가 받은 편지함으로 스냅샷을 이메일로 보냅니다. 메일 수신 빈도(초기 데이터 새로 고침 후 매일, 매주, 매시간, 매월 또는 하루에 한 번)를 Power BI에 지정합니다.  매일, 매주, 매시간 또는 매월을 선택하면 구독을 실행할 시간을 선택할 수 있습니다.  모든 보고서 페이지 및 대시보드에 대해 하루 최대 24개의 서로 다른 구독을 설정할 수 있습니다.
+자신과 동료에게 가장 중요한 보고서 페이지, 대시보드 및 페이지를 매긴 보고서를 구독할 수 있습니다. Power BI가 받은 편지함으로 스냅샷을 이메일로 보냅니다. 메일 수신 빈도(초기 데이터 새로 고침 후 매일, 매주, 매시간, 매월 또는 하루에 한 번)를 Power BI에 지정합니다.  매일, 매주, 매시간 또는 매월을 선택하면 구독을 실행할 시간을 선택할 수 있습니다.  모두 합쳐, 보고서 또는 대시보드당 최대 24개의 구독을 설정할 수 있습니다.
 
 ![대시보드의 이메일 스냅샷](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -41,7 +41,7 @@ Power BI 서비스에만 구독을 만들 수 있습니다. 보고서 페이지 
 
 페이지를 매긴 보고서를 구독하는 것은 약간 다릅니다. 자세한 내용은 [Power BI 서비스의 페이지를 매긴 보고서에 자신과 다른 사용자 구독](paginated-reports-subscriptions.md)을 참조하세요.
  
-![구독 아이콘 선택](media/service-report-subscribe/power-bi-subscribe-orientation.png)을 선택합니다.
+![구독 아이콘 선택](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. 대시보드 또는 보고서를 엽니다.
 2. 상단의 메뉴 모음에서 **구독**을 선택하거나 봉투 아이콘 ![구독 아이콘](media/service-report-subscribe/power-bi-icon-envelope.png)을 선택합니다.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61225915"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020114"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>하나의 대시보드에서 다른 대시보드에 타일 고정
 다른 대시보드에서 타일을 복사하는 것은 새 [대시보드 타일](consumer/end-user-tiles.md)을 추가하는 방법 중 하나입니다. 질문 및 답변이나 보고서에서 이 각 타일을 클릭하면 만들어진 곳으로 링크가 연결됩니다. 
@@ -26,7 +26,7 @@ ms.locfileid: "61225915"
 ## <a name="pin-a-tile-to-another-dashboard"></a>다른 대시보드에 타일 고정
 1. [데이터 가져오기](service-get-data.md). 이 예에서는 [IT 지출 분석 샘플](sample-it-spend.md)을 사용합니다.
 2. [대시보드](consumer/end-user-dashboards.md)를 엽니다.
-3. 고정하려는 타일을 마우스로 가리키고, 줄임표(...)를 선택한 후 **타일 고정**을 선택합니다.  
+3. 고정하려는 타일을 마우스로 가리키고, **추가 옵션**(...)을 선택한 다음, **타일 고정**을 선택합니다.  
    
    ![줄임표 메뉴](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. 기존 대시보드 또는 새 대시보드에 타일을 고정합니다. 

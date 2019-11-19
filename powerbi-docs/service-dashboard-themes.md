@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8e444c78c1f6f9f3f0be1375f96f7381489cc069
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3021ee4df1ba4456f86c3deb5e7a3c247dbc13fe
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61143702"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020414"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI 서비스에서 대시보드 테마 사용
 **대시보드 테마**를 사용하여 전체 대시보드에 회사 색, 계절 색 지정 또는 적용하려는 기타 색 테마 등의 색 테마를 적용할 수 있습니다. **대시보드 테마**를 적용하는 경우 대시보드의 모든 시각적 개체에서는 선택한 테마를 사용합니다(몇 가지 예외 적용, 이 아티클의 뒷부분에서 설명).
@@ -30,9 +30,7 @@ ms.locfileid: "61143702"
 
 
 ## <a name="how-dashboard-themes-work"></a>대시보드 테마 작동 방식
-
-시작하려면 직접 만들었고(또는 편집 권한이 있고) 사용자 지정하려는 대시보드를 엽니다. 줄임표(...)를 선택하고 **대시보드 테마**를 선택합니다.
-
+시작하려면 직접 만들었고(또는 편집 권한이 있고) 사용자 지정하려는 대시보드를 엽니다. **추가 옵션**(...)을 선택한 다음, **대시보드 테마**를 선택합니다. 
 
 ![대시보드 테마 옵션](media/service-dashboard-themes/power-bi-dashboard-theme.png)
 

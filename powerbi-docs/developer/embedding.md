@@ -17,16 +17,16 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: d2e52ff986bb2bba0caf5168c5038bb55011144a
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 501b43b7a17d60bbb277cd68c1a5d13e09b14bd5
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391523"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430736"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI를 사용한 임베디드 분석
 
-Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드 및 보고서 포함을 위한 API가 있습니다. 콘텐츠를 포함할 때 대시보드, 게이트웨이, 앱 작업 영역 등의 최신 Power BI 기능에 액세스할 수 있습니다.
+Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드 및 보고서 포함을 위한 API가 있습니다. 콘텐츠 포함 시 이 API를 사용하여 대시보드, 게이트웨이, 작업 영역 등의 최신 Power BI 기능에 액세스할 수 있습니다.
 
 [포함 설정 도구](https://aka.ms/embedsetup)를 통해 신속하게 시작하고 샘플 애플리케이션을 다운로드할 수 있습니다.
 
@@ -85,7 +85,7 @@ Power BI Embedded를 사용하는 개발자는 시각적 개체 및 분석 개�
 > [!IMPORTANT]
 > 포함에는 Power BI 서비스가 필요하지만 고객은 애플리케이션의 포함된 콘텐츠를 보기 위해 Power BI 계정이 필요하지 않습니다. 
 
-프로덕션으로 이동할 준비가 되면 앱 작업 영역은 전용 용량에 할당되어야 합니다. Microsoft Azure 내에서 Power BI Embedded는 애플리케이션에서 사용할 [전용 용량](azure-pbie-create-capacity.md)을 제공합니다.
+프로덕션으로 이동할 준비가 되면 전용 용량에 작업 영역을 할당해야 합니다. Microsoft Azure 내에서 Power BI Embedded는 애플리케이션에서 사용할 [전용 용량](azure-pbie-create-capacity.md)을 제공합니다.
 
 포함 세부 정보는 [Power BI 콘텐츠를 포함하는 방법](embed-sample-for-customers.md)을 참조하세요.
 

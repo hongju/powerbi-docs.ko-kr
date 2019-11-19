@@ -1,6 +1,6 @@
 ---
 title: 작업 영역 데이터 흐름 설정 구성
-description: Power BI에서 앱 작업 영역을 구성하여 Azure Data Lake Storage Gen2에 데이터 흐름 정의 및 데이터 파일 저장
+description: Power BI에서 작업 영역을 구성하여 Azure Data Lake Storage Gen2에 데이터 흐름 정의 및 데이터 파일 저장
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 54c0936510c3d383df32fd8b1f99816726f74d9f
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523510"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431992"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>작업 영역 데이터 흐름 설정 구성(미리 보기)
 
@@ -35,11 +35,11 @@ Power BI와 데이터 흐름을 사용하면 작업 영역의 데이터 흐름 �
 
 ## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>새 작업 영역 만들기, 데이터 흐름 스토리지 구성
 
-Power BI 서비스에서 새 앱 작업 영역을 만들려면 **작업 영역 > 앱 작업 영역 만들기**를 선택합니다.
+Power BI 서비스에서 새 작업 영역을 만들려면 **작업 영역 > 작업 영역 만들기**를 선택합니다.
 
 ![새 작업 영역 추가](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
-[앱 작업 영역 만들기] 대화 상자에 **개선된 작업 영역 미리 보기**라는 노란색 상자가 표시될 수 있습니다. 해당 영역에서 **지금 시도**를 선택합니다.
+작업 영역 만들기 대화 상자에 **개선된 작업 영역 미리 보기**라는 노란색 상자가 표시될 수 있습니다. 해당 영역에서 **지금 시도**를 선택합니다.
 
 ![개선된 작업 영역 미리 보기](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
@@ -47,7 +47,7 @@ Power BI 서비스에서 새 앱 작업 영역을 만들려면 **작업 영역 >
 
 ![새 작업 영역 이름 지정](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-그런 다음, **앱 작업 영역 만들기** 대화 상자의 **고급** 영역을 확장합니다. 여기서 **데이터 흐름 스토리지(미리 보기)** 설정을 켤 수 있습니다.
+이제 **작업 영역 만들기** 대화 상자의 **고급** 영역을 펼칩니다. 여기서 **데이터 흐름 스토리지(미리 보기)** 설정을 켤 수 있습니다.
 
 ![새 작업 영역의 고급 설정](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
@@ -57,7 +57,7 @@ Power BI 서비스에서 새 앱 작업 영역을 만들려면 **작업 영역 >
 
 새 작업 영역을 만드는 대신, 기존 작업 영역을 업데이트하여 조직의 Azure Data Lake Storage Gen2 계정에 정의 파일 및 데이터를 저장할 수 있습니다. 작업 영역에 데이터 흐름이 포함되지 않은 경우에만 데이터 흐름 스토리지 설정을 변경할 수 있습니다.
 
-앱 작업 영역을 편집하려면 줄임표 **(...)** 를 선택한 후 **작업 영역 편집**을 선택합니다. 
+작업 영역을 편집하려면 줄임표 **(...)** 를 선택한 다음, **작업 영역 편집**을 선택합니다. 
 
 ![작업 영역 편집](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
@@ -103,7 +103,7 @@ Power BI Pro, Premium 및 Embedded 작업 영역:
 
 데이터 흐름의 소유자가 아닌 경우 **Power BI Desktop** 고객은 Azure Data Lake Storage Gen2 계정에 저장된 데이터 흐름에 액세스할 수 없습니다. 다음 상황을 고려하세요.
 
-1.  Anna는 새 앱 작업 영역을 만들고 조직의 Data Lake에 데이터 흐름을 저장하도록 구성합니다.
+1.  Anna는 새 작업 영역을 만들고 조직의 데이터 레이크에 데이터 흐름을 저장하도록 구성합니다.
 2.  Anna가 만든 작업 영역의 구성원인 Ben은 Power BI Desktop 및 데이터 흐름 커넥터를 사용하여 Anna가 만든 데이터 흐름에서 데이터를 가져오려고 합니다.
 3.  Ben은 Data Lake의 데이터 흐름 CDM 폴더에 대한 권한 있는 사용자로 추가되지 않았으므로 오류가 발생합니다.
 

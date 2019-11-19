@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4ec7a67b861a747f9f8f654ab9fb3fa5c2951af3
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 6cc29bd1d06e948facf1058411759c15841a8352
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175195"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442925"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -28,8 +28,8 @@ ms.locfileid: "71175195"
 * [PowerShell 사용](#using-powershell)
 * [사용자가 Power BI에 등록하려면 어떻게 합니까?](#how-do-users-sign-up-for-power-bi)
 * [개별 사용자가 조직에 등록하려면 어떻게 합니까?](#how-do-individual-users-in-my-organization-sign-up)
-* [사용자가 내 기존 Office 365 테넌트에 가입하지 못하게 하려면 어떻게 합니까?](#how-can-i-prevent-users-from-joining-my-existing-office-365-tenant)
-* [사용자가 내 기존 Office 365 테넌트에 가입하도록 허용하려면 어떻게 합니까?](#how-can-i-allow-users-to-join-my-existing-office-365-tenant)
+* [사용자가 내 기존 Office 365 테넌트에 가입하지 못하게 하려면 어떻게 합니까?](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
+* [사용자가 내 기존 Office 365 테넌트에 가입하도록 허용하려면 어떻게 합니까?](#how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant)
 * [테넌트에 가입이 차단되어 있는지 확인하려면 어떻게 해야 하나요?](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
 * [기존 사용자가 Power BI 사용을 시작하지 못하게 하려면 어떻게 합니까?](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
 * [기존 사용자가 Power BI에 등록하도록 허용하려면 어떻게 합니까?](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)
@@ -39,7 +39,7 @@ ms.locfileid: "71175195"
 * [현재 조직의 사용자에 대한 ID를 관리하는 방법이 어떻게 달라집니까?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Power BI를 어떻게 관리합니까?](#how-do-we-manage-power-bi)
 * [Microsoft에서 사용자를 위해 만든 테넌트를 관리하는 프로세스는 무엇입니까?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
-* [여러 도메인이 있는 경우 사용자가 추가되는 Office 365 테넌트를 제어할 수 있나요?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
+* [여러 도메인이 있는 경우 사용자가 추가되는 Microsoft 365 테넌트를 제어할 수 있나요?](#if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to)
 * [이미 등록된 사용자의 Power BI를 제거하려면 어떻게 하나요?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [새 사용자가 내 테넌트에 가입한 경우 어떻게 알 수 있습니까?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [추가로 준비해야 할 것이 있나요?](#are-there-any-additional-things-i-should-prepare-for)
@@ -60,7 +60,7 @@ ms.locfileid: "71175195"
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>사용자가 Power BI에 등록하려면 어떻게 합니까?
 
-관리자로서,[Power BI 웹 사이트](https://powerbi.microsoft.com) 또는 Microsoft 365 관리 센터의 [서비스 구입](https://admin.microsoft.com/AdminPortal/Home#/catalog) 페이지를 통해 Power BI에 등록할 수 있습니다. 관리자가 Power BI에 등록할 때, 액세스해야 하는 사용자에게 사용자 라이선스를 할당할 수 있습니다.
+Microsoft 365 관리자는 [Power BI 웹 사이트](https://powerbi.microsoft.com) 또는 Microsoft 365 관리 센터의 [서비스 구매](https://admin.microsoft.com/AdminPortal/Home#/catalog) 페이지를 통해 Power BI에 등록할 수 있습니다. Microsoft 365 관리자는 Power BI에 등록할 때 액세스해야 하는 사용자에게 사용자 라이선스를 할당할 수 있습니다.
 
 또한, 조직의 개별 사용자는 [Power BI 웹 사이트](https://powerbi.microsoft.com)를 통해 Power BI에 등록할 수 있습니다. 조직에서 사용자가 Power BI에 등록할 때 서비스는 자동으로 Power BI 라이선스를 사용자에게 할당합니다. 자세한 내용은 [Power BI에 개별 가입](service-self-service-signup-for-power-bi.md) 및 [조직에서 Power BI 라이선싱](service-admin-licensing-organization.md)을 참조하세요.
 
@@ -68,21 +68,21 @@ ms.locfileid: "71175195"
 
 조직의 사용자에게 적용될 수 있는 세 가지 시나리오가 있습니다.
 
-* **시나리오 1**: 조직에 이미 기존 Office 365 환경이 있고 조직의 모든 사용자가 Office 365 계정을 가지고 있는 경우, ID를 관리하는 방법에 변경은 없습니다.
-    이 시나리오에서는 사용자에게 테넌트에 이미 회사 또는 학교 계정(예: contoso.com)이 있지만 아직 Power BI가 없는 경우, Microsoft는 간단히 해당 계정에 대한 플랜을 활성화합니다. 사용자에게 Power BI 서비스를 사용 하는 방법에 대한 정보를 자동으로 알립니다.
+* **시나리오 1**: 조직에 기존 Microsoft 365 환경이 있고, Power BI에 등록하는 사용자에게 Microsoft 365 계정이 이미 있습니다.
+    이 시나리오에서 테넌트에 회사 또는 학교 계정(예: contoso.com)이 있는 사용자에게 아직 Power BI가 없는 경우, Microsoft는 해당 계정에 대해 Power BI(무료) 플랜을 활성화합니다. 사용자에게 Power BI 서비스를 사용 하는 방법에 대한 정보를 자동으로 알립니다.
 
-* **시나리오 2**: 조직에 기존 Office 365 환경이 있지만, Power BI에 가입하는 사용자가 Office 365 계정을 가지고 있지 않습니다.
-    이 시나리오에서는 사용자 조직의 도메인 (예: contoso.com)에 전자 메일 주소가 있지만 Office 365 계정이 아직 없습니다. 이 경우 사용자는 Power BI에 가입할 수 있으며 자동으로 계정을 받습니다. 이 작업에는 Power BI 서비스에 액세스할 수 있습니다. 예를 들어 Nancy 라는 직원이 사용 하 여 자신의 회사 전자 메일 주소 (같은 nancy@contoso.com)를 등록 하려면 Microsoft 자동으로 Nancy를 Contoso의 Office 365 환경에 사용자로 추가 하 고 해당 계정에 대 한 Power BI를 활성화 합니다.
+* **시나리오 2**: 조직에 기존 Microsoft 365 환경이 있지만, Power BI에 등록하는 사용자에게 Microsoft 365 계정이 없습니다.
+    이 시나리오에서는 조직의 도메인(예: contoso.com)에 사용자의 메일 주소가 있지만 Microsoft 365 계정이 아직 없습니다. 이 경우 사용자는 Power BI에 가입할 수 있으며 자동으로 계정을 받습니다. 이 작업에는 Power BI 서비스에 액세스할 수 있습니다. 예를 들어 Nancy라는 직원이 업무용 메일 주소(예: nancy@contoso.com)를 사용하여 등록하는 경우, Microsoft는 자동으로 Contoso의 Microsoft 365 환경에 Nancy를 사용자로 추가하고 해당 계정에 대해 Power BI를 활성화합니다.
 
-* **시나리오 3**: 조직에 전자 메일 도메인에 연결된 Office 365 환경이 없습니다.
-    조직에서 Power BI를 활용하는 데 필요한 관리 작업은 없습니다. 서비스는 새 클라우드 전용 사용자 디렉터리에 사용자를 추가합니다. 테넌트 관리자로 인수하여 관리할 수도 있습니다. 테넌트 관리자로 인수하여 관리하도록 선택할 수도 있습니다.
+* **시나리오 3**: 조직에 메일 도메인과 연결된 Microsoft 365 환경이 없습니다.
+    조직에서 Power BI를 활용하는 데 필요한 관리 작업은 없습니다. 서비스는 새 클라우드 전용 사용자 디렉터리에 사용자를 추가합니다. 테넌트 관리자로 인수하여 관리할 수도 있습니다. 테넌트의 Microsoft 365 전역 관리자로 인수하여 관리할 수도 있습니다.
 
 > [!IMPORTANT]
-> 조직에 여러 전자 메일 도메인이 있고 모든 전자 메일 주소 확장을 같은 테넌트에 두려는 경우, 사용자가 등록하기 전에 모든 전자 메일 주소 도메인을 Azure Active Directory 테넌트에 추가합니다. 사용자를 만든 후에는 테넌트에서 사용자를 이동하는 지원되는 자동화된 메커니즘이 없습니다. 이 프로세스에 대한 자세한 내용은 이 문서의 뒷부분에 있는 [여러 도메인이 있는 경우, 사용자가 추가되는 Office 365 테넌트를 제어할 수 있습니까?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to) 및 [Office 365에 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.
+> 조직에 여러 전자 메일 도메인이 있고 모든 전자 메일 주소 확장을 같은 테넌트에 두려는 경우, 사용자가 등록하기 전에 모든 전자 메일 주소 도메인을 Azure Active Directory 테넌트에 추가합니다. 사용자를 만든 후에는 테넌트에서 사용자를 이동하는 지원되는 자동화된 메커니즘이 없습니다. 이 프로세스에 대한 자세한 내용은 이 문서의 뒷부분에 있는 [여러 도메인이 있는 경우 사용자가 추가되는 Microsoft 365 테넌트를 제어할 수 있나요?](#if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to) 및 [Microsoft 365에 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.
 
-### <a name="how-can-i-prevent-users-from-joining-my-existing-office-365-tenant"></a>사용자가 내 기존 Office 365 테넌트에 가입하지 못하게 하려면 어떻게 합니까?
+### <a name="how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant"></a>사용자가 기존 Microsoft 365 테넌트에 가입할 수 없게 하려면 어떻게 하나요?
 
-관리자로서 사용자가 기존 Office 365 테넌트에 가입하지 못하게 하기 위해 실행할 수 있는 단계가 있습니다. 액세스를 차단하는 경우, 사용자의 가입 시도는 실패하게 되고, 조직의 관리자에게 문의하라는 메시지가 나타납니다. 자동 라이선스 배포(예: 학생, 교수 및 교직원용 Office 365 Education 사용)를 이미 사용하지 않도록 설정한 경우에는 이 프로세스를 반복할 필요가 없습니다.
+Microsoft 365 전역 관리자는 사용자가 기존 Microsoft 365 테넌트에 가입하지 못하도록 특정 단계를 수행할 수 있습니다. 액세스를 차단하는 경우, 사용자의 가입 시도는 실패하게 되고, 조직의 관리자에게 문의하라는 메시지가 나타납니다. 자동 라이선스 배포(예: 학생, 교수 및 교직원용 Office 365 Education 사용)를 이미 사용하지 않도록 설정한 경우에는 이 프로세스를 반복할 필요가 없습니다.
 
 다음 PowerShell 스크립트를 사용하여 새 사용자가 관리되는 테넌트에 가입할 수 있도록 합니다. [PowerShell에 대해 자세히 알아보세요][1].
 
@@ -96,7 +96,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 > [!NOTE]
 > 액세스 차단은 조직의 새 사용자가 Power BI에 가입하지 못하게 합니다. 조직의 새 가입을 사용하지 않도록 설정하기 전에 Power BI에 가입하는 사용자는 라이선스를 여전히 유지합니다. 사용자를 제거하려면 이 문서의 뒷부분에서 [이미 등록된 사용자의 Power BI를 제거하려면 어떻게 하나요?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)를 참조하세요.
 
-### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>사용자가 내 기존 Office 365 테넌트에 가입하도록 허용하려면 어떻게 합니까?
+### <a name="how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant"></a>사용자가 기존 Microsoft 365 테넌트에 가입할 수 있게 하려면 어떻게 하나요?
 
 다음 PowerShell 스크립트를 사용하면 새 사용자가 관리형 테넌트에 가입할 수 있습니다. [PowerShell에 대해 자세히 알아보세요][1].
 
@@ -124,7 +124,7 @@ Get-MsolCompanyInformation | fl allow*
 
 다음 PowerShell 스크립트를 사용하여 임시 구독을 사용하지 않도록 설정합니다([PowerShell에 대한 자세한 정보][1]).
 
-1. Office 365 자격 증명을 사용하여 Azure Active Directory에 로그인합니다. 다음 PowerShell 스크립트의 첫 번째 행은 사용자 자격 증명을 입력하라는 메시지를 표시합니다. 두 번째 행은 Azure Active Directory에 연결합니다.
+1. Microsoft 365 자격 증명을 사용하여 Azure Active Directory에 로그인합니다. 다음 PowerShell 스크립트의 첫 번째 행은 사용자 자격 증명을 입력하라는 메시지를 표시합니다. 두 번째 행은 Azure Active Directory에 연결합니다.
 
     ```powershell
      $msolcred = get-credential
@@ -146,7 +146,7 @@ Get-MsolCompanyInformation | fl allow*
     ```
 
 > [!NOTE]
-> **AllowAdHocSubscriptions** 플래그를 사용하여 사용자가 Azure Rights Management 서비스에 가입하는 기능을 포함하여 조직의 여러 사용자 기능을 제어할 수 있습니다. 이 플래그를 변경하면 이러한 모든 기능에 영향을 줍니다. *false*로 설정하면 사용자는 여전히 Pro 평가판에 가입할 수 있습니다.
+> **AllowAdHocSubscriptions** 플래그를 사용하여 사용자가 Azure Rights Management 서비스에 가입하는 기능을 포함하여 조직의 여러 사용자 기능을 제어할 수 있습니다. 이 플래그를 변경하면 이러한 모든 기능에 영향을 줍니다. *false*로 설정해도 개인 Power BI Pro 평가판의 경우 사용자가 계속 등록할 수 있습니다.
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>기존 사용자가 Power BI에 등록하도록 허용하려면 어떻게 합니까?
 
@@ -158,36 +158,34 @@ Get-MsolCompanyInformation | fl allow*
 
 조직의 사용자에게 적용될 수 있는 세 가지 시나리오가 있습니다.
 
-* **시나리오 1**: 조직에 기존 Office 365 환경이 이미 있고 조직의 모든 사용자가 Office 365 계정을 가지고 있는 경우 ID 관리 방법에는 변화가 없습니다.
+* **시나리오 1**: 조직에 기존 Microsoft 365 환경이 있고 조직의 모든 사용자에게 Microsoft 365 계정이 있는 경우 ID 관리 방법이 변경되지 않습니다.
 
-* **시나리오 2**: 조직에 이미 기존 Office 365 환경이 있지만 조직의 일부 사용자만 Office 365 계정을 가지고 있는 경우, 테넌트에서 사용자를 만들고 사용자의 회사 또는 학교 전자 메일 주소에 기반하여 라이선스를 할당합니다.
+* **시나리오 2**: 조직에 기존 Microsoft 365 환경이 있지만 조직의 일부 사용자만 Microsoft 365 계정이 있는 경우, 테넌트에서 사용자를 만들고 사용자의 회사 또는 학교 메일 주소에 따라 라이선스를 할당합니다.
 
     따라서 특정 시간에 관리하는 사용자 수는 조직의 사용자가 서비스에 가입함에 따라 증가합니다.
 
-* **시나리오 3**: 조직의 Office 365 환경이 메일 도메인에 연결되지 않은 경우 ID 관리 방법에는 변화가 없습니다.
+* **시나리오 3**: 조직의 메일 도메인에 연결된 Microsoft 365 환경이 없는 경우 ID 관리 방법은 변경되지 않습니다.
 
-    서비스는 새 클라우드 전용 사용자 디렉터리에 사용자를 추가합니다. 테넌트 관리자로 인수하여 관리할 수도 있습니다. 테넌트 관리자로 인수하여 관리하도록 선택할 수도 있습니다.
+    이 서비스는 Microsoft 365 전역 관리자로 인수하고 관리할 수 있는 새 클라우드 전용 사용자 디렉터리에 사용자를 추가합니다.
 
 ### <a name="how-do-we-manage-power-bi"></a>Power BI를 어떻게 관리합니까?
 
-Power BI는 사용 통계를 볼 수 있고, 사용자 및 그룹을 관리하기 위한 Microsoft 365 관리 센터에 대한 링크를 제공하고 테넌트 전체 설정을 제어하는 기능을 제공하는 관리 포털을 제공합니다.
-
-Power BI 관리 포털을 사용하려면, Office 365 또는 Azure Active Directory 내에서 **전역 관리자**로 해당 계정을 표시하거나 해당 계정에 Power BI 서비스 관리자 역할을 할당해야 합니다. 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md) 및 [Power BI 관리 포털](service-admin-portal.md)을 참조하세요.
+Power BI는 Microsoft 365 전역 관리자 역할의 사용자와 Power BI 서비스 관리자 역할의 사용자에게 Power BI 관리 포털을 제공합니다. Power BI 관리 포털을 사용하려면 Microsoft 365 또는 Azure Active Directory 내에서 계정을 **전역 관리자**로 표시하거나 사용자 계정에 Power BI 서비스 관리자 역할이 할당되어야 합니다. 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)와 [Power BI 관리 포털](service-admin-portal.md)을 참조합니다. 포털에서는 테넌트 전체 설정을 제어하고 Power BI 사용 통계와 사용자 및 그룹을 관리하기 위한 Microsoft 365 관리 센터 링크를 볼 수 있습니다.
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Microsoft에서 사용자를 위해 만든 테넌트를 관리하는 프로세스는 무엇입니까?
 
-셀프 서비스 사용자가 Azure AD를 사용하는 클라우드 서비스에 가입하면 서비스에서 사용자의 메일 도메인에 따라 비관리형 Azure AD 디렉터리에 추가합니다. ‘관리자 인수’로 알려진 프로세스를 사용하여 다른 사람이 만든 테넌트를 클레임하고 관리할 수 있습니다.  자세한 내용은 [Azure Active Directory에서 관리자로 비관리형 디렉터리 인수](/azure/active-directory/users-groups-roles/domains-admin-takeover)를 참조하세요. 수행하는 인수 유형은 도메인과 연결된 기존 관리형 테넌트가 있는지 여부에 따라 다릅니다.
+셀프 서비스 사용자가 Azure AD를 사용하는 클라우드 서비스에 가입하면 서비스에서 사용자의 메일 도메인에 따라 비관리형 Azure AD 디렉터리에 추가합니다. *‘관리자 인수’* 로 알려진 프로세스를 사용하여 다른 사람이 만든 테넌트를 클레임하고 관리할 수 있습니다. 자세한 내용은 [Azure Active Directory에서 관리자로 비관리형 디렉터리 인수](/azure/active-directory/users-groups-roles/domains-admin-takeover)를 참조하세요. 수행하는 인수 유형은 도메인과 연결된 기존 관리형 테넌트가 있는지 여부에 따라 다릅니다.
 
 * Power BI는 내부 관리자 인수를 지원합니다. 관리되지 않는 Azure 디렉터리의 _내부_ 관리자 인수를 수행하는 경우 새 관리자가 관리되지 않는 디렉터리의 전역 관리자로 추가됩니다. 어떤 사용자, 도메인 또는 서비스 계획도 새 관리자가 관리하는 다른 디렉터리로 마이그레이션되지 않습니다.
 
-* Power BI에서는 외부 관리자 인수를 더 이상 지원하지 않습니다. 관리되지 않는 Azure 디렉터리의 _외부_ 관리자 인수를 수행하는 경우 관리되지 않는 디렉터리의 DNS 도메인 이름이 새 관리자가 관리하는 Azure 디렉터리에 추가됩니다. 도메인 이름을 추가하면 사용자가 중단 없이 서비스에 계속 액세스할 수 있도록 관리되는 Azure 디렉터리에서 사용자와 리소스 간 매핑이 만들어집니다.
+* Power BI에서는 외부 관리자 인수를 더 이상 지원하지 않습니다. 관리되지 않는 Azure 디렉터리의 _외부_ 관리자 인수를 수행하는 경우 관리되지 않는 디렉터리의 DNS 도메인 이름이 새 관리자가 관리하는 Azure 디렉터리에 추가됩니다. 외부 인수를 사용하면 원래의 비관리형 테넌트에 있던 모든 Power BI 콘텐츠에 액세스할 수 없게 됩니다. Power BI 보고서를 새 테넌트에 다시 게시하고 Power BI 대시보드와 앱을 새 테넌트에 다시 만들어야 합니다.
 
-### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>여러 도메인이 있는 경우 사용자가 추가되는 Office 365 테넌트를 제어할 수 있나요?
+### <a name="if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to"></a>여러 도메인이 있는 경우 사용자가 추가되는 Microsoft 365 테넌트를 제어할 수 있나요?
 
 사용자가 아무 작업도 하지 않는다면, 서비스는 각 사용자 전자 메일 도메인 및 하위 도메인에 대한 테넌트를 만듭니다. 모든 사용자가 자신의 전자 메일 주소 확장명에 관계 없이 동일한 테넌트에 포함되도록 하려면: 미리 대상 테넌트를 만들거나 기존 테넌트를 사용합니다. 그런 다음 해당 테넌트 내에서 통합하기 원하는 모든 기존 도메인 및 하위 도메인을 추가합니다. 해당 도메인 및 하위 도메인으로 끝나는 전자 메일 주소를 사용하는 모든 사용자는 등록할 때 자동으로 대상 테넌트에 가입됩니다.
 
 > [!IMPORTANT]
-> 사용자를 만든 후 테넌트 간에 사용자를 이동하는 자동화된 지원 메커니즘은 없습니다. 단일 Office 365 테넌트에 도메인을 추가하는 것에 대해 알아보려면 [Office 365에 사용자 및 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.
+> 사용자를 만든 후 테넌트 간에 사용자를 이동하는 자동화된 지원 메커니즘은 없습니다. 단일 Microsoft 365 테넌트에 도메인을 추가하는 방법에 대한 자세한 내용은 [Office 365에 사용자 및 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.
 
 ### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>이미 등록된 사용자의 Power BI를 제거하려면 어떻게 하나요?
 
@@ -209,7 +207,7 @@ Power BI 관리 포털을 사용하려면, Office 365 또는 Azure Active Direct
 
 ### <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>새 사용자가 내 테넌트에 가입한 경우 어떻게 알 수 있습니까?
 
-이 프로그램의 일부로 테넌트에 가입한 사용자에게 관리 대시보드의 활성 사용자 창 내에서 필터링할 수 있는 고유 라이선스를 할당합니다. 이 새 보기를 만들려면 다음 단계를 수행합니다.
+셀프 서비스 등록을 통해 테넌트에 가입한 사용자에게는 관리 대시보드의 활성 사용자 창 내에서 필터링할 수 있는 고유 라이선스가 할당됩니다. 이 새 보기를 만들려면 다음 단계를 수행합니다.
 
 1. [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
 
@@ -251,7 +249,7 @@ Power BI 준수에 대해 자세히 알아보려면 [Microsoft 보안 센터](ht
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI에서 보안은 어떻게 작동합니까?
 
-Microsoft는 Azure Active Directory와 같은 Azure 서비스에 구축된 Office 365를 기반으로 Power BI를 구축했습니다. Power BI 아키텍처 개요는 [Power BI 보안](service-admin-power-bi-security.md)을 참조하세요.
+Microsoft는 Azure Active Directory와 같은 Azure 서비스에 빌드된 Microsoft 365를 토대로 Power BI를 빌드했습니다. Power BI 아키텍처 개요는 [Power BI 보안](service-admin-power-bi-security.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

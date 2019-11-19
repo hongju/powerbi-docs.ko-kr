@@ -11,12 +11,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: cbb9fa77c529052e32800e0a72a6263b770840d0
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325451"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060668"
 ---
 # <a name="use-auditing-within-your-organization"></a>조직 내에서 감사 사용
 
@@ -34,7 +34,7 @@ Office 365 보안 및 준수 센터에서 감사하거나 PowerShell을 사용�
 
     관리자가 아닌 계정에 감사 로그 액세스 권한을 부여하려면 해당 사용자를 이러한 역할 그룹의 구성원으로 추가해야 합니다. 다른 방법으로는 Exchange 관리 센터에서 사용자 지정 역할 그룹을 만들고 이 그룹에 감사 로그 또는 보기 전용 감사 로그 역할을 할당한 다음 액세스 권한이 필요한 계정을 새로 만든 역할 그룹에 추가할 수도 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
 
-    Microsoft 365 관리 센터에서 Exchange 관리 센터에 액세스할 수 없는 경우, https://outlook.office365.com/ecp 로 이동하고 자격 증명을 사용하여 로그인하세요.
+    Microsoft 365 관리 센터에서 Exchange 관리 센터에 액세스할 수 없는 경우, https://outlook.office365.com/ecp로 이동하고 자격 증명을 사용하여 로그인하세요.
 
 * 감사 로그에 대한 액세스 권한이 있지만 전역 관리자 또는 Power BI 서비스 관리자가 아닌 경우 Power BI 관리 포털에 대한 액세스 권한이 없습니다. 이 경우에는 [Office 365 보안 및 준수 센터](https://sip.protection.office.com/#/unifiedauditlog)로 직접 연결되는 링크를 사용해야 합니다.
 
@@ -162,7 +162,9 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 | 관리자가 테넌트에 데이터 흐름 스토리지 계정 연결됨 | AdminAttachedDataflowStorageAccountToTenant | 현재 사용되지 않음                       |
 | Power BI 데이터 세트 분석됨                         | AnalyzedByExternalApplication               |                                          |
 | Power BI 보고서 분석                          | AnalyzeInExcel                              |                                          |
+| 데이터 흐름 스토리지 계정 연결됨                 | AttachedDataflowStorageAccount              |                                          |
 | 게이트웨이에 바인딩된 Power BI 데이터 세트                | BindToGateway                               |                                          |
+| 데이터 흐름 새로 고침 취소됨                        | CancelDataflowRefresh                       |                                          |
 | 용량 상태 변경됨                            | ChangeCapacityState                         |                                          |
 | 용량 사용자 할당 변경됨                  | UpdateCapacityUsersAssignment               |                                          |
 | Power BI 데이터 세트 연결 변경됨              | SetAllConnections                           |                                          |
@@ -194,6 +196,7 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 | Power BI 보고서 삭제됨                           | DeleteReport                                |                                          |
 | 검색된 Power BI 데이터 세트의 데이터 원본          | GetDatasources                              |                                          |
 | 다운로드한 Power BI 보고서                        | DownloadReport                              |                                          |
+| 데이터 흐름 속성 편집됨                        | EditDataflowProperties                      |                                          |
 | Power BI 인증 권한 편집됨          | EditCertificationPermission                 | 현재 사용되지 않음                       |
 | Power BI 대시보드 편집됨                         | EditDashboard                               | 현재 사용되지 않음                       |
 | Power BI 데이터 세트 편집됨                           | EditDataset                                 |                                          |
@@ -213,7 +216,7 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 | Power BI 대시보드 인쇄됨                        | PrintDashboard                              |                                          |
 | Power BI 보고서 페이지 인쇄됨                      | PrintReport                                 |                                          |
 | 웹에 Power BI 보고서 게시됨                  | PublishToWebReport                          |                                          |
-| Key Vault에서 Power BI 데이터 흐름 비밀 수신됨  | ReceiveDataflowSecretFromKeyVault           | 현재 사용되지 않음                       |
+| Key Vault에서 Power BI 데이터 흐름 비밀 수신됨  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Power BI Gateway에서 데이터 원본 제거됨         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI 그룹 구성원 제거됨                    | DeleteGroupMembers                          |                                          |
 | 용량에서 작업 영역 제거됨                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -221,6 +224,7 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 | 요청된 Power BI 데이터 흐름 새로 고침               | RequestDataflowRefresh                      | 현재 사용되지 않음                       |
 | 요청된 Power BI 데이터 세트 새로 고침                | RefreshDataset                              |                                          |
 | 검색된 Power BI 작업 영역                     | GetWorkspaces                               |                                          |
+| 작업 영역의 데이터 흐름 스토리지 위치 설정됨     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Power BI 데이터 흐름에서 예약된 새로 고침 설정        | SetScheduledRefreshOnDataflow               |                                          |
 | Power BI 데이터 세트에서 예약된 새로 고침 설정         | SetScheduledRefresh                         |                                          |
 | Power BI 대시보드 공유                         | ShareDashboard                              |                                          |
@@ -229,10 +233,12 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 | Power BI 평가판 시작됨                            | OptInForProTrial                            |                                          |
 | Power BI 데이터 원본 인계됨                   | TakeOverDatasource                          |                                          |
 | Power BI 데이터 세트 인계됨                        | TakeOverDataset                             |                                          |
+| Power BI 데이터 흐름 인수됨                     | TookOverDataflow                             |                                          |
 | Power BI 앱 게시 취소됨                          | UnpublishApp                                |                                          |
 | 용량 리소스 거버넌스 설정 업데이트      | UpdateCapacityResourceGovernanceSettings    | 현재 Microsoft 365 관리 센터에 없음 |
 | 용량 관리자 업데이트됨                            | UpdateCapacityAdmins                        |                                          |
 | 용량 표시 이름 업데이트됨                     | UpdateCapacityDisplayName                   |                                          |
+| 데이터 흐름 스토리지 할당 권한 업데이트됨   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | 조직의 Power BI 설정 업데이트됨          | UpdatedAdminFeatureSwitch                   |                                          |
 | Power BI 앱 업데이트됨                              | UpdateApp                                   |                                          |
 | Power BI 데이터 흐름 업데이트됨                         | UpdateDataflow                              |                                          |

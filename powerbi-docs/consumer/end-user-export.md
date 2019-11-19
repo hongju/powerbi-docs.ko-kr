@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 80033cafbe66303a1d6f55bba61f7d19449dc45b
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 77d26d32c70c3047636eb03d1211aff3736c8f0c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589519"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430180"
 ---
 # <a name="export-data-from-a-visual"></a>시각적 개체에서 데이터 내보내기
 
@@ -30,7 +30,7 @@ ms.locfileid: "72589519"
 
     ![앱 대시보드](media/end-user-export/power-bi-dashboards.png)
 
-2. 시각적 개체를 마우스로 가리켜서 줄임표(...)를 표시한 후 클릭하여 작업 메뉴를 표시합니다.
+2. 시각적 개체를 마우스로 가리켜 **추가 옵션**(...)을 표시하고 작업 메뉴를 클릭하여 표시합니다.
 
     ![줄임표를 선택할 때 나타나는 메뉴](media/end-user-export/power-bi-action-menu.png)
 

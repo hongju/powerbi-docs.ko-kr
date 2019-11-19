@@ -2,19 +2,18 @@
 title: Power BI 질문 및 답변에서 질문과 용어를 이해하도록 Q&A 교육
 description: Power BI 질문 및 답변을 사용하여 데이터를 탐색하는 방법
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: b6ae234991414f6971a656b43584710bde82dfaa
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 695ad9143aa7074e079ae8606a9ad0eb6f6c964f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717492"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874915"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Power BI 질문 및 답변에서 질문과 용어를 이해하도록 Q&A 교육
 

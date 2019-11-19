@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3577c19342d9f2dc5b0e3ab9908f47f82430e6db
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391521"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020623"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI 서비스의 샘플에 연결
 
@@ -38,7 +38,7 @@ Power BI 서비스 및 Power BI Desktop 샘플이 제공됩니다. 과정을 따
 
     Power BI Pro 라이선스가 없다면 샘플을 내 작업 영역에 저장하면 됩니다.
 
-2. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다. 
+2. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기**를 선택합니다. 
 
    ![데이터 가져오기 선택](media/sample-datasets/power-bi-get-data.png)
 
@@ -91,7 +91,7 @@ Power BI 서비스 및 Power BI Desktop 샘플이 제공됩니다. 과정을 따
      
    ![새 보고서](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
 
-1. 데이터 세트를 탐색하는 또 다른 방법은 [빠른 인사이트](consumer/end-user-insights.md)를 실행하는 것입니다. 줄임표(...)를 선택한 다음, **빠른 인사이트 탐색**을 선택합니다. 유용한 정보가 준비되면 **정보 보기**를 선택합니다.
+1. 데이터 세트를 탐색하는 또 다른 방법은 [빠른 인사이트](consumer/end-user-insights.md)를 실행하는 것입니다. **추가 옵션**(...)을 선택한 다음, **빠른 인사이트 탐색**을 선택합니다. 유용한 정보가 준비되면 **정보 보기**를 선택합니다.
      
     ![인사이트 보고서](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -106,7 +106,7 @@ Power BI 서비스에서 보고서를 편집하는 것과 달리, Power BI Deskt
 
 1. 보고서 뷰에서 파일이 열립니다. 보고서 편집기의 맨 아래에 있는 4개의 탭을 확인합니다. 이 탭은 이 보고서의 네 페이지를 나타냅니다. 이 예제에서는 **신규 매장** 페이지가 현재 선택되어 있습니다. 
 
-    ![신규 매장 탭이 강조 표시됨](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png)을 선택합니다.
+    ![신규 매장 탭이 강조 표시됨](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
 
 1. 보고서 편집기에 대한 자세한 내용은 [보고서 편집기 둘러보기](service-the-report-editor-take-a-tour.md)를 참조하세요.
 

@@ -2,7 +2,6 @@
 title: 질문 및 답변에서 질문하기 위한 팁과 요령
 description: Power BI Q&A에서 질문하기 위한 팁과 요령
 author: mihart
-manager: kvivek
 ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a3d70824949d214404b25b401930fc69cb47ad4e
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72774730"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099015"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A에서 질문하기 위한 팁
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A에서 인식하는 단어 및 용어
@@ -65,7 +64,7 @@ ms.locfileid: "72774730"
 |  |  |
 |**상위 N개**     |     (순서, 순위): top, bottom, highest, lowest, first, last, next, earliest, newest, oldest, latest, most recent, next            |
 |        |         |
-|**시각적 개체 유형**     |  모든 시각적 개체 유형은 Power BI 네이티브 유형입니다.  시각화 창에서 옵션인 경우 질문에 포함할 수 있습니다.  이 규칙에 대한 예외는 시각화 창에 수동으로 추가한 [사용자 지정 시각적 개체](../power-bi-custom-visuals.md)입니다.  |
+|**시각적 개체 유형**     |  모든 시각적 개체 유형은 Power BI 네이티브 유형입니다.  시각화 창에서 옵션인 경우 질문에 포함할 수 있습니다.  이 규칙에 대한 예외는 시각화 창에 수동으로 추가한 [사용자 지정 시각적 개체](../developer/power-bi-custom-visuals.md)입니다.  |
 |  |  예: 가로 막대형 차트로 월별 및 총 판매액별 구역 보기               |
 |        |         |
 |**Wh(관계, 정규화된)**  | when, where, which, who, whom, how many, how much, how many times, how often, how frequently, amount, number, quantity, how long, what                |
@@ -90,5 +89,5 @@ Q&A가 결과를 표시한 후에도 계속 대화를 진행하세요. 시각적
 
 [Power BI - 기본 개념](end-user-basic-concepts.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

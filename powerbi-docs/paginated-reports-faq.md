@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/04/2019
-ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 513c6a4a3f5041b7af06e5c1713de3bd417a1354
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968485"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431576"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
 
 이 문서에서는 페이지를 매긴 보고서에 대한 질문과 대답을 제공합니다. 이러한 보고서는 인쇄 또는 PDF 생성에 최적화되어 있고 정교하게 형식 지정된 완벽한 픽셀 출력입니다. 이러한 보고서가 “페이지를 매긴” 보고서로 불리는 이유는 여러 페이지에 적합하게 형식 지정되어 있기 때문입니다. 페이지를 매긴 보고서는 SQL Server Reporting Services의 RDL 보고서 기술을 기반으로 합니다. 
 
-이 문서에서는 Power BI Premium의 페이지를 매긴 보고서와 페이지를 매긴 보고서를 제작하는 데 사용되는 독립 실행형 도구인 보고서 작성기에 대해 가지고 있는 여러 가지 일반적인 질문에 대한 답변을 제공합니다. 서비스에 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 작업 영역이 Power BI Premium 용량에 포함된 경우 내 작업 영역 또는 앱 작업 영역에서 페이지를 매긴 보고서를 게시하고 공유할 수 있습니다. 
+이 문서에서는 Power BI Premium의 페이지를 매긴 보고서와 페이지를 매긴 보고서를 제작하는 데 사용되는 독립 실행형 도구인 보고서 작성기에 대해 가지고 있는 여러 가지 일반적인 질문에 대한 답변을 제공합니다. 서비스에 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 작업 영역이 Power BI Premium 용량에 포함된 경우 내 작업 영역 또는 작업 영역에서 페이지를 매긴 보고서를 게시하고 공유할 수 있습니다. 
 
 ## <a name="administration"></a>관리
 
@@ -163,7 +163,7 @@ Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, .CSV, XML 및 MHTML�
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Power BI Embedded를 사용하여 호스트하는 앱에 페이지를 매긴 보고서를 포함할 수 있나요?
 
-SaaS 포함은 이미 지원됩니다. PaaS 포함은 현재 지원되지 않습니다.
+보안 포함 지원을 비롯한 SaaS 포함은 이미 사용할 수 있습니다.  PaaS 포함 지원은 금년 하반기에 제공될 예정입니다.
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Power BI 보고서에서 페이지를 매긴 보고서로 드릴스루할 수 있나요?
 
@@ -179,7 +179,7 @@ SaaS 포함은 이미 지원됩니다. PaaS 포함은 현재 지원되지 않습
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>SSRS 고객이 기존 보고서 및 자산을 Power BI로 이동할 수 있도록 마이그레이션 도구가 계획되어 있나요?
 
-현재 콘텐츠를 자동으로 Power BI로 이동할 수 있는 옵션을 평가하고 있지만, GA 상태가 될 때까지 이 옵션은 사용할 수 없습니다.
+이제 GitHub 프로젝트에서 SQL Server Reporting Services의 콘텐츠를 Power BI로 마이그레이션할 수 있도록 지원합니다.  [https://github.com/microsoft/RdlMigration](https://github.com/microsoft/RdlMigration)에서 세부 정보를 확인하고 도구를 다운로드하세요.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서에 대한 보고서 뷰어 컨트롤이 있나요?
 

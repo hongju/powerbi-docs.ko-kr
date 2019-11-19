@@ -1,6 +1,6 @@
 ---
-title: '자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드'
-description: 이 자습서에서는 사용자가 샘플 Azure SQL Database에 연결합니다. 그런 다음, 보고서 작성기에서 마법사를 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다.
+title: '자습서:  페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드'
+description: 이 자습서에서 사용자는 샘플 Azure SQL Database에 연결합니다. 그런 다음, 보고서 작성기에서 마법사를 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다.
 author: maggiesMSFT
 ms.author: maggies
 manager: kfile
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839738"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431679"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>자습서:  페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드
 
 이 자습서에서 사용자는 샘플 Azure SQL Database에 연결합니다. 그런 다음 Power BI 보고서 작성기에서 마법사를 사용하여 여러 페이지에 걸쳐 있는 테이블을 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다.
 
@@ -44,7 +44,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필요한 필수 조건은 다음과 같습니다.
 
 - [Power BI Pro 라이선스](service-admin-power-bi-pro-in-your-organization.md)가 있어야 합니다.
-- [Power BI Premium 용량](service-premium-what-is.md)으로 서비스에 앱 작업 영역이 있어야 합니다. 해당 용량의 작업 영역 이름 옆에는 다이아몬드 아이콘(![Premium 다이아몬드 아이콘](media/paginated-reports-quickstart-aw/premium-diamond.png))이 있습니다.
+- [Power BI Premium 용량](service-premium-what-is.md)에 서비스 작업 영역이 있어야 합니다. 해당 용량의 작업 영역 이름 옆에는 다이아몬드 아이콘(![Premium 다이아몬드 아이콘](media/paginated-reports-quickstart-aw/premium-diamond.png))이 있습니다.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>마법사를 사용하여 행렬 만들기
   
@@ -161,7 +161,7 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 
     실제 데이터 값은 아직 표시되지 않습니다. 해당 값을 보려면 보고서를 실행해야 합니다.
 
-4. 속성 창에서 선택한 행렬은 Tablix1이라고 합니다. 보고서 작성기의 ‘테이블릭스’는 행과 열로 데이터를 표시하는 데이터 영역입니다.  테이블이거나 행렬입니다.
+4. 속성 창에서 선택한 행렬은 Tablix1이라고 합니다. 보고서 작성기의 ‘테이블릭스’는 행과 열로 데이터를 표시하는 데이터 영역입니다. 테이블이거나 행렬입니다.
 
 5. 그룹화 창에는 마법사에서 만든 다음 세 개의 행 그룹이 표시됩니다. 
 
@@ -249,7 +249,7 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 
     ![통화 값이 있는 셀 선택](media/paginated-reports-quickstart-aw/power-bi-paginated-select-money-cells.png)
 
-2. **홈** 탭에서 달러 기호( **$** ) 통화 기호를 선택하고 **자리 표시자** > **보기 값** 옆에 있는 화살표를 선택합니다.
+2. **홈** 탭에서 달러 기호(**$**) 통화 기호를 선택하고 **자리 표시자** > **보기 값** 옆에 있는 화살표를 선택합니다.
  
     ![샘플 값 표시](media/paginated-reports-quickstart-aw/power-bi-paginated-format-currency.png)
 
@@ -287,7 +287,7 @@ Power BI 서비스에 보고서를 게시하기 전에 한 가지 더 형식 지
 
 페이지를 매긴 보고서를 만들었으므로 이제 Power BI 서비스에 이 보고서를 업로드합니다.
 
-1. 왼쪽 탐색의 Power BI 서비스(http://app.powerbi.com) 에서 **작업 영역** > **앱 작업 영역 만들기**를 선택합니다.
+1. Power BI 서비스(http://app.powerbi.com)의 왼쪽 탐색에서 **작업 영역** > **작업 영역 만들기**를 선택합니다.
 
 2. 작업 영역 이름을 **Azure AW** 또는 다른 고유한 이름으로 지정합니다. 지금까지는 사용자가 유일한 구성원입니다. 
 

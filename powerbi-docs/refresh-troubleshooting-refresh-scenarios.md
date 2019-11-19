@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 564c3d03a7879cd7788e19055d8c11e4de46013f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 7e66cbf11c8177a12dbbf825873adb4cef5f26fd
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543870"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169034"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>새로 고침 시나리오 문제 해결
 
@@ -25,6 +25,12 @@ ms.locfileid: "72543870"
 > 아래 나열되어 있지 않은 시나리오가 발생하고 문제를 발생시킨 경우 [커뮤니티 사이트](http://community.powerbi.com/)에 추가 지원을 요청하거나 [지원 티켓](https://powerbi.microsoft.com/support/)을 만들 수 있습니다.
 >
 >
+
+## <a name="email-notifications"></a>메일 알림
+
+메일 알림에서 이 문서에 액세스하는 경우, 새로 고침 문제에 대한 메일을 더 이상 받지 않으려면 Power BI 관리자에게 문의하세요. Power BI의 해당 데이터 세트에서 구독한 메일 또는 메일 목록을 제거하도록 요청합니다. 관리자는 Power BI 관리 포털의 다음 영역에서 이 작업을 수행할 수 있습니다.
+
+![새로 고침 알림 메일](media/refresh-troubleshooting-refresh-scenarios/refresh-email.png)
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>웹 커넥터를 사용하여 새로 고침이 제대로 작동하지 않는 경우
 
@@ -74,11 +80,11 @@ Microsoft는 데이터 로드 프로세스에서 토큰을 새로 고치고 계�
 
 ## <a name="access-to-the-resource-is-forbidden"></a>리소스에 대한 액세스가 금지되었습니다.  
 
-이 오류는 캐시된 자격 증명이 만료되는 경우에 발생할 수 있습니다. Power BI에 로그인하고 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true 으로 이동하여 인터넷 브라우저 캐시를 지웁니다. 이렇게 하면 자격 증명의 업데이트를 적용합니다.
+이 오류는 캐시된 자격 증명이 만료되는 경우에 발생할 수 있습니다. Power BI에 로그인하고 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true으로 이동하여 인터넷 브라우저 캐시를 지웁니다. 이렇게 하면 자격 증명의 업데이트를 적용합니다.
 
 ## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>암호 변경 또는 만료된 자격 증명으로 인한 데이터 새로 고침 오류
 
-데이터 새로 고침은 캐시된 자격 증명이 만료되어 실패할 수도 있습니다. Power BI에 로그인하고 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true 으로 이동하여 인터넷 브라우저 캐시를 지웁니다. 이렇게 하면 자격 증명의 업데이트를 적용합니다.
+데이터 새로 고침은 캐시된 자격 증명이 만료되어 실패할 수도 있습니다. Power BI에 로그인하고 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true으로 이동하여 인터넷 브라우저 캐시를 지웁니다. 이렇게 하면 자격 증명의 업데이트를 적용합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

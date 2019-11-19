@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195307"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432350"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>조직에 템플릿 앱 설치 및 배포 - Power BI
 
@@ -57,7 +57,7 @@ Power BI 분석가인가요? 따라서 이 문서에서는 Salesforce, Microsoft
 
 4. 대화 상자에서 **설치**를 선택합니다.
 
-    ![앱 설치](media/service-template-apps-install-distribute/power-install-dialog.png) Power BI Pro 라이선스가 있는 경우 앱은 연결된 앱 작업 영역과 함께 설치됩니다. 연결된 작업 영역에서 앱을 사용자 지정합니다.
+    ![앱 설치](media/service-template-apps-install-distribute/power-install-dialog.png) Power BI Pro 라이선스가 있는 경우 앱은 연결된 작업 영역과 함께 설치됩니다. 연결된 작업 영역에서 앱을 사용자 지정합니다.
 
     설치가 성공하면 새 앱이 준비되었다는 알림이 표시됩니다.
 4. **앱으로 이동**을 선택합니다.
@@ -71,7 +71,7 @@ Power BI 분석가인가요? 따라서 이 문서에서는 Salesforce, Microsoft
 
     또는 이 대화 상자를 건너뛰고 왼쪽 탐색 창의 **작업 영역**을 통해 연결된 작업 영역에 직접 액세스합니다.
     >[!NOTE]
-    >*조직 앱*과 *앱 작업 영역* 모두에 설치된 템플릿 앱을 설치합니다. [Power BI에서 앱 배포](service-create-distribute-apps.md)에 대해 자세히 알아보세요.
+    >템플릿 앱을 설치하면 ‘조직 앱’과 ‘작업 영역’이 모두 설치됩니다. [Power BI에서 앱 배포](service-create-distribute-apps.md)에 대해 자세히 알아보세요.
  
 6. 동료와 공유하기 전에 자신의 데이터에 연결하려고 합니다. 보고서 또는 대시보드를 수정하여 조직에서 사용할 수 있도록 할 수도 있습니다. 이 시점에서 다른 보고서나 대시보드를 추가할 수도 있습니다.
 
@@ -80,7 +80,7 @@ Power BI 분석가인가요? 따라서 이 문서에서는 Salesforce, Microsoft
    ![앱 설치](media/service-template-apps-install-distribute/power-install-unvalidated-dialog.png)
 
    >[!NOTE]
-   >AppSource에 나열되지 않은 템플릿 앱을 설치하려면 관리자 사용 권한으로 요청해야 합니다. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings)을 참조하세요.
+   >AppSource에 나열되지 않은 템플릿 앱을 설치하려면 관리자 사용 권한으로 요청해야 합니다. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings) 을 참조하세요.
 
 ## <a name="customize-and-publish-the-app"></a>앱 사용자 지정 및 게시
 
@@ -121,11 +121,11 @@ Power BI 분석가인가요? 따라서 이 문서에서는 Salesforce, Microsoft
 
 ### <a name="overwrite-behavior"></a>덮어쓰기 동작
 
-* 덮어쓰기를 수행하면 앱이 아닌 ‘작업 영역’ 내부의 보고서, 대시보드 및 데이터 세트가 업데이트됩니다  . 덮어쓰기를 수행해도 앱 탐색, 설정 및 권한은 변경되지 않습니다.
-* 작업 영역을 업데이트한 후에는 ‘앱을 업데이트’하여 작업 영역의 변경 사항을 조직 앱에 적용해야 합니다  .
-* 덮어쓰기를 수행해도 구성된 매개 변수와 인증은 유지됩니다. 업데이트 후에는 자동 데이터 세트 새로 고침이 시작됩니다. 그동안 조직 앱, 보고서 및 대시보드는 ‘샘플 데이터’ 환경을 보여줍니다  .
+* 덮어쓰기를 수행하면 앱이 아닌 ‘작업 영역’ 내부의 보고서, 대시보드 및 데이터 세트가 업데이트됩니다. 덮어쓰기를 수행해도 앱 탐색, 설정 및 권한은 변경되지 않습니다.
+* 작업 영역을 업데이트한 후에는 ‘앱을 업데이트’하여 작업 영역의 변경 사항을 조직 앱에 적용해야 합니다.
+* 덮어쓰기를 수행해도 구성된 매개 변수와 인증은 유지됩니다. 업데이트 후에는 자동 데이터 세트 새로 고침이 시작됩니다. 그동안 조직 앱, 보고서 및 대시보드는 ‘샘플 데이터’ 환경을 보여줍니다.
   ![샘플 데이터](media/service-template-apps-install-distribute/power-bi-sample-data.png)
-* 덮어쓰기를 수행하면 새로 고침이 완료되기 전까지 항상 샘플 데이터가 표시됩니다. 템플릿 앱 작성자가 데이터 세트 또는 매개 변수를 변경해도 작업 영역 및 앱의 사용자는 계속해서 샘플 데이터 환경을 보게 됩니다  .
+* 덮어쓰기를 수행하면 새로 고침이 완료되기 전까지 항상 샘플 데이터가 표시됩니다. 템플릿 앱 작성자가 데이터 세트 또는 매개 변수를 변경해도 작업 영역 및 앱의 사용자는 계속해서 샘플 데이터 환경을 보게 됩니다.
 * 덮어쓰기가 수행되어도 사용자가 작업 영역에 추가한 새 *보고서*와 대시보드는 삭제되지 않고, 원래 보고서와 대시보드가 원래 작성자가 적용한 변경 사항으로 덮어쓰기 됩니다.
 
 >[!IMPORTANT]

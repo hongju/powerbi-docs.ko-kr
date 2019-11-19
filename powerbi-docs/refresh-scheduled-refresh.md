@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 9f1289b5fce74c60e5b3802054cef008dd33ada2
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816623"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021567"
 ---
 # <a name="configure-scheduled-refresh"></a>예약된 새로 고침 구성
 
@@ -30,7 +30,7 @@ ms.locfileid: "66816623"
 
 **예약된 새로 고침** 화면을 가져오기 위해 다음을 수행할 수 있습니다.
 
-1. **데이터 세트**에 나열된 데이터 세트 옆에 있는 **줄임표(...)** 를 선택합니다.
+1. **데이터 세트**에 나열된 데이터 세트 옆에 있는 **추가 옵션**(...)을 선택합니다.
 2. **새로 고침 예약**을 선택합니다.
 
     ![새로 고침 예약](media/refresh-scheduled-refresh/dataset-menu.png)
@@ -69,7 +69,7 @@ ms.locfileid: "66816623"
 ![새로 고침 예약 명령](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> 데이터 새로 고침을 위해 온-프레미스 SharePoint에 연결할 때 Power BI는 *익명*, *기본* 및 *Windows(NTLM/Kerberos)* 인증 메커니즘만 지원합니다. Power BI는 온-프레미스 SharePoint 데이터 원본의 데이터 새로 고침에 *ADFS* 또는 임의의 양식 기반 인증을 지원합니다. 
+> 데이터 새로 고침을 위해 온-프레미스 SharePoint에 연결할 때 Power BI는 *익명*, *기본* 및 *Windows(NTLM/Kerberos)* 인증 메커니즘만 지원합니다. Power BI는 온-프레미스 SharePoint 데이터 원본의 데이터 새로 고침에 *ADFS* 또는 임의의 양식 기반 인증을 지원합니다.
 >
 >
 

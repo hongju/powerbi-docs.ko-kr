@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 681cd9f65713738e2b842bfa3404511f9e3a98f4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 6a9c4f2e6348067b3a7029be8d8e7fdfb26e7045
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567353"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020939"
 ---
 # <a name="promote-your-dataset-preview"></a>데이터 세트 승격(미리 보기)
 
@@ -30,7 +30,7 @@ ms.locfileid: "67567353"
 
 1. 작업 영역의 데이터 세트 목록으로 이동합니다.
  
-1. 줄임표 (...)를 선택한 다음, **설정**을 선택합니다.
+1. **추가 옵션**(...)을 선택한 다음, **설정**을 선택합니다.
 
     ![데이터 세트별로 줄임표를 선택합니다.](media/service-datasets-certify-promote/power-bi-dataset-settings.png)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195393"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432145"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI에서 템플릿 앱 만들기
 
@@ -33,19 +33,19 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
 - [Power BI의 기본 개념](service-basic-concepts.md) 숙지
 - 템플릿 앱을 공개적으로 공유할 수 있는 권한. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings) 을 참조하세요.
 
-## <a name="create-the-template-app-workspace"></a>템플릿 앱 작업 영역 만들기
+## <a name="create-the-template-workspace"></a>템플릿 작업 영역 만들기
 
-다른 Power BI 테넌트에 배포할 수 있는 템플릿 앱을 만들려면 새 앱 작업 영역 중 하나에서 만들어야 합니다.
+다른 Power BI 테넌트에 배포할 수 있는 템플릿 앱을 만들려면 새 작업 영역 중 하나에서 만들어야 합니다.
 
-1. Power BI 서비스에서 **작업 영역** > **앱 작업 영역 만들기**를 선택합니다.
+1. Power BI 서비스에서 **작업 영역** > **작업 영역 만들기**를 선택합니다.
 
-    ![앱 작업 영역 만들기](media/service-template-apps-create/power-bi-new-workspace.png)
+    ![작업 영역 만들기](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. **앱 작업 영역 만들기**에서 **새로 업그레이드**를 선택합니다.
+2. **작업 영역 만들기**에서 **새 버전으로 업그레이드**를 선택합니다.
 
     ![새 작업 영역 시도](media/service-template-apps-create/power-bi-upgrade-new.png)
 
-3. 앱 작업 영역에 대한 이름, 설명(선택 사항) 및 로고 이미지(선택 사항)를 입력합니다.
+3. 작업 영역의 이름, 설명(선택 사항) 및 로고 이미지(선택 사항)를 입력합니다.
 
 4. **고급** 섹션을 확장하고 **템플릿 앱 개발**을 선택합니다.
 
@@ -57,9 +57,9 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
 
 ## <a name="create-the-content-in-your-template-app"></a>템플릿 앱의 콘텐츠 만들기
 
-일반 Power BI 앱 작업 영역과 마찬가지로, 다음 단계는 작업 영역에 콘텐츠를 만드는 것입니다.  
+일반 Power BI 작업 영역과 마찬가지로, 다음 단계는 작업 영역에 콘텐츠를 만드는 것입니다.  
 
-- 앱 작업 영역에서 [Power BI 콘텐츠를 만듭니다](power-bi-creator-landing.md).
+- 작업 영역에서 [Power BI 콘텐츠를 만듭니다](power-bi-creator-landing.md).
 
 파워 쿼리에서 매개 변수를 사용하는 경우, 매개 변수가 잘 정의된 형식(예: 텍스트)인지 확인합니다. Any 및 Binary 형식은 지원되지 않습니다.
 
@@ -69,7 +69,7 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
 
 이제 작업 영역에 콘텐츠가 있으므로 템플릿 앱에 패키징할 준비가 되었습니다. 첫 번째 단계는 테넌트의 조직 내에서만 액세스할 수 있는 테스트 템플릿 앱을 만드는 것입니다.
 
-1. 템플릿 앱 작업 영역에서 **앱 만들기**를 선택합니다.
+1. 템플릿 작업 영역에서 **앱 만들기**를 선택합니다.
 
     ![앱 만들기](media/service-template-apps-create/power-bi-create-app.png)
 
@@ -133,7 +133,7 @@ URL은 릴리스 단계 간을 전환할 때 변경되지 않습니다. 승격�
 
 단계를 진행해 보겠습니다.
 
-1. 템플릿 앱 작업 영역에서 **Release Management**를 선택합니다.
+1. 템플릿 작업 영역에서 **릴리스 관리**를 선택합니다.
 
     ![릴리스 관리 아이콘](media/service-template-apps-create/power-bi-release-management-icon.png)
 

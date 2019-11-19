@@ -1,6 +1,6 @@
 ---
-title: '자습서: Power BI Desktop에서 고유한 측정값 만들기'
-description: '자습서: Power BI Desktop에서 고유한 측정값 만들기'
+title: '자습서:  Power BI Desktop에서 고유한 측정값 만들기'
+description: '자습서:  Power BI Desktop에서 고유한 측정값 만들기'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513870"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019342"
 ---
-# <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>자습서: Power BI Desktop에서 고유한 측정값 만들기
+# <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>자습서:  Power BI Desktop에서 고유한 측정값 만들기
 측정값을 사용하여 Power BI Desktop에서 가장 강력한 데이터 분석 솔루션 중 일부를 만들 수 있습니다. 측정값은 보고서를 조작할 때 데이터에서 계산을 수행하여 도움을 줍니다. 이 자습서에서는 Power BI Desktop에서 고유한 기본 측정값을 이해하고 만드는 과정을 안내합니다.
 
 ### <a name="prerequisites"></a>필수 조건
@@ -60,7 +60,7 @@ DAX 수식에서는 Excel 수식과 동일한 함수, 연산자 및 구문을 �
 
 총 판매액에서 할인액과 반품액을 빼서 순 매출액을 분석하려고 합니다. 시각화에 있는 컨텍스트에 관계없이 SalesAmount의 합계에서 DiscountAmount 및 ReturnAmount의 합계를 빼는 측정값이 필요합니다. 필드 목록에는 순매출액에 대한 필드가 없지만 고유한 측정값을 만들어 순매출액을 계산할 수 있는 구성 요소가 있습니다. 
 
-1.  필드에서 **Sales** 테이블을 마우스 오른쪽 단추로 클릭하거나 테이블을 마우스로 가리키고 **추가 옵션** 줄임표(...)를 선택한 다음, **새 측정**을 선택합니다. 새 측정값이 Sales 테이블에 저장되고, 이 테이블에서 새 측정값을 쉽게 찾을 수 있습니다.
+1.  필드에서 **Sales** 테이블을 마우스 오른쪽 단추로 클릭하거나 테이블을 마우스로 가리키고 **추가 옵션**(...)을 선택한 다음, **새 측정값**을 선택합니다. 새 측정값이 Sales 테이블에 저장되고, 이 테이블에서 새 측정값을 쉽게 찾을 수 있습니다.
     
     ![새 측정값](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     

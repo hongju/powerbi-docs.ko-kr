@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41aaf33602fc8a895d54666736d775ac53d5aaef
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 860aa1de5a91d98e6a50773250e89581fc1d9801
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832443"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021325"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>클래식 작업 영역에서 공동 작업
 Power BI 작업 영역은 동료들과 협업하여 대시보드, 보고서 및 데이터 세트에서 *앱*을 만들기에 적합합니다. 이 문서는 원래 *클래식* 작업 영역에 대한 것입니다.  
@@ -45,7 +45,7 @@ Power BI Desktop 파일을 만든 후 작업 영역에 게시하면 작업 영�
 ## <a name="collaborate-in-office-365"></a>Office 365에서 공동 작업
 Office 365에서 공동 작업은 Power BI의 클래식 작업 영역에서 시작됩니다.
 
-1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 작업 영역 이름 옆에 있는 줄임표(...)를 선택합니다. 
+1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 **추가 옵션**(…)을 선택합니다. 
    
    ![작업 영역 메뉴](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. 이 메뉴에서 몇 가지 방법으로 그룹과 공동 작업할 수 있습니다. 
@@ -56,7 +56,7 @@ Office 365에서 공동 작업은 Power BI의 클래식 작업 영역에서 시�
    처음으로 Office 365의 그룹 작업 영역으로 이동하는 경우 시간이 걸릴 수 있습니다. 15-30분을 기다린 다음 브라우저를 새로 고칩니다.
 
 ## <a name="have-a-group-conversation-in-office-365"></a>Office 365의 그룹 대화
-1. 작업 영역 이름 옆에 있는 줄임표(...) \>**대화**를 선택합니다. 
+1. 작업 영역 이름 옆에 있는 **추가 옵션**(...) \> **대화**를 선택합니다. 
    
     ![대화 탭](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -66,7 +66,7 @@ Office 365에서 공동 작업은 Power BI의 클래식 작업 영역에서 시�
 2. [Office 365용 Outlook에서 그룹 대화](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22)에 대해 자세히 읽으십시오.
 
 ## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>그룹 작업 영역 일정에서 이벤트 예약
-1. 작업 영역 이름 옆에 있는 줄임표(...) \> **일정**을 선택합니다. 
+1. 작업 영역 이름 옆에 있는 **추가 옵션**(...) \> **일정**을 선택합니다. 
    
    ![일정 탭](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d06709f16beec025b99b69d82d5c17c248288004
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61270458"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429106"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 
@@ -20,7 +20,7 @@ Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션�
 
 Microsoft는 최근에 사용자의 콘텐츠 액세스, 공유 및 배포 방법에 대한 유연성을 높여주는 새로운 용량 기반 라이선스 모델인 [Power BI Embedded를 발표했습니다](https://powerbi.microsoft.com/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/). 또한, 이 제품은 향상된 확장성 및 성능을 제공합니다.
 
-Power BI Embedded를 사용하면, 콘텐츠 포함 시 단일 API 영역, 일관된 성능은 물론 대시보드, 게이트웨이 및 앱 작업 영역 등의 최신 Power BI 기능을 이용할 수 있습니다. 더 나아가 Power BI Desktop을 시작하고 Power BI Embedded를 통해 배포를 진행할 수 있습니다.
+Power BI Embedded를 사용하면 단일 API 표면, 일관성 있는 기능 집합, 콘텐츠 포함 시 대시보드, 게이트웨이, 작업 영역 등의 최신 Power BI 기능 액세스가 제공됩니다. 더 나아가 Power BI Desktop을 시작하고 Power BI Embedded를 통해 배포를 진행할 수 있습니다.
 
 현재 Power BI 작업 영역 컬렉션은 제한된 시간 동안 계속 사용할 수 있습니다. 기업계약을 체결한 고객은 기존 계약이 만료될 때까지 액세스할 수 있습니다. 직접 또는 CSP 채널을 통해 Power BI 작업 영역 컬렉션을 구매한 고객은 Power BI Embedded의 일반 공급 릴리스에서 1년간 액세스를 유지합니다.  이 아티클에서는 Power BI 작업 영역 컬렉션에서 새 Power BI Embedded 환경으로 마이그레이션하는 방법에 대한 일부 지침과 애플리케이션에서 예상되는 변경 내용을 제공합니다.
 
@@ -56,19 +56,19 @@ Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션�
 다음 계정은 테넌트 내에 있어야 합니다.
 
 > [!NOTE]
-> 이러한 계정은 앱 작업 영역을 사용하기 위해 Power BI Pro 라이선스를 보유해야 합니다.
+> 이러한 계정이 작업 영역을 사용하려면 Power BI Pro 라이선스가 있어야 합니다.
 
 1. 테넌트 관리 사용자.
 
-    이 사용자는 포함 목적으로 만든 모든 앱 작업 영역의 구성원이어야 합니다.
+    이 사용자는 포함 목적으로 만들어진 모든 작업 영역의 구성원을 지정하는 것이 좋습니다.
 
 2. 콘텐츠를 만드는 분석가용 계정.
 
-    이러한 사용자는 필요에 따라 앱 작업 영역에 할당되어야 합니다.
+    필요에 따라 이러한 사용자를 작업 영역에 할당해야 합니다.
 
 3. 애플리케이션 *마스터* 사용자 계정 또는 Embedded 계정.
 
-    애플리케이션 백 엔드는 이 계정에 대한 자격 증명을 저장한 후 Power BI REST API에 사용할 Azure AD 토큰을 획득하기 위해 사용합니다. 이 계정은 애플리케이션에 대한 임베드 토큰을 생성하는 데 사용됩니다. 또한 이 계정은 포함용으로 만든 앱 작업 영역의 관리자여야 합니다.
+    애플리케이션 백 엔드는 이 계정에 대한 자격 증명을 저장한 후 Power BI REST API에 사용할 Azure AD 토큰을 획득하기 위해 사용합니다. 이 계정은 애플리케이션에 대한 임베드 토큰을 생성하는 데 사용됩니다. 또한 이 계정은 포함용으로 만들어진 작업 영역의 관리자여야 합니다.
 
 > [!NOTE]
 > 이는 조직에서 포함의 목적으로 사용할 일반 사용자 계정일 뿐입니다.
@@ -83,14 +83,14 @@ REST API 호출을 실행하려면 Azure AD를 사용해 애플리케이션을 �
 
 애플리케이션 **마스터** 계정을 사용하여 애플리케이션을 등록해야 합니다.
 
-## <a name="create-app-workspaces-required"></a>앱 작업 영역 만들기(필수)
+## <a name="create-workspaces-required"></a>작업 영역 만들기(필수)
 
-애플리케이션에서 여러 고객에게 서비스를 제공하고 있을 경우 향상된 격리 성능을 제공하기 위해 앱 작업 영역을 활용할 수 있습니다. 대시보드와 보고서는 고객 간에 격리됩니다. 그런 다음, 앱 작업 영역당 하나의 Power BI 계정을 사용하여 고객 간 애플리케이션 경험을 더 격리할 수 있습니다.
+애플리케이션에서 여러 고객에게 서비스를 제공하는 경우, 보다 완벽한 격리를 위해 작업 영역을 활용할 수 있습니다. 대시보드와 보고서는 고객 간에 격리됩니다. 그런 다음, 작업 영역당 하나의 Power BI 계정을 사용하여 고객 간에 애플리케이션 환경을 더욱 격리할 수 있습니다.
 
 > [!IMPORTANT]
 > Power BI가 아닌 사용자에게 포함을 활용하기 위해 개인 작업 영역을 사용할 수 없습니다.
 
-Power BI 내에서 하나의 앱 작업 영역을 만들려면 Pro 라이센스가 있는 사용자가 필요합니다. 응용 프로그램 작업 영역을 만드는 Power BI 사용자는 기본적으로 해당 작업 영역의 관리자가 됩니다.
+Power BI 내에서 작업 영역을 만들려면 Pro 라이선스가 있는 사용자가 필요합니다. 작업 영역을 만드는 Power BI 사용자가 기본적으로 작업 영역의 관리자가 됩니다.
 
 > [!NOTE]
 > 애플리케이션 *마스터* 계정은 작업 영역의 관리자여야 합니다.
@@ -163,7 +163,7 @@ PBIX 다운로드는 *푸시 API* 데이터 세트를 지원하지 않습니다.
 
 ## <a name="create-and-upload-new-reports"></a>새 보고서 만들기 및 업로드
 
-Power BI 작업 영역 컬렉션에서 마이그레이션한 콘텐츠 뿐 아니라 Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음, 앱 작업 영역에 해당 보고서를 게시할 수 있습니다. 보고서를 게시하는 최종 사용자는 앱 작업 영역에 게시하기 위해 Power BI Pro 라이선스가 필요합니다.
+Power BI 작업 영역 컬렉션에서 마이그레이션한 콘텐츠뿐 아니라 Power BI Desktop을 사용하여 보고서와 데이터 세트를 만든 다음, 작업 영역에 해당 보고서를 게시할 수 있습니다. 보고서를 게시하는 최종 사용자가 작업 영역에 게시하려면 Power BI Pro 라이선스가 있어야 합니다.
 
 ## <a name="rebuild-your-application"></a>애플리케이션 다시 빌드
 
@@ -179,9 +179,9 @@ Power BI 작업 영역 컬렉션에서 마이그레이션한 콘텐츠 뿐 아�
 
 프로덕션으로 전환할 준비가 되면 다음 사항을 수행해야 합니다.
 
-* 개발에 별도 테넌트를 사용하는 경우 대시보드 및 보고서와 함께 앱 작업 영역을 프로덕션 환경에서 사용할 수 있는지 확인해야 합니다. 또한 Azure AD에 프로덕션 테넌트에 대한 애플리케이션을 만들고 1단계에서 표시된 대로 적절한 앱 사용 권한을 할당했는지 확인해야 합니다.
+* 개발에 별도 테넌트를 사용하는 경우 대시보드 및 보고서와 함께 작업 영역을 프로덕션 환경에서 사용할 수 있는지 확인해야 합니다. 또한 Azure AD에 프로덕션 테넌트에 대한 애플리케이션을 만들고 1단계에서 표시된 대로 적절한 앱 사용 권한을 할당했는지 확인해야 합니다.
 * 필요에 맞는 용량을 구입합니다. 필요한 용량 및 형식을 더 잘 이해하려면 [Power BI Embedded 분석 용량 계획 백서](https://aka.ms/pbiewhitepaper)를 참조하세요. Azure에서 [용량을 구입](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)할 수 있습니다.
-* 앱 작업 영역을 편집하고 고급에서 프리미엄 용량에 할당합니다.
+* 작업 영역을 편집하고 고급에서 프리미엄 용량에 할당합니다.
 
     ![프리미엄 용량](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
 

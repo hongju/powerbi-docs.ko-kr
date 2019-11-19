@@ -36,7 +36,7 @@ ms.locfileid: "73875716"
      b. **패키지 관리자 콘솔**에서 Install-Package Newtonsoft.Json을 입력합니다.
 2. 패키지가 설치되면 **using Newtonsoft.Json;** 을 Program.cs에 추가합니다.
 3. Program.cs에 **데이터 세트 ID**를 가져오는 아래 코드를 추가합니다.
-4. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. 콘솔 창에 **데이터 세트 ID:** 다음에 ID가 표시됩니다.
+4. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. 콘솔 창에 **Dataset ID:** 다음에 ID가 표시됩니다.
 
 **데이터 세트 가져오기 샘플**
 

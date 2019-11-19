@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1d773f8c7509fa4bbf872ae62f03bbb4da815d84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c750b4e3bea0649405316fe9e789234c32bba817
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61221263"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020075"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>새로 고침에 실패한 경우 Xero 콘텐츠 팩 자격 증명을 새로 고치는 방법
 Xero Power BI 콘텐츠 팩을 사용하는 경우 최근의 Power BI 서비스 인시던트로 인해 콘텐츠 팩을 매일 새로 고치면서 일부 문제가 발생했을 수 있습니다.
@@ -26,7 +26,7 @@ Xero Power BI 콘텐츠 팩을 사용하는 경우 최근의 Power BI 서비스 
 
 위에서 보여 주듯이 새로 고침이 실패한 경우에는 아래 단계를 수행하여 콘텐츠 팩 자격 증명을 갱신합니다.
 
-1. Xero 데이터 세트 옆의 줄임표 (...)를 클릭한 다음, **새로 고침 예약**을 클릭합니다. 그러면 Xero 콘텐츠 팩에 대한 설정 페이지가 열립니다.
+1. Xero 데이터 세트 옆에 있는 **추가 옵션**(...)을 클릭한 다음, **새로 고침 예약**을 클릭합니다. 그러면 Xero 콘텐츠 팩에 대한 설정 페이지가 열립니다.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
 2. **Xero 설정** 페이지에서 **데이터 원본 자격 증명** > **자격 증명 편집**을 선택합니다.
@@ -38,10 +38,10 @@ Xero Power BI 콘텐츠 팩을 사용하는 경우 최근의 Power BI 서비스 
 4. Xero 계정으로 로그인합니다.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
-5. 자격 증명을 업데이트했으므로 이제는 새로 고침 일정을 매일 실행으로 설정하도록 하겠습니다. 다시 한 번 Xero 데이터 세트 옆의 줄임표 (...)를 클릭한 다음, **새로 고침 예약**을 클릭합니다.
+5. 자격 증명을 업데이트했으므로 이제는 새로 고침 일정을 매일 실행으로 설정하도록 하겠습니다. Xero 데이터 세트 옆에 있는 **추가 옵션**(...)을 클릭한 다음, **새로 고침 예약**을 다시 클릭하여 확인합니다.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
-6. 데이터 세트도 즉시 새로 고칠 수 있습니다. Xero 데이터 세트 옆의 줄임표 (...)를 클릭한 다음, **지금 새로 고침**을 클릭합니다.
+6. 데이터 세트도 즉시 새로 고칠 수 있습니다. Xero 데이터 세트 옆에 있는 **추가 옵션**(...)을 클릭한 다음, **지금 새로 고침**을 클릭합니다.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: 830d75aaddd60ce0b678d6abdbeca7cd79a3ab28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bdac9b5d0377055d842ae4b64b914deb76660a41
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769833"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021432"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Power BI의 로그인 문제 해결
 
@@ -49,6 +49,9 @@ Microsoft 지원팀에 도움을 요청하기 위해 문의할 수 있는 또 �
 ## <a name="power-bi-community"></a>Power BI 커뮤니티
 
 커뮤니티 페이지에 포럼 게시물을 만들 수 없는 경우 [Power BI 커뮤니티 포럼](https://community.powerbi.com/)에도 로그인해야 하기 때문입니다.
+
+> [!Note]
+> 자세한 내용은 [커뮤니티 지원](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

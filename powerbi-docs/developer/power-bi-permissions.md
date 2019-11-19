@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 8a48ec007f2d8c9c07de5cc0d51049e3dbf19662
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 06901a484ca53881f30cc71d9a7404807ac6cd57
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269356"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429134"
 ---
 # <a name="power-bi-permissions"></a>Power BI 사용 권한
 
@@ -42,7 +42,7 @@ Power BI 사용 권한은 애플리케이션이 사용자를 대신하여 특정
 사용자 페이지에 처음으로 로그인할 때 호출의 범위 매개 변수에 요청된 권한을 전달하면 애플리케이션에서 사용 권한을 요청할 수 있습니다. 사용 권한이 부여되면 액세스 토큰이 앱에 반환되어 이후 API 호출에 사용할 수 있습니다. 액세스 권한은 특정 애플리케이션에서만 사용할 수 있습니다.
 
 > [!NOTE]
-> Power BI API는 계속 그룹으로 앱 작업 영역을 참조합니다. 그룹에 대한 참조는 앱 작업 영역과 작업 중임을 의미합니다.
+> Power BI API는 계속해서 작업 영역을 그룹으로 참조합니다. 그룹 참조는 작업 영역에서 작업 중임을 나타냅니다.
 
 ## <a name="requesting-permissions"></a>사용 권한 요청
 

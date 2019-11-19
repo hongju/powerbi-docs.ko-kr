@@ -11,12 +11,12 @@ ms.author: mblythe
 ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 04a8c8a08d885427e9de43b719674fce4ac2ebbd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 7d2bfbfb53914fea43014c78d88ac0c66559466c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074840"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431357"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI를 사용하는 행 수준 보안(RLS)
 
@@ -70,7 +70,7 @@ Power BI Desktop 내에서 역할을 만들거나 수정할 수만 있습니다.
 
 역할을 테스트하여 사용자가 정의한 역할이 제대로 작동하는지 확인할 수 있습니다. 
 
-1. 역할 옆에 있는 **줄임표 (...)** 를 선택합니다.
+1. 역할 옆에 있는 **추가 옵션**(...)을 선택합니다.
 2. **역할로 테스트**를 선택합니다.
 
 ![역할로 테스트](media/service-admin-rls/rls-test-role.png)
@@ -89,12 +89,12 @@ Power BI Desktop 내에서 역할을 만들거나 수정할 수만 있습니다.
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
-## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Power BI에서 앱 작업 영역으로 RLS 사용
+## <a name="using-rls-with-workspaces-in-power-bi"></a>Power BI에서 작업 영역과 함께 RLS 사용
 
-Power BI 서비스 내의 앱 작업 영역에 Power BI Desktop 보고서를 게시하는 경우 역할은 읽기 전용 멤버에 적용됩니다. 멤버는 앱 작업 영역 설정 내에서 Power BI 콘텐츠를 볼 수만 있다고 표시해야 합니다.
+Power BI 서비스 내의 작업 영역에 Power BI Desktop 보고서를 게시하는 경우, 읽기 전용 구성원에 역할이 적용됩니다. 구성원은 작업 영역 설정 내에서 Power BI 콘텐츠를 볼 수만 있다고 표시해야 합니다.
 
 > [!WARNING]
-> 구성원이 편집 권한을 갖도록 앱 작업 영역을 구성한 경우 RLS 역할이 적용되지 않습니다. 사용자는 모든 데이터를 확인할 수 있습니다.
+> 구성원이 편집 권한을 갖도록 작업 영역을 구성한 경우에는 RLS 역할이 적용되지 않습니다. 사용자는 모든 데이터를 확인할 수 있습니다.
 
 ![그룹 설정](media/service-admin-rls/rls-group-settings.png)
 

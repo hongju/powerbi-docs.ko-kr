@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 748594dcf9f71677057b8641e44f1408bebd1b89
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 3121c939cca8b2b4f743185e2367c8ea83794009
+ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715340"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048829"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
 
 ![](media/service-govus-overview/service_usgov_overview-1.png)
 
-다음 섹션에서는 미국 정부 기관 버전의 **Power BI 서비스**에서 사용할 수 있는 기능에 대해 설명하고, 제한 사항 중 일부를 명확히 하고, 자주 묻는 질문(**FAQ**) 및 대답(등록 방법 포함)을 나열하고 자세한 정보에 대한 링크를 제공합니다.  
+다음 섹션에서는 미국 정부 기관 버전의 **Power BI 서비스**에서 사용할 수 있는 기능에 대해 설명하고, 제한 사항 중 일부를 명확히 하고, 자주 묻는 질문(**FAQ**) 및 대답(등록 방법 포함)을 나열하고 자세한 정보에 대한 링크를 제공합니다.
 
 ## <a name="features-of-power-bi-us-government"></a>Power BI 미국 정부 기관의 기능
 **Power BI 미국 정부**는 **Pro 라이선스**로만 제공되며 무료 라이선스로는 사용할 수 없습니다. Power BI 서비스의 특정 기능은 서비스의 **Power BI 미국 정부** 버전에서 사용할 수 있습니다.
 
-다음 기능은 **Pro** 기능 라이선스 기능에 적용되므로 **Power BI 미국 정부** 사용자에게 제공됩니다.
+다음 기능은 **Pro** 기능 라이선스 기능에 적용되므로 **Power BI 미국 정부** 사용자에게 제공됩니다. 
 
 * 대시보드 및 보고서 만들기 및 보기
 * [데이터 용량 제한](service-admin-manage-your-data-storage-in-power-bi.md)
@@ -60,6 +60,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 * **외부 사용자 공유** - 공유는 Power BI 테넌트 내에서만 허용되며, 2018년 6월에는 Power BI 테넌트 외부의 사용자와 공유할 수도 있습니다. [Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포](service-admin-azure-ad-b2b.md)를 참조하세요.
 * **대시보드 및 보고서에 대한 사용량 메트릭** - 보고서와 대시보드에 사용량 메트릭이 지원되지 않습니다. 고객은 감사 로그 데이터를 사용하여 조직에서 콘텐츠의 사용량 정보를 볼 수 있습니다.
 * **데이터 흐름** - 데이터 흐름이 지원되지 않습니다.
+* **페이지를 매긴 보고서** - 페이지를 매긴 보고서는 현재 USGov 버지니아에서만 사용할 수 있습니다.  USGov 텍사스 지원도 계획되었지만 아직 사용할 수는 없습니다.
 
 계정에 **Power BI** 무료 라이선스가 할당된 경우 해당 계정은 **Power BI** 서비스의 상용 버전에서 실행되며 **Power BI 미국 정부** 제품에 속하지 않습니다. 이러한 무료 계정에서 다음 상황이 발생할 수 있습니다.
 
@@ -83,7 +84,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 
 **질문:** 미국 정부 기관용 **Power BI**를 가져오는 데 관심이 있습니다. 어떻게 시작하나요?
 
-**답변:** 가입(종종 ‘온보딩’이라고 함)은 기존 라이선스 및 구독에 따라 다를 수 있습니다.  자세한 내용은 [미국 정부 기관용 Power BI 등록](service-govus-signup.md) 문서를 참조하세요.
+**답변:** 가입(종종 ‘온보딩’이라고 함)은 기존 라이선스 및 구독에 따라 다를 수 있습니다. 자세한 내용은 [미국 정부 기관용 Power BI 등록](service-govus-signup.md) 문서를 참조하세요.
 
 **질문:** 미국 정부 기관용 **Power BI** 연결을 위한 URL은 상업용 **Power BI** URL과 다른가요? 정부 커뮤니티 클라우드 High(GCC High) 고객을 위한 다른 URL이 있나요?
 

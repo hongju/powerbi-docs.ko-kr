@@ -8,13 +8,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/09/2019
-ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.date: 10/25/2019
+ms.openlocfilehash: 0a4aaa5d9fcb3d5dab6cce0b0c8dd6034581aedb
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259971"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922558"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server에 대한 변경 로그
 
@@ -23,15 +23,22 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 새로운 기능에 대한 자세한 내용은 [Power BI 보고서 서버의 새로운 기능](whats-new.md)을 참조하세요. 
 
 ## <a name="september-2019"></a>2019년 9월
-
 - **Power BI Report Server**
-    - *‘버전: 1.6.7221.30698(빌드 15.0.1102.620), 릴리스 날짜: 2019년 10월 9일*
+    - *‘버전: 1.6.7236.4246(빌드 15.0.1102.646), 릴리스 날짜: 2019년 10월 25일’*
+        - 보안 업데이트
+        - 버그 수정
+            - .NET Framework 4.7이 설치되지 않는 버그 수정
+            - 다중값 매개 변수를 사용하는 Teradata의 페이지를 매긴 보고서 버그(오류 110083) 수정
+            - 여러 개의 웹 서비스 URL 바인딩이 있고 바인딩 중 하나가 http://+80/reportserver 인 경우 URLRoot 값이 작동하지 않는 버그 수정
+          - 다중값 매개 변수 값이 보고서 영역 외부에 표시되는 페이지를 매긴 보고서 버그 수정
+          
+    - ‘버전: 1.6.7221.30698(빌드 15.0.1102.620), 릴리스 날짜: 2019년 10월 9일’*
         - 버그 수정
             - 텍스트 필터 사용자 지정 시각적 개체 수정.
             - 드롭다운 슬라이서의 성능 수정.
             - 원격 분석에서 Strip PII 수정.
           - 대/소문자를 구분하지 않도록 URL 수정.
-             
+          
     - *버전 1.6.7206.38019(빌드 15.0.1102.597), 릴리스 날짜: 2019년 9월 26일*
         - 보안 업데이트
         - 버그 수정
@@ -50,8 +57,11 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
              - Web API: /PowerBIReports({Id})/DataSources (PATCH)가 연결 문자열 업데이트를 허용하도록 업데이트되었습니다.
          
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
-
-    - *‘버전: 2.73.5586.1241(2019년 9월), 릴리스 날짜: 2019년 10월 9일*
+    - ‘버전: 2.73.5586.1501(2019년 9월), 릴리스 날짜: 2019년 10월 25일’*
+        - 버그 수정
+            - 원격 분석 버그 수정
+            
+    - ‘버전: 2.73.5586.1241(2019년 9월), 릴리스 날짜: 2019년 10월 9일’*
         - 버그 수정
             - 텍스트 필터 사용자 지정 시각적 개체 수정.
             - 드롭다운 슬라이서의 성능 수정.
@@ -66,7 +76,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 - **Power BI Report Server**          
     - *버전 1.5.7074.36177(빌드 15.0.1102.371), 릴리스 날짜: 2019년 5월 21일*
         - 버그 픽스
-            - 페이지가 매겨진 보고서
+            - 페이지를 매긴 보고서
                 - 항상 pdf 글꼴 포함을 사용하도록 수정했습니다.
                 - https를 통해 전송된 쿠키를 보안으로 설정하도록 수정
                 - 스크립트 오류로 인한 팝업 문제 해결
@@ -107,7 +117,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
                 - 스케일 아웃 환경에서 모델을 새로 고친 후 부실 데이터 수정
                 - Firefox 63+의 테이블/행렬에 대한 이중 스크롤 막대 수정
                 - Internet Explorer에서 +/- 아이콘 크기 수정
-            - 페이지가 매겨진 보고서
+            - 페이지를 매긴 보고서
                 - 보고서의 공유 데이터 원본 사용량 업데이트 문제 해결
 
     - *버전 1.4.6960.38798(빌드 15.0.1102.222), 릴리스 날짜: 2019년 1월 22일*

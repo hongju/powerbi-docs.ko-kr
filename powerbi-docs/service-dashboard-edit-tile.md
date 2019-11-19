@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c1b6f7434724540a9ad5b579030c3ed54b32abed
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: f96af87706fb289d5fe7216c8ba0b9b0d83b1391
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720561"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021139"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>대시보드 타일 편집 또는 제거
 
@@ -83,9 +83,9 @@ ms.locfileid: "66720561"
 ![비디오](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
-## <a name="the-ellipses--menu"></a>줄임표(...) 메뉴
+## <a name="more-options--menu"></a>**추가 옵션**(...) 메뉴
 
-1. 타일의 오른쪽 위 모서리에서 줄임표(...)를 선택합니다. 
+1. 타일의 오른쪽 위에 있는 **추가 옵션**(...)을 선택합니다. 
    
    ![타일 줄임표](media/service-dashboard-edit-tile/power-bi-tile.png)
 

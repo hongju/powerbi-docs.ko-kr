@@ -2,19 +2,18 @@
 title: Power BI 모바일 앱에서 대시보드 및 보고서 보기
 description: Power BI 서비스에서 대시보드 및 보고서를 생성하거나 연결합니다. 그러면 Power BI 모바일 앱에 표시됩니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654616"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870664"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
 적용 대상:
@@ -40,7 +39,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="view-dashboards-on-your-iphone"></a>iPhone에서 대시보드 보기
 1. iPhone에서 Power BI 앱을 열고 로그인합니다.
    
-   Apple 앱 스토어에서 iPhone 앱을 다운로드할 필요가 있나요? [iPhone 앱 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062)
+   Apple 앱 스토어에서 iPhone 앱을 다운로드할 필요가 있나요? [iPhone 앱 다운로드](https://go.microsoft.com/fwlink/?LinkId=522062)
 2. 대시보드를 열려면 누릅니다.  
    
     ![대시보드 탭](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -80,7 +79,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="view-dashboards-on-your-ipad"></a>iPad에서 대시보드 보기
 1. Power BI 앱을 엽니다.
    
-   먼저 Apple 앱 스토어에서 [iPad 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062)해야 합니까?
+   먼저 Apple 앱 스토어에서 [iPad 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkId=522062)해야 합니까?
 2. 앱의 위쪽에 있는 **대시보드**를 누릅니다.  
    
    ![대시보드 홈](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -103,7 +102,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="view-dashboards-on-your-android-phone"></a>Android 휴대폰에서 대시보드 보기
 1. Android 휴대폰에서 Power BI 앱을 열고 로그인합니다.
    
-   먼저 [Android 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkID=544867)해야 하나요?
+   먼저 [Android 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)해야 하나요?
 2. 대시보드를 열려면 누릅니다.   
    
    ![대시보드 홈](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -118,7 +117,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 
     대시보드 소유자인 경우 [Power BI 서비스에서 세로 모드로 휴대폰에 맞게 대시보드 보기를 만들](../../service-create-dashboard-mobile-phone-view.md) 수 있습니다. 
 
-1. 대시보드에서는 이름 옆에 있는 세로 생략 부호(...)를 눌러 동료를 초대하거나 대시보드에 대한 정보를 새로 고치거나 가져올 수 있습니다.
+1. 대시보드에서 이름 옆에 있는 세로 **추가 옵션**(...) 단추를 탭하면 동료를 초대하거나, 새로 고치거나, 대시보드에 대한 정보를 가져올 수 있습니다.
    
    ![줄임표 메뉴](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. [대시보드에서 모든 타일](mobile-tiles-in-the-mobile-apps.md)을 보려면 위아래로 살짝 밉니다. 
@@ -127,14 +126,14 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="view-dashboards-on-your-android-tablet"></a>Android 태블릿에서 대시보드 보기
 1. Android 태블릿에서 Power BI 앱을 열고 로그인합니다.
    
-   먼저 [Android 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkID=544867)해야 하나요?
+   먼저 [Android 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)해야 하나요?
 2. 대시보드를 열려면 누릅니다.   
    
    ![대시보드 홈](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * 노란색 별 ![즐겨찾기 별](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 은 즐겨찾기 대시보드임을 나타냅니다. 
    * 각 대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../service-data-classification.md)를 참조하세요.
-3. 대시보드에서는 이름 옆에 있는 세로 생략 부호(...)를 눌러 동료를 초대하거나 대시보드에 대한 정보를 새로 고치거나 가져올 수 있습니다.
+3. 대시보드에서 이름 옆에 있는 세로 **추가 옵션**(...) 단추를 탭하면 동료를 초대하거나, 새로 고치거나, 대시보드에 대한 정보를 가져올 수 있습니다.
    
    ![줄임표 메뉴](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. [대시보드에서 모든 타일](mobile-tiles-in-the-mobile-apps.md)을 보려면 위아래로 살짝 밉니다. 
@@ -154,8 +153,8 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 [대시보드의 휴대폰 보기를 만드는](../../service-create-dashboard-mobile-phone-view.md) 방법에 대해 알아봅니다.
 
 ## <a name="next-steps"></a>다음 단계
-* Google Play에서 [Android 앱 다운로드](http://go.microsoft.com/fwlink/?LinkID=544867)  
+* Google Play에서 [Android 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI용 Android 앱 시작](mobile-android-app-get-started.md)  
-* [Power BI란?](../../power-bi-overview.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* [Power BI란?](../../fundamentals/power-bi-overview.md)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

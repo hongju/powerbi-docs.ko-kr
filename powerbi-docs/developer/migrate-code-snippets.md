@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269232"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429158"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션에서 콘텐츠 마이그레이션을 위한 코드 조각
 
@@ -167,7 +167,7 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 
 만든 데이터 세트에 대한 보고서를 다시 빌드해야 합니다.
 
-이 코드 조각에서는 푸시 가능한 데이터 세트가 SaaS 환경 내의 앱 작업 영역에 이미 있다고 가정합니다. 푸시 API에 대한 자세한 내용은 [Power BI 데이터 세트로 데이터 푸시](walkthrough-push-data.md)를 참조하세요.
+이 코드 조각에서는 푸시 가능한 데이터 세트가 SaaS 환경 내의 작업 영역에 이미 있다고 가정합니다. 푸시 API에 대한 자세한 내용은 [Power BI 데이터 세트로 데이터 푸시](walkthrough-push-data.md)를 참조하세요.
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");

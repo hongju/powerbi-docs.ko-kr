@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 54d0b1635eb75fd5cbcb1f3e745097e7da566342
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307447"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429305"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>개발자는 Power BI로 무엇을 할 수 있나요?
 
@@ -22,7 +22,7 @@ ms.locfileid: "72307447"
 
 ## <a name="embedding-power-bi-content"></a>Power BI 콘텐츠 포함
 
-Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드 및 보고서 포함을 위한 API가 있습니다. 이 기능은 콘텐츠 포함 시 대시보드, 게이트웨이, 앱 작업 영역 등의 최신 Power BI 기능에 액세스할 수 있음을 의미합니다.
+Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드 및 보고서 포함을 위한 API가 있습니다. 콘텐츠 포함 시 이 기능을 사용하여 대시보드, 게이트웨이, 작업 영역 등의 최신 Power BI 기능에 액세스할 수 있습니다.
 
 [포함 설정 도구](https://aka.ms/embedsetup)를 통해 신속하게 시작하고 샘플 애플리케이션을 다운로드할 수 있습니다.
 
@@ -34,7 +34,7 @@ Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드
 
 ![PBIE 샘플](media/what-can-you-do/what-can-you-do-02.png)
 
-Power BI로 포함하는 방법에 대한 자세한 내용은 [Power BI로 포함](embedding.md)을 참조하세요.
+Power BI와 함께 포함하는 방법에 대한 자세한 내용은 [Power BI와 함께 포함](embedding.md)을 참조하세요.
 
 ## <a name="developing-custom-visuals"></a>사용자 지정 시각적 개체 개발
 

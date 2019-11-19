@@ -10,15 +10,15 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 49504343b076d7e2371c45005da24e35831bf506
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751453"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060390"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>자습서:  Power BI 서비스 시작
-이 자습서는 *Power BI 서비스* 기능 중 일부를 소개합니다. 자습서를 통해 데이터에 연결하고, 보고서 및 대시보드를 만들고, 데이터에 대해 질문할 수 있습니다. Power BI 서비스에서 훨씬 더 많은 작업을 수행할 수 있습니다. 이 자습서는 의욕을 높여줍니다. Power BI 서비스를 다른 Power BI 제품에 적용하는 방법을 이해하려면 [Power BI란?](power-bi-overview.md)을 읽어 보시기 바랍니다.
+이 자습서는 *Power BI 서비스* 기능 중 일부를 소개합니다. 자습서를 통해 데이터에 연결하고, 보고서 및 대시보드를 만들고, 데이터에 대해 질문할 수 있습니다. Power BI 서비스에서 훨씬 더 많은 작업을 수행할 수 있습니다. 이 자습서는 의욕을 높여줍니다. Power BI 서비스를 다른 Power BI 제품에 적용하는 방법을 이해하려면 [Power BI란?](fundamentals/power-bi-overview.md)을 읽어 보시기 바랍니다.
 
 ![Power BI 서비스 홈](media/service-get-started/power-bi-service-get-started-home.png)
 
@@ -77,7 +77,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
     ![읽기용 보기 옵션](media/service-get-started/power-bi-service-reading-view.png)
 
-    편집용 보기에서는 자신이 보고서의 ‘소유자’이므로 보고서를 만들고 수정할 수 있습니다.  즉, 사용자가 ‘작성자’입니다.  동료와 보고서를 공유하는 경우, 동료는 ‘소비자’이므로 읽기용 보기에서 보고서를 조작할 수만 있습니다.  [읽기용 보기 및 편집용 보기](consumer/end-user-reading-view.md)에 대해 자세히 알아보세요.
+    편집용 보기에서는 자신이 보고서의 ‘소유자’이므로 보고서를 만들고 수정할 수 있습니다. 즉, 사용자가 ‘작성자’입니다. 동료와 보고서를 공유하는 경우, 동료는 ‘소비자’이므로 읽기용 보기에서 보고서를 조작할 수만 있습니다. [읽기용 보기 및 편집용 보기](consumer/end-user-reading-view.md)에 대해 자세히 알아보세요.
 
 
 ## <a name="step-2-create-a-chart-in-a-report"></a>2단계: 보고서에서 차트 만들기
@@ -87,7 +87,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
    
    ![필드 목록](media/service-get-started/power-bi-service-fields-pane-selected.png)
 
-    Power BI에서 데이터를 분석하고 시각적 개체를 만듭니다. **Date**를 먼저 선택한 경우에는 테이블이 표시되고, **Gross Sales**를 먼저 선택한 경우에는 세로 막대형 차트가 표시됩니다. 
+    Power BI에서 데이터를 분석하고 시각적 개체를 만듭니다. **날짜**를 먼저 선택한 경우에는 테이블이 표시되고, **총 판매량**을 먼저 선택한 경우에는 세로 막대형 차트가 표시됩니다. 
 
 2. 데이터를 표시하는 다른 방법으로 전환합니다. 이 데이터를 꺾은선형 차트로 표시해 보겠습니다. **시각화** 창에서 꺾은선형 차트 아이콘을 선택합니다.
    
@@ -115,7 +115,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
    
 8. 대시보드에서 새 타일을 선택하여 보고서로 돌아갑니다. Power BI가 읽기용 보기에서 보고서로 돌아갑니다. 
 
-1. 편집용 보기로 다시 전환하려면, 위쪽 탐색 모음 > **편집**에 있는 줄임표(...)를 선택합니다. 편집용 보기로 돌아가 타일을 계속 탐색하고 고정할 수 있습니다.
+1. 편집용 보기로 다시 전환하려면, 위쪽 탐색 모음에서 **추가 옵션**(...)을 선택한 다음 > **편집**을 선택합니다. 편집용 보기로 돌아가 타일을 계속 탐색하고 고정할 수 있습니다.
 
     ![편집을 선택하여 보고서 편집](media/service-get-started/power-bi-service-edit-report.png)
 
@@ -138,15 +138,15 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
     > [!NOTE]
     > 제안이 표시되지 않는 경우 **새 질문 및 답변 환경**을 켭니다.
 
-2. 일부 제안은 단일 값을 반환합니다. 예를 들어 **maximum sale**을 선택합니다.
+2. 일부 제안은 단일 값을 반환합니다. 예를 들어 **최대 판매**를 선택합니다.
 
     질문 및 답변에서 답변을 검색하고 *카드* 시각화 형태로 제공합니다.
 
     ![최대 판매 카드](media/service-get-started/power-bi-service-qanda-maximum-sale.png)
 
-3. 고정 아이콘 ![고정 아이콘](media/service-get-started/pbi_pinicon.png) 을 선택하여 자습서용 재무 샘플 대시보드에 이 시각화를 표시합니다.
+3. 고정 아이콘 ![고정 아이콘](media/service-get-started/pbi_pinicon.png) 자습서용 재무 샘플 대시보드에 이 시각화를 표시합니다.
 
-1. **시작할 질문** 목록에서 아래로 스크롤한 다음 **average cog for each month**를 선택합니다. 
+1. **시작할 질문** 목록에서 아래로 스크롤한 다음 **매월 평균 COG**를 선택합니다. 
 
     ![매월 평균 COG](media/service-get-started/power-bi-service-qanda-average-cog.png)
 
@@ -200,7 +200,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
 1. 왼쪽 탐색 모음에서 **내 작업 영역**에 있는지 확인합니다.
 2. **데이터 세트** 탭을 선택하고 이 자습서에 가져온 데이터 세트를 찾습니다.  
-3. 줄임표(...) > **삭제**를 선택합니다.
+3. **추가 옵션**(...) > **삭제**를 선택합니다.
 
     ![데이터 세트 삭제](media/service-get-started/power-bi-service-delete-dataset.png)
 

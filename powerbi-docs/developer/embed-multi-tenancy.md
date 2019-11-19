@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 3940f677cadc5844cfac9c32781a5586bde0607a
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 3b33e2479ad114a2224c16c9d43e7797784624fc
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621288"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429660"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI 임베디드 분석을 사용하여 다중 테넌트 관리
 
@@ -37,7 +37,7 @@ Power BI Embedded를 사용하여 테넌트 간의 분리를 유지 관리하는
 
 **테넌트** – SaaS 애플리케이션 및 고객이 SaaS 애플리케이션에 제공하는 모든 리소스 또는 데이터를 사용하는 단일 고객(조직)입니다.
 
-**[Power BI](../power-bi-overview.md)** - Power BI Embedded용 플랫폼으로 사용되는 Power BI 클라우드 서비스입니다.
+**[Power BI](../fundamentals/power-bi-overview.md)** - Power BI Embedded용 플랫폼으로 사용되는 Power BI 클라우드 서비스입니다.
 
 **Power BI 테넌트** - 단일 AAD 테넌트와 연결된 Power BI 리소스 세트입니다.
 
@@ -55,7 +55,7 @@ Power BI Embedded를 사용하여 테넌트 간의 분리를 유지 관리하는
 
 **용량** - Power BI 서비스를 실행하기 위한 전용 리소스 세트입니다. [Power BI Premium 용량](../service-premium-what-is.md)은 Power BI를 내부적으로 사용하는 엔터프라이즈 회사에 적합하지만, [Power BI Embedded 용량](azure-pbie-create-capacity.md)은 제3자를 위한 SaaS 애플리케이션을 개발하는 애플리케이션 개발자에게 적합합니다.
 
-**[Power BI Pro 라이선스](../service-admin-purchasing-power-bi-pro.md)** - 앱 작업 영역에 콘텐츠를 게시하고, 프리미엄 용량 없이 앱을 소비하고, 대시보드를 공유하고, 대시보드 및 보고서를 구독하는 권한을 부여하는 사용자 기반 라이선스입니다.
+**[Power BI Pro 라이선스](../service-admin-purchasing-power-bi-pro.md)** - 작업 영역에 콘텐츠를 게시하고, 프리미엄 용량 없이 앱을 사용하며, 대시보드를 공유하고, 대시보드 및 보고서를 구독하는 권한을 부여하는 사용자 기반 라이선스입니다.
 
 **[데이터 연결 모드](../desktop-directquery-about.md)** - Power BI에 대한 데이터 원본 연결로, 다양한 모드에서 수행할 수 있습니다.
 

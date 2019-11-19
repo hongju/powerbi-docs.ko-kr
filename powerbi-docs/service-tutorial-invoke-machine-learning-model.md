@@ -1,5 +1,5 @@
 ---
-title: '자습서: Power BI에서 Machine Learning Studio 모델 호출(미리 보기)'
+title: '자습서:  Power BI에서 Machine Learning Studio 모델 호출(미리 보기)'
 description: 이 자습서에서는 Power BI에서 Machine Learning Studio 모델을 호출합니다.
 author: davidiseminger
 manager: kfile
@@ -11,14 +11,14 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e0b2036192ace4404816f5ba64ad07569949452e
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 368f860ed064cf3b4ff73496db1fa993fd3b716a
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596579"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432215"
 ---
-# <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>자습서: Power BI에서 Machine Learning Studio 모델 호출(미리 보기)
+# <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>자습서:  Power BI에서 Machine Learning Studio 모델 호출(미리 보기)
 
 이 자습서에서는 **Azure Machine Learning Studio** 모델의 인사이트를 Power BI에 통합하는 연습을 합니다. 이 자습서는 Power BI 사용자에게 Azure ML 모델에 액세스 권한을 부여하고, 데이터 흐름을 만들고, Azure ML 모델의 인사이트를 데이터 흐름에 적용하는 데 도움이 되는 지침을 포함하고 있습니다. Azure ML 모델을 처음 만드는 데 도움이 되는 빠른 시작 가이드도 참조합니다.
 
@@ -68,7 +68,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 데이터 흐름에 엔터티를 만들려면 Power BI 서비스에 로그인하고, 사용하도록 설정된 AI 미리 보기가 있는 전용 용량의 작업 영역으로 이동합니다.
 
-작업 영역이 아직 없는 경우 만들 수 있습니다. 왼쪽 메뉴에서 **작업 영역**을 선택하고 하단 패널에서 **앱 작업 영역 만들기**를 선택합니다.  작업 영역 세부 정보를 입력하는 패널이 열립니다. 작업 영역 이름을 입력하고 **저장**을 선택합니다.
+작업 영역이 아직 없는 경우 왼쪽 메뉴에서 **작업 영역**을 선택한 다음, 맨 아래 패널에서 **작업 영역 만들기**를 선택하여 새로 만들 수 있습니다.  작업 영역 세부 정보를 입력하는 패널이 열립니다. 작업 영역 이름을 입력하고 **저장**을 선택합니다.
 
 ![작업 영역 만들기](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_03.png)
 

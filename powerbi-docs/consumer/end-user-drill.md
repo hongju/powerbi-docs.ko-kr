@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589503"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019888"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI에서 시각적 개체 드릴 모드
 
@@ -117,18 +117,18 @@ ms.locfileid: "72589503"
 
     ![TN에 대한 모든 데이터를 보여 주는 트리맵의 스크린샷](media/end-user-drill/power-bi-expand-two.png)
 
-1. 드릴다운이 켜져 있는지 ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png) 확인하고 ‘아래로 확장’ 아이콘 ![아래로 확장 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon6.png)을 선택합니다.  이제 트리맵은 동일한 수의 리프(상자)를 표시하지만 각 리프는 추가 세부 정보를 포함합니다. 이제 트리맵은 도시 및 주만 표시하는 대신 우편 번호도 보여 줍니다.
+1. 드릴다운이 켜져 있는지 ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png) 확인하고 ‘아래로 확장’ 아이콘 ![아래로 확장 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon6.png)을 선택합니다. 이제 트리맵은 동일한 수의 리프(상자)를 표시하지만 각 리프는 추가 세부 정보를 포함합니다. 이제 트리맵은 도시 및 주만 표시하는 대신 우편 번호도 보여 줍니다.
 
     ![도시, 주 및 우편 번호를 보여 주는 시각적 개체의 스크린샷](./media/end-user-drill/power-bi-expand-three.png)
 
-1. ‘아래로 확장’ 아이콘을 한 번 더 선택하여 트리맵에 Tennessee의 네 가지 계층 구조 수준을 모두 표시합니다.  리프를 마우스로 가리켜서 더 많은 세부 정보를 봅니다.
+1. ‘아래로 확장’ 아이콘을 한 번 더 선택하여 트리맵에 Tennessee의 네 가지 계층 구조 수준을 모두 표시합니다. 리프를 마우스로 가리켜서 더 많은 세부 정보를 봅니다.
 
     ![리프 관련 데이터와 함께 도구 설명을 보여 주는 트리맵의 스크린샷](./media/end-user-drill/power-bi-expand-all.png)
 
 ## <a name="show-the-data-as-you-drill"></a>드릴할 때 데이터 표시
 **데이터 표시**를 사용하여 백그라운드에서 살펴볼 수 있습니다. 드릴하거나 확장할 때마다 **데이터 표시**는 시각적 개체를 빌드하는 데 사용 중인 데이터를 표시합니다. 따라서 시각적 개체를 빌드하기 위해 계층 구조, 드릴 및 확장 작업이 어떻게 연동되는지를 이해할 수 있습니다. 
 
-오른쪽 위 모서리에서 줄임표(...)를 선택한 후 **데이터 표시**를 선택합니다. 
+오른쪽 위에 있는 **추가 옵션**(...)을 선택한 다음, **데이터 표시**를 선택합니다. 
 
 ![줄임표 메뉴의 스크린샷.](./media/end-user-drill/power-bi-ellipses.png)
 

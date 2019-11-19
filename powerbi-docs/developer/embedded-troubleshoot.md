@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 08d66df2456917c09b6b0c1d9c40e2de47f53fa5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543911"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429319"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
@@ -78,8 +78,8 @@ Azure Portal 또는 Power BI 앱 등록 페이지 내에서 표시되는 오류 
 
 * 사용자가 공유 용량에 생성될 수 있는 포함 토큰의 양을 초과했습니다. Azure 용량을 구입하여 포함 토큰을 생성하고 해당 용량에 작업 영역을 할당합니다. [Azure Portal에서 Power BI Embedded 용량 만들기](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)를 참조하세요.
 * Azure AD 인증 토큰이 만료되었습니다.
-* 인증된 사용자가 그룹(앱 작업 영역)의 멤버가 아닙니다.
-* 인증된 사용자가 그룹(앱 작업 영역)의 관리자가 아닙니다.
+* 인증된 사용자가 그룹(작업 영역)의 구성원이 아닙니다.
+* 인증된 사용자가 그룹(작업 영역)의 관리자가 아닙니다.
 * 인증된 사용자에게 권한이 없습니다. 사용 권한은 [refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions)를 사용하여 업데이트할 수 있습니다.
 * 권한 부여 헤더가 올바르게 표시되지 않을 수 있습니다. 오타가 없는지 확인합니다.
 

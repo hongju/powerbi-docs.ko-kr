@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b04c5b3325a9fd4d3bb11aa1943e62cf2c90c
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770140"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021466"
 ---
 # <a name="manage-content-in-the-web-portal"></a>웹 포털에서 콘텐츠 관리 
 Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지를 매긴 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치입니다.
@@ -56,7 +56,7 @@ Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지를 매긴 �
 ## <a name="manage-items-in-the-web-portal"></a>웹 포털에서 항목 관리
 Power BI Report Server에서는 웹 포털에 저장한 항목을 세부적으로 제어할 수 있습니다. 예를 들어, 개별로 페이지를 매긴 보고서에서 구독, 캐싱, 스냅샷 및 보안을 설정할 수 있습니다.
 
-1. 항목의 오른쪽 위 모서리에서 줄임표(...)를 선택하고 **관리**를 선택합니다.
+1. 항목의 오른쪽 위에 있는 **추가 옵션**(...)을 선택한 다음, **관리**를 선택합니다.
    
     ![관리 선택](media/getting-around/report-server-web-portal-manage-ellipsis.png)
 2. 설정하려는 속성 또는 다른 기능을 선택합니다.

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: cc180c2e9d5275172ad9da75c502ef53d9d7ee66
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: d52dcb640c0140baad2d3d5d20a1afd56aac7c4d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307611"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430690"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>개발자는 Power BI API로 무엇을 할 수 있나요?
 
@@ -32,7 +32,7 @@ Power BI REST API를 사용하면 보고서, 데이터 세트 및 작업 영역�
 | Power BI에 인증. | [Power BI에 인증 ](get-azuread-access-token.md) |
 
 > [!NOTE]
-> Power BI API는 계속 그룹으로 앱 작업 영역을 참조합니다. 그룹에 대한 참조는 앱 작업 영역과 작업 중임을 의미합니다.
+> Power BI API는 계속해서 작업 영역을 그룹으로 참조합니다. 그룹 참조는 작업 영역에서 작업 중임을 나타냅니다.
 
 ## <a name="api-developer-tools"></a>API 개발자 도구
 

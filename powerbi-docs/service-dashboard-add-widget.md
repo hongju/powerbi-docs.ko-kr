@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 042fee1a55728884b3f4d5792a82973b3ea9fcc4
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832575"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020435"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>대시보드에 이미지, 동영상 등 추가
 
@@ -232,7 +232,7 @@ PubNub을 사용하여 대시보드의 타일에 스트리밍 데이터(예: Twi
 ## <a name="edit-a-tile"></a>타일 편집
 기존 타일을 변경하려면
 
-1. 타일의 오른쪽 위를 가리켜서 줄임표(...)를 선택합니다.
+1. 타일의 오른쪽 위를 마우스로 가리키고 **추가 옵션**(...)을 선택합니다.
    
     ![타일 줄임표 선택](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. **세부 정보 편집**을 선택하여 **타일 세부 정보** 창을 표시하고 변경합니다.

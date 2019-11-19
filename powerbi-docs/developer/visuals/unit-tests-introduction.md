@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 97b21b6844ffb8633a37656e781a60f88cebbf43
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192464"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060411"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>자습서:  Power BI 시각적 개체 프로젝트의 단위 테스트 추가
 
@@ -65,7 +65,7 @@ ms.locfileid: "71192464"
 "webpack": "4.26.0"
 ```
 
-패키지에 대한 자세한 내용은 설명을 참조하세요.
+*package.json*에 대한 자세한 내용은 [npm-package.json](https://docs.npmjs.com/files/package.json)의 설명을 참조하세요.
 
 *package.json* 파일을 저장하고, `package.json` 위치에서 다음 명령을 실행합니다.
 
@@ -368,7 +368,7 @@ describe("BarChart", () => {
 
 * [`expect`](https://jasmine.github.io/api/2.6/global.html#expect): 사양의 기대치를 만듭니다. 모든 기대치를 오류 없이 통과하면 사양이 성공합니다.
 
-* `toBeInDOM`: ‘선택기’ 메서드 중 하나입니다.  선택기에 대한 자세한 내용은 [Jasmine Namespace: matchers](https://jasmine.github.io/api/2.6/matchers.html)(Jasmine 네임스페이스: 선택기)를 참조하세요.
+* `toBeInDOM`: ‘선택기’ 메서드 중 하나입니다. 선택기에 대한 자세한 내용은 [Jasmine Namespace: matchers](https://jasmine.github.io/api/2.6/matchers.html)(Jasmine 네임스페이스: 선택기)를 참조하세요.
 
 Jasmine에 대한 자세한 내용은 [Jasmine 프레임워크 문서](https://jasmine.github.io/) 페이지를 참조하세요.
 

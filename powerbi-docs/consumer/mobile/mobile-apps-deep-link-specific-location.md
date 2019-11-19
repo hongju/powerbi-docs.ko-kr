@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ef7766f8783fef08561a70d8ea77212c138e3148
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "64906520"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429910"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
 링크를 사용하여 Power BI의 보고서, 대시보드 및 타일에 직접 액세스할 수 있습니다.
@@ -69,7 +69,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 #### <a name="links-of-apps-and-items-in-app"></a>앱 링크와 앱에 있는 항목 링크
 
-**앱, 그리고 특정 앱의 일부인 보고서 및 대시보드**의 경우, 링크를 얻는 가장 쉬운 방법은 앱 작업 영역으로 이동해서 ‘앱 업데이트’를 선택하는 것입니다. 이렇게 하면 “앱 게시” 환경이 열리고 ‘액세스’ 탭에서 **링크** 섹션을 찾을 수 있습니다. 이 섹션을 확장하면 앱과 콘텐츠를 직접 액세스하는 데 사용할 수 있는 앱 링크와 해당 앱의 콘텐츠 링크를 볼 수 있습니다.
+**앱과 앱에 포함된 보고서 및 대시보드**의 경우, 링크를 얻는 가장 쉬운 방법은 작업 영역으로 이동해서 “앱 업데이트”를 선택하는 것입니다. 이렇게 하면 “앱 게시” 환경이 열리고 ‘액세스’ 탭에서 **링크** 섹션을 찾을 수 있습니다. 이 섹션을 확장하면 앱과 콘텐츠를 직접 액세스하는 데 사용할 수 있는 앱 링크와 해당 앱의 콘텐츠 링크를 볼 수 있습니다.
 
 ![Power BI 앱 게시 링크 ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
@@ -118,5 +118,5 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 * [모바일 디바이스용 Power BI 앱](mobile-apps-for-mobile-devices.md)
 * Twitter에서 @MSPowerBI 팔로우
 * [Power BI 커뮤니티](http://community.powerbi.com/)에서 대화에 참여
-* [Power BI란?](../../power-bi-overview.md)
+* [Power BI란?](../../fundamentals/power-bi-overview.md)
 

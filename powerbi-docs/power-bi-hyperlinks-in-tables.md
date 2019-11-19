@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/30/2019
+ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c53ce84610e68280c915d55466bc7cddd3c0cc92
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715306"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060746"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>테이블에 하이퍼링크(URL) 추가
 이 항목에서는 테이블에 하이퍼링크(URL)를 추가하는 방법을 배웁니다. Power BI Desktop를 사용하여 테이블 또는 행렬에 하이퍼링크(URL)를 추가합니다. 그런 다음, Power BI Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가할 수 있습니다. 
@@ -44,7 +44,7 @@ ms.locfileid: "71715306"
     ![파란색 및 밑줄이 표시된 링크](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
 
     > [!NOTE]
-    > URL은 **http://, https://** 또는 **www**로 시작해야 합니다.
+    > URL은 특정 접두사로 시작해야 합니다. 전체 목록은 [고려 사항 및 문제 해결](#considerations-and-troubleshooting)을 참조하세요.
     >
    
 1. 테이블에서 긴 URL을 표시하지 않으려는 경우 하이퍼링크 아이콘  ![하이퍼링크 아이콘](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) 으로 대신 표시할 수 있습니다. 행렬에서 아이콘을 표시할 수 없습니다.
@@ -80,8 +80,9 @@ Power BI 테이블 및 행렬에 하이퍼링크를 추가하는 다른 방법�
 4. Power BI 테이블에서 하이퍼링크로 전환하려는 URL을 포함하는 열에 커서를 놓습니다.
    
    > [!NOTE]
-   > URL은 **http://, https://** 또는 **www**로 시작해야 합니다.
+   > URL은 특정 접두사로 시작해야 합니다. 전체 목록은 [고려 사항 및 문제 해결](#considerations-and-troubleshooting)을 참조하세요.
    > 
+   
 5. **보고 속성** 그룹에서 **데이터 범주** 드롭다운을 선택하고 **웹 URL**을 선택합니다. 
    
    ![Excel의 데이터 범주 드롭다운](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
@@ -92,6 +93,16 @@ Power BI 테이블 및 행렬에 하이퍼링크를 추가하는 다른 방법�
    ![URL 필드를 사용하여 Power BI에서 테이블 만들기](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+
+URL은 다음 중 하나로 시작해야 합니다.
+- http
+- https
+- -mailto
+- file
+- ftp
+- news
+- telnet
+
 Q: 사용자 지정 URL을 테이블 또는 행렬의 하이퍼링크로 사용할 수 있나요?    
 A: 아니요. 링크 아이콘을 사용할 수 있습니다. 하이퍼링크의 텍스트를 사용자 지정해야 하고 URL 목록이 짧은 경우, 대신 텍스트 상자를 사용해 보세요.
 

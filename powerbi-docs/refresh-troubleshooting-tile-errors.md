@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544269"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021547"
 ---
 # <a name="troubleshooting-tile-errors"></a>타일 오류 문제 해결
 다음은 설명이 있는 타일에 발생할 수 있는 일반적인 오류입니다.
@@ -69,7 +69,7 @@ Power BI 관리자가 조직 또는 보안 그룹에 대한 사용자 지정 시
 
 기본 데이터 세트가 DirectQuery 모드 또는 라이브 연결을 사용하여 온-프레미스 데이터 게이트웨이를 통해 Analysis Services에 연결하도록 구성된 경우 이런 현상이 발생할 수 있습니다. 이런 경우, 다음 타일 새로 고침이 도래할 때까지는 타일이 데이터 원본에 대해 SSO를 사용하도록 설정한 후에도 계속 필터링되지 않은 데이터를 표시합니다. 다음 타일 새로 고침 시에는, Power BI가 구성된 대로 SSO를 사용하고 타일이 사용자 ID에 따라 필터링된 데이터를 표시합니다. 
 
-필터링된 데이터를 즉시 보기를 원하는 경우, 대시보드의 오른쪽 위에서 줄임표(...)를 선택하고 **대시보드 타일 새로 고침**을 선택하여 타일 새로 고침을 강제로 적용할 수 있습니다.
+필터링된 데이터를 즉시 보려는 경우, 대시보드의 오른쪽 위에 있는 **추가 옵션**(...)을 선택하고 **대시보드 타일 새로 고침**을 선택하여 타일 새로 고침을 강제로 적용할 수 있습니다.
 
 데이터세트 소유자는 타일 새로 고침 빈도를 변경하고 15분으로 설정하여 타일 새로 고침을 가속화할 수도 있습니다. Power BI 서비스의 오른쪽 위 모퉁이에서 기어 아이콘을 선택한 다음 **설정**을 선택합니다. **설정** 페이지에서 **데이터 세트** 탭을 선택합니다. **예약된 캐시 새로 고침**을 확장하고 **새로 고침 빈도**를 변경합니다. Power BI가 다음 타일 새로 고침을 수행한 후에 원래 새로 고침 빈도로 구성을 재설정해야 합니다.
 

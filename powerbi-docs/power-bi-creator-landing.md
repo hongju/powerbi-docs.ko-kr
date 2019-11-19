@@ -10,12 +10,12 @@ ms.date: 10/07/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 64e77a97ec8f316473d6b953b506b323b69bfd0e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239890"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431525"
 ---
 # <a name="power-bi-for-report-designers"></a>보고서 디자이너용 Power BI
 
@@ -37,7 +37,7 @@ Power BI 소비자인가요? 환영합니다. [소비자용 Power BI](consumer/p
                                           <h3>Power BI를 사용하여 만들기 시작</h3> 
                                           <p></p>
                                                <a href="desktop-what-is-desktop.md">Power BI Desktop으로 시작</a><br/> 
-                                               <a href="power-bi-overview.md">Power BI 서비스로 시작</a><br/> 
+                                               <a href="fundamentals/power-bi-overview.md">Power BI 서비스로 시작</a><br/> 
                                                <a href="report-server/get-started.md">Power BI Report Server란?</a>
                                     </div> 
                               </div> 
@@ -156,7 +156,7 @@ Power BI 소비자인가요? 환영합니다. [소비자용 Power BI](consumer/p
                                           <h3>작업 공유</h3> 
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">공동 작업하고 공유하려면 어떻게 해야 하나요?</a><br/>
-                                                <a href="service-create-workspaces.md">Power BI 서비스의 앱 작업 영역</a> 
+                                                <a href="service-create-workspaces.md">Power BI 서비스의 작업 영역</a> 
                                     </div> 
                               </div> 
                         </div> 
