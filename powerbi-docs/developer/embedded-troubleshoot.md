@@ -144,7 +144,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="generate-token-fails-when-providing-effective-identity"></a>유효 ID 입력 시 토큰 생성 실패
 
-다음과 같은 몇 가지 이유로 유효ID 입력 시 GenerateToken이 실패할 수 있습니다.
+다음과 같은 몇 가지 이유로 유효 ID 입력 시 GenerateToken이 실패할 수 있습니다.
 
 * 데이터 세트에서 유효 ID를 지원하지 않음
 * 사용자 이름이 제공되지 않음
