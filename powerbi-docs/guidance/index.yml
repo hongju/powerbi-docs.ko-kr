@@ -1,0 +1,53 @@
+### YamlMime:Landing
+title: Power BI 지침 설명서
+summary: Power BI 지침 설명서는 Power BI를 빌드하는 팀과 Microsoft의 기업 고객과 협업하는 관련자들의 모범 사례 정보를 제공합니다. 또한 이 설명서를 통해 Power BI를 사용하여 성과와 성공률을 높이는 다양한 학습 내용을 확인할 수 있습니다. Microsoft는 새로운 정보가 들어오면 이러한 학습 내용에 업데이트 사항과 추가 사항을 반영할 예정입니다.
+metadata:
+  title: Power BI 지침 설명서
+  description: Power BI 지침 설명서는 Power BI를 빌드하는 팀과 Microsoft의 기업 고객과 협업하는 관련자들의 모범 사례 정보를 제공합니다. 또한 이 설명서를 통해 Power BI를 사용하여 성과와 성공률을 높이는 다양한 학습 내용을 확인할 수 있습니다. Microsoft는 새로운 정보가 들어오면 이러한 학습 내용에 업데이트 사항과 추가 사항을 반영할 예정입니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 11/14/2019
+  ms.openlocfilehash: de1ea8bbc35bc1d2ecc42a8deffc54fd9ac01bc1
+  ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 11/16/2019
+  ms.locfileid: "74133845"
+landingContent:
+- title: Power BI 지침
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI에 대한 지침
+      url: overview.md
+    - text: 백서 개요
+      url: ../whitepapers.md
+- title: 데이터 모델링
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 별모양 스키마란?
+      url: star-schema.md
+    - text: 데이터 감소 기술
+      url: import-modeling-data-reduction.md
+    - text: 쿼리 폴딩의 중요도
+      url: power-query-folding.md
+- title: DAX
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: DIVIDE 함수와 나누기 연산자 비교
+      url: dax-divide-function-operator.md
+    - text: 오류 함수를 적절하게 사용
+      url: dax-error-functions.md
+- title: 데이터 흐름
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 데이터 흐름 모범 사례
+      url: ../service-dataflows-best-practices.md

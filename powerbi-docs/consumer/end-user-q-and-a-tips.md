@@ -3,20 +3,19 @@ title: 질문 및 답변에서 질문하기 위한 팁과 요령
 description: Power BI Q&A에서 질문하기 위한 팁과 요령
 author: mihart
 manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a3d70824949d214404b25b401930fc69cb47ad4e
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408188"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72774730"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A에서 질문하기 위한 팁
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A에서 인식하는 단어 및 용어
@@ -79,7 +78,9 @@ ms.locfileid: "67408188"
 * 시각적 개체의 형태로 답변의 미리 보기를 제공합니다. 질문을 입력 및 편집하면 시각적 개체가 업데이트됩니다(Enter 키를 누를 때까지 기다리지 않음).
 * 커서를 다시 질문 상자에 두면 기본 데이터 세트에서 대체 용어를 추천합니다.
 * 기본 데이터 세트의 데이터를 기반으로 하여 질문을 다시 작성합니다. 질문 및 답변은 사용자가 사용한 단어를 기본 데이터 세트에서 동의어로 대체합니다. 사용자는 이렇게 대체된 문장을 보고 질문과 답변이 질문을 이해했는지 아닌지를 확인할 수 있습니다. 
-* 이해하지 못한 단어를 흐리게 표시합니다.
+* 이해할 수 없는 단어에 이중 밑줄을 추가합니다.
+* 이해할 수 있는 단어에 단일 밑줄을 추가합니다.
+* 용어를 찾을 수 없거나 질문에 대한 결과가 없는 경우 보고서 또는 대시보드 소유자에게 문의할 수 있습니다.
 
 ## <a name="dont-stop-now"></a>추가 기능
 Q&A가 결과를 표시한 후에도 계속 대화를 진행하세요. 시각적 개체 및 질문 및 답변의 대화형 기능을 사용하여 더 많은 인사이트를 얻을 수 있습니다.

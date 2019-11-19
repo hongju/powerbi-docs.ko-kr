@@ -1,0 +1,36 @@
+- name: Power BI 지침 설명서
+  href: index.yml
+  expanded: true
+  items:
+    - name: 개요
+      expanded: true
+      items:
+        - name: 개요
+          href: overview.md
+    - name: 개념
+      expanded: true
+      items:
+        - name: 별모양 스키마란?
+          href: star-schema.md
+        - name: 데이터 모델 크기 줄이기
+          href: import-modeling-data-reduction.md
+        - name: 나누기 함수 및 나누기 연산자(/)
+          href: dax-divide-function-operator.md
+        - name: 쿼리 폴딩의 중요도
+          href: power-query-folding.md
+        - name: 오류 함수를 적절하게 사용
+          href: dax-error-functions.md
+        - name: 데이터 흐름에 관한 모범 사례
+          href: ../service-dataflows-best-practices.md
+        - name: Power BI Desktop의 DirectQuery 모델 지침
+          href: directquery-model-guidance.md
+    - name: 백서
+      items:
+        - name: 백서 개요
+          href: ../whitepapers.md
+        - name: Power BI 보안 백서
+          href: ../whitepaper-powerbi-security.md
+        - name: Power BI Premium 배포
+          href: ../whitepaper-powerbi-premium-deployment.md
+        - name: Azure Active Directory B2B를 사용하여 외부에서 Power BI 배포
+          href: ../whitepaper-azure-b2b-power-bi.md
