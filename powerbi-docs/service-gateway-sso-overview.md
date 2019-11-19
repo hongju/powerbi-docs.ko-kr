@@ -3,19 +3,18 @@ title: Power BI의 게이트웨이 SSO(Single Sign-On) 개요
 description: Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)를 사용하도록 게이트웨이 구성
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 53c35210878e442cfdec4d78a97bd76acc65e482
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 43394e8f09327ebcb858ff5644b30daee1793444
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020764"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872368"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI의 게이트웨이 SSO(Single Sign-On) 개요
 
@@ -44,7 +43,7 @@ SSO로 실행하는 쿼리는 다음 다이어그램에 나와 있는 것처럼 
 
 각 단계에 대한 자세한 내용은 다음과 같습니다.
 
-1. ‘Power BI 서비스’에는 구성된 게이트웨이로 쿼리 요청을 보낼 때 현재 Power BI 서비스에 로그인한 사용자의 정규화된 사용자 이름인 ‘UPN(사용자 계정 이름)’을 각 쿼리에 대해 포함합니다.
+1. ‘Power BI 서비스’에는 구성된 게이트웨이로 쿼리 요청을 보낼 때 현재 Power BI 서비스에 로그인한 사용자의 정규화된 사용자 이름인 ‘UPN(사용자 계정 이름)’을 각 쿼리에 대해 포함합니다. 
 
 2. 게이트웨이는 Azure Active Directory UPN을 로컬 Active Directory ID에 매핑해야 합니다.
 

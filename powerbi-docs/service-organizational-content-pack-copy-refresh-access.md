@@ -2,7 +2,6 @@
 title: '조직 콘텐츠 팩: 액세스 및 복사'
 description: Power BI의 조직 콘텐츠 팩 복사본을 만들고 액세스 문제를 해결하는 방법에 대해 알아보기
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp, kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 905e461c69a898b41b45e48405c3aaaa6e09cfec
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020128"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881324"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>조직 콘텐츠 팩: 복사, 새로 고침 및 액세스
 
@@ -58,4 +57,4 @@ ms.locfileid: "73020128"
 ## <a name="next-steps"></a>다음 단계
 * [조직 콘텐츠 팩 소개](service-organizational-content-pack-introduction.md)
 * [Power BI에서 그룹 만들기](service-create-distribute-apps.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

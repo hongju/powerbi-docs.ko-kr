@@ -2,7 +2,6 @@
 title: Power BI Desktop의 DAX 기본 사항
 description: Power BI Desktop의 DAX 기본 사항
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 524d04655d01b527707a59b941c84f5254ffea20
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: fcff0bf1d6c68b9bdb000855f4984b3664b882c1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922497"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877900"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop의 DAX 기본 사항
 이 문서는 Power BI Desktop을 처음 사용하는 사용자를 위한 것입니다. DAX(Data Analysis Expressions)를 사용하여 여러 가지 기본 계산 및 데이터 분석 문제를 해결하는 방법을 쉽고 빠르게 소개합니다. 또한 일부 개념 정보, 수행할 수 있는 일련의 작업, 배운 내용을 테스트하는 지식 점검을 살펴보겠습니다. 이 문서를 완료하면 DAX의 가장 중요한 기본 개념을 제대로 이해하고 있어야 합니다.
@@ -33,7 +32,7 @@ Microsoft Excel에서 수식을 만드는 방법을 이미 잘 알고 있을 수
 
 ### <a name="example-workbook"></a>예제 통합 문서
 
-DAX를 학습하는 가장 좋은 방법은 몇 가지 기본 수식을 만들어 실제 데이터에 사용하고 그 결과를 직접 확인하는 것입니다. 이 문서의 예제 및 작업에서는 [Contoso Sales Sample for Power BI Desktop 파일](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)을 사용합니다. 이 샘플 파일은 [자습서: Power BI Desktop에서 고유한 측정값 만들기](desktop-tutorial-create-measures.md) 문서에 사용된 것과 동일한 샘플 파일입니다. 
+DAX를 학습하는 가장 좋은 방법은 몇 가지 기본 수식을 만들어 실제 데이터에 사용하고 그 결과를 직접 확인하는 것입니다. 이 문서의 예제 및 작업에서는 [Contoso Sales Sample for Power BI Desktop 파일](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)을 사용합니다. 이 샘플 파일은 [자습서: Power BI Desktop에서 고유한 측정값 만들기](desktop-tutorial-create-measures.md) 문서에 사용된 것과 동일한 샘플 파일입니다. 
 
 ## <a name="lets-begin"></a>시작하기
 여기서는 다음과 같은 세 가지 기본 개념을 중심으로 DAX를 살펴봅니다. ‘구문’, ‘함수’ 및 ‘컨텍스트’.    DAX에는 다른 중요한 개념도 있지만 이러한 세 가지 개념을 이해하면 DAX 기술을 구축할 최상의 토대가 제공됩니다.
@@ -82,7 +81,7 @@ DAX 수식을 이해하려는 경우, 매일 생각하고 말하는 언어로 �
 
 ### <a name="task-create-a-measure-formula"></a>작업: 측정값 수식 만들기
 
-1. Contoso Sales Sample Power BI Desktop 파일을 [다운로드](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)하고 엽니다. 
+1. Contoso Sales Sample Power BI Desktop 파일을 [다운로드](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)하고 엽니다. 
     
 2. 보고서 뷰의 필드 목록에서 **Sales** 테이블을 마우스 오른쪽 단추로 클릭하고 **새 측정값**을 선택합니다.
     
@@ -213,7 +212,7 @@ DAX에는 다음과 같은 범주의 함수가 포함됩니다. [날짜 및 시�
 ## <a name="summary"></a>요약
 DAX에서 가장 중요한 개념에 대한 기본적인 내용을 이해했으므로 이제 측정값에 대한 DAX 수식을 직접 만들 수 있습니다. 실제로 DAX는 배우기가 약간 까다로울 수 있지만 사용 가능한 많은 리소스를 제공합니다. 이 문서 전체를 읽고 몇 가지 수식을 직접 시험해 보면 고유한 비즈니스 문제를 해결하는 데 도움이 되는 기타 DAX 개념 및 수식에 대해 더 자세히 이해할 수 있습니다. 많은 DAX 리소스를 사용할 수 있지만 [DAX(Data Analysis Expressions) 참조](https://msdn.microsoft.com/library/gg413422.aspx)가 가장 중요합니다.
 
-DAX는 파워 피벗, Analysis Services 테이블 형식 모델 등의 다른 Microsoft BI 도구에서 여러 해 동안 사용되었으므로 유용한 정보가 많습니다. 자세한 내용은 Microsoft 및 업계 최고 BI 전문가들이 제공하는 설명서, 백서 및 블로그에서 확인할 수 있습니다. [TechNet의 DAX 리소스 센터 Wiki](http://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx)도 시작하는 데 많은 도움이 될 수 있습니다.
+DAX는 파워 피벗, Analysis Services 테이블 형식 모델 등의 다른 Microsoft BI 도구에서 여러 해 동안 사용되었으므로 유용한 정보가 많습니다. 자세한 내용은 Microsoft 및 업계 최고 BI 전문가들이 제공하는 설명서, 백서 및 블로그에서 확인할 수 있습니다. [TechNet의 DAX 리소스 센터 Wiki](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx)도 시작하는 데 많은 도움이 될 수 있습니다.
 
 ### <a name="quickquiz-answers"></a>빠른 퀴즈 답변
 구문:

@@ -3,19 +3,18 @@ title: 온-프레미스 데이터 게이트웨이
 description: 이 문서는 Power BI의 온-프레미스 데이터 게이트웨이에 대한 개요입니다. DirectQuery 데이터 원본으로 작업하는 데 이 게이트웨이를 사용할 수 있습니다. 또한 이 게이트웨이를 사용하여 온-프레미스 데이터로 클라우드 데이터 세트를 새로 고칠 수도 있습니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442794"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872453"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이란?
 
@@ -51,4 +50,4 @@ ms.locfileid: "73442794"
 
 * [온-프레미스 데이터 게이트웨이 설치](/data-integration/gateway/service-gateway-install)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

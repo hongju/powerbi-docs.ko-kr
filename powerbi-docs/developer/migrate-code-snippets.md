@@ -3,18 +3,17 @@ title: Power BI Embedded에서 콘텐츠 마이그레이션을 위한 코드 조
 description: 다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 95c249fe2326d9075d920a415c707811d19e5387
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429158"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880509"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션에서 콘텐츠 마이그레이션을 위한 코드 조각
 
@@ -240,4 +239,4 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 [JavaScript 포함 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

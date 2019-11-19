@@ -2,7 +2,6 @@
 title: 테이블에 하이퍼링크(URL) 추가
 description: 이 항목에서는 테이블에 하이퍼링크(URL)를 추가하는 방법을 배웁니다. Power BI Desktop를 사용하여 테이블 또는 행렬에 하이퍼링크(URL)를 추가합니다. 그런 다음, Power BI Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가할 수 있습니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c53ce84610e68280c915d55466bc7cddd3c0cc92
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060746"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874512"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>테이블에 하이퍼링크(URL) 추가
 이 항목에서는 테이블에 하이퍼링크(URL)를 추가하는 방법을 배웁니다. Power BI Desktop를 사용하여 테이블 또는 행렬에 하이퍼링크(URL)를 추가합니다. 그런 다음, Power BI Desktop 또는 Power BI 서비스를 사용하여 보고서 테이블 및 행렬에 하이퍼링크를 추가할 수 있습니다. 
@@ -112,5 +111,5 @@ A: 아니요. 링크 아이콘을 사용할 수 있습니다. 하이퍼링크의
 
 [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

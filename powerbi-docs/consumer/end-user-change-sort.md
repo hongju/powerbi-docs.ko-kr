@@ -2,7 +2,6 @@
 title: 보고서에 차트 정렬 방식 변경
 description: Power BI 보고서에서 차트 정렬 방식 변경
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aaf2af2209097b75a4a6aee4faa062bc432dd765
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: e325d13dd8001e8da41dc5602bf3f7dbba2f371f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019944"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852380"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 
@@ -29,7 +28,7 @@ Power BI 서비스에서 다양한 데이터 필드로 정렬하여 시각적 �
 
 대시보드의 시각적 개체는 정렬할 수 없지만, Power BI 보고서에서 차트의 범주 이름 또는 각 범주의 숫자 값을 기준으로 대부분의 시각화를 알파벳순으로 정렬할 수 있습니다. 예를 들어 다음 차트는 **매장 이름** 범주를 기준으로 알파벳순으로 정렬되어 있습니다.
 
-![X 축을 기준으로 사전순으로 정렬된 막대형 차트](media/end-user-change-sort/pbi_chartsortcategory.png)
+![X 축을 기준으로 사전순으로 정렬된 막대형 차트](media/end-user-change-sort/pbi-chartsortcategory.png)
 
 정렬 기준을 범주(매장 이름)에서 값(평방 피트당 매출)으로 대신 변경하는 것은 쉽습니다.
 

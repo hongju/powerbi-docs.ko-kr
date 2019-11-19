@@ -3,18 +3,17 @@ title: Power BI 사용 권한
 description: Power BI 사용 권한
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 06901a484ca53881f30cc71d9a7404807ac6cd57
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 14327f09ede41c23fd4fe7cc65fc4f8d3a91b926
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429134"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880450"
 ---
 # <a name="power-bi-permissions"></a>Power BI 사용 권한
 
@@ -46,7 +45,7 @@ Power BI 사용 권한은 애플리케이션이 사용자를 대신하여 특정
 
 ## <a name="requesting-permissions"></a>사용 권한 요청
 
-API를 호출하여 사용자 이름과 암호로 인증할 수 있으며, 다른 사용자를 대신하여 작업을 수행하려면 다른 사용자가 사용 권한을 요청한 다음 승인하고 이후 모든 호출에 결과 액세스 토큰을 보내야 합니다. 이 프로세스의 경우 표준 [OAuth 2.0](http://oauth.net/2/) 프로토콜을 따릅니다. 실제 구현은 다를 수 있지만 Power BI에 대한 OAuth 흐름에는 다음과 같은 요소가 포함됩니다.
+API를 호출하여 사용자 이름과 암호로 인증할 수 있으며, 다른 사용자를 대신하여 작업을 수행하려면 다른 사용자가 사용 권한을 요청한 다음 승인하고 이후 모든 호출에 결과 액세스 토큰을 보내야 합니다. 이 프로세스의 경우 표준 [OAuth 2.0](https://oauth.net/2/) 프로토콜을 따릅니다. 실제 구현은 다를 수 있지만 Power BI에 대한 OAuth 흐름에는 다음과 같은 요소가 포함됩니다.
 
 * **로그인 UI** - 개발자가 사용 권한을 요청하기 위해 호출할 수 있는 UI입니다. 로그인하지 않은 경우 로그인해야 합니다. 또한 사용자는 애플리케이션이 요청하는 사용 권한을 승인해야 합니다. 로그인 창에서 제공된 리디렉션 URL에 액세스 코드 또는 오류 메시지를 다시 게시합니다.
   * 네이티브 애플리케이션에서 사용할 표준 리디렉션 URL을 Power BI에서 제공해야 합니다.
@@ -54,4 +53,4 @@ API를 호출하여 사용자 이름과 암호로 인증할 수 있으며, 다�
 * **인증 토큰** - 다른 사용자를 대신하여 API 호출을 인증하는 데 사용됩니다. 이 토큰의 범위는 특정 애플리케이션으로 지정됩니다. 토큰에는 설정된 수명이 있으며 토큰이 만료되는 경우 새로 고쳐야 합니다.
 * **토큰 새로 고침** - 토큰이 만료되면 토큰을 새로 고치는 프로세스가 수행됩니다.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

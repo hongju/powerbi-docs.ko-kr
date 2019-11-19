@@ -2,7 +2,6 @@
 title: Power BI에서 접근성 있는 보고서 만들기
 description: 접근성 있는 Power BI Desktop 보고서를 만드는 방법
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ea03387dd35537ac47f1c97a3c2712d4185b3247
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: 4686b15e04d3724256c76d7ba27a125cb04e86b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73181715"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878973"
 ---
 # <a name="creating-accessible-reports-in-power-bi"></a>Power BI에서 접근성 있는 보고서 만들기
 접근성을 지원하는 동시에 매력적인 보고서를 디자인하고 만들 수 있습니다. 대상 그룹과 관계없이 보고서를 작성할 때는 항상, 특별한 디자인에 맞게 조정하지 않고도 최대한 많은 사람이 사용할 수 있도록 보고서를 만들어야 합니다.
@@ -166,9 +165,9 @@ Power BI를 매력적이게 하는 한 가지 기능은 해당 데이터가 동�
 
 ### <a name="themes-contrast-and-colorblind-friendly-colors"></a>테마, 대비 및 색맹에 편리한 색
 
-보고서에서 텍스트와 배경색 간에 충분한 대비가 되는지 확인해야 합니다. WCAG 2.1 성공 조건 1.4.3에서는 텍스트와 배경색의 대비 비율이 4.5:1 이상이 되어야 한다고 설명합니다. [색 대비 분석기](https://developer.paciellogroup.com/resources/contrastanalyser/), [WebAIM](https://webaim.org/resources/contrastchecker/), [접근성 있는 색](http://accessible-colors.com/) 등의 여러 도구를 사용하여 보고서 색을 확인할 수 있습니다.
+보고서에서 텍스트와 배경색 간에 충분한 대비가 되는지 확인해야 합니다. WCAG 2.1 성공 조건 1.4.3에서는 텍스트와 배경색의 대비 비율이 4.5:1 이상이 되어야 한다고 설명합니다. [색 대비 분석기](https://developer.paciellogroup.com/resources/contrastanalyser/), [WebAIM](https://webaim.org/resources/contrastchecker/), [접근성 있는 색](https://accessible-colors.com/) 등의 여러 도구를 사용하여 보고서 색을 확인할 수 있습니다.
 
-또한 일부 보고서 뷰어는 색맹일 수 있음을 고려해야 합니다. [Coblis](http://www.color-blindness.com/coblis-color-blindness-simulator/), [Vischeck](http://www.vischeck.com/vischeck/vischeckImage.php) 등의 도구는 다양한 색 결함이 있는 보고서 뷰어에 표시되는 모양을 시뮬레이트합니다.  보고서에서 더 적은 색이나 단색 색상표를 사용하면 접근성 없는 보고서가 생성되는 경우를 줄일 수 있습니다.
+또한 일부 보고서 뷰어는 색맹일 수 있음을 고려해야 합니다. [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/), [Vischeck](https://www.vischeck.com/vischeck/vischeckImage.php) 등의 도구는 다양한 색 결함이 있는 보고서 뷰어에 표시되는 모양을 시뮬레이트합니다.  보고서에서 더 적은 색이나 단색 색상표를 사용하면 접근성 없는 보고서가 생성되는 경우를 줄일 수 있습니다.
 
 특정 색 조합은 색맹 사용자가 구분하는 것이 특히 어렵습니다. 해당 조합은 다음과 같습니다. 
 
@@ -234,7 +233,7 @@ Power BI는 접근성 도구와 기능뿐 아니라 보고서를 만들 때 사�
 * 중요한 정보를 전달하는 데 도구 설명을 사용하지 않는 것이 좋습니다. 운동 장애가 있는 사용자와 마우스를 사용하지 않는 사용자는 액세스하기 어렵습니다.
 * 도구 설명을 차트에 보조 정보로 추가합니다. 각 시각적 개체의 액세스 가능한 **데이터 표시** 테이블에 포함됩니다.
 
-### <a name="video"></a>동영상
+### <a name="video"></a>비디오
 * 페이지를 렌더링할 때 자동으로 시작되는 동영상을 방지합니다.
 * 동영상에 캡션이 있는지 확인하거나 대본을 제공합니다.
 

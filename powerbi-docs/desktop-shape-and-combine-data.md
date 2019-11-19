@@ -2,7 +2,6 @@
 title: '자습서:  Power BI Desktop에서 데이터 셰이핑 및 결합'
 description: 이 자습서에서는 Power BI Desktop에서 데이터를 셰이핑하고 결합하는 방법을 알아봅니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 19e0fa75426cd3e3f72ce9c01712b8d1c52e4abf
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922572"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877814"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>자습서:  Power BI Desktop에서 데이터 셰이핑 및 결합
 
@@ -195,7 +194,7 @@ Power BI Desktop의 쿼리 편집기에서는 오른쪽 클릭 메뉴와 **변�
 
 1. 쿼리 편집기의 **홈** 리본에서 **새 원본 \> 웹**을 선택합니다. 
 
-2. 주 약어의 웹 사이트 주소( *http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations* )를 입력하고 **연결**을 선택합니다.
+2. 주 약어의 웹 사이트 주소( *https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations* )를 입력하고 **연결**을 선택합니다.
 
    탐색기에 웹 사이트의 콘텐츠가 표시됩니다.
 

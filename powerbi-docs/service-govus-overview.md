@@ -2,7 +2,6 @@
 title: 미국 정부 기관 고객용 Power BI - 개요
 description: 미국 정부 기관 고객을 대상으로 하는 Power BI 미국 정부 기관 서비스의 기능 및 제한 사항에 대해 알아봅니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,24 +9,24 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3121c939cca8b2b4f743185e2367c8ea83794009
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: 225c21693c9f100d9abbfc310b957bee7a909061
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048829"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881354"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
 
 ![](media/service-govus-overview/service_usgov_overview-1.png)
 
-다음 섹션에서는 미국 정부 기관 버전의 **Power BI 서비스**에서 사용할 수 있는 기능에 대해 설명하고, 제한 사항 중 일부를 명확히 하고, 자주 묻는 질문(**FAQ**) 및 대답(등록 방법 포함)을 나열하고 자세한 정보에 대한 링크를 제공합니다.
+다음 섹션에서는 미국 정부 기관 버전의 **Power BI 서비스**에서 사용할 수 있는 기능에 대해 설명하고, 제한 사항 중 일부를 명확히 하고, 자주 묻는 질문(**FAQ**) 및 대답(등록 방법 포함)을 나열하고 자세한 정보에 대한 링크를 제공합니다.  
 
 ## <a name="features-of-power-bi-us-government"></a>Power BI 미국 정부 기관의 기능
 **Power BI 미국 정부**는 **Pro 라이선스**로만 제공되며 무료 라이선스로는 사용할 수 없습니다. Power BI 서비스의 특정 기능은 서비스의 **Power BI 미국 정부** 버전에서 사용할 수 있습니다.
 
-다음 기능은 **Pro** 기능 라이선스 기능에 적용되므로 **Power BI 미국 정부** 사용자에게 제공됩니다. 
+다음 기능은 **Pro** 기능 라이선스 기능에 적용되므로 **Power BI 미국 정부** 사용자에게 제공됩니다.
 
 * 대시보드 및 보고서 만들기 및 보기
 * [데이터 용량 제한](service-admin-manage-your-data-storage-in-power-bi.md)
@@ -84,7 +83,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 
 **질문:** 미국 정부 기관용 **Power BI**를 가져오는 데 관심이 있습니다. 어떻게 시작하나요?
 
-**답변:** 가입(종종 ‘온보딩’이라고 함)은 기존 라이선스 및 구독에 따라 다를 수 있습니다. 자세한 내용은 [미국 정부 기관용 Power BI 등록](service-govus-signup.md) 문서를 참조하세요.
+**답변:** 가입(종종 ‘온보딩’이라고 함)은 기존 라이선스 및 구독에 따라 다를 수 있습니다.  자세한 내용은 [미국 정부 기관용 Power BI 등록](service-govus-signup.md) 문서를 참조하세요.
 
 **질문:** 미국 정부 기관용 **Power BI** 연결을 위한 URL은 상업용 **Power BI** URL과 다른가요? 정부 커뮤니티 클라우드 High(GCC High) 고객을 위한 다른 URL이 있나요?
 

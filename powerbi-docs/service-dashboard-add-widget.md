@@ -2,7 +2,6 @@
 title: 대시보드에 이미지, 동영상 등 추가
 description: 타일 추가 위젯을 사용하여 이미지, 비디오, 텍스트 상자, 웹 코드 및 스트리밍 데이터 타일을 대시보드에 추가하는 방법에 대한 설명입니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020435"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853526"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>대시보드에 이미지, 동영상 등 추가
 
@@ -246,5 +245,5 @@ PubNub을 사용하여 대시보드의 타일에 스트리밍 데이터(예: Twi
 ## <a name="next-steps"></a>다음 단계
 [Power BI 디자이너용 대시보드 타일 소개](service-dashboard-tiles.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](https://community.powerbi.com/)하세요.
 

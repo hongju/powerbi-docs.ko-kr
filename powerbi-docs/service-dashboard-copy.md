@@ -2,7 +2,6 @@
 title: Power BI 대시보드 사본 만들기
 description: 'Power BI 대시보드를 복제하는 방법 '
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fc255cda798b528acf7f782efac742872a442d41
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ab629c15f1e1e998c3870b95993cdf7348cb15ff
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021056"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872836"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Power BI 서비스에서 대시보드 복사본 만들기
 ![대시보드](media/service-dashboard-copy/power-bi-dashboard.png)
@@ -50,5 +49,5 @@ ms.locfileid: "73021056"
 ## <a name="next-steps"></a>다음 단계
 * [멋진 대시보드를 디자인하기 위한 팁](service-dashboards-design-tips.md) 
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

@@ -3,19 +3,18 @@ title: gx64krb5를 사용하는 SAP BW로의 SSO(Single Sign-On)에 Kerberos 사
 description: gx64krb5를 사용하여 Power BI 서비스에서 SSO를 사용하도록 SAP BW 서버 구성
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0063ca280667e12fb2cf4d0432651f8145495ac8
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a162ba686c3f548ed371e7a63c2d85dd1f697462
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020321"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881485"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>gx64krb5를 사용하는 SAP BW로의 SSO(Single Sign-On)에 Kerberos 사용
 
@@ -33,7 +32,7 @@ ms.locfileid: "73020321"
 
 게이트웨이를 통해 SSO 연결을 완료하려면 클라이언트와 서버에서 모두 gx64krb5 라이브러리를 사용해야 합니다. 즉, 클라이언트와 서버가 동일한 SNC 라이브러리를 사용해야 합니다.
 
-1. [SAP Note 2115486](https://launchpad.support.sap.com/)(SAP s-user 필요)에서 gx64krb5.dll을 다운로드합니다. 1.0.11.x 버전 이상이 있는지 확인합니다. 게이트웨이를 통해 SSO 연결을 시도하기 전에 SAP GUI에서 SSO 연결을 테스트하려는 경우, gsskrb5.dll(라이브러리의 32비트 버전)도 다운로드합니다(권장). SAP GUI는 32비트 전용이므로, SAP GUI를 사용해서 테스트하려면 32비트 버전이 필요합니다.
+1. [SAP Note 2115486](https://launchpad.support.sap.com/)(SAP s-user 필요)에서 gx64krb5.dll을 다운로드합니다. 1\.0.11.x 버전 이상이 있는지 확인합니다. 게이트웨이를 통해 SSO 연결을 시도하기 전에 SAP GUI에서 SSO 연결을 테스트하려는 경우, gsskrb5.dll(라이브러리의 32비트 버전)도 다운로드합니다(권장). SAP GUI는 32비트 전용이므로, SAP GUI를 사용해서 테스트하려면 32비트 버전이 필요합니다.
 
 1. 게이트웨이 서비스 사용자가 액세스할 수 있는 게이트웨이 머신의 위치에 gx64krb5.dll을 저장합니다. SAP GUI를 사용하여 SSO 연결을 테스트하려는 경우, 머신에 gsskrb5.dll의 복사본을 저장하고 해당 위치를 가리키도록 **SNC_LIB** 환경 변수를 설정합니다. 서비스 사용자가 가장하는 게이트웨이 서비스 사용자와 AD(Active Directory) 사용자에게 모두, gx64krb5.dll의 복사본에 대한 읽기 및 실행 권한이 있어야 합니다. 인증된 사용자 그룹에 .dll에 대한 권한을 부여하는 것이 좋습니다. 테스트에 사용할 게이트웨이 서비스 사용자와 Active Directory 사용자 둘 다에게 이러한 사용 권한을 명시적으로 부여할 수도 있습니다.
 

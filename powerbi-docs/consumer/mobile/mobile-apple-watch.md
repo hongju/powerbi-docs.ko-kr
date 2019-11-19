@@ -2,25 +2,24 @@
 title: Apple Watch에서 모바일 앱의 Power BI 데이터 탐색
 description: Power BI Apple Watch 앱
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 23f2b41b84c387ca772fdda1397a6c5e4fce6acf
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 31db6725c027ed09e900dac7036778004e9e3ff3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017666"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870725"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch에서 Power BI 모바일 앱의 데이터 탐색
 Power BI Apple Watch 앱을 사용하여 시계에 있는 Power BI 대시보드에서 KPI 및 타일 카드을 볼 수 있습니다. KPI 및 카드 타일은 작은 화면에서 하트비트 측정값을 제공하는 데 가장 적합합니다. iPhone이나 Watch 자체에서 대시보드를 새로 고칠 수 있습니다.
 
 ## <a name="install-the-apple-watch-app"></a>Apple Watch 앱 설치
-Power BI Apple Watch 앱은 iOS용 Power BI 앱과 번들로 제공되므로 Apple App Store에서 [iPhone으로 Power BI 앱을 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone 앱 다운로드")하면 Power BI Watch 앱도 자동으로 다운로드됩니다. Apple 설명서에서는 [Apple Watch 애플리케이션을 설치](https://support.apple.com/HT204784)하는 방법을 설명합니다.
+Power BI Apple Watch 앱은 iOS용 Power BI 앱과 번들로 제공되므로 Apple App Store에서 [iPhone으로 Power BI 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkId=522062 "iPhone 앱 다운로드")하면 Power BI Watch 앱도 자동으로 다운로드됩니다. Apple 설명서에서는 [Apple Watch 애플리케이션을 설치](https://support.apple.com/HT204784)하는 방법을 설명합니다.
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Apple Watch에서 Power BI 앱 사용
 시계의 Springboard에서 또는 시계 화면(구성된 경우)에서 직접 Power BI 위젯을 클릭하여 Power BI Apple Watch 앱으로 이동합니다.
@@ -86,7 +85,7 @@ Apple Watch 화면의 작은 공간에 맞게 Power BI Apple Watch 앱을 통해
 ## <a name="next-steps"></a>다음 단계
 사용자 의견은 나중에 구현할 사항을 결정하는 데 도움이 됩니다. 따라서 Power BI 모바일 앱에서 참조하고자 하는 다른 기능에 대해 꼭 투표해주세요. 
 
-* [Power BI iPhone 모바일 앱](http://go.microsoft.com/fwlink/?LinkId=522062) 다운로드
+* [Power BI iPhone 모바일 앱](https://go.microsoft.com/fwlink/?LinkId=522062) 다운로드
 * [@MSPowerBI Twitter](https://twitter.com/MSPowerBI)에서 팔로우
-* [Power BI 커뮤니티](http://community.powerbi.com/)에서 대화에 참여
+* [Power BI 커뮤니티](https://community.powerbi.com/)에서 대화에 참여
 

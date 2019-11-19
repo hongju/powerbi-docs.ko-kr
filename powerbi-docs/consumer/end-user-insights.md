@@ -2,7 +2,6 @@
 title: 대시보드 타일에서 인사이트 실행 및 보기
 description: Power BI 최종 사용자로 대시보드 타일 관련 인사이트를 얻는 방법을 알아봅니다.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019623"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863396"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI로 대시보드 타일에서 데이터 인사이트 보기
 대시보드의 각 시각적 개체 [타일](end-user-tiles.md)은 데이터 검색에 사용됩니다. 타일을 선택하면 보고서가 열리거나 [질문 및 답변이 열립니다](end-user-q-and-a.md). 여기서 보고서의 기반이 되는 데이터 세트를 필터링 및 정렬하고 자세히 살펴볼 수 있습니다. 또한 인사이트를 실행하면 Power BI에서 데이터 탐색을 수행합니다.

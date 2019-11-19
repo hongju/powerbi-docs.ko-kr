@@ -2,7 +2,6 @@
 title: 대시보드, 보고서, 작업 영역, 보고서 페이지, 데이터 세트 이름 바꾸기
 description: Power BI 서비스에서 거의 모든 항목의 이름을 바꿉니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e750b0c159e7844e28fd6e16db93a95e528a261e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: de842b95c8f6e023a5207c07abb2525c5fe45878
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432186"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871709"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 항목의 이름 바꾸기
 이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 보고서 페이지, 통합 문서, 데이터 세트, 앱 및 작업 영역의 이름을 변경하는 방법을 안내합니다.
@@ -87,5 +86,5 @@ Power BI 보고서에 페이지의 이름이 마음에 들지 않나요?  한 �
 * 이름을 변경할 항목이 나와 공유되었거나 콘텐츠 팩의 일부인 경우 기어 아이콘이 표시되지 않으며 설정에 액세스할 수 없습니다.
 * **데이터 세트** 탭에 **추가 옵션**(...)이 표시되지 않는 경우 브라우저 창을 펼칩니다.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

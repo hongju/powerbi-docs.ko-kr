@@ -2,7 +2,6 @@
 title: 데이터 세트 승격(미리 보기) - Power BI
 description: 데이터 세트를 승격하고 엔터프라이즈 사용자를 신뢰할 수 있는 고품질 데이터 세트로 안내하는 방법을 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a9c4f2e6348067b3a7029be8d8e7fdfb26e7045
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 379249ac50f61df07c4adaffe53e0df29a311086
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020939"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877125"
 ---
 # <a name="promote-your-dataset-preview"></a>데이터 세트 승격(미리 보기)
 
@@ -55,4 +54,4 @@ ms.locfileid: "73020939"
 ## <a name="next-steps"></a>다음 단계
 
 * [작업 영역에서 데이터 세트 사용](service-datasets-across-workspaces.md)에 대해 읽어보세요.
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

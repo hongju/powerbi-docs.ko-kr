@@ -3,19 +3,18 @@ title: 보안 포털 또는 웹 사이트에 보고서 포함
 description: Power BI 포함 기능을 사용하여 사용자가 내부 웹 포털에 보고서를 쉽고 안전하게 포함하도록 할 수 있습니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: d140e39cdd30f5e2078f24c55fda5ea7040e0ad4
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 59841cdcfae3bc08e0b6dcacf4bcb6664dfe209c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431871"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877074"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>보안 포털 또는 웹 사이트에 보고서 포함
 

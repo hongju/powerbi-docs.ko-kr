@@ -3,18 +3,17 @@ title: Power BI 시각적 개체의 로컬 스토리지 API
 description: 이 문서에서는 Power BI 시각적 개체 API를 사용하여 브라우저 로컬 스토리지에 액세스하는 방법을 설명합니다.
 author: uve
 ms.author: v-grniki
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: 3b6746b611a41ddfb471008f5aefa4f7dc391456
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f69a3c8928b8079f79b8a6dd5f5b132235a7089c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432914"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879895"
 ---
 # <a name="local-storage-api"></a>로컬 스토리지 API
 

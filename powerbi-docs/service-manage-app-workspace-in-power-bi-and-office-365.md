@@ -2,7 +2,6 @@
 title: Power BI 및 Office 365에서 작업 영역 관리
 description: Power BI의 작업 영역은 Office 365 그룹을 기반으로 하는 협업 환경을 제공합니다. Power BI 및 Office 365에서 작업 영역을 관리합니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1317d11b11624ca6187eb91d5350a698bf164f63
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431812"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872067"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Power BI 및 Office 365에서 작업 영역 관리
 
@@ -87,4 +86,4 @@ Office 365용 Outlook에서 직접 작업 영역의 기능을 편집할 수도 �
 
 * [Power BI에 앱 게시](service-create-distribute-apps.md)
 
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

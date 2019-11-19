@@ -2,19 +2,18 @@
 title: Power BI 템플릿 앱을 업데이트, 삭제 및 추출
 description: 템플릿 앱을 업데이트, 삭제 및 추출하는 방법입니다.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 8ed27d830e0bc779fc7ecb8e3aa8fde11b8d9c61
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432270"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871374"
 ---
 # <a name="update-delete-and-extract-template-app"></a>템플릿 앱 업데이트, 삭제 및 추출
 
@@ -57,7 +56,7 @@ Power BI Desktop에서 변경을 수행한 경우 (1)단계에서 시작합니�
 ## <a name="extract-workspace"></a>작업 영역 추출
 이제 추출 기능을 사용하면 그 어느 때보다 쉽게 이전 버전의 템플릿 앱으로 롤백할 수 있습니다. 다음 단계에서는 다양한 릴리스 단계에서 새 작업 영역으로 특정 앱 버전을 추출합니다.
 
-1. [릴리스 관리] 창에서 자세히 **(...)**, **추출**을 차례로 누릅니다.
+1. [릴리스 관리] 창에서 자세히 **(...)** , **추출**을 차례로 누릅니다.
 
     ![템플릿 앱 버전 추출](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png) ![템플릿 앱 버전 추출](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
 2. 대화 상자에서 추출된 작업 영역의 이름을 입력합니다. 새 작업 영역이 추가됩니다.
@@ -68,7 +67,7 @@ Power BI Desktop에서 변경을 수행한 경우 (1)단계에서 시작합니�
 템플릿 작업 영역은 배포된 활성 템플릿 앱의 원본입니다. 템플릿 앱 사용자를 보호하려는 경우 먼저 작업 영역에서 생성된 모든 앱 버전을 제거해야 작업 영역을 삭제할 수 있습니다.
 앱 버전을 삭제하면 더 이상 작동하지 않는 앱 URL도 삭제됩니다.
 
-1. [릴리스 관리] 창에서 줄임표 **(...)**, **삭제**를 차례로 눌러 선택합니다.
+1. [릴리스 관리] 창에서 줄임표 **(...)** , **삭제**를 차례로 눌러 선택합니다.
  ![템플릿 앱 버전 삭제](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
  ![템플릿 앱 버전 삭제](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 

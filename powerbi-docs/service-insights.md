@@ -2,7 +2,6 @@
 title: Power BI를 사용하여 데이터 인사이트를 자동으로 생성
 description: 데이터 세트 및 대시보드 타일에 대한 정보를 얻는 방법에 대해 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020228"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872237"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI를 사용하여 데이터 인사이트를 자동으로 생성
 새 데이터 세트가 있고 어디서 시작해야 할지가 확실하지 않은 경우  빠르게 대시보드를 만들어야 하는 경우  놓쳤을 수 있는 정보를 찾으려는 경우
@@ -96,5 +95,5 @@ Amanda가 데이터 세트에 대한 빠른 인사이트를 실행하고, 정보
 - 데이터 세트의 소유자인 경우 [빠른 인사이트 활용을 위해 데이터 세트를 최적화](service-insights-optimize.md)합니다.
 - [사용 가능한 빠른 인사이트 유형](service-insight-types.md)에 대해 알아봅니다.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](https://community.powerbi.com/)하세요.
 

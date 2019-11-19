@@ -3,18 +3,17 @@ title: Power BI Report Server에 대한 변경 로그
 description: Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에 대한 버그 픽스와 새 항목을 나열합니다.
 ms.author: jaimeta
 author: jtarquino
-manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/25/2019
-ms.openlocfilehash: 0a4aaa5d9fcb3d5dab6cce0b0c8dd6034581aedb
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922558"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874286"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server에 대한 변경 로그
 
@@ -29,10 +28,10 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
         - 버그 수정
             - .NET Framework 4.7이 설치되지 않는 버그 수정
             - 다중값 매개 변수를 사용하는 Teradata의 페이지를 매긴 보고서 버그(오류 110083) 수정
-            - 여러 개의 웹 서비스 URL 바인딩이 있고 바인딩 중 하나가 http://+80/reportserver 인 경우 URLRoot 값이 작동하지 않는 버그 수정
+            - 여러 개의 웹 서비스 URL 바인딩이 있고 바인딩 중 하나가 https://+80/reportserver 인 경우 URLRoot 값이 작동하지 않는 버그 수정
           - 다중값 매개 변수 값이 보고서 영역 외부에 표시되는 페이지를 매긴 보고서 버그 수정
           
-    - ‘버전: 1.6.7221.30698(빌드 15.0.1102.620), 릴리스 날짜: 2019년 10월 9일’*
+    - *‘버전: 1.6.7221.30698(빌드 15.0.1102.620), 릴리스 날짜: 2019년 10월 9일’*
         - 버그 수정
             - 텍스트 필터 사용자 지정 시각적 개체 수정.
             - 드롭다운 슬라이서의 성능 수정.
@@ -57,11 +56,11 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
              - Web API: /PowerBIReports({Id})/DataSources (PATCH)가 연결 문자열 업데이트를 허용하도록 업데이트되었습니다.
          
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
-    - ‘버전: 2.73.5586.1501(2019년 9월), 릴리스 날짜: 2019년 10월 25일’*
+    - *‘버전: 2.73.5586.1501(2019년 9월), 릴리스 날짜: 2019년 10월 25일’*
         - 버그 수정
             - 원격 분석 버그 수정
             
-    - ‘버전: 2.73.5586.1241(2019년 9월), 릴리스 날짜: 2019년 10월 9일’*
+    - *‘버전: 2.73.5586.1241(2019년 9월), 릴리스 날짜: 2019년 10월 9일’*
         - 버그 수정
             - 텍스트 필터 사용자 지정 시각적 개체 수정.
             - 드롭다운 슬라이서의 성능 수정.
@@ -305,6 +304,6 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 [관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SSDT(SQL Server Data Tools) 다운로드](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

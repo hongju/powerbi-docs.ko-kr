@@ -2,7 +2,6 @@
 title: 공유 데이터 세트에 대한 빌드 권한(미리 보기)
 description: 빌드 권한을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어하는 방법에 대해 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020294"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872555"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>공유 데이터 세트에 대한 빌드 권한(미리 보기)
 
@@ -103,4 +102,4 @@ Power BI는 기존 권한인 읽기 및 재공유를 보완하기 위해 2019년
 ## <a name="next-steps"></a>다음 단계
 
 - [작업 영역에서 데이터 세트 사용(미리 보기)](service-datasets-across-workspaces.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

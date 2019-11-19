@@ -2,7 +2,6 @@
 title: ArcGIS Maps for Power BI 만들기
 description: 'Esri를 통해 ArcGIS Maps for Power BI 만들기 '
 author: mihart
-manager: kvivek
 ms.reviewer: willt
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cf8a914cae3b34d43b0ff54df7c38d5aea772e87
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 359d36e3becb58386aeaca66f12670bd463644d1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432396"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871092"
 ---
 # <a name="arcgis-maps-in-power-bi-desktop"></a>Power BI Desktop의 ArcGIS Maps
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-이 자습서는 ArcGIS Maps for Power BI를 만드는 사람의 관점에서 작성되었습니다. ‘디자이너’가 동료와 ArcGIS Maps for Power BI 지도를 공유하면, 동료가 지도를 보고 조작할 수 있지만 변경 내용을 저장할 수는 없습니다. ArcGIS 지도를 보는 방법에 대한 자세한 내용은 [ArcGIS Maps for Power BI 조작](power-bi-visualizations-arcgis.md)을 참조하세요.
+이 자습서는 ArcGIS Maps for Power BI를 만드는 사람의 관점에서 작성되었습니다. ‘디자이너’가 동료와 ArcGIS Maps for Power BI 지도를 공유하면, 동료가 지도를 보고 조작할 수 있지만 변경 내용을 저장할 수는 없습니다.  ArcGIS 지도를 보는 방법에 대한 자세한 내용은 [ArcGIS Maps for Power BI 조작](power-bi-visualizations-arcgis.md)을 참조하세요.
 
 ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어서 완전히 새로운 수준으로 매핑합니다. 기본 지도, 위치 유형, 테마, 기호 스타일 및 참조 계층에서 선택하여 멋진 정보 제공용 지도 시각화를 만듭니다. 공간 분석과 지도의 신뢰할 수 있는 데이터 계층의 조합은 시각화에서 데이터의 심도 깊은 이해를 제공합니다.
 
@@ -40,7 +39,7 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 > [Esri의 ArcGIS Maps for Power BI 페이지](https://www.esri.com/powerbi)를 방문하여 다양한 예제를 참조하고 후기를 확인하세요. 그런 다음, Esri의 [ArcGIS Maps for Power BI 시작 페이지](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm)를 참조하세요.
 
 ## <a name="user-consent"></a>사용자 동의
-ArcGIS Maps for Power BI는 Esri(www.esri.com)에서 제공합니다. Power BI용 ArcGIS Maps의 사용은 Esri의 사용 약관 및 개인 정보 보호 정책에 따릅니다. Power BI용 ArcGIS Maps 시각적 개체를 사용할 Power BI 사용자는 승인 대화 상자를 수락해야 합니다.
+ArcGIS Maps for Power BI는 Esri(https://www.esri.com) 에서 제공합니다. Power BI용 ArcGIS Maps의 사용은 Esri의 사용 약관 및 개인 정보 보호 정책에 따릅니다. Power BI용 ArcGIS Maps 시각적 개체를 사용할 Power BI 사용자는 승인 대화 상자를 수락해야 합니다.
 
 **리소스**
 
@@ -53,7 +52,7 @@ ArcGIS Maps for Power BI는 Esri(www.esri.com)에서 제공합니다. Power BI�
 
 ## <a name="prerequisites"></a>필수 조건
 
-이 자습서는 Power BI Desktop 및 PBIX [소매점 분석 샘플](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다. Power BI 서비스를 사용하여 ArcGIS Maps for Power BI를 만들 수도 있습니다. 
+이 자습서는 Power BI Desktop 및 PBIX [소매점 분석 샘플](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다. Power BI 서비스를 사용하여 ArcGIS Maps for Power BI를 만들 수도 있습니다. 
 
 1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** \> **열기**를 선택합니다.
    
@@ -117,7 +116,7 @@ Will이 몇 가지 시각화를 만드는 과정을 살펴본 다음, 아래 단
 
 
 ### <a name="base-maps"></a>기본 지도
-4개의 기본 지도, 즉 진한 회색 캔버스, 연한 회색 캔버스, OpenStreetMap 및 도로 지도가 제공됩니다.  ‘도로’는 ArcGIS 표준 기본 지도입니다.
+4개의 기본 지도, 즉 진한 회색 캔버스, 연한 회색 캔버스, OpenStreetMap 및 도로 지도가 제공됩니다.  ‘도로’는 ArcGIS 표준 기본 지도입니다. 
 
 기본 지도를 적용하려면 작업 창에서 선택합니다.
 
@@ -184,7 +183,7 @@ ArcGIS Maps for Power BI는 지도에 데이터를 표시하는 최상의 방법
    ![단일 핀 선택 예](media/power-bi-visualization-arcgis/power-bi-clt.png)
    
    > [!TIP]
-   > 지도를 확대하면 위치를 선택하기가 쉬워집니다. + 아이콘이나 마우스 스크롤을 사용하여 확대/축소할 수 있습니다.
+   > 지도를 확대하면 위치를 선택하기가 쉬워집니다. \+ 아이콘이나 마우스 스크롤을 사용하여 확대/축소할 수 있습니다.
    > 
    > 
 2. 며칠 동안 Charlotte Douglas 공항으로 가서 적절한 운행 거리 내에 있는 체인 매장을 파악하려 한다고 가정해 봅시다. 검색 영역을 **운행 시간**으로 변경하고, 거리를 **25**분으로 변경합니다. 확인을 선택합니다.    
@@ -216,7 +215,7 @@ ArcGIS Online에서는 공용 웹 지도를 게시하는 조직을 위한 기능
 2. 검색 용어를 입력한 후 지도 계층을 선택합니다. 이 예에서는 미국 하원의원 선거구를 선택했습니다.
    
     ![Esri 인구 통계 예제](media/power-bi-visualization-arcgis/power-bi-reference-details.png)
-3. 자세한 정보를 보려면 음영 처리된 영역을 선택하여 ‘참조 계층에서 선택’을 엽니다. 참조 계층 선택 도구를 사용하여 참조 계층에 있는 경계 또는 개체를 선택합니다.
+3. 자세한 정보를 보려면 음영 처리된 영역을 선택하여 ‘참조 계층에서 선택’을 엽니다.  참조 계층 선택 도구를 사용하여 참조 계층에 있는 경계 또는 개체를 선택합니다.
 
 <br/>
 
@@ -326,7 +325,7 @@ Power BI용 ArcGIS Maps를 사용할 수 없는 서비스 또는 애플리케이
 <br/>
 
 **ArcGIS Maps for Power BI를 함께 작동하는 방법**
-ArcGIS Maps for Power BI는 Esri(www.esri.com)에서 제공합니다. ArcGIS Maps for Power BI의 사용은 Esri의 [사용 약관](https://go.microsoft.com/fwlink/?LinkID=8263222) 및 [개인 정보 보호 정책](https://go.microsoft.com/fwlink/?LinkID=826323)에 따릅니다. Power BI용 ArcGIS Maps 시각적 개체를 사용할 Power BI 사용자는 승인 대화 상자를 수락해야 합니다(자세한 내용은 사용자 동의 참조).  Esri의 ArcGIS Maps for Power BI를 사용하는 작업은 승인 대화 상자에 연결되어 있는 Esri의 사용 약관 및 개인 정보 보호 정책에 따릅니다. 각 사용자는 처음으로 ArcGIS Maps for Power BI를 사용하기 전에 동의해야 합니다. 사용자가 동의하면 시각적 개체에 바인딩된 데이터는 지오코딩을 위해 Esri의 서비스로 전송됩니다. 즉, 위치 정보를 맵에 표시될 수 있는 위도 및 경도 정보로 변환하는 것입니다. 데이터 시각화에 바인딩된 모든 데이터를 Esri의 서비스에 보낼 수 있다고 가정해야 합니다. Esri에서는 기본 맵, 공간 분석, 지오코딩 등와 같은 서비스를 제공합니다. ArcGIS Maps for Power BI 시각적 개체는 Esri에서 제공되고 유지 관리되는 인증서에 의해 보호되는 SSL 연결을 사용하여 이러한 서비스와 상호 작용합니다. ArcGIS Maps for Power BI에 대한 추가 정보는 Esri의 [ArcGIS Maps for Power BI 제품 페이지](https://www.esri.com/powerbi)에서 가져올 수 있습니다.
+ArcGIS Maps for Power BI는 Esri(https://www.esri.com) 에서 제공합니다. ArcGIS Maps for Power BI의 사용은 Esri의 [사용 약관](https://go.microsoft.com/fwlink/?LinkID=8263222) 및 [개인 정보 보호 정책](https://go.microsoft.com/fwlink/?LinkID=826323)에 따릅니다. Power BI용 ArcGIS Maps 시각적 개체를 사용할 Power BI 사용자는 승인 대화 상자를 수락해야 합니다(자세한 내용은 사용자 동의 참조).  Esri의 ArcGIS Maps for Power BI를 사용하는 작업은 승인 대화 상자에 연결되어 있는 Esri의 사용 약관 및 개인 정보 보호 정책에 따릅니다. 각 사용자는 처음으로 ArcGIS Maps for Power BI를 사용하기 전에 동의해야 합니다. 사용자가 동의하면 시각적 개체에 바인딩된 데이터는 지오코딩을 위해 Esri의 서비스로 전송됩니다. 즉, 위치 정보를 맵에 표시될 수 있는 위도 및 경도 정보로 변환하는 것입니다. 데이터 시각화에 바인딩된 모든 데이터를 Esri의 서비스에 보낼 수 있다고 가정해야 합니다. Esri에서는 기본 맵, 공간 분석, 지오코딩 등와 같은 서비스를 제공합니다. ArcGIS Maps for Power BI 시각적 개체는 Esri에서 제공되고 유지 관리되는 인증서에 의해 보호되는 SSL 연결을 사용하여 이러한 서비스와 상호 작용합니다. ArcGIS Maps for Power BI에 대한 추가 정보는 Esri의 [ArcGIS Maps for Power BI 제품 페이지](https://www.esri.com/powerbi)에서 가져올 수 있습니다.
 
 ArcGIS Maps for Power BI를 통해 Esri에서 제공하는 Plus 구독에 등록한 사용자는 Esri와 직접적인 관계를 갖게 됩니다. Power BI는 Esri에 사용자에 대한 개인 정보를 전송하지 않습니다. 사용자가 고유한 AAD ID를 사용하여 Esri 제공 AAD 애플리케이션에 로그인하고 트러스트합니다. 이렇게 하면 사용자는 Esri와 개인 정보를 직접 공유하게 됩니다. 사용자가 ArcGIS Maps for Power BI 시각적 개체에 추가 콘텐츠를 추가하면 다른 Power BI 사용자도 해당 콘텐츠를 보거나 편집하기 위해 Esri의 추가 구독이 필요합니다. 
 
@@ -360,5 +359,5 @@ Power BI용 ArcGIS Maps는 국가/지역, 시/도 및 우편 번호와 같은 �
 
 [Power BI용 ArcGIS 지도의 가용성을 발표하는 블로그 게시물](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

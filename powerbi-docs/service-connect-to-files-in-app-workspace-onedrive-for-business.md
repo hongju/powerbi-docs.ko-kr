@@ -2,19 +2,18 @@
 title: Power BI 작업 영역의 OneDrive에 있는 파일에 연결
 description: Power BI 작업 영역의 OneDrive에 Excel, CSV, Power BI Desktop 파일을 저장하고 연결하는 방법을 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cecd327d76659eb11d81180480cb9be998fd772
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431627"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854876"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Power BI 작업 영역의 OneDrive에 저장된 파일에 연결
 [Power BI에서 작업 영역을 만든](service-create-distribute-apps.md) 후에 Power BI 작업 영역의 비즈니스용 OneDrive에 Excel, CSV, Power BI Desktop 파일을 저장할 수 있습니다. OneDrive에 저장한 파일을 계속 업데이트할 수 있습니다. 이러한 업데이트는 파일에 따라 Power BI 보고서 및 대시보드에 자동으로 반영됩니다. 
@@ -32,7 +31,7 @@ ms.locfileid: "73431627"
 > 
 
 ## <a name="1-upload-files-to-the-onedrive-for-business-for-your-workspace"></a>1 작업 영역의 비즈니스용 OneDrive에 파일 업로드
-1. Power BI 서비스에서 작업 영역 옆에 있는 화살표를 선택하고 작업 영역 이름 옆에 있는 줄임표(**...**)를 선택합니다. 
+1. Power BI 서비스에서 작업 영역 옆에 있는 화살표를 선택하고 작업 영역 이름 옆에 있는 줄임표( **...** )를 선택합니다. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
 2. **파일**을 선택하여 Office 365에서 작업 영역의 비즈니스용 OneDrive를 엽니다.
@@ -53,13 +52,13 @@ ms.locfileid: "73431627"
 
 ### <a name="import-or-connect-to-the-files-in-your-workspace"></a>작업 영역의 파일 가져오기 또는 연결
 1. Power BI에서 작업 영역으로 전환하여 작업 영역 이름이 왼쪽 위에 표시되도록 합니다. 
-2. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기**를 선택합니다. 
+2. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
 3. **파일** 상자에서 **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
-4. **OneDrive** - ‘작업 영역 이름’을 선택합니다.
+4. **OneDrive** - ‘작업 영역 이름’을 선택합니다. 
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. 원하는 파일을 선택하고 **연결**을 선택합니다.
@@ -80,6 +79,6 @@ ms.locfileid: "73431627"
 * [Power BI에서 앱과 작업 영역 만들기](service-create-distribute-apps.md)
 * [Excel 통합 문서에서 데이터 가져오기](service-get-data-from-files.md)
 * [전체 Excel 통합 문서에 연결](service-excel-workbook-files.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 * 의견이 있으신가요? [Power BI Ideas(영문)](https://ideas.powerbi.com/forums/265200-power-bi)을 방문하세요.
 

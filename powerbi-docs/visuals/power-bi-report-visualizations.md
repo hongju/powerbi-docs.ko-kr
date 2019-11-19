@@ -3,7 +3,6 @@ title: Power BI 서비스 및 Desktop의 보고서 시각화 개요
 description: Microsoft Power BI의 보고서 시각화(시각적 개체)에 대한 개요입니다.
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 075985ce2d4eec1244827c65476c81774196a449
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048873"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099079"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 보고서의 시각화
 
@@ -71,4 +70,4 @@ Power BI에서 원하는 방식의 시각화가 있는 경우 타일 형태로 [
 ## <a name="next-steps"></a>다음 단계
 
 * [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [사용자 지정 시각적 개체](../power-bi-custom-visuals.md)
+* [사용자 지정 시각적 개체](../developer/power-bi-custom-visuals.md)

@@ -3,7 +3,6 @@ title: URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 description: URL 쿼리 문자열 매개 변수를 사용하여 보고서를 필터링하며 두 개 이상의 필드를 필터링할 수도 있습니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 389b28a4cadca10445ebaabeebaa109e414496f1
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891809"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876920"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -147,7 +146,7 @@ V3와 V4 사이에는 다른 점이 있습니다. OData V3는 날짜를 지원�
 
 ## <a name="special-characters-in-url-filters"></a>URL 필터의 특수 문자
 
-특수 문자 및 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 밑줄과 X로 시작하는 ‘이스케이프 코드’(**_x**) 및 4자리 **유니코드**와 그 뒤에 다른 밑줄을 붙여 해당 특수 문자의 접두사를 지정합니다. 유니코드가 4자 미만인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
+특수 문자 및 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 밑줄과 X로 시작하는 ‘이스케이프 코드’( **_x**) 및 4자리 **유니코드**와 그 뒤에 다른 밑줄을 붙여 해당 특수 문자의 접두사를 지정합니다.  유니코드가 4자 미만인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
 
 |식별자  |유니코드  | Power BI용 코딩  |
 |---------|---------|---------|
@@ -195,4 +194,4 @@ TerritoryChain = [Territory] & " - " & [Chain]
 [시각화를 대시보드에 고정](service-dashboard-pin-tile-from-report.md)  
 [평가판 등록](https://powerbi.microsoft.com/get-started/)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

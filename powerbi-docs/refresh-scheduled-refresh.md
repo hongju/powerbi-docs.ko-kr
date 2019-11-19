@@ -2,7 +2,6 @@
 title: 예약된 새로 고침 구성
 description: 게이트웨이 선택하고 예약된 새로 고침을 구성하는 단계를 설명합니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 9f1289b5fce74c60e5b3802054cef008dd33ada2
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 89f8b3d609b9433cc85d8af709eec828f924ad8e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021567"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860707"
 ---
 # <a name="configure-scheduled-refresh"></a>예약된 새로 고침 구성
 
@@ -69,7 +68,7 @@ ms.locfileid: "73021567"
 ![새로 고침 예약 명령](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> 데이터 새로 고침을 위해 온-프레미스 SharePoint에 연결할 때 Power BI는 *익명*, *기본* 및 *Windows(NTLM/Kerberos)* 인증 메커니즘만 지원합니다. Power BI는 온-프레미스 SharePoint 데이터 원본의 데이터 새로 고침에 *ADFS* 또는 임의의 양식 기반 인증을 지원합니다.
+> 데이터 새로 고침을 위해 온-프레미스 SharePoint에 연결할 때 Power BI는 *익명*, *기본* 및 *Windows(NTLM/Kerberos)* 인증 메커니즘만 지원합니다. Power BI는 온-프레미스 SharePoint 데이터 원본의 데이터 새로 고침에 *ADFS* 또는 임의의 양식 기반 인증을 지원합니다. 
 >
 >
 
@@ -127,5 +126,5 @@ ms.locfileid: "73021567"
 - [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 - [Power BI 게이트웨이 - 개인 문제 해결](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

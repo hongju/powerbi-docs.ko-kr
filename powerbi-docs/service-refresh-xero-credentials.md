@@ -2,7 +2,6 @@
 title: Xero 콘텐츠 팩 자격 증명을 새로 고치는 방법
 description: Xero Power BI 콘텐츠 팩을 사용하는 경우 최근의 Power BI 서비스 인시던트로 인해 콘텐츠 팩을 매일 새로 고치면서 문제가 발생했을 수 있습니다.
 author: SarinaJoan
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c750b4e3bea0649405316fe9e789234c32bba817
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 0a7268c041976a3cab3316c91470c1378a3685f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020075"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871677"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>새로 고침에 실패한 경우 Xero 콘텐츠 팩 자격 증명을 새로 고치는 방법
 Xero Power BI 콘텐츠 팩을 사용하는 경우 최근의 Power BI 서비스 인시던트로 인해 콘텐츠 팩을 매일 새로 고치면서 일부 문제가 발생했을 수 있습니다.
@@ -45,10 +44,10 @@ Xero Power BI 콘텐츠 팩을 사용하는 경우 최근의 Power BI 서비스 
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
-새로 고침 문제가 여전히 계속되면 Power BI 지원([http://support.powerbi.com](http://support.powerbi.com))으로 문의해 주세요. 
+새로 고침 문제가 여전히 계속되면 Power BI 지원([https://support.powerbi.com](https://support.powerbi.com))으로 문의해 주세요. 
 
 Power BI용 Xero 콘텐츠 팩에 대한 자세한 내용은 [Xero 콘텐츠 팩 도움말 페이지](service-connect-to-xero.md)를 참조하세요.
 
 ### <a name="next-steps"></a>다음 단계
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: 새로 고침 시나리오 문제 해결
 description: 새로 고침 시나리오 문제 해결
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7e66cbf11c8177a12dbbf825873adb4cef5f26fd
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: d79fc47ff30d7f28827290268ba01edf09643032
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73169034"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860504"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>새로 고침 시나리오 문제 해결
 
 다음에서 Power BI 서비스에서 데이터를 새로 고침할 때 직면할 수 있는 다양한 시나리오에 대한 정보를 찾을 수 있습니다.
 
 > [!NOTE]
-> 아래 나열되어 있지 않은 시나리오가 발생하고 문제를 발생시킨 경우 [커뮤니티 사이트](http://community.powerbi.com/)에 추가 지원을 요청하거나 [지원 티켓](https://powerbi.microsoft.com/support/)을 만들 수 있습니다.
+> 아래 나열되어 있지 않은 시나리오가 발생하고 문제를 발생시킨 경우 [커뮤니티 사이트](https://community.powerbi.com/)에 추가 지원을 요청하거나 [지원 티켓](https://powerbi.microsoft.com/support/)을 만들 수 있습니다.
 >
 >
 
@@ -80,11 +79,11 @@ Microsoft는 데이터 로드 프로세스에서 토큰을 새로 고치고 계�
 
 ## <a name="access-to-the-resource-is-forbidden"></a>리소스에 대한 액세스가 금지되었습니다.  
 
-이 오류는 캐시된 자격 증명이 만료되는 경우에 발생할 수 있습니다. Power BI에 로그인하고 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true으로 이동하여 인터넷 브라우저 캐시를 지웁니다. 이렇게 하면 자격 증명의 업데이트를 적용합니다.
+이 오류는 캐시된 자격 증명이 만료되는 경우에 발생할 수 있습니다. Power BI에 로그인하고 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true 으로 이동하여 인터넷 브라우저 캐시를 지웁니다. 이렇게 하면 자격 증명의 업데이트를 적용합니다.
 
 ## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>암호 변경 또는 만료된 자격 증명으로 인한 데이터 새로 고침 오류
 
-데이터 새로 고침은 캐시된 자격 증명이 만료되어 실패할 수도 있습니다. Power BI에 로그인하고 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true으로 이동하여 인터넷 브라우저 캐시를 지웁니다. 이렇게 하면 자격 증명의 업데이트를 적용합니다.
+데이터 새로 고침은 캐시된 자격 증명이 만료되어 실패할 수도 있습니다. Power BI에 로그인하고 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true 으로 이동하여 인터넷 브라우저 캐시를 지웁니다. 이렇게 하면 자격 증명의 업데이트를 적용합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -92,5 +91,5 @@ Microsoft는 데이터 로드 프로세스에서 토큰을 새로 고치고 계�
 - [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 - [Power BI 게이트웨이 - 개인 문제 해결](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-궁금한 점이 더 있나요? [Microsoft Power BI 커뮤니티에 질문하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Microsoft Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)
 

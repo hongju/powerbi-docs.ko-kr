@@ -3,7 +3,6 @@ title: 대시보드 및 보고서의 사용 메트릭 모니터링
 description: Power BI 대시보드 및 보고서의 사용 메트릭을 보고, 저장하고, 사용하는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6b34fc07afb082115ef5fb537badbae989e21cec
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432300"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871220"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서의 사용 메트릭 모니터링
 
@@ -120,7 +119,7 @@ Power BI 서비스에서는 사용 메트릭 보고서를 실행할 수만 있�
 
     ![보고서 탭](media/service-usage-metrics/power-bi-new-report.png)
 
-## <a name="see-all-workspace-usage-metrics"></a>‘모든’ 작업 영역 사용 메트릭 보기
+## <a name="see-all-workspace-usage-metrics"></a>‘모든’ 작업 영역 사용 메트릭 보기 
 
 작업 영역의 모든 대시보드 또는 모든 보고서에 대한 메트릭을 보려면 필터를 제거해야 합니다. 보고서는 기본적으로 해당 보고서를 만드는 데 사용한 대시보드 또는 보고서의 메트릭만 표시하도록 필터링되어 있습니다.
 
@@ -154,7 +153,7 @@ Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. �
 
 ### <a name="discrepancies-between-audit-logs-and-usage-metrics"></a>감사 로그와 사용 메트릭 간의 불일치
 
-사용 메트릭과 감사 로그를 비교할 때 발생할 수 있는 차이점과 이유를 이해하는 것이 중요합니다. ‘감사 로그’는 Power BI 서비스의 데이터를 사용하여 수집되고, ‘사용 메트릭’은 클라이언트에서 수집됩니다. 감사 로그의 활동 집계 개수가 항상 사용 메트릭과 일치하지 않을 수 있으며, 그 이유는 다음과 같습니다.
+사용 메트릭과 감사 로그를 비교할 때 발생할 수 있는 차이점과 이유를 이해하는 것이 중요합니다. ‘감사 로그’는 Power BI 서비스의 데이터를 사용하여 수집되고, ‘사용 메트릭’은 클라이언트에서 수집됩니다.   감사 로그의 활동 집계 개수가 항상 사용 메트릭과 일치하지 않을 수 있으며, 그 이유는 다음과 같습니다.
 
 * 사용 메트릭은 일관되지 않는 네트워크 연결, 광고 차단 또는 클라이언트에서 이벤트 전송을 방해할 수 있는 기타 문제로 인해 실제보다 활동 수가 적게 집계될 수 있습니다.
 * 이 문서의 앞부분에서 설명한 대로 특정 유형의 보기는 사용 메트릭에 포함되지 않습니다.
@@ -195,4 +194,4 @@ Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. �
 
 [관리 포털에서 Power BI 관리](service-admin-portal.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

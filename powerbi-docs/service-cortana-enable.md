@@ -2,19 +2,18 @@
 title: Power BI에 대해 Cortana 활성화
 description: Power BI와 함께 Cortana를 사용하여 데이터에서 답변을 가져올 수 있습니다. 각 Power BI 데이터 세트에 대해 Cortana를 활성화한 다음, Cortana가 Windows 디바이스에서 데이터 세트에 액세스할 수 있도록 설정합니다.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a631bc37c193521b2acc367a0c6d8540419e3b79
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020488"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872898"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Cortana가 Power BI 보고서(및 해당 기본 데이터 세트)에 액세스하도록 설정
 지금까지 [Cortana 및 Power BI 소개](service-cortana-intro.md)에 대해 읽으셨습니다(그러지 않은 경우 먼저 읽은 후 다시 돌아오세요). 이제 직접 사용해 볼 수 있습니다.  Cortana에서 자연어로 질문하고 Power BI ***보고서***에 저장된 데이터에서 답변을 찾으려면 몇 가지 요구 사항을 충족해야 합니다. 특히 다음을 수행해야 합니다.
@@ -84,5 +83,5 @@ Cortana는 이 회사 또는 학교 계정을 사용하여 Power BI에서 Cortan
 
 [Cortana 및 Power BI 통합 문제 해결](service-cortana-troubleshoot.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

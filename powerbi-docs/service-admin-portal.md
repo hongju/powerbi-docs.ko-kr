@@ -2,21 +2,20 @@
 title: Power BI 관리 포털
 description: 관리 포털을 통해 조직에서 Power BI의 테넌트 관리를 사용할 수 있습니다. 사용 메트릭, Microsoft 365 관리 센터에 대한 액세스 및 설정과 같은 항목을 포함하고 있습니다.
 author: mgblythe
-ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
+ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442878"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128371"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -305,7 +304,7 @@ Azure B2B 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습�
 
 ### <a name="add-and-use-custom-visuals"></a>사용자 지정 시각적 개체 추가 및 사용
 
-조직의 사용자는 사용자 지정 시각적 개체를 조작하고 공유할 수 있습니다. [자세히 알아보기](power-bi-custom-visuals.md)
+조직의 사용자는 사용자 지정 시각적 개체를 조작하고 공유할 수 있습니다. [자세히 알아보기](developer/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > 이 설정은 전체 조직에 적용하거나 특정 그룹으로 제한할 수 있습니다.
@@ -457,7 +456,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
  ## <a name="organizational-visuals">조직의 시각적 개체</a> 
 
-**조직 시각적 개체** 탭에서는 조직 내부에서 사용자 지정 시각적 개체를 배포 및 관리할 수 있습니다. 조직 시각적 개체를 사용하면 조직에서 소유 시각적 개체를 쉽게 배포할 수 있으므로 이후 보고서 작성자가 Power BI Desktop에서 이를 검색하고 보고서로 가져올 수 있습니다. [자세히 알아보기](power-bi-custom-visuals-organization.md)
+**조직 시각적 개체** 탭에서는 조직 내부에서 사용자 지정 시각적 개체를 배포 및 관리할 수 있습니다. 조직 시각적 개체를 사용하면 조직에서 소유 시각적 개체를 쉽게 배포할 수 있으므로 이후 보고서 작성자가 Power BI Desktop에서 이를 검색하고 보고서로 가져올 수 있습니다. [자세히 알아보기](developer/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > 사용자 지정 시각적 개체에는 보안 또는 개인 정보 관련 위험이 있는 코드가 포함될 수 있습니다. 조직의 리포지토리로 배포하기 전에 사용자 지정 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인해야 합니다.
@@ -513,7 +512,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 시각적 개체 ID가 변경되지 않았는지 확인합니다. 새 파일은 조직 전체의 모든 보고서에 대해 이전 파일을 대체합니다. 그러나 시각적 개체의 새 버전이 시각적 개체의 이전 버전에 대한 사용이나 데이터 구조를 중단하는 경우에는 이전 버전을 바꾸지 마세요. 대신에 시각적 개체의 새 버전에 대한 새 목록을 만들어야 합니다. 예를 들어 새 버전 번호(버전 X.X)를 새 나열된 시각적 개체의 제목에 추가합니다. 이렇게 하면 업데이트된 버전 번호를 가진 동일한 시각적 개체가 되므로 기존 보고서가 해당 기능을 중단하지 않습니다. 다시 한번 시각적 개체 ID가 변경되지 않았는지 확인합니다. 그러면 다음에 사용자가 Power BI Desktop에서 조직의 리포지토리에 들어갈 때 새 버전을 가져올 수 있으며, 보고서에 있는 현재 버전을 바꾸라는 메시지가 표시됩니다.
 
-자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)을 참조하세요.
+자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals)을 참조하세요.
 
 ## <a name="dataflowStorage">데이터 흐름 스토리지(미리 보기)</a>
 
@@ -547,7 +546,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 * **색 테마 선택**: 16진수 #, RGB, 값 또는 제공된 팔레트를 기준으로 테마를 선택할 수 있습니다.
 
 
-자세한 내용은 [조직에 대한 사용자 지정 브랜딩](http://aka.ms/orgBranding)을 참조하세요.
+자세한 내용은 [조직에 대한 사용자 지정 브랜딩](https://aka.ms/orgBranding)을 참조하세요.
 
 ![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>다음 단계

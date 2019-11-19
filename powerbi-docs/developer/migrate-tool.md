@@ -3,18 +3,17 @@ title: Power BI Embedded 마이그레이션 도구
 description: 이 마이그레이션 도구는 Power BI Embedded Azure 서비스(PaaS)에서 Power BI 서비스(SaaS)로 보고서를 복사하는 데 사용할 수 있습니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: f839c8d4208dd63cab411ef5dae064fdb3d2fa95
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 2970744f89bf8fdc115be018d00c8f5b73d9ddfc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429431"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880589"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 마이그레이션 도구
 
@@ -173,7 +172,7 @@ ms.locfileid: "73429431"
 
 작업 영역을 만들려면 **선택한 그룹 만들기** 또는 **누락된 모든 그룹 만들기**를 선택합니다.
 
-이러한 옵션 중 하나를 선택하면 로그인하라는 메시지가 표시됩니다. ‘작업 영역을 만들려는 Power BI 서비스에 대한 자격 증명을 사용하는 것이 좋습니다.’
+이러한 옵션 중 하나를 선택하면 로그인하라는 메시지가 표시됩니다. ‘작업 영역을 만들려는 Power BI 서비스에 대한 자격 증명을 사용하는 것이 좋습니다.’ 
 
 ![그룹 로그인 만들기](media/migrate-tool/migrate-tool-create-group-sign-in.png)
 
@@ -278,4 +277,4 @@ DirectQuery 보고서에 대한 연결 문자열을 업데이트해야 합니다
 [JavaScript 포함 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

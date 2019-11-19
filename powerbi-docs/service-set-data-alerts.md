@@ -2,7 +2,6 @@
 title: Power BI 서비스에서 데이터 경고 설정
 description: 대시보드의 데이터가 Microsoft Power BI 서비스에서 설정한 한도를 넘어 변경되면 알리도록 경고를 설정하는 방법을 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d1944f139cdd7089d9465e174e554ac7df1d8bf8
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060386"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871549"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 서비스의 데이터 경고
 
@@ -132,4 +131,4 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 
 * [Power BI란?](fundamentals/power-bi-overview.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

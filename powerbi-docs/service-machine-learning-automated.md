@@ -2,7 +2,6 @@
 title: Power BI의 자동화된 Machine Learning
 description: Power BI에서 AutoML(자동화된 Machine Learning)을 사용하는 방법에 대해 알아보기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 7511d82b87c3fdf4b5ca8c22457e976b8a4a51a0
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 49615e1b6c205d9b894df0bcca7ef4979f153ba7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891675"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872115"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Power BI의 자동화된 Machine Learning
 
@@ -167,7 +166,7 @@ Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면
 
 이진 예측 모델은 레코드에서 목표 결과를 달성할 확률을 출력으로 생성합니다. 보고서에 확률 임계값 슬라이서가 포함되어 확률 임계값을 상회 또는 하회하는 점수를 해석하는 방법에 영향을 줍니다.
 
-이 보고서는 ‘진양성, 가양성, 참 부정 및 거짓 부정’을 기준으로 모델의 성능을 설명합니다. 참 긍정 및 참 부정이 결과 데이터의 두 클래스에 대해 올바르게 예측된 결과입니다. 가양성은 목표 결과가 있을 것으로 예측되었지만 실제로 없었던 레코드입니다. 반대로, 거짓 부정은 목표 결과가 있었지만 없을 것으로 예측된 레코드입니다.
+이 보고서는 ‘진양성, 가양성, 참 부정 및 거짓 부정’을 기준으로 모델의 성능을 설명합니다.  참 긍정 및 참 부정이 결과 데이터의 두 클래스에 대해 올바르게 예측된 결과입니다. 가양성은 목표 결과가 있을 것으로 예측되었지만 실제로 없었던 레코드입니다. 반대로, 거짓 부정은 목표 결과가 있었지만 없을 것으로 예측된 레코드입니다.
 
 정밀도 및 재현율과 같은 측정값은 예측된 결과에 대한 확률 임계값의 영향을 설명합니다. 확률 임계값 슬라이서를 사용하여 정밀도와 재현율 사이에서 균형 있게 타협한 임계값을 선택할 수 있습니다.
 

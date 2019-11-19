@@ -2,7 +2,6 @@
 title: 타일 오류 문제 해결
 description: 타일이 Power BI에서 새로 고쳐질 때 발생할 수 있는 일반적인 오류
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021547"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877493"
 ---
 # <a name="troubleshooting-tile-errors"></a>타일 오류 문제 해결
 다음은 설명이 있는 타일에 발생할 수 있는 일반적인 오류입니다.
 
 > [!NOTE]
-> 아래 나열되어 있지 않은 오류가 발생하고 문제를 발생시킨 경우 [커뮤니티 사이트](http://community.powerbi.com/)에 추가 지원을 요청하거나 [지원 티켓](https://powerbi.microsoft.com/support/)을 만들 수 있습니다.
+> 아래 나열되어 있지 않은 오류가 발생하고 문제를 발생시킨 경우 [커뮤니티 사이트](https://community.powerbi.com/)에 추가 지원을 요청하거나 [지원 티켓](https://powerbi.microsoft.com/support/)을 만들 수 있습니다.
 > 
 > 
 
@@ -38,7 +37,7 @@ ms.locfileid: "73021547"
 
 **사용자 지정 시각적 개체가 관리자에 의해 사용하지 않도록 설정되었습니다.**
 
-Power BI 관리자가 조직 또는 보안 그룹에 대한 사용자 지정 시각적 개체의 사용을 비활성화했습니다. [Microsoft 마켓플레이스](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals)에서 사용자 지정 시각화 개체를 사용하거나 파일에서 프라이빗 시각적 개체를 가져옵니다. 사전 압축된 시각적 개체 집합만 사용할 수 있습니다.
+Power BI 관리자가 조직 또는 보안 그룹에 대한 사용자 지정 시각적 개체의 사용을 비활성화했습니다. [Microsoft 마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에서 사용자 지정 시각화 개체를 사용하거나 파일에서 프라이빗 시각적 개체를 가져옵니다. 사전 압축된 시각적 개체 집합만 사용할 수 있습니다.
 
 
 **데이터 셰이프에는 하나 이상의 그룹이나 데이터를 출력하는 계산이 포함되어야 합니다. 대시보드 소유자에게 문의하세요.**
@@ -82,5 +81,5 @@ Power BI 관리자가 조직 또는 보안 그룹에 대한 사용자 지정 시
 ## <a name="next-steps"></a>다음 단계
 [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 [Power BI Personal Gateway 문제해결](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

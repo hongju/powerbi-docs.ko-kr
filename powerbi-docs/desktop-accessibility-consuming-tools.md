@@ -2,7 +2,6 @@
 title: 접근성 도구를 사용하여 Power BI에서 보고서 사용
 description: Power BI에서 접근성 있게 보고서를 사용할 수 있게 해주는 도구
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b50b291b6d7f583252cce6e270ff135c1ba0de12
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: ca2f1cd4908f99d47519f2dfca42bf2afae5fbed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73181186"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878941"
 ---
 # <a name="consuming-reports-in-power-bi-with-accessibility-tools"></a>접근성 도구를 사용하여 Power BI에서 보고서 사용
 Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 조작할 수 있게 해주는 여러 기본 제공 기능이 있습니다. 이러한 도구를 통해 사용자는 보조 기술을 사용하지 않는 사람과 동일한 정보를 보고서에서 얻을 수 있습니다.
@@ -95,7 +94,7 @@ Power BI Desktop 또는 Power BI 서비스를 시작하는 경우, **Tab** 키�
 
 ![데이터 표시](media/desktop-accessibility/accessibility-04.png)
 
-**데이터 표시** 기능은 이 바로 가기 키를 통해서만 화면 읽기 프로그램에서 액세스할 수 있는 HTML 테이블입니다. 시각적 개체 헤더의 옵션을 통해 **데이터 표시**를 열면, 화면 읽기 프로그램과 호환되지 ‘않는’ 테이블이 표시됩니다.  바로 가기 키를 통해 **데이터 표시**를 사용하는 경우, 화면 읽기 프로그램에서 제공하는 바로 가기 키를 모두 활용하려면 스캔 모드를 켭니다.
+**데이터 표시** 기능은 이 바로 가기 키를 통해서만 화면 읽기 프로그램에서 액세스할 수 있는 HTML 테이블입니다. 시각적 개체 헤더의 옵션을 통해 **데이터 표시**를 열면, 화면 읽기 프로그램과 호환되지 ‘않는’ 테이블이 표시됩니다.   바로 가기 키를 통해 **데이터 표시**를 사용하는 경우, 화면 읽기 프로그램에서 제공하는 바로 가기 키를 모두 활용하려면 스캔 모드를 켭니다.
 
 **데이터 표시** 뷰를 종료하고 보고서로 돌아가려면 **Esc** 키를 누릅니다.
 

@@ -2,7 +2,6 @@
 title: Power BI Desktop에서 사용자 지정 열 추가
 description: Power BI Desktop에서 신속하게 새로운 사용자 지정 열 만들기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,16 +9,16 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 25295447736ddb674d23a7b4ac34aa04f44887ba
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922523"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878867"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop에서 사용자 지정 열 추가
 
-Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데이터 열을 모델에 쉽게 추가할 수 있습니다. 쿼리 편집기를 사용하면 사용자 지정 열을 만들고 이름을 바꾸어 사용자 지정 열을 정의하는 [PowerQuery M 수식 쿼리](https://docs.microsoft.com/en-us/powerquery-m/quick-tour-of-the-power-query-m-formula-language)를 만들 수 있습니다. PowerQuery M 수식 쿼리에는 [포괄적인 함수 참조 콘텐츠 집합](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference)이 있습니다. 
+Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데이터 열을 모델에 쉽게 추가할 수 있습니다. 쿼리 편집기를 사용하면 사용자 지정 열을 만들고 이름을 바꾸어 사용자 지정 열을 정의하는 [PowerQuery M 수식 쿼리](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language)를 만들 수 있습니다. PowerQuery M 수식 쿼리에는 [포괄적인 함수 참조 콘텐츠 집합](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference)이 있습니다. 
 
 쿼리 편집기에서 사용자 지정 열을 만들면, Power BI Desktop에서 쿼리의 **쿼리 설정**에 **적용된 단계**로 추가합니다. 사용자 지정 열은 언제든지 변경, 이동 또는 수정할 수 있습니다.
 
@@ -50,7 +49,7 @@ Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데
 
 - **새 열 이름** 상자에 있는 사용자 지정 열의 초기 이름. 이 열의 이름은 바꿀 수 있습니다.
 
-- **사용자 지정 열 수식** 상자에 있는 [PowerQuery M 수식 쿼리](https://docs.microsoft.com/en-us/powerquery-m/power-query-m-function-reference). 이러한 쿼리는 새 사용자 지정 열이 정의되는 수식을 작성하여 만듭니다. 
+- **사용자 지정 열 수식** 상자에 있는 [PowerQuery M 수식 쿼리](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference). 이러한 쿼리는 새 사용자 지정 열이 정의되는 수식을 작성하여 만듭니다. 
 
    ![사용자 지정 열 추가 페이지](media/desktop-add-custom-column/add-custom-column_03.png)
 

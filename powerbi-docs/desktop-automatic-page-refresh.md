@@ -2,7 +2,6 @@
 title: Power BI Desktop의 자동 페이지 새로 고침(미리 보기)
 description: Power BI Desktop에서 DirectQuery 원본에 대한 페이지를 자동으로 새로 고치는 방법을 알아보세요
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e694add3fd275cc2d3e9e0e6799adc9a16f32bbd
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4c2217495ee8b735bc600c9b803897a408495472
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429915"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878764"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop의 자동 페이지 새로 고침(미리 보기)
 

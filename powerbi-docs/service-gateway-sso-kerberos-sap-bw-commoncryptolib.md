@@ -3,19 +3,18 @@ title: CommonCryptoLib(sapcrypto.dll)를 사용하여 SAP BW에 대한 SSO에 Ke
 description: CommonCryptoLib(sapcrypto.dll)를 사용하여 Power BI 서비스에서 SSO를 사용하도록 SAP BW 서버 구성
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 97cae53e102538bba7ed969cefe0541d500c33bc
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 63b5abde7deb5f6d93fb7702f0b1244bd193a47d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020877"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872414"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>CommonCryptoLib(sapcrypto.dll)를 사용하여 SAP BW에 대한 SSO에 Kerberos Single Sign-On 사용
 
@@ -31,7 +30,7 @@ ms.locfileid: "73020877"
 
 1. BW 서버가 CommonCryptoLib를 사용하여 Kerberos SSO에 대해 올바르게 구성되었는지 확인합니다. 올바르게 구성된 경우, SSO를 사용하여 CommonCryptoLib를 사용하도록 구성된 SAP GUI와 같은 SAP 도구로 직접 또는 SAP BW 메시지 서버를 통해 BW 서버에 액세스할 수 있습니다. 
 
-   설정 단계에 대한 자세한 내용은 [SAP Single Sign-On: Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/)(Kerberos/SPNEGO를 사용하여 인증)을 참조하세요. BW 서버는 CommonCryptoLib를 SNC 라이브러리로 사용하고 *CN=* 으로 시작하는 SNC 이름(예: *CN = BW1*)이 있어야 합니다. SNC 이름 요구 사항(특히 snc/identity/as 매개 변수)에 대한 자세한 내용은 [SNC Parameters for Kerberos Configuration](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html)(Kerberos 구성의 SNC 매개 변수)를 참조하세요.
+   설정 단계에 대한 자세한 내용은 [SAP Single Sign-On: Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/)(Kerberos/SPNEGO를 사용하여 인증)을 참조하세요. BW 서버는 CommonCryptoLib를 SNC 라이브러리로 사용하고 *CN=* 으로 시작하는 SNC 이름(예: *CN = BW1*)이 있어야 합니다. SNC 이름 요구 사항(특히 snc/identity/as 매개 변수)에 대한 자세한 내용은 [SNC Parameters for Kerberos Configuration](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html)(Kerberos 구성의 SNC 매개 변수)를 참조하세요.
 
 1. 아직 수행하지 않은 경우 게이트웨이가 설치된 컴퓨터에 [SAP .NET Connector](https://support.sap.com/en/product/connectors/msnet.html) x64 버전을 설치합니다. 
    
@@ -102,7 +101,7 @@ Power BI 서비스에서 보고서를 새로 고칠 수 없는 경우 게이트�
 
 ### <a name="cpic-tracing"></a>CPIC 추적
 
-1. CPIC 추적을 사용하도록 설정하려면 두 가지 환경 변수 **CPIC**TRACE\_ 및 \_CPIC**TRACE\_DIR**을 설정합니다. 
+1. CPIC 추적을 사용하도록 설정하려면 두 가지 환경 변수 **CPIC\_TRACE** 및 **CPIC\_TRACE\_DIR**을 설정합니다. 
 
    첫 번째 변수는 추적 수준을 설정하고, 두 번째 변수는 추적 파일 디렉터리를 설정합니다. 이 디렉터리는 인증된 사용자 그룹의 구성원이 쓸 수 있는 위치여야 합니다. 
  

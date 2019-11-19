@@ -2,7 +2,6 @@
 title: 작업 영역의 데이터 세트 소개(미리 보기)
 description: 조직 전체의 사용자와 데이터 세트를 공유하는 방법을 알아봅니다. 그런 다음, 자신의 작업 영역에서 데이터 세트를 기반으로 보고서를 빌드할 수 있습니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e445f24f78d4171c0c2c12ccbe4a1bf55b9825d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431935"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877190"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>작업 영역의 데이터 세트 소개(미리 보기)
 
@@ -23,7 +22,7 @@ ms.locfileid: "73431935"
 
 ![공유 데이터 세트 선택](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-build-permissions.md)을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어할 수 있습니다. 데이터 세트 작성자는 다른 사람이 데이터 세트를 검색할 수 있도록 데이터 세트를 ‘인증’ 또는 ‘승격’할 수도 있습니다. 이렇게 하면 보고서 작성자는 어느 데이터 세트가 공식적이고 품질이 높은지 알 수 있으며, Power BI에서 보고서를 작성할 때 해당 데이터 세트를 사용할 수 있습니다. 테넌트 관리자는 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하도록 새 테넌트 설정을 사용합니다.
+Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-build-permissions.md)을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어할 수 있습니다. 데이터 세트 작성자는 다른 사람이 데이터 세트를 검색할 수 있도록 데이터 세트를 ‘인증’ 또는 ‘승격’할 수도 있습니다.   이렇게 하면 보고서 작성자는 어느 데이터 세트가 공식적이고 품질이 높은지 알 수 있으며, Power BI에서 보고서를 작성할 때 해당 데이터 세트를 사용할 수 있습니다. 테넌트 관리자는 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하도록 새 테넌트 설정을 사용합니다.
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>데이터 세트 공유 및 새 작업 영역 환경
 
@@ -73,4 +72,4 @@ Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-bu
 - [데이터 세트 승격](service-datasets-promote.md)
 - [데이터 세트 인증](service-datasets-certify.md)
 - [작업 영역에서 데이터 세트 사용 제어](service-datasets-admin-across-workspaces.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

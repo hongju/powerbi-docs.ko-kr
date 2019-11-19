@@ -2,7 +2,6 @@
 title: Power BI Desktop의 바로 가기 키
 description: 바로 가기 키를 사용하여 Power BI Desktop에 액세스하는 방법
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3fecda9af7f329e32f07dc2967e5f6cf7ee553d6
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73181117"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869369"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop의 바로 가기 키
 
@@ -94,8 +93,8 @@ Power BI Desktop을 사용하는 경우 **Shift+?** 를 누르면 다음 이미�
 | 위로/아래로 줄 복사 | **Shift+Alt+위쪽 화살표 키** / **아래쪽 화살표 키** |
 | 아래에 행 삽입 | **Ctrl+Enter** |
 | 위에 행 삽입 | **Ctrl+Shift+Enter** |
-| 일치하는 대괄호로 이동 | **Ctrl+Shift+** \ |
-| 줄 들여쓰기/여백으로 줄 내어쓰기 | **Ctrl+]** / **[** |
+| 일치하는 대괄호로 이동 | **Ctrl+Shift+**  \ |
+| 줄 들여쓰기/여백으로 줄 내어쓰기 | **Ctrl+]**  /  **[** |
 | 커서 삽입 | **Alt+클릭** |
 | 현재 줄 선택 | **Ctrl+I** |
 | 현재 선택 사항에 일치하는 모든 항목 선택 | **Ctrl+Shift+L** |

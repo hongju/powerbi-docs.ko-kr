@@ -2,7 +2,6 @@
 title: 시각적 개체에서 드릴다운 및 드릴업하기
 description: 이 문서에서는 Microsoft Power BI 서비스의 시각적 개체에서 드릴다운하는 방법을 보여 줍니다.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019888"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851453"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI에서 시각적 개체 드릴 모드
 
@@ -117,11 +116,11 @@ ms.locfileid: "73019888"
 
     ![TN에 대한 모든 데이터를 보여 주는 트리맵의 스크린샷](media/end-user-drill/power-bi-expand-two.png)
 
-1. 드릴다운이 켜져 있는지 ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png) 확인하고 ‘아래로 확장’ 아이콘 ![아래로 확장 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon6.png)을 선택합니다. 이제 트리맵은 동일한 수의 리프(상자)를 표시하지만 각 리프는 추가 세부 정보를 포함합니다. 이제 트리맵은 도시 및 주만 표시하는 대신 우편 번호도 보여 줍니다.
+1. 드릴다운이 켜져 있는지 ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png) 확인하고 ‘아래로 확장’ 아이콘 ![아래로 확장 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon6.png)을 선택합니다.  이제 트리맵은 동일한 수의 리프(상자)를 표시하지만 각 리프는 추가 세부 정보를 포함합니다. 이제 트리맵은 도시 및 주만 표시하는 대신 우편 번호도 보여 줍니다.
 
     ![도시, 주 및 우편 번호를 보여 주는 시각적 개체의 스크린샷](./media/end-user-drill/power-bi-expand-three.png)
 
-1. ‘아래로 확장’ 아이콘을 한 번 더 선택하여 트리맵에 Tennessee의 네 가지 계층 구조 수준을 모두 표시합니다. 리프를 마우스로 가리켜서 더 많은 세부 정보를 봅니다.
+1. ‘아래로 확장’ 아이콘을 한 번 더 선택하여 트리맵에 Tennessee의 네 가지 계층 구조 수준을 모두 표시합니다.  리프를 마우스로 가리켜서 더 많은 세부 정보를 봅니다.
 
     ![리프 관련 데이터와 함께 도구 설명을 보여 주는 트리맵의 스크린샷](./media/end-user-drill/power-bi-expand-all.png)
 
@@ -153,4 +152,4 @@ ms.locfileid: "73019888"
 
 [Power BI - 기본 개념](end-user-basic-concepts.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

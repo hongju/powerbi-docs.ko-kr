@@ -2,7 +2,6 @@
 title: Power BI용 Cortana 문제 해결
 description: Power BI와 함께 Cortana를 사용하는 데 문제가 있는 경우 다음 제안 사항을 시도해 보세요.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9d6241659eaa5e6ff9c98b5c25dbfacb0bbac34d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432114"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872891"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI용 Cortana 문제 해결
 이 문서는 시리즈의 일부입니다. 
@@ -96,4 +95,4 @@ Cortana를 Power BI와 통합하는 데 문제가 있는 경우 제대로 찾아
 * 쿼리는 의도적으로 2개 이상의 단어여야 합니다.  쿼리가 너무 짧으면 "show"라는 단어를 추가합니다.
 * 전치사가 있는 일부 쿼리 문자열은 작동하지 않을 수 있습니다(예: sales by item(항목별 판매)). 전치사를 사용하지 않고 의미 있는/고유한 다른 쿼리 용어를 시도합니다.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

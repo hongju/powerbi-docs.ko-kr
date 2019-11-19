@@ -2,19 +2,18 @@
 title: 쿼리 폴딩의 중요도
 description: 파워 쿼리의 쿼리 폴딩 중요도와 수행하는 방법을 이해합니다.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4f1873abe07b903d124ae7809c7f10fe03147697
-ms.sourcegitcommit: fd4787a060e2b5c79e91b63d3ede71f7efe50753
+ms.openlocfilehash: 1ddcc94e2286c82f7e865a2a8012b9d407b3c171
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "72815869"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875354"
 ---
 # <a name="the-importance-of-query-folding"></a>쿼리 폴딩의 중요도
 
@@ -51,7 +50,7 @@ ms.locfileid: "72815869"
 - 레코드 열(원본 외래 키 열)을 확장하여 두 개의 원본 테이블 조인 얻기(JOIN 절)
 - 동일한 원본을 기반으로 하는 폴딩 가능한 쿼리의 비유사 항목 병합(JOIN 절)
 - 동일한 원본을 기반으로 하는 폴딩 가능한 쿼리 추가(UNION ALL 연산자)
-- ‘단순 논리’를 사용한 사용자 지정 열 추가(SELECT 열 식). 단순 논리는 복잡하지 않은 연산을 의미하며, 수학 또는 텍스트 조작 함수와 같이 SQL 데이터 원본에 해당하는 함수가 있는 M 함수 사용을 포함할 수 있습니다. 예를 들어 다음 식은 **OrderDate** 열 값의 연도 구성 요소를 반환하여 숫자 값을 반환합니다.
+- ‘단순 논리’를 사용한 사용자 지정 열 추가(SELECT 열 식).  단순 논리는 복잡하지 않은 연산을 의미하며, 수학 또는 텍스트 조작 함수와 같이 SQL 데이터 원본에 해당하는 함수가 있는 M 함수 사용을 포함할 수 있습니다. 예를 들어 다음 식은 **OrderDate** 열 값의 연도 구성 요소를 반환하여 숫자 값을 반환합니다.
 
     ```powerquery-m
     Date.Year([OrderDate])
@@ -65,7 +64,7 @@ ms.locfileid: "72815869"
 
 - 서로 다른 원본을 기반으로 하는 쿼리 병합
 - 서로 다른 원본을 기반으로 하는 쿼리 추가(공용 구조체 작성)
-- ‘복잡한 논리’를 사용한 사용자 지정 열 추가. 복잡한 논리는 데이터 원본에 해당하는 함수가 없는 M 함수 사용을 의미합니다. 예를 들어 다음 식은 **OrderDate** 열 값의 서식을 지정하여 텍스트 값을 반환합니다.
+- ‘복잡한 논리’를 사용한 사용자 지정 열 추가.  복잡한 논리는 데이터 원본에 해당하는 함수가 없는 M 함수 사용을 의미합니다. 예를 들어 다음 식은 **OrderDate** 열 값의 서식을 지정하여 텍스트 값을 반환합니다.
 
     ```powerquery-m
     Date.ToText([OrderDate], "yyyy")
@@ -92,7 +91,7 @@ ms.locfileid: "72815869"
 
 ## <a name="best-practice-guidance"></a>모범 사례 지침
 
-간단히 말해, DirectQuery 또는 이중 스토리지 모드 테이블의 경우 파워 쿼리의 쿼리에서 쿼리 폴딩을 수행해야 합니다. 관계형 원본을 기반으로 하는 가져오기 테이블의 경우 단일 SELECT 문을 생성할 수 있으면 쿼리 폴딩이 수행되도록 하여 ‘데이터 새로 고침 성능을 극대화’합니다. 그래도 매시업 엔진이 변환을 처리해야 하는 경우에는 특히 큰 데이터 세트에서 필요한 작업을 최소화해야 합니다.
+간단히 말해, DirectQuery 또는 이중 스토리지 모드 테이블의 경우 파워 쿼리의 쿼리에서 쿼리 폴딩을 수행해야 합니다. 관계형 원본을 기반으로 하는 가져오기 테이블의 경우 단일 SELECT 문을 생성할 수 있으면 쿼리 폴딩이 수행되도록 하여 ‘데이터 새로 고침 성능을 극대화’합니다.  그래도 매시업 엔진이 변환을 처리해야 하는 경우에는 특히 큰 데이터 세트에서 필요한 작업을 최소화해야 합니다.
 
 다음 글머리 기호 목록에서는 모범 사례 지침을 제공합니다.
 

@@ -2,7 +2,6 @@
 title: Power BI Desktop에서 Access 및 .XLS 가져오기 문제 해결
 description: Power BI Desktop 및 파워 쿼리에서 Access 데이터베이스 및 .XLS 스프레드시트 가져오기 문제 해결
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 085a21404fefe214656f31d077c6cba401b8219e
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 83a3cc769ea9451ffa5320710bd0f04934d51393
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922540"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878993"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Power BI Desktop에서 액세스 및 .XLS 파일 가져오기 문제 해결
 
@@ -24,7 +23,7 @@ Power BI Desktop에서 Access 데이터베이스 및 초기 버전의 Excel 통�
 
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>상황 1: Access 데이터베이스 엔진이 설치되어 있지 않음
 
-Power BI Desktop 오류 메시지에 Access 데이터베이스 엔진이 설치되어 있지 않다고 표시되는 경우, Power BI Desktop 버전과 일치하는 32비트 또는 64비트 Access 데이터베이스 엔진 버전을 설치해야 합니다. [다운로드 페이지](http://www.microsoft.com/download/details.aspx?id=13255)에서 Access 데이터베이스 엔진을 설치할 수 있습니다.
+Power BI Desktop 오류 메시지에 Access 데이터베이스 엔진이 설치되어 있지 않다고 표시되는 경우, Power BI Desktop 버전과 일치하는 32비트 또는 64비트 Access 데이터베이스 엔진 버전을 설치해야 합니다. [다운로드 페이지](https://www.microsoft.com/download/details.aspx?id=13255)에서 Access 데이터베이스 엔진을 설치할 수 있습니다.
 
 >[!NOTE]
 >설치된 Access 데이터베이스 엔진 비트 버전이 Microsoft Office 설치의 비트 버전과 다른 경우 Office 애플리케이션은 Access 데이터베이스 엔진을 사용할 수 없습니다.
@@ -72,7 +71,7 @@ Power BI Desktop 설치의 비트 버전과 일치하도록 Microsoft Office의 
 
 Access 데이터베이스 엔진 비트 버전을 모두 설치하려면 다음 단계를 수행합니다.
 
-1. [다운로드 페이지](http://www.microsoft.com/download/details.aspx?id=13255)에서 Access 데이터베이스 엔진 비트 버전을 모두 설치합니다. 
+1. [다운로드 페이지](https://www.microsoft.com/download/details.aspx?id=13255)에서 Access 데이터베이스 엔진 비트 버전을 모두 설치합니다. 
 
 1. */passive* 스위치를 사용하여 각 버전의 Access 데이터베이스 엔진을 실행합니다. 예:
    
@@ -84,7 +83,7 @@ Access 데이터베이스 엔진 비트 버전을 모두 설치하려면 다음 
 
 **Office 2013** 또는 **Office 2016** 중 하나의 Office 365 구독을 사용하는 경우 Access 데이터베이스 엔진 공급자는 ‘오직’ Microsoft Office 프로세스만 액세스할 수 있는 가상 레지스트리 위치에 등록됩니다.  따라서 매시업 엔진(비 Office 365 Excel 및 Power BI Desktop을 실행하고 Office 프로세스가 아님)은 Access 데이터베이스 엔진 공급자를 사용할 수 없습니다.
 
-이 상황을 해결하려면 Power BI Desktop 설치 비트 버전과 일치하는 [Access 데이터베이스 엔진 재배포 가능 패키지를 다운로드하고 설치](http://www.microsoft.com/download/details.aspx?id=13255)합니다. 비트 버전에 대한 자세한 내용은 이 문서의 이전 섹션을 참조하세요.
+이 상황을 해결하려면 Power BI Desktop 설치 비트 버전과 일치하는 [Access 데이터베이스 엔진 재배포 가능 패키지를 다운로드하고 설치](https://www.microsoft.com/download/details.aspx?id=13255)합니다. 비트 버전에 대한 자세한 내용은 이 문서의 이전 섹션을 참조하세요.
 
 ## <a name="other-situations-that-can-cause-import-issues"></a>가져오기 문제가 발생할 수 있는 기타 상황
 

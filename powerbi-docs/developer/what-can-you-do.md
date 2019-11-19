@@ -3,18 +3,17 @@ title: 개발자는 Power BI로 무엇을 할 수 있나요?
 description: Power BI는 개발자를 위한 다양한 옵션을 제공합니다. 여기에는 사용자 지정 시각적 개체에서 스트리밍 데이터 세트에 이르는 다양한 옵션이 포함됩니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 54d0b1635eb75fd5cbcb1f3e745097e7da566342
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9105edd88e83f17f4d6e75a7e45dc123a6789713
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429305"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875684"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>개발자는 Power BI로 무엇을 할 수 있나요?
 

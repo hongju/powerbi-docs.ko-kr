@@ -3,7 +3,6 @@ title: 직접 보고서 및 대시보드 구독
 description: 본인이 Power BI 보고서 및 대시보드의 메일 스냅샷을 구독하는 방법에 대해 알아보세요.
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 10/21/2019
 rLocalizationGroup: Common tasks
-ms.openlocfilehash: 95bcb3ef0eb8b2d79502e3905a56dbc81e3f43bd
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: a9339cc9f61a3a191e8783935c9ec38e119894e9
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430022"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099207"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI 서비스에서 보고서 또는 대시보드 구독 
 
@@ -82,7 +81,7 @@ Pro 라이선스가 만료되거나, 소유자가 대시보드 또는 보고서�
 * 메일의 콘텐츠 링크가 더 이상 작동하지 않는 경우 콘텐츠가 삭제된 것일 수 있습니다. 메일의 스크린샷 아래에서 직접 구독했는지, 아니면 다른 사람이 구독했는지를 확인할 수 있습니다. 다른 사람이 구독한 경우, 동료에게 메일을 취소하거나 다시 구독하도록 요청하세요.
 * 보고서 페이지 구독은 보고서 페이지의 이름과 연결됩니다. 보고서 페이지를 구독하고 이름을 바꾸면 구독을 다시 만들어야 합니다.
 * 구독 기능을 사용할 수 없는 경우 시스템 관리자에게 문의하세요. 조직에서 이 기능을 사용하지 않도록 설정했을 수 있습니다.  
-* 전자 메일 구독은 대부분의 [사용자 지정 시각적 개체](../power-bi-custom-visuals.md)를 지원하지 않습니다.  예외는 [인증](../power-bi-custom-visuals-certified.md)된 사용자 지정 시각적 개체입니다.  
+* 전자 메일 구독은 대부분의 [사용자 지정 시각적 개체](../developer/power-bi-custom-visuals.md)를 지원하지 않습니다.  예외는 [인증](../developer/power-bi-custom-visuals-certified.md)된 사용자 지정 시각적 개체입니다.  
 * 이메일 구독은 현재 R 지원 사용자 지정 시각적 개체를 지원하지 않습니다.  
 * 특히 대시보드 구독의 경우, 특정 유형의 타일은 아직 지원되지 않습니다.  여기에는 타일, 비디오 타일, 사용자 지정 웹 콘텐츠 타일의 스트리밍이 포함됩니다.     
 * 전자 메일 크기 제한으로 인해 매우 큰 이미지가 있는 대시보드 또는 보고서의 구독은 실패할 수 있습니다.    

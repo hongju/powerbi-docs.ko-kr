@@ -2,7 +2,6 @@
 title: Power BI의 콤보 차트
 description: 콤보 차트에 대한 이 자습서에서는 Power BI 서비스 및 Desktop에서 콤보 차트를 사용하는 시기와 만드는 방법을 설명합니다.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 527334d2772dbe20f7f78929231cca9faf036e95
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 03a426947787cbd2720661267cac4601a4b9b13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017741"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880958"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI의 콤보 차트
 
@@ -36,7 +35,7 @@ Power BI 콤보 차트는 꺾은선형 차트와 세로 막대형 차트를 결�
 * 캔버스 공간을 절약하려는 경우
 
 ### <a name="prerequisites"></a>필수 조건
-이 자습서는 [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
+이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
 1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
    

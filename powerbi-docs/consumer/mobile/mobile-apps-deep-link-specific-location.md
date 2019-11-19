@@ -2,19 +2,18 @@
 title: Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
 description: Power BI 모바일 앱에서 URI(Uniform Resource Identifier)를 사용하여 특정 대시보드, 타일 또는 보고서에 대한 딥 링크를 만드는 방법에 대해 알아봅니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ef7766f8783fef08561a70d8ea77212c138e3148
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429910"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879283"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
 링크를 사용하여 Power BI의 보고서, 대시보드 및 타일에 직접 액세스할 수 있습니다.
@@ -117,6 +116,6 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 
 * [모바일 디바이스용 Power BI 앱](mobile-apps-for-mobile-devices.md)
 * Twitter에서 @MSPowerBI 팔로우
-* [Power BI 커뮤니티](http://community.powerbi.com/)에서 대화에 참여
+* [Power BI 커뮤니티](https://community.powerbi.com/)에서 대화에 참여
 * [Power BI란?](../../fundamentals/power-bi-overview.md)
 

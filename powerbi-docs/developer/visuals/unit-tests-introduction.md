@@ -3,18 +3,17 @@ title: Power BI 시각적 개체 프로젝트의 단위 테스트 소개
 description: 이 문서에서는 Power BI 시각적 개체 프로젝트의 단위 테스트를 작성하는 방법을 설명합니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 97b21b6844ffb8633a37656e781a60f88cebbf43
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060411"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879953"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>자습서:  Power BI 시각적 개체 프로젝트의 단위 테스트 추가
 
@@ -368,7 +367,7 @@ describe("BarChart", () => {
 
 * [`expect`](https://jasmine.github.io/api/2.6/global.html#expect): 사양의 기대치를 만듭니다. 모든 기대치를 오류 없이 통과하면 사양이 성공합니다.
 
-* `toBeInDOM`: ‘선택기’ 메서드 중 하나입니다. 선택기에 대한 자세한 내용은 [Jasmine Namespace: matchers](https://jasmine.github.io/api/2.6/matchers.html)(Jasmine 네임스페이스: 선택기)를 참조하세요.
+* `toBeInDOM`: ‘선택기’ 메서드 중 하나입니다.  선택기에 대한 자세한 내용은 [Jasmine Namespace: matchers](https://jasmine.github.io/api/2.6/matchers.html)(Jasmine 네임스페이스: 선택기)를 참조하세요.
 
 Jasmine에 대한 자세한 내용은 [Jasmine 프레임워크 문서](https://jasmine.github.io/) 페이지를 참조하세요.
 
@@ -393,8 +392,8 @@ npm run test
 > karma start
 
 23 05 2017 12:24:26.842:WARN [watcher]: Pattern "E:/WORKSPACE/PowerBI/PowerBI-visuals-sampleBarChart/data/*.csv" does not match any file.
-23 05 2017 12:24:30.836:WARN [karma]: No captured browser, open http://localhost:9876/
-23 05 2017 12:24:30.849:INFO [karma]: Karma v1.3.0 server started at http://localhost:9876/
+23 05 2017 12:24:30.836:WARN [karma]: No captured browser, open https://localhost:9876/
+23 05 2017 12:24:30.849:INFO [karma]: Karma v1.3.0 server started at https://localhost:9876/
 23 05 2017 12:24:30.850:INFO [launcher]: Launching browser Chrome with unlimited concurrency
 23 05 2017 12:24:31.059:INFO [launcher]: Starting browser Chrome
 23 05 2017 12:24:33.160:INFO [Chrome 58.0.3029 (Windows 10 0.0.0)]: Connected on socket /#2meR6hjXFmsE_fjiAAAA with id 5875251
@@ -580,8 +579,8 @@ npm install
 > karma start
 
 23 05 2017 16:19:54.318:WARN [watcher]: Pattern "E:/WORKSPACE/PowerBI/PowerBI-visuals-sampleBarChart/data/*.csv" does not match any file.
-23 05 2017 16:19:58.333:WARN [karma]: No captured browser, open http://localhost:9876/
-23 05 2017 16:19:58.346:INFO [karma]: Karma v1.3.0 server started at http://localhost:9876/
+23 05 2017 16:19:58.333:WARN [karma]: No captured browser, open https://localhost:9876/
+23 05 2017 16:19:58.346:INFO [karma]: Karma v1.3.0 server started at https://localhost:9876/
 23 05 2017 16:19:58.346:INFO [launcher]: Launching browser Chrome with unlimited concurrency
 23 05 2017 16:19:58.394:INFO [launcher]: Starting browser Chrome
 23 05 2017 16:19:59.873:INFO [Chrome 58.0.3029 (Windows 10 0.0.0)]: Connected on socket /#NcNTAGH9hWfGMCuEAAAA with id 3551106

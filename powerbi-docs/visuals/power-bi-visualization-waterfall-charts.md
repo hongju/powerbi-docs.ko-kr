@@ -2,7 +2,6 @@
 title: Power BI의 폭포 차트
 description: Power BI의 폭포 차트
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c4def89d7c91186295e4f2b3f07769792a8892e8
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017787"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881960"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI의 폭포 차트
 
@@ -49,7 +48,7 @@ ms.locfileid: "73017787"
 
 ## <a name="prerequisite"></a>필수 조건
 
-이 자습서는 [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
+이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
 1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
    

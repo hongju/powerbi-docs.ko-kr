@@ -2,7 +2,6 @@
 title: Azure AD B2B에서 외부 게스트 사용자에게 콘텐츠 배포
 description: Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합하므로 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안전하게 배포할 수 있습니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8de1b483f31a540cf27a89d94167d919a2a85e95
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: bcde2bc456ee48e8dc66d6c0ba6b17d79fbe43a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431440"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858002"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -33,7 +32,7 @@ Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합�
 
 gmail.com, outlook.com 및 hotmail.com과 같은 개인 계정을 포함한 메일 주소를 사용하여 게스트 사용자를 초대할 수 있습니다. Azure AD B2B에서는 이러한 주소를 *소셜 ID*라고 합니다.
 
-## <a name="invite-guest-users"></a>게스트 사용자 초대 
+## <a name="invite-guest-users"></a>게스트 사용자 초대
 
 게스트 사용자를 조직에 최초로 초대할 때만 초대가 필요합니다. 계획 초대 및 임시 초대의 두 가지 방법으로 게스트 사용자를 초대할 수 있습니다.
 
@@ -103,7 +102,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
  
 이러한 사용자가 Power BI에 로그인할 수 있도록 지원하려면 테넌트 URL을 제공하세요. 테넌트 URL을 찾으려면 이 단계를 수행합니다.
 
-1. Power BI 서비스의 맨 위 메뉴에서 도움말(**?**)을 선택한 후 **Power BI 정보**를 선택합니다.
+1. Power BI 서비스의 맨 위 메뉴에서 도움말( **?** )을 선택한 후 **Power BI 정보**를 선택합니다.
 
 2. **테넌트 URL** 옆에 있는 값을 찾습니다. 이 값은 게스트 사용자와 공유할 수 있는 테넌트 URL입니다.
 

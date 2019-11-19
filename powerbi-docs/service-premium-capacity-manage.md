@@ -3,7 +3,6 @@ title: Microsoft Power BI Premium 용량 관리
 description: Power BI Premium 용량에 대한 관리 작업을 설명합니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: a2b51d2a03a9d3b88d31bc7d7d232fef0b2251d6
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 5e8becd877165f456793d99951544156a9314290
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431728"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881211"
 ---
 # <a name="managing-premium-capacities"></a>프리미엄 용량 관리
 
@@ -58,7 +57,7 @@ Power BI 서비스 관리자와 Office 365 전역 관리자는 Premium 용량을
 
 할당 권한은 특정 Premium 용량에 작업 영역을 할당하는 데 필요합니다. 권한은 전체 조직, 특정 사용자 또는 그룹에게 부여할 수 있습니다.
 
-기본적으로 Premium 용량은 Power BI 쿼리 실행과 관련된 워크로드를 지원합니다. 또한 Premium 용량은 다음과 같은 추가 워크 로드도 지원합니다. **AI(Cognitive Services)**, **페이지를 매긴 보고서** 및 **데이터 흐름**. 각 워크로드마다 워크로드에서 사용할 수 있는 최대 메모리(사용 가능한 총 메모리의 백분율)를 구성해야 합니다. 최대 메모리 할당을 늘릴 경우 호스트할 수 있는 활성 모델 수와 새로 고침 처리량에 영향을 줄 수 있다는 것을 이해해야 합니다. 
+기본적으로 Premium 용량은 Power BI 쿼리 실행과 관련된 워크로드를 지원합니다. 또한 Premium 용량은 다음과 같은 추가 워크 로드도 지원합니다. **AI(Cognitive Services)** , **페이지를 매긴 보고서** 및 **데이터 흐름**. 각 워크로드마다 워크로드에서 사용할 수 있는 최대 메모리(사용 가능한 총 메모리의 백분율)를 구성해야 합니다. 최대 메모리 할당을 늘릴 경우 호스트할 수 있는 활성 모델 수와 새로 고침 처리량에 영향을 줄 수 있다는 것을 이해해야 합니다. 
 
 메모리는 데이터 흐름에는 동적으로 할당되지만 페이지를 매긴 보고서에는 정적으로 할당됩니다. 최대 메모리를 정적으로 할당하는 이유는 페이지를 매긴 보고서가 용량의 제한된 보안 공간 내에서 실행되기 때문입니다. 모델을 로드하는 데 사용할 수 있는 메모리가 줄어들기 때문에 페이지를 매긴 보고서 메모리를 설정할 때는 주의해야 합니다. 자세한 내용은 [기본 메모리 설정](service-admin-premium-workloads.md#default-memory-settings)을 참조하세요.
 

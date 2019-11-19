@@ -2,7 +2,6 @@
 title: 빠른 시작 데이터에 연결
 description: Power BI Desktop에서 데이터 원본에 연결
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 05d8c990b7057ab59515826547a42ce1ee643ac2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891696"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876204"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>빠른 시작: Power BI Desktop에서 데이터에 연결
 
@@ -28,8 +27,8 @@ ms.locfileid: "72891696"
 ## <a name="prerequisites"></a>필수 조건
 
 이 문서의 단계를 완료하려면 다음이 필요합니다.
-* 로컬 컴퓨터에서 실행되는 무료 애플리케이션인 **Power BI Desktop**을 다운로드하여 설치합니다. 직접 [**Power BI Desktop**을 다운로드](https://powerbi.microsoft.com/desktop)하거나 [**Microsoft 저장소**](http://aka.ms/pbidesktopstore)에서 가져올 수 있습니다.
-* [이 샘플 Excel 통합 문서를 다운로드](http://go.microsoft.com/fwlink/?LinkID=521962)하고 Excel 파일을 저장할 수 있는 *C:\PBID-qs*라는 폴더를 만듭니다. 이 빠른 시작의 후속 단계에서는 이 폴더가 다운로드한 Excel 통합 문서의 파일 위치라고 가정합니다.
+* 로컬 컴퓨터에서 실행되는 무료 애플리케이션인 **Power BI Desktop**을 다운로드하여 설치합니다. 직접 [**Power BI Desktop**을 다운로드](https://powerbi.microsoft.com/desktop)하거나 [**Microsoft 저장소**](https://aka.ms/pbidesktopstore)에서 가져올 수 있습니다.
+* [이 샘플 Excel 통합 문서를 다운로드](https://go.microsoft.com/fwlink/?LinkID=521962)하고 Excel 파일을 저장할 수 있는 *C:\PBID-qs*라는 폴더를 만듭니다. 이 빠른 시작의 후속 단계에서는 이 폴더가 다운로드한 Excel 통합 문서의 파일 위치라고 가정합니다.
 
 ## <a name="launch-power-bi-desktop"></a>Power BI Desktop 시작
 
@@ -51,7 +50,7 @@ ms.locfileid: "72891696"
 
 이 파일은 Excel 파일이므로 **데이터 가져오기** 창에서 **Excel**을 선택한 다음, **연결** 단추를 선택합니다.
 
-연결할 Excel 파일의 위치를 제공하라는 메시지가 표시됩니다. 다운로드한 파일을 ‘재무 샘플’이라고 하므로 해당 파일을 선택한 다음, **열기**를 선택합니다.
+연결할 Excel 파일의 위치를 제공하라는 메시지가 표시됩니다. 다운로드한 파일을 ‘재무 샘플’이라고 하므로 해당 파일을 선택한 다음, **열기**를 선택합니다. 
 
 ![데이터 가져오기](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
 
