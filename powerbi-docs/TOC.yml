@@ -117,7 +117,7 @@
           href: desktop-auto-date-time.md
         - name: 데이터에 연결
           items:
-            - name: Power BI Desktop의 데이터 원본
+            - name: Power BI Desktop의 데이터 소스
               href: desktop-data-sources.md
             - name: LinkedIn Sales Navigator에 연결(미리 보기)
               href: desktop-connect-linkedin-sales-navigator.md
@@ -147,11 +147,11 @@
               href: desktop-r-scripts.md
             - name: 쿼리 편집기에서 R 사용
               href: desktop-r-in-query-editor.md
-            - name: Power BI로 외부 R IDE 사용
+            - name: Power BI에서 외부 R IDE 사용
               href: desktop-r-ide.md
             - name: 지원되는 R 패키지
               href: service-r-packages-support.md
-            - name: Power BI Desktop에 데이터 직접 연결
+            - name: Power BI Desktop에 직접 데이터 입력
               href: desktop-enter-data-directly-into-desktop.md
             - name: Power BI Desktop에서 Excel에 연결
               href: desktop-connect-excel.md
@@ -187,11 +187,11 @@
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery 및 SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: Power BI Desktop의 참조 무결성 설정 가정
+            - name: Power BI Desktop에서 참조 무결성 설정 가정
               href: desktop-assume-referential-integrity.md
             - name: Power BI Desktop에서 SAP BW 커넥터 사용
               href: desktop-sap-bw-connector.md
-            - name: Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
+            - name: Power BI Desktop에서 비즈니스 링크용 OneDrive 사용
               href: desktop-use-onedrive-business-links.md
             - name: '타사 서비스: Power BI Desktop용 Facebook 커넥터'
               href: service-facebook-connector.md
@@ -477,6 +477,10 @@
               href: service-the-report-editor-take-a-tour.md
             - name: Power BI 데이터 원본
               href: service-get-data.md
+            - name: Power BI 데이터 세트 이해
+              href: service-datasets-understand.md
+            - name: Power BI 데이터 세트 모드 이해
+              href: service-dataset-modes-understand.md
             - name: Power BI에서 데이터 새로 고침
               href: refresh-data.md
         - name: Power BI에서 공동 작업
@@ -601,7 +605,7 @@
               href: service-dashboard-pin-tile-from-q-and-a.md
             - name: 전체 보고서 페이지를 대시보드에 고정
               href: service-dashboard-pin-live-tile-from-report.md
-            - name: Power BI 서비스의 데이터 경고
+            - name: Power BI 서비스에서 데이터 경고
               href: service-set-data-alerts.md
             - name: '대시보드에 이미지, 텍스트 상자, 비디오 또는 코드 추가'
               href: service-dashboard-add-widget.md
@@ -823,7 +827,7 @@
                   href: service-connect-to-github.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
-                - name: 프로젝트 온라인
+                - name: Project Online
                   href: service-connect-to-project-online.md
                 - name: QuickBooks Online
                   href: service-connect-to-quickbooks-online.md
@@ -859,7 +863,7 @@
           href: videos.md
         - name: 웹 세미나
           href: webinars.md
-- name: Power BI Premium
+- name: Power BI 프리미엄
   items:
     - name: 개요
       items:
@@ -1037,7 +1041,7 @@
               href: report-server/upgrade.md
             - name: 보고서 서버 마이그레이션
               href: report-server/migrate-report-server.md
-            - name: Power BI 보고서를 사용하도록 Kerberos 구성
+            - name: Kerberos를 구성하여 Power BI 보고서 사용
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: 원격으로 모바일 앱 액세스 구성
               href: report-server/configure-powerbi-mobile-apps-remote.md
@@ -1125,31 +1129,3 @@
       items:
         - name: 월별 게이트웨이 업데이트
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: 지침
-  items:
-    - name: 개요
-      href: guidance/overview.md
-    - name: 별모양 스키마란?
-      href: guidance/star-schema.md
-    - name: 데이터 모델 크기 줄이기
-      href: guidance/import-modeling-data-reduction.md
-    - name: 나누기 함수 및 나누기 연산자(/)
-      href: guidance/dax-divide-function-operator.md
-    - name: 쿼리 폴딩의 중요도
-      href: guidance/power-query-folding.md
-    - name: 오류 함수를 적절하게 사용
-      href: guidance/dax-error-functions.md
-    - name: 데이터 흐름에 관한 모범 사례
-      href: service-dataflows-best-practices.md
-    - name: Power BI Desktop의 DirectQuery 모델 지침
-      href: guidance/directquery-model-guidance.md
-    - name: 백서
-      items:
-        - name: 백서 개요
-          href: whitepapers.md
-        - name: Power BI 보안 백서
-          href: whitepaper-powerbi-security.md
-        - name: Power BI Premium 배포
-          href: whitepaper-powerbi-premium-deployment.md
-        - name: Azure Active Directory B2B를 사용하여 외부에서 Power BI 배포
-          href: whitepaper-azure-b2b-power-bi.md
