@@ -3,18 +3,17 @@ title: Power BI 시각적 개체에 방문 페이지 추가
 description: 이 문서에서는 Power BI 시각적 개체에 방문 페이지를 추가하는 방법을 설명합니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 79e362796e0694022bceb38f111a62bb62ddbabd
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: fdf9496c564372e385879b3e0a3feb392d10ff90
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193953"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879974"
 ---
 # <a name="add-a-landing-page-to-your-power-bi-visuals"></a>Power BI 시각적 개체에 방문 페이지 추가
 

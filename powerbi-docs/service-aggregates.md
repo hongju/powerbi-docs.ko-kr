@@ -2,7 +2,6 @@
 title: Power BI 서비스에서 집계(합계, 평균 등) 사용
 description: Power BI 서비스에서 차트의 집계(합계, 평균, 최댓값 등)를 변경하는 방법을 알아봅니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 05/03/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 7cee05df6a7d13e18bc31bc1a1f34a5f89711c0d
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 595b5743450aeb8ae6f6e60157742e3563a28fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "65710593"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873302"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Power BI 서비스에서 집계(합계, 평균 등) 사용
 
@@ -50,13 +49,13 @@ Power BI 서비스의 집계 방식이 모호해 보일 수 있습니다. Power 
 
 일반적으로 기본 문제는 데이터 세트의 필드 정의입니다. 데이터 세트 소유자가 필드를 텍스트로 정의한 경우, Power BI에서 합계 또는 평균을 계산할 수 없습니다. [데이터 세트 소유자만 필드를 분류하는 방식을 변경할 수 있습니다](desktop-measures.md). 따라서 데스크톱이나 데이터 세트를 만드는 데 사용된 프로그램(예: Excel)에서 데이터 세트에 대한 소유자 권한이 있는 경우 이 문제를 해결할 수 있습니다. 그렇지 않으면 데이터 세트 소유자에게 도움을 요청해야 합니다.  
 
-이 문서의 끝에 있는 특별 섹션인 [**고려 사항 및 문제 해결**](#considerations-and-troubleshooting)에서 팁과 지침을 제공합니다. 여기서 답을 찾을 수 없는 경우 [Power BI 커뮤니티 포럼](http://community.powerbi.com)에 질문을 게시하면 Power BI 팀에서 직접, 신속하게 답변해 드릴 것입니다.
+이 문서의 끝에 있는 특별 섹션인 [**고려 사항 및 문제 해결**](#considerations-and-troubleshooting)에서 팁과 지침을 제공합니다. 여기서 답을 찾을 수 없는 경우 [Power BI 커뮤니티 포럼](https://community.powerbi.com)에 질문을 게시하면 Power BI 팀에서 직접, 신속하게 답변해 드릴 것입니다.
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>숫자 필드가 집계되는 방식 변경
 
 다른 제품의 판매 대수의 합계를 구하는 차트가 있지만 평균값을 구하려는 경우를 가정해 보겠습니다.
 
-1. 측정값과 범주를 사용하는**묶은 세로 막대형 차트**를 만듭니다. 이 예에서는 제품별 판매 대수를 사용하고 있습니다.  기본적으로 Power BI는 각 제품(**축** 영역으로 범주 끌기)의 판매 대수(**값** 영역으로 측정값 끌기) 합계를 보여 주는 차트를 만듭니다.
+1. 측정값과 범주를 사용하는 **묶은 세로 막대형 차트**를 만듭니다. 이 예에서는 제품별 판매 대수를 사용하고 있습니다.  기본적으로 Power BI는 각 제품(**축** 웰로 범주 끌기)의 판매 대수(**값** 웰로 측정값 끌기) 합계를 보여 주는 차트를 만듭니다.
 
    ![합계가 호출된 차트, 시각화 창, 필드 목록 스크린샷](media/service-aggregates/power-bi-aggregate-sum.png)
 
@@ -133,7 +132,7 @@ Power BI 서비스의 집계 방식이 모호해 보일 수 있습니다. Power 
 
 숫자가 아닌 필드도 집계할 수 있습니다. 예를 들어 제품 이름 필드가 있는 경우 이를 값으로 추가한 다음 **개수**, **고유 개수**, **첫 번째** 또는 **마지막**으로 설정할 수 있습니다.
 
-1. **제품** 필드를 **값** 영역으로 끕니다. **값** 영역은 일반적으로 숫자 필드에 사용됩니다. Power BI는 이 필드가 텍스트 필드임을 인식하고 집계를 **요약 안 함**으로 설정한 다음, 단일 열 테이블을 표시합니다.
+1. **제품** 필드를 **값** 웰로 끕니다. **값** 웰은 일반적으로 숫자 필드에 사용됩니다. Power BI는 이 필드가 텍스트 필드임을 인식하고 집계를 **요약 안 함**으로 설정한 다음, 단일 열 테이블을 표시합니다.
 
    ![값 웰의 제품 필드 스크린샷](media/service-aggregates/power-bi-aggregate-value.png)
 
@@ -145,7 +144,7 @@ Power BI 서비스의 집계 방식이 모호해 보일 수 있습니다. Power 
 
    ![제품 개수 스크린샷](media/service-aggregates/power-bi-aggregate-count-2.png)
 
-1. 같은 필드(이 예제에서는 **제품**)를 **값** 영역으로 끌고 기본 집계인 **요약 안 함**을 그대로 두면, Power BI는 제품별로 개수를 분석합니다.
+1. 같은 필드(이 예제에서는 **제품**)를 **값** 웰로 끌고 기본 집계인 **요약 안 함**을 그대로 두면, Power BI는 제품별로 개수를 분석합니다.
 
    ![제품 및 제품 개수 스크린샷](media/service-aggregates/power-bi-aggregate-final.png)
 
@@ -188,4 +187,4 @@ Q:  드롭다운 목록의 옵션으로 **요약 안 함**이 표시되지 않�
 
 A:  필드를 제거하고 다시 추가해보세요.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

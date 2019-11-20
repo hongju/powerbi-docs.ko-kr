@@ -2,21 +2,20 @@
 title: Power BI 관리 포털
 description: 관리 포털을 통해 조직에서 Power BI의 테넌트 관리를 사용할 수 있습니다. 사용 메트릭, Microsoft 365 관리 센터에 대한 액세스 및 설정과 같은 항목을 포함하고 있습니다.
 author: mgblythe
-ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
+ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305889"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128371"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -49,7 +48,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 * [작업 영역](#workspaces)
 * [사용자 지정 브랜딩](#custom-branding)
 
-## <a name="usage-metrics"></a>사용 현황 메트릭
+## <a name="usage-metrics"></a>사용량 메트릭
 
 **사용 메트릭**을 통해 조직의 Power BI 사용을 모니터링할 수 있습니다. 또한 조직을 위한 Power BI 내에서 가장 활발한 사용자 및 그룹이 누구인지 확인하는 기능을 제공합니다. 
 
@@ -86,7 +85,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 ## <a name="control-usage-metrics"></a>사용 메트릭 제어
 
-사용 메트릭 보고서는 Power BI 또는 Office 365 관리자에서 켜거나 끌 수 있는 기능입니다. 관리자는 사용 메트릭에 액세스할 수 있는 사용자를 세부적으로 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에 대해 **켬**으로 설정되어 있습니다.
+사용 메트릭 보고서는 Power BI 또는 Office 365 관리자가 켜거나 끌 수 있는 기능입니다. 관리자는 사용 메트릭에 액세스할 수 있는 사용자를 세부적으로 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에 대해 **켬**으로 설정되어 있습니다.
 
 관리자는 콘텐츠 작성자가 사용 메트릭에서 사용자별 데이터를 볼 수 있는지 여부도 설정할 수 있습니다. 
 
@@ -169,7 +168,9 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 조직의 사용자는 Power BI 도움말 메뉴에서 내부 도움말 및 지원 리소스로 이동할 수 있습니다. 특히 이러한 매개 변수는 학습, 커뮤니티 및 도움말 보기 메뉴 항목을 변경합니다.
 
-또한 라이선스 요청에 대한 사용자 지정 솔루션으로 사용자를 안내하는 URL을 지정할 수도 있습니다. 이 매개 변수는 Power BI Pro 라이선스가 없는 사용자가 Power BI Pro로 업데이트 대화 상자 및 개인 스토리지 관리 페이지에서 찾을 수 있는 계정 업그레이드 단추의 대상 URL을 사용자 지정합니다.
+    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+
+라이선스 요청에 URL을 지정하여 Power BI Pro 라이선스가 없는 사용자가 **Power BI Pro로 업데이트** 대화 상자 및 **개인 스토리지 관리** 페이지에서 찾을 수 있는 **계정 업그레이드** 단추의 대상 URL을 사용자 지정합니다. 또한 Power BI에서 라이선스 관리 솔루션을 통해 조직에 정의된 프로세스를 사용자에게 안정적으로 안내할 수 있도록 이 대화 상자나 스토리지 페이지에서 **Pro 체험해 보기** 단추가 더 이상 제공되지 않습니다.
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>서비스 중단 또는 인시던트에 대한 메일 알림 받기
 
@@ -179,7 +180,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ### <a name="create-workspaces"></a>작업 영역 만들기
 
-관리자는 앱 작업 영역을 만들어 대시보드, 보고서 및 기타 콘텐츠에서 협업할 수 있는 조직의 사용자를 지정하기 위해 **작업 영역 만들기** 설정을 사용합니다. [앱 작업 영역](service-create-the-new-workspaces.md)에 대해 자세히 알아보세요.
+관리자는 **작업 영역 만들기** 설정을 통해 작업 영역을 만들어 대시보드, 보고서 및 기타 콘텐츠를 협업할 수 있는 조직의 사용자를 지정합니다. [작업 영역](service-create-the-new-workspaces.md)에 대해 자세히 알아보세요.
 
 관리 포털에는 테넌트의 작업 영역에 대한 다른 설정 섹션이 있습니다. 이 섹션에서 작업 영역 목록을 정렬 및 필터링하고 각 작업 영역에 대한 세부 정보를 표시할 수 있습니다. 자세한 내용은 [작업 영역](#workspaces)을 참조하세요.
 
@@ -210,7 +211,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 |특정 |전체 조직에 대해 사용 |전체 조직에 대해 사용 안 함 |특정 보안 그룹   |
 |---------|---------|---------|---------|
 |보고서의 **파일** 메뉴 아래에 있는 **웹 게시**.|모든 사용자에 대해 사용|모든 사용자에게 표시 안 함|권한 있는 사용자 또는 그룹에만 표시.|
-|**설정** 아래의 **embed 태그 관리**|모든 사용자에 대해 사용|모든 사용자에 대해 사용|모든 사용자에 대해 사용<br><br>권한 있는 사용자 또는 그룹에만 * **삭제** 옵션 제공.<br>모든 사용자에 대해 * **코드 가져오기** 사용.|
+|**설정** 아래의 **embed 태그 관리**|모든 사용자에 대해 사용|모든 사용자에 대해 사용|모든 사용자에 대해 사용<br><br>권한 있는 사용자 또는 그룹에만 * **삭제** 옵션 제공.<br>*  모든 사용자에 대해 **코드 가져오기** 사용.|
 |관리자 포털 내의 **embed 태그**|상태는 다음 중 하나를 반영합니다.<br>* 활성<br>* 지원되지 않음<br>* 차단됨|상태에 **사용 안 함**이 표시됨|상태는 다음 중 하나를 반영합니다.<br>* 활성<br>* 지원되지 않음<br>* 차단됨<br><br>테넌트 설정에 따라 사용자에게 권한이 없으면 상태가 **침해됨**으로 표시됩니다.|
 |게시된 기존 보고서|모두 사용|모두 사용 안 함|보고서가 모든 사용자에 대해 계속 렌더링합니다.|
 
@@ -303,7 +304,7 @@ Azure B2B 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습�
 
 ### <a name="add-and-use-custom-visuals"></a>사용자 지정 시각적 개체 추가 및 사용
 
-조직의 사용자는 사용자 지정 시각적 개체를 조작하고 공유할 수 있습니다. [자세히 알아보기](power-bi-custom-visuals.md)
+조직의 사용자는 사용자 지정 시각적 개체를 조작하고 공유할 수 있습니다. [자세히 알아보기](developer/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > 이 설정은 전체 조직에 적용하거나 특정 그룹으로 제한할 수 있습니다.
@@ -455,7 +456,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
  ## <a name="organizational-visuals">조직의 시각적 개체</a> 
 
-**조직 시각적 개체** 탭에서는 조직 내부에서 사용자 지정 시각적 개체를 배포 및 관리할 수 있습니다. 조직 시각적 개체를 사용하면 조직에서 소유 시각적 개체를 쉽게 배포할 수 있으므로 이후 보고서 작성자가 Power BI Desktop에서 이를 검색하고 보고서로 가져올 수 있습니다. [자세히 알아보기](power-bi-custom-visuals-organization.md)
+**조직 시각적 개체** 탭에서는 조직 내부에서 사용자 지정 시각적 개체를 배포 및 관리할 수 있습니다. 조직 시각적 개체를 사용하면 조직에서 소유 시각적 개체를 쉽게 배포할 수 있으므로 이후 보고서 작성자가 Power BI Desktop에서 이를 검색하고 보고서로 가져올 수 있습니다. [자세히 알아보기](developer/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > 사용자 지정 시각적 개체에는 보안 또는 개인 정보 관련 위험이 있는 코드가 포함될 수 있습니다. 조직의 리포지토리로 배포하기 전에 사용자 지정 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인해야 합니다.
@@ -511,7 +512,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 시각적 개체 ID가 변경되지 않았는지 확인합니다. 새 파일은 조직 전체의 모든 보고서에 대해 이전 파일을 대체합니다. 그러나 시각적 개체의 새 버전이 시각적 개체의 이전 버전에 대한 사용이나 데이터 구조를 중단하는 경우에는 이전 버전을 바꾸지 마세요. 대신에 시각적 개체의 새 버전에 대한 새 목록을 만들어야 합니다. 예를 들어 새 버전 번호(버전 X.X)를 새 나열된 시각적 개체의 제목에 추가합니다. 이렇게 하면 업데이트된 버전 번호를 가진 동일한 시각적 개체가 되므로 기존 보고서가 해당 기능을 중단하지 않습니다. 다시 한번 시각적 개체 ID가 변경되지 않았는지 확인합니다. 그러면 다음에 사용자가 Power BI Desktop에서 조직의 리포지토리에 들어갈 때 새 버전을 가져올 수 있으며, 보고서에 있는 현재 버전을 바꾸라는 메시지가 표시됩니다.
 
-자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)을 참조하세요.
+자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals)을 참조하세요.
 
 ## <a name="dataflowStorage">데이터 흐름 스토리지(미리 보기)</a>
 
@@ -545,7 +546,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 * **색 테마 선택**: 16진수 #, RGB, 값 또는 제공된 팔레트를 기준으로 테마를 선택할 수 있습니다.
 
 
-자세한 내용은 [조직에 대한 사용자 지정 브랜딩](http://aka.ms/orgBranding)을 참조하세요.
+자세한 내용은 [조직에 대한 사용자 지정 브랜딩](https://aka.ms/orgBranding)을 참조하세요.
 
 ![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>다음 단계

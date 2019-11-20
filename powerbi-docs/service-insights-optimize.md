@@ -2,7 +2,6 @@
 title: Power BI 빠른 인사이트를 위한 데이터 최적화
 description: Power BI 빠른 인사이트를 위해 데이터를 최적화합니다. Power BI가 데이터를 파악하지 못하는 경우 다음과 같은 작업을 수행할 수 있습니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2d2a0cca984776ea67fca45b39f91e280fe02afa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ed588b0ca183e090d12f9aa0df23460a6037ed4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61235033"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872209"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Power BI 빠른 인사이트를 위해 데이터 최적화
 빠른 인사이트 결과를 개선하려는 경우  데이터 세트 소유자이면, 다음을 시도해 보세요.
@@ -28,5 +27,5 @@ ms.locfileid: "61235033"
 ### <a name="next-steps"></a>다음 단계
 [Power BI 빠른 인사이트](consumer/end-user-insights.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431522"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73791281"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Power BI 보고서 작성기에서 공유 데이터 세트 사용
 
@@ -30,7 +30,7 @@ Power BI Desktop에서 만든 데이터 세트를 Power BI 보고서 작성기 �
 - Power BI 데이터 세트에 액세스하려면 데이터 세트의 빌드 권한이 있어야 합니다. [빌드 권한](service-datasets-build-permissions.md)을 참조하세요.
 - 보고서 작성기에서 페이지를 매긴 보고서를 만드는 경우 Power BI Pro 라이선스가 필요하지 않습니다. 
 - 페이지를 매긴 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 또한 최소한 프리미엄 용량의 작업 영역에 대한 기여자 역할이 있어야 합니다. 
-- 선택 사항: 이 문서를 따르려는 경우 Power BI Desktop [소매점 분석 샘플 .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) 파일을 다운로드하고 Power BI Desktop에서 연 다음, 많은 열이 있는 테이블을 추가합니다. **서식** 창에서 **합계**를 끕니다. 그런 다음, Power BI 서비스의 작업 영역에 게시합니다.
+- 선택 사항: 이 문서를 따르려는 경우 Power BI Desktop [소매점 분석 샘플 .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) 파일을 다운로드하고 Power BI Desktop에서 연 다음, 많은 열이 있는 테이블을 추가합니다. **서식** 창에서 **합계**를 끕니다. 그런 다음, Power BI 서비스의 작업 영역에 게시합니다.
 
     ![합계 꺼짐](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 

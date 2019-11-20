@@ -2,7 +2,6 @@
 title: Power BI의 보고서에 필터 추가
 description: Power BI의 보고서에 페이지 필터, 시각화 필터 또는 보고서 필터 추가
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: bc3fdd40848975dea675ce63955184686912ffd7
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 143851013679dd0356c1ea5036c3d724b1dc436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891909"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875164"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI의 보고서에 필터 추가
 
@@ -180,5 +179,5 @@ Power BI 서비스 및 Power BI Desktop의 드릴스루를 사용하여 공급 �
 
 [Power BI의 다양한 종류의 필터](power-bi-report-filter-types.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

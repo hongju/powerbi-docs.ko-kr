@@ -2,7 +2,6 @@
 title: Power BI의 고밀도 선 샘플링
 description: Power BI의 고밀도 선 샘플링
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 357611d36fd59be1b674f06ce72c5aba8d020822
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 40e11f6423df12355800a2c62876e5de1f8b3f82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454324"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867472"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Power BI의 고밀도 선 샘플링
 **Power BI Desktop** 2017년 6월 릴리스 및 **Power BI 서비스** 업데이트부터 새 샘플링 알고리즘은 고밀도 데이터를 샘플링하는 시각적 개체를 향상시키는데 사용할 수 있습니다. 예를 들어 각 상점이 매년 10000개 이상의 판매 영수증을 갖는 소매 상점의 판매 결과에서 꺾은선형 차트를 만들 수 있습니다. 이러한 판매 정보의 꺾은선형 차트는 각 상점의 데이터에서 데이터를 샘플링하고(해당 데이터의 의미 있는 표현을 선택하여 시간 경과에 따른 판매량 변화를 보여줌), 다중 계열 꺾은선형 차트를 만들어 기본 데이터를 나타냅니다. 이는 고밀도 데이터 시각화의 일반적인 사례입니다. Power BI Desktop은 고밀도 데이터의 해당 샘플링을 향상시켰으며, 이에 대해 이 문서에서 자세히 설명합니다.

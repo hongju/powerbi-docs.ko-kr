@@ -1,21 +1,20 @@
 ---
 title: 보고서 디자이너용 Power BI
 description: Power BI에서 데이터에 연결하고, 쿼리를 디자인하고, 보고서 및 대시보드를 만드나요? Power BI 관리자인가요?
-author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
 ms.date: 10/07/2019
 ms.author: maggies
+author: maggiesMSFT
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: cb80bad73a615621ad8a2459e71607900f8d493d
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239890"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128331"
 ---
 # <a name="power-bi-for-report-designers"></a>보고서 디자이너용 Power BI
 
@@ -37,7 +36,7 @@ Power BI 소비자인가요? 환영합니다. [소비자용 Power BI](consumer/p
                                           <h3>Power BI를 사용하여 만들기 시작</h3> 
                                           <p></p>
                                                <a href="desktop-what-is-desktop.md">Power BI Desktop으로 시작</a><br/> 
-                                               <a href="power-bi-overview.md">Power BI 서비스로 시작</a><br/> 
+                                               <a href="fundamentals/power-bi-overview.md">Power BI 서비스로 시작</a><br/> 
                                                <a href="report-server/get-started.md">Power BI Report Server란?</a>
                                     </div> 
                               </div> 
@@ -156,7 +155,7 @@ Power BI 소비자인가요? 환영합니다. [소비자용 Power BI](consumer/p
                                           <h3>작업 공유</h3> 
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">공동 작업하고 공유하려면 어떻게 해야 하나요?</a><br/>
-                                                <a href="service-create-workspaces.md">Power BI 서비스의 앱 작업 영역</a> 
+                                                <a href="service-create-workspaces.md">Power BI 서비스의 작업 영역</a> 
                                     </div> 
                               </div> 
                         </div> 

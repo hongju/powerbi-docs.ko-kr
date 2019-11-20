@@ -2,19 +2,18 @@
 title: 원격으로 보고서 서버에 대한 iOS 모바일 앱 액세스 권한 구성
 description: 원격으로 보고서 서버에 iOS 모바일 앱을 구성하는 방법을 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
-ms.openlocfilehash: 7727157a9227a5340fccf0af129d87f69edd8c72
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994808"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874198"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한 구성
 

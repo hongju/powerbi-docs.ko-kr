@@ -9,15 +9,15 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903672"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429882"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
-Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다. 
+Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다.
 
 이 용어집은 커뮤니티의 도움을 받아 작성한 것입니다.  찾는 단어가 여기에 없나요? 그렇다면 추가해 달라고 요청하세요. 이 문서 맨 아래에 있는 설명서 피드백 단추를 사용하면 됩니다.
 
@@ -37,10 +37,8 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **answer card, answer page (대답 카드, 대답 페이지)** Cortana 대답 카드를 참조하세요.
 
-**app, apps (앱)**
+**app, apps (앱)** 
 
- 
-**app workspace (앱 작업 영역)** 이제 내 작업 영역을 제외한 Power BI의 모든 작업 영역은 앱 작업 영역입니다. 콘텐츠는 번들로 묶어 Power BI 앱으로 제공될 수 있습니다. Premium 용량에 저장된 콘텐츠는 무료 사용자와 공유할 수 있습니다. 개인 작업 영역(내 작업 영역 내)은 Premium 용량에 호스트될 수 있습니다.  
 
 **AppSource** 다운로드할 대시보드, 보고서, 데이터 세트 및 앱을 찾아보고 검색할 수 있는 중앙 집중식 온라인 리포지토리입니다.
 
@@ -54,15 +52,15 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **bookmark (책갈피)** Power BI Desktop 또는 서비스에서 보고서의 책갈피 창에 캡처된 데이터의 보기입니다. Desktop에서 책갈피는 Power BI 서비스에서 공유하기 위해 .pbix 보고서 파일에 저장됩니다.
   
-**breadcrumbs (탐색 경로)** 앱 작업 영역 간을 빠르게 탐색하기 위한 상단 왼쪽에 표시되는 탐색 기능입니다.
+**이동 경로** 작업 영역 간에 빠르게 이동할 수 있도록 왼쪽 위에 표시되는 탐색입니다.
 
 ## <a name="c"></a>C
 
 **calculation (계산)** 수학적 방식으로 크기 또는 수치를 결정하는 것입니다.
 
-**card (카드)** (시각적 개체 유형) Power BI [시각적 유형](end-user-visual-type.md)입니다.
+**card (카드)**(시각적 개체 유형) Power BI [시각적 유형](end-user-visual-type.md)입니다.
 
-**카드 (card)** (Power BI Home) Power BI Home은 대시보드, 보고서, 앱 등을 나타내는 사각형 및 정사각형 그림을 표시합니다. 이러한 그림을 *카드*라고 합니다.
+**카드 (card)**(Power BI Home) Power BI Home은 대시보드, 보고서, 앱 등을 나타내는 사각형 및 정사각형 그림을 표시합니다. 이러한 그림을 *카드*라고 합니다.
 
 **certified custom visual (인증된 사용자 지정 시각적 개체)** 요구 사항을 충족하고 엄격한 보안 테스트를 통과한 Power BI 사용자 지정 시각적 개체입니다.
 
@@ -112,9 +110,9 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 ## <a name="e"></a>E
 
-**Editing View (편집용 보기)** 보고서 ‘디자이너’가 보고서를 탐색, 디자인, 작성 및 공유할 수 있는 모드입니다. 
+**Editing View (편집용 보기)** 보고서 ‘디자이너’가 보고서를 탐색, 디자인, 작성 및 공유할 수 있는 모드입니다.
 
-**ellipsis (줄임표)** ...    
+**ellipsis (줄임표)**...    
 줄임표를 선택하면 추가 메뉴 옵션이 표시됩니다.
 
 **embed code (embed 태그)** 인터넷의 공통 표준입니다. Power BI에서 고객은 embed 태그를 생성한 후 복사하여 웹 사이트나 블로그에 보고서 시각적 개체와 같은 콘텐츠를 배치할 수 있습니다.
@@ -177,11 +175,11 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 **modeling (모델링)** [Power BI Desktop] 연결한 데이터를 Power BI에서 사용할 준비가 완료된 것입니다. 여기에는 여러 데이터 원본의 테이블 간 관계 작성, 수치 작성 및 메트릭 할당 등이 포함됩니다.
 
-**My workspace (내 작업 영역)** 각 Power BI 고객이 콘텐츠를 만들기 위한 작업 영역입니다. 여기에서 만든 항목을 번들로 묶어 앱으로 구성하려고 하며 ‘디자이너’ 권한이 있는 경우 해당 앱 작업 영역에 업로드하거나 새 작업 영역을 만듭니다. 
+**My workspace (내 작업 영역)** 각 Power BI 고객이 콘텐츠를 만들기 위한 작업 영역입니다. 여기서 만든 항목을 앱에 번들로 묶으려고 하며 ‘디자이너’ 권한이 있는 경우, 적절한 작업 영역에 업로드하거나 새 작업 영역을 만듭니다.
 
 ## <a name="n"></a>N
 
-**native (네이티브)** 제품에 포함되어 있습니다. 예를 들어, Power BI에는 ‘네이티브’ 시각화 요소 집합이 함께 제공됩니다.  그러나 사용자 지정 시각적 개체 등의 다른 유형을 가져올 수도 있습니다.
+**native (네이티브)** 제품에 포함되어 있습니다. 예를 들어, Power BI에는 ‘네이티브’ 시각화 요소 집합이 함께 제공됩니다. 그러나 사용자 지정 시각적 개체 등의 다른 유형을 가져올 수도 있습니다.
 
 **left navigation (왼쪽 탐색 영역)** 또는 **nav bar (탐색 막대)** Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니다.
 
@@ -212,7 +210,7 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 **pbix** Power BI Desktop 파일의 파일 확장자입니다.
 
-**permissions (사용 권한)** 사용자가 Power BI에서 수행할 수 있는 작업과 수행할 수 없는 작업은 권한을 기준으로 합니다. ‘소비자’는 ‘디자이너’, 관리자 또는 개발자와 동일한 권한을 갖지 않습니다.  
+**permissions (사용 권한)** 사용자가 Power BI에서 수행할 수 있는 작업과 수행할 수 없는 작업은 권한을 기준으로 합니다. ‘소비자’는 ‘디자이너’, 관리자 또는 개발자와 동일한 권한을 갖지 않습니다.
 
 **phone report (휴대폰 보고서)** 휴대폰에서 볼 수 있도록 서식이 지정된 Power BI 보고서의 이름입니다.
 
@@ -220,9 +218,9 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 **pin, unpin (고정, 고정 해제)** 일반적으로 보고서에서 대시보드로 시각적 개체를 배치하는 작업입니다.
 
-**Power BI**, **Power BI Desktop (Power BI 서비스)** , **Power BI Desktop**, **Power BI Mobile**, Power BI 제품 일부 *Power BI*는 일반적인 용어입니다. 대개 최초에 *Power BI 서비스* 및 *Power BI Mobile*과 같은 전체 제품 이름을 언급한 후에 Power BI를 사용합니다.
+**Power BI**, **Power BI Desktop (Power BI 서비스)**, **Power BI Desktop**, **Power BI Mobile**, Power BI 제품 일부 *Power BI*는 일반적인 용어입니다. 대개 최초에 *Power BI 서비스* 및 *Power BI Mobile*과 같은 전체 제품 이름을 언급한 후에 Power BI를 사용합니다.
 
-**Power BI Desktop** *Desktop*이라고도 합니다. 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 Power BI의 무료 Windows 애플리케이션입니다. 보고서 디자이너 및 관리자가 사용합니다. 자세한 내용은 [Power BI란?](../power-bi-overview.md)을 참조하세요.
+**Power BI Desktop** *Desktop*이라고도 합니다. 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 Power BI의 무료 Windows 애플리케이션입니다. 보고서 디자이너 및 관리자가 사용합니다. 자세한 내용은 [Power BI란?](../fundamentals/power-bi-overview.md)을 참조하세요.
 
 **Power BI Embedded** 개발자가 자체 앱, 사이트 및 도구에 Power BI 대시보드 및 보고서를 포함하는 데 사용하는 제품입니다.
 
@@ -232,7 +230,7 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 **Power BI Report Server** Power BI Premium과 함께 출시된 새로운 SSRS 브랜드 제품으로, 조직이 분산형 하이브리드 BI 시스템(클라우드 및 온-프레미스 배포 혼합)을 빌드할 수 있도록 합니다. Embedded는 Power BI 보고서를 저장하고 관리하는 현지화된 방법을 제공합니다.
 
-**Power BI service (Power BI 서비스)** 온라인 SaaS(Software as a Service) 서비스입니다. 자세한 내용은 [Power BI란?](../power-bi-overview.md)을 참조하세요.
+**Power BI service (Power BI 서비스)** 온라인 SaaS(Software as a Service) 서비스입니다. 자세한 내용은 [Power BI란?](../fundamentals/power-bi-overview.md)을 참조하세요.
 
 **Power BI service connector (Power BI 서비스 커넥터)** Power BI Desktop 사용자는 이 커넥터를 통해 Desktop에서 Power BI 서비스의 데이터 세트에 연결할 수 있습니다. 모델을 한 번 만든 후 여러 보고서 및 대시보드에서 다시 사용할 수 있습니다.
 
@@ -273,7 +271,7 @@ Power BI 보고서에 표시되는 결과를 미리 필터링하기 위해 URL�
 
 **report editor (보고서 편집기)**
 
-**report measures (보고서 측정값)** 사용자 지정 계산이라고도 합니다. Excel에서는 이것을 계산 필드라고 합니다. ‘측정값’도 참조하세요.    
+**report measures (보고서 측정값)** 사용자 지정 계산이라고도 합니다. Excel에서는 이것을 계산 필드라고 합니다. ‘측정값’도 참조하세요.   
 **report server (보고서 서버)** 보고서 서버의 인스턴스입니다.
 
 **responsive visuals (반응형 시각적 개체)** 화면 크기와 관계없이 최대 데이터 및 인사이트를 표시하도록 동적으로 변경되는 시각적 개체입니다.
@@ -301,7 +299,7 @@ Power BI 보고서에 표시되는 결과를 미리 필터링하기 위해 URL�
 
 **streaming data (스트리밍 데이터)** *실시간 스트리밍* 참조
 
-**subscriptions (구독)** , **Subscribe (구독하기)**  
+**subscriptions (구독)**, **Subscribe (구독하기)**  
 보고서 페이지, 앱 및 대시보드를 구독하고 스냅샷이 포함된 메일을 받을 수 있습니다. Power BI Pro 라이선스가 필요합니다.
 
 **summarization (요약)** [Power BI Desktop] 한 열의 값에 적용되는 작업입니다.
@@ -325,7 +323,7 @@ Power BI 대시보드에는 보고서 타일이 포함되어 있습니다.
 
 **workbook (통합 문서)** 데이터 원본으로 사용할 Excel 통합 문서입니다. 통합 문서는 연결된 테이블, 파워 쿼리 또는 파워 피벗을 사용하여 로드한 데이터의 하나 이상의 테이블이 있는 데이터 모델을 포함할 수 있습니다.
 
-**workspace (작업 영역)** Power BI의 대시보드, 보고서 및 데이터 세트에 대한 컨테이너입니다. 이 용어 모음에서 앱 작업 영역을 참조하세요.
+**workspace (작업 영역)** Power BI의 대시보드, 보고서 및 데이터 세트에 대한 컨테이너입니다. 사용자는 내 작업 영역을 제외한 모든 작업 영역에서 콘텐츠를 협업할 수 있습니다. 콘텐츠는 번들로 묶어 Power BI 앱으로 제공될 수 있습니다. Premium 용량에 저장된 콘텐츠는 무료 사용자와 공유할 수 있습니다. 개인 작업 영역(내 작업 영역 내)은 Premium 용량에 호스트될 수 있습니다.
 
 ## <a name="x"></a>X
 **x-axis (X축)**  

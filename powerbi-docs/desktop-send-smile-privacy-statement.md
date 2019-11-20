@@ -2,7 +2,6 @@
 title: Power BI Desktop 웃는 얼굴 보내기 개인정보취급방침
 description: Power BI Desktop 웃는 얼굴 보내기 개인정보취급방침
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: af5298e548af6a4019cbd5c1bcb1ad9676923d9b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 39fa082133b519feab004f475110a3a701ff085c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514502"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876111"
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop 웃는 얼굴 보내기 개인정보취급방침
 

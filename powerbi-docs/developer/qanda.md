@@ -3,18 +3,17 @@ title: Power BI Embedded의 질문 및 답변
 description: Power BI Embedded는 질문 및 답변을 애플리케이션에 통합하고 사용자가 자연어를 사용하여 질문할 수 있는 방법을 제공합니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.openlocfilehash: afe53e7b24328612bd7858abe263e4365f1c891d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f02274a18624ce2e9bb14902c29fe05833f3fbde
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61268750"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880414"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded의 질문 및 답변
 
@@ -36,8 +35,8 @@ var config= {
     accessToken: access token value,
     embedUrl:    https://app.powerbi.com/qnaEmbed (groupId to be appended as query parameter if required),
     datasetIds:  array of requested data set ids (at the moment we support only one dataset),
-    viewMode:    models.QnAMode.Interactive | models.QnAMode.ResultOnly,
-    question:    optional parameter for Explore mode (QnAMode.Interactive) and mandatory for Render Result mode (QnAMode.ResultOnly)
+    viewMode:    models.QnaMode.Interactive | models.QnaMode.ResultOnly,
+    question:    optional parameter for Explore mode (QnaMode.Interactive) and mandatory for Render Result mode (QnaMode.ResultOnly)
 };
 
 // Get a reference to the embedded QNA HTML element
@@ -47,7 +46,7 @@ var qnaContainer = $('#qnaContainer')[0];
 var qna = powerbi.embed(qnaContainer, config);
 ```
 
-## <a name="set-question"></a>질문 설정
+## <a name="set-question"></a>설정 질문
 
 설정 질문과 함께 **결과 전용 모드**를 사용하면 추가 질문을 프레임에 삽입하고 이전 결과를 대체하여 즉시 답변을 받도록 할 수 있습니다. 새 질문과 일치하는 새 시각적 개체가 렌더링됩니다.
 
@@ -103,4 +102,4 @@ qna.on("visualRendered", function(event) {
 
 질문 및 답변 포함을 시도해 보려면 [JavaScript embed 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)을 참조하세요.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

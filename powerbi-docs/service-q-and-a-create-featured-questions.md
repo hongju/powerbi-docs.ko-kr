@@ -2,7 +2,6 @@
 title: Power BI 질문 및 답변에 대한 추천 질문 만들기
 description: Power BI 질문 및 답변에 대한 추천 질문을 만드는 방법에 대한 설명서입니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 138c14e98485777d84130854c7811a33b74dffd3
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721127"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881112"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI 질문 및 답변에 대한 추천 질문 만들기
 데이터 세트를 소유하는 경우 해당 데이터 세트에 고유한 추천 질문을 추가할 수 있습니다. Power BI Q&A는 해당 데이터 세트를 기반으로 보고서를 사용하는 동료에게 이러한 질문을 보여줍니다.  추천 질문은 동료에게 데이터 세트에 대해 문의할 수 있는 형식의 질문에 대한 아이디어를 제공합니다. 추가한 추천 질문은 인기있는 질문, 흥미로운 결과를 표시하는 질문 또는 표현하기 어려울 수 있는 질문을 추가하는 등 다양하게 만들 수 있습니다.
@@ -50,5 +49,5 @@ ms.locfileid: "66721127"
 - [대시보드 및 보고서에서 Q&A 사용](power-bi-tutorial-q-and-a.md)  
 - [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

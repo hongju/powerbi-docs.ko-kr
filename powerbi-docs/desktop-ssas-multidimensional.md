@@ -2,7 +2,6 @@
 title: Power BI Desktop의 Analysis Services 다차원 데이터
 description: Power BI Desktop의 Analysis Services 다차원 데이터
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b089c3e51ce80fdb776455519f2569ee8fa24572
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 68ae5b04f951fcc0fa8a067e60a408d1610c3fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751646"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879651"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop에서 SSAS 다차원 모델에 연결
 Power BI Desktop을 통해 일반적으로 **SSAS MD**라고 하는 **SSAS 다차원 모델**에 액세스할 수 있습니다.

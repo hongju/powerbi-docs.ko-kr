@@ -2,19 +2,18 @@
 title: Power BI에 앱 게시
 description: 기본 제공 탐색 기능이 있는 대시보드 및 보고서 컬렉션인 새 앱을 게시하는 방법에 대해 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020228"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853637"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI에 앱 게시
 
@@ -115,7 +114,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 * **보고서 세부 정보**, **대시보드 세부 정보**, **통합 문서 세부 정보**의 항목 이름 변경
 * 탐색 창에서 특정 항목 숨기기
 * **새로 만들기** 옵션을 사용하여 관련 콘텐츠를 그룹화하는 **섹션** 추가
-* **새로 만들기** 옵션을 사용하여 외부 자원에 대한 **링크**를 왼쪽 탐색 창에 추가 
+* **새로 만들기** 옵션을 사용하여 외부 자원에 대한 **링크**를 탐색 창에 추가. 
 
 **링크**를 추가하는 경우, **링크 세부 정보**에서 링크가 열리는 위치를 선택할 수 있습니다. 기본적으로 **현재 탭**에서 링크가 열리지만 **새 탭**, 또는 **콘텐츠 영역**을 선택할 수 있습니다. 
 
@@ -187,7 +186,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 
 ## <a name="view-your-published-app"></a>게시된 앱 보기
 
-앱 소비자가 앱을 열면, 표준 Power BI 왼쪽 탐색 창 대신 사용자가 만든 탐색이 표시됩니다. 앱 탐색에는 정의한 섹션에서 보고서와 대시보드가 나열됩니다. 또한 보고서 이름이 아니라 각 보고서의 개별 페이지가 나열됩니다.
+앱 소비자가 앱을 열면, 표준 Power BI 탐색 창 대신 사용자가 만든 탐색이 표시됩니다. 앱 탐색에는 정의한 섹션에서 보고서와 대시보드가 나열됩니다. 또한 보고서 이름이 아니라 각 보고서의 개별 페이지가 나열됩니다.
 
 ![탐색이 있는 앱](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
@@ -203,4 +202,4 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 * [Power BI에서 앱 설치 및 사용](consumer/end-user-apps.md)
 * [외부 서비스용 Power BI 앱](service-connect-to-services.md)
 * [Power BI 관리 포털](https://docs.microsoft.com/power-bi/service-admin-portal)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -2,19 +2,18 @@
 title: iOS용 Power BI 모바일 앱 시작
 description: 온-프레미스 및 클라우드에서 비즈니스 정보에 대한 모바일 액세스 권한을 사용하여 iOS 앱용 Microsoft Power BI 모바일 앱이 Power BI를 휴대하는 방법에 대해 알아봅니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67499003"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870196"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 디바이스에서 Power BI 모바일 앱 시작
 iPhone, iPad 또는 iPod Touch의 iOS 앱용 Microsoft Power BI는 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기 적절한 데이터를 최신 상태로 유지합니다.  
@@ -31,7 +30,7 @@ Power BI Desktop에서 Power BI 보고서를 만들고 게시합니다.
 [Power BI 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)을 알아보세요.
 
 ## <a name="download-the-app"></a>앱 다운로드
-[iOS 앱 다운로드]Apple 앱 스토어에서 iPhone, iPad 또는 iPod Touch로 (http://go.microsoft.com/fwlink/?LinkId=522062 "iOS 앱을 다운로드")합니다.
+Apple App Store에서 iPhone, iPad 또는 iPod Touch로 [iOS 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkId=522062 "iOS 앱 다운로드")합니다.
 
 iOS 11 이상을 실행하는 모든 디바이스에서 iOS용 Power BI 앱을 실행할 수 있습니다. 
 
@@ -75,7 +74,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 콘텐츠 찾기
 대시보드 및 보고서는 Power BI 모바일 앱에서 출처에 따라 다른 위치에 저장됩니다. [모바일 앱에서 콘텐츠 찾기](mobile-apps-quickstart-view-dashboard-report.md)에 대해 읽습니다. 또한 Power BI 모바일 앱에 있는 항목에 대해 항상 검색할 수 있습니다. 
 
-![왼쪽 탐색 창](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+![탐색 창](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
 [모바일 앱에서 콘텐츠 찾기](mobile-apps-quickstart-view-dashboard-report.md)에 대해 읽습니다.
 
@@ -84,7 +83,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 
 * **즐겨찾기**를 누릅니다.
   
-   ![왼쪽 탐색 창의 즐겨찾기](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
+   ![탐색 창의 즐겨찾기](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
   
    이 페이지에 모든 즐겨찾기를 함께 표시합니다.
   
@@ -109,7 +108,7 @@ Microsoft Intune을 사용하면 액세스 핀이 필요하고, 애플리케이�
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI란?](../../power-bi-overview.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* [Power BI란?](../../fundamentals/power-bi-overview.md)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 
 

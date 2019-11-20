@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/28/2019
+ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: a6595389a95cbf434bc9deb9f1560f6157910ceb
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655045"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060986"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -30,11 +30,43 @@ ms.locfileid: "69655045"
 * [Microsoft Power BI(YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>2019년 5월
-* Power BI 앱의 [사용자 지정 검색](service-create-distribute-apps.md).
-* 페이지를 매긴 보고서 내에서 메일 구독에 사용할 수 있는 추가 첨부 파일 유형(PPTX, XLSX, DOCX, CSV, XML)입니다.
+### <a name="october-2019"></a>2019년 10월
+* Power BI 데이터 세트를 새로 고치는 새 Microsoft Flow 작업
+* Power BI 서비스에 있는 보고서 및 대시보드의 [연락처 목록](https://powerbi.microsoft.com/en-us/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)
 
 ## <a name="previous-months-2019"></a>이전 달(2019년)
+### <a name="september-2019"></a>2019년 9월
+* [템플릿 앱](service-template-apps-overview.md)의 연결 구성 업데이트
+
+### <a name="august-2019"></a>2019년 8월
+* Power BI Premium의 새 용량 설정
+* 조직의 [사용자 지정 브랜딩](https://powerbi.microsoft.com/en-us/blog/announcing-custom-branding-for-your-organization/)
+* 빌드 권한을 사용한 요약된 데이터 내보내기
+* [페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md)의 URL 매개 변수 지원
+* 월별 메일 구독 지원 
+
+### <a name="july-2019"></a>2019년 7월
+* [페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md)의 비프리미엄 데이터 세트 지원
+* Power BI [집계](desktop-aggregations.md) 일반 공급
+* 다른 사람에게 새로 고침 알림 보내기
+* Power BI Premium 용량의 [테스트 도구](https://powerbi.microsoft.com/en-us/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/)
+* [서비스 가용성 알림](https://powerbi.microsoft.com/en-us/blog/power-bi-introduces-service-availability-notifications/) 공개 미리 보기
+* Power BI 보고서의 [새 모양](https://powerbi.microsoft.com/en-us/blog/introducing-the-new-look-for-power-bi-service/) 공개 미리 보기
+* 남아프리카 공화국의 새 Power BI 지역
+
+### <a name="june-2019"></a>2019년 6월
+* [공유 및 인증된 데이터 세트](service-datasets-across-workspaces.md) 공개 미리 보기
+* [프리미엄 용량 메트릭 앱](service-admin-premium-monitor-capacity.md)에서 AI 메트릭 사용 가능
+* Power BI [템플릿 앱](service-template-apps-overview.md) 일반 공급
+* Power BI의 [페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md) 일반 공급
+* Power BI Premium의 [BYOK](service-encryption-byok.md)(Bring Your Own Key) 공개 미리 보기
+* [새 작업 영역 환경](service-new-workspaces.md)의 뷰어 역할
+
+### <a name="may-2019"></a>2019년 5월
+* Power BI 앱의 [사용자 지정 검색](service-create-distribute-apps.md).
+* 페이지를 매긴 보고서 내에서 메일 구독에 사용할 수 있는 추가 첨부 파일 유형(PPTX, XLSX, DOCX, CSV, XML)입니다.
+* 서비스에서 Power BI 보고서에 [주석 달기](https://powerbi.microsoft.com/en-us/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)
+
 ### <a name="april-2019"></a>2019년 4월
 * Power BI [데이터 흐름](service-dataflows-overview.md)의 일반 공급.
 * 새 작업 영역 환경의 일반 공급입니다.
@@ -68,7 +100,7 @@ ms.locfileid: "69655045"
 * Power BI 서비스의 [개인 책갈피](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/).
 * 이메일 구독을 통한 시간 기반 일정.
 
-## <a name="2018"></a>2018
+## <a name="2018"></a>2018년
 ### <a name="december-2018"></a>2018년 12월
 * Power BI 홈의 AI 기반 [권장 앱](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/).
 * 관리 포털의 [작업 영역 관리](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/).
@@ -731,7 +763,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 * Onedrive를 사용한 새로 고침 안정성이 향상되었습니다.  OneDrive로부터 통합 문서가 새로 고쳐지지 않은 일부 경우가 해결되었습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI란?](power-bi-overview.md)  
+[Power BI란?](fundamentals/power-bi-overview.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
 

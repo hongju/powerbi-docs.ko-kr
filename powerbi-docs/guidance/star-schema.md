@@ -2,19 +2,18 @@
 title: 별모양 스키마 및 Power BI에서의 중요성 이해
 description: 별모양 스키마와 성능 및 유용성에 최적화된 Power BI 데이터 모델 개발과의 관련성을 이해합니다.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4af7a6305ace9113e912f0ad1527064c505f0ca8
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 42da2dd74d80d2a68cf38c8d35ee4e500d6780d8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715500"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875595"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>별모양 스키마 및 Power BI에서의 중요성 이해
 
@@ -112,7 +111,7 @@ Power BI Desktop에서 원본 데이터에 따라 눈송이 차원 디자인을 
 
 ## <a name="slowly-changing-dimensions"></a>느린 변경 차원
 
-SCD(**느린 변경 차원**)는 시간에 따른 차원 멤버의 변경 내용을 적절하게 관리하는 차원입니다. 비즈니스 엔터티 값이 시간에 따라 임시로 변경되는 경우에 적용됩니다. ‘느린’ 변경 차원의 좋은 예로 고객 차원, 특히 메일 주소 및 전화 번호와 같은 연락처 정보 열이 있습니다.  반면, 일부 차원은 주식 시장 가격과 같이 차원 특성이 자주 변경되는 경우 _신속하게_ 변경되는 것으로 간주됩니다. 이러한 경우의 일반적인 디자인 방법은 신속하게 변경되는 특성 값을 팩트 테이블 측정값에 저장하는 것입니다.
+SCD(**느린 변경 차원**)는 시간에 따른 차원 멤버의 변경 내용을 적절하게 관리하는 차원입니다. 비즈니스 엔터티 값이 시간에 따라 임시로 변경되는 경우에 적용됩니다. ‘느린’ 변경 차원의 좋은 예로 고객 차원, 특히 메일 주소 및 전화 번호와 같은 연락처 정보 열이 있습니다. 반면, 일부 차원은 주식 시장 가격과 같이 차원 특성이 자주 변경되는 경우 _신속하게_ 변경되는 것으로 간주됩니다. 이러한 경우의 일반적인 디자인 방법은 신속하게 변경되는 특성 값을 팩트 테이블 측정값에 저장하는 것입니다.
 
 별모양 스키마 디자인 이론은 유형 1과 유형 2의 두 가지 일반적인 SCD 유형을 나타냅니다. 차원 유형 테이블은 유형 1 또는 유형 2이거나, 여러 다른 열에 대해 두 유형을 동시에 지원할 수도 있습니다.
 
@@ -194,7 +193,7 @@ Power BI 모델에서 판매 주문 번호를 기준으로 필터링하거나 �
 
 팩트리스 팩트 테이블의 더 매력적인 용도는 차원 간의 관계를 저장하는 것으로, 다대다 차원 관계를 정의하는 데 권장되는 Power BI 모델 디자인 방법입니다. 다대다 차원 관계 디자인에서는 팩트리스 팩트 테이블을 _브리징 테이블_이라고 합니다.
 
-예를 들어 영업 사원이 하나 ‘이상’의 판매 지역에 할당될 수 있습니다.  브리징 테이블은 영업 사원 키와 지역 키라는 두 개의 열로 구성된 팩트리스 팩트 테이블로 디자인됩니다. 중복 값이 두 열에 모두 저장될 수 있습니다.
+예를 들어 영업 사원이 하나 ‘이상’의 판매 지역에 할당될 수 있습니다. 브리징 테이블은 영업 사원 키와 지역 키라는 두 개의 열로 구성된 팩트리스 팩트 테이블로 디자인됩니다. 중복 값이 두 열에 모두 저장될 수 있습니다.
 
 ![팩트리스 팩트 테이블 예제](media/star-schema/factless-fact.png)
 

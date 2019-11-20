@@ -2,7 +2,6 @@
 title: Power BI에서 라이브 연결로 질문 및 답변 사용
 description: Analysis Services 데이터 및 온-프레미스 데이터 게이트웨이에 대한 라이브 연결로 Power BI 질문 및 답변 자연어 쿼리 사용에 대한 설명서입니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 59c9488def297537cc2ea944f6c0fc4f59ba29ba
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 8bb3597d2877376431a2249428e88d56bee2c0a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720896"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871804"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Power BI에서 라이브 연결에 대한 질문 및 답변 사용
 ## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>온-프레미스 데이터 게이트웨이란?  라이브 연결이란?
@@ -66,5 +65,5 @@ Power BI 질문 및 답변은 데이터 원본에서 텍스트 및 스키마 값
 - [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)  
 - [Power BI 질문 및 답변 개요](consumer/end-user-q-and-a.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

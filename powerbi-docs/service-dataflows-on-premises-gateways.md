@@ -2,7 +2,6 @@
 title: 온-프레미스 데이터 원본으로 만든 데이터 흐름 사용
 description: 데이터 흐름에서 온-프레미스 데이터를 사용하는 방법 알아보기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81dfc6961ff0c00b609f98e50da3532a230cf26d
-ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
+ms.openlocfilehash: 53124f2b1ede9d8a9c3a9866416f713af1fd2061
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61136166"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877261"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>온-프레미스 데이터 원본으로 만든 데이터 흐름 사용
 

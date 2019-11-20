@@ -2,7 +2,6 @@
 title: Power BI와 함께 사용 가능한 샘플 둘러보기
 description: Power BI의 샘플 콘텐츠 팩, PBIX 파일 및 Excel 데이터 세트
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721488"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858983"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI와 함께 사용 가능한 샘플 데이터는 무엇입니까?
 Power BI를 처음 접하고, 사용해 보고 싶지만 데이터가 없는 경우가 있습니다.  또는 데이터 세트가 있을 수도 있습니다. Power BI의 작동 원리를 아직 잘 모르기 때문에 데이터 세트가 조금이라도 손상될까봐 걱정하는 분들이 있습니다.
@@ -116,16 +115,16 @@ ObviEnce는 Microsoft Business Intelligence에 주력하는 ISV이자 IP(Intelle
 ## <a name="the-power-bi-samples-as-excel-files"></a>Excel 파일 형식의 Power BI 샘플
 각 샘플 콘텐츠 팩은 Excel 통합 문서로도 제공됩니다. Excel 통합 문서는 Power BI 서비스와 함께 사용할 수 있게 설계되었습니다.  
 
-1. 아래 링크에서 파일을 개별적으로 다운로드하거나 [모든 샘플 파일의 zip 파일을 다운로드](http://go.microsoft.com/fwlink/?LinkId=535020)합니다. 고급 사용자는 Excel 통합 문서를 다운로드하여 데이터 모델을 탐색하거나 편집할 수 있습니다.
+1. 아래 링크에서 파일을 개별적으로 다운로드하거나 [모든 샘플 파일의 zip 파일을 다운로드](https://go.microsoft.com/fwlink/?LinkId=535020)합니다. 고급 사용자는 Excel 통합 문서를 다운로드하여 데이터 모델을 탐색하거나 편집할 수 있습니다.
 
-   * [소매점 분석 샘플](http://go.microsoft.com/fwlink/?LinkId=529778)
-   * [공급업체 품질 분석 샘플](http://go.microsoft.com/fwlink/?LinkId=529779)
-   * [인적 자원 샘플](http://go.microsoft.com/fwlink/?LinkId=529780)
-   * [고객 수익성 샘플](http://go.microsoft.com/fwlink/?LinkId=529781)
-   * [기회 추적 샘플](http://go.microsoft.com/fwlink/?LinkId=529782)
-   * [IT 지출 분석 샘플](http://go.microsoft.com/fwlink/?LinkId=529783)
-   * [조달 분석 샘플](http://go.microsoft.com/fwlink/?LinkId=529784)
-   * [영업 및 마케팅 샘플](http://go.microsoft.com/fwlink/?LinkId=529785)
+   * [소매점 분석 샘플](https://go.microsoft.com/fwlink/?LinkId=529778)
+   * [공급업체 품질 분석 샘플](https://go.microsoft.com/fwlink/?LinkId=529779)
+   * [인적 자원 샘플](https://go.microsoft.com/fwlink/?LinkId=529780)
+   * [고객 수익성 샘플](https://go.microsoft.com/fwlink/?LinkId=529781)
+   * [기회 추적 샘플](https://go.microsoft.com/fwlink/?LinkId=529782)
+   * [IT 지출 분석 샘플](https://go.microsoft.com/fwlink/?LinkId=529783)
+   * [조달 분석 샘플](https://go.microsoft.com/fwlink/?LinkId=529784)
+   * [영업 및 마케팅 샘플](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. 다운로드한 파일을 저장합니다. 파일을 저장하는 위치에 따라 차이가 발생합니다.
 
    * ![로컬](media/sample-datasets/power-bi-local-file2.png) **로컬** - 파일을 사용자 컴퓨터의 로컬 드라이브 또는 조직의 다른 위치에 저장하는 경우 Power BI에서 파일을 Power BI로 가져올 수 있습니다. 파일은 실제로 로컬 드라이브에 그대로 남아 있으므로, 전체 파일을 Power BI로 가져온 것은 아닙니다. 새 데이터 세트가 Power BI에서 만들어지고 데이터 및 경우에 따라 데이터 모델이 데이터 세트로 로드됩니다. 파일에 보고서가 있는 경우 해당 보고서는 보고서 아래의 Power BI 사이트에 나타납니다.
@@ -154,7 +153,7 @@ ObviEnce는 Microsoft Business Intelligence에 주력하는 ISV이자 IP(Intelle
 
     ![가져오기 또는 연결](media/sample-datasets/power-bi-import.png)
 9. **가져오기**를 선택하면 Power BI에서 샘플 통합 문서를 가져와 **조달 분석 샘플**이라는 새 데이터 세트로 추가합니다.  통합 문서에 파워 뷰 시트, 테이블 또는 범위나 데이터 모델이 있을 경우 Power BI에서 같은 이름의 보고서도 만듭니다. 열려 있는 대시보드가 아직 없을 경우 Power BI에서 새 대시보드를 만듭니다. (**데이터 가져오기**를 클릭할 때 대시보드가 열려 있으면 해당 대시보드에 새 빈 타일이 표시됩니다.  해당 타일을 클릭하면 방금 추가한 데이터 세트에 대한 보고서로 이동합니다). 새 콘텐츠에는 샘플의 이름을 딴 이름이 지정되며, 노란색 별표가 표시됩니다.
-10. **데이터 세트가 준비되었습니다!** 화면이 나타나면 **데이터 세트 보기** 또는 **빠른 인사이트 가져오기**를 선택하거나 Power BI 왼쪽 탐색 모음을 사용하여 연결된 보고서 또는 대시보드를 엽니다.  
+10. **데이터 세트가 준비되었습니다!** 화면이 나타나면 **데이터 세트 보기** 또는 **빠른 인사이트 가져오기**를 선택하거나 Power BI 탐색 창을 사용하여 연결된 보고서 또는 대시보드를 엽니다.  
 
      ![데이터 세트 보기](media/sample-datasets/power-bi-ready.png)
 
@@ -176,15 +175,15 @@ Excel 통합 문서의 데이터가 Power BI 데이터 세트 및 보고서로 �
 
 1. 아래에 있는 링크를 사용하여 파일을 개별적으로 다운로드하세요. 이러한 링크를 선택하면 파일을 다운로드 폴더에 자동으로 저장합니다. 
 
-   * [소매점 분석 샘플 PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-   * [공급업체 품질 분석 샘플 PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
+   * [소매점 분석 샘플 PBIX](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [공급업체 품질 분석 샘플 PBIX](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    <!-- Previous link doesn't work -->
-   * [인적 자원 샘플 PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
-   * [고객 수익성 샘플 PBIX](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
-   * [기회 추적 샘플 PBIX](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
-   * [IT 지출 분석 샘플 PBIX](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
-   * [조달 분석 샘플 PBIX](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
-   * [영업 및 마케팅 샘플 PBIX](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+   * [인적 자원 샘플 PBIX](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [고객 수익성 샘플 PBIX](https://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [기회 추적 샘플 PBIX](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [IT 지출 분석 샘플 PBIX](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [조달 분석 샘플 PBIX](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [영업 및 마케팅 샘플 PBIX](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 1. Power BI Desktop에서 **파일 > 열기**를 선택하고 .pbix 샘플을 저장한 위치로 이동합니다.
 
@@ -198,4 +197,4 @@ Excel 통합 문서의 데이터가 Power BI 데이터 세트 및 보고서로 �
 
 [Power BI용 데이터 원본](service-get-data.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

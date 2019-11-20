@@ -3,19 +3,18 @@ title: Azure 및 Power BI
 description: Azure 및 Power BI
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 9d48054e4b41c097d51522ad7596b750bd067e6d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513312"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873236"
 ---
 # <a name="azure-and-power-bi"></a>Azure 및 Power BI
 
@@ -31,7 +30,7 @@ Azure SQL Database에 연결을 시작하고 비즈니스의 진행률을 모니
 
 ![SQL-PBI](media/service-azure-and-power-bi/azure_2_sqltopbi.png)
 
-[Azure SQL Database](http://azure.microsoft.com/services/sql-database/)에 대해 자세히 알아볼 수 있는 많은 정보가 있습니다.
+[Azure SQL Database](https://azure.microsoft.com/services/sql-database/)에 대해 자세히 알아볼 수 있는 많은 정보가 있습니다.
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>클라우드 데이터 변환, 구체화 및 병합
 
@@ -43,13 +42,13 @@ Azure SQL Database에 연결을 시작하고 비즈니스의 진행률을 모니
 
 자세한 내용은 다음 리소스를 살펴보세요.
 
-* [Azure SQL Database](http://azure.microsoft.com/services/sql-database/)
-* [Azure HDInsight](http://azure.microsoft.com/services/hdinsight/)
-* [Azure Storage](http://azure.microsoft.com/services/storage/)(Blob Storage 및 Table Storage)
+* [Azure SQL Database](https://azure.microsoft.com/services/sql-database/)
+* [Azure HDInsight](https://azure.microsoft.com/services/hdinsight/)
+* [Azure Storage](https://azure.microsoft.com/services/storage/)(Blob Storage 및 Table Storage)
 
 ## <a name="get-complex-and-ahead-using-azure-services-and-power-bi"></a>Azure 서비스와 Power BI를 사용하여 복잡한(및 미리) 가져오기
 
-Azure와 Power BI를 사용하여 필요한 만큼 확장할 수 있습니다. 다중 소스 데이터 처리 기능을 활용하고, 대규모 실시간 시스템을 사용하고, [Stream Analytics](http://azure.microsoft.com/services/stream-analytics/) 및 [Event Hubs](http://azure.microsoft.com/services/event-hubs/)를 사용하고, 경쟁 우위를 얻을 수 있는 비즈니스 인텔리전스 보고서로 다양한 SaaS 서비스를 병합합니다.
+Azure와 Power BI를 사용하여 필요한 만큼 확장할 수 있습니다. 다중 소스 데이터 처리 기능을 활용하고, 대규모 실시간 시스템을 사용하고, [Stream Analytics](https://azure.microsoft.com/services/stream-analytics/) 및 [Event Hubs](https://azure.microsoft.com/services/event-hubs/)를 사용하고, 경쟁 우위를 얻을 수 있는 비즈니스 인텔리전스 보고서로 다양한 SaaS 서비스를 병합합니다.
 
 ![Azure 복합](media/service-azure-and-power-bi/azure_4_complex.png)
 
@@ -57,7 +56,7 @@ Azure와 Power BI를 사용하여 필요한 만큼 확장할 수 있습니다. �
 
 애플리케이션, 웹 사이트, 포털 등의 멋진 대화형 데이터 시각화를 포함하여 비즈니스 데이터를 활용합니다. [Power BI Embedded를 Azure의 리소스로](https://azure.microsoft.com/services/power-bi-embedded/) 사용하면 대화형 보고서와 대시보드를 손쉽게 포함할 수 있으며, 사용자는 다양한 디바이스에서 일관되고 재현성이 높은 환경을 이용할 수 있습니다.  분석 포함에 Power BI를 사용하면 데이터 -> 지식 -> 인사이트 -> 작업의 구매 경험에서 도움을 받을 수 있습니다.  또한 [조직의 내부 애플리케이션 및 포털](https://powerbi.microsoft.com/developers/embedded-analytics/organization/)에 분석을 포함하여 Power BI 및 Azure의 가치를 확장할 수 있습니다.
 
-[Power BI 개발자 포털](http://dev.powerbi.com)에는 Power BI API에 대한 많은 정보가 있습니다.
+[Power BI 개발자 포털](https://dev.powerbi.com)에는 Power BI API에 대한 많은 정보가 있습니다.
 
 자세한 내용은 [개발자는 Power BI로 무엇을 할 수 있나요?](developer/what-can-you-do.md)를 참조하세요.
 

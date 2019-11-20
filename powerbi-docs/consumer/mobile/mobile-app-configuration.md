@@ -2,19 +2,18 @@
 title: Power BI iOS 앱 구성 설정
 description: MDM 도구를 사용하여 iOS용 Power BI의 동작을 사용자 지정하는 방법
 author: paulinbar
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: bc9c6dd8cd892ab0304cc5a99a3bb780486f32f0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c2d619489b042e523c559a16dab249b268389cd5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70160150"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879425"
 ---
 # <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>MDM(모바일 디바이스 관리) 도구를 사용하여 Power BI iOS 앱을 원격으로 구성
 
@@ -61,6 +60,6 @@ Intune 포털을 사용하면 관리자가 앱 구성 정책을 통해 Power BI 
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI iPhone 모바일 앱](http://go.microsoft.com/fwlink/?LinkId=522062) 다운로드
+* [Power BI iPhone 모바일 앱](https://go.microsoft.com/fwlink/?LinkId=522062) 다운로드
 * [@MSPowerBI Twitter](https://twitter.com/MSPowerBI)에서 팔로우
-* [Power BI 커뮤니티](http://community.powerbi.com/)에서 대화에 참여
+* [Power BI 커뮤니티](https://community.powerbi.com/)에서 대화에 참여

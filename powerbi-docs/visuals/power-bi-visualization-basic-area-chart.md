@@ -2,7 +2,6 @@
 title: 기본 영역형 차트
 description: 기본 영역형 차트입니다.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b7a4021999a39d88b78d31aaa55d7f9c08a93d8e
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: ccba97d7fc4df050b9685dd9c2a69af36f62a485
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544176"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880964"
 ---
 # <a name="basic-area-chart"></a>기본 영역형 차트
 
@@ -34,7 +33,7 @@ ms.locfileid: "72544176"
 * 물리적으로 셀 수 있는 집합을 나타내는 개별 계열
 
 ### <a name="prerequisites"></a>필수 조건
-이 자습서는 [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
+이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
 1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
    

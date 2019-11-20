@@ -2,7 +2,6 @@
 title: Power BI Desktop의 관계 보기
 description: Power BI Desktop의 관계 보기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a947b5c0b957336f02d3ec2e27d2bfd36b36c639
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a39f675077d72698b62138aa1b9d56c5bf6a6958
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514367"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877832"
 ---
 # <a name="relationship-view-in-power-bi-desktop"></a>Power BI Desktop의 관계 보기
 **관계 보기**는 모델의 모든 테이블, 열 및 관계를 표시합니다. 이는 모델이 여러 테이블 간의 복잡한 관계를 가지고 있는 경우 특히 유용합니다.

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61143947"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432064"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI에서 데이터 흐름 만들기 및 사용
 
 **Power BI**에서 사용할 수 있는 고급 데이터 준비를 통해 데이터 흐름이라는 데이터 컬렉션을 만들고, 이 데이터 흐름을 사용하여 다양한 원본의 비즈니스 데이터와 연결하고, 데이터를 정리하고 변환한 후 Power BI 스토리지로 로드할 수 있습니다.
 
-**데이터 흐름**은 Power BI 서비스의 앱 작업 영역에서 만들고 관리하는 ‘엔터티’(엔터티는 테이블과 유사함) 컬렉션입니다.  데이터 흐름이 만들어진 작업 영역에서 직접 데이터 흐름의 엔터티를 추가 및 편집할 수 있고 데이터 새로 고침 일정도 관리할 수 있습니다.
+**데이터 흐름**은 Power BI 서비스의 작업 영역에서 만들고 관리하는 ‘엔터티’(엔터티는 테이블과 유사함) 컬렉션입니다. 데이터 흐름이 만들어진 작업 영역에서 직접 데이터 흐름의 엔터티를 추가 및 편집할 수 있고 데이터 새로 고침 일정도 관리할 수 있습니다.
 
 데이터 흐름을 만들면 **Power BI Desktop** 및 **Power BI 서비스**를 사용하여 Power BI 데이터 흐름에 지정하는 데이터를 기반으로 한 데이터 세트, 보고서, 대시보드 및 앱을 만들 수 있으므로 비즈니스 활동에 대한 인사이트를 얻을 수 있습니다.
 
@@ -36,13 +36,13 @@ ms.locfileid: "61143947"
 다음 섹션에서는 이러한 단계를 각각 살펴보고 각 단계를 완료하도록 제공되는 도구에 익숙해지도록 합니다. 설명하겠습니다.
 
 ## <a name="creating-a-dataflow"></a>데이터 흐름 만들기
-데이터 흐름을 만들려면 브라우저에서 Power BI 서비스를 시작하고 다음 화면에 표시된 것처럼 왼쪽 탐색 창에서 **앱 작업 영역**을 선택합니다(Power BI 서비스의 *my-workspace*에서는 데이터 흐름을 사용할 수 없음). 새 데이터 흐름을 만들 새 작업 영역을 만들 수도 있습니다. 
+데이터 흐름을 만들려면, 브라우저에서 Power BI 서비스를 시작하고 다음 화면에 표시된 것처럼 왼쪽 탐색 창에서 **작업 영역**을 선택합니다(Power BI 서비스의 *my-workspace*에서는 데이터 흐름을 사용할 수 없음). 새 데이터 흐름을 만들 새 작업 영역을 만들 수도 있습니다. 
 
 ![Power BI에서 데이터 흐름 만들기](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
-데이터 흐름을 만들 수 있는 **앱 작업 영역**에 있는 경우 캔버스 오른쪽 상단 모서리에 **+ 만들기** 단추가 나타납니다. **+ 만들기** 단추를 선택하고 드롭다운 목록에서 **데이터 흐름**을 선택합니다. 
+데이터 흐름을 만들 수 있는 **작업 영역**에 있는 경우, 캔버스 오른쪽 위에 **+ 만들기** 단추가 표시됩니다. **+ 만들기** 단추를 선택하고 드롭다운 목록에서 **데이터 흐름**을 선택합니다. 
 
-데이터 흐름에는 ‘한 명의 소유자’만 있으며, 소유자는 데이터 흐름을 만든 사람입니다.  소유자만 데이터 흐름을 편집할 수 있습니다. 데이터 흐름이 만들어진 앱 작업 영역에 대한 읽기 또는 쓰기 권한이 있는 **앱 작업 영역**의 모든 구성원은 이 문서의 뒷부분에 설명된 대로 **Power BI Desktop** 내에서 데이터 흐름에 연결할 수 있습니다.
+데이터 흐름에는 ‘한 명의 소유자’만 있으며, 소유자는 데이터 흐름을 만든 사람입니다. 소유자만 데이터 흐름을 편집할 수 있습니다. 데이터 흐름이 만들어진 작업 영역에 대한 읽기 또는 쓰기 권한이 있는 **작업 영역**의 모든 구성원은 이 문서의 뒷부분에 설명된 대로 **Power BI Desktop** 내에서 데이터 흐름에 연결할 수 있습니다.
 
 ![데이터 흐름을 만드는 Power BI 서비스의 + 만들기 단추](media/service-dataflows-create-use/dataflows-create-use_03a.png)
 
@@ -111,11 +111,11 @@ ms.locfileid: "61143947"
 
 데이터 흐름이 저장되면 연결된 각 데이터 원본의 새로 고침 빈도를 예약합니다.
 
-Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 사용하여 데이터를 최신 버전으로 유지합니다. **Power BI 서비스**의 **앱 작업 영역** 섹션에는 다음 이미지에 표시된 것처럼 데이터 흐름을 포함한 정보를 나열할 수 있는 영역 컬렉션이 있습니다.
+Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 사용하여 데이터를 최신 버전으로 유지합니다. **Power BI 서비스**의 **작업 영역** 섹션에는 다음 이미지와 같이 데이터 흐름을 포함한 정보가 나열될 수 있는 영역 컬렉션이 있습니다.
 
 ![Power BI 서비스에서 데이터 흐름 관리](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
-이전 이미지의 ‘Dynamics 데이터 흐름’ 항목은 이전 섹션에서 만든 데이터 흐름입니다.  새로 고침을 예약하려면 다음 이미지에 표시된 대로 **작업** 섹션에서 **새로 고침 예약** 아이콘을 선택합니다. 
+이전 이미지의 ‘Dynamics 데이터 흐름’ 항목은 이전 섹션에서 만든 데이터 흐름입니다. 새로 고침을 예약하려면 다음 이미지에 표시된 대로 **작업** 섹션에서 **새로 고침 예약** 아이콘을 선택합니다. 
 
 ![작업 섹션의 새로 고침 예약 단추](media/service-dataflows-create-use/dataflows-create-use_13.png)
 
@@ -134,7 +134,7 @@ Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 �
 
 ![Power BI Desktop에서 데이터 흐름에 연결](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
-여기서 데이터 흐름을 저장한 **앱 작업 영역**으로 이동하여 데이터 흐름을 선택하고 만든 엔터티를 목록에서 선택합니다.
+여기서 데이터 흐름을 저장한 **작업 영역**으로 이동하여 데이터 흐름을 선택한 다음, 목록에서 만든 엔터티를 선택합니다.
 
 창 위쪽에 있는 **검색 창**을 사용하여 여러 데이터 흐름 엔터티에서 해당 데이터 흐름 또는 엔터티의 이름을 빠르게 찾을 수도 있습니다.
 
@@ -153,7 +153,7 @@ Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 �
 
 * **SharePoint 커넥터** - 하위 폴더 또는 문서가 없는 SharePoint 사이트 루트 주소를 제공해야 합니다. 예를 들어 다음과 유사한 링크를 사용하세요. https://microsoft.sharepoint.com/teams/ObjectModel/ 
 
-* **JSON 파일 커넥터** - 현재 기본 인증만 사용하여 JSON 파일에 연결할 수 있습니다.  URL 내에서 자격 증명을 입력하여 JSON 파일에 연결(예: https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. )하는 작업은 현재 지원되지 **않습니다**.  
+* **JSON 파일 커넥터** - 현재 기본 인증만 사용하여 JSON 파일에 연결할 수 있습니다.  URL 내에서 자격 증명을 입력하여 JSON 파일에 연결(예: https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg..)하는 작업은 현재 지원되지 **않습니다**.  
 
 * **Azure SQL Data Warehouse** - 데이터 흐름은 현재 Azure SQL Data Warehouse에서 AAD(Azure Active Directory) 인증을 지원하지 않습니다. 이 시나리오에서 기본 인증을 사용하세요.
 

@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141705"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019791"
 ---
 # <a name="your-content-is-up-to-date"></a>콘텐츠가 최신 상태입니다.
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 *소비자*는 *디자이너*가 만들고 사용자와 공유하는 콘텐츠와 상호 작용합니다. 해당 콘텐츠가 최신 상태인지 궁금하거나 콘텐츠가 마지막으로 새로 고침되었는지 알고 싶을 수도 있습니다. 최신 콘텐츠를 사용하고 있다는 것을 알고 있으면 자신감이 생깁니다.  
  
 ![Power BI 대시보드](media/end-user-fresh/power-bi-dashboards.png)
@@ -63,7 +66,7 @@ ms.locfileid: "71141705"
 ### <a name="dashboard-tiles"></a>대시보드 타일
 대시보드 타일의 경우 포커스 모드에서 타일을 보고 마지막 새로 고침 타임스탬프를 확인합니다.
 
-1. 대시보드 타일에서 줄임표(...)를 선택하고 **포커스 모드로 열기**를 선택합니다.
+1. 대시보드 타일에서 **추가 옵션**(...)을 선택한 다음, **포커스 모드에서 열기**를 선택합니다.
 
     ![줄임표를 선택한 후 나타나는 메뉴](media/end-user-fresh/power-bi-focus-mode.png)
 
@@ -72,7 +75,7 @@ ms.locfileid: "71141705"
     ![마지막 새로 고침을 표시하는 넓은 브라우저](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>대시보드 및 보고서
-마지막 새로 고침 날짜를 조회하는 또 다른 방법은 **관련 항목 보기**를 사용하는 것입니다.  Power BI 상단 메뉴 모음에서 줄임표(...)를 선택하여 **관련 항목 보기**를 사용할 수 있습니다.
+마지막 새로 고침 날짜를 조회하는 또 다른 방법은 **관련 항목 보기**를 사용하는 것입니다.  Power BI 위쪽 메뉴 모음에서 **추가 옵션**(...)을 선택하면 **관련 항목 보기**를 사용할 수 있습니다.
 
 ![메뉴에서 관련 항목 보기 선택](media/end-user-fresh/power-bi-view-related-dropdown.png)
 

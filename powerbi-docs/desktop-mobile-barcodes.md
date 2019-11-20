@@ -3,18 +3,17 @@ title: 모바일 앱용 Power BI Desktop에서 바코드 필드 태그
 description: Power BI Desktop에서 모델의 바코드 필드에 태그를 지정하면 iPhone의 Power BI 앱에서 바코드에 대한 데이터를 자동으로 필터링할 수 있습니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
-ms.openlocfilehash: 43d722e6667114ce5c3705270a0b55b541685108
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d2b034d6e58f98169a5b1b260571001d5a929f28
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61293594"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866601"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>모바일 앱용 Power BI Desktop에서 바코드 태그
 
@@ -48,5 +47,5 @@ Power BI Desktop에서는 열의 [데이터 범주](desktop-data-categorization.
 * [iPhone에서 Power BI 앱의 바코드 스캔](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
 * [iPhone에서 바코드 스캔 문제](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Power BI Desktop의 데이터 분류](desktop-data-categorization.md)  
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

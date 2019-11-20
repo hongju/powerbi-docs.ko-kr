@@ -2,7 +2,6 @@
 title: Power BI Desktop에 Excel 통합 문서 가져오기
 description: Power BI Desktop에 Excel 통합 문서 가져오기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b6b74682f1c74ab78f27be857dbec42efa29347
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 96ec6349080547688914360f77cbfb2c12cb1fd8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454184"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878162"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Power BI Desktop에 Excel 통합 문서 가져오기
 **Power BI Desktop**을 사용하면 Power Query 쿼리, Power Pivot 모델, Power View 워크시트를 포함하는 Excel 통합 문서를 간편하게 Power BI Desktop에 가져올 수 있습니다. Excel 통합 문서에 따라 보고서 및 시각화가 자동으로 생성되며 가져온 후에는 기존 기능과, 각 Power BI Desktop 월별 업데이트에서 제공되는 새로운 기능을 사용하여 Power BI Desktop으로 보고서를 개선하고 구체화할 수 있습니다.

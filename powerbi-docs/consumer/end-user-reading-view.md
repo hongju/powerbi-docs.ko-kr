@@ -13,12 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: ef955f672bc7266979b1e0b9ddbab6e9b6ae1ff7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236980"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019590"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>빠른 시작: *소비자*의 Power BI 기능 알아보기
 이 빠른 시작에서는 Power BI를 조작하여 데이터 기반 비즈니스 인사이트를 검색하는 방법을 알아봅니다. 이 문서에서는 자세한 내용을 제공하는 대신 Power BI **소비자**가 사용할 수 있는 다양한 작업을 빠르게 둘러볼 수 있습니다.
@@ -31,7 +31,7 @@ Power BI는 관련 없는 데이터 원본을 시각적으로 몰입도가 뛰�
 ![앱 가져오기 아이콘](./media/end-user-reading-view/power-bi-conceptual.png)
 
 ## <a name="reading-view"></a>읽기용 보기
-읽기용 보기는 보고서 ‘소비자’를 위해 Power BI 서비스에서 제공됩니다.  동료가 보고서, 대시보드 또는 앱을 공유하면 읽기용 보기를 사용하여 보고서를 살펴보고 조작할 수 있습니다. 
+읽기용 보기는 보고서 ‘소비자’를 위해 Power BI 서비스에서 제공됩니다. 동료가 보고서, 대시보드 또는 앱을 공유하면 읽기용 보기를 사용하여 보고서를 살펴보고 조작할 수 있습니다. 
 
 브라우저 또는 모바일 디바이스에서 Power BI 서비스를 엽니다. 사용자와 동료가 자동으로 업데이트되고 새로 고쳐지는 신뢰할 수 있는 동일한 앱, 대시보드 및 보고서를 사용할 수 있으므로 항상 최신 콘텐츠로 작업하게 됩니다.   
 
@@ -58,7 +58,7 @@ Power BI에서 “콘텐츠”라는 용어를 사용하는 경우 보고서, �
 
 ### <a name="reports"></a>보고서
 
-Power BI 보고서는 해당 데이터 세트에서 얻은 다양한 결과 및 인사이트를 나타내는 시각적 개체가 포함된 데이터 세트에 대한 다각적인 데이터 뷰입니다. 보고서에는 단일 시각적 개체 또는 여러 페이지의 시각적 개체가 있을 수 있습니다. 보고서는 Power BI ‘디자이너’가 만들어 배포하고 ‘소비자’와 공유합니다.  
+Power BI 보고서는 해당 데이터 세트에서 얻은 다양한 결과 및 인사이트를 나타내는 시각적 개체가 포함된 데이터 세트에 대한 다각적인 데이터 뷰입니다. 보고서에는 단일 시각적 개체 또는 여러 페이지의 시각적 개체가 있을 수 있습니다. 보고서는 Power BI ‘디자이너’가 만들어 배포하고 ‘소비자’와 공유합니다.
 
 ![앱 가져오기 아이콘](./media/end-user-reading-view/power-bi-report-phone.png)
 
@@ -68,7 +68,7 @@ Power BI 보고서는 해당 데이터 세트에서 얻은 다양한 결과 및 
 
 Power BI 대시보드는 시각화를 사용하여 스토리를 전달하는 단일 페이지로, 캔버스라고도 합니다. 한 페이지로 제한되기 때문에 해당 스토리의 가장 중요한 요소만 포함할 경우 잘 디자인된 대시보드라 할 수 있습니다.
 
-대시보드에 표시되는 시각화를 타일이라고 하며, 보고서 ‘디자이너’가 대시보드에 고정합니다.  대부분의 경우, 타일을 선택하면 시각화가 생성된 보고서 페이지로 이동합니다. 
+대시보드에 표시되는 시각화를 타일이라고 하며, 보고서 ‘디자이너’가 대시보드에 고정합니다. 대부분의 경우, 타일을 선택하면 시각화가 생성된 보고서 페이지로 이동합니다. 
 
 ![앱 가져오기 아이콘](./media/end-user-reading-view/power-bi-dashboard-phone.png)
 
@@ -89,7 +89,7 @@ Power BI 서비스에서 자동으로 작업을 수행하는 두 가지 방법�
 #### <a name="subscribe-to-a-dashboard-or-report"></a>대시보드(또는 보고서) 구독
 대시보드를 모니터링하기 위해 Power BI를 열 필요가 없습니다.  대신에 구독하면 Power BI가 설정된 일정에 따라 해당 대시보드의 스냅샷을 메일로 보내 줍니다. 
 
-![구독 아이콘 선택](./media/end-user-reading-view/power-bi-subscribe-email.png)을 선택합니다.
+![구독 아이콘 선택](./media/end-user-reading-view/power-bi-subscribe-email.png).
 
  [Power BI 구독](end-user-subscribe.md)에 대한 자세한 정보
 
@@ -116,9 +116,9 @@ Power BI 서비스에서 자동으로 작업을 수행하는 두 가지 방법�
 ![세부 정보를 보려면 마우스로 가리킵니다.](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>대시보드를 즐겨찾기에 추가
-콘텐츠를 ‘즐겨찾기’로 만들면 탐색 모음에서 콘텐츠에 액세스할 수 있습니다.  탐색 모음은 Power BI의 모든 영역에 표시됩니다. 즐겨찾기는 일반적으로 가장 자주 방문하는 대시보드, 보고서 페이지 및 앱입니다.
+콘텐츠를 ‘즐겨찾기’로 만들면 탐색 모음에서 콘텐츠에 액세스할 수 있습니다. 탐색 모음은 Power BI의 모든 영역에 표시됩니다. 즐겨찾기는 일반적으로 가장 자주 방문하는 대시보드, 보고서 페이지 및 앱입니다.
 
-Power BI 서비스의 오른쪽 위에서 **즐겨찾기**를 선택하거나, 즐겨찾기가 표시되지 않는 경우 줄임표(...)를 선택하고 드롭다운에서 **즐겨찾기**를 선택합니다. 
+Power BI 서비스의 오른쪽 위에 있는 **즐겨찾기**를 선택하거나, 표시되지 않는 경우 **추가 옵션**(...)을 선택한 다음 드롭다운에서 **즐겨찾기**를 선택합니다. 
    
 ![즐겨찾기 아이콘으로 바뀝니다](./media/end-user-reading-view/power-bi-favorites.png)
 
@@ -168,7 +168,7 @@ Easily navigate between the visualizations on the report page.
 ### <a name="sort-a-visualization"></a>시각화 정렬
 보고서 페이지의 시각적 개체를 정렬하고 적용된 변경 내용과 함께 저장할 수 있습니다. 
 
-시각적 개체를 마우스로 가리켜 활성화하고 줄임표(...)를 선택하여 정렬 옵션을 엽니다.
+시각적 개체를 마우스로 가리켜 활성화하고 **추가 옵션**(...)을 선택하여 정렬 옵션을 엽니다.
 
 ![차트 정렬](media/end-user-reading-view/sort.gif) 
 
@@ -177,7 +177,7 @@ Easily navigate between the visualizations on the report page.
 ### <a name="show-the-data-used-to-create-a-visualization"></a>시각화를 만드는 데 사용된 데이터 표시
 Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. **데이터 표시**를 선택하면 Power BI는 시각화 아래(또는 옆에) 데이터를 표시합니다.
 
-시각적 개체를 활성화하고 줄임표(...)를 선택한 다음, **데이터 표시**를 선택합니다.
+시각적 개체를 활성화하고 **추가 옵션**(...)을 선택한 다음, **데이터 표시**를 선택합니다.
    
    ![데이터 표시 선택](./media/end-user-show-data/power-bi-explore-show-data.png)
 
@@ -191,7 +191,7 @@ Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구�
 
 ![data exported to PowerPoint](./media/end-user-reading-view/power-bi-export-powerpoint.png) -->
 
-‘소비자’가 Power BI 서비스에서 수행할 수 있는 몇 가지 작업을 간략하게 살펴보았습니다.   
+‘소비자’가 Power BI 서비스에서 수행할 수 있는 몇 가지 작업을 간략하게 살펴보았습니다.  
 
 ## <a name="clean-up-resources"></a>리소스 정리
 - 앱에 연결한 경우 왼쪽 탐색 모음에서 **앱**을 선택하여 앱 콘텐츠 목록을 엽니다. 삭제할 앱을 마우스로 가리키고 휴지통 아이콘을 선택합니다.

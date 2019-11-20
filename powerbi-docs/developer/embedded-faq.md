@@ -3,22 +3,21 @@ title: Power BI Embedded에 대한 질문과 대답
 description: Power BI Embedded에 대한 질문과 대답 목록을 찾아보세요.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 62b5498558b2c89a23e2ed2caf3dacdf343d3a79
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: 9e641b70c9fd6c6d378628d34413b14c59eaea23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490347"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864223"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
-* 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
+* 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](https://community.powerbi.com/).
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
 
 ## <a name="general"></a>일반
@@ -67,7 +66,7 @@ Power BI Embedded는 개발자가 임베디드 분석 솔루션을 만드는 데
 | 특정 | Power BI Embedded | Power BI Premium 용량 | Power BI Premium 용량 |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | A SKU-Azure 용량 | EM SKU-O365 용량 | P SKU-O365 용량 |
-| Power BI 앱 작업 영역의 아티팩트 포함 | 예 | 예 | 예 |
+| Power BI 작업 영역의 아티팩트 포함 | 예 | 예 | 예 |
 | 포함된 애플리케이션에서 Power BI 보고서 사용 - SaaS | 아니요 | 예 | 예 |
 | 포함된 애플리케이션에서 Power BI 보고서 사용 - PaaS | 예 | 예 | 예 |
 | SharePoint에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
@@ -76,7 +75,7 @@ Power BI Embedded는 개발자가 임베디드 분석 솔루션을 만드는 데
 | Powerbi.com 및 Power BI 모바일에서 무료 Power BI 라이선스를 사용하여 콘텐츠 액세스 | 아니요 | 아니요 | 예 |
 | MS Office 앱에 포함된 무료 Power BI 라이선스를 사용하여 콘텐츠에 액세스 | 아니요 | 예 | 예 |
 
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI는 이제 다음 세 가지 SKU를 포함할 수 있습니다. SKU, EM SKU 및 P SKU. 제 시나리오에는 어떤 용량을 구매해야 하나요?
+### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI는 이제 다음 세 가지 SKU를 포함할 수 있습니다. A SKU, EM SKU 및 P SKU. 제 시나리오에는 어떤 용량을 구매해야 하나요?
 
 |  |A SKU(Power BI Embedded)  |EM SKU(Power BI Premium)  |P SKU(Power BI Premium)  |
 |---------|---------|---------|---------|
@@ -146,7 +145,7 @@ Power BI에서는 조직 계정에 등록해야 합니다. Microsoft 계정을 �
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 솔루션에 포함된 PBI Embedded 전용 용량 역할이란?
 
-[솔루션을 프로덕션으로 승격](embed-sample-for-customers.md#move-to-production)하려면 애플리케이션에 사용되는 Power BI 콘텐츠(앱 작업 영역)를 Power BI Embedded(SKU) 용량에 할당해야 합니다.
+[솔루션 수준을 프로덕션으로 올리려면](embed-sample-for-customers.md#move-to-production) 애플리케이션에서 사용되는 Power BI 콘텐츠(작업 영역)를 Power BI Embedded(SKU) 용량에 할당해야 합니다.
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>PBI Embedded는 어떤 Azure 지역에서 사용할 수 있나요?
 
@@ -207,7 +206,7 @@ PowerBI.com을 사용하여 Power BI Embedded 용량에 작업 영역을 할당/
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>RLS(행 수준 보안)를 사용하는 것과 JavaScript 필터를 사용하는 차이는 무엇인가요?
 
-RLS와 JavaScript 필터를 사용할 때 혼란이 있는 경우가 종종 있습니다. 한 가지 방법은 특정 사용자가 볼 수 있는 것을 제어하는 것이고 다른 방법은 사용자의보기를 최적화하는 것입니다.
+RLS와 JavaScript 필터를 사용할 때 혼란이 있는 경우가 종종 있습니다. 한 가지 방법은 특정 사용자가 볼 수 있는 것을 제어하는 것이고 다른 방법은 사용자의 보기를 최적화하는 것입니다.
 
 RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데이터 필터링을 제어합니다. 최종 사용자는 ISV가 사용자에게 보도록 허용한 내용만 볼 수 있습니다. 이 경우 사용자는 필터링되는 것보다 적은 내용을 볼 수 있지만, RLS 구성을 무시하고 허용되는 것보다 더 많은 내용을 볼 수는 없습니다.
 
@@ -341,7 +340,7 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
 
 [포함 설정 도구](https://aka.ms/embedsetup)를 사용하면 샘플 애플리케이션을 신속하게 시작하고 다운로드하여 Power BI에서 포함을 시작할 수 있습니다.
 
-### <a name="which-solution-should-i-choose"></a>어떤 솔루션은 선택해야 하나요?
+### <a name="which-solution-should-i-choose"></a>어떤 솔루션을 선택해야 하나요?
 
 * [고객에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-customers) Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함하는 기능을 제공합니다. [고객에 대한 콘텐츠 포함](https://aka.ms/embedsetup/AppOwnsData) 솔루션을 실행합니다.
 * [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다. [조직에 대한 콘텐츠 포함](https://aka.ms/embedsetup/UserOwnsData) 솔루션을 실행합니다.
@@ -362,4 +361,4 @@ Azure AD에 등록된 애플리케이션을 편집하는 방법을 알아보려�
 
 자세한 내용은 [포함된 애플리케이션 문제 해결](embedded-troubleshoot.md)을 참조하세요.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

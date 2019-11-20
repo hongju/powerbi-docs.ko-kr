@@ -2,7 +2,6 @@
 title: Power BI 대시보드 보기
 description: 대시보드는 Power BI 서비스의 핵심 기능입니다. 대시보드를 열고 보는 방법을 알아보세요.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 629db8e4706bfb42f3f1b3ad65b8a57577d7ee21
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: f250d380fc8938f7b5d7723b5b8becb65f27d79d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716379"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852596"
 ---
 # <a name="view-a-dashboard"></a>대시보드 보기
 
@@ -39,7 +38,7 @@ Power BI Pro는 대시보드를 공유하고 공유한 대시보드를 보는 �
 
 
 
-왼쪽 탐색 모음에 있는 모든 컨테이너에서 대시보드를 찾을 수 있습니다. 
+탐색 창에 있는 모든 컨테이너에서 대시보드를 찾을 수 있습니다. 
 
 ![대시보드 아이콘](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 

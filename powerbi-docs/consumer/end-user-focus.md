@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327796"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019815"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>콘텐츠를 더 자세히 표시: 포커스 모드 및 전체 화면 모드
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -54,7 +56,7 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
 ![대시보드 전체 화면 모드 전과 후](media/end-user-focus/power-bi-compare-dash.png)
 
-포커스 모드에 있는 동안 Power BI ‘소비자’는 이 시각적 개체가 만들어질 때 적용된 모든 필터를 조작할 수 있습니다.   Power BI 서비스에서는 대시보드 타일 또는 보고서 시각적 개체에서 포커스 모드를 사용할 수 있습니다.
+포커스 모드에 있는 동안 Power BI ‘소비자’는 이 시각적 개체가 만들어질 때 적용된 모든 필터를 조작할 수 있습니다.  Power BI 서비스에서는 대시보드 타일 또는 보고서 시각적 개체에서 포커스 모드를 사용할 수 있습니다.
 
 ## <a name="working-in-full-screen-mode"></a>전체 화면 모드에서 작업
 
@@ -97,11 +99,11 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
 1. Power BI 서비스에서 대시보드를 엽니다.
 
-2. 마우스로 대시보드 타일 또는 보고서 시각적 개체를 가리키고, 줄임표(...)를 선택하고, **포커스 모드에서 열기**를 선택합니다.
+2. 대시보드 타일 또는 보고서 시각적 개체를 마우스로 가리키고 **추가 옵션**(...)을 선택한 다음, **포커스 모드에서 열기**를 선택합니다.
 
-    ![타일의 줄임표 메뉴](media/end-user-focus/power-bi-dashboard-focus.png)을 선택합니다.
+    ![타일의 줄임표 메뉴](media/end-user-focus/power-bi-dashboard-focus.png).
 
-2. 타일이 열리고 전체 보고서 캔버스를 채웁니다. 시각적 개체를 조작하는 데 사용할 수 있는 **필터** 창이 아직 있는 것을 볼 수 있습니다. **필터** 창은 축소할 수 있습니다. 
+2. 타일이 열리고 전체 보고서 캔버스를 채웁니다. 시각적 개체를 조작하는 데 사용할 수 있는 **필터** 창이 아직 있는 것을 볼 수 있습니다. **필터** 창은 축소할 수 있습니다.
 
    ![타일은 보고서 캔버스를 채웁니다.](media/end-user-focus/power-bi-focus-filter.png)
 
@@ -125,7 +127,7 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
    ![포커스 모드의 시각적 개체](media/end-user-focus/power-bi-display-focus-new.png)
 
-3. 선택적으로 **필터** 창을 사용하여 이 시각적 개체에 적용된 필터를 조작합니다. 데이터를 분석하여 새로운 인사이트와 질문에 대한 대답을 찾아봅니다. ‘소비자’는 새 필터를 추가하거나, 시각적 개체에 사용 중인 필드를 변경하거나, 새 시각적 개체를 만들 수 없습니다  .  그러나 Power BI를 종료할 때 기존 필터에 적용하는 모든 변경 내용이 저장됩니다. Power BI가 수정 내용을 기억하지 않도록 하려면 **기본값으로 다시 설정**을 선택합니다. ![기본값으로 다시 설정 단추](media/end-user-focus/power-bi-resets.png)  
+3. 선택적으로 **필터** 창을 사용하여 이 시각적 개체에 적용된 필터를 조작합니다. 데이터를 분석하여 새로운 인사이트와 질문에 대한 대답을 찾아봅니다. ‘소비자’는 새 필터를 추가하거나, 시각적 개체에 사용 중인 필드를 변경하거나, 새 시각적 개체를 만들 수 없습니다.  그러나 Power BI를 종료할 때 기존 필터에 적용하는 모든 변경 내용이 저장됩니다. Power BI가 수정 내용을 기억하지 않도록 하려면 **기본값으로 다시 설정**을 선택합니다. ![기본값으로 다시 설정 단추](media/end-user-focus/power-bi-resets.png)  
 
 
 5. 포커스 모드에서 나와 시각적 개체의 왼쪽 위 모서리에서 **보고서로 돌아가기**를 선택하여 보고서로 돌아갑니다.

@@ -2,7 +2,6 @@
 title: Power BI 디자이너용 대시보드 소개
 description: 대시보드는 Power BI 서비스의 핵심 기능입니다. 대시보드는 시각화를 통해 스토리를 알려주는 흔히 캔버스라고 불리는 단일 페이지입니다.
 author: maggieMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 269b495a41f193c6a2ba02fa75f171c3b5789689
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 41381a2f0ccc2c5db904d9ac94c7dad19edfa4e5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019594"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872734"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 소개
 

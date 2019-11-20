@@ -2,7 +2,6 @@
 title: Power BI에서 데이터가 없는 항목 표시
 description: Power BI에서 데이터가 없는 항목이 처리되고 표시되는 방식을 알아봅니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 637a6476af6368fae2bcfed8d89aeb9f43276a6b
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: a8d99a041edbbe353badbb580940e918b30a0a9d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560838"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879729"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Power BI에서 데이터가 없는 항목 표시
 
@@ -156,7 +155,7 @@ Powe BI가 표시와 관련 있는 데이터를 판단하는 방식을 알아보
 
 ## <a name="power-bi-visual-behavior"></a>Power BI 시각적 개체 동작
 
-시각적 개체의 한 필드에서 **데이터가 없는 항목 표시**를 사용하도록 설정하면, 동일한 ‘시각적 개체 버킷’이나 계층 구조에 있는 다른 모든 필드에 대해서도 해당 기능이 자동으로 사용됩니다. 시각적 개체 버킷 또는 계층 구조는 해당 **축**, **범례**, **범주**, **행** 또는 **열**일 수 있습니다.
+시각적 개체의 한 필드에서 **데이터가 없는 항목 표시**를 사용하도록 설정하면, 동일한 ‘시각적 개체 버킷’이나 계층 구조에 있는 다른 모든 필드에 대해서도 해당 기능이 자동으로 사용됩니다.  시각적 개체 버킷 또는 계층 구조는 해당 **축**, **범례**, **범주**, **행** 또는 **열**일 수 있습니다.
 
 ![축과 범례에 대한 필드](media/desktop-show-items-no-data/show-items-no-data-04.png)
 
@@ -164,7 +163,7 @@ Powe BI가 표시와 관련 있는 데이터를 판단하는 방식을 알아보
 
 ![동일한 시각적 개체의 필드는 자동으로 데이터가 없는 항목 표시를 사용하도록 설정함](media/desktop-show-items-no-data/show-items-no-data-05.png)
 
-반면, **열** 버킷에 표시된 *Continent* 필드에는 **데이터가 없는 항목 표시**가 자동으로 사용하도록 설정되지 ‘않습니다’. 
+반면, **열** 버킷에 표시된 *Continent* 필드에는 **데이터가 없는 항목 표시**가 자동으로 사용하도록 설정되지 ‘않습니다’.  
 
 이 시각적 개체 동작은 시각적 개체를 다른 형식으로 변환하는 경우(예: 행렬 시각적 개체를 테이블 시각적 개체로 변환하는 경우)에 주로 나타납니다. 이러한 변환에서는 **데이터가 없는 항목 표시**가 해당 버킷의 필드에서 사용하도록 설정된 버킷으로 이동하는 모든 필드에 대해 자동으로 사용하도록 설정됩니다. 앞의 예제에서 *SupplierID*에 **데이터가 없는 항목 표시** 기능이 사용하도록 설정되어 있고 시각적 개체를 테이블로 변환하면, **열** 버킷의 *Continent* 필드가 **행** 버킷의 필드와 함께 테이블 시각적 개체에서 사용되는 유일한 버킷인 **값** 버킷으로 이동됩니다. 따라서 **값** 버킷의 모든 필드에서 **데이터가 없는 항목 표시**가 사용하도록 설정됩니다.
 

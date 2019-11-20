@@ -3,18 +3,17 @@ title: Power BI 시각적 개체 지침
 description: 다른 사람이 구매를 통해 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 AppSource에 게시하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 4e17406b0b4e616a9857cf40298a7931e2b65427
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: e650b1eb8fd05db54b9d0bf9021eaa881d28832e
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944848"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128194"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 지침
 다른 사용자가 검색 및 사용하도록 AppSource에 시각적 개체를 [게시](https://docs.microsoft.com/power-bi/developer/office-store)하기 전에 지침에 따라 사용자에게 적합한 환경을 만들어야 합니다. 
@@ -53,7 +52,7 @@ ms.locfileid: "71944848"
 
 최근까지 Marketplace(AppSource)에서는 무료인 Power BI 시각적 개체만 허용했습니다. 이 정책이 변경(12월 18일)되었으므로 "추가 구매가 필요할 수도 있음" 가격표가 있는 시각적 개체도 AppSource에 제출할 수 있습니다. 
 
-“추가 구매가 필요할 수도 있음” 시각적 개체는 Office 스토어의 IAP(앱에서 바로 구매) 추가 기능과 유사합니다. 개발자는 이러한 시각적 개체를 AppSource 팀이 승인하고 이 개체가 인증 요구 사항을 준수하는지 확인한 후 인증을 위해 이 개체를 제출할 수도 있습니다. 요구 사항에 대한 자세한 내용은 [인증된 Power BI 시각적 개체](../power-bi-custom-visuals-certified.md)를 참조하세요.
+“추가 구매가 필요할 수도 있음” 시각적 개체는 Office 스토어의 IAP(앱에서 바로 구매) 추가 기능과 유사합니다. 개발자는 이러한 시각적 개체를 AppSource 팀이 승인하고 이 개체가 인증 요구 사항을 준수하는지 확인한 후 인증을 위해 이 개체를 제출할 수도 있습니다. 요구 사항에 대한 자세한 내용은 [인증된 Power BI 시각적 개체](../developer/power-bi-custom-visuals-certified.md)를 참조하세요.
 
 > [!NOTE]
 > 시각적 개체 인증을 받으려면 외부 서비스나 리소스에 액세스해서는 안됩니다.

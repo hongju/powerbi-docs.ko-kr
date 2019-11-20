@@ -2,7 +2,6 @@
 title: Power BI Desktop의 식 기반 제목
 description: Power BI Desktop에서 조건부 프로그래밍 서식을 사용하여 프로그래밍 식에 따라 변경되는 동적 제목 만들기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: reference
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7917edc17bd93d96c22641b14c4c70bfe3222e10
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: f3c1f047e3be7520005458294381877d1198ee21
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621263"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878623"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Power BI Desktop의 식 기반 제목
 
@@ -57,7 +56,7 @@ SWITCH (
 
 필드를 선택하고 적용하려면 **시각화** 창으로 이동합니다. **서식** 영역에서 **제목**을 선택하여 시각적 개체의 제목 옵션을 표시합니다. 
 
-**제목 텍스트**를 마우스 오른쪽 단추로 클릭하면 상황에 맞는 메뉴가 나타나며, 여기서 **<em>fx</em>조건부 서식**을 선택할 수 있습니다. 해당 메뉴 항목을 선택하면 **제목 텍스트** 대화 상자가 나타납니다. 
+**제목 텍스트**를 마우스 오른쪽 단추로 클릭하면 상황에 맞는 메뉴가 나타나며, 여기서 **<em>fx</em>조건부 서식 지정**을 선택할 수 있습니다. 해당 메뉴 항목을 선택하면 **제목 텍스트** 대화 상자가 나타납니다. 
 
 ![제목 텍스트 대화 상자 스크린샷](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 

@@ -2,7 +2,6 @@
 title: 새 Office 365 평가판으로 Power BI에 등록
 description: 새 Office 365 평가판으로 Power BI에 등록
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7f9fd3870803a73bf9e47f2ca4e706e03a728eb4
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 89732201276c00949a8ef1d605c5e60ea03b6b47
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074265"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873351"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>새 Office 365 평가판으로 Power BI에 등록
 
@@ -41,4 +40,4 @@ ms.locfileid: "71074265"
 [조직의 Power BI 라이선스 부여](service-admin-licensing-organization.md)  
 [Power BI에 개별 가입](service-self-service-signup-for-power-bi.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

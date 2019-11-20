@@ -9,15 +9,18 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903809"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019462"
 ---
-# <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>‘소비자’에 대한 Power BI 서비스의 보고서 보기
-보고서는 하나 이상의 시각적 개체 페이지입니다. 보고서는 Power BI ‘디자이너’가 만들고 직접 또는 [앱](end-user-apps.md)의 일부로 [소비자와 공유](end-user-shared-with-me.md)합니다. 
+# <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>‘소비자’에 대한 Power BI 서비스의 보고서 보기 
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+보고서는 하나 이상의 시각적 개체 페이지입니다. 보고서는 Power BI ‘디자이너’가 만들고 직접 또는 [앱](end-user-apps.md)의 일부로 [소비자와 공유](end-user-shared-with-me.md)합니다.   
 
 여러 가지 방법으로 보고서를 열 수 있으며, 여기서는 홈 또는 대시보드에서 여는 방법을 보여줍니다. 
 
@@ -30,7 +33,7 @@ ms.locfileid: "70903809"
    ![홈페이지](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>사용자와 공유된 보고서 열기
-Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 추가하여 개별 보고서를 직접 사용자와 공유할 수 있습니다. 이 방식으로 공유된 콘텐츠는 탐색 모음에 있는 **공유한 항목** 컨테이너와 홈 캔버스의 **공유한 항목** 섹션에 표시됩니다.
+Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 추가하여 개별 보고서를 직접 사용자와 공유할 수 있습니다.  이 방식으로 공유된 콘텐츠는 탐색 모음에 있는 **공유한 항목** 컨테이너와 홈 캔버스의 **공유한 항목** 섹션에 표시됩니다.
 
 1. Power BI 서비스(app.powerbi.com)를 엽니다.
 
@@ -46,13 +49,13 @@ Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 �
 
    ![보고서 페이지](./media/end-user-report-open/power-bi-open.png)
 
-5. 왼쪽의 탭을 확인합니다.  각 탭은 보고서 ‘페이지’를 나타냅니다. 현재 *성장 기회* 페이지가 열려 있습니다. *YTD범주* 탭을 선택하여 해당 보고서 페이지를 대신 엽니다. 
+5. 왼쪽의 탭을 확인합니다.  각 탭은 보고서 ‘페이지’를 나타냅니다.  현재 *성장 기회* 페이지가 열려 있습니다. *YTD범주* 탭을 선택하여 해당 보고서 페이지를 대신 엽니다. 
 
    ![보고서 페이지 탭](./media/end-user-report-open/power-bi-ytd.png)
 
 6. 오른쪽을 따라 **필터** 창이 표시됩니다. 이 보고서 페이지 또는 전체 보고서에 적용된 필터가 여기에 표시됩니다.
 
-7. 보고서 시각적 개체를 마우스로 가리키면 여러 아이콘과 줄임표(...)가 표시됩니다. 특정 시각적 개체에 적용된 필터를 확인하려면 필터 아이콘을 선택합니다. 여기서는 *롤링 기간 및 지역별 전체 단위* 꺾은선형 차트에 대한 필터 아이콘을 선택했습니다.
+7. 보고서 시각적 개체를 마우스로 가리키면 여러 개의 아이콘과 **추가 옵션**(...)이 표시됩니다. 특정 시각적 개체에 적용된 필터를 확인하려면 필터 아이콘을 선택합니다. 여기서는 *롤링 기간 및 지역별 전체 단위* 꺾은선형 차트에 대한 필터 아이콘을 선택했습니다.
 
    ![보고서 페이지 탭](./media/end-user-report-open/power-bi-visual-filters.png)
 
@@ -78,7 +81,7 @@ Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 �
 
    ![홈페이지](./media/end-user-report-open/power-bi-app.png)
 
-8. 새 영업 및 마케팅 앱을 선택하여 엽니다. 앱 ‘디자이너’가 설정한 옵션에 따라 앱에서 대시보드나 보고서가 열립니다. 이 앱은 대시보드로 열립니다.  
+8. 새 영업 및 마케팅 앱을 선택하여 엽니다. 앱 ‘디자이너’가 설정한 옵션에 따라 앱에서 대시보드나 보고서가 열립니다.  이 앱은 대시보드로 열립니다.  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>대시보드에서 보고서 열기
@@ -102,6 +105,7 @@ Power BI 서비스를 보다 더 편안하게 탐색할 수 있게 되면, 자�
 - [관련 항목 보기](end-user-related.md) 사용    
 - 누군가가 [사용자와 공유](../service-share-reports.md)하거나 [경고를 설정](end-user-alerts.md)할 때 메일을 통해    
 - [알림 센터](end-user-notification-center.md)를 통해    
+- 작업 영역에서
 - 기타
 
 ## <a name="next-steps"></a>다음 단계

@@ -3,7 +3,6 @@ title: Microsoft Power BI Premium 용량 관리
 description: Power BI Premium 용량에 대한 관리 작업을 설명합니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1e8218e19ca3949a96a9c701e4a18f9fb088e2a1
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 5e8becd877165f456793d99951544156a9314290
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175213"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881211"
 ---
 # <a name="managing-premium-capacities"></a>프리미엄 용량 관리
 
@@ -42,7 +41,7 @@ Premium 용량을 만들 때 관리자는 다음을 정의해야 합니다.
 
 작업 영역 권한에서 명시적으로 할당된 경우가 아니면 용량 관리자는 작업 영역 콘텐츠에 액세스할 수 없습니다. 또한 사용 메트릭, 감사 로그 또는 테넌트 설정과 같은 모든 Power BI 관리 영역에 대한 액세스 권한이 없습니다(명시적으로 할당되지 않은 경우). 중요한 것은 용량 관리자에게 새 용량을 만들거나 기존 용량을 확장할 수 있는 권한이 없다는 것입니다. 관리자는 할당된 용량을 확인 및 관리만 할 수 있도록 각 용량 단위로 할당됩니다.
 
-용량 크기는 풀에서 사용 가능한 V 코어 수에 의해 제한되는 사용 가능한 SKU 옵션 목록에서 선택됩니다. 하나 이상의 구매한 SKU에서 소싱할 수 있는 풀에서 여러 용량을 만들 수 있습니다. 예를 들어 P3 SKU(V 코어 32개)를 사용하여 3개의 용량을 만들 수 있습니다. 1개는 P2(V 코어 16개)이고, 2개는 P1(V 코어 8개씩 2개)입니다. [Premium 용량 최적화](service-premium-capacity-optimize.md) 문서에 설명된 대로 더 작은 크기의 용량을 만들어 성능 및 확장성을 향상시킬 수 있습니다. 다음 그림은 각각 앱 작업 영역을 포함하는 5개의 Premium 용량(3 x P1 및 2 x P3)과 공유된 용량 안의 여러 작업 공간으로 구성된 가상의 Contoso 조직을 위한 설정 예를 보여 줍니다.
+용량 크기는 풀에서 사용 가능한 V 코어 수에 의해 제한되는 사용 가능한 SKU 옵션 목록에서 선택됩니다. 하나 이상의 구매한 SKU에서 소싱할 수 있는 풀에서 여러 용량을 만들 수 있습니다. 예를 들어 P3 SKU(V 코어 32개)를 사용하여 3개의 용량을 만들 수 있습니다. 1개는 P2(V 코어 16개)이고, 2개는 P1(V 코어 8개씩 2개)입니다. [Premium 용량 최적화](service-premium-capacity-optimize.md) 문서에 설명된 대로 더 작은 크기의 용량을 만들어 성능 및 확장성을 향상시킬 수 있습니다. 다음 이미지는 각각 작업 영역을 포함하는 5개의 프리미엄 용량(3 x P1 및 2 x P3)과 공유 용량에 있는 여러 작업 영역으로 구성된 가상 Contoso 조직의 예제 설정을 보여 줍니다.
 
 ![가상의 Contoso 조직을 위한 설정 예](media/service-premium-capacity-manage/contoso-organization-example.png)
 
@@ -66,7 +65,7 @@ Premium 용량을 삭제하는 것은 가능하며 작업 영역 및 콘텐츠�
 
 ### <a name="assigning-workspaces-to-capacities"></a>용량에 작업 영역 할당
 
-작업 영역은 Power BI 관리 포털에서 Premium 용량에 또는 **작업 영억** 창에서 앱 작업 영역에 할당할 수 있습니다.
+Power BI 관리 포털이나 작업 영역의 **작업 영억** 창에서 작업 영역을 프리미엄 용량에 할당할 수 있습니다.
 
 용량 관리자는 물론 Office 365 전역 관리자 또는 Power BI 서비스 관리자는 Power BI 관리 포털에서 작업 영역을 대량으로 할당할 수 있습니다. 대량 할당은 다음에 적용될 수 있습니다.
 

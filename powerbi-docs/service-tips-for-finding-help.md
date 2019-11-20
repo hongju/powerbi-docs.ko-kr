@@ -2,7 +2,6 @@
 title: Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁
 description: Power BI의 작동 방식에 대한 질문이 있는 경우 도움을 받을 수 있는 10가지 방법이 있습니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060317"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876934"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁
 Power BI를 사용하면서 "즉각적인" 도움이 필요한 경우 Power BI 질문에 대한 답변을 받지 못해 실망하거나 어려움을 겪은 적이 있나요? 
@@ -55,7 +54,7 @@ Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.
 * "**Dashboard in a Day**"교육 세션에 직접 참여해보세요.
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7 Power BI 커뮤니티에서 질문 또는 검색
-[Power BI 커뮤니티](http://community.powerbi.com)에서 질문을 하고 답변을 찾습니다. 전 세계 BI 전문가들이 커뮤니티에서 활동하고 있습니다. 이 리소스를 통해 전문가들의 지식을 활용합니다.
+[Power BI 커뮤니티](https://community.powerbi.com)에서 질문을 하고 답변을 찾습니다. 전 세계 BI 전문가들이 커뮤니티에서 활동하고 있습니다. 이 리소스를 통해 전문가들의 지식을 활용합니다.
 
 ## <a name="8-join-or-create-a-power-bi-user-group"></a>8 Power BI 사용자 그룹에 가입하거나 만들기
 [Power BI 사용자 그룹](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups)에 가입하여 그룹에 질문에 대한 도움을 요청합니다. 또는 자신만의 사용자 그룹을 시작하고 해당 지역 시간대에서 원하는 데이터에 대한 요구에 대해 서로 도움을 주고 있는 사람들의 커뮤니티를 만듭니다.
@@ -70,5 +69,5 @@ Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI란?](fundamentals/power-bi-overview.md)
-* [Power BI 커뮤니티](http://community.powerbi.com/)에 질문하기
+* [Power BI 커뮤니티](https://community.powerbi.com/)에 질문하기
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.

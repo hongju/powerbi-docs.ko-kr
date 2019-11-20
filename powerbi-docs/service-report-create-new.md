@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f2d9046c907b78ce2c1bb2754007c34199877a08
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523076"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432206"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>데이터 세트를 가져와 Power BI 서비스에서 보고서 만들기
 지금까지 [Power BI의 보고서](consumer/end-user-reports.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 다양한 방법으로 보고서를 만들 수 있습니다. 이 문서에서는 먼저 Excel 데이터 세트로 Power BI 서비스에서 기본 보고서를 만듭니다. 보고서를 만들기 위한 기본 사항을 파악했으면, 끝에 있는 [다음 단계](#next-steps)에서 더 높은 수준의 보고서 항목을 확인합니다.  
@@ -29,7 +29,7 @@ ms.locfileid: "68523076"
 
 1. Power BI 서비스 작업 영역에서 보고서를 만들 것이므로 기존 작업 영역을 선택하거나 작업 영역을 새로 만듭니다.
    
-   ![앱 작업 영역 목록](media/service-report-create-new/power-bi-workspaces2.png)
+   ![작업 영역 목록](media/service-report-create-new/power-bi-workspaces2.png)
 2. 왼쪽 탐색 창의 맨 아래에서 **데이터 가져오기**를 선택합니다.
    
    ![데이터 가져오기](media/service-report-create-new/power-bi-get-data3.png)

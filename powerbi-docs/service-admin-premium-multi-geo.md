@@ -3,19 +3,18 @@ title: Power BI Premium에 대한 다중 지역 지원
 description: Power BI 테넌트의 홈 지역이 아닌 다른 지역에 있는 데이터 센터에 콘텐츠를 배포하는 방법을 알아봅니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f29ce1ce05db80378eee81293d92484fb4f58f45
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 129cef8a923b27582bd6424c8d025b93ecbe5532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665405"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873459"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium에 대한 다중 지역 지원 구성
 
@@ -66,7 +65,7 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 - Excel 통합 문서
 - 대시보드/보고서 메타데이터: 타일 이름, 타일 쿼리 등
 - 게이트웨이 쿼리 또는 예약된 새로 고침 작업에 대한 서비스 버스
-- 사용 권한
+- 권한
 - 데이터 세트 자격 증명
 
 ## <a name="view-capacity-regions"></a>용량 지역 보기
@@ -102,4 +101,4 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 - [Power BI 프리미엄이란?](service-premium-what-is.md)
 - [Power BI Embedded 용량에 대한 다중 지역](developer/embedded-multi-geo.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

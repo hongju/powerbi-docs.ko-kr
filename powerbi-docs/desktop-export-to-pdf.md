@@ -2,7 +2,6 @@
 title: 보고서를 Power BI Desktop에서 PDF 형식으로 내보내기
 description: Power BI Desktop에서 PDF로 쉽게 내보내기 및 해당 PDF 보고서 쉽게 인쇄
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2f64973650edd951a9a780090426afba3e8471f5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61303169"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867688"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>보고서를 Power BI Desktop에서 PDF로 내보내기
 **Power BI Desktop** 또는 Power BI 서비스에서 PDF 파일로 보고서를 내보내고 따라서 해당 PDF에서 보고서를 쉽게 공유하거나 인쇄할 수 있습니다.

@@ -2,7 +2,6 @@
 title: Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침 - 로컬
 description: 로컬 드라이브에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a71631c0ac8e45c7e268eb11a0539fa8305dfcd7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b69e908e378605facbdaea79618aaf5167ff7739
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61414745"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874398"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>로컬 드라이브에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
 ## <a name="whats-supported"></a>무엇이 지원되나요?
@@ -80,5 +79,5 @@ Power BI에서 지금 새로 고침 및 새로 고침 예약은 다음 데이터
 [Power BI 게이트웨이 - 개인 문제 해결](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>다음 단계
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

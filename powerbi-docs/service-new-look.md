@@ -2,7 +2,6 @@
 title: Power BI 서비스의 ‘새 디자인’
 description: Power BI 서비스(app.powerbi.com)의 모양이 새롭게 변경되었습니다. 이 문서에서는 새 디자인을 사용하여 보고서를 탐색하는 방법을 설명합니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239953"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881378"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 서비스의 ‘새 디자인’
 
@@ -66,7 +65,7 @@ Power BI 서비스 사용자는 새 디자인을 옵트인(opt in)할 수 있습
 
 ### <a name="where-are-file-menu-actions"></a>파일 메뉴 작업 위치
 
-**파일** 메뉴 작업을 찾고 있나요? **파일** 메뉴에 사용하던 작업도 이제 줄임표(...) 메뉴에 있습니다. 
+**파일** 메뉴 작업을 찾고 있나요? **파일** 메뉴에 있었던 작업이 **추가 옵션**(...) 메뉴에도 있습니다. 
 
 ![새 디자인의 파일 메뉴](media/service-new-look/power-bi-file-menu-new-look.gif)
 

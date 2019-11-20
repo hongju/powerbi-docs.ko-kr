@@ -3,19 +3,18 @@ title: Power BI Premium 용량 다시 시작
 description: 성능 문제를 해결하는 Power BI Premium 용량을 다시 시작하는 방법에 대해 알아봅니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1622e06cd7aa394d384954b393d1e547e87df10a
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 758d630a06ed0194dec69013535df53f9a2825a6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305664"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873432"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium 용량 다시 시작
 
@@ -59,4 +58,4 @@ Power BI는 프리미엄 용량 사용자를 이러한 문제로부터 보호하
 
 [Power BI 프리미엄이란?](service-premium-what-is.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

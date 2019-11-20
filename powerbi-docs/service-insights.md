@@ -2,7 +2,6 @@
 title: Power BI를 사용하여 데이터 인사이트를 자동으로 생성
 description: 데이터 세트 및 대시보드 타일에 대한 정보를 얻는 방법에 대해 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
@@ -12,15 +11,15 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0492b797d75e29145c14a70d8a8058bad295ef18
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994969"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872237"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI를 사용하여 데이터 인사이트를 자동으로 생성
-새 데이터 세트가 있는데 어디서 시작해야 할지가 잘 모르나요?  빠르게 대시보드를 만들어야 하나요?  놓쳤을 수도 있는 인사이트를 찾고 싶나요?
+새 데이터 세트가 있고 어디서 시작해야 할지가 확실하지 않은 경우  빠르게 대시보드를 만들어야 하는 경우  놓쳤을 수 있는 정보를 찾으려는 경우
 
 빠른 인사이트를 실행하여 데이터를 기준으로 흥미로운 대화형 시각화를 생성합니다. 신속한 정보 활용은 데이터 세트 전체에 대해 실행하거나(신속한 정보 활용) 특정 대시보드 타일에 대해 실행할 수 있습니다(지정된 범위의 신속한 정보 활용). 인사이트에 대해서도 인사이트를 실행할 수 있습니다.
 
@@ -38,7 +37,7 @@ Amanda가 데이터 세트에 대한 빠른 인사이트를 실행하고, 정보
 
 이제 여러분 차례입니다. [공급업체 품질 분석 샘플](sample-supplier-quality.md)을 사용하여 인사이트를 살펴보세요.
 
-1. **데이터 세트** 탭에서 줄임표(...)를 선택한 다음, **빠른 인사이트 탐색**을 선택합니다.
+1. **데이터 세트** 탭에서 **추가 옵션**(...)을 선택한 다음, **빠른 인사이트 탐색**을 선택합니다.
    
     ![데이터 세트 탭](media/service-insights/power-bi-ellipses.png)
    
@@ -62,7 +61,7 @@ Amanda가 데이터 세트에 대한 빠른 인사이트를 실행하고, 정보
 
 1. 시각화를 대시보드에 추가하려면 카드를 마우스로 가리키고 고정 아이콘을 선택합니다.
 
-2. 카드를 마우스로 가리키고 줄임표(...)를 선택한 다음, **인사이트 보기**를 선택합니다. 
+2. 카드를 마우스로 가리키고 **추가 옵션**(...)을 선택한 다음, **인사이트 보기**를 선택합니다. 
 
     인사이트 화면이 포커스 모드로 열립니다.
    
@@ -86,7 +85,7 @@ Amanda가 데이터 세트에 대한 빠른 인사이트를 실행하고, 정보
 데이터 세트 전체를 대상으로 인사이트를 검색하는 것보다, 검색 범위를 좁혀 단일 대시보드 타일을 만드는 데 사용되는 데이터에 대해 지정된 범위의 인사이트를 수행합니다. 
 
 1. 대시보드를 엽니다.
-2. 타일을 마우스로 가리킵니다. 줄임표(...)를 선택한 다음, **인사이트 보기**를 선택합니다. 타일이 오른쪽에 표시되는 인사이트 카드와 함께 [포커스 모드](service-focus-mode.md)로 열립니다.    
+2. 타일을 마우스로 가리킵니다. **추가 옵션**(...)을 선택한 다음, **인사이트 보기**를 선택합니다. 타일이 오른쪽에 표시되는 인사이트 카드와 함께 [포커스 모드](service-focus-mode.md)로 열립니다.    
    
     ![포커스 모드](media/service-insights/pbi-insights-tile.png)    
 3. 인사이트 하나로 호기심이 자극되나요? 자세히 알아보려면 해당 인사이트 카드를 선택합니다. 선택한 인사이트는 왼쪽에 나타나고 해당 단일 인사이트의 데이터에만 기초한 새 인사이트 카드는 오른쪽에 표시됩니다.    
@@ -96,5 +95,5 @@ Amanda가 데이터 세트에 대한 빠른 인사이트를 실행하고, 정보
 - 데이터 세트의 소유자인 경우 [빠른 인사이트 활용을 위해 데이터 세트를 최적화](service-insights-optimize.md)합니다.
 - [사용 가능한 빠른 인사이트 유형](service-insight-types.md)에 대해 알아봅니다.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](https://community.powerbi.com/)하세요.
 

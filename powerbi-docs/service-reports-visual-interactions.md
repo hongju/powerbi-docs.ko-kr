@@ -2,7 +2,6 @@
 title: 보고서에서 시각적 개체가 조작되는 방식 변경
 description: Microsoft Power BI 서비스 보고서 및 Power BI Desktop 보고서에 시각적 상호 작용을 설정하는 방법에 대한 설명서입니다.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: N_xYsCbyHPw
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/11/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6f739992ed282ada92b1049df09a8b5d4b3938a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1b05acc111ce582c84706e5b63ba564f606576f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61405995"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871591"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Power BI 보고서에서 시각적 개체가 조작되는 방식 변경
 보고서에 대한 편집 권한이 있는 경우 **시각적 상호 작용**을 사용하여 보고서 페이지의 시각화들이 서로 영향을 주는 방식을 변경할 수 있습니다. 

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: f4043a5a8deac0596b58519183988f6ae574458e
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 4ea1b2141cf9a072f11a3a62789c7c0ec5b500a4
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70847711"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799993"
 ---
 DAX를 사용하여 만들 수 있는 두 가지 기본 계산이 있습니다.
 
@@ -65,7 +65,7 @@ DAX를 사용하여 만들 수 있는 두 가지 기본 계산이 있습니다.
 * 새 측정값 이름
 * 하나 이상의 함수 또는 식
 
-> [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)의 비디오 콘텐츠 출처
+> [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax)의 비디오 콘텐츠 출처
 > 
 > 
 

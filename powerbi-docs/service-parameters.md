@@ -2,7 +2,6 @@
 title: Power BI 서비스의 매개 변수 설정 편집
 description: 쿼리 매개 변수는 Power BI Desktop에서 만들지만 Power BI 서비스에서 검토되고 업데이트될 수 있습니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8db6f106ecc2285cb66ff980bc72fa666456f81a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 656de2cbf318211bf2fe19f15a3867ab183f3173
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226029"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871969"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>Power BI 서비스의 매개 변수 설정 편집
 보고서 작성자는 Power BI Desktop의 보고서에 쿼리 매개 변수를 추가합니다. 매개 변수를 사용하면 보고서의 일부가 하나 이상의 매개 변수 *값*을 사용하도록 할 수 있습니다. 예를 들어 보고서 작성자는 단일 국가/지역으로 데이터를 제한하는 매개 변수 또는 날짜, 시간 및 텍스트와 같은 필드에 적합한 형식을 정의하는 매개 변수를 만들 수 있습니다.

@@ -2,7 +2,6 @@
 title: Power BI에 대한 데이터 게이트웨이 배포 지침
 description: Power BI에 대한 게이트웨이를 배포하기 위한 모범 사례 및 고려 사항에 대해 알아봅니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5a0c29f04e7329373eec5f60af840e503ec22b3c
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d4a02ccc759f78a4243f34fb59115fb9084ea90d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729987"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881685"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI에 대한 데이터 게이트웨이 배포 지침
 
@@ -45,7 +44,7 @@ Power BI의 제약 조건 때문에 *보고서*당 하나의 *게이트웨이*�
 
 Power BI는 다음 두 가지 유형의 연결을 제공합니다. DirectQuery 및 가져오기. 일부 데이터 원본에서는 두 연결 유형을 모두 지원하지 않습니다. 보안 요구 사항, 성능, 데이터 제한 및 데이터 모델 크기와 같은 여러 요인이 사용자의 선택에 영향을 미칠 수 있습니다. [사용 가능한 데이터 원본 유형 목록](service-gateway-data-sources.md#list-of-available-data-source-types) 섹션에서 연결 유형 및 지원되는 데이터 원본에 대해 자세히 알아볼 수 있습니다.
 
-사용되는 연결 유형에 따라 게이트웨이 사용량이 다를 수 있습니다. 예를 들어 가능하면 예약된 새로 고침 데이터 원본에서 DirectQuery 데이터 원본을 분리해 보세요. 이러한 원본은 서로 다른 보고서에 있고 분리할 수 있다고 가정합니다. 원본을 분리하면 회사의 기본 대시보드에 사용되는 대형 데이터 모델의 아침으로 예약된 새로 고침처럼 게이트웨이에 수천 개의 DirectQuery 요청이 동시에 대기하는 것을 방지합니다. 
+사용되는 연결 유형에 따라 게이트웨이 사용량이 다를 수 있습니다. 예를 들어 가능하면 예약된 새로 고침 데이터 원본에서 DirectQuery 데이터 원본을 분리해 보세요. 이러한 원본은 서로 다른 보고서에 있고 분리할 수 있다고 가정합니다. 원본을 분리하면 회사의 기본 대시보드에 사용되는 대형 데이터 모델의 아침의 예약된 새로 고침처럼 게이트웨이에 수천 개의 DirectQuery 요청이 동시에 대기하는 것을 방지합니다. 
 
 다음은 각 옵션에 대해 고려해야 할 사항입니다.
 
@@ -69,5 +68,5 @@ Azure Analysis Services와 함께 Power BI 게이트웨이를 사용하려는 �
 * [게이트웨이 문제 해결 - Power BI](service-gateway-onprem-tshoot.md)  
 * [온-프레미스 데이터 게이트웨이 FAQ - Power BI](service-gateway-power-bi-faq.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)를 사용해 보세요.
+궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)를 사용해 보세요.
 

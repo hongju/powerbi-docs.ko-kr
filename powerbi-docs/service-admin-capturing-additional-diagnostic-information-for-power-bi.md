@@ -2,7 +2,6 @@
 title: 추가 진단 정보 캡처
 description: 이 지침에서는 Power BI 웹 클라이언트에서 추가적인 진단 정보를 수동으로 수집하기 위한 두 가지 가능한 옵션을 제공합니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 09/17/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: ea1756b82efe6a68940ae3c5094eafc9c3ca4c7c
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 370ac3fad6f31c214ecafad7762acd8219831218
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305864"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873699"
 ---
 # <a name="capture-additional-diagnostic-information-for-power-bi"></a>Power BI에 대한 추가 진단 정보 캡처
 
@@ -60,4 +59,4 @@ ms.locfileid: "71305864"
 
 1. HAR 파일을 제공하여 검토를 지원할 수 있습니다.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

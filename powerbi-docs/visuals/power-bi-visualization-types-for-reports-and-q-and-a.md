@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161210"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72775958"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
 새로운 시각화를 추가할 예정이니 기대해 주세요.
 
-[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)를 확인하면 고유한 대시보드 및 보고서에 다운로드하여 사용할 수 있는 [사용자 지정 시각적 개체](../power-bi-custom-visuals.md) 목록이 늘어나는 것을 볼 수 있습니다. 창의성이 느껴지나요? [이 커뮤니티 사이트에 고유한 시각적 개체를 만들고 추가하는 방법을 알아봅니다](../developer/office-store.md).  
+[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)를 확인하면 고유한 대시보드 및 보고서에 다운로드하여 사용할 수 있는 [사용자 지정 시각적 개체](../power-bi-custom-visuals.md) 목록이 늘어나는 것을 볼 수 있습니다. 창의성을 발휘하고 싶으신가요? [이 커뮤니티 사이트에 고유한 시각적 개체를 만들고 추가하는 방법을 알아봅니다](../developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI에서 사용할 수 있는 시각화 목록
 이러한 시각화는 모두 Power BI 보고서에 추가하고, 질문 및 답변에서 지정하고, 대시보드에 고정할 수 있습니다.
@@ -111,7 +111,7 @@ ms.locfileid: "67161210"
 
 자세한 내용은 [지도 시각 효과에 대한 팁과 트릭](power-bi-map-tips-and-tricks.md)을 참조하세요.
 
-### <a name="maps-arcgis-maps"></a>지도: ArcGIS 지도
+### <a name="maps-arcgis-maps"></a>지도: ArcGIS 맵
 ![ArcGIS 지도](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 자세한 내용은 [Power BI의 ArcGIS 지도](power-bi-visualization-arcgis.md)를 참조하세요.
@@ -133,7 +133,7 @@ ms.locfileid: "67161210"
 자세한 내용은 [Shape Maps in Power BI](desktop-shape-map.md)(Power BI의 도형 맵)를 참조하세요.
 
 
-### <a name="matrix"></a>행렬
+### <a name="matrix"></a>Matrix
 ![행렬](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
@@ -147,11 +147,19 @@ ms.locfileid: "67161210"
 >[!TIP]
 >원형 차트는 전체에 대한 부분의 관계를 보여줍니다. 
 
+### <a name="qa-visual"></a>Q&A 시각적 개체
+![질문 및 답변 시각적 개체](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
+
+>[!TIP]
+>[대시보드의 질문 및 답변 환경](../power-bi-tutorial-q-and-a.md)과 마찬가지로, 질문 및 답변 시각적 개체를 사용하면 자연어로 데이터에 대해 질문할 수 있습니다. 
+
+자세한 내용은 [Power BI의 질문 및 답변 시각적 개체](power-bi-visualization-q-and-a.md)를 참조하세요.
+
 ### <a name="r-script-visuals"></a>R 스크립트 시각적 개체
 ![R 시각적 개체](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
 
 >[!TIP]
->일반적으로 ‘R 시각적 개체’라고 하는 R 스크립트를 사용하여 만든 시각적 개체는 R의 풍부한 분석 및 시각화 기능을 사용하여 예측과 같은 고급 데이터 셰이핑 및 분석을 제공할 수 있습니다. R 시각적 개체는 Power BI Desktop에서 만들고 Power BI 서비스에 게시할 수 있습니다.    
+>일반적으로 ‘R 시각적 개체’라고 하는 R 스크립트를 사용하여 만든 시각적 개체는 R의 풍부한 분석 및 시각화 기능을 사용하여 예측과 같은 고급 데이터 셰이핑 및 분석을 제공할 수 있습니다. R 시각적 개체는 Power BI Desktop에서 만들고 Power BI 서비스에 게시할 수 있습니다.   
 
 자세한 내용은 [Power BI의 R 시각적 개체](service-r-visuals.md)를 참조하세요.
 

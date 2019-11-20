@@ -3,18 +3,17 @@ title: Power BI 시각적 개체의 렌더링 이벤트
 description: Power BI 시각적 개체는 PowerPoint 또는 PDF로 내보낼 준비가 되었음을 Power BI에 알릴 수 있습니다.
 author: Yarovinsky
 ms.author: alexyar
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b481ce94e5025045466a05d71e30a00f02be7ead
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 261987a199af68611792367f514bef60dd584db8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237155"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880121"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>Power BI 시각적 개체의 렌더링 이벤트
 

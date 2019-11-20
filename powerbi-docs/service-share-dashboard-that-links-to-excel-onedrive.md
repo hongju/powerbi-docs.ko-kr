@@ -2,7 +2,6 @@
 title: OneDrive에서 Excel 파일에 연결된 대시보드 공유 - Power BI
 description: 비즈니스용 OneDrive의 Excel 통합 문서에 연결된 대시보드를 공유하는 방법과 해당 통합 문서에 고정된 타일에 대해 알아보세요.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: ee32d10ffeb22160b054661ca91c46890a877fa3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721437"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871457"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>OneDrive에서 Excel 파일에 연결되는 Power BI 대시보드 공유
 Power BI에서 [비즈니스용 OneDrive의 Excel 통합 문서에 연결](service-excel-workbook-files.md)하고 해당 통합 문서에서 대시보드에 타일을 고정할 수 있습니다. 해당 대시보드를 공유하거나 해당 대시보드를 포함하는 콘텐츠 팩을 만들면 다음과 같이 됩니다.
@@ -50,12 +49,12 @@ Power BI에서 [비즈니스용 OneDrive의 Excel 통합 문서에 연결](servi
 5. **게시**를 선택합니다.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Power BI 작업 영역에서 대시보드 공유
-Power BI 작업 영역에서 대시보드 공유는 파일이 개인 비즈니스용 OneDrive가 아니라 Office 365 작업 영역 사이트에 있다는 점을 제외하고 고유한 작업 영역에서 대시보드를 공유하는 것과 유사합니다. 작업 영역 외부의 사람과 대시보드를 공유하기 전에 Excel 통합 문서에 대한 사용 권한을 수정합니다.
+Power BI 작업 영역에서 대시보드 공유는 파일이 프라이빗 비즈니스용 OneDrive가 아니라 Office 365 작업 영역 사이트에 있다는 점을 제외하고 고유한 작업 영역에서 대시보드를 공유하는 것과 유사합니다. 작업 영역 외부의 사람과 대시보드를 공유하기 전에 Excel 통합 문서에 대한 사용 권한을 수정합니다.
 
 ![OneDrive에서 공유](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_onedriveshare.png)
 
 ## <a name="next-steps"></a>다음 단계
 * [Excel에서 Power BI 대시보드에 타일 고정](service-dashboard-pin-tile-from-excel.md)
 * [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

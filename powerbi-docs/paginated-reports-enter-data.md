@@ -2,19 +2,18 @@
 title: 보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터 입력
 description: 이 문서에서는 보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터를 입력하는 방법을 볼 수 있습니다.
 author: maggiesMSFT
-ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: fd000ffd0d47935f36e72f6d0000d548623edf0a
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.author: maggies
+ms.openlocfilehash: f3170fb30011e50ba97f936d879a7f19cc795521
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839087"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128408"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>보고서 작성기 - Power BI에서 페이지를 매긴 보고서에 직접 데이터 입력
 
@@ -30,7 +29,7 @@ ms.locfileid: "66839087"
 
 보고서 작성기를 다운로드하고 설치한 후에는 포함된 데이터 원본과 데이터 세트를 보고서에 추가하는 데 사용하는 것과 동일한 워크플로를 수행합니다. 다음 프로시저에서는 **데이터 원본** 아래에 새 옵션인 **데이터 입력**이 표시됩니다.  이 데이터 원본은 보고서에 한 번만 설정하면 됩니다. 그런 다음, 입력된 데이터의 여러 테이블을 별도의 데이터 세트로 만들 수 있으며, 모두 해당 단일 데이터 원본을 사용합니다.
 
-1. **보고서 데이터** 창에서 **새로 만들기** > **데이터 세트**를 선택합니다.
+1. **보고서 데이터** 창에서 **새로 만들기** > **데이터 세트**을 선택합니다.
 
     ![보고서 작성기 새 데이터 세트](media/paginated-reports-enter-data/paginated-new-dataset.png)
 

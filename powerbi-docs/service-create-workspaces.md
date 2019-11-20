@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020251"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021118"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI에서 클래식 작업 영역 만들기
 
@@ -39,7 +39,7 @@ Power BI에서 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉�
 ### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Office 365 작업 영역에 이미지 추가(선택 사항)
 기본적으로 Power BI는 해당 앱에 앱의 이니셜이 포함된 작은 컬러 원을 만듭니다. 하지만 이미지로 사용자 지정할 수도 있습니다. 이미지를 추가하려면 Exchange Online 라이선스가 필요합니다.
 
-1. **작업 영역**을 선택하고 작업 영역 이름 옆의 줄임표(...), **구성원**을 차례로 선택합니다. 
+1. **작업 영역**을 선택하고 작업 영역 이름 옆에 있는 **추가 옵션**(...)을 선택한 다음, **구성원**을 선택합니다. 
    
      ![작업 영역 구성원 선택](media/service-create-workspaces/power-bi-workspace-old-members.png)
    

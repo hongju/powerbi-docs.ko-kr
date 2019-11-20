@@ -2,7 +2,6 @@
 title: Power BI Desktop의 Excel에서 분석 문제 해결
 description: Excel에서 일반적인 분석 문제에 대한 해결 방법
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: a2116f2146072590c4cbcc7f41d941950d9692f0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 987078ae33af10e9c33b4d8a00f8e2e688be12a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543970"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865771"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Excel에서 분석 문제 해결
 
@@ -24,7 +23,7 @@ Excel에서 분석을 사용할 때 예기치 않은 결과를 얻거나 기능�
 > [!NOTE]
 > [Excel에서 분석](service-analyze-in-excel.md)을 설명하고 사용하도록 설정하는 별도의 전용 페이지가 제공됩니다.
 > 
-> 아래 나열되어 있지 않은 시나리오가 발생하고 문제를 발생시킨 경우 [커뮤니티 사이트](http://community.powerbi.com/)에 추가 지원을 요청하거나 [지원 티켓](https://powerbi.microsoft.com/support/)을 만들 수 있습니다.
+> 아래 나열되어 있지 않은 시나리오가 발생하고 문제를 발생시킨 경우 [커뮤니티 사이트](https://community.powerbi.com/)에 추가 지원을 요청하거나 [지원 티켓](https://powerbi.microsoft.com/support/)을 만들 수 있습니다.
 > 
 > 
 
@@ -40,7 +39,7 @@ Excel에서 분석을 사용할 때 예기치 않은 결과를 얻거나 기능�
 * 피벗 테이블 값 영역으로 아무것도 끌어올 수 없음(측정값 없음)
 
 ## <a name="update-excel-libraries-for-the-ole-db-provider"></a>OLE DB 공급자에 대한 Excel 라이브러리 업데이트
-**Excel에서 분석**을 사용하려면 컴퓨터에 최신 AS OLE DB 공급자가 설치되어 있어야 합니다. 이 [커뮤니티 게시물](http://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081)은 OLE DB 공급자의 설치를 확인하거나 최신 버전을 다운로드하는 데 훌륭한 소스입니다.
+**Excel에서 분석**을 사용하려면 컴퓨터에 최신 AS OLE DB 공급자가 설치되어 있어야 합니다. 이 [커뮤니티 게시물](https://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081)은 OLE DB 공급자의 설치를 확인하거나 최신 버전을 다운로드하는 데 훌륭한 소스입니다.
 
 Excel 라이브러리는 비트 수준 측면에서 Windows 버전과 일치해야 합니다. 64비트 Windows가 설치되어 있으면 64비트 OLE DB 공급자를 설치해야 합니다.
 

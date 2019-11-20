@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c46b58369c334ff5364cee00bb5c3f8cd025adf0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: e57df395fd3efe439cb6ef009cb2c7a9f3fe99f9
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305855"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431639"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -53,7 +53,7 @@ Power BI Premium 구독은 Microsoft 365 관리 센터에서 관리자가 구입
 
 Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 워크로드가 다른 고객과 공유되는 계산 리소스에서 실행되는 공유 용량과는 달리 전용 용량은 조직에서 단독으로 사용하는 것입니다. 호스팅된 콘텐츠에 대해 신뢰할 수 있고 일관된 성능을 제공하는 전용 계산 리소스로 격리됩니다. 
 
-작업 영역은 용량 내에 상주합니다. 각 Power BI 사용자는 **내 작업 영역**이라는 개인 작업 영역을 갖습니다. 협업을 지원하기 위해 **앱 작업 영역**이라는 추가 작업 영역을 만들 수 있습니다. 기본적으로 개인 작업 영역을 포함한 작업 영역은 공유 용량에서 생성됩니다. 프리미엄 용량이 있는 경우 내 작업 영역 및 앱 작업 영역을 모두 프리미엄 용량에 할당할 수 있습니다.
+작업 영역은 용량 내에 상주합니다. 각 Power BI 사용자는 **내 작업 영역**이라는 개인 작업 영역을 갖습니다. 협업을 사용하도록 설정하기 위해 **작업 영역**이라는 추가 작업 영역을 만들 수 있습니다. 기본적으로 개인 작업 영역을 포함한 작업 영역은 공유 용량에서 생성됩니다. 프리미엄 용량이 있는 경우 내 작업 영역 및 작업 영역을 모두 프리미엄 용량에 할당할 수 있습니다.
 
 ### <a name="capacity-nodes"></a>용량 노드
 
@@ -71,7 +71,7 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 
 | 용량 노드 | 총 V 코어 | 백 엔드 V 코어 | RAM(GB) | 프런트 엔드 V 코어 | DirectQuery/Live Connection(초당) | 모델 새로 고침 병렬 처리 |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
+| EM1/A1 | 1 | 0.5 | 3 | 0.5 | 3.75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |

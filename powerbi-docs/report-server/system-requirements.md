@@ -3,18 +3,17 @@ title: Power BI Report Server를 설치하기 위한 하드웨어 및 소프트�
 description: 이 문서에는 Power BI Report Server를 설치하고 실행하기 위한 최소 하드웨어 및 소프트웨어 요구 사항이 표시됩니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/23/2019
-ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: aeb47f7f2a6e2de7c8c5095561819367ab16a7e9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415359"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873933"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항
 
@@ -24,7 +23,7 @@ ms.locfileid: "68415359"
 
 | 구성 요소 | 요구 사항 |
 | --- | --- |
-| .NET Framework |4.6<br><br>[Windows용 Microsoft .NET Framework 4.6(웹 설치 관리자)](http://support.microsoft.com/kb/3045560)에서 .NET Framework를 수동으로 설치할 수 있습니다.<br/><br/> .NET Framework 4.6에 대한 자세한 정보, 권장 사항 및 지침은 [개발자를 위한 .NET Framework 배포 가이드](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)를 참조하세요.<br/><br/>.NET Framework 4.6을 설치하기 전에 Windows 8.1 및 Windows Server 2012 R2에는 [KB2919355](http://support.microsoft.com/kb/2919355)가 필요합니다. |
+| .NET Framework |4.6<br><br>[Windows용 Microsoft .NET Framework 4.6(웹 설치 관리자)](https://support.microsoft.com/kb/3045560)에서 .NET Framework를 수동으로 설치할 수 있습니다.<br/><br/> .NET Framework 4.6에 대한 자세한 정보, 권장 사항 및 지침은 [개발자를 위한 .NET Framework 배포 가이드](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)를 참조하세요.<br/><br/>.NET Framework 4.6을 설치하기 전에 Windows 8.1 및 Windows Server 2012 R2에는 [KB2919355](https://support.microsoft.com/kb/2919355)가 필요합니다. |
 | 하드 디스크 |Power BI Report Server에는 최소 1GB의 하드 디스크 여유 공간이 필요합니다.<br><br>Report Server 데이터베이스를 호스팅하는 데이터베이스 서버에 추가 공간이 필요합니다. |
 | 메모리 |**최소값:** 1GB<br/><br/> **권장:** 최소 4GB |
 | 프로세서 속도 |**최소:** x64 프로세서: 1.4GHz<br/><br/> **권장:** 2.0GHz 이상 |
@@ -77,6 +76,6 @@ Power BI Report Server는 Report Server를 작동하는 데 필요한 핵심 설
 [관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SSDT(SQL Server Data Tools) 다운로드](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Power BI Desktop의 데이터 보기
 description: Power BI Desktop의 데이터 보기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 87a72ba5ac69334c04e65871c81a9006e183d88d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454469"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876366"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop의 데이터 보기
 **데이터 보기**는 **Power BI Desktop** 모델의 데이터를 검사, 탐색 및 이해하는 데 도움이 됩니다. **쿼리 편집기**에서 테이블, 열 및 데이터를 보는 것과는 차이가 있습니다. 데이터 뷰에서는 모델에 데이터를 로드한 *후의* 데이터를 보게 됩니다.

@@ -1,20 +1,19 @@
 ---
 title: 포함된 Power BI 콘텐츠에 앱 등록
 description: Power BI 콘텐츠 포함에 사용하기 위해 Azure Active Directory 내에서 애플리케이션을 등록하는 방법에 대해 알아봅니다.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a2aa135bfa5720763485579b012c13c722637db
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269694"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009791"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI와 함께 사용할 Azure AD 애플리케이션 등록
 
@@ -83,7 +82,7 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 3. 페이지의 오른쪽 위에서 사용자 계정을 선택하여 Azure AD 테넌트를 선택합니다.
 
-4. 왼쪽 탐색 창에서 **모든 서비스**로 이동하고, **앱 등록**을 선택한 다음, **새 등록**을 선택합니다.
+4. 왼쪽 탐색 창에서 **모든 서비스**로 이동하여 **앱 등록**을 선택한 다음, **새 등록**을 선택합니다.
 
 5. 메시지에 따라 새 애플리케이션을 만듭니다.
 
@@ -105,7 +104,7 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 ### <a name="using-the-azure-ad-portal"></a>Azure AD 포털 사용
 
-1. Azure Portal 내에서 [앱 등록](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade)으로 이동한 후 포함에 사용할 앱을 선택합니다.
+1. Azure Portal 내에서 [앱 등록](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/)으로 이동한 후 포함에 사용할 앱을 선택합니다.
 
 2. **관리**에서 **API 권한**을 선택합니다.
 
@@ -199,4 +198,6 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 이제 Azure AD에서 애플리케이션을 등록했으므로 애플리케이션 내에서 사용자를 인증해야 합니다. 자세한 내용은 [사용자 인증 및 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기](get-azuread-access-token.md)를 살펴보세요.
 
+
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+

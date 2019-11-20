@@ -2,7 +2,6 @@
 title: 모바일 앱 보고서 최적화 - Power BI
 description: 휴대폰 및 태블릿을 위해 세로 버전의 보고서를 만들어서 Power BI 휴대폰 앱을 위해 보고서 페이지를 최적화하는 방법을 알아보세요.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 006d0e02f3b0aa7860cade4d8e035ddc299e8ba8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61310788"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878405"
 ---
 # <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Power BI 모바일 앱 보고서 최적화
 세로 레이아웃을 만들어 모바일 앱에서 보고서를 보는 환경을 개선할 수 있습니다. Power BI Desktop 및 Power BI 서비스에서 보고서 시각적 개체를 다시 정렬하고 크기를 조정하여 세로 모드에서 최적의 환경을 경험할 수 있습니다.  
@@ -110,5 +109,5 @@ Power BI는 시각적 요소의 크기가 변경될 때 데이터가 보여지�
 * [Power BI에서 대시보드 휴대폰 보기 만들기](service-create-dashboard-mobile-phone-view.md)
 * [휴대폰에 대해 최적화된 Power BI 보고서 보기](consumer/mobile/mobile-apps-view-phone-report.md)
 * [모든 크기에 최적화된 반응형 시각적 개체 만들기](visuals/desktop-create-responsive-visuals.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

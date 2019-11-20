@@ -10,12 +10,12 @@ ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 104b903e6b7a47b5ce35dc5c0627a43d54c1090a
-ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
+ms.openlocfilehash: 877d3590fab67f0aed3c3ab6dc9de9a96ade5dc9
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "71691240"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431458"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -29,7 +29,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 원본 데이터 | 클라우드 및/또는 온-프레미스 | 클라우드 및/또는 온-프레미스 |  |
 | 라이선스 | Power BI Premium 또는 SQL Server EE(SA 포함) | Power BI Pro 및/또는 Power BI Premium | |  
 | 수명 주기 | 최신 수명 주기 정책 | 완전히 관리되는 서비스 |  |
-| 릴리스 주기 | 4개월마다 한 번 | 1개월에 한 번 | 최신 기능 및 수정은 Power BI 서비스에 대해 먼저 제공됩니다. 대부분의 핵심 기능은 다음 몇 가지 릴리스에서 Power BI Report Server에 대해 제공되고, 일부 기능은 Power BI 서비스에만 적용됩니다. |
+| 릴리스 주기 | 1년에 세 번(1월, 5월, 9월) | 1개월에 한 번 | 최신 기능 및 수정은 Power BI 서비스에 대해 먼저 제공됩니다. 대부분의 핵심 기능은 다음 몇 가지 릴리스에서 Power BI Report Server에 대해 제공되고, 일부 기능은 Power BI 서비스에만 적용됩니다. |
 | Power BI Desktop에서 Power BI 보고서 만들기 | 예 | 예 |  |
 | 브라우저에서 Power BI 보고서 만들기 | 아니요 | 예 |  |
 | 게이트웨이 필요 | 아니요 | 온-프레미스 데이터 원본의 경우 예 |  |
@@ -49,7 +49,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 데이터 경고 | 아니요 | 예 | Power BI 서비스의 [데이터 경고](../service-set-data-alerts.md)
 | 행 수준 보안(RLS) | 예 | 예 | DirectQuery(데이터 원본) 및 가져오기 모드에서 사용 가능 <br><br>[Power BI 서비스](../service-admin-rls.md)의 행 수준 보안 <br><br>[Power BI Report Server](row-level-security-report-server.md)의 행 수준 보안 |
 | 전체 화면 모드 | 아니요 | 예 | Power BI 서비스의 [전체 화면 모드](../consumer/end-user-focus.md) |
-| 고급 Office 365 협업 | 아니요 | 예 | Office 365를 사용하여 [앱 작업 영역에서 공동 작업](../service-collaborate-power-bi-workspace.md) |
+| 고급 Office 365 협업 | 아니요 | 예 | Office 365를 사용하여 [작업 영역에서 협업](../service-collaborate-power-bi-workspace.md) |
 | R 시각적 개체 | 아니요 | 예 | Power BI Desktop에서[R 시각적 개체를 만들고](../desktop-r-visuals.md) Power BI 서비스에 게시합니다. R 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다.  |
 | 미리 보기 기능 | 아니요 | 예 | [Power BI 서비스 미리 보기 기능 옵트인](../consumer/end-user-preview-features.md) |
 | 사용자 지정 시각적 개체 | 예 | 예 | [Power BI의 사용자 지정 시각적 개체](../power-bi-custom-visuals.md) |

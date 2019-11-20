@@ -3,18 +3,17 @@ title: Power BI 시각적 개체에서 슬라이서 동기화 기능 사용
 description: 이 문서에서는 Power BI 시각적 개체에 슬라이서 동기화 기능을 추가하는 방법을 설명합니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 47f0148528d1ccfd451aa8e8ed87b4bec99d087e
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 055878988a197b80a8e4842a6567966f75af2ce5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194390"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880135"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>Power BI 시각적 개체의 슬라이서 동기화
 

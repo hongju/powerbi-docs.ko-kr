@@ -2,7 +2,6 @@
 title: Power BI 서비스란?
 description: Power BI 서비스 개요와 Power BI의 다른 부분과 어떻게 연계되는지 설명합니다.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 featuredvideoid: B2vd4MQrz4M
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 22446936f36074379242bd54af15c9bb2864e4a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060869"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874981"
 ---
 # <a name="what-is-the-power-bi-service"></a>Power BI 서비스란?
 **Power BI**는 사용자와 비즈니스에 가장 효과적인 방식으로 비즈니스 인사이트를 만들고 공유하고 사용할 수 있도록 하는 함께 작동하는 소프트웨어 서비스, 앱 및 커넥터의 컬렉션입니다. Microsoft Power BI *서비스*(app.powerbi.com)는 Power BI 온라인이라고 하며, Power BI의 SaaS(*Software as a Service*)입니다. Power BI 서비스를 사용하면 *대시보드*를 통해 비즈니스의 상태를 파악할 수 있습니다. 대시보드에 표시된 *타일*을 선택하여 *보고서*를 열고 자세히 살펴볼 수 있습니다. 대시보드 및 보고서는 모든 관련 데이터를 한 장소에 가져오는 *데이터 세트*와 연결합니다. 

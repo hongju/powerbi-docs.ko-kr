@@ -2,7 +2,6 @@
 title: Power BI 계정 닫기
 description: Power BI를 더 이상 사용하지 않으려면 Power BI 계정을 닫을 수 있습니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 227b4e837e75959dc838556ab0215db32131ec07
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6909e07619f36337f9ff69f97f3212afa0f5659d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075652"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857882"
 ---
 # <a name="close-your-power-bi-account"></a>Power BI 계정 닫기
 
@@ -51,4 +50,4 @@ Power BI를 더 이상 사용하지 않으려면 Power BI 계정을 닫을 수 �
 
 ![관리형 계정 닫기](media/service-admin-closing-your-account/close-account-managed.png)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -2,19 +2,18 @@
 title: 외부 게스트 사용자(Azure AD B2B)로 Power BI 콘텐츠 보기
 description: Power BI 모바일 앱을 사용하여 외부 조직의 사용자와 공유하는 콘텐츠를 볼 수 있습니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/27/2019
 ms.author: mshenhav
-ms.openlocfilehash: 900c7b57c2b6283c44e4a1923dd223d7dfd40ef7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69490363"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879331"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>외부 조직의 사용자와 공유하는 Power BI 콘텐츠 보기
 

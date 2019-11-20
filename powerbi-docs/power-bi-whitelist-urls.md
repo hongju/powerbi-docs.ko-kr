@@ -3,19 +3,18 @@ title: 허용 목록의 Power BI URL
 description: 이 문서에서는 Power BI를 사용하는 고객이 연결할 수 있어야 하는 엔드포인트를 설명합니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 5b8cce3c62811509b5a2fa80bdde683c6278c7b2
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 2771329aef1fe7258065c42269060dc1b9e50bd0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624167"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860622"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>허용 목록의 Power BI URL
 
@@ -38,7 +37,7 @@ Power BI는 Office 365 인증 및 ID 섹션에 있는 필수 엔드포인트에 
 
 | 행 | 용도 | 대상 | 포트 |
 | --- | --- | --- | --- |
-| 1 | **필수:** 인증 및 ID | [Office Online 및 일반적인 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office)에 대한 Office 365 설명서 참조  | 해당 없음 |
+| 1 | **필수:** 인증 및 ID | [Office Online 및 일반적인 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)에 대한 Office 365 설명서 참조  | 해당 없음 |
 
 ## <a name="general-site-usage"></a>일반 사이트 사용
 
@@ -47,7 +46,7 @@ Power BI의 일반적인 사용의 경우 아래 테이블 및 연결된 사이�
 | 행 | 용도 | 대상 | 포트 |
 | --- | --- | --- | --- |
 | 1 | **필수:** 백 엔드 API | *.analysis.windows.net | TCP 443 |
-| 2 | **필수:** Office 365 통합 | [Office Online 및 일반적인 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office)에 대한 Office 365 설명서 참조 | 해당 없음 |
+| 2 | **필수:** Office 365 통합 | [Office Online 및 일반적인 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)에 대한 Office 365 설명서 참조 | 해당 없음 |
 | 3 | **필수:** 포털 | app.powerbi.com | TCP 443 |
 | 4 | **필수:** 서비스 원격 분석 | dc.services.visualstudio.com | TCP 443 |
 | 5 | **선택 사항:** 정보 메시지 | dynmsg.modpim.com | TCP 443 |
@@ -60,7 +59,7 @@ Power BI 내에서 관리 기능을 수행하려면 아래 연결된 사이트�
 
 | 행 | 용도 | 대상 | 포트 |
 | --- | --- | --- | --- |
-| 1 | **필수:** 사용자 관리 및 감사 로그 보기의 경우 | [Office Online 및 일반적인 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office)에 대한 Office 365 설명서 참조 | 해당 없음 |
+| 1 | **필수:** 사용자 관리 및 감사 로그 보기의 경우 | [Office Online 및 일반적인 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)에 대한 Office 365 설명서 참조 | 해당 없음 |
 | | | |
 
 ## <a name="getting-data"></a>데이터 가져오기
@@ -82,7 +81,7 @@ Power BI는 특정 엔드포인트에 따라 대시보드 및 보고서를 지�
 
 | 행 | 용도 | 대상 | 포트 |
 | --- | --- | --- | --- |
-| 1 | **필수:** Excel 통합 | [Office Online 및 일반적인 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office)에 대한 Office 365 설명서 참조 | 해당 없음 |
+| 1 | **필수:** Excel 통합 | [Office Online 및 일반적인 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)에 대한 Office 365 설명서 참조 | 해당 없음 |
 | | | |
 
 ## <a name="custom-visuals"></a>사용자 지정 시각적 개체
@@ -94,7 +93,7 @@ Power BI는 특정 엔드포인트에 따라 사용자 지정 시각적 개체�
 | 1 | **필수:** Marketplace 인터페이스 또는 파일에서 사용자 지정 시각적 개체 가져오기 | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
 | 2 | **선택 사항:** Bing Maps | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **선택 사항:** PowerApps | PowerApps 시스템 요구 사항 사이트에서 [필수 서비스 섹션](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)을 참조하세요. | 해당 없음 |
-| 4 | **선택 사항:** Visio | [Office Online 및 일반 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office)과 [SharePoint Online 및 비즈니스용 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business)에 대한 Office 365 설명서 참조 | 해당 없음 |
+| 4 | **선택 사항:** Visio | [Office Online 및 일반 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)과 [SharePoint Online 및 비즈니스용 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business)에 대한 Office 365 설명서 참조 | 해당 없음 |
 | | | |
 
 ## <a name="related-external-sites"></a>관련 외부 사이트

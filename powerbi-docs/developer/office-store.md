@@ -3,18 +3,17 @@ title: AppSource에 Power BI 시각적 개체 게시하기
 description: 다른 사람이 검색하고 사용할 수 있도록 사용자 지정 시각적 개체를 AppSource에 게시하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307663"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128050"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>AppSource에 Power BI 시각적 개체 게시하기
 
@@ -38,10 +37,10 @@ ms.locfileid: "72307663"
 | 샘플 .pbix 보고서 파일 |예 |시각적 개체를 소개하는 경우 사용자가 시각적 개체에 익숙해질 수 있도록 도움을 줘야 합니다. 시각적 개체가 사용자에게 도움이 되는 가치를 강조하고 사용 사례, 서식 지정 옵션 등을 제공해야 합니다. 팁과 요령, 피해야 할 것 등을 포함하는 *"힌트"* 페이지를 마지막에 추가할 수도 있습니다.<br>샘플 .pbix 보고서 파일은 모든 외부 연결 없이 오프라인으로 작업해야 합니다. |
 | 아이콘 |예 |스토어 맨 앞에 표시되는 사용자 지정 시각적 개체 로고를 포함해야 합니다. 가능한 형식은 png, .jpg, .jpeg 또는 .gif입니다. 정확히 300px(너비) x 300px(높이)여야 합니다. **중요** 아이콘을 제출하기 전에 [간단한 가이드](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images)를 주의 깊게 검토하세요. |
 | 스크린샷 |예 |스크린샷을 하나 이상 제공해야 합니다. 가능한 형식은 png, .jpg, .jpeg 또는 .gif입니다. 정확히 1366px(너비) x 768px(높이)여야 합니다. 파일 크기는 1024KB를 초과할 수 없습니다. *활용도를 높이려면, 각 스크린샷에 표시되는 주요 기능의 가치 제안을 분명히 전달하기 위한 텍스트 거품을 추가합니다.* |
-| 다운로드 링크 지원 |예 |시각화 개체에 문제가 있는 고객을 지원하기 위한 URL을 제공합니다. 이 링크는 SellerDashboard 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. URL 형식에 https:// 또는 http:// 를 포함해야 합니다. |
-| 개인정보처리방침 링크 |예 |시각화 개체를 사용하는 고객에 대해 개인 정보 취급 방침에 대한 링크를 제공합니다. 이 링크는 SellerDashboard 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. 링크 형식에 https:// 또는 http:// 를 포함해야 합니다. |
+| 다운로드 링크 지원 |예 |시각화 개체에 문제가 있는 고객을 지원하기 위한 URL을 제공합니다. 이 링크는 SellerDashboard 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. URL 형식은 https:// 또는 https:// 를 포함해야 합니다. |
+| 개인정보처리방침 링크 |예 |시각화 개체를 사용하는 고객에 대해 개인 정보 취급 방침에 대한 링크를 제공합니다. 이 링크는 SellerDashboard 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. 링크 형식에 https:// 또는 https:// 를 포함해야 합니다. |
 | EULA(최종 사용자 사용권 계약) |예 |EULA 파일을 업로드해야 합니다. 자체적인 EULA를 사용하거나 Office 스토어 내에 있는 Power BI 시각적 개체에 대한 기본 EULA를 사용할 수 있습니다. 기본 EULA를 사용하려면 판매자 대시보드의 “최종 사용자 사용권 계약” 파일 업로드 대화 상자에 다음 URL을 붙여넣습니다. [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
-| 비디오 링크 |아니요 |사용자 지정 시각적 개체에 대한 사용자의 관심을 높이려면 시각적 개체에 대한 비디오 링크를 제공하는 것이 좋습니다. URL 형식에 https:// 또는 http:// 를 포함해야 합니다. |
+| 비디오 링크 |아니요 |사용자 지정 시각적 개체에 대한 사용자의 관심을 높이려면 시각적 개체에 대한 비디오 링크를 제공하는 것이 좋습니다. URL 형식은 https:// 또는 https:// 를 포함해야 합니다. |
 | GitHub 리포지토리 |아니요 |다른 개발자가 피드백을 제공하고 코드에 대한 개선을 제안할 수 있도록 시각적 개체의 소스와 함께 샘플 데이터가 있는 [GitHub](https://www.github.com) 리포지토리의 유효한 공개 링크를 제공하는 것이 좋습니다. |
 
 ## <a name="submitting-to-power-bi"></a>Power BI에 제출
@@ -143,13 +142,13 @@ Power BI 팀으로부터 앱 패키지 XML을 받은 후에는 [개발자 센터
 
 ## <a name="certify-your-visual"></a>시각적 개체 인증
 
-시각적 개체를 만든 후 인증된 시각적 개체를 선택적으로 얻을 수 있습니다. 즉, Power BI 서비스 내에서 실행할 수 있으며, PowerPoint로 내보내는 것처럼 서비스의 다른 기능과 함께 사용할 수 있습니다. 자세한 내용은 [*인증된*사용자 지정 시각적 개체 가져오기](../power-bi-custom-visuals-certified.md)를 참조하세요.
+시각적 개체를 만든 후 인증된 시각적 개체를 선택적으로 얻을 수 있습니다. 즉, Power BI 서비스 내에서 실행할 수 있으며, PowerPoint로 내보내는 것처럼 서비스의 다른 기능과 함께 사용할 수 있습니다. 자세한 내용은 [*인증된* 사용자 지정 시각적 개체 가져오기](../developer/power-bi-custom-visuals-certified.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
 [Power BI 사용자 지정 시각적 개체 개발](visuals/custom-visual-develop-tutorial.md)  
 [Power BI의 시각화](../visuals/power-bi-report-visualizations.md)  
-[Power BI의 사용자 지정 시각화](../power-bi-custom-visuals.md)  
-[*인증된* 사용자 지정 시각적 개체 가져오기](../power-bi-custom-visuals-certified.md)
+[Power BI의 사용자 지정 시각화](../developer/power-bi-custom-visuals.md)  
+[*인증된* 사용자 지정 시각적 개체 가져오기](../developer/power-bi-custom-visuals-certified.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -2,20 +2,19 @@
 title: 큰 데이터 세트, 데이터 요소 제한 및 데이터 전략
 description: 시각적 개체 및 데이터 감소 전략에 대한 데이터 제한
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/07/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61276431"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74011291"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>시각적 개체 유형별 데이터 요소 제한 및 전략
 
@@ -64,7 +63,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 - 범주별 모드인 경우
     - 범주: 한 번에 500개 행의 창을 사용하여 가상화
     - 계열: 상위 60
-    - 스칼라 모드인 경우(이는 동적 제한을 사용할 수 있음)
+    - 스칼라 모드인 경우(동적 제한을 사용할 수 있음)
         - 최대 요소: 10,000
         - 범주: 500개 값 샘플
         - 계열: 상위 20개 값
@@ -113,8 +112,8 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 - 위도, 경도: [고밀도 분산형](desktop-high-density-scatter-charts.md) 참조
 - 위도, 경도, 크기: 상위 3,500
 - 범례, 위도, 경도: [고밀도 분산형](desktop-high-density-scatter-charts.md) 참조
-- 범례, 위도, 경도, 크기: 상위 233개 범례, 상위 15개 위도 및 경고(여기에는 통계 또는 동적 제한이 사용될 수 있음)
-- 위치, 범례, 위도 경도를 집계로(+/-Size): 상위 233개 위치, 상위 15개 범례(여기에는 통계 또는 동적 제한이 사용될 수 있음)
+- 범례, 위도, 경도, 크기: 상위 233개 범례, 상위 15개 위도 및 경고(통계 또는 동적 제한을 사용할 수 있음)
+- 위치, 범례, 위도 및 경도를 집계로(+/-Size): 상위 233개 위치, 상위 15개 범례(통계 또는 동적 제한을 사용할 수 있음)
 
 ### <a name="matrix"></a>Matrix
 - 행: 한 번에 500개 행의 창을 사용하여 가상화
@@ -142,21 +141,20 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 - 범주별 모드인 경우
     - 범주: 한 번에 500개 행의 창을 사용하여 가상화(데이터 창)
     - 계열: 상위 60
-    - 스칼라 모드인 경우(이는 동적 제한을 사용할 수 있음)
+    - 스칼라 모드인 경우(동적 제한을 사용할 수 있음)
         - 최대 요소: 10,000
         - 범주: 500개 값 샘플
         - 계열: 상위 20개 값
 
-### <a name="shape-map"></a>도형 맵
-등치 지역도에는 통계 또는 동적 제한을 사용할 수 있습니다. 
-- 최대 요소: 10,000
+### <a name="shape-map-preview"></a>도형 맵(미리 보기)
+도형 맵에는 통계 또는 동적 제한을 사용할 수 있습니다. 
+- 최대 요소: 1,500
 - 범주: 상위 500
-- 계열(X 및 Y가 둘 다 있는 경우): 상위 20
 
 ### <a name="table"></a>테이블
 - 값: 한 번에 500개 행의 창을 사용하여 가상화(데이터 창)
 
-### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>트리 맵(여기에는 통계 또는 동적 제한이 사용될 수 있음)
+### <a name="tree-map-could-use-statistics-or-dynamic-limits"></a>트리 맵(통계 또는 동적 제한을 사용할 수 있음)
 - 최대 요소: 3,500
 - 그룹: 상위 500
 - 세부 정보: 상위 20

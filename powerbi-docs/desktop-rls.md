@@ -3,7 +3,6 @@ title: Power BI Desktop을 사용하는 행 수준 보안(RLS) 이해
 description: Power BI Desktop 내에서 가져온 데이터 세트 및 DirectQuery에 대한 행 수준 보안을 구성하는 방법입니다.
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 08/14/2019
 LocalizationGroup: Create reports
-ms.openlocfilehash: 91f2da65764480a0cf9cf298a052436b27e18c83
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: d3c3310b6fd60d0e6f30eabd4c5136af5b8c54ff
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560955"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866007"
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>Power BI Desktop을 사용하는 행 수준 보안(RLS)
 
@@ -41,4 +40,4 @@ Power BI Desktop에서 RLS(행 수준 보안)를 사용하여 지정된 사용�
 
 [Power BI 서비스를 사용하는 행 수준 보안(RLS)](service-admin-rls.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
