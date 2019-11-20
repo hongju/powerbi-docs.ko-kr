@@ -198,4 +198,6 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 이제 Azure AD에서 애플리케이션을 등록했으므로 애플리케이션 내에서 사용자를 인증해야 합니다. 자세한 내용은 [사용자 인증 및 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기](get-azuread-access-token.md)를 살펴보세요.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+
