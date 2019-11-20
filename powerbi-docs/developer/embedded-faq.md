@@ -206,7 +206,7 @@ PowerBI.com을 사용하여 Power BI Embedded 용량에 작업 영역을 할당/
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>RLS(행 수준 보안)를 사용하는 것과 JavaScript 필터를 사용하는 차이는 무엇인가요?
 
-RLS와 JavaScript 필터를 사용할 때 혼란이 있는 경우가 종종 있습니다. 한 가지 방법은 특정 사용자가 볼 수 있는 것을 제어하는 것이고 다른 방법은 사용자의보기를 최적화하는 것입니다.
+RLS와 JavaScript 필터를 사용할 때 혼란이 있는 경우가 종종 있습니다. 한 가지 방법은 특정 사용자가 볼 수 있는 것을 제어하는 것이고 다른 방법은 사용자의 보기를 최적화하는 것입니다.
 
 RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데이터 필터링을 제어합니다. 최종 사용자는 ISV가 사용자에게 보도록 허용한 내용만 볼 수 있습니다. 이 경우 사용자는 필터링되는 것보다 적은 내용을 볼 수 있지만, RLS 구성을 무시하고 허용되는 것보다 더 많은 내용을 볼 수는 없습니다.
 
