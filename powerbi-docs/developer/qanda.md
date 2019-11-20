@@ -46,7 +46,7 @@ var qnaContainer = $('#qnaContainer')[0];
 var qna = powerbi.embed(qnaContainer, config);
 ```
 
-## <a name="set-question"></a>질문 설정
+## <a name="set-question"></a>설정 질문
 
 설정 질문과 함께 **결과 전용 모드**를 사용하면 추가 질문을 프레임에 삽입하고 이전 결과를 대체하여 즉시 답변을 받도록 할 수 있습니다. 새 질문과 일치하는 새 시각적 개체가 렌더링됩니다.
 
