@@ -21,9 +21,9 @@ ms.locfileid: "73875803"
 
 이제 **Power BI Embedded**를 사용하는 고객은 [Power BI Premium에서 Multi-Geo를 사용하여 지원](../service-admin-premium-Multi-Geo.md)하는 것과 동일한 기능 및 제한 사항에 따라 **Multi-Geo** 옵션을 사용하여 **A 용량**을 설정할 수 있습니다.
 
-## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>Multi-Geo를 사용하여 새로운 Power BI Embedded 용량 리소스 만들기
+## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>다중 지역을 사용하여 새로운 Power BI Embedded 용량 리소스 만들기
 
-**리소스 만들기** 화면에서 용량의 위치를 선택해야 합니다. 지금까지는 Power BI 테넌트의 위치로만 제한되었으므로 단일 위치만 사용할 수 있었습니다. Multi-Geo를 사용하면 용량을 배포할 다른 지역을 선택할 수 있습니다.
+**리소스 만들기** 화면에서 용량의 위치를 선택해야 합니다. 지금까지는 Power BI 테넌트의 위치로만 제한되었으므로 단일 위치만 사용할 수 있었습니다. 다중 지역을 사용하면 용량을 배포할 다른 지역을 선택할 수 있습니다.
 
 ![Power BI Embedded Multi-Geo 설정](media/embedded-multi-geo/pbie-multi-geo-setup.png)
 
@@ -61,9 +61,9 @@ Power BI 콘텐츠를 다른 지역으로 이동하려면 다음 단계를 따�
 
 콘텐츠를 다시 할당하지 않고 용량을 삭제하려는 경우 해당 용량의 모든 콘텐츠가 홈 지역에 있는 공유 용량으로 이동된다는 점에 유의하세요.
 
-## <a name="api-support-for-multi-geo"></a>Multi-Geo에 대한 API 지원
+## <a name="api-support-for-multi-geo"></a>다중 지역에 대한 API 지원
 
-API를 통해 Multi-Geo를 사용한 용량 관리를 지원하기 위해 기존 API를 약간 변경했습니다.
+API를 통해 다중 지역을 사용한 용량 관리를 지원하기 위해 기존 API를 약간 변경했습니다.
 
 1. **[용량 가져오기](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** - API에서 사용자에 대한 액세스 권한이 포함된 용량 목록을 반환합니다. 이제 응답에는 용량의 위치를 지정하는 ‘지역’이라는 추가 속성이 포함됩니다.
 
