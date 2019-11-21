@@ -310,7 +310,7 @@ Program.cs에 이 코드를 추가합니다.
     }
 ```
 
-위의 코드에서 **_//Get the first id_** 를 지정했지만 올바른 방법은 이름으로 데이터 세트을 검색하는 것입니다.
+위의 코드에서 **_//Get the first id_**를 지정했지만 올바른 방법은 이름으로 데이터 세트를 검색하는 것입니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 대시보드에 데이터 푸시](walkthrough-push-data.md)  
