@@ -2,7 +2,6 @@
 title: Power BI 콘텐츠를 최신 상태로 유지하는 방법
 description: Power BI를 통해 데이터, 보고서, 대시보드 및 앱의 최신 버전을 사용하는 방법에 대해 알아봅니다.
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019791"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863875"
 ---
 # <a name="your-content-is-up-to-date"></a>콘텐츠가 최신 상태입니다.
 
@@ -43,9 +42,9 @@ ms.locfileid: "73019791"
 
 앱 화면에는 디자이너 이름과 앱을 업데이트한 날짜가 모두 표시됩니다.  
 
-1. 왼쪽 탐색 창에서 **앱**을 선택합니다.
+1. 탐색 창에서 **앱**을 선택합니다.
 
-    ![왼쪽 탐색 창](media/end-user-fresh/power-bi-nav-app.png)
+    ![탐색 창](media/end-user-fresh/power-bi-nav-app.png)
 
 
 
@@ -85,7 +84,7 @@ ms.locfileid: "73019791"
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>디자이너가 앱을 삭제하면 어떻게 되나요?
 
-디자이너가 앱을 삭제하면 해당 앱과 연결된 대시보드와 보고서가 Power BI 작업 영역에서도 자동으로 제거됩니다. 더 이상 사용할 수 없으며 앱이 앱 컨테이너 또는 탐색 모음의 다른 위치에 표시되지 않습니다.
+디자이너가 앱을 삭제하면 해당 앱과 연결된 대시보드와 보고서가 Power BI 작업 영역에서도 자동으로 제거됩니다. 더 이상 사용할 수 없으며 앱이 앱 컨테이너 또는 탐색 창의 다른 위치에 표시되지 않습니다.
 
 
 ## <a name="subscribe-to-see-changes"></a>변경 내용을 확인하기 위해 구독

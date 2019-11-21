@@ -2,19 +2,18 @@
 title: '자습서:  VM에서 Power BI Report Server 탐색'
 description: 이 자습서에서는 Power BI Report Server가 이미 설치된 가상 머신을 만들고 웹 포털을 탐색합니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021620"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859248"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>자습서:  VM에서 Power BI Report Server 웹 포털 탐색
 이 자습서에서는 샘플 Power BI 및 페이지를 매긴 보고서와 KPI를 표시, 편집 및 관리해 볼 수 있도록 Power BI Report Server가 이미 설치된 Azure 가상 머신을 만듭니다.
@@ -72,7 +71,7 @@ ms.locfileid: "73021620"
 
 ## <a name="connect-to-your-virtual-machine"></a>가상 머신에 연결
 
-1. Azure 왼쪽 탐색 창에서 **가상 머신**을 선택합니다. 
+1. Azure 탐색 창에서 **가상 머신**을 선택합니다. 
 
 2. **이름으로 필터링** 상자에 “report”를 입력합니다. 
 
@@ -108,7 +107,7 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 |![숫자 4](media/tutorial-explore-report-server-web-portal/number-4.png) | 브라우저에서 Power BI Report Server 웹 포털 열기 |
 |![숫자 5](media/tutorial-explore-report-server-web-portal/number-5.png) | 페이지를 매긴(.RDL) 보고서를 만들기 위한 SQL Server Data Tools 시작 |
 
-**보고서 서버 웹 포털** 아이콘을 두 번 클릭합니다. 브라우저에서 `http://localhost/reports/browse`가 열립니다. 웹 포털에서 유형별로 그룹화된 다양한 파일이 표시됩니다. 
+**보고서 서버 웹 포털** 아이콘을 두 번 클릭합니다. 브라우저에서 `https://localhost/reports/browse`가 열립니다. 웹 포털에서 유형별로 그룹화된 다양한 파일이 표시됩니다. 
 
 ![Power BI Report Server 웹 포털](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

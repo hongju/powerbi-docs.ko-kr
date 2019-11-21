@@ -2,7 +2,6 @@
 title: Power BI 서비스에서 Excel 통합 문서를 통해 멋진 보고서 작성
 description: 이 문서에서는 Excel 통합 문서를 통해 멋진 보고서를 빠르게 만들 수 있는 방법을 보여 줍니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020988"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872510"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Power BI 서비스에서 Excel 통합 문서를 통해 멋진 보고서 작성
 상사가 퇴근 전에 최근 판매 실적과 지난 캠페인에 대한 의견이 포함된 보고서를 제출하도록 요구합니다. 하지만 최신 데이터는 다양한 타사 시스템과 노트북의 파일에 있습니다. 이전에는 시각적 개체를 만들고 보고서 서식을 지정하는 데 몇 시간이 걸렸으며, 걱정이 되기 시작합니다.
@@ -57,7 +56,7 @@ Power BI 서비스는 컴퓨터에 있는 Excel 파일을 포함하여 여러 �
 
    ![만들기 드롭다운](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
 
-4. 왼쪽 탐색 창의 맨 아래에서 **데이터 가져오기**를 선택합니다. 
+4. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다. 
 
 5. **데이터 가져오기** 페이지의 **새 콘텐츠 만들기** 아래에 있는 **파일** 상자에서 **가져오기**를 선택합니다.
 
@@ -140,5 +139,5 @@ Power BI 서비스가 Excel 파일을 가져온 후 보고서 작성을 시작�
 * [Power BI Desktop 시작](desktop-getting-started.md)
 * [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](https://community.powerbi.com/)하세요.
 

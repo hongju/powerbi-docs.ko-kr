@@ -2,7 +2,6 @@
 title: 대시보드, 보고서 및 데이터 세트에서 관련 콘텐츠 보기
 description: 더욱 간편해진 탐색, 대시보드에서 관련 콘텐츠 보기, 보고서 및 데이터 세트
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019436"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862268"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Power BI 서비스에서 관련 콘텐츠 보기
 
@@ -54,9 +53,9 @@ Power BI에서 보고서는 데이터 세트를 기반으로 작성되고, 보�
 ## <a name="view-related-content-for-a-dataset"></a>데이터 세트에 대한 관련 콘텐츠 보기
 **관련 콘텐츠** 창을 열려면 데이터 세트에 대해 *보기* 이상의 권한이 있어야 합니다. 이 예제에서는 [조달 분석 샘플](../sample-procurement.md)을 사용합니다.
 
-탐색 모음에서 **작업 영역** 제목을 찾아 목록에서 작업 영역을 선택합니다. 작업 영역에 콘텐츠가 있는 경우 캔버스에서 오른쪽에 표시됩니다. 
+탐색 창에서 **작업 영역** 제목을 찾아 목록에서 작업 영역을 선택합니다. 작업 영역에 콘텐츠가 있는 경우 캔버스에서 오른쪽에 표시됩니다. 
 
-![왼쪽 탐색 모음의 작업 영역](./media/end-user-related/power-bi-workspace.png)
+![탐색 창의 작업 영역](./media/end-user-related/power-bi-workspace.png)
 
 
 작업 영역에서 **데이터 세트** 탭을 선택하고 **관련 항목 보기** 아이콘 ![관련 항목 보기 아이콘](./media/end-user-related/power-bi-view-related-icon-new.png) 을 찾습니다.
@@ -76,5 +75,5 @@ Power BI에서 보고서는 데이터 세트를 기반으로 작성되고, 보�
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 서비스 시작](../service-get-started.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

@@ -2,19 +2,18 @@
 title: 보고서 보기
 description: 이 항목에서는 Power BI 소비자와 최종 사용자가 Power BI 보고서를 열고 보아야 하는 내용을 표시합니다.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019462"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861962"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>‘소비자’에 대한 Power BI 서비스의 보고서 보기 
 
@@ -33,11 +32,11 @@ ms.locfileid: "73019462"
    ![홈페이지](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>사용자와 공유된 보고서 열기
-Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 추가하여 개별 보고서를 직접 사용자와 공유할 수 있습니다.  이 방식으로 공유된 콘텐츠는 탐색 모음에 있는 **공유한 항목** 컨테이너와 홈 캔버스의 **공유한 항목** 섹션에 표시됩니다.
+Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 추가하여 개별 보고서를 직접 사용자와 공유할 수 있습니다.  이 방식으로 공유된 콘텐츠는 탐색 창에 있는 **공유한 항목** 컨테이너와 홈 캔버스의 **공유한 항목** 섹션에 표시됩니다.
 
 1. Power BI 서비스(app.powerbi.com)를 엽니다.
 
-2. 탐색 모음에서 **홈**을 선택하여 홈 캔버스를 표시합니다.  
+2. 탐색 창에서 **홈**을 선택하여 홈 캔버스를 표시합니다.  
 
    ![홈 캔버스](./media/end-user-report-open/power-bi-select-home-new.png)
    
@@ -66,7 +65,7 @@ Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 �
    ![페이지에 맞추기](./media/end-user-report-open/power-bi-actual.png)
 
 ### <a name="open-a-report-that-is-part-of-an-app"></a>앱의 일부인 보고서 열기
-동료 또는 AppSource에서 앱을 받은 경우 홈과 탐색 모음의 **앱** 컨테이너에서 해당 앱을 사용할 수 있습니다. [앱](end-user-apps.md)은 대시보드와 보고서의 번들입니다.
+동료 또는 AppSource에서 앱을 받은 경우 홈과 탐색 창의 **앱** 컨테이너에서 해당 앱을 사용할 수 있습니다. [앱](end-user-apps.md)은 대시보드와 보고서의 번들입니다.
 
 ### <a name="prerequisites"></a>필수 조건
 작업을 계속 진행하려면 영업 및 마케팅 앱을 다운로드합니다.
@@ -75,7 +74,7 @@ Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 �
 1. **지금 가져오기** > **계속** > **설치**를 선택하여 앱 컨테이너에 앱을 설치합니다. 
 
 앱 컨테이너 또는 홈에서 앱을 열 수 있습니다.
-1. 탐색 모음에서 **홈**을 선택하여 홈으로 돌아갑니다.
+1. 탐색 창에서 **홈**을 선택하여 홈으로 돌아갑니다.
 
 7. **내 앱**이 표시될 때까지 아래로 스크롤합니다.
 
@@ -101,7 +100,7 @@ Power BI ‘디자이너’가 메일의 링크를 통해 또는 자동으로 �
 
 ##  <a name="still-more-ways-to-open-a-report"></a>보고서를 열 수 있는 기타 방법
 Power BI 서비스를 보다 더 편안하게 탐색할 수 있게 되면, 자신에게 가장 적합한 워크플로를 파악할 수 있게 됩니다. 보고서에 액세스하는 몇 가지 다른 방법은 다음과 같습니다.
-- **즐겨찾기** 및 **최근 항목**을 사용하여 탐색 모음에서    
+- **즐겨찾기** 및 **최근 항목**을 사용하여 탐색 창에서    
 - [관련 항목 보기](end-user-related.md) 사용    
 - 누군가가 [사용자와 공유](../service-share-reports.md)하거나 [경고를 설정](end-user-alerts.md)할 때 메일을 통해    
 - [알림 센터](end-user-notification-center.md)를 통해    

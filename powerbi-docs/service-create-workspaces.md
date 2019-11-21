@@ -2,7 +2,6 @@
 title: Power BI에서 클래식 작업 영역 만들기
 description: 작업 영역과 조직에 대한 주요 메트릭을 제공하도록 빌드된 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉션을 만드는 방법을 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021118"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853542"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI에서 클래식 작업 영역 만들기
 
@@ -75,7 +74,7 @@ Power BI에서 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉�
 
 조직 내의 많은 대상 그룹에 공식 콘텐츠를 배포하려는 경우 작업 영역에서 앱을 게시할 수 있습니다.  콘텐츠가 준비되면 게시할 대시보드 및 보고서를 선택한 다음, ‘앱’으로 게시합니다.  각 작업 영역에서 하나의 앱을 만들 수 있습니다.
 
-왼쪽 탐색의 앱 목록에는 설치한 모든 앱이 표시됩니다. 동료는 몇 가지 다른 방법으로 앱을 설치할 수 있습니다. 
+탐색 창의 앱 목록에는 설치한 모든 앱이 표시됩니다. 동료는 몇 가지 다른 방법으로 앱을 설치할 수 있습니다. 
 - Microsoft AppSource에서 앱을 찾아 설치할 수 있습니다.
 - 직접 링크를 보낼 수 있습니다. 
 - Power BI 관리자가 사용자에게 사용 권한을 부여한 경우 동료의 Power BI 계정에서 해당 앱을 자동으로 설치할 수 있습니다. 
@@ -97,4 +96,4 @@ Power BI에서 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉�
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 앱 설치 및 사용](service-create-distribute-apps.md)
 - [새 작업 영역 만들기](service-create-the-new-workspaces.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

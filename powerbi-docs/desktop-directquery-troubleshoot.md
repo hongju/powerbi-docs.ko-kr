@@ -2,19 +2,18 @@
 title: Power BI Desktop의 DirectQuery 모델 문제 해결
 description: DirectQuery 모델 문제를 해결합니다.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac585aef180bb852f79ad5135778cec20f35cf2d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73433504"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868056"
 ---
 # <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Power BI Desktop의 DirectQuery 모델 문제 해결
 
@@ -78,7 +77,7 @@ SQL Server Management Studio를 다운로드하여 설치한 후에 SQL Server P
 
 관심 있는 다른 열은 다음과 같습니다.
 
-- **TextData:** 이벤트의 텍스트 세부 정보입니다. ‘쿼리 시작/종료’ 이벤트의 경우 DAX 쿼리가 됩니다. ‘DirectQuery 시작/종료’ 이벤트의 경우 기본 원본으로 보낸 SQL 쿼리가 됩니다. 현재 선택한 이벤트의 _TextData_ 값도 맨 아래 영역에 표시됩니다.
+- **TextData:** 이벤트의 텍스트 세부 정보입니다. ‘쿼리 시작/종료’ 이벤트의 경우 DAX 쿼리가 됩니다.  ‘DirectQuery 시작/종료’ 이벤트의 경우 기본 원본으로 보낸 SQL 쿼리가 됩니다.  현재 선택한 이벤트의 _TextData_ 값도 맨 아래 영역에 표시됩니다.
 - **EndTime:** 이벤트의 완료 시간입니다.
 - **Duration:** DAX 또는 SQL 쿼리를 실행하는 데 걸리는 시간(밀리초)입니다.
 - **Error:** 오류가 발생했는지 여부를 나타냅니다. 오류가 발생한 경우 이벤트도 빨간색으로 표시됩니다.
@@ -92,7 +91,7 @@ SQL Server Management Studio를 다운로드하여 설치한 후에 SQL Server P
 - 앞에서 설명한 대로 SQL Server Profiler를 열고 추적을 검사합니다. Power BI Desktop을 닫으면 추적 파일이 삭제된다는 것에 유의하세요. 또한 Power BI Desktop의 추가 작업은 바로 표시되지 않으며, 새 이벤트를 확인하려면 추적 파일을 닫았다가 다시 열어야 합니다.
 - 추적 파일을 쉽게 해석할 수 있도록 개별 세션을 적절한 크기로 작게 유지합니다(수백 개가 아닌 작업에서 10초). 추적 파일의 크기가 제한되므로 긴 세션의 경우 초기 이벤트가 삭제될 가능성이 있습니다.
 
-## <a name="understand-the-form-of-query-sent-by-power-bi-desktop"></a>Power BI Desktop에서 보내는 쿼리 형식 이해
+## <a name="understand-queries-sent-to-the-source"></a>원본에 전송된 쿼리 이해
 
 Power BI Desktop에서 생성하고 보내는 쿼리의 일반 형식은 참조된 각 모델 테이블에 대한 하위 쿼리를 사용합니다. 하위 쿼리는 파워 쿼리의 쿼리에서 정의됩니다. 예를 들어 SQL Server 관계형 데이터베이스에 다음과 같은 TPC-DS 테이블이 있다고 가정합니다.
 

@@ -2,7 +2,6 @@
 title: '자습서:  Power BI를 사용하여 GitHub 리포지토리에 연결'
 description: 이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,15 +10,15 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020028"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871269"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>자습서:  Power BI를 사용하여 GitHub 리포지토리에 연결
-이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다. ower BI 콘텐츠 공용 저장소(*리포지토리*라고도 하는)에 연결하여 다음과 같은 질문에 대한 답변을 볼 수 있습니다:  얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요?  가장 많이 기여하는 사람은 누구인가요? 어떤 요일에 기여가 가장 많은가요? 그리고 기타 질문들이 있습니다. 
+이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다. ower BI 콘텐츠 공용 저장소(*리포지토리*라고도 하는)에 연결하여 다음과 같은 질문에 대한 답변을 볼 수 있습니다:  얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여하는 사람은 누구인가요? 어떤 요일에 기여가 가장 많은가요? 그리고 기타 질문들이 있습니다. 
 
 ![Power BI의 GitHub 보고서](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -45,7 +44,7 @@ ms.locfileid: "73020028"
 
 ## <a name="how-to-connect"></a>연결 방법
 1. Power BI 서비스 (https://app.powerbi.com) 에 로그인합니다. 
-2. 왼쪽 탐색 창에서 **앱**, **앱 가져오기**를 차례로 선택합니다.
+2. 탐색 창에서 **앱**, **앱 가져오기**를 선택합니다.
    
    ![Power BI 앱 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
@@ -59,7 +58,7 @@ ms.locfileid: "73020028"
 
     ![새 앱 시작](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
-7. 리포지토리의 리포지토리 이름과 리포지토리 소유자를 입력합니다. 이 리포지토리에 대한 URL은 https://github.com/MicrosoftDocs/powerbi-docs이므로 **리포지토리 소유자**는 **MicrosoftDocs**이고 **리포지토리**는 **powerbi-docs**입니다. 
+7. 리포지토리의 리포지토리 이름과 리포지토리 소유자를 입력합니다. 이 리포지토리에 대한 URL은 https://github.com/MicrosoftDocs/powerbi-docs 이므로 **리포지토리 소유자**는 **MicrosoftDocs**이고 **리포지토리**는 **powerbi-docs**입니다. 
    
     ![Power BI - GitHub 리포지토리 이름](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
@@ -72,15 +71,15 @@ ms.locfileid: "73020028"
    이제 Power BI에서 GitHub와 연결하고 데이터에 연결할 수 있습니다.  하루에 한 번 데이터가 새로 고쳐집니다.
 
 8. Power BI가 데이터를 가져오면 새 GitHub 작업 영역의 콘텐츠가 표시됩니다. 
-9. 왼쪽 탐색 모음에서 작업 영역 이름 옆에 있는 화살표를 선택합니다. 작업 영역에 대시보드 및 보고서가 포함되어 있는 것을 확인할 수 있습니다. 
+9. 탐색 창에서 작업 영역 이름 옆에 있는 화살표를 선택합니다. 작업 영역에 대시보드 및 보고서가 포함되어 있는 것을 확인할 수 있습니다. 
 
-    ![왼쪽 탐색 창의 앱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+    ![탐색 창의 앱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
 10. 대시보드 이름 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **이름 바꾸기**를 선택하고 > **GitHub 대시보드**를 입력합니다.
  
     ![Power BI - GitHub 타일](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
-8. 글로벌 탐색 아이콘을 선택하여 왼쪽 탐색 영역을 최소화하면 더 많은 공간을 확보할 수 있습니다.
+8. 전역 탐색 아이콘을 선택하여 탐색 창을 최소화하면 더 많은 공간을 확보할 수 있습니다.
 
     ![전역 탐색 아이콘](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
@@ -129,7 +128,7 @@ ms.locfileid: "73020028"
 
 자습서를 완료했으므로 GitHub 앱을 삭제할 수 있습니다. 
 
-1. 왼쪽 탐색 모음에서 **앱**을 선택합니다.
+1. 탐색 창에서 **앱**을 선택합니다.
 2. GitHub 타일 위를 마우스로 가리키고 **삭제** 휴지통을 선택합니다.
 
     ![GitHub 앱 삭제](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)

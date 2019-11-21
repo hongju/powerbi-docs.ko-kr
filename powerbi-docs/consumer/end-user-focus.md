@@ -2,7 +2,6 @@
 title: 포커스 모드와 전체 화면 모드 - 확대하여 더 자세히 보는 방법
 description: 포커스 모드 또는 전체 화면 모드에서 Power BI 대시보드, 대시보드 타일, 보고서 또는 보고서 시각적 개체를 표시하는 방법에 대한 설명서
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019815"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852736"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>콘텐츠를 더 자세히 표시: 포커스 모드 및 전체 화면 모드
 
@@ -38,7 +37,7 @@ ms.locfileid: "73019815"
 
 ![대시보드 전체 화면 모드 전과 후](media/end-user-focus/power-bi-dashboards-focus.png)
 
-메뉴 및 탐색 모음 없이 Power BI 서비스 콘텐츠(대시보드, 보고서 페이지, 타일 및 시각적 개체)를 표시합니다.  항상 한눈에 콘텐츠 전체를 볼 수 있습니다. 이를 TV 모드라고도 합니다.   
+메뉴 및 탐색 창 없이 Power BI 서비스 콘텐츠(대시보드, 보고서 페이지, 타일 및 시각적 개체)를 표시합니다.  항상 한눈에 콘텐츠 전체를 볼 수 있습니다. 이를 TV 모드라고도 합니다.   
 
 전체 화면 모드를 열려면 대시보드, 보고서, 포커스 모드의 타일 또는 포커스 모드의 시각적 위에 있는 Power BI 서비스 메뉴 모음에서 **전체 화면** 아이콘 ![전체 화면 아이콘 ](media/end-user-focus/power-bi-full-screen-icon.png)을 선택합니다.  선택한 콘텐츠가 전체 화면을 채웁니다.
 Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 화면을 사용할 수 있습니다](./mobile/mobile-windows-10-app-presentation-mode.md). 
@@ -56,11 +55,11 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
 ![대시보드 전체 화면 모드 전과 후](media/end-user-focus/power-bi-compare-dash.png)
 
-포커스 모드에 있는 동안 Power BI ‘소비자’는 이 시각적 개체가 만들어질 때 적용된 모든 필터를 조작할 수 있습니다.  Power BI 서비스에서는 대시보드 타일 또는 보고서 시각적 개체에서 포커스 모드를 사용할 수 있습니다.
+포커스 모드에 있는 동안 Power BI ‘소비자’는 이 시각적 개체가 만들어질 때 적용된 모든 필터를 조작할 수 있습니다.   Power BI 서비스에서는 대시보드 타일 또는 보고서 시각적 개체에서 포커스 모드를 사용할 수 있습니다.
 
 ## <a name="working-in-full-screen-mode"></a>전체 화면 모드에서 작업
 
-전체 화면 모드에서 대시보드 또는 보고서 페이지를 열려면 전체 화면 아이콘을 선택합니다. ![전체 화면 아이콘](media/end-user-focus/power-bi-full-screen-icon.png) 위쪽 탐색 모음에서. 전체 화면 모드에서 마우스 또는 커서를 이동하면 상황에 맞는 메뉴가 표시됩니다. 전체 화면은 매우 다양한 콘텐츠에 사용할 수 있으므로 상황에 맞는 메뉴의 옵션은 각각 약간 다르지만 별도의 설명 없이도 바로 이해할 수 있습니다.  마우스로 정의의 아이콘을 가리키면 됩니다.
+전체 화면 모드에서 대시보드 또는 보고서 페이지를 열려면 전체 화면 아이콘을 선택합니다. ![전체 화면 아이콘](media/end-user-focus/power-bi-full-screen-icon.png) 위쪽 탐색 창에서 전체 화면 모드에서 마우스 또는 커서를 이동하면 상황에 맞는 메뉴가 표시됩니다. 전체 화면은 매우 다양한 콘텐츠에 사용할 수 있으므로 상황에 맞는 메뉴의 옵션은 각각 약간 다르지만 별도의 설명 없이도 바로 이해할 수 있습니다.  마우스로 정의의 아이콘을 가리키면 됩니다.
 
 대시보드에 대한 메뉴    
 ![대시보드에 대한 메뉴](media/end-user-focus/power-bi-full-screen-dash.png)    
@@ -127,7 +126,7 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
    ![포커스 모드의 시각적 개체](media/end-user-focus/power-bi-display-focus-new.png)
 
-3. 선택적으로 **필터** 창을 사용하여 이 시각적 개체에 적용된 필터를 조작합니다. 데이터를 분석하여 새로운 인사이트와 질문에 대한 대답을 찾아봅니다. ‘소비자’는 새 필터를 추가하거나, 시각적 개체에 사용 중인 필드를 변경하거나, 새 시각적 개체를 만들 수 없습니다.  그러나 Power BI를 종료할 때 기존 필터에 적용하는 모든 변경 내용이 저장됩니다. Power BI가 수정 내용을 기억하지 않도록 하려면 **기본값으로 다시 설정**을 선택합니다. ![기본값으로 다시 설정 단추](media/end-user-focus/power-bi-resets.png)  
+3. 선택적으로 **필터** 창을 사용하여 이 시각적 개체에 적용된 필터를 조작합니다. 데이터를 분석하여 새로운 인사이트와 질문에 대한 대답을 찾아봅니다. ‘소비자’는 새 필터를 추가하거나, 시각적 개체에 사용 중인 필드를 변경하거나, 새 시각적 개체를 만들 수 없습니다  .  그러나 Power BI를 종료할 때 기존 필터에 적용하는 모든 변경 내용이 저장됩니다. Power BI가 수정 내용을 기억하지 않도록 하려면 **기본값으로 다시 설정**을 선택합니다. ![기본값으로 다시 설정 단추](media/end-user-focus/power-bi-resets.png)  
 
 
 5. 포커스 모드에서 나와 시각적 개체의 왼쪽 위 모서리에서 **보고서로 돌아가기**를 선택하여 보고서로 돌아갑니다.
