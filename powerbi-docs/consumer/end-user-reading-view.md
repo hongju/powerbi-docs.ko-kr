@@ -76,7 +76,7 @@ Power BI 대시보드는 시각화를 사용하여 스토리를 전달하는 단
 ## <a name="interact-in-the-power-bi-service"></a>Power BI 서비스에서 상호 작용
 
 ### <a name="collaborate-with-colleagues"></a>동료와 협업
-메일이 필요 없습니다. 대시보드에서 동료와 대시보드에 관한 대화를 시작하거나 개별 주석을 추가합니다. 주석 기능은 다른 사용자와 협업할 수 있는 여러 가지 방법 중 하나일 뿐입니다. 
+메일이 필요 없습니다. 대시보드에서 동료와 대시보드에 관한 대화를 시작하거나 개별 댓글을 추가합니다. 댓글 기능은 다른 사용자와 협업할 수 있는 여러 가지 방법 중 하나일 뿐입니다. 
 
 ![주석 달기 동영상](./media/end-user-reading-view/comment.gif)
 
@@ -103,7 +103,7 @@ Power BI 서비스에서 자동으로 작업을 수행하는 두 가지 방법�
 
 
 ### <a name="use-qa-to-ask-questions-using-natural-language"></a>질문 및 답변을 사용하여 자연어 사용에 대해 질문하기
-경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. 질문 및 답변 상자는 대시보드의 위쪽에서 사용할 수 있습니다. “판매 단계별 대규모 영업 기회 수를 깔때기로 표시합니다.”를 예로 들 수 있습니다. 
+경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. 질문 및 답변 상자는 대시보드의 위쪽에서 사용할 수 있습니다. “show me count of large opportunities by sales stage as a funnel.”를 예로 들 수 있습니다. 
 
 ![질문 및 답변](./media/end-user-reading-view/power-bi-q-and-a.png)
 
