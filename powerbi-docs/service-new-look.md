@@ -32,7 +32,7 @@ Power BI 서비스(app.powerbi.com)의 디자인이 보고서를 더욱 편리�
 
 ## <a name="1-opt-in-to-the-new-look"></a>1. 새 디자인 옵트인(opt in)
 
-Power BI 서비스 사용자는 새 디자인을 옵트인(opt in)할 수 있습니다. **새 디자인 사용 안 함**을 **새 디자인 사용**으로 밀기만 하면 됩니다.
+Power BI 서비스 사용자는 새 디자인을 옵트인(opt in)할 수 있습니다. **새 디자인 해제**를 **새 디자인 사용**으로 밀기만 하면 됩니다.
 
 ![새 디자인 옵트인(opt in)](media/service-new-look/power-bi-new-look-off.png)
 
