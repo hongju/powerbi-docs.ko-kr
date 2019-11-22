@@ -3,18 +3,17 @@ title: Power BI 시각적 개체 개발
 description: Power BI 사용자 지정 시각적 개체를 개발하는 방법에 대한 자습서
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
+ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 1aa269bc738b873ac36498e2ecf52f2cf06c209d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 5bf3fee0f3df7b5be04b99e16a8a4043e8fcf30e
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308700"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128018"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>자습서:  Power BI 시각적 개체 개발
 
@@ -238,7 +237,7 @@ Power BI Desktop 보고서에서 카드는 Circle Card가 되도록 수정됩니
 
     ![데이터 가져오기](media/custom-visual-develop-tutorial/get-data.png) ![로컬 파일](media/custom-visual-develop-tutorial/local-file.png)
 
-    보고서를 보려면 왼쪽에 있는 탐색 창의 **보고서** 섹션에서 **US_Sales_Analysis**를 선택합니다.
+    이제 보고서를 보려면 왼쪽에 있는 탐색 창의 **보고서** 섹션에서 **US_Sales_Analysis**를 선택합니다.
 
     ![사용자 지정 시각적 개체 데스크톱 샘플](media/custom-visual-develop-tutorial/custom-visual-sample.png)
 

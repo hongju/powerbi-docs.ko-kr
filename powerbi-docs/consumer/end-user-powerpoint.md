@@ -2,7 +2,6 @@
 title: 보고서를 Power BI에서 PowerPoint로 내보내기
 description: Power BI 보고서를 PowerPoint로 내보내는 방법을 알아봅니다.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3215dfab54d1537ec5f7ca32ee4bd39b9ef997e5
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 87d9be7a6d82dfc37ba3409b7c5068407671b405
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717019"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099149"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>보고서를 Power BI에서 PowerPoint로 내보내기
 
@@ -31,7 +30,7 @@ Power BI를 사용하여 보고서를 Microsoft PowerPoint에 게시하고 Power
 **Power BI 보고서**를 **PowerPoint**로 빠르게 내보낼 수 있습니다. 다음 섹션에서 설명하는 단계를 수행합니다.
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Power BI 보고서를 PowerPoint로 내보내기
-Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다. **홈**페이지, **앱** 또는 왼쪽 탐색 창의 여타 컨테이너에서 보고서를 선택할 수도 있습니다.
+Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다. **홈** 페이지, **앱** 또는 탐색 창의 다른 컨테이너에서 보고서를 선택할 수도 있습니다.
 
 PowerPoint로 내보내려는 보고서가 캔버스에 표시되면 메뉴 모음에서 **내보내기** > **PowerPoint**를 선택합니다.
 
@@ -60,7 +59,7 @@ Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소�
 
 1. 슬라이드 모음의 첫 번째 페이지에는 보고서의 이름 및 링크가 포함되어 슬라이드 모음의 기반이 되는 보고서를 **Power BI에서 볼** 수 있습니다.
 2. 보고서에 대한 유용한 정보도 확인할 수 있습니다. **마지막 데이터 새로 고침**에는 내보내진 보고서의 기준 날짜와 시간이 표시됩니다. **다운로드됨**에는 Power BI 보고서가 PowerPoint 파일로 내보내진 날짜와 시간이 표시됩니다.
-3. 각 보고서 페이지는 왼쪽 탐색 창에서 표시된 것과 같이 별도 슬라이드입니다. 
+3. 각 보고서 페이지는 탐색 창에서 표시된 것과 같이 별도 슬라이드입니다. 
 4. 게시되는 보고서는 Power BI 설정 또는 브라우저의 로캘 설정에 따른 언어로 렌더링됩니다. 언어 기본 설정을 보거나 설정하려면 ![톱니바퀴 아이콘](media/end-user-powerpoint/power-bi-settings-icon.png) > **설정** > **일반** > **언어**를 선택합니다. 로캘 정보는 [Power BI에 지원되는 언어 및 국가 또는 지역](../supported-languages-countries-regions.md)을 참조하세요.
 5. PowerPoint 프레젠테이션에는 올바른 표준 시간대의 내보낸 시간이 있는 표지 슬라이드가 포함됩니다.
 
@@ -78,7 +77,7 @@ Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소�
 **PowerPoint로 내보내기** 기능을 사용할 때 유의해야 할 고려 사항 및 제한 사항이 있습니다.
 
 * R 시각적 개체는 현재 지원되지 않습니다. 이러한 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
-* 인증된 사용자 지정 시각적 개체는 지원됩니다. 사용자 지정 시각적 개체를 인증하는 방법을 비롯한 인증된 사용자 지정 시각적 개체에 대한 자세한 내용은 [사용자 지정 시각적 개체 인증하기](../power-bi-custom-visuals-certified.md)를 참조하세요. 인증되지 않은 사용자 지정 시각적 개체는 지원되지 않습니다. 이러한 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
+* 인증된 사용자 지정 시각적 개체는 지원됩니다. 사용자 지정 시각적 개체를 인증하는 방법을 비롯한 인증된 사용자 지정 시각적 개체에 대한 자세한 내용은 [사용자 지정 시각적 개체 인증하기](../developer/power-bi-custom-visuals-certified.md)를 참조하세요. 인증되지 않은 사용자 지정 시각적 개체는 지원되지 않습니다. 이러한 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
 * 30개 이상의 보고서 페이지를 포함하는 보고서는 현재 내보낼 수 없습니다.
 * 보고서를 PowerPoint로 내보내는 과정은 몇 분 정도 걸릴 수 있으므로 잠시 기다려 주시기 바랍니다. 소요 시간에 영향을 줄 수 있는 요소에는 보고서의 구조, Power BI 서비스의 현재 부하 등이 있습니다.
 * **PowerPoint로 내보내기** 메뉴 항목을 Power BI 서비스에서 사용할 수 없다면 테넌트 관리자가 이 기능을 사용하지 않도록 설정했을 가능성이 큽니다. 자세한 내용은 테넌트 관리자에게 문의하세요.

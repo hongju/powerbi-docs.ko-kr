@@ -4,7 +4,6 @@ description: 이 빠른 시작에서 **소비자**는 Power BI, 앱, 보고서 �
 services: powerbi
 documentationcenter: ''
 author: mihart
-manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerbi
@@ -13,12 +12,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: ef955f672bc7266979b1e0b9ddbab6e9b6ae1ff7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236980"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862686"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>빠른 시작: *소비자*의 Power BI 기능 알아보기
 이 빠른 시작에서는 Power BI를 조작하여 데이터 기반 비즈니스 인사이트를 검색하는 방법을 알아봅니다. 이 문서에서는 자세한 내용을 제공하는 대신 Power BI **소비자**가 사용할 수 있는 다양한 작업을 빠르게 둘러볼 수 있습니다.
@@ -50,7 +49,7 @@ Power BI에서 “콘텐츠”라는 용어를 사용하는 경우 보고서, �
 
 *앱*은 관련 대시보드 및 보고서를 모두 한 곳에서 결합하는 Power BI 콘텐츠 형식입니다. 앱은 하나 이상의 대시보드와 하나 이상의 보고서를 함께 번들할 수 있습니다. 앱은 귀하와 같은 *소비자*와 함께 앱을 배포하고 공유하는 Power BI *디자이너*에 의해 생성됩니다. 
 
-앱을 보는 한 가지 방법은 탐색 모음에서 **앱**을 선택하고 열려는 앱을 선택하는 것입니다.
+앱을 보는 한 가지 방법은 탐색 창에서 **앱**을 선택하고 열려는 앱을 선택하는 것입니다.
 
 ![앱 가져오기 아이콘](./media/end-user-reading-view/power-bi-apps.png)
 
@@ -89,7 +88,9 @@ Power BI 서비스에서 자동으로 작업을 수행하는 두 가지 방법�
 #### <a name="subscribe-to-a-dashboard-or-report"></a>대시보드(또는 보고서) 구독
 대시보드를 모니터링하기 위해 Power BI를 열 필요가 없습니다.  대신에 구독하면 Power BI가 설정된 일정에 따라 해당 대시보드의 스냅샷을 메일로 보내 줍니다. 
 
+
 ![구독 아이콘 선택](./media/end-user-reading-view/power-bi-subscribe-email.png)
+
 
  [Power BI 구독](end-user-subscribe.md)에 대한 자세한 정보
 
@@ -116,9 +117,9 @@ Power BI 서비스에서 자동으로 작업을 수행하는 두 가지 방법�
 ![세부 정보를 보려면 마우스로 가리킵니다.](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>대시보드를 즐겨찾기에 추가
-콘텐츠를 ‘즐겨찾기’로 만들면 탐색 모음에서 콘텐츠에 액세스할 수 있습니다.  탐색 모음은 Power BI의 모든 영역에 표시됩니다. 즐겨찾기는 일반적으로 가장 자주 방문하는 대시보드, 보고서 페이지 및 앱입니다.
+콘텐츠를 *즐겨찾기*로 만들면 탐색 창에서 콘텐츠에 액세스할 수 있습니다. 탐색 창은 Power BI의 모든 영역에 표시됩니다. 즐겨찾기는 일반적으로 가장 자주 방문하는 대시보드, 보고서 페이지 및 앱입니다.
 
-Power BI 서비스의 오른쪽 위에서 **즐겨찾기**를 선택하거나, 즐겨찾기가 표시되지 않는 경우 줄임표(...)를 선택하고 드롭다운에서 **즐겨찾기**를 선택합니다. 
+Power BI 서비스의 오른쪽 위에 있는 **즐겨찾기**를 선택하거나, 표시되지 않는 경우 **추가 옵션**(...)을 선택한 다음 드롭다운에서 **즐겨찾기**를 선택합니다. 
    
 ![즐겨찾기 아이콘으로 바뀝니다](./media/end-user-reading-view/power-bi-favorites.png)
 
@@ -168,7 +169,7 @@ Easily navigate between the visualizations on the report page.
 ### <a name="sort-a-visualization"></a>시각화 정렬
 보고서 페이지의 시각적 개체를 정렬하고 적용된 변경 내용과 함께 저장할 수 있습니다. 
 
-시각적 개체를 마우스로 가리켜 활성화하고 줄임표(...)를 선택하여 정렬 옵션을 엽니다.
+시각적 개체를 마우스로 가리켜 활성화하고 **추가 옵션**(...)을 선택하여 정렬 옵션을 엽니다.
 
 ![차트 정렬](media/end-user-reading-view/sort.gif) 
 
@@ -177,7 +178,7 @@ Easily navigate between the visualizations on the report page.
 ### <a name="show-the-data-used-to-create-a-visualization"></a>시각화를 만드는 데 사용된 데이터 표시
 Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. **데이터 표시**를 선택하면 Power BI는 시각화 아래(또는 옆에) 데이터를 표시합니다.
 
-시각적 개체를 활성화하고 줄임표(...)를 선택한 다음, **데이터 표시**를 선택합니다.
+시각적 개체를 활성화하고 **추가 옵션**(...)을 선택한 다음, **데이터 표시**를 선택합니다.
    
    ![데이터 표시 선택](./media/end-user-show-data/power-bi-explore-show-data.png)
 
@@ -194,9 +195,9 @@ Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구�
 ‘소비자’가 Power BI 서비스에서 수행할 수 있는 몇 가지 작업을 간략하게 살펴보았습니다.   
 
 ## <a name="clean-up-resources"></a>리소스 정리
-- 앱에 연결한 경우 왼쪽 탐색 모음에서 **앱**을 선택하여 앱 콘텐츠 목록을 엽니다. 삭제할 앱을 마우스로 가리키고 휴지통 아이콘을 선택합니다.
+- 앱에 연결한 경우 탐색 창에서 **앱**을 선택하여 앱 콘텐츠 목록을 엽니다. 삭제할 앱을 마우스로 가리키고 휴지통 아이콘을 선택합니다.
 
-- Power BI 샘플 보고서에 가져오거나 연결한 경우 왼쪽 탐색 모음에서 **내 작업 영역**을 엽니다. 맨 위에 있는 탭을 사용하여 대시보드, 보고서 및 데이터 세트를 찾고 각각의 휴지통 아이콘을 선택합니다.
+- Power BI 샘플 보고서에 가져오거나 연결한 경우 탐색 창에서 **내 작업 영역**을 엽니다. 맨 위에 있는 탭을 사용하여 대시보드, 보고서 및 데이터 세트를 찾고 각각의 휴지통 아이콘을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 [소비자용 Power BI](end-user-consumer.md)

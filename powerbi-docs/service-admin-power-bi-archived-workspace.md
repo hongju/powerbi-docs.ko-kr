@@ -2,7 +2,6 @@
 title: Power BI 보관 작업 영역
 description: Office 365 테넌트를 관리한 후 Power BI 보관 작업 영역
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 891ffffd885e2b5d59cba64e6e99ce7fe3cf811b
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 66bf203cad577df0c985fbd73bcab3c6d79f6a95
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175668"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873559"
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI 보관 작업 영역
 
@@ -24,7 +23,7 @@ ms.locfileid: "71175668"
 
 Power BI를 사용하면 누구나 몇 분 안에 서비스에 가입하고 사용을 시작할 수 있습니다.  나중에 조직의 IT 부서가 조직 내 사용자를 위해 Power BI 관리 인계를 선택할 수 있습니다.  이 인계가 발생하면 조직에서 사용자 및 권한의 중앙 관리를 활용할 수 있습니다. 또한 조직 내 타 서비스에 사용하는 것과 동일한 사용자 이름과 암호를 사용함으로써 능률적인 가입 절차를 활용할 수 있습니다.
 
-IT 부서가 Power BI 관리를 시작하기 전에 사용자가 만든 모든 콘텐츠는 Power BI 보관 작업 영역에 배치되며 [Power BI](https://app.powerbi.com)의 왼쪽 탐색을 통해 액세스할 수 있습니다. 조직의 IT 부서에서 보호 및 관리하는 내 작업 영역에서 새 Power BI 콘텐츠를 만들기 시작해야 합니다.  보관 작업 영역은 그대로 존재하지만 보관 작업 영역의 콘텐츠에 대해 수행할 수 있는 작업에는 제한이 있습니다.  이러한 제한 사항을 제거하려면 보관 작업 영역의 콘텐츠를 IT 부서에서 관리하는 내 작업 영역으로 마이그레이션해야 합니다.
+IT 부서가 Power BI 관리를 시작하기 전에 사용자가 만든 모든 콘텐츠는 Power BI 보관 작업 영역에 배치되며 [Power BI](https://app.powerbi.com)의 탐색 창을 통해 액세스할 수 있습니다. 조직의 IT 부서에서 보호 및 관리하는 내 작업 영역에서 새 Power BI 콘텐츠를 만들기 시작해야 합니다.  보관 작업 영역은 그대로 존재하지만 보관 작업 영역의 콘텐츠에 대해 수행할 수 있는 작업에는 제한이 있습니다.  이러한 제한 사항을 제거하려면 보관 작업 영역의 콘텐츠를 IT 부서에서 관리하는 내 작업 영역으로 마이그레이션해야 합니다.
 
 ## <a name="restrictions-in-your-archived-workspace"></a>보관 작업 영역의 제한 사항
 
@@ -50,5 +49,5 @@ Power BI를 계속 사용하려면 내 작업 영역에서 새 콘텐츠를 만�
 
 * **대시보드**: 콘텐츠 팩의 일부로 설치된 대시보드는 내 작업 영역에서 콘텐츠 팩에 다시 연결할 때 자동으로 다시 생성됩니다. Power BI 서비스를 통해 자체 대시보드를 만든 경우 내 작업 영역에서 해당 대시보드를 다시 만듭니다.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

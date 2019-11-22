@@ -3,7 +3,6 @@ title: Microsoft Power BI Premium 용량 최적화
 description: Power BI Premium 용량의 최적화 전략을 설명합니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: d2e8ede356ed015c4c35b311ca58d35366324b9a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750931"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871905"
 ---
 # <a name="optimizing-premium-capacities"></a>프리미엄 용량 최적화
 
@@ -33,7 +32,7 @@ ms.locfileid: "70750931"
 
 최상의 사용률 및 성능을 얻으려는 경우 다음을 비롯 한 몇 가지 권장 모범 사례가 있습니다.
 
-- 개인 작업 영역 대신 앱 작업 영역 사용
+- 개인 작업 영역 대신 작업 영역 사용
 - 중요 비즈니스용 BI와 SSBI(셀프 서비스 BI)를 각기 다른 용량으로 구분
 
   ![중요 비즈니스용 BI와 셀프 서비스 BI를 각기 다른 용량으로 구분](media/service-premium-capacity-optimize/separate-capacities.png)
@@ -257,7 +256,7 @@ Azure 용량에 생성된 작업 영역에 테스트 콘텐츠를 추가하고, 
 
 부하 테스트를 수행하려는 보고서와 용량이 이미 있는 경우 [PowerShell 부하 생성 도구](https://aka.ms/PowerBILoadTestingTool)를 사용하여 부하 테스트를 빠르게 생성합니다. 이 도구를 사용하면 용량에서 시간당 실행할 수 있는 각 보고서의 인스턴스 수를 예측할 수 있습니다. 이 도구를 사용하여 용량의 개별 보고서 렌더링 기능이나 여러 다른 보고서의 병렬 렌더링 기능을 평가할 수 있습니다. 자세한 내용은 [Microsoft Power BI: 프리미엄 용량](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw) 동영상을 참조하세요.
 
-더 복잡한 테스트를 생성하려면 실제 워크로드를 시뮬레이트하는 부하 테스트 애플리케이션을 개발하는 것이 좋습니다. 자세한 내용은 웨비나 [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)(Visual Studio 부하 테스트를 사용하여 Power BI 애플리케이션 부하 테스트)를 참조하세요.
+더 복잡한 테스트를 생성하려면 실제 워크로드를 시뮬레이트하는 부하 테스트 애플리케이션을 개발하는 것이 좋습니다. 자세한 내용은 웨비나 [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)(Visual Studio 부하 테스트를 사용하여 Power BI 애플리케이션 부하 테스트)를 참조하세요.
 
 ## <a name="acknowledgements"></a>승인
 

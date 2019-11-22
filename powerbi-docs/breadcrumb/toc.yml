@@ -12,9 +12,16 @@
         - name: 개발자
           tocHref: /power-bi/developer/
           topicHref: /power-bi/developer/index
+          items:
+            - name: Power BI에서 R 지원 Power BI 시각적 개체 사용
+              tocHref: /power-bi/developer/
+              topicHref: /power-bi/desktop-r-powered-custom-visuals/
         - name: 단계별 학습
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/
         - name: 보고서 서버
           tocHref: /power-bi/report-server/
           topicHref: /power-bi/report-server/get-started
+        - name: 지침
+          tocHref: /power-bi/guidance/
+          topicHref: /power-bi/guidance/index

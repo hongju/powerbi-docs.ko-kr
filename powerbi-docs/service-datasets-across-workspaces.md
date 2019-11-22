@@ -2,7 +2,6 @@
 title: 작업 영역의 데이터 세트 소개(미리 보기)
 description: 조직 전체의 사용자와 데이터 세트를 공유하는 방법을 알아봅니다. 그런 다음, 자신의 작업 영역에서 데이터 세트를 기반으로 보고서를 빌드할 수 있습니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020782"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877190"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>작업 영역의 데이터 세트 소개(미리 보기)
 
@@ -62,7 +61,7 @@ Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-bu
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-- 앱 게시자는 대상 그룹에게 앱 작업 영역 외부의 데이터 세트에 대한 액세스 권한이 있는지 확인해야 합니다. 그렇지 않으면 사용자가 앱과 상호 작용할 때 문제가 발생할 수 있습니다. 데이터 세트 액세스 권한이 없으면 보고서가 열리지 않으며 대시보드 타일이 잠금 상태로 표시됩니다. 또한 탐색의 첫 번째 항목이 데이터 세트 액세스 권한이 없는 보고서인 경우 사용자가 앱을 열 수 없습니다.
+- 앱 게시자는 대상 그룹이 작업 영역 외부의 데이터 세트에 액세스할 수 있는지 확인해야 합니다. 그렇지 않으면 사용자가 앱과 상호 작용할 때 문제가 발생할 수 있습니다. 데이터 세트 액세스 권한이 없으면 보고서가 열리지 않으며 대시보드 타일이 잠금 상태로 표시됩니다. 또한 탐색의 첫 번째 항목이 데이터 세트 액세스 권한이 없는 보고서인 경우 사용자가 앱을 열 수 없습니다.
 - 다른 작업 영역에서 데이터 세트 위에 보고서를 빌드하려면 양 끝에 새 작업 영역 환경이 있어야 합니다. 보고서는 새 작업 영역 환경에 있어야 하고 데이터 세트도 새 작업 영역 환경에 있어야 합니다.
 - 클래식 작업 영역에서 데이터 세트 검색 환경은 해당 작업 영역의 데이터 세트만 보여줍니다.
 - 의도적으로, 공유 데이터 세트를 기반으로 하는 보고서의 경우 “웹에 게시”가 작동하지 않습니다.
@@ -73,4 +72,4 @@ Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-bu
 - [데이터 세트 승격](service-datasets-promote.md)
 - [데이터 세트 인증](service-datasets-certify.md)
 - [작업 영역에서 데이터 세트 사용 제어](service-datasets-admin-across-workspaces.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4aa3d46741044498846865278db51859980a19b9
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872402"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010833"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>온-프레미스 데이터 게이트웨이 FAQ - Power BI
 
@@ -42,10 +42,6 @@ ms.locfileid: "73872402"
 
 **답변:** Oracle 서버에 연결하기 위해 Oracle 클라이언트를 설치하고 적절한 서버 정보로 tnsnames.ora 파일을 구성해야 할 수 있습니다. 게이트웨이 외부의 별도 설치입니다. 자세한 내용은 [Oracle 클라이언트 설치](service-gateway-onprem-manage-oracle.md#install-the-oracle-client)를 참조하세요.
 
-**질문:** Azure ExpressRoute에서 게이트웨이가 작동하나요? 
-
-**답변:** 예. ExpressRoute 및 Power BI에 대한 자세한 내용은 [Power BI 및 ExpressRoute](service-admin-power-bi-expressroute.md)를 참조하세요.
-
 **질문:** R 스크립트를 사용하고 있습니다. 지원됩니까?
 
 **답변**: R 스크립트는 개인 모드에서만 지원됩니다.
@@ -62,7 +58,7 @@ ms.locfileid: "73872402"
 
 **질문:** Windows 인증을 사용하는 내 온-프레미스 서버의 다른 도메인에 있는 컴퓨터에서 게이트웨이를 설치하면 어떻게 되나요? 
 
-**답변:** 보장할 수는 없습니다. 모두 두 도메인 간의 트러스트 관계에 따라 달라집니다. 서로 다른 두 도메인이 트러스트된 도메인 모델에 있는 경우 게이트웨이에서 Analysis Services 서버에 연결하고 유효한 사용자 이름을 확인할 수 있습니다. 그렇지 않은 경우 로그인 오류가 발생할 수 있습니다.
+**답변:** 보장은 없습니다. 모두 두 도메인 간의 트러스트 관계에 따라 달라집니다. 서로 다른 두 도메인이 트러스트된 도메인 모델에 있는 경우 게이트웨이에서 Analysis Services 서버에 연결하고 유효한 사용자 이름을 확인할 수 있습니다. 그렇지 않은 경우 로그인 오류가 발생할 수 있습니다.
 
 **질문:** 온-프레미스 Analysis Services 서버에 전달되는 유효 사용자 이름을 찾으려면 어떻게 하나요? 
 

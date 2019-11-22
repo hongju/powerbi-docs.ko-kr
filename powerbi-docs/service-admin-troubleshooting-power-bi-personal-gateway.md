@@ -2,7 +2,6 @@
 title: Power BI Gateway 문제 해결(개인 모드)
 description: Power BI Gateway 문제 해결(개인 모드)
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543533"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873391"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI Gateway 문제 해결(개인 모드)
 
@@ -128,7 +127,7 @@ Power BI는 현재 ACE OLEDB 공급자를 사용하여 데이터 원본에 대�
 ![데이터 관리 게이트웨이 및 PowerBIGateway 로그](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Fiddler 추적
-[Fiddler](http://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다. 클라이언트 머신에서 Power BI 서비스에 대한 통신을 볼 수 있습니다. 이 통신에서 오류 및 다른 관련 정보를 표시할 수 있습니다.
+[Fiddler](https://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다. 클라이언트 머신에서 Power BI 서비스에 대한 통신을 볼 수 있습니다. 이 통신에서 오류 및 다른 관련 정보를 표시할 수 있습니다.
 
 ![Fiddler 추적](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ Power BI는 현재 ACE OLEDB 공급자를 사용하여 데이터 원본에 대�
 - [타일 오류 문제 해결](refresh-troubleshooting-tile-errors.md)  
 - [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md) 
  
-궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)에 질문합니다.
+궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)에 질문합니다.
 

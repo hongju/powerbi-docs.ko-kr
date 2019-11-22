@@ -2,19 +2,18 @@
 title: '자습서:  iOS 앱의 질문 및 답변 가상 분석가에게 질문하기'
 description: 이 자습서에서는 iOS 디바이스에 설치된 Power BI 모바일 앱에서 질문 및 답변 가상 분석가를 사용하여 사용자의 고유한 언어로 이 샘플 데이터에 대해 질문합니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61337770"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869651"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>자습서:  Power BI iOS 앱의 질문 및 답변 가상 분석가를 통해 데이터에 대해 질문하기
 
@@ -42,7 +41,7 @@ ms.locfileid: "61337770"
 ## <a name="prerequisites"></a>필수 조건
 
 ### <a name="install-the-power-bi-for-ios-app"></a>iOS용 Power BI 앱 설치
-Apple App Store에서 iPad, iPhone 또는 iPod Touch로 [iOS 앱 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone 앱을 다운로드")합니다.
+Apple App Store에서 iPad, iPhone 또는 iPod Touch로 [iOS 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkId=522062 "iPhone 앱 다운로드")합니다.
 
 iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
 - iOS 10 이상이 설치된 iPad.
@@ -54,11 +53,11 @@ iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
 
 1. 브라우저에서 Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.
 
-1. 전역 탐색 아이콘을 선택하여 왼쪽 탐색을 엽니다.
+1. 글로벌 탐색 아이콘을 선택하여 탐색 창을 엽니다.
 
     ![전역 탐색 아이콘](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. 왼쪽 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
+2. 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
 
     ![내 작업 영역](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
@@ -117,7 +116,7 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 
 1. Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.
 
-2. 왼쪽 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
+2. 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
 
 3. **대시보드** 탭에서 기회 분석 대시보드 옆에 있는 휴지통 **삭제** 아이콘을 선택합니다.
 
