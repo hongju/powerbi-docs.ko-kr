@@ -2,7 +2,6 @@
 title: 시각적 개체에서 드릴다운 및 드릴업하기
 description: 이 문서에서는 Microsoft Power BI 서비스의 시각적 개체에서 드릴다운하는 방법을 보여 줍니다.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589503"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851453"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI에서 시각적 개체 드릴 모드
 
@@ -128,7 +127,7 @@ ms.locfileid: "72589503"
 ## <a name="show-the-data-as-you-drill"></a>드릴할 때 데이터 표시
 **데이터 표시**를 사용하여 백그라운드에서 살펴볼 수 있습니다. 드릴하거나 확장할 때마다 **데이터 표시**는 시각적 개체를 빌드하는 데 사용 중인 데이터를 표시합니다. 따라서 시각적 개체를 빌드하기 위해 계층 구조, 드릴 및 확장 작업이 어떻게 연동되는지를 이해할 수 있습니다. 
 
-오른쪽 위 모서리에서 줄임표(...)를 선택한 후 **데이터 표시**를 선택합니다. 
+오른쪽 위에 있는 **추가 옵션**(...)을 선택한 다음, **데이터 표시**를 선택합니다. 
 
 ![줄임표 메뉴의 스크린샷.](./media/end-user-drill/power-bi-ellipses.png)
 
@@ -153,4 +152,4 @@ ms.locfileid: "72589503"
 
 [Power BI - 기본 개념](end-user-basic-concepts.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

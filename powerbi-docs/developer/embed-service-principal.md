@@ -3,19 +3,18 @@ title: Power BI를 포함하는 서비스 주체
 description: Power BI 콘텐츠 포함에 사용하기 위해 서비스 주체를 사용하여 Azure Active Directory 내에서 애플리케이션을 등록하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073097"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877649"
 ---
 # <a name="service-principal-with-power-bi"></a>Power BI를 포함하는 서비스 주체
 
@@ -58,8 +57,8 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
 |------------------------------------------------------|---------------------|-------------------|
 | Power BI 서비스에 로그인할 수 있습니다.  | 예 | 아니요 |
 | Power BI 관리 포털에서 사용하도록 설정 | 아니요 | 예 |
-| [앱 작업 영역 사용(v1)](../service-create-workspaces.md) | 예 | 아니요 |
-| [새 앱 작업 영역 사용(v2)](../service-create-the-new-workspaces.md) | 예 | 예 |
+| [작업 영역 사용(v1)](../service-create-workspaces.md) | 예 | 아니요 |
+| [새 작업 영역 사용(v2)](../service-create-the-new-workspaces.md) | 예 | 예 |
 | Power BI Embedded와 함께 사용하는 경우 작업 영역 관리자 필요 | 예 | 예 |
 | Power BI REST API 사용 가능 | 예 | 예 |
 | 만들려면 글로벌 관리자 필요 | 예 | 아니요 |
@@ -141,7 +140,7 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 
 ### <a name="how-to-get-the-service-principal-object-id"></a>서비스 주체 개체 ID를 가져오는 방법
 
-서비스 주체를 새 앱 작업 영역에 할당하려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)를 사용합니다. 작업을 위해 서비스 주체를 참조하거나 변경하려면 **서비스 주체 개체 ID**를 사용합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
+서비스 주체를 새 작업 영역에 할당하려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)를 사용합니다. 작업을 위해 서비스 주체를 참조하거나 변경하려면 **서비스 주체 개체 ID**를 사용합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
 
 다음은 Azure Portal에서 서비스 주체 개체 ID를 가져오는 단계입니다.
 
@@ -166,7 +165,7 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-* 서비스 주체는 [새 앱 작업 영역](../service-create-the-new-workspaces.md)에서만 작동합니다.
+* 서비스 주체는 [새 작업 영역](../service-create-the-new-workspaces.md)에서만 작동합니다.
 * 서비스 주체 사용 시 **내 작업 영역**이 지원되지 않습니다.
 * 프로덕션으로 이동 시 전용 용량이 필요합니다.
 * 서비스 주체를 사용하여 Power BI 포털에 로그인할 수 없습니다.

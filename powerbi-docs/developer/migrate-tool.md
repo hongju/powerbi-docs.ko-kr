@@ -3,18 +3,17 @@ title: Power BI Embedded 마이그레이션 도구
 description: 이 마이그레이션 도구는 Power BI Embedded Azure 서비스(PaaS)에서 Power BI 서비스(SaaS)로 보고서를 복사하는 데 사용할 수 있습니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2970744f89bf8fdc115be018d00c8f5b73d9ddfc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61272252"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880589"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 마이그레이션 도구
 
@@ -132,7 +131,7 @@ ms.locfileid: "61272252"
 
 #### <a name="upload-plan"></a>업로드 계획
 
-여기에서 Power BI 서비스 내에서 생성될 앱 작업 영역에 사용할 접두사를 지정할 수 있습니다. 접두사 다음에는 Azure에 존재하는 작업 영역에 대한 GUID가 나옵니다.
+여기서 Power BI 서비스 내에 생성되는 작업 영역에 사용할 접두사를 지정할 수 있습니다. 접두사 다음에는 Azure에 존재하는 작업 영역에 대한 GUID가 나옵니다.
 
 ![업로드 계획](media/migrate-tool/migrate-tool-upload-plan.png)
 
@@ -167,21 +166,21 @@ ms.locfileid: "61272252"
 
 ## <a name="step-3-create-groups"></a>3단계: 그룹 만들기
 
-사용할 수 있는 보고서를 다운로드한 후에는 **그룹 만들기** 탭으로 이동할 수 있습니다. 이 탭에는 생성한 마이그레이션 계획에 따라 Power BI 서비스 내에 앱 작업 영역이 만들어집니다. 그러면 **분석 및 마이그레이션 계획** 내의 **업로드** 탭에 제공한 이름의 앱 작업 영역이 만들어집니다.
+사용할 수 있는 보고서를 다운로드한 후에는 **그룹 만들기** 탭으로 이동할 수 있습니다. 이 탭에서는 만들어진 마이그레이션 계획에 따라 Power BI 서비스 내에 작업 영역을 만듭니다. **분석 및 마이그레이션 계획** 내의 **업로드** 탭에서 입력한 이름으로 작업 영역이 만들어집니다.
 
 ![그룹 만들기](media/migrate-tool/migrate-tool-create-groups.png)
 
-앱 작업 영역을 만들기 위해서는 **선택한 그룹 만들기** 또는 **Create All Missing Groups(누락된 모든 그룹 만들기)** 를 선택하면 됩니다.
+작업 영역을 만들려면 **선택한 그룹 만들기** 또는 **누락된 모든 그룹 만들기**를 선택합니다.
 
-이러한 옵션 중 하나를 선택하면 로그인하라는 메시지가 표시됩니다. *앱 작업 영역을 만들 Power BI 서비스에 대한 자격 증명을 사용합니다.*
+이러한 옵션 중 하나를 선택하면 로그인하라는 메시지가 표시됩니다. ‘작업 영역을 만들려는 Power BI 서비스에 대한 자격 증명을 사용하는 것이 좋습니다.’ 
 
 ![그룹 로그인 만들기](media/migrate-tool/migrate-tool-create-group-sign-in.png)
 
-이렇게 하면 Power BI 서비스 내에 앱 작업 영역이 만들어집니다. 보고서를 앱 작업 영역에 업로드하지 않습니다.
+그러면 Power BI 서비스 내에 작업 영역이 만들어집니다. 보고서가 작업 영역에 업로드되지는 않습니다.
 
-Power BI에 로그인하고 해당 작업 영역이 존재하는지 확인하여 앱 작업 영역이 만들어진 것을 확인할 수 있습니다. 작업 영역에 아무 것도 없음을 확인합니다.
+Power BI에 로그인하고 작업 영역이 있는지 확인하여 작업 영역이 만들어진 것을 검증할 수 있습니다. 작업 영역에 아무 것도 없음을 확인합니다.
 
-![앱 작업 영역](media/migrate-tool/migrate-tool-app-workspace.png)
+![작업 영역](media/migrate-tool/migrate-tool-app-workspace.png)
 
 작업 영역이 만들어지면 **업로드** 탭으로 이동할 수 있습니다.
 
@@ -235,9 +234,9 @@ Power BI에 로그인하고 해당 작업 영역이 존재하는지 확인하여
 
 그런 다음 계획을 다시 열고 마이그레이션 도구에서 실패한 보고서를 업로드합니다.
 
-Power BI로 돌아가, 앱 작업 영역에 업로드한 보고서 및 데이터 세트를 볼 수 있습니다.
+Power BI로 돌아가면 작업 영역에 보고서와 데이터 세트가 업로드된 것을 확인할 수 있습니다.
 
-![앱 작업 영역 업로드](media/migrate-tool/migrate-tool-upload-app-workspace.png)
+![작업 영역 업로드](media/migrate-tool/migrate-tool-upload-app-workspace.png)
 
 <a name="upload-local-file"></a>
 
@@ -264,7 +263,7 @@ DirectQuery 보고서에 대한 연결 문자열을 업데이트해야 합니다
 
 ## <a name="embedding"></a>포함
 
-이제 Power BI Embedded Azure 서비스에서 Power BI 서비스로 보고서가 마이그레이션되었으며 애플리케이션을 업데이트하고 이 앱 작업 영역에 보고서를 포함할 수 있습니다.
+보고서가 Power BI Embedded Azure 서비스에서 Power BI 서비스로 마이그레이션되었으므로, 이제 애플리케이션을 업데이트하고 이 작업 영역에 보고서를 포함할 수 있습니다.
 
 자세한 내용은 [Power BI Embedded 작업 영역 컬렉션 콘텐츠를 Power BI로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md)을 참조하세요.
 
@@ -278,4 +277,4 @@ DirectQuery 보고서에 대한 연결 문자열을 업데이트해야 합니다
 [JavaScript 포함 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

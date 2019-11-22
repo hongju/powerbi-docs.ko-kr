@@ -2,7 +2,6 @@
 title: Power BI Desktop에서 제네릭 인터페이스를 사용하여 데이터에 연결
 description: Power BI Desktop에서 제네릭 인터페이스를 사용하여 다른 데이터 소스를 연결하는 방법 알아보기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ac121ee5154a9d343a912904b20d3244ebee59c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b553d9341723c9b44abce57a384d4c7ba76e00a2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513749"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868991"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Power BI Desktop에서 제네릭 인터페이스를 사용하여 데이터에 연결
 **데이터 가져오기** 창에 표시된 대로, **Access 데이터베이스**에서 **Zendesk** 리소스에 이르는 기본 제공 데이터 커넥터를 사용하여 **Power BI Desktop**에서 다수의 다양한 데이터 원본에 연결할 수 있습니다. **Power BI Desktop**에 빌드된 제네릭 인터페이스(예: **ODBC** 또는 **REST API**)를 사용하여 모든 종류의 *다른* 데이터 원본에 연결하여 추가로 사용자 연결 옵션을 더욱 확장시킬 수도 있습니다.
@@ -48,16 +47,16 @@ ms.locfileid: "65513749"
 
 | Power BI Desktop 제네릭 커넥터 | 외부 데이터 원본 | 자세한 정보에 대한 링크 |
 | --- | --- | --- |
-| ODBC |Cassandra |[Cassandra ODBC 드라이버](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
+| ODBC |Cassandra |[Cassandra ODBC 드라이버](https://www.simba.com/drivers/cassandra-odbc-jdbc/) |
 | ODBC |Couchbase DB |[Couchbase 및 Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
-| ODBC |DynamoDB |[DynamoDB ODBC 드라이버](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
-| ODBC |Google BigQuery |[BigQuery ODBC 드라이버](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
-| ODBC |HBase |[HBase ODBC 드라이버](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
-| ODBC |Hive |[Hive ODBC 드라이버](http://www.simba.com/drivers/hive-odbc-jdbc/) |
+| ODBC |DynamoDB |[DynamoDB ODBC 드라이버](https://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
+| ODBC |Google BigQuery |[BigQuery ODBC 드라이버](https://www.simba.com/drivers/bigquery-odbc-jdbc/) |
+| ODBC |HBase |[HBase ODBC 드라이버](https://www.simba.com/drivers/hbase-odbc-jdbc/) |
+| ODBC |Hive |[Hive ODBC 드라이버](https://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[IBM Netezza 정보](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
-| ODBC |기능 |[Presto ODBC 드라이버](http://www.simba.com/drivers/presto-odbc-jdbc/) |
+| ODBC |기능 |[Presto ODBC 드라이버](https://www.simba.com/drivers/presto-odbc-jdbc/) |
 | ODBC |프로젝트 온라인 |[프로젝트 온라인 문서](desktop-project-online-connect-to-data.md) |
-| ODBC |Progress OpenEdge |[Progress OpenEdge ODBC 드라이버 블로그 게시물](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.progress.com%2Fblogs%2Fconnect-microsoft-power-bi-to-openedge-via-odbc-driver&data=02%7C01%7CMatt.Masson%40microsoft.com%7C5e63742e6c454308b58a08d4034b5923%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636137069555329811&sdata=gSu2Rq3vZ0uBVOgjaXxd8Y3uBf%2B8DidX6PG33jwAduY%3D&reserved=0) |
+| ODBC |Progress OpenEdge |[Progress OpenEdge ODBC 드라이버 블로그 게시물](https://www.progress.com/blogs/connect-microsoft-power-bi-to-openedge-via-odbc-driver) |
 
 ## <a name="data-sources-accessible-through-ole-db"></a>OLE DB를 통해 액세스할 수 있는 데이터 원본
 **Power BI Desktop**의 **OLE DB** 커넥터를 사용하면 간단히 *연결 문자열*을 지정하여 모든 타사 OLE DB 드라이버에서 데이터를 가져올 수 있습니다. 필요에 따라 OLE DB 드라이버에 대해 실행할 SQL 문을 지정할 수도 있습니다.

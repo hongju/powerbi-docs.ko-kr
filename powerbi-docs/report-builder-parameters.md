@@ -3,18 +3,18 @@ title: Power BI 보고서 작성기의 보고서 매개 변수
 description: 이 토픽에서는 Power BI 페이지를 매긴 보고서 작성기 보고서 매개 변수의 일반적인 용도, 설정할 수 있는 속성 등에 대해 설명합니다.
 ms.service: powerbi
 ms.subservice: report-builder
-ms.custom: ''
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 21fe08c2cba004a6aff77eae12303d0181ab56ec
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840536"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128431"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Power BI 보고서 작성기의 보고서 매개 변수
 

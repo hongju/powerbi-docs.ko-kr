@@ -1,24 +1,27 @@
 ---
 title: Power BI REST API 참조
 description: Power BI REST API 참조
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 7677bbc71f141b0ca64bfa9d10d8c5b3c884904c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 0a42400c41d215a0cbe31bbb5fa0324abe4f6084
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61270130"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880383"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API 참조
 
-Power BI는 사용자 지정 대시보드 애플리케이션을 구축하는 데 사용할 수 있는 클라우드 기반 서비스입니다. Power BI REST API는 Power BI에서 **데이터 세트**, **테이블**, **행** 등의 **대시보드** 리소스에 프로그래밍 방식의 액세스 권한을 제공하는 REST 기반 API입니다.
+Power BI는 사용자 지정 대시보드 애플리케이션을 구축하는 데 사용할 수 있는 클라우드 기반 서비스입니다. Power BI REST API는 서비스에서 사용 중인 다음과 같은 모든 아티팩트를 프로그래밍 방식으로 액세스할 수 있게 해주는 REST 기반 API입니다.
+* 데이터 세트
+* 대시보드
+* 보고서
+* 게이트웨이
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
@@ -31,4 +34,4 @@ Power BI REST API는 다음과 같은 작업을 제공합니다.
 
 Power BI REST API에 대한 자세한 내용은 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 참조하세요.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

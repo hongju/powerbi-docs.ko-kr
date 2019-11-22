@@ -1,22 +1,21 @@
 ---
-title: '자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드'
-description: 이 자습서에서는 사용자가 샘플 Azure SQL Database에 연결합니다. 그런 다음, 보고서 작성기에서 마법사를 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다.
+title: '자습서:  페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드'
+description: 이 자습서에서 사용자는 샘플 Azure SQL Database에 연결합니다. 그런 다음, 보고서 작성기에서 마법사를 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: ab4cb14936ceff52a78f713877064d525de4b104
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839738"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875425"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>자습서: 페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>자습서:  페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드
 
 이 자습서에서 사용자는 샘플 Azure SQL Database에 연결합니다. 그런 다음 Power BI 보고서 작성기에서 마법사를 사용하여 여러 페이지에 걸쳐 있는 테이블을 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다.
 
@@ -44,7 +43,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필요한 필수 조건은 다음과 같습니다.
 
 - [Power BI Pro 라이선스](service-admin-power-bi-pro-in-your-organization.md)가 있어야 합니다.
-- [Power BI Premium 용량](service-premium-what-is.md)으로 서비스에 앱 작업 영역이 있어야 합니다. 해당 용량의 작업 영역 이름 옆에는 다이아몬드 아이콘(![Premium 다이아몬드 아이콘](media/paginated-reports-quickstart-aw/premium-diamond.png))이 있습니다.
+- [Power BI Premium 용량](service-premium-what-is.md)에 서비스 작업 영역이 있어야 합니다. 해당 용량의 작업 영역 이름 옆에는 다이아몬드 아이콘(![Premium 다이아몬드 아이콘](media/paginated-reports-quickstart-aw/premium-diamond.png))이 있습니다.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>마법사를 사용하여 행렬 만들기
   
@@ -287,7 +286,7 @@ Power BI 서비스에 보고서를 게시하기 전에 한 가지 더 형식 지
 
 페이지를 매긴 보고서를 만들었으므로 이제 Power BI 서비스에 이 보고서를 업로드합니다.
 
-1. 왼쪽 탐색의 Power BI 서비스(http://app.powerbi.com) 에서 **작업 영역** > **앱 작업 영역 만들기**를 선택합니다.
+1. Power BI 서비스(https://app.powerbi.com) 의 탐색 창에서 **작업 영역** > **작업 영역 만들기**를 선택합니다.
 
 2. 작업 영역 이름을 **Azure AW** 또는 다른 고유한 이름으로 지정합니다. 지금까지는 사용자가 유일한 구성원입니다. 
 

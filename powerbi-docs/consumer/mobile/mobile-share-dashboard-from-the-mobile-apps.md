@@ -2,19 +2,18 @@
 title: Power BI 모바일 앱에서 대시보드 또는 보고서 공유
 description: Power BI 모바일 앱에서 링크를 공유하여 다른 사용자가 대시보드 및 보고서를 보도록 초대하세요. 방법을 알아봅니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61274651"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879094"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 또는 보고서 공유
 적용 대상:
@@ -39,7 +38,7 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    
    받는 사람은 대시보드 또는 보고서의 직접 링크가 포함된 메일 초대를 받게 됩니다. 이 초대는 한 달 후에 만료됩니다. 동료가 브라우저 또는 Power BI 모바일 앱에서 열면 동료의 Power BI 계정에서 **공유한 항목** 섹션에 추가됩니다.
    
-   ![공유](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![공유한 항목](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    [동료와 공유에 대한 참고 사항](../../service-share-dashboards.md)을 자세히 읽어보세요.
 
@@ -69,7 +68,7 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    
    받는 사람은 대시보드 또는 보고서의 직접 링크가 포함된 메일 초대를 받게 됩니다. 이 초대는 한 달 후에 만료됩니다. 동료가 브라우저 또는 Power BI 모바일 앱에서 열면 동료의 Power BI 계정에서 **공유한 항목** 섹션에 추가됩니다.
    
-   ![공유](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![공유한 항목](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    [동료와 공유에 대한 참고 사항](../../service-share-dashboards.md)을 자세히 읽어보세요.
 
@@ -86,10 +85,10 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
 3. 공유를 해제하려면 이름 옆의 빨간색 원을 누르고 **삭제**를 누릅니다.
 
 ## <a name="share-from-your-android-device"></a>Android 디바이스에서 공유
-1. 대시보드 또는 보고서 홈페이지에서 말줄임표(...)를 누르고 **동료 초대**를 누릅니다.
+1. 대시보드 또는 보고서 홈페이지에서 **추가 옵션**(...)을 탭한 다음, **동료 초대**를 탭합니다.
    
    ![동료 초대](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
-2. 또는, 대시보드나 보고서에서 초대 아이콘을 누릅니다. ![초대 아이콘](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png)을 선택합니다.
+2. 또는, 대시보드나 보고서에서 초대 아이콘을 누릅니다. ![초대 아이콘](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
 
     대시보드의 소유자인 경우, 해당 대시보드 또는 보고서를 공유한 동료들의 목록이 다음 메모와 함께 표시됩니다.
 
@@ -105,20 +104,20 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    
    받는 사람은 대시보드의 직접 링크가 포함된 메일 초대를 받게 됩니다. 이 초대는 한 달 후에 만료됩니다. 동료가 브라우저 또는 Power BI 모바일 앱에서 열면 동료의 Power BI 계정에서 **공유한 항목** 섹션에 추가됩니다.
    
-   ![공유](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
+   ![공유한 항목](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
    
    [동료와 대시보드 공유에 대한 참고 사항](../../service-share-dashboards.md)을 자세히 읽어보세요.
 
 ### <a name="unshare-from-your-android-device"></a>Android 디바이스에서 공유 해제
 소유자인 경우에만 공유 해제할 수 있습니다.
 
-1. 대시보드 또는 보고서의 오른쪽 위 모퉁이에 있는 초대 아이콘을 누릅니다. ![초대 아이콘](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png)을 선택합니다. 
+1. 대시보드 또는 보고서의 오른쪽 위 모퉁이에 있는 초대 아이콘을 누릅니다. ![초대 아이콘](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png). 
    
    이 대시보드 또는 보고서를 공유한 동료의 목록이 표시됩니다.
 2. 동료와 공유를 중지하려면 이름 \> **제거** 옆에 있는 **X**를 누릅니다.
 
 ## <a name="share-from-your-windows-10-device"></a>Windows 10 디바이스에서 공유
-1. 대시보드 또는 보고서에서 초대 아이콘을 누릅니다. ![초대 아이콘](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_inviteicon.png)을 선택합니다.
+1. 대시보드 또는 보고서에서 초대 아이콘을 누릅니다. ![초대 아이콘](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_inviteicon.png).
    
    또는 대시보드 또는 보고서 홈페이지에서 오른쪽 단추로 클릭하거나 길게 누르고 **초대**를 누릅니다.
    
@@ -140,12 +139,12 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
    
    받는 사람은 대시보드 또는 보고서의 직접 링크가 포함된 메일 초대를 받게 됩니다. 이 초대는 한 달 후에 만료됩니다. 동료가 브라우저 또는 Power BI 모바일 앱에서 열면 동료의 Power BI 계정에서 **공유한 항목** 섹션에 추가됩니다.
    
-   ![공유](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![공유한 항목](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    [동료와 공유에 대한 참고 사항](../../service-share-dashboards.md)을 자세히 읽어보세요.
 
 ## <a name="next-steps"></a>다음 단계
 * [모바일 앱에서 타일, 보고서 또는 시각적 개체의 스냅샷에 주석 달기 및 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Power BI에서 대시보드 또는 보고서 공유](../../service-share-dashboards.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

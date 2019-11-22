@@ -2,7 +2,6 @@
 title: 보고서에서 Power BI 대시보드 만들기
 description: 보고서에서 Power BI 대시보드 만들기
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543444"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853402"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>보고서에서 Power BI 대시보드 만들기
 지금까지 [Power BI의 대시보드 소개](service-dashboards.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 다양한 방법으로 대시보드를 만들 수 있습니다. 예를 들어 보고서의 데이터 세트에서 처음부터 또는 기존 대시보드를 복제하여 대시보드를 만들 수 있습니다.  
@@ -44,11 +43,11 @@ Amanda가 보고서에서 시각화를 핀 고정하여 새 대시보드를 만�
 ## <a name="import-a-dataset-with-a-report"></a>보고서로 데이터 세트 가져오기
 이 단계별 지침에서 Power BI 샘플 데이터 세트 중 하나를 가져오고 이를 사용하여 새 대시보드를 만듭니다. 사용할 샘플은 두 개의 PowerView 시트가 있는 Excel 통합 문서입니다. Power BI에서 통합 문서를 가져오면 데이터 세트와 보고서를 작업 영역에 추가합니다. 보고서는 PowerView 시트에서 자동으로 생성됩니다.
 
-1. [Procurement Analysis sample](http://go.microsoft.com/fwlink/?LinkId=529784) Excel 파일을 다운로드합니다. 비즈니스용 OneDrive에 파일을 저장하는 것이 좋습니다.
+1. [Procurement Analysis sample](https://go.microsoft.com/fwlink/?LinkId=529784) Excel 파일을 다운로드합니다. 비즈니스용 OneDrive에 파일을 저장하는 것이 좋습니다.
 2. 브라우저에서 Power BI 서비스(app.powerbi.com)를 엽니다.
-3. 왼쪽 탐색 창에서 **내 작업 영역**을 선택하고 **데이터 가져오기**를 선택합니다.
+3. 탐색 창에서 **내 작업 영역**을 선택하고 **데이터 가져오기**를 선택합니다.
 
-    ![왼쪽 탐색 창](media/service-dashboard-create/power-bi-get-data-new-look.png)
+    ![탐색 창](media/service-dashboard-create/power-bi-get-data-new-look.png)
 5. **파일** 아래에서 **가져오기**를 선택합니다.
 
    ![파일 가져오기](media/service-dashboard-create/power-bi-select-files.png)
@@ -63,7 +62,7 @@ Amanda가 보고서에서 시각화를 핀 고정하여 새 대시보드를 만�
    ![성공 메시지](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> 알고 계셨나요? 위쪽 ![탐색 창 표시 또는 숨기기 아이콘](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)에서 세 줄이 있는 아이콘을 선택하여 왼쪽 탐색 모음의 범위를 좁힐 수 있습니다. 이를 통해 보고서 자체를 위한 공간을 더 확보할 수 있습니다.
+> 알고 계셨나요? 위쪽 ![탐색 창 표시 또는 숨기기 아이콘](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)에서 세 줄이 있는 아이콘을 선택하여 탐색 창의 범위를 좁힐 수 있습니다. 이를 통해 보고서 자체를 위한 공간을 더 확보할 수 있습니다.
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>보고서를 열고 타일을 대시보드에 고정
 1. 동일한 작업 영역에서 **보고서** 탭을 선택한 다음 **조달 분석 샘플**을 선택하여 보고서를 엽니다.
@@ -118,4 +117,4 @@ Amanda가 보고서에서 시각화를 핀 고정하여 새 대시보드를 만�
 * [Power BI - 기본 개념](service-basic-concepts.md)
 * [멋진 대시보드를 디자인하기 위한 팁](service-dashboards-design-tips.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](https://community.powerbi.com/)하세요.

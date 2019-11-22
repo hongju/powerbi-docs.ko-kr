@@ -2,7 +2,6 @@
 title: '전체 보고서 페이지를 Power BI 대시보드에 고정하는 방법 '
 description: 전체 라이브 보고서 페이지를 보고서의 Power BI 대시보드에 고정하는 방법에 대한 설명서입니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140116"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853071"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>전체 보고서 페이지를 라이브 타일로 Power BI 대시보드에 고정
 새 [대시보드 타일](consumer/end-user-tiles.md)을 추가하는 다른 방법은 전체 보고서 페이지를 고정하는 것입니다. 이는 한 번에 두 개 이상의 시각화를 고정하는 간단한 방법입니다.  또한 전체 페이지를 고정하면 타일이 *라이브* 상태가 되며, 대시보드에서 바로 상호 작용할 수 있습니다. 필터를 추가하거나 차트에 사용된 필드를 변경하는 등 보고서 편집기에서 시각화 요소들에 수행하는 모든 변경 내용은 대시보드 타일에도 반영됩니다.  
@@ -55,5 +54,5 @@ Amanda가 라이브 보고서 페이지를 대시보드에 고정하는 과정�
 ## <a name="next-steps"></a>다음 단계
 [Power BI의 대시보드](consumer/end-user-dashboards.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

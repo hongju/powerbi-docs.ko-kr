@@ -2,7 +2,6 @@
 title: 대시보드 및 보고서에 주석 추가
 description: 이 문서에서는 대시보드, 보고서 또는 시각적 개체에 주석을 추가하는 방법과 주석을 사용하여 공동 작업자와 대화하는 방법을 보여 줍니다.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100665"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852027"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 주석 추가
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 개별 주석을 추가하거나 동료와 대시보드 또는 보고서에 관한 대화를 시작합니다. **댓글** 기능은 *소비자*가 다른 사용자와 공동 작업할 수 있는 방법 중 하나입니다. 
 
 ![댓글 비디오](media/end-user-comment/comment.gif)
@@ -64,7 +66,7 @@ ms.locfileid: "71100665"
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>특정 대시보드 또는 보고서 시각적 개체에 주석 추가
 전체 대시보드 또는 전체 보고서 페이지에 주석을 추가하는 것 외에도, 개별 대시보드 타일과 개별 보고서 시각적 개체에 주석을 추가할 수 있습니다. 프로세스는 비슷하며, 이 예제에서는 보고서를 사용합니다.
 
-1. 시각적 개체를 마우스로 가리키고 줄임표(...)를 선택합니다.    
+1. 시각적 개체를 마우스로 가리키고 **추가 옵션**(...)을 선택합니다.    
 2. 드롭다운에서 **댓글 열기**를 선택합니다.
 
     ![댓글 추가가 첫 번째 옵션입니다.](media/end-user-comment/power-bi-report-comment.png)  

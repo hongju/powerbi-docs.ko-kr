@@ -2,19 +2,18 @@
 title: Power BI 모바일 앱에서 보고서 탐색
 description: 휴대폰 또는 태블릿의 Power BI 모바일 앱에서 보고서를 보고 상호 작용하는 방법에 대해 알아봅니다. Power BI 서비스 또는 Power BI Desktop에서 보고서를 만든 다음 모바일 앱에서 보고서를 조작합니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 166b7d88e6ab55481ec56b0cf4f91628cd141bef
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69985737"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869754"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -45,7 +44,7 @@ Power BI 모바일 앱의 보고서를 위한 두 가지 아이콘이 있습니�
 > [!NOTE]
 > 휴대폰을 가로 방향으로 들면 보고서 페이지가 휴대폰 레이아웃으로 표시되더라도 항상 가로 레이아웃으로 볼 수 있습니다.
 
-대시보드에서 보고서로 이동하려면 타일의 오른쪽 위 모서리에 있는 줄임표(...)를 탭한 다음 **보고서 열기**를 탭합니다.
+대시보드에서 보고서로 이동하려면 타일의 오른쪽 위에 있는 **추가 옵션**(...)을 탭한 다음, **보고서 열기**를 탭합니다.
   
   ![보고서 열기](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -59,7 +58,7 @@ Power BI 모바일 앱의 보고서를 위한 두 가지 아이콘이 있습니�
 슬라이서 값을 탭하면 값이 선택되고 나머지 보고서는 해당 값으로 슬라이스 됩니다.
 링크, 단추 또는 책갈피를 탭하면 보고서 작성자에 의해 정의된 작업이 수행됩니다.
 
-시각적 개체를 탭하면 테두리가 표시되는 것을 알 수 있습니다. 테두리의 오른쪽 위 모서리에 줄임표(...)가 표시됩니다. 줄임표를 탭하면 해당 시각적 개체에 대해 수행할 수 있는 작업 메뉴가 표시됩니다.
+시각적 개체를 탭하면 테두리가 표시되는 것을 알 수 있습니다. 테두리의 오른쪽 위에 **추가 옵션**(...)이 표시됩니다. 줄임표를 탭하면 해당 시각적 개체에 대해 수행할 수 있는 작업 메뉴가 표시됩니다.
 
 ![시각적 개체 및 메뉴](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -92,7 +91,7 @@ Power BI 모바일 앱의 보고서를 위한 두 가지 아이콘이 있습니�
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>보고서 바닥글에서 작업 사용
-보고서 바닥글에서 현재 보고서 페이지나 전체 보고서에서 수행할 수 있는 몇 가지 작업을 수행할 수 있습니다. 바닥글은 가장 일반적으로 사용되는 작업에 빠르게 액세스할 수 있도록 합니다. 줄임표(...) 단추를 탭하여 다른 작업에 액세스할 수 있습니다.
+보고서 바닥글에서 현재 보고서 페이지나 전체 보고서에서 수행할 수 있는 몇 가지 작업을 수행할 수 있습니다. 바닥글은 가장 일반적으로 사용되는 작업에 빠르게 액세스할 수 있도록 합니다. **추가 옵션**(...) 단추를 탭하여 다른 작업에 액세스할 수 있습니다.
 
 ![보고서 바닥글](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -105,7 +104,7 @@ Power BI 모바일 앱의 보고서를 위한 두 가지 아이콘이 있습니�
 - 모든 보고서 작업을 봅니다.
 
 #### <a name="all-report-actions"></a>모든 보고서 작업
-보고서 바닥글에서 줄임표(...) 단추를 탭하면 보고서에서 수행할 수 있는 모든 작업이 표시됩니다.
+보고서 바닥글에 있는 **추가 옵션**(...) 단추를 탭하면 보고서에서 수행할 수 있는 모든 작업이 표시됩니다.
 
 
 ![모든 보고서 작업](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
@@ -124,5 +123,5 @@ Power BI 모바일 앱의 공유를 금지하는 [Intune 보호 정책](https://
 ## <a name="next-steps"></a>다음 단계
 * [휴대폰에 최적화된 Power BI 보고서 보기 및 상호 작용](mobile-apps-view-phone-report.md)
 * [휴대폰에 최적화된 보고서 버전 만들기](../../desktop-create-phone-report.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

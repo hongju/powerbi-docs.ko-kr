@@ -3,18 +3,17 @@ title: Power BI Embedded에서 콘텐츠 마이그레이션을 위한 코드 조
 description: 다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 95c249fe2326d9075d920a415c707811d19e5387
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269232"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880509"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션에서 콘텐츠 마이그레이션을 위한 코드 조각
 
@@ -167,7 +166,7 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 
 만든 데이터 세트에 대한 보고서를 다시 빌드해야 합니다.
 
-이 코드 조각에서는 푸시 가능한 데이터 세트가 SaaS 환경 내의 앱 작업 영역에 이미 있다고 가정합니다. 푸시 API에 대한 자세한 내용은 [Power BI 데이터 세트로 데이터 푸시](walkthrough-push-data.md)를 참조하세요.
+이 코드 조각에서는 푸시 가능한 데이터 세트가 SaaS 환경 내의 작업 영역에 이미 있다고 가정합니다. 푸시 API에 대한 자세한 내용은 [Power BI 데이터 세트로 데이터 푸시](walkthrough-push-data.md)를 참조하세요.
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");
@@ -240,4 +239,4 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 [JavaScript 포함 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: 대시보드 타일 편집
 description: 이 자습서에서는 타일을 만들고 대시보드에 고정하는 방법부터 대시보드 타일을 편집하고, 크기를 조정하고, 이동하고, 이름을 바꾸고, 고정하고, 삭제하고, 하이퍼링크를 추가하는 방법을 살펴보겠습니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c1b6f7434724540a9ad5b579030c3ed54b32abed
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720561"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877478"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>대시보드 타일 편집 또는 제거
 
@@ -83,9 +82,9 @@ ms.locfileid: "66720561"
 ![비디오](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
-## <a name="the-ellipses--menu"></a>줄임표(...) 메뉴
+## <a name="more-options--menu"></a>**추가 옵션**(...) 메뉴
 
-1. 타일의 오른쪽 위 모서리에서 줄임표(...)를 선택합니다. 
+1. 타일의 오른쪽 위에 있는 **추가 옵션**(...)을 선택합니다. 
    
    ![타일 줄임표](media/service-dashboard-edit-tile/power-bi-tile.png)
 
@@ -148,5 +147,5 @@ ms.locfileid: "66720561"
 
 [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

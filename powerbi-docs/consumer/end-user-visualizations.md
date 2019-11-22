@@ -2,7 +2,6 @@
 title: 소비자로서 시각화(시각적 개체) 작업
 description: Power BI 개념 및 용어 - 시각화 요소, 시각적 개체입니다. Power BI 시각화, 시각적 개체란 무엇인가요?
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f72e53fe9f017f5f12893711858cc9179b883dd
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379967"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860980"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>보고서, 대시보드 및 앱에서 시각적 개체 조작
 
@@ -52,7 +51,7 @@ ms.locfileid: "72379967"
 |[Power BI에 시각적 개체의 데이터에서 관심 있는 팩트나 추세를 찾도록 요청합니다](end-user-insights.md).  자동으로 생성되는 시각적 개체를 *인사이트*라고 합니다.     |    예     |  전체 보고서의 경우(시각적 개체 아님)       | 아니요   |
 |[‘포커스’ 모드를 사용하여 한 번에 하나의 시각적 개체만 표시합니다](end-user-focus.md).      | 예        |   예      | 해당 없음  |
 |[마지막으로 시각적 개체를 새로 고친 시간을 검색합니다](end-user-fresh.md).     |  예       |    예     | 해당 없음  |
-|[*전체 화면* 또는 *포커스* 모드를 사용하여 테두리 또는 검색 모음 없이 한 번에 하나의 시각적 개체만 표시합니다](end-user-focus.md).     |   예      |  예       | 기본적으로  |
+|[*전체 화면* 또는 *포커스* 모드를 사용하여 테두리 또는 탐색 창 없이 한 번에 하나의 시각적 개체만 표시합니다](end-user-focus.md).     |   예      |  예       | 기본적으로  |
 |[인쇄](end-user-print.md)합니다.     |  예       |   예      | 아니요  |
 |[시각적 개체 필터를 추가하고 수정하여 시각적 개체에 자세히 살펴봅니다](end-user-report-filter.md).     |    아니요     |   예      | 아니요  |
 |시각적 개체를 마우스로 가리키면 추가 세부 사항 및 도구 설명이 표시됩니다.     |    예     |   예      | 예  |

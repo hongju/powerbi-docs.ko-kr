@@ -2,7 +2,6 @@
 title: Power BI Desktop에서 DirectQuery 사용
 description: Power BI Desktop에서 DirectQuery(라이브 연결이라고도 함) 사용
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654776"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876063"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery 사용
 **Power BI Desktop**을 사용하여 데이터 원본에 연결할 때 항상 데이터의 복사본을 **Power BI Desktop**으로 가져올 수 있습니다. 일부 데이터 원본의 경우 다른 방법을 사용할 수 있습니다. **DirectQuery**를 사용하여 데이터 원본에 직접 연결합니다.
@@ -70,7 +69,7 @@ ms.locfileid: "69654776"
       The resultset of a query to external data source has exceeded
   
   이 상황은 집계 옵션이 *요약하지 않음*으로 설정된 매우 높은 카디널리티 열을 포함하는 간단한 차트로 발생할 수 있습니다. 시각적 개체는 백만 개 아래의 카디널리티를 가진 열이 있거나 적절한 필터가 적용되어야 합니다.
-* **보안** - 게시된 보고서를 사용하는 모든 사용자는 Power BI 서비스에 게시 후 입력한 자격 증명을 사용하여 백 엔드 데이터 원본에 연결합니다. 가져온 데이터와 같은 상황입니다. 모든 사용자는 백 엔드 원본에 정의된 모든 보안 규칙에 관계 없이 동일한 데이터를 봅니다. DirectQuery 원본으로 구현된 사용자별 보안을 원하는 고객은 RLS를 사용해야 합니다. [RLS에 대해 자세히 알아보세요](service-admin-rls.md).
+* **보안** - 기본적으로 게시된 보고서를 사용하는 모든 사용자는 Power BI 서비스에 게시 후 입력한 자격 증명을 사용하여 백 엔드 데이터 원본에 연결합니다. 가져온 데이터와 같은 상황입니다. 모든 사용자는 백 엔드 원본에 정의된 모든 보안 규칙에 관계 없이 동일한 데이터를 봅니다. DirectQuery 원본으로 구현된 사용자별 보안을 원하는 고객은 RLS(행 수준 보안)를 사용하거나 원본에 대해 Kerberos 제한 인증을 구성해야 합니다. 모든 원본에 대해 Kerberos를 사용할 수는 없습니다. [RLS에 대해 자세히 알아보세요](service-admin-rls.md). [DirectQuery의 Kerberos에 대해 자세히 알아보세요](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos). 
 * **지원되는 기능** - **Power BI Desktop**의 모든 기능은 **DirectQuery** 모드에서 지원되지 않거나 몇 가지 제한이 있습니다. 또한 Power BI 서비스에서 **DirectQuery**를 사용하는 데이터 세트에 대해 사용할 수 없는 일부 기능(예: *신속한 정보 활용*)이 있습니다. 따라서 **DirectQuery**를 사용할 때 이러한 기능의 제한을 **DirectQuery**의 사용 여부를 결정할 때 고려해야 합니다.   
 
 ## <a name="publish-to-the-power-bi-service"></a>Power BI 서비스에 게시
@@ -88,7 +87,7 @@ Power BI는 **설정** 창을 표시합니다. 여기에서 **데이터 세트**
 
 자격 증명이 제공될 때까지 게시된 보고서를 열거나 **DirectQuery** 연결을 사용하여 만든 데이터 세트를 탐색하는 작업은 오류가 발생합니다.
 
-DirectQuery를 사용하는 **Azure SQL Database**, **Azure SQL Data Warehouse** 및 **Redshift** 이외의 데이터 원본의 경우 **온-프레미스 데이터 게이트웨이**는 설치되어야 하고 데이터 원본을 등록하여 데이터 연결을 설정해야 합니다. 자세한 내용은 [온-프레미스 데이터 게이트웨이](http://go.microsoft.com/fwlink/p/?LinkID=627094)를 참조하세요.
+DirectQuery를 사용하는 **Azure SQL Database**, **Azure SQL Data Warehouse** 및 **Redshift** 이외의 데이터 원본의 경우 **온-프레미스 데이터 게이트웨이**는 설치되어야 하고 데이터 원본을 등록하여 데이터 연결을 설정해야 합니다. 자세한 내용은 [온-프레미스 데이터 게이트웨이](https://go.microsoft.com/fwlink/p/?LinkID=627094)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 **DirectQuery**에 대한 자세한 내용은 다음 리소스를 확인하세요.
