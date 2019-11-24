@@ -18,9 +18,9 @@ ms.locfileid: "73879283"
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
 링크를 사용하여 Power BI의 보고서, 대시보드 및 타일에 직접 액세스할 수 있습니다.
 
-Power BI Mobile에서 링크를 사용하는 경우는 다음과 같이 두 가지입니다. 
+Power BI 모바일에서 링크를 사용하는 경우는 다음과 같이 두 가지입니다. 
 
-* **앱 외부**에서 Power BI를 열고 특정 콘텐츠(보고서/대시보드/앱) 표시. 이것은 주로 다른 앱에서 Power BI Mobile을 열기 위한 통합 시나리오입니다. 
+* **앱 외부**에서 Power BI를 열고 특정 콘텐츠(보고서/대시보드/앱) 표시. 이것은 주로 다른 앱에서 Power BI 모바일을 열기 위한 통합 시나리오입니다. 
 * Power BI 내에서 **이동**하는 경우. Power BI에서 사용자 지정 탐색을 사용하려는 경우입니다.
 
 
@@ -103,7 +103,7 @@ Power BI 내의 링크는 Power BI 서비스에서와 동일한 방식으로 모
 보고서에 다른 Power BI 항목을 가리키는 링크를 추가하려면 브라우저 주소 표시줄에서 항목 URL을 복사하면 됩니다. [보고서에 있는 텍스트 상자에 하이퍼링크를 추가하는 방법](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)을 자세히 알아보세요.
 
 ## <a name="use-report-url-with-filter"></a>필터가 있는 보고서 URL 사용
-Power BI Mobile 앱은 Power BI 서비스와 마찬가지로 필터 쿼리 매개 변수를 포함하는 보고서 URL을 지원합니다. Power BI Mobile 앱에서 보고서를 열어서 특정 상태로 필터링할 수도 있습니다. 예를 들어, 다음 URL은 판매 보고서를 열고 지역을 기준으로 필터링합니다.
+Power BI 모바일 앱은 Power BI 서비스와 마찬가지로 필터 쿼리 매개 변수를 포함하는 보고서 URL을 지원합니다. Power BI 모바일 앱에서 보고서를 열어서 특정 상태로 필터링할 수도 있습니다. 예를 들어, 다음 URL은 판매 보고서를 열고 지역을 기준으로 필터링합니다.
 
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
