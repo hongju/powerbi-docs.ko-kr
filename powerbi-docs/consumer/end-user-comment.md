@@ -19,7 +19,9 @@ ms.locfileid: "73852027"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 댓글 추가
 
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 
 개별 댓글을 추가하거나 동료와 대시보드 또는 보고서에 관한 대화를 시작합니다. **댓글** 기능은 *소비자*가 다른 사용자와 공동 작업할 수 있는 방법 중 하나입니다. 
 
