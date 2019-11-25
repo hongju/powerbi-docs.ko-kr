@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8ae5e8e348c982c7e1dffd469e180f4353910bf3
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 228bc9a7c6d02b5c2cdf34178c7b023c78fa23ea
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099494"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74310811"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -1128,7 +1128,7 @@ ms.locfileid: "74099494"
 
 * 드릴스루 측정 [[동영상]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[문서]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
-### <a name="power-bi-premium"></a>Power BI 프리미엄
+### <a name="power-bi-premium"></a>Power BI Premium
 
 * 증분 새로 고침(미리 보기) [[동영상]](https://youtu.be/-_GMCE1TLvQ?t=7m42s)  [[문서]](service-premium-incremental-refresh.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
 
@@ -1503,7 +1503,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 ### <a name="reporting"></a>보고:
 
 -   책갈피(미리 보기) [[비디오]](https://youtu.be/jksjtR8GnBE?t=1m47s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#bookmarking) [[문서]](desktop-bookmarks.md)
--   선택 영역 창 및 시각적 개체 표시 컨트롤 [[비디오]](https://youtu.be/jksjtR8GnBE?t=7m26s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[문서]](desktop-bookmarks.md#visibility---using-the-selection-pane) 
+-   선택 영역 창 및 시각적 개체 표시 컨트롤 [[비디오]](https://youtu.be/jksjtR8GnBE?t=7m26s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[문서]](desktop-bookmarks.md#visibility-using-the-selection-pane) 
 -   셰이프 및 이미지에 대한 책갈피 링크 [[비디오]](https://youtu.be/jksjtR8GnBE?t=8m54s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#links) [[문서]](desktop-bookmarks.md#bookmarks-for-shapes-and-images)
 -   스포트라이트 [[비디오]](https://youtu.be/jksjtR8GnBE?t=5m39s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#spotlight) [[문서]](desktop-bookmarks.md#using-spotlight)
 -   분산형 및 거품형 표식 [[비디오]](https://youtu.be/jksjtR8GnBE?t=17m20s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#markers) [[문서]](desktop-accessibility.md)

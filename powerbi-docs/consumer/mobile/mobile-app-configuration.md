@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: 7ed763d6c87e4b93ebecc474c9059ba83245368a
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.openlocfilehash: a517ee4edce6e18eadcbe2b1b6765684f8121b21
+ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "73925782"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199431"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>MDM(모바일 디바이스 관리) 도구를 사용하여 Power BI 앱을 원격으로 구성
 
@@ -56,6 +56,6 @@ Intune 포털을 사용하면 관리자가 앱 구성 정책을 통해 Power BI 
 
 ## <a name="next-steps"></a>다음 단계
 
-* [앱 스토어]("https://apps.apple.com/app/microsoft-power-bi/id929738808) 및 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)에서 Power BI 모바일 앱 가져오기
+* [앱 스토어](https://apps.apple.com/app/microsoft-power-bi/id929738808) 및 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)에서 Power BI 모바일 앱 가져오기
 * [@MSPowerBI Twitter](https://twitter.com/MSPowerBI)에서 팔로우
 * [Power BI 커뮤니티](https://community.powerbi.com/)에서 대화에 참여

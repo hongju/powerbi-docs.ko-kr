@@ -1,19 +1,19 @@
 ---
 title: Power BI Embedded에서 콘텐츠 마이그레이션을 위한 코드 조각
 description: 다음은 콘텐츠 마이그레이션에 필요한 기본 작업의 일부 코드 조각입니다.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 95c249fe2326d9075d920a415c707811d19e5387
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f44e8b44157f62b6b80e16b18a2c80d11e43eb77
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880509"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265318"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션에서 콘텐츠 마이그레이션을 위한 코드 조각
 
