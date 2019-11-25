@@ -3,20 +3,19 @@ title: Microsoft Power BI Premium이란?
 description: Power BI Premium은 조직에 전용 용량을 제공하므로 사용자별 라이선스를 구입하지 않고도 더욱 신뢰할 수 있는 성능과 대용량 데이터 볼륨을 제공합니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c46b58369c334ff5364cee00bb5c3f8cd025adf0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305855"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871819"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -53,7 +52,7 @@ Power BI Premium 구독은 Microsoft 365 관리 센터에서 관리자가 구입
 
 Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 워크로드가 다른 고객과 공유되는 계산 리소스에서 실행되는 공유 용량과는 달리 전용 용량은 조직에서 단독으로 사용하는 것입니다. 호스팅된 콘텐츠에 대해 신뢰할 수 있고 일관된 성능을 제공하는 전용 계산 리소스로 격리됩니다. 
 
-작업 영역은 용량 내에 상주합니다. 각 Power BI 사용자는 **내 작업 영역**이라는 개인 작업 영역을 갖습니다. 협업을 지원하기 위해 **앱 작업 영역**이라는 추가 작업 영역을 만들 수 있습니다. 기본적으로 개인 작업 영역을 포함한 작업 영역은 공유 용량에서 생성됩니다. 프리미엄 용량이 있는 경우 내 작업 영역 및 앱 작업 영역을 모두 프리미엄 용량에 할당할 수 있습니다.
+작업 영역은 용량 내에 상주합니다. 각 Power BI 사용자는 **내 작업 영역**이라는 개인 작업 영역을 갖습니다. 협업을 사용하도록 설정하기 위해 **작업 영역**이라는 추가 작업 영역을 만들 수 있습니다. 기본적으로 개인 작업 영역을 포함한 작업 영역은 공유 용량에서 생성됩니다. 프리미엄 용량이 있는 경우 내 작업 영역 및 작업 영역을 모두 프리미엄 용량에 할당할 수 있습니다.
 
 ### <a name="capacity-nodes"></a>용량 노드
 
@@ -71,7 +70,7 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 
 | 용량 노드 | 총 V 코어 | 백 엔드 V 코어 | RAM(GB) | 프런트 엔드 V 코어 | DirectQuery/Live Connection(초당) | 모델 새로 고침 병렬 처리 |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
+| EM1/A1 | 1 | 0.5 | 3 | 0.5 | 3.75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
@@ -166,9 +165,9 @@ SKU에 따라 Power BI Premium은 최대 **10GB** 크기까지 Power BI Desktop(
 
 ### <a name="size-considerations"></a>크기 고려 사항
 
-큰 모델은 리소스를 많이 사용할 수 있습니다. 1GB 보다 큰 모델에는 최소 P1 SKU를 사용해야 합니다. A3까지 A SKU가 지원하는 작업 영역에 대형 모델을 게시하는 것이 효과적일 수 있지만 새로 고치는 작업은 가능하지 않습니다.
+대규모 데이터 세트는 리소스를 많이 사용할 수 있습니다. 1GB보다 큰 데이터 세트에는 최소 P1 SKU를 사용해야 합니다. A3까지 A SKU가 지원하는 작업 영역에 대규모 데이터 세트를 게시하는 것이 효과적일 수 있지만 새로 고치는 작업은 가능하지 않습니다.
 
-다음 표에는 다양한 .pbix 크기에 대한 권장 SKU를 설명합니다.
+다음 표는 Power BI 서비스에 .pbix 파일을 업로드 또는 게시하는 데 권장되는 SKU입니다.
 
    |SKU  |.pbix의 크기   |
    |---------|---------|
@@ -176,9 +175,11 @@ SKU에 따라 Power BI Premium은 최대 **10GB** 크기까지 Power BI Desktop(
    |P2    | < 6GB        |
    |P3, P4, P5    | 최대 10GB   |
 
-Power BI Embedded A4 SKU는 P1 SKU, A5 = P2 및 A6 = P3과 같습니다. 대형 모델을 A 및 EM SKU에 게시하면 공유 용량의 모델 크기 제한 오류와 관련이 없는 오류가 반환될 수 있습니다. A 및 EM SKU의 대형 모델에 대한 새로 고침 오류로 인해 시간 초과를 가리킬 가능성이 높습니다. 
+Power BI Embedded A4 SKU는 P1 SKU, A5 = P2 및 A6 = P3과 같습니다. 데이터 세트를 A 및 EM SKU에 게시하면 공유 용량의 모델 크기 제한 오류와 관련이 없는 오류가 반환될 수 있습니다. A 및 EM SKU의 데이터 세트에 대한 새로 고침 오류로 인해 시간 초과를 가리킬 가능성이 높습니다.
 
-.pbix 파일은 *고도로 압축된 상태*의 데이터를 나타냅니다. 데이터는 메모리에 로드될 때 여러 번 확장할 가능성이 있으며, 거기서부터 데이터 새로 고침 중 여러 번 더 확장할 수도 있습니다.
+데이터 세트에 [대형 모델](service-premium-large-models.md)을 사용하는 경우 .pbix 파일 크기 제한이 파일 업로드 또는 게시에 계속 적용됩니다. 그러나 증분 새로 고침과 대형 모델을 결합하면 데이터 세트가 이러한 한도보다 훨씬 더 커질 수 있습니다. 대형 모델의 경우 데이터 세트 크기는 Power BI Premium 용량 크기로만 제한됩니다.
+
+.pbix 파일은 *고도로 압축된 상태*의 데이터를 나타냅니다. 데이터는 메모리에 로드될 때 확장될 수 있으며, 거기서부터 데이터 새로 고침 중 여러 번 더 확장될 수도 있습니다.
 
 큰 데이터 세트의 예정된 새로 고침에는 시간이 오래 걸리고 리소스를 많이 사용할 수 있습니다. 너무 많이 겹치는 새로 고침은 예약하지 않는 것이 중요합니다. [증분 새로 고침](service-premium-incremental-refresh.md)이 구성되어 있는 것이 좋습니다. 더 빠르고 안정적이며 적은 리소스를 소모하기 때문입니다.
 

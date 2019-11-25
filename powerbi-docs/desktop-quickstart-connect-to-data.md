@@ -2,7 +2,6 @@
 title: 빠른 시작 데이터에 연결
 description: Power BI Desktop에서 데이터 원본에 연결
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 253ecbad775a2f4aa7dd1974c534fdcaa222676c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514445"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876204"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>빠른 시작: Power BI Desktop에서 데이터에 연결
 
@@ -28,12 +27,12 @@ ms.locfileid: "65514445"
 ## <a name="prerequisites"></a>필수 조건
 
 이 문서의 단계를 완료하려면 다음이 필요합니다.
-* 로컬 컴퓨터에서 실행되는 무료 애플리케이션인 **Power BI Desktop**을 다운로드하여 설치합니다. 직접 [**Power BI Desktop**을 다운로드](https://powerbi.microsoft.com/desktop)하거나 [**Microsoft Store**](http://aka.ms/pbidesktopstore)에서 가져올 수 있습니다.
-* [이 샘플 Excel 통합 문서를 다운로드](http://go.microsoft.com/fwlink/?LinkID=521962)하고 Excel 파일을 저장할 수 있는 *C:\PBID-qs*라는 폴더를 만듭니다. 이 빠른 시작의 후속 단계에서는 이 폴더가 다운로드한 Excel 통합 문서의 파일 위치라고 가정합니다.
+* 로컬 컴퓨터에서 실행되는 무료 애플리케이션인 **Power BI Desktop**을 다운로드하여 설치합니다. 직접 [**Power BI Desktop**을 다운로드](https://powerbi.microsoft.com/desktop)하거나 [**Microsoft 저장소**](https://aka.ms/pbidesktopstore)에서 가져올 수 있습니다.
+* [이 샘플 Excel 통합 문서를 다운로드](https://go.microsoft.com/fwlink/?LinkID=521962)하고 Excel 파일을 저장할 수 있는 *C:\PBID-qs*라는 폴더를 만듭니다. 이 빠른 시작의 후속 단계에서는 이 폴더가 다운로드한 Excel 통합 문서의 파일 위치라고 가정합니다.
 
 ## <a name="launch-power-bi-desktop"></a>Power BI Desktop 시작
 
-**Power BI Desktop**을 설치한 후 로컬 컴퓨터에서 실행되도록 애플리케이션을 시작합니다. 사용자가 연결하는 데이터를 기반으로 시각적 개체 및 보고서를 만들 빈 캔버스가 표시됩니다. 
+**Power BI Desktop**을 설치한 후 로컬 컴퓨터에서 실행되도록 애플리케이션을 시작합니다. Power BI 자습서가 제공됩니다. 자습서를 따르거나 클릭해서 닫고 빈 캔버스로 시작합니다. 여기서 연결된 데이터를 기반으로 시각적 개체와 보고서를 만들 수 있습니다. 
 
 ![Power BI Desktop - 빈 캔버스](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 
@@ -41,7 +40,7 @@ ms.locfileid: "65514445"
 
 **Power BI Desktop**을 사용하면 다양한 형식의 데이터에 연결할 수 있습니다. Microsoft Excel 파일과 같은 기본 데이터 원본에 연결할 수 있고 Salesforce, Microsoft Dynamics, Azure Blob Storage 등의 모든 데이터 종류를 포함하는 온라인 서비스에 연결할 수 있습니다.
 
-데이터에 연결하려면 **홈**  리본에서 **데이터 가져오기** 를 선택합니다.
+데이터에 연결하려면 리본 메뉴 **홈** 탭에서 **데이터 가져오기**를 선택합니다.
 
 ![데이터 가져오기](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
@@ -51,7 +50,7 @@ ms.locfileid: "65514445"
 
 이 파일은 Excel 파일이므로 **데이터 가져오기** 창에서 **Excel**을 선택한 다음, **연결** 단추를 선택합니다.
 
-연결할 Excel 파일의 위치를 제공하라는 메시지가 표시됩니다. 다운로드한 파일을 ‘재무 샘플’이라고 하므로 해당 파일을 선택한 다음, **열기**를 선택합니다.
+연결할 Excel 파일의 위치를 제공하라는 메시지가 표시됩니다. 다운로드한 파일을 ‘재무 샘플’이라고 하므로 해당 파일을 선택한 다음, **열기**를 선택합니다. 
 
 ![데이터 가져오기](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
 

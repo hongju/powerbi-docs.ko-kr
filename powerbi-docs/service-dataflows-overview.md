@@ -2,7 +2,6 @@
 title: Power BI의 데이터 흐름에 대해 알아보기
 description: Power BI에서 데이터 흐름이 작동하는 방식 알아보기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 28be15b1f62f410c14faaa5d3e8c36060596c466
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136368"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872603"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Power BI의 셀프 서비스 데이터 준비
 
@@ -25,7 +24,7 @@ ms.locfileid: "61136368"
 
 Power BI는 조직이 여러 원본의 데이터를 통합하고 모델링을 위해 준비하는 데 도움이 되도록 **데이터 흐름**을 도입했습니다. 분석가는 익숙한 셀프 서비스 도구를 사용하여 쉽게 데이터 흐름을 만들 수 있습니다. 데이터 흐름은 데이터 원본 연결, ETL 논리, 새로 고침 일정 등을 정의하여 빅 데이터를 수집, 변환, 통합 및 강화하는 데 사용됩니다. 또한 데이터 흐름의 일부인 새 모델 기반 계산 엔진은 데이터 분석가와 보고서 작성자 모두에게 데이터 준비 프로세스가 더 관리하기 쉽고 결정적이며 덜 번거롭게 해줍니다. 스프레드시트가 영향받는 모든 수식의 재계산을 처리하는 방법과 마찬가지로, 데이터 흐름도 사용자 대신 엔터티 또는 데이터 요소에 대한 변경을 관리하고, 업데이트를 자동화하며, 기본적인 데이터 새로 고침을 위한 논리 검사가 덜 지루하고 시간을 절약할 수 있도록 지원합니다. 데이터 흐름을 사용하면 전에는 데이터 과학자가 감독해야 했으며 완료하는 데 여러 시간 또는 여러 날이 필요했던 작업을 분석가 및 보고서 작성자가 몇 번의 클릭으로 처리할 수 있습니다. 
 
-데이터는 Azure Data Lake Storage Gen2의 [**공통 데이터 모델**](https://docs.microsoft.com/powerapps/common-data-model/overview)에 엔터티로 저장됩니다. 데이터 흐름은 Power BI 서비스를 사용하여 앱 작업 영역에서 만들고 관리합니다.  
+데이터는 Azure Data Lake Storage Gen2의 [**공통 데이터 모델**](https://docs.microsoft.com/powerapps/common-data-model/overview)에 엔터티로 저장됩니다. Power BI 서비스를 사용하여 작업 영역에서 데이터 흐름을 만들고 관리합니다.  
  
 **데이터 흐름**은 데이터를 쉽게 빌드, 사용 및 분석할 수 있도록 설계되었으며 Microsoft에서 게시한 표준화된 모듈식 확장 가능 데이터 스키마 컬렉션인 **공통 데이터 모델**을 사용하도록 설계되었습니다. 이 모델을 사용하면 마찰이 거의 없이 데이터 원본에서 Power BI 대시보드로 이동할 수 있습니다.
 

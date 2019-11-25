@@ -1,25 +1,31 @@
 ---
-title: 원격으로 보고서 서버에 대한 iOS 모바일 앱 액세스 권한 구성
-description: 원격으로 보고서 서버에 iOS 모바일 앱을 구성하는 방법을 알아봅니다.
-author: maggiesMSFT
+title: 원격으로 보고서 서버에 대한 모바일 앱 액세스 권한 구성
+description: 원격으로 보고서 서버에 모바일 앱을 구성하는 방법을 알아봅니다.
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/08/2019
-ms.author: maggies
-ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874198"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925855"
 ---
-# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>원격으로 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한 구성
+# <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>원격으로 보고서 서버에 대한 Power BI 모바일 앱 액세스 권한 구성
 
-이 아티클에서는 조직의 MDM 도구를 사용하여 보고서 서버에 대한 Power BI iOS 모바일 앱 액세스 권한을 구성하는 방법을 설명합니다. 이를 구성하기 위해 IT 관리자는 앱에 푸시하는 데 필요한 정보가 포함된 앱 구성 정책을 만듭니다. 
+적용 대상:
 
- 보고서 서버 연결이 이미 구성되어 있으므로 Power BI iOS 모바일 앱 사용자가 조직의 보고서 서버에 보다 쉽게 연결할 수 있습니다. 
+| ![iPhone](./media/configure-powerbi-mobile-apps-remote/ios-logo-40-px.png) | ![Android 휴대폰](./media/configure-powerbi-mobile-apps-remote/android-logo-40-px.png) |
+|:--- |:--- |
+| iOS |Android |
+
+이 문서에서는 조직의 MDM 도구를 사용하여 보고서 서버에 대한 Power BI 모바일 앱 액세스 권한을 구성하는 방법을 설명합니다. 이를 구성하기 위해 IT 관리자는 앱에 푸시하는 데 필요한 정보가 포함된 앱 구성 정책을 만듭니다. 
+
+ 보고서 서버 연결이 이미 구성되어 있으므로 Power BI 모바일 앱 사용자가 조직의 보고서 서버에 보다 쉽게 연결할 수 있습니다. 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>MDM 도구에서 앱 구성 정책 만들기 
 
@@ -43,9 +49,9 @@ Intune을 사용하여 구성 정책 설정하는 예제는 다음과 같습니�
 
 ![Intune 구성 설정](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
 
-## <a name="end-users-connecting-to-a-report-server"></a>보고서 서버에 연결하는 최종 사용자
+## <a name="end-users-connecting-to-report-server"></a>보고서 서버에 연결하는 최종 사용자
 
- 배포 목록에 대한 앱 구성 정책을 게시한다고 가정해 보겠습니다. 해당 배포 목록의 사용자와 디바이스가 iOS 모바일 앱을 시작하면 다음과 같은 환경을 갖게 됩니다. 
+ 배포 목록에 대한 앱 구성 정책을 게시한다고 가정해 보겠습니다. 해당 배포 목록의 사용자와 디바이스가 모바일 앱을 시작하면 다음과 같은 환경을 갖게 됩니다. 
 
 1. 보고서 서버를 사용하여 해당 모바일 앱을 구성한다는 메시지가 표시되면 **로그인**을 누릅니다.
 

@@ -2,7 +2,6 @@
 title: Power BI Desktop 및 Power BI 서비스 비교
 description: Power BI Desktop은 완전한 데이터 분석 및 보고서 작성 도구입니다. Power BI 서비스는 팀 및 기업에 대한 간단한 보고서 편집 및 협업을 위한 클라우드 기반의 온라인 서비스입니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e2985f4a27d8471bcfce80d40f2263e2be07d38c
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73064356"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879008"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop 및 Power BI 서비스 비교
 
@@ -38,7 +37,7 @@ Power BI Desktop과 Power BI 서비스를 비교한 벤 다이어그램에서 �
 
 Power BI Desktop과 서비스의 보고서 편집기는 유사합니다. 다음 세 가지 섹션으로 구성되어 있습니다.  
 
-1. Power BI Desktop과 서비스에 따라 달라지는 위쪽 탐색 모음    
+1. Power BI Desktop과 서비스에 따라 달라지는 위쪽 탐색 창    
 2. 보고서 캔버스     
 3. **필드**, **시각화** 및 **필터** 창
 

@@ -1,8 +1,7 @@
 ---
 title: Power BI Desktop에서 Azure Cost Management 데이터에 연결
-description: Power BI Desktop을 사용하여 쉽게 Azure에 연결하고 비용 관리에 대해 파악
+description: Power BI Desktop을 사용하여 쉽게 Azure에 연결하고 Azure 비용 및 사용 현황에 대한 인사이트를 얻을 수 있습니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,21 +10,21 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1ef9deac169873d7faee33abdae9f8f38aa09c6d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 1a09bd706a69156066f077bfb1668dd27448bd40
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308010"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878598"
 ---
-# <a name="connect-to-azure-cost-management-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure 비용 관리 데이터에 연결
+# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Cost Management에 연결
 
 Power BI Desktop용 Azure Cost Management 커넥터를 사용하여 Azure 지출을 보다 잘 이해할 수 있는 사용자 지정된 강력한 시각화와 보고서가 가능해집니다. Azure Cost Management 커넥터는 현재 [Microsoft 고객 계약](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) 또는 [기업계약(EA)](https://azure.microsoft.com/pricing/enterprise-agreement/)으로 고객을 지원합니다.  
 
-Azure Cost Management 커넥터는 Azure 인증에 OAuth 2.0을 사용합니다. 연결하기 위해, 기업계약을 위한 [엔터프라이즈 관리자](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) 계정 또는 Microsoft 고객 계약을 위한 [청구 계정 소유자](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles)를 사용해야 합니다. 
+Azure Cost Management 커넥터는 Azure 인증에 OAuth 2.0을 사용하며, 커넥터를 사용하려는 사용자를 확인합니다. 이 프로세스에서 생성된 토큰은 일정 기간 동안 유효합니다. Power BI는 다음 로그인을 위해 토큰을 유지합니다. OAuth 2.0은 이러한 사용 권한을 안전하게 처리하기 위해 백그라운드에서 실행되는 프로세스의 표준입니다. 연결하기 위해, 기업계약을 위한 [엔터프라이즈 관리자](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) 계정 또는 Microsoft 고객 계약을 위한 [청구 계정 소유자](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles)를 사용해야 합니다. 
 
 > [!NOTE]
-> 이 커넥터는 이전에 제공된 [Azure Cost Management(베타)](desktop-connect-azure-consumption-insights.md) 커넥터를 대체합니다. 이전 커넥터를 사용하여 만든 모든 보고서는 이 커넥터를 사용하여 다시 만들어야 합니다.
+> 이 커넥터는 이전에 제공된 [Azure Consumption Insights 및 Azure Cost Management(베타)](desktop-connect-azure-consumption-insights.md) 커넥터를 대체합니다. 이전 커넥터를 사용하여 만든 모든 보고서는 이 커넥터를 사용하여 다시 만들어야 합니다.
 
 ## <a name="connect-using-azure-cost-management"></a>Azure Cost Management를 사용하여 연결
 

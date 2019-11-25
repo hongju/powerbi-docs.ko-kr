@@ -2,7 +2,6 @@
 title: Power BI 서비스의 즐겨찾기(대시보드, 보고서, 앱)
 description: Power BI 서비스에서 대시보드, 보고서, 앱을 즐겨찾기에 추가하는 방법에 대한 설명서
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 165f958cabf3eb6f3cc5c0e61b62667f891d1d48
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256380"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852647"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Power BI 서비스에서 즐겨 찾는 대시보드, 보고서 및 앱
 콘텐츠를 *즐겨찾기*로 만들면 **즐겨찾기** 콘텐츠 목록과 Power BI **홈** > **즐겨찾기 및 자주 사용하는 항목**에서 빠르게 액세스할 수 있습니다. 즐겨찾기는 사용자가 가장 자주 이용하는 콘텐츠로, 노란색 별이 표시됩니다.
@@ -62,7 +61,7 @@ ms.locfileid: "71256380"
 ## <a name="unfavorite-content"></a>즐겨찾기에서 제거된 콘텐츠
 예전만큼 자주 보고서를 사용하지 않는다면 즐겨찾기에서 제거할 수 있습니다. 즐겨찾기에서 제거하면 콘텐츠는 즐겨찾기 목록에서 제거되지만 Power BI에서는 제거되지 않습니다.
 
-1. 왼쪽 탐색 창에서 **즐겨찾기**를 선택하여 **즐겨찾기** 화면을 엽니다.
+1. 탐색 창에서 **즐겨찾기**를 선택하여 **즐겨찾기** 화면을 엽니다.
    
    ![즐겨찾기 화면](./media/end-user-favorite/power-bi-un-favorite.png)
 2. 즐겨찾기에서 제거할 콘텐츠 옆의 노란색 별표를 선택합니다.
@@ -76,5 +75,5 @@ ms.locfileid: "71256380"
 
 ## <a name="next-steps"></a>다음 단계
 - [Power BI: 기본 개념](end-user-basic-concepts.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)를 사용해 보세요.
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)를 사용해 보세요.
 

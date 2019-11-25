@@ -1,8 +1,7 @@
 ---
-title: '자습서: SQL Server에서 온-프레미스 데이터에 연결'
+title: '자습서:  SQL Server에서 온-프레미스 데이터에 연결'
 description: 데이터를 새로 고치는 방법을 비롯하여 SQL Server를 게이트웨이 데이터 원본으로 사용하는 방법에 대해 알아봅니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307389"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881544"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>온-프레미스 SQL Server 데이터베이스에서 데이터 새로 고침
 
@@ -131,7 +130,7 @@ Power BI Desktop에서 온-프레미스 SQL Server 데이터베이스에 직접 
 
 이제 데이터 게이트웨이를 통해 Power BI의 데이터 세트를 SQL Server 데이터베이스 온-프레미스에 연결한 후 다음 단계에 따라 새로 고침 일정을 구성합니다. 일정에 따라 데이터 세트를 새로 고치면 보고서와 대시보드에 최신 데이터가 있는지 확인하는 데 도움이 됩니다.
 
-1. 왼쪽 탐색 창에서 **내 작업 영역** \> **데이터 세트**를 엽니다. **AdventureWorksProducts** 데이터 세트에 대한 줄임표( **. . .** )를 선택한 다음, **새로 고침 일정**을 선택합니다.
+1. 탐색 창에서 **내 작업 영역** \> **데이터 세트**를 엽니다. **AdventureWorksProducts** 데이터 세트에 대한 줄임표( **. . .** )를 선택한 다음, **새로 고침 일정**을 선택합니다.
 
     > [!NOTE]
     > 동일한 이름의 보고서에 대한 줄임표가 아닌 **AdventureWorksProducts** 데이터 세트에 대한 줄임표를 선택해야 합니다. **AdventureWorksProducts** 보고서의 컨텍스트 메뉴에 **새로 고침 일정** 옵션이 포함되어 있지 않습니다.
@@ -149,7 +148,7 @@ Power BI Desktop에서 온-프레미스 SQL Server 데이터베이스에 직접 
 
 ## <a name="perform-an-on-demand-refresh"></a>요청 시 새로 고침 수행
 
-새로 고침 일정을 구성했으므로 Power BI는 15분 이내에 다음 예약된 시간에 데이터 세트를 새로 고칩니다. 게이트웨이 및 데이터 원본 구성을 테스트하는 것과 같이 데이터를 더 빨리 새로 고치려면, 왼쪽 탐색 창의 데이터 세트 메뉴에서 **지금 새로 고침** 옵션을 사용하여 요청 시 새로 고침을 수행합니다. 요청 시 새로 고침은 다음 예약된 새로 고침 시간에는 영향을 주지 않지만, 이전 섹션에서 언급한 일일 새로 고침 제한 사항에 불리하게 작용합니다.
+새로 고침 일정을 구성했으므로 Power BI는 15분 이내에 다음 예약된 시간에 데이터 세트를 새로 고칩니다. 게이트웨이 및 데이터 원본 구성을 테스트하는 것과 같이 데이터를 더 빨리 새로 고치려면, 탐색 창의 데이터 세트 메뉴에서 **지금 새로 고침** 옵션을 사용하여 요청 시 새로 고침을 수행합니다. 요청 시 새로 고침은 다음 예약된 새로 고침 시간에는 영향을 주지 않지만, 이전 섹션에서 언급한 일일 새로 고침 제한 사항에 불리하게 작용합니다.
 
 예를 들어 SSMS(SQL Server Management Studio)를 사용하여 AdventureWorksDW 데이터베이스의 DimProduct 테이블을 업데이트하여 샘플 데이터의 변경 내용을 시뮬레이션합니다.
 
@@ -163,7 +162,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 이제 업데이트된 데이터가 게이트웨이 연결을 통해 데이터 세트와 Power BI의 보고서로 흐를 수 있도록 다음 단계를 수행합니다.
 
-1. Power BI Service의 왼쪽 탐색 창에서 **내 작업 영역**을 선택하고 확장합니다.
+1. Power BI Service의 탐색 창에서 **내 작업 영역**을 선택하고 확장합니다.
 
 2. **데이터 세트**에서**AdventureWorksProducts** 데이터 세트에 대한 줄임표( **. . .** )를 선택한 다음, **지금 새로 고침**을 선택합니다.
 

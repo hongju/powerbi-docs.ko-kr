@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6d8de145f9158e4aa649fa39670fdf2808fc5af4
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903916"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021101"
 ---
 1. 먼저 작업 영역을 만듭니다. **작업 영역** > **작업 영역 만들기**를 선택합니다. 
    
@@ -53,7 +53,7 @@ ms.locfileid: "70903916"
 
 7. **저장**을 선택합니다.
 
-Power BI는 작업 영역을 만들고 엽니다. 구성원으로 속해 있는 작업 영역 목록에 나타납니다. 사용자가 관리자이므로, 줄임표(…)를 선택하여 뒤로 이동한 후 새 구성원을 추가하거나 권한을 변경하여 변경 사항을 적용할 수 있습니다.
+Power BI는 작업 영역을 만들고 엽니다. 구성원으로 속해 있는 작업 영역 목록에 나타납니다. 관리자는 **추가 옵션**(…)을 선택하여 돌아간 다음, 새 구성원을 추가하거나 사용 권한을 변경하여 작업 영역을 변경할 수 있습니다.
 
 ![작업 영역 편집](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

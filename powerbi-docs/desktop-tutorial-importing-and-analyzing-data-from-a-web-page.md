@@ -28,7 +28,7 @@ ms.locfileid: "73879579"
 
 ## <a name="connect-to-a-web-data-source"></a>웹 데이터 원본에 연결
 
-https://en.wikipedia.org/wiki/UEFA_European_Football_Championship 의 UEFA 유럽 축구 선수권 대회 Wikipedia 페이지에 있는 Results 테이블에서 UEFA 우승팀 데이터를 가져올 수 있습니다. 
+[https://en.wikipedia.org/wiki/UEFA_European_Football_Championship](https://en.wikipedia.org/wiki/UEFA_European_Football_Championship ) 의 UEFA 유럽 축구 선수권 대회 Wikipedia 페이지에 있는 Results 테이블에서 UEFA 우승팀 데이터를 가져올 수 있습니다. 
 
 ![Wikipedia Results 테이블](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
