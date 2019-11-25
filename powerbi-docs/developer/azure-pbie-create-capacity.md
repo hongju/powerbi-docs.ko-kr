@@ -1,20 +1,20 @@
 ---
 title: Azure Portal에서 Power BI Embedded 용량 만들기| Microsoft Docs
 description: 이 아티클은 Microsoft Azure에서 Power BI Embedded 용량을 만드는 방법을 안내합니다.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: zakharb
 ms.date: 02/05/2019
-ms.openlocfilehash: 72c7211647254c97b3cb7ce088d400112a9e288a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 57204602900e76e7bd5034e96f6385e5e944c04e
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73864973"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265810"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal에서 Power BI Embedded 용량 만들기
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73764715"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264847"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다. 
@@ -34,8 +34,6 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 **alert, alerts (경고)** 설정된 제한에 따른 데이터 변화를 사용자에게 알리는 기능입니다. 보고서 시각적 개체에서 고정된 타일에서 경고를 설정할 수 있습니다. 사용자는 서비스 및 해당 모바일 앱에 대한 경고를 받습니다.
 
 **annotate (주석 달기)** iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 또는 시각화 개체의 스냅샷 사본에 줄, 텍스트 또는 스탬프를 쓰는 것입니다.
-
-**answer card, answer page (대답 카드, 대답 페이지)** Cortana 대답 카드를 참조하세요.
 
 **app, apps (앱)** 
 
@@ -77,10 +75,6 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 **content pack (콘텐츠 팩)** 사전 패키지된 데이터 세트, 보고서 및 대시보드의 모음입니다. 이제 **앱**, [새 작업 영역 환경에 대해](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) 알아봅니다. 
 
 **content view (콘텐츠 보기)**
-
-**Cortana answer card (Cortana 대답 카드)** 사용자 지정 Cortana 대답을 만들 수 있도록 Power BI 보고서에 포함할 전용 보고서 페이지입니다.
-
-**Cortana answer page (Cortana 대답 페이지)** 고객에게 표시되는 Cortana 페이지의 이름입니다.
 
 **cross filter, cross highlight (크로스 필터, 교차 강조 표시)**
 
