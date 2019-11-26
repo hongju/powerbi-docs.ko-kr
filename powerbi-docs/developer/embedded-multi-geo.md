@@ -69,7 +69,8 @@ API를 통해 다중 지역을 사용한 용량 관리를 지원하기 위해 �
 
 2. **[용량에 할당](https://docs.microsoft.com/rest/api/power-bi/capacities)** - API를 통해 용량에 지정된 작업 영역을 할당할 수 있습니다. 이 작업으로는 홈 지역 외부의 용량에 작업 영역을 할당하거나 다른 지역의 용량 간에 작업 영역을 이동할 수 없습니다. 이 작업을 수행하려면 사용자 또는 [서비스 주체](embed-service-principal.md)가 여전히 작업 영역에 대한 관리자 권한이 필요하며, 관리 또는 대상 용량에 대한 사용 권한을 할당해야 합니다.
 
-3. **[Azure Resource Manager API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** - ‘만들기’ 및 ‘삭제’를 포함하여 모든 Azure Resource Manager API 작업에서 다중 지역을 지원합니다.  
+3. **[Azure Resource Manager API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** - ‘만들기’ 및 ‘삭제’를 포함하여 모든 Azure Resource Manager API 작업에서 다중 지역을 지원합니다.
+** **
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
