@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: d24135cc55ebc8cdfd2a1279cb2a2a46f8f0bc3e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 224b6db8fa04a471a1ce7d1fff2b34a838d6fb9d
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880197"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060345"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL 인증서 만들기
 
@@ -22,20 +22,19 @@ ms.locfileid: "73880197"
 Windows 8 이상에서 PowerShell `New-SelfSignedCertificate` cmdlet을 사용하여 인증서를 생성하려면 다음 명령을 실행합니다.
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 이 도구를 사용하려면 Windows 7용 OpenSSL을 설치해야 합니다. 명령줄에서 OpenSSL 유틸리티를 사용할 수 있어야 합니다.
 
 OpenSSL을 설치하려면 [OpenSSL](https://www.openssl.org) 또는 [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries)(OpenSSL 이진) 사이트로 이동합니다.
 
-
-
 ## <a name="create-a-certificate-mac-os-x"></a>인증서 만들기(Mac OS X)
 
 일반적으로 OpenSSL 유틸리티는 Linux 또는 Mac OS X 운영 체제에서 사용할 수 있습니다.
 
 다음 명령 중 하나를 실행하여 유틸리티를 설치할 수도 있습니다.
+
 * *Brew* 패키지 관리자를 사용하는 경우:
 
     ```cmd
@@ -52,7 +51,7 @@ OpenSSL을 설치하려면 [OpenSSL](https://www.openssl.org) 또는 [OpenSSL Bi
 OpenSSL 유틸리티를 설치한 후에 새 인증서를 생성하려면 다음 명령을 실행합니다.
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 ## <a name="create-a-certificate-linux"></a>인증서 만들기(Linux)
@@ -80,7 +79,7 @@ pbiviz --create-cert
 사용 중인 Linux 운영 체제에서 이미 OpenSSL 유틸리티가 제공되는 경우에는 다음 명령을 실행하여 새 인증서를 생성합니다.
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 또는 [OpenSSL](https://www.openssl.org) 또는 [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries)(OpenSSL 이진) 사이트로 이동하여 OpenSSL 유틸리티를 가져올 수 있습니다.
@@ -95,7 +94,7 @@ OpenSSL 유틸리티가 시스템에 이미 설치되어 있으면, 다음 명�
 openssl req -x509 -newkey rsa:4096 -keyout PowerBICustomVisualTest_private.key -out PowerBICustomVisualTest_public.crt -days 365
 ```
 
-일반적으로 다음 중 하나를 실행하여 PowerBI 시각적 개체 도구의 웹 서버 인증서를 찾을 수 있습니다.
+일반적으로 다음 중 하나를 실행하여 Power BI 시각적 개체 도구의 웹 서버 인증서를 찾을 수 있습니다.
 
 * 전역 도구 인스턴스의 경우:
 

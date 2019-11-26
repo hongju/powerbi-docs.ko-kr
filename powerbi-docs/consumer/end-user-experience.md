@@ -2,22 +2,21 @@
 title: Power BI 서비스 살펴보기
 description: Power BI 탐색 환경 개요
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 10/18/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589447"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851515"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>빠른 시작 - Power BI 서비스 살펴보기
 
@@ -57,7 +56,7 @@ Amanda가 여러분에게 Power BI 서비스 탐색 환경을 안내하는 것�
 
 ![내 작업 영역 화면](./media/end-user-experience/power-bi-my-workspace.png)
 
-왼쪽 탐색 창(왼쪽 탐색 창)에서 작업 영역을 선택하면 Power BI 캔버스의 오른쪽에 연결된 콘텐츠(대시보드, 보고서, 통합 문서, 데이터 세트)의 탭으로 채워집니다.
+탐색 창에서 작업 영역을 선택하면 Power BI 캔버스의 오른쪽에 연결된 콘텐츠(대시보드, 보고서, 통합 문서, 데이터 세트)의 탭으로 채워집니다.
 
 새 사용자인 경우 **내 작업 영역**과 같은 하나의 작업 영역만 표시됩니다.
 
@@ -82,7 +81,7 @@ Amanda가 여러분에게 Power BI 서비스 탐색 환경을 안내하는 것�
    
    ![즐겨찾기 제거](./media/end-user-experience/power-bi-unfavorite2.png)
 
-2. 즐겨찾기에 추가된 모든 콘텐츠의 목록을 표시하려면 왼쪽 탐색 창에서 **즐겨찾기** 오른쪽에 있는 화살표를 선택합니다. 왼쪽 탐색 창은 Power BI 서비스의 영구 기능이기 때문에 Power BI 서비스의 어디에서든 목록에 액세스할 수 있습니다.
+2. 즐겨찾기에 추가된 모든 콘텐츠의 목록을 표시하려면 탐색 창에서 **즐겨찾기** 오른쪽에 있는 화살표를 선택합니다. 탐색 창은 Power BI 서비스의 영구 기능이기 때문에 Power BI 서비스의 어디에서든 이 목록에 액세스할 수 있습니다.
    
     ![즐겨찾기 플라이아웃](./media/end-user-experience/power-bi-favorite.png)
    
@@ -92,7 +91,7 @@ Amanda가 여러분에게 Power BI 서비스 탐색 환경을 안내하는 것�
    
    ![즐겨찾기로 표시](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. 왼쪽 탐색 창에서 **즐겨찾기**를 선택하거나 별표 아이콘(![](media/end-user-experience/powerbi-star-icon.png))을 선택하여 **즐겨찾기** *창*을 엽니다.
+3. 탐색 창에서 **즐겨찾기**를 선택하거나 별표 아이콘(![노란 별 아이콘을 보여 주는 스크린샷](media/end-user-experience/powerbi-star-icon.png))을 선택하여 **즐겨찾기** *창*을 엽니다.
    
    ![즐겨찾기 화면 열기](./media/end-user-experience/power-bi-favorite-pane.png)
    
@@ -107,13 +106,13 @@ Amanda가 여러분에게 Power BI 서비스 탐색 환경을 안내하는 것�
 
 ## <a name="locate-your-most-recent-content"></a>가장 최근의 콘텐츠 찾기
 
-1. 즐겨찾기와 마찬가지로, 왼쪽 탐색 창에서 **최근** 옆에 있는 화살표를 선택하여 Power BI 서비스의 어디에서든 가장 최근에 액세스한 컨텐츠를 빠르게 확인할 수 있습니다.
+1. 즐겨찾기와 마찬가지로, 탐색 창에서 **최근** 옆에 있는 화살표를 선택하여 Power BI 서비스의 어디에서든 가장 최근에 액세스한 컨텐츠를 빠르게 확인할 수 있습니다.
 
    ![최근 플라이아웃](./media/end-user-experience/power-bi-recent-flyout.png)
 
     플라이아웃에서 콘텐츠를 선택하여 엽니다.
 
-2. 최근 콘텐츠를 열지 않고 정보를 보거나 공유, Insights 보기 또는 Excel로 내보내기와 같은 다른 작업을 수행하려는 경우가 있습니다. 이러한 경우 왼쪽 탐색 창에서 **최근** 또는 해당 아이콘을 선택하여 **최근** 창을 엽니다. 둘 이상의 작업 영역이 있는 경우 이 목록에는 모든 작업 영역의 콘텐츠가 포함됩니다.
+2. 최근 콘텐츠를 열지 않고 정보를 보거나 공유, Insights 보기 또는 Excel로 내보내기와 같은 다른 작업을 수행하려는 경우가 있습니다. 이러한 경우 탐색 창에서 **최근** 또는 해당 아이콘을 선택하여 **최근** 창을 엽니다. 둘 이상의 작업 영역이 있는 경우 이 목록에는 모든 작업 영역의 콘텐츠가 포함됩니다.
 
    ![최근 창](./media/end-user-experience/power-bi-recent.png)
 
@@ -138,7 +137,7 @@ Amanda가 여러분에게 Power BI 서비스 탐색 환경을 안내하는 것�
 이 빠른 시작을 완료한 후 원하는 경우 소매점 분석 샘플 대시보드, 보고서 및 데이터 세트를 삭제할 수 있습니다.
 
 1. Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.    
-2. 왼쪽 탐색 창에서 **작업 영역 > 내 작업 영역**을 선택합니다.  
+2. 탐색 창에서 **작업 영역 > 내 작업 영역**을 선택합니다.  
     즐겨찾기를 나타내는 노란색 별모양이 보이나요?    
 3. **대시보드** 탭에서 소매점 분석 대시보드 옆에 있는 휴지통 **삭제** 아이콘을 선택합니다.    
 

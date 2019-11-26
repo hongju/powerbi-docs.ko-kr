@@ -2,7 +2,6 @@
 title: 클래식 작업 영역에서 공동 작업
 description: 작업 영역의 Power BI Desktop 파일과 비즈니스용 OneDrive의 파일, Exchange의 대화, 달력 및 태스크의 공유와 같은 Office 365 서비스의 공동 작업에 대해 알아보세요.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41aaf33602fc8a895d54666736d775ac53d5aaef
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cddb55ab85cfd6d8d6a5e49d81b83a80df2f81da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832443"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873184"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>클래식 작업 영역에서 공동 작업
 Power BI 작업 영역은 동료들과 협업하여 대시보드, 보고서 및 데이터 세트에서 *앱*을 만들기에 적합합니다. 이 문서는 원래 *클래식* 작업 영역에 대한 것입니다.  
@@ -45,7 +44,7 @@ Power BI Desktop 파일을 만든 후 작업 영역에 게시하면 작업 영�
 ## <a name="collaborate-in-office-365"></a>Office 365에서 공동 작업
 Office 365에서 공동 작업은 Power BI의 클래식 작업 영역에서 시작됩니다.
 
-1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 작업 영역 이름 옆에 있는 줄임표(...)를 선택합니다. 
+1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 **추가 옵션**(…)을 선택합니다. 
    
    ![작업 영역 메뉴](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. 이 메뉴에서 몇 가지 방법으로 그룹과 공동 작업할 수 있습니다. 
@@ -56,7 +55,7 @@ Office 365에서 공동 작업은 Power BI의 클래식 작업 영역에서 시�
    처음으로 Office 365의 그룹 작업 영역으로 이동하는 경우 시간이 걸릴 수 있습니다. 15-30분을 기다린 다음 브라우저를 새로 고칩니다.
 
 ## <a name="have-a-group-conversation-in-office-365"></a>Office 365의 그룹 대화
-1. 작업 영역 이름 옆에 있는 줄임표(...) \>**대화**를 선택합니다. 
+1. 작업 영역 이름 옆에 있는 **추가 옵션**(...) \> **대화**를 선택합니다. 
    
     ![대화 탭](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -66,7 +65,7 @@ Office 365에서 공동 작업은 Power BI의 클래식 작업 영역에서 시�
 2. [Office 365용 Outlook에서 그룹 대화](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22)에 대해 자세히 읽으십시오.
 
 ## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>그룹 작업 영역 일정에서 이벤트 예약
-1. 작업 영역 이름 옆에 있는 줄임표(...) \> **일정**을 선택합니다. 
+1. 작업 영역 이름 옆에 있는 **추가 옵션**(...) \> **일정**을 선택합니다. 
    
    ![일정 탭](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -80,6 +79,6 @@ Office 365에서 공동 작업은 Power BI의 클래식 작업 영역에서 시�
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 앱 게시](service-create-distribute-apps.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](http://community.powerbi.com/)하세요.
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](https://community.powerbi.com/)하세요.
 * 의견이 있으신가요? [Power BI Ideas(영문)](https://ideas.powerbi.com/forums/265200-power-bi)를 방문하세요.
 

@@ -2,7 +2,6 @@
 title: 'Power BI용 공급업체 품질 분석 샘플: 둘러보기'
 description: 'Power BI용 공급업체 품질 분석 샘플: 둘러보기'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621305"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858424"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI용 공급업체 품질 분석 샘플: 둘러보기
 
@@ -59,11 +58,11 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>이 샘플의 .pbix 파일 가져오기
 
-또는 공급업체 품질 분석 샘플을 Power BI Desktop에서 사용하도록 설계된 [.pbix 파일](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)로 다운로드할 수 있습니다.
+또는 공급업체 품질 분석 샘플을 Power BI Desktop에서 사용하도록 설계된 [.pbix 파일](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)로 다운로드할 수 있습니다.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
-이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](http://go.microsoft.com/fwlink/?LinkId=529779)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰와 파워 피벗 추가 기능을 사용하도록 설정하려면 [내부 Excel 자체에서 Excel 샘플 살펴보기](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)에서 자세한 내용을 참조하세요.
+이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529779)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰와 파워 피벗 추가 기능을 사용하도록 설정하려면 [내부 Excel 자체에서 Excel 샘플 살펴보기](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)에서 자세한 내용을 참조하세요.
 
 ## <a name="downtime-caused-by-defective-materials"></a>결함이 있는 자재로 인한 가동 중지 시간
 결함이 있는 자재로 인해 발생한 가동 중지 시간을 분석하고 책임 공급업체가 어느 곳인지 확인하겠습니다.  
@@ -94,7 +93,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
     ![공급업체별 가동 중지 시간(분) 트리맵](media/sample-supplier-quality/supplier5.png)  
 
    이 트리맵에서 상위 8개 공급업체가 트리맵 왼쪽에 있는 8개 블록임을 확인할 수 있습니다. 또한 이러한 공급업체가 전체 가동 시간(분)에서 약 50%를 차지하는 것도 볼 수 있습니다.  
-3. 위쪽 탐색 모음에서 **공급업체 품질 분석 샘플**을 선택하여 대시보드로 돌아갑니다.
+3. 위쪽 탐색 창에서 **공급업체 품질 분석 샘플**을 선택하여 대시보드로 돌아갑니다.
 
 ### <a name="comparing-plants"></a>공장 비교
 이제 어느 공장이 결함이 있는 자재를 더 효과적으로 관리하여 가동 중지 시간을 줄이고 있는지 알아보겠습니다.  
@@ -113,7 +112,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 3. 거품형 차트에서 **물류** 거품을 선택하고 일리노이주 스프링필드와 네이퍼빌에 있는 공장을 관찰합니다. 영향 횟수가 많은 스프링필드에 비해, 네이퍼빌은 거부 횟수가 많고 영향 수가 적어 결함이 있는 소모품을 효과적으로 관리하는 것으로 나타납니다.  
 
    ![물류 선택](media/sample-supplier-quality/supplier8.png)  
-4. 위쪽 탐색 모음에서 **공급업체 품질 분석 샘플**을 선택하여 대시보드로 돌아갑니다.
+4. 위쪽 탐색 창에서 **공급업체 품질 분석 샘플**을 선택하여 대시보드로 돌아갑니다.
 
 ## <a name="which-material-type-is-best-managed"></a>어떤 자재 유형을 가장 잘 관리하고 있습니까?
 가장 효과적으로 관리되는 자재 유형은 결함 수량과 상관없이 가동 중지 시간이 가장 적거나 영향이 없는 자재입니다.
@@ -138,7 +137,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
     ![월별, 연도별 총 결함 수량 차트](media/sample-supplier-quality/supplier11.png)  
 3. 결함이 많을수록 가동 중지 시간이 늘어났습니까? 질문 및 답변 상자에서 질문하여 확인합니다.  
-4. 위쪽 탐색 모음에서 **공급업체 품질 분석 샘플**을 선택하여 대시보드로 돌아갑니다.  
+4. 위쪽 탐색 창에서 **공급업체 품질 분석 샘플**을 선택하여 대시보드로 돌아갑니다.  
 5. 원자재의 결함 수가 가장 많다는 것을 알기 때문에 질문 상자에 ‘자재 유형, 연도, 총 결함 수량 표시’를 입력합니다.   
 
     2013년보다 2014년에 원자재 결함이 더 많았습니다.  

@@ -2,7 +2,6 @@
 title: 포커스 모드와 전체 화면 모드 - 확대하여 더 자세히 보는 방법
 description: 포커스 모드 또는 전체 화면 모드에서 Power BI 대시보드, 대시보드 타일, 보고서 또는 보고서 시각적 개체를 표시하는 방법에 대한 설명서
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
@@ -11,14 +10,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327796"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852736"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>콘텐츠를 더 자세히 표시: 포커스 모드 및 전체 화면 모드
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -28,7 +29,7 @@ ms.locfileid: "71327796"
 |---------|---------|----------------------|
 |대시보드     |   가능하지 않음     | 예 |
 |보고서 페이지   | 가능하지 않음  | 예|
-|시각적 개체 보고 | 예    | 예 |
+|보고서 시각적 개체 | 예    | 예 |
 |대시보드 타일 | 예    | 예 |
 |Windows 10 모바일 | 가능하지 않음 | 예 |
 
@@ -36,7 +37,7 @@ ms.locfileid: "71327796"
 
 ![대시보드 전체 화면 모드 전과 후](media/end-user-focus/power-bi-dashboards-focus.png)
 
-메뉴 및 탐색 모음 없이 Power BI 서비스 콘텐츠(대시보드, 보고서 페이지, 타일 및 시각적 개체)를 표시합니다.  항상 한눈에 콘텐츠 전체를 볼 수 있습니다. 이를 TV 모드라고도 합니다.   
+메뉴 및 탐색 창 없이 Power BI 서비스 콘텐츠(대시보드, 보고서 페이지, 타일 및 시각적 개체)를 표시합니다.  항상 한눈에 콘텐츠 전체를 볼 수 있습니다. 이를 TV 모드라고도 합니다.   
 
 전체 화면 모드를 열려면 대시보드, 보고서, 포커스 모드의 타일 또는 포커스 모드의 시각적 위에 있는 Power BI 서비스 메뉴 모음에서 **전체 화면** 아이콘 ![전체 화면 아이콘 ](media/end-user-focus/power-bi-full-screen-icon.png)을 선택합니다.  선택한 콘텐츠가 전체 화면을 채웁니다.
 Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 화면을 사용할 수 있습니다](./mobile/mobile-windows-10-app-presentation-mode.md). 
@@ -58,7 +59,7 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
 ## <a name="working-in-full-screen-mode"></a>전체 화면 모드에서 작업
 
-전체 화면 모드에서 대시보드 또는 보고서 페이지를 열려면 전체 화면 아이콘을 선택합니다. ![전체 화면 아이콘](media/end-user-focus/power-bi-full-screen-icon.png) 위쪽 탐색 모음에서. 전체 화면 모드에서 마우스 또는 커서를 이동하면 상황에 맞는 메뉴가 표시됩니다. 전체 화면은 매우 다양한 콘텐츠에 사용할 수 있으므로 상황에 맞는 메뉴의 옵션은 각각 약간 다르지만 별도의 설명 없이도 바로 이해할 수 있습니다.  마우스로 정의의 아이콘을 가리키면 됩니다.
+전체 화면 모드에서 대시보드 또는 보고서 페이지를 열려면 전체 화면 아이콘을 선택합니다. ![전체 화면 아이콘](media/end-user-focus/power-bi-full-screen-icon.png) 위쪽 탐색 창에서 전체 화면 모드에서 마우스 또는 커서를 이동하면 상황에 맞는 메뉴가 표시됩니다. 전체 화면은 매우 다양한 콘텐츠에 사용할 수 있으므로 상황에 맞는 메뉴의 옵션은 각각 약간 다르지만 별도의 설명 없이도 바로 이해할 수 있습니다.  마우스로 정의의 아이콘을 가리키면 됩니다.
 
 대시보드에 대한 메뉴    
 ![대시보드에 대한 메뉴](media/end-user-focus/power-bi-full-screen-dash.png)    
@@ -97,11 +98,11 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
 1. Power BI 서비스에서 대시보드를 엽니다.
 
-2. 마우스로 대시보드 타일 또는 보고서 시각적 개체를 가리키고, 줄임표(...)를 선택하고, **포커스 모드에서 열기**를 선택합니다.
+2. 대시보드 타일 또는 보고서 시각적 개체를 마우스로 가리키고 **추가 옵션**(...)을 선택한 다음, **포커스 모드에서 열기**를 선택합니다.
 
-    ![타일의 줄임표 메뉴](media/end-user-focus/power-bi-dashboard-focus.png)을 선택합니다.
+    ![타일의 줄임표 메뉴](media/end-user-focus/power-bi-dashboard-focus.png).
 
-2. 타일이 열리고 전체 보고서 캔버스를 채웁니다. 시각적 개체를 조작하는 데 사용할 수 있는 **필터** 창이 아직 있는 것을 볼 수 있습니다. **필터** 창은 축소할 수 있습니다. 
+2. 타일이 열리고 전체 보고서 캔버스를 채웁니다. 시각적 개체를 조작하는 데 사용할 수 있는 **필터** 창이 아직 있는 것을 볼 수 있습니다. **필터** 창은 축소할 수 있습니다.
 
    ![타일은 보고서 캔버스를 채웁니다.](media/end-user-focus/power-bi-focus-filter.png)
 

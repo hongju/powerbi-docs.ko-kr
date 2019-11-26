@@ -1,20 +1,19 @@
 ---
 title: Power BI API로 무엇을 할 수 있나요?
 description: Power BI API로 무엇을 할 수 있나요?
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: cc180c2e9d5275172ad9da75c502ef53d9d7ee66
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: bbca4e5bf52ee0d4674cfcdc28edd53e90033a98
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307611"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265216"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>개발자는 Power BI API로 무엇을 할 수 있나요?
 
@@ -32,7 +31,7 @@ Power BI REST API를 사용하면 보고서, 데이터 세트 및 작업 영역�
 | Power BI에 인증. | [Power BI에 인증 ](get-azuread-access-token.md) |
 
 > [!NOTE]
-> Power BI API는 계속 그룹으로 앱 작업 영역을 참조합니다. 그룹에 대한 참조는 앱 작업 영역과 작업 중임을 의미합니다.
+> Power BI API는 계속해서 작업 영역을 그룹으로 참조합니다. 그룹 참조는 작업 영역에서 작업 중임을 나타냅니다.
 
 ## <a name="api-developer-tools"></a>API 개발자 도구
 
@@ -61,4 +60,4 @@ Power BI API를 사용하여 [데이터를 데이터 세트에 푸시](walkthrou
 * [Power BI REST API 참조](rest-api-reference.md)
 * [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

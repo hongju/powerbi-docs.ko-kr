@@ -2,7 +2,6 @@
 title: Office 365에서 Power BI 서비스 상태 추적
 description: Microsoft 365 관리 센터에서 현재 및 기록 서비스 상태를 보는 방법을 알아봅니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 579950320c3193e9cc1921a06d5b121ff0b58ae0
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 0e944dfa34bec1e1c1816cf80d7dc2df7252b65a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075352"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857700"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Office 365에서 Power BI 서비스 상태 추적
 
@@ -29,7 +28,7 @@ Microsoft 365 관리 센터는 Power BI 관리자에게 중요한 도구를 제�
 
 1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal)에 로그인합니다.
 
-1. 왼쪽 탐색 모음에서 **모두 표시** > **상태** > **서비스 상태**를 선택합니다. 서비스 상태 페이지가 나타납니다.
+1. 탐색 창에서 **모두 표시** > **상태** > **서비스 상태**를 선택합니다. 서비스 상태 페이지가 나타납니다.
 
     ![상태 및 서비스 상태 옵션이 표시된 Microsoft 365 관리 센터의 스크린샷](media/service-admin-health/service-health-tile.png)
 

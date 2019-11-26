@@ -2,19 +2,18 @@
 title: iOS 앱의 질문 및 답변 가상 분석가 - Power BI
 description: iOS 디바이스에 설치된 Power BI 모바일 앱에서 질문 및 답변 가상 분석가를 사용하여 사용자의 고유한 언어로 이 샘플 데이터에 대해 질문합니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60977482"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879375"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 앱의 질문 및 답변 가상 분석가 - Power BI
 
@@ -35,7 +34,7 @@ ms.locfileid: "60977482"
 ## <a name="prerequisites"></a>필수 조건
 
 ### <a name="install-the-power-bi-for-ios-app"></a>iOS용 Power BI 앱 설치
-Apple App Store에서 iPad, iPhone 또는 iPod Touch로 [iOS 앱 다운로드](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone 앱을 다운로드")합니다.
+Apple App Store에서 iPad, iPhone 또는 iPod Touch로 [iOS 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkId=522062 "iPhone 앱 다운로드")합니다.
 
 iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
 - iOS 10 이상이 설치된 iPad.
@@ -49,7 +48,7 @@ iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
 
 1. Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.
 
-2. 왼쪽 탐색 창에서 **작업 영역**, **내 작업 영역**을 선택합니다.
+2. 탐색 창에서 **작업 영역**, **내 작업 영역**을 선택합니다.
 
 3. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
    

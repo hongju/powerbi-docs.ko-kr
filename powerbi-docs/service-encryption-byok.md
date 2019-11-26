@@ -3,19 +3,18 @@ title: Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 
 description: Power BI Premium에서 자신의 암호화 키를 사용하는 방법을 알아봅니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 39c6dc8a60be67f8f9e99e01ae1c7249166c5ddb
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 7ab5b09aa6341acf86e039c5951e4752e260876e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877735"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881861"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 보기)
 
@@ -32,6 +31,7 @@ BYOK를 사용하려면 Power BI Desktop(PBIX) 파일에서 Power BI 서비스�
 - Analysis Services 라이브 연결
 - Excel 통합 문서(데이터를 Power BI Desktop으로 먼저 가져오는 경우 제외)
 - 푸시 데이터 세트
+- [대형 모델](service-premium-large-models.md)
 
 BYOK는 PBIX 파일과 연결된 데이터 세트에만 적용되며 타일 및 시각적 개체에 대한 쿼리 결과 캐시는 적용되지 않습니다.
 

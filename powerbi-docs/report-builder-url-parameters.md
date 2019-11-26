@@ -3,18 +3,18 @@ title: 페이지를 매긴 보고서의 URL 매개 변수 - Power BI 보고서 �
 description: 이 토픽에서는 Power BI 페이지를 매긴 보고서 작성기 보고서 매개 변수의 일반적인 용도, 설정할 수 있는 속성 등에 대해 설명합니다.
 ms.service: powerbi
 ms.subservice: report-builder
-ms.custom: ''
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
+ms.custom: ''
 ms.date: 09/10/2019
-ms.openlocfilehash: e2a325a8a59b35ad1fcd477fd2d0891b3591ee88
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: e39864081ce4dd1ad415224454b75404e882e9ce
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877823"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128317"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서의 URL 매개 변수
 

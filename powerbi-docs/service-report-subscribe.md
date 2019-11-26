@@ -1,26 +1,25 @@
 ---
-title: 보고서 및 대시보드에 사용자 자신과 다른 사용자 구독 - Power BI
+title: 보고서 및 대시보드에 사용자 자신과 다른 사용자 구독
 description: Power BI 보고서 페이지, 대시보드 또는 페이지를 매긴 보고서의 스냅샷에 자신과 다른 사용자가 구독하는 방법에 대해 알아보세요.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073431"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099766"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 보고서 및 대시보드에 자신과 다른 사용자 구독
 
-자신과 동료에게 가장 중요한 보고서 페이지, 대시보드 및 페이지를 매긴 보고서를 구독할 수 있습니다. Power BI가 받은 편지함으로 스냅샷을 이메일로 보냅니다. 메일 수신 빈도(초기 데이터 새로 고침 후 매일, 매주, 매시간, 매월 또는 하루에 한 번)를 Power BI에 지정합니다.  매일, 매주, 매시간 또는 매월을 선택하면 구독을 실행할 시간을 선택할 수 있습니다.  모든 보고서 페이지 및 대시보드에 대해 하루 최대 24개의 서로 다른 구독을 설정할 수 있습니다.
+자신과 동료에게 가장 중요한 보고서 페이지, 대시보드 및 페이지를 매긴 보고서를 구독할 수 있습니다. Power BI가 받은 편지함으로 스냅샷을 이메일로 보냅니다. 메일 수신 빈도(초기 데이터 새로 고침 후 매일, 매주, 매시간, 매월 또는 하루에 한 번)를 Power BI에 지정합니다.  매일, 매주, 매시간 또는 매월을 선택하면 구독을 실행할 시간을 선택할 수 있습니다.  모두 합쳐, 보고서 또는 대시보드당 최대 24개의 구독을 설정할 수 있습니다.
 
 ![대시보드의 이메일 스냅샷](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -41,7 +40,7 @@ Power BI 서비스에만 구독을 만들 수 있습니다. 보고서 페이지 
 
 페이지를 매긴 보고서를 구독하는 것은 약간 다릅니다. 자세한 내용은 [Power BI 서비스의 페이지를 매긴 보고서에 자신과 다른 사용자 구독](paginated-reports-subscriptions.md)을 참조하세요.
  
-![구독 아이콘 선택](media/service-report-subscribe/power-bi-subscribe-orientation.png)을 선택합니다.
+![구독 아이콘 선택](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. 대시보드 또는 보고서를 엽니다.
 2. 상단의 메뉴 모음에서 **구독**을 선택하거나 봉투 아이콘 ![구독 아이콘](media/service-report-subscribe/power-bi-icon-envelope.png)을 선택합니다.
@@ -97,7 +96,7 @@ Pro 라이선스가 만료되거나 소유자가 대시보드 또는 보고서�
 * 보고서 페이지 구독은 보고서 페이지의 이름과 연결됩니다. 보고서 페이지를 구독한 다음, 이름을 바꾸면 구독을 다시 만들어야 합니다.
 * 조직은 Power BI에서 메일 구독을 사용하는 기능을 제한하는 Azure Active Directory에서 특정 설정을 구성할 수 있습니다.  이러한 제한 사항에는 리소스에 액세스할 때 다단계 인증 또는 IP 범위 제한 사항이 포함되지만 이에 국한되지는 않습니다.
 * 현재, 보안 컨텍스트를 사용하여 다른 사용자에게 구독을 보낼 수 있는 페이지를 매긴 보고서를 사용 중인 경우를 제외하고 다른 사용자를 구독할 때 실시간 연결 데이터 세트를 통한 보고서/대시보드 메일 구독은 지원되지 않습니다. 
-* 이메일 구독은 대부분의 [사용자 지정 시각적 개체](power-bi-custom-visuals.md)를 지원하지 않습니다.  한 가지 예외는 [인증](power-bi-custom-visuals-certified.md)된 사용자 지정 시각적 개체입니다.  
+* 이메일 구독은 대부분의 [사용자 지정 시각적 개체](developer/power-bi-custom-visuals.md)를 지원하지 않습니다.  한 가지 예외는 [인증](developer/power-bi-custom-visuals-certified.md)된 사용자 지정 시각적 개체입니다.  
 * 이메일 구독은 현재 R 지원 사용자 지정 시각적 개체를 지원하지 않습니다.  
 * 전자 메일 구독은 보고서의 기본 필터 및 슬라이서 상태와 함께 보내집니다. 구독한 후에 수행된 기본값에 대한 변경 내용은 이메일에 표시되지 않습니다.  페이지를 매긴 보고서는 이 기능을 지원하므로 구독 별로 특정 매개 변수 값을 설정할 수 있습니다.   
 * 특히 대시보드 구독의 경우, 특정 유형의 타일은 아직 지원되지 않습니다.  여기에는 타일, 비디오 타일, 사용자 지정 웹 콘텐츠 타일의 스트리밍이 포함됩니다.     
@@ -109,5 +108,5 @@ Pro 라이선스가 만료되거나 소유자가 대시보드 또는 보고서�
 ## <a name="next-steps"></a>다음 단계
 
 - [Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독](paginated-reports-subscriptions.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)    
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)    
 - [블로그 게시물 읽기](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

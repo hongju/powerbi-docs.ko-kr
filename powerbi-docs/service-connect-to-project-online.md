@@ -2,7 +2,6 @@
 title: Power BI로 Project Online에 연결
 description: Power BI용 온라인 프로젝트
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 941981e1f84cf3d7a74a156e4f1c88f57e061ad2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023776"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854647"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Power BI를 사용하여 Project Web App에 연결
 Microsoft Project Web App은 PPM(프로젝트 포트폴리오 관리) 및 일상 업무를 위한 유연한 온라인 솔루션입니다. Project Web App을 사용하면 조직이 프로젝트 포트폴리오 투자를 시작하고 우선순위를 지정할 수 있으며 의도한 비즈니스 가치를 제공할 수 있습니다. Power BI용 Project Web App 템플릿 앱을 사용하면 프로젝트, 포트폴리오 및 리소스를 관리할 수 있도록 Project Web App에서 인사이트의 잠금을 해제할 수 있습니다.
@@ -24,7 +23,7 @@ Power BI용 [Project Web App 템플릿 앱](https://appsource.microsoft.com/prod
 
 ## <a name="how-to-connect"></a>연결 방법
 
-1. 왼쪽 탐색 창에서 **앱**을 선택하고 오른쪽 위 모퉁이에서 **앱 가져오기**를 선택합니다.
+1. 탐색 창에서 **앱**을 선택하고 오른쪽 위에서 **앱 가져오기**를 선택합니다.
 
     ![앱 가져오기](media/service-connect-to-project-online/GetApps.png)
 
@@ -52,7 +51,7 @@ Power BI용 [Project Web App 템플릿 앱](https://appsource.microsoft.com/prod
 
 9. 데이터를 로드하는 것을 나타내는 알림이 표시됩니다. 사용자의 계정 크기에 따라 다소 시간이 걸릴 수 있습니다. Power BI 데이터를 가져오면 새 작업 영역의 콘텐츠가 표시됩니다. 최신 업데이트를 얻으려면 데이터 세트를 새로 고쳐야 할 수 있습니다. 
 
-    Power BI가 데이터를 가져오면 왼쪽 탐색 창에 13개의 페이지로 구성된 보고서와 데이터 세트가 표시됩니다. 
+    Power BI가 데이터를 가져오면 탐색 창에 13개의 페이지로 구성된 보고서와 데이터 세트가 표시됩니다. 
 
 10. 보고서가 준비되면 계속해서 Project Web App 데이터를 탐색하기 시작합니다. 템플릿 앱은 포트폴리오 개요(6개의 보고서 페이지), 리소스 개요(5개의 보고서 페이지) 및 프로젝트 상태(2개의 보고서 페이지)에 대한 풍부하고 세부적인 13개의 보고서를 제공합니다. 
 

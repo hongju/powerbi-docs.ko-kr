@@ -3,23 +3,22 @@ title: 고객용 애플리케이션에 Power BI 콘텐츠를 포함하기 위한
 description: 고객의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: 8fd87174a1f94ac8a6472238164298c47aa5691e
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 24a9c0069cb80a20a84823655437a27a4f6c0e9e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391801"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877705"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서:  고객의 애플리케이션에 Power BI 콘텐츠 포함
 
-**Azure의 Power BI Embedded**를 통해 앱 소유 데이터를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **앱 소유 데이터**는 해당 임베디드 분석 플랫폼으로 Power BI를 사용하는 애플리케이션을 갖는 것입니다. **ISV 개발자**는 사용자에게 Power BI 라이선스를 요구하지 않고도 완벽하게 통합된 대화형 애플리케이션에서 보고서, 대시보드 또는 타일을 표시하는 Power BI 콘텐츠를 만들 수 있습니다. 이 자습서에서는 고객을 위해 **Azure의 Power BI Embedded**를 사용하여 Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서를 애플리케이션에 통합하는 방법을 보여줍니다.
+**Azure의 Power BI Embedded** 또는 **Office의 Power BI 포함**을 통해 앱 소유 데이터를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **앱 소유 데이터**는 해당 임베디드 분석 플랫폼으로 Power BI를 사용하는 애플리케이션을 갖는 것입니다. **ISV** 또는 **개발자**는 사용자에게 Power BI 라이선스를 요구하지 않고도 완벽하게 통합된 대화형 애플리케이션에서 보고서, 대시보드 또는 타일을 표시하는 Power BI 콘텐츠를 만들 수 있습니다. 이 자습서에서는 Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서를 애플리케이션에 통합하는 방법을 보여 줍니다.
 
 ![Power BI 포함 보고서](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
@@ -33,12 +32,9 @@ ms.locfileid: "70391801"
 시작하려면 다음이 필요합니다.
 
 * [Power BI Pro 계정](../service-self-service-signup-for-power-bi.md)(Power BI Pro 계정에 로그인하기 위한 사용자 이름 및 암호인 마스터 계정) 또는 [서비스 주체(앱 전용 토큰)](embed-service-principal.md).
-* [Microsoft Azure](https://azure.microsoft.com/) 구독.
 * 고유한 [Azure Active Directory 테넌트 ](create-an-azure-active-directory-tenant.md) 설정이 필요합니다.
 
 아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
-
-Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)을 만듭니다.
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>임베디드 분석 개발 환경 설정
 
@@ -60,13 +56,13 @@ Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
 
-### <a name="create-an-app-workspace"></a>앱 작업 영역 만들기
+### <a name="create-a-workspace"></a>작업 영역 만들기
 
-고객의 보고서, 대시보드 또는 타일을 포함하는 경우 콘텐츠를 앱 작업 영역 내에 배치해야 합니다. 설정할 수 있는 작업 영역에는 [기존 작업 영역](../service-create-workspaces.md) 또는 [새 작업 영역](../service-create-the-new-workspaces.md)이 있습니다. *마스터* 계정을 사용하는 경우에는 사용하는 작업 영역의 형식은 중요하지 않습니다. 그러나 *[서비스 주체](embed-service-principal.md)* 를 사용하여 애플리케이션에 로그인하는 경우에는 새 작업 영역을 사용해야 합니다. 두 시나리오 모두에서 *마스터* 계정 또는 *서비스 주체*는 애플리케이션과 관련된 앱 작업 영역의 관리자여야 합니다.
+고객을 위해 보고서, 대시보드 또는 타일을 포함하는 경우 콘텐츠를 작업 영역 내에 배치해야 합니다. 설정할 수 있는 작업 영역에는 [기존 작업 영역](../service-create-workspaces.md) 또는 [새 작업 영역](../service-create-the-new-workspaces.md)이 있습니다. *마스터* 계정을 사용하는 경우에는 사용하는 작업 영역의 형식은 중요하지 않습니다. 그러나 *[서비스 주체](embed-service-principal.md)* 를 사용하여 애플리케이션에 로그인하는 경우에는 새 작업 영역을 사용해야 합니다. 두 시나리오에서 ‘마스터’ 계정이나 ‘서비스 주체’는 모두 애플리케이션과 관련된 작업 영역의 관리자여야 합니다.  
 
 ### <a name="create-and-publish-your-reports"></a>보고서 만들기 및 게시
 
-Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음, 이러한 보고서를 앱 작업 영역으로 게시할 수 있습니다. 이 작업을 수행하는 방법에는 두 가지가 있습니다. 최종 사용자는 마스터 계정(Power BI Pro 라이선스)을 사용하여 기존 앱 작업 영역에 보고서를 게시할 수 있습니다. 서비스 주체를 사용하는 경우 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup)를 사용하여 새 작업 영역에 보고서를 게시할 수 있습니다.
+Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음, 이러한 보고서를 작업 영역에 게시할 수 있습니다. 이 작업을 수행하는 방법에는 두 가지가 있습니다. 최종 사용자는 마스터 계정(Power BI Pro 라이선스)을 사용하여 기존 작업 영역에 보고서를 게시할 수 있습니다. 서비스 주체를 사용하는 경우 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup)를 사용하여 새 작업 영역에 보고서를 게시할 수 있습니다.
 
 다음 단계는 PBIX 보고서를 Power BI 작업 영역에 게시하는 방법을 안내합니다.
 
@@ -78,7 +74,7 @@ Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음
 
    ![PBI 데스크톱 보고서](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
 
-3. **앱 작업 영역**에 게시합니다. 이 프로세스는 마스터 계정(Power Pro 라이선스) 또는 서비스 주체를 사용하는지에 따라 다릅니다. 마스터 계정을 사용하는 경우 Power BI Desktop을 통해 보고서를 게시할 수 있습니다.  이제 서비스 주체를 사용하는 경우 Power BI REST API를 사용해야 합니다.
+3. **작업 영역**에 게시합니다. 이 프로세스는 마스터 계정(Power Pro 라이선스) 또는 서비스 주체를 사용하는지에 따라 다릅니다. 마스터 계정을 사용하는 경우 Power BI Desktop을 통해 보고서를 게시할 수 있습니다.  이제 서비스 주체를 사용하는 경우 Power BI REST API를 사용해야 합니다.
 
 ## <a name="embed-content-using-the-sample-application"></a>샘플 애플리케이션을 사용하여 콘텐츠 포함
 
@@ -139,7 +135,7 @@ Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음
 
 이 특성은 AuthenticationTypes(마스터 계정 및 [서비스 주체](embed-service-principal.md)) 모두에 필요합니다.
 
-Power BI의 앱 작업 영역(그룹) GUID를 사용하여 **workspaceId** 정보를 입력합니다. Power BI 서비스에 로그인하거나 Powershell을 사용할 때 URL에서 이 정보를 가져올 수 있습니다.
+Power BI의 작업 영역(그룹) GUID를 사용하여 **workspaceId** 정보를 입력합니다. Power BI 서비스에 로그인하거나 Powershell을 사용할 때 URL에서 이 정보를 가져올 수 있습니다.
 
 URL <br>
 
@@ -190,7 +186,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
-2. 왼쪽 탐색 창에서 **모든 서비스**를 선택한 다음, **앱 등록**을 선택합니다.
+2. 왼쪽 탐색 창에서 **모든 서비스**를 선택하고 **앱 등록**을 선택합니다.
 
     ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -268,11 +264,23 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>포함 토큰을 만듭니다.
+JavaScript API에서 사용할 수 있는 포함 토큰을 생성합니다. API에는 두 가지 유형이 있습니다. 첫 번째 그룹에는 각각 특정 항목의 포함 토큰을 생성하는 5개 API가 포함됩니다. 하나의 API만 포함된 두 번째 그룹은 여러 항목을 포함하는 데 사용할 수 있는 토큰을 생성합니다.
 
-Javascript API에서 사용할 수 있는 포함 토큰을 생성했습니다. 포함 토큰은 포함한 항목에 한정됩니다. 따라서 Power BI 콘텐츠의 구성 요소를 포함하는 경우 이에 대한 새 embed 토큰을 만들어야 합니다. 어떤 **accessLevel**을 사용할지를 포함한 자세한 내용은 사용 하려면 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)를 참조하세요.
+**특정 항목의 포함 토큰을 생성하기 위한 API**
 
-*포함하려는 보고서, 대시보드 또는 타일에 대한 포함 토큰을 만드는 샘플은 [샘플 애플리케이션](https://github.com/Microsoft/PowerBI-Developer-Samples)의 Services\EmbedService.cs 파일 내에서 사용할 수 있습니다.*
+이 API를 통해 만든 포함 토큰은 포함하는 항목에 연결됩니다. 이 API를 사용하여 Power BI 항목(예: 보고서, 대시보드 또는 타일)을 포함할 때마다 해당 항목의 포함 토큰을 새로 만들어야 합니다.
+* [대시보드 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [데이터 세트 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [보고서 GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [보고서 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [타일 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
+보고서, 대시보드 또는 타일의 포함 토큰을 만드는 샘플은 [샘플 애플리케이션](https://github.com/Microsoft/PowerBI-Developer-Samples)의 다음 파일에서 확인할 수 있습니다.
+* Services\EmbedService.cs
+* Models\EmbedConfig.cs
+* Models\TileEmbedConfig.cs
+
+다음은 보고서 GenerateTokenInGroup 포함 토큰 API를 사용하기 위한 코드 예제입니다.
 ```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
@@ -290,7 +298,55 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-**EmbedConfig** 및 **TileEmbedConfig**에 대한 클래스가 만들어집니다. 샘플은 **Models\EmbedConfig.cs** 파일 및 **Models\TileEmbedConfig.cs 파일** 내에서 사용 가능합니다.
+**여러 항목의 포함 토큰을 생성하기 위한 API**<a id="multiEmbedToken"></a>
+
+[토큰 생성](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) 포함 API는 여러 항목을 포함하는 데 사용할 수 있는 토큰을 생성합니다.
+
+보고서를 포함하는 동안 데이터 세트를 동적으로 선택하는 데에도 사용할 수 있습니다. 이 API 사용에 대한 자세한 내용은 [동적 바인딩](embed-dynamic-binding.md)을 참조하세요.
+
+
+다음은 이 API를 사용하는 예제입니다.
+ 
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+var reports = new List<GenerateTokenRequestV2Report>()
+{ 
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = false,
+        Id = report1.Id
+    },
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = true,
+        Id = report2.Id
+    }
+};
+
+var datasets= new List<GenerateTokenRequestV2Dataset>()
+{
+    new GenerateTokenRequestV2Dataset(dataset1.Id),
+    new GenerateTokenRequestV2Dataset(dataset2.Id),
+    new GenerateTokenRequestV2Dataset(dataset3.Id),
+};
+
+var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
+{
+    new GenerateTokenRequestV2TargetWorkspace(workspace1.Id),
+    new GenerateTokenRequestV2TargetWorkspace(workspace2.Id),
+};
+
+var request = new GenerateTokenRequestV2()
+{
+    Datasets = datasetsRequestDetails ?? null,
+    Reports = reportsRequestDetails,
+    TargetWorkspaces = targetWSRequestdetials ?? null,
+};
+
+var token = client.GetClient().EmbedToken.GenerateToken(request);
+```
 
 ### <a name="load-an-item-using-javascript"></a>JavaScript를 사용하여 항목 로드
 
@@ -345,35 +401,40 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 
 ## <a name="move-to-production"></a>프로덕션으로 이동
 
-이제 애플리케이션 개발을 완료했으므로 전용 용량을 포함한 앱 작업 영역으로 돌아갈 차례입니다. 
+이제 애플리케이션 개발을 완료했으므로 전용 용량으로 작업 영역을 백업해야 합니다. 
 
 > [!Important]
-> 전용 용량은 프로덕션으로 이동해야 합니다.
+> 전용 용량은 프로덕션으로 이동해야 합니다. 모든 작업 영역(보고서 또는 대시보드가 포함된 작업 영역과 데이터 세트가 포함된 작업 영역)을 용량에 할당해야 합니다.
 
 ### <a name="create-a-dedicated-capacity"></a>전용 용량 만들기
 
-전용 용량을 만들면 고객을 위해 전용 리소스의 혜택을 활용할 수 있습니다. [Microsoft Azure Portal](https://portal.azure.com) 내에서 전용 용량을 구입할 수 있습니다. Power BI Embedded 용량을 만드는 방법에 대한 자세한 내용은 [Azure Portal에서 Power BI Embedded 용량 만들기](azure-pbie-create-capacity.md)를 참조하세요.
+전용 용량을 만들면 고객을 위해 전용 리소스의 혜택을 활용할 수 있습니다. 선택할 수 있는 두 가지 유형의 용량은 다음과 같습니다.
+* **Power BI Premium** - *EM* 및 *P*의 두 SKU 제품군에서 사용할 수 있는 테넌트 수준 Office 356 구독입니다. Power BI 콘텐츠를 포함하는 경우 이 솔루션을 *‘Power BI 포함’* 이라고 합니다. 이 구독과 관련된 자세한 내용은 [Power BI Premium이란?](../service-premium-what-is.md)을 참조하세요.
+* **Azure Power BI Embedded** - [Microsoft Azure Portal](https://portal.azure.com)에서 전용 용량을 구입할 수 있습니다. 이 구독은 *A* SKU를 사용합니다. Power BI Embedded 용량을 만드는 방법에 대한 자세한 내용은 [Azure Portal에서 Power BI Embedded 용량 만들기](azure-pbie-create-capacity.md)를 참조하세요.
+> [!NOTE]
+> A SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다.
 
-아래 표를 사용하여 필요에 맞는 최적의 Power BI Embedded 용량을 결정합니다.
+아래 표에서는 각 SKU의 리소스 및 한도를 설명합니다. 요구 사항에 가장 적합한 용량을 확인하려면 [내 시나리오를 위해 구입해야 하는 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario) 표를 참조하세요.
 
-| 용량 노드 | 총 코어<br/>*(백 엔드 + 프런트 엔드)* | 백 엔드 코어 | 프런트 엔드 코어 | DirectQuery/라이브 연결 제한|
-| --- | --- | --- | --- | --- | --- |
-| A1 |1개 가상 코어 |0.5개 코어, 3GB RAM |0.5개 코어 |초당 0.5 |
-| A2 |2개 가상 코어 |1개 코어, 5GB RAM |1개 코어 | 초당 10 |
-| A3 |4개 가상 코어 |2개 코어, 10GB RAM |2개 코어 | 초당 15 |
-| A4 |8개 가상 코어 |4개 코어, 25GB RAM |4개 코어 |초당 30 |
-| A5 |16개 가상 코어 |8개 코어, 50GB RAM |8개 코어 |초당 60 |
-| A6 |32개 가상 코어 |16개 코어, 100GB RAM |16개 코어 |초당 120 |
+| 용량 노드 | 총 V 코어 | 백 엔드 V 코어 | RAM(GB) | 프런트 엔드 V 코어 | DirectQuery/Live Connection(초당) | 모델 새로 고침 병렬 처리 |
+| --- | --- | --- | --- | --- | --- | --- |
+| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
+| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
+| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
+| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| | | | | | | |
 
-**‘SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다.’** 
+### <a name="development-testing"></a>개발 테스트
 
-PRO 라이선스가 있는 포함 토큰을 사용하는 것은 개발 테스트용이므로 Power BI 마스터 계정 또는 서비스 주체가 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 환경에 포함하려면 전용 용량이 필요합니다. 전용 용량으로 생성할 수 있는 포함 토큰 수에는 제한이 없습니다. [사용 가능한 기능](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)으로 이동하여 현재 포함된 사용 현황을 백분율로 표시하는 사용 값을 확인합니다. 사용량은 마스터 계정을 기반으로 합니다.
+Pro 라이선스로 포함 토큰을 사용하는 것은 개발 테스트용이므로 Power BI 마스터 계정이나 서비스 주체가 생성할 수 있는 포함 토큰 수는 제한됩니다. 프로덕션 환경에 포함하려면 전용 용량이 필요합니다. 전용 용량으로 생성할 수 있는 포함 토큰 수에는 제한이 없습니다. [사용 가능한 기능](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)으로 이동하여 현재 포함된 사용 현황을 백분율로 표시하는 사용 값을 확인합니다. 사용량은 마스터 계정을 기반으로 합니다.
 
 자세한 내용은 [임베디드 분석 용량 계획 백서](https://aka.ms/pbiewhitepaper)를 참조하세요.
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>전용 용량에 앱 작업 영역 할당
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>전용 용량에 작업 영역 할당
 
-전용 용량을 만들면 해당 전용 용량에 앱 작업 영역을 할당할 수 있습니다.
+전용 용량을 만든 후에 작업 영역을 전용 용량에 할당할 수 있습니다.
 
 [서비스 주체](embed-service-principal.md)를 사용하여 작업 영역에 전용 용량을 할당하려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)를 사용합니다. Power BI REST API를 사용할 때는 [서비스 주체 개체 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)를 사용해야 합니다.
 
@@ -387,9 +448,9 @@ PRO 라이선스가 있는 포함 토큰을 사용하는 것은 개발 테스트
 
     ![전용 용량 할당](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. **저장**을 선택하면 앱 작업 영역 이름 옆에 **다이아몬드**가 표시됩니다.
+3. **저장**을 선택하면 작업 영역 이름 옆에 **다이아몬드**가 표시됩니다.
 
-    ![용량에 연결된 앱 작업 영역](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+    ![용량에 연결된 작업 영역](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -398,4 +459,4 @@ PRO 라이선스가 있는 포함 토큰을 사용하는 것은 개발 테스트
 > [!div class="nextstepaction"]
 >[조직에 포함](embed-sample-for-your-organization.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

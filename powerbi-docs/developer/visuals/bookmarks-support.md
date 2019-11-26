@@ -19,7 +19,7 @@ ms.locfileid: "73880259"
 
 Power BI 보고서 책갈피를 사용하면 구성된 보고서 페이지 뷰, 시각적 개체의 선택 상태 및 필터링 상태를 캡처할 수 있습니다. 그러나 책갈피를 지원하고 변경 내용에 올바르게 대응하려면 Power BI 시각적 개체 쪽의 추가 작업이 필요합니다.
 
-책갈피에 대한 자세한 내용은 [책갈피를 사용하여 Power BI에서 인사이트 및 빌드 스토리 공유](https://docs.microsoft.com/power-bi/desktop-bookmarks)를 참조하세요.
+책갈피에 대한 자세한 내용은 [책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드](https://docs.microsoft.com/power-bi/desktop-bookmarks)를 참조하세요.
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>시각적 개체의 보고서 책갈피 지원
 
@@ -179,7 +179,7 @@ if (jsonFilters
 > [!IMPORTANT]
 > 보고서 책갈피 시나리오에서는 시각적 개체가 다른 시각적 개체를 필터링하기 위해 `applyJsonFilter`를 호출하면 안 됩니다. Power BI에서 이미 필터링됩니다.
 
-시간 표시줄 슬라이스의 시각적 개체가 범위 선택기를 해당 데이터 범위로 변경합니다.
+Timeline Slicer 시각적 개체가 범위 선택기를 해당 데이터 범위로 변경합니다.
 
 자세한 내용은 [Timeline Slicer 리포지토리](https://github.com/Microsoft/powerbi-visuals-timeline/commit/606f1152f59f82b5b5a367ff3b117372d129e597?diff=unified#diff-b6ef9a9ac3a3225f8bd0de84bee0a0df)를 참조하세요.
 
@@ -189,6 +189,6 @@ if (jsonFilters
 
 속성 값을 필터 상태로 저장하려면 *capabilities.json*에서 개체 속성을 `"filterState": true`로 표시합니다.
 
-예를 들어 시간 표시줄 슬라이스는 `Granularity` 속성 값을 필터에 저장합니다. 이렇게 하면 책갈피를 변경할 때 현재 세분성이 변경됩니다.
+예를 들어 Timeline Slicer는 `Granularity` 속성 값을 필터에 저장합니다. 이렇게 하면 책갈피를 변경할 때 현재 세분성이 변경됩니다.
 
 자세한 내용은 [Timeline Slicer 리포지토리](https://github.com/microsoft/powerbi-visuals-timeline/commit/8b7d82dd23cd2bd71817f1bc5d1e1732347a185e#diff-290828b604cfa62f1cb310f2e90c52fdR334)를 참조하세요.

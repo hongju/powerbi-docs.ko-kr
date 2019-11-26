@@ -2,7 +2,6 @@
 title: '인적 자원 샘플: 둘러보기'
 description: Power BI용 인적 자원 샘플 둘러보기
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5670a8077b4de03f6eb866f6177f17cdec7d7f7
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462341"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858856"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI용 인적 자원 샘플 둘러보기
 
@@ -58,11 +57,11 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>이 샘플의 .pbix 파일 가져오기
 
-또는 Power BI Desktop에 사용하도록 설계된 [.pbix 파일](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)로 인적 자원 샘플을 다운로드할 수 있습니다.
+또는 Power BI Desktop에 사용하도록 설계된 [.pbix 파일](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)로 인적 자원 샘플을 다운로드할 수 있습니다.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
-이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](http://go.microsoft.com/fwlink/?LinkId=529780)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰와 파워 피벗 추가 기능을 사용하도록 설정하려면 [내부 Excel 자체에서 Excel 샘플 살펴보기](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)에서 자세한 내용을 참조하세요.
+이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529780)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰와 파워 피벗 추가 기능을 사용하도록 설정하려면 [내부 Excel 자체에서 Excel 샘플 살펴보기](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)에서 자세한 내용을 참조하세요.
 
 ## <a name="new-hires"></a>신입
 먼저 신규 채용자를 살펴보겠습니다.
@@ -87,7 +86,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 4. 연령, 성별, 지역 및 인종 그룹 간 관계를 살펴보려면 차트에서 다른 연령대 그룹과 성별을 선택하세요.
 
-5. 맨 위 탐색 모음에서 **인적 자원 샘플**을 선택하여 대시보드로 돌아갑니다.
+5. 맨 위 탐색 창에서 **인적 자원 샘플**을 선택하여 대시보드로 돌아갑니다.
 
    ![대시보드로 돌아가기](media/sample-human-resources/power-bi-breadcrumbs.png)
 
@@ -133,7 +132,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 8. **성별 근무 중인 직원 수** 원형 차트에 대해서도 동일한 단계를 따라 근무 중인 직원 대신 퇴사로 변경할 수 있습니다. 다른 상세 정보를 파악하기 위해 성별별 자발적 퇴사 데이터를 살펴봅니다.
 
-9. 맨 위 탐색 모음에서 **인적 자원 샘플**을 선택하여 대시보드로 돌아갑니다. 보고서에 대한 변경 사항을 저장할 수 있습니다.
+9. 맨 위 탐색 창에서 **인적 자원 샘플**을 선택하여 대시보드로 돌아갑니다. 보고서에 대한 변경 사항을 저장할 수 있습니다.
 
 ## <a name="bad-hires"></a>잘못된 채용
 마지막으로 살펴볼 영역은 잘못된 채용입니다. 잘모된 채용은 60일 이상 근무하지 않은 직원으로 정의합니다. 신속하게 채용하고 있지만, 적절한 후보를 채용하고 있을까요?
@@ -147,7 +146,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 3. **성별 잘못된 채용 수** 도넛형 차트를 살펴보고 **지역** 슬라이서에서 서로 다른 지역을 선택하면, 동부 지역이 남성보다 여성 잘못된 채용이 더 많은 유일한 지역임을 알 수 있습니다.  
 
-4. 맨 위 탐색 모음에서 대시보드의 이름을 선택하여 대시보드로 돌아갑니다.
+4. 맨 위 탐색 창에서 대시보드의 이름을 선택하여 대시보드로 돌아갑니다.
 
 ## <a name="ask-a-question-in-the-dashboard-qa-box"></a>대시보드 질문 및 답변 상자에서 질문하기
 대시보드의 [질문 및 답변 질문 상자](power-bi-tutorial-q-and-a.md)에서 자연어를 사용하여 데이터에 대한 질문을 할 수 있습니다. 질문 및 답변에서 사용자가 입력한 단어를 인식하고 답변이 있는 데이터 세트의 위치를 찾아냅니다.

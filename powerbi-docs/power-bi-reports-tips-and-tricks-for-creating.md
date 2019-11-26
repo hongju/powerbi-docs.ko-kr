@@ -2,7 +2,6 @@
 title: 멋진 보고서를 만드는 팁
 description: Power BI 서비스 및 Power BI Desktop에서 보고서를 만들기 위한 팁과 힌트
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4d686a807d9413c15b19ff382e5ac54fb696b10b
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d7f2c83cf1d0f29f2c0d0c6e621a253acdd3ce41
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721344"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860876"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop 및 Power BI 서비스에서 보고서를 만들기 위한 팁과 힌트
 데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop, Power BI 서비스 ‘및’ 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다. 
@@ -115,7 +114,7 @@ Power BI Desktop에서 계산 필드를 사용하여 히스토그램을 정의�
 
 활성 고객 지원 요청의 데이터 세트를 로드하고 다음과 같은 스키마가 포함된 작업 항목의 다른 데이터 세트를 로드합니다.
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName}
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
 >
 >
 
@@ -154,7 +153,7 @@ Power BI Desktop에서 계산 필드를 사용하여 히스토그램을 정의�
 Power BI Desktop에서 종종 여러 열의 데이터를 하나의 새 열로 변환하는 계산을 만들어야 합니다.  이 작업은 복잡할 수 있습니다.  이 문제를 해결하는 한 가지 쉬운 방법은 작업을 단계로 분해하는 것입니다.  먼저 첫 열을 복제합니다. 그런 다음 임시 열 단계를 만듭니다. 그런 다음 최종 결과를 위한 열을 만듭니다.  그런 다음, 최종 데이터 세트가 복잡하게 보이지 않도록 임시 열을 삭제할 수 있습니다. 쿼리 탭에서 순서대로 단계를 실행하므로 이렇게 하는 것이 가능합니다.
 
 #### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>쿼리를 복제하거나 참조한 후 원래 쿼리 병합
-경우에 따라 데이터 세트에 대한 요약 통계를 계산하면 유용합니다.  이 작업을 쉽게 수행하려면 쿼리 탭에서 쿼리를 복제하거나 참조합니다. 그런 다음 **그룹화 기준**을 사용하여 요약 통계를 컴퓨팅합니다.  요약 통계는 비교하기 좋도록 원래 데이터에서 데이터를 정규화하는 데 도움이 됩니다.  요약 통계는 특히 개별 값을 전체적으로 비교하는 데 유용합니다.  이렇게 하려면 원래 쿼리로 이동해서 병합 옵션을 선택합니다.  그런 다음 적절한 식별자에서 일치하는 요약 통계 쿼리에서 데이터를 병합합니다.  이제 분석에 필요한 대로 데이터를 정규화할 준비가 되었습니다.
+경우에 따라 데이터 세트에 대한 요약 통계를 계산하면 유용합니다.  이 작업을 쉽게 수행하려면 쿼리 탭에서 쿼리를 복제하거나 참조합니다. 그런 다음 **그룹화 기준** 을 사용하여 요약 통계를 컴퓨팅합니다.  요약 통계는 비교하기 좋도록 원래 데이터에서 데이터를 정규화하는 데 도움이 됩니다.  요약 통계는 특히 개별 값을 전체적으로 비교하는 데 유용합니다.  이렇게 하려면 원래 쿼리로 이동해서 병합 옵션을 선택합니다.  그런 다음 적절한 식별자에서 일치하는 요약 통계 쿼리에서 데이터를 병합합니다.  이제 분석에 필요한 대로 데이터를 정규화할 준비가 되었습니다.
 
 ### <a name="using-dax-for-the-first-time"></a>처음으로 DAX 사용
 DAX는 Power BI Desktop의 계산 수식 언어입니다.  DAX는 BI 분석에 최적화되어 있습니다.  쿼리 언어 같은 SQL만 사용한 경우 익숙한 내용과 약간 다릅니다. DAX를 학습하기 위한 문헌과 온라인에는 매우 좋은 리소스가 있습니다.
@@ -163,12 +162,9 @@ DAX는 Power BI Desktop의 계산 수식 언어입니다.  DAX는 BI 분석에 �
 
 [DAX(Data Analysis Expressions) 참조](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[DAX 리소스 센터](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[DAX 리소스 센터](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 ‘및’ Power BI Desktop 
-
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>백서 읽기: [Power BI 보고서 디자인 원칙](visuals/power-bi-visualization-best-practices.md)
-이 문서는 Power BI에서 보고서를 디자인하는 모범 사례를 제공합니다. 계획 단계를 시작으로 보고서와 페이지 및 보고서를 구성하는 개별적인 시각적 개체에 적용할 수 있는 디자인 원칙을 설명합니다. 이러한 모범 사례의 대다수는 대시보드 디자인에도 적용됩니다.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>"Power BI에서 시각적으로 멋진 보고서(및 대시보드)를 설계하는 방법"을 읽거나 봅니다.
 커뮤니티 멤버인 Miguel Myers는 그래픽 디자이너일 뿐만 아니라 데이터 과학자입니다.
@@ -226,4 +222,4 @@ DAX는 Power BI Desktop의 계산 수식 언어입니다.  DAX는 BI 분석에 �
 
 [Power BI의 보고서](consumer/end-user-reports.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
