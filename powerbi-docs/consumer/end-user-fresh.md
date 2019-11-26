@@ -2,7 +2,6 @@
 title: Power BI 콘텐츠를 최신 상태로 유지하는 방법
 description: Power BI를 통해 데이터, 보고서, 대시보드 및 앱의 최신 버전을 사용하는 방법에 대해 알아봅니다.
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,14 +9,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141705"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863875"
 ---
 # <a name="your-content-is-up-to-date"></a>콘텐츠가 최신 상태입니다.
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 *소비자*는 *디자이너*가 만들고 사용자와 공유하는 콘텐츠와 상호 작용합니다. 해당 콘텐츠가 최신 상태인지 궁금하거나 콘텐츠가 마지막으로 새로 고침되었는지 알고 싶을 수도 있습니다. 최신 콘텐츠를 사용하고 있다는 것을 알고 있으면 자신감이 생깁니다.  
  
 ![Power BI 대시보드](media/end-user-fresh/power-bi-dashboards.png)
@@ -40,9 +42,9 @@ ms.locfileid: "71141705"
 
 앱 화면에는 디자이너 이름과 앱을 업데이트한 날짜가 모두 표시됩니다.  
 
-1. 왼쪽 탐색 창에서 **앱**을 선택합니다.
+1. 탐색 창에서 **앱**을 선택합니다.
 
-    ![왼쪽 탐색 창](media/end-user-fresh/power-bi-nav-app.png)
+    ![탐색 창](media/end-user-fresh/power-bi-nav-app.png)
 
 
 
@@ -63,7 +65,9 @@ ms.locfileid: "71141705"
 ### <a name="dashboard-tiles"></a>대시보드 타일
 대시보드 타일의 경우 포커스 모드에서 타일을 보고 마지막 새로 고침 타임스탬프를 확인합니다.
 
+
 1. 대시보드 타일에서 줄임표(...)를 선택하고 **포커스 모드에서 열기**를 선택합니다.
+
 
     ![줄임표를 선택한 후 나타나는 메뉴](media/end-user-fresh/power-bi-focus-mode.png)
 
@@ -72,7 +76,7 @@ ms.locfileid: "71141705"
     ![마지막 새로 고침을 표시하는 넓은 브라우저](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>대시보드 및 보고서
-마지막 새로 고침 날짜를 조회하는 또 다른 방법은 **관련 항목 보기**를 사용하는 것입니다.  Power BI 상단 메뉴 모음에서 줄임표(...)를 선택하여 **관련 항목 보기**를 사용할 수 있습니다.
+마지막 새로 고침 날짜를 조회하는 또 다른 방법은 **관련 항목 보기**를 사용하는 것입니다.  Power BI 위쪽 메뉴 모음에서 **추가 옵션**(...)을 선택하면 **관련 항목 보기**를 사용할 수 있습니다.
 
 ![메뉴에서 관련 항목 보기 선택](media/end-user-fresh/power-bi-view-related-dropdown.png)
 
@@ -82,7 +86,7 @@ ms.locfileid: "71141705"
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>디자이너가 앱을 삭제하면 어떻게 되나요?
 
-디자이너가 앱을 삭제하면 해당 앱과 연결된 대시보드와 보고서가 Power BI 작업 영역에서도 자동으로 제거됩니다. 더 이상 사용할 수 없으며 앱이 앱 컨테이너 또는 탐색 모음의 다른 위치에 표시되지 않습니다.
+디자이너가 앱을 삭제하면 해당 앱과 연결된 대시보드와 보고서가 Power BI 작업 영역에서도 자동으로 제거됩니다. 더 이상 사용할 수 없으며 앱이 앱 컨테이너 또는 탐색 창의 다른 위치에 표시되지 않습니다.
 
 
 ## <a name="subscribe-to-see-changes"></a>변경 내용을 확인하기 위해 구독

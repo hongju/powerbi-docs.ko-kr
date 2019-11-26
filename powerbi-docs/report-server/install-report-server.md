@@ -3,18 +3,17 @@ title: Power BI Report Server 설치
 description: Power BI Report Server를 설치하는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839443"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874148"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server 설치
 
@@ -46,7 +45,7 @@ Power BI Report Server의 제품 키는 두 가지 다른 소스에서 가져올
 
 Power BI Premium을 구입한 경우 Power BI 관리자 포털의 **프리미엄 설정** 탭 내에서 Power BI Report Server 제품 키에 대한 액세스를 갖습니다. 전역 관리자 또는 Power BI 서비스 관리자 역할이 할당된 사용자만 사용할 수 있습니다.
 
-![프리미엄 설정](../report-server/media/install-report-server/pbirs-product-key.png " 프리미엄 설정 내의 Power BI Report Server 키")
+![프리미엄 설정](../report-server/media/install-report-server/pbirs-product-key.png "프리미엄 설정 내의 Power BI Report Server 키")
 
 **Power BI Report Server 키**를 선택하면 제품 키를 포함하는 대화 상자가 표시됩니다. 복사하고 설치와 함께 사용할 수 있습니다.
 
@@ -88,13 +87,13 @@ Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단�
 
     기본 경로는 C:\Program Files\Microsoft Power BI Report Server입니다.
 
-7. 성공적으로 설치한 후에 **보고서 서버 구성**을 선택하여 Reporting Services 구성 관리자를 시작합니다.
+7. 성공적으로 설치한 후에 **Report Server 구성**을 선택하여 Reporting Services 구성 관리자를 시작합니다.
 
     ![Report Server 구성](media/install-report-server/pbireportserver-configure.png)
 
 ## <a name="configure-your-report-server"></a>보고서 서버 구성
 
-설치 시에 **보고서 서버 구성**을 선택하면 Reporting Services 구성 관리자가 표시됩니다. 자세한 내용은 [Reporting Services 구성 관리자](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)를 참조하세요.
+설치 시에 **보고서 서버 구성**을 선택하면 Reporting Services 구성 관리자에 표시됩니다. 자세한 내용은 [Reporting Services 구성 관리자](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)를 참조하세요.
 
 [Report Server 데이터베이스를 만들어서](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) Reporting Services의 초기 구성을 완료해야 합니다. 이 단계를 완료하기 위해서는 SQL Server 데이터베이스 서버가 필요합니다.
 
@@ -127,14 +126,14 @@ URL 예약은 접두사, 호스트 이름, 포트 및 가상 디렉터리로 구
 | 부분 | 설명 |
 | --- | --- |
 | 접두사 |기본 접두사는 HTTP입니다. 이전에 SSL(Secure Sockets Layer) 인증서를 설치한 경우 설치 마법사에서는 HTTPS 접두사를 사용하는 URL 예약을 만들려고 합니다. |
-| 호스트 이름 |기본 호스트 이름은 강력한 와일드 카드(+)입니다. Report Server가 `http://<computername>/reportserver`, `http://localhost/reportserver` 또는`http://<IPAddress>/reportserver`을 비롯하여 컴퓨터로 확인되는 호스트 이름에 지정된 포트에서 HTTP 요청을 수락하도록 지정합니다. |
+| 호스트 이름 |기본 호스트 이름은 강력한 와일드 카드(+)입니다. Report Server가 `https://<computername>/reportserver`, `https://localhost/reportserver` 또는`https://<IPAddress>/reportserver.`을 비롯하여 컴퓨터로 확인되는 호스트 이름에 지정된 포트에서 HTTP 요청을 수락하도록 지정합니다. |
 | 포트 |기본 포트는 80입니다. 포트 80이 아닌 포트를 사용하는 경우 브라우저 창에서 웹 포털을 열 때 명시적으로 URL에 추가해야 합니다. |
 | 가상 디렉터리 |기본적으로 가상 디렉터리는 Report Server 웹 서비스 및 웹 포털의 보고서에서 ReportServer라는 형식으로 만들어집니다. Report Server 웹 서비스의 경우 기본 가상 디렉터리는 **reportserver**입니다. 웹 포털의 경우 기본 가상 디렉터리는 **reports**입니다. |
 
 전체 URL 문자열의 예는 다음과 같을 수 있습니다.
 
-* `http://+:80/reportserver`은 Report Server에 대한 액세스를 제공합니다.
-* `http://+:80/reports`은 웹 포털에 대한 액세스를 제공합니다.
+* `https://+:80/reportserver`은 Report Server에 대한 액세스를 제공합니다.
+* `https://+:80/reports`은 웹 포털에 대한 액세스를 제공합니다.
 
 ## <a name="firewall"></a>방화벽
 

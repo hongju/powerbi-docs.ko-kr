@@ -3,19 +3,18 @@ title: 조직용 애플리케이션에 Power BI 콘텐츠를 포함하기 위한
 description: 조직의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서(Power BI 또는 페이지 매김), 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 3a217ebd1b6450c76ebf25ad5154293566d955f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237394"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875991"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -45,7 +44,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 애플리케이션에 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 Power BI에 포함을 허용하도록 설정해야 합니다.
 
-[포함 설정 도구](https://aka.ms/embedsetup/UserOwnsData)를 통해 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다. 페이지를 매긴 보고서를 포함하는 경우, 만든 앱 작업 영역에 P1 이상의 용량을 할당해야 합니다.
+[포함 설정 도구](https://aka.ms/embedsetup/UserOwnsData)를 통해 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다. 페이지를 매긴 보고서를 포함하는 경우, 만든 작업 영역에 P1 이상의 용량을 할당해야 합니다.
 
 환경을 수동으로 설정하도록 선택하면 아래를 계속할 수 있습니다.
 
@@ -57,13 +56,13 @@ Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
 
-### <a name="create-an-app-workspace"></a>앱 작업 영역 만들기
+### <a name="create-a-workspace"></a>작업 영역 만들기
 
-고객의 보고서, 대시보드 또는 타일을 포함하는 경우 콘텐츠를 앱 작업 영역 내에 배치해야 합니다. 설정할 수 있는 작업 영역에는 [기존 작업 영역](../service-create-workspaces.md) 또는 [새 작업 영역](../service-create-the-new-workspaces.md)이 있습니다.
+고객을 위해 보고서, 대시보드 또는 타일을 포함하는 경우 콘텐츠를 작업 영역 내에 배치해야 합니다. 설정할 수 있는 작업 영역에는 [기존 작업 영역](../service-create-workspaces.md) 또는 [새 작업 영역](../service-create-the-new-workspaces.md)이 있습니다.
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Power BI 보고서 만들기 및 게시
 
-Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있습니다. 그런 후 해당 보고서를 앱 작업 영역에 게시할 수 있습니다. 보고서를 게시하는 최종 사용자는 앱 작업 영역에 게시하기 위해 Power BI Pro 라이선스가 필요합니다.
+Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있습니다. 그런 다음, 해당 보고서를 작업 영역에 게시할 수 있습니다. 보고서를 게시하는 최종 사용자가 작업 영역에 게시하려면 Power BI Pro 라이선스가 필요합니다.
 
 1. GitHub에서 샘플 [데모](https://github.com/Microsoft/powerbi-desktop-samples)를 다운로드합니다.
 
@@ -73,7 +72,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
    ![샘플 Power BI Desktop 보고서](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. 앱 작업 영역에 게시합니다.
+3. 작업 영역에 게시합니다.
 
    ![Power BI Desktop 보고서 게시](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
@@ -83,7 +82,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
    
 ### <a name="create-and-publish-your-paginated-reports"></a>페이지를 매긴 보고서 만들기 및 게시
 
-[Power BI 보고서 작성기](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)를 사용하여 페이지를 매긴 보고서를 만들 수 있습니다. 그런 다음, P1 이상의 용량에 할당된 앱 작업 영역에 [보고서를 업로드](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)할 수 있습니다. 보고서를 업로드하는 최종 사용자는 앱 작업 영역에 게시할 수 있는 Power BI Pro 라이선스가 있어야 합니다.
+[Power BI 보고서 작성기](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)를 사용하여 페이지를 매긴 보고서를 만들 수 있습니다. 그런 다음, P1 이상의 용량에 할당된 작업 영역에 [보고서를 업로드](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)할 수 있습니다. 보고서를 업로드하는 최종 사용자가 작업 영역에 게시하려면 Power BI Pro 라이선스가 필요합니다.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>샘플 애플리케이션을 사용하여 콘텐츠 포함
 
@@ -130,7 +129,7 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
 ### <a name="workspace-id"></a>작업 영역 ID
 
-Power BI의 앱 작업 영역(그룹) GUID를 사용하여 **workspaceId** 정보를 입력합니다. Power BI 서비스에 로그인하거나 Powershell을 사용할 때 URL에서 이 정보를 가져올 수 있습니다.
+Power BI의 작업 영역(그룹) GUID를 사용하여 **workspaceId** 정보를 입력합니다. Power BI 서비스에 로그인하거나 Powershell을 사용할 때 URL에서 이 정보를 가져올 수 있습니다.
 
 URL <br>
 
@@ -376,11 +375,11 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Power BI Premium 전용 용량 사용
 
-이제 애플리케이션 개발을 완료했으므로 전용 용량을 포함한 앱 작업 영역으로 돌아갈 차례입니다.
+이제 애플리케이션 개발을 완료했으므로 전용 용량으로 작업 영역을 백업해야 합니다.
 
 ### <a name="create-a-dedicated-capacity"></a>전용 용량 만들기
 
-전용 용량을 만들면 앱 작업 영역의 콘텐츠 전용 리소스의 혜택을 활용할 수 있습니다. 페이지를 매긴 보고서의 경우 최소 P1 용량을 사용하여 앱 작업 영역을 백업해야 합니다. [Power BI Premium](../service-premium-what-is.md)을 사용하여 전용 용량을 만들 수 있습니다.
+전용 용량을 만들면 작업 영역의 콘텐츠 전용 리소스를 활용할 수 있습니다. 페이지를 매긴 보고서의 경우 최소 P1 용량을 사용하여 작업 영역을 백업해야 합니다. [Power BI Premium](../service-premium-what-is.md)을 사용하여 전용 용량을 만들 수 있습니다.
 
 다음 표에서는 [Microsoft Office 365](../service-admin-premium-purchase.md) 내에서 사용할 수 있는 Power BI Premium SKU를 나열합니다.
 
@@ -399,9 +398,9 @@ function updateEmbedReport() {
 > - Microsoft Office 앱에 포함하려는 경우 EM SKU를 사용하여 무료 Power BI 라이선스로 콘텐츠에 액세스할 수 있습니다. 하지만 Powerbi.com 또는 Power BI Mobile을 사용하는 경우 무료 Power BI 라이선스를 사용하여 콘텐츠에 액세스할 수 없습니다.
 > - Powerbi.com 또는 Power BI Mobile을 사용하여 Microsoft Office 앱에 포함하려는 경우 무료 Power BI 라이선스로 콘텐츠에 액세스할 수 있습니다.
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>전용 용량에 앱 작업 영역 할당
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>전용 용량에 작업 영역 할당
 
-전용 용량을 만들면 해당 전용 용량에 앱 작업 영역을 할당할 수 있습니다. 이 프로세스를 완료하려면 다음 단계를 수행합니다.
+전용 용량을 만든 후에 작업 영역을 전용 용량에 할당할 수 있습니다. 이 프로세스를 완료하려면 다음 단계를 수행합니다.
 
 1. Power BI 서비스 내에서 작업 영역을 확장하고 콘텐츠를 포함하는 데 사용하는 작업 영역에 대한 줄임표를 선택합니다. 그런 다음, **작업 영역 편집**을 선택합니다.
 
@@ -411,9 +410,9 @@ function updateEmbedReport() {
 
     ![전용 용량 할당](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. **저장**을 선택하면 앱 작업 영역 이름 옆에 다이아몬드가 표시됩니다.
+3. **저장**을 선택하면 작업 영역 이름 옆에 다이아몬드가 표시됩니다.
 
-    ![용량에 연결된 앱 작업 영역](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
+    ![용량에 연결된 작업 영역](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>관리 설정
 
@@ -429,4 +428,4 @@ function updateEmbedReport() {
 > [!div class="nextstepaction"]
 >[고객에 대한 콘텐츠 포함](embed-sample-for-customers.md)
 
-추가 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
+추가 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](https://community.powerbi.com/).

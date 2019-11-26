@@ -2,7 +2,6 @@
 title: '자습서:  Power BI Desktop을 사용한 Facebook 분석'
 description: '자습서:  Power BI Desktop을 사용한 Facebook 분석'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841405"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876287"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>자습서:  Power BI Desktop을 사용한 Facebook 분석
 
@@ -147,7 +146,7 @@ ms.locfileid: "70841405"
    
    ![가로 막대형 차트](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. 시각화의 오른쪽 위에 있는 줄임표(...)를 선택한 다음, **Number of comments를 기준으로 정렬**을 선택하여 내림차순 댓글 수별로 테이블을 정렬합니다. 
+4. 시각화의 오른쪽 위에 있는 **추가 옵션**(...)을 선택한 다음, **댓글 수를 기준으로 정렬**을 선택하여 댓글 수의 내림차순으로 테이블을 정렬합니다. 
    
    ![댓글 수를 기준으로 정렬](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
@@ -184,7 +183,7 @@ ms.locfileid: "70841405"
 
 더 나아지기는 했지만 데이터 레이블에는 모두 **.0** 소수 자릿수가 포함되는데, **게시물 수**는 정수여야 하기 때문에 이 소수 자릿수가 혼란을 주고 잘못 이해될 수 있습니다. **게시물 수** 열의 데이터 형식을 정수로 변경해야 합니다.
 
-1. 데이터 형식을 편집하려면 필드 목록에서 **쿼리1**을 마우스 오른쪽 단추로 클릭하거나 마우스로 가리키고 **기타 옵션** 줄임표(...)를 선택한 다음, **쿼리 편집**을 선택합니다. 리본 메뉴에 있는 [홈] 탭의 **외부 데이터** 영역에서 **쿼리 편집**을 선택한 다음, 드롭다운에서 **쿼리 편집**을 선택할 수도 있습니다. Power BI Desktop **파워 쿼리 편집기**가 별도 창에서 열립니다.
+1. 데이터 형식을 편집하려면 필드 목록에서 **쿼리1**을 마우스 오른쪽 단추로 클릭하거나 마우스로 가리키고 **추가 옵션**(...)을 선택한 다음, **쿼리 편집**을 선택합니다. 리본 메뉴에 있는 [홈] 탭의 **외부 데이터** 영역에서 **쿼리 편집**을 선택한 다음, 드롭다운에서 **쿼리 편집**을 선택할 수도 있습니다. Power BI Desktop **파워 쿼리 편집기**가 별도 창에서 열립니다.
    
    ![필드 목록에서 쿼리 편집](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![리본에서 쿼리 편집](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    
@@ -241,8 +240,8 @@ ms.locfileid: "70841405"
 Power BI Desktop은 다양한 데이터 원본에서 데이터를 가져오고 이 데이터를 풍부한 대화형 방식으로 시각화하기 위해 분석 요구 사항에 맞게 모양을 지정하는 원활한 엔드투엔드 환경을 제공합니다. 보고서가 준비되면 [Power BI 서비스로 업로드](desktop-upload-desktop-files.md)하고 보고서에 따라 대시보드를 만든 후 다른 Power BI 사용자와 공유할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [다른 Power BI Desktop 자습서 참고](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop 동영상 시청](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Power BI 포럼 방문](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Power BI 블로그 참고](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [다른 Power BI Desktop 자습서 참고](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Power BI Desktop 동영상 시청](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Power BI 포럼 방문](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Power BI 블로그 참고](https://go.microsoft.com/fwlink/?LinkID=519327)
 

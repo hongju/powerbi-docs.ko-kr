@@ -2,7 +2,6 @@
 title: 데이터 세트에서 보고서 만들기
 description: 데이터 세트에서 Power BI 보고서를 만듭니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,27 +9,27 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f2d9046c907b78ce2c1bb2754007c34199877a08
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523076"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871761"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>데이터 세트를 가져와 Power BI 서비스에서 보고서 만들기
 지금까지 [Power BI의 보고서](consumer/end-user-reports.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 다양한 방법으로 보고서를 만들 수 있습니다. 이 문서에서는 먼저 Excel 데이터 세트로 Power BI 서비스에서 기본 보고서를 만듭니다. 보고서를 만들기 위한 기본 사항을 파악했으면, 끝에 있는 [다음 단계](#next-steps)에서 더 높은 수준의 보고서 항목을 확인합니다.  
 
 ## <a name="prerequisites"></a>필수 조건
 - [Power BI 서비스에 등록](service-self-service-signup-for-power-bi.md)합니다. Power BI Desktop을 사용하여 보고서를 만드는 경우 [Desktop 보고서 뷰](desktop-report-view.md)를 참조하세요. 
-- [소매점 분석 샘플 Excel 데이터 세트를 다운로드](http://go.microsoft.com/fwlink/?LinkId=529778)하여 비즈니스용 OneDrive 또는 로컬에 저장합니다.
+- [소매점 분석 샘플 Excel 데이터 세트를 다운로드](https://go.microsoft.com/fwlink/?LinkId=529778)하여 비즈니스용 OneDrive 또는 로컬에 저장합니다.
 
 ## <a name="import-the-dataset"></a>데이터 세트 가져오기
 이 방법에서는 데이터 세트와 빈 보고서 캔버스를 사용하여 보고서 만들기를 시작합니다. 소매점 분석 샘플 Excel 데이터 세트를 따라 진행할 수 있습니다.
 
 1. Power BI 서비스 작업 영역에서 보고서를 만들 것이므로 기존 작업 영역을 선택하거나 작업 영역을 새로 만듭니다.
    
-   ![앱 작업 영역 목록](media/service-report-create-new/power-bi-workspaces2.png)
-2. 왼쪽 탐색 창의 맨 아래에서 **데이터 가져오기**를 선택합니다.
+   ![작업 영역 목록](media/service-report-create-new/power-bi-workspaces2.png)
+2. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다.
    
    ![데이터 가져오기](media/service-report-create-new/power-bi-get-data3.png)
 3. **파일**을 선택하고 소매점 분석 샘플을 저장한 위치로 이동합니다.
@@ -93,5 +92,5 @@ CMO에게는 몇 가지 추가적인 질문이 있습니다. 올해 판매액이
 ## <a name="next-steps"></a>다음 단계
 
 * [시각화를 대시보드에 고정](service-dashboard-pin-tile-from-report.md)하는 방법 알아보기   
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

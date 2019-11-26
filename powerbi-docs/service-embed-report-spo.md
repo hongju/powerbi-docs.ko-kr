@@ -3,7 +3,6 @@ title: SharePoint Online에 보고서 웹 파트 포함
 description: SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 SharePoint Online 페이지에서 대화형 Power BI 보고서를 쉽게 포함시킬 수 있습니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073608"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881893"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -79,11 +78,11 @@ SharePoint Online에 보고서를 포함해도 사용자에게 보고서를 볼 
 > [!IMPORTANT]
 > Power BI 서비스 내에서 보고서를 볼 수 있는 사람이 누구인지 확인하고 목록에 없는 사람에게 액세스 권한을 부여합니다.
 
-Power BI에서 보고서 액세스를 제공하는 두 가지 방법이 있습니다. 첫 번째 방법은 Office 365 그룹을 사용하여 SharePoint Online 팀 사이트를 빌드하는 경우 사용자를 **Power BI 서비스 내 앱 작업 영역** 및 **SharePoint 페이지**의 맴버로 나열하는 것입니다. 자세한 내용은 [앱 작업 영역을 관리](service-manage-app-workspace-in-power-bi-and-office-365.md)하는 방법을 참조하세요.
+Power BI에서 보고서 액세스를 제공하는 두 가지 방법이 있습니다. 첫 번째 방법은 Office 365 그룹을 사용하여 SharePoint Online 팀 사이트를 구축하는 경우 사용자를 **Power BI 서비스 내 작업 영역** 및 **SharePoint 페이지**의 구성원으로 나열하는 것입니다. 자세한 내용은 [작업 영역 관리](service-manage-app-workspace-in-power-bi-and-office-365.md) 방법을 참조하세요.
 
 두 번째 방법은 앱 내에 보고서를 포함하여 사용자와 직접 공유하는 것입니다.  
 
-1. Pro 사용자여야 하는 작성자는 앱 작업 영역에 보고서를 만듭니다. *Power BI 무료 사용자*와 공유하려면 앱 작업 영역을 *Premium 작업 영역*으로 설정해야 합니다.
+1. Pro 사용자여야 하는 작성자는 작업 영역에 보고서를 만듭니다. ‘Power BI 무료 사용자’와 공유하려면 작업 영역을 ‘프리미엄 작업 영역’으로 설정해야 합니다.  
 
 2. 작성자가 앱을 게시하고 설치합니다. 작성자는 SharePoint Online에 포함하는 데 사용되는 보고서 URL에 액세스할 수 있도록 앱을 설치해야 합니다.
 
@@ -93,7 +92,7 @@ Power BI에서 보고서 액세스를 제공하는 두 가지 방법이 있습�
 
 4. 작성자가 앱을 열고 보고서로 이동합니다.
 
-5. 작성자는 앱이 설치한 보고서에서 포함 보고서 URL을 복사합니다. 앱 작업 영역에서 원래 보고서 URL을 사용하지 마세요.
+5. 작성자는 앱이 설치한 보고서에서 포함 보고서 URL을 복사합니다. 작업 영역의 원래 보고서 URL을 사용하면 안 됩니다.
 
 6. SharePoint Online에서 새 팀 사이트를 만듭니다.
 
@@ -173,4 +172,4 @@ SharePoint에서 보고서를 보는 사용자에게 **Power BI Pro 라이선스
 * [Power BI 프리미엄이란?](service-premium-what-is.md)
 * [보안 포털 또는 웹 사이트에 보고서 포함](service-embed-secure.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

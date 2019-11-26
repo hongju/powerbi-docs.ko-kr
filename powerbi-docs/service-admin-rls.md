@@ -2,7 +2,6 @@
 title: Power BI를 사용하는 행 수준 보안(RLS)
 description: Power BI 서비스 내에서 가져온 데이터 세트 및 DirectQuery에 대한 행 수준 보안을 구성하는 방법입니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.author: mblythe
 ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 04a8c8a08d885427e9de43b719674fce4ac2ebbd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6ce3a65489c60cabb1dd705ce3243c4cec6abe40
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074840"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873524"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI를 사용하는 행 수준 보안(RLS)
 
@@ -28,7 +27,7 @@ Power BI Desktop으로 Power BI로 가져온 데이터 모델에 대한 RLS를 �
 
 기본적으로 행 수준 보안 필터링은 관계가 단방향 또는 양방향으로 설정되었는지 여부에 관계없이 단방향 필터를 사용합니다. 관계를 선택하고 **보안 필터 양방향으로 적용** 확인란을 선택하여 행 수준 보안으로 양방향 교차 필터를 수동으로 활성화할 수 있습니다. 행 수준 보안이 사용자 이름 또는 로그인 ID를 기반으로 하는 서버 수준의 동적 행 수준 보안도 구현한 경우에는 이 확인란을 선택해야 합니다.
 
-자세한 내용은 [Power BI Desktop에서 DirectQuery를 사용하여 양방향 교차 필터링](desktop-bidirectional-filtering.md) 및 [테이블 형식 BI 의미 체계 모델 보안](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) 기술 문서를 참조하세요.
+자세한 내용은 [Power BI Desktop에서 DirectQuery를 사용하여 양방향 교차 필터링](desktop-bidirectional-filtering.md) 및 [테이블 형식 BI 의미 체계 모델 보안](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) 기술 문서를 참조하세요.
 
 ![보안 필터 적용](media/service-admin-rls/rls-apply-security-filter.png)
 
@@ -70,7 +69,7 @@ Power BI Desktop 내에서 역할을 만들거나 수정할 수만 있습니다.
 
 역할을 테스트하여 사용자가 정의한 역할이 제대로 작동하는지 확인할 수 있습니다. 
 
-1. 역할 옆에 있는 **줄임표 (...)** 를 선택합니다.
+1. 역할 옆에 있는 **추가 옵션**(...)을 선택합니다.
 2. **역할로 테스트**를 선택합니다.
 
 ![역할로 테스트](media/service-admin-rls/rls-test-role.png)
@@ -89,12 +88,12 @@ Power BI Desktop 내에서 역할을 만들거나 수정할 수만 있습니다.
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
-## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Power BI에서 앱 작업 영역으로 RLS 사용
+## <a name="using-rls-with-workspaces-in-power-bi"></a>Power BI에서 작업 영역과 함께 RLS 사용
 
-Power BI 서비스 내의 앱 작업 영역에 Power BI Desktop 보고서를 게시하는 경우 역할은 읽기 전용 멤버에 적용됩니다. 멤버는 앱 작업 영역 설정 내에서 Power BI 콘텐츠를 볼 수만 있다고 표시해야 합니다.
+Power BI 서비스 내의 작업 영역에 Power BI Desktop 보고서를 게시하는 경우, 읽기 전용 구성원에 역할이 적용됩니다. 구성원은 작업 영역 설정 내에서 Power BI 콘텐츠를 볼 수만 있다고 표시해야 합니다.
 
 > [!WARNING]
-> 구성원이 편집 권한을 갖도록 앱 작업 영역을 구성한 경우 RLS 역할이 적용되지 않습니다. 사용자는 모든 데이터를 확인할 수 있습니다.
+> 구성원이 편집 권한을 갖도록 작업 영역을 구성한 경우에는 RLS 역할이 적용되지 않습니다. 사용자는 모든 데이터를 확인할 수 있습니다.
 
 ![그룹 설정](media/service-admin-rls/rls-group-settings.png)
 
@@ -105,4 +104,4 @@ Power BI 서비스 내의 앱 작업 영역에 Power BI Desktop 보고서를 게
 ## <a name="next-steps"></a>다음 단계
 [Power BI Desktop을 사용하는 행 수준 보안(RLS)](desktop-rls.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

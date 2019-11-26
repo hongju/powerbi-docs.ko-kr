@@ -2,7 +2,6 @@
 title: Power BI Desktop에서 SAP HANA 사용
 description: Power BI Desktop에서 SAP HANA 사용
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1932848cb2f8ad7d75e841870265cc22308467c2
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: bf258597f6369541fb9a221c8d423e8a9078a3a4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200884"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879761"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Power BI Desktop에서 SAP HANA 사용
-Power BI Desktop을 통해 이제 **SAP HANA** 데이터베이스에 액세스할 수 있습니다. **SAP HANA**를 사용하려면 Power BI Desktop **SAP HANA** 데이터 연결이 제대로 작동하기 위해 로컬 클라이언트 컴퓨터에 SAP HANA ODBC 드라이버를 설치해야 합니다. [SAP 소프트웨어 다운로드 센터](https://support.sap.com/swdc)에서 SAP HANA ODBC 드라이버를 다운로드할 수 있습니다. 여기서 Windows용 SAP HANA CLIENT를 검색해 보세요. **SAP 소프트웨어 다운로드 센터**에서 구조를 자주 변경했기 때문에 해당 사이트를 탐색하기 위한 보다 구체적인 지침을 사용할 수 없습니다.
+Power BI Desktop을 통해 이제 **SAP HANA** 데이터베이스에 액세스할 수 있습니다. **SAP HANA**를 사용하려면 Power BI Desktop **SAP HANA** 데이터 연결이 제대로 작동하기 위해 로컬 클라이언트 컴퓨터에 SAP HANA ODBC 드라이버를 설치해야 합니다. 필요한 ODBC 드라이버가 들어 있는 [SAP Development Tools](https://tools.hana.ondemand.com/#hanatools)에서 SAP HANA 클라이언트 도구를 다운로드할 수 있습니다. 또는 [SAP 소프트웨어 다운로드 센터](https://support.sap.com/swdc)에서 다운로드할 수 있습니다. 소프트웨어 포털에서 Windows 컴퓨터용 SAP HANA CLIENT를 검색해 보세요. **SAP 소프트웨어 다운로드 센터**에서 구조를 자주 변경했기 때문에 해당 사이트를 탐색하기 위한 보다 구체적인 지침을 사용할 수 없습니다.
 
 **SAP HANA** 데이터베이스에 연결하려면 다음 이미지처럼 **데이터 가져오기 > 데이터베이스 > SAP HANA 데이터베이스**를 선택합니다.
 
@@ -39,7 +38,7 @@ SAP HANA 데이터베이스에 연결할 때 서버 이름을 지정합니다. �
 * HANA 모델에 대해 최적화된 탐색 포함
 * Power BI는 **SAP HANA** 변수 및 입력 매개 변수를 지원합니다.
 * HDI-컨테이너 기반 계산 뷰
-  * HDI-컨테이너 기반 계산 뷰에 대한 지원은 Power BI Desktop의 2019년 8월 릴리스에서 공개 미리 보기로 제공됩니다. Power BI에서 HDI-컨테이너 기반 계산 뷰에 액세스하려면 Power BI로 사용하는 HANA 데이터베이스 사용자에게 액세스하려는 뷰를 저장하는 HDI 런타임 컨테이너에 액세스할 수 있는 권한이 있는지 확인합니다. 이 액세스 권한을 부여하려면 HDI 컨테이너에 대한 액세스를 허용하는 역할을 만들고 Power BI로 사용할 HANA 데이터베이스 사용자에게 역할을 할당해야 합니다(이 사용자에게는 평소대로 \_SYS\_BI 스키마의 시스템 테이블에 대한 읽기 권한도 있어야 함). 데이터베이스 역할을 만들고 할당하는 방법에 대한 자세한 지침은 공식 SAP 설명서를 참조하세요. [이 SAP 블로그 게시물](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fblogs.sap.com%2F2018%2F01%2F24%2Fthe-easy-way-to-make-your-hdi-container-accessible-to-a-classic-database-user%2F&data=02%7C01%7Cv-adbold%40microsoft.com%7Cf7e0a405fe334598ba0608d7096ef5b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636988244476739316&sdata=PuRu61GPRYp34mLuGbQk6gdbRikdgbxfqo8q1RBQtm0%3D&reserved=0)을 읽는 것이 유용할 수 있습니다.
+  * HDI-컨테이너 기반 계산 뷰에 대한 지원은 Power BI Desktop의 2019년 8월 릴리스에서 공개 미리 보기로 제공됩니다. Power BI에서 HDI-컨테이너 기반 계산 뷰에 액세스하려면 Power BI로 사용하는 HANA 데이터베이스 사용자에게 액세스하려는 뷰를 저장하는 HDI 런타임 컨테이너에 액세스할 수 있는 권한이 있는지 확인합니다. 이 액세스 권한을 부여하려면 HDI 컨테이너에 대한 액세스를 허용하는 역할을 만들고 Power BI로 사용할 HANA 데이터베이스 사용자에게 역할을 할당해야 합니다(이 사용자에게는 평소대로 \_SYS\_BI 스키마의 시스템 테이블에 대한 읽기 권한도 있어야 함). 데이터베이스 역할을 만들고 할당하는 방법에 대한 자세한 지침은 공식 SAP 설명서를 참조하세요. [이 SAP 블로그 게시물](https://blogs.sap.com/2018/01/24/the-easy-way-to-make-your-hdi-container-accessible-to-a-classic-database-user/)을 읽는 것이 유용할 수 있습니다.
   * 현재 HDI 기반 계산 뷰에 연결된 HANA 변수에 대해서는 몇 가지 제한 사항이 있습니다. 이러한 제한 사항은 HANA 쪽에서 발생하는 오류로 인해 발생하며 SAP HANA의 이후 릴리스에서 해결될 예정입니다. 첫째, HDI-컨테이너 기반 계산 뷰의 공유 열에 HANA 변수를 적용할 수 없습니다. 이 제한은 HANA 2 버전 37.02 이상 또는 HANA 2 버전 42 이상으로 업그레이드하여 해결할 수 있습니다. 둘째, 변수 및 매개 변수의 다중 항목 기본값은 현재 Power BI UI에 표시되지 않습니다. 이는 SAP HANA의 오류로 인해 발생하지만 SAP에서 아직 수정을 발표하지 않았습니다.
 
 ## <a name="limitations-of-sap-hana"></a>SAP HANA의 제한 사항

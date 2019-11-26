@@ -2,20 +2,19 @@
 title: 주요 영향 요인 시각화 자습서
 description: "자습서:  Power BI에서 주요 영향 요인 시각화 만들기'"
 author: mihart
-manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 05/22/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544072"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871011"
 ---
 # <a name="key-influencers-visualization"></a>주요 영향 요인 시각화
 
@@ -58,7 +57,7 @@ ms.locfileid: "72544072"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-제품 관리자는 잠재 고객이 클라우드 서비스에 대해 부정적인 리뷰를 남길 수 있는 요소를 파악하려고 합니다. 계속 진행하려면 Power BI Desktop에서 [custom feedback.PBIX 파일](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)을 엽니다. [Power BI 서비스 또는 Power BI Desktop에 대한 고객 피드백 Excel 파일](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)을 다운로드할 수도 있습니다. 
+제품 관리자는 잠재 고객이 클라우드 서비스에 대해 부정적인 리뷰를 남길 수 있는 요소를 파악하려고 합니다. 계속 진행하려면 Power BI Desktop에서 [custom feedback.PBIX 파일](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)을 엽니다. [Power BI 서비스 또는 Power BI Desktop에 대한 고객 피드백 Excel 파일](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)을 다운로드할 수도 있습니다. 링크 중 하나를 선택한 다음, 열리는 GitHub 페이지에서 **다운로드**를 선택합니다.
 
 > [!NOTE]
 > 고객 피드백 데이터 세트는 [Moro et al., 2014] S. Moro, P. Cortez 및 P. Rita, "은행 텔레마케팅의 성공 여부를 예측하는 데이터 기반 방법", *의사 결정 지원 시스템*, Elsevier, 62:22-31, 2014년 6월을 기반으로 합니다. 
@@ -240,7 +239,7 @@ ms.locfileid: "72544072"
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>측정값 또는 요약된 열 메트릭 분석
 
-측정값 또는 요약된 열의 경우, 분석은 기본적으로 [위](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)에서 설명한 **연속 분석 유형**으로 설정됩니다. 이 설정은 변경할 수 없습니다. 측정값/요약 열과 요약되지 않은 숫자 열 분석의 가장 큰 차이점은 분석이 실행되는 수준입니다.
+측정값 또는 요약된 열의 경우, 분석은 기본적으로 [위](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)에서 설명한 **연속 분석 유형**으로 설정됩니다. 이 설정은 변경할 수 없습니다. 측정값/요약 열과 요약되지 않은 숫자 열 분석의 가장 큰 차이점은 분석이 실행되는 수준입니다.
 
 요약되지 않은 열의 경우, 분석은 항상 테이블 수준에서 실행됩니다. 위의 주택 가격 예제에서는 **주택 가격** 메트릭을 분석하여 주택 가격의 상승/하락에 영향을 주는 요인을 확인했습니다. 분석은 자동으로 테이블 수준에서 실행됩니다. 테이블에 각 주택의 고유 ID가 있으므로, 분석은 주택 수준에서 실행됩니다.
 
@@ -254,7 +253,7 @@ ms.locfileid: "72544072"
 
 이 분석은 매우 요약되어 있으므로, 회귀 모델이 학습할 수 있는 데이터 패턴을 찾기 어렵습니다. 더 나은 결과를 얻으려면 자세한 수준에서 분석을 실행해야 합니다. 주택 수준에서 주택 가격을 분석하려면 **ID** 필드를 분석에 명시적으로 추가해야 합니다. 하지만 주택 ID를 영향 요인으로 간주하지는 않으려고 합니다. 주택 ID가 증가함에 따라 주택 가격이 상승함을 아는 것은 유용하지 않습니다. 이 경우에는 **확장 기준** 필드 웰 옵션이 유용합니다. **확장 기준**을 사용하여 새 인플루언서를 찾지 않고 분석 수준을 설정하는 데 사용할 필드를 추가할 수 있습니다.
 
-**확장 기준**에 **ID**를 추가하면 시각화가 어떻게 표시되는지 살펴보겠습니다. 측정값을 평가할 수준을 정의한 후의 영향 요인 해석은 [요약되지 않은 숫자 열](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)의 경우와 동일합니다.
+**확장 기준**에 **ID**를 추가하면 시각화가 어떻게 표시되는지 살펴보겠습니다. 측정값을 평가할 수준을 정의한 후의 영향 요인 해석은 [요약되지 않은 숫자 열](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)의 경우와 동일합니다.
 
 ![측정값 테이블](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

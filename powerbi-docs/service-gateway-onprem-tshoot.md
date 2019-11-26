@@ -3,25 +3,24 @@ title: 게이트웨이 문제 해결 - Power BI
 description: 이 문서는 온-프레미스 데이터 게이트웨이 및 Power BI와 관련한 문제를 해결하는 방법을 알려 줍니다. 알려진 문제에 대한 가능한 해결 방법과 이를 지원하는 도구도 제공합니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543824"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881568"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>게이트웨이 문제 해결 - Power BI
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-이 문서에서는 Power BI와 함께 온-프레미스 데이터 게이트웨이를 사용할 때 몇 가지 일반적인 문제에 관해 설명합니다. 여기에 나열되지 않은 문제가 발생하면 Power BI [커뮤니티](http://community.powerbi.com) 사이트를 사용할 수 있습니다. 또는 [지원 티켓](http://powerbi.microsoft.com/support)을 만들 수 있습니다.
+이 문서에서는 Power BI와 함께 온-프레미스 데이터 게이트웨이를 사용할 때 몇 가지 일반적인 문제에 관해 설명합니다. 여기에 나열되지 않은 문제가 발생하면 Power BI [커뮤니티](https://community.powerbi.com) 사이트를 사용할 수 있습니다. 또는 [지원 티켓](https://powerbi.microsoft.com/support)을 만들 수 있습니다.
 
 ## <a name="configuration"></a>구성
 
@@ -241,7 +240,7 @@ FailedToImpersonateUserException은 다른 사용자를 대신해서 가장할 �
 
 ## <a name="fiddler-trace"></a>Fiddler 추적
 
-[Fiddler](http://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다. 클라이언트 컴퓨터에서 Power BI 서비스를 사용하여 앞뒤로 볼 수 있습니다. 이 트래픽 목록에는 오류 및 기타 관련 정보가 표시될 수 있습니다.
+[Fiddler](https://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다. 클라이언트 컴퓨터에서 Power BI 서비스를 사용하여 앞뒤로 볼 수 있습니다. 이 트래픽 목록에는 오류 및 기타 관련 정보가 표시될 수 있습니다.
 
 ![Fiddler 추적 사용](media/service-gateway-onprem-tshoot/fiddler.png)
 
@@ -254,4 +253,4 @@ FailedToImpersonateUserException은 다른 사용자를 대신해서 가장할 �
 * [데이터 원본 관리 - SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [데이터 원본 관리 - 가져오기/예약된 새로 고침](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)를 사용해 보세요.
+궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)를 사용해 보세요.

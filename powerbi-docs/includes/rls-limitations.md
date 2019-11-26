@@ -4,12 +4,12 @@ ms.service: powerbi
 ms.topic: include
 ms.date: 09/13/2019
 ms.author: mblythe
-ms.openlocfilehash: b2be085c48b303304d46ea93c272e6a860143c51
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: c658e683e86a899d45728220dee3706a0d617f0f
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074861"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74284134"
 ---
 ## <a name="limitations"></a>제한 사항
 
@@ -20,8 +20,6 @@ ms.locfileid: "71074861"
 * Power BI Desktop으로 생성된 데이터 세트에서만 RLS를 정의할 수 있습니다. Excel로 만든 데이터 세트에 RLS를 사용하려는 경우 먼저 파일을 Power BI Desktop(PBIX) 파일로 변환해야 합니다. [자세히 알아보기](../desktop-import-excel-workbooks.md)
 
 * ETL 및 DirectQuery 연결만이 지원됩니다. Analysis Services에 대한 라이브 연결은 온-프레미스 모델에서 처리됩니다.
-
-* 현재 Cortana는 RLS로 지원되지 않습니다.
 
 ## <a name="known-issues"></a>알려진 문제
 

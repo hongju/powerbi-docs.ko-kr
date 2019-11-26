@@ -2,7 +2,6 @@
 title: Power BI로 Acumatica에 연결
 description: Power BI용 Acumatica
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d2ee7a338f34e4c29fdbefae6518bede9e94badb
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 09e55aef3a1167143694c8e26a342cb1b8f0875c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186154"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873195"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Power BI로 Acumatica에 연결
 Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하게 파악할 수 있습니다. Power BI는 기회, 계정 및 고객을 포함하여 데이터를 검색한 다음 해당 데이터를 기반으로 하여 기본 대시보드 및 관련 보고서를 작성합니다.
@@ -28,7 +27,7 @@ Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하�
 >이 콘텐츠 팩에는 Acumatica v5.2 이상이 필요합니다.
 
 ## <a name="how-to-connect"></a>연결 방법
-1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.
+1. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다.
    
    ![](media/service-connect-to-acumatica/getdata3.png)
 2. **서비스** 상자에서 **가져오기**를 선택합니다.
@@ -47,7 +46,7 @@ Power BI Acumatica 콘텐츠 팩을 사용하면 기회 데이터를 신속하�
 5. 인증 방법에 대해서는 **기본**을 선택합니다. Acumatica 계정의 사용자 이름 및 암호를 입력한 다음 **로그인**을 클릭합니다.
    
     ![](media/service-connect-to-acumatica/creds2.png)
-6. Power BI가 데이터를 가져오면 왼쪽 탐색 창에 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 선택하면 사라지는 노란색 별표 \*로 표시되며, 대시보드를 선택하면 아래와 비슷한 레이아웃이 표시됩니다.
+6. Power BI가 데이터를 가져오면 탐색 창에 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 선택하면 사라지는 노란색 별표 \*로 표시되며, 대시보드를 선택하면 아래와 비슷한 레이아웃이 표시됩니다.
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 

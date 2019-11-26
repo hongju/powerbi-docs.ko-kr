@@ -2,7 +2,6 @@
 title: Power BI로 Azure Audit Logs에 연결
 description: Power BI용 Azure Audit Logs
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: d0bd4e90dac6e71d95c38bed83f1c9507acc4fd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060605"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855380"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI로 Azure Audit Logs에 연결
 Azure Audit Logs 콘텐츠 팩을 사용하면 감사 로그에 저장된 정보를 분석 및 시각화할 수 있습니다. Power BI는 데이터를 검색하고, 기본 대시보드를 구성한 다음 해당 데이터를 기준으로 보고서를 만듭니다.
@@ -25,7 +24,7 @@ Azure Audit Logs 콘텐츠 팩을 사용하면 감사 로그에 저장된 정보
 [Azure 감사 로그 콘텐츠 팩](https://app.powerbi.com/getdata/services/azure-audit-logs)에 연결하거나 Power BI와의 [Azure 감사 로그 통합](https://powerbi.microsoft.com/integrations/azure-audit-logs)에 대해 자세히 알아보세요.
 
 ## <a name="how-to-connect"></a>연결 방법
-1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.  
+1. 탐색 창의 맨 아래에서 **데이터 가져오기**를 선택합니다.  
    
     ![](media/service-connect-to-azure-audit-logs/getdata.png)
 2. **서비스** 상자에서 **가져오기**를 선택합니다.  

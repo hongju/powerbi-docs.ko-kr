@@ -2,19 +2,18 @@
 title: Android 디바이스에서 Power BI 모바일 앱 시작
 description: 온-프레미스 및 클라우드에서 비즈니스 정보에 대한 모바일 액세스 권한을 사용하여 Microsoft Power BI용 Android 모바일 앱이 Power BI를 휴대하는 방법에 대해 알아봅니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 9a0d15c73ed19990a44ff888b73d9c569d0dfc5f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060284"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876794"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 디바이스에서 Power BI 모바일 앱 시작
 Microsoft Power BI용 Android 앱은 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 
@@ -34,7 +33,7 @@ Power BI Desktop에서 Power BI 보고서를 만들고 게시합니다.
 
 ### <a name="get-the-app"></a>앱 다운로드
 
-Google Play에서 [Android용 Power BI 앱](http://go.microsoft.com/fwlink/?LinkID=544867)을 다운로드합니다.
+Google Play에서 [Android용 Power BI 앱](https://go.microsoft.com/fwlink/?LinkID=544867)을 다운로드합니다.
   
 Power BI는 Android 5.0 이상 운영 체제를 실행하는 다양한 Android 디바이스에서 실행할 수 있습니다. 디바이스를 확인하려면 **설정** > **디바이스 정보** > **Android 버전**으로 이동합니다. 
 
@@ -44,9 +43,9 @@ Power BI는 Android 5.0 이상 운영 체제를 실행하는 다양한 Android �
 [Power BI 모바일 앱의 새로운 기능](../../mobile-whats-new-in-the-mobile-apps.md)을 알아보세요.
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>웹에서 Power BI 서비스에 등록합니다.
-아직 등록하지 않은 경우, [Power BI 서비스(http://powerbi.com/)](http://powerbi.com/)로 가서 대시보드 및 보고서를 만들어 저장하고, 데이터를 함께 가져오기 위해 자신의 계정을 등록합니다. 그 후 Android 디바이스에서 Power BI에 로그인하면 어디서든 대시보드를 볼 수 있습니다.
+아직 등록하지 않은 경우, [Power BI 서비스(https://powerbi.com/)](https://powerbi.com/)로 가서 대시보드 및 보고서를 만들어 저장하고, 데이터를 함께 가져오기 위해 자신의 계정을 등록합니다. 그 후 Android 디바이스에서 Power BI에 로그인하면 어디서든 대시보드를 볼 수 있습니다.
 
-1. Power BI 서비스에서 [등록](http://go.microsoft.com/fwlink/?LinkID=513879)을 눌러 Power BI 계정을 만듭니다.
+1. Power BI 서비스에서 [등록](https://go.microsoft.com/fwlink/?LinkID=513879)을 눌러 Power BI 계정을 만듭니다.
 2. [사용자 고유의 대시보드 및 보고서 만들기](../../service-get-started.md)를 시작합니다.
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>디바이스에서 Power BI 앱 시작
@@ -88,14 +87,14 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 콘텐츠 찾기
 대시보드 및 보고서는 Power BI 모바일 앱에서 출처에 따라 다른 위치에 저장됩니다. [모바일 앱에서 콘텐츠 찾기](../../mobile-apps-quickstart-view-dashboard-report.md)에 대해 읽습니다. 또한 Power BI 모바일 앱에 있는 항목에 대해 항상 검색할 수 있습니다. 
 
-![왼쪽 탐색 창](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
+![탐색 창](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>즐겨찾는 대시보드, KPI 및 보고서 보기
 모바일 앱의 즐겨찾기 페이지에서 Power BI Report Server 및 Reporting Services KPI와 보고서와 함께 즐겨 찾는 모든 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 디바이스에서 액세스할 수 있습니다.  
 
 * **즐겨찾기**를 누릅니다.
   
-   ![왼쪽 탐색 창의 즐겨찾기](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
+   ![탐색 창의 즐겨찾기](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
   
    Power BI 즐겨찾기와 Power BI Report Server 및 Reporting Services 웹 포털의 즐겨찾기가 모두 이 페이지에 있습니다.
   
@@ -135,8 +134,8 @@ Power BI의 대시보드 및 보고서와 Power BI Report Server 또는 Reportin
 * [Power BI Desktop에서 보고서를 만들고 Power BI Report Server 웹 포털에 게시합니다](../../report-server/quickstart-create-powerbi-report.md).
 
 ### <a name="see-also"></a>참고 항목
-* Android 앱 스토어에서 [Android 앱 다운로드](http://go.microsoft.com/fwlink/?LinkID=544867)
+* Android 앱 스토어에서 [Android 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)
 * [Power BI란?](../../fundamentals/power-bi-overview.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 
 

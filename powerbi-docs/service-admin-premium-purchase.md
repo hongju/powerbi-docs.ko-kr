@@ -3,19 +3,18 @@ title: Power BI 프리미엄 구매 방법
 description: Power BI Premium을 구매하고 전체 조직에 대한 콘텐츠에 대한 액세스를 활성화할 수 있는 방법을 알아봅니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: b9681b15b0eef4415849b59e903440f9d904b1f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175229"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856893"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
 
@@ -30,17 +29,17 @@ Premium 구독이 만료되면 30일 동안 용량에 대한 전체 액세스 �
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Power BI 프리미엄 P1로 새 테넌트 만들기
 
-기존 테넌트가 없어 새로 하나를 만들려면 Power BI 프리미엄도 동시에 구매할 수 있습니다. 다음 링크를 통해 새 테넌트를 만드는 과정을 안내받고 Power BI Premium을 구매할 수 있습니다: [Power BI Premium P1 제품](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). 테넌트를 만들면 자동으로 해당 테넌트에 대한 Office 365 글로벌 관리자 역할을 할당받게 됩니다.
+기존 테넌트가 없어 새로 하나를 만들려면 Power BI 프리미엄도 동시에 구매할 수 있습니다. 다음 링크를 통해 새 테넌트를 만드는 과정을 안내받고 Power BI Premium을 구매할 수 있습니다: [Power BI Premium P1 제품](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). 테넌트를 만들면 자동으로 해당 테넌트의 Microsoft 365 전역 관리자 역할에 할당됩니다.
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>기존 조직에 대한 Power BI 프리미엄 용량 구매
 
-기존 조직(테넌트)이 있는 경우 Office 365 글로벌 관리자 역할 또는 청구 관리자 역할을 할당받아야 구독 및 라이선스를 구매할 수 있습니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)를 참조하세요.
+기존 조직(테넌트)이 있는 경우 Microsoft 365 전역 관리자 역할 또는 대금 청구 관리자 역할에 할당되어아야 구독 및 라이선스를 구매할 수 있습니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)를 참조하세요.
 
 프리미엄 용량을 구매하려면 다음 단계를 따르세요.
 
-1. Power BI 서비스 내에서 Office 365 앱 선택, **관리자**를 차례로 선택합니다.
+1. Power BI 서비스 내에서 Microsoft 365 앱 선택기, **관리자**를 차례로 선택합니다.
 
-    ![Office 365 앱 선택](media/service-admin-premium-purchase/o365-app-picker.png)
+    ![Microsoft 365 앱 선택기](media/service-admin-premium-purchase/o365-app-picker.png)
 
     또는 Microsoft 365 관리 센터로 이동할 수 있습니다. [https://portal.office.com](https://portal.office.com ) 으로 이동하여 **관리자**를 선택하면 도달할 수 있습니다.
 
@@ -66,7 +65,7 @@ Premium 구독이 만료되면 30일 동안 용량에 대한 전체 액세스 �
 
 1. **기타 계획** 아래에서 추가로 구매할 Power BI 프리미엄 항목을 찾습니다.
 
-1. **줄임표(...)** 를 마우스로 가리키고 **라이선스 수량 변경**을 선택합니다.
+1. **추가 옵션**(...)을 마우스로 가리키고 **라이선스 수량 변경**을 선택합니다.
 
     ![라이선스 수량 변경](media/service-admin-premium-purchase/premium-purchase-more.png)
 
@@ -107,4 +106,4 @@ Microsoft 365 관리 센터 내에서 구독을 취소할 수 있습니다. 프�
 [Power BI Premium FAQ](service-premium-faq.md)\
 [Power BI 엔터프라이즈 배포 계획 백서](https://aka.ms/pbienterprisedeploy)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -1,20 +1,19 @@
 ---
 title: Power BI 사용 권한
 description: Power BI 사용 권한
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 8a48ec007f2d8c9c07de5cc0d51049e3dbf19662
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 51c43a19613381d39e0397864e55baed2022663c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269356"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74263980"
 ---
 # <a name="power-bi-permissions"></a>Power BI 사용 권한
 
@@ -42,11 +41,11 @@ Power BI 사용 권한은 애플리케이션이 사용자를 대신하여 특정
 사용자 페이지에 처음으로 로그인할 때 호출의 범위 매개 변수에 요청된 권한을 전달하면 애플리케이션에서 사용 권한을 요청할 수 있습니다. 사용 권한이 부여되면 액세스 토큰이 앱에 반환되어 이후 API 호출에 사용할 수 있습니다. 액세스 권한은 특정 애플리케이션에서만 사용할 수 있습니다.
 
 > [!NOTE]
-> Power BI API는 계속 그룹으로 앱 작업 영역을 참조합니다. 그룹에 대한 참조는 앱 작업 영역과 작업 중임을 의미합니다.
+> Power BI API는 계속해서 작업 영역을 그룹으로 참조합니다. 그룹 참조는 작업 영역에서 작업 중임을 나타냅니다.
 
 ## <a name="requesting-permissions"></a>사용 권한 요청
 
-API를 호출하여 사용자 이름과 암호로 인증할 수 있으며, 다른 사용자를 대신하여 작업을 수행하려면 다른 사용자가 사용 권한을 요청한 다음 승인하고 이후 모든 호출에 결과 액세스 토큰을 보내야 합니다. 이 프로세스의 경우 표준 [OAuth 2.0](http://oauth.net/2/) 프로토콜을 따릅니다. 실제 구현은 다를 수 있지만 Power BI에 대한 OAuth 흐름에는 다음과 같은 요소가 포함됩니다.
+API를 호출하여 사용자 이름과 암호로 인증할 수 있으며, 다른 사용자를 대신하여 작업을 수행하려면 다른 사용자가 사용 권한을 요청한 다음 승인하고 이후 모든 호출에 결과 액세스 토큰을 보내야 합니다. 이 프로세스의 경우 표준 [OAuth 2.0](https://oauth.net/2/) 프로토콜을 따릅니다. 실제 구현은 다를 수 있지만 Power BI에 대한 OAuth 흐름에는 다음과 같은 요소가 포함됩니다.
 
 * **로그인 UI** - 개발자가 사용 권한을 요청하기 위해 호출할 수 있는 UI입니다. 로그인하지 않은 경우 로그인해야 합니다. 또한 사용자는 애플리케이션이 요청하는 사용 권한을 승인해야 합니다. 로그인 창에서 제공된 리디렉션 URL에 액세스 코드 또는 오류 메시지를 다시 게시합니다.
   * 네이티브 애플리케이션에서 사용할 표준 리디렉션 URL을 Power BI에서 제공해야 합니다.
@@ -54,4 +53,4 @@ API를 호출하여 사용자 이름과 암호로 인증할 수 있으며, 다�
 * **인증 토큰** - 다른 사용자를 대신하여 API 호출을 인증하는 데 사용됩니다. 이 토큰의 범위는 특정 애플리케이션으로 지정됩니다. 토큰에는 설정된 수명이 있으며 토큰이 만료되는 경우 새로 고쳐야 합니다.
 * **토큰 새로 고침** - 토큰이 만료되면 토큰을 새로 고치는 프로세스가 수행됩니다.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

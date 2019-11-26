@@ -2,7 +2,6 @@
 title: Power BI Desktop 시각적 개체의 데이터 및 레코드 표시
 description: 세부 정보로 드릴링하려면 Power BI Desktop의 데이터 표시 및 레코드 표시 기능을 사용합니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6e425f146228d0139b9eec914a44ed5dc732fe98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514782"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877784"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 표시 및 레코드 표시 사용
 **Power BI Desktop**에서는 시각화의 세부 정보로 드릴하고 선택한 시각적 개체에 대한 기본 데이터 또는 개별 데이터 레코드의 텍스트 표현을 볼 수 있습니다. 이러한 기능을 때로는 ‘클릭 광고’, ‘드릴스루’ 또는 ‘드릴스루 세부 정보’라고 합니다.   
@@ -41,7 +40,7 @@ ms.locfileid: "65514782"
 
 ![리본의 데이터 표시](media/desktop-see-data-see-records/see-data1.png)
 
-시각화를 마우스 오른쪽 단추로 클릭하고 표시되는 메뉴에서 **데이터 표시**를 선택하거나 시각화의 오른쪽 위에 있는 **추가 옵션** 줄임표(...)를 선택한 다음, **데이터 표시**를 선택하여 데이터를 볼 수도 있습니다.
+시각화를 마우스 오른쪽 단추로 클릭하고 표시되는 메뉴에서 **데이터 표시**를 선택하거나 시각화의 오른쪽 위에 있는 **추가 옵션**(...)을 선택한 다음, **데이터 표시**를 선택하여 데이터를 볼 수도 있습니다.
 
 ![데이터 표시 마우스 오른쪽 단추 클릭](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![데이터 표시 추가 옵션](media/desktop-see-data-see-records/see-data3.png)
 
