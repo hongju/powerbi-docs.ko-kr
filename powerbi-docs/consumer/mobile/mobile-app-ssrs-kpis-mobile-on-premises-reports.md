@@ -40,7 +40,7 @@ Power BI Report Server 및 SQL Server 2016 Reporting Services(SSRS)에서 Power 
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>서버 연결 없이 모바일 앱에서 샘플 탐색
 Reporting Services 웹 포털에 대한 액세스가 없더라도, Reporting Services 모바일 보고서 및 KPI의 기능을 탐색할 수 있습니다. 
 
-1. 왼쪽 위 모퉁이에서 ![전역 탐색 단추](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) 전역 탐색 단추를 탭한 다음 오른쪽 위에 있는 기어 아이콘을 탭합니다. ![기어 아이콘](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
+1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png)를 탭한 다음 오른쪽 위에 있는 톱니바퀴 모양의 아이콘 ![기어 아이콘](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png)을 탭합니다.
 2. **Reporting Services 샘플**을 누른 다음 KPI 및 모바일 보고서와 상호 작용할 샘플을 찾아봅니다.
    
    ![Reporting Services 샘플](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
@@ -49,11 +49,11 @@ Reporting Services 웹 포털에 대한 액세스가 없더라도, Reporting Ser
 Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI를 볼 수 있습니다. 
 
 1. 모바일 디바이스에서 Power BI 앱을 엽니다.
-2. Power BI에 아직 로그인하지 않은 경우 **Reporting Server**를 누릅니다.
+2. Power BI에 아직 로그인하지 않은 경우 **보고서 서버**를 누릅니다.
    
    ![보고서 서버에 로그인](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
    
-   Power BI 앱에 이미 로그인한 경우 전역 탐색 버튼을 탭한 다음, ![전역 탐색 단추](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png)기어 아이콘을 탭합니다. ![기어 아이콘](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png) 오른쪽 위에 있습니다.
+   Power BI 앱에 이미 로그인한 경우 전역 탐색 버튼 ![전역 탐색 단추](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png)을 탭한 다음, 오른쪽 위에 있는 톱니바퀴 모양의 아이콘 ![기어 아이콘](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png)을 탭합니다.
 3. **서버에 연결**을 탭합니다.
    
     ![서버에 연결](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
@@ -62,7 +62,7 @@ Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Serv
 
     - 동일한 네트워크에 연결/VPN 사용이 가장 쉬운 방법입니다.
     - 조직 외부에서 웹 애플리케이션 프록시를 사용하여 연결할 수도 있습니다. 자세한 내용은 [OAuth를 사용하여 Reporting Services에 연결](mobile-oauth-ssrs.md)을 참조하세요. 
-    - 방화벽에서 연결 (포트)를 엽니다.
+    - 방화벽에서 연결(포트)을 엽니다.
 
 1. 서버 주소, 사용자 이름, 암호를 입력합니다. 서버 주소에 대해 다음 형식을 사용합니다.
    
@@ -76,7 +76,7 @@ Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Serv
    
     ![서버에 연결 대화 상자](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (선택 사항) 원하는 경우 **고급 옵션**에서 서버 이름을 지정할 수 있습니다.
-6. 이제 이 예에서 "power bi report server"라는 서버가 탐색 창에 표시됩니다.
+6. 이제 이 예에서 "Power BI 보고서 서버"라는 서버가 탐색 창에 표시됩니다.
    
    ![탐색 창의 보고서 서버](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
@@ -101,10 +101,10 @@ iOS 모바일 앱에서 Power BI를 보는 경우 IT 관리자는 앱 구성 정
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>Power BI 앱에서 Power BI 보고서 및 KPI 보기
 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting Services 웹 포털에서와 동일한 폴더에 표시됩니다. 
 
-* Power BI 보고서 탭 ![Power BI 보고서 아이콘](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). 그러면 가로 모드로 열리고 Power BI 앱에서 상호 작용할 수 있습니다.
+* Power BI 보고서 아이콘 ![Power BI 보고서 아이콘](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png)을 탭합니다. 그러면 가로 모드로 열리고 Power BI 앱에서 상호 작용할 수 있습니다.
 
     > [!NOTE]
-  > 드릴 다운 및 드릴업은 현재 Power BI Report Server의 Power BI 보고서에서 사용되지 않습니다.
+  > 드릴다운 및 드릴업은 현재 Power BI Report Server의 Power BI 보고서에서 사용되지 않습니다.
   
     ![Power BI 보고서](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * Power BI Desktop에서 보고서 소유자는 Power BI 모바일 앱에 [보고서를 최적화](../../desktop-create-phone-report.md)할 수 있습니다. 휴대전화에서 최적화된 보고서에는 특수 아이콘 ![최적화된 Power BI 보고서 아이콘](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) 및 레이아웃이 있습니다.
