@@ -1,0 +1,171 @@
+### YamlMime:Landing
+metadata:
+  title: Microsoft Power BI 학습 도우미
+  description: 순차적인 과정 모음을 통해 학습 과정을 시작하고, Microsoft Power BI의 광범위하고 강력한 기능을 이해하세요.
+  layout: LandingPage
+  ms.service: powerbi
+  ms.author: davidiseminger
+  ms.date: 09/20/2019
+  ms.openlocfilehash: bd094c8a4568c7fb05ca49996fb0c8f409c668d3
+  ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 11/19/2019
+  ms.locfileid: "74178332"
+title: Microsoft Power BI 학습 도우미
+summary: 순차적인 과정 모음을 통해 학습 과정을 시작하고, Microsoft Power BI의 광범위하고 강력한 기능을 이해하세요.
+landingContent:
+- title: Power BI로 수행할 수 있는 작업 알아보기
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 소비자가 Power BI 서비스로 수행할 수 있는 작업? - 12분
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/1-why-power-bi
+    - text: Power BI 서비스에서 콘텐츠 보기 - 10분
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/2-find-content
+    - text: Power BI에서 대시보드, 보고서 및 앱 살펴보기 - 15분
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/3-navigate-content
+    - text: Power BI에서 공동 작업 및 공유 - 15분
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/4-collaborate-and-share
+    - text: 대시보드 및 보고서 찾기 및 보기 - 7분
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/5-lab-1
+- title: Power BI로 데이터 분석
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Power BI로 데이터 필터링 - 15분
+      url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/1-filtering-data
+    - text: 데이터 보기 - 5분
+      url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/2-exploring-with-numbers
+    - text: 데이터에 대해 질문하기 - 5분
+      url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/3-asking-questions-data
+    - text: 보고서에 필터 적용 -25분
+      url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/4-lab-2
+- title: Power BI로 빌드 시작
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 소개 - 6분
+      url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/1-introduction
+    - text: Power BI 사용 - 2분
+      url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/2-using-power-bi
+    - text: Power BI의 구성 요소 - 12분
+      url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/3-building-blocks-of-power-bi
+    - text: Power BI 서비스 둘러보기 및 사용 - 12분
+      url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/4-exercise-touring-and-using-power-bi
+- title: Power BI Desktop을 사용하여 데이터 가져오기
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Power BI Desktop 개요 - 5분
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/1-overview-power-bi-desktop
+    - text: Power BI Desktop 살펴보기 - 10분
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop
+    - text: 데이터 원본에 연결 - 10분
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/3-connect-data-sources-power-bi-desktop
+    - text: Excel에서 데이터 가져오기 - 5분
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/3b-data-from-excel
+    - text: 보고서에 포함할 데이터 변환 - 10분
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/4-clean-data-query-editor
+    - text: 여러 원본의 데이터 결합 - 10분
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/5-advanced-data-sources-transformation
+    - text: 보고서에 포함할 데이터 정리 - 10분
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/6-cleaning-data
+- title: Power BI에서 데이터 모델링
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 데이터 모델링 소개 - 5분
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/1-overview-power-bi
+    - text: 데이터 관계를 관리하는 방법 - 8분
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/2-how-to-manage-data-relationships
+    - text: 계산 열 만들기 - 7분
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/3-create-calculated-columns
+    - text: 데이터 모델 최적화 - 8분
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4-optimize-data-models
+    - text: 계산 측정값 만들기 - 15분
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4b-create-calculated-measures
+    - text: 계산 테이블 만들기 - 4분
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/5-create-calculated-tables
+    - text: 시간 기반 데이터 탐색 - 5분
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/6-explore-time-based-data
+- title: Power BI에서 시각적 개체 사용
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Power BI의 시각적 개체 소개 - 3분
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/1-intro-visuals
+    - text: 간단한 시각화 만들기 및 사용자 지정 - 9분
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/2-create-simple-visuals
+    - text: 슬라이서 만들기 - 9분
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/4-create-slicers
+    - text: 지도 시각화 - 5분
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/5-map-visualizations
+    - text: 행렬 및 테이블 - 8분
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/6-create-matrixes-tables
+    - text: 분산형, 폭포수형 및 깔때기형 차트 만들기 - 9분
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/7-create-scatter-charts
+    - text: 차트 및 시각적 개체의 색 수정 - 6분
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/10-modify-colors
+    - text: 페이지 레이아웃 및 서식 지정 - 12분
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/12-formatting
+- title: Power BI에서 데이터 탐색
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Power BI 서비스 소개 - 6분
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/1-introduction-power-bi-service
+    - text: Power BI의 신속한 정보 활용 - 7분
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/2-quick-insights
+    - text: 대시보드 만들기 및 구성 - 5분
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/3-create-configure-dashboard
+    - text: 자연어를 사용하여 데이터에 대해 질문하기 - 5분
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/4-ask-questions
+    - text: 사용자 지정 질문 및 답변 제안 만들기 - 4분
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/5-custom-qa
+    - text: 조직과 대시보드 공유 - 5분
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/6-share-dashboards
+    - text: 전체 화면에 시각적 개체 및 타일 표시 - 3분
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/7-display-full-screen
+    - text: 타일 세부 정보 편집 및 위젯 추가 - 5분
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/8-edit-tile-details
+    - text: 대시보드 공간 확보 - 3분
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/9-get-more-space-on-dashboard
+- title: Power BI에서 게시 및 공유
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 콘텐츠 팩, 보안 및 그룹 소개 - 5분
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/1-introduction-content-packs
+    - text: Power BI Desktop 보고서 게시 - 6분
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/2-publish-reports
+    - text: 대시보드 및 보고서 인쇄 및 내보내기 - 7분
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/3-print-export-reports
+    - text: Power BI Mobile 소개 - 5분
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/5-power-bi-mobile
+    - text: Power BI에서 작업 영역 만들기 - 6분
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/6-create-groups
+    - text: 앱 빌드 - 7분
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/7-build-apps
+    - text: 앱 사용 - 6분
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/8-use-apps
+    - text: Power BI와 비즈니스용 OneDrive 통합 - 7분
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/10-integrate-onedrive
+    - text: 웹에 게시 - 5분
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/11-publish-web
+- title: DAX 소개
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: DAX 소개 - 9분
+      url: introductiontodax.yml?tutorial-step=1
+    - text: DAX 계산 형식 - 22분
+      url: introductiontodax.yml?tutorial-step=2
+    - text: DAX 함수 - 17분
+      url: introductiontodax.yml?tutorial-step=3
+    - text: DAX 식에서 변수 사용 - 4분
+      url: introductiontodax.yml?tutorial-step=4
+    - text: 테이블 관계 및 DAX - 13분
+      url: introductiontodax.yml?tutorial-step=5
+    - text: DAX 테이블 및 필터링 - 32분
+      url: introductiontodax.yml?tutorial-step=6

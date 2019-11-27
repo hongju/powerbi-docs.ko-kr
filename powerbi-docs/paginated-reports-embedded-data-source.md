@@ -3,18 +3,17 @@ title: Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데�
 description: 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 원본을 만들고 수정하는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: d7a170cad376c3ec9fd3ca8ca7d2c8d2d8ac0223
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020809"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875319"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 원본 만들기
 
@@ -72,7 +71,7 @@ ms.locfileid: "72020809"
 
 Power BI 데이터 세트에 연결하는 페이지를 매긴 보고서는 Power BI의 공유 데이터 세트에 대한 규칙을 따르며 몇 가지 사소한 변경 사항이 있습니다.  사용자가 Power BI 데이터 세트를 사용하여 페이지를 매긴 보고서를 올바르게 보고, RLS(행 수준 보안)를 활성화하여 시청자에게 적용하려면 다음 규칙을 따르십시오.
 
-### <a name="classic-apps-and-app-workspaces"></a>클래식 앱 및 앱 작업 영역
+### <a name="classic-apps-and-workspaces"></a>클래식 앱 및 작업 영역
 
 - 데이터 세트와 동일한 작업 영역의 .rdl(동일한 소유자): 지원됨
 - 데이터 세트와 다른 작업 영역의 .rdl(동일한 소유자): 지원됨
@@ -82,7 +81,7 @@ Power BI 데이터 세트에 연결하는 페이지를 매긴 보고서는 Power
 - 데이터 세트와 다른 작업 영역의 .rdl(다른 사용자): 데이터 세트 수준에서 보고서를 보는 각 사용자에 대해 할당된 빌드 권한이 필요합니다.
 - 역할 수준 보안: 데이터 세트 수준에서 보고서를 보는 각 사용자에 대해 할당된 빌드 권한이 있어야 강제 적용할 수 있습니다.
 
-### <a name="new-experience-apps-and-app-workspaces"></a>새 환경 앱 및 앱 작업 영역
+### <a name="new-experience-apps-and-workspaces"></a>새 환경 앱 및 작업 영역
 
 - 데이터 세트와 동일한 작업 영역의 .rdl: 지원됨
 - 데이터 세트와 다른 작업 영역의 .rdl(동일한 소유자): 지원됨

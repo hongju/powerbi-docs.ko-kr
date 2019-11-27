@@ -2,19 +2,18 @@
 title: 보고서 서버 제품 키를 확인하는 방법
 description: 프로덕션 환경에서 서버를 설치하기 위해 Power BI Report Server 제품 키를 찾는 방법에 대해 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 42057ba7cea04f432a39d649c9a4eecc34a0883d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769640"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859696"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>보고서 서버 제품 키를 확인하는 방법
 프로덕션 환경에서 서버를 설치하기 위해 Power BI Report Server 제품 키를 찾는 방법에 대해 알아봅니다.
@@ -42,13 +41,13 @@ SQL Server Enterprise SA 규약이 있는 경우 [볼륨 라이선스 서비스 
 > 
 > 
 
-![](media/find-product-key/vlsc-download.png "볼륨 라이선싱 서비스 센터")
+![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI Report Server 설치](install-report-server.md)  
 [Power BI Report Server에 최적화된 Power BI Desktop 설치](install-powerbi-desktop.md)  
 [보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SSDT(SQL Server Data Tools) 다운로드](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SSDT(SQL Server Data Tools) 다운로드](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

@@ -3,19 +3,18 @@ title: Power BI Premium에서 용량 구성 및 관리
 description: Power BI 프리미엄을 관리하고 전체 조직에 대한 콘텐츠에 대한 액세스를 활성화할 수 있는 방법을 알아봅니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: e9214fbb78b501b49e8c2115423ec1c6f55e65d7
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 04f5b1f639b7abdbbe789a23e5d7a54790ad50a5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175949"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857094"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium에서 용량 구성 및 관리
 
@@ -98,7 +97,7 @@ Power BI 관리자 및 Office 365 글로벌 관리자는 Power BI Premium 용량
 
 ### <a name="manage-user-permissions"></a>사용자 권한 관리
 
-추가 용량 관리자를 할당하고 *용량 할당* 권한을 갖는 사용자를 할당할 수 있습니다. 할당 권한이 있는 사용자는 해당 작업 영역의 관리자인 경우 용량에 앱 작업 영역을 할당할 수 있습니다. 또한 용량에 자신의 개인 *내 작업 영역*을 할당할 수 있습니다. 할당 권한이 있는 사용자는 관리 포털에 대한 액세스를 갖지 않습니다.
+추가 용량 관리자를 할당하고 *용량 할당* 권한을 갖는 사용자를 할당할 수 있습니다. 할당 권한이 있는 사용자가 작업 영역의 관리자인 경우 용량에 작업 영역을 할당할 수 있습니다. 또한 용량에 자신의 개인 *내 작업 영역*을 할당할 수 있습니다. 할당 권한이 있는 사용자는 관리 포털에 대한 액세스를 갖지 않습니다.
 
 > [!NOTE]
 > Power BI Embedded의 경우 용량 관리자는 Microsoft Azure Portal에서 정의됩니다.
@@ -109,7 +108,7 @@ Power BI 관리자 및 Office 365 글로벌 관리자는 Power BI Premium 용량
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>용량에 작업 영역 할당
 
-용량에 작업 영역을 할당하는 방법으로는 관리 포털에서 할당하는 방법과 앱 작업 영역에서 할당하는 방법, 즉 두 가지 방법 있습니다.
+용량에 작업 영역을 할당하는 방법에는 관리 포털에서 할당하는 방법과 작업 영역에서 할당하는 방법의 두 가지가 있습니다.
 
 ### <a name="assign-from-the-admin-portal"></a>관리 포털에서 할당
 
@@ -127,22 +126,22 @@ Power BI 관리자 및 Office 365 글로벌 관리자와 함께 용량 관리자
    | --- | --- |
    | **사용자별 작업 영역** | 사용자 또는 그룹별 작업 영역을 할당하면 해당 사용자가 소유한 모든 작업 영역은 사용자의 개인 작업 영역을 포함하여 프리미엄 용량에 할당됩니다. 언급된 사용자는 자동으로 작업 영역 할당 권한을 얻습니다.<br>다른 용량에 이미 할당된 작업 영역을 포함합니다. |
    | **특정 작업 영역** | 선택한 용량에 할당할 특정 작업 영역의 이름을 입력합니다. |
-   | **전체 조직의 작업 영역** | 프리미엄 용량에 전체 조직의 작업 영역을 할당하면 조직의 모든 앱 작업 영역 및 내 작업 영역이 이 프리미엄 용량에 할당됩니다. 또한 모든 현재 및 미래의 사용자는 이 용량에 개별 작업 영역을 다시 할당할 수 있는 권한을 갖습니다. |
+   | **전체 조직의 작업 영역** | 전체 조직의 작업 영역을 프리미엄 용량에 할당하면 조직의 모든 작업 영역과 내 작업 영역이 이 프리미엄 용량에 할당됩니다. 또한 모든 현재 및 미래의 사용자는 이 용량에 개별 작업 영역을 다시 할당할 수 있는 권한을 갖습니다. |
    | | |
 
 1. **적용**을 선택합니다.
 
-### <a name="assign-from-app-workspace-settings"></a>앱 작업 영역 설정에서 할당
+### <a name="assign-from-workspace-settings"></a>작업 영역 설정에서 할당
 
-해당 작업 영역 설정에서 프리미엄 용량에 앱 작업 영역을 할당할 수도 있습니다. 작업 영역을 용량으로 이동하려면 해당 작업 영역에 대한 관리자 권한 및 해당 용량에 대한 용량 할당 권한이 있어야 합니다. 작업 영역 관리자는 항상 프리미엄 용량에서 작업 영역을 제거할 수 있습니다.
+작업 영역 설정에서 작업 영역을 프리미엄 용량에 할당할 수도 있습니다. 작업 영역을 용량으로 이동하려면 해당 작업 영역에 대한 관리자 권한 및 해당 용량에 대한 용량 할당 권한이 있어야 합니다. 작업 영역 관리자는 항상 프리미엄 용량에서 작업 영역을 제거할 수 있습니다.
 
-1. 줄임표 **(...)** 를 선택하고 **작업 영역 편집**을 선택하여 앱 작업 영역을 편집합니다.
+1. 줄임표 **(...)** 를 선택하고 **작업 영역 편집**을 선택하여 작업 영역을 편집합니다.
 
     ![줄임표(...) 상황에 맞는 메뉴에서 작업 영역 편집](media/service-admin-premium-manage/edit-app-workspace.png)
 
 1. **작업 영역 편집** 아래에서 **고급**을 확장합니다.
 
-1. 이 앱 작업 영역을 할당하려는 용량을 선택합니다.
+1. 이 작업 영역을 할당하려는 용량을 선택합니다.
 
     ![용량 선택 드롭다운](media/service-admin-premium-manage/app-workspace-advanced.png)
 
@@ -166,4 +165,4 @@ Power BI 관리 포털의 **용량 설정** 탭에서 Power BI Report Server 제
 
 [프리미엄 용량 관리](service-premium-capacity-manage.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

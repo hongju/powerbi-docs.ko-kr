@@ -2,7 +2,6 @@
 title: Power BI로 Salesforce에 연결
 description: Power BI용 Salesforce
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b351ba2151937b62002dc0cfca849cff58985581
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 6fedd3994a9e6a14ea89637a0c12aa8dd47928a9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060804"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854632"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI로 Salesforce에 연결
 Power BI를 사용하면 Salesforce.com 계정에 쉽게 연결할 수 있습니다. 이 연결을 통해 Salesforce 데이터를 검색하고 대시보드와 보고서를 자동으로 제공받을 수 있습니다.
@@ -23,7 +22,7 @@ Power BI를 사용하면 Salesforce.com 계정에 쉽게 연결할 수 있습니
 Power BI와 [Salesforce 통합](https://powerbi.microsoft.com/integrations/salesforce)에 대해 자세히 알아보세요.
 
 ## <a name="how-to-connect"></a>연결 방법
-1. In Power BI에서 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.
+1. Power BI의 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다.
    
    ![](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. **서비스** 상자에서 **가져오기**를 선택합니다.
@@ -53,7 +52,7 @@ Power BI와 [Salesforce 통합](https://powerbi.microsoft.com/integrations/sales
      
      보고서가 표시되지 않는 경우 Salesforce 계정에서 추가하거나 만든 후 다시 연결합니다.
 
-7. **연결**을 선택하여 가져오기 프로세스를 시작합니다. 가져오는 동안 가져오기가 진행 중임을 보여 주는 알림이 표시됩니다. 가져오기가 완료되면 왼쪽 탐색 창에 나열된 Salesforce 데이터에 대한 대시보드, 보고서 및 데이터 세트가 표시됩니다.
+7. **연결**을 선택하여 가져오기 프로세스를 시작합니다. 가져오는 동안 가져오기가 진행 중임을 보여 주는 알림이 표시됩니다. 가져오기가 완료되면 탐색 창에 나열된 Salesforce 데이터에 대한 대시보드, 보고서 및 데이터 세트가 표시됩니다.
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 

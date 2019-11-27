@@ -3,19 +3,18 @@ title: Power BI 지원팀에 문의할 수 없음
 description: 사용자가 로그인할 수 없는 경우 Power BI 사례를 만드는 방법
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: 830d75aaddd60ce0b678d6abdbeca7cd79a3ab28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 37bb189f7792410ffdef30e79d36f94cc85478b4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769833"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874608"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Power BI의 로그인 문제 해결
 
@@ -27,7 +26,7 @@ ms.locfileid: "64769833"
 
 ## <a name="engage-the-support-team"></a>지원팀에 참여
 
-먼저 [Power BI 지원 페이지](https://powerbi.microsoft.com/en-us/support/)를 통해 지원 티켓을 만듭니다.
+먼저 [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 통해 지원 티켓을 만듭니다.
 
 Power BI 지원 페이지를 통해 이동할 수 없는 경우 [Office 365(O365) 지원 페이지](https://support.office.com/home/contact)를 통해 티켓을 만들어 보세요.
 
@@ -50,9 +49,11 @@ Microsoft 지원팀에 도움을 요청하기 위해 문의할 수 있는 또 �
 
 커뮤니티 페이지에 포럼 게시물을 만들 수 없는 경우 [Power BI 커뮤니티 포럼](https://community.powerbi.com/)에도 로그인해야 하기 때문입니다.
 
+> [!Note]
+> 자세한 내용은 [커뮤니티 지원](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport)을 참조하세요.
+
 ## <a name="next-steps"></a>다음 단계
 
 추가 Power BI 지원을 위해 방문할 수 있는 몇 가지 사이트는 다음과 같습니다.
 
 * [Power BI Microsoft docs](https://docs.microsoft.com/power-bi/)
-* [Power BI 지원 사례 만들기](https://blogs.msdn.microsoft.com/charles_sterling/2017/12/01/creating-power-bi-support-cases/)

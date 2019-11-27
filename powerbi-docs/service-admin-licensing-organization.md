@@ -1,8 +1,7 @@
 ---
 title: 조직의 Power BI 라이선스 부여
-description: Power BI에서 사용할 수 있는 다양한 라이선스 유형(무료 라이선싱, Power BI Pro 및 Power BI Premium)을 이해합니다.
+description: Power BI에서 사용할 수 있는 다양한 라이선스 유형(무료 라이선스, Power BI Pro, Power BI Premium)을 이해합니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 24cc798814e0c19de4f1dd4d0d6907fc7a0074a6
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 2cbf2498740d26a59ced5652368cf99b8fa5eec1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075414"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857722"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>조직의 Power BI 라이선스 부여
 
@@ -27,9 +26,9 @@ ms.locfileid: "71075414"
 
 관리자는 Power BI Pro 라이선스를 구입 및 할당할 수 있으며 조직의 Power BI Pro 평가판에 등록할 수 있습니다. 개인 역시 Power BI Pro 평가판에 등록할 수 있습니다.
 
-### <a name="purchase-power-bi-pro"></a>Power BI Pro 구매
+### <a name="purchase-power-bi-pro-licenses"></a>Power BI Pro 라이선스 구매
 
-Power BI Pro 라이선스는 Microsoft Office 365 또는 인증된 Microsoft 파트너를 통해 구매합니다. 라이선스를 구입한 후에는 개별 사용자에게 할당합니다. 자세한 내용은 [Power BI Pro 라이선스 구매 및 할당](service-admin-purchasing-power-bi-pro.md)을 참조하세요.
+관리자는 Microsoft 365 또는 인증된 Microsoft 파트너를 통해 Power BI Pro 라이선스를 구매합니다. 라이선스를 구입한 후에는 개별 사용자에게 할당합니다. 자세한 내용은 [Power BI Pro 라이선스 구매 및 할당](service-admin-purchasing-power-bi-pro.md)을 참조하세요.
 
 ### <a name="power-bi-pro-license-expiration"></a>Power BI Pro 라이선스 만료
 
@@ -41,7 +40,7 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
 조직 내 개인은 Power BI Pro 평가판에 등록할 수 있습니다. 자세한 내용은 [Power BI에 개인으로 가입](service-self-service-signup-for-power-bi.md)을 참조하세요.
 
-이 제품 내 Power BI Pro 평가판을 사용하는 사용자는 Microsoft 365 관리 센터에서 Power BI Pro 평가판 사용자로 표시되지 않고 Power BI 무료 사용자로 표시됩니다. 그러나 Power BI의 스토리지 관리 페이지에는 Power BI Pro 평가판 사용자로 표시됩니다.
+개인용 제품 내 Power BI Pro 평가판을 이용하는 사용자는 Microsoft 365 관리 센터에서 Power BI Pro 평가판 사용자로 표시되지 않고 Power BI 무료 사용자로 표시됩니다. 그러나 Power BI의 스토리지 관리 페이지에는 Power BI Pro 평가판 사용자로 표시됩니다.
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>조직용 Power BI Pro 평가판
 
@@ -49,13 +48,13 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
 등록하기 위한 단계를 수행하기 전에 다음 사항을 유의하세요.
 
-* 등록하려면 Office 365의 [**전역 관리자** 또는 **대금 청구 관리자**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) 역할의 구성원이어야 합니다.
+* 등록하려면 Microsoft 365에서 [**전역 관리자** 또는  **대금 청구 관리자**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) 역할의 구성원이어야 합니다.
 
 * 조직 평가판은 테넌트당 1개로 제한됩니다. 이는 이미 다른 사용자가 Power BI Pro 평가판을 테넌트에 적용한 경우에 이 평가판을 다시 구할 수 없다는 것을 의미합니다. 이와 관련하여 도움이 필요한 경우 [Office 365 청구 지원](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671)에 문의하세요.
 
 1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)로 이동합니다.
 
-1. 왼쪽 탐색 창에서 **청구**, **구독**을 차례로 선택합니다.
+1. 탐색 창에서 **청구**, **구독**을 선택합니다.
 
    ![청구 및 구독](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
 
@@ -79,11 +78,11 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
 * Microsoft 365 관리 센터 내에서 Power BI 라이선스를 할당할 수 있습니다.
 
-* 사용자가 [Power BI Pro 평가판에 등록](service-self-service-signup-for-power-bi.md)하고 평가판이 만료되면 무료 라이선스가 할당됩니다.
+* 사용자가 [Power BI 계정에 등록](service-self-service-signup-for-power-bi.md)하면 무료 라이선스가 할당됩니다.
 
 ### <a name="requesting-and-assigning-free-licenses"></a>무료 라이선스 요청 및 할당
 
-중앙에서 라이선스 요청 및 할당을 관리하려는 경우에는 먼저 무제한 Power BI(무료) 라이선스 차단이 있는지 확인하세요.
+중앙에서 라이선스 요청 및 할당을 관리하려는 경우, 먼저 무제한 Power BI(무료) 라이선스 블록이 테넌트에 있는지 확인합니다.
 
 라이선스의 이러한 차단은 처음으로 누군가 개별로 Power BI에 가입한 후에 사용할 수 있습니다. 그 과정에서 이 라이선스 차단은 조직과 연결되고 라이선스는 등록하는 사용자에게 할당됩니다.
 
@@ -101,7 +100,7 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
 1. [Microsoft 365 관리 센터](https://portal.office.com/admin/default.aspx)로 이동합니다.
 
-1. 왼쪽 탐색 창에서 **청구** > **구독**을 선택합니다.
+1. 탐색 창에서 **청구** > **구독**을 선택합니다.
 
 1. 오른쪽에서 **구독 추가 +** 를 선택합니다.
 
@@ -125,9 +124,9 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
 관리자는 AAD(Azure Active Directory)를 통해 개인 사용자 등록을 사용하거나 사용하지 않도록 선택할 수 있습니다. 본 문서의 이 섹션에서는 PowerShell 명령으로 등록을 관리하는 방법을 보여 줍니다. Azure PowerShell에 대한 자세한 내용은 [Azure PowerShell 개요](/powershell/azure/overview)를 참조하세요.
 
-등록을 제어하는 Azure AD 설정은 **AllowAdHocSubscriptions**입니다. 대부분의 테넌트에서 이는 *true*로 설정되며 이는 사용 가능함을 의미합니다. 파트너를 통해 Power BI를 획득한 경우 *false*로 설정되어 있을 수 있는데, 이는 사용 안 함을 의미합니다. 설정을 *true*에서 *false*로 변경하면 조직의 새 사용자 개별 등록이 차단됩니다. 설정 변경 이전에 Power BI를 등록한 사용자의 경우 등록한 라이선스가 유지됩니다. *false*로 설정하면 사용자는 여전히 Pro 평가판에 가입할 수 있습니다.
+등록을 제어하는 Azure Active Directory 설정은 **AllowAdHocSubscriptions**입니다. 대부분의 테넌트에서 이는 *true*로 설정되며 이는 사용 가능함을 의미합니다. 파트너를 통해 Power BI를 획득한 경우 *false*로 설정되어 있을 수 있는데, 이는 사용 안 함을 의미합니다. 설정을 *true*에서 *false*로 변경하면 조직의 새 사용자 개별 등록이 차단됩니다. 설정 변경 이전에 Power BI를 등록한 사용자의 경우 등록한 라이선스가 유지됩니다. *false*로 설정해도 Power BI(무료) 라이선스가 있는 사용자는 개인 Power BI Pro 평가판에 계속 등록할 수 있습니다.
 
-1. Office 365 자격 증명을 사용하여 Azure Active Directory에 로그인합니다. 다음 PowerShell 스크립트의 첫 번째 행은 사용자 자격 증명을 입력하라는 메시지를 표시합니다. 두 번째 행은 Azure Active Directory에 연결합니다.
+1. Microsoft 365 자격 증명을 사용하여 Azure Active Directory에 로그인합니다. 다음 PowerShell 스크립트의 첫 번째 행은 사용자 자격 증명을 입력하라는 메시지를 표시합니다. 두 번째 행은 Azure Active Directory에 연결합니다.
 
     ```powershell
      $msolcred = get-credential
@@ -156,4 +155,4 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
 [Power BI Pro 라이선스 구매 및 할당](service-admin-purchasing-power-bi-pro.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

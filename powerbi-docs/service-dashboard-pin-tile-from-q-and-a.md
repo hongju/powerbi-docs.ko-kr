@@ -2,7 +2,6 @@
 title: 질문 및 답변에서 대시보드에 타일을 고정하는 방법
 description: 질문 및 답변 상자에서 Power BI 대시보드에 타일을 고정하는 방법에 대한 설명서입니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139418"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872800"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>질문 및 답변에서 대시보드에 타일 고정
 ## <a name="how-to-pin-a-tile-from-qa"></a>질문 및 답변에서 타일을 고정하는 방법
@@ -52,9 +51,9 @@ ms.locfileid: "61139418"
    ![타일이 있는 대시보드](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-* 질문 입력을 시작하면 질문 및 답변에서 현재 대시보드와 연결된 모든 데이터 세트에서 최적의 답변을 검색하기 시작합니다.  "현재 대시보드"는 위쪽 탐색 모음에 나열된 대시보드입니다. 예를 들어, 이 질문은 **mihart** 응용 프로그램 작업 영역에 속하는 **소매점 분석 샘플** 대시보드에서 묻습니다.
+* 질문 입력을 시작하면 질문 및 답변에서 현재 대시보드와 연결된 모든 데이터 세트에서 최적의 답변을 검색하기 시작합니다.  "현재 대시보드"는 위쪽 탐색 창에 나열된 대시보드입니다. 예를 들어 이 질문은 **mihart** 작업 영역에 속하는 **소매점 분석 샘플** 대시보드에서 묻습니다.
 
-  ![이동 경로](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![이동 경로](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
 * **질문 및 답변에서 사용할 데이터 세트는 어떻게 아나요**?  질문 및 답변에서는 해당 대시보드에 고정된 시각화가 하나 이상 있는 모든 데이터 세트에 액세스할 수 있습니다.
 
 * **질문 상자가 보이지 않나요**? Power BI 관리자에게 문의하세요. 관리자는 질문 및 답변을 사용하지 않도록 설정할 수 있습니다.
@@ -64,4 +63,4 @@ ms.locfileid: "61139418"
 [이름 변경, 크기 조정, 하이퍼링크 추가, 타일 위치 변경 등](service-dashboard-edit-tile.md)    
 [포커스 모드에서 대시보드 타일 표시](consumer/end-user-focus.md)     
 [Power BI의 Q&A로 돌아가기](consumer/end-user-q-and-a.md)  
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
