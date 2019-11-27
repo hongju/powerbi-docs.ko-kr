@@ -2,7 +2,6 @@
 title: Azure AD B2B에서 외부 게스트 사용자에게 콘텐츠 배포
 description: Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합하므로 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안전하게 배포할 수 있습니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b7327a7b32aacd222efc422263187f29285bd73
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: bcde2bc456ee48e8dc66d6c0ba6b17d79fbe43a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075761"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858002"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -81,7 +80,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 ### <a name="use-power-bi-premium"></a>Power BI Premium 사용
 
-[Power BI Premium 용량](service-premium-what-is.md)에 앱 작업 영역을 할당하면 게스트 사용자가 Power BI Pro 라이선스 없이 앱을 사용할 수 있습니다. Power BI Premium에서는 앱이 새로 고침 비율 증대, 전용 용량, 대규모 모델 크기 등과 같은 다른 기능도 활용할 수 있습니다.
+작업 영역을 [Power BI Premium 용량](service-premium-what-is.md)에 할당하면 게스트 사용자가 Power BI Pro 라이선스 없이도 앱을 사용할 수 있습니다. Power BI Premium에서는 앱이 새로 고침 비율 증대, 전용 용량, 대규모 모델 크기 등과 같은 다른 기능도 활용할 수 있습니다.
 
 ![Power BI Premium을 사용한 경우 게스트 사용자 환경 다이어그램.](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
@@ -113,6 +112,8 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 * 기본적으로 외부 Azure AD B2B에서는 게스트 권한이 콘텐츠 소비로만 제한됩니다. 외부 Azure AD B2B 게스트는 앱, 대시보드, 보고서를 보고, 데이터를 내보내며, 대시보드 및 보고서에 대한 전자 메일 구독을 만들 수 있습니다. 작업 영역에 액세스하거나 자신의 콘텐츠를 게시할 수는 없습니다. 그러나 [외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 기능을 통해 액세스를 얻은 게스트 사용자에게는 이 제한 사항이 적용되지 않습니다.
 
+* 게스트 사용자를 초대하려면 Power BI Pro 라이선스가 필요합니다. Pro 평가판 사용자는 Power BI에서 게스트 사용자를 초대할 수 없습니다.
+
 * [외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 기능을 통해 액세스가 부여된 게스트 사용자의 경우 일부 환경을 사용할 수 없습니다. 보고서를 업데이트하거나 게시하려면 데이터 가져오기 등의 Power BI 서비스 웹 UI를 사용하여 Power BI Desktop 파일을 업로드해야 합니다.  다음 환경은 지원되지 않습니다.
     * Power BI Desktop에서 Power BI 서비스에 직접 게시
     * 게스트 사용자는 Power BI Desktop을 사용하여 Power BI 서비스의 서비스 데이터 세트에 연결할 수 없습니다.
@@ -127,7 +128,12 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
     * 게스트 사용자는 Excel의 분석을 사용할 수 없습니다.
     * 게스트 사용자는 주석에서 @mentioned가 될 수 없습니다.
     * 게스트 사용자는 구독을 사용할 수 없습니다.
-    * 이 기능을 사용하는 게스트 사용자는 회사 또는 학교 계정이 있어야 합니다. 개인 계정을 사용하는 게스트 사용자는 로그인 제한으로 인해 더 많은 제한을 받습니다.
+    * 이 기능을 사용하는 게스트 사용자는 회사 또는 학교 계정이 있어야 합니다. 
+    
+* 개인 계정을 사용하는 게스트 사용자는 로그인 제한 사항으로 인해 더 많은 제한을 받습니다.
+    * 웹 브라우저를 통해 Power BI 서비스의 사용 환경을 이용할 수 있습니다.
+    * Power BI Mobile 앱은 사용할 수 없습니다.
+    * 회사 또는 학교 계정이 필요한 경우 자격 증명을 제공하기 위해 로그인할 수 없습니다.
 
 * 이 기능은 현재 Power BI SharePoint Online 보고서 웹 파트에서 사용할 수 없습니다.
 

@@ -2,7 +2,6 @@
 title: Power BI 서비스를 열었을 때 표시되는 대시보드 선택
 description: Power BI 서비스에서 주요 대시보드를 만드는 방법에 대한 설명서
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f7f488891ddbdac1f377d25cf32c2eb0468c291
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256324"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852546"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 주요 대시보드
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 사용자 중 상당수는 자주 방문하는 대시보드가 있을 것입니다. 비즈니스를 운영하는 데 사용하는 대시보드일 수도 있고, 다른 여러 대시보드 및 보고서의 타일 집합체를 포함하는 대시보드일 수도 있습니다.
 
 ## <a name="create-a-featured-dashboard"></a>주요 대시보드 만들기
@@ -37,7 +39,7 @@ ms.locfileid: "71256324"
 
 
 1. 주요 대시보드로 설정하려는 대시보드를 엽니다. 
-2. 상단 메뉴 모음에서 줄임표(...)를 선택하고 **주요 대시보드로 설정**을 선택합니다. 
+2. 위쪽 메뉴 모음에서 **추가 옵션**(...)을 선택한 다음, **주요 대시보드로 설정**을 선택합니다. 
    
     ![추천으로 설정 아이콘](./media/end-user-featured/power-bi-dropdown.png)
 3. 선택 사항을 확인합니다.
@@ -58,11 +60,11 @@ ms.locfileid: "71256324"
 어떠한 대시보드도 주요 대시보드로 지정되는 것을 원치 않을 경우 주요 대시보드를 해제하는 방법이 있습니다.
 
 1. 현재 주요 대시보드로 지정된 대시보드를 엽니다.
-2. 상단 메뉴 모음에서 줄임표(...)를 선택하고 **주요 대시보드 사용 안 함**을 선택합니다.
+2. 위쪽 메뉴 모음에서 **추가 옵션**(...)을 선택한 다음, **주요 대시보드 사용 안 함**을 선택합니다.
 
     ![주요 대시보드 사용 안 함 선택됨](./media/end-user-featured/power-bi-unfeature-newer.png)
    
 ## <a name="next-steps"></a>다음 단계
 - [대시보드를 즐겨찾기에 추가](end-user-favorite.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)를 사용해 보세요.
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)를 사용해 보세요.
 

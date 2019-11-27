@@ -2,7 +2,6 @@
 title: Power BI Desktop에서 날짜 테이블 설정 및 사용
 description: Power BI Desktop에서 테이블을 날짜 테이블로 설정하는 방법과 그 의미를 알아봅니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,16 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b2a7f4434ac82a125352eaefdd2417d9039b710f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454377"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868618"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Power BI Desktop에서 날짜 테이블 설정 및 사용
 
 **Power BI Desktop**은 백그라운드에서 작동하여 날짜를 나타내는 열을 자동으로 식별한 다음, 사용자를 대신하여 날짜 계층 구조 및 모델에 대해 사용 가능한 기타 메타데이터를 만듭니다. 그러면 시각적 개체, 테이블, 빠른 측정, 슬라이서 등과 같은 보고서 기능을 만들 때 그러한 기본 제공 계층 구조를 사용할 수 있습니다. Power BI Desktop은 보고서와 DAX 식에 사용할 수 있는 숨겨진 테이블을 사용자를 대신하여 만들어 이러한 작업을 수행합니다.
+
+이 자동 동작에 대한 자세한 내용은 [Power BI Desktop의 자동 날짜/시간](desktop-auto-date-time.md) 문서를 참조하세요.
 
 많은 데이터 분석가가 고유한 날짜 테이블을 만드는 것을 선호합니다. **Power BI Desktop**에서 모델에서 **날짜 테이블**로 사용할 테이블을 지정한 다음, 테이블의 날짜 데이터를 사용하여 날짜 관련 시각적 개체, 테이블, 빠른 측정 등을 만들 수 있습니다. 고유한 날짜 테이블을 지정하면 모델에 생성된 날짜 계층 구조를 제어하고 **빠른 측정** 및 모델의 날짜 테이블을 사용하는 기타 작업에서 사용할 수 있습니다. 
 
@@ -75,6 +76,5 @@ ms.locfileid: "65454377"
 
 다음 문서에도 관심이 있을 수 있습니다.
 
+* [Power BI Desktop의 자동 날짜/시간](desktop-auto-date-time.md)
 * [Power BI Desktop의 데이터 형식](desktop-data-types.md)
-
- 

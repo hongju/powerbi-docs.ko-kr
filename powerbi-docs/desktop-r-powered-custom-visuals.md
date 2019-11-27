@@ -3,19 +3,18 @@ title: Power BI에서 R 지원 Power BI 시각적 개체 사용
 description: Power BI에서 R 지원 Power BI 시각적 개체 사용
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: ab0c4a7bf529f878796ea4b41177e57d19c79128
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945244"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128239"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI에서 R 지원 Power BI 시각적 개체 사용
 
@@ -55,7 +54,7 @@ R 지원 Power BI 시각적 개체를 사용하려면 **Power BI 시각적 개�
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. 브라우저에서 모든 파일을 다운로드하는 등 일단 시각적 개체를 다운로드하면 **Power BI Desktop**으로 이동하여 **시각화** 창에서 줄임표(...)를 클릭하고 **파일에서 가져오기**를 선택합니다.
+4. 브라우저에서 파일을 다운로드하는 등 시각적 개체를 다운로드한 후에는 **Power BI Desktop**으로 이동하여 **시각화** 창에서 **추가 옵션**(...)을 클릭하고 **파일에서 가져오기**를 선택합니다.
 
    ![R 시각적 개체 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. 다음 그림처럼 사용자 지정 시각적 개체 가져오기에 대한 경고가 표시됩니다.

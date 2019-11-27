@@ -2,18 +2,18 @@
 title: 보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터 입력
 description: 이 문서에서는 보고서 작성기에서 페이지를 매긴 보고서에 직접 데이터를 입력하는 방법을 볼 수 있습니다.
 author: maggiesMSFT
-ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 4690185b745408d99852f00851c7cf0933bd0b46
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.author: maggies
+ms.openlocfilehash: f3170fb30011e50ba97f936d879a7f19cc795521
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874831"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128408"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>보고서 작성기 - Power BI에서 페이지를 매긴 보고서에 직접 데이터 입력
 

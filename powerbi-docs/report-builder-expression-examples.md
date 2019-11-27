@@ -1,19 +1,19 @@
 ---
 title: Power BI 보고서 작성기의 식 예제
 description: 식은 Power BI 페이지를 매긴 보고서 작성기의 페이지를 매긴 보고서에 자주 사용되어 보고서의 내용과 모양을 제어합니다.
-ms.date: 06/06/2019
+ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
+ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624137"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72728556"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 보고서 작성기의 식 예제
 식은 Power BI 페이지를 매긴 보고서 작성기의 페이지를 매긴 보고서에 자주 사용되어 보고서의 내용과 모양을 제어합니다. 식은 Microsoft Visual Basic으로 작성되며, 기본 제공 함수, 사용자 지정 코드, 보고서와 그룹 변수 및 사용자 정의 변수를 사용할 수 있습니다. 식은 같은 등호(=)로 시작합니다.   
@@ -35,7 +35,7 @@ ms.locfileid: "68624137"
 식을 사용할 수 있는 단순 및 복합 식의 기본 사항 식을 사용할 수 있는 위치 및 식에 포함할 수 있는 참조 형식에 대한 자세한 내용은 [Power BI 보고서 작성기의 식](report-builder-expressions.md) 아래의 항목을 참조하세요. 
   
 ## <a name="functions"></a>함수  
- 보고서의 많은 식에는 함수가 포함되어 있습니다. 이러한 함수를 사용하여 데이터의 형식을 지정하고, 논리를 적용하며, 보고서 메타데이터에 액세스할 수 있습니다. Microsoft Visual Basic 런타임 라이브러리, `xref:System.Convert` 및 `xref:System.Math` 네임스페이스에서 함수를 사용하는 식을 작성할 수 있습니다. 다른 어셈블리 또는 사용자 지정 코드의 함수에 대한 참조를 추가할 수 있습니다. `xref:System.Text.RegularExpressions`를 포함하여 Microsoft .NET Framework의 클래스를 사용할 수도 있습니다.  
+ 보고서의 많은 식에는 함수가 포함되어 있습니다. 이러한 함수를 사용하여 데이터의 형식을 지정하고, 논리를 적용하며, 보고서 메타데이터에 액세스할 수 있습니다. Microsoft Visual Basic 런타임 라이브러리, `xref:System.Convert` 및 `xref:System.Math` 네임스페이스에서 함수를 사용하는 식을 작성할 수 있습니다. 사용자 지정 코드에서 함수에 대한 참조를 추가할 수 있습니다. `xref:System.Text.RegularExpressions`를 포함하여 Microsoft .NET Framework의 클래스를 사용할 수도 있습니다.  
   
 ##  <a name="VisualBasicFunctions"></a> Visual Basic 함수  
  Visual Basic 함수를 사용하여 텍스트 상자에 표시되거나 보고서의 매개 변수, 속성 또는 다른 영역에 사용되는 데이터를 조작할 수 있습니다. 이 섹션에서는 이러한 함수 중 일부를 보여 주는 예제를 제공합니다. 자세한 내용은 MSDN의 [Visual Basic 런타임 라이브러리 멤버](https://go.microsoft.com/fwlink/?LinkId=198941)를 참조하세요.  
@@ -476,7 +476,7 @@ ms.locfileid: "68624137"
     ```  
   
 ##  <a name="CustomCode"></a> 사용자 지정 코드  
- 사용자 지정 코드는 보고서에서 사용할 수 있습니다. 사용자 지정 코드는 보고서에 포함되거나 보고서에 사용되는 사용자 지정 어셈블리에 저장됩니다.  
+ 보고서에 포함된 사용자 지정 코드를 사용할 수 있습니다. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>사용자 지정 집계에 그룹 변수 사용  
  특정 그룹 범위에 대해 로컬인 그룹 변수의 값을 초기화한 다음, 해당 변수에 대한 참조를 식에 포함시킬 수 있습니다. 사용자 지정 코드에 그룹 변수를 사용할 수 있는 방법 중 하나는 사용자 지정 집계를 구현하는 것입니다. 

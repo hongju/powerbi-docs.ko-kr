@@ -1,20 +1,19 @@
 ---
 title: Power BI 서비스 보고서의 책갈피 개요
-description: Power BI 질문 및 답변 자연어 쿼리에 대한 설명서 개요 항목입니다.
+description: Power BI 서비스의 책갈피에 대한 설명서 개요 항목입니다.
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/18/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5383b06bbc40953ea9f4322562190b6a7b29db14
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: d5816c4080340b3ff5f29f6000fd203e1a2dedfd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589434"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852250"
 ---
 # <a name="what-are-bookmarks"></a>책갈피란?
 

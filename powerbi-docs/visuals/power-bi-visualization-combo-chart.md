@@ -2,7 +2,6 @@
 title: Power BI의 콤보 차트
 description: 콤보 차트에 대한 이 자습서에서는 Power BI 서비스 및 Desktop에서 콤보 차트를 사용하는 시기와 만드는 방법을 설명합니다.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97c01966750d888f3420d265eb3f252b3a8f57d3
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 03a426947787cbd2720661267cac4601a4b9b13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194839"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880958"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI의 콤보 차트
 
@@ -36,7 +35,7 @@ Power BI 콤보 차트는 꺾은선형 차트와 세로 막대형 차트를 결�
 * 캔버스 공간을 절약하려는 경우
 
 ### <a name="prerequisites"></a>필수 조건
-이 자습서는 [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
+이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
 1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
    
@@ -67,7 +66,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
     c. **Time** \> **FiscalMonth**를 선택하여 **축** 영역에 추가합니다.
 
     ![콤보 자습서 예](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. 시각화의 오른쪽 위 모서리에 있는 줄임표(...)를 선택하고 **정렬 기준 > FiscalMonth**를 선택합니다. 정렬 순서를 변경하려면 줄임표를 다시 선택하고 **오름차순 정렬** 또는 **내림차순 정렬**을 선택합니다. 이 예제에서는 **오름차순 정렬**을 사용합니다.
+5. 시각화의 오른쪽 위에 있는 **추가 옵션**(...)을 선택한 다음, **정렬 기준 > FiscalMonth**를 선택합니다. 정렬 순서를 변경하려면 줄임표를 다시 선택하고 **오름차순 정렬** 또는 **내림차순 정렬**을 선택합니다. 이 예제에서는 **오름차순 정렬**을 사용합니다.
 
 6. 세로 막대형 차트를 콤보 차트로 변환합니다. 사용 가능한 두 가지 콤보 차트는 다음과 같습니다: **꺾은선형 및 누적 세로 막대형** 및 **꺾은선형 및 묶은 세로 막대형**. 세로 막대형 차트를 선택한 상태로 **시각화** 창에서 **꺾은선형 및 묶은 세로 막대형 차트**를 선택합니다.
 

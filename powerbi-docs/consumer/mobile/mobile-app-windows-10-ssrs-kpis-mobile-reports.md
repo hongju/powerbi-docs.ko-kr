@@ -2,19 +2,18 @@
 title: Windows 10 모바일 앱에서 SSRS 모바일 보고서 및 KPI 보기 - Power BI
 description: Windows 10용 Power BI 모바일 앱은 중요한 온-프레미스 비즈니스 정보에 대한 터치 기반의 라이브 모바일 액세스를 제공합니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 114cf65e8abb072ab3f0254cbd4041a43a31d1dc
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059640"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879370"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Windows 10 Power BI 모바일 앱에서 Reporting Services(SSRS) 모바일 보고서 및 KPI 보기
 SQL Server 2016 Reporting Services에서 Windows 10용 Power BI 모바일 앱은 중요한 온-프레미스 비즈니스 정보에 대한 터치 기반의 라이브 모바일 액세스를 제공합니다. 
@@ -46,11 +45,11 @@ Reporting Services 웹 포털에 대한 액세스가 없더라도, Reporting Ser
 KPI 및 모바일 보고서와 상호 작용할 샘플을 찾아봅니다.
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>Reporting Services 보고서 서버에 연결
-1. 왼쪽 탐색 모음의 맨 아래에 있는 **설정** ![설정 아이콘](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)을 탭합니다.
+1. 탐색 창의 아래쪽에서 **설정** ![설정 아이콘](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)을 탭합니다.
 2. **서버에 연결**을 탭합니다.
 3. 서버 주소, 사용자 이름, 암호를 입력합니다. 서버 주소에 대해 다음 형식을 사용합니다.
    
-     `http://<servername>/reports` 또는   `https://<servername>/reports`
+     `https://<servername>/reports` 또는   `https://<servername>/reports`
    
    > [!NOTE]
    > 연결 문자열의 시작 부분에 **http** 또는 **https**를 포함합니다.
@@ -60,9 +59,9 @@ KPI 및 모바일 보고서와 상호 작용할 샘플을 찾아봅니다.
     원하는 경우, **고급 옵션**을 눌러서 서버에 이름을 지정합니다.
 4. 확인 표시를 탭하여 연결합니다. 
    
-   이제 왼쪽 탐색 모음에서 서버를 참조합니다.
+   이제 탐색 창에 서버가 표시됩니다.
    
-   ![왼쪽 탐색 모음에서 서버](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
+   ![탐색 창의 서버](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
    
    >[!TIP]
    >언제든지 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png)를 탭하면 Power BI 서비스에서 Reporting Services 모바일 보고서와 대시보드 간에 이동할 수 있습니다. 
@@ -96,7 +95,7 @@ Reporting Services 웹 포털에 KPI와 모바일 보고서를 즐겨찾기로 �
 ## <a name="remove-a-connection-to-a-report-server"></a>보고서 서버에 대한 연결을 제거합니다.
 Power BI 모바일 앱에서 한 번에 하나의 보고서 서버에 연결될 수 있습니다. 다른 서버에 연결하려는 경우 현재 서버에서 분리해야 합니다.
 
-1. 왼쪽 탐색 모음의 맨 아래에 있는 **설정** ![설정 아이콘](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)을 탭합니다.
+1. 탐색 창의 아래쪽에서 **설정** ![설정 아이콘](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)을 탭합니다.
 2. 연결하지 않을 서버 이름을 탭한 채로 있습니다.
 3. **서버 제거**를 탭합니다.
    
@@ -111,5 +110,5 @@ Power BI 모바일 앱에서 Reporting Services KPI와 모바일 보고서를 �
 ## <a name="next-steps"></a>다음 단계
 * [Windows 10용 Power BI 모바일 앱 시작](mobile-windows-10-phone-app-get-started.md)  
 * [Power BI란?](../../fundamentals/power-bi-overview.md)  
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

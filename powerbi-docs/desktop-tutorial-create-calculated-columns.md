@@ -2,7 +2,6 @@
 title: '자습서:  Power BI Desktop에서 계산 열 만들기'
 description: '자습서:  Power BI Desktop에서 계산 열 만들기'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 4c1f6985a2ff88fa9ca595ad68456eed7a55c82e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514552"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876137"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>자습서:  Power BI Desktop에서 계산 열 만들기
 
@@ -28,7 +27,7 @@ ms.locfileid: "65514552"
 ### <a name="prerequisites"></a>필수 조건
 - 이 자습서는 Power BI Desktop을 사용하여 고급 모델을 만드는 방법을 이미 알고 있는 Power BI 사용자를 위한 것입니다. **데이터 가져오기** 및 **파워 쿼리 편집기**를 사용하여 데이터를 가져오고, 여러 가지 관련 테이블을 사용하고, 보고서 캔버스에 필드를 추가하는 방법을 이미 알고 있어야 합니다. Power BI Desktop을 처음 사용하는 경우 [Power BI Desktop 시작](desktop-getting-started.md)을 확인해야 합니다.
   
-- 이 자습서에서는 [Power BI Desktop에서 사용자 고유의 측정값 만들기](desktop-tutorial-create-measures.md) 자습서에 사용되는 동일한 샘플인 [Power BI Desktop용 Contoso 판매 샘플](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)을 사용합니다. 가상 회사인 Contoso, Inc.의 이 판매 데이터는 데이터베이스에서 가져온 것이므로 데이터 원본에 연결하거나 파워 쿼리 편집기에서 볼 수 없습니다. 사용자 컴퓨터에 파일을 다운로드하여 추출한 다음, Power BI Desktop에서 엽니다.
+- 이 자습서에서는 [Power BI Desktop에서 사용자 고유의 측정값 만들기](desktop-tutorial-create-measures.md) 자습서에 사용되는 동일한 샘플인 [Power BI Desktop용 Contoso 판매 샘플](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)을 사용합니다. 가상 회사인 Contoso, Inc.의 이 판매 데이터는 데이터베이스에서 가져온 것이므로 데이터 원본에 연결하거나 파워 쿼리 편집기에서 볼 수 없습니다. 사용자 컴퓨터에 파일을 다운로드하여 추출한 다음, Power BI Desktop에서 엽니다.
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>관련 테이블의 값을 사용하여 계산 열 만들기
 
@@ -36,7 +35,7 @@ ms.locfileid: "65514552"
 
  ![필드 목록의 열](media/desktop-tutorial-create-calculated-columns/create1.png)
 
-1.  **추가 옵션** 줄임표(...)를 선택하거나 필드 목록의 **ProductSubcategory** 테이블을 마우스 오른쪽 단추로 클릭한 다음, **새 열**을 선택합니다. ProductSubcategory 테이블에 새 열이 만들어집니다.
+1.  **추가 옵션**(...)을 선택하거나 필드 목록에서 **ProductSubcategory** 테이블을 마우스 오른쪽 단추로 클릭하고 **새 열**을 선택합니다. ProductSubcategory 테이블에 새 열이 만들어집니다.
     
     ![새 열](media/desktop-tutorial-create-calculated-columns/create2.png)
     

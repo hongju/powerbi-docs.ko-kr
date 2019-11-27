@@ -2,7 +2,6 @@
 title: 새로 고침 시나리오 문제 해결
 description: 새로 고침 시나리오 문제 해결
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,21 +9,27 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 564c3d03a7879cd7788e19055d8c11e4de46013f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d79fc47ff30d7f28827290268ba01edf09643032
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543870"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860504"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>새로 고침 시나리오 문제 해결
 
 다음에서 Power BI 서비스에서 데이터를 새로 고침할 때 직면할 수 있는 다양한 시나리오에 대한 정보를 찾을 수 있습니다.
 
 > [!NOTE]
-> 아래 나열되어 있지 않은 시나리오가 발생하고 문제를 발생시킨 경우 [커뮤니티 사이트](http://community.powerbi.com/)에 추가 지원을 요청하거나 [지원 티켓](https://powerbi.microsoft.com/support/)을 만들 수 있습니다.
+> 아래 나열되어 있지 않은 시나리오가 발생하고 문제를 발생시킨 경우 [커뮤니티 사이트](https://community.powerbi.com/)에 추가 지원을 요청하거나 [지원 티켓](https://powerbi.microsoft.com/support/)을 만들 수 있습니다.
 >
 >
+
+## <a name="email-notifications"></a>메일 알림
+
+메일 알림에서 이 문서에 액세스하는 경우, 새로 고침 문제에 대한 메일을 더 이상 받지 않으려면 Power BI 관리자에게 문의하세요. Power BI의 해당 데이터 세트에서 구독한 메일 또는 메일 목록을 제거하도록 요청합니다. 관리자는 Power BI 관리 포털의 다음 영역에서 이 작업을 수행할 수 있습니다.
+
+![새로 고침 알림 메일](media/refresh-troubleshooting-refresh-scenarios/refresh-email.png)
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>웹 커넥터를 사용하여 새로 고침이 제대로 작동하지 않는 경우
 
@@ -86,5 +91,5 @@ Microsoft는 데이터 로드 프로세스에서 토큰을 새로 고치고 계�
 - [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 - [Power BI 게이트웨이 - 개인 문제 해결](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-궁금한 점이 더 있나요? [Microsoft Power BI 커뮤니티에 질문하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Microsoft Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)
 

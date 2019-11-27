@@ -7,15 +7,14 @@ ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 104b903e6b7a47b5ce35dc5c0627a43d54c1090a
-ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
+ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "71691240"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128278"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -27,9 +26,9 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 |---------|---------|---------|---------|
 | 배포 | 온-프레미스 또는 호스트 클라우드 | 클라우드 | Power BI Premium을 통해 라이선스가 부여된 경우 Azure VM(호스트 클라우드)에 Power BI Report Server를 배포할 수 있습니다. |
 | 원본 데이터 | 클라우드 및/또는 온-프레미스 | 클라우드 및/또는 온-프레미스 |  |
-| 라이선스 | Power BI Premium 또는 SQL Server EE(SA 포함) | Power BI Pro 및/또는 Power BI Premium | |  
+| 라이선스 | Power BI Premium 또는 SQL Server EE(SA(Software Assurance) 포함) | Power BI Pro 및/또는 Power BI Premium | |  
 | 수명 주기 | 최신 수명 주기 정책 | 완전히 관리되는 서비스 |  |
-| 릴리스 주기 | 4개월마다 한 번 | 1개월에 한 번 | 최신 기능 및 수정은 Power BI 서비스에 대해 먼저 제공됩니다. 대부분의 핵심 기능은 다음 몇 가지 릴리스에서 Power BI Report Server에 대해 제공되고, 일부 기능은 Power BI 서비스에만 적용됩니다. |
+| 릴리스 주기 | 1년에 세 번(1월, 5월, 9월) | 1개월에 한 번 | 최신 기능 및 수정은 Power BI 서비스에 대해 먼저 제공됩니다. 대부분의 핵심 기능은 다음 몇 가지 릴리스에서 Power BI Report Server에 대해 제공되고, 일부 기능은 Power BI 서비스에만 적용됩니다. |
 | Power BI Desktop에서 Power BI 보고서 만들기 | 예 | 예 |  |
 | 브라우저에서 Power BI 보고서 만들기 | 아니요 | 예 |  |
 | 게이트웨이 필요 | 아니요 | 온-프레미스 데이터 원본의 경우 예 |  |
@@ -49,12 +48,12 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 데이터 경고 | 아니요 | 예 | Power BI 서비스의 [데이터 경고](../service-set-data-alerts.md)
 | 행 수준 보안(RLS) | 예 | 예 | DirectQuery(데이터 원본) 및 가져오기 모드에서 사용 가능 <br><br>[Power BI 서비스](../service-admin-rls.md)의 행 수준 보안 <br><br>[Power BI Report Server](row-level-security-report-server.md)의 행 수준 보안 |
 | 전체 화면 모드 | 아니요 | 예 | Power BI 서비스의 [전체 화면 모드](../consumer/end-user-focus.md) |
-| 고급 Office 365 협업 | 아니요 | 예 | Office 365를 사용하여 [앱 작업 영역에서 공동 작업](../service-collaborate-power-bi-workspace.md) |
+| 고급 Office 365 협업 | 아니요 | 예 | Office 365를 사용하여 [작업 영역에서 협업](../service-collaborate-power-bi-workspace.md) |
 | R 시각적 개체 | 아니요 | 예 | Power BI Desktop에서[R 시각적 개체를 만들고](../desktop-r-visuals.md) Power BI 서비스에 게시합니다. R 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다.  |
 | 미리 보기 기능 | 아니요 | 예 | [Power BI 서비스 미리 보기 기능 옵트인](../consumer/end-user-preview-features.md) |
-| 사용자 지정 시각적 개체 | 예 | 예 | [Power BI의 사용자 지정 시각적 개체](../power-bi-custom-visuals.md) |
+| 사용자 지정 시각적 개체 | 예 | 예 | [Power BI의 사용자 지정 시각적 개체](../developer/power-bi-custom-visuals.md) |
 | 복합 모델 | 아니요 | 예 |
-| Power BI Desktop | 보고서 서버에 최적화된 버전으로, 보고서 서버로 다운로드할 수 있음 | Power BI 서비스에 최적화된 버전으로, Windows 스토어에서 사용 가능 | [보고서 서버용 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI 서비스용 Power BI Desktop](http://aka.ms/pbidesktopstore) |
+| Power BI Desktop | 보고서 서버에 최적화된 버전으로, 보고서 서버로 다운로드할 수 있음 | Power BI 서비스에 최적화된 버전으로, Windows 스토어에서 사용 가능 | [보고서 서버용 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI 서비스용 Power BI Desktop](https://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>다음 단계
 

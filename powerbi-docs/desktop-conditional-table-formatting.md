@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 14bddde618d4ef623fb91593a6a62cdb5be851a6
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b715cd42ea221f62258b66eee71b6525b2015ae1
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876607"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128180"
 ---
 # <a name="conditional-formatting-in-tables"></a>테이블에서 조건부 서식 지정 
 테이블에 조건부 서식을 사용하면 셀 값을 기반으로 하거나 다른 값 또는 필드를 기반으로 하여 그라데이션 색을 사용하는 등 사용자 지정된 셀 색을 지정할 수 있습니다. 데이터 막대를 사용하여 셀 값을 표시할 수도 있습니다. 

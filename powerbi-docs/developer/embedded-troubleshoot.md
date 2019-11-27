@@ -1,20 +1,19 @@
 ---
 title: 포함된 애플리케이션 문제 해결
 description: 이 문서에서는 Power BI 콘텐츠를 포함할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 08d66df2456917c09b6b0c1d9c40e2de47f53fa5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 7bb380a5b54ad3d844edd1596332316ae3b7b209
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543911"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264093"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
@@ -24,7 +23,7 @@ ms.locfileid: "72543911"
 
 ### <a name="fiddler-trace"></a>Fiddler 추적
 
-[Fiddler](http://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다.  클라이언트 머신에서 Power BI API를 사용하여 트래픽을 볼 수 있습니다. 이 도구에서 오류 및 다른 관련 정보를 표시할 수 있습니다.
+[Fiddler](https://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다.  클라이언트 머신에서 Power BI API를 사용하여 트래픽을 볼 수 있습니다. 이 도구에서 오류 및 다른 관련 정보를 표시할 수 있습니다.
 
 ![Fiddler 추적](media/embedded-troubleshoot/fiddler.png)
 
@@ -78,9 +77,9 @@ Azure Portal 또는 Power BI 앱 등록 페이지 내에서 표시되는 오류 
 
 * 사용자가 공유 용량에 생성될 수 있는 포함 토큰의 양을 초과했습니다. Azure 용량을 구입하여 포함 토큰을 생성하고 해당 용량에 작업 영역을 할당합니다. [Azure Portal에서 Power BI Embedded 용량 만들기](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)를 참조하세요.
 * Azure AD 인증 토큰이 만료되었습니다.
-* 인증된 사용자가 그룹(앱 작업 영역)의 멤버가 아닙니다.
-* 인증된 사용자가 그룹(앱 작업 영역)의 관리자가 아닙니다.
-* 인증된 사용자에게 권한이 없습니다. 사용 권한은 [refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions)를 사용하여 업데이트할 수 있습니다.
+* 인증된 사용자가 그룹(작업 영역)의 구성원이 아닙니다.
+* 인증된 사용자가 그룹(작업 영역)의 관리자가 아닙니다.
+* 인증된 사용자에게 권한이 없습니다. 사용 권한은 [refreshUserPermissions API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions)를 사용하여 업데이트할 수 있습니다.
 * 권한 부여 헤더가 올바르게 표시되지 않을 수 있습니다. 오타가 없는지 확인합니다.
 
 GenerateToken 호출 전에 애플리케이션의 백 엔드가 인증 토큰을 새로 고침해야 할 수 있습니다.
@@ -144,7 +143,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="generate-token-fails-when-providing-effective-identity"></a>유효 ID 입력 시 토큰 생성 실패
 
-다음과 같은 몇 가지 이유로 유효ID 입력 시 GenerateToken이 실패할 수 있습니다.
+다음과 같은 몇 가지 이유로 유효 ID 입력 시 GenerateToken이 실패할 수 있습니다.
 
 * 데이터 세트에서 유효 ID를 지원하지 않음
 * 사용자 이름이 제공되지 않음
@@ -293,7 +292,7 @@ AADSTS50079 오류가 발생하는 경우: 사용자가 다단계 인증을 사�
 
     AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
 
-웹 서버 애플리케이션에 지정된 리디렉션 URL이 샘플의 URL과 다르기 때문에 이 오류가 발생합니다. 샘플 애플리케이션을 등록하려면 리디렉션 URL로 `http://localhost:13526/`을 사용합니다.
+웹 서버 애플리케이션에 지정된 리디렉션 URL이 샘플의 URL과 다르기 때문에 이 오류가 발생합니다. 샘플 애플리케이션을 등록하려면 리디렉션 URL로 `https://localhost:13526/`을 사용합니다.
 
 등록된 애플리케이션을 편집하려는 경우 애플리케이션이 웹 API에 대한 액세스 권한을 제공할 수 있도록 [Azure AD에 등록된 애플리케이션을 업데이트](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)하는 방법을 알아봅니다.
 
@@ -305,7 +304,7 @@ AADSTS50079 오류가 발생하는 경우: 사용자가 다단계 인증을 사�
 
 자세한 내용은 [Power BI Embedded FAQ](embedded-faq.md)를 참조하세요.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 
 추가 지원이 필요한 경우 [지원 담당자에게 문의](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded)하거나 [Azure Portal을 통해 지원 티켓을 작성](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)하고 발생한 오류 메시지를 제공하세요.
 
@@ -313,4 +312,4 @@ AADSTS50079 오류가 발생하는 경우: 사용자가 다단계 인증을 사�
 
 자세한 내용은 [FAQ](embedded-faq.md)를 참조하세요.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

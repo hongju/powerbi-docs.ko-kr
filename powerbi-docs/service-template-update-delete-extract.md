@@ -2,19 +2,18 @@
 title: Power BI 템플릿 앱을 업데이트, 삭제 및 추출
 description: 템플릿 앱을 업데이트, 삭제 및 추출하는 방법입니다.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 2cf655c25bb58ec001bac52b55aea74f887f08d9
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207640"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871374"
 ---
 # <a name="update-delete-and-extract-template-app"></a>템플릿 앱 업데이트, 삭제 및 추출
 
@@ -65,7 +64,7 @@ Power BI Desktop에서 변경을 수행한 경우 (1)단계에서 시작합니�
 새 작업 영역 버전 관리가 다시 설정되며 새로 추출된 작업 영역에서 템플릿 앱을 계속 개발 및 배포할 수 있습니다.
 
 ## <a name="delete-template-app-version"></a>템플릿 앱 버전 삭제
-템플릿 앱 작업 영역은 배포된 활성 템플릿 앱의 원본입니다. 템플릿 앱 사용자를 보호하려는 경우 먼저 작업 영역에서 생성된 모든 앱 버전을 제거해야 작업 영역을 삭제할 수 있습니다.
+템플릿 작업 영역은 배포된 활성 템플릿 앱의 원본입니다. 템플릿 앱 사용자를 보호하려는 경우 먼저 작업 영역에서 생성된 모든 앱 버전을 제거해야 작업 영역을 삭제할 수 있습니다.
 앱 버전을 삭제하면 더 이상 작동하지 않는 앱 URL도 삭제됩니다.
 
 1. [릴리스 관리] 창에서 줄임표 **(...)** , **삭제**를 차례로 눌러 선택합니다.
