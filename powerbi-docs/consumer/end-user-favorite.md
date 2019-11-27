@@ -44,7 +44,7 @@ ms.locfileid: "73852647"
 
    ![대시보드](./media/end-user-favorite/power-bi-app.png)
 
-2. 앱을 마우스로 가리키면 세부 정보가 표시됩니다. 별모양 선택 ![별 아이콘](./media/end-user-favorite/power-bi-favorite-icon.png) 즐겨찾기로 설정할 아이콘
+2. 앱을 마우스로 가리키면 세부 정보가 표시됩니다. 별모양 아이콘 ![별 아이콘](./media/end-user-favorite/power-bi-favorite-icon.png)을 선택하여 즐겨찾기로 설정합니다.
    
    ![마우스로 앱 가리키기](./media/end-user-favorite/power-bi-hover-app.png)
 
