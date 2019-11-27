@@ -2,7 +2,6 @@
 title: Power BI Desktop에서 Power BI 서비스의 데이터 세트에 연결
 description: 여러 작업 영역에서 여러 Power BI Desktop 보고서에 대해 일반적인 데이터 세트 사용 및 보고 주기 관리
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: d7d48b78ecced3e26a52df12bc8850ab8fed4c1e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020487"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877882"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop에서 Power BI 서비스의 데이터 세트에 연결
 Power BI 서비스에서 공유 데이터 세트에 대한 라이브 연결을 설정하고 동일한 데이터 세트에서 다양한 보고서를 만들 수 있습니다. 즉 Power BI Desktop에서 완벽한 데이터 모델을 만들고, Power BI 서비스에 게시할 수 있습니다. 그런 다음, 다른 사용자와 동일한 해당 공통 데이터 모델에서 여러 다양한 보고서(별도 .pbix 파일)를 만들고, 다른 작업 영역에 저장할 수 있습니다. 이 기능을 **Power BI 서비스 라이브 연결**이라고 합니다.
@@ -37,7 +36,7 @@ Anna의 보고서와 데이터 세트는 모든 사용자에게 호응도가 좋
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>라이브 연결을 사용하여 Power BI 서비스 데이터 세트에 연결
 Anna가 보고서와 이 보고서의 기반이 되는 데이터 세트를 만든 다음, **Power BI 서비스**에 게시하면 Power BI 서비스의 팀 작업 영역에 표시됩니다. *새 환경 작업 영역*에 저장하는 경우 Anna는 작업 영역 내부 및 외부의 모든 사용자가 살펴보고 사용할 수 있도록 빌드 권한을 설정할 수 있습니다.
 
-새 환경 작업 영역에 대해 자세히 알아보려면 [앱 작업 영역](service-new-workspaces.md)을 참조하세요.
+새 환경 작업 영역에 대한 자세한 내용은 [작업 영역](service-new-workspaces.md)을 참조하세요.
 
 이제 Anna 작업 영역 내부 및 외부의 다른 멤버가 **Power BI 서비스 라이브 연결** 기능을 사용하여 Anna의 공유 데이터 모델에 대한 라이브 연결을 설정한 다음, ‘고유한 새 환경 작업 영역’에서 ‘원본 데이터 세트’를 통해 고유한 보고서를 만들 수 있습니다.  
 

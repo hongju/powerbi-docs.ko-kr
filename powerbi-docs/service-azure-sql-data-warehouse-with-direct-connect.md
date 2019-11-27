@@ -6,17 +6,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aaeda4c2f7c50e41d9b149e33ba49f5eba76eba8
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 2e96b88963250d7ac11cf9690c63b431279d585a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060703"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873238"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery를 사용한 Azure SQL Data Warehouse
 
@@ -54,7 +53,7 @@ SQL Data Warehouse와 Power BI 간을 이동하는 가장 쉬운 방법은 Azure
 
 SQL Data Warehouse는 Power BI 데이터 가져오기 페이지에도 나열됩니다. 
 
-1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기**를 선택합니다.  
+1. 탐색 창의 맨 아래에서 **데이터 가져오기**를 선택합니다.  
 
     ![데이터 단추 가져오기](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
@@ -102,4 +101,4 @@ SQL Data Warehouse는 Power BI 데이터 가져오기 페이지에도 나열됩�
 * [Power BI에 대한 데이터 가져오기](service-get-data.md)  
 * [Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

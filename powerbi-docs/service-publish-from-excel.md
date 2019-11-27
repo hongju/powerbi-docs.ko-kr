@@ -2,7 +2,6 @@
 title: Excel 2016에서 Power BI로 게시
 description: Power BI 사이트에 Excel 통합 문서를 게시하는 방법을 알아봅니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb9ff3ae6b08111156616a84ee795131c708f42c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 81bc53bae43cb16af92a9ecaf20c26c594a24368
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514788"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881128"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Excel 2016에서 Power BI로 게시
 Excel 2016에서는 Excel 통합 문서를 [Power BI](https://powerbi.microsoft.com) 사이트에 바로 게시하여 통합 문서의 데이터에 기반하여 대화형 작업이 많은 보고서와 대시보드를 만들 수 있습니다. 그러면 조직에서 다른 사용자와 정보를 공유할 수 있습니다.
@@ -88,5 +87,5 @@ Excel에서 Power BI에 게시에서 내보내기를 사용하는 것은 브라�
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI의 Excel 데이터](service-excel-workbook-files.md)  
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

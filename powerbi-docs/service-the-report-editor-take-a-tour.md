@@ -2,7 +2,6 @@
 title: 보고서 편집기 둘러보기
 description: Power BI Desktop 및 Power BI 서비스의 보고서 편집기에서는 최종 사용자에게 표시되는 보고서를 디자인합니다. 보고서 편집기는 두 환경에서 비슷합니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,16 +10,16 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3a5454032a4138ce3d93c490fa6b3d5a7fecec5
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023731"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871353"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI의 보고서 편집기 둘러보기
 
-Power BI Desktop 및 Power BI 서비스의 ‘보고서 편집기’에서는 차트, 테이블, 지도 및 기타 시각적 개체를 사용하여 소비자에게 표시되는 보고서를 디자인합니다. 보고서 편집기는 두 환경에서 비슷합니다. 일반적으로, 먼저 Power BI Desktop에서 보고서를 만듭니다. 그런 후에 보고서를 Power BI 서비스에 게시하고 계속 수정할 수 있습니다. Power BI 서비스에서는 보고서를 기반으로 대시보드를 만들 수도 있습니다.
+Power BI Desktop 및 Power BI 서비스의 ‘보고서 편집기’에서는 차트, 테이블, 지도 및 기타 시각적 개체를 사용하여 소비자에게 표시되는 보고서를 디자인합니다.  보고서 편집기는 두 환경에서 비슷합니다. 일반적으로, 먼저 Power BI Desktop에서 보고서를 만듭니다. 그런 후에 보고서를 Power BI 서비스에 게시하고 계속 수정할 수 있습니다. Power BI 서비스에서는 보고서를 기반으로 대시보드를 만들 수도 있습니다.
 
 대시보드와 보고서를 만든 후에는 보고서 소비자에게 배포합니다. 공유 방법에 따라 최종 사용자는 Power BI 서비스의 읽기용 보기에서 보고서나 대시보드를 조작할 수 있지만, 편집할 수는 없습니다. [보고서 소비자가 Power BI 서비스에서 수행할 수 있는 작업](consumer/end-user-reading-view.md)을 자세히 알아보세요. 
 
@@ -34,14 +33,14 @@ Power BI 서비스에서 보고서 편집기는 편집용 보기로만 제공됩
 
 Power BI 보고서 편집기는 다음과 같은 몇 개의 주요 섹션으로 나누어져 있습니다.  
 
-1. 위쪽 탐색 모음
+1. 위쪽 탐색 창
 1. 보고서 캔버스
 1. 필터 창
 1. 시각화 창
 1. 필드 창
 
-## <a name="1-the-top-navigation-bar"></a>1. 위쪽 탐색 모음
-위쪽 탐색 모음에서 사용할 수 있는 작업에는 여러 가지가 있으며, 항상 새로운 작업이 추가됩니다. 특정 작업에 대한 자세한 내용을 보려면 Power BI 설명서의 목차나 검색 상자를 사용합니다.
+## <a name="1-the-top-nav-pane"></a>1. 위쪽 탐색 창
+위쪽 탐색 창에서 사용할 수 있는 작업은 여러 가지가 있으며, 항상 새로운 작업이 추가됩니다. 특정 작업에 대한 자세한 내용을 보려면 Power BI 설명서의 목차나 검색 상자를 사용합니다.
 
 
 ## <a name="2-the-report-canvas"></a>2. 보고서 캔버스
@@ -74,7 +73,7 @@ Power BI 보고서 편집기는 다음과 같은 몇 개의 주요 섹션으로 
 ## <a name="3-the-filters-pane"></a>3. 필터 창
 필터 창을 사용하여 페이지, 보고서, 드릴스루 및 시각적 수준에서 보고서에 대한 지속 필터를 보고 설정하고 수정할 수 있습니다. 예, 시각적 개체의 요소를 선택하거나 슬라이서 같은 도구를 사용하여 보고서 페이지 및 시각적 개체에서 임시 필터링을 수행할 수 있습니다. 필터 창의 필터링은 필터의 상태가 보고서와 함께 저장된다는 장점이 있습니다. 
 
-필터 창에는 또 다른 강력한 기능이 있습니다. 즉, ‘보고서의 시각적 개체 중 하나에 없는’ 필드를 사용하여 필터링할 수 있습니다. 설명해 보겠습니다. 시각화를 만들 때 Power BI는 시각화의 모든 필드를 필터 창의 시각적 개체 수준 필터 영역에 자동으로 추가합니다. 현재 시각화에 사용되지 않는 필드를 사용하여 시각적 개체, 페이지, 드릴스루 또는 보고서 필터를 설정하려면 필터 버킷 중 하나로 끌어오면 됩니다.
+필터 창에는 또 다른 강력한 기능이 있습니다. 즉, ‘보고서의 시각적 개체 중 하나에 없는’ 필드를 사용하여 필터링할 수 있습니다.  설명해 보겠습니다. 시각화를 만들 때 Power BI는 시각화의 모든 필드를 필터 창의 시각적 개체 수준 필터 영역에 자동으로 추가합니다. 현재 시각화에 사용되지 않는 필드를 사용하여 시각적 개체, 페이지, 드릴스루 또는 보고서 필터를 설정하려면 필터 버킷 중 하나로 끌어오면 됩니다.
 
 새 필터 환경은 더 많은 유연성을 제공합니다. 예를 들어 보고서와 같은 모양으로 필터에 서식을 지정할 수 있습니다. 필터를 잠그거나 보고서 소비자에게 숨길 수도 있습니다. 
 
@@ -145,7 +144,7 @@ Power BI는 여러 다른 아이콘을 사용하여 보고서의 필드 유형�
 |![KPI 아이콘](media/service-the-report-editor-take-a-tour/power-bi-field-list-kpi.png) |      KPI: 측정 가능한 목표에 대해 만든 진행률의 정도를 알리는 시각적 신호입니다. [KPI(핵심 성과 지표)](visuals/power-bi-visualization-kpi.md) 시각적 개체에 대해 자세히 알아보세요. |
 |![계층 구조 아이콘](media/service-the-report-editor-take-a-tour/power-bi-field-list-hierarchy.png)     |  필드 계층 구조: 화살표를 선택하여 계층 구조를 구성하는 필드를 확인합니다.  자세한 내용을 보려면 [계층 구조를 만들고 사용하는 방법](https://www.youtube.com/watch?v=q8WDUAiTGeU)에 대한 YouTube의 Power BI 동영상을 시청하세요. |
 |![지역 데이터](media/service-the-report-editor-take-a-tour/power-bi-field-list-geo-data.png)     | 지역 데이터: 이러한 위치 필드는 지도 시각화를 만드는 데 사용할 수 있습니다. |
-| ![ID 필드](media/service-the-report-editor-take-a-tour/power-bi-field-list-identity.png)     | ID 필드: 이 아이콘이 있는 필드는 ‘고유 필드’이며, 중복된 값이 있는 경우에도 모든 값을 표시하도록 설정됩니다. 예를 들어 데이터에 ‘Robin Smith’라는 서로 다른 두 사람에 대한 레코드가 있을 수 있으며, 각 레코드는 고유한 것으로 처리됩니다. 합계가 계산되지 않습니다.   |
+| ![ID 필드](media/service-the-report-editor-take-a-tour/power-bi-field-list-identity.png)     | ID 필드: 이 아이콘이 있는 필드는 ‘고유 필드’이며, 중복된 값이 있는 경우에도 모든 값을 표시하도록 설정됩니다.  예를 들어 데이터에 ‘Robin Smith’라는 서로 다른 두 사람에 대한 레코드가 있을 수 있으며, 각 레코드는 고유한 것으로 처리됩니다. 합계가 계산되지 않습니다.   |
 |![매개 변수](media/service-the-report-editor-take-a-tour/power-bi-field-list-parameter.png)   | 매개 변수: 매개 변수를 설정하여 보고서 및 데이터 모델의 일부(예: 쿼리 필터, 데이터 원본 참조, 측정값 정의 등)가 하나 이상의 매개 변수 값에 따라 달라지도록 합니다. 자세한 내용은 [쿼리 매개 변수](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)에 대한 Power BI 블로그 게시물을 참조하세요. |
 | ![일정](media/service-the-report-editor-take-a-tour/power-bi-field-list-calendar.png) | 기본 제공 날짜 테이블이 있는 달력 날짜 필드 |
 
@@ -156,5 +155,5 @@ Power BI는 여러 다른 아이콘을 사용하여 보고서의 필드 유형�
 
 [Power BI 디자이너에 대한 기본 개념](service-basic-concepts.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

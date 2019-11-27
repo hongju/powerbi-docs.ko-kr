@@ -3,18 +3,17 @@ title: 데이터 세트에 데이터 푸시
 description: Power BI 데이터 세트에 데이터 푸시
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222152"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875442"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI 데이터 세트에 데이터 푸시
 
@@ -43,7 +42,7 @@ Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 
 * [행 게시](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
 * [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
-Power BI에서 데이터 세트를 만들려면 Power BI 서비스에 JSON(JavaScript Object Notation) 문자열을 전달합니다. JSON에 대한 자세한 내용은 [JSON 소개](http://json.org/)를 참조하세요.
+Power BI에서 데이터 세트를 만들려면 Power BI 서비스에 JSON(JavaScript Object Notation) 문자열을 전달합니다. JSON에 대한 자세한 내용은 [JSON 소개](https://json.org/)를 참조하세요.
 
 데이터 세트에 대한 JSON 문자열의 형식은 다음과 같습니다.
 
@@ -119,6 +118,6 @@ Power BI 테이블 스키마에는 다음과 같은 데이터 형식을 사용�
 ## <a name="next-steps"></a>다음 단계
 
 [Power BI에 등록](create-an-azure-active-directory-tenant.md)  
-[JSON 개요](http://json.org/)  
+[JSON 개요](https://json.org/)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

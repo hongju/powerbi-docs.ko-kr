@@ -2,7 +2,6 @@
 title: Power BI에서 최종 사용자에게 자주 묻는 질문
 description: Power BI 서비스 및 Power BI 모바일 앱에 대해 자주 묻는 질문과 대답 목록을 찾습니다.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,25 +9,25 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf3e7b790788c8ce21b222a083a853b06185acc0
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 282b10d48efc97c38dae06692964e3ba2a7412b0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943335"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852524"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 
-* 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
+* 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](https://community.powerbi.com/).
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
 
 ## <a name="what-is-the-microsoft-power-bi-service"></a>Microsoft Power BI 서비스란?
 
-Power BI 서비스는 모든 사용자가 데이터에 대한 폭넓은 이해를 바탕으로 더욱 신속하고 보다 효율적으로 데이터를 시각화하고 분석할 수 있는 클라우드 기반의 비즈니스 분석 서비스입니다. 또한 사용하기 쉬운 대시보드, 대화형 보고서, 데이터를 흥미롭게 표현하는 매력적인 시각화를 통해 광범위한 클라우드 기반 및 온-프레미스 데이터에 사용자를 연결합니다. [Power BI](../power-bi-overview.md)에 대해 자세히 알아봅니다.
+Power BI 서비스는 모든 사용자가 데이터에 대한 폭넓은 이해를 바탕으로 더욱 신속하고 보다 효율적으로 데이터를 시각화하고 분석할 수 있는 클라우드 기반의 비즈니스 분석 서비스입니다. 또한 사용하기 쉬운 대시보드, 대화형 보고서, 데이터를 흥미롭게 표현하는 매력적인 시각화를 통해 광범위한 클라우드 기반 및 온-프레미스 데이터에 사용자를 연결합니다. [Power BI](../fundamentals/power-bi-overview.md)에 대해 자세히 알아봅니다.
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro와 Power BI Premium의 차이점은 무엇인가요?
 
-Power BI Pro는 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 라이선스입니다. 콘텐츠를 공유하고 다른 Pro 사용자와 협업할 수도 있습니다. Pro 사용자만 앱 작업 영역으로 콘텐츠를 게시하고, 대시보드를 공유하며, 대시보드 및 보고서를 구독할 수 있습니다.
+Power BI Pro는 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 라이선스입니다. 콘텐츠를 공유하고 다른 Pro 사용자와 협업할 수도 있습니다. Pro 사용자만 작업 영역에 콘텐츠를 게시하고, 대시보드를 공유하며, 대시보드 및 보고서를 구독할 수 있습니다.
 
 Power BI Premium은 보다 일관된 성능을 제공할 수 있는 전용 용량을 제공합니다. Power BI에서 더 큰 데이터 볼륨도 지원합니다. 개별 사용자의 경우, 프리미엄을 통해 Pro 사용자별 콘텐츠를 광범위하게 배포할 수 있으며 콘텐츠를 보는 수신자에게 사용자별 라이선스를 요구하지 않습니다.
 
@@ -56,9 +55,9 @@ Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하�
 
 예. Power BI에는 Android 휴대폰 및 태블릿, iOS 디바이스 및 Windows 10 디바이스용 기본 앱이 있습니다. 다음의 각 스토어에서 [Power BI 모바일 앱](https://powerbi.microsoft.com/mobile) 중 하나를 다운로드합니다.  
 
-* [Apple 앱 스토어](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Windows 스토어](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [Apple 앱 스토어](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Windows 스토어](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="what-do-i-need-to-install-to-use-power-bi"></a>Power BI를 사용하려면 무엇을 설치해야 하나요?
 
@@ -66,15 +65,15 @@ Power BI 서비스를 무료로 사용하려면 웹 브라우저와 메일만 �
 
 다음의 각 스토어에서 Power BI 모바일 앱을 무료로 다운로드할 수 있습니다.
 
-* [App Store](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Windows 스토어](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Windows 스토어](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="where-do-i-get-started-with-power-bi"></a>Power BI는 어디에서 시작하나요?
 
 다음 리소스를 사용하면 시작하는 데 도움이 됩니다.
 
-* [Power BI 블로그](http://blogs.msdn.com/b/powerbi/)
+* [Power BI 블로그](https://blogs.msdn.com/b/powerbi/)
 * [웹 세미나](../webinars.md)
 * [YouTube 채널](https://www.youtube.com/user/mspowerbi)의 시작하기 비디오
 * [*소비자*](power-bi-consumer-landing.md) 아티클로 Power BI 시작하기
@@ -91,19 +90,19 @@ Power BI 서비스를 무료로 사용하려면 웹 브라우저와 메일만 �
 
 ## <a name="how-can-i-buy-power-bi-pro-in-my-country"></a>내 국가에서 Power BI Pro를 구입하려면 어떻게 하나요?
 
-Power BI Pro 라이선스를 직접 구입하거나 [www.powerbi.com](http://www.powerbi.com)을 통해 담당자와 채팅할 수 있습니다.
+Power BI Pro 라이선스를 직접 구입하거나 [www.powerbi.com](https://www.powerbi.com)을 통해 담당자와 채팅할 수 있습니다.
 
 [Microsoft 파트너](https://partner.microsoft.com/)를 찾아 Power BI 구현에 대한 도움을 받을 수도 있습니다.
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI는 국가, 지역 및 업계별 규정 준수 요구 사항을 충족합니까?
 
-[Microsoft 보안 센터](http://go.microsoft.com/fwlink/?LinkId=785324)에서 Power BI 준수에 대해 자세히 알아보세요.
+[Microsoft 보안 센터](https://go.microsoft.com/fwlink/?LinkId=785324)에서 Power BI 준수에 대해 자세히 알아보세요.
 
 ## <a name="where-can-i-learn-more-about-security"></a>보안에 대해 자세히 알아보려면 어떻게 해야 하나요?
 
 여기에서 Power BI 보안, 프라이버시 및 규정 준수에 대해 자세히 알아봅니다.
 
-* 이 [Power BI 보안](http://go.microsoft.com/fwlink/?LinkId=829185) 백서
+* 이 [Power BI 보안](https://go.microsoft.com/fwlink/?LinkId=829185) 백서
 
 * 이 [Power BI 보안 지원](../service-admin-power-bi-security.md) 문서
 
@@ -117,5 +116,5 @@ Power BI Pro 라이선스를 직접 구입하거나 [www.powerbi.com](http://www
 
 * [Power BI 소비자란?](end-user-consumer.md)
 * [소비자는 Power BI를 어떻게 사용하나요?](end-user-reading-view.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.

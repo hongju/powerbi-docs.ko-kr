@@ -2,7 +2,6 @@
 title: 조직 내에서 감사 사용
 description: Power BI를 통한 감사 기능을 사용하여 수행된 작업을 모니터링하고 조사하는 방법에 대해 알아보세요. 보안 및 규정 준수 센터를 사용하거나 PowerShell을 사용할 수 있습니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 76de629f1579289ea3b702013583911d05f08408
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325451"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873777"
 ---
 # <a name="use-auditing-within-your-organization"></a>조직 내에서 감사 사용
 
@@ -162,7 +161,9 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 | 관리자가 테넌트에 데이터 흐름 스토리지 계정 연결됨 | AdminAttachedDataflowStorageAccountToTenant | 현재 사용되지 않음                       |
 | Power BI 데이터 세트 분석됨                         | AnalyzedByExternalApplication               |                                          |
 | Power BI 보고서 분석                          | AnalyzeInExcel                              |                                          |
+| 데이터 흐름 스토리지 계정 연결됨                 | AttachedDataflowStorageAccount              |                                          |
 | 게이트웨이에 바인딩된 Power BI 데이터 세트                | BindToGateway                               |                                          |
+| 데이터 흐름 새로 고침 취소됨                        | CancelDataflowRefresh                       |                                          |
 | 용량 상태 변경됨                            | ChangeCapacityState                         |                                          |
 | 용량 사용자 할당 변경됨                  | UpdateCapacityUsersAssignment               |                                          |
 | Power BI 데이터 세트 연결 변경됨              | SetAllConnections                           |                                          |
@@ -194,6 +195,7 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 | Power BI 보고서 삭제됨                           | DeleteReport                                |                                          |
 | 검색된 Power BI 데이터 세트의 데이터 원본          | GetDatasources                              |                                          |
 | 다운로드한 Power BI 보고서                        | DownloadReport                              |                                          |
+| 데이터 흐름 속성 편집됨                        | EditDataflowProperties                      |                                          |
 | Power BI 인증 권한 편집됨          | EditCertificationPermission                 | 현재 사용되지 않음                       |
 | Power BI 대시보드 편집됨                         | EditDashboard                               | 현재 사용되지 않음                       |
 | Power BI 데이터 세트 편집됨                           | EditDataset                                 |                                          |
@@ -213,7 +215,7 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 | Power BI 대시보드 인쇄됨                        | PrintDashboard                              |                                          |
 | Power BI 보고서 페이지 인쇄됨                      | PrintReport                                 |                                          |
 | 웹에 Power BI 보고서 게시됨                  | PublishToWebReport                          |                                          |
-| Key Vault에서 Power BI 데이터 흐름 비밀 수신됨  | ReceiveDataflowSecretFromKeyVault           | 현재 사용되지 않음                       |
+| Key Vault에서 Power BI 데이터 흐름 비밀 수신됨  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Power BI Gateway에서 데이터 원본 제거됨         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI 그룹 구성원 제거됨                    | DeleteGroupMembers                          |                                          |
 | 용량에서 작업 영역 제거됨                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -221,6 +223,7 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 | 요청된 Power BI 데이터 흐름 새로 고침               | RequestDataflowRefresh                      | 현재 사용되지 않음                       |
 | 요청된 Power BI 데이터 세트 새로 고침                | RefreshDataset                              |                                          |
 | 검색된 Power BI 작업 영역                     | GetWorkspaces                               |                                          |
+| 작업 영역의 데이터 흐름 스토리지 위치 설정됨     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Power BI 데이터 흐름에서 예약된 새로 고침 설정        | SetScheduledRefreshOnDataflow               |                                          |
 | Power BI 데이터 세트에서 예약된 새로 고침 설정         | SetScheduledRefresh                         |                                          |
 | Power BI 대시보드 공유                         | ShareDashboard                              |                                          |
@@ -229,10 +232,12 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 | Power BI 평가판 시작됨                            | OptInForProTrial                            |                                          |
 | Power BI 데이터 원본 인계됨                   | TakeOverDatasource                          |                                          |
 | Power BI 데이터 세트 인계됨                        | TakeOverDataset                             |                                          |
+| Power BI 데이터 흐름 인수됨                     | TookOverDataflow                             |                                          |
 | Power BI 앱 게시 취소됨                          | UnpublishApp                                |                                          |
 | 용량 리소스 거버넌스 설정 업데이트      | UpdateCapacityResourceGovernanceSettings    | 현재 Microsoft 365 관리 센터에 없음 |
 | 용량 관리자 업데이트됨                            | UpdateCapacityAdmins                        |                                          |
 | 용량 표시 이름 업데이트됨                     | UpdateCapacityDisplayName                   |                                          |
+| 데이터 흐름 스토리지 할당 권한 업데이트됨   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | 조직의 Power BI 설정 업데이트됨          | UpdatedAdminFeatureSwitch                   |                                          |
 | Power BI 앱 업데이트됨                              | UpdateApp                                   |                                          |
 | Power BI 데이터 흐름 업데이트됨                         | UpdateDataflow                              |                                          |
@@ -255,4 +260,4 @@ Power BI에서 감사하는 활동은 다음과 같습니다.
 
 [Power BI 관리 포털](service-admin-portal.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

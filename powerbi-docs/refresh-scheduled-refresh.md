@@ -2,7 +2,6 @@
 title: 예약된 새로 고침 구성
 description: 게이트웨이 선택하고 예약된 새로 고침을 구성하는 단계를 설명합니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 89f8b3d609b9433cc85d8af709eec828f924ad8e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816623"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860707"
 ---
 # <a name="configure-scheduled-refresh"></a>예약된 새로 고침 구성
 
@@ -30,7 +29,7 @@ ms.locfileid: "66816623"
 
 **예약된 새로 고침** 화면을 가져오기 위해 다음을 수행할 수 있습니다.
 
-1. **데이터 세트**에 나열된 데이터 세트 옆에 있는 **줄임표(...)** 를 선택합니다.
+1. **데이터 세트**에 나열된 데이터 세트 옆에 있는 **추가 옵션**(...)을 선택합니다.
 2. **새로 고침 예약**을 선택합니다.
 
     ![새로 고침 예약](media/refresh-scheduled-refresh/dataset-menu.png)
@@ -127,5 +126,5 @@ ms.locfileid: "66816623"
 - [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md)  
 - [Power BI 게이트웨이 - 개인 문제 해결](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

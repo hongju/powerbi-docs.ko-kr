@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8ff32c2559570514f775d15d7da3f787ab85970a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8a9e2094619d4c6b0e0f6feb2c9767902b4f7b09
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872052"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099681"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI의 새 작업 영역에서 작업 구성
 
@@ -62,7 +62,7 @@ Power BI 관리 포털에서 [작업 영역 목록을 사용할 수 있습니다
 
 다음은 관리자, 구성원, 참가자, 뷰어 등 네 가지 역할의 기능입니다. 마지막을 제외한 모든 기능에는 Power BI Pro 라이선스가 필요합니다.
 
-|기능   | 관리자  | 구성원  | 참가자  | 뷰어 |
+|기능   | 관리  | 구성원  | 참가자  | 뷰어 |
 |---|---|---|---|---|
 | 작업 영역 업데이트 및 삭제  | X  |   |   |   | 
 | 다른 관리자를 비롯한 사람 추가/제거  | X  |   |   |   |

@@ -2,7 +2,6 @@
 title: Power BI Gateway 문제 해결(개인 모드)
 description: Power BI Gateway 문제 해결(개인 모드)
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543533"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873391"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI Gateway 문제 해결(개인 모드)
 
@@ -32,7 +31,7 @@ ms.locfileid: "72543533"
 ## <a name="installation"></a>설치
 **게이트웨이(개인 모드)는 64비트 버전에서 작동합니다.** 머신이 32비트 버전인 경우 게이트웨이(개인 모드)를 설치할 수 없습니다. 운영 체제가 64비트 버전이어야 합니다. Windows 64비트 버전을 설치하거나 64비트 머신에 개인 게이트웨이(개인 모드)를 설치해야 합니다.
 
-**컴퓨터의 로컬 관리자이지만 게이트웨이(개인 모드)가 서비스로 설치되지 않습니다.** 사용자가 컴퓨터의 로컬 관리자 그룹에 속하더라도 그룹 정책에서 사용자 이름의 서비스 로그인을 허용하지 않는 경우 설치에 실패할 수 있습니다. 그룹 정책에서 사용자의 서비스 로그인을 허용하는지 확인하세요. 이 문제에 대한 수정 중입니다. 자세한 내용은 [계정에 서비스로 로그온 권한 추가](https://technet.microsoft.com/library/cc739424.aspx)를 참조하세요.
+**컴퓨터의 로컬 관리자이지만 게이트웨이(개인 모드)가 서비스로 설치되지 않습니다.** 사용자가 컴퓨터의 로컬 관리자 그룹에 속하더라도 그룹 정책에서 사용 사용자 이름의 서비스 로그인을 허용하지 않는 경우 설치에 실패할 수 있습니다. 그룹 정책에서 사용자의 서비스 로그인을 허용하는지 확인하세요. 이 문제에 대한 수정 중입니다. 자세한 내용은 [계정에 서비스로 로그온 권한 추가](https://technet.microsoft.com/library/cc739424.aspx)를 참조하세요.
 
 **작업 시간이 초과됨:** 이 메시지는 일반적으로 게이트웨이(개인 모드)를 설치하는 컴퓨터(물리적 컴퓨터 또는 VM)에 단일 코어 프로세서가 있는 경우에 흔히 나타납니다. 애플리케이션을 닫고 필수가 아닌 모든 프로세스를 해제하고 다시 설치해 보세요.
 
@@ -121,14 +120,14 @@ Power BI는 현재 ACE OLEDB 공급자를 사용하여 데이터 원본에 대�
    ![새로 고침 기록 정보](media/service-admin-troubleshooting-power-bi-personal-gateway/refresh-history.png)
 
 ### <a name="event-logs"></a>이벤트 로그
-여러 이벤트 로그가 정보를 제공할 수 있습니다. 처음 두 가지인 **데이터 관리 게이트웨이** 및 **PowerBIGateway**는 머신 관리자인 경우에 제공됩니다. 관리자가 아니고 데이터 게이트웨이(개인 모드)를 사용하는 경우는 **응용 프로그램** 로그에서 로그 항목을 볼 수 있습니다.
+여러 이벤트 로그가 정보를 제공할 수 있습니다. 처음 두 가지인 **데이터 관리 게이트웨이** 및 **PowerBIGateway**는 머신 관리자인 경우에 제공됩니다. 관리자가 아니고 데이터 게이트웨이(개인 모드)를 사용하는 경우는 **애플리케이션** 로그에서 로그 항목을 볼 수 있습니다.
 
-**데이터 관리 게이트웨이** 및 **PowerBIGateway** 로그는 **응용 프로그램 및 서비스 로그**아래에 표시됩니다.
+**데이터 관리 게이트웨이** 및 **PowerBIGateway** 로그는 **애플리케이션 및 서비스 로그**아래에 표시됩니다.
 
 ![데이터 관리 게이트웨이 및 PowerBIGateway 로그](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Fiddler 추적
-[Fiddler](http://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다. 클라이언트 머신에서 Power BI 서비스에 대한 통신을 볼 수 있습니다. 이 통신에서 오류 및 다른 관련 정보를 표시할 수 있습니다.
+[Fiddler](https://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다. 클라이언트 머신에서 Power BI 서비스에 대한 통신을 볼 수 있습니다. 이 통신에서 오류 및 다른 관련 정보를 표시할 수 있습니다.
 
 ![Fiddler 추적](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ Power BI는 현재 ACE OLEDB 공급자를 사용하여 데이터 원본에 대�
 - [타일 오류 문제 해결](refresh-troubleshooting-tile-errors.md)  
 - [온-프레미스 데이터 게이트웨이 문제 해결](service-gateway-onprem-tshoot.md) 
  
-궁금한 점이 더 있나요? [Power BI 커뮤니티](http://community.powerbi.com/)에 질문합니다.
+궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)에 질문합니다.
 

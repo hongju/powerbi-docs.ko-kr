@@ -2,7 +2,6 @@
 title: What if 매개 변수를 사용하여 변수 시각화
 description: 고유한 What if 변수를 만들어서 Power BI 보고서에서 변수 구상 및 시각화
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1ad0c7d2a3c3d21d8ccb81354bdc03d845b61f58
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513473"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876041"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>What if 매개 변수를 사용하여 Power BI Desktop에서 변수 시각화
 **Power BI Desktop** 2018년 8월 릴리스에서부터는 보고서에 대한 **What if** 변수를 만들고, 슬라이서인 변수와 상호 작용하고, 보고서에서 다른 키 값을 시각화하고 수치화할 수 있습니다.
@@ -50,7 +49,7 @@ ms.locfileid: "65513473"
 
 ![](media/desktop-what-if/what-if_05.png)
 
-새 측정값은 단순히 할인율이 적용된 총 판매액입니다. 물론 복잡하고 흥미로운 측정값을 만들어서 보고서의 고객이 **What if** 매개 변수의 변수를 시각화할 수 있습니다. 예를 들어 영업 사원은 자신의 인센티브 특정 판매 목표 또는 백분율을 충족 하거나의 효과 확인할 경우 증가 대폭 할인으로 판매가 참조 수 있는 보고서를 만들 수 있습니다.
+새 측정값은 단순히 할인율이 적용된 총 판매액입니다. 물론 복잡하고 흥미로운 측정값을 만들어서 보고서의 고객이 **What if** 매개 변수의 변수를 시각화할 수 있습니다. 예를 들어, 영업 사원이 특정 판매 목표 또는 백분율을 달성하는 경우 자신의 인센티브를 확인하거나 대폭 할인으로 판매가 증가한 효과를 확인할 수 있도록 보고서를 만들 수 있습니다.
 
 수식 입력줄에 다음 측정값 수식을 입력하고 이름을 **할인 후 판매액**으로 지정하면 그 결과가 표시됩니다.
 

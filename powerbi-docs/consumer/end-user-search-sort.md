@@ -2,23 +2,25 @@
 title: Power BI 서비스에서 콘텐츠 검색 및 정렬
 description: Power BI의 내 작업 영역에서 콘텐츠를 검색하고 정렬하는 방법에 대한 문서
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e32f0da4c512434fb316c010f2547de3ad5828e5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302772"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861726"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>탐색: Power BI 서비스에서 콘텐츠 검색, 찾기 및 정렬
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Power BI 서비스에서 콘텐츠로 이동하는 방법에는 여러 가지가 있습니다. 콘텐츠는 작업 영역 내에서 대시보드, 보고서 등의 유형별로 정리됩니다.  그리고 즐겨찾기, 최근, 공유한 항목, 주요와 같은 용도별로도 정리됩니다. 원스톱 탐색을 위해 Power BI ‘홈’에는 모든 콘텐츠가 한 페이지로 정리되어 있습니다.  이처럼 다양한 콘텐츠 경로를 통해 Power BI 서비스에서 필요한 내용을 빠르게 찾을 수 있습니다.  
 
 ## <a name="navigation-within-workspaces"></a>작업 영역 내에서 탐색
@@ -41,13 +43,13 @@ ________________________________________
 
 ![내용 정렬](./media/end-user-experience/power-bi-sort-new.png)
 
-모든 열을 정렬할 수 있는 것은 아닙니다. 열 제목을 가리켜 정렬 가능한 항목을 확인하세요.
+모든 열을 정렬할 수 있는 것은 아닙니다. 열 제목을 마우스로 가리켜 정렬 가능한 열을 확인합니다.
 
 ___________________________________________________________________
-## <a name="navigation-using-the-left-nav-bar"></a>왼쪽 탐색 모음을 사용한 탐색
-왼쪽 탐색 모음은 필요한 내용을 빠르게 찾을 수 있는 방식으로 콘텐츠를 분류합니다.  
+## <a name="navigation-using-the-nav-pane"></a>탐색 창을 사용하여 탐색
+탐색 창은 필요한 항목을 빠르게 찾을 수 있는 방식으로 콘텐츠를 분류합니다.  
 
-![왼쪽 탐색 모음](./media/end-user-search-sort/power-bi-navbar.png)
+![탐색 창](./media/end-user-search-sort/power-bi-nav pane.png)
 
 
 - 사용자와 공유된 콘텐츠는 **공유한 항목**에서 사용할 수 있습니다.
@@ -55,9 +57,9 @@ ___________________________________________________________________
 - **앱**을 선택하여 앱을 찾을 수 있습니다.
 - **홈**은 가장 중요한 콘텐츠와 제안된 콘텐츠 및 학습 소스의 단일 페이지 보기입니다.
 
-또한 콘텐츠에 [즐겨 찾기](end-user-favorite.md) 및 [주요](end-user-featured.md) 태그를 지정할 수 있습니다. 자주 볼 것으로 예상되는 대시보드 또는 보고서 1개를 선택하여 *추천* 콘텐츠로 설정합니다. Power BI 서비스를 열 때마다 추천 대시보드가 먼저 표시됩니다. 자주 방문하는 여러 대시보드 및 앱이 있나요? 즐겨찾기로 설정하면 왼쪽 탐색 모음에서 항상 사용할 수 있습니다.
+또한 콘텐츠에 [즐겨 찾기](end-user-favorite.md) 및 [주요](end-user-featured.md) 태그를 지정할 수 있습니다. 자주 볼 것으로 예상되는 대시보드 또는 보고서 1개를 선택하여 *주요* 콘텐츠로 설정합니다. Power BI 서비스를 열 때마다 주요 대시보드가 먼저 표시됩니다. 자주 방문하는 여러 대시보드 및 앱이 있나요? 이들을 즐겨찾기로 설정하면 탐색 창에서 항상 사용할 수 있습니다.
 
-![즐겨찾기 플라이아웃](./media/end-user-search-sort/power-bi-favorite.png)을 선택합니다.
+![즐겨찾기 플라이아웃](./media/end-user-search-sort/power-bi-favorite.png).
 
 
 
@@ -67,4 +69,4 @@ ___________________________________________________________________
 ## <a name="next-steps"></a>다음 단계
 [보고서에서 시각적 개체 정렬](end-user-change-sort.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

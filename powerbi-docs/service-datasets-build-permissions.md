@@ -2,7 +2,6 @@
 title: 공유 데이터 세트에 대한 빌드 권한(미리 보기)
 description: 빌드 권한을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어하는 방법에 대해 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 069ec5e0c767bcfcb0a4a41c2180ae78146800f2
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020946"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872555"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>공유 데이터 세트에 대한 빌드 권한(미리 보기)
 
@@ -29,7 +28,7 @@ Power BI Desktop의 *데이터 모델* 작성자는 Power BI 서비스에서 *�
 
 - 참가자 역할 이상이 지정된 작업 영역의 구성원은 해당 작업 영역에서 데이터 세트 빌드 권한과 보고서 복사 권한이 자동으로 부여됩니다.
  
-- 데이터 세트가 있는 작업 영역의 멤버는 권한 센터의 특정 사용자 또는 보안 그룹에 권한을 할당할 수 있습니다. 작업 영역의 구성원인 경우 데이터 세트 옆에 있는 줄임표(...) > **권한 관리**를 선택합니다.
+- 데이터 세트가 있는 작업 영역의 멤버는 권한 센터의 특정 사용자 또는 보안 그룹에 권한을 할당할 수 있습니다. 작업 영역의 구성원인 경우 데이터 세트 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **사용 권한 관리**를 선택합니다.
 
     ![줄임표 선택](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -50,11 +49,11 @@ Power BI Desktop의 *데이터 모델* 작성자는 Power BI 서비스에서 *�
 특정 시점에 공유 데이터 세트의 일부 사용자에 대한 빌드 권한을 제거해야 할 수 있습니다. 
 
 1. 작업 영역에서 **데이터 세트** 목록 페이지로 이동합니다. 
-1. 데이터 세트 옆에 있는 줄임표(...) > **권한 관리**를 선택합니다.
+1. 데이터 세트 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **사용 권한 관리**를 선택합니다.
 
     ![권한 관리](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. 이름 옆에 있는 줄임표(...) > **빌드 제거**를 선택합니다.
+1. 이름 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **빌드 제거**를 선택합니다.
 
     ![빌드 권한 제거](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -80,11 +79,11 @@ Power BI Desktop의 *데이터 모델* 작성자는 Power BI 서비스에서 *�
 1. **업데이트**를 선택합니다.
 
 1. 작업 영역에서 **데이터 세트** 목록 페이지로 이동합니다. 
-1. 데이터 세트 옆에 있는 줄임표(...) > **권한 관리**를 선택합니다.
+1. 데이터 세트 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **사용 권한 관리**를 선택합니다.
 
     ![권한 관리](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. 이름 옆에 있는 줄임표(...) > **빌드 제거**를 선택합니다.
+1. 이름 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **빌드 제거**를 선택합니다.
 
     ![빌드 권한 제거](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -103,4 +102,4 @@ Power BI는 기존 권한인 읽기 및 재공유를 보완하기 위해 2019년
 ## <a name="next-steps"></a>다음 단계
 
 - [작업 영역에서 데이터 세트 사용(미리 보기)](service-datasets-across-workspaces.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

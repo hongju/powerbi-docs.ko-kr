@@ -2,19 +2,18 @@
 title: '빠른 시작: 모바일 앱에서 대시보드 및 보고서 살펴보기'
 description: 이 빠른 시작에서는 Power BI 모바일 앱의 샘플 대시보드 및 보고서를 살펴봅니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 04/18/2019
 ms.author: mshenhav
-ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9af245b51fa2520dca1ccca535ec44f14360a54c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60976117"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879269"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>빠른 시작: Power BI 모바일 앱에서 대시보드 및 보고서 살펴보기
 이 빠른 시작에서는 Android 휴대폰에서 Power BI 모바일 앱의 샘플 대시보드 및 보고서를 살펴봅니다. 다른 모바일 앱에서도 따라할 수 있습니다. 
@@ -35,7 +34,7 @@ ms.locfileid: "60976117"
 아직 Power BI에 등록하지 않은 경우 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ### <a name="install-the-power-bi-for-android-app"></a>Android용 Power BI 앱 설치
-Google Play에서 [Android용 Power BI 앱](http://go.microsoft.com/fwlink/?LinkID=544867)을 다운로드합니다.
+Google Play에서 [Android용 Power BI 앱](https://go.microsoft.com/fwlink/?LinkID=544867)을 다운로드합니다.
 
 Power BI는 Android 5.0 이상 운영 체제를 실행하는 Android 디바이스에서 작동합니다. 디바이스를 확인하려면 **설정** > **디바이스 정보** > **Android 버전**으로 이동합니다.
 
@@ -44,11 +43,11 @@ Power BI는 Android 5.0 이상 운영 체제를 실행하는 Android 디바이�
 
 1. 브라우저에서 Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.
 
-1. 전역 탐색 아이콘을 선택하여 왼쪽 탐색을 엽니다.
+1. 글로벌 탐색 아이콘을 선택하여 탐색 창을 엽니다.
 
     ![전역 탐색 아이콘](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-global-nav-icon.png)
 
-2. 왼쪽 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
+2. 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
 
     ![내 작업 영역](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
 
@@ -77,7 +76,7 @@ Android 디바이스에서 샘플을 볼 준비가 되었습니다.
 ## <a name="view-a-dashboard-on-your-android-device"></a>Android 디바이스에서 대시보드 보기
 1. Android 디바이스에서 Power BI 앱을 열고, 브라우저에서 Power BI 서비스에 사용한 것과 동일한 Power BI 계정 자격 증명으로 로그인합니다.
 
-1.  왼쪽 위 모퉁이에서 ![전역 탐색 단추](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-global-nav-button.png)을 선택합니다.
+1.  왼쪽 위 모퉁이에서 ![전역 탐색 단추](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-global-nav-button.png).
 
 2.  **작업 영역** > **내 작업 영역**을 탭합니다.
 
@@ -135,7 +134,7 @@ Android 디바이스에서 샘플을 볼 준비가 되었습니다.
 
 1. Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.
 
-2. 왼쪽 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
+2. 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
 
     즐겨찾기를 나타내는 노란색 별모양이 보이나요?
 

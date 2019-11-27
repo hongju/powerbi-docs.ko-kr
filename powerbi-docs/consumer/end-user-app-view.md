@@ -1,21 +1,20 @@
 ---
 title: Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
-description: Power BI에서 앱을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다.
+description: Power BI 서비스에서 앱을 찾아 설치하고 사용합니다.
 author: mihart
-manager: kvivek
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5b73a5a2d0a4381981cd5c98accc48df662bd24
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 0b581b9c45cb75d12eea974c0895474015634eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716461"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851303"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 
@@ -54,7 +53,7 @@ Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스
     ![내 조직의 AppSource에서](./media/end-user-app-view/power-bi-opportunity-app.png)
 3. **지금 가져오기**를 선택하여 앱 콘텐츠 목록에 추가합니다. 
 
-## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Microsoft AppSource 웹 사이트(https://appsource.microsoft.com) )에서 앱을 가져옵니다.
+## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Microsoft AppSource 웹 사이트(https://appsource.microsoft.com) 에서 앱을 가져옵니다.
 이 예제에서는 Microsoft 샘플 앱 중 하나를 엽니다. AppSource에서 비즈니스 운영에 사용하는 다양한 서비스용 앱을 찾을 수 있습니다.  Salesforce, Microsoft Dynamics, Google 애널리틱스, GitHub, Zendesk, Marketo 등의 서비스가 있습니다. 자세한 내용은 [Power BI를 통해 사용 중인 서비스용 앱](../service-connect-to-services.md)을 참조하세요. 
 
 1. 브라우저에서 https://appsource.microsoft.com 을 열고 **Power BI 앱**을 선택합니다.

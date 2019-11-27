@@ -2,7 +2,6 @@
 title: '조직 콘텐츠 팩: 관리 및 업데이트'
 description: Power BI에서 조직 콘텐츠 팩을 관리, 업데이트 및 삭제하는 방법에 대해 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86b7a5e93183c06d6cac1445cb1702edde5d4bc9
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020598"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881265"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>조직 콘텐츠 팩 관리, 업데이트 및 삭제
 > [!NOTE]
@@ -71,14 +70,14 @@ ms.locfileid: "72020598"
 콘텐츠 팩 작성자로 [데이터 세트의 새로 고침을 예약](refresh-data.md)할 수 있습니다.  콘텐츠 팩을 만들고 업로드하는 경우 새로 고침 일정이 데이터 세트로 업로드됩니다. 새로 고침 일정을 변경하는 경우 콘텐츠 팩을 다시 게시해야 합니다.(위 참조)
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>AppSource에서 조직 콘텐츠 팩 삭제
-콘텐츠 팩을 만든 경우 AppSource에서 그것을 삭제할 수 있습니다. 앱 작업 영역에서 조직 콘텐츠 팩을 만든 다음, 해당 작업 영역을 삭제하도록 결정하는 경우 콘텐츠 팩을 먼저 삭제해야 합니다. 콘텐츠 팩을 먼저 삭제하지 않고 작업 영역을 삭제하면 해당 콘텐츠 팩에 대한 모든 액세스 권한을 손실합니다. 도움말은 Microsoft 지원에 문의해야 합니다. 
+콘텐츠 팩을 만든 경우 AppSource에서 그것을 삭제할 수 있습니다. 작업 영역에 조직 콘텐츠 팩을 만든 다음, 작업 영역을 삭제하기로 결정하는 경우 콘텐츠 팩을 먼저 삭제해야 합니다. 콘텐츠 팩을 먼저 삭제하지 않고 작업 영역을 삭제하면 해당 콘텐츠 팩에 대한 모든 액세스 권한을 손실합니다. 도움말은 Microsoft 지원에 문의해야 합니다. 
 
 > [!TIP]
 > 다른 사람이 만든 [콘텐츠 팩에 대한 연결을 삭제](service-organizational-content-pack-disconnect.md)할 수 있습니다. AppSource에서 콘텐츠 팩을 삭제하지 않습니다.
 > 
 > 
 
-1. AppSource에서 콘텐츠 팩을 삭제하려면 콘텐츠 팩을 만든 앱 작업 영역으로 이동하여 톱니바퀴 아이콘 ![](media/service-organizational-content-pack-manage-update-delete/cog.png)을 선택하고 **콘텐츠 팩 보기**를 합니다.
+1. AppSource에서 콘텐츠 팩을 삭제하려면 콘텐츠 팩을 만든 작업 영역으로 이동하여 톱니바퀴 아이콘 ![](media/service-organizational-content-pack-manage-update-delete/cog.png)을 선택한 다음, **콘텐츠 팩 보기**를 선택합니다.
 2. **삭제 \> 삭제**를 선택합니다. 
    
    * 콘텐츠 팩을 사용자 지정하지 않은 그룹 구성원의 경우 해당 콘텐츠 팩과 연결된 대시보드 및 보고서가 자동으로 제거됩니다. 이러한 대시보드 및 보고서는 더 이상 사용할 수 없으며 콘텐츠 팩이 탐색 창에 표시되지 않습니다.
@@ -87,5 +86,5 @@ ms.locfileid: "72020598"
 ## <a name="next-steps"></a>다음 단계
 * [조직 콘텐츠 팩 소개](service-organizational-content-pack-introduction.md)
 * [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md) 
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

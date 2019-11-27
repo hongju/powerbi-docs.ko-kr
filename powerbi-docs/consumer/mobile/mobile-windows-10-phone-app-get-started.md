@@ -2,19 +2,18 @@
 title: Windows 10용 Power BI 모바일 앱 시작
 description: Windows 10용 Power BI 모바일 앱은 태블릿이나 휴대폰에서 비즈니스 정보에 대한 터치 기반의 최신 모바일 액세스를 제공합니다.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 3aff2b6a939a53a6246ed69ac5bd76dfe4f0dfe4
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059716"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879063"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
 Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를 가져옵니다. 터치 사용이 가능한 최신 모바일 방식으로 비즈니스 정보에 액세스할 수 있습니다. 어디서든 [Windows 시작 화면](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)에서 회사 대시보드를 보고 조작할 수 있습니다.
@@ -26,16 +25,16 @@ Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를
 그런 다음 대시보드 및 보고서를 조작하고, 데이터를 탐색하고, Windows 10용 Power BI 모바일 앱과 모든 것을 공유합니다.
 
 ## <a name="first-things-first"></a>먼저 수행할 중요한 작업
-* Windows 스토어에서 [**Windows 10용 Power BI 모바일 앱을 다운로드**](http://go.microsoft.com/fwlink/?LinkID=526478)합니다.
+* Windows 스토어에서 [**Windows 10용 Power BI 모바일 앱을 다운로드**](https://go.microsoft.com/fwlink/?LinkID=526478)합니다.
   
   디바이스에서 Windows 10을 실행해야 합니다. RAM 3GB, 내부 스토리지 8GB 이상인 디바이스에서 앱을 실행할 수 있습니다.
    
 * [Power BI Mobile 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)을 알아보세요.
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>웹에서 Power BI 서비스에 등록합니다.
-아직 등록하지 않은 경우 [Power BI 서비스](http://powerbi.com/)로 이동합니다. 고유한 계정을 등록하여 대시보드 및 보고서를 만들고 저장한 다음, 데이터를 모읍니다. Windows 10 디바이스에서 Power BI에 로그인하여 어디서나 자신의 대시보드를 볼 수 있습니다.
+아직 등록하지 않은 경우 [Power BI 서비스](https://powerbi.com/)로 이동합니다. 고유한 계정을 등록하여 대시보드 및 보고서를 만들고 저장한 다음, 데이터를 모읍니다. Windows 10 디바이스에서 Power BI에 로그인하여 어디서나 자신의 대시보드를 볼 수 있습니다.
 
-1. Power BI 서비스에서 [등록](http://go.microsoft.com/fwlink/?LinkID=513879)을 눌러 Power BI 계정을 만듭니다.
+1. Power BI 서비스에서 [등록](https://go.microsoft.com/fwlink/?LinkID=513879)을 눌러 Power BI 계정을 만듭니다.
 2. [사용자 고유의 대시보드 및 보고서 만들기](../../service-get-started.md)를 시작합니다.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 앱 시작
@@ -89,7 +88,7 @@ Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 콘텐츠 찾기
 대시보드 및 보고서는 Power BI 모바일 앱에서 출처에 따라 다른 위치에 저장됩니다. [모바일 앱에서 콘텐츠 찾기](mobile-apps-quickstart-view-dashboard-report.md)에 대해 읽습니다. 또한 Power BI 모바일 앱에 있는 항목에 대해 항상 검색할 수 있습니다. 
 
-![Power BI 왼쪽 탐색](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
+![Power BI 탐색 창](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>즐겨찾는 대시보드, KPI 및 보고서 보기
 모바일 앱의 즐겨찾기 페이지에서 Reporting Services KPI 및 모바일 보고서와 함께 즐겨 찾는 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 디바이스에서 액세스할 수 있습니다.  
@@ -120,7 +119,7 @@ Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 
 * [SQL Server 모바일 보고서 게시자를 사용하여 고유한 모바일 보고서 만들기](https://msdn.microsoft.com/library/mt652547.aspx) 및 Reporting Services 웹 포털에 게시.
 
 ## <a name="next-steps"></a>다음 단계
-* Windows Store에서 [Power BI 앱 다운로드](http://go.microsoft.com/fwlink/?LinkID=526478)  
+* Windows Store에서 [Power BI 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=526478)  
 * [Power BI란?](../../fundamentals/power-bi-overview.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

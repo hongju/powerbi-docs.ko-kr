@@ -1,8 +1,7 @@
 ---
-title: '자습서: Power BI에서 Machine Learning Studio 모델 호출(미리 보기)'
+title: '자습서:  Power BI에서 Machine Learning Studio 모델 호출(미리 보기)'
 description: 이 자습서에서는 Power BI에서 Machine Learning Studio 모델을 호출합니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,14 +10,14 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e0b2036192ace4404816f5ba64ad07569949452e
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596579"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876959"
 ---
-# <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>자습서: Power BI에서 Machine Learning Studio 모델 호출(미리 보기)
+# <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>자습서:  Power BI에서 Machine Learning Studio 모델 호출(미리 보기)
 
 이 자습서에서는 **Azure Machine Learning Studio** 모델의 인사이트를 Power BI에 통합하는 연습을 합니다. 이 자습서는 Power BI 사용자에게 Azure ML 모델에 액세스 권한을 부여하고, 데이터 흐름을 만들고, Azure ML 모델의 인사이트를 데이터 흐름에 적용하는 데 도움이 되는 지침을 포함하고 있습니다. Azure ML 모델을 처음 만드는 데 도움이 되는 빠른 시작 가이드도 참조합니다.
 
@@ -44,7 +43,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 다음 단계에서는 모델이 게시된 Azure 구독 및 리소스 그룹에 대한 공동 관리자라고 가정하겠습니다.
 
-[Azure Portal](https://portal.azure.com)에 로그인하여 **구독** 페이지로 이동합니다. 이 페이지는 왼쪽 탐색 메뉴에 있는 **모든 서비스** 목록을 사용하여 찾을 수 있습니다.
+[Azure Portal](https://portal.azure.com)에 로그인하여 **구독** 페이지로 이동합니다. 이 페이지는 탐색 창 메뉴에 있는 **모든 서비스** 목록을 사용하여 찾을 수 있습니다.
 
 ![Azure Portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
@@ -68,7 +67,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 데이터 흐름에 엔터티를 만들려면 Power BI 서비스에 로그인하고, 사용하도록 설정된 AI 미리 보기가 있는 전용 용량의 작업 영역으로 이동합니다.
 
-작업 영역이 아직 없는 경우 만들 수 있습니다. 왼쪽 메뉴에서 **작업 영역**을 선택하고 하단 패널에서 **앱 작업 영역 만들기**를 선택합니다.  작업 영역 세부 정보를 입력하는 패널이 열립니다. 작업 영역 이름을 입력하고 **저장**을 선택합니다.
+작업 영역이 아직 없는 경우 왼쪽 메뉴에서 **작업 영역**을 선택한 다음, 맨 아래 패널에서 **작업 영역 만들기**를 선택하여 새로 만들 수 있습니다.  작업 영역 세부 정보를 입력하는 패널이 열립니다. 작업 영역 이름을 입력하고 **저장**을 선택합니다.
 
 ![작업 영역 만들기](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_03.png)
 
@@ -135,7 +134,7 @@ _자동차 가격 예측_ 에 대한 Azure ML 모델에 액세스하려면 예�
 
 ![편집](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_16.png)
 
-리본에서 **AI 인사이트** 단추를 선택하고 왼쪽 탐색 메뉴의 _Azure Machine Learning 모델_ 폴더를 선택합니다.
+리본에서 **AI 인사이트** 단추를 선택하고 탐색 창 메뉴의 _Azure Machine Learning 모델_ 폴더를 선택합니다.
 
 액세스 권한이 부여된 Azure ML 모델이 *AzureML* 접두사가 포함된 파워 쿼리 함수로 나열됩니다.  _AutomobilePricePrediction_ 모델에 해당하는 함수를 클릭하면 이 모델의 웹 서비스용 매개 변수가 함수 매개 변수로 나열됩니다.
 
