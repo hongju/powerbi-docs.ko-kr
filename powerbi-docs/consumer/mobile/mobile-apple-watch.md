@@ -43,7 +43,7 @@ Watch에서 직접 동기화된 대시보드를 새로 고칠 수 있습니다.
 이제 Watch 앱은 Power BI 서비스의 데이터와 대시보드를 동기화합니다.
 
 > [!NOTE]
-> Watch 앱은 iPhone의 Power BI 모바일 앱을 통해 Power BI와 통신합니다. 따라서 Power BI 앱을 iPhone에서(최소한 새로 고칠 Watch 앱의 대시보드에 대한 백그라운드에서에서) 실행해야 합니다.
+> Watch 앱은 iPhone의 Power BI 모바일 앱을 통해 Power BI와 통신합니다. 따라서 Power BI 앱을 iPhone에서(최소한 새로 고칠 Watch 앱의 대시보드에 대한 백그라운드에서) 실행해야 합니다.
 > 
 > 
 
