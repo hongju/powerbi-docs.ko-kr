@@ -2,7 +2,6 @@
 title: 'Power BI의 소매점 분석 샘플: 둘러보기'
 description: 'Power BI의 소매점 분석 샘플: 둘러보기'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962229"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858563"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 소매점 분석 샘플: 둘러보기
 
@@ -54,11 +53,11 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>이 샘플의 .pbix 파일 가져오기
 
-또는 소매점 분석 샘플을 Power BI Desktop에서 사용하도록 구성된 [.pbix 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)로서 다운로드할 수도 있습니다. 
+또는 소매점 분석 샘플을 Power BI Desktop에서 사용하도록 구성된 [.pbix 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)로서 다운로드할 수도 있습니다. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
-이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](http://go.microsoft.com/fwlink/?LinkId=529778)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰와 파워 피벗 추가 기능을 사용하도록 설정하려면 [내부 Excel 자체에서 Excel 샘플 살펴보기](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)에서 자세한 내용을 참조하세요.
+이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529778)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰와 파워 피벗 추가 기능을 사용하도록 설정하려면 [내부 Excel 자체에서 Excel 샘플 살펴보기](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)에서 자세한 내용을 참조하세요.
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>대시보드 시작 및 보고서 열기
 
@@ -72,13 +71,13 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
    ![체인별 올해 판매액 차트](media/sample-retail-analysis/retail3.png)  
 
-   **Total Sales Variance %**(총 판매액 차이 %) 거품형 차트의 결과를 확인합니다.
+   **Total Sales Variance %** (총 판매액 차이 %) 거품형 차트의 결과를 확인합니다.
 
    ![총 판매액 차이 % 차트](media/sample-retail-analysis/pbi_sample_retanlbubbles.png)  
 
    **FD-01** 구역은 평균 **제곱 피트당 판매량**이 가장 높고, FD-02는 작년 대비 **총 판매액 차이**가 가장 낮고, FD-03과 FD-04는 전반적으로 실적이 가장 부진합니다.
 4. 개별 거품형 차트 또는 다른 차트를 선택하여 선택 항목의 영향을 보여 주는 교차 강조 표시를 확인합니다.
-5. 대시보드로 돌아가려면 맨 위 탐색 모음에서 **소매점 분석 샘플**을 선택합니다.
+5. 대시보드로 돌아가려면 맨 위 탐색 창에서 **소매점 분석 샘플**을 선택합니다.
 
    ![탐색 모음](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 6. 대시보드에서 **This Year's Sales New & Existing Stores**(총 신규 매장 및 기존 매장) 타일을 선택합니다. 이 동작은 질문 및 답변 상자에 *This year sales*를 입력하는 것과 같습니다.
@@ -92,10 +91,10 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Power BI 질문 및 답변을 사용하여 만든 타일 검토
 보다 자세히 살펴보겠습니다.
 
-1. 질문을 ‘**구역별** 올해 판매액’으로 변경합니다. 결과를 확인합니다. 질문 및 답변이 답변을 가로 막대형 차트에 자동으로 배치하며 다른 구를 제안합니다.
+1. 질문을 ‘**구역별** 올해 판매액’으로 변경합니다.  결과를 확인합니다. 질문 및 답변이 답변을 가로 막대형 차트에 자동으로 배치하며 다른 구를 제안합니다.
 
    ![질문 및 답변의 구역별 올해 판매액](media/sample-retail-analysis/retail8.png)
-2. 이번에는 질문을 ‘**우편 번호 및 체인별** 올해 판매액’으로 변경합니다.
+2. 이번에는 질문을 ‘**우편 번호 및 체인별** 올해 판매액’으로 변경합니다. 
 
    질문을 입력함에 따라 Power BI가 질문에 답변하고 적절한 차트를 표시하는 것을 볼 수 있습니다.
 3. 더 많은 질문을 입력하여 어떤 결과를 얻을 수 있는지 살펴봅니다.

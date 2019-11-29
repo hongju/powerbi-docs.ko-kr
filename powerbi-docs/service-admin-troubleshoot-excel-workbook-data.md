@@ -2,7 +2,6 @@
 title: '오류: Excel 통합 문서에서 데이터를 찾을 수 없음'
 description: '오류: Excel 통합 문서에서 데이터를 찾을 수 없음'
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c32133a7958c1239337a5f77a92dde098652514e
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 08de5051adb420bc2a3b257fcc231730aa505b23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542863"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873399"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>오류: Excel 통합 문서에서 데이터를 찾을 수 없음
 
@@ -61,7 +60,7 @@ Excel 통합 문서를 가져오면 Power BI에서 이러한 표를 찾아 데�
    
     ![표로 서식이 지정된 데이터](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. 통합 문서를 저장합니다.
-7. Power BI로 돌아갑니다. 왼쪽 탐색 창의 맨 아래에 있는 데이터 가져오기를 선택합니다.
+7. Power BI로 돌아갑니다. 탐색 창의 맨 아래에서 데이터 가져오기를 선택합니다.
    
     ![데이터 가져오기](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. **파일** 상자에서 **가져오기**를 선택합니다.

@@ -3,24 +3,24 @@ title: Power BI 시각화에서 데이터 내보내기
 description: 보고서 시각화 및 대시보드 시각화에서 데이터를 내보내고 Excel에서 봅니다.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 11/13/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b2474cd5cc82e1736790f4a352b216dcc8013a6f
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431099"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060476"
 ---
 # <a name="export-data-from-visualizations"></a>시각화에서 데이터 내보내기
 
-Power BI가 시각화를 만드는 데 사용하는 데이터를 보려는 경우 [Power BI에서 해당 데이터를 표시할 수 있습니다](service-reports-show-data.md). 해당 데이터를 Excel *.xlsx* 또는 *.csv* 파일로 내보낼 수도 있습니다. 데이터를 내보내는 옵션에는 Pro 또는 Premium 라이선스가 필요하며 데이터 세트 및 보고서에 대한 편집 권한이 필요합니다.
+Power BI가 시각화를 만드는 데 사용하는 데이터를 보려는 경우 [Power BI에서 해당 데이터를 표시할 수 있습니다](service-reports-show-data.md). 해당 데이터를 Excel *.xlsx* 또는 *.csv* 파일로 내보낼 수도 있습니다. 데이터를 내보내는 옵션에는 Pro 또는 Premium 라이선스가 필요하며 데이터 세트 및 보고서에 대한 편집 권한이 필요합니다. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
 Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx* 파일로 저장하고 Excel에서 여는 것을 시청합니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
 
@@ -152,7 +152,7 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 이 제한 사항과 고려 사항은 Power BI Pro 및 프리미엄을 포함한 Power BI 서비스 및 Power BI Desktop에 적용됩니다.
 
-- 시각적 개체에서 데이터를 내보내려면 [기본 데이터 세트에 대한 빌드 권한](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets)이 있어야 합니다.
+- 시각적 개체에서 데이터를 내보내려면 [기본 데이터 세트에 대한 빌드 권한](https://docs.microsoft.com/power-bi/service-datasets-build-permissions)이 있어야 합니다.
 
 -  **Power BI Desktop** 및 **Power BI 서비스**가 **가져오기 모드 보고서**에서 *.csv* 파일로 내보낼 수 있는 최대 행 수는 30,000개입니다.
 
@@ -160,13 +160,11 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
 
 - 다음과 같은 경우 ‘기본 데이터’를 사용한 내보내기가 작동하지 않습니다. 
 
-  - 데이터 원본이 Analysis Services 라이브 연결입니다.
-
-  - 버전이 2016 이전 버전입니다.
+  - 버전이 2016 이전입니다.
 
   - 모델의 테이블에 고유 키가 없습니다.
     
-  -  관리자 또는 보고서 디자이너가 이 기능을 사용하지 않도록 설정한 경우입니다.
+  -  관리자 또는 보고서 디자이너가 이 기능을 사용하지 않도록 설정했습니다.
 
 - 시각화 Power BI에 대한 ‘데이터가 없는 항목 표시’ 옵션을 사용하도록 설정한 경우 ‘기본 데이터’를 사용한 내보내기가 작동하지 않습니다.  
 
@@ -196,4 +194,4 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
 
 - Power BI 관리자는 데이터 내보내기를 사용하지 않도록 설정할 수 있습니다.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

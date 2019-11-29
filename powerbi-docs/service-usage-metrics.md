@@ -3,20 +3,19 @@ title: 대시보드 및 보고서의 사용 메트릭 모니터링
 description: Power BI 대시보드 및 보고서의 사용 메트릭을 보고, 저장하고, 사용하는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530533"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871220"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서의 사용 메트릭 모니터링
 
@@ -86,7 +85,7 @@ Power BI 서비스에서는 사용 메트릭 보고서를 실행할 수만 있�
 
 | 메트릭 | 대시보드 | 보고서 | 설명 |
 | --- | --- | --- | --- |
-| 배포 방법 슬라이서 |예 |예 |사용자가 콘텐츠에 액세스하는 방법입니다. 다음과 같이 3가지 방법이 있습니다. 사용자는 [앱 작업 영역](consumer/end-user-experience.md)의 구성원이 되거나, [콘텐츠를 공유](service-share-dashboards.md)하거나, 콘텐츠 팩/앱을 설치하여 대시보드 또는 보고서를 액세스할 수 있습니다.  앱을 통한 보기는 “콘텐츠 팩”으로 개수됩니다. |
+| 배포 방법 슬라이서 |예 |예 |사용자가 콘텐츠에 액세스하는 방법입니다. 세 가지 가능한 방법이 있습니다. 사용자는 [작업 영역](consumer/end-user-experience.md)의 구성원이 되거나, [콘텐츠를 공유](service-share-dashboards.md)하거나, 콘텐츠 팩/앱을 설치하여 대시보드 또는 보고서에 액세스할 수 있습니다.  앱을 통한 보기는 “콘텐츠 팩”으로 개수됩니다. |
 | 플랫폼 슬라이서 |예 |예 |대시보드 또는 보고서가 Power BI 서비스(powerbi.com) 또는 모바일 디바이스를 통해 액세스되었나요? 모바일은 iOS, Android 및 Windows 앱을 모두 포함합니다. |
 | 보고서 페이지 슬라이서 |아니요 |예 |보고서에 두 개 이상의 페이지가 있는 경우 표시된 페이지에서 보고서를 분할합니다. “비어 있음” 목록 옵션이 표시되면 보고서 페이지가 최근에 추가 및/또는(24시간 이내에 새 페이지의 실제 이름이 슬라이서 목록에 표시됨) 보고서 페이지가 삭제되었음을 의미합니다. “비어 있음”은 이러한 상황을 캡처합니다. |
 | 일별 보기 |예 |예 |일별 보기의 총 수 - 보기는 보고서 페이지 또는 대시보드를 로드하는 사용자로 정의됩니다. |
@@ -120,7 +119,7 @@ Power BI 서비스에서는 사용 메트릭 보고서를 실행할 수만 있�
 
     ![보고서 탭](media/service-usage-metrics/power-bi-new-report.png)
 
-## <a name="see-all-workspace-usage-metrics"></a>작업 영역 사용 메트릭 ‘모두’ 보기 
+## <a name="see-all-workspace-usage-metrics"></a>‘모든’ 작업 영역 사용 메트릭 보기 
 
 작업 영역의 모든 대시보드 또는 모든 보고서에 대한 메트릭을 보려면 필터를 제거해야 합니다. 보고서는 기본적으로 해당 보고서를 만드는 데 사용한 대시보드 또는 보고서의 메트릭만 표시하도록 필터링되어 있습니다.
 
@@ -152,11 +151,18 @@ Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. �
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-사용 메트릭과 감사 로그를 비교할 때 발생할 수 있는 차이점과 이유를 이해하는 것이 중요합니다. *감사 로그*는 Power BI 서비스의 데이터를 사용하여 수집되며, *사용 메트릭*은 클라이언트에서 수집됩니다. 감사 로그의 활동 집계 개수가 항상 사용 메트릭과 일치하지 않을 수 있으며, 그 이유는 다음과 같습니다.
+### <a name="discrepancies-between-audit-logs-and-usage-metrics"></a>감사 로그와 사용 메트릭 간의 불일치
+
+사용 메트릭과 감사 로그를 비교할 때 발생할 수 있는 차이점과 이유를 이해하는 것이 중요합니다. ‘감사 로그’는 Power BI 서비스의 데이터를 사용하여 수집되고, ‘사용 메트릭’은 클라이언트에서 수집됩니다.   감사 로그의 활동 집계 개수가 항상 사용 메트릭과 일치하지 않을 수 있으며, 그 이유는 다음과 같습니다.
 
 * 사용 메트릭은 일관되지 않는 네트워크 연결, 광고 차단 또는 클라이언트에서 이벤트 전송을 방해할 수 있는 기타 문제로 인해 실제보다 활동 수가 적게 집계될 수 있습니다.
 * 이 문서의 앞부분에서 설명한 대로 특정 유형의 보기는 사용 메트릭에 포함되지 않습니다.
 * Power BI 서비스로 요청을 다시 전송할 필요 없이 클라이언트가 새로 고쳐지는 경우 사용 메트릭은 실제보다 활동 수가 많이 집계될 수 있습니다.
+
+### <a name="other-considerations"></a>기타 고려 사항
+
+작업 영역의 콘텐츠 보기를 해당 작업 영역 내에서 한 번 이상 수행해야 합니다. 작업 영역 자체에서 콘텐츠 보기를 한 번 이상 수행하지 않으면 사용 메트릭 보고서의 애플리케이션 보기와 데이터가 상호 연결되지 않습니다. 이 보고서의 데이터 처리 차단을 해제하려면 작업 영역의 콘텐츠를 한 번 이상 보기만 하면 됩니다.
+
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 
@@ -188,4 +194,4 @@ Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. �
 
 [관리 포털에서 Power BI 관리](service-admin-portal.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

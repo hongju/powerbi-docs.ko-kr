@@ -1,8 +1,7 @@
 ---
 title: CDM 폴더를 Power BI에 데이터 흐름으로 추가
-description: 앱 작업 영역을 구성하여 Azure Data Lake Storage Gen2에 데이터 흐름 정의 및 데이터 파일 저장
+description: 작업 영역을 구성하여 Azure Data Lake Storage Gen2에 데이터 흐름 정의 및 데이터 파일 저장
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522761"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872706"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)
 
@@ -33,7 +32,7 @@ Power BI에서 조직의 Azure Data Lake Store Gen2에 저장된 CDM(공통 데�
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>CDM 폴더에서 데이터 흐름 만들기
 
-CDM 폴더에서 데이터 흐름을 만들기 시작하려면 **Power BI 서비스**를 시작하고 왼쪽 탐색 창에서 **앱 작업 영역**을 선택합니다. 새 작업 영역을 만들어 여기에서 새 데이터 흐름을 만들 수도 있습니다.
+CDM 폴더에서 데이터 흐름을 만들기 시작하려면 **Power BI 서비스**를 시작하고 탐색 창에서 **작업 영역**을 선택합니다. 새 작업 영역을 만들어 여기에서 새 데이터 흐름을 만들 수도 있습니다.
 
 ![Power BI 서비스에서 데이터 흐름 만들기](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -74,7 +73,7 @@ Power BI Desktop:
 
 데이터 흐름의 소유자가 아니거나 데이터 흐름의 CDM 폴더 권한이 명시적으로 부여되지 않은 경우 **Power BI Desktop** 고객은 Azure Data Lake Storage Gen2 계정에 저장된 데이터 흐름에 액세스할 수 없습니다. 다음 상황을 고려하세요.
 
-1.  Anna는 새 앱 작업 영역을 만들고 CDM 폴더의 데이터 흐름을 저장하도록 구성합니다.
+1.  Anna는 새 작업 영역을 만들고 CDM 폴더의 데이터 흐름을 저장하도록 구성합니다.
 2.  Anna가 만든 작업 영역의 구성원인 Ben은 Power BI Desktop 및 데이터 흐름 커넥터를 사용하여 Anna가 만든 데이터 흐름에서 데이터를 가져오려고 합니다.
 3.  Ben은 Data Lake의 데이터 흐름 CDM 폴더에 대한 권한 있는 사용자로 추가되지 않았으므로 오류가 발생합니다.
 
@@ -110,5 +109,5 @@ Azure Storage에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [CDM 폴더](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM 모델 파일 정의](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-또한 언제든지 [Power BI 커뮤니티에 질문](http://community.powerbi.com/)할 수 있습니다.
+또한 언제든지 [Power BI 커뮤니티에 질문](https://community.powerbi.com/)할 수 있습니다.
 

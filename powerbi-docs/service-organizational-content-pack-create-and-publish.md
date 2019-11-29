@@ -2,7 +2,6 @@
 title: 조직 콘텐츠 팩 만들기 및 게시 - Power BI
 description: 이 자습서에서는 조직 콘텐츠 팩을 만들고, 특정 그룹으로 액세스를 제한하며, Power BI에서 조직의 콘텐츠 팩 라이브러리에 게시합니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020658"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872002"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>자습서:  Power BI 조직 콘텐츠 팩 만들기 및 게시
 
@@ -34,9 +33,9 @@ Contoso의 릴리스 관리자이고 신제품 출시를 준비하는 중이라�
 
 함께 진행해볼까요? [Power BI 서비스](https://powerbi.com)에서 **내 작업 영역**으로 이동합니다. 그런 다음, **데이터 가져오기** > **샘플** > **기회 분석 샘플** > **연결**로 이동하여 고유한 복사본을 가져옵니다.
 
-1. 왼쪽 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
+1. 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
 
-1. 위쪽 탐색 모음에서 코그 아이콘 ![코그 아이콘 스크린샷](media/service-organizational-content-pack-create-and-publish/cog.png) > **콘텐츠 팩 만들기**를 선택합니다.
+1. 위쪽 탐색 창에서 코그 아이콘 ![코그 아이콘의 스크린샷](media/service-organizational-content-pack-create-and-publish/cog.png)을 선택합니다. > **콘텐츠 팩 만들기**를 선택합니다.
 
    ![코그 아이콘 및 콘텐츠 팩 만들기 옵션에 포커스가 있는 UI 스크린샷](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
@@ -100,4 +99,4 @@ Contoso의 릴리스 관리자이고 신제품 출시를 준비하는 중이라�
 
 * [비즈니스용 OneDrive란?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

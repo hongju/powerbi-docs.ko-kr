@@ -1,21 +1,20 @@
 ---
 title: Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
-description: Power BI에서 앱을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다.
+description: Power BI 서비스에서 앱을 찾아 설치하고 사용합니다.
 author: mihart
-manager: kvivek
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5b73a5a2d0a4381981cd5c98accc48df662bd24
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 0b581b9c45cb75d12eea974c0895474015634eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716461"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851303"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 
@@ -62,7 +61,9 @@ Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스
     ![Power BI 앱이 선택된 AppSource 웹 사이트  ](./media/end-user-apps/power-bi-appsource.png)
 
 
+
 2. **모두 보기**를 선택하여 현재 AppSource에서 사용할 수 있는 모든 Power BI 앱 목록을 표시합니다. **Microsoft Sample - Sales & Marketing**이라는 앱을 스크롤하거나 검색합니다.
+
 
     ![Power BI 영업 및 마케팅 앱이 강조 표시된 AppSource 웹 사이트  ](./media/end-user-apps/power-bi-appsource-samples.png)
 

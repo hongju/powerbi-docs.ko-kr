@@ -2,7 +2,6 @@
 title: Power BI의 폭포 차트
 description: Power BI의 폭포 차트
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3ab200194d89eb15892dc4f452079eb56df8a608
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71191407"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881960"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI의 폭포 차트
 
@@ -24,7 +23,7 @@ ms.locfileid: "71191407"
 
 폭포 차트는 Power BI가 값을 더하거나 뺄 때의 누계를 보여 줍니다. 초기 값(예: 순수입)이 일련의 양수 및 음수 변경에 어떻게 영향을 받는지 이해하는 데 유용합니다.
 
-세로형 막대는 색으로 구분되어 증가 및 감소를 빠르게 구분할 수 있습니다. 중간 값 열이 부동 세로형 막대인 반면, 초기 및 최종 값 세로형 막대는 종종 [가로축에서 시작합니다](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "가로축에서 시작합니다"). 이러한 스타일로 인해, 폭포 차트는 교량 차트라고도 합니다.
+세로형 막대는 색으로 구분되어 증가 및 감소를 빠르게 구분할 수 있습니다. 중간 값은 부동 세로 막대인 반면, 초기 및 최종 값 세로 막대는 [가로 축에서 시작](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "가로 축에서 시작")하는 경우가 많습니다. 이러한 스타일로 인해, 폭포 차트는 교량 차트라고도 합니다.
 
    > [!NOTE]
    > 이 비디오에서는 이전 버전의 Power BI Desktop을 사용합니다.
@@ -49,7 +48,7 @@ ms.locfileid: "71191407"
 
 ## <a name="prerequisite"></a>필수 조건
 
-이 자습서는 [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
+이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
 1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
    
@@ -76,7 +75,7 @@ ms.locfileid: "71191407"
 
     ![폭포](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 
-1. Power BI에서 폭포 차트가 시간순으로 정렬되도록 합니다. 차트의 오른쪽 위 모서리에서 줄임표(...)를 선택합니다.
+1. Power BI에서 폭포 차트가 시간순으로 정렬되도록 합니다. 차트의 오른쪽 위에서 **추가 옵션**(...)을 선택합니다.
 
     이 예제에서는 **오름차순 정렬**을 선택합니다.
 

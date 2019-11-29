@@ -2,7 +2,6 @@
 title: Power BI에서 Azure Machine Learning 통합
 description: Power BI와 함께 Machine Learning을 사용하는 방법 알아보기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 9593296b0e09340fe4f62fff7a2e7722912a4216
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.openlocfilehash: 2f872825c327b8195e7a6e5516e0b533235ddc27
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259947"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872099"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI에서 Azure Machine Learning 통합
 
@@ -43,7 +42,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구�
 
 1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
-2. **구독** 페이지로 이동합니다. **구독** 페이지는 Azure Portal의 왼쪽 탐색 메뉴에 있는 **모든 서비스** 목록에서 찾을 수 있습니다.
+2. **구독** 페이지로 이동합니다. **구독** 페이지는 Microsoft Azure Portal의 탐색 창 메뉴에 있는 **모든 서비스** 목록에서 찾을 수 있습니다.
 
     ![Azure 구독 페이지](media/service-machine-learning-integration/machine-learning-integration_01.png)
 
@@ -68,7 +67,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구�
 
 데이터 과학자는 주로 Python을 사용하여 Machine Learning Service에 대한 기계 학습 모델을 개발하고 배포합니다.  모델에 대한 스키마 파일 만들기 작업을 자동화하도록 도와주는 Machine Learning Studio와 달리, Machine Learning Service의 경우에는 데이터 과학자가 Python을 사용하여 스키마 파일을 명시적으로 생성해야 합니다.
 
-이 스키마 파일은 Machine Learning Service 모델용으로 배포된 웹 서비스에 포함되어야 합니다. 웹 서비스용 스키마를 자동으로 생성하려면 배포된 모델의 항목 스크립트에 입/출력 샘플을 제공해야 합니다. Azure Machine Learning Service 설명서를 사용하여 배포 모델의 (선택 사항) 자동 Swagger 스키마 생성 하위 섹션을 참조하세요. 이 링크에는 스키마 생성을 위한 명령문이 있는 예제 항목 스크립트가 포함됩니다. 
+이 스키마 파일은 Machine Learning Service 모델용으로 배포된 웹 서비스에 포함되어야 합니다. 웹 서비스용 스키마를 자동으로 생성하려면 배포된 모델의 항목 스크립트에 입/출력 샘플을 제공해야 합니다. [Azure Machine Learning Service 설명서를 사용하여 배포 모델의 (선택 사항) 자동 Swagger 스키마 생성](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation) 하위 섹션을 참조하세요. 이 링크에는 스키마 생성을 위한 명령문이 있는 예제 항목 스크립트가 포함됩니다. 
 
 특히 항목 스크립트의 *\@input_schema* 및 *\@output_schema* 함수는 *input_sample* 및 *output_sample* 변수에서 입력 및 출력 샘플 형식을 참조하고, 이러한 샘플을 사용하여 배포 중에 웹 서비스에 대한 OpenAPI(Swagger) 사양을 생성합니다.
 
@@ -87,7 +86,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구�
 
 ![파워 쿼리 편집기](media/service-machine-learning-integration/machine-learning-integration_06.png)
 
-리본에서 **AI 인사이트** 단추를 선택하고 왼쪽 탐색 메뉴의 _Azure Machine Learning 모델_ 폴더를 선택합니다. 액세스 권한이 있는 모든 Azure ML 모델이 여기에 파워 쿼리 함수로 나열됩니다. Azure ML 모델에 대한 입력 매개 변수도 자동으로 해당 파워 쿼리 함수의 매개 변수로 매핑됩니다.
+리본에서 **AI 인사이트** 단추를 선택하고 탐색 창 메뉴의 _Azure Machine Learning 모델_ 폴더를 선택합니다. 액세스 권한이 있는 모든 Azure ML 모델이 여기에 파워 쿼리 함수로 나열됩니다. Azure ML 모델에 대한 입력 매개 변수도 자동으로 해당 파워 쿼리 함수의 매개 변수로 매핑됩니다.
 
 Azure ML 모델을 호출하려면 선택한 엔터티의 열을 드롭다운에서 입력으로 지정합니다. 입력 대화 상자 왼쪽으로 열 아이콘을 전환하여 입력으로 사용할 상수 값을 지정할 수도 있습니다.
 

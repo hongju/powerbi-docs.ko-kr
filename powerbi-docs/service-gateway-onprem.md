@@ -3,19 +3,18 @@ title: 온-프레미스 데이터 게이트웨이
 description: 이 문서는 Power BI의 온-프레미스 데이터 게이트웨이에 대한 개요입니다. DirectQuery 데이터 원본으로 작업하는 데 이 게이트웨이를 사용할 수 있습니다. 또한 이 게이트웨이를 사용하여 온-프레미스 데이터로 클라우드 데이터 세트를 새로 고칠 수도 있습니다.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730288"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872453"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이란?
 
@@ -42,13 +41,13 @@ ms.locfileid: "68730288"
 게이트웨이 사용에는 4개의 기본 단계가 있습니다.
 
 1. 로컬 컴퓨터에 [게이트웨이를 다운로드하여 설치](/data-integration/gateway/service-gateway-install)합니다.
-2. 방화벽 및 기타 네트워크 요구 사항에 따라 게이트웨이를 [구성](/data-integration/gateway/service-gateway-app)합니다.
-3. 다른 네트워크 요구 사항을 관리할 수도 있는 [게이트웨이 관리자를 추가](/data-integration/gateway/service-gateway-manage)합니다.
-4. 오류가 발생한 경우 게이트웨이 [문제를 해결](service-gateway-onprem-tshoot.md)합니다.
+1. 방화벽 및 기타 네트워크 요구 사항에 따라 게이트웨이를 [구성](/data-integration/gateway/service-gateway-app)합니다.
+1. 다른 네트워크 요구 사항을 관리할 수도 있는 [게이트웨이 관리자를 추가](/data-integration/gateway/service-gateway-manage)합니다.
+1. [게이트웨이를 사용](service-gateway-sql-tutorial.md)하여 온-프레미스 데이터 원본을 새로 고칩니다.
+1. 오류가 발생한 경우 게이트웨이 [문제를 해결](service-gateway-onprem-tshoot.md)합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 * [온-프레미스 데이터 게이트웨이 설치](/data-integration/gateway/service-gateway-install)
 
-
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

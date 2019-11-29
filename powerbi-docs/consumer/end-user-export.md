@@ -2,21 +2,20 @@
 title: Power BI 시각적 개체에서 데이터 내보내기
 description: 보고서 시각적 개체 및 대시보드 시각적 개체에서 데이터를 내보내고 Excel에서 봅니다.
 author: mihart
-manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 80033cafbe66303a1d6f55bba61f7d19449dc45b
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 0e8a3ce01356804aa5dcca21895fa01b5908ebd0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589519"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851329"
 ---
 # <a name="export-data-from-a-visual"></a>시각적 개체에서 데이터 내보내기
 
@@ -26,11 +25,11 @@ ms.locfileid: "72589519"
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Power BI 대시보드의 시각화 개체에서
 
-1. Power BI 대시보드에서 시작합니다. 여기서는 ***영업 및 마케팅 샘플*** 앱에서 대시보드를 사용하고 있습니다. [이 앱은 AppSource.com에서 다운로드](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282)할 수 있습니다.
+1. Power BI 대시보드에서 시작합니다. 여기서는 ***영업 및 마케팅 샘플*** 앱에서 대시보드를 사용하고 있습니다. [이 앱은 AppSource.com에서 다운로드](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282)할 수 있습니다.
 
     ![앱 대시보드](media/end-user-export/power-bi-dashboards.png)
 
-2. 시각적 개체를 마우스로 가리켜서 줄임표(...)를 표시한 후 클릭하여 작업 메뉴를 표시합니다.
+2. 시각적 개체를 마우스로 가리켜 **추가 옵션**(...)을 표시하고 작업 메뉴를 클릭하여 표시합니다.
 
     ![줄임표를 선택할 때 나타나는 메뉴](media/end-user-export/power-bi-action-menu.png)
 
@@ -77,7 +76,7 @@ ms.locfileid: "72589519"
     ![Microsoft Edge 브라우저에 표시되는 내보낸 파일](media/end-user-export/power-bi-export-edge-browser.png)
 
 
-6. Excel에서 파일을 엽니다. 내보낸 데이터의 양과 대시보드의 동일한 시각적 개체에서 내보낸 데이터를 비교합니다. 차이점은 이 내보내기에 **기본 데이터**기 포함된다는 것입니다. 
+6. Excel에서 파일을 엽니다. 내보낸 데이터의 양과 대시보드의 동일한 시각적 개체에서 내보낸 데이터를 비교합니다. 차이점은 이 내보내기에 **기본 데이터**가 포함된다는 것입니다. 
 
     ![샘플 Excel](media/end-user-export/power-bi-underlying.png)
 

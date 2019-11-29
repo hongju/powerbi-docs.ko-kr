@@ -3,18 +3,17 @@ title: Power BI Embedded 콘텐츠에서 행 수준 보안 사용
 description: 애플리케이션 내에서 Power BI 콘텐츠를 포함하는 데 필요한 단계에 대해 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 2e7100db05b6ace0e4d530964f645e120387a8b2
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073359"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875813"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded를 사용하는 행 수준 보안
 
@@ -33,7 +32,7 @@ RLS를 활용하려면 세 가지 주요 개념인 사용자, 역할 및 규칙�
 **역할** - 사용자 역할에 속합니다. 역할은 규칙에 대한 컨테이너로써 *판매 관리자* 또는 *영업 담당자*와 같은 이름을 지정할 수 있습니다. Power BI Desktop 내에서 역할을 만듭니다. 자세한 내용은 [Power BI Desktop에서 RLS(행 수준 보안)](../desktop-rls.md)을 참조하세요.
 
 **규칙** – 역할에는 규칙이 있고 이러한 규칙은 데이터에 적용되는 실제 필터입니다. 규칙은 “국가 = 미국”처럼 간단하거나 훨씬 동적일 수 있습니다.
-이 문서의 나머지 부분에는 RLS를 작성하고 포함된 애플리케이션 내에서 사용하는 예제가 있습니다. 예제에서는 [소매점 분석 샘플](http://go.microsoft.com/fwlink/?LinkID=780547) PBIX 파일을 사용합니다.
+이 문서의 나머지 부분에는 RLS를 작성하고 포함된 애플리케이션 내에서 사용하는 예제가 있습니다. 예제에서는 [소매점 분석 샘플](https://go.microsoft.com/fwlink/?LinkID=780547) PBIX 파일을 사용합니다.
 
 ![보고서 예제](media/embedded-row-level-security/powerbi-embedded-report-example.png)
 
@@ -73,7 +72,7 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 
     보고서에 **AndrewMa**로 로그인한 경우처럼 데이터가 표시됩니다.
 
-필터링을 적용하면 여기에서 수행한 방식으로 **District**, **Store** 및 **Sales** 테이블에서 모든 레코드를 필터링합니다. 그러나 **Sales**와 **Time** 간 관계의 필터 방향으로 인해 **Sales**와 **Item** 및 **Item**과 **Time** 테이블이 필터링되지 않습니다. 양방향 교차 필터링에 대한 자세한 내용은 [SQL Server Analysis Services 2016 및 Power BI Desktop에서 양방향 교차 필터링](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) 백서를 다운로드합니다.
+필터링을 적용하면 여기에서 수행한 방식으로 **District**, **Store** 및 **Sales** 테이블에서 모든 레코드를 필터링합니다. 그러나 **Sales**와 **Time** 간 관계의 필터 방향으로 인해 **Sales**와 **Item** 및 **Item**과 **Time** 테이블이 필터링되지 않습니다. 양방향 교차 필터링에 대한 자세한 내용은 [SQL Server Analysis Services 2016 및 Power BI Desktop에서 양방향 교차 필터링](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) 백서를 다운로드합니다.
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>포함된 토큰에 사용자 및 역할 적용
 
@@ -241,7 +240,7 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 
 [JavaScript 필터](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters)는 사용자가 축소되고 범위가 지정되고 필터링된 데이터 보기를 사용하도록 허용하기 위해 사용됩니다. 그러나 사용자는 여전히 모델 스키마 테이블, 열 및 측정값에 대한 액세스 권한을 가지고 있으며 데이터에도 액세스할 수 있습니다. 데이터에 대한 제한된 액세스는 클라이언트 측 필터링 API를 통해서가 아니라 RLS로만 적용할 수 있습니다.
 
-## <a name="token-based-identity-with-azure-sql-database-preview"></a>Azure SQL Database를 사용한 토큰 기반 ID(미리 보기)
+## <a name="token-based-identity-with-azure-sql-database"></a>Azure SQL Database를 사용한 토큰 기반 ID
 
 **토큰 기반 ID**를 사용하면 **Azure SQL Database**에 **AAD(Azure Active Directory)** 액세스 토큰을 사용하여 포함 토큰에 유효한 ID를 지정할 수 있습니다.
 
@@ -332,7 +331,7 @@ SSAS(SQL Server Analysis Services) 온-프레미스 라이브 연결 데이터 �
 * 기본 데이터 세트가 클라우드 모델(캐시된 모델 또는 DirectQuery)이면 유효 ID는 하나 이상의 역할을 포함해야 합니다. 그렇지 않으면 역할 할당이 이루어지지 않습니다.
 * ID 목록은 대시보드 포함을 위한 여러 ID 토큰을 구현합니다. 다른 모든 아티팩트는 목록에 단일 ID가 포함됩니다.
 
-### <a name="token-based-identity-limitations-preview"></a>토큰 기반 ID 제한 사항(미리 보기)
+### <a name="token-based-identity-limitations"></a>토큰 기반 ID 제한 사항
 
 * 이 기능은 Power BI Premium에서만 제한됩니다.
 * 이 기능은 SQL Server 온-프레미스에서 작동하지 않습니다.

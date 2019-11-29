@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903672"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264847"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다. 
@@ -35,12 +35,8 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **annotate (주석 달기)** iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 또는 시각화 개체의 스냅샷 사본에 줄, 텍스트 또는 스탬프를 쓰는 것입니다.
 
-**answer card, answer page (대답 카드, 대답 페이지)** Cortana 대답 카드를 참조하세요.
+**app, apps (앱)** 
 
-**app, apps (앱)**
-
- 
-**app workspace (앱 작업 영역)** 이제 내 작업 영역을 제외한 Power BI의 모든 작업 영역은 앱 작업 영역입니다. 콘텐츠는 번들로 묶어 Power BI 앱으로 제공될 수 있습니다. Premium 용량에 저장된 콘텐츠는 무료 사용자와 공유할 수 있습니다. 개인 작업 영역(내 작업 영역 내)은 Premium 용량에 호스트될 수 있습니다.  
 
 **AppSource** 다운로드할 대시보드, 보고서, 데이터 세트 및 앱을 찾아보고 검색할 수 있는 중앙 집중식 온라인 리포지토리입니다.
 
@@ -54,7 +50,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **bookmark (책갈피)** Power BI Desktop 또는 서비스에서 보고서의 책갈피 창에 캡처된 데이터의 보기입니다. Desktop에서 책갈피는 Power BI 서비스에서 공유하기 위해 .pbix 보고서 파일에 저장됩니다.
   
-**breadcrumbs (탐색 경로)** 앱 작업 영역 간을 빠르게 탐색하기 위한 상단 왼쪽에 표시되는 탐색 기능입니다.
+**이동 경로** 작업 영역 간에 빠르게 이동할 수 있도록 왼쪽 위에 표시되는 탐색입니다.
 
 ## <a name="c"></a>C
 
@@ -70,7 +66,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **connect live (실시간 연결)** SQL Server Analysis Services 데이터 모델에 연결하는 방법입니다. 라이브 연결이라고도 합니다.
 
-**컨테이너 (container)** 탐색 모음의 영역이 *컨테이너*입니다. 탐색 모음에서 즐겨찾기, 최근, 앱, 공유한 항목, 홈 등에 대한 컨테이너를 찾을 수 있습니다. 
+**container (컨테이너)** 탐색 창의 영역이 *컨테이너*입니다. 탐색 창에서 즐겨찾기, 최근, 앱, 공유한 항목, 홈 등에 대한 컨테이너를 찾을 수 있습니다. 
 
 **콘텐츠 (content)** Power BI 서비스의 콘텐츠는 일반적으로 대시보드, 보고서 및 앱입니다. 통합 문서 및 데이터 세트도 포함할 수 있습니다.
 
@@ -79,10 +75,6 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 **content pack (콘텐츠 팩)** 사전 패키지된 데이터 세트, 보고서 및 대시보드의 모음입니다. 이제 **앱**, [새 작업 영역 환경에 대해](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) 알아봅니다. 
 
 **content view (콘텐츠 보기)**
-
-**Cortana answer card (Cortana 대답 카드)** 사용자 지정 Cortana 대답을 만들 수 있도록 Power BI 보고서에 포함할 전용 보고서 페이지입니다.
-
-**Cortana answer page (Cortana 대답 페이지)** 고객에게 표시되는 Cortana 페이지의 이름입니다.
 
 **cross filter, cross highlight (크로스 필터, 교차 강조 표시)**
 
@@ -164,12 +156,12 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 ## <a name="l"></a>L
 
-**left navigation (왼쪽 탐색 영역)** 이 영역은 **탐색 막대**로 대체되었지만 일부 설명서에는 계속 나올 수 있습니다.    
+**left nav (왼쪽 탐색 영역)** 이 영역은 **탐색 창**으로 대체되었지만 일부 설명서에는 계속 나올 수 있습니다.    
 Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니다.
 
-첫 번째 인스턴스: 왼쪽 탐색 창 이후 언급 시 또는 공간 부족 시: 왼쪽 탐색
+첫 번째 인스턴스: 탐색 창 이후 언급 시 또는 공간 부족 시: 탐색 창
 
-**list page (목록 페이지)** 또는 **콘텐츠 목록** 왼쪽 탐색 창 요소의 섹션 페이지 중 하나입니다. 예: 즐겨찾기, 최근 항목, 내 작업 영역 등
+**list page (목록 페이지)** 또는 **콘텐츠 목록** 탐색 창 요소의 섹션 페이지 중 하나입니다. 예: 즐겨찾기, 최근 항목, 내 작업 영역 등
 
 ## <a name="m"></a>M
 
@@ -177,17 +169,17 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 **modeling (모델링)** [Power BI Desktop] 연결한 데이터를 Power BI에서 사용할 준비가 완료된 것입니다. 여기에는 여러 데이터 원본의 테이블 간 관계 작성, 수치 작성 및 메트릭 할당 등이 포함됩니다.
 
-**My workspace (내 작업 영역)** 각 Power BI 고객이 콘텐츠를 만들기 위한 작업 영역입니다. 여기에서 만든 항목을 번들로 묶어 앱으로 구성하려고 하며 ‘디자이너’ 권한이 있는 경우 해당 앱 작업 영역에 업로드하거나 새 작업 영역을 만듭니다. 
+**My workspace (내 작업 영역)** 각 Power BI 고객이 콘텐츠를 만들기 위한 작업 영역입니다. 여기서 만든 항목을 앱에 번들로 묶으려고 하며 ‘디자이너’ 권한이 있는 경우, 적절한 작업 영역에 업로드하거나 새 작업 영역을 만듭니다. 
 
 ## <a name="n"></a>N
 
 **native (네이티브)** 제품에 포함되어 있습니다. 예를 들어, Power BI에는 ‘네이티브’ 시각화 요소 집합이 함께 제공됩니다.  그러나 사용자 지정 시각적 개체 등의 다른 유형을 가져올 수도 있습니다.
 
-**left navigation (왼쪽 탐색 영역)** 또는 **nav bar (탐색 막대)** Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니다.
+**nav pane (탐색 창)** 또는 **nav pane (탐색 창)** Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니다.
 
-첫 번째 인스턴스: 탐색 막대 이후 언급 시 또는 공간 부족 시: 탐색 막대
+첫 번째 인스턴스: 탐색 창 이후 언급 시 또는 공간 부족 시: 탐색 창
 
-**navigation pane (탐색 창)** **탐색 막대** 참조
+**nav pane (탐색 창)** **탐색 창** 참조
 
 **notification (알림)** Power BI 알림 센터에서 보낸 메시지입니다.  
 
@@ -222,7 +214,7 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 **Power BI**, **Power BI Desktop (Power BI 서비스)** , **Power BI Desktop**, **Power BI Mobile**, Power BI 제품 일부 *Power BI*는 일반적인 용어입니다. 대개 최초에 *Power BI 서비스* 및 *Power BI Mobile*과 같은 전체 제품 이름을 언급한 후에 Power BI를 사용합니다.
 
-**Power BI Desktop** *Desktop*이라고도 합니다. 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 Power BI의 무료 Windows 애플리케이션입니다. 보고서 디자이너 및 관리자가 사용합니다. 자세한 내용은 [Power BI란?](../power-bi-overview.md)을 참조하세요.
+**Power BI Desktop** *Desktop*이라고도 합니다. 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 Power BI의 무료 Windows 애플리케이션입니다. 보고서 디자이너 및 관리자가 사용합니다. 자세한 내용은 [Power BI란?](../fundamentals/power-bi-overview.md)을 참조하세요.
 
 **Power BI Embedded** 개발자가 자체 앱, 사이트 및 도구에 Power BI 대시보드 및 보고서를 포함하는 데 사용하는 제품입니다.
 
@@ -232,7 +224,7 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 **Power BI Report Server** Power BI Premium과 함께 출시된 새로운 SSRS 브랜드 제품으로, 조직이 분산형 하이브리드 BI 시스템(클라우드 및 온-프레미스 배포 혼합)을 빌드할 수 있도록 합니다. Embedded는 Power BI 보고서를 저장하고 관리하는 현지화된 방법을 제공합니다.
 
-**Power BI service (Power BI 서비스)** 온라인 SaaS(Software as a Service) 서비스입니다. 자세한 내용은 [Power BI란?](../power-bi-overview.md)을 참조하세요.
+**Power BI service (Power BI 서비스)** 온라인 SaaS(Software as a Service) 서비스입니다. 자세한 내용은 [Power BI란?](../fundamentals/power-bi-overview.md)을 참조하세요.
 
 **Power BI service connector (Power BI 서비스 커넥터)** Power BI Desktop 사용자는 이 커넥터를 통해 Desktop에서 Power BI 서비스의 데이터 세트에 연결할 수 있습니다. 모델을 한 번 만든 후 여러 보고서 및 대시보드에서 다시 사용할 수 있습니다.
 
@@ -262,7 +254,7 @@ Power BI 보고서에 표시되는 결과를 미리 필터링하기 위해 URL�
 
 **real-time streaming (실시간 스트리밍)** 센서, 소셜 미디어, 사용량 메트릭, 시간이 중요한 데이터가 수집 또는 전송될 수 있는 원본에서 실시간으로 데이터를 스트리밍하고 대시보드를 업데이트하는 기능입니다.  
 
-**Recent (최근 항목)** 마지막으로 액세스한 모든 개별 아티팩트를 포함하는 왼쪽 탐색 창의 컨테이너입니다.
+**Recent (최근 항목)** 마지막으로 액세스한 모든 개별 아티팩트를 포함하는 탐색 창의 컨테이너입니다.
 
 **related content (관련 콘텐츠)** 현재 콘텐츠에 참가하는 콘텐츠의 개별 부분을 표시합니다. 예를 들어, 대시보드의 경우 대시보드에서 데이터 및 시각화를 제공하는 보고서 및 데이터 세트를 볼 수 있습니다.   
 
@@ -290,7 +282,7 @@ Power BI 보고서에 표시되는 결과를 미리 필터링하기 위해 URL�
 **share, sharing (공유)** Power BI에서 공유는 일반적으로 메일 주소를 사용하여 한 명 이상의 사람과 개별 아티팩트(대시보드 또는 보고서)를 직접 공유하는 것을 의미합니다. 보낸 사람 및 받는 사람에게 Power BI Pro 라이선스가 필요합니다.
 모바일 디바이스에서 공유는 네이티브 OS 공유 기능(예: “주석 달기 및 공유”)을 나타낼 수 있습니다.  
 
-**Shared with me (공유한 항목)** 다른 Power BI 사용자가 직접 공유한 모든 개별 아티팩트를 포함하는 왼쪽 탐색 창의 컨테이너입니다.
+**Shared with me (공유한 항목)** 다른 Power BI 사용자가 직접 공유한 모든 개별 아티팩트를 포함하는 탐색 창의 컨테이너입니다.
 
 **snapshot (스냅샷)**
 
@@ -325,7 +317,7 @@ Power BI 대시보드에는 보고서 타일이 포함되어 있습니다.
 
 **workbook (통합 문서)** 데이터 원본으로 사용할 Excel 통합 문서입니다. 통합 문서는 연결된 테이블, 파워 쿼리 또는 파워 피벗을 사용하여 로드한 데이터의 하나 이상의 테이블이 있는 데이터 모델을 포함할 수 있습니다.
 
-**workspace (작업 영역)** Power BI의 대시보드, 보고서 및 데이터 세트에 대한 컨테이너입니다. 이 용어 모음에서 앱 작업 영역을 참조하세요.
+**workspace (작업 영역)** Power BI의 대시보드, 보고서 및 데이터 세트에 대한 컨테이너입니다. 사용자는 내 작업 영역을 제외한 모든 작업 영역에서 콘텐츠를 협업할 수 있습니다. 콘텐츠는 번들로 묶어 Power BI 앱으로 제공될 수 있습니다. Premium 용량에 저장된 콘텐츠는 무료 사용자와 공유할 수 있습니다. 개인 작업 영역(내 작업 영역 내)은 Premium 용량에 호스트될 수 있습니다.
 
 ## <a name="x"></a>X
 **x-axis (X축)**  

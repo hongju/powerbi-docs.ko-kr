@@ -2,19 +2,18 @@
 title: Power BI 모바일 앱의 즐겨찾기
 description: 모바일 앱에서 즐겨 찾는 Power BI 대시보드, 보고서, 앱, Power BI Report Server, Reporting Services 보고서 및 KPI를 만들고 보는 방법에 대해 알아보세요.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c4fcf7bea8bf458231533efbc88e307d8d9ba2ab
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61339566"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870690"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 즐겨찾기 만들기 및 보기
 적용 대상:
@@ -44,7 +43,7 @@ Power BI Report Server 또한 Reporting Services 웹 포털에서 KPI와 보고�
   ![즐겨찾기 페이지](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
 
 ## <a name="make-an-app-a-favorite"></a>앱을 즐겨찾기로 만들기
-1. 모바일 앱의 앱 목록에서 앱 > **즐겨찾기** 옆의 줄임표(...)를 누릅니다.
+1. 모바일 앱의 앱 목록에서 앱 옆에 있는 **추가 옵션**(...)을 탭한 다음 > **즐겨찾기**를 탭합니다.
    
     ![앱 즐겨찾기 메뉴](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
@@ -55,20 +54,20 @@ Power BI Report Server 또한 Reporting Services 웹 포털에서 KPI와 보고�
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-ios-and-windows-10-mobile-apps"></a>iOS 및 Windows 10 모바일 앱에서 대시보드 또는 보고서를 즐겨찾기로 만들기
 대시보드나 보고서 목록 또는 대시보드나 보고서 자체에서 Power BI 대시보드 또는 보고서를 즐겨찾기로 만들 수 있습니다.
 
-* 모바일 앱의 대시보드 또는 보고서 목록에서 이름 옆에 있는 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)을 선택합니다. 별이 노란색 ![즐겨찾기 아이콘으로 바뀝니다](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)을 선택합니다.
+* 모바일 앱의 대시보드 또는 보고서 목록에서 이름 옆에 있는 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 별이 노란색 ![즐겨찾기 아이콘으로 바뀝니다](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
   
     ![대시보드 즐겨찾기](./media/mobile-apps-favorites/power-bi-mobile-make-dashboard-favorite.png)
-* 대시보드 또는 보고서에서 리본의 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)을 선택합니다. 별이 노란색 ![즐겨찾기 아이콘으로 바뀝니다](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)을 선택합니다.
+* 대시보드 또는 보고서에서 리본의 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 별이 노란색 ![즐겨찾기 아이콘으로 바뀝니다](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
   
     ![선택한 즐겨찾기 아이콘](./media/mobile-apps-favorites/power-bi-mobile-favorite-selected.png)
 
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>Android 모바일 앱에서 대시보드 또는 보고서를 즐겨찾기로 만들기
 대시보드나 보고서 목록 또는 대시보드나 보고서 자체에서 대시보드 또는 보고서를 즐겨찾기로 만들 수 있습니다.
 
-* 모바일 앱의 대시보드 또는 보고서 목록에서 이름 옆에 있는 세로 줄임표(...)를 탭한 다음, **즐겨찾기**를 탭합니다. 이름 옆에 노란색 별 ![즐겨찾기 아이콘](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)이 표시됩니다.
+* 모바일 앱의 대시보드 또는 보고서 목록에서 이름 옆에 있는 세로 **추가 옵션**(...) 단추를 탭한 다음, **즐겨찾기**를 탭합니다. 이름 옆에 노란색 별 ![즐겨찾기 아이콘](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)이 표시됩니다.
   
     ![Android 즐겨찾기 메뉴](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
-* 대시보드 또는 보고서에서 리본의 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)을 선택합니다. 별이 진한 회색 ![즐겨찾기 아이콘으로 바뀝니다](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png)을 선택합니다.
+* 대시보드 또는 보고서에서 리본의 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 별이 진한 회색 ![즐겨찾기 아이콘으로 바뀝니다](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
   
     ![Android 즐겨찾기 별](./media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
 
@@ -77,5 +76,5 @@ Power BI 모바일 앱에서 즐겨 찾는 Power BI Report Server 및 Reporting 
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 서비스의 즐겨 찾는 대시보드](../end-user-favorite.md) 
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 
