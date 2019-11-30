@@ -51,7 +51,7 @@ Power BI Desktop 내에서 역할을 만들거나 수정할 수만 있습니다.
 
 ### <a name="add-members"></a>멤버 추가
 
-전자 메일 주소 또는 추가하려는 사용자, 보안 그룹 및 배포 목록의 이름을 입력하여 역할에 멤버를 추가할 수 있습니다. Power BI 내에서 만든 그룹을 추가할 수 없습니다. 멤버를 [조직 외부](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners)에 추가할 수 있습니다.
+전자 메일 주소 또는 추가하려는 사용자, 보안 그룹 및 배포 목록의 이름을 입력하여 역할에 멤버를 추가할 수 있습니다. Power BI 내에서 만든 그룹을 추가할 수 없습니다. [조직에 외부 멤버](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners)를 추가할 수 있습니다.
 
 ![멤버 추가](media/service-admin-rls/rls-add-member.png)
 
