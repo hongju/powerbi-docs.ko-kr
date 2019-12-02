@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1edc4179b000191dfeff87387417009bc28e0ee5
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64578801"
@@ -55,10 +55,10 @@ ms.locfileid: "64578801"
    > 
    
    ![OAuth2 사용 하 여 로그인](media/service-connect-to-zendesk/pbi_zendesksignin.png)
-6. **허용** 을 클릭하여 Power BI가 Zendesk 데이터에 액세스할 수 있도록 합니다.
+6. **허용**을 클릭하여 Power BI가 Zendesk 데이터에 액세스할 수 있도록 합니다.
    
    ![클릭 허용](media/service-connect-to-zendesk/zendesk2.jpg)
-7. **연결** 을 클릭하여 가져오기 프로세스를 시작합니다. 
+7. **연결**을 클릭하여 가져오기 프로세스를 시작합니다. 
 8. Zendesk 앱에 대 한 콘텐츠 목록이 표시 Power BI가 데이터를 가져오면: 새 대시보드, 보고서 및 데이터 집합입니다.
 9. 탐색 프로세스를 시작 하려면 대시보드를 선택 합니다.
 
