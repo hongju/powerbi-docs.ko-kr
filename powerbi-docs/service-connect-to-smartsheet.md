@@ -31,8 +31,8 @@ Power BI용 [Smartsheet 템플릿 앱](https://app.powerbi.com/groups/me/getdata
 
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-3. 선택 **Smartsheet** \> **지금**합니다.
-4. **Power BI 앱이 설치?** 선택 **설치**합니다.
+3. **Smartsheet** \> **지금 받기**를 선택합니다.
+4. **Power BI 앱 설치?** 에서 **설치**를 선택합니다.
 4. **앱** 창에서 **Smartsheet** 타일을 선택합니다.
 
     ![Power BI Smartsheet 앱 타일](media/service-connect-to-smartsheet/power-bi-smartsheet-tile.png)
