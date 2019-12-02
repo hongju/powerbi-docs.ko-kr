@@ -22,7 +22,7 @@ ms.locfileid: "64578991"
  
 템플릿 앱을 설치한 후에 대시보드 및 보고서를 변경할 수 있습니다. 그런 다음 조직의 동료에게 앱으로 배포할 수 있습니다.
 
-Power BI에 대한 [Smartsheet 템플릿 앱](https://app.powerbi.com/groups/me/getdata/services/smartsheet)에 연결 합니다 
+Power BI용 [Smartsheet 템플릿 앱](https://app.powerbi.com/groups/me/getdata/services/smartsheet)에 연결합니다
 
 >[!NOTE]
 >Smartsheet 관리자 계정은 추가 액세스 권한이 있으므로 Power BI 템플릿 앱을 로드하고 연결하는 데 선호됩니다.
@@ -32,12 +32,12 @@ Power BI에 대한 [Smartsheet 템플릿 앱](https://app.powerbi.com/groups/me/
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
 3. **Smartsheet** \> **지금 받기**를 선택합니다.
-4. **Power BI 앱 설치?** 에서 **설치**를 선택합니다.
+4. **Power BI 앱 설치?**에서 **설치**를 선택합니다.
 4. **앱** 창에서 **Smartsheet** 타일을 선택합니다.
 
     ![Power BI Smartsheet 앱 타일](media/service-connect-to-smartsheet/power-bi-smartsheet-tile.png)
 
-6. **새 앱을 시작 하세요**에서 **데이터 연결**을 선택합니다.
+6. **새 앱을 시작하세요**에서 **연결**을 선택합니다.
 
     ![새 앱 시작](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
 
@@ -67,10 +67,10 @@ Smartsheet 템플릿 앱을 설치했습니다. 즉, Smartsheet 앱 작업 영�
 
 2. **보고서**와 **데이터 세트**를 선택하여 작업 영역의 다른 요소를 확인합니다.
 
-    동료에게 [앱 배포](service-create-distribute-apps.md)를 확인합니다.
+    동료에게 [앱 배포](service-create-distribute-apps.md)를 읽어보세요.
 
 ## <a name="whats-included"></a>포함된 내용
-Power BI용 Smartsheet 템플릿 앱은 보고서, 대시보드 및 작업 영역의 수, Smartsheet가 수정된 때와 같은 Smartsheet 계정의 개요를 포함합니다. 관리자는 또한 시트를 많이 생성한 사용자 등 해당 시스템에서 사용자 관련 일부 정보를 확인할 수 있습니다.  
+Power BI용 Smartsheet 템플릿 앱은 보고서, 대시보드 및 작업 영역의 수, 사용자 소유의 시트, 시트가 수정된 때와 같은 Smartsheet 계정의 개요를 포함합니다. 관리자는 또한 시트를 많이 생성한 사용자 등 해당 시스템에서 사용자 관련 일부 정보를 확인할 수 있습니다.  
 
 계정의 개별 시트에 직접 연결하려면 [Power BI Desktop](desktop-connect-to-data.md)에서 Smartsheet 커넥터를 사용할 수 있습니다.  
 
