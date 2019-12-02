@@ -20,7 +20,9 @@ ms.locfileid: "64578991"
 # <a name="connect-to-smartsheet-with-power-bi"></a>Power BI로 Smartsheet에 연결
 이 문서에서는 Power BI 템플릿 앱을 사용하여 Smartsheet 계정에서 데이터를 가져오는 방법을 안내합니다. Smartsheet는 간편하게 협업하고 파일을 공유할 수 있는 플랫폼을 제공합니다. Power BI 용 Smartsheet 템플릿 앱은 Smartsheet 계정의 개요를 표시하는 대시보드, 보고서 및 데이터 집합을 제공합니다. [Power BI Desktop](desktop-connect-to-data.md)을 사용하여 계정의 개별 시트에 직접 연결할 수도 있습니다. 
 
+ 
 템플릿 앱을 설치한 후에 대시보드 및 보고서를 변경할 수 있습니다. 그런 다음 조직의 동료에게 앱으로 배포할 수 있습니다.
+
 
 Power BI용 [Smartsheet 템플릿 앱](https://app.powerbi.com/groups/me/getdata/services/smartsheet)에 연결합니다
 
@@ -32,7 +34,9 @@ Power BI용 [Smartsheet 템플릿 앱](https://app.powerbi.com/groups/me/getdata
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
 3. **Smartsheet** \> **지금 받기**를 선택합니다.
-4. **Power BI 앱 설치?** 에서 **설치**를 선택합니다.
+
+4. **Power BI 앱 설치?**에서 **설치**를 선택합니다.
+
 4. **앱** 창에서 **Smartsheet** 타일을 선택합니다.
 
     ![Power BI Smartsheet 앱 타일](media/service-connect-to-smartsheet/power-bi-smartsheet-tile.png)
@@ -70,7 +74,9 @@ Smartsheet 템플릿 앱을 설치했습니다. 즉, Smartsheet 앱 작업 영�
     동료에게 [앱 배포](service-create-distribute-apps.md)를 읽어보세요.
 
 ## <a name="whats-included"></a>포함된 내용
-Power BI용 Smartsheet 템플릿 앱은 보고서, 대시보드 및 작업 영역의 수, 사용자 소유의 시트, 시트가 수정된 때와 같은 Smartsheet 계정의 개요를 포함합니다. 관리자는 또한 시트를 많이 생성한 사용자 등 해당 시스템에서 사용자 관련 일부 정보를 확인할 수 있습니다.  
+
+Power BI용 Smartsheet 템플릿 앱은 보고서, 대시보드 및 작업 영역의 수, 사용자 소유의 시트, 시트가 수정된 때와 같은 Smartsheet 계정의 개요를 포함합니다. 관리자는 또한 시트를 많이 생성한 사용자 등 해당 시스템에서 사용자 관련 일부 정보를 확인할 수 있습니다.
+
 
 계정의 개별 시트에 직접 연결하려면 [Power BI Desktop](desktop-connect-to-data.md)에서 Smartsheet 커넥터를 사용할 수 있습니다.  
 
