@@ -2,7 +2,6 @@
 title: 2부, Power BI 보고서에 시각화 추가
 description: 2부, Power BI 보고서에 시각화 추가
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc50c54f826dd695b0aab459bd3d68d0da792abe
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: e9759f69668780b450117e5e6255e7f5cb7e67f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73049181"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881008"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>2부, Power BI 보고서에 시각화 추가
 
@@ -29,7 +28,7 @@ ms.locfileid: "73049181"
 
 ## <a name="prerequisites"></a>필수 조건
 
-이 자습서는 [소매점 분석 샘플 PBIX 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
+이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
 1. Power BI Desktop 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
    
@@ -59,7 +58,7 @@ ms.locfileid: "73049181"
 
 5. 시각화를 선택하고 윤곽 원 중 하나를 클릭한 다음 끌어서 [시각화의 크기를 조정](power-bi-visualization-move-and-resize.md)합니다. 스크롤 막대가 보이지 않도록 넓게 만들고 다른 시각화를 추가할 만큼의 공간을 남겨둡니다.
    
-   ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
+   ![영역 차트 시각적 개체의 스크린샷](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
 6. [보고서를 저장합니다](../service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>위치별 매출을 볼 수 있는 맵 시각화 추가
@@ -68,9 +67,9 @@ ms.locfileid: "73049181"
    ![영역 차트](media/power-bi-report-add-visualizations-ii/power-bi-map1.png)
 
 2. 범례를 추가합니다.  매장 이름별로 데이터를 보려면 **Store** > **Chain**을 범례 영역으로 끌어 놓습니다.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
+   ![필드 목록의 체인에서 범례 버킷의 체인까지 화살표가 있는 보고서 캔버스](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 보고서의 시각화](power-bi-report-visualizations.md)에 대해 자세히 알아보세요.  
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

@@ -1,19 +1,19 @@
 ---
 title: Power BI 사용 권한
 description: Power BI 사용 권한
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 14327f09ede41c23fd4fe7cc65fc4f8d3a91b926
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 51c43a19613381d39e0397864e55baed2022663c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880450"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74263980"
 ---
 # <a name="power-bi-permissions"></a>Power BI 사용 권한
 

@@ -95,14 +95,14 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
      Power BI 질문 및 답변 가상 분석가에서는 시작하기 위한 몇 가지 제안을 제공합니다.
 
      ![추천 정보 단추](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insights.png)
-3. **추천 정보**를 탭합니다.
+3. **featured insights**를 탭합니다.
 
      질문 및 답변 가상 분석가에서 몇 가지 정보를 제안합니다.
-4. 오른쪽으로 스크롤하고 **정보 2**를 탭합니다.
+4. 오른쪽으로 스크롤하고 **insight 2**를 탭합니다.
 
     ![정보 2 단추](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
 
-     질문 및 답변 가상 분석가에서 정보 2를 표시합니다.
+     질문 및 답변 가상 분석가에서 insight 2를 표시합니다.
 
     ![인사이트 2](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
 5. 차트를 탭하여 포커스 모드에서 엽니다.

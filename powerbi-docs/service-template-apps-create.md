@@ -2,19 +2,18 @@
 title: Power BI에서 템플릿 앱 만들기
 description: 모든 Power BI 고객에게 배포할 수 있는 템플릿 앱을 Power BI에서 만드는 방법입니다.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432145"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871482"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI에서 템플릿 앱 만들기
 
@@ -86,7 +85,7 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
 
     **탐색**
 
-    앱의 왼쪽 탐색 창을 정의할 수 있는 **새 탐색 작성기**를 활성화합니다(자세한 내용은 이 문서의 [탐색 환경 디자인](service-create-distribute-apps.md#design-the-navigation-experience) 참조).
+    앱의 탐색 창을 정의할 수 있는 **새 탐색 작성기**를 활성화합니다(자세한 내용은 이 문서의 [탐색 환경 디자인](service-create-distribute-apps.md#design-the-navigation-experience) 참조).
 
    ![앱 방문 페이지 설정](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
     

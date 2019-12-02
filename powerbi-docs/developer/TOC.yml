@@ -44,7 +44,7 @@
             - name: AppSource에 사용자 지정 시각적 개체 게시
               href: office-store.md
             - name: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
-              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: 시각적 개체 상호 작용
               href: visuals/visuals-interactions.md
             - name: 선택 항목 추가
@@ -142,7 +142,7 @@
               href: register-app.md
             - name: Azure AD 액세스 토큰 가져오기
               href: get-azuread-access-token.md
-            - name: 동적 바인딩
+            - name: 동적 바인딩을 사용하여 보고서를 연결합니다.
               href: embed-dynamic-binding.md
             - name: Q&A 포함
               href: qanda.md
@@ -200,7 +200,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: 스택 오버플로
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
-    - name: 자동화
+    - name: Automation
       expanded: true
       items:
         - name: 개요

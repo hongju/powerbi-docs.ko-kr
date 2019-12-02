@@ -2,7 +2,6 @@
 title: CDM 폴더를 Power BI에 데이터 흐름으로 추가
 description: 작업 영역을 구성하여 Azure Data Lake Storage Gen2에 데이터 흐름 정의 및 데이터 파일 저장
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3adc642d539ab8e1c1f1f60981a61fdc58a460ab
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432032"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872706"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)
 
@@ -25,7 +24,7 @@ Power BI에서 조직의 Azure Data Lake Store Gen2에 저장된 CDM(공통 데�
 
 다음 목록의 설명대로 CDM 폴더에서 데이터 흐름을 만들기 위한 몇 가지 요구 사항이 있습니다.
 
-* CDM 폴더에서 데이터 흐름을 만드는 기능은 [새 작업 영역 환경](service-create-the-new-workspaces.md)에서’만’ 사용할 수 있습니다. 
+* CDM 폴더에서 데이터 흐름을 만드는 기능은 [새 작업 영역 환경](service-create-the-new-workspaces.md)에서’만’ 사용할 수 있습니다.  
 * CDM 폴더를 Power BI에 추가하려면 폴더를 추가하는 사용자에게 [CDM 폴더 및 해당 파일의 권한](https://go.microsoft.com/fwlink/?linkid=2029121)이 있어야 합니다.
 * Power BI에 CDM 폴더의 모든 파일 및 폴더를 추가하려면 이에 대한 읽기 및 실행 권한을 부여 받아야 합니다.
 
@@ -33,7 +32,7 @@ Power BI에서 조직의 Azure Data Lake Store Gen2에 저장된 CDM(공통 데�
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>CDM 폴더에서 데이터 흐름 만들기
 
-CDM 폴더에서 데이터 흐름을 만들기 시작하려면 **Power BI 서비스**를 시작하고 왼쪽 탐색 창에서 **작업 영역**을 선택합니다. 새 작업 영역을 만들어 여기에서 새 데이터 흐름을 만들 수도 있습니다.
+CDM 폴더에서 데이터 흐름을 만들기 시작하려면 **Power BI 서비스**를 시작하고 탐색 창에서 **작업 영역**을 선택합니다. 새 작업 영역을 만들어 여기에서 새 데이터 흐름을 만들 수도 있습니다.
 
 ![Power BI 서비스에서 데이터 흐름 만들기](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -68,7 +67,7 @@ Power BI Desktop:
 
 다음 목록에 설명된 몇 가지 추가 고려 사항도 있습니다.
 
-* CDM 폴더에서 데이터 흐름을 만드는 기능은 [새 작업 영역 환경](service-create-the-new-workspaces.md)에서’만’ 사용할 수 있습니다.
+* CDM 폴더에서 데이터 흐름을 만드는 기능은 [새 작업 영역 환경](service-create-the-new-workspaces.md)에서’만’ 사용할 수 있습니다. 
 * 연결된 엔터티는 CDM 폴더에서 만들어진 데이터 흐름에 사용할 수 없음
 
 
@@ -110,5 +109,5 @@ Azure Storage에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [CDM 폴더](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM 모델 파일 정의](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-또한 언제든지 [Power BI 커뮤니티에 질문](http://community.powerbi.com/)할 수 있습니다.
+또한 언제든지 [Power BI 커뮤니티에 질문](https://community.powerbi.com/)할 수 있습니다.
 

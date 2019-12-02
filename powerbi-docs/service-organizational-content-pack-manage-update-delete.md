@@ -2,7 +2,6 @@
 title: '조직 콘텐츠 팩: 관리 및 업데이트'
 description: Power BI에서 조직 콘텐츠 팩을 관리, 업데이트 및 삭제하는 방법에 대해 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f2a80b075a56cdeccfa4c3675cdf31504b6a7e5d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431769"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881265"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>조직 콘텐츠 팩 관리, 업데이트 및 삭제
 > [!NOTE]
@@ -87,5 +86,5 @@ ms.locfileid: "73431769"
 ## <a name="next-steps"></a>다음 단계
 * [조직 콘텐츠 팩 소개](service-organizational-content-pack-introduction.md)
 * [Power BI에서 앱 만들기 및 배포](service-create-distribute-apps.md) 
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

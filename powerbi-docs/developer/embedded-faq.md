@@ -1,19 +1,19 @@
 ---
 title: Power BI Embedded에 대한 질문과 대답
 description: Power BI Embedded에 대한 질문과 대답 목록을 찾아보세요.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 9e641b70c9fd6c6d378628d34413b14c59eaea23
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7670f8147af54f3b3a6c2c0eba34bb3ca7843eda
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73864223"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264081"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -206,7 +206,7 @@ PowerBI.com을 사용하여 Power BI Embedded 용량에 작업 영역을 할당/
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>RLS(행 수준 보안)를 사용하는 것과 JavaScript 필터를 사용하는 차이는 무엇인가요?
 
-RLS와 JavaScript 필터를 사용할 때 혼란이 있는 경우가 종종 있습니다. 한 가지 방법은 특정 사용자가 볼 수 있는 것을 제어하는 것이고 다른 방법은 사용자의보기를 최적화하는 것입니다.
+RLS와 JavaScript 필터를 사용할 때 혼란이 있는 경우가 종종 있습니다. 한 가지 방법은 특정 사용자가 볼 수 있는 것을 제어하는 것이고 다른 방법은 사용자의 보기를 최적화하는 것입니다.
 
 RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데이터 필터링을 제어합니다. 최종 사용자는 ISV가 사용자에게 보도록 허용한 내용만 볼 수 있습니다. 이 경우 사용자는 필터링되는 것보다 적은 내용을 볼 수 있지만, RLS 구성을 무시하고 허용되는 것보다 더 많은 내용을 볼 수는 없습니다.
 
@@ -340,7 +340,7 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
 
 [포함 설정 도구](https://aka.ms/embedsetup)를 사용하면 샘플 애플리케이션을 신속하게 시작하고 다운로드하여 Power BI에서 포함을 시작할 수 있습니다.
 
-### <a name="which-solution-should-i-choose"></a>어떤 솔루션은 선택해야 하나요?
+### <a name="which-solution-should-i-choose"></a>어떤 솔루션을 선택해야 하나요?
 
 * [고객에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-customers) Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함하는 기능을 제공합니다. [고객에 대한 콘텐츠 포함](https://aka.ms/embedsetup/AppOwnsData) 솔루션을 실행합니다.
 * [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다. [조직에 대한 콘텐츠 포함](https://aka.ms/embedsetup/UserOwnsData) 솔루션을 실행합니다.

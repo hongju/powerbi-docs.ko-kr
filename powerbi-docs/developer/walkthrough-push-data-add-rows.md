@@ -1,19 +1,19 @@
 ---
 title: 테이블에 행 추가
 description: 데이터 푸시 연습 - Power BI 테이블에 행 추가
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 39bf8ec92fba25c6097cf663bdb6572705938a42
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 83ac50aac257adeaddb648c5afd0eedc95874909
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879846"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265166"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5단계: Power BI 테이블에 행 추가
 
@@ -33,7 +33,7 @@ Power BI API를 사용하여 데이터 세트에 행을 추가하는 방법은 �
 > 시작하기 전에 [데이터 세트에 데이터 푸시](walkthrough-push-data.md)의 이전 단계를 수행해야 합니다.
 
 1. 2단계: 데이터 푸시 연습, [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 만든 콘솔 애플리케이션 프로젝트에 아래 코드를 추가합니다.
-2. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. **추가된 행** 이 콘솔 창에 표시됩니다. Power BI에 로그인하여 데이터 세트에 추가된 행을 볼 수도 있습니다.
+2. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. **Rows Added**가 콘솔 창에 표시됩니다. Power BI에 로그인하여 데이터 세트에 추가된 행을 볼 수도 있습니다.
 
 **데이터 세트에 데이터 푸시 샘플**
 
@@ -310,7 +310,7 @@ Program.cs에 이 코드를 추가합니다.
     }
 ```
 
-위의 코드에서 **_//첫 번째 ID를 가져오도록_** 지정했지만 올바른 방법은 이름으로 데이터 세트을 검색하는 것입니다.
+위의 코드에서 **_//Get the first id_** 를 지정했지만 올바른 방법은 이름으로 데이터 세트를 검색하는 것입니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 대시보드에 데이터 푸시](walkthrough-push-data.md)  
