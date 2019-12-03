@@ -99,15 +99,15 @@ Power BI 테넌트는 국가(또는 지역)와 가장 가까운 것으로 간주
 
 ### <a name="multiple-geographies-multi-geo"></a>여러 지리적 위치(다중 지역)
 
-일부 조직에서는 비즈니스 요구 사항에 따라 여러 지리적 위치 또는 지역에 Power BI가 있어야 합니다. 예를 들어 비즈니스에는 미국의 Power BI 테 넌 트가 있지만 오스트레일리아와 같은 다른 지역에서 비즈니스를 수행할 수 있으며, 지역 규정을 준수 하기 위해 해당 원격 지역에서 특정 Power BI 데이터를 유지 해야 할 수도 있습니다. 2018의 두 번째 절반부터, 한 지리에서 홈 테 넌 트가 있는 조직은 다른 지리에 있는 Power BI 리소스를 프로 비전 하 고 액세스할 수도 있습니다. 이 기능은 편의상 이 문서 전체에서 참조하기 위해 **다중 지역**이라고 합니다.
+일부 조직에서는 비즈니스 요구 사항에 따라 여러 지리적 위치 또는 지역에 Power BI가 있어야 합니다. 예를 들어 비즈니스에는 미국의 Power BI 테 넌 트가 있지만 오스트레일리아와 같은 다른 지역에서 비즈니스를 수행할 수 있으며, 지역 규정을 준수 하기 위해 해당 원격 지역에서 특정 Power BI 데이터를 유지 해야 할 수도 있습니다. 2018년 하반기 시작부터, 또한 한 지역에 홈 테넌트가 있는 조직은 다른 지역에 위치한 Power BI 리소스를 프로비저닝하고 액세스할 수 있습니다. 이 기능은 편의상 이 문서 전체에서 참조하기 위해 **다중 지역**이라고 합니다.
 
-다중 지역 정보에 대 한 최신 및 기본 문서는 [Power BI Premium에 대 한 다중 지역 지원 구성](service-admin-premium-multi-geo.md) 문서를 참조 하세요. 
+다중 지역 정보에 대한 최신 및 기본 문서는 [Power BI Premium에 대한 다중 지역 지원 구성](service-admin-premium-multi-geo.md) 문서를 참조 하세요. 
 
 서로 다른 지역에서 작업할 때 지역 법률 및 규정의 맥락에서 평가 해야 하는 기술 세부 정보는 여러 가지가 있습니다. 이러한 세부 정보는 다음과 같습니다.
 
-- 원격 쿼리 실행 계층은 원격 용량 지역에서 호스트 되어 데이터 모델, 캐시 및 대부분의 데이터 처리가 원격 용량 지역에 남아 있도록 합니다. [Power BI Premium에 대 한 다중 지역](service-admin-premium-multi-geo.md) 문서에 자세히 설명 된 몇 가지 예외가 있습니다.
-- 캐시 된 쿼리 텍스트와 원격 지역에 저장 된 해당 결과는 미사용 지역에 그대로 남아 있지만 전송 중인 다른 데이터는 여러 지역 간에 앞뒤로 이동할 수 있습니다.
-- Power BI 서비스 다중 지역 용량에 게시 (업로드) 된 .PBIX 또는 .XLSX 파일은 복사본이 Power BI의 테 넌 트 지역에 있는 Azure Blob storage에 일시적으로 저장 될 수 있습니다. 이러한 상황에서 데이터는 SSE (Azure Storage 서비스 암호화)를 사용 하 여 암호화 되 고, 파일 콘텐츠 처리 및 원격 지역으로의 전송이 완료 되는 즉시 가비지 수집을 위해 복사본이 예약 됩니다. 
+- 원격 쿼리 실행 계층은 원격 용량 지역에서 호스트 되어 데이터 모델, 캐시 및 대부분의 데이터 처리가 원격 용량 지역에 남아 있도록 합니다. [Power BI Premium에 대한 다중 지역](service-admin-premium-multi-geo.md) 문서에 자세히 설명 된 몇 가지 예외가 있습니다.
+- 캐시된 쿼리 텍스트와 원격 지역에 저장된 해당 결과는 미사용 지역에 그대로 남아 있지만 전송 중인 다른 데이터는 여러 지역 간에 앞뒤로 이동할 수 있습니다.
+- Power BI 서비스 다중 지역 용량에 게시 (업로드) 된 .PBIX 또는 .XLSX 파일은 복사본이 Power BI의 테넌트 지역에 있는 Azure Blob storage에 일시적으로 저장 될 수 있습니다. 이러한 상황에서 데이터는 SSE (Azure Storage 서비스 암호화)를 사용하여 암호화되고, 파일 콘텐츠 처리 및 원격 지역으로의 전송이 완료 되는 즉시 가비지 수집을 위해 복사본이 예약 됩니다. 
 - 다중 지역 환경의 지역 간에 데이터를 이동 하는 경우 원본 지역의 데이터 인스턴스가 7-30 일 이내에 삭제 됩니다. 
 
 ### <a name="datacenters-and-locales"></a>데이터 센터 및 로캘
@@ -119,7 +119,7 @@ Azure 데이터 센터에 대한 추가 정보를 제공하는 링크는 다음�
 - [Azure 지역](https://azure.microsoft.com/regions/) – 전 세계에 걸쳐 있는 Azure의 위치에 대한 정보
 - [지역별 Azure 서비스](https://azure.microsoft.com/regions/#services) – 각 지역의 Microsoft에서 제공하는 Azure 서비스(인프라 서비스 및 플랫폼 서비스 모두)에 대한 전체 목록
 
-현재는 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)에 설명 된 대로 데이터 센터에서 서비스 되는 특정 지역에서 Power BI 서비스를 사용할 수 있습니다. 다음 링크는 Power BI 데이터 센터의 맵을 보여주며, 지역을 마우스로 가리키면 해당 지역의 데이터를 볼 수 있습니다.
+현재는 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)에 설명된 대로 데이터 센터에서 서비스 되는 특정 지역에서 Power BI 서비스를 사용할 수 있습니다. 다음 링크는 Power BI 데이터 센터의 맵을 보여주며, 지역을 마우스로 가리키면 해당 지역의 데이터를 볼 수 있습니다.
 
 * [Power BI 데이터 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
