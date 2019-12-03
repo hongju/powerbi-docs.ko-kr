@@ -8,21 +8,39 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7fe802c2dbc225c07f3cf53481f078ff1399004e
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879935"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060422"
 ---
 # <a name="create-a-launch-url"></a>시작 URL 만들기
 
 시작 URL을 만들면 실제 작업을 Power BI에 위임하여 새 브라우저 탭(또는 창)을 열 수 있습니다.
 
+> [!IMPORTANT]
+> `host.launchUrl()`는 시각적 개체 API 1.9.0에서 도입되었습니다.
+
 ## <a name="sample"></a>샘플
 
+`IVisualHost` 인터페이스를 가져오고 시각적 개체의 생성자에서 `host` 개체에 대한 링크를 저장합니다.
+
 ```typescript
-   this.host.launchUrl('https://powerbi.microsoft.com');
+import powerbi from "powerbi-visuals-api";
+import IVisualHost = powerbi.extensibility.visual.IVisualHost;
+
+export class Visual implements IVisual {
+    private host: IVisualHost;
+    // ...
+    constructor(options: VisualConstructorOptions) {
+        // ...
+        this.host = options.host;
+        // ...
+    }
+
+    // ...
+}
 ```
 
 ## <a name="usage"></a>사용

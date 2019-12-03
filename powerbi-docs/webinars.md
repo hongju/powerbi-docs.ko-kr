@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 289e6490d2449bdcbca68e6acba85cf4466b315f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880553"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164249"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -21,7 +21,17 @@ ms.locfileid: "73880553"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
+**Azure 가상 이벤트에서의 분석: Azure Synapse Analytics를 사용하여 인사이트 액세스 시간 단축**
+<br>작성자: Gayle Sheppard 및 John Macintyre
+<br>[지금 등록](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
+
+**Microsoft는 BI 데이터 보호를 어떻게 변화시키는가**
+<br>작성자: Anton Fritz 및 Adi Regev
+<br>[12월 4일에 시청하도록 등록](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**빅 데이터 분석 미래 설계의 9가지 추세**
+<br>작성자: Vijay Gopalakrishnan
+<br>[12월 18일에 시청하도록 등록](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 >[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -81,7 +91,7 @@ ms.locfileid: "73880553"
 
 ### <a name="getting-started"></a>시작
 
-**Power BI, PowerApps 및 Microsoft Flow를 통해 일상적인 비즈니스 프로세스 자동화**
+**Power BI, PowerApps 및 Power Automate를 통해 일상적인 비즈니스 프로세스 자동화**
 <br>작성자: Wim Coorevits 및 Enrique Plaza Garcia
 <br>[등록 및 지금 보기](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
@@ -101,7 +111,7 @@ ms.locfileid: "73880553"
 <br>작성자: Charles Sterling
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**Microsoft Flow 및 PowerApps의 전체 경제적 영향**
+**Power Automate 및 PowerApps의 전체 경제적 영향**
 <br>Jonathan Lipsitz, Enrique Plaza Garcia 제공
 <br>[등록 및 지금 보기](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 

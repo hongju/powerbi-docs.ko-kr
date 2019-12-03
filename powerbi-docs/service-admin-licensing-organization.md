@@ -2,7 +2,6 @@
 title: 조직의 Power BI 라이선스 부여
 description: Power BI에서 사용할 수 있는 다양한 라이선스 유형(무료 라이선스, Power BI Pro, Power BI Premium)을 이해합니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7a851a890fa734c045bb9cee60d429f87a3a602
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 2cbf2498740d26a59ced5652368cf99b8fa5eec1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442831"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857722"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>조직의 Power BI 라이선스 부여
 
@@ -55,7 +54,7 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
 1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)로 이동합니다.
 
-1. 왼쪽 탐색 창에서 **청구**, **구독**을 차례로 선택합니다.
+1. 탐색 창에서 **청구**, **구독**을 선택합니다.
 
    ![청구 및 구독](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
 
@@ -101,7 +100,7 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
 1. [Microsoft 365 관리 센터](https://portal.office.com/admin/default.aspx)로 이동합니다.
 
-1. 왼쪽 탐색 창에서 **청구** > **구독**을 선택합니다.
+1. 탐색 창에서 **청구** > **구독**을 선택합니다.
 
 1. 오른쪽에서 **구독 추가 +** 를 선택합니다.
 
@@ -156,4 +155,4 @@ Power BI Pro는 Office 365와 구독 수명 주기가 동일합니다. 자세한
 
 [Power BI Pro 라이선스 구매 및 할당](service-admin-purchasing-power-bi-pro.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 225c21693c9f100d9abbfc310b957bee7a909061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881354"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265447"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -55,7 +55,6 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 * **SharePoint Online에 포함** - Power BI 웹 파트를 사용하여 SharePoint Online에 콘텐츠를 포함할 수 없습니다. 그러나 Secure embed는 [*Embed* 웹 파트](https://docs.microsoft.com/power-bi/service-embed-secure)를 사용하여 작동합니다. 예외 목록에 *app.powerbigov.us*를 추가해야 합니다. 이 작업은 [SharePoint 페이지에 콘텐츠 포함 허용 또는 제한](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b) 문서의 지침에 따라 수행할 수 있습니다.
 * **Power BI 미국 정부**는 **Pro** 라이선스로만 제공됩니다. 관리자 포털(또는 사용자)에서 실행되는 Power BI (무료) 라이선스에 대한 참조는 상용 Power BI 서비스 클라우드에서 실행됩니다.
 * **감사** - 이제 2018년 6월에는 Office 365 보안 및 규정 준수 포털을 통해 감사를 사용할 수 있습니다.
-* **Cortana의 Power BI 콘텐츠** - Power BI 결과는 Cortana 검색 결과에 표시되지 않습니다. Cortana 검색 결과에는 Power BI 콘텐츠(대시보드, 보고서, 앱)에 대한 결과와 특정 키워드에 대한 Cortana 최적화 보고서 페이지를 보여주는 결과가 포함됩니다.
 * **외부 사용자 공유** - 공유는 Power BI 테넌트 내에서만 허용되며, 2018년 6월에는 Power BI 테넌트 외부의 사용자와 공유할 수도 있습니다. [Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포](service-admin-azure-ad-b2b.md)를 참조하세요.
 * **대시보드 및 보고서에 대한 사용량 메트릭** - 보고서와 대시보드에 사용량 메트릭이 지원되지 않습니다. 고객은 감사 로그 데이터를 사용하여 조직에서 콘텐츠의 사용량 정보를 볼 수 있습니다.
 * **데이터 흐름** - 데이터 흐름이 지원되지 않습니다.
@@ -103,7 +102,7 @@ Power BI에서는 모든 종류의 작업을 수행할 수 있습니다. 서비�
 
 * [미국 정부 기관용 Power BI 등록](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI 미국 정부 데모</a>
-* [Power BI 단계별 학습](guided-learning/index.md)
+* [Power BI 단계별 학습](guided-learning/index.yml)
 * [Power BI 서비스 시작](service-get-started.md)
 * [Power BI Desktop이란?](desktop-what-is-desktop.md)
 
