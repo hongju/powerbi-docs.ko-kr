@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1edc4179b000191dfeff87387417009bc28e0ee5
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64578801"
@@ -34,8 +34,10 @@ ms.locfileid: "64578801"
 
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
+
 3. **Zendesk** \> **지금 받기**를 선택합니다.
 4. **Power BI 앱 설치?**에서 **설치**를 선택합니다.
+
 4. **앱** 창에서 **Zendesk** 타일을 선택합니다.
 
     ![Power BI Zendesk 앱 타일](media/service-connect-to-zendesk/power-bi-zendesk-tile.png)
@@ -48,7 +50,9 @@ ms.locfileid: "64578801"
    
    ![Zendesk에 연결](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
 
+
 5. 메시지가 표시되면 Zendesk 자격 증명을 입력합니다. **oAuth 2**를 인증 메커니즘으로 선택하고 **로그인**을 클릭합니다. Zendesk 인증 흐름을 따릅니다. (이미 브라우저에서 Zendesk에 로그인한 경우, 자격 증명에 대해 묻지 않을 수 있습니다.)
+
    
    > [!NOTE]
    > 이 콘텐츠 팩은 Zendesk 관리자 계정으로 연결해야 합니다. 

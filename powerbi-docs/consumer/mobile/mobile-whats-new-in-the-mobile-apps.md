@@ -1,20 +1,19 @@
 ---
 title: Power BI용 모바일 앱의 새로운 기능
 description: Power BI용 모바일 앱의 새로운 기능
-author: mshenhav
-manager: kfile
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/08/2019
-ms.author: mshenhav
-ms.openlocfilehash: fe8f21bbbd0886b8ff4046f744884e53f8822912
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 11/12/2019
+ms.author: painbar
+ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327751"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010029"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -23,18 +22,40 @@ ms.locfileid: "71327751"
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
 
+## <a name="october-2019"></a>2019년 10월
+
+### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>보고서 서버 액세스 설정의 원격 구성에 대한 Android 지원
+
+Power BI 모바일 앱의 보고서 서버 액세스 설정의 원격 구성에 대한 Android 지원이 추가되었습니다. IT 관리자는 이제 조직의 MDM 도구를 사용하여 iOS 및 Android 디바이스에서 해당 설정을 원격으로 구성할 수 있습니다. 자세한 내용은 [원격으로 보고서 서버에 대한 Power BI 모바일 앱 액세스 권한 구성](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote)을 참조하세요.
+
+### <a name="cross-report-drillthrough"></a>교차 보고서 드릴스루
+
+이번 달에 교차 보고서 드릴스루에 대한 지원이 추가되었습니다. 이제 데이터 요소를 탭하고 드릴스루하여 다른 보고서와 보고서 페이지에 액세스할 수 있습니다. 대상 페이지로 드릴스루할 때 해당 페이지의 콘텐츠는 드릴스루 설정에 따라 필터링됩니다.
+
+> [!NOTE]
+> 보고서를 만드는 동안 보고서를 사용하도록 설정한 경우에만 교차 보고서 드릴스루를 사용할 수 있습니다. [교차 보고서 드릴스루에 대해 자세히 알아보세요](https://docs.microsoft.com/power-bi/desktop-cross-report-drill-through).
+
+
+### <a name="data-sensitivity-labels"></a>데이터 민감도 레이블
+
+이제 콘텐츠 소유자가 보고서, 대시보드, 데이터 세트 및 데이터 흐름에 대해 설정한 민감도 레이블을 보고 해당 데이터의 민감도를 분류할 수 있습니다. 민감도 레이블에 따라 다른 사용자와 콘텐츠를 공유할 수 있는 방법이 결정됩니다. [Power BI의 데이터 민감도 레이블에 대해 자세히 알아보세요](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview).
+
+### <a name="support-for-custom-app-navigation-windows"></a>사용자 지정 앱 탐색 지원(Windows)
+
+이제 iOS 및 Android 외에도 Windows 디바이스에 대해 사용자 지정 앱 탐색 지원이 추가되었습니다([9월의 새로운 기능](#september-2019) 참조).
+
 ## <a name="september-2019"></a>2019년 9월
 
 ### <a name="support-for-custom-app-navigation-ios-and-android"></a>사용자 지정 앱 탐색 지원(iOS 및 Android)
 
 사용자 지정 앱 탐색에 대한 지원이 추가되었습니다. 이제 Power BI Mobile에서 앱을 열면 앱 작성자가 빌드한 사용자 지정 탐색 환경을 사용할 수 있게 됩니다. 앱 탐색은 콘텐츠를 기준으로 구성할 수 있으며, 링크 및 축소 가능한 섹션과 같은 새 항목을 포함할 수 있습니다.
-[사용자 지정 탐색](https://powerbi.microsoft.com/en-us/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/)에 대해 자세히 알아보세요.
+[사용자 지정 탐색](https://powerbi.microsoft.com/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/)에 대해 자세히 알아보세요.
 
 ## <a name="august-2019"></a>2019년 8월
 
 ### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Power BI Mobile의 새 모양 소개(미리 보기)(iOS 및 Android)
 
-자주 사용하는 콘텐츠에 빠르게 액세스하는 홈페이지와 앱을 쉽게 탐색할 수 있도록 하는 새로운 탐색 모음을 추가하여 앱을 새로 고치고 새로운 환경을 도입했습니다. 새 환경과 새로 고친 환경을 사용하여 필요할 때 필요한 항목을 더 빠르고 쉽게 찾을 수 있습니다.
+자주 사용하는 콘텐츠에 빠르게 액세스하는 홈페이지와 앱을 쉽게 탐색할 수 있도록 하는 새로운 탐색 창을 추가하여 앱을 새로 고치고 새로운 환경을 도입했습니다. 새 환경과 새로 고친 환경을 사용하여 필요할 때 필요한 항목을 더 빠르고 쉽게 찾을 수 있습니다.
 새 모양은 미리 보기 상태이므로 사용하려면 설정해야 합니다.
 [Power BI Mobile의 새 모양](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/)에 대해 자세히 알아보세요.
 
@@ -42,7 +63,7 @@ ms.locfileid: "71327751"
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure AD(Active Directory) 애플리케이션 프록시를 사용한 보안 액세스(iOS 및 Android)
 
-Azure Active Directory 팀과 협력하여 Power BI 모바일 애플리케이션을 AAD(Azure Active Directory) 애플리케이션 프록시와 통합했습니다. 이 구성을 사용하면 복잡한 온-프레미스 구성을 설정하지 않고도 Power BI Mobile 앱에서 엔터프라이즈 경계 내에 호스트되는 보고서 서버에 연결할 수 있습니다. [Power BI Mobile 및 Azure AD 애플리케이션 프록시 통합](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)에 대해 자세히 알아보세요. [Azure AD 애플리케이션 프록시 및 Power BI 구성 방법](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)을 알아보세요.
+Azure Active Directory 팀과 협력하여 Power BI 모바일 애플리케이션을 AAD(Azure Active Directory) 애플리케이션 프록시와 통합했습니다. 이 구성을 사용하면 복잡한 온-프레미스 구성을 설정하지 않고도 Power BI Mobile 앱에서 엔터프라이즈 경계 내에 호스트되는 보고서 서버에 연결할 수 있습니다. [Power BI Mobile 및 Azure AD 애플리케이션 프록시 통합](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)에 대해 자세히 알아보세요. [Azure AD 애플리케이션 프록시 및 Power BI 구성 방법](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)을 알아보세요.
 
 ## <a name="july-2019"></a>2019년 7월
 
@@ -423,7 +444,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 #### <a name="ios-devices"></a>iOS 디바이스
 **질문 및 답변 미리 보기로 데이터에 대해 질문하기** 
 
-질문 및 답변을 사용하여 데이터에 관해 직접 질문을 하면 Power BI에서 답변을 제공합니다. 질문 및 답변은 이미 [http://powerbi.com](http://powerbi.com ) 의 Power BI 서비스입니다. 이제 [iPhone 또는 iPad의 모바일 앱에서도 사용 가능](mobile-apps-ios-qna.md)합니다.
+질문 및 답변을 사용하여 데이터에 관해 직접 질문을 하면 Power BI에서 답변을 제공합니다. 질문 및 답변은 이미 [http://powerbi.com](https://powerbi.com ) 의 Power BI 서비스입니다. 이제 [iPhone 또는 iPad의 모바일 앱에서도 사용 가능](mobile-apps-ios-qna.md)합니다.
 
 **둘 이상의 SSRS 서버에 연결** 
 
@@ -695,24 +716,24 @@ Power BI 팀은 여러 주요 추가 기능과 업데이트를 포함하여 2015
 #### <a name="sql-server-2016-reporting-services-mobile-reports-in-ios"></a>IOS의 SQL Server 2016 Reporting Services 모바일 보고서
 이제 iPad나 iPhone과 같은 IOS 디바이스의 Power BI 앱에서 SQL Server 모바일 보고서를 볼 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
-* [iOS용 Power BI 앱의 SQL 16 SSRS SQL](http://blogs.msdn.com/b/powerbi/archive/2015/12/30/sql-16-ssrs-on-power-bi-app-for-ios.aspx) 블로그 게시물
+* [iOS용 Power BI 앱의 SQL 16 SSRS SQL](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/sql-16-ssrs-on-power-bi-app-for-ios.aspx) 블로그 게시물
 * [iPhone 및 iPad 앱에서 SQL Server 모바일 보고서 및 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) 보기 설명서
 
 #### <a name="power-bi-app-for-windows-10-phones"></a>Windows 10 Phone용 Power BI 앱
 새 Windows 10 Phone용 Power BI 앱이 터치 및 모바일 생산성에 대해 최적화되어 있습니다. 대시보드 및 보고서를 탐색하고, 데이터를 보도록 동료를 초대하고, 메일을 통해 정보를 공유하여 팀의 참여도를 높이세요. 또한 [Power BI 대시보드를 Windows Phone 시작 화면에 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)할 수도 있습니다.
 
-* [Windows 10 Phone용 Power BI 앱 블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx)을 참고하세요.
+* [Windows 10 Phone용 Power BI 앱 블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx)을 참고하세요.
 * [Windows 10 Phone용 Power BI 앱 시작합니다](mobile-windows-10-phone-app-get-started.md).
 
 #### <a name="other-additions"></a>기타 추가 기능
-자세한 내용은 [Power BI 모바일 앱 12월 블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/12/30/power-bi-mobile-apps-update-_2d00_-december-2015.aspx)을 참고하세요.
+자세한 내용은 [Power BI 모바일 앱 12월 블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/power-bi-mobile-apps-update-_2d00_-december-2015.aspx)을 참고하세요.
 
 * 동료가 대시보드를 공유할 경우 알림을 받습니다. (iOS)
 * 대시보드에서 고정된 보고서 페이지 전체를 봅니다. (iOS 및 Android)
-* Android 휴대폰에서 [QR 코드를 스캔](http://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)하고 관련 타일로 바로 이동합니다.
+* Android 휴대폰에서 [QR 코드를 스캔](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)하고 관련 타일로 바로 이동합니다.
 
 ### <a name="november-2015"></a>2015년 11월
-[2015년 11월 Power BI 모바일 블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx)을 참고하세요.
+[2015년 11월 Power BI 모바일 블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx)을 참고하세요.
 
 #### <a name="all-power-bi-mobile-apps"></a>모든 Power BI 모바일 앱
 * 새로운 시작 환경
@@ -729,7 +750,7 @@ Power BI 팀은 여러 주요 추가 기능과 업데이트를 포함하여 2015
 * [타일에서 특정 URL로 직접 연결](../../service-dashboard-edit-tile.md#hyperlink)합니다.
 
 ### <a name="october-2015"></a>2015년 10월
-[10월 중순 Power BI 모바일 블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx)을 읽습니다.
+[10월 중순 Power BI 모바일 블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx)을 읽습니다.
 
 #### <a name="all-power-bi-mobile-apps"></a>모든 Power BI 모바일 앱
 * 백분율 기반 Y축이 있는 꺾은선형 차트는 이제 실제 데이터에 따라 시각적 범위를 계산합니다. 그래프는 이제 기본 값 대신 차트에서 가장 낮은 데이터 요소부터 시작합니다.
@@ -741,12 +762,12 @@ Power BI 팀은 여러 주요 추가 기능과 업데이트를 포함하여 2015
 * 그룹의 최신 대시보드를 최신 상태로 유지합니다. - 팀 멤버가 그룹 중 하나에 대시보드를 추가할 때마다 iPhone에서 알림을 수신합니다.
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
-* 이제 바로 전화를 돌려서 대시보드를 가로로 볼 수 있습니다. [iPhone 앱에서 가로 모드](http://blogs.msdn.com/b/powerbi/archive/2015/11/02/enjoy-the-landscape-with-the-power-bi-iphone-app.aspx)에 대해 자세히 읽습니다.
+* 이제 바로 전화를 돌려서 대시보드를 가로로 볼 수 있습니다. [iPhone 앱에서 가로 모드](https://blogs.msdn.com/b/powerbi/archive/2015/11/02/enjoy-the-landscape-with-the-power-bi-iphone-app.aspx)에 대해 자세히 읽습니다.
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>2015년 9월
-Power BI 모바일 앱의 개선된 점 -- Android, iOS(iPhone 및 iPad) 및 Windows. [9월 중순 Power BI 모바일 블로그 게시물](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx)을 읽습니다.
+Power BI 모바일 앱의 개선된 점 -- Android, iOS(iPhone 및 iPad) 및 Windows. [9월 중순 Power BI 모바일 블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx)을 읽습니다.
 
 #### <a name="android"></a>Android
 * 그룹 작업 영역 지원: 그룹 작업 영역에서는 동료와 공동 작업을 수행합니다. 

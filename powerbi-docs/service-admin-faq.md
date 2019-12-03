@@ -2,7 +2,6 @@
 title: Power BI 관리 - 질문과 대답(FAQ)
 description: Power BI 등록, 테넌트 관리 및 기타 관리 작업에 대해 자주 묻는 질문에 대한 답변을 알아봅니다.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cc29bd1d06e948facf1058411759c15841a8352
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 711646009fe79e145a3ab756266a442243c1116e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442925"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857823"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -56,7 +55,7 @@ ms.locfileid: "73442925"
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-이 섹션의 일부 절차에는 Windows PowerShell 스크립트가 필요합니다. PowerShell에 익숙하지 않은 경우 [PowerShell 시작 가이드](http://go.microsoft.com/fwlink/p/?LinkID=286814)를 사용하는 것이 좋습니다. 스크립트를 실행하려면 먼저 [그래프용 Azure Active Directory PowerShell](/powershell/azure/active-directory/)의 최신 64비트 버전을 설치합니다.
+이 섹션의 일부 절차에는 Windows PowerShell 스크립트가 필요합니다. PowerShell에 익숙하지 않은 경우 [PowerShell 시작 가이드](https://go.microsoft.com/fwlink/p/?LinkID=286814)를 사용하는 것이 좋습니다. 스크립트를 실행하려면 먼저 [그래프용 Azure Active Directory PowerShell](/powershell/azure/active-directory/)의 최신 64비트 버전을 설치합니다.
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>사용자가 Power BI에 등록하려면 어떻게 합니까?
 
@@ -193,7 +192,7 @@ Power BI는 Microsoft 365 전역 관리자 역할의 사용자와 Power BI 서�
 
 1. [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
 
-1. 왼쪽 탐색 모음에서 **사용자** > **활성 사용자**를 선택합니다.
+1. 탐색 창에서 **사용자** > **활성 사용자**를 선택합니다.
 
 1. 라이선스를 제거할 사용자를 찾은 후 사용자 이름을 선택합니다.
 
@@ -211,7 +210,7 @@ Power BI는 Microsoft 365 전역 관리자 역할의 사용자와 Power BI 서�
 
 1. [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
 
-1. 왼쪽 탐색 모음에서 **사용자** > **활성 사용자**를 선택합니다.
+1. 탐색 창에서 **사용자** > **활성 사용자**를 선택합니다.
 
 1. **보기** 메뉴에서 **사용자 지정 보기 추가**를 선택합니다.
 
@@ -235,7 +234,7 @@ Power BI 테넌트의 데이터 영역에 대한 자세한 내용은 [내 Power 
 
 ### <a name="what-is-the-power-bi-sla"></a>Power BI Service Level Agreement(서비스 수준 계약)란?
 
-Power BI SLA(서비스 수준 계약)에 대한 정보는 Microsoft 라이선스 웹 사이트의 **라이선스** 섹션의 [라이선싱 조건 및 설명서](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 문서를 참조하세요.
+Power BI SLA(서비스 수준 계약)에 대한 정보는 Microsoft 라이선스 웹 사이트의 **라이선스** 섹션의 [라이선싱 조건 및 설명서](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 문서를 참조하세요.
 
 ### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Power BI는 고가용성 및 장애 조치(failover)를 어떻게 처리하나요?
 
@@ -264,6 +263,6 @@ Microsoft는 Azure Active Directory와 같은 Azure 서비스에 빌드된 Micro
 [Office 365 사용자 계정 관리](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
 [Office 365 그룹 관리](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 
 [1]: https://docs.microsoft.com/powershell/scripting/overview

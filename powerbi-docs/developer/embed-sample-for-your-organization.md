@@ -1,21 +1,20 @@
 ---
-title: 조직용 애플리케이션에 Power BI 콘텐츠를 포함하기 위한 임베디드 분석
+title: 조직의 애플리케이션에 콘텐츠 포함
 description: 조직의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서(Power BI 또는 페이지 매김), 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c67ce4ef9b5b0ac2054d4ecdf76ee3a1a79571d8
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431070"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311070"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -429,4 +428,4 @@ function updateEmbedReport() {
 > [!div class="nextstepaction"]
 >[고객에 대한 콘텐츠 포함](embed-sample-for-customers.md)
 
-추가 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](http://community.powerbi.com/).
+추가 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](https://community.powerbi.com/).

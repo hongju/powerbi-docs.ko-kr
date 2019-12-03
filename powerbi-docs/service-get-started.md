@@ -2,7 +2,6 @@
 title: Power BI 서비스 시작
 description: Power BI 온라인 서비스 시작(app.powerbi.com)
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060390"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872317"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>자습서:  Power BI 서비스 시작
 이 자습서는 *Power BI 서비스* 기능 중 일부를 소개합니다. 자습서를 통해 데이터에 연결하고, 보고서 및 대시보드를 만들고, 데이터에 대해 질문할 수 있습니다. Power BI 서비스에서 훨씬 더 많은 작업을 수행할 수 있습니다. 이 자습서는 의욕을 높여줍니다. Power BI 서비스를 다른 Power BI 제품에 적용하는 방법을 이해하려면 [Power BI란?](fundamentals/power-bi-overview.md)을 읽어 보시기 바랍니다.
@@ -35,7 +34,7 @@ ms.locfileid: "73060390"
 > * 데이터 세트, 보고서 및 대시보드를 삭제하여 리소스를 정리합니다.
 
 > [!TIP]
-> 대신 무료 자가 진행식 교육 과정을 더 선호합니까? [EdX에서 데이터 분석 및 시각화 코스에 등록](http://aka.ms/edxpbi)합니다.
+> 대신 무료 자가 진행식 교육 과정을 더 선호합니까? [EdX에서 데이터 분석 및 시각화 코스에 등록](https://aka.ms/edxpbi)합니다.
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI 서비스에 등록
 Power BI 계정이 없는 경우, 시작하기 전에 [Power BI Pro 평가판에 등록](https://app.powerbi.com/signupredirect?pbi_source=web)합니다.
@@ -46,10 +45,10 @@ Power BI 계정이 없는 경우, 시작하기 전에 [Power BI Pro 평가판에
 
 Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작하는 경우가 많습니다. 이번에는 Power BI 서비스에서 보고서를 처음부터 만드는 것부터 시작합니다.
 
-이 자습서에서는 CSV 파일에서 데이터를 가져옵니다. 함께 진행해볼까요? [재무 샘플 CSV 파일을 다운로드합니다](http://go.microsoft.com/fwlink/?LinkID=521962).
+이 자습서에서는 CSV 파일에서 데이터를 가져옵니다. 함께 진행해볼까요? [재무 샘플 CSV 파일을 다운로드합니다](https://go.microsoft.com/fwlink/?LinkID=521962).
 
-1. [Power BI에 로그인합니다](http://www.powerbi.com/). 계정이 없는 경우 평가판에 등록할 수 있습니다.
-2. Power BI는 브라우저에서 열립니다. 왼쪽 탐색 표시줄의 맨 아래에 있는 **데이터 가져오기**를 선택합니다.
+1. [Power BI에 로그인합니다](https://www.powerbi.com/). 계정이 없는 경우 평가판에 등록할 수 있습니다.
+2. Power BI는 브라우저에서 열립니다. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다.
 
     **데이터 가져오기** 페이지가 열립니다.   
 
@@ -73,11 +72,11 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
     ![빈 보고서 캔버스](media/service-get-started/power-bi-service-blank-report.png)
 
-7. 위쪽 탐색 모음에 **읽기용 보기** 옵션이 있는 것을 확인합니다. 이 옵션이 있다는 것은 현재 편집용 보기를 사용 중인 것입니다. [둘러보기](service-the-report-editor-take-a-tour.md)를 통해 보고서 편집기를 살펴볼 수 있습니다.
+7. 위쪽 탐색 창에 **읽기용 보기** 옵션이 있는 것을 확인합니다. 이 옵션이 있다는 것은 현재 편집용 보기를 사용 중인 것입니다. [둘러보기](service-the-report-editor-take-a-tour.md)를 통해 보고서 편집기를 살펴볼 수 있습니다.
 
     ![읽기용 보기 옵션](media/service-get-started/power-bi-service-reading-view.png)
 
-    편집용 보기에서는 자신이 보고서의 ‘소유자’이므로 보고서를 만들고 수정할 수 있습니다. 즉, 사용자가 ‘작성자’입니다. 동료와 보고서를 공유하는 경우, 동료는 ‘소비자’이므로 읽기용 보기에서 보고서를 조작할 수만 있습니다. [읽기용 보기 및 편집용 보기](consumer/end-user-reading-view.md)에 대해 자세히 알아보세요.
+    편집용 보기에서는 자신이 보고서의 ‘소유자’이므로 보고서를 만들고 수정할 수 있습니다.  즉, 사용자가 ‘작성자’입니다.  동료와 보고서를 공유하는 경우, 동료는 ‘소비자’이므로 읽기용 보기에서 보고서를 조작할 수만 있습니다.  [읽기용 보기 및 편집용 보기](consumer/end-user-reading-view.md)에 대해 자세히 알아보세요.
 
 
 ## <a name="step-2-create-a-chart-in-a-report"></a>2단계: 보고서에서 차트 만들기
@@ -115,13 +114,13 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
    
 8. 대시보드에서 새 타일을 선택하여 보고서로 돌아갑니다. Power BI가 읽기용 보기에서 보고서로 돌아갑니다. 
 
-1. 편집용 보기로 다시 전환하려면, 위쪽 탐색 모음에서 **추가 옵션**(...)을 선택한 다음 > **편집**을 선택합니다. 편집용 보기로 돌아가 타일을 계속 탐색하고 고정할 수 있습니다.
+1. 편집용 보기로 다시 전환하려면, 위쪽 탐색 창에서 **추가 옵션**(...) > **편집**을 선택합니다. 편집용 보기로 돌아가 타일을 계속 탐색하고 고정할 수 있습니다.
 
     ![편집을 선택하여 보고서 편집](media/service-get-started/power-bi-service-edit-report.png)
 
 ## <a name="step-3-explore-with-qa"></a>3단계: 질문 및 답변을 사용한 탐색
 
-데이터의 빠른 탐색을 위해 질문 및 답변 상자에 질문을 합니다. 질문 및 답변은 데이터에 대한 자연 언어 쿼리를 만듭니다. 대시보드에서 질문 및 답변 상자는 위쪽에 있습니다(**데이터에 대해 질문하기**). 보고서에서는 위쪽 탐색 모음에 있습니다(**질문하기**).
+데이터의 빠른 탐색을 위해 질문 및 답변 상자에 질문을 합니다. 질문 및 답변은 데이터에 대한 자연 언어 쿼리를 만듭니다. 대시보드에서 질문 및 답변 상자는 위쪽에 있습니다(**데이터에 대해 질문하기**). 보고서에서는 위쪽 탐색 창에 있습니다(**질문하기**).
 
 1. 대시보드로 돌아가려면 검은색 **Power BI** 막대에서 **내 작업 영역**을 선택합니다.
 
@@ -198,7 +197,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 ## <a name="clean-up-resources"></a>리소스 정리
 자습서를 완료했으므로 데이터 세트, 보고서 및 대시보드를 삭제할 수 있습니다. 
 
-1. 왼쪽 탐색 모음에서 **내 작업 영역**에 있는지 확인합니다.
+1. 탐색 창에서 **내 작업 영역**이 있는지 확인합니다.
 2. **데이터 세트** 탭을 선택하고 이 자습서에 가져온 데이터 세트를 찾습니다.  
 3. **추가 옵션**(...) > **삭제**를 선택합니다.
 

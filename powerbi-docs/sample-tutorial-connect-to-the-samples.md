@@ -2,7 +2,6 @@
 title: Power BI 서비스의 샘플에 연결
 description: Power BI 서비스의 샘플을 설치하고 검색하는 방법을 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020623"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873841"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI 서비스의 샘플에 연결
 
@@ -38,11 +37,11 @@ Power BI 서비스 및 Power BI Desktop 샘플이 제공됩니다. 과정을 따
 
     Power BI Pro 라이선스가 없다면 샘플을 내 작업 영역에 저장하면 됩니다.
 
-2. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기**를 선택합니다. 
+2. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다. 
 
    ![데이터 가져오기 선택](media/sample-datasets/power-bi-get-data.png)
 
-   **데이터 가져오기**가 보이지 않으면 창의 맨 위에서 ![햄버거 아이콘](media/sample-tutorial-connect-to-the-samples/expand-nav.png) 아이콘을 선택하여 탐색 창을 펼칩니다.
+   **데이터 가져오기**가 보이지 않으면 탐색 창의 맨 위에서 ![햄버거 아이콘](media/sample-tutorial-connect-to-the-samples/expand-nav.png) 아이콘을 선택하여 창을 펼칩니다.
 
 5. **데이터 가져오기** 페이지가 표시되면 **샘플**을 선택합니다.
    
@@ -100,7 +99,7 @@ Power BI Desktop에서 샘플 .pbix 파일을 처음 열 때는 보고서 뷰에
 
 Power BI 서비스에서 보고서를 편집하는 것과 달리, Power BI Desktop에서는 쿼리를 사용하고 데이터를 모델링하여 데이터가 보고서에서 최상의 인사이트를 지원하도록 할 수 있습니다. 로컬 드라이브든, 클라우드든 관계없이 어디든지 Power BI Desktop 파일을 저장할 수 있습니다.
 
-1. [소매점 분석 샘플 .pbix 파일](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 다운로드하여 Power BI Desktop에서 엽니다. 
+1. [소매점 분석 샘플 .pbix 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 다운로드하여 Power BI Desktop에서 엽니다. 
 
     ![Power BI 보고서 뷰의 샘플](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
@@ -138,4 +137,4 @@ Power BI 서비스에서 보고서를 편집하는 것과 달리, Power BI Deskt
 - [Power BI 서비스 샘플](sample-datasets.md)
 - [Power BI용 데이터 원본](service-get-data.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

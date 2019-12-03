@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9f8da4a5f37eb1e652dd2125dd588febf49fb01b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1fd640922f132f56a03b37ed59a6267a5af83d00
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871835"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311700"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -135,7 +135,8 @@ Power BI의 **웹에 게시** 옵션을 사용하면 모든 디바이스에서 �
 - ArcGIS Maps for Power BI 시각적 개체.
 - 보고서 수준 DAX 측정값을 포함하는 보고서.
 - Single Sign-On 데이터 쿼리 모델.
-- [보안 기밀 또는 소유 정보](#publish-to-web-from-power-bi).
+- 보안 기밀 또는 소유 정보.
+- [공유 및 인증된 데이터 세트](service-datasets-share.md).
 - **포함** 옵션에 제공되는 자동 인증 기능은 Power BI JavaScript API에서 작동하지 않습니다. Power BI JavaScript API의 경우 포함에 대해 [사용자 소유 데이터](developer/embed-sample-for-your-organization.md) 접근 방식을 사용합니다.
 
 ## <a name="tenant-setting"></a>테넌트 설정

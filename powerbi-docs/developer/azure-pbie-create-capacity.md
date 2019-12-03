@@ -1,20 +1,20 @@
 ---
 title: Azure Portal에서 Power BI Embedded 용량 만들기| Microsoft Docs
 description: 이 아티클은 Microsoft Azure에서 Power BI Embedded 용량을 만드는 방법을 안내합니다.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: zakharb
 ms.date: 02/05/2019
-ms.openlocfilehash: 72c7211647254c97b3cb7ce088d400112a9e288a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 57204602900e76e7bd5034e96f6385e5e944c04e
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73864973"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265810"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal에서 Power BI Embedded 용량 만들기
 
@@ -51,7 +51,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
     |**구독**|용량을 만들려는 구독입니다.|
     |**리소스 그룹**|이 새 용량을 포함하는 리소스 그룹입니다. 기존 리소스 그룹에서 선택하거나 새로 만듭니다. 자세한 내용은 [Azure Resource Manager 개요](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)를 참조하세요.|
     |**Power BI 용량 관리자**|Power BI 용량 관리자는 Power BI 관리 포털에서 용량을 확인하고 다른 사용자에게 할당 권한을 부여할 수 있습니다. 기본적으로 용량 관리자는 사용자 계정입니다. 용량 관리자는 Power BI 테넌트 내에 있어야 합니다.|
-    |**위치**|테넌트에 대해 Power BI가 호스팅되는 위치입니다. 기본 위치는 홈 지역이지만 [Multi-Geo 옵션](embedded-multi-geo.md)을 사용하여 위치를 변경할 수 있습니다.
+    |**위치**|테넌트에 대해 Power BI가 호스팅되는 위치입니다. 기본 위치는 홈 지역이지만 [다중 지역 옵션](embedded-multi-geo.md)을 사용하여 위치를 변경할 수 있습니다.
     |**가격 책정 계층**|사용자의 요구를 충족하는 SKU(v 코어 수 및 메모리 크기)를 선택합니다.  자세한 내용은 [Power BI Embedded 가격 책정](https://azure.microsoft.com/pricing/details/power-bi-embedded/)을 참조하세요.|
 
 **모든 서비스** > **Power BI Embedded**로 이동하여 용량이 준비되었는지 확인할 수 있습니다. 또는 알림 섹션 또는 블레이드 내에서 **대시보드에 고정**을 선택하여 대시보드로 이동하여 새 용량을 확인할 수 있습니다.

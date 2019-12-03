@@ -1,19 +1,19 @@
 ---
 title: Power BI 데이터 세트 속성
 description: Power BI 데이터 세트 API의 속성에 대한 자세한 내용
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: b0fabcb5915a4f642abc1af03979a4597e2aa2f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9d0ab5bcffe3b0267b3e07a684c2c7c9bd0fd316
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73864951"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265814"
 ---
 # <a name="dataset-properties"></a>데이터 세트 속성
 

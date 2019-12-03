@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128371"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265902"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -278,13 +278,6 @@ Azure B2B 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습�
 
 ## <a name="integration-settings"></a>통합 설정
 
-### <a name="ask-questions-about-data-using-cortana"></a>Cortana를 사용하여 데이터에 대한 질문
-
-조직의 사용자는 Cortana를 사용하여 데이터에 대한 질문을 할 수 있습니다. [자세히 알아보기](service-cortana-enable.md)
-
-> [!NOTE]
-> 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
-
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>온-프레미스 데이터 세트를 통해 Excel에서 분석 사용
 
 조직의 사용자는 Excel을 사용하여 온-프레미스 Power BI 데이터 세트를 보고 상호 작용할 수 있습니다. [자세히 알아보기](service-analyze-in-excel.md)
@@ -298,7 +291,7 @@ Azure B2B 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습�
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Power BI(미리 보기)용 전역 검색 사용
 
-조직의 사용자는 Azure Search에 의존하는 외부 검색 기능을 사용할 수 있습니다. 예를 들어 사용자는 Cortana를 사용하여 Power BI 대시보드 및 보고서에서 주요 정보를 직접 검색할 수 있습니다. [자세히 알아보기](service-cortana-intro.md)
+조직의 사용자는 Azure Search에 의존하는 외부 검색 기능을 사용할 수 있습니다.
 
 ## <a name="custom-visuals-settings"></a>사용자 지정 시각적 개체 설정
 

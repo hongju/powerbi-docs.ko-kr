@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: c6ecb2eb2346940a22bbd6b7bff5ca0138faa290
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102597"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565248"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
@@ -70,7 +70,7 @@ Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-
 
 * capabilities.json에서 속성을 변경한 경우 이로 인해 기존 사용자의 보고서가 손상되지 않아야 합니다.
 
-* 시각적 개체가 [Power BI 시각적 개체에 대한 지침](./guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases)을 준수해야 합니다. **워터마크는 허용되지 않습니다**.
+* 시각적 개체가 [Power BI 시각적 개체에 대한 지침](./guidelines-powerbi-visuals.md)을 준수해야 합니다. **워터마크는 허용되지 않습니다**.
 
 * 공용 검토 가능한 OSS 구성 요소만(공용 JS 라이브러리 또는 TypeScript는 소스 코드를 검토할 수 있으며 알려진 취약점이 없음) 사용합니다. 상용 구성 요소를 사용하여 사용자 지정 시각적 개체를 확인할 수 없습니다.
 

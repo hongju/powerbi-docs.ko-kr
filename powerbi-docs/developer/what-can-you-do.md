@@ -1,19 +1,19 @@
 ---
 title: 개발자는 Power BI로 무엇을 할 수 있나요?
 description: Power BI는 개발자를 위한 다양한 옵션을 제공합니다. 여기에는 사용자 지정 시각적 개체에서 스트리밍 데이터 세트에 이르는 다양한 옵션이 포함됩니다.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 9105edd88e83f17f4d6e75a7e45dc123a6789713
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9f9383e5cdb4b4690ef75294f7ff8c17fb643d9a
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875684"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265010"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>개발자는 Power BI로 무엇을 할 수 있나요?
 
@@ -33,7 +33,7 @@ Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드
 
 ![PBIE 샘플](media/what-can-you-do/what-can-you-do-02.png)
 
-Power BI와 함께 포함하는 방법에 대한 자세한 내용은 [Power BI와 함께 포함](embedding.md)을 참조하세요.
+Power BI로 포함하는 방법에 대한 자세한 내용은 [Power BI로 포함](embedding.md)을 참조하세요.
 
 ## <a name="developing-custom-visuals"></a>사용자 지정 시각적 개체 개발
 

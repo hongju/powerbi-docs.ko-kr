@@ -2,7 +2,6 @@
 title: 작업 영역에서 데이터 스토리지 관리
 description: 보고서 및 데이터 세트를 계속 게시할 수 있도록 개인 또는 작업 영역의 데이터 스토리지를 관리하는 방법을 알아봅니다.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431372"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873652"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI 작업 영역에서 데이터 스토리지 관리
 
@@ -46,7 +45,7 @@ ms.locfileid: "73431372"
 
 Power BI 계정에서 사용 중인 데이터 스토리지의 규모를 확인하고 계정을 관리합니다.
 
-1. 자체 스토리지를 관리하려면 왼쪽 탐색 창의 **내 작업 영역**으로 이동합니다.
+1. 자체 스토리지를 관리하려면 탐색 창의 **내 작업 영역**으로 이동합니다.
    
     ![내 작업 영역](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 2. 오른쪽 위 모서리에서 ![기어 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)을 선택한 후\> **개인 스토리지 관리**를 선택합니다.
@@ -104,5 +103,5 @@ Power BI로 가져오는 데이터 세트당 1GB 제한이 있습니다. Excel �
 
  ![스토리지 제한 초과](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+ 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

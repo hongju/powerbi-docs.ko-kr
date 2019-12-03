@@ -2,26 +2,25 @@
 title: Power BI의 시각화 유형
 description: Power BI의 시각화 유형
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775958"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099926"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
 새로운 시각화를 추가할 예정이니 기대해 주세요.
 
-[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)를 확인하면 고유한 대시보드 및 보고서에 다운로드하여 사용할 수 있는 [사용자 지정 시각적 개체](../power-bi-custom-visuals.md) 목록이 늘어나는 것을 볼 수 있습니다. 창의성을 발휘하고 싶으신가요? [이 커뮤니티 사이트에 고유한 시각적 개체를 만들고 추가하는 방법을 알아봅니다](../developer/office-store.md).  
+[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)를 확인하면 고유한 대시보드 및 보고서에 다운로드하여 사용할 수 있는 [사용자 지정 시각적 개체](../developer/power-bi-custom-visuals.md) 목록이 늘어나는 것을 볼 수 있습니다. 창의성을 발휘하고 싶으신가요? [이 커뮤니티 사이트에 고유한 시각적 개체를 만들고 추가하는 방법을 알아봅니다](../developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI에서 사용할 수 있는 시각화 목록
 이러한 시각화는 모두 Power BI 보고서에 추가하고, 질문 및 답변에서 지정하고, 대시보드에 고정할 수 있습니다.
@@ -159,7 +158,7 @@ ms.locfileid: "72775958"
 ![R 시각적 개체](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
 
 >[!TIP]
->일반적으로 ‘R 시각적 개체’라고 하는 R 스크립트를 사용하여 만든 시각적 개체는 R의 풍부한 분석 및 시각화 기능을 사용하여 예측과 같은 고급 데이터 셰이핑 및 분석을 제공할 수 있습니다. R 시각적 개체는 Power BI Desktop에서 만들고 Power BI 서비스에 게시할 수 있습니다.   
+>일반적으로 ‘R 시각적 개체’라고 하는 R 스크립트를 사용하여 만든 시각적 개체는 R의 풍부한 분석 및 시각화 기능을 사용하여 예측과 같은 고급 데이터 셰이핑 및 분석을 제공할 수 있습니다. R 시각적 개체는 Power BI Desktop에서 만들고 Power BI 서비스에 게시할 수 있습니다.    
 
 자세한 내용은 [Power BI의 R 시각적 개체](service-r-visuals.md)를 참조하세요.
 
@@ -226,8 +225,8 @@ Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼
 
 "***sales by state as a treemap***"
 
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![지정된 시각화 유형을 표시하는 Q&A 질문 상자](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 시각화](power-bi-report-visualizations.md)    
-[sqlbi.com에서 올바른 시각적 개체 참조](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[sqlbi.com에서 올바른 시각적 개체 참조](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

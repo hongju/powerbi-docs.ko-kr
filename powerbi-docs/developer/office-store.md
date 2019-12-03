@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: f8ca6aae805ae3184a1c54d8707fcb9a3cfd32e7
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128050"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265243"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>AppSource에 Power BI 시각적 개체 게시하기
 
@@ -25,7 +25,7 @@ ms.locfileid: "74128050"
 
 ## <a name="what-is-appsource"></a>AppSource란?
 
-**AppSource**는 Microsoft 제품 및 서비스에 대한 SaaS 앱과 추가 기능을 찾을 수 있는 곳입니다. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)는 전보다 효율적이고, 멋지고, 통찰력 있게 작업할 수 있도록 도와주는 솔루션을 수백만 명의 Office 365, Dynamics 365, Cortana Intelligence 등의 사용자와 연결해 줍니다.
+**AppSource**는 Microsoft 제품 및 서비스에 대한 SaaS 앱과 추가 기능을 찾을 수 있는 곳입니다. 수백만 명에 달하는 Office 365, Dynamics 365 등의 사용자는 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)에서 제공하는 다양한 솔루션을 사용하여 이전보다 풍부한 인사이트를 바탕으로 더욱 효율적이고 능숙하게 작업을 수행할 수 있습니다.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>사용자 지정 시각적 개체를 제출하기 위한 준비
 
@@ -38,7 +38,7 @@ ms.locfileid: "74128050"
 | 아이콘 |예 |스토어 맨 앞에 표시되는 사용자 지정 시각적 개체 로고를 포함해야 합니다. 가능한 형식은 png, .jpg, .jpeg 또는 .gif입니다. 정확히 300px(너비) x 300px(높이)여야 합니다. **중요** 아이콘을 제출하기 전에 [간단한 가이드](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images)를 주의 깊게 검토하세요. |
 | 스크린샷 |예 |스크린샷을 하나 이상 제공해야 합니다. 가능한 형식은 png, .jpg, .jpeg 또는 .gif입니다. 정확히 1366px(너비) x 768px(높이)여야 합니다. 파일 크기는 1024KB를 초과할 수 없습니다. *활용도를 높이려면, 각 스크린샷에 표시되는 주요 기능의 가치 제안을 분명히 전달하기 위한 텍스트 거품을 추가합니다.* |
 | 다운로드 링크 지원 |예 |시각화 개체에 문제가 있는 고객을 지원하기 위한 URL을 제공합니다. 이 링크는 SellerDashboard 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. URL 형식은 https:// 또는 https:// 를 포함해야 합니다. |
-| 개인정보처리방침 링크 |예 |시각화 개체를 사용하는 고객에 대해 개인 정보 취급 방침에 대한 링크를 제공합니다. 이 링크는 SellerDashboard 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. 링크 형식에 https:// 또는 https:// 를 포함해야 합니다. |
+| 개인정보처리방침 링크 |예 |시각화 개체를 사용하는 고객에 대해 개인정보처리방침에 대한 링크를 제공합니다. 이 링크는 SellerDashboard 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. 링크 형식에 https:// 또는 https:// 를 포함해야 합니다. |
 | EULA(최종 사용자 사용권 계약) |예 |EULA 파일을 업로드해야 합니다. 자체적인 EULA를 사용하거나 Office 스토어 내에 있는 Power BI 시각적 개체에 대한 기본 EULA를 사용할 수 있습니다. 기본 EULA를 사용하려면 판매자 대시보드의 “최종 사용자 사용권 계약” 파일 업로드 대화 상자에 다음 URL을 붙여넣습니다. [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
 | 비디오 링크 |아니요 |사용자 지정 시각적 개체에 대한 사용자의 관심을 높이려면 시각적 개체에 대한 비디오 링크를 제공하는 것이 좋습니다. URL 형식은 https:// 또는 https:// 를 포함해야 합니다. |
 | GitHub 리포지토리 |아니요 |다른 개발자가 피드백을 제공하고 코드에 대한 개선을 제안할 수 있도록 시각적 개체의 소스와 함께 샘플 데이터가 있는 [GitHub](https://www.github.com) 리포지토리의 유효한 공개 링크를 제공하는 것이 좋습니다. |

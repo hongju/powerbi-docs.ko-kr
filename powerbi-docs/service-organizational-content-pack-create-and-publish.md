@@ -35,7 +35,7 @@ Contoso의 릴리스 관리자이고 신제품 출시를 준비하는 중이라�
 
 1. 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
 
-1. 위쪽 탐색 창에서 코그 아이콘 ![코그 아이콘의 스크린샷](media/service-organizational-content-pack-create-and-publish/cog.png)을 선택합니다. > **콘텐츠 팩 만들기**를 선택합니다.
+1. 위쪽 탐색 창에서 톱니바퀴 아이콘 ![코그 아이콘의 스크린샷](media/service-organizational-content-pack-create-and-publish/cog.png) > **콘텐츠 팩 만들기**를 선택합니다.
 
    ![코그 아이콘 및 콘텐츠 팩 만들기 옵션에 포커스가 있는 UI 스크린샷](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
@@ -76,7 +76,7 @@ Contoso의 릴리스 관리자이고 신제품 출시를 준비하는 중이라�
       > [!NOTE]
       > 그룹 구성원이 Excel 통합 문서를 볼 수 없는 경우 [비즈니스용 OneDrive에서 통합 문서를 공유](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)해야 할 수 있습니다.
 
-1. **게시** 를 선택하여 콘텐츠 팩을 그룹의 조직 콘텐츠 팩 라이브러리에 추가합니다.  
+1. **게시**를 선택하여 콘텐츠 팩을 그룹의 조직 콘텐츠 팩 라이브러리에 추가합니다.  
 
    성공적으로 게시되면 성공 메시지가 표시됩니다.
 

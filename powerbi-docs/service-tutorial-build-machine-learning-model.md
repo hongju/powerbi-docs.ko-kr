@@ -2,7 +2,6 @@
 title: '자습서:  Power BI에서 Machine Learning 모델 빌드'
 description: 이 자습서에서는 Power BI에서 기계 학습 모델을 빌드합니다.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 75f6449c4795fd0095c46a33b33fd3ef14045e35
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 78b29a4e71e75793e168da25987b3e9c4a8b13f4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432255"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877018"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>자습서:  Power BI에서 Machine Learning 모델 빌드
 
@@ -47,7 +46,7 @@ ms.locfileid: "73432255"
 
 데이터 흐름에 엔터티를 만들려면 Power BI 서비스에 로그인한 다음, AI가 사용하도록 설정된 전용 용량의 작업 영역으로 이동합니다.
 
-작업 영역이 아직 없는 경우 Power BI 서비스의 왼쪽 탐색 메뉴에서 **작업 영역**을 선택하여 작업 영역을 만든 다음, 표시되는 패널의 맨 아래에 있는 **작업 영역 만들기**를 선택합니다. 오른쪽에 작업 영역 세부 정보를 입력하는 패널이 열립니다. 작업 영역 이름을 입력하고 **고급**을 선택합니다. 작업 영역에서 라디오 단추를 사용하여 전용 용량을 사용하는지 확인하고 AI 미리 보기가 설정된 전용 용량 인스턴스에 할당되었는지 확인합니다. 그런 다음, **저장**을 선택합니다.
+작업 영역이 아직 없는 경우 Power BI 서비스의 탐색 창 메뉴에서 **작업 영역**을 선택하여 작업 영역을 만든 다음, 표시되는 패널의 맨 아래에 있는 **작업 영역 만들기**를 선택합니다. 오른쪽에 작업 영역 세부 정보를 입력하는 패널이 열립니다. 작업 영역 이름을 입력하고 **고급**을 선택합니다. 작업 영역에서 라디오 단추를 사용하여 전용 용량을 사용하는지 확인하고 AI 미리 보기가 설정된 전용 용량 인스턴스에 할당되었는지 확인합니다. 그런 다음, **저장**을 선택합니다.
 
 ![작업 영역 만들기](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 

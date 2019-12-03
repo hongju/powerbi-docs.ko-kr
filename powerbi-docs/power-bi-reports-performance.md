@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 2fd0a3d878641264e84a14579901a9685b0f6e8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 52beebb839907a6b4141cec089184fcb693fe817
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875097"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010699"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 성능 모범 사례
 
@@ -152,8 +152,6 @@ SQL 프로파일러를 통해 가장 긴 CPU 시간을 사용하는 쿼리를 �
 네트워크 대기 시간은 Power BI 서비스 연결에 대한 요청 및 전달할 응답에 필요한 시간이 늘어나면 보고서 성능에 영향을 줄 수 있습니다. Power BI의 테넌트는 특정 지역에 할당됩니다. powerbi.com으로 이동하고 오른쪽 위에 있는 **?** 를 선택한 다음 **Power BI 정보**를 선택하면 테넌트의 “홈” 영역을 볼 수 있습니다. 테넌트의 사용자가 Power BI 서비스에 액세스하는 경우 해당 요청은 항상 이 영역에 라우팅됩니다. 요청이 Power BI 서비스에 도달하면 서비스에서 추가 요청을 기본 데이터 원본 또는 게이트웨이와 같은 대상으로 보낼 수 있습니다. 또한 네트워크 대기 시간의 영향도 받습니다.
 
 [Azure 속도 테스트](https://azurespeedtest.azurewebsites.net/)와 같은 도구는 클라이언트와 Azure 지역 간의 네트워크 대기 시간을 표시합니다. 일반적으로 네트워크 대기 시간의 영향을 최소화하려면 데이터 원본, 게이트웨이 및 Power BI 클러스터를 최대한 가깝게 유지해야 합니다. 네트워크 대기 시간이 문제가 되는 경우 게이트웨이 및 데이터 원본을 가상 머신에 배치하여 사용자 Power BI 클러스터에 더 가깝게 설치해 보세요.
-
-네트워크 대기 시간을 더욱 개선하려면 클라이언트와 Azure 데이터 센터 간에 더 빠르고 더 안정적인 네트워크 연결을 만들 수 있는 [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) 사용을 고려합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
