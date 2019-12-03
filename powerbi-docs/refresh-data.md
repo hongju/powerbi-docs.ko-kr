@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 422d742748fc6880b0636bd3a0c5de7011a3ff0a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 28a6aa8659411b829e6982e7c766e03d683871fd
+ms.sourcegitcommit: 982ffaa8eb91897f48221a816970671f4a92e6d9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860786"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74415447"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI에서 데이터 새로 고침
 
@@ -105,7 +105,14 @@ Power BI 사용자의 경우 데이터 새로 고침은 일반적으로 새로 �
 
 OneDrive 또는 SharePoint Online에서 Power BI Desktop 파일, Excel 통합 문서 또는 쉼표로 구분된 값(.csv) 파일을 기반으로 하는 데이터 세트 및 보고서를 만든 경우 Power BI는 OneDrive 새로 고침이라고 하는 다른 유형의 새로 고침을 수행합니다. 자세한 내용은 [Power BI용 파일에서 데이터 가져오기](service-get-data-from-files.md)를 참조하세요.
 
-Power BI가 데이터를 데이터 원본에서 데이터 세트로 가져오는 동안의 데이터 세트 새로 고침과 달리 OneDrive 새로 고침은 데이터 세트 및 보고서를 원본 파일과 동기화합니다. 기본적으로 Power BI는 OneDrive 또는 SharePoint Online의 파일에 연결된 데이터 세트에 동기화가 필요한지 여부를 약 1시간마다 확인합니다. 이전의 동기화 주기를 검토하려면 새로 고침 기록에서 OneDrive 탭을 선택합니다. 다음 스크린샷에서는 샘플 데이터 세트에 대해 완료된 동기화 주기를 보여 줍니다.
+Power BI가 데이터를 데이터 원본에서 데이터 세트로 가져오는 동안의 데이터 세트 새로 고침과 달리 OneDrive 새로 고침은 데이터 세트 및 보고서를 원본 파일과 동기화합니다. 기본적으로 Power BI는 OneDrive 또는 SharePoint Online의 파일에 연결된 데이터 세트에 동기화가 필요한지 여부를 약 1시간마다 확인합니다.
+
+> [!IMPORTANT]
+> OneDrive에서 파일 관리를 처리하는 방법에 주의해야 합니다. OneDrive 파일을 데이터 원본으로 설정하는 경우 Power BI는 새로 고침을 수행할 때 파일의 항목 ID를 참조하여 일부 시나리오에서 문제가 발생할 수 있습니다. 마스터 파일 _A_와 해당 파일의 프로덕션 복사본 _B_가 있고 파일 B에 대해 OneDrive 새로 고림을 구성하는 시나리오를 가정해 보겠습니다. 그런 다음, 파일 A를 파일 B에 _‘복사’_ 하면 복사 작업에서 이전 파일 B를 삭제하고 다른 항목 ID를 사용하여 새 파일 B를 만들어 OneDrive 새로 고침을 중단합니다. 대신 파일 B를 업로드하고 대체하여 동일한 항목 ID를 유지해야 합니다.
+
+끌어서 놓기를 사용하는 경우처럼 파일을 다른 위치로 이동하면 PBI에서 fileID를 계속 알고 있기 때문에 새로 고침이 계속 작동합니다. 그러나 해당 파일을 다른 위치에 복사하면 파일의 새 인스턴스와 새 fileID가 만들어집니다. 따라서 Power BI 파일 참조가 더 이상 유효하지 않게 되고 새로 고침이 실패합니다.
+
+이전의 동기화 주기를 검토하려면 새로 고침 기록에서 OneDrive 탭을 선택합니다. 다음 스크린샷에서는 샘플 데이터 세트에 대해 완료된 동기화 주기를 보여 줍니다.
 
 ![새로 고침 기록](media/refresh-data/refresh-history.png)
 

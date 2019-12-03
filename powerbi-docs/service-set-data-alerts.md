@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871549"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74163761"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 서비스의 데이터 경고
 
@@ -23,7 +23,7 @@ ms.locfileid: "73871549"
 
 Power BI Pro 라이선스가 있는 경우 타일에 경고를 설정할 수 있습니다. 누군가가 [프리미엄 용량](service-premium-what-is.md)에 있는 대시보드를 공유하는 경우에도 경고를 설정할 수 있습니다. 경고는 보고서 시각적 개체에서 고정된 타일과 계기, KPI 및 카드에만 설정할 수 있습니다. 보고서에서 대시보드로 고정하는 스트리밍 데이터 세트에서 만든 시각적 개체에 경고를 설정할 수 있습니다. **타일 추가** > **사용자 지정 스트리밍 데이터**를 사용하여 대시보드에서 직접 만든 스트리밍 타일에는 경고를 설정할 수 없습니다.
 
-대시보드를 공유하더라도 자신이 설정한 경고만 볼 수 있습니다. 대시보드 소유자도 대시보드 보기에서 설정된 경고를 볼 수 없습니다. 데이터 경고는 플랫폼 전반에서 완전히 동기화되며 [Power BI 모바일 앱](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) 및 Power BI 서비스에서 데이터 경고를 설정하고 봅니다. Power BI Desktop에서는 사용할 수 없습니다. 경고를 자동화하고 Microsoft Flow와 통합할 수도 있습니다. [Microsoft Flow 및 Power BI](service-flow-integration.md) 문서에서 직접 시도해 볼 수 있습니다.
+대시보드를 공유하더라도 자신이 설정한 경고만 볼 수 있습니다. 대시보드 소유자도 대시보드 보기에서 설정된 경고를 볼 수 없습니다. 데이터 경고는 플랫폼 전반에서 완전히 동기화되며 [Power BI 모바일 앱](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) 및 Power BI 서비스에서 데이터 경고를 설정하고 봅니다. Power BI Desktop에서는 사용할 수 없습니다. 경고를 자동화하고 Power Automate와 통합할 수도 있습니다. [Power Automate 및 Power BI](service-flow-integration.md) 문서에서 직접 사용해 볼 수 있습니다.
 
 ![타일](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -125,7 +125,7 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 
 ## <a name="next-steps"></a>다음 단계
 
-* [데이터 경고를 포함하는 Microsoft Flow 만들기](service-flow-integration.md)
+* [데이터 경고를 포함하는 Power Automate 만들기](service-flow-integration.md)
 
 * [모바일 디바이스에 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 

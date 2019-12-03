@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f28ffa89647272306dc9cecb5c93928d36805d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880465"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311495"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>포함된 페이지를 매긴 보고서에서 행 수준 보안 구현(미리 보기)
 
@@ -30,7 +30,7 @@ ms.locfileid: "73880465"
 
 **UserID**에 매개 변수를 할당한 후 [보고서 GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API를 사용하여 포함 토큰을 가져옵니다.
 
-## <a name="use-uderid-as-a-filter-at-report-or-query-level"></a>보고서 또는 쿼리 수준에서 필터로 UderID 사용
+## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>보고서 또는 쿼리 수준에서 필터로 UserID 사용
 
 [Power BI 페이지를 매긴 보고서 작성기](../report-builder-power-bi.md)에서 **UserId**를 *필터*로 사용하거나 데이터 원본에 대한 *쿼리*에 사용할 수 있습니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "73880465"
 
     ![Power BI 보고서 작성기 매개 변수](media/embedded-paginated-reports-secure-data/parameters.png)
 
-2. **매개 변수 이름**에 **@UserID** 를 입력하고 **매개 변수 값**에서 **[&UserID]** 를 추가합니다.
+2. **매개 변수 이름**에 **\@UserID**를 입력하고 **매개 변수 값**에서 **[&UserID]** 를 추가합니다.
 
     ![Power BI 보고서 작성기 매개 변수 이름](media/embedded-paginated-reports-secure-data/parameter-name.png) 
 
