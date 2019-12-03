@@ -2,7 +2,6 @@
 title: 데이터 흐름 스토리지를 위해 Power BI에 Azure Data Lake Storage Gen2를 연결하는 방법 알아보기
 description: Azure Data Lake Storage Gen2를 사용하여 데이터 흐름에 사용자 데이터 가져오기
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432029"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872729"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)
 
@@ -45,8 +44,8 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 
 1. 스토리지 계정은 Power BI 테넌트와 동일한 AAD 테넌트에서 만들어야 합니다.
 2. 스토리지 계정은 Power BI 테넌트와 동일한 지역에 만들어야 합니다. Power BI 테넌트의 위치를 확인하려면 [내 Power BI 테넌트는 어디에 있나요?](service-admin-where-is-my-tenant-located.md) 문서를 참조하세요.
-3. 스토리지 계정에서 ‘계층 구조 네임스페이스’ 기능이 사용 가능해야 합니다.
-4. Power BI 서비스에는 스토리지 계정에 대한 ‘독자’ 역할이 부여되어야 합니다.
+3. 스토리지 계정에서 ‘계층 구조 네임스페이스’ 기능이 사용 가능해야 합니다. 
+4. Power BI 서비스에는 스토리지 계정에 대한 ‘독자’ 역할이 부여되어야 합니다. 
 5. **powerbi**라는 파일 시스템을 만들어야 합니다.
 6. Power BI 서비스에는 사용자가 만든 **powerbi** 파일 시스템의 권한이 부여되어야 합니다.
 
@@ -105,9 +104,9 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 
 테넌트 애플리케이션을 찾으려면 다음 단계를 수행합니다.
 
-1. [Azure Portal](https://portal.azure.com/)의 왼쪽 탐색 패널에서 **Azure Active Directory**를 선택합니다.
+1. [Azure Portal](https://portal.azure.com/)의 탐색 패널에서 **Azure Active Directory**를 선택합니다.
 2. Azure **Active Directory** 블레이드에서 **엔터프라이즈 애플리케이션**을 선택합니다.
-3. **애플리케이션 유형** 드롭다운 메뉴에서 **모든 애플리케이션**을 선택한 후 **적용을 **선택합니다. 테넌트 애플리케이션의 샘플이 다음 이미지와 비슷하게 표시됩니다.
+3. **애플리케이션 유형** 드롭다운 메뉴에서 **모든 애플리케이션**을 선택한 후 **적용을** 선택합니다. 테넌트 애플리케이션의 샘플이 다음 이미지와 비슷하게 표시됩니다.
 
     ![AAD 엔터프라이즈 애플리케이션](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
@@ -162,7 +161,7 @@ Azure Portal에서 Azure Data Lake Storage Gen2 계정을 설정했으면, **Pow
 
 기본적으로 데이터 흐름 정의 및 데이터 파일은 Power BI에서 제공하는 스토리지에 저장됩니다. 고유한 스토리지 계정의 데이터 흐름 파일에 액세스하려면 작업 영역 관리자가 먼저 새 스토리지 계정에서 데이터 흐름 할당 및 저장을 허용하도록 작업 영역을 구성해야 합니다. 작업 영역 관리자가 데이터 흐름 스토리지 설정을 구성하려면 먼저 **Power BI 관리 포털**에서 스토리지 할당 권한을 부여받아야 합니다.
 
-스토리지 할당 권한을 부여하려면 **Power BI 관리 포털**의 **데이터 흐름 설정** 탭으로 이동합니다. ‘작업 영역 관리자가 이 스토리지 계정에 작업 영역을 할당하도록 허용’하는 라디오 단추가 있고 이 단추를 **허용**으로 설정해야 합니다. 해당 슬라이더를 사용하도록 설정한 후 **적용** 단추를 선택하여 변경 내용을 적용합니다. 
+스토리지 할당 권한을 부여하려면 **Power BI 관리 포털**의 **데이터 흐름 설정** 탭으로 이동합니다. ‘작업 영역 관리자가 이 스토리지 계정에 작업 영역을 할당하도록 허용’하는 라디오 단추가 있고 이 단추를 **허용**으로 설정해야 합니다.  해당 슬라이더를 사용하도록 설정한 후 **적용** 단추를 선택하여 변경 내용을 적용합니다. 
 
 ![관리자가 작업 영역을 할당하도록 허용](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_10.jpg) 
 
@@ -223,4 +222,4 @@ Azure Storage에 대한 자세한 내용은 다음 문서를 참조하세요.
 * [CDM 폴더](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM 모델 파일 정의](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-또한 언제든지 [Power BI 커뮤니티에 질문](http://community.powerbi.com/)할 수 있습니다.
+또한 언제든지 [Power BI 커뮤니티에 질문](https://community.powerbi.com/)할 수 있습니다.

@@ -2,19 +2,19 @@
 title: Azure Portal에서 Power BI Embedded 용량 일시 중지 및 시작| Microsoft Docs
 description: 이 아티클은 Microsoft Azure에서 Power BI Embedded 용량을 일시 중지 및 시작하는 방법을 안내합니다.
 services: power-bi-embedded
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
-ms.openlocfilehash: c851e76a57618ad1b683e1fa56251423b8d6eeb3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 07c9c12366b100936e03fe07358ee180e026dfc5
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865013"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265665"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal에서 Power BI Embedded 용량 일시 중지 및 시작
 

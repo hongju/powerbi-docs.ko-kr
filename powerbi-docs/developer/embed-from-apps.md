@@ -1,19 +1,19 @@
 ---
 title: 앱에서 보고서 또는 대시보드 포함
 description: 작업 영역이 아닌 Power BI 앱에서 보고서 또는 대시보드를 통합하거나 포함하는 방법을 알아봅니다.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 11/27/2018
-ms.openlocfilehash: 188601167684313c6e103063e67b9ba57fd2d451
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6d0094eb252584d9c3529db19ec5a733731118ec
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877687"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264940"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>앱에서 보고서 또는 대시보드 포함
 

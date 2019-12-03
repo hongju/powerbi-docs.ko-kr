@@ -3,7 +3,6 @@ title: SharePoint Online에 보고서 웹 파트 포함
 description: SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 SharePoint Online 페이지에서 대화형 Power BI 보고서를 쉽게 포함시킬 수 있습니다.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431895"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881893"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -83,7 +82,7 @@ Power BI에서 보고서 액세스를 제공하는 두 가지 방법이 있습�
 
 두 번째 방법은 앱 내에 보고서를 포함하여 사용자와 직접 공유하는 것입니다.  
 
-1. Pro 사용자여야 하는 작성자는 작업 영역에 보고서를 만듭니다. ‘Power BI 무료 사용자’와 공유하려면 작업 영역을 ‘프리미엄 작업 영역’으로 설정해야 합니다.
+1. Pro 사용자여야 하는 작성자는 작업 영역에 보고서를 만듭니다. ‘Power BI 무료 사용자’와 공유하려면 작업 영역을 ‘프리미엄 작업 영역’으로 설정해야 합니다.  
 
 2. 작성자가 앱을 게시하고 설치합니다. 작성자는 SharePoint Online에 포함하는 데 사용되는 보고서 URL에 액세스할 수 있도록 앱을 설치해야 합니다.
 
@@ -173,4 +172,4 @@ SharePoint에서 보고서를 보는 사용자에게 **Power BI Pro 라이선스
 * [Power BI 프리미엄이란?](service-premium-what-is.md)
 * [보안 포털 또는 웹 사이트에 보고서 포함](service-embed-secure.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

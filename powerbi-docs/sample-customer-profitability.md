@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874035"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265545"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI용 고객 수익성 샘플 둘러보기
 
@@ -128,7 +128,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
     * **팀 성과 기록표**는 관리자 5명의 성과와 이들의 “비즈니스 기록”에 중점을 둡니다.
     * **업계 수익 분석**은 업계 전체에서 돌아가는 상황과 비교하여 수익성을 분석하는 방법을 제공합니다.
-    * **경영진 성과 기록표**는 각 관리자에 대한 보기를 Cortana에서 볼 수 있는 형식으로 제공합니다.
+    * **경영진 성과 기록표**는 각 관리자에 대한 보기를 사용자 지정 페이지 크기 형식으로 제공합니다.
 
 ### <a name="team-scorecard-page"></a>팀 성과 기록표
 ![팀 성과 기록표 보고서 페이지](media/sample-customer-profitability/customer2.png)
@@ -170,7 +170,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
    * 단 하나의 제품만 담당하는 Valery는 불과 5개의 업계 세그먼트만 담당합니다. Valery의 업계 영향은 계절성과 관련이 있지만 항상 큰 거품을 생성하므로 회사의 최종 결산 결과에 상당한 영향을 미침을 나타냅니다. 업계 부문이 저조한 성과를 설명해 주나요?
 
 ### <a name="executive-scorecard"></a>경영진 성과 기록표
-이 페이지는 Cortana 답변 페이지 형식입니다. 자세한 내용은 [Cortana에 대한 사용자 지정 답변 페이지 만들기](service-cortana-answer-cards.md)를 참조하세요.
+이 페이지에는 사용자 지정 페이지 크기 형식이 있습니다.
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>질문 및 답변에 질문하여 데이터를 더 보기
 분석을 통해 어떤 업계가 Valery에게 가장 많은 수익을 거둘 수 있게 하는지 확인할 수도 있습니다. 질문 및 답변을 사용해 봅시다.

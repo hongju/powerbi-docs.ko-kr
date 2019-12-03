@@ -1,31 +1,31 @@
 ---
 title: Power BI로 Office365Mon에 연결
 description: Power BI용 Office365Mon
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 8/29/2019
-ms.author: tebercov
+ms.date: 11/26/2019
+ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 64e8365a6d4e0c01911de9e69998af4d58d59202
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73854713"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548581"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI로 Office365Mon에 연결
 Power BI와 Office365Mon 템플릿 앱을 사용하면 Office 365 작동 중단 및 상태 성능 데이터를 간편하게 분석할 수 있습니다. Power BI는 작동 중단 및 상태 프로브를 비롯한 데이터를 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 작성합니다.
 
-Power BI용 [Office365Mon 템플릿 앱](https://app.powerbi.com/groups/me/getdata/services/office365mon)에 연결하세요.
+Power BI용 [Office365Mon 템플릿 앱](https://msit.powerbi.com/groups/me/getapps/services/office365mon.office365mon_powerbi_v3)에 연결하세요.
 
 >[!NOTE]
 >Power BI 템플릿 앱을 연결하여 로드하려면 Office365Mon 관리자 계정이 필요합니다.
 
 ## <a name="how-to-connect"></a>연결 방법
-1. 탐색 창의 맨 아래에서 **데이터 가져오기**를 선택합니다.
+1. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다.
    
    ![](media/service-connect-to-office365mon/pbi_getdata.png)
 2. **서비스** 상자에서 **가져오기**를 선택합니다.

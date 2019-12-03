@@ -10,18 +10,18 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cb28db10eecdc32f844e29c8beea178f08fbf920
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881772"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410856"
 ---
 # <a name="manage-data-sources"></a>데이터 원본 관리
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI는 다양한 온-프레미스 데이터 원본을 지원하고 각 데이터 원본에는 고유한 요구 사항이 있습니다. 단일 데이터 원본이나 여러 데이터 원본에 게이트웨이를 사용할 수 있습니다. 이 예에서는 SQL Server를 데이터 원본으로 추가하는 방법을 보여줍니다. 다른 데이터 원본의 경우에도 해당 단계는 비슷합니다.
+Power BI는 다양한 [온-프레미스 데이터 원본](power-bi-data-sources.md)을 지원하고 각 데이터 원본에는 고유한 요구 사항이 있습니다. 단일 데이터 원본이나 여러 데이터 원본에 게이트웨이를 사용할 수 있습니다. 이 예에서는 SQL Server를 데이터 원본으로 추가하는 방법을 보여줍니다. 다른 데이터 원본의 경우에도 해당 단계는 비슷합니다.
 
 API를 사용하여 대부분의 데이터 원본 관리 작업을 수행할 수도 있습니다. 자세한 내용은 [Rest API(게이트웨이)](/rest/api/power-bi/gateways)를 참조하세요.
 
@@ -117,56 +117,7 @@ OAuth는 온-프레미스 데이터 게이트웨이를 통해 사용자 지정 �
 
 ## <a name="list-of-available-data-source-types"></a>사용 가능한 데이터 원본 유형 목록
 
-온-프레미스 데이터 게이트웨이는 Power BI에 대해 다음 데이터 원본을 지원합니다. 온-프레미스 데이터 원본 외에도 방화벽, VPN 또는 가상 네트워크 뒤의 원본에는 데이터 게이트웨이가 필요할 수 있습니다.
-
-| **데이터 원본** | **라이브/DirectQuery** | **수동 또는 예약된 새로 고침(사용자 구성)** |
-| --- | --- | --- |
-| Amazon Redshift |예 |예 |
-| Analysis Services |예 |예 |
-| AtScale 큐브 |예 |예 |
-| Azure Active Directory |아니요 |예 |
-| Azure Blob Storage |아니요 |예 |
-| Azure DevOps Server |아니요 |예 |
-| Azure Table Storage |아니요 |예 |
-| BI 커넥터 |예 |예 |
-| Denodo |예 |예 |
-| Dremio |예 |예 |
-| EmigoDataSourceConnector |아니요 |예 |
-| Essbase |예 |예 |
-| Exasol |예 |예 |
-| 파일 |아니요 |예 |
-| 폴더 |아니요 |예 |
-| Paxata |아니요 |예 |
-| IBM DB2 |예 |예 |
-| IBM Informix 데이터베이스 |아니요 |예 |
-| IBM Netezza |예 |예 |
-| Impala |예 |예 |
-| Jethro ODBC |예 |예 |
-| Kyligence Enterprise |예 |예 |
-| MarkLogic ODBC |예 |예 |
-| Microsoft Graph 보안 |아니요 |예 |
-| MySQL |아니요 |예 |
-| ODBC |아니요 |예 |
-| OData |아니요 |예 |
-| OLE DB |아니요 |예 |
-| Oracle |예 |예 |
-| PostgreSQL |아니요 |예 |
-| QubolePresto |예 |예 |
-| Quick Base Connector |아니요 |예 |
-| SAP Business Warehouse 메시지 서버 |예 |예 |
-| SAP Business Warehouse 서버 |예 |예 |
-| SAP HANA |예 |예 |
-| SQL Server |예 |예 |
-| SharePoint |아니요 |예 |
-| Snowflake |예 |예 |
-| Spark |예 |예 |
-| SurveyMonkey |아니요 |예 |
-| Sybase |아니요 |예 |
-| TeamDesk.Database |아니요 |예 |
-| Teradata |예 |예 |
-| Vertica |예 |예 |
-| 웹 |아니요 |예 |
-| Workforce Dimensions |아니요 |예 |
+온-프레미스 데이터 게이트웨이에서 지원하는 데이터 원본에 대한 자세한 내용은 [Power BI 데이터 원본](power-bi-data-sources.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

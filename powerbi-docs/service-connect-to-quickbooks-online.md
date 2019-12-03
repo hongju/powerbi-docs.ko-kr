@@ -26,7 +26,7 @@ Power BI용 [QuickBooks Online 콘텐츠 팩](https://dxt.powerbi.com/getdata/se
 >QuickBooks Online 데이터를 Power BI로 가져오려면 QuickBooks Online 계정의 관리자여야 하며 관리자 계정 자격 증명으로 로그인해야 합니다. QuickBooks Desktop 소프트웨어에서 이 커넥터를 사용할 수 없습니다. 
 
 ## <a name="how-to-connect"></a>연결 방법
-1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기** 를 선택합니다.
+1. 왼쪽 탐색 창의 맨 아래에 있는 **데이터 가져오기**를 선택합니다.
    
    ![](media/service-connect-to-quickbooks-online/pbi_getdata.png) 
 2. **서비스** 상자에서 **가져오기**를 선택합니다.
@@ -35,14 +35,14 @@ Power BI용 [QuickBooks Online 콘텐츠 팩](https://dxt.powerbi.com/getdata/se
 3. **QuickBooks Online**을 선택한 다음 **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-quickbooks-online/qbo.png)
-4. 인증 방법에 대해 **oAuth2** 를 선택하고 **로그인**을 선택합니다. 
+4. 인증 방법에 대해 **oAuth2**를 선택하고 **로그인**을 선택합니다. 
 5. 메시지가 표시되면 QuickBooks Online 자격 증명을 입력하고 QuickBooks Online 인증 프로세스를 따릅니다. 브라우저에서 QuickBooks Online에 이미 로그인한 경우 자격 증명을 묻는 메시지가 표시되지 않을 수도 있습니다.
    >[!NOTE]
    >QuickBooks 온라인 계정의 관리자 자격 증명이 필요합니다.
 6. 다음 화면에서 Power BI에 연결하려는 회사를 선택합니다.
    
    ![](media/service-connect-to-quickbooks-online/pbi_qbo_almost.png)
-7. 다음 화면에서 **권한 부여** 를 선택하여 가져오기 프로세스를 시작합니다. 이 작업은 회사 데이터의 크기에 따라 몇 분 정도 걸릴 수 있습니다. 
+7. 다음 화면에서 **권한 부여**를 선택하여 가져오기 프로세스를 시작합니다. 이 작업은 회사 데이터의 크기에 따라 몇 분 정도 걸릴 수 있습니다. 
    
    ![](media/service-connect-to-quickbooks-online/pbi_qbo_authorizesm.png)
    

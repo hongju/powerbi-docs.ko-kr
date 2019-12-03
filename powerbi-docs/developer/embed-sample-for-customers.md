@@ -1,21 +1,20 @@
 ---
-title: 고객용 애플리케이션에 Power BI 콘텐츠를 포함하기 위한 임베디드 분석
+title: 고객의 애플리케이션에 콘텐츠 포함
 description: 고객의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429681"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311092"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서:  고객의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -187,7 +186,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
-2. 왼쪽 탐색 창에서 **모든 서비스**를 선택한 다음, **앱 등록**을 선택합니다.
+2. 왼쪽 탐색 창에서 **모든 서비스**를 선택하고 **앱 등록**을 선택합니다.
 
     ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -460,4 +459,4 @@ Pro 라이선스로 포함 토큰을 사용하는 것은 개발 테스트용이�
 > [!div class="nextstepaction"]
 >[조직에 포함](embed-sample-for-your-organization.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

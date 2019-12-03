@@ -17,7 +17,9 @@ ms.lasthandoff: 11/09/2019
 ms.locfileid: "73851149"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Power BI 서비스에서 샘플 영업 및 마케팅 앱 설치 및 사용
+
 [Power BI 콘텐츠를 가져오는 방법을 기본적으로 이해](end-user-app-view.md)했으므로 이제 Microsoft AppSource(appsource.com)에서 영업 및 마케팅 앱을 다운로드해 보겠습니다.
+
 
 
 ## <a name="microsoft-appsource-appsourcecom"></a>Microsoft AppSource(appsource.com)
