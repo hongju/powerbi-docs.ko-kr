@@ -88,7 +88,9 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 
 1.  전역 탐색 단추 ![전역 탐색 단추](./media/tutorial-mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **작업 영역** > **내 작업 영역**을 탭하고 기회 분석 샘플 대시보드를 엽니다.
 
-2. 페이지 맨 아래의 작업 메뉴에서 질문 및 답변 가상 분석가 아이콘 ![질문 및 답변 가상 분석가 아이콘](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) 을 누릅니다(iPad 상에서는 페이지 맨 위).
+
+2. 페이지 맨 아래의 작업 메뉴에서 질문 및 답변 가상 분석가 아이콘 ![질문 및 답변 가상 분석가 아이콘](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)을 누릅니다(iPad 상에서는 페이지 맨 위).
+
 
      ![기회 분석 샘플 대시보드](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-opportunity-analysis.png)
 
