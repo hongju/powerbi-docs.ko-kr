@@ -117,7 +117,7 @@
           href: desktop-auto-date-time.md
         - name: 데이터에 연결
           items:
-            - name: Power BI Desktop의 데이터 소스
+            - name: Power BI Desktop의 데이터 원본
               href: desktop-data-sources.md
             - name: LinkedIn Sales Navigator에 연결(미리 보기)
               href: desktop-connect-linkedin-sales-navigator.md
@@ -147,11 +147,11 @@
               href: desktop-r-scripts.md
             - name: 쿼리 편집기에서 R 사용
               href: desktop-r-in-query-editor.md
-            - name: Power BI에서 외부 R IDE 사용
+            - name: Power BI로 외부 R IDE 사용
               href: desktop-r-ide.md
             - name: 지원되는 R 패키지
               href: service-r-packages-support.md
-            - name: Power BI Desktop에 직접 데이터 입력
+            - name: Power BI Desktop에 데이터 직접 연결
               href: desktop-enter-data-directly-into-desktop.md
             - name: Power BI Desktop에서 Excel에 연결
               href: desktop-connect-excel.md
@@ -187,11 +187,11 @@
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery 및 SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: Power BI Desktop에서 참조 무결성 설정 가정
+            - name: Power BI Desktop의 참조 무결성 설정 가정
               href: desktop-assume-referential-integrity.md
             - name: Power BI Desktop에서 SAP BW 커넥터 사용
               href: desktop-sap-bw-connector.md
-            - name: Power BI Desktop에서 비즈니스 링크용 OneDrive 사용
+            - name: Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
               href: desktop-use-onedrive-business-links.md
             - name: '타사 서비스: Power BI Desktop용 Facebook 커넥터'
               href: service-facebook-connector.md
@@ -407,6 +407,8 @@
       items:
         - name: Power BI Desktop의 데이터 형식
           href: desktop-data-types.md
+        - name: Power BI 데이터 원본
+          href: power-bi-data-sources.md
         - name: Power BI Desktop에서 업데이트된 리본 사용(미리 보기)
           href: desktop-ribbon.md
         - name: Power BI Desktop의 수식 편집기 바로 가기
@@ -603,7 +605,7 @@
               href: service-dashboard-pin-tile-from-q-and-a.md
             - name: 전체 보고서 페이지를 대시보드에 고정
               href: service-dashboard-pin-live-tile-from-report.md
-            - name: Power BI 서비스에서 데이터 경고
+            - name: Power BI 서비스의 데이터 경고
               href: service-set-data-alerts.md
             - name: '대시보드에 이미지, 텍스트 상자, 비디오 또는 코드 추가'
               href: service-dashboard-add-widget.md
@@ -811,15 +813,11 @@
               items:
                 - name: 앱을 사용하여 서비스에 연결
                   href: service-connect-to-services.md
-                - name: Acumatica
-                  href: service-connect-to-acumatica.md
-                - name: Azure 감사 로그
-                  href: service-connect-to-azure-audit-logs.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
-                - name: Project Online
+                - name: 프로젝트 온라인
                   href: service-connect-to-project-online.md
                 - name: QuickBooks Online
                   href: service-connect-to-quickbooks-online.md
@@ -855,7 +853,7 @@
           href: videos.md
         - name: 웹 세미나
           href: webinars.md
-- name: Power BI 프리미엄
+- name: Power BI Premium
   items:
     - name: 개요
       items:
@@ -905,7 +903,9 @@
           href: report-builder-power-bi.md
     - name: 자습서
       items:
-        - name: 페이지를 매긴 보고서 만들기 및 상호 작용 업로드
+        - name: '실습 랩: 페이지가 매겨진 보고서 만들기'
+          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: 페이지를 매긴 보고서 만들기 및 업로드
           href: paginated-reports-quickstart-aw.md
     - name: 개념
       items:
@@ -1033,7 +1033,7 @@
               href: report-server/upgrade.md
             - name: 보고서 서버 마이그레이션
               href: report-server/migrate-report-server.md
-            - name: Kerberos를 구성하여 Power BI 보고서 사용
+            - name: Power BI 보고서를 사용하도록 Kerberos 구성
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: 원격으로 모바일 앱 액세스 구성
               href: report-server/configure-powerbi-mobile-apps-remote.md

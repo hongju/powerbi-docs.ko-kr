@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c2217495ee8b735bc600c9b803897a408495472
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878764"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164146"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop의 자동 페이지 새로 고침(미리 보기)
 
@@ -105,9 +105,9 @@ Power BI Desktop에는 새로 고침 간격에 대한 제한이 없습니다. �
 
 Power BI 서비스에서 자동 페이지 새로 고침 제한 사항은 작업 영역과 같은 요인과 프리미엄 서비스가 사용되고 있는지 여부에 기반하여 적용됩니다.
 
-이 작동 방식을 명확하게 설명하기 위해, [용량 및 작업 영역](whitepaper-powerbi-premium-deployment.md#capacities)에 대한 일부 배경으로 시작하겠습니다
+이 작동 방식을 명확하게 설명하기 위해 용량 및 작업 영역에 대한 일부 배경으로 시작하겠습니다.
 
-**용량**은 Power BI 콘텐츠를 호스트하고 전달하는 데 사용되는 리소스(스토리지, 프로세서 및 메모리) 집합을 나타내는 핵심적인 Power BI 개념입니다. 용량은 공유 또는 전용입니다. **공유 용량**은 다른 Microsoft 고객과 공유되는 반면, **전용 용량**은 한 명의 고객에게만 전적으로 사용됩니다. 전용 용량은 [프리미엄 용량](whitepaper-powerbi-premium-deployment.md#capacities) 문서에 소개되어 있습니다.
+**용량**은 Power BI 콘텐츠를 호스트하고 전달하는 데 사용되는 리소스(스토리지, 프로세서 및 메모리) 집합을 나타내는 핵심적인 Power BI 개념입니다. 용량은 공유 또는 전용입니다. **공유 용량**은 다른 Microsoft 고객과 공유되는 반면, **전용 용량**은 한 명의 고객에게만 전적으로 사용됩니다. 전용 용량은 [프리미엄 용량 관리](service-premium-capacity-manage.md) 문서에 소개되어 있습니다.
 
 공유 용량에서는 워크로드가 다른 고객과 공유된 계산 리소스에서 실행됩니다. 용량이 리소스를 공유해야 하므로, 최대 모델 크기(1GB) 및 최대 일일 새로 고침 빈도(하루 8회) 설정과 같은 *공정한 실행*을 보장하기 위해 제한 사항이 적용됩니다.
 
@@ -123,7 +123,7 @@ Power BI **작업 영역**은 용량 내에 상주하며 보안, 협업 및 배�
 
  2. *최소 새로 고침 간격*: 기능을 사용하도록 설정하려면, 용량 관리자가 최소 새로 고침 간격을 설정해야 합니다. 간격이 최소값보다 낮을 경우, Power BI 서비스가 용량 관리자가 설정한 최소 간격을 준수하기 위해 간격을 재정의합니다.
 
-아래 표에 이 기능을 사용할 수 있는 위치와 각 용량 유형 및 [스토리지 모드](whitepaper-powerbi-premium-deployment.md#model-storage-modes)에 대한 제한 사항이 자세히 설명되어 있습니다
+아래 표에 이 기능을 사용할 수 있는 위치와 각 용량 유형 및 [스토리지 모드](service-dataset-modes-understand.md)에 대한 제한 사항이 자세히 설명되어 있습니다
 
 | 스토리지 모드 | 전용 용량 | 공유 용량 |
 | --- | --- | --- |
