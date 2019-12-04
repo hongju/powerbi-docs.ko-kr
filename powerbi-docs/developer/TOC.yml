@@ -15,6 +15,8 @@
               href: power-bi-custom-visuals.md
         - name: 자습서
           items:
+            - name: 시각적 개념
+              href: visuals/power-bi-visuals-concept.md
             - name: Power BI의 시각적 개체 개발
               href: visuals/custom-visual-develop-tutorial.md
             - name: 서식 지정 옵션 추가
@@ -67,6 +69,8 @@
               href: visuals/high-contrast-support.md
             - name: 슬라이서 동기화 사용
               href: visuals/enable-sync-slicers.md
+            - name: 드릴다운 지원 추가
+              href: visuals/drill-down-support.md
             - name: Power BI 시각적 개체 문제 해결
               href: power-bi-custom-visuals-troubleshoot.md
         - name: 참조
@@ -81,8 +85,14 @@
               href: visuals/event-service.md
             - name: 정렬
               href: visuals/sort-options.md
-            - name: 대화형 유틸리티
-              href: visuals/utils-interactivity-selections.md
+            - name: 지역화
+              href: visuals/localization.md
+            - name: Power BI 시각적 개체 유틸리티
+              items:
+                - name: 대화형 유틸리티
+                  href: visuals/utils-interactivity-selections.md
+                - name: 유틸리티 서식 지정
+                  href: visuals/utils-formatting.md
         - name: 리소스
           items:
             - name: 개발자 센터
@@ -200,7 +210,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: 스택 오버플로
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
-    - name: Automation
+    - name: 자동화
       expanded: true
       items:
         - name: 개요
