@@ -86,7 +86,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
    
    * 노란색 별 ![즐겨찾기 별](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 은 즐겨찾기 대시보드임을 나타냅니다. 
    * 각 대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../service-data-classification.md)를 참조하세요.
-3. 작업 영역에서 대시보드를 공유할 수 있습니다. 대시보드 타일의 오른쪽 아래 모서리에서 줄임표( **...** )를 누르고 **다른 사람 초대**를 누릅니다.
+3. 작업 영역에서 대시보드를 공유할 수 있습니다. 대시보드 타일의 오른쪽 아래 모서리에서 줄임표( **...** )를 누르고 **다른 사용자 초대**를 누릅니다.
    
    ![초대 아이콘](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. 또한 대시보드를 눌러서 열고 해당 대시보드에서 타일을 확인할 수 있습니다. 대시보드에서 다음과 같이 상호 작용할 수 있습니다.
