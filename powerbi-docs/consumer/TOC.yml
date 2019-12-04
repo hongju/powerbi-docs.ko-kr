@@ -58,6 +58,8 @@
               href: end-user-pdf.md
             - name: 보고서에 책갈피 추가
               href: end-user-bookmarks.md
+            - name: 페이지를 매긴 보고서
+              href: end-user-paginated-report.md
         - name: 시각화
           items:
             - name: 시각화로 수행할 수 있는 작업은 무엇인가요?
