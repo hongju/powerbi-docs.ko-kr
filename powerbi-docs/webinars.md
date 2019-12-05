@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164249"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478633"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -32,6 +32,10 @@ ms.locfileid: "74164249"
 **빅 데이터 분석 미래 설계의 9가지 추세**
 <br>작성자: Vijay Gopalakrishnan
 <br>[12월 18일에 시청하도록 등록](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
+
+**AI가 BI를 변경하는 세 가지 방법**
+<br>작성자: Justyna Lucznik
+<br>[1월 8일에 시청하려면 등록하세요.](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
 
 >[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
