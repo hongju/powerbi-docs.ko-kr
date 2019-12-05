@@ -89,12 +89,12 @@ ms.locfileid: "73870051"
    
     [타일의 스냅샷을 공유](mobile-windows-10-phone-app-get-started.md)합니다.
    
-    **보고서 열기** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)를 탭하여 [기본 보고서 봅니다](mobile-reports-in-the-mobile-apps.md).
+    **보고서 열기** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)를 탭하여 [기본 보고서를 봅니다](mobile-reports-in-the-mobile-apps.md).
    
     링크가 포함된 경우 [링크를 엽니다](../../service-dashboard-edit-tile.md#hyperlink). 링크를 누르면 Power BI 대시보드나 외부 URL로 이동할 수 있습니다.
 3. **타일 확장** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png)을 탭합니다. 타일 데이터를 쉽게 보고 탐색할 수 있는 포커스 모드로 열립니다. 이 모드에서는 다음 작업을 수행할 수 있습니다.
    
-   원형 차트를 회전시켜서 조각의 위쪽에 값을 표시합니다.  
+   원형 차트를 회전시켜서 조각의 값을 원형 차트 위쪽에 표시합니다.  
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-pie-focus-mode.png)
    
