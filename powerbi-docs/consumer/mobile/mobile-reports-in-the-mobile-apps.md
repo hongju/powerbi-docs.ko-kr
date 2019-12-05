@@ -39,7 +39,7 @@ Power BI 모바일 앱의 보고서를 위한 두 가지 아이콘이 있습니�
 
 * ![보고서 아이콘](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) 앱에서 가로 방향으로 표시되는 보고서를 나타냅니다. 브라우저에서 보이는 것과 동일하게 보입니다.
 
-* ![휴대폰 보고서 아이콘](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) 세로 방향으로 표시되는 하나 이상의 전화에 최적화된 페이지로 구성된 보고서를 나타냅니다.
+* ![휴대폰 보고서 아이콘](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) 세로 방향으로 표시되는 하나 이상의 휴대폰에 최적화된 페이지로 구성된 보고서를 나타냅니다.
 
 > [!NOTE]
 > 휴대폰을 가로 방향으로 들면 보고서 페이지가 휴대폰 레이아웃으로 표시되더라도 항상 가로 레이아웃으로 볼 수 있습니다.
