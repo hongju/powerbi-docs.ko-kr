@@ -38,11 +38,11 @@ Power BI는 조직 외부의 게스트 사용자에 게 Power BI 콘텐츠를 �
 > [!NOTE]
 > 이 백서 전체에서 azure AD로 Azure Active Directory 하 고 비즈니스를 Azure AD B2B로 Azure Active Directory 하는 것을 말합니다.
 
-## <a name="scenarios"></a>에서는
+## <a name="scenarios"></a>시나리오
 
-Contoso는 자동차 제조업체 이며, 제조 작업을 실행 하는 데 필요한 모든 구성 요소, 자료 및 서비스를 제공 하는 다양 한 공급 업체와 함께 작동 합니다. Contoso는 공급망의 공급망을 간소화 하 고 Power BI를 사용 하 여 공급망의 주요 성능 메트릭을 모니터링 하려고 합니다. Contoso는 안전 하 고 관리 가능한 방식으로 외부 공급망 파트너 분석과 공유 하려고 합니다.
+Contoso는 자동차 제조업체이며, 제조 작업을 실행하는 데 필요한 모든 구성 요소, 자료 및 서비스를 제공하는 다양한 공급 업체와 함께 작업합니다. Contoso는 공급망의 공급망을 간소화하고 Power BI를 사용하여 공급망의 주요 성능 메트릭을 모니터링 하려고 합니다. Contoso는 안전하고 관리 가능한 방식으로 외부 공급망 파트너 분석과 공유하려고 합니다.
 
-Contoso는 Power BI 및 Azure AD B2B를 사용 하 여 외부 사용자에 대해 다음과 같은 환경을 사용 하도록 설정할 수 있습니다.
+Contoso는 Power BI 및 Azure AD B2B를 사용하여 외부 사용자에 대해 다음과 같은 환경을 사용하도록 설정할 수 있습니다.
 
 ### <a name="ad-hoc-per-item-sharing"></a>항목 공유 당 임시
 
