@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 09/24/2019
-ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/27/2019
+ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874721"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565718"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium의 페이지를 매긴 보고서란?(미리 보기)
 
@@ -21,9 +21,9 @@ ms.locfileid: "73874721"
 
 페이지를 매긴 보고서에는 여러 페이지가 있을 수 있습니다. 예를 들어 이 보고서에는 563페이지가 있습니다. 각 페이지는 청구서당 한 페이지가 정확하게 배치되고 머리글과 바닥글이 반복됩니다.
 
-![페이지를 매긴](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+[실습 랩: Microsoft Power BI 페이지를 매긴 보고서 만들기](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)를 사용해보세요.
 
-![Power BI 서비스의 페이지를 매긴 보고서](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+![페이지를 매긴](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 보고서 작성기에서 보고서를 미리 본 후 Power BI 서비스, https://app.powerbi.com 에 게시할 수 있습니다. 서비스에 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 작업 영역이 Power BI Premium 용량에 포함된 경우 내 작업 영역 또는 작업 영역에서 페이지를 매긴 보고서를 게시하고 공유할 수 있습니다. 또한 Power BI 관리자는 Power BI 관리 포털의 [프리미엄 용량 섹션](service-admin-premium-workloads.md#paginated-reports)에서 페이지를 매긴 보고서를 사용하도록 설정해야 합니다. 
 
@@ -87,6 +87,6 @@ ms.locfileid: "73874721"
 - [Microsoft 다운로드 센터에서 Power BI 보고서 작성기 설치](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [자습서: 페이지를 매긴 보고서 만들기](paginated-reports-quickstart-aw.md)
 - [페이지를 매긴 보고서에 직접 데이터 입력](paginated-reports-enter-data.md)
-
+- [실습 랩: Microsoft Power BI 페이지를 매긴 보고서 만들기](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
   
 
