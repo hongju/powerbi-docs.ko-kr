@@ -32,6 +32,10 @@
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop의 DirectQuery 모델 지침
           href: directquery-model-guidance.md
+        - name: 보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
+          href: report-page-tooltips.md
+        - name: 보고서 페이지 드릴스루
+          href: report-drillthrough.md
     - name: 백서
       items:
         - name: 백서 개요
