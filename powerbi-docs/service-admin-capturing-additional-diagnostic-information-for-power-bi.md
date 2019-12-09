@@ -1,21 +1,21 @@
 ---
 title: 추가 진단 정보 캡처
 description: 이 지침에서는 Power BI 웹 클라이언트에서 추가적인 진단 정보를 수동으로 수집하기 위한 두 가지 가능한 옵션을 제공합니다.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 370ac3fad6f31c214ecafad7762acd8219831218
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 670373afb5cb890c87a24a129cd43fde7bd5d892
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873699"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698903"
 ---
 # <a name="capture-additional-diagnostic-information-for-power-bi"></a>Power BI에 대한 추가 진단 정보 캡처
 
