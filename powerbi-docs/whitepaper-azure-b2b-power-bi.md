@@ -314,57 +314,57 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에 게 BI 포털에 대 
 
     일반적으로 개별 보고서와 대시보드를 기존 포털에 포함 해야 합니다. 이를 통해 예제에 표시 된 많은 기술을 다시 사용할 수도 있습니다. 그러나 이러한 상황에서는 작업 영역에서 보고서 또는 대시보드를 직접 포함 하는 것이 더 쉬울 수 있습니다. 사용자에 게 보안 권한을 초대 하 고 할당 하는 프로세스는 동일 하 게 유지 됩니다.
 
-## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>Supplier1에서 어떻게 루시가 Contoso 테 넌 트의 콘텐츠 Power BI에 액세스할 수 있나요?
+## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>어떻게 Supplier1의 Lucy가  Contoso 테넌트의 Power BI 콘텐츠에 액세스할 수 있나요?
 
-Contoso가 파트너 조직의 게스트 사용자에 게 Power BI 콘텐츠를 원활 하 게 배포할 수 있는 방법을 살펴보았으므로 이제 이러한 방식이 내부적으로 작동 하는 방식을 살펴보겠습니다.
+Contoso가 파트너 조직의 게스트 사용자에게 Power BI 콘텐츠를 원활하게 배포할 수 있는 방법을 살펴보았으므로 이제 이러한 방식이 내부적으로 작동 하는 방식을 살펴보겠습니다.
 
-Contoso가 해당 디렉터리에 [lucy@supplier1.com](mailto:lucy@supplier1.com) 초대 되 면 azure ad는 [Lucy@supplier1.com](mailto:Lucy@supplier1.com) 와 contoso Azure ad 테 넌 트 간에 링크를 만듭니다. 이 링크를 통해 Azure AD는 Lucy@supplier1.com Contoso 테 넌 트의 콘텐츠에 액세스할 수 있음을 알 수 있습니다.
+Contoso가 해당 디렉터리에 [lucy@supplier1.com](mailto:lucy@supplier1.com)을 초대하면 Azure AD는 [Lucy@supplier1.com](mailto:Lucy@supplier1.com)와 Contoso Azure AD 테넌트 간에 링크를 만듭니다. 이 링크를 통해 Azure AD는 Lucy@supplier1.com가 Contoso 테넌트의 콘텐츠에 액세스할 수 있음을 알 수 있습니다.
 
-루시가 Contoso의 Power BI 앱에 액세스 하려고 하면 Azure AD는 루시가 contoso 테 넌 트에 액세스할 수 있는지 확인 한 다음,이를 통해 Azure에서 Contoso 테 넌 트의 콘텐츠에 액세스 하도록 인증 되었음을 나타내는 토큰을 Power BI 제공 합니다. Power BI는이 토큰을 사용 하 여 루시가 Contoso의 Power BI 앱에 액세스할 수 있도록 권한을 부여 하 고 확인 합니다.
+Lucy가 Contoso의 Power BI 앱에 액세스 하려고 하면 Azure AD는 Lucy가 contoso 테넌트에 액세스할 수 있는지 확인 한 다음,이를 통해 Azure에서 Contoso 테넌트의 콘텐츠에 액세스 하도록 인증 되었음을 나타내는 토큰을 Power BI 제공에 합니다. Power BI는 이 토큰을 사용하여 Lucy가 Contoso의 Power BI 앱에 액세스할 수 있도록 권한을 부여하고 확인합니다.
 
 ![확인 및 권한 부여](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_22.png)
 
-Azure AD B2B와의 통합 Power BI 모든 비즈니스 메일 주소와 함께 작동 합니다. 사용자에 게 Azure AD id가 없는 경우 계정을 만들라는 메시지가 표시 될 수 있습니다. 다음 이미지는 자세한 흐름을 보여 줍니다.
+Azure AD B2B와 Power BI의 통합은 모든 비즈니스 메일 주소와 함께 작동 합니다. 사용자에 게 Azure AD ID가 없는 경우 계정을 만들라는 메시지가 표시 될 수 있습니다. 다음 이미지는 자세한 흐름을 보여 줍니다.
 
 ![통합 흐름 차트](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_23.png)
 
 
-Azure AD 계정이 외부 파티의 Azure AD에서 사용 되거나 생성 되는 것을 인식 하는 것이 중요 합니다 .이를 통해 루시는 자신의 사용자 이름과 암호를 사용할 수 있으며 해당 자격 증명은 다른 테 넌 트에서 자동으로 작동을 중지 합니다. 조직에서 Azure AD를 사용 하는 경우 루시는 회사를 그대로 유지 합니다.
+Azure AD 계정이 외부 협력업체의 Azure AD에서 사용되거나 생성되는 것을 인식하는 것이 중요합니다. 이를 통해 조직에서 Azure AD를 사용 하는 경우 Lucy는 자신의 사용자 이름과 암호를 사용할 수 있으며 회사를 떠나게 되면 해당 자격 증명은 다른 테넌트에서 자동으로 작동을 중지합니다.
 
 ## <a name="licensing"></a>라이선싱
 
-Contoso는 공급자 및 파트너 조직의 게스트 사용자에 게 Power BI 콘텐츠에 대 한 액세스를 허가 하는 세 가지 방법 중 하나를 선택할 수 있습니다.
+Contoso는 공급자 및 파트너 조직의 게스트 사용자에게 Power BI의 콘텐츠에 대한 액세스를 허가 하는 세 가지 방법 중 하나를 선택할 수 있습니다.
 
 > [!NOTE]
-> Azure _Ad B2B's 무료 계층은 AZURE AD B2B와 Power BI를 사용 하기에 충분 합니다. 동적 그룹과 같은 일부 고급 Azure AD B2B 기능을 위해서는 추가 라이선스가 필요 합니다. 추가 정보는 Azure AD B2B 설명서를 참조 하세요._ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> Azure _Ad B2B's 무료 계층은 Azure AD B2B와 Power BI를 사용 하기에 충분합니다. 동적 그룹과 같은 일부 고급 Azure AD B2B 기능을 위해서는 추가 라이선스가 필요 합니다. 추가 정보는 Azure AD B2B 설명서를 참조 하세요._ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>방법 1: Contoso에서 Power BI Premium 사용
 
-이 접근 방식을 사용 하 여 Contoso는 용량 Power BI Premium를 구매 하 고 해당 BI 포털 콘텐츠를이 용량에 할당 합니다. 이렇게 하면 파트너 조직의 게스트 사용자가 Power BI 라이선스 없이 Contoso의 Power BI 앱에 액세스할 수 있습니다.
+이 접근 방식을 사용하여 Contoso는 Power BI Premium 용량을 구매하고 해당 BI 포털 콘텐츠를 이 용량에 할당합니다. 이렇게 하면 파트너 조직의 게스트 사용자가 Power BI 라이선스 없이 Contoso의 Power BI 앱에 액세스할 수 있습니다.
 
-또한 외부 사용자는 Power BI Premium 내에서 콘텐츠를 사용 하는 경우 Power BI의 "무료" 사용자에 게 제공 되는 사용 전용 환경에 영향을 받습니다.
+또한 외부 사용자는 Power BI Premium 내에서 콘텐츠를 사용하는 경우 Power BI의 "무료" 사용자에게 제공되는 소비 전용 환경에 영향을 받습니다.
 
-또한 Contoso는 새로 고침 속도, 전용 용량 및 큰 모델 크기와 같은 앱에 대 한 다른 Power BI 프리미엄 기능을 활용할 수 있습니다.
+또한 Contoso는 새로 고침 속도, 전용 용량 및 큰 모델 크기와 같은 앱에 대한 다른 Power BI 프리미엄 기능을 활용할 수 있습니다.
 
 ![추가 기능](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_24.png)
 
 
-### <a name="approach-2-contoso-assigns-power-bi-pro-licenses-to-guest-users"></a>방법 2: Contoso에서 게스트 사용자에 게 Power BI Pro 라이선스 할당
+### <a name="approach-2-contoso-assigns-power-bi-pro-licenses-to-guest-users"></a>방법 2: Contoso에서 게스트 사용자에게 Power BI Pro 라이선스 할당
 
-이 접근 방식을 사용 하는 Contoso는 파트너 조직의 게스트 사용자에 게 pro 라이선스를 할당 합니다 .이는 Contoso의 Microsoft 365 관리 센터에서 수행할 수 있습니다. 이를 통해 파트너 조직의 게스트 사용자는 라이선스를 구입 하지 않고도 Contoso의 Power BI 앱에 액세스할 수 있습니다. 이는 조직이 아직 Power BI를 채택 하지 않은 외부 사용자와 공유 하는 데 적합할 수 있습니다.
+이 접근 방식을 사용하는 Contoso는 파트너 조직의 게스트 사용자에게 Pro 라이선스를 할당 합니다. 이는 Contoso의 Microsoft 365 관리 센터에서 수행할 수 있습니다. 이를 통해 파트너 조직의 게스트 사용자는 라이선스를 구입 하지 않고도 Contoso의 Power BI 앱에 액세스할 수 있습니다. 이는 조직이 아직 Power BI를 채택 하지 않은 외부 사용자와 공유하는 데 적합할 수 있습니다.
 
 > [!NOTE]
-> Contoso의 pro 라이선스는 Contoso 테 넌 트의 콘텐츠에 액세스 하는 경우에만 게스트 사용자에 게 적용 됩니다. Pro 라이선스를 사용 하면 Power BI Premium 용량이 아닌 콘텐츠에 액세스할 수 있습니다. 그러나 Pro 라이선스가 있는 외부 사용자는 기본적으로 소비 전용 환경으로 제한 됩니다. 이 내용은이 문서의 뒷부분에 나오는 _외부 사용자가 Power BI에서 콘텐츠를 편집 하 고 관리할 수 있도록 설정_ 섹션에 설명 된 방법을 사용 하 여 변경할 수 있습니다.
+> Contoso의 Pro 라이선스는 Contoso 테넌트의 콘텐츠에 액세스하는 경우에만 게스트 사용자에게 적용됩니다. Pro 라이선스를 사용하면 Power BI Premium 용량이 아닌 콘텐츠에 액세스할 수 있습니다. 그러나 Pro 라이선스가 있는 외부 사용자는 기본적으로 소비 전용 환경으로 제한 됩니다. 이 내용은 이 문서의 뒷부분에 나오는 _외부 사용자가 Power BI에서 콘텐츠를 편집하고 관리할 수 있도록 설정_ 섹션에 설명된 방법을 사용하여 변경할 수 있습니다.
 
 ![라이선스 정보](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_25.png)
 
 
-### <a name="approach-3-guest-users-bring-their-own-power-bi-pro-license"></a>방법 3: 게스트 사용자는 자신의 Power BI Pro 라이선스를 가져옵니다.
+### <a name="approach-3-guest-users-bring-their-own-power-bi-pro-license"></a>방법 3: 게스트 사용자는 자신의 Power BI Pro 라이선스를 이용
 
-이 방법을 사용 하는 경우 공급자 1은 루시에 Power BI Pro 라이선스를 할당 합니다. 그런 다음이 라이선스를 사용 하 여 Contoso의 Power BI 앱에 액세스할 수 있습니다. 루시는 외부 Power BI 환경에 액세스할 때 자체 조직의 Pro 라이선스를 사용할 수 있기 때문에이 접근 방식을 byol (사용자 _라이선스 가져오기_ )이 라고도 합니다. 두 조직 모두 Power BI를 사용 하는 경우 전체 분석 솔루션에 대 한 유용한 라이선스를 제공 하며 외부 사용자에 게 라이선스를 할당 하는 오버 헤드를 최소화 합니다.
+이 방법을 사용 하는 경우 사용하는 경우 Supplier 1은 Lucy에게 Power BI Pro 라이선스를 할당 합니다. 그런 다음 이 라이선스를 사용하여 Contoso의 Power BI 앱에 액세스할 수 있습니다. Lucy는 외부 Power BI 환경에 액세스할 때 자체 조직의 Pro 라이선스를 사용할 수 있기 때문에 이 접근 방식을 BYOL (사용자 _라이선스 가져오기_ )라고도 합니다. 두 조직 모두 Power BI를 사용하는 경우 전체 분석 솔루션에 대한 유용한 라이선스를 제공하며 외부 사용자에게 라이선스를 할당하는 오버 헤드를 최소화 합니다.
 
 > [!NOTE]
-> 공급자 1에서 루시에 게 제공 되는 pro 라이선스는 루시가 게스트 사용자 인 모든 Power BI 테 넌 트에 적용 됩니다. Pro 라이선스를 사용 하면 Power BI Premium 용량이 아닌 콘텐츠에 액세스할 수 있습니다. 그러나 Pro 라이선스가 있는 외부 사용자는 기본적으로 소비 전용 환경으로 제한 됩니다. 이 내용은이 문서의 뒷부분에 나오는 _외부 사용자가 Power BI에서 콘텐츠를 편집 하 고 관리할 수 있도록 설정_ 섹션에 설명 된 방법을 사용 하 여 변경할 수 있습니다.
+> Supplier 1가 Lucy에게 제공되는 Pro 라이선스는 Lucy가 게스트 사용자인 모든 Power BI 테넌트에 적용됩니다. Pro 라이선스를 사용하면 Power BI Premium 용량이 아닌 콘텐츠에 액세스할 수 있습니다. 그러나 Pro 라이선스가 있는 외부 사용자는 기본적으로 소비 전용 환경으로 제한됩니다. 이 내용은이 문서의 뒷부분에 나오는 _외부 사용자가 Power BI에서 콘텐츠를 편집하고 관리할 수 있도록 설정_ 섹션에 설명된 방법을 사용하여 변경할 수 있습니다.
 
 ![Pro 라이선스 요구 사항](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_26.png)
 
