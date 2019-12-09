@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 09/13/2019
-ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.date: 12/03/2019
+ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128278"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831134"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -44,7 +44,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | Power BI 모바일 앱 | 예 | 예 | [Power BI 모바일 앱 개요](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS 지도 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop에서 Esri로 ArcGIS 지도 만들기](../visuals/power-bi-visualization-arcgis.md) |
 | Power BI 보고서에 대한 메일 구독 | 아니요 | 예 | Power BI 서비스의 보고서 또는 대시보드에 [자신이나 다른 사용자 구독](../service-report-subscribe.md) |
-| 페이지를 매긴 보고서에 대한 메일 구독 | 예 | 예 | [Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독](../paginated-reports-subscriptions.md)<br><br>[Reporting Services의 메일 전송](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
+| 페이지를 매긴 보고서에 대한 메일 구독 | 예 | 예 | [Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services의 메일 전송](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
 | 데이터 경고 | 아니요 | 예 | Power BI 서비스의 [데이터 경고](../service-set-data-alerts.md)
 | 행 수준 보안(RLS) | 예 | 예 | DirectQuery(데이터 원본) 및 가져오기 모드에서 사용 가능 <br><br>[Power BI 서비스](../service-admin-rls.md)의 행 수준 보안 <br><br>[Power BI Report Server](row-level-security-report-server.md)의 행 수준 보안 |
 | 전체 화면 모드 | 아니요 | 예 | Power BI 서비스의 [전체 화면 모드](../consumer/end-user-focus.md) |
