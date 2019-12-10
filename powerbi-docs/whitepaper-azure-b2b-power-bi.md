@@ -368,89 +368,89 @@ Contoso는 공급자 및 파트너 조직의 게스트 사용자에 게 Power BI
 
 ![Pro 라이선스 요구 사항](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_26.png)
 
-## <a name="data-security-for-external-partners"></a>외부 파트너에 대 한 데이터 보안
+## <a name="data-security-for-external-partners"></a>외부 파트너에 대한 데이터 보안
 
-일반적으로 여러 외부 공급자를 사용 하는 경우 Contoso는 각 공급자가 자체 제품에 대 한 데이터만 볼 수 있도록 해야 합니다. 사용자 기반 보안 및 동적 행 수준 보안을 통해 Power BI를 쉽게 수행할 수 있습니다.
+일반적으로 여러 외부 공급자를 사용 하는 경우 Contoso는 각 공급자가 자체 제품에 대한 데이터만 볼 수 있도록 해야 합니다. 사용자 기반 보안 및 동적 행 수준 보안을 통해 Power BI를 쉽게 수행할 수 있습니다.
 
 ### <a name="user-based-security"></a>사용자 기반 보안
 
 Power BI의 가장 강력한 기능 중 하나는 행 수준 보안입니다. 이 기능을 통해 Contoso는 단일 보고서 및 데이터 집합을 만들 수 있지만 각 사용자에 대해 서로 다른 보안 규칙을 적용할 수 있습니다. 자세한 설명은 [RLS (행 수준 보안)](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/)를 참조 하세요.
 
-Azure AD B2B와의 통합을 통해 Contoso는 Contoso 테 넌 트에 초대 되는 즉시 게스트 사용자에 게 행 수준 보안 규칙을 할당할 수 있습니다. Power BI 앞서 살펴본 것 처럼 Contoso는 계획 된 또는 임시 초대를 통해 게스트 사용자를 추가할 수 있습니다. Contoso에서 행 수준 보안을 적용 하려는 경우 계획 된 초대를 사용 하 여 게스트 사용자를 미리 추가 하 고 콘텐츠를 공유 하기 전에 보안 역할에 할당 하는 것이 좋습니다. Contoso에서 임시 초대를 대신 사용 하는 경우 게스트 사용자가 데이터를 볼 수 없는 짧은 기간이 있을 수 있습니다.
+Azure AD B2B와 Power BI 통합을 통해 Contoso는 Contoso 테넌트에 초대되는 즉시 게스트 사용자에게 행 수준 보안 규칙을 할당할 수 있습니다. 앞서 살펴본 것 처럼 Contoso는 계획된 또는 임시 초대를 통해 게스트 사용자를 추가할 수 있습니다. Contoso에서 행 수준 보안을 적용 하려는 경우 계획된 초대를 사용하여 게스트 사용자를 미리 추가하고 콘텐츠를 공유하기 전에 보안 역할에 할당하는 것이 좋습니다. Contoso에서 임시 초대를 대신 사용하는 경우 게스트 사용자가 데이터를 볼 수 없는 짧은 기간이 있을 수 있습니다.
 
 > [!NOTE]
-> 임시 초대를 사용할 때 RLS에 의해 보호 되는 데이터에 액세스 하는 경우 사용자는 받은 전자 메일에서 공유 링크를 열 때 보고서/대시보드가 비어 있거나 손상 된 것을 볼 수 있기 때문에 IT 팀에 대 한 요청이 지원 될 수 있습니다. 따라서이 시나리오에서는 계획 된 초대를 사용 하는 것이 좋습니다. * *
+> 임시 초대를 사용할 때 RLS에 의해 보호되는 데이터에 액세스하는 경우 사용자는 받은 전자 메일에서 공유 링크를 열 때 보고서/대시보드가 비어 있거나 손상된 것을 볼 수 있기 때문에 IT 팀에 대한 요청이 지원 될 수 있습니다. 따라서 이 시나리오에서는 계획된 초대를 사용 하는 것이 좋습니다. * *
 
-예제를 사용 하 여이를 살펴보겠습니다.
+예제를 사용하여 이를 살펴보겠습니다.
 
-앞서 언급 했 듯이 Contoso는 전 세계 공급자를 보유 하 고 있으며, 해당 공급자 조직의 사용자가 자신의 지역에서 데이터 로부터 통찰력을 얻을 수 있도록 합니다.  하지만 Contoso의 사용자는 모든 데이터에 액세스할 수 있습니다. Contoso는 여러 다른 보고서를 만드는 대신 단일 보고서를 만들고 해당 보고서를 보는 사용자를 기준으로 데이터를 필터링 합니다.
+앞서 언급했 듯이 Contoso는 전 세계 공급자를 보유하고 있으며, 해당 공급자 조직의 사용자가 자신의 지역에서 데이터로부터 통찰력을 얻을 수 있도록 합니다. 하지만 Contoso의 사용자는 모든 데이터에 액세스할 수 있습니다. Contoso는 여러 다른 보고서를 만드는 대신 단일 보고서를 만들고 해당 보고서를 보는 사용자를 기준으로 데이터를 필터링 합니다.
 
 ![공유 콘텐츠](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_27.png)
 
-Contoso가 연결 된 사용자를 기준으로 데이터를 필터링 할 수 있도록 하려면 Power BI desktop에서 두 개의 역할이 만들어집니다. SalesTerritory "유럽"의 모든 데이터와 "북아메리카"에 대 한 모든 데이터를 필터링 할 수 있습니다.
+Contoso가 연결된 사용자를 기준으로 데이터를 필터링 할 수 있도록 하려면 Power BI Desktop에서 두 개의 역할이 만들어집니다. SalesTerritory "유럽"의 모든 데이터와 "북아메리카"에 대한 모든 데이터를 필터링 할 수 있습니다.
 
 ![역할 관리](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_28.png)
 
-보고서에 역할이 정의 될 때마다 사용자가 특정 역할에 할당 되어 모든 데이터에 액세스할 수 있어야 합니다. 역할 할당은 Power BI 서비스 내에서 발생 합니다 ( **데이터 집합 > 보안** ).
+보고서에 역할이 정의될 때마다 사용자가 특정 역할에 할당되어 모든 데이터에 액세스할 수 있어야 합니다. 역할 할당은 Power BI 서비스 내에서 발생합니다 ( **데이터 집합 > 보안** ).
 
 ![보안 설정](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_29.png)
 
-그러면 Contoso의 BI 팀에서 자신이 만든 두 역할을 볼 수 있는 페이지가 열립니다.  이제 Contoso의 BI 팀은 사용자를 역할에 할당할 수 있습니다.
+그러면 Contoso의 BI 팀에서 자신이 만든 두 역할을 볼 수 있는 페이지가 열립니다. 이제 Contoso의 BI 팀은 사용자를 역할에 할당할 수 있습니다.
 
 ![행 수준 보안](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
 
-이 예에서는 Contoso가 전자 메일 주소 "[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)"를 사용 하는 파트너 조직의 사용자를 유럽 역할에 추가 합니다.
+이 예에서는 Contoso가 전자 메일 주소 "[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)"를 사용하는 파트너 조직의 사용자를 유럽 역할에 추가 합니다.
 
 ![행 수준 보안 설정](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_31.png)
 
-Azure AD에서이를 해결 하면 Contoso는 추가할 준비가 된 창에 표시 되는 이름을 볼 수 있습니다.
+Azure AD에서 이를 해결 하면 Contoso는 추가할 준비가 된 창에 표시되는 이름을 볼 수 있습니다.
 
 ![역할 표시](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_32.png)
 
-이제이 사용자가 공유 된 앱을 열면 유럽의 데이터가 포함 된 보고서만 표시 됩니다.
+이제 이 사용자가 공유 된 앱을 열면 유럽의 데이터가 포함된 보고서만 표시 됩니다.
 
 ![콘텐츠 보기](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_33.png)
 
 ### <a name="dynamic-row-level-security"></a>동적 행 수준 보안
 
-또 다른 흥미로운 항목은 Azure AD B2B에서 RLS (dynamic row level security)가 작동 하는 방식을 확인 하는 것입니다.
+또 다른 흥미로운 항목은 Azure AD B2B에서 RLS(동적 행 수준 보안)가 작동하는 방식을 확인하는 것입니다.
 
-간단히 말해서 Power BI에 연결 하는 사용자의 사용자 이름을 기반으로 모델의 데이터를 필터링 하 여 동적 행 수준 보안을 적용 합니다. 사용자 그룹에 대해 여러 역할을 추가 하는 대신 모델의 사용자를 정의 합니다. 여기서는 패턴에 대해 자세히 설명 하지 않습니다. Kasper de Jong는 [Power BI Desktop Dynamic security 참고 자료 시트](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)및 [이 백서](https://msdn.microsoft.com/library/jj127437.aspx) 에서 행 수준 보안의 모든 특성에 대 한 자세한 쓰기를 제공 합니다.
+간단히 말해서 Power BI에 연결하는 사용자의 사용자 이름을 기반으로 모델의 데이터를 필터링하여 동적 행 수준 보안을 적용 합니다. 사용자 그룹에 대해 여러 역할을 추가하는 대신 모델의 사용자를 정의합니다. 여기서는 패턴에 대해 자세히 설명 하지 않습니다. Kasper de Jong는 [Power BI Desktop 동적 보안 참고 자료 시트](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)및 [이 백서](https://msdn.microsoft.com/library/jj127437.aspx)에서 행 수준 보안의 모든 특성에 대한 자세한 내용을 제공합니다.
 
-작은 예를 살펴보겠습니다. Contoso는 그룹 별 판매에 대 한 간단한 보고서를 포함 합니다.
+작은 예를 살펴보겠습니다. Contoso는 그룹 별 판매에 대한 간단한 보고서를 포함합니다.
 
 ![샘플 콘텐츠](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_34.png)
 
-이제이 보고서를 두 명의 게스트 사용자와 내부 사용자와 공유 해야 합니다. 내부 사용자는 모든 항목을 볼 수 있지만 게스트 사용자는 액세스 권한이 있는 그룹만 볼 수 있습니다. 즉, 게스트 사용자에 대해서만 데이터를 필터링 해야 합니다. 데이터를 적절 하 게 필터링 하기 위해 Contoso는 백서 및 블로그 게시물에 설명 된 대로 동적 RLS 패턴을 사용 합니다. 즉, Contoso는 데이터 자체에 사용자 이름을 추가 합니다.
+이제 이 보고서를 두 명의 게스트 사용자와 내부 사용자와 공유 해야 합니다. 내부 사용자는 모든 항목을 볼 수 있지만 게스트 사용자는 액세스 권한이 있는 그룹만 볼 수 있습니다. 즉, 게스트 사용자에 대해서만 데이터를 필터링 해야 합니다. 데이터를 적절하게 필터링 하기 위해 Contoso는 백서 및 블로그 게시물에 설명된 대로 동적 RLS 패턴을 사용합니다. 즉, Contoso는 데이터 자체에 사용자 이름을 추가 합니다.
 
 ![데이터 자체에 대 한 RLS 사용자 보기](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_35.png)
 
-그런 다음, Contoso는 올바른 관계를 사용 하 여 적절 한 데이터를 필터링 하는 올바른 데이터 모델을 만듭니다.
+그런 다음, Contoso는 올바른 관계를 사용하여 적절한 데이터를 필터링하는 올바른 데이터 모델을 만듭니다.
 
 ![적절 한 데이터가 표시 됨](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_36.png)
 
-로그인 한 사용자에 따라 데이터를 자동으로 필터링 하려면 Contoso에서 연결 하는 사용자에 게 전달 되는 역할을 만들어야 합니다. 이 경우 Contoso는 두 개의 역할을 만듭니다. 첫 번째는 Power BI에 로그인 한 사용자의 현재 사용자 이름을 사용 하 여 사용자 테이블을 필터링 하는 "securityrole"입니다 .이는 Azure AD B2B 게스트 사용자에 대해서도 작동 합니다.
+로그인한 사용자에 따라 데이터를 자동으로 필터링 하려면 Contoso에서 연결하는 사용자에게 전달되는 역할을 만들어야 합니다. 이 경우 Contoso는 두 개의 역할을 만듭니다. 첫 번째는 Power BI에 로그인한 사용자의 현재 사용자 이름을 사용하여 사용자 테이블을 필터링 하는 "securityrole"입니다. 이는 Azure AD B2B 게스트 사용자에 대해서도 작동합니다.
 
 ![역할 관리](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_37.png)
 
-또한 Contoso는 모든 것을 볼 수 있는 내부 사용자에 대해 또 다른 "AllRole"을 만듭니다 .이 역할에는 보안 조건자가 없습니다.
+또한 Contoso는 모든 것을 볼 수 있는 내부 사용자에 대해 또 다른 "AllRole"을 만듭니다. 이 역할에는 보안 조건자가 없습니다.
 
-서비스에 Power BI desktop 파일을 업로드 하면 Contoso에서 게스트 사용자를 "SecurityRole"에 할당 하 고 내부 사용자를 "AllRole"에 할당할 수 있습니다.
+서비스에 Power BI Desktop 파일을 업로드 하면 Contoso에서 게스트 사용자를 "SecurityRole"에 할당하고 내부 사용자를 "AllRole"에 할당할 수 있습니다.
 
 이제 게스트 사용자가 보고서를 열 때 그룹 A의 판매액만 표시 됩니다.
 
 ![그룹 A 에서만](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_38.png)
 
-오른쪽에 있는 행렬에서 USERNAME () 및 USERPRINCIPALNAME () 함수의 결과를 볼 수 있습니다 .이는 모두 게스트 사용자 전자 메일 주소를 반환 합니다.
+오른쪽에 있는 행렬에서 USERNAME() 및 USERPRINCIPALNAME() 함수의 결과를 볼 수 있습니다. 이는 모두 게스트 사용자 전자 메일 주소를 반환 합니다.
 
 이제 내부 사용자는 모든 데이터를 볼 수 있습니다.
 
 ![표시 되는 모든 데이터](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_39.png)
 
-여기에서 볼 수 있듯이 동적 RLS는 내부 또는 게스트 사용자와 함께 작동 합니다.
+여기에서 볼 수 있듯이 동적 RLS는 내부 또는 게스트 사용자와 함께 작동합니다.
 
 > [!NOTE]
-> 이 시나리오는 Azure Analysis Services에서 모델을 사용 하는 경우에도 작동 합니다. 일반적으로 Azure Analysis Service는 Power BI와 동일한 Azure AD에 연결 되어 있습니다 .이 경우 Azure AD B2B를 통해 초대 된 게스트 사용자도 알고 Azure Analysis Services.
+> 이 시나리오는 Azure Analysis Services에서 모델을 사용 하는 경우에도 작동 합니다. 일반적으로 Azure Analysis Service는 Power BI와 동일한 Azure AD에 연결 되어 있습니다. 이 경우, Azure Analysis Services는 또한 Azure AD B2B를 통해 초대된 게스트 사용자를 알고 있습니다.
 
 ## <a name="connecting-to-on-premises-data-sources"></a>온-프레미스 데이터 원본에 연결
 
