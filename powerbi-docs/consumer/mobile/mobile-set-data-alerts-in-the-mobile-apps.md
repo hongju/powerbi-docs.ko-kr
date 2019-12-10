@@ -38,7 +38,7 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
 1. 대시보드에서 번호 또는 계기 타일을 탭하여 포커스 모드로 엽니다.  
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
-2. 종 모양 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png)을(를) 눌러서 경고를 추가합니다.  
+2. 종 모양 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png)을 눌러서 경고를 추가합니다.  
 3. **경고 규칙 추가**를 탭합니다.
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
@@ -64,14 +64,14 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
 2. 종 모양 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png)을 탭합니다.  
-3. 경고 이름을 탭하여 편집하거나, 슬라이더를 탭하여 메일 경고를 해제하거나, 쓰레기통을 탭하여 경고를 삭제합니다.
+3. 경고 이름을 탭하여 편집하거나, 슬라이더를 탭하여 메일 경고를 해제하거나, 휴지통을 탭하여 경고를 삭제합니다.
    
     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
 
 ## <a name="data-alerts-on-an-android-device"></a>Android 디바이스의 데이터 경고
 ### <a name="set-an-alert-on-an-android-device"></a>Android 디바이스의 경고 설정
 1. Power BI 대시보드에서 번호 또는 계기 타일을 탭하여 엽니다.  
-2. 종 모양 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png)을(를) 눌러서 경고를 추가합니다.  
+2. 종 모양 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png)을 눌러서 경고를 추가합니다.  
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
 3. 더하기 아이콘(+)을 탭합니다.
@@ -99,12 +99,12 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
    
     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
 4. 같은 타일에 또 다른 경고를 추가하려면 더하기 아이콘(+)을 탭합니다.
-5. 경고를 모두 삭제하려면 쓰레기통 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png)을 탭합니다.
+5. 경고를 모두 삭제하려면 휴지통 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png)을 탭합니다.
 
 ## <a name="data-alerts-on-a-windows-device"></a>Windows 디바이스의 데이터 경고
 ### <a name="set-data-alerts-on-a-windows-device"></a>Windows 디바이스의 데이터 경고 설정
 1. 대시보드에서 번호 또는 계기 타일을 탭하여 엽니다.  
-2. 종 모양 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png)을(를) 눌러서 경고를 추가합니다.  
+2. 종 모양 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png)을 눌러서 경고를 추가합니다.  
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
 3. 더하기 아이콘(+)을 탭합니다.
