@@ -39,7 +39,9 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 ## <a name="filter-the-report-page-on-a-phone"></a>휴대폰에서 보고서 페이지 필터링
 휴대폰에 최적화된 보고서에 정의된 필터가 있는 경우 휴대폰에서 보고서를 볼 때 해당 필터를 사용할 수 있습니다. 보고서는 웹의 보고서에서 필터링되는 값으로 필터링되어 휴대폰에서 열립니다. 페이지에 활성 필터가 있다는 메시지가 표시됩니다. 휴대폰에서 필터를 변경할 수 있습니다.
 
+
 1. 페이지 맨 아래에서 휴대폰 필터 아이콘 ![휴대폰 필터 아이콘](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png)을 탭합니다. 
+
 2. 기본 또는 고급 필터링을 사용하여 원하는 결과를 확인합니다.
    
     ![휴대폰 BI 휴대폰 보고서 고급 필터](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
@@ -95,7 +97,9 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
     ![포커스 모드로 확장](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     이 예제에서 막대는 시/도 값을 보여줍니다.
+
 2. 왼쪽 아래에서 탐색 아이콘 ![탐색 아이콘](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png)을 탭합니다.
+
    
     ![탐색 모드](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-mode.png)
 3. **다음 수준 표시** 또는 **다음 수준으로 확장**을 누릅니다.

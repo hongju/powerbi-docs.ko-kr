@@ -1,19 +1,19 @@
 ---
 title: 사용자를 인증하고 애플리케이션에 대한 Azure AD 액세스 토큰 가져오기
 description: Power BI 콘텐츠를 포함하는 데 사용할 Azure Active Directory에 애플리케이션을 등록하는 방법을 알아봅니다.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
-ms.openlocfilehash: 1655843d9e3175b9c428434fd533a601cc42d847
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875750"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74310832"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI 애플리케이션에 대한 Azure AD 액세스 토큰 가져오기
 

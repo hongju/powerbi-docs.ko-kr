@@ -1,20 +1,20 @@
 ---
-title: 정부 및 내셔널용 애플리케이션에 Power BI 콘텐츠를 포함하기 위한 임베디드 분석
+title: 정부 및 국가별 클라우드의 애플리케이션에 콘텐츠 포함
 description: 고객의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 정부 및 내셔널 클라우드용 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 7ede1678dc6cf0e217eb17dcc28f756031467b84
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2d8fc35383aa427d8e5c9fd37c6c35f4f3d0a6bb
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875880"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565312"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>자습서:  내셔널 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -25,6 +25,8 @@ Power BI는 [내셔널 클라우드](https://docs.microsoft.com/azure/active-dir
 다른 내셔널 클라우드는 다음과 같습니다.
 
 * 미국 GCC(정부 커뮤니티 클라우드)
+
+* U. S. 정부 커뮤니티 클라우드 High(GCC High)
 
 * U. S. DoDCON(군용 계약업체)
 
@@ -51,8 +53,8 @@ Power BI는 [내셔널 클라우드](https://docs.microsoft.com/azure/active-dir
 
 * GCC(정부 커뮤니티 클라우드):
 
-    > [!Note]
-    > GCC 계정은 P 및 EM 용량만을 지원합니다.
+    > [!NOTE]
+    > GCC(정부 커뮤니티 클라우드)의 Power BI 콘텐츠를 포함하려면 Office 356 SKU를 사용해야 합니다. GCC High 고객은 [Office 356 또는 Azure SKU](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365)를 사용할 수 있습니다.
 
 1. GCCCloud.config 콘텐츠로 Cloud.config 파일을 덮어씁니다.
 

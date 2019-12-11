@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 11/14/2019
-  ms.openlocfilehash: de1ea8bbc35bc1d2ecc42a8deffc54fd9ac01bc1
-  ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+  ms.openlocfilehash: e95a60b0927592bfac06f05f84158449803f421b
+  ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 11/16/2019
-  ms.locfileid: "74133845"
+  ms.lasthandoff: 12/05/2019
+  ms.locfileid: "74830717"
 landingContent:
 - title: Power BI 지침
   linkLists:
@@ -45,9 +45,25 @@ landingContent:
       url: dax-divide-function-operator.md
     - text: 오류 함수를 적절하게 사용
       url: dax-error-functions.md
+    - text: 값 대신 SELECTEDVALUE 사용
+      url: dax-selectedvalue.md
+    - text: COUNT 대신 COUNTROWS 사용
+      url: dax-countrows.md
+    - text: 변수를 사용하여 수식 향상
+      url: dax-variables.md
+    - text: 공백을 값으로 변환하지 마세요.
+      url: dax-avoid-converting-blank.md
 - title: 데이터 흐름
   linkLists:
   - linkListType: concept
     links:
     - text: 데이터 흐름 모범 사례
       url: ../service-dataflows-best-practices.md
+- title: 보고
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
+      url: report-page-tooltips.md
+    - text: 보고서 페이지 드릴스루
+      url: report-drillthrough.md

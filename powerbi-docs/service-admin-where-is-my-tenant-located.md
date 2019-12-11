@@ -1,20 +1,20 @@
 ---
 title: 내 Power BI 테넌트는 어디에 있습니까?
 description: Power BI 테넌트의 위치와 해당 위치를 선택하는 방법에 대해 알아보세요. 서비스에 대한 상호 작용에 영향을 줄 수 있으므로 이를 알아두는 것이 중요합니다.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3f12e6f0b54f85ebd626b2bd35bf1a03d513c17a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4a763b31333004a8cdecda5262967473817bc983
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873340"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698374"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>내 Power BI 테넌트는 어디에 있습니까?
 

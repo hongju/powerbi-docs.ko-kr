@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877649"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264203"
 ---
 # <a name="service-principal-with-power-bi"></a>Power BI를 포함하는 서비스 주체
 
@@ -93,7 +93,7 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
    > [!Important]
    > 서비스 주체를 Power BI와 함께 사용하도록 설정하면 애플리케이션의 AD 사용 권한이 더 이상 적용되지 않습니다. 애플리케이션 사용 권한은 Power BI 관리 포털을 통해 관리됩니다.
 
-2.  **권장** - [AAD(Azure Active Directory)의 보안 그룹](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)을 만들고, 사용자가 만든 애플리케이션을 해당 보안 그룹에 추가합니다. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)을 사용하여 AAD 보안 그룹을 만들 수 있습니다.
+2.  **권장** - AAD(Azure Active Directory)의 보안 그룹을 만들고, 사용자가 만든 [애플리케이션](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)을 해당 보안 그룹에 추가합니다. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)을 사용하여 AAD 보안 그룹을 만들 수 있습니다.
 
     아래는 새 보안 그룹을 만들고 해당 보안 그룹에 애플리케이션을 추가하는 샘플 스크립트입니다.
 

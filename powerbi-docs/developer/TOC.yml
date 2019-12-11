@@ -15,6 +15,8 @@
               href: power-bi-custom-visuals.md
         - name: 자습서
           items:
+            - name: 시각적 개념
+              href: visuals/power-bi-visuals-concept.md
             - name: Power BI의 시각적 개체 개발
               href: visuals/custom-visual-develop-tutorial.md
             - name: 서식 지정 옵션 추가
@@ -39,11 +41,11 @@
               href: visuals/advanced-edit-mode.md
         - name: 방법
           items:
-            - name: 시각적 개체 인증받기
+            - name: Power BI 시각적 개체 인증받기
               href: power-bi-custom-visuals-certified.md
-            - name: AppSource에 사용자 지정 시각적 개체 게시
+            - name: AppSource에 Power BI 시각적 개체 게시하기
               href: office-store.md
-            - name: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
+            - name: Power BI에서 R 지원 Power BI 시각적 개체 사용
               href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: 시각적 개체 상호 작용
               href: visuals/visuals-interactions.md
@@ -200,7 +202,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: 스택 오버플로
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
-    - name: Automation
+    - name: 자동화
       expanded: true
       items:
         - name: 개요

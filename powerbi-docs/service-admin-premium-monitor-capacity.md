@@ -1,20 +1,20 @@
 ---
 title: 프리미엄 용량 메트릭 앱을 사용하여 Power BI Premium 용량을 모니터링합니다.
 description: Power BI 관리 포털 및 Power BI Premium 용량 측정 항목 앱 사용
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 3ec2d68fd7245642c67f8b12b86609683ccf69e8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a61288c9792d562e9a5efecd43d879d6df6d1782
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873467"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698880"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>앱을 사용하여 프리미엄 용량 모니터링
 
