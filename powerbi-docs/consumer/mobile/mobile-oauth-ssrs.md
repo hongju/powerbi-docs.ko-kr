@@ -102,7 +102,7 @@ AD FS 관리 화면 내에 Power BI 모바일 앱에 대한 정보가 포함된 
 
 6. 다음 **리디렉션 URL**을 추가하려고 합니다.
 
-   **Power BI Mobile – iOS에 대한 항목:**  
+   **Power BI Mobile – iOS에 대한 항목:** 
    msauth://code/mspbi-adal://com.microsoft.powerbimobile  
    msauth://code/mspbi-adalms://com.microsoft.powerbimobilems  
    mspbi-adal://com.microsoft.powerbimobile  
