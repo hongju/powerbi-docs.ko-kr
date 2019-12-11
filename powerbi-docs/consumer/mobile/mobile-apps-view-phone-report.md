@@ -33,8 +33,8 @@ ms.locfileid: "73870525"
 
 Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고서에서 여전히 작동합니다. 다음의 경우 무엇을 할 수 있는지에 관해 자세히 알아봅니다.
 
-* [IPhone에서 보고서](mobile-reports-in-the-mobile-apps.md). 
-* [안드로이드 폰에서 보고서](mobile-reports-in-the-mobile-apps.md).
+* [Iphone 상의 보고서](mobile-reports-in-the-mobile-apps.md). 
+* [안드로이드 폰 상의 보고서](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="filter-the-report-page-on-a-phone"></a>휴대폰에서 보고서 페이지 필터링
 휴대폰에 최적화된 보고서에 정의된 필터가 있는 경우 휴대폰에서 보고서를 볼 때 해당 필터를 사용할 수 있습니다. 보고서는 웹의 보고서에서 필터링되는 값으로 필터링되어 휴대폰에서 열립니다. 페이지에 활성 필터가 있다는 메시지가 표시됩니다. 휴대폰에서 필터를 변경할 수 있습니다.
