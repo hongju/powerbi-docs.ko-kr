@@ -40,7 +40,7 @@ Power BI Report Server 및 SQL Server 2016 Reporting Services(SSRS)에서 Power 
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>서버 연결 없이 모바일 앱에서 샘플 탐색
 Reporting Services 웹 포털에 대한 액세스가 없더라도, Reporting Services 모바일 보고서 및 KPI의 기능을 탐색할 수 있습니다. 
 
-1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png)를 탭한 다음 오른쪽 위에 있는 톱니바퀴 모양의 아이콘 ![기어 아이콘](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png)을 탭합니다.
+1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) 를 탭한 다음 오른쪽 위에 있는 톱니바퀴 모양의 아이콘 ![기어 아이콘](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png)을 탭합니다.
 2. **Reporting Services 샘플**을 누른 다음 KPI 및 모바일 보고서와 상호 작용할 샘플을 찾아봅니다.
    
    ![Reporting Services 샘플](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
@@ -53,7 +53,7 @@ Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Serv
    
    ![보고서 서버에 로그인](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
    
-   Power BI 앱에 이미 로그인한 경우 전역 탐색 버튼 ![전역 탐색 단추](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png)을 탭한 다음, 오른쪽 위에 있는 톱니바퀴 모양의 아이콘 ![기어 아이콘](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png)을 탭합니다.
+   Power BI 앱에 이미 로그인한 경우 전역 탐색 버튼 ![전역 탐색 단추](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png)을 탭한 다음, 오른쪽 위에 있는 톱니바퀴 모양의 아이콘 ![기어 아이콘](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png) 을 탭합니다.
 3. **서버에 연결**을 탭합니다.
    
     ![서버에 연결](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
@@ -76,7 +76,7 @@ Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Serv
    
     ![서버에 연결 대화 상자](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (선택 사항) 원하는 경우 **고급 옵션**에서 서버 이름을 지정할 수 있습니다.
-6. 이제 이 예에서 "Power BI 보고서 서버"라는 서버가 탐색 창에 표시됩니다.
+6. 이제 이 예에서 "power bi report server"라는 서버가 탐색 창에 표시됩니다.
    
    ![탐색 창의 보고서 서버](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
@@ -101,7 +101,7 @@ iOS 모바일 앱에서 Power BI를 보는 경우 IT 관리자는 앱 구성 정
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>Power BI 앱에서 Power BI 보고서 및 KPI 보기
 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting Services 웹 포털에서와 동일한 폴더에 표시됩니다. 
 
-* Power BI 보고서 아이콘 ![Power BI 보고서 아이콘](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png)을 탭합니다. 그러면 가로 모드로 열리고 Power BI 앱에서 상호 작용할 수 있습니다.
+* Power BI 보고서 탭 ![Power BI 보고서 아이콘](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png)을 탭합니다. 그러면 가로 모드로 열리고 Power BI 앱에서 상호 작용할 수 있습니다.
 
     > [!NOTE]
   > 드릴다운 및 드릴업은 현재 Power BI Report Server의 Power BI 보고서에서 사용되지 않습니다.
