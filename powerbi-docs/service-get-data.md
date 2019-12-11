@@ -32,7 +32,7 @@ ms.locfileid: "73881421"
 ## <a name="discover-content"></a>콘텐츠 검색
 ![](media/service-get-data/pbi-getdata-discovercontent.png)
 
-**콘텐츠 검색** 섹션에는 필요한 데이터와 보고서가 이미 준비된 상태로 포함되어 있습니다. Power BI에는 두 가지 유형의 콘텐츠 팩이 있습니다. 조직 및 서비스. 
+**콘텐츠 검색** 섹션에는 필요한 데이터와 보고서가 이미 준비된 상태로 포함되어 있습니다. Power BI에는 두 가지 유형의 콘텐츠 팩이 있습니다: 조직 및 서비스. 
 
 **조직**: 사용자 그리고 사용자가 속한 조직의 다른 사용자가 Power BI Pro 계정을 갖고 있는 경우 사용자는 콘텐츠 팩을 만들고, 공유하고, 사용할 수 있습니다. 자세한 내용은 [조직 콘텐츠 팩 소개](service-organizational-content-pack-introduction.md)를 참조하세요.
 
@@ -58,7 +58,7 @@ XML 테이블( *.xml*) 또는 텍스트 파일( *.txt*) 같은 기타 유형의 
 ### <a name="databases"></a>데이터베이스
 ![](media/service-get-data/pbi_getdata_databases.png)
 
-**클라우드의 데이터베이스** - Power BI 서비스에서 다음에 실시간으로 연결할 수 있습니다.
+**클라우드의 데이터베이스** - Power BI 서비스에서는 다음을 실시간으로 연결할 수 있습니다.
 
 * Azure SQL Database
 * Azure SQL Data Warehouse
