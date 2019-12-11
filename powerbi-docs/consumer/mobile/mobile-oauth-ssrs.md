@@ -19,7 +19,7 @@ ms.locfileid: "73870093"
 
 OAuth를 통해 Power BI Report Server 및 Reporting Services에 연결하여 모바일 보고서 또는 KPI를 표시할 수 있습니다. Power BI Report Server 및 SQL Server Reporting Services 2016 이상에 연결하기 위해 Power BI 모바일 앱에서 OAuth 인증을 지원하도록 환경을 구성하는 방법을 알아봅니다.
 
-Adam이 OAuth를 사용하여 Power BI 모바일에서 SSRS에 연결하는 것을 확인합니다.
+Adam이 OAuth를 사용하여 Power BI Mobile에서 SSRS에 연결하는 것을 확인합니다.
 
 
 <iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
@@ -102,7 +102,7 @@ AD FS 관리 화면 내에 Power BI 모바일 앱에 대한 정보가 포함된 
 
 6. 다음 **리디렉션 URL**을 추가하려고 합니다.
 
-   **Power BI 모바일 – iOS에 대한 항목:**  
+   **Power BI Mobile – iOS에 대한 항목:** 
    msauth://code/mspbi-adal://com.microsoft.powerbimobile  
    msauth://code/mspbi-adalms://com.microsoft.powerbimobilems  
    mspbi-adal://com.microsoft.powerbimobile  
