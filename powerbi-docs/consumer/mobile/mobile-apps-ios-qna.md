@@ -102,7 +102,7 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 9. 새 질문을 해 보세요. 키워드에서 **top**를 탭하고 **sale by avg $/unit ly** > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. 키워드에서 **by**을 선택하여 맨 위에 있는 제안 목록에서 **time** > **보내기**![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 누릅니다.
+10. 키워드에서 **by**를 선택하여 맨 위에 있는 제안 목록에서 **time** > **보내기**![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 누릅니다.
 
      ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
 11. **as**를 입력하고, 제안 목록에서 꺾은선형 차트 아이콘 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 선택합니다.
@@ -117,7 +117,7 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. 마이크 아이콘이 활성 상태가 되면 말합니다. 예를 들어 "average unit price by time"를 말한 후 **송신** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)을 누릅니다.
+1. 마이크 아이콘이 활성 상태가 되면 말합니다. 예를 들어 "average unit price by time"을 말한 후 **송신** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)을 누릅니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 
