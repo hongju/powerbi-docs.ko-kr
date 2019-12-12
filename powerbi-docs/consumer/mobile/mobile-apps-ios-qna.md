@@ -83,13 +83,13 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 
 2. 페이지 아래쪽(iPad의 경우 페이지 위쪽)에 있는 작업 메뉴에서 질문 및 답변 가상 분석가 아이콘 ![질문 및 답변 가상 분석가 아이콘](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)을 누릅니다.
      질문 및 답변 가상 분석가에서 시작하기 위한 몇 가지 제안을 제공합니다.
-3. **표시**를 누르고, 제안 목록의 **판매**, **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)을 차례로 탭합니다.
+3. **Show**를 누르고, 제안 목록의 **Sales**, **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)을 차례로 탭합니다.
 
     ![판매량 표시](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
 4. 키워드에서 **기준**을 누른 다음 제안 목록에서 **항목** > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 누릅니다.
 
     ![항목별 판매](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. 키워드에서 **자격**을 누르고 열 차트 아이콘 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png)를 누른 다음 **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 누릅니다.
+5. 키워드에서 **as**를 누르고 열 차트 아이콘 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png)을 탭한 다음 **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 누릅니다.
 6. 결과 차트를 길게 누른 다음 **확장**을 누릅니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -99,7 +99,7 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. 왼쪽 위 모서리에 있는 화살표를 눌러 질문 및 답변 가상 분석가 채팅 창으로 돌아갑니다.
 8. 텍스트를 삭제하고 다시 시작하려면 텍스트 상자의 오른쪽에 있는 X를 누릅니다.
-9. 새 질문을 해 보세요. 키워드에서 **맨 위**를 탭하고 **avg $/unit ly별 판매** > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
+9. 새 질문을 해 보세요. 키워드에서 **top**를 탭하고 **sale by avg $/unit ly** > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
 10. 키워드에서 **기준**을 선택하여 맨 위에 있는 제안 목록에서 **시간** > **보내기**![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 누릅니다.
@@ -112,7 +112,7 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 ## <a name="try-saying-your-questions"></a>말하기로 질문 시도
 이제 Power BI 모바일 앱에서 입력 대신 말하기로 데이터에 대한 질문을 할 수 있습니다.
 
-1. 질문 및 답변 가상 분석가 아이콘을 누릅니다. ![질문 및 답변 가상 분석가 아이콘](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) iOS에 대한 질문 및 답변 아이콘을 누릅니다(iPad 상에서 페이지 맨 위).
+1. 페이지 아래의 작업 메뉴에서 질문 및 답변 가상 분석가 아이콘 ![질문 및 답변 가상 분석가 아이콘](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) 을 탭합니다(iPad 상에서 페이지 맨 위).
 2. 마이크 아이콘 ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png)을 누릅니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)

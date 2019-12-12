@@ -53,7 +53,7 @@ iOS 11 이상을 실행하는 모든 디바이스에서 iOS용 Power BI 앱을 �
 ### <a name="power-bi-samples"></a>Power BI 샘플
 Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지만 이 샘플로 처리할 수 없는 몇 가지 작업이 있습니다. 즉 대시보드 뒤에 있는 보고서를 열 수 없거나, 다른 사용자와 샘플을 공유할 수 없거나, 이 샘플의 즐겨찾기를 만들 수 없습니다.
 
-1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png)를 탭합니다.
+1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) 를 탭합니다.
 2. 오른쪽 위에서 기어 아이콘 ![기어 아이콘](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)을 탭한 다음 **Power BI 샘플**을 탭합니다.
 3. 역할을 선택하고 해당 역할에 대한 샘플 대시보드를 탐색합니다.  
    
@@ -65,7 +65,7 @@ Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지�
    > 
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services 모바일 보고서 샘플
-1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png)를 탭합니다.
+1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) 를 탭합니다.
 2. 오른쪽 위에서 기어 아이콘 ![기어 아이콘](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)을 탭한 다음 **Reporting Services 샘플**을 탭합니다.
 3. 소매 보고서 또는 판매 보고서 폴더를 열어 KPI 및 모바일 보고서를 탐색합니다.
    
