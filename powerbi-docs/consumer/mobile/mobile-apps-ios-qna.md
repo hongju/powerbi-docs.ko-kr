@@ -86,7 +86,7 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 3. **Show**를 누르고, 제안 목록의 **Sales**, **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)을 차례로 탭합니다.
 
     ![판매량 표시](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. 키워드에서 **기준**을 누른 다음 제안 목록에서 **항목** > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 누릅니다.
+4. 키워드에서 **by**을 누른 다음 제안 목록에서 **item** > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
 
     ![항목별 판매](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
 5. 키워드에서 **as**를 누르고 열 차트 아이콘 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png)을 탭한 다음 **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 누릅니다.
@@ -102,10 +102,10 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 9. 새 질문을 해 보세요. 키워드에서 **top**를 탭하고 **sale by avg $/unit ly** > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. 키워드에서 **기준**을 선택하여 맨 위에 있는 제안 목록에서 **시간** > **보내기**![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 누릅니다.
+10. 키워드에서 **by**를 선택하여 맨 위에 있는 제안 목록에서 **time** > **보내기**![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 누릅니다.
 
      ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. **자격**을 입력하고, 제안 목록에서 꺾은선형 차트 아이콘 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 선택합니다.
+11. **as**를 입력하고, 제안 목록에서 꺾은선형 차트 아이콘 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > **보내기** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 선택합니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
@@ -117,7 +117,7 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. 마이크 아이콘이 활성 상태가 되면 말합니다. 예를 들어 "시간별 평균 단가"를 말한 후 **송신** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)을 누릅니다.
+1. 마이크 아이콘이 활성 상태가 되면 말합니다. 예를 들어 "average unit price by time"을 말한 후 **송신** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)을 누릅니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 
@@ -125,7 +125,7 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 Apple iOS 개발자 가이드의 [iOS의 새로운 기능](https://go.microsoft.com/fwlink/?linkid=845624)(영문)에서 음성 인식 섹션을 참조하세요.
 
 ## <a name="help-and-feedback"></a>도움말 및 피드백
-* 도움이 필요하십니까? "안녕하세요" 또는 "도와주세요"라고만 하면 새 질문 시작에 도움을 얻을 수 있습니다.
+* 도움이 필요하십니까? 도움이 필요하십니까? "Hi" 또는 "Help"라고만 하면 새 질문 시작에 도움을 얻을 수 있습니다.
 * 결과에 대한 피드백을 제공하시겠습니까? 차트나 기타 결과를 길게 누른 다음 웃는 얼굴이나 찡그린 얼굴을 누릅니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)

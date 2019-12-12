@@ -1,20 +1,20 @@
 ---
 title: Azure AD B2B에서 외부 게스트 사용자에게 콘텐츠 배포
 description: Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합하므로 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안전하게 배포할 수 있습니다.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: bcde2bc456ee48e8dc66d6c0ba6b17d79fbe43a8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c126b073ac80a470733d7d8dd2638da28a06b265
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858002"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882816"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -30,7 +30,9 @@ Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합�
 
 ## <a name="who-can-you-invite"></a>누구를 초대할 수 있나요?
 
-gmail.com, outlook.com 및 hotmail.com과 같은 개인 계정을 포함한 메일 주소를 사용하여 게스트 사용자를 초대할 수 있습니다. Azure AD B2B에서는 이러한 주소를 *소셜 ID*라고 합니다.
+개인 계정(예: gmail.com, outlook.com 및 hotmail.com)을 포함한 대부분의 메일 주소를 사용하여 게스트 사용자를 초대할 수 있습니다. Azure AD B2B에서는 이러한 주소를 *소셜 ID*라고 합니다.
+
+[미국 정부용 Power BI](service-govus-overview.md)와 같이 정부 클라우드와 관련된 사용자를 초대할 수 없습니다.
 
 ## <a name="invite-guest-users"></a>게스트 사용자 초대
 

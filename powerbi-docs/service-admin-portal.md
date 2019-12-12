@@ -1,21 +1,21 @@
 ---
 title: Power BI 관리 포털
 description: 관리 포털을 통해 조직에서 Power BI의 테넌트 관리를 사용할 수 있습니다. 사용 메트릭, Microsoft 365 관리 센터에 대한 액세스 및 설정과 같은 항목을 포함하고 있습니다.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265902"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882894"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -172,7 +172,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 라이선스 요청에 URL을 지정하여 Power BI Pro 라이선스가 없는 사용자가 **Power BI Pro로 업데이트** 대화 상자 및 **개인 스토리지 관리** 페이지에서 찾을 수 있는 **계정 업그레이드** 단추의 대상 URL을 사용자 지정합니다. 또한 Power BI에서 라이선스 관리 솔루션을 통해 조직에 정의된 프로세스를 사용자에게 안정적으로 안내할 수 있도록 이 대화 상자나 스토리지 페이지에서 **Pro 체험해 보기** 단추가 더 이상 제공되지 않습니다.
 
-### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>서비스 중단 또는 인시던트에 대한 메일 알림 받기
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>서비스 중단 또는 인시던트에 대한 이메일 알림 받기
 
 이 테넌트가 서비스 중단 또는 인시던트의 영향을 받는 경우 메일 사용이 가능한 보안 그룹이 메일 알림을 받습니다. [서비스 중단 알림](service-interruption-notifications.md)에 대해 자세히 알아보세요.
 
@@ -208,7 +208,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 **웹에 게시** 설정에 따라 UI에 다른 옵션이 표시됩니다.
 
-|특정 |전체 조직에 대해 사용 |전체 조직에 대해 사용 안 함 |특정 보안 그룹   |
+|기능 |전체 조직에 대해 사용 |전체 조직에 대해 사용 안 함 |특정 보안 그룹   |
 |---------|---------|---------|---------|
 |보고서의 **파일** 메뉴 아래에 있는 **웹 게시**.|모든 사용자에 대해 사용|모든 사용자에게 표시 안 함|권한 있는 사용자 또는 그룹에만 표시.|
 |**설정** 아래의 **embed 태그 관리**|모든 사용자에 대해 사용|모든 사용자에 대해 사용|모든 사용자에 대해 사용<br><br>권한 있는 사용자 또는 그룹에만 * **삭제** 옵션 제공.<br>*  모든 사용자에 대해 **코드 가져오기** 사용.|
@@ -247,11 +247,14 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 ![보고서 인쇄](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용
-Azure B2B 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습니다. [자세히 알아보기](service-admin-azure-ad-b2b.md)
+Azure Active Directory B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습니다. [자세히 알아보기](service-admin-azure-ad-b2b.md)
 
 다음 이미지는 외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용하는 옵션을 보여줍니다.
 
 ![외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+> [!IMPORTANT]
+> Azure AD 테넌트에 외부 사용자를 추가하는 경우(수동으로 또는 해당 사용자와 보고서를 공유하여), 이제 해당 사용자 계정을 내부 계정에서 검색할 수 있습니다. 내부 계정에 외부 공유 권한이 없어도 내부 사용자가 외부 사용자와 다른 항목을 공유할 수 있습니다.
 
 ### <a name="email-subscriptions"></a>메일 구독
 조직의 사용자가 메일 구독을 만들 수 있습니다. [구독](service-report-subscribe.md)에 대해 자세히 알아보세요.

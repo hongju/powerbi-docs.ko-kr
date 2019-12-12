@@ -76,7 +76,7 @@ Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Serv
    
     ![서버에 연결 대화 상자](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (선택 사항) 원하는 경우 **고급 옵션**에서 서버 이름을 지정할 수 있습니다.
-6. 이제 이 예에서 "power bi report server"라는 서버가 탐색 창에 표시됩니다.
+6. 이제 이 예에서 "Power BI 보고서 서버"라는 서버가 탐색 창에 표시됩니다.
    
    ![탐색 창의 보고서 서버](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
