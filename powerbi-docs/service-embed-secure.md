@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 11/27/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 59841cdcfae3bc08e0b6dcacf4bcb6664dfe209c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877074"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565746"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>보안 포털 또는 웹 사이트에 보고서 포함
 
@@ -118,6 +118,8 @@ report.src = newUrl;
 원하는 만큼 단추를 추가하여 로우 코드 사용자 지정 환경을 생성할 수 있습니다. 
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
+
+* 페이지를 매긴 보고서는 보안 포함 시나리오로 지원되며 URL 매개 변수를 사용하여 페이지를 매긴 보고서도 지원됩니다. [페이지를 매긴 보고서의 URL에서 보고서 매개 변수를 전달하는 방법](report-builder-url-pass-parameters.md)에 대해 자세히 알아보세요.
 
 * Azure B2B(Business to Business)를 사용한 외부 게스트 사용자를 지원하지 않습니다.
 

@@ -1,21 +1,21 @@
 ---
 title: 조직 내에서 감사 사용
 description: Power BI를 통한 감사 기능을 사용하여 수행된 작업을 모니터링하고 조사하는 방법에 대해 알아보세요. 보안 및 규정 준수 센터를 사용하거나 PowerShell을 사용할 수 있습니다.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 76de629f1579289ea3b702013583911d05f08408
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 868d3dc2463f5ed94b8d8ccd85e5edff33ca1c6e
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873777"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698926"
 ---
 # <a name="use-auditing-within-your-organization"></a>조직 내에서 감사 사용
 

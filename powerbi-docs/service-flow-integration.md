@@ -1,25 +1,25 @@
 ---
-title: Microsoft Flow와 Power BI 통합
+title: Power Automate와 Power BI 통합
 description: Power BI 데이터 경고에 의해 트리거되는 Flow를 만드는 방법에 대해 알아봅니다.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881835"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699685"
 ---
-# <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 및 Power BI
+# <a name="power-automate-and-power-bi"></a>Power Automate 및 Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started)는 비즈니스 사용자가 사용하는 애플리케이션 및 SaaS 서비스가 증가함에 따라 워크플로 자동화를 위해 제공되는 SaaS입니다. Flow를 사용하면 즐겨 찾는 앱과 서비스(Power BI 포함)를 통합하여 작업을 자동화함으로써 알림 가져오기, 파일 동기화, 데이터 수집 등을 수행할 수 있습니다. 워크플로 자동화를 사용하면 반복 작업이 쉬워집니다.
+[Power Automate](https://flow.microsoft.com/documentation/getting-started)는 비즈니스 사용자가 사용하는 애플리케이션 및 SaaS 서비스 수가 증가함에 따라 워크플로 자동화를 위해 제공되는 SaaS입니다. Flow를 사용하면 즐겨 찾는 앱과 서비스(Power BI 포함)를 통합하여 작업을 자동화함으로써 알림 가져오기, 파일 동기화, 데이터 수집 등을 수행할 수 있습니다. 워크플로 자동화를 사용하면 반복 작업이 쉬워집니다.
 
 [이제 Flow를 사용하여 시작합니다.](https://flow.microsoft.com/documentation/getting-started)
 
@@ -30,12 +30,12 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Power BI 데이터 경고로 트리거하는 흐름 만들기
 
 ### <a name="prerequisites"></a>필수 조건
-이 자습서에서는 흐름을 만드는 두 가지 방법, 즉 템플릿을 이용하는 방법과 처음부터 새로 만드는 방법을 보여줍니다. 과정을 따르려면 [Power BI에서 데이터 경고를 만들고](service-set-data-alerts.md), Slack 체험 계정을 만든 다음, [Microsoft Flow에 등록합니다](https://flow.microsoft.com/#home-signup)(무료).
+이 자습서에서는 흐름을 만드는 두 가지 방법, 즉 템플릿을 이용하는 방법과 처음부터 새로 만드는 방법을 보여줍니다. 과정을 따르려면 [Power BI에서 데이터 경고를 만들고](service-set-data-alerts.md), Slack 체험 계정을 만든 다음, [Power Automate에 등록합니다](https://flow.microsoft.com/#home-signup)(무료).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Power BI를 사용하여 템플릿을 기반으로 하는 흐름 만들기
 이 작업에서는 Power BI 데이터 경고(알림)에 의해 트리거되는 간단한 흐름을 만드는 템플릿을 사용합니다.
 
-1. Microsoft Flow(flow.microsoft.com)에 로그인합니다.
+1. Power Automate(flow.microsoft.com)에 로그인합니다.
 2. **내 흐름**을 선택합니다.
    
    ![흐름 메뉴 모음](media/service-flow-integration/power-bi-my-flows.png)
@@ -80,7 +80,7 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Power BI를 사용하는 흐름(빈 값)을 새로 만들기
 이 작업에서는 Power BI 데이터 경고(알림)에 의해 트리거되는 간단한 흐름을 처음부터 새로 만듭니다.
 
-1. Microsoft Flow에 로그인합니다.
+1. Power Automate에 로그인합니다.
 2. **내 흐름** > **빈 페이지에서 만들기**를 선택합니다.
    
    ![흐름 상위 메뉴 모음](media/service-flow-integration/power-bi-my-flows.png)
@@ -107,7 +107,7 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
     ![흐름은 Outlook 알림을 트리거합니다.](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>다음 단계
-* [Microsoft Flow 시작](https://flow.microsoft.com/documentation/getting-started/)
+* [Power Automate 시작](https://flow.microsoft.com/documentation/getting-started/)
 * [Power BI 서비스에서 데이터 경고 설정](service-set-data-alerts.md)
 * [iPhone에서 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10용 Power BI 모바일 앱의 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

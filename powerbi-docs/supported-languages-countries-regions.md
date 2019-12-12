@@ -10,10 +10,10 @@ ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 12/03/2019
 ms.locfileid: "73876909"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI에 지원되는 언어 및 국가/지역

@@ -1,20 +1,20 @@
 ---
 title: Power BI Premium에서 용량 구성 및 관리
 description: Power BI 프리미엄을 관리하고 전체 조직에 대한 콘텐츠에 대한 액세스를 활성화할 수 있는 방법을 알아봅니다.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 04f5b1f639b7abdbbe789a23e5d7a54790ad50a5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e60aed5b538eab3b630f42a665d96256cc07879c
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73857094"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74700099"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium에서 용량 구성 및 관리
 

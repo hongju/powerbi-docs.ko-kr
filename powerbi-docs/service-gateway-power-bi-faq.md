@@ -1,20 +1,20 @@
 ---
 title: 온-프레미스 데이터 게이트웨이 FAQ - Power BI
 description: 이 문서는 Power BI에 대한 온-프레미스 데이터 게이트웨이 FAQ입니다. 이 문서에서는 자주 묻는 질문을 Power BI에서 사용되는 해당 게이트웨이에 대해 하나의 스폿으로 수집합니다.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4aa3d46741044498846865278db51859980a19b9
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 8ed8b148f857aa4cac85ccbf0ad725d2e644a973
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010833"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74697399"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>온-프레미스 데이터 게이트웨이 FAQ - Power BI
 

@@ -1,20 +1,20 @@
 ---
 title: Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침 - 로컬
 description: 로컬 드라이브에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
-author: mgblythe
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: mblythe
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: b69e908e378605facbdaea79618aaf5167ff7739
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf007dfe70b5bfb7be9fa8c00865663b07210367
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874398"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698765"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>로컬 드라이브에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
 ## <a name="whats-supported"></a>무엇이 지원되나요?

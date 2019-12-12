@@ -112,7 +112,9 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 ## <a name="try-saying-your-questions"></a>말하기로 질문 시도
 이제 Power BI 모바일 앱에서 입력 대신 말하기로 데이터에 대한 질문을 할 수 있습니다.
 
+
 1. 페이지 아래의 작업 메뉴에서 질문 및 답변 가상 분석가 아이콘 ![질문 및 답변 가상 분석가 아이콘](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)을 탭합니다(iPad 상에서 페이지 맨 위).
+
 2. 마이크 아이콘 ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png)을 누릅니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
@@ -125,7 +127,9 @@ iOS 디바이스에서 샘플을 볼 준비가 되었습니다.
 Apple iOS 개발자 가이드의 [iOS의 새로운 기능](https://go.microsoft.com/fwlink/?linkid=845624)(영문)에서 음성 인식 섹션을 참조하세요.
 
 ## <a name="help-and-feedback"></a>도움말 및 피드백
+
 * 도움이 필요하십니까? "Hi" 또는 "Help"라고만 하면 새 질문 시작에 도움을 얻을 수 있습니다.
+
 * 결과에 대한 피드백을 제공하시겠습니까? 차트나 기타 결과를 길게 누른 다음 웃는 얼굴이나 찡그린 얼굴을 누릅니다.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)

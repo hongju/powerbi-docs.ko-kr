@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a45566d6fe9f4833ebed91e7c10656a8ca1c6961
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102068"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265206"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI의 시각적 개체
 
@@ -49,7 +49,7 @@ Power BI 관리자는 조직에서 Power BI 시각적 개체를 승인하고 배
 
 커뮤니티 멤버와 Microsoft는 모두 공익을 위해 Power BI 시각적 개체를 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 마켓플레이스에 게시했습니다. 이러한 시각적 개체를 다운로드하여 Power BI 보고서에 추가할 수 있습니다. Microsoft는 이들 Power BI 시각적 개체의 기능과 품질을 테스트하고 승인했습니다.
 
-[AppSource](office-store.md)란? Microsoft 소프트웨어에 대한 앱, 추가 기능 및 확장을 찾을 수 있는 곳입니다. AppSource는 Office 365, Azure, Dynamics 365, Cortana 및 Power BI와 같은 수백만 명의 제품 사용자를 이전보다 더 효율적이고 통찰력 있고, 멋진 작업을 수행할 수 있도록 도와주는 솔루션과 연결합니다.
+[AppSource](office-store.md)란? Microsoft 소프트웨어에 대한 앱, 추가 기능 및 확장을 찾을 수 있는 곳입니다. 수백만 명에 달하는 Office 365, Azure, Dynamics 365, Power BI와 같은 제품의 사용자는 AppSource에서 제공하는 다양한 솔루션을 사용하여 이전보다 풍부한 인사이트를 바탕으로 더욱 효율적이고 능숙하게 작업을 수행할 수 있습니다.
 
 ### <a name="certified-visuals"></a>인증 시각적 개체
 

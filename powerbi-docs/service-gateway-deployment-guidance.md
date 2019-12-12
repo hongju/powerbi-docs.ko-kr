@@ -1,20 +1,20 @@
 ---
 title: Power BI에 대한 데이터 게이트웨이 배포 지침
 description: Power BI에 대한 게이트웨이를 배포하기 위한 모범 사례 및 고려 사항에 대해 알아봅니다.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: d4a02ccc759f78a4243f34fb59115fb9084ea90d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a9d30d1346bf2801cd6cba44cc7cc33d734fccbb
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881685"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699570"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI에 대한 데이터 게이트웨이 배포 지침
 

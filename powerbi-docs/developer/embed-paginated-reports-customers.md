@@ -1,5 +1,5 @@
 ---
-title: 고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함
+title: 고객을 위해 애플리케이션에 페이지를 매긴 보고서 포함
 description: Power BI API를 사용하여 애플리케이션에 페이지를 매긴 Power BI 보고서를 통합하거나 포함하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 11/04/2019
-ms.openlocfilehash: 5611d65ab800c14b2570a12078c08cce5dc58147
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877724"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311441"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>자습서:  고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함(미리 보기)
 
@@ -37,6 +37,11 @@ ms.locfileid: "73877724"
 * [페이지를 매긴 보고서](../service-admin-premium-workloads.md#paginated-reports) 워크로드 사용 시 최소 A4 또는 P1 [용량](#create-a-dedicated-capacity)
 
 Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)을 만듭니다.
+
+> [!IMPORTANT]
+> * **서비스 주체**를 사용해야 합니다. 마스터 사용자는 지원되지 않습니다.
+> * SSO(Single Sign-On)가 필요한 데이터 원본은 지원되지 않습니다.
+> * Power BI 데이터 세트는 [데이터 원본](../service-get-data.md)으로 지원되지 않습니다.
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
 

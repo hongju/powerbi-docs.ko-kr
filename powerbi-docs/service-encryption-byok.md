@@ -1,20 +1,20 @@
 ---
 title: Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 보기)
 description: Power BI Premium에서 자신의 암호화 키를 사용하는 방법을 알아봅니다.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7ab5b09aa6341acf86e039c5951e4752e260876e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4f16cffe24d7eae5fe919dd2aa29949855258842
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881861"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698282"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 보기)
 

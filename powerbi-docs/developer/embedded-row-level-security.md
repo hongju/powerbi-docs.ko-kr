@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875813"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478669"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded를 사용하는 행 수준 보안
 
@@ -333,8 +333,7 @@ SSAS(SQL Server Analysis Services) 온-프레미스 라이브 연결 데이터 �
 
 ### <a name="token-based-identity-limitations"></a>토큰 기반 ID 제한 사항
 
-* 이 기능은 Power BI Premium에서만 제한됩니다.
-* 이 기능은 SQL Server 온-프레미스에서 작동하지 않습니다.
-* 이 기능은 다중 지역에서 작동하지 않습니다.
+* 전용 용량이 있는 경우에만 RLS를 사용할 수 있습니다.
+* RLS는 SQL Server 온-프레미스에서 작동하지 않습니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

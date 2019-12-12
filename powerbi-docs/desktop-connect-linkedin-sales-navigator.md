@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5631e4144cf202591e202fd46405815b38ceb42d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016253"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565636"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Power BI Desktop에서 LinkedIn Sales Navigator에 연결
 
@@ -80,7 +80,7 @@ LinkedIn Sales Navigator 데이터를 사용하여 원하는 모든 보고서를
 이 템플릿 앱은 정보를 분석하고 공유하는 데 도움이 되는 4개의 탭을 제공합니다.
 
 * 사용
-* Search
+* 검색
 * InMail
 * SSI
 
@@ -111,6 +111,10 @@ LinkedIn Sales Navigator 데이터를 사용하여 원하는 모든 보고서를
 그러면 템플릿 앱이 사용자 데이터를 사용하여 앱 데이터를 새로 고칩니다. 또한 예약된 새로 고침을 설정할 수도 있습니다. 그러면 새로 고침 빈도에서 지정한 대로 앱 데이터가 최신 상태로 유지됩니다. 
 
 데이터가 업데이트되면 사용자 자체 데이터로 채워진 앱을 볼 수 있습니다.
+
+## <a name="getting-help"></a>도움말 가져오기
+
+데이터에 연결할 때 문제가 발생하는 경우 https://www.linkedin.com/help/sales-navigator 에서 LinkedIn Sales Navigator 지원에 문의할 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
 Power BI Desktop을 사용하여 연결할 수 있는 모든 종류의 데이터가 있습니다. 데이터 원본에 대한 자세한 내용은 다음 리소스를 확인하세요.
