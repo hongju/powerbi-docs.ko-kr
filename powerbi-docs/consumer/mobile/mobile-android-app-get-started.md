@@ -38,7 +38,7 @@ Google Play에서 [Android용 Power BI 앱](https://go.microsoft.com/fwlink/?Lin
 Power BI는 Android 5.0 이상 운영 체제를 실행하는 다양한 Android 디바이스에서 실행할 수 있습니다. 디바이스를 확인하려면 **설정** > **디바이스 정보** > **Android 버전**으로 이동합니다. 
 
 **앱을 열 때 시작**    
-등록하거나 로그인하지 않고도 앱을 연 후 로그인 페이지를 훑어보고 Android 디바이스에서 Power BI 앱으로 할 수 있는 작업에 대한 개요를 빠르게 파악할 수 있습니다. **건너뛰기** 를 탭하여 샘플을 보거나 탐색하고 앱을 실습하세요. 대시보드 홈페이지에서 언제든지 [샘플로 돌아갈](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) 수 있습니다.
+등록하거나 로그인하지 않고도 앱을 연 후 로그인 페이지를 훑어보고 Android 디바이스에서 Power BI 앱으로 할 수 있는 작업에 대한 개요를 빠르게 파악할 수 있습니다. **건너뛰기**를 탭하여 샘플을 보거나 탐색하고 앱을 실습하세요. 대시보드 홈페이지에서 언제든지 [샘플로 돌아갈](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) 수 있습니다.
 
 [Power BI 모바일 앱의 새로운 기능](../../mobile-whats-new-in-the-mobile-apps.md)을 알아보세요.
 
