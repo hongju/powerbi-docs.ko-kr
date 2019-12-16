@@ -516,7 +516,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 ## <a name="workspaces"></a>작업 영역
 
-관리자는 테넌트에 있는 작업 영역을 볼 수 있습니다. 작업 영역 목록을 정렬 및 필터링하고 각 작업 영역에 대한 세부 정보를 표시할 수 있습니다. 테이블 열은 작업 영역에 대해 [Power BI 관리자 Rest API](/rest/api/power-bi/admin)에서 반환된 속성에 해당합니다. 개인 작업 영역은 **개인 그룹** 형식, 클래식 작업 영역은 **그룹**형식, 새 작업 영역 환경은 **작업 영역** 형식입니다. 자세한 내용은 [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
+관리자는 테넌트에 있는 작업 영역을 볼 수 있습니다. 작업 영역 목록을 정렬 및 필터링하고 각 작업 영역에 대한 세부 정보를 표시할 수 있습니다. 테이블 열은 작업 영역에 대해 [Power BI 관리자 Rest API](/rest/api/power-bi/admin)에서 반환된 속성에 해당합니다. 개인 작업 영역은 **개인 그룹** 형식, 클래식 작업 영역은 **그룹** 형식, 새 작업 영역 환경은 **작업 영역** 형식입니다. 자세한 내용은 [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
 
 ![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
 

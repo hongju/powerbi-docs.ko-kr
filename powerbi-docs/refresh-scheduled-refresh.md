@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e09b3f8579b65bc242cda1dbdb54f187ab6b47d0
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791610"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958405"
 ---
 # <a name="configure-scheduled-refresh"></a>예약된 새로 고침 구성
 
@@ -75,7 +75,7 @@ ms.locfileid: "74791610"
 설정을 구성하기 위해 **데이터를 최신 상태로 유지** 슬라이더를 **On**으로 설정합니다.
 
 > [!NOTE]
-> Power BI 서비스는 예약된 새로 고침 시간의 **15분** 내에 데이터 새로 고침을 시작하는 것을 목표로 합니다.
+> 목표는 예약된 시간 슬롯에서 15분 이내에 새로 고침을 시작하는 것이지만, 서비스에서 필요한 리소스를 더 빨리 할당할 수 없는 경우 최대 1시간까지 지연될 수 있습니다.
 
 ![예약된 새로 고침 대화 상자](media/refresh-scheduled-refresh/scheduled-refresh.png)
 
