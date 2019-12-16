@@ -46,7 +46,7 @@ Excel에서 **파일** > **게시**를 선택합니다.
 
 ![](media/service-publish-from-excel/pbi_uploadexport3.png)
 
-일단 게시되면 Power BI에서는 로컬 파일과 별도의 복사본으로 유지됩니다. Power BI에서 파일을 업데이트하려는 경우 업데이트된 버전을 다시 게시해야 합니다. 데이터를 새로 고치고 Power BI의 통합 문서 또는 데이터 세트에 예정된 새로 고침을 설정할 수 있습니다.
+일단 게시되면 Power BI에서는 로컬 파일과 별도의 복사본으로 유지됩니다. Power BI에서 파일을 업데이트하려는 경우 업데이트된 버전을 다시 게시해야 합니다. 데이터를 새로 고치고 Power BI의 통합 문서 또는 데이터 세트에 예약된 새로 고침을 설정할 수 있습니다.
 
 ### <a name="publishing-from-excel-standalone"></a>Excel 독립 실행형에서 게시
 통합 문서가 이미 OneDrive에 저장되어 있지 않은 경우 먼저 저장해야 합니다. 클라우드로 저장을 선택하고 비즈니스용 OneDrive에서 위치를 선택합니다.
@@ -65,7 +65,7 @@ Power BI에서 연 통합 문서는 편집할 수 없지만, 일부 내용을 �
 업로드하면 Power BI에서 만들어지는 데이터 세트는 없습니다. 통합 문서는 작업 영역 탐색 창의 보고서에 나타납니다. Power BI로 업로드된 통합 문서에는 특별한 Excel 아이콘이 있어 업로드된 Excel 통합 문서임을 알 수 있습니다.
 
 워크시트에 데이터만 있거나 대시보드에 Power BI에서 보고 싶은 피벗 테이블 및 차트가 있는 경우 이 옵션을 선택합니다.
-Excel에서 Power BI에 게시에서 업로드를 사용하는 것은 브라우저의 Power BI에서 [데이터 가져오기 > 파일 > 비즈니스용 OneDrive > Power BI에서 Excel 연결, 관리 및 보기]를 사용하는 것과 매우 같습니다.
+Excel의 Power BI에 게시에서 업로드를 사용하는 것은 브라우저의 Power BI에서 [데이터 가져오기 > 파일 > 비즈니스용 OneDrive > Power BI에서 Excel 연결, 관리 및 보기]를 사용하는 것과 거의 같습니다.
 
 #### <a name="export-workbook-data-to-power-bi"></a>통합 문서 데이터를 Power BI로 내보내기
 이 옵션을 선택할 경우 테이블에서 지원되는 데이터 및/또는 데이터 모델을 Power BI에서 새로운 데이터 세트로 내보냅니다. 파워 뷰 시트가 있는 경우 Power BI에서 보고서로 다시 생성됩니다.
@@ -74,7 +74,7 @@ Excel에서 Power BI에 게시에서 업로드를 사용하는 것은 브라우�
 
 데이터 가져오기 및 변환 또는 파워 피벗을 사용하여 데이터 모델로 데이터를 로드했거나 통합 문서에 Power BI에서 보려고 하는 시각화가 있는 파워 뷰 시트가 있을 경우 이 옵션을 선택합니다.
 
-Excel에서 Power BI에 게시에서 내보내기를 사용하는 것은 브라우저의 Power BI에서 [데이터 가져오기 > 파일 > 비즈니스용 OneDrive > Power BI로 Excel 데이터 내보내기]를 사용하는 것과 거의 같습니다.
+Excel의 Power BI에 게시에서 내보내기를 사용하는 것은 브라우저의 Power BI에서 [데이터 가져오기 > 파일 > 비즈니스용 OneDrive > Power BI로 Excel 데이터 내보내기]를 사용하는 것과 거의 같습니다.
 
 ## <a name="publishing"></a>게시
 두 옵션 중 하나를 선택하면 Excel은 현재 계정으로 Power BI에 로그인한 다음 사용자의 통합 문서를 Power BI 사이트로 게시합니다. Excel에서 상태 표시줄에 주목하세요. 진행 상황을 보여줍니다.
