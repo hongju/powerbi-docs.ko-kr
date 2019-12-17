@@ -31,11 +31,11 @@ ms.locfileid: "73870647"
 ## <a name="filter-your-report-by-your-geographic-location"></a>지리적 위치에 따라 보고서 필터링
 1. 모바일 디바이스의 Power BI 모바일 앱에서 보고서를 엽니다.
 2. 보고서에 지리적 데이터가 있는 경우 Power BI가 사용자의 위치에 액세스할 수 있도록 허용할지 묻는 메시지가 나타납니다. **허용**을 클릭하고 **허용**을 다시 탭합니다.
-3. 압정을 탭합니다. ![압정 아이콘](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-icon.png). 보고서의 데이터에 따라 시, 시/도 또는 국가/지역을 필터링할 수 있습니다. 필터는 현재 위치와 일치하는 옵션만을 나열합니다.
+3. 압정 아이콘 ![압정 아이콘](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-icon.png)을 탭합니다. 보고서의 데이터에 따라 시, 시/도 또는 국가/지역을 필터링할 수 있습니다. 필터는 현재 위치와 일치하는 옵션만을 나열합니다.
    
     ![압정 필터](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-map-set-filter.png)
 
-## <a name="why-dont-i-see-location-tags-on-a-report"></a>보고서에 위치 태그가 표시되지 이유는 무엇입니까?
+## <a name="why-dont-i-see-location-tags-on-a-report"></a>보고서에 위치 태그가 표시되지 않는 이유는 무엇입니까?
 위치 태그를 표시하려면 다음 세 가지 조건이 모두 참이어야 합니다. 
 
 * Power BI Desktop에서 보고서를 만든 사람은 도시, 주 또는 국가/지역 등 하나 이상의 열에 대해 [지리적 데이터를 분류](../../desktop-mobile-geofiltering.md)했어야 합니다.

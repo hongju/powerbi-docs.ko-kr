@@ -7,17 +7,17 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c35e97fba55230277f9f144a5155071656b6add
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870954"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907850"
 ---
-# <a name="filled-maps-choropleths-in-power-bi"></a>Power BI의 등치 지역도(단계구분도)
+# <a name="filled-maps-choropleth-in-power-bi"></a>Power BI의 등치 지역도(단계구분도)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -46,12 +46,12 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
 * 지리적 위치 분포에 대한 개요를 확인하려는 경우
 
 ### <a name="prerequisites"></a>필수 조건
-이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)을 사용합니다.
+이 자습서는 [영업 및 마케팅 샘플 PBIX 파일](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)을 사용합니다.
 1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
    
-2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
+2. **영업 및 마케팅 샘플 PBIX 파일**의 복사본을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. 보고서 뷰 ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)에서 **영업 및 마케팅 샘플 PBIX 파일**을 엽니다.
 
 1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
@@ -59,11 +59,11 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
 ## <a name="create-a-basic-filled-map"></a>기본 등치 지역도 만들기
 이 비디오에서 Kim은 기본 지도를 만들고 등치 지역도로 변환합니다.
    > [!NOTE]
-   > 이 동영상에서는 이전 버전의 Power BI Desktop을 사용합니다.
+   > 이 비디오에서는 이전 버전의 Power BI Desktop을 사용합니다.
    > 
    > 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
+[비디오 https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>등치 지역도 만들기
 1. 필드 창에서 **Geo** \> **State** 필드를 선택합니다.    
@@ -84,22 +84,22 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
    ![모두 및 AK를 선택하지 않은 상태 드롭다운](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 4. 페인트 롤러 아이콘을 선택하여 서식 창을 열고 **데이터 색**을 선택합니다.
 
-    ![데이터 색 옵션을 표시하는 서식 지정 창](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-color.png)
+    ![데이터 색 옵션을 표시하는 서식 지정 창](media/power-bi-visualization-filled-maps-choropleths/power-bi-colors-data.png)
 
 5. 세 개의 세로 점을 선택하고 **조건부 서식 지정**을 선택합니다.
 
-    ![데이터 색 조건부 서식 지정 단추](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional-formatting.png)
+    ![데이터 색 조건부 서식 지정 단추](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional.png)
 
-6. 등치 지역도의 음영 처리 방법을 확인하려면 **기본 색 - 데이터 색** 화면을 사용합니다. 사용할 수 있는 옵션에는 음영을 기준으로 할 필드와 음영을 적용하는 방법이 포함됩니다. 이 예제에서는 **SalesFact** > **Sentiment** 필드를 사용하고 감정의 가장 낮은 값을 빨간색으로, 가장 높은 값을 녹색으로 설정합니다. 최댓값과 최솟값 사이의 값은 빨간색과 녹색의 음영으로 표시됩니다. 화면 하단의 그림은 사용할 색의 범위를 보여줍니다. 
+6. 등치 지역도의 음영 처리 방법을 확인하려면 **기본 색 - 데이터 색** 화면을 사용합니다. 사용할 수 있는 옵션에는 음영을 기준으로 할 필드와 음영을 적용하는 방법이 포함됩니다. 이 예제에서는 **SalesFact** > **Sentiment** 필드를 사용하고 감정의 가장 낮은 값을 주황색으로, 가장 높은 값을 파란색으로 설정합니다. 최댓값과 최솟값 사이의 값은 주황색과 파란색의 음영으로 표시됩니다. 화면 하단의 그림은 사용할 색의 범위를 보여줍니다. 
 
-    ![감정이 선택된 기본 색 창](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
+    ![감정이 선택된 기본 색 창](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-field.png)
 
-7. 등치 지역도는 녹색과 빨간색으로 채워지며, 빨간색은 낮은 인지 수를 나타내고 녹색은 더 높고 더 긍정적인 인지를 나타냅니다.  추가 세부 정보를 표시하려면 도구 설명으로 필드를 끌어다 놓습니다.  여기에서 **감정 차이**를 추가하고, Idaho(ID)의 상태를 강조 표시하고, 감정 차이가 6으로 낮음을 확인합니다.
-   ![Idaho 도구 설명을 표시하는 등치 지역도](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
+7. 등치 지역도는 녹색과 빨간색으로 채워지며, 빨간색은 낮은 인지 수를 나타내고 녹색은 더 높고 더 긍정적인 인지를 나타냅니다.  추가 세부 정보를 표시하려면 도구 설명으로 필드를 끌어다 놓습니다.  여기서는 **SalesFact** > **감정 차이**를 추가했습니다. 아이다호(ID)의 상태를 강조 표시하면 감정 차이가 낮음(6)을 나타냅니다.
+   ![Idaho 도구 설명을 표시하는 등치 지역도](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
 10. [보고서를 저장합니다](../service-report-save.md).
 
-Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 제어할 수 있습니다. 원하는 모양을 얻을 때까지 이러한 데이터 색 컨트롤로 재생합니다. 
+Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 제어할 수 있습니다. 원하는 모양을 얻을 때까지 이 데이터 색 컨트롤을 다양하게 조정합니다. 
 
 ## <a name="highlighting-and-cross-filtering"></a>강조 표시 및 교차 필터링
 필터 창 사용 방법에 대한 자세한 내용은 [보고서에 필터 추가](../power-bi-report-add-filter.md)를 참조하세요.
@@ -118,19 +118,19 @@ Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 �
 
    ![등치 지역도가 Sentiment 페이지에 추가됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. 등치 지역도에서 시/도를 선택합니다.  이는 페이지의 다른 시각화 요소를 교차 강조 및 교차 필터링합니다. 예를 들어 **Texas**를 선택하면 Sentiment가 75이고 Texas가 Central District #23에 있음이 표시됩니다.   
-   ![텍사스 선택됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
+5. 등치 지역도에서 시/도를 선택합니다.  이는 페이지의 다른 시각화 요소를 교차 강조 및 교차 필터링합니다. 예를 들어 **텍사스**를 선택하면 카드를 교차 필터링하고 가로 막대형 차트를 교차 강조 표시합니다. 이를 통해 감정이 75이고 텍사스가 Central District #23에 있음을 알 수 있습니다.   
+   ![텍사스 선택됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-filter.png)
 2. VanArsdel - Sentiment by Month 꺾은선형 차트에서 데이터 요소를 선택합니다. 이는 등치 지역도를 필터링하여 경쟁 대상이 아닌 VanArsdel에 대한 감정 데이터를 표시합니다.  
-   ![새 음영](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)
+   ![새 음영](media/power-bi-visualization-filled-maps-choropleths/power-bi-vanarsdel.png)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 지도 데이터는 모호해질 수 있습니다.  예를 들어 프랑스 파리가 있지만 텍사스 파리도 있습니다. 지리적 데이터는 구/군 이름 또는 시/도 이름별로 별도의 열에 저장될 것입니다. 따라서 Bing은 이 파리가 어디에 있는 파리인지 알려줄 수 없습니다. Power BI에는 데이터 세트에 위도 및 경도 데이터가 이미 있는 경우 지도 데이터를 명확하게 만들기 위한 특별한 필드가 있습니다. 위도 데이터가 포함된 필드를 시각화 \> 위도 영역으로 끌어다 놓기만 하면 됩니다.  경도 데이터의 경우에도 마찬가지입니다.    
 
 ![시각화 및 필드 창](media/power-bi-visualization-filled-maps-choropleths/pbi-latitude.png)
 
-Power BI Desktop의 데이터 세트를 편집할 수 있는 권한이 있는 경우 지도 모호성을 해결하는 도움말은 이 비디오를 시청하세요.
+Power BI Desktop의 데이터 세트를 편집할 수 있는 권한이 있는 경우 지도 모호성 해결을 위해 이 비디오를 시청하세요.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Co2z9b-s_yM" frameborder="0" allowfullscreen></iframe>
+[비디오 https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 위도 및 경도 데이터에 액세스할 수 없지만 데이터 세트에 대한 편집 액세스 권한이 있는 경우 [이 지침을 따라 데이터 세트를 업데이트하세요](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

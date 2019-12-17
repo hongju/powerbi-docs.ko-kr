@@ -747,16 +747,6 @@
               href: designer/service-security-apply-data-sensitivity-labels.md
         - name: 데이터 계보
           href: service-data-lineage.md
-        - name: Power BI의 페이지를 매긴 보고서
-          items:
-            - name: 페이지를 매긴 보고서 보기
-              href: paginated-reports-view-power-bi-service.md
-            - name: 지원되는 데이터 원본
-              href: paginated-reports-data-sources.md
-            - name: 매개 변수와 상호 작용
-              href: paginated-reports-view-parameters.md
-            - name: 직접 또는 다른 사용자 구독
-              href: paginated-reports-subscriptions.md
         - name: 템플릿 앱
           items:
             - name: 템플릿 앱 개요
@@ -813,10 +803,6 @@
               items:
                 - name: 앱을 사용하여 서비스에 연결
                   href: service-connect-to-services.md
-                - name: Acumatica
-                  href: service-connect-to-acumatica.md
-                - name: Azure 감사 로그
-                  href: service-connect-to-azure-audit-logs.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
@@ -907,7 +893,9 @@
           href: report-builder-power-bi.md
     - name: 자습서
       items:
-        - name: 페이지를 매긴 보고서 만들기 및 상호 작용 업로드
+        - name: '실습 랩: 페이지가 매겨진 보고서 만들기'
+          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: 페이지를 매긴 보고서 만들기 및 업로드
           href: paginated-reports-quickstart-aw.md
     - name: 개념
       items:
@@ -917,6 +905,8 @@
           href: report-builder-planning-report.md
         - name: 보고서 작성기 데이터
           href: report-builder-data.md
+        - name: 지원되는 데이터 원본
+          href: paginated-reports-data-sources.md
         - name: Power BI 공유 데이터 세트 사용
           href: report-builder-shared-datasets.md
         - name: 디자인 팁

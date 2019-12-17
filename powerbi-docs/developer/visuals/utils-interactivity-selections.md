@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 8a9218085b0da655d1ce4b3ece0b2666c4826c86
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: e2587140d5436552e26be90c67eb5e6240bf6a1d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061871"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696143"
 ---
 # <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Microsoft Power BI 시각적 개체 InteractivityUtils
 
@@ -61,11 +61,11 @@ import { interactivitySelectionService } from "powerbi-visuals-utils-interactivi
 > [!NOTE]
 > Power BI 시각적 개체 도구는 외부 CSS 규칙을 래핑하므로 .css 파일을 .less 파일로 가져와야 합니다.
 
-## <a name="usage"></a>사용
+## <a name="usage"></a>사용량
 
 ### <a name="define-interface-for-data-points"></a>데이터 요소에 대한 인터페이스 정의
 
-일반적으로 데이터 요소는 선택 항목 및 값을 포함합니다. 인터페이스는 `SelectableDataPoint` 인터페이스를 확장합니다. `SelectableDataPoint`에는 이미 속성이 포함되어 있습니다.
+일반적으로 데이터 요소는 선택 항목과 값을 포함합니다. 인터페이스는 `SelectableDataPoint` 인터페이스를 확장합니다. `SelectableDataPoint`에는 이미 속성이 포함되어 있습니다.
 
 ```typescript
   /** Flag for identifying that data point was selected */
@@ -80,7 +80,7 @@ import { interactivitySelectionService } from "powerbi-visuals-utils-interactivi
   specificIdentity?: powerbi.extensibility.ISelectionId;
 ```
 
-InteractivityUtils를 사용하는 첫 번째 단계는 InteractivityUtils 인스턴스를 만들고 개체를 시각적 개체의 속성으로 저장하는 것입니다.
+InteractivityUtils를 사용하는 첫 번째 단계에서는 InteractivityUtils 인스턴스를 만들고 개체를 시각적 개체의 속성으로 저장합니다.
 
 ```typescript
 export class Visual implements IVisual {
@@ -106,7 +106,7 @@ export interface VisualDataPoint extends interactivitySelectionService.Selectabl
 두 번째 단계는 기본 동작 클래스를 확장하는 것입니다.
 
 > [!NOTE]
-> [5.6.x 버전 InteractivityUtils](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0)에 도입된 BaseBehavior. 이전 버전을 사용하는 경우 아래 샘플에서 동작 클래스를 만듭니다(`BaseBehavior` 클래스는 동일).
+> [5.6.x 버전 InteractivityUtils](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0)에 도입된 BaseBehavior. 이전 버전을 사용하는 경우 아래에 있는 샘플에서 동작 클래스를 만듭니다(`BaseBehavior` 클래스는 동일).
 
 동작 클래스의 옵션에 대한 인터페이스를 정의합니다.
 
@@ -126,8 +126,8 @@ export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoi
 }
 ```
 
-`visual behaviour`에 대한 클래스를 정의합니다. `click`, `contextmenu` 마우스 이벤트를 처리하는 클래스입니다.
-클릭을 사용하여 데이터 요소를 선택하는 경우 시각적 개체가 선택 처리기를 호출하여 데이터 요소를 선택합니다. 또는 사용자가 시각적 개체의 배경을 클릭하면 선택을 취소합니다. 그리고 클래스에는 `bindClick`, `bindClearCatcher`, `bindContextMenu`와 같은 메서드가 있습니다.
+`visual behavior`의 클래스를 정의합니다. `click`, `contextmenu` 마우스 이벤트를 처리해야 하는 클래스입니다.
+데이터 요소를 클릭하는 경우 시각적 개체가 선택 처리기를 호출하여 데이터 요소를 선택합니다. 시각적 개체의 백그라운드 요소를 클릭하면 선택 항목 지우기 처리기가 호출됩니다. 그리고 클래스에는 `bindClick`, `bindClearCatcher`, `bindContextMenu`와 같은 메서드가 있습니다.
 
 ```typescript
 export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
@@ -230,9 +230,9 @@ InteractivityUtils는 `bindEvents` 메서드를 호출하여 함수를 처리기
   }
 ```
 
-`renderSelection` 메서드는 차트에서 요소의 시각적 상태를 업데이트합니다.
+`renderSelection` 메서드는 차트에 있는 요소의 시각적 상태를 업데이트해야 합니다.
 
-`renderSelection` 메서드 구현 샘플:
+예제 구현 `renderSelection` 메서드:
 
 ```typescript
 public renderSelection(hasSelection: boolean): void {
@@ -257,9 +257,9 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
 });
 ```
 
-* `selectionMerge`는 D3 선택 개체로서, 시각적 개체에 선택할 수 있는 모든 요소를 나타냅니다.
+* `selectionMerge`는 D3 선택 개체로서, 시각적 개체에서 선택할 수 있는 모든 요소를 나타냅니다.
 
-* `select(this.target)`는 D3 선택 개체로서, 시각적 개체의 주 DOm 요소를 나타냅니다.
+* `select(this.target)`는 D3 선택 개체로서, 시각적 개체의 기본 DOM 요소를 나타냅니다.
 
 * `this.categories`는 요소가 포함된 데이터 요소로서, 인터페이스는 `VisualDataPoint`(또는 `categories: VisualDataPoint[];`)입니다.
 
@@ -278,7 +278,7 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
   }
   ```
 
-이제 시각적 개체를 처리기에서 선택할 수 있습니다.
+이제 시각적 개체에서 선택 항목을 처리할 준비가 되었습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

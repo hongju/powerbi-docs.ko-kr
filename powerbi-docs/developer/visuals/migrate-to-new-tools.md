@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cc554bff1cbd248ccd69a80ee47b60af981cdab1
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 245475feeb43ee544117aaa54969f2de1e207cd5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061825"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696285"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-3xx"></a>새 powerbi-visuals-tools 3.x.x로 마이그레이션
 
@@ -79,7 +79,7 @@ sampleBarChart 시각적 개체 및 `package.json` 내 해당 [변경 내용](ht
 
 ## <a name="how-to-install-power-bi-custom-visuals-api"></a>Power BI 사용자 지정 시각적 개체 API 설치 방법
 
-새 버전의 powerbi-visual tools에서는 모든 API 버전을 내부에 포함하고 있지 않습니다. 대신 개발자가 특정 버전의 [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api) 패키지를 설치해야 합니다. 패키지 버전은 Power BI 사용자 지정 시각적 개체 API 버전과 일치하며 Power BI 사용자 지정 시각적 개체 API에 대한 모든 형식 정의를 제공합니다.
+새 버전의 powerbi-visual-tools에 일부 API 버전이 포함되어 있지 않습니다. 대신 개발자가 특정 버전의 [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api) 패키지를 설치해야 합니다. 패키지 버전은 Power BI 사용자 지정 시각적 개체 API 버전과 일치하며 Power BI 사용자 지정 시각적 개체 API에 대한 모든 형식 정의를 제공합니다.
 
 `npm install --save-dev powerbi-visuals-api` 명령을 실행하여 `powerbi-visuals-api`를 프로젝트의 종속성에 추가합니다.
 그리고 이전 API 형식 정의에 대한 링크를 제거해야 합니다. `powerbi-visuals-api`의 형식은 Webpack에 의해 자동으로 포함되기 때문입니다. 해당하는 변경 내용은 `package.json`의 [이](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/package.json#L14) 줄입니다.
@@ -95,7 +95,7 @@ sampleBarChart 시각적 개체 및 `package.json` 내 해당 [변경 내용](ht
 
 ## <a name="update-custom-visuals-utils"></a>사용자 지정 시각적 개체 유틸리티 업데이트
 
-[powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils) 중 하나를 사용하는 경우 이를 최신 버전으로 업데이트해야 합니다.
+powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils) 중 하나를 사용하는 경우 이를 최신 버전으로 업데이트해야 합니다.
 
 `npm install powerbi-visuals-utils-<UTILNAME> --save` 명령 (예: `npm install powerbi-visuals-utils-dataviewutils --save`)을 실행하여 TypeScript의 외부 모듈을 포함하는 새 버전을 가져옵니다.
 

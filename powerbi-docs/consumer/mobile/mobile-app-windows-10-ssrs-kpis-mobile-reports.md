@@ -34,7 +34,7 @@ SQL Server 2016 Enterprise Edition 모바일 보고서 게시자를 사용하여
 Reporting Services 웹 포털에 대한 액세스가 없더라도, Reporting Services 모바일 보고서의 기능을 탐색할 수 있습니다.
 
 1. Windows 10 디바이스에서 Power BI 앱을 엽니다.
-2. 왼쪽 위 모퉁이에서 ![전역 탐색 단추](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) 전역 탐색 단추를 탭합니다.
+2. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) 를 탭합니다.
 3. **설정** 아이콘 ![설정 아이콘](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)을 탭하고 **서버에 연결**을 마우스 오른쪽 단추로 클릭하거나 탭한 채로 유지한 다음 **샘플 보기**를 탭합니다.
    
    ![SSRS 샘플 보기](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
