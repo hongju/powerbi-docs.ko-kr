@@ -41,7 +41,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 1. iTunes를 엽니다.
 
-1. Power BI를 검색합니다. 
+1. Power BI를 검색합니다.
 
 1. **iPhone 앱** 및 **iPad 앱** 아래에 **Microsoft Power BI**가 표시되어야 합니다. 어떤 방법을 사용해도 동일한 URL을 얻게 됩니다.
 
@@ -160,7 +160,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 ## <a name="step-5-install-the-application-on-a-device"></a>5단계: 디바이스에 애플리케이션 설치
 
-‘회사 포털’ 앱을 통해 애플리케이션을 설치합니다.  회사 포털을 설치하지 않은 경우 iOS 또는 Android 플랫폼의 앱 스토어를 통해 가져올 수 있습니다. 조직의 로그인으로 회사 포털에 로그인합니다.
+‘회사 포털’ 앱을 통해 애플리케이션을 설치합니다. 회사 포털을 설치하지 않은 경우 iOS 또는 Android 플랫폼의 앱 스토어를 통해 가져올 수 있습니다. 조직의 로그인으로 회사 포털에 로그인합니다.
 
 1. 회사 포털 앱을 엽니다.
 
@@ -172,7 +172,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
     ![Power BI 앱](media/service-admin-mobile-intune/intune-companyportal2.png)
 
-1. **설치**을 선택합니다.
+1. **설치**를 선택합니다.
 
     ![앱 설치](media/service-admin-mobile-intune/intune-companyportal3.png)
 
