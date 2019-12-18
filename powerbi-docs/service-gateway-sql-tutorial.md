@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699317"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958442"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>온-프레미스 SQL Server 데이터베이스에서 데이터 새로 고침
 
@@ -49,6 +49,10 @@ AdventureWorksDW 샘플 데이터베이스를 사용하여 기본 Power BI 보�
 2. **SQL Server 데이터베이스** 대화 상자에 **서버** 및 **데이터베이스(선택 사항)** 이름을 입력하고 **데이터 연결 모드**가 **가져오기**인지 확인한 다음, **확인**을 선택합니다.
 
     ![SQL Server 데이터베이스](./media/service-gateway-sql-tutorial/sql-server-database.png)
+
+    이 자습서에서는 **고급 옵션**을 사용하지 않지만 SQL 문을 지정하고 [SQL Server 장애 조치(Failover)](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server)를 사용하는 등의 다른 옵션을 설정할 수 있습니다.
+
+    ![SQL Server 고급 옵션](media/service-gateway-sql-tutorial/sql-server-advanced-options.png)
 
 3. **자격 증명**을 확인한 다음, **연결**을 선택합니다.
 
