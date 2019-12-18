@@ -19,7 +19,7 @@ ms.locfileid: "74699777"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery를 사용한 Azure SQL Database
 
-Azure SQL Database에 직접 연결하고 라이브 데이터를 사용하는 보고서를 작성하는 방법에 대해 알아보세요. Power BI가 아닌 소스에서 데이터를 유지할 수 있습니다.
+Azure SQL Database에 직접 연결하고 라이브 데이터를 사용하는 보고서를 작성하는 방법에 대해 알아보세요. Power BI가 아닌 원본에서 데이터를 유지할 수 있습니다.
 
 DirectQuery를 사용할 경우 보고서 뷰에서 데이터를 탐색할 때 쿼리가 Azure SQL Database로 다시 전송됩니다. 이 환경은 연결하는 데이터베이스와 엔터티를 잘 알고 있는 사용자에게 제안됩니다.
 
