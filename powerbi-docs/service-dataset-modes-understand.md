@@ -1,6 +1,6 @@
 ---
 title: Power BI 서비스의 데이터 세트 모드
-description: 'Power BI 데이터 세트 모드 이해: 가져오기, DirectQuery 및 복합.'
+description: 'Power BI 데이터 세트 모드 이해: 가져오기, DirectQuery 및 복합입니다.'
 author: peter-myers
 manager: asaxton
 ms.reviewer: asaxton
