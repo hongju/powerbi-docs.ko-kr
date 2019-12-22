@@ -35,7 +35,7 @@ ms.locfileid: "73853402"
 > 
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>비디오: 보고서에서 시각적 개체 및 이미지를 고정하여 대시보드를 만듭니다.
-Amanda가 보고서에서 시각화를 핀 고정하여 새 대시보드를 만드는 과정을 시청합니다. 그리고 다음 섹션에서 [보고서와 함께 데이터 세트 가져오기](#import-a-dataset-with-a-report)의 단계를 따라 조달 분석 샘플을 사용하여 직접 시도해 보세요.
+Amanda가 보고서에서 시각화를 고정하여 새 대시보드를 만드는 과정을 시청합니다. 그리고 다음 섹션에서 [보고서와 함께 데이터 세트 가져오기](#import-a-dataset-with-a-report)의 단계를 따라 조달 분석 샘플을 사용하여 직접 시도해 보세요.
     
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
@@ -62,7 +62,7 @@ Amanda가 보고서에서 시각화를 핀 고정하여 새 대시보드를 만�
    ![성공 메시지](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> 알고 계셨나요? 위쪽 ![탐색 창 표시 또는 숨기기 아이콘](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)에서 세 줄이 있는 아이콘을 선택하여 탐색 창의 범위를 좁힐 수 있습니다. 이를 통해 보고서 자체를 위한 공간을 더 확보할 수 있습니다.
+> 알고 계셨나요? 위쪽에서 세 줄이 있는 아이콘 ![탐색 창 표시 또는 숨기기 아이콘](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)을 선택하여 탐색 창의 범위를 좁힐 수 있습니다. 이를 통해 보고서 자체를 위한 공간을 더 확보할 수 있습니다.
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>보고서를 열고 타일을 대시보드에 고정
 1. 동일한 작업 영역에서 **보고서** 탭을 선택한 다음 **조달 분석 샘플**을 선택하여 보고서를 엽니다.
@@ -72,7 +72,7 @@ Amanda가 보고서에서 시각화를 핀 고정하여 새 대시보드를 만�
 2. **추가 옵션(...)**  > **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
 
     ![읽기용 보기의 보고서](media/service-dashboard-create/power-bi-reading-view.png)
-3. 시각화 위로 마우스를 가져 가면 사용할 수 있는 옵션이 표시됩니다. 시각적 개체를 대시보드에 추가하려면 고정 아이콘 선택 ![고정 아이콘](media/service-dashboard-create/power-bi-pin-icon.png).
+3. 시각화 위로 마우스를 가져 가면 사용할 수 있는 옵션이 표시됩니다. 시각적 개체를 대시보드에 추가하려면 고정 아이콘 ![고정 아이콘](media/service-dashboard-create/power-bi-pin-icon.png)을 선택합니다.
 
     ![타일을 마우스로 가리키기](media/service-dashboard-create/power-bi-hover.png)
 4. 새 대시보드를 만들고 있으므로 **새 대시보드**에 대한 옵션을 선택하고 이름을 지정합니다.
