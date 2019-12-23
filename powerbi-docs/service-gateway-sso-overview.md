@@ -1,20 +1,20 @@
 ---
 title: Power BI의 게이트웨이 SSO(Single Sign-On) 개요
 description: Power BI에서 온-프레미스 데이터 원본으로 SSO(Single Sign-On)를 사용하도록 게이트웨이 구성
-author: mgblythe
-ms.author: mblythe
+author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 43394e8f09327ebcb858ff5644b30daee1793444
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bfa4534b625a965226dfced17403a7e2da7a7f84
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872368"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699202"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI의 게이트웨이 SSO(Single Sign-On) 개요
 

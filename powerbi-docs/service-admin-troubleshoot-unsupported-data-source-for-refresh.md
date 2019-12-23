@@ -1,21 +1,21 @@
 ---
 title: 새로 고침을 지원하지 않는 데이터 소스 문제 해결
 description: 새로 고침을 지원하지 않는 데이터 소스 문제 해결
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 12/06/2017
-ms.author: mblythe
+ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b44dbc06c15a576174277695583f3afebb0f298a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856255"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791988"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>새로 고침을 지원하지 않는 데이터 소스 문제 해결
 예약 새로 고침에 대해 데이터 세트를 구성할 때 오류가 발생할 수 있습니다.
@@ -35,7 +35,7 @@ ms.locfileid: "73856255"
    ![고급 편집기](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. 원본에 대해 나열된 공급자를 메모해 둡니다.  이 예제에서는 공급자가 ActiveDirectory입니다.  
    ![데이터 원본 공급자](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
-5. [Power BI에서 데이터 새로 고침](refresh-data.md)에 있는 지원되는 데이터 원본 복록과 해당 공급자를 비교합니다.  Active Directory가 새로 고침이 지원되는 데이터 원본이 아님을 알 수 있습니다.  
+5. [Power BI 데이터 원본](power-bi-data-sources.md)에 있는 지원되는 데이터 원본 목록과 해당 공급자를 비교합니다.
 
 ## <a name="next-steps"></a>다음 단계
 [데이터 새로 고침](refresh-data.md)  

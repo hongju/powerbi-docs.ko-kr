@@ -1,20 +1,20 @@
 ---
 title: 데이터 원본 관리 - Oracle
 description: 해당 게이트웨이에 속한 온-프레미스 데이터 게이트웨이 및 데이터 원본을 관리하는 방법입니다.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: cb7856b0b5ac84684e8d0648b91e45805218cead
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5641e42d380458bd1ddcdb316c56e17fafe2d71f
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872473"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74697753"
 ---
 # <a name="manage-your-data-source---oracle"></a>데이터 원본 관리 - Oracle
 

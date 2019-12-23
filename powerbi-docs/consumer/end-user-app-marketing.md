@@ -17,11 +17,13 @@ ms.lasthandoff: 11/09/2019
 ms.locfileid: "73851149"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Power BI 서비스에서 샘플 영업 및 마케팅 앱 설치 및 사용
-[Power BI 콘텐츠를 가져오는 기본적인 방법을 이해](end-user-app-view.md)했으므로 이제 Microsoft AppSource(appsource.com)에서 마케팅 및 영업 앱을 다운로드해 보겠습니다. 
+
+[Power BI 콘텐츠를 가져오는 방법을 기본적으로 이해](end-user-app-view.md)했으므로 이제 Microsoft AppSource(appsource.com)에서 영업 및 마케팅 앱을 다운로드해 보겠습니다.
+
 
 
 ## <a name="microsoft-appsource-appsourcecom"></a>Microsoft AppSource(appsource.com)
-앱 링크는 [마케팅 및 영업 앱](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview)입니다. 이 링크를 선택하면 Microsoft AppSource에서 이 앱의 다운로드 페이지가 열립니다. 
+앱 링크는 [영업 및 마케팅 앱](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview)입니다. 이 링크를 선택하면 Microsoft AppSource에서 이 앱의 다운로드 페이지가 열립니다. 
 
 1. 앱을 다운로드하려면 로그인하라는 메시지가 표시될 수 있습니다. Power BI에 사용하는 것과 동일한 메일 주소로 로그인합니다. 
 

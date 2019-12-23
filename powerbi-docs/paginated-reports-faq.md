@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/04/2019
-ms.openlocfilehash: d8fd8490bda3be4217440a984e8b6da6fca7c5cf
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874815"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831227"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
 
@@ -116,21 +116,7 @@ Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니�
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>페이지를 매긴 보고서에 대해 현재 지원되는 데이터 원본은 무엇인가요?
 
-다음 데이터 원본을 지원합니다. - 
-
-- Power BI 데이터 세트(SSO(Single Sign-On)를 통해)
-- Azure Analysis Services(SSO(Single Sign-On) 및 oAuth를 통해)
-- Azure SQL Data Warehouse
-- Azure SQL Database(사용자 이름/암호, SSO 및 oAuth)
-- Azure SQL Managed Instance(공용 엔드포인트를 통해)(사용자 이름/암호)
-- SQL Server*
-- SSAS(SQL Server Analysis Services) 테이블 형식(DAX) 및 다차원(MDX) 모델* 
-- Oracle* 
-- Teradata* 
-
-* 온-프레미스 게이트웨이가 필요합니다.
-
-게이트웨이를 통해 SSAS에 액세스하는 경우 해당 자격 증명이 저장된 사용자가 SSAS에서 게이트웨이를 통해 작업하려면 상승된 권한이 있어야 합니다.
+데이터 원본 목록을 보려면 [Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본](paginated-reports-data-sources.md) 문서를 참조하세요. 
 
 ### <a name="what-authentication-methods-do-you-support"></a>지원되는 인증 방법은 무엇인가요?
 

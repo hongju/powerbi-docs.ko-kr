@@ -1,20 +1,20 @@
 ---
 title: Power BI에서 개인 게이트웨이 사용
 description: 개인이 온-프레미스 데이터 연결에 사용할 수 있는 Power BI용 온-프레미스 데이터 게이트웨이(개인 모드)에 대해 설명합니다.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ee93635abdff63c98eeaaca24640ac229a4dc97c
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881511"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699271"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Power BI에서 개인 게이트웨이 사용
 
@@ -31,7 +31,7 @@ ms.locfileid: "73881511"
 
 |   |온-프레미스 데이터 게이트웨이 | 온-프레미스 데이터 게이트웨이(개인 모드) |
 | ---- | ---- | ---- |
-|지원되는 클라우드 서비스 |Power BI, PowerApps, Azure Logic Apps, Microsoft Flow, Azure Analysis Services, Data Flow |Power BI |
+|지원되는 클라우드 서비스 |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, 데이터 흐름 |Power BI |
 |실행 |게이트웨이에 액세스할 수 있는 사용자가 구성한 대로 |관리자로 Windows 인증의 경우 다른 인증 유형에 대해 구성한 대로 |
 |컴퓨터 관리자로만 설치할 수 있음 |예 |아니요 |
 |중앙 집중화된 게이트웨이 및 데이터 원본 관리 |예 |아니요 |

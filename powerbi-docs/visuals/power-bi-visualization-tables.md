@@ -2,20 +2,20 @@
 title: Power BI 보고서 및 대시보드의 테이블 시각화
 description: Power BI 보고서와 대시보드에서 열 너비 크기를 조정하는 방법을 비롯하여 테이블 시각화를 사용하여 작업하는 방법에 대한 자습서입니다.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bb20b9ecc43e73e85d798416fe0ddaabb98e12b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870802"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74830873"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드의 테이블
 
@@ -130,7 +130,7 @@ ms.locfileid: "73870802"
 
 1. 표시되는 대화 상자에서 **양수 막대**, **음수 막대**의 색상을 설정하고 **막대만 표시** 옵션을 선택하고 원하는 다른 부분을 변경합니다.
 
-    ![막대만 표시하기 확인 표시](media/power-bi-visualization-tables/power-bi-data-bars.png)
+    ![막대만 표시하기 확인 표시](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
 1. **확인**을 선택합니다.
 

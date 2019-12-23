@@ -1,5 +1,5 @@
 ---
-title: 전화에 대해 최적화된 Power BI 보고서 보기
+title: 휴대폰에 대해 최적화된 Power BI 보고서 보기
 description: Power BI 휴대폰 앱에서 보도록 최적화된 보고서 페이지와의 상호 작용에 대해 알아봅니다.
 author: mshenhav
 ms.reviewer: ''
@@ -15,7 +15,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 11/09/2019
 ms.locfileid: "73870525"
 ---
-# <a name="view-power-bi-reports-optimized-for-your-phone"></a>전화에 대해 최적화된 Power BI 보고서 보기
+# <a name="view-power-bi-reports-optimized-for-your-phone"></a>휴대폰에 대해 최적화된 Power BI 보고서 보기
 
 적용 대상:
 
@@ -27,7 +27,7 @@ ms.locfileid: "73870525"
 
 ![세로 모드 보고서](./media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
 
-전화에 최적화 보고서 없다면 보고서는 열리지만 최적화되지 않은 가로 보기 화면으로 열립니다. 휴대폰에 최적화된 보고서에서도 휴대폰를 옆으로 돌리면 보고서는 최적화 되지 않은 보기에서 원본 보고서 레이아웃으로 열립니다. 일부 페이지만 최적화된 경우, 사용자는 세로 보기 메시지를 보게 될 것이며 이는 보고서가 가로 보기로 사용 가능하다는 것을 의미합니다.
+휴대폰에 최적화된 보고서가 없다면 보고서는 열리지만 최적화되지 않은 가로 보기 화면으로 열립니다. 휴대폰에 최적화된 보고서에서도 휴대폰를 옆으로 돌리면 보고서는 최적화되지 않은 보기에서 원본 보고서 레이아웃으로 열립니다. 일부 페이지만 최적화된 경우, 사용자는 세로 보기 메시지를 보게 될 것이며 이는 보고서가 가로 보기로 사용 가능하다는 것을 의미합니다.
 
 ![최적화되지 않은 보고서 페이지](./media/mobile-apps-view-phone-report/06-power-bi-phone-report-page-not-optimized.png)
 
@@ -39,7 +39,9 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 ## <a name="filter-the-report-page-on-a-phone"></a>휴대폰에서 보고서 페이지 필터링
 휴대폰에 최적화된 보고서에 정의된 필터가 있는 경우 휴대폰에서 보고서를 볼 때 해당 필터를 사용할 수 있습니다. 보고서는 웹의 보고서에서 필터링되는 값으로 필터링되어 휴대폰에서 열립니다. 페이지에 활성 필터가 있다는 메시지가 표시됩니다. 휴대폰에서 필터를 변경할 수 있습니다.
 
-1. 필터 아이콘을 탭합니다. ![휴대폰 필터 아이콘](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) 휴대폰 필터 아이콘을 탭합니다. 
+
+1. 페이지 맨 아래에서 휴대폰 필터 아이콘 ![휴대폰 필터 아이콘](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png)을 탭합니다. 
+
 2. 기본 또는 고급 필터링을 사용하여 원하는 결과를 확인합니다.
    
     ![휴대폰 BI 휴대폰 보고서 고급 필터](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
@@ -95,7 +97,9 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
     ![포커스 모드로 확장](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     이 예제에서 막대는 시/도 값을 보여줍니다.
-2. 탐색 아이콘을 탭합니다 ![탐색 아이콘](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) 왼쪽 아래에 있는 아이콘입니다.
+
+2. 왼쪽 아래에서 탐색 아이콘 ![탐색 아이콘](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png)을 탭합니다.
+
    
     ![탐색 모드](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-mode.png)
 3. **다음 수준 표시** 또는 **다음 수준으로 확장**을 누릅니다.
@@ -126,7 +130,7 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 
     ![보고서 페이지 선택](././media/mobile-apps-view-phone-report/report-drill-through2.png)
 
-5. 앱 헤더에 있는 뒤로 단추를 사용하여 시작한 페이지로 돌아갑니다.
+5. 앱 머리글에 있는 뒤로 단추를 사용하여 시작한 페이지로 돌아갑니다.
 
 
 ## <a name="next-steps"></a>다음 단계

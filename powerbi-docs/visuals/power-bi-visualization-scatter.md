@@ -2,20 +2,20 @@
 title: Power BI의 분산형, 거품형 및 점 그림 차트
 description: Power BI의 분산형 차트, 점 그림 차트 및 거품형 차트
 author: mihart
-ms.reviewer: ''
+ms.reviewer: amac
 featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 88db87b995f52aa51023bd465d349459e1dd2965
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870832"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311665"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI의 분산형 차트, 거품형 차트 및 점 그림 차트
 
@@ -131,13 +131,30 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
     > [!NOTE]
     > 더 많은 데이터 요소는 더 긴 로드 시간을 의미할 수 있습니다. 보다 높은 눈금 끝 값을 한도로 하여 보고서를 게시하도록 선택하는 경우 웹 및 모바일에서도 보고서를 테스트하여 차트의 성능이 사용자의 기대에 부합하는지 확인해야 합니다.
 
-1. [시각화 색, 레이블, 제목, 배경 등의 서식을 지정](service-getting-started-with-color-formatting-and-axis-properties.md)할 수 있습니다.
-
-    [액세스 가능성을 향상시키려면](../desktop-accessibility.md) 각 줄에 표식 모양을 추가하는 것이 좋습니다. 표식 모양을 선택하려면 **셰이프**를 확장하고 **표식 모양**을 선택한 후 모양을 선택합니다.
+1. 시각화 색, 레이블, 제목, 배경 등의 서식을 계속 지정합니다. [액세스 가능성을 향상시키려면](../desktop-accessibility.md) 각 줄에 표식 모양을 추가하는 것이 좋습니다. 표식 모양을 선택하려면 **셰이프**를 확장하고 **표식 모양**을 선택한 후 모양을 선택합니다.
 
     ![표식 모양 옵션이 호출된 셰이프 드롭다운의 스크린샷](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
-    표식 모양을 다이아몬드, 삼각형 또는 사각형으로 변경할 수도 있습니다. 각 선에 다양한 표식 모양을 사용하면 보고서 소비자가 선(또는 영역)을 보다 쉽게 구분할 수 있습니다.
+    표식 모양을 다이아몬드, 삼각형 또는 사각형으로 변경합니다. 각 선에 다양한 표식 모양을 사용하면 보고서 소비자가 선(또는 영역)을 보다 쉽게 구분할 수 있습니다.
+
+1. 분석 창 ![분석 창 아이콘의 스크린샷](media/power-bi-visualization-scatter/power-bi-analytics.png) 을 열어 시각화에 정보를 더 추가합니다.  
+    - 중앙값 선을 추가합니다. **중앙값 선** > **추가**를 선택합니다. 기본적으로 Power BI는 ‘제곱 피트당 판매액’에 대한 중앙값 선을 추가합니다.  이는 10개의 데이터 요소가 있고 각 측면에서 5개의 데이터 요소가 있으면 중앙값이 생성된다는 것을 알고 있기 때문에 그다지 유용하지 않습니다. 대신 **측정값**을 *‘총 판매액 차이 %’* 로 전환합니다.  
+
+        ![중앙값이 추가된 거품형 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
+
+    - 대칭 음영을 추가하여 y축 측정값보다 x축 측정값이 더 높은 요소를 표시하고 그 반대의 경우도 마찬가지입니다. 분석 창에서 대칭 음영을 켜면 Power BI는 현재 축의 상한과 하한에 따라 분산형 차트의 배경을 대칭으로 보여 줍니다. 이렇게 하면 데이터 요소에서 선호하는 축 측정값을 매우 빠르게 식별할 수 있으며, 특히 x축과 y축의 축 범위가 다른 경우 더욱 그렇습니다.
+
+        a. **총 판매액 차이 %** 필드를 **작년 매출 총이익 %** 로 변경합니다.
+
+        ![중앙값이 추가된 거품형 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+
+        b. 분석 창에서 **대칭 음영**을 추가합니다. Hosiery(분홍색 음영 영역의 녹색 거품)가 매장 제곱 피트당 판매액보다 총이익이 선호되는 유일한 범주임을 음영을 통해 알 수 있습니다. 
+
+        ![대칭 음영이 추가된 거품형 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-symmetry.png)
+
+    - 분석 창을 계속 탐색하여 데이터에 대한 흥미로운 인사이트를 검색합니다. 
+
+        ![대칭 음영이 추가된 거품형 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>점 그림 차트 만들기
 

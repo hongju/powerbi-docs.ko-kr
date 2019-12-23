@@ -747,16 +747,6 @@
               href: designer/service-security-apply-data-sensitivity-labels.md
         - name: 데이터 계보
           href: service-data-lineage.md
-        - name: Power BI의 페이지를 매긴 보고서
-          items:
-            - name: 페이지를 매긴 보고서 보기
-              href: paginated-reports-view-power-bi-service.md
-            - name: 지원되는 데이터 원본
-              href: paginated-reports-data-sources.md
-            - name: 매개 변수와 상호 작용
-              href: paginated-reports-view-parameters.md
-            - name: 직접 또는 다른 사용자 구독
-              href: paginated-reports-subscriptions.md
         - name: 템플릿 앱
           items:
             - name: 템플릿 앱 개요
@@ -915,6 +905,8 @@
           href: report-builder-planning-report.md
         - name: 보고서 작성기 데이터
           href: report-builder-data.md
+        - name: 지원되는 데이터 원본
+          href: paginated-reports-data-sources.md
         - name: Power BI 공유 데이터 세트 사용
           href: report-builder-shared-datasets.md
         - name: 디자인 팁

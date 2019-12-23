@@ -1,21 +1,21 @@
 ---
 title: Power BI 서비스에서 집계(합계, 평균 등) 사용
 description: Power BI 서비스에서 차트의 집계(합계, 평균, 최댓값 등)를 변경하는 방법을 알아봅니다.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/03/2019
-ms.author: mblythe
+ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 595b5743450aeb8ae6f6e60157742e3563a28fdd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bc172f3f5c25a0f0c3773befe5bd846f95a9a2e0
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873302"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698351"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Power BI 서비스에서 집계(합계, 평균 등) 사용
 

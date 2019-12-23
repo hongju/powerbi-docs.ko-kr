@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099717"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265353"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -30,7 +30,7 @@ ms.locfileid: "74099717"
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ### <a name="october-2019"></a>2019년 10월
-* Power BI 데이터 세트를 새로 고치는 새 Microsoft Flow 작업
+* Power BI 데이터 세트를 새로 고치는 새로운 Power Automate 작업
 * Power BI 서비스에 있는 보고서 및 대시보드의 [연락처 목록](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)
 
 ## <a name="previous-months-2019"></a>이전 달(2019년)
@@ -227,7 +227,7 @@ ms.locfileid: "74099717"
 * Office 365 감사 포털의 [Power BI 감사 로그](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)는 전역적으로 사용할 수 있습니다.
 * [개발자 도구 및 사용자 지정 시각적 개체 API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/)의 버전 1.4가 릴리스되었습니다.
 * [실시간 스트리밍 기능 집합](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)이 일반 기능으로 릴리스되었습니다.
-* 코드 줄도 작성하지 않고 [Microsoft Flow를 사용하여 Power BI에 데이터를 푸시](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)합니다.
+* 코드 줄을 작성하지 않고 [Power Automate를 사용하여 Power BI로 데이터를 푸시](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)합니다.
 * 미리 보기: [보고서 페이지를 구독](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)하여 자신의 데이터에 대해 자세히 알아봅니다.
 * Azure AD 콘텐츠 팩을 사용하여 직원 및 파트너가 어떻게 Azure AD를 사용하는지에 대해 자세히 알아보세요.
 
@@ -530,7 +530,6 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 * 신속한 정보 활용을 사용하여 자동으로 추세를 검색하고 데이터 세트의 패턴을 찾습니다([동영상](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) 또는 [문서](consumer/end-user-insights.md)).
 * [Power BI에서 VMob 데이터 시각화](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [Cortana와 Power BI 통합](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [엔터프라이즈용 Power BI 게이트웨이 미리 보기](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
 * 새 콘텐츠 팩 소개: [Power BI 대시보드의 Bing 검색 분석](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * 새로운 개발자 중심 기능 향상: [두 개의 새로운 API 및 보다 편리해진 앱 등록](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
