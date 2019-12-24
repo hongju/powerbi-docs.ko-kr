@@ -18,7 +18,7 @@ ms.locfileid: "74009828"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 보안 백서
 
-**요약:** Power BI는 Microsoft에서 제공 하는 온라인 소프트웨어 서비스(*SaaS* 또는 Software As a service)로서, 셀프 서비스 비즈니스 인텔리전스 대시보드, 보고서, 데이터 집합 및 시각화를 쉽고 빠르게 만들 수 있습니다. Power BI를 사용하면 다양한 데이터 원본에 연결하고, 이러한 연결에서 데이터를 결합하고 구체화한 다음, 다른 사용자와 공유할 수 있는 보고서와 대시보드를 만들 수 있습니다.
+**요약:** Power BI는 Microsoft에서 제공하는 온라인 소프트웨어 서비스(*SaaS* 또는 Software As a service)로서, 셀프 서비스 비즈니스 인텔리전스 대시보드, 보고서, 데이터 집합 및 시각화를 쉽고 빠르게 만들 수 있습니다. Power BI를 사용하면 다양한 데이터 원본에 연결하고, 이러한 연결에서 데이터를 결합하고 구체화한 다음, 다른 사용자와 공유할 수 있는 보고서와 대시보드를 만들 수 있습니다.
 
 **기록기:** David Iseminger
 
@@ -33,7 +33,7 @@ ms.locfileid: "74009828"
 
 **Power BI**는 Microsoft에서 제공하는 온라인 소프트웨어 서비스(_SaaS_ 또는 Software as a Service)로서 셀프 서비스 비즈니스 인텔리전스 대시보드, 보고서, 데이터 세트 및 시각화를 쉽고 빠르게 만들 수 있습니다. Power BI를 사용하면 다양한 데이터 원본에 연결하고, 이러한 연결에서 데이터를 결합하고 구체화한 다음, 다른 사용자와 공유할 수 있는 보고서와 대시보드를 만들 수 있습니다.
 
-Power BI 서비스에는 [Microsoft Online Services 사용 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) 및 [Microsoft Enterprise 개인정보처리방침](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)이 적용됩니다. 데이터 처리 위치는 Microsoft Online Services 사용 약관의 데이터 처리 조항에 나오는 위치를 참조하세요. 규정 준수 정보와 관련하여 [Microsoft Trust Center](https://www.microsoft.com/trustcenter)는 Power BI에 대한 기본 리소스입니다. Power BI 팀은 고객에게 최신의 혁신과 생산성을 제공하기 위해 열심히 노력하고 있습니다. Power BI는 현재 [Office 365 준수 프레임 워크](https://go.microsoft.com/fwlink/p/?LinkID=618494)의 Tire D에 있습니다.
+Power BI 서비스에는 [Microsoft Online Services 사용 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) 및 [Microsoft Enterprise 개인정보처리방침](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)이 적용됩니다. 데이터 처리 위치는 Microsoft Online Services 사용 약관의 데이터 처리 조항에 나오는 위치를 참조하세요. 규정 준수 정보와 관련하여 [Microsoft Trust Center](https://www.microsoft.com/trustcenter)는 Power BI에 대한 기본 리소스입니다. Power BI 팀은 고객에게 최신의 혁신과 생산성을 제공하기 위해 열심히 노력하고 있습니다. Power BI 현재 [Office 365 준수 프레임워크](https://go.microsoft.com/fwlink/p/?LinkID=618494)의 계층 D에 있습니다.
 
 이 문서에서는 Power BI 보안과 관련하여 Power BI 아키텍처를 설명하고, Power BI에서 사용자를 인증하고 데이터 연결을 설정하는 방법을 설명한 다음, Power BI에서 서비스를 통해 데이터를 저장하고 이동하는 방법에 대해 설명합니다. 마지막 섹션에서는 보안 관련 질문을 전적으로 다루고, 각 질문에 대한 답변을 제공하고 있습니다.
 
@@ -99,7 +99,7 @@ Power BI 테넌트는 국가(또는 지역)와 가장 가까운 것으로 간주
 
 ### <a name="multiple-geographies-multi-geo"></a>여러 지리적 위치(다중 지역)
 
-일부 조직에서는 비즈니스 요구 사항에 따라 여러 지리적 위치 또는 지역에 Power BI가 있어야 합니다. 예를 들어 비즈니스에는 미국에 Power BI 테넌트가 있지만 오스트레일리아와 같은 다른 지역에서 비즈니스를 수행할 수 있으며, 지역 규정을 준수 하기 위해 해당 원격 지역에서 특정 Power BI 데이터를 유지 해야 할 수도 있습니다. 2018의 두 번째 절반부터, 한 지리에서 홈 테넌트가 있는 조직은 다른 지리에 있는 Power BI 리소스를 프로 비전 하 고 액세스할 수도 있습니다. 이 기능은 편의상 이 문서 전체에서 참조하기 위해 **다중 지역**이라고 합니다.
+일부 조직에서는 비즈니스 요구 사항에 따라 여러 지리적 위치 또는 지역에 Power BI가 있어야 합니다. 예를 들어 비즈니스에는 미국에 Power BI 테넌트가 있지만 오스트레일리아와 같은 다른 지역에서 비즈니스를 수행할 수 있으며, 지역 규정을 준수하기 위해 해당 원격 지역에서 특정 Power BI 데이터를 유지해야 할 수도 있습니다. 2018년 하반기부터, 한 지역에 홈 테넌트가 있는 조직은 다른 지역에 있는 Power BI 리소스를 프로비전하고 액세스할 수도 있습니다. 이 기능은 편의상 이 문서 전체에서 참조하기 위해 **다중 지역**이라고 합니다.
 
 다중 지역 정보에 대 한 최신 및 기본 문서는 [Power BI Premium에 대 한 다중 지역 지원 구성](service-admin-premium-multi-geo.md) 문서를 참조 하세요. 
 
