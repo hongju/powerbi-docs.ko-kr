@@ -1,8 +1,8 @@
 ---
 title: Microsoft Power BI Premium이란?
 description: Power BI Premium은 조직에 전용 용량을 제공하므로 사용자별 라이선스를 구입하지 않고도 더욱 신뢰할 수 있는 성능과 대용량 데이터 볼륨을 제공합니다.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9434aa717ad10791e75366cf23ef8ece567389ea
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871819"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699133"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 

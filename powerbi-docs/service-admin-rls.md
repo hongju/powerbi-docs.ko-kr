@@ -1,21 +1,21 @@
 ---
 title: Power BI를 사용하는 행 수준 보안(RLS)
 description: Power BI 서비스 내에서 가져온 데이터 세트 및 DirectQuery에 대한 행 수준 보안을 구성하는 방법입니다.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.author: mblythe
-ms.date: 09/09/2019
+ms.author: kfollis
+ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6ce3a65489c60cabb1dd705ce3243c4cec6abe40
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bfcb88354d542416268ab145a056644db5042b21
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873524"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882844"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI를 사용하는 행 수준 보안(RLS)
 
@@ -51,7 +51,7 @@ Power BI Desktop 내에서 역할을 만들거나 수정할 수만 있습니다.
 
 ### <a name="add-members"></a>멤버 추가
 
-전자 메일 주소 또는 추가하려는 사용자, 보안 그룹 및 배포 목록의 이름을 입력하여 역할에 멤버를 추가할 수 있습니다. Power BI 내에서 만든 그룹을 추가할 수 없습니다. 멤버를 [조직 외부](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners)에 추가할 수 있습니다.
+전자 메일 주소 또는 추가하려는 사용자, 보안 그룹 및 배포 목록의 이름을 입력하여 역할에 멤버를 추가할 수 있습니다. Power BI 내에서 만든 그룹은 추가할 수 없습니다. 멤버를 [조직 외부](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners)에 추가할 수 있습니다.
 
 ![멤버 추가](media/service-admin-rls/rls-add-member.png)
 

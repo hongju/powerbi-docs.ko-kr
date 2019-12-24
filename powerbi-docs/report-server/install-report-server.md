@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874148"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565768"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server 설치
 
@@ -21,9 +21,9 @@ Power BI Report Server를 설치하는 방법을 알아봅니다.
 
 ## <a name="download-power-bi-report-server"></a>Power BI Report Server 다운로드
 
-Microsoft 다운로드 센터에서 [Power BI Report Server를 다운로드](https://www.microsoft.com/download/details.aspx?id=56722)합니다.
+[Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/) 페이지에서 **평가판 다운로드**를 선택합니다.
 
-평가판 버전도 있습니다. [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/) 페이지에서 **평가판 다운로드**를 선택합니다.
+PowerBIReportServer.exe 파일을 실행하는 경우, 평가판을 선택하거나 제품 키를 입력합니다. 세부 정보를 계속 읽어 보세요.
 
 ## <a name="before-you-install"></a>설치하기 전에
 
@@ -43,7 +43,7 @@ Power BI Report Server의 제품 키는 두 가지 다른 소스에서 가져올
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-Power BI Premium을 구입한 경우 Power BI 관리자 포털의 **프리미엄 설정** 탭 내에서 Power BI Report Server 제품 키에 대한 액세스를 갖습니다. 전역 관리자 또는 Power BI 서비스 관리자 역할이 할당된 사용자만 사용할 수 있습니다.
+Power BI Premium을 구입한 경우 Power BI 관리자 포털의 **프리미엄 설정** 탭 내에서 Power BI Report Server 제품 키에 대한 액세스를 갖습니다. 관리 포털은 전역 관리자 또는 Power BI 서비스 관리자 역할이 할당된 사용자만 사용할 수 있습니다.
 
 ![프리미엄 설정](../report-server/media/install-report-server/pbirs-product-key.png "프리미엄 설정 내의 Power BI Report Server 키")
 
@@ -70,7 +70,7 @@ Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단�
 
     ![버전 선택](media/install-report-server/pbireportserver-choose-edition.png)
 
-    드롭다운에서 Evaluation 또는 Developer 버전을 선택할 수 있습니다.
+    Evaluation 또는 Developer 버전을 선택합니다.
 
     ![버전 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
@@ -95,11 +95,11 @@ Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단�
 
 설치 시에 **보고서 서버 구성**을 선택하면 Reporting Services 구성 관리자에 표시됩니다. 자세한 내용은 [Reporting Services 구성 관리자](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)를 참조하세요.
 
-[Report Server 데이터베이스를 만들어서](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) Reporting Services의 초기 구성을 완료해야 합니다. 이 단계를 완료하기 위해서는 SQL Server 데이터베이스 서버가 필요합니다.
+Reporting Services의 초기 구성을 완료해야 하려면 [보고서 서버 데이터베이스를 만들어야](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) 합니다. 이 단계를 완료하기 위해서는 SQL Server 데이터베이스 서버가 필요합니다.
 
 ### <a name="creating-a-database-on-a-different-server"></a>다른 서버에 데이터베이스 만들기
 
-다른 컴퓨터의 데이터베이스 서버에서 Report Server 데이터베이스를 만드는 경우 Report Server의 서비스 계정을 데이터베이스 서버에서 인식되는 자격 증명으로 변경해야 합니다. 
+다른 컴퓨터의 데이터베이스 서버에서 Report Server 데이터베이스를 만드는 경우 Report Server의 서비스 계정을 데이터베이스 서버에서 인식되는 자격 증명으로 변경합니다. 
 
 기본적으로 Report Server는 가상 서비스 계정을 사용합니다. 다른 서버에 데이터베이스를 만들려고 하는 경우 연결 권한 적용 단계에서 다음과 같은 오류가 나타날 수 있습니다.
 
@@ -137,9 +137,9 @@ URL 예약은 접두사, 호스트 이름, 포트 및 가상 디렉터리로 구
 
 ## <a name="firewall"></a>방화벽
 
-원격 컴퓨터에서 Report Server에 액세스하면 방화벽이 있는 경우 방화벽 규칙을 구성했는지 확인하려고 합니다.
+원격 컴퓨터에서 Report Server에 액세스하면 방화벽이 있는 경우 방화벽 규칙을 구성했는지 확인합니다.
 
-웹 서비스 URL 및 웹 포털 URL에 대해 구성된 TCP 포트를 열어야 합니다. 기본적으로 TCP 포트 80에서 구성됩니다.
+웹 서비스 URL 및 웹 포털 URL에 대해 구성된 TCP 포트를 엽니다. 기본적으로 TCP 포트 80에서 구성됩니다.
 
 ## <a name="additional-configuration"></a>추가 구성
 

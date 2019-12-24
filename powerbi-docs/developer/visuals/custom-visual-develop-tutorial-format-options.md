@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: c2e2bcd14612f5096b4b0f44690effe247128f58
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 4d7f02d9f78eee4cf287e0bb83acb93a7b1b0355
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74127835"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696856"
 ---
-# <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>자습서: Power BI 시각적 개체에 서식 옵션 추가
+# <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>자습서:  Power BI 시각적 개체에 서식 옵션 추가
 
 이 자습서에서는 시각적 개체에 공통 속성을 추가하는 방법을 살펴봅니다.
 
@@ -67,29 +67,31 @@ ms.locfileid: "74127835"
 2. Visual Studio Code의 **capabilities.json** 파일에서 다음 JSON 조각을 **objects**로 레이블된 개체에 삽입합니다.
 
     ```json
-    "circle": {
-     "displayName": "Circle",
-     "properties": {
-         "circleColor": {
-             "displayName": "Color",
-             "description": "The fill color of the circle.",
-             "type": {
-                 "fill": {
-                     "solid": {
-                         "color": true
-                     }
-                 }
-             }
-         },
-         "circleThickness": {
-             "displayName": "Thickness",
-             "description": "The circle thickness.",
-             "type": {
-                 "numeric": true
-                 }
-             }
-         }
-     },
+        {
+            "circle": {
+                "displayName": "Circle",
+                "properties": {
+                    "circleColor": {
+                        "displayName": "Color",
+                        "description": "The fill color of the circle.",
+                        "type": {
+                            "fill": {
+                                "solid": {
+                                    "color": true
+                                }
+                            }
+                        }
+                    },
+                    "circleThickness": {
+                        "displayName": "Thickness",
+                        "description": "The circle thickness.",
+                        "type": {
+                            "numeric": true
+                        }
+                    }
+                }
+            }
+        }
     ```
 
     JSON 조각은 circleColor 및 circleThickness라는 두 개의 옵션으로 구성된 circle이라는 그룹을 설명합니다.

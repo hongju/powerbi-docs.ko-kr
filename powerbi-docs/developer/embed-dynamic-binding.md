@@ -7,16 +7,16 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: ecc7ec21117c9e2cd974058c63bcf02d72d1f4b1
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.openlocfilehash: f797dd55202ff4cba87cc3a15601d85091e94823
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "73925751"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164072"
 ---
-# <a name="connecting-a-report-to-a-dataset-using-dynamic-binding"></a>동적 바인딩을 사용하여 데이터 세트에 보고서 연결 
+# <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>동적 바인딩을 사용하여 데이터 세트에 보고서 연결 
 
-보고서가 데이터 세트에 연결된 경우에만 동적 바인딩을 사용할 수 있습니다. 보고서와 데이터 세트 간의 연결을 *바인딩*이라고 합니다. 포함 시 바인딩이 결정되면, 이전에 미리 결정되는 것과 달리, 이 바인딩을 [동적 바인딩](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0)이라고 합니다.
+보고서가 데이터 세트에 연결된 경우 동적 바인딩을 사용할 수 있습니다. 보고서와 데이터 세트 간의 연결을 *바인딩*이라고 합니다. 포함 시 바인딩이 결정되면, 이전에 미리 결정되는 것과 달리, 이 바인딩을 [동적 바인딩](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0)이라고 합니다.
  
 *동적 바인딩*을 사용하여 Power BI 보고서를 포함하는 경우, 사용자의 자격 증명에 따라 동일한 보고서를 여러 데이터 세트에 연결할 수 있습니다.
  

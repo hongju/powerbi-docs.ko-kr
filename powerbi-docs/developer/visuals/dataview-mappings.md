@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07cc0517fb27649bb3cc47b8ba8f51b4268d9a7c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880172"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696655"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Power BI 시각적 개체의 데이터 뷰 매핑 이해
 
@@ -101,14 +101,29 @@ Power BI는 단일 `categorical` 매핑을 사용하여 데이터 뷰를 생성�
 ### <a name="example-3"></a>예제 3
 
 ```json
-"dataViewMappings": {
-    "conditions": [
-        { "Y": { "max": 1 } }
+{
+    "dataRoles": [
+        {
+            "displayName": "Y",
+            "name": "Y",
+            "kind": "Measure"
+        }
     ],
-    "single": {
-        "role": "Y"
-    }
-}  
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "Y": {
+                        "max": 1
+                    }
+                }
+            ],
+            "single": {
+                "role": "Y"
+            }
+        }
+    ]
+}
 ```
 
 결과 데이터 뷰에는 다른 유형(테이블, 범주 등)이 계속 포함되지만, 각 매핑에는 단일 값만 포함됩니다. 단일 필드의 값에만 액세스하는 것이 좋습니다.
@@ -129,6 +144,48 @@ Power BI는 단일 `categorical` 매핑을 사용하여 데이터 뷰를 생성�
     ]
 }
 ```
+
+간단한 데이터 뷰 매핑을 처리하기 위한 코드 샘플
+
+```typescript
+"use strict";
+import powerbi from "powerbi-visuals-api";
+import DataView = powerbi.DataView;
+import DataViewSingle = powerbi.DataViewSingle;
+// standart imports
+// ...
+
+export class Visual implements IVisual {
+    private target: HTMLElement;
+    private host: IVisualHost;
+    private valueText: HTMLParagraphElement;
+
+    constructor(options: VisualConstructorOptions) {
+        // constructor body
+        this.target = options.element;
+        this.host = options.host;
+        this.valueText = document.createElement("p");
+        this.target.appendChild(this.valueText);
+        // ...
+    }
+
+    public update(options: VisualUpdateOptions) {
+        const dataView: DataView = options.dataViews[0];
+        const singleDataView: DataViewSingle = dataView.single;
+
+        if (!singleDataView ||
+            !singleDataView.value ) {
+            return
+        }
+
+        this.valueText.innerText = singleDataView.value.toString();
+    }
+}
+```
+
+따라서 시각적 개체는 Power BI의 단일 값을 표시합니다.
+
+![단일 데이터 뷰 매핑 시각적 개체 예제](./media/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>범주 데이터 매핑
 
@@ -284,10 +341,10 @@ Power BI는 단일 `categorical` 매핑을 사용하여 데이터 뷰를 생성�
 |-----|-----|------|------|------|------|
 | | Year | 2013 | 2014 | 2015 | 2016 |
 | 국가 | | |
-| 미국 | | x | x | 125 | 100 |
-| 캐나다 | | x | 50 | 200 | x |
-| 멕시코 | | 300 | x | x | x |
-| 영국 | | x | x | 75 | x |
+| 미국 | | x | x | 650 | 350 |
+| 캐나다 | | x | 630 | 490 | x |
+| 멕시코 | | 645 | x | x | x |
+| 영국 | | x | x | 831 | x |
 
 Power BI는 범주 데이터 뷰로 생성합니다. 범주 집합입니다.
 
@@ -299,9 +356,9 @@ Power BI는 범주 데이터 뷰로 생성합니다. 범주 집합입니다.
                 "source": {...},
                 "values": [
                     "Canada",
-                    "Mexico",
+                    "USA",
                     "UK",
-                    "USA"
+                    "Mexico"
                 ],
                 "identity": [...],
                 "identityFields": [...],
@@ -313,54 +370,130 @@ Power BI는 범주 데이터 뷰로 생성합니다. 범주 집합입니다.
 
 각 범주도 값 집합에 매핑됩니다. 각 값은 연도로 표시된 계열별로 그룹화됩니다.
 
-예를 들어 2013년의 캐나다 판매량은 null이고, 2014년의 캐나다 판매량은 50입니다.
+예를 들어 각 `values` 배열은 각 연도의 데이터를 나타냅니다.
+또한 각 `values` 배열에는 캐나다, 미국, 영국 및 멕시코에 대해 각각 4개의 값이 있습니다.
 
 ```JSON
 {
     "values": [
+        // Values for 2013 year
         {
             "source": {...},
             "values": [
-                null,
-                300,
-                null,
-                null
+                null, // Value for `Canada` category
+                null, // Value for `USA` category
+                null, // Value for `UK` category
+                645 // Value for `Mexico` category
             ],
             "identity": [...],
         },
+        // Values for 2014 year
         {
             "source": {...},
             "values": [
-                50,
-                null,
-                150,
-                null
+                630, // Value for `Canada` category
+                null, // Value for `USA` category
+                null, // Value for `UK` category
+                null // Value for `Mexico` category
             ],
             "identity": [...],
         },
+        // Values for 2015 year
         {
             "source": {...},
             "values": [
-                200,
-                null,
-                null,
-                125
+                490, // Value for `Canada` category
+                650, // Value for `USA` category
+                831, // Value for `UK` category
+                null // Value for `Mexico` category
             ],
             "identity": [...],
         },
+        // Values for 2016 year
         {
             "source": {...},
             "values": [
-                null,
-                null,
-                null,
-                100
+                null, // Value for `Canada` category
+                350, // Value for `USA` category
+                null, // Value for `UK` category
+                null // Value for `Mexico` category
             ],
             "identity": [...],
         }
     ]
 }
 ```
+
+범주 데이터 뷰 매핑을 처리하기 위한 코드 샘플은 아래에 설명되어 있습니다. 이 샘플에서는 계층 구조 `Country => Year => Value`을(를) 만듭니다.
+
+```typescript
+"use strict";
+import powerbi from "powerbi-visuals-api";
+import DataView = powerbi.DataView;
+import DataViewDataViewCategoricalSingle = powerbi.DataViewCategorical;
+import DataViewValueColumnGroup = powerbi.DataViewValueColumnGroup;
+import PrimitiveValue = powerbi.PrimitiveValue;
+// standart imports
+// ...
+
+export class Visual implements IVisual {
+    private target: HTMLElement;
+    private host: IVisualHost;
+    private categories: HTMLElement;
+
+    constructor(options: VisualConstructorOptions) {
+        // constructor body
+        this.target = options.element;
+        this.host = options.host;
+        this.categories = document.createElement("pre");
+        this.target.appendChild(this.categories);
+        // ...
+    }
+
+    public update(options: VisualUpdateOptions) {
+        const dataView: DataView = options.dataViews[0];
+        const categoricalDataView: DataViewCategorical = dataView.categorical;
+
+        if (!categoricalDataView ||
+            !categoricalDataView.categories ||
+            !categoricalDataView.categories[0] ||
+            !categoricalDataView.values) {
+            return;
+        }
+
+        // Categories have only one column in data buckets
+        // If you want to support several columns of categories data bucket, you should iterate categoricalDataView.categories array.
+        const categoryFieldIndex = 0;
+        // Measure has only one column in data buckets.
+        // If you want to support several columns on data bucket, you should iterate years.values array in map function
+        const measureFieldIndex = 0;
+        let categories: PrimitiveValue[] = categoricalDataView.categories[categoryFieldIndex].values;
+        let values: DataViewValueColumnGroup[] = categoricalDataView.values.grouped();
+
+        let data = {};
+        // iterate categories/countries
+        categories.map((category: PrimitiveValue, categoryIndex: number) => {
+            data[category.toString()] = {};
+            // iterate series/years
+            values.map((years: DataViewValueColumnGroup) => {
+                if (!data[category.toString()][years.name] && years.values[measureFieldIndex].values[categoryIndex]) {
+                    data[category.toString()][years.name] = []
+                }
+                if (years.values[0].values[categoryIndex]) {
+                    data[category.toString()][years.name].push(years.values[measureFieldIndex].values[categoryIndex]);
+                }
+            });
+        });
+
+        this.categories.innerText = JSON.stringify(data, null, 6);
+        console.log(data);
+    }
+}
+```
+
+시각적 개체의 결과는 다음과 같습니다.
+
+![범주 데이터 뷰 매핑이 포함된 시각적 개체](./media/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>테이블 데이터 매핑
 
@@ -373,8 +506,13 @@ Power BI는 범주 데이터 뷰로 생성합니다. 범주 집합입니다.
 ```json
 "dataRoles": [
     {
-        "displayName": "Values",
-        "name": "values",
+        "displayName": "Column",
+        "name": "column",
+        "kind": "Measure"
+    },
+    {
+        "displayName": "Value",
+        "name": "value",
         "kind": "Measure"
     }
 ]
@@ -385,9 +523,18 @@ Power BI는 범주 데이터 뷰로 생성합니다. 범주 집합입니다.
     {
         "table": {
             "rows": {
-                "for": {
-                    "in": "values"
-                }
+                "select": [
+                    {
+                        "for": {
+                            "in": "column"
+                        }
+                    },
+                    {
+                        "for": {
+                            "in": "value"
+                        }
+                    }
+                ]
             }
         }
     }
@@ -395,6 +542,8 @@ Power BI는 범주 데이터 뷰로 생성합니다. 범주 집합입니다.
 ```
 
 다음과 같이 테이블 데이터 뷰를 시각화할 수 있습니다.  
+
+데이터 예:
 
 | 국가| Year | 영업 |
 |-----|-----|------|
@@ -406,6 +555,10 @@ Power BI는 범주 데이터 뷰로 생성합니다. 범주 집합입니다.
 | 영국 | 2014 | 150 |
 | 미국 | 2015 | 75 |
 
+데이터 바인딩:
+
+![테이블 데이터 뷰 매핑 데이터 바인딩](./media/table-dataview-mapping-data.png)
+
 Power BI는 데이터를 테이블 데이터 뷰로 표시합니다. 데이터가 정렬되었다고 가정하면 안 됩니다.
 
 ```JSON
@@ -416,37 +569,32 @@ Power BI는 데이터를 테이블 데이터 뷰로 표시합니다. 데이터�
             [
                 "Canada",
                 2014,
-                50
+                630
             ],
             [
                 "Canada",
                 2015,
-                200
+                490
             ],
             [
                 "Mexico",
                 2013,
-                300
+                645
             ],
             [
                 "UK",
                 2014,
-                150
+                831
             ],
             [
                 "USA",
                 2015,
-                100
-            ],
-            [
-                "USA",
-                2015,
-                75
+                650
             ],
             [
                 "USA",
                 2016,
-                100
+                350
             ]
         ]
     }
@@ -456,6 +604,89 @@ Power BI는 데이터를 테이블 데이터 뷰로 표시합니다. 데이터�
 원하는 필드를 선택한 다음 합계를 선택하면 데이터를 집계할 수 있습니다.  
 
 ![데이터 집계](./media/data-aggregation.png)
+
+테이블 데이터 뷰 매핑을 처리하기 위한 코드 샘플입니다.
+
+```typescript
+"use strict";
+import "./../style/visual.less";
+import powerbi from "powerbi-visuals-api";
+// ...
+import DataViewMetadataColumn = powerbi.DataViewMetadataColumn;
+import DataViewTable = powerbi.DataViewTable;
+import DataViewTableRow = powerbi.DataViewTableRow;
+import PrimitiveValue = powerbi.PrimitiveValue;
+// other imports
+// ...
+
+export class Visual implements IVisual {
+    private target: HTMLElement;
+    private host: IVisualHost;
+    private table: HTMLParagraphElement;
+
+    constructor(options: VisualConstructorOptions) {
+        // constructor body
+        this.target = options.element;
+        this.host = options.host;
+        this.table = document.createElement("table");
+        this.target.appendChild(this.table);
+        // ...
+    }
+
+    public update(options: VisualUpdateOptions) {
+        const dataView: DataView = options.dataViews[0];
+        const tableDataView: DataViewTable = dataView.table;
+
+        if (!tableDataView) {
+            return
+        }
+        while(this.table.firstChild) {
+            this.table.removeChild(this.table.firstChild);
+        }
+
+        //draw header
+        const tableHeader = document.createElement("th");
+        tableDataView.columns.forEach((column: DataViewMetadataColumn) => {
+            const tableHeaderColumn = document.createElement("td");
+            tableHeaderColumn.innerText = column.displayName
+            tableHeader.appendChild(tableHeaderColumn);
+        });
+        this.table.appendChild(tableHeader);
+
+        //draw rows
+        tableDataView.rows.forEach((row: DataViewTableRow) => {
+            const tableRow = document.createElement("tr");
+            row.forEach((columnValue: PrimitiveValue) => {
+                const cell = document.createElement("td");
+                cell.innerText = columnValue.toString();
+                tableRow.appendChild(cell);
+            })
+            this.table.appendChild(tableRow);
+        });
+    }
+}
+```
+
+시각적 스타일 파일 `style/visual.less`에 테이블의 레이아웃이 포함되어 있습니다.
+
+```less
+table {
+    display: flex;
+    flex-direction: column;
+}
+
+tr, th {
+    display: flex;
+    flex: 1;
+}
+
+td {
+    flex: 1;
+    border: 1px solid black;
+}
+```
+
+![테이블 데이터 뷰 매핑을 사용하는 시각적 개체](./media/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>행렬 데이터 매핑
 
@@ -694,7 +925,7 @@ Power BI의 핵심 행렬 시각적 개체는 데이터를 테이블로 렌더�
                     "top": {
                         "count": 2000
                     }
-                } 
+                }
             }
         }
     }
@@ -702,3 +933,7 @@ Power BI의 핵심 행렬 시각적 개체는 데이터를 테이블로 렌더�
 ```
 
 데이터 뷰 매핑 행렬의 `rows` 및 `columns` 섹션에 데이터 감소 알고리즘을 적용할 수 있습니다.
+
+## <a name="next-steps"></a>다음 단계
+
+방법 [Power BI 시각적 개체에서 데이터 뷰 매핑의 드릴다운 지원 추가](drill-down-support.md)를 참조하세요.

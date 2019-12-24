@@ -2,19 +2,19 @@
 title: Power BI Desktop에서 도형 맵 사용(미리 보기)
 description: Power BI Desktop에서 도형 맵을 사용하여 지역에 대한 상대 비교 만들기
 author: mihart
-ms.reviewer: amanda
+ms.reviewer: amanda, justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
+ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871110"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199447"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵(미리 보기)
 
@@ -198,28 +198,23 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 | ID | 이름 | name-en |
 | --- | --- | --- |
-| Alsace |Alsace |Alsace |
-| Rhone-Alpes |Rhône-Alpes |Rhone-Alpes |
-| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
-| Poitou-Charentes |Poitou-Charentes |Poitou-Charentes |
-| Picardie |Picardie |Picardy |
-| Pays de la Loire |Pays de la Loire |Pays de la Loire |
-| Nord-Pas-de-Calais |Nord-Pas-de-Calais |Nord-Pas-de-Calais |
-| Midi-Pyrenees |Midi-Pyrénées |Midi-Pyrenees |
-| Lorraine |Lorraine |Lorraine |
-| Limousin |Limousin |Limousin |
-| Languedoc-Roussillon |Languedoc-Roussillon |Languedoc-Roussillon |
-| Ile-del-France |Île-de-France |Ile-de-France |
-| Haute-Normandie |Haute-Normandie |Upper Normandy |
-| Franche-Comte |Franche-Comté |Franche-Comte |
-| Corse |Corse |Corsica |
-| Champagne-Ardenne |Champagne-Ardenne |Champagne-Ardenne |
-| Centre-Val de Loire |Centre-Val de Loire |Centre-Val de Loire |
+| Auvergne-Rhone-Alpes |  |  |
+| Bourgogne-Franche-Comte |  |  |
 | Bretagne |Bretagne |Brittany |
-| Bourgogne |Bourgogne |Burgundy |
-| Basse-Normandie |Basse-Normandie |Lower Normandy |
-| Auvergne |Auvergne |Auvergne |
-| Aquitaine |Aquitaine |Aquitaine |
+| Centre-Val de Loire |Centre-Val de Loire |Centre-Val de Loire |
+| Corse |Corse |Corsica |
+| Grand Est |  |  |
+| 과들루프 | |   |
+| Hauts-de-France |  |  |
+| Ile-de-France |Île-de-France |Ile-de-France |
+| La Reunion |  |  |
+| 마요트  |  |  |
+| Normandie |Normandie |  |
+| Nouvelle-Aquitaine |  |  |
+| Occitanie  |  |  |
+| Pays de la Loire |Pays de la Loire |Pays de la Loire |
+| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
+|  |  |  |
 
 ### <a name="germany-states"></a>독일: 시/도
 

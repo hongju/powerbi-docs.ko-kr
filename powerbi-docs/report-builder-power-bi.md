@@ -1,7 +1,7 @@
 ---
 title: Power BI 페이지를 매긴 보고서 작성기
 description: Power BI 페이지를 매긴 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 도구입니다.
-ms.date: 09/16/2019
+ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076072"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565282"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Power BI 페이지를 매긴 보고서 작성기
 
  Power BI 페이지를 매긴 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 도구입니다.  페이지를 매긴 보고서를 디자인할 때 검색할 데이터, 가져올 위치 및 표시 방법을 지정하는 보고서 정의를 만듭니다. 보고서를 실행할 때 보고서 처리기는 지정한 보고서 정의를 사용하고, 데이터를 검색하고, 보고서 레이아웃과 결합하여 보고서를 생성합니다. 보고서 작성기에서 보고서를 미리 봅니다. 그런 다음, Power BI 서비스에 보고서를 게시합니다.
+
+[실습 랩: Microsoft Power BI 페이지를 매긴 보고서 만들기](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)를 사용해보세요.
 
 비디오에서 학습하는 것을 선호하십니까? YouTube에서 Power BI 수석 프로그램 관리자 Chris Finlan이 진행하는 Power BI 페이지를 매긴 보고서 비디오 시리즈를 확인하세요.
 
@@ -61,5 +63,5 @@ ms.locfileid: "71076072"
 ## <a name="next-steps"></a>다음 단계
 
 - [Power BI Premium에서 페이지를 매긴 보고서란?](paginated-reports-report-builder-power-bi.md)
-
+- [실습 랩: Microsoft Power BI 페이지를 매긴 보고서 만들기](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)를 사용해보세요.
 - YouTube에서 Power BI 수석 프로그램 관리자 Chris Finlan이 진행하는 [Power BI 페이지를 매긴 보고서 비디오 시리즈](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) 시청
