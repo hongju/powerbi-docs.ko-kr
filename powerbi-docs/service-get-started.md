@@ -86,7 +86,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
    
    ![필드 목록](media/service-get-started/power-bi-service-fields-pane-selected.png)
 
-    Power BI에서 데이터를 분석하고 시각적 개체를 만듭니다. **날짜**를 먼저 선택한 경우에는 테이블이 표시되고, **총 판매량**을 먼저 선택한 경우에는 세로 막대형 차트가 표시됩니다. 
+    Power BI에서 데이터를 분석하고 시각적 개체를 만듭니다. **Date** 를 먼저 선택한 경우에는 테이블이 표시되고, **Gross Sales**를 먼저 선택한 경우에는 세로 막대형 차트가 표시됩니다. 
 
 2. 데이터를 표시하는 다른 방법으로 전환합니다. 이 데이터를 꺾은선형 차트로 표시해 보겠습니다. **시각화** 창에서 꺾은선형 차트 아이콘을 선택합니다.
    
@@ -173,7 +173,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
     ![크기 조정된 타일](media/service-get-started/power-bi-service-resized-tile.png)
 
-1. *총 판매량* 꺾은선형 차트 아래로 맞춰질 때까지 *평균 COGS* 가로 막대형 차트 타일을 끕니다.
+1. *Gross Sales* 꺾은선형 차트 아래로 맞춰질 때까지 *Average of COGS* 가로 막대형 차트 타일을 끕니다.
 
     이편이 훨씬 낫습니다.
 
