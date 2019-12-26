@@ -30,7 +30,7 @@ Power BI 모바일 앱에서는 여러 가지 방법으로 관련된 BI 정보�
 * [혼합 현실용 Power BI 앱을 사용하여 QR 코드 스캔](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)
 
 ## <a name="qr-codes-for-reports"></a>보고서에 대한 QR 코드
-보고서에 대한 QR 코드를 만듭니다. 동료가 자신의 iPhone을 사용하여 코드를 검색할 때(Android 휴대폰은 출시 예정) QR 코드와 관련된 보고서가 보입니다. 
+보고서에 대한 QR 코드를 만듭니다.  동료가 자신의 iPhone을 사용하여 코드를 검색할 때(Android 휴대폰은 출시 예정) QR 코드와 관련된 보고서가 보입니다. 
 
 [Power BI에서 보고서에 대한 QR 코드 만들기](../../service-create-qr-code-for-report.md)에 대한 추가 정보
 

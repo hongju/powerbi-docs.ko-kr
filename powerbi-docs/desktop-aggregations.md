@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876734"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907953"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop의 집계
 
@@ -80,9 +80,9 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 ### <a name="strong-vs-weak-relationships"></a>강력 관계 대 약한 관계
 관계를 기반으로 하는 집계 적중은 강력한 관계가 필요합니다.
 
-강력한 관계에는 두 테이블이 모두 ‘단일 원본’에 있는 다음과 같은 조합이 포함됩니다. 
+강력한 관계에는 두 테이블이 모두 ‘단일 원본’에 있는 다음과 같은 조합이 포함됩니다.
 
-| *다 쪽의 테이블 | ‘일’ 쪽의 테이블  |
+| *다 쪽의 테이블 | ‘일’ 쪽의 테이블 |
 | ------------- |----------------------| 
 | 이중          | 이중                 | 
 | 가져오기        | 가져오기 또는 이중       | 
@@ -92,7 +92,7 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 
 관계에 의존하지 않는 *cross-source* 집계 적중의 경우 아래의 group-by 열 기반 집계 섹션을 참조하세요.
 
-### <a name="aggregation-tables-are-not-addressable"></a>집계 테이블에 주소를 지정할 수 없음
+### <a name="aggregation-tables-arent-addressable"></a>집계 테이블에 주소를 지정할 수 없음
 데이터 세트에 대한 읽기 전용 액세스 권한이 있는 사용자는 집계 테이블을 쿼리할 수 없습니다. 따라서 RLS와 함께 사용하는 경우 보안 문제가 방지됩니다. 소비자 및 쿼리는 집계 테이블이 아닌 세부 정보 테이블을 참조하며, 심지어는 집계 테이블이 있는지도 인식할 필요가 없습니다.
 
 이와 같은 이유로 **Sales Agg** 테이블을 숨겨야 합니다. 숨겨지지 않은 경우 [집계 관리] 대화 상자에서 [모두 적용] 단추를 클릭하면 해당 테이블이 숨김으로 설정됩니다.
@@ -138,7 +138,7 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 이 예에서 세 개의 GroupBy 항목은 선택 사항입니다. 집계 동작에는 영향을 미치지 않습니다(다음 이미지에 표시된 DISTINCTCOUNT 예제 쿼리 제외). 기본적으로 가독성을 위해 포함됩니다. 이러한 GroupBy 항목이 없는 경우에도 집계는 관계를 기반으로 하여 계속 적중합니다. 이는 관계가 없는 집계를 사용하는 동작과 다르며, 이 문서의 뒷부분에 나오는 빅 데이터 예제에서 다루고 있습니다.
 
 ### <a name="inactive-relationships"></a>비활성 관계
-비활성 관계에서 사용되는 참조 키 열로 그룹화하고 집계 적중에 USERELATIONSHIP 함수를 사용하는 기능은 지원되지 않습니다.
+비활성 관계에서 사용되는 외래 키 열로 그룹화하고 집계 적중에 USERELATIONSHIP 함수를 사용하는 기능은 지원되지 않습니다.
 
 ### <a name="detecting-whether-aggregations-are-hit-or-missed-by-queries"></a>쿼리에서 집계가 적중되거나 누락되었는지 검색
 
@@ -161,7 +161,7 @@ SQL 프로파일러를 사용하여 메모리 내 캐시(스토리지 엔진) �
 
 ![쿼리 예제](media/desktop-aggregations/aggregations-code_02.jpg)
 
-다음 쿼리는 집계에 적중하지 않습니다. **SalesAmount**의 합계를 요청했지만 **Product** 테이블의 열에 대한 group by 작업을 수행합니다. 이는 집계에 적중할 수 있는 세분성이 아닙니다. 모델의 관계를 관찰하면 제품 하위 범주에 여러 개의 **Product** 행이 있을 수 있습니다. 쿼리는 집계할 제품을 결정할 수 없습니다. 이 경우 쿼리는 DirectQuery로 되돌아가고 SQL 쿼리를 데이터 원본에 제출합니다.
+다음 쿼리는 집계에 적중하지 않습니다. **SalesAmount**의 합계를 요청했지만 **Product** 테이블의 열에서 그룹화 기준 작업을 수행하며, 집계를 적중할 수 있는 세분성이 아닙니다. 모델의 관계를 관찰하면 제품 하위 범주에 여러 개의 **Product** 행이 있을 수 있습니다. 쿼리는 집계할 제품을 결정할 수 없습니다. 이 경우 쿼리는 DirectQuery로 되돌아가고 SQL 쿼리를 데이터 원본에 제출합니다.
 
 ![쿼리 예제](media/desktop-aggregations/aggregations-code_03.jpg)
 
@@ -184,7 +184,7 @@ AVERAGE 함수는 집계를 통해 이점을 얻을 수 있습니다. AVERAGE가
 ### <a name="rls"></a>RLS
 RLS(행 수준 보안) 식이 제대로 작동하려면 집계 테이블과 세부 정보 테이블을 둘 다 필터링해야 합니다. 예제를 계속 살펴보면, **Geography** 테이블이 **Sales** 테이블 및 **Sales Agg** 테이블에 대한 관계의 필터링 쪽에 있으므로 Geography 테이블에서 RLS 식이 작동합니다. 집계 테이블에 도달하는 쿼리와 도달하지 않는 쿼리에서 RLS가 성공적으로 적용됩니다.
 
-![집계 관리 역할](media/desktop-aggregations/manage-roles.jpg)
+![집계 관리 역할](media/desktop-aggregations/manage-roles.png)
 
 **Product** 테이블의 RLS 식은 **Sales** 테이블만 필터링하며 **Sales Agg** 테이블은 필터링하지 않습니다. 이 방법은 권장되지 않습니다. 이 역할을 사용하여 데이터 세트에 액세스하는 사용자가 제출한 쿼리는 집계 적중을 활용하지 않습니다. 집계 테이블은 세부 정보 테이블에 있는 동일한 데이터의 다른 표현이기 때문에 RLS 필터를 적용할 수 없으므로 집계 테이블의 쿼리에 응답하는 것은 안전하지 않습니다.
 

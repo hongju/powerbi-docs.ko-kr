@@ -34,19 +34,19 @@ iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 �
 
 ## <a name="open-a-tile-for-annotating"></a>주석을 추가할 타일 열기
 1. 타일을 탭하여 포커스 모드로 엽니다.
-2. 주석 달기 아이콘 탭 ![주석 달기 아이콘](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) 타일의 오른쪽 위 모퉁이에서.
+2. 타일의 오른쪽 위 모퉁이에서 주석 달기 아이콘 ![주석 달기 아이콘](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) 을 탭합니다.
 3. [타일에 주석을 달고 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)할 준비가 되었습니다.
 
 ## <a name="open-a-report-for-annotating"></a>주석을 추가할 보고서 열기
 1. 보고서를 엽니다. 
-2. 주석 달기 아이콘 탭 ![주석 달기 아이콘](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) 보고서의 오른쪽 위 모퉁이에서.
+2. 타일의 오른쪽 위 모퉁이에서 주석 달기 아이콘 ![주석 달기 아이콘](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) 보고서의 오른쪽 위 모퉁이에서.
 3. [보고서에 주석을 달고 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)할 준비가 되었습니다.
 
 ## <a name="open-a-visual-for-annotating"></a>주석을 추가할 시각적 개체 열기
 1. 보고서에서 시각적 개체를 탭한 다음 확장 아이콘을 탭하여 포커스 모드로 엽니다. 
    
     ![포커스 모드 아이콘](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-visual-focus-mode.png)
-2. 주석 달기 아이콘 탭 ![주석 달기 아이콘](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) 시각적 개체의 오른쪽 위 모퉁이에서.
+2. 타일의 오른쪽 위 모퉁이에서 주석 달기 아이콘 ![주석 달기 아이콘](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) 시각적 개체의 오른쪽 위 모퉁이에서.
 3. [시각적 개체에 주석을 달고 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)할 준비가 되었습니다.
 
 ## <a name="annotate-and-share-the-tile-report-or-visual"></a>타일, 보고서 또는 시각적 개체 주석 달기 및 공유
@@ -69,7 +69,7 @@ iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 �
    ![전자 메일에서 주석이 달린 보고서](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-iphone-annotate-send.png)
    
    메일에는 특정 타일, 보고서 또는 시각적 개체에 대한 이미지 및 링크가 있습니다. 
-4. **송신**을 누릅니다.
+4. **보내기**를 누릅니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 모바일 앱에서 대시보드 공유](mobile-share-dashboard-from-the-mobile-apps.md)

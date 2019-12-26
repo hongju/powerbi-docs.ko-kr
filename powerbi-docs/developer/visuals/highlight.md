@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: ed1a67168a386838049ec2ca047ec0cd971408fc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf5cd8d8ae649071b3c9cc7243f87ac3cc316c3b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880028"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695363"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI 시각적 개체에서 데이터 요소 강조 표시
 
@@ -26,6 +26,9 @@ ms.locfileid: "73880028"
 ![`dataview`에서 강조 표시 지원](./media/highlight-dataview-supports.png)
 
 이 예제에서는 막대 1개가 선택된 것을 확인할 수 있습니다. 또한 highlights 배열의 유일한 값입니다. 여러 개의 선택 항목과 부분 강조 표시가 있을 수도 있습니다. 강조 표시된 값이 데이터 뷰에 표시됩니다.
+
+> [!Note]
+> 테이블 데이터 뷰 매핑은 하이라이트 기능을 지원하지 않습니다.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>범주 데이터 뷰 매핑을 사용하여 데이터 요소 강조 표시
 

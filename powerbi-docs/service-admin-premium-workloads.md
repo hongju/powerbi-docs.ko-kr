@@ -1,20 +1,20 @@
 ---
 title: Power BI Premium의 워크로드를 구성하는 방법
 description: Power BI Premium 용량의 워크로드를 구성하는 방법을 알아봅니다.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856830"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831286"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>프리미엄 용량에서 워크로드 구성
 
@@ -164,7 +164,7 @@ Power BI 보고서에서는 용량에 대한 각 쿼리에 훨씬 적은 시간 
 | **최대 메모리(%)** | 페이지를 매긴 보고서에서 용량으로 사용할 수 있는 사용 가능한 메모리의 최대 비율입니다. |
 |  |  |
 
-페이지를 매긴 보고서를 사용하면 보고서를 렌더링할 때 사용자 지정 코드를 실행할 수 있습니다. 예를 들어 콘텐츠를 기준으로 텍스트 색을 동적으로 변경하는 경우 추가 메모리를 사용할 수 있습니다. Power BI Premium 용량은 용량 내 포함된 공간에서 페이지를 매긴 보고서를 실행합니다. 지정한 최대 메모리는 작업이 활성 상태인지 ‘여부와 관계없이’ 사용됩니다.  최대 메모리 설정을 기본값에서 변경하는 경우, 다른 작업에 부정적인 영향을 주지 않도록 충분히 낮게 설정해야 합니다.
+페이지를 매긴 보고서를 사용하면 보고서를 렌더링할 때 사용자 지정 코드를 실행할 수 있습니다. 예를 들어 콘텐츠를 기준으로 텍스트 색을 동적으로 변경하는 경우 추가 메모리를 사용할 수 있습니다. Power BI Premium 용량은 용량 내 포함된 공간에서 페이지를 매긴 보고서를 실행합니다. 
 
 페이지를 매긴 보고서 워크로드를 사용할 수 없는 경우도 있습니다. 이런 경우 워크로드에서 관리 포털에 오류 상태를 표시하고, 사용자에게 보고서 렌더링 시간 초과가 표시됩니다. 이 문제를 완화하려면 워크로드를 사용하지 않도록 설정했다가 다시 사용하도록 설정합니다.
 

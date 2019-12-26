@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164146"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548557"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop의 자동 페이지 새로 고침(미리 보기)
 
@@ -83,7 +83,7 @@ Power BI Desktop의 성능 분석기를 사용하여 이를 예측할 수 있습
 
 또한 Power BI Desktop에서 작성되고 Power BI 서비스에 게시된 보고서에 대한 자동 페이지 새로 고침 간격을 설정할 수도 있습니다. 
 
-Power BI 서비스의 보고서에 대한 자동 페이지 새로 고침은 Power BI Desktop의 구성과 비슷한 단계로 구성됩니다. 다음 그림은 Power BI 서비스에 대한 **페이지 새로 고침** 구성을 보여줍니다.
+Power BI 서비스의 보고서에 대한 자동 페이지 새로 고침은 Power BI Desktop의 구성과 비슷한 단계로 구성됩니다. Power BI 서비스에서 구성된 경우 자동 페이지 새로 고침은 [포함된 Power BI](developer/embedding.md) 콘텐츠도 지원합니다. 다음 그림은 Power BI 서비스에 대한 **페이지 새로 고침** 구성을 보여줍니다.
 
 ![Power BI 서비스의 자동 페이지 새로 고침](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 

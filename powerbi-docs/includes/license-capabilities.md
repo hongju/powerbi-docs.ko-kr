@@ -1,15 +1,15 @@
 ---
-author: mgblythe
+author: kfollis
 ms.service: powerbi
 ms.topic: include
 ms.date: 12/03/2018
-ms.author: mblythe
-ms.openlocfilehash: cc4d000f5a2f3ab6aad0897c7c751e22724c1804
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.author: kfollis
+ms.openlocfilehash: f7c5f5a65782be0911b5e181b8c5f7ab5bb7787c
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431863"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698250"
 ---
 Power BI 서비스에서 사용자가 보유한 사용자 단위 라이선스 유형 및 작업하는 콘텐츠가 Power BI Premium 용량에 할당된 작업 영역에 있는지 여부에 따라 기능을 정의했습니다.
 
