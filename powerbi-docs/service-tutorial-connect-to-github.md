@@ -114,11 +114,11 @@ ms.locfileid: "73871269"
 
     ![월별 끌어오기 요청 세로 막대형 차트](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
 
-2. **사용자별 전체 끌어오기 요청** 차트에서 사용자 이름을 선택합니다. 이 예에서는 2월에 대부분의 시간이 표시됩니다.
+2. **Total pull requests by user** 차트에서 사용자 이름을 선택합니다. 이 예에서는 2월에 대부분의 시간이 표시됩니다.
 
     ![Power BI - GitHub 보고서(강조 표시)](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-cross-filter-total-prs.png)
 
-3. **펀치 카드** 탭을 선택하여 보고서의 다음 페이지를 표시합니다. 
+3. **Punch Card** 탭을 선택하여 보고서의 다음 페이지를 표시합니다. 
  
     ![Power BI - GitHub 보고서 펀치 카드](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 
