@@ -44,7 +44,7 @@ Excel용 Power BI 게시자는 데스크톱 버전의 Microsoft Excel 2007 이�
 
 시작하려면 Power BI에 로그인되어 있는지 확인해야 합니다.
 
-1. Excel의 **Power BI** 리본 탭에서 **프로필**을 선택합니다. 이미 Power BI에 로그인한 경우 현재 로그인된 계정을 표시하는 대화 상자가 나타납니다. 그것이 사용하려는 계정인 경우 범위를 고정하는 다음 단계로 이동합니다. 다른 Power BI 계정을 사용하려는 경우 로그아웃을선택합니다.  로그인하지 않은 경우 다음 단계(2 단계)로 이동합니다.
+1. Excel의 **Power BI** 리본 탭에서 **프로필**을 선택합니다. 이미 Power BI에 로그인한 경우 현재 로그인된 계정을 표시하는 대화 상자가 나타납니다. 그것이 사용하려는 계정인 경우 범위를 고정하는 다음 단계로 이동합니다. 다른 Power BI 계정을 사용하려는 경우 로그아웃을 선택합니다.  로그인하지 않은 경우 다음 단계(2 단계)로 이동합니다.
    
    ![](media/publisher-for-excel/pbi_excel_publish_connect-to-data_0.png)
 2. 로그인하지 않은 경우, Excel의 **Power BI** 리본 탭에서 **프로필**을 선택할 때 나타나는 **로그인** 링크를 선택하고, 사용하려는 Power BI 계정의 전자 메일 주소의 **Power BI에 연결** 대화 상자 유형에서 **로그인**을 선택합니다.
@@ -63,7 +63,7 @@ Excel용 Power BI 게시자는 데스크톱 버전의 Microsoft Excel 2007 이�
    ![](media/publisher-for-excel/xl-publish.gif)
 
 ## <a name="pin-a-chart-to-a-dashboard"></a>대시보드에 차트 고정
-차트를 클릭하고 고정 ![](media/publisher-for-excel/pbi_excel_publisher_pin.png)을 클릭하면 됩니다.
+차트를 클릭하고 고정 아이콘 ![](media/publisher-for-excel/pbi_excel_publisher_pin.png)을 클릭하면 됩니다.
 
 ![](media/publisher-for-excel/pbi_excel_publisher_chart.png)
 
@@ -74,9 +74,9 @@ Excel용 Power BI 게시자는 데스크톱 버전의 Microsoft Excel 2007 이�
 
 대시보드에 타일을 업데이트하려면 **핀 관리자**에서 하나 이상의 요소를 선택하고 **업데이트**를 선택합니다.
 
-Excel의 고정된 요소와 대시보드의 연결된 타일 간 매핑을 제거하려면 **제거**를 선택합니다. **제거**를 선택해도 Excel 워크시트에서 요소가 제거되거나 대시보드에서 연결된 타일이 삭제되지는 *않습니다*. 둘 간의 고정 또는 매핑  을 제거합니다. 제거된 요소는 더 이상 **핀 관리자**에 나타나지 않습니다. 요소를 다시 고정하는 경우 새 타일로 나타납니다.
+Excel의 고정된 요소와 대시보드의 연결된 타일 간 매핑을 제거하려면 **제거**를 선택합니다. **제거**를 선택해도 Excel 워크시트에서 요소가 제거되거나 대시보드에서 연결된 타일이 삭제되지는 *않습니다*. 둘 간의 고정 또는 매핑을 제거합니다. 제거된 요소는 더 이상 **핀 관리자**에 나타나지 않습니다. 요소를 다시 고정하는 경우 새 타일로 나타납니다.
 
-대시보드에서 고정된 요소(타일)를 제거하려면 Power BI에서 수행해야 합니다. 삭제하려는 타일에서 **열기 메뉴** 아이콘 ![](media/publisher-for-excel/pbi_excel_publisher_tile_openmenu.png)을 선택하고 **타일 삭제**   ![](media/publisher-for-excel/pbi_excel_publisher_tile_trashcan.png)를 선택합니다.
+대시보드에서 고정된 요소(타일)를 제거하려면 Power BI에서 수행해야 합니다. 삭제하려는 타일에서 **열기 메뉴** 아이콘 ![](media/publisher-for-excel/pbi_excel_publisher_tile_openmenu.png)을 선택하고 **타일 삭제** 아이콘 ![](media/publisher-for-excel/pbi_excel_publisher_tile_trashcan.png) 선택합니다.
 
 ## <a name="connect-to-data-in-power-bi"></a>Power BI에서 데이터에 연결
 **Power BI publisher for Excel**의 2016년 7월 릴리스부터(위에 연결된 현재 릴리스 포함), Power BI 서비스의 데이터에 직접 연결하고 피벗 테이블 및 피벗 차트를 사용하여 Excel에서 해당 데이터를 분석합니다. 이 기능을 통해 가장 중요한 데이터를 Power BI 데이터와 Excel을 함께 사용하여 쉽게 분석할 수 있습니다.
