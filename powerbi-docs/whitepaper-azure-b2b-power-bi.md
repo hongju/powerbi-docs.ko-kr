@@ -113,11 +113,11 @@ Power BI는 **외부 게스트 사용자가 조직의 콘텐츠를 편집 하 �
 
 이 시나리오는이 문서의 뒷부분에 나오는 Power BI 외부 사용자가 콘텐츠를 편집 하 고 관리할 수 있도록 설정 섹션에 자세히 설명 되어 있습니다.
 
-## <a name="organizational-relationships-using-power-bi-and-azure-ad-b2b"></a>Power BI 및 Azure AD B2B를 사용 하는 조직 관계
+## <a name="organizational-relationships-using-power-bi-and-azure-ad-b2b"></a>Power BI 및 Azure AD B2B를 사용하는 조직 관계
 
-Power BI의 모든 사용자가 조직 내부에 있는 경우 Azure AD B2B를 사용할 필요가 없습니다. 그러나 두 개 이상의 조직이 데이터 및 통찰력에 대해 공동 작업을 수행 하려는 경우 Azure AD B2B에 대 한 Power BI를 사용 하면 쉽고 비용 효율적으로 작업할 수 있습니다.
+Power BI의 모든 사용자가 조직 내부에 있는 경우 Azure AD B2B를 사용할 필요가 없습니다. 그러나 두 개 이상의 조직이 데이터 및 통찰력에 대해 공동 작업을 수행하려는 경우 Azure AD B2B에 대한 Power BI의 지원을 활용하면 쉽고 비용 효율적으로 작업할 수 있습니다.
 
-다음은 일반적으로 Power BI에서 Azure AD B2B 스타일 교차 조직 공동 작업에 적합 한 조직 구조를 발견 했습니다. Azure AD B2B는 대부분의 경우에는 잘 작동 하지만, 경우에 따라이 문서의 끝에서 다룬 일반적인 대체 방법을 고려 하는 것이 좋습니다.
+다음에서 일반적으로 Power BI에서 Azure AD B2B 스타일 조직 간 공동 작업에 적합한 조직 구조를 확인합니다. Azure AD B2B는 대부분의 경우에는 잘 작동하지만, 경우에 따라 이 문서의 끝에서 다룬 일반적인 대체 방법을 고려하는 것이 좋습니다.
 
 ### <a name="case-1-direct-collaboration-between-organizations"></a>사례 1: 조직 간 직접 공동 작업
 
@@ -272,15 +272,15 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에 게 BI 포털에 대 
 
     **임시 초대**
 
-    Contoso가 미리 초대 하려는 게스트 사용자를 모두 알지 못하는 경우는 어떻게 되나요? 또는 BI 포털을 만든 Contoso의 분석가가 게스트 사용자에 게 콘텐츠를 배포 하려는 경우 어떻게 되나요? 또한 임시 초대와 Power BI에서이 시나리오를 지원 합니다.
+    Contoso가 미리 초대하려는 게스트 사용자를 모두 알지 못하는 경우는 어떻게 되나요? 또는 BI 포털을 만든 Contoso의 분석가가 게스트 사용자에게 직접 콘텐츠를 배포하려는 경우 어떻게 되나요? Power BI에서는 임시 초대를 사용하여 이 시나리오도 지원합니다.
 
-    분석가가 게시할 때 앱의 액세스 목록에 외부 사용자를 추가 하기만 하면 됩니다. 게스트 사용자는 초대를 받고 수락 되 면 자동으로 Power BI 내용으로 리디렉션됩니다.
+    분석가가 게시할 때 앱의 액세스 목록에 외부 사용자를 추가하기만 하면 됩니다. 게스트 사용자는 초대를 받고 수락되면 자동으로 Power BI 콘텐츠로 리디렉션됩니다.
 
     ![외부 사용자 추가](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_18.png)
 
 
     > [!NOTE]
-    > 초대는 외부 사용자를 조직에 처음 초대할 때만 필요 합니다.
+    > 초대는 외부 사용자를 조직에 처음 초대할 때만 필요합니다.
 
 
 3. 콘텐츠 배포
