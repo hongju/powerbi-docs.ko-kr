@@ -81,7 +81,7 @@ AdventureWorksDW 샘플 데이터베이스를 사용하여 기본 Power BI 보�
 
     ![완성된 세로 막대형 차트](./media/service-gateway-sql-tutorial/finished-column-chart.png)
 
-    5개의 **Road-250** 제품이 최고 정가로 나열됩니다. 이 값은 이 자습서의 뒷부분에서 데이터를 업데이트하고 보고서를 새로 고치면 변경됩니다.
+    5개의 **Road-250** 제품이 가장 높은 가격으로 나열됩니다. 이 값은 이 자습서의 뒷부분에서 데이터를 업데이트하고 보고서를 새로 고치면 변경됩니다.
 
 6. 보고서를 "AdventureWorksProducts.pbix"라는 이름으로 저장합니다.
 
@@ -117,7 +117,7 @@ Power BI Desktop에서 온-프레미스 SQL Server 데이터베이스에 직접 
     | 옵션 | 값 |
     | --- | --- |
     | 데이터 원본 이름 | AdventureWorksProducts |
-    | 데이터 원본 형식 | SQL Server |
+    | 데이터 원본 유형 | SQL Server |
     | 서버 | SQLServer01과 같은 SQL Server 인스턴스의 이름(Power BI Desktop에 지정한 내용과 동일해야 함). |
     | 데이터베이스 | AdventureWorksDW와 같은 SQL Server 데이터베이스의 이름(Power BI Desktop에 지정한 내용과 동일해야 함). |
     | 인증 방법 | Windows 또는 Basic(일반적으로 Windows). |
@@ -139,7 +139,7 @@ Power BI Desktop에서 온-프레미스 SQL Server 데이터베이스에 직접 
     > [!NOTE]
     > 동일한 이름의 보고서에 대한 줄임표가 아닌 **AdventureWorksProducts** 데이터 세트에 대한 줄임표를 선택해야 합니다. **AdventureWorksProducts** 보고서의 컨텍스트 메뉴에 **새로 고침 일정** 옵션이 포함되어 있지 않습니다.
 
-2. **예약된 새로 고침** 섹션의 **데이터를 최신 상태로 유지**에서 새로 고침을 **On**으로 설정합니다.
+2. **예약된 새로 고침** 섹션의 **데이터를 최신 상태로 유지**에서 새로 고침을 **설정**으로 변경합니다.
 
 3. 적절한 **새로 고침 빈도**(이 예의 경우 **매일**)를 선택한 다음, **시간**에서 **다른 시간 추가**를 선택하여 원하는 새로 고침 시간(이 예의 경우 오전 및 오후 6:30)을 지정합니다.
 
