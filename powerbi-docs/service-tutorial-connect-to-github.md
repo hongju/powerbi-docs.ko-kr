@@ -99,7 +99,7 @@ ms.locfileid: "73871269"
  
     ![포함된 사용자 수](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
-13. **how many**와 **users are there** 사이에 **pull requests per**을 입력합니다. 
+13. **how many**와 **users are there** 사이에 **pull requests per**를 입력합니다.
 
      Power BI에서 사용자별 끌어오기 요청 수를 나타내는 가로 막대형 차트를 만듭니다.
 
