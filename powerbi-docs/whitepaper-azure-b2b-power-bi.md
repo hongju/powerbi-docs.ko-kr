@@ -1,6 +1,6 @@
 ---
-title: Azure Active Directory B2B를 사용 하 여 외부 게스트 사용자에 게 Power BI 콘텐츠 배포
-description: Azure Active Directory B2B를 사용 하 여 외부 게스트 사용자에 게 Power BI를 배포 하는 방법을 설명 하는 백서
+title: Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포
+description: Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI를 배포하는 방법을 설명하는 백서
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -16,9 +16,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 11/09/2019
 ms.locfileid: "73870881"
 ---
-# <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B를 사용 하 여 외부 게스트 사용자에 게 Power BI 콘텐츠 배포
+# <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
-**요약:** 이는 Azure Active Directory B2b (Azure AD B2B)의 통합을 사용 하 여 조직 외부 사용자에 게 콘텐츠를 배포 하는 방법을 설명 하는 기술 백서입니다.
+**요약:** 이는 Azure Active Directory B2B (Azure AD B2B)의 통합을 사용하여 조직 외부 사용자에게 콘텐츠를 배포하는 방법을 설명하는 기술 백서입니다.
 
 **작성자:** Lukasz Pawlowski, Kasper de Jonge
 
@@ -29,14 +29,14 @@ ms.locfileid: "73870881"
 
 ## <a name="introduction"></a>소개
 
-Power BI를 사용 하면 조직에서 비즈니스를 360 수준으로 볼 수 있으며, 이러한 조직의 모든 사용자가 데이터를 사용 하 여 지능적인 의사 결정을 내릴 수 있습니다. 이러한 조직 대부분은 외부 파트너, 클라이언트 및 계약자와 강력 하 고 신뢰할 수 있는 관계를 가집니다. 이러한 조직에서는 이러한 외부 파트너의 사용자에 게 Power BI 대시보드 및 보고서에 대 한 보안 액세스를 제공 해야 합니다.
+Power BI를 사용하면 조직에서 비즈니스를 360도로 볼 수 있으며, 이러한 조직의 모든 사용자가 데이터를 사용하여 지능적인 의사 결정을 내릴 수 있습니다. 이러한 조직 대부분은 외부 파트너, 클라이언트 및 계약자와 강력하고 신뢰할 수 있는 관계를 가집니다. 이러한 조직에서는 이러한 외부 파트너의 사용자에게 Power BI 대시보드 및 보고서에 대한 보안 액세스를 제공해야 합니다.
 
-Power BI는 조직 외부의 게스트 사용자에 게 Power BI 콘텐츠를 안전 하 게 배포할 수 있도록 [Azure Active Directory b2b (AZURE AD B2B)](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b) 와 통합 됩니다.
+Power BI는 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안전하게 배포할 수 있도록 [Azure Active Directory B2B (Azure AD B2B)](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)와 통합됩니다.
 
-이 백서에서는 Azure Active Directory B2B와의 통합 Power BI 이해 하는 데 필요한 모든 세부 정보에 대해 설명 합니다. 가장 일반적인 사용 사례, 설정, 라이선스 및 행 수준 보안을 다룹니다.
+이 백서에서는 Power BI와 Azure Active Directory B2B의 통합을 이해하는 데 필요한 모든 세부 정보에 대해 설명합니다. 가장 일반적인 사용 사례, 설정, 라이선스 및 행 수준 보안을 다룹니다.
 
 > [!NOTE]
-> 이 백서 전체에서 azure AD로 Azure Active Directory 하 고 비즈니스를 Azure AD B2B로 Azure Active Directory 하는 것을 말합니다.
+> 이 백서 전체에서 Azure Active Directory를 Azure AD로, Azure Active Directory Business to Business를 Azure AD B2B로 언급합니다.
 
 ## <a name="scenarios"></a>에서는
 
