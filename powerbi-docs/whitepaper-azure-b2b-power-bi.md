@@ -368,9 +368,9 @@ Contoso는 공급자 및 파트너 조직의 게스트 사용자에게 Power BI�
 
 ![Pro 라이선스 요구 사항](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_26.png)
 
-## <a name="data-security-for-external-partners"></a>외부 파트너에 대 한 데이터 보안
+## <a name="data-security-for-external-partners"></a>외부 파트너에 대한 데이터 보안
 
-일반적으로 여러 외부 공급자를 사용 하는 경우 Contoso는 각 공급자가 자체 제품에 대 한 데이터만 볼 수 있도록 해야 합니다. 사용자 기반 보안 및 동적 행 수준 보안을 통해 Power BI를 쉽게 수행할 수 있습니다.
+일반적으로 여러 외부 공급자를 사용하는 경우 Contoso는 각 공급자가 자체 제품에 대한 데이터만 볼 수 있도록 해야 합니다. 사용자 기반 보안 및 동적 행 수준 보안을 통해 Power BI에서 이를 쉽게 수행할 수 있습니다.
 
 ### <a name="user-based-security"></a>사용자 기반 보안
 
@@ -381,9 +381,9 @@ Azure AD B2B와의 통합을 통해 Contoso는 Contoso 테 넌 트에 초대 되
 > [!NOTE]
 > 임시 초대를 사용할 때 RLS에 의해 보호 되는 데이터에 액세스 하는 경우 사용자는 받은 전자 메일에서 공유 링크를 열 때 보고서/대시보드가 비어 있거나 손상 된 것을 볼 수 있기 때문에 IT 팀에 대 한 요청이 지원 될 수 있습니다. 따라서이 시나리오에서는 계획 된 초대를 사용 하는 것이 좋습니다. * *
 
-예제를 사용 하 여이를 살펴보겠습니다.
+예제를 사용하여 이를 살펴보겠습니다.
 
-앞서 언급 했 듯이 Contoso는 전 세계 공급자를 보유 하 고 있으며, 해당 공급자 조직의 사용자가 자신의 지역에서 데이터 로부터 통찰력을 얻을 수 있도록 합니다.  하지만 Contoso의 사용자는 모든 데이터에 액세스할 수 있습니다. Contoso는 여러 다른 보고서를 만드는 대신 단일 보고서를 만들고 해당 보고서를 보는 사용자를 기준으로 데이터를 필터링 합니다.
+앞서 언급했듯이 Contoso는 전 세계 공급자를 보유하고 있으며, 이들은 해당 공급자 조직의 사용자가 자신의 지역에서 데이터로부터 통찰력을 얻을 수 있도록 하고자 합니다.  하지만 Contoso의 사용자는 모든 데이터에 액세스할 수 있습니다. Contoso는 여러 다른 보고서를 만드는 대신 단일 보고서를 만들고 해당 보고서를 보는 사용자를 기준으로 데이터를 필터링합니다.
 
 ![공유 콘텐츠](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_27.png)
 
@@ -403,19 +403,19 @@ Contoso가 연결 된 사용자를 기준으로 데이터를 필터링 할 수 �
 
 ![행 수준 보안 설정](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_31.png)
 
-Azure AD에서이를 해결 하면 Contoso는 추가할 준비가 된 창에 표시 되는 이름을 볼 수 있습니다.
+Azure AD에서 이를 확인하면 Contoso는 창에 이름이 표시되어 추가할 준비가 된 것을 볼 수 있습니다.
 
 ![역할 표시](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_32.png)
 
-이제이 사용자가 공유 된 앱을 열면 유럽의 데이터가 포함 된 보고서만 표시 됩니다.
+이제 이 사용자가 공유된 앱을 열면 유럽의 데이터가 포함된 보고서만 표시됩니다.
 
 ![콘텐츠 보기](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_33.png)
 
 ### <a name="dynamic-row-level-security"></a>동적 행 수준 보안
 
-또 다른 흥미로운 항목은 Azure AD B2B에서 RLS (dynamic row level security)가 작동 하는 방식을 확인 하는 것입니다.
+또 다른 흥미로운 항목은 Azure AD B2B에서 RLS(동적 행 수준 보안)가 작동하는 방식을 확인하는 것입니다.
 
-간단히 말해서 Power BI에 연결 하는 사용자의 사용자 이름을 기반으로 모델의 데이터를 필터링 하 여 동적 행 수준 보안을 적용 합니다. 사용자 그룹에 대해 여러 역할을 추가 하는 대신 모델의 사용자를 정의 합니다. 여기서는 패턴에 대해 자세히 설명 하지 않습니다. Kasper de Jong는 [Power BI Desktop Dynamic security 참고 자료 시트](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)및 [이 백서](https://msdn.microsoft.com/library/jj127437.aspx) 에서 행 수준 보안의 모든 특성에 대 한 자세한 쓰기를 제공 합니다.
+간단히 말해서 동적 행 수준 보안은 Power BI에 연결하는 사용자의 사용자 이름을 기반으로 모델의 데이터를 필터링하여 작동합니다. 사용자 그룹에 대해 여러 역할을 추가하는 대신 모델의 사용자를 정의합니다. 여기서는 패턴에 대해 자세히 설명하지 않습니다. Kasper de Jong은 [Power BI Desktop 동적 보안 참고 자료 시트](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/) 및 [이 백서](https://msdn.microsoft.com/library/jj127437.aspx)에서 행 수준 보안의 모든 특성에 대한 자세한 내용을 제공합니다.
 
 작은 예를 살펴보겠습니다. Contoso는 그룹 별 판매에 대 한 간단한 보고서를 포함 합니다.
 
