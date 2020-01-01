@@ -18,7 +18,7 @@ ms.lasthandoff: 12/03/2019
 ms.locfileid: "74791988"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>새로 고침을 지원하지 않는 데이터 소스 문제 해결
-예약 새로 고침에 대해 데이터 세트를 구성할 때 오류가 발생할 수 있습니다.
+예약된 새로 고침에 대해 데이터 세트를 구성할 때 오류가 발생할 수 있습니다.
 
         You cannot schedule refresh for this dataset because it gets data from sources that currently don’t support refresh.
 
@@ -29,7 +29,7 @@ ms.locfileid: "74791988"
 
 1. Power BI Desktop에서 **보고서** 창에 있는지 확인합니다.  
    ![데스크톱 보고서 창](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
-2. 리본 메뉴에서 **쿼리 편집** 을 선택합니다.  
+2. 리본 메뉴에서 **쿼리 편집**을 선택합니다.  
    ![쿼리 편집](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
 3. **고급 편집기**를 선택합니다.  
    ![고급 편집기](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
