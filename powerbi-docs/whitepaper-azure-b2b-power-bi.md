@@ -206,21 +206,21 @@ Contoso는 한 공급 업체에 대한 radiator 안정성 보고서를 만들었
 
 ## <a name="case-study-building-a-bi-portal-using-power-bi--azure-ad-b2b--step-by-step-instructions"></a>사례 연구: Power BI + Azure AD B2B를 사용 하 여 BI 포털 빌드 – 단계별 지침
 
-Azure AD B2B와의 통합을 통해 게스트 사용자에 게 BI 포털에 대 한 안전한 액세스를 제공 하는 원활 하 고 안전한 방법으로 Contoso를 사용할 수 있습니다. Power BI Contoso는 세 단계로이를 설정할 수 있습니다.
+Azure AD B2B와의 통합을 통해 게스트 사용자에게 BI 포털에 대한 안전한 액세스를 제공하는 원활하고 안전한 방법으로 Contoso를 사용할 수 있습니다. Power BI Contoso는 세 단계로 이를 설정할 수 있습니다.
 
 ![포털 빌드](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_11.png)
 
 
 1. Power BI에서 BI 포털 만들기
 
-    Contoso에 대 한 첫 번째 작업은 Power BI에서 해당 BI 포털을 만드는 것입니다. Contoso의 BI 포털은 여러 내부 및 게스트 사용자가 사용할 수 있도록 하는 용도의 빌드된 대시보드 및 보고서의 컬렉션으로 구성 됩니다. Power BI에서이 작업을 수행 하는 데 권장 되는 방법은 Power BI 앱을 빌드하는 것입니다. [Power BI에서 앱](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)에 대해 자세히 알아보세요.
+    Contoso에 대한 첫 번째 작업은 Power BI에서 해당 BI 포털을 만드는 것입니다. Contoso의 BI 포털은 여러 내부 및 게스트 사용자가 사용할 수 있도록 하는 용도의 빌드된 대시보드 및 보고서의 컬렉션으로 구성됩니다. Power BI에서 이 작업을 수행하는 데 권장되는 방법은 Power BI 앱을 빌드하는 것입니다. [Power BI의 앱](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)에 대해 자세히 알아보세요.
 
 - Contoso의 BI 팀은 Power BI에 작업 영역을 만듭니다.
 
     ![환경이](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
-- 작업 영역에 다른 작성자 추가
+- 작업 영역에 다른 작성자를 추가합니다.
 
     ![작성자 추가](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_13.png)
 
@@ -230,88 +230,88 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에 게 BI 포털에 대 
     ![작업 영역 내에서 콘텐츠 만들기](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_14.png)
 
 
-    이제 콘텐츠를 작업 영역에 만들었으므로 Contoso는 파트너 조직에서 게스트 사용자를 초대 하 여이 콘텐츠를 사용할 준비가 되었습니다.
+    이제 콘텐츠를 작업 영역에 만들었으므로 Contoso는 파트너 조직에서 게스트 사용자를 초대하여 이 콘텐츠를 사용할 준비가 되었습니다.
 
 2. 게스트 사용자 초대
 
-    Contoso는 Power BI의 BI 포털에 게스트 사용자를 초대 하는 두 가지 방법이 있습니다.
+    Contoso는 Power BI의 BI 포털에 게스트 사용자를 초대하는 두 가지 방법이 있습니다.
 
-    * 계획 된 초대
+    * 계획된 초대
     * 임시 초대
 
-    **계획 된 초대**
+    **계획된 초대**
 
-    이 방법에서는 Contoso가 게스트 사용자를 Azure AD에 미리 초대 하 고 Power BI 콘텐츠를 배포 합니다. Contoso는 Azure Portal 또는 PowerShell을 사용 하 여 게스트 사용자를 초대할 수 있습니다. Azure Portal에서 게스트 사용자를 초대 하는 단계는 다음과 같습니다.
+    이 방법에서는 Contoso가 게스트 사용자를 Azure AD에 미리 초대하고 Power BI 콘텐츠를 배포합니다. Contoso는 Azure Portal 또는 PowerShell을 사용하여 게스트 사용자를 초대할 수 있습니다. Azure Portal에서 게스트 사용자를 초대하는 단계는 다음과 같습니다.
 
-    - Contoso의 Azure AD 관리자는 **모든 사용자 > 새 게스트 사용자 > > 사용자 및 그룹을 Azure Portal > Azure Active Directory** 으로 이동 합니다.
+    - Contoso의 Azure AD 관리자는 **Azure Portal > Azure Active Directory > 사용자 및 그룹 > 모든 사용자 > 새 게스트 사용자**로 이동합니다.
 
     ![게스트 사용자](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_15.png)
 
 
-    - 게스트 사용자에 대 한 초대 메시지를 추가 하 고 초대를 클릭 합니다.
+    - 게스트 사용자에 대한 초대 메시지를 추가하고 초대를 클릭합니다.
 
     ![초대 추가](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_16.png)
 
 
     > [!NOTE]
-    > Azure Portal에서 게스트 사용자를 초대 하려면 테 넌 트의 Azure Active Directory에 대 한 관리자 권한이 필요 합니다.
+    > Azure Portal에서 게스트 사용자를 초대하려면 테넌트의 Azure Active Directory에 대한 관리자 권한이 필요합니다.
 
-    Contoso에서 많은 게스트 사용자를 초대 하려는 경우 PowerShell을 사용 하 여이 작업을 수행할 수 있습니다. Contoso의 Azure AD 관리자는 모든 게스트 사용자의 메일 주소를 CSV 파일에 저장 합니다. [AZURE ACTIVE DIRECTORY B2B 공동 작업 코드 및 PowerShell 샘플](https://docs.microsoft.com/azure/active-directory/b2b/code-samples) 및 지침은 다음과 같습니다.
+    Contoso에서 많은 게스트 사용자를 초대하려는 경우 PowerShell을 사용하여 이 작업을 수행할 수 있습니다. Contoso의 Azure AD 관리자는 모든 게스트 사용자의 메일 주소를 CSV 파일에 저장합니다. [Azure Active Directory B2B 공동 작업 코드 및 PowerShell 샘플](https://docs.microsoft.com/azure/active-directory/b2b/code-samples) 및 지침은 다음과 같습니다.
 
-    초대 후에 게스트 사용자는 초대 링크를 포함 하는 전자 메일을 받게 됩니다.
+    초대 후에 게스트 사용자는 초대 링크를 포함하는 전자 메일을 받게 됩니다.
 
     ![초대 링크](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_17.png)
 
 
-    게스트 사용자가 링크를 클릭 하면 Contoso Azure AD 테 넌 트의 콘텐츠에 액세스할 수 있습니다.
+    게스트 사용자가 링크를 클릭하면 Contoso Azure AD 테넌트의 콘텐츠에 액세스할 수 있습니다.
 
     > [!NOTE]
-    > [여기](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email)에 설명 된 대로 Azure AD 브랜딩 기능을 사용 하 여 초대 전자 메일의 레이아웃을 변경할 수 있습니다.
+    > [여기](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email)에 설명 된 대로 Azure AD 브랜딩 기능을 사용하여 초대 전자 메일의 레이아웃을 변경할 수 있습니다.
 
 
     **임시 초대**
 
-    Contoso가 미리 초대 하려는 게스트 사용자를 모두 알지 못하는 경우는 어떻게 되나요? 또는 BI 포털을 만든 Contoso의 분석가가 게스트 사용자에 게 콘텐츠를 배포 하려는 경우 어떻게 되나요? 또한 임시 초대와 Power BI에서이 시나리오를 지원 합니다.
+    Contoso가 미리 초대 하려는 게스트 사용자를 모두 알지 못하는 경우는 어떻게 되나요? 또는 BI 포털을 만든 Contoso의 분석가가 게스트 사용자에게 콘텐츠를 배포하려는 경우 어떻게 되나요? 또한 임시 초대를 사용하여 Power BI에서 이 시나리오를 지원 합니다.
 
-    분석가가 게시할 때 앱의 액세스 목록에 외부 사용자를 추가 하기만 하면 됩니다. 게스트 사용자는 초대를 받고 수락 되 면 자동으로 Power BI 내용으로 리디렉션됩니다.
+    분석가가 게시할 때 앱의 액세스 목록에 외부 사용자를 추가하기만 하면 됩니다. 게스트 사용자는 초대를 받고 수락되면 자동으로 Power BI 내용으로 리디렉션됩니다.
 
     ![외부 사용자 추가](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_18.png)
 
 
     > [!NOTE]
-    > 초대는 외부 사용자를 조직에 처음 초대할 때만 필요 합니다.
+    > 초대는 외부 사용자를 조직에 처음 초대할 때만 필요합니다.
 
 
 3. 콘텐츠 배포
 
-    이제 Contoso의 BI 팀이 BI 포털 및 초대 된 게스트 사용자를 만들었으므로 게스트 사용자에 게 앱에 대 한 액세스 권한을 부여 하 고 게시 하 여 최종 사용자에 게 포털을 배포할 수 있습니다. Power BI 이전에 Contoso 테 넌 트에 추가 된 게스트 사용자의 이름을 자동으로 완성 합니다. 이 시점에서 다른 게스트 사용자에 대 한 임시 초대를 추가할 수도 있습니다.
+    이제 Contoso의 BI 팀이 BI 포털 및 초대된 게스트 사용자를 만들었으므로 게스트 사용자에게 앱에 대한 액세스 권한을 부여하고 게시하여 최종 사용자에게 포털을 배포할 수 있습니다. Power BI 이전에 Contoso 테넌트에 추가된 게스트 사용자의 이름을 자동으로 완성합니다. 이 시점에서 다른 게스트 사용자에 대한 임시 초대를 추가할 수도 있습니다.
 
     > [!NOTE]
-    > 보안 그룹을 사용 하 여 외부 사용자에 대 한 앱 액세스를 관리 하는 경우 계획 된 초대 방법을 사용 하 고 액세스 해야 하는 각 외부 사용자와 직접 앱 링크를 공유 합니다. 그렇지 않으면 외부 사용자가 앱 내에서 콘텐츠를 설치 하거나 볼 수 없습니다.
+    > 보안 그룹을 사용하여 외부 사용자에 대한 앱 액세스를 관리하는 경우 계획된 초대 방법을 사용하고 액세스해야 하는 각 외부 사용자와 직접 앱 링크를 공유합니다. 그렇지 않으면 외부 사용자가 앱 내에서 콘텐츠를 설치하거나 볼 수 없습니다.
 
-    게스트 사용자는 앱에 대 한 링크가 포함 된 전자 메일을 받습니다.
+    게스트 사용자는 앱에 대한 링크가 포함된 전자 메일을 받습니다.
 
     ![전자 메일 초대 링크](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_19.png)
 
 
-    이 링크를 클릭 하면 게스트 사용자에 게 자신의 조직의 id를 사용 하 여 인증 하 라는 메시지가 표시 됩니다.
+    이 링크를 클릭하면 게스트 사용자에게 자신의 조직의 ID를 사용하여 인증하라는 메시지가 표시됩니다.
 
     ![로그인 페이지](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_20.png)
 
 
-    성공적으로 인증 되 면 Contoso의 BI 앱으로 리디렉션됩니다.
+    성공적으로 인증되면 Contoso의 BI 앱으로 리디렉션됩니다.
 
     ![공유 콘텐츠 참조](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_21.png)
 
-    그러면 게스트 사용자는 전자 메일의 링크를 클릭 하거나 링크를 책갈피를 클릭 하 여 Contoso의 앱에 액세스할 수 있습니다. 또한 Contoso는 게스트 사용자가 이미 사용 하 고 있는 기존 엑스트라넷 포털에이 링크를 추가 하 여 게스트 사용자에 게 더 쉽게 사용할 수 있습니다.
+    그러면 게스트 사용자는 전자 메일의 링크를 클릭 하거나 링크를 북마크하여 Contoso의 앱에 액세스할 수 있습니다. 또한 Contoso는 게스트 사용자가 이미 사용하고 있는 기존 엑스트라넷 포털에 이 링크를 추가하여 게스트 사용자에게 더 쉽게 사용할 수 있습니다.
 
 4. 다음 단계
 
-    Contoso는 Power BI 앱과 Azure AD B2B를 사용 하 여 코드를 사용 하지 않는 방식으로 공급자를 위한 BI 포털을 신속 하 게 만들 수 있었습니다. 따라서 표준화 된 분석을 필요한 모든 공급 업체에 배포 하는 것이 매우 간소화 되었습니다.
+    Contoso는 Power BI 앱과 Azure AD B2B를 사용하여 코드를 사용하지 않는 방식으로 공급자를 위한 BI 포털을 신속하게 만들 수 있었습니다. 따라서 표준화된 분석을 필요한 모든 공급 업체에 배포하는 것이 매우 간소화 되었습니다.
 
-    예제에서는 단일 공통 보고서를 공급자 간에 분산 하는 방법을 보여 주었습니다. Power BI는 훨씬 더 많은 작업이 가능 합니다. 각 파트너와 관련 된 데이터만 볼 수 있도록 행 수준 보안 보고서 및 데이터 모델에 쉽게 추가할 수 있습니다. 이 문서의 뒷부분에 나오는 외부 파트너에 대 한 데이터 보안 섹션에서는이 프로세스에 대해 자세히 설명 합니다.
+    예제에서는 단일 공통 보고서를 공급자 간에 분산 하는 방법을 보여 주었습니다. Power BI는 훨씬 더 많은 작업이 가능 합니다. 각 파트너와 관련된 데이터만 볼 수 있도록 행 수준 보안 보고서 및 데이터 모델에 쉽게 추가할 수 있습니다. 이 문서의 뒷부분에 나오는 외부 파트너에 대한 데이터 보안 섹션에서는 이 프로세스에 대해 자세히 설명 합니다.
 
-    일반적으로 개별 보고서와 대시보드를 기존 포털에 포함 해야 합니다. 이를 통해 예제에 표시 된 많은 기술을 다시 사용할 수도 있습니다. 그러나 이러한 상황에서는 작업 영역에서 보고서 또는 대시보드를 직접 포함 하는 것이 더 쉬울 수 있습니다. 사용자에 게 보안 권한을 초대 하 고 할당 하는 프로세스는 동일 하 게 유지 됩니다.
+    일반적으로 개별 보고서와 대시보드를 기존 포털에 포함해야 합니다. 이를 통해 예제에 표시된 많은 기술을 다시 사용할 수도 있습니다. 그러나 이러한 상황에서는 작업 영역에서 보고서 또는 대시보드를 직접 포함하는 것이 더 쉬울 수 있습니다. 사용자에게 보안 권한을 초대하고 할당하는 프로세스는 동일하게 유지 됩니다.
 
 ## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>Supplier1에서 어떻게 루시가 Contoso 테 넌 트의 콘텐츠 Power BI에 액세스할 수 있나요?
 
