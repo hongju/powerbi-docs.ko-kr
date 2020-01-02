@@ -92,7 +92,7 @@ Power BI 서비스(app.powerbi.com)의 대시보드에는 하나 이상의 데�
 
 ### <a name="create-a-qa-visual-by-using-a-suggested-question"></a>제안된 질문을 사용하여 질문 및 답변 시각적 개체 만들기
 
-여기서는 **총 단위 수별 상위 지역 주**를 선택했습니다. Power BI는 최선을 다해 사용할 시각적 개체 유형을 선택합니다. 이 예제에서는 지도입니다.
+여기서는 **top geo states by total units**를 선택했습니다. Power BI는 최선을 다해 사용할 시각적 개체 유형을 선택합니다. 이 예제에서는 지도입니다.
 
 ![질문 및 답변 시각적 개체 지도](media/end-user-q-and-a/power-bi-q-and-a-suggested.png)
 

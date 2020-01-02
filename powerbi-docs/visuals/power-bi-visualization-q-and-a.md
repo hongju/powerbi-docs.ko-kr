@@ -5,14 +5,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2019
+ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 78a74d2d49ac9eabb7d63f467c9838d370d5c314
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9805b98df7f606e61412ca9dee7dc0467a1649a3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870852"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791805"
 ---
 # <a name="introduction-to-power-bi-qa-visual"></a>Power BI 질문 및 답변 시각적 개체 소개
 
@@ -93,6 +93,10 @@ ms.locfileid: "73870852"
 6. 시각적 개체를 세로 막대형 차트로 변경합시다. 
 
     ![질문에 “세로 막대형 차트로”가 추가된 질문 및 답변 시각적 개체](media/power-bi-visualization-q-and-a/power-bi-specify-visual.png)
+
+7.  보고서 페이지에 시각적 개체를 더 추가하고, Q&A 시각적 개체가 해당 페이지의 다른 시각적 개체와 상호 작용하는 방식을 확인합니다. 이 예에서 Q&A 시각적 개체는 꺾은선형 차트를 교차 필터링하고 가로 막대형 차트를 매핑하고 교차 강조 표시했습니다.
+
+    ![막대 하나가 선택된 Q&A 시각적 개체 및 보고서 페이지의 다른 세 개의 시각적 개체에 미치는 영향](media/power-bi-visualization-q-and-a/power-bi-filters.png)
 
 ## <a name="format-and-customize-the-qa-visual"></a>질문 및 답변 시각적 개체에 서식 지정 및 사용자 지정
 서식 창을 사용하고 테마를 적용하여 질문 및 답변 시각적 개체를 사용자 지정할 수 있습니다. 

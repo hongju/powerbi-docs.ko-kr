@@ -41,11 +41,11 @@
               href: visuals/advanced-edit-mode.md
         - name: 방법
           items:
-            - name: 시각적 개체 인증받기
+            - name: Power BI 시각적 개체 인증받기
               href: power-bi-custom-visuals-certified.md
-            - name: AppSource에 사용자 지정 시각적 개체 게시
+            - name: AppSource에 Power BI 시각적 개체 게시하기
               href: office-store.md
-            - name: Power BI에서 R 지원 사용자 지정 시각적 개체 사용
+            - name: Power BI에서 R 지원 Power BI 시각적 개체 사용
               href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: 시각적 개체 상호 작용
               href: visuals/visuals-interactions.md
@@ -69,8 +69,6 @@
               href: visuals/high-contrast-support.md
             - name: 슬라이서 동기화 사용
               href: visuals/enable-sync-slicers.md
-            - name: 드릴다운 지원 추가
-              href: visuals/drill-down-support.md
             - name: Power BI 시각적 개체 문제 해결
               href: power-bi-custom-visuals-troubleshoot.md
         - name: 참조
@@ -85,14 +83,8 @@
               href: visuals/event-service.md
             - name: 정렬
               href: visuals/sort-options.md
-            - name: 지역화
-              href: visuals/localization.md
-            - name: Power BI 시각적 개체 유틸리티
-              items:
-                - name: 대화형 유틸리티
-                  href: visuals/utils-interactivity-selections.md
-                - name: 유틸리티 서식 지정
-                  href: visuals/utils-formatting.md
+            - name: 대화형 유틸리티
+              href: visuals/utils-interactivity-selections.md
         - name: 리소스
           items:
             - name: 개발자 센터

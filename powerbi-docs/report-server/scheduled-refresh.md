@@ -1,19 +1,19 @@
 ---
 title: Power BI Report Server에서 Power BI 보고서 예약된 새로 고침
 description: Power BI 보고서는 다른 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: mblythe
-ms.openlocfilehash: ede44316d9dd188787381b26ee3352af13775c0f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.author: maggies
+ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874007"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699018"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 예약된 새로 고침
 Power BI 보고서에 대해 예약된 새로 고침을 통해 보고서에 대한 데이터를 최신 상태로 유지할 수 있습니다.

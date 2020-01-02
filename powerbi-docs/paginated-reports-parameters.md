@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
-ms.openlocfilehash: d1f23f52f484ec9e141b4870b50cc1b2758709d9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874735"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831171"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 만들기
 
@@ -64,6 +64,6 @@ ms.locfileid: "73874735"
   
 ## <a name="next-steps"></a>다음 단계
 
-Power BI 서비스에서 매개 변수가 표시되는 방법을 확인하려면 [페이지를 매긴 보고서에 대한 매개 변수 보기](paginated-reports-view-parameters.md)를 참조하세요.
+Power BI 서비스에서 매개 변수가 표시되는 방법을 확인하려면 [페이지를 매긴 보고서에 대한 매개 변수 보기](consumer/paginated-reports-view-parameters.md)를 참조하세요.
 
 페이지를 매긴 보고서의 매개 변수에 대한 자세한 내용은 [Power BI 보고서 작성기의 보고서 매개 변수](report-builder-parameters.md)를 참조하세요.

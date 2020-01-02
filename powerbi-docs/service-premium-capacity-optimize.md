@@ -1,8 +1,8 @@
 ---
 title: Microsoft Power BI Premium 용량 최적화
 description: Power BI Premium 용량의 최적화 전략을 설명합니다.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: d2e8ede356ed015c4c35b311ca58d35366324b9a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4d03419105244b7fddafea3b26b69e4f4f5f874c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871905"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958543"
 ---
 # <a name="optimizing-premium-capacities"></a>프리미엄 용량 최적화
 
@@ -268,5 +268,3 @@ Azure 용량에 생성된 작업 영역에 테스트 콘텐츠를 추가하고, 
 > [프리미엄 용량 시나리오](service-premium-capacity-scenarios.md)   
   
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-
-||||||

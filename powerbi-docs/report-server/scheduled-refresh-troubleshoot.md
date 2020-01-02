@@ -1,19 +1,19 @@
 ---
 title: Power BI Report Server에서 예약된 새로 고침 문제 해결
 description: 이 문서에서는 Power BI Report Server에서 예약된 새로 고침의 문제 해결에 사용할 수 있는 리소스를 설명합니다.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
-ms.author: mblythe
-ms.openlocfilehash: 37eb5c0e68a6895ac105cc7f12d3353c04641204
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.author: maggies
+ms.openlocfilehash: dd7d6a140dd9828a188f22144e31ea89e342c370
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874044"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698696"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server에서 예약된 새로 고침 문제 해결
 이 문서에서는 Power BI Report Server에서 예약된 새로 고침의 문제 해결에 사용할 수 있는 리소스를 설명합니다.

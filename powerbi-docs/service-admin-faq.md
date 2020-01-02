@@ -1,20 +1,20 @@
 ---
 title: Power BI 관리 - 질문과 대답(FAQ)
 description: Power BI 등록, 테넌트 관리 및 기타 관리 작업에 대해 자주 묻는 질문에 대한 답변을 알아봅니다.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 711646009fe79e145a3ab756266a442243c1116e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0c9d346017dc3b18abd6a56d0d3a62e1305e6575
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73857823"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698742"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -83,7 +83,7 @@ Microsoft 365 관리자는 [Power BI 웹 사이트](https://powerbi.microsoft.co
 
 Microsoft 365 전역 관리자는 사용자가 기존 Microsoft 365 테넌트에 가입하지 못하도록 특정 단계를 수행할 수 있습니다. 액세스를 차단하는 경우, 사용자의 가입 시도는 실패하게 되고, 조직의 관리자에게 문의하라는 메시지가 나타납니다. 자동 라이선스 배포(예: 학생, 교수 및 교직원용 Office 365 Education 사용)를 이미 사용하지 않도록 설정한 경우에는 이 프로세스를 반복할 필요가 없습니다.
 
-다음 PowerShell 스크립트를 사용하여 새 사용자가 관리되는 테넌트에 가입할 수 있도록 합니다. [PowerShell에 대해 자세히 알아보세요][1].
+다음 PowerShell 스크립트를 사용하여 새 사용자가 관리되는 테넌트에 가입할 수 없게 합니다. [PowerShell에 대해 자세히 알아보세요][1].
 
 ```powershell
 $msolcred = get-credential

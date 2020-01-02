@@ -56,6 +56,8 @@
               href: end-user-interactions.md
             - name: PDF로 보고서 내보내기
               href: end-user-pdf.md
+            - name: 보고서를 PowerPoint로 내보내기
+              href: end-user-powerpoint.md
             - name: 보고서에 책갈피 추가
               href: end-user-bookmarks.md
             - name: Power BI의 페이지를 매긴 보고서

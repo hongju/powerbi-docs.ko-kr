@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 35f50f57f3874bbb87fcdd5fbcf7da987fea1d1a
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565718"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831165"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium의 페이지를 매긴 보고서란?(미리 보기)
 
@@ -70,7 +70,7 @@ ms.locfileid: "74565718"
 
 이제 Power BI 서비스에서 페이지를 매긴 보고서에 대한 나 또는 다른 사용자의 전자 메일 구독을 설정할 수 있습니다. 일반적으로 프로세스는 Power BI 서비스에서의 보고서 및 대시보드 구독과 같습니다. 구독을 설정하면 전자 메일 수신 빈도를 선택할 수 있습니다: 매일, 매주 또는 매시간. 구독에는 전체 보고서 출력의 PDF 첨부 파일이 포함됩니다.
 
-자세한 내용은 [자신 및 다른 사람이 Power BI 서비스에서 페이지를 매긴 보고서 구독하기](paginated-reports-subscriptions.md) 문서를 참조합니다. 
+자세한 내용은 [자신 및 다른 사람이 Power BI 서비스에서 페이지를 매긴 보고서 구독하기](consumer/paginated-reports-subscriptions.md) 문서를 참조합니다. 
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 

@@ -1,20 +1,20 @@
 ---
 title: Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ
 description: Power BI 서비스가 고가용성을 제공하고 비즈니스 연속성 및 재해 복구를 사용자에게 제공하는 방법을 이해합니다.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: dd2c94b490cdf31bd383c7100b9a1bc372f8e75f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 24867d231cca0135c09119f4b885b393cb2b8dd8
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873673"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699064"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ
 

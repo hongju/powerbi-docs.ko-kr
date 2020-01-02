@@ -2,17 +2,17 @@
 title: 포함 파일
 description: 포함 파일
 services: powerbi
-author: mgblythe
+author: davidiseminger
 ms.service: powerbi
 ms.topic: include
 ms.date: 05/31/2019
-ms.author: mblythe
-ms.openlocfilehash: 94b6959b6bcbf250e54a353e8b725b6c9e5a2e30
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.author: davidi
+ms.openlocfilehash: eec30d11c1bd99271416ab1a3a2dbb581687e315
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448374"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698318"
 ---
 ## <a name="single-sign-on"></a>Single Sign-On
 
