@@ -214,7 +214,7 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에게 BI 포털에 대�
 
 1. Power BI에서 BI 포털 만들기
 
-    Contoso에 대한 첫 번째 작업은 Power BI에서 해당 BI 포털을 만드는 것입니다. Contoso의 BI 포털은 여러 내부 및 게스트 사용자가 사용할 수 있도록 하는 용도의 빌드된 대시보드 및 보고서의 컬렉션으로 구성 됩니다. Power BI에서 이 작업을 수행 하는 데 권장되는 방법은 Power BI 앱을 빌드하는 것입니다. [Power BI에서 앱](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)에 대해 자세히 알아보세요.
+    Contoso에 대한 첫 번째 작업은 Power BI에서 해당 BI 포털을 만드는 것입니다. Contoso의 BI 포털은 여러 내부 및 게스트 사용자가 사용할 수 있도록 하는 용도의 빌드된 대시보드 및 보고서의 컬렉션으로 구성됩니다. Power BI에서 이 작업을 수행하는 데 권장되는 방법은 Power BI 앱을 빌드하는 것입니다. [Power BI의 앱](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)에 대해 자세히 알아보세요.
 
 - Contoso의 BI 팀은 Power BI에 작업 영역을 만듭니다.
 
@@ -242,9 +242,9 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에게 BI 포털에 대�
 
     **계획된 초대**
 
-    이 방법에서는 Contoso가 게스트 사용자를 Azure AD에 미리 초대하고 Power BI 콘텐츠를 배포 합니다. Contoso는 Azure Portal 또는 PowerShell을 사용하여 게스트 사용자를 초대할 수 있습니다. Azure Portal에서 게스트 사용자를 초대하는 단계는 다음과 같습니다.
+    이 방법에서는 Contoso가 게스트 사용자를 Azure AD에 미리 초대하고 Power BI 콘텐츠를 배포합니다. Contoso는 Azure Portal 또는 PowerShell을 사용하여 게스트 사용자를 초대할 수 있습니다. Azure Portal에서 게스트 사용자를 초대하는 단계는 다음과 같습니다.
 
-    - Contoso의 Azure AD 관리자는 **Azure Portal > Azure Active Directory > 사용자 및 그룹 > 모든 사용자 > 새 게스트 사용자** 로 이동 합니다.
+    - Contoso의 Azure AD 관리자는 **Azure Portal > Azure Active Directory > 사용자 및 그룹 > 모든 사용자 > 새 게스트 사용자**로 이동합니다.
 
     ![게스트 사용자](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_15.png)
 
@@ -257,14 +257,14 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에게 BI 포털에 대�
     > [!NOTE]
     > Azure Portal에서 게스트 사용자를 초대하려면 테넌트의 Azure Active Directory에 대한 관리자 권한이 필요합니다.
 
-    Contoso에서 많은 게스트 사용자를 초대하려는 경우 PowerShell을 사용하여 이 작업을 수행할 수 있습니다. Contoso의 Azure AD 관리자는 모든 게스트 사용자의 메일 주소를 CSV 파일에 저장 합니다. [Azure Active Directory B2B 공동 작업 코드 및 PowerShell 샘플](https://docs.microsoft.com/azure/active-directory/b2b/code-samples) 및 지침은 다음과 같습니다.
+    Contoso에서 많은 게스트 사용자를 초대하려는 경우 PowerShell을 사용하여 이 작업을 수행할 수 있습니다. Contoso의 Azure AD 관리자는 모든 게스트 사용자의 메일 주소를 CSV 파일에 저장합니다. [Azure Active Directory B2B 공동 작업 코드 및 PowerShell 샘플](https://docs.microsoft.com/azure/active-directory/b2b/code-samples) 및 지침은 다음과 같습니다.
 
     초대 후에 게스트 사용자는 초대 링크를 포함하는 전자 메일을 받게 됩니다.
 
     ![초대 링크](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_17.png)
 
 
-    게스트 사용자가 링크를 클릭 하면 Contoso Azure AD 테넌트의 콘텐츠에 액세스할 수 있습니다.
+    게스트 사용자가 링크를 클릭하면 Contoso Azure AD 테넌트의 콘텐츠에 액세스할 수 있습니다.
 
     > [!NOTE]
     > [여기](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email)에 설명 된 대로 Azure AD 브랜딩 기능을 사용하여 초대 전자 메일의 레이아웃을 변경할 수 있습니다.
