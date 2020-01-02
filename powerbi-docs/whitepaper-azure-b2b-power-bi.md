@@ -379,7 +379,7 @@ Power BI의 가장 강력한 기능 중 하나는 행 수준 보안입니다. �
 Azure AD B2B와의 통합을 통해 Contoso는 Contoso 테 넌 트에 초대 되는 즉시 게스트 사용자에 게 행 수준 보안 규칙을 할당할 수 있습니다. Power BI 앞서 살펴본 것 처럼 Contoso는 계획 된 또는 임시 초대를 통해 게스트 사용자를 추가할 수 있습니다. Contoso에서 행 수준 보안을 적용 하려는 경우 계획 된 초대를 사용 하 여 게스트 사용자를 미리 추가 하 고 콘텐츠를 공유 하기 전에 보안 역할에 할당 하는 것이 좋습니다. Contoso에서 임시 초대를 대신 사용 하는 경우 게스트 사용자가 데이터를 볼 수 없는 짧은 기간이 있을 수 있습니다.
 
 > [!NOTE]
-> 임시 초대를 사용할 때 RLS에 의해 보호 되는 데이터에 액세스 하는 경우 사용자는 받은 전자 메일에서 공유 링크를 열 때 보고서/대시보드가 비어 있거나 손상 된 것을 볼 수 있기 때문에 IT 팀에 대 한 요청이 지원 될 수 있습니다. 따라서이 시나리오에서는 계획 된 초대를 사용 하는 것이 좋습니다. * *
+> 임시 초대를 사용할 때 RLS에 의해 보호되는 데이터에 액세스하는 경우의 이러한 지연으로 인해 사용자가 받은 전자 메일에서 공유 링크를 열 때 보고서/대시보드가 비어 있거나 손상된 것을 보게 되므로 IT 팀에 대한 지원 요청으로 이어질 수 있습니다. 따라서 이 시나리오에서는 계획된 초대를 사용하는 것이 좋습니다.**
 
 예제를 사용하여 이를 살펴보겠습니다.
 
@@ -387,7 +387,7 @@ Azure AD B2B와의 통합을 통해 Contoso는 Contoso 테 넌 트에 초대 되
 
 ![공유 콘텐츠](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_27.png)
 
-Contoso가 연결 된 사용자를 기준으로 데이터를 필터링 할 수 있도록 하려면 Power BI desktop에서 두 개의 역할이 만들어집니다. SalesTerritory "유럽"의 모든 데이터와 "북아메리카"에 대 한 모든 데이터를 필터링 할 수 있습니다.
+Contoso가 연결된 사용자를 기준으로 데이터를 필터링할 수 있도록 하기 위해 Power BI Desktop에서 두 개의 역할이 만들어집니다. 하나는 SalesTerritory "유럽"의 모든 데이터를 필터링하고, 다른 하나는 "북아메리카"의 모든 데이터를 필터링합니다.
 
 ![역할 관리](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_28.png)
 
@@ -399,7 +399,7 @@ Contoso가 연결 된 사용자를 기준으로 데이터를 필터링 할 수 �
 
 ![행 수준 보안](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
 
-이 예에서는 Contoso가 전자 메일 주소 "[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)"를 사용 하는 파트너 조직의 사용자를 유럽 역할에 추가 합니다.
+이 예에서는 Contoso가 전자 메일 주소 "[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)"를 사용하는 파트너 조직의 사용자를 유럽 역할에 추가합니다.
 
 ![행 수준 보안 설정](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_31.png)
 
@@ -417,7 +417,7 @@ Azure AD에서 이를 확인하면 Contoso는 창에 이름이 표시되어 추�
 
 간단히 말해서 동적 행 수준 보안은 Power BI에 연결하는 사용자의 사용자 이름을 기반으로 모델의 데이터를 필터링하여 작동합니다. 사용자 그룹에 대해 여러 역할을 추가하는 대신 모델의 사용자를 정의합니다. 여기서는 패턴에 대해 자세히 설명하지 않습니다. Kasper de Jong은 [Power BI Desktop 동적 보안 참고 자료 시트](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/) 및 [이 백서](https://msdn.microsoft.com/library/jj127437.aspx)에서 행 수준 보안의 모든 특성에 대한 자세한 내용을 제공합니다.
 
-작은 예를 살펴보겠습니다. Contoso는 그룹 별 판매에 대 한 간단한 보고서를 포함 합니다.
+작은 예를 살펴보겠습니다. Contoso에는 그룹별 판매에 대한 간단한 보고서가 있습니다.
 
 ![샘플 콘텐츠](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_34.png)
 
@@ -463,7 +463,7 @@ Power BI는 Contoso에서 온 [-프레미스 데이터 게이트웨이](https://
 
 ![사용자 이름 매핑](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_40.png)
 
-이 방법은 Contoso에 소수의 사용자만 있거나 Contoso가 모든 외부 사용자를 단일 내부 계정에 매핑할 수 있는 경우에 적합 합니다. 각 사용자가 자신의 자격 증명을 요구 하는 보다 복잡 한 시나리오의 경우 [데이터 원본 관리-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)에 설명 된 대로 [사용자 지정 AD 특성](https://technet.microsoft.com/library/cc961737.aspx) 을 사용 하 여 매핑을 수행 하는 고급 방법이 있습니다. 이를 통해 Contoso 관리자는 Azure AD의 모든 사용자 (외부 B2B 사용자)에 대 한 매핑을 정의할 수 있습니다.  이러한 특성은 스크립트 또는 코드를 사용 하 여 AD 개체 모델을 통해 설정할 수 있으므로 Contoso에서 초대 또는 예약 된 흐름에 대 한 매핑을 완전히 자동화할 수 있습니다.
+이 방법은 Contoso에 소수의 사용자만 있거나 Contoso가 모든 외부 사용자를 단일 내부 계정에 매핑할 수 있는 경우에 적합 합니다. 각 사용자가 자신의 자격 증명을 요구하는 보다 복잡한 시나리오의 경우 [데이터 원본 관리-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)에 설명된 대로 [사용자 지정 AD 특성](https://technet.microsoft.com/library/cc961737.aspx)을 사용하여 매핑을 수행 하는 고급 방법이 있습니다. 이를 통해 Contoso 관리자는 Azure AD의 모든 사용자 (외부 B2B 사용자)에 대한 매핑을 정의할 수 있습니다.  이러한 특성은 스크립트 또는 코드를 사용하여 AD 개체 모델을 통해 설정할 수 있으므로 Contoso에서 초대 또는 예약된 흐름에 대한 매핑을 완전히 자동화할 수 있습니다.
 
 ## <a name="enabling-external-users-to-edit-and-manage-content-within-power-bi"></a>외부 사용자가 Power BI 내에서 콘텐츠를 편집 하 고 관리할 수 있도록 설정
 
