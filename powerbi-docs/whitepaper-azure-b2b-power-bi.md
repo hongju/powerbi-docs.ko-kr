@@ -207,7 +207,7 @@ Contoso는 한 공급업체에 대한 라디에이터 안정성 보고서를 만
 
 ## <a name="case-study-building-a-bi-portal-using-power-bi--azure-ad-b2b--step-by-step-instructions"></a>사례 연구: Power BI + Azure AD B2B를 사용 하 여 BI 포털 빌드 – 단계별 지침
 
-Azure AD B2B와의 통합을 통해 게스트 사용자에 게 BI 포털에 대 한 안전한 액세스를 제공 하는 원활 하 고 안전한 방법으로 Contoso를 사용할 수 있습니다. Power BI Contoso는 세 단계로이를 설정할 수 있습니다.
+Azure AD B2B와의 통합을 통해 게스트 사용자에게 BI 포털에 대한 안전한 액세스를 제공하는 원활하고 안전한 방법으로 Contoso를 사용할 수 있습니다. Contoso는 세 단계로이를 설정할 수 있습니다.
 
 ![포털 빌드](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_11.png)
 
