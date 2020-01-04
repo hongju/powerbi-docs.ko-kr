@@ -425,7 +425,7 @@ Azure AD에서 이를 확인하면 Contoso는 창에 이름이 표시되어 추�
 
 ![데이터 자체에 대 한 RLS 사용자 보기](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_35.png)
 
-그런 다음, Contoso는 올바른 관계를 사용 하 여 적절 한 데이터를 필터링 하는 올바른 데이터 모델을 만듭니다.
+그런 다음, Contoso는 올바른 관계를 사용하여 적절한 데이터를 필터링하는 올바른 데이터 모델을 만듭니다.
 
 ![적절 한 데이터가 표시 됨](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_36.png)
 
@@ -447,7 +447,7 @@ Azure AD에서 이를 확인하면 Contoso는 창에 이름이 표시되어 추�
 
 ![표시 되는 모든 데이터](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_39.png)
 
-여기에서 볼 수 있듯이 동적 RLS는 내부 또는 게스트 사용자와 함께 작동 합니다.
+여기에서 볼 수 있듯이 동적 RLS는 내부 또는 게스트 사용자 모두와 함께 작동합니다.
 
 > [!NOTE]
 > 이 시나리오는 Azure Analysis Services에서 모델을 사용 하는 경우에도 작동 합니다. 일반적으로 Azure Analysis Service는 Power BI와 동일한 Azure AD에 연결 되어 있습니다 .이 경우 Azure AD B2B를 통해 초대 된 게스트 사용자도 알고 Azure Analysis Services.
