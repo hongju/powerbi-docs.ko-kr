@@ -102,7 +102,7 @@ Power BI 보고서 편집기는 다음과 같은 몇 개의 주요 섹션으로 
 창의 이 부분에는 [드릴스루](desktop-drillthrough.md) 및 필터 동작을 제어하는 옵션도 있습니다.
 
 ### <a name="format-your-visuals"></a>시각적 개체 서식 지정
-페인트 롤러 아이콘을 선택하여 서식 창을 엽니다. 선택한 시각화의 형식에 따라 사용할 수 있는 옵션이 달라집니다.
+페인트 롤러 아이콘을 선택하여 서식 창을 엽니다. 선택한 시각화의 유형에 따라 사용할 수 있는 옵션이 달라집니다.
 
 ![보고서 편집기의 서식 지정 창](media/service-the-report-editor-take-a-tour/power-bi-visual-pane-format.png)
 
@@ -113,7 +113,7 @@ Power BI 보고서 편집기는 다음과 같은 몇 개의 주요 섹션으로 
 * [X축 및 Y축 속성 사용자 지정](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>시각화에 분석 추가
-분석 창을 표시하려면 돋보기 아이콘을 선택합니다. 선택한 시각화의 형식에 따라 사용할 수 있는 옵션이 달라집니다.
+분석 창을 표시하려면 돋보기 아이콘을 선택합니다. 선택한 시각화의 유형에 따라 사용할 수 있는 옵션이 달라집니다.
 
 ![보고서 편집기의 분석 창](media/service-the-report-editor-take-a-tour/power-bi-visual-pane-analytics.png)
 
