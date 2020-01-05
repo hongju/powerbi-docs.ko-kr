@@ -86,7 +86,7 @@ Power BI 서비스 및 Power BI Desktop 샘플이 제공됩니다. 과정을 따
    
    ![소매점 분석 샘플 데이터 세트 항목](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
    
-1. 데이터 세트를 탐색하는 한 가지 방법은 처음부터 고유한 시각화 및 보고서를 만드는 것입니다. 차트 아이콘 선택 ![차트 아이콘](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) 보고서 편집 모드에서 데이터 세트를 엽니다.
+1. 데이터 세트를 탐색하는 한 가지 방법은 처음부터 고유한 시각화 및 보고서를 만드는 것입니다. 차트 아이콘 ![차트 아이콘](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png)을 선택하여 보고서 편집 모드에서 데이터 세트를 엽니다.
      
    ![새 보고서](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
 
@@ -95,7 +95,7 @@ Power BI 서비스 및 Power BI Desktop 샘플이 제공됩니다. 과정을 따
     ![인사이트 보고서](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
 ## <a name="samples-in-power-bi-desktop"></a>Power BI Desktop의 샘플 
-Power BI Desktop에서 샘플 .pbix 파일을 처음 열 때는 보고서 뷰에 표시되며, 여기서 시각화를 사용하여 보고서 페이지를 탐색하고 만들고 수정할 수 있습니다. Power BI Desktop의 보고서 뷰는 Power BI 서비스의 보고서 편집용 보기와 거의 동일한 디자인 환경을 제공합니다. 시각화를 이동하고, 복사 및 붙여넣고, 병합할 수 있습니다. 
+Power BI Desktop에서 샘플 .pbix 파일을 처음 열 때는 보고서 보기에 표시되며, 여기서 시각화를 사용하여 보고서 페이지를 탐색하고 만들고 수정할 수 있습니다. Power BI Desktop의 보고서 보기는 Power BI 서비스의 보고서 편집용 보기와 거의 동일한 디자인 환경을 제공합니다. 시각화를 이동하고, 복사 및 붙여넣고, 병합할 수 있습니다. 
 
 Power BI 서비스에서 보고서를 편집하는 것과 달리, Power BI Desktop에서는 쿼리를 사용하고 데이터를 모델링하여 데이터가 보고서에서 최상의 인사이트를 지원하도록 할 수 있습니다. 로컬 드라이브든, 클라우드든 관계없이 어디든지 Power BI Desktop 파일을 저장할 수 있습니다.
 
@@ -103,7 +103,7 @@ Power BI 서비스에서 보고서를 편집하는 것과 달리, Power BI Deskt
 
     ![Power BI 보고서 뷰의 샘플](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
-1. 보고서 뷰에서 파일이 열립니다. 보고서 편집기의 맨 아래에 있는 4개의 탭을 확인합니다. 이 탭은 이 보고서의 네 페이지를 나타냅니다. 이 예제에서는 **신규 매장** 페이지가 현재 선택되어 있습니다. 
+1. 보고서 보기에서 파일이 열립니다. 보고서 편집기의 맨 아래에 있는 4개의 탭을 확인합니다. 이 탭은 이 보고서의 네 페이지를 나타냅니다. 이 예제에서는 **신규 매장** 페이지가 현재 선택되어 있습니다. 
 
     ![신규 매장 탭이 강조 표시됨](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
 
@@ -113,15 +113,15 @@ Power BI 서비스에서 보고서를 편집하는 것과 달리, Power BI Deskt
 샘플 .pbix 파일을 다운로드할 때 보고서뿐만 아니라 ‘기본 데이터 세트’도 다운로드했습니다.  파일을 열면 Power BI Desktop에서 연결된 쿼리 및 관계와 함께 데이터를 로드합니다. 기본 데이터와 관계를 볼 수 있지만, 쿼리 편집기에서 기본 쿼리를 볼 수는 없습니다.
 
 
-1. 테이블 아이콘 ![테이블 아이콘](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png)을 선택하여 [데이터 뷰](desktop-data-view.md)로 전환합니다.
+1. 테이블 아이콘 ![테이블 아이콘](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png)을 선택하여 [데이터 보기](desktop-data-view.md)로 전환합니다.
  
     ![데스크톱 데이터 보기](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-sample-data.png)
 
-    데이터 뷰에서 Power BI Desktop 모델의 데이터를 검사, 탐색 및 파악할 수 있습니다. 쿼리 편집기에서 테이블, 열 및 데이터를 보는 것과는 차이가 있습니다. 데이터 뷰의 데이터는 모델에 이미 로드되어 있습니다.
+    데이터 보기에서 Power BI Desktop 모델의 데이터를 검사, 탐색 및 파악할 수 있습니다. 쿼리 편집기에서 테이블, 열 및 데이터를 보는 것과는 차이가 있습니다. 데이터 보기의 데이터는 모델에 이미 로드되어 있습니다.
 
     데이터를 모델링할 때 보고서 캔버스에 시각적 개체를 만들지 않고 테이블의 행과 열에 있는 실제 내용을 보려는 경우도 있습니다. 특히 측정치와 계산된 열을 만들거나, 데이터 형식 또는 데이터 범주를 파악해야 하는 경우가 여기에 해당합니다.
 
-1. 다음 아이콘을 선택하여 [관계 뷰](desktop-relationship-view.md)로 전환합니다. ![관계 뷰 아이콘](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png)
+1. 다음 아이콘을 선택하여 [관계 보기](desktop-relationship-view.md)로 전환합니다. ![관계 뷰 아이콘](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png)
  
     ![Power BI Desktop의 관계 보기](media/sample-tutorial-connect-to-the-samples/power-bi-relationships.png)
 
