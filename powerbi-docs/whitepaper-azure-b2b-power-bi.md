@@ -1,14 +1,10 @@
 ---
-<<<<<<< HEAD
 title: Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 description: Azure Active Directory B2B를 사용 하 여 외부 게스트 사용자에 게 Power BI를 배포 하는 방법을 설명 하는 백서
 ||||||| merged common ancestors
 title: Azure Active Directory B2B를 사용 하 여 외부 게스트 사용자에 게 Power BI 콘텐츠 배포
 description: Azure Active Directory B2B를 사용 하 여 외부 게스트 사용자에 게 Power BI를 배포 하는 방법을 설명 하는 백서
-=======
-title: Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포
-description: Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI를 배포하는 방법을 설명하는 백서
->>>>>>> live
+
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -121,12 +117,11 @@ Power BI는 **외부 게스트 사용자가 조직의 콘텐츠를 편집하고 
 
 ## <a name="organizational-relationships-using-power-bi-and-azure-ad-b2b"></a>Power BI 및 Azure AD B2B를 사용하는 조직 관계
 
-<<<<<<< HEAD
+<<<<<< HEAD
 ## <a name="organizational-relationships-using-power-bi-and-azure-ad-b2b"></a>Power BI 및 Azure AD B2B를 사용하는 조직 관계
 ||||||| merged common ancestors
 ## <a name="organizational-relationships-using-power-bi-and-azure-ad-b2b"></a>Power BI 및 Azure AD B2B를 사용 하는 조직 관계
-=======
->>>>>>> live
+
 
 Power BI의 모든 사용자가 조직 내부에 있는 경우 Azure AD B2B를 사용할 필요가 없습니다. 그러나 두 개 이상의 조직이 데이터 및 통찰력에 대해 공동 작업을 수행하려는 경우 Azure AD B2B에 대한 Power BI의 지원을 활용하면 쉽고 비용 효율적으로 작업할 수 있습니다.
 
@@ -183,51 +178,38 @@ Contoso와 해당 라디에이터 공급자의 관계는 조직 간 직접 공�
 
 두 번째 방법은 데이터에 대한 액세스를 제공하기 위해 관계형 데이터 웨어하우스를 빌드하기 위해 [Azure SQL Database](https://azure.microsoft.com/services/sql-database/)를 활용합니다. 이 방법은 Azure Analysis Services 방법과 유사하게 작동하지만 행 수준 보안과 같은 일부 기능은 자회사에서 배포 및 유지 관리가 어려울 수 있습니다.
 
-<<<<<<< HEAD
 더 복잡한 방법도 가능하지만 위의 내용이 가장 일반적입니다.
 ||||||| merged common ancestors
 더 복잡 한 방법도 가능 하지만 위의 내용이 가장 일반적입니다.
-=======
-더 복잡한 방법도 가능 하지만 위의 내용이 가장 일반적입니다.
->>>>>>> live
+
 
 ### <a name="case-3-shared-environment-across-partners"></a>사례 3: 파트너 간 공유 환경
 
-<<<<<<< HEAD
 Contoso는 경쟁업체와 협력하여 공유 어셈블리 라인에서 자동차를 제작할 수 있지만 다른 브랜드로 또는 다른 지역에 자동차를 공급할 수 있습니다. 이를 위해서는 광범위한 공동 작업을 수행하고 조직 전체에서 데이터, 인텔리전스 및 분석을 공동 소유해야 합니다. 이 구조는 컨설턴트 팀이 클라이언트에 대한 프로젝트 기반 분석을 수행할 수 있는 컨설팅 서비스 업계에서도 일반적으로 사용됩니다.
 ||||||| merged common ancestors
 Contoso는 경쟁 업체와 협력 하 여 공유 어셈블리 라인에 자동차를 구축할 수 있지만 다른 브랜드 또는 다른 지역에 자동차를 분산 시킬 수 있습니다. 이를 위해서는 광범위 한 공동 작업을 수행 하 고 조직 전체에서 데이터, 인텔리전스 및 분석을 공동 소유 해야 합니다. 이 구조는 컨설턴트 팀이 클라이언트에 대 한 프로젝트 기반 분석을 수행할 수 있는 컨설팅 서비스 업계 에서도 일반적으로 사용 됩니다.
-=======
-Contoso는 경쟁 업체와 협력하여 공유 어셈블리 라인에 자동차를 구축할 수 있지만 다른 브랜드 또는 다른 지역에 자동차를 분산 시킬 수 있습니다. 이를 위해서는 광범위한 공동 작업을 수행하고 조직 전체에서 데이터, 인텔리전스 및 분석을 공동 소유 해야 합니다. 이 구조는 컨설턴트 팀이 클라이언트에 대한 프로젝트 기반 분석을 수행할 수 있는 컨설팅 서비스 업계에서도 일반적으로 사용됩니다.
->>>>>>> live
+
 
 ![파트너 간 공유 환경](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_08.png)
 
 
 
-<<<<<<< HEAD
 실제로 이러한 구조는 다음 이미지에 표시된 것과 같이 복잡하고 직원들이 유지 관리해야 합니다. 이 구조를 효과적으로 사용하려면 조직에서 해당 Power BI 테넌트에 대해 구매한 Power BI Pro 라이선스를 다시 사용할 수 있기 때문에 Power BI 콘텐츠 기능의 조직 간 편집 및 관리에 의존합니다.
 ||||||| merged common ancestors
 실제로 이러한 구조는 다음 이미지에 표시 된 것과 같이 복잡 하 고 직원 들이 유지 관리 해야 합니다. 이 구조를 효과적으로 사용 하려면 조직에서 Power BI 해당 하는 테 넌 트에 대해 구매한 라이선스 Power BI Pro를 다시 사용할 수 있기 때문에 Power BI 콘텐츠 기능의 조직 간 편집 및 관리에 의존 합니다.
-=======
-실제로 이러한 구조는 다음 이미지에 표시된 것과 같이 복잡하고 직원들이 유지 관리 해야 합니다. 이 구조를 효과적으로 사용하려면 조직에서 해당 Power BI 테넌트에 대해 구매한 Power BI Pro 라이선스를 다시 사용할 수 있기 때문에 Power BI 콘텐츠 기능의 조직 간 편집 및 관리에 의존합니다.
->>>>>>> live
+
 
 ![라이선스 및 공유 조직 콘텐츠](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_09.png)
 
 
 
-<<<<<<< HEAD
 공유된 Power BI 테넌트를 설정하려면 Azure Active Directory를 만들어야 하고 해당 Active Directory의 사용자에 대해 하나 이상의 Power BI Pro 사용자 계정을 구입해야 합니다. 이 사용자는 공유 조직에 필요한 사용자를 초대합니다. 중요한 점은 이 시나리오에서 Contoso의 사용자는 공유 조직의 Power BI 내에서 작업할 때 외부 사용자로 취급됩니다.
 ||||||| merged common ancestors
 공유 Power BI 테 넌 트를 설정 하려면 Azure Active Directory를 만들어야 하 고 해당 Active Directory의 사용자에 대해 하나 이상의 Power BI Pro 사용자 계정을 구입 해야 합니다. 이 사용자는 공유 조직에 필요한 사용자를 초대 합니다. 중요 한 점은이 시나리오에서 Contoso의 사용자는 공유 조직의 Power BI 내에서 작동할 때 외부 사용자로 취급 됩니다.
-=======
-공유된 Power BI 테넌트를 설정하려면 Azure Active Directory를 만들어야하고 해당 Active Directory의 사용자에 대해 하나 이상의 Power BI Pro 사용자 계정을 구입해야 합니다. 이 사용자는 공유 조직에 필요한 사용자를 초대합니다. 중요한 점은 이 시나리오에서 Contoso의 사용자는 공유 조직의 Power BI 내에서 작동할 때 외부 사용자로 취급됩니다.
->>>>>>> live
+
 
 프로세스는 다음과 같습니다.
 
-<<<<<<< HEAD
 1. 공유 조직은 새 Azure Active Directory로 설정되고 새 조직에서 하나 이상의 사용자 계정이 만들어집니다. 해당 사용자에게 Power BI Pro 라이선스가 할당되어 있어야 합니다.
 2. 그런 다음 이 사용자는 Power BI 테넌트를 설정하고 Contoso와 파트너 조직의 필수 사용자를 초대합니다. 또한 사용자는 Azure Analysis Services와 같은 공유 데이터 자산을 설정합니다. Contoso와 파트너 사용자는 게스트 사용자로 공유 조직의 Power BI에 액세스할 수 있습니다. Power BI에서 콘텐츠를 편집하고 관리할 수 있는 경우 외부 사용자는 Power BI 홈을 사용하고, 작업 영역을 사용하거나, 콘텐츠를 업로드하거나 편집하고, 보고서를 공유할 수 있습니다. 일반적으로 모든 공유 자산은 저장되고 공유 조직에서 액세스됩니다.
 3. 당사자가 공동 작업에 동의하는 방법에 따라, 각 조직은 공유 데이터 웨어하우스 자산을 사용하여 고유한 소유 데이터 및 분석을 개발할 수 있습니다. 내부 Power BI 테넌트를 사용하여 해당 내부 사용자에게 배포할 수 있습니다.
@@ -235,50 +217,34 @@ Contoso는 경쟁 업체와 협력하여 공유 어셈블리 라인에 자동차
 1. 공유 조직은 새 Azure Active Directory 설정 되 고 새 조직에서 하나 이상의 사용자 계정이 만들어집니다. 해당 사용자에 게 Power BI Pro 라이선스가 할당 되어 있어야 합니다.
 2. 그런 다음이 사용자는 Power BI 테 넌 트를 설정 하 고 Contoso와 파트너 조직의 필수 사용자를 초대 합니다. 또한 사용자는 Azure Analysis Services 같은 공유 데이터 자산을 설정 합니다. Contoso와 파트너 사용자는 게스트 사용자로 공유 조직의 Power BI에 액세스할 수 있습니다. Power BI에서 콘텐츠를 편집 하 고 관리할 수 있는 경우 외부 사용자는 Power BI 홈을 사용 하 고, 작업 영역을 사용 하거나, 콘텐츠를 업로드 하거나 편집 하 고, 보고서를 공유할 수 있습니다. 일반적으로 모든 공유 자산은 공유 조직에서 저장 되 고 액세스 됩니다.
 3. 당사자가 공동 작업에 동의 하는 방법에 따라, 각 조직은 공유 데이터 웨어하우스 자산을 사용 하 여 고유한 소유 데이터 및 분석을 개발할 수 있습니다. 내부 Power BI 테 넌 트를 사용 하 여 해당 내부 사용자에 게 배포할 수 있습니다.
-=======
-1. 공유 조직은 새 Azure Active Directory가 설정되고 새 조직에서 하나 이상의 사용자 계정이 만들어집니다. 해당 사용자에게 Power BI Pro 라이선스가 할당 되어 있어야 합니다.
-2. 그런 다음 이 사용자는 Power BI 테넌트를 설정하고 Contoso와 파트너 조직의 필수 사용자를 초대합니다. 또한 사용자는 Azure Analysis Services 같은 공유 데이터 자산을 설정합니다. Contoso와 파트너 사용자는 게스트 사용자로 공유 조직의 Power BI에 액세스할 수 있습니다. Power BI에서 콘텐츠를 편집하고 관리할 수 있는 경우 외부 사용자는 Power BI 홈을 사용하고, 작업 영역을 사용하거나, 콘텐츠를 업로드하거나 편집하고, 보고서를 공유할 수 있습니다. 일반적으로 모든 공유 자산은 공유 조직에서 저장되고 액세스 됩니다.
-3. 당사자가 공동 작업에 동의하는 방법에 따라, 각 조직은 공유 데이터 웨어하우스 자산을 사용하여 고유한 소유 데이터 및 분석을 개발할 수 있습니다. 내부 Power BI 테넌트를 사용하여 해당 내부 사용자에게 배포할 수 있습니다.
->>>>>>> live
+
 
 ### <a name="case-4-distribution-to-hundreds-or-thousands-of-external-partners"></a>사례 4: 수백 또는 수천 개의 외부 파트너에 배포
 
-<<<<<<< HEAD
 Contoso는 한 공급업체에 대한 라디에이터 안정성 보고서를 만들었으므로 이제 Contoso는 수백 개의 공급업체에 대해 표준화된 보고서 집합을 만들려고 합니다. 이를 통해 Contoso는 모든 공급업체가 개선하거나 제조 결함을 수정하는 데 필요한 분석을 수행할 수 있도록 합니다.
 ||||||| merged common ancestors
 Contoso는 한 공급 업체에 대 한 radiator 안정성 보고서를 만들었으므로 이제 Contoso는 수백 개의 공급자에 대해 표준화 된 보고서 집합을 만들려고 합니다. 이를 통해 Contoso는 모든 공급 업체가 개선 하거나 제조 결함을 수정 하는 데 필요한 분석을 수행할 수 있도록 합니다.
-=======
-Contoso는 한 공급 업체에 대한 radiator 안정성 보고서를 만들었으므로 이제 Contoso는 수백 개의 공급자에 대해 표준화된 보고서 집합을 만들려고 합니다. 이를 통해 Contoso는 모든 공급 업체가 개선 하거나 제조 결함을 수정하는 데 필요한 분석을 수행할 수 있도록 합니다.
->>>>>>> live
+
 
 ![여러 파트너에 게 배포](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_10.png)
 
 
-<<<<<<< HEAD
 조직에서 표준화 된 데이터 및 정보를 많은 외부 사용자/조직에 배포 해야 하는 경우 Power BI Apps 시나리오의 임시 또는 계획 된 공유를 사용 하 여 포괄적인 개발 비용 없이 BI 포털을 신속 하 게 빌드할 수 있습니다. Power BI 앱을 사용 하 여 이러한 포털을 빌드하는 프로세스는 사례 연구에 설명 되어 있습니다. Power BI + Azure AD B2B를 사용 하 여 BI 포털 빌드 –이 문서의 뒷부분에서 단계별 지침을 참조 하세요.
 ||||||| merged common ancestors
 조직에서 표준화 된 데이터 및 정보를 많은 외부 사용자/조직에 배포 해야 하는 경우 Power BI Apps 시나리오의 임시 또는 계획 된 공유를 사용 하 여 포괄적인 개발 비용 없이 BI 포털을 신속 하 게 빌드할 수 있습니다. Power BI 앱을 사용 하 여 이러한 포털을 빌드하는 프로세스는 사례 연구: Power BI + Azure AD B2B를 사용 하 여 BI 포털 빌드-이 문서 뒷부분에 나오는 단계별 지침을 설명 합니다.
-=======
-조직에서 표준화된 데이터 및 정보를 많은 외부 사용자/조직에 배포 해야 하는 경우 Power BI Apps 시나리오의 임시 또는 계획된 공유를 사용하여 포괄적인 개발 비용 없이 BI 포털을 신속하게 빌드할 수 있습니다. Power BI 앱을 사용하여 이러한 포털을 빌드하는 프로세스는 이 문서 뒷부분에 나오는 사례 연구: Power BI + Azure AD B2B를 사용하여 BI 포털 빌드-단계별 지침에서 설명합니다.
->>>>>>> live
 
-<<<<<<< HEAD
+
 이 경우의 일반적인 변형은 특히 Power BI와 함께 Azure B2C를 사용하려는 경우 조직이 소비자와 정보를 공유하려고 하는 경우입니다. Power BI는 기본적으로 Azure B2C을 지원하지 않습니다. 이 사례에 대한 옵션을 평가하는 경우 이 문서의 뒷부분에 나오는 일반적인 대체 방법 섹션의 대체 옵션 2를 사용하는 것이 좋습니다.
 ||||||| merged common ancestors
 이 경우의 일반적인 변형은 특히 Power BI와 함께 Azure B2C를 사용 하려는 경우 조직이 소비자와 정보를 공유 하려고 하는 경우입니다. Power BI는 기본적으로 Azure B2C을 지원 하지 않습니다. 이 사례에 대 한 옵션을 평가 하는 경우이 문서의 뒷부분에 나오는 일반적인 대체 방법 섹션에서 대체 옵션 2를 사용 하는 것이 좋습니다.
-=======
-이 경우의 일반적인 변형은 특히 Power BI와 함께 Azure B2C를 사용 하려는 경우 조직이 소비자와 정보를 공유하려고 하는 경우입니다. Power BI는 기본적으로 Azure B2C을 지원 하지 않습니다. 이 사례에 대한 옵션을 평가 하는 경우 이 문서의 뒷부분에 나오는 일반적인 대체 방법 섹션에서 대체 옵션 2를 사용 하는 것이 좋습니다.
->>>>>>> live
+
 
 ## <a name="case-study-building-a-bi-portal-using-power-bi--azure-ad-b2b--step-by-step-instructions"></a>사례 연구: Power BI + Azure AD B2B를 사용 하 여 BI 포털 빌드 – 단계별 지침
 
-<<<<<<< HEAD
 Azure AD B2B와의 통합을 통해 게스트 사용자에게 BI 포털에 대한 안전한 액세스를 제공하는 원활하고 안전한 방법으로 Contoso를 사용할 수 있습니다. Contoso는 세 단계로이를 설정할 수 있습니다.
 ||||||| merged common ancestors
 Azure AD B2B와의 통합을 통해 게스트 사용자에 게 BI 포털에 대 한 안전한 액세스를 제공 하는 원활 하 고 안전한 방법으로 Contoso를 사용할 수 있습니다. Power BI Contoso는 세 단계로이를 설정할 수 있습니다.
-=======
-Azure AD B2B와의 통합을 통해 게스트 사용자에게 BI 포털에 대한 안전한 액세스를 제공하는 원활하고 안전한 방법으로 Contoso를 사용할 수 있습니다. Power BI Contoso는 세 단계로 이를 설정할 수 있습니다.
->>>>>>> live
+
 
 ![포털 빌드](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_11.png)
 
@@ -338,32 +304,23 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에게 BI 포털에 대�
     게스트 사용자가 링크를 클릭하면 Contoso Azure AD 테넌트의 콘텐츠에 액세스할 수 있습니다.
 
     > [!NOTE]
-<<<<<<< HEAD
     > [여기](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email)에 설명된 대로 Azure AD 브랜딩 기능을 사용하여 초대 전자 메일의 레이아웃을 변경할 수 있습니다.
 ||||||| merged common ancestors
     > [여기](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email)에 설명 된 대로 Azure AD 브랜딩 기능을 사용 하 여 초대 전자 메일의 레이아웃을 변경할 수 있습니다.
-=======
-    > [여기](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email)에 설명 된 대로 Azure AD 브랜딩 기능을 사용하여 초대 전자 메일의 레이아웃을 변경할 수 있습니다.
->>>>>>> live
+
 
 
     **임시 초대**
 
-<<<<<<< HEAD
     Contoso가 미리 초대하려는 게스트 사용자를 모두 알지 못하는 경우는 어떻게 되나요? 또는 BI 포털을 만든 Contoso의 분석가가 게스트 사용자에게 직접 콘텐츠를 배포하려는 경우 어떻게 되나요? Power BI에서는 임시 초대를 사용하여 이 시나리오도 지원합니다.
 ||||||| merged common ancestors
     Contoso가 미리 초대 하려는 게스트 사용자를 모두 알지 못하는 경우는 어떻게 되나요? 또는 BI 포털을 만든 Contoso의 분석가가 게스트 사용자에 게 콘텐츠를 배포 하려는 경우 어떻게 되나요? 또한 임시 초대와 Power BI에서이 시나리오를 지원 합니다.
-=======
-    Contoso가 미리 초대 하려는 게스트 사용자를 모두 알지 못하는 경우는 어떻게 되나요? 또는 BI 포털을 만든 Contoso의 분석가가 게스트 사용자에게 콘텐츠를 배포하려는 경우 어떻게 되나요? 또한 임시 초대를 사용하여 Power BI에서 이 시나리오를 지원 합니다.
->>>>>>> live
 
-<<<<<<< HEAD
+
     분석가가 게시할 때 앱의 액세스 목록에 외부 사용자를 추가하기만 하면 됩니다. 게스트 사용자는 초대를 받고 수락되면 자동으로 Power BI 콘텐츠로 리디렉션됩니다.
 ||||||| merged common ancestors
     분석가가 게시할 때 앱의 액세스 목록에 외부 사용자를 추가 하기만 하면 됩니다. 게스트 사용자는 초대를 받고 수락 되 면 자동으로 Power BI 내용으로 리디렉션됩니다.
-=======
-    분석가가 게시할 때 앱의 액세스 목록에 외부 사용자를 추가하기만 하면 됩니다. 게스트 사용자는 초대를 받고 수락되면 자동으로 Power BI 내용으로 리디렉션됩니다.
->>>>>>> live
+
 
     ![외부 사용자 추가](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_18.png)
 
@@ -393,35 +350,26 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에게 BI 포털에 대�
 
     ![공유 콘텐츠 참조](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_21.png)
 
-<<<<<<< HEAD
     그러면 게스트 사용자는 전자 메일의 링크를 클릭하거나 링크를 북마크하여 Contoso의 앱에 액세스할 수 있습니다. 또한 Contoso는 게스트 사용자가 이미 사용하고 있는 기존 엑스트라넷 포털에 이 링크를 추가하여 게스트 사용자가 더 쉽게 사용하게 할 수 있습니다.
 ||||||| merged common ancestors
     그러면 게스트 사용자는 전자 메일의 링크를 클릭 하거나 링크를 책갈피를 클릭 하 여 Contoso의 앱에 액세스할 수 있습니다. 또한 Contoso는 게스트 사용자가 이미 사용 하 고 있는 기존 엑스트라넷 포털에이 링크를 추가 하 여 게스트 사용자에 게 더 쉽게 사용할 수 있습니다.
-=======
-    그러면 게스트 사용자는 전자 메일의 링크를 클릭 하거나 링크를 북마크하여 Contoso의 앱에 액세스할 수 있습니다. 또한 Contoso는 게스트 사용자가 이미 사용하고 있는 기존 엑스트라넷 포털에 이 링크를 추가하여 게스트 사용자에게 더 쉽게 사용할 수 있습니다.
->>>>>>> live
+
 
 4. 다음 단계
 
-<<<<<<< HEAD
     Contoso는 Power BI 앱과 Azure AD B2B를 사용하여 코드를 사용하지 않는 방식으로 공급자를 위한 BI 포털을 신속하게 만들 수 있었습니다. 따라서 표준화된 분석을 필요한 모든 공급업체에 배포하는 것이 매우 간소화되었습니다.
 ||||||| merged common ancestors
     Contoso는 Power BI 앱과 Azure AD B2B를 사용 하 여 코드를 사용 하지 않는 방식으로 공급자를 위한 BI 포털을 신속 하 게 만들 수 있었습니다. 따라서 표준화 된 분석을 필요한 모든 공급 업체에 배포 하는 것이 매우 간소화 되었습니다.
-=======
-    Contoso는 Power BI 앱과 Azure AD B2B를 사용하여 코드를 사용하지 않는 방식으로 공급자를 위한 BI 포털을 신속하게 만들 수 있었습니다. 따라서 표준화된 분석을 필요한 모든 공급 업체에 배포하는 것이 매우 간소화 되었습니다.
->>>>>>> live
+
 
     예제에서는 단일 공통 보고서를 공급자 간에 분산 하는 방법을 보여 주었습니다. Power BI는 훨씬 더 많은 작업이 가능 합니다. 각 파트너와 관련된 데이터만 볼 수 있도록 행 수준 보안 보고서 및 데이터 모델에 쉽게 추가할 수 있습니다. 이 문서의 뒷부분에 나오는 외부 파트너에 대한 데이터 보안 섹션에서는 이 프로세스에 대해 자세히 설명 합니다.
 
-<<<<<<< HEAD
     종종 개별 보고서와 대시보드를 기존 포털에 포함해야 합니다. 이는 예제에 표시된 많은 기술을 다시 사용하여 수행할 수도 있습니다. 그러나 이러한 상황에서는 작업 영역에서 보고서 또는 대시보드를 직접 포함하는 것이 더 쉬울 수 있습니다. 필요한 사용자에게 보안 권한을 초대하고 할당하는 프로세스는 동일하게 유지됩니다.
 ||||||| merged common ancestors
     일반적으로 개별 보고서와 대시보드를 기존 포털에 포함 해야 합니다. 이를 통해 예제에 표시 된 많은 기술을 다시 사용할 수도 있습니다. 그러나 이러한 상황에서는 작업 영역에서 보고서 또는 대시보드를 직접 포함 하는 것이 더 쉬울 수 있습니다. 사용자에 게 보안 권한을 초대 하 고 할당 하는 프로세스는 동일 하 게 유지 됩니다.
-=======
-    일반적으로 개별 보고서와 대시보드를 기존 포털에 포함해야 합니다. 이를 통해 예제에 표시된 많은 기술을 다시 사용할 수도 있습니다. 그러나 이러한 상황에서는 작업 영역에서 보고서 또는 대시보드를 직접 포함하는 것이 더 쉬울 수 있습니다. 사용자에게 보안 권한을 초대하고 할당하는 프로세스는 동일하게 유지 됩니다.
->>>>>>> live
 
-## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>내부적으로 다음을 수행 합니다. Supplier1의 Lucy는 어떻게 Contoso 테넌트의 Power BI 콘텐츠에 액세스할 수 있나요?
+
+## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>Supplier1의 Lucy는 어떻게 Contoso 테넌트의 Power BI 콘텐츠에 액세스할 수 있나요?
 
 Contoso가 파트너 조직의 게스트 사용자에게 Power BI 콘텐츠를 원활하게 배포할 수 있는 방법을 살펴보았으므로 이제 이러한 방식이 내부적으로 작동하는 방식을 살펴보겠습니다.
 
@@ -443,7 +391,8 @@ Azure AD 계정이 외부 협력업체의 Azure AD에서 사용되거나 생성�
 Contoso는 공급자 및 파트너 조직의 게스트 사용자에게 Power BI의 콘텐츠에 대한 액세스를 허가하는 세 가지 방법 중 하나를 선택할 수 있습니다.
 
 > [!NOTE]
-> Azure _Ad B2B의 무료 계층은 Azure AD B2B와 Power BI를 사용하기에 충분합니다. 동적 그룹과 같은 일부 고급 Azure AD B2B 기능을 위해서는 추가 라이선스가 필요합니다. 자세한 내용은 Azure AD B2B 설명서를 참조 하세요._ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> Azure _Ad B2B의 무료 계층은 Azure AD B2B와 Power BI를 사용하기에 충분합니다. 동적 그룹과 같은 일부 고급 Azure AD B2B 기능을 위해서는 추가 라이선스가 필요합니다. 추가 정보는 Azure AD B2B 설명서를 참조하세요._ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>방법 1: Contoso는 Power BI Premium을 사용 합니다.
 
@@ -456,7 +405,7 @@ Contoso는 공급자 및 파트너 조직의 게스트 사용자에게 Power BI�
 ![추가 기능](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_24.png)
 
 
-### <a name="approach-2-contoso-assigns-power-bi-pro-licenses-to-guest-users"></a>방법 2: Contoso에서 게스트 사용자에 게 Power BI Pro 라이선스 할당
+### <a name="approach-2-contoso-assigns-power-bi-pro-licenses-to-guest-users"></a>방법 2: Contoso에서 게스트 사용자에게 Power BI Pro 라이선스 할당
 
 이 접근 방식을 사용하여 Contoso는 파트너 조직의 게스트 사용자에게 Pro 라이선스를 할당합니다. 이는 Contoso의 Microsoft 365 관리 센터에서 수행할 수 있습니다. 이를 통해 파트너 조직의 게스트 사용자는 라이선스를 구입하지 않고도 Contoso의 Power BI 앱에 액세스할 수 있습니다. 이는 해당 조직이 아직 Power BI를 채택하지 않은 외부 사용자와 공유하는 데 적합할 수 있습니다.
 
@@ -466,12 +415,13 @@ Contoso는 공급자 및 파트너 조직의 게스트 사용자에게 Power BI�
 ![라이선스 정보](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_25.png)
 
 
-### <a name="approach-3-guest-users-bring-their-own-power-bi-pro-license"></a>방법 3: 게스트 사용자는 자신의 Power BI Pro 라이선스를 가져옵니다.
+### <a name="approach-3-guest-users-bring-their-own-power-bi-pro-license"></a>방법 3: 게스트 사용자가 자신의 Power BI Pro 라이선스를 이용
 
 이 방법을 사용하는 경우 Supplier 1은 Lucy에게 Power BI Pro 라이선스를 할당합니다. 그런 다음 이 라이선스를 사용하여 Contoso의 Power BI 앱에 액세스할 수 있습니다. Lucy는 외부 Power BI 환경에 액세스할 때 자체 조직의 Pro 라이선스를 사용할 수 있기 때문에 이 접근 방식을 BYOL(_사용자 라이선스 가져오기_)이라고도 합니다. 두 조직 모두 Power BI를 사용하는 경우 전체 분석 솔루션에 대한 유용한 라이선스를 제공하며 외부 사용자에게 라이선스를 할당하는 오버헤드를 최소화합니다.
 
 > [!NOTE]
-> 공급자 1에서 루시에 게 제공 되는 pro 라이선스는 루시가 게스트 사용자 인 모든 Power BI 테 넌 트에 적용 됩니다. Pro 라이선스를 사용하면 Power BI Premium 용량이 아닌 콘텐츠에 액세스할 수 있습니다. 그러나 Pro 라이선스가 있는 외부 사용자는 기본적으로 소비 전용 환경으로 제한됩니다. 이 내용은 이 문서의 뒷부분에 나오는 _외부 사용자가 Power BI에서 콘텐츠를 편집하고 관리할 수 있도록 설정_ 섹션에 설명된 방법을 사용하여 변경할 수 있습니다.
+> Supplier 1이 Lucy에게 제공하는 Pro 라이선스는 Lucy가 게스트 사용자인 모든 Power BI 테넌트에 적용됩니다. Pro 라이선스를 사용하면 Power BI Premium 용량이 아닌 콘텐츠에 액세스할 수 있습니다. 그러나 Pro 라이선스가 있는 외부 사용자는 기본적으로 소비 전용 환경으로 제한됩니다. 이 내용은 이 문서의 뒷부분에 나오는 _외부 사용자가 Power BI에서 콘텐츠를 편집하고 관리할 수 있도록 설정_ 섹션에 설명된 방법을 사용하여 변경할 수 있습니다.
+
 
 ![Pro 라이선스 요구 사항](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_26.png)
 
