@@ -1,4 +1,4 @@
----
+﻿---
 title: Azure AD B2B에서 외부 게스트 사용자에게 콘텐츠 배포
 description: Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합하므로 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안전하게 배포할 수 있습니다.
 author: kfollis
@@ -128,7 +128,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
     * 게스트 사용자는 전체 조직에 게시된 앱을 설치할 수 없습니다.
     * 게스트 사용자는 조직 콘텐츠 팩을 사용, 생성, 업데이트 또는 설치할 수 없습니다.
     * 게스트 사용자는 Excel의 분석을 사용할 수 없습니다.
-    * 게스트 사용자는 댓글에서 @mentioned 대상이 될 수 없습니다.
+    * 게스트 사용자는 댓글에서 @mention 대상이 될 수 없습니다.
     * 게스트 사용자는 구독을 사용할 수 없습니다.
     * 이 기능을 사용하는 게스트 사용자는 회사 또는 학교 계정이 있어야 합니다. 
     
