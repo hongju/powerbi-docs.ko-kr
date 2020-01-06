@@ -83,7 +83,7 @@ Microsoft 365 관리자는 [Power BI 웹 사이트](https://powerbi.microsoft.co
 
 Microsoft 365 전역 관리자는 사용자가 기존 Microsoft 365 테넌트에 가입하지 못하도록 특정 단계를 수행할 수 있습니다. 액세스를 차단하는 경우, 사용자의 가입 시도는 실패하게 되고, 조직의 관리자에게 문의하라는 메시지가 나타납니다. 자동 라이선스 배포(예: 학생, 교수 및 교직원용 Office 365 Education 사용)를 이미 사용하지 않도록 설정한 경우에는 이 프로세스를 반복할 필요가 없습니다.
 
-다음 PowerShell 스크립트를 사용하여 새 사용자가 관리되는 테넌트에 가입할 수 있도록 합니다. [PowerShell에 대해 자세히 알아보세요][1].
+다음 PowerShell 스크립트를 사용하여 새 사용자가 관리되는 테넌트에 가입할 수 없게 합니다. [PowerShell에 대해 자세히 알아보세요][1].
 
 ```powershell
 $msolcred = get-credential

@@ -56,6 +56,8 @@
               href: end-user-interactions.md
             - name: PDF로 보고서 내보내기
               href: end-user-pdf.md
+            - name: 보고서를 PowerPoint로 내보내기
+              href: end-user-powerpoint.md
             - name: 보고서에 책갈피 추가
               href: end-user-bookmarks.md
             - name: Power BI의 페이지를 매긴 보고서
@@ -140,6 +142,8 @@
       items:
         - name: 모바일 앱이란?
           href: mobile/mobile-apps-for-mobile-devices.md
+        - name: 홈페이지 방문
+          href: mobile/mobile-apps-home-page.md
     - name: 빠른 시작
       items:
         - name: 대시보드 및 보고서 탐색
@@ -196,7 +200,7 @@
               href: mobile/mobile-apps-qr-code.md
             - name: 모바일 앱에서 주석 달기 및 공유
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: iPhone에서 앱의 바코드 스캔
+            - name: Power BI 모바일 앱에서 바코드 스캔
               href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: 모바일 디바이스 관리를 사용하여 구성
               href: mobile/mobile-app-configuration.md

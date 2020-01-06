@@ -59,7 +59,7 @@ ms.locfileid: "73872759"
 ## <a name="working-with-data-classification-tags-as-an-admin"></a>관리자의 데이터 분류 태그 작업
 데이터 분류는 조직의 전역 관리자에 의해 설정됩니다. 데이터 분류를 사용하려면 다음을 수행합니다.
 
-1. 설정 기어(단추)를 선택하고 **관리 포털**을 선택합니다.
+1. 톱니바퀴 모양의 설정 아이콘을 선택하고 **관리 포털**을 선택합니다.
    
     ![](media/service-data-classification/admin_portal_in_settings.png)
 2. **테넌트 설정** 탭에서 **대시보드 및 보고서에 대한 데이터 분류**를 켜기로 전환합니다. 
