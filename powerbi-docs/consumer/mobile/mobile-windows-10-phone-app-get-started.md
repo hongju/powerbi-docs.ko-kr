@@ -54,7 +54,9 @@ Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를
 ### <a name="power-bi-samples"></a>Power BI 샘플
 Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 처리할 수 없는 몇 가지 작업이 있습니다. 즉 대시보드 뒤에 있는 보고서를 열 수 없거나, 다른 사용자와 샘플을 공유할 수 없거나, 이 샘플의 즐겨찾기를 만들 수 없습니다.
 
-1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 를 탭합니다.
+
+1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png)를 탭합니다.
+
 2. **설정** 아이콘 ![설정 아이콘](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)을 탭하고 이름을 탭한 후 **샘플 보기**를 탭합니다.
    
    ![샘플 보기](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-view-samples.png)
@@ -63,7 +65,9 @@ Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 
    ![역할 선택](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-samples.png)
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services 모바일 보고서 샘플
-1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 를 탭합니다.
+
+1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png)를 탭합니다.
+
 2. **설정** 아이콘 ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)을 탭하고 **서버에 연결**을 마우스 오른쪽 단추로 클릭하거나 탭한 채로 유지한 다음 **샘플 보기**를 탭합니다.
    
    ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
