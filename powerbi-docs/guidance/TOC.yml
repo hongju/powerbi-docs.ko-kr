@@ -40,6 +40,8 @@
           href: report-drillthrough.md
         - name: Power BI Desktop의 자동 날짜/시간 지침
           href: auto-date-time.md
+        - name: 다 대 다 관계 지침
+          href: relationships-many-to-many.md
     - name: 백서
       items:
         - name: 백서 개요

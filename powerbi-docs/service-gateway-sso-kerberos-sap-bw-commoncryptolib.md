@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6c098a187b7f0d0d4828500cd6c5995a7c82ab42
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697638"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000184"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>CommonCryptoLib(sapcrypto.dll)를 사용하여 SAP BW에 대한 SSO에 Kerberos Single Sign-On 사용
 
@@ -89,7 +89,7 @@ ms.locfileid: "74697638"
 
 ## <a name="troubleshooting"></a>문제 해결
 
-Power BI 서비스에서 보고서를 새로 고칠 수 없는 경우 게이트웨이 추적, CPIC 추적 및 CommonCryptoLib 추적을 사용하여 문제를 진단할 수 있습니다. CPIC 추적 및 CommonCryptoLib는 SAP 제품이므로 Microsoft에서 지원할 수 없습니다. BW에 대한 SSO 액세스 권한을 부여받은 Active Directory 사용자의 경우, 일부 Active Directory 구성에서는 사용자가 게이트웨이를 설치한 머신에서 관리자 그룹의 구성원이어야 할 수도 있습니다.
+Power BI 서비스에서 보고서를 새로 고칠 수 없는 경우 게이트웨이 추적, CPIC 추적 및 CommonCryptoLib 추적을 사용하여 문제를 진단할 수 있습니다. CPIC 추적 및 CommonCryptoLib는 SAP 제품이므로 Microsoft에서 지원할 수 없습니다.
 
 ### <a name="gateway-logs"></a>게이트웨이 로그
 
@@ -109,7 +109,49 @@ Power BI 서비스에서 보고서를 새로 고칠 수 없는 경우 게이트�
 
    ![CPIC 추적](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
- 3. 문제를 재현하고, **CPIC\_TRACE\_DIR**에 추적 파일이 있는지 확인합니다.
+3. 문제를 재현하고, **CPIC\_TRACE\_DIR**에 추적 파일이 있는지 확인합니다.
+ 
+    CPIC 추적은 sapcrypto.dll 라이브러리 로드 오류와 같은 더 높은 수준의 문제를 진단할 수 있습니다. 예를 들어 다음은 .dll 로드 오류가 발생한 CPIC 추적 파일의 코드 조각입니다.
+
+    ```
+    [Thr 7228] *** ERROR => DlLoadLib()==DLENOACCESS - LoadLibrary("C:\Users\test\Desktop\sapcrypto.dll")
+    Error 5 = "Access is denied." [dlnt.c       255]
+    ```
+
+    [위의 섹션](#configure-sap-bw-to-enable-sso-using-commoncryptolib)에 설명된 대로 sapcrypto.dll 및 sapcrypto.ini에 대한 읽기 및 실행 권한을 설정했지만 이 같은 오류가 발생하는 경우 해당 파일이 들어 있는 폴더에 대해 동일한 읽기 및 실행 권한을 설정해 봅니다.
+
+    여전히 .dll을 로드할 수 없는 경우 [파일에 대한 감사](/windows/security/threat-protection/auditing/apply-a-basic-audit-policy-on-a-file-or-folder)를 사용하도록 설정해 봅니다. Windows 이벤트 뷰어에서 결과 감사 로그를 검사하면 파일 로드에 실패한 이유를 확인하는 데 도움이 될 수 있습니다. 가장한 Active Directory 사용자가 시작한 오류 항목을 찾습니다. 예를 들어 가장한 사용자가 `MYDOMAIN\mytestuser`인 경우 감사 로그에서 오류는 다음과 같습니다.
+
+    ```
+    A handle to an object was requested.
+
+    Subject:
+        Security ID:        MYDOMAIN\mytestuser
+        Account Name:       mytestuser
+        Account Domain:     MYDOMAIN
+        Logon ID:       0xCF23A8
+
+    Object:
+        Object Server:      Security
+        Object Type:        File
+        Object Name:        <path information>\sapcrypto.dll
+        Handle ID:      0x0
+        Resource Attributes:    -
+
+    Process Information:
+        Process ID:     0x2b4c
+        Process Name:       C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe
+
+    Access Request Information:
+        Transaction ID:     {00000000-0000-0000-0000-000000000000}
+        Accesses:       ReadAttributes
+                
+    Access Reasons:     ReadAttributes: Not granted
+                
+    Access Mask:        0x80
+    Privileges Used for Access Check:   -
+    Restricted SID Count:   0
+    ```
 
 ### <a name="commoncryptolib-tracing"></a>CommonCryptoLib 추적 
 

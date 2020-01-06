@@ -83,8 +83,22 @@
               href: visuals/event-service.md
             - name: 정렬
               href: visuals/sort-options.md
-            - name: 대화형 유틸리티
-              href: visuals/utils-interactivity-selections.md
+            - name: 지역화
+              href: visuals/localization.md
+            - name: Power BI 시각적 개체 유틸리티
+              items:
+                - name: 대화형 유틸리티
+                  href: visuals/utils-interactivity-selections.md
+                - name: 유틸리티 서식 지정
+                  href: visuals/utils-formatting.md
+                - name: 차트 유틸리티
+                  href: visuals/utils-chart.md
+                - name: SVG 유틸리티
+                  href: visuals/utils-svg.md
+                - name: 형식 유틸리티
+                  href: visuals/utils-type.md
+                - name: 데이터 보기 유틸리티
+                  href: visuals/utils-dataview.md
         - name: 리소스
           items:
             - name: 개발자 센터

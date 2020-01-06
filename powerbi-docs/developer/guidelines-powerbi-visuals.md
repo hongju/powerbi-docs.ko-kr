@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565603"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000092"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 지침
 다른 사용자가 검색하고 사용하도록 Microsoft AppSource에 Power BI 시각적 개체를 [게시](https://docs.microsoft.com/power-bi/developer/office-store)하기 전에 지침에 따라 사용자에게 적합한 환경을 만들어야 합니다.
@@ -50,7 +50,12 @@ Power BI IAP 시각적 개체에서 잘못된(또는 만료된) 라이선스를 
 
 ### <a name="submission-process"></a>제출 프로세스
 
-개발자는 무료 시각적 개체를 위해 수행한 것처럼 판매자 대시보드를 통해 IAP Power BI 시각적 개체를 Microsoft AppSource에 업로드합니다. 제출된 Power BI 시각적 개체에 IAP 기능이 있음을 나타내려면 개발자는 판매자 대시보드 노트에 "앱에서 바로 구매를 통한 시각적 개체"라고 작성해야 합니다. 또한 개발자는 유효성 검사 팀이 IAP 기능의 유효성을 검사할 수 있도록 라이선스 키 또는 토큰을 제공해야 합니다. Power BI 시각적 개체가 유효성이 검사되고 승인되면 IAP Power BI 시각적 개체의 Microsoft AppSource 목록이 가격 옵션 아래에 "추가 구매가 필요할 수도 있음"이라고 표시됩니다.
+[제출 프로세스](office-store.md#submitting-to-appsource)를 수행한 후 *제품 설정* 탭으로 이동하여 *내 제품에 서비스 구매가 필요합니다* 확인란을 선택합니다.
+
+Power BI 시각적 개체가 유효성이 검사되고 승인되면 IAP Power BI 시각적 개체의 Microsoft AppSource 목록이 가격 옵션 아래에 "추가 구매가 필요할 수도 있음"이라고 표시됩니다.
+
+>[!NOTE]
+>이미 [판매자 대시보드](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store)를 사용하여 Power BI 시각적 개체를 제출한 상태에서 IAP 기능을 추가하려는 경우 판매자 대시보드 메모에 "앱 내 구매 조건이 있는 시각적 개체"를 작성해야 합니다. 또한 유효성 검사 팀이 IAP 기능의 유효성을 검사할 수 있도록 라이선스 키 또는 토큰을 제공해야 합니다.
 
 ## <a name="context-menu"></a>상황에 맞는 메뉴
 상황에 맞는 메뉴는 사용자가 시각적 개체를 가리킬 때 표시되는 마우스 오른쪽 클릭 메뉴입니다.

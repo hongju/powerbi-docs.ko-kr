@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI Premium 용량 배포 및 관리
 
 description: Power BI Premium의 가능성을 이해하고 확장 가능한 솔루션을 디자인, 배포, 모니터링 및 문제 해결하는 방법을 알아봅니다.

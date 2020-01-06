@@ -1,4 +1,4 @@
----
+﻿---
 title: Azure AD B2B에서 외부 게스트 사용자에게 콘텐츠 배포
 description: Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합하므로 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안전하게 배포할 수 있습니다.
 author: kfollis

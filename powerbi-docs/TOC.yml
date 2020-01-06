@@ -7,127 +7,127 @@
     - name: 빠른 시작
       expanded: true
       items:
-        - name: 데이터에 연결
+        - name: Power BI Desktop에서 데이터에 연결
           href: desktop-quickstart-connect-to-data.md
     - name: 자습서
       items:
         - name: 여러 데이터 원본 셰이프 및 결합
           href: desktop-shape-and-combine-data.md
-        - name: Power BI Desktop을 사용하여 웹 페이지에서 데이터 가져오기 및 분석
+        - name: 웹 페이지에서 데이터 가져오기 및 분석
           href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Excel 및 OData 피드의 판매 데이터 분석'
+        - name: Excel 및 OData 피드의 판매 데이터 분석
           href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Power BI Desktop에서 고유한 측정값 만들기
+        - name: 고유한 측정값 만들기
           href: desktop-tutorial-create-measures.md
-        - name: Power BI Desktop에서 계산 열 만들기
+        - name: 계산 열 만들기
           href: desktop-tutorial-create-calculated-columns.md
-        - name: Power BI Desktop을 사용한 Facebook 분석
+        - name: Facebook 데이터 분석
           href: desktop-tutorial-facebook-analytics.md
-        - name: Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
+        - name: Analysis Services 테이블 형식 모델에서 행 수준 보안 구현
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: 샘플
       items:
-        - name: Power BI용 샘플
+        - name: Power BI용 샘플 데이터 가져오기
           href: sample-datasets.md
-        - name: 샘플 콘텐츠 팩 사용
+        - name: 샘플 팩 가져오기 및 열기
           href: sample-tutorial-connect-to-the-samples.md
-        - name: '고객 수익성 샘플: 둘러보기'
+        - name: '둘러보기: 고객 수익성 샘플'
           href: sample-customer-profitability.md
-        - name: 'IT 지출 분석 샘플: 둘러보기'
+        - name: '둘러보기: IT 지출 분석 샘플'
           href: sample-it-spend.md
-        - name: '인적 자원 샘플: 둘러보기'
+        - name: '둘러보기: 인적 자원 샘플'
           href: sample-human-resources.md
-        - name: '기회 분석 샘플: 둘러보기'
+        - name: '둘러보기: 기회 분석 샘플'
           href: sample-opportunity-analysis.md
-        - name: '조달 분석 샘플: 둘러보기'
+        - name: '둘러보기: 조달 분석 샘플'
           href: sample-procurement.md
-        - name: '소매점 분석 샘플: 둘러보기'
+        - name: '둘러보기: 소매점 분석 샘플'
           href: sample-retail-analysis.md
-        - name: '영업 및 마케팅 샘플: 둘러보기'
+        - name: '둘러보기: 영업 및 마케팅 샘플'
           href: sample-sales-and-marketing.md
-        - name: '공급업체 품질 분석 샘플: 둘러보기'
+        - name: '둘러보기: 공급업체 품질 분석 샘플'
           href: sample-supplier-quality.md
         - name: 재무 샘플 통합 문서 다운로드
           href: sample-financial-download.md
     - name: 개념
       items:
-        - name: 최신 Power BI Desktop 업데이트의 새로운 기능
+        - name: Power BI Desktop의 새로운 기능
           href: desktop-latest-update.md
-        - name: Power BI Desktop의 모델 관계
+        - name: 모델 관계 만들기
           href: desktop-relationships-understand.md
-        - name: Power BI Desktop에서 시각적 개체 그룹화
+        - name: 보고서에서 시각적 개체 그룹화
           href: desktop-grouping-visuals.md
-        - name: Power BI Desktop에서 템플릿 사용
+        - name: 템플릿 사용
           href: desktop-templates.md
-        - name: Power BI Desktop의 모델링 보기
+        - name: 모델링 보기 작업
           href: desktop-modeling-view.md
-        - name: Power BI Desktop의 집계
+        - name: 집계 관리
           href: desktop-aggregations.md
-        - name: Power BI Desktop의 복합 모델
+        - name: 복합 모델 사용
           href: desktop-composite-models.md
-        - name: Power BI Desktop의 다 대 다 관계
+        - name: 다 대 다 관계 사용
           href: desktop-many-to-many-relationships.md
-        - name: Power BI Desktop의 스토리지 모드(미리 보기)
+        - name: 저장소 모드 관리
           href: desktop-storage-mode.md
-        - name: Power BI Desktop의 양방향 교차 필터링
+        - name: 양방향 교차 필터링 사용
           href: desktop-bidirectional-filtering.md
-        - name: Power BI 및 DirectQuery
+        - name: Power BI에서 DirectQuery를 사용하는 방법
           href: desktop-directquery-about.md
-        - name: DirectQuery에서 지원하는 데이터 원본
-          href: desktop-directquery-data-sources.md
+        - name: DirectQuery에서 지원하는 Power BI 데이터 원본
+          href: power-bi-data-sources.md
         - name: Power BI 데이터 원본 필수 조건
           href: desktop-data-source-prerequisites.md
-        - name: Power BI의 다차원 모델의 기본 멤버
+        - name: Power BI에서 다차원 모델 작업
           href: desktop-default-member-multidimensional-models.md
-        - name: 시각적 개체 FAQ
+        - name: Power BI 시각적 개체 FAQ
           href: developer/power-bi-custom-visuals-faq.md
-    - name: 방법
+    - name: 방법 가이드
       items:
         - name: Power BI Desktop 다운로드
           href: desktop-get-the-desktop.md
-        - name: Power BI Desktop 시작 가이드
+        - name: Power BI Desktop 시작
           href: desktop-getting-started.md
-        - name: Power BI Desktop의 일반적인 쿼리 작업
+        - name: 일반적인 쿼리 작업 수행
           href: desktop-common-query-tasks.md
-        - name: Power BI Desktop에서 관계 만들기 및 관리
+        - name: 관계 만들기 및 관리
           href: desktop-create-and-manage-relationships.md
-        - name: Power BI Desktop의 데이터 보기
+        - name: 데이터 보기 작업
           href: desktop-data-view.md
-        - name: Power BI Desktop을 사용한 쿼리 개요
+        - name: 쿼리 사용
           href: desktop-query-overview.md
-        - name: Power BI Desktop의 DAX 기본 사항
+        - name: DAX 기본 사항 적용
           href: desktop-quickstart-learn-dax-basics.md
-        - name: Power BI Desktop의 관계 보기
+        - name: 관계 보기 작업
           href: desktop-relationship-view.md
-        - name: Power BI Desktop의 보고서 뷰
+        - name: 보고서 보기 작업
           href: desktop-report-view.md
-        - name: Power BI Desktop에서 여러 데이터 원본에 연결
+        - name: 여러 데이터 원본에 연결
           href: desktop-connect-to-data.md
-        - name: Power BI Desktop에서 게시
+        - name: 데이터 세트 게시
           href: desktop-upload-desktop-files.md
-        - name: '1부, Power BI 보고서에 시각화 추가'
+        - name: Power BI 보고서에 시각적 개체 추가(1부)
           href: visuals/power-bi-report-add-visualizations-i.md
-        - name: '2부, Power BI 보고서에 시각화 추가'
+        - name: Power BI 보고서에 시각적 개체 추가(2부)
           href: visuals/power-bi-report-add-visualizations-ii.md
-        - name: '시각화 제목, 배경 및 범례 사용자 지정'
+        - name: '시각적 개체 제목, 배경 및 범례 사용자 지정'
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: Power BI에서 데이터가 없는 항목 표시
           href: desktop-show-items-no-data.md
-        - name: Power BI Desktop의 자동 날짜/시간
+        - name: 자동 날짜/시간 사용
           href: desktop-auto-date-time.md
         - name: 데이터에 연결
           items:
-            - name: Power BI Desktop의 데이터 원본
+            - name: 데이터 원본 연결
               href: desktop-data-sources.md
-            - name: LinkedIn Sales Navigator에 연결(미리 보기)
+            - name: LinkedIn Sales Navigator에 연결
               href: desktop-connect-linkedin-sales-navigator.md
-            - name: 예를 통해 웹 페이지에 연결(미리 보기)
+            - name: 예제를 제공하여 웹 페이지에서 데이터 가져오기
               href: desktop-connect-to-web-by-example.md
             - name: Power BI 서비스의 데이터 세트에 연결
               href: desktop-report-lifecycle-datasets.md
-            - name: Power BI Desktop에 Excel 통합 문서 가져오기
+            - name: Excel 통합 문서 가져오기
               href: desktop-import-excel-workbooks.md
-            - name: 제네릭 인터페이스를 사용하여 데이터에 연결
+            - name: Power BI Desktop 제네릭 인터페이스를 사용하여 데이터에 연결
               href: desktop-connect-using-generic-interfaces.md
             - name: PDF 파일에 연결
               href: desktop-connect-pdf.md
@@ -135,128 +135,126 @@
               href: desktop-connect-adobe-analytics.md
             - name: Oracle 데이터베이스에 연결
               href: desktop-connect-oracle-database.md
-            - name: Power BI Desktop에서 Python 스크립트 실행
+            - name: Python 스크립트 실행
               href: desktop-python-scripts.md
-            - name: 파워 쿼리 편집기에서 Python 사용
+            - name: 쿼리 편집기에서 Python 사용
               href: desktop-python-in-query-editor.md
-            - name: Power BI로 외부 Python IDE 사용
+            - name: 외부 Python IDE 사용
               href: desktop-python-ide.md
-            - name: Python을 사용하여 Power BI 시각적 개체 만들기
+            - name: Python을 사용하여 시각적 개체 만들기
               href: desktop-python-visuals.md
-            - name: Power BI Desktop에서 R 스크립트 실행
+            - name: R 스크립트 실행
               href: desktop-r-scripts.md
             - name: 쿼리 편집기에서 R 사용
               href: desktop-r-in-query-editor.md
-            - name: Power BI로 외부 R IDE 사용
+            - name: 외부 R IDE 사용
               href: desktop-r-ide.md
-            - name: 지원되는 R 패키지
+            - name: R 패키지를 사용하여 시각적 개체 만들기
               href: service-r-packages-support.md
             - name: Power BI Desktop에 데이터 직접 연결
               href: desktop-enter-data-directly-into-desktop.md
-            - name: Power BI Desktop에서 Excel에 연결
+            - name: Excel 통합 문서에 연결
               href: desktop-connect-excel.md
-            - name: Power BI Desktop의 Analysis Services 다차원 데이터
+            - name: 다차원 모델에 연결
               href: desktop-ssas-multidimensional.md
-            - name: Power BI Desktop에서 CSV 파일에 연결
+            - name: CSV 파일에 연결
               href: desktop-connect-csv.md
-            - name: Power BI Desktop에서 Google BigQuery 데이터베이스에 연결
+            - name: Google BigQuery 데이터베이스에 연결
               href: desktop-connect-bigquery.md
-            - name: Power BI Desktop에서 Impala 데이터베이스에 연결
+            - name: Impala 데이터베이스에 연결
               href: desktop-connect-impala.md
-            - name: Power BI Desktop에서 OData 피드에 연결
+            - name: OData 피드에 연결
               href: desktop-connect-odata.md
-            - name: Power BI Desktop에서 Amazon Redshift 데이터베이스에 연결
+            - name: Amazon Redshift 데이터베이스에 연결
               href: desktop-connect-redshift.md
-            - name: Power BI Desktop에서 웹 페이지에 연결
+            - name: 웹 페이지에 연결
               href: desktop-connect-to-web.md
-            - name: Power BI Desktop에서 Snowflake Computing 웨어하우스에 연결
+            - name: Snowflake 컴퓨팅 웨어하우스에 연결
               href: desktop-connect-snowflake.md
             - name: Azure Cost Management 데이터에 연결
               href: desktop-connect-azure-cost-management.md
             - name: Azure Consumption Insights 데이터에 연결
               href: desktop-connect-azure-consumption-insights.md
-            - name: Power BI Desktop에서 SAP HANA 사용
+            - name: SAP HANA 사용
               href: desktop-sap-hana.md
             - name: SAP HANA에 대한 암호화 사용
               href: desktop-sap-hana-encryption.md
-            - name: Power BI Desktop의 Analysis Services 테이블 형식 데이터
+            - name: Analysis Services 테이블 형식 데이터 사용
               href: desktop-analysis-services-tabular-data.md
-            - name: Power BI Desktop에서 DirectQuery 사용
+            - name: DirectQuery 사용
               href: desktop-use-directquery.md
-            - name: DirectQuery 및 SAP BW(Business Warehouse)
+            - name: DirectQuery 및 SAP Business Warehouse
               href: desktop-directquery-sap-bw.md
-            - name: DirectQuery 및 SAP HANA
+            - name: DirectQuery 및 SAP HANA에 연결
               href: desktop-directquery-sap-hana.md
-            - name: Power BI Desktop의 참조 무결성 설정 가정
+            - name: 참조 무결성 가정 설정 적용
               href: desktop-assume-referential-integrity.md
-            - name: Power BI Desktop에서 SAP BW 커넥터 사용
+            - name: SAP Business Warehouse 커넥터 사용
               href: desktop-sap-bw-connector.md
-            - name: Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
+            - name: 비즈니스용 OneDrive 링크 사용
               href: desktop-use-onedrive-business-links.md
-            - name: '타사 서비스: Power BI Desktop용 Facebook 커넥터'
+            - name: '타사 서비스: Facebook 커넥터 사용'
               href: service-facebook-connector.md
-            - name: '타사 서비스: Power BI Desktop용 Google Analytics 커넥터'
+            - name: '타사 서비스: Google Analytics 커넥터'
               href: service-google-analytics-connector.md
-            - name: 'Project Online: Power BI Desktop을 통해서 데이터에 연결'
+            - name: '프로젝트 온라인: Power BI Desktop을 통해 데이터에 연결'
               href: desktop-project-online-connect-to-data.md
         - name: 데이터 변환 및 모양 지정
           items:
-            - name: 이진 조합
+            - name: 파일 결합(이진)
               href: desktop-combine-binaries.md
-            - name: Power BI Desktop에서 AI 인사이트 사용(미리 보기)
+            - name: AI 인사이트 사용(미리 보기)
               href: desktop-ai-insights.md
         - name: 데이터 모델링
           items:
-            - name: Power BI Desktop의 데이터 분류
+            - name: Power BI Desktop에서 데이터 범주 지정
               href: desktop-data-categorization.md
-            - name: 모바일 앱의 바코드 필드 태그 지정
+            - name: Power BI 모바일 앱에 대한 바코드 필드 태그
               href: desktop-mobile-barcodes.md
-            - name: 모바일 앱의 지리적 필터링 설정
+            - name: Power BI 모바일 앱에 대한 지리적 필터 설정
               href: desktop-mobile-geofiltering.md
-            - name: Power BI Desktop의 계산 열
+            - name: 계산 열 사용
               href: desktop-calculated-columns.md
-            - name: Power BI Desktop의 계산된 테이블
+            - name: 계산된 테이블 사용
               href: desktop-calculated-tables.md
-            - name: Power BI Desktop의 측정값
+            - name: 측정값 사용
               href: desktop-measures.md
-            - name: KPI 가져오기 및 표시(미리 보기)
+            - name: KPI 가져오기 및 표시
               href: desktop-import-and-display-kpis.md
         - name: 보고서 만들기
           items:
-            - name: Power BI Desktop의 자동 페이지 새로 고침(미리 보기)
+            - name: 자동 페이지 새로 고침 사용(미리 보기)
               href: desktop-automatic-page-refresh.md
-            - name: Power BI Desktop에서 성능 분석기 사용
+            - name: 성능 분석기 사용
               href: desktop-performance-analyzer.md
-            - name: 보고서에 대한 시각적 요소
+            - name: 보고서에 시각적 요소 추가
               href: desktop-visual-elements-for-reports.md
             - name: 보고서 페이지를 기준으로 도구 설명 만들기
               href: desktop-tooltips.md
-            - name: PDF로 내보내기 및 보고서 인쇄
+            - name: 보고서를 PDF 파일로 내보내기
               href: desktop-export-to-pdf.md
-            - name: Power BI Desktop의 분석 창
+            - name: 분석 창 사용
               href: desktop-analytics-pane.md
-            - name: 인사이트를 사용하여 증가와 감소 설명
+            - name: 인사이트를 사용하여 시각적 개체의 변동 설명(미리 보기)
               href: desktop-insights.md
-            - name: 인사이트를 사용하여 차트에서 배포가 다른 곳 찾기
+            - name: 인사이트를 사용하여 차트에서 분포가 다른 곳 찾기(미리 보기)
               href: desktop-insights-find-where-different.md
-            - name: Power BI의 책갈피
+            - name: 책갈피를 사용하여 정보 공유
               href: desktop-bookmarks.md
-            - name: 보고서 테마 사용
+            - name: 보고서 테마 작업
               href: desktop-report-themes.md
-            - name: 필터 종류
+            - name: Power BI 보고서의 필터 유형
               href: power-bi-report-filter-types.md
-            - name: 새 필터 환경 체험
+            - name: Power BI 보고서에서 필터 작업
               href: power-bi-report-filter.md
-            - name: 빠른 측정 사용
+            - name: 일반적인 계산에 빠른 측정 사용
               href: desktop-quick-measures.md
-            - name: What if 매개 변수 사용
+            - name: 가상 매개 변수를 사용하여 변수 시각화
               href: desktop-what-if.md
-            - name: 드릴스루 사용
+            - name: 드릴스루 기능 사용
               href: desktop-drillthrough.md
-            - name: 교차 보고서 드릴스루 사용
+            - name: 교차 보고서 드릴스루 기능 사용
               href: desktop-cross-report-drill-through.md
-            - name: 상대 날짜 슬라이서 및 필터 사용
-              href: visuals/desktop-slicer-filter-date-range.md
             - name: 그룹화 및 범주화 사용
               href: desktop-grouping-and-binning.md
             - name: R을 사용하여 Power BI 시각적 개체 만들기
@@ -265,53 +263,53 @@
               href: desktop-r-powered-custom-visuals.md
             - name: 눈금선과 눈금선에 맞추기(snap-to-grid) 사용
               href: desktop-gridlines-snap-to-grid.md
-            - name: Power BI 보고서의 페이지 표시 설정
+            - name: Power BI 보고서의 페이지 표시 설정 적용
               href: power-bi-report-display-settings.md
             - name: 예제에서 열 추가
               href: desktop-add-column-from-example.md
             - name: 사용자 지정 열 추가
               href: desktop-add-custom-column.md
-            - name: Power BI Desktop에서 인라인 계층 구조 레이블 사용
+            - name: 인라인 계층 구조 레이블 사용
               href: desktop-inline-hierarchy-labels.md
             - name: 숫자 범위 슬라이서 사용
               href: desktop-slicer-numeric-range.md
-            - name: 상대 날짜 슬라이서 사용
+            - name: 상대 날짜 슬라이서 및 필터 사용
               href: desktop-slicer-filter-date-range.md
             - name: 크기를 조정할 수 있는 슬라이서 만들기
               href: power-bi-slicer-filter-responsive.md
-            - name: 행 수준 보안
+            - name: 행 수준 보안 사용
               href: desktop-rls.md
-            - name: 도구 설명 사용자 지정
+            - name: 도구 사용자 지정
               href: desktop-custom-tooltips.md
-            - name: 보고서의 텍스트 상자 및 셰이프
+            - name: 보고서에 텍스트 상자 및 셰이프 추가
               href: power-bi-reports-add-text-and-shapes.md
             - name: 텍스트 상자에 하이퍼링크 추가
               href: service-add-hyperlink-to-text-box.md
-            - name: 테이블에서 하이퍼링크
+            - name: 테이블에 하이퍼링크 추가
               href: power-bi-hyperlinks-in-tables.md
             - name: 테이블에 이미지 표시
               href: power-bi-images-tables.md
-            - name: 사용자 지정 형식 문자열
+            - name: 사용자 지정 형식 문자열 사용
               href: desktop-custom-format-strings.md
             - name: 조건부 테이블 서식 지정
               href: desktop-conditional-table-formatting.md
-            - name: 조건부 식 기반 제목 서식 지정
+            - name: 동적 식 기반 제목 만들기
               href: desktop-conditional-format-visual-titles.md
-            - name: Power BI Desktop의 열 기준 정렬
+            - name: 열 기준 정렬
               href: desktop-sort-by-column.md
-            - name: 모바일 앱에 대한 보고서 최적화
+            - name: Power BI 모바일 앱에 대한 보고서 최적화
               href: desktop-create-phone-report.md
-            - name: 데이터 보기 및 레코드 보기 사용
+            - name: 데이터 보기 및 레코드 옵션 보기 사용
               href: desktop-see-data-see-records.md
             - name: 보고서를 만드는 팁
               href: desktop-tips-and-tricks-for-creating-reports.md
         - name: 시각화
           items:
-            - name: Power BI의 시각화
+            - name: Power BI 보고서에 시각적 개체 추가
               href: visuals/power-bi-report-visualizations.md
-            - name: 보고서에서 시각화 유형 변경
+            - name: Power BI 보고서의 시각적 개체 변경
               href: visuals/power-bi-report-change-visualization-type.md
-            - name: 시각적 개체 유형별 데이터 요소 한도
+            - name: 시각적 개체 유형별 데이터 요소 정보
               href: visuals/power-bi-data-points.md
             - name: 시각적 개체를 만드는 데 사용된 데이터 보기
               href: visuals/service-reports-show-data.md
@@ -319,11 +317,11 @@
               href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
             - name: 색 서식을 위한 팁과 힌트
               href: visuals/service-tips-and-tricks-for-color-formatting.md
-            - name: 시각화 복사 및 붙여넣기
+            - name: 보고서 시각화 복사 및 붙여넣기
               href: visuals/power-bi-visualization-copy-paste.md
             - name: 시각화를 만드는 데 사용된 데이터 내보내기
               href: visuals/power-bi-visualization-export-data.md
-            - name: '보고서에서 시각화 이동, 크기 조정 및 팝아웃'
+            - name: '보고서에서 시각화 개체 이동, 크기 조정 및 팝아웃'
               href: visuals/power-bi-visualization-move-and-resize.md
             - name: 보고서에서 시각적 개체가 조작되는 방식 변경
               href: service-reports-visual-interactions.md
@@ -331,53 +329,53 @@
               href: visuals/power-bi-map-tips-and-tricks.md
             - name: X축 및 Y축 속성 사용자 지정
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: ArcGIS Maps for Power BI 시각적 개체 만들기
+            - name: Power BI 시각화 개체에서 ArcGIS 맵과 상호 작용
               href: visuals/power-bi-visualizations-arcgis.md
-            - name: ArcGIS Maps for Power BI 시각적 개체와 상호 작용
+            - name: Power BI 시각적 개체를 위한 ArcGIS 맵 만들기
               href: visuals/power-bi-visualization-arcgis.md
-            - name: 기본 영역형 차트
+            - name: 기본 영역형 차트 만들기 및 사용
               href: visuals/power-bi-visualization-basic-area-chart.md
-            - name: Power BI의 카드(큰 숫자 타일)
+            - name: 카드 시각적 개체 만들기(큰 숫자 타일)
               href: visuals/power-bi-visualization-card.md
-            - name: Power BI의 콤보 차트
+            - name: 콤보 차트 만들기 및 사용
               href: visuals/power-bi-visualization-combo-chart.md
-            - name: Power BI의 분해 트리(미리 보기)
+            - name: 분해 트리 시각적 개체 사용(미리 보기)
               href: visuals/power-bi-visualization-decomposition-tree.md
-            - name: Power BI의 도넛형 차트
+            - name: 도넛형 차트 만들기 및 사용
               href: visuals/power-bi-visualization-doughnut-charts.md
-            - name: Power BI의 등치 지역도(코로플레스)
+            - name: 등치 지역도 만들기 및 사용(choropleths)
               href: visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: Power BI의 깔때기형 차트
+            - name: 깔때기형 차트 만들기 및 사용
               href: visuals/power-bi-visualization-funnel-charts.md
-            - name: Power BI의 주요 영향 요인 차트
+            - name: 주요 영향 요인 시각화 사용
               href: visuals/power-bi-visualization-influencers.md
-            - name: 고밀도 줄 샘플링
+            - name: 고밀도 선 샘플링 정보
               href: desktop-high-density-sampling.md
-            - name: KPI 시각적 개체
+            - name: KPI 시각화 만들기 및 사용
               href: visuals/power-bi-visualization-kpi.md
-            - name: 행렬 시각적 개체
+            - name: 행렬 시각화 사용
               href: visuals/desktop-matrix-visual.md
-            - name: Q&A 시각적 개체
+            - name: Power BI 질문 및 답변 정보
               href: visuals/power-bi-visualization-q-and-a.md
-            - name: Power BI에서 R 스크립트를 사용하여 고급 분석 및 시각화 만들기
+            - name: R 시각적 개체 사용
               href: visuals/service-r-visuals.md
-            - name: Power BI의 방사형 계기 차트
+            - name: 방사형 계기 차트 만들기 및 사용
               href: visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: 리본 차트
+            - name: 리본 차트 만들기 및 사용
               href: visuals/desktop-ribbon-charts.md
-            - name: Power BI의 분산형 차트
+            - name: '분산형, 거품형 및 점 그림 차트 만들기 및 사용'
               href: visuals/power-bi-visualization-scatter.md
-            - name: 고밀도 분산형 차트
+            - name: 고밀도 분산형 차트 사용
               href: visuals/desktop-high-density-scatter-charts.md
-            - name: Power BI Desktop에서 도형 맵 사용(미리 보기)
+            - name: 도형 맵 시각적 개체 만들기 및 사용(미리 보기)
               href: visuals/desktop-shape-map.md
-            - name: Power BI의 슬라이서
+            - name: 슬라이서 만들기 및 사용
               href: visuals/power-bi-visualization-slicers.md
-            - name: Power BI의 테이블
+            - name: Power BI 보고서 및 대시보드에서 테이블 만들기 및 사용
               href: visuals/power-bi-visualization-tables.md
-            - name: Power BI의 트리맵
+            - name: 트리 맵 만들기 및 사용
               href: visuals/power-bi-visualization-treemaps.md
-            - name: Power BI의 폭포 차트
+            - name: 폭포 차트 만들기 및 사용
               href: visuals/power-bi-visualization-waterfall-charts.md
         - name: 자연어
           items:
@@ -397,49 +395,47 @@
               href: natural-language/q-and-a-limitations.md
         - name: 문제 해결
           items:
-            - name: Power BI Desktop 및 파워 쿼리에서 Access 데이터베이스 및 Excel 스프레드시트 가져오기 문제 해결
+            - name: Access 및 Excel .xls 파일 가져오기 문제 해결
               href: desktop-access-database-errors.md
-            - name: Power BI Desktop을 시작할 때 발생하는 문제 해결
+            - name: Power BI Desktop 열기 문제 해결
               href: desktop-error-launching-desktop.md
-            - name: Power BI Desktop의 DirectQuery 모델 문제 해결
+            - name: DirectQuery 모델 개발 문제 해결
               href: desktop-directquery-troubleshoot.md
     - name: 참조
       items:
-        - name: Power BI Desktop의 데이터 형식
+        - name: Power BI Desktop의 데이터 형식 이해
           href: desktop-data-types.md
-        - name: Power BI 데이터 원본
-          href: power-bi-data-sources.md
-        - name: Power BI Desktop에서 업데이트된 리본 사용(미리 보기)
+        - name: 업데이트된 리본 사용(미리 보기)
           href: desktop-ribbon.md
-        - name: Power BI Desktop의 수식 편집기 바로 가기
+        - name: 수식 편집기 바로 가기 사용
           href: desktop-formula-editor.md
-        - name: Power BI Desktop 개인 정보 수준
+        - name: 개인 정보 수준 구성
           href: desktop-privacy-levels.md
-        - name: Power BI에서 커넥터 확장성
+        - name: 커넥터 확장성 정보
           href: desktop-connector-extensibility.md
-        - name: 서명된 타사 커넥터 신뢰
+        - name: 신뢰할 수 있는 타사 커넥터 정보
           href: desktop-trusted-third-party-connectors.md
     - name: 리소스
       items:
         - name: Power BI Desktop 동영상
           href: desktop-videos.md
-        - name: Power BI Desktop으로 이전 월별 업데이트
+        - name: Power BI Desktop 업데이트 보관
           href: desktop-latest-update-archive.md
-        - name: Power BI Desktop 웃는 얼굴 보내기 개인정보처리방침
+        - name: Power BI Desktop 개인 정보 보호
           href: desktop-send-smile-privacy-statement.md
         - name: Power BI Desktop 로그인 양식 관리
           href: desktop-admin-sign-in-form.md
         - name: 내게 필요한 옵션
           items:
-            - name: Power BI의 접근성 개요
+            - name: Power BI 접근성 정보
               href: desktop-accessibility-overview.md
-            - name: 액세스 가능한 Power BI 보고서 만들기
+            - name: Power BI 보고서에서 액세스 가능한 검색 정보
               href: desktop-accessibility-creating-reports.md
-            - name: 접근성 도구를 사용하여 Power BI 보고서 사용
+            - name: Power BI 보고서의 내게 필요한 옵션 기능 이해
               href: desktop-accessibility-consuming-tools.md
             - name: 접근성 도구를 사용하여 Power BI 보고서 만들기
               href: desktop-accessibility-creating-tools.md
-            - name: Power BI 보고서에 대한 접근성 바로 가기 키
+            - name: Power BI Desktop의 바로 가기 키
               href: desktop-accessibility-keyboard-shortcuts.md
 - name: Power BI 서비스
   items:
@@ -727,7 +723,7 @@
               href: desktop-connect-dataflows.md
             - name: 데이터 흐름 및 Azure Data Lake 통합(미리 보기)
               href: service-dataflows-azure-data-lake-integration.md
-            - name: 데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)
+            - name: 데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결
               href: service-dataflows-connect-azure-data-lake-storage-gen2.md
             - name: 작업 영역 데이터 흐름 설정 구성(미리 보기)
               href: service-dataflows-configure-workspace-storage-settings.md

@@ -1,5 +1,5 @@
 ---
-title: 인증된 Power BI Power BI 시각적 개체
+title: 인증된 Power BI 시각적 개체
 description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스. 이미 인증된 Power BI 시각적 개체 목록.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,92 +8,94 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 05/9/2019
-ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.date: 12/02/2019
+ms.openlocfilehash: 0a39496ade27cd45fae116eea92ef4b472e04582
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565248"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999747"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
-## <a name="what-are-_certified_-power-bi-visuals"></a>**_인증된_** Power BI 시각적 개체란 무엇인가요?
+인증된 Power BI 시각적 개체는 *Microsoft Power BI 팀*이 테스트하고 승인한 특정 *지정 코드* 요구 사항을 충족하는 *Marketplace*의 시각적 개체입니다. 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스하지 않는지 확인하도록 설계되었습니다.
 
-인증된 Power BI 시각적 개체는 **Microsoft Power BI 팀**이 테스트하고 승인한 특정 **지정 코드** 요구 사항을 충족하는 **Marketplace**의 시각적 개체입니다. 사용자 지정 시각적 개체가 인증되면 더 많은 기능을 제공합니다. 예를 들어 [PowerPoint로 내보내기](../consumer/end-user-powerpoint.md)할 수 있으며 사용자가 [보고서 페이지를 구독](../consumer/end-user-subscribe.md)할 때 받은 이메일에 시각적 개체를 표시할 수 있습니다.
+인증된 Power BI 시각적 개체와 [표준 Power BI 시각적 개체](power-bi-custom-visuals.md)가 동일한 방식으로 사용됩니다. 이들은 [Power BI Desktop](../desktop-what-is-desktop.md) 및 [Power BI 서비스](../power-bi-service-overview.md)에 추가하고 [Power BI 모바일](../consumer/mobile/mobile-apps-for-mobile-devices.md) 및 [Power BI Embedded](embedding.md)를 사용하여 볼 수 있습니다.
 
-**인증된 Power BI 시각적 개체**는 [표준 Power BI 시각적 개체](power-bi-custom-visuals.md)처럼 사용됩니다. 인증된 Power BI 시각적 개체는 **Power BI 서비스** 및 **Power BI Desktop 보고서**에 추가할 수 있으며 **Power BI 모바일** 및 **Power BI Embedded**로 볼 수 있습니다.
+인증 프로세스는 선택적 프로세스입니다. 개발자는 마켓플레이스에서 Power BI 시각적 개체를 인증받을지 여부를 결정할 수 있습니다. 인증된 Power BI 시각적 개체는 더 많은 기능을 제공합니다. 예를 들어 [PowerPoint로 내보내기](../consumer/end-user-powerpoint.md)가 가능하고 사용자가 [보고서 페이지를 구독](../consumer/end-user-subscribe.md)할 때 받은 이메일에 시각적 개체를 표시할 수 있습니다.
 
-수행된 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스할 수 없는지 확인하기 위해 설계되었습니다. **Microsoft**는 타사 Power BI 시각적 개체의 작성자가 *아니며*, 이러한 시각적 개체의 기능을 확인하기 위해 작성자에게 직접 연락하는 것이 좋습니다.
+인증되지 않은 Power BI 시각적 개체가 반드시 안전하지 않은 시각적 개체를 의미하는 것은 아닙니다. 일부 시각적 개체는 [인증 요구 사항](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) 중 하나 이상을 준수하지 않았기 때문에 인증되지 않았습니다. 예를 들어 맵 시각적 개체와 같은 외부 서비스에 연결하거나 상용 라이브러리를 사용하여 시각적 개체에 연결할 수 있습니다.
 
-인증 프로세스는 선택적 프로세스이며 마켓플레이스에서 해당 시각적 개체가 인증되기를 원하는지 여부는 개발자에게 달려있습니다.  
+자체 Power BI 시각적 개체를 만들어  [Microsoft AppSource](https://appsource.microsoft.com)에 추가하는 데 관심이 있는 웹 개발자라면  [Power BI 시각적 개체 개발](visuals/custom-visual-develop-tutorial.md) 자습서로 시작할 수 있습니다.
 
-**인증되지 않은 Power BI 시각적 개체**가 반드시 안전하지 않은 시각적 개체를 의미하는 것은 아닙니다. 일부 시각적 개체는 [인증 요구 사항](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) 중 하나 이상을 준수하지 않았기 때문에 인증되지 않았습니다. 예를 들어 맵 시각적 개체와 같은 외부 서비스에 연결하거나 상용 라이브러리를 사용하여 시각적 개체에 연결할 수 있습니다.
+> [!NOTE]
+> **Microsoft**는 타사 Power BI 시각적 개체의 작성자가 *아닙니다*. 타사 시각적 개체의 기능을 확인하려면 고객이 작성자에게 직접 문의하는 것이 좋습니다.
 
-웹 개발자로서 고유한 시각화를 만들고  **[Microsoft AppSource](https://appsource.microsoft.com)** 에 추가하는 데 관심이 있나요?  **[자세한 내용은 Power BI 사용자 지정 시각적 개체 개발](visuals/custom-visual-develop-tutorial.md)** 을 참조하세요.
+> [!IMPORTANT]
+> Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-have-been-certified)에서 Power BI 시각적 개체를 제거할 수 있습니다.
 
-## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Power BI 인증된 Power BI 시각적 개체 제거
+## <a name="certification-requirements"></a>인증 요구 사항
 
-Microsoft는 재량에 따라 [인증된 목록](#list-of-power-bi-visuals-that-have-been-certified)에서 시각적 개체를 제거할 수 있습니다.
-
-## <a name="getting-a-custom-visualcertified"></a>사용자 지정 시각적 개체 인증 받기
-
-### <a name="certification-requirements"></a>인증 요구 사항
-
-사용자 지정 시각적 개체 [인증](#get-a-power-bi-visual-certified)을 받으려면 사용자 지정 시각적 개체가 다음을 준수하는지 확인합니다.  
-
-* Microsoft AppSource가 승인되었습니다. 사용자 지정 시각적 개체는 [마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 있어야 합니다.
-* 사용자 지정 시각적 개체는 **API v2.5** 이상 버전으로 작성됩니다.
-* 코드 리포지토리를 Power BI 팀이 검토할 수 있습니다(예를 들어 GitHub를 통해 사람이 읽을 수 있는 형식의 소스 코드(JavaScript 또는 TypeScript)로 제공).
-
-    >[!Note]
-    > Github에서 코드를 공용으로 공유할 필요는 없습니다.
-* 코드 리포지토리 요구 사항:
-   * 필요한 최소한의 파일 집합을 포함해야 합니다.
-      * .gitignore
-      * capabilities.json
-      * pbiviz.json
-      * package.json
-      * package-lock.json
-      * tsconfig.json
-   * node_modules 폴더를 포함하지 않아야 합니다(.gitingore 파일에 node_modules 추가).
-   * **npm install** 명령이 오류를 반환하지 않아야 합니다.
-   * **npm audit** 명령이 높음 또는 보통 수준의 경고를 반환하지 않아야 합니다.
-   * **pbiviz package** 명령이 오류를 반환하지 않아야 합니다.
-   * 재정의된 구성이 없는 [TSlint from Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib)를 포함해야 하며,이 명령이 어떤 lint 오류도 반환해서는 안 됩니다.
-   * 사용자 지정 시각적 개체의 컴파일된 패키지가 제출된 패키지와 일치해야 합니다(두 파일의 md5 해시가 동일해야 함).
-* 소스 코드 요구 사항:
-   * 시각적 개체가 [Rendering Events API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/)를 지원해야 합니다.
-   * 임의/동적 코드가 실행되지 않아야 합니다(불량: eval(), 안전하지 않은 사용: settimeout(), requestAnimationFrame(), setinterval(사용자 입력이 있는 일부 함수), 사용자 입력/데이터 실행).
-   * DOM이 안전하게 조작되었는지 확인해야 합니다(불량: innerHTML, D3.html(<일부 사용자/데이터 입력>), DOM에 추가하기 전에 사용자 입력/데이터에 대한 삭제를 사용).
-   * 브라우저 콘솔에 입력 데이터에 대한 javascript 오류/예외가 없어야 합니다. 사용자가 시각적 개체를 예기치 않은 다른 데이터 범위와 함께 사용할 수 있으므로 시각적 개체가 실패하지 않아야 합니다. [이 샘플 보고서](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)를 테스트 데이터 세트로 사용할 수 있습니다.
-
-* capabilities.json에서 속성을 변경한 경우 이로 인해 기존 사용자의 보고서가 손상되지 않아야 합니다.
-
-* 시각적 개체가 [Power BI 시각적 개체에 대한 지침](./guidelines-powerbi-visuals.md)을 준수해야 합니다. **워터마크는 허용되지 않습니다**.
-
-* 공용 검토 가능한 OSS 구성 요소만(공용 JS 라이브러리 또는 TypeScript는 소스 코드를 검토할 수 있으며 알려진 취약점이 없음) 사용합니다. 상용 구성 요소를 사용하여 사용자 지정 시각적 개체를 확인할 수 없습니다.
-
-* 외부 서비스 또는 리소스에 액세스하지 않습니다(HTTP/S 또는 WebSocket 요청이 없어도 Power BI에서 모든 서비스로 이동하는 것을 포함하되 이에 국한되지는 않음). 
+Power BI 시각적 개체를 [인증](#get-a-power-bi-visual-certified)받으려면 Power BI 시각적 개체가 이 섹션에 나열된 요구 사항을 준수해야 합니다. 
 
 > [!TIP]
 > 코드를 제출하기 전에 미리 유효성을 검사하려면 기본 보안 규칙 집합을 포함하는 EsLint를 사용하는 것이 좋습니다.
 
-## <a name="process-for-submitting-a-custom-visual-for-certification"></a>인증을 위해 사용자 지정 시각적 개체를 전송하는 프로세스
+* Microsoft 판매자 대시보드 또는 파트너 센터에서 승인해야 합니다. Power BI 시각적 개체가 [마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 있어야 합니다.
+* Power BI 시각적 개체가 *API v2.5* 이상으로 작성되어야 합니다.
+* Power BI 팀에서 코드 리포지토리를 검토할 수 있어야 합니다. 예를 들어 소스 코드(JavaScript 또는 TypeScript)의 읽기 가능한 형식을 GitHub를 통해 사용할 수 있어야 합니다.
 
-인증을 위해 사용자 지정 시각적 개체를 제출하려면:
+    >[!NOTE]
+    > Github에서 코드를 공용으로 공유할 필요는 없습니다.
 
-1. Power BI Power BI 시각적 개체 지원팀(pbicvsupport@microsoft.com)에 메일을 보냅니다. 전자 메일에는 다음 정보를 포함합니다.
-    * 제목: 시각적 개체 인증 요청
-    * 사람이 읽을 수 있는 소스 코드가 호스팅되는 GitHub 리포지토리에 연결
-    * [요구 사항 준수](#certification-requirements)
-    * 코드 검토 통과
+* 코드 리포지토리 요구 사항:
+  * 다음 파일을 포함해야 합니다.
+    * .gitignore
+    * capabilities.json
+    * pbiviz.json
+    * package.json
+    * package-lock.json
+    * tsconfig.json
+  * *node_modules* 폴더를 포함하지 않아야 합니다(.gitingore* 파일에 *node_modules* 추가).
+  * *npm install* 명령이 오류를 반환하지 않아야 합니다.
+  * *npm audit* 명령이 높음 또는 보통 수준의 경고를 반환하지 않아야 합니다.
+  * *pbiviz package* 명령이 오류를 반환하지 않아야 합니다.
+  * 구성 재정의 없이 [Microsoft의 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib)를 포함해야 합니다. 이 명령이 lint 오류를 반환하지 않아야 합니다.
+   * Power BI 시각적 개체의 컴파일된 패키지가 제출된 패키지와 일치해야 합니다(두 파일의 md5 해시가 동일해야 함).
+* 소스 코드 요구 사항:
+   * Power BI 시각적 개체가 [렌더링 이벤트 API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/)를 지원해야 합니다.
+   * 임의/동적 코드가 실행되지 않아야 합니다(불량: eval(), 안전하지 않은 사용: settimeout(), requestAnimationFrame(), setinterval(사용자 입력이 있는 일부 함수), 사용자 입력/데이터 실행).
+   * DOM이 안전하게 조작되었는지 확인해야 합니다(불량: innerHTML, D3.html(<일부 사용자/데이터 입력>), DOM에 추가하기 전에 사용자 입력/데이터에 대한 삭제를 사용).
+   * 브라우저 콘솔에 입력 데이터에 대한 javascript 오류 또는 예외가 없어야 합니다. 사용자가 Power BI 시각적 개체를 예기치 않은 다른 데이터 범위와 함께 사용할 수 있으므로 시각적 개체가 실패하지 않아야 합니다. 이 [샘플 보고서](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)를 테스트 데이터 집합으로 사용할 수 있습니다.
 
-2. Microsoft Power BI 시각적 개체 팀은 사용자 지정 시각적 개체가 인증되어 [인증된 목록](#list-of-power-bi-visuals-that-have-been-certified)에 추가되거나 수정해야 하는 문제에 대한 보고서와 함께 거부될 때 사용자에게 알립니다. 개발자는 Microsoft와의 통신을 열어 두고 필요한 경우 인증된 시각적 개체를 업데이트하는 것을 담당합니다.
+* *capabilities.json* 파일에서 속성을 변경한 경우 이로 인해 기존 사용자의 보고서가 손상되지 않아야 합니다.
+
+* Power BI 시각적 개체가 [Power BI 시각적 개체에 대한 지침](./guidelines-powerbi-visuals.md)을 준수해야 합니다.
+    
+* 코드는 공용 Javascript 또는 TypeScript 라이브러리와 같은 공용 검토 가능한 OSS 구성 요소만 사용할 수 있습니다. 소스 코드는 검토할 수 있어야 하고 알려진 취약점이 없어야 합니다. 상용 구성 요소를 사용하여 사용자 지정 시각적 개체를 확인할 수 없습니다.
+
+* Power BI 시각적 개체가 외부 서비스 또는 리소스에 액세스해서는 안 됩니다. 예를 들어 Power BI가 어떤 서비스에도 HTTP/S 또는 WebSocket 요청을 보낼 수 없어야 합니다. 
+
+## <a name="submitting-a-power-bi-visual-for-certification"></a>인증을 위한 Power BI 시각적 개체 제출
+
+파트너 센터를 통해 Power BI 팀에 Power BI 시각적 개체를 인증하도록 요청할 수 있습니다.
+
+>[!TIP]
+>Power BI 인증 프로세스는 시간이 걸릴 수 있습니다. 새 Power BI 시각적 개체를 만드는 경우 Power BI 인증을 요청하기 전에 파트너 센터를 통해 Power BI 시각적 개체를 게시하는 것이 좋습니다. 이렇게 하면 시각적 개체의 게시가 지연되지 않습니다.
+
+Power BI 인증을 요청하려면
+
+1. 파트너 센터에 로그인합니다.
+2. **개요 페이지**에서 Power BI 시각적 개체를 선택하고 **제품 설정** 페이지로 이동합니다.
+3. **Power BI 인증 요청** 확인란을 선택합니다.
+4. **검토 및 게시** 페이지의 **인증에 대한 참고 사항** 텍스트 상자에 소스 코드 및 액세스 자격 증명에 대한 링크를 제공합니다.
+
+>[!NOTE]
+> Power BI 시각적 개체 제출 프로세스를 진행하는 도중이고 [판매자 대시보드](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store)(이전 관리 도구)를 사용해야 하는 경우 [판매자 대시보드 인증 제출 프로세스](seller-dashboard.md#seller-dashboard-certification-submission-process) 지침을 검토하세요.
 
 ## <a name="list-of-power-bi-visuals-that-have-been-certified"></a>인증된 Power BI 시각적 개체 목록
 
-| AppSource에 연결 | 비디오에 연결 |
+| 링크 | 비디오 |
 | --- | --- |
 | [3AG Systems - Bar Chart With Relative Variance](https://appsource.microsoft.com/en/product/power-bi-visuals/WA104381912)(3AG 시스템 - 상대적 차이가 있는 막대형 차트) | |
 | [3AG Systems - Column Chart With Relative Variance](https://appsource.microsoft.com/product/power-bi-visuals/WA104381803)(3AG 시스템 - 상대적 차이가 있는 세로 막대형 차트) | |

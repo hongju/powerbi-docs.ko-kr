@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9588f13a857dc105dce3b3577df7c3b06df027ed
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6c8b62cf798d2fbbd09dab0603d216448d04487c
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699248"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000138"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>gx64krb5를 사용하는 SAP BW로의 SSO(Single Sign-On)에 Kerberos 사용
 
@@ -197,6 +197,8 @@ Power BI Desktop에서 연결하려는 머신 및 게이트웨이가 설치된 �
       ![CPIC 추적](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
     c. 문제를 재현하고, **CPIC\_TRACE\_DIR**에 추적 파일이 있는지 확인합니다. 
+    
+    d. 추적 파일의 내용을 검사하여 차단 문제를 확인합니다. 예를 들어 gx64krb5.dll이 제대로 로드되지 않았거나 예상하지 않은 Active Directory 사용자가 SSO 연결 시도를 시작한 것을 확인할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
