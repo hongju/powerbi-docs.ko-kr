@@ -542,7 +542,7 @@ Power BI 관리자는 Power BI 관리 포털을 방문 하 여 Power BI에 대 �
 - 관리자, 게스트 초대자 역할 및 구성원은 초대할 수 있습니다.
 - 게스트를 비롯 한 모든 사용자가 초대할 수 있습니다.
 
-이러한 정책에 대 한 자세한 내용은 [AZURE ACTIVE DIRECTORY B2B 공동 작업을 위한 대리인 초대](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-delegate-invitations)에서 확인할 수 있습니다.
+이러한 정책에 대 한 자세한 내용은 [Azure Active Directory B2B 공동 작업을 위한 대리인 초대](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-delegate-invitations)에서 확인할 수 있습니다.
 
 외부 사용자의 모든 Power BI 작업은 [감사 포털 에서도 감사](https://powerbi.microsoft.com/documentation/powerbi-admin-auditing/)됩니다.
 
