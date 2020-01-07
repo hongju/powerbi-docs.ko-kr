@@ -8,26 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882768"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548565"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
 예정된 라이브 웹 세미나에 등록하거나 녹화된 주문형 세션을 감상해 보세요.
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
-
-**Azure 가상 이벤트에서의 분석: Azure Synapse Analytics를 사용하여 인사이트 액세스 시간 단축**
-<br>작성자: Gayle Sheppard 및 John Macintyre
-<br>[지금 등록](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**빅 데이터 분석 미래 설계의 9가지 추세**
-<br>작성자: Vijay Gopalakrishnan
-<br>[12월 18일에 시청하도록 등록](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **AI가 BI를 변경하는 세 가지 방법**
 <br>작성자: Justyna Lucznik
@@ -39,6 +31,10 @@ ms.locfileid: "74882768"
 
 인기 있는 주문형 웹 세미나 시작
 
+**Azure 가상 이벤트에서의 분석: Azure Synapse Analytics를 사용하여 인사이트 액세스 시간 단축**
+<br>작성자: Gayle Sheppard 및 John Macintyre
+<br>[등록 및 지금 보기](https://info.microsoft.com/Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-On-Demand-Registration.html)
+
 **Microsoft는 BI 데이터 보호를 어떻게 변화시키는가**
 <br>작성자: Anton Fritz 및 Adi Regev
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
@@ -46,6 +42,10 @@ ms.locfileid: "74882768"
 **Power BI와 최신 BI 및 엔터프라이즈 BI의 미래**
 <br>작성자: Arun Ulag 및 Amir Netz
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+
+**빅 데이터 분석 미래 설계의 9가지 추세**
+<br>작성자: Vijay Gopalakrishnan
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Power BI 시작하기**
 <br>작성자: Miguel Martinez
