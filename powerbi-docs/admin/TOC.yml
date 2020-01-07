@@ -36,7 +36,7 @@
           href: ../service-admin-portal.md
         - name: 로그인한 사용자 찾기
           href: ../service-admin-access-usage.md
-        - name: 감사
+        - name: 사용자 활동 추적
           href: ../service-admin-auditing.md
         - name: 서비스 상태 추적
           href: ../service-admin-health.md
