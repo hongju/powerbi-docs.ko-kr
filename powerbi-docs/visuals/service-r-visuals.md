@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099826"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "74698995"
 ---
 # <a name="r-visuals-in-power-bi"></a>Power BI의 R 시각적 개체
 R 시각적 개체는 현재 **Power BI Desktop**에서 만든 다음 Power BI 서비스에 게시할 수 있습니다. R 시각적 개체 만들기에 대한 자세한 내용은 [R을 사용하여 Power BI 시각적 개체 만들기](../desktop-r-visuals.md)를 참조하세요.
@@ -94,6 +94,11 @@ Power BI 서비스의 R 시각적 개체에는 몇 가지 제한 사항이 있�
 * **웹에 게시**를 사용하는 경우 R 시각적 개체는 표시되지 않습니다.
 * R 시각적 개체는 현재 대시보드 및 보고서 인쇄를 인쇄하지 않습니다.
 * R 시각적 개체는 현재 Analysis Services의 DirectQuery 모드에서 지원되지 않습니다.
+* R 시각적 개체는 텍스트 레이블을 그래픽 요소로 변환하는 기능을 제공합니다. Power BI 서비스에서 이 작업을 수행하려면 다음과 같은 추가 단계가 필요합니다.
+  
+  * R 스크립트의 시작 부분에 다음 줄을 추가합니다.
+    
+        powerbi_rEnableShowText =  1
 * 한국어, 중국어, 일본어 글꼴이 Power BI 서비스에서 제대로 작동하려면 다음 추가 단계가 모두 필요합니다.
   
   * 먼저 R 패키지 *showtext*와 모든 종속성을 설치합니다. 다음 스크립트를 실행하면 됩니다.

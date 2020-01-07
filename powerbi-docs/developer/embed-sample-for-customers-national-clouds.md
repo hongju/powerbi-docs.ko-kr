@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 2d8fc35383aa427d8e5c9fd37c6c35f4f3d0a6bb
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 0e1f3361abfc4f45f71edaf82a197cfa3ea8cad3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565312"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695430"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>자습서:  내셔널 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -54,7 +54,7 @@ Power BI는 [내셔널 클라우드](https://docs.microsoft.com/azure/active-dir
 * GCC(정부 커뮤니티 클라우드):
 
     > [!NOTE]
-    > GCC(정부 커뮤니티 클라우드)의 Power BI 콘텐츠를 포함하려면 Office 356 SKU를 사용해야 합니다. GCC High 고객은 [Office 356 또는 Azure SKU](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365)를 사용할 수 있습니다.
+    > GCC(정부 커뮤니티 클라우드)의 Power BI 콘텐츠를 포함하려면 Office 356 SKU를 사용해야 합니다. 기타 국가 클라우드 고객은 [Office 356 또는 Azure SKU](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365)를 사용할 수 있습니다.
 
 1. GCCCloud.config 콘텐츠로 Cloud.config 파일을 덮어씁니다.
 

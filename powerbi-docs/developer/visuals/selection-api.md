@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f5e4769c750406a02ead656af551133fbceb738
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061894"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696445"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI 시각적 개체 선택 항목별로 시각적 개체에 대화형 작업 추가
 
@@ -35,9 +35,9 @@ export interface ISelectionId {
 
 ## <a name="how-to-use-selectionmanager-to-select-data-points"></a>SelectionManager를 사용하여 데이터 요소를 선택하는 방법
 
-시각적 호스트 개체는 선택 관리자 인스턴스를 만드는 메서드를 제공합니다. 선택 관리자는 선택 항목 선택 및 선택 취소, 상황에 맞는 메뉴 표시, 현재 선택 항목 저장 및 선택 상태 확인을 담당합니다. 또한 선택 관리자에는 이러한 작업에 해당하는 메서드가 있습니다.
+시각적 호스트 개체는 선택 관리자 인스턴스를 만드는 메서드를 제공합니다. 선택 관리자는 선택 항목 선택 및 선택 취소, 상황에 맞는 메뉴 표시, 현재 선택 항목 저장 및 선택 상태 확인을 담당합니다. 또한 선택 관리자에는 이 작업에 해당하는 메서드가 있습니다.
 
-### <a name="create-instance-of-selection-manager"></a>선택 관리자 인스턴스 만들기
+### <a name="create-an-instance-of-the-selection-manager"></a>선택 관리자의 인스턴스를 만듭니다.
 
 선택 관리자를 사용하려면 선택 관리자 인스턴스를 만들어야 합니다. 일반적으로 시각적 개체는 시각적 개체의 `constructor`에서 선택 관리자 인스턴스를 만듭니다.
 
@@ -56,7 +56,7 @@ export class Visual implements IVisual {
 }
 ```
 
-### <a name="create-instance-of-selection-builder"></a>선택 항목 작성기 인스턴스 만들기
+### <a name="create-an-instance-of-the-selection-builder"></a>선택 작성기의 인스턴스를 만듭니다.
 
 선택 관리자 인스턴스가 만들어지면 시각적 개체의 각 데이터 요소에 대해 `selections`를 만들어야 합니다. 시각적 호스트 개체는 각 데이터 요소에 대해 선택 항목을 생성하는 `createSelectionIdBuilder` 메서드를 제공합니다. 이 메서드는 `powerbi.visuals.ISelectionIdBuilder` 인터페이스를 사용하여 개체의 인스턴스를 반환합니다.
 
@@ -71,17 +71,17 @@ export interface ISelectionIdBuilder {
 }
 ```
 
-이 개체에는 다양한 유형의 데이터 뷰 매핑에 대한 `selections`를 만드는 메서드가 있습니다.
+이 개체에는 다양한 유형의 데이터 뷰 매핑에 대한 `selections`를 만들 수 있는 메서드가 있습니다.
 
 > [!NOTE]
-> `withTable`, `withMatrixNode` 메서드는 Power BI 시각적 개체의 API 2.5.0에서 도입되었습니다.
+> `withTable` 및 `withMatrixNode` 메서드는 Power BI 시각적 개체의 API 2.5.0에서 도입되었습니다.
 > 테이블 또는 행렬 데이터 뷰 매핑의 선택 항목을 사용해야 하는 경우 API 버전을 2.5.0 이상으로 업데이트해야 합니다.
 
 ### <a name="create-selections-for-categorical-data-view-mapping"></a>범주 데이터 뷰 매핑에 대한 선택 항목 만들기
 
 샘플 데이터 세트에 대한 범주 데이터 뷰 매핑에서 선택 항목이 어떻게 표시되는지 검토해 보겠습니다.
 
-| 제조회사 | 형식 | 값 |
+| 제조업체 | 형식 | 값 |
 | - | - | - |
 | Chrysler | 국내 승용차 | 28883 |
 | Chrysler | 국내 트럭 | 117131 |
@@ -108,7 +108,7 @@ export interface ISelectionIdBuilder {
 | Toyota | 수입 승용차 | 20799 |
 | Toyota | 수입 트럭 | 23614 |
 
-그리고 시각적 개체는 다음과 같은 데이터 뷰 매핑을 사용합니다.
+시각적 개체는 다음과 같은 데이터 뷰 매핑을 사용합니다.
 
 ```json
 {
@@ -155,13 +155,13 @@ export interface ISelectionIdBuilder {
 }
 ```
 
-이 샘플에서는 `Manafacturer`가 `columns`이고 `Type`이 `rows`입니다. `rows`(`Type`)를 기준으로 값을 그룹화하여 만든 시리즈가 있습니다.
+이 샘플에서는 `Manufacturer`가 `columns`이고 `Type`이 `rows`입니다. `rows`(`Type`)를 기준으로 값을 그룹화하여 만든 시리즈가 있습니다.
 
-그리고 시각적 개체는 `Manafacturer` 및 `Type`을 기준으로 데이터를 분할할 수 있어야 합니다.
+그리고 시각적 개체는 `Manufacturer` 및 `Type`을 기준으로 데이터를 분할할 수 있어야 합니다.
 
-예를 들어 사용자가 `Manafacturer`에서 `Chrysler`를 선택하면 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
+예를 들어 사용자가 `Manufacturer`에서 `Chrysler`를 선택하면 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
 
-| 제조회사 | 형식 | 값 |
+| 제조업체 | 형식 | 값 |
 | - | - | - |
 | **Chrysler** | 국내 승용차 | 28883 |
 | **Chrysler** | 국내 트럭 | 117131 |
@@ -170,7 +170,7 @@ export interface ISelectionIdBuilder {
 
 사용자가 `Type`에서 `Import Car`를 선택하면(계열을 기준으로 데이터를 선택) 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
 
-| 제조회사 | 형식 | 값 |
+| 제조업체 | 형식 | 값 |
 | - | - | - |
 | Chrysler | **수입 승용차** | 0 |
 | Ford | **수입 승용차** | 0 |
@@ -185,7 +185,7 @@ export interface ISelectionIdBuilder {
 
 ![선택 항목이 포함된 시각적 개체의 데이터 바구니](media/visual-selections-databuckets.png)
 
-범주(열)로 `Manafacturer`, 계열(행)로 `Type`, 계열에 대한 `Values`로 `Value`가 있습니다.
+범주(열)로 `Manufacturer`, 계열(행)로 `Type`, 계열에 대한 `Values`로 `Value`가 있습니다.
 
 > [!NOTE]
 > 시각적 개체는 데이터 뷰 매핑에 따라 `Values`가 `Rows` 데이터를 기준으로 그룹화될 것으로 예상하므로 `Values`가 계열에 필요합니다.
@@ -196,7 +196,7 @@ export interface ISelectionIdBuilder {
 // categories
 const categories = dataView.categorical.categories;
 
-// create label for 'Manafacturer' column
+// create label for 'Manufacturer' column
 const p = document.createElement("p") as HTMLParagraphElement;
 p.innerText = categories[0].source.displayName.toString();
 this.target.appendChild(p);
@@ -209,7 +209,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
     const categoryValue: powerbi.PrimitiveValue = categories[0].values[categoryIndex];
 
     const categorySelectionId = this.host.createSelectionIdBuilder()
-        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manafacturer` column)
+        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manufacturer` column)
         .createSelectionId();
     this.dataPoints.push({
         value: categoryValue,
@@ -231,7 +231,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 
 샘플 코드에서는 모든 범주를 반복하는 것을 볼 수 있습니다. 또한 각 반복에서 `createSelectionIdBuilder`를 호출하고 선택 항목 작성기의 `withCategory` 메서드를 호출하여 각 범주에 대해 다음 선택 항목을 만듭니다. `createSelectionId` 메서드는 생성된 `selection` 개체를 반환하는 최종 메서드로 사용됩니다.
 
-`withCategory` 메서드에서는 `category`의 열을 전달합니다. 샘플에서는 이것이 `Manafacturer`와 범주 요소의 인덱스입니다.
+`withCategory` 메서드에서는 `category`의 열을 전달하고, 샘플에서는 이것이 `Manufacturer`와 범주 요소의 인덱스입니다.
 
 #### <a name="create-selections-for-series"></a>계열에 대한 선택 항목 만들기
 
@@ -361,7 +361,7 @@ interface ISelectionManager {
 }
 ```
 
-`select`는 선택 항목의 배열을 수락할 수 있다는 것을 알 수 있습니다. 이는 시각적 개체가 여러 데이터 요소를 선택할 수 있음을 의미합니다. 두 번째 매개 변수`multiSelect`는 다중 선택을 담당합니다. 값이 true이면 Power BI가 이전 선택 상태를 지우지 않고 현재 선택을 적용합니다. 그렇지 않으면 이전 선택 항목이 다시 설정됩니다.
+`select`는 선택 항목의 배열을 수락할 수 있다는 것을 알 수 있습니다. 이는 시각적 개체가 여러 데이터 요소를 선택할 수 있음을 의미합니다. 두 번째 매개 변수 `multiSelect`에서 다중 선택을 담당합니다. 값이 true이면 Power BI가 이전 선택 상태를 지우지 않고 현재 선택을 적용합니다. 그렇지 않으면 이전 선택 항목이 다시 설정됩니다.
 
 클릭 이벤트에서 CTRL 단추 상태를 처리하는 `multiSelect`를 사용하는 일반적인 시나리오입니다.
 

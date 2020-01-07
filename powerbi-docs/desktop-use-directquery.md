@@ -10,10 +10,10 @@ ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73876063"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery 사용
@@ -96,5 +96,5 @@ DirectQuery를 사용하는 **Azure SQL Database**, **Azure SQL Data Warehouse**
 * [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
 * [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)
 * [DirectQuery 및 SAP HANA](desktop-directquery-sap-hana.md)
-* [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)
+* [On-premises data gateway (온-프레미스 데이터 게이트웨이)](service-gateway-onprem.md)
 

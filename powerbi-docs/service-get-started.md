@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 서비스 시작
 description: Power BI 온라인 서비스 시작(app.powerbi.com)
 author: maggiesMSFT
@@ -86,7 +86,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
    
    ![필드 목록](media/service-get-started/power-bi-service-fields-pane-selected.png)
 
-    Power BI에서 데이터를 분석하고 시각적 개체를 만듭니다. **날짜**를 먼저 선택한 경우에는 테이블이 표시되고, **총 판매량**을 먼저 선택한 경우에는 세로 막대형 차트가 표시됩니다. 
+    Power BI에서 데이터를 분석하고 시각적 개체를 만듭니다. **Date** 를 먼저 선택한 경우에는 테이블이 표시되고, **Gross Sales**를 먼저 선택한 경우에는 세로 막대형 차트가 표시됩니다. 
 
 2. 데이터를 표시하는 다른 방법으로 전환합니다. 이 데이터를 꺾은선형 차트로 표시해 보겠습니다. **시각화** 창에서 꺾은선형 차트 아이콘을 선택합니다.
    
@@ -137,21 +137,21 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
     > [!NOTE]
     > 제안이 표시되지 않는 경우 **새 질문 및 답변 환경**을 켭니다.
 
-2. 일부 제안은 단일 값을 반환합니다. 예를 들어 **최대 판매**를 선택합니다.
+2. 일부 제안은 단일 값을 반환합니다. 예를 들어 **maximum sale**를 선택합니다.
 
     질문 및 답변에서 답변을 검색하고 *카드* 시각화 형태로 제공합니다.
 
     ![최대 판매 카드](media/service-get-started/power-bi-service-qanda-maximum-sale.png)
 
-3. 고정 아이콘 ![고정 아이콘](media/service-get-started/pbi_pinicon.png) 자습서용 재무 샘플 대시보드에 이 시각화를 표시합니다.
+3. 고정 아이콘 ![고정 아이콘](media/service-get-started/pbi_pinicon.png) 을 선택하여 자습서용 재무 샘플 대시보드에 이 시각화를 표시합니다.
 
-1. **시작할 질문** 목록에서 아래로 스크롤한 다음 **매월 평균 COG**를 선택합니다. 
+1. **시작할 질문** 목록에서 아래로 스크롤한 다음 **average cog for each month**를 선택합니다. 
 
     ![매월 평균 COG](media/service-get-started/power-bi-service-qanda-average-cog.png)
 
 1. **자습서용 재무 샘플** 대시보드에 가로 막대형 차트를 고정합니다.
 
-1. 질문 및 답변 상자의 *월별* 뒤에 커서를 배치하고 *꺾은선형*을 입력합니다. **꺾은선형(시각화 유형)** 을 선택합니다. 
+1. 질문 및 답변 상자의 *by month* 뒤에 커서를 배치하고 *as line*을 입력합니다. **꺾은선형(시각화 유형)** 을 선택합니다. 
 
     ![꺾은선형 시각화 차트](media/service-get-started/power-bi-service-qanda-as-line.png)
 
@@ -165,7 +165,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
 대시보드는 넓습니다. 타일을 재정렬하여 대시보드 공간을 더 효율적으로 사용할 수 있습니다.
 
-1. 판매 타일과 같은 높이로 맞춰질 때까지 *총 판매량* 꺾은선형 차트 타일의 오른쪽 아래 모퉁이를 위로 끈 다음 놓습니다.
+1. Sales 타일과 같은 높이로 맞춰질 때까지 *Gross Sales* 꺾은선형 차트 타일의 오른쪽 아래 모퉁이를 위로 끈 다음 놓습니다.
 
     ![타일 크기 조정](media/service-get-started/power-bi-service-resize-tile.png)
 
@@ -173,7 +173,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
     ![크기 조정된 타일](media/service-get-started/power-bi-service-resized-tile.png)
 
-1. *총 판매량* 꺾은선형 차트 아래로 맞춰질 때까지 *평균 COGS* 가로 막대형 차트 타일을 끕니다.
+1. *Gross Sales* 꺾은선형 차트 아래로 맞춰질 때까지 *Average of COGS* 가로 막대형 차트 타일을 끕니다.
 
     이편이 훨씬 낫습니다.
 
@@ -183,13 +183,13 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
 고유한 대시보드 및 보고서를 만들기를 시작하기 전에 살펴봐야 하는 마지막 상호 작용이 있습니다. 다른 타일을 선택하면 다른 결과가 발생합니다. 
 
-1. 먼저 보고서에서 고정한 *총 판매량* 꺾은선형 차트 타일을 선택합니다. 
+1. 먼저 보고서에서 고정한 *Gross Sales* 꺾은선형 차트 타일을 선택합니다. 
 
     Power BI가 보고서를 읽기용 보기로 엽니다. 
 
 2. 브라우저 뒤로 단추를 선택합니다. 
 
-1. 이제 질문 및 답변에서 만든 *COGS 평균* 가로 막대형 차트 타일을 선택합니다. 
+1. 이제 질문 및 답변에서 만든 *Average of COGS* 가로 막대형 차트 타일을 선택합니다. 
 
     Power BI에서 보고서를 열지 않습니다. 대신 질문 및 답변이 열리는데, 여기에서 이 차트를 만들었기 때문입니다.
 

@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871726"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699100"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI에서 실시간 스트리밍
 Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스트리밍하고 대시보드를 업데이트할 수 있습니다. Power BI에서 만들 수 있는 시각적 개체 또는 대시보드를 실시간 데이터 및 시각적 개체를 표시하고 업데이트하도록 만들 수도 있습니다. 스트리밍 데이터의 디바이스 및 원본은 팩터리 센서, 소셜 미디어 원본, 서비스 사용 메트릭 및 시간이 중요한 데이터가 수집되거나 전송되는 모든 것일 수 있습니다.
 
-![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+![실시간 환경 센서의 결과를 보여 주는 스크린샷](media/service-real-time-streaming/real-time-streaming-10.png)
 
 이 문서에서는 Power BI에서 실시간 스트리밍 데이터 세트를 설정하는 방법을 보여 줍니다. 시작하기 전에 타일(및 대시보드)에 표시하도록 설계된 실시간 데이터 세트의 형식들과 그러한 데이터 세트가 어떻게 다른지 이해하는 것이 중요합니다.
 
@@ -198,7 +198,7 @@ Power BI에서 실시간 스트리밍이 작동되는 방법에 대한 간단한
    ![](media/service-real-time-streaming/real-time-streaming_9.png)
 5. 다시 Power BI 작업 영역에서 새 대시보드를 만든 다음 타일을 추가합니다(필요할 경우 위의 단계 참조). 타일을 만들고 **스트리밍 데이터 사용자 지정**을 선택할 때 스트리밍 데이터 집합을 함께 사용하도록 설정했습니다. 계속 진행하여 알아봅니다. *번호* 필드를 꺾은선형 차트에 추가한 다음 다른 타일을 추가하여 다음과 같이 보이는 실시간 대시보드를 얻을 수 있습니다.
    
-   ![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+   ![실시간 환경 센서의 결과를 보여 주는 스크린샷](media/service-real-time-streaming/real-time-streaming-10.png)
 
 직접 시도해보고 샘플 데이터 세트를 살펴봅니다. 그런 다음, Power BI에 고유한 데이터 세트 및 스트림 라이브 데이터를 만듭니다.
 
