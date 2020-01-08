@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f16cffe24d7eae5fe919dd2aa29949855258842
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698282"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958474"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 보기)
 
@@ -30,7 +30,8 @@ BYOK를 사용하려면 Power BI Desktop(PBIX) 파일에서 Power BI 서비스�
 
 - Analysis Services 라이브 연결
 - Excel 통합 문서(데이터를 Power BI Desktop으로 먼저 가져오는 경우 제외)
-- 푸시 데이터 세트
+- [푸시 데이터 세트](/rest/api/power-bi/pushdatasets)
+- [스트리밍 데이터 세트](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [대형 모델](service-premium-large-models.md)
 
 BYOK는 PBIX 파일과 연결된 데이터 세트에만 적용되며 타일 및 시각적 개체에 대한 쿼리 결과 캐시는 적용되지 않습니다.

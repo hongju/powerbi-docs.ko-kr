@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5374397dc9b89df7b7cbd86cfca5a44631b94e4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876481"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999793"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Power BI Desktop에서 Microsoft Graph Security API에 연결
 
@@ -40,7 +40,7 @@ Microsoft Graph 보안 커넥터를 사용하려면 Azure AD(Azure Active Direct
 
 * [애플리케이션-동의 환경](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)을 통해 처음 실행하는 동안 논리 앱이 제출한 요청에 응답합니다.
    
-Microsoft Graph Security 커넥터에 로그인하는 사용자 계정은 *Security Reader* 또는 *Security Administrator*로 Azure AD의 Security Reader Limited Admin 역할 멤버여야 합니다. [사용자에게 Azure AD 역할 할당](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users)을 참조하세요.
+사용자가 *보안 관리자* 역할의 구성원이 **아닌 경우** Microsoft Graph 보안 커넥터에 로그인하는 사용자 계정에 Azure AD 보안 읽기 권한자 역할을 할당해야 합니다. [사용자에게 Azure AD 역할 할당](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users)을 참조하세요.
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>Microsoft Graph 보안 커넥터 사용
 

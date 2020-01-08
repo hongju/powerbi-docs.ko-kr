@@ -11,10 +11,10 @@ ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74831123"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 보고서 및 대시보드에 자신과 다른 사용자 구독
@@ -40,7 +40,7 @@ Power BI 서비스에만 구독을 만들 수 있습니다. 보고서 페이지 
 
 페이지를 매긴 보고서를 구독하는 것은 약간 다릅니다. 자세한 내용은 [Power BI 서비스의 페이지를 매긴 보고서에 자신과 다른 사용자 구독](consumer/paginated-reports-subscriptions.md)을 참조하세요.
  
-![구독 아이콘 선택](media/service-report-subscribe/power-bi-subscribe-orientation.png).
+![구독 아이콘 선택](media/service-report-subscribe/power-bi-subscribe-orientation.png)을 탭합니다.
 
 1. 대시보드 또는 보고서를 엽니다.
 2. 상단의 메뉴 모음에서 **구독**을 선택하거나 봉투 아이콘 ![구독 아이콘](media/service-report-subscribe/power-bi-icon-envelope.png)을 선택합니다.

@@ -11,10 +11,10 @@ ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
 ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871277"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Power BI Service에서 텍스트로 반환된 중첩 값 문제 해결

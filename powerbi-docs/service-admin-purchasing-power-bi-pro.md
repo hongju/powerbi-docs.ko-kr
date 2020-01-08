@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ebaf32bbf84dcbb8efd8516fd0a1ab01011f2d63
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 55cdfad221aef276c790e98de83dd844bc13aafe
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698489"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958710"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro 사용자 라이선스 구매 및 할당
 
-Power BI Pro는 Power BI 서비스에서 다른 사용자가 게시한 보고서와 대시보드를 사용자가 읽고 조작하는 것은 물론 다른 Power BI Pro 사용자와 콘텐츠를 공유하고 협업할 수 있게 해주는 개별 사용자 라이선스입니다. 콘텐츠가 Power BI Premium 용량에 호스트되지 않은 경우, Power BI Pro 사용자 라이선스가 있는 사용자만 콘텐츠를 게시하거나, 다른 사용자와 공유하거나, 다른 사용자가 만든 콘텐츠를 사용할 수 있습니다. 자세한 내용은 [라이선스 유형별 Power BI 기능](service-features-license-type.md)을 참조하세요.
+Power BI Pro는 Power BI 서비스에서 다른 사용자가 게시한 보고서와 대시보드를 사용자가 읽고 조작하는 것은 물론 다른 Power BI Pro 사용자와 콘텐츠를 공유하고 협업할 수 있게 해주는 개별 사용자 라이선스입니다. 콘텐츠가 Power BI Premium 용량에 호스트되지 않은 경우, Power BI Pro 사용자 라이선스가 있는 사용자만 콘텐츠를 게시하거나, 다른 사용자와 공유하거나, 다른 사용자가 만든 콘텐츠를 사용할 수 있습니다. 자세한 내용은 [Power BI 가격](https://powerbi.microsoft.com/pricing/)의 _Power BI 기능 비교_ 섹션을 참조하세요.
 
 ## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro 사용자 라이선스 구매 및 할당
 

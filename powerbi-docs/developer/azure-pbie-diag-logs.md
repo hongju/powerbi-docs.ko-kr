@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265720"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure의 Power BI Embedded에 대한 진단 로깅
@@ -126,7 +126,7 @@ PowerShell을 사용하여 메트릭 및 진단 로깅을 사용하도록 설정
 | ObjectID | 464 | 개체 ID |
 | ObjectType | 802012 | ObjectType |
 | EndTime | 2018-04-06T18:30:11.9137358Z | 이벤트가 끝난 시간입니다. |
-| Duration | 0 | 이벤트에서 사용한 시간(밀리초)입니다. |
+| 기간 | 0 | 이벤트에서 사용한 시간(밀리초)입니다. |
 | SessionType | 사용자 | 세션 유형(작업을 발생시킨 엔터티)입니다. |
 | ProgressTotal | 0 | 총 진행률입니다. |
 | IntegerData | 0 | 정수 데이터입니다. |

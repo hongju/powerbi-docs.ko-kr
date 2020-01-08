@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8789986e94c860bffc622d903e33b4f1edabdd2d
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 1f350e8ff888ffc2fd95e6c47bf84ccc96ebf88b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696167"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000161"
 ---
 # <a name="auto-datetime-in-power-bi-desktop"></a>Power BI Desktop의 자동 날짜/시간
 
@@ -36,7 +36,7 @@ ms.locfileid: "74696167"
 
 Power BI Desktop에서 자동 날짜/시간 테이블의 **Date** 열과 모델 날짜 열 사이의 관계를 만듭니다.
 
-자동 날짜/시간 테이블에는 모델 날짜 열에 저장된 모든 날짜 값을 포함하는 전체 달력 연도가 포함됩니다. 예를 들어 날짜 열의 가장 이른 값이 2016년 3월 20일이고, 최신 값이 2019년 10월 23일이면 테이블에 1,461개의 행이 포함됩니다. 2016년부터 2019년까지 4년 동안 각 날짜에 대해 한 행씩 나타냅니다. Power BI에서 모델을 새로 고치는 경우 각 자동 날짜/시간 테이블도 새로 고쳐져 날짜 열 값을 포함하는 날짜가 포함되도록 합니다.
+자동 날짜/시간 테이블에는 모델 날짜 열에 저장된 모든 날짜 값을 포함하는 전체 달력 연도가 포함됩니다. 예를 들어 날짜 열의 가장 이른 값이 2016년 3월 20일이고, 최신 값이 2019년 10월 23일이면 테이블에 1,461개의 행이 포함됩니다. 2016년부터 2019년까지 4년 동안 각 날짜에 대해 한 행씩 나타냅니다. Power BI가 모델을 새로 고치면 각 자동 날짜/시간 테이블도 새로 고쳐집니다. 이러한 방식으로 모델에는 항상 날짜 열 값을 포함하는 날짜가 포함됩니다.
 
 자동 날짜/시간 테이블의 행을 볼 수 있으면 다음과 같이 표시될 수 있습니다.
 
@@ -93,7 +93,8 @@ Power BI Desktop에서 _파일 > 옵션 및 설정 > 옵션_을 차례로 선택
 
 ## <a name="next-steps"></a>다음 단계
 
-자동 날짜/시간 및 관련 항목에 대한 자세한 내용은 다음 리소스를 확인하세요.
+이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
+- [Power BI Desktop의 자동 날짜/시간 지침](guidance/auto-date-time.md)
 - [Power BI Desktop에서 날짜 테이블 설정 및 사용](desktop-date-tables.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
