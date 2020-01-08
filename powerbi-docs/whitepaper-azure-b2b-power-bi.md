@@ -454,12 +454,12 @@ Azure AD에서이를 해결 하면 Contoso는 추가할 준비가 된 창에 표
 
 ## <a name="connecting-to-on-premises-data-sources"></a>온-프레미스 데이터 원본에 연결
 
-Power BI는 Contoso에서 [온-프레미스 데이터 게이트웨이](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/)를 통해 [SQL Server Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/) 또는 [SQL Server](https://powerbi.microsoft.com/documentation/powerbi-gateway-kerberos-for-sso-pbi-to-on-premises-data/)와 같은 온-프레미스 데이터 원본을 활용할 수 있는 기능을 제공 합니다. Power BI에 사용하는 것과 동일한 자격 증명을 사용하여 해당 데이터 원본에 로그온 할 수도 있습니다.
+Power BI는 Contoso에서 [온-프레미스 데이터 게이트웨이](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/)를 통해 [SQL Server Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/) 또는 [SQL Server](https://powerbi.microsoft.com/documentation/powerbi-gateway-kerberos-for-sso-pbi-to-on-premises-data/)와 같은 온-프레미스 데이터 원본을 활용할 수 있는 기능을 제공합니다. Power BI에 사용하는 것과 동일한 자격 증명을 사용하여 해당 데이터 원본에 로그온할 수도 있습니다.
 
 > [!NOTE]
 > 게이트웨이를 설치하여 Power BI 테넌트에 연결하는 경우 테넌트 내에서 만든 사용자를 사용해야 합니다. 외부 사용자는 게이트웨이를 설치하고 테넌트에 연결할 수 없습니다.
 
-외부 사용자의 경우 외부 사용자가 일반적으로 온-프레미스 AD에 알려지지 않기 때문에 이 방법이 더 복잡할 수 있습니다. Power BI는 [데이터 원본 관리-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)에 설명된 대로 Contoso 관리자가 외부 사용자 이름을 내부 사용자 이름에 매핑하는 것을 허용하여 해결 방법을 제공 합니다. 예를 들어 [lucy@supplier1.com](mailto:lucy@supplier1.com)는 [\_supplier1\_com #EXT@contoso.com](mailto:lucy_supplier1_com)에 매핑될 수 있습니다.
+외부 사용자의 경우 외부 사용자가 일반적으로 온-프레미스 AD에 알려지지 않기 때문에 이 방법이 더 복잡할 수 있습니다. Power BI는 [데이터 원본 관리-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)에 설명된 대로 Contoso 관리자가 외부 사용자 이름을 내부 사용자 이름에 매핑하는 것을 허용하여 해결 방법을 제공합니다. 예를 들어 [lucy@supplier1.com](mailto:lucy@supplier1.com)는 [\_supplier1\_com #EXT@contoso.com](mailto:lucy_supplier1_com)에 매핑될 수 있습니다.
 
 ![사용자 이름 매핑](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_40.png)
 
@@ -472,12 +472,12 @@ Contoso는 Power BI 콘텐츠를 조직 간 편집 및 관리 섹션에서 이�
 > [!NOTE]
 > 조직의 Power BI 내에서 콘텐츠를 편집하고 관리하려면 사용자는 내 작업 영역 이외의 작업 영역에서 Power BI Pro 라이선스를 보유해야 합니다. 사용자는 이 문서의 _라이선스_ 섹션에서 설명하는 대로 Pro 라이선스를 얻을 수 있습니다.
 
-Power BI 관리 포털은 테넌트 설정에서 **외부 게스트 사용자가 조직에서 콘텐츠를 편집하고 관리할 수 있도록 허용** 설정을 제공 합니다. 기본적으로 이 설정은 사용 안 함으로 설정됩니다. 즉, 외부 사용자는 기본적으로 제한된 읽기 전용 환경을 가져옵니다. 이 설정은 Azure AD에서 UserType이 게스트로 설정된 사용자에게 적용됩니다. 다음 표에서는 UserType에 따라 사용자가 경험하는 동작과 설정을 구성하는 방법에 대해 설명합니다.
+Power BI 관리 포털은 테넌트 설정에서 **외부 게스트 사용자가 조직에서 콘텐츠를 편집하고 관리할 수 있도록 허용** 설정을 제공합니다. 기본적으로 이 설정은 사용 안 함으로 설정됩니다. 즉, 외부 사용자는 기본적으로 제한된 읽기 전용 환경을 가져옵니다. 이 설정은 Azure AD에서 UserType이 게스트로 설정된 사용자에게 적용됩니다. 다음 표에서는 UserType에 따라 사용자가 경험하는 동작과 설정을 구성하는 방법에 대해 설명합니다.
 
 | **Azure AD의 사용자 유형** | **외부 게스트 사용자가 콘텐츠를 편집 및 관리 하도록 허용 설정** | **행동** |
 | --- | --- | --- |
-| 게스트 | 사용자에 대해 사용 안 함 (기본값) | 항목 소비 전용 보기입니다. 게스트 사용자에게 전송된 URL을 통해 볼 때 보고서, 대시보드 및 앱에 대 한 읽기 전용 액세스를 허용 합니다. Power BI 모바일 앱은 게스트 사용자에게 읽기 전용 보기를 제공 합니다. |
-| 게스트 | 사용자에 대해 사용 | 외부 사용자는 일부 기능을 사용할 수 없지만 전체 Power BI 환경에 액세스할 수 있습니다. 외부 사용자는 포함된 테넌트 정보와 함께 Power BI 서비스 URL을 사용하여 Power BI에 로그인해야 합니다. 사용자는 홈 환경, 내 작업 영역 및 사용 권한을 기반으로 콘텐츠를 검색하고, 읽고, 만들 수 있습니다. </br></br> Power BI 모바일 앱은 게스트 사용자에게 읽기 전용 보기를 제공합니다. |
+| 게스트 | 사용자에 대해 사용 안 함(기본값) | 항목 소비 전용 보기입니다. 게스트 사용자에게 전송된 URL을 통해 볼 때 보고서, 대시보드 및 앱에 대한 읽기 전용 액세스를 허용합니다. Power BI Mobile 앱은 게스트 사용자에게 읽기 전용 보기를 제공합니다. |
+| 게스트 | 사용자에 대해 사용 | 외부 사용자는 일부 기능을 사용할 수 없지만 전체 Power BI 환경에 액세스할 수 있습니다. 외부 사용자는 포함된 테넌트 정보와 함께 Power BI 서비스 URL을 사용하여 Power BI에 로그인해야 합니다. 사용자는 홈 환경, 내 작업 영역 및 사용 권한을 기반으로 콘텐츠를 검색하고, 읽고, 만들 수 있습니다. </br></br> Power BI Mobile 앱은 게스트 사용자에게 읽기 전용 보기를 제공합니다. |
 
 > [!NOTE]
 > Azure AD의 외부 사용자는 UserType Member로도 설정할 수 있습니다. 이 기능은 현재 Power BI에서 지원되지 않습니다.
