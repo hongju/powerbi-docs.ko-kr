@@ -7,16 +7,18 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 393f6f25fedddd9ff17d635ae67ce473ab57eea4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880915"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791778"
 ---
+- % 연도의 매출 총 이익 선은 어디에 있나요? 여러 개의 가로 막대형 차트를 사용할 수 있지만, 여러 개의 줄은 사용할 수 없습니다.
+
 # <a name="customize-x-axis-and-y-axis-properties"></a>X축 및 Y축 속성 사용자 지정
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
@@ -171,7 +173,7 @@ Y축 제목이 **켜기**이면 Y축 제목이 Y축 레이블 옆에 표시됩�
 
 ### <a name="create-a-chart-with-two-y-axes"></a>Y축 두 개로 차트 만들기
 
-1. 세로 막대형 차트를 선택하고, *꺾은선형 및 누적 세로 막대형* 차트로 변경합니다. 
+1. 세로 막대형 차트를 선택하고, *꺾은선형 및 누적 세로 막대형* 차트로 변경합니다. 이 형식의 시각적 개체는 단일 꺾은선형 차트 값과 여러 개의 스택형 열 값을 지원합니다. 
 
     ![꺾은선형 차트 및 누적 세로 막대형 차트 아이콘이 호출된 시각화 창의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
    
@@ -185,7 +187,7 @@ Y축 제목이 **켜기**이면 Y축 제목이 Y축 레이블 옆에 표시됩�
 
    ![글꼴 크기를 12로 줄인 콤보 차트 및 서식 창](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-font-size.png)
 
-   Power BI에서 서로 다르게 크기 조정할 수 있는 값을 허용하는 두 개의 Y축을 만듭니다. 왼쪽 축은 달러를, 오른쪽 축은 백분율을 측정합니다.
+   Power BI에서 서로 다르게 크기 조정할 수 있는 값을 허용하는 두 개의 Y축을 만듭니다. 왼쪽 축은 매출(달러)을 측정하고 오른쪽 축은 매출 총이익률을 측정합니다.
 
 ### <a name="format-the-second-y-axis"></a>두 번째 Y축 서식 지정
 서식 지정된 하나의 Y축을 사용하여 시각화를 시작했으므로 Power BI에서 동일한 설정을 사용하여 두 번째 Y축을 만들었습니다. 그러나 이를 변경할 수 있습니다. 

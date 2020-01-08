@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099766"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "74831123"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 보고서 및 대시보드에 자신과 다른 사용자 구독
 
@@ -38,9 +38,9 @@ Power BI 서비스에만 구독을 만들 수 있습니다. 보고서 페이지 
 
 대시보드를 구독하든, 보고서를 구독하든, 또는 게시된 보고서를 구독하든, 프로세스는 유사합니다. 동일한 단추를 사용하면 Power BI 서비스 대시보드 및 보고서를 구독할 수 있습니다.
 
-페이지를 매긴 보고서를 구독하는 것은 약간 다릅니다. 자세한 내용은 [Power BI 서비스의 페이지를 매긴 보고서에 자신과 다른 사용자 구독](paginated-reports-subscriptions.md)을 참조하세요.
+페이지를 매긴 보고서를 구독하는 것은 약간 다릅니다. 자세한 내용은 [Power BI 서비스의 페이지를 매긴 보고서에 자신과 다른 사용자 구독](consumer/paginated-reports-subscriptions.md)을 참조하세요.
  
-![구독 아이콘 선택](media/service-report-subscribe/power-bi-subscribe-orientation.png).
+![구독 아이콘 선택](media/service-report-subscribe/power-bi-subscribe-orientation.png)을 탭합니다.
 
 1. 대시보드 또는 보고서를 엽니다.
 2. 상단의 메뉴 모음에서 **구독**을 선택하거나 봉투 아이콘 ![구독 아이콘](media/service-report-subscribe/power-bi-icon-envelope.png)을 선택합니다.
@@ -107,6 +107,6 @@ Pro 라이선스가 만료되거나 소유자가 대시보드 또는 보고서�
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독](paginated-reports-subscriptions.md)
+- [Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독](consumer/paginated-reports-subscriptions.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)    
 - [블로그 게시물 읽기](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

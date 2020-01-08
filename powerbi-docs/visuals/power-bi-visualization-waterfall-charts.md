@@ -7,15 +7,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881960"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907667"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI의 폭포 차트
 
@@ -63,9 +63,11 @@ ms.locfileid: "73881960"
 
 월별 매출 편차(실제 매출과 예상 매출의 편차)를 표시하는 폭포 차트를 만들겠습니다.
 
+### <a name="build-the-waterfall-chart"></a>폭포 차트 만들기
+
 1. **필드** 창에서 **판매량** > **총판매액 차이**를 선택합니다.
 
-   ![선택된 판매량 > 총판매액 차이에 해당하는 시각적 개체의 스크린샷](media/power-bi-visualization-waterfall-charts/power-bi-first-value.png)
+   ![선택된 판매량 > 총판매액 차이에 해당하는 시각적 개체의 스크린샷](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
 1. 폭포 아이콘 ![폭포 아이콘의 스크린샷](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)
 
@@ -73,41 +75,45 @@ ms.locfileid: "73881960"
 
 1. **시간** > **FiscalMonth**를 선택하여 **범주** 영역에 추가합니다.
 
-    ![폭포](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![폭포](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
-1. Power BI에서 폭포 차트가 시간순으로 정렬되도록 합니다. 차트의 오른쪽 위에서 **추가 옵션**(...)을 선택합니다.
+### <a name="sort-the-waterfall-chart"></a>폭포 차트 정렬
 
-    이 예제에서는 **오름차순 정렬**을 선택합니다.
+1. Power BI에서 폭포 차트가 시간(월)순으로 정렬되도록 합니다. 차트의 오른쪽 위에서 **추가 옵션**(...)을 선택합니다.
 
-    **오름차순 정렬** 왼쪽 옆에 노란색 표시가 있는지 확인합니다. 이는 선택한 옵션이 적용되고 있음을 나타냅니다.
+    이 예에서는**정렬 기준**을 선택하고 **FiscalMonth**를 선택합니다. 선택 항목 옆에 있는 노란색 표시기는 선택 옵션이 적용 중인 경우에 나타냅니다.
 
-    ![정렬 기준 > 오름차순 선택](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
+    ![정렬 기준 > FiscalMonth 선택](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscalmonth.png)
+    
+    월을 시간순으로 표시하려면 **오름차순 정렬**을 선택합니다. 이전 단계와 마찬가지로, **오름차순 정렬** 왼쪽 옆에 노란색 표시기가 있는지 확인합니다. 이는 선택한 옵션이 적용되고 있음을 나타냅니다.
 
-    다음으로, **정렬 기준**을 클릭하고 **회계 월**을 선택합니다. 앞 단계에서와 마찬가지로 선택 사항 옆의 노란색 표시는 선택한 옵션이 적용되고 있음을 나타냅니다.
+    ![정렬 기준 > 오름차순 선택](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-ascending.png)
 
-    ![정렬 기준 > FiscalMonth 선택](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscal-month.png)
+    
 
-    X축 값을 살펴보고 **1월**에서 **8월**까지 순서대로 표시할 수도 있습니다.
+    FiscalMonth에 대해 1월부터 8월까지 차트가 정렬됩니다.  
 
-    조금 더 세부적으로 들어가 월간 편차의 가장 큰 요인을 살펴봅니다.
+### <a name="explore-the-waterfall-chart"></a>폭포 차트 탐색
 
-1.  **매장** > **지역**을 선택하여 **분석 결과** 버킷에 **지역**을 추가합니다.
+조금 더 세부적으로 들어가 월간 편차의 가장 큰 요인을 살펴봅니다.
+
+1.  **매장** > **지역**을 선택하면 **분석** 버킷에 **지역**이 추가됩니다.
 
     ![분석 버킷의 매장 표시](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
-    기본적으로 Power BI는 월별 증가 또는 감소에 상위 5개 요인을 추가합니다. 아래 이미지에서는 더 많은 데이터를 포함하도록 시각화 창이 확장되었습니다. 
+    Power BI는 **분석**의 값을 사용하여 시각화에 데이터를 추가합니다. 각 회계 월에 대해 증가하거나 감소하는 상위 5개 요인을 추가합니다. 예를 들어, 2월에는 1개가 아닌, 6개의 데이터 요소가 있음을 의미합니다.  
 
-    ![분석 버킷의 매장 표시](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-initial.png)
+    ![분석 버킷의 매장 표시](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-default.png)
 
-    상위 2개 요인에만 관심이 있는 경우
+    상위 2개 요인에만 관심이 있는 경우입니다.
 
 1. **서식** 창에서 **분석 결과**를 선택하고 **최대 분석 결과**를 **2**로 설정합니다.
 
-    ![서식 > 분석 결과](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![서식 > 분석 결과](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-two.png)
 
     간단히 살펴보면 오하이오 및 펜실베이니아 지역이 폭포 차트의 증감에 가장 큰 영향을 주는 지역인 것으로 보입니다.
 
-    ![폭포 차트](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+    ![폭포 차트](media/power-bi-visualization-waterfall-charts/power-bi-axis-waterfall.png)
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -29,7 +29,7 @@ Power BI Desktop 내에서 역할 및 규칙을 정의할 수 있습니다. Powe
 7. DAX 식을 입력합니다. 이 식은 true 또는 false를 반환해야 합니다. 예: [엔터티 ID] = "Value"입니다.
    
    > [!NOTE]
-   > 이 식에 *username()* 을 사용할 수 있습니다. *username()* 은 Power BI Desktop 내에서 *도메인\사용자 이름*의 형식을 취합니다. Power BI 서비스 및 Power BI Report Server 내에서 사용자의 UPN(사용자 계정 이름) 형식입니다. 또는 항상 사용자 계정 이름 형식(*username\@contoso.com*)으로 사용자를 반환하는 *userprincipalname()* 를 사용할 수 있습니다.
+   > 이 식에 *username()* 을 사용할 수 있습니다. *username()* 은 Power BI Desktop 내에서 *도메인\사용자 이름*의 형식을 취합니다. Power BI 서비스 및 Power BI Report Server 내에서 사용자의 UPN(사용자 계정 이름) 형식입니다. 또는 항상 사용자 계정 이름 형식(*username\@contoso.com*)으로 사용자를 반환하는 *userprincipalname()* 을 사용할 수 있습니다.
    > 
    > 
    

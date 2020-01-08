@@ -1,21 +1,21 @@
 ---
 title: Power BI 관리 포털
 description: 관리 포털을 통해 조직에서 Power BI의 테넌트 관리를 사용할 수 있습니다. 사용 메트릭, Microsoft 365 관리 센터에 대한 액세스 및 설정과 같은 항목을 포함하고 있습니다.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265902"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882894"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -27,7 +27,7 @@ ms.locfileid: "74265902"
 
 Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Office 365 또는 Azure Active Directory 내에서 **전역 관리자**로 표시되거나 Power BI 서비스 관리자 역할이 할당되어야 합니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요. Power BI 관리 포털에 도달하려면 다음을 수행합니다.
 
-1. Power BI 서비스의 오른쪽 위에서 설정 기어를 선택합니다.
+1. Power BI 서비스의 오른쪽 위에서 설정 아이콘을 선택합니다.
 
 1. **관리 포털**을 선택합니다.
 
@@ -37,7 +37,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 ![관리 포털 탐색](media/service-admin-portal/powerbi-admin-landing-page.png)
 
-* [사용량 현황 메트릭](#usage-metrics)
+* [사용량 메트릭](#usage-metrics)
 * [사용자](#users)
 * [감사 로그](#audit-logs)
 * [테넌트 설정](#tenant-settings)
@@ -50,7 +50,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 ## <a name="usage-metrics"></a>사용량 메트릭
 
-**사용 메트릭**을 통해 조직의 Power BI 사용을 모니터링할 수 있습니다. 또한 조직을 위한 Power BI 내에서 가장 활발한 사용자 및 그룹이 누구인지 확인하는 기능을 제공합니다. 
+**사용량 메트릭**을 통해 조직의 Power BI 사용을 모니터링할 수 있습니다. 또한 조직을 위한 Power BI 내에서 가장 활발한 사용자 및 그룹이 누구인지 확인하는 기능을 제공합니다. 
 
 > [!NOTE]
 > 대시보드에 처음 액세스할 때 또는 대시보드를 오랫동안 보지 않았다가 다시 방문한 후 대시보드를 로드하는 동안 로드 중 화면이 표시될 수 있습니다.
@@ -83,39 +83,39 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 이 정보를 사용하여 조직의 사용자가 Power BI를 사용하는 방법을 실제로 파악할 수 있으며 조직에서 매우 활발한 사용자 및 그룹을 인식할 수 있습니다.
 
-## <a name="control-usage-metrics"></a>사용 메트릭 제어
+## <a name="control-usage-metrics"></a>사용량 메트릭 제어
 
-사용 메트릭 보고서는 Power BI 또는 Office 365 관리자가 켜거나 끌 수 있는 기능입니다. 관리자는 사용 메트릭에 액세스할 수 있는 사용자를 세부적으로 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에 대해 **켬**으로 설정되어 있습니다.
+사용량 메트릭 보고서는 Power BI 또는 Office 365 관리자가 켜거나 끌 수 있는 기능입니다. 관리자는 사용량 메트릭에 액세스할 수 있는 사용자를 세부적으로 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에 대해 **켬**으로 설정되어 있습니다.
 
-관리자는 콘텐츠 작성자가 사용 메트릭에서 사용자별 데이터를 볼 수 있는지 여부도 설정할 수 있습니다. 
+관리자는 콘텐츠 작성자가 사용량 메트릭에서 사용자별 데이터를 볼 수 있는지 여부도 설정할 수 있습니다. 
 
-보고서에 대한 자세한 내용은 [Power BI 대시보드 및 보고서의 사용 메트릭 모니터링](service-usage-metrics.md)을 참조하세요.
+보고서에 대한 자세한 내용은 [Power BI 대시보드 및 보고서의 사용량 메트릭 모니터링](service-usage-metrics.md)을 참조하세요.
 
-### <a name="usage-metrics-for-content-creators"></a>콘텐츠 작성자용 사용 메트릭
+### <a name="usage-metrics-for-content-creators"></a>콘텐츠 작성자용 사용량 메트릭
 
-1. 관리 포털에서 **테넌트 설정** > **콘텐츠 작성자용 사용 메트릭**을 선택합니다.
+1. 관리 포털에서 **테넌트 설정** > **콘텐츠 작성자용 사용량 메트릭**을 선택합니다.
 
     ![관리 포털 테넌트 설정 사용 메트릭](media/service-admin-portal/power-bi-admin-usage-metrics.png)
 
-1. 사용 메트릭을 활성화(또는 비활성화)하고 **적용**을 클릭합니다.
+1. 사용량 메트릭을 활성화(또는 비활성화)하고 **적용**을 클릭합니다.
 
     ![설정된 사용 메트릭](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
 
-### <a name="per-user-data-in-usage-metrics"></a>사용 메트릭의 사용자별 데이터
+### <a name="per-user-data-in-usage-metrics"></a>사용량 메트릭의 사용자별 데이터
 
-기본적으로 사용자별 데이터는 사용 메트릭에서 활성화되어 있고 메트릭 보고서에는 콘텐츠 소비자 계정 정보가 포함됩니다. 일부 또는 모든 사용자에게 이 정보를 포함하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정합니다. 그러면 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
+기본적으로 사용자별 데이터는 사용량 메트릭에서 활성화되어 있고 메트릭 보고서에는 콘텐츠 소비자 계정 정보가 포함됩니다. 일부 또는 모든 사용자에게 이 정보를 포함하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정합니다. 그러면 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
 
 ![사용자별 사용량 현황 데이터](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
 
-### <a name="delete-all-existing-usage-metrics-content"></a>모든 기존 사용 메트릭 콘텐츠 삭제
+### <a name="delete-all-existing-usage-metrics-content"></a>모든 기존 사용량 메트릭 콘텐츠 삭제
 
-조직 전체의 사용 메트릭을 비활성화할 때, 관리자는 다음 옵션 중 하나 또는 둘 모두를 선택할 수 있습니다.
+조직 전체의 사용량 메트릭을 비활성화할 때, 관리자는 다음 옵션 중 하나 또는 둘 모두를 선택할 수 있습니다.
 
-- **기존 사용 메트릭 콘텐츠 모두 삭제** 옵션을 사용하여 사용 메트릭 보고서 및 데이터 세트를 사용하여 빌드한 기존 보고서 및 대시보드 타일을 모두 삭제합니다. 이 옵션은 이미 사용 메트릭을 사용 중일 수도 있는 조직의 모든 사용자에게서 사용 메트릭 데이터에 대한 모든 액세스를 제거합니다. 
-- **현재 사용 메트릭 콘텐츠의 모든 기존 사용자별 데이터 삭제** 이 옵션은 이미 사용 메트릭을 사용 중인 사용자를 포함하여 조직의 모든 사용자에게서 사용자별 데이터에 대한 액세스를 모두 제거합니다. 
+- **기존 사용량 메트릭 콘텐츠 모두 삭제** 옵션을 사용하여 사용량 메트릭 보고서 및 데이터 세트를 사용하여 빌드한 기존 보고서 및 대시보드 타일을 모두 삭제합니다. 이 옵션은 이미 사용량 메트릭을 사용 중일 수도 있는 조직의 모든 사용자에게서 사용량 메트릭 데이터에 대한 모든 액세스를 제거합니다. 
+- **현재 사용량 메트릭 콘텐츠의 모든 기존 사용자별 데이터 삭제** 이 옵션은 이미 사용량 메트릭을 사용 중인 사용자를 포함하여 조직의 모든 사용자에게서 사용자별 데이터에 대한 액세스를 모두 제거합니다. 
 
-기존 사용 메트릭과 사용자별 메트릭 콘텐츠의 삭제는 되돌릴 수 없으므로 조심해야 합니다.
+기존 사용량 메트릭과 사용자별 메트릭 콘텐츠의 삭제는 되돌릴 수 없으므로 조심해야 합니다.
 
 ## <a name="users"></a>사용자
 
@@ -172,7 +172,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 라이선스 요청에 URL을 지정하여 Power BI Pro 라이선스가 없는 사용자가 **Power BI Pro로 업데이트** 대화 상자 및 **개인 스토리지 관리** 페이지에서 찾을 수 있는 **계정 업그레이드** 단추의 대상 URL을 사용자 지정합니다. 또한 Power BI에서 라이선스 관리 솔루션을 통해 조직에 정의된 프로세스를 사용자에게 안정적으로 안내할 수 있도록 이 대화 상자나 스토리지 페이지에서 **Pro 체험해 보기** 단추가 더 이상 제공되지 않습니다.
 
-### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>서비스 중단 또는 인시던트에 대한 메일 알림 받기
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>서비스 중단 또는 인시던트에 대한 이메일 알림 받기
 
 이 테넌트가 서비스 중단 또는 인시던트의 영향을 받는 경우 메일 사용이 가능한 보안 그룹이 메일 알림을 받습니다. [서비스 중단 알림](service-interruption-notifications.md)에 대해 자세히 알아보세요.
 
@@ -208,7 +208,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 **웹에 게시** 설정에 따라 UI에 다른 옵션이 표시됩니다.
 
-|특정 |전체 조직에 대해 사용 |전체 조직에 대해 사용 안 함 |특정 보안 그룹   |
+|기능 |전체 조직에 대해 사용 |전체 조직에 대해 사용 안 함 |특정 보안 그룹   |
 |---------|---------|---------|---------|
 |보고서의 **파일** 메뉴 아래에 있는 **웹 게시**.|모든 사용자에 대해 사용|모든 사용자에게 표시 안 함|권한 있는 사용자 또는 그룹에만 표시.|
 |**설정** 아래의 **embed 태그 관리**|모든 사용자에 대해 사용|모든 사용자에 대해 사용|모든 사용자에 대해 사용<br><br>권한 있는 사용자 또는 그룹에만 * **삭제** 옵션 제공.<br>*  모든 사용자에 대해 **코드 가져오기** 사용.|
@@ -247,11 +247,14 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 ![보고서 인쇄](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용
-Azure B2B 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습니다. [자세히 알아보기](service-admin-azure-ad-b2b.md)
+Azure Active Directory B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습니다. [자세히 알아보기](service-admin-azure-ad-b2b.md)
 
 다음 이미지는 외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용하는 옵션을 보여줍니다.
 
 ![외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+> [!IMPORTANT]
+> Azure AD 테넌트에 외부 사용자를 추가하는 경우(수동으로 또는 해당 사용자와 보고서를 공유하여), 이제 해당 사용자 계정을 내부 계정에서 검색할 수 있습니다. 내부 계정에 외부 공유 권한이 없어도 내부 사용자가 외부 사용자와 다른 항목을 공유할 수 있습니다.
 
 ### <a name="email-subscriptions"></a>메일 구독
 조직의 사용자가 메일 구독을 만들 수 있습니다. [구독](service-report-subscribe.md)에 대해 자세히 알아보세요.
@@ -362,15 +365,15 @@ Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사�
 > [!NOTE]
 > 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
 
-### <a name="usage-metrics-for-content-creators"></a>콘텐츠 작성자용 사용 메트릭
+### <a name="usage-metrics-for-content-creators"></a>콘텐츠 작성자용 사용량 메트릭
 
-조직의 사용자가 자신이 만든 보고서 및 대시보드에 대한 사용 메트릭을 확인할 수 있습니다. [자세히 알아보기](service-usage-metrics.md)
+조직의 사용자가 자신이 만든 보고서 및 대시보드에 대한 사용량 메트릭을 확인할 수 있습니다. [자세히 알아보기](service-usage-metrics.md)
 
-### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>콘텐츠 작성자에 대한 사용 메트릭의 사용자별 데이터
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>콘텐츠 작성자에 대한 사용량 메트릭의 사용자별 데이터
 
-콘텐츠 사용자에 대한 사용 메트릭에는 콘텐츠에 액세스하는 사용자의 표시 이름 및 메일 주소가 노출됩니다. [자세히 알아보기](service-usage-metrics.md)
+콘텐츠 사용자에 대한 사용량 메트릭에는 콘텐츠에 액세스하는 사용자의 표시 이름 및 메일 주소가 노출됩니다. [자세히 알아보기](service-usage-metrics.md)
 
-사용자별 데이터는 기본적으로 사용 메트릭에 사용되도록 설정되고, 콘텐츠 생성자 계정 정보는 메트릭 보고서에 포함됩니다. 모든 사용자에 대해 이 정보를 수집하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정할 수 있습니다. 그러면 제외된 사용자에 대한 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
+사용자별 데이터는 기본적으로 사용량 메트릭에 사용되도록 설정되고, 콘텐츠 생성자 계정 정보는 메트릭 보고서에 포함됩니다. 모든 사용자에 대해 이 정보를 수집하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정할 수 있습니다. 그러면 제외된 사용자에 대한 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
 
 ## <a name="dashboard-settings"></a>대시보드 설정
 
@@ -417,7 +420,7 @@ Azure AD(Azure Active Directory)에 등록된 웹앱은 할당된 서비스 주�
 
 ### <a name="install-template-apps-listed-on-appsource"></a>AppSource에 나열된 템플릿 앱 설치
 
-조직의 사용자는 [AppSource](https://appsource.microsoft.com)에서만 템플릿 앱**만** 다운로드하고 설치할 수 있습니다. AppSource에서 템플릿 앱을 설치할 수 있는 특정 사용자 또는 보안 그룹을 제어합니다.
+조직의 사용자는 [AppSource](https://appsource.microsoft.com)의 템플릿 앱**만** 다운로드하고 설치할 수 있습니다. AppSource에서 템플릿 앱을 설치할 수 있는 특정 사용자 또는 보안 그룹을 제어합니다.
 
 ![Power BI 관리 포털, 템플릿 앱 설정 설치](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
 
@@ -513,7 +516,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 ## <a name="workspaces"></a>작업 영역
 
-관리자는 테넌트에 있는 작업 영역을 볼 수 있습니다. 작업 영역 목록을 정렬 및 필터링하고 각 작업 영역에 대한 세부 정보를 표시할 수 있습니다. 테이블 열은 작업 영역에 대해 [Power BI 관리자 Rest API](/rest/api/power-bi/admin)에서 반환된 속성에 해당합니다. 개인 작업 영역은 **개인 그룹** 형식, 클래식 작업 영역은 **그룹**형식, 새 작업 영역 환경은 **작업 영역** 형식입니다. 자세한 내용은 [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
+관리자는 테넌트에 있는 작업 영역을 볼 수 있습니다. 작업 영역 목록을 정렬 및 필터링하고 각 작업 영역에 대한 세부 정보를 표시할 수 있습니다. 테이블 열은 작업 영역에 대해 [Power BI 관리자 Rest API](/rest/api/power-bi/admin)에서 반환된 속성에 해당합니다. 개인 작업 영역은 **개인 그룹** 형식, 클래식 작업 영역은 **그룹** 형식, 새 작업 영역 환경은 **작업 영역** 형식입니다. 자세한 내용은 [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
 
 ![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
 

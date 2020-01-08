@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565333"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622429"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI의 새 작업 영역에서 작업 구성
 
@@ -62,7 +62,7 @@ Power BI 관리 포털에서 [작업 영역 목록을 사용할 수 있습니다
 
 다음은 관리자, 구성원, 참가자, 뷰어 등 네 가지 역할의 기능입니다. 보기와 상호 작용을 제외한 모든 기능에는 Power BI Pro 라이선스가 필요합니다.
 
-|기능   | 관리자  | 구성원  | 참가자  | 뷰어 |
+|기능   | 관리자  | 멤버  | 참가자  | 뷰어 |
 |---|---|---|---|---|
 | 작업 영역 업데이트 및 삭제  | X  |   |   |   | 
 | 다른 관리자를 비롯한 사람 추가/제거  | X  |   |   |   |
@@ -78,7 +78,7 @@ Power BI 관리 포털에서 [작업 영역 목록을 사용할 수 있습니다
 
 1. 보고서를 복사하고 이 작업 영역의 데이터 세트를 기반으로 하여 다른 작업 영역에서 보고서를 만들려면 추가 조건을 충족해야 합니다.
     - Power BI Pro 라이선스가 있어야 합니다. 자세한 내용은 다음 섹션인 [라이선싱](#licensing)을 참조하세요.
-    - 데이터 세트의 빌드 권한이 필요합니다. 이 작업 영역의 데이터 세트에서 관리자, 멤버 및 기여자 역할이 있는 사용자는 작업 영역 역할을 통해 빌드 권한을 보유합니다.
+    - 데이터 세트의 빌드 권한이 필요합니다. 이 작업 영역의 데이터 세트에서 관리자, 구성원 및 참가자 역할이 있는 사용자는 작업 영역 역할을 통해 빌드 권한을 보유합니다.
 2. Power BI Pro 라이선스가 없더라도, 항목이 프리미엄 용량의 작업 영역에 있는 경우 Power BI 서비스에서 항목을 보고 상호 작용할 수 있습니다.
 
 ## <a name="licensing"></a>라이선싱
@@ -111,18 +111,19 @@ Power BI 관리 포털에서 [작업 영역 목록을 사용할 수 있습니다
 Power BI는 작업 영역 액세스 권한을 가지도록 구성된 사용자 또는 그룹의 권한을 Office 365 그룹 멤버 자격과 동기화하지 않습니다. 이 설정에서 구성한 파일 스토리지가 포함된 동일한 Office 365 그룹을 통해 작업 영역 액세스를 관리하는 것이 좋습니다. 
 
 [작업 영역 OneDrive를 설정하고 액세스](service-create-the-new-workspaces.md#workspace-onedrive)하는 방법에 대해 알아봅니다.  
-   
+
 ## <a name="auditing"></a>감사
+
 새 작업 영역 환경의 작업 영역에 대한 다음 작업은 Power BI에서 감사됩니다.
 
-| 식별 이름 |   작업 이름 |
+| 식별 이름 | 작업 이름 |
 |---|---|
 | Power BI 폴더 만듦 | CreateFolder |
 | Power BI 폴더 삭제됨 | DeleteFolder |
 | Power BI 폴더 업데이트됨 | UpdateFolder |
 | Power BI 폴더 액세스 권한 업데이트됨| UpdateFolderAccess |
 
-[Power BI 감사](service-admin-auditing.md#activities-audited-by-power-bi)에 대해 자세히 알아봅니다.
+[Power BI 감사](service-admin-auditing.md)에 대해 자세히 알아봅니다.
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 

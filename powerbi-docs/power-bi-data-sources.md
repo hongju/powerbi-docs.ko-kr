@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/22/2019
 ms.author: kfollis
-ms.openlocfilehash: a45cfb20907c96995adf8618cd6dd8ff32194bea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699731"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958497"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 데이터 원본
 
-다음 표에서는 DirectQuery 및 온-프레미스 데이터 게이트웨이에 대한 정보를 포함하여 Power BI에서 지원하는 데이터 원본을 보여 줍니다.
+다음 표에서는 DirectQuery 및 온-프레미스 데이터 게이트웨이에 대한 정보를 포함하여 Power BI가 데이터 집합으로 지원하는 데이터 원본을 보여 줍니다. 데이터 흐름에 대한 자세한 내용은 [Power BI 데이터 흐름용 데이터 원본에 연결](service-dataflows-data-sources.md)을 참조하세요.
 
 | 데이터 소스 | 데스크톱에서 연결 | 서비스에서 연결 및 새로 고침 | DirectQuery/라이브 연결 | 게이트웨이(지원됨) | 게이트웨이(필수) |
 |---|---|---|---|---|---|---|---|
@@ -95,7 +95,7 @@ ms.locfileid: "74699731"
 | Planview Enterprise One - CTM | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Planview Enterprise One - PRM | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Planview Projectplace | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| PostgreSQL | 예 | 예 | 아니요 | 예 | 예 |
+| PostgreSQL | 예 | 예 | 예 | 예 | 예 |
 | Power BI 데이터 흐름 | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Power BI 데이터 세트 | 예 | 예 | 예 | 아니요 | 아니요 |
 | Power Platform 데이터 흐름 | 예 | 예 | 아니요 | 아니요 | 아니요 |

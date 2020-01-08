@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9434aa717ad10791e75366cf23ef8ece567389ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699133"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "74958566"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -29,16 +29,17 @@ Power BI Premium은 조직에 대해 Power BI 서비스를 실행할 수 있는 
 > * 지역별 데이터 상주 지원(다중 지역)
 > * 사용자별 라이선스를 구입하지 않고 다른 사용자와 데이터 공유
 
-이 문서에서는 Power BI Premium의 주요 기능을 소개합니다. 필요한 경우 보다 자세한 정보가 포함된 추가 문서에 대한 링크를 제공합니다.
+이 문서에서는 Power BI Premium의 주요 기능을 소개합니다. 필요한 경우 보다 자세한 정보가 포함된 추가 문서에 대한 링크를 제공합니다. Power BI Pro 및 Power BI Premium에 대한 자세한 내용은 [Power BI 가격](https://powerbi.microsoft.com/pricing/)의 _Power BI 기능 비교_ 섹션을 참조하세요.
 
 ## <a name="subscriptions-and-licensing"></a>구독 및 라이선스
 
 Power BI Premium은 두 개의 SKU(Stock-Keeping Unit) 제품군에서 사용할 수 있는 테넌트 수준 Office 365 구독입니다.
 
-- 포함에 대한 **EM** SKU(EM1-EM3)는 매월 청구되며 연간 약정이 필요합니다. EM1 및 EM2 SKU는 볼륨 라이선스 계획을 통해서만 사용할 수 있습니다. 직접 구입할 수는 없습니다.
 - 포함 및 엔터프라이즈 기능에 대한 **P** SKU(P1-P3)는 월간 또는 연간 약정이 필요하며 매월 청구되고 Power BI Report Server 온-프레미스를 설치하기 위한 라이선스를 포함합니다.
 
-다른 방법은 포함 및 용량 테스트 목적으로만 사용할 수 있는 단일 **A**(A1-A6) SKU 제품군이 있는 **Azure Power BI Embedded** 구독을 구입하는 것입니다. 모든 SKU는 v 코어를 제공하여 용량을 만들지만 EM SKU는 소규모 포함용으로 제한됩니다. 4개 미만의 V 코어를 가진 EM1, EM2, A1 및 A2 SKU는 전용 인프라에서 실행되지 않습니다.
+- _조직_ 포함에 대한 **EM** SKU(EM1-EM3)는 매월 청구되며 연간 약정이 필요합니다. EM1 및 EM2 SKU는 볼륨 라이선스 계획을 통해서만 사용할 수 있습니다. 직접 구입할 수는 없습니다.
+
+또 다른 방법은 Azure에서 **Power BI Embedded** 구독을 구매하는 것입니다. 약정이 필요 없고 시간 단위로 청구되는 단일 **A**(A1-A6) SKU 제품군이 있으며 애플리케이션, 포털 및 웹 사이트에서 Power BI 화이트 라벨링을 사용하거나 P 또는 EM 용량을 테스트하기 위한 방법으로 사용됩니다. 모든 SKU는 v 코어를 제공하여 용량을 만들지만 EM SKU는 소규모 포함용으로 제한됩니다. 4개 미만의 V 코어를 가진 EM1, EM2, A1 및 A2 SKU는 전용 인프라에서 실행되지 않습니다.
 
 이 문서의 초점은 P SKU에 맞춰져 있지만 설명된 내용의 대부분은 A SKU와 관련이 있습니다. 프리미엄 구독 SKU와 달리 Azure SKU는 시간 약정 없이 시간당 청구됩니다. 규모 확장, 규모 축소, 일시 중지, 다시 시작 및 삭제를 가능하게 하는 완벽한 탄력성을 제공합니다. 
 
@@ -50,7 +51,11 @@ Power BI Premium 구독은 Microsoft 365 관리 센터에서 관리자가 구입
 
 ## <a name="dedicated-capacities"></a>전용 용량
 
-Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 워크로드가 다른 고객과 공유되는 계산 리소스에서 실행되는 공유 용량과는 달리 전용 용량은 조직에서 단독으로 사용하는 것입니다. 호스팅된 콘텐츠에 대해 신뢰할 수 있고 일관된 성능을 제공하는 전용 계산 리소스로 격리됩니다. 
+Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 워크로드가 다른 고객과 공유되는 계산 리소스에서 실행되는 공유 용량과는 달리 전용 용량은 조직에서 단독으로 사용하는 것입니다. 호스팅된 콘텐츠에 대해 신뢰할 수 있고 일관된 성능을 제공하는 전용 계산 리소스로 격리됩니다. 다음 리소스는 전용 용량이 아닌 공유 용량에 저장됩니다.
+
+* Excel 통합 문서(데이터를 Power BI Desktop으로 먼저 가져오는 경우 제외)
+* [푸시 데이터 세트](/rest/api/power-bi/pushdatasets)
+* [스트리밍 데이터 세트](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 
 작업 영역은 용량 내에 상주합니다. 각 Power BI 사용자는 **내 작업 영역**이라는 개인 작업 영역을 갖습니다. 협업을 사용하도록 설정하기 위해 **작업 영역**이라는 추가 작업 영역을 만들 수 있습니다. 기본적으로 개인 작업 영역을 포함한 작업 영역은 공유 용량에서 생성됩니다. 프리미엄 용량이 있는 경우 내 작업 영역 및 작업 영역을 모두 프리미엄 용량에 할당할 수 있습니다.
 
@@ -77,6 +82,9 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | | | | | | | |
+
+> [!NOTE]
+> 더 큰 단일 SKU(예: P2 SKU 1개)를 사용하는 것이 두 개의 더 작은 SKU(예: P1 SKU 2개)를 결합하는 것보다 더 바람직할 수 있습니다. 예를 들어 더 큰 모델을 사용하고 P2를 사용하여 더 나은 병렬 처리를 달성할 수 있습니다.
 
 ### <a name="capacity-workloads"></a>용량 워크로드
 
@@ -235,5 +243,3 @@ SQL Server Management Studio 및 SQL Server Profiler와 같은 Microsoft 도구�
 > [프리미엄 용량 관리](service-premium-capacity-manage.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-
-||||||
