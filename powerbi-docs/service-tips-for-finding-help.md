@@ -37,7 +37,7 @@ Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.
 ## <a name="5-watch-videos-on-youtube"></a>5 YouTube 비디오 보기
 비디오가 여러분의 학습 스타일에 도움이 됩니까? Power BI에는 관심을 가질만한 두 가지 세트가 있습니다.
 
-* [Power BI을 사용하여 데이터 분석 및 시각화 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)이 시작하기 좋은 위치입니다.
+* [Power BI를 사용하여 데이터 분석 및 시각화 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)이 시작하기 좋은 위치입니다.
 * 선택 사항이 큰 경우 [Power BI 채널](https://www.youtube.com/user/mspowerbi/videos)를 사용합니다.
 * Power BI를 사용한 경험이 많은 경우 [Guy in a Cube YouTube 채널](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)이 더 적합할 수 있습니다.
 
