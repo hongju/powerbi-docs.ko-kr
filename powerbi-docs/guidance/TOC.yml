@@ -28,6 +28,10 @@
           href: dax-countrows.md
         - name: 공백을 값으로 변환하지 마세요.
           href: dax-avoid-converting-blank.md
+        - name: 열 및 측정값 참조
+          href: dax-column-measure-references.md
+        - name: FILTER를 필터 인수로 사용하지 마세요.
+          href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: 데이터 흐름에 관한 모범 사례
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop의 DirectQuery 모델 지침
@@ -40,6 +44,10 @@
           href: report-drillthrough.md
         - name: Power BI Desktop의 자동 날짜/시간 지침
           href: auto-date-time.md
+        - name: 다 대 다 관계 지침
+          href: relationships-many-to-many.md
+        - name: 파워 쿼리 백그라운드 새로 고침 사용 안 함
+          href: power-query-background-refresh.md
     - name: 백서
       items:
         - name: 백서 개요

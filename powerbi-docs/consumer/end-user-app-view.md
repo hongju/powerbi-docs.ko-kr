@@ -10,10 +10,10 @@ ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: 0b581b9c45cb75d12eea974c0895474015634eb1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73851303"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
@@ -53,7 +53,7 @@ Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스
     ![내 조직의 AppSource에서](./media/end-user-app-view/power-bi-opportunity-app.png)
 3. **지금 가져오기**를 선택하여 앱 콘텐츠 목록에 추가합니다. 
 
-## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Microsoft AppSource 웹 사이트(https://appsource.microsoft.com)에서 앱을 가져옵니다.
+## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Microsoft AppSource 웹 사이트(https://appsource.microsoft.com) )에서 앱을 가져옵니다.
 이 예제에서는 Microsoft 샘플 앱 중 하나를 엽니다. AppSource에서 비즈니스 운영에 사용하는 다양한 서비스용 앱을 찾을 수 있습니다.  Salesforce, Microsoft Dynamics, Google 애널리틱스, GitHub, Zendesk, Marketo 등의 서비스가 있습니다. 자세한 내용은 [Power BI를 통해 사용 중인 서비스용 앱](../service-connect-to-services.md)을 참조하세요. 
 
 1. 브라우저에서 https://appsource.microsoft.com 을 열고 **Power BI 앱**을 선택합니다.
@@ -61,9 +61,7 @@ Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스
     ![Power BI 앱이 선택된 AppSource 웹 사이트  ](./media/end-user-apps/power-bi-appsource.png)
 
 
-
-2. **모두 보기**를 선택하여 현재 AppSource에서 사용할 수 있는 모든 Power BI 앱 목록을 표시합니다. **Microsoft Sample - Sales & Marketing**이라는 앱을 스크롤하거나 검색합니다.
-
+2. **모두 보기**를 선택하여 현재 AppSource에서 사용할 수 있는 모든 Power BI 앱 목록을 표시합니다. **Microsoft Sample - Sales &amp; Marketing**이라는 앱을 스크롤하거나 검색합니다.
 
     ![Power BI 영업 및 마케팅 앱이 강조 표시된 AppSource 웹 사이트  ](./media/end-user-apps/power-bi-appsource-samples.png)
 

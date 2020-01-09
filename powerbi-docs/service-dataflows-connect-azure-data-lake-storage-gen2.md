@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872729"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223869"
 ---
-# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)
+# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결
 
 조직의 Azure Data Lake Storage Gen2 계정에 데이터 흐름을 저장하도록 Power BI 작업 영역을 구성할 수 있습니다. 이 문서에서는 이를 수행하는 데 필요한 일반적인 단계를 설명하고 그 과정에서 지침 및 모범 사례를 제공합니다. 다음을 포함하여 Data Lake에 데이터 흐름 정의 및 데이터 파일을 저장하도록 작업 영역을 구성하는 몇 가지 장점이 있습니다.
 
@@ -176,7 +176,7 @@ Azure Portal에서 Azure Data Lake Storage Gen2 계정을 설정했으면, **Pow
 * 기본적으로 Azure Data Lake Storage Gen2에 저장된 데이터 흐름의 소유자만 해당 데이터에 액세스할 수 있습니다. Azure에 저장된 데이터 흐름의 권한을 추가 사용자에게 부여하려면 데이터 흐름의 CDM 폴더에 사용자를 추가해야 합니다. 
 * 동일한 스토리지 계정에 저장된 경우에만 연결된 엔터티를 사용하여 데이터 흐름을 만들 수 있습니다.
 * Power BI 공유 용량의 온-프레미스 데이터 원본은 조직의 Data Lake에 저장된 데이터 흐름에서 지원되지 않습니다.
-* 스냅숏은 ADLS Gen 2에서 자동으로 삭제되지 않습니다. 공간을 확보하려면 Azure 함수를 만들어 이전 스냅숏을 주기적으로 정리할 수 있습니다.
+* 스냅숏은 ADLS Gen 2에서 자동으로 삭제되지 않습니다. 공간을 확보하려면 Azure 함수를 만들어 이전 스냅샷을 주기적으로 정리할 수 있습니다.
 
 이 섹션에 설명된 대로 몇 가지 알려진 문제도 있습니다.
 
