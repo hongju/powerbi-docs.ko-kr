@@ -232,7 +232,7 @@ Power BI에서 실시간 스트리밍이 작동되는 방법에 대한 간단한
 2. Azure Stream Analytics에서 Power BI 연결에 대한 권한 부여를 다시 시도합니다.
 3. Azure Stream Analytics 출력에서 지정한 작업 영역은 무엇입니까? Power BI 서비스에서 해당(동일한) 작업 영역을 확인했습니까?
 4. Azure Stream Analytics 쿼리가 명확하게 Power BI 출력으로 출력합니까? (INTO 키워드 사용)
-5. Azure Stream Analytics 작업에서 데이터가 유입되고 있습니까? 데이터 세트는 전송되는 데이터가 있는 경우에만 만들어집니다.
+5. Azure Stream Analytics 작업에서 데이터가 흐르고 있습니까? 데이터 세트는 전송되는 데이터가 있는 경우에만 만들어집니다.
 6. Azure Stream Analytics 로그를 확인하여 경고 또는 오류가 있는지 확인할 수 있습니까?
 
 ## <a name="automatic-page-refresh"></a>자동 페이지 새로 고침
