@@ -52,7 +52,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 ## <a name="limitations-of-power-bi-us-government"></a>Power BI 미국 정부 기관의 제한 사항
 **Power BI 서비스** 상용 버전에서 사용할 수 있는 기능 중 일부는 미국 정부 기관 고객용 **Power BI 서비스**에서 사용할 수 *없습니다*. 미국 정부 기관 고객이 이러한 기능을 사용할 수 있도록 Power BI 팀에서 적극적으로 노력하고 있으며, 이러한 기능을 사용할 수 있게 되면 이 문서를 업데이트할 것입니다.
 
-* **SharePoint Online에 포함** - Power BI 웹 파트를 사용하여 SharePoint Online에 콘텐츠를 포함할 수 없습니다. 그러나 Secure embed는 [*Embed* 웹 파트](https://docs.microsoft.com/power-bi/service-embed-secure)를 사용하여 작동합니다. 예외 목록에 *app.powerbigov.us*를 추가해야 합니다. 이 작업은 [SharePoint 페이지에 콘텐츠 포함 허용 또는 제한](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b) 문서의 지침에 따라 수행할 수 있습니다.
+* **SharePoint Online에 포함** - Power BI 웹 파트를 사용하여 SharePoint Online에 콘텐츠를 포함할 수 없습니다. 그러나 안전한 포함은 [*Embed* 웹 파트](https://docs.microsoft.com/power-bi/service-embed-secure)를 사용하여 작동합니다. 예외 목록에 *app.powerbigov.us*를 추가해야 합니다. 이 작업은 [SharePoint 페이지에 콘텐츠 포함 허용 또는 제한](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b) 문서의 지침에 따라 수행할 수 있습니다.
 * **Power BI 미국 정부**는 **Pro** 라이선스로만 제공됩니다. 관리자 포털(또는 사용자)에서 실행되는 Power BI (무료) 라이선스에 대한 참조는 상용 Power BI 서비스 클라우드에서 실행됩니다.
 * **감사** - 이제 2018년 6월에는 Office 365 보안 및 규정 준수 포털을 통해 감사를 사용할 수 있습니다.
 * **외부 사용자 공유** - 공유는 Power BI 테넌트 내에서만 허용되며, 2018년 6월에는 Power BI 테넌트 외부의 사용자와 공유할 수도 있습니다. [Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포](service-admin-azure-ad-b2b.md)를 참조하세요.

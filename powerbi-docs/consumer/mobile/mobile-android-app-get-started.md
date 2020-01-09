@@ -66,19 +66,19 @@ Power BI는 Android 5.0 이상 운영 체제를 실행하는 다양한 Android �
 ### <a name="power-bi-samples"></a>Power BI 샘플
 Power BI 대시보드 샘플을 검토하고 이와 상호 작용할 수 있지만 이 샘플로 처리할 수 없는 몇 가지 작업이 있습니다. 즉 대시보드 뒤에 있는 보고서를 열 수 없거나, 다른 사용자와 샘플을 공유할 수 없거나, 이 샘플의 즐겨찾기를 만들 수 없습니다.
 
-1. 왼쪽 위 모퉁이에서 ![전역 탐색 단추](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) 전역 탐색 단추를 탭합니다.
+1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) 를 탭합니다.
 2. **설정** > **샘플 검색**을 탭한 다음 역할을 선택하고 해당 역할에 대한 샘플 대시보드를 탐색합니다.  
    
    ![Power BI 모바일 샘플](./media/mobile-android-app-get-started/power-bi-android-power-bi-samples.png)
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services 모바일 보고서 샘플
-1. 왼쪽 위 모퉁이에서 ![전역 탐색 단추](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) 전역 탐색 단추를 탭합니다.
+1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) 를 탭합니다.
 2. **Reporting Services 샘플**을 누른 다음 소매 보고서 또는 판매 보고서 폴더를 열어 KPI 및 모바일 보고서를 탐색합니다.
    
    ![Reporting Services 샘플](./media/mobile-android-app-get-started/power-bi-android-reporting-services-samples.png)
 
 ## <a name="search-for-a-dashboard-or-report"></a>대시보드 또는 보고서 검색
-* 오른쪽 위 모서리의 돋보기를 탭합니다. ![검색 아이콘](./media/mobile-android-app-get-started/power-bi-ipad-search-icon.png)그런 다음 찾으려는 용어를 입력합니다.
+* 오른쪽 위 모서리의 돋보기 아이콘 ![검색 아이콘](./media/mobile-android-app-get-started/power-bi-ipad-search-icon.png)을 탭한 다음 찾으려는 용어를 입력합니다.
   
     ![검색 결과](./media/mobile-android-app-get-started/power-bi-android-tablet-search.png)
   
