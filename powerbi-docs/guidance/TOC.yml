@@ -30,6 +30,8 @@
           href: dax-avoid-converting-blank.md
         - name: 열 및 측정값 참조
           href: dax-column-measure-references.md
+        - name: FILTER를 필터 인수로 사용하지 마세요.
+          href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: 데이터 흐름에 관한 모범 사례
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop의 DirectQuery 모델 지침

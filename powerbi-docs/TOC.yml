@@ -259,13 +259,13 @@
               href: desktop-grouping-and-binning.md
             - name: R을 사용하여 Power BI 시각적 개체 만들기
               href: desktop-r-visuals.md
-            - name: R 기반 사용자 지정 시각적 개체 사용
+            - name: R 지원 사용자 지정 시각적 개체 사용
               href: desktop-r-powered-custom-visuals.md
-            - name: 눈금선과 눈금선에 맞추기(snap-to-grid) 사용
+            - name: 눈금선 및 눈금에 맞춤 사용
               href: desktop-gridlines-snap-to-grid.md
             - name: Power BI 보고서의 페이지 표시 설정 적용
               href: power-bi-report-display-settings.md
-            - name: 예제에서 열 추가
+            - name: 예제의 열 추가
               href: desktop-add-column-from-example.md
             - name: 사용자 지정 열 추가
               href: desktop-add-custom-column.md
@@ -425,7 +425,7 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Power BI Desktop 로그인 양식 관리
           href: desktop-admin-sign-in-form.md
-        - name: 내게 필요한 옵션
+        - name: 접근성
           items:
             - name: Power BI 접근성 정보
               href: desktop-accessibility-overview.md
@@ -539,7 +539,7 @@
           items:
             - name: 작업 영역에서 데이터 세트 사용
               href: service-datasets-across-workspaces.md
-            - name: 데이터 집합 공유(미리 보기)
+            - name: 데이터 세트 공유(미리 보기)
               href: service-datasets-share.md
             - name: 공유 데이터 세트에 대한 권한 빌드
               href: service-datasets-build-permissions.md
@@ -631,11 +631,11 @@
               href: service-interact-with-a-report-in-editing-view.md
             - name: Excel에서 분석
               href: service-analyze-in-excel.md
-            - name: 보고서를 만드는 팁과 힌트
+            - name: 보고서를 만들기 위한 팁과 힌트
               href: power-bi-reports-tips-and-tricks-for-creating.md
             - name: 서비스의 집계 작업
               href: service-aggregates.md
-            - name: 보고서에 대한 사용 현황 메트릭
+            - name: 보고서를 위한 사용량 메트릭
               href: service-usage-metrics.md
             - name: 보고서에 대한 QR 코드 만들기
               href: service-create-qr-code-for-report.md
@@ -903,8 +903,6 @@
           href: report-builder-data.md
         - name: 지원되는 데이터 원본
           href: paginated-reports-data-sources.md
-        - name: Power BI 공유 데이터 세트 사용
-          href: report-builder-shared-datasets.md
         - name: 디자인 팁
           href: report-builder-design-tips.md
         - name: '테이블, 행렬, 목록'
@@ -929,6 +927,8 @@
           href: paginated-reports-embedded-data-source.md
         - name: 포함된 데이터 세트 만들기
           href: paginated-reports-create-embedded-dataset.md
+        - name: Power BI 공유 데이터 세트를 사용하여 보고서 만들기
+          href: report-builder-shared-datasets.md
         - name: 매개 변수 만들기
           href: paginated-reports-parameters.md
         - name: URL에 보고서 매개 변수 전달
@@ -981,7 +981,7 @@
               href: report-server/developer-handbook-overview.md
             - name: 보고서 뷰어 컨트롤
               href: 'https://go.microsoft.com/fwlink/?linkid=848724'
-            - name: 개발 확장
+            - name: 확장 프로그램 개발
               href: 'https://go.microsoft.com/fwlink/?linkid=848723'
             - name: 보고서 포함
               href: report-server/quickstart-embed.md
@@ -989,6 +989,8 @@
       items:
         - name: Power BI Desktop 설치
           href: report-server/install-powerbi-desktop.md
+        - name: 보고서 작성기 설치
+          href: report-server/install-report-builder.md
         - name: 보고서 서버 기본 사항
           items:
             - name: 보고서 서버용 Power BI 보고서 만들기
@@ -1009,7 +1011,7 @@
               href: report-server/connect-data-source-apis.md
             - name: 예약된 새로 고침 구성
               href: report-server/configure-scheduled-refresh.md
-            - name: 보고서에 메모 추가
+            - name: 보고서에 주석 추가
               href: report-server/add-comments.md
         - name: 관리자용 보고서 서버
           items:
