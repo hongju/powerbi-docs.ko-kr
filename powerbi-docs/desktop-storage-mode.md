@@ -63,7 +63,7 @@ Power BI Desktop의 스토리지 모드 설정은 다음 세 가지 관련 기�
 테이블을 **가져오기**로 변경하는 작업은 *실행 취소*할 수 없습니다. 이 속성을 다시 DirectQuery 또는 이중으로 변경할 수는 없습니다.
 
 > [!NOTE]
-> Power BI Desktop 및 Power BI 서비스에서 *듀얼* 스토리지 모드를 사용할 수 있습니다.
+> Power BI Desktop 및 Power BI 서비스에서 *이중* 스토리지 모드를 사용할 수 있습니다.
 
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>DirectQuery 및 이중 테이블에 대한 제약 조건
