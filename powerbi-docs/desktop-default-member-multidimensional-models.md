@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: afd85404dd926cab396222d3ba9b4bf62e689054
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ea60400a4522dd496e19d508f13760581c0b2620
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876356"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761252"
 ---
-# <a name="default-member-in-multidimensional-models-in-power-bi"></a>Power BI의 다차원 모델의 기본 멤버
+# <a name="work-with-multidimensional-models-in-power-bi"></a>Power BI에서 다차원 모델 작업
 
 Power BI에서 다차원 모델에 연결하고 해당 모델 내에 모든 종류의 데이터를 시각화하는 보고서를 만들 수 있습니다. 다차원 모델을 사용하는 경우 Power BI는 ‘기본 멤버’로 정의되는 열을 기준으로 데이터 처리 방법에 규칙을 적용합니다.  
 

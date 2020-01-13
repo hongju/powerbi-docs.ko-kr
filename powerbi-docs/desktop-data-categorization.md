@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8667823567270680415c2fb0ba2db7846dd968ac
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef3191d77e2aeb89ff97468bd4bfdc07b0d7afb8
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878328"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761344"
 ---
-# <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop의 데이터 분류
+# <a name="specify-data-categories-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 범주 지정
 **Power BI Desktop**에서는 열의 데이터 범주를 지정하여 시각화에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다.
 
 Power BI Desktop이 데이터를 가져올 때는 데이터 자체만 가져오는 것이 아니라 테이블, 열 이름, 주요 키 여부 등과 같은 정보를 함께 가져옵니다.  이 정보로 Power BI Desktop이 시각화를 만들 때 어떻게 좋은 기본 환경을 만들 수 있는지를 짐작할 수 있습니다. 

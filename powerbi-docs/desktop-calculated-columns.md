@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 10c6f9f512c1b8c837842247d9dc928e8e065451
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4178dd37acf12efbe8dd00baed4f6b72ab549841
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876627"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762051"
 ---
-# <a name="using-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop의 계산 열 사용
+# <a name="create-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop에서 계산 열 만들기
 계산된 열을 사용하면 이미 모델에 있는 표에 새 데이터를 추가할 수 있습니다. 그러나 값을 쿼리하고 데이터 소스에서 새 열로 로드하는 대신 열 값을 정의하는 DAX(Data Analysis Expressions) 수식을 만듭니다. Power BI Desktop에서 보고서 뷰의 새 열 기능을 사용하여 계산된 열이 생성됩니다.
 
 쿼리 편집기에서 사용자 지정 열 추가를 사용하여 쿼리의 일부로 만든 사용자 지정 열과 달리 보고서 뷰 또는 데이터 뷰에서 만든 계산된 열은 이미 모델에 로드한 데이터를 기반으로 합니다. 예를 들어 두 개의 서로 다르지만 관련된 표에 있는 두 열의 값을 연결하거나, 추가를 수행하거나, 하위 문자열을 추출할 수 있습니다.

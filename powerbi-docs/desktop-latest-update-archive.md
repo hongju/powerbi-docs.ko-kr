@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3f71bf3b7b457370fccb8b5fbae4bd7bae3b227d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3928b90d3aba8084cb5f1bf3677adb31afb01722
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75223484"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729676"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -912,7 +912,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 ### <a name="custom-visuals"></a>사용자 지정 시각적 개체
 
-* 새 사용자 지정 시각적 개체 5개 [[동영상]](https://youtu.be/ZfJSSG17SEY)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
+* 새 사용자 지정 시각적 개체 5개  [[동영상]](https://youtu.be/ZfJSSG17SEY)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
 
 ### <a name="data-connectivity"></a>데이터 연결
 
@@ -1016,7 +1016,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 ### <a name="analytics"></a>분석
 
-* 값으로 조건부 서식 지정  [[동영상]](https://youtu.be/dgv5HhHxxe8?t=7m54s)  [[문서]](desktop-conditional-table-formatting.md#color-formatting-by-field-value)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
+* 값으로 조건부 서식 지정  [[동영상]](https://youtu.be/dgv5HhHxxe8?t=7m54s)  [[문서]](desktop-conditional-table-formatting.md#color-by-color-values)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
 * Python 통합  [[동영상]](https://youtu.be/dgv5HhHxxe8?t=11m14s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
 * 질문 및 답변 개선  [[동영상]](https://youtu.be/dgv5HhHxxe8?t=13m1s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
 

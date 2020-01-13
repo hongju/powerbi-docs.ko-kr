@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a01598bda6520bbf0bf82175ab4256cf7d529e84
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880695"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762258"
 ---
-# <a name="getting-started-with-color-formatting-and-axis-properties"></a>색 서식 지정 및 축 속성 시작
+# <a name="get-started-with-color-formatting-and-axis-properties"></a>색 서식 지정 및 축 속성 시작
 **Power BI**에서는 데이터 계열, 데이터 요소 및 시각화의 배경 색까지도 변경할 수 있습니다. x축과 y축의 표시 방법을 변경할 수도 있으며 대시보드 및 보고서가 나타나는 방식을 완전히 제어할 수 있습니다.
 
 시작하려면 **내 작업 영역** 창에서 **보고서**를 선택합니다. 그런 다음 상단 메뉴 영역에서 **보고서 편집**을 선택합니다.  
@@ -42,7 +42,7 @@ ms.locfileid: "73880695"
 * 플롯 영역
 * 제목
 * 배경
-* 잠금 요소
+* 가로 세로 비율 잠금
 * 테두리
 
 > [!NOTE]
