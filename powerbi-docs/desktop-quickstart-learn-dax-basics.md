@@ -83,7 +83,7 @@ DAX 수식을 이해하려는 경우, 매일 생각하고 말하는 언어로 �
 
 1. Contoso Sales Sample Power BI Desktop 파일을 [다운로드](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)하고 엽니다. 
     
-2. 보고서 뷰의 필드 목록에서 **Sales** 테이블을 마우스 오른쪽 단추로 클릭하고 **새 측정값**을 선택합니다.
+2. 보고서 보기의 필드 목록에서 **Sales** 테이블을 마우스 오른쪽 단추로 클릭하고 **새 측정값**을 선택합니다.
     
 3. 수식 입력줄에 새 측정값 이름 *Previous Quarter Sales*를 입력하여 **측정값**을 바꿉니다.
     
