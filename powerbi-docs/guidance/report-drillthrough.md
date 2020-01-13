@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b674c621c30491a00c529af7f2fcd9eb87f3ecfa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834773"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223616"
 ---
 # <a name="report-page-drillthrough"></a>보고서 페이지 드릴스루
 
@@ -63,7 +63,7 @@ ms.locfileid: "74834773"
 - **시인성:** 시각적 개체 헤더 아이콘 텍스트를 설정하거나 텍스트 상자에 지침을 추가하여 드릴스루 페이지의 시인성을 높이세요. [이 블로그 게시물](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/)에서 설명하는 것처럼 오버레이를 디자인할 수도 있습니다.
 
 > [!TIP]
-> Power BI 페이지를 매긴 보고서에 드릴스루를 구성할 수 있습니다. 이렇게 하려면 Power BI 보고서에 링크를 추가하면 됩니다. 링크는 [URL 매개 변수](/blog/url-parameters-for-paginated-reports-are-now-available/)를 정의할 수 있습니다.
+> Power BI 페이지를 매긴 보고서에 드릴스루를 구성할 수 있습니다. 이렇게 하려면 Power BI 보고서에 링크를 추가하면 됩니다. 링크는 [URL 매개 변수](https://powerbi.microsoft.com/blog/url-parameters-for-paginated-reports-are-now-available/)를 정의할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
