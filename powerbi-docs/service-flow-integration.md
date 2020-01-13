@@ -21,7 +21,7 @@ ms.locfileid: "75223773"
 
 [Power Automate](https://docs.microsoft.com/power-automate/getting-started)는 비즈니스 사용자가 사용하는 애플리케이션 및 SaaS 서비스 수가 증가함에 따라 워크플로 자동화를 위해 제공되는 SaaS입니다. Flow를 사용하면 즐겨 찾는 앱과 서비스(Power BI 포함)를 통합하여 작업을 자동화함으로써 알림 가져오기, 파일 동기화, 데이터 수집 등을 수행할 수 있습니다. 워크플로 자동화를 사용하면 반복 작업이 쉬워집니다.
 
-[이제 Flow를 사용하여 시작합니다.](https://docs.microsoft.com/power-automate/getting-started)
+[지금 바로 Flow를 시작합니다.](https://docs.microsoft.com/power-automate/getting-started)
 
 Sirui가 Power BI 경고가 트리거될 때 동료에게 자세한 전자 메일을 보내는 흐름을 만드는 것을 시청합니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
 
@@ -55,7 +55,7 @@ Sirui가 Power BI 경고가 트리거될 때 동료에게 자세한 전자 메�
 1. 트리거 드롭다운 목록에서 Power BI 데이터 경고를 선택합니다. **아일랜드의 새 메달**을 선택합니다. 경고를 만드는 방법을 알아보려면 [Power BI에서 데이터 경고](service-set-data-alerts.md)를 참조하세요.
    
    ![경고 드롭다운](media/service-flow-integration/power-bi-trigger-flow.png)
-2. 유효한 메일 주소를 하나 이상 입력하고 **편집**(아래에 표시) 또는 **동적 콘텐츠 추가**를 선택합니다.  
+2. 유효한 메일 주소를 하나 이상 입력하고 **편집**(아래에 표시) 또는 **동적 콘텐츠 추가**를 선택합니다. 
    
    ![이메일 보내기 화면](media/service-flow-integration/power-bi-flow-email.png)
 
