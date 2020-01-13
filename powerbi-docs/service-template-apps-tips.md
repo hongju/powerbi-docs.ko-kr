@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099757"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622448"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI에서 템플릿 앱 작성 팁
 
@@ -131,13 +131,13 @@ Power BI Desktop에서 [매개 변수](https://powerbi.microsoft.com/blog/deep-d
 * [Power BI 앱 제품](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)에 대한 설명서를 따라야 합니다.
 * 대시보드가 앱의 일부인 경우 비어 있지 않은지 확인합니다.
 * 앱을 제출하기 전에 앱 링크를 사용하여 앱을 설치합니다. 데이터 세트와 앱 환경을 계획대로 연결할 수 있는지 확인합니다.
-* bpix를 템플릿 작업 영역에 업로드하기 전에 불필요한 연결을 언로드해야 합니다.
+* pbix를 템플릿 작업 영역에 업로드하기 전에 불필요한 연결을 언로드해야 합니다.
 * 사용자에게 미치는 최대한의 영향을 획득하고 배포 승인을 받을 수 있도록, Power BI [보고서 및 시각적 개체 모범 디자인 사례](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)를 따릅니다.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 
-| 특정 | 알려진 제한 사항 |
+| 기능 | 알려진 제한 사항 |
 |---------|---------|
 |목차:  데이터 세트   | 정확히 하나의 데이터 세트가 있어야 합니다. Power BI Desktop(.pbix 파일)에 기본 제공 데이터 세트만 허용됩니다. <br>지원되지 않음: 다른 템플릿 앱, 작업 영역 간 데이터 세트, 페이지를 매긴 보고서(.rdl 파일), Excel 통합 문서의 데이터 세트 |
 |목차: 대시보드 | 실시간 타일은 허용되지 않음(즉, 푸시 또는 스트리밍 데이터 세트에 대한 지원이 없음) |

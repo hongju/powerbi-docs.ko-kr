@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ee7405b7c3d542dd824c70c17459c7078b3f0e1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
+ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878841"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "75523030"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop의 Analysis Services 테이블 형식 데이터 사용
 Power BI Desktop에서 SQL Server Analysis Services 테이블 형식 모델의 데이터에 연결하고 이 데이터를 가져올 수 있는 두 가지 방법은 다음과 같습니다. 라이브 연결을 사용하여 탐색하거나, 항목을 선택하고 Power BI Desktop으로 가져옵니다.
@@ -76,6 +76,12 @@ Power BI Desktop에 동적 보고서를 만들 경우 Power BI 사이트에 게�
 **질문:** 탐색기에서 모델 및 큐브 뷰가 보입니다. 차이점은 무엇인가요?
 
 **답변:** 큐브 뷰는 테이블 형식 모델의 특정 뷰입니다. 여기에는 고유의 데이터 분석 필요에 따라 특정 테이블, 열 또는 측정치만 포함될 수 있습니다. 테이블 형식 모델에는 하나 이상의 큐브 뷰가 포함되어 모델에 모든 것을 담을 수 있습니다. 무엇을 선택할지 확실히 모르겠으면 관리자에게 확인합니다.
+
+**질문:** Power BI 작동 방식을 변경하는 Analysis Services 기능이 있나요?
+
+**답변:** 예. 테이블 형식 모델에서 사용하는 기능에 따라 Power BI Desktop의 환경이 변경될 수 있습니다. 일부 사례:
+* 모델의 측정값이 열과 함께 테이블이 아니라 필드 목록 맨 위에 그룹화될 수도 있습니다. 염려하지 마십시오. 정상적으로 계속 사용할 수 있으며, 이 방식으로 측정값을 찾는 것이 더 간편합니다.
+* 테이블 형식 모델에 계산 그룹이 정의되어 있을 경우, 모델 측정값하고만 사용할 수 있고 시각적 개체에 숫자 필드를 추가하여 만든 암시적 측정값하고는 사용할 수 없습니다. 모델에 동일한 효과를 가진 **DiscourageImplicitMeasures** 플래그가 수동으로 설정되어 있을 수도 있습니다. 자세한 내용은 [Analysis Services의 계산 그룹](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits)을 참조하세요.
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>최초 연결 후 서버 이름을 변경하려면
 탐색 라이브 연결이 있는 Power BI Desktop 파일을 만든 후 다른 서버로의 연결 전환이 필요한 상황이 발생할 수 있습니다. 예를 들어, 개발 서버에 연결할 때 Power BI Desktop 파일을 만들었으며 Power BI 서비스에 게시하기 전에 프러덕션 서버로 연결을 전환하려는 경우가 있습니다.

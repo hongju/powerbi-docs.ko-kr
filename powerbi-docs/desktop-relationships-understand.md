@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8562d0fd5acee2f18576f0a6b6f2e3d613354f92
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 0029d275e5180c29e8653f549d8450014362b59b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009632"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304237"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop의 모델 관계
 
@@ -73,7 +73,7 @@ Power BI Desktop에서 관계를 만들면 디자이너에서 카디널리티 �
 
 **일대일** 관계는 두 열에 고유 값이 포함되어 있음을 의미합니다. 이 카디널리티 유형은 일반적이지 않으며, 중복 데이터가 저장되므로 최적이 아닌 모델 설계를 나타낼 가능성이 높습니다.<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
 
-**다대다** 관계는 두 열에 중복 값이 포함될 수 있음을 의미합니다. 이 카디널리티 유형은 자주 사용되지 않습니다. 일반적으로 복잡한 모델 요구 사항을 설계할 때 유용합니다.<!-- For guidance on using this cardinality type, see the [Many-to-many relationship guidance](guidance/relationships-many-to-many) article.-->
+**다대다** 관계는 두 열에 중복 값이 포함될 수 있음을 의미합니다. 이 카디널리티 유형은 자주 사용되지 않습니다. 일반적으로 복잡한 모델 요구 사항을 설계할 때 유용합니다. 이 카디널리티 유형을 사용하는 방법에 대한 지침은 [다 대 다 관계 지침](guidance/relationships-many-to-many.md)을 참조하세요.
 
 > [!NOTE]
 > Power BI Report Server용으로 개발된 모델에는 현재 다대다 카디널리티 유형이 지원되지 않습니다.
@@ -226,4 +226,5 @@ _참조 무결성 가정_ 속성은 동일한 데이터 원본을 기반으로 �
 ## <a name="next-steps"></a>다음 단계
 
 - [별모양 스키마 및 Power BI에서의 중요성 이해](guidance/star-schema.md)
+- [다 대 다 관계 지침](guidance/relationships-many-to-many.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

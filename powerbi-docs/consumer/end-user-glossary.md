@@ -2,19 +2,18 @@
 title: Power BI 소비자를 위한 용어집
 description: Power BI에서는 많은 새 용어를 도입했으며 익숙한 용어가 새로운 방식으로 사용되고 있습니다. 용어집을 사용하여 Power BI 용어에 친숙해질 수 있습니다.
 services: power-bi
-ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 12/18/2019
 ms.author: mihart
-ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: 046f35613e5fe748e93389fbe10a77af08f449e3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548552"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75303913"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다. 
@@ -76,7 +75,9 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **content view (콘텐츠 보기)**
 
-**cross filter, cross highlight (크로스 필터, 교차 강조 표시)**
+**교차 필터** 시각적 개체 조작에 적용됩니다. 교차 필터링은 적용되지 않는 데이터를 제거합니다. 예를 들어 도넛형 차트에서 **조정**을 선택하면 꺾은선형 차트가 교차 필터링됩니다. 이제 꺾은선형 차트에 조정 세그먼트에 적용되는 데이터 요소만 표시됩니다.
+
+**교차 강조 표시** 시각적 개체 조작에 적용됩니다. 교차 강조 표시는 원래 데이터 요소를 모두 유지하지만 선택 항목에 적용되지 않는 부분을 흐리게 표시합니다. 예를 들어 도넛형 차트에서 **조정**을 선택하면 세로 막대형 차트가 교차 강조 표시됩니다. 세로 막대형 차트는 조정 세그먼트에 적용되지 않는 모든 데이터를 흐리게 표시하고 조정 세그먼트에 적용되는 모든 데이터를 강조 표시합니다.
 
 **custom visual (사용자 지정 시각적 개체)** 커뮤니티 및 Microsoft에서 만든 시각적 개체입니다. Office 스토어에서 다운로드한 후 Power BI 보고서에서 사용할 수 있습니다.
 
@@ -214,7 +215,7 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 **Power BI**, **Power BI Desktop (Power BI 서비스)** , **Power BI Desktop**, **Power BI Mobile**, Power BI 제품 일부 *Power BI*는 일반적인 용어입니다. 대개 최초에 *Power BI 서비스* 및 *Power BI Mobile*과 같은 전체 제품 이름을 언급한 후에 Power BI를 사용합니다.
 
-**Power BI Desktop** *Desktop*이라고도 합니다. 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 Power BI의 무료 Windows 애플리케이션입니다. 보고서 디자이너 및 관리자가 사용합니다. 자세한 내용은 [Power BI란?](../fundamentals/power-bi-overview.md)을 참조하세요.
+**Power BI Desktop***Desktop*이라고도 합니다. 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 Power BI의 무료 Windows 애플리케이션입니다. 보고서 디자이너 및 관리자가 사용합니다. 자세한 내용은 [Power BI란?](../fundamentals/power-bi-overview.md)을 참조하세요.
 
 **Power BI Embedded** 개발자가 자체 앱, 사이트 및 도구에 Power BI 대시보드 및 보고서를 포함하는 데 사용하는 제품입니다.
 
@@ -310,6 +311,8 @@ Power BI 대시보드에는 보고서 타일이 포함되어 있습니다.
 **value, values (값)** 시각화할 숫자 데이터입니다.
 
 **visual, visualization (시각적 개체, 시각화)** 차트입니다. 시각적 개체로는 막대형 차트, 트리 맵, 도넛형 차트, 맵 등이 있습니다.
+
+**시각적 개체 조작** Power BI의 뛰어난 기능 중 하나는 보고서 페이지의 모든 시각적 개체가 상호 연결되는 방식입니다. 시각적 개체 중 하나에서 데이터 요소를 선택하는 경우 페이지에서 해당 데이터를 포함하는 다른 모든 시각적 개체는 해당 선택 사항에 따라 변경됩니다.
 
 **Visualizations pane (시각화 창)** Power BI Desktop 및 Power BI 서비스에 대한 공유 보고서 캔버스에 제공되는 시각화 템플릿의 이름입니다. 네이티브 시각화 종류별로 아이콘이라고도 하는 작은 템플릿을 포함합니다.  
 

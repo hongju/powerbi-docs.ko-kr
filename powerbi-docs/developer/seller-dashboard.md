@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/03/2019
-ms.openlocfilehash: 12ecde787bb268190f9b94a2db5992d5840080ac
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 73a6a3d16ae2515af41a3232a37579e18876f38b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75002538"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223657"
 ---
 # <a name="submit-a-power-bi-visual-to-appsource-using-seller-dashboard"></a>판매자 대시보드를 사용하여 AppSource에 Power BI 시각적 개체 제출
 
@@ -103,7 +103,7 @@ AppSource에 제출하기 전에 **pbiviz** 파일과 **pbix** 파일이 첨부�
     * [요구 사항 준수](power-bi-custom-visuals-certified.md#certification-requirements)
     * 코드 검토 통과
 
-2. Microsoft Power BI 시각적 개체 팀은 Power BI 시각적 개체가 인증되어 [인증된 목록](power-bi-custom-visuals-certified.md#list-of-power-bi-visuals-that-have-been-certified)에 추가되거나 수정해야 하는 문제에 대한 보고서와 함께 거부될 때 사용자에게 알립니다. 개발자는 Microsoft와의 통신을 열어 두고 필요한 경우 인증된 시각적 개체를 업데이트하는 것을 담당합니다.
+2. Microsoft Power BI 시각적 개체 팀은 Power BI 시각적 개체가 인증되어 [인증된 Power BI 시각적 개체](power-bi-custom-visuals-certified.md#certified-power-bi-visuals) 목록에 추가되거나 수정해야 하는 문제 보고서와 함께 거부되면 사용자에게 알립니다. 개발자는 Microsoft와의 통신을 열어 두고 필요한 경우 인증된 시각적 개체를 업데이트하는 것을 담당합니다.
 
 ## <a name="tracking-submission-status-and-usage"></a>제출 상태 및 사용 현황 추적
 

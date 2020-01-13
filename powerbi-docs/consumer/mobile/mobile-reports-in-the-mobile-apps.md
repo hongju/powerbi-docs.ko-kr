@@ -1,19 +1,19 @@
 ---
 title: Power BI 모바일 앱에서 보고서 탐색
 description: 휴대폰 또는 태블릿의 Power BI 모바일 앱에서 보고서를 보고 상호 작용하는 방법에 대해 알아봅니다. Power BI 서비스 또는 Power BI Desktop에서 보고서를 만든 다음 모바일 앱에서 보고서를 조작합니다.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/09/2019
-ms.author: mshenhav
-ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/16/2019
+ms.author: painbar
+ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869754"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220771"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -96,29 +96,43 @@ Power BI 모바일 앱의 보고서를 위한 두 가지 아이콘이 있습니�
 ![보고서 바닥글](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
 바닥글의 이러한 작업에서 다음을 수행할 수 있습니다.
-- 보고서 필터를 다시 설정하고 선택 항목을 원래 상태로 다시 교차 강조 표시합니다.
-- 대화 창을 열어 설명을 보거나 보고서에 대한 설명을 추가합니다.
-- 필터 창을 열어 보고서에 현재 적용된 필터를 보거나 수정합니다.
-- 보고서의 모든 페이지를 나열합니다. 페이지 이름을 탭하면 해당 페이지가 로드되고 표시됩니다.
+* 보고서 필터를 다시 설정하고 선택 항목을 원래 상태로 다시 교차 강조 표시합니다.
+* 대화 창을 열어 설명을 보거나 보고서에 대한 설명을 추가합니다.
+* 필터 창을 열어 보고서에 현재 적용된 필터를 보거나 수정합니다.
+* 보고서의 모든 페이지를 나열합니다. 페이지 이름을 탭하면 해당 페이지가 로드되고 표시됩니다.
 화면 가장자리에서 가운데로 살짝 밀면 보고서 페이지 간에 이동할 수 있습니다.
-- 모든 보고서 작업을 봅니다.
+* 모든 보고서 작업을 봅니다.
 
 #### <a name="all-report-actions"></a>모든 보고서 작업
 보고서 바닥글에 있는 **추가 옵션**(...) 단추를 탭하면 보고서에서 수행할 수 있는 모든 작업이 표시됩니다.
 
 
-![모든 보고서 작업](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
+![모든 보고서 작업](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 일부 작업은 특정 보고서 기능에 종속되므로 사용하지 않도록 설정될 수 있습니다.
 예:
+
+**책갈피**는 보고서에 [책갈피](mobile-reports-in-the-mobile-apps.md#bookmarks)가 설정된 경우에만 표시됩니다. Power BI 서비스에서 정의할 수 있는 개인 책갈피와 보고서 작성자가 정의한 책갈피가 모두 표시됩니다. 책갈피 중 하나가 기본 책갈피로 정의된 경우에는 보고서가 로드 시 해당 뷰로 열립니다.
+
+Power BI 모바일 앱의 공유를 금지하는 [Intune 보호 정책](https://docs.microsoft.com/intune/app-protection-policies)을 조직에서 적용 중인 경우 **주석 달기 및 공유**를 끄도록 설정할 수 있습니다.
+
+다른 사용자와 보고서를 공유할 권한이 있는 경우에만 **초대**가 사용하도록 설정됩니다. 보고서 소유자이거나 소유자가 다시 공유 권한을 부여한 경우에만 권한이 있습니다.
 
 보고서 작성자가 보고서를 지리 데이터로 분류한 경우 **현재 위치로 필터링**이 사용하도록 설정됩니다. 자세한 내용은 [보고서에서 지리 데이터 식별](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering)을 참조하세요.
 
 보고서의 데이터 세트에 **바코드** 태그가 지정된 경우 **바코드로 보고서를 필터링하려면 검사**가 사용하도록 설정됩니다. 자세한 내용은 [Power BI Desktop의 바코드 태깅](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes)을 참조하세요.
 
-다른 사용자와 보고서를 공유할 권한이 있는 경우에만 **초대**가 사용하도록 설정됩니다. 보고서 소유자이거나 소유자가 다시 공유 권한을 부여한 경우에만 권한이 있습니다.
+### <a name="bookmarks"></a>책갈피
 
-Power BI 모바일 앱의 공유를 금지하는 [Intune 보호 정책](https://docs.microsoft.com/intune/app-protection-policies)을 조직에서 적용 중인 경우 **주석 달기 및 공유**를 끄도록 설정할 수 있습니다.
+Power BI 모바일 앱은 보고서 작성자가 정의한 보고서 책갈피와 Power BI 서비스에서 정의할 수 있는 개인 책갈피를 모두 지원합니다. [보고서 작업 도구 모음](mobile-reports-in-the-mobile-apps.md#all-report-actions)의 **기타 옵션**(...)에서 책갈피 메뉴를 찾을 수 있습니다.
+
+![책갈피 메뉴](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
+
+보고서의 책갈피 뷰를 열면 책갈피 이름이 보고서 맨 위에 표시됩니다.
+
+![책갈피 뷰](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
+
+[Power BI 서비스의 책갈피에 대해 자세히 알아보세요](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
 
 ## <a name="next-steps"></a>다음 단계
 * [휴대폰에 최적화된 Power BI 보고서 보기 및 상호 작용](mobile-apps-view-phone-report.md)

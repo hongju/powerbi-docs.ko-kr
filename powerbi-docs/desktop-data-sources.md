@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410965"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75222155"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 
@@ -29,9 +29,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 ![데이터 단추 가져오기](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI 팀은 **Power BI Desktop** 및 **Power BI 서비스**에 사용할 수 있는 데이터 원본을 지속적으로 확장합니다. 따라서 *베타* 또는 *미리 보기*로 표시된 작업 진행 데이터 원본의 초기 버전을 자주 볼 수 있습니다. *베타* 또는 *미리 보기*로 표시된 모든 데이터 원본은 제한된 지원 및 기능을 가지며 프로덕션 환경에서는 사용할 수 없습니다. 
-
-> 또한 **Power BI Desktop**에서 ‘베타’ 또는 ‘미리 보기’로 표시된 데이터 원본은 데이터 원본이 GA(일반 공급) 상태가 될 때까지 **Power BI 서비스** 또는 기타 Microsoft 서비스에서 사용하지 못할 수 있습니다.  
+> Power BI 팀은 **Power BI Desktop** 및 **Power BI 서비스**에 사용할 수 있는 데이터 원본을 지속적으로 확장합니다. 따라서 *베타* 또는 *미리 보기*로 표시된 작업 진행 데이터 원본의 초기 버전을 자주 볼 수 있습니다. *베타* 또는 *미리 보기*로 표시된 모든 데이터 원본은 제한된 지원 및 기능을 가지며 프로덕션 환경에서는 사용할 수 없습니다. 또한 **Power BI Desktop**에서 ‘베타’ 또는 ‘미리 보기’로 표시된 데이터 원본은 데이터 원본이 GA(일반 공급) 상태가 될 때까지 **Power BI 서비스** 또는 기타 Microsoft 서비스에서 사용하지 못할 수 있습니다.  
 
 ## <a name="data-sources"></a>데이터 원본
 데이터 유형은 다음 범주로 구성됩니다.
@@ -82,7 +80,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Vertica
 * Snowflake
 * Essbase
-* AtScale 큐브(베타)
+* AtScale 큐브
 * BI 커넥터
 * Dremio
 * Exasol
@@ -104,7 +102,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Power BI 데이터 세트
 * Power BI 데이터 흐름
 * Common Data Service
-* Power Platform 데이터 흐름(베타)
+* Power Platform 데이터 흐름
 
 다음 그림은 **Power Platform**에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
@@ -118,13 +116,14 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB
-* Azure Data Lake Storage Gen2(베타)
+* Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight(HDFS)
 * Azure HDInsight Spark
 * HDInsight 대화형 쿼리
 * Azure Data Explorer(Kusto)
-* Azure Cost Management(베타)
+* Azure Cost Management
+* Azure Time Series Insights(베타)
 
 다음 그림은 **Azure** 에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
@@ -236,7 +235,7 @@ PBIDS 파일은 특정 구조가 있는 Power BI Desktop 파일이며, Power BI 
 
 선택한 후에는 사용자가 시각화를 빌드하거나 ‘최근 원본’을 다시 방문하여 새 테이블 집합을 모델에 로드할 수 있습니다.  
 
-현재 PBIDS 파일은 한 파일의 단일 데이터 원본만 지원합니다. 둘 이상의 데이터 원본을 지정하면 오류가 발생합니다. 
+현재 .PBIDS 파일은 한 파일에서 단일 데이터 원본만 지원합니다. 둘 이상의 데이터 원본을 지정하면 오류가 발생합니다. 
 
 .PBIDS 파일을 생성하려면 관리자가 단일 연결에 필요한 입력을 지정해야 하며, **DirectQuery** 또는 **가져오기**로 연결 모드를 지정할 수 있습니다. 파일에 **모드**가 없거나 파일이 null인 경우, Power BI Desktop에서 파일을 여는 사용자에게 DirectQuery 또는 가져오기를 선택하라는 메시지가 표시됩니다. 
 

@@ -8,16 +8,16 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: a517ee4edce6e18eadcbe2b1b6765684f8121b21
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199431"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622362"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>MDM(모바일 디바이스 관리) 도구를 사용하여 Power BI 앱을 원격으로 구성
 
-iOS 및 Android용 Power BI 모바일 앱은 Office 365 및 MDM(모바일 디바이스 관리) 서비스(예: Intune)의 관리자가 앱의 동작을 사용자 지정할 수 있도록 앱 설정을 지원합니다.
+iOS 및 Android용 Power BI Mobile 앱은 MDM(모바일 디바이스 관리) 서비스(예: Intune) 관리자가 앱의 동작을 사용자 지정할 수 있게 해주는 앱 설정을 지원합니다.
 
 Power BI 모바일 앱은 다음 구성 시나리오를 지원합니다.
 

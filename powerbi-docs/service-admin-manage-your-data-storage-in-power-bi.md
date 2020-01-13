@@ -11,10 +11,10 @@ ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
 ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873652"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI 작업 영역에서 데이터 스토리지 관리
@@ -48,7 +48,7 @@ Power BI 계정에서 사용 중인 데이터 스토리지의 규모를 확인�
 1. 자체 스토리지를 관리하려면 탐색 창의 **내 작업 영역**으로 이동합니다.
    
     ![내 작업 영역](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. 오른쪽 위 모서리에서 ![기어 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)을 선택한 후\> **개인 스토리지 관리**를 선택합니다.
+2. 오른쪽 위에 있는 ![기어 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> **개인 스토리지 관리**를 선택합니다.
    
     위쪽 막대는 사용한 스토리지 한도의 크기를 보여줍니다.
    
@@ -58,15 +58,15 @@ Power BI 계정에서 사용 중인 데이터 스토리지의 규모를 확인�
    
     **본인이 소유:** Salesforce 및 Dynamics CRM 등과 같은 서비스 데이터 세트를 포함하여 이러한 보고서와 데이터 세트를 Power BI 계정에 업로드하였습니다.  
     **다른 사람 소유:** 다른 사람이 사용자와 공유한 보고서 및 데이터 세트입니다.
-1. 데이터 세트 또는 보고서를 삭제하려면 휴지통 아이콘 ![휴지통 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+1. 데이터 세트 또는 보고서를 삭제하려면 휴지통 아이콘 ![휴지통 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)을 탭합니다.
 
 본인 또는 다른 사용자가 데이터 세트 기반의 보고서 및 대시보드를 보유할 수 있음을 염두에 둡니다. 그런 데이터 세트를 삭제하면 해당 보고서와 대시보드가 더 이상 작동하지 않습니다.
 
 ## <a name="manage-your-workspace"></a>작업 영역 관리
-1. **작업 영역** 옆에 있는 화살표를 선택한 다음 \> 작업 영업 이름을 선택합니다.
+1. **작업 영역** 옆에 있는 화살표 \> 작업 영업 이름을 선택합니다.
    
     ![작업 영역 선택](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. 오른쪽 위 모서리에서 ![기어 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)을 선택한 후\> **그룹 스토리지 관리**를 선택합니다.
+2. 오른쪽 위에 있는 ![기어 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> **그룹 스토리지 관리**를 선택합니다.
    
     위쪽 막대는 사용한 그룹 스토리지 한도의 크기를 보여줍니다.
    
@@ -76,7 +76,7 @@ Power BI 계정에서 사용 중인 데이터 스토리지의 규모를 확인�
    
     **우리 소유:** Salesforce 및 Dynamics CRM 등과 같은 서비스 데이터 세트를 포함하여 사용자 또는 누군가가 이러한 보고서와 데이터 세트를 그룹의 Power BI 계정에 업로드하였습니다.
     **다른 사람 소유:** 다른 사람이 그룹과 공유한 보고서 및 데이터 세트입니다.
-3. 데이터 세트 또는 보고서를 삭제하려면 휴지통 아이콘 ![휴지통 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+3. 데이터 세트 또는 보고서를 삭제하려면 휴지통 아이콘 ![휴지통 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)을 탭합니다.
    
    > [!NOTE]
    > 편집 권한이 있는 작업 영역의 모든 구성원은 작업 영역에서 데이터 세트와 보고서를 삭제할 수 있는 권한이 있습니다.

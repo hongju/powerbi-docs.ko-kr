@@ -83,7 +83,7 @@
           href: developer/power-bi-custom-visuals-faq.md
     - name: 방법 가이드
       items:
-        - name: Power BI Desktop 받기
+        - name: Power BI Desktop 다운로드
           href: desktop-get-the-desktop.md
         - name: Power BI Desktop 시작
           href: desktop-getting-started.md
@@ -101,7 +101,7 @@
           href: desktop-relationship-view.md
         - name: 보고서 보기 작업
           href: desktop-report-view.md
-        - name: 데이터 원본에 연결
+        - name: 데이터 원본 연결
           href: desktop-connect-to-data.md
         - name: 데이터 세트 및 보고서 게시
           href: desktop-upload-desktop-files.md
@@ -117,7 +117,7 @@
           href: desktop-auto-date-time.md
         - name: 데이터에 연결
           items:
-            - name: 데이터 원본에 연결
+            - name: 데이터 원본 연결
               href: desktop-data-sources.md
             - name: SharePoint 목록에서 보고서 만들기
               href: desktop-sharepoint-online-list.md
@@ -479,7 +479,7 @@
               href: service-datasets-understand.md
             - name: Power BI 데이터 세트 모드 이해
               href: service-dataset-modes-understand.md
-            - name: Power BI의 데이터 새로 고침
+            - name: Power BI에서 데이터 새로 고침
               href: refresh-data.md
         - name: Power BI에서 공동 작업
           items:
@@ -489,7 +489,7 @@
               href: service-how-to-collaborate-distribute-dashboards-reports.md
             - name: Power BI 사용 현황 모니터링
               href: service-usage-metrics.md
-        - name: 라이선스
+        - name: 라이선싱
           items:
             - name: Power BI에 등록
               href: service-self-service-signup-for-power-bi.md
@@ -631,7 +631,7 @@
               href: service-report-save.md
             - name: 편집용 보기에서 보고서와 상호 작용
               href: service-interact-with-a-report-in-editing-view.md
-            - name: 도구 모음
+            - name: Excel에서 분석
               href: service-analyze-in-excel.md
             - name: 보고서를 만들기 위한 팁과 힌트
               href: power-bi-reports-tips-and-tricks-for-creating.md
@@ -709,6 +709,8 @@
               href: service-dataflows-overview.md
             - name: 데이터 흐름 만들기 및 사용
               href: service-dataflows-create-use.md
+            - name: 데이터 흐름에 향상된 컴퓨팅 엔진 사용
+              href: service-dataflows-enhanced-compute-engine.md
             - name: Power BI Premium의 컴퓨팅된 엔터티
               href: service-dataflows-computed-entities-premium.md
             - name: 데이터 흐름을 사용하여 데이터 원본에 연결
@@ -787,7 +789,7 @@
               href: service-admin-troubleshoot-excel-workbook-data.md
             - name: 새로 고침에 실패한 경우 Xero 콘텐츠 팩 자격 증명을 새로 고치는 방법
               href: service-refresh-xero-credentials.md
-        - name: 다른 작업
+        - name: 기타 작업
           items:
             - name: Power BI 내에서 콘텐츠 이름 바꾸기
               href: service-rename.md
@@ -801,11 +803,13 @@
               items:
                 - name: 앱을 사용하여 서비스에 연결
                   href: service-connect-to-services.md
+                - name: Azure 탄소 계산기
+                  href: service-connect-to-azure-carbon-calculator.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
-                - name: Project Online
+                - name: 프로젝트 온라인
                   href: service-connect-to-project-online.md
                 - name: QuickBooks Online
                   href: service-connect-to-quickbooks-online.md
@@ -837,7 +841,7 @@
           href: power-bi-browsers.md
     - name: 리소스
       items:
-        - name: 동영상
+        - name: 비디오
           href: videos.md
         - name: 웹 세미나
           href: webinars.md
@@ -891,7 +895,7 @@
           href: report-builder-power-bi.md
     - name: 자습서
       items:
-        - name: '실습 랩: 페이지를 매긴 보고서 만들기'
+        - name: '실습 랩: 페이지가 매겨진 보고서 만들기'
           href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
         - name: 페이지를 매긴 보고서 만들기 및 업로드
           href: paginated-reports-quickstart-aw.md
@@ -953,7 +957,7 @@
       items:
         - name: 새로운 기능
           href: report-server/whats-new.md
-        - name: 변경 로그
+        - name: 로그 변경
           href: report-server/changelog.md
         - name: 지원 타임라인
           href: report-server/support-timeline.md
@@ -971,7 +975,7 @@
               href: report-server/data-sources.md
             - name: 페이지를 매긴 보고서 데이터 원본
               href: report-server/connect-data-sources.md
-            - name: Subscriptions
+            - name: 구독
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
             - name: 모바일 앱 사용
               href: 'https://go.microsoft.com/fwlink/?linkid=848711'

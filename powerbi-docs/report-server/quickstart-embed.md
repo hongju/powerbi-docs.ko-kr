@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 195be0766e135dcccc2124a998fb5a32e8703d5b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fe91de89e7eec601c516895089e3dcc03eff14ea
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875010"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657216"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>SharePoint Server에서 iFrame을 사용하여 Power BI Report Server 보고서 포함
 
@@ -25,6 +25,7 @@ ms.locfileid: "73875010"
 * [Power BI Report Server](https://powerbi.microsoft.com/report-server/)가 설치 및 구성되어 있습니다.
 * [Power BI Report Server에 최적화된 Power BI Desktop](install-powerbi-desktop.md)이 설치되어 있습니다.
 * [SharePoint](https://docs.microsoft.com/sharepoint/install/install) 환경이 설치 및 구성되어 있습니다.
+* Internet Explorer 11은 SharePoint Online을 사용하는 경우에만 지원됩니다.  두 시나리오에서 다른 지원 브라우저를 사용할 수 있습니다.
 
 ## <a name="create-the-power-bi-report-url"></a>Power BI 보고서 URL 만들기
 

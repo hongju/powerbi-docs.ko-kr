@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 49615e1b6c205d9b894df0bcca7ef4979f153ba7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f5fa262c01767ba934a10300e321796845d47c5f
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872115"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223804"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Power BI의 자동화된 Machine Learning
 
@@ -32,7 +32,7 @@ Power BI의 AutoML을 사용하면 데이터 분석가가Power BI 기술만 사�
 
 AutoML은 데이터 흐름에 대한 **이진 예측**, **분류** 및 **회귀 모델** 생성을 지원합니다. 이러한 감독된 기계 학습 기술 유형은 이전 관찰에서 알려진 결과를 학습하여 다른 관찰의 결과를 예측할 수 있음을 의미합니다. AutoML 모델 학습을 위한 입력 데이터 세트는 알려진 결과로 **레이블이 지정된** 레코드 집합입니다.
 
-Power BI의 AutoML은 [Azure Machine Learning Service](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)의 [자동화된 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)을 통합하여 ML 모델을 만듭니다. 그러나 Power BI에서 AutoML을 사용하기 위해 Azure 구독이 필요하지는 않습니다. ML 모델을 학습 및 호스팅하는 프로세스는 전적으로 Power BI 서비스에 의해 관리됩니다.
+Power BI의 AutoML은 [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)의 [자동화된 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)을 통합하여 ML 모델을 만듭니다. 그러나 Power BI에서 AutoML을 사용하기 위해 Azure 구독이 필요하지는 않습니다. ML 모델을 학습 및 호스팅하는 프로세스는 전적으로 Power BI 서비스에 의해 관리됩니다.
 
 ML 모델을 학습한 후 AutoML은 ML 모델의 성능에 대해 설명하는 Power BI 보고서를 자동으로 생성합니다. AutoML은 사용자 입력 중 모델에서 반환되는 예측에 영향을 주는 주요 인플루언서를 강조 표시하여 설명 기능을 강조합니다. 보고서에는 모델의 주요 메트릭도 포함됩니다.
 
@@ -282,7 +282,7 @@ Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면
 
 - [자습서: Power BI에서 Machine Learning 모델 빌드](service-tutorial-build-machine-learning-model.md)
 - [자습서: Power BI에서 Cognitive Services 사용](service-tutorial-use-cognitive-services.md)
-- [자습서: Power BI에서 Machine Learning Studio 모델 호출(미리 보기)](service-tutorial-invoke-machine-learning-model.md)
+- [자습서: Power BI에서 Machine Learning Studio(클래식) 모델 호출(미리 보기)](service-tutorial-invoke-machine-learning-model.md)
 - [Power BI의 Cognitive Services](service-cognitive-services.md)
 - [Power BI에서 Azure Machine Learning 통합](service-machine-learning-integration.md)
 

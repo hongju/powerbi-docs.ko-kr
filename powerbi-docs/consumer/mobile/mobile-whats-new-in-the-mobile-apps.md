@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010029"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75220520"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -21,6 +21,20 @@ ms.locfileid: "74010029"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="november-2019"></a>2019년 11월
+
+### <a name="power-bi-apps-new-look-is-now-on-by-default"></a>이제 Power BI 앱의 새 모양이 기본적으로 사용됨
+ 
+이제 앱을 열면 새로운 모양과 탐색 모음이 자동으로 켜져서 콘텐츠를 찾고 여는 방법을 간소화합니다. 앱의 [홈페이지](mobile-apps-home-page.md)를 가장 중요한 콘텐츠에 빠르게 액세스하기 위한 시작점이자 최신 경고, 알림 등을 확인할 수 있는 [작업 피드](mobile-apps-home-page.md#activity-feed)로 사용합니다.
+
+### <a name="see-all-your-latest-power-bi-activity"></a>모든 최신 Power BI 작업 확인
+ 
+작업 피드를 사용하면 Power BI 콘텐츠의 변경 내용을 실시간으로 추적할 수 있습니다. 앱의 홈페이지로 이동한 다음, 작업 탭을 열어 모든 최신 알림, 경고, 댓글, @mentions 등을 보면 됩니다. [자세히 알아봅니다](mobile-apps-home-page.md#activity-feed).
+
+### <a name="use-bookmarks-in-your-reports"></a>보고서에 책갈피 사용
+
+이제 Power BI 모바일 앱이 Power BI에서 만든 책갈피를 지원합니다. 앱을 열면 보고서 작성자가 만든 책갈피와 사용자가 직접 만든 개인 책갈피를 이용할 수 있습니다. [자세히 알아봅니다](mobile-reports-in-the-mobile-apps.md#bookmarks).
 
 ## <a name="october-2019"></a>2019년 10월
 
@@ -520,7 +534,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 #### <a name="android-devices"></a>Android 디바이스
 **미리 보기: Intune 모바일 애플리케이션 관리** Microsoft Intune MAM(모바일 애플리케이션 관리자)에 대한 Power BI 지원은 이제 Android 디바이스에서 Power BI Pro 사용자를 위한 미리 보기에 있습니다. 
 
-**즐겨찾기** Android 디바이스에서 즐겨 찾는 대시보드 태그를 지정하고 한 곳에 수집된 [즐겨 찾는 Power BI 대시보드와 Reporting Services 모바일 보고서 및 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports)를 모두 보세요. 
+**즐겨찾기** Android 디바이스에서 즐겨 찾는 대시보드 태그를 지정하고 한 곳에 수집된 [즐겨 찾는 Power BI 대시보드와 Reporting Services 모바일 보고서 및 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports)를 모두 보세요. 
 
 #### <a name="ios-devices"></a>iOS 디바이스
 **링크** 타일 및 시각화의 URL은 이제 클릭 가능하며 브라우저에서 열립니다.
@@ -654,7 +668,7 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 [2016년 3월에 대한 Power BI Mobile Apps 블로그](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-march-2016/)를 참고합니다.
 
 #### <a name="iphone-mobile-app"></a>iPhone 모바일 앱
-**Apple Watch** [Apple Watch](mobile-apple-watch.md)의 Power BI 타일 및 KPI 보기
+**Apple Watch**[Apple Watch](mobile-apple-watch.md)의 Power BI 타일 및 KPI 보기
 
 **iOS 9.0 이상** Power BI에 대한 가능한 최상의 환경 및 새로운 기능을 수용하기 위해 iOS 9.0 이상을 실행하는 디바이스를 지원하고 있습니다.
 
@@ -678,7 +692,7 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 
 **Bing 및 R 타일** 포커스 모드에서 Bing 및 R 타일을 엽니다.
 
-**시작 화면의 더 많은 라이브 타일** [시작 화면에서 KPI 및 행 카드를 라이브 타일로 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)하므로 중요한 메트릭을 모두 한 눈에 볼 수 있습니다.
+**시작 화면의 더 많은 라이브 타일** [시작 화면에 KPI 및 행 카드를 라이브 타일로 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)하여 중요한 모든 메트릭을 한눈에 확인할 수 있습니다.
 
 **두 손가락을 오므리거나 펴서 확대/축소** 태블릿에서 축소/확대를 사용하여 대시보드를 더 자세히 검사합니다.
 

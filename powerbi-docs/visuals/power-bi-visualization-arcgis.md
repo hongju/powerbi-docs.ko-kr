@@ -11,10 +11,10 @@ ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 359d36e3becb58386aeaca66f12670bd463644d1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871092"
 ---
 # <a name="arcgis-maps-in-power-bi-desktop"></a>Power BI Desktop의 ArcGIS Maps

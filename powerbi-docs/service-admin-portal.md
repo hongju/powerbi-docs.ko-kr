@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882894"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224181"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -164,13 +164,13 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ## <a name="help-and-support-settings"></a>도움말 및 지원 설정
 
-### <a name="publish-get-help-information"></a>“도움말 보기” 정보 게시
+### <a name="publish-get-help-information"></a>"도움말 보기" 정보 게시
 
 조직의 사용자는 Power BI 도움말 메뉴에서 내부 도움말 및 지원 리소스로 이동할 수 있습니다. 특히 이러한 매개 변수는 학습, 커뮤니티 및 도움말 보기 메뉴 항목을 변경합니다.
 
-    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+또한 라이선스 요청에 URL을 지정하여 **계정 업그레이드** 단추의 대상 URL을 사용자 지정합니다. Power BI Pro 라이선스가 없는 사용자는 **Power BI Pro 업데이트** 대화 상자와 **개인 스토리지 관리** 페이지에 이 단추가 표시됩니다. 또한 Power BI는 이 대화 상자나 스토리지 페이지에서 **무료로 Pro 사용해 보기** 단추를 더 이상 제공하지 않습니다. 이렇게 하면 Power BI에서 라이선스 관리 솔루션을 통해 조직에 정의된 프로세스를 사용자에게 안정적으로 안내할 수 있습니다.
 
-라이선스 요청에 URL을 지정하여 Power BI Pro 라이선스가 없는 사용자가 **Power BI Pro로 업데이트** 대화 상자 및 **개인 스토리지 관리** 페이지에서 찾을 수 있는 **계정 업그레이드** 단추의 대상 URL을 사용자 지정합니다. 또한 Power BI에서 라이선스 관리 솔루션을 통해 조직에 정의된 프로세스를 사용자에게 안정적으로 안내할 수 있도록 이 대화 상자나 스토리지 페이지에서 **Pro 체험해 보기** 단추가 더 이상 제공되지 않습니다.
+![제외 사용 설정](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>서비스 중단 또는 인시던트에 대한 이메일 알림 받기
 
