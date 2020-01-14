@@ -871,6 +871,8 @@
           href: service-admin-premium-workloads.md
         - name: 앱을 사용하여 용량 모니터링
           href: service-admin-premium-monitor-capacity.md
+        - name: 프리미엄 워크 로드 메트릭 모니터링
+          href: service-premium-metrics-app.md
         - name: 관리 포털에서 용량 모니터링
           href: service-admin-premium-monitor-portal.md
         - name: 증분 새로 고침 구성
