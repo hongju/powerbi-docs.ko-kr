@@ -30,11 +30,11 @@ Power BI Premium 다중 지역 고객의 경우 Power BI 테넌트가 일부 Azu
 
 ## <a name="next-steps"></a>다음 단계
 
-Power BI Premium 또는 Multi-Geo에 대한 자세한 내용을 보려면 다음 리소스를 살펴보세요.
+Power BI Premium 또는 다중 지역에 대한 자세한 내용을 보려면 다음 리소스를 살펴보세요.
 
 * [Microsoft Power BI Premium이란?](service-premium-what-is.md)
 * [Power BI 프리미엄 구매 방법](service-admin-premium-purchase.md)
-* [Power BI Premium에 대한 Multi-Geo 지원(미리](service-admin-premium-multi-geo.md) 보기)
+* [Power BI Premium에 대한 다중 지역 지원(미리](service-admin-premium-multi-geo.md) 보기)
 * [내 Power BI 테넌트는 어디에 있습니까?](service-admin-where-is-my-tenant-located.md)
 * [Power BI 프리미엄 FAQ](service-premium-faq.md)
 
