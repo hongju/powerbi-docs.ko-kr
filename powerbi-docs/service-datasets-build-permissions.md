@@ -70,7 +70,7 @@ Power BI Desktop의 *데이터 모델* 작성자는 Power BI 서비스에서 *�
 1. **권한** 탭에서 **X**를 선택하여 개인 또는 그룹을 삭제합니다. 
 
     ![X 선택](media/service-datasets-build-permissions/power-bi-app-delete-user.png)
-1. **앱 업데이트**를 선택합니다.
+1. **업데이트**를 선택합니다.
 
     기존 액세스 권한이 있는 사용자의 빌드 권한을 제거하려면 **권한 관리**로 이동해야 함을 설명하는 메시지가 표시됩니다. 
 
