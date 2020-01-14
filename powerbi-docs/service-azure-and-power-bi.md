@@ -46,7 +46,7 @@ Azure SQL Database에 연결을 시작하고 비즈니스의 진행률을 모니
 * [Azure HDInsight](https://azure.microsoft.com/services/hdinsight/)
 * [Azure Storage](https://azure.microsoft.com/services/storage/)(Blob Storage 및 Table Storage)
 
-## <a name="get-complex-and-ahead-using-azure-services-and-power-bi"></a>Azure 서비스와 Power BI를 사용하여 복잡한(및 미리) 가져오기
+## <a name="get-complex-and-ahead-using-azure-services-and-power-bi"></a>Azure 서비스와 Power BI를 사용하여 확장(및 앞서 나가기)
 
 Azure와 Power BI를 사용하여 필요한 만큼 확장할 수 있습니다. 다중 소스 데이터 처리 기능을 활용하고, 대규모 실시간 시스템을 사용하고, [Stream Analytics](https://azure.microsoft.com/services/stream-analytics/) 및 [Event Hubs](https://azure.microsoft.com/services/event-hubs/)를 사용하고, 경쟁 우위를 얻을 수 있는 비즈니스 인텔리전스 보고서로 다양한 SaaS 서비스를 병합합니다.
 
