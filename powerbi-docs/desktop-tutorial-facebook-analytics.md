@@ -10,10 +10,10 @@ ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73876287"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>자습서:  Power BI Desktop을 사용한 Facebook 분석

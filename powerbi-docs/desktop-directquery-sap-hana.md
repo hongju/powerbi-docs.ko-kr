@@ -10,10 +10,10 @@ ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 8d5923c111debb14aab46977d42f3357837d9399
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73878312"
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery 및 SAP HANA
@@ -148,5 +148,5 @@ DirectQuery에 대한 자세한 내용은 다음 리소스를 참조하세요.
 * [Power BI의 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
 * [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)
-* [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)
+* [On-premises data gateway (온-프레미스 데이터 게이트웨이)](service-gateway-onprem.md)
 

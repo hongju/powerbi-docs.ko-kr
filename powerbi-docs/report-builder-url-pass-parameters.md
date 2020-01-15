@@ -10,10 +10,10 @@ ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
 ms.openlocfilehash: 44e56613a69069351f21aa7d515fc2bb296e6728
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74128261"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서에 대한 URL에 보고서 매개 변수 전달 
