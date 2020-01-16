@@ -23,7 +23,7 @@ ms.locfileid: "75761459"
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Power BI Desktop 데이터 인터페이스
-**Power BI Desktop**에는 특정 데이터 원본에 연결하도록 구성된 데이터 커넥터의 컬렉션이 계속 증가됩니다. 예를 들어 **데이터 가져오기 > 더 보기...** (이전 이미지에 표시됨)를 선택할 때 표시되는 창에 다른 데이터 원본이 있는 경우 **SharePoint 목록** 데이터 커넥터는 **SharePoint 목록**을 위해 구성된 연결 시퀀스 진행 중에 특정 필드 및 지원 정보를 제공합니다.
+**Power BI Desktop**에는 특정 데이터 원본에 연결하도록 구성된 데이터 커넥터의 컬렉션이 계속 증가됩니다. 예를 들어 **데이터 가져오기 > 자세히...** (이전 이미지에 표시됨)를 선택할 때 표시되는 창에 다른 데이터 원본이 있는 경우 **SharePoint 목록** 데이터 커넥터는 **SharePoint 목록**을 위해 구성된 연결 시퀀스 진행 중에 특정 필드 및 지원 정보를 제공합니다.
 
 또한 **Power BI Desktop**에서는 다음과 같은 제네릭 데이터 인터페이스 중 하나를 사용하여 **데이터 가져오기** 목록에서 식별되지 않는 데이터 원본에 연결할 수 있습니다.
 
