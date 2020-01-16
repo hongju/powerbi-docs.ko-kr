@@ -54,8 +54,6 @@
               href: service-security-using-microsoft-cloud-app-security-controls.md
         - name: 행 수준 보안
           href: ../service-admin-rls.md
-        - name: 보관된 작업 영역
-          href: ../service-admin-power-bi-archived-workspace.md
         - name: Intune으로 모바일 앱 구성
           href: ../service-admin-mobile-intune.md
     - name: 참조

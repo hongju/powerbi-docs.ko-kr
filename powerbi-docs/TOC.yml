@@ -803,10 +803,10 @@
               items:
                 - name: 앱을 사용하여 서비스에 연결
                   href: service-connect-to-services.md
-                - name: Azure 탄소 계산기
-                  href: service-connect-to-azure-carbon-calculator.md
                 - name: GitHub
                   href: service-connect-to-github.md
+                - name: Microsoft 지속 가능성 계산기
+                  href: service-connect-to-microsoft-sustainability-calculator.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
                 - name: 프로젝트 온라인
@@ -887,7 +887,7 @@
           href: service-admin-premium-restart.md
         - name: 클라이언트 애플리케이션 및 도구를 사용하여 데이터 세트에 연결
           href: service-premium-connect-tools.md
-- name: Power BI 페이지를 매긴 보고서 작성기
+- name: Power BI 보고서 작성기
   items:
     - name: 개요
       items:
