@@ -69,7 +69,7 @@ Anna가 Power BI 서비스 계정에 로그인하지 않은 경우 Anna에게 �
 
 ![게시 진행 중](media/desktop-report-lifecycle-datasets/report-lifecycle_06.png)
 
-완료되면 **Power BI Desktop**에 성공이 표시되고 **Power BI 서비스**에서 보고서 자체로 이동할 수 있는 링크와 보고서에 대한 **신속한 정보 활용**으로 이동할 수 있는 링크가 몇 개 표시됩니다.
+완료되면 **Power BI Desktop**에 성공이 표시되고 **Power BI 서비스**에서 보고서 자체로 이동할 수 있는 링크와 보고서에 대한 **빠른 인사이트 탐색**으로 이동할 수 있는 링크가 몇 개 표시됩니다.
 
 ![게시 성공](media/desktop-report-lifecycle-datasets/report-lifecycle_07.png)
 
