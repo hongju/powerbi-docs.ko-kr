@@ -54,10 +54,12 @@
           items:
             - name: 보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
               href: report-page-tooltips.md
-            - name: 보고서 페이지 드릴스루
+            - name: 보고서 페이지 드릴스루 사용
               href: report-drillthrough.md
             - name: Power BI의 페이지를 매긴 보고서가 필요한 경우
               href: report-paginated-or-power-bi.md
+            - name: 페이지를 매긴 보고서를 인쇄할 때 빈 페이지 방지
+              href: report-paginated-blank-page.md
             - name: SQL Server Reporting Services 보고서를 Power BI로 마이그레이션
               href: migrate-ssrs-reports-to-power-bi.md
     - name: 백서

@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 091fbef4ce3a3cc1e5e3c0d0e4f26a25598f2556
-  ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+  ms.openlocfilehash: 2bebde937666503739f6b0afe3ce20a8fe4baa8c
+  ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 01/15/2020
-  ms.locfileid: "75953706"
+  ms.lasthandoff: 01/16/2020
+  ms.locfileid: "76039897"
 landingContent:
 - title: Power BI 지침
   linkLists:
@@ -77,9 +77,11 @@ landingContent:
     links:
     - text: 보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
       url: report-page-tooltips.md
-    - text: 보고서 페이지 드릴스루
+    - text: 보고서 페이지 드릴스루 사용
       url: report-drillthrough.md
     - text: Power BI의 페이지를 매긴 보고서가 필요한 경우
       url: report-paginated-or-power-bi.md
+    - text: 페이지를 매긴 보고서를 인쇄할 때 빈 페이지 방지
+      url: report-paginated-blank-page.md
     - text: SQL Server Reporting Services 보고서를 Power BI로 마이그레이션
       url: migrate-ssrs-reports-to-power-bi.md

@@ -357,6 +357,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: 행렬 시각적 개체 만들기 및 사용
               href: visuals/desktop-matrix-visual.md
+            - name: Power Apps 시각적 개체 만들기 및 사용
+              href: visuals/power-bi-visualization-powerapp.md
             - name: Power BI 질문 및 답변 정보
               href: visuals/power-bi-visualization-q-and-a.md
             - name: R 시각적 개체 만들기 및 사용
@@ -1035,6 +1037,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: 원격으로 모바일 앱 액세스 구성
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: WAP 및 AD FS 구성
+              href: report-server/connect-adfs-wap-report-server.md
             - name: Azure AD를 사용하여 원격 모바일 액세스
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Excel 통합 문서 호스트
