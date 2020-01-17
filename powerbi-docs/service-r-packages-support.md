@@ -57,7 +57,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |alluvial|0.1-2|https://cran.r-project.org/web/packages/alluvial/index.html|
 |andrews|1.0|https://cran.r-project.org/web/packages/andrews/index.html|
 |anomalize|0.1.1|https://cran.r-project.org/web/packages/anomalize/index.html|
-|항상|0.3.3|https://cran.r-project.org/web/packages/anytime/index.html|
+|anytime|0.3.3|https://cran.r-project.org/web/packages/anytime/index.html|
 |aod|1.3|https://cran.r-project.org/web/packages/aod/index.html|
 |apcluster|1.4.5|https://cran.r-project.org/web/packages/apcluster/index.html|
 |ape|5.0|https://cran.r-project.org/web/packages/ape/index.html|
@@ -702,7 +702,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |relimp|1.0-5|https://cran.r-project.org/web/packages/relimp/index.html|
 |rematch|1.0.1|https://cran.r-project.org/web/packages/rematch/index.html|
 |Renext|3.1-0|https://cran.r-project.org/web/packages/Renext/index.html|
-|보고서|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
+|reports|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
 |reprex|0.1.2|https://cran.r-project.org/web/packages/reprex/index.html|
 |reshape|0.8.7|https://cran.r-project.org/web/packages/reshape/index.html|
 |reshape2|1.4.3|https://cran.r-project.org/web/packages/reshape2/index.html|
@@ -817,7 +817,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |sp|1.2-7|https://cran.r-project.org/web/packages/sp/index.html|
 |spacetime|1.2-1|https://cran.r-project.org/web/packages/spacetime/index.html|
 |spacyr|0.9.6|https://cran.r-project.org/web/packages/spacyr/index.html|
-|스팸|2.1-3|https://cran.r-project.org/web/packages/spam/index.html|
+|spam|2.1-3|https://cran.r-project.org/web/packages/spam/index.html|
 |SparseM|1.77|https://cran.r-project.org/web/packages/SparseM/index.html|
 |sparsepp|0.2.0|https://cran.r-project.org/web/packages/sparsepp/index.html|
 |spatial|7.3-11|https://cran.r-project.org/web/packages/spatial/index.html|
