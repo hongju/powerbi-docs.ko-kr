@@ -53,7 +53,7 @@ Power BI는 다음 데이터 원본에 연결하고 해당 데이터 원본에�
 
 Power BI에서 비즈니스용 OneDrive에 연결하는 경우 일반적으로 Power BI 계정이 비즈니스용 OneDrive 계정과 동일한 계정이기 때문에 연결이 쉽습니다. 개인 OneDrive를 사용하는 경우에는 일반적으로 다른 [Microsoft 계정](https://account.microsoft.com)으로 로그인합니다.
 
-Microsoft 계정으로 로그인 하는 경우 **로그인 유지**를 선택해야 합니다. 그런 다음, Power BI는 Power BI Desktop의 파일에 있는 모든 업데이트를 Power BI의 데이터 세트와 동기화할 수 있습니다.
+Microsoft 계정으로 로그인하는 경우 **로그인 유지**를 선택해야 합니다. 그런 다음, Power BI는 Power BI Desktop의 파일에 있는 모든 업데이트를 Power BI의 데이터 세트와 동기화할 수 있습니다.
 
 ![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
 
