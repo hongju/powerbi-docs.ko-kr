@@ -41,7 +41,7 @@ SAP 고객이 Power BI를 기존 SAP BW(Business Warehouse) 시스템에 연결�
 
 * [SAP .NET Connector 3.0](https://support.sap.com/en/product/connectors/msnet.html)
 
-다운로드에 액세스하려면 유효한 S 사용자가 필요합니다. SAP.NET Connector 3.0 가져오려는 고객은 SAP 으로 팀에 연락하는 것이 좋습니다. 
+다운로드에 액세스하려면 유효한 S 사용자가 필요합니다. SAP.NET Connector 3.0 가져오려는 고객은 SAP Basis 팀에 연락하는 것이 좋습니다. 
 
 커넥터는 32비트 및 64비트 버전으로 제공되며 사용자는 설치된 Power BI Desktop과 일치하는 버전을 선택해야 *합니다*. 이 문서를 작성할 당시 웹 사이트는 두 가지 버전(.NET 4.0 framework 용)을 나열합니다.
 
