@@ -1,5 +1,5 @@
 ---
-title: 보고서 페이지 드릴스루
+title: 보고서 페이지 드릴스루 사용
 description: 보고서 페이지 드릴스루 설명 가이드
 author: peter-myers
 ms.reviewer: asaxton
@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 48942b30b84706c933ccef455129c84a67ac5a1b
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223616"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040370"
 ---
-# <a name="report-page-drillthrough"></a>보고서 페이지 드릴스루
+# <a name="use-report-page-drillthrough"></a>보고서 페이지 드릴스루 사용
 
 이 문서에서는 독자가 Power BI 보고서를 디자인하는 보고서 작성자라고 가정하고, [보고서 페이지 드릴스루](../desktop-drillthrough.md)를 만들기 위한 제안 및 권장 사항을 제공합니다.
 
@@ -71,4 +71,4 @@ ms.locfileid: "75223616"
 
 - [Power BI Desktop에서 드릴스루 사용](../desktop-drillthrough.md)
 - Guy in a cube 비디오: [Drilling into drillthrough in Power BI Desktop](https://www.youtube.com/watch?v=2x9lLHDbtDk)(Power BI Desktop의 드릴스루 살펴보기)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 질문이 있으십니까? [Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: fd25e4ca6357dbfa5954eeabe0bf97fb6ccb8a1c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75222155"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761367"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 
@@ -30,6 +30,10 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 > [!NOTE]
 > Power BI 팀은 **Power BI Desktop** 및 **Power BI 서비스**에 사용할 수 있는 데이터 원본을 지속적으로 확장합니다. 따라서 *베타* 또는 *미리 보기*로 표시된 작업 진행 데이터 원본의 초기 버전을 자주 볼 수 있습니다. *베타* 또는 *미리 보기*로 표시된 모든 데이터 원본은 제한된 지원 및 기능을 가지며 프로덕션 환경에서는 사용할 수 없습니다. 또한 **Power BI Desktop**에서 ‘베타’ 또는 ‘미리 보기’로 표시된 데이터 원본은 데이터 원본이 GA(일반 공급) 상태가 될 때까지 **Power BI 서비스** 또는 기타 Microsoft 서비스에서 사용하지 못할 수 있습니다.  
+
+> [!NOTE]
+> 인증에 Internet Explorer 10 이상이 필요한 Power BI Desktop용 데이터 커넥터가 많습니다. 
+
 
 ## <a name="data-sources"></a>데이터 원본
 데이터 유형은 다음 범주로 구성됩니다.

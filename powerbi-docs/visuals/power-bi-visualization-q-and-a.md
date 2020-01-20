@@ -7,18 +7,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 9805b98df7f606e61412ca9dee7dc0467a1649a3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791805"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762281"
 ---
-# <a name="introduction-to-power-bi-qa-visual"></a>Power BI 질문 및 답변 시각적 개체 소개
+# <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI 질문 및 답변 시각화 소개
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-## <a name="what-is-the-qa-visual"></a>질문 및 답변 시각적 개체란?
+## <a name="what-are-qa-visualizations"></a>질문 및 답변 시각화란 무엇인가요?
 
 질문 및 답변 시각적 개체를 사용하면 사용자가 자연어로 질문하고 시각적 개체 형태로 답변을 얻을 수 있습니다. 
 

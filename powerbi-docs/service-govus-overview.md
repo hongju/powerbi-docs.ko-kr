@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: f14734f168abca1003bd5b6c773c4c70daf53d15
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265447"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762097"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 **Power BI 서비스**에는 **Office 365 미국 정부 기관 커뮤니티** 구독의 일부로 미국 정부 기관 고객이 사용할 수 있는 버전이 있습니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 미국 정부 기관 고객을 위해 특별히 설계되었으며 **Power BI 서비스** 상용 버전과는 별개입니다.
@@ -59,6 +59,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 * **대시보드 및 보고서에 대한 사용량 메트릭** - 보고서와 대시보드에 사용량 메트릭이 지원되지 않습니다. 고객은 감사 로그 데이터를 사용하여 조직에서 콘텐츠의 사용량 정보를 볼 수 있습니다.
 * **데이터 흐름** - 데이터 흐름이 지원되지 않습니다.
 * **페이지를 매긴 보고서** - 페이지를 매긴 보고서는 현재 USGov 버지니아에서만 사용할 수 있습니다.  USGov 텍사스 지원도 계획되었지만 아직 사용할 수는 없습니다.
+* GCC(정부 커뮤니티 클라우드)의 Power BI 콘텐츠를 포함하려면 Office 365 SKU를 사용해야 합니다. GCC High 고객은 [Office 365 또는 Azure SKU](developer/embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365)를 사용할 수 있습니다.
 
 계정에 **Power BI** 무료 라이선스가 할당된 경우 해당 계정은 **Power BI** 서비스의 상용 버전에서 실행되며 **Power BI 미국 정부** 제품에 속하지 않습니다. 이러한 무료 계정에서 다음 상황이 발생할 수 있습니다.
 
@@ -88,7 +89,7 @@ Azure는 여러 클라우드 간에 분산됩니다. 기본적으로 테넌트�
 
 **답변:** 예. URL이 다릅니다. 다음 표에서는 각각의 URL을 보여 줍니다.
 
-| 상용 버전 URL | 미국 정부 기관 버전 URL | GCC High를 위한 미국 정부 URL |
+| 상용 버전 URL | 미국 정부 버전 URL | GCC High를 위한 미국 정부 URL |
 | --- | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 

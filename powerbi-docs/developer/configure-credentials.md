@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/25/2019
-ms.openlocfilehash: 73ef45b5dbed8535b13aa557cb52929d4eea0e46
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 01/08/2020
+ms.openlocfilehash: 222edd901409fa71d98308f27407838d54564834
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265605"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75836585"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성
 
@@ -61,85 +61,13 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
     ```
 
-3. RSA 암호화 알고리즘을 사용하여 게이트웨이 공용 키로 자격 증명 문자열을 암호화합니다.
-
-    암호화를 위해 다음 도우미 클래스를 사용합니다.
-
-    ```csharp
-        public static class AsymmetricKeyEncryptionHelper
-        {
-            private const int SegmentLength = 85;
-            private const int EncryptedLength = 128;
-
-            /// <summary>
-
-            /// Encrypts credentials using the RSA algorithm
-
-            /// </summary>
-
-            public static string EncodeCredentials(string credentialData, string publicKeyExponent, string publicKeyModulus)
-            {
-                using (RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(EncryptedLength * 8))
-                {
-                    var parameters = rsa.ExportParameters(false);
-
-                    parameters.Exponent = Convert.FromBase64String(publicKeyExponent);
-
-                    parameters.Modulus = Convert.FromBase64String(publicKeyModulus);
-
-                    rsa.ImportParameters(parameters);
-
-                    return Encrypt(credentialData, rsa);
-                }
-            }
-
-             private static string Encrypt(string plainText, RSACryptoServiceProvider rsa)
-            {
-
-                byte[] plainTextArray = Encoding.UTF8.GetBytes(plainText);
-
-                // Split the message into different segments, each segment's length is 85. So, the result may be 85,85,85,20. 
-
-                bool hasIncompleteSegment = plainTextArray.Length % SegmentLength != 0; 
-
-                int segmentNumber = (!hasIncompleteSegment) ? (plainTextArray.Length / SegmentLength) : ((plainTextArray.Length SegmentLength) + 1);
-
-                byte[] encryptedData = new byte[segmentNumber * EncryptedLength];
-
-                int encryptedDataPosition = 0;
-
-                for (var i = 0; i < segmentNumber; i++)
-                {
-                    int lengthToCopy;
-
-                    if (i == segmentNumber - 1 && hasIncompleteSegment)
-
-                        lengthToCopy = plainTextArray.Length % SegmentLength;
-
-                    else
-
-                        lengthToCopy = SegmentLength;
-
-                    var segment = new byte[lengthToCopy];
-
-                    Array.Copy(plainTextArray, i * SegmentLength, segment, 0, lengthToCopy);
-
-                    var segmentEncryptedResult = rsa.Encrypt(segment, true);
-
-                    Array.Copy(segmentEncryptedResult, 0, encryptedData, encryptedDataPosition, segmentEncryptedResult.Length);
-
-                    encryptedDataPosition += segmentEncryptedResult.Length;
-
-                }
-
-                return Convert.ToBase64String(encryptedData);
-
-            }
-
-        }
-
-        var encryptedCredentials = AsymmetricKeyEncryptionHelper.EncodeCredentials(credentials);
-    ```
+3. 게이트웨이 공개 키로 자격 증명 문자열을 암호화합니다. 게이트웨이 버전에 따라 공개 키 크기가 서로 다를 수 있습니다.
+    
+    PowerBI-CSharp GitHub 리포지토리([PowerBI-CSharp/sdk/PowerBI.Api/Extensions/V2/](https://github.com/microsoft/PowerBI-CSharp/tree/master/sdk/PowerBI.Api/Extensions/V2))에 있는 SDK 코드의 예제를 참조하세요.
+    * [AsymmetricKeyEncryptor.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/V2/AsymmetricKeyEncryptor.cs)
+    * [Asymmetric1024KeyEncryptionHelper.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/V2/Asymmetric1024KeyEncryptionHelper.cs)
+    * [AsymmetricHigherKeyEncryptionHelper.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/V2/AsymmetricHigherKeyEncryptionHelper.cs)
+    * [AuthenticatedEncryption.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/V2/AuthenticatedEncryption.cs)
 
 4. 암호화된 자격 증명을 사용하여 자격 증명 세부 정보를 빌드합니다.
 

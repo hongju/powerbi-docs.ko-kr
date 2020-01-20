@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 0029d275e5180c29e8653f549d8450014362b59b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 56ff7d09530030d1a1ae046a3439022cbf638b9d
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75304237"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760575"
 ---
-# <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop의 모델 관계
+# <a name="create-model-relationships-in-power-bi-desktop"></a>Power BI Desktop의 모델 관계 만들기
 
 이 문서에서는 Power BI Desktop을 사용하는 가져오기 데이터 모델러를 대상으로 합니다. 직관적이고 정확하며 최적의 모델을 제공하는 데 필수적인 중요한 모델 설계와 관련된 항목입니다.
 

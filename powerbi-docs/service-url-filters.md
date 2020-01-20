@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876920"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75836712"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -46,7 +46,7 @@ URL?filter=***Table***/***Field*** eq '***value***'
 
 이 예제와 같습니다.
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq ‘*value*&’ctid=*ctid*
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*'&ctid=*ctid*
 
 ### <a name="field-types"></a>필드 형식
 
@@ -112,11 +112,11 @@ Power BI는 **and** 외에도 많은 연산자를 지원합니다. 아래 표에
 |**ge**     |  크거나 같음       | 아니요 | 예 |예 |  product/price ge 10
 |**gt**     | 보다 큼        |아니요 | 예 | 예  | product/price gt 20
 |**le**     |   작거나 같음      | 아니요 | 예 | 예  | product/price le 100
-|**lt**     |  보다 작음       | 아니요 | 예 | 예 |  product/price lt 20
+|**lt**     |  다음보다 작음       | 아니요 | 예 | 예 |  product/price lt 20
 |**in\*\***     |  포함       | 예 | 예 |  예 | Student/Age in (27, 29)
 
 
-\*\* **in**을 사용하는 경우 **in**의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록 또는 컬렉션을 반환하는 단일 식일 수 있습니다.
+\*\***in**을 사용하는 경우 **in**의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록 또는 컬렉션을 반환하는 단일 식일 수 있습니다.
 
 ### <a name="numeric-data-types"></a>숫자 데이터 형식
 

@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873841"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762166"
 ---
-#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI 서비스의 샘플에 연결
+#  <a name="import-and-open-sample-packs-for-power-bi"></a>Power BI 샘플 팩 가져오기 및 열기
 
 이 자습서에서는 다음을 수행하는 방법을 보여 줍니다. 
 - 샘플 콘텐츠 팩을 가져와서 Power BI 서비스에 추가하고 콘텐츠를 엽니다. *콘텐츠 팩*은 데이터 세트가 대시보드 및 보고서와 함께 제공되는 일종의 샘플입니다. 

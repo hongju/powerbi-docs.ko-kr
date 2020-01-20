@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/04/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 57bc7eed7e8e51463494e2c4f562dcdb1e6a88c9
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ba911361ad2837a10f28358cbd1510effc1dd7eb
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699639"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837659"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 저장된 데이터 세트 새로 고침
 OneDrive 또는 SharePoint Online에서 Power BI 서비스로 파일을 가져오면 Power BI Desktop의 작업이 Power BI 서비스와 동기화를 유지할 수 있습니다.
@@ -36,6 +36,9 @@ OneDrive 또는 SharePoint Online에서 Power BI Desktop 파일을 가져올 때
 ## <a name="whats-supported"></a>무엇이 지원되나요?
 Power BI는 다음 데이터 원본에 연결하고 해당 데이터 원본에서 데이터를 로드하는 데 **데이터 가져오기** 또는 **쿼리 편집기**를 사용하는 로컬 드라이브에서 가져온 Power BI Desktop 파일에서 생성된 데이터 세트에 대한 **새로 고침** 및 **새로 고침 예약**을 지원합니다.
 
+> [!NOTE]
+> OneDrive의 가져온 파일은 지원되지만 OneDrive의 라이브 연결 데이터 세트는 OneDrive 새로 고침 시나리오로 지원되지 않습니다.
+
 ### <a name="power-bi-gateway---personal"></a>Power BI 게이트웨이 - 개인
 * Power BI Desktop의 **데이터 가져오기** 및 **쿼리 편집기**에 표시된 모든 온라인 데이터 원본.
 * Hadoop 파일(HDFS) 및 Microsoft Exchange를 제외하고 Power BI Desktop의 **데이터 가져오기** 및 **쿼리 편집기**에 표시되는 모든 온-프레미스 데이터 원본.
@@ -53,7 +56,7 @@ Power BI는 다음 데이터 원본에 연결하고 해당 데이터 원본에�
 
 Power BI에서 비즈니스용 OneDrive에 연결하는 경우 일반적으로 Power BI 계정이 비즈니스용 OneDrive 계정과 동일한 계정이기 때문에 연결이 쉽습니다. 개인 OneDrive를 사용하는 경우에는 일반적으로 다른 [Microsoft 계정](https://account.microsoft.com)으로 로그인합니다.
 
-Microsoft 계정으로 로그인하는 경우 **로그인 유지**를 선택해야 합니다. 그런 다음, Power BI는 Power BI Desktop의 파일에 있는 모든 업데이트를 Power BI의 데이터 세트와 동기화할 수 있습니다.
+Microsoft 계정으로 로그인 하는 경우 **로그인 상태 유지**를 선택해야 합니다. 그런 다음, Power BI는 Power BI Desktop의 파일에 있는 모든 업데이트를 Power BI의 데이터 세트와 동기화할 수 있습니다.
 
 ![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
 
@@ -67,9 +70,9 @@ Microsoft 자격 증명을 변경한 경우 OneDrive의 파일과 Power BI의 �
 ## <a name="when-things-go-wrong"></a>오류가 발생할 때
 무언가 잘못된 경우, 이는 일반적으로 Power BI가 데이터 원본에 로그인할 수 없기 때문입니다. 데이터 세트가 온-프레미스 데이터 원본에 연결하려고 하지만 게이트웨이가 오프라인 상태인 경우에도 문제가 발생할 수 있습니다. 이 문제를 방지하려면 Power BI가 데이터 원본에 로그인할 수 있는지 확인합니다. **데이터 원본 자격 증명**에서 데이터 원본에 로그인해 봅니다. 경우에 따라 데이터 원본에 로그인하는 데 사용하는 암호가 변경되거나 Power BI가 데이터 원본에서 로그아웃됩니다.
 
-OneDrive에서 Power BI Desktop 파일의 변경 내용을 저장하고 약 1시간 이내에 해당 변경 내용이 Power BI에 표시되지 않는 경우에는 Power BI가 OneDrive에 연결할 수 없기 때문일 수 있습니다. OneDrive에서 파일에 다시 연결해봅니다. 로그인할지 묻는 메시지가 표시되면 **로그인 유지**를 선택해야 합니다. Power BI는 OneDrive에 연결하여 파일과 동기화할 수 없기 때문에 파일을 다시 가져와야 합니다.
+OneDrive에서 Power BI Desktop 파일의 변경 내용을 저장하고 약 1시간 이내에 해당 변경 내용이 Power BI에 표시되지 않는 경우에는 Power BI가 OneDrive에 연결할 수 없기 때문일 수 있습니다. OneDrive에서 파일에 다시 연결해봅니다. 로그인할지 묻는 메시지가 표시되면 **로그인 상태 유지**를 선택해야 합니다. Power BI는 OneDrive에 연결하여 파일과 동기화할 수 없기 때문에 파일을 다시 가져와야 합니다.
 
-**새로 고침 실패 알림 전자 메일을 내게 보내기**를 체크된 상태로 남겨두어야 합니다. 예약된 새로 고침이 실패하는 경우 바로 알아야 합니다.
+**새로 고침 실패 알림 전자 메일을 내게 보내기** 를 체크된 상태로 남겨두어야 합니다. 예약된 새로 고침이 실패하는 경우 바로 알아야 합니다.
 
 ## <a name="troubleshooting"></a>문제 해결
 경우에 따라 데이터 새로 고침이 예상대로 진행되지 않을 수 있습니다. 일반적으로 게이트웨이와 연결될 때 데이터 새로 고침 문제가 발생합니다. 게이트웨이 문제 해결 문서에서 도구 및 알려진 문제를 살펴 보세요.

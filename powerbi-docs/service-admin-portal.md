@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75224181"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885291"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -25,7 +25,7 @@ ms.locfileid: "75224181"
 
 ## <a name="how-to-get-to-the-admin-portal"></a>관리 포털에 도달하는 방법
 
-Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Office 365 또는 Azure Active Directory 내에서 **전역 관리자**로 표시되거나 Power BI 서비스 관리자 역할이 할당되어야 합니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요. Power BI 관리 포털에 도달하려면 다음을 수행합니다.
+Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Office 365 또는 Azure AD(Azure Active Directory) 내에서 **전역 관리자**로 표시되거나 Power BI 서비스 관리자 역할이 할당되어야 합니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요. Power BI 관리 포털에 도달하려면 다음을 수행합니다.
 
 1. Power BI 서비스의 오른쪽 위에서 설정 아이콘을 선택합니다.
 
@@ -190,13 +190,16 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ### <a name="share-content-with-external-users"></a>외부 사용자와 콘텐츠 공유
 
-조직의 사용자는 조직 외부의 사용자와 대시보드를 공유할 수 있습니다. [외부 공유](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)에 관해 자세히 알아보세요.
+조직의 사용자는 조직 외부의 사용자와 대시보드, 보고서 및 앱을 공유할 수 있습니다. [외부 공유](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)에 관해 자세히 알아보세요.
 
 ![외부 사용자 설정](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
 다음 이미지는 외부 사용자와 공유할 때 표시되는 메시지를 보여 줍니다.
 
 ![외부 사용자와 공유](media/service-admin-portal/powerbi-admin-sharing-external.png)  
+
+> [!IMPORTANT]
+> 이 옵션은 Power BI 사용자가 조직에서 Power BI를 통해 외부 사용자를 Azure AD B2B(Azure Active Directory B2B) 게스트 사용자로 초대할 수 있는지 여부를 제어합니다. 사용하도록 설정된 경우, Azure AD에서 게스트 초대자 역할을 갖는 사용자는 보고서, 대시보드 및 Power BI 앱을 공유할 때 외부 메일 주소를 추가할 수 있습니다. 외부 수신자는 Azure AD B2B 게스트 사용자로 조직에 가입하라는 초대를 받게 됩니다. 이 설정을 비활성화할 경우 이 조직에서 기존에 Azure AD B2B 게스트 사용자가 된 외부 사용자는 계속해서 Power BI의 사용자 선택 UI에 표시되고 항목, 작업 영역 및 앱에 대한 액세스 권한을 부여받을 수 있습니다.
 
 ### <a name="publish-to-web"></a>웹에 게시
 
@@ -247,14 +250,14 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 ![보고서 인쇄](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용
-Azure Active Directory B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습니다. [자세히 알아보기](service-admin-azure-ad-b2b.md)
+
+Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습니다. [자세히 알아보기](service-admin-azure-ad-b2b.md)
 
 다음 이미지는 외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용하는 옵션을 보여줍니다.
 
 ![외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
-> [!IMPORTANT]
-> Azure AD 테넌트에 외부 사용자를 추가하는 경우(수동으로 또는 해당 사용자와 보고서를 공유하여), 이제 해당 사용자 계정을 내부 계정에서 검색할 수 있습니다. 내부 계정에 외부 공유 권한이 없어도 내부 사용자가 외부 사용자와 다른 항목을 공유할 수 있습니다.
+관리 포털에서 조직으로 외부 사용자를 초대할 권한을 갖는 사용자를 제어할 수 있습니다. 자세한 내용은 이 문서의 [외부 사용자와 콘텐츠 공유](#export-and-sharing-settings)를 참조하세요.
 
 ### <a name="email-subscriptions"></a>메일 구독
 조직의 사용자가 메일 구독을 만들 수 있습니다. [구독](service-report-subscribe.md)에 대해 자세히 알아보세요.
@@ -508,7 +511,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 시각적 개체 ID가 변경되지 않았는지 확인합니다. 새 파일은 조직 전체의 모든 보고서에 대해 이전 파일을 대체합니다. 그러나 시각적 개체의 새 버전이 시각적 개체의 이전 버전에 대한 사용이나 데이터 구조를 중단하는 경우에는 이전 버전을 바꾸지 마세요. 대신에 시각적 개체의 새 버전에 대한 새 목록을 만들어야 합니다. 예를 들어 새 버전 번호(버전 X.X)를 새 나열된 시각적 개체의 제목에 추가합니다. 이렇게 하면 업데이트된 버전 번호를 가진 동일한 시각적 개체가 되므로 기존 보고서가 해당 기능을 중단하지 않습니다. 다시 한번 시각적 개체 ID가 변경되지 않았는지 확인합니다. 그러면 다음에 사용자가 Power BI Desktop에서 조직의 리포지토리에 들어갈 때 새 버전을 가져올 수 있으며, 보고서에 있는 현재 버전을 바꾸라는 메시지가 표시됩니다.
 
-자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals)을 참조하세요.
+자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals)을 참조하세요.
 
 ## <a name="dataflowStorage">데이터 흐름 스토리지(미리 보기)</a>
 

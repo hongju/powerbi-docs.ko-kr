@@ -9,21 +9,21 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 75b3c370e6b17c5a5a4937da6db989f814a0ebd9
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221991"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761045"
 ---
-# <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>최신 Power BI Desktop 업데이트의 새로운 기능
+# <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop의 새로운 기능
 
 
 ## <a name="december-2019-update-2765678661"></a>2019년 12월 업데이트(2.76.5678.661)
 
 12월 업데이트는 썰매를 타고 눈에 뒤덮인 언덕을 내려오는 것만큼 재미 있습니다. 
 
-[다운로드 센터](https://www.microsoft.com/download/details.aspx?id=58494)에서 최신 버전의 Power BI Desktop을 가져옵니다. Windows 10을 실행하는 경우 Windows 10의 Microsoft Store에서도 Power BI Desktop을 가져올 수 있습니다. Power BI Desktop 설치 방법에 관계없이, 월별 버전은 버전 번호가 다르더라도 동일합니다. Power BI Desktop 다운로드 및 설치 방법에 대한 자세한 내용은 [Power BI Desktop 가져오기](desktop-get-the-desktop.md)를 참조하세요. 
+[다운로드 센터](https://www.microsoft.com/download/details.aspx?id=58494)에서 최신 버전의 Power BI Desktop을 가져옵니다. Windows 10을 실행하는 경우 Windows 10의 Microsoft Store에서도 Power BI Desktop을 가져올 수 있습니다. Power BI Desktop 설치 방법과 관계없이, 월별 버전은 버전 번호가 다르더라도 동일합니다. Power BI Desktop 다운로드 및 설치 방법에 대한 자세한 내용은 [Power BI Desktop 가져오기](desktop-get-the-desktop.md)를 참조하세요. 
 
 > [!IMPORTANT]
 > 2019년 9월 릴리스부터 Power BI Desktop은 지원되는 모든 언어를 포함하는 단일 .exe 파일로만 릴리스됩니다. .msi 버전은 더 이상 릴리스되지 않습니다.
@@ -42,8 +42,8 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 
 ### <a name="reporting"></a>보고
-* 테마 설정 업데이트(미리 보기) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=10)  [[문서]](desktop-report-themes.md#customize-report-themes-preview)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* 현재 테마 내보내기(미리 보기) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=242)  [[문서]](desktop-report-themes.md#customize-report-themes-preview)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
+* 현재 테마 사용자 지정(미리 보기) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=10)  [[문서]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
+* 현재 테마 내보내기(미리 보기) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=242)  [[문서]](desktop-report-themes.md#export-report-themes-preview)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
 * 테이블 열 또는 행렬 값을 사용자 지정 URL로 설정 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=277)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
 * KPI 시각적 개체 서식 설정 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=354)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
 * 새 분해 트리 서식 지정 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=442)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 
@@ -90,7 +90,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 
 ## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 월별 업데이트 비디오
-다음 비디오에서는 이러한 업데이트를 각각 설명합니다. 이 비디오는 블로그 게시물에서도 시청할 수 있습니다.
+다음 동영상에서는 이러한 업데이트를 각각 설명합니다. 이 비디오는 블로그 게시물에서도 시청할 수 있습니다.
 
 > [!VIDEO https://youtu.be/eCEwgZsVUOs]
 

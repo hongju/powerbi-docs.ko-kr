@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4686b15e04d3724256c76d7ba27a125cb04e86b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878973"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761982"
 ---
-# <a name="creating-accessible-reports-in-power-bi"></a>Power BI에서 접근성 있는 보고서 만들기
+# <a name="design-power-bi-reports-for-accessibility"></a>접근성을 지원하는 Power BI 보고서 디자인
 접근성을 지원하는 동시에 매력적인 보고서를 디자인하고 만들 수 있습니다. 대상 그룹과 관계없이 보고서를 작성할 때는 항상, 특별한 디자인에 맞게 조정하지 않고도 최대한 많은 사람이 사용할 수 있도록 보고서를 만들어야 합니다.
 
 ![고대비 Windows 설정](media/desktop-accessibility/accessibility-05.png)

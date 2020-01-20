@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 1f350e8ff888ffc2fd95e6c47bf84ccc96ebf88b
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 160812521939d505612e0725e678dcf985f0d03a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75000161"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761844"
 ---
-# <a name="auto-datetime-in-power-bi-desktop"></a>Power BI Desktop의 자동 날짜/시간
+# <a name="apply-auto-datetime-in-power-bi-desktop"></a>Power BI Desktop의 자동 날짜/시간 적용
 
 이 문서에서는 Power BI Desktop에서 가져오기 또는 복합 모델을 개발하는 데이터 모델러를 대상으로 합니다. _자동 날짜/시간_ 옵션을 소개하고 설명합니다.
 

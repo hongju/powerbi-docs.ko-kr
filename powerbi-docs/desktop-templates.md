@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2001a83a1fb4a5d605a7ac1c752fe4bbd4c5a51
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a10de05fed8a77a165797dda7155ffb81bbad815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879577"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760000"
 ---
-# <a name="using-templates-in-power-bi-desktop"></a>Power BI Desktop에서 템플릿 사용
+# <a name="create-report-templates-for-power-bi-desktop"></a>Power BI Desktop의 보고서 템플릿 만들기
 
 **Power BI Desktop**을 사용하여 전체 조직에서 인사이트를 공유하는 매력적인 보고서를 만들 수 있습니다. Power BI Desktop **템플릿**을 사용하면 기존 템플릿을 기반으로 하고, 사용자 또는 조직의 다른 사용자가 새 보고서의 레이아웃, 데이터 모델 및 쿼리의 시작점으로 사용할 수 있는 보고서 템플릿을 만들어 작업을 간소화할 수 있습니다. **Power BI Desktop**의 템플릿을 통해 보고서 생성을 바로 시작하고 표준화할 수 있습니다.
 

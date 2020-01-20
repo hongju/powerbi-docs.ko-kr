@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: ba9c11004099b1e11d935cd0b178463e542bea9a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907953"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761798"
 ---
-# <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop의 집계
+# <a name="manage-aggregations-in-power-bi-desktop"></a>Power BI Desktop에서 집계 관리
 
 Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데이터에 대한 대화형 분석을 수행할 수 있습니다. **집계**는 의사 결정에서 큰 데이터 세트의 잠금을 해제하는 비용을 크게 줄일 수 있습니다.
 
@@ -80,9 +80,9 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 ### <a name="strong-vs-weak-relationships"></a>강력 관계 대 약한 관계
 관계를 기반으로 하는 집계 적중은 강력한 관계가 필요합니다.
 
-강력한 관계에는 두 테이블이 모두 ‘단일 원본’에 있는 다음과 같은 조합이 포함됩니다.
+강력한 관계에는 두 테이블이 모두 ‘단일 원본’에 있는 다음과 같은 조합이 포함됩니다. 
 
-| *다 쪽의 테이블 | ‘일’ 쪽의 테이블 |
+| *다 쪽의 테이블 | ‘일’ 쪽의 테이블  |
 | ------------- |----------------------| 
 | 이중          | 이중                 | 
 | 가져오기        | 가져오기 또는 이중       | 
@@ -115,7 +115,7 @@ Power BI에서 **집계**를 사용하면 이전에는 불가능했던 빅 데�
 [요약] 드롭다운에서 선택할 수 있는 값은 다음과 같습니다.
 * 개수
 * GroupBy
-* 최대
+* Max
 * 최소
 * 합계
 * 테이블 행 개수

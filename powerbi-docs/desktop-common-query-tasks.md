@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878667"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761752"
 ---
-# <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop의 일반적인 쿼리 작업
+# <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop의 일반적인 쿼리 작업 수행
 Power BI Desktop의 **쿼리 편집기** 창에서 작업하는 경우 일반적으로 사용되는 소수의 작업이 있습니다. 이 문서에서는 이러한 일반적인 작업을 보여 주고, 추가 정보 링크를 제공합니다. 
 
 여기에 표시되는 일반적인 쿼리 작업은 다음과 같습니다.
@@ -153,7 +153,7 @@ Power BI Desktop은 광범위한 수식 범주 집합을 제공합니다. 자세
   * 상수
   * 정보
   * 변환 및 형식 지정
-  * 형식
+  * 서식
   * 반올림
   * 작업
   * 임의
@@ -169,7 +169,7 @@ Power BI Desktop은 광범위한 수식 범주 집합을 제공합니다. 자세
 * 논리
 * 날짜
 * 시간
-* 날짜/시간
+* DateTime
 * DateTimeZone
 * 기간
 * 레코드
@@ -207,7 +207,7 @@ Power BI Desktop은 광범위한 수식 범주 집합을 제공합니다. 자세
 * 줄
 * 식
 * 함수
-* 오류
+* Error
 * 비교자
 * 분할자
 * 조합기

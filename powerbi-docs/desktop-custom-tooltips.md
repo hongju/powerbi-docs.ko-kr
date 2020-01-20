@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: efbae4250b7b3cab18892cf519bfac5da3a88e1b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 08eda4e93a3e02e357c8153c656ec16811893ea9
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73868661"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761436"
 ---
-# <a name="customizing-tooltips-in-power-bi-desktop"></a>Power BI Desktop에서 도구 설명 사용자 지정
+# <a name="customize-tooltips-in-power-bi-desktop"></a>Power BI Desktop에서 도구 설명 사용자 지정
 도구 설명은 시각적 개체의 데이터 요소에 대한 자세한 컨텍스트 정보 및 세부 정보를 제공하는 세련된 방법입니다. 다음 이미지는 Power BI Desktop에서 차트에 적용되는 도구 설명을 보여 줍니다.
 
 ![기본 도구 설명](media/desktop-custom-tooltips/custom-tooltips-1.png)

@@ -1,6 +1,6 @@
 ---
-title: '자습서: 웹 페이지에서 데이터 가져오기 및 분석'
-description: '자습서: Power BI Desktop을 사용하여 웹 페이지에서 데이터 가져오기 및 분석'
+title: '자습서:  웹 페이지에서 데이터 가져오기 및 분석'
+description: '자습서:  Power BI Desktop을 사용하여 웹 페이지에서 데이터 가져오기 및 분석'
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7d4aaa613ac2d79a08ed6bbc03ba47dd296942de
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879579"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759592"
 ---
-# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>자습서: Power BI Desktop을 사용하여 웹 페이지 데이터 분석
+# <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>자습서:  Power BI Desktop을 사용하여 웹 페이지 데이터 분석
 
 오래된 축구 팬으로서 몇 년 동안 UEFA 유럽 선수권 대회(유로컵)에 대해 보고하려고 합니다. Power BI Desktop을 사용하면 웹 페이지에서 보고서로 이 데이터를 가져와서 데이터를 표시하는 시각화를 만들 수 있습니다. 이 자습서에서는 Power BI Desktop을 사용하여 다음을 수행하는 방법을 알아봅니다.
 
@@ -68,7 +68,7 @@ ms.locfileid: "73879579"
 
 1. **파워 쿼리 편집기** 그리드에서 **Year** 및 **Final Winners** 열을 선택합니다(여러 항목을 선택하려면 **Ctrl** 키를 누르고 있음).
    
-2. 마우스 오른쪽 단추를 클릭하고 드롭다운 메뉴에서 **다른 열 제거**를 선택하거나, 리본 메뉴 **홈** 탭의 **열 관리**그룹에서 **열 제거**  >  **다른 열 제거**를 선택하여 테이블에서 다른 모든 열을 제거합니다. 
+2. 마우스 오른쪽 단추를 클릭하고 드롭다운 메뉴에서 **다른 열 제거**를 선택하거나, 리본 메뉴 **홈** 탭의 **열 관리**그룹에서 **열 제거** > **다른 열 제거**를 선택하여 테이블에서 다른 모든 열을 제거합니다. 
    
    ![다른 열 제거 드롭다운](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) 또는 ![다른 열 제거 리본](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
@@ -105,7 +105,7 @@ ms.locfileid: "73879579"
 또한 **Country** 열에서 null 값이 포함된 행(예: “2020”)을 필터링하려 합니다. **Year** 값으로 작업한 대로 필터 메뉴를 사용하거나 다음을 수행할 수 있습니다.
 
 1. 값이 *null*인 **2020** 행에서 **Country** 셀을 마우스 오른쪽 단추로 클릭합니다. 
-2. 상황에 맞는 메뉴에서 **텍스트 필터**  >   **같지 않음...** 을 선택하여 해당 셀 값이 포함된 모든 행을 제거합니다.
+2. 상황에 맞는 메뉴에서 **텍스트 필터** > **같지 않음...** 을 선택하여 해당 셀 값이 포함된 모든 행을 제거합니다.
    
    ![텍스트 필터](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web11.png)
    
@@ -117,7 +117,7 @@ ms.locfileid: "73879579"
    
    ![쿼리 이름 지정](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
 
-2. 리본 메뉴 **홈** 탭에서 **닫기 및 적용**  >  **닫기 및 적용**을 선택합니다.
+2. 리본 메뉴 **홈** 탭에서 **닫기 및 적용** > **닫기 및 적용**을 선택합니다.
    
    ![닫기 및 적용](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
    

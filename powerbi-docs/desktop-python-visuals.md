@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 21ec26182efe2d0b08b2a64227264d5b80756962
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877971"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760730"
 ---
-# <a name="create-power-bi-visuals-using-python"></a>Python을 사용하여 Power BI 시각적 개체 만들기
+# <a name="create-power-bi-visuals-by-using-python"></a>Python을 사용하여 Power BI 시각적 개체 만들기
 **Power BI Desktop**에서 **Python**을 사용하면 데이터를 시각화할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
@@ -167,6 +167,7 @@ plt.show()
 **Power BI Desktop**의 Python 시각적 개체에는 다음과 같은 몇 가지 제한 사항이 있습니다.
 
 * 데이터 크기 제한 – Python 시각적 개체가 그리기에 사용하는 데이터가 150,000행으로 제한됩니다. 150,000개를 초과하는 행을 선택할 경우 상위 150,000개만 사용되고 이미지에 메시지가 표시됩니다.
+* 해결 방법 - 모든 Python 시각적 개체는 72DPI로 표시됩니다.
 * 계산 시간 제한 - Python 시각적 개체 계산 시간이 5분을 초과하면 실행 시간이 초과되어 오류가 발생합니다.
 * 관계 – 다른 Power BI Desktop 시각적 개체와 마찬가지로, 테이블 간의 관계가 정의되지 않은 테이블의 데이터 필드를 선택하면 오류가 발생합니다.
 * 데이터 업데이트, 필터링 및 강조 표시가 발생하면 Python 시각적 개체가 새로 고쳐집니다. 그러나 이미지 자체는 대화형이 아니며 교차 필터링의 원본으로 사용할 수 없습니다.
