@@ -62,7 +62,7 @@ Amanda가 보고서에서 시각화를 고정하여 새 대시보드를 만드�
    ![성공 메시지](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> 알고 계셨나요? 위쪽에서 세 줄이 있는 아이콘 ![탐색 창 표시 또는 숨기기 아이콘](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)을 선택하여 탐색 창의 범위를 좁힐 수 있습니다. 이를 통해 보고서 자체를 위한 공간을 더 확보할 수 있습니다.
+> 알고 계셨나요? 위쪽 ![탐색 창 표시 또는 숨기기 아이콘](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)에서 세 줄이 있는 아이콘을 선택하여 탐색 창의 범위를 좁힐 수 있습니다. 이를 통해 보고서 자체를 위한 공간을 더 확보할 수 있습니다.
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>보고서를 열고 타일을 대시보드에 고정
 1. 동일한 작업 영역에서 **보고서** 탭을 선택한 다음 **조달 분석 샘플**을 선택하여 보고서를 엽니다.
