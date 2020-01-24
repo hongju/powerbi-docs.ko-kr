@@ -63,7 +63,7 @@ iOS 11 이상을 실행하는 모든 디바이스에서 iOS용 Power BI 앱을 �
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 콘텐츠 찾기
 
-헤더의 돋보기를 탭하여 Power BI 콘텐츠 검색을 시작합니다.
+머리글의 돋보기를 탭하여 Power BI 콘텐츠 검색을 시작합니다.
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>즐겨 찾는 대시보드 및 보고서 보기
 탐색 모음에서 **즐겨찾기**(![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))를 탭하여 즐겨찾기 페이지를 봅니다. 
