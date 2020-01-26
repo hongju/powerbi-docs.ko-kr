@@ -44,7 +44,7 @@ Power BI Desktop을 사용하여 [보고서에 정적 이미지를 추가](/lear
 
 6. 텍스트 상자를 닫으려면 보고서 캔버스에서 빈 공간을 선택합니다. 
 
-7. 고정 아이콘  ![고정 아이콘](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) 텍스트 상자를 대시보드에 고정합니다. 
+7. 고정 아이콘 ![고정 아이콘](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png)을 선택하여 텍스트 상자를 대시보드에 고정합니다. 
 
 ## <a name="add-a-shape-to-a-report"></a>보고서에 셰이프 추가
 1. 보고서 캔버스에서 아무 곳이나 커서를 두고 **셰이프**를 선택합니다.
