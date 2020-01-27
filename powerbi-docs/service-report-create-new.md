@@ -72,7 +72,7 @@ CMO에게는 몇 가지 추가적인 질문이 있습니다. 올해 판매액이
 2. 계기를 선택 취소합니다. 필드 창에서 **판매액** > **올해 판매액** > **값**을 선택하고 **판매액** > **작년 판매액**을 선택합니다.
    
     ![계기 및 가로 막대형 차트가 포함된 보고서 편집기](media/service-report-create-new/power-bi-report-step4.png)
-3. **시각화** 창에서 영역형 차트 템플릿 ![차트 아이콘](media/service-report-create-new/power-bi-areachart-icon.png)을 선택하여 시각적 개체를 영역형 차트로 변환합니다.
+3. **시각화** 창에서 영역 차트 템플릿 ![차트 아이콘](media/service-report-create-new/power-bi-areachart-icon.png)을 선택하여 시각적 개체를 영역 차트로 변환합니다.
 4. **시간** > **기간**을 선택하여 **축** 영역에 추가합니다.
    
     ![영역 차트가 활성화된 보고서 편집기](media/service-report-create-new/power-bi-report-step5.png)
