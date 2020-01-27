@@ -85,7 +85,7 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 
 * Power BI 설정 메뉴에서
 
-* [Power BI 모바일 앱](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)의 타일에서
+* [Power BI Mobile 앱](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)의 타일에서
 
 ### <a name="from-the-dashboard-tile"></a>대시보드 타일에서
 
