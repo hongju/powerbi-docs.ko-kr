@@ -6,15 +6,15 @@ ms.reviewer: mohammad ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 051803b3d9708289f37271afc02b7802fb52b50e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862650"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218248"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **소비자**를 위한 질문 및 답변
 
@@ -67,32 +67,34 @@ Power BI 서비스(app.powerbi.com)의 대시보드에는 하나 이상의 데�
 
 데이터에 익숙해지고 나면 대시보드로 돌아가서 커서를 질문 상자에 놓습니다. 그러면 질문 및 답변 화면이 열립니다.
 
-![질문 및 답변 화면](media/end-user-q-and-a/power-bi-screen.png) 
+![질문 및 답변 화면](media/end-user-q-and-a/power-bi-suggested.png) 
 
 입력을 시작하기 전에 질문 및 답변이 제안과 함께 새 화면을 표시하여 질문 형성을 돕습니다. 기본 데이터 세트의 테이블 이름이 포함된 구문과 질문이 표시되며, 데이터 세트 소유자가 만든 ‘추천’ 질문이 표시될 수도 있습니다. 
 
 하나를 선택하여 질문 상자에 추가한 후 상세 검색으로 구체적인 답변을 찾을 수 있습니다. 
 
-질문 및 답변은 프롬프트, 자동 완성 및 시각적 단서를 통해 질문을 쉽게 작성할 수 있게 지원합니다. 
+![질문 및 답변 화면](media/end-user-q-and-a/power-bi-result.png) 
+
+Power BI에서 간편하게 질문하는 또 다른 방법은 프롬프트, 자동 완성, 시각 신호 등의 기능을 사용하는 것입니다. Power BI는 대시보드 질문 및 답변, 보고서 질문 및 답변, 질문 및 답변 시각적 개체에서 이러한 도움을 제공합니다. 이 기능에 대해서는 아래의 [자연어 쿼리를 입력하여 질문 및 답변 시각적 개체 만들기](#create-a-qa-visual-by-typing-a-natural-language-query) 섹션에서 자세히 설명합니다.
 
 <!-- ![video](../visuals/media/end-user-q-and-a/qna4.gif) -->
 
 
-## <a name="the-qa-visual"></a>질문 및 답변 시각적 개체
+## <a name="the-qa-visual-in-power-bi-reports"></a>Power BI 보고서의 질문 및 답변 시각적 개체
 
-질문 및 답변 시각적 개체를 사용하면 자연어로 질문하고 시각적 개체 형태로 답변을 얻을 수 있습니다. 질문 및 답변 시각적 개체는 다른 시각적 개체처럼 동작하며, 교차 필터링/교차 강조 표시가 가능하고 책갈피와 주석도 지원합니다. 
+질문 및 답변 시각적 개체를 사용하면 자연어로 질문하고 시각적 개체 형태로 답변을 얻을 수 있습니다. 질문 및 답변 시각적 개체는 보고서의 다른 시각적 개체와 동일하게 동작하고, 교차 필터링/교차 강조 표시가 가능하며, 책갈피와 댓글도 지원합니다. 
 
 맨 위에 표시되는 질문 상자를 통해 질문 및 답변 시각적 개체를 확인할 수 있습니다. 여기서 자연어를 사용하여 질문을 입력합니다. 질문 및 답변 시각적 개체를 반복해서 사용하여 데이터에 대해 질문할 수 있습니다. 보고서를 나가면 질문 및 답변 시각적 개체가 기본값으로 다시 설정됩니다. 
 
 ![기본 질문 및 답변 시각적 개체 스크린샷](media/end-user-q-and-a/power-bi-q-and-a-default.png)
 
 
-## <a name="use-the-qa-visual"></a>질문 및 답변 시각적 개체 사용
-질문 및 답변 시각적 개체를 사용하려면 제안된 질문 중 하나를 선택하거나 고유한 자연어 질문을 입력합니다. 
+## <a name="use-qa"></a>질문 및 답변 사용 
+대시보드에서 질문 및 답변을 사용하거나 보고서에서 질문 및 답변 시각적 개체를 사용하려면 제안된 질문 중 하나를 선택하거나 고유한 자연어 질문을 입력합니다. 
 
 ### <a name="create-a-qa-visual-by-using-a-suggested-question"></a>제안된 질문을 사용하여 질문 및 답변 시각적 개체 만들기
 
-여기서는 **총 단위 수별 상위 지역 주**를 선택했습니다. Power BI는 최선을 다해 사용할 시각적 개체 유형을 선택합니다. 이 예제에서는 지도입니다.
+여기서는 **top geo states by total units**를 선택했습니다. Power BI는 최선을 다해 사용할 시각적 개체 유형을 선택합니다. 이 예제에서는 지도입니다.
 
 ![질문 및 답변 시각적 개체 지도](media/end-user-q-and-a/power-bi-q-and-a-suggested.png)
 
@@ -105,26 +107,45 @@ Power BI 서비스(app.powerbi.com)의 대시보드에는 하나 이상의 데�
 
 질문 유형이나 사용할 용어를 잘 모르겠으면 **모든 제안 표시**를 펼치거나, 보고서의 다른 시각적 개체를 살펴봅니다. 이렇게 하면 데이터 세트의 용어와 콘텐츠에 익숙해질 것입니다.
 
-1. 자연어를 사용하여 질문 및 답변 필드에 질문을 입력합니다. 질문을 입력할 때 Power BI에서 자동 완성, 제안 및 피드백으로 지원합니다.
+1. 자연어를 사용하여 질문 및 답변 필드에 질문을 입력합니다. 질문을 입력할 때 Power BI에서 자동 완성, 시각 신호, 피드백 등으로 지원합니다.
 
-    - Power BI에서 인식할 수 없는 단어에는 빨간색 밑줄이 사용됩니다. Power BI는 가능한 경우 항상, 인식할 수 없는 단어의 정의를 지원합니다. 올바른 정의가 표시되면 드롭다운에서 선택합니다.  
+    **자동 완성** - 질문을 입력할 때 Power BI 질문 및 답변에서 상황에 맞는 적절한 제안을 표시하여 자연어로 빠르고 간편하게 입력할 수 있도록 지원합니다. 입력하면서 즉각적인 피드백과 결과를 얻을 수 있습니다. 이 환경은 검색 엔진에 입력하는 것과 유사합니다.
 
-        ![질문 및 답변 질문 상자에서 빨간색 밑줄이 표시된 용어](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    이 예제에서 원하는 제안은 마지막 제안입니다. 
 
-    - 정의가 모두 올바르지 않으면 다른 용어를 사용하거나, 빨간색 밑줄이 표시된 단어를 선택하여 보고서 소유자에게 단어를 추가하도록 요청합니다.
+    ![파란색 밑줄이 있는 단어가 포함된 질문 및 답변](media/end-user-q-and-a/power-bi-autocomplete.png)
 
-        ![질문 및 답변 상자에 질문 입력](media/end-user-q-and-a/power-bi-q-and-a-owner.png)
+    **빨간색/파란색 밑줄** - Power BI 질문 및 답변은 밑줄이 있는 단어를 표시하여 Power BI에서 인식한 단어와 인식할 수 없는 단어를 확인할 수 있도록 지원합니다. 파란색 실선 밑줄은 Power BI에서 단어를 인식했음을 나타냅니다. 아래 예제에서는 질문 및 답변이 **store** 단어를 인식했음을 보여 줍니다.
 
-    - 질문을 더 입력하면 Power BI에서 질문을 이해할 수 없다고 알리고, 도움을 주려고 합니다. 아래 예제에서는 Power BI가 “...알고 계십니까?”라고 묻고, 데이터 세트의 용어를 사용하여 질문을 표현하는 다른 방법을 제안합니다. 
+    ![질문을 완성하는 제안 드롭다운이 표시된 질문 및 답변](media/end-user-q-and-a/power-bi-blue.png)
 
-        ![제안된 수정 항목을 제공하는 질문 및 답변 시각적 개체](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+    파란색 밑줄이 있는 단어를 선택하여 제안된 질문 드롭다운을 표시합니다. 
 
-2. Power BI의 수정 항목을 선택하면 결과가 꺾은선형 차트로 표시됩니다. 
+    ![시도해 볼 수 있음 제안이 표시된 드롭다운](media/end-user-q-and-a/power-bi-try.png)
+
+
+    질문 및 답변에 단어를 입력할 때 빨간색 밑줄이 표시되는 경우가 많습니다. 빨간색 밑줄은 두 가지 잠재적 문제 중 하나를 나타낼 수 있습니다. 첫 번째 문제 유형은 낮은 신뢰도로 분류된 것입니다. 모호한 단어를 입력하면 필드에 빨간색 밑줄이 표시됩니다. ‘Location’ 단어를 예로 들 수 있습니다. 여러 필드에 ‘Location’ 단어가 포함될 수 있으므로, 시스템에서 빨간색 밑줄을 사용하여 해당 필드를 선택하라는 메시지를 표시합니다. 이 예제에서 Power BI는 ‘VanArsdel’에 사용할 필드를 선택하라는 메시지를 표시합니다.
+    
+    ![질문 및 답변 질문 상자에서 빨간색 밑줄이 표시된 용어](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    
+    낮은 신뢰도의 또 다른 예로 ‘area’ 단어를 입력했는데 일치하는 열이 ‘district’인 경우가 있습니다. Power BI 질문 및 답변은 Bing 및 Office와 통합되어 동일한 의미를 갖는 단어를 인식합니다. 질문 및 답변은 단어에 빨간색 밑줄을 표시하여 직접 일치하지 않음을 알립니다.
+
+    ![질문 및 답변에서 동의어를 사용하여 질문을 다르게 표현함](media/end-user-q-and-a/power-bi-red.png)
+
+    두 번째 문제 유형은 질문 및 답변에서 단어를 전혀 인식할 수 없는 경우입니다. 데이터에 없는 ‘geography’ 단어를 사용하는 경우를 예로 들 수 있습니다. 영어 사전에 단어가 있지만, 질문 및 답변에서는 이 용어에 빨간색 밑줄을 표시합니다. Power BI 질문 및 답변은 시각화를 만들 수 없으며, 보고서 디자이너에게 용어를 추가하도록 요청하라고 제안합니다.
+
+    ![디자이너에게 geography 단어를 추가하도록 요청하는 제안이 표시된 질문 및 답변](media/end-user-q-and-a/power-bi-geography.png)
+
+    **제안** - 질문을 더 입력하면 Power BI에서 질문을 이해할 수 없다고 알리고, 도움을 주려고 합니다. 아래 예제에서는 Power BI가 “...알고 계십니까?”라고 묻고, 데이터 세트의 용어를 사용하여 질문을 표현하는 다른 방법을 제안합니다. 
+
+    ![제안된 수정 항목을 제공하는 질문 및 답변 시각적 개체](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+
+    Power BI의 수정 항목을 선택하면 결과가 꺾은선형 차트로 표시됩니다. 
 
     ![꺾은선형 차트로 표시되는 질문 및 답변 시각적 개체 결과](media/end-user-q-and-a/power-bi-q-and-a-line.png)
 
 
-3. 그러나 꺾은선형 차트를 다른 시각적 개체 유형으로 변경할 수 있습니다.  
+    그러나 꺾은선형 차트를 다른 시각적 개체 유형으로 변경할 수 있습니다.  
 
     ![질문에 “세로 막대형 차트로”가 추가된 질문 및 답변 시각적 개체](media/end-user-q-and-a/power-bi-q-and-a-specify-type.png)
 

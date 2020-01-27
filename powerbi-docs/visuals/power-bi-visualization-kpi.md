@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 42a9f2c641a0cdac9b7a129ffc5ecc6f7fb8cf8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f477c21a337838fb275087f744eef02eb7fd57ce
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870860"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762373"
 ---
-# <a name="key-performance-indicator-kpi-visuals"></a>KPI(핵심 성과 지표) 시각적 개체
+# <a name="create-key-performance-indicator-kpi-visualizations"></a>KPI(핵심 성과 지표) 시각화 만들기
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -97,7 +97,7 @@ KPI는 Power BI 서비스 및 모바일 디바이스에서도 사용할 수 있�
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 
-KPI가 위와 다르게 표시되는 경우 **FiscalMonth**별로 정렬하지 않아서 그럴 수 있습니다. KPI에는 정렬 옵션이 없습니다. 시각화를 KPI로 변환하기 ‘전에’ 다시 시작하여 **FiscalMonth**별로 정렬해야 합니다. 
+KPI가 위와 다르게 표시되는 경우 **FiscalMonth**별로 정렬하지 않아서 그럴 수 있습니다. KPI에는 정렬 옵션이 없습니다. 시각화를 KPI로 변환하기 ‘전에’ 다시 시작하여 **FiscalMonth**를 기준으로 정렬해야 합니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

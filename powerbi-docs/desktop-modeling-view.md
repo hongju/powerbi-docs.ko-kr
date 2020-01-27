@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6869430e3fece78210d538c9886234c7728b667a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9df4398c410f52e3d5cdd51a99a40de107f5867
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866535"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760885"
 ---
-# <a name="modeling-view-in-power-bi-desktop"></a>Power BI Desktop의 모델링 보기
+# <a name="work-with-modeling-view-in-power-bi-desktop"></a>Power BI Desktop의 모델링 뷰 사용
 
-**Power BI Desktop**의 **모델링 보기**를 사용하면 테이블이 많이 포함된 복잡한 데이터 세트를 보고 작업할 수 있습니다.
+**Power BI Desktop**의 **모델링 뷰**를 사용하면 테이블이 많이 포함된 복잡한 데이터 세트를 보고 작업할 수 있습니다.
 
 
 ## <a name="using-modeling-view"></a>모델링 보기 사용

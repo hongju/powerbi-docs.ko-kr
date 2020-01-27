@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 보안 백서
 description: Power BI 보안 아키텍처 및 구현에 대해 논의하고 설명하는 백서입니다.
 author: davidiseminger
@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 656f7e532702cef8c38af96e8c9df49ffc36734a
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009828"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304352"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 보안 백서
 
@@ -33,7 +33,7 @@ ms.locfileid: "74009828"
 
 **Power BI**는 Microsoft에서 제공하는 온라인 소프트웨어 서비스(_SaaS_ 또는 Software as a Service)로서 셀프 서비스 비즈니스 인텔리전스 대시보드, 보고서, 데이터 세트 및 시각화를 쉽고 빠르게 만들 수 있습니다. Power BI를 사용하면 다양한 데이터 원본에 연결하고, 이러한 연결에서 데이터를 결합하고 구체화한 다음, 다른 사용자와 공유할 수 있는 보고서와 대시보드를 만들 수 있습니다.
 
-Power BI 서비스에는 [Microsoft Online Services 사용 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) 및 [Microsoft Enterprise 개인정보처리방침](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)이 적용됩니다. 데이터 처리 위치는 Microsoft Online Services 사용 약관의 데이터 처리 조항에 나오는 위치를 참조하세요. 규정 준수 정보와 관련하여 [Microsoft Trust Center](https://www.microsoft.com/trustcenter)는 Power BI에 대한 기본 리소스입니다. Power BI 팀은 고객에게 최신의 혁신과 생산성을 제공하기 위해 열심히 노력하고 있습니다. Power BI 현재 [Office 365 준수 프레임워크](https://go.microsoft.com/fwlink/p/?LinkID=618494)의 계층 D에 있습니다.
+Power BI 서비스에는 [Microsoft Online Services 사용 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) 및 [Microsoft Enterprise 개인정보처리방침](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)이 적용됩니다. 데이터 처리 위치는 Microsoft Online Services 사용 약관의 데이터 처리 조항에 나오는 위치를 참조하세요. 규정 준수 정보와 관련하여 [Microsoft Trust Center](https://www.microsoft.com/trustcenter)는 Power BI에 대한 기본 리소스입니다. Power BI 팀은 고객에게 최신의 혁신과 생산성을 제공하기 위해 열심히 노력하고 있습니다. Power BI 현재 [Office 365 준수 프레임워크](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)의 계층 D에 있습니다.
 
 이 문서에서는 Power BI 보안과 관련하여 Power BI 아키텍처를 설명하고, Power BI에서 사용자를 인증하고 데이터 연결을 설정하는 방법을 설명한 다음, Power BI에서 서비스를 통해 데이터를 저장하고 이동하는 방법에 대해 설명합니다. 마지막 섹션에서는 보안 관련 질문을 전적으로 다루고, 각 질문에 대한 답변을 제공하고 있습니다.
 
@@ -163,7 +163,7 @@ Power BI 서비스에 대한 사용자 인증 순서는 다음 단계에서 설�
 
 ## <a name="data-storage-and-movement"></a>데이터 스토리지 및 이동
 
-Power BI 서비스에서 데이터는 _저장_ 데이터(현재 사용하고 있지 않지만 Power BI 사용자가 사용할 수 있는 데이터) 또는 _처리 중_ 데이터(예: 실행 중인 쿼리, 작동 중인 데이터 연결 및 모델, Power BI 서비스에 업로드 중인 데이터 및/또는 모델, 사용자 또는 Power BI 서비스에서 활발하게 액세스 또는 업데이트 중인 데이터에 대해 수행할 수 있는 기타 작업)입니다 처리 중에 있는 데이터를 _처리 중 데이터_라고 합니다. Power BI의 저장 데이터는 암호화됩니다. Power BI 서비스에서 보내거나 받는 데이터인 전송 중 데이터도 암호화됩니다.
+Power BI 서비스에서 데이터는 _저장_ 데이터(현재 사용하고 있지 않지만 Power BI 사용자가 사용할 수 있는 데이터) 또는 _처리 중_ 데이터(예: 실행 중인 쿼리, 작동 중인 데이터 연결 및 모델, Power BI 서비스에 업로드 중인 데이터 및/또는 모델, 사용자 또는 Power BI 서비스에서 활발하게 액세스 또는 업데이트 중인 데이터에 대해 수행할 수 있는 기타 작업)입니다. 처리 중에 있는 데이터를 _처리 중 데이터_ 라고 합니다. Power BI의 저장 데이터는 암호화됩니다. Power BI 서비스에서 보내거나 받는 데이터인 전송 중 데이터도 암호화됩니다.
 
 또한 Power BI 서비스는 데이터가 **DirectQuery**를 사용하여 액세스하는지 또는 가져올지에 따라 데이터를 다르게 관리합니다. 따라서 Power BI의 사용자 데이터에는 DirectQuery에서 액세스하는 데이터와 DirectQuery에서 액세스하지 않는 데이터의 두 가지 범주가 있습니다.
 
@@ -194,7 +194,7 @@ DirectQuery와 다른 쿼리의 차이점은 Power BI 서비스에서 저장 데
   - 고객의 인프라에 있는 온-프레미스 데이터 게이트웨이 - 온-프레미스 데이터 원본용
   - 데이터 이동 역할 – 클라우드 기반 데이터 원본용
 
-Windows Azure Blob Storage를 암호화하는 데 사용되는 CEK(콘텐츠 암호화 키)는 임의로 생성된 256비트 키입니다. CEK에서 콘텐츠를 암호화하는 데 사용하는 알고리즘은 AES\_CBC\_256입니다.
+Microsoft Azure Blob Storage를 암호화 하는 데 사용 되는 CEK (콘텐츠 암호화 키)는 임의로 생성 된 256 비트 키입니다. CEK에서 콘텐츠를 암호화하는 데 사용하는 알고리즘은 AES\_CBC\_256입니다.
 
 CEK를 암호화하는 데 사용되는 KEK(키 암호화 키)는 미리 정의된 256비트 키입니다. CEK를 암호화하는 KEK의 알고리즘은 A256KW입니다.
 
@@ -316,7 +316,7 @@ Power BI에서 데이터 무결성 모니터링을 제공하는 방법은 다음
 
 ## <a name="user-authentication-to-data-sources"></a>데이터 원본에 대한 사용자 인증
 
-각 데이터 원본을 사용 하 여 사용자는 로그인을 기반으로 연결을 설정 하 고 해당 자격 증명을 사용 하 여 데이터에 액세스 합니다. 그러면 사용자가 기본 데이터를 기반으로 하여 쿼리, 대시보드 및 보고서를 만들 수 있습니다.
+각 데이터 원본을 사용하여 사용자는 로그인을 기반으로 연결을 설정하고 해당 자격 증명을 사용하여 데이터에 액세스합니다. 그러면 사용자가 기본 데이터를 기반으로 하여 쿼리, 대시보드 및 보고서를 만들 수 있습니다.
 
 사용자가 쿼리, 대시보드, 보고서 또는 시각화를 공유하면 해당 데이터 및 이러한 시각화에 대한 액세스는 기본 데이터 원본의 RLS(역할 수준 보안) 지원 여부에 따라 달라집니다.
 
@@ -338,12 +338,12 @@ Ralph가 공유 대시보드 또는 보고서에 액세스하는 경우 해당 �
 
 ## <a name="power-bi-mobile"></a>Power BI Mobile
 
-Power BI Mobile는 Android, iOS 및 Windows Mobile의 세 가지 기본 모바일 플랫폼용으로 설계 된 앱의 모음입니다. Power BI Mobile 앱에 대한 보안 고려 사항은 다음 두 가지 범주로 구분됩니다.
+Power BI Mobile은 Android, iOS 및 Windows Mobile의 세 가지 기본 모바일 플랫폼용으로 설계된 앱의 모음입니다. Power BI Mobile 앱에 대한 보안 고려 사항은 다음 두 가지 범주로 구분됩니다.
 
 * 디바이스 통신
 * 디바이스의 애플리케이션 및 데이터
 
-**디바이스 통신**의 경우 모든 Power BI Mobile 애플리케이션은 Power BI 서비스와 통신하며, 브라우저에서 사용하는 것과 동일한 연결 및 인증 순서를 사용합니다. 자세한 내용은 이 백서의 앞부분에서 설명하고 있습니다. iOS 및 Android Power BI 모바일 애플리케이션은 애플리케이션 자체 내에서 브라우저 세션을 가져오고, Windows 모바일 애플리케이션은 broker를 가져와서 Power BI와의 통신 채널을 설정합니다.
+**디바이스 통신**의 경우 모든 Power BI Mobile 애플리케이션은 Power BI 서비스와 통신하며, 브라우저에서 사용하는 것과 동일한 연결 및 인증 순서를 사용합니다. 자세한 내용은 이 백서의 앞부분에서 설명하고 있습니다. iOS 및 Android Power BI Mobile 애플리케이션은 애플리케이션 자체 내에서 브라우저 세션을 가져오고, Windows 모바일 애플리케이션은 broker를 가져와서 Power BI와의 통신 채널을 설정합니다.
 
 다음 표에는 모바일 디바이스 플랫폼을 기반으로 하는 Power BI Mobile에 대한 CBA(인증서 기반 인증) 지원이 나와 있습니다.
 
@@ -364,7 +364,7 @@ Power BI Mobile 앱은 Power BI 서비스와 적극적으로 통신합니다. �
 
 Power BI Mobile의 데이터 캐시는 2주 동안 또는 앱이 제거되거나 사용자가 Power BI Mobile에서 로그아웃하거나 사용자가 로그인하는 데 실패할(예: 토큰 만료 이벤트 또는 암호 변경) 때까지 디바이스에 남아 있습니다. 데이터 캐시에는 이전에 Power BI Mobile 앱에서 액세스한 대시보드와 보고서가 포함됩니다.
 
-Power BI Mobile 애플리케이션에는 디바이스의 폴더가 표시되지 않습니다. 
+Power BI Mobile 애플리케이션에는 디바이스의 폴더가 표시되지 않습니다.
 
 Power BI Mobile을 사용할 수 있는 세 가지 플랫폼은 모두 모바일 디바이스와 애플리케이션 관리를 제공하는 소프트웨어 서비스인 Microsoft Intune을 지원합니다. Intune을 사용하도록 설정하고 구성하면 모바일 디바이스의 데이터가 암호화되며 Power BI 애플리케이션 자체는 SD 카드에 설치할 수 없습니다. [Microsoft Intune에 대해 자세히 알아보세요](https://www.microsoft.com/cloud-platform/microsoft-intune).
 
@@ -374,13 +374,13 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 
 **Power BI를 사용하는 동안 사용자가 데이터 원본에 연결하고 데이터에 액세스하려면 어떻게 해야 하나요?**
 
-* **Power BI 자격 증명 및 도메인 자격 증명:** 사용자가 전자 메일 주소를 사용 하 여 Power BI에 로그인 사용자가 데이터 리소스에 연결 하려고 하면 Power BI Power BI 로그인 전자 메일 주소를 자격 증명으로 전달 합니다. 도메인 연결 리소스(온-프레미스 또는 클라우드 기반)의 경우 디렉터리 서비스에서 로그인 이메일을 [UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)(_사용자 계정 이름_)과 대조하여 액세스를 허용할 만큼 충분한 자격 증명이 있는지 확인합니다. 작업 기반 이메일 주소( _david@contoso.com_ 과 같은 작업 리소스에 로그인하는 데 사용하는 것과 동일한 이메일 주소)를 사용하여 Power BI에 로그인하는 조직의 경우 매핑이 원활하게 수행될 수 있습니다. 작업 기반 이메일 주소(예: _david@contoso.onmicrosoft.com_ )를 사용하지 않은 조직의 경우 Power BI 로그인 자격 증명을 사용하여 온-프레미스 리소스에 액세스할 수 있도록 디렉터리 매핑을 설정해야 합니다.
+* **Power BI 자격 증명 및 도메인 자격 증명:** 사용자가 이메일 주소를 사용하여 Power BI에 로그인 사용자가 데이터 리소스에 연결하려고 하면 Power BI는 Power BI 로그인 이메일 주소를 자격 증명으로 전달합니다. 도메인 연결 리소스(온-프레미스 또는 클라우드 기반)의 경우 디렉터리 서비스에서 로그인 이메일을 [UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)(_사용자 계정 이름_)과 대조하여 액세스를 허용할 만큼 충분한 자격 증명이 있는지 확인합니다. 작업 기반 이메일 주소( _david@contoso.com_ 과 같은 작업 리소스에 로그인하는 데 사용하는 것과 동일한 이메일 주소)를 사용하여 Power BI에 로그인하는 조직의 경우 매핑이 원활하게 수행될 수 있습니다. 작업 기반 이메일 주소(예: _david@contoso.onmicrosoft.com_ )를 사용하지 않은 조직의 경우 Power BI 로그인 자격 증명을 사용하여 온-프레미스 리소스에 액세스할 수 있도록 디렉터리 매핑을 설정해야 합니다.
 
-* **SQL Server Analysis Services 및 Power BI:** 온-프레미스 SQL Server Analysis Services를 사용 하는 조직의 경우 Power BI Power BI은 온-프레미스 데이터 게이트웨이 (이전 섹션에서 참조 된 **게이트웨이**)를 제공 합니다.  Power BI 온-프레미스 데이터 게이트웨이는 RLS(역할 수준 보안)를 데이터 원본에 적용할 수 있습니다. RLS에 대한 자세한 내용은 이 문서의 앞부분에 있는 **데이터 원본에 대한 사용자 인증**을 참조하세요. 게이트웨이에 대 한 자세한 내용은 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)를 참조 하세요.
+* **SQL Server Analysis Services 및 Power BI:** 온-프레미스 SQL Server Analysis Services를 사용하는 조직의 경우 Power BI는 Power BI 온-프레미스 데이터 게이트웨이(이전 섹션에서 참조된 **게이트웨이**)를 제공합니다.  Power BI 온-프레미스 데이터 게이트웨이는 RLS(역할 수준 보안)를 데이터 원본에 적용할 수 있습니다. RLS에 대한 자세한 내용은 이 문서의 앞부분에 있는 **데이터 원본에 대한 사용자 인증**을 참조하세요. 게이트웨이에 대한 자세한 내용은 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)를 참조하세요.
 
   또한 조직에서 Kerberos를 **SSO(Single Sign-On)** 에 사용하고 Power BI에서 SQL Server, SAP HANA 및 Teradata와 같은 온-프레미스 데이터 원본에 원활하게 연결할 수 있습니다. 자세한 내용과 특정 구성 요구 사항은 [**Power BI에서 온-프레미스 데이터 원본으로의 SSO에 Kerberos 사용**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)을 참조하세요.
 
-* **도메인에 연결**되지 않음: 도메인에 가입 되지 않고 RLS (역할 수준 보안)를 지원 하지 않는 데이터 연결의 경우, 사용자는 연결 시퀀스 중에 자격 증명을 제공 해야 합니다 .이 경우 데이터 원본에 전달 하 여 데이터 원본에 연결 하 Power BI 다음을 설정 합니다. 연결. 권한이 충분하면 데이터가 데이터 원본에서 Power BI 서비스로 로드됩니다.
+* **도메인에 연결**되지 않은 경우: 도메인에 가입 되지 않고 RLS (역할 수준 보안)를 지원 하지 않는 데이터 연결의 경우 연결 시퀀스 중에 사용자가 자격 증명을 제공 해야 합니다 .이 경우 연결을 설정 하기 위해 데이터 원본에 전달 Power BI. 권한이 충분하면 데이터가 데이터 원본에서 Power BI 서비스로 로드됩니다.
 
 **데이터를 Power BI에 전송하려면 어떻게 하나요?**
 
@@ -394,7 +394,7 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 
 * 브라우저 클라이언트에서 Power BI에 액세스하는 경우 Power BI 웹 서버는 _Cache-Control_ 지시문을 _no-store_로 설정합니다. _no-store_ 지시문은 브라우저에서 사용자가 보고 있는 웹 페이지를 캐시하지 않고 클라이언트의 캐시 폴더에 웹 페이지를 저장하지 않도록 지시합니다.
 
-**역할 기반 보안, 보고서 또는 대시보드 공유 및 데이터 연결에 대 한 정보 데이터 액세스, 대시보드 보기, 보고서 액세스 또는 새로 고침 측면에서 어떻게 작동 하나요?**
+**역할 기반 보안, 보고서 또는 대시보드 공유 및 데이터 연결은 무엇인가요? 데이터 액세스, 대시보드 보기, 보고서 액세스 또는 새로 고침 측면에서 어떻게 작동하나요?**
 
 * **비 RLS(역할 수준 보안)** 를 사용하도록 설정된 데이터 원본의 경우 Power BI를 통해 대시보드, 보고서 또는 데이터 모델을 다른 사용자와 공유하면 데이터를 보고 상호 작용하기 위해 공유되는 사용자가 해당 데이터를 사용할 수 있습니다. Power BI는 데이터의 원래 원본에 대해 사용자를 다시 인증하지 *않습니다*. 데이터가 Power BI에 업로드되면 원본 데이터에 대해 인증된 사용자가 데이터를 볼 수 있는 다른 사용자와 그룹을 관리해야 합니다.
 
@@ -414,17 +414,17 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 
   [Power BI의 그룹](https://support.powerbi.com/knowledgebase/articles/654247)에 대한 자세한 정보를 얻을 수 있습니다.
 
-**온-프레미스 데이터 게이트웨이 및 개인 게이트웨이에서 사용 되는 포트는 무엇 인가요? 연결 목적으로 허용 해야 하는 도메인 이름이 있나요?**
+**온-프레미스 데이터 게이트웨이 및 개인 게이트웨이에서 사용되는 포트는 무엇인가요? 연결 목적으로 허용해야 하는 도메인 이름이 있나요?**
 
-* 이 질문에 대 한 자세한 대답은 다음 링크에서 확인할 수 있습니다. [게이트웨이 포트](/data-integration/gateway/service-gateway-communication#ports)
+* 이 질문에 대한 자세한 대답은 다음 링크에서 확인할 수 있습니다. [게이트웨이 포트](/data-integration/gateway/service-gateway-communication#ports)
 
-**온-프레미스 데이터 게이트웨이로 작업할 때 복구 키를 사용 하는 방법과 저장 위치는 어떻게 되나요? 보안 자격 증명 관리에 대 한 정보**
+**온-프레미스 데이터 게이트웨이로 작업할 때 복구 키를 사용하는 방법과 저장 위치는 어떻게 되나요? 보안 자격 증명 관리는 무엇인가요?**
 
 * 게이트웨이 설치 및 구성 중에 관리자가 게이트웨이 **복구 키**를 입력합니다. 이 **복구 키는** 강력한 **AES** 대칭 키를 생성 하는 데 사용 됩니다. **RSA** 비대칭 키도 동시에 생성 됩니다.
 
     생성된 키(**RSA** 및 **AES**)는 로컬 머신에 있는 파일에 저장됩니다. 이 파일도 암호화됩니다. 파일의 내용은 특정 Windows 머신에서만 암호 해독할 수 있으며, 특정 게이트웨이 서비스 계정에서만 해독할 수 있습니다.
 
-    사용자가 Power BI 서비스 UI에서 데이터 원본 자격 증명을 입력하면 자격 증명이 브라우저의 공개 키를 사용하여 암호화됩니다. 게이트웨이는 RSA 개인 키를 사용 하 여 자격 증명을 해독 하 고 데이터를 Power BI 서비스에 저장 하기 전에 AES 대칭 키로 다시 암호화 합니다. 이 프로세스를 통해 Power BI 서비스는 암호화되지 않은 데이터에 액세스할 수 없게 됩니다.
+    사용자가 Power BI 서비스 UI에서 데이터 원본 자격 증명을 입력하면 자격 증명이 브라우저의 공개 키를 사용하여 암호화됩니다. 게이트웨이는 RSA 개인 키를 사용하여 자격 증명을 해독하고 데이터를 Power BI 서비스에 저장하기 전에 AES 대칭 키로 다시 암호화합니다. 이 프로세스를 통해 Power BI 서비스는 암호화되지 않은 데이터에 액세스할 수 없게 됩니다.
 
 **온-프레미스 데이터 게이트웨이에서 사용하는 통신 프로토콜은 무엇이며, 어떻게 보호되나요?**
 
@@ -432,7 +432,7 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 
   - **Amqp 1.0 – TCP + TLS**:이 프로토콜을 사용 하려면 송신 통신에 대해 포트 443, 5671-5672 및 9350-9354을 열어야 합니다. 통신 오버헤드가 낮으므로 이 프로토콜이 선호됩니다.
 
-  - **Https – https + TLS를 통한 websocket**:이 프로토콜은 포트 443만 사용 합니다. WebSocket은 단일 HTTP CONNECT 메시지를 통해 시작됩니다. 채널이 설정되면 통신은 기본적으로 TCP + TLS입니다. [온-프레미스 게이트웨이 문서](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus)에 설명 된 설정을 수정 하 여 게이트웨이가이 프로토콜을 사용 하도록 강제할 수 있습니다.
+  - **Https – https + TLS를 통한 websocket**: 이 프로토콜은 포트 443만 사용합니다. WebSocket은 단일 HTTP CONNECT 메시지를 통해 시작됩니다. 채널이 설정되면 통신은 기본적으로 TCP + TLS입니다. [온-프레미스 게이트웨이 문서](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus)에 설명된 설정을 수정하여 게이트웨이가 이 프로토콜을 사용하도록 강제할 수 있습니다.
 
 **Power BI에서 Azure CDN의 역할은 무엇인가요?**
 
@@ -442,7 +442,7 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 
 **사용자 지정 시각적 개체의 경우 항목을 갤러리에 게시하기 전에 Microsoft에서 사용자 지정 시각적 개체 코드에 대한 보안 또는 개인 정보 보호 평가를 수행하나요?**
 
-* 아니요. 고객이 사용자 지정 시각적 개체 코드를 사용해야 하는지 여부를 검토하고 결정해야 합니다. 모든 사용자 지정 시각적 개체 코드는 샌드박스 환경에서 작동하므로 사용자 지정 시각적 개체의 잘못된 코드가 나머지 Power BI 서비스의 나머지 부분에 부정적인 영향을 주지 않습니다.
+* 아니요. 고객이 사용자 지정 시각적 개체 코드를 사용해야 하는지 여부를 검토하고 결정해야 합니다. 모든 사용자 지정 시각적 개체 코드는 샌드박스 환경에서 작동하므로 사용자 지정 시각적 개체의 잘못된 코드가 Power BI 서비스의 나머지 부분에 부정적인 영향을 주지 않습니다.
 
 **정보를 고객 네트워크 외부로 전송하는 다른 Power BI 시각적 개체가 있나요?**
 
@@ -454,19 +454,19 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 **고객 네트워크 외부로 정보를 보낼 수 있는 템플릿 앱이 있나요?**
 * 예. 게시자의 개인정보처리방침을 검토하고 테넌트에 템플릿 앱을 설치할지 여부를 결정하는 것은 고객의 책임입니다. 또한 게시자는 앱의 동작과 기능에 대해 알릴 책임이 있습니다.
 
-**데이터 주권 무엇 인가요? 특정 지리적 위치에 있는 데이터 센터에 테 넌 트를 프로 비전 할 수 있나요?**
+**데이터 주권은 무엇인가요? 특정 지리적 위치에 있는 데이터 센터에 테넌트를 프로비전하여 데이터가 국경을 넘지 않도록 할 수 있나요?**
 
 * 특정 지역의 일부 고객에게는 데이터 스토리지 및 처리가 다른 모든 데이터 센터와 별도로 유지되는 내셔널 클라우드에 테넌트를 만들 수 있는 옵션이 제공됩니다. 별도의 데이터 수탁자가 Microsoft를 대신하여 내셔널 클라우드 Power BI 서비스를 운영하므로 내셔널 클라우드의 보안 유형은 약간 다릅니다.
 
   또는 고객이 특정 지역에 테넌트를 설정할 수도 있지만 이러한 테넌트에는 별도의 Microsoft 데이터 수탁자가 없습니다. 내셔널 클라우드의 가격 책정은 일반적으로 사용할 수 있는 상용 Power BI 서비스와 다릅니다. 내셔널 클라우드의 Power BI 서비스 가용성에 대한 자세한 내용은 [Power BI 내셔널 클라우드](https://powerbi.microsoft.com/clouds/)를 참조하세요.
 
-**Microsoft에서 구독을 Power BI Premium 있는 고객에 대 한 연결을 어떻게 처리 하나요? 비 프리미엄 Power BI 서비스에 대해 설정 된 연결과 다른 연결 인가요?**
+**Microsoft에서는 Power BI Premium 구독이 있는 고객에 대한 연결을 어떻게 처리하나요? 비 프리미엄 Power BI 서비스에 대해 설정된 연결과 다른 연결인가요?**
 
 * Power BI Premium 구독을 사용하는 고객에 대해 설정된 연결은 Azure AD(Active Directory)를 통해 액세스 제어 및 권한 부여를 사용하도록 설정하는 [Azure B2B(Business-to-Business)](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) 권한 부여 프로세스를 구현합니다. Power BI는 다른 Azure AD 사용자와 마찬가지로 Power BI Premium 구독자에서 Power BI Premium 리소스로의 연결을 처리합니다.
 
 ## <a name="conclusion"></a>결론
 
-Power BI 서비스 아키텍처는 WFE(웹 프런트 엔드) 클러스터 및 백 엔드 클러스터의 두 가지 클러스터를 기반으로 합니다. WFE 클러스터는 Power BI 서비스에 대한 최초 연결과 인증을 담당하며 인증 후에는 백엔드가 이후의 모든 사용자 상호 작용을 처리합니다. Power BI는 AAD(Azure Active Directory)를 사용하여 사용자 ID를 저장 및 관리하고, Azure Blob과 Azure SQL Database를 개별적으로 사용하여 데이터와 메타데이터의 스토리지을 관리합니다.
+Power BI 서비스 아키텍처는 WFE(웹 프런트 엔드) 클러스터 및 백 엔드 클러스터의 두 가지 클러스터를 기반으로 합니다. WFE 클러스터는 Power BI 서비스에 대한 최초 연결과 인증을 담당하며 인증 후에는 백 엔드가 이후의 모든 사용자 상호 작용을 처리합니다. Power BI는 AAD(Azure Active Directory)를 사용하여 사용자 ID를 저장 및 관리하고, Azure Blob과 Azure SQL Database를 개별적으로 사용하여 데이터와 메타데이터의 스토리지를 관리합니다.
 
 Power BI의 데이터 스토리지 및 처리는 DirectQuery를 사용하여 데이터에 액세스하는지 여부에 따라 달라지며, 데이터 원본이 클라우드 또는 온-프레미스에 있는지 여부에 따라서도 달라집니다. 또한 Power BI는 RLS(역할 수준 보안) 적용을 지원할 수 있으며, 온-프레미스 데이터에 대한 액세스를 제공하는 게이트웨이와 상호 작용합니다.
 

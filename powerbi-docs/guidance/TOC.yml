@@ -10,36 +10,60 @@
     - name: 개념
       expanded: true
       items:
-        - name: 별모양 스키마란?
-          href: star-schema.md
-        - name: 데이터 모델 크기 줄이기
-          href: import-modeling-data-reduction.md
-        - name: 나누기 함수 및 나누기 연산자(/)
-          href: dax-divide-function-operator.md
-        - name: 값 대신 SELECTEDVALUE 사용
-          href: dax-selectedvalue.md
-        - name: 쿼리 폴딩의 중요도
-          href: power-query-folding.md
-        - name: 오류 함수를 적절하게 사용
-          href: dax-error-functions.md
-        - name: 변수를 사용하여 수식 향상
-          href: dax-variables.md
-        - name: COUNT 대신 COUNTROWS 사용
-          href: dax-countrows.md
-        - name: 공백을 값으로 변환하지 마세요.
-          href: dax-avoid-converting-blank.md
-        - name: 데이터 흐름에 관한 모범 사례
-          href: ../service-dataflows-best-practices.md
-        - name: Power BI Desktop의 DirectQuery 모델 지침
-          href: directquery-model-guidance.md
-        - name: 파워 쿼리의 쿼리 참조
-          href: power-query-referenced-queries.md
-        - name: 보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
-          href: report-page-tooltips.md
-        - name: 보고서 페이지 드릴스루
-          href: report-drillthrough.md
-        - name: Power BI Desktop의 자동 날짜/시간 지침
-          href: auto-date-time.md
+        - name: 데이터 변환 및 모양 지정
+          items:
+            - name: 쿼리 폴딩의 중요도
+              href: power-query-folding.md
+            - name: 파워 쿼리의 쿼리 참조
+              href: power-query-referenced-queries.md
+            - name: 파워 쿼리 백그라운드 새로 고침 사용 안 함
+              href: power-query-background-refresh.md
+            - name: 데이터 흐름에 관한 모범 사례
+              href: ../service-dataflows-best-practices.md
+        - name: 데이터 모델링
+          items:
+            - name: 별모양 스키마란?
+              href: star-schema.md
+            - name: 데이터 모델 크기 줄이기
+              href: import-modeling-data-reduction.md
+            - name: 자동 날짜/시간 지침
+              href: auto-date-time.md
+            - name: 다 대 다 관계 지침
+              href: relationships-many-to-many.md
+            - name: DirectQuery 모델 지침
+              href: directquery-model-guidance.md
+        - name: DAX
+          items:
+            - name: 나누기 함수 및 나누기 연산자(/)
+              href: dax-divide-function-operator.md
+            - name: 오류 함수를 적절하게 사용
+              href: dax-error-functions.md
+            - name: 값 대신 SELECTEDVALUE 사용
+              href: dax-selectedvalue.md
+            - name: COUNT 대신 COUNTROWS 사용
+              href: dax-countrows.md
+            - name: 변수를 사용하여 수식 향상
+              href: dax-variables.md
+            - name: 공백을 값으로 변환하지 마세요.
+              href: dax-avoid-converting-blank.md
+            - name: 열 및 측정값 참조
+              href: dax-column-measure-references.md
+            - name: FILTER를 필터 인수로 사용하지 마세요.
+              href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: 보고서 작성
+          items:
+            - name: 보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
+              href: report-page-tooltips.md
+            - name: 보고서 페이지 드릴스루 사용
+              href: report-drillthrough.md
+            - name: Power BI의 페이지를 매긴 보고서가 필요한 경우
+              href: report-paginated-or-power-bi.md
+            - name: 페이지를 매긴 보고서에서 연계 매개 변수 사용
+              href: paginated-report-cascading-parameter.md
+            - name: 페이지를 매긴 보고서를 인쇄할 때 빈 페이지 방지
+              href: report-paginated-blank-page.md
+            - name: SSRS 보고서를 Power BI로 마이그레이션
+              href: migrate-ssrs-reports-to-power-bi.md
     - name: 백서
       items:
         - name: 백서 개요

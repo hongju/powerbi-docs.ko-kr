@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6bf933203f8dc76d4ede2d25683981cbdf6755f5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 131101d6e7a23b7c6d8571c89097036f1149a2f3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869048"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761545"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example"></a>예제를 제공하여 웹 페이지에서 데이터 가져오기
+# <a name="get-webpage-data-by-providing-examples"></a>예제를 제공하여 웹 페이지 데이터 가져오기
 
 웹 페이지에서 데이터를 가져오면 사용자가 간편하게 웹 페이지에서 데이터를 추출하고 해당 데이터를 **Power BI Desktop**으로 가져올 수 있습니다. 그러나 대부분의 경우 웹 페이지의 데이터는 쉽게 추출할 수 있는 정돈된 테이블에 포함되지 않으므로 데이터가 구조화되고 일관성이 있더라도 해당 페이지의 데이터를 가져오는 것은 어려울 수 있습니다. 
 

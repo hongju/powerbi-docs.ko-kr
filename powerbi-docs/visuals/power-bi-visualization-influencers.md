@@ -6,21 +6,21 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871011"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885320"
 ---
-# <a name="key-influencers-visualization"></a>주요 영향 요인 시각화
+# <a name="create-key-influencers-visualizations"></a>주요 영향 요인 시각화 만들기
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-주요 영향 요인 시각적 개체는 관심 있는 메트릭을 유도하는 요소를 이해하는 데 도움이 됩니다. 데이터를 분석하고 중요한 요소의 순위를 정하며 이를 주요 요인으로 표시합니다. 예를 들어 이직률이라고도 하는 직원 전직률에 영향을 주는 요소를 파악하려고 한다고 가정해 보세요. 한 가지 요소는 고용 계약 기간일 수도 있고, 또 다른 요소는 직원의 연령일 수도 있습니다. 
+주요 영향 요인 시각적 개체는 관심 있는 메트릭을 유도하는 요소를 이해하는 데 도움이 됩니다. 데이터를 분석하고 중요한 요소의 순위를 정하며 이를 주요 영향 요인으로 표시합니다. 예를 들어 이직률이라고도 하는 직원 전직률에 영향을 주는 요소를 파악하려고 한다고 가정해 보세요. 한 가지 요소는 고용 계약 기간일 수도 있고, 또 다른 요소는 직원의 연령일 수도 있습니다. 
  
 ## <a name="when-to-use-key-influencers"></a>주요 영향 요인을 사용하는 경우 
 주요 영향 요인 시각적 개체는 다음과 같은 경우에 선택하는 것이 좋습니다. 
@@ -57,7 +57,7 @@ ms.locfileid: "73871011"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-제품 관리자는 잠재 고객이 클라우드 서비스에 대해 부정적인 리뷰를 남길 수 있는 요소를 파악하려고 합니다. 계속 진행하려면 Power BI Desktop에서 [custom feedback.PBIX 파일](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)을 엽니다. [Power BI 서비스 또는 Power BI Desktop에 대한 고객 피드백 Excel 파일](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)을 다운로드할 수도 있습니다. 링크 중 하나를 선택한 다음, 열리는 GitHub 페이지에서 **다운로드**를 선택합니다.
+제품 관리자는 잠재 고객이 클라우드 서비스에 대해 부정적인 리뷰를 남길 수 있는 요소를 파악하려고 합니다. 계속 진행하려면 Power BI Desktop에서 [custom feedback.PBIX 파일](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix)을 엽니다. [Power BI 서비스 또는 Power BI Desktop에 대한 고객 피드백 Excel 파일](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx)을 다운로드할 수도 있습니다. 링크 중 하나를 선택한 다음, 열리는 GitHub 페이지에서 **다운로드**를 선택합니다.
 
 > [!NOTE]
 > 고객 피드백 데이터 세트는 [Moro et al., 2014] S. Moro, P. Cortez 및 P. Rita, "은행 텔레마케팅의 성공 여부를 예측하는 데이터 기반 방법", *의사 결정 지원 시스템*, Elsevier, 62:22-31, 2014년 6월을 기반으로 합니다. 
@@ -267,6 +267,8 @@ ms.locfileid: "73871011"
  
 주요 영향 요인 시각적 개체에는 다음과 같은 몇 가지 제한 사항이 있습니다.
 
+
+
 - 직접 쿼리가 지원되지 않습니다.
 - Azure Analysis Services와 SQL Server Analysis Services에 대한 라이브 연결이 지원되지 않습니다.
 - 웹에 게시 기능이 지원되지 않습니다.
@@ -357,6 +359,9 @@ AI 시각화는 범주별 필드와 숫자 필드를 분석할 수 있습니다.
 이 결정의 이유는 시각화에서 영향 요인을 찾을 때 데이터 요소의 수도 고려하기 때문입니다. 다음 예에서 소비자는 29,000명이 넘고, 관리자는 10배 더 적은 약 2,900명입니다. 이들 중 390명만이 낮음 등급을 부여했습니다. 시각적 개체에는 관리자 등급의 패턴을 찾았는지, 아니면 찾는 기회일 뿐인지를 확인하는 데 충분한 데이터가 없습니다. 
 
 ![인플루언서가 결정되는 방법](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**주요 영향 요인에 대한 데이터 요소 제한은 무엇인가요?**
+분석은 10,000개의 데이터 요소로 이루어진 샘플을 대상으로 실행됩니다. 한쪽에 표시된 방울은 발견된 모든 영향 요인을 나타냅니다. 다른 쪽의 열 차트와 산점도는 코어 시각적 개체의 샘플링 전략을 준수합니다.
 
 **범주별 분석에 대한 주요 영향 요인은 어떻게 계산할까요?**
 

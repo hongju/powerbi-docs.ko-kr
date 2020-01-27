@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e0b6f3017b69540ea2a95280ceadfe7a05a9c474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8aeae0075ed32a832c27f475ef3786b7df76576c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878733"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761775"
 ---
-# <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery를 사용하여 양방향 교차 필터링 사용
+# <a name="enable-bidirectional-cross-filtering-for-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery에 대해 양방향 교차 필터링 사용
 
 테이블 필터링으로 적절한 데이터 보기가 생성되면 보고서 작성자(및 데이터 모델러)는 보고서에 필터링을 어떻게 적용할지 결정할 때 문제에 직면합니다. 테이블의 필터 컨텍스트가 관계의 한쪽에만 유지되거나 원하는 결과를 얻기 위해 복잡한 DAX 수식을 자주 요청해야 합니다.
 

@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: de842b95c8f6e023a5207c07abb2525c5fe45878
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871709"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 항목의 이름 바꾸기
@@ -21,7 +21,7 @@ ms.locfileid: "73871709"
 
 **이름을 변경할 수 있습니까?**
 
-| 콘텐츠 유형 | 본인이 작성자 또는 생성자임 | 공유한 항목 |
+| 콘텐츠 형식 | 본인이 작성자 또는 생성자임 | 공유한 항목 |
 | --- | --- | --- |
 | 작업 영역의 대시보드 |예 |아니요 |
 | 작업 영역의 보고서 |예 |아니요 |

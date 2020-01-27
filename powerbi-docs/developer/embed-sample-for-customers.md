@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.date: 12/12/2019
+ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311092"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223422"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서:  고객의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -78,7 +78,7 @@ Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음
 
 ## <a name="embed-content-using-the-sample-application"></a>샘플 애플리케이션을 사용하여 콘텐츠 포함
 
-이 샘플은 간단한 데모용으로 의도적으로 유지됩니다. 애플리케이션 비밀 또는 마스터 계정 자격 증명을 보호하는 것은 사용자 또는 개발자에게 달려 있습니다.
+이 샘플은 간단한 데모용으로 의도적으로 유지됩니다. 애플리케이션 비밀 또는 마스터 계정 자격 증명을 보호하는 것은 사용자 또는 개발자의 책임입니다.
 
 샘플 애플리케이션을 사용하여 콘텐츠 포함을 시작하려면 다음 단계를 수행합니다.
 
@@ -435,6 +435,8 @@ Pro 라이선스로 포함 토큰을 사용하는 것은 개발 테스트용이�
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>전용 용량에 작업 영역 할당
 
 전용 용량을 만든 후에 작업 영역을 전용 용량에 할당할 수 있습니다.
+
+포함된 콘텐츠(데이터 세트, 보고서, 대시보드 포함)와 관련된 Power BI 리소스를 포함하는 모든 작업 영역을 전용 용량에 할당해야 합니다. 예를 들어 포함된 보고서 및 보고서에 바인딩된 데이터 세트가 서로 다른 작업 영역에 있을 경우 두 작업 영역을 모두 전용 용량에 할당해야 합니다.
 
 [서비스 주체](embed-service-principal.md)를 사용하여 작업 영역에 전용 용량을 할당하려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)를 사용합니다. Power BI REST API를 사용할 때는 [서비스 주체 개체 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)를 사용해야 합니다.
 

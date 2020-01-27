@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
 ms.openlocfilehash: 8a2aa135bfa5720763485579b012c13c722637db
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74009791"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI와 함께 사용할 Azure AD 애플리케이션 등록
@@ -164,7 +164,7 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
      }
      ```
 
-    **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e*는 범용이지 않지만 테넌트 종속입니다. 이 값은 AAD(Azure Active Directory) 테넌트에서 “Power BI Service” 애플리케이션의 objectId입니다.
+    **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e*는 범용이 아니라 테넌트에 종속됩니다. 이 값은 AAD(Azure Active Directory) 테넌트에서 “Power BI Service” 애플리케이션의 objectId입니다.
 
     사용자는 Azure Portal에서 이 값을 신속하게 가져올 수 있습니다.
     1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
@@ -198,6 +198,4 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 이제 Azure AD에서 애플리케이션을 등록했으므로 애플리케이션 내에서 사용자를 인증해야 합니다. 자세한 내용은 [사용자 인증 및 Power BI 앱에 대한 Azure AD 액세스 토큰 가져오기](get-azuread-access-token.md)를 살펴보세요.
 
-
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](http://community.powerbi.com/)
-
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

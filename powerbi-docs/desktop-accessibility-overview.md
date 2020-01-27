@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef19c638f9c456364757576e21c303103a7f4e39
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878910"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761867"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI의 접근성 개요
 Power BI를 사용하는 경우, 보고서를 조작할 수 있는 다양한 유형의 사용자를 고려하는 것이 중요합니다. 키보드 또는 화면 읽기 프로그램 사용자가 쉽게 탐색하고 파악할 수 있는 보고서를 만들고 제공하면 시각 또는 신체적 장애가 있는 사용자도 동일한 정보를 받을 수 있습니다.
@@ -27,9 +27,10 @@ Power BI를 사용하는 경우, 보고서를 조작할 수 있는 다양한 유
 
 유니버설 디자인은 특별한 조정이나 특수한 디자인 없이도 최대한 많은 사람이 사용할 수 있는 제품 디자인입니다. Power BI에서 보고서나 환경을 만드는 경우 사용자의 요구 사항을 고려하는 것이 중요합니다. 접근성 있는 환경을 설계하면 청각, 운동, 인지 또는 시각적 장애가 있는 최종 사용자뿐 아니라 조직의 모든 최종 사용자에게 도움이 될 수 있습니다. Power BI는 접근성 있는 보고서를 만들고 사용하기 위한 도구를 제공합니다. 보고서 작성자는 이러한 도구를 사용하여 모든 사용자의 경험을 개선할 수 있습니다.
 
+
 ## <a name="accessibility-standards"></a>접근성 표준
 
-Power BI는 다음과 같은 접근성 표준을 준수합니다.  따라서 최대한 많은 사용자가 Power BI 환경에 액세스할 수 있게 됩니다.
+Power BI는 다음과 같은 접근성 표준을 준수합니다. 따라서 최대한 많은 사용자가 Power BI 환경에 액세스할 수 있게 됩니다. Power BI Mobile 앱은 C 등급의 접근성을 갖춘 것으로 인증을 받았습니다. 즉, 접근성 있는 보고서나 대시보드를 작성하면 Power BI Mobile로 해당 보고서나 대시보드를 볼 수 있는 사용자는 누구나 해당 보고서나 대시보드에 액세스할 수도 있습니다. 
 
 ### <a name="wcag-21"></a>WCAG 2.1
 WCAG(웹 콘텐츠 접근성)는 장애가 있는 사용자가 웹 콘텐츠를 액세스할 수 있도록 도와줍니다. WCAG의 세 가지 주요 원칙은 다음과 같습니다.

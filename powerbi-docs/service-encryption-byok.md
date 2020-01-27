@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f16cffe24d7eae5fe919dd2aa29949855258842
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698282"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762120"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 보기)
 
@@ -30,7 +30,8 @@ BYOK를 사용하려면 Power BI Desktop(PBIX) 파일에서 Power BI 서비스�
 
 - Analysis Services 라이브 연결
 - Excel 통합 문서(데이터를 Power BI Desktop으로 먼저 가져오는 경우 제외)
-- 푸시 데이터 세트
+- [푸시 데이터 세트](/rest/api/power-bi/pushdatasets)
+- [스트리밍 데이터 세트](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [대형 모델](service-premium-large-models.md)
 
 BYOK는 PBIX 파일과 연결된 데이터 세트에만 적용되며 타일 및 시각적 개체에 대한 쿼리 결과 캐시는 적용되지 않습니다.
@@ -103,6 +104,8 @@ BYOK를 사용하도록 설정하기 전에, 다음 사항을 고려해야 합�
 - 지금은 BYOK를 사용하도록 설정한 후에 BYOK를 사용하지 않도록 설정할 수 없습니다. `Add-PowerBIEncryptionKey`에 대한 매개 변수를 지정하는 방법에 따라, 하나 이상의 용량에 BYOK를 사용하는 방법을 제어할 수 있습니다. 하지만 테넌트에 대한 키 도입을 취소할 수는 없습니다. 자세한 내용은 [BYOK를 사용하도록 설정](#enable-byok)을 참조하세요.
 
 - BYOK를 사용하는 작업 영역을 Power BI Premium의 전용 용량에서 공유 용량으로 직접 이동할 수 없습니다.  먼저 작업 영역을 BYOK가 사용되지 않는 전용 용량으로 이동해야 합니다.
+
+- BYOK를 사용하는 작업 영역을 Power BI Premium의 전용 용량에서 공유 용량으로 이동하는 경우 보고서 및 데이터 세트가 키로 암호화되므로 액세스할 수 없게 됩니다. 이렇게 되도록 하지 않으려면 먼저 작업 영역을 BYOK가 사용되지 않는 전용 용량으로 이동해야 합니다.
 
 ### <a name="enable-byok"></a>BYOK를 사용하도록 설정
 

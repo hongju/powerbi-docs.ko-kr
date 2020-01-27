@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b7256a04ccdca107ef0cd8e24af8b3170a3d68cc
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834727"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040340"
 ---
-# <a name="extending-visuals-with-report-page-tooltips"></a>보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
+# <a name="extend-visuals-with-report-page-tooltips"></a>보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
 
 이 문서에서는 독자가 Power BI 보고서를 설계하는 보고서 작성자라고 가정하고, [보고서 페이지 도구 설명](../desktop-tooltips.md)을 만들기 위한 제안 및 권장 사항을 제공합니다.
 
@@ -61,15 +61,15 @@ ms.locfileid: "74834727"
 
 ### <a name="add-help"></a>도움말 추가
 
-시각적 개체 헤더에서 페이지 도구 설명을 표시하도록 구성할 수 있습니다. 서식 있는 텍스트 상자를 사용하여 페이지 도구 설명에 도움말 콘텐츠를 추가할 수 있습니다. 이미지와 도형을 추가하는 것도 가능합니다.
+시각적 개체 헤더에서 페이지 도구 설명을 표시하도록 구성할 수 있습니다. 서식 있는 텍스트 상자를 사용하여 페이지 도구 설명에 도움말 문서를 추가할 수 있습니다. 이미지와 도형을 추가하는 것도 가능합니다.
 
 단추, 이미지, 텍스트 상자 및 도형도 시각적 개체 헤더 페이지 도구 설명을 표시할 수 있습니다.
 
-다음 예에서는 보고서 사용자가 시각적 개체 헤더 아이콘에 커서를 올리면 무슨 일이 일어나는지 보여 줍니다.
+다음 예제에서는 보고서 사용자가 [시각적 개체 헤더 아이콘](../desktop-visual-elements-for-reports.md)을 커서로 가리키면 어떻게 되는지를 보여 줍니다.
 
 ![보고서 사용자가 시각적 개체 헤더 아이콘(물음표 아이콘) 위에 커서를 올렸습니다. 서식 있는 도구 설명이 나타났습니다.](media/report-page-tooltips/suggestion-add-help.png)
 
-페이지 도구 설명이 표시되었습니다. 시각적 개체가 표시하는 측정값을 설명하는 서식 있는 텍스트가 표시되었습니다. 도구 설명에는 도형(선)도 포함되어 있습니다.
+페이지 도구 설명이 표시되었습니다. 텍스트 상자 4개의 서식 있는 텍스트와 도형(선)이 표시됩니다. 페이지 도구 설명은 시각적 개체에 표시된 각 머리글자어를 설명하여 도움을 줍니다.
 
 ## <a name="recommendations"></a>권장 사항
 
@@ -87,5 +87,6 @@ ms.locfileid: "74834727"
 
 - [Power BI Desktop의 보고서 페이지에 기반한 도구 설명 만들기](../desktop-tooltips.md)
 - [Power BI Desktop에서 도구 설명 사용자 지정](../desktop-custom-tooltips.md)
+- [시각적 개체를 사용하여 Power BI 보고서 개선](../desktop-visual-elements-for-reports.md)
 - Guy in a cube 비디오: [Power BI report page tooltip - How to create one in Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw)(Power BI 보고서 페이지 도구 설명 - Power BI Desktop에서 페이지 도구 설명을 만드는 방법)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 질문이 있으십니까? [Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)

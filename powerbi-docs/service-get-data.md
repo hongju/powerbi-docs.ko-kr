@@ -58,7 +58,7 @@ XML 테이블( *.xml*) 또는 텍스트 파일( *.txt*) 같은 기타 유형의 
 ### <a name="databases"></a>데이터베이스
 ![](media/service-get-data/pbi_getdata_databases.png)
 
-**클라우드의 데이터베이스** - Power BI 서비스에서 다음에 실시간으로 연결할 수 있습니다.
+**클라우드의 데이터베이스** - Power BI 서비스에서는 다음에 실시간으로 연결할 수 있습니다.
 
 * Azure SQL Database
 * Azure SQL Data Warehouse

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 16af5a6c8b5341067c458329c68da0a1a0fe14a5
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 2dca4094ed0c21c421aa2fef89353e6f210b3ea4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311481"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761482"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Power BI 모바일 앱 보고서 최적화
+# <a name="optimize-power-bi-reports-for-the-mobile-app"></a>모바일 앱에 맞게 Power BI 보고서 최적화
 세로 레이아웃을 만들어 모바일 앱에서 보고서를 보는 환경을 개선할 수 있습니다. Power BI Desktop 및 Power BI 서비스에서 보고서 시각적 개체를 다시 정렬하고 크기를 조정하여 세로 모드에서 최적의 환경을 경험할 수 있습니다.  
 
 모바일 디바이스에서 보고서를 보는 방법에 대한 정보를 찾고 있나요? 이 빠른 시작 [Power BI 모바일 앱에서 대시보드 및 보고서 살펴보기](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)를 사용해 보세요.

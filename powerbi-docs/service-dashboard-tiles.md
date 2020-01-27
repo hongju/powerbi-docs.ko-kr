@@ -65,7 +65,7 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우 [Power 
    
     여기에서 다음과 같은 작업을 할 수 있습니다.
    
-     * [대시보드에 주석을 추가합니다](consumer/end-user-comment.md).
+     * [대시보드에 댓글을 추가합니다](consumer/end-user-comment.md).
      * [이 타일을 만드는 데 사용된 보고서를 엽니다](service-reports.md).  
      * [포커스 모드로 봅니다](service-focus-mode.md).   
      * [타일에 사용된 데이터를 내보냅니다](visuals/power-bi-visualization-export-data.md).

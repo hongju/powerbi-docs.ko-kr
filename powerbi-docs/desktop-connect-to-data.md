@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 61af482ca5a035325a6c3f6c5a661aa8c3fc0985
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878476"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761591"
 ---
-# <a name="connect-to-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터에 연결
+# <a name="connect-to-data-sources-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 소스에 연결
 Power BI Desktop을 사용하면 계속 확장되는 데이터에 쉽게 연결할 수 있습니다. Power BI Desktop이 없는 경우 여기서 [다운로드](https://go.microsoft.com/fwlink/?LinkID=521662)하여 설치할 수 있습니다.
 
 Power BI Desktop에는 사용할 수 있는 *모든 종류*의 데이터 소스가 있습니다. 다음 그림은 **파일** 리본을 선택한 다음 **데이터 가져오기\>추가...** 를 선택하여 데이터에 연결하는 방법을 보여 줍니다.

@@ -15,8 +15,6 @@
               href: power-bi-custom-visuals.md
         - name: 자습서
           items:
-            - name: 시각적 개념
-              href: visuals/power-bi-visuals-concept.md
             - name: Power BI의 시각적 개체 개발
               href: visuals/custom-visual-develop-tutorial.md
             - name: 서식 지정 옵션 추가
@@ -25,6 +23,10 @@
               href: visuals/unit-tests-introduction.md
         - name: 개념
           items:
+            - name: Power BI 시각적 개체 프로젝트 구조
+              href: visuals/visual-project-structure.md
+            - name: 시각적 개념
+              href: visuals/power-bi-visuals-concept.md
             - name: Power BI의 조직을 위한 시각적 개체
               href: power-bi-custom-visuals-organization.md
             - name: Power BI 시각적 개체에 대한 지침
@@ -63,6 +65,8 @@
               href: visuals/bookmarks-support.md
             - name: 상황에 맞는 메뉴 지원 추가
               href: visuals/context-menu.md
+            - name: 드릴다운 지원 추가
+              href: visuals/drill-down-support.md
             - name: 시각적 개체의 데이터 강조 표시
               href: visuals/highlight.md
             - name: 고대비 모드 지원 추가
@@ -83,19 +87,33 @@
               href: visuals/event-service.md
             - name: 정렬
               href: visuals/sort-options.md
-            - name: 대화형 유틸리티
-              href: visuals/utils-interactivity-selections.md
+            - name: 지역화
+              href: visuals/localization.md
+            - name: Power BI 시각적 개체 유틸리티
+              items:
+                - name: 대화형 유틸리티
+                  href: visuals/utils-interactivity-selections.md
+                - name: 유틸리티 서식 지정
+                  href: visuals/utils-formatting.md
+                - name: 차트 유틸리티
+                  href: visuals/utils-chart.md
+                - name: SVG 유틸리티
+                  href: visuals/utils-svg.md
+                - name: 형식 유틸리티
+                  href: visuals/utils-type.md
+                - name: 데이터 보기 유틸리티
+                  href: visuals/utils-dataview.md
         - name: 리소스
           items:
             - name: 개발자 센터
               href: 'https://powerbi.microsoft.com/developers/'
             - name: 샘플
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: 사용자 지정 시각적 Git 리포지토리
+            - name: 사용자 지정 시각적 개체 Git 리포지토리
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
             - name: SSL 인증서를 만드는 중
               href: visuals/create-ssl-certificate.md
-    - name: 분석 내장
+    - name: 임베디드 분석
       expanded: true
       items:
         - name: 개요
@@ -146,7 +164,7 @@
               href: get-azuread-access-token.md
             - name: 동적 바인딩을 사용하여 보고서를 연결합니다.
               href: embed-dynamic-binding.md
-            - name: Q&A 포함
+            - name: 질문 및 답변 포함
               href: qanda.md
             - name: 포함된 애플리케이션 문제 해결
               href: embedded-troubleshoot.md

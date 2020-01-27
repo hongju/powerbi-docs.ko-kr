@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ffff443716f11101347debd97f28349afc3904bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876313"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761183"
 ---
-# <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 및 SAP BW(Business Warehouse)
+# <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Power BI의 DirectQuery를 사용하여 SAP Business Warehouse에 연결
 **DirectQuery**를 사용하여 **SAP BW(Business Warehouse)** 데이터 원본에 직접 연결할 수 있습니다. SAP BW의 OLAP/다차원 특성을 고려할 때 관계형 원본(예: SQL Server)과 SAP BW에 대한 DirectQuery 간에는 많은 차이점이 있습니다. 이러한 차이점은 다음과 같이 요약됩니다.
 
 * 관계형 원본에 대한 **DirectQuery**에는 **데이터 가져오기** 또는 **쿼리 편집기** 대화 상자에 정의된 것과 같이 필드 목록에서 사용할 수 있는 데이터를 논리적으로 정의하는 일단의 쿼리가 있습니다. 이는 SAP BW와 같은 OLAP 원본에 연결하는 경우가 *아닙니다*. 대신 **데이터 가져오기**를 사용하여 SAP 서버에 연결할 때 Infocube 또는 BEx 쿼리만 선택됩니다. 그런 다음 선택한 Infocube/BEx 쿼리의 모든 주요 수치와 차원을 필드 목록에서 사용할 수 있습니다.   
@@ -48,7 +48,7 @@ Power BI에서 DirectQuery를 사용하여 SAP BW에 연결할 때 기본적인 
 ## <a name="support-for-sap-bw-features"></a>SAP BW 기능에 대한 지원
 다음 표에서는 Power BI를 사용할 때 완전히 지원되지 않거나 다르게 작동하는 SAP BW 기능을 모두 보여 줍니다.   
 
-| 특정 | 설명 |
+| 기능 | 설명 |
 | --- | --- |
 | 로컬 계산 |BEx 쿼리에 정의된 로컬 계산은 BEx 분석기와 같은 도구를 통해 표시되는 숫자를 변경합니다. 그러나 공용 MDX 인터페이스를 통해 SAP에서 반환되는 숫자에는 반영되지 않습니다. <br/> <br/> **따라서 Power BI 시각적 개체에 표시되는 숫자는 SAP 도구의 해당 시각적 개체에 대한 숫자와 반드시 일치하지는 않습니다.**<br/> <br/>  예를 들어 집계를 누적(즉, 누적 합계)으로 설정하는 BEx 쿼리에서 큐브 쿼리에 연결할 때 Power BI는 해당 설정을 무시하고 기본 숫자를 반환합니다.  분석가는 Power BI에서 로컬 누적 합계 계산을 적용할 수 있지만, 그렇지 않은 경우 숫자를 해석하는 방법에 주의해야 합니다. |
 | 집계 |경우에 따라, 특히 여러 통화를 처리하는 경우 SAP 공용 인터페이스에서 반환하는 집계 숫자는 SAP 도구에서 표시하는 것과 일치하지 않습니다. <br/> <br/> **따라서 Power BI 시각적 개체에 표시되는 숫자는 SAP 도구의 해당 시각적 개체에 대한 숫자와 반드시 일치하지는 않습니다.** <br/> <br/> 예를 들어 BEx 분석기에서 서로 다른 통화에 대한 합계가 "*"로 표시되지만, 이러한 집계 숫자에 대해 의미가 없다는 정보가 없이 SAP 공용 인터페이스에서 이 합계를 반환합니다. 따라서 Power BI에서 이러한 숫자(집계, 예: $, EUR 및 AUD)를 표시하게 됩니다. |

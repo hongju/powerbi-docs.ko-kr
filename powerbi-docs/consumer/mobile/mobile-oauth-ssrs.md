@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 9ce761d09e2db4fbbc2e56d461f5272041edfbfe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870093"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220611"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth를 사용하여 Power BI Report Server 및 SSRS에 연결
 
@@ -102,7 +102,7 @@ AD FS 관리 화면 내에 Power BI 모바일 앱에 대한 정보가 포함된 
 
 6. 다음 **리디렉션 URL**을 추가하려고 합니다.
 
-   **Power BI Mobile – iOS에 대한 항목:** 
+   **Power BI Mobile – iOS에 대한 항목:**  
    msauth://code/mspbi-adal://com.microsoft.powerbimobile  
    msauth://code/mspbi-adalms://com.microsoft.powerbimobilems  
    mspbi-adal://com.microsoft.powerbimobile  
@@ -244,7 +244,7 @@ Multi-Factor Authentication을 사용하여 사용자 환경에 대한 추가 �
 
 요청이 수행한 정도를 확인하기 위해 모바일 디바이스에 대한 프록시 역할을 하도록 [Fiddler](https://www.telerik.com/fiddler)를 설정할 수 있습니다. 휴대폰 디바이스에 Fiddler 프록시를 사용하려면 Fiddler를 실행하는 컴퓨터에 [iOS 및 Android용 CertMaker](https://www.telerik.com/fiddler/add-ons)를 설정해야 합니다. 이 추가 기능은 Fiddler에 대한 Telerik에서 제공됩니다.
 
-Fiddler를 사용할 경우 로그인이 성공적으로 작동하면 WAP 애플리케이션 또는 ADFS 서버의 인증서 문제가 발생할 수 있습니다. [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226)와 같은 도구를 사용하여 인증서가 유효한지 확인할 수 있습니다.
+Fiddler를 사용할 경우 로그인이 성공적으로 작동하면 WAP 애플리케이션 또는 ADFS 서버의 인증서 문제가 발생할 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

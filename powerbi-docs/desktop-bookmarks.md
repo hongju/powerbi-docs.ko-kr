@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d22ac09ac357f3060e4fd79a4e9344a059dace53
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311192"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761890"
 ---
-# <a name="use-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Power BI Desktop에서 책갈피를 사용하여 인사이트 공유 및 스토리 작성
+# <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Power BI Desktop에서 책갈피를 만들어 인사이트 공유 및 스토리 작성
 Power BI Desktop에서 ‘책갈피’를 사용하면 시각적 개체의 상태 및 필터링을 비롯하여 현재 구성된 보고서 페이지 보기를 캡처할 수 있습니다.  나중에 저장된 책갈피를 선택하여 해당 상태로 돌아갈 수 있습니다. 
 
 책갈피 컬렉션을 만들고 원하는 순서로 정렬한 다음, 프레젠테이션에서 각 책갈피를 단계별로 실행하여 일련의 인사이트를 강조 표시하거나 시각적 개체 및 보고서에서 말하려는 스토리를 강조 표시할 수도 있습니다. 

@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 64a7cc62f319162b653742be776a9aa9549f8659
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 09e4a9cc3e6a5c16f23532f0a4589fdcb1906549
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311444"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759523"
 ---
-# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
+# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Analysis Services 테이블 형식 모델에서 행 수준 보안 구현
 
 샘플 데이터 세트를 사용하여 아래 단계를 진행하기 위해 이 자습서는 **Analysis Services 테이블 형식 모델**에서 [**행 수준 보안**](service-admin-rls.md)을 구현하고 Power BI 보고서에서 사용하는 방법을 보여 줍니다. 
 

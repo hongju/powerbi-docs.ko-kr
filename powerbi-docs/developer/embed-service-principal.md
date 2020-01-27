@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/29/2019
-ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/12/2019
+ms.openlocfilehash: dec23aaa4fd54761c62507b8c7a5a36c45c75afd
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264203"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223369"
 ---
 # <a name="service-principal-with-power-bi"></a>Power BI를 포함하는 서비스 주체
 
@@ -53,7 +53,7 @@ Power BI 아티팩트 및 리소스가 [새 Power BI 작업 영역](../service-c
 
 인증에 대한 서비스 주체 및 표준 마스터 계정(Power BI Pro 라이선스)를 사용하는 것 사이에는 차이점이 있습니다. 아래 표는 몇 가지 중요한 차이점을 강조 표시합니다.
 
-| 함수 호출 | 마스터 사용자 계정 <br> (Power BI Pro 라이선스) | 서비스 주체 <br> (앱 전용 토큰) |
+| 함수 | 마스터 사용자 계정 <br> (Power BI Pro 라이선스) | 서비스 주체 <br> (앱 전용 토큰) |
 |------------------------------------------------------|---------------------|-------------------|
 | Power BI 서비스에 로그인할 수 있습니다.  | 예 | 아니요 |
 | Power BI 관리 포털에서 사용하도록 설정 | 아니요 | 예 |
@@ -150,7 +150,7 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 
    ![로컬 디렉터리의 관리되는 애플리케이션](media/embed-service-principal/managed-application-in-local-directory.png)
 
-    > [!Note]
+    > [!NOTE]
     > 위의 이미지에서 개체 ID는 서비스 주체와 함께 사용되는 것이 아닙니다.
 
 3. 개체 ID를 보려면 **속성**을 선택합니다.
@@ -174,6 +174,7 @@ Power BI 아티팩트 및 리소스를 작업 영역 간에 이동하는 UI 기�
 * [조직에 포함](embed-sample-for-your-organization.md) 애플리케이션은 서비스 주체를 사용할 수 없습니다.
 * [데이터 흐름](../service-dataflows-overview.md) 관리는 지원되지 않습니다.
 * 서비스 주체는 현재 모든 관리 API를 지원하지 않습니다.
+* [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 데이터 원본과 함께 서비스 주체를 사용하는 경우 서비스 주체 자체에 Azure Analysis Services 인스턴스 권한이 있어야 합니다. 서비스 주체가 포함된 보안 그룹을 이 목적으로 사용할 수는 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

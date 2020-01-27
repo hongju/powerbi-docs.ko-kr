@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 68ae5b04f951fcc0fa8a067e60a408d1610c3fdd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ccae3f9d1f6d56f2b58706fbb8d8bf36d55d2165
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879651"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759862"
 ---
-# <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop에서 SSAS 다차원 모델에 연결
+# <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop의 SSAS 다차원 모델에 연결
 Power BI Desktop을 통해 일반적으로 **SSAS MD**라고 하는 **SSAS 다차원 모델**에 액세스할 수 있습니다.
 
 **SSAS MD** 데이터베이스에 연결하려면 다음 이미지처럼 **데이터 가져오기 &gt; 데이터베이스 &gt; SQL Server Analysis Services 데이터베이스**를 선택합니다.

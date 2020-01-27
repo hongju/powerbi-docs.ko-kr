@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907850"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757856"
 ---
-# <a name="filled-maps-choropleth-in-power-bi"></a>Power BI의 등치 지역도(단계구분도)
+# <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI의 등치 지역도(단계구분도) 만들기 및 사용
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -66,7 +66,7 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
 [비디오 https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>등치 지역도 만들기
-1. 필드 창에서 **Geo** \> **State** 필드를 선택합니다.    
+1. 필드 창에서 **지역** \> **상태** 필드를 선택합니다.    
 
    ![상태 옆에 있는 노란색 확인란](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
 2. 등치 지역도로 [차트를 변환](power-bi-report-change-visualization-type.md)합니다. **State**는 현재 **위치** 영역에 있습니다. Bing 지도는 **위치** 영역의 필드를 사용하여 지도를 만듭니다.  위치는 국가, 시/도, 지방, 구/군, 우편번호 등 다양한 유효한 위치가 될 수 있습니다. Bing 지도에서는 전 세계 여러 위치에 대한 등치 지역도 셰이프를 제공합니다. 위치 영역에 유효한 항목이 없으면 Power BI가 등치 지역도를 만들 수 없습니다.  

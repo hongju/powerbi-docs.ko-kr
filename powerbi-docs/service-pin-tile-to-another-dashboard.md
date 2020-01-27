@@ -17,7 +17,7 @@ ms.lasthandoff: 11/09/2019
 ms.locfileid: "73881233"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>하나의 대시보드에서 다른 대시보드에 타일 고정
-다른 대시보드에서 타일을 복사하는 것은 새 [대시보드 타일](consumer/end-user-tiles.md)을 추가하는 방법 중 하나입니다. 질문 및 답변이나 보고서에서 이 각 타일을 클릭하면 만들어진 곳으로 링크가 연결됩니다. 
+다른 대시보드에서 타일을 복사하는 것은 새 [대시보드 타일](consumer/end-user-tiles.md)을 추가하는 방법 중 하나입니다. 이 각 타일을 클릭하면 질문 및 답변이나 보고서로 링크가 연결됩니다. 
 
 > [!NOTE]
 > 공유된 대시보드에서는 타일을 고정할 수 없습니다.

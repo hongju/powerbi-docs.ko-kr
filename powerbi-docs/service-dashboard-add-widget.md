@@ -115,10 +115,10 @@ Amanda가 대시보드에 타일을 추가합니다.
 5. 부제목을 선택하여 YouTube의 재생 목록을 방문합니다.
 
 ## <a name="add-streaming-data"></a>스트리밍 데이터 추가
-PubNub을 사용하여 대시보드의 타일에 스트리밍 데이터(예: Twitter 피드 또는 센서 데이터)를 추가할 수 있습니다. Power BI가 PubNub에서 데이터를 가져오는 통합을 만들었습니다. 여기서는 작동 방법을 설명합니다.
+PubNub을 사용하여 대시보드의 타일에 스트리밍 데이터(예: Twitter 피드 또는 센서 데이터)를 추가할 수 있습니다. Power BI가 PubNub에서 데이터를 가져오는 통합을 만들었습니다. 여기서는 Will이 작동 방법을 설명합니다.
    
 
-PubNub을 사용하여 대시보드의 타일에 스트리밍 데이터(예: Twitter 피드 또는 센서 데이터)를 추가할 수 있습니다. Power BI가 PubNub에서 데이터를 가져오는 통합을 만들었습니다. 여기서는 작동 방법을 설명합니다. 
+PubNub을 사용하여 대시보드의 타일에 스트리밍 데이터(예: Twitter 피드 또는 센서 데이터)를 추가할 수 있습니다. Power BI가 PubNub에서 데이터를 가져오는 통합을 만들었습니다. 여기서는 Will이 작동 방법을 설명합니다. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 

@@ -9,14 +9,14 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 712864afdea5431fa630d052271e8cb2c05e9dd2
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866081"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759885"
 ---
-# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>자습서:  Excel 및 OData 피드의 판매 데이터 결합
+# <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>자습서:  Excel 및 OData 피드의 판매 데이터 분석
 
 데이터를 여러 데이터 원본에 두는 것은 일반적입니다. 예를 들어 두 가지 데이터베이스를 하나는 제품 정보용으로, 나머지는 판매 정보용으로 사용할 수 있습니다. **Power BI Desktop**을 사용하면 서로 다른 원본의 데이터를 결합하여 흥미롭고 매력적인 데이터 분석 및 시각화를 만들 수 있습니다. 
 

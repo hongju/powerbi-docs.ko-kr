@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fc33c8adcaed35dab8fc9d81ab28fa314f42e3b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881931"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223853"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>다른 작업 영역에서 보고서 복사(미리 보기)
 
@@ -37,7 +37,7 @@ ms.locfileid: "73881931"
 
     ![복사 대화 상자 저장](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    보고서를 현재 작업 영역이나 Power BI 서비스의 다른 작업 영역에 저장할 수 있습니다. 자신이 멤버로 있는 새 환경 작업 영역인 작업 영역만 볼 수 있습니다.
+    저장할 수 있는 작업 영역은 복사하는 위치에 따라 달라집니다. 작업 영역에서 복사하는 경우 보고서를 현재 작업 영역이나 Power BI 서비스의 다른 작업 영역에 저장할 수 있습니다. 자신이 멤버로 있는 새 환경 작업 영역인 작업 영역만 볼 수 있습니다. 앱에서 복사하는 경우 보고서를 내 작업 영역에 저장할 수 있습니다.
   
 4. **저장**을 선택합니다.
 
