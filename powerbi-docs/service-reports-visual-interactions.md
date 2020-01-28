@@ -44,7 +44,7 @@ ms.locfileid: "74010943"
 2. **시각적 상호 작용** 옵션을 표시합니다.
     
 
-    - Power BI Desktop 에서 **형식 > 상호 작용 편집** 을 선택합니다.
+    - Power BI Desktop 에서 **서식 > 상호 작용 편집** 을 선택합니다.
 
         ![형식 및 상호 작용 선택](media/service-reports-visual-interactions/power-bi-interaction.png)
 
@@ -77,7 +77,7 @@ ms.locfileid: "74010943"
 >
 
 
-2. 메뉴 모음에서 **형식** > **기타 시각적 개체 드릴 필터링**을 선택합니다.  이제 시각화에서 드릴다운(및 드릴업)하면 보고서 페이지의 다른 시각화가 현재 드릴링 선택을 반영하도록 변경됩니다. 
+2. 메뉴 모음에서 **서식** > **기타 시각적 개체 드릴 필터링**을 선택합니다.  이제 시각화에서 드릴다운(및 드릴업)하면 보고서 페이지의 다른 시각화가 현재 드릴링 선택을 반영하도록 변경됩니다. 
 
     ![기타 시각적 개체 드릴 필터링 켜기](media/service-reports-visual-interactions/power-bi-drill.png).
     
