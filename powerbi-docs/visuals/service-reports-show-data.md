@@ -19,7 +19,7 @@ ms.locfileid: "75758626"
 # <a name="display-a-visualizations-underlying-data"></a>시각화의 기본 데이터 표시
 
 ## <a name="show-data"></a>데이터 표시
-Power BI 시각화는 데이터 세트에서 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. **데이터 표시**를 선택하면 Power BI는 시각화 아래(또는 옆에) 데이터를 표시합니다.
+Power BI 시각화는 데이터 세트에서 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. **데이터 표시**를 선택하면 Power BI는 시각화 아래(또는 옆)에 데이터를 표시합니다.
 
 시각화를 만드는 데 사용되는 데이터를 .xlsx 또는 .csv 파일로 내보내고 Excel에서 볼 수도 있습니다. 자세한 내용은 [Power BI 시각화에서 데이터 내보내기](power-bi-visualization-export-data.md)를 참조하세요.
 
