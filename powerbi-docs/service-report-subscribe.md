@@ -47,7 +47,7 @@ Power BI 서비스에만 구독을 만들 수 있습니다. 보고서 페이지 
    
    ![구독 아이콘](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
-3. 노란색 슬라이더를 사용하여 구독을 설정하거나 해제합니다.  슬라이더를 **Off**로 설정해도 구독이 삭제되지 않습니다. 구독을 삭제하려면 휴지통 아이콘을 선택합니다.
+3. 노란색 슬라이더를 사용하여 구독을 설정하거나 해제합니다.  슬라이더를 **해제**로 설정해도 구독이 삭제되지 않습니다. 구독을 삭제하려면 휴지통 아이콘을 선택합니다.
 
 4. 이메일은 이미 **구독** 상자에 있습니다. 다른 이메일 주소도 구독에 추가할 수 있지만 동일한 도메인에서만 추가할 수 있습니다. 보고서 또는 대시보드가 [프리미엄 용량](service-premium-what-is.md)에서 호스트되는 경우 다른 개별 이메일 주소와 그룹 별칭을 구독할 수 있습니다. 보고서 또는 대시보드가 프리미엄 용량으로 호스트되지 않는 경우 다른 개인이 구독할 수 있지만 마찬가지로 Power BI Pro 라이선스를 가지고 있어야 합니다. 자세한 내용은 아래 [고려 사항 및 문제 해결](#considerations-and-troubleshooting)을 참조하세요. 
 
@@ -107,6 +107,6 @@ Pro 라이선스가 만료되거나 소유자가 대시보드 또는 보고서�
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독](consumer/paginated-reports-subscriptions.md)
+- [Power BI 서비스의  페이지를 매긴 보고서에 자신과 다른 사용자 구독](consumer/paginated-reports-subscriptions.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)    
 - [블로그 게시물 읽기](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
