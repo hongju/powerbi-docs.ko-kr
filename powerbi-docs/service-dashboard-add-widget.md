@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853526"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282027"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>대시보드에 이미지, 동영상 등 추가
 
@@ -117,8 +117,6 @@ Amanda가 대시보드에 타일을 추가합니다.
 ## <a name="add-streaming-data"></a>스트리밍 데이터 추가
 PubNub을 사용하여 대시보드의 타일에 스트리밍 데이터(예: Twitter 피드 또는 센서 데이터)를 추가할 수 있습니다. Power BI가 PubNub에서 데이터를 가져오는 통합을 만들었습니다. 여기서는 Will이 작동 방법을 설명합니다.
    
-
-PubNub을 사용하여 대시보드의 타일에 스트리밍 데이터(예: Twitter 피드 또는 센서 데이터)를 추가할 수 있습니다. Power BI가 PubNub에서 데이터를 가져오는 통합을 만들었습니다. 여기서는 Will이 작동 방법을 설명합니다. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 
