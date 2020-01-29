@@ -79,7 +79,7 @@ ms.locfileid: "76040432"
 
 이 접근 방식과 공통 데이터 모델에 대한 자세한 내용은 [공통 데이터 모델이란](https://docs.microsoft.com/powerapps/common-data-model/overview) 문서에서 알아보세요.
 
-데이터 흐름에서 공통 데이터 모델을 활용하려면 **쿼리 편집** 대화 상자에서 **표준 변환에 매핑**을 클릭하세요. 표시되는 **엔터티 매핑** 화면에서 매핑할 표준 엔터티를 선택할 수 있습니다.
+데이터 흐름에서 공통 데이터 모델을 활용하려면 **쿼리 편집** 대화 상자에서 **표준에 매핑** 변환을 클릭하세요. 표시되는 **엔터티 매핑** 화면에서 매핑할 표준 엔터티를 선택할 수 있습니다.
 
 ![표준 엔터티에 매핑](media/service-dataflows-create-use/dataflows-create-use_08.png)
 
@@ -114,7 +114,7 @@ Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 �
 
 ![Power BI 서비스에서 데이터 흐름 관리](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
-이전 이미지의 ‘Dynamics 데이터 흐름’ 항목은 이전 섹션에서 만든 데이터 흐름입니다.  새로 고침을 예약하려면 다음 이미지에 표시된 대로 **작업** 섹션에서 **새로 고침 예약** 아이콘을 선택합니다. 
+이전 이미지의 ‘동적 데이터 흐름’ 항목은 이전 섹션에서 만든 데이터 흐름입니다.  새로 고침을 예약하려면 다음 이미지에 표시된 대로 **작업** 섹션에서 **새로 고침 예약** 아이콘을 선택합니다. 
 
 ![작업 섹션의 새로 고침 예약 단추](media/service-dataflows-create-use/dataflows-create-use_13.png)
 
