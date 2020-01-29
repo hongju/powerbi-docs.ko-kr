@@ -1,7 +1,7 @@
 ---
 title: Power BI 디자이너용 대시보드 소개
 description: 대시보드는 Power BI 서비스의 핵심 기능입니다. 대시보드는 시각화를 통해 스토리를 알려주는 흔히 캔버스라고 불리는 단일 페이지입니다.
-author: maggieMSFT
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 41381a2f0ccc2c5db904d9ac94c7dad19edfa4e5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872734"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160791"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 소개
 
@@ -38,7 +38,7 @@ Power BI *대시보드*는 시각화를 통해 스토리를 알려주는 흔히 
 대시보드는 단지 깔끔한 사진이 아닙니다. 고도의 대화형이며 기본 데이터가 변경되면 타일이 업데이트됩니다.
 
 ## <a name="who-can-create-a-dashboard"></a>대시보드는 누가 만들 수 있나요?
-대시보드를 만드는 기능은 *작성자* 기능으로 간주되며 보고서에 대한 편집 권한이 필요합니다. 편집 권한은 보고서 작성자와 작성자가 액세스 권한을 부여하는 동료들에게 제공됩니다. 예를 들어 David가 ABC 작업 영역에서 보고서를 만들고 해당 작업 영역의 구성원으로 사용자를 추가하는 경우, David와 사용자는 둘 다 편집 권한이 있습니다. 반면, 보고서가 사용자와 직접 공유되거나 [Power BI 앱](service-create-distribute-apps.md)의 일부로서 공유되는 경우 사용자가 보고서를 *소비*하는 것입니다. 타일을 대시보드에 고정하지 못할 수 있습니다.	
+대시보드를 만드는 기능은 *작성자* 기능으로 간주되며 보고서에 대한 편집 권한이 필요합니다. 편집 권한은 보고서 작성자와 작성자가 액세스 권한을 부여하는 동료들에게 제공됩니다. 예를 들어 David가 ABC 작업 영역에서 보고서를 만들고 해당 작업 영역의 구성원으로 사용자를 추가하는 경우, David와 사용자는 둘 다 편집 권한이 있습니다. 반면, 보고서가 사용자와 직접 공유되거나 [Power BI 앱](service-create-distribute-apps.md)의 일부로서 공유되는 경우 사용자가 보고서를 *소비*하는 것입니다. 타일을 대시보드에 고정하지 못할 수 있습니다. 
 
 > [!IMPORTANT]
 > 작업 영역에서 대시보드를 만들려면 [Power BI Pro](service-free-vs-pro.md) 라이선스가 필요합니다. 자신의 내 작업 영역에서는 Power BI Pro 라이선스 없이 대시보드를 만들 수 있습니다.
@@ -50,15 +50,15 @@ Power BI *대시보드*는 시각화를 통해 스토리를 알려주는 흔히 
 | **기능** | **대시보드** | **보고서** |
 | --- | --- | --- |
 | 페이지 |한 페이지 |한 페이지 이상 |
-| 데이터 소스 |대시보드당 보고서 및 데이터 세트 모두 하나 이상 |보고서당 단일 데이터 세트 |
-| Power BI Desktop에서 사용 가능 |아니요 | 예. Power BI Desktop에서 보고서 작성 및 보기 가능 |
+| 데이터 원본 |대시보드당 보고서 및 데이터 세트 모두 하나 이상 |보고서당 단일 데이터 세트 |
+| Power BI Desktop에서 사용 가능 |예 | 예. Power BI Desktop에서 보고서 작성 및 보기 가능 |
 | 구독 |예. 대시보드 구독 가능 |예. 보고서 페이지 구독 가능 |
-| 필터링 |아니요. 필터링 또는 조각화 불가능 |예. 필터링, 강조 표시 및 조각화를 위한 다양한 방법 |
-| 주요 |예. 하나의 대시보드를 *주요* 대시보드로 설정 가능 |아니요 |
+| Filtering |아니요. 필터링 또는 조각화 불가능 |예. 필터링, 강조 표시 및 조각화를 위한 다양한 방법 |
+| 주요 |예. 하나의 대시보드를 *주요* 대시보드로 설정 가능 |예 |
 | 즐겨찾기 | 예. 여러 대시보드를 *즐겨찾기*로 설정 가능 | 예. 여러 보고서를 *즐겨찾기*로 설정 가능
-| 경고 설정 |예. 특정 상황에서 대시보드 타일에서 사용 가능 |아니요 |
-| 자연어 쿼리(질문 및 답변) |예 | 예. 보고서 및 기본 데이터 세트를 편집할 수 있는 권한이 제공됨 |
-| 기본 데이터 세트 테이블 및 필드를 볼 수 있음 |아니요. 데이터를 내보낼 수 있지만 대시보드 자체에서 테이블 및 필드를 볼 수 없음 |예 |
+| 경고 설정 |예. 특정 상황에서 대시보드 타일에서 사용 가능 |예 |
+| 자연어 쿼리(질문 및 답변) |yes | 예. 보고서 및 기본 데이터 세트를 편집할 수 있는 권한이 제공됨 |
+| 기본 데이터 세트 테이블 및 필드를 볼 수 있음 |아니요. 데이터를 내보낼 수 있지만 대시보드 자체에서 테이블 및 필드를 볼 수 없음 |yes |
 
 
 ## <a name="next-steps"></a>다음 단계

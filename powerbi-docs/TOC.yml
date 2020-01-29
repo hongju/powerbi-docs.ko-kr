@@ -961,16 +961,18 @@
       items:
         - name: 새로운 기능
           href: report-server/whats-new.md
+        - name: 관리자 개요
+          href: report-server/admin-handbook-overview.md
         - name: 로그 변경
           href: report-server/changelog.md
         - name: 지원 타임라인
           href: report-server/support-timeline.md
+        - name: Always Encrypted 지원
+          href: report-server/always-encrypted-support.md
         - name: 하드웨어 및 소프트웨어 요구 사항
           href: report-server/system-requirements.md
         - name: 브라우저 지원
           href: report-server/browser-support.md
-        - name: 관리자 개요
-          href: report-server/admin-handbook-overview.md
         - name: 보고서 서버 기본 사항
           items:
             - name: Power BI 보고서 예약된 새로 고침

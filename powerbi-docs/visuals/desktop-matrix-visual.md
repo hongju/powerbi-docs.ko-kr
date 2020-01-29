@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/25/2019
+ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 150de174b15e684c49c38f67767b13a3a7f9a36a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758971"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040415"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI에서 행렬 시각화 만들기
 
@@ -197,6 +197,6 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI의 분산형 및 거품형 차트](power-bi-visualization-scatter.md)
+[Power BI용 Power Apps 시각적 개체](power-bi-visualization-powerapp.md)
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)

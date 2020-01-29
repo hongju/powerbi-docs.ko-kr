@@ -103,7 +103,7 @@ Power BI 관리자는 외부 게스트 사용자가 조직의 콘텐츠를 편�
 * 보내기 전에 초대장 맨 아래에 있는 **수신자가 대시보드(또는 보고서)를 공유하도록 허용** 확인란의 선택을 취소합니다.
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>대시보드 또는 보고서를 이미 공유한 경우
-1. 대시보드 및 보고서 목록 또는 대시보드나 보고서 자체에서 **공유** ![공유 아이콘](media/service-share-dashboards/power-bi-share-icon.png)을 선택합니다. 
+1. 대시보드 및 보고서 목록 또는 대시보드나 보고서 자체에서 **공유** 아이콘 ![공유 아이콘](media/service-share-dashboards/power-bi-share-icon.png)을 선택합니다. 
 2. **대시보드 공유** 또는 **보고서 공유** 대화 상자에서 **액세스**를 선택합니다.
    
     ![대시보드 공유 대화 상자, 액세스 탭](media/service-share-dashboards/power-bi-share-dialog-access.png)

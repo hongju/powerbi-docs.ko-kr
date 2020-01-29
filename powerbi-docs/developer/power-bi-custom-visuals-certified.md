@@ -1,6 +1,6 @@
 ---
 title: 인증된 Power BI 시각적 개체
-description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스. 인증된 Power BI 시각적 개체 목록
+description: 인증을 위해 사용자 지정 시각적 개체를 제출하기 위한 요구 사항 및 프로세스와 인증된 Power BI 시각적 개체 목록.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,73 +8,94 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: c39b96122016746905ea09c0983adf50356f0c77
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/12/2019
+ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221968"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925564"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
-인증된 Power BI 시각적 개체는 *Microsoft Power BI 팀*이 테스트하고 승인한 특정 *지정 코드* 요구 사항을 충족하는 *Marketplace*의 시각적 개체입니다. 테스트는 시각적 개체가 외부 서비스 또는 리소스에 액세스하지 않는지 확인하도록 설계되었습니다.
+인증된 Power BI 시각적 개체란 Microsoft Power BI 팀 [코드 요구 사항](#certification-requirements)을 충족하는 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals)의 Power BI 시각적 개체입니다. 이러한 시각적 개체는 외부 서비스 또는 리소스에 액세스 하지 않고 보안 코딩 패턴 및 지침을 따르는지 확인하는 테스트를 거쳤습니다.
 
-인증된 Power BI 시각적 개체와 [표준 Power BI 시각적 개체](power-bi-custom-visuals.md)가 동일한 방식으로 사용됩니다. 이들은 [Power BI Desktop](../desktop-what-is-desktop.md) 및 [Power BI 서비스](../power-bi-service-overview.md)에 추가하고 [Power BI 모바일](../consumer/mobile/mobile-apps-for-mobile-devices.md) 및 [Power BI Embedded](embedding.md)를 사용하여 볼 수 있습니다.
+인증된 Power BI 시각적 개체는 더 많은 기능을 제공합니다. 예를 들어 [PowerPoint로 내보내기](../consumer/end-user-powerpoint.md)가 가능하고 사용자가 [보고서 페이지를 구독](../consumer/end-user-subscribe.md)할 때 받은 이메일에 시각적 개체를 표시할 수 있습니다.
 
-인증 프로세스는 선택적 프로세스입니다. 개발자는 Marketplace에서 Power BI 시각적 개체를 인증받을지 여부를 결정할 수 있습니다. 인증된 Power BI 시각적 개체는 더 많은 기능을 제공합니다. 예를 들어 [PowerPoint로 내보내기](../consumer/end-user-powerpoint.md)가 가능하고 사용자가 [보고서 페이지를 구독](../consumer/end-user-subscribe.md)할 때 받은 이메일에 시각적 개체를 표시할 수 있습니다.
-
-인증되지 않은 Power BI 시각적 개체가 반드시 안전하지 않은 시각적 개체를 의미하는 것은 아닙니다. 일부 시각적 개체는 [인증 요구 사항](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) 중 하나 이상을 준수하지 않았기 때문에 인증되지 않았습니다. 예를 들어 맵 시각적 개체와 같은 외부 서비스에 연결하거나 상용 라이브러리를 사용하여 시각적 개체에 연결할 수 있습니다.
-
-자체 Power BI 시각적 개체를 만들어  [Microsoft AppSource](https://appsource.microsoft.com)에 추가하는 데 관심이 있는 웹 개발자라면  [Power BI 시각적 개체 개발](visuals/custom-visual-develop-tutorial.md) 자습서로 시작할 수 있습니다.
+인증 프로세스는 선택 사항입니다. 인증되지 않은 Power BI 시각적 개체라고 해서 반드시 안전하지 않은 Power BI 시각적 개체인 것은 아닙니다. 일부 Power BI 시각적 개체는 [인증 요구 사항](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) 중 하나 이상을 준수하지 않았기 때문에 인증되지 않았습니다. 예를 들어 외부 서비스에 연결하는 맵 Power BI 시각적 개체 또는 상용 라이브러리를 사용하는 Power BI 시각적 개체가 그렇습니다.
 
 > [!NOTE]
-> **Microsoft**는 타사 Power BI 시각적 개체의 작성자가 *아닙니다*. 타사 시각적 개체의 기능을 확인하려면 고객이 작성자에게 직접 문의하는 것이 좋습니다.
-
-> [!IMPORTANT]
-> Microsoft는 자체 판단에 따라 [인증된 Power BI 시각적 개체](#certified-power-bi-visuals) 목록에서 Power BI 시각적 개체를 제거할 수 있습니다.
+> Microsoft는 타사 Power BI 시각적 개체의 작성자가 아닙니다. 타사 시각적 개체의 기능을 확인하려면 시각적 개체의 작성자에게 직접 문의하세요.
 
 ## <a name="certification-requirements"></a>인증 요구 사항
 
 Power BI 시각적 개체를 [인증](#get-a-power-bi-visual-certified)받으려면 Power BI 시각적 개체가 이 섹션에 나열된 요구 사항을 준수해야 합니다. 
 
-> [!TIP]
-> 코드를 제출하기 전에 미리 유효성을 검사하려면 기본 보안 규칙 집합을 포함하는 EsLint를 사용하는 것이 좋습니다.
+### <a name="general-requirements"></a>일반 요구 사항
 
-* Microsoft 판매자 대시보드 또는 파트너 센터에서 승인해야 합니다. Power BI 시각적 개체가 [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 있어야 합니다.
-* Power BI 시각적 개체가 *API v2.5* 이상으로 작성되어야 합니다.
-* Power BI 팀에서 코드 리포지토리를 검토할 수 있어야 합니다. 예를 들어 소스 코드(JavaScript 또는 TypeScript)의 읽기 가능한 형식을 GitHub를 통해 사용할 수 있어야 합니다.
+Power BI 시각적 개체가 판매자 대시보드 또는 파트너 센터에 의해 승인되어야 합니다. Power BI 시각적 개체가 이미 [AppSource](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에 있는 것이 좋습니다. Power BI 시각적 개체를 AppSource에 게시하는 방법을 알아보려면 [파트너 센터에 Power BI 시각적 개체 게시](office-store.md)를 참조하세요.
 
-    >[!NOTE]
-    > Github에서 코드를 공용으로 공유할 필요는 없습니다.
+인증을 받기 위해 Power BI 시각적 개체를 제출하기 전에 [Power BI 시각적 개체에 대한 지침](./guidelines-powerbi-visuals.md)을 준수하는지 확인합니다.
 
-* 코드 리포지토리 요구 사항:
-  * 다음 파일을 포함해야 합니다.
-    * .gitignore
-    * capabilities.json
-    * pbiviz.json
-    * package.json
-    * package-lock.json
-    * tsconfig.json
-  * *node_modules* 폴더를 포함하지 않아야 합니다(.gitingore* 파일에 *node_modules* 추가).
-  * *npm install* 명령이 오류를 반환하지 않아야 합니다.
-  * *npm audit* 명령이 높음 또는 보통 수준의 경고를 반환하지 않아야 합니다.
-  * *pbiviz package* 명령이 오류를 반환하지 않아야 합니다.
-  * 구성 재정의 없이 [Microsoft의 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib)를 포함해야 합니다. 이 명령이 lint 오류를 반환하지 않아야 합니다.
-   * Power BI 시각적 개체의 컴파일된 패키지가 제출된 패키지와 일치해야 합니다.
-* 소스 코드 요구 사항:
-   * Power BI 시각적 개체가 [렌더링 이벤트 API](./visuals/event-service.md)를 지원해야 합니다.
-   * 임의/동적 코드가 실행되지 않아야 합니다(불량: eval(), 안전하지 않은 사용: settimeout(), requestAnimationFrame(), setinterval(사용자 입력이 있는 일부 함수), 사용자 입력/데이터 실행).
-   * DOM이 안전하게 조작되었는지 확인해야 합니다(불량: innerHTML, D3.html(<일부 사용자/데이터 입력>), DOM에 추가하기 전에 사용자 입력/데이터에 대한 삭제를 사용).
-   * 브라우저 콘솔에 입력 데이터에 대한 javascript 오류 또는 예외가 없어야 합니다. 사용자가 Power BI 시각적 개체를 예기치 않은 다른 데이터 범위와 함께 사용할 수 있으므로 시각적 개체가 실패하지 않아야 합니다. 이 [샘플 보고서](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)를 테스트 데이터 집합으로 사용할 수 있습니다.
+Power BI 시각적 개체를 제출할 때 컴파일된 패키지가 제출된 패키지와 정확히 일치하는지 확인합니다.
 
-* *capabilities.json* 파일에서 속성을 변경한 경우 이로 인해 기존 사용자의 보고서가 손상되지 않아야 합니다.
+### <a name="code-repository-requirements"></a>코드 리포지토리 요구 사항
 
-* Power BI 시각적 개체가 [Power BI 시각적 개체에 대한 지침](./guidelines-powerbi-visuals.md)을 준수해야 합니다.
-    
-* 코드는 공용 Javascript 또는 TypeScript 라이브러리와 같은 공용 검토 가능한 OSS 구성 요소만 사용할 수 있습니다. 소스 코드는 검토할 수 있어야 하고 알려진 취약점이 없어야 합니다. 상용 구성 요소를 사용하여 사용자 지정 시각적 개체를 확인할 수 없습니다.
+GitHub에서 공개적으로 코드를 공유할 필요는 없지만 Power BI 팀이 코드 리포지토리를 검토할 수 있어야 합니다. 이렇게 하는 가장 좋은 방법은 GitHub에서 소스 코드(JavaScript 또는 TypeScript)를 제공하는 것입니다.
 
-* Power BI 시각적 개체가 외부 서비스 또는 리소스에 액세스해서는 안 됩니다. 예를 들어 Power BI가 어떤 서비스에도 HTTP/S 또는 WebSocket 요청을 보낼 수 없어야 합니다. 
+리포지토리에는 Power BI 시각적 개체 하나의 코드만 포함되어야 합니다. 여러 Power BI 시각적 개체의 코드나 관계가 없는 코드는 포함할 수 없습니다.
+
+리포지토리에는 **certification**이라는 분기가 포함되어야 합니다. 이 분기의 소스 코드는 제출된 패키지와 일치해야 합니다. 이 코드는 Power BI 시각적 개체를 다시 제출하는 경우, 다음 제출 프로세스 중에만 업데이트할 수 있습니다.
+
+Power BI 시각적 개체가 비공개 npm 패키지 또는 git 하위 모듈을 사용하는 경우, 이 코드가 포함된 추가 리포지토리에 대한 액세스 권한을 제공해야 합니다.
+
+### <a name="file-requirements"></a>파일 요구 사항
+
+최신 버전의 API를 사용하여 Power BI 시각적 개체를 작성합니다.
+
+리포지토리에는 다음 파일이 포함되어야 합니다.
+* **.gitignore** - 이 파일에 `node_modules`를 추가합니다. 코드에는 *node_modules* 폴더가 포함될 수 없습니다.
+* **capabilities.json** - 이 파일의 속성이 변경된 새 버전의 Power BI 시각적 개체를 제출하는 경우, 기존 사용자의 보고서를 중단하지 않는지 확인합니다.
+* **pbiviz.json**
+* **package.json**
+* **package-lock.json**
+* **tsconfig.json**
+
+### <a name="command-requirements"></a>명령 요구 사항
+
+다음 명령이 오류를 반환하지 않는지 확인합니다.
+
+* `npm install`
+* `pbiviz package`
+* `npm audit` - 높음 또는 보통 수준의 경고를 반환하지 않아야 합니다.
+* 구성 재정의 없는 [Microsoft의 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib). 이 명령이 lint 오류를 반환하지 않아야 합니다.
+
+### <a name="compiling-requirements"></a>컴파일 요구 사항
+
+최신 버전의 [powerbi-visuals-tools](https://www.npmjs.com/package/powerbi-visuals-tools)를 사용하여 Power BI 시각적 개체를 작성합니다.
+
+`pbiviz package`를 사용하여 Power BI 시각적 개체를 컴파일해야 합니다. 자체 빌드 스크립트를 사용하는 경우, `npm run package` 사용자 지정 빌드 명령을 제공합니다.
+
+
+
+### <a name="source-code-requirements"></a>소스 코드 요구 사항
+
+[Power BI 시각적 개체 추가 인증](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) 정책 목록을 따르는지 확인합니다. 제출이 이러한 지침을 따르지 않는 경우, 파트너 센터의 거부 전자 메일에는 이 링크에 나열된 정책 번호가 포함됩니다.
+
+코드가 Power BI 인증 정책에 맞도록 하려면 아래 나열된 코드 요구 사항에 따르세요.  
+
+**필수**
+* 공용 Javascript 또는 TypeScript 라이브러리와 같은 공개적으로 검토 가능한 OSS 구성 요소만 사용하세요.
+* 코드는 [렌더링 이벤트 API](./visuals/event-service.md)를 지원해야 합니다.
+* DOM을 안전하게 조작해야 합니다. DOM에 추가하기 전에 사용자 입력 또는 사용자 데이터에 대한 삭제를 사용합니다.
+* [샘플 보고서](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)를 테스트 데이터 세트로 사용합니다.
+
+**허용되지 않음**
+* 외부 서비스 또는 리소스에 액세스. 예를 들어 Power BI가 어떤 서비스에도 HTTP/S 또는 WebSocket 요청을 보낼 수 없어야 합니다.
+* `innerHTML` 또는 `D3.html(user data or user input)` 사용.
+* 브라우저 콘솔에서 입력 데이터에 대한 JavaScript 오류 또는 예외.
+* `eval()`과 같은 임의 또는 동적 코드, `settimeout()`, `requestAnimationFrame()`, `setinterval(user input function)`, 사용자 입력 또는 사용자 데이터의 안전하지 않은 사용.
+* 축소된 JavaScript 파일 또는 프로젝트.
 
 ## <a name="submitting-a-power-bi-visual-for-certification"></a>인증을 위한 Power BI 시각적 개체 제출
 
@@ -212,6 +233,7 @@ Power BI 인증을 요청하려면
 * [Microsoft의 사용자 지정 시각적 개체 YouTube 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Power BI의 시각화](../visuals/power-bi-report-visualizations.md)  
 * [Power BI의 사용자 지정 시각화](power-bi-custom-visuals.md)  
-* [Microsoft AppSource에 Power BI 시각적 개체 게시하기](../developer/office-store.md)  
+* [Microsoft AppSource에 Power BI 시각적 개체 게시하기](../developer/office-store.md) 
+* 자체 Power BI 시각적 개체를 만들어  [Microsoft AppSource](https://appsource.microsoft.com)에 추가하는 데 관심이 있는 웹 개발자라면  [Power BI 시각적 개체 개발](visuals/custom-visual-develop-tutorial.md) 자습서로 시작할 수 있습니다. 
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+추가 질문이 있으신가요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

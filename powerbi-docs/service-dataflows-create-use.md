@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877384"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040432"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI에서 데이터 흐름 만들기 및 사용
 
@@ -35,7 +35,7 @@ ms.locfileid: "73877384"
 다음 섹션에서는 이러한 단계를 각각 살펴보고 각 단계를 완료하도록 제공되는 도구에 익숙해지도록 합니다. 설명하겠습니다.
 
 ## <a name="creating-a-dataflow"></a>데이터 흐름 만들기
-데이터 흐름을 만들려면, 브라우저에서 Power BI 서비스를 시작하고 다음 화면에 표시된 것처럼 왼쪽 탐색 창에서 **작업 영역**을 선택합니다(Power BI 서비스의 *my-workspace*에서는 데이터 흐름을 사용할 수 없음). 새 데이터 흐름을 만들 새 작업 영역을 만들 수도 있습니다. 
+데이터 흐름을 만들려면, 브라우저에서 Power BI 서비스를 시작하고 다음 화면에 표시된 것처럼 왼쪽 탐색 창에서 **작업 영역**을 선택합니다(Power BI 서비스의 *내 작업영역*에서는 데이터 흐름을 사용할 수 없음). 새 데이터 흐름을 만들 새 작업 영역을 만들 수도 있습니다. 
 
 ![Power BI에서 데이터 흐름 만들기](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
@@ -155,6 +155,14 @@ Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 �
 * **JSON 파일 커넥터** - 현재 기본 인증만 사용하여 JSON 파일에 연결할 수 있습니다.  URL 내에서 자격 증명을 입력하여 JSON 파일에 연결(예: https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. )하는 작업은 현재 지원되지 **않습니다**.  
 
 * **Azure SQL Data Warehouse** - 데이터 흐름은 현재 Azure SQL Data Warehouse에서 AAD(Azure Active Directory) 인증을 지원하지 않습니다. 이 시나리오에서 기본 인증을 사용하세요.
+
+## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
+
+데이터 흐름에는 몇 가지 알려진 제한 사항이 있습니다. 이에 대해서는 다음 목록에서 설명합니다.
+
+* 데이터 흐름은 다음 형식 중 하나를 출력해야 합니다. *날짜/시간, 10진수 숫자, 텍스트, 정수, 날짜/시간/영역, True/False, 날짜, 시간*
+* 동적 함수는 현재 데이터 흐름 내에서 지원되지 않습니다.
+
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -6,29 +6,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3e40d26570e37167c61ffd3241cfe96a90c55fa0
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: a840a549e5dee79406ddfb2a07877895ce7b6c0f
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760552"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76038959"
 ---
 # <a name="work-with-report-view-in-power-bi-desktop"></a>Power BI Desktop의 보고서 뷰 사용
+
 Power BI로 작업한 적이 있다면 데이터에 동적 관점과 통찰력을 제공하는 보고서를 얼마나 쉽게 만들 수 있는지 알고 있을 것입니다. Power BI Desktop에는 Power BI의 고급 기능도 있습니다. Power BI Desktop을 사용하여 고급 쿼리를 만들고, 여러 소스의 데이터를 매시업하고, 테이블 간에 관계를 만드는 등 많은 작업을 할 수 있습니다.
 
-Power BI Desktop에는 시각화가 포함된 보고서 페이지를 원하는 개수만큼 만들 수 있는 **보고서 보기**가 포함되어 있습니다. Power BI Desktop의 보고서 보기는 Power BI 서비스의 보고서 편집용 보기와 거의 동일한 디자인 환경을 제공합니다. 시각화를 이동하고, 복사 및 붙여넣고, 병합할 수 있습니다.
+Power BI Desktop에는 시각화가 포함된 보고서 페이지를 원하는 개수만큼 만들 수 있는 *보고서 보기*가 포함되어 있습니다. Power BI Desktop의 보고서 보기는 *Power BI 서비스*의 보고서 편집용 보기와 비슷한 디자인 환경을 제공합니다. 시각화를 이동하고, 복사 및 붙여넣고, 병합할 수 있습니다.
 
 이들 간 차이점은 Power BI Desktop을 사용하는 경우 데이터가 보고서에서 최상의 통찰력을 지원하도록 쿼리와 데이터 모델링 작업을 수행할 수 있다는 것입니다. 로컬 드라이브든, 클라우드든 관계없이 어디든지 Power BI Desktop 파일을 저장할 수 있습니다.
 
 ## <a name="lets-take-a-look"></a>직접 살펴보겠습니다.
-Power BI Desktop에서 처음 데이터를 로드하면 빈 캔버스가 있는 **보고서 보기**가 표시됩니다.
+
+Power BI Desktop에서 처음 데이터를 로드하면 빈 캔버스가 있는 보고서 보기가 표시됩니다.
 
 ![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-왼쪽 탐색 창의 아이콘을 선택하여 **보고서 보기**, **데이터 보기**와 **관계 보기**를 전환할 수 있습니다.
+왼쪽 탐색 모음의 아이콘을 선택하여 **보고서**, **데이터**, **관계** 보기를 전환할 수 있습니다.
 
 ![보고서 보기 아이콘](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
@@ -36,7 +38,7 @@ Power BI Desktop에서 처음 데이터를 로드하면 빈 캔버스가 있는 
 
 ![[필드] 창에서 끌어 시각적 개체 추가](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-시각화 형식을 변경하려면 리본 메뉴의 **시각화** 그룹에서 선택하거나, 마우스 오른쪽 단추를 클릭하고 **시각화 형식 변경** 아이콘에서 다른 형식을 선택할 수 있습니다.
+시각화 유형을 변경하려면 캔버스에서 선택한 다음 **시각화**에서 새 유형을 선택하면 됩니다.
 
 ![새 시각적 개체를 선택하여 변경](media/desktop-report-view/pbid_reportview_changevis.gif)
 
@@ -52,26 +54,23 @@ Power BI Desktop에서 처음 데이터를 로드하면 빈 캔버스가 있는 
 ![보고서에 페이지 추가](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
 
 > [!NOTE]
-> Power BI Desktop에서 보고서 및 시각화를 대시보드에 고정할 수 없습니다. 이렇게 하려면 Power BI 사이트에 [Power BI Desktop에서 게시](desktop-upload-desktop-files.md)해야 합니다.
+> Power BI Desktop에서 보고서 및 시각화를 대시보드에 고정할 수 없습니다. 이렇게 하려면 Power BI 사이트에 게시해야 합니다. 자세한 내용은 [Power BI Desktop에서 데이터 세트 및 보고서 게시](desktop-upload-desktop-files.md)를 참조하세요.
 
 ## <a name="copy-and-paste-between-reports"></a>보고서 간에 복사 및 붙여넣기
 
-Power BI Desktop 보고서에서 시각적 개체를 가져와서 손쉽게 다른 보고서에 붙여넣을 수 있습니다. **Ctrl+C** 바로 가기 키를 사용하여 보고서 시각적 개체를 복사한 후 다른 Power BI Desktop 보고서에서 **Ctrl+V**를 사용하여 시각적 개체를 다른 보고서에 붙여넣습니다. 시각적 개체를 한 번에 하나 선택하거나 페이지에서 복사할 시각적 개체를 모두 선택한 후 대상 Power BI Desktop 보고서에 붙여넣을 수 있습니다. 
+Power BI Desktop 보고서에서 시각적 개체를 가져와서 손쉽게 다른 보고서에 붙여넣을 수 있습니다. Ctrl+C 바로 가기 키를 사용하여 보고서 시각적 개체를 복사하기만 하면 됩니다. 다른 Power BI Desktop 보고서에서 Ctrl+V를 사용하여 시각적 개체를 다른 보고서에 붙여넣습니다. 시각적 개체를 한 번에 하나씩 선택하거나 페이지에서 복사할 시각적 개체를 모두 선택한 후 대상 Power BI Desktop 보고서에 붙여넣을 수 있습니다.
 
 시각적 개체 복사 및 붙여넣기 기능은 여러 보고서를 자주 빌드하고 업데이트하는 경우에 유용합니다. 파일 간 복사할 때 서식 창에 명시적으로 설정된 설정 및 서식 적용이 수행되며, 테마에 사용되는 시각적 요소 또는 기본 설정이 대상 보고서의 테마와 일치하도록 자동으로 업데이트됩니다. 따라서 시각적 개체를 원하는 대로 서식을 지정하고 표시하려면 해당 시각적 개체를 복사하고 새 보고서에 붙여넣어 모든 서식 작업을 유지할 수 있습니다.
 
-모델의 필드가 다르면 시각적 개체 오류 및 필드 없음에 대한 경고가 표시됩니다. 이 오류는 시각적 개체에서 사용 중인 모델에서 필드를 삭제할 때 표시되는 오류와 비슷합니다. 
+모델의 필드가 다르면 시각적 개체 오류 및 필드 없음에 대한 경고가 표시됩니다. 이 오류는 시각적 개체에서 사용 중인 모델에서 필드를 삭제할 때 표시되는 오류와 비슷합니다.
 
 ![시각적 개체 복사/붙여넣기 오류 - 데이터 필드 없음](media/desktop-report-view/report-view_07.png)
 
 오류를 수정하려면 손상된 필드를 시각적 개체를 붙여넣은 보고서의 모델에서 사용하려는 필드로 바꿉니다. 사용자 지정 시각적 개체를 사용하는 경우 해당 사용자 지정 시각적 개체를 대상 보고서로 가져와야 합니다.
 
-
-
-
 ## <a name="hide-report-pages"></a>보고서 페이지 숨기기
 
-보고서를 만들 때 보고서에서 페이지를 숨길 수도 있습니다. 이 기능은 다른 보고서 페이지에서 사용되는 테이블이나 지원되는 시각적 개체를 만드는 경우처럼, 보고서에 기본 데이터 또는 시각적 개체를 만들어야 하지만 해당 페이지가 다른 사람에게 표시되는 것을 원하지 않을 경우에 유용할 수 있습니다. 보고서 페이지를 만들고 게시하려는 보고서에서 페이지를 숨기려는 다른 독창적인 이유가 많이 있습니다. 
+보고서를 만들 때 보고서에서 페이지를 숨길 수도 있습니다. 이 방법은 다른 보고서 페이지에서 사용되는 테이블이나 지원되는 시각적 개체를 만드는 경우처럼 보고서에 기본 데이터 또는 시각적 개체를 만들어야 하지만 해당 페이지가 다른 사람에게 표시되는 것을 원하지 않을 경우에 유용할 수 있습니다. 보고서 페이지를 만들고 게시하려는 보고서에서 페이지를 숨기려는 다른 독창적인 이유가 많이 있습니다.
 
 간단하게 보고서 페이지를 숨길 수 있습니다. 보고서 페이지 탭을 마우스 오른쪽 단추로 클릭하고 나타나는 메뉴에서 **페이지 숨기기**를 선택하면 됩니다.
 
@@ -79,13 +78,12 @@ Power BI Desktop 보고서에서 시각적 개체를 가져와서 손쉽게 다�
 
 보고서 페이지를 숨길 때 고려해야 할 몇 가지 사항이 있습니다.
 
-* **Power BI Desktop**에서 페이지 제목이 회색으로 표시되는 경우에도 숨겨진 보고서 뷰를 볼 수 있습니다. 다음 이미지에서는 4페이지가 숨겨져 있습니다.
+* Power BI Desktop에서 페이지 제목이 회색으로 표시되는 경우에도 숨겨진 보고서 보기를 볼 수 있습니다. 다음 이미지에서는 4페이지가 숨겨져 있습니다.
 
     ![숨겨진 페이지가 회색으로 표시됨](media/desktop-report-view/report-view_06.png)
 
-* **Power BI 서비스**에서 보고서를 볼 때 숨겨진 보고서 페이지를 볼 수 ‘없습니다’. 
+* Power BI 서비스에서 보고서를 볼 때 숨겨진 보고서 페이지를 볼 수 *없습니다*.
 
 * 보고서 페이지 숨기기는 보안 조치가 ‘아닙니다’.  사용자는 페이지에 계속 액세스할 수 있으며, 드릴스루나 기타 방법으로 해당 콘텐츠에 여전히 액세스할 수 있습니다.
 
 * 보기 모드에서 페이지가 숨겨진 경우, 보기 모드 탐색 화살표가 표시되지 않습니다.
-
