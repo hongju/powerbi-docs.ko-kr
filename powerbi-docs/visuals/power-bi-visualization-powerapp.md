@@ -7,38 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 01/14/2020
+ms.date: 01/16/2020
 ms.author: mblythe
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d9549364f9129ee4ddc6e90fb973cb73c241e4a9
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: bbca812644b82f8a0b848dc16e450f880ccb596c
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76042121"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539903"
 ---
-# <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>자습서: Power BI 보고서에 Power Apps 시각적 개체 포함
+# <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>자습서:  Power BI 보고서에 Power Apps 시각적 개체 포함
 
 이 자습서에서는 Power Apps 시각적 개체를 사용하여 Power BI 보고서에 포함되는 새 앱을 만듭니다. 이 앱은 해당 보고서의 다른 시각적 개체와 상호 작용합니다.
 
-Power Apps 구독이 없는 경우 시작하기 전에 [무료 계정을 만듭니다](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps).
+Power Apps 구독이 없는 경우 시작하기 전에 [무료 계정을 만듭니다](https://web.powerapps.com/signup?redirect=marketing&email=).
 
-이 자습서에서는 다음 작업 방법을 알아봅니다.
+이 자습서에서는 다음 작업을 수행하는 방법을 알아봅니다.
 > [!div class="checklist"]
 > * Power BI 보고서에 Power Apps 시각적 개체 추가
 > * Power Apps에서 작업하여 Power BI 보고서의 데이터를 사용하는 새 앱 만들기
 > * 보고서에서 Power Apps 시각적 개체 보기 및 상호 작용
 
-## <a name="prerequisites"></a>사전 요구 사항
+## <a name="prerequisites"></a>필수 조건
 
 * [Google Chrome](https://www.google.com/chrome/browser/) 또는 [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) 브라우저
 * [기회 분석 샘플](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)이 설치된 [Power BI 구독](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)
-* [Power Apps에서 앱을 만드는 방법](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch.md) 및 [Power BI 보고서를 편집하는 방법](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)에 대한 이해
+* [Power Apps에서 앱을 만드는 방법](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch) 및 [Power BI 보고서를 편집하는 방법](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)에 대한 이해
 
 
 
 ## <a name="create-a-new-app"></a>새 앱 만들기
-보고서에 Power Apps 시각적 개체를 추가하면 Power Apps와 Power BI 간의 라이브 데이터 연결과 함께 PowerApps Studio가 시작됩니다.
+보고서에 Power Apps 시각적 개체를 추가하면 Power Apps와 Power BI 간의 라이브 데이터 연결과 함께 Power Apps Studio가 시작됩니다.
 
 1. 기회 분석 샘플 보고서를 열고 *예정된 기회* 페이지를 선택합니다. 
 
@@ -49,7 +49,7 @@ Power Apps 구독이 없는 경우 시작하기 전에 [무료 계정을 만듭�
 
 2. 시각화 창에서 Power Apps 아이콘을 선택한 다음 확보한 공간에 맞게 시각적 개체의 크기를 조정합니다.
 
-    ![PowerApps 아이콘이 선택된 시각화 창](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
+    ![Power Apps 아이콘이 선택된 시각화 창](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
 3. **필드** 창에서 **이름**, **제품 코드** 및 **영업 스테이지**를 선택합니다. 
 

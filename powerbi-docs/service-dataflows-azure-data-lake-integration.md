@@ -61,7 +61,7 @@ Power BI 파일 시스템 내에서 CDM 폴더를 만들고 관리하려면 파�
 
 Active Directory OAuth Bearer 토큰 및 POSIX ACL을 사용하면 데이터를 읽어야 하는 사용자 또는 서비스와 같은 데이터 소비자와 CDM 폴더를 쉽게 공유할 수 있습니다. 이렇게 하면 관리자에게 CDM 폴더에 액세스한 사용자를 모니터링하는 기능이 제공됩니다. 필요한 유일한 작업은 선택한 Active Directory 개체(예: 사용자 그룹 또는 서비스)의 액세스 권한을 CDM 폴더에 부여하는 것입니다. 데이터 생산자가 아닌 ID의 경우에는 CDM 폴더의 모든 액세스 권한을 읽기 전용으로 부여하는 것이 좋습니다. 이렇게 하면 생산자가 생성하는 데이터의 무결성이 보호됩니다.
 
-CDM 폴더를 Power BI에 추가하기 위해 CDM 폴더를 추가하는 사용자에게는 CDM 폴더 자체 및 그 안에 있는 모든 파일이나 폴더에 대한 ‘읽기’ 액세스 ACL이 있어야 합니다. 또한 CDM 폴더 자체 및 그 안에 있는 모든 폴더에 대한 ‘실행’ 액세스 ACL이 있어야 합니다. 자세한 내용을 보려면 [파일 및 디렉터리의 액세스 제어 목록](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) 및 [Azure Data Lake Storage Gen2 사용 모범 사례](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices)를 검토하는 것이 좋습니다.
+CDM 폴더를 Power BI에 추가하기 위해 CDM 폴더를 추가하는 사용자에게는 CDM 폴더 자체 및 그 안에 있는 모든 파일이나 폴더에 대한 ‘읽기’ 액세스 ACL이 있어야 합니다.  또한 CDM 폴더 자체 및 그 안에 있는 모든 폴더에 대한 ‘실행’ 액세스 ACL이 있어야 합니다.  자세한 내용을 보려면 [파일 및 디렉터리의 액세스 제어 목록](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) 및 [Azure Data Lake Storage Gen2 사용 모범 사례](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices)를 검토하는 것이 좋습니다.
 
 
 ### <a name="alternative-forms-of-authorization"></a>대체 권한 부여 방식
