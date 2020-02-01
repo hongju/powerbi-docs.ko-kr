@@ -39,11 +39,11 @@ Office 365에서 대체 주소를 지정하려면 다음 단계를 수행합니�
 
     ![연락처 세부 정보](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
-1. **대체 메일** 필드에 Office 365에서 Power BI 업데이트에 사용할 이메일 주소를 입력합니다.
+1. **대체 전자 메일** 필드에 Office 365에서 Power BI 업데이트에 사용할 이메일 주소를 입력합니다.
 
 ## <a name="use-powershell"></a>PowerShell 사용
 
-PowerShell에서 대체 주소를 지정하려면 [Set-AzureADUser](/powershell/module/azuread/set-azureaduser/) 명령을 사용합니다.
+PowerShell에서 대체 전자 메일를 지정하려면 [Set-AzureADUser](/powershell/module/azuread/set-azureaduser/) 명령을 사용합니다.
 
 ```powershell
 Set-AzureADUser -ObjectId john@contoso.com -OtherMails "otheremail@somedomain.com"
