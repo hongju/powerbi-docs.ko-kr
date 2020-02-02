@@ -43,9 +43,9 @@ ms.locfileid: "75762281"
    
 2. **영업 및 마케팅 샘플 PBIX 파일**의 복사본을 찾습니다.
 
-1. 보고서 뷰에서 파일을 엽니다. ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)을 탭합니다.
+1. 보고서 보기 아이콘 ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)을 탭하여 파일을 엽니다.
 
-1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
 질문 및 답변 시각적 개체를 만들 때 오류가 표시되는 경우 [제한 사항](../natural-language/q-and-a-limitations.md) 섹션을 검사하여 데이터 원본 구성이 지원되는지 확인합니다.
@@ -61,7 +61,7 @@ ms.locfileid: "75762281"
 
     ![보고서 캔버스의 질문 및 답변 시각적 개체](media/power-bi-visualization-q-and-a/power-bi-qna.png)
 
-3. 시각적 개체를 만들려면 제안된 질문 중 하나를 선택하거나 질문 상자에 입력을 시작합니다. 이 예제에서는 **매출 합계별 상위 지역 주**를 선택했습니다. Power BI는 최선을 다해 사용할 시각적 개체 유형을 선택합니다. 이 예제에서는 지도입니다.
+3. 시각적 개체를 만들려면 제안된 질문 중 하나를 선택하거나 질문 상자에 입력을 시작합니다. 이 예제에서는 **top geo states by sum of revenue**를 선택했습니다. Power BI는 최선을 다해 사용할 시각적 개체 유형을 선택합니다. 이 예제에서는 지도입니다.
 
     ![질문 및 답변 시각적 개체 지도](media/power-bi-visualization-q-and-a/power-bi-map.png)
 
