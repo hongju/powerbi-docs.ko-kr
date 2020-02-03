@@ -71,5 +71,4 @@ Power BI 앱에 제안하려는 서비스를 사용하나요? [Power BI 지원](
 * [동료에게 앱 배포](service-create-distribute-apps.md)
 * [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 
