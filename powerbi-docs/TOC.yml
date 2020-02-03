@@ -489,8 +489,10 @@
               href: service-new-workspaces.md
             - name: 작업 공유
               href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Power BI 사용 현황 모니터링
+            - name: 클래식 작업 영역에서 사용량 모니터링
               href: service-usage-metrics.md
+            - name: 새 작업 영역에서 사용량 모니터링
+              href: service-modern-usage-metrics.md
         - name: 라이선싱
           items:
             - name: Power BI에 등록
@@ -645,8 +647,6 @@
               href: service-create-qr-code-for-report.md
             - name: Power BI Desktop으로 보고서 내보내기(미리 보기)
               href: service-export-to-pbix.md
-            - name: URL의 매개 변수를 사용하여 보고서 필터링
-              href: service-url-filters.md
             - name: SAP 변수 편집
               href: service-edit-sap-variables.md
             - name: 빠르고 신뢰할 수 있는 보고서 빌드 모범 사례
@@ -691,8 +691,10 @@
           items:
             - name: 대시보드 및 보고서 공유
               href: service-share-dashboards.md
-            - name: 필터링된 보고서 공유
+            - name: 보고서 필터링 및 공유
               href: service-share-reports.md
+            - name: URL의 매개 변수를 사용하여 보고서 필터링
+              href: service-url-filters.md
             - name: 직접 및 다른 사용자 구독
               href: service-report-subscribe.md
             - name: SharePoint Online에 보고서 포함
