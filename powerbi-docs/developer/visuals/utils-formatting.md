@@ -1,20 +1,20 @@
 ---
 title: Power BI 시각적 개체에서 서식 유틸리티 사용 소개
 description: 이 문서에서는 서식 유틸리티를 사용하여 값의 형식을 지정하고 Power BI 시각적 개체의 값에 지역화를 적용하는 방법을 설명합니다.
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 manager: rkarlin
-ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 425a872c395df1b69297ae799e7059de687f8fb0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 9ae7e4b976cef2217c3742ef808a9a7063695cbc
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700343"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819471"
 ---
 # <a name="formatting-utils"></a>유틸리티 서식 지정
 
