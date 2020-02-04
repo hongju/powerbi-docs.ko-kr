@@ -68,7 +68,7 @@ ms.locfileid: "73871709"
    ![작업 영역 편집 창](media/service-rename/power-bi-workspace-rename.png)
 
 ## <a name="rename-a-page-in-a-report"></a>보고서의 페이지 이름 바꾸기
-Power BI 보고서에 페이지의 이름이 마음에 들지 않나요?  한 번의 클릭으로 새 이름을 지정할 수 있습니다. 페이지의 이름은 [보고서 편집용 보기 ](service-interact-with-a-report-in-editing-view.md)에서 변경할 수 있습니다.
+Power BI 보고서에 페이지의 이름이 마음에 들지 않나요?  한 번의 클릭으로 새 이름을 지정할 수 있습니다. 페이지의 이름은 [보고서 편집용 보기](service-interact-with-a-report-in-editing-view.md)에서 변경할 수 있습니다.
 
 1. [편집용 보기](consumer/end-user-reading-view.md)에서 보고서를 엽니다.
 2. Power BI 창의 아래쪽에 있는 보고서 페이지 탭을 찾습니다.

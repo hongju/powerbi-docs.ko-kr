@@ -1,20 +1,20 @@
 ---
 title: Power BI 시각적 개체의 데이터 뷰 매핑 이해
 description: 이 문서에서는 시각적 개체에 전달하기 전에 Power BI에서 데이터를 변환하는 방법을 설명합니다.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 85cfa292055f7db96dcb714ec8c4dd78fe75ee67
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700297"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819126"
 ---
 # <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>사용자 지정 시각적 개체에 대한 Power BI에 로캘 추가
 
