@@ -457,6 +457,8 @@
           href: service-get-started.md
         - name: GitHub 샘플에 연결
           href: service-tutorial-connect-to-github.md
+        - name: Excel에서 분석 사용
+          href: service-tutorial-analyze-in-excel.md
         - name: Cognitive Services 사용
           href: service-tutorial-use-cognitive-services.md
         - name: Machine Learning 통합
