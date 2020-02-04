@@ -32,9 +32,9 @@ ms.locfileid: "73871152"
    
 2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
-1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 ## <a name="create-a-ribbon-chart"></a>리본 차트 만들기
 
@@ -44,7 +44,7 @@ ms.locfileid: "73871152"
 
     리본 차트는 리본을 사용하여 시각화된 시간 연속체에 데이터의 범주를 연결하므로 차트의 x-축(일반적으로 타임라인)의 범위에서 지정된 범주 순위가 지정되는 방법을 표시할 수 있습니다.
 
-2. **축**, **범례** 및 **값**에 대한 필드를 선택합니다.  이 예에서는 다음을 선택했습니다. **매장** > **OpenDate**, **항목** > **범주** 및 **판매액** > **올해 판매액** > **값**.  
+2. **축**, **범례** 및 **값**에 대한 필드를 선택합니다.  이 예에서는 다음을 선택했습니다. **Store** > **OpenDate**, **Item** > **Category** 및 **Sales** > **This year sales** > **값**.  
 
     ![선택한 필드](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 
@@ -70,7 +70,7 @@ ms.locfileid: "73871152"
 
 ![데이터 레이블의 서식 지정 옵션](media/desktop-ribbon-charts/power-bi-labels.png)
 
-데이터 레이블의 서식 지정 옵션을 설정합니다. 이 예제에서는 텍스트 색을 흰색으로, 표시 단위를 수천으로 설정했습니다.
+데이터 레이블의 서식 지정 옵션을 설정합니다. 이 예제에서는 텍스트 색을 흰색으로, 표시 단위를 천으로 설정했습니다.
 
 ![시각화 창의 리본 템플릿](media/desktop-ribbon-charts/power-bi-data-labels.png)
 
