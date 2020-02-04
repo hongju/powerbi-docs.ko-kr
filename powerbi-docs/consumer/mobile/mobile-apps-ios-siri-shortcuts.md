@@ -1,22 +1,22 @@
 ---
 title: Siri 바로 가기 키를 사용하여 Power BI 모바일 앱 통합
 description: Siri 바로 가기를 사용하여 필요한 Power BI 콘텐츠에 직접 액세스하는 방법.
-author: KesemSharabi
-manager: mshenhav
+author: paulinbar
+manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/03/2019
-ms.author: michalfo
-ms.openlocfilehash: befe57bd0c3441a44f4db745e3af73bd9afed933
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.date: 01/15/2020
+ms.author: painbar
+ms.openlocfilehash: e5df11f6321481e95718ddda39dca300079277a1
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73783556"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537994"
 ---
-# <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Power BI Mobile iOS앱에서 Siri 바로 가기 사용(미리 보기)
+# <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app"></a>Power BI Mobile iOS 앱에서 Siri 바로 가기 사용
 
 Siri 바로 가기를 사용하여 필요한 Power BI 콘텐츠에 직접 액세스합니다.
 

@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 1/16/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9e00e68e0a5f6df62072a1d9744276bffbd3beb4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4570fea58a19acb4f35a5c24d0a5bfa93beba215
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791647"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537557"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>보고서를 Power BI에서 PDF로 내보내기
 
@@ -63,6 +63,7 @@ Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다.
 * 현재는 내보내기에서 **현재 값**을 선택할 경우 URL 필터가 적용되지 않습니다.
 * 사용자 지정 페이지 크기가 비정상적인 보고서는 내보내기 시나리오에서 문제가 발생할 수 있습니다. 최상의 결과를 위해서는 보고서의 표준 페이지 크기로 전환하는 것이 좋습니다.
 * PDF로 내보내는 경우, 사용자 지정 글꼴이 있는 테마를 사용하는 보고서에서 사용자 지정 글꼴이 기본 글꼴로 대체됩니다.
+* 일관된 환경을 제공하고자 하지만 Power BI 서비스에서 내보낸 PDF가 로컬 Power BI Desktop 파일에서 내보낸 PDF와 항상 일치한다고 보장할 수는 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [보고서 인쇄](end-user-print.md)

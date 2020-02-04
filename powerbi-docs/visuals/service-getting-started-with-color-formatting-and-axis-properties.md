@@ -1,27 +1,27 @@
 ---
-title: 색 서식 지정 및 축 속성 시작
-description: 색 서식 지정 및 축 속성 시작
+title: 보고서 시각화 서식 지정 시작
+description: 보고서 시각화를 사용하여 서식 지정 옵션 시작
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762258"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540630"
 ---
-# <a name="get-started-with-color-formatting-and-axis-properties"></a>색 서식 지정 및 축 속성 시작
-**Power BI**에서는 데이터 계열, 데이터 요소 및 시각화의 배경 색까지도 변경할 수 있습니다. x축과 y축의 표시 방법을 변경할 수도 있으며 대시보드 및 보고서가 나타나는 방식을 완전히 제어할 수 있습니다.
+# <a name="getting-started-with-the-formatting-pane"></a>서식 창을 사용하여 시작
+보고서에 대한 편집 권한이 있는 경우 다양한 서식 옵션을 사용할 수 있습니다. **Power BI** 보고서에서 데이터 계열, 데이터 요소 및 시각화의 배경 색까지도 변경할 수 있습니다. X축과 Y축이 표시되는 방식을 변경할 수 있습니다. 시각화, 도형 및 제목의 글꼴 속성의 형식을 지정하여 보고서가 표시되는 방식을 완전히 제어할 수도 있습니다.
 
-시작하려면 **내 작업 영역** 창에서 **보고서**를 선택합니다. 그런 다음 상단 메뉴 영역에서 **보고서 편집**을 선택합니다.  
+시작하려면 Power BI Desktop 또는 Power BI 서비스에서 보고서를 엽니다. 둘 다 거의 동일한 서식 옵션을 제공합니다. Power BI 서비스에서 보고서를 여는 경우 메뉴 모음에서 **보고서 편집**을 선택하세요.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
+![편집 옵션이 표시되는 메뉴 모음](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
 보고서를 편집하고 시각화를 선택한 경우 시각화를 추가 또는 변경할 수 있는 **시각화** 창이 나타납니다. 바로 아래에서 사용할 수 있는 시각화는 **필드** 아이콘(막대 모음), **서식** 아이콘(페인트 브러시), **분석** 아이콘(돋보기) 등 세 가지 아이콘입니다. 아래 이미지에서는 **필드** 아이콘을 선택했으며 아이콘 아래 노란색 막대로 표시됩니다.
 
