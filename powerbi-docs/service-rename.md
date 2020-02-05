@@ -33,7 +33,7 @@ ms.locfileid: "73871709"
 | **공유한 항목**의 콘텐츠 |아니요 |아니요 |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>대시보드, 보고서 또는 통합 문서 이름 바꾸기
-1. 작업 영역에서 시작하고 **대시보드**, **보고서** 또는 **통합 문서** 탭을 선택합니다. 이름을 변경할 항목 위에 마우스를 가져가고 기어 아이콘 ![기어 아이콘](media/service-rename/powerbi-cog-icon.png)을 선택합니다. 기어 아이콘이 없을 경우 이름을 변경할 권한이 없는 것입니다.
+1. 작업 영역에서 시작하고 **대시보드**, **보고서** 또는 **통합 문서** 탭을 선택합니다. 이름을 변경할 항목 위에 마우스를 가져가고 톱니바퀴 모양의 아이콘 ![기어 아이콘](media/service-rename/powerbi-cog-icon.png)을 선택합니다. 톱니바퀴 모양의 아이콘이 없을 경우 이름을 변경할 권한이 없는 것입니다.
    
    ![Power BI 서비스 작업 영역](media/service-rename/power-bi-workspace-dashboards.png)
 2. 설정 페이지에서 새 이름을 입력하고 **저장**을 선택합니다.
@@ -83,7 +83,7 @@ Power BI 보고서에 페이지의 이름이 마음에 들지 않나요?  한 �
     ![새 페이지 이름 입력](media/service-rename/new-name.png)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-* 이름을 변경할 항목이 나와 공유되었거나 콘텐츠 팩의 일부인 경우 기어 아이콘이 표시되지 않으며 설정에 액세스할 수 없습니다.
+* 이름을 변경할 항목이 나와 공유되었거나 콘텐츠 팩의 일부인 경우 톱니바퀴 모양의 아이콘이 표시되지 않으며 설정에 액세스할 수 없습니다.
 * **데이터 세트** 탭에 **추가 옵션**(...)이 표시되지 않는 경우 브라우저 창을 펼칩니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
