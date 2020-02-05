@@ -11,10 +11,10 @@ ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Reports
 ms.openlocfilehash: f72d29e7f5bc7f93abd43f4c14cf0e53ef18f8d3
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75223745"
 ---
 # <a name="analyze-in-excel"></a>Excel에서 분석

@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76538746"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Power BI Desktop에서 집계 사용
@@ -150,7 +150,7 @@ RLS(행 수준 보안) 식이 집계에 대해 올바르게 작동하려면 집�
 
 강력한 관계에는 두 테이블이 모두 단일 원본에 있는 다음과 같은 스토리지 모드 조합이 포함됩니다.
 
-| *다* 쪽의 테이블 | ‘일’ 쪽의 테이블 |
+| *다* 쪽의 테이블 | ‘일’ 쪽의 테이블  |
 | ------------- |----------------------| 
 | 이중          | 이중                 | 
 | 가져오기        | 가져오기 또는 이중       | 
