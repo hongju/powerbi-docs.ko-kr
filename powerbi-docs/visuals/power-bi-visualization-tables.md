@@ -45,9 +45,9 @@ ms.locfileid: "74830873"
    
 2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
-1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
 ## <a name="create-a-table"></a>테이블 만들기
@@ -98,7 +98,7 @@ ms.locfileid: "74830873"
 
 ### <a name="conditional-formatting"></a>조건부 서식 지정
 
-‘조건부 서식’은 형식의 한 가지 유형입니다.  Power BI는 **시각화** 창의 **값** 영역에 있는 필드에 조건부 서식을 적용합니다.
+‘조건부 서식’은 서식의 한 가지 유형입니다.  Power BI는 **시각화** 창의 **값** 영역에 있는 필드에 조건부 서식을 적용합니다.
 
 테이블에 대한 조건부 서식 지정을 사용하여 그라데이션 색 사용을 포함하는 셀 값을 기반으로 하는 사용자 지정된 셀 배경색 및 글꼴 색을 지정할 수 있습니다.
 
