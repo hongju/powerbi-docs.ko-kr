@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76753194"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro 사용자 라이선스 구매 및 할당

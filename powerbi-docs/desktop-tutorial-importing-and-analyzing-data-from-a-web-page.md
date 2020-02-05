@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ef1d72754d7f77d7cb3c835c1a2b94e0f7e324f4
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 5497c56f358470d0d24f69f0d67865dbbd7839a3
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039375"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026741"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>자습서:  Power BI Desktop을 사용하여 웹 페이지 데이터 분석
 
@@ -201,7 +201,7 @@ Power BI Desktop은 다양한 데이터 원본에서 데이터를 가져오고 �
 
 ## <a name="see-also"></a>참고 항목
 
-* [다른 Power BI Desktop 자습서 참고](/guided-learning/)
+* [다른 Power BI Desktop 자습서 참고](/power-bi/guided-learning/)
 * [Power BI Desktop 동영상 시청](desktop-videos.md)
 * [Power BI 포럼 방문](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI 블로그 참고](https://go.microsoft.com/fwlink/?LinkID=519327)
