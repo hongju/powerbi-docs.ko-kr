@@ -54,9 +54,9 @@ ms.locfileid: "74907667"
    
 2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
-1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
 ## <a name="create-a-waterfall-chart"></a>폭포 차트 만들기
@@ -69,7 +69,7 @@ ms.locfileid: "74907667"
 
    ![선택된 판매량 > 총판매액 차이에 해당하는 시각적 개체의 스크린샷](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
-1. 폭포 아이콘 ![폭포 아이콘의 스크린샷](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)
+1. 폭포 아이콘 ![폭포 아이콘의 스크린샷](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)을 선택합니다.
 
     ![시각화 템플릿](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
@@ -81,7 +81,7 @@ ms.locfileid: "74907667"
 
 1. Power BI에서 폭포 차트가 시간(월)순으로 정렬되도록 합니다. 차트의 오른쪽 위에서 **추가 옵션**(...)을 선택합니다.
 
-    이 예에서는**정렬 기준**을 선택하고 **FiscalMonth**를 선택합니다. 선택 항목 옆에 있는 노란색 표시기는 선택 옵션이 적용 중인 경우에 나타냅니다.
+    이 예에서는**정렬 기준**을 선택하고 **FiscalMonth**를 선택합니다. 선택 항목 옆에 있는 노란색 표시기는 선택 옵션이 적용 중인 경우에 나타납니다.
 
     ![정렬 기준 > FiscalMonth 선택](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscalmonth.png)
     
