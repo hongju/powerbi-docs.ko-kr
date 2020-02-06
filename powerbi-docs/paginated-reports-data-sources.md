@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: f7662cbd2fb0085ad2e6fda6a33577d1cc29ddfb
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: bd58f5f5f6ceaad07cbba5d25508a160b3447f88
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831264"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304329"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본
 
@@ -28,7 +28,7 @@ ms.locfileid: "74831264"
 | Azure SQL Database <br>Azure SQL Data Warehouse | 기본, SSO(Single Sign-On), OAuth2 |   |
 | Azure SQL Managed Instance | 기본 | Azure SQL Database 확장을 사용하여 공용 엔드포인트를 통해  |
 | Azure Analysis Services | SSO, OAuth2 |   |
-| Power BI 데이터 세트 | SSO | Premium 및 Premium이 아닌 Power BI 데이터 세트 |
+| Power BI 데이터 세트 | SSO | 프리미엄 및 비프리미엄 Power BI 데이터 세트 읽기 권한 필요 |
 | Premium Power BI 데이터 세트(XMLA) | SSO |   |
 | 데이터 입력 | 해당 없음 | 데이터가 보고서에 포함됩니다. |
 

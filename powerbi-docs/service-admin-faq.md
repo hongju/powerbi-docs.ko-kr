@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 0c9d346017dc3b18abd6a56d0d3a62e1305e6575
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74698742"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
@@ -153,7 +153,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ## <a name="administration-of-power-bi"></a>Power BI 관리
 
-### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>현재 조직의 사용자에 대한 ID를 관리하는 방법이 어떻게 달라집니까?
+### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>현재 조직에서 사용자의 ID를 관리하는 방법을 어떻게 변경할 수 있나요?
 
 조직의 사용자에게 적용될 수 있는 세 가지 시나리오가 있습니다.
 

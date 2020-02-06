@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: bbb0584843f79445c4e5cca073f9c4b953d346aa
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699363"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO에 SAML(Security Assertion Markup Language)을 사용합니다.
@@ -68,7 +68,7 @@ SAML을 사용하려면 SSO와 게이트웨이를 사용하도록 설정할 HANA
 
 HANA Studio에서 IdP 인증서를 가져와 새 SAML ID 공급자를 만듭니다.
 
-1. SAP HANA Studio에서 SAP HANA 서버 이름을 마우스 오른쪽 단추로 클릭한 다음, **보안** &gt; **보안 콘솔 열기** &gt; **SAML ID 공급자** &gt; **OpenSSL 암호화 라이브러리**로 이동합니다.
+1. SAP HANA Studio에서 SAP HANA 서버 이름을 마우스 오른쪽 단추로 클릭한 다음, **보안** &gt; **보안 콘솔 열기** &gt; **SAML ID 공급 기업** &gt; **OpenSSL 암호화 라이브러리**로 이동합니다.
 
     ![ID 공급자](media/service-gateway-sso-saml/identity-providers.png)
 
@@ -100,7 +100,7 @@ HANA Studio에서 IdP 인증서를 가져와 새 SAML ID 공급자를 만듭니�
 
 1. 게이트웨이 머신에 pfx 파일을 복사합니다.
 
-    1. samltest.pfx를 두 번 클릭한 다음, **로컬 컴퓨터** &gt; **다음**을 선택합니다.
+    1. samltest.pfx를 두 번 클릭하고 **로컬 머신** &gt; **다음**을 선택합니다.
 
     1. 암호를 입력한 후 **다음**을 선택합니다.
 

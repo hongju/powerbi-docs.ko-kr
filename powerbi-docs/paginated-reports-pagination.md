@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: fced83abab1898724e165154fbc177ccf50ca061
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 5c2dc39f05609da8a460ac7575498c0df6a96c55
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831254"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76160883"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 페이지 매김
 
@@ -87,6 +87,6 @@ ms.locfileid: "74831254"
   
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI 서비스에서 페이지를 매긴 보고서 보기](consumer/paginated-reports-view-power-bi-service.md)
-
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+- [Power BI 서비스에서 페이지를 매긴 보고서 보기](consumer/paginated-reports-view-power-bi-service.md)
+- [페이지를 매긴 보고서를 인쇄할 때 빈 페이지 방지](guidance/report-paginated-blank-page.md)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

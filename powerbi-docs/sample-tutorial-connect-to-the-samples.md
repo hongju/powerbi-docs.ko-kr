@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873841"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762166"
 ---
-#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI 서비스의 샘플에 연결
+#  <a name="import-and-open-sample-packs-for-power-bi"></a>Power BI 샘플 팩 가져오기 및 열기
 
 이 자습서에서는 다음을 수행하는 방법을 보여 줍니다. 
 - 샘플 콘텐츠 팩을 가져와서 Power BI 서비스에 추가하고 콘텐츠를 엽니다. *콘텐츠 팩*은 데이터 세트가 대시보드 및 보고서와 함께 제공되는 일종의 샘플입니다. 
@@ -105,7 +105,7 @@ Power BI 서비스에서 보고서를 편집하는 것과 달리, Power BI Deskt
 
 1. 보고서 뷰에서 파일이 열립니다. 보고서 편집기의 맨 아래에 있는 4개의 탭을 확인합니다. 이 탭은 이 보고서의 네 페이지를 나타냅니다. 이 예제에서는 **신규 매장** 페이지가 현재 선택되어 있습니다. 
 
-    ![신규 매장 탭이 강조 표시됨](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
+    ![신규 매장 탭이 강조 표시됨](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png)을 탭합니다.
 
 1. 보고서 편집기에 대한 자세한 내용은 [보고서 편집기 둘러보기](service-the-report-editor-take-a-tour.md)를 참조하세요.
 

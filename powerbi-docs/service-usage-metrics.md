@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871220"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서의 사용 메트릭 모니터링
@@ -43,7 +43,7 @@ Power BI 서비스에서는 사용 메트릭 보고서를 실행할 수만 있�
 ## <a name="view-a-usage-metrics-report"></a>사용 메트릭 보고서 보기
 
 1. 대시보드 또는 보고서를 포함하는 작업 영역에서 시작합니다.
-2. 작업 영역 콘텐츠 목록 또는 대시보드나 보고서 자체에서 **사용 메트릭** ![사용 메트릭 아이콘](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)에 대한 아이콘을 선택합니다.
+2. 작업 영역 콘텐츠 목록이나 대시보드 또는 보고서 자체에서 **사용 메트릭** 아이콘 ![사용 메트릭 아이콘](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)을 선택합니다.
 
     ![대시보드 탭](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
 
@@ -141,13 +141,13 @@ Power BI 서비스에서는 사용 메트릭 보고서를 실행할 수만 있�
 
 기본적으로 사용자별 데이터는 사용 메트릭에서 활성화되어 있고 메트릭 보고서에는 콘텐츠 소비자 계정 정보가 포함됩니다. 일부 또는 모든 사용자에게 이 정보를 노출하지 않으려는 경우, 지정된 보안 그룹에서 또는 전체 조직에서 이 기능을 사용 안 할 수 있습니다. 그러면 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
 
-전체 조직에 대한 사용 메트릭을 사용 안 하면 관리자는 **기존 사용 메트릭 콘텐츠 모두 삭제** 옵션을 사용하여 사용 메트릭 보고서를 사용하여 빌드한 기존 보고서 및 대시보드 타일을 모두 삭제할 수 있습니다. 이 옵션은 이미 사용 메트릭을 사용 중일 수도 있는 조직의 모든 사용자에게서 사용 메트릭 데이터에 대한 모든 액세스를 제거합니다. 기존 사용 메트릭 콘텐츠 삭제는 되돌릴 수 없습니다.
+전체 조직에 대한 사용 메트릭을 사용 안 하면 관리자는 **기존 사용 메트릭 콘텐츠 모두 삭제** 옵션을 사용하여 사용 메트릭 보고서를 사용하여 빌드한 기존 보고서 및 대시보드 타일을 모두 삭제할 수 있습니다. 이 옵션은 이미 사용량 메트릭을 사용 중일 수도 있는 조직의 모든 사용자에게서 사용량 메트릭 데이터에 대한 모든 액세스를 제거합니다. 기존 사용 메트릭 콘텐츠 삭제는 되돌릴 수 없습니다.
 
 설정에 대한 자세한 내용은 관리 포털 문서에서 [사용 메트릭 제어](service-admin-portal.md#control-usage-metrics)를 참조하세요. 
 
 ## <a name="usage-metrics-in-national-clouds"></a>국가별 클라우드의 사용 메트릭
 
-Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. 이러한 클라우드는 서비스 전달, 데이터 주거성, 액세스 및 통제와 관련하여 로컬 규정에 부합하는 고유 모델과 결합된 Power BI 글로벌 버전으로서 동일한 수준의 보안, 개인 정보 보호, 규정 준수 및 투명성을 제공합니다. 지역 규정에 대한 이 고유한 모델로 인해 사용 메트릭을 국가별 클라우드에서 사용할 수 없습니다. 자세한 내용은 [국가별 클라우드](https://powerbi.microsoft.com/clouds/)를 참조하세요.
+Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. 이 클라우드는 서비스 제공, 데이터 보존, 액세스, 제어의 현지 규정을 위한 고유한 모델과 더불어 글로벌 버전의 Power BI와 동일한 수준의 보안, 개인 정보, 규정 준수, 투명성을 제공합니다. 지역 규정에 대한 이 고유한 모델로 인해 사용 메트릭을 국가별 클라우드에서 사용할 수 없습니다. 자세한 내용은 [국가별 클라우드](https://powerbi.microsoft.com/clouds/)를 참조하세요.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 

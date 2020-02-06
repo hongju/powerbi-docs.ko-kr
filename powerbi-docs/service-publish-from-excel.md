@@ -46,7 +46,7 @@ Excel에서 **파일** > **게시**를 선택합니다.
 
 ![](media/service-publish-from-excel/pbi_uploadexport3.png)
 
-일단 게시되면 Power BI에서는 로컬 파일과 별도의 복사본으로 유지됩니다. Power BI에서 파일을 업데이트하려는 경우 업데이트된 버전을 다시 게시해야 합니다. 데이터를 새로 고치고 Power BI의 통합 문서 또는 데이터 세트에 예정된 새로 고침을 설정할 수 있습니다.
+일단 게시되면 Power BI에서는 로컬 파일과 별도의 복사본으로 유지됩니다. Power BI에서 파일을 업데이트하려는 경우 업데이트된 버전을 다시 게시해야 합니다. 데이터를 새로 고치고 Power BI의 통합 문서 또는 데이터 세트에 예약된 새로 고침을 설정할 수 있습니다.
 
 ### <a name="publishing-from-excel-standalone"></a>Excel 독립 실행형에서 게시
 통합 문서가 이미 OneDrive에 저장되어 있지 않은 경우 먼저 저장해야 합니다. 클라우드로 저장을 선택하고 비즈니스용 OneDrive에서 위치를 선택합니다.

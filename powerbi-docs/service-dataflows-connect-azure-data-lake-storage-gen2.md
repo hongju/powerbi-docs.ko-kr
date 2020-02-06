@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872729"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710174"
 ---
-# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결(미리 보기)
+# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결
 
 조직의 Azure Data Lake Storage Gen2 계정에 데이터 흐름을 저장하도록 Power BI 작업 영역을 구성할 수 있습니다. 이 문서에서는 이를 수행하는 데 필요한 일반적인 단계를 설명하고 그 과정에서 지침 및 모범 사례를 제공합니다. 다음을 포함하여 Data Lake에 데이터 흐름 정의 및 데이터 파일을 저장하도록 작업 영역을 구성하는 몇 가지 장점이 있습니다.
 
@@ -44,8 +44,8 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 
 1. 스토리지 계정은 Power BI 테넌트와 동일한 AAD 테넌트에서 만들어야 합니다.
 2. 스토리지 계정은 Power BI 테넌트와 동일한 지역에 만들어야 합니다. Power BI 테넌트의 위치를 확인하려면 [내 Power BI 테넌트는 어디에 있나요?](service-admin-where-is-my-tenant-located.md) 문서를 참조하세요.
-3. 스토리지 계정에서 ‘계층 구조 네임스페이스’ 기능이 사용 가능해야 합니다. 
-4. Power BI 서비스에는 스토리지 계정에 대한 ‘독자’ 역할이 부여되어야 합니다. 
+3. 스토리지 계정에서 ‘계층 구조 네임스페이스’ 기능이 사용 가능해야 합니다.
+4. Power BI 서비스에는 스토리지 계정에서 *판독기* 및 *데이터 액세스* 역할이 부여되어야 합니다.
 5. **powerbi**라는 파일 시스템을 만들어야 합니다.
 6. Power BI 서비스에는 사용자가 만든 **powerbi** 파일 시스템의 권한이 부여되어야 합니다.
 
@@ -59,16 +59,13 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 2. 계층 구조 네임스페이스 기능을 사용하도록 설정해야 합니다.
 3. 복제 설정을 **RA-GRS(읽기 액세스 지역 중복 스토리지)** 로 설정하는 것이 좋습니다.
 
-### <a name="grant-the-power-bi-service-a-reader-role"></a>Power BI 서비스에 독자 역할을 부여합니다.
+### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>Power BI 서비스 판독기 및 데이터 액세스 역할을 부여합니다.
 
-그런 다음, 만들어진 스토리지 계정에서 Power BI 서비스에 독자 역할을 부여해야 합니다. 기본 제공 역할이므로 단계는 간단합니다. 
+그런 다음 생성된 스토리지 계정에서 Power BI 서비스에 판독기 및 데이터 액세스 역할을 부여해야 합니다. 모두 기본 제공 역할이므로 단계는 간단합니다. 
 
 [기본 제공 RBAC 역할 할당](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)의 단계를 따르세요.
 
-**역할 할당 추가** 창에서 Power BI 서비스에 할당할 **독자** 역할을 선택합니다. 그런 다음, 검색을 사용하여 **Power BI 서비스**를 찾습니다. 다음 이미지는 Power BI 서비스에 할당된 **독자** 역할을 보여 줍니다.
-
-![독자 역할에 할당된 Power BI 서비스](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
-
+**역할 할당 추가** 창에서 Power BI 서비스에 할당할 **판독기** 및 **데이터 액세스** 역할을 선택합니다. 그런 다음, 검색을 사용하여 **Power BI 서비스**를 찾습니다. 
 
 > [!NOTE]
 > 사용 권한이 포털에서 Power BI로 전파되도록 30분 이상 허용합니다. 포털에서 사용 권한을 변경할 때마다 이러한 사용 권한이 Power BI에 반영되는 데 30분이 걸릴 수 있습니다. 
@@ -106,7 +103,7 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 
 1. [Azure Portal](https://portal.azure.com/)의 탐색 패널에서 **Azure Active Directory**를 선택합니다.
 2. Azure **Active Directory** 블레이드에서 **엔터프라이즈 애플리케이션**을 선택합니다.
-3. **애플리케이션 유형** 드롭다운 메뉴에서 **모든 애플리케이션**을 선택한 후 **적용을** 선택합니다. 테넌트 애플리케이션의 샘플이 다음 이미지와 비슷하게 표시됩니다.
+3. **애플리케이션 유형** 드롭다운 메뉴에서 **모든 애플리케이션**을 선택한 후 **적용을 **선택합니다. 테넌트 애플리케이션의 샘플이 다음 이미지와 비슷하게 표시됩니다.
 
     ![AAD 엔터프라이즈 애플리케이션](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
@@ -118,15 +115,15 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 
 6. 그런 다음, **Azure Storage Explorer**를 사용하여 이전 섹션에서 만든 *powerbi* 파일 시스템으로 이동합니다. [Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)(Azure Storage 탐색기를 사용하여 파일 및 디렉터리 수준 권한 설정)의 [Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)(액세스 관리) 섹션에 있는 지침을 따릅니다.
 
-7. 5단계에서 수집한 두 개의 Power BI Premium 개체 ID 각각에 대해 **읽기**, **쓰기**, **실행** 액세스 및 기본 ACL을 *powerbi* 파일 시스템에 할당합니다.
+7. 5단계에서 수집한 두 개의 Power BI Premium 개체 ID 각각에 대해 **읽기**, **쓰기**, **실행** 액세스 및 기본값 ACL을 *powerbi* 파일 시스템에 할당합니다.
 
    ![두 개체 ID에 대해 세 개 모두 할당](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-8. 4단계에서 수집한 파워 쿼리 온라인 개체 ID에 대해 **쓰기**, **실행** 액세스 및 기본 ACL을 *powerbi* 파일 시스템에 할당합니다.
+8. 4단계에서 수집한 파워 쿼리 온라인 개체 ID에 대해 **쓰기**, **실행** 액세스 및 기본값 ACL을 *powerbi* 파일 시스템에 할당합니다.
 
    ![다음, 쓰기 및 실행 할당](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-9. 또한 **기타**에 대해 **실행** 액세스 및 기본 ACL을 할당합니다.
+9. 또한 **기타**에 대해 **실행** 액세스 및 기본값 ACL을 할당합니다.
 
     ![마지막, 기타에 대해 실행 할당](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 
@@ -161,7 +158,7 @@ Azure Portal에서 Azure Data Lake Storage Gen2 계정을 설정했으면, **Pow
 
 기본적으로 데이터 흐름 정의 및 데이터 파일은 Power BI에서 제공하는 스토리지에 저장됩니다. 고유한 스토리지 계정의 데이터 흐름 파일에 액세스하려면 작업 영역 관리자가 먼저 새 스토리지 계정에서 데이터 흐름 할당 및 저장을 허용하도록 작업 영역을 구성해야 합니다. 작업 영역 관리자가 데이터 흐름 스토리지 설정을 구성하려면 먼저 **Power BI 관리 포털**에서 스토리지 할당 권한을 부여받아야 합니다.
 
-스토리지 할당 권한을 부여하려면 **Power BI 관리 포털**의 **데이터 흐름 설정** 탭으로 이동합니다. ‘작업 영역 관리자가 이 스토리지 계정에 작업 영역을 할당하도록 허용’하는 라디오 단추가 있고 이 단추를 **허용**으로 설정해야 합니다.  해당 슬라이더를 사용하도록 설정한 후 **적용** 단추를 선택하여 변경 내용을 적용합니다. 
+스토리지 할당 권한을 부여하려면 **Power BI 관리 포털**의 **데이터 흐름 설정** 탭으로 이동합니다. ‘작업 영역 관리자가 이 스토리지 계정에 작업 영역을 할당하도록 허용’하는 라디오 단추가 있고 이 단추를 **허용**으로 설정해야 합니다. 해당 슬라이더를 사용하도록 설정한 후 **적용** 단추를 선택하여 변경 내용을 적용합니다. 
 
 ![관리자가 작업 영역을 할당하도록 허용](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_10.jpg) 
 
@@ -176,7 +173,7 @@ Azure Portal에서 Azure Data Lake Storage Gen2 계정을 설정했으면, **Pow
 * 기본적으로 Azure Data Lake Storage Gen2에 저장된 데이터 흐름의 소유자만 해당 데이터에 액세스할 수 있습니다. Azure에 저장된 데이터 흐름의 권한을 추가 사용자에게 부여하려면 데이터 흐름의 CDM 폴더에 사용자를 추가해야 합니다. 
 * 동일한 스토리지 계정에 저장된 경우에만 연결된 엔터티를 사용하여 데이터 흐름을 만들 수 있습니다.
 * Power BI 공유 용량의 온-프레미스 데이터 원본은 조직의 Data Lake에 저장된 데이터 흐름에서 지원되지 않습니다.
-* 스냅숏은 ADLS Gen 2에서 자동으로 삭제되지 않습니다. 공간을 확보하려면 Azure 함수를 만들어 이전 스냅숏을 주기적으로 정리할 수 있습니다.
+* 스냅숏은 ADLS Gen 2에서 자동으로 삭제되지 않습니다. 공간을 확보하려면 Azure 함수를 만들어 이전 스냅샷을 주기적으로 정리할 수 있습니다.
 
 이 섹션에 설명된 대로 몇 가지 알려진 문제도 있습니다.
 

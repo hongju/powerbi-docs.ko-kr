@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: dced3d2bfe844e857556386fb208395faab3fd8b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698972"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548594"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 관리란?
 
@@ -61,7 +61,7 @@ Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하
 | 내부 정책, 법률 및 규정 준수 확인 | <ul><li>비즈니스 데이터 분류 관리<br><li>콘텐츠 게시 및 공유 정책 적용 지원</ul>|
 | Power BI 리소스 관리 |<ul><li>작업 영역 관리<br><li>사용자 지정 시각적 개체 게시<br><li>다른 애플리케이션에 Power BI를 포함하는 데 사용되는 코드 확인|
 | 테넌트 사용자에게 도움말 및 지원 제공 |<ul><li>데이터 액세스 및 기타 문제 해결</ul>|
-| 기타 작업 |<ul><li>System Center Configuration Manager 등을 사용하여 Power BI Desktop 배포<br><li>Intune에서 Power BI 모바일 앱 배포 관리<br><li>원본 데이터 보안과 같은 데이터 개인 정보 및 보안 관리</ul>|
+| 기타 작업 |<ul><li>Microsoft Endpoint Configuration Manager 등을 사용하여 Power BI Desktop 배포<br><li>Intune에서 Power BI 모바일 앱 배포 관리<br><li>원본 데이터 보안과 같은 데이터 개인 정보 및 보안 관리</ul>|
 
 ## <a name="administrative-tools"></a>관리 도구
 

@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d68abc7b4509595d4dfa3071dc56673e6af89e4f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b275d4e7fdb4e289d2331a2f58db504071ea609b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871063"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758603"
 ---
-# <a name="part-1-add-visualizations-to-a-power-bi-report"></a>1부, Power BI 보고서에 시각화 추가
+# <a name="add-visuals-to-a-power-bi-report-part-1"></a>Power BI 보고서에 시각적 개체 추가(1부)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 

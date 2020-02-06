@@ -10,10 +10,10 @@ ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 75152d546bc2dc622210d5b9e5933ee44fbdc0b7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73872850"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>휴대폰에 대한 대시보드 최적화 - Power BI 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8ecb52f0e9f06a2d3b1c16b4231943ea7970a56e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7b2d3975ba6bcea7b1294c1432f9278908a33ea4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879608"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760023"
 ---
-# <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop의 스토리지 모드
+# <a name="manage-storage-mode-in-power-bi-desktop"></a>Power BI Desktop의 스토리지 모드 관리
 
 Microsoft Power BI Desktop에서는 테이블의 ‘스토리지 모드’를 지정할 수 있습니다.  ‘스토리지 모드’를 사용하면 Power BI Desktop이 보고서에 대한 메모리 내 테이블 데이터를 캐시할지 여부를 제어할 수 있습니다.  
 

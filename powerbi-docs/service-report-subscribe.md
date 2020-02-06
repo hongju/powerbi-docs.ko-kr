@@ -11,10 +11,10 @@ ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74831123"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 보고서 및 대시보드에 자신과 다른 사용자 구독
@@ -40,14 +40,14 @@ Power BI 서비스에만 구독을 만들 수 있습니다. 보고서 페이지 
 
 페이지를 매긴 보고서를 구독하는 것은 약간 다릅니다. 자세한 내용은 [Power BI 서비스의 페이지를 매긴 보고서에 자신과 다른 사용자 구독](consumer/paginated-reports-subscriptions.md)을 참조하세요.
  
-![구독 아이콘 선택](media/service-report-subscribe/power-bi-subscribe-orientation.png).
+![구독 아이콘 선택](media/service-report-subscribe/power-bi-subscribe-orientation.png)을 탭합니다.
 
 1. 대시보드 또는 보고서를 엽니다.
 2. 상단의 메뉴 모음에서 **구독**을 선택하거나 봉투 아이콘 ![구독 아이콘](media/service-report-subscribe/power-bi-icon-envelope.png)을 선택합니다.
    
    ![구독 아이콘](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
-3. 노란색 슬라이더를 사용하여 구독을 설정하거나 해제합니다.  슬라이더를 **Off**로 설정해도 구독이 삭제되지 않습니다. 구독을 삭제하려면 휴지통 아이콘을 선택합니다.
+3. 노란색 슬라이더를 사용하여 구독을 설정하거나 해제합니다.  슬라이더를 **해제**로 설정해도 구독이 삭제되지 않습니다. 구독을 삭제하려면 휴지통 아이콘을 선택합니다.
 
 4. 이메일은 이미 **구독** 상자에 있습니다. 다른 이메일 주소도 구독에 추가할 수 있지만 동일한 도메인에서만 추가할 수 있습니다. 보고서 또는 대시보드가 [프리미엄 용량](service-premium-what-is.md)에서 호스트되는 경우 다른 개별 이메일 주소와 그룹 별칭을 구독할 수 있습니다. 보고서 또는 대시보드가 프리미엄 용량으로 호스트되지 않는 경우 다른 개인이 구독할 수 있지만 마찬가지로 Power BI Pro 라이선스를 가지고 있어야 합니다. 자세한 내용은 아래 [고려 사항 및 문제 해결](#considerations-and-troubleshooting)을 참조하세요. 
 
@@ -107,6 +107,6 @@ Pro 라이선스가 만료되거나 소유자가 대시보드 또는 보고서�
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독](consumer/paginated-reports-subscriptions.md)
+- [Power BI 서비스의  페이지를 매긴 보고서에 자신과 다른 사용자 구독](consumer/paginated-reports-subscriptions.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)    
 - [블로그 게시물 읽기](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
