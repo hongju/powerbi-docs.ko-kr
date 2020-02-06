@@ -12,10 +12,10 @@ ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73851515"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>빠른 시작 - Power BI 서비스 살펴보기
@@ -91,7 +91,7 @@ Amanda가 여러분에게 Power BI 서비스 탐색 환경을 안내하는 것�
    
    ![즐겨찾기로 표시](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. 탐색 창에서 **즐겨찾기**를 선택하거나 별표 아이콘(![노란 별 아이콘을 보여 주는 스크린샷](media/end-user-experience/powerbi-star-icon.png))을 선택하여 **즐겨찾기** *창*을 엽니다.
+3. 탐색 창에서 **즐겨찾기**를 선택하거나 별 아이콘 ![노란 별 아이콘을 표시하는 스크린샷](media/end-user-experience/powerbi-star-icon.png)을 선택하여 **즐겨찾기** ‘창’을 엽니다. 
    
    ![즐겨찾기 화면 열기](./media/end-user-experience/power-bi-favorite-pane.png)
    

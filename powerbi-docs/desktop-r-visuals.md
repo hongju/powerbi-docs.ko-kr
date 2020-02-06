@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 046a8f61154db5956efa10a0e10e847bbb69374c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 69295657702f995786379b18d3ad1ed3641bcbb8
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265083"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729813"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R을 사용하여 Power BI 시각적 개체 만들기
 Power BI Desktop에서 *R*을 사용하여 데이터를 시각화할 수 있습니다. [R](https://mran.revolutionanalytics.com/documents/what-is-r)은 통계 컴퓨팅 및 그래픽을 위한 언어이자 환경입니다.
@@ -128,6 +128,8 @@ R 시각적 개체는 R 스크립트에서 생성되며 보안 또는 개인 정
 Power BI Desktop의 R 시각적 개체에는 다음과 같은 제한 사항이 있습니다.
 
 * 데이터 크기: R 시각적 개체에서 그리기에 사용하는 데이터는 15만 개 행으로 제한됩니다. 150,000개를 초과하는 행을 선택할 경우 상위 150,000개만 사용되고 이미지에 메시지가 표시됩니다.
+
+* 해상도: 모든 R 시각적 개체는 72DPI로 표시됩니다.
 
 * 계산 시간: R 시각적 개체 계산이 5분을 초과하면 시간 제한 오류가 발생합니다.
 

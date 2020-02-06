@@ -11,10 +11,10 @@ ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 982ffaa8eb91897f48221a816970671f4a92e6d9
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74415326"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>일반적인 계산에 빠른 측정 사용
@@ -22,7 +22,7 @@ ms.locfileid: "74415326"
 
 ## <a name="create-a-quick-measure"></a>빠른 측정 만들기
 
-Power BI Desktop에서 빠른 측정을 만들려면 **필드** 창에서 마우스 오른쪽 단추를 클릭하거나 특정 항목 옆의 줄임표( **...** )를 선택하고 메뉴가 나타나면 **새 빠른 측정**을 선택합니다. 
+Power BI Desktop에서 빠른 측정을 만들려면 **필드** 창에서 마우스 오른쪽 단추를 클릭하거나 특정 항목 옆의 줄임표(**...**)를 선택하고 메뉴가 나타나면 **새 빠른 측정**을 선택합니다. 
 
 ![새 빠른 측정 선택](media/desktop-quick-measures/quick-measures_01.png)
 

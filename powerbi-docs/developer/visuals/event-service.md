@@ -1,19 +1,19 @@
 ---
 title: Power BI 시각적 개체의 렌더링 이벤트
 description: Power BI 시각적 개체는 PowerPoint 또는 PDF로 내보낼 준비가 되었음을 Power BI에 알릴 수 있습니다.
-author: Yarovinsky
-ms.author: alexyar
-ms.reviewer: sranins
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 261987a199af68611792367f514bef60dd584db8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 873968a89a230171d8fecba81a7d528767ee7077
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880121"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819149"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>Power BI 시각적 개체의 렌더링 이벤트
 
@@ -25,7 +25,7 @@ ms.locfileid: "73880121"
 
 프로세스 중에 문제가 발생하면 Power BI 시각적 개체가 렌더링되지 않습니다. 렌더링 프로세스가 완료되지 않았음을 수신기에 알리려면, Power BI 시각적 개체 코드에서 `renderingFailed` 메서드를 호출해야 합니다. 이 메서드는 실패 이유를 나타내는 선택적 문자열도 제공합니다.
 
-## <a name="usage"></a>사용
+## <a name="usage"></a>사용량
 
 ```typescript
 export interface IVisualHost extends extensibility.IVisualHost {

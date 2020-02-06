@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699317"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958442"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>온-프레미스 SQL Server 데이터베이스에서 데이터 새로 고침
 
@@ -49,6 +49,10 @@ AdventureWorksDW 샘플 데이터베이스를 사용하여 기본 Power BI 보�
 2. **SQL Server 데이터베이스** 대화 상자에 **서버** 및 **데이터베이스(선택 사항)** 이름을 입력하고 **데이터 연결 모드**가 **가져오기**인지 확인한 다음, **확인**을 선택합니다.
 
     ![SQL Server 데이터베이스](./media/service-gateway-sql-tutorial/sql-server-database.png)
+
+    이 자습서에서는 **고급 옵션**을 사용하지 않지만 SQL 문을 지정하고 [SQL Server 장애 조치(Failover)](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server)를 사용하는 등의 다른 옵션을 설정할 수 있습니다.
+
+    ![SQL Server 고급 옵션](media/service-gateway-sql-tutorial/sql-server-advanced-options.png)
 
 3. **자격 증명**을 확인한 다음, **연결**을 선택합니다.
 
@@ -170,7 +174,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
     오른쪽 위 모서리에 있는 Power BI는 요청된 새로 고침을 수행할 준비를 하고 있습니다.
 
-3. **내 작업 영역 \> 보고서 \> AdventureWorksProducts**를 선택합니다. 업데이트된 데이터가 어떻게 전달되는지 확인하고, 현재 가장 높은 가격의 제품이 **Road-250 Red, 58**입니다.
+3. **내 작업 영역 \> 보고서 \> AdventureWorksProducts**를 선택합니다. 업데이트된 데이터가 어떻게 전달되는지 확인하고, 현재 가장 높은 가격의 제품이**Road-250 Red, 58**입니다.
 
     ![업데이트된 세로 막대형 차트](./media/service-gateway-sql-tutorial/updated-column-chart.png)
 
@@ -186,7 +190,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
     ![새로 고침 기록 링크](./media/service-gateway-sql-tutorial/refresh-history-link.png)
 
-4. **예약** 탭에서 해당 **시작**과 **종료** 시간 및 Power BI가 새로 고침을 성공적으로 수행했음을 나타내는 **완료됨**의 **상태**로 이전 예약 및 요청 시 새로 고침을 확인합니다. 새로 고침이 실패한 경우 오류 메시지를 보고 오류 세부 정보를 살펴볼 수 있습니다.
+4. **예약** 탭에서 해당 **시작**과 **종료** 시간 및 Power BI가 새로 고침을 성공적으로 수행했음을 나타내는 **완료됨** 의 **상태** 로 이전 예약 및 요청 시 새로 고침을 확인합니다. 새로 고침이 실패한 경우 오류 메시지를 보고 오류 세부 정보를 살펴볼 수 있습니다.
 
     ![기록 세부 정보 새로 고침](./media/service-gateway-sql-tutorial/refresh-history-details.png)
 

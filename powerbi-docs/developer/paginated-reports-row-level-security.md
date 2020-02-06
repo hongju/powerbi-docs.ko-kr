@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311495"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953779"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>포함된 페이지를 매긴 보고서에서 행 수준 보안 구현(미리 보기)
 
@@ -32,7 +32,7 @@ ms.locfileid: "74311495"
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>보고서 또는 쿼리 수준에서 필터로 UserID 사용
 
-[Power BI 페이지를 매긴 보고서 작성기](../report-builder-power-bi.md)에서 **UserId**를 *필터*로 사용하거나 데이터 원본에 대한 *쿼리*에 사용할 수 있습니다.
+[Power BI 보고서 작성기](../report-builder-power-bi.md)에서 **UserId**를 *필터*로 사용하거나 데이터 원본에 대한 *쿼리*에 사용할 수 있습니다.
 
 ### <a name="using-the-filter"></a>필터 사용
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 98a1fc1c394a81f743e622ec1756e6501a497fa3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: cc85fb07f50a42952e9b293908a797b1cbac023f
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699846"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "74958359"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Office 365 파트너 구독에 Power BI를 추가할 수 없음
 
@@ -48,7 +48,7 @@ Power BI Pro 또는 Power BI Premium에 대한 구독을 구매하려면 파트�
 
 ## <a name="sign-up-for-a-free-trial"></a>무료 평가판 가입
 
-Power BI Pro 무료 평가판에 가입할 수 있습니다. 평가판 기간이 끝날 때 Power BI Pro를 구매하지 않아도 Power BI의 많은 기능을 제공하는 무료 라이선스가 계속 유지됩니다. 자세한 내용은 [라이선스 유형별 Power BI 기능](service-features-license-type.md)을 참조하세요.
+Power BI 무료 평가판에 가입할 수 있습니다. 평가판 기간이 끝날 때 Power BI Pro를 구매하지 않아도 Power BI의 많은 기능을 제공하는 무료 라이선스가 계속 유지됩니다. 자세한 내용은 [Power BI에 개인으로 가입](service-self-service-signup-for-power-bi.md)을 참조하세요.
 
 ### <a name="enable-ad-hoc-subscriptions"></a>임시 구독 사용
 

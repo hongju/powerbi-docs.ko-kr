@@ -6,16 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: b8dd79e4b256a80ba5159a1b3980e798bc611840
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 54416b314b03a5889c58004918513fecd7ff5ccd
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875042"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75954264"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server에 페이지를 매긴 보고서 만들기
+이 문서에서는 몇 가지 간단한 단계를 거쳐 Power BI Report Server에 페이지를 매긴 보고서를 만듭니다.
+
+Power BI 서비스용 Report Builder에서 페이지가 매겨진 보고서를 만드는 데 도움이 필요한가요? [Power BI 보고서 작성기](../report-builder-power-bi.md)를 참조하세요.
+
 이름에서 알 수 있듯이 여러 페이지에서 페이지를 매긴 보고서를 실행할 수 있습니다. 고정된 형식으로 만들어졌으며 정확한 사용자 지정을 제공합니다. 페이지를 매긴 보고서는 .rdl 파일입니다.
 
 SSRS(SQL Server Reporting Services) 웹 포털의 경우와 마찬가지로 Power BI Report Server 웹 포털에서 페이지를 매긴 보고서를 저장하고 관리할 수 있습니다. SSDT(SQL Server Data Tools)의 보고서 작성기 또는 보고서 디자이너에서 만들고 편집한 다음 웹 포털에 게시합니다. 그런 다음 조직의 보고서 판독기는 해당 모바일 디바이스의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
@@ -24,7 +28,7 @@ SSRS(SQL Server Reporting Services) 웹 포털의 경우와 마찬가지로 Powe
 
 보고서 작성기나 보고서 디자이너에서 페이지를 매긴 보고서를 만든 경우 Power BI Report Server에 페이지를 매긴 보고서를 만들 준비가 되었습니다. 그렇지 않은 경우 작업을 시작하는 빠른 단계는 다음과 같습니다.
 
-## <a name="step-1-install-and-start-report-builder"></a>1단계: 보고서 작성기 설치 및 시작
+## <a name="step-1-start-report-builder"></a>1단계: 보고서 작성기 시작
 SSRS 서버에 보고서를 만들기 위해 보고서 작성기를 이미 설치했을 수 있습니다. Power BI Report Server에 보고서를 만들기 위해 동일한 버전 이상의 보고서 작성기를 사용할 수 있습니다. 설치하지 않은 경우 프로세스가 쉽습니다.
 
 1. Power BI Report Server 웹 포털에서 **새로 만들기** > **페이지를 매긴 보고서**를 선택합니다.

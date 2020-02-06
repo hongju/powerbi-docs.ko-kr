@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73872677"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI 데이터 흐름에 대한 데이터 원본에 연결
@@ -60,7 +60,7 @@ Power BI 데이터 흐름을 사용하면 다양한 데이터 원본에 연결�
 
 **파일** 범주에는 데이터 흐름에 대해 다음과 같은 사용 가능한 데이터 연결이 포함됩니다.
 
-* 액세스
+* Access
 * Excel
 * JSON
 * 텍스트/CSV

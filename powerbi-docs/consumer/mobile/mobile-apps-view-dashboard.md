@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870664"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218376"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
 적용 대상:
@@ -30,7 +30,7 @@ ms.locfileid: "73870664"
 모바일 디바이스에서 대시보드 및 보고서를 보려면 웹 브라우저에서 대시보드를 만들거나 연결해야 합니다. 
 
 1. Power BI 서비스([https://www.powerbi.com](https://www.powerbi.com))로 이동하여 [계정을 등록](../../service-self-service-signup-for-power-bi.md)합니다.
-2. [자신의 Power BI 대시보드 및 보고서를 만들거나](../../service-get-started.md) [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md)과 같은 다양한 서비스에 대해 기존 [Power BI 앱](../../service-connect-to-services.md)에 연결합니다.
+2. [자신의 Power BI 대시보드 및 보고서를 만들거나](../../service-get-started.md)[Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md)과 같은 다양한 서비스에 대해 기존 [Power BI 앱](../../service-connect-to-services.md)에 연결합니다.
 
 Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 
@@ -63,7 +63,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
    
    * [타일을 탭하여](mobile-tiles-in-the-mobile-apps.md) 해당 타일을 열고 이와 상호 작용합니다.
    * 별 ![즐겨찾기 별](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png)을 탭하여 [즐겨찾기를 만듭니다](mobile-apps-favorites.md).
-   * **초대** ![초대 아이콘](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png)를 탭하여 대시보드를 볼 수 있도록 [동료를 초대](mobile-share-dashboard-from-the-mobile-apps.md)합니다.
+   * **초대** ![초대 아이콘](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png)를 탭하여 대시보드를 보도록 [동료를 초대](mobile-share-dashboard-from-the-mobile-apps.md)합니다.
    * [Apple Watch와 대시보드를 동기화합니다](mobile-apple-watch.md).
 4. 대시보드 목록으로 돌아가려면 대시보드 제목 옆의 화살표를 탭한 다음 **내 작업 영역**을 탭합니다.
    
@@ -86,7 +86,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
    
    * 노란색 별 ![즐겨찾기 별](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 은 즐겨찾기 대시보드임을 나타냅니다. 
    * 각 대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../service-data-classification.md)를 참조하세요.
-3. 작업 영역에서 대시보드를 공유할 수 있습니다. 대시보드 타일의 오른쪽 아래 모서리에서 줄임표( **...** )를 누르고 **다른 사용자 초대**를 누릅니다.
+3. 작업 영역에서 대시보드를 공유할 수 있습니다. 대시보드 타일의 오른쪽 아래 모서리에서 줄임표( **...** )를 누르고 **다른 사람 초대**를 누릅니다.
    
    ![초대 아이콘](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. 또한 대시보드를 눌러서 열고 해당 대시보드에서 타일을 확인할 수 있습니다. 대시보드에서 다음과 같이 상호 작용할 수 있습니다.
@@ -131,7 +131,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
    
    ![대시보드 홈](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
-   * 노란색 별 ![즐겨찾기 별](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 은 즐겨찾기 대시보드임을 나타냅니다. 
+   * 노란색 별 ![즐겨찾기 별](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 은 즐겨찾기 대시보드를 표시합니다. 
    * 각 대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../service-data-classification.md)를 참조하세요.
 3. 대시보드에서 이름 옆에 있는 세로 **추가 옵션**(...) 단추를 탭하면 동료를 초대하거나, 새로 고치거나, 대시보드에 대한 정보를 가져올 수 있습니다.
    

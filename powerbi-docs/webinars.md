@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: e3154e5a143de63300e7f5dc87cec518188a3442
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882768"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "75837579"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -21,17 +21,7 @@ ms.locfileid: "74882768"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-**Azure 가상 이벤트에서의 분석: Azure Synapse Analytics를 사용하여 인사이트 액세스 시간 단축**
-<br>작성자: Gayle Sheppard 및 John Macintyre
-<br>[지금 등록](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**빅 데이터 분석 미래 설계의 9가지 추세**
-<br>작성자: Vijay Gopalakrishnan
-<br>[12월 18일에 시청하도록 등록](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
-
-**AI가 BI를 변경하는 세 가지 방법**
-<br>작성자: Justyna Lucznik
-<br>[1월 8일에 시청하려면 등록하세요.](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
+아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
 
 >[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -39,13 +29,25 @@ ms.locfileid: "74882768"
 
 인기 있는 주문형 웹 세미나 시작
 
+**Azure 가상 이벤트에서의 분석: Azure Synapse Analytics를 사용하여 인사이트 액세스 시간 단축**
+<br>작성자: Gayle Sheppard 및 John Macintyre
+<br>[등록 및 지금 보기](https://info.microsoft.com/Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-On-Demand-Registration.html)
+
 **Microsoft는 BI 데이터 보호를 어떻게 변화시키는가**
 <br>작성자: Anton Fritz 및 Adi Regev
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
+**AI가 BI를 변경하는 세 가지 방법**
+<br>작성자: Justyna Lucznik
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
+
 **Power BI와 최신 BI 및 엔터프라이즈 BI의 미래**
 <br>작성자: Arun Ulag 및 Amir Netz
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+
+**빅 데이터 분석 미래 설계의 9가지 추세**
+<br>작성자: Vijay Gopalakrishnan
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Power BI 시작하기**
 <br>작성자: Miguel Martinez

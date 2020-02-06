@@ -6,14 +6,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699018"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837608"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 예약된 새로 고침
 Power BI 보고서에 대해 예약된 새로 고침을 통해 보고서에 대한 데이터를 최신 상태로 유지할 수 있습니다.
@@ -61,8 +61,10 @@ Analysis Services 인스턴스를 모니터링하는 방법에 대한 자세한 
 
 Analysis Services 내의 메모리 설정에 대한 자세한 내용은 [메모리 속성](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)을 참조하세요.
 
+### <a name="data-model-size-limit"></a>데이터 모델 크기 제한
+예약된 새로 고침이 진행되는 동안 내부 Analysis Services 엔진으로 로드되는 데이터 모델에는 최대 2,000MB(2GB)의 크기 제한이 있습니다. 이 최대 크기는 변경할 수 없습니다. 데이터 모델이 2GB보다 커질 경우 새로 고침 오류 “결과의 크기가 큰 유형의 대상 제한 길이(2GB)를 초과합니다”가 표시됩니다. 이 경우 모델을 Analysis Services 인스턴스에 호스트하고 보고서에서 모델에 대한 라이브 연결을 사용하는 것이 좋습니다.
+
 ## <a name="next-steps"></a>다음 단계
 Power BI 보고서에서 [예약된 새로 고침](configure-scheduled-refresh.md)을 구성합니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-
