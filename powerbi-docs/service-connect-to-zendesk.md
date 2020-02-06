@@ -44,7 +44,7 @@ ms.locfileid: "64578801"
 
     ![새 앱 시작](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
 
-4. 계정과 연결된 URL을 제공합니다. 에 URL의 형식은 **https://company.zendesk.com** 합니다. 아래에서 [해당 매개 변수 찾기](#finding-parameters)에 대한 세부 정보를 참조하세요.
+4. 계정과 연결된 URL을 제공합니다. URL은 **https://company.zendesk.com** 같은 형식입니다. [해당 매개 변수 찾기](#finding-parameters)에 대한 세부 정보를 아래에서 참조하세요.
    
    ![Zendesk에 연결](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
 
