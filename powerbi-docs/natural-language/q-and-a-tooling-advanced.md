@@ -78,11 +78,11 @@ Power BI Desktop에서 언어 스키마를 처음 내보낼 때 파일의 대부
 
 ### <a name="export-then-import-a-yaml-file"></a>.yaml 파일 내보내기 후에 가져오기
 
-1. Power BI Desktop의 모델 뷰에서 데이터 세트를 엽니다. 
-2. **모델링** 탭에서 **언어 스키마** > **언어 스키마 내보내기**를 선택합니다.
+1. Power BI Desktop의 모델 보기에서 데이터 세트를 엽니다. 
+2. **모델링** 탭에서 **언어 스키마** > **내보내기**를 선택합니다.
 3. 저장합니다. 파일 이름은 .lsdl.yaml로 끝납니다.
 4. Visual Code 또는 다른 편집기에서 파일을 엽니다.
-4. Power BI Desktop 모델 뷰의 **모델링** 탭에서 **언어 스키마** > **언어 스키마 가져오기**를 선택합니다. 
+4. Power BI Desktop 모델 보기의 **모델링** 탭에서 **언어 스키마** > **가져오기**를 선택합니다. 
 6. 편집한 .yaml 파일을 저장한 위치로 이동하여 선택합니다. 성공 메시지를 통해 언어 스키마 .yaml 파일을 성공적으로 가져왔음을 알 수 있습니다.
 
     ![성공 메시지](media/q-and-a-tooling-advanced/power-bi-success.png)
