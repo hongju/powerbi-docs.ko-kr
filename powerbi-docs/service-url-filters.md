@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836712"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913564"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -33,7 +33,7 @@ Power BI Desktop에서 작업 중이라고 가정합니다. 다른 Power BI 보�
 
 매개 변수를 사용하면 해당 값에 공백이나 특수 문자가 포함될 경우에도 하나 이상의 값에 대해 보고서를 필터링할 수 있습니다. 기본 구문은 매우 간단합니다. 보고서 URL로 시작하고, 물음표를 추가한 다음, 필터 구문을 추가하면 됩니다.
 
-URL?filter=***Table***/***Field*** eq '***value***'
+*URL*?filter=*Table*/*Field* eq '*value*'
 
 ![필터가 포함된 URL](media/service-url-filters/power-bi-filter-urls7b.png)
 
@@ -84,6 +84,18 @@ North Carolina에 매장이 있다는 것을 맵 시각화(위)에서 확인할 
 
 ![노스캐롤라이나로 필터링된 보고서](media/service-url-filters/power-bi-report4.png)
 
+## <a name="filter-on-more-than-one-value-in-a-field"></a>필드에서 둘 이상의 값을 필터링
+
+한 필드에서 둘 이상의 값을 필터링하려면 **and** 연산자 대신 **in** 연산자를 사용합니다. 구문은 다음과 같습니다.
+
+*URL*?filter=*Table*/*Field* **in** ('*value1*', '*value2*')
+
+동일한 예제를 사용하여 보고서를 필터링하여 "NC"(노스캐롤라이나) 또는 "TN"(테네시) 내 상점에 대한 데이터만 표시하려면 URL에 다음을 추가합니다.
+
+?filter=Store/Territory in ('NC', 'TN')
+
+다른 유용한 연산자 목록은 이 문서의 뒷부분에 나오는 [연산자](#operators) 테이블을 참조하세요.
+
 ## <a name="filter-on-multiple-fields"></a>여러 필드 필터링
 
 또한 URL에 추가 매개 변수를 추가하여 여러 필드에서 필터링할 수 있습니다. 우리의 원래 필터 매개 변수로 돌아갑니다.
@@ -97,8 +109,6 @@ North Carolina에 매장이 있다는 것을 맵 시각화(위)에서 확인할 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 ```
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/0sDGKxOaC8w?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="operators"></a>연산자
 

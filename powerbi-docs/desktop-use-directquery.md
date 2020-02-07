@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cfde935b2cec6e86b56b4f70865ff2d02b5ce27a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75759202"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889285"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery 사용
 *Power BI Desktop*을 사용하면 데이터 원본에 연결할 때 항상 데이터의 복사본을 Power BI Desktop으로 가져올 수 있습니다. 일부 데이터 원본의 경우 DirectQuery를 사용하여 데이터 원본에 직접 연결하는 것과 같은 다른 방법을 사용할 수 있습니다.
@@ -55,9 +55,9 @@ DirectQuery를 사용하는 경우 다음과 같은 몇 가지 이점이 있습�
 
 - 기본 데이터 원본에 전송된 쿼리의 성능이 적절한지 확인하기 위해 측정값에서 허용되는 DAX 식에 제한 사항이 적용됩니다.
 
-- DirectQuery를 사용하면 데이터 반환에서 행이 백만 개로 제한됩니다. 이 제한은 DirectQuery를 사용하여 반환되는 데이터 세트를 만드는 데 사용하는 집계나 계산에는 영향을 주지 않습니다. 반환되는 행에만 영향을 줍니다.
+- 프리미엄 용량을 사용하지 않는 한, DirectQuery를 사용할 때 데이터 반환이 100만 행으로 제한됩니다. 이 제한은 DirectQuery를 사용하여 반환되는 데이터 세트를 만드는 데 사용하는 집계나 계산에는 영향을 주지 않습니다. 반환되는 행에만 영향을 줍니다. 프리미엄 용량은 [이 게시물](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/)에 설명된 대로 최대 행 제한을 설정할 수 있습니다. 
 
-    예를 들어 데이터 원본에서 실행되는 쿼리를 사용하여 천만 개의 행을 집계할 수 있습니다. 반환되는 Power BI 데이터의 행이 백만 개 미만인 경우 쿼리는 DirectQuery를 사용하여 정확히 해당 집계의 결과를 Power BI에 반환합니다. DirectQuery에서 백만 개가 넘는 행이 반환되는 경우 Power BI는 오류를 반환합니다.
+    예를 들어 데이터 원본에서 실행되는 쿼리를 사용하여 천만 개의 행을 집계할 수 있습니다. 반환되는 Power BI 데이터의 행이 백만 개 미만인 경우 쿼리는 DirectQuery를 사용하여 정확히 해당 집계의 결과를 Power BI에 반환합니다. DirectQuery에서 100만 개 이상의 행이 반환되는 경우 Power BI가 오류를 반환합니다(프리미엄 용량을 사용하지 않고 행 수가 관리자 설정 제한에 도달한 경우).
 
 ## <a name="important-considerations-when-using-directquery"></a>DirectQuery를 사용하는 경우 중요 고려 사항
 DirectQuery를 사용하는 경우 다음 세 가지 사항을 고려해야 합니다.

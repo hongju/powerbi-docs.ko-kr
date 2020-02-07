@@ -7,15 +7,15 @@ featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 2485d9120b10b41d193189de383a1a92b15378d5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 116ff1df7ddc75df79e6f2f28296543449498599
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010943"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894723"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Power BI 보고서에서 시각적 개체가 조작되는 방식 변경
 보고서에 대한 편집 권한이 있는 경우 **시각적 상호 작용**을 사용하여 보고서 페이지의 시각화들이 서로 영향을 주는 방식을 변경할 수 있습니다. 
@@ -52,7 +52,7 @@ ms.locfileid: "74010943"
 
         ![시각적 개체 상호 작용 드롭다운](media/service-reports-visual-interactions/power-bi-service.png)
 
-3. 시각화 상호 작용 컨트롤을 표시하려면 **상호 작용 편집**을 선택합니다. Power BI는 보고서 페이지의 다른 모든 시각화에 필터 및 강조 표시 아이콘을 추가합니다. 이제 선택한 시각화가 보고서 페이지의 다른 시각화와 상호 작용하는 방식을 변경할 수 있습니다.
+3. 시각화 상호 작용 컨트롤을 표시하려면 **상호 작용 편집**을 선택합니다. Power BI는 보고서 페이지의 다른 모든 시각화에 필터 및 강조 표시 아이콘을 추가합니다. 이 트리 맵은 꺾은선형 차트와 맵을 교차 필터링하고 세로 막대형 차트를 교차 강조 표시하는 것을 볼 수 있습니다. 이제 선택한 시각화가 보고서 페이지의 다른 시각화와 상호 작용하는 방식을 변경할 수 있습니다.
    
     ![시각적 상호 작용이 설정된 보고서](media/service-reports-visual-interactions/power-bi-turn-on.png)
 
@@ -61,25 +61,32 @@ ms.locfileid: "74010943"
 보고서 페이지에서 한 번에 하나씩 시각화를 선택하여 시각화가 상호 작용하는 방법에 대해 알아봅니다.  데이터 요소 또는 막대나 셰이프를 선택하고 다른 시각화에 미치는 영향을 확인합니다. 표시되는 동작이 원하는 결과가 아닌 경우 상호 작용을 변경할 수 있습니다. 이러한 변경 내용은 보고서와 함께 저장되므로 보고서 작성자와 보고서 소비자는 동일한 시각적 상호 작용 환경을 갖습니다.
 
 
-**선택한 시각화**가 서로 간에 어떤 영향을 미쳐야 하는지 확인합니다.  그리고 필요에 따라 보고서 페이지의 다른 모든 시각화에 대해 이 작업을 반복합니다.
+먼저 시각화를 선택하여 활성 상태로 만듭니다.  이제 페이지의 다른 모든 시각화에 상호 작용 아이콘이 표시됩니다. 굵게 표시된 아이콘이 적용되는 아이콘입니다. 그런 다음 **선택한 시각화**가 다른 시각화에 줄 영향을 결정합니다.  그리고 필요에 따라 보고서 페이지의 다른 모든 시각화에 대해 이 작업을 반복합니다.
+
+선택한 시각화가
    
-   * 시각화를 교차 필터링해야 하는 경우 **필터** 아이콘 ![필터 아이콘](media/service-reports-visual-interactions/power-bi-filter-icon.png)을 선택합니다.
-   * 시각화를 교차 강조 표시해야 하는 경우 **강조 표시** 아이콘 ![강조 표시 아이콘](media/service-reports-visual-interactions/power-bi-highlight-icon.png)을 선택합니다.
-   * 영향을 미치지 않아야 할 경우 **없음** 아이콘 ![영향을 주지 않음 아이콘](media/service-reports-visual-interactions/power-bi-no-impact.png)을 선택합니다.
+   * 페이지의 다른 시각화 중 하나를 교차 필터링해야 하는 경우 시각화 ![필터 아이콘](media/service-reports-visual-interactions/power-bi-filter-icon.png)의 오른쪽 위 모서리에 있는 **필터** 아이콘을 선택합니다.
+   * 페이지의 다른 시각화 중 하나를 교차 강조 표시해야 하는 경우 **강조 표시** 아이콘 ![강조 표시 아이콘](media/service-reports-visual-interactions/power-bi-highlight-icon.png)을 선택합니다.
+   * 페이지의 다른 시각화에 영향을 주지 않는 경우 **영향 없음** 아이콘 ![영향 없음 아이콘](media/service-reports-visual-interactions/power-bi-no-impact.png)을 선택합니다.
 
 ## <a name="change-the-interactions-of-drillable-visualizations"></a>드릴 가능한 시각화의 상호 작용 변경
 [일부 Power BI 시각화는 드릴이 가능](consumer/end-user-drill.md)합니다. 기본적으로 시각화를 드릴하면 보고서 페이지의 다른 시각화 요소에는 영향을 주지 않습니다. 그러나 이 동작을 변경할 수 있습니다. 
-
-1. 드릴 가능한 시각적 개체를 선택하여 활성화합니다. 
 
 > [!TIP]
 > [인적 자원 샘플 PBIX 파일](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)을 사용하여 직접 시도해 보세요. **새 채용** 탭에 드릴다운을 포함하는 세로 막대형 차트가 있습니다.
 >
 
+1. 드릴 가능한 시각적 개체를 선택하여 활성화합니다. 
+
+2. 드릴 다운 아이콘을 선택하여 드릴 다운을 설정합니다.
+
+    ![드릴링 켜기](media/service-reports-visual-interactions/power-bi-drill-down.png)
 
 2. 메뉴 모음에서 **형식** > **기타 시각적 개체 드릴 필터링**을 선택합니다.  이제 시각화에서 드릴다운(및 드릴업)하면 보고서 페이지의 다른 시각화가 현재 드릴링 선택을 반영하도록 변경됩니다. 
 
-    ![기타 시각적 개체 드릴 필터링 켜기](media/service-reports-visual-interactions/power-bi-drill.png).
+    ![기타 시각적 개체 드릴 필터링 켜기](media/service-reports-visual-interactions/power-bi-drill.png)
+
+3. 표시되는 동작이 원하는 결과가 아닌 경우 [위에 표시된 대로](#change-the-interaction-behavior) 상호 작용을 변경할 수 있습니다.
     
 ## <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 필터링 및 강조 표시](power-bi-reports-filters-and-highlighting.md)
