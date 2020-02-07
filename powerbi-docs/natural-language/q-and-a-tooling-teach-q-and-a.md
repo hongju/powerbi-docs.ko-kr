@@ -1,5 +1,5 @@
 ---
-title: Power BI 질문 및 답변에서 질문과 용어를 이해하도록 Q&A 교육
+title: Power BI 질문 및 답변에서 질문과 용어를 이해하도록 질문 및 답변 학습
 description: Power BI 질문 및 답변을 사용하여 데이터를 탐색하는 방법
 author: mohaali
 ms.service: powerbi
@@ -15,7 +15,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 11/09/2019
 ms.locfileid: "73874915"
 ---
-# <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Power BI 질문 및 답변에서 질문과 용어를 이해하도록 질문 및 답변 교육
+# <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Power BI 질문 및 답변에서 질문과 용어를 이해하도록 질문 및 답변 학습
 
 질문 및 답변 설정의 **질문 및 답변 학습** 섹션에서 인식하지 못한 자연어 질문과 용어를 이해하도록 질문 및 답변을 학습시킵니다. 먼저 질문 및 답변에서 인식하지 못한 단어가 포함된 질문을 제출합니다. 그러면 질문 및 답변에서 해당 용어를 정의하라는 메시지가 표시됩니다. 단어가 나타내는 항목에 해당하는 필터 또는 필드 이름을 입력합니다. 그러면 질문 및 답변에서 원래 질문을 다시 해석합니다. 결과가 만족스러우면 저장합니다.
 
