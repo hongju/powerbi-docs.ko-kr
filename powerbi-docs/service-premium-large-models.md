@@ -115,7 +115,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 대형 모델 사용 시 다음 제한 사항에 유의하세요.
 
 - **BYOK(Bring Your Own Key) 암호화**: Premium Files에 사용되는 데이터 세트는 [BYOK](service-encryption-byok.md)로 암호화되지 않습니다.
-- **다중 지역 지원**: Premium Files에 사용되는 데이터 세트는 [다중 지역](service-admin-premium-multi-geo.md)도 사용되는 용량에서 실패합니다.
+- **다중 지역 지원**: Premium Files에 사용되는 데이터 세트는 [다중 지역](service-admin-premium-multi-geo.md)이 활성화된 용량에서 실패합니다.
 
 - **Power BI Desktop으로 다운로드**: 데이터 세트가 Premium Files에 저장되는 경우 [.pbix 파일로 다운로드](service-export-to-pbix.md)가 실패합니다.
 - **지원되는 지역**: Premium Files Storage를 지원하는 모든 Azure 지역에서 큰 모델이 지원됩니다. 자세한 내용은 [지역별 사용 가능한 제품](https://azure.microsoft.com/global-infrastructure/services/?products=storage)을 참조하세요.
