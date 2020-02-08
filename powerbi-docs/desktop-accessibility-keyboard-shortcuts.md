@@ -110,7 +110,7 @@ Power BI Desktop을 사용하는 경우 **Shift+?** 를 누르면 다음 이미�
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 접근성 기능에 대한 몇 가지 알려진 문제와 제한 사항이 있습니다. 해당 문제와 제한 사항에 대한 설명은 다음 목록에 나와 있습니다.
 
-* **Power BI Desktop**이 있는 화면 판독기를 사용하는 경우 **Power BI Desktop**에서 모든 파일을 열기 전에 화면 판독기를 여는 것이 가장 좋습니다.
+* **Power BI Desktop**에서 화면 판독기를 사용하는 경우 **Power BI Desktop**에서 파일을 열기 전에 화면 판독기를 여는 것이 가장 좋습니다.
 * 내레이터를 사용하는 경우 **데이터 표시**를 HTML 테이블로 탐색하는 방법에는 몇 가지 제한이 있습니다.
 
 
