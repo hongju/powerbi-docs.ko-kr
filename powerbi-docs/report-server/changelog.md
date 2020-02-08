@@ -7,19 +7,44 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/25/2019
-ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/27/2020
+ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874286"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819540"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server에 대한 변경 로그
 
 Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에 대한 버그 픽스와 새 항목을 나열합니다.
 
 새로운 기능에 대한 자세한 내용은 [Power BI 보고서 서버의 새로운 기능](whats-new.md)을 참조하세요. 
+
+
+## <a name="january-2020"></a>2020년 1월
+- **Power BI Report Server**
+    - *‘버전: 1.6.7327.3007(빌드 15.0.1102.759), 릴리스 날짜: 2020년 1월 23일*
+         - 기능
+            -  Power BI 보고서에서 Excel로 내보내기.
+           -  Power BI Premium 데이터 세트에서 페이지를 매긴 보고서 지원.
+           -  AltText(대체 텍스트)에서 페이지를 매긴 보고서 요소 지원.
+           -  사용자 지정 헤더 지원.
+           -  Azure SQL Managed Instance를 카탈로그로 지원.
+           -  카탈로그에 대한 투명한 데이터베이스 암호화.
+        - 보안 업데이트
+        - 버그 수정
+            - 화면 읽기 프로그램, 보고서 렌더링 및 키보드 탐색 접근성 수정.
+            - 멀티바이트 보고서 제목 저장 수정.
+            - 보고서 서버 안정성에 영향을 주는 자세한 정보 로깅 수정.
+          - 모바일에서 Power BI 보고서에 라이브 데이터를 사용하는 문제 수정.
+          - Power BI 보고서의 필터링된 내보내기의 시각적 개체에 교차 시각적 강조 표시를 적용하는 문제 수정.
+          - 페이지가 매겨진 보고서의 표시 유형을 위한 식으로 Word로 내보낼 때 바닥글을 쓰는 문제 수정. 
+     
+- **Power BI Desktop(Power BI Report Server에 최적화됨)**
+    - *‘버전: 2.76.5678.1521(2020년 1월), 릴리스 날짜: 2020년 1월 23일*(새 빌드 및 새 버전)
+        - Power BI Report Server에서 연결에 필요한 변경 내용 포함(2020년 1월)        
+
 
 ## <a name="september-2019"></a>2019년 9월
 - **Power BI Report Server**

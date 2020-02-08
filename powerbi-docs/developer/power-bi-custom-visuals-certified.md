@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2019
-ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925564"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026672"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
@@ -45,7 +45,7 @@ GitHub에서 공개적으로 코드를 공유할 필요는 없지만 Power BI �
 
 리포지토리에는 Power BI 시각적 개체 하나의 코드만 포함되어야 합니다. 여러 Power BI 시각적 개체의 코드나 관계가 없는 코드는 포함할 수 없습니다.
 
-리포지토리에는 **certification**이라는 분기가 포함되어야 합니다. 이 분기의 소스 코드는 제출된 패키지와 일치해야 합니다. 이 코드는 Power BI 시각적 개체를 다시 제출하는 경우, 다음 제출 프로세스 중에만 업데이트할 수 있습니다.
+리포지토리에는 **certification**(소문자 필요)이라는 분기가 포함되어야 합니다. 이 분기의 소스 코드는 제출된 패키지와 일치해야 합니다. 이 코드는 Power BI 시각적 개체를 다시 제출하는 경우, 다음 제출 프로세스 중에만 업데이트할 수 있습니다.
 
 Power BI 시각적 개체가 비공개 npm 패키지 또는 git 하위 모듈을 사용하는 경우, 이 코드가 포함된 추가 리포지토리에 대한 액세스 권한을 제공해야 합니다.
 
@@ -236,4 +236,4 @@ Power BI 인증을 요청하려면
 * [Microsoft AppSource에 Power BI 시각적 개체 게시하기](../developer/office-store.md) 
 * 자체 Power BI 시각적 개체를 만들어  [Microsoft AppSource](https://appsource.microsoft.com)에 추가하는 데 관심이 있는 웹 개발자라면  [Power BI 시각적 개체 개발](visuals/custom-visual-develop-tutorial.md) 자습서로 시작할 수 있습니다. 
 
-추가 질문이 있으신가요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
