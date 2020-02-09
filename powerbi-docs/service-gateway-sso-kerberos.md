@@ -57,7 +57,7 @@ SPN 및 Kerberos 위임 설정을 구성하기 위해 도메인 관리자가 도
 
 3. 검색 결과에서 게이트웨이 서비스 계정을 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 
-4. **속성** 대화 상자에 **위임** 탭이 표시되는 경우 SPN이 이미 생성된 것이므로 [리사용할 Kerberos 제한 위임 유형 결정](#decide-on-the-type-of-kerberos-constrained-delegation-to-use)으로 건너뛰어도 됩니다.
+4. **속성** 대화 상자에 **위임** 탭이 표시되는 경우 SPN이 이미 생성된 것이므로 [사용할 Kerberos 제한 위임 유형 결정](#decide-on-the-type-of-kerberos-constrained-delegation-to-use)으로 건너뛰어도 됩니다.
 
 5. **속성** 대화 상자에 **위임** 탭이 없는 경우, 계정에서 SPN을 수동으로 만들어 사용하도록 설정할 수 있습니다. Windows와 함께 제공되는 [setspn 도구](https://technet.microsoft.com/library/cc731241.aspx)를 사용합니다(SPN을 만드는 도메인 관리자 권한 필요).
 
