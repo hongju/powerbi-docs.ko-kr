@@ -8,10 +8,10 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 829724fb96b0122bc3bd2b346d8102947b0921f7
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74311552"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
@@ -79,7 +79,7 @@ Azure AD 내에서 애플리케이션을 등록하고 일부 사용 권한을 �
 
 ### <a name="register-an-application"></a>애플리케이션 등록
 
-REST API 호출을 실행하려면 Azure AD를 사용해 애플리케이션을 등록해야 합니다. 여기에는 Azure Portal로 이동하여 Power BI 앱 등록 페이지 외에도 추가 구성을 적용하는 것이 포함됩니다. 자세한 내용은 [포함된 Power BI 콘텐츠에 Azure AD 앱 등록](register-app.md)을 참조하세요.
+REST API 호출을 실행하려면 Azure AD를 사용해 애플리케이션을 등록해야 합니다. 여기에는 Azure Portal로 이동하여 Power BI 앱 등록 페이지 외에도 추가 구성을 적용하는 것이 포함됩니다. 자세한 내용은 [Power BI 콘텐츠를 포함하려면 Azure AD 앱 등록](register-app.md)을 참조하세요.
 
 애플리케이션 **마스터** 계정을 사용하여 애플리케이션을 등록해야 합니다.
 
@@ -126,13 +126,13 @@ Power BI 내에서 작업 영역을 만들려면 Pro 라이선스가 있는 사�
 
 **흐름**
 
-1. GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources 를 호출하고 수신된 연결 문자열을 저장합니다.
+1. GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources를 호출하고 수신된 연결 문자열을 저장합니다.
 2. PaaS 작업 영역에서 PBIX API 다운로드를 호출합니다.
 3. PBIX를 저장합니다.
 4. SaaS 작업 영역에 PBIX 가져오기를 호출합니다.
-5. POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections 를 호출하여 연결 문자열을 업데이트합니다.
-6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources 을 호출하여 GW 및 데이터 소스 식별자를 가져옵니다.
-7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} 를 호출하여 사용자의 자격 증명을 업데이트합니다.
+5. POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections를 호출하여 연결 문자열을 업데이트합니다.
+6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources을 호출하여 GW 및 데이터 소스 식별자를 가져옵니다.
+7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}를 호출하여 사용자의 자격 증명을 업데이트합니다.
 
 #### <a name="old-dataset--reports"></a>이전 데이터 세트 및 보고서
 

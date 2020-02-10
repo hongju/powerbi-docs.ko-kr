@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
 ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871415"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>조직에 템플릿 앱 설치 및 배포 - Power BI
 
-Power BI 분석가인가요? 따라서 이 문서에서는 Salesforce, Microsoft Dynamics, Google Analytics와 같이 비즈니스를 실행하는 데 사용하는 여러 서비스를 연결하기 위해 *템플릿 앱*을 설치하는 방법을 설명합니다. 대시보드 및 보고서를 수정하여 조직의 요구 사항을 충족한 다음, 동료에게 *앱*으로 배포할 수 있습니다. 
+Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Microsoft Dynamics, Google Analytics와 같이 비즈니스를 실행하는 데 사용하는 여러 서비스를 연결하기 위해 *템플릿 앱*을 설치하는 방법을 설명합니다. 대시보드 및 보고서를 수정하여 조직의 요구 사항을 충족한 다음, 동료에게 *앱*으로 배포할 수 있습니다. 
 
 ![Power BI 앱 설치됨](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 

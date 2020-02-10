@@ -9,14 +9,14 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b19412546ad921979656e8367cbe8b034aafcf67
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876287"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760046"
 ---
-# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>자습서:  Power BI Desktop을 사용한 Facebook 분석
+# <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>자습서:  Power BI Desktop을 사용하여 Facebook 데이터 분석
 
 이 자습서에서는 Facebook에서 데이터를 가져오고 Power BI Desktop에서 사용하는 방법을 알아봅니다. Power BI Facebook 페이지에 연결하여 이 페이지에서 데이터를 가져오고, 가져온 데이터에 변환을 적용하고, 보고서 시각화에서 데이터를 사용합니다.
 
@@ -150,7 +150,7 @@ ms.locfileid: "73876287"
    
    ![댓글 수를 기준으로 정렬](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
-5. 가장 많은 댓글이 **공백** 메시지와 연결되어 있었습니다(이러한 게시물은 스토리, 링크, 비디오 또는 기타 텍스트가 아닌 콘텐츠였을 수 있음). 공백 행을 필터링하려면 [시각화] 창의 맨 아래에 있는 **필터**에서 **메시지(모두)** 를 선택하고, **모두 선택**을 선택한 다음, **공백**을 선택하여 선택 취소합니다. 필터 항목이 **메시지가 (공백)이 아님**으로 변경되고 공백 행이 차트 시각화에 표시되지 않습니다. 
+5. 가장 많은 댓글이 **공백** 메시지와 연결되어 있습니다(이러한 게시물은 스토리, 링크, 비디오 또는 기타 텍스트가 아닌 콘텐츠였을 수 있음). 공백 행을 필터링하려면 [시각화] 창의 맨 아래에 있는 **필터**에서 **메시지(모두)** 를 선택하고, **모두 선택**을 선택한 다음, **공백**을 선택하여 선택 취소합니다. 필터 항목이 **메시지가 (공백)이 아님**으로 변경되고 공백 행이 차트 시각화에 표시되지 않습니다. 
    
    ![공백 필터링](media/desktop-tutorial-facebook-analytics/barchart3.png)
    
@@ -160,7 +160,7 @@ ms.locfileid: "73876287"
 
 1. 차트 시각화의 핸들을 사용하여 차트 크기를 가능한 한 크게 변경합니다. 
    
-2. 차트를 선택한 채 [시각화] 창에서 **서식 지정 아이콘**(페인트 롤러)을 선택합니다.
+2. 차트를 선택한 채 [시각화] 창에서 **서식** 아이콘(페인트 롤러)을 선택합니다.
    
 3. **Y축** 옆의 아래쪽 화살표를 선택하고 **최대 크기** 옆의 슬라이더를 완전히 오른쪽(50%)으로 끕니다. 
 4. 또한 더 많은 텍스트가 표시되도록 **텍스트 크기**를 **10**으로 줄입니다.
@@ -173,7 +173,7 @@ ms.locfileid: "73876287"
    
 차트의 X축(댓글 수)이 정확한 값을 표시하지 않고 차트의 맨 아래에 사라진 것으로 보입니다. 대신에 데이터 레이블을 사용하기로 합니다. 
 
-1. 서식 지정 아이콘을 선택한 다음, **X축** 옆의 슬라이더를 선택하여 **해제**로 전환합니다. 
+1. 서식 아이콘을 선택한 다음, **X축** 옆의 슬라이더를 선택하여 **해제**로 전환합니다. 
    
 2. **데이터 레이블** 옆의 슬라이더를 선택하여 **설정**으로 전환합니다. 이제 차트에 각 게시물에 대한 정확한 댓글 수가 표시됩니다.
    

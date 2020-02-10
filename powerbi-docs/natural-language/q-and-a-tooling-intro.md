@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 17d0a68782f34c09286be5ebe020668a15061ee4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874946"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Power BI Q&A 교육을 위한 질문 및 답변 도구 소개(미리 보기)
@@ -80,7 +80,7 @@ Power BI Desktop **모델링** 탭에는 질문 및 답변 환경을 개선하�
 
 1. Power BI Desktop에서 모델링 보기를 선택합니다.
 
-2. 필드 또는 테이블을 선택하여 **속성** 창을 표시하고 **숨김**을 **켜기**로 설정합니다.
+2. 필드 또는 테이블을 선택하여 **속성** 창을 표시하고 **숨김**을 **켜기**로 전환합니다.
 
     질문 및 답변은 해당 설정을 반영하고, 질문 및 답변에서 필드를 인식하지 않도록 합니다. 예를 들어 ID 필드와 외래 키를 숨겨 동일한 이름을 가진 불필요한 중복 필드를 방지할 수 있습니다. 필드를 숨기더라도 질문 및 답변 외부에 있는 Power BI Desktop의 시각적 개체에서는 계속 사용할 수 있습니다.
 

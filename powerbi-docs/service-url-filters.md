@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876920"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913564"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -33,7 +33,7 @@ Power BI Desktop에서 작업 중이라고 가정합니다. 다른 Power BI 보�
 
 매개 변수를 사용하면 해당 값에 공백이나 특수 문자가 포함될 경우에도 하나 이상의 값에 대해 보고서를 필터링할 수 있습니다. 기본 구문은 매우 간단합니다. 보고서 URL로 시작하고, 물음표를 추가한 다음, 필터 구문을 추가하면 됩니다.
 
-URL?filter=***Table***/***Field*** eq '***value***'
+*URL*?filter=*Table*/*Field* eq '*value*'
 
 ![필터가 포함된 URL](media/service-url-filters/power-bi-filter-urls7b.png)
 
@@ -46,11 +46,11 @@ URL?filter=***Table***/***Field*** eq '***value***'
 
 이 예제와 같습니다.
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq ‘*value*&’ctid=*ctid*
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*'&ctid=*ctid*
 
 ### <a name="field-types"></a>필드 형식
 
-ㅍ필드 형식은 숫자, 날짜/시간 또는 문자열일 수 있고 사용된 형식은 데이터 세트에서 설정된 형식과 일치해야 합니다.  예를 들어 날짜로 설정된 데이터 세트 열에서 날짜/시간 또는 숫자 값을 찾으려는 경우(예: Table/StringColumn eq 1) “문자열” 형식의 테이블 열을 지정하는 작업은 작동하지 않습니다.
+필드 형식은 숫자, 날짜/시간 또는 문자열일 수 있고 사용된 형식은 데이터 세트에서 설정된 형식과 일치해야 합니다.  예를 들어 날짜로 설정된 데이터 세트 열에서 날짜/시간 또는 숫자 값을 찾으려는 경우(예: Table/StringColumn eq 1) “문자열” 형식의 테이블 열을 지정하는 작업은 작동하지 않습니다.
 
 * **문자열**은 ‘manager name’과 같이 작은따옴표로 묶여야 합니다.
 * **숫자**에는 특별한 서식 지정이 필요하지 않습니다. 자세한 내용은 이 문서의 [숫자 데이터 형식](#numeric-data-types)을 참조하세요.
@@ -84,6 +84,18 @@ North Carolina에 매장이 있다는 것을 맵 시각화(위)에서 확인할 
 
 ![노스캐롤라이나로 필터링된 보고서](media/service-url-filters/power-bi-report4.png)
 
+## <a name="filter-on-more-than-one-value-in-a-field"></a>필드에서 둘 이상의 값을 필터링
+
+한 필드에서 둘 이상의 값을 필터링하려면 **and** 연산자 대신 **in** 연산자를 사용합니다. 구문은 다음과 같습니다.
+
+*URL*?filter=*Table*/*Field* **in** ('*value1*', '*value2*')
+
+동일한 예제를 사용하여 보고서를 필터링하여 "NC"(노스캐롤라이나) 또는 "TN"(테네시) 내 상점에 대한 데이터만 표시하려면 URL에 다음을 추가합니다.
+
+?filter=Store/Territory in ('NC', 'TN')
+
+다른 유용한 연산자 목록은 이 문서의 뒷부분에 나오는 [연산자](#operators) 테이블을 참조하세요.
+
 ## <a name="filter-on-multiple-fields"></a>여러 필드 필터링
 
 또한 URL에 추가 매개 변수를 추가하여 여러 필드에서 필터링할 수 있습니다. 우리의 원래 필터 매개 변수로 돌아갑니다.
@@ -98,8 +110,6 @@ North Carolina에 매장이 있다는 것을 맵 시각화(위)에서 확인할 
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 ```
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/0sDGKxOaC8w?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ## <a name="operators"></a>연산자
 
 Power BI는 **and** 외에도 많은 연산자를 지원합니다. 아래 표에서는 지원하는 콘텐츠 형식과 함께 해당 연산자를 나열합니다.
@@ -112,11 +122,11 @@ Power BI는 **and** 외에도 많은 연산자를 지원합니다. 아래 표에
 |**ge**     |  크거나 같음       | 아니요 | 예 |예 |  product/price ge 10
 |**gt**     | 보다 큼        |아니요 | 예 | 예  | product/price gt 20
 |**le**     |   작거나 같음      | 아니요 | 예 | 예  | product/price le 100
-|**lt**     |  보다 작음       | 아니요 | 예 | 예 |  product/price lt 20
+|**lt**     |  다음보다 작음       | 아니요 | 예 | 예 |  product/price lt 20
 |**in\*\***     |  포함       | 예 | 예 |  예 | Student/Age in (27, 29)
 
 
-\*\* **in**을 사용하는 경우 **in**의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록 또는 컬렉션을 반환하는 단일 식일 수 있습니다.
+\*\***in**을 사용하는 경우 **in**의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록 또는 컬렉션을 반환하는 단일 식일 수 있습니다.
 
 ### <a name="numeric-data-types"></a>숫자 데이터 형식
 

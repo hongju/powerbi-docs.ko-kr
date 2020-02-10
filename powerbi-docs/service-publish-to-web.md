@@ -1,20 +1,20 @@
 ---
 title: Power BI에서 웹에 게시
 description: Power BI 웹에 게시를 사용하면 디바이스에서 메일이나 소셜 미디어를 통해 블로그 게시물, 웹 사이트 등에 대화형 Power BI 시각화를 온라인으로 쉽게 포함할 수 있습니다.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/16/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1fd640922f132f56a03b37ed59a6267a5af83d00
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311700"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76913615"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -39,20 +39,24 @@ Power BI의 **웹에 게시** 옵션을 사용하면 모든 디바이스에서 �
 1. 편집할 수 있는 작업 영역에서 보고서를 열고 **파일 > 웹에 게시**를 선택합니다.
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
+   
+2. embed 태그를 만들 수 있는 권한이 없는 경우 Power BI 관리자에게 문의하세요.
 
-2. 대화 상자 콘텐츠를 검토하고 **embed 태그 만들기**를 선택합니다.
+   ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+3. 대화 상자 콘텐츠를 검토하고 **embed 태그 만들기**를 선택합니다.
 
    ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
-3. 여기에 표시된 대로 경고를 검토하고 공용 웹 사이트에 데이터를 포함해도 괜찮은지 확인합니다. 이 경우 **게시**를 선택합니다.
+4. 여기에 표시된 대로 경고를 검토하고 공용 웹 사이트에 데이터를 포함해도 괜찮은지 확인합니다. 이 경우 **게시**를 선택합니다.
 
    ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
-4. 링크가 있는 대화 상자가 나타납니다. 이 링크를 이메일로 보내거나 iFrame과 같은 코드에 포함시키거나 웹 페이지나 블로그에 직접 붙여넣을 수 있습니다.
+5. 링크가 있는 대화 상자가 나타납니다. 이 링크를 이메일로 보내거나 iFrame과 같은 코드에 포함시키거나 웹 페이지나 블로그에 직접 붙여넣을 수 있습니다.
 
    ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
-5. 이전에 보고서의 embed 태그를 만들고 **웹에 게시**를 선택한 경우 2-4 단계에서 대화 상자가 표시되지 않습니다. 대신 **Embed 태그** 대화 상자가 나타납니다.
+6. 이전에 보고서의 embed 태그를 만들고 **웹에 게시**를 선택한 경우 2-4 단계에서 대화 상자가 표시되지 않습니다. 대신 **Embed 태그** 대화 상자가 나타납니다.
 
    ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
@@ -73,7 +77,7 @@ Power BI의 **웹에 게시** 옵션을 사용하면 모든 디바이스에서 �
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>iFrame 높이 및 너비에 대한 팁과 트릭
 
-**웹에 게시** embed 태그는 다음과 같습니다.
+**웹에 게시** embed 태그는 다음 예제와 같습니다.
 
 ![PtW7](media/service-publish-to-web/publish_to_web7.png)
  
@@ -84,10 +88,10 @@ Power BI의 **웹에 게시** 옵션을 사용하면 모든 디바이스에서 �
 | 비율 | 크기 | 차원(너비 x 높이) |
 | --- | --- | --- |
 | 16:9 |소형 |640 x 416px |
-| 16:9 |중형 |800 x 506px |
+| 16:9 |중간 |800 x 506px |
 | 16:9 |대형 |960 x 596px |
 | 4:3 |소형 |640 x 536px |
-| 4:3 |중형 |800 x 656px |
+| 4:3 |중간 |800 x 656px |
 | 4:3 |대형 |960 x 776px |
 
 ## <a name="manage-embed-codes"></a>embed 태그 관리
@@ -141,9 +145,17 @@ Power BI의 **웹에 게시** 옵션을 사용하면 모든 디바이스에서 �
 
 ## <a name="tenant-setting"></a>테넌트 설정
 
-Power BI 관리자는 **웹에 게시** 기능을 사용하거나 사용하지 않도록 설정할 수 있습니다. 특정 그룹에 대한 액세스를 제한할 수 있으며, 이로 인해 embed 태크를 만드는 기능에 영향을 줄 수도 있습니다.
+**웹에 게시** 설정은 사용자가 embed 태그를 만들 수 있는 옵션을 제공합니다.
 
-|특정 |전체 조직에 대해 사용 |전체 조직에 대해 사용 안 함 |특정 보안 그룹   |
+![웹에 게시 설정](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+**embed 태그 작동 방식 선택** 옵션이 **기존 embed 태그만 허용**으로 설정되고 **웹에 게시** 설정이 **사용**으로 설정된 경우 embed 태그를 만들려면 Power BI 관리자에게 연락해야 합니다.
+
+![웹에 게시 프롬프트](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+Power BI 관리자는 **웹에 게시** 기능을 사용하거나 사용하지 않도록 설정할 수 있습니다. 특정 그룹에 대한 액세스를 제한할 수 있으며, 이로 인해 embed 태크를 만드는 기능에 영향을 줄 수도 있습니다. **웹에 게시** 설정에 따라 UI에 다른 옵션이 표시됩니다.
+
+|기능 |전체 조직에 대해 사용 |전체 조직에 대해 사용 안 함 |특정 보안 그룹   |
 |---------|---------|---------|---------|
 |보고서의 **파일** 메뉴 아래에 있는 **웹 게시**|모든 사용자에 대해 사용|모든 사용자에게 표시 안 함|권한 있는 사용자 또는 그룹에만 표시.|
 |**설정** 아래의 **embed 태그 관리**|모든 사용자에 대해 사용|모든 사용자에 대해 사용|모든 사용자에 대해 사용.<br><br>*  권한 있는 사용자 또는 그룹에만 **삭제** 옵션 제공.<br>*  모든 사용자에 대해 **코드 가져오기** 사용.|
@@ -151,6 +163,9 @@ Power BI 관리자는 **웹에 게시** 기능을 사용하거나 사용하지 �
 |게시된 기존 보고서|모두 사용|모두 사용 안 함|보고서가 모든 사용자에 대해 계속 렌더링합니다.|
 
 ## <a name="understanding-the-embed-code-status-column"></a>embed 태그 상태 열 이해
+
+>[!Note]
+>게시한 embed 태그를 정기적으로 검토하여 더 이상 공개적으로 사용할 필요가 없으면 제거해야 합니다. 
 
 **embed 태그 관리** 페이지에 상태 열이 포함됩니다. 기본적으로 embed 태그는 **활성**이지만 아래에 나열된 상태 중 하나일 수도 있습니다.
 

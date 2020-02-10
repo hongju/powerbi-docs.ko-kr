@@ -21,7 +21,8 @@ ms.locfileid: "74696536"
 
 | **지원 옵션** | **고장 수리 기술 지원** | **청구 지원** | **사전 대응 컨설팅 및 교육** | **서비스 수준<br>(초기 참여 시간)** | **지원 채널** |
 | --- | --- | --- | --- | --- | --- |
-| **커뮤니티 지원**: Power BI 전문가 및 Microsoft 직원과 이루어진 글로벌 커뮤니티가 제공한 답변을 사용하여 피어-투-피어 지원, 지침 및 모범 사례를 가져오는 사용자를 위한 웹 포럼입니다. | X |   |   | 없음, 최선을 다해 참여하지 않았습니다. | [Power BI 커뮤니티](https://community.powerbi.com) |
+| **커뮤니티 지원**: Power BI 전문가 및 Microsoft 직원으로 이루어진 글로벌 커뮤니티가 제공한 답변을 사용하여 피어-투-피어 지원, 지침 및 모범 사례를 가져오는 사용자를 위한 웹 포럼입니다. | X | | | 없음, 참여는 최선을 다해 제공됩니다. | [Power BI 커뮤니티](https://community.powerbi.com) |
+
 | **Power BI Pro 최종 사용자 지원**: Power BI에서 콘텐츠를 만들고 사용하는 최종 사용자를 위한 기본 기술 지원입니다. | X |   |   | 영업일 기준 1일입니다. | [Power BI 지원 사이트](https://support.powerbi.com)  |
 | **Power BI Premium 관리 지원**: Power BI Premium 용량을 배포하고 운영하는 관리자를 위한 기술 지원입니다. | X |   |   | 사례의 심각도에 따라 영업일 기준 1일 또는 1시간입니다.\* | [Power BI 지원 사이트](https://support.powerbi.com)<br>또는<br>[Microsoft 365 관리 센터](https://portal.office.com/adminportal)<br>또는<br> 휴대 전화 |
 | **Power BI 관리 지원**: 조직에서 Power BI를 배포하는 관리자를 위한 기술 및 요금 청구 지원입니다.  이 옵션을 사용하려면 Azure Active Directory 회사 관리자, Office 365 글로벌 관리자, Office 365 서비스 관리자 또는 Power BI 서비스 관리자여야 합니다. | X | X |   | 사례의 심각도에 따라 영업일 기준 1일 또는 1시간입니다.\* | [Microsoft 365 관리 센터](https://portal.office.com/adminportal)<br>또는<br> 휴대 전화 |

@@ -10,10 +10,10 @@ ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265482"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Power BI에서 라이브 연결에 대한 질문 및 답변 사용
@@ -60,7 +60,7 @@ Power BI 질문 및 답변은 데이터 원본에서 텍스트 및 스키마 값
 
 ## <a name="next-steps"></a>다음 단계
 
-- [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)  
+- [On-premises data gateway (온-프레미스 데이터 게이트웨이)](service-gateway-onprem.md)  
 - [데이터 원본 관리 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 - [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)  
 - [Power BI 질문 및 답변 개요](consumer/end-user-q-and-a.md)  

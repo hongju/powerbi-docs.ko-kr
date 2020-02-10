@@ -1,29 +1,174 @@
 ---
 title: Power BI Report Server의 새로운 기능
-description: Power BI Report Server의 새로운 기능에 대해 알아봅니다. 주요 기능 영역을 설명하고 새 항목이 출시될 때 업데이트됩니다.
+description: Power BI Report Server의 새로운 기능에 대해 알아봅니다. 이 아티클에서는 주요 기능 영역을 설명하고 새 항목이 릴리스될 때 업데이트됩니다.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
-ms.openlocfilehash: 526a971817c50599bf77ae085f3d5ff07294b25b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/23/2020
+ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858755"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819563"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
-Power BI Report Server와 Power BI Report Server에 최적화된 Power BI Desktop의 새로운 기능을 알아봅니다. 이 문서에서는 주요 기능 영역을 설명합니다. 이 문서는 신규 릴리스가 공개될 때마다 업데이트됩니다.
+Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Desktop의 새로운 기능을 알아봅니다. 이 문서에서는 주요 기능 영역을 설명합니다. 이 문서는 신규 릴리스가 공개될 때마다 업데이트됩니다.
+
+[Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Desktop](https://powerbi.microsoft.com/report-server/)을 다운로드합니다.
 
 관련 Power BI “새로운 기능” 정보는 다음을 참조하세요.
 
 * [Power BI 서비스의 새로운 기능](../service-whats-new.md)
 * [Power BI Desktop의 새로운 기능](../desktop-latest-update.md)
 * [Power BI용 모바일 앱의 새로운 기능](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2020"></a>2020년 1월
+
+자세한 내용은 Power BI Report Server 2020년 1월 블로그 게시물을 참조하세요.
+
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop
+
+이 릴리스에서는 단추에 대한 조건부 서식 지정, 데이터 프로파일링 기능 향상, 그리고 KPI 및 테이블 시각적 개체에 대한 추가 서식 설정과 같은 여러 가지 새로운 기능을 제공합니다. 다음은 업데이트 목록의 요약입니다.
+
+**보고**
+
+- 테이블 열 또는 행렬 값을 사용자 지정 URL로 설정
+- KPI 시각적 개체 서식 설정
+- 필터 창 환경 업데이트
+
+**분석**
+
+- 조건부 단추 서식 지정
+- 분석 인사이트를 위해 더 많이 로드
+- 새 DAX 함수: 분기
+
+**데이터 준비**
+
+- 데이터 프로파일링 개선
+
+**기타**
+
+- 새 파일 형식: .pbids
+- 모델링 작업 성능 개선
+
+**보고**
+
+*테이블 열 또는 행렬 값을 사용자 지정 URL로 설정*
+
+테이블 열 또는 행렬 값을 사용자 지정 URL로 설정할 수 있습니다. 서식 창의 조건부 서식 지정 카드에서 새로운 옵션을 찾을 수 있습니다.
+
+*KPI 시각적 개체 서식 설정*
+
+이번 달의 릴리스는 KPI에 새로운 서식 옵션이 있습니다.
+
+- 표시기 텍스트 서식(글꼴 패밀리, 색 및 맞춤)
+- 추세 축 투명도
+- 목표 및 거리 텍스트 서식(레이블 텍스트, 글꼴 패밀리, 색 및 크기)
+- 거리 텍스트 서식(레이블 텍스트, 양수 방향, 글꼴 패밀리, 색 및 크기)
+- 서식을 사용하여 날짜 레이블 추가(글꼴 패밀리, 색 및 크기)
+
+다음과 같은 새 서식 옵션 중 일부를 조건부로 지정할 수 있습니다.
+
+- 표시기 글꼴 색
+- 목표 글꼴 색 및 목표 거리 글꼴 색
+- 양호/불량/중립 상태 색
+- 날짜 글꼴 색
+
+*필터 창 환경 업데이트*
+
+[마지막 릴리스](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/#filterPane)에서 새로운 필터 환경의 일반 공급의 일환으로 현재 보고서를 새 창으로 전환하는 프로세스를 간소화했습니다. 처음으로 Power BI Report Server를 열면 필터 창 자동 업데이트 대화 상자가 표시됩니다. 보고서를 새 환경으로 마이그레이션해야 하는 경우 이러한 업데이트가 Report Server의 배너에도 포함되어 있습니다.
+
+**분석**
+
+*조건부 단추 서식 지정*
+
+이러한 조건부 서식은 관련 단추를 모두 업데이트합니다. 이제 다음 속성에 대한 서식을 동적으로 설정할 수 있습니다.
+
+- 단추 텍스트 글꼴 색
+- 단추 텍스트
+- 아이콘 선 색
+- 윤곽선 색
+- 채우기 색
+- 단추 도구 설명(작업 카드 아래)
+
+*분석 인사이트를 위해 더 많이 로드*
+
+분석 기능을 실행하여 증가를 설명하는 것과 같이 데이터에 대한 인사이트를 찾는 경우 설정된 기간 동안만 기계 학습 모델을 실행하여 적기에 인사이트를 표시합니다. 분석할 데이터가 많은 경우 초기 시간 제한 후에 분석을 계속 실행하도록 선택할 수 있습니다.
+
+*새 DAX 함수: 분기*
+
+이번 달에는 새 DAX 함수인 분기를 소개합니다. 분기 함수는 지정된 날짜에 해당하는 분기를 반환합니다.
+
+**데이터 준비**
+
+*데이터 프로파일링 개선*
+
+이번 달에는 다음을 포함하여 Power Query 편집기 내 데이터 프로파일링 기능에 대해 몇 가지 중요한 기능 향상을 소개합니다.
+
+- 기존 "값 기준" 기준 외에 열 프로필 창 값 분포 시각적 개체에 대한 여러 그룹화 옵션(특히 열 유형별)이 추가됩니다.
+- 텍스트: 텍스트 길이(문자 수)를 기준으로 합니다.
+- 번호: 부호(+/-) 및 패리티(짝수/홀수)를 기준으로 합니다.
+- 날짜/시간: 년, 월, 일, 연간 주, 요일, 오전/오후 시간 및 일중 시간 기준을 기준으로 합니다.
+- 그리고 다른 데이터 형식(예: 논리적 True/False)에 대한 추가 옵션도 있습니다.
+
+*필터 옵션*
+
+열 프로필 분포 창에서 여러 가지 유형별 그룹화 기준을 이미 활용할 수 있었습니다. 이제 그룹화 기준이 적용될 때 분포 차트의 각 값에 대한 설명선 내에서 필터링할 수도 있습니다. 예를 들어 날짜/시간 열의 데이터 프로필 창에서 지정된 월에 속하는 모든 값을 제외할 수 있습니다.
+
+**기타**
+
+*새 파일 형식: .pbids*
+
+이번 달에는 새 파일 형식 .pbids를 공개하여 조직의 보고서 작성자를 위한 "데이터 가져오기" 환경을 간소화합니다. 관리자는 일반적으로 사용되는 연결에 대해 이러한 파일을 만드는 것이 좋습니다.
+
+보고서 작성자가 .pbids 파일을 열면 Power BI Desktop은 파일에 지정된 데이터 원본에 연결하기 위한 인증을 요구합니다. 그런 다음 사용자가 모델에 로드할 테이블을 선택합니다. 파일에 지정되지 않은 경우 사용자가 데이터베이스를 선택해야 할 수도 있습니다. 여기에서 보고서 작성자가 시각화 작성을 시작할 수 있습니다.
+
+자세한 내용 및 예제는 "Power BI Desktop의 데이터 원본" 문서의 [.pbids 파일을 사용하여 데이터 가져오기](../desktop-data-sources.md#using-pbids-files-to-get-data)에서 확인할 수 있습니다.
+
+*모델링 작업 성능 개선*
+
+측정값 또는 계산 열을 추가하고 관계를 만드는 등의 모델링 작업을 가속화하기 위해 Analysis Services 엔진 성능이 향상되었습니다. 향상 정도는 모델에 따라 달라지지만, 파일 열기 및 측정값 추가와 같은 작업의 경우 일부 고객에서 20x 성능 향상을 확인했습니다.
+
+이제까지 Power BI Report Server 2020년 1월 릴리스에 대한 소개였습니다. 계속해서 피드백을 보내주시고 [Power BI에서 원하는 기능에 대한 투표](https://ideas.powerbi.com/forums/265200-power-bi)를 잊지 마세요.
+
+### <a name="power-bi-report-server"></a>Power BI Report Server
+
+#### <a name="export-to-excel-from-power-bi-reports"></a>Power BI 보고서에서 Excel로 내보내기
+
+Power BI Report Server의 Power BI 보고서에서 Excel로 내보내기는 이제 Power BI 서비스의 Power BI 보고서에서 Excel로 내보내기와 동일하게 작동합니다. Excel .xlsx 형식으로 직접 내보낼 수 있으며 내보내기 제한은 150,000개 행입니다.
+
+#### <a name="azure-sql-managed-instance-support"></a>Azure SQL Managed Instance 지원
+
+이제 VM 또는 데이터 센터에서 호스트되는 Azure SQL Managed Instance(MI)에서 Power BI Report Server에 사용되는 데이터베이스 카탈로그를 호스트할 수 있습니다. 지원은 SQL Server에 대한 연결 시 데이터베이스 자격 증명 사용으로 제한됩니다.
+
+#### <a name="power-bi-premium-dataset-support"></a>Power BI Premium 데이터 세트 지원
+
+Microsoft 보고서 작성기 또는 SSDT(SQL Server Data Tools) 중 하나를 사용하여 Power BI 데이터 세트에 연결할 수 있습니다. 그런 다음 SQL Server Analysis Services 연결을 사용하여 Power BI Report Server에 해당 보고서를 게시할 수 있습니다. 사용자는 저장된 Windows 사용자 이름 및 암호를 사용하여 시나리오를 사용하도록 설정해야 합니다.
+
+#### <a name="alttext-alternative-text-support-for-report-elements"></a>AltText(대체 텍스트)가 보고서 요소 지원
+
+보고서를 작성할 때 도구 설명을 사용하여 보고서의 각 요소에 대한 텍스트를 지정할 수 있습니다. 화면 읽기 프로그램 기술에서 이러한 도구 설명을 사용합니다.
+
+#### <a name="azure-active-directory-application-proxy-support"></a>Azure Active Directory 애플리케이션 프록시 지원
+
+Azure Active Directory 애플리케이션 프록시를 사용하면 더 이상 웹 또는 모바일 앱을 통한 보안 액세스를 허용하기 위해 웹 애플리케이션 프록시를 관리할 필요가 없습니다. 자세한 내용은 [Azure Active Directory 애플리케이션 프록시를 통해 온-프레미스 애플리케이션에 원격 액세스](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)를 참조하세요.
+
+#### <a name="custom-headers"></a>사용자 지정 헤더
+
+지정된 regex 패턴과 일치하는 모든 URL에 대한 헤더 값을 설정합니다. 사용자는 유효한 XML로 사용자 지정 헤더 값을 업데이트하여 선택한 요청 URL에 대한 헤더 값을 설정할 수 있습니다. 관리자는 XML에 원하는 수의 헤더를 추가할 수 있습니다. 자세한 내용은 Reporting Services **서버 속성 고급 페이지** 문서에서 [사용자 지정 헤더](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers)를 참조하세요.
+
+#### <a name="transparent-database-encryption"></a>투명한 데이터베이스 암호화
+
+Power BI Report Server는 이제 Enterprise 및 Standard 버전 Power BI Report Server 카탈로그 데이터베이스에 대해 투명한 데이터베이스 암호화를 지원합니다.
+
+#### <a name="microsoft-report-builder-update"></a>Microsoft 보고서 작성기 업데이트
+
+새로 릴리스된 보고서 작성기 버전은 Reporting Services의 2016, 2017 및 2019 버전과 완전히 호환됩니다. 또한 Power BI Report Server의 모든 릴리스 및 지원 버전과도 호환됩니다.
 
 ## <a name="september-2019"></a>2019년 9월
 
@@ -80,37 +225,39 @@ Power BI Report Server 2019년 9월 업데이트에는 다양한 Power BI 보고
 - 데이터 프로파일링에서 클립보드로 복사
 
 
-## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>2019년 5월 Power BI Report Server를 위한 Power BI Desktop
+## <a name="may-2019"></a>2019년 5월
+
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Report Server를 위한 Power BI Desktop
 
 모든 새로운 기능에 대한 자세한 내용은 [Power BI Report Server 2019년 5월](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) 블로그 게시물을 참조하세요.
 
 다음은 이번 릴리스의 몇 가지 주요 기능입니다.
 
-### <a name="performance-analyzer"></a>성능 분석기 
+#### <a name="performance-analyzer"></a>성능 분석기 
 
 보고서가 예상보다 느리게 실행된다면 Power BI Desktop에서 성능 분석기를 사용해 보세요. 성능 분석기를 시작하면 사용자가 보고서에서 수행하는 모든 동작에 대한 정보가 담긴 로그 파일이 생성됩니다. [성능 분석기](../desktop-performance-analyzer.md)에 대해 자세히 알아보세요.
 
-### <a name="new-modeling-view"></a>새로운 모델링 보기
+#### <a name="new-modeling-view"></a>새로운 모델링 보기
 
 Power BI Desktop의 새로운 모델링 보기에서는 테이블이 여러 개 포함된 복잡한 데이터 세트를 보고 작업할 수 있습니다. 여러 다이어그램 레이아웃과 열, 측정값, 테이블의 대량 편집 등의 기능이 추가되었습니다. [모델링 보기](../desktop-modeling-view.md)에 대해 자세히 알아보세요.
 
-### <a name="accessible-visual-interaction"></a>액세스 가능 시각적 개체 조작
+#### <a name="accessible-visual-interaction"></a>액세스 가능 시각적 개체 조작
 
 이제 키보드 탐색을 사용하여 여러 기본 제공 시각적 개체에서 데이터 요소에 액세스할 수 있습니다. [Power BI 보고서의 액세스 가능 기능](../desktop-accessibility.md)에 대해 자세히 알아보세요.
 
-### <a name="conditional-formatting-titles-and-web-url-actions"></a>조건부 서식 제목 및 웹 URL 동작
+#### <a name="conditional-formatting-titles-and-web-url-actions"></a>조건부 서식 제목 및 웹 URL 동작
 
 Power BI 보고서는 대화형입니다. 보고서의 타일이 보고서의 현재 상태를 반영하여 동적으로 변경될 것을 기대할 수 있습니다. 동일한 표현식 바인딩 서식 지정을 사용하여 단추, 도형 및 이미지의 URL을 동적으로 만들 수 있습니다. [표현식 기반 제목](../desktop-conditional-format-visual-titles.md)에 대해 자세히 알아보세요.
 
-### <a name="cross-highlight-by-axis-labels"></a>축 레이블별 교차 강조 표시
+#### <a name="cross-highlight-by-axis-labels"></a>축 레이블별 교차 강조 표시
 
 시각적 개체에서 데이터 요소를 선택하는 것과 마찬가지로 시각적 개체에서 축 범주 레이블을 선택하여 페이지에 있는 다른 요소를 교차 강조 표시합니다. [교차 강조 표시](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)에 대해 자세히 알아보세요.
 
-### <a name="all-the-new-features"></a>모든 새로운 기능
+#### <a name="all-the-new-features"></a>모든 새로운 기능
 
 다음은 모든 새로운 기능 목록입니다.
 
-### <a name="reporting"></a>보고
+#### <a name="reporting"></a>보고
 
 - 꺾은선형 차트의 단일 점에서 교차 강조 표시 
 - 제목에서 자동 줄 바꿈 
@@ -131,24 +278,24 @@ Power BI 보고서는 대화형입니다. 보고서의 타일이 보고서의 �
 - 선 데이터 레이블 위치 컨트롤
 - KPI 시각적 개체 표시기 텍스트 크기 컨트롤
 
-### <a name="analytics"></a>분석
+#### <a name="analytics"></a>분석
 
 - 계층 구조로 날짜 표시가 이제 일반 공급됨  
 
-### <a name="modeling"></a>모델링
+#### <a name="modeling"></a>모델링
 
 - 새로운 모델링 보기가 이제 일반 공급됨
 - 새로운 DAX 함수
 - ALLSELECTED DAX 함수 업데이트
 - 새 보고서에서 자동 날짜 테이블 사용 안 함
 
-## <a name="may-2019-power-bi-report-server"></a>2019년 5월 Power BI Report Server
+### <a name="power-bi-report-server"></a>Power BI Report Server
 
-### <a name="support-for-trusted-visuals"></a>신뢰할 수 있는 시각적 개체에 대한 지원
+#### <a name="support-for-trusted-visuals"></a>신뢰할 수 있는 시각적 개체에 대한 지원
 
 Power BI Report Server에 신뢰할 수 있는 시각적 개체에 대한 지원이 추가되었습니다. 현재 Mapbox 및 PowerOn 시각적 개체가 지원됩니다. ESRI, Visio 및 PowerApps는 이 릴리스에서 지원되지 않습니다.)
 
-### <a name="improved-security-features"></a>향상된 보안 기능
+#### <a name="improved-security-features"></a>향상된 보안 기능
 
 **RestrictedResourceMimeTypeForUpload**. 관리자가 금지된 MIME 형식(예: text/html)의 쉼표로 구분된 목록을 지정하는 데 사용할 수 있습니다.
 
@@ -162,7 +309,7 @@ Power BI 보고서에서 다음 기능 지원:
 
 [ **.pbix 파일 간에 복사 및 붙여넣기**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) 시각적 개체의 컨텍스트 메뉴에서 또는 표준 Ctrl+C 바로 가기 키를 사용하여 .pbix 파일 간에 시각적 개체를 복사하고 Ctrl+V를 사용하여 다른 보고서에 붙여넣을 수 있습니다.
 
-[**스마트 맞춤 가이드**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) PowerPoint에서 볼 수 있는 것처럼 보고서 페이지에서 개체를 이동할 때 페이지의 모든 항목을 정렬하는 데 도움이 되는 스마트 맞춤 가이드가 표시됩니다. 페이지의 있는 항목을 드래그하거나 크기를 조정할 때마다 스마트 가이드를 볼 수 있습니다. 다른 개체 근처에서 개체를 이동하면 다른 개체와 정렬된 위치로 스냅됩니다.
+[**스마트 맞춤 가이드**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) PowerPoint에서 볼 수 있는 것처럼 보고서 페이지에서 개체를 이동할 때 페이지의 모든 항목을 정렬하는 데 도움이 되는 스마트 맞춤 가이드가 표시됩니다. 페이지에 있는 항목을 드래그하거나 크기를 조정할 때마다 스마트 가이드를 볼 수 있습니다. 다른 개체 근처에서 개체를 이동하면 다른 개체와 정렬된 위치로 스냅됩니다.
 
 **내게 필요한 옵션 기능** 목록에 내게 필요한 옵션 기능이 너무 많습니다(예: [필드 목록 창 내게 필요한 옵션 지원](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)). 필드 목록 창에 완전히 액세스할 수 있습니다. 키보드 및 화면 reader만 사용하여 창 주위를 탐색하고 컨텍스트 메뉴를 사용하여 보고서 페이지에 필드를 추가할 수 있습니다.
 
@@ -176,7 +323,7 @@ Power BI 보고서에서 다음 기능 지원:
 
 **AllowedResourceExtensionsForUpload** 보고서 서버에 업로드할 수 있는 리소스 확장을 설정합니다. &ast;.rdl 및 &ast;.pbix와 같은 기본 제공 파일 형식에 대한 확장을 포함할 필요가 없습니다. 기본값은 “&ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt, &ast;.pptx”입니다. 
 
-**SupportedHyperlinkSchemes** 렌더링할 수 있는 하이퍼링크 작업에서 정의할 수 있도록 허용된 URI 구성표의 쉼표로 구분된 목록을 설정하거나 모든 하이퍼링크 구성표를 활성화하는 데 “&ast;”를 설정합니다. 예를 들어 “http,https”를 설정하면 “https://www contoso.com”에 대한 하이퍼링크가 허용되지만 “mailto:bill@contoso.com” 또는 “javascript:window.open(‘www.contoso.com’, ‘_blank’)”에 대한 하이퍼링크를 제거합니다. 기본값은 “&ast;”입니다.
+**SupportedHyperlinkSchemes** 렌더링할 수 있는 하이퍼링크 작업에서 정의할 수 있도록 허용된 URI 구성표의 쉼표로 구분된 목록을 설정하거나 모든 하이퍼링크 구성표를 활성화하는 데 “&ast;”를 설정합니다. 예를 들어 “http, https”를 설정하면 “https://www. contoso.com”에 대한 하이퍼링크가 허용되지만 “mailto:bill@contoso.com” 또는 “javascript:window.open(‘ www.contoso.com’, ‘_blank’)”에 대한 하이퍼링크를 제거합니다. 기본값은 “&ast;”입니다.
 
 ## <a name="august-2018"></a>2018년 8월
 
@@ -254,7 +401,7 @@ Kerberos에서 SAP HANA SSO 직접 쿼리 지원은 Power BI 보고서에 대해
 - [유연성과 서식 지정이 추가된 새로운 시각적 개체 헤더](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#visualHeader)
 - [배경 화면 서식 지정](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#wallpaper)
 - [테이블 및 행렬에 대한 도구 설명](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#tableTooltips)
-- [시각적 개체에 대한 도구 설명 해제](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#tooltips)
+- [시각적 개체에 대한 도구 설명 끄기](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#tooltips)
 - [슬라이서 내게 필요한 옵션](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#slicerAccessibility)
 - [서식 지정 창 향상된 기능](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#formattingPane)
 - [선 및 콤보 차트에 대한 단계별 선 지원](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#steppedLine)
@@ -392,7 +539,7 @@ Power BI Report Server에서 예약된 데이터 새로 고침을 설정하여 �
 
 ### <a name="editing-power-bi-reports-from-the-server"></a>서버에서 Power BI 보고서 편집
 
-서버에서 Power BI 보고서(.pbix) 파일을 열고 편집할 수 있지만 업로드한 원래 파일을 다시 가져옵니다.  즉, **서버에서 데이터를 새로 고친 경우 파일을 처음 열 때 데이터는 새로 고쳐지지 않습니다**. 변경 내용을 확인하려면 수동으로 로컬에서 새로 고쳐야 합니다.
+서버에서 Power BI 보고서(.pbix) 파일을 열고 편집할 수 있지만 업로드한 원래 파일을 다시 가져옵니다. **서버에서 데이터를 새로 고친 경우 파일을 처음 열 때 데이터는 새로 고쳐지지 않습니다**. 변경 내용을 확인하려면 수동으로 로컬에서 새로 고쳐야 합니다.
 
 ### <a name="large-file-uploaddownload"></a>큰 파일 업로드/다운로드
 
@@ -416,7 +563,7 @@ OData 피드로 Power BI Desktop에서 공유 데이터 세트에 액세스할 �
 * MaxFileSizeMb: 기본값은 1000
 * ModelCleanupCycleMinutes: 메모리에서 모델을 제거하기 위해 확인하는 주기
 * ModelExpirationMinutes: 마지막으로 사용된 시간에 따라 모델 만료 및 모델 제거까지 남은 시간
-* ScheduleRefreshTimeoutMinutes: 모델에 대해 적용할 수 있는 데이터 새로 고침 기간 기본적으로 2시간입니다.  하드 상한 제한은 없습니다.
+* ScheduleRefreshTimeoutMinutes: 모델에 대해 적용할 수 있는 데이터 새로 고침 기간 기본값은 2시간입니다.  하드 상한 제한은 없습니다.
 
 **구성 파일 rsreportserver.config**
 
@@ -472,7 +619,6 @@ Power BI Report Server는 이제 새 Power BI 테이블 및 행렬 시각적 개
 이러한 원본을 확인하여 Power BI Report Server의 새로운 기능을 최신 상태로 유지합니다.
 
 * [Microsoft Power BI 블로그](https://powerbi.microsoft.com/blog/)
-* [SQL Server Reporting Services 팀 블로그](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
 * [큐브에서 Guy YouTube 채널](https://aka.ms/guyinacube)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
