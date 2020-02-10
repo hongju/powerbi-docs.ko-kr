@@ -177,7 +177,7 @@ Power BI Desktop의 쿼리 편집기에서는 오른쪽 클릭 메뉴와 **변�
 
 1. 마지막 **적용된 단계**인 **정렬된 행 수**를 선택합니다. 
 
-   Arizona의 새 순위와 관련해서 데이터가 변경된 것을 확인합니다. 이 순위 변경은 **사용자 지정 추가됨** 단계 앞의 올바른 위치에 **값 바뀜** 단계를 삽입했기 때문입니다.
+   Arizona의 새 순위와 관련해서 데이터가 변경된 것을 확인합니다. 이 순위 변경은 **추가된 사용자 지정** 단계 앞의 올바른 위치에 **바꾼 값** 단계를 삽입했기 때문입니다.
 
 1. 마지막으로, 해당 테이블의 이름을 설명이 포함된 다른 이름으로 변경하려고 합니다. **쿼리 설정** 창의 **속성** 아래에 테이블의 새 이름을 입력하고 **입력**을 선택합니다. 이 테이블의 이름을 *RetirementStats*로 지정합니다.
 
@@ -200,7 +200,7 @@ Power BI Desktop의 쿼리 편집기에서는 오른쪽 클릭 메뉴와 **변�
 
     ![탐색기 페이지](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator2.png)
 
-1. **코드 및 약어**를 선택합니다. 
+1. **Codes and abbreviations**를 선택합니다. 
 
    > [!TIP]
    > 이 테이블의 데이터를 원하는 항목으로 줄이려면 상당한 셰이핑이 필요합니다. 아래 단계를 수행하는 더 빠르거나 쉬운 방법이 있나요? 예, 두 테이블 간의 관계를 만들고 해당 관계를 기반으로 데이터의 모양을 지정할 수 있습니다.  다음 단계도 테이블 작업 방법을 배우는 데 유용하지만, 관계를 통해 여러 테이블의 데이터를 빠르게 사용할 수 있습니다.
@@ -222,7 +222,7 @@ Power BI Desktop의 쿼리 편집기에서는 오른쪽 클릭 메뉴와 **변�
 
     ![하위 행 제거 선택](media/desktop-shape-and-combine-data/shapecombine_removebottomrows.png)
 
-1. RetirementStats 테이블에는 워싱턴 DC 정보가 없으므로 목록에서 필터링해야 합니다. **영역 상태** 드롭다운을 선택하고 **연방 구역** 옆에 있는 확인란의 선택을 취소합니다.
+1. RetirementStats 테이블에는 워싱턴 DC 정보가 없으므로 목록에서 필터링해야 합니다. **Region Status** 드롭다운을 선택하고 **Federal district** 옆에 있는 확인란의 선택을 취소합니다.
 
     ![연방 구역 확인란 선택 취소](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
