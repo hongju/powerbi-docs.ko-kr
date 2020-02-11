@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/23/2020
-ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819563"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026718"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -160,7 +160,7 @@ Azure Active Directory 애플리케이션 프록시를 사용하면 더 이상 �
 
 #### <a name="custom-headers"></a>사용자 지정 헤더
 
-지정된 regex 패턴과 일치하는 모든 URL에 대한 헤더 값을 설정합니다. 사용자는 유효한 XML로 사용자 지정 헤더 값을 업데이트하여 선택한 요청 URL에 대한 헤더 값을 설정할 수 있습니다. 관리자는 XML에 원하는 수의 헤더를 추가할 수 있습니다. 자세한 내용은 Reporting Services **서버 속성 고급 페이지** 문서에서 [사용자 지정 헤더](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers)를 참조하세요.
+지정된 regex 패턴과 일치하는 모든 URL에 대한 헤더 값을 설정합니다. 사용자는 유효한 XML로 사용자 지정 헤더 값을 업데이트하여 선택한 요청 URL에 대한 헤더 값을 설정할 수 있습니다. 관리자는 XML에 원하는 수의 헤더를 추가할 수 있습니다. 자세한 내용은 Reporting Services **서버 속성 고급 페이지** 문서의 [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders)를 참조하세요.
 
 #### <a name="transparent-database-encryption"></a>투명한 데이터베이스 암호화
 

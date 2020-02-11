@@ -86,7 +86,7 @@ Power BI 서비스 및 Power BI Desktop 샘플이 제공됩니다. 과정을 따
    
    ![소매점 분석 샘플 데이터 세트 항목](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
    
-1. 데이터 세트를 탐색하는 한 가지 방법은 처음부터 고유한 시각화 및 보고서를 만드는 것입니다. 차트 아이콘 ![차트 아이콘](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png)을 선택하여 보고서 편집 모드에서 데이터 세트를 엽니다.
+1. 데이터 세트를 탐색하는 한 가지 방법은 처음부터 고유한 시각화 및 보고서를 만드는 것입니다. 차트 아이콘 ![차트 아이콘](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) 을 선택하여 보고서 편집 모드에서 데이터 세트를 엽니다.
      
    ![새 보고서](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
 
