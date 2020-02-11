@@ -11,10 +11,10 @@ ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 1976567029454445f625ff400fb1d87ae6c01219
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74698420"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>오류: Excel 통합 문서에서 데이터를 찾을 수 없음
@@ -41,7 +41,7 @@ Excel에서 셀 범위를 벗어난 **표**를 만들어 데이터를 더 쉽게
 
 Excel 통합 문서를 가져오면 Power BI에서 이러한 표를 찾아 데이터 세트로 가져옵니다. 표를 찾지 못하는 경우 이 오류 메시지가 표시됩니다.
 
-### <a name="solution"></a>해결 방법
+### <a name="solution"></a>솔루션
 1. Excel에서 통합 문서를 엽니다. 
     >[!NOTE]
     >여기서 사용된 그림은 Excel 2013용입니다. 다른 버전을 사용하는 경우 약간 다르게 표시될 수 있지만 단계는 동일합니다.

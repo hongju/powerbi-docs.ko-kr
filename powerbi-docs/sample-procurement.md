@@ -10,10 +10,10 @@ ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873867"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 조달 분석 샘플: 둘러보기
@@ -91,7 +91,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
    * **Indirect Goods & Services**(간접 상품 및 서비스) 열을 선택합니다.
 
       보시다시피 가장 큰 지출은 **Sales & Marketing**(판매 및 마케팅) 하위 범주에 속합니다.
-   * 지도에서 **멕시코** 를 다시 선택합니다.
+   * 지도에서 **멕시코**를 다시 선택합니다.
 
       멕시코의 경우 가장 큰 지출은 **유지 관리 및 보수** 하위 범주에 속합니다.
 

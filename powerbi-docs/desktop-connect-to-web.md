@@ -1,6 +1,6 @@
 ---
 title: Power BI Desktop에서 웹 페이지에 연결
-description: Power BI Desktop에서 웹 페이지 데이터에 쉽게 연결하고 사용
+description: Power BI Desktop에서 쉽게 웹 페이지에 연결하여 웹 페이지 데이터 사용
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 139cdcfe9629afb25a78bf50ae7714db670721e3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f76d3e61c3817d3e5ab4480c935abe4dc7346e54
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878448"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761522"
 ---
-# <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Power BI Desktop에서 웹 페이지에 연결
+# <a name="connect-to-webpages-from-power-bi-desktop"></a>Power BI Desktop에서 웹 페이지에 연결
+
 웹 페이지에 연결하고 해당 데이터를 Power BI Desktop으로 가져와 시각적 개체 및 데이터 모델에서 사용할 수 있습니다.
 
 Power BI Desktop의 **홈** 리본에서 **데이터 가져오기 > 웹**을 선택합니다.

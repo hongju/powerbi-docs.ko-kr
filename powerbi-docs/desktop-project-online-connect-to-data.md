@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e3bb5f3527da11f781892fae23ae369edfe4676b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 815566f715bb4544fc4b002ea2c31e21e2684792
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877995"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760822"
 ---
-# <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: Power BI Desktop을 통해서 데이터에 연결
+# <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Power BI Desktop을 통해 Project Online 데이터에 연결
 Power BI Desktop을 통해 Project Online의 데이터에 연결할 수 있습니다.
 
 ## <a name="step-1-download-power-bi-desktop"></a>1단계: Power BI Desktop 다운로드

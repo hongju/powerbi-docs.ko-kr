@@ -1,4 +1,4 @@
----
+﻿---
 title: '자습서:  Power BI를 사용하여 GitHub 리포지토리에 연결'
 description: 이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다.
 author: maggiesMSFT

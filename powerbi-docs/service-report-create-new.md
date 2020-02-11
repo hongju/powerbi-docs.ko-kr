@@ -10,17 +10,17 @@ ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871761"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>데이터 세트를 가져와 Power BI 서비스에서 보고서 만들기
 지금까지 [Power BI의 보고서](consumer/end-user-reports.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 다양한 방법으로 보고서를 만들 수 있습니다. 이 문서에서는 먼저 Excel 데이터 세트로 Power BI 서비스에서 기본 보고서를 만듭니다. 보고서를 만들기 위한 기본 사항을 파악했으면, 끝에 있는 [다음 단계](#next-steps)에서 더 높은 수준의 보고서 항목을 확인합니다.  
 
 ## <a name="prerequisites"></a>필수 조건
-- [Power BI 서비스에 등록](service-self-service-signup-for-power-bi.md)합니다. Power BI Desktop을 사용하여 보고서를 만드는 경우 [Desktop 보고서 뷰](desktop-report-view.md)를 참조하세요. 
+- [Power BI 서비스에 등록](service-self-service-signup-for-power-bi.md)합니다. Power BI Desktop을 사용하여 보고서를 만드는 경우 [Desktop 보고서 보기](desktop-report-view.md)를 참조하세요. 
 - [소매점 분석 샘플 Excel 데이터 세트를 다운로드](https://go.microsoft.com/fwlink/?LinkId=529778)하여 비즈니스용 OneDrive 또는 로컬에 저장합니다.
 
 ## <a name="import-the-dataset"></a>데이터 세트 가져오기

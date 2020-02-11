@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/03/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4ce5eab22538b7abdded2759a4a072fd500575ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699225"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "75000115"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Power BI 서비스에서 온-프레미스 데이터 원본으로 Kerberos 기반 SSO 구성
 
@@ -66,6 +66,22 @@ SPN 및 Kerberos 위임 설정을 구성하기 위해 도메인 관리자가 도
    ```setspn -a gateway/MyGatewayMachine Contoso\GatewaySvc```
 
    **Active Directory 사용자 및 컴퓨터** MMC 스냅인을 사용하여 SPN을 설정할 수도 있습니다.
+   
+### <a name="add-gateway-service-account-to-windows-authorization-and-access-group-if-required"></a>필요한 경우 Windows Authorization and Access Group 그룹에 게이트웨이 서비스 계정 추가
+
+특정 시나리오에서는 Windows Authorization and Access Group에 게이트웨이 서비스 계정을 추가해야 합니다. 이러한 시나리오에는 Active Directory 환경의 보안을 강화하는 경우, 게이트웨이 서비스 계정 및 게이트웨이에서 가장할 사용자 계정이 별도의 도메인이나 포리스트에 있는 경우가 포함됩니다. 도메인/포리스트가 강화되지 않은 상황에도 Windows Authorization and Access Group에 게이트웨이 서비스 계정을 추가할 수 있지만 반드시 필요한 것은 아닙니다.
+
+자세한 내용은 [Windows Authorization and Access Group](/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-winauthaccess)을 참조하세요.
+
+이 구성 단계를 완료하려면 게이트웨이 서비스 계정이 가장할 수 있는 Active Directory 사용자를 포함하는 각 도메인에 대해 다음을 수행합니다.
+1. 도메인의 컴퓨터에 로그인하고 Active Directory 사용자 및 컴퓨터 MMC 스냅인을 시작합니다.
+2. **Windows Authorization and Access Group** 그룹을 찾습니다(일반적으로 **Builtin** 컨테이너에 있음).
+3. 그룹을 두 번 클릭하고 **구성원** 탭을 클릭합니다.
+4. **추가**를 클릭하고 도메인 위치를 게이트웨이 서비스 계정이 있는 도메인으로 변경합니다.
+5. 게이트웨이 서비스 계정 이름을 입력하고 **이름 확인**을 클릭하여 이 게이트웨이 서비스 계정에 액세스할 수 있는지 확인합니다.
+6. **확인**을 클릭합니다.
+7. **적용**을 클릭합니다.
+8. 게이트웨이 서비스를 다시 시작합니다.
 
 ### <a name="decide-on-the-type-of-kerberos-constrained-delegation-to-use"></a>사용할 Kerberos 제한 위임 유형 결정
 

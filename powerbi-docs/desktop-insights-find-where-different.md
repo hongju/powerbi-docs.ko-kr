@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bb4e177ff813c332c8b60b490ead1f6d97a03935
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 33fc0faf92d1730c1d08f91eabc276cdafadfffb
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867123"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761114"
 ---
-# <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Power BI Desktop에서 인사이트를 사용하여 분포가 다른 곳 찾기(미리 보기)
+# <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Power BI Desktop에서 인사이트를 적용하여 분포가 다른 곳 찾기(미리 보기)
 
 종종 시각적 개체에서, 데이터 요소를 보고 다른 범주에 대해 분포가 같을지 여부가 궁금합니다. **Power BI Desktop**에서 **인사이트**를 통해, 몇 번의 클릭으로 알아낼 수 있습니다.
 

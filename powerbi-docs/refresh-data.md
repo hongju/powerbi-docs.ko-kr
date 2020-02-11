@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791671"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76039046"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI에서 데이터 새로 고침
 
@@ -108,7 +108,7 @@ OneDrive 또는 SharePoint Online에서 Power BI Desktop 파일, Excel 통합 �
 Power BI가 데이터를 데이터 원본에서 데이터 세트로 가져오는 동안의 데이터 세트 새로 고침과 달리 OneDrive 새로 고침은 데이터 세트 및 보고서를 원본 파일과 동기화합니다. 기본적으로 Power BI는 OneDrive 또는 SharePoint Online의 파일에 연결된 데이터 세트에 동기화가 필요한지 여부를 약 1시간마다 확인합니다.
 
 > [!IMPORTANT]
-> OneDrive에서 파일 관리를 처리하는 방법에 주의해야 합니다. OneDrive 파일을 데이터 원본으로 설정하는 경우 Power BI는 새로 고침을 수행할 때 파일의 항목 ID를 참조하여 일부 시나리오에서 문제가 발생할 수 있습니다. 마스터 파일 _A_와 해당 파일의 프로덕션 복사본 _B_가 있고 파일 B에 대해 OneDrive 새로 고림을 구성하는 시나리오를 가정해 보겠습니다. 그런 다음, 파일 A를 파일 B에 _‘복사’_ 하면 복사 작업에서 이전 파일 B를 삭제하고 다른 항목 ID를 사용하여 새 파일 B를 만들어 OneDrive 새로 고침을 중단합니다. 대신 파일 B를 업로드하고 대체하여 동일한 항목 ID를 유지해야 합니다.
+> OneDrive에서 파일 관리를 처리하는 방법에 주의해야 합니다. OneDrive 파일을 데이터 원본으로 설정하는 경우 Power BI는 새로 고침을 수행할 때 파일의 항목 ID를 참조하여 일부 시나리오에서 문제가 발생할 수 있습니다. 마스터 파일 _A_와 해당 파일의 프로덕션 복사본 _B_가 있고 파일 B에 대해 OneDrive 새로 고침을 구성하는 시나리오를 가정해 보겠습니다. 그런 다음, 파일 A를 파일 B에 _‘복사’_ 하면 복사 작업에서 이전 파일 B를 삭제하고 다른 항목 ID를 사용하여 새 파일 B를 만들어 OneDrive 새로 고침을 중단합니다. 대신 파일 B를 업로드하고 대체하여 동일한 항목 ID를 유지해야 합니다.
 
 끌어서 놓기를 사용하는 경우처럼 파일을 다른 위치로 이동하면 PBI에서 fileID를 계속 알고 있기 때문에 새로 고침이 계속 작동합니다. 그러나 해당 파일을 다른 위치에 복사하면 파일의 새 인스턴스와 새 fileID가 만들어집니다. 따라서 Power BI 파일 참조가 더 이상 유효하지 않게 되고 새로 고침이 실패합니다.
 
@@ -317,10 +317,9 @@ Power BI는 새로 고침이 실패하는 경우뿐만 아니라 서비스가 �
 
 ## <a name="automatic-page-refresh"></a>자동 페이지 새로 고침
 
-자동 페이지 새로 고침은 보고서 페이지 수준에서 작동하며, 보고서 작성자는 페이지를 사용 중인 경우에만 활성화되는 페이지의 시각적 개체에 대한 새로 고침 간격을 설정할 수 있습니다. 자동 페이지 새로 고침은 DirectQuery 데이터 원본에 대해서만 사용할 수 있습니다. 최소 새로 고침 간격은 보고서가 게시된 작업 영역 유형과 프리미엄 작업 영역에 대한 용량 관리 설정에 따라 달라집니다.
+자동 페이지 새로 고침은 보고서 페이지 수준에서 작동하며, 보고서 작성자는 페이지를 사용 중인 경우에만 활성화되는 페이지의 시각적 개체에 대한 새로 고침 간격을 설정할 수 있습니다. 자동 페이지 새로 고침은 DirectQuery 데이터 원본에 대해서만 사용할 수 있습니다. 최소 새로 고침 간격은 보고서가 게시된 작업 영역 유형과 Premium 작업 영역 및 [포함된 작업 영역](developer/embedding.md)에 대한 용량 관리 설정에 따라 달라집니다.
 
 자동 페이지 새로 고침에 대한 자세한 내용은 [자동 페이지 새로 고침](desktop-automatic-page-refresh.md) 문서를 참조하세요.
-
 
 ## <a name="best-practices"></a>모범 사례
 

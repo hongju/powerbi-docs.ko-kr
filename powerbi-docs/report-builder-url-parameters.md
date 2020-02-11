@@ -1,6 +1,6 @@
 ---
 title: 페이지를 매긴 보고서의 URL 매개 변수 - Power BI 보고서 작성기
-description: 이 토픽에서는 Power BI 페이지를 매긴 보고서 작성기 보고서 매개 변수의 일반적인 용도, 설정할 수 있는 속성 등에 대해 설명합니다.
+description: 이 토픽에서는 Power BI 보고서 작성기 보고서 매개 변수의 일반적인 용도와 설정할 수 있는 속성 등에 대해 설명합니다.
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/10/2019
-ms.openlocfilehash: e39864081ce4dd1ad415224454b75404e882e9ce
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 35df214da19d5f35130408ce8128643f52682428
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128317"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953785"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서의 URL 매개 변수
 
@@ -35,7 +35,7 @@ Power BI에 대한 URL 요청은 서비스에서 처리하는 매개 변수를 �
 
 ## <a name="url-access-syntax"></a>URL 액세스 구문 
 
-URL 요청에는 임의의 순서로 나열된 여러 매개 변수가 포함될 수 있습니다. 매개 변수는 앰퍼샌드(&)로 구분됩니다. 이름 및 값 쌍은 등호(=)로 구분됩니다. 예:
+URL 요청에는 임의의 순서로 나열된 여러 매개 변수가 포함될 수 있습니다. 매개 변수는 앰퍼샌드(&)로 구분됩니다. 이름 및 값 쌍은 등호(=)로 구분됩니다. 다음은 그 예입니다.
 
 ```
 powerbiserviceurl?rp:parametervalueh&rdl:parameter=value  
@@ -45,7 +45,7 @@ powerbiserviceurl?rp:parametervalueh&rdl:parameter=value
 
 ### <a name="powerbiserviceurl"></a>powerbiserviceurl 
 
-Power BI 테넌트의 웹 서비스 URL입니다. 예: 
+Power BI 테넌트의 웹 서비스 URL입니다. 다음은 그 예입니다. 
 
 **&** URL 액세스 매개 변수의 이름 및 값 쌍을 구분하는 데 사용됩니다.
 
@@ -72,7 +72,7 @@ URL에 보고서 매개 변수를 전달하는 예는  [URL에 보고서 매�
  
 - PPTX(PowerPoint)
 - MHTML 
-- 이미지 
+- IMAGE 
 - EXCELOPENXML(EXCEL) 
 - WORDOPENXML(WORD) 
 - CSV 

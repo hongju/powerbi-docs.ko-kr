@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874194"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540593"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 데이터 원본
 Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다. DirectQuery 또는 SQL Server Analysis Services에 대한 라이브 연결을 사용하여 데이터를 가져오거나 데이터를 직접 쿼리할 수 있습니다.
@@ -202,12 +202,12 @@ Power BI Report Server는 DirectQuery를 위한 OAuth 기반 인증을 지원하
 | Azure SQL Data Warehouse |아니요 |아니요 |예 |아니요 |아니요 |
 | Oracle 데이터베이스 |아니요 |아니요 |예 |예 |예 |
 | SAP Business Warehouse 서버 |아니요 |아니요 |예 |아니요 |아니요 |
-| SAP HANA 데이터베이스 |아니요 |아니요 |예 |예 |아니요 |
+| SAP HANA 데이터베이스 |아니요 |아니요 |예 |예 |예** |
 | Teradata |아니요 |아니요 |예 |예 |예 |
 
+**SAP HANA는 게시된 Power BI Desktop 파일(.pbix)에서 관계형 데이터베이스로 사용하는 경우에만 Windows 통합 인증을 사용하여 DirectQuery를 지원합니다.
 
 ## <a name="next-steps"></a>다음 단계
 데이터 원본에 연결했으므로 데이터 원본의 데이터를 사용하여 [Power BI 보고서를 만듭니다](quickstart-create-powerbi-report.md).
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

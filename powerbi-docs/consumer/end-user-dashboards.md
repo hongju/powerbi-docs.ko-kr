@@ -10,10 +10,10 @@ ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: a4fbf56a796a30c2d8a718411e3363238a9c2bb2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73851858"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI 서비스 소비자에 대한 대시보드
@@ -47,7 +47,7 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 | **기능** | **대시보드** | **보고서** |
 | --- | --- | --- |
 | 페이지 |한 페이지 |한 페이지 이상 |
-| 데이터 소스 |대시보드당 보고서 및 데이터 세트 모두 하나 이상 |보고서당 단일 데이터 세트 |
+| 데이터 원본 |대시보드당 보고서 및 데이터 세트 모두 하나 이상 |보고서당 단일 데이터 세트 |
 | 필터링 |필터링 또는 조각화 불가능 |필터링, 강조 표시 및 조각화를 위한 다양한 방법 |
 | 경고 설정 |특정 조건이 충족되는 경우 전자 메일 경고를 만들 수 있음 |아니요 |
 | 주요 |하나의 대시보드를 “주요” 대시보드로 설정할 수 있음 |주요 보고서를 만들 수 없음 |

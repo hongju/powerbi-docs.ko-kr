@@ -9,24 +9,27 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c126b073ac80a470733d7d8dd2638da28a06b265
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 2a17e4963d4607b67279f65205579e115df2e550
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882816"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026649"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
-Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합하므로 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안전하게 배포하고 내부 데이터에 대한 제어를 유지 관리할 수 있습니다.  
+Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합하므로 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안전하게 배포하고 내부 데이터에 대한 제어를 유지 관리할 수 있습니다. 또한 조직의 외부 게스트 사용자가 조직의 콘텐츠를 편집하고 관리할 수 있도록 허용할 수 있습니다.
 
-또한 조직의 외부 게스트 사용자가 조직의 콘텐츠를 편집하고 관리할 수 있도록 허용할 수 있습니다.
+이 문서에서는 Power BI의 Azure AD B2B 기본 사항을 소개합니다. 자세한 내용은 [Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포](whitepaper-azure-b2b-power-bi.md)를 참조하세요.
 
 ## <a name="enable-access"></a>액세스 사용
 
-게스트 사용자를 초대하기 전에 Power BI 관리 포털에서 [외부 사용자와 콘텐츠 공유](service-admin-portal.md#export-and-sharing-settings) 기능을 사용하도록 설정합니다.
+게스트 사용자를 초대하기 전에 Power BI 관리 포털에서 [외부 사용자와 콘텐츠 공유](service-admin-portal.md#export-and-sharing-settings) 기능을 사용하도록 설정합니다. 이 옵션을 사용하는 경우에도 사용자는 게스트 사용자를 초대하기 위해 Azure Active Directory에 권한이 있어야 하며, 이 권한은 게스트 초대자 역할을 통해 부여할 수 있습니다. 
 
 [외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 기능을 사용할 수도 있습니다. 이 기능을 사용하면 조직의 Power BI 탐색을 포함하여 작업 영역에 있는 콘텐츠를 보고 만들 수 있는 게스트 사용자를 선택할 수 있습니다.
+
+> [!NOTE]
+> [외부 사용자와 콘텐츠 공유](service-admin-portal.md#export-and-sharing-settings) 설정은 Power BI를 통해 외부 사용자를 조직에 초대할 수 있는지 여부를 제어합니다. 외부 사용자가 초대를 수락하면 조직에서 Azure AD B2B 게스트 사용자가 됩니다. 이러한 사용자는 Power BI 환경 전반에서 사용자 선택기에 표시됩니다. 이 설정을 해제할 경우 조직의 기존 게스트 사용자는 액세스 권한이 있는 모든 항목에 계속 액세스할 수 있으며, 계속해서 사용자 선택기에 나열됩니다. 또한 계획 초대 방식을 통해 게스트를 추가하는 경우 해당 게스트가 사용자 선택기에도 표시됩니다. 게스트 사용자가 Power BI에 액세스하지 못하게 하려면 Azure AD 조건부 액세스 정책을 사용할 수 있습니다.
 
 ## <a name="who-can-you-invite"></a>누구를 초대할 수 있나요?
 
@@ -37,6 +40,12 @@ Power BI는 Azure AD B2B(Azure Active Directory Business-to-business)를 통합�
 ## <a name="invite-guest-users"></a>게스트 사용자 초대
 
 게스트 사용자를 조직에 최초로 초대할 때만 초대가 필요합니다. 계획 초대 및 임시 초대의 두 가지 방법으로 게스트 사용자를 초대할 수 있습니다.
+
+Power BI에서 다음 기능을 통해 게스트 사용자를 초대할 수 있습니다.
+* 보고서 및 대시보드 공유
+* 앱 액세스 목록
+
+Azure AD에서 아직 게스트가 아닌 외부 사용자를 작업 영역에 추가해야 하는 경우 아래 제안된 계획 초대 방법을 사용할 수 있습니다. 
 
 ### <a name="planned-invites"></a>계획 초대
 
@@ -74,6 +83,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 게스트 사용자가 해당 조직 이메일 주소로 로그인해야 합니다. 로그인 후 초대를 수락하라는 메시지가 표시됩니다. 로그인 후 게스트 사용자를 위해 앱이 열립니다. 앱으로 돌아가려면 링크를 책갈피로 표시하거나, 메일을 저장합니다.
 
+
 ## <a name="licensing"></a>라이선싱
 
 게스트 사용자가 공유된 콘텐츠를 보려면 적합한 라이선싱이 있어야 합니다. 사용자에게 적합한 라이선싱이 있도록 하는 방법에는 Power BI Premium 사용, Power BI Pro 라이선스 할당, 게스트의 Power BI Pro 라이선스 사용 등 세 가지가 있습니다.
@@ -88,7 +98,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>게스트 사용자에게 Power BI Pro 라이선스 할당
 
-테넌트 안에서 게스트 사용자에게 Power BI Pro 라이선스를 할당하면 게스트 사용자가 테넌트의 콘텐츠를 볼 수 있습니다.
+테넌트 내의 게스트 사용자에게 Power BI Pro 라이선스를 할당하면 게스트 사용자가 테넌트의 콘텐츠를 볼 수 있습니다. 라이선스 할당 방법에 대한 자세한 내용은 [라이선스 페이지에서 사용자에게 라이선스 할당](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)을 참조하세요. 게스트 사용자에게 Pro 라이선스를 할당하기 전에 Microsoft 계정 담당자에게 문의하여 Microsoft 계약 조건을 준수하고 있는지 확인합니다.
 
 ![테넌트에서 Pro 라이선스를 할당한 경우 게스트 사용자 환경 다이어그램.](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
@@ -98,7 +108,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 ![게스트 사용자 라이선스를 사용한 경우 게스트 사용자 환경 다이어그램.](media/service-admin-azure-ad-b2b/license-approach-3.png)
 
-## <a name="guest-users-who-can-edit-and-manage-content"></a>콘텐츠를 편집하고 관리할 수 있는 게스트 사용자 
+## <a name="guest-users-who-can-edit-and-manage-content"></a>콘텐츠를 편집하고 관리할 수 있는 게스트 사용자
 
 [외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 기능을 사용하는 경우, 지정된 게스트 사용자는 조직의 Power BI에 액세스하고 권한이 있는 모든 콘텐츠를 볼 수 있습니다. 지정된 게스트 사용자는 홈에 액세스하고, 작업 영역을 찾아보며, 앱을 설치하고, 액세스 목록에서 앱이 어디에 있는지 살펴보거나 작업 영역에 콘텐츠를 제공할 수 있습니다. 또 새로운 작업 영역 환경을 사용하는 작업 영역의 관리자를 만들거나 관리자가 될 수 있습니다. 몇 가지 제한 사항이 적용됩니다. 고려 사항 및 제한 사항 섹션 목록에는 이러한 제한 사항을 확인할 수 있습니다.
  
@@ -128,7 +138,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
     * 게스트 사용자는 전체 조직에 게시된 앱을 설치할 수 없습니다.
     * 게스트 사용자는 조직 콘텐츠 팩을 사용, 생성, 업데이트 또는 설치할 수 없습니다.
     * 게스트 사용자는 Excel의 분석을 사용할 수 없습니다.
-    * 게스트 사용자는 댓글에서 @mention 대상이 될 수 없습니다.
+    * 게스트 사용자는 댓글에서 @mentioned 대상이 될 수 없습니다.
     * 게스트 사용자는 구독을 사용할 수 없습니다.
     * 이 기능을 사용하는 게스트 사용자는 회사 또는 학교 계정이 있어야 합니다. 
     
@@ -141,7 +151,10 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 * 외부 게스트 사용자가 전체 조직 내에서 수행할 수 있는 작업을 제한하는 Active Directory 설정이 있습니다. 이 설정은 Power BI 환경에도 적용됩니다. 다음 설명서에는 설정에 대해 설명되어 있습니다.
     * [외부 협업 설정 관리](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
-    * [특정 조직의 B2B 사용자 초대 허용 또는 차단](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)  
+    * [특정 조직의 B2B 사용자 초대 허용 또는 차단](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
+    * [게스트 사용자가 Power BI 서비스에 액세스할 수 있도록 허용 또는 차단](/azure/active-directory/conditional-access/overview)
+    
+* 조직 외부 공유는 국가별 클라우드에서 지원되지 않습니다. 대신, 외부 사용자가 콘텐츠에 액세스하는 데 사용할 수 있는 조직 내 사용자 계정을 만듭니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

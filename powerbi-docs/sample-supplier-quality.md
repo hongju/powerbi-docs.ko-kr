@@ -143,7 +143,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
     2013년보다 2014년에 원자재 결함이 더 많았습니다.  
 
     ![질문 및 답변 질문: 자재 유형, 연도, 전체 결함 수량 표시](media/sample-supplier-quality/supplier12.png)  
-6. 다음으로 질문을 _자재 유형, 연도, 총 **가동 중지 시간(분)** 으로 변경합니다_.  
+6. 다음으로 질문을 _show material types, year, and **total downtime minutes**_ 로 변경합니다.  
 
    ![질문 및 답변 질문: 자재 유형, 연도 및 총 가동 중지 시간(분) 표시](media/sample-supplier-quality/supplier13.png)
 

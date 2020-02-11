@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699685"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "75223773"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate 및 Power BI
 
-[Power Automate](https://flow.microsoft.com/documentation/getting-started)는 비즈니스 사용자가 사용하는 애플리케이션 및 SaaS 서비스 수가 증가함에 따라 워크플로 자동화를 위해 제공되는 SaaS입니다. Flow를 사용하면 즐겨 찾는 앱과 서비스(Power BI 포함)를 통합하여 작업을 자동화함으로써 알림 가져오기, 파일 동기화, 데이터 수집 등을 수행할 수 있습니다. 워크플로 자동화를 사용하면 반복 작업이 쉬워집니다.
+[Power Automate](https://docs.microsoft.com/power-automate/getting-started)는 비즈니스 사용자가 사용하는 애플리케이션 및 SaaS 서비스 수가 증가함에 따라 워크플로 자동화를 위해 제공되는 SaaS입니다. Flow를 사용하면 즐겨 찾는 앱과 서비스(Power BI 포함)를 통합하여 작업을 자동화함으로써 알림 가져오기, 파일 동기화, 데이터 수집 등을 수행할 수 있습니다. 워크플로 자동화를 사용하면 반복 작업이 쉬워집니다.
 
-[이제 Flow를 사용하여 시작합니다.](https://flow.microsoft.com/documentation/getting-started)
+[지금 바로 Flow를 시작합니다.](https://docs.microsoft.com/power-automate/getting-started)
 
-Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 메일을 전송 하는 흐름을 만드는 것을 감시합니다. 그런 다음 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
+Sirui가 Power BI 경고가 트리거될 때 동료에게 자세한 전자 메일을 보내는 흐름을 만드는 것을 시청합니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
@@ -42,20 +42,20 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
 3. **템플릿에서 만들기**를 선택합니다.
    
     ![내 흐름 메뉴 모음](media/service-flow-integration/power-bi-template.png)
-4. [검색] 상자를 사용하여 Power BI 템플릿을 찾고 **Power BI 데이터 경고가 트리거될 때 모든 대상 그룹에 전자 메일 보내기 > 계속**을 선택합니다.
+4. [검색] 상자를 사용하여 Power BI 템플릿을 찾고 **Power BI 데이터 경고가 트리거될 때 모든 대상 그룹에게 전자 메일 보내기 > 계속**을 선택합니다.
    
     ![검색 결과](media/service-flow-integration/power-bi-flow-alert.png)
 
 
 ### <a name="build-the-flow"></a>흐름 작성
-이 템플릿에는 트리거 1개(아일랜드의 새 올림픽 메달에 대한 Power BI 데이터 경고)와 작업 1개(메일 보내기)가 있습니다. 필드를 선택하면 Flow는 포함시킬 수 있는 동적 콘텐츠를 표시합니다.  이 예에서 타일 값 및 타일 URL이 메시지 본문에 포함되어 있습니다.
+이 템플릿에는 트리거 1개(아일랜드의 새 올림픽 메달에 대한 Power BI 데이터 경고)와 작업 1개(메일 보내기)가 있습니다. 필드를 선택하면 Flow는 포함시킬 수 있는 동적 콘텐츠를 표시합니다.  이 예에서 타일 값 및 타일 URL이 메시지 본문에 포함됩니다.
 
 ![흐름 템플릿](media/service-flow-integration/power-bi-template1.png)
 
 1. 트리거 드롭다운 목록에서 Power BI 데이터 경고를 선택합니다. **아일랜드의 새 메달**을 선택합니다. 경고를 만드는 방법을 알아보려면 [Power BI에서 데이터 경고](service-set-data-alerts.md)를 참조하세요.
    
    ![경고 드롭다운](media/service-flow-integration/power-bi-trigger-flow.png)
-2. 유효한 메일 주소를 하나 이상 입력하고 **편집**(아래에 표시) 또는 **Add dynamic content**(동적 콘텐츠 추가)를 선택합니다. 
+2. 유효한 메일 주소를 하나 이상 입력하고 **편집**(아래에 표시) 또는 **동적 콘텐츠 추가**를 선택합니다.  
    
    ![이메일 보내기 화면](media/service-flow-integration/power-bi-flow-email.png)
 
@@ -84,7 +84,7 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
 2. **내 흐름** > **빈 페이지에서 만들기**를 선택합니다.
    
    ![흐름 상위 메뉴 모음](media/service-flow-integration/power-bi-my-flows.png)
-3. [검색] 상자를 사용하여 Power BI 트리거를 찾고 **Power BI - 데이터 기반 경고가 트리거된 경우**를 선택합니다.
+3. [검색] 상자를 사용하여 Power BI 트리거를 찾고 **Power BI - 데이터 기반 경고가 트리거되는 시기**를 선택합니다.
 
 ### <a name="build-your-flow"></a>흐름 작성
 1. 드롭다운 목록에서 경고의 이름을 선택합니다.  경고를 만드는 방법을 알아보려면 [Power BI에서 데이터 경고](service-set-data-alerts.md)를 참조하세요.
@@ -107,7 +107,7 @@ Sirui에서 Power BI 경고가 트리거될 때 동료에게 자세한 전자 �
     ![흐름은 Outlook 알림을 트리거합니다.](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>다음 단계
-* [Power Automate 시작](https://flow.microsoft.com/documentation/getting-started/)
+* [Power Automate 시작](https://docs.microsoft.com/power-automate/getting-started/)
 * [Power BI 서비스에서 데이터 경고 설정](service-set-data-alerts.md)
 * [iPhone에서 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10용 Power BI 모바일 앱의 데이터 경고 설정](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

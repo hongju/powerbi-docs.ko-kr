@@ -9,18 +9,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8c28c5ee89ffee37c09db8dc6ffcd6fb90274786
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: f11636de003aaab2d10d595b3c2b0230e373410c
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102091"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "74999839"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI의 조직 시각적 개체
 
 Power BI에서 Power BI 시각적 개체를 사용하여 사용자에게 맞는 고유한 유형의 시각적 개체를 만들 수 있습니다. Power BI 시각적 개체는 Power BI에 포함된 수많은 시각적 개체로도 요구 사항이 충족되지 않을 때 개발자가 만듭니다.
 
-일부 조직에서 Power BI 시각적 개체는 조직에 고유한 특정 데이터 또는 인사이트를 전달하는 데 필요하거나, 특별한 데이터 요구 사항이 있거나, 프라이빗 비즈니스 방법을 강조할 수 있기 때문에 훨씬 더 중요합니다. 이러한 조직은 Power BI 시각적 개체를 개발하고, 조직에서 공유하고, 적절하게 관리해야 합니다. Power BI Power BI 시각적 개체를 통해 조직은 이러한 작업을 수행할 수 있습니다.
+일부 조직에서 Power BI 시각적 개체는 조직에 고유한 특정 데이터 또는 인사이트를 전달하는 데 필요하거나, 특별한 데이터 요구 사항이 있거나, 프라이빗 비즈니스 방법을 강조할 수 있기 때문에 훨씬 더 중요합니다. 이러한 조직은 Power BI 시각적 개체를 개발하고, 조직에서 공유하고, 적절하게 관리해야 합니다. Power BI 시각적 개체를 통해 조직은 이러한 작업을 수행할 수 있습니다.
 
 다음 이미지는 Power BI에서 조직의 Power BI 시각적 개체가 관리자로부터 개발 및 유지 관리를 거쳐 마지막으로 데이터 분석까지 흐르는 프로세스를 보여 줍니다.
 
@@ -55,10 +55,10 @@ Power BI에서 Power BI 시각적 개체를 사용하여 사용자에게 맞는 
 
 ## <a name="troubleshoot"></a>문제 해결
 
-문제 해결에 대한 자세한 내용은 [Power BI Power BI 시각적 개체 문제 해결](power-bi-custom-visuals-troubleshoot.md)을 방문하세요.
+문제 해결에 대한 자세한 내용은 [Power BI 시각적 개체 문제 해결](power-bi-custom-visuals-troubleshoot.md)을 참조하세요.
 
 ## <a name="faq"></a>FAQ
 
-자세한 내용 및 질문과 대답은 [Power BI Power BI 시각적 개체에 대한 질문과 대답](power-bi-custom-visuals-faq.md#organizational-visuals)을 참조하세요.
+자세한 내용 및 질문과 대답은 [Power BI 시각적 개체에 대한 질문과 대답](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)을 참조하세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](https://community.powerbi.com/)하세요.

@@ -10,10 +10,10 @@ ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73872002"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>자습서:  Power BI 조직 콘텐츠 팩 만들기 및 게시
@@ -35,7 +35,7 @@ Contoso의 릴리스 관리자이고 신제품 출시를 준비하는 중이라�
 
 1. 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
 
-1. 위쪽 탐색 창에서 톱니바퀴 아이콘 ![코그 아이콘의 스크린샷](media/service-organizational-content-pack-create-and-publish/cog.png) >  **콘텐츠 팩 만들기**를 선택합니다.
+1. 위쪽 탐색 창에서 톱니바퀴 아이콘 ![코그 아이콘의 스크린샷](media/service-organizational-content-pack-create-and-publish/cog.png) > **콘텐츠 팩 만들기**를 선택합니다.
 
    ![코그 아이콘 및 콘텐츠 팩 만들기 옵션에 포커스가 있는 UI 스크린샷](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
