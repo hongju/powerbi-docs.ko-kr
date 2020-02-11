@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913564"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076645"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -193,7 +193,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 쿼리 문자열 매개 변수를 사용할 때 알아야 할 몇 가지 사항이 있습니다.
 
 * *in* 연산자를 사용하는 경우 *in*의 오른쪽에 있는 값은 괄호로 묶이고 쉼표로 구분된 목록이어야 합니다.    
-* Power BI Report Server에서는 보고서 URL에 보고서 매개 변수를 포함시켜 [보고서 매개 변수를 전달](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)할 수 있습니다. 이러한 URL 매개 변수는 보고서 처리 엔진에 직접 전달되기 때문에 접두사가 붙지 않습니다.
+* 또한 Power BI Report Server는 "필터" URL 매개 변수를 사용하여 추가 필터를 지정하는 기능을 제공합니다.  예를 들어 Power BI Report Server에서 URL은 다음과 같이 표시됩니다. https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 * 쿼리 문자열 필터링은 [웹에 게시](service-publish-to-web.md) 또는 [PDF로 내보내기](consumer/end-user-pdf.md)에서는 작동하지 않습니다.
 * [SharePoint Online에 보고서 웹 파트 포함](service-embed-report-spo.md)은 URL 필터를 지원하지 않습니다.
 * Javascript 제한 때문에 Long 데이터 형식은 (2^53-1)입니다.

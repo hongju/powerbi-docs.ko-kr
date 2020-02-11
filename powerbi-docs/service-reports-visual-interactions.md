@@ -7,15 +7,15 @@ featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/04/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 116ff1df7ddc75df79e6f2f28296543449498599
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 1d723f3dd67eb5e096622c882b5f538a77666d9e
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894723"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "77036702"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Power BI 보고서에서 시각적 개체가 조작되는 방식 변경
 보고서에 대한 편집 권한이 있는 경우 **시각적 상호 작용**을 사용하여 보고서 페이지의 시각화들이 서로 영향을 주는 방식을 변경할 수 있습니다. 
@@ -87,6 +87,11 @@ ms.locfileid: "76894723"
     ![기타 시각적 개체 드릴 필터링 켜기](media/service-reports-visual-interactions/power-bi-drill.png)
 
 3. 표시되는 동작이 원하는 결과가 아닌 경우 [위에 표시된 대로](#change-the-interaction-behavior) 상호 작용을 변경할 수 있습니다.
+
+## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+다른 테이블의 필드를 사용하여 행렬을 작성하고 계층 구조의 여러 수준에서 여러 항목을 선택하여 교차 강조 표시를 시도하는 경우 다른 시각적 개체에서 오류가 발생합니다. 
+
+![계층 구조의 다른 수준에서 필터링을 시도할 때의 버그 비디오](media/service-reports-visual-interactions/cross-highlight.gif)
     
 ## <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 필터링 및 강조 표시](power-bi-reports-filters-and-highlighting.md)

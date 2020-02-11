@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 016b83e983f2b3139eb040a1f1d8d48d70b44a52
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: c6f1a04f7178719eb68bcd54674ea0312c97ef3e
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953496"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076595"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop의 새로운 기능
 
@@ -31,10 +31,10 @@ ms.locfileid: "75953496"
 
 Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 다음과 같이 해석됩니다.
 
-* [blog]: Most features are explained in a section in the monthly update blog post.
-* [video]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
-* [article]: Some features have an article that provides more detail.
-* 나머지 기능은 설명 없이도 바로 이해할 수 있으며 문서 또는 비디오가 필요하지 않습니다.
+* \[블로그\]: 대부분의 기능은 월별 업데이트 블로그 게시물에 설명되어 있습니다.
+* \[비디오\]: 일부 기능에는 새 브라우저 탭의 기능을 설명하는 비디오 발췌가 있습니다.
+* \[문서\]: 일부 기능에는 세부 정보를 제공하는 문서가 있습니다.
+* 나머지 기능은 설명 없이도 바로 이해할 수 있으며 문서 또는 동영상이 필요하지 않습니다.
 
 전체 [Power BI Desktop 월별 업데이트 비디오](#power-bi-desktop-monthly-update-video)도 시청할 수 있습니다.
 

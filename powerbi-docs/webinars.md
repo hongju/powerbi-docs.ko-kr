@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: e3154e5a143de63300e7f5dc87cec518188a3442
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 3063d75123069e93baa8159cddf7c551922aa2b2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75837579"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076670"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -36,6 +36,10 @@ ms.locfileid: "75837579"
 **Microsoft는 BI 데이터 보호를 어떻게 변화시키는가**
 <br>작성자: Anton Fritz 및 Adi Regev
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**통찰력 기반의 비즈니스를 만드는 방법**
+<br>작성자: Microsoft의 Amir Netz 및 Forrester의 Boris Evelson
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html?lcid=en-us)
 
 **AI가 BI를 변경하는 세 가지 방법**
 <br>작성자: Justyna Lucznik
