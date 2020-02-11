@@ -155,7 +155,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
    ![질문 및 답변 상자 제안](media/sample-human-resources/pbi_hr_sample_qabox.png)
 
-2. 이러한 제안 사항 중 하나를 선택하거나 다음을 입력할 수 있습니다. *show age group, gender, and bad hires SPLY where region is east*  
+2. 이러한 제안 사항 중 하나를 선택하거나 다음을 입력할 수 있습니다. *지역이 동부인 연령 그룹, 성별 및 잘못된 용 SPLY 표시*  
 
    ![질문 및 답변 상자 답변](media/sample-human-resources/pbi_hr_sample_qa_answer.png)
 

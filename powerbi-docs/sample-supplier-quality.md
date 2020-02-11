@@ -138,12 +138,12 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
     ![월별, 연도별 총 결함 수량 차트](media/sample-supplier-quality/supplier11.png)  
 3. 결함이 많을수록 가동 중지 시간이 늘어났습니까? 질문 및 답변 상자에서 질문하여 확인합니다.  
 4. 위쪽 탐색 창에서 **공급업체 품질 분석 샘플**을 선택하여 대시보드로 돌아갑니다.  
-5. 원자재의 결함 수가 가장 많다는 것을 알기 때문에 질문 상자에 ‘show material types, year, and total defect qty’를 입력합니다.   
+5. 원자재의 결함 수가 가장 많다는 것을 알기 때문에 질문 상자에 ‘자재 유형, 연도, 총 결함 수량 표시’를 입력합니다.   
 
     2013년보다 2014년에 원자재 결함이 더 많았습니다.  
 
     ![질문 및 답변 질문: 자재 유형, 연도, 전체 결함 수량 표시](media/sample-supplier-quality/supplier12.png)  
-6. 다음으로 질문을 _show material types, year, and **total downtime minutes**_ 으로 변경합니다.  
+6. 다음으로 질문을 _show material types, year, and **total downtime minutes**_ 로 변경합니다.  
 
    ![질문 및 답변 질문: 자재 유형, 연도 및 총 가동 중지 시간(분) 표시](media/sample-supplier-quality/supplier13.png)
 
@@ -159,13 +159,13 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
     ![월별, 연도별 총 결함 수량 타일](media/sample-supplier-quality/supplier14.png)  
 
     이러한 결함 수량이 증가하면서 가동 중지 시간(분)도 동일하게 증가되었는지 알아보겠습니다.  
-2. 질문 상자에 ‘total downtime minutes by month and year as a line chart’를 입력합니다.   
+2. 질문 상자에 ‘월별, 연도별 총 가동 중지 시간(분) 꺾은선형 차트’를 입력합니다.   
 
    ![질문 및 답변 질문: 꺾은선형 차트로 표시한 월별, 연도별 총 가동 중지 시간(분)](media/sample-supplier-quality/supplier15.png)
 
    6월과 10월에 가동 중지 시간(분)이 증가한 것 이외에, 결함 수로 인해 가동 중지 시간이 급증한 것은 아닙니다. 이 결과는 결함을 잘 관리하고 있음을 보여 줍니다.  
 3. 이 차트를 대시보드에 고정하려면 질문 상자 위에 있는 고정 아이콘 ![고정 아이콘](media/sample-supplier-quality/pin.png) 을 선택합니다.  
-4. 이상 월에 대해 알아보기 위해 ‘total downtime minutes in October by plant’ 등의 질문을 입력하여 10월 중 자재 유형, 공장 위치, 범주 등을 기준으로 가동 중지 시간(분)을 확인합니다.  
+4. 이상 월에 대해 알아보기 위해 ‘공장별 10월 총 가동 중지 시간(분)’ 등의 질문을 입력하여 10월 중 자재 유형, 공장 위치, 범주 등을 기준으로 가동 중지 시간(분)을 확인합니다.  
 5. 왼쪽 위에 있는 **질문 및 답변 종료**를 선택하여 대시보드로 돌아갑니다.
 
 ## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
