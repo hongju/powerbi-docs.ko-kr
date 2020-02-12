@@ -43,7 +43,7 @@ Power BI 보고서 렌더링뿐만 아니라 예약된 새로 고침을 수행�
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 ### <a name="when-scheduled-refresh-cant-be-used"></a>예약된 새로 고침을 사용할 수 없는 경우
-모든 Power BI 보고서에 생성된 예약된 새로 고침 계획이 있을 수 없습니다. 다음은 예약된 새로 고침 계획을 만들 수 없는 Power BI 보고서의 목록입니다.
+모든 Power BI 보고서에 예약 된 새로 고침 계획을 만들 수있는 것은 아닙니다. 다음은 예약된 새로 고침 계획을 만들 수 없는 Power BI 보고서의 목록입니다.
 
 * 보고서는 라이브 연결을 사용하는 하나 이상의 Analysis Services 데이터 원본을 포함합니다.
 * 보고서에는 DirectQuery를 사용하는 하나 이상의 데이터 원본이 포함되어 있습니다.
