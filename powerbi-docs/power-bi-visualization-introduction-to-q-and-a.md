@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874458"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Power BI 질문 및 답변으로 시각적 개체 만들기
@@ -28,7 +28,7 @@ ms.locfileid: "73874458"
 
 질문 및 답변을 사용하여 이 꺾은선형 차트를 만들려면 어떻게 해야 하나요?
 
-1. Power BI 작업 영역에서 **데이터 가져오기** \> **샘플** \> **소매점 분석 샘플** > **연결**을 선택하세요.
+1. Power BI 작업 영역에서 **데이터 가져오기** \> **샘플** \> **소매점 분석 샘플** > **연결**을 선택합니다.
 
 1. 소매점 분석 샘플 대시보드를 열고 질문 및 답변 상자에 커서를 놓은 다음, **데이터에 대해 질문**합니다.
 

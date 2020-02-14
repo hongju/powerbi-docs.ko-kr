@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: daf4f2c4aaa010516f90cae54c1e8b6784fb0f64
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879697"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223433"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Power BI Desktop의 열 기준 정렬
 **Power BI Desktop**과 **Power BI 서비스**에서는 다양한 데이터 필드로 정렬하여 시각적 개체의 모양을 변경할 수 있습니다. 시각적 개체의 정렬 방법을 변경하여 전달하려는 정보를 강조 표시하고 해당 추세(또는 강조점)에 시각적 효과를 반영했는지 확인할 수 있습니다.
@@ -100,4 +100,11 @@ ms.locfileid: "73879697"
 ![기본 정렬 순서](media/desktop-sort-by-column/sortbycolumn_7.png)
 
 시각적 개체를 정렬하는 다양한 옵션을 통해 손쉽게 차트 또는 이미지를 만들 수 있습니다.
+
+## <a name="next-steps"></a>다음 단계
+
+다음 문서에도 관심이 있을 수 있습니다.
+
+* [Power BI Desktop에서 교차 보고서 드릴스루 사용](desktop-cross-report-drill-through.md)
+* [Power BI Desktop에서 슬라이서 사용](visuals/power-bi-visualization-slicers.md)
 

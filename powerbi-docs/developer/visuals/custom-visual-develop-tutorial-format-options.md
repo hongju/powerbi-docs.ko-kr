@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 4d7f02d9f78eee4cf287e0bb83acb93a7b1b0355
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
+ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696856"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "75498486"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>자습서:  Power BI 시각적 개체에 서식 옵션 추가
 
@@ -124,10 +124,12 @@ ms.locfileid: "74696856"
 
 8. **visual.ts** 파일에서
 
-    `VisualSettings` 클래스를 가져오고
+    `VisualSettings`, `VisualObjectInstanceEnumeration` 및 `EnumerateVisualObjectInstancesOptions` 가져오기:
 
     ```typescript
     import { VisualSettings } from "./settings";
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
     ```
 
     **Visual** 클래스에서 다음 속성을 추가합니다:
@@ -218,23 +220,34 @@ ms.locfileid: "74696856"
 
     ‘원 내부에 서식이 지정된 측정값 표시’ 
 
-5. 선택적으로 **author** 개체에 세부 정보를 입력합니다.
+5. 시각적 개체의 **supportUrl** 및 **gitHubUrl**을 채웁니다.
 
-6. **pbiviz.json** 파일을 저장합니다.
+    예제:
 
-7. **assets** 개체에서 문서는 아이콘의 경로를 정의합니다. 아이콘은 **‘시각화’** 창에 표시되는 이미지입니다.  *20px x 20px*의 **PNG** 파일이어야 합니다.
+    ```json
+    {
+        "supportUrl": "https://community.powerbi.com",
+        "gitHubUrl": "https://github.com/microsoft/PowerBI-visuals-circlecard"
+    }
+    ```
 
-8. Windows 탐색기에서 icon.png 파일을 복사한 후 붙여넣어 assets 폴더에 있는 기본 파일을 바꿉니다.
+6. **author** 개체에 사용자 정보를 입력합니다.
 
-9. Visual Studio Code의 [탐색기] 창에서 assets 폴더를 확장한 다음, icon.png 파일을 선택합니다.
+7. **pbiviz.json** 파일을 저장합니다.
 
-10. 아이콘을 검토합니다.
+8. **assets** 개체에서 문서는 아이콘의 경로를 정의합니다. 아이콘은 **‘시각화’** 창에 표시되는 이미지입니다.  *20px x 20px*의 **PNG** 파일이어야 합니다.
+
+9. Windows 탐색기에서 icon.png 파일을 복사한 후 붙여넣어 assets 폴더에 있는 기본 파일을 바꿉니다.
+
+10. Visual Studio Code의 [탐색기] 창에서 assets 폴더를 확장한 다음, icon.png 파일을 선택합니다.
+
+11. 아이콘을 검토합니다.
 
     ![시각적 개체 창 이미지](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
-11. Visual Studio Code에서 모든 파일이 저장되었는지 확인합니다.
+12. Visual Studio Code에서 모든 파일이 저장되었는지 확인합니다.
 
-12. 사용자 지정 시각적 개체를 패키지하려면 PowerShell에서 다음 명령을 입력합니다.
+13. 사용자 지정 시각적 개체를 패키지하려면 PowerShell에서 다음 명령을 입력합니다.
 
     ```powershell
     pbiviz package

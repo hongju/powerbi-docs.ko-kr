@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860980"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888527"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>보고서, 대시보드 및 앱에서 시각적 개체 조작
 
@@ -37,7 +37,7 @@ ms.locfileid: "73860980"
 
 
 > [!IMPORTANT]
-> 그러나 먼저, Q&A에 대해 알아보겠습니다. Q&A는 Power BI의 자연어 검색 도구입니다. 자연어를 사용하여 질문을 입력하면 질문 및 답변이 시각적 개체 형식으로 질문에 답변합니다. 질문 및 답변은 소비자가 고유한 시각적 개체를 작성할 수 있는 한 방법입니다. 그러나 질문 및 답변을 사용하여 작성하는 시각적 개체는 저장할 수 없습니다. 하지만 데이터에서 학습하려는 특정한 것이 있지만 디자이너가 보고서나 대시보드에 포함하지 않은 경우에는 Q&A가 유용한 옵션입니다. Q&A에 대한 자세한 내용을 보려면 [소비자에 대한 Q&A](end-user-q-and-a.md)를 참조하세요.
+> 그러나 먼저, Q&A에 대해 알아보겠습니다. Q&A는 Power BI의 자연어 검색 도구입니다. 자연어를 사용하여 질문을 입력하면 질문 및 답변이 시각적 개체 형식으로 질문에 답변합니다. 질문 및 답변은 소비자가 고유한 시각적 개체를 즉석에서 작성할 수 있는 한 방법입니다. 그러나 질문 및 답변을 사용하여 작성하는 시각적 개체는 저장할 수 없습니다. 하지만 데이터에서 학습하려는 특정한 것이 있지만 디자이너가 보고서나 대시보드에 포함하지 않은 경우에는 Q&A가 유용한 옵션입니다. Q&A에 대한 자세한 내용을 보려면 [소비자에 대한 Q&A](end-user-q-and-a.md)를 참조하세요.
 
 
 
@@ -45,13 +45,13 @@ ms.locfileid: "73860980"
 |---------|---------|---------|--------|
 |[시각적 개체에 설명을 직접 추가하거나 시각적 개체에 대해 동료와 대화를 시작합니다](end-user-comment.md).     |  예       |   예      |  아니요  |
 |[시각적 개체를 작성한 보고서를 열고 탐색합니다](end-user-tiles.md).     |    예     |   해당 없음      |  아니요 |
-|[시각적 개체에 영향을 주는 필터 및 슬라이서 목록을 표시합니다](end-user-report-filter.md).     |    아니요     |   예      |  예 |
+|[시각적 개체에 영향을 주는 필터 및 슬라이서 목록을 표시합니다](end-user-report-filter.md).     |    포커스 모드에서 여는 경우     |   예      |  아니요 |
 |[질문 및 답변에서 시각적 개체를 열고 검색합니다(*디자이너*가 질문 및 답변을 사용하여 시각적 개체를 만든 경우)](end-user-q-and-a.md).     |   예      |   해당 없음      |  해당 없음  |
 |[질문 및 답변에서 시각적 개체를 만듭니다(검색을 위해 저장할 수 없음)](end-user-q-and-a.md).     |   예      |   디자이너가 보고서에 질문 및 답변을 추가한 경우      |  예  |
-|[Power BI에 시각적 개체의 데이터에서 관심 있는 팩트나 추세를 찾도록 요청합니다](end-user-insights.md).  자동으로 생성되는 시각적 개체를 *인사이트*라고 합니다.     |    예     |  전체 보고서의 경우(시각적 개체 아님)       | 아니요   |
-|[‘포커스’ 모드를 사용하여 한 번에 하나의 시각적 개체만 표시합니다](end-user-focus.md).      | 예        |   예      | 해당 없음  |
+|[Power BI에 시각적 개체의 데이터에서 관심 있는 팩트나 추세를 찾도록 요청합니다](end-user-insights.md).  자동으로 생성되는 시각적 개체를 *인사이트*라고 합니다.     |    예(타일의 경우)    |  아니요       | 아니요   |
+|[‘포커스’ 모드를 사용하여 한 번에 하나의 시각적 개체만 표시합니다](end-user-focus.md).      | 예(타일의 경우)        |   예(시각적 개체의 경우)      | 해당 없음  |
 |[마지막으로 시각적 개체를 새로 고친 시간을 검색합니다](end-user-fresh.md).     |  예       |    예     | 해당 없음  |
-|[*전체 화면* 또는 *포커스* 모드를 사용하여 테두리 또는 탐색 창 없이 한 번에 하나의 시각적 개체만 표시합니다](end-user-focus.md).     |   예      |  예       | 기본적으로  |
+|[*전체 화면* 모드를 사용하여 테두리 또는 탐색 창 없이 한 번에 하나의 시각적 개체만 표시합니다](end-user-focus.md).     |   예      |  예       | 기본적으로  |
 |[인쇄](end-user-print.md)합니다.     |  예       |   예      | 아니요  |
 |[시각적 개체 필터를 추가하고 수정하여 시각적 개체에 자세히 살펴봅니다](end-user-report-filter.md).     |    아니요     |   예      | 아니요  |
 |시각적 개체를 마우스로 가리키면 추가 세부 사항 및 도구 설명이 표시됩니다.     |    예     |   예      | 예  |
@@ -61,7 +61,7 @@ ms.locfileid: "73860980"
 | 시각적 개체에 추천을 추가합니다. | 아니요  | 예  |  아니요 |
 | [Excel로 내보냅니다.](end-user-export.md) | 예 | 예 | 아니요|
 | 값이 설정된 임계값을 초과하면 알려주도록 [경고를 만듭니다](end-user-alerts.md).  | 예  | 아니요  | 아니요 |
-| [페이지에서 다른 시각적 개체를 교차 필터링하고 교차 강조 표시합니다](end-user-report-filter.md).  | 아니요      | 예  | 아니요  |
+| [페이지에서 다른 시각적 개체를 교차 필터링하고 교차 강조 표시합니다](end-user-report-filter.md).  | 아니요      | 예  | 해당 없음 |
 | [계층 구조를 포함하는 시각적 개체를 드릴합니다](end-user-drill.md).  | 아니요  | 예   | 아니요 |
 
 ## <a name="next-steps"></a>다음 단계

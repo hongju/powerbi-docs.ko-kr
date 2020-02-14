@@ -10,10 +10,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 92c473b5df6c21509ba32e41d88dd43c265fa3a0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73861406"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
@@ -58,10 +58,10 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
 
    * [이 타일을 만드는 데 사용된 통합 문서 열기](end-user-reports.md) ![워크시트 아이콘](./media/end-user-tiles/power-bi-open-worksheet.png)  
    * [포커스 모드로 타일 보기](end-user-focus.md) ![포커스 아이콘](./media/end-user-tiles/fullscreen-icon.jpg)  
-   * [인사이트 보기 ](end-user-insights.md) ![인사이트 아이콘](./media/end-user-tiles/power-bi-insights.png)
-   * [댓글을 추가하고 토론 시작](end-user-comment.md)  ![댓글 아이콘](./media/end-user-tiles/comment-icons.png)
-   * [대시보드 타일에 설정된 경고 관리](end-user-alerts.md)  ![경고 아이콘](./media/end-user-tiles/power-bi-alert-icon.png)
-   * [Excel에서 데이터 열기](end-user-export.md)  ![내보내기 아이콘](./media/end-user-tiles/power-bi-export-icon.png)
+   * [인사이트 보기](end-user-insights.md) ![인사이트 아이콘](./media/end-user-tiles/power-bi-insights.png)
+   * [댓글 추가 및 토론 시작](end-user-comment.md) ![댓글 아이콘](./media/end-user-tiles/comment-icons.png)
+   * [대시보드 타일에 설정된 경고 관리](end-user-alerts.md) ![경고 아이콘](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Excel에서 데이터 열기](end-user-export.md) ![내보내기 아이콘](./media/end-user-tiles/power-bi-export-icon.png)
 
 
 3. 동작 메뉴를 닫으려면 캔버스의 빈 영역을 선택합니다.

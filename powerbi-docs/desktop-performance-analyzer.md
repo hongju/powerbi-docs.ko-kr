@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866421"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709780"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>성능 분석기를 사용하여 보고서 요소 성능 검사
 
@@ -58,6 +58,9 @@ ms.locfileid: "73866421"
 * **시각적 개체 표시** - 시각적 개체에서 웹 이미지 또는 지오코딩을 검색하는 데 필요한 시간을 포함하여 화면에 그리는 데 필요한 시간입니다. 
 * **기타** - 시각적 개체에서 쿼리를 준비하거나, 다른 시각적 개체가 완료될 때까지 기다리거나, 다른 백그라운드 처리를 수행하는 데 필요한 시간입니다.
 
+**기간(밀리초)** 값은 각 작업에 대해 *시작*과 *끝* 타임스탬프 사이의 차이를 표시합니다. 대부분의 캔버스 및 시각적 개체 작업은 여러 작업에서 공유되는 단일 사용자 인터페이스 스레드에서 순차적으로 실행됩니다. 보고된 기간에는 다른 작업이 완료될 때까지 대기하는 데 소요된 시간이 포함됩니다. GitHub 및 관련 [문서](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)의 [성능 분석기 샘플](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)은 시각적 개체 쿼리 데이터 및 렌더링 방법에 대한 세부 정보를 제공합니다.
+
+
 ![로그 정보 요소](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
 성능 분석기를 사용하여 측정하려는 보고서의 요소와 상호 작용한 후에는 **중지** 단추를 선택할 수 있습니다. 분석하기 위해 **중지**를 선택한 후에도 성능 정보는 창에 남아 있습니다.
@@ -89,3 +92,7 @@ ms.locfileid: "73866421"
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
 * [Power BI Desktop의 일반적인 쿼리 작업](desktop-common-query-tasks.md)   
 
+성능 분석기 샘플에 대한 자세한 내용은 다음 리소스를 확인하세요.
+
+* [성능 분석기 샘플](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
+* [성능 분석기 샘플 설명서](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

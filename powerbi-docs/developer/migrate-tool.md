@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 01f79bfaae13b60d3c63abd8f7fc801998075ee6
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265274"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 마이그레이션 도구
@@ -158,7 +158,7 @@ ms.locfileid: "74265274"
 * 특정 보고서를 선택하고 **다운로드가 선택됨**을 선택합니다.
 * **모두 다운로드**를 선택합니다.
 
-![옵션 다운로드](media/migrate-tool/migrate-tool-download-options.png)
+![다운로드 옵션](media/migrate-tool/migrate-tool-download-options.png)
 
 다운로드가 성공하면 *완료* 상태가 표시되며 PBIX 파일이 있는 것으로 나타납니다.
 
