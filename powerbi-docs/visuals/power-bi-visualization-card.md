@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37b7a85534e1ad8f1f301994dea895e098758d1b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2b584c0664623f62b6d1d77cce74eaa51b0e9041
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870986"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758040"
 ---
-# <a name="card-visualizations"></a>카드 시각화
+# <a name="create-card-visualizations"></a>카드 시각화 만들기
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -40,7 +40,7 @@ Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율
 
 카드를 만드는 첫 번째 방법은 Power BI Desktop에서 보고서 편집기를 사용하는 것입니다.
 
-1. 빈 보고서 페이지에서 시작하고 **Store** \> **Open Store Count** 필드를 선택합니다.
+1. 빈 보고서 페이지에서 시작하고 **매장** \> **열린 매장 수** 필드를 선택합니다.
 
     Power BI에서 하나의 숫자가 포함된 열 차트를 만듭니다.
 

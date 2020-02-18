@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa448dac3e7788639377ce2d73d9c0ed68952fb3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 516d3a682b669400a015aaec101c7e79c14dbb44
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877340"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889354"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>작업 영역 데이터 흐름 설정 구성(미리 보기)
 

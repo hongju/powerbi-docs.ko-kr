@@ -10,10 +10,10 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265545"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI용 고객 수익성 샘플 둘러보기
@@ -111,7 +111,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
     ![Carlos에 대한 결과](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. 계속 탐색하세요. 흥미로운 항목을 찾으면 오른쪽 위에서 **고정** ![고정 아이콘](media/sample-customer-profitability/power-bi-excel-pin.png)을 선택하여 [대시보드에 고정](service-dashboard-pin-tile-from-excel.md)합니다.
+4. 계속 탐색하세요. 흥미로운 항목을 찾으면 오른쪽 위에서 **고정** 아이콘 ![고정 아이콘](media/sample-customer-profitability/power-bi-excel-pin.png)을 선택하여 [대시보드에 고정](service-dashboard-pin-tile-from-excel.md)합니다.
 
 5. 대시보드로 돌아가려면 브라우저의 뒤로 화살표를 사용합니다.
 
@@ -181,7 +181,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
     ![데이터에 대해 질문하기](media/sample-customer-profitability/power-bi-ask-question.png)
 
-3. 질문 상자에 *Valery에 대한 업계별 총 수익*을 입력합니다. 질문을 입력하면 시각화가 어떻게 업데이트되는지 확인합니다.
+3. 질문 상자에 *total revenue by industry for Valery*를 입력합니다. 질문을 입력하면 시각화가 어떻게 업데이트되는지 확인합니다.
 
     ![질문 상자에 질문 입력](media/sample-customer-profitability/power-bi-qna.png)
 
@@ -199,7 +199,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
    ![배포를 위한 필터](media/sample-customer-profitability/customer7.png)
 4. **월별 및 임원별 총이익%** 차트는 Valery와 Tina만 이 업계의 고객을 보유하고 있으며, Valery는 6월에서 11월까지만 이 업계에서 일했음을 보여줍니다.   
 5. **월별 및 임원별 총수익** 차트 범례에서 **Tina**를 선택한 후 **Valery**를 선택합니다. **제품별 총 수익** 차트에서 Tina가 차지하는 부분은 Valery에 비해 작다는 것을 알 수 있습니다.
-6. 실제 수익을 보려면 대시보드에서 질문 및 답변 상자를 선택하고 *경영진의 시나리오별 배포에 대한 총 수익*을 입력합니다.  
+6. 실제 수익을 보려면 대시보드에서 질문 및 답변 상자를 선택하고 *total revenue by executive for distribution by scenario*를 입력합니다.  
 
      ![질문 및 답변 상자에 질문 입력](media/sample-customer-profitability/power-bi-qna2.png)
 

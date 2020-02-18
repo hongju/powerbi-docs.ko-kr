@@ -44,11 +44,11 @@ ms.locfileid: "64578801"
 
     ![새 앱 시작](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
 
-4. 계정과 연결된 URL을 제공합니다. 에 URL의 형식은 **https://company.zendesk.com** 합니다. 아래에서 [해당 매개 변수 찾기](#finding-parameters)에 대한 세부 정보를 참조하세요.
+4. 계정과 연결된 URL을 제공합니다. URL은 **https://company.zendesk.com** 같은 형식입니다. [해당 매개 변수 찾기](#finding-parameters)에 대한 세부 정보를 아래에서 참조하세요.
    
    ![Zendesk에 연결](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
 
-5. 메시지가 표시되면 Zendesk 자격 증명을 입력합니다.  **oAuth 2**를 인증 메커니즘으로 선택하고 **로그인**을 클릭합니다. Zendesk 인증 흐름을 따릅니다. (이미 브라우저에서 Zendesk에 로그인한 경우, 자격 증명에 대해 묻지 않을 수 있습니다.)
+5. 메시지가 표시되면 Zendesk 자격 증명을 입력합니다.  **oAuth2**를 인증 메커니즘으로 선택하고 **로그인**을 클릭합니다. Zendesk 인증 흐름을 따릅니다. (이미 브라우저에서 Zendesk에 로그인한 경우, 자격 증명에 대해 묻지 않을 수 있습니다.)
    
    > [!NOTE]
    > 이 콘텐츠 팩은 Zendesk 관리자 계정으로 연결해야 합니다. 

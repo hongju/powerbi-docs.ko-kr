@@ -12,10 +12,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74128354"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 서비스의 디자이너를 위한 기본 개념
@@ -106,7 +106,7 @@ Power BI의 다섯 가지 주요 구성 요소는 *대시보드*, *보고서*, *
 * [Power BI에 대한 샘플 데이터 세트](sample-datasets.md)
 
 ## <a name="reports"></a>보고서
-Power BI 보고서는 꺽은선형 차트, 맵 및 트리맵과 같은 하나 이상의 시각화가 있는 페이지입니다. 시각화는 **_시각적 개체_** 라고도 합니다. 보고서의 모든 시각화는 단일 데이터 세트에서 제공합니다. Power BI 내에서 처음부터 보고서를 만들거나, 동료와 공유하는 대시보드를 사용하여 가져올 수도 있고, Power BI, Excel, Power BI Desktop, 데이터베이스 및 SaaS 응용 프로그램에서 데이터 세트에 연결할 때 보고서를 만들 수 있습니다.  예를 들어 파워 뷰 시트가 포함된 Excel 통합 문서에 연결하면 Power BI에서 해당 시트를 기반으로 보고서를 만듭니다. 또한 SaaS 애플리케이션에 연결하면 Power BI에서 미리 작성된 보고서를 가져옵니다.
+Power BI 보고서는 꺽은선형 차트, 맵 및 트리맵과 같은 하나 이상의 시각화가 있는 페이지입니다. 시각화는 **_시각적 개체_** 라고도 합니다. 보고서의 모든 시각화는 단일 데이터 세트에서 제공합니다. Power BI 내에서 처음부터 보고서를 만들거나, 동료와 공유하는 대시보드를 사용하여 가져올 수도 있고, Power BI, Excel, Power BI Desktop, 데이터베이스 및 SaaS 애플리케이션에서 데이터 세트에 연결할 때 보고서를 만들 수 있습니다.  예를 들어 파워 뷰 시트가 포함된 Excel 통합 문서에 연결하면 Power BI에서 해당 시트를 기반으로 보고서를 만듭니다. 또한 SaaS 애플리케이션에 연결하면 Power BI에서 미리 작성된 보고서를 가져옵니다.
 
 보고서를 보고 상호 작용하는 다음 두 가지 모드가 있습니다. *읽기용 보기* 및 *편집용 보기*. 보고서를 열면 읽기용 보기로 열립니다. 편집 권한이 있는 경우 왼쪽 위 모서리에 **보고서 편집**이 표시되고 보고서를 편집용 보기에서 볼 수 있습니다.  보고서가 작업 영역에 있는 경우 *관리자*, *구성원* 또는 *참가자* 역할을 사용하는 모든 사용자가 이를 편집할 수 있습니다. 이러한 사용자는 해당 보고서에 대한 편집용 보기의 탐색, 디자인, 빌드 및 공유 기능 모두에 액세스할 수 있습니다. 보고서를 공유하는 사람들은 읽기용 보기에서 보고서를 탐색하고 상호 작용할 수 있습니다.   
 
@@ -185,7 +185,7 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
   ![탐색 창](media/service-basic-concepts/power-bi-navigation.png)
 
 * **데이터 가져오기**를 선택하여 [Power BI에 데이터 세트, 보고서 및 대시보드를 추가](service-get-data.md)합니다.
-* 이 아이콘을 사용하여 탐색 창 확장 및 축소 ![탐색 창 아이콘](media/service-basic-concepts/expand-icon.png).
+* 이 아이콘을 사용하여 탐색 창 확장 및 축소 ![탐색 창 아이콘](media/service-basic-concepts/expand-icon.png)을 탭합니다.
 * **즐겨찾기**를 선택하여 즐겨 찾는 콘텐츠를 열거나 관리합니다.
 * **최근**을 선택하여 가장 최근에 방문한 콘텐츠를 보고 엽니다.
 * **앱**을 선택하여 앱을 보거나, 열거나, 삭제합니다.

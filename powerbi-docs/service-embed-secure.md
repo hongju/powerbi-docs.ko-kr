@@ -1,20 +1,20 @@
 ---
 title: 보안 포털 또는 웹 사이트에 보고서 포함
 description: Power BI 포함 기능을 사용하여 사용자가 내부 웹 포털에 보고서를 쉽고 안전하게 포함하도록 할 수 있습니다.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565746"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913597"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>보안 포털 또는 웹 사이트에 보고서 포함
 
@@ -129,7 +129,11 @@ report.src = newUrl;
 
 * 일부 브라우저의 경우, 특히 InPrivate 또는 시크릿 모드를 사용하는 경우 로그인 이후 페이지를 새로 고쳐야 합니다.
 
-* Single Sign-On 환경을 위해 SharePoint Online 옵션의 포함 기능을 사용하거나 [사용자 소유 데이터](developer/embed-sample-for-your-organization.md) 포함 방법을 사용하여 사용자 지정 통합을 빌드합니다. 
+* 지원되지 않는 브라우저 버전을 사용하는 경우 문제가 발생할 수 있습니다. Power BI는 [다음 목록의 브라우저](power-bi-browsers.md)를 지원합니다.
+
+* 클래식 SharePoint Server는 버전 11 이전의 Internet Explorer 버전이 필요하거나 호환성 보기 모드를 사용해야 하므로 지원되지 않습니다.
+
+* Single Sign-On 환경을 위해 [SharePoint Online에 포함 옵션](service-embed-report-spo.md)을 사용하거나 [사용자 소유 데이터](developer/embed-sample-for-your-organization.md) 포함 방법을 사용하여 사용자 지정 통합을 빌드합니다. 
 
 * **포함** 옵션에 제공되는 자동 인증 기능은 Power BI JavaScript API에서 작동하지 않습니다. Power BI JavaScript API의 경우 [사용자 소유 데이터](developer/embed-sample-for-your-organization.md) 포함 방법을 사용합니다. 
 

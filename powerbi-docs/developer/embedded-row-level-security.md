@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: ec0f98dfe56b6d2a6efe038622541f9f19d3899d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478669"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223401"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded를 사용하는 행 수준 보안
 
@@ -129,6 +129,9 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 행 수준 보안은 온-프레미스 서버에 대해 Analysis Services 라이브 연결에서 사용할 수 있습니다. 이러한 종류의 연결을 사용하는 경우 이해해야 하는 몇 가지 특정 개념이 있습니다.
 
 사용자 이름 속성에 제공되는 유효한 ID는 Analysis Services 서버에 대한 사용 권한이 있는 Windows 사용자여야 합니다.
+
+>[!NOTE]
+> [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 데이터 원본과 함께 서비스 주체를 사용하는 경우 서비스 주체 자체에 Azure Analysis Services 인스턴스 권한이 있어야 합니다. 서비스 주체가 포함된 보안 그룹을 이 목적으로 사용할 수는 없습니다.
 
 ### <a name="on-premises-data-gateway-configuration"></a>온-프레미스 데이터 게이트웨이 구성
 
