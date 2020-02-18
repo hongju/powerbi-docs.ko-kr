@@ -9,19 +9,21 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4686b15e04d3724256c76d7ba27a125cb04e86b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878973"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925683"
 ---
-# <a name="creating-accessible-reports-in-power-bi"></a>Power BI에서 접근성 있는 보고서 만들기
+# <a name="design-power-bi-reports-for-accessibility"></a>접근성을 지원하는 Power BI 보고서 디자인
 접근성을 지원하는 동시에 매력적인 보고서를 디자인하고 만들 수 있습니다. 대상 그룹과 관계없이 보고서를 작성할 때는 항상, 특별한 디자인에 맞게 조정하지 않고도 최대한 많은 사람이 사용할 수 있도록 보고서를 만들어야 합니다.
 
 ![고대비 Windows 설정](media/desktop-accessibility/accessibility-05.png)
 
 이 문서에서는 Power BI에서 접근성 있는 보고서를 만들기 위한 접근성 기능과 도구를 설명합니다.
+
+일반적으로 Power BI를 화면 판독기와 함께 사용할 때는 스캔 모드 또는 찾아보기 모드를 끄는 것이 좋습니다.
 
 화면 판독기를 사용하여 보고서를 작성하는 프로세스를 개선하기 위해 상황에 맞는 메뉴를 사용할 수 있습니다. 메뉴를 통해 필드를 **필드** 목록의 위 또는 아래로 이동할 수 있습니다. **범례** 또는 **값**과 같은 다른 위치로 필드를 이동할 수도 있습니다.
 

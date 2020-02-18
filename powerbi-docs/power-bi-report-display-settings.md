@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 6aefe879e6d5871c8f88ac15407038aa600bf980
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265864"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762511"
 ---
-# <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 보고서의 페이지 표시 설정
+# <a name="apply-page-display-settings-in-a-power-bi-report"></a>Power BI 보고서에 페이지 표시 설정 적용
 보고서 레이아웃 픽셀을 완벽하게 유지하는 것이 어렵다는 것을 알고 있습니다. 화면에 표시된 보고서의 가로 세로 비율과 크기는 보는 사람마다 다르기 때문에 어려울 때도 있습니다. 
 
 기본 표시 뷰는 **페이지에 맞춤** 이고 기본 표시 크기는 **16:9**입니다. 다른 가로 세로 비율로 고정하거나 보고서를 다른 방식으로 조정하려는 경우: ***페이지 보기*** 설정 및 ***페이지 크기*** 설정, 두 가지 도구가 유용합니다.

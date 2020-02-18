@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 12/10/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6e64ab2730b73339d6d22ba356cce6e644af52c5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48efc58c7428961b70fb31a96f404139a75a1ac3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861854"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217890"
 ---
 # <a name="change-the-display-of-a-report-page"></a>보고서 페이지의 표시 변경
 
@@ -52,6 +52,26 @@ ms.locfileid: "73861854"
     ![보고서에 전체 화면 표시](media/end-user-report-view/power-bi-full-screen.png)
 
 보고서를 종료하면 **보기** 설정이 저장되지 않지만 기본값으로 되돌아갑니다. 이러한 설정을 저장하는 것이 중요한 경우 [책갈피](end-user-bookmarks.md)를 사용합니다.
+
+## <a name="use-your-browser-to-change-page-display"></a>브라우저를 사용하여 페이지 표시 변경
+
+브라우저의 확대/축소 컨트롤은 사용 가능한 캔버스 영역을 늘리고 줄입니다. 확장/축소를 줄이면 사용 가능한 캔버스 영역이 확장되고 그 반대의 경우도 마찬가지입니다. 
+
+![브라우저 확대/축소 컨트롤을 보여 주는 짧은 동영상](media/end-user-report-view/power-bi-zoom.png)
+
+전체 브라우저 크기를 조정하는 것은 보고서의 표시 크기를 변경하는 또 다른 방법입니다. 
+
+![브라우저 크기 조정을 보여 주는 짧은 동영상](media/end-user-report-view/power-bi-resize-browser.gif)
+
+## <a name="zoom-in-on-a-visual"></a>시각적 개체 확대
+시각적 개체의 세부 정보를 확인하기 어려운 경우도 있습니다. 시각적 개체만 더 크게 표시할 수 있습니다. 자세한 내용은 [포커스 모드 및 전체 화면 모드](end-user-focus.md)를 참조하세요.
+
+### <a name="a-visual-in-focus-mode"></a>‘포커스’ 모드의 시각적 개체 
+
+![포커스 모드로 열린 시각적 개체 스크린샷](media/end-user-report-view/power-bi-focus.png)
+
+### <a name="a-visual-in-full-screen-mode"></a>‘전체 화면’ 모드의 시각적 개체 
+![전체 화면 모드로 열린 시각적 개체 스크린샷](media/end-user-report-view/power-bi-full-screen.png)
 
 ## <a name="next-steps"></a>다음 단계
 

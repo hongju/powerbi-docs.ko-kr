@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861318"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039125"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI의 시각적 개체 유형
 시각화 개체는 보고서, 대시보드, 질문 및 답변에서 찾을 수 있습니다. 이러한 시각적 개체 유형 중 일부는 Power BI와 함께 패키지로 제공되고, 일부는 ‘사용자 지정 시각적 개체’입니다.  사용자 지정 시각적 개체는 Power BI 외부에서 ‘보고서 디자이너’가 Power BI 보고서 및 대시보드에 추가할 수 있는 방식으로 생성됩니다.  
@@ -130,7 +130,7 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 
 도형 맵은 색을 사용하여 맵의 영역을 비교합니다. 도형 맵은 데이터 요소의 정확한 지리적 위치를 맵에 표시할 수 없습니다. 대신, 색을 다르게 지정하여 맵 영역의 상대 비교를 표시하는 데 주로 사용됩니다.
 
-### <a name="matrix"></a>Matrix
+### <a name="matrix"></a>행렬
 ![행렬](media/end-user-visual-type/matrix.png)
 
 행렬 시각적 개체는 계단형 레이아웃을 지원하는 테이블 시각적 개체의 한 유형(아래 "표" 참조)입니다. 종종 보고서 디자이너는 보고서 및 대시보드에 행렬을 포함하여 사용자가 행렬에서 하나 이상의 요소(행, 열, 셀)를 선택하여 보고서에서 다른 시각적 개체를 교차 강조 표시할 수 있도록 합니다.  
@@ -139,6 +139,19 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 ![원형 차트](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
 원형 차트는 전체에 대한 부분의 관계를 보여줍니다. 
+
+### <a name="power-apps-visual"></a>Power Apps 시각적 개체
+![Power Apps 시각적 개체](media/end-user-visual-type/power-bi-powerapps-visual.png)
+
+보고서 디자이너는 Power App을 만들어 Power BI 보고서에 포함할 수 있습니다. 소비자는 Power BI 보고서 내에서 해당 시각적 개체와 상호 작용할 수 있습니다. 
+
+### <a name="qa-visual"></a>Q&A 시각적 개체
+![질문 및 답변 시각적 개체](media/end-user-visual-type/power-bi-q-and-a.png)
+
+>[!TIP]
+>[대시보드의 질문 및 답변 환경](../power-bi-tutorial-q-and-a.md)과 마찬가지로, 질문 및 답변 시각적 개체를 사용하면 자연어로 데이터에 대해 질문할 수 있습니다. 
+
+자세한 내용은 [Power BI의 질문 및 답변 시각적 개체](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)를 참조하세요.
 
 ### <a name="ribbon-chart"></a>리본 차트
 ![리본 차트](media/end-user-visual-type/power-bi-ribbon.png)
@@ -167,7 +180,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 
 이를 통해 전반적인 데이터 세트에서 중요한 포인트에 대한 응답성, 표현 및 명확한 보존의 최적 조합을 보장할 수 있습니다.
 
-### <a name="slicers"></a>슬라이서
+### <a name="slicers"></a>슬라이서(Slicers)
 ![slicer](media/end-user-visual-type/pbi-slicer.png)
 
 슬라이서는 페이지의 다른 시각적 개체를 필터링하는 데 사용할 수 있는 독립 실행형 차트입니다. 슬라이서는 다양한 형식(범주, 범위, 날짜 등)으로 제공되며 사용 가능한 값 중 하나, 여러 가지 또는 모두를 선택할 수 있도록 형식을 지정할 수 있습니다. 
@@ -210,9 +223,9 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 ### <a name="waterfall-charts"></a>폭포 차트
 ![폭포 차트](media/end-user-visual-type/waterfall-small.png)
 
-폭포 차트는 값을 더하거나 뺄 때의 누계를 보여줍니다. 초기 값(예: 순수입)이 일련의 양수 및 음수 변경에 어떻게 영향을 받는지 이해하는 데 유용합니다.
+폭포 차트는 값을 더하거나 뺄 때의 누계를 보여 줍니다. 초기 값(예: 순수입)이 일련의 양수 및 음수 변경에 어떻게 영향을 받는지 이해하는 데 유용합니다.
 
-세로형 막대는 색으로 구분되어 증가 및 감소를 빠르게 구분할 수 있습니다. 중간 값 열이 부동 세로형 막대인 반면, 초기 및 최종 값 세로형 막대는 종종 가로축에서 시작합니다. 이러한 "보기"로 인해, 폭포 차트는 교량 차트라고도 합니다.
+세로형 막대는 색으로 구분되어 증가 및 감소를 빠르게 구분할 수 있습니다. 중간 값 열이 부동 세로형 막대인 반면, 초기 및 최종 값 세로형 막대는 종종 가로축에서 시작합니다. 이러한 "모양" 때문에 폭포 차트를 브리지 차트라고도 합니다.
 
 다음과 같은 경우 폭포 차트를 사용하는 것이 좋습니다.
 - 시간과 범주에 따라 측정값이 변경되는 경우
@@ -222,7 +235,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 - 매달 벌고 쓰는 금액이 얼마인지 그리고 계좌의 잔고가 얼마인지를 시각화하기 위해
 
 ## <a name="qna"></a>질문 및 답변에 사용할 시각적 개체 알리기
-Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에 시각적 개체 유형을 지정할 수 있습니다.  예:
+Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에 시각적 개체 유형을 지정할 수 있습니다.  다음은 그 예입니다.
 
 
 "***sales by state as a treemap***"

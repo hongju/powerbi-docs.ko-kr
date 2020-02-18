@@ -1,19 +1,19 @@
 ---
 title: Power BI 모바일 앱에서 바코드 스캔
 description: 실제 세계에서 바코드를 스캔하여 Power BI 모바일 앱에 있는 필터링된 BI 정보에 직접 이동합니다.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: mshenhav
-ms.openlocfilehash: bbc787203293fc6c9075400abf674345710faaed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/02/2019
+ms.author: painbar
+ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879168"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217818"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Power BI 모바일 앱에서 디바이스로 바코드 스캔
 실제 세계에서 바코드를 스캔하여 Power BI 모바일 앱에 있는 필터링된 BI 정보에 직접 이동합니다.
@@ -32,15 +32,13 @@ ms.locfileid: "73879168"
 디바이스의 Power BI 앱에서 스캐너를 사용하여 제품 바코드를 스캔할 때 해당 바코드가 있는 보고서(또는 보고서 목록)를 확인합니다. 해당 바코드로 필터링된 보고서를 열 수 있습니다.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Power BI 스캐너를 사용하여 바코드 스캔
-1. Power BI 모바일 앱의 왼쪽 위에 있는 기본 탐색 메뉴 ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png)를 엽니다. 
-2. **스캐너**까지 아래로 스크롤하여 선택합니다. 
-   
+1. 탐색 모음에서 **기타 옵션**(...)을 탭한 다음, **스캐너**를 탭합니다.
+
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
-3. 카메라를 사용하지 않도록 설정한 경우 Power BI 앱이 카메라를 사용할 수 있도록 승인해야 합니다. 한 번만 승인하면 됩니다. 
-4. 제품에 대한 바코드에 스캐너를 가리킵니다. 
-   
-    해당 바코드와 연결된 보고서의 목록이 표시됩니다.
-5. 디바이스에서 열려는 보고서 이름을 누르면 자동으로 해당 바코드 필터링됩니다.
+
+2. 카메라를 사용하지 않도록 설정한 경우 Power BI 앱이 카메라를 사용할 수 있도록 승인해야 합니다. 한 번만 승인하면 됩니다. 
+4. 제품에 대한 바코드에 스캐너를 가리킵니다. 해당 바코드와 연결된 보고서 목록이 표시됩니다.
+5. 보고서 이름을 탭하여 해당 바코드에 따라 자동으로 필터링 된 보고서를 디바이스에서 엽니다.
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>보고서에 있는 동안 다른 바코드로 필터링
 디바이스에서 바코드로 필터링된 보고서를 보는 동안 다른 바코드로 동일한 보고서를 필터링하려고 할 수 있습니다.

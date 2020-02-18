@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870051"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221205"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
@@ -41,10 +41,13 @@ ms.locfileid: "73870051"
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
 3. 지도에서 **지도를 가운데로 이동** 아이콘 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png)을 탭하여 사용자의 현재 위치를 가운데에 맞춥니다.
-   
-     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
-4. 공유 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png)을 눌러서 [타일에 주석 추가 및 타인과 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)합니다.
+
+   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
+
+4. 연필 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png)을 탭하여 [타일에 주석을 달고](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) 공유 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png)을 탭하여 [다른 사용자와 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)합니다.
+
 5. [타일에 경고를 추가합니다](mobile-set-data-alerts-in-the-mobile-apps.md). 값이 대상을 초과하거나 미만인 경우 Power BI에서 알려 줍니다.
+
 6. 경우에 따라 대시보드 작성자는 타일에 대한 링크를 추가합니다. 이때 포커스 모드인 경우 다음과 같은 링크 아이콘 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)이 있습니다.
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
@@ -54,7 +57,7 @@ ms.locfileid: "73870051"
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     Power BI 앱에서 링크를 연 후 링크를 복사하고 대신 브라우저 창에서 열 수 있습니다.
-7. 타일의 기반이 되는 [보고서를 엽니다 ](mobile-reports-in-the-mobile-apps.md)![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png).
+7. 타일의 기초로 사용된 [보고서를 엽니다](mobile-reports-in-the-mobile-apps.md) ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png).
 8. 타일 포커스 모드에서 나오려면 타일 이름을 탭한 다음 대시보드 이름 또는 **내 작업 영역**을 탭합니다.
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
@@ -68,9 +71,9 @@ ms.locfileid: "73870051"
     포커스 모드에서는 다음 작업을 수행할 수 있습니다.
    
    * 차트를 눌러서 꺾은선형, 가로 막대형, 열 또는 거품 차트에서 가로 막대를 이동하거나 시각화에서 특정 지점에 대한 값을 봅니다.  
-   * 스냅샷 공유 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)을 탭하여 [타일에 주석을 달고 다른 사용자와 공유합니다](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
+   * 연필 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png)을 탭하여 [타일에 주석을 달고](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) 스냅샷 공유 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)을 탭하여 다른 사용자와 [공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)합니다.
    * 보고서 열기 아이콘 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)을 탭하여 모바일 앱에서 [보고서를 봅니다](mobile-reports-in-the-mobile-apps.md).
-3. 경우에 따라 대시보드 작성자는 타일에 대한 링크를 추가합니다. 그러면 세로 줄임표( **...** )를 누를 때 **링크 열기**![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)가 표시됩니다.
+3. 경우에 따라 대시보드 작성자는 타일에 대한 링크를 추가합니다. 그러면 세로 줄임표( **...** )를 탭할 때 **링크 열기** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)가 표시됩니다.
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    

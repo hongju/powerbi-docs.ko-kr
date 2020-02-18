@@ -9,14 +9,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b553d9341723c9b44abce57a384d4c7ba76e00a2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eaf2e7fed056653f2ee44e25b493e6b5e170a8dd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868991"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761459"
 ---
-# <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Power BI Desktop에서 제네릭 인터페이스를 사용하여 데이터에 연결
+# <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>Power BI Desktop 제네릭 인터페이스를 사용하여 데이터에 연결 
+
 **데이터 가져오기** 창에 표시된 대로, **Access 데이터베이스**에서 **Zendesk** 리소스에 이르는 기본 제공 데이터 커넥터를 사용하여 **Power BI Desktop**에서 다수의 다양한 데이터 원본에 연결할 수 있습니다. **Power BI Desktop**에 빌드된 제네릭 인터페이스(예: **ODBC** 또는 **REST API**)를 사용하여 모든 종류의 *다른* 데이터 원본에 연결하여 추가로 사용자 연결 옵션을 더욱 확장시킬 수도 있습니다.
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
