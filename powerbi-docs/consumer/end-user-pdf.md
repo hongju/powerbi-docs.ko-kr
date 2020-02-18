@@ -21,7 +21,7 @@ ms.locfileid: "76537557"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI를 사용하면 보고서를 PDF 형식으로 게시하고 Power BI 보고서를 기반으로 문서를 쉽게 만들 수 있습니다. PDF로 내보낼 때 Power BI 보고서의 각 페이지는 PDF 문서에 개별 페이지가 됩니다.
+Power BI를 사용하면 보고서를 PDF 형식으로 게시하고 Power BI 보고서를 기반으로 문서를 쉽게 만들 수 있습니다. PDF로 내보낼 때 Power BI 보고서의 각 페이지는 PDF 문서에서 개별 페이지가 됩니다.
 
 ## <a name="export-your-power-bi-report-to-pdf"></a>Power BI 보고서를 PDF로 내보내기
 Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다. **홈** 페이지, **앱** 또는 탐색 창의 다른 컨테이너에서 보고서를 선택할 수도 있습니다.
