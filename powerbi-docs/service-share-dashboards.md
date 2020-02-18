@@ -26,18 +26,18 @@ ms.locfileid: "74565669"
 
 즐겨찾기, 최근 항목, 공유한 항목(소유자가 허용한 경우), 내 작업 영역, 기타 작업 영역 등 Power BI 서비스의 대부분의 위치에서 대시보드와 보고서를 공유할 수 있습니다. 작업 영역에서 [관리자, 구성원 또는 참가자 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 하는 경우에도 다른 작업 영역에서 공유할 수 있습니다. 
 
-대시보드 또는 보고서를 공유할 경우 공유하는 사람들이 대시보드 또는 보고서를 보고 조작할 수 있지만 편집할 수는 없습니다. [RLS(행 수준 보안)](service-admin-rls.md)를 적용하지 않는 한 다른 사용자는 사용자가 대시보드 또는 보고서에서 확인할 수 있는 동일한 데이터를 봅니다. 허용하는 경우 사용자와 항목을 공유하는 동료는 자신의 동료와도 공유할 수 있습니다. 조직 외부 사람들도 대시보드 또는 보고서를 보고 상호 작용할 수는 있지만, 공유할 수는 없습니다. 
+대시보드 또는 보고서를 공유할 경우 공유받은 사람들은 대시보드 또는 보고서를 보고 조작할 수 있지만 편집할 수는 없습니다. [RLS(행 수준 보안)](service-admin-rls.md)를 적용하지 않는 한 다른 사용자는 사용자가 대시보드 또는 보고서에서 확인할 수 있는 동일한 데이터를 봅니다. 허용하는 경우 사용자와 항목을 공유하는 동료는 자신의 동료와도 공유할 수 있습니다. 조직 외부 사람들도 대시보드 또는 보고서를 보고 상호 작용할 수는 있지만, 공유할 수는 없습니다. 
 
 Power BI Desktop에서 직접 *공유*할 수 없습니다. Power BI 서비스에 [Power BI Desktop의 보고서를 게시](desktop-upload-desktop-files.md)합니다. 하지만 [Power BI 모바일 앱에서 대시보드를 공유](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)할 수 있습니다.  
 
 ## <a name="video-share-a-dashboard"></a>비디오: 대시보드 공유
-Amanda가 Amanda 회사 내부 및 외부의 동료와 대시보드를 공유하는 과정을 봅니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
+Amanda가 Amanda 회사 내부 및 외부의 동료와 대시보드를 공유하는 과정을 시청합니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0tUwn8DHo3s?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="share-a-dashboard-or-report"></a>대시보드 또는 보고서 공유
 
-1. 대시보드 또는 보고서 목록이나 열린 대시보드 또는 보고서에서 **공유** ![공유 아이콘](media/service-share-dashboards/power-bi-share-icon.png)을 선택합니다.
+1. 대시보드 또는 보고서 목록이나 열린 대시보드 또는 보고서에서 **공유** 아이콘 ![공유 아이콘](media/service-share-dashboards/power-bi-share-icon.png)을 선택합니다.
 
 2. 맨 위 상자에서 개인에 대한 전체 메일 주소, 메일 그룹 또는 보안 그룹을 입력합니다. 동적 메일 그룹과 공유할 수 없습니다. 
    
@@ -70,7 +70,7 @@ Amanda가 Amanda 회사 내부 및 외부의 동료와 대시보드를 공유하
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 액세스할 사람 보기
 경우에 따라 공유한 사용자를 확인하고 해당 사용자가 공유한 사람을 확인해야 합니다.
 
-1. 대시보드 및 보고서 목록 또는 대시보드나 보고서 자체에서 **공유** ![공유 아이콘](media/service-share-dashboards/power-bi-share-icon.png)을 선택합니다. 
+1. 대시보드 및 보고서 목록 또는 대시보드나 보고서 자체에서 **공유** 아이콘 ![공유 아이콘](media/service-share-dashboards/power-bi-share-icon.png)을 선택합니다. 
 2. **대시보드 공유** 또는 **보고서 공유** 대화 상자에서 **액세스**를 선택합니다.
    
     ![대시보드 공유 대화 상자, 액세스 탭](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -103,7 +103,7 @@ Power BI 관리자는 외부 게스트 사용자가 조직의 콘텐츠를 편�
 * 보내기 전에 초대장 맨 아래에 있는 **수신자가 대시보드(또는 보고서)를 공유하도록 허용** 확인란의 선택을 취소합니다.
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>대시보드 또는 보고서를 이미 공유한 경우
-1. 대시보드 및 보고서 목록 또는 대시보드나 보고서 자체에서 **공유** ![공유 아이콘](media/service-share-dashboards/power-bi-share-icon.png)을 선택합니다. 
+1. 대시보드 및 보고서 목록 또는 대시보드나 보고서 자체에서 **공유** 아이콘 ![공유 아이콘](media/service-share-dashboards/power-bi-share-icon.png)을 선택합니다. 
 2. **대시보드 공유** 또는 **보고서 공유** 대화 상자에서 **액세스**를 선택합니다.
    
     ![대시보드 공유 대화 상자, 액세스 탭](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -122,7 +122,7 @@ Power BI 관리자는 외부 게스트 사용자가 조직의 콘텐츠를 편�
 다음은 대시보드 및 보고서 공유에 관해 주의해야 할 점입니다.
 
 * 일반적으로 사용자와 사용자의 동료는 대시보드 또는 보고서에서 동일한 데이터를 볼 수 있습니다. 따라서 사용자가 타인보다 더 많은 데이터를 볼 수 있는 권한을 가진 경우, 그들도 사용자의 대시보드 또는 보고서의 모든 데이터를 보게 됩니다. 그러나 [RLS(행 수준 보안)](service-admin-rls.md)가 대시보드 또는 보고서 바탕이 되는 데이터 세트에 적용된 경우 각 사용자의 자격 증명에 따라 해당 사용자가 액세스할 수 있는 데이터가 결정됩니다.
-* 대시보드를 공유하는 모든 사용자는 대시보드를 보고 [읽기용 보기](consumer/end-user-reading-view.md#reading-view)에서 관련 보고서를 조작할 수 있습니다. 일반적으로, 보고서를 만들거나 기존 보고서에 변경 내용을 저장할 수는 없습니다. 그러나 **기본 데이터 세트를 사용하여 사용자의 새 콘텐츠 빌드를 허용**을 선택하는 경우 이 대시보드 또는 보고서의 데이터 세트를 기반으로 다른 작업 영역에서 사용자가 자체 보고서를 만들 수 있습니다.
+* 대시보드를 공유받은 모든 사용자는 대시보드를 보고 [읽기용 보기](consumer/end-user-reading-view.md#reading-view)에서 관련 보고서를 조작할 수 있습니다. 일반적으로, 보고서를 만들거나 기존 보고서에 변경 내용을 저장할 수는 없습니다. 그러나 **기본 데이터 세트를 사용하여 사용자의 새 콘텐츠 빌드를 허용**을 선택하는 경우 이 대시보드 또는 보고서의 데이터 세트를 기반으로 다른 작업 영역에서 사용자가 자체 보고서를 만들 수 있습니다.
 * 누구도 데이터 세트를 다운로드하거나 볼 수는 없지만, Excel에서 분석 기능을 사용하여 데이터 세트에 직접 액세스할 수 있습니다. 관리자는 그룹의 모든 사용자에 대해 Excel에서 분석을 사용하는 기능을 제한할 수 있습니다. 이때 제한은 해당 그룹의 모든 사용자와 해당 그룹이 속한 모든 작업 영역에 적용됩니다.
 * 모든 사용자는 수동으로 [데이터를 새로 고칠](refresh-data.md) 수 있습니다.
 * Office 365를 메일에 사용하는 경우 메일 그룹과 연결된 메일 주소를 입력하여 메일 그룹의 멤버와 공유할 수 있습니다.
@@ -140,9 +140,9 @@ Power BI 관리자는 외부 게스트 사용자가 조직의 콘텐츠를 편�
 
 ## <a name="troubleshoot-sharing"></a>공유 문제 해결
 
-### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>내 대시보드 받는 사람은 타일 또는 “사용 권한 필요” 메시지에 잠금 아이콘이 표시됩니다.
+### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>내 대시보드를 받는 사람에게 타일 또는 “사용 권한 필요” 메시지에 잠금 아이콘이 표시됩니다.
 
-사용자가 함께 공유하는 사람이 보고서를 보려고 할 때 대시보드의 잠긴 타일 또는 “사용 권한 필요” 메시지가 표시될 수 있습니다.
+공유받은 사람이 보고서를 보려고 할 때 대시보드의 잠긴 타일 또는 “사용 권한 필요” 메시지가 표시될 수 있습니다.
 
 ![Power BI 잠긴 타일](media/service-share-dashboards/power-bi-locked_tile_small.png)
 

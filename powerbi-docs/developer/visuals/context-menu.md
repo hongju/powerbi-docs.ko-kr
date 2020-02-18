@@ -1,20 +1,20 @@
 ---
 title: Power BI 시각적 개체의 기능 및 속성
 description: 이 문서에서는 Power BI 시각적 개체의 기능 및 속성을 설명합니다.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 manager: rkarlin
-ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 206f1aec7c76b00b6f725d8469eb3e483a01c653
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 7d24ea77fd73ca6a83176d1b8560c88fa98a8d6b
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061779"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819195"
 ---
 # <a name="add-context-menu-to-power-bi-visual"></a>Power BI 시각적 개체에 상황에 맞는 메뉴 추가
 

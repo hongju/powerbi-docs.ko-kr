@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dd35f06a685d1fd4620ef6a2ee3dc7f90e702a6a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c876a1f87afcb5bbaa3e27bdcb88bda2a04496e5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881034"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758511"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 시각화를 위한 팁과 힌트
 Power BI는 Bing Maps와 통합되어 기본 지도 좌표를 제공(지오코딩이라는 프로세스)하므로 지도를 쉽게 만들 수 있습니다. 이와 함께 알고리즘을 사용하여 올바른 위치를 식별하지만, 경우에 따라 추측하기도 합니다. Power BI가 자체적으로 지도 시각화를 만들 수 없는 경우 Bing Maps의 도움말을 등록합니다. 

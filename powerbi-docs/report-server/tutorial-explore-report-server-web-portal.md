@@ -9,10 +9,10 @@ ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73859248"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>자습서:  VM에서 Power BI Report Server 웹 포털 탐색
@@ -190,7 +190,7 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 
 1. 웹 포털의 **페이지를 매긴 보고서**에서 **Sales Order** 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **관리**를 선택합니다.
 
-1. **매개 변수**를 선택하고 **SalesOrderNumber**의 기본값을 **SO50689**로 변경하고  >  **적용**을 선택합니다.
+1. **매개 변수**를 선택하고 **SalesOrderNumber**의 기본값을 **SO50689**로 변경하고  > **적용**을 선택합니다.
 
    ![보고서 매개 변수 설정](media/tutorial-explore-report-server-web-portal/power-bi-report-server-set-parameters.png)
 
@@ -206,7 +206,7 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 
     기본값을 변경하지 않고 여기서 다른 매개 변수와 함께 해당 매개 변수를 변경할 수 있습니다.
 
-1. **Order** **SO48339** > **보고서 보기**를 선택합니다.
+1. **주문** **SO48339** > **보고서 보기**를 선택합니다.
 
 4. 이는 2페이지 중 1페이지입니다. 오른쪽 화살표를 선택하여 두 번째 페이지를 표시합니다. 테이블이 해당 페이지에서 계속됩니다.
 

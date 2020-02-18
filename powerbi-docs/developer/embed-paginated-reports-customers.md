@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 11/04/2019
-ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.date: 01/04/2019
+ms.openlocfilehash: 48aae2391ead5ded0860364ce5942d7bd725c2d9
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311441"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731246"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>자습서:  고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함(미리 보기)
 
@@ -203,7 +203,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 페이지를 매긴 Power BI 보고서를 포함하는 단계는 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 사용하여 수행되지만 이 문서에 설명된 예제 코드는 **.NET SDK**를 사용하여 만듭니다.
 
-애플리케이션 내에 고객을 위한 페이지를 매긴 Power BI 보고서를 포함하려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 호출하기 전에 **Azure AD** [서비스 주체](embed-service-principal.md)를 보유하고 Power BI 애플리케이션에 대한 [Azure AD 액세스 토큰](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)을 받아야 합니다.
+고객용 Power BI 페이지를 매긴 보고서를 애플리케이션 내에 포함하려면 **Azure AD** [서비스 주체](embed-service-principal.md)가 있어야 하며, [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 호출하기 전에 Power BI 애플리케이션을 위한 [Azure AD 액세스 토큰](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)을 가져와야 합니다.
 
 **액세스 토큰**을 사용하여 Power BI 클라이언트를 만들려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)와 상호 작용할 수 있는 Power BI 클라이언트 개체를 만듭니다. ***Microsoft.Rest.TokenCredentials*** 개체로 **AccessToken**을 래핑하여 Power BI 클라이언트 개체를 만듭니다.
 
@@ -271,6 +271,12 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 
 ## <a name="next-steps"></a>다음 단계
 
-이 자습서에서는 고객의 애플리케이션에 페이지를 매긴 Power BI 보고서를 포함하는 방법을 알아보았습니다. 조직에 Power BI 콘텐츠를 포함할 수도 있습니다.
+이 자습서에서는 고객의 애플리케이션에 페이지를 매긴 Power BI 보고서를 포함하는 방법을 알아보았습니다. 고객용 또는 조직용 Power BI 콘텐츠를 포함할 수도 있습니다.
+
+> [!div class="nextstepaction"]
+>[고객용 콘텐츠 포함](embed-sample-for-customers.md)
+
+> [!div class="nextstepaction"]
+>[조직용 콘텐츠 포함](embed-sample-for-your-organization.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

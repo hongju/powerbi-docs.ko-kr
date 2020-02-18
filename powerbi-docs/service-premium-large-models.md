@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 12/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 934f045e2546893c48211729402a773b4bbe2aa0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696764"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223720"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium의 대형 모델(미리 보기)
 
@@ -118,23 +118,4 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 - **다중 지역 지원**: Premium Files에 사용되는 데이터 세트는 [다중 지역](service-admin-premium-multi-geo.md)도 사용되는 용량에서 실패합니다.
 
 - **Power BI Desktop으로 다운로드**: 데이터 세트가 Premium Files에 저장되는 경우 [.pbix 파일로 다운로드](service-export-to-pbix.md)가 실패합니다.
-- **지원되는 지역**: 다음 지역에서 대형 모델을 지원합니다.
-  - 오스트레일리아 동부
-  - 오스트레일리아 남동부
-  - 미국 중부
-  - 동아시아
-  - 미국 동부
-  - 미국 동부 2
-  - 일본 동부
-  - 일본 서부
-  - 한국 중부
-  - 한국 남부
-  - 미국 중북부
-  - 북유럽
-  - 미국 중남부
-  - 동남 아시아
-  - 영국 남부
-  - 영국 서부
-  - 유럽 서부
-  - 미국 서부
-  - 미국 서부 2
+- **지원되는 지역**: Premium Files Storage를 지원하는 모든 Azure 지역에서 큰 모델이 지원됩니다. 자세한 내용은 [지역별 사용 가능한 제품](https://azure.microsoft.com/global-infrastructure/services/?products=storage)을 참조하세요.
