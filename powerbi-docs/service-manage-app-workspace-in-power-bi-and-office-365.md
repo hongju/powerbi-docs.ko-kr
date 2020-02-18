@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d4be5aa246b6e58b9a6234f30754e16a39341abe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872067"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160584"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Power BI 및 Office 365에서 작업 영역 관리
 
 Office 365 또는 [Power BI의 작업 영역](service-create-distribute-apps.md) 작성자나 관리자는 Power BI에서 작업 영역의 몇 가지 측면을 관리합니다. 다른 측면은 Office 365에서 관리합니다.
 
 > [!NOTE]
-> 새 작업 영역 환경에서 Power BI 작업 영역과 Office 365 그룹 간의 관계를 변경합니다. 새 작업 영역 중 하나를 만들 때마다 Office 365 그룹을 자동으로 만드는 것은 아닙니다. [새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
+> 새 작업 영역 환경에서 Power BI 작업 영역과 Office 365 그룹 간의 관계를 변경합니다. 새 작업 영역 중 하나를 만들 때마다 Office 365 그룹이 자동으로 만들어지지는 않습니다. [새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
 
 **Power BI**에서 다음을 수행할 수 있습니다.
 
@@ -86,4 +86,4 @@ Office 365용 Outlook에서 직접 작업 영역의 기능을 편집할 수도 �
 
 * [Power BI에 앱 게시](service-create-distribute-apps.md)
 
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+* 추가 질문이 있으신가요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

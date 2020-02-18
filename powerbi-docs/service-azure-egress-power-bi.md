@@ -26,15 +26,15 @@ Azure 데이터 원본과 Power BI를 함께 사용하면 Power BI 테넌트가 
 
 Power BI 테넌트의 위치를 확인하려면 [내 Power BI 테넌트는 어디에 있습니까?](service-admin-where-is-my-tenant-located.md) 문서를 참조하세요.
 
-Power BI Premium Multi-Geo 고객의 경우 Power BI 테넌트가 일부 Azure 기반 데이터 원본에 최적의 위치에 있지 않은 경우, 원하는 Azure 지역에서 Power BI Premium Multi-Geo를 배포하여 Power BI 테넌트와 데이터 원본이 동일한 Azure 지역 내에 있을 경우의 이점을 활용하세요.
+Power BI Premium 다중 지역 고객의 경우 Power BI 테넌트가 일부 Azure 기반 데이터 원본에 최적의 위치에 있지 않은 경우, 원하는 Azure 지역에서 Power BI Premium 다중 지역을 배포하여 Power BI 테넌트와 데이터 원본이 동일한 Azure 지역 내에 있을 경우의 이점을 활용하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
-Power BI Premium 또는 Multi-Geo에 대한 자세한 내용을 보려면 다음 리소스를 살펴보세요.
+Power BI Premium 또는 다중 지역에 대한 자세한 내용을 보려면 다음 리소스를 살펴보세요.
 
 * [Microsoft Power BI Premium이란?](service-premium-what-is.md)
 * [Power BI 프리미엄 구매 방법](service-admin-premium-purchase.md)
-* [Power BI Premium에 대한 Multi-Geo 지원(미리](service-admin-premium-multi-geo.md) 보기)
+* [Power BI Premium에 대한 다중 지역 지원(미리](service-admin-premium-multi-geo.md) 보기)
 * [내 Power BI 테넌트는 어디에 있습니까?](service-admin-where-is-my-tenant-located.md)
 * [Power BI 프리미엄 FAQ](service-premium-faq.md)
 

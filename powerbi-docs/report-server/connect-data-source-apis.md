@@ -8,16 +8,20 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: maggies
-ms.openlocfilehash: 77716514ffbb6dc8d3f128ada85276b46bf7af05
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 5cdf29c71ef3e5f8dc02799945cf76ccc518dabe
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72923668"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953745"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>PowerShell을 사용하여 Power BI 보고서에서 데이터 원본 연결 문자열 변경 - Power BI Report Server
 
+
 PowerShell의 API를 사용하여 Power BI Report Server의 Power BI 보고서에서 데이터 원본 연결 문자열을 변경할 수 있습니다. 
+
+> [!NOTE]
+> 현재 이 기능은 DirectQuery에서만 작동합니다. 가져오기 및 데이터 새로 고침 지원이 예정되어 있습니다.
 
 1. Power BI Report Server PowerShell commandlet을 설치합니다. [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools)에서 commandlet 및 설치 지침을 찾습니다. 
 
@@ -66,5 +70,4 @@ PowerShell의 API를 사용하여 Power BI Report Server의 Power BI 보고서�
 
 [Power BI Report Server의 페이지를 매긴 보고서 데이터 원본](connect-data-sources.md) 
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-
+추가 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

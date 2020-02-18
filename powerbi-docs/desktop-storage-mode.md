@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8ecb52f0e9f06a2d3b1c16b4231943ea7970a56e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7b2d3975ba6bcea7b1294c1432f9278908a33ea4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879608"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760023"
 ---
-# <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop의 스토리지 모드
+# <a name="manage-storage-mode-in-power-bi-desktop"></a>Power BI Desktop의 스토리지 모드 관리
 
 Microsoft Power BI Desktop에서는 테이블의 ‘스토리지 모드’를 지정할 수 있습니다.  ‘스토리지 모드’를 사용하면 Power BI Desktop이 보고서에 대한 메모리 내 테이블 데이터를 캐시할지 여부를 제어할 수 있습니다.  
 
@@ -63,7 +63,7 @@ Power BI Desktop의 스토리지 모드 설정은 다음 세 가지 관련 기�
 테이블을 **가져오기**로 변경하는 작업은 *실행 취소*할 수 없습니다. 이 속성을 다시 DirectQuery 또는 이중으로 변경할 수는 없습니다.
 
 > [!NOTE]
-> Power BI Desktop 및 Power BI 서비스에서 *듀얼* 스토리지 모드를 사용할 수 있습니다.
+> Power BI Desktop 및 Power BI 서비스에서 *이중* 스토리지 모드를 사용할 수 있습니다.
 
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>DirectQuery 및 이중 테이블에 대한 제약 조건

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf434c2b6d7181e723977d6264df718ee1e5ee5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c303bbd3fe229ea48dbad3da9d003851f7441956
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878467"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761637"
 ---
-# <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Power BI Desktop에서 Amazon Redshift에 연결
+# <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>Power BI Desktop에서 Amazon Redshift 데이터베이스에 연결
 **Power BI Desktop**에서 **Amazon Redshift** 데이터베이스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다.
 
 ## <a name="connect-to-an-amazon-redshift-database"></a>Amazon Redshift 데이터베이스에 연결

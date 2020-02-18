@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 77be727de3cda1d3b6fd5c34b6e572b1d505fc54
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872800"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282019"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>질문 및 답변에서 대시보드에 타일 고정
 ## <a name="how-to-pin-a-tile-from-qa"></a>질문 및 답변에서 타일을 고정하는 방법
@@ -53,7 +53,7 @@ ms.locfileid: "73872800"
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 * 질문 입력을 시작하면 질문 및 답변에서 현재 대시보드와 연결된 모든 데이터 세트에서 최적의 답변을 검색하기 시작합니다.  "현재 대시보드"는 위쪽 탐색 창에 나열된 대시보드입니다. 예를 들어 이 질문은 **mihart** 작업 영역에 속하는 **소매점 분석 샘플** 대시보드에서 묻습니다.
 
-  ![이동 경로](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
+  ![이동 경로](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **질문 및 답변에서 사용할 데이터 세트는 어떻게 아나요**?  질문 및 답변에서는 해당 대시보드에 고정된 시각화가 하나 이상 있는 모든 데이터 세트에 액세스할 수 있습니다.
 
 * **질문 상자가 보이지 않나요**? Power BI 관리자에게 문의하세요. 관리자는 질문 및 답변을 사용하지 않도록 설정할 수 있습니다.
