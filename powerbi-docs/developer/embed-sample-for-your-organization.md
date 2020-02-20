@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 07/29/2019
-ms.openlocfilehash: c67ce4ef9b5b0ac2054d4ecdf76ee3a1a79571d8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 02/04/2020
+ms.openlocfilehash: 7a10df09bd6b0f4ce81ee32ae72700080a8020d9
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311070"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691348"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -53,6 +53,8 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 애플리케이션에서 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
 
 **서버 쪽 웹 애플리케이션** 앱 등록 작업을 진행해야 합니다. 서버 사이드 웹 애플리케이션을 등록하여 응용 프로그램 암호를 만듭니다.
+
+Azure에서 애플리케이션을 만들었으면 Azure에서 애플리케이션을 열고 ‘인증’으로 이동한 후 ‘리디렉션 URI’에서 **/Redirect**를 ‘리디렉션 URI’에 추가합니다.   
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
 

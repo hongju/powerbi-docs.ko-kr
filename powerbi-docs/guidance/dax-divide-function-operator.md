@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c20a366ef657e851ef77a9649dbcc8b66b67dac0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74695200"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "75304182"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: 나누기 함수 및 나누기 연산자(/)
 
@@ -58,7 +58,7 @@ DIVIDE([Profit], [Sales])
 
 분모가 상수 값인 경우 나누기 연산자를 사용하는 것이 좋습니다. 이 경우 나누기의 성공이 보장되며, 불필요한 테스트를 피할 수 있으므로 식이 더 효과적으로 수행됩니다.
 
-DIVIDE 함수에서 대체 값을 반환할지를 신중하게 고려해야 합니다. 측정값의 경우 의미 있는 결과를 평가할 수 없는 경우에는 공백이 반환되도록 설계하는 것이 좋습니다. 자세한 내용은 [공백을 값으로 변환하지 않도록 방지](dax-avoid-converting-blank.md)를 참조하세요.
+DIVIDE 함수에서 대체 값을 반환할지를 신중하게 고려해야 합니다. 측정값의 경우 일반적으로 비어 있음을 반환하도록 설계하는 것이 더 좋습니다. 요약이 비어 있는 경우 보고서의 시각적 개체가 기본적으로 그룹화를 제거하기 때문에 비어 있음을 반환하는 것이 더 좋습니다. 이를 통해 시각적 개체는 데이터가 존재하는 그룹에 집중할 수 있습니다. 필요한 경우 [데이터가 없는 항목 표시](../desktop-show-items-no-data.md) 옵션을 사용하도록 설정하여 시각적 개체가 모든 그룹(값 또는 BLANK 반환)을 필터 컨텍스트 내에서 표시하도록 구성할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

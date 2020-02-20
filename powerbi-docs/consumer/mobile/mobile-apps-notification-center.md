@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 22988b08209865e9f1f2c583a30aa40e48c249bc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7b0a8b1f8b77ba1ee636bc92bb230b7c51e2935b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879250"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219396"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 알림 가져오기
 적용 대상:
@@ -34,27 +34,23 @@ ms.locfileid: "73879250"
    
    ![알림 배너](./media/mobile-apps-notification-center/power-bi-mobile-notification-banner.png)
    
-   또는 iPad에서:
-   
-   ![알림](./media/mobile-apps-notification-center/power-bi-ipad-notifications.png)
-   
+
    [Power BI가 알리는 방법](mobile-apps-notification-center.md#change-or-turn-off-notifications-on-your-mobile-device)을 변경할 수 있습니다.
-2. 알림을 받은 경우 모바일 디바이스에서 Power BI에 로그인할 때 전역 탐색 단추 ![알림 닷](./media/mobile-apps-notification-center/power-bi-android-menu-notifications-icon.png)(Android) 또는 **알림** 아이콘에 노란색 점이 표시됩니다. 
-   
-   ![알림 닷](./media/mobile-apps-notification-center/power-bi-windows-10-notifications.png)
-3. 알림 아이콘 ![알림 아이콘](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10)을 선택합니다.
+2. 알림을 받은 경우 모바일 디바이스에서 Power BI에 로그인할 때 알림 벨 아이콘 ![알림 벨](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS 및 Android) 또는 전역 탐색 단추 ![알림 닷](./media/mobile-apps-notification-center/power-bi-iphone-alert-global-nav-button.png) (Windows 10 디바이스)에 노란색 점이 표시됩니다. 
+
+3. 알림 센터에서 알림을 보려면 알림 벨 ![알림 벨](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS 및 Android) 또는 알림 센터 아이콘 ![알림 아이콘](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10 디바이스)을 탭합니다.
    
     알림은 가장 최근 메시지부터 읽지 않은 메시지를 강조하여 표시됩니다. 알림은 삭제하거나 최대 제한인 100개에 도달하지 않는 한 90일 동안 유지됩니다.
    
    ![iOS 알림 목록](./media/mobile-apps-notification-center/power-bi-iphone-notifications-list.png)
-4. 알림을 해제하려면 길게 눌러서 **해제**를 선택합니다.
+4. iOS 및 Android 디바이스에서 알림을 해제하려면 탭하고 길게 누른 다음, 살짝 밉니다. Windows 10 디바이스에서 마우스 오른쪽 단추를 클릭하고 **해제**를 선택합니다.
 
 ## <a name="change-or-turn-off-notifications-on-your-mobile-device"></a>모바일 디바이스에 대한 알림 변경 또는 해제
 Power BI가 알리는 방법을 변경할 수 있습니다.
 
 1. iOS 디바이스에서 **설정** > **알림**으로 이동합니다. 
    
-    Android 휴대폰에서 **알림 설정**으로 이동합니다.
+    Android 휴대폰에서 **설정** > **알림**으로 이동합니다.
    
     Windows 디바이스의 **설정**에서 **시스템** > **알림 및 작업**으로 이동합니다.
 2. 앱 목록에서 **Power BI**를 선택합니다. 

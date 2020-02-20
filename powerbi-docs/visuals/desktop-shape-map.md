@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199447"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762327"
 ---
-# <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵(미리 보기)
+# <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵 시각화 만들기(미리 보기)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -196,7 +196,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="france-regions"></a>프랑스: 지역
 
-| ID | 이름 | name-en |
+| ID | name | name-en |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
@@ -358,7 +358,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 ### <a name="usa-states"></a>미국: 시/도
 
-| ID | 이름 | postal |
+| ID | name | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |

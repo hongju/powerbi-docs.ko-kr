@@ -1,6 +1,6 @@
 ---
-title: Power BI 페이지를 매긴 보고서 작성기
-description: Power BI 페이지를 매긴 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 도구입니다.
+title: Power BI 보고서 작성기
+description: Power BI 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 도구입니다.
 ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74565282"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953908"
 ---
-# <a name="power-bi-paginated-report-builder"></a>Power BI 페이지를 매긴 보고서 작성기
+# <a name="power-bi-report-builder"></a>Power BI 보고서 작성기
 
- Power BI 페이지를 매긴 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 도구입니다.  페이지를 매긴 보고서를 디자인할 때 검색할 데이터, 가져올 위치 및 표시 방법을 지정하는 보고서 정의를 만듭니다. 보고서를 실행할 때 보고서 처리기는 지정한 보고서 정의를 사용하고, 데이터를 검색하고, 보고서 레이아웃과 결합하여 보고서를 생성합니다. 보고서 작성기에서 보고서를 미리 봅니다. 그런 다음, Power BI 서비스에 보고서를 게시합니다.
+ Power BI 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 도구입니다.  페이지를 매긴 보고서를 디자인할 때 검색할 데이터, 가져올 위치 및 표시 방법을 지정하는 보고서 정의를 만듭니다. 보고서를 실행하면 보고서 처리기는 지정된 보고서 정의를 가져와 데이터를 검색한 다음 보고서 레이아웃에 따라 정렬하여 보고서를 생성합니다. 보고서 작성기에서 보고서를 미리 봅니다. 그런 다음, Power BI 서비스에 보고서를 게시합니다.
 
 [실습 랩: Microsoft Power BI 페이지를 매긴 보고서 만들기](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)를 사용해보세요.
 
@@ -48,7 +48,7 @@ ms.locfileid: "74565282"
 
 -   **차트, 계기, 스파크라인 및 표시기를 추가합니다**. 데이터를 시각적 개체 형식으로 요약하고 집계된 대량의 정보를 한 눈에 볼 수 있습니다.  
   
--   문서 맵, 표시/숨기기 단추, 하위 보고서 및 드릴스루 보고서에 대한 드릴스루 링크와 같은 **대화형 기능을 추가합니다**. 매개 변수 및 필터를 사용하여 사용자 지정된 보기에 대한 데이터를 필터링합니다.  
+-   문서 맵, 표시/숨기기 단추, 하위 보고서 및 드릴스루 보고서에 대한 드릴스루 링크와 같은 **대화형 기능을 추가합니다**. 매개 변수와 필터로 데이터를 필터링하여 사용자 지정 뷰를 만들 수 있습니다.  
   
 -   **이미지 포함 또는 참조** 및 외부 콘텐츠를 포함한 리소스.  
   

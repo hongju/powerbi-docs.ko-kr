@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4125ff59f32de8453fe131685f0a05e1c45220c3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: c6987c5849fd2f971c1d7bdc7fe6130dcd09ce59
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73876522"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761729"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Consumption Insights 데이터에 연결
 
@@ -192,20 +192,20 @@ Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하
 | ConsumedServiceId |consumedServiceId | |예 |
 | Cost |cost |ExtendedCost |아니요 |
 | Cost Center |costCenter |Cost Center |아니요 |
-| Date |date |Date |아니요 |
+| 날짜 |날짜 |Date |아니요 |
 | Day | |Day |아니요 |
 | DepartmentName |departmentName |부서 이름 |아니요 |
 | DepartmentID |departmentId | |예 |
 | Instance ID | | |예 |
 | InstanceId |instanceId |Instance ID |아니요 |
-| Location | | |예 |
+| 위치 | | |예 |
 | Meter Category |meterCategory |Meter Category |아니요 |
 | Meter ID | | |예 |
 | Meter Name |meterName |Meter Name |아니요 |
 | Meter Region |meterRegion |Meter Region |아니요 |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |아니요 |
 | MeterId |meterId |Meter ID |아니요 |
-| Month | |Month |아니요 |
+| Month | |월 |아니요 |
 | Product |product |Product |아니요 |
 | ProductId |productId | |예 |
 | Resource Group |resourceGroup |Resource Group |아니요 |
@@ -221,7 +221,7 @@ Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하
 | Store Service Identifier |storeServiceIdentifier |Store Service Identifier |아니요 |
 | StoreServiceIdentifierId | | |예 |
 | Subscription Name |subscriptionName |Subscription Name |아니요 |
-| Tags |tags |Tags |아니요 |
+| 태그 |tags |Tags |아니요 |
 | TagsId | | |예 |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |아니요 |
 | Year | |Year |아니요 |
@@ -231,7 +231,7 @@ Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하
 
 ## <a name="next-steps"></a>다음 단계
 
-Power BI Desktop을 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 자세한 내용은 다음 아티클을 참조하세요.
+Power BI Desktop을 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 자세한 내용은 다음 문서를 참조하세요.
 
 * [Power BI Desktop에서 Azure Cost Management 데이터에 연결](desktop-connect-azure-cost-management.md)
 * [Power BI Desktop이란?](desktop-what-is-desktop.md)

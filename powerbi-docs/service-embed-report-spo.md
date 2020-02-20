@@ -1,21 +1,21 @@
 ---
 title: SharePoint Online에 보고서 웹 파트 포함
 description: SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 SharePoint Online 페이지에서 대화형 Power BI 보고서를 쉽게 포함시킬 수 있습니다.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 05/16/2019
-ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/18/2019
+ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881893"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75221715"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -29,6 +29,7 @@ SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 
 
 * Power BI Pro 라이선스 또는 Power BI 라이선스를 포함한 [Power BI Premium 용량(EM 또는 P SKU)](service-premium-what-is.md).
 * SharePoint Online용 Power BI 웹 파트는 [최신 페이지](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)가 필요합니다.
+* 포함된 보고서를 사용하려면 사용자가 Power BI 서비스에 로그인하여 Power BI 라이선스를 활성화해야 합니다.
 
 ## <a name="embed-your-report"></a>보고서 포함
 보고서를 SharePoint Online에 포함하려면 보고서 URL을 가져와 SharePoint Online의 Power BI 웹 파트와 함께 사용해야 합니다.

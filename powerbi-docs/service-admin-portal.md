@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882894"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76819586"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -25,7 +25,7 @@ ms.locfileid: "74882894"
 
 ## <a name="how-to-get-to-the-admin-portal"></a>관리 포털에 도달하는 방법
 
-Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Office 365 또는 Azure Active Directory 내에서 **전역 관리자**로 표시되거나 Power BI 서비스 관리자 역할이 할당되어야 합니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요. Power BI 관리 포털에 도달하려면 다음을 수행합니다.
+Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Office 365 또는 Azure AD(Azure Active Directory) 내에서 **전역 관리자**로 표시되거나 Power BI 서비스 관리자 역할이 할당되어야 합니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요. Power BI 관리 포털에 도달하려면 다음을 수행합니다.
 
 1. Power BI 서비스의 오른쪽 위에서 설정 아이콘을 선택합니다.
 
@@ -164,13 +164,13 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ## <a name="help-and-support-settings"></a>도움말 및 지원 설정
 
-### <a name="publish-get-help-information"></a>“도움말 보기” 정보 게시
+### <a name="publish-get-help-information"></a>"도움말 보기" 정보 게시
 
 조직의 사용자는 Power BI 도움말 메뉴에서 내부 도움말 및 지원 리소스로 이동할 수 있습니다. 특히 이러한 매개 변수는 학습, 커뮤니티 및 도움말 보기 메뉴 항목을 변경합니다.
 
-    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+또한 라이선스 요청에 URL을 지정하여 **계정 업그레이드** 단추의 대상 URL을 사용자 지정합니다. Power BI Pro 라이선스가 없는 사용자는 **Power BI Pro 업데이트** 대화 상자와 **개인 스토리지 관리** 페이지에 이 단추가 표시됩니다. 또한 Power BI는 이 대화 상자나 스토리지 페이지에서 **무료로 Pro 사용해 보기** 단추를 더 이상 제공하지 않습니다. 이렇게 하면 Power BI에서 라이선스 관리 솔루션을 통해 조직에 정의된 프로세스를 사용자에게 안정적으로 안내할 수 있습니다.
 
-라이선스 요청에 URL을 지정하여 Power BI Pro 라이선스가 없는 사용자가 **Power BI Pro로 업데이트** 대화 상자 및 **개인 스토리지 관리** 페이지에서 찾을 수 있는 **계정 업그레이드** 단추의 대상 URL을 사용자 지정합니다. 또한 Power BI에서 라이선스 관리 솔루션을 통해 조직에 정의된 프로세스를 사용자에게 안정적으로 안내할 수 있도록 이 대화 상자나 스토리지 페이지에서 **Pro 체험해 보기** 단추가 더 이상 제공되지 않습니다.
+![제외 사용 설정](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>서비스 중단 또는 인시던트에 대한 이메일 알림 받기
 
@@ -190,7 +190,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ### <a name="share-content-with-external-users"></a>외부 사용자와 콘텐츠 공유
 
-조직의 사용자는 조직 외부의 사용자와 대시보드를 공유할 수 있습니다. [외부 공유](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)에 관해 자세히 알아보세요.
+조직의 사용자는 조직 외부의 사용자와 대시보드, 보고서 및 앱을 공유할 수 있습니다. [외부 공유](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)에 관해 자세히 알아보세요.
 
 ![외부 사용자 설정](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -198,13 +198,29 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ![외부 사용자와 공유](media/service-admin-portal/powerbi-admin-sharing-external.png)  
 
+> [!IMPORTANT]
+> 이 옵션은 Power BI 사용자가 조직에서 Power BI를 통해 외부 사용자를 Azure AD B2B(Azure Active Directory B2B) 게스트 사용자로 초대할 수 있는지 여부를 제어합니다. 사용하도록 설정된 경우, Azure AD에서 게스트 초대자 역할을 갖는 사용자는 보고서, 대시보드 및 Power BI 앱을 공유할 때 외부 메일 주소를 추가할 수 있습니다. 외부 수신자는 Azure AD B2B 게스트 사용자로 조직에 가입하라는 초대를 받게 됩니다. 이 설정을 비활성화할 경우 이 조직에서 기존에 Azure AD B2B 게스트 사용자가 된 외부 사용자는 계속해서 Power BI의 사용자 선택 UI에 표시되고 항목, 작업 영역 및 앱에 대한 액세스 권한을 부여받을 수 있습니다.
+
 ### <a name="publish-to-web"></a>웹에 게시
 
-조직의 사용자는 웹에 보고서를 게시할 수 있습니다. [자세히 알아보기](service-publish-to-web.md)
+조직의 사용자는 웹에 보고서를 게시할 수 있습니다. [자세히 알아봅니다](service-publish-to-web.md). 이렇게 하면 보고서와 이 보고서에 포함된 데이터를 웹에서 누구나 사용할 수 있습니다.
+
+> [!NOTE]
+> Power BI 관리자가 새 웹에 게시 embed 태그를 만들 수 있도록 허용해야 합니다. 조직에 기존 embed 태그가 있을 수 있습니다. [embed 태그](service-admin-portal.md#embed-codes) 페이지를 사용하여 현재 게시된 보고서를 검토할 수 있습니다.
 
 다음 이미지는 **웹에 게시** 설정을 사용하도록 설정한 경우 보고서의 **파일** 메뉴를 보여 줍니다.
 
-![웹에 게시 설정](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![파일 메뉴의 웹에 게시](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+**웹에 게시** 설정은 사용자가 embed 태그를 만들 수 있는 옵션을 제공합니다.
+
+![웹에 게시 설정](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+
+**embed 태그 작동 방식 선택** 옵션이 **기존 embed 태그만 허용**으로 설정되고 **웹에 게시** 설정이 **사용**으로 설정된 경우 Power BI 관리자에게 연락하여 embed 태그를 만들도록 요청합니다.
+
+![웹에 게시 프롬프트](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
 
 **웹에 게시** 설정에 따라 UI에 다른 옵션이 표시됩니다.
 
@@ -247,14 +263,14 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 ![보고서 인쇄](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용
-Azure Active Directory B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습니다. [자세히 알아보기](service-admin-azure-ad-b2b.md)
+
+Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습니다. [자세히 알아보기](service-admin-azure-ad-b2b.md)
 
 다음 이미지는 외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용하는 옵션을 보여줍니다.
 
 ![외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
-> [!IMPORTANT]
-> Azure AD 테넌트에 외부 사용자를 추가하는 경우(수동으로 또는 해당 사용자와 보고서를 공유하여), 이제 해당 사용자 계정을 내부 계정에서 검색할 수 있습니다. 내부 계정에 외부 공유 권한이 없어도 내부 사용자가 외부 사용자와 다른 항목을 공유할 수 있습니다.
+관리 포털에서 조직으로 외부 사용자를 초대할 권한을 갖는 사용자를 제어할 수 있습니다. 자세한 내용은 이 문서의 [외부 사용자와 콘텐츠 공유](#export-and-sharing-settings)를 참조하세요.
 
 ### <a name="email-subscriptions"></a>메일 구독
 조직의 사용자가 메일 구독을 만들 수 있습니다. [구독](service-report-subscribe.md)에 대해 자세히 알아보세요.
@@ -446,7 +462,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 ## <a name="embed-codes"></a>embed 태그
 
-관리자는 테넌트에 대해 생성된 embed 태그를 볼 수 있습니다. 코드를 취소하거나 삭제할 수도 있습니다. [자세히 알아보기](service-publish-to-web.md)
+관리자는 보고서를 공개적으로 공유할 테넌트에 대해 생성된 embed 태그를 볼 수 있습니다. 코드를 취소하거나 삭제할 수도 있습니다. [자세히 알아보기](service-publish-to-web.md)
 
 ![Power BI 관리 포털 내의 embed 태그](media/service-admin-portal/embed-codes.png)
 
@@ -508,7 +524,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 시각적 개체 ID가 변경되지 않았는지 확인합니다. 새 파일은 조직 전체의 모든 보고서에 대해 이전 파일을 대체합니다. 그러나 시각적 개체의 새 버전이 시각적 개체의 이전 버전에 대한 사용이나 데이터 구조를 중단하는 경우에는 이전 버전을 바꾸지 마세요. 대신에 시각적 개체의 새 버전에 대한 새 목록을 만들어야 합니다. 예를 들어 새 버전 번호(버전 X.X)를 새 나열된 시각적 개체의 제목에 추가합니다. 이렇게 하면 업데이트된 버전 번호를 가진 동일한 시각적 개체가 되므로 기존 보고서가 해당 기능을 중단하지 않습니다. 다시 한번 시각적 개체 ID가 변경되지 않았는지 확인합니다. 그러면 다음에 사용자가 Power BI Desktop에서 조직의 리포지토리에 들어갈 때 새 버전을 가져올 수 있으며, 보고서에 있는 현재 버전을 바꾸라는 메시지가 표시됩니다.
 
-자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals)을 참조하세요.
+자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals)을 참조하세요.
 
 ## <a name="dataflowStorage">데이터 흐름 스토리지(미리 보기)</a>
 

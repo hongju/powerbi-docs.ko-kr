@@ -1,4 +1,4 @@
----
+﻿---
 title: Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침 - 클라우드
 description: OneDrive 또는 SharePoint Online에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
 author: davidiseminger
@@ -51,7 +51,7 @@ Power BI에서 **지금 새로** 고침 및 **새로 고침 예약**은 다음 �
 
 Power BI에서 로그인하는 데 사용한 동일한 계정이 비즈니스용 OneDrive에 로그인하는 데 사용하는 계정이기 때문에 Power BI에서 비즈니스용 OneDrive에 연결하는 작업은 일반적으로 원활합니다. 하지만 개인 OneDrive를 사용하여 다른 [Microsoft 계정](https://account.microsoft.com)으로 로그인할 가능성이 있습니다.
 
-Microsoft 계정으로 로그인 하는 경우 **로그인 상태 유지**를 선택해야 합니다. 그런 다음, Power BI는 Power BI Desktop의 파일에 있는 모든 업데이트를 Power BI의 데이터 세트와 동기화할 수 있습니다.  
+Microsoft 계정으로 로그인하는 경우 **로그인 유지**를 선택해야 합니다. 그런 다음, Power BI는 Power BI Desktop의 파일에 있는 모든 업데이트를 Power BI의 데이터 세트와 동기화할 수 있습니다.  
 
 ![확인란에 로그인 상태 유지](media/refresh-excel-file-onedrive/refresh_signin_keepmesignedin.png)
 
@@ -61,7 +61,7 @@ Microsoft 계정 자격 증명이 변경되어 Power BI의 데이터 세트 및 
 
 비즈니스용 OneDrive 또는 SharePoint Online에서 Excel 통합 문서에 연결할 때 Power BI의 통합 문서에 있는 내용을 가져오는 방법은 두 가지 옵션이 있습니다.
 
-[**Power BI로 Excel 데이터 가져오기**](service-excel-workbook-files.md#import-or-connect-to-an-excel-workbook-from-power-bi) – Business용 OneDrive 또는 SharePoint Online에서 Excel 통합 문서를 가져올 경우 위에서 설명한 대로 작동합니다.
+[**Power BI로 Excel 데이터 가져오기**](service-excel-workbook-files.md#import-or-connect-to-an-excel-workbook-from-power-bi) – 비즈니스용 OneDrive 또는 SharePoint Online에서 Excel 통합 문서를 가져올 경우 위에서 설명한 대로 작동합니다.
 
 [**Power BI에서 Excel 연결, 관리 및 보기**](service-excel-workbook-files.md#one-excel-workbook--two-ways-to-use-it) – 이 옵션을 사용할 때 Power BI에서 비즈니스용 OneDrive 또는 SharePoint Online의 통합 문서에 바로 연결합니다.
 
@@ -92,7 +92,7 @@ Microsoft 계정 자격 증명이 변경되어 Power BI의 데이터 세트 및 
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>파워 피벗에서 외부 데이터 가져오기를 사용할 경우 어떻게 되나요?
 
-그러나 문제가 되지 않습니다. 파워 피벗을 사용하여 온-프레미스 또는 온라인 데이터 원본에서 데이터에 연결하고 쿼리할 때마다 데이터는 데이터 모델에 자동으로 로드됩니다.
+문제가 되지 않습니다. 파워 피벗을 사용하여 온-프레미스 또는 온라인 데이터 원본에서 데이터에 연결하고 쿼리할 때마다 데이터는 데이터 모델에 자동으로 로드됩니다.
 
 ## <a name="how-do-i-schedule-refresh"></a>새로 고침을 예약하려면 어떻게 해야 하나요?
 
@@ -104,7 +104,7 @@ Microsoft 계정 자격 증명이 변경되어 Power BI의 데이터 세트 및 
 
 무언가 잘못된 경우, 이는 일반적으로 Power BI가 데이터 원본에 로그인할 수 없기 때문이거나 데이터 세트가 온-프레미스 데이터 원본에 연결된 경우 게이트웨이가 오프라인 상태이기 때문입니다. Power BI가 데이터 원본에 로그인할 수 있는지 확인합니다. 데이터 소스에 로그인할 때 사용하는 암호를 변경하거나 Power BI가 데이터 원본에서 로그아웃된 경우, 데이터 원본 자격 증명에서 다시 데이터 원본에 로그인을 시도해야 합니다.
 
-**새로 고침 실패 알림 전자 메일을 내게 보내기를 체크된 상태**로 남겨두어야 합니다. 예약된 새로 고침이 실패하는 경우 바로 알아야 합니다.
+**새로 고침 실패 알림 전자 메일을 내게 보내기**를 체크된 상태로 남겨두어야 합니다. 예약된 새로 고침이 실패하는 경우 바로 알아야 합니다.
 
 ## <a name="important-notes"></a>중요한 참고 사항
 
