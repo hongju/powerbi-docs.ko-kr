@@ -29,7 +29,9 @@ Power BI Desktop에는 세 가지 보기가 있습니다.
 
 ![](media/desktop-query-overview/queryoverview_viewicons.png)
 
-Power BI Desktop은 Power Query 편집기와 함께 제공됩니다. Power Query 편집기를 사용하여 하나 이상의 데이터 원본에 연결하고, 요구 사항에 맞게 데이터의 모양을 지정하고 변환한 다음, 해당 모델을 Power BI Desktop에 로드합니다.
+
+Power BI Desktop은 하나 이상의 데이터 원본, 모양 및 필요에 맞는 데이터 변환에 연결하고 해당 모델을 Power BI Desktop에 로드할 수 있는 **쿼리 편집기**도 함께 제공합니다.
+
 
 이 문서는 Power Query 편집기에서 데이터로 작업하는 방법에 대한 개요를 제공하지만 더 자세히 알아볼 내용이 있습니다. 이 문서의 끝에서 지원되는 데이터 형식에 대한 자세한 지침 링크를 찾을 수 있습니다. 또한 데이터에 연결, 데이터 모양 지정, 관계 만들기 및 시작하는 방법에 대한 지침도 찾을 수 있습니다.
 
@@ -44,7 +46,9 @@ Power Query 편집기를 사용하려면 Power BI Desktop의 **홈** 탭에서 *
 
 ![](media/desktop-query-overview/queryoverview_blankpane.png)
 
-쿼리가 로드되면 Power Query 편집기는 더 흥미로워집니다. 다음 웹 데이터 원본에 연결한 경우, Power Query 편집기는 데이터에 대한 정보를 로드하며, 그 후에는 모양을 지정할 수 있습니다.
+
+쿼리가 로드되면 **쿼리 편집기**는 더 흥미로워집니다. 다음 웹 데이터 원본에 연결한 경우, **파워 쿼리 편집기**는 데이터에 대한 정보를 로드하며, 그 후에는 모양을 지정할 수 있습니다.
+
 
 [*https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/*](https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/)
 
@@ -57,7 +61,9 @@ Power Query 편집기를 사용하려면 Power BI Desktop의 **홈** 탭에서 *
    
    ![](media/desktop-query-overview/queryoverview_withdataconnection.png)
 
-리본 메뉴, 쿼리 창, 데이터 보기 및 쿼리 설정 창의 4가지 각 영역을 살펴보겠습니다.
+
+다음 섹션에서 리본 메뉴, 쿼리 창, 데이터 보기 및 쿼리 설정 창의 4가지 각 영역을 살펴보겠습니다.
+
 
 ## <a name="the-query-ribbon"></a>쿼리 리본
 Power Query 편집기의 리본 메뉴는 다음 네 개의 탭으로 구성됩니다. **홈**, **변환**, **열 추가**, 그리고 **보기**입니다.
@@ -66,11 +72,13 @@ Power Query 편집기의 리본 메뉴는 다음 네 개의 탭으로 구성됩�
 
 ![](media/desktop-query-overview/queryoverview_ribbon.png)
 
-데이터에 연결하고 쿼리 작성 프로세스를 시작하려면 **새 원본**을 선택합니다. 가장 일반적인 데이터 소스를 제공하는 메뉴가 나타납니다.  
+
+데이터에 연결하고 쿼리 작성 프로세스를 시작하려면 **데이터 가져오기** 버튼을 선택합니다. 가장 일반적인 데이터 원본을 제공하는 메뉴가 나타납니다.  
+
 
 ![](media/desktop-query-overview/query-overview-new-source-menu.png)
 
-사용 가능한 데이터 소스에 대한 자세한 내용은 **데이터 소스**를 참조하세요. 예제 및 단계를 포함하여 데이터에 연결하는 방법에 대한 자세한 내용은 **데이터에 연결**을 참조하세요.
+사용 가능한 데이터 원본에 대한 자세한 내용은 **데이터 원본**을 참조하세요. 예제 및 단계를 포함하여 데이터에 연결하는 방법에 대한 자세한 내용은 **데이터에 연결**을 참조하세요.
 
 **변환** 탭은 다음과 같은 일반적인 데이터 변환 작업에 대한 액세스를 제공합니다.
 
@@ -120,8 +128,10 @@ Power Query 편집기의 리본 메뉴는 다음 네 개의 탭으로 구성됩�
 
 ![](media/desktop-query-overview/queryoverview_querysettings_rename.png)
 
-## <a name="advanced-editor"></a>고급 편집기
-**고급 편집기**를 사용하면 각 단계에서 Power Query 편집기가 만드는 코드를 볼 수 있습니다. 또한 사용자 고유의 셰이핑 코드를 만들 수 있습니다. 고급 편집기를 시작하려면 리본 메뉴에서 **보기** 를 선택한 다음 **고급 편집기**를 선택합니다. 기존 쿼리 코드를 보여 주는 창이 나타납니다.  
+
+## <a name="the-advanced-editor"></a>고급 편집기
+각 단계에서 쿼리가 만드는 코드를 확인하거나 사용자 고유의 모양 지정 코드를 만들려는 경우 **고급 편집기**를 사용할 수 있습니다. 고급 편집기를 시작하려면 리본 메뉴에서 **보기**를 선택한 다음 **고급 편집기**를 선택합니다. 기존 쿼리 코드를 보여 주는 창이 나타납니다.  
+
 ![](media/desktop-query-overview/queryoverview_advancededitor.png)
 
 **고급 편집기** 창에서 코드를 직접 편집할 수 있습니다. 창을 닫으려면 **완료** 또는 **취소** 단추를 선택합니다.  
