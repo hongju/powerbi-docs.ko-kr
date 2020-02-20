@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/18/2017
-ms.author: mshenhav
-ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/11/2019
+ms.author: painbar
+ms.openlocfilehash: 7668df00d63fc1bdb8bb0e113fa9ad7e0f029147
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870102"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221380"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI Mobile Apps에서 데이터 경고 설정
 적용 대상:
@@ -62,7 +62,8 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
 
 1. 대시보드에서 경고가 포함된 번호 또는 계기 타일을 탭합니다.  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
+   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+
 2. 종 모양 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png)을 탭합니다.  
 3. 경고 이름을 탭하여 편집하거나, 슬라이더를 탭하여 메일 경고를 해제하거나, 휴지통을 탭하여 경고를 삭제합니다.
    
@@ -148,10 +149,12 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
 2. 전자 메일을 보내도록 경고를 설정해 놓으면, 다음과 같은 내용을 받은 편지함에서 찾을 수 있습니다.
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
-3. Power BI에서 메시지를 **알림 센터**에 추가하고 새로운 경고 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png)을 해당 타일에 추가합니다.
-4. 전역 탐색 단추 ![](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)를 탭하여 [**알림 센터**를 열고](mobile-apps-notification-center.md) 경고 세부 정보를 확인합니다.
+3. Power BI가 [알림 센터](mobile-apps-notification-center.md)에 메시지를 추가하고, 제목 표시줄의 벨 아이콘 ![벨 아이콘](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png)(iOS 및 Android) 또는 전역 탐색 단추 ![전역 탐색 단추](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)(Windows 10 디바이스)에 노란색 점을 추가합니다.
+
+
+4. 벨 아이콘 ![벨 아이콘](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) 또는 전역 탐색 단추 ![전역 탐색 단추](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)를 탭하여 [**알림 센터**를 열고](mobile-apps-notification-center.md) 경고 정보를 확인합니다.
    
-     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-notifications.png) 
+     
 
 > [!NOTE]
 > 경고는 새로 고쳐지는 데이터에만 적용됩니다. 데이터가 새로 고쳐지면, Power BI에서 해당 데이터에 대해 경고가 설정되어 있는지 확인됩니다. 데이터가 경고 임계값에 도달하면, 경고가 트리거됩니다.

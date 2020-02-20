@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 18062c770b93bcd1295026d841f923a81c11d84f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851252"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537396"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Power BI에서 Microsoft Cloud App Security 제어 사용(미리 보기)
 
@@ -77,10 +77,11 @@ Microsoft Cloud App Security 검색을 통해 관리자는 모니터링되는 �
 Power BI에서 Microsoft Cloud App Security를 사용하는 경우 Power BI 관리자의 새 역할이 만들어집니다. [Cloud App Security 포털](https://portal.cloudappsecurity.com/)에 Power BI 관리자로 로그인하면 Power BI 관련 데이터, 경고, 위험에 노출된 사용자, 활동 로그 및 기타 정보에 대한 액세스가 제한됩니다.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항 
-Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 활동을 모니터링하는 검색을 통해 조직의 콘텐츠와 데이터를 보호할 수 있습니다. Power BI에서 Cloud App Security를 사용하는 경우 다음과 같은 몇 가지 제한 사항에 유의해야 합니다.
+Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 활동을 모니터링하는 검색을 통해 조직의 콘텐츠와 데이터를 보호할 수 있습니다. Power BI에서 Cloud App Security를 사용하는 경우 다음과 같은 몇 가지 고려 사항과 제한 사항에 유의해야 합니다.
 
 * Microsoft Cloud App Security는 Excel, PowerPoint 및 PDF 파일에만 적용할 수 있습니다.
 * Power BI에 대한 세션 정책에 민감도 레이블 기능을 사용하려는 경우 Azure Information Protection Premium P1 또는 Premium P2 라이선스가 있어야 합니다. Microsoft Azure Information Protection은 독립 실행형으로 구입하거나 Microsoft 라이선스 제품군 중 하나를 통해 구입할 수 있습니다. 자세한 내용은 [Azure Information Protection 가격 책정](https://azure.microsoft.com/pricing/details/information-protection/)을 참조하세요. 또한 Power BI 자산에 민감도 레이블이 적용되어 있어야 합니다.
+* 모든 운영 체제의 모든 주요 플랫폼에 있는 모든 브라우저에서 세션 컨트롤을 사용할 수 있습니다. Internet Explorer 11, Microsoft Edge(최신 버전), Google Chrome(최신 버전), Mozilla Firefox(최신 버전) 또는 Apple Safari(최신 버전)를 사용하는 것이 좋습니다. Power BI 퍼블릭 API 호출 및 브라우저 기반이 아닌 기타 세션은 Microsoft Cloud App Security 세션 컨트롤의 일부로 지원되지 않습니다. [자세한 내용을 참조하세요](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients).
 
 > [!CAUTION]
 > * 현재 Microsoft Cloud App Security의 ‘콘텐츠 검사’ 정책은 Excel 파일 정책을 적용할 때 Power BI에서 사용할 수 없으므로, Power BI에 대해 이 정책을 설정하면 안 됩니다. 
@@ -143,3 +144,4 @@ Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 �
 * [추천 앱을 위한 조건부 액세스 앱 제어 배포](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
 * [세션 정책](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
 * [민감도 레이블 개요](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
+* [데이터 보호 메트릭 보고서](service-security-data-protection-metrics-report.md)

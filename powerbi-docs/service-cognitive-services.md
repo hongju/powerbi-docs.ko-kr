@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3965a21ff2ab53fd46667658f7cfa21fa4a3b916
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cf927e94726f33e8d88c25c6d09f6f0ca2226e05
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73855593"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75224134"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Power BI의 Cognitive Services 
 
@@ -94,7 +94,7 @@ Text Analytics는 기계 학습 분류 알고리즘을 사용하여 0에서 1 �
 
 이 문서에서는 Power BI 서비스와 Cognitive Services를 함께 사용하는 방법을 간략하게 살펴봤습니다. 관심을 가질 만한 다른 유용한 문서는 다음과 같습니다. 
 
-* [자습서: Power BI에서 Machine Learning Studio 모델 호출](service-tutorial-invoke-machine-learning-model.md)
+* [자습서: Power BI에서 Machine Learning Studio(클래식) 모델 호출](service-tutorial-invoke-machine-learning-model.md)
 * [Power BI에서 Azure Machine Learning 통합](service-machine-learning-integration.md)
 * [자습서: Power BI에서 Cognitive Services 사용](service-tutorial-use-cognitive-services.md)
 

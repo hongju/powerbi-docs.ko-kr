@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e991b84dede16f35a732c54ff916ec02f5610783
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875162"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762534"
 ---
-# <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI 보고서의 새 필터 환경
+# <a name="work-with-filters-in-power-bi-reports"></a>Power BI 보고서에서 필터 작업
 
 Power BI의 필터에 새 기능과 새 디자인이 있습니다. 새 필터 환경을 선택하면 필터 창을 서식 지정하여 보고서의 나머지 부분과 비슷하게 할 수 있습니다. 필터를 잠그거나 숨길 수도 있습니다. 보고서를 디자인할 때 더 이상 시각화 창에서 이전 필터 창이 표시되지 않습니다. 단일 필터 창에서 모든 필터 편집 및 형식화를 수행합니다. 
 
