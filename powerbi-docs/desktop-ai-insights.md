@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a1f6adfcf471fa6805e0a99c4b8789ba9eb7cf58
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: c2985f0281274adcdbde737c0f3b00688a401df7
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016667"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221278"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Power BI Desktop에서 AI 인사이트 사용(미리 보기)
 
@@ -90,7 +90,7 @@ Text Analytics는 기계 학습 분류 알고리즘을 사용하여 0에서 1 �
 
 Text Analytics 또는 Vision 함수를 사용하여 데이터를 보강하려면 **파워 쿼리 편집기**를 엽니다. 이 예제에서는 텍스트의 감정 점수 매기기를 안내합니다. 동일한 단계를 사용하여 핵심 구를 추출하고, 언어를 감지하고, 이미지에 태그를 지정할 수 있습니다.
 
-**홈** 또는 **열 추가** 리본에서 **텍스트 분석** 단추를 선택합니다. 로그인하라는 메시지가 표시됩니다.
+**홈** 또는 **열 추가** 리본에서 **텍스트 분석**단추를 선택합니다. 로그인하라는 메시지가 표시됩니다.
 
 ![텍스트 분석](media/desktop-ai-insights/ai-insights-02.png)
 
@@ -149,7 +149,7 @@ Text Analytics를 사용하는 경우 유의해야 할 몇 가지 고려 사항 
 
 ## <a name="using-azure-ml"></a>Azure Machine Learning 사용
 
-수많은 조직이 비즈니스에 대한 더 나은 인사이트와 예측을 얻기 위해 **Machine Learning** 모델을 사용합니다. 보고서, 대시보드 및 기타 분석에서 이러한 모델의 인사이트를 시각화하고 호출하는 기능은 인사이트를 가장 필요로 하는 비즈니스 사용자에게 인사이트를 전달하는 데 도움이 될 수 있습니다. Power BI를 사용하여 가리킨 다음 클릭하는 쉬운 동작으로 Azure Machine Learning Service에 호스트된 모델의 인사이트를 간편하게 통합할 수 있습니다.
+수많은 조직이 비즈니스에 대한 더 나은 인사이트와 예측을 얻기 위해 **Machine Learning** 모델을 사용합니다. 보고서, 대시보드 및 기타 분석에서 이러한 모델의 인사이트를 시각화하고 호출하는 기능은 인사이트를 가장 필요로 하는 비즈니스 사용자에게 인사이트를 전달하는 데 도움이 될 수 있습니다. Power BI를 사용하여 가리킨 다음 클릭하는 단순한 제스처로 Azure Machine Learning에 호스팅 된 모델의 인사이트를 간편하게 통합할 수 있습니다.
 
 이 기능을 사용하려면 데이터 과학자가 간단히 Azure Portal을 사용하여 BI 분석가에게 Azure ML 모델에 대한 액세스 권한을 부여합니다. 그러면 각 세션이 시작할 때 파워 쿼리가 사용자에게 액세스 권한이 있는 모든 Azure ML 모델을 검색하여 동적 파워 쿼리 함수로 표시합니다. 사용자는 파워 쿼리 편집기의 리본에서 함수에 액세스하거나 직접 M 함수를 호출하는 방법으로 해당 함수를 호출할 수 있습니다. Power BI도 성능 향상을 위해 일련의 행에 대한 Azure ML 모델을 호출할 때 자동으로 액세스 요청을 일괄 처리합니다.
 
@@ -159,15 +159,15 @@ Text Analytics를 사용하는 경우 유의해야 할 몇 가지 고려 사항 
 
 Azure Machine Learning에 대해 자세히 알아보려면 다음 문서를 참조하세요.
 
-- 개요: [Azure Machine Learning Service란?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
+- 개요: [Azure Machine Learning이란 무엇인가요?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
 - Azure Machine Learning 빠른 시작 및 자습서: [Azure Machine Learning 설명서](https://docs.microsoft.com/azure/machine-learning/)
 
 ### <a name="granting-access-to-an-azure-ml-model"></a>Azure Machine Learning 모델에 대한 액세스 권한 부여
 
 Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구독에 대한 **읽기** 액세스 권한이 있어야 합니다. 또한 다음이 있어야 합니다.
 
-- Machine Learning Studio 모델의 경우 Machine Learning Studio 웹 서비스에 대한 **읽기** 액세스 권한
-- Machine Learning Service 모델의 경우 Machine Learning Service 작업 영역에 대한 **읽기** 액세스 권한
+- Machine Learning Studio(클래식) 모델의 경우 Machine Learning Studio(클래식) 웹 서비스에 대한 **읽기** 권한
+- Machine Learning 모델의 경우 Machine Learning 작업 영역에 대한 **읽기** 권한
 
 이 섹션에서는 Power BI 사용자에게 Azure Machine Learning Service에 호스트된 모델에 대한 액세스 권한을 부여하는 방법을 설명합니다. 설명된 단계를 수행하면 Power BI 사용자가 파워 쿼리 함수로 이러한 모델에 액세스할 수 있습니다. 자세한 내용은 [RBAC 및 Azure Portal을 사용하여 액세스 관리](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)를 참조하세요.
 
@@ -177,20 +177,20 @@ Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구�
 4. **액세스 제어(IAM)** 를 선택하고 **추가** 단추를 선택합니다.
 5. **읽기 권한자**를 역할로 선택합니다. Azure ML 모델에 대한 액세스 권한을 부여할 Power BI 사용자를 선택합니다.
 6. **저장**을 선택합니다.
-7. 3단계부터 6단계까지 반복하여 특정 Machine Learning Studio 웹 서비스 ‘또는’ 모델을 호스트하는 Machine Learning Service 작업 영역 사용자에게 **읽기 권한자** 액세스 권한을 부여합니다. 
+7. 3단계부터 6단계까지 반복하여 특정 Machine Learning Studio(클래식) 웹 서비스 ‘또는’ 모델을 호스팅하는 Machine Learning 작업 영역 사용자에게 **읽기 권한자** 권한을 부여합니다. 
 
-### <a name="schema-discovery-for-machine-learning-service-models"></a>Machine Learning Service 모델에 대한 스키마 검색
+### <a name="schema-discovery-for-machine-learning-models"></a>Machine Learning 모델의 스키마 검색
 
-데이터 과학자는 주로 Python을 사용하여 Machine Learning Service에 대한 기계 학습 모델을 개발하고 배포합니다. 모델에 대한 스키마 파일 만들기 작업을 자동화하도록 도와주는 Machine Learning Studio와 달리, Machine Learning Service의 경우에는 데이터 과학자가 Python을 사용하여 스키마 파일을 명시적으로 생성해야 합니다.
+데이터 과학자는 주로 Python을 사용하여 Machine Learning의 기계 학습 모델을 개발하고 배포합니다. 모델의 스키마 파일을 만드는 작업을 자동화하는 데 도움이 되는 Machine Learning Studio(클래식)와 달리, Machine Learning의 경우 데이터 과학자가 Python을 사용하여 스키마 파일을 명시적으로 생성해야 합니다.
 
-이 스키마 파일은 Machine Learning Service 모델용으로 배포된 웹 서비스에 포함되어야 합니다. 웹 서비스용 스키마를 자동으로 생성하려면 배포된 모델의 항목 스크립트에 입/출력 샘플을 제공해야 합니다. [Azure Machine Learning Service 설명서를 사용하여 배포 모델의 (선택 사항) 자동 Swagger 스키마 생성](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation) 하위 섹션을 참조하세요. 이 링크에는 스키마 생성을 위한 명령문이 있는 예제 항목 스크립트가 포함됩니다.
+이 스키마 파일은 Machine Learning 모델용으로 배포된 웹 서비스에 포함되어야 합니다. 웹 서비스용 스키마를 자동으로 생성하려면 배포된 모델의 항목 스크립트에 입/출력 샘플을 제공해야 합니다. [Azure Machine Learning Service 설명서를 사용하여 배포 모델의 (선택 사항) 자동 Swagger 스키마 생성](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation) 하위 섹션을 참조하세요. 이 링크에는 스키마 생성을 위한 명령문이 있는 예제 항목 스크립트가 포함됩니다.
 
 특히 항목 스크립트의 _@input\_schema_ 및 _@output\_schema_ 함수는 _input\_sample_ 및 _output\_sample_ 변수에서 입력 및 출력 샘플 형식을 참조하고, 이러한 샘플을 사용하여 배포 중에 웹 서비스에 대한 OpenAPI(Swagger) 사양을 생성합니다.
 
 항목 스크립트를 업데이트하여 스키마 생성을 위한 이러한 지침은 Azure Machine Learning SDK를 사용하여 자동화된 기계 학습 실험을 통해 만든 모델에도 적용해야 합니다.
 
 > [!NOTE]
-> Azure Machine Learning Service 시각적 개체 인터페이스를 사용하여 만든 모델은 현재 스키마 생성을 지원하지 않지만 이후 릴리스에서는 지원됩니다.
+> Azure Machine Learning 시각적 개체 인터페이스를 사용하여 만든 모델은 현재 스키마 생성을 지원하지 않지만 후속 릴리스에서는 지원할 예정입니다.
 > 
 ### <a name="invoking-an-azure-ml-model-in-power-query"></a>파워 쿼리에서 Azure Machine Learning 모델 호출
 
@@ -212,7 +212,7 @@ Azure Machine Learning 모델 출력 미리 보기를 엔터티 테이블에 새
 
 Power BI Desktop에서 Azure Machine Learning에 적용되는 고려 사항 및 제한 사항은 다음과 같습니다.
 
-* Azure Machine Learning Service 시각적 개체 인터페이스를 사용하여 만든 모델은 현재 스키마 생성을 지원하지 않습니다. 이후 릴리스에서는 지원이 예상됩니다.
+* Azure Machine Learning 시각적 개체 인터페이스를 사용하여 만든 모델은 현재 스키마 생성을 지원하지 않습니다. 이후 릴리스에서는 지원이 예상됩니다.
 * 증분 새로 고침은 지원되지만 AI 인사이트를 사용하는 쿼리에서는 성능 문제가 발생할 수 있습니다.
 * 직접 쿼리가 지원되지 않습니다.
 
@@ -220,7 +220,7 @@ Power BI Desktop에서 Azure Machine Learning에 적용되는 고려 사항 및 
 
 이 문서에서는 Power BI Desktop에 Machine Learning을 통합하는 방법을 간략하게 살펴봤습니다. 관심을 가질 만한 다른 유용한 문서는 다음과 같습니다.
 
-- [자습서: Power BI에서 Machine Learning Studio 모델 호출](service-tutorial-invoke-machine-learning-model.md)
+- [자습서: Power BI에서 Machine Learning Studio(클래식) 모델 호출](service-tutorial-invoke-machine-learning-model.md)
 - [자습서: Power BI에서 Cognitive Services 사용](service-tutorial-use-cognitive-services.md)
 - [Power BI의 Cognitive Services](service-cognitive-services.md)
 - [Power BI에서 Azure Machine Learning 통합](service-machine-learning-integration.md)

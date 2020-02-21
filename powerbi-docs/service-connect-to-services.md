@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "73925823"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975036"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI로 사용하는 서비스에 연결
 Power BI를 통해 비즈니스 운영에 사용하는 다양한 서비스(예: Salesforce, Microsoft Dynamics, Google 애널리틱스)에 연결할 수 있습니다. Power BI는 자격 증명을 사용하여 서비스에 연결하면 시작됩니다. 자동으로 데이터를 표시하고 비즈니스에 대한 시각적 인사이트를 제공하는 대시보드를 포함한 Power BI *작업 영역* 및 Power BI 보고서 집합을 만듭니다.
@@ -70,6 +70,5 @@ Power BI 앱에 제안하려는 서비스를 사용하나요? [Power BI 지원](
 ## <a name="next-steps"></a>다음 단계
 * [동료에게 앱 배포](service-create-distribute-apps.md)
 * [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 3063d75123069e93baa8159cddf7c551922aa2b2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548565"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076670"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -21,9 +21,7 @@ ms.locfileid: "75548565"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-**AI가 BI를 변경하는 세 가지 방법**
-<br>작성자: Justyna Lucznik
-<br>[1월 8일에 시청하려면 등록하세요.](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
+아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
 
 >[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -38,6 +36,14 @@ ms.locfileid: "75548565"
 **Microsoft는 BI 데이터 보호를 어떻게 변화시키는가**
 <br>작성자: Anton Fritz 및 Adi Regev
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**통찰력 기반의 비즈니스를 만드는 방법**
+<br>작성자: Microsoft의 Amir Netz 및 Forrester의 Boris Evelson
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html?lcid=en-us)
+
+**AI가 BI를 변경하는 세 가지 방법**
+<br>작성자: Justyna Lucznik
+<br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
 
 **Power BI와 최신 BI 및 엔터프라이즈 BI의 미래**
 <br>작성자: Arun Ulag 및 Amir Netz

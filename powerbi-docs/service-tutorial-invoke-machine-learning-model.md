@@ -1,6 +1,6 @@
 ---
-title: '자습서:  Power BI에서 Machine Learning Studio 모델 호출(미리 보기)'
-description: 이 자습서에서는 Power BI에서 Machine Learning Studio 모델을 호출합니다.
+title: '자습서:  Power BI에서 Machine Learning Studio(클래식) 모델 호출(미리 보기)'
+description: 이 자습서에서는 Power BI에서 Machine Learning Studio(클래식) 모델을 호출합니다.
 author: davidiseminger
 ms.reviewer: SarinaJoan
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3a7d4fa73caa718cec905d8f511ae94b077f7e2b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876959"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224235"
 ---
-# <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>자습서:  Power BI에서 Machine Learning Studio 모델 호출(미리 보기)
+# <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>자습서:  Power BI에서 Machine Learning Studio(클래식) 모델 호출(미리 보기)
 
-이 자습서에서는 **Azure Machine Learning Studio** 모델의 인사이트를 Power BI에 통합하는 연습을 합니다. 이 자습서는 Power BI 사용자에게 Azure ML 모델에 액세스 권한을 부여하고, 데이터 흐름을 만들고, Azure ML 모델의 인사이트를 데이터 흐름에 적용하는 데 도움이 되는 지침을 포함하고 있습니다. Azure ML 모델을 처음 만드는 데 도움이 되는 빠른 시작 가이드도 참조합니다.
+이 자습서에서는 **Azure Machine Learning Studio(클래식)** 모델의 인사이트를 Power BI에 통합합니다. 이 자습서는 Power BI 사용자에게 Azure ML 모델에 액세스 권한을 부여하고, 데이터 흐름을 만들고, Azure ML 모델의 인사이트를 데이터 흐름에 적용하는 데 도움이 되는 지침을 포함하고 있습니다. Azure ML 모델을 처음 만드는 데 도움이 되는 빠른 시작 가이드도 참조합니다.
 
 이 자습서에서 설명하는 단계는 다음과 같습니다.
 
@@ -31,15 +31,15 @@ ms.locfileid: "73876959"
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>Azure ML 모델 만들기 및 게시
 
-[연습 1단계: Machine Learning Studio 작업 영역 만들기](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)의 지침에 따라 **Machine Learning** 작업 영역을 만듭니다.
+[연습 1단계: Machine Learning Studio(클래식) 작업 영역 만들기](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)의 지침에 따라 **Machine Learning** 작업 영역을 만듭니다.
 
-이미 있는 Azure ML 모델 또는 데이터 세트와 해당 단계를 함께 사용할 수 있습니다. 게시된 모델이 없는 경우 자동차 가격 예측에 대한 Azure ML 모델을 설정하는 [Azure Machine Learning Studio에서 첫 번째 데이터 과학 실험 만들기](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)를 참조하여 몇 분 만에 모델을 만들 수 있습니다.
+이미 있는 Azure ML 모델 또는 데이터 세트와 해당 단계를 함께 사용할 수 있습니다. 게시된 모델이 없는 경우, 자동차 가격 예측을 위한 Azure ML 모델을 설정하는 [Azure Machine Learning Studio(클래식)에서 첫 번째 데이터 과학 실험 만들기](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)를 참조하여 몇 분 내에 모델을 만들 수 있습니다.
 
-[Azure Machine Learning Studio 웹 서비스 배포](https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service)의 단계에 따라 Azure ML 모델을 웹 서비스로 게시합니다.
+[Azure Machine Learning Studio(클래식) 웹 서비스 배포](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy)의 단계에 따라 Azure ML 모델을 웹 서비스로 게시합니다.
 
 ## <a name="grant-a-power-bi-user-access"></a>Power BI 사용자에게 액세스 권한 부여
 
-Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 그룹에 대한 **읽기** 액세스 권한과 Machine Learning Studio 모델용 Azure Machine Learning Studio 웹 서비스에 대한 **읽기** 액세스 권한이 있어야 합니다.  Azure Machine Learning Service 모델의 경우 Machine Learning Service 작업 영역에 대한 **읽기** 액세스 권한이 필요합니다.
+Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 그룹에 대한 **읽기** 권한과 Machine Learning Studio(클래식) 모델용 Azure Machine Learning Studio(클래식) 웹 서비스에 대한 **읽기** 권한이 있어야 합니다.  Azure Machine Learning 모델의 경우 Machine Learning 작업 영역에 대한 **읽기** 권한이 필요합니다.
 
 다음 단계에서는 모델이 게시된 Azure 구독 및 리소스 그룹에 대한 공동 관리자라고 가정하겠습니다.
 
@@ -59,9 +59,9 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 이전 단계에서 Azure ML 모델에 액세스 권한을 부여한 사용자 자격 증명을 사용하여 Power BI 서비스에 로그인합니다.
 
-이 단계에서는 Azure ML 모델을 사용하여 점수를 매길 데이터가 CSV 형식으로 있다고 가정합니다.  **자동차 가격 책정 실험**을 사용하여 Machine Learning Studio에서 모델을 만든 경우 아래 링크의 데이터 세트를 공유합니다.
+이 단계에서는 Azure ML 모델을 사용하여 점수를 매길 데이터가 CSV 형식으로 있다고 가정합니다.  **자동차 가격 책정 실험**을 사용하여 Machine Learning Studio(클래식)에서 모델을 만든 경우 해당 데이터 세트가 다음 링크에서 공유됩니다.
 
-* [Azure Learning Studio 샘플 모델](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
+* [Azure Learning Studio(클래식) 샘플 모델](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
 ### <a name="create-a-dataflow"></a>데이터 흐름 만들기
 
@@ -173,7 +173,7 @@ Azure ML 모델 출력 미리 보기를 엔터티 테이블에 새 열로 표시
 
 ## <a name="next-steps"></a>다음 단계
 
-이 자습서에서는 다음 단계에 따라 간단한 데이터 세트로 Azure Machine Learning Studio를 사용하여 간단한 실험을 만들었습니다.
+이 자습서에서는 다음 단계에 따라 간단한 데이터 세트로 Azure Machine Learning Studio(클래식)를 사용하여 간단한 실험을 만들었습니다.
 
 - Azure Machine Learning 모델 만들기 및 게시
 - 모델을 사용할 Power BI 사용자에게 액세스 권한 부여

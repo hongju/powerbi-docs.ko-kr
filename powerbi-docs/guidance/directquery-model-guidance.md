@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478610"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223651"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop의 DirectQuery 모델 지침
 
@@ -87,7 +87,7 @@ Power BI Desktop을 사용하여 모든 DirectQuery 모델을 만들고 관리�
 
     **데이터 원본당 최대 연결 수** 값을 늘리면 지정된 최대 개수까지 더 많은 쿼리를 기본 데이터 원본으로 보낼 수 있으므로, 단일 페이지에 많은 시각적 개체가 있거나 많은 사용자가 동시에 보고서에 액세스할 때 유용합니다. 최대 연결 수에 도달하면 추가 쿼리는 연결을 사용할 수 있게 될 때까지 대기합니다. 이 한도를 늘리면 기본 데이터 원본의 부하가 증가하므로, 설정 시 전반적인 성능 향상이 보장되지 않습니다.
     
-    Power BI에 모델을 게시할 때 기본 데이터 원본으로 전송되는 최대 동시 쿼리 수는 환경에 따라 달라집니다. Power BI, Power BI Premium, Power BI Report Server 등의 환경에 따라 각기 다른 처리량 제약 조건이 적용될 수 있습니다. Power BI Premium 용량 리소스 제한 사항에 대한 자세한 내용은 [Power BI Premium 용량 배포 및 관리](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment#premium-capacities)를 참조하세요.
+    Power BI에 모델을 게시할 때 기본 데이터 원본으로 전송되는 최대 동시 쿼리 수는 환경에 따라 달라집니다. Power BI, Power BI Premium, Power BI Report Server 등의 환경에 따라 각기 다른 처리량 제약 조건이 적용될 수 있습니다. Power BI Premium 용량 리소스 제한 사항에 대한 자세한 내용은 [Power BI Premium 용량 배포 및 관리](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment)를 참조하세요.
 
 ## <a name="optimize-report-designs"></a>보고서 디자인 최적화
 

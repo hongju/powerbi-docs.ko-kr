@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 01/29/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 07fd9a00034a210dfbcc6cae4aa721e3b09bd37a
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74958566"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76889400"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -223,7 +223,7 @@ Power BI Premium과 함께 제공되는 Power BI Report Server는 웹 포털이 
 
 ![콘텐츠 공유](media/service-premium-what-is/premium-sharing.png)
 
-프리미엄을 통해 콘텐츠를 보는 수신자에게 Pro 라이선스를 요구하지 않고도 Pro 사용자별 콘텐츠를 광범위하게 배포할 수 있습니다. 콘텐츠 작성자에게는 Pro 라이선스가 필요합니다. 작성자는 데이터 원본, 모델 데이터에 연결하여 작업 영역 앱으로 패키징된 보고서와 대시보드를 만듭니다. 
+프리미엄을 통해 콘텐츠를 보는 수신자에게 Pro 라이선스를 요구하지 않고도 Pro 사용자별 콘텐츠를 광범위하게 배포할 수 있습니다. 콘텐츠 작성자에게는 Pro 라이선스가 필요합니다. 작성자는 데이터 원본, 모델 데이터에 연결하여 작업 영역 앱으로 패키징된 보고서와 대시보드를 만듭니다. Pro 라이선스가 없는 사용자도 뷰어 역할이 있는 한 Power BI 프리미엄 용량에 있는 작업 영역에 계속 액세스할 수 있습니다. 
 
 자세한 내용은 [Power BI 라이선스](service-admin-licensing-organization.md)를 참조하세요.
 

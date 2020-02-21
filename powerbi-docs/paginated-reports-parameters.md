@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: fac23cf5814513c488a3403be420a2273992bae5
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831171"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657170"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 만들기
 
@@ -61,7 +61,12 @@ ms.locfileid: "74831171"
     -   보고서가 게시된 후 보고서 서버에서 해당 매개 변수가 수정되지 않도록 매개 변수를 숨겨서 보호하려면 **내부**를 선택합니다. 그러면 보고서 정의에서만 보고서 매개 변수를 볼 수 있습니다. 이 옵션의 경우 기본값을 설정하거나 매개 변수가 Null 값을 허용하도록 설정해야 합니다.  
   
 9. **확인**을 선택합니다. 
-  
+
+## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+
+- Power BI 데이터 세트 또는 Analysis Services 모델을 데이터 원본으로 사용하는 경우, DAX 제한으로 인해 1000개가 넘는 매개 변수 값을 단일 요청으로 전달할 수 없습니다. 
+
+ 
 ## <a name="next-steps"></a>다음 단계
 
 Power BI 서비스에서 매개 변수가 표시되는 방법을 확인하려면 [페이지를 매긴 보고서에 대한 매개 변수 보기](consumer/paginated-reports-view-parameters.md)를 참조하세요.
