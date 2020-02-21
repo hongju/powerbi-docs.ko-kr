@@ -61,7 +61,7 @@ ms.locfileid: "75758603"
 
     ![Values 웰이 호출되는 필드 창의 스크린샷](media/power-bi-report-add-visualizations-i/power-bi-create-visual.png)
 
-1. **누적 세로 막대형 차트** 아이콘을 선택하여 막대형 차트로 시각화를 변경합니다.
+1. **누적 세로 막대형 차트** 아이콘을 선택하여 세로 막대형 차트에 대한 시각화를 변경합니다.
 
    ![누적 세로 막대형 차트 아이콘이 호출된 시각화 창의 스크린샷](media/power-bi-report-add-visualizations-i/power-bi-convert.png)
 
