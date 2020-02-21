@@ -1,19 +1,19 @@
 ---
 title: 외부 게스트 사용자(Azure AD B2B)로 Power BI 콘텐츠 보기
 description: Power BI 모바일 앱을 사용하여 외부 조직의 사용자와 공유하는 콘텐츠를 볼 수 있습니다.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.author: mshenhav
-ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879331"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219891"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>외부 조직의 사용자와 공유하는 Power BI 콘텐츠 보기
 
@@ -28,20 +28,20 @@ Power BI는 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안
 
 ## <a name="accessing-shared-content"></a>공유 콘텐츠 액세스
 
-**첫째, 사용자와 항목을 공유한 외부 조직의 사용자가 필요합니다.** 같은 조직 또는 외부 조직의 다른 사람이 [사용자와 항목을 공유](../../service-share-dashboards.md)할 때, 공유 항목에 대한 링크가 포함된 메일을 받게 됩니다. 모바일 장치에서 해당 링크를 따라 Power BI 모바일 앱을 엽니다. 앱이 외부 조직에서 공유된 항목이라는 것을 인식하는 경우, 앱은 사용자의 ID를 사용하여 해당 조직에 다시 연결합니다. 앱은 해당 조직에서 사용자와 공유한 모든 항목을 로드합니다.
+**첫째, 사용자와 항목을 공유한 외부 조직의 사용자가 필요합니다.** 같은 조직 또는 외부 조직의 다른 사람이 [사용자와 항목을 공유](../../service-share-dashboards.md)할 때, 공유 항목에 대한 링크가 포함된 메일을 받게 됩니다. 모바일 디바이스에서 해당 링크를 따라 Power BI 모바일 앱을 엽니다. 앱이 외부 조직에서 공유된 항목이라는 것을 인식하는 경우, 앱은 사용자의 ID를 사용하여 해당 조직에 다시 연결합니다. 앱은 해당 조직에서 사용자와 공유한 모든 항목을 로드합니다.
 
-![Power BI 메일에서 공유 항목 열기 ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Power BI 메일에서 공유 항목 열기 ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 
 > [!NOTE]
 > 외부 게스트 사용자로 사용자와 공유하는 첫 번째 항목의 경우 브라우저에서 초대를 요청해야 합니다. Power BI 앱에서는 초대를 요청할 수 없습니다.
 
 외부 조직에 연결되어 있는 동안 앱에 검은색 머리글이 표시됩니다. 이 머리글은 홈 조직에 연결되지 있지 않다는 것을 나타냅니다. 홈 조직에 다시 연결하려면 게스트 모드를 종료합니다.
 
-![Power BI 게스트 사용자 헤더](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Power BI 게스트 사용자 헤더](./media/mobile-apps-b2b/mobile-b2b-exit-home-new.png)
 
 외부 조직에 연결하려면 Power BI 아티팩트 링크가 필요하지만, 앱이 전환되면 공유되는 모든 항목(전자 메일에서 열린 항목 뿐만 아니라)에 액세스할 수 있습니다. 외부 조직에서 액세스할 수 있는 모든 항목을 보려면, 앱 메뉴로 이동하고 **공유한 항목**을 선택합니다. **앱** 아래에서 사용할 수 있는 앱도 찾을 수 있습니다.
 
-![Power BI 게스트 외부 사용자로 액세스한 앱 메뉴](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![Power BI 게스트 외부 사용자로 액세스한 앱 메뉴](./media/mobile-apps-b2b/mobile-b2b-menu-new.png)
 
 ## <a name="limitations"></a>제한 사항
 
@@ -52,4 +52,4 @@ Power BI는 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안
 - 사용자가 앱을 종료하는 경우, 앱을 다시 열 때 사용자의 홈 조직으로 자동으로 연결합니다.
 - 외부 조직에 연결하는 경우 일부 동작이 사용 중지됩니다: 즐겨찾기 항목, 데이터 경고, 댓글 달기 및 공유.
 - 외부 조직에 연결되어 있는 동안에는 오프라인 데이터를 사용할 수 없습니다.
-- 회사 포털 앱이 장치에 설치된 경우, 장치가 등록되어야 합니다.
+- 회사 포털 앱이 디바이스에 설치된 경우, 디바이스가 등록되어야 합니다.

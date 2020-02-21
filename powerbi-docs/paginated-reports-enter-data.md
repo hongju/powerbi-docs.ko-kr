@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
+ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: f3170fb30011e50ba97f936d879a7f19cc795521
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: d4d6ed36ea849e2bc9ba3d5212c5d5973ea9c953
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128408"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691335"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>보고서 작성기 - Power BI에서 페이지를 매긴 보고서에 직접 데이터 입력
 
@@ -75,7 +75,7 @@ ms.locfileid: "74128408"
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>Power BI 서비스에 페이지를 매긴 보고서 업로드
 
-이제 Power BI 서비스에서 페이지를 매긴 보고서가 지원되므로, 페이지를 매긴 보고서를 프리미엄 용량으로 업로드할 수 있습니다. 자세한 정보는 [페이지를 매긴 보고서 업로드](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report)를 참조하세요.
+이제 Power BI 서비스에서 페이지를 매긴 보고서가 지원되므로, 페이지를 매긴 보고서를 프리미엄 용량으로 업로드할 수 있습니다. 자세한 정보는 [페이지를 매긴 보고서 업로드](paginated-reports-save-to-power-bi-service.md)를 참조하세요.
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>보고서 서버에 페이지를 매긴 보고서 업로드
 

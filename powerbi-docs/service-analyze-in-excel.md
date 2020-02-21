@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d949978d431a219845ed93b59eb52439c9d7f0c0
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: f72d29e7f5bc7f93abd43f4c14cf0e53ef18f8d3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958635"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "75223745"
 ---
 # <a name="analyze-in-excel"></a>Excel에서 분석
 Excel을 사용하여 Power BI에 있는 데이터 세트를 살펴보고 상호 작용하려는 경우가 있습니다. **Excel에서 분석**을 사용하면 이것이 가능하고, Power BI에 존재하는 데이터 세트를 기반으로 Excel의 피벗 테이블, 차트, 슬라이서 기능에 액세스할 수 있습니다.
@@ -104,3 +104,11 @@ Power BI 데이터 세트가 연결된 통합 문서를 다른 통합 문서처�
 
 ## <a name="troubleshooting"></a>문제 해결
 Excel에서 분석을 사용할 때 예기치 않은 결과를 얻거나 기능이 예상대로 작동하지 않는 경우가 있을 수 있습니다. [이 페이지에서는 Excel에서 분석 기능을 사용할 때 발생하는 일반적인 문제를 해결하는 방법을 안내합니다.](desktop-troubleshooting-analyze-in-excel.md)
+
+## <a name="next-steps"></a>다음 단계
+
+다음 문서에도 관심이 있을 수 있습니다.
+
+* [Power BI Desktop에서 교차 보고서 드릴스루 사용](desktop-cross-report-drill-through.md)
+* [Power BI Desktop에서 슬라이서 사용](visuals/power-bi-visualization-slicers.md)
+

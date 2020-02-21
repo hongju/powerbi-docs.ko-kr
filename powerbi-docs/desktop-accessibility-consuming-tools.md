@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ca2f1cd4908f99d47519f2dfca42bf2afae5fbed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c006d35baa14e68cca7009aabf79438321396802
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878941"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761936"
 ---
-# <a name="consuming-reports-in-power-bi-with-accessibility-tools"></a>접근성 도구를 사용하여 Power BI에서 보고서 사용
+# <a name="consume-power-bi-reports-by-using-accessibility-features"></a>접근성 기능을 사용하여 Power BI 보고서 사용
 Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 조작할 수 있게 해주는 여러 기본 제공 기능이 있습니다. 이러한 도구를 통해 사용자는 보조 기술을 사용하지 않는 사람과 동일한 정보를 보고서에서 얻을 수 있습니다.
 
 ![고대비 Windows 설정](media/desktop-accessibility/accessibility-consuming-tools-01.png)

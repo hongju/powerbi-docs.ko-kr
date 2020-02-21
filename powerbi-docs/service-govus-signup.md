@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 7edfe46173b1d9b2537c5fd980b245af09fd1f53
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74178281"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI 서비스에 미국 정부 기관 등록
@@ -79,7 +79,7 @@ Power BI 미국 정부에 로그인한 후에 영업 또는 지원 담당자가 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>대리점 Power BI 평가판에서 Pro 고객으로 온보딩
 **Billing > Subscriptions**으로 이동하고 **Power BI Pro for Government** 구독을 선택합니다. 다음이 표시됩니다.
 
-* 사용 가능함
+* 사용 가능
 * 할당됨
 * 사용자 링크에 할당
 * 할당된 평가판이 아직 있는 경우:

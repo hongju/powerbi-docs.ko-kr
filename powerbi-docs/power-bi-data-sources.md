@@ -6,20 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/22/2019
+ms.date: 01/08/2020
 ms.author: kfollis
-ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 2578f8621140a64b85e6765d80d860c1489a5900
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958497"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "75762557"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 데이터 원본
 
 다음 표에서는 DirectQuery 및 온-프레미스 데이터 게이트웨이에 대한 정보를 포함하여 Power BI가 데이터 집합으로 지원하는 데이터 원본을 보여 줍니다. 데이터 흐름에 대한 자세한 내용은 [Power BI 데이터 흐름용 데이터 원본에 연결](service-dataflows-data-sources.md)을 참조하세요.
 
-| 데이터 소스 | 데스크톱에서 연결 | 서비스에서 연결 및 새로 고침 | DirectQuery/라이브 연결 | 게이트웨이(지원됨) | 게이트웨이(필수) |
+| 데이터 원본 | 데스크톱에서 연결 | 서비스에서 연결 및 새로 고침 | DirectQuery/라이브 연결 | 게이트웨이(지원됨) | 게이트웨이(필수) |
+
 |---|---|---|---|---|---|---|---|
 | Access 데이터베이스 | 예 | 예 | 아니요 | 예 <sup>1</sup> | 예 |
 | ActiveDirectory | 예 | 예 | 아니요 | 예 | 예 |
@@ -33,7 +34,7 @@ ms.locfileid: "74958497"
 | Azure Cost Management | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Azure Data Explorer(kusto) | 예 | 예 | 예 | 아니요 | 아니요 |
 | Azure Data Lake Storage Gen1 | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Azure Data Lake Storage Gen2 | 예 | 예 | 아니요 | 아니요 | 아니요 |
+| Azure Data Lake Storage Gen2 | 예 | 예 | 아니요 | 예 | 아니요 |
 | Azure DevOps | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Azure DevOps Server | 예 | 예 | 아니요 | 예 | 예 |
 | Azure HDInsight(HDFS) | 예 | 예 | 아니요 | 아니요 | 아니요 |
@@ -65,8 +66,8 @@ ms.locfileid: "74958497"
 | Google BigQuery | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | HDFS(Hadoop 파일) | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
 | HDInsight 대화형 쿼리 | 예 | 예 | 예 | 아니요 | 아니요 |
-| IBM DB2 | 예 | 예 | 예 | 예 | 예 |
-| IBM Informix 데이터베이스 | 예 | 예 | 아니요 | 예 | 예 |
+| IBM DB2 | 예 | 예 | 예 | 예 | 아니요 |
+| IBM Informix 데이터베이스 | 예 | 예 | 아니요 | 예 | 아니요 |
 | IBM Netezza | 예 | 예 | 예 | 예 | 예 |
 | Impala | 예 | 예 | 예 | 예 | 예 |
 | Indexima | 예 | 예 | 예 | 예 | 예 |
@@ -95,7 +96,7 @@ ms.locfileid: "74958497"
 | Planview Enterprise One - CTM | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Planview Enterprise One - PRM | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Planview Projectplace | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| PostgreSQL | 예 | 예 | 예 | 예 | 예 |
+| PostgreSQL | 예 | 예 | 예 | 예 | 아니요 |
 | Power BI 데이터 흐름 | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Power BI 데이터 세트 | 예 | 예 | 예 | 아니요 | 아니요 |
 | Power Platform 데이터 흐름 | 예 | 예 | 아니요 | 아니요 | 아니요 |
@@ -114,7 +115,7 @@ ms.locfileid: "74958497"
 | SharePoint 목록 | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> |
 | SharePoint Online 목록 | 예 | 예 | 아니요 | 예 <sup>2</sup> | 아니요 |
 | Smartsheet | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Snowflake | 예 | 예 | 예 | 예 | 예 |
+| Snowflake | 예 | 예 | 예 | 예 | 아니요 |
 | Spark | 예 | 예 | 예 | 예 | 아니요 |
 | SparkPost | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | SQL Server | 예 | 예 | 예 | 예 | 예 |
@@ -145,7 +146,7 @@ ms.locfileid: "74958497"
 
 <sup>4</sup> 온-프레미스 버전의 기술에 필요합니다.
 
-<sup>5</sup> [개인 게이트웨이](service-gateway-personal-mode.md)에서만 지원됩니다.
+<sup>5</sup>[개인 게이트웨이](service-gateway-personal-mode.md)에서만 지원됩니다.
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 원본의 SSO(Single Sign-On)
 

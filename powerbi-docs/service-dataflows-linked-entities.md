@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 31e2e681bc4309e5dce31583e70e669bce5e466f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3e6de89f66d6f6282fcde25a1d2be445e2721817
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877253"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762189"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Power BI의 데이터 흐름 간에 엔터티 연결
 
@@ -81,6 +81,7 @@ Power BI 서비스의 **엔터티 추가** 메뉴 항목에서 **연결된 엔�
 * 연결된 엔터티의 순환 종속성은 허용되지 않습니다.
 * 데이터 흐름은 [새 Power BI 작업 영역](service-create-the-new-workspaces.md)에 상주해야 합니다.
 * 온-프레미스 데이터 원본에서 해당 데이터를 가져오는 일반 엔터티를 사용하여 연결된 엔터티를 조인할 수 없습니다.
+* 데이터 흐름에서 하나의 쿼리(예: 쿼리 A)가 다른 쿼리(쿼리 B)의 계산에 사용되는 경우, 쿼리 B는 계산된 엔터티가 됩니다. 계산된 엔터티는 온-프레미스 원본을 참조할 수 없습니다.
 
 
 ## <a name="next-steps"></a>다음 단계

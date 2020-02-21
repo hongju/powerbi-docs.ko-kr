@@ -23,7 +23,7 @@
               href: visuals/unit-tests-introduction.md
         - name: 개념
           items:
-            - name: Power BI 시각적 프로젝트 구조
+            - name: Power BI 시각적 개체 프로젝트 구조
               href: visuals/visual-project-structure.md
             - name: 시각적 개념
               href: visuals/power-bi-visuals-concept.md

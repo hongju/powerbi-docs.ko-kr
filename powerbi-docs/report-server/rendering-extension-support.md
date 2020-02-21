@@ -1,6 +1,6 @@
 ---
-title: ISO 14289-1를 준수하는 PDF 렌더링 확장 프로그램 - Power BI Report Server
-description: 이 문서에서는 Power BI Report Server 및 SQL Reporting Services PDF 렌더링 확장 프로그램의 ISO 14289-1(PDF/UA) 사양 준수에 대해 설명합니다.
+title: ISO 14289-1을 준수하는 PDF 렌더링 확장 프로그램 - Power BI Report Server 및 SSRS
+description: 이 문서에서는 Power BI Report Server 및 SQL Server Reporting Services PDF 렌더링 확장 프로그램의 ISO 14289-1(PDF/UA) 사양 준수에 대해 설명합니다.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,18 +8,18 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: maggies
-ms.openlocfilehash: c800ee995bc3c03b3cbcda91503e6dea9495f6b5
-ms.sourcegitcommit: 721cf375627b010e8ad12c4c668295f38d450a17
+ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73638083"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819517"
 ---
-# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server"></a>ISO 14289-1를 준수하는 PDF 렌더링 확장 프로그램 - Power BI Report Server 
+# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>ISO 14289-1을 준수하는 PDF 렌더링 확장 프로그램 - Power BI Report Server 및 SSRS
 
-적용 대상: Power BI Report Server 및 SQL Reporting Services
+적용 대상: Power BI Report Server 및 SQL Reporting Services(SSRS)
 
-이 문서에서는 Power BI Report Server 및 SQL Reporting Services PDF 렌더링 확장 프로그램의 [ISO 14289-1(PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/) 사양 준수에 대해 설명합니다.
+이 문서에서는 Power BI Report Server 및 SQL Server Reporting Services PDF 렌더링 확장 프로그램의 [ISO 14289-1(PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/) 사양 준수에 대해 설명합니다.
 
 > [!NOTE]
 > 이 백서는 브라우저에서 **인쇄**를 선택한 다음, **PDF로 저장**을 선택하여 저장하거나 인쇄할 수 있습니다.
