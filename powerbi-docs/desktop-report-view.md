@@ -36,7 +36,7 @@ Power BI Desktop에서 처음 데이터를 로드하면 빈 캔버스가 있는 
 
 ![[필드] 창에서 끌어 시각적 개체 추가](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-시각화 유형을 변경하려면 리본 메뉴의 **시각화** 그룹에서 선택하거나, 마우스 오른쪽 단추를 클릭하고 **시각화 유형 변경** 아이콘에서 다른 ㅇ유형을 선택할 수 있습니다.
+시각화 유형을 변경하려면 리본 메뉴의 **시각화** 그룹에서 선택하거나, 마우스 오른쪽 단추를 클릭하고 **시각화 유형 변경** 아이콘에서 다른 유형을 선택할 수 있습니다.
 
 ![새 시각적 개체를 선택하여 변경](media/desktop-report-view/pbid_reportview_changevis.gif)
 
