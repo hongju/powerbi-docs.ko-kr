@@ -36,7 +36,7 @@ ms.locfileid: "76888613"
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>대시보드 또는 보고서에 대한 구독 페이지
 대시보드 또는 보고서 구독 여부와 관계없이 프로세스는 유사합니다. 동일한 단추를 사용하면 Power BI 서비스 대시보드 및 보고서를 구독할 수 있습니다.
  
-![구독 아이콘 선택](./media/end-user-subscribe/power-bi-subscribe.png)을 탭합니다.
+![구독 아이콘 선택](./media/end-user-subscribe/power-bi-subscribe.png)
 
 1. 대시보드 또는 보고서를 엽니다.
 2. 상단의 메뉴 모음에서 **구독**을 선택하거나 봉투 아이콘 ![구독 아이콘](./media/end-user-subscribe/power-bi-icon-envelope.png)을 선택합니다.
