@@ -25,7 +25,7 @@ Power BI Desktop에서는 데이터를 직접 입력하고 보고서 및 시각�
 
 ![홈에서 데이터 입력 선택](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
 
-Power BI Desktop에서는 적절한 경우 어떤 원본에서 데이터를 로드할 때처럼 데이터에 대해 사소한 변환을 시도할 수 있습니다. 예를 들어 다음 경우에 데이터의 첫 번째 행을 헤더로 승격합니다.
+Power BI Desktop에서는 적절한 경우 어떤 원본에서 데이터를 로드할 때처럼 데이터에 대해 사소한 변환을 시도할 수 있습니다. 예를 들어 다음 경우에 데이터의 첫 번째 행을 머리글로 승격합니다.
 
 ![첫 행이 열 제목인 데이터](media/desktop-enter-data-directly-into-desktop/enter-data-directly_2.png)
 
