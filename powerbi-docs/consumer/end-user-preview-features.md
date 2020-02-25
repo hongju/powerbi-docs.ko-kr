@@ -30,7 +30,7 @@ Power BI 서비스를 개선하면서 *미리 보기 기능*으로 몇 가지 �
 ## <a name="find-previews-and-turn-them-on-and-off"></a>미리 보기를 찾아 설정(및 해제)
 1. Power BI 화면의 오른쪽 위에 있는 기어 아이콘을 선택하고 **설정**을 선택하여 [설정] 메뉴를 엽니다.
    
-   ![설정 메뉴](./media/end-user-preview-features/power-bi-settings.png)을 탭합니다.
+   ![설정 메뉴](./media/end-user-preview-features/power-bi-settings.png)
 2. **일반** 탭을 선택합니다. 미리 보기가 있을 경우 **미리 보기 기능**에 대한 옵션이 표시되거나 왼쪽에 미리 보기 기능이 표시될 것입니다.  이 예에서는 ArcGIS 지도에 대한 미리 보기가 있습니다. 
    
    ![일반 탭](./media/end-user-preview-features/power-bi-preview-esri.png)
