@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop에서 Azure 비용 관리 데이터에 연결
+title: Power BI Desktop에서 Azure Cost Management 데이터에 연결
 description: Power BI Desktop을 사용하여 쉽게 Azure에 연결하고 Azure 비용 및 사용 현황에 대한 인사이트를 얻을 수 있습니다.
 author: davidiseminger
 ms.reviewer: ''
@@ -17,7 +17,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 11/09/2019
 ms.locfileid: "73878598"
 ---
-# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>Power BI Desktop에서 비용 관리에 연결
+# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Cost Management에 연결
 
 Power BI Desktop용 Azure Cost Management 커넥터를 사용하여 Azure 지출을 보다 잘 이해할 수 있는 사용자 지정된 강력한 시각화와 보고서가 가능해집니다. Azure Cost Management 커넥터는 현재 [Microsoft 고객 계약](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) 또는 [기업계약(EA)](https://azure.microsoft.com/pricing/enterprise-agreement/)으로 고객을 지원합니다.  
 
@@ -43,7 +43,7 @@ Power BI Desktop에서 **Azure Cost Management 커넥터**를 사용하려면 �
 
 **Microsoft 고객 계약** 계정에 연결하려면 Azure 포털에서 **청구 프로필 ID**를 가져올 수 있습니다.
 
-1.  [Azure Portal](https://portal.azure.com/)에서 **비용 관리 + 청구**로 이동합니다.
+1. [Azure Portal](https://portal.azure.com/)에서 **Cost Management + 청구**로 이동합니다.
 2.  청구 프로필을 선택합니다. 
 3.  메뉴의 **설정** 아래에 사이드바에서 **속성**을 선택합니다.
 4.  **청구 프로필**에서 **ID**를 복사합니다. 
@@ -59,7 +59,7 @@ Power BI Desktop에서 **Azure Cost Management 커넥터**를 사용하려면 �
 
 기업계약(EA) 계정에 연결하기 위해 Azure 포털에서 등록 ID를 가져올 수 있습니다.
 
-1.  [Azure Portal](https://portal.azure.com/)에서 **비용 관리 + 청구**로 이동합니다.
+1. [Azure Portal](https://portal.azure.com/)에서 **Cost Management + 청구**로 이동합니다.
 2.  청구 계정을 선택합니다.
 3.  **개요** 메뉴에서 **청구 계정 ID**를 복사합니다.
 4.  **범위 선택**에 대해 **등록 번호**를 선택하고 이전 단계의 청구 계정 ID를 붙여넣습니다. 
