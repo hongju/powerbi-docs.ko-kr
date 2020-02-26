@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958405"
 ---
 # <a name="configure-scheduled-refresh"></a>예약된 새로 고침 구성
@@ -66,7 +66,7 @@ ms.locfileid: "74958405"
 ![새로 고침 예약 명령](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> 데이터 새로 고침을 위해 온-프레미스 SharePoint에 연결할 때 Power BI는 *익명*, *기본* 및 *Windows(NTLM/Kerberos)* 인증 메커니즘만 지원합니다. Power BI는 온-프레미스 SharePoint 데이터 원본의 데이터 새로 고침에 *ADFS* 또는 임의의 양식 기반 인증을 지원합니다. 
+> 데이터 새로 고침을 위해 온-프레미스 SharePoint에 연결할 때 Power BI는 *익명*, *기본* 및 *Windows(NTLM/Kerberos)* 인증 메커니즘만 지원합니다. Power BI는 온-프레미스 SharePoint 데이터 원본의 데이터 새로 고침에 *ADFS* 또는 임의의 양식 기반 인증을 지원하지 않습니다.
 
 ## <a name="scheduled-refresh"></a>예약된 새로 고침
 
@@ -101,7 +101,7 @@ ms.locfileid: "74958405"
 * Hadoop 파일(HDFS) 및 Microsoft Exchange를 제외하고 파워 피벗에 표시되는 모든 온-프레미스 데이터 원본.
 
 > [!NOTE]
-> Excel 2016 이상에서 파워 쿼리는 **데이터 가져오기 및 변환** 아래에 리본 메뉴의 **데이터 섹션**에 나열되어 있습니다.
+> Excel 2016 이상에서 파워 쿼리는 **데이터 가져오기 및 변환** 아래 리본 메뉴의 **데이터** 섹션에 나열되어 있습니다.
 
 ### <a name="power-bi-gateway"></a>Power BI 게이트웨이
 

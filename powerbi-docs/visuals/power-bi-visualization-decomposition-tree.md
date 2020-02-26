@@ -1,23 +1,23 @@
 ---
 title: 분해 트리
-description: '자습서: Power BI에서 분해 트리 시각화 만들기'
+description: '자습서:  Power BI에서 분해 트리 시각화 만들기'
 author: mihart
 manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d653bb0193351e2ecb38c09e6b34d02eea5cce67
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060662"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885285"
 ---
-# <a name="use-the-decomposition-tree-visual-in-power-bi-preview"></a>Power BI에서 분해 트리 시각적 개체 사용(미리 보기)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Power BI에서 분해 트리 시각적 개체 만들기 및 보기(미리 보기)
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Power BI의 분해 트리 시각적 개체를 사용하여 여러 차원에서 데이터를 시각화할 수 있습니다. 자동으로 데이터를 집계하며 임의 순서로 차원을 드릴다운할 수 있게 해줍니다. AI(인공 지능) 시각화이기도 하므로 특정 기준에 따라 드릴다운할 다음 차원을 찾도록 요청할 수 있습니다. 그러므로 임시 탐색 및 근본 원인 분석을 수행하는 데 유용한 도구입니다.
@@ -37,7 +37,7 @@ Power BI의 분해 트리 시각적 개체를 사용하여 여러 차원에서 �
 시각화에는 두 가지 유형의 입력이 필요합니다.
 
 **분석** – 분석할 메트릭입니다. 측정값 또는 집계여야 합니다.  
-**설명 기준** - 드릴다운할 하나 이상의 차원입니다.
+**설명** - 드릴다운할 하나 이상의 차원입니다.
 
 측정값을 필드로 끌면 시각적 개체가 업데이트되어 집계된 측정값을 보여줍니다. 아래 예제에서는 이월 주문 제품 평균 백분율(5.07%)을 시각화합니다, ![분해 트리 루트 노드](media/power-bi-visualization-decomposition-tree/tree-root.png)
 
@@ -132,6 +132,8 @@ AI 수준이 비 AI 수준처럼 동작하게 하려면 전구를 선택하여 �
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 
+트리의 최대 수준 수는 50입니다. 트리에서 한 번에 시각화할 수 있는 최대 데이터 요소 수는 5000개입니다. 상위 n 개를 표시하도록 수준을 자릅니다. 현재 수준별 상위 n개는 10으로 설정되어 있습니다. 
+
 분해 트리는 다음과 같은 시나리오에서 지원되지 않습니다.  
 -   온-프레미스 Analysis Services
 
@@ -143,7 +145,7 @@ AI 분할은 다음과 같은 시나리오에서 지원되지 않습니다.
 -   복잡한 측정값과 '분석' 내 확장 스키마의 측정값
 
 기타 미리 보기 제한 사항:
-- Power BI 모바일  
+- Power BI Mobile  
 - 대시보드에 고정
 - 데이터 기능 표시
 - Q&A 내에서 지원

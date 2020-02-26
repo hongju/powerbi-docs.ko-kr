@@ -9,10 +9,10 @@ ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
 ms.openlocfilehash: c2680a5818488a7822f38b8286a3e5a1782a487a
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999770"
 ---
 # <a name="troubleshoot-power-bi-visuals"></a>Power BI 시각적 개체 문제 해결
@@ -21,7 +21,7 @@ ms.locfileid: "74999770"
 
 **Pbiviz 명령어가 없습니다(또는 유사한 오류)**
 
-`pbiviz`를 터미널/명령줄에서 실행하는 경우 도움말 화면이 표시됩니다. 그렇지 않은 경우 개발자 도구가 올바르게 설치되지 않았습니다. 4\.0 버전 이상의 NodeJS를 설치했는지 확인합니다.
+`pbiviz`를 터미널/명령줄에서 실행하는 경우 도움말 화면이 표시됩니다. 그렇지 않은 경우 개발자 도구가 올바르게 설치되지 않았습니다. 4.0 버전 이상의 NodeJS를 설치했는지 확인합니다.
 
 **시각화 탭에 디버그 시각적 개체가 없습니다**
 
@@ -38,7 +38,7 @@ ms.locfileid: "74999770"
 
 시각적 개체 프로젝트의 루트에 있는 터미널 명령줄에서 `pbiviz start` 명령으로 시각적 개체 서버를 실행합니다. 서버가 실행 중이 아닌 경우 SSL 인증서가 올바르게 설치되지 않았을 수도 있습니다.
 
-질문, 의견 또는 문제가 있으면 언제든지 Power BI 시각적 개체 지원 팀 *pbicvsupport@microsoft.com*  에 문의하세요.
+질문, 의견 또는 문제가 있으면 언제든지 Power BI 시각적 개체 지원 팀 *pbicvsupport@microsoft.com* 에 문의하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

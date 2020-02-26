@@ -59,7 +59,10 @@ Power BI Desktop 왼쪽에는 세 가지 Power BI Desktop 뷰의 아이콘이 �
 
 ![Power BI Desktop 뷰 아이콘 3개](media/desktop-getting-started/designer_gsg_viewtypes.png)
 
-기본 뷰는 **보고서** 뷰입니다. 
+
+## <a name="install-and-run-power-bi-desktop"></a>Power BI Desktop 설치 및 실행
+톱니바퀴 모양의 **설정** 아이콘을 선택한 다음 **Power BI Desktop**을 선택하여 **Power BI** 서비스에서 Power BI Desktop을 다운로드할 수 있습니다.
+
 
 ![Power BI Desktop 보고서 뷰](media/desktop-getting-started/designer_gsg_blankreport.png)
 
@@ -72,19 +75,26 @@ Power BI Desktop이 설치되면 계속 확장되는 데이터 영역에 연결�
 
 선글라스 소매점의 데이터 분석가라고 가정해 보세요. 클라이언트가 일조량이 가장 많은 지역의 선글라스 판매량을 목표를 설정하도록 지원하려고 합니다. Bankrate.com의 [Best and worst states for retirement](https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/)(은퇴자에게 최상 및 최악의 주) 페이지에는 이 주제와 관련된 흥미로운 데이터가 있습니다.
 
-Power BI Desktop **홈** 탭에서 **데이터 가져오기** > **웹**을 선택하여 웹 데이터 원본에 연결합니다. 
+
+**데이터 가져오기**가 가능하며 *시작* 화면에서 직접 **최근 원본** 또는 **다른 보고서** **열기**(왼쪽 창의 링크)를 참조할 수 있습니다. 화면을 닫으면(오른쪽 위 모서리에 있는 **x** 선택) Power BI Desktop의 **보고서** 보기가 표시됩니다.
+
 
 ![웹 데이터 원본 선택](media/desktop-getting-started/gsg_syw_2.png)
 
 **웹** 대화 상자의 **URL** 필드에 *https:\//www.bankrate.com/retirement/best-and-worst-states-for-retirement/* 주소를 붙여넣고 **확인**을 선택합니다. 
 
-![웹 대화 상자에 웹 주소 붙여넣기](media/desktop-getting-started/gettingstarted_8.png)
+
+다음 화면에는 Power BI Desktop의 왼쪽을 따라 위에서 아래로 다음 세 개의 보기 아이콘이 표시됩니다. **보고서**, **데이터** 및 **관계**. 현재 표시된 보기는 왼쪽을 따라 노랑 막대로 표시됩니다. 여기서는 현재 **보고서** 보기가 표시되어 있습니다. 이러한 세 아이콘 중 원하는 아이콘을 선택하여 보기를 변경할 수 있습니다.
+
 
 메시지가 표시되면 **웹 콘텐츠 액세스** 화면에서 **연결**을 선택하여 익명 액세스를 사용합니다. 
 
 Power BI Desktop의 쿼리 기능이 실행되고 웹 리소스에 연결합니다. **탐색기** 창에 웹 페이지에서 찾은 내용이 반환됩니다. 이 예제에서는 **은퇴자에게 최상 및 최악의 주 순위**라는 테이블과 문서가 반환됩니다. 테이블에 관심이 있으므로 테이블을 선택하여 미리 보기를 표시합니다.
 
-이 시점에서 **로드**를 선택하여 테이블을 로드하거나, **테이블 변환**을 선택하여 로드하기 전에 테이블을 변경할 수 있습니다.
+
+## <a name="connect-to-data"></a>데이터에 연결
+Power BI Desktop이 설치되면 계속 확장되는 데이터에 연결할 수 있습니다. 쿼리 창에는 사용할 수 있는 *모든 종류*의 데이터 소스가 있습니다. 다음 이미지는 리본 메뉴의 **홈** 탭을 선택한 다음 **데이터 가져오기 \>자세히...**를 선택하여 데이터에 연결하는 방법을 보여 줍니다.
+
 
 ![웹 페이지의 테이블 미리 보기](media/desktop-getting-started/datasources_fromnavigatordialog.png)
 
@@ -108,7 +118,9 @@ Power BI Desktop의 쿼리 기능이 실행되고 웹 리소스에 연결합니�
 
 데이터 형식을 변경해야 하는 경우 변경할 열을 선택합니다. **Shift** 키를 누른 채 인접한 여러 열을 선택하거나 **Ctrl** 키를 누른 채 인접하지 않은 열을 선택합니다. 열 헤더를 마우스 오른쪽 단추로 클릭하고 **형식 변경**을 선택한 다음, 메뉴에서 새 데이터 형식을 선택하거나 **홈** 탭의 **변환** 그룹에서 **데이터 형식** 옆에 있는 목록을 드롭다운하고 새 데이터 형식을 선택합니다.
 
-![데이터 형식 변경](media/desktop-getting-started/designer_gsg_changedatatype.png)
+
+**편집**을 선택하면 쿼리 편집기가 시작되고 테이블을 나타내는 보기가 표시됩니다. **쿼리 설정** 창이 표시됩니다(표시되지 않는 경우 리본 메뉴에서 **보기** 탭을 선택한 다음 **표시\> 쿼리 설정**을 선택하여 **쿼리 설정** 창을 표시할 수 있음). 표시되는 모양은 다음과 같습니다.
+
 
 > [!NOTE]
 > Power BI Desktop의 Power Query 편집기는 사용 가능한 작업에 리본 또는 오른쪽 클릭 메뉴를 사용합니다. 리본의 **홈** 또는 **변환** 탭에서 선택할 수 있는 대부분의 작업은 항목을 마우스 오른쪽 단추로 클릭하고 표시되는 메뉴에서 선택하여 사용할 수도 있습니다.
@@ -231,11 +243,20 @@ Power BI Desktop **보고서** 뷰에서 시각화와 보고서를 작성할 수
 
 ![창 확장 또는 축소](media/desktop-getting-started/designer_gsg_collapsepanes.png)
 
-간단한 시각화를 만들려면 필드 목록에서 필드를 선택하거나 **필드** 목록에서 캔버스로 필드를 끌어다 놓습니다. 예를 들어 **선글라스 판매에 최상의 주**에서 캔버스로 **주** 필드를 끌어다 놓고 결과를 확인합니다.
 
-![주 필드를 끌어 지도 시각화 만들기](media/desktop-getting-started/designer_gsg_reportfirstdrag.png)
+## <a name="build-reports"></a>보고서 작성
+테이블을 로드한 후에 추가로 변경할 수 있으며, 모델을 다시 로드하여 수행한 모든 변경 내용을 적용할 수 있습니다. 그러나 현재로서는 이 작업만으로 충분합니다. Power BI Desktop **보고서** 보기에서 보고서 작성을 시작할 수 있습니다.
 
-결과를 살펴보세요. Power BI Desktop이 **주** 필드에 지리적 위치 데이터가 포함된 것을 인식하고 지도 기반 시각화를 자동으로 만들었습니다. 시각화는 데이터 모델에 있는 40개 주의 데이터 요소를 보여 줍니다. 
+**보고서** 보기에는 다음과 같은 5개의 기본 영역이 있습니다.
+
+1. **리본** 메뉴 - 보고서 및 시각화와 관련된 일반적인 작업을 표시합니다.
+2. **보고서** 보기 또는 캔버스 - 시각화를 만들고 정렬합니다.
+3. **페이지** 탭 영역(아래쪽에 있음) - 보고서 페이지를 선택하거나 추가할 수 있습니다.
+4. **시각화** 창 - 시각화를 변경하고 색 또는 축을 사용자 지정하며 필터를 적용하고 필드를 끄는 등의 작업을 수행할 수 있습니다.
+5. **필드** 창 - 쿼리 요소 및 필터를 **보고서** 보기나 **시각화** 창의 **필터** 영역으로 끌 수 있습니다.
+   
+   ![](media/desktop-getting-started/designer_gsg_reportview.png)
+
 
 **시각화** 창에 시각화 정보가 표시되고 수정할 수 있습니다. 
 
@@ -259,7 +280,9 @@ Power BI Desktop **보고서** 뷰에서 시각화와 보고서를 작성할 수
 
 ![제목 변경](media/desktop-getting-started/designer_gsg_report1.png)
 
-상위 10개 날씨 주의 이름과 1에서 10 사이의 순위를 표시하는 시각화를 추가하려면 캔버스의 빈 영역을 선택한 다음, **시각화** 창에서 **세로 막대형 차트** 아이콘을 선택합니다. **필드** 창에서 **주**와 **날씨**를 선택합니다. 세로 막대형 차트는 쿼리의 40개 주를 가장 높은 숫자 순위에서 가장 낮은 숫자 순위로 또는 최악의 날씨에서 최상의 날씨 순으로 표시합니다. 
+
+이 보고서에는 6개의 **페이지**가 있고, 각각 데이터의 특정 요소를 시각화합니다.
+
 
 ![세로 막대형 차트 시각화](media/desktop-getting-started/gsg_share7.png)
 
@@ -298,7 +321,9 @@ Power BI Desktop에서 **Power BI** 서비스에 게시하려면 리본의 **홈
 
 ![게시 선택](media/desktop-getting-started/gsg_syw_1.png)
 
-Power BI에 로그인하거나 대상을 선택하라는 메시지가 표시될 수 있습니다.
+
+**파일** 보기가 표시됩니다. 여기서는 **로컬 파일**을 선택합니다.
+
 
 게시 프로세스가 완료되면 다음과 같은 대화 상자가 표시됩니다.
 
@@ -344,5 +369,6 @@ Power BI Desktop의 다양한 기능에 대한 자세한 내용은 다음 리소
 * [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)
 * [Power BI Desktop의 데이터 원본](desktop-data-sources.md)
 * [Power BI Desktop에서 데이터에 연결](desktop-connect-to-data.md)
-* [자습서: Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
+* [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
 * [Power BI Desktop의 일반적인 쿼리 작업](desktop-common-query-tasks.md)   
+
