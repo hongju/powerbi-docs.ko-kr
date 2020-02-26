@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/07/2019
+ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622362"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538270"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>MDM(모바일 디바이스 관리) 도구를 사용하여 Power BI 앱을 원격으로 구성
 
@@ -21,8 +21,9 @@ iOS 및 Android용 Power BI Mobile 앱은 MDM(모바일 디바이스 관리) 서
 
 Power BI 모바일 앱은 다음 구성 시나리오를 지원합니다.
 
-- 보고서 서버 구성(iOS 및 Android)
-- 데이터 보호 설정(iOS)
+* 보고서 서버 구성(iOS 및 Android)
+* 데이터 보호 설정(iOS 및 Android)
+* 상호 작용 설정(Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>보고서 서버 구성(iOS 및 Android)
 
@@ -37,11 +38,21 @@ Power BI 모바일 앱은 다음 구성 시나리오를 지원합니다.
 
 ## <a name="data-protection-settings-ios"></a>데이터 보호 설정(iOS)
 
-iOS용 Power BI iOS 앱은 관리자에게 보안 및 개인 정보 설정에 대한 기본 구성을 사용자 지정할 수 있는 기능을 제공합니다. Power BI 앱에 액세스할 때 사용자에게 Face ID, Touch ID 또는 암호를 제공하도록 강제할 수 있습니다.
+iOS 및 Android용 Power BI 앱은 관리자에게 보안 및 개인 정보 설정에 대한 기본 구성을 사용자 지정할 수 있는 기능을 제공합니다. Power BI 앱에 액세스할 때 사용자에게 Face ID, Touch ID 또는 암호를 제공하도록 강제할 수 있습니다.
 
 | 키 | 형식 | 설명 |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | 기본값은 False입니다. <br><br>사용자가 해당 디바이스에 액세스하기 위해서는 TouchID 또는 FaceID 등의 생체 인식이 필요할 수 있습니다. 필요한 경우 인증 외에 생체 인식도 사용됩니다.<br><br>앱 보호 정책을 사용하는 경우 Microsoft는 이중 액세스 프롬프트를 방지하기 위해 이 설정을 사용하지 않도록 설정하는 것을 권장합니다. |
+
+## <a name="interaction-settings-android"></a>상호 작용 설정(Android)
+
+Android용 Power BI 앱은 관리자가 조직의 사용자 그룹 간에 기본 상호 작용 설정을 변경해야 하는 경우 상호 작용 설정을 구성할 수 있는 기능을 제공합니다. 
+
+| 키 | 형식 | 값 | 설명 |
+|---|---|---|---|
+| com.microsoft.powerbi.mobile.ReportTapInteraction | String |  <nobr>한 번 탭</nobr><br><nobr>두 번 탭</nobr> | 시각적 개체를 눌렀을 때 데이터 요소도 선택할지를 구성합니다. |
+| ccom.microsoft.powerbi.mobile.RefreshAction | String |  <nobr>당겨서 새로 고침</nobr><br>선택합니다. | 보고서를 새로 고치기 위한 단추를 표시할지 또는 사용자가 당겨서 새로 고칠지를 구성합니다. |
+| com.microsoft.powerbi.mobile.FooterAppearance | String |  고정됨<br>동적 | 보고서 바닥글을 보고서 아래쪽에 고정할지 또는 자동으로 숨길지를 구성합니다. |
 
 ## <a name="deploying-app-configuration-settings"></a>앱 구성 설정 배포
 

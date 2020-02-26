@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/04/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 57bc7eed7e8e51463494e2c4f562dcdb1e6a88c9
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699639"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76038555"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 저장된 데이터 세트 새로 고침
 OneDrive 또는 SharePoint Online에서 Power BI 서비스로 파일을 가져오면 Power BI Desktop의 작업이 Power BI 서비스와 동기화를 유지할 수 있습니다.
@@ -35,6 +35,9 @@ OneDrive 또는 SharePoint Online에서 Power BI Desktop 파일을 가져올 때
 
 ## <a name="whats-supported"></a>무엇이 지원되나요?
 Power BI는 다음 데이터 원본에 연결하고 해당 데이터 원본에서 데이터를 로드하는 데 **데이터 가져오기** 또는 **쿼리 편집기**를 사용하는 로컬 드라이브에서 가져온 Power BI Desktop 파일에서 생성된 데이터 세트에 대한 **새로 고침** 및 **새로 고침 예약**을 지원합니다.
+
+> [!NOTE]
+> 라이브 연결 데이터 세트를 위한 OneDrive 새로 고침이 지원됩니다. 그러나 이미 게시된 보고서의 한 데이터 세트에서 다른 데이터 세트로 라이브 연결 데이터 세트를 변경하는 것은 OneDrive 새로 고침 시나리오에서 지원되지 않습니다.
 
 ### <a name="power-bi-gateway---personal"></a>Power BI 게이트웨이 - 개인
 * Power BI Desktop의 **데이터 가져오기** 및 **쿼리 편집기**에 표시된 모든 온라인 데이터 원본.

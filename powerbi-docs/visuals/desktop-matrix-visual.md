@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/25/2019
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f37bbbb51176624cd2d1562e5d89de43facf3b43
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876865"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895501"
 ---
-# <a name="use-the-matrix-visual-in-power-bi"></a>Power BI에서 행렬 시각적 개체 사용
+# <a name="create-matrix-visualizations-in-power-bi"></a>Power BI에서 행렬 시각화 만들기
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -41,25 +41,24 @@ ms.locfileid: "73876865"
 
 총계 및 소계를 살펴볼 때는 이 값이 기본 데이터를 기반으로 한다는 점을 기억하세요. 표시되는 값만 기반으로 하지는 않습니다.
 
-<!-- use Nov blog post video
 
-## Expanding and collapsing row headers
-There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+## <a name="expanding-and-collapsing-row-headers"></a>행 머리글 확장 및 축소
+두 가지 방법으로 행 머리글을 확장할 수 있습니다. 첫 번째는 오른쪽 클릭 메뉴를 사용하는 것입니다. 선택한 특정 행 머리글, 전체 수준 또는 계층의 마지막 수준까지 모든 것을 확장하는 옵션이 표시됩니다. 행 머리글을 축소하는 경우에도 비슷한 옵션을 사용할 수 있습니다.
 
 ![](media/desktop-matrix-visual/power-bi-expand1.png)
 
-You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
-Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+**행 머리글** 카드 아래 서식 창을 통해 행 머리글에 +/- 단추를 추가할 수도 있습니다. 기본적으로 아이콘은 행 머리글의 서식과 일치하지만 원하는 경우 아이콘의 색 및 크기를 별도로 사용자 지정할 수 있습니다.
+
+아이콘을 켜면 Excel의 피벗 테이블 아이콘과 유사하게 작동합니다.
 
 ![](media/desktop-matrix-visual/power-bi-expand2.png)
 
-The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+행렬의 확장 상태는 보고서와 함께 저장됩니다. 행렬은 확장 또는 축소 상태로 대시보드에 고정할 수 있습니다. 이 대시보드 타일이 선택된 상태에서 보고서를 열면 보고서에서도 확장 상태를 변경할 수 있습니다. 
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-Watch the following video to learn more about expand/collapse in the matrix:
 
--->
+
 ## <a name="using-drill-down-with-the-matrix-visual"></a>행렬 시각적 개체로 드릴다운 사용
 행렬 시각적 개체를 사용하면 이전에는 사용할 수 없었던 모든 종류의 흥미로운 드릴다운 작업을 수행할 수 있습니다. 행, 열을 사용하여 개별 섹션 및 셀까지 드릴다운하는 기능이 포함됩니다. 각 기능의 작동 방법을 살펴보겠습니다.
 
@@ -184,6 +183,16 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
     ![시각적 개체 복사 예를 보여 주는 스크린샷](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
 
+## <a name="setting-a-matrix-value-as-a-custom-url"></a>행렬 값을 사용자 지정 URL로 설정
+
+웹 사이트 URL이 포함된 열 또는 측정값이 있는 경우 조건부 서식 지정을 사용하여 해당 URL을 필드에 활성 링크로 적용할 수 있습니다. 서식 창의 **조건부 서식 지정** 카드에서 이 옵션을 찾을 수 있습니다.
+
+![선택한 행을 표시하는 필터 카드](media/desktop-matrix-visual/power-bi-web-url.png)
+
+**웹 URL**을 설정하고 열에 대한 URL로 사용할 필드를 선택합니다. 적용된 후에는 해당 필드(열)의 값이 활성 링크가 됩니다. 마우스로 가리켜 이 링크를 선택하여 해당 페이지로 이동합니다. 
+
+자세한 내용은 [조건부 테이블 서식 지정](../desktop-conditional-table-formatting.md)을 참조하세요.
+
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>행렬 시각적 개체에서 음영 및 글꼴 색
 행렬 시각적 개체를 사용하여 행렬 내에서 셀의 배경에 조건부 서식(색 및 음영과 데이터 막대)을 적용할 수 있고 텍스트와 값 자체에 조건부 서식을 적용할 수 있습니다.
 
@@ -197,6 +206,6 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI의 분산형 및 거품형 차트](power-bi-visualization-scatter.md)
+[Power BI용 Power Apps 시각적 개체](power-bi-visualization-powerapp.md)
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958474"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "75762120"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 보기)
 
@@ -104,6 +104,8 @@ BYOK를 사용하도록 설정하기 전에, 다음 사항을 고려해야 합�
 - 지금은 BYOK를 사용하도록 설정한 후에 BYOK를 사용하지 않도록 설정할 수 없습니다. `Add-PowerBIEncryptionKey`에 대한 매개 변수를 지정하는 방법에 따라, 하나 이상의 용량에 BYOK를 사용하는 방법을 제어할 수 있습니다. 하지만 테넌트에 대한 키 도입을 취소할 수는 없습니다. 자세한 내용은 [BYOK를 사용하도록 설정](#enable-byok)을 참조하세요.
 
 - BYOK를 사용하는 작업 영역을 Power BI Premium의 전용 용량에서 공유 용량으로 직접 이동할 수 없습니다.  먼저 작업 영역을 BYOK가 사용되지 않는 전용 용량으로 이동해야 합니다.
+
+- BYOK를 사용하는 작업 영역을 Power BI Premium의 전용 용량에서 공유 용량으로 이동하는 경우 보고서 및 데이터 세트가 키로 암호화되므로 액세스할 수 없게 됩니다. 이렇게 되도록 하지 않으려면 먼저 작업 영역을 BYOK가 사용되지 않는 전용 용량으로 이동해야 합니다.
 
 ### <a name="enable-byok"></a>BYOK를 사용하도록 설정
 

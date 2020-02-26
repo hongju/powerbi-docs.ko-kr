@@ -1,20 +1,20 @@
 ---
-title: Power BI 페이지를 매긴 보고서 작성기에서 공유 데이터 세트 사용
-description: Power BI 페이지를 매긴 보고서 작성기에서 공유 데이터 세트에 연결합니다.
-ms.date: 07/23/2019
+title: Power BI Report Builder에서 Power BI 공유 데이터 세트로 페이지가 매겨진 보고서 만들기
+description: Power BI 공유 데이터 세트 기반의 Power BI Report Builder에서 페이지가 매겨진 보고서를 만듭니다.
+ms.date: 01/03/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73791281"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691478"
 ---
-# <a name="use-shared-datasets-in-power-bi-report-builder"></a>Power BI 보고서 작성기에서 공유 데이터 세트 사용
+# <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI 공유 데이터 세트 기반의 페이지가 매겨진 보고서 만들기
 
 Power BI Desktop에서 만든 데이터 세트를 Power BI 보고서 작성기 페이지를 매긴 보고서의 데이터 원본으로 사용할 수 있습니다. 이 시나리오를 다음과 같이 가정합니다. Power BI Desktop에서 Power BI 보고서를 만들었습니다. 데이터 모델을 디자인하는 데 많은 시간을 쏟았으며, 모든 종류의 뛰어난 시각적 개체를 사용하여 멋진 Power BI 보고서를 만들었습니다. 보고서에는 많은 행을 포함하는 행렬이 있으므로 모두 보려면 스크롤해야 합니다. 보고서 구독자가 해당 행렬의 모든 행을 표시하는 보고서를 인쇄할 수 있기를 원합니다. Power BI 페이지를 매긴 보고서는 이 요구 사항을 충족할 수 있습니다. 페이지 머리글 및 바닥글과 직접 디자인한 완벽한 페이지 레이아웃을 사용하여 여러 페이지로 이루어진 테이블 또는 행렬을 인쇄합니다. 이 보고서는 Power BI Desktop 보고서를 보완할 것입니다. 두 보고서가 불일치하는 부분 없이 정확히 동일한 데이터를 기반으로 하도록 동일한 데이터 세트를 사용합니다.
 

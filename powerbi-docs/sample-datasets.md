@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b14b9a8a0978876942de789548d9741fa3932152
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858983"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762235"
 ---
-# <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI와 함께 사용 가능한 샘플 데이터는 무엇입니까?
+# <a name="get-sample-data-for-power-bi"></a>Power BI용 샘플 데이터 가져오기
 Power BI를 처음 접하고, 사용해 보고 싶지만 데이터가 없는 경우가 있습니다.  또는 데이터 세트가 있을 수도 있습니다. Power BI의 작동 원리를 아직 잘 모르기 때문에 데이터 세트가 조금이라도 손상될까봐 걱정하는 분들이 있습니다.
 
 이 경우 스트레스를 받을 필요가 없습니다. obviEnce([www.obvience.com](http://www.obvience.com/)) 및 Microsoft는 사용자가 Power BI에 익숙해질 때까지 사용할 수 있는 샘플을 만들었습니다.  데이터는 익명으로 처리되며 재무, HR, 판매 등 다양한 분야를 나타냅니다. 또한 온라인 설명서에서는 자습서와 예제에 동일한 샘플을 사용하므로 따라 할 수 있습니다.      
@@ -127,9 +127,9 @@ ObviEnce는 Microsoft Business Intelligence에 주력하는 ISV이자 IP(Intelle
    * [영업 및 마케팅 샘플](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. 다운로드한 파일을 저장합니다. 파일을 저장하는 위치에 따라 차이가 발생합니다.
 
-   * ![로컬](media/sample-datasets/power-bi-local-file2.png) **로컬** - 파일을 사용자 컴퓨터의 로컬 드라이브 또는 조직의 다른 위치에 저장하는 경우 Power BI에서 파일을 Power BI로 가져올 수 있습니다. 파일은 실제로 로컬 드라이브에 그대로 남아 있으므로, 전체 파일을 Power BI로 가져온 것은 아닙니다. 새 데이터 세트가 Power BI에서 만들어지고 데이터 및 경우에 따라 데이터 모델이 데이터 세트로 로드됩니다. 파일에 보고서가 있는 경우 해당 보고서는 보고서 아래의 Power BI 사이트에 나타납니다.
+   * ![로컬](media/sample-datasets/power-bi-local-file2.png)  **로컬** - Power BI에서 파일을 사용자 컴퓨터의 로컬 드라이브 또는 조직의 다른 위치에 저장하는 경우 파일을 Power BI로 가져올 수 있습니다. 파일은 실제로 로컬 드라이브에 그대로 남아 있으므로, 전체 파일을 Power BI로 가져온 것은 아닙니다. 새 데이터 세트가 Power BI에서 만들어지고 데이터 및 경우에 따라 데이터 모델이 데이터 세트로 로드됩니다. 파일에 보고서가 있는 경우 해당 보고서는 보고서 아래의 Power BI 사이트에 나타납니다.
    * ![OneDrive 비즈니스](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 비즈니스** – 비즈니스용 OneDrive를 가지고 있고 Power BI로 로그인한 것과 동일한 계정으로 로그인하는 경우, 비즈니스용 OneDrive는 Excel, Power BI 또는 .CSV 파일의 작업을 Power BI의 데이터 세트, 보고서 및 대시보드와 동기화 상태로 유지하기에 가장 좋은 곳입니다. Power BI와 OneDrive가 모두 클라우드에 있으므로 Power BI는 매시간 OneDrive의 파일에 연결합니다. 변경 내용이 발견되면 데이터 세트, 보고서 및 대시보드가 Power BI에서 자동으로 업데이트됩니다.
-   * ![OneDrive 개인](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 개인** – 본인의 OneDrive 계정으로 파일을 저장할 경우 비즈니스용 OneDrive에 제공하는 것과 동일한 많은 혜택을 누릴 수 있습니다. 가장 큰 차이점은 파일에 처음 연결할 때(‘데이터 가져오기’ > ‘파일’ > ‘OneDrive - 개인’ 사용) Microsoft 계정으로 OneDrive에 로그인해야 한다는 점이 가장 큰 차이점이며, 일반적으로 Power BI에 로그인하기 위해 사용하는 것과는 다릅니다. Microsoft 계정으로 OneDrive에 로그인할 경우 로그인 유지 옵션을 선택해야 합니다. 이러한 방식으로 Power BI는 매시간 파일에 연결할 수 있으며 Power BI의 데이터 세트는 동기화를 유지하게 됩니다.
+   * ![OneDrive 개인](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 개인** – 개인 OneDrive 계정으로 파일을 저장할 경우 비즈니스용 OneDrive에서 제공하는 것과 동일한 많은 혜택을 누릴 수 있습니다. 가장 큰 차이점은 파일에 처음 연결할 때(‘데이터 가져오기’ > ‘파일’ > ‘OneDrive - 개인’ 사용) Microsoft 계정으로 OneDrive에 로그인해야 한다는 점이 가장 큰 차이점이며, 일반적으로 Power BI에 로그인하기 위해 사용하는 것과는 다릅니다. Microsoft 계정으로 OneDrive에 로그인할 경우 로그인 유지 옵션을 선택해야 합니다. 이러한 방식으로 Power BI는 매시간 파일에 연결할 수 있으며 Power BI의 데이터 세트는 동기화를 유지하게 됩니다.
    * ![SharePoint 팀 사이트](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint 팀 사이트** – Power BI 파일을 SharePoint 팀 사이트에 저장하는 것은 비즈니스용 OneDrive에 저장하는 것과 거의 마찬가지입니다. 가장 큰 차이점은 Power BI에서 파일에 연결하는 방법입니다. URL을 지정하거나 루트 폴더에 연결할 수 있습니다.
 1. Power BI 서비스(app.powerbi.com)를 열고 로그인합니다.
 
