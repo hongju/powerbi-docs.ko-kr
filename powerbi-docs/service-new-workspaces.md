@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622429"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925660"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI의 새 작업 영역에서 작업 구성
 
@@ -62,7 +62,7 @@ Power BI 관리 포털에서 [작업 영역 목록을 사용할 수 있습니다
 
 다음은 관리자, 구성원, 참가자, 뷰어 등 네 가지 역할의 기능입니다. 보기와 상호 작용을 제외한 모든 기능에는 Power BI Pro 라이선스가 필요합니다.
 
-|기능   | 관리자  | 멤버  | 참가자  | 뷰어 |
+|기능   | Admin  | 멤버  | 참가자  | 뷰어 |
 |---|---|---|---|---|
 | 작업 영역 업데이트 및 삭제  | X  |   |   |   | 
 | 다른 관리자를 비롯한 사람 추가/제거  | X  |   |   |   |
@@ -81,7 +81,7 @@ Power BI 관리 포털에서 [작업 영역 목록을 사용할 수 있습니다
     - 데이터 세트의 빌드 권한이 필요합니다. 이 작업 영역의 데이터 세트에서 관리자, 구성원 및 참가자 역할이 있는 사용자는 작업 영역 역할을 통해 빌드 권한을 보유합니다.
 2. Power BI Pro 라이선스가 없더라도, 항목이 프리미엄 용량의 작업 영역에 있는 경우 Power BI 서비스에서 항목을 보고 상호 작용할 수 있습니다.
 
-## <a name="licensing"></a>라이선싱
+## <a name="licensing"></a>라이선스
 공유된 용량의 작업 영역에 추가하는 모든 사용자는 Power BI Pro 라이선스가 필요합니다. 작업 영역에서 이러한 사용자는 물론, 더 광범위한 대상 그룹이나 조직 전체에 게시할 계획이 있는 대시보드, 보고서에 대해 공동 작업을 수행할 수 있습니다. 
 
 조직 내 다른 사용자에게 콘텐츠를 배포하려는 경우 해당 사용자에게 Power BI Pro 라이선스를 할당하거나 Power BI Premium 용량에 작업 영역을 배치할 수 있습니다.
@@ -116,7 +116,7 @@ Power BI는 작업 영역 액세스 권한을 가지도록 구성된 사용자 �
 
 새 작업 영역 환경의 작업 영역에 대한 다음 작업은 Power BI에서 감사됩니다.
 
-| 식별 이름 | 작업 이름 |
+| 친숙한 이름 | 작업 이름 |
 |---|---|
 | Power BI 폴더 만듦 | CreateFolder |
 | Power BI 폴더 삭제됨 | DeleteFolder |
@@ -124,6 +124,10 @@ Power BI는 작업 영역 액세스 권한을 가지도록 구성된 사용자 �
 | Power BI 폴더 액세스 권한 업데이트됨| UpdateFolderAccess |
 
 [Power BI 감사](service-admin-auditing.md)에 대해 자세히 알아봅니다.
+
+## <a name="guest-users"></a>게스트 사용자
+
+기본적으로 [Azure AD B2B 게스트 사용자](service-admin-azure-ad-b2b.md)는 작업 영역에 액세스할 수 없습니다. Power BI 관리자는 [외부 게스트 사용자가 조직의 콘텐츠를 편집하고 관리하도록 허용](service-admin-azure-ad-b2b.md#guest-users-who-can-edit-and-manage-content)할 수 있습니다. 사용하도록 설정된 게스트 사용자는 사용 권한을 가진 작업 영역에 액세스할 수 있습니다.
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
@@ -162,4 +166,4 @@ Power BI는 작업 영역 액세스 권한을 가지도록 구성된 사용자 �
 * [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)
 * [클래식 작업 영역 만들기](service-create-workspaces.md)
 * [Power BI에서 앱 설치 및 사용](service-create-distribute-apps.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 질문이 있으십니까? [Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)

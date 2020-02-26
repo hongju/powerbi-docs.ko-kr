@@ -1,6 +1,6 @@
 ---
 title: Power BI 보고서 작성기의 보고서 데이터
-description: Power BI 페이지를 매긴 보고서 작성기에서 보고서 디자인의 첫 번째 단계는 기본 보고서 데이터를 나타내는 데이터 원본 및 데이터 세트를 만드는 것입니다.
+description: Power BI 보고서 작성기에서 보고서를 디자인하는 첫 번째 단계는 기본 보고서 데이터를 나타내는 데이터 원본 및 데이터 세트를 만드는 것입니다.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
-ms.openlocfilehash: cbcb710a806c400ea33ac4d605614b5325277d07
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 602c6a00f773147072b97ecf8c11588bc981eb05
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860429"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75954005"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI 보고서 작성기의 보고서 데이터
 

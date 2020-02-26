@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/25/2019
 ms.author: v-pemyer
-ms.openlocfilehash: becde542f68b2f9fb1412a904793f46a8f154856
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308252"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161297"
 ---
 # <a name="many-to-many-relationship-guidance"></a>다 대 다 관계 지침
 
@@ -120,7 +120,7 @@ ms.locfileid: "75308252"
 - 연결된 엔터티를 저장할 브리징 테이블을 추가합니다.
 - 세 테이블 간에 일 대 다 관계를 만듭니다.
 - 양방향 관계 **1개**를 구성하여 필터 전달이 팩트 유형 테이블까지 계속 진행되도록 합니다.
-- ID 값이 누락되는 것이 적절하지 않은 경우 ID 열의 **Null 허용 여부** 속성을 TRUE로 설정합니다. 누락된 값이 제공되면 데이터 새로 고침이 실패합니다.
+- ID 값이 누락되는 것이 적절하지 않은 경우 ID 열의 **Null 허용 여부** 속성을 FALSE로 설정합니다. 누락된 값이 제공되면 데이터 새로 고침이 실패합니다.
 - 브리징 테이블을 숨깁니다(보고에 필요한 추가 열 또는 측정값이 포함된 경우 제외).
 - 보고에 적합하지 않은 ID 열을 숨깁니다(예: ID가 서로게이트 키인 경우).
 - ID 열을 표시하는 것이 적합한 경우 관계의 “일” 쪽에 있도록 하고 “다” 쪽 열은 항상 숨깁니다. 이렇게 하면 최상의 필터 성능을 얻을 수 있습니다.
@@ -300,4 +300,4 @@ IF(
 
 - [Power BI Desktop의 모델 관계](../desktop-relationships-understand.md)
 - [별모양 스키마 및 Power BI에서의 중요성 이해](star-schema.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 질문이 있으십니까? [Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)
