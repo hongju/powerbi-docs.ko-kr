@@ -86,15 +86,13 @@ Power BI 서비스 및 Power BI Desktop은 모두 라이브 연결 모드에서 
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-SSAS MD를 사용하는 데에는 특정 제한 사항이 있습니다.
 
-* Enterprise 및 BI 버전의 SQL Server 2014만 라이브 연결을 지원합니다. Standard 버전의 SQL Server에서는 라이브 연결을 위해 SQL Server 2016 이상이 필요합니다.
+* 서버는 Power BI Desktop SSAS MD 커넥터가 제대로 작동하기 위해 SQL Server 2012 SP1 CU4 버전 이상의 Analysis Services를 실행해야 합니다.
+* Enterprise 및 BI 버전의 SQL Server 2012 및 SQL Server 2014만 라이브 연결을 지원합니다. Standard 버전의 SQL Server에서는 라이브 연결을 위해 SQL Server 2016 이상이 필요합니다.
+* *작업* 및 *명명된 집합*은 Power BI에 노출되지 않지만, *작업* 또는 *명명된 집합*을 포함하고 시각적 개체 및 보고서를 만드는 큐브에는 계속 연결할 수 있습니다.
+* Power BI가 SSAS 모델의 메타데이터를 표시하지만 모델에서 데이터를 검색할 수 없는 문제가 발생할 수 있습니다. 이러한 현상은 32비트 버전의 MSOLAP 공급자가 시스템에 설치된 경우 발생하지만, 64비트 버전의 경우 문제가 없습니다. 64비트 버전을 설치하면 문제가 해결될 수 있습니다.
+* SSAS 다차원 모델에 연결된 보고서를 작성할 때 ‘보고서 수준’ 측정값을 만들 수 없습니다. 사용 가능한 유일한 측정값은 MD 모델에 정의된 것입니다.
 
-* *작업* 및 *명명된 집합*은 Power BI에 노출되지 않습니다. 시각적 개체 및 보고서를 만들기 위해 작업 또는 명명된 세트를 포함하는 큐브에 계속 연결할 수 있습니다.
-
-* Power BI가 SSAS 모델에 대한 메타데이터를 표시하는 경우 때때로 모델에서 데이터를 검색할 수 없습니다. 이 시나리오는 32비트 버전의 MSOLAP 공급자를 설치했지만 64비트 버전을 설치하지 않은 경우에 발생할 수 있습니다. 64비트 버전을 설치하면 문제가 해결될 수 있습니다.
-
-* SSAS 다차원 모델에 연결된 보고서를 작성할 때 ‘보고서 수준’ 측정값을 만들 수 없습니다.  사용할 수 있는 유일한 측정값은 MD 모델에 정의된 측정값입니다.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop에서 지원되는 SSAS MD의 기능
 
