@@ -22,7 +22,8 @@ Power BI Desktop에서 직접 R 스크립트를 실행하고 결과 데이터 �
 
 ## <a name="install-r"></a>R 설치
 
-Power BI Desktop에서 R 스크립트를 실행하려면 로컬 컴퓨터에 R을 설치해야 합니다. [Microsoft R 애플리케이션 네트워크 ](https://mran.revolutionanalytics.com/download/) 및 [CRAN 리포지토리](https://cran.r-project.org/bin/windows/base/)를 포함한 여러 위치에서 무료로 R을 다운로드하여 설치할 수 있습니다. 현재 릴리스는 설치 경로에서 유니코드 문자와 공백(빈 문자)을 지원합니다.
+Power BI Desktop에서 R 스크립트를 실행하려면 로컬 컴퓨터에 **R**을 설치해야 합니다. 여러 위치에서 무료로 [Revolution Open 다운로드 페이지](https://mran.revolutionanalytics.com/download/) 및 [CRAN 리포지토리](https://cran.r-project.org/bin/windows/base/)를 포함하는 **R**을 다운로드 및 설치할 수 있습니다. Power BI Desktop의 현재 R 스크립팅 릴리스는 설치 경로에서 유니코드 문자뿐만 아니라 공백(빈 문자)을 지원합니다.
+
 
 ## <a name="run-r-scripts"></a>R 스크립트 실행
 
@@ -45,21 +46,23 @@ Power BI Desktop에서 R 스크립트를 준비하고 실행하는 경우 몇 �
 
 ### <a name="run-your-r-script-and-import-data"></a>R 스크립트 실행 및 데이터 가져오기
 
-이제 R 스크립트를 실행하여 데이터를 Power BI Desktop으로 가져올 수 있습니다.
+1. Power BI Desktop에서 R 스크립트 데이터 커넥터는 **데이터 가져오기**에 위치합니다. R 스크립트를 실행하려면 다음 이미지에서 보여주듯이 **데이터 가져오기 &gt; 자세히...** 를 선택한 다음, **기타 &gt; R 스크립트**를 선택합니다.
+   
+   ![](media/desktop-r-scripts/r-scripts-1.png)
+2. R이 로컬 컴퓨터에 설치되면 최신 설치된 버전은 R 엔진으로 선택됩니다. 단순히 스크립트 창에 스크립트를 복사하고 **확인**을 선택합니다.
+   
+   ![](media/desktop-r-scripts/r-scripts-2.png)
+3. R 설치되어 있지 않거나 식별되지 않은 경우 또는 로컬 컴퓨터에 여러 가지 설치가 존재하는 경우 R 스크립트를 실행하려면 **R 설치 설정**을 확장하여 설치 옵션을 표시하거나 수행하려는 설치를 선택합니다.
+   
+   ![](media/desktop-r-scripts/r-scripts-3.png)
+   
+   R이 설치되어 있지만 식별되지 않는 경우 **R 설치 설정**을 확장할 때 제공된 텍스트 상자에 명시적으로 위치를 제공할 수 있습니다. 위의 그림에서 *C:\Program Files\R\R-3.2.0* 경로는 텍스트 상자에 명시적으로 제공됩니다.
+   
+   R 설치 설정은 옵션 대화 상자의 R 스크립팅 섹션 중앙에 있습니다. R 설치 설정을 지정하려면 **파일 > 옵션 및 설정**, **옵션 > R 스크립팅**을 차례로 선택합니다. 여러 개의 R을 설치할 수 있는 경우 사용할 설치를 선택할 수 있는 드롭다운 메뉴가 나타납니다.
+   
+   ![](media/desktop-r-scripts/r-scripts-4.png)
+4. **확인**을 선택하여 R 스크립트를 실행합니다. 이 스크립트를 성공적으로 실행하는 경우 결과 데이터 프레임을 선택하여 Power BI 모델에 추가할 수 있습니다.
 
-1. Power BI Desktop에서 **데이터 가져오기**를 선택하고, **기타** > **R 스크립트**를 선택한 다음 **연결**을 선택합니다.
-
-    ![R 스크립트에 연결, 기타 범주, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-r-scripts/r-scripts-1.png)
-
-2. 로컬 컴퓨터에 R이 설치되어 있다면 스크립트를 스크립트 창에 복사하고 **확인**을 선택하면 됩니다. 설치된 최신 버전이 R 엔진으로 표시됩니다.
-
-    ![R 스크립트 대화 상자, Power BI Desktop](media/desktop-r-scripts/r-scripts-2.png)
-
-3. **확인** 을 선택하여 R 스크립트를 실행합니다. 이 스크립트를 성공적으로 실행하는 경우 결과 데이터 프레임을 선택하여 Power BI 모델에 추가할 수 있습니다.
-
-스크립트를 실행하는 데 사용할 R 설치를 제어할 수 있습니다. R 설치 설정을 지정하려면 **파일** > **옵션 및 설정** > **옵션**을 선택한 다음 **R 스크립팅**을 선택합니다. **R 스크립트 옵션**에서 **검색된 R 홈 디렉터리** 드롭다운 목록은 현재 R 설치 옵션을 보여 줍니다. 원하는 R 설치가 없으면 **기타**를 선택한 다음 원하는 R 설치 폴더로 이동하거나 **R 홈 디렉터리 설정**에 원하는 R 설치 폴더를 입력합니다.
-
-![R 스크립트 옵션, 옵션 대화 상자, Power BI Desktop](media/desktop-r-scripts/r-scripts-4.png)
 
 ### <a name="refresh"></a>새로 고침
 
