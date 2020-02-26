@@ -1,6 +1,6 @@
 ---
 title: Power BI 보고서 작성기의 테이블, 행렬 및 목록
-description: Power BI 페이지를 매긴 보고서 작성기에서 테이블, 행렬 및 목록은 행과 열로 구성된 셀에 페이지를 매긴 보고서 데이터를 표시하는 데이터 영역입니다.
+description: Power BI 보고서 작성기에서 테이블, 행렬 및 목록은 행과 열로 구성된 셀에 페이지를 매긴 보고서 데이터를 표시하는 데이터 영역입니다.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f48187edc3d955b3b87f902a3056e86a933817e1
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 02ac131325dab59590cb88c524ace68a1226fc69
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840214"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953840"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Power BI 보고서 작성기의 테이블, 행렬 및 목록
  보고서 작성기에서 테이블, 행렬 및 목록은 행과 열로 구성된 셀에 페이지를 매긴 보고서 데이터를 표시하는 *데이터 영역*입니다. 셀에는 일반적으로 텍스트, 날짜, 숫자 등의 텍스트 데이터가 포함되지만 계기, 차트 또는 이미지 같은 보고서 항목도 포함될 수 있습니다. 테이블, 행렬, 목록을 통틀어서 *테이블릭스* 데이터 영역이라고도 합니다.  

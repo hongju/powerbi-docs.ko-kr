@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d5923c111debb14aab46977d42f3357837d9399
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 86307a871503dd42e565099b810cb82efa109417
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878312"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761229"
 ---
-# <a name="directquery-and-sap-hana"></a>DirectQuery 및 SAP HANA
+# <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Power BI의 DirectQuery를 사용하여 SAP HANA 데이터 원본에 연결
 **DirectQuery**를 사용하여 **SAP HANA** 데이터 원본에 직접 연결할 수 있습니다. SAP HANA에 연결할 때에는 두 가지 옵션이 있습니다.
 
 * **SAP HANA를 다차원 원본으로 처리(기본값):**  이 경우 Power BI를 SAP Business Warehouse 또는 Analysis Services처럼 다른 다차원 원본에 연결할 때와 동작이 비슷합니다. 이 설정을 사용하여 SAP HANA에 연결하면 단일 분석 또는 계산 보기가 선택되고, 해당 보기의 모든 측정값, 계층 구조 및 특성을 필드 목록에서 사용할 수 있습니다. 시각적 개체가 생성될 때 집계 데이터는 항상 SAP HANA에서 검색됩니다. 이것이 권장되는 방법이며 SAP HANA에 대한 새로운 DirectQuery 보고서의 기본값입니다.
@@ -148,5 +148,5 @@ DirectQuery에 대한 자세한 내용은 다음 리소스를 참조하세요.
 * [Power BI의 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)
 * [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)
-* [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)
+* [On-premises data gateway (온-프레미스 데이터 게이트웨이)](service-gateway-onprem.md)
 

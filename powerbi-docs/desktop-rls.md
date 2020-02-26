@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/05/2019
 LocalizationGroup: Create reports
-ms.openlocfilehash: abbd8f34f42bdcfdca6e65df58c78bf394f00d91
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: dc2c1e312592048c90643526a898ebe654907a68
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882803"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760661"
 ---
-# <a name="row-level-security-rls-with-power-bi-desktop"></a>Power BI Desktop을 사용하는 행 수준 보안(RLS)
+# <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Power BI Desktop에 대해 RLS(행 수준 보안)를 사용하여 데이터 액세스 제한
 
 Power BI Desktop에서 RLS(행 수준 보안)를 사용하여 지정된 사용자의 데이터 액세스를 제한할 수 있습니다. 행 수준에서 데이터 제한을 필터링합니다. 역할 내에서 필터를 정의할 수 있습니다.
 

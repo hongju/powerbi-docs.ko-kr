@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 252e83a543640ec47fbadd00012bf1a4d8074f84
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 1e2465273368c6b76e602e5ffbdf4ec3a1d121a3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831358"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "75757834"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds"></a>시각화 제목, 범례 및 배경 사용자 지정
+# <a name="customize-visualization-titles-backgrounds-and-legends"></a>시각화 제목, 배경 및 범례 사용자 지정
 
 이 자습서에서는 시각화를 사용자 지정하는 몇 가지 방법을 알아봅니다. 시각화를 사용자 지정하는 많은 옵션이 있습니다. 모든 옵션에 대해 자세히 알아볼 가장 좋은 방법은 **서식** 창을 탐색하는 것입니다(페인트 롤러 아이콘 선택). 시작하기 위해 이 문서는 시각화 제목, 범례, 배경을 사용자 지정하고 테마를 추가하는 방법을 보여 줍니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "74831358"
 
     a. 드롭다운을 선택하고 **테마 색**, **최근에 사용한 색**또는 **사용자 지정 색**에서 색을 선택합니다.
 
-        ![Screenshot of the Font color and Background color options.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
+    ![Screenshot of the Font color and Background color options.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
     b. 색 창을 닫으려면 드롭다운을 선택합니다.
 

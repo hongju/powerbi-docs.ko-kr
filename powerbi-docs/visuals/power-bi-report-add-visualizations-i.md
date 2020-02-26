@@ -35,7 +35,7 @@ ms.locfileid: "75758603"
 
 1. 보고서 뷰 ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)에서 **영업 및 마케팅 샘플 PBIX 파일**을 엽니다.
 
-1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 ## <a name="add-visualizations-to-the-report"></a>시각화 요소를 보고서에 추가
 
@@ -45,7 +45,7 @@ ms.locfileid: "75758603"
 
     ![단일 열이 포함된 열 차트의 스크린샷](media/power-bi-report-add-visualizations-i/power-bi-column-chart.png)
 
-    또는 **Name** 또는 **Product**와 같은 범주 필드부터 시작합니다. Power BI에서 테이블이 생성되고 이 필드가 **Values** 웰에 추가됩니다.
+    또는 **Name** 또는 **Product**와 같은 범주 필드부터 시작합니다. Power BI에서 테이블이 생성되고 이 필드가 **값** 영역에 추가됩니다.
 
     ![네 개의 범주가 있는 테이블 스크린샷](media/power-bi-report-add-visualizations-i/power-bi-product.png)
 
@@ -55,9 +55,9 @@ ms.locfileid: "75758603"
 
 ## <a name="change-the-type-of-visualization"></a>시각화 유형 변경
 
- 시각화를 만든 다음 해당 형식을 변경합니다. 
+ 시각화를 만든 다음 해당 유형을 변경합니다. 
  
- 1. **Product** > **Category**를 선택한 후 **Product** > **Count of Product**를 선택하여 둘 다 **Values** 웰에 추가합니다.
+ 1. **Product** > **Category**를 선택한 후 **Product** > **Count of Product**를 선택하여 둘 다 **값** 영역에 추가합니다.
 
     ![Values 웰이 호출되는 필드 창의 스크린샷](media/power-bi-report-add-visualizations-i/power-bi-create-visual.png)
 
