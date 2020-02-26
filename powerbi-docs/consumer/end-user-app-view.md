@@ -20,7 +20,7 @@ ms.locfileid: "76819264"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-이제 [앱에 대한 기본 이해](end-user-apps.md)을 했으므로, 앱을 열고 상호 작용하는 방법에 대해 알아보겠습니다. 
+이제 [앱에 대한 기본 이해](end-user-apps.md)를 했으므로, 앱을 열고 상호 작용하는 방법에 대해 알아보겠습니다. 
 
 ## <a name="ways-to-get-a-new-app"></a>새 앱을 가져오는 방법
 새 앱을 가져오는 방법에는 몇 가지가 있습니다. 보고서 디자이너 동료는 Power BI 계정에 자동으로 앱을 설치하거나 앱에 직접 링크를 보낼 수 있습니다. 또한 AppSource로 가서 회사 내부 및 외부의 앱 디자이너가 제공하는 앱을 검색할 수 있습니다. 
