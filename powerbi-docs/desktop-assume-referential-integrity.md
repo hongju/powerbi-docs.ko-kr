@@ -37,7 +37,7 @@ ms.locfileid: "73878816"
 1. **Orders** 테이블 및 **Products** 테이블을 보여 주는 다음 그림에서 **Orders[ProductID]** 및 **Products[ProductID]** 사이에 참조 무결성이 있습니다. **Orders** 테이블의 **[ProductID]** 열은 *Null* 이 아니며 모든 값은 **Products** 테이블에도 나타납니다. 따라서 **참조 무결성 가정**은 더 효율적인 쿼리를 가져오도록 설정되어야 합니다(이 설정 사용으로 시각적 개체에 표시되는 값이 변경되지 않음).
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. 다음 이미지에서 **DepotID**가 일부 *Orders* 에 대해 *Null* 이므로 **Orders[DepotID]** 및 **Depots[DepotID]** 사이에 참조 무결성이 없습니다. 따라서 **참조 무결성 가정**은 설정되지 *않아야* 합니다.
+2. 다음 이미지에서 **DepotID**가 일부 *Orders*에 대해 *Null*이므로 **Orders[DepotID]** 및 **Depots[DepotID]** 사이에 참조 무결성이 없습니다. 따라서 **참조 무결성 가정**은 설정되지 *않아야* 합니다.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. 마지막으로 다음 테이블에서 **Orders[CustomerID]** 및 **Customers[CustID]** 사이에 참조 무결성이 없습니다. **CustomerID**는 *Customers* 테이블에 존재하지 않는 일부 값(이 경우 *CustX*)을 포함합니다. 따라서 **참조 무결성 가정**은 설정되지 *않아야* 합니다.
