@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 01/21/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1cb683f050dfe6e77c0b199a2a156eb03dda7de2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f872d3b708733b28af83c0452e837638db0e65fe
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870912"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539535"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>보고서 시각화 복사 및 붙여넣기
+Power BI 보고서의 시각적 개체를 보고서의 한 페이지에서 동일한 보고서의 동일한 페이지 또는 다른 페이지로 복사할 수 있습니다. 
+
 시각화를 복사하고 붙여 넣으려면 보고서에 대한 편집 권한이 필요합니다. Power BI 서비스에서 이는 [편집용 보기](../consumer/end-user-reading-view.md)에서 보고서를 연다는 의미입니다. 대시보드의 시각화는 복사하여 붙여넣을 수 없습니다.
 
 ## <a name="copy-and-paste-a-visual"></a>시각적 개체 복사 및 붙여넣기

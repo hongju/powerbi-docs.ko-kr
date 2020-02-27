@@ -7,19 +7,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1079b624ebab827b41f4da55095028796319fdcd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 002ddeac915b2b2b67570e8b4078a175de09aaef
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870647"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538201"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 지리적 위치별 보고서 필터링
 적용 대상:
 
-| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
-|:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android 휴대폰 |Windows 10 휴대폰 |
+| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows Phone](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
+|:--- |:--- |:--- |:--- |:--- |
+| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 휴대폰 |
 
 모바일 디바이스에서 Power BI 보고서를 볼 때 오른쪽 위 모서리에 작은 압정 아이콘이 보이십니까? 그렇다면, 지리적 위치에 따라 해당 보고서를 필터링할 수 있습니다.
 
@@ -42,7 +42,7 @@ ms.locfileid: "73870647"
 * 사용자는 해당 열에 데이터가 있는 위치 중 한 곳에 있습니다.
 * 사용자는 다음과 같은 모바일 디바이스 중 하나를 사용합니다.
   * iOS(iPad, iPhone, iPod)
-  * Android 휴대폰
+  * Android(휴대폰, 태블릿)
   * Windows 10 휴대폰(PC, 태블릿 등 다른 Windows 10 디바이스는 지리적 필터링을 지원하지 않음)
 
 Power BI Desktop에서 [지리적 필터링 설정](../../desktop-mobile-geofiltering.md)에 대해 자세히 알아봅니다.

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2010
+ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bb98f7bbb92b72512f880513ec94ccb55d64fc67
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7ed0920f66c178c23e6c4db22ff6acd998619522
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872137"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160561"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 보고서 및 대시보드에 대한 연락처 정보 설정
 이 문서에서는 Power BI 서비스에서 대시보드 또는 보고서에 대한 연락처 정보를 설정하는 방법을 설명합니다.
@@ -60,8 +60,9 @@ ms.locfileid: "73872137"
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 * 연락처는 Power BI 서비스에서 만든 새 항목에 대해 자동으로 설정됩니다. 기존 항목에는 작업 영역 기본값이 표시됩니다.
 * 연락처 목록에서 사용자 또는 그룹을 설정할 수 있지만 항목에 대한 권한은 자동으로 부여되지 않습니다. 공유를 사용하거나 역할을 통해 필요한 사용자에게 작업 영역 액세스 권한을 제공합니다. 
+* 항목 수준 연락처 목록은 게시될 때 앱에 푸시되지 않습니다. 새 앱 탐색 환경에서는 많은 앱 사용자의 피드백을 관리하기 위해 구성하는 지원 URL을 제공합니다.
 
 
 ## <a name="next-steps"></a>다음 단계
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+추가 질문이 있으신가요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

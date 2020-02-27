@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 2bebde937666503739f6b0afe3ce20a8fe4baa8c
-  ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+  ms.openlocfilehash: e3c842b40f0919ccbda823930bcb0a3f212d67cc
+  ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 01/16/2020
-  ms.locfileid: "76039897"
+  ms.lasthandoff: 01/30/2020
+  ms.locfileid: "76888664"
 landingContent:
 - title: Power BI 지침
   linkLists:
@@ -47,8 +47,12 @@ landingContent:
       url: star-schema.md
     - text: 데이터 감소 기술
       url: import-modeling-data-reduction.md
-    - text: Power BI Desktop의 자동 날짜/시간 지침
+    - text: 자동 날짜/시간 지침
       url: auto-date-time.md
+    - text: DirectQuery 모델 지침
+      url: directquery-model-guidance.md
+    - text: 복합 모델 지침
+      url: composite-model-guidance.md
     - text: 다 대 다 관계 지침
       url: relationships-many-to-many.md
 - title: DAX
@@ -81,7 +85,15 @@ landingContent:
       url: report-drillthrough.md
     - text: Power BI의 페이지를 매긴 보고서가 필요한 경우
       url: report-paginated-or-power-bi.md
+    - text: 페이지를 매긴 보고서에서 연계 매개 변수 사용
+      url: paginated-report-cascading-parameter.md
     - text: 페이지를 매긴 보고서를 인쇄할 때 빈 페이지 방지
       url: report-paginated-blank-page.md
-    - text: SQL Server Reporting Services 보고서를 Power BI로 마이그레이션
+    - text: SSRS 보고서를 Power BI로 마이그레이션
       url: migrate-ssrs-reports-to-power-bi.md
+- title: 관리 및 배포
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 온-프레미스 데이터 게이트웨이 크기 조정
+      url: gateway-onprem-sizing.md
