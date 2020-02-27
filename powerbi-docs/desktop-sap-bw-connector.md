@@ -43,7 +43,7 @@ SAP 커넥터 구현 2.0에는 SAP .NET Connector 3.0이 필요합니다. 다운
 
 SAP에서 [SAP .NET Connector 3.0](https://support.sap.com/en/product/connectors/msnet.html)을 다운로드할 수 있습니다.
 
-커넥터는 32비트 버전과 64비트 버전으로 제공됩니다. Power BI Desktop 설치와 일치하는 버전을 선택하세요. 현재 웹사이트에는 다음 두 가지 버전의 .NET 4.0 프레임워크가 나열되어 있습니다.
+다운로드에 액세스하려면 유효한 S 사용자가 필요합니다. SAP.NET Connector 3.0을 가져오려는 고객은 SAP Basis 팀에 연락하는 것이 좋습니다.  
 
 * zip 파일(6,896KB) 형식의 Windows 32비트(x86) Microsoft .NET 3.0.22.0용 SAP 커넥터, 2019년 6월 1일
 * zip 파일(7,180KB) 형식의 Windows 64비트(x64) Microsoft .NET 3.0.22.0용 SAP 커넥터, 2019년 6월 1일
