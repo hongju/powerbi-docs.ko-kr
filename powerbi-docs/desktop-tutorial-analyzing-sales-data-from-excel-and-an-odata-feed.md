@@ -79,7 +79,7 @@ ms.locfileid: "76540221"
 
    ![OData 피드 대화 상자](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
 
-1. **탐색기**에서 **Orders** 테이블을 선택한 다음, **Transform Data**를 선택하여 데이터를 Power Query 편집기로 로드합니다.
+1. **탐색기**에서 **Orders** 테이블을 선택한 다음, **데이터 변환**을 선택하여 데이터를 Power Query 편집기로 로드합니다.
 
    ![OData용 탐색기](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_odatafeed.png)
 
