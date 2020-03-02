@@ -43,7 +43,7 @@ Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를
    ![Power BI 앱 아이콘](./media/mobile-windows-10-phone-app-get-started/pbi_win10ph_appiconsm.png)
 2. Power BI 대시보드 및 보고서를 보려면 **Power BI**를 누릅니다. 웹의 Power BI 계정과 동일한 자격 증명으로 로그인합니다. 
    
-   Reporting Services 모바일 보고서 및 KPI를 보려면 **SQL Server 2016 Reporting Services**를 누릅니다. SQL 16 Server Reporting Services 자격 증명을 사용하여 로그인하세요.
+   Reporting Services 모바일 보고서 및 KPI를 보려면 **SQL Server 2016 Reporting Services**를 누릅니다. SQL Server Reporting Services 자격 증명을 사용하여 로그인하세요.
    
    ![연결 대화 상자](./media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-connect.png)
 3. **탐색 시작**을 탭하여 자신의 대시보드를 표시합니다.
