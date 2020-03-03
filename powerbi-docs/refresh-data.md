@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791671"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76039046"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI에서 데이터 새로 고침
 
@@ -317,10 +317,9 @@ Power BI는 새로 고침이 실패하는 경우뿐만 아니라 서비스가 �
 
 ## <a name="automatic-page-refresh"></a>자동 페이지 새로 고침
 
-자동 페이지 새로 고침은 보고서 페이지 수준에서 작동하며, 보고서 작성자는 페이지를 사용 중인 경우에만 활성화되는 페이지의 시각적 개체에 대한 새로 고침 간격을 설정할 수 있습니다. 자동 페이지 새로 고침은 DirectQuery 데이터 원본에 대해서만 사용할 수 있습니다. 최소 새로 고침 간격은 보고서가 게시된 작업 영역 유형과 프리미엄 작업 영역에 대한 용량 관리 설정에 따라 달라집니다.
+자동 페이지 새로 고침은 보고서 페이지 수준에서 작동하며, 보고서 작성자는 페이지를 사용 중인 경우에만 활성화되는 페이지의 시각적 개체에 대한 새로 고침 간격을 설정할 수 있습니다. 자동 페이지 새로 고침은 DirectQuery 데이터 원본에 대해서만 사용할 수 있습니다. 최소 새로 고침 간격은 보고서가 게시된 작업 영역 유형과 Premium 작업 영역 및 [포함된 작업 영역](developer/embedding.md)에 대한 용량 관리 설정에 따라 달라집니다.
 
 자동 페이지 새로 고침에 대한 자세한 내용은 [자동 페이지 새로 고침](desktop-automatic-page-refresh.md) 문서를 참조하세요.
-
 
 ## <a name="best-practices"></a>모범 사례
 

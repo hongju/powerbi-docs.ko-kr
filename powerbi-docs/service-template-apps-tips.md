@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622448"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710145"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI에서 템플릿 앱 작성 팁
 
@@ -134,6 +134,17 @@ Power BI Desktop에서 [매개 변수](https://powerbi.microsoft.com/blog/deep-d
 * pbix를 템플릿 작업 영역에 업로드하기 전에 불필요한 연결을 언로드해야 합니다.
 * 사용자에게 미치는 최대한의 영향을 획득하고 배포 승인을 받을 수 있도록, Power BI [보고서 및 시각적 개체 모범 디자인 사례](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)를 따릅니다.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
+
+## <a name="create-a-download-link-for-the-app"></a>앱 다운로드 링크 만들기
+
+AppSource에 템플릿 앱을 게시한 후에는 웹 사이트에서 다음 중 하나로 다운로드 링크를 만드는 것이 좋습니다.
+* AppSource 다운로드 페이지 - 공개적으로 볼 수 있습니다. AppSource 페이지에서 링크를 가져옵니다.
+* Power BI - Power BI 사용자가 볼 수 있습니다.
+
+Power BI의 앱 다운로드 링크로 사용자를 리디렉션하려면 다음 코드 예제를 참조하세요. [GitHub 리포지토리](https://github.com/microsoft/Template-apps-examples/tree/master/src)
+[![앱 다운로드 링크](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 

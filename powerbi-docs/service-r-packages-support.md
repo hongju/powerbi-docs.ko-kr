@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1070cf40fb743fc0d4661bd067b6475ef8dc8217
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8bb07269b6406f052caceedb7b1f924e4424fde4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871700"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762350"
 ---
-# <a name="r-packages-in-the-power-bi-service"></a>Power BI 서비스의 R 패키지
+# <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>Power BI 서비스에서 R 패키지를 사용하여 시각적 개체 만들기
 강력한 [R 프로그래밍 언어](https://www.r-project.org/)를 사용하여 Power BI 서비스에서 시각적 개체를 만들 수 있습니다. 많은 R 패키지가 Power BI 서비스에서 지원되며(및 더 많은 패키지가 항상 지원되고 있음) 일부 패키지는 지원되지 않습니다.
 
 다음 섹션에서는 Power BI에서 지원되고, 지원되지 않는 알파벳 순서로 정렬된 R 패키지의 테이블을 제공합니다. Power BI에서 R에 대한 자세한 내용은 [R 시각적 개체](visuals/service-r-visuals.md) 문서를 참조하세요.
@@ -57,7 +57,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |alluvial|0.1-2|https://cran.r-project.org/web/packages/alluvial/index.html|
 |andrews|1.0|https://cran.r-project.org/web/packages/andrews/index.html|
 |anomalize|0.1.1|https://cran.r-project.org/web/packages/anomalize/index.html|
-|항상|0.3.3|https://cran.r-project.org/web/packages/anytime/index.html|
+|anytime|0.3.3|https://cran.r-project.org/web/packages/anytime/index.html|
 |aod|1.3|https://cran.r-project.org/web/packages/aod/index.html|
 |apcluster|1.4.5|https://cran.r-project.org/web/packages/apcluster/index.html|
 |ape|5.0|https://cran.r-project.org/web/packages/ape/index.html|
@@ -143,7 +143,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |callr|2.0.2|https://cran.r-project.org/web/packages/callr/index.html|
 |car|2.1-6|https://cran.r-project.org/web/packages/car/index.html|
 |carData|3.0-1|https://cran.r-project.org/web/packages/carData/index.html|
-|caret|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
+|캐럿|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
 |catnet|1.15.3|https://cran.r-project.org/web/packages/catnet/index.html|
 |caTools|1.17.1|https://cran.r-project.org/web/packages/caTools/index.html|
 |cclust|0.6-21|https://cran.r-project.org/web/packages/cclust/index.html|
@@ -702,7 +702,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |relimp|1.0-5|https://cran.r-project.org/web/packages/relimp/index.html|
 |rematch|1.0.1|https://cran.r-project.org/web/packages/rematch/index.html|
 |Renext|3.1-0|https://cran.r-project.org/web/packages/Renext/index.html|
-|보고서|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
+|reports|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
 |reprex|0.1.2|https://cran.r-project.org/web/packages/reprex/index.html|
 |reshape|0.8.7|https://cran.r-project.org/web/packages/reshape/index.html|
 |reshape2|1.4.3|https://cran.r-project.org/web/packages/reshape2/index.html|
@@ -817,7 +817,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |sp|1.2-7|https://cran.r-project.org/web/packages/sp/index.html|
 |spacetime|1.2-1|https://cran.r-project.org/web/packages/spacetime/index.html|
 |spacyr|0.9.6|https://cran.r-project.org/web/packages/spacyr/index.html|
-|스팸|2.1-3|https://cran.r-project.org/web/packages/spam/index.html|
+|spam|2.1-3|https://cran.r-project.org/web/packages/spam/index.html|
 |SparseM|1.77|https://cran.r-project.org/web/packages/SparseM/index.html|
 |sparsepp|0.2.0|https://cran.r-project.org/web/packages/sparsepp/index.html|
 |spatial|7.3-11|https://cran.r-project.org/web/packages/spatial/index.html|
