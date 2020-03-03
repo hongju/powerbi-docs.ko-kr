@@ -36,7 +36,7 @@ ms.locfileid: "77026741"
 
 데이터를 가져오려면:
 
-1. Power BI Desktop 리본 메뉴의 **홈** 탭 **외부 데이터** 그룹의 **데이터 가져오기** 를 클릭한 후 **웹**을 선택합니다.
+1. Power BI Desktop 리본 메뉴의 **홈** 탭 **외부 데이터** 그룹의 **데이터 가져오기**를 클릭한 후 **웹**을 선택합니다.
 
    ![리본에서 데이터 가져오기](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web3.png) 
 
@@ -68,7 +68,7 @@ ms.locfileid: "77026741"
 
 1. **Power Query 편집기** 표에서 열을 선택합니다. 여러 항목을 선택하려면 Ctrl을 선택합니다.
 
-1. 마우스 오른쪽 단추를 클릭하고 **다른 열 제거**를 선택하거나 **홈** 리본 탭의 **열 관리**그룹에서 **열 제거** > **다른 열 제거**를 선택하여 테이블에서 다른 모든 열을 제거합니다.
+1. 마우스 오른쪽 단추를 클릭하고 **다른 열 제거**를 선택하거나 **홈** 리본 탭의 **열 관리** 그룹에서 **열 제거** > **다른 열 제거**를 선택하여 테이블에서 다른 모든 열을 제거합니다.
 
    ![다른 열 제거 드롭다운 메뉴](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png)
 
@@ -134,7 +134,7 @@ ms.locfileid: "77026741"
 
    ![닫기 및 적용](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
 
-이 쿼리는 Power BI Desktop *보고서* 뷰로 로드되고 **필드** 창에서 볼 수 있습니다.
+이 쿼리는 Power BI Desktop *보고서* 보기로 로드되고 **필드** 창에서 볼 수 있습니다.
 
    ![필드 창](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
 
