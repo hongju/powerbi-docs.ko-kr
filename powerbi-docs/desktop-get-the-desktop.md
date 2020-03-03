@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 444a6978b0fcf841f0d0a3b2d50cc70062389cba
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222054"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888365"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 Power BI Desktop을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. Power BI Desktop에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다. Power BI Desktop은 무료로 다운로드할 수 있습니다.
@@ -132,6 +132,8 @@ Power BI Desktop을 설치할 때 명령줄 스위치를 사용하여 속성과 
 |INSTALLLOCATION     |설치하려는 위치의 파일 경로입니다.         |
 |LANGUAGE     |애플리케이션의 기본 언어를 강제로 적용하는 로캘 코드(예: en-US, de-DE, pr-BR)입니다. 언어를 지정하지 않으면 Power BI Desktop은 Windows OS 언어를 표시합니다. 이 설정은 **옵션** 대화 상자에서 변경할 수 있습니다.         |
 |REG_SHOWLEADGENDIALOG     |값 0을 지정하면 Power BI Desktop에 로그인하기 전에 나타나는 대화 상자가 표시되지 않습니다.         |
+|DISABLE_UPDATE_NOTIFICATION     |값 1은 업데이트 알림을 사용하지 않도록 설정합니다.         |
+
 
 예를 들어 다음과 같은 옵션과 매개 변수를 사용하여 Power BI Desktop을 실행하면 사용자 인터페이스 없이 독일어로 설치할 수 있습니다. 
 
@@ -181,7 +183,7 @@ Power BI Desktop의 현재 버전으로 업데이트하면 대개 이 문제가 
 2. 표시되는 대화 상자에서 다음 옵션을 선택합니다. **Let Windows fix apps that are blurry.** (Windows에서 흐리게 표시되는 앱을 수정하도록 합니다.)
 3. Power BI Desktop을 다시 시작합니다.
 
-이 문제는 후속 Windows 업데이트가 릴리스 된 후에 해결될 수 있습니다. 
+이 문제는 후속 Windows 업데이트가 릴리스된 후에 해결될 수 있습니다. 
  
 
 ## <a name="next-steps"></a>다음 단계

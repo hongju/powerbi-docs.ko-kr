@@ -1,6 +1,6 @@
 ---
 title: Power BI 모바일 앱에서 바코드 스캔
-description: 실제 세계에서 바코드를 스캔하여 Power BI 모바일 앱에 있는 필터링된 BI 정보에 직접 이동합니다.
+description: 실제 세계에서 바코드를 스캔하여 Power BI 모바일 앱에 있는 필터링된 BI 정보로 바로 이동합니다.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
@@ -16,7 +16,7 @@ ms.lasthandoff: 12/19/2019
 ms.locfileid: "75217818"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Power BI 모바일 앱에서 디바이스로 바코드 스캔
-실제 세계에서 바코드를 스캔하여 Power BI 모바일 앱에 있는 필터링된 BI 정보에 직접 이동합니다.
+실제 세계에서 바코드를 스캔하여 Power BI 모바일 앱에 있는 필터링된 BI 정보로 바로 이동합니다.
 
 
 적용 대상:
@@ -32,13 +32,13 @@ ms.locfileid: "75217818"
 디바이스의 Power BI 앱에서 스캐너를 사용하여 제품 바코드를 스캔할 때 해당 바코드가 있는 보고서(또는 보고서 목록)를 확인합니다. 해당 바코드로 필터링된 보고서를 열 수 있습니다.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Power BI 스캐너를 사용하여 바코드 스캔
-1. 탐색 모음에서 **기타 옵션**(...)을 탭한 다음, **스캐너**를 탭합니다.
+1. 탐색 모음에서 **추가 옵션**(...)을 탭한 다음, **스캐너**를 탭합니다.
 
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 
 2. 카메라를 사용하지 않도록 설정한 경우 Power BI 앱이 카메라를 사용할 수 있도록 승인해야 합니다. 한 번만 승인하면 됩니다. 
 4. 제품에 대한 바코드에 스캐너를 가리킵니다. 해당 바코드와 연결된 보고서 목록이 표시됩니다.
-5. 보고서 이름을 탭하여 해당 바코드에 따라 자동으로 필터링 된 보고서를 디바이스에서 엽니다.
+5. 보고서 이름을 탭하여 해당 바코드에 따라 자동으로 필터링된 보고서를 디바이스에서 엽니다.
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>보고서에 있는 동안 다른 바코드로 필터링
 디바이스에서 바코드로 필터링된 보고서를 보는 동안 다른 바코드로 동일한 보고서를 필터링하려고 할 수 있습니다.
@@ -59,7 +59,7 @@ ms.locfileid: "75217818"
 필터링하도록 선택한 보고서는 이 바코드 값을 포함하지 않은 데이터 모델을 기반으로 합니다. 예를 들어 "미네랄 워터"라는 제품은 보고서에 포함되지 않습니다.  
 
 ### <a name="allsome-of-the-visuals-in-the-report-dont-contain-any-value"></a>보고서의 모든/일부 시각적 개체는 어떤 값도 포함하지 않습니다.
-스캔한 바코드 값이 모델에 있지만 보고서의 모두/일부 시각적 개체는 이 값을 포함하지 않으며 따라서 필터링은 비어 있는 상태를 반환합니다. 다른 보고서 페이지를 살펴보거나 이 값을 포함한 Power BI desktop에서 보고서를 편집합니다. 
+스캔한 바코드 값이 모델에 있지만 보고서의 모두/일부 시각적 개체는 이 값을 포함하지 않으며 따라서 필터링은 비어 있는 상태를 반환합니다. 다른 보고서 페이지를 살펴보거나 이 값을 포함한 Power BI Desktop에서 보고서를 편집합니다. 
 
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>“바코드를 기준으로 필터링할 수 있는 보고서가 없는 것 같습니다.”
 즉, 바코드를 활성화한 보고서가 없습니다. 바코드 스캐너는 **바코드**로 표시된 열이 있는 보고서만을 필터링할 수 있습니다.  

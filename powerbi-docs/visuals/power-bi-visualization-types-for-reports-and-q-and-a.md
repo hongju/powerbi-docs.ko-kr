@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099926"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040484"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
@@ -132,7 +132,7 @@ ms.locfileid: "74099926"
 자세한 내용은 [Shape Maps in Power BI](desktop-shape-map.md)(Power BI의 도형 맵)를 참조하세요.
 
 
-### <a name="matrix"></a>Matrix
+### <a name="matrix"></a>행렬
 ![행렬](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
@@ -145,6 +145,13 @@ ms.locfileid: "74099926"
 
 >[!TIP]
 >원형 차트는 전체에 대한 부분의 관계를 보여줍니다. 
+
+### <a name="power-apps-visual"></a>Power Apps 시각적 개체
+![Power Apps 시각적 개체](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-powerapps-visual.png)
+
+보고서 디자이너는 Power App을 만들어 Power BI 보고서에 시각적 개체로 포함할 수 있습니다. 소비자는 Power BI 보고서 내에서 해당 시각적 개체와 상호 작용할 수 있습니다. 
+
+자세한 내용은 [보고서에 Power Apps 시각적 개체 추가](power-bi-visualization-powerapp.md)를 참조하세요.
 
 ### <a name="qa-visual"></a>Q&A 시각적 개체
 ![질문 및 답변 시각적 개체](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
@@ -186,7 +193,7 @@ ms.locfileid: "74099926"
 
 자세한 내용은 [Power BI의 고밀도 분산형 차트](desktop-high-density-scatter-charts.md)를 참조하세요.
 
-### <a name="slicers"></a>슬라이서
+### <a name="slicers"></a>슬라이서(Slicers)
 ![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 자세한 내용은 [Power BI의 슬라이서](power-bi-visualization-slicers.md)를 참조하세요.
@@ -221,7 +228,7 @@ ms.locfileid: "74099926"
 자세한 내용은 [Power BI의 폭포 차트](power-bi-visualization-waterfall-charts.md)를 참조하세요.
 
 ## <a name="tell-qa-which-visualization-to-use"></a>질문 및 답변에 사용할 시각화 알리기
-Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에서 시각화 유형을 지정할 수 있습니다.  예:
+Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에서 시각화 유형을 지정할 수 있습니다.  다음은 그 예입니다.
 
 "***sales by state as a treemap***"
 

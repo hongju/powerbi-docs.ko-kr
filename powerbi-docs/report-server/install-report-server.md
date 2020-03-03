@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/26/2019
-ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/16/2020
+ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74565768"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160607"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server 설치
 
@@ -25,7 +25,7 @@ Power BI Report Server를 설치하는 방법을 알아봅니다.
 
 PowerBIReportServer.exe 파일을 실행하는 경우, 평가판을 선택하거나 제품 키를 입력합니다. 세부 정보를 계속 읽어 보세요.
 
-## <a name="before-you-install"></a>설치하기 전에
+## <a name="before-you-install"></a>설치 전
 
 Power BI Report Server를 설치하기 전에 [Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항](system-requirements.md)을 검토하는 것이 좋습니다.
 
@@ -47,7 +47,7 @@ Power BI Premium을 구입한 경우 Power BI 관리자 포털의 **프리미엄
 
 ![프리미엄 설정](../report-server/media/install-report-server/pbirs-product-key.png "프리미엄 설정 내의 Power BI Report Server 키")
 
-**Power BI Report Server 키**를 선택하면 제품 키를 포함하는 대화 상자가 표시됩니다. 복사하고 설치와 함께 사용할 수 있습니다.
+**Power BI Report Server 키**를 선택하면 제품 키가 포함된 대화 상자가 표시됩니다. 복사하고 설치와 함께 사용할 수 있습니다.
 
 ![제품 키](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Power BI Report Server 제품 키")
 
@@ -57,9 +57,9 @@ SQL Server Enterprise SA 규약이 있는 경우 [볼륨 라이선스 서비스 
 
 ## <a name="install-your-report-server"></a>보고서 서버 설치
 
-Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단계를 거쳐 파일을 설치할 수 있습니다.
+Power BI Report Server를 간단히 설치할 수 있습니다. 파일을 설치하는 몇 가지 단계가 있습니다.
 
-설치 시에 SQL Server 데이터베이스 엔진 서버를 사용할 필요가 없습니다. 설치 후에 Reporting Services를 구성하려면 해당 항목이 필요합니다.
+설치 시에 SQL Server 데이터베이스 엔진 서버를 사용할 필요가 없습니다. 설치 후 Reporting Services를 구성하려면 하나가 필요합니다.
 
 1. PowerBIReportServer.exe의 위치를 확인하고 설치 관리자를 시작합니다.
 
@@ -78,7 +78,7 @@ Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단�
 4. 사용 약관 및 조건을 읽고 동의한 후, **다음**을 선택합니다.
 
     ![사용 조건](media/install-report-server/pbireportserver-eula.png)
-5. Report Server 데이터베이스를 저장할 수 있는 데이터베이스 엔진이 있어야 합니다. **다음**을 선택하여 Report Server만을 설치합니다.
+5. Report Server 데이터베이스를 저장할 수 있는 데이터베이스 엔진이 있어야 합니다. **다음**을 선택하여 보고서 서버만 설치합니다.
 
     ![파일만 설치](media/install-report-server/pbireportserver-install-files-only.png)
 6. Report Server의 설치 위치를 지정합니다. **설치**를 선택하여 계속합니다.
@@ -89,19 +89,19 @@ Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단�
 
 7. 성공적으로 설치한 후에 **Report Server 구성**을 선택하여 Reporting Services 구성 관리자를 시작합니다.
 
-    ![Report Server 구성](media/install-report-server/pbireportserver-configure.png)
+    ![보고서 서버 구성](media/install-report-server/pbireportserver-configure.png)
 
 ## <a name="configure-your-report-server"></a>보고서 서버 구성
 
 설치 시에 **보고서 서버 구성**을 선택하면 Reporting Services 구성 관리자에 표시됩니다. 자세한 내용은 [Reporting Services 구성 관리자](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)를 참조하세요.
 
-Reporting Services의 초기 구성을 완료해야 하려면 [보고서 서버 데이터베이스를 만들어야](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) 합니다. 이 단계를 완료하기 위해서는 SQL Server 데이터베이스 서버가 필요합니다.
+Reporting Services의 초기 구성을 완료해야 하려면 [보고서 서버 데이터베이스를 만들어야](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) 합니다. 이 단계를 완료하는 데 SQL Server 데이터베이스 서버가 필요합니다.
 
 ### <a name="creating-a-database-on-a-different-server"></a>다른 서버에 데이터베이스 만들기
 
 다른 컴퓨터의 데이터베이스 서버에서 Report Server 데이터베이스를 만드는 경우 Report Server의 서비스 계정을 데이터베이스 서버에서 인식되는 자격 증명으로 변경합니다. 
 
-기본적으로 Report Server는 가상 서비스 계정을 사용합니다. 다른 서버에 데이터베이스를 만들려고 하는 경우 연결 권한 적용 단계에서 다음과 같은 오류가 나타날 수 있습니다.
+기본적으로 보고서 서버는 가상 서비스 계정을 사용합니다. 다른 서버에 데이터베이스를 만들려고 하는 경우 연결 권한 적용 단계에서 다음과 같은 오류가 나타날 수 있습니다.
 
 `System.Data.SqlClient.SqlException (0x80131904): Windows NT user or group '(null)' not found. Check the name again.`
 
@@ -123,7 +123,7 @@ Windows 서비스는 설치의 일부로 생성됩니다. **Power BI Report Serv
 
 URL 예약은 접두사, 호스트 이름, 포트 및 가상 디렉터리로 구성됩니다.
 
-| 부분 | 설명 |
+| 부분 | Description |
 | --- | --- |
 | 접두사 |기본 접두사는 HTTP입니다. 이전에 SSL(Secure Sockets Layer) 인증서를 설치한 경우 설치 마법사에서는 HTTPS 접두사를 사용하는 URL 예약을 만들려고 합니다. |
 | 호스트 이름 |기본 호스트 이름은 강력한 와일드 카드(+)입니다. Report Server가 `https://<computername>/reportserver`, `https://localhost/reportserver` 또는`https://<IPAddress>/reportserver.`을 비롯하여 컴퓨터로 확인되는 호스트 이름에 지정된 포트에서 HTTP 요청을 수락하도록 지정합니다. |
@@ -146,6 +146,7 @@ URL 예약은 접두사, 호스트 이름, 포트 및 가상 디렉터리로 구
 * 보고서 항목을 Power BI 대시보드에 고정할 수 있도록 Power BI 서비스와 통합을 구성하려면 [Power BI 서비스와 통합](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager)을 참조하세요.
 * 구독 처리를 위해 이메일을 구성하려면 [이메일 설정](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) 및 [Report Server에서 이메일 전달](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)을 참조하세요.
 * 보고서를 보고 관리하기 위해 보고서 컴퓨터에 액세스할 수 있도록 웹 포털을 구성하려면 [Report Server 액세스를 위한 방화벽 구성](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) 및 [원격 관리를 위한 Report Server 구성](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)을 참조하세요.
+* SQL Server Management Studio에서 보고서 서버 시스템 속성을 설정하는 방법에 대한 자세한 내용은 [서버 속성 고급 페이지](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services)를 참조하세요. 달리 지정하지 않는 한 옵션은 Power BI Report Server와 SQL Server Reporting Services 모두에 적용됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -161,4 +162,4 @@ URL 예약은 접두사, 호스트 이름, 포트 및 가상 디렉터리로 구
 [Windows 서비스 계정 및 사용 권한 구성](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
 [Power BI Report Server에 대한 브라우저 지원](browser-support.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+추가 질문이 있으신가요? [Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)

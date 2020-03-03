@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1394d71a5a2e811da23e18b9ee0d98f171f19083
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880821"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762442"
 ---
-# <a name="funnel-charts"></a>깔대기형 차트
+# <a name="create-and-use-funnel-charts"></a>깔때기형 차트 만들기 및 사용
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -77,7 +77,7 @@ ms.locfileid: "73880821"
 
 1. 깔때기 아이콘 ![깔때기형 차트 아이콘](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) 을 선택하여 세로 막대형 차트를 깔때기형 차트로 변환합니다.
 
-2. **필드** 창에서 **Fact** \>**Opportunity Count**를 선택합니다.
+2. **필드** 창에서 **Fact** \> **Opportunity Count**를 선택합니다.
    
     ![깔때기형 차트 빌드](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. 막대를 마우스로 가리키면 다양한 정보가 표시됩니다.
