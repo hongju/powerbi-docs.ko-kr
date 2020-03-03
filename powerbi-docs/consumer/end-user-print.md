@@ -63,11 +63,11 @@ Power BI에서 인쇄하는 경우 브라우저에서 인쇄 창이 열립니다
    
     ![줄임표 메뉴](./media/end-user-print/power-bi-menu-options.png)
 
-4. 타일을 마우스로 가리켜서 옵션 메뉴 표시
+4. 타일을 마우스로 가리켜서 옵션 메뉴를 표시합니다.
    
     ![전체 화면 옵션 메뉴](./media/end-user-print/menu-options-new.png)
 
-4. 인쇄 아이콘을 선택합니다. ![인쇄 아이콘](./media/end-user-print/print-icon.png)을 탭합니다.     
+4. 인쇄 아이콘 ![인쇄 아이콘](./media/end-user-print/print-icon.png)을 선택합니다.     
 
 5. 브라우저의 인쇄 창이 열립니다. 설정을 선택합니다. 예를 들어 타일이 페이지에 맞지 않는 경우 배율을 75%로 변경할 수 있습니다. **인쇄**를 선택합니다.
 

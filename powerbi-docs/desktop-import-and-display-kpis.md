@@ -29,7 +29,7 @@ KPI를 가져오고 표시하려면 다음 이 단계를 수행합니다.
 
     ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon2.png)
 
-1. 가져온 KPI는 **테이블** 형식과 같은 표준 시각화 형식에서 가장 효과적으로 사용됩니다. Power BI에는 새 KPI를 만드는 데만 사용해야 하는 **KPI** 시각화 형식도 포함되어 있습니다.
+1. 가져온 KPI는 **테이블** 유형과 같은 표준 시각화 유형에서 가장 효과적으로 사용됩니다. Power BI에는 새 KPI를 만드는 데만 사용해야 하는 **KPI** 시각화 유형도 포함되어 있습니다.
    
     ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon3.png)
 

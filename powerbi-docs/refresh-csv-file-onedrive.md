@@ -33,14 +33,14 @@ OneDrive 또는 SharePoint Online의 .csv 파일에 연결하면 Power BI에 데
 
 Power BI에서 로그인하는 데 사용한 동일한 계정이 비즈니스용 OneDrive에 로그인하는 데 사용하는 계정이기 때문에 Power BI에서 비즈니스용 OneDrive에 연결하는 작업은 일반적으로 원활합니다. 하지만 개인 OneDrive를 사용하여 다른 [Microsoft 계정](https://account.microsoft.com)으로 로그인할 가능성이 있습니다.
 
-Microsoft 계정으로 로그인하는 경우 로그인 상태 유지를 선택해야 합니다. Power BI에서 Power BI은 데이터 세트와 업데이트를 동기화할 수 있습니다.
+Microsoft 계정으로 로그인하는 경우 로그인 유지를 선택해야 합니다. Power BI는 Power BI의 데이터 세트와 모든 업데이트를 동기화할 수 있습니다.
 
 ![로그인 예](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
 
 Microsoft 계정 자격 증명이 변경되어 Power BI의 데이터 세트와 동기화할 수 없는 OneDrive에서 .csv 파일을 변경한 경우 파일에 연결하고 개인 OneDrive에서 다시 가져와야 합니다.
 
 ## <a name="when-things-go-wrong"></a>오류가 발생할 때
-OneDrive에 있는 .csv 파일의 데이터가 변경되고 해당 변경 내용이 Power BI에 반영되지 않는 경우 Power BI가 OneDrive에 연결할 수 없기 때문일 수 있습니다. 파일에 연결하고 다시 가져오기를 시도합니다. 로그인할지 묻는 메시지가 표시되면 **로그인 상태 유지**를 선택해야 합니다.
+OneDrive에 있는 .csv 파일의 데이터가 변경되고 해당 변경 내용이 Power BI에 반영되지 않는 경우 Power BI가 OneDrive에 연결할 수 없기 때문일 수 있습니다. 파일에 연결하고 다시 가져오기를 시도합니다. 로그인할지 묻는 메시지가 표시되면 **로그인 유지**를 선택해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 [새로 고침 문제 해결 도구](service-gateway-onprem-tshoot.md)

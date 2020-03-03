@@ -1,4 +1,4 @@
-﻿---
+---
 title: '자습서:  SQL Server에서 온-프레미스 데이터에 연결'
 description: 데이터를 새로 고치는 방법을 비롯하여 SQL Server를 게이트웨이 데이터 원본으로 사용하는 방법에 대해 알아봅니다.
 author: arthiriyer
@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958442"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>온-프레미스 SQL Server 데이터베이스에서 데이터 새로 고침
@@ -174,7 +174,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
     오른쪽 위 모서리에 있는 Power BI는 요청된 새로 고침을 수행할 준비를 하고 있습니다.
 
-3. **내 작업 영역 \> 보고서 \> AdventureWorksProducts**를 선택합니다. 업데이트된 데이터가 어떻게 전달되는지 확인하고, 현재 가장 높은 가격의 제품이 **Road-250 Red, 58**입니다.
+3. **내 작업 영역 \> 보고서 \> AdventureWorksProducts**를 선택합니다. 업데이트된 데이터가 어떻게 전달되는지 확인하고, 현재 가장 높은 가격의 제품이**Road-250 Red, 58**입니다.
 
     ![업데이트된 세로 막대형 차트](./media/service-gateway-sql-tutorial/updated-column-chart.png)
 
@@ -190,7 +190,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
     ![새로 고침 기록 링크](./media/service-gateway-sql-tutorial/refresh-history-link.png)
 
-4. **예약** 탭에서 해당 **시작**과 **종료** 시간 및 Power BI가 새로 고침을 성공적으로 수행했음을 나타내는 **완료됨**의 **상태**로 이전 예약 및 요청 시 새로 고침을 확인합니다. 새로 고침이 실패한 경우 오류 메시지를 보고 오류 세부 정보를 살펴볼 수 있습니다.
+4. **예약** 탭에서 해당 **시작**과 **종료** 시간 및 Power BI가 새로 고침을 성공적으로 수행했음을 나타내는 **완료됨** 의 **상태** 로 이전 예약 및 요청 시 새로 고침을 확인합니다. 새로 고침이 실패한 경우 오류 메시지를 보고 오류 세부 정보를 살펴볼 수 있습니다.
 
     ![기록 세부 정보 새로 고침](./media/service-gateway-sql-tutorial/refresh-history-details.png)
 

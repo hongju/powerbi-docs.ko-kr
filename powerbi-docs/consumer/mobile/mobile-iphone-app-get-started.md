@@ -16,7 +16,7 @@ ms.lasthandoff: 12/19/2019
 ms.locfileid: "75220351"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 디바이스에서 Power BI 모바일 앱 시작
-iPhone 및 iPad의 iOS용 Microsoft Power BI 앱은 Power BI, Power BI Report Server 및 Reporting Services의 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기 적절한 데이터를 최신 상태로 유지합니다.  
+iPhone 및 iPad의 iOS용 Microsoft Power BI 앱은 Power BI, Power BI Report Server 및 Reporting Services의 모바일 BI 환경을 제공합니다. 실시간 터치 가능한 모바일 액세스를 사용하여 어디에서나 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 상호작용할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기 적절한 데이터를 최신 상태로 유지합니다.  
 
 ![iPhone 또는 iPad의 Power BI 모바일 앱](./media/mobile-iphone-app-get-started/pbi_ipad_iphonedevices.png)
 
@@ -50,7 +50,7 @@ iOS 11 이상을 실행하는 모든 디바이스에서 iOS용 Power BI 앱을 �
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Power BI 및 Reporting Services 샘플 시도
 등록하지 않고도 Power BI 및 Reporting Services 샘플을 보고 조작할 수 있습니다.
 
-샘플에 액세스하려면 탐색 모음에서 **기타 옵션**(...)을 탭하고 **샘플**을 선택합니다.
+샘플에 액세스하려면 탐색 모음에서 **추가 옵션**(...)을 탭하고 **샘플**을 선택합니다.
 
 다양한 Power BI 샘플 뒤에 몇 가지 보고서 서버 샘플이 제공됩니다.
 
@@ -63,7 +63,7 @@ iOS 11 이상을 실행하는 모든 디바이스에서 iOS용 Power BI 앱을 �
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 콘텐츠 찾기
 
-헤더의 돋보기를 탭하여 Power BI 콘텐츠 검색을 시작합니다.
+머리글의 돋보기를 탭하여 Power BI 콘텐츠 검색을 시작합니다.
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>즐겨 찾는 대시보드 및 보고서 보기
 탐색 모음에서 **즐겨찾기**(![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))를 탭하여 즐겨찾기 페이지를 봅니다. 

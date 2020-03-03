@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da7d4de1aa356c9df5004ecc07d479188d9e3a9e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b279ebb1ae4ae34f1b9832883ddde5d804a7ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881409"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762396"
 ---
-# <a name="google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop용 Google Analytics 커넥터
+# <a name="use-the-google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop용 Google Analytics 커넥터 사용
 > [!NOTE]
 > Google Analytics 콘텐츠 팩과 Power BI Desktop의 커넥터는 Google Analytics 핵심 보고 API를 사용합니다. 이와 같이 기능 및 가용성은 시간에 따라 달라질 수 있습니다.
 
@@ -25,7 +25,7 @@ ms.locfileid: "73881409"
 
 1. **Power BI Desktop**의 **홈** 리본 탭에서 **데이터 가져오기**를 선택합니다.
 2. **데이터 가져오기** 창의 왼쪽 창에 있는 범주에서 **온라인 서비스**를 선택합니다.
-3. 오른쪽 창의 선택 항목에서 **Google 웹로그 분석** 을 선택합니다.
+3. 오른쪽 창의 선택 항목에서 **Google 웹로그 분석**을 선택합니다.
 4. 창 하단에서 **연결**을 선택합니다.  
    ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)
 

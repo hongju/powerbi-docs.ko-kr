@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7aa0fb1c8707c18e583d0de6bbd602ef43291146
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548493"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537396"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Power BI에서 Microsoft Cloud App Security 제어 사용(미리 보기)
 
@@ -144,3 +144,4 @@ Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 �
 * [추천 앱을 위한 조건부 액세스 앱 제어 배포](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
 * [세션 정책](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
 * [민감도 레이블 개요](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
+* [데이터 보호 메트릭 보고서](service-security-data-protection-metrics-report.md)

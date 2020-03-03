@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 95cf62057cdea001a438f4555aa3384c54efe4b5
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221945"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76040340"
 ---
-# <a name="extending-visuals-with-report-page-tooltips"></a>보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
+# <a name="extend-visuals-with-report-page-tooltips"></a>보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
 
 이 문서에서는 독자가 Power BI 보고서를 설계하는 보고서 작성자라고 가정하고, [보고서 페이지 도구 설명](../desktop-tooltips.md)을 만들기 위한 제안 및 권장 사항을 제공합니다.
 

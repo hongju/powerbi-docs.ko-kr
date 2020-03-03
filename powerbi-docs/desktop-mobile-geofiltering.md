@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: c054bc933cb1eaac7475ac0c7649c7e0f77f503b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878099"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760999"
 ---
-# <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>모바일 앱용 Power BI Desktop에서 지리적 필터링 설정
+# <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Power BI Desktop에서 모바일 앱에 사용할 지리적 필터 설정
 Power BI Desktop에서는 열의 [지리 데이터 범주](desktop-data-categorization.md)를 지정하여 보고서의 시각적 개체에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다. 추가적인 이점으로 사용자 또는 동료가 Power BI 모바일 앱에서 해당 보고서를 볼 때 Power BI에서 사용자가 있는 위치와 일치하는 지리적 필터를 자동으로 제공합니다. 
 
 예를 들어 고객을 만나기 위해 이동하는 판매 관리자이고, 방문하려는 특정 고객에 대한 총 판매 및 수익을 신속하게 필터링하려고 한다고 합시다. 현재 위치에 대한 상세 데이터를 시/도, 구/군/시 또는 실제 주소별로 얻으려고 합니다. 나중에 시간이 남으면 근처에 있는 다른 고객을 방문하려고 합니다. [위치별로 보고서를 필터링하여 이러한 고객을 찾을 수 있습니다](consumer/mobile/mobile-apps-geographic-filtering.md).
@@ -26,7 +26,7 @@ Power BI Desktop에서는 열의 [지리 데이터 범주](desktop-data-categori
 > 
 
 ## <a name="identify-geographic-data-in-your-report"></a>보고서에서 지리적 데이터 식별
-1. Power BI Desktop에서 데이터 보기( ![데이터 보기 아이콘](media/desktop-mobile-geofiltering/pbi_desktop_data_icon.png).
+1. Power BI Desktop에서 데이터 보기로 전환합니다 ![데이터 보기 아이콘](media/desktop-mobile-geofiltering/pbi_desktop_data_icon.png).
 2. 지리적 데이터(예: City 열)로 열을 선택합니다.
    
     ![City 열](media/desktop-mobile-geofiltering/power-bi-desktop-geo-column.png)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53124f2b1ede9d8a9c3a9866416f713af1fd2061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877261"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762580"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>온-프레미스 데이터 원본으로 만든 데이터 흐름 사용
 
@@ -24,7 +24,8 @@ ms.locfileid: "73877261"
 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>데이터 흐름에 사용할 엔터프라이즈 게이트웨이 구성
 
-데이터 흐름에서 온-프레미스 데이터 원본을 사용하려면 데이터 흐름을 만드는 사용자에게 **엔터프라이즈 게이트웨이**가 설치되고 구성되어 있어야 합니다. 또한 데이터 흐름을 만드는 사용자가 해당 게이트웨이를 데이터 흐름에 사용하려면 엔터프라이즈 게이트웨이 관리자여야 합니다.
+게이트웨이를 사용하여 데이터 흐름을 만들려면 사용자가 엔터프라이즈 게이트웨이의 관리자이거나 관리자가 사용자와 함께 사용하려는 데이터 원본을 공유한 상태여야 합니다. 
+
 
 > [!NOTE]
 > 데이터 흐름은 엔터프라이즈 게이트웨이를 사용하는 경우에만 지원됩니다.
@@ -35,7 +36,7 @@ ms.locfileid: "73877261"
 
 ![온-프레미스 데이터 원본 선택](media/service-dataflows-onpremises-gateways/onpremises-gateways_02a.png)
 
-항목을 선택하면 온-프레미스 데이터에 액세스하는 데 사용할 엔터프라이즈 게이트웨이에 대한 연결 세부 정보를 입력하라는 메시지가 표시됩니다. 게이트웨이 자체를 선택하고 선택한 게이트웨이에 대한 자격 증명을 입력해야 합니다. 사용자가 관리자인 게이트웨이만 드롭다운 목록에 표시됩니다.
+항목을 선택하면 온-프레미스 데이터에 액세스하는 데 사용할 엔터프라이즈 게이트웨이에 대한 연결 세부 정보를 입력하라는 메시지가 표시됩니다. 게이트웨이 자체를 선택하고 선택한 게이트웨이에 대한 자격 증명을 입력해야 합니다.
 
 ![연결 세부 정보 입력](media/service-dataflows-onpremises-gateways/onpremises-gateways_03.png)
 

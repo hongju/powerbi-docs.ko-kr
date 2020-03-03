@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4dd6f185ea7d4f4664626586f1374f67bd34f784
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0e870163552e64594e574669ed8dea6937633282
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870946"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757725"
 ---
-# <a name="doughnut-charts-in-power-bi"></a>Power BI의 도넛형 차트
+# <a name="create-and-use-doughnut-charts-in-power-bi"></a>Power BI의 도넛형 차트 만들기 및 사용
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -37,13 +37,13 @@ ms.locfileid: "73870946"
 
 ## <a name="create-a-doughnut-chart"></a>도넛형 차트 만들기
 
-1. 빈 보고서 페이지에서 시작하고 필드 창에서 **판매액** \> **지난해 판매액**을 선택합니다.  
+1. 빈 보고서 페이지에서 시작하고 필드 창에서 **판매** \> **작년 판매**를 선택합니다.  
    
 3. 시각화 창에서 도넛형 차트 아이콘 ![도넛형 차트 아이콘](media/power-bi-visualization-doughnut-charts/power-bi-icon.png)을 선택하여 가로 막대형 차트를 도넛형 차트로 변환합니다. **값** 영역에 **Last Year Sales**가 없을 경우 끌어다 놓습니다.
      
    ![도넛형이 선택된 시각화 창](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
-4. **Item**\>**Category**를 선택하여 **범례** 영역에 추가합니다. 
+4. **항목** \> **범주**를 선택하여 **범례** 영역에 추가합니다. 
      
     ![필드 창 옆의 도넛형](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 

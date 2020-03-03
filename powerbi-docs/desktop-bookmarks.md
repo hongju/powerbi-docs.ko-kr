@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d22ac09ac357f3060e4fd79a4e9344a059dace53
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311192"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "75761890"
 ---
-# <a name="use-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Power BI Desktop에서 책갈피를 사용하여 인사이트 공유 및 스토리 작성
+# <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Power BI Desktop에서 책갈피를 만들어 인사이트 공유 및 스토리 작성
 Power BI Desktop에서 ‘책갈피’를 사용하면 시각적 개체의 상태 및 필터링을 비롯하여 현재 구성된 보고서 페이지 보기를 캡처할 수 있습니다.  나중에 저장된 책갈피를 선택하여 해당 상태로 돌아갈 수 있습니다. 
 
 책갈피 컬렉션을 만들고 원하는 순서로 정렬한 다음, 프레젠테이션에서 각 책갈피를 단계별로 실행하여 일련의 인사이트를 강조 표시하거나 시각적 개체 및 보고서에서 말하려는 스토리를 강조 표시할 수도 있습니다. 
@@ -196,7 +196,7 @@ Power BI Desktop 2018년 3월 버전부터 책갈피가 일반 공급됩니다.
 2. Power BI Desktop을 다시 시작하여 책갈피의 미리 보기 버전을 사용합니다.
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
-책갈피 능의 이 릴리스에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
+책갈피 기능의 이 릴리스에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
 
 * 대부분의 사용자 지정 시각적 개체는 책갈피에서 잘 작동합니다. 그러나 책갈피 및 사용자 지정 시각적 개체에 문제가 발생하면 해당 사용자 지정 시각적 개체 작성자에게 문의하여 시각적 개체에 책갈피 지원을 추가하도록 요청합니다. 
 * 책갈피를 만든 후 보고서 페이지에서 시각적 개체를 추가하면 시각적 개체는 기본 상태로 표시됩니다. 즉, 이전에 책갈피를 만든 페이지에 슬라이서를 도입하는 경우 슬라이서는 기본 상태로 작동합니다.

@@ -1,5 +1,5 @@
 ---
-title: 보고서 페이지 드릴스루
+title: 보고서 페이지 드릴스루 사용
 description: 보고서 페이지 드릴스루 설명 가이드
 author: peter-myers
 ms.reviewer: asaxton
@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 48942b30b84706c933ccef455129c84a67ac5a1b
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223616"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76040370"
 ---
-# <a name="report-page-drillthrough"></a>보고서 페이지 드릴스루
+# <a name="use-report-page-drillthrough"></a>보고서 페이지 드릴스루 사용
 
 이 문서에서는 독자가 Power BI 보고서를 디자인하는 보고서 작성자라고 가정하고, [보고서 페이지 드릴스루](../desktop-drillthrough.md)를 만들기 위한 제안 및 권장 사항을 제공합니다.
 

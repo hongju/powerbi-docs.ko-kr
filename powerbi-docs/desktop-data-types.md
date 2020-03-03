@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868532"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729716"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop의 데이터 형식
 이 문서에서는 Power BI Desktop 및 DAX(Data Analysis Expressions)에서 지원하는 데이터 형식을 설명합니다. 
@@ -51,7 +51,7 @@ Power BI Desktop은 3가지 숫자 형식을 지원합니다.
 >
 
 ### <a name="datetime-types"></a>날짜/시간 형식
-Power BI Desktop은 쿼리 보기에서 5가지, 보고서 보기 및 모델에서 3가지 날짜/시간 데이터 형식을 지원합니다.   모델로 로드하는 동안 날짜/시간/표준 시간대와 기간이 모두 변환됩니다.
+Power BI Desktop은 쿼리 뷰에서 5가지 날짜/시간 데이터 형식을 지원합니다.  모델로 로드하는 동안 날짜/시간/표준 시간대와 기간이 모두 변환됩니다. Power BI Desktop 데이터 모델에서는 날짜/시간만 지원하지만 독립적으로 날짜 또는 시간으로 서식 지정할 수 있습니다. 
 
 **날짜/시간** - 날짜 및 시간 값을 나타냅니다.  내부적으로 날짜/시간 값은 10진수 숫자 형식으로 저장됩니다.  따라서 실질적으로 두 값 사이를 변환할 수 있습니다.   날짜의 시간 부분은 1/300초(3.33ms)의 배수에 대한 분수로 저장됩니다.  1900 ~ 9999 사이의 날짜를 지원합니다.
 
@@ -59,7 +59,7 @@ Power BI Desktop은 쿼리 보기에서 5가지, 보고서 보기 및 모델에�
 
 **시간** – (날짜를 제외한) 시간만 나타냅니다.  모델로 변환할 때 시간 값은 소수점 왼쪽에 자릿수가 없는 날짜/시간 값과 동일합니다.
 
-**날짜/시간/표준 시간대** – UTC 날짜/시간을 나타냅니다.  현재, 모델로 로드할 때 날짜/시간으로 변환됩니다.
+**날짜/시간/표준 시간대** – UTC 날짜/시간을 표준 시간대 오프셋과 함께 나타냅니다.  모델에 로드될 때 날짜/시간으로 변환됩니다. Power BI 모델은 사용자의 위치나 로캘 등을 기반으로 표준 시간대를 조정하지 않습니다. 09:00 값이 미국에서 모델에 로드되면 어디에서 보고서를 열거나 보든 09:00으로 표시됩니다. 
 
 **기간** – 시간의 길이를 나타냅니다. 모델에 로드할 때 10진수 숫자 형식으로 변환됩니다.  10진수 형식이므로 날짜/시간 필드에서 가감하여 정확한 결과를 얻을 수 있습니다.  10 진수 형식이기 때문에 크기를 나타내는 시각화 요소에서 간편하게 사용할 수 있습니다.
 
@@ -175,13 +175,13 @@ DAX에서 null, 빈 값, 공백 셀 또는 누락된 값은 모두 동일한 새
 | BLANK + BLANK |BLANK |0(zero) |
 | BLANK + 5 |5 |5 |
 | BLANK * 5 |BLANK |0(zero) |
-| 5/BLANK |무한대 |오류 |
-| 0/BLANK |NaN |오류 |
-| BLANK/BLANK |BLANK |오류 |
+| 5/BLANK |무한대 |Error |
+| 0/BLANK |NaN |Error |
+| BLANK/BLANK |BLANK |Error |
 | FALSE OR BLANK |FALSE |FALSE |
 | FALSE AND BLANK |FALSE |FALSE |
 | TRUE OR BLANK |TRUE |TRUE |
 | TRUE AND BLANK |FALSE |TRUE |
-| BLANK OR BLANK |BLANK |오류 |
-| BLANK AND BLANK |BLANK |오류 |
+| BLANK OR BLANK |BLANK |Error |
+| BLANK AND BLANK |BLANK |Error |
 
