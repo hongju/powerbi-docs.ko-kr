@@ -42,8 +42,8 @@ ms.locfileid: "75762557"
 | Azure SQL Database | 예 | 예 | 예 | 예 <sup>2</sup> | 아니요 |
 | Azure SQL Data Warehouse | 예 | 예 | 예 | 아니요 | 아니요 |
 | Azure Table Storage | 예 | 예 | 아니요 | 예 | 아니요 |
-| BI 커넥터 | 예 | 예 | 예 | 예 | 예 |
-| BI360 - 예산 및 재무 보고 | 예 | 예 | 아니요 | 아니요 | 아니요 |
+| BI Connector | 예 | 예 | 예 | 예 | 예 |
+| BI360 - Budgeting & Financial Reporting | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Common Data Service | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Data.World - 데이터 세트 가져오기 | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Denodo | 예 | 예 | 예 | 예 | 예 |
@@ -62,7 +62,7 @@ ms.locfileid: "75762557"
 | 파일 | 예 | 예 | 아니요 | 예 | 예 |
 | 폴더 | 예 | 예 | 아니요 | 예 | 예 |
 | GitHub | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Google 애널리틱스 | 예 | 예 | 아니요 | 아니요 | 아니요 |
+| Google 웹로그 분석 | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Google BigQuery | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | HDFS(Hadoop 파일) | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
 | HDInsight 대화형 쿼리 | 예 | 예 | 예 | 아니요 | 아니요 |
@@ -71,8 +71,8 @@ ms.locfileid: "75762557"
 | IBM Netezza | 예 | 예 | 예 | 예 | 예 |
 | Impala | 예 | 예 | 예 | 예 | 예 |
 | Indexima | 예 | 예 | 예 | 예 | 예 |
-| 산업 앱 스토어 | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| 정보 표 | 예 | 예 | 아니요 | 아니요 | 아니요 |
+| Industrial App Store | 예 | 예 | 아니요 | 아니요 | 아니요 |
+| Information Grid | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Intersystems IRIS | 예 | 예 | 예 | 예 | 예 |
 | Intune 데이터 웨어하우스 | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Jethro ODBC | 예 | 예 | 예 | 예 | 예 |
@@ -102,7 +102,7 @@ ms.locfileid: "75762557"
 | Power Platform 데이터 흐름 | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Python 스크립트 | 예 | 예 <sup>5</sup> | 아니요 | 예 <sup>5</sup> | 예 |
 | QubolePresto | 예 | 예 | 예 | 예 | 예 |
-| 빠른 자료 | 예 | 예 | 아니요 | 예 | 예 |
+| Quick Base | 예 | 예 | 아니요 | 예 | 예 |
 | QuickBooks Online | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | R 스크립트 | 예 | 예 <sup>5</sup> | 아니요 | 예 <sup>5</sup> | 아니요 |
 | Roamler | 예 | 예 | 아니요 | 예 | 아니요 |
