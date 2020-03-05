@@ -19,7 +19,7 @@ ms.locfileid: "76888434"
 # <a name="power-bi-data-source-prerequisites"></a>Power BI 데이터 원본 필수 조건
 각 데이터 공급자의 경우 Power BI는 개체에 특정 공급자 버전을 지원합니다. Power BI에 사용 가능한 데이터 원본에 대한 자세한 내용은 [데이터 원본](desktop-data-sources.md)을 참조하세요. 다음 표는 이러한 요구 사항을 설명합니다.
 
-| 데이터 소스 | 공급자 | 최소 공급자 버전 | 최소 데이터 원본 버전 | 지원되는 데이터 원본 개체 | 다운로드 링크 |
+| 데이터 원본 | 공급자 | 최소 공급자 버전 | 최소 데이터 원본 버전 | 지원되는 데이터 원본 개체 | 다운로드 링크 |
 | --- | --- | --- | --- | --- | --- |
 | SQL Server |ADO.net(.NET Framework로 작성) |.NET Framework 3.5(전용) |SQL Server 2005+ |테이블/뷰, 스칼라 함수, 테이블 함수 |.NET Framework 3.5 이상에 포함됨 |
 | Access |Microsoft Access 데이터베이스 엔진(ACE) |ACE 2010 SP1 |제한 없음 |테이블/뷰 |[다운로드 링크](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
