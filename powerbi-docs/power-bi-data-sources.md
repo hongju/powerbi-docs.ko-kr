@@ -9,21 +9,18 @@ ms.topic: conceptual
 ms.date: 01/08/2020
 ms.author: kfollis
 ms.openlocfilehash: 2578f8621140a64b85e6765d80d860c1489a5900
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75762557"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 데이터 원본
 
 다음 표에서는 DirectQuery 및 온-프레미스 데이터 게이트웨이에 대한 정보를 포함하여 Power BI가 데이터 집합으로 지원하는 데이터 원본을 보여 줍니다. 데이터 흐름에 대한 자세한 내용은 [Power BI 데이터 흐름용 데이터 원본에 연결](service-dataflows-data-sources.md)을 참조하세요.
 
-> [!NOTE]
-> 인증을 위해 Internet Explorer 10(또는 그 이상)이 요구되는 Power BI Desktop용 데이터 커넥터가 다수 존재합니다. 
+| 데이터 원본 | 데스크톱에서 연결 | 서비스에서 연결 및 새로 고침 | DirectQuery/라이브 연결 | 게이트웨이(지원됨) | 게이트웨이(필수) |
 
-
-| 데이터 소스 | 데스크톱에서 연결 | 서비스에서 연결 및 새로 고침 | DirectQuery/라이브 연결 | 게이트웨이(지원됨) | 게이트웨이(필수) |
 |---|---|---|---|---|---|---|---|
 | Access 데이터베이스 | 예 | 예 | 아니요 | 예 <sup>1</sup> | 예 |
 | ActiveDirectory | 예 | 예 | 아니요 | 예 | 예 |

@@ -20,7 +20,7 @@ ms.locfileid: "75762511"
 # <a name="apply-page-display-settings-in-a-power-bi-report"></a>Power BI 보고서에 페이지 표시 설정 적용
 보고서 레이아웃 픽셀을 완벽하게 유지하는 것이 어렵다는 것을 알고 있습니다. 화면에 표시된 보고서의 가로 세로 비율과 크기는 보는 사람마다 다르기 때문에 어려울 때도 있습니다. 
 
-기본 표시 뷰는 **페이지에 맞춤** 이고 기본 표시 크기는 **16:9**입니다. 다른 가로 세로 비율로 고정하거나 보고서를 다른 방식으로 조정하려는 경우: ***페이지 보기*** 설정 및 ***페이지 크기*** 설정, 두 가지 도구가 유용합니다.
+기본 표시 뷰는 **페이지에 맞춤**이고 기본 표시 크기는 **16:9**입니다. 다른 가로 세로 비율로 고정하거나 보고서를 다른 방식으로 조정하려는 경우: ***페이지 보기*** 설정 및 ***페이지 크기*** 설정, 두 가지 도구가 유용합니다.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ ms.locfileid: "75762511"
 페이지 보기 설정은 Power BI 서비스와 Power BI Desktop에서 사용할 수 있지만 인터페이스는 약간 다릅니다. 다음 섹션에서는 각 Power BI 도구에서 보기 설정을 찾을 수 있는 위치를 설명합니다.
 
 ### <a name="in-power-bi-desktop"></a>Power BI Desktop
-보고서 보기에서 **보기** 탭을 선택하여 페이지 보기 설정과 전화 레이아웃 설정을 엽니다.
+보고서 보기에서 **보기** 탭을 선택하여 페이지 보기 설정과 휴대폰 레이아웃 설정을 엽니다.
 
   ![데스크톱 페이지 보기 설정](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
 

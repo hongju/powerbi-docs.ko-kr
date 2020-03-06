@@ -1,20 +1,20 @@
 ---
 title: powerbi-visuals-tools 버전 3.x로 마이그레이션
 description: 새로운 버전의 powerbi-visuals-tools 시작하기
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 manager: rkarlin
-ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1b819aeb0f59df9ee0d48d7c41807abe62efed08
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: d9af0ab870732990201ab3478d71fdafa9e13439
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885145"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76818827"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-version-3x"></a>새로운 powerbi-visuals-tools 버전 3.*x*로 마이그레이션
 

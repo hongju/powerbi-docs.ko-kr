@@ -25,7 +25,7 @@ ms.locfileid: "75762396"
 
 1. **Power BI Desktop**의 **홈** 리본 탭에서 **데이터 가져오기**를 선택합니다.
 2. **데이터 가져오기** 창의 왼쪽 창에 있는 범주에서 **온라인 서비스**를 선택합니다.
-3. 오른쪽 창의 선택 항목에서 **Google 웹로그 분석** 을 선택합니다.
+3. 오른쪽 창의 선택 항목에서 **Google 웹로그 분석**을 선택합니다.
 4. 창 하단에서 **연결**을 선택합니다.  
    ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)
 

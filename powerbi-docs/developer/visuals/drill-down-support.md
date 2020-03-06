@@ -1,20 +1,20 @@
 ---
 title: 드릴다운 지원 추가
 description: 이 문서에서는 Power BI 시각적 개체에 드릴다운 지원을 추가하는 방법을 설명합니다.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 197f2904288d9a42bd45096a3f897a399f5abce5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700596"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76819241"
 ---
 # <a name="add-drill-down-support"></a>드릴다운 지원 추가
 

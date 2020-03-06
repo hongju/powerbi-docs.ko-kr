@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3928b90d3aba8084cb5f1bf3677adb31afb01722
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 3a2b06071986b6994c68bde06e87c5ae7f5e7360
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729676"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953735"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -609,7 +609,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * M Intellisense 출시, 수식 입력줄 및 사용자 지정 열 대화 상자에서 지원됨 [[동영상]](https://youtu.be/vih35kSrEHU?t=1491)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intellisense) 
 
 ### <a name="other"></a>기타
-* Power BI 페이지를 매긴 보고서 작성기 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
+* Power BI 보고서 작성기 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
 
 
 
@@ -1924,7 +1924,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 -   ‘열 헤더 형식’ 메뉴의 새 ‘로캘 사용’ 옵션을 통해 신속하게 열의 데이터 형식 및 로캘 변경 [[동영상]](https://youtu.be/mn75-LOPxMA?t=11m42s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#columnType)  
 -   새로운 ‘뒤에 단계 삽입’ 옵션을 사용하여 기존 쿼리에 쉽게 단계 삽입 [[동영상]](https://youtu.be/mn75-LOPxMA?t=12m36s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#stepsPane) 
 
-### <a name="other-improvements"></a>기타 개선 기능
+### <a name="other-improvements"></a>기타 개선 사항
 
 -   솔루션 템플릿 및 파트너 쇼케이스 빠른 액세스 [[동영상]](https://youtu.be/mn75-LOPxMA?t=13m33s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#resources)
 
@@ -2066,7 +2066,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 -   **함수 호출** 대화 상자에서 ‘테이블 매개 변수’ 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#invokeFunction) [[동영상]](https://youtu.be/UXEYSvgvMaQ?t=18m12s) 
 
-### <a name="other-improvements"></a>기타 개선 기능
+### <a name="other-improvements"></a>기타 개선 사항
 
 -   **정보** 대화 상자의 진단 정보 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#diagnostics) [[동영상]](https://youtu.be/UXEYSvgvMaQ?t=19m16s)
 
@@ -2124,7 +2124,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 -   키보드 사용 - 드롭 다운 메뉴에서 *스마트 입력*에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 
 
-### <a name="other-improvements"></a>기타 개선 기능
+### <a name="other-improvements"></a>기타 개선 사항
 
 -   **Power BI 커뮤니티**에 대한 제품 내 링크 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[동영상]](https://youtu.be/0VvG7Eqoke8?t=16m9s)
 

@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885291"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76819586"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -203,11 +203,24 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ### <a name="publish-to-web"></a>웹에 게시
 
-조직의 사용자는 웹에 보고서를 게시할 수 있습니다. [자세히 알아보기](service-publish-to-web.md)
+조직의 사용자는 웹에 보고서를 게시할 수 있습니다. [자세히 알아봅니다](service-publish-to-web.md). 이렇게 하면 보고서와 이 보고서에 포함된 데이터를 웹에서 누구나 사용할 수 있습니다.
+
+> [!NOTE]
+> Power BI 관리자가 새 웹에 게시 embed 태그를 만들 수 있도록 허용해야 합니다. 조직에 기존 embed 태그가 있을 수 있습니다. [embed 태그](service-admin-portal.md#embed-codes) 페이지를 사용하여 현재 게시된 보고서를 검토할 수 있습니다.
 
 다음 이미지는 **웹에 게시** 설정을 사용하도록 설정한 경우 보고서의 **파일** 메뉴를 보여 줍니다.
 
-![웹에 게시 설정](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![파일 메뉴의 웹에 게시](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+**웹에 게시** 설정은 사용자가 embed 태그를 만들 수 있는 옵션을 제공합니다.
+
+![웹에 게시 설정](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+
+**embed 태그 작동 방식 선택** 옵션이 **기존 embed 태그만 허용**으로 설정되고 **웹에 게시** 설정이 **사용**으로 설정된 경우 Power BI 관리자에게 연락하여 embed 태그를 만들도록 요청합니다.
+
+![웹에 게시 프롬프트](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
 
 **웹에 게시** 설정에 따라 UI에 다른 옵션이 표시됩니다.
 
@@ -449,7 +462,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 ## <a name="embed-codes"></a>embed 태그
 
-관리자는 테넌트에 대해 생성된 embed 태그를 볼 수 있습니다. 코드를 취소하거나 삭제할 수도 있습니다. [자세히 알아보기](service-publish-to-web.md)
+관리자는 보고서를 공개적으로 공유할 테넌트에 대해 생성된 embed 태그를 볼 수 있습니다. 코드를 취소하거나 삭제할 수도 있습니다. [자세히 알아보기](service-publish-to-web.md)
 
 ![Power BI 관리 포털 내의 embed 태그](media/service-admin-portal/embed-codes.png)
 

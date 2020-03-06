@@ -11,10 +11,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75223773"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate 및 Power BI
@@ -55,7 +55,7 @@ Sirui가 Power BI 경고가 트리거될 때 동료에게 자세한 전자 메�
 1. 트리거 드롭다운 목록에서 Power BI 데이터 경고를 선택합니다. **아일랜드의 새 메달**을 선택합니다. 경고를 만드는 방법을 알아보려면 [Power BI에서 데이터 경고](service-set-data-alerts.md)를 참조하세요.
    
    ![경고 드롭다운](media/service-flow-integration/power-bi-trigger-flow.png)
-2. 유효한 메일 주소를 하나 이상 입력하고 **편집**(아래에 표시) 또는 **동적 콘텐츠 추가**를 선택합니다. 
+2. 유효한 메일 주소를 하나 이상 입력하고 **편집**(아래에 표시) 또는 **동적 콘텐츠 추가**를 선택합니다.  
    
    ![이메일 보내기 화면](media/service-flow-integration/power-bi-flow-email.png)
 
