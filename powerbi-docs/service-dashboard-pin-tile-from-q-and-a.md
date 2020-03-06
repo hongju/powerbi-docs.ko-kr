@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 77be727de3cda1d3b6fd5c34b6e572b1d505fc54
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872800"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282019"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>질문 및 답변에서 대시보드에 타일 고정
 ## <a name="how-to-pin-a-tile-from-qa"></a>질문 및 답변에서 타일을 고정하는 방법

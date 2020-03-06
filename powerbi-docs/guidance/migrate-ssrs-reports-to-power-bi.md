@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ce8644decb758775c0bbff87df7975a64692a2
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75886116"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889239"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services 보고서를 Power BI로 마이그레이션
 
@@ -104,6 +104,8 @@ SSRS 인스턴스를 검색한 후에 이루어지는 _평가_ 단계의 목표�
 
 RDL 보고서가 [Power BI 페이지를 매긴 보고서에서 지원되지 않는 기능](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)을 사용할 경우, 보고서를 [Power BI 보고서](../consumer/end-user-reports.md)로 다시 만드는 방안을 고려할 수 있습니다. RDL 보고서가 마이그레이션되는 경우라 하더라도 가능한 경우 이를 Power BI 보고서로 새로 만드는 것이 권장됩니다.
 
+RDL 보고서는 _온-프레미스 데이터 원본_에서 데이터를 검색해야 하는 경우 SSO(Single Sign-On)를 사용할 수 없습니다. 현재, 이러한 원본에서는 모든 데이터 검색이 _게이트웨이 데이터 원본 사용자 계정_의 보안 컨텍스트를 사용하여 수행됩니다. SSAS(SQL Server Analysis Services)가 사용자 단위로 RLS(행 수준 보안)를 적용할 수 없습니다.
+
 일반적으로 Power BI 페이지를 매긴 보고서는 **인쇄** 또는 **PDF 생성**에 최적화되어 있습니다. Power BI 보고서는 **탐색 및 대화형 작업**에 최적화되어 있습니다. 자세한 내용은 [Power BI의 페이지를 매긴 보고서가 필요한 경우](report-paginated-or-power-bi.md)를 참조하세요.
 
 ### <a name="prepare"></a>준비
@@ -116,6 +118,8 @@ _준비_ 단계의 목표는 모든 것을 준비하는 것입니다. 이 단계
 1. Power BI 공유를 숙지하고, [Power BI 앱](../service-create-distribute-apps.md)을 게시하여 콘텐츠를 배포할 방법을 계획합니다.
 1. SSRS 공유 데이터 원본 대신 [공유 Power BI 데이터 세트](../service-datasets-build-permissions.md)를 사용하는 방안을 고려합니다.
 1. [Power BI Desktop](../desktop-what-is-desktop.md)을 사용하여 모바일 최적화된 보고서를 개발합니다. 이때 SSRS 모바일 보고서 및 KPI 대신 [Power KPI 사용자 지정 시각적 개체](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)를 사용하는 것이 좋습니다.
+1. 보고서에서 **UserID** 기본 제공 필드의 사용을 다시 평가합니다. **UserID**를 사용하여 보고서 데이터를 보호하는 경우 페이지를 매긴 보고서가 Power BI 서비스에서 호스트될 때는 이 필드가 UPN(사용자 계정 이름)을 반환한다는 것을 이해해야 합니다. 따라서 기본 제공 필드는 _AW\mblythe_와 같은 NT 계정 이름을 반환하는 대신 _m.blythe&commat;adventureworks.com_과 같은 형식으로 반환합니다. 데이터 세트 정의 그리고 경우에 따라 원본 데이터를 수정해야 합니다. 수정하고 게시한 후에는 보고서를 철저히 테스트하여 데이터 사용 권한이 예상대로 작동하는지 확인하는 것이 좋습니다.
+1. 보고서에서 **ExecutionTime** 기본 제공 필드의 사용을 다시 평가합니다. 페이지를 매긴 보고서가 Power BI 서비스에서 호스트될 때는 기본 제공 필드가 날짜/시간을 _UTC(협정 세계시)_ 로 반환합니다. 이는 보고서 매개 변수 기본값 및 보고서 실행 시간 레이블(일반적으로 보고서 바닥글에 추가됨)에 영향을 줄 수 있습니다.
 1. 보고서 작성자가 [Power BI 보고서 작성기](../report-builder-power-bi.md)를 설치해 두었고 조직에서 향후 릴리스를 간편하게 배포할 수 있는 환경이 구성되어 있는지 확인합니다.
 
 ## <a name="migration-stage"></a>마이그레이션 단계

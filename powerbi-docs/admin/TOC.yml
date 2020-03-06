@@ -52,6 +52,8 @@
               href: service-security-enable-data-sensitivity-labels.md
             - name: Power BI에서 Microsoft Cloud App Security 사용
               href: service-security-using-microsoft-cloud-app-security-controls.md
+            - name: 데이터 보호 메트릭 보고서
+              href: service-security-data-protection-metrics-report.md
         - name: 행 수준 보안
           href: ../service-admin-rls.md
         - name: Intune으로 모바일 앱 구성

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 935b453dabeaa731a218175526ddddeb980a2b92
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692462"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161435"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: FILTER를 필터 인수로 사용하지 마세요.
 
@@ -36,13 +36,13 @@ CALCULATE(
 
 CALCULATE 함수에서는 **Product** 테이블의 각 행에 대해 해당 필터 식을 평가하는, [FILTER](/dax/filter-function-dax) DAX 함수에서 반환된 테이블 식이 허용됩니다. 따라서 정확하게 빨간색 제품 판매 결과를 구할 수 있습니다. 하지만 부울 식을 사용하면 훨씬 더 효율적으로 결과를 구할 수 있습니다.
 
-테이블 식 대신 부울 식을 사용하는 더 효율적인 측정값 정의는 다음과 같습니다.
+테이블 식 대신 부울 식을 사용하는 더 효율적인 측정값 정의는 다음과 같습니다. [KEEPFILTERS](/dax/keepfilters-function-dax) DAX 함수는 **Color** 열에 적용된 기존 필터를 덮어쓰지 않고 보존하도록 합니다.
 
 ```dax
 Red Sales =
 CALCULATE(
     [Sales],
-    'Product'[Color] = "Red"
+    KEEPFILTERS('Product'[Color] = "Red")
 )
 ```
 

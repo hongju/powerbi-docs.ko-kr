@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 7670f8147af54f3b3a6c2c0eba34bb3ca7843eda
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264081"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539052"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -63,12 +63,12 @@ Power BI Embedded는 개발자가 임베디드 분석 솔루션을 만드는 데
 
 다음은 기능 차이에 대한 일부 목록입니다.
 
-| 특정 | Power BI Embedded | Power BI Premium 용량 | Power BI Premium 용량 |
+| 기능 | Power BI Embedded | Power BI Premium 용량 | Power BI Premium 용량 |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | A SKU-Azure 용량 | EM SKU-O365 용량 | P SKU-O365 용량 |
 | Power BI 작업 영역의 아티팩트 포함 | 예 | 예 | 예 |
-| 포함된 애플리케이션에서 Power BI 보고서 사용 - SaaS | 아니요 | 예 | 예 |
-| 포함된 애플리케이션에서 Power BI 보고서 사용 - PaaS | 예 | 예 | 예 |
+| 조직용 애플리케이션에서 Power BI 보고서 사용  | 아니요 | 예 | 예 |
+| 고객용 포함된 애플리케이션에서 Power BI 보고서 사용 | 예 | 예 | 예 |
 | SharePoint에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
 | Dynamics에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
 | Teams에서 Power BI 보고서 사용(모바일 앱 제외) | 아니요 | 예 | 예 |

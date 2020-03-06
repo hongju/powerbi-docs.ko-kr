@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/08/2019
 ms.author: painbar
-ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75220520"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538408"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -21,6 +21,27 @@ ms.locfileid: "75220520"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="december-2019"></a>2019년 12월
+
+### <a name="docked-report-footer-and-a-refresh-button---new-experiences-for-interacting-with-reports-android"></a>고정된 보고서 바닥글 및 새로 고침 단추 - 보고서와 상호 작용하기 위한 새로운 환경(Android)
+
+Android 사용자로부터 보고서를 사용하는 환경이 최적이 아님을 보고받았습니다. 보고서 바닥글을 사용하기가 어렵고, 당겨서 새로 고침 기능은 일부 디바이스에서 너무 민감합니다. 따라서 이번 릴리스에서는 다음과 같이 동작을 변경했습니다.
+* **고정된 보고서 바닥글** - 이제 휴대폰에서 보고서를 열면 보고서 바닥글이 보고서 페이지 하단에 고정되어 페이지에서 수행하는 작업에 관계 없이 항상 표시되고 사용할 수 있습니다. 이 경우 제공되는 모든 옵션을 쉽게 사용할 수 있습니다.
+* **보고서 머리글의 새로 고침 단추** - 보고서 머리글에서 새로 고침 단추도 찾을 수 있습니다. 이 단추를 사용하면 정확히 원하는 시점에 손쉽게 보고서를 새로 고칠 수 있습니다.
+
+이전 동작을 선호하는 사용자는 새롭게 확장된 모바일 앱의 [상호 작용 설정](./mobile-app-interaction-settings.md)을 통해 이 동작을 복원할 수 있습니다.
+
+또한 IT 관리자는 앱 구성 파일과 함께 선택한 MDM 도구를 사용하여 사용자를 대신해 [새 기본 설정을 원격으로 재정의](./mobile-app-configuration.md#interaction-settings-android)할 수 있습니다. 이러한 방식으로 조직의 모든 사용자가 동일한 동작을 구성할 수 있습니다.
+
+> [!NOTE]
+> 새로 고침 단추 및 보고서 바닥글 고정에 대한 상호 작용 설정은 현재 보고서 서버 보고서에 영향을 주지 않습니다. 1월 보고서 서버 릴리스와 함께 변경됩니다.
+
+### <a name="set-default-bookmarks-from-your-mobile-app"></a>모바일 앱에서 기본 책갈피 설정
+이제 Power BI 모바일 앱에서 직접 보고서에 기본 책갈피를 설정할 수 있습니다. 그러면 보고서를 열 때마다 기본 책갈피가 자동으로 적용됩니다. [자세한 정보](./mobile-reports-in-the-mobile-apps.md#bookmarks)
+
+### <a name="filtering-by-location-on-android-tablets"></a>Android 태블릿에서 위치로 필터링
+지역 필터링을 사용하여 현재 위치를 기준으로 보고서를 필터링할 수 있습니다. 이 기능은 이제 Android 태블릿용 Power BI 앱에서도 사용할 수 있습니다. [자세한 정보](./mobile-apps-geographic-filtering.md)
 
 ## <a name="november-2019"></a>2019년 11월
 

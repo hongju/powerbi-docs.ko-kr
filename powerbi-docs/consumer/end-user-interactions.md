@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75303857"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888503"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Power BI 보고서에서 시각적 개체가 서로 교차 필터링되는 방식
 Power BI의 뛰어난 기능 중 하나는 보고서 페이지의 모든 시각적 개체가 상호 연결되는 방식입니다. 시각적 개체 중 하나에서 데이터 요소를 선택하는 경우 페이지에서 해당 데이터를 포함하는 다른 모든 시각적 개체는 해당 선택 사항에 따라 변경됩니다. 
@@ -45,7 +45,8 @@ Power BI의 뛰어난 기능 중 하나는 보고서 페이지의 모든 시각�
 
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-- 보고서에 [드릴링](end-user-drill.md)을 지원하는 시각적 개체가 있는 경우 기본적으로 하나의 시각적 개체 드릴링이 보고서 페이지의 다른 시각적 개체에 영향을 주지 않습니다.     
+- 보고서에 [드릴링](end-user-drill.md)을 지원하는 시각적 개체가 있는 경우 기본적으로 하나의 시각적 개체 드릴링이 보고서 페이지의 다른 시각적 개체에 영향을 주지 않습니다. 그러나 보고서 *디자이너*가 이 동작을 변경할 수 있으므로 드릴 가능한 시각적 개체를 확인하여 보고서 *디자이너*에서 **기타 시각적 개체 드릴 필터링**을 사용하도록 설정했는지 확인합니다.
+    
 - 시각적 개체 수준 필터는 보고서 페이지의 다른 시각적 개체를 교차 필터링 및 교차 강조 표시할 때 유지됩니다. 따라서 보고서 디자이너나 사용자가 VisualA에 시각적 개체 수준 필터를 적용했으며 visualA를 사용하여 visualB를 조작하는 경우 visualA의 시각적 개체 수준 필터가 visualB에 적용됩니다.
 
     ![도넛형 차트의 조정 세그먼트를 선택한 후의 보고서 페이지](media/end-user-interactions/power-bi-visual-filters.png)
