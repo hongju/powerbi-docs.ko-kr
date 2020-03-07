@@ -17,7 +17,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2020
 ms.locfileid: "76539191"
 ---
-# <a name="connect-to-data-sources-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 소스에 연결
+# <a name="connect-to-data-sources-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 원본에 연결
 
 Power BI Desktop을 사용하면 계속 확장되는 데이터에 쉽게 연결할 수 있습니다. Power BI Desktop이 없는 경우 여기서 [다운로드](https://go.microsoft.com/fwlink/?LinkID=521662)하여 설치할 수 있습니다.
 
