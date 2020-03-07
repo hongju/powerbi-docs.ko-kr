@@ -16,7 +16,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/16/2020
 ms.locfileid: "76038959"
 ---
-# <a name="work-with-report-view-in-power-bi-desktop"></a>Power BI Desktop의 보고서 뷰 사용
+# <a name="work-with-report-view-in-power-bi-desktop"></a>Power BI Desktop의 보고서  사용
 
 Power BI로 작업한 적이 있다면 데이터에 동적 관점과 통찰력을 제공하는 보고서를 얼마나 쉽게 만들 수 있는지 알고 있을 것입니다. Power BI Desktop에는 Power BI의 고급 기능도 있습니다. Power BI Desktop을 사용하여 고급 쿼리를 만들고, 여러 소스의 데이터를 매시업하고, 테이블 간에 관계를 만드는 등 많은 작업을 할 수 있습니다.
 
