@@ -40,7 +40,7 @@ Power BI Desktop에서 방금 클립보드에 복사한 링크를 사용할 수 
 1. Power BI Desktop에서 **데이터 가져오기** > **웹**을 선택합니다.
    
    ![](media/desktop-use-onedrive-business-links/power-bi-web-link-onedrive.png)
-2. **Basic** 옵션을 선택한 상태에서 링크를 **웹에서** 대화 상자에 붙여넣습니다.
+2. **기본** 옵션을 선택한 상태에서 링크를 **웹에서** 대화 상자에 붙여넣습니다.
 3. Power BI Desktop에서 파일을 올바르게 탐색할 수 있도록 링크 끝에 있는 *?web=1* 문자열을 제거한 다음 **확인**을 선택합니다.
    
     ![](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
