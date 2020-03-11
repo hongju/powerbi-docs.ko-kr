@@ -151,7 +151,7 @@ Power BI의 **웹에 게시** 옵션을 사용하면 모든 디바이스에서 �
 
 ![웹에 게시 설정](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-**embed 태그 작동 방식 선택** 옵션이 **기존 embed 태그만 허용**으로 설정되고 **웹에 게시** 설정이 **사용**으로 설정된 경우 embed 태그를 만들려면 Power BI 관리자에게 연락해야 합니다.
+**embed 태그 작동 방식 선택** 옵션이 **기존 코드만 허용**으로 설정되고 **웹에 게시** 설정이 **사용**으로 설정된 경우 embed 태그를 만들려면 Power BI 관리자에게 연락해야 합니다.
 
 ![웹에 게시 프롬프트](media/service-publish-to-web/publish_to_web_admin_prompt.png)
 
