@@ -49,7 +49,7 @@ ms.locfileid: "74699294"
 
 ![사용자 지정 필터](media/service-premium-incremental-refresh/custom-filter.png)
 
-열 값이 **RangeStart** *보다 이후이거나 같고* **RangeEnd**보다 *이전*인 행이 필터링되는지 확인합니다. 다른 필터를 조합하면 행이 두 번 계산될 수 있습니다.
+열 값이 **RangeStart** *보다 이후이거나 같고* **RangeEnd** 보다 *이전*인 행이 필터링되는지 확인합니다. 다른 필터를 조합하면 행이 두 번 계산될 수 있습니다.
 
 ![행 필터링](media/service-premium-incremental-refresh/filter-rows.png)
 
