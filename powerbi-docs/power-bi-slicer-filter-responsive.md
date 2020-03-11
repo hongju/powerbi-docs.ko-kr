@@ -62,7 +62,7 @@ Power BI Desktop에서는 보고서의 각 페이지에 대한 휴대폰 레이�
 
      ![휴대폰 레이아웃 아이콘, 보기 메뉴](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-6-phone-layout-button.png)
     
-1. 휴대폰 보고서에서 원하는 모든 시각적 개체를 그리드로 끌어 옵니다. 반응형 슬라이서를 끌어오기하여 원하는 크기로 만듭니다. 이 경우에는 필터 아이콘입니다.
+1. 휴대폰 보고서에서 원하는 모든 시각적 개체를 그리드로 끌어 옵니다. 반응형 슬라이서를 끌어오기 하여 원하는 크기로 만듭니다. 이 경우에는 필터 아이콘입니다.
 
     ![휴대폰 보고서 레이아웃에 슬라이서 추가](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-7-phone-slicer-icon.png)
 
