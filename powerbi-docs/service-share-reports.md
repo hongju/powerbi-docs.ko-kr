@@ -59,7 +59,7 @@ ms.locfileid: "76894924"
 
    ![공유 선택](media/service-share-reports/power-bi-share.png)
 
-2. **받는 사람에게 이메일 알림 보내기**를 선택 취소하여 필터링된 링크를 대신 보내고, **현재 필터 및 슬라이서를 사용하여 보고서 공유**를 선택한 다음 **공유**를 선택합니다.
+2. **받는 사람에게 이메일 알림 보내기**를 선택 취소하여 필터링된 링크를 대신 보내고, **현재 필터 및 슬라이서와 함께 사용하여 보고서를 공유합니다.**를 선택한 다음 **공유**를 선택합니다.
 
     ![필터가 포함된 보고서 공유](media/service-share-reports/power-bi-share-with-filters.png)
 
@@ -67,7 +67,7 @@ ms.locfileid: "76894924"
 
    ![공유 선택](media/service-share-reports/power-bi-share.png)
 
-5. **액세스** 탭을 선택한 다음 **공유 보고서 뷰 관리**를 선택합니다.
+5. **액세스** 탭을 선택한 다음 **공유 보고서 보기 관리**를 선택합니다.
 
     ![공유 보고서 뷰 관리](media/service-share-reports/power-bi-manage-shared-report-views.png)
 
