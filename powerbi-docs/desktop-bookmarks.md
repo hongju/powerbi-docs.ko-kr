@@ -10,10 +10,10 @@ ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75761890"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Power BI Desktop에서 책갈피를 만들어 인사이트 공유 및 스토리 작성
@@ -196,7 +196,7 @@ Power BI Desktop 2018년 3월 버전부터 책갈피가 일반 공급됩니다.
 2. Power BI Desktop을 다시 시작하여 책갈피의 미리 보기 버전을 사용합니다.
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
-책갈피 능의 이 릴리스에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
+책갈피 기능의 이 릴리스에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
 
 * 대부분의 사용자 지정 시각적 개체는 책갈피에서 잘 작동합니다. 그러나 책갈피 및 사용자 지정 시각적 개체에 문제가 발생하면 해당 사용자 지정 시각적 개체 작성자에게 문의하여 시각적 개체에 책갈피 지원을 추가하도록 요청합니다. 
 * 책갈피를 만든 후 보고서 페이지에서 시각적 개체를 추가하면 시각적 개체는 기본 상태로 표시됩니다. 즉, 이전에 책갈피를 만든 페이지에 슬라이서를 도입하는 경우 슬라이서는 기본 상태로 작동합니다.

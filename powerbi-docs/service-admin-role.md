@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 04ffeb01efeaa714b30b2246174584f2caf90468
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: fc1a0c524a3cb4a713cbaf049c259a4b96714131
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75622258"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160814"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>Power BI 서비스 관리자 역할 이해
 
-Power BI 테넌트를 관리하려면 Power BI 관리자, Power Platform 관리자 또는 Microsoft 365 전역 관리자 역할 중 하나가 있어야 합니다. Microsoft 365 사용자 관리 관리자는 PowerShell 스크립트를 사용하거나 Microsoft 365 관리 센터에서 Power BI 관리자 또는 Power Platform 관리자 역할에 사용자를 할당해야 합니다.
+Power BI 테넌트를 관리하려면 Power BI 관리자, Power Platform 관리자 또는 Microsoft 365 전역 관리자 역할 중 하나가 있어야 합니다. Microsoft 365 사용자 관리 관리자는 PowerShell 스크립트를 사용하거나 Microsoft 365 관리 센터에서 Power BI 관리자 또는 Power Platform 관리자 역할에 사용자를 할당해야 합니다. 자세한 내용은 [Office 365 PowerShell을 사용하여 사용자 계정에 역할 할당](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)을 참조하세요.
 
 Power BI 관리자 및 Power Platform 관리자 역할이 할당된 사용자는 Power BI 테넌트 및 라이선스를 제외한 테넌트 관리 기능에 대한 모든 권한을 가집니다. 사용자가 할당되면 [Power BI 관리 포털](service-admin-portal.md)에 액세스할 수 있습니다. 여기서 테넌트 전체 사용 메트릭에 액세스하고 Power BI 기능의 테넌트 전체 사용을 제어할 수 있습니다. 이러한 관리자 역할은 전체 Microsoft 365 관리 액세스 권한은 부여하지 않고 Power BI 관리 포털에 액세스해야 하는 사용자에게 적합합니다.
 
@@ -95,7 +95,7 @@ PowerShell을 사용하여 역할에 사용자를 할당할 수도 있습니다.
 
 1. 역할에 멤버를 추가하려면 [Add-AzureADDirectoryRoleMember](/powershell/module/azuread/add-azureaddirectoryrolemember)를 실행합니다.
 
-    | 매개 변수 | 설명 |
+    | 매개 변수 | Description |
     | --- | --- |
     | ObjectId |역할 ObjectId |
     | RefObjectId |구성원 ObjectId |
@@ -109,4 +109,4 @@ PowerShell을 사용하여 역할에 사용자를 할당할 수도 있습니다.
 [조직에서 Power BI 관리](service-admin-administering-power-bi-in-your-organization.md)  
 [Power BI 관리 포털](service-admin-portal.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+추가 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

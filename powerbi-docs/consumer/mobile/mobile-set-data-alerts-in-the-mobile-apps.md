@@ -1,6 +1,6 @@
 ---
-title: Power BI Mobile Apps에서 데이터 경고 설정
-description: 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 Power BI Mobile Apps에서 데이터 경고를 설정하는 방법을 알아봅니다.
+title: Power BI 모바일 앱에서 데이터 경고 설정
+description: 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 Power BI 모바일 앱에서 데이터 경고를 설정하는 방법을 알아봅니다.
 author: mshenhav
 ms.reviewer: ''
 ms.service: powerbi
@@ -15,14 +15,14 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/19/2019
 ms.locfileid: "75221380"
 ---
-# <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI Mobile Apps에서 데이터 경고 설정
+# <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 데이터 경고 설정
 적용 대상:
 
 | ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Android 태블릿](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
-Power BI Mobile Apps 및 Power BI 서비스의 대시보드에서 경고를 설정할 수 있습니다. 타일의 데이터가 설정해 놓은 한도를 넘어 변경되면 알려주는 경고입니다. 경고는 카드 및 계기 같이 단일 숫자가 특징인 타일에 대해 작동하며 스트리밍 데이터에는 작동하지 않습니다. 모바일 디바이스에서 데이터 경고를 설정하고 Power BI 서비스에서 볼 수 있으며, 그 반대로도 가능합니다. 대시보드나 타일의 스냅샷을 공유했더라도 설정한 데이터 경고만 볼 수 있습니다.
+Power BI 모바일 앱 및 Power BI 서비스의 대시보드에서 경고를 설정할 수 있습니다. 타일의 데이터가 설정해 놓은 한도를 넘어 변경되면 알려주는 경고입니다. 경고는 카드 및 계기 같이 단일 숫자가 특징인 타일에 대해 작동하며 스트리밍 데이터에는 작동하지 않습니다. 모바일 디바이스에서 데이터 경고를 설정하고 Power BI 서비스에서 볼 수 있으며, 그 반대로도 가능합니다. 대시보드나 타일의 스냅샷을 공유했더라도 설정한 데이터 경고만 볼 수 있습니다.
 
 Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용량일 경우 타일에 경고를 설정할 수 있습니다. 
 
@@ -141,7 +141,7 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
 ## <a name="receiving-alerts"></a>경고 수신
 다른 사람이 공유해 준 새 대시보드에 대한 알림과 함께 모바일 디바이스의 Power BI [알림 센터](mobile-apps-notification-center.md) 또는 Power BI 서비스에서 경고를 수신합니다.
 
-데이터 소스는 매일 새로 고치도록 설정하는 경우가 많으며, 이 보다 빈번하게 설정하기도 합니다. 대시보드의 데이터가 새로 고쳐질 때, 추적되는 데이터가 설정해 놓은 임계값 중 하나에 도달하면, 몇 가지 현상이 발생합니다.
+데이터 원본은 매일 새로 고치도록 설정하는 경우가 많으며, 이보다 빈번하게 설정하기도 합니다. 대시보드의 데이터가 새로 고쳐질 때, 추적되는 데이터가 설정해 놓은 임계값 중 하나에 도달하면, 몇 가지 현상이 발생합니다.
 
 1. Power BI에서 마지막 경고가 전송된 후 1시간 이상이 경과했는지 또는 24시간 이상이 경과했는지(선택한 옵션에 따라) 확인됩니다.
    

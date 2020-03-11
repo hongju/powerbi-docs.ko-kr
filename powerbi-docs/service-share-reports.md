@@ -1,34 +1,49 @@
 ---
-title: 필터링된 Power BI 보고서를 공유하는 두 가지 방법
-description: Power BI 보고서를 필터링하여 조직의 동료와 공유하는 두 가지 방법을 알아봅니다.
+title: Power BI 보고서 필터링 및 공유
+description: Power BI 보고서를 필터링하여 조직의 동료와 공유하는 방법에 대해 알아봅니다.
 author: maggiesMSFT
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 16041ebc9ba293ab166178e008b12277d94e89c3
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871439"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894924"
 ---
-# <a name="two-ways-to-share-a-filtered-power-bi-report"></a>필터링된 Power BI 보고서를 공유하는 두 가지 방법
-다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. 필터링된 버전의 보고서를 공유하려면 어떻게 해야 할까요? 아마도 특정 도시, 판매 직원 또는 연도의 데이터만 보여 주는 보고서일 수도 있습니다. 보고서를 필터링하고 공유하거나 사용자 지정 URL을 만들어 보세요. 받는 사람이 처음 열 때 보고서가 필터링됩니다. URL을 수정하여 필터를 제거할 수 있습니다. 
+# <a name="filter-and-share-a-power-bi-report"></a>Power BI 보고서 필터링 및 공유
+다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. 필터링된 버전의 보고서를 공유하려면 어떻게 해야 할까요? 특정 도시, 영업 사원 또는 연도 데이터만 표시하도록 보고서를 만들려고 할 수 있습니다. 이 문서에서는 보고서를 필터링한 후 필터링된 버전을 공유하는 방법을 설명합니다. 필터링된 보고서를 공유하는 또 다른 방법은 [보고서 URL에 쿼리 매개 변수를 추가](service-url-filters.md)하는 것입니다. 두 경우 모두 받는 사람이 처음 열 때 보고서가 필터링됩니다. 받는 사람이 보고서에서 필터 선택을 삭제할 수 있습니다.
 
 ![필터링된 보고서](media/service-share-reports/power-bi-share-filter-pane-report.png)
 
 또한 Power BI는 [보고서로 공동 작업을 수행하고 보고서를 배포하는 여러 다른 방법](service-how-to-collaborate-distribute-dashboards-reports.md)도 제공합니다. 공유에서 사용자와 해당 수신자는 [Power BI Pro 라이선스](service-features-license-type.md)가 필요하거나 콘텐츠는 [프리미엄 용량](service-premium-what-is.md)에 있어야 합니다. 
 
-## <a name="two-ways-to-filter-a-report"></a>보고서를 필터링하는 두 가지 방법
+## <a name="follow-along-with-sample-data"></a>샘플 데이터를 사용하여 따라하기
 
-두 필터링 기술에서 영업 및 마케팅 샘플 템플릿 앱을 사용합니다. 진행해 볼까요? [ 샘플 템플릿 앱](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview)을 설치할 수도 있습니다.
+이 문서에서는 Marketing and Sales 샘플 템플릿 앱을 사용합니다. 진행해 볼까요? 
 
-### <a name="set-a-filter"></a>필터 설정
+1. [Marketing and Sales 샘플 템플릿 앱](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview)을 설치합니다.
+2. 앱을 선택하고 **앱 살펴보기**를 선택합니다.
+
+   ![샘플 데이터 살펴보기](media/service-share-reports/power-bi-sample-explore-data.png)
+
+3. 연필 아이콘을 선택하여 앱과 함께 설치한 작업 영역을 엽니다.
+
+    ![앱 편집 연필](media/service-share-reports/power-bi-edit-pencil-app.png)
+
+4. 작업 영역 콘텐츠 목록에서 **보고서**를 선택하고 **Sales and Marketing Sample PBIX** 보고서를 선택합니다.
+
+    ![샘플 보고서 열기](media/service-share-reports/power-bi-open-sample-report.png)
+
+    이제 계속 따라할 준비가 되었습니다.
+
+## <a name="set-a-filter-in-the-report"></a>보고서에서 필터 설정
 
 [편집용 보기](consumer/end-user-reading-view.md)에서 보고서를 열고 필터를 적용합니다.
 
@@ -38,37 +53,30 @@ ms.locfileid: "73871439"
 
 보고서를 저장합니다.
 
-### <a name="create-a-filter-in-the-url"></a>URL에 필터 만들기
-
-보고서 페이지 URL의 끝에 필터를 추가하면 동작이 약간 달라집니다. 필터링된 페이지는 동일하게 보입니다. 그러나 Power BI는 필터를 전체 보고서에 추가하고 필터 창에서 다른 값을 제거합니다.  
-
-보고서 페이지의 URL 끝에 다음과 같이 추가합니다.
-   
-    ?filter=*tablename*/*fieldname* eq *value*
-   
-필드는 number, datetime 또는 string 형식이어야 합니다. *tablename* 또는 *fieldname* 값은 공백을 포함할 수 없습니다.
-   
-이 예제에서 테이블 이름은 **Geo**, 필드 이름은 **Region**, 그리고 필터링하려는 값은 **Central**입니다.
-   
-    ?filter=Geo/Region eq 'Central'
-
-브라우저에서 슬래시, 공백 및 아포스트로피를 나타내는 특수 문자를 추가하여 다음과 같이 처리합니다.
-   
-    app.powerbi.com/groups/xxxx/reports/xxxx/ReportSection4d00c3887644123e310e?filter=Geo~2FRegion%20eq%20'Central'
-
-![URL 필터를 사용하는 보고서](media/service-share-reports/power-bi-share-report-filter-url.png)
-
-보고서를 저장합니다.
-
-자세한 내용은 [URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링](service-url-filters.md) 문서를 참조하세요.
-
 ## <a name="share-the-filtered-report"></a>필터링된 보고서 공유
 
-1. [보고서를 공유](service-share-dashboards.md)할 때 **받는 사람에게 전자 메일 알림 보내기** 확인란을 선택 취소합니다.
+1. **공유**를 선택합니다.
 
-    ![보고서 공유 대화 상자](media/service-share-reports/power-bi-share-report-dialog.png)
+   ![공유 선택](media/service-share-reports/power-bi-share.png)
 
-4. 이전에 만든 필터를 사용하여 링크를 보냅니다.
+2. **받는 사람에게 이메일 알림 보내기**를 선택 취소하여 필터링된 링크를 대신 보내고, **현재 필터 및 슬라이서와 함께 사용하여 보고서를 공유합니다.**를 선택한 다음 **공유**를 선택합니다.
+
+    ![필터가 포함된 보고서 공유](media/service-share-reports/power-bi-share-with-filters.png)
+
+4. **공유**를 다시 선택합니다.
+
+   ![공유 선택](media/service-share-reports/power-bi-share.png)
+
+5. **액세스** 탭을 선택한 다음 **공유 보고서 보기 관리**를 선택합니다.
+
+    ![공유 보고서 뷰 관리](media/service-share-reports/power-bi-manage-shared-report-views.png)
+
+6. 원하는 URL을 마우스 오른쪽 단추로 클릭하고 **링크 복사**를 선택합니다.
+
+    ![필터링된 링크 복사](media/service-share-reports/power-bi-copy-filtered-link.png)
+
+7. 이 링크를 공유하면 받는 사람에게 필터링된 보고서가 표시됩니다. 
+
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 작업을 공유하는 방법](service-how-to-collaborate-distribute-dashboards-reports.md)

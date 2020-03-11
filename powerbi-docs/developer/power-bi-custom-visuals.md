@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 897590324040a69dbaa1ac549dcee80de8da76a5
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75691379"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI의 시각적 개체
@@ -51,13 +51,13 @@ Microsoft 및 커뮤니티 멤버는 공익을 위해 Power BI 시각적 개체 
 
 ### <a name="samples-for-power-bi-visuals"></a>Power BI 시각적 개체의 샘플
 
-AppSource에 있는 각각의 Power BI 시각적 개체에는 해당 시각적 개체의 작동 방식을 보여 주는 데이터 샘플이 있습니다. 샘플을 다운로드하려면 [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0)에서 Power BI 시각적 개체를 선택하고 ‘샘플 사용해 보기’ 섹션에서 **샘플 보고서**를 클릭합니다. 
+AppSource에 있는 각각의 Power BI 시각적 개체에는 해당 시각적 개체의 작동 방식을 보여 주는 데이터 샘플이 있습니다. 샘플을 다운로드하려면 [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0)에서 Power BI 시각적 개체를 선택하고 ‘샘플 사용해 보기’ 섹션에서 **샘플 보고서**를 클릭합니다.
 
 ## <a name="organizational-store"></a>조직의 저장소
 
 Power BI 관리자는 Power BI 시각적 개체를 승인하고 조직에 배포합니다. 이렇게 하면 보고서 작성자가 쉽게 Power BI 시각적 개체를 발견하고, 업데이트하고, 사용할 수 있습니다. 관리자는 버전을 업데이트하고 Power BI 시각적 개체를 사용하도록 설정하거나 사용하지 않도록 설정하는 등의 작업을 통해 쉽게 시각적 개체를 관리할 수 있습니다.
 
-조직의 저장소에 액세스하려면 ‘시각화’ 창에서 **사용자 지정 시각적 개체 가져오기**를 클릭하고 **마켓플레이스에서 가져오기**를 선택한 후 ‘Power BI 시각적 개체’ 창 맨 위에 있는 **내 조직** 탭을 선택합니다.  
+조직의 저장소에 액세스하려면 ‘시각화’ 창에서 **사용자 지정 시각적 개체 가져오기**를 클릭하고 **마켓플레이스에서 가져오기**를 선택한 후 ‘Power BI 시각적 개체’ 창 맨 위에 있는 **내 조직** 탭을 선택합니다.
 
 [조직 시각적 개체에 대해 자세히 알아봅니다](power-bi-custom-visuals-organization.md).
 
@@ -65,7 +65,7 @@ Power BI 관리자는 Power BI 시각적 개체를 승인하고 조직에 배포
 
 Power BI 시각적 개체는 제공되는 데이터를 렌더링하기 위한 코드가 포함된 패키지입니다. 누구나 사용자 지정 시각적 개체를 만들고 단일 `.pbiviz` 파일로 패키지화한 다음, Power BI 보고서로 가져올 수 있습니다.
 
-Power BI 시각적 개체를 가져오려면 ‘시각화’ 창에서 **사용자 지정 시각적 개체 가져오기**를 클릭하고 **파일에서 가져오기**를 선택합니다. 
+Power BI 시각적 개체를 가져오려면 ‘시각화’ 창에서 **사용자 지정 시각적 개체 가져오기**를 클릭하고 **파일에서 가져오기**를 선택합니다.
 
 고유한 시각적 개체를 만들어 AppSource에 추가하려는 웹 개발자인 경우 [Power BI 시각적 개체를 개발](visuals/custom-visual-develop-tutorial.md)하고 [Power BI 시각적 개체를 AppSource에 게시](office-store.md)하는 방법을 배울 수 있습니다.
 

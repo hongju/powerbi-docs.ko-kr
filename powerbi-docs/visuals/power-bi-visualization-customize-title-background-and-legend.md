@@ -11,10 +11,10 @@ ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1e2465273368c6b76e602e5ffbdf4ec3a1d121a3
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75757834"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>시각화 제목, 배경 및 범례 사용자 지정
@@ -57,7 +57,7 @@ ms.locfileid: "75757834"
 
     a. 드롭다운을 선택하고 **테마 색**, **최근에 사용한 색**또는 **사용자 지정 색**에서 색을 선택합니다.
 
-        ![Screenshot of the Font color and Background color options.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
+    ![Screenshot of the Font color and Background color options.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
     b. 색 창을 닫으려면 드롭다운을 선택합니다.
 

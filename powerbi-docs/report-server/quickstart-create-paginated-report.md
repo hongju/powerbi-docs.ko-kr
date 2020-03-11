@@ -8,21 +8,21 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: 4c4228ea4276235a983849d2ea88e1030f4690f7
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 54416b314b03a5889c58004918513fecd7ff5ccd
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75732041"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75954264"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server에 페이지를 매긴 보고서 만들기
 이 문서에서는 몇 가지 간단한 단계를 거쳐 Power BI Report Server에 페이지를 매긴 보고서를 만듭니다.
 
-Power BI 서비스용 Report Builder에서 페이지가 매겨진 보고서를 만드는 데 도움이 필요한가요? [Power BI 페이지를 매긴 Report Builder](../report-builder-power-bi.md)를 참조하세요.
+Power BI 서비스용 보고서 작성기에서 페이지를 매긴 보고서를 만드는 데 도움이 필요한가요? [Power BI 보고서 작성기](../report-builder-power-bi.md)를 참조하세요.
 
 이름에서 알 수 있듯이 여러 페이지에서 페이지를 매긴 보고서를 실행할 수 있습니다. 고정된 형식으로 만들어졌으며 정확한 사용자 지정을 제공합니다. 페이지를 매긴 보고서는 .rdl 파일입니다.
 
-SSRS(SQL Server Reporting Services) 웹 포털의 경우와 마찬가지로 Power BI Report Server 웹 포털에서 페이지를 매긴 보고서를 저장하고 관리할 수 있습니다. SSDT(SQL Server Data Tools)의 보고서 작성기 또는 보고서 디자이너에서 만들고 편집한 다음 웹 포털에 게시합니다. 그런 다음 조직의 보고서 판독기는 해당 모바일 디바이스의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
+SSRS(SQL Server Reporting Services) 웹 포털의 경우와 마찬가지로 Power BI Report Server 웹 포털에서 페이지를 매긴 보고서를 저장하고 관리할 수 있습니다. SSDT(SQL Server Data Tools)의 보고서 작성기 또는 보고서 디자이너에서 만들고 편집한 다음 웹 포털에 게시합니다. 그런 다음 조직의 보고서 사용자는 해당 모바일 디바이스의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
 
 ![Power BI Report Server 페이지가 매겨진 보고서](media/quickstart-create-paginated-report/reportserver-paginated-report.png)
 
@@ -52,7 +52,7 @@ SSRS 서버에 보고서를 만들기 위해 보고서 작성기를 이미 설�
 ## <a name="step-2-go-through-the-chart-wizard"></a>2단계: 차트 마법사 설명
 차트 마법사는 보고서에서 시각화를 만드는 기본 단계를 설명합니다.
 
-페이지를 매긴 보고서는 Microsoft SQL Server와 Microsoft Azure SQL Database 및 Oracle, Hyperion 등과 같은 다양한 데이터 소스에 연결할 수 있습니다. [페이지를 매긴 보고서에서 지원하는 데이터 소스](connect-data-sources.md)를 참고하세요.
+페이지를 매긴 보고서는 Microsoft SQL Server와 Microsoft Azure SQL Database 및 Oracle, Hyperion 등과 같은 다양한 데이터 원본에 연결할 수 있습니다. [페이지를 매긴 보고서에서 지원하는 데이터 원본](connect-data-sources.md)을 참고하세요.
 
 차트 마법사의 첫 번째 페이지, **데이터 세트 선택**에서 데이터 세트를 만들거나 서버에 대한 공유 데이터 세트를 선택할 수 있습니다. *데이터 세트*는 외부 데이터 원본에 대한 쿼리에서 보고서 데이터를 반환합니다.
 

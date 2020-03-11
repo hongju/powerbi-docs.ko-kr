@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/10/2020
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 89934ca8ed64dd5e60a52e56c6aa1c172cf10435
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: 9c181deb4e36624fa714242583e3fe209abdfb47
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837447"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889331"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 분석을 위한 측정값 만들기
 
@@ -24,7 +24,7 @@ Power BI Desktop에서는 몇 번의 클릭만으로 데이터에 대한 정보�
 
 ## <a name="understanding-measures"></a>측정값 이해
 
-Power BI Desktop에서 측정값은 *보고서 뷰* 또는 *데이터 뷰*에서 만들고 표시합니다. 사용자가 직접 만든 측정값은 계산기 아이콘과 함께 **필드** 목록에 나타납니다. 측정값에 원하는 대로 이름을 지정하고 다른 모든 필드처럼 새 시각화나 기존 시각화에 추가할 수 있습니다.
+Power BI Desktop에서 측정값은 *보고서 보기* 또는 *데이터 보기*에서 만들고 표시합니다. 사용자가 직접 만든 측정값은 계산기 아이콘과 함께 **필드** 목록에 나타납니다. 측정값에 원하는 대로 이름을 지정하고 다른 모든 필드처럼 새 시각화나 기존 시각화에 추가할 수 있습니다.
 
 ![필드의 측정값 필드](media/desktop-measures/measuresinpbid_measinfieldlist.png)
 

@@ -32,6 +32,8 @@
               href: relationships-many-to-many.md
             - name: DirectQuery 모델 지침
               href: directquery-model-guidance.md
+            - name: 복합 모델 지침
+              href: composite-model-guidance.md
         - name: DAX
           items:
             - name: 나누기 함수 및 나누기 연산자(/)
@@ -50,8 +52,6 @@
               href: dax-column-measure-references.md
             - name: FILTER를 필터 인수로 사용하지 마세요.
               href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: 보고서 작성
-          items:
             - name: 보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
               href: report-page-tooltips.md
             - name: 보고서 페이지 드릴스루 사용
@@ -64,6 +64,10 @@
               href: report-paginated-blank-page.md
             - name: SSRS 보고서를 Power BI로 마이그레이션
               href: migrate-ssrs-reports-to-power-bi.md
+        - name: 관리 및 배포
+          items:
+            - name: 온-프레미스 데이터 게이트웨이 크기 조정
+              href: gateway-onprem-sizing.md
     - name: 백서
       items:
         - name: 백서 개요

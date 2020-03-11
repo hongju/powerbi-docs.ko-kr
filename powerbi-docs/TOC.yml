@@ -457,6 +457,8 @@
           href: service-get-started.md
         - name: GitHub 샘플에 연결
           href: service-tutorial-connect-to-github.md
+        - name: Excel에서 분석 사용
+          href: service-tutorial-analyze-in-excel.md
         - name: Cognitive Services 사용
           href: service-tutorial-use-cognitive-services.md
         - name: Machine Learning 통합
@@ -489,8 +491,10 @@
               href: service-new-workspaces.md
             - name: 작업 공유
               href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Power BI 사용 현황 모니터링
+            - name: 클래식 작업 영역에서 사용량 모니터링
               href: service-usage-metrics.md
+            - name: 새 작업 영역에서 사용량 모니터링
+              href: service-modern-usage-metrics.md
         - name: 라이선싱
           items:
             - name: Power BI에 등록
@@ -645,8 +649,6 @@
               href: service-create-qr-code-for-report.md
             - name: Power BI Desktop으로 보고서 내보내기(미리 보기)
               href: service-export-to-pbix.md
-            - name: URL의 매개 변수를 사용하여 보고서 필터링
-              href: service-url-filters.md
             - name: SAP 변수 편집
               href: service-edit-sap-variables.md
             - name: 빠르고 신뢰할 수 있는 보고서 빌드 모범 사례
@@ -691,8 +693,10 @@
           items:
             - name: 대시보드 및 보고서 공유
               href: service-share-dashboards.md
-            - name: 필터링된 보고서 공유
+            - name: 보고서 필터링 및 공유
               href: service-share-reports.md
+            - name: URL의 매개 변수를 사용하여 보고서 필터링
+              href: service-url-filters.md
             - name: 직접 및 다른 사용자 구독
               href: service-report-subscribe.md
             - name: SharePoint Online에 보고서 포함
@@ -961,16 +965,18 @@
       items:
         - name: 새로운 기능
           href: report-server/whats-new.md
+        - name: 관리자 개요
+          href: report-server/admin-handbook-overview.md
         - name: 로그 변경
           href: report-server/changelog.md
         - name: 지원 타임라인
           href: report-server/support-timeline.md
+        - name: Always Encrypted 지원
+          href: report-server/always-encrypted-support.md
         - name: 하드웨어 및 소프트웨어 요구 사항
           href: report-server/system-requirements.md
         - name: 브라우저 지원
           href: report-server/browser-support.md
-        - name: 관리자 개요
-          href: report-server/admin-handbook-overview.md
         - name: 보고서 서버 기본 사항
           items:
             - name: Power BI 보고서 예약된 새로 고침

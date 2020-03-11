@@ -56,7 +56,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>시각적 개체 유형별 전략 및 데이터 요소 제한
 
-### <a name="area-chart"></a>영역 차트
+### <a name="area-chart"></a>영역형 차트
 [선 샘플링 작동 방식](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works) 참조
 
 ### <a name="barcolumn-chart"></a>가로 막대형/세로 막대형 차트
@@ -115,7 +115,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 - 범례, 위도, 경도, 크기: 상위 233개 범례, 상위 15개 위도 및 경고(통계 또는 동적 제한을 사용할 수 있음)
 - 위치, 범례, 위도 및 경도를 집계로(+/-Size): 상위 233개 위치, 상위 15개 범례(통계 또는 동적 제한을 사용할 수 있음)
 
-### <a name="matrix"></a>Matrix
+### <a name="matrix"></a>행렬
 - 행: 한 번에 500개 행의 창을 사용하여 가상화
 - 열: 상위 100개 그룹화 열 
 - 값: 여러 값이 데이터 감소 계산에 포함되지 않음
