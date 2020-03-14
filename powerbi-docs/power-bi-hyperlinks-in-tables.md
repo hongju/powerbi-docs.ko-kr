@@ -34,7 +34,7 @@ Power BI Desktop에서는 URL이 포함된 필드를 하이퍼링크로 서식 �
     > [!NOTE]
     > DirectQuery 모드에서는 열을 만들 수 없습니다.  하지만 데이터에 URL이 이미 포함되어 있으면 하이퍼링크로 전환할 수 있습니다.
 
-2. 데이터 뷰에서 열을 선택합니다. 
+2. 데이터 보기에서 열을 선택합니다. 
 
 3. **모델링** 탭에서 **데이터 범주** > **웹 URL**을 선택합니다.
    
@@ -45,7 +45,7 @@ Power BI Desktop에서는 URL이 포함된 필드를 하이퍼링크로 서식 �
 
 ## <a name="create-a-table-or-matrix-with-a-hyperlink"></a>하이퍼링크가 있는 테이블 또는 행렬 만들기
 
-1. [하이퍼링크를 URL로 서식 지정](#format-a-url-as-a-hyperlink-in-power-bi-desktop)한 다음 보고서 뷰로 전환합니다.
+1. [하이퍼링크를 URL로 서식 지정](#format-a-url-as-a-hyperlink-in-power-bi-desktop)한 다음 보고서 보기로 전환합니다.
 2. 웹 URL로 분류한 필드를 사용하여 테이블 또는 행렬을 만듭니다. 하이퍼링크는 밑줄과 함께 파란색으로 표시됩니다.
 
     ![파란색 및 밑줄이 표시된 링크](media/power-bi-hyperlinks-in-tables/power-bi-url-blue-underline.png)
@@ -79,7 +79,7 @@ Power BI Desktop에서는 URL이 포함된 필드를 하이퍼링크로 서식 �
 
 1. 하이퍼링크가 있는 필드가 데이터 세트에 아직 없다면 Power BI Desktop을 사용하여 [사용자 지정 열](desktop-common-query-tasks.md)로 추가합니다. DirectQuery 모드에서 열을 만들 수 없습니다.  하지만 데이터에 URL이 이미 포함되어 있으면 하이퍼링크로 전환할 수 있습니다.
 
-2. 보고서 뷰에서 링크 텍스트로 서식 지정하려는 열이 포함 된 테이블 또는 행렬을 만듭니다.
+2. 보고서 보기에서 링크 텍스트로 서식 지정하려는 열이 포함 된 테이블 또는 행렬을 만듭니다.
 
 3. 테이블을 선택한 상태에서 **서식** 아이콘![페인트 롤러 아이콘](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)을 선택하여 서식 탭을 엽니다.
 
