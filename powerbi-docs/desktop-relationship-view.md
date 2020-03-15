@@ -24,6 +24,6 @@ ms.locfileid: "76753231"
 
 ![모델 보기, Power BI Desktop](media/desktop-relationship-view/model-view-full-screen.png)
 
-그림에서는 *StoreKey* 열이 있는 *Stores* 테이블이, 역시 *StoreKey* 열이 있는 *Sales* 테이블과 관련된 것을 볼 수 있습니다. 두 테이블에는 *다 대 일*(\*: 1) 관계가 있습니다. 선 가운데에 있는 화살표는 필터 컨텍스트 흐름의 방향을 표시합니다. 이중 화살표는 교차 필터 방향이 *양쪽*으로 설정되었음을 의미합니다.
+그림에서는 *StoreKey* 열이 있는 *Stores* 테이블이, 역시 *StoreKey* 열이 있는 *Sales* 테이블과 관련된 것을 볼 수 있습니다. 두 테이블에는 *다 대 일*(\*: 1) 관계가 있습니다. 선 가운데에 있는 화살표는 필터 컨텍스트 흐름의 방향을 표시합니다. 이중 화살표는 교차 필터 방향이 *모두*로 설정되었음을 의미합니다.
 
 관계를 두 번 클릭하여 **관계 편집** 대화 상자를 열 수 있습니다. 관계에 대한 자세한 내용은 [Power BI Desktop에서 관계 만들기 및 관리](desktop-create-and-manage-relationships.md)를 참조하세요.
