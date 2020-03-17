@@ -83,7 +83,7 @@ Power BI는 대시보드 및 보고서를 사용자 지정할 수 있는 다양�
 
 ![세 개의 세로 점을 클릭하여 조건부 서식 지정 옵션 선택](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
 
-**기본 색** 창에서 드롭다운을 사용하여 조건부 서식 지정에 사용할 필드를 식별합니다. 이 예제에서는 **Sales 팩트** > **총 단위** 필드를 선택하고 **최소값**에 대해 밝은 파란색과 **최대값**에 대해 진한 파란색을 선택합니다. 
+**기본 색** 창에서 드롭다운을 사용하여 조건부 서식 지정에 사용할 필드를 식별합니다. 이 예제에서는 **Sales 팩트** > **총 단위** 필드를 선택하고 **최솟값**에 대해 밝은 파란색과 **최댓값**에 대해 진한 파란색을 선택합니다.  
 
 ![데이터 색상별 조건부 서식 지정 설정](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting2-new.png)
 
