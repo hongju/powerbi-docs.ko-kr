@@ -63,7 +63,7 @@ Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율
 
    ![질문하기 아이콘 위치](media/power-bi-visualization-card/power-bi-q-and-a-overview.png)
 
-2. 예를 들어, 질문 상자에 “Total Sales for Tina”을 입력합니다.
+2. 예를 들어, 질문 상자에 “Total Sales for Tina”를 입력합니다.
 
     질문 상자는 제안 기능과 설명을 통해 질문 과정을 도와주며, 마지막으로 총 수를 표시합니다.  
 
