@@ -44,7 +44,7 @@ ms.locfileid: "74010943"
 2. **시각적 상호 작용** 옵션을 표시합니다.
     
 
-    - Power BI Desktop 에서 **서식 > 상호 작용 편집** 을 선택합니다.
+    - Power BI Desktop에서 **서식 > 상호 작용 편집**을 선택합니다.
 
         ![형식 및 상호 작용 선택](media/service-reports-visual-interactions/power-bi-interaction.png)
 
