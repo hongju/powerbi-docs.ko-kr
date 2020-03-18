@@ -82,7 +82,7 @@ ms.locfileid: "75223433"
 2. **필드** 창에서 정렬하려는 열을 선택하면 **열 기준 정렬** 단추가 활성화됩니다.
    
    ![활성 열 기준 정렬 단추](media/desktop-sort-by-column/sortbycolumn_10.png)
-3. 이제 선택한 시각적 개체로 기본값(*MonthName*) 대신 *MonthOfYear*를 선택할 수 있습니다. 이제 시각적 개체가 원하는 순서인 연도의 월별로 정렬됩니다.
+3. 이제 선택한 시각적 개체로 기본값 *MonthName* 대신 *MonthOfYear*를 선택할 수 있습니다. 이제 시각적 개체가 원하는 순서인 연도의 월별로 정렬됩니다.
    
    ![열 기준 정렬 메뉴](media/desktop-sort-by-column/sortbycolumn_11.png)
 
