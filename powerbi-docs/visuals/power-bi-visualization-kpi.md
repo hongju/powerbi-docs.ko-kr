@@ -52,7 +52,7 @@ KPI 데이터 세트에는 KPI에 대한 목표 값이 포함되어야 합니다
 
 1. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
 
-1. 보고서 뷰에서 **소매점 분석 샘플 PBIX 파일**을 엽니다. ![보고서 뷰 아이콘의 스크린샷.](media/power-bi-visualization-kpi/power-bi-report-view.png)
+1. 보고서 보기에서 **소매점 분석 샘플 PBIX 파일**을 엽니다. ![보고서 뷰 아이콘의 스크린샷.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
 1. 새 페이지를 추가하려면 **+** 를 선택하세요. ![노란색 탭의 스크린샷.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
 
@@ -79,13 +79,13 @@ KPI 데이터 세트에는 KPI에 대한 목표 값이 포함되어야 합니다
 
     ![KPI 아이콘이 호출된 시각화 창의 스크린샷](media/power-bi-visualization-kpi/power-bi-kpi-template.png)
 
-1. 목표를 추가하려면 **지난해 총 단위**를 **목표 대상** 필드로 끌어옵니다.
+1. 목표를 추가하려면 **지난해 총 단위**를 **대상 목표** 필드로 끌어옵니다.
 
     ![완료된 KPI 시각적 개체 및 값이 표시된 필드 창이 있는 스크린샷](media/power-bi-visualization-kpi/power-bi-kpi-done.png)
 
 1. 필요에 따라 페인트 롤러 아이콘을 선택하여 KPI의 형식을 지정하고 서식 창을 엽니다.
 
-    * **표시기** - 표시기의 표시 단위 및 소수 자릿수를 제어합니다.
+    * **지표** - 표시기의 표시 단위 및 소수 자릿수를 제어합니다.
 
     * **추세 축** - **켜기**로 설정된 경우 추세 축이 KPI 시각적 개체의 배경으로 표시됩니다.  
 
