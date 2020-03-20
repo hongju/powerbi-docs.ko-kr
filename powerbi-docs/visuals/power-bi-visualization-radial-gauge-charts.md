@@ -54,23 +54,23 @@ Will이 단일 메트릭 시각적 개체: 계기, 카드 및 KPI를 만드는 �
    
 2. **재무 샘플 Excel 파일**을 찾습니다.
 
-1. **재무 샘플 Excel 파일**을 보고서 보기 ![보고서 보기 아이콘의 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **재무 샘플 Excel 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘의 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
 1. **재무** 및 **Sheet1**을 선택합니다.
 
 1. **로드**를 클릭합니다.
 
-1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)를 선택합니다.
 
 
-
+ 
 ## <a name="create-a-basic-radial-gauge"></a>기본 방사형 계기 만들기
 
 ### <a name="step-1-create-a-gauge-to-track-gross-sales"></a>1단계: 총 매출을 추적하는 계기 만들기
 
 1. 빈 보고서 페이지에서 시작합니다.
 
-1. **필드** 창에서 **총매출액**을 선택합니다.
+1. **필드** 창에서 **총 판매액**을 선택합니다.
 
    ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
@@ -85,11 +85,11 @@ Will이 단일 메트릭 시각적 개체: 계기, 카드 및 KPI를 만드는 �
     **재무 샘플** 파일을 다운로드하는 시점에 따라 이러한 수치와 일치하지 않는 숫자가 표시될 수 있습니다.
 
     > [!TIP]
-    > 기본적으로 Power BI는 현재 값(이 경우, **평균 총매출액**)이 계기에 중간 지점으로 간주되는 계기 차트를 만듭니다. **평균 총매출액** 값이 $182.76K이므로 시작 값(최소)은 0으로 설정하고 끝 값(최대)은 현재 값의 두 배로 설정됩니다.
+    > 기본적으로 Power BI는 현재 값(이 경우, **평균 총 판매액**)이 계기에 중간 지점으로 간주되는 계기 차트를 만듭니다. **평균 총 판매액** 값이 $182.76K이므로 시작 값(최소)은 0으로 설정하고 끝 값(최대)은 현재 값의 두 배로 설정됩니다.
 
 ### <a name="step-3-set-a-target-value"></a>3단계: 대상 값 설정
 
-1. **필드** 창에서 **대상 값** 으로 **COGS**를 끕니다.
+1. **필드** 창에서 **대상 값**으로 **COGS**를 끕니다.
 
 1. 집계를 **평균**으로 변경합니다.
 
@@ -136,7 +136,7 @@ Will이 단일 메트릭 시각적 개체: 계기, 카드 및 KPI를 만드는 �
 
     ![선택 취소한 COGS 옵션의 스크린샷](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 
-1. **대상** 필드가 **게이지 축**아래에 나타나는 경우 값을 입력합니다.
+1. **대상** 필드가 **게이지 축** 아래에 나타나는 경우 값을 입력합니다.
 
      ![대상이 호출된 게이지 축 옵션의 스크린샷](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 
