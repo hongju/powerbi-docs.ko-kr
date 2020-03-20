@@ -36,7 +36,7 @@ ms.locfileid: "74311665"
 
 ### <a name="scatter-and-bubble-charts"></a>분산형 및 거품형 차트
 
-분산형 차트는 두 숫자 값 사이의 관계를 표시합니다. 거품형 차트는 데이터 요소를 거품으로 바꾸고 거품 ‘크기’로 제 3의 추가 데이터 차원을 나타냅니다. 
+분산형 차트는 두 숫자 값 사이의 관계를 표시합니다. 거품형 차트는 데이터 요소를 거품으로 바꾸고 거품 ‘크기’로 제3의 추가 데이터 차원을 나타냅니다.  
 
 ![샘플 거품형 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
