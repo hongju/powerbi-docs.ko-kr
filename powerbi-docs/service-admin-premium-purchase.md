@@ -127,7 +127,7 @@ Azure Portal에서 A SKU를 구매하려면 다음 단계를 수행합니다.
 
 1. Power BI에서 최소한 용량 관리자 권한이 있는 계정으로 [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
-1. _Power BI Embedded_를 검색하고 검색 결과에서 서비스를 선택합니다.
+1. _Power BI Embedded_ 를 검색하고 검색 결과에서 서비스를 선택합니다.
 
     ![Azure Portal 검색](media/service-admin-premium-purchase/azure-portal-search.png)
 
