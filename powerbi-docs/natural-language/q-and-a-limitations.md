@@ -36,7 +36,7 @@ Power BI 질문 및 답변은 Power BI 서비스에서 다음과 같은 데이�
 Power BI 질문 및 답변은 현재 다음과 같은 구성을 지원하지 않습니다.
 
 - 모든 데이터 원본 형식을 사용한 개체 수준 보안
-- 모든 원본에 대한 DirectQuery 이 구성을 지원하는 대체 방법은 DirectQuery를 사용하는 Azure Analysis Services와의 라이브 연결을 이용하는 것입니다.
+- 모든 원본에 대한 DirectQuery. 이 구성을 지원하는 대체 방법은 DirectQuery를 사용하는 Azure Analysis Services와의 라이브 연결을 이용하는 것입니다.
 - 복합 모델
 - Reporting Services 
 
@@ -52,9 +52,9 @@ Power BI 질문 및 답변은 현재 다음과 같은 구성을 지원하지 않
 
 사용자는 **설정** > **일반**을 선택하고 **질문 및 답변에서 발화를 기록하도록 허용**의 선택을 취소하여 질문이 기록되지 않도록 할 수도 있습니다. 
 
-## <a name="teach-qa-limitations"></a>Q&A 교육 제한 사항
+## <a name="teach-qa-limitations"></a>질문 및 답변 학습 제한 사항
 
-Q&A 교육을 사용하면 다음 두 가지 유형의 오류를 수정할 수 있습니다.
+질문 및 답변 학습을 사용하면 다음 두 가지 유형의 오류를 수정할 수 있습니다.
 
 - 필드에 단어를 할당합니다.
 - 필터 조건에 단어를 할당합니다.
