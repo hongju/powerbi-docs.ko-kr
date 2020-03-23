@@ -67,7 +67,7 @@ BYOK는 PBIX 파일과 연결된 데이터 세트에만 적용되며 타일 및 
 1. **확인**과 **저장**을 차례로 선택합니다.
 
 > [!NOTE]
-> Futurem의 데이터에 대한 Power BI 액세스를 취소하려면 Azure Key Vault에서 이 서비스 사용자에 대한 액세스 권한을 제거합니다.
+> 나중에 데이터에 대한 Power BI 액세스를 취소하려면 Azure Key Vault에서 이 서비스 사용자에 대한 액세스 권한을 제거합니다.
 
 ### <a name="create-an-rsa-key"></a>RSA 키 만들기
 
