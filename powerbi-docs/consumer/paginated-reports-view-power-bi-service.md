@@ -47,7 +47,7 @@ ms.locfileid: "74834612"
     
    ![보고서 페이징](media/paginated-reports-view-power-bi-service/power-bi-paginated-page-thru-report.png)
 
-4. 페이지를 매긴 보고서를 내보낼 형식을 찾으려면 **내보내기**를 선택합니다.
+4. 페이지를 매긴 보고서의 내보낼 형식을 찾으려면 **내보내기**를 선택합니다.
 
     ![내보내기 형식 선택](media/paginated-reports-view-power-bi-service/power-bi-paginated-export.png)
 
