@@ -35,17 +35,17 @@ ms.locfileid: "75732087"
 
    이 설정을 변경할 수 없는 경우도 있습니다. 변경할 수 없는 경우 Power BI Premium 용량 관리자에게 문의하여 프리미엄 용량에 작업 영역을 추가할 수 있는 할당 권한을 받으세요.
 
-## <a name="from-report-builder-publish-a-paginated-report"></a>Report Builder에서 페이지를 매긴 보고서 게시
+## <a name="from-report-builder-publish-a-paginated-report"></a>보고서 작성기에서 페이지를 매긴 보고서 게시
 
 1. 보고서 작성기에서 페이지를 매긴 보고서를 만들어 로컬 컴퓨터에 저장합니다.
 
-1. Report Builder **파일** 메뉴에서 **다른 이름으로 저장**을 선택합니다.
+1. 보고서 작성기 **파일** 메뉴에서 **다른 이름으로 저장**을 선택합니다.
 
     ![파일 메뉴 > 저장 > 다른 이름으로 저장](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
 
-    Power BI에 아직 로그인하지 않은 경우 지금 로그인하거나 계정을 만들어야 합니다. Report Builder의 오른쪽 위에서 **로그인**을 선택하고 단계를 완료합니다.
+    Power BI에 아직 로그인하지 않은 경우 지금 로그인하거나 계정을 만들어야 합니다. 보고서 작성기의 오른쪽 위에서 **로그인**을 선택하고 단계를 완료합니다.
 
-2. 왼쪽의 작업 영역 목록에서 해당 이름 옆에 다이아몬드 아이콘(![Power BI Premium Capacity 다이아몬드 아이콘](media/paginated-reports-save-to-power-bi-service/premium-diamond.png))이 있는 작업 영역을 선택합니다. 상자에 **파일 이름**을 입력하고 > **저장**합니다. 
+2. 왼쪽의 작업 영역 목록에서 해당 이름 옆에 다이아몬드 아이콘(![Power BI Premium Capacity 다이아몬드 아이콘](media/paginated-reports-save-to-power-bi-service/premium-diamond.png))이 있는 작업 영역을 선택합니다. 입력 상자에 **파일 이름**을 입력하고 > **저장**합니다. 
 
     ![Premium 작업 영역 선택](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
 
