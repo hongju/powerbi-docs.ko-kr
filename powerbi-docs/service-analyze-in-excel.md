@@ -68,7 +68,7 @@ Power BI에서 보고서나 데이터 세트 옆에 있는 줄임표 메뉴(보�
 ### <a name="users-with-multiple-power-bi-accounts"></a>Power BI 계정이 여러 개인 사용자
 Power BI 계정이 여러 개인 사용자는, Power BI에 로그인한 계정과, Excel에서 분석에 사용되는 데이터 세트에 대한 액세스가 있는 계정이 다른 경우를 접할 수 있습니다. 이런 경우, Excel에서 분석 통합 문서에 사용되는 데이터 세트에 액세스를 시도하면 **사용할 수 없음** 오류가 발생하거나 로그인에 실패할 수 있습니다.
 
-다시 로그인할 수 있는 기회가 제공되며, 이 때 Excel에서 분석에서 액세스하는 데이터 세트에 대한 액세스가 있는Power BI 계정으로 로그인할 수 있습니다. Excel에서 현재 로그인한 계정을 식별하고, 로그아웃할 수 있는(이어서, 다른 계정으로 로그인하는) 링크를 제공하는 **Power BI** 리본 탭에서 **프로필**을 선택할 수도 있습니다. 아직 설치하지 않은 경우 [Power BI publisher for Excel을 다운로드](https://www.microsoft.com/download/details.aspx?id=50729)할 수 있습니다. 그러면 Excel의 Power BI 리본이 설치됩니다.
+다시 로그인할 수 있는 기회가 제공되며, 이 때 Excel에서 분석에서 액세스하는 데이터 세트에 대한 액세스가 있는 Power BI 계정으로 로그인할 수 있습니다. Excel에서 현재 로그인한 계정을 식별하고, 로그아웃할 수 있는(이어서, 다른 계정으로 로그인하는) 링크를 제공하는 **Power BI** 리본 탭에서 **프로필**을 선택할 수도 있습니다. 아직 설치하지 않은 경우 [Power BI publisher for Excel을 다운로드](https://www.microsoft.com/download/details.aspx?id=50729)할 수 있습니다. 그러면 Excel의 Power BI 리본이 설치됩니다.
 
 ![](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
 
