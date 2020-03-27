@@ -36,7 +36,7 @@ Power BI는 비즈니스 연속성을 보장하기 위해 Azure 데이터 센터
 
 ## <a name="where-are-the-failover-clusters-located"></a>장애 조치(failover) 클러스터는 어디에 있나요?
 
-백업 인스턴스는 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)에 표시된 경우를 제외하고 조직에서 Power BI에 등록할 때 선택한 동일한 지리적 위치(지역) 내에 있습니다. 한 지역은 여러 지역을 포함할 수 있으며 Microsoft는 모든 데이터 복원력을 위해 지정된 지역 내의 모든 지역에 데이터를 복제할 수 있습니다. Microsoft는 고객 데이터를 지역 외부에서 복제하거나 이동하지 않습니다. Power BI가 제공하는 지역 및 지역 내의 매핑은 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)를 참조하세요.
+백업 인스턴스는 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)에 표시된 경우를 제외하고 조직에서 Power BI에 등록할 때 선택한 동일한 지리적 위치(지역) 내에 있습니다. 한 지역은 여러 지역을 포함할 수 있으며 Microsoft는 모든 데이터 복원력을 위해 지정된 지역 내의 모든 지역에 데이터를 복제할 수 있습니다. Microsoft는 고객 데이터를 지역 외부로 복제하거나 이동하지 않습니다. Power BI가 제공하는 지역 및 지역 내의 매핑은 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)를 참조하세요.
 
 ## <a name="how-does-microsoft-decide-to-failover"></a>Microsoft가 장애 조치(failover)를 결정하는 방법은?
 
