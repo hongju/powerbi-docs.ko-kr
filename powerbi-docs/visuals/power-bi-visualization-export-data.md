@@ -38,7 +38,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
 ## <a name="export-data-from-a-power-bi-dashboard"></a>Power BI 대시보드에서 데이터 내보내기
 
-1. 시각화의 오른쪽 위 모서리에서 추가 작업(...)을 선택합니다.
+1. 시각화의 오른쪽 위 모서리에서 추가 옵션(...)을 선택합니다.
 
     ![줄임표 단추를 가리키는 화살표가 있는 시각화의 스크린샷](media/power-bi-visualization-export-data/pbi-export-tile3.png)
 
@@ -192,7 +192,7 @@ Power BI 관리자와 디자이너가 독점 데이터를 보호하기 위해 �
 | 측정값만 해당 | 모든 관련된 테이블에서 숨겨지지 않은 모든 열(측정값을 확장하기 위해) |
 | 측정값만 해당 | 모델 측정값의 중복 행에 대한 요약된 데이터 |
 
-\*Power BI Desktop 또는 서비스의 보고 보기에서 *측정값*은 계산기 아이콘![아이콘 표시](media/power-bi-visualization-export-data/power-bi-calculator-icon.png)와 함께 **필드** 목록에 표시됩니다. Power BI Desktop에서 측정값을 만들 수 있습니다.
+\*Power BI Desktop 또는 서비스의 보고서 보기에서 *측정값*은 계산기 아이콘![아이콘 표시](media/power-bi-visualization-export-data/power-bi-calculator-icon.png)과 함께 **필드** 목록에 표시됩니다. Power BI Desktop에서 측정값을 만들 수 있습니다.
 
 ### <a name="set-the-export-options"></a>내보내기 옵션 설정
 
