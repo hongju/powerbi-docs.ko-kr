@@ -37,7 +37,7 @@ ms.locfileid: "75732064"
 
 ### <a name="how-do-i-turn-onoff-my-paginated-reports-workload"></a>페이지를 매긴 보고서 워크로드를 켜는/끄는 방법은 무엇인가요?
 
-용량 관리자는 용량 관리자 포털 페이지에서 페이지를 매긴 보고서 워크로드를 사용하거나 사용하지 않도록 설정할 수 있습니다.  기본적으로 워크로드는 사용자가 만드는 새 용량에 대해 켜집니다.  
+용량 관리자는 용량 관리자 포털 페이지에서 페이지를 매긴 보고서 워크로드를 사용하거나 사용하지 않도록 설정할 수 있습니다.  기본적으로 워크로드는 사용자가 만드는 새 용량에 대해 설정됩니다.  
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>내 테넌트에서 페이지를 매긴 보고서의 사용량을 모니터링할 수 있는 방법은 무엇인가요?
 
@@ -54,7 +54,7 @@ ReportType 필드에는 Power BI 보고서가 아닌 페이지를 매긴 보고�
 
 - 게이트웨이에 바인딩된 Power BI 데이터 세트
 - Power BI 데이터 원본 검색
-- TakeOverDatasource
+- Power BI 데이터 원본 인계
 
 ### <a name="can-i-monitor-this-workload-through-the-premium-capacity-monitoring-app"></a>프리미엄 용량 모니터링 앱을 통해 이 워크로드를 모니터링할 수 있나요?
 
