@@ -87,7 +87,7 @@ BYOK는 PBIX 파일과 연결된 데이터 세트에만 적용되며 타일 및 
 
     ![PBIX 파일 구성 요소](media/service-encryption-byok/key-properties.png)
 
-### <a name="soft-delete-option"></a>일시 삭제 옵션
+### <a name="soft-delete-option"></a>일시 삭제(Soft Delete) 옵션
 
 키(또는 키 자격 증명 모음)가 실수로 삭제되는 경우 데이터가 손실되는 것을 방지하기 위해 키 자격 증명 모음에 [일시 삭제](/azure/key-vault/key-vault-ovw-soft-delete)를 사용하도록 설정하는 것이 좋습니다. 이 옵션은 Azure Portal에서 아직 사용할 수 없기 때문에 [PowerShell을 사용하여 키 자격 증명 모음에서 "일시 삭제" 속성을 사용하도록 설정](/azure/key-vault/key-vault-soft-delete-powershell)해야 합니다.
 
