@@ -133,7 +133,7 @@ ms.locfileid: "76539627"
 
    Power BI Desktop은 이제 **필드** 창의 캔버스 오른쪽에 사용할 수 있는 모든 필드를 표시합니다.
 
-1. **필드** 창에서 **FactInternetSales** 테이블의 **SalesAmount** 측정 및 **SalesTerritory** 테이블의 **SalesTerritoryRegion** 차원을 선택합니다.
+1. **필드** 창에서 **FactInternetSales** 테이블의 **SalesAmount** 측정값 및 **SalesTerritory** 테이블의 **SalesTerritoryRegion** 차원을 선택합니다.
 
 1. 이 보고서를 간단하게 유지하기 위해 지금 더 많은 열을 추가하지 않습니다. 좀 더 의미 있는 데이터 표현을 위해 시각화를 **도넛형 차트**로 변경합니다.
 
