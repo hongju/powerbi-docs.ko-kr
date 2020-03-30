@@ -48,7 +48,7 @@ ms.locfileid: "76829285"
     ![사용량 메트릭 보고서가 준비됨](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-ready.png)
 
 1. 결과를 보려면 **사용 메트릭 보기**를 선택합니다.
-2. 이 작업을 처음으로 수행하는 경우 Power BI가 이전 사용량 메트릭 보고서를 열 수 있습니다. 향상된 사용량 메트릭 보고서를 표시하려면 오른쪽 위 모서리에서 새 사용량 보고서 해제 스위치를 **켜기**로 전환합니다.
+2. 이 작업을 처음으로 수행하는 경우 Power BI가 이전 사용량 메트릭 보고서를 열 수 있습니다. 향상된 사용량 메트릭 보고서를 표시하려면 오른쪽 위 모서리에서 새 사용량 보고서 끄기 스위치를 **켜기**로 전환합니다.
 
     ![최신 사용량 메트릭 보고서로 전환](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-on.png)
 
@@ -162,7 +162,7 @@ ms.locfileid: "76829285"
 - **새 보고서를 사용하여 [데이터 세트에 연결](#create-a-new-usage-report-in-power-bi-desktop)합니다.**   모든 작업 영역에 대해 앞의 [사용량 메트릭 보고서 데이터 세트](#usage-metrics-report-dataset) 섹션에서 설명한 대로 데이터 세트 이름은 "사용량 메트릭 보고서"입니다. Power BI Desktop을 사용하여 기본 데이터 세트를 바탕으로 사용자 지정 사용량 메트릭 보고서를 작성할 수 있습니다.
 - **[Excel에서 분석을 사용](#analyze-usage-data-in-excel)합니다.**   Microsoft Excel 2010 SP1 이상에서 피벗 테이블, 차트 및 슬라이서 기능을 활용하여 Power BI 사용량 데이터를 분석할 수도 있습니다. [Excel에서 분석](service-analyze-in-excel.md) 기능에 대해 자세히 알아보세요.
 
-### <a name="create-a-copy-of-the-usage-report"></a>사용 보고서의 복사본 만들기
+### <a name="create-a-copy-of-the-usage-report"></a>사용량 보고서의 복사본 만들기
 
 미리 작성된 읽기 전용 사용량 보고서의 복사본을 만들면 해당 보고서의 편집 가능한 인스턴스가 생성됩니다. 얼핏 보기에는 완전히 같아 보이지만 이 복사본에서는 편집용 보기로 보고서를 열고, 새 시각화, 필터 및 페이지를 추가하고, 기존 시각화를 수정하거나 삭제하는 등 많은 작업을 수행할 수 있습니다. 새 보고서는 현재 작업 영역에 저장됩니다.
 
@@ -206,7 +206,7 @@ Power BI Desktop에서 사용량 메트릭 보고서 데이터 세트를 기반�
 
     ![사용량 메트릭 보고서 필드 목록 보기](media/service-modern-usage-metrics/power-bi-desktop-fields-list.png)
 
-1. 이제 모두 동일한 사용량 메트릭 보고서 데이터 세트를 기반으로 사용자 지정 사용 보고서를 만들고 공유할 수 있습니다.
+1. 이제 모두 동일한 사용량 메트릭 보고서 데이터 세트를 기반으로 사용자 지정 사용량 보고서를 만들고 공유할 수 있습니다.
 
 ### <a name="analyze-usage-data-in-excel"></a>Excel에서 사용량 데이터 분석
 
