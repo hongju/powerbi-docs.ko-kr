@@ -36,7 +36,7 @@ ms.locfileid: "77026741"
 
 데이터를 가져오려면:
 
-1. Power BI Desktop 리본 메뉴의 **홈** 탭 **외부 데이터** 그룹의 **데이터 가져오기**를 클릭한 후 **웹**을 선택합니다.
+1. Power BI Desktop 리본 메뉴의 **홈** 탭에서 **데이터 가져오기** 옆에 있는 화살표를 클릭한 후 **웹**을 선택합니다.
 
    ![리본에서 데이터 가져오기](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web3.png) 
 
@@ -47,14 +47,14 @@ ms.locfileid: "77026741"
 
     ![대화 상자에서 데이터 가져오기](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
 
-   Wikipedia 웹 페이지에 연결한 후 **탐색기** 대화 상자에는 페이지에서 사용 가능한 테이블 목록이 표시됩니다. 테이블 이름을 선택하여 데이터를 미리 볼 수 있습니다. 정확히 원하는 셰이프는 아니지만 원하는 데이터가 **Results[edit]** 테이블에 있습니다. 보고서에 로드하기 전에 데이터를 다시 셰이핑하고 정리합니다.
+   Wikipedia 웹 페이지에 연결한 후 **탐색기** 대화 상자에는 페이지에서 사용 가능한 테이블 목록이 표시됩니다. 테이블 이름을 선택하여 데이터를 미리 볼 수 있습니다. 정확히 원하는 셰이프는 아니지만 원하는 데이터가 **Results[편집]** 테이블에 있습니다. 보고서에 로드하기 전에 데이터를 다시 셰이핑하고 정리합니다.
 
    ![탐색기 대화 상자](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
 
    >[!NOTE]
    >**미리 보기** 창에는 선택된 가장 최근 테이블이 표시되지만 **데이터 변환** 또는 **로드**를 선택하면 선택된 모든 테이블이 Power Query 편집기로 로드됩니다.
 
-1. **탐색기** 목록에서 **Results[edit]** 테이블을 선택한 후 **데이터 변환**을 선택합니다.
+1. **탐색기** 목록에서 **Results[편집]** 테이블을 선택한 후 **데이터 변환**을 선택합니다.
 
    테이블의 미리 보기가 **Power Query 편집기**에서 열리고, 여기에서 변환을 적용하여 데이터를 정리할 수 있습니다.
 
