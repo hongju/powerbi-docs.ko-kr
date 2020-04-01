@@ -160,9 +160,9 @@ V3와 V4 사이에는 다른 점이 있습니다. OData V3는 날짜를 지원�
 
 |식별자  |유니코드  | Power BI용 코딩  |
 |---------|---------|---------|
-|**Table Name**     | 공간은 0x20입니다.        |  Table_x0020_Name       |
+|**Table Name**     | 공백은 0x20입니다.        |  Table_x0020_Name       |
 |**Column**@**Number**     |   @은 0x40입니다.     |  Column_x0040_Number       |
-|**[Column]**     |  [ is 0x005B ]는 0x005D입니다.       |  _x005B_Column_x005D_       |
+|**[Column]**     |  [는 0x005B이며, ]는 0x005D입니다.       |  _x005B_Column_x005D_       |
 |**Column+Plus**     | +는 0x2B입니다.        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![테이블 시각적 개체 렌더링 특수 문자](media/service-url-filters/power-bi-special-characters1.png)
