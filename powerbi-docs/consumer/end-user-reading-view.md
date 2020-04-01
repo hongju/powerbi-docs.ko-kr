@@ -80,7 +80,7 @@ Power BI 대시보드는 시각화를 사용하여 스토리를 전달하는 단
 
 ![주석 달기 동영상](./media/end-user-reading-view/comment.gif)
 
-[주석 달기](end-user-comment.md)에 대한 자세한 정보
+[댓글 추가](end-user-comment.md)에 대한 자세한 정보
 
 ### <a name="sit-back-and-let-power-bi-work-for-you"></a>Power BI에서 자동으로 작업 수행
 Power BI 서비스에서 자동으로 작업을 수행하는 두 가지 방법은 구독과 경고를 사용하는 것입니다. 
