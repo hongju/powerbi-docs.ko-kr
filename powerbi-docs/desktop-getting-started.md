@@ -55,7 +55,7 @@ Power BI Desktop을 처음 시작하면 **시작** 화면이 표시됩니다.
 
 ![Power BI Desktop 시작 화면](media/desktop-getting-started/designer_gsg_startsplashscreen.png)
 
-Power BI Desktop 왼쪽에는 세 가지 Power BI Desktop 뷰의 아이콘이 있습니다. **보고서**, **데이터** 및 **관계**. 현재 뷰는 왼쪽에 있는 노란색 막대로 표시되며, 아이콘 중 하나를 선택하여 뷰를 변경할 수 있습니다. 
+Power BI Desktop 왼쪽에는 세 가지 Power BI Desktop 보기의 아이콘이 있습니다. **보고서**, **데이터** 및 **관계**. 현재 보기는 왼쪽에 있는 노란색 막대로 표시되며, 아이콘 중 하나를 선택하여 보기를 변경할 수 있습니다. 
 
 ![Power BI Desktop 뷰 아이콘 3개](media/desktop-getting-started/designer_gsg_viewtypes.png)
 
@@ -228,7 +228,7 @@ Power BI Desktop이 설치되면 계속 확장되는 데이터에 연결할 수 
 테이블이 Power BI Desktop에 로드된 후에 테이블을 더 변경하고 모델을 다시 로드하여 변경 내용을 적용할 수 있습니다. Power BI Desktop에서 **Power Query 편집기**를 다시 열려면 Power BI Desktop 리본의 **홈** 탭에서 **쿼리 편집**을 선택합니다. 
 
 ## <a name="build-reports"></a>보고서 작성
-Power BI Desktop **보고서** 뷰에서 시각화와 보고서를 작성할 수 있습니다. **보고서** 뷰에는 다음 6개의 기본 영역이 있습니다.
+Power BI Desktop **보고서** 보기에서 시각화와 보고서를 작성할 수 있습니다. **보고서** 보기에는 다음 6개의 기본 영역이 있습니다.
 
 ![Power BI Desktop 보고서 뷰](media/desktop-getting-started/designer_gsg_reportview.png)
 
