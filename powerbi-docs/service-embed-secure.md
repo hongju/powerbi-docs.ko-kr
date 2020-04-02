@@ -20,7 +20,7 @@ ms.locfileid: "76913597"
 
 Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에 보고서를 쉽고 안전하게 포함할 수 있습니다. 이러한 포털은 **클라우드 기반**이거나 **온-프레미스에 호스트**될 수 있습니다(예: SharePoint 2019). 포함된 보고서는 [RLS(행 수준 보안)](service-admin-rls.md)를 통해 모든 항목 사용 권한 및 데이터 보안을 준수합니다. 이 기능은 URL 또는 iFrame을 허용하는 모든 포털에 대한 코드 없는 포함을 지원합니다. 
 
-**포함** 옵션은 또한 [URL 필터](service-url-filters.md) 및 URL 설정을 지원합니다. 또한 기본 HTML 및 JavaScript 지식을 필요로 하는 로우 코드 접근 방식을 사용하는 포털과의 통합할 수 있습니다.
+**포함** 옵션은 또한 [URL 필터](service-url-filters.md) 및 URL 설정을 지원합니다. 또한 기본 HTML 및 JavaScript 지식만 있으면 로우 코드 접근 방식을 사용하는 포털과 통합할 수 있습니다.
 
 ## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI 보고서를 포털에 **포함**하는 방법
 
@@ -32,7 +32,7 @@ Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에
 
     ![포함 옵션 대화 상자](media/service-embed-secure/secure-embed-code-dialog.png)
 
-3. 보고서 URL을 직접 열거나 웹 포털에 포함된 보고서를 열거나 상관없이 보고서에 액세스하려면 인증을 받아야 합니다. 사용자가 브라우저 세션에서 Power BI에 로그인하지 않은 경우 다음 화면이 표시됩니다. 사용자가 **로그인**을 선택하면 새 브라우저 창 또는 탭이 열릴 수 있습니다. 로그인 메시지가 표시되지 않는 경우 팝업 차단을 확인하라고 하세요.
+3. 보고서 URL을 직접 열거나 웹 포털에 포함된 보고서를 열거나 상관없이 보고서에 액세스하려면 인증을 받아야 합니다. 사용자가 브라우저 세션에서 Power BI에 로그인하지 않은 경우 다음 화면이 표시됩니다. 사용자가 **로그인**을 선택하면 새 브라우저 창 또는 탭이 열릴 수 있습니다. 로그인 메시지가 표시되지 않는 경우 팝업 차단을 확인합니다.
 
     ![로그인하여 보고서 보기](media/service-embed-secure/secure-embed-sign-in.png)
 
@@ -63,7 +63,7 @@ Power BI 서비스에서 포함된 보고서를 액세스해야 하는 사용자
 | pageName  | **pageName** 쿼리 문자열 매개 변수를 사용하여 어떤 보고서 페이지를 열지 설정할 수 있습니다. 아래 그림과 같이 Power BI 서비스에 있는 보고서를 볼 때 보고서 URL의 끝에서 이 값을 확인할 수 있습니다. |  |  |  |
 | URL 필터  | Power BI UI로부터 받은 포함 URL의 [URL 필터](service-url-filters.md)를 사용하여 포함된 내용을 필터링할 수 있습니다. 이러한 방식으로 기본 HTML 및 JavaScript 환경만으로 로우 코드 통합을 빌드할 수 있습니다.  |  |  |  |
 
-## <a name="set-which-page-opens-for-an-embedded-report"></a>포함된 보고서에 대해 열리는 페이지를 설정합니다. 
+## <a name="set-which-page-opens-for-an-embedded-report"></a>포함된 보고서에 대해 열리는 페이지 설정 
 
 Power BI 서비스에 있는 보고서를 볼 때 보고서 URL의 끝에서 **pageName** 값을 확인할 수 있습니다.
 
@@ -77,7 +77,7 @@ Power BI 서비스에 있는 보고서를 볼 때 보고서 URL의 끝에서 **p
 
 ## <a name="filter-report-content-using-url-filters"></a>URL 필터를 사용하여 보고서 내용 필터링 
 
-[URL 필터](service-url-filters.md)를 사용하여 다른 보고서 뷰를 제공할 수 있습니다. 예를 들어 아래 URL은 보고서를 필터링하여 에너지 산업에 대한 데이터를 표시합니다.
+[URL 필터](service-url-filters.md)를 사용하여 다른 보고서 보기를 제공할 수 있습니다. 예를 들어 아래 URL은 보고서를 필터링하여 에너지 산업에 대한 데이터를 표시합니다.
 
 **pageName** 및 [URL 필터](service-url-filters.md)의 조합은 강력할 수 있습니다. 기본 HTML 및 JavaScript를 사용하여 환경을 빌드할 수 있습니다.
 
