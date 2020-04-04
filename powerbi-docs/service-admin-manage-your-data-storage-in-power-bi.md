@@ -23,7 +23,7 @@ ms.locfileid: "76709895"
 
 ## <a name="capacity-limits"></a>용량 제한
 
-작업 영역 스토리지 제한은 내 작업 영역이든 앱 작업 영역이든 작업 영역이 [공유 또는 프리미엄 용량](service-basic-concepts.md#capacities)인지에 따라 다릅니다.
+내 작업 영역 또는 앱 작업 영역에 대한 작업 영역 스토리지 제한은 작업 영역이 [공유 또는 프리미엄 용량](service-basic-concepts.md#capacities)인지에 따라 다릅니다.
 
 ### <a name="shared-capacity-limits"></a>공유 용량 제한
 공유 용량의 작업 영역: 
